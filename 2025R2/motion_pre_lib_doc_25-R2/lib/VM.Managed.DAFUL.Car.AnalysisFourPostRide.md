@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRide"></a> Class AnalysisFourPostRide
+# Class AnalysisFourPostRide
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -36,7 +36,7 @@ AnalysisBase.IsSim
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRide__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisFourPostRide\(ILinkContainer\)
+### AnalysisFourPostRide\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSteadySingle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -50,7 +50,7 @@ public AnalysisFourPostRide(ILinkContainer lnkContainer)
 
 The link container.
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRide__ctor"></a> AnalysisFourPostRide\(\)
+### AnalysisFourPostRide\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSteadySingle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -60,7 +60,7 @@ public AnalysisFourPostRide()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRide_RideInfo"></a> RideInfo
+### RideInfo
 
 Gets or sets the single.
 
@@ -74,7 +74,7 @@ public AnalysisFourPostRideInfo RideInfo { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRide_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
+### GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -88,7 +88,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 The parameter array.
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRide_MakeSpline_System_Collections_Generic_List_System_Double______"></a> MakeSpline\(List<double\[\]\>\[\]\)
+### MakeSpline\(List<double\[\]\>\[\]\)
 
 Makes the spline.
 
@@ -105,4 +105,5 @@ The ar SPL.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

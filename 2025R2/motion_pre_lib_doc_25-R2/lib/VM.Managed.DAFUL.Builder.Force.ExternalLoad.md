@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Force_ExternalLoad"></a> Class ExternalLoad
+# Class ExternalLoad
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFP.dll  
@@ -53,7 +53,7 @@ BuilderBase<ExternalLoad\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Force_ExternalLoad__ctor"></a> ExternalLoad\(\)
+### ExternalLoad\(\)
 
 ```csharp
 public ExternalLoad()
@@ -61,7 +61,7 @@ public ExternalLoad()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Force_ExternalLoad_TargetBody"></a> TargetBody
+### TargetBody
 
 ```csharp
 public ObjectBase TargetBody { get; }
@@ -73,7 +73,7 @@ public ObjectBase TargetBody { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Force_ExternalLoad_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -88,4 +88,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

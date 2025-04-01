@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearSetCustom"></a> Class GearSetCustom
+# Class GearSetCustom
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -264,7 +264,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCustom__ctor"></a> GearSetCustom\(\)
+### GearSetCustom\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetCustom" data-throw-if-not-resolved="false"></xref> class.
 
@@ -272,7 +272,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSet
 public GearSetCustom()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCustom__ctor_System_String_"></a> GearSetCustom\(string\)
+### GearSetCustom\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetCustom" data-throw-if-not-resolved="false"></xref> class.
 
@@ -288,7 +288,7 @@ Name of the string.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCustom_Extension"></a> Extension
+### Extension
 
 Gets the extension.
 
@@ -300,7 +300,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCustom_TypeFileName"></a> TypeFileName
+### TypeFileName
 
 Gets the name of the type file.
 
@@ -314,7 +314,7 @@ public override string TypeFileName { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCustom_CreateGearGeometry_System_String_System_Int32_VM_Managed_DAFUL_GearTrain_GearShapeBase___"></a> CreateGearGeometry\(string, int, GearShapeBase\[\]\)
+### CreateGearGeometry\(string, int, GearShapeBase\[\]\)
 
 Create Gear Geometry.
 
@@ -336,7 +336,7 @@ The No. of gear
 
 The gear shape geometry
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCustom_MeshingCore_System_Int32_System_Double_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder___"></a> MeshingCore\(int, double, ref List<IGearBuilder\>\)
+### MeshingCore\(int, double, ref List<IGearBuilder\>\)
 
 Meshing
 
@@ -358,7 +358,7 @@ The initial angle
 
 The builder list
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCustom_OnPostBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Post build in Special
 
@@ -379,4 +379,5 @@ The document
 `InputArray` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The input array
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_DriveTrain"></a> Namespace VM.CAD.Builders.DriveTrain
+# Namespace VM.CAD.Builders.DriveTrain
 
 ### Classes
 
@@ -17,4 +17,5 @@ This class represents the builder parameter for the gear geometry
  [BuilderParamMotorStator](VM.CAD.Builders.DriveTrain.BuilderParamMotorStator.md)
 
  [BuilderParamRack](VM.CAD.Builders.DriveTrain.BuilderParamRack.md)
+
 

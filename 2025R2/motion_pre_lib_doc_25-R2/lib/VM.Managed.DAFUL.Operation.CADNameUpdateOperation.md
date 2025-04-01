@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_CADNameUpdateOperation"></a> Class CADNameUpdateOperation
+# Class CADNameUpdateOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_CADNameUpdateOperation__ctor_VM_Managed_CAD_Body_System_String_"></a> CADNameUpdateOperation\(Body, string\)
+### CADNameUpdateOperation\(Body, string\)
 
 ```csharp
 public CADNameUpdateOperation(Body cad, string strNewName)
@@ -89,7 +89,7 @@ public CADNameUpdateOperation(Body cad, string strNewName)
 
 `strNewName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Operation_CADNameUpdateOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> CADNameUpdateOperation\(JournalParameter\)
+### CADNameUpdateOperation\(JournalParameter\)
 
 ```csharp
 public CADNameUpdateOperation(JournalParameter jp)
@@ -101,7 +101,7 @@ public CADNameUpdateOperation(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_CADNameUpdateOperation_IsSuccess"></a> IsSuccess
+### IsSuccess
 
 ```csharp
 public bool IsSuccess { get; }
@@ -111,7 +111,7 @@ public bool IsSuccess { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_CADNameUpdateOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -125,7 +125,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_CADNameUpdateOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -133,7 +133,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_CADNameUpdateOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -142,4 +142,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

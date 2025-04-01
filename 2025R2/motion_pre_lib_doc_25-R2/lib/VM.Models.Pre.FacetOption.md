@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_FacetOption"></a> Class FacetOption
+# Class FacetOption
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -22,7 +22,7 @@ public class FacetOption
 
 ## Constructors
 
-### <a id="VM_Models_Pre_FacetOption__ctor"></a> FacetOption\(\)
+### FacetOption\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.FacetOption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -30,7 +30,7 @@ Initializes a new instance of the <xref href="VM.Models.Pre.FacetOption" data-th
 public FacetOption()
 ```
 
-### <a id="VM_Models_Pre_FacetOption__ctor_System_Double_System_Double_System_Double_"></a> FacetOption\(double, double, double\)
+### FacetOption\(double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.FacetOption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -54,7 +54,7 @@ The normal tolerance.
 
 ## Properties
 
-### <a id="VM_Models_Pre_FacetOption_MaxEdgeLength"></a> MaxEdgeLength
+### MaxEdgeLength
 
 Gets or sets the maximum edge length.
 
@@ -66,7 +66,7 @@ public double MaxEdgeLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_FacetOption_NormalTolerance"></a> NormalTolerance
+### NormalTolerance
 
 Gets or sets the normal tolerance.
 
@@ -78,7 +78,7 @@ public double NormalTolerance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_FacetOption_SurfaceTolerance"></a> SurfaceTolerance
+### SurfaceTolerance
 
 Gets or sets the surface tolerance.
 
@@ -89,4 +89,5 @@ public double SurfaceTolerance { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

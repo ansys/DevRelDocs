@@ -1,9 +1,10 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_DisplayNumber"></a> Enum ElementFunction.DisplayNumber
+# Enum ElementFunction.DisplayNumber
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
 
-Indicates whether this is a one or three.
+<p>Indicates whether this is a one or three.</p>
+<p>ui에 보이는 함수 갯수를 가리킵니다.</p>
 
 ```csharp
 public enum ElementFunction.DisplayNumber
@@ -13,13 +14,16 @@ public enum ElementFunction.DisplayNumber
 
 `One = 0` 
 
-The One function.
+<p>The One function.</p>
+<p>한개의 함수</p>
 
 
 
 `Three = 1` 
 
-The Three function.
+<p>The Three function.</p>
+<p>세개의 함수</p>
+
 
 
 

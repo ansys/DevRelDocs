@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_Util_CreateUserDefinedMarker"></a> Class CreateUserDefinedMarker
+# Class CreateUserDefinedMarker
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -22,7 +22,7 @@ public class CreateUserDefinedMarker
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateUserDefinedMarker__ctor"></a> CreateUserDefinedMarker\(\)
+### CreateUserDefinedMarker\(\)
 
 ```csharp
 public CreateUserDefinedMarker()
@@ -30,7 +30,7 @@ public CreateUserDefinedMarker()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateUserDefinedMarker_CreateOnGround_VM_Managed_Document3D_VM_Managed_TransformBase_System_String_"></a> CreateOnGround\(Document3D, TransformBase, string\)
+### CreateOnGround\(Document3D, TransformBase, string\)
 
 Create the user defined marker on ground.
 
@@ -57,4 +57,5 @@ The user defined marker name.
  Marker
 
 The new user defined marker.
+
 

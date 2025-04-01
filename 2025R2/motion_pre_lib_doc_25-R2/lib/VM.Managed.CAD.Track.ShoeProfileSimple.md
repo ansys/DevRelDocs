@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_ShoeProfileSimple"></a> Class ShoeProfileSimple
+# Class ShoeProfileSimple
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -36,7 +36,7 @@ public class ShoeProfileSimple : ShoeProfileBase
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSimple__ctor"></a> ShoeProfileSimple\(\)
+### ShoeProfileSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeProfileSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,7 +46,7 @@ public ShoeProfileSimple()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSimple_GrouserHeight"></a> GrouserHeight
+### GrouserHeight
 
 Gets and sets height for grouser .
 
@@ -58,7 +58,7 @@ public double GrouserHeight { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSimple_GrouserWidth"></a> GrouserWidth
+### GrouserWidth
 
 Gets and sets width for grouser
 
@@ -72,7 +72,7 @@ public double GrouserWidth { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSimple_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
+### CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -80,7 +80,7 @@ Checks the validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSimple_CreateProfile"></a> CreateProfile\(\)
+### CreateProfile\(\)
 
 ```csharp
 protected override bool CreateProfile()
@@ -90,17 +90,18 @@ protected override bool CreateProfile()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSimple_SetInitializeValue"></a> SetInitializeValue\(\)
+### SetInitializeValue\(\)
 
 ```csharp
 public override void SetInitializeValue()
 ```
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSimple_Validation"></a> Validation\(\)
+### Validation\(\)
 
 Check validation for member variables.
 
 ```csharp
 public override void Validation()
 ```
+
 

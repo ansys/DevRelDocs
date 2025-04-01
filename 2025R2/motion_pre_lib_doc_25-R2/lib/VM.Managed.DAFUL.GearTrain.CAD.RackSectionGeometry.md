@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSectionGeometry"></a> Class RackSectionGeometry
+# Class RackSectionGeometry
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -117,7 +117,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSectionGeometry__ctor"></a> RackSectionGeometry\(\)
+### RackSectionGeometry\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RackSectionGeometry" data-throw-if-not-resolved="false"></xref> class.
 
@@ -127,7 +127,7 @@ public RackSectionGeometry()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSectionGeometry_GearGeometryInformation"></a> GearGeometryInformation
+### GearGeometryInformation
 
 Gets or sets the gear geometry information.
 
@@ -139,7 +139,7 @@ public GearGeometryInfo GearGeometryInformation { get; set; }
 
  [GearGeometryInfo](VM.Managed.DAFUL.GearTrain.GearGeometryInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSectionGeometry_Length"></a> Length
+### Length
 
 Gets or sets the length.
 
@@ -151,7 +151,7 @@ public override Variable Length { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSectionGeometry_TypeOfGeometry"></a> TypeOfGeometry
+### TypeOfGeometry
 
 Gets the type of geometry.
 
@@ -165,7 +165,7 @@ public override SectionGeometryBase.GeometryType TypeOfGeometry { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSectionGeometry_GetBuilder_VM_Managed_CAD_BuilderColor_VM_Managed_VectorBase_"></a> GetBuilder\(BuilderColor, VectorBase\)
+### GetBuilder\(BuilderColor, VectorBase\)
 
 Gets the builder.
 
@@ -187,7 +187,7 @@ The offset direction.
 
  Builder
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSectionGeometry_GetGeomInfo"></a> GetGeomInfo\(\)
+### GetGeomInfo\(\)
 
 Gets the geom information.
 
@@ -199,7 +199,7 @@ public override double[] GetGeomInfo()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSectionGeometry_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
+### GetLengthAndHeight\(ref double, ref double\)
 
 Gets the start and end point.
 
@@ -217,7 +217,7 @@ Length of the d.
 
 Height of the d.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSectionGeometry_InnerCreateParameter"></a> InnerCreateParameter\(\)
+### InnerCreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase InnerCreateParameter()
@@ -227,7 +227,7 @@ protected override BuilderParamBase InnerCreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSectionGeometry_InnerFillParameter_VM_CAD_Builders_BuilderParamBase_VM_Managed_CAD_BuilderColor_VM_Managed_VectorBase_"></a> InnerFillParameter\(BuilderParamBase, BuilderColor, VectorBase\)
+### InnerFillParameter\(BuilderParamBase, BuilderColor, VectorBase\)
 
 ```csharp
 protected override void InnerFillParameter(BuilderParamBase parameter, BuilderColor color, VectorBase vecOffsetDirection)
@@ -241,7 +241,7 @@ protected override void InnerFillParameter(BuilderParamBase parameter, BuilderCo
 
 `vecOffsetDirection` VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSectionGeometry_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -259,7 +259,7 @@ The linked object.
 
 The destroy event information.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSectionGeometry_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -277,7 +277,7 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSectionGeometry_SplitSectionInfo_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_Int32_"></a> SplitSectionInfo\(HiddenShaftSetDocument, string, int\)
+### SplitSectionInfo\(HiddenShaftSetDocument, string, int\)
 
 Splits the section information.
 
@@ -302,4 +302,5 @@ The n number.
 #### Returns
 
  [SectionInfo](VM.Managed.DAFUL.GearTrain.SectionInfo.md)\[\]
+
 

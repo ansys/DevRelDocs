@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetMeshFree"></a> Class PropertyShaftSetMeshFree
+# Class PropertyShaftSetMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -203,11 +203,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetMeshFree__ctor"></a> PropertyShaftSetMeshFree\(\)
+### PropertyShaftSetMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyShaftSetMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyShaftSetMeshFree()
 ```
+
 

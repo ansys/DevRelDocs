@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ObjectBase_Destroy"></a> Struct ObjectBase.Destroy
+# Struct ObjectBase.Destroy
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -12,4 +12,5 @@ public struct ObjectBase.Destroy : ILinkContainerEvent.ILinkEventBuilder
 #### Implements
 
 [ILinkContainerEvent.ILinkEventBuilder](VM.Managed.ILinkContainerEvent.ILinkEventBuilder.md)
+
 

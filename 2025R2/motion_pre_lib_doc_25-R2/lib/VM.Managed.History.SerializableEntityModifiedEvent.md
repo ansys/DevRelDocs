@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_SerializableEntityModifiedEvent"></a> Class SerializableEntityModifiedEvent
+# Class SerializableEntityModifiedEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -71,7 +71,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_History_SerializableEntityModifiedEvent__ctor_System_Object_"></a> SerializableEntityModifiedEvent\(object\)
+### SerializableEntityModifiedEvent\(object\)
 
 ```csharp
 public SerializableEntityModifiedEvent(object obOriginal)
@@ -80,4 +80,5 @@ public SerializableEntityModifiedEvent(object obOriginal)
 #### Parameters
 
 `obOriginal` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
 

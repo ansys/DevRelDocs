@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_CreateInfo"></a> Class WheelBodyBase.CreateInfo
+# Class WheelBodyBase.CreateInfo
 
 Namespace: [VM.Managed.DAFUL.Tire](VM.Managed.DAFUL.Tire.md)  
 Assembly: VMDTire.dll  
@@ -22,7 +22,7 @@ public class WheelBodyBase.CreateInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_CreateInfo__ctor"></a> CreateInfo\(\)
+### CreateInfo\(\)
 
 ```csharp
 public CreateInfo()
@@ -30,7 +30,7 @@ public CreateInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_CreateInfo_CMOffset"></a> CMOffset
+### CMOffset
 
 Gets or sets the CM offset.
 
@@ -42,7 +42,7 @@ public double CMOffset { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_CreateInfo_Color"></a> Color
+### Color
 
 Gets or sets the color.
 
@@ -54,7 +54,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_CreateInfo_Transform"></a> Transform
+### Transform
 
 Gets or sets the transform.
 
@@ -66,7 +66,7 @@ public TransformBase Transform { get; set; }
 
  TransformBase
 
-### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_CreateInfo_WheelCenterOffset"></a> WheelCenterOffset
+### WheelCenterOffset
 
 Gets or sets the wheel center offset.
 
@@ -77,4 +77,5 @@ public double WheelCenterOffset { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

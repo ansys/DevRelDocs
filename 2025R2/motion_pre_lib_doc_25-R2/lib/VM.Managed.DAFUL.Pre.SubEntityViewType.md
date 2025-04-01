@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_SubEntityViewType"></a> Enum SubEntityViewType
+# Enum SubEntityViewType
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -98,6 +98,7 @@ UserSubRoutineView
 `VariableEquationView = 8` 
 
 VariableEquationView
+
 
 
 

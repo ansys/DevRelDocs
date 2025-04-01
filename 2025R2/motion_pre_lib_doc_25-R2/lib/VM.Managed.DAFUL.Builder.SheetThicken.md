@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_SheetThicken"></a> Class SheetThicken
+# Class SheetThicken
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -53,7 +53,7 @@ public class SheetThicken : BooleanBase<BuilderSheetThicken>, IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_SheetThicken__ctor"></a> SheetThicken\(\)
+### SheetThicken\(\)
 
 ```csharp
 public SheetThicken()
@@ -61,7 +61,7 @@ public SheetThicken()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_SheetThicken_Argument"></a> Argument
+### Argument
 
 ```csharp
 protected override string Argument { get; }
@@ -71,7 +71,7 @@ protected override string Argument { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_SheetThicken_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -81,7 +81,7 @@ public string[] InputArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_SheetThicken_SheetNames"></a> SheetNames
+### SheetNames
 
 ```csharp
 public string[] SheetNames { get; set; }
@@ -91,7 +91,7 @@ public string[] SheetNames { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_SheetThicken_Thickness"></a> Thickness
+### Thickness
 
 ```csharp
 public Variable Thickness { get; set; }
@@ -101,7 +101,7 @@ public Variable Thickness { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_SheetThicken_Type"></a> Type
+### Type
 
 ```csharp
 protected override string Type { get; }
@@ -113,7 +113,7 @@ protected override string Type { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_SheetThicken_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public override void Build(Document doc)
@@ -123,7 +123,7 @@ public override void Build(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Builder_SheetThicken_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -136,4 +136,5 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

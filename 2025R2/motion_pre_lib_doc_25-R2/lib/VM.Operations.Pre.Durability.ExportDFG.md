@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre_Durability_ExportDFG"></a> Class ExportDFG
+# Class ExportDFG
 
 Namespace: [VM.Operations.Pre.Durability](VM.Operations.Pre.Durability.md)  
 Assembly: VM.Operations.Pre.Durability.dll  
@@ -104,7 +104,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Operations_Pre_Durability_ExportDFG__ctor_VM_Managed_Document_VM_Models_Pre_Durability_DurabilityData_"></a> ExportDFG\(Document, DurabilityData\)
+### ExportDFG\(Document, DurabilityData\)
 
 Initializes a new instance of the <xref href="VM.Operations.Pre.Durability.ExportDFG" data-throw-if-not-resolved="false"></xref> class.
 
@@ -122,7 +122,7 @@ The doc.
 
 The durabilityData.
 
-### <a id="VM_Operations_Pre_Durability_ExportDFG__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportDFG\(JournalParameter\)
+### ExportDFG\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Operations.Pre.Durability.ExportDFG" data-throw-if-not-resolved="false"></xref> class.
 
@@ -138,7 +138,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Operations_Pre_Durability_ExportDFG_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -152,7 +152,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Operations_Pre_Durability_ExportDFG_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -160,9 +160,10 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Operations_Pre_Durability_ExportDFG_ExportDFGImpl"></a> ExportDFGImpl\(\)
+### ExportDFGImpl\(\)
 
 ```csharp
 protected override void ExportDFGImpl()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_Settings"></a> Class Settings
+# Class Settings
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  
@@ -33,7 +33,7 @@ SettingsBase<Settings\>.RootPath
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CoSim_Settings__ctor"></a> Settings\(\)
+### Settings\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.Settings" data-throw-if-not-resolved="false"></xref> class.
 
@@ -43,7 +43,7 @@ public Settings()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CoSim_Settings_InterfacePath"></a> InterfacePath
+### InterfacePath
 
 Gets the interface path.
 
@@ -55,4 +55,5 @@ public string InterfacePath { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_HydroForce"></a> Class HydroForce
+# Class HydroForce
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -208,7 +208,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce__ctor"></a> HydroForce\(\)
+### HydroForce\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.HydroForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -216,7 +216,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.HydroForce"
 public HydroForce()
 ```
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce__ctor_System_String_"></a> HydroForce\(string\)
+### HydroForce\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.HydroForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -232,7 +232,7 @@ Name of the string.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodies"></a> ActionBodies
+### ActionBodies
 
 Gets or sets the action body data.
 
@@ -244,7 +244,7 @@ public HydroForce.ActionBodyData[] ActionBodies { get; set; }
 
  [HydroForce](VM.Managed.DAFUL.Track.HydroForce.md).[ActionBodyData](VM.Managed.DAFUL.Track.HydroForce.ActionBodyData.md)\[\]
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -256,7 +256,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -268,7 +268,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_Water"></a> Water
+### Water
 
 Gets or sets the water.
 
@@ -280,7 +280,7 @@ public IWater Water { get; set; }
 
  [IWater](VM.Managed.DAFUL.Track.IWater.md)
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce__Water"></a> \_Water
+### \_Water
 
 Gets or sets the water.
 
@@ -294,7 +294,7 @@ public Linker<IWater> _Water { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -308,7 +308,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_GetCenterMarkerFromIConnectable_VM_Managed_DAFUL_IConnectable_"></a> GetCenterMarkerFromIConnectable\(IConnectable\)
+### GetCenterMarkerFromIConnectable\(IConnectable\)
 
 Gets center marker from connectable entity
 
@@ -326,7 +326,7 @@ The connectable entity
 
  IMarker
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_GetMassFromIConnectable_VM_Managed_DAFUL_IConnectable_"></a> GetMassFromIConnectable\(IConnectable\)
+### GetMassFromIConnectable\(IConnectable\)
 
 Gets mass from connectable entity
 
@@ -344,7 +344,7 @@ The connectable entity
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -372,7 +372,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_GetPatches_VM_Managed_DAFUL_Track_HydroForce_ActionBodyData_VM_Managed_VectorBase____System_UInt32____VM_Managed_TMatrix__System_Double__"></a> GetPatches\(ActionBodyData, ref VectorBase\[\], ref uint\[\], ref TMatrix, ref double\)
+### GetPatches\(ActionBodyData, ref VectorBase\[\], ref uint\[\], ref TMatrix, ref double\)
 
 Gets Patches
 
@@ -402,7 +402,7 @@ The transform matrix
 
 The boundary box volume
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_GetPatches_VM_Managed_Document_System_String_VM_Managed_DAFUL_Track_HydroForce_ActionBodyData_SurfaceType_System_Int32_VM_Managed_VectorBase____System_UInt32____VM_Managed_TMatrix__System_Double__VM_Managed_DAFUL_Track_HydroForce_SetProgressDelegate_"></a> GetPatches\(Document, string, SurfaceType, int, ref VectorBase\[\], ref uint\[\], ref TMatrix, ref double, SetProgressDelegate\)
+### GetPatches\(Document, string, SurfaceType, int, ref VectorBase\[\], ref uint\[\], ref TMatrix, ref double, SetProgressDelegate\)
 
 Gets Patches
 
@@ -448,7 +448,7 @@ The boundary box volume
 
 The progress delegate
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_GetVolumeFromIConnectable_VM_Managed_DAFUL_IConnectable_"></a> GetVolumeFromIConnectable\(IConnectable\)
+### GetVolumeFromIConnectable\(IConnectable\)
 
 Gets volume from connectable entity
 
@@ -466,7 +466,7 @@ The connectable entity
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -484,11 +484,12 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
 ```csharp
 public virtual void ReDraw()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFreePropertyForSolidBody"></a> Class MeshFreePropertyForSolidBody
+# Class MeshFreePropertyForSolidBody
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -97,7 +97,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFreePropertyForSolidBody__ctor"></a> MeshFreePropertyForSolidBody\(\)
+### MeshFreePropertyForSolidBody\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFreePropertyForSolidBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ public MeshFreePropertyForSolidBody()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFreePropertyForSolidBody_AnalysisLevelGroup"></a> AnalysisLevelGroup
+### AnalysisLevelGroup
 
 Gets or sets analysis level group for MeshFree
 
@@ -119,7 +119,7 @@ public MeshFreeAnalysisLevelGroup AnalysisLevelGroup { get; set; }
 
  MeshFreeAnalysisLevelGroup
 
-### <a id="VM_Managed_DAFUL_MeshFreePropertyForSolidBody_GINFFilePath"></a> GINFFilePath
+### GINFFilePath
 
 Gets or sets GINF file path for MeshFree
 
@@ -131,7 +131,7 @@ public string GINFFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_MeshFreePropertyForSolidBody_GeometryOutputProperty"></a> GeometryOutputProperty
+### GeometryOutputProperty
 
 Gets or sets facet properties of solid body for MeshFree
 
@@ -143,7 +143,7 @@ public AttributeMeshFreeGeometryOutputProperty GeometryOutputProperty { get; set
 
  AttributeMeshFreeGeometryOutputProperty
 
-### <a id="VM_Managed_DAFUL_MeshFreePropertyForSolidBody_GeometryPrecision"></a> GeometryPrecision
+### GeometryPrecision
 
 Gets or sets geometry precision of solid body for MeshFree
 
@@ -155,7 +155,7 @@ public uint GeometryPrecision { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_MeshFreePropertyForSolidBody_GeometryType"></a> GeometryType
+### GeometryType
 
 Gets or sets geometry type of solid body for MeshFree
 
@@ -166,4 +166,5 @@ public MeshFreeGeometryType GeometryType { get; set; }
 #### Property Value
 
  MeshFreeGeometryType
+
 

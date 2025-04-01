@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderSheetThicken_DirectionType"></a> Enum BuilderSheetThicken.DirectionType
+# Enum BuilderSheetThicken.DirectionType
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -26,6 +26,7 @@ Down.
 `Up = 1` 
 
 Up.
+
 
 
 

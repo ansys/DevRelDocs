@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument"></a> Class FullCarTestRigDocument
+# Class FullCarTestRigDocument
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -596,7 +596,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument__ctor_System_UIntPtr_"></a> FullCarTestRigDocument\(UIntPtr\)
+### FullCarTestRigDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FullCarTestRigDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -612,7 +612,7 @@ The document handle.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_ApplyInitialVelocityImpl"></a> ApplyInitialVelocityImpl
+### ApplyInitialVelocityImpl
 
 Whether InitialVelocity is applicable or not
 
@@ -624,7 +624,7 @@ protected override bool ApplyInitialVelocityImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_BrakeBias"></a> BrakeBias
+### BrakeBias
 
 Gets or sets the brake bias.
 
@@ -636,7 +636,7 @@ public ExpressionValueVariable BrakeBias { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_InitialCategories"></a> InitialCategories
+### InitialCategories
 
 Gets the initial categories.
 
@@ -648,7 +648,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_InitialVelocityImpl"></a> InitialVelocityImpl
+### InitialVelocityImpl
 
 Gets the initial velocity
 
@@ -660,7 +660,7 @@ protected override double InitialVelocityImpl { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_Interfaces"></a> Interfaces
+### Interfaces
 
 Gets the interfaces.
 
@@ -672,7 +672,7 @@ protected override InterfaceManager Interfaces { get; }
 
  InterfaceManager
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_IsPowerSteer"></a> IsPowerSteer
+### IsPowerSteer
 
 Gets a value indicating whether this instance is power steering.
 
@@ -684,7 +684,7 @@ public bool IsPowerSteer { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_MaxFrontBrakeTorque"></a> MaxFrontBrakeTorque
+### MaxFrontBrakeTorque
 
 Gets or sets the max front brake torque.
 
@@ -696,7 +696,7 @@ public ExpressionValueVariable MaxFrontBrakeTorque { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_MaxRearBrakeTorque"></a> MaxRearBrakeTorque
+### MaxRearBrakeTorque
 
 Gets or sets the max rear brake torque.
 
@@ -708,7 +708,7 @@ public ExpressionValueVariable MaxRearBrakeTorque { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_MinorRoleType"></a> MinorRoleType
+### MinorRoleType
 
 Gets or sets the type of the minor role.
 
@@ -720,7 +720,7 @@ public MinorRole MinorRoleType { get; set; }
 
  [MinorRole](VM.Managed.DAFUL.Car.MinorRole.md)
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_RackRatio"></a> RackRatio
+### RackRatio
 
 Gets or sets the rack ratio.
 
@@ -732,7 +732,7 @@ public ExpressionValueVariable RackRatio { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_SimulationScenarioTypeName"></a> SimulationScenarioTypeName
+### SimulationScenarioTypeName
 
 Gets the name of the simulation scenario type.
 
@@ -744,7 +744,7 @@ public override string SimulationScenarioTypeName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_SteeringRatio"></a> SteeringRatio
+### SteeringRatio
 
 Gets or sets the steering ratio.
 
@@ -758,7 +758,7 @@ public ExpressionValueVariable SteeringRatio { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_ClearDocument"></a> ClearDocument\(\)
+### ClearDocument\(\)
 
 Clears the document.
 
@@ -766,7 +766,7 @@ Clears the document.
 protected override void ClearDocument()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_FindCategory_System_String_"></a> FindCategory\(string\)
+### FindCategory\(string\)
 
 Finds the category.
 
@@ -786,7 +786,7 @@ The fullname of type.
 
 The category.
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_GetAnalysisFromSimulationConfigurations_VM_Managed_DAFUL_Car_FullCarAnalysisType_"></a> GetAnalysisFromSimulationConfigurations\(FullCarAnalysisType\)
+### GetAnalysisFromSimulationConfigurations\(FullCarAnalysisType\)
 
 Gets the analysis from simulation configurations.
 
@@ -804,7 +804,7 @@ The type.
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_GetFullCarConfigurationFromSimulationConfigurations_VM_Managed_DAFUL_Car_FullCarAnalysisType_"></a> GetFullCarConfigurationFromSimulationConfigurations\(FullCarAnalysisType\)
+### GetFullCarConfigurationFromSimulationConfigurations\(FullCarAnalysisType\)
 
 Gets the full car configuration from simulation configurations.
 
@@ -822,7 +822,7 @@ The type.
 
  [FullCarAnalysisConfigurationBase](VM.Managed.DAFUL.Car.FullCarAnalysisConfigurationBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_GetSimulationConfigurationType"></a> GetSimulationConfigurationType\(\)
+### GetSimulationConfigurationType\(\)
 
 Gets the type of the simulation configuration.
 
@@ -836,7 +836,7 @@ public override string GetSimulationConfigurationType()
 
 The type of the simulation configuration.
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_InitializeAssemblyMember"></a> InitializeAssemblyMember\(\)
+### InitializeAssemblyMember\(\)
 
 Initializes the assembly member.
 
@@ -844,7 +844,7 @@ Initializes the assembly member.
 protected void InitializeAssemblyMember()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
+### InitializeCategoryInfo\(string\)
 
 Initializes the category info.
 
@@ -858,7 +858,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the STR category.
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_InitializeInterface"></a> InitializeInterface\(\)
+### InitializeInterface\(\)
 
 Initializes the interface.
 
@@ -866,7 +866,7 @@ Initializes the interface.
 protected override void InitializeInterface()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_InitializeSimParam"></a> InitializeSimParam\(\)
+### InitializeSimParam\(\)
 
 Initializes the simulation parameter.
 
@@ -874,7 +874,7 @@ Initializes the simulation parameter.
 protected override void InitializeSimParam()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -892,7 +892,7 @@ The linked object.
 
 The destroy event information.
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_LoadTemplateBasedXml_System_Xml_XmlReader_"></a> LoadTemplateBasedXml\(XmlReader\)
+### LoadTemplateBasedXml\(XmlReader\)
 
 Loads the XML for template based document.
 
@@ -906,7 +906,7 @@ protected override void LoadTemplateBasedXml(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_LoadTemplateBasedXmlCore_System_Xml_XmlReader_System_String_System_Type_"></a> LoadTemplateBasedXmlCore\(XmlReader, string, Type\)
+### LoadTemplateBasedXmlCore\(XmlReader, string, Type\)
 
 Loads the template based XML core.
 
@@ -932,7 +932,7 @@ The type information.
 
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_ReplaceAssembly_System_String_"></a> ReplaceAssembly\(string\)
+### ReplaceAssembly\(string\)
 
 Replaces the assembly.
 
@@ -946,7 +946,7 @@ public override void ReplaceAssembly(string strAssemblyInfo)
 
 The assembly info.
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_ReplaceAssemblyCore_VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_System_Xml_XmlDocument_"></a> ReplaceAssemblyCore\(DocCreateFullCarAnalysisInfoExceptWheel, XmlDocument\)
+### ReplaceAssemblyCore\(DocCreateFullCarAnalysisInfoExceptWheel, XmlDocument\)
 
 Replaces the assembly core.
 
@@ -964,7 +964,7 @@ The document create car analysis information.
 
 The XML document.
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_ReplaceOneSubsystem_System_String_System_String_"></a> ReplaceOneSubsystem\(string, string\)
+### ReplaceOneSubsystem\(string, string\)
 
 Replaces the one subsystem.
 
@@ -982,7 +982,7 @@ The old subsystem.
 
 The new subsystem.
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_SaveTemplateBasedXml_System_Xml_XmlWriter_"></a> SaveTemplateBasedXml\(XmlWriter\)
+### SaveTemplateBasedXml\(XmlWriter\)
 
 Saves the XML for template based document.
 
@@ -996,7 +996,7 @@ protected override void SaveTemplateBasedXml(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_SaveTemplateBasedXmlCore_VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_System_Xml_XmlWriter_"></a> SaveTemplateBasedXmlCore\(DocCreateFullCarAnalysisInfoExceptWheel, XmlWriter\)
+### SaveTemplateBasedXmlCore\(DocCreateFullCarAnalysisInfoExceptWheel, XmlWriter\)
 
 Saves the template based XML core.
 
@@ -1018,7 +1018,7 @@ The writer.
 
  [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_SetPowerSteering_System_Boolean_"></a> SetPowerSteering\(bool\)
+### SetPowerSteering\(bool\)
 
 Set power steering.
 
@@ -1032,7 +1032,7 @@ public void SetPowerSteering(bool bIsPowerSteering)
 
 The flag.
 
-### <a id="VM_Managed_DAFUL_Car_FullCarTestRigDocument_SetTemplateInfoImpl_VM_Managed_DocFromTemplateInfo_"></a> SetTemplateInfoImpl\(DocFromTemplateInfo\)
+### SetTemplateInfoImpl\(DocFromTemplateInfo\)
 
 Sets the template info. [Implemetation]
 
@@ -1045,4 +1045,5 @@ protected override void SetTemplateInfoImpl(DocFromTemplateInfo docTemplateInfo)
 `docTemplateInfo` DocFromTemplateInfo
 
 The doc template info.
+
 

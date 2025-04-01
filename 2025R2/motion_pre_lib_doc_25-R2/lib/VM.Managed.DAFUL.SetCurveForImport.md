@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SetCurveForImport"></a> Class SetCurveForImport
+# Class SetCurveForImport
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -212,7 +212,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_SetCurveForImport__ctor"></a> SetCurveForImport\(\)
+### SetCurveForImport\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetCurveForImport" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,7 +220,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetCurveForImport
 public SetCurveForImport()
 ```
 
-### <a id="VM_Managed_DAFUL_SetCurveForImport__ctor_System_String_"></a> SetCurveForImport\(string\)
+### SetCurveForImport\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetCurveForImport" data-throw-if-not-resolved="false"></xref> class.
 
@@ -236,7 +236,7 @@ Name of the face set.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_SetCurveForImport_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -248,7 +248,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SetCurveForImport_ImportPath"></a> ImportPath
+### ImportPath
 
 Gets or sets the import path
 
@@ -260,7 +260,7 @@ public string ImportPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_SetCurveForImport_NumberOfPoints"></a> NumberOfPoints
+### NumberOfPoints
 
 Gets the count of Point.
 
@@ -272,7 +272,7 @@ public int NumberOfPoints { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_SetCurveForImport_Points"></a> Points
+### Points
 
 Gets or sets points for curveset.
 
@@ -296,7 +296,7 @@ The Point list is null.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_SetCurveForImport_AddPoint_VM_Managed_PointBase_"></a> AddPoint\(PointBase\)
+### AddPoint\(PointBase\)
 
 Add point
 
@@ -310,7 +310,7 @@ public void AddPoint(PointBase pt)
 
 The point
 
-### <a id="VM_Managed_DAFUL_SetCurveForImport_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -324,7 +324,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_SetCurveForImport_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
+### GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets point and direction
 
@@ -350,7 +350,7 @@ The reference entity
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SetCurveForImport_GetPoints"></a> GetPoints\(\)
+### GetPoints\(\)
 
 Gets points
 
@@ -362,7 +362,7 @@ public override VectorBase[] GetPoints()
 
  VectorBase\[\]
 
-### <a id="VM_Managed_DAFUL_SetCurveForImport_GetProfilePoint_System_Boolean__System_Collections_Generic_List_VM_Managed_VectorBase___"></a> GetProfilePoint\(ref bool, ref List<VectorBase\>\)
+### GetProfilePoint\(ref bool, ref List<VectorBase\>\)
 
 Gets profile point
 
@@ -384,7 +384,7 @@ The point list
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_SetCurveForImport_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -398,7 +398,7 @@ protected virtual void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### <a id="VM_Managed_DAFUL_SetCurveForImport_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -411,4 +411,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

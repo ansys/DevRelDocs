@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_ThermalContactBase_1"></a> Class ThermalContactBase<TProperty\>
+# Class ThermalContactBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -222,7 +222,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalContactBase_1__ctor"></a> ThermalContactBase\(\)
+### ThermalContactBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalContactBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -230,7 +230,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalCo
 public ThermalContactBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalContactBase_1__ctor_System_String_"></a> ThermalContactBase\(string\)
+### ThermalContactBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalContactBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -246,7 +246,7 @@ Name of the STR.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalContactBase_1_TargetObject"></a> TargetObject
+### TargetObject
 
 Gets the target object.
 
@@ -258,7 +258,7 @@ protected override ObjectBase TargetObject { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalContactBase_1_ThermalContactComponent"></a> ThermalContactComponent
+### ThermalContactComponent
 
 Gets or sets the thermal contact component.
 
@@ -272,7 +272,7 @@ public ObjectBase ThermalContactComponent { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalContactBase_1_ChangeContactImpl_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> ChangeContactImpl\(ObjectBase, ObjectBase\)
+### ChangeContactImpl\(ObjectBase, ObjectBase\)
 
 ```csharp
 public virtual void ChangeContactImpl(ObjectBase oldObject, ObjectBase newObject)
@@ -284,7 +284,7 @@ public virtual void ChangeContactImpl(ObjectBase oldObject, ObjectBase newObject
 
 `newObject` ObjectBase
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalContactBase_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -298,7 +298,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalContactBase_1_ReplaceEntityImpl_VM_Managed_ObjectBase_"></a> ReplaceEntityImpl\(ObjectBase\)
+### ReplaceEntityImpl\(ObjectBase\)
 
 Replace entity
 
@@ -311,4 +311,5 @@ protected override void ReplaceEntityImpl(ObjectBase newObject)
 `newObject` ObjectBase
 
 The new object
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_ITransformThreePoints"></a> Interface ITransformThreePoints
+# Interface ITransformThreePoints
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -24,7 +24,7 @@ IHasID,
 
 ## Properties
 
-### <a id="VM_Models_Pre_ITransformThreePoints_OriginPoint"></a> OriginPoint
+### OriginPoint
 
 ```csharp
 IPointBase OriginPoint { get; set; }
@@ -34,7 +34,7 @@ IPointBase OriginPoint { get; set; }
 
  [IPointBase](VM.Models.Pre.IPointBase.md)
 
-### <a id="VM_Models_Pre_ITransformThreePoints_XPoint"></a> XPoint
+### XPoint
 
 ```csharp
 IPointBase XPoint { get; set; }
@@ -44,7 +44,7 @@ IPointBase XPoint { get; set; }
 
  [IPointBase](VM.Models.Pre.IPointBase.md)
 
-### <a id="VM_Models_Pre_ITransformThreePoints_ZPoint"></a> ZPoint
+### ZPoint
 
 ```csharp
 IPointBase ZPoint { get; set; }
@@ -53,4 +53,5 @@ IPointBase ZPoint { get; set; }
 #### Property Value
 
  [IPointBase](VM.Models.Pre.IPointBase.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_IOpenFileService"></a> Interface IOpenFileService
+# Interface IOpenFileService
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -19,7 +19,7 @@ public interface IOpenFileService : IFileSupport
 
 ## Properties
 
-### <a id="VM_IOpenFileService_FileNames"></a> FileNames
+### FileNames
 
 ```csharp
 IReadOnlyCollection<string> FileNames { get; }
@@ -29,7 +29,7 @@ IReadOnlyCollection<string> FileNames { get; }
 
  [IReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlycollection\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_IOpenFileService_IsMultiSelect"></a> IsMultiSelect
+### IsMultiSelect
 
 ```csharp
 bool IsMultiSelect { get; set; }
@@ -41,7 +41,7 @@ bool IsMultiSelect { get; set; }
 
 ## Methods
 
-### <a id="VM_IOpenFileService_ShowDialog"></a> ShowDialog\(\)
+### ShowDialog\(\)
 
 ```csharp
 bool ShowDialog()
@@ -50,4 +50,5 @@ bool ShowDialog()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

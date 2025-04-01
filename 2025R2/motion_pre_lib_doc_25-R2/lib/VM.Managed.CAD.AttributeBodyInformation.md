@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_AttributeBodyInformation"></a> Class AttributeBodyInformation
+# Class AttributeBodyInformation
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_AttributeBodyInformation__ctor_System_Int32_"></a> AttributeBodyInformation\(int\)
+### AttributeBodyInformation\(int\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.AttributeBodyInformation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public AttributeBodyInformation(int nIndex)
 
 The index.
 
-### <a id="VM_Managed_CAD_AttributeBodyInformation__ctor"></a> AttributeBodyInformation\(\)
+### AttributeBodyInformation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.AttributeBodyInformation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -123,7 +123,7 @@ public AttributeBodyInformation()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_AttributeBodyInformation_Index"></a> Index
+### Index
 
 Gets or sets the index.
 
@@ -134,4 +134,5 @@ public int Index { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

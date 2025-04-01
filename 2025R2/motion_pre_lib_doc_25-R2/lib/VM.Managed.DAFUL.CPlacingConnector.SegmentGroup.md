@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup"></a> Class SegmentGroup
+# Class SegmentGroup
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup__ctor"></a> SegmentGroup\(\)
+### SegmentGroup\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.SegmentGroup" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public SegmentGroup()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup_Information"></a> Information
+### Information
 
 Gets or sets the segment information list.
 
@@ -118,7 +118,7 @@ public SegmentInformation[] Information { get; set; }
 
  [SegmentInformation](VM.Managed.DAFUL.CPlacingConnector.SegmentInformation.md)\[\]
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup_Items"></a> Items
+### Items
 
 Gets or sets the segment list.
 
@@ -132,7 +132,7 @@ public ObjectBase[] Items { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup_AddInformation_VM_Managed_DAFUL_CPlacingConnector_SegmentInformation_"></a> AddInformation\(SegmentInformation\)
+### AddInformation\(SegmentInformation\)
 
 Add information
 
@@ -146,7 +146,7 @@ public void AddInformation(SegmentInformation segmentInformation)
 
 The segment information
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup_AddItem_VM_Managed_ObjectBase_"></a> AddItem\(ObjectBase\)
+### AddItem\(ObjectBase\)
 
 Add segment
 
@@ -160,7 +160,7 @@ public void AddItem(ObjectBase item)
 
 The segment
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup_FindInformation_System_String_"></a> FindInformation\(string\)
+### FindInformation\(string\)
 
 Find information
 
@@ -178,7 +178,7 @@ The segment name
 
  [SegmentInformation](VM.Managed.DAFUL.CPlacingConnector.SegmentInformation.md)
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup_FindItemWithInformation_VM_Managed_DAFUL_CPlacingConnector_SegmentInformation_VM_Managed_Document_"></a> FindItemWithInformation\(SegmentInformation, Document\)
+### FindItemWithInformation\(SegmentInformation, Document\)
 
 Find item with information
 
@@ -200,7 +200,7 @@ The document
 
  InstanceContainer
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup_FindSegmentWithInformation_VM_Managed_DAFUL_CPlacingConnector_SegmentInformation_VM_Managed_Document_"></a> FindSegmentWithInformation\(SegmentInformation, Document\)
+### FindSegmentWithInformation\(SegmentInformation, Document\)
 
 Find segment with information
 
@@ -222,7 +222,7 @@ The document
 
  Document3D
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup_GetStiffnessWithTwoConnector_System_String_System_String_System_String_"></a> GetStiffnessWithTwoConnector\(string, string, string\)
+### GetStiffnessWithTwoConnector\(string, string, string\)
 
 Gets stiffness with two connector
 
@@ -248,7 +248,7 @@ The stiffness name
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -262,7 +262,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup_RemoveInformation_VM_Managed_DAFUL_CPlacingConnector_SegmentInformation_"></a> RemoveInformation\(SegmentInformation\)
+### RemoveInformation\(SegmentInformation\)
 
 Remove information
 
@@ -276,7 +276,7 @@ public void RemoveInformation(SegmentInformation segmentInformation)
 
 The segment information
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentGroup_RemoveItem_VM_Managed_ObjectBase_"></a> RemoveItem\(ObjectBase\)
+### RemoveItem\(ObjectBase\)
 
 Remove segment
 
@@ -289,4 +289,5 @@ public void RemoveItem(ObjectBase item)
 `item` ObjectBase
 
 The segment
+
 

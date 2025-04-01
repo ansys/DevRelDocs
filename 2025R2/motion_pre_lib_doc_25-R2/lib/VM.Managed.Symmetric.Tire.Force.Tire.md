@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Tire_Force_Tire"></a> Class Tire
+# Class Tire
 
 Namespace: [VM.Managed.Symmetric.Tire.Force](VM.Managed.Symmetric.Tire.Force.md)  
 Assembly: VMSymTire.dll  
@@ -39,9 +39,10 @@ Named<Tire\>.SymmetricManager
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_Tire_Force_Tire__ctor"></a> Tire\(\)
+### Tire\(\)
 
 ```csharp
 public Tire()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ITransform"></a> Interface ITransform
+# Interface ITransform
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -25,7 +25,7 @@ public interface ITransform : IPoint, IOrientation, IDirectionContainer, IDesign
 
 ## Properties
 
-### <a id="VM_Managed_ITransform_TransformationMatrix"></a> TransformationMatrix
+### TransformationMatrix
 
 Gets the transform.
 
@@ -36,4 +36,5 @@ TMatrix TransformationMatrix { get; set; }
 #### Property Value
 
  [TMatrix](VM.Managed.TMatrix.md)
+
 

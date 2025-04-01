@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_ExecuteBodyToDT"></a> Class ExecuteBodyToDT
+# Class ExecuteBodyToDT
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -83,7 +83,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ExecuteBodyToDT__ctor_VM_Managed_Document_"></a> ExecuteBodyToDT\(Document\)
+### ExecuteBodyToDT\(Document\)
 
 ```csharp
 public ExecuteBodyToDT(Document doc)
@@ -95,7 +95,7 @@ public ExecuteBodyToDT(Document doc)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ExecuteBodyToDT_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -109,7 +109,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ExecuteBodyToDT_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -117,7 +117,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ExecuteBodyToDT_OnApply_System_Object_System_ComponentModel_CancelEventArgs_"></a> OnApply\(object, CancelEventArgs\)
+### OnApply\(object, CancelEventArgs\)
 
 Called when [apply].
 
@@ -135,7 +135,7 @@ The sender.
 
 The <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ExecuteBodyToDT_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -152,4 +152,5 @@ The updater.
 `doc` Document
 
 The doc.
+
 

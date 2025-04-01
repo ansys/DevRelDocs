@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_SimulationScenarioAPI"></a> Class SimulationScenarioAPI
+# Class SimulationScenarioAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class SimulationScenarioAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_SimulationScenarioAPI_CreateSimulationScenarioForActivate_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_VM_Managed_Simulation_Scenario_Sensor_System_Nullable_VM_API_Pre_Obj__VM_Managed_Simulation_Scenario_Sign_VM_API_Pre_ScenarioActivateType_VM_Managed_Simulation_Scenario_Motion_"></a> CreateSimulationScenarioForActivate\(SubSystemDocument, Obj, ExpressionValueVariable?, string, Sensor, Obj?, Sign, ScenarioActivateType, Motion\)
+### CreateSimulationScenarioForActivate\(SubSystemDocument, Obj, ExpressionValueVariable?, string, Sensor, Obj?, Sign, ScenarioActivateType, Motion\)
 
 Create <xref href="VM.Managed.Simulation.Scenario" data-throw-if-not-resolved="false"></xref>.
 
@@ -90,7 +90,7 @@ Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.Fun
 
 Will be thrown if the type of 'target' is not <xref href="VM.Managed.IEnableForSimulationScenario" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_SimulationScenarioAPI_CreateSimulationScenarioForBody_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_VM_Managed_Simulation_Scenario_Sensor_System_Nullable_VM_API_Pre_Obj__VM_Managed_Simulation_Scenario_Sign_VM_API_Pre_ScenarioBodyType_"></a> CreateSimulationScenarioForBody\(SubSystemDocument, Obj, ExpressionValueVariable?, string, Sensor, Obj?, Sign, ScenarioBodyType\)
+### CreateSimulationScenarioForBody\(SubSystemDocument, Obj, ExpressionValueVariable?, string, Sensor, Obj?, Sign, ScenarioBodyType\)
 
 Create <xref href="VM.Managed.Simulation.Scenario" data-throw-if-not-resolved="false"></xref>.
 
@@ -154,7 +154,7 @@ Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.Fun
 
 Will be thrown if the type of 'target' is not <xref href="VM.Managed.DAFUL.IBodyAnalysisType" data-throw-if-not-resolved="false"></xref> or if the type of target's analysisType is not <xref href="VM.Managed.DAFUL.BodyAnalysisType.Rigid" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_SimulationScenarioAPI_CreateSimulationScenarioForFile_VM_Managed_DAFUL_SubSystemDocument_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_VM_Managed_Simulation_Scenario_Sensor_System_Nullable_VM_API_Pre_Obj__VM_Managed_Simulation_Scenario_Sign_VM_API_Pre_ScenarioFileType_"></a> CreateSimulationScenarioForFile\(SubSystemDocument, string, ExpressionValueVariable?, string, Sensor, Obj?, Sign, ScenarioFileType\)
+### CreateSimulationScenarioForFile\(SubSystemDocument, string, ExpressionValueVariable?, string, Sensor, Obj?, Sign, ScenarioFileType\)
 
 Create <xref href="VM.Managed.Simulation.Scenario" data-throw-if-not-resolved="false"></xref>.
 
@@ -214,7 +214,7 @@ Will be thrown if 'document' is null.
 
 Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_SimulationScenarioAPI_CreateSimulationScenarioForOutput_VM_Managed_DAFUL_SubSystemDocument_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_VM_Managed_Simulation_Scenario_Sensor_System_Nullable_VM_API_Pre_Obj__VM_Managed_Simulation_Scenario_Sign_VM_API_Pre_ScenarioOutputType_"></a> CreateSimulationScenarioForOutput\(SubSystemDocument, ExpressionValueVariable?, ExpressionValueVariable?, string, Sensor, Obj?, Sign, ScenarioOutputType\)
+### CreateSimulationScenarioForOutput\(SubSystemDocument, ExpressionValueVariable?, ExpressionValueVariable?, string, Sensor, Obj?, Sign, ScenarioOutputType\)
 
 Create <xref href="VM.Managed.Simulation.Scenario" data-throw-if-not-resolved="false"></xref>.
 
@@ -273,7 +273,7 @@ Will be thrown if 'document' is null.
 
 Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_SimulationScenarioAPI_CreateSimulationScenarioForStop_VM_Managed_DAFUL_SubSystemDocument_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_VM_Managed_Simulation_Scenario_Sensor_System_Nullable_VM_API_Pre_Obj__VM_Managed_Simulation_Scenario_Sign_"></a> CreateSimulationScenarioForStop\(SubSystemDocument, ExpressionValueVariable?, string, Sensor, Obj?, Sign\)
+### CreateSimulationScenarioForStop\(SubSystemDocument, ExpressionValueVariable?, string, Sensor, Obj?, Sign\)
 
 Create <xref href="VM.Managed.Simulation.Scenario" data-throw-if-not-resolved="false"></xref>.
 
@@ -323,4 +323,5 @@ Will be thrown if 'document' is null.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if the type of 'function' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
+
 

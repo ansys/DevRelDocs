@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_Revolute"></a> Class Revolute
+# Class Revolute
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -252,7 +252,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_Revolute__ctor"></a> Revolute\(\)
+### Revolute\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Revolute" data-throw-if-not-resolved="false"></xref> class.
 
@@ -260,7 +260,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Revol
 public Revolute()
 ```
 
-### <a id="VM_Managed_DAFUL_Constraints_Revolute__ctor_System_String_"></a> Revolute\(string\)
+### Revolute\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Revolute" data-throw-if-not-resolved="false"></xref> class.
 
@@ -276,7 +276,7 @@ Name of the revolute constraint.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_Revolute_PreventDuplicatedRBE"></a> PreventDuplicatedRBE
+### PreventDuplicatedRBE
 
 Gets a value whether this instance prevent duplicated RBE.
 
@@ -288,7 +288,7 @@ public override bool PreventDuplicatedRBE { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Constraints_Revolute_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -302,7 +302,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_Revolute_GetActionMarker"></a> GetActionMarker\(\)
+### GetActionMarker\(\)
 
 Gets the action marker.
 
@@ -316,7 +316,7 @@ public Marker GetActionMarker()
 
 The action marker.
 
-### <a id="VM_Managed_DAFUL_Constraints_Revolute_GetActionParentConnectable"></a> GetActionParentConnectable\(\)
+### GetActionParentConnectable\(\)
 
 Gets the action parent connectable.
 
@@ -330,7 +330,7 @@ public IConnectable GetActionParentConnectable()
 
 The action parent connectable.
 
-### <a id="VM_Managed_DAFUL_Constraints_Revolute_GetActionTransform"></a> GetActionTransform\(\)
+### GetActionTransform\(\)
 
 Gets the action transform.
 
@@ -344,7 +344,7 @@ public TransformBase GetActionTransform()
 
 The action transformation.
 
-### <a id="VM_Managed_DAFUL_Constraints_Revolute_GetBaseMarker"></a> GetBaseMarker\(\)
+### GetBaseMarker\(\)
 
 Gets the base marker.
 
@@ -358,7 +358,7 @@ public Marker GetBaseMarker()
 
 The base marker.
 
-### <a id="VM_Managed_DAFUL_Constraints_Revolute_GetBaseParentConnectable"></a> GetBaseParentConnectable\(\)
+### GetBaseParentConnectable\(\)
 
 Gets the base parent connectable.
 
@@ -372,7 +372,7 @@ public IConnectable GetBaseParentConnectable()
 
 The base parent connectable.
 
-### <a id="VM_Managed_DAFUL_Constraints_Revolute_GetBaseTransform"></a> GetBaseTransform\(\)
+### GetBaseTransform\(\)
 
 Gets the base transform.
 
@@ -386,7 +386,7 @@ public TransformBase GetBaseTransform()
 
 The base transformation.
 
-### <a id="VM_Managed_DAFUL_Constraints_Revolute_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -400,9 +400,9 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Constraints_Revolute_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
-Makes the reference [implementation].
+<p>Makes the reference [implementation].</p>
 
 ```csharp
 protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
@@ -412,5 +412,6 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 `lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Reference\>
 
-The container.
+<p>The container.</p>
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Beam_BeamGroup"></a> Class BeamGroup
+# Class BeamGroup
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VMDBeamGroup.dll  
@@ -196,7 +196,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup__ctor"></a> BeamGroup\(\)
+### BeamGroup\(\)
 
 Constructor of BeamGroup Class
 
@@ -204,7 +204,7 @@ Constructor of BeamGroup Class
 public BeamGroup()
 ```
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup__ctor_System_String_"></a> BeamGroup\(string\)
+### BeamGroup\(string\)
 
 Constructor of BeamGroup Class with Name
 
@@ -220,7 +220,7 @@ BeamGroup Name
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_BeamInfos"></a> BeamInfos
+### BeamInfos
 
 List container of beam information objects
 
@@ -232,7 +232,7 @@ public BeamInfo[] BeamInfos { get; set; }
 
  [BeamInfo](VM.Managed.DAFUL.Beam.BeamInfo.md)\[\]
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_DefaultBodyPoints"></a> DefaultBodyPoints
+### DefaultBodyPoints
 
 Default body points when beam group is first created.
 
@@ -244,7 +244,7 @@ public List<Vector> DefaultBodyPoints { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -256,7 +256,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_RestoretoStraight"></a> RestoretoStraight
+### RestoretoStraight
 
 Whether maintain straight status
 
@@ -268,7 +268,7 @@ public bool RestoretoStraight { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_SyncBeamBodyProp"></a> SyncBeamBodyProp
+### SyncBeamBodyProp
 
 Whether syncronise beam and body properties
 
@@ -280,7 +280,7 @@ public bool SyncBeamBodyProp { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_UseBeamForce"></a> UseBeamForce
+### UseBeamForce
 
 Whether use beam force or matrix force
 
@@ -294,7 +294,7 @@ public bool UseBeamForce { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_AddBeamInfo_VM_Managed_DAFUL_Beam_BeamInfo_"></a> AddBeamInfo\(BeamInfo\)
+### AddBeamInfo\(BeamInfo\)
 
 Add beam information
 
@@ -308,7 +308,7 @@ public void AddBeamInfo(BeamInfo beamInfo)
 
 Beam information to add
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_CreateSolidBody_System_String_VM_Managed_Vector_"></a> CreateSolidBody\(string, Vector\)
+### CreateSolidBody\(string, Vector\)
 
 Create Solid Body
 
@@ -326,7 +326,7 @@ public static SolidBody CreateSolidBody(string name, Vector vecPoint)
 
  SolidBody
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draw Beam information geometry
 
@@ -340,7 +340,7 @@ public void Draw(Canvas canvas)
 
 Canvas to draw beam geometry
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_GetLayerImpl"></a> GetLayerImpl\(\)
+### GetLayerImpl\(\)
 
 Gets the layer impl.
 
@@ -358,7 +358,7 @@ protected override Layer GetLayerImpl()
 
 Document of Group object is null.
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_GetNextBeamInfo_VM_Managed_DAFUL_Beam_BeamInfo_"></a> GetNextBeamInfo\(BeamInfo\)
+### GetNextBeamInfo\(BeamInfo\)
 
 Get next beam information
 
@@ -378,7 +378,7 @@ Current beam information
 
 Next beam information
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_GetPrevBeamInfo_VM_Managed_DAFUL_Beam_BeamInfo_"></a> GetPrevBeamInfo\(BeamInfo\)
+### GetPrevBeamInfo\(BeamInfo\)
 
 Get previous beam information
 
@@ -398,7 +398,7 @@ Current beam information
 
 Previous beam information
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_IsFirstBeamInfo_VM_Managed_DAFUL_Beam_BeamInfo_"></a> IsFirstBeamInfo\(BeamInfo\)
+### IsFirstBeamInfo\(BeamInfo\)
 
 Whether beam element is a first entity among current beam group
 
@@ -418,7 +418,7 @@ Currnet beam information
 
 It's true or false
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_IsFirstBody_VM_Managed_DAFUL_SolidBody_"></a> IsFirstBody\(SolidBody\)
+### IsFirstBody\(SolidBody\)
 
 Whether body is a first entity among all bodies
 
@@ -438,7 +438,7 @@ Body to check
 
 It's true or false
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_IsLastBeamInfo_VM_Managed_DAFUL_Beam_BeamInfo_"></a> IsLastBeamInfo\(BeamInfo\)
+### IsLastBeamInfo\(BeamInfo\)
 
 Whether beam element is a last entity among current beam group
 
@@ -458,7 +458,7 @@ Currnet beam information
 
 It's true or false
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_IsLastBody_VM_Managed_DAFUL_SolidBody_"></a> IsLastBody\(SolidBody\)
+### IsLastBody\(SolidBody\)
 
 Whether body is a last entity among all bodies
 
@@ -478,7 +478,7 @@ Body to check
 
 It's true or false
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -496,7 +496,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request to update the linked object.
 
@@ -514,7 +514,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -528,7 +528,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_SetLayerImpl_VM_Managed_Layer_"></a> SetLayerImpl\(Layer\)
+### SetLayerImpl\(Layer\)
 
 Implemented function to set layer
 
@@ -542,7 +542,7 @@ protected override void SetLayerImpl(Layer layer)
 
 Layer Object
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_UpdateBeamElementsOfAll"></a> UpdateBeamElementsOfAll\(\)
+### UpdateBeamElementsOfAll\(\)
 
 Update beam elements of all
 
@@ -550,11 +550,12 @@ Update beam elements of all
 public void UpdateBeamElementsOfAll()
 ```
 
-### <a id="VM_Managed_DAFUL_Beam_BeamGroup_UpdateBeamNodesOfAll"></a> UpdateBeamNodesOfAll\(\)
+### UpdateBeamNodesOfAll\(\)
 
 Update beam nodes of all
 
 ```csharp
 public void UpdateBeamNodesOfAll()
 ```
+
 

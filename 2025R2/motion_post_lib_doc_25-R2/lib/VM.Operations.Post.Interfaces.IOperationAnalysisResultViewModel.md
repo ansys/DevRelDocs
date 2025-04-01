@@ -105,7 +105,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ### CreateContour\(IList<string\>, ContourMappingType, string, string, string\)
 
-Creates a contour for displaying various simulation results. Please refer to this [here](../getting_started_operation_api_using_py.md#How-to-input-the-value-of-the-target-into-the-function-parameter?) link.
+Creates a contour for displaying various simulation results. Please refer to this [here](../getting_started_operation_api_using_py.md#how-to-input-the-value-of-the-target-into-the-function-parameter) link.
 
 ```python
 IOperationsContourViewModel CreateContour(IList<string> entities, ContourMappingType mappingType, string characteristic, string component, string newName = null)

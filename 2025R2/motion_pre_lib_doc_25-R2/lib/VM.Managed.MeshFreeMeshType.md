@@ -1,4 +1,4 @@
-# <a id="VM_Managed_MeshFreeMeshType"></a> Enum MeshFreeMeshType
+# Enum MeshFreeMeshType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -32,6 +32,7 @@ Triangle (A faceting is success.)
 `UserTetrahedron = 3` 
 
 User Tetrahedron (User defined tetrahedron)
+
 
 
 

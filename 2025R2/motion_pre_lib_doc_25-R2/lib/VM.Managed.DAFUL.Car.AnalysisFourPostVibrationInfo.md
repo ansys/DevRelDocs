@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisFourPostVibrationInfo"></a> Class AnalysisFourPostVibrationInfo
+# Class AnalysisFourPostVibrationInfo
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -22,7 +22,7 @@ public class AnalysisFourPostVibrationInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostVibrationInfo__ctor"></a> AnalysisFourPostVibrationInfo\(\)
+### AnalysisFourPostVibrationInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisFourPostVibrationInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public AnalysisFourPostVibrationInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostVibrationInfo_ActuationType"></a> ActuationType
+### ActuationType
 
 Gets or sets the type of the actuation.
 
@@ -44,7 +44,7 @@ public ActuationType ActuationType { get; set; }
 
  ActuationType
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostVibrationInfo_FrontLeftActuator"></a> FrontLeftActuator
+### FrontLeftActuator
 
 Gets or sets the front left actuator.
 
@@ -56,7 +56,7 @@ public ActuatorInfo FrontLeftActuator { get; set; }
 
  [ActuatorInfo](VM.Managed.DAFUL.Car.ActuatorInfo.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostVibrationInfo_FrontRightActuator"></a> FrontRightActuator
+### FrontRightActuator
 
 Gets or sets the front right actuator.
 
@@ -68,7 +68,7 @@ public ActuatorInfo FrontRightActuator { get; set; }
 
  [ActuatorInfo](VM.Managed.DAFUL.Car.ActuatorInfo.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostVibrationInfo_InputDirection"></a> InputDirection
+### InputDirection
 
 Gets or sets the input direction.
 
@@ -80,7 +80,7 @@ public VibrationInputInputDirection InputDirection { get; set; }
 
  VibrationInputInputDirection
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostVibrationInfo_InputLocation"></a> InputLocation
+### InputLocation
 
 Gets or sets the input location.
 
@@ -92,7 +92,7 @@ public VibrationInputLocation InputLocation { get; set; }
 
  VibrationInputLocation
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostVibrationInfo_RearLeftActuator"></a> RearLeftActuator
+### RearLeftActuator
 
 Gets or sets the rear left actuator.
 
@@ -104,7 +104,7 @@ public ActuatorInfo RearLeftActuator { get; set; }
 
  [ActuatorInfo](VM.Managed.DAFUL.Car.ActuatorInfo.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostVibrationInfo_RearRightActuator"></a> RearRightActuator
+### RearRightActuator
 
 Gets or sets the rear right actuator.
 
@@ -115,4 +115,5 @@ public ActuatorInfo RearRightActuator { get; set; }
 #### Property Value
 
  [ActuatorInfo](VM.Managed.DAFUL.Car.ActuatorInfo.md)
+
 

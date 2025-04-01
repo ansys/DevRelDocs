@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_OuterRacewayGeometryForRBEInFE"></a> Class OuterRacewayGeometryForRBEInFE
+# Class OuterRacewayGeometryForRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -298,7 +298,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_OuterRacewayGeometryForRBEInFE__ctor"></a> OuterRacewayGeometryForRBEInFE\(\)
+### OuterRacewayGeometryForRBEInFE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.OuterRacewayGeometryForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -306,7 +306,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Out
 public OuterRacewayGeometryForRBEInFE()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_OuterRacewayGeometryForRBEInFE__ctor_VM_Managed_CAD_Builder_"></a> OuterRacewayGeometryForRBEInFE\(Builder\)
+### OuterRacewayGeometryForRBEInFE\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.OuterRacewayGeometryForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -319,4 +319,5 @@ public OuterRacewayGeometryForRBEInFE(Builder builder)
 `builder` Builder
 
 The body's builder.
+
 

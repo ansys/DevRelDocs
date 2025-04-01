@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo"></a> Class AssemblyDocInfo
+# Class AssemblyDocInfo
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -57,7 +57,7 @@ public class AssemblyDocInfo : DocInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo__ctor"></a> AssemblyDocInfo\(\)
+### AssemblyDocInfo\(\)
 
 ```csharp
 public AssemblyDocInfo()
@@ -65,7 +65,7 @@ public AssemblyDocInfo()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_BuilderType"></a> BuilderType
+### BuilderType
 
 Builder Type of Assmebly.
 
@@ -77,7 +77,7 @@ public string BuilderType
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_Format"></a> Format
+### Format
 
 Sets the format info.
 
@@ -91,7 +91,7 @@ public Document3D.FileFormat Format
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_BaseType"></a> BaseType
+### BaseType
 
 Gets or sets the type of the base.
 
@@ -103,7 +103,7 @@ public AssemblyDocInfo.AssemblyType BaseType { get; set; }
 
  [AssemblyDocInfo](VM.Managed.DAFUL.Pre.AssemblyDocInfo.md).[AssemblyType](VM.Managed.DAFUL.Pre.AssemblyDocInfo.AssemblyType.md)
 
-### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_CategoryName"></a> CategoryName
+### CategoryName
 
 Gets or sets the category file.
 
@@ -115,7 +115,7 @@ public string CategoryName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_ChangeUsageForCADExport"></a> ChangeUsageForCADExport
+### ChangeUsageForCADExport
 
 Gets or sets a value indicating whether [change usage for cad export].
 
@@ -127,7 +127,7 @@ public bool ChangeUsageForCADExport { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_ChangeUsageForCADImport"></a> ChangeUsageForCADImport
+### ChangeUsageForCADImport
 
 Gets or sets a value indicating whether [change usage for cad import].
 
@@ -139,7 +139,7 @@ public bool ChangeUsageForCADImport { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_ChangeUsageForFEImport"></a> ChangeUsageForFEImport
+### ChangeUsageForFEImport
 
 Gets or sets a value indicating whether [change usage for fe import].
 
@@ -151,7 +151,7 @@ public bool ChangeUsageForFEImport { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_ChangeUsageForMeshAssembly"></a> ChangeUsageForMeshAssembly
+### ChangeUsageForMeshAssembly
 
 Gets or sets a value indicating whether [change usage for mesh assembly].
 
@@ -163,7 +163,7 @@ public bool ChangeUsageForMeshAssembly { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_ChangeUsageForPartAssembly"></a> ChangeUsageForPartAssembly
+### ChangeUsageForPartAssembly
 
 Gets or sets a value indicating whether [change usage for part assembly].
 
@@ -175,7 +175,7 @@ public bool ChangeUsageForPartAssembly { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_ChangeUsageForSubsystemAssembly"></a> ChangeUsageForSubsystemAssembly
+### ChangeUsageForSubsystemAssembly
 
 Gets or sets a value indicating whether [change usage for subsystem assembly].
 
@@ -187,7 +187,7 @@ public bool ChangeUsageForSubsystemAssembly { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_IconFiles"></a> IconFiles
+### IconFiles
 
 Gets or sets the icon files.
 
@@ -199,7 +199,7 @@ public static string[] IconFiles { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Pre_AssemblyDocInfo_PriorityType"></a> PriorityType
+### PriorityType
 
 Gets or sets the type of the base.
 
@@ -210,4 +210,5 @@ public AssemblyDocInfo.AddDocTemplatePriorityType PriorityType { get; set; }
 #### Property Value
 
  [AssemblyDocInfo](VM.Managed.DAFUL.Pre.AssemblyDocInfo.md).[AddDocTemplatePriorityType](VM.Managed.DAFUL.Pre.AssemblyDocInfo.AddDocTemplatePriorityType.md)
+
 

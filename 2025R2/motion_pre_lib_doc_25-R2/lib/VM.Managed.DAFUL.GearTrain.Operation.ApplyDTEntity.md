@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity"></a> Class ApplyDTEntity
+# Class ApplyDTEntity
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -85,7 +85,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity__ctor_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_Managed_DAFUL_Dialog_GearTrain_BodyToDTData___System_Boolean_"></a> ApplyDTEntity\(GearTrainDocument, BodyToDTData\[\], bool\)
+### ApplyDTEntity\(GearTrainDocument, BodyToDTData\[\], bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ApplyShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ The data.
 
 The refresh flag.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity__ctor_VM_Managed_Operation_JournalParameter_"></a> ApplyDTEntity\(JournalParameter\)
+### ApplyDTEntity\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ApplyShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -123,7 +123,7 @@ The jp.
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_m_arData"></a> m\_arData
+### m\_arData
 
 data array
 
@@ -135,7 +135,7 @@ protected BodyToDTData[] m_arData
 
  BodyToDTData\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_m_bRefresh"></a> m\_bRefresh
+### m\_bRefresh
 
 refresh flag
 
@@ -147,7 +147,7 @@ protected bool m_bRefresh
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_m_bSuccess"></a> m\_bSuccess
+### m\_bSuccess
 
 success flag
 
@@ -159,7 +159,7 @@ protected bool m_bSuccess
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_m_gearTrainDocument"></a> m\_gearTrainDocument
+### m\_gearTrainDocument
 
 gearTrain Document
 
@@ -173,7 +173,7 @@ protected GearTrainDocument m_gearTrainDocument
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_Success"></a> Success
+### Success
 
 Gets the success flag
 
@@ -187,7 +187,7 @@ public bool Success { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_AppendEFHousing_System_String_System_String_System_String_System_Collections_Generic_List_System_String___"></a> AppendEFHousing\(string, string, string, ref List<string\>\)
+### AppendEFHousing\(string, string, string, ref List<string\>\)
 
 Append EF Housing
 
@@ -213,7 +213,7 @@ The part file path
 
 The hidden file path
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_AppendMeshFreeHousing_System_String_System_String_System_String_VM_Managed_CAD_Body_System_Collections_Generic_List_System_String___"></a> AppendMeshFreeHousing\(string, string, string, Body, ref List<string\>\)
+### AppendMeshFreeHousing\(string, string, string, Body, ref List<string\>\)
 
 Append meshfree housing
 
@@ -243,7 +243,7 @@ The body
 
 The hidden file path
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_ApplySolidName_VM_Managed_DAFUL_PartDocument_System_String_"></a> ApplySolidName\(PartDocument, string\)
+### ApplySolidName\(PartDocument, string\)
 
 ```csharp
 protected void ApplySolidName(PartDocument document, string strSolidName)
@@ -255,7 +255,7 @@ protected void ApplySolidName(PartDocument document, string strSolidName)
 
 `strSolidName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_ChangeName_System_String_System_String_"></a> ChangeName\(string, string\)
+### ChangeName\(string, string\)
 
 Change name
 
@@ -273,7 +273,7 @@ protected ObjectBase ChangeName(string strOldDTName, string strDTName)
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_CreateMeshFreeHousing_System_Boolean_System_String_System_String_VM_Managed_CAD_Body_System_Collections_Generic_List_System_String___"></a> CreateMeshFreeHousing\(bool, string, string, Body, ref List<string\>\)
+### CreateMeshFreeHousing\(bool, string, string, Body, ref List<string\>\)
 
 Create meshfree housing
 
@@ -307,7 +307,7 @@ The hidden file path
 
  IHousing
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_DeleteDTEntity_System_String_"></a> DeleteDTEntity\(string\)
+### DeleteDTEntity\(string\)
 
 Delete DT Entity
 
@@ -319,7 +319,7 @@ protected void DeleteDTEntity(string strCategoryName)
 
 `strCategoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_GetDuplicateEFHousing_System_String_"></a> GetDuplicateEFHousing\(string\)
+### GetDuplicateEFHousing\(string\)
 
 Gets the duplicate EF Housing
 
@@ -337,7 +337,7 @@ The type
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<BodyToDTData, [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -351,7 +351,7 @@ public override void GetInformation(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_GetSolidName_System_String_"></a> GetSolidName\(string\)
+### GetSolidName\(string\)
 
 ```csharp
 protected string GetSolidName(string strBodyName)
@@ -365,7 +365,7 @@ protected string GetSolidName(string strBodyName)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_ReCreateMeshFreeHousing_System_Boolean_System_String_System_String_System_Collections_Generic_List_System_String___"></a> ReCreateMeshFreeHousing\(bool, string, string, ref List<string\>\)
+### ReCreateMeshFreeHousing\(bool, string, string, ref List<string\>\)
 
 Recreate meshfree housing
 
@@ -395,7 +395,7 @@ The hidden file path
 
  IHousing
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_RemoveAttribute_VM_Managed_IAttributeContainer_"></a> RemoveAttribute\(IAttributeContainer\)
+### RemoveAttribute\(IAttributeContainer\)
 
 Remove attribute
 
@@ -409,7 +409,7 @@ protected void RemoveAttribute(IAttributeContainer attrCont)
 
 The attribute container
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyDTEntity_SetAttribute_VM_Managed_IAttributeContainer_System_String_System_Boolean_VM_Managed_DAFUL_GearTrain_PowerLoad_PowerLoadType_System_Double_System_Double_VM_Vector_"></a> SetAttribute\(IAttributeContainer, string, bool, PowerLoadType, double, double, Vector\)
+### SetAttribute\(IAttributeContainer, string, bool, PowerLoadType, double, double, Vector\)
 
 Set attribute
 
@@ -446,4 +446,5 @@ The power load width
 `vecAttachedAxis` Vector
 
 The attached axis
+
 

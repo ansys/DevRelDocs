@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisBase"></a> Class SuspensionAnalysisBase
+# Class SuspensionAnalysisBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -41,7 +41,7 @@ public abstract class SuspensionAnalysisBase : AnalysisBase
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisBase__ctor"></a> SuspensionAnalysisBase\(\)
+### SuspensionAnalysisBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FullCarAnalysisBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -49,7 +49,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FullCarAnalys
 public SuspensionAnalysisBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisBase__ctor_VM_Models_Pre_ILinkContainer_"></a> SuspensionAnalysisBase\(ILinkContainer\)
+### SuspensionAnalysisBase\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FullCarAnalysisBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -65,7 +65,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisBase_SteeringFunctionArgument"></a> SteeringFunctionArgument
+### SteeringFunctionArgument
 
 Gets the steering function argument.
 
@@ -77,7 +77,7 @@ public virtual string SteeringFunctionArgument { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisBase_SteeringInputType"></a> SteeringInputType
+### SteeringInputType
 
 Gets or sets the steering input.
 
@@ -89,7 +89,7 @@ public SteeringInputType SteeringInputType { get; set; }
 
  [SteeringInputType](VM.Managed.DAFUL.Car.Analysis.Suspension.SteeringInputType.md)
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisBase_Vertical"></a> Vertical
+### Vertical
 
 Gets or sets the vertical.
 
@@ -101,7 +101,7 @@ public VerticalType Vertical { get; set; }
 
  [VerticalType](VM.Managed.DAFUL.Car.Analysis.Suspension.VerticalType.md)
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisBase_VerticalModeForSetup"></a> VerticalModeForSetup
+### VerticalModeForSetup
 
 Gets or sets the vertical mode for setup.
 
@@ -115,7 +115,7 @@ public VerticalModeForSetupType VerticalModeForSetup { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisBase_GetDataForLoadCase_System_Int32_System_Collections_Generic_Dictionary_VM_Managed_DAFUL_Car_SuspensionLoadCase_Column_System_Double____VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode_"></a> GetDataForLoadCase\(int, Dictionary<Column, double\[\]\>, SuspensionMode\)
+### GetDataForLoadCase\(int, Dictionary<Column, double\[\]\>, SuspensionMode\)
 
 Gets the data for load case.
 
@@ -137,7 +137,7 @@ The column information.
 
 The mode.
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisBase_GetXmlData_System_Xml_XmlWriter_"></a> GetXmlData\(XmlWriter\)
+### GetXmlData\(XmlWriter\)
 
 Gets the XML data.
 
@@ -151,7 +151,7 @@ public virtual void GetXmlData(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisBase_SetDataForLoadCase_VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode_"></a> SetDataForLoadCase\(SuspensionMode\)
+### SetDataForLoadCase\(SuspensionMode\)
 
 Sets the data for load case.
 
@@ -165,7 +165,7 @@ public virtual void SetDataForLoadCase(SuspensionLoadCase.SuspensionMode mode)
 
 The mode.
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisBase_SetXmlData_System_Xml_XmlReader_"></a> SetXmlData\(XmlReader\)
+### SetXmlData\(XmlReader\)
 
 Sets the XML data.
 
@@ -178,4 +178,5 @@ public virtual void SetXmlData(XmlReader reader)
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
 The reader.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_ISymmetricManager"></a> Interface ISymmetricManager
+# Interface ISymmetricManager
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface ISymmetricManager
 
 ## Properties
 
-### <a id="VM_Managed_Symmetric_ISymmetricManager_Left"></a> Left
+### Left
 
 Gets the left object of symmetric.
 
@@ -29,7 +29,7 @@ ObjectBase Left { get; }
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### <a id="VM_Managed_Symmetric_ISymmetricManager_NonSymmetric"></a> NonSymmetric
+### NonSymmetric
 
 Gets or sets a value indicating whether [non symmetric].
 
@@ -41,7 +41,7 @@ bool NonSymmetric { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Symmetric_ISymmetricManager_Original"></a> Original
+### Original
 
 Gets the original object of symmetric.
 
@@ -53,7 +53,7 @@ ObjectBase Original { get; }
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### <a id="VM_Managed_Symmetric_ISymmetricManager_Right"></a> Right
+### Right
 
 Gets the right object of symmetric.
 
@@ -65,7 +65,7 @@ ObjectBase Right { get; }
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### <a id="VM_Managed_Symmetric_ISymmetricManager_SymType"></a> SymType
+### SymType
 
 Gets or sets the type of symmetric.
 
@@ -79,11 +79,12 @@ SymmetricType SymType { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_ISymmetricManager_UpdateSymmetric"></a> UpdateSymmetric\(\)
+### UpdateSymmetric\(\)
 
 Updates the symmetric objects.
 
 ```csharp
 void UpdateSymmetric()
 ```
+
 

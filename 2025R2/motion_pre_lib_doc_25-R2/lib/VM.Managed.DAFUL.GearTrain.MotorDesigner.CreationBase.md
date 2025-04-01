@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_CreationBase"></a> Class MotorDesigner.CreationBase
+# Class MotorDesigner.CreationBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -104,7 +104,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_CreationBase__ctor"></a> CreationBase\(\)
+### CreationBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.CreationBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ public CreationBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_CreationBase_Depth"></a> Depth
+### Depth
 
 Gets or sets the 2nd size factor.
 
@@ -126,7 +126,7 @@ public ExpressionValueVariable Depth { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_CreationBase_Material"></a> Material
+### Material
 
 Gets or sets the material.
 
@@ -138,7 +138,7 @@ public IMaterial Material { get; set; }
 
  IMaterial
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_CreationBase_RotateAngle"></a> RotateAngle
+### RotateAngle
 
 Gets or sets the rotate angle.
 
@@ -150,7 +150,7 @@ public ExpressionValueVariable RotateAngle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_CreationBase_TypeOfGeometryCreation"></a> TypeOfGeometryCreation
+### TypeOfGeometryCreation
 
 Gets the geometry creation type.
 
@@ -162,7 +162,7 @@ public abstract MotorDesigner.GeometryCreationType TypeOfGeometryCreation { get;
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[GeometryCreationType](VM.Managed.DAFUL.GearTrain.MotorDesigner.GeometryCreationType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_CreationBase__Material"></a> \_Material
+### \_Material
 
 Gets or sets the material.
 
@@ -176,7 +176,7 @@ public Linker<IMaterial> _Material { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_CreationBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -190,7 +190,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_CreationBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -203,4 +203,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

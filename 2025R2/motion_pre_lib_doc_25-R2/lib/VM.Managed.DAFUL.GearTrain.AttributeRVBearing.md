@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_AttributeRVBearing"></a> Class AttributeRVBearing
+# Class AttributeRVBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -99,11 +99,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeRVBearing__ctor"></a> AttributeRVBearing\(\)
+### AttributeRVBearing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AttributeRVBearing" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public AttributeRVBearing()
 ```
+
 

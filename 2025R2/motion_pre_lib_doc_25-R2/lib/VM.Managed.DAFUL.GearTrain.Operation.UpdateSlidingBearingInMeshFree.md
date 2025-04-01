@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateSlidingBearingInMeshFree"></a> Class UpdateSlidingBearingInMeshFree
+# Class UpdateSlidingBearingInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -81,7 +81,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateSlidingBearingInMeshFree__ctor_System_String_System_String_"></a> UpdateSlidingBearingInMeshFree\(string, string\)
+### UpdateSlidingBearingInMeshFree\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateSlidingBearingInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -99,7 +99,7 @@ Name of the string bearing geometry.
 
 Name of the string rbe.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateSlidingBearingInMeshFree__ctor_VM_Managed_Document3D_System_String_System_String_"></a> UpdateSlidingBearingInMeshFree\(Document3D, string, string\)
+### UpdateSlidingBearingInMeshFree\(Document3D, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateSlidingBearingInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ Name of the string bearing geometry.
 
 Name of the string rbe.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateSlidingBearingInMeshFree__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateSlidingBearingInMeshFree\(JournalParameter\)
+### UpdateSlidingBearingInMeshFree\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateSlidingBearingInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -134,4 +134,5 @@ public UpdateSlidingBearingInMeshFree(JournalParameter jp)
 `jp` JournalParameter
 
 The jp.
+
 

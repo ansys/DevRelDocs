@@ -1,9 +1,9 @@
-# <a id="VM_Managed_DAFUL_RequestStructure_OutputType"></a> Struct RequestStructure.OutputType
+# Struct RequestStructure.OutputType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
 
-This class is to represent the OutputType properties.
+<p>This class is to represent the OutputType properties.</p>
 
 ```csharp
 public struct RequestStructure.OutputType
@@ -11,9 +11,9 @@ public struct RequestStructure.OutputType
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ContactPressure"></a> ContactPressure
+### ContactPressure
 
-The contact pressure
+<p>The contact pressure</p>
 
 ```csharp
 public bool ContactPressure
@@ -23,9 +23,9 @@ public bool ContactPressure
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_DesignStressIntensity"></a> DesignStressIntensity
+### DesignStressIntensity
 
-The design stress intensity
+<p>The design stress intensity</p>
 
 ```csharp
 public bool DesignStressIntensity
@@ -35,9 +35,9 @@ public bool DesignStressIntensity
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_DesignStressMaximumPrinciple"></a> DesignStressMaximumPrinciple
+### DesignStressMaximumPrinciple
 
-The design stress maximum principle
+<p>The design stress maximum principle</p>
 
 ```csharp
 public bool DesignStressMaximumPrinciple
@@ -47,9 +47,9 @@ public bool DesignStressMaximumPrinciple
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_DesignStressMaximumShear"></a> DesignStressMaximumShear
+### DesignStressMaximumShear
 
-The design stress maximum shear
+<p>The design stress maximum shear</p>
 
 ```csharp
 public bool DesignStressMaximumShear
@@ -59,9 +59,9 @@ public bool DesignStressMaximumShear
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_DesignStressVonmises"></a> DesignStressVonmises
+### DesignStressVonmises
 
-The design stress vonmises
+<p>The design stress vonmises</p>
 
 ```csharp
 public bool DesignStressVonmises
@@ -71,7 +71,7 @@ public bool DesignStressVonmises
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_DirectionalHeatFluxX"></a> DirectionalHeatFluxX
+### DirectionalHeatFluxX
 
 ```csharp
 public bool DirectionalHeatFluxX
@@ -81,7 +81,7 @@ public bool DirectionalHeatFluxX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_DirectionalHeatFluxY"></a> DirectionalHeatFluxY
+### DirectionalHeatFluxY
 
 ```csharp
 public bool DirectionalHeatFluxY
@@ -91,7 +91,7 @@ public bool DirectionalHeatFluxY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_DirectionalHeatFluxZ"></a> DirectionalHeatFluxZ
+### DirectionalHeatFluxZ
 
 ```csharp
 public bool DirectionalHeatFluxZ
@@ -101,9 +101,9 @@ public bool DirectionalHeatFluxZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticDesignStrainIntensity"></a> ElasticDesignStrainIntensity
+### ElasticDesignStrainIntensity
 
-The elastic design strain intensity
+<p>The elastic design strain intensity</p>
 
 ```csharp
 public bool ElasticDesignStrainIntensity
@@ -113,9 +113,9 @@ public bool ElasticDesignStrainIntensity
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticDesignStrainVonmises"></a> ElasticDesignStrainVonmises
+### ElasticDesignStrainVonmises
 
-The elastic design strain vonmises
+<p>The elastic design strain vonmises</p>
 
 ```csharp
 public bool ElasticDesignStrainVonmises
@@ -125,9 +125,9 @@ public bool ElasticDesignStrainVonmises
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticPrincipleStrainFirst"></a> ElasticPrincipleStrainFirst
+### ElasticPrincipleStrainFirst
 
-The elastic principle strain first
+<p>The elastic principle strain first</p>
 
 ```csharp
 public bool ElasticPrincipleStrainFirst
@@ -137,9 +137,9 @@ public bool ElasticPrincipleStrainFirst
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticPrincipleStrainSecond"></a> ElasticPrincipleStrainSecond
+### ElasticPrincipleStrainSecond
 
-The elastic principle strain second
+<p>The elastic principle strain second</p>
 
 ```csharp
 public bool ElasticPrincipleStrainSecond
@@ -149,9 +149,9 @@ public bool ElasticPrincipleStrainSecond
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticPrincipleStrainThird"></a> ElasticPrincipleStrainThird
+### ElasticPrincipleStrainThird
 
-The elastic principle strain third
+<p>The elastic principle strain third</p>
 
 ```csharp
 public bool ElasticPrincipleStrainThird
@@ -161,9 +161,9 @@ public bool ElasticPrincipleStrainThird
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticStrainTensorX"></a> ElasticStrainTensorX
+### ElasticStrainTensorX
 
-The elastic strain tensor x
+<p>The elastic strain tensor x</p>
 
 ```csharp
 public bool ElasticStrainTensorX
@@ -173,9 +173,9 @@ public bool ElasticStrainTensorX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticStrainTensorXY"></a> ElasticStrainTensorXY
+### ElasticStrainTensorXY
 
-The elastic strain tensor xy
+<p>The elastic strain tensor xy</p>
 
 ```csharp
 public bool ElasticStrainTensorXY
@@ -185,9 +185,9 @@ public bool ElasticStrainTensorXY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticStrainTensorY"></a> ElasticStrainTensorY
+### ElasticStrainTensorY
 
-The elastic strain tensor y
+<p>The elastic strain tensor y</p>
 
 ```csharp
 public bool ElasticStrainTensorY
@@ -197,9 +197,9 @@ public bool ElasticStrainTensorY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticStrainTensorYZ"></a> ElasticStrainTensorYZ
+### ElasticStrainTensorYZ
 
-The elastic strain tensor yz
+<p>The elastic strain tensor yz</p>
 
 ```csharp
 public bool ElasticStrainTensorYZ
@@ -209,9 +209,9 @@ public bool ElasticStrainTensorYZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticStrainTensorZ"></a> ElasticStrainTensorZ
+### ElasticStrainTensorZ
 
-The elastic strain tensor z
+<p>The elastic strain tensor z</p>
 
 ```csharp
 public bool ElasticStrainTensorZ
@@ -221,9 +221,9 @@ public bool ElasticStrainTensorZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ElasticStrainTensorZX"></a> ElasticStrainTensorZX
+### ElasticStrainTensorZX
 
-The elastic strain tensor zx
+<p>The elastic strain tensor zx</p>
 
 ```csharp
 public bool ElasticStrainTensorZX
@@ -233,9 +233,9 @@ public bool ElasticStrainTensorZX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticDesignStrainIntensity"></a> PlasticDesignStrainIntensity
+### PlasticDesignStrainIntensity
 
-The plastic design strain intensity
+<p>The plastic design strain intensity</p>
 
 ```csharp
 public bool PlasticDesignStrainIntensity
@@ -245,9 +245,9 @@ public bool PlasticDesignStrainIntensity
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticDesignStrainVonmises"></a> PlasticDesignStrainVonmises
+### PlasticDesignStrainVonmises
 
-The plastic design strain vonmises
+<p>The plastic design strain vonmises</p>
 
 ```csharp
 public bool PlasticDesignStrainVonmises
@@ -257,9 +257,9 @@ public bool PlasticDesignStrainVonmises
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticPrincipleStrainFirst"></a> PlasticPrincipleStrainFirst
+### PlasticPrincipleStrainFirst
 
-The plastic principle strain first
+<p>The plastic principle strain first</p>
 
 ```csharp
 public bool PlasticPrincipleStrainFirst
@@ -269,9 +269,9 @@ public bool PlasticPrincipleStrainFirst
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticPrincipleStrainSecond"></a> PlasticPrincipleStrainSecond
+### PlasticPrincipleStrainSecond
 
-The plastic principle strain second
+<p>The plastic principle strain second</p>
 
 ```csharp
 public bool PlasticPrincipleStrainSecond
@@ -281,9 +281,9 @@ public bool PlasticPrincipleStrainSecond
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticPrincipleStrainThird"></a> PlasticPrincipleStrainThird
+### PlasticPrincipleStrainThird
 
-The plastic principle strain third
+<p>The plastic principle strain third</p>
 
 ```csharp
 public bool PlasticPrincipleStrainThird
@@ -293,9 +293,9 @@ public bool PlasticPrincipleStrainThird
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticStrainTensorX"></a> PlasticStrainTensorX
+### PlasticStrainTensorX
 
-The plastic strain tensor x
+<p>The plastic strain tensor x</p>
 
 ```csharp
 public bool PlasticStrainTensorX
@@ -305,9 +305,9 @@ public bool PlasticStrainTensorX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticStrainTensorXY"></a> PlasticStrainTensorXY
+### PlasticStrainTensorXY
 
-The plastic strain tensor xy
+<p>The plastic strain tensor xy</p>
 
 ```csharp
 public bool PlasticStrainTensorXY
@@ -317,9 +317,9 @@ public bool PlasticStrainTensorXY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticStrainTensorY"></a> PlasticStrainTensorY
+### PlasticStrainTensorY
 
-The plastic strain tensor y
+<p>The plastic strain tensor y</p>
 
 ```csharp
 public bool PlasticStrainTensorY
@@ -329,9 +329,9 @@ public bool PlasticStrainTensorY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticStrainTensorYZ"></a> PlasticStrainTensorYZ
+### PlasticStrainTensorYZ
 
-The plastic strain tensor yz
+<p>The plastic strain tensor yz</p>
 
 ```csharp
 public bool PlasticStrainTensorYZ
@@ -341,9 +341,9 @@ public bool PlasticStrainTensorYZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticStrainTensorZ"></a> PlasticStrainTensorZ
+### PlasticStrainTensorZ
 
-The plastic strain tensor z
+<p>The plastic strain tensor z</p>
 
 ```csharp
 public bool PlasticStrainTensorZ
@@ -353,9 +353,9 @@ public bool PlasticStrainTensorZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PlasticStrainTensorZX"></a> PlasticStrainTensorZX
+### PlasticStrainTensorZX
 
-The plastic strain tensor zx
+<p>The plastic strain tensor zx</p>
 
 ```csharp
 public bool PlasticStrainTensorZX
@@ -365,9 +365,9 @@ public bool PlasticStrainTensorZX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PrincipleStressFirst"></a> PrincipleStressFirst
+### PrincipleStressFirst
 
-The principle stress first
+<p>The principle stress first</p>
 
 ```csharp
 public bool PrincipleStressFirst
@@ -377,9 +377,9 @@ public bool PrincipleStressFirst
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PrincipleStressSecond"></a> PrincipleStressSecond
+### PrincipleStressSecond
 
-The principle stress second
+<p>The principle stress second</p>
 
 ```csharp
 public bool PrincipleStressSecond
@@ -389,9 +389,9 @@ public bool PrincipleStressSecond
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_PrincipleStressThird"></a> PrincipleStressThird
+### PrincipleStressThird
 
-The principle stress third
+<p>The principle stress third</p>
 
 ```csharp
 public bool PrincipleStressThird
@@ -401,9 +401,9 @@ public bool PrincipleStressThird
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_StressTensorX"></a> StressTensorX
+### StressTensorX
 
-The stress tensor x
+<p>The stress tensor x</p>
 
 ```csharp
 public bool StressTensorX
@@ -413,9 +413,9 @@ public bool StressTensorX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_StressTensorXY"></a> StressTensorXY
+### StressTensorXY
 
-The stress tensor xy
+<p>The stress tensor xy</p>
 
 ```csharp
 public bool StressTensorXY
@@ -425,9 +425,9 @@ public bool StressTensorXY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_StressTensorY"></a> StressTensorY
+### StressTensorY
 
-The stress tensor y
+<p>The stress tensor y</p>
 
 ```csharp
 public bool StressTensorY
@@ -437,9 +437,9 @@ public bool StressTensorY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_StressTensorYZ"></a> StressTensorYZ
+### StressTensorYZ
 
-The stress tensor yz
+<p>The stress tensor yz</p>
 
 ```csharp
 public bool StressTensorYZ
@@ -449,9 +449,9 @@ public bool StressTensorYZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_StressTensorZ"></a> StressTensorZ
+### StressTensorZ
 
-The stress tensor z
+<p>The stress tensor z</p>
 
 ```csharp
 public bool StressTensorZ
@@ -461,9 +461,9 @@ public bool StressTensorZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_StressTensorZX"></a> StressTensorZX
+### StressTensorZX
 
-The stress tensor zx
+<p>The stress tensor zx</p>
 
 ```csharp
 public bool StressTensorZX
@@ -473,7 +473,7 @@ public bool StressTensorZX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_Temperature"></a> Temperature
+### Temperature
 
 ```csharp
 public bool Temperature
@@ -483,7 +483,7 @@ public bool Temperature
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_ThermalStrain"></a> ThermalStrain
+### ThermalStrain
 
 ```csharp
 public bool ThermalStrain
@@ -493,9 +493,9 @@ public bool ThermalStrain
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalDesignStrainIntensity"></a> TotalDesignStrainIntensity
+### TotalDesignStrainIntensity
 
-The total design strain intensity
+<p>The total design strain intensity</p>
 
 ```csharp
 public bool TotalDesignStrainIntensity
@@ -505,9 +505,9 @@ public bool TotalDesignStrainIntensity
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalDesignStrainVonmises"></a> TotalDesignStrainVonmises
+### TotalDesignStrainVonmises
 
-The total design strain vonmises
+<p>The total design strain vonmises</p>
 
 ```csharp
 public bool TotalDesignStrainVonmises
@@ -517,7 +517,7 @@ public bool TotalDesignStrainVonmises
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalHeatFlux"></a> TotalHeatFlux
+### TotalHeatFlux
 
 ```csharp
 public bool TotalHeatFlux
@@ -527,9 +527,9 @@ public bool TotalHeatFlux
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalPrincipleStrainFirst"></a> TotalPrincipleStrainFirst
+### TotalPrincipleStrainFirst
 
-The total principle strain first
+<p>The total principle strain first</p>
 
 ```csharp
 public bool TotalPrincipleStrainFirst
@@ -539,9 +539,9 @@ public bool TotalPrincipleStrainFirst
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalPrincipleStrainSecond"></a> TotalPrincipleStrainSecond
+### TotalPrincipleStrainSecond
 
-The total principle strain second
+<p>The total principle strain second</p>
 
 ```csharp
 public bool TotalPrincipleStrainSecond
@@ -551,9 +551,9 @@ public bool TotalPrincipleStrainSecond
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalPrincipleStrainThird"></a> TotalPrincipleStrainThird
+### TotalPrincipleStrainThird
 
-The total principle strain third
+<p>The total principle strain third</p>
 
 ```csharp
 public bool TotalPrincipleStrainThird
@@ -563,9 +563,9 @@ public bool TotalPrincipleStrainThird
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalStrainTensorX"></a> TotalStrainTensorX
+### TotalStrainTensorX
 
-The total strain tensor x
+<p>The total strain tensor x</p>
 
 ```csharp
 public bool TotalStrainTensorX
@@ -575,9 +575,9 @@ public bool TotalStrainTensorX
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalStrainTensorXY"></a> TotalStrainTensorXY
+### TotalStrainTensorXY
 
-The total strain tensor xy
+<p>The total strain tensor xy</p>
 
 ```csharp
 public bool TotalStrainTensorXY
@@ -587,9 +587,9 @@ public bool TotalStrainTensorXY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalStrainTensorY"></a> TotalStrainTensorY
+### TotalStrainTensorY
 
-The total strain tensor y
+<p>The total strain tensor y</p>
 
 ```csharp
 public bool TotalStrainTensorY
@@ -599,9 +599,9 @@ public bool TotalStrainTensorY
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalStrainTensorYZ"></a> TotalStrainTensorYZ
+### TotalStrainTensorYZ
 
-The total strain tensor yz
+<p>The total strain tensor yz</p>
 
 ```csharp
 public bool TotalStrainTensorYZ
@@ -611,9 +611,9 @@ public bool TotalStrainTensorYZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalStrainTensorZ"></a> TotalStrainTensorZ
+### TotalStrainTensorZ
 
-The total strain tensor z
+<p>The total strain tensor z</p>
 
 ```csharp
 public bool TotalStrainTensorZ
@@ -623,9 +623,9 @@ public bool TotalStrainTensorZ
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_TotalStrainTensorZX"></a> TotalStrainTensorZX
+### TotalStrainTensorZX
 
-The total strain tensor zx
+<p>The total strain tensor zx</p>
 
 ```csharp
 public bool TotalStrainTensorZX
@@ -637,9 +637,9 @@ public bool TotalStrainTensorZX
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
-Check equality of two objects
+<p>Check equality of two objects</p>
 
 ```csharp
 public override bool Equals(object obj)
@@ -649,17 +649,17 @@ public override bool Equals(object obj)
 
 `obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-Object to compare
+<p>Object to compare</p>
 
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-true if two objects are equal. Otherwise false.
+<p>true if two objects are equal. Otherwise false.</p>
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_Equals_VM_Managed_DAFUL_RequestStructure_OutputType_"></a> Equals\(OutputType\)
+### Equals\(OutputType\)
 
-Check equality of two objects
+<p>Check equality of two objects</p>
 
 ```csharp
 public bool Equals(RequestStructure.OutputType other)
@@ -669,17 +669,17 @@ public bool Equals(RequestStructure.OutputType other)
 
 `other` [RequestStructure](VM.Managed.DAFUL.RequestStructure.md).[OutputType](VM.Managed.DAFUL.RequestStructure.OutputType.md)
 
-Object to compare
+<p>Object to compare</p>
 
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-true if two objects are equal. Otherwise false.
+<p>true if two objects are equal. Otherwise false.</p>
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
-Get hash code of OutputType
+<p>Get hash code of OutputType</p>
 
 ```csharp
 public override int GetHashCode()
@@ -689,13 +689,13 @@ public override int GetHashCode()
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-The hash code
+<p>The hash code</p>
 
 ## Operators
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_op_Equality_VM_Managed_DAFUL_RequestStructure_OutputType_VM_Managed_DAFUL_RequestStructure_OutputType_"></a> operator ==\(OutputType, OutputType\)
+### operator ==\(OutputType, OutputType\)
 
-Compare two OutputType and return equality
+<p>Compare two OutputType and return equality</p>
 
 ```csharp
 public static bool operator ==(RequestStructure.OutputType left, RequestStructure.OutputType right)
@@ -705,21 +705,21 @@ public static bool operator ==(RequestStructure.OutputType left, RequestStructur
 
 `left` [RequestStructure](VM.Managed.DAFUL.RequestStructure.md).[OutputType](VM.Managed.DAFUL.RequestStructure.OutputType.md)
 
-The left parameter to compare
+<p>The left parameter to compare</p>
 
 `right` [RequestStructure](VM.Managed.DAFUL.RequestStructure.md).[OutputType](VM.Managed.DAFUL.RequestStructure.OutputType.md)
 
-The right parameter to compare
+<p>The right parameter to compare</p>
 
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-true if two arguments are same. Otherwise false.
+<p>true if two arguments are same. Otherwise false.</p>
 
-### <a id="VM_Managed_DAFUL_RequestStructure_OutputType_op_Inequality_VM_Managed_DAFUL_RequestStructure_OutputType_VM_Managed_DAFUL_RequestStructure_OutputType_"></a> operator \!=\(OutputType, OutputType\)
+### operator \!=\(OutputType, OutputType\)
 
-Compare two OutputType and return equality
+<p>Compare two OutputType and return equality</p>
 
 ```csharp
 public static bool operator !=(RequestStructure.OutputType left, RequestStructure.OutputType right)
@@ -729,15 +729,16 @@ public static bool operator !=(RequestStructure.OutputType left, RequestStructur
 
 `left` [RequestStructure](VM.Managed.DAFUL.RequestStructure.md).[OutputType](VM.Managed.DAFUL.RequestStructure.OutputType.md)
 
-The left parameter to compare
+<p>The left parameter to compare</p>
 
 `right` [RequestStructure](VM.Managed.DAFUL.RequestStructure.md).[OutputType](VM.Managed.DAFUL.RequestStructure.OutputType.md)
 
-The right parameter to compare
+<p>The right parameter to compare</p>
 
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-true if two arguments are not same. Otherwise false.
+<p>true if two arguments are not same. Otherwise false.</p>
+
 

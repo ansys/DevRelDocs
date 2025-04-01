@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_IReadableForceMarker"></a> Interface IReadableForceMarker
+# Interface IReadableForceMarker
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -17,7 +17,7 @@ public interface IReadableForceMarker
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Force_IReadableForceMarker_ReadableActionMarker_System_Boolean__System_Boolean__"></a> ReadableActionMarker\(ref bool, ref bool\)
+### ReadableActionMarker\(ref bool, ref bool\)
 
 Readables the action marker.
 
@@ -35,7 +35,7 @@ if set to <code>true</code> [b readable pos].
 
 if set to <code>true</code> [b readable ori].
 
-### <a id="VM_Managed_DAFUL_Force_IReadableForceMarker_ReadableBaseMarker_System_Boolean__System_Boolean__"></a> ReadableBaseMarker\(ref bool, ref bool\)
+### ReadableBaseMarker\(ref bool, ref bool\)
 
 Readables the base marker.
 
@@ -52,4 +52,5 @@ if set to <code>true</code> [b readable pos].
 `bReadableOri` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> [b readable ori].
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Elements_Pyra13"></a> Class Pyra13
+# Class Pyra13
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -70,7 +70,7 @@ public class Pyra13 : Element13Nodes, IEntity
 
 ## Constructors
 
-### <a id="VM_Models_FE_Mesh_Elements_Pyra13__ctor"></a> Pyra13\(\)
+### Pyra13\(\)
 
 ```csharp
 public Pyra13()
@@ -78,7 +78,7 @@ public Pyra13()
 
 ## Properties
 
-### <a id="VM_Models_FE_Mesh_Elements_Pyra13_ElementType"></a> ElementType
+### ElementType
 
 ```csharp
 public override ElementTypes ElementType { get; }
@@ -87,4 +87,5 @@ public override ElementTypes ElementType { get; }
 #### Property Value
 
  [ElementTypes](VM.Models.FE.Mesh.ElementTypes.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GeometryInfoBase"></a> Class GeometryInfoBase
+# Class GeometryInfoBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -176,7 +176,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GeometryInfoBase__ctor"></a> GeometryInfoBase\(\)
+### GeometryInfoBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GeometryInfoBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -184,7 +184,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Geometr
 public GeometryInfoBase()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_GeometryInfoBase__ctor_System_String_"></a> GeometryInfoBase\(string\)
+### GeometryInfoBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GeometryInfoBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -200,7 +200,7 @@ Name of the sub entity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_GeometryInfoBase_ClearanceInformation"></a> ClearanceInformation
+### ClearanceInformation
 
 Gets or sets the clearance information.
 
@@ -212,7 +212,7 @@ public ClearanceInfo ClearanceInformation { get; set; }
 
  [ClearanceInfo](VM.Managed.DAFUL.GearTrain.ClearanceInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GeometryInfoBase_GeometryDepth"></a> GeometryDepth
+### GeometryDepth
 
 Gets the geometry depth.
 
@@ -224,7 +224,7 @@ public abstract double GeometryDepth { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GeometryInfoBase_TypeOfGeometry"></a> TypeOfGeometry
+### TypeOfGeometry
 
 Gets the type of geometry.
 
@@ -238,7 +238,7 @@ public abstract GeometryInfoBase.GeometryType TypeOfGeometry { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_GeometryInfoBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -251,4 +251,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

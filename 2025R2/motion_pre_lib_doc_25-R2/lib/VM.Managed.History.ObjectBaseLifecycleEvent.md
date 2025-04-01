@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_ObjectBaseLifecycleEvent"></a> Class ObjectBaseLifecycleEvent
+# Class ObjectBaseLifecycleEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -67,7 +67,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_History_ObjectBaseLifecycleEvent__ctor_System_Object_"></a> ObjectBaseLifecycleEvent\(object\)
+### ObjectBaseLifecycleEvent\(object\)
 
 ```csharp
 public ObjectBaseLifecycleEvent(object obOriginal)
@@ -79,7 +79,7 @@ public ObjectBaseLifecycleEvent(object obOriginal)
 
 ## Properties
 
-### <a id="VM_Managed_History_ObjectBaseLifecycleEvent_InitialBackup"></a> InitialBackup
+### InitialBackup
 
 ```csharp
 protected override bool InitialBackup { get; }
@@ -91,7 +91,7 @@ protected override bool InitialBackup { get; }
 
 ## Methods
 
-### <a id="VM_Managed_History_ObjectBaseLifecycleEvent_AfterAdded_VM_Managed_History_HistoryEventArgs_"></a> AfterAdded\(HistoryEventArgs\)
+### AfterAdded\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterAdded(HistoryEventArgs args)
@@ -101,7 +101,7 @@ protected override void AfterAdded(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseLifecycleEvent_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 ```csharp
 protected override void Clear(bool bReserveReferenceCount)
@@ -111,7 +111,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_History_ObjectBaseLifecycleEvent_Register_VM_Managed_History_HistoryEventArgs_"></a> Register\(HistoryEventArgs\)
+### Register\(HistoryEventArgs\)
 
 ```csharp
 protected void Register(HistoryEventArgs args)
@@ -121,7 +121,7 @@ protected void Register(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseLifecycleEvent_Unregister_VM_Managed_History_HistoryEventArgs_"></a> Unregister\(HistoryEventArgs\)
+### Unregister\(HistoryEventArgs\)
 
 ```csharp
 protected void Unregister(HistoryEventArgs args)
@@ -130,4 +130,5 @@ protected void Unregister(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IXMLFormatable"></a> Interface IXMLFormatable
+# Interface IXMLFormatable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IXMLFormatable
 
 ## Methods
 
-### <a id="VM_Managed_IXMLFormatable_Load_System_IO_TextReader_"></a> Load\(TextReader\)
+### Load\(TextReader\)
 
 Load document.
 
@@ -31,7 +31,7 @@ void Load(TextReader reader)
 
 The container.
 
-### <a id="VM_Managed_IXMLFormatable_Save_System_IO_TextWriter_"></a> Save\(TextWriter\)
+### Save\(TextWriter\)
 
 Save document.
 
@@ -44,4 +44,5 @@ void Save(TextWriter writer)
 `writer` [TextWriter](https://learn.microsoft.com/dotnet/api/system.io.textwriter)
 
 The container.
+
 

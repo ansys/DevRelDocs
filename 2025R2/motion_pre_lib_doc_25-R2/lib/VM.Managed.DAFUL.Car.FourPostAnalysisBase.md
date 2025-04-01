@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_FourPostAnalysisBase"></a> Class FourPostAnalysisBase
+# Class FourPostAnalysisBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -38,7 +38,7 @@ AnalysisBase.IsSim
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_FourPostAnalysisBase__ctor"></a> FourPostAnalysisBase\(\)
+### FourPostAnalysisBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FourPostAnalysisBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,7 +46,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FourPostAnaly
 public FourPostAnalysisBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_FourPostAnalysisBase__ctor_VM_Models_Pre_ILinkContainer_"></a> FourPostAnalysisBase\(ILinkContainer\)
+### FourPostAnalysisBase\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FourPostAnalysisBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -62,7 +62,7 @@ The link container.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_FourPostAnalysisBase_GetTestRigMotionUSUBArgumentCore_System_String_VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_System_String___"></a> GetTestRigMotionUSUBArgumentCore\(string, AnalysisFourPostRideInfo, string\[\]\)
+### GetTestRigMotionUSUBArgumentCore\(string, AnalysisFourPostRideInfo, string\[\]\)
 
 Gets the test rig motion USUB argument core.
 
@@ -83,4 +83,5 @@ The info.
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The ar parameter.
+
 

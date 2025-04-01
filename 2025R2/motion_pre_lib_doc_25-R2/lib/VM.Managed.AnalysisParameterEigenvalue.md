@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AnalysisParameterEigenvalue"></a> Class AnalysisParameterEigenvalue
+# Class AnalysisParameterEigenvalue
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -22,7 +22,7 @@ public class AnalysisParameterEigenvalue
 
 ## Constructors
 
-### <a id="VM_Managed_AnalysisParameterEigenvalue__ctor"></a> AnalysisParameterEigenvalue\(\)
+### AnalysisParameterEigenvalue\(\)
 
 ```csharp
 public AnalysisParameterEigenvalue()
@@ -30,7 +30,7 @@ public AnalysisParameterEigenvalue()
 
 ## Properties
 
-### <a id="VM_Managed_AnalysisParameterEigenvalue_EigenParameter"></a> EigenParameter
+### EigenParameter
 
 Gets or sets the parameter.
 
@@ -42,7 +42,7 @@ public EigenvalueAnalysisParameter EigenParameter { get; set; }
 
  [EigenvalueAnalysisParameter](VM.Managed.EigenvalueAnalysisParameter.md)
 
-### <a id="VM_Managed_AnalysisParameterEigenvalue_OwnerLinkContainer"></a> OwnerLinkContainer
+### OwnerLinkContainer
 
 Gets the owner.
 
@@ -54,7 +54,7 @@ public LinkContainer OwnerLinkContainer { set; }
 
  LinkContainer
 
-### <a id="VM_Managed_AnalysisParameterEigenvalue_TypeForAnalysis"></a> TypeForAnalysis
+### TypeForAnalysis
 
 Gets or sets the analysis type.
 
@@ -68,11 +68,12 @@ public AnalysisParameterEigenvalue.AnalysisType TypeForAnalysis { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_AnalysisParameterEigenvalue_SetModified"></a> SetModified\(\)
+### SetModified\(\)
 
 Set modified flag.
 
 ```csharp
 protected void SetModified()
 ```
+
 

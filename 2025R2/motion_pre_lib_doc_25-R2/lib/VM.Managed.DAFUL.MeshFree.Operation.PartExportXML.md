@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_PartExportXML"></a> Class PartExportXML
+# Class PartExportXML
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -108,7 +108,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_PartExportXML__ctor_VM_Managed_Document_"></a> PartExportXML\(Document\)
+### PartExportXML\(Document\)
 
 ```csharp
 public PartExportXML(Document doc)
@@ -118,7 +118,7 @@ public PartExportXML(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_PartExportXML__ctor_VM_Managed_Operation_JournalParameter_"></a> PartExportXML\(JournalParameter\)
+### PartExportXML\(JournalParameter\)
 
 ```csharp
 public PartExportXML(JournalParameter jp)
@@ -130,7 +130,7 @@ public PartExportXML(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_PartExportXML_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -144,7 +144,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_PartExportXML_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -152,7 +152,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_PartExportXML_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
+### SimulationRunImpl\(bool\)
 
 ```csharp
 protected override void SimulationRunImpl(bool bWriteDFG)
@@ -161,4 +161,5 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 #### Parameters
 
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

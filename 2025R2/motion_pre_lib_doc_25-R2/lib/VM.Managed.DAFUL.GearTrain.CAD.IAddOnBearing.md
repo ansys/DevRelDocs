@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_IAddOnBearing"></a> Interface IAddOnBearing
+# Interface IAddOnBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IAddOnBearing
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_IAddOnBearing_BearingPoint"></a> BearingPoint
+### BearingPoint
 
 Gets or sets the bearing point.
 
@@ -29,7 +29,7 @@ PointBase BearingPoint { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_IAddOnBearing_ReferenceOffset"></a> ReferenceOffset
+### ReferenceOffset
 
 Gets or sets the reference offset.
 
@@ -41,7 +41,7 @@ double ReferenceOffset { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_IAddOnBearing_ReferencePoint"></a> ReferencePoint
+### ReferencePoint
 
 Gets or sets the reference point.
 
@@ -53,7 +53,7 @@ ReferencePointType ReferencePoint { get; set; }
 
  [ReferencePointType](VM.Managed.DAFUL.GearTrain.CAD.ReferencePointType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_IAddOnBearing_TypeOfParent"></a> TypeOfParent
+### TypeOfParent
 
 Gets or sets the type of parent.
 
@@ -64,4 +64,5 @@ GearBuilder.ParentType TypeOfParent { get; set; }
 #### Property Value
 
  [GearBuilder](VM.Managed.DAFUL.GearTrain.CAD.GearBuilder.md).[ParentType](VM.Managed.DAFUL.GearTrain.CAD.GearBuilder.ParentType.md)
+
 

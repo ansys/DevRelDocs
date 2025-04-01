@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_CADOperation"></a> Class CADOperation
+# Class CADOperation
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -22,7 +22,7 @@ public class CADOperation
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_CADOperation__ctor"></a> CADOperation\(\)
+### CADOperation\(\)
 
 ```csharp
 public CADOperation()
@@ -30,7 +30,7 @@ public CADOperation()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_CADOperation_GetWeldPoint_VM_Managed_DAFUL_MeshFree_Weld_VM_Managed_CAD_Body_VM_Managed_CAD_Body_VM_Managed_Range_VM_Managed_VectorBase____VM_Managed_VectorBase____"></a> GetWeldPoint\(Weld, Body, Body, Range, ref VectorBase\[\], ref VectorBase\[\]\)
+### GetWeldPoint\(Weld, Body, Body, Range, ref VectorBase\[\], ref VectorBase\[\]\)
 
 Get weld point.
 
@@ -68,7 +68,7 @@ The lower point.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_CADOperation_UpdateMeshFreeNodePropertyAndMaxFacetSize_VM_Managed_IAttributeContainer_"></a> UpdateMeshFreeNodePropertyAndMaxFacetSize\(IAttributeContainer\)
+### UpdateMeshFreeNodePropertyAndMaxFacetSize\(IAttributeContainer\)
 
 Update meshfree node property and max facet size.
 
@@ -85,4 +85,5 @@ The container.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

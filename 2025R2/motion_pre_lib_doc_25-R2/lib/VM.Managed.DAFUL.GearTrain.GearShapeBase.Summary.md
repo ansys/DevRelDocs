@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary"></a> Class GearShapeBase.Summary
+# Class GearShapeBase.Summary
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -22,7 +22,7 @@ public class GearShapeBase.Summary
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary__ctor"></a> Summary\(\)
+### Summary\(\)
 
 ```csharp
 public Summary()
@@ -30,7 +30,7 @@ public Summary()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_APoint"></a> APoint
+### APoint
 
 Gets or sets the A Point.
 
@@ -42,7 +42,7 @@ public double APoint { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_AddendmumCoefficient"></a> AddendmumCoefficient
+### AddendmumCoefficient
 
 Gets or sets the addendmum coefficient.
 
@@ -54,7 +54,7 @@ public double AddendmumCoefficient { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_BPoint"></a> BPoint
+### BPoint
 
 Gets or sets the B Point.
 
@@ -66,7 +66,7 @@ public double BPoint { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_BackLash"></a> BackLash
+### BackLash
 
 Gets or sets back lash.
 
@@ -78,7 +78,7 @@ public double BackLash { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_BaseCircleDiameter"></a> BaseCircleDiameter
+### BaseCircleDiameter
 
 Gets or sets the BCD.
 
@@ -90,7 +90,7 @@ public double BaseCircleDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_DedendmumCoefficient"></a> DedendmumCoefficient
+### DedendmumCoefficient
 
 Gets or sets the dedendmum coefficient.
 
@@ -102,7 +102,7 @@ public double DedendmumCoefficient { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_FaceWidth"></a> FaceWidth
+### FaceWidth
 
 Gets or sets the face width.
 
@@ -114,7 +114,7 @@ public double FaceWidth { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_HandOfHelix"></a> HandOfHelix
+### HandOfHelix
 
 Gets or sets the hand of helix.
 
@@ -126,7 +126,7 @@ public double HandOfHelix { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_HelixAngle"></a> HelixAngle
+### HelixAngle
 
 Gets or sets helix angle.
 
@@ -138,7 +138,7 @@ public double HelixAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_NormalModule"></a> NormalModule
+### NormalModule
 
 Gets or sets normal module.
 
@@ -150,7 +150,7 @@ public double NormalModule { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_NormalPressureAngle"></a> NormalPressureAngle
+### NormalPressureAngle
 
 Gets or sets normal pressure angle.
 
@@ -162,7 +162,7 @@ public double NormalPressureAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_NormalProfileShiftCoefficient"></a> NormalProfileShiftCoefficient
+### NormalProfileShiftCoefficient
 
 Gets or sets normal profile shift coefficient.
 
@@ -174,7 +174,7 @@ public double NormalProfileShiftCoefficient { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_NumberOfTeeth"></a> NumberOfTeeth
+### NumberOfTeeth
 
 Gets or sets number of teeth.
 
@@ -186,7 +186,7 @@ public uint NumberOfTeeth { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_PitchCircleDiameter"></a> PitchCircleDiameter
+### PitchCircleDiameter
 
 Gets or sets the PCD.
 
@@ -198,7 +198,7 @@ public double PitchCircleDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_RootCircleDiameter"></a> RootCircleDiameter
+### RootCircleDiameter
 
 Gets or sets the RCD.
 
@@ -210,7 +210,7 @@ public double RootCircleDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_TipCircleDiameter"></a> TipCircleDiameter
+### TipCircleDiameter
 
 Gets or sets the TCD.
 
@@ -222,7 +222,7 @@ public double TipCircleDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_TransverseModule"></a> TransverseModule
+### TransverseModule
 
 Gets or sets transverse module.
 
@@ -234,7 +234,7 @@ public double TransverseModule { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_TransversePressureAngle"></a> TransversePressureAngle
+### TransversePressureAngle
 
 Gets or sets transverse pressure angle.
 
@@ -246,7 +246,7 @@ public double TransversePressureAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_TransverseProfileShiftCoefficient"></a> TransverseProfileShiftCoefficient
+### TransverseProfileShiftCoefficient
 
 Gets or sets transverse profile shift coefficient.
 
@@ -258,7 +258,7 @@ public double TransverseProfileShiftCoefficient { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_WorkingPitchCircleDiamter"></a> WorkingPitchCircleDiamter
+### WorkingPitchCircleDiamter
 
 Gets or sets the working pitch circle diamter.
 
@@ -270,7 +270,7 @@ public double WorkingPitchCircleDiamter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_WorkingPitchCircleDiamterIdeal"></a> WorkingPitchCircleDiamterIdeal
+### WorkingPitchCircleDiamterIdeal
 
 Gets or sets the ideal working pitch circle diamter.
 
@@ -282,7 +282,7 @@ public double WorkingPitchCircleDiamterIdeal { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Summary_ZPoint"></a> ZPoint
+### ZPoint
 
 Gets or sets the Z Point.
 
@@ -293,4 +293,5 @@ public double ZPoint { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

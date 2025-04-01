@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_PickedTransform"></a> Class PickedTransform
+# Class PickedTransform
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -25,13 +25,13 @@ public class PickedTransform : PickedResult
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_PickedTransform__ctor"></a> PickedTransform\(\)
+### PickedTransform\(\)
 
 ```csharp
 public PickedTransform()
 ```
 
-### <a id="VM_Managed_DAFUL_Builder_PickedTransform__ctor_VM_Managed_TransformBase_"></a> PickedTransform\(TransformBase\)
+### PickedTransform\(TransformBase\)
 
 ```csharp
 public PickedTransform(TransformBase transformBase)
@@ -43,7 +43,7 @@ public PickedTransform(TransformBase transformBase)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_PickedTransform_Transform"></a> Transform
+### Transform
 
 ```csharp
 public TransformBase Transform { get; set; }
@@ -53,7 +53,7 @@ public TransformBase Transform { get; set; }
 
  TransformBase
 
-### <a id="VM_Managed_DAFUL_Builder_PickedTransform_Type"></a> Type
+### Type
 
 ```csharp
 public override PickedResult.PickedType Type { get; }
@@ -62,4 +62,5 @@ public override PickedResult.PickedType Type { get; }
 #### Property Value
 
  [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md).[PickedType](VM.Managed.DAFUL.Builder.PickedResult.PickedType.md)
+
 

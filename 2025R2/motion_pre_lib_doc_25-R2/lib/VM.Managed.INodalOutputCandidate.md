@@ -1,4 +1,4 @@
-# <a id="VM_Managed_INodalOutputCandidate"></a> Interface INodalOutputCandidate
+# Interface INodalOutputCandidate
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface INodalOutputCandidate
 
 ## Methods
 
-### <a id="VM_Managed_INodalOutputCandidate_GetNodeNames_System_Collections_Generic_List_System_String___"></a> GetNodeNames\(ref List<string\>\)
+### GetNodeNames\(ref List<string\>\)
 
 ```csharp
 void GetNodeNames(ref List<string> lstNodeNames)
@@ -26,4 +26,5 @@ void GetNodeNames(ref List<string> lstNodeNames)
 #### Parameters
 
 `lstNodeNames` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
+
 

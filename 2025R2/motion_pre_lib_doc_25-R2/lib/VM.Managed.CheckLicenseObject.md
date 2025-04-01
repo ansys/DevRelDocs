@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CheckLicenseObject"></a> Class CheckLicenseObject
+# Class CheckLicenseObject
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -22,7 +22,7 @@ public class CheckLicenseObject
 
 ## Constructors
 
-### <a id="VM_Managed_CheckLicenseObject__ctor"></a> CheckLicenseObject\(\)
+### CheckLicenseObject\(\)
 
 ```csharp
 public CheckLicenseObject()
@@ -30,7 +30,7 @@ public CheckLicenseObject()
 
 ## Methods
 
-### <a id="VM_Managed_CheckLicenseObject_CheckLicense_System_Object_System_String__"></a> CheckLicense\(object, ref string\)
+### CheckLicense\(object, ref string\)
 
 Check license.
 
@@ -52,7 +52,7 @@ The error message.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CheckLicenseObject_CheckLicense_System_Type_System_String__"></a> CheckLicense\(Type, ref string\)
+### CheckLicense\(Type, ref string\)
 
 Check license.
 
@@ -74,7 +74,7 @@ The error message.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CheckLicenseObject_CheckLicenseNoErrorMsg_System_Type_System_String__"></a> CheckLicenseNoErrorMsg\(Type, ref string\)
+### CheckLicenseNoErrorMsg\(Type, ref string\)
 
 Check license.
 
@@ -96,7 +96,7 @@ The error message.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CheckLicenseObject_GetLicenseErrorMessage_VM_Managed_License_ILicense_"></a> GetLicenseErrorMessage\(ILicense\)
+### GetLicenseErrorMessage\(ILicense\)
 
 Get license message.
 
@@ -113,4 +113,5 @@ The License interface.
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

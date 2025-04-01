@@ -1,4 +1,4 @@
-# <a id="VM_Managed_LinkEventArgs"></a> Class LinkEventArgs
+# Class LinkEventArgs
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -29,7 +29,7 @@ public class LinkEventArgs : EventArgs
 
 ## Constructors
 
-### <a id="VM_Managed_LinkEventArgs__ctor_VM_Managed_NotifyReason_System_Object_VM_Managed_LinkEventArgs_System_Object_"></a> LinkEventArgs\(NotifyReason, object, LinkEventArgs, object\)
+### LinkEventArgs\(NotifyReason, object, LinkEventArgs, object\)
 
 Initializes a new instance of the <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -55,7 +55,7 @@ The inner event.
 
 The previous linked object.
 
-### <a id="VM_Managed_LinkEventArgs__ctor_VM_Managed_Document_VM_Managed_NotifyReason_System_Object_"></a> LinkEventArgs\(Document, NotifyReason, object\)
+### LinkEventArgs\(Document, NotifyReason, object\)
 
 Initializes a new instance of the <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -77,7 +77,7 @@ The type of event.
 
 The extra object information.
 
-### <a id="VM_Managed_LinkEventArgs__ctor_VM_Managed_NotifyReason_System_Object_"></a> LinkEventArgs\(NotifyReason, object\)
+### LinkEventArgs\(NotifyReason, object\)
 
 Initializes a new instance of the <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -95,7 +95,7 @@ The type of event.
 
 The extra object information.
 
-### <a id="VM_Managed_LinkEventArgs__ctor_VM_Managed_NotifyReason_VM_Managed_LinkEventArgs_System_Object_"></a> LinkEventArgs\(NotifyReason, LinkEventArgs, object\)
+### LinkEventArgs\(NotifyReason, LinkEventArgs, object\)
 
 Initializes a new instance of the <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -117,7 +117,7 @@ The inner event.
 
 The previous linked object.
 
-### <a id="VM_Managed_LinkEventArgs__ctor_VM_Managed_Document_VM_Managed_NotifyReason_"></a> LinkEventArgs\(Document, NotifyReason\)
+### LinkEventArgs\(Document, NotifyReason\)
 
 Initializes a new instance of the <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -135,7 +135,7 @@ The document of event.
 
 The type of event.
 
-### <a id="VM_Managed_LinkEventArgs__ctor_VM_Managed_NotifyReason_"></a> LinkEventArgs\(NotifyReason\)
+### LinkEventArgs\(NotifyReason\)
 
 Initializes a new instance of the <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -151,7 +151,7 @@ The type of event.
 
 ## Properties
 
-### <a id="VM_Managed_LinkEventArgs_Document"></a> Document
+### Document
 
 Gets the document.
 
@@ -163,7 +163,7 @@ public Document Document { get; }
 
  [Document](VM.Managed.Document.md)
 
-### <a id="VM_Managed_LinkEventArgs_EntitiesForCircularReference"></a> EntitiesForCircularReference
+### EntitiesForCircularReference
 
 Gets or sets the objects for circular reference.
 
@@ -175,7 +175,7 @@ public HashSet<ObjectBase> EntitiesForCircularReference { get; set; }
 
  [HashSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
-### <a id="VM_Managed_LinkEventArgs_Extra"></a> Extra
+### Extra
 
 Gets the extra object information.
 
@@ -187,7 +187,7 @@ public object Extra { get; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_LinkEventArgs_InnerEventArgument"></a> InnerEventArgument
+### InnerEventArgument
 
 Gets the inner event.
 
@@ -199,7 +199,7 @@ public LinkEventArgs InnerEventArgument { get; }
 
  [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
-### <a id="VM_Managed_LinkEventArgs_PreviousEventNotifier"></a> PreviousEventNotifier
+### PreviousEventNotifier
 
 Gets the previous linked object.
 
@@ -211,7 +211,7 @@ public object PreviousEventNotifier { get; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_LinkEventArgs_Reason"></a> Reason
+### Reason
 
 Gets the type of evnet.
 
@@ -225,7 +225,7 @@ public NotifyReason Reason { get; }
 
 ## Methods
 
-### <a id="VM_Managed_LinkEventArgs_ExistDestroyingTarget_System_Object_"></a> ExistDestroyingTarget\(object\)
+### ExistDestroyingTarget\(object\)
 
 ```csharp
 public bool ExistDestroyingTarget(object target)
@@ -239,7 +239,7 @@ public bool ExistDestroyingTarget(object target)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_LinkEventArgs_ExistUpdatingTarget_System_Object_"></a> ExistUpdatingTarget\(object\)
+### ExistUpdatingTarget\(object\)
 
 ```csharp
 public bool ExistUpdatingTarget(object target)
@@ -253,7 +253,7 @@ public bool ExistUpdatingTarget(object target)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_LinkEventArgs_IsDestroying_System_Object_"></a> IsDestroying\(object\)
+### IsDestroying\(object\)
 
 ```csharp
 public bool IsDestroying(object objNotifier)
@@ -267,7 +267,7 @@ public bool IsDestroying(object objNotifier)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_LinkEventArgs_IsUpdating_System_Object_"></a> IsUpdating\(object\)
+### IsUpdating\(object\)
 
 ```csharp
 public bool IsUpdating(object objNotifier)
@@ -280,4 +280,5 @@ public bool IsUpdating(object objNotifier)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

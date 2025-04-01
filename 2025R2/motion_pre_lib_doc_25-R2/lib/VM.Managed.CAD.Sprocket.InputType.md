@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Sprocket_InputType"></a> Enum InputType
+# Enum InputType
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -20,6 +20,7 @@ Input specification
 `UserDefined = 1` 
 
 Input user defined profile.
+
 
 
 

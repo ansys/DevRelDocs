@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Equation_EquationDiffUserSubroutine"></a> Class EquationDiffUserSubroutine
+# Class EquationDiffUserSubroutine
 
 Namespace: [VM.Managed.DAFUL.Equation](VM.Managed.DAFUL.Equation.md)  
 Assembly: VMDEq.dll  
@@ -80,7 +80,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Equation_EquationDiffUserSubroutine__ctor"></a> EquationDiffUserSubroutine\(\)
+### EquationDiffUserSubroutine\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.EquationDiffUserSubroutine" data-throw-if-not-resolved="false"></xref> class.
 
@@ -88,7 +88,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.Equation
 public EquationDiffUserSubroutine()
 ```
 
-### <a id="VM_Managed_DAFUL_Equation_EquationDiffUserSubroutine__ctor_VM_Managed_DAFUL_Equation_Equation_"></a> EquationDiffUserSubroutine\(Equation\)
+### EquationDiffUserSubroutine\(Equation\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.EquationDiffUserSubroutine" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ The owner equation.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Equation_EquationDiffUserSubroutine_Type"></a> Type
+### Type
 
 Gets the function type.
 
@@ -116,7 +116,7 @@ public override EquationFunction.FunctionType Type { get; }
 
  [EquationFunction](VM.Managed.DAFUL.Equation.EquationFunction.md).[FunctionType](VM.Managed.DAFUL.Equation.EquationFunction.FunctionType.md)
 
-### <a id="VM_Managed_DAFUL_Equation_EquationDiffUserSubroutine_UserSubroutine"></a> UserSubroutine
+### UserSubroutine
 
 Gets or sets the user subroutine.
 
@@ -127,4 +127,5 @@ public UserSubroutine UserSubroutine { get; set; }
 #### Property Value
 
  UserSubroutine
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_History"></a> Namespace VM.Managed.DAFUL.History
+# Namespace VM.Managed.DAFUL.History
 
 ### Classes
 
@@ -25,4 +25,5 @@ SetFaceRemoveEvent
  [UpdateAssembledBodyEvent](VM.Managed.DAFUL.History.UpdateAssembledBodyEvent.md)
 
 Update assembled body history event
+
 

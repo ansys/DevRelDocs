@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetPlanetaryDPCreateInfo"></a> Class CreateDTEntityUtil.GearSetPlanetaryDPCreateInfo
+# Class CreateDTEntityUtil.GearSetPlanetaryDPCreateInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -52,7 +52,7 @@ public class CreateDTEntityUtil.GearSetPlanetaryDPCreateInfo : CreateDTEntityUti
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetPlanetaryDPCreateInfo__ctor"></a> GearSetPlanetaryDPCreateInfo\(\)
+### GearSetPlanetaryDPCreateInfo\(\)
 
 ```csharp
 public GearSetPlanetaryDPCreateInfo()
@@ -60,7 +60,7 @@ public GearSetPlanetaryDPCreateInfo()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetPlanetaryDPCreateInfo_DogLegDirection"></a> DogLegDirection
+### DogLegDirection
 
 ```csharp
 public PropertyGearSetPlanetaryDP.DogLegDirectionType DogLegDirection
@@ -72,7 +72,7 @@ public PropertyGearSetPlanetaryDP.DogLegDirectionType DogLegDirection
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetPlanetaryDPCreateInfo_InputArrayForPlanetaryDP"></a> InputArrayForPlanetaryDP
+### InputArrayForPlanetaryDP
 
 ```csharp
 public string[] InputArrayForPlanetaryDP { get; }
@@ -84,9 +84,10 @@ public string[] InputArrayForPlanetaryDP { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetPlanetaryDPCreateInfo_InitializePlanetaryDP"></a> InitializePlanetaryDP\(\)
+### InitializePlanetaryDP\(\)
 
 ```csharp
 public void InitializePlanetaryDP()
 ```
+
 

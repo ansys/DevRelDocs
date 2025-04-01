@@ -1,4 +1,4 @@
-# <a id="VM_Models_StepItemService"></a> Class StepItemService
+# Class StepItemService
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -25,7 +25,7 @@ public class StepItemService : IStepItemService
 
 ## Constructors
 
-### <a id="VM_Models_StepItemService__ctor_VM_Models_ApplicationTypes_"></a> StepItemService\(ApplicationTypes\)
+### StepItemService\(ApplicationTypes\)
 
 ```csharp
 public StepItemService(ApplicationTypes target)
@@ -37,7 +37,7 @@ public StepItemService(ApplicationTypes target)
 
 ## Properties
 
-### <a id="VM_Models_StepItemService_Target"></a> Target
+### Target
 
 ```csharp
 public ApplicationTypes Target { get; }
@@ -49,7 +49,7 @@ public ApplicationTypes Target { get; }
 
 ## Methods
 
-### <a id="VM_Models_StepItemService_Add_VM_Models_IStepItemSet_System_Type_System_Func_System_Collections_Generic_IEnumerable_VM_Models_IStepItem___"></a> Add\(IStepItemSet, Type, Func<IEnumerable<IStepItem\>\>\)
+### Add\(IStepItemSet, Type, Func<IEnumerable<IStepItem\>\>\)
 
 ```csharp
 public void Add(IStepItemSet stepItemSet, Type stepType, Func<IEnumerable<IStepItem>> factory)
@@ -63,13 +63,13 @@ public void Add(IStepItemSet stepItemSet, Type stepType, Func<IEnumerable<IStepI
 
 `factory` [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<[IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IStepItem](VM.Models.IStepItem.md)\>\>
 
-### <a id="VM_Models_StepItemService_Clear"></a> Clear\(\)
+### Clear\(\)
 
 ```csharp
 public void Clear()
 ```
 
-### <a id="VM_Models_StepItemService_Compose_System_Collections_Generic_IEnumerable_System_Reflection_Assembly__"></a> Compose\(IEnumerable<Assembly\>\)
+### Compose\(IEnumerable<Assembly\>\)
 
 ```csharp
 public void Compose(IEnumerable<Assembly> assemblies)
@@ -79,7 +79,7 @@ public void Compose(IEnumerable<Assembly> assemblies)
 
 `assemblies` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Assembly](https://learn.microsoft.com/dotnet/api/system.reflection.assembly)\>
 
-### <a id="VM_Models_StepItemService_GetItems_System_Type_VM_Models_IStep_"></a> GetItems\(Type, IStep\)
+### GetItems\(Type, IStep\)
 
 ```csharp
 public IEnumerable<IStepItem> GetItems(Type scenarioType, IStep parent)
@@ -94,4 +94,5 @@ public IEnumerable<IStepItem> GetItems(Type scenarioType, IStep parent)
 #### Returns
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IStepItem](VM.Models.IStepItem.md)\>
+
 

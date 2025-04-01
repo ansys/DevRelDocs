@@ -1,4 +1,4 @@
-# <a id="VM_IOrientationBase"></a> Interface IOrientationBase
+# Interface IOrientationBase
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IOrientationBase
 
 ## Properties
 
-### <a id="VM_IOrientationBase_AngleType"></a> AngleType
+### AngleType
 
 ```csharp
 AngleTypes AngleType { get; }
@@ -25,7 +25,7 @@ AngleTypes AngleType { get; }
 
  [AngleTypes](VM.AngleTypes.md)
 
-### <a id="VM_IOrientationBase_RotationAngles"></a> RotationAngles
+### RotationAngles
 
 ```csharp
 IList<double> RotationAngles { get; }
@@ -35,7 +35,7 @@ IList<double> RotationAngles { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="VM_IOrientationBase_RotationAxes"></a> RotationAxes
+### RotationAxes
 
 ```csharp
 RotationAxes RotationAxes { get; }
@@ -45,7 +45,7 @@ RotationAxes RotationAxes { get; }
 
  [RotationAxes](VM.RotationAxes.md)
 
-### <a id="VM_IOrientationBase_RotationType"></a> RotationType
+### RotationType
 
 ```csharp
 RotationTypes RotationType { get; }
@@ -55,7 +55,7 @@ RotationTypes RotationType { get; }
 
  [RotationTypes](VM.RotationTypes.md)
 
-### <a id="VM_IOrientationBase_Value"></a> Value
+### Value
 
 ```csharp
 OMatrix Value { get; }
@@ -64,4 +64,5 @@ OMatrix Value { get; }
 #### Property Value
 
  [OMatrix](VM.OMatrix.md)
+
 

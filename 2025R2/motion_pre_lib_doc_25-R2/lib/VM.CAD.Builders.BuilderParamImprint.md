@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamImprint"></a> Class BuilderParamImprint
+# Class BuilderParamImprint
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -35,7 +35,7 @@ public class BuilderParamImprint : BuilderParamPair
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamImprint__ctor"></a> BuilderParamImprint\(\)
+### BuilderParamImprint\(\)
 
 ```csharp
 public BuilderParamImprint()
@@ -43,7 +43,7 @@ public BuilderParamImprint()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_BuilderParamImprint_TargetFace"></a> TargetFace
+### TargetFace
 
 ```csharp
 public List<int> TargetFace { get; set; }
@@ -53,7 +53,7 @@ public List<int> TargetFace { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="VM_CAD_Builders_BuilderParamImprint_ToolFace"></a> ToolFace
+### ToolFace
 
 ```csharp
 public List<int> ToolFace { get; set; }
@@ -62,4 +62,5 @@ public List<int> ToolFace { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
+
 

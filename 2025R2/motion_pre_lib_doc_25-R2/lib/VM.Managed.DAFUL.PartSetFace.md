@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PartSetFace"></a> Class PartSetFace
+# Class PartSetFace
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -258,7 +258,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_PartSetFace__ctor"></a> PartSetFace\(\)
+### PartSetFace\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetFace" data-throw-if-not-resolved="false"></xref> class.
 
@@ -266,7 +266,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetFace" data-thr
 public PartSetFace()
 ```
 
-### <a id="VM_Managed_DAFUL_PartSetFace__ctor_System_String_"></a> PartSetFace\(string\)
+### PartSetFace\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetFace" data-throw-if-not-resolved="false"></xref> class.
 
@@ -282,7 +282,7 @@ Name of the face set.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_PartSetFace_AddFace_VM_Managed_CAD_Face_"></a> AddFace\(Face\)
+### AddFace\(Face\)
 
 Adds the face to topology list.
 
@@ -296,7 +296,7 @@ public override void AddFace(Face face)
 
 The face.
 
-### <a id="VM_Managed_DAFUL_PartSetFace_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -309,4 +309,5 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 `lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Reference\>
 
 The container.
+
 

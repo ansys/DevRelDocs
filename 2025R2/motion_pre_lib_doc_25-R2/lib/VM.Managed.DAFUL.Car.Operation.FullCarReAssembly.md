@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_FullCarReAssembly"></a> Class FullCarReAssembly
+# Class FullCarReAssembly
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -87,7 +87,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FullCarReAssembly__ctor_VM_Managed_Document_"></a> FullCarReAssembly\(Document\)
+### FullCarReAssembly\(Document\)
 
 ```csharp
 public FullCarReAssembly(Document doc)
@@ -99,7 +99,7 @@ public FullCarReAssembly(Document doc)
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FullCarReAssembly_m_bIsFullCarExceptWheel"></a> m\_bIsFullCarExceptWheel
+### m\_bIsFullCarExceptWheel
 
 ```csharp
 protected bool m_bIsFullCarExceptWheel
@@ -109,7 +109,7 @@ protected bool m_bIsFullCarExceptWheel
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FullCarReAssembly_m_strAssemblyInfo"></a> m\_strAssemblyInfo
+### m\_strAssemblyInfo
 
 ```csharp
 protected string m_strAssemblyInfo
@@ -121,7 +121,7 @@ protected string m_strAssemblyInfo
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FullCarReAssembly_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -135,7 +135,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FullCarReAssembly_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -143,7 +143,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FullCarReAssembly_OnApply_System_Object_System_ComponentModel_CancelEventArgs_"></a> OnApply\(object, CancelEventArgs\)
+### OnApply\(object, CancelEventArgs\)
 
 Called when [apply].
 
@@ -161,13 +161,13 @@ The sender.
 
 The <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FullCarReAssembly_SetDialog"></a> SetDialog\(\)
+### SetDialog\(\)
 
 ```csharp
 protected virtual void SetDialog()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FullCarReAssembly_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -184,4 +184,5 @@ The updater.
 `doc` Document
 
 The doc.
+
 

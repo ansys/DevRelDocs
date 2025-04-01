@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_UpdateAllItemInNavigatorAddon"></a> Class UpdateAllItemInNavigatorAddon
+# Class UpdateAllItemInNavigatorAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -64,7 +64,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### <a id="VM_Managed_History_UpdateAllItemInNavigatorAddon__ctor_VM_Managed_Document_"></a> UpdateAllItemInNavigatorAddon\(Document\)
+### UpdateAllItemInNavigatorAddon\(Document\)
 
 ```csharp
 public UpdateAllItemInNavigatorAddon(Document doc)
@@ -76,7 +76,7 @@ public UpdateAllItemInNavigatorAddon(Document doc)
 
 ## Methods
 
-### <a id="VM_Managed_History_UpdateAllItemInNavigatorAddon_Process_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Process\(object, HistoryEventArgs\)
+### Process\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void Process(object o, HistoryEventArgs args)
@@ -88,7 +88,7 @@ protected override void Process(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_UpdateAllItemInNavigatorAddon_UpdateAllItem_VM_Managed_Document_"></a> UpdateAllItem\(Document\)
+### UpdateAllItem\(Document\)
 
 ```csharp
 public static void UpdateAllItem(Document doc)
@@ -97,4 +97,5 @@ public static void UpdateAllItem(Document doc)
 #### Parameters
 
 `doc` [Document](VM.Managed.Document.md)
+
 

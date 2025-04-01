@@ -1,9 +1,16 @@
-# <a id="VM_Models_Pre_Connections_PropertyGeneral"></a> Class PropertyGeneral
+# Class PropertyGeneral
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
 
-This class is to represent the general connections properties.
+<p>This class is to represent the general connections properties.</p>
+<p>
+        Symmetric Modeling : Yes
+        Reference : No
+        Reference Type : N/A
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
 ```csharp
 public class PropertyGeneral : PropertyConstraint, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, ILinkContainer, IOwned, IHasID, IArgument, IHasProperty
@@ -170,9 +177,9 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral__ctor"></a> PropertyGeneral\(\)
+### PropertyGeneral\(\)
 
-Initializes a new instance of the <xref href="VM.Models.Pre.Connections.PropertyGeneral" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.PropertyGeneral" data-throw-if-not-resolved="false"></xref> class.</p>
 
 ```csharp
 public PropertyGeneral()
@@ -180,7 +187,7 @@ public PropertyGeneral()
 
 ## Properties
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -192,9 +199,9 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_BallProperty"></a> BallProperty
+### BallProperty
 
-ball joint property
+<p>ball joint property</p>
 
 ```csharp
 public PropertyBall BallProperty { get; set; }
@@ -204,9 +211,9 @@ public PropertyBall BallProperty { get; set; }
 
  PropertyBall
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_BushProperty"></a> BushProperty
+### BushProperty
 
-bush joint property
+<p>bush joint property</p>
 
 ```csharp
 public PropertyBush BushProperty { get; set; }
@@ -216,7 +223,7 @@ public PropertyBush BushProperty { get; set; }
 
  PropertyBush
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_ConnectorFullType"></a> ConnectorFullType
+### ConnectorFullType
 
 Gets or sets the connector full type
 
@@ -228,9 +235,28 @@ public string ConnectorFullType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_ConnectorProperty"></a> ConnectorProperty
+### ConnectorProperty
 
-Gets the property of connector
+<p>Gets the property of connector</p>
+<p>
+        Type : VM.Managed.Property
+        LinkRequestUpdate 시 처리 : N/A
+        LinkRequestDestroy 시 처리 :
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Damping Ratio
+        Control Type : N/A
+        ToolTip : N/A
+        Error Message : N/A
+        Category : N/A
+        Category Index : N/A
+        변경 시 DFS 재생성 여부 : No
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public Property ConnectorProperty { get; set; }
@@ -240,9 +266,9 @@ public Property ConnectorProperty { get; set; }
 
  Property
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_ConvelProperty"></a> ConvelProperty
+### ConvelProperty
 
-convel joint property
+<p>convel joint property</p>
 
 ```csharp
 public PropertyConvel ConvelProperty { get; set; }
@@ -252,9 +278,9 @@ public PropertyConvel ConvelProperty { get; set; }
 
  PropertyConvel
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_CylindricalProperty"></a> CylindricalProperty
+### CylindricalProperty
 
-cylindrical joint property
+<p>cylindrical joint property</p>
 
 ```csharp
 public PropertyCylindrical CylindricalProperty { get; set; }
@@ -264,9 +290,9 @@ public PropertyCylindrical CylindricalProperty { get; set; }
 
  PropertyCylindrical
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_DistanceProperty"></a> DistanceProperty
+### DistanceProperty
 
-distance joint property
+<p>distance joint property</p>
 
 ```csharp
 public PropertyDistance DistanceProperty { get; set; }
@@ -276,9 +302,9 @@ public PropertyDistance DistanceProperty { get; set; }
 
  PropertyDistance
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_FixedProperty"></a> FixedProperty
+### FixedProperty
 
-fixed joint property
+<p>fixed joint property</p>
 
 ```csharp
 public PropertyFixed FixedProperty { get; set; }
@@ -288,9 +314,9 @@ public PropertyFixed FixedProperty { get; set; }
 
  PropertyFixed
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_InlineProperty"></a> InlineProperty
+### InlineProperty
 
-inline joint property
+<p>inline joint property</p>
 
 ```csharp
 public PropertyInline InlineProperty { get; set; }
@@ -300,9 +326,9 @@ public PropertyInline InlineProperty { get; set; }
 
  PropertyInline
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_InplaneProperty"></a> InplaneProperty
+### InplaneProperty
 
-inplane joint property
+<p>inplane joint property</p>
 
 ```csharp
 public PropertyInplane InplaneProperty { get; set; }
@@ -312,9 +338,9 @@ public PropertyInplane InplaneProperty { get; set; }
 
  PropertyInplane
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_MatrixProperty"></a> MatrixProperty
+### MatrixProperty
 
-matrix joint property
+<p>matrix joint property</p>
 
 ```csharp
 public PropertyMatrix MatrixProperty { get; set; }
@@ -324,9 +350,9 @@ public PropertyMatrix MatrixProperty { get; set; }
 
  PropertyMatrix
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_OrientationProperty"></a> OrientationProperty
+### OrientationProperty
 
-orientation joint property
+<p>orientation joint property</p>
 
 ```csharp
 public PropertyOrientation OrientationProperty { get; set; }
@@ -336,9 +362,9 @@ public PropertyOrientation OrientationProperty { get; set; }
 
  PropertyOrientation
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_ParallelProperty"></a> ParallelProperty
+### ParallelProperty
 
-parallel joint property
+<p>parallel joint property</p>
 
 ```csharp
 public PropertyParallel ParallelProperty { get; set; }
@@ -348,9 +374,9 @@ public PropertyParallel ParallelProperty { get; set; }
 
  PropertyParallel
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_PerpendicularProperty"></a> PerpendicularProperty
+### PerpendicularProperty
 
-perpendicular joint property
+<p>perpendicular joint property</p>
 
 ```csharp
 public PropertyPerpendicular PerpendicularProperty { get; set; }
@@ -360,9 +386,9 @@ public PropertyPerpendicular PerpendicularProperty { get; set; }
 
  PropertyPerpendicular
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_PlanarProperty"></a> PlanarProperty
+### PlanarProperty
 
-planar joint property
+<p>planar joint property</p>
 
 ```csharp
 public PropertyPlanar PlanarProperty { get; set; }
@@ -372,7 +398,7 @@ public PropertyPlanar PlanarProperty { get; set; }
 
  PropertyPlanar
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -384,9 +410,9 @@ public override string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_RevoluteProperty"></a> RevoluteProperty
+### RevoluteProperty
 
-revolute joint property
+<p>revolute joint property</p>
 
 ```csharp
 public PropertyRevolute RevoluteProperty { get; set; }
@@ -396,9 +422,9 @@ public PropertyRevolute RevoluteProperty { get; set; }
 
  PropertyRevolute
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_ScrewProperty"></a> ScrewProperty
+### ScrewProperty
 
-screw joint property
+<p>screw joint property</p>
 
 ```csharp
 public PropertyScrew ScrewProperty { get; set; }
@@ -408,9 +434,9 @@ public PropertyScrew ScrewProperty { get; set; }
 
  PropertyScrew
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_SixMotionProperty"></a> SixMotionProperty
+### SixMotionProperty
 
-six motion joint property
+<p>six motion joint property</p>
 
 ```csharp
 public PropertySixMotion SixMotionProperty { get; set; }
@@ -420,9 +446,9 @@ public PropertySixMotion SixMotionProperty { get; set; }
 
  [PropertySixMotion](VM.Models.Pre.Connections.PropertySixMotion.md)
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_TranslationalProperty"></a> TranslationalProperty
+### TranslationalProperty
 
-translational joint property
+<p>translational joint property</p>
 
 ```csharp
 public PropertyTranslational TranslationalProperty { get; set; }
@@ -432,9 +458,28 @@ public PropertyTranslational TranslationalProperty { get; set; }
 
  PropertyTranslational
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_TypeOfConnector"></a> TypeOfConnector
+### TypeOfConnector
 
-Gets the type of connector.
+<p>Gets the type of connector.</p>
+<p>
+        Type : VM.Models.Pre.Connections.PropertyGeneral.ConnectorType
+        LinkRequestUpdate 시 처리 : N/A
+        LinkRequestDestroy 시 처리 :
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Damping Ratio
+        Control Type : ComboBox
+        ToolTip : N/A
+        Error Message : N/A
+        Category : N/A
+        Category Index : 1
+        변경 시 DFS 재생성 여부 : No
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public PropertyGeneral.ConnectorType TypeOfConnector { get; set; }
@@ -444,9 +489,9 @@ public PropertyGeneral.ConnectorType TypeOfConnector { get; set; }
 
  [PropertyGeneral](VM.Models.Pre.Connections.PropertyGeneral.md).[ConnectorType](VM.Models.Pre.Connections.PropertyGeneral.ConnectorType.md)
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_UniversalProperty"></a> UniversalProperty
+### UniversalProperty
 
-universal joint property
+<p>universal joint property</p>
 
 ```csharp
 public PropertyUniversal UniversalProperty { get; set; }
@@ -458,7 +503,7 @@ public PropertyUniversal UniversalProperty { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -478,7 +523,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -498,9 +543,9 @@ The unnamed object.
 
 The unnamed object name.
 
-### <a id="VM_Models_Pre_Connections_PropertyGeneral_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes property.
+<p>Initializes property.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -510,5 +555,6 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-initialization factor
+<p>initialization factor</p>
+
 

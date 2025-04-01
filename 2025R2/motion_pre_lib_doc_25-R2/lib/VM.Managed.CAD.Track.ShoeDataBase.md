@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_ShoeDataBase"></a> Class ShoeDataBase
+# Class ShoeDataBase
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase__ctor"></a> ShoeDataBase\(\)
+### ShoeDataBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataBase"
 public ShoeDataBase()
 ```
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase__ctor_VM_Models_Pre_IOwned_"></a> ShoeDataBase\(IOwned\)
+### ShoeDataBase\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ The owner object.
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase_DepthSegment"></a> DepthSegment
+### DepthSegment
 
 Gets and sets segment depth
 
@@ -137,7 +137,7 @@ public int DepthSegment { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase_EndNode"></a> EndNode
+### EndNode
 
 Gets and sets end node
 
@@ -149,7 +149,7 @@ public int EndNode { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase_IsApplyToFileProperty"></a> IsApplyToFileProperty
+### IsApplyToFileProperty
 
 Gets and sets boolean
 
@@ -161,7 +161,7 @@ public bool IsApplyToFileProperty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase_LDForShoeCombination"></a> LDForShoeCombination
+### LDForShoeCombination
 
 Gets and sets longitudinal distance from reference position.
 
@@ -173,7 +173,7 @@ public Variable LDForShoeCombination { get; set; }
 
  Variable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase_LengthSegment"></a> LengthSegment
+### LengthSegment
 
 Gets and sets segment length
 
@@ -185,7 +185,7 @@ public int LengthSegment { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase_PositionForShoeCombination"></a> PositionForShoeCombination
+### PositionForShoeCombination
 
 Gets and set position for shoe combination.
 
@@ -197,7 +197,7 @@ public ObjectBase PositionForShoeCombination { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase_ShoeWidth"></a> ShoeWidth
+### ShoeWidth
 
 Gets and sets shoe width
 
@@ -209,7 +209,7 @@ public ExpressionValueVariable ShoeWidth { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase_StartNode"></a> StartNode
+### StartNode
 
 Gets and sets start node
 
@@ -223,7 +223,7 @@ public int StartNode { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase_GetFactorForLength"></a> GetFactorForLength\(\)
+### GetFactorForLength\(\)
 
 Gets the factor for length.
 
@@ -237,7 +237,7 @@ protected double GetFactorForLength()
 
 The factor.
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -255,7 +255,7 @@ The obj notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase_Update_DesignPointWhenUpdatedDV"></a> Update\_DesignPointWhenUpdatedDV\(\)
+### Update\_DesignPointWhenUpdatedDV\(\)
 
 Call when "LDForLinkCombination" updated.
 
@@ -263,7 +263,7 @@ Call when "LDForLinkCombination" updated.
 public void Update_DesignPointWhenUpdatedDV()
 ```
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase_Update_IDesignPointDataBecauseOfObjectControl_VM_Managed_TMatrix_"></a> Update\_IDesignPointDataBecauseOfObjectControl\(TMatrix\)
+### Update\_IDesignPointDataBecauseOfObjectControl\(TMatrix\)
 
 Update tranformation of design point or design frame.
 
@@ -277,11 +277,12 @@ public void Update_IDesignPointDataBecauseOfObjectControl(TMatrix matT)
 
 The tramsformation matrix.
 
-### <a id="VM_Managed_CAD_Track_ShoeDataBase_Validation"></a> Validation\(\)
+### Validation\(\)
 
 Checks the validation .
 
 ```csharp
 public virtual void Validation()
 ```
+
 

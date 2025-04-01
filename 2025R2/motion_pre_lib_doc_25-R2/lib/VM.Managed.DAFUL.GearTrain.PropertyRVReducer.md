@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer"></a> Class PropertyRVReducer
+# Class PropertyRVReducer
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer__ctor"></a> PropertyRVReducer\(\)
+### PropertyRVReducer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyRVReducer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertyRVReducer()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_BearingBodies"></a> BearingBodies
+### BearingBodies
 
 Gets or sets the bearing bodies.
 
@@ -187,7 +187,7 @@ public SolidBody[] BearingBodies { get; set; }
 
  SolidBody\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_CenterOfPinset"></a> CenterOfPinset
+### CenterOfPinset
 
 Gets or sets the center of pinset.
 
@@ -199,7 +199,7 @@ public PointBase CenterOfPinset { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_ExtraBearingInformationList"></a> ExtraBearingInformationList
+### ExtraBearingInformationList
 
 Gets or sets the extra bearing information list.
 
@@ -211,7 +211,7 @@ public PropertyRVReducer.BearingInfo[] ExtraBearingInformationList { get; set; }
 
  [PropertyRVReducer](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.md).[BearingInfo](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.BearingInfo.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_FrontAngularContactBallBearing"></a> FrontAngularContactBallBearing
+### FrontAngularContactBallBearing
 
 Gets or sets the front angular contact ball bearing.
 
@@ -223,7 +223,7 @@ public IBearing FrontAngularContactBallBearing { get; set; }
 
  [IBearing](VM.Managed.DAFUL.GearTrain.IBearing.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_FrontAngularContactBallBearingInformation"></a> FrontAngularContactBallBearingInformation
+### FrontAngularContactBallBearingInformation
 
 Gets or sets the front angular contact ball bearing information.
 
@@ -235,7 +235,7 @@ public PropertyRVReducer.BearingInfo FrontAngularContactBallBearingInformation {
 
  [PropertyRVReducer](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.md).[BearingInfo](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.BearingInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_FrontNeedleRollerBearingInformation"></a> FrontNeedleRollerBearingInformation
+### FrontNeedleRollerBearingInformation
 
 Gets or sets the front needle roller bearing information.
 
@@ -247,7 +247,7 @@ public PropertyRVReducer.BearingInfo FrontNeedleRollerBearingInformation { get; 
 
  [PropertyRVReducer](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.md).[BearingInfo](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.BearingInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_FrontTaperedRollerBearingInformation"></a> FrontTaperedRollerBearingInformation
+### FrontTaperedRollerBearingInformation
 
 Gets or sets the front tapered roller bearing information.
 
@@ -259,7 +259,7 @@ public PropertyRVReducer.BearingInfo FrontTaperedRollerBearingInformation { get;
 
  [PropertyRVReducer](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.md).[BearingInfo](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.BearingInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_GearSetCycloidPinList"></a> GearSetCycloidPinList
+### GearSetCycloidPinList
 
 Gets or sets the cycloid pin gearset list.
 
@@ -271,7 +271,7 @@ public GearSetCycloidPin[] GearSetCycloidPinList { get; set; }
 
  [GearSetCycloidPin](VM.Managed.DAFUL.GearTrain.GearSetCycloidPin.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_GeneralContacts"></a> GeneralContacts
+### GeneralContacts
 
 Gets or sets the general contacts.
 
@@ -283,7 +283,7 @@ public GeneralContact[] GeneralContacts { get; set; }
 
  GeneralContact\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_NeedleRollerBearingList"></a> NeedleRollerBearingList
+### NeedleRollerBearingList
 
 Gets or sets the needle roller bearing list.
 
@@ -295,7 +295,7 @@ public IBearing[] NeedleRollerBearingList { get; set; }
 
  [IBearing](VM.Managed.DAFUL.GearTrain.IBearing.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_NumberOfCrankShaft"></a> NumberOfCrankShaft
+### NumberOfCrankShaft
 
 Gets the number of crank shaft.
 
@@ -307,7 +307,7 @@ public int NumberOfCrankShaft { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_NumberOfCycloidDisc"></a> NumberOfCycloidDisc
+### NumberOfCycloidDisc
 
 Gets the number of cycloid disc.
 
@@ -319,7 +319,7 @@ public int NumberOfCycloidDisc { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_PlanetaryGearSet"></a> PlanetaryGearSet
+### PlanetaryGearSet
 
 Gets or sets the planetary gearSet.
 
@@ -331,7 +331,7 @@ public IGearSet PlanetaryGearSet { get; set; }
 
  [IGearSet](VM.Managed.DAFUL.GearTrain.IGearSet.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RacewayInfoForAssemblyList"></a> RacewayInfoForAssemblyList
+### RacewayInfoForAssemblyList
 
 Gets or sets the raceway information list for assmbly.
 
@@ -343,7 +343,7 @@ public PropertyRVReducer.RacewayInfoForAssembly[] RacewayInfoForAssemblyList { g
 
  [PropertyRVReducer](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.md).[RacewayInfoForAssembly](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.RacewayInfoForAssembly.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RearAngularContactBallBearing"></a> RearAngularContactBallBearing
+### RearAngularContactBallBearing
 
 Gets or sets the rear angular contact ball bearing.
 
@@ -355,7 +355,7 @@ public IBearing RearAngularContactBallBearing { get; set; }
 
  [IBearing](VM.Managed.DAFUL.GearTrain.IBearing.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RearAngularContactBallBearingInformation"></a> RearAngularContactBallBearingInformation
+### RearAngularContactBallBearingInformation
 
 Gets or sets the rear angular contact ball bearing information.
 
@@ -367,7 +367,7 @@ public PropertyRVReducer.BearingInfo RearAngularContactBallBearingInformation { 
 
  [PropertyRVReducer](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.md).[BearingInfo](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.BearingInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RearNeedleRollerBearingInformation"></a> RearNeedleRollerBearingInformation
+### RearNeedleRollerBearingInformation
 
 Gets or sets the rear needle roller bearing information.
 
@@ -379,7 +379,7 @@ public PropertyRVReducer.BearingInfo RearNeedleRollerBearingInformation { get; s
 
  [PropertyRVReducer](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.md).[BearingInfo](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.BearingInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RearTaperedRollerBearingInformation"></a> RearTaperedRollerBearingInformation
+### RearTaperedRollerBearingInformation
 
 Gets or sets the rear tapered roller bearing information.
 
@@ -391,7 +391,7 @@ public PropertyRVReducer.BearingInfo RearTaperedRollerBearingInformation { get; 
 
  [PropertyRVReducer](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.md).[BearingInfo](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.BearingInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_ReferencePosition"></a> ReferencePosition
+### ReferencePosition
 
 Gets or sets the reference position.
 
@@ -403,7 +403,7 @@ public PointBase ReferencePosition { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RotateAxis"></a> RotateAxis
+### RotateAxis
 
 Gets or sets the rotate axis.
 
@@ -415,7 +415,7 @@ public DirectionBase RotateAxis { get; set; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_SectionInformationList"></a> SectionInformationList
+### SectionInformationList
 
 Gets or sets the section information list.
 
@@ -427,7 +427,7 @@ public PropertyRVReducer.CrankShaftSectionInfo[] SectionInformationList { get; s
 
  [PropertyRVReducer](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.md).[CrankShaftSectionInfo](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.CrankShaftSectionInfo.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_SelectedNeedleRollerBearing"></a> SelectedNeedleRollerBearing
+### SelectedNeedleRollerBearing
 
 Gets or sets the selected needle roller bearing.
 
@@ -439,7 +439,7 @@ public IBearing SelectedNeedleRollerBearing { get; set; }
 
  [IBearing](VM.Managed.DAFUL.GearTrain.IBearing.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_SelectedTaperedRollerBearing"></a> SelectedTaperedRollerBearing
+### SelectedTaperedRollerBearing
 
 Gets or sets the selected tapered roller bearing.
 
@@ -451,7 +451,7 @@ public IBearing SelectedTaperedRollerBearing { get; set; }
 
  [IBearing](VM.Managed.DAFUL.GearTrain.IBearing.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_SetFaces"></a> SetFaces
+### SetFaces
 
 Gets or sets the setfaces.
 
@@ -463,7 +463,7 @@ public SetFace[] SetFaces { get; set; }
 
  SetFace\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_ShaftSetForSun"></a> ShaftSetForSun
+### ShaftSetForSun
 
 Gets or sets the shaft set for sun.
 
@@ -475,7 +475,7 @@ public IShaftSet ShaftSetForSun { get; set; }
 
  [IShaftSet](VM.Managed.DAFUL.GearTrain.IShaftSet.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_ShaftsetList"></a> ShaftsetList
+### ShaftsetList
 
 Gets or sets the shaftset list.
 
@@ -487,7 +487,7 @@ public IShaftSet[] ShaftsetList { get; set; }
 
  [IShaftSet](VM.Managed.DAFUL.GearTrain.IShaftSet.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_SynchronizeBearing"></a> SynchronizeBearing
+### SynchronizeBearing
 
 Gets or sets the synchronize crank shaft flag
 
@@ -499,7 +499,7 @@ public bool SynchronizeBearing { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_SynchronizeCrankShaft"></a> SynchronizeCrankShaft
+### SynchronizeCrankShaft
 
 Gets or sets the synchronize crank shaft flag
 
@@ -511,7 +511,7 @@ public bool SynchronizeCrankShaft { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_TaperedRollerBearingList"></a> TaperedRollerBearingList
+### TaperedRollerBearingList
 
 Gets or sets the tapered roller bearing list.
 
@@ -523,7 +523,7 @@ public IBearing[] TaperedRollerBearingList { get; set; }
 
  [IBearing](VM.Managed.DAFUL.GearTrain.IBearing.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer__FrontAngularContactBallBearing"></a> \_FrontAngularContactBallBearing
+### \_FrontAngularContactBallBearing
 
 Gets or sets the front angular contact ball bearing.
 
@@ -535,7 +535,7 @@ public Linker<IBearing> _FrontAngularContactBallBearing { get; set; }
 
  Linker<[IBearing](VM.Managed.DAFUL.GearTrain.IBearing.md)\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer__NeedleRollerBearingList"></a> \_NeedleRollerBearingList
+### \_NeedleRollerBearingList
 
 Gets or sets the needle roller bearing list.
 
@@ -547,7 +547,7 @@ public Linker<IBearing>[] _NeedleRollerBearingList { get; set; }
 
  Linker<[IBearing](VM.Managed.DAFUL.GearTrain.IBearing.md)\>\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer__PlanetaryGearSet"></a> \_PlanetaryGearSet
+### \_PlanetaryGearSet
 
 Gets or sets the planetary gearSet.
 
@@ -559,7 +559,7 @@ public Linker<IGearSet> _PlanetaryGearSet { get; set; }
 
  Linker<[IGearSet](VM.Managed.DAFUL.GearTrain.IGearSet.md)\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer__RearAngularContactBallBearing"></a> \_RearAngularContactBallBearing
+### \_RearAngularContactBallBearing
 
 Gets or sets the rear angular contact ball bearing.
 
@@ -571,7 +571,7 @@ public Linker<IBearing> _RearAngularContactBallBearing { get; set; }
 
  Linker<[IBearing](VM.Managed.DAFUL.GearTrain.IBearing.md)\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer__ShaftSetForSun"></a> \_ShaftSetForSun
+### \_ShaftSetForSun
 
 Gets or sets the shaft set for sun.
 
@@ -583,7 +583,7 @@ public Linker<IShaftSet> _ShaftSetForSun { get; set; }
 
  Linker<[IShaftSet](VM.Managed.DAFUL.GearTrain.IShaftSet.md)\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer__ShaftsetList"></a> \_ShaftsetList
+### \_ShaftsetList
 
 Gets or sets the shaftset list.
 
@@ -595,7 +595,7 @@ public Linker<IShaftSet>[] _ShaftsetList { get; set; }
 
  Linker<[IShaftSet](VM.Managed.DAFUL.GearTrain.IShaftSet.md)\>\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer__TaperedRollerBearingList"></a> \_TaperedRollerBearingList
+### \_TaperedRollerBearingList
 
 Gets or sets the tapered roller bearing list.
 
@@ -609,7 +609,7 @@ public Linker<IBearing>[] _TaperedRollerBearingList { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_AddBearingBody_VM_Managed_DAFUL_SolidBody_"></a> AddBearingBody\(SolidBody\)
+### AddBearingBody\(SolidBody\)
 
 Add bearing body.
 
@@ -623,7 +623,7 @@ public void AddBearingBody(SolidBody solidBody)
 
 The solid body
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_AddCrankShaft_VM_Managed_DAFUL_GearTrain_IShaftSet_"></a> AddCrankShaft\(IShaftSet\)
+### AddCrankShaft\(IShaftSet\)
 
 Add crank shaft
 
@@ -637,7 +637,7 @@ public void AddCrankShaft(IShaftSet shaftSet)
 
 The shaft set
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_AddFaceset_VM_Managed_DAFUL_SetFace_"></a> AddFaceset\(SetFace\)
+### AddFaceset\(SetFace\)
 
 Add faceset.
 
@@ -651,7 +651,7 @@ public void AddFaceset(SetFace setFace)
 
 The faceset
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_AddGeneralContact_VM_Managed_DAFUL_Contact_GeneralContact_"></a> AddGeneralContact\(GeneralContact\)
+### AddGeneralContact\(GeneralContact\)
 
 Add general contact.
 
@@ -665,7 +665,7 @@ public void AddGeneralContact(GeneralContact generalContact)
 
 The general contact
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_AddNeedleRollerBearing_VM_Managed_DAFUL_GearTrain_PropertyBearing_enBearingType_VM_Managed_DAFUL_GearTrain_IBearing_"></a> AddNeedleRollerBearing\(enBearingType, IBearing\)
+### AddNeedleRollerBearing\(enBearingType, IBearing\)
 
 Add needle roller bearing
 
@@ -683,7 +683,7 @@ The bearing type
 
 The bearing
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_AddRacewayInfoForAssembly_VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RacewayInfoForAssembly_"></a> AddRacewayInfoForAssembly\(RacewayInfoForAssembly\)
+### AddRacewayInfoForAssembly\(RacewayInfoForAssembly\)
 
 Add raceway Info for assembly.
 
@@ -697,7 +697,7 @@ public void AddRacewayInfoForAssembly(PropertyRVReducer.RacewayInfoForAssembly r
 
 The raceway Info for assembly
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_ClearBearingBody"></a> ClearBearingBody\(\)
+### ClearBearingBody\(\)
 
 Clear bearing body
 
@@ -705,7 +705,7 @@ Clear bearing body
 public void ClearBearingBody()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_ContainsBearingBody_VM_Managed_DAFUL_SolidBody_"></a> ContainsBearingBody\(SolidBody\)
+### ContainsBearingBody\(SolidBody\)
 
 Contains bearing body
 
@@ -723,7 +723,7 @@ The solidBody
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_DefaultCrankShaftSectionInfo_System_Int32_"></a> DefaultCrankShaftSectionInfo\(int\)
+### DefaultCrankShaftSectionInfo\(int\)
 
 Gets the default crank shaft section information
 
@@ -741,7 +741,7 @@ The No. section
 
  [PropertyRVReducer](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.md).[CrankShaftSectionInfo](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.CrankShaftSectionInfo.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -755,7 +755,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -773,7 +773,7 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RemoveAtForBearing_System_Int32_"></a> RemoveAtForBearing\(int\)
+### RemoveAtForBearing\(int\)
 
 RemoveAt for bearing
 
@@ -787,7 +787,7 @@ public void RemoveAtForBearing(int nIndex)
 
 The index
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RemoveCrankShaft_System_Int32_"></a> RemoveCrankShaft\(int\)
+### RemoveCrankShaft\(int\)
 
 Remove crank shaft
 
@@ -801,7 +801,7 @@ public void RemoveCrankShaft(int nIndex)
 
 The shaft set index
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RemoveRacewayInfoForAssembly_VM_Managed_DAFUL_GearTrain_PropertyRVReducer_RacewayInfoForAssembly_"></a> RemoveRacewayInfoForAssembly\(RacewayInfoForAssembly\)
+### RemoveRacewayInfoForAssembly\(RacewayInfoForAssembly\)
 
 Remove raceway Info for assembly.
 
@@ -814,4 +814,5 @@ public void RemoveRacewayInfoForAssembly(PropertyRVReducer.RacewayInfoForAssembl
 `racewayInfoForAssembly` [PropertyRVReducer](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.md).[RacewayInfoForAssembly](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.RacewayInfoForAssembly.md)
 
 The raceway Info for assembly
+
 

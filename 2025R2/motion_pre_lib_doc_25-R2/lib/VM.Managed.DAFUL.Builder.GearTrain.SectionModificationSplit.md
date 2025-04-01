@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationSplit"></a> Class SectionModificationSplit
+# Class SectionModificationSplit
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -24,7 +24,7 @@ IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationSplit__ctor"></a> SectionModificationSplit\(\)
+### SectionModificationSplit\(\)
 
 ```csharp
 public SectionModificationSplit()
@@ -32,7 +32,7 @@ public SectionModificationSplit()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationSplit_BuildObject"></a> BuildObject
+### BuildObject
 
 ```csharp
 public ObjectBase BuildObject { get; }
@@ -42,7 +42,7 @@ public ObjectBase BuildObject { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationSplit_Parameters"></a> Parameters
+### Parameters
 
 ```csharp
 public PickedResult[] Parameters { get; set; }
@@ -52,7 +52,7 @@ public PickedResult[] Parameters { get; set; }
 
  PickedResult\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationSplit_TargetSection"></a> TargetSection
+### TargetSection
 
 ```csharp
 public Section TargetSection { get; }
@@ -64,7 +64,7 @@ public Section TargetSection { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationSplit_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public void Build(Document docToAdd)
@@ -74,7 +74,7 @@ public void Build(Document docToAdd)
 
 `docToAdd` Document
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationSplit_Success"></a> Success\(\)
+### Success\(\)
 
 ```csharp
 public bool Success()
@@ -84,7 +84,7 @@ public bool Success()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationSplit_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public bool Validate(IList<string> lstErrorMessage)
@@ -97,4 +97,5 @@ public bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

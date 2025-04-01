@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_Friction"></a> Class Friction
+# Class Friction
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -102,7 +102,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction__ctor"></a> Friction\(\)
+### Friction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Friction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -112,7 +112,7 @@ public Friction()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction_BendingMoment"></a> BendingMoment
+### BendingMoment
 
 Gets or sets a value indicating whether [bending moment].
 
@@ -124,7 +124,7 @@ public bool BendingMoment { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction_DynamicsThreshold"></a> DynamicsThreshold
+### DynamicsThreshold
 
 Gets or sets the transition velocity coefficient.
 
@@ -136,7 +136,7 @@ public ExpressionValueVariable DynamicsThreshold { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction_Effect"></a> Effect
+### Effect
 
 Gets or sets the effect type.
 
@@ -148,7 +148,7 @@ public Friction.EffectType Effect { get; set; }
 
  [Friction](VM.Managed.DAFUL.Constraints.Friction.md).[EffectType](VM.Managed.DAFUL.Constraints.Friction.EffectType.md)
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction_IsUseFriction"></a> IsUseFriction
+### IsUseFriction
 
 Gets or sets a value indicating whether this instance is use friction.
 
@@ -160,7 +160,7 @@ public bool IsUseFriction { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction_MaximumStictionDeformation"></a> MaximumStictionDeformation
+### MaximumStictionDeformation
 
 Gets or sets the maximum stiction deformation.
 
@@ -172,7 +172,7 @@ public ExpressionValueVariable MaximumStictionDeformation { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction_MuDynamic"></a> MuDynamic
+### MuDynamic
 
 Gets or sets the dynamic friction coefficient.
 
@@ -184,7 +184,7 @@ public ExpressionValueVariable MuDynamic { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction_MuStatic"></a> MuStatic
+### MuStatic
 
 Gets or sets the static friction coefficient.
 
@@ -196,7 +196,7 @@ public ExpressionValueVariable MuStatic { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction_ReactionForce"></a> ReactionForce
+### ReactionForce
 
 Gets or sets a value indicating whether [reaction force].
 
@@ -208,7 +208,7 @@ public bool ReactionForce { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction_StictionTransitionVelocity"></a> StictionTransitionVelocity
+### StictionTransitionVelocity
 
 Gets or sets the stiction transition velocity.
 
@@ -222,7 +222,7 @@ public ExpressionValueVariable StictionTransitionVelocity { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction_GetConnector"></a> GetConnector\(\)
+### GetConnector\(\)
 
 Get connector
 
@@ -234,7 +234,7 @@ public IConnector GetConnector()
 
  IConnector
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -248,7 +248,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -262,7 +262,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
+### ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -276,7 +276,7 @@ public virtual void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Constraints_Friction_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
+### WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -289,4 +289,5 @@ public virtual void WriteTemplate(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

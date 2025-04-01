@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_PickerGeneral"></a> Class PickerGeneral
+# Class PickerGeneral
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -50,7 +50,7 @@ public abstract class PickerGeneral : PickerBase
 
 ## Constructors
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral__ctor_System_Collections_Generic_ICollection_System_Type__"></a> PickerGeneral\(ICollection<Type\>\)
+### PickerGeneral\(ICollection<Type\>\)
 
 ```csharp
 public PickerGeneral(ICollection<Type> arTypes)
@@ -60,7 +60,7 @@ public PickerGeneral(ICollection<Type> arTypes)
 
 `arTypes` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Type](https://learn.microsoft.com/dotnet/api/system.type)\>
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral__ctor_System_Type_System_Boolean_"></a> PickerGeneral\(Type, bool\)
+### PickerGeneral\(Type, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerGeneral" data-throw-if-not-resolved="false"></xref> class
 
@@ -80,7 +80,7 @@ Whether interface or not.
 
 ## Properties
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_AllowChildSubsystem"></a> AllowChildSubsystem
+### AllowChildSubsystem
 
 Get the flag of picking the reference objects.
 
@@ -92,7 +92,7 @@ public bool AllowChildSubsystem { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_PickableTypes"></a> PickableTypes
+### PickableTypes
 
 Get array of pickable type.
 
@@ -106,7 +106,7 @@ public Type[] PickableTypes { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_ConvertKeyToInstanceContainerImpl_VM_Managed_ObjectBase_"></a> ConvertKeyToInstanceContainerImpl\(ObjectBase\)
+### ConvertKeyToInstanceContainerImpl\(ObjectBase\)
 
 ```csharp
 protected abstract UIntPtr ConvertKeyToInstanceContainerImpl(ObjectBase obj)
@@ -120,7 +120,7 @@ protected abstract UIntPtr ConvertKeyToInstanceContainerImpl(ObjectBase obj)
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_Filtering_System_UIntPtr_"></a> Filtering\(UIntPtr\)
+### Filtering\(UIntPtr\)
 
 Filtering to not proper object.
 
@@ -140,7 +140,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_FilteringReference_System_UIntPtr_System_UIntPtr_"></a> FilteringReference\(UIntPtr, UIntPtr\)
+### FilteringReference\(UIntPtr, UIntPtr\)
 
 Filtering to not proper object about special target into owner.
 
@@ -164,7 +164,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_GetBodyImpl_System_UIntPtr_System_Boolean_"></a> GetBodyImpl\(UIntPtr, bool\)
+### GetBodyImpl\(UIntPtr, bool\)
 
 ```csharp
 protected abstract ObjectBase GetBodyImpl(UIntPtr pKey, bool bIgnoreMarker)
@@ -180,7 +180,7 @@ protected abstract ObjectBase GetBodyImpl(UIntPtr pKey, bool bIgnoreMarker)
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_GetPickerInfo"></a> GetPickerInfo\(\)
+### GetPickerInfo\(\)
 
 Gets information of picking type.
 
@@ -192,7 +192,7 @@ public override string GetPickerInfo()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_GetResultXmlFromKey_System_UIntPtr_"></a> GetResultXmlFromKey\(UIntPtr\)
+### GetResultXmlFromKey\(UIntPtr\)
 
 Get valid result xml according to picker key of core.
 
@@ -212,7 +212,7 @@ Picking destination key.
 
 The valid result xml.
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_Highlight_System_Boolean_"></a> Highlight\(bool\)
+### Highlight\(bool\)
 
 Picking highlight to filtered target.
 
@@ -226,7 +226,7 @@ public override void Highlight(bool bHighlight)
 
 If set to <code>ture</code> is highlight; otherwise, <code>false</code> isn't highlight.
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_HighlightCurveset_VM_Managed_ObjectBase_System_Boolean_"></a> HighlightCurveset\(ObjectBase, bool\)
+### HighlightCurveset\(ObjectBase, bool\)
 
 ```csharp
 protected void HighlightCurveset(ObjectBase obj, bool bHighlight)
@@ -238,7 +238,7 @@ protected void HighlightCurveset(ObjectBase obj, bool bHighlight)
 
 `bHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_HighlightFaceset_VM_Managed_ObjectBase_System_Boolean_"></a> HighlightFaceset\(ObjectBase, bool\)
+### HighlightFaceset\(ObjectBase, bool\)
 
 ```csharp
 protected void HighlightFaceset(ObjectBase obj, bool bHighlight)
@@ -250,7 +250,7 @@ protected void HighlightFaceset(ObjectBase obj, bool bHighlight)
 
 `bHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_HighlightGeometry_VM_Managed_ObjectBase_System_Boolean_"></a> HighlightGeometry\(ObjectBase, bool\)
+### HighlightGeometry\(ObjectBase, bool\)
 
 ```csharp
 protected void HighlightGeometry(ObjectBase obj, bool bHighlight)
@@ -262,7 +262,7 @@ protected void HighlightGeometry(ObjectBase obj, bool bHighlight)
 
 `bHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_HighlightImpl_VM_Managed_ObjectBase_System_Boolean_"></a> HighlightImpl\(ObjectBase, bool\)
+### HighlightImpl\(ObjectBase, bool\)
 
 ```csharp
 protected abstract bool HighlightImpl(ObjectBase obj, bool bHighlight)
@@ -278,7 +278,7 @@ protected abstract bool HighlightImpl(ObjectBase obj, bool bHighlight)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_HighlightInstanceContainer_VM_Managed_ObjectBase_System_Boolean_"></a> HighlightInstanceContainer\(ObjectBase, bool\)
+### HighlightInstanceContainer\(ObjectBase, bool\)
 
 ```csharp
 protected void HighlightInstanceContainer(ObjectBase obj, bool bHighlight)
@@ -290,7 +290,7 @@ protected void HighlightInstanceContainer(ObjectBase obj, bool bHighlight)
 
 `bHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_HighlightOpenDesigner_VM_Managed_ObjectBase_System_Boolean_"></a> HighlightOpenDesigner\(ObjectBase, bool\)
+### HighlightOpenDesigner\(ObjectBase, bool\)
 
 ```csharp
 protected void HighlightOpenDesigner(ObjectBase obj, bool bHighlight)
@@ -302,7 +302,7 @@ protected void HighlightOpenDesigner(ObjectBase obj, bool bHighlight)
 
 `bHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_HighlightReferenceFaceset_VM_Managed_ObjectBase_System_Boolean_System_Boolean_"></a> HighlightReferenceFaceset\(ObjectBase, bool, bool\)
+### HighlightReferenceFaceset\(ObjectBase, bool, bool\)
 
 ```csharp
 protected void HighlightReferenceFaceset(ObjectBase obj, bool bHighlight, bool bUpdate)
@@ -316,7 +316,7 @@ protected void HighlightReferenceFaceset(ObjectBase obj, bool bHighlight, bool b
 
 `bUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_IsAcceptedPickAndModifiedTargetObject_VM_Managed_ObjectBase__"></a> IsAcceptedPickAndModifiedTargetObject\(ref ObjectBase\)
+### IsAcceptedPickAndModifiedTargetObject\(ref ObjectBase\)
 
 Picked object should be include setted interface.
 
@@ -336,7 +336,7 @@ The picked object.
 
 <code>true</code> if accepted; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerGeneral_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
+### SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -359,4 +359,5 @@ If it is true, skip the result setting.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

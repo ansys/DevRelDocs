@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_BodeFormulation"></a> Class BodeFormulation
+# Class BodeFormulation
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -103,7 +103,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_BodeFormulation__ctor"></a> BodeFormulation\(\)
+### BodeFormulation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.BodeFormulation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public BodeFormulation()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_BodeFormulation_CoefficientOfUnloading"></a> CoefficientOfUnloading
+### CoefficientOfUnloading
 
 Gets or sets the Coefficient of Unloading.
 
@@ -131,7 +131,7 @@ public ExpressionValueVariable CoefficientOfUnloading { get; set; }
 
 Coefficient of Unloading is null.
 
-### <a id="VM_Managed_DAFUL_Track_BodeFormulation_FirstSlopeForNormalPressure"></a> FirstSlopeForNormalPressure
+### FirstSlopeForNormalPressure
 
 Gets or sets the First Slope for Normal Pressure.
 
@@ -149,7 +149,7 @@ public ExpressionValueVariable FirstSlopeForNormalPressure { get; set; }
 
 First Slope for Normal Pressure is null.
 
-### <a id="VM_Managed_DAFUL_Track_BodeFormulation_InitialPressure"></a> InitialPressure
+### InitialPressure
 
 Gets or sets the Initial Pressure.
 
@@ -167,7 +167,7 @@ public ExpressionValueVariable InitialPressure { get; set; }
 
 Initial Pressure is null.
 
-### <a id="VM_Managed_DAFUL_Track_BodeFormulation_SecondSlopeForNormalPressure"></a> SecondSlopeForNormalPressure
+### SecondSlopeForNormalPressure
 
 Gets or sets the Second Slope for Normal Pressure.
 
@@ -185,7 +185,7 @@ public ExpressionValueVariable SecondSlopeForNormalPressure { get; set; }
 
 Second Slope for Normal Pressure is null.
 
-### <a id="VM_Managed_DAFUL_Track_BodeFormulation_TypeOfNormalPressureFormulation"></a> TypeOfNormalPressureFormulation
+### TypeOfNormalPressureFormulation
 
 Gets the normal pressure formulation type.
 
@@ -199,7 +199,7 @@ public override NormalPressureFormulationType TypeOfNormalPressureFormulation { 
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_BodeFormulation_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -212,4 +212,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

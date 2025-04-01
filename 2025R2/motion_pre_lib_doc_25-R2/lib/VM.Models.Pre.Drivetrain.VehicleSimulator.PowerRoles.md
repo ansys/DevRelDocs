@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_PowerRoles"></a> Enum PowerRoles
+# Enum PowerRoles
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -12,4 +12,5 @@ public enum PowerRoles
 `General = 0` 
 
 `RegenerativeBrake = 1` 
+
 

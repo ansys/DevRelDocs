@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FacetParameters"></a> Struct FacetParameters
+# Struct FacetParameters
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +11,7 @@ public struct FacetParameters
 
 ## Constructors
 
-### <a id="VM_API_Pre_FacetParameters__ctor"></a> FacetParameters\(\)
+### FacetParameters\(\)
 
 Default constructor
 
@@ -21,7 +21,7 @@ public FacetParameters()
 
 ## Properties
 
-### <a id="VM_API_Pre_FacetParameters_CheckFacetAspectRatio"></a> CheckFacetAspectRatio
+### CheckFacetAspectRatio
 
 Flag for checking facet aspect ratio. The default value is true.
 
@@ -33,7 +33,7 @@ public bool CheckFacetAspectRatio { readonly get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_API_Pre_FacetParameters_CheckMaximumFacetSize"></a> CheckMaximumFacetSize
+### CheckMaximumFacetSize
 
 Flag for checking maximum facet size. The default value is true.
 
@@ -45,7 +45,7 @@ public bool CheckMaximumFacetSize { readonly get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_API_Pre_FacetParameters_CheckMaximumGridLine"></a> CheckMaximumGridLine
+### CheckMaximumGridLine
 
 Flag for checking maximum grid line. The default value is false.
 
@@ -57,7 +57,7 @@ public bool CheckMaximumGridLine { readonly get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_API_Pre_FacetParameters_CheckMinimumUGridLine"></a> CheckMinimumUGridLine
+### CheckMinimumUGridLine
 
 Flag for checking minimum grid line for U direction. The default value is false.
 
@@ -69,7 +69,7 @@ public bool CheckMinimumUGridLine { readonly get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_API_Pre_FacetParameters_CheckMinimumVGridLine"></a> CheckMinimumVGridLine
+### CheckMinimumVGridLine
 
 Flag for checking minimum grid line for V direction. The default value is false.
 
@@ -81,7 +81,7 @@ public bool CheckMinimumVGridLine { readonly get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_API_Pre_FacetParameters_CheckSurfaceAngularTolerance"></a> CheckSurfaceAngularTolerance
+### CheckSurfaceAngularTolerance
 
 Flag for checking surface angular tolerance. The default value is true.
 
@@ -93,7 +93,7 @@ public bool CheckSurfaceAngularTolerance { readonly get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_API_Pre_FacetParameters_CheckSurfaceTolerance"></a> CheckSurfaceTolerance
+### CheckSurfaceTolerance
 
 Flag for checking surface tolerance. The default value is false.
 
@@ -105,7 +105,7 @@ public bool CheckSurfaceTolerance { readonly get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_API_Pre_FacetParameters_FacetAspectRatio"></a> FacetAspectRatio
+### FacetAspectRatio
 
 The value for the facet aspect ratio. The default value is 1.0.
 
@@ -117,7 +117,7 @@ public ExpressionValueVariable FacetAspectRatio { readonly get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_FacetParameters_MaximumFacetSize"></a> MaximumFacetSize
+### MaximumFacetSize
 
 The value for the maximum facet size. The default value is 3.0.
 
@@ -129,7 +129,7 @@ public ExpressionValueVariable MaximumFacetSize { readonly get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_FacetParameters_MaximumGridLine"></a> MaximumGridLine
+### MaximumGridLine
 
 The value for the maximum grid line. The default value is 512.
 
@@ -141,7 +141,7 @@ public int MaximumGridLine { readonly get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_API_Pre_FacetParameters_MinimumUGridLine"></a> MinimumUGridLine
+### MinimumUGridLine
 
 The value for the minimum grid line for the U direction. The default value is 0.
 
@@ -153,7 +153,7 @@ public int MinimumUGridLine { readonly get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_API_Pre_FacetParameters_MinimumVGridLine"></a> MinimumVGridLine
+### MinimumVGridLine
 
 The value for the minimum grid line for the V direction. The default value is 0.
 
@@ -165,7 +165,7 @@ public int MinimumVGridLine { readonly get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_API_Pre_FacetParameters_SurfaceAngularTolerance"></a> SurfaceAngularTolerance
+### SurfaceAngularTolerance
 
 The value for the surface angular tolerance. The default value is 5.0.
 
@@ -177,7 +177,7 @@ public ExpressionValueVariable SurfaceAngularTolerance { readonly get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_FacetParameters_SurfaceTolerance"></a> SurfaceTolerance
+### SurfaceTolerance
 
 The value for the surface tolerance. The default value is 0.0.
 
@@ -189,7 +189,7 @@ public ExpressionValueVariable SurfaceTolerance { readonly get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_FacetParameters_UseApproximatedGeometry"></a> UseApproximatedGeometry
+### UseApproximatedGeometry
 
 Flag for whether using approximated geometry. The default value is false.
 
@@ -201,7 +201,7 @@ public bool UseApproximatedGeometry { readonly get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_API_Pre_FacetParameters_UseEdge"></a> UseEdge
+### UseEdge
 
 Flag for whether using edge. The default value is true.
 
@@ -213,7 +213,7 @@ public bool UseEdge { readonly get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_API_Pre_FacetParameters_UseRegacyFacetParameters"></a> UseRegacyFacetParameters
+### UseRegacyFacetParameters
 
 Flag for whether using regacy facet algorithm. The default value is false.
 
@@ -224,4 +224,5 @@ public bool UseRegacyFacetParameters { readonly get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

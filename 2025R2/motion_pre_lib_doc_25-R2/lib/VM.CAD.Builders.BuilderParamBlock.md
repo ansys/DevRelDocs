@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamBlock"></a> Class BuilderParamBlock
+# Class BuilderParamBlock
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -36,7 +36,7 @@ public class BuilderParamBlock : BuilderParamTransform
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamBlock__ctor"></a> BuilderParamBlock\(\)
+### BuilderParamBlock\(\)
 
 ```csharp
 public BuilderParamBlock()
@@ -44,7 +44,7 @@ public BuilderParamBlock()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_BuilderParamBlock_Depth"></a> Depth
+### Depth
 
 Gets or sets the depth.
 
@@ -56,7 +56,7 @@ public double Depth { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_BuilderParamBlock_Height"></a> Height
+### Height
 
 Gets or sets the height.
 
@@ -68,7 +68,7 @@ public double Height { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_BuilderParamBlock_Width"></a> Width
+### Width
 
 Gets or sets the width.
 
@@ -79,4 +79,5 @@ public double Width { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

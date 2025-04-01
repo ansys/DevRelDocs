@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IPropertyDocument"></a> Interface IPropertyDocument
+# Interface IPropertyDocument
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -17,7 +17,7 @@ public interface IPropertyDocument
 
 ## Properties
 
-### <a id="VM_Managed_IPropertyDocument_DesignVariables"></a> DesignVariables
+### DesignVariables
 
 Gets the design variables.
 
@@ -29,7 +29,7 @@ NamedObjectDictionary<DesignVariable> DesignVariables { get; }
 
  [NamedObjectDictionary](VM.Managed.Collections.NamedObjectDictionary\-1.md)<[DesignVariable](VM.Managed.DesignVariable.md)\>
 
-### <a id="VM_Managed_IPropertyDocument_Property"></a> Property
+### Property
 
 Gets the property.
 
@@ -41,7 +41,7 @@ Property Property { get; }
 
  [Property](VM.Managed.Property.md)
 
-### <a id="VM_Managed_IPropertyDocument_PropertyOwner"></a> PropertyOwner
+### PropertyOwner
 
 Gets the property owner.
 
@@ -52,4 +52,5 @@ ObjectBase PropertyOwner { get; }
 #### Property Value
 
  ObjectBase
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AssembledBodyProperty"></a> Class AssembledBodyProperty
+# Class AssembledBodyProperty
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -187,7 +187,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_AssembledBodyProperty__ctor"></a> AssembledBodyProperty\(\)
+### AssembledBodyProperty\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AssembledBodyProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -197,7 +197,7 @@ public AssembledBodyProperty()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_AssembledBodyProperty_Density"></a> Density
+### Density
 
 Gets or sets the density.
 
@@ -209,7 +209,7 @@ public ExpressionValueVariable Density { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_AssembledBodyProperty_Material"></a> Material
+### Material
 
 Gets or sets the material.
 
@@ -221,7 +221,7 @@ public IMaterial Material { get; set; }
 
  IMaterial
 
-### <a id="VM_Managed_DAFUL_AssembledBodyProperty_SolidMassPropertyType"></a> SolidMassPropertyType
+### SolidMassPropertyType
 
 Gets or sets the type of the solid property.
 
@@ -233,7 +233,7 @@ public SolidBodyProperty.MassPropertyType SolidMassPropertyType { get; set; }
 
  [SolidBodyProperty](VM.Managed.DAFUL.SolidBodyProperty.md).[MassPropertyType](VM.Managed.DAFUL.SolidBodyProperty.MassPropertyType.md)
 
-### <a id="VM_Managed_DAFUL_AssembledBodyProperty_Volume"></a> Volume
+### Volume
 
 Gets or sets the volume.
 
@@ -245,7 +245,7 @@ public double Volume { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_AssembledBodyProperty__Material"></a> \_Material
+### \_Material
 
 Gets or sets the material.
 
@@ -259,7 +259,7 @@ public Linker<IMaterial> _Material { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_AssembledBodyProperty_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -273,7 +273,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_AssembledBodyProperty_LinkAddedToDocument_System_Object_VM_Managed_AddToDocEventArgs_"></a> LinkAddedToDocument\(object, AddToDocEventArgs\)
+### LinkAddedToDocument\(object, AddToDocEventArgs\)
 
 Add linked object to a document.
 
@@ -291,7 +291,7 @@ The linked object.
 
 The <xref href="VM.Managed.AddToDocEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_AssembledBodyProperty_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -309,7 +309,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_AssembledBodyProperty_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -322,4 +322,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

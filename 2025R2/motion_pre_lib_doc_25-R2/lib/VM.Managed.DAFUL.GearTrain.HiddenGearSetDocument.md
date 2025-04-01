@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocument"></a> Class HiddenGearSetDocument
+# Class HiddenGearSetDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -627,7 +627,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocument__ctor_System_UIntPtr_"></a> HiddenGearSetDocument\(UIntPtr\)
+### HiddenGearSetDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HiddenGearSetDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -643,7 +643,7 @@ The document handle.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocument_InitialCategories"></a> InitialCategories
+### InitialCategories
 
 Gets the initial categories.
 
@@ -657,7 +657,7 @@ protected override List<string> InitialCategories { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocument_FindCategory_System_String_"></a> FindCategory\(string\)
+### FindCategory\(string\)
 
 Finds the category.
 
@@ -675,7 +675,7 @@ Type of the string.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocument_GetCenterY_System_Double___"></a> GetCenterY\(double\[\]\)
+### GetCenterY\(double\[\]\)
 
 Get y coordinate of center.
 
@@ -689,7 +689,7 @@ protected override void GetCenterY(double[] ardCenterY)
 
 The y coordinate of center.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocument_GetExternalState_System_Boolean___"></a> GetExternalState\(bool\[\]\)
+### GetExternalState\(bool\[\]\)
 
 Get external state.
 
@@ -703,7 +703,7 @@ protected override void GetExternalState(bool[] arbExternal)
 
 The external state array.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
+### InitializeCategoryInfo\(string\)
 
 Initializes the category information.
 
@@ -716,4 +716,5 @@ public static void InitializeCategoryInfo(string strCategoryName)
 `strCategoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 Name of the string category.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_RecalcBodyEvent"></a> Class RecalcBodyEvent
+# Class RecalcBodyEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -67,7 +67,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_History_RecalcBodyEvent__ctor_System_Object_System_Boolean_"></a> RecalcBodyEvent\(object, bool\)
+### RecalcBodyEvent\(object, bool\)
 
 ```csharp
 public RecalcBodyEvent(object obOriginal, bool bUpdateOnlyCADBody)
@@ -79,7 +79,7 @@ public RecalcBodyEvent(object obOriginal, bool bUpdateOnlyCADBody)
 
 `bUpdateOnlyCADBody` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_History_RecalcBodyEvent__ctor_System_Object_"></a> RecalcBodyEvent\(object\)
+### RecalcBodyEvent\(object\)
 
 ```csharp
 public RecalcBodyEvent(object obOriginal)
@@ -91,7 +91,7 @@ public RecalcBodyEvent(object obOriginal)
 
 ## Methods
 
-### <a id="VM_Managed_History_RecalcBodyEvent_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
+### AfterRedo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterRedo(HistoryEventArgs args)
@@ -101,7 +101,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_RecalcBodyEvent_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
+### AfterUndo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterUndo(HistoryEventArgs args)
@@ -111,7 +111,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_RecalcBodyEvent_MergeImpl_VM_Managed_History_SerializableObjectBaseModifiedEventBase_"></a> MergeImpl\(SerializableObjectBaseModifiedEventBase\)
+### MergeImpl\(SerializableObjectBaseModifiedEventBase\)
 
 ```csharp
 protected override SerializableObjectBaseModifiedEventBase.MergeTo MergeImpl(SerializableObjectBaseModifiedEventBase evtNext)
@@ -125,7 +125,7 @@ protected override SerializableObjectBaseModifiedEventBase.MergeTo MergeImpl(Ser
 
  [SerializableObjectBaseModifiedEventBase](VM.Managed.History.SerializableObjectBaseModifiedEventBase.md).[MergeTo](VM.Managed.History.SerializableObjectBaseModifiedEventBase.MergeTo.md)
 
-### <a id="VM_Managed_History_RecalcBodyEvent_RecalcBody_System_Object_System_Boolean_"></a> RecalcBody\(object, bool\)
+### RecalcBody\(object, bool\)
 
 ```csharp
 public static void RecalcBody(object body, bool bUpdateOnlyCADBody)
@@ -137,7 +137,7 @@ public static void RecalcBody(object body, bool bUpdateOnlyCADBody)
 
 `bUpdateOnlyCADBody` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_History_RecalcBodyEvent_RecalcBody_System_Object_"></a> RecalcBody\(object\)
+### RecalcBody\(object\)
 
 ```csharp
 public static void RecalcBody(object body)
@@ -146,4 +146,5 @@ public static void RecalcBody(object body)
 #### Parameters
 
 `body` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
 

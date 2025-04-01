@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_History_MeshAddRemoveEventBase"></a> Class MeshAddRemoveEventBase
+# Class MeshAddRemoveEventBase
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  
@@ -42,7 +42,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_History_MeshAddRemoveEventBase__ctor_System_UIntPtr_System_UIntPtr_"></a> MeshAddRemoveEventBase\(UIntPtr, UIntPtr\)
+### MeshAddRemoveEventBase\(UIntPtr, UIntPtr\)
 
 ```csharp
 protected MeshAddRemoveEventBase(UIntPtr keyMesh, UIntPtr keyObj)
@@ -56,7 +56,7 @@ protected MeshAddRemoveEventBase(UIntPtr keyMesh, UIntPtr keyObj)
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_History_MeshAddRemoveEventBase_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 ```csharp
 protected override void Clear(bool bReserveReferenceCount)
@@ -65,4 +65,5 @@ protected override void Clear(bool bReserveReferenceCount)
 #### Parameters
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

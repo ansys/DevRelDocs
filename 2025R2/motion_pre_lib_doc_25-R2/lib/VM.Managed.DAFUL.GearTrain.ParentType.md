@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_ParentType"></a> Enum ParentType
+# Enum ParentType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -50,6 +50,7 @@ The mesh free shaft
 `Shaft = 0` 
 
 The shaft
+
 
 
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisFrequencyBase"></a> Class AnalysisFrequencyBase
+# Class AnalysisFrequencyBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -39,7 +39,7 @@ AnalysisBase.IsSim
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFrequencyBase__ctor"></a> AnalysisFrequencyBase\(\)
+### AnalysisFrequencyBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisFrequencyBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -47,7 +47,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisFrequ
 public AnalysisFrequencyBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFrequencyBase__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisFrequencyBase\(ILinkContainer\)
+### AnalysisFrequencyBase\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisFrequencyBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -63,7 +63,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFrequencyBase_BeginValue"></a> BeginValue
+### BeginValue
 
 Gets or sets the begin.
 
@@ -75,7 +75,7 @@ public double BeginValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFrequencyBase_EndValue"></a> EndValue
+### EndValue
 
 Gets or sets the end.
 
@@ -87,7 +87,7 @@ public double EndValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFrequencyBase_Increment_Type"></a> Increment\_Type
+### Increment\_Type
 
 Gets or sets the increment.
 
@@ -99,7 +99,7 @@ public AnalysisFrequencyBase.IncrementType Increment_Type { get; set; }
 
  [AnalysisFrequencyBase](VM.Managed.DAFUL.Car.AnalysisFrequencyBase.md).[IncrementType](VM.Managed.DAFUL.Car.AnalysisFrequencyBase.IncrementType.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFrequencyBase_StepsValue"></a> StepsValue
+### StepsValue
 
 Gets or sets the steps.
 
@@ -110,4 +110,5 @@ public uint StepsValue { get; set; }
 #### Property Value
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
 

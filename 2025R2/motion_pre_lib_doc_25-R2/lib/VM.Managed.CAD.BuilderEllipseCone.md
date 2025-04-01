@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderEllipseCone"></a> Class BuilderEllipseCone
+# Class BuilderEllipseCone
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -209,7 +209,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderEllipseCone__ctor"></a> BuilderEllipseCone\(\)
+### BuilderEllipseCone\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseCone" data-throw-if-not-resolved="false"></xref> class
 
@@ -219,7 +219,7 @@ public BuilderEllipseCone()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderEllipseCone__MajorAxis"></a> \_MajorAxis
+### \_MajorAxis
 
 Gets the major axis of cone.
 
@@ -231,7 +231,7 @@ public abstract VectorBase _MajorAxis { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_CAD_BuilderEllipseCone__RadiusMinor"></a> \_RadiusMinor
+### \_RadiusMinor
 
 Gets the minor radius of cone.
 
@@ -245,7 +245,7 @@ public abstract double _RadiusMinor { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderEllipseCone_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
+### CheckValidationAboutBuild\(\)
 
 Checks validation about build.
 
@@ -253,7 +253,7 @@ Checks validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### <a id="VM_Managed_CAD_BuilderEllipseCone_CreateParameter"></a> CreateParameter\(\)
+### CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -263,7 +263,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_CAD_BuilderEllipseCone_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -272,4 +272,5 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
+
 

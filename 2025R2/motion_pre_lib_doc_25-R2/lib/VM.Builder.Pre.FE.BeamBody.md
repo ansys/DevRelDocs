@@ -1,4 +1,4 @@
-# <a id="VM_Builder_Pre_FE_BeamBody"></a> Class BeamBody
+# Class BeamBody
 
 Namespace: [VM.Builder.Pre.FE](VM.Builder.Pre.FE.md)  
 Assembly: VM.Builder.Pre.FE.dll  
@@ -24,7 +24,7 @@ IBuilder
 
 ## Constructors
 
-### <a id="VM_Builder_Pre_FE_BeamBody__ctor"></a> BeamBody\(\)
+### BeamBody\(\)
 
 ```csharp
 public BeamBody()
@@ -32,7 +32,7 @@ public BeamBody()
 
 ## Properties
 
-### <a id="VM_Builder_Pre_FE_BeamBody_EndPoint"></a> EndPoint
+### EndPoint
 
 ```csharp
 public PointBase EndPoint { get; }
@@ -42,7 +42,7 @@ public PointBase EndPoint { get; }
 
  PointBase
 
-### <a id="VM_Builder_Pre_FE_BeamBody_MeshFilePath"></a> MeshFilePath
+### MeshFilePath
 
 ```csharp
 public string MeshFilePath { get; set; }
@@ -52,7 +52,7 @@ public string MeshFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Builder_Pre_FE_BeamBody_Name"></a> Name
+### Name
 
 ```csharp
 public string Name { get; set; }
@@ -62,7 +62,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Builder_Pre_FE_BeamBody_NoOfBeamNodes"></a> NoOfBeamNodes
+### NoOfBeamNodes
 
 ```csharp
 public int NoOfBeamNodes { get; set; }
@@ -72,7 +72,7 @@ public int NoOfBeamNodes { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Builder_Pre_FE_BeamBody_NoOfCircularNodes"></a> NoOfCircularNodes
+### NoOfCircularNodes
 
 ```csharp
 public int NoOfCircularNodes { get; set; }
@@ -82,7 +82,7 @@ public int NoOfCircularNodes { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Builder_Pre_FE_BeamBody_NodalBody"></a> NodalBody
+### NodalBody
 
 ```csharp
 public NodalBody NodalBody { get; }
@@ -92,7 +92,7 @@ public NodalBody NodalBody { get; }
 
  NodalBody
 
-### <a id="VM_Builder_Pre_FE_BeamBody_Parameters"></a> Parameters
+### Parameters
 
 ```csharp
 public PickedResult[] Parameters { get; set; }
@@ -102,7 +102,7 @@ public PickedResult[] Parameters { get; set; }
 
  PickedResult\[\]
 
-### <a id="VM_Builder_Pre_FE_BeamBody_Radius"></a> Radius
+### Radius
 
 ```csharp
 public double Radius { get; set; }
@@ -112,7 +112,7 @@ public double Radius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Builder_Pre_FE_BeamBody_StartPoint"></a> StartPoint
+### StartPoint
 
 ```csharp
 public PointBase StartPoint { get; }
@@ -122,7 +122,7 @@ public PointBase StartPoint { get; }
 
  PointBase
 
-### <a id="VM_Builder_Pre_FE_BeamBody_YDirection"></a> YDirection
+### YDirection
 
 ```csharp
 public DirectionBase YDirection { get; }
@@ -131,4 +131,5 @@ public DirectionBase YDirection { get; }
 #### Property Value
 
  DirectionBase
+
 

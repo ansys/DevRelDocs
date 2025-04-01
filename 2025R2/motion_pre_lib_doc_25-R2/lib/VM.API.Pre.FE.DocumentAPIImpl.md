@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FE_DocumentAPIImpl"></a> Class DocumentAPIImpl
+# Class DocumentAPIImpl
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -22,7 +22,7 @@ public static class DocumentAPIImpl
 
 ## Methods
 
-### <a id="VM_API_Pre_FE_DocumentAPIImpl_CreateNewMeshDocumentImpl__1_System_String_System_String_VM_Unit_System_Double_System_String_System_String_"></a> CreateNewMeshDocumentImpl<T\>\(string, string, Unit, double, string, string\)
+### CreateNewMeshDocumentImpl<T\>\(string, string, Unit, double, string, string\)
 
 Create <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -74,4 +74,5 @@ The document type
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'newMeshFilePath' argument is empty.
+
 

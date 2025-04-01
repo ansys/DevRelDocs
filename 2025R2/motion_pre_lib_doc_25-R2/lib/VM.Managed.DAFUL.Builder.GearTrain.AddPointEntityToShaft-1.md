@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToShaft_1"></a> Class AddPointEntityToShaft<T\>
+# Class AddPointEntityToShaft<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -57,7 +57,7 @@ BuilderBase<T\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToShaft_1__ctor"></a> AddPointEntityToShaft\(\)
+### AddPointEntityToShaft\(\)
 
 ```csharp
 protected AddPointEntityToShaft()
@@ -65,7 +65,7 @@ protected AddPointEntityToShaft()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToShaft_1_m_dOffset"></a> m\_dOffset
+### m\_dOffset
 
 ```csharp
 protected double m_dOffset
@@ -75,7 +75,7 @@ protected double m_dOffset
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToShaft_1_m_dReferPoint"></a> m\_dReferPoint
+### m\_dReferPoint
 
 ```csharp
 protected double m_dReferPoint
@@ -85,7 +85,7 @@ protected double m_dReferPoint
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToShaft_1_m_dWitdh"></a> m\_dWitdh
+### m\_dWitdh
 
 ```csharp
 protected double m_dWitdh
@@ -95,7 +95,7 @@ protected double m_dWitdh
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToShaft_1_m_typeRef"></a> m\_typeRef
+### m\_typeRef
 
 ```csharp
 protected PointEntityOnShaftSet.ReferenceType m_typeRef
@@ -107,7 +107,7 @@ protected PointEntityOnShaftSet.ReferenceType m_typeRef
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToShaft_1_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -119,7 +119,7 @@ public string[] InputArray { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToShaft_1_CheckContainsEntity_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_"></a> CheckContainsEntity\(HiddenShaftSetDocument\)
+### CheckContainsEntity\(HiddenShaftSetDocument\)
 
 ```csharp
 protected virtual bool CheckContainsEntity(HiddenShaftSetDocument hiddenDoc)
@@ -133,7 +133,7 @@ protected virtual bool CheckContainsEntity(HiddenShaftSetDocument hiddenDoc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToShaft_1_CheckOnShaftSet_VM_Managed_Document_"></a> CheckOnShaftSet\(Document\)
+### CheckOnShaftSet\(Document\)
 
 ```csharp
 protected bool CheckOnShaftSet(Document doc)
@@ -147,7 +147,7 @@ protected bool CheckOnShaftSet(Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToShaft_1_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
+### OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -156,4 +156,5 @@ protected override void OnPostAddDoc(ObjectBase ob)
 #### Parameters
 
 `ob` ObjectBase
+
 

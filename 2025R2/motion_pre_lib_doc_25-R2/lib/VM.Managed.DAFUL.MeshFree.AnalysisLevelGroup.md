@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup"></a> Class AnalysisLevelGroup
+# Class AnalysisLevelGroup
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup__ctor"></a> AnalysisLevelGroup\(\)
+### AnalysisLevelGroup\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.AnalysisLevelGroup" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Analysis
 public AnalysisLevelGroup()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup__ctor_System_UInt32_"></a> AnalysisLevelGroup\(uint\)
+### AnalysisLevelGroup\(uint\)
 
 Initializes a new instance of the <xref href="VM.Managed.MeshFreeAnalysisLevelGroup" data-throw-if-not-resolved="false"></xref> class whth level count.
 
@@ -118,7 +118,7 @@ public AnalysisLevelGroup(uint levelCount)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup_AnalysisLevels"></a> AnalysisLevels
+### AnalysisLevels
 
 Gets or sets the silmulation level container for MeshFree.
 
@@ -130,7 +130,7 @@ public AnalysisLevel[] AnalysisLevels { get; set; }
 
  [AnalysisLevel](VM.Managed.DAFUL.MeshFree.AnalysisLevel.md)\[\]
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup_CheckedAnalysisLevels"></a> CheckedAnalysisLevels
+### CheckedAnalysisLevels
 
 Gets the checked analysis levels.
 
@@ -142,7 +142,7 @@ public AnalysisLevel[] CheckedAnalysisLevels { get; }
 
  [AnalysisLevel](VM.Managed.DAFUL.MeshFree.AnalysisLevel.md)\[\]
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup_Count"></a> Count
+### Count
 
 Gets the count.
 
@@ -154,7 +154,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup_IsUseLocalRefinement"></a> IsUseLocalRefinement
+### IsUseLocalRefinement
 
 Gets or sets a value indicating whether use [local refinement].
 
@@ -166,7 +166,7 @@ public bool IsUseLocalRefinement { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup_RefineSurface"></a> RefineSurface
+### RefineSurface
 
 Gets or sets the surface refinement.
 
@@ -178,7 +178,7 @@ public int RefineSurface { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup_Item_System_Int32_"></a> this\[int\]
+### this\[int\]
 
 Gets or sets the <xref href="VM.Managed.DAFUL.MeshFree.AnalysisLevel" data-throw-if-not-resolved="false"></xref> with the specified n index.
 
@@ -192,7 +192,7 @@ public AnalysisLevel this[int nIndex] { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -206,11 +206,12 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevelGroup_OnDeserializationAttribute"></a> OnDeserializationAttribute\(\)
+### OnDeserializationAttribute\(\)
 
 Called when [deserialization attribute].
 
 ```csharp
 public void OnDeserializationAttribute()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamMultiIntersect"></a> Class BuilderParamMultiIntersect
+# Class BuilderParamMultiIntersect
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -35,9 +35,10 @@ public class BuilderParamMultiIntersect : BuilderParamMulti
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamMultiIntersect__ctor"></a> BuilderParamMultiIntersect\(\)
+### BuilderParamMultiIntersect\(\)
 
 ```csharp
 public BuilderParamMultiIntersect()
 ```
+
 

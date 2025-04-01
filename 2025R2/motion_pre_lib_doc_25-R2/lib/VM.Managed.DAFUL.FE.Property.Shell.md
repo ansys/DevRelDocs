@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Property_Shell"></a> Class Shell
+# Class Shell
 
 Namespace: [VM.Managed.DAFUL.FE.Property](VM.Managed.DAFUL.FE.Property.md)  
 Assembly: VMFE.dll  
@@ -190,7 +190,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Property_Shell__ctor_System_String_"></a> Shell\(string\)
+### Shell\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Property.Shell" data-throw-if-not-resolved="false"></xref> class.
 
@@ -204,7 +204,7 @@ public Shell(string strName)
 
 Name of the property shell.
 
-### <a id="VM_Managed_DAFUL_FE_Property_Shell__ctor"></a> Shell\(\)
+### Shell\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Property.Shell" data-throw-if-not-resolved="false"></xref> class.
 
@@ -214,7 +214,7 @@ public Shell()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Property_Shell_StrainZ"></a> StrainZ
+### StrainZ
 
 Gets or sets the strain z formula.
 
@@ -226,7 +226,7 @@ public uint StrainZ { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_FE_Property_Shell_Thickness"></a> Thickness
+### Thickness
 
 Gets or sets the thickness.
 
@@ -238,7 +238,7 @@ public Variable Thickness { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_FE_Property_Shell_Type"></a> Type
+### Type
 
 Gets the type of property.
 
@@ -250,7 +250,7 @@ public override PropertyBase.PropertyType Type { get; }
 
  [PropertyBase](VM.Managed.DAFUL.FE.Property.PropertyBase.md).[PropertyType](VM.Managed.DAFUL.FE.Property.PropertyBase.PropertyType.md)
 
-### <a id="VM_Managed_DAFUL_FE_Property_Shell_TypeOfPlane"></a> TypeOfPlane
+### TypeOfPlane
 
 Gets or sets the plane type.
 
@@ -264,7 +264,7 @@ public Shell.PlaneType TypeOfPlane { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Property_Shell_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -277,4 +277,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

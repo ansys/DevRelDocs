@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_EHDBearingUtil"></a> Class EHDBearingUtil
+# Class EHDBearingUtil
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -20,7 +20,7 @@ public static class EHDBearingUtil
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_EHDBearingUtil_CreateEHDBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_PointBase_VM_Managed_DirectionBase_VM_Managed_DirectionBase_VM_Managed_PointBase_VM_Managed_DirectionBase_VM_Managed_DirectionBase_System_Double_System_Double_System_Double_"></a> CreateEHDBearing\(GearTrainDocument, string, ObjectBase, ObjectBase, PointBase, DirectionBase, DirectionBase, PointBase, DirectionBase, DirectionBase, double, double, double\)
+### CreateEHDBearing\(GearTrainDocument, string, ObjectBase, ObjectBase, PointBase, DirectionBase, DirectionBase, PointBase, DirectionBase, DirectionBase, double, double, double\)
 
 ```csharp
 public static EHDBearing CreateEHDBearing(this GearTrainDocument gearTrainDocument, string strName, ObjectBase baseGeometry, ObjectBase actionGeometry, PointBase basePosition, DirectionBase baseZAxis, DirectionBase baseXAxis, PointBase actionPosition, DirectionBase actionZAxis, DirectionBase actionXAxis, double dBearingRadius, double dJournalRadius, double dWidth)
@@ -58,7 +58,7 @@ public static EHDBearing CreateEHDBearing(this GearTrainDocument gearTrainDocume
 
  EHDBearing
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_EHDBearingUtil_CreateEHDBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_PointBase_VM_Managed_DirectionBase_VM_Managed_DirectionBase_System_Double_System_Double_System_Double_"></a> CreateEHDBearing\(GearTrainDocument, string, ObjectBase, ObjectBase, PointBase, DirectionBase, DirectionBase, double, double, double\)
+### CreateEHDBearing\(GearTrainDocument, string, ObjectBase, ObjectBase, PointBase, DirectionBase, DirectionBase, double, double, double\)
 
 ```csharp
 public static EHDBearing CreateEHDBearing(this GearTrainDocument gearTrainDocument, string strName, ObjectBase baseGeometry, ObjectBase actionGeometry, PointBase position, DirectionBase zAxis, DirectionBase xAxis, double dBearingRadius, double dJournalRadius, double dWidth)
@@ -89,4 +89,5 @@ public static EHDBearing CreateEHDBearing(this GearTrainDocument gearTrainDocume
 #### Returns
 
  EHDBearing
+
 

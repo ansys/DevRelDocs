@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim"></a> Namespace VM.Managed.DAFUL.CoSim
+# Namespace VM.Managed.DAFUL.CoSim
 
 ### Namespaces
 
@@ -61,4 +61,5 @@ Specifies type of a gear
  [MessageLevel](VM.Managed.DAFUL.CoSim.MessageLevel.md)
 
 Users can change the message level before co-simulation through this parameter
+
 

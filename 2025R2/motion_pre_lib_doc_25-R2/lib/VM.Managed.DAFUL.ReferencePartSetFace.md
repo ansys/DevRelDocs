@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ReferencePartSetFace"></a> Class ReferencePartSetFace
+# Class ReferencePartSetFace
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -239,7 +239,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_ReferencePartSetFace__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferencePartSetFace\(SerializationInfo, StreamingContext\)
+### ReferencePartSetFace\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferencePartSetFace" data-throw-if-not-resolved="false"></xref> class.
 
@@ -257,7 +257,7 @@ The info.
 
 The context.
 
-### <a id="VM_Managed_DAFUL_ReferencePartSetFace__ctor_VM_Managed_ObjectBase_"></a> ReferencePartSetFace\(ObjectBase\)
+### ReferencePartSetFace\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferencePartSetFace" data-throw-if-not-resolved="false"></xref> class.
 
@@ -273,7 +273,7 @@ The reference's object.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_ReferencePartSetFace_GetAnalysisType"></a> GetAnalysisType\(\)
+### GetAnalysisType\(\)
 
 Gets the analysis type.
 
@@ -287,7 +287,7 @@ protected override BodyAnalysisType GetAnalysisType()
 
 The analysis type.
 
-### <a id="VM_Managed_DAFUL_ReferencePartSetFace_GetConnectableImpl"></a> GetConnectableImpl\(\)
+### GetConnectableImpl\(\)
 
 Gets the connectable [implementation].
 
@@ -299,7 +299,7 @@ protected override IConnectable GetConnectableImpl()
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)
 
-### <a id="VM_Managed_DAFUL_ReferencePartSetFace_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -317,7 +317,7 @@ The ob notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_ReferencePartSetFace_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -334,4 +334,5 @@ The ob notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

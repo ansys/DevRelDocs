@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SimulationConfiguration_CriterionSub"></a> Enum SimulationConfiguration.CriterionSub
+# Enum SimulationConfiguration.CriterionSub
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -20,6 +20,7 @@ Region
 `Value = 1` 
 
 Value
+
 
 
 

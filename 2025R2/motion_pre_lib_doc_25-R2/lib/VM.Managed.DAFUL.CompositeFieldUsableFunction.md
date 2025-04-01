@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CompositeFieldUsableFunction"></a> Class CompositeFieldUsableFunction
+# Class CompositeFieldUsableFunction
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableFunction__ctor"></a> CompositeFieldUsableFunction\(\)
+### CompositeFieldUsableFunction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeFieldUsableFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeFieldUsa
 public CompositeFieldUsableFunction()
 ```
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableFunction__ctor_VM_Managed_Property_"></a> CompositeFieldUsableFunction\(Property\)
+### CompositeFieldUsableFunction\(Property\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeFieldUsableFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -122,7 +122,7 @@ public CompositeFieldUsableFunction(Property owner)
 
 The owner.
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableFunction__ctor_VM_Managed_Property_VM_Managed_DAFUL_Function_"></a> CompositeFieldUsableFunction\(Property, Function\)
+### CompositeFieldUsableFunction\(Property, Function\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeFieldUsableFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -140,7 +140,7 @@ The owner.
 
 The function.
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableFunction__ctor_VM_Managed_DAFUL_Function_"></a> CompositeFieldUsableFunction\(Function\)
+### CompositeFieldUsableFunction\(Function\)
 
 ```csharp
 public CompositeFieldUsableFunction(Function func)
@@ -152,7 +152,7 @@ public CompositeFieldUsableFunction(Function func)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableFunction_Function"></a> Function
+### Function
 
 Gets or sets the function.
 
@@ -164,7 +164,7 @@ public Function Function { get; set; }
 
  [Function](VM.Managed.DAFUL.Function.md)
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableFunction_IsUse"></a> IsUse
+### IsUse
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.CompositeFieldUsable" data-throw-if-not-resolved="false"></xref> is use.
 
@@ -176,7 +176,7 @@ public override bool IsUse { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableFunction_TypeOfLink"></a> TypeOfLink
+### TypeOfLink
 
 Gets the type of link.
 
@@ -188,7 +188,7 @@ public CompositeFieldUsableFunction.LinkType TypeOfLink { get; }
 
  [CompositeFieldUsableFunction](VM.Managed.DAFUL.CompositeFieldUsableFunction.md).[LinkType](VM.Managed.DAFUL.CompositeFieldUsableFunction.LinkType.md)
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableFunction_Use"></a> Use
+### Use
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.CompositeFieldUsable" data-throw-if-not-resolved="false"></xref> is use.
 
@@ -199,4 +199,5 @@ protected override bool Use { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

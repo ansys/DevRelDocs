@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Session"></a> Class Session
+# Class Session
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -32,17 +32,18 @@ public sealed class Session : KernelObject, ISession
 
 ## Methods
 
-### <a id="VM_CAD_Kernel_Session_DisposeManagedResource"></a> DisposeManagedResource\(\)
+### DisposeManagedResource\(\)
 
 ```csharp
 protected override void DisposeManagedResource()
 ```
 
-### <a id="VM_CAD_Kernel_Session_SetFailed"></a> SetFailed\(\)
+### SetFailed\(\)
 
 Mark session is failed
 
 ```csharp
 public void SetFailed()
 ```
+
 

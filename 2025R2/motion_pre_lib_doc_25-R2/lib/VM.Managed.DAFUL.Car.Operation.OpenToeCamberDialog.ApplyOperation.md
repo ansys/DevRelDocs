@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_OpenToeCamberDialog_ApplyOperation"></a> Class OpenToeCamberDialog.ApplyOperation
+# Class OpenToeCamberDialog.ApplyOperation
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_OpenToeCamberDialog_ApplyOperation__ctor_VM_Managed_Document_VM_Managed_DAFUL_Dialog_Car_ToeCamber_"></a> ApplyOperation\(Document, ToeCamber\)
+### ApplyOperation\(Document, ToeCamber\)
 
 ```csharp
 public ApplyOperation(Document doc, ToeCamber tc)
@@ -89,7 +89,7 @@ public ApplyOperation(Document doc, ToeCamber tc)
 
 `tc` ToeCamber
 
-### <a id="VM_Managed_DAFUL_Car_Operation_OpenToeCamberDialog_ApplyOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ApplyOperation\(JournalParameter\)
+### ApplyOperation\(JournalParameter\)
 
 ```csharp
 public ApplyOperation(JournalParameter jp)
@@ -101,7 +101,7 @@ public ApplyOperation(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_OpenToeCamberDialog_ApplyOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -113,7 +113,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_Operation_OpenToeCamberDialog_ApplyOperation_Result"></a> Result
+### Result
 
 ```csharp
 public bool Result { get; }
@@ -125,7 +125,7 @@ public bool Result { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_OpenToeCamberDialog_ApplyOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -133,7 +133,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_OpenToeCamberDialog_ApplyOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -142,4 +142,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

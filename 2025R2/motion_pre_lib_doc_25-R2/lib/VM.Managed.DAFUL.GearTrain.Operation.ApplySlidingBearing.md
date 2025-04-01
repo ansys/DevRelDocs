@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplySlidingBearing"></a> Class ApplySlidingBearing
+# Class ApplySlidingBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplySlidingBearing__ctor_VM_Managed_DAFUL_GearTrain_HiddenSlidingBearingDocument_VM_Managed_DAFUL_GearTrain_SlidingBearing_"></a> ApplySlidingBearing\(HiddenSlidingBearingDocument, SlidingBearing\)
+### ApplySlidingBearing\(HiddenSlidingBearingDocument, SlidingBearing\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ApplySlidingBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -95,7 +95,7 @@ The hidden sliding bearing document
 
 The sliding bearing
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplySlidingBearing__ctor_VM_Managed_Operation_JournalParameter_"></a> ApplySlidingBearing\(JournalParameter\)
+### ApplySlidingBearing\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ApplySlidingBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -111,7 +111,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplySlidingBearing_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -129,7 +129,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplySlidingBearing_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
@@ -141,7 +141,7 @@ public override void Execute()
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplySlidingBearing_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -154,4 +154,5 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

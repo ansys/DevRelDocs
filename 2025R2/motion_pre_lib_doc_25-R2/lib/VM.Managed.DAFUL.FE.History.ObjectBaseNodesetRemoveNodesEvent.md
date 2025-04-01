@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_History_ObjectBaseNodesetRemoveNodesEvent"></a> Class ObjectBaseNodesetRemoveNodesEvent
+# Class ObjectBaseNodesetRemoveNodesEvent
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  
@@ -44,7 +44,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseNodesetRemoveNodesEvent__ctor_System_Object_System_Collections_Generic_ICollection_System_UInt32__"></a> ObjectBaseNodesetRemoveNodesEvent\(object, ICollection<uint\>\)
+### ObjectBaseNodesetRemoveNodesEvent\(object, ICollection<uint\>\)
 
 ```csharp
 public ObjectBaseNodesetRemoveNodesEvent(object obOriginal, ICollection<uint> arNodeIndex)
@@ -58,7 +58,7 @@ public ObjectBaseNodesetRemoveNodesEvent(object obOriginal, ICollection<uint> ar
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseNodesetRemoveNodesEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
+### Redo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Redo(HistoryEventArgs args)
@@ -68,7 +68,7 @@ protected override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseNodesetRemoveNodesEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
+### Undo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Undo(HistoryEventArgs args)
@@ -77,4 +77,5 @@ protected override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
+
 

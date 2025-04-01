@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Generator_BeamFileParams"></a> Class BeamFileParams
+# Class BeamFileParams
 
 Namespace: [VM.Models.FE.Mesh.Generator](VM.Models.FE.Mesh.Generator.md)  
 Assembly: VM.Models.FE.Mesh.Generator.dll  
@@ -20,7 +20,7 @@ public class BeamFileParams
 
 ## Constructors
 
-### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams__ctor"></a> BeamFileParams\(\)
+### BeamFileParams\(\)
 
 ```csharp
 public BeamFileParams()
@@ -28,7 +28,7 @@ public BeamFileParams()
 
 ## Properties
 
-### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_BeamMaterialDampingRatio"></a> BeamMaterialDampingRatio
+### BeamMaterialDampingRatio
 
 ```csharp
 public double BeamMaterialDampingRatio { get; set; }
@@ -38,7 +38,7 @@ public double BeamMaterialDampingRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_BeamMaterialDensity"></a> BeamMaterialDensity
+### BeamMaterialDensity
 
 ```csharp
 public double BeamMaterialDensity { get; set; }
@@ -48,7 +48,7 @@ public double BeamMaterialDensity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_BeamMaterialPoissonsRatio"></a> BeamMaterialPoissonsRatio
+### BeamMaterialPoissonsRatio
 
 ```csharp
 public double BeamMaterialPoissonsRatio { get; set; }
@@ -58,7 +58,7 @@ public double BeamMaterialPoissonsRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_BeamMaterialShearModulus"></a> BeamMaterialShearModulus
+### BeamMaterialShearModulus
 
 ```csharp
 public double BeamMaterialShearModulus { get; set; }
@@ -68,7 +68,7 @@ public double BeamMaterialShearModulus { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_BeamMaterialYoungsModulus"></a> BeamMaterialYoungsModulus
+### BeamMaterialYoungsModulus
 
 ```csharp
 public double BeamMaterialYoungsModulus { get; set; }
@@ -78,7 +78,7 @@ public double BeamMaterialYoungsModulus { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_BufferCount"></a> BufferCount
+### BufferCount
 
 ```csharp
 public int BufferCount { get; set; }
@@ -88,7 +88,7 @@ public int BufferCount { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_EndPoint"></a> EndPoint
+### EndPoint
 
 ```csharp
 public Vector EndPoint { get; set; }
@@ -98,7 +98,7 @@ public Vector EndPoint { get; set; }
 
  Vector
 
-### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_GenerateInnerRBE"></a> GenerateInnerRBE
+### GenerateInnerRBE
 
 ```csharp
 public bool GenerateInnerRBE { get; set; }
@@ -108,7 +108,7 @@ public bool GenerateInnerRBE { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_NumberOfBeamNodes"></a> NumberOfBeamNodes
+### NumberOfBeamNodes
 
 ```csharp
 public int NumberOfBeamNodes { get; set; }
@@ -118,7 +118,7 @@ public int NumberOfBeamNodes { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_NumberOfCircularNodes"></a> NumberOfCircularNodes
+### NumberOfCircularNodes
 
 ```csharp
 public int NumberOfCircularNodes { get; set; }
@@ -128,7 +128,7 @@ public int NumberOfCircularNodes { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_Radius"></a> Radius
+### Radius
 
 ```csharp
 public double Radius { get; set; }
@@ -138,7 +138,7 @@ public double Radius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_StartPoint"></a> StartPoint
+### StartPoint
 
 ```csharp
 public Vector StartPoint { get; set; }
@@ -148,7 +148,7 @@ public Vector StartPoint { get; set; }
 
  Vector
 
-### <a id="VM_Models_FE_Mesh_Generator_BeamFileParams_YDirection"></a> YDirection
+### YDirection
 
 ```csharp
 public Vector YDirection { get; set; }
@@ -157,4 +157,5 @@ public Vector YDirection { get; set; }
 #### Property Value
 
  Vector
+
 

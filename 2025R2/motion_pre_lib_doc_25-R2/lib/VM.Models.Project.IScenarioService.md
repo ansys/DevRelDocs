@@ -1,4 +1,4 @@
-# <a id="VM_Models_Project_IScenarioService"></a> Interface IScenarioService
+# Interface IScenarioService
 
 Namespace: [VM.Models.Project](VM.Models.Project.md)  
 Assembly: VM.Models.Project.dll  
@@ -15,13 +15,13 @@ public interface IScenarioService
 
 ## Methods
 
-### <a id="VM_Models_Project_IScenarioService_Clear"></a> Clear\(\)
+### Clear\(\)
 
 ```csharp
 void Clear()
 ```
 
-### <a id="VM_Models_Project_IScenarioService_Compose_System_Collections_Generic_IEnumerable_System_Reflection_Assembly__"></a> Compose\(IEnumerable<Assembly\>\)
+### Compose\(IEnumerable<Assembly\>\)
 
 ```csharp
 void Compose(IEnumerable<Assembly> assemblies)
@@ -31,7 +31,7 @@ void Compose(IEnumerable<Assembly> assemblies)
 
 `assemblies` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Assembly](https://learn.microsoft.com/dotnet/api/system.reflection.assembly)\>
 
-### <a id="VM_Models_Project_IScenarioService_ContainsName_System_String_"></a> ContainsName\(string\)
+### ContainsName\(string\)
 
 ```csharp
 bool ContainsName(string typeName)
@@ -45,7 +45,7 @@ bool ContainsName(string typeName)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Project_IScenarioService_TryGetInstance_System_String_VM_Models_IProjectDocument_System_String_VM_Models_IScenario__"></a> TryGetInstance\(string, IProjectDocument, string, out IScenario\)
+### TryGetInstance\(string, IProjectDocument, string, out IScenario\)
 
 ```csharp
 bool TryGetInstance(string typeName, IProjectDocument parent, string scenarioName, out IScenario scenario)
@@ -65,7 +65,7 @@ bool TryGetInstance(string typeName, IProjectDocument parent, string scenarioNam
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Project_IScenarioService_TryGetType_System_String_System_Type__"></a> TryGetType\(string, out Type\)
+### TryGetType\(string, out Type\)
 
 ```csharp
 bool TryGetType(string typeName, out Type scenarioType)
@@ -80,4 +80,5 @@ bool TryGetType(string typeName, out Type scenarioType)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

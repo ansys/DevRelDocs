@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Render_IDrawChangeFacet"></a> Interface IDrawChangeFacet
+# Interface IDrawChangeFacet
 
 Namespace: [VM.Managed.Render](VM.Managed.Render.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IDrawChangeFacet
 
 ## Methods
 
-### <a id="VM_Managed_Render_IDrawChangeFacet_Drawble_VM_Managed_ObjectBase_"></a> Drawble\(ObjectBase\)
+### Drawble\(ObjectBase\)
 
 Drawble.
 
@@ -37,11 +37,12 @@ The target object.
 
 <code>true</code> if this instance is drawable; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Render_IDrawChangeFacet_ReDrawChangeFacet"></a> ReDrawChangeFacet\(\)
+### ReDrawChangeFacet\(\)
 
 Redraw change facet.
 
 ```csharp
 void ReDrawChangeFacet()
 ```
+
 

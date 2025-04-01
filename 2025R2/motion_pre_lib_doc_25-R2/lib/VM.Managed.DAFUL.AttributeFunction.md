@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeFunction"></a> Class AttributeFunction
+# Class AttributeFunction
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -102,7 +102,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_AttributeFunction__ctor"></a> AttributeFunction\(\)
+### AttributeFunction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -110,7 +110,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeFunction
 public AttributeFunction()
 ```
 
-### <a id="VM_Managed_DAFUL_AttributeFunction__ctor_VM_Managed_DAFUL_Function_"></a> AttributeFunction\(Function\)
+### AttributeFunction\(Function\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -126,7 +126,7 @@ The function.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_AttributeFunction_Value"></a> Value
+### Value
 
 Gets or sets the value.
 
@@ -141,7 +141,7 @@ public Function Value { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_AttributeFunction_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -154,4 +154,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

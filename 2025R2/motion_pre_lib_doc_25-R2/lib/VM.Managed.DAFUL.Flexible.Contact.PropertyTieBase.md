@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Flexible_Contact_PropertyTieBase"></a> Class PropertyTieBase
+# Class PropertyTieBase
 
 Namespace: [VM.Managed.DAFUL.Flexible.Contact](VM.Managed.DAFUL.Flexible.Contact.md)  
 Assembly: VMFlexibleBase.dll  
@@ -169,9 +169,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_PropertyTieBase__ctor"></a> PropertyTieBase\(\)
+### PropertyTieBase\(\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.PropertyTieBase" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.PropertyTieBase" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Contact.PropertyTieBase" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public PropertyTieBase()
@@ -179,9 +181,28 @@ public PropertyTieBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_PropertyTieBase_PenaltyScale"></a> PenaltyScale
+### PenaltyScale
 
-Gets or sets the penalty scale.
+<p>Gets or sets the penalty scale.</p>
+<p>페날티 스케일을 가져오거나 넣어줍니다.</p>
+<p>
+        Type : Variable
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Penalty Scale
+        Control Type : Variable Editor
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Boundary Condition
+        Category Index : 5
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public ExpressionValueVariable PenaltyScale { get; set; }
@@ -191,9 +212,28 @@ public ExpressionValueVariable PenaltyScale { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_PropertyTieBase_UseGap"></a> UseGap
+### UseGap
 
-Gets or sets a value indicating whether [use gap].
+<p>Gets or sets a value indicating whether [use gap].</p>
+<p>갭의 사용여부를 가져오거나 넣어줍니다.</p>
+        /// <p>
+        Type : bool
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Gap
+        Control Type : N/A
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Tie or Geometry
+        Category Index : 5
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public bool UseGap { get; set; }
@@ -203,9 +243,28 @@ public bool UseGap { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_PropertyTieBase_UseSlidingTie"></a> UseSlidingTie
+### UseSlidingTie
 
-Gets or sets a value indicating whether [use sliding tie].
+<p>Gets or sets a value indicating whether [use sliding tie].</p>
+<p>슬라이딩 타이의 사용여부를 가져오거나 넣어줍니다.</p>
+        /// <p>
+        Type : bool
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Gap
+        Control Type : N/A
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Tie or Geometry
+        Category Index : 6
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public bool UseSlidingTie { get; set; }
@@ -217,9 +276,10 @@ public bool UseSlidingTie { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Flexible_Contact_PropertyTieBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
+<p>단위 변화 팩터를 이용하여 필드를 초기화 해줍니다.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -229,5 +289,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
+<p>단위 변환 팩터.</p>
+
 

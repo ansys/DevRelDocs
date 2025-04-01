@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CADOperation_SetShearModulusOp"></a> Class CADOperation.SetShearModulusOp
+# Class CADOperation.SetShearModulusOp
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CADOperation_SetShearModulusOp__ctor"></a> SetShearModulusOp\(\)
+### SetShearModulusOp\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CADOperation.SetShearModulusOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.CADOperation.SetShearMo
 public SetShearModulusOp()
 ```
 
-### <a id="VM_Managed_CADOperation_SetShearModulusOp__ctor_VM_Managed_Material_ISO_System_Boolean_System_String_"></a> SetShearModulusOp\(ISO, bool, string\)
+### SetShearModulusOp\(ISO, bool, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.CADOperation.SetShearModulusOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ The shear modulus.
 
 ## Properties
 
-### <a id="VM_Managed_CADOperation_SetShearModulusOp_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the history merge flag.
 
@@ -121,7 +121,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CADOperation_SetShearModulusOp_Name"></a> Name
+### Name
 
 Gets the Name.
 
@@ -135,11 +135,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CADOperation_SetShearModulusOp_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_MaterialBase"></a> Class MaterialBase
+# Class MaterialBase
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -180,7 +180,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Material_MaterialBase__ctor"></a> MaterialBase\(\)
+### MaterialBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.MaterialBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -188,7 +188,7 @@ Initializes a new instance of the <xref href="VM.Managed.Material.MaterialBase" 
 public MaterialBase()
 ```
 
-### <a id="VM_Managed_Material_MaterialBase__ctor_System_String_"></a> MaterialBase\(string\)
+### MaterialBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.MaterialBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -204,7 +204,7 @@ Name of the material base.
 
 ## Properties
 
-### <a id="VM_Managed_Material_MaterialBase_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -216,7 +216,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_Material_MaterialBase_Density"></a> Density
+### Density
 
 Gets or sets the density.
 
@@ -228,7 +228,7 @@ public ExpressionValueVariable Density { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_MaterialBase_DensityValue"></a> DensityValue
+### DensityValue
 
 Gets the density value.
 
@@ -240,7 +240,7 @@ public double DensityValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_Material_MaterialBase_Index"></a> Index
+### Index
 
 Gets or sets the material ID.
 Use SetID() when this instance sets for undo/redo.
@@ -253,7 +253,7 @@ public uint Index { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_Material_MaterialBase_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -267,7 +267,7 @@ public string ReferenceType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Material_MaterialBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -281,7 +281,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_Material_MaterialBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -299,7 +299,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_Material_MaterialBase_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -313,7 +313,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_Material_MaterialBase_SetID_System_UInt32_"></a> SetID\(uint\)
+### SetID\(uint\)
 
 Set ID.
 
@@ -327,7 +327,7 @@ public void SetID(uint nID)
 
 The ID.
 
-### <a id="VM_Managed_Material_MaterialBase_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -340,4 +340,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

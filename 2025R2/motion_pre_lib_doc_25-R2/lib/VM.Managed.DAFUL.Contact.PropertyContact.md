@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyContact"></a> Class PropertyContact
+# Class PropertyContact
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -176,7 +176,7 @@ The class represents contact properties include contact charactoristic propertie
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact__ctor"></a> PropertyContact\(\)
+### PropertyContact\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -186,7 +186,7 @@ public PropertyContact()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact_Function"></a> Function
+### Function
 
 Gets or sets the contact characteristic property.
 
@@ -198,7 +198,7 @@ public ContactFunction Function { get; set; }
 
  [ContactFunction](VM.Managed.DAFUL.Contact.ContactFunction.md)
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact_IsActionGeometryDisplayNormalDirection"></a> IsActionGeometryDisplayNormalDirection
+### IsActionGeometryDisplayNormalDirection
 
 Gets or sets a value indicating whether this instance is action geometry display normal direction.
 
@@ -210,7 +210,7 @@ public bool IsActionGeometryDisplayNormalDirection { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact_IsActionGeometryFrontDirection"></a> IsActionGeometryFrontDirection
+### IsActionGeometryFrontDirection
 
 Gets or sets a value indicating whether this instance is action geometry front direction.
 
@@ -222,7 +222,7 @@ public bool IsActionGeometryFrontDirection { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact_IsBaseGeometryDisplayNormalDirection"></a> IsBaseGeometryDisplayNormalDirection
+### IsBaseGeometryDisplayNormalDirection
 
 Gets or sets a value indicating whether this instance is base geometry display normal direction.
 
@@ -234,7 +234,7 @@ public bool IsBaseGeometryDisplayNormalDirection { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact_IsBaseGeometryFrontDirection"></a> IsBaseGeometryFrontDirection
+### IsBaseGeometryFrontDirection
 
 Gets or sets a value indicating whether this instance is base geometry front direction.
 
@@ -248,7 +248,7 @@ public bool IsBaseGeometryFrontDirection { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -261,4 +261,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

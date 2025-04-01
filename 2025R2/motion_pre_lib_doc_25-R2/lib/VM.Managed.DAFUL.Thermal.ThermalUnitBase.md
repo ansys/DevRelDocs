@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_ThermalUnitBase"></a> Class ThermalUnitBase
+# Class ThermalUnitBase
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -37,7 +37,7 @@ FunctionUnitBase.Factor
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalUnitBase__ctor"></a> ThermalUnitBase\(\)
+### ThermalUnitBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalUnitBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -45,7 +45,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalUn
 public ThermalUnitBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalUnitBase__ctor_VM_Models_Pre_ILinkContainer_"></a> ThermalUnitBase\(ILinkContainer\)
+### ThermalUnitBase\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalUnitBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -61,11 +61,12 @@ The owner.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalUnitBase_SetModified"></a> SetModified\(\)
+### SetModified\(\)
 
 Set modified flag.
 
 ```csharp
 protected void SetModified()
 ```
+
 

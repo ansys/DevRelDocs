@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1"></a> Class HousingBase<TProperty\>
+# Class HousingBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -233,7 +233,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1__ctor"></a> HousingBase\(\)
+### HousingBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HousingBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -241,7 +241,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Housing
 public HousingBase()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1__ctor_System_String_"></a> HousingBase\(string\)
+### HousingBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HousingBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -257,7 +257,7 @@ Name of the string.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1_Body"></a> Body
+### Body
 
 Gets or sets the body.
 
@@ -269,7 +269,7 @@ public InstanceContainer Body { get; set; }
 
  InstanceContainer
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1_Layer"></a> Layer
+### Layer
 
 Gets or sets the layer.
 
@@ -281,7 +281,7 @@ public override Layer Layer { get; set; }
 
  Layer
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1_TargetBody"></a> TargetBody
+### TargetBody
 
 Gets the target body.
 
@@ -293,7 +293,7 @@ public override ObjectBase[] TargetBody { get; }
 
  ObjectBase\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1_Transformation"></a> Transformation
+### Transformation
 
 Gets or sets the transformation.
 
@@ -305,7 +305,7 @@ public TransformBase Transformation { get; set; }
 
  TransformBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1_TypeFileName"></a> TypeFileName
+### TypeFileName
 
 Gets the name of the type file.
 
@@ -317,7 +317,7 @@ public override string TypeFileName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1_TypeOfCreate"></a> TypeOfCreate
+### TypeOfCreate
 
 Gets the type of create.
 
@@ -331,7 +331,7 @@ public abstract CreateType TypeOfCreate { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1_FindBody_VM_Managed_ObjectBase_"></a> FindBody\(ObjectBase\)
+### FindBody\(ObjectBase\)
 
 Finds the body.
 
@@ -349,7 +349,7 @@ The object.
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds the local.
 
@@ -367,7 +367,7 @@ Name of the string.
 
  IObjectBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1_GetBuilder"></a> GetBuilder\(\)
+### GetBuilder\(\)
 
 Gets the builders.
 
@@ -381,7 +381,7 @@ public ObjectBase[] GetBuilder()
 
 The builders.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -401,7 +401,7 @@ The ob unnamed.
 
 The unnamed object name.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -419,7 +419,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -437,7 +437,7 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -451,7 +451,7 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HousingBase_1_SetDataToDesignDoc_System_Boolean_"></a> SetDataToDesignDoc\(bool\)
+### SetDataToDesignDoc\(bool\)
 
 Sets the data to design document.
 
@@ -466,4 +466,5 @@ public override Document SetDataToDesignDoc(bool bRecord)
 #### Returns
 
  Document
+
 

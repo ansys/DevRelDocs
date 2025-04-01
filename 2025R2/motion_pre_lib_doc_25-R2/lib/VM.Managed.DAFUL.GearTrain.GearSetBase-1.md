@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1"></a> Class GearSetBase<TProperty\>
+# Class GearSetBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -234,7 +234,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1__ctor"></a> GearSetBase\(\)
+### GearSetBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -242,7 +242,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSet
 public GearSetBase()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1__ctor_System_String_"></a> GearSetBase\(string\)
+### GearSetBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -258,7 +258,7 @@ Name of the string.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_AddToShaft"></a> AddToShaft
+### AddToShaft
 
 Gets the flag whether this instance add to shaft or not.
 
@@ -270,7 +270,7 @@ public virtual bool AddToShaft { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_Extension"></a> Extension
+### Extension
 
 Gets the extension.
 
@@ -282,7 +282,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_GearBodies"></a> GearBodies
+### GearBodies
 
 Gets or sets the gear bodies.
 
@@ -304,7 +304,7 @@ GearBody list is null.
 or
 GearBody is null.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_GearBodiesExceptWeb"></a> GearBodiesExceptWeb
+### GearBodiesExceptWeb
 
 Gets the gear bodies except web.
 
@@ -322,7 +322,7 @@ public Body[] GearBodiesExceptWeb { get; }
 
 GearBody list is null.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_GearWebBodies"></a> GearWebBodies
+### GearWebBodies
 
 Gets the gear web bodies.
 
@@ -334,7 +334,7 @@ public Body[] GearWebBodies { get; }
 
  Body\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_Layer"></a> Layer
+### Layer
 
 Gets or sets the layer.
 
@@ -346,7 +346,7 @@ public override Layer Layer { get; set; }
 
  Layer
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_PairInfos"></a> PairInfos
+### PairInfos
 
 Gets or sets the pair infos.
 
@@ -368,7 +368,7 @@ PairInfo list is null.
 or
 PairInfo is null.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_TargetBody"></a> TargetBody
+### TargetBody
 
 Gets the target body.
 
@@ -380,7 +380,7 @@ public override ObjectBase[] TargetBody { get; }
 
  ObjectBase\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_TypeOfParent"></a> TypeOfParent
+### TypeOfParent
 
 Gets the type of parent.
 
@@ -392,7 +392,7 @@ public override ParentType TypeOfParent { get; }
 
  [ParentType](VM.Managed.DAFUL.GearTrain.ParentType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_UseMeshing"></a> UseMeshing
+### UseMeshing
 
 Gets the flag whether this instance is meshing or not.
 
@@ -406,7 +406,7 @@ public virtual bool UseMeshing { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_AddBuilder_VM_Managed_CAD_Builder_"></a> AddBuilder\(Builder\)
+### AddBuilder\(Builder\)
 
 Adds the builder.
 
@@ -424,7 +424,7 @@ The bui.
 
  Body
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_AddPairInfo_VM_Managed_CAD_Body_VM_Managed_CAD_Body_"></a> AddPairInfo\(Body, Body\)
+### AddPairInfo\(Body, Body\)
 
 Adds the pair information.
 
@@ -442,7 +442,7 @@ The target.
 
 The tool.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_AppendExtraRotateAngle_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder__"></a> AppendExtraRotateAngle\(List<IGearBuilder\>\)
+### AppendExtraRotateAngle\(List<IGearBuilder\>\)
 
 Append extra rotate angle
 
@@ -456,7 +456,7 @@ protected virtual void AppendExtraRotateAngle(List<IGearBuilder> lstOrder)
 
 gear builder list
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_CalculateWebMass_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_System_Int32_"></a> CalculateWebMass\(PropertyGearSetBase, int\)
+### CalculateWebMass\(PropertyGearSetBase, int\)
 
 ```csharp
 protected void CalculateWebMass(PropertyGearSetBase propGearSet, int nIdx)
@@ -468,7 +468,7 @@ protected void CalculateWebMass(PropertyGearSetBase propGearSet, int nIdx)
 
 `nIdx` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_CheckPowerFlow_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder__"></a> CheckPowerFlow\(List<IGearBuilder\>\)
+### CheckPowerFlow\(List<IGearBuilder\>\)
 
 Check power flow
 
@@ -482,7 +482,7 @@ protected void CheckPowerFlow(List<IGearBuilder> lstGB)
 
 The gear builder list.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_CreateGearGeometry_System_String_System_Int32_VM_Managed_DAFUL_GearTrain_GearShapeBase___"></a> CreateGearGeometry\(string, int, GearShapeBase\[\]\)
+### CreateGearGeometry\(string, int, GearShapeBase\[\]\)
 
 Create Gear Geometry.
 
@@ -504,7 +504,7 @@ The No. of gear
 
 The gear shape geometry
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_ExternalMeshing_System_Int32_System_Double_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder___"></a> ExternalMeshing\(int, double, ref List<IGearBuilder\>\)
+### ExternalMeshing\(int, double, ref List<IGearBuilder\>\)
 
 Meshing for external gear
 
@@ -526,7 +526,7 @@ The initial angle
 
 The builder list
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_FillGearData_VM_Managed_Document_System_Boolean_System_Boolean_System_String_System_String___"></a> FillGearData\(Document, bool, bool, string, string\[\]\)
+### FillGearData\(Document, bool, bool, string, string\[\]\)
 
 Fill gear data
 
@@ -560,7 +560,7 @@ The input array for create
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_FillGearData_VM_Managed_Document_System_Int32_System_String_System_String___System_String___System_String___System_String___System_Boolean_System_Boolean_System_String_System_String___"></a> FillGearData\(Document, int, string, string\[\], string\[\], string\[\], string\[\], bool, bool, string, string\[\]\)
+### FillGearData\(Document, int, string, string\[\], string\[\], string\[\], string\[\], bool, bool, string, string\[\]\)
 
 Fill gear data
 
@@ -618,7 +618,7 @@ The input array for create
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_Find_System_String_"></a> Find\(string\)
+### Find\(string\)
 
 Finds the specified string name.
 
@@ -636,7 +636,7 @@ Name of the string.
 
  IObjectBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_GeometryInfoBasesImpl"></a> GeometryInfoBasesImpl\(\)
+### GeometryInfoBasesImpl\(\)
 
 Get geometry infos
 
@@ -650,7 +650,7 @@ protected virtual GeometryInfoBase[] GeometryInfoBasesImpl()
 
 The geometry infos.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_GetBodyFromGeometryInfo_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_"></a> GetBodyFromGeometryInfo\(GeometryInfoBase\)
+### GetBodyFromGeometryInfo\(GeometryInfoBase\)
 
 Get body from geometry information.
 
@@ -668,7 +668,7 @@ The geometry information.
 
  Body
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_GetBuilder"></a> GetBuilder\(\)
+### GetBuilder\(\)
 
 Gets the builders.
 
@@ -682,7 +682,7 @@ public ObjectBase[] GetBuilder()
 
 The builders.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_GetPositionsForMeshing_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder__System_Int32_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPositionsForMeshing\(List<IGearBuilder\>, int, ref VectorBase, ref VectorBase\)
+### GetPositionsForMeshing\(List<IGearBuilder\>, int, ref VectorBase, ref VectorBase\)
 
 Get positions for meshing.
 
@@ -708,7 +708,7 @@ The first gear position
 
 The second gear position
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -728,7 +728,7 @@ The ob unnamed.
 
 The unnamed object name.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_InternalMeshing_System_Int32_System_Double_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder___"></a> InternalMeshing\(int, double, ref List<IGearBuilder\>\)
+### InternalMeshing\(int, double, ref List<IGearBuilder\>\)
 
 Meshing for internal gear
 
@@ -750,7 +750,7 @@ The initial angle
 
 The builder list
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -764,7 +764,7 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_Meshing_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder__"></a> Meshing\(List<IGearBuilder\>\)
+### Meshing\(List<IGearBuilder\>\)
 
 Meshing the gears.
 
@@ -782,7 +782,7 @@ The gear builder list.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_MeshingCore_System_Int32_System_Double_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder___"></a> MeshingCore\(int, double, ref List<IGearBuilder\>\)
+### MeshingCore\(int, double, ref List<IGearBuilder\>\)
 
 Meshing
 
@@ -804,7 +804,7 @@ The initial angle
 
 The builder list
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -818,7 +818,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_OnDeserializationForAttribute"></a> OnDeserializationForAttribute\(\)
+### OnDeserializationForAttribute\(\)
 
 Called when [deserialization for attribute].
 
@@ -826,7 +826,7 @@ Called when [deserialization for attribute].
 public override void OnDeserializationForAttribute()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_OnPostBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Post build in Special
 
@@ -848,7 +848,7 @@ The document
 
 The input array
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_OnPreBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Pre build in Special
 
@@ -870,7 +870,7 @@ The document
 
 The input array
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_RemoveBuilder_VM_Managed_CAD_Builder_"></a> RemoveBuilder\(Builder\)
+### RemoveBuilder\(Builder\)
 
 Removes the builder.
 
@@ -884,7 +884,7 @@ public void RemoveBuilder(Builder bui)
 
 The bui.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetBase_1_SetDataToDesignDoc_System_Boolean_"></a> SetDataToDesignDoc\(bool\)
+### SetDataToDesignDoc\(bool\)
 
 Sets the data to design document.
 
@@ -899,4 +899,5 @@ public override Document SetDataToDesignDoc(bool bRecord)
 #### Returns
 
  Document
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_IAddedBuilder"></a> Interface IAddedBuilder
+# Interface IAddedBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IAddedBuilder
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_IAddedBuilder_Geometry"></a> Geometry
+### Geometry
 
 Gets the geometry.
 
@@ -31,7 +31,7 @@ GeometryBase Geometry { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_IAddedBuilder_SetGeometry_VM_Managed_DAFUL_GearTrain_CAD_GeometryBase_"></a> SetGeometry\(GeometryBase\)
+### SetGeometry\(GeometryBase\)
 
 Sets the geometry.
 
@@ -44,4 +44,5 @@ void SetGeometry(GeometryBase geometry)
 `geometry` [GeometryBase](VM.Managed.DAFUL.GearTrain.CAD.GeometryBase.md)
 
 The geometry.
+
 

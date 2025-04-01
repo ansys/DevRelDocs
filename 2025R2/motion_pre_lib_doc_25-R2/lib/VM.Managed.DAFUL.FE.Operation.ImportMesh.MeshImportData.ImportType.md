@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_ImportType"></a> Enum ImportMesh.MeshImportData.ImportType
+# Enum ImportMesh.MeshImportData.ImportType
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -16,4 +16,5 @@ public enum ImportMesh.MeshImportData.ImportType
 `NodalAndModal = 1` 
 
 `OnlyNodal = 0` 
+
 

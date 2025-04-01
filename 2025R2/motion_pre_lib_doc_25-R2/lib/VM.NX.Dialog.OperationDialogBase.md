@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_OperationDialogBase"></a> Class OperationDialogBase
+# Class OperationDialogBase
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDM.dll  
@@ -31,7 +31,7 @@ IStdDialog
 
 ## Constructors
 
-### <a id="VM_NX_Dialog_OperationDialogBase__ctor"></a> OperationDialogBase\(\)
+### OperationDialogBase\(\)
 
 ```csharp
 public OperationDialogBase()
@@ -39,7 +39,7 @@ public OperationDialogBase()
 
 ## Fields
 
-### <a id="VM_NX_Dialog_OperationDialogBase_OnApply"></a> OnApply
+### OnApply
 
 ```csharp
 public EventHandler<CancelEventArgs> OnApply
@@ -51,7 +51,7 @@ public EventHandler<CancelEventArgs> OnApply
 
 ## Methods
 
-### <a id="VM_NX_Dialog_OperationDialogBase_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 ```csharp
 protected override void Dispose(bool disposing)
@@ -61,7 +61,7 @@ protected override void Dispose(bool disposing)
 
 `disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_OperationDialogBase_Initialize_System_String_"></a> Initialize\(string\)
+### Initialize\(string\)
 
 ```csharp
 protected virtual bool Initialize(string strInitInfo)
@@ -74,4 +74,5 @@ protected virtual bool Initialize(string strInitInfo)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

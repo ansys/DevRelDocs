@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IPythonCode"></a> Interface IPythonCode
+# Interface IPythonCode
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -32,7 +32,7 @@ IHasComment
 
 ## Properties
 
-### <a id="VM_Models_Pre_IPythonCode_CodePath"></a> CodePath
+### CodePath
 
 Path to the code file.
 
@@ -44,7 +44,7 @@ string CodePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_IPythonCode_CodeType"></a> CodeType
+### CodeType
 
 The type of the python code.
 
@@ -56,7 +56,7 @@ CodeTypes CodeType { get; set; }
 
  [CodeTypes](VM.Models.Pre.CodeTypes.md)
 
-### <a id="VM_Models_Pre_IPythonCode_DeployLocation"></a> DeployLocation
+### DeployLocation
 
 The location to deploy this code during analysis.
 
@@ -68,7 +68,7 @@ string DeployLocation { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_IPythonCode_ImportCommand"></a> ImportCommand
+### ImportCommand
 
 The import command for using this code in the <xref href="VM.IExpression" data-throw-if-not-resolved="false"></xref>.
 It must contain '$module$' keyword.
@@ -81,7 +81,7 @@ string ImportCommand { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_IPythonCode_ImportModuleName"></a> ImportModuleName
+### ImportModuleName
 
 The module name for importing this code object
 
@@ -93,7 +93,7 @@ string ImportModuleName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_IPythonCode_UseDeployLocation"></a> UseDeployLocation
+### UseDeployLocation
 
 The flag whether using the <xref href="VM.Models.Pre.IPythonCode.DeployLocation" data-throw-if-not-resolved="false"></xref> value.
 
@@ -105,7 +105,7 @@ bool UseDeployLocation { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_IPythonCode_UseImportCommand"></a> UseImportCommand
+### UseImportCommand
 
 The flag whether using the <xref href="VM.Models.Pre.IPythonCode.ImportCommand" data-throw-if-not-resolved="false"></xref> value.
 
@@ -119,7 +119,7 @@ bool UseImportCommand { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_IPythonCode_GetImportCommand"></a> GetImportCommand\(\)
+### GetImportCommand\(\)
 
 Get actual import command
 
@@ -132,4 +132,5 @@ string GetImportCommand()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The import command.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderMultiIntersect"></a> Class BuilderMultiIntersect
+# Class BuilderMultiIntersect
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -216,7 +216,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderMultiIntersect__ctor"></a> BuilderMultiIntersect\(\)
+### BuilderMultiIntersect\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderMultiIntersect" data-throw-if-not-resolved="false"></xref> class
 
@@ -226,7 +226,7 @@ public BuilderMultiIntersect()
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderMultiIntersect_CreateParameter"></a> CreateParameter\(\)
+### CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -236,7 +236,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_CAD_BuilderMultiIntersect_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -245,4 +245,5 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
+
 

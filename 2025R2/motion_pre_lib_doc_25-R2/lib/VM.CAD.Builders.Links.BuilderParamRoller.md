@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_Links_BuilderParamRoller"></a> Class BuilderParamRoller
+# Class BuilderParamRoller
 
 Namespace: [VM.CAD.Builders.Links](VM.CAD.Builders.Links.md)  
 Assembly: VM.CAD.Builders.Links.dll  
@@ -34,7 +34,7 @@ BuilderParamBase.Transparency
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_Links_BuilderParamRoller__ctor"></a> BuilderParamRoller\(\)
+### BuilderParamRoller\(\)
 
 ```csharp
 public BuilderParamRoller()
@@ -42,7 +42,7 @@ public BuilderParamRoller()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_Links_BuilderParamRoller_Axis"></a> Axis
+### Axis
 
 ```csharp
 public Vector Axis { get; set; }
@@ -52,7 +52,7 @@ public Vector Axis { get; set; }
 
  Vector
 
-### <a id="VM_CAD_Builders_Links_BuilderParamRoller_CenterPosition"></a> CenterPosition
+### CenterPosition
 
 ```csharp
 public Vector CenterPosition { get; set; }
@@ -62,7 +62,7 @@ public Vector CenterPosition { get; set; }
 
  Vector
 
-### <a id="VM_CAD_Builders_Links_BuilderParamRoller_Cylinders"></a> Cylinders
+### Cylinders
 
 ```csharp
 public List<BuilderParamCylinder> Cylinders { get; set; }
@@ -72,7 +72,7 @@ public List<BuilderParamCylinder> Cylinders { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<BuilderParamCylinder\>
 
-### <a id="VM_CAD_Builders_Links_BuilderParamRoller_Profile"></a> Profile
+### Profile
 
 ```csharp
 public List<Vector> Profile { get; set; }
@@ -81,4 +81,5 @@ public List<Vector> Profile { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+
 

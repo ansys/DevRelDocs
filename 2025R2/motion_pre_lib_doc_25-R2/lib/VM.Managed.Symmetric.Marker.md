@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Marker"></a> Class Marker
+# Class Marker
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -36,7 +36,7 @@ ISymmetricUpdater
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_Marker__ctor"></a> Marker\(\)
+### Marker\(\)
 
 ```csharp
 public Marker()
@@ -44,7 +44,7 @@ public Marker()
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_Marker_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -78,7 +78,7 @@ Plane of symmetric.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Symmetric_Marker_UpdateMarker_VM_Managed_DAFUL_Marker__VM_Managed_DAFUL_Marker__VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateMarker\(ref Marker, ref Marker, SymmetricType, Plane, Document\)
+### UpdateMarker\(ref Marker, ref Marker, SymmetricType, Plane, Document\)
 
 ```csharp
 public bool UpdateMarker(ref Marker m_tool, ref Marker m_target, SymmetricType sym_type, Plane sym_plane, Document doc)
@@ -100,7 +100,7 @@ public bool UpdateMarker(ref Marker m_tool, ref Marker m_target, SymmetricType s
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Symmetric_Marker_UpdateToNonSymName_VM_Managed_ObjectBase__VM_Managed_ObjectBase__"></a> UpdateToNonSymName\(ref ObjectBase, ref ObjectBase\)
+### UpdateToNonSymName\(ref ObjectBase, ref ObjectBase\)
 
 ```csharp
 public bool UpdateToNonSymName(ref ObjectBase tool, ref ObjectBase target)
@@ -116,7 +116,7 @@ public bool UpdateToNonSymName(ref ObjectBase tool, ref ObjectBase target)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Symmetric_Marker_UpdateToSymName_VM_Managed_ObjectBase__VM_Managed_ObjectBase__VM_Managed_SymmetricType_"></a> UpdateToSymName\(ref ObjectBase, ref ObjectBase, SymmetricType\)
+### UpdateToSymName\(ref ObjectBase, ref ObjectBase, SymmetricType\)
 
 ```csharp
 public bool UpdateToSymName(ref ObjectBase tool, ref ObjectBase target, SymmetricType baseSymType)
@@ -133,4 +133,5 @@ public bool UpdateToSymName(ref ObjectBase tool, ref ObjectBase target, Symmetri
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

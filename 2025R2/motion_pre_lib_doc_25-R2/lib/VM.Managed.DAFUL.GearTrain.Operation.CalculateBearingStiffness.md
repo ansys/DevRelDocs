@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateBearingStiffness"></a> Class CalculateBearingStiffness
+# Class CalculateBearingStiffness
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateBearingStiffness__ctor_VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_System_String_"></a> CalculateBearingStiffness\(HiddenBearingDocument, string\)
+### CalculateBearingStiffness\(HiddenBearingDocument, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateBearingStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -95,7 +95,7 @@ The document.
 
 The string document information.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateBearingStiffness__ctor_VM_Managed_Operation_JournalParameter_"></a> CalculateBearingStiffness\(JournalParameter\)
+### CalculateBearingStiffness\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateBearingStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -111,7 +111,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateBearingStiffness_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -125,7 +125,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateBearingStiffness_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -133,7 +133,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateBearingStiffness_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -147,7 +147,7 @@ public override void GetInformation(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateBearingStiffness_Result"></a> Result\(\)
+### Result\(\)
 
 Results this instance.
 
@@ -158,4 +158,5 @@ public string[] Result()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+
 

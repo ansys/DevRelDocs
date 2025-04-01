@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_SuspensionAssemblyConfigModify"></a> Class SuspensionAssemblyConfigModify
+# Class SuspensionAssemblyConfigModify
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -100,7 +100,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_SuspensionAssemblyConfigModify__ctor_VM_Managed_Document_"></a> SuspensionAssemblyConfigModify\(Document\)
+### SuspensionAssemblyConfigModify\(Document\)
 
 ```csharp
 public SuspensionAssemblyConfigModify(Document doc)
@@ -110,7 +110,7 @@ public SuspensionAssemblyConfigModify(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Car_Operation_SuspensionAssemblyConfigModify__ctor_VM_Managed_Operation_JournalParameter_"></a> SuspensionAssemblyConfigModify\(JournalParameter\)
+### SuspensionAssemblyConfigModify\(JournalParameter\)
 
 ```csharp
 public SuspensionAssemblyConfigModify(JournalParameter jp)
@@ -122,7 +122,7 @@ public SuspensionAssemblyConfigModify(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_SuspensionAssemblyConfigModify_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -136,7 +136,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_SuspensionAssemblyConfigModify_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -144,9 +144,10 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_SuspensionAssemblyConfigModify_ShowDialog"></a> ShowDialog\(\)
+### ShowDialog\(\)
 
 ```csharp
 protected override void ShowDialog()
 ```
+
 

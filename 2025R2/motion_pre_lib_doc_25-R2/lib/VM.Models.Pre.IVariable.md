@@ -1,10 +1,10 @@
-# <a id="VM_Models_Pre_IVariable"></a> Interface IVariable
+# Interface IVariable
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
 
-This interface is to represent the data of Design Variable.
-            Design Variable is casting as IVariable.
+<p>This interface is to represent the data of Design Variable.
+        Design Variable is casting as IVariable.</p>
 
 ```csharp
 public interface IVariable : IObject, ILinkContainer, IOwned, IHasID, IEventProvider
@@ -26,9 +26,9 @@ IHasID,
 
 ## Properties
 
-### <a id="VM_Models_Pre_IVariable_IsSimpleValue"></a> IsSimpleValue
+### IsSimpleValue
 
-Gets the isSimpleValue.
+<p>Gets the isSimpleValue.</p>
 
 ```csharp
 bool IsSimpleValue { get; }
@@ -38,9 +38,9 @@ bool IsSimpleValue { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_IVariable_Value"></a> Value
+### Value
 
-Gets the variable.
+<p>Gets the variable.</p>
 
 ```csharp
 double Value { get; }
@@ -49,4 +49,5 @@ double Value { get; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_CouplerBase_1_JointType"></a> Enum CouplerBase<TProperty\>.JointType
+# Enum CouplerBase<TProperty\>.JointType
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -32,6 +32,7 @@ Use Revolute joint.
 `Translational = 2` 
 
 Use translational joint.
+
 
 
 

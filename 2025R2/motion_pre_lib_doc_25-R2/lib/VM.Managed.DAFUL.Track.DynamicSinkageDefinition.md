@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_DynamicSinkageDefinition"></a> Class DynamicSinkageDefinition
+# Class DynamicSinkageDefinition
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_DynamicSinkageDefinition__ctor"></a> DynamicSinkageDefinition\(\)
+### DynamicSinkageDefinition\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.DynamicSinkageDefinition" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public DynamicSinkageDefinition()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_DynamicSinkageDefinition_CoefficientOfDynamicsSinkage"></a> CoefficientOfDynamicsSinkage
+### CoefficientOfDynamicsSinkage
 
 Gets or sets the Coefficient of Dynamics Sinkage.
 
@@ -124,7 +124,7 @@ public ExpressionValueVariable CoefficientOfDynamicsSinkage { get; set; }
 
 Coefficient of Dynamics Sinkage is null.
 
-### <a id="VM_Managed_DAFUL_Track_DynamicSinkageDefinition_CriticalPressure"></a> CriticalPressure
+### CriticalPressure
 
 Gets or sets the Critical Pressure.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable CriticalPressure { get; set; }
 
 Critical Pressure is null.
 
-### <a id="VM_Managed_DAFUL_Track_DynamicSinkageDefinition_ExponentOfPressureRatio"></a> ExponentOfPressureRatio
+### ExponentOfPressureRatio
 
 Gets or sets the Exponent of Pressure Ratio.
 
@@ -160,7 +160,7 @@ public ExpressionValueVariable ExponentOfPressureRatio { get; set; }
 
 Exponent of Pressure Ratio is null.
 
-### <a id="VM_Managed_DAFUL_Track_DynamicSinkageDefinition_ExponentOfShearDisplacement"></a> ExponentOfShearDisplacement
+### ExponentOfShearDisplacement
 
 Gets or sets the Exponent of Shear Displacement.
 
@@ -180,7 +180,7 @@ Exponent of Shear Displacement is null.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_DynamicSinkageDefinition_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -193,4 +193,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

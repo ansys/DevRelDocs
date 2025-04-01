@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Named_1"></a> Class Named<T\>
+# Class Named<T\>
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -28,7 +28,7 @@ ISymmetricUpdater
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_Named_1__ctor"></a> Named\(\)
+### Named\(\)
 
 ```csharp
 public Named()
@@ -36,7 +36,7 @@ public Named()
 
 ## Properties
 
-### <a id="VM_Managed_Symmetric_Named_1_SymmetricManager"></a> SymmetricManager
+### SymmetricManager
 
 ```csharp
 protected ISymmetricManager SymmetricManager { get; }
@@ -48,7 +48,7 @@ protected ISymmetricManager SymmetricManager { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_Named_1_FindObject_System_String_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> FindObject\(string, SymmetricType, Plane, Document\)
+### FindObject\(string, SymmetricType, Plane, Document\)
 
 ```csharp
 protected static object FindObject(string strToolName, SymmetricType sym_type, Plane sym_plane, Document doc)
@@ -68,7 +68,7 @@ protected static object FindObject(string strToolName, SymmetricType sym_type, P
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_Symmetric_Named_1_Initialize_VM_Managed_Symmetric_ISymmetricManager_"></a> Initialize\(ISymmetricManager\)
+### Initialize\(ISymmetricManager\)
 
 Initialize the symmetric objects.
 
@@ -86,7 +86,7 @@ public virtual bool Initialize(ISymmetricManager Manager)
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Symmetric_Named_1_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -119,4 +119,5 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

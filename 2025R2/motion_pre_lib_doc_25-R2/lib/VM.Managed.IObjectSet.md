@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IObjectSet"></a> Interface IObjectSet
+# Interface IObjectSet
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IObjectSet
 
 ## Methods
 
-### <a id="VM_Managed_IObjectSet_GetCount"></a> GetCount\(\)
+### GetCount\(\)
 
 Gets object set count.
 
@@ -31,7 +31,7 @@ int GetCount()
 
 The number of object in object set.
 
-### <a id="VM_Managed_IObjectSet_GetElementKey_System_Int32_"></a> GetElementKey\(int\)
+### GetElementKey\(int\)
 
 Gets the n-th object's element key.
 
@@ -51,7 +51,7 @@ The index of object set.
 
 The n-th object's element key.
 
-### <a id="VM_Managed_IObjectSet_GetElementType"></a> GetElementType\(\)
+### GetElementType\(\)
 
 Gets the elememt type.
 
@@ -64,4 +64,5 @@ Type GetElementType()
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
 The element type.
+
 

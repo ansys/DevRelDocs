@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_PlasticBilinear"></a> Class PlasticBilinear
+# Class PlasticBilinear
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -188,7 +188,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Material_PlasticBilinear__ctor"></a> PlasticBilinear\(\)
+### PlasticBilinear\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.PlasticBilinear" data-throw-if-not-resolved="false"></xref> class.
 
@@ -196,7 +196,7 @@ Initializes a new instance of the <xref href="VM.Managed.Material.PlasticBilinea
 public PlasticBilinear()
 ```
 
-### <a id="VM_Managed_Material_PlasticBilinear__ctor_System_String_"></a> PlasticBilinear\(string\)
+### PlasticBilinear\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.PlasticBilinear" data-throw-if-not-resolved="false"></xref> class.
 
@@ -212,7 +212,7 @@ Name of the plastic bi-linear material.
 
 ## Properties
 
-### <a id="VM_Managed_Material_PlasticBilinear_PlasticHardeningModulus"></a> PlasticHardeningModulus
+### PlasticHardeningModulus
 
 Gets or sets the plastic hardening modulus.
 
@@ -226,7 +226,7 @@ public ExpressionValueVariable PlasticHardeningModulus { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Material_PlasticBilinear_CheckLinearMaterial"></a> CheckLinearMaterial\(\)
+### CheckLinearMaterial\(\)
 
 check linear material.
 
@@ -234,7 +234,7 @@ check linear material.
 public override void CheckLinearMaterial()
 ```
 
-### <a id="VM_Managed_Material_PlasticBilinear_CheckLinearMaterial_VM_Managed_Material_ISO_System_String_System_Double_"></a> CheckLinearMaterial\(ISO, string, double\)
+### CheckLinearMaterial\(ISO, string, double\)
 
 check linear material.
 
@@ -256,7 +256,7 @@ The plastic material name.
 
 The Et value.
 
-### <a id="VM_Managed_Material_PlasticBilinear_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -270,7 +270,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_Material_PlasticBilinear_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -284,7 +284,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_Material_PlasticBilinear_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -297,4 +297,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

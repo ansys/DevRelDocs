@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Object_1"></a> Class Object<TEventCore\>
+# Class Object<TEventCore\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -142,7 +142,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Object_1__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> Object\(SerializationInfo, StreamingContext\)
+### Object\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.Object%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -158,7 +158,7 @@ The info.
 
 `__unnamed001` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-### <a id="VM_Managed_Object_1__ctor"></a> Object\(\)
+### Object\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Object%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -166,7 +166,7 @@ Initializes a new instance of the <xref href="VM.Managed.Object%601" data-throw-
 public Object()
 ```
 
-### <a id="VM_Managed_Object_1__ctor_System_String_System_String_"></a> Object\(string, string\)
+### Object\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Object%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -184,7 +184,7 @@ Name of the proxy.
 
 The build information.
 
-### <a id="VM_Managed_Object_1__ctor_System_String_System_String_System_Boolean_"></a> Object\(string, string, bool\)
+### Object\(string, string, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.Object%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -208,7 +208,7 @@ whether or not building.
 
 ## Properties
 
-### <a id="VM_Managed_Object_1_Attributes"></a> Attributes
+### Attributes
 
 Gets or sets the Attribute to collection.
 
@@ -220,7 +220,7 @@ public AttributeCollection Attributes { get; set; }
 
  [AttributeCollection](VM.Managed.AttributeCollection.md)
 
-### <a id="VM_Managed_Object_1_EventCore"></a> EventCore
+### EventCore
 
 Gets the eventcore.
 
@@ -232,7 +232,7 @@ public TEventCore EventCore { get; }
 
  TEventCore
 
-### <a id="VM_Managed_Object_1_Key"></a> Key
+### Key
 
 Sets the convert key.
 
@@ -244,7 +244,7 @@ public override sealed ObjectBase.ConvertKey Key { set; }
 
  [ObjectBase](VM.Managed.ObjectBase.md).[ConvertKey](VM.Managed.ObjectBase.ConvertKey.md)
 
-### <a id="VM_Managed_Object_1_UntypedEventCore"></a> UntypedEventCore
+### UntypedEventCore
 
 Gets the untyped eventcore.
 
@@ -258,7 +258,7 @@ public override sealed ObjectEventCore UntypedEventCore { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Object_1_CustomGetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> CustomGetObjectData\(SerializationInfo, StreamingContext\)
+### CustomGetObjectData\(SerializationInfo, StreamingContext\)
 
 Customize the GetObjectData function.
 
@@ -274,7 +274,7 @@ The info.
 
 `__unnamed001` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-### <a id="VM_Managed_Object_1_GetKey"></a> GetKey\(\)
+### GetKey\(\)
 
 Gets the key.
 
@@ -286,7 +286,7 @@ public UIntPtr GetKey()
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### <a id="VM_Managed_Object_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -300,7 +300,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_Object_1_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -314,7 +314,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_Object_1_OnDeserializedCore_System_Object_"></a> OnDeserializedCore\(object\)
+### OnDeserializedCore\(object\)
 
 ```csharp
 public void OnDeserializedCore(object eventCore)
@@ -324,13 +324,13 @@ public void OnDeserializedCore(object eventCore)
 
 `eventCore` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_Object_1_RollbackEvent"></a> RollbackEvent\(\)
+### RollbackEvent\(\)
 
 ```csharp
 protected override void RollbackEvent()
 ```
 
-### <a id="VM_Managed_Object_1_SetIconColor_VM_CAD_Kernel_Render_Canvas_"></a> SetIconColor\(Canvas\)
+### SetIconColor\(Canvas\)
 
 Set color for icon.
 
@@ -343,4 +343,5 @@ public override void SetIconColor(Canvas canvas)
 `canvas` Canvas
 
 The canvas.
+
 

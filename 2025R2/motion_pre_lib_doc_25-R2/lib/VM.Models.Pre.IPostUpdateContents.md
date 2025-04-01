@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IPostUpdateContents"></a> Interface IPostUpdateContents
+# Interface IPostUpdateContents
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,11 +17,12 @@ public interface IPostUpdateContents
 
 ## Methods
 
-### <a id="VM_Models_Pre_IPostUpdateContents_PostUpdateContents"></a> PostUpdateContents\(\)
+### PostUpdateContents\(\)
 
 Doing postprocess
 
 ```csharp
 void PostUpdateContents()
 ```
+
 

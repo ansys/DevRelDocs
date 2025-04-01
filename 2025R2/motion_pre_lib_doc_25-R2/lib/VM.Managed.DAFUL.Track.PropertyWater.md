@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_PropertyWater"></a> Class PropertyWater
+# Class PropertyWater
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_PropertyWater__ctor"></a> PropertyWater\(\)
+### PropertyWater\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.PropertyWater" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertyWater()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_PropertyWater_CurrentProperty"></a> CurrentProperty
+### CurrentProperty
 
 Gets or sets the current.
 
@@ -193,7 +193,7 @@ public Current CurrentProperty { get; set; }
 
 Current is null.
 
-### <a id="VM_Managed_DAFUL_Track_PropertyWater_WaterDensity"></a> WaterDensity
+### WaterDensity
 
 Gets or sets the Water Density.
 
@@ -211,7 +211,7 @@ public ExpressionValueVariable WaterDensity { get; set; }
 
 Water Density is null.
 
-### <a id="VM_Managed_DAFUL_Track_PropertyWater_WaveProperty"></a> WaveProperty
+### WaveProperty
 
 Gets or sets the wave.
 
@@ -231,7 +231,7 @@ Wave is null.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_PropertyWater_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -244,4 +244,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

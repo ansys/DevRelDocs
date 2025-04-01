@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_BodyAPI"></a> Class BodyAPI
+# Class BodyAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class BodyAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_BodyAPI_CreateMeshFileInPart_VM_API_Pre_Obj_System_String_System_Boolean_System_Nullable_VM_API_Pre_FacetParameters__"></a> CreateMeshFileInPart\(Obj, string, bool, FacetParameters?\)
+### CreateMeshFileInPart\(Obj, string, bool, FacetParameters?\)
 
 Generate mesh file with given <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> entity.
 
@@ -61,7 +61,7 @@ Will be thrown if body or pathMeshFile arguments are empty.
 
 Will be thrown if the type of 'body' is not <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_BodyAPI_CreatePartMarker_VM_Managed_DAFUL_PartDocument_VM_API_Pre_Obj_VM_TMatrix_System_String_"></a> CreatePartMarker\(PartDocument, Obj, TMatrix, string\)
+### CreatePartMarker\(PartDocument, Obj, TMatrix, string\)
 
 Create <xref href="VM.Managed.DAFUL.Builder.PartMarker" data-throw-if-not-resolved="false"></xref>
 
@@ -104,7 +104,7 @@ Will be thrown if 'body' is null.
 
 Will be thrown if the type of 'body' is not <xref href="VM.Managed.IPartMarkerParent" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_BodyAPI_CreateSolidBlock_VM_Managed_DAFUL_PartDocument_VM_Vector_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Nullable_System_Drawing_Color__"></a> CreateSolidBlock\(PartDocument, Vector, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, Color?\)
+### CreateSolidBlock\(PartDocument, Vector, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, Color?\)
 
 Create <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.DAFUL.Builder.SolidBlockSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -156,7 +156,7 @@ Will be thrown if 'document' is null.
 
 Will be thrown if 'width', 'height', 'depth' values are equal to or less than 0.
 
-### <a id="VM_API_Pre_BodyAPI_CreateSolidBlock_VM_Managed_DAFUL_PartDocument_VM_Vector_"></a> CreateSolidBlock\(PartDocument, Vector\)
+### CreateSolidBlock\(PartDocument, Vector\)
 
 Create <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.DAFUL.Builder.SolidBlockSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -180,7 +180,7 @@ The position to create the block solid body.
 
 The new <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> object created by this API.
 
-### <a id="VM_API_Pre_BodyAPI_CreateSolidCylinder_VM_Managed_DAFUL_PartDocument_VM_Vector_VM_Vector_VM_Models_Pre_ExpressionValueVariable_System_Nullable_System_Drawing_Color__"></a> CreateSolidCylinder\(PartDocument, Vector, Vector, ExpressionValueVariable, Color?\)
+### CreateSolidCylinder\(PartDocument, Vector, Vector, ExpressionValueVariable, Color?\)
 
 Create <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.DAFUL.Builder.SolidCylinderSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -232,7 +232,7 @@ Will be thrown if 'radius' value is equal to or less than 0.
 
 Will be thrown if 'bottomPosition' is not equal to 'topPosition'.
 
-### <a id="VM_API_Pre_BodyAPI_CreateSolidCylinder_VM_Managed_DAFUL_PartDocument_VM_Vector_VM_Vector_"></a> CreateSolidCylinder\(PartDocument, Vector, Vector\)
+### CreateSolidCylinder\(PartDocument, Vector, Vector\)
 
 Create <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.DAFUL.Builder.SolidCylinderSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -260,7 +260,7 @@ The top position to create the cylinder solid body.
 
 The new <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> object created by this API.
 
-### <a id="VM_API_Pre_BodyAPI_CreateSolidSphere_VM_Managed_DAFUL_PartDocument_VM_Vector_VM_Models_Pre_ExpressionValueVariable_System_Nullable_System_Drawing_Color__"></a> CreateSolidSphere\(PartDocument, Vector, ExpressionValueVariable, Color?\)
+### CreateSolidSphere\(PartDocument, Vector, ExpressionValueVariable, Color?\)
 
 Create <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.BuilderSphereSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -304,7 +304,7 @@ Will be thrown if 'document' is null.
 
 Will be thrown if 'radius' value is equal to or less than 0.
 
-### <a id="VM_API_Pre_BodyAPI_CreateSolidSphere_VM_Managed_DAFUL_PartDocument_VM_Vector_"></a> CreateSolidSphere\(PartDocument, Vector\)
+### CreateSolidSphere\(PartDocument, Vector\)
 
 Create <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.BuilderSphereSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -328,7 +328,7 @@ The center position to create the sphere solid body.
 
 The new <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> object created by this API.
 
-### <a id="VM_API_Pre_BodyAPI_CreateSolidTriPlate_VM_Managed_DAFUL_PartDocument_VM_Vector_VM_Vector_VM_Vector_VM_Models_Pre_ExpressionValueVariable_System_Nullable_System_Drawing_Color__"></a> CreateSolidTriPlate\(PartDocument, Vector, Vector, Vector, ExpressionValueVariable, Color?\)
+### CreateSolidTriPlate\(PartDocument, Vector, Vector, Vector, ExpressionValueVariable, Color?\)
 
 Create <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.BuilderTriPlateSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -384,7 +384,7 @@ Will be thrown if 'height' value is equal to or less than 0.
 
 Will be thrown if the condition of triangle's crossproduct is not met.
 
-### <a id="VM_API_Pre_BodyAPI_CreateSolidTriPlate_VM_Managed_DAFUL_PartDocument_VM_Vector_VM_Vector_VM_Vector_"></a> CreateSolidTriPlate\(PartDocument, Vector, Vector, Vector\)
+### CreateSolidTriPlate\(PartDocument, Vector, Vector, Vector\)
 
 Create <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.BuilderTriPlateSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -415,4 +415,5 @@ The third position to create the triplate solid body.
  [Obj](VM.API.Pre.Obj.md)
 
 The new <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> object created by this API.
+
 

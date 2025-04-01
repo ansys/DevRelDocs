@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_PropertyInplane"></a> Class PropertyInplane
+# Class PropertyInplane
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyInplane__ctor"></a> PropertyInplane\(\)
+### PropertyInplane\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.PropertyInplane" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public PropertyInplane()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyInplane_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -191,7 +191,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyInplane_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -202,4 +202,5 @@ public override string ReferenceType { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

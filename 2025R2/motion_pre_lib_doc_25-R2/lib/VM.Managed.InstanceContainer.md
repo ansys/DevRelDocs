@@ -1,4 +1,4 @@
-# <a id="VM_Managed_InstanceContainer"></a> Class InstanceContainer
+# Class InstanceContainer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -181,7 +181,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_InstanceContainer__ctor"></a> InstanceContainer\(\)
+### InstanceContainer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.InstanceContainer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -189,7 +189,7 @@ Initializes a new instance of the <xref href="VM.Managed.InstanceContainer" data
 public InstanceContainer()
 ```
 
-### <a id="VM_Managed_InstanceContainer__ctor_System_String_VM_Managed_Instance_"></a> InstanceContainer\(string, Instance\)
+### InstanceContainer\(string, Instance\)
 
 Initializes a new instance of the <xref href="VM.Managed.InstanceContainer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -207,7 +207,7 @@ Name of the instance container.
 
 The instance.
 
-### <a id="VM_Managed_InstanceContainer__ctor_System_String_System_String_VM_Managed_TransformBase_"></a> InstanceContainer\(string, string, TransformBase\)
+### InstanceContainer\(string, string, TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.InstanceContainer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -231,7 +231,7 @@ The transformation matrix.
 
 ## Properties
 
-### <a id="VM_Managed_InstanceContainer_Instance"></a> Instance
+### Instance
 
 Gets or sets the instance.
 
@@ -243,7 +243,7 @@ public Instance Instance { get; set; }
 
  Instance
 
-### <a id="VM_Managed_InstanceContainer_InterfaceTableList"></a> InterfaceTableList
+### InterfaceTableList
 
 Gets the interface table list.
 
@@ -255,7 +255,7 @@ protected IList<InstanceContainer.InterfaceTable> InterfaceTableList { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[InstanceContainer](VM.Managed.InstanceContainer.md).[InterfaceTable](VM.Managed.InstanceContainer.InterfaceTable.md)\>
 
-### <a id="VM_Managed_InstanceContainer_InterfaceTables"></a> InterfaceTables
+### InterfaceTables
 
 Gets or sets the interface tables.
 
@@ -267,7 +267,7 @@ public InstanceContainer.InterfaceTable[] InterfaceTables { get; set; }
 
  [InstanceContainer](VM.Managed.InstanceContainer.md).[InterfaceTable](VM.Managed.InstanceContainer.InterfaceTable.md)\[\]
 
-### <a id="VM_Managed_InstanceContainer_IsVisible"></a> IsVisible
+### IsVisible
 
 Gets or sets the visible state.
 
@@ -279,7 +279,7 @@ public virtual bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_InstanceContainer_Layer"></a> Layer
+### Layer
 
 Gets or sets the layer.
 
@@ -293,7 +293,7 @@ public Layer Layer { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_InstanceContainer_BindInterface"></a> BindInterface\(\)
+### BindInterface\(\)
 
 Binds the interface.
 
@@ -301,7 +301,7 @@ Binds the interface.
 public void BindInterface()
 ```
 
-### <a id="VM_Managed_InstanceContainer_BindInterface_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> BindInterface\(ObjectBase, ObjectBase\)
+### BindInterface\(ObjectBase, ObjectBase\)
 
 Binds the interface.
 
@@ -325,7 +325,7 @@ The [to object].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_InstanceContainer_BindInterface_VM_Managed_InstanceContainer_InterfaceTable_"></a> BindInterface\(InterfaceTable\)
+### BindInterface\(InterfaceTable\)
 
 Binds the interface.
 
@@ -339,7 +339,7 @@ protected void BindInterface(InstanceContainer.InterfaceTable table)
 
 The interface table.
 
-### <a id="VM_Managed_InstanceContainer_Find_System_String_"></a> Find\(string\)
+### Find\(string\)
 
 Finds an object that matches a specified name
 
@@ -359,7 +359,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_InstanceContainer_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -379,7 +379,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_InstanceContainer_GetChildListImpl"></a> GetChildListImpl\(\)
+### GetChildListImpl\(\)
 
 Gets the child list.
 
@@ -393,7 +393,7 @@ protected virtual IEnumerable<ObjectBase> GetChildListImpl()
 
 The child list.
 
-### <a id="VM_Managed_InstanceContainer_GetLayerImpl"></a> GetLayerImpl\(\)
+### GetLayerImpl\(\)
 
 Gets the layer [implementation].
 
@@ -407,7 +407,7 @@ protected virtual Layer GetLayerImpl()
 
 The layer
 
-### <a id="VM_Managed_InstanceContainer_GetNewEntityName_System_String_"></a> GetNewEntityName\(string\)
+### GetNewEntityName\(string\)
 
 Gets the new name of the entity [Not Implemented].
 
@@ -427,7 +427,7 @@ The prefix.
 
 The new name
 
-### <a id="VM_Managed_InstanceContainer_GetNewEntityName_System_String_System_Boolean_System_Int32_"></a> GetNewEntityName\(string, bool, int\)
+### GetNewEntityName\(string, bool, int\)
 
 Generate an unique DAFUL object name from the container using the prefix name.
 
@@ -455,7 +455,7 @@ The Number of Figure.
 
 The DAFUL object name.
 
-### <a id="VM_Managed_InstanceContainer_GetNewEntityName_System_String_System_Boolean_System_Int32_System_Int32_"></a> GetNewEntityName\(string, bool, int, int\)
+### GetNewEntityName\(string, bool, int, int\)
 
 Generate an unique DAFUL object name from the container using the prefix name.
 
@@ -487,7 +487,7 @@ The start index.
 
 The DAFUL object name.
 
-### <a id="VM_Managed_InstanceContainer_GetTargetListForUpdate"></a> GetTargetListForUpdate\(\)
+### GetTargetListForUpdate\(\)
 
 Gets the update objects.
 
@@ -499,7 +499,7 @@ public override List<IEventProvider> GetTargetListForUpdate()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IEventProvider\>
 
-### <a id="VM_Managed_InstanceContainer_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -519,7 +519,7 @@ The unnamed object.
 
 The unnamed object name.
 
-### <a id="VM_Managed_InstanceContainer_InitInterfaceTable"></a> InitInterfaceTable\(\)
+### InitInterfaceTable\(\)
 
 Initialize the interface table.
 
@@ -527,7 +527,7 @@ Initialize the interface table.
 public virtual void InitInterfaceTable()
 ```
 
-### <a id="VM_Managed_InstanceContainer_IsDestroyContainer"></a> IsDestroyContainer\(\)
+### IsDestroyContainer\(\)
 
 Determines whether is [destroy container].
 
@@ -541,7 +541,7 @@ public virtual bool IsDestroyContainer()
 
 <code>true</code> if is [destroy container]; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_InstanceContainer_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -559,7 +559,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_InstanceContainer_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -577,7 +577,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_InstanceContainer_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -591,7 +591,7 @@ protected virtual void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### <a id="VM_Managed_InstanceContainer_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -605,7 +605,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_InstanceContainer_PostAddToDocument"></a> PostAddToDocument\(\)
+### PostAddToDocument\(\)
 
 Call when post [add to document].
 
@@ -613,7 +613,7 @@ Call when post [add to document].
 public override void PostAddToDocument()
 ```
 
-### <a id="VM_Managed_InstanceContainer_PostOpenDocumentAfterHookEvent"></a> PostOpenDocumentAfterHookEvent\(\)
+### PostOpenDocumentAfterHookEvent\(\)
 
 Call when post [open document].
 
@@ -621,7 +621,7 @@ Call when post [open document].
 public virtual void PostOpenDocumentAfterHookEvent()
 ```
 
-### <a id="VM_Managed_InstanceContainer_ProcessDuplicateReferenceImpl_VM_Managed_Reference_"></a> ProcessDuplicateReferenceImpl\(Reference\)
+### ProcessDuplicateReferenceImpl\(Reference\)
 
 Process for duplicated reference
 
@@ -635,7 +635,7 @@ protected virtual void ProcessDuplicateReferenceImpl(Reference refer)
 
 The reference.
 
-### <a id="VM_Managed_InstanceContainer_Redraw"></a> Redraw\(\)
+### Redraw\(\)
 
 Redraw.
 
@@ -643,7 +643,7 @@ Redraw.
 public virtual void Redraw()
 ```
 
-### <a id="VM_Managed_InstanceContainer_SetLayerImpl_VM_Managed_Layer_"></a> SetLayerImpl\(Layer\)
+### SetLayerImpl\(Layer\)
 
 Sets the layer [implementation].
 
@@ -657,7 +657,7 @@ protected virtual void SetLayerImpl(Layer layer)
 
 The layer.
 
-### <a id="VM_Managed_InstanceContainer_TransformImpl_VM_Managed_TMatrix_"></a> TransformImpl\(TMatrix\)
+### TransformImpl\(TMatrix\)
 
 Transforms [implementation].
 
@@ -670,4 +670,5 @@ protected virtual void TransformImpl(TMatrix matT)
 `matT` TMatrix
 
 The mat T.
+
 

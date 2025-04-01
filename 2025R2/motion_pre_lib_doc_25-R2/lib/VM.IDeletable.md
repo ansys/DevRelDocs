@@ -1,4 +1,4 @@
-# <a id="VM_IDeletable"></a> Interface IDeletable
+# Interface IDeletable
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IDeletable
 
 ## Properties
 
-### <a id="VM_IDeletable_CanDelete"></a> CanDelete
+### CanDelete
 
 ```csharp
 bool CanDelete { get; }
@@ -24,4 +24,5 @@ bool CanDelete { get; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

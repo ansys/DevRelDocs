@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_MultipleContactInfo"></a> Class MultipleContactInfo
+# Class MultipleContactInfo
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_MultipleContactInfo__ctor"></a> MultipleContactInfo\(\)
+### MultipleContactInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MultipleContactInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MultipleC
 public MultipleContactInfo()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_MultipleContactInfo__ctor_VM_Models_Pre_IOwned_"></a> MultipleContactInfo\(IOwned\)
+### MultipleContactInfo\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MultipleContactInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_MultipleContactInfo_Geometry"></a> Geometry
+### Geometry
 
 Gets or sets the geometry.
 
@@ -132,7 +132,7 @@ public IContactable Geometry { get; set; }
 
  IContactable
 
-### <a id="VM_Managed_DAFUL_Contact_MultipleContactInfo_IsFrontDirection"></a> IsFrontDirection
+### IsFrontDirection
 
 Gets or sets a value indicating whether this instance is front direction.
 
@@ -144,7 +144,7 @@ public bool IsFrontDirection { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_MultipleContactInfo__Geometry"></a> \_Geometry
+### \_Geometry
 
 Gets or sets the geometry.
 
@@ -155,4 +155,5 @@ public Linker<IContactable> _Geometry { get; set; }
 #### Property Value
 
  Linker<IContactable\>
+
 

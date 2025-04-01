@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_MeshFreeOpUtil"></a> Class MeshFreeOpUtil
+# Class MeshFreeOpUtil
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -22,7 +22,7 @@ public static class MeshFreeOpUtil
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_MeshFreeOpUtil_CheckLumpCountOfSolidBodies_VM_Managed_Document_"></a> CheckLumpCountOfSolidBodies\(Document\)
+### CheckLumpCountOfSolidBodies\(Document\)
 
 Check whether has only 1 lump for all SolidBodies in document
 
@@ -42,7 +42,7 @@ Document to check SolidBody
 
 Whether has only 1 lump for all SolidBodies
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_MeshFreeOpUtil_CheckMaterialOfSolidBodies_VM_Managed_Document_"></a> CheckMaterialOfSolidBodies\(Document\)
+### CheckMaterialOfSolidBodies\(Document\)
 
 Check whether set a Material for all SolidBodies in document
 
@@ -61,4 +61,5 @@ Document to check SolidBody
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 Whether exist material for all SolidBodies
+
 

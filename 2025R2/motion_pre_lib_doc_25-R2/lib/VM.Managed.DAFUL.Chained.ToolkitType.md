@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_ToolkitType"></a> Enum ToolkitType
+# Enum ToolkitType
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -20,6 +20,7 @@ General chain module
 `Track = 1` 
 
 Track module.
+
 
 
 

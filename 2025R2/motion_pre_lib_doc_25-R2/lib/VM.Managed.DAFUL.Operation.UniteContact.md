@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_UniteContact"></a> Class UniteContact
+# Class UniteContact
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_UniteContact__ctor_VM_Models_Pre_IDocument_"></a> UniteContact\(IDocument\)
+### UniteContact\(IDocument\)
 
 ```csharp
 public UniteContact(IDocument doc)
@@ -87,7 +87,7 @@ public UniteContact(IDocument doc)
 
 `doc` IDocument
 
-### <a id="VM_Managed_DAFUL_Operation_UniteContact__ctor_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_Models_Pre_IObject__"></a> UniteContact\(IDocument, IEnumerable<IObject\>\)
+### UniteContact\(IDocument, IEnumerable<IObject\>\)
 
 ```csharp
 public UniteContact(IDocument doc, IEnumerable<IObject> selectedBody)
@@ -99,7 +99,7 @@ public UniteContact(IDocument doc, IEnumerable<IObject> selectedBody)
 
 `selectedBody` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IObject\>
 
-### <a id="VM_Managed_DAFUL_Operation_UniteContact__ctor_VM_Managed_Operation_JournalParameter_"></a> UniteContact\(JournalParameter\)
+### UniteContact\(JournalParameter\)
 
 ```csharp
 public UniteContact(JournalParameter jp)
@@ -109,7 +109,7 @@ public UniteContact(JournalParameter jp)
 
 `jp` JournalParameter
 
-### <a id="VM_Managed_DAFUL_Operation_UniteContact__ctor_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_Models_Pre_IObject__System_Double_"></a> UniteContact\(IDocument, IEnumerable<IObject\>, double\)
+### UniteContact\(IDocument, IEnumerable<IObject\>, double\)
 
 ```csharp
 public UniteContact(IDocument doc, IEnumerable<IObject> selectedBody, double dTolerance)
@@ -125,7 +125,7 @@ public UniteContact(IDocument doc, IEnumerable<IObject> selectedBody, double dTo
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_UniteContact_CreatedEntities"></a> CreatedEntities
+### CreatedEntities
 
 ```csharp
 public IEnumerable<IHasID> CreatedEntities { get; }
@@ -135,7 +135,7 @@ public IEnumerable<IHasID> CreatedEntities { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IHasID\>
 
-### <a id="VM_Managed_DAFUL_Operation_UniteContact_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -147,7 +147,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Operation_UniteContact_SelectedBody"></a> SelectedBody
+### SelectedBody
 
 ```csharp
 public IList<IObject> SelectedBody { get; set; }
@@ -157,7 +157,7 @@ public IList<IObject> SelectedBody { get; set; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<IObject\>
 
-### <a id="VM_Managed_DAFUL_Operation_UniteContact_Tolerance"></a> Tolerance
+### Tolerance
 
 ```csharp
 public double Tolerance { get; set; }
@@ -169,7 +169,7 @@ public double Tolerance { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_UniteContact_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -177,7 +177,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_UniteContact_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -186,4 +186,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

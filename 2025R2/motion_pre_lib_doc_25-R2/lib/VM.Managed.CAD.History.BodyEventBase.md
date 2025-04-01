@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_History_BodyEventBase"></a> Class BodyEventBase
+# Class BodyEventBase
 
 Namespace: [VM.Managed.CAD.History](VM.Managed.CAD.History.md)  
 Assembly: VMAppCore.dll  
@@ -43,7 +43,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_History_BodyEventBase__ctor_System_Object_"></a> BodyEventBase\(object\)
+### BodyEventBase\(object\)
 
 ```csharp
 public BodyEventBase(object obOriginal)
@@ -55,7 +55,7 @@ public BodyEventBase(object obOriginal)
 
 ## Fields
 
-### <a id="VM_Managed_CAD_History_BodyEventBase_m_keyBody"></a> m\_keyBody
+### m\_keyBody
 
 ```csharp
 protected UIntPtr m_keyBody
@@ -67,7 +67,7 @@ protected UIntPtr m_keyBody
 
 ## Methods
 
-### <a id="VM_Managed_CAD_History_BodyEventBase_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 ```csharp
 public override void Clear(bool bReserveReferenceCount)
@@ -76,4 +76,5 @@ public override void Clear(bool bReserveReferenceCount)
 #### Parameters
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

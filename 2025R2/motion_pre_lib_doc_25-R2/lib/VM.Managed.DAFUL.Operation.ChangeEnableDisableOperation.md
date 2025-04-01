@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_ChangeEnableDisableOperation"></a> Class ChangeEnableDisableOperation
+# Class ChangeEnableDisableOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_ChangeEnableDisableOperation__ctor_System_Collections_Generic_List_VM_IEnabled__System_Boolean_"></a> ChangeEnableDisableOperation\(List<IEnabled\>, bool\)
+### ChangeEnableDisableOperation\(List<IEnabled\>, bool\)
 
 ```csharp
 public ChangeEnableDisableOperation(List<IEnabled> lstEnableObject, bool bEnable)
@@ -89,7 +89,7 @@ public ChangeEnableDisableOperation(List<IEnabled> lstEnableObject, bool bEnable
 
 `bEnable` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ChangeEnableDisableOperation__ctor_VM_Managed_Document3D_System_Collections_Generic_IEnumerable_VM_IEnabled__System_Boolean_"></a> ChangeEnableDisableOperation\(Document3D, IEnumerable<IEnabled\>, bool\)
+### ChangeEnableDisableOperation\(Document3D, IEnumerable<IEnabled\>, bool\)
 
 ```csharp
 public ChangeEnableDisableOperation(Document3D doc3D, IEnumerable<IEnabled> lstEnableObject, bool bEnable)
@@ -103,7 +103,7 @@ public ChangeEnableDisableOperation(Document3D doc3D, IEnumerable<IEnabled> lstE
 
 `bEnable` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_ChangeEnableDisableOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ChangeEnableDisableOperation\(JournalParameter\)
+### ChangeEnableDisableOperation\(JournalParameter\)
 
 ```csharp
 public ChangeEnableDisableOperation(JournalParameter jp)
@@ -115,7 +115,7 @@ public ChangeEnableDisableOperation(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_ChangeEnableDisableOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -129,7 +129,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_ChangeEnableDisableOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -137,7 +137,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_ChangeEnableDisableOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -146,4 +146,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

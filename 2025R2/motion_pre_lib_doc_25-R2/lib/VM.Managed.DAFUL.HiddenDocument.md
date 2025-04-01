@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_HiddenDocument"></a> Class HiddenDocument
+# Class HiddenDocument
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -573,7 +573,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_HiddenDocument__ctor_System_UIntPtr_"></a> HiddenDocument\(UIntPtr\)
+### HiddenDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.HiddenDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -589,7 +589,7 @@ The document handle.
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_HiddenDocument_m_canvas"></a> m\_canvas
+### m\_canvas
 
 The m_canvas
 
@@ -603,7 +603,7 @@ protected Canvas m_canvas
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_HiddenDocument_RenderingMode"></a> RenderingMode
+### RenderingMode
 
 The rendering mode
 
@@ -615,7 +615,7 @@ public virtual View3D.RenderingMode RenderingMode { get; }
 
  View3D.RenderingMode
 
-### <a id="VM_Managed_DAFUL_HiddenDocument_TargetDesign"></a> TargetDesign
+### TargetDesign
 
 Gets the target design.
 
@@ -627,7 +627,7 @@ public virtual IOpenDesigner TargetDesign { get; }
 
  IOpenDesigner
 
-### <a id="VM_Managed_DAFUL_HiddenDocument_TargetDocument"></a> TargetDocument
+### TargetDocument
 
 Gets the target document.
 
@@ -641,7 +641,7 @@ public virtual Document TargetDocument { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_HiddenDocument_ClearDocument"></a> ClearDocument\(\)
+### ClearDocument\(\)
 
 Clears the document.
 
@@ -649,7 +649,7 @@ Clears the document.
 protected override void ClearDocument()
 ```
 
-### <a id="VM_Managed_DAFUL_HiddenDocument_CloseDocumentCore"></a> CloseDocumentCore\(\)
+### CloseDocumentCore\(\)
 
 Close document.
 
@@ -657,7 +657,7 @@ Close document.
 protected virtual void CloseDocumentCore()
 ```
 
-### <a id="VM_Managed_DAFUL_HiddenDocument_DrawCoordinate_System_Double_"></a> DrawCoordinate\(double\)
+### DrawCoordinate\(double\)
 
 Draws the coordinate.
 
@@ -671,7 +671,7 @@ public virtual void DrawCoordinate(double dIconSize)
 
 Size of the d icon.
 
-### <a id="VM_Managed_DAFUL_HiddenDocument_DrawCoordinateCore_VM_Managed_VectorBase_System_Double_"></a> DrawCoordinateCore\(VectorBase, double\)
+### DrawCoordinateCore\(VectorBase, double\)
 
 Draws the coordinate.
 
@@ -685,7 +685,7 @@ protected void DrawCoordinateCore(VectorBase vecStartPoint, double dIconSize)
 
 `dIconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_HiddenDocument_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds the local.
 
@@ -703,7 +703,7 @@ Name of the string.
 
  IObjectBase
 
-### <a id="VM_Managed_DAFUL_HiddenDocument_HideSubData_System_String_"></a> HideSubData\(string\)
+### HideSubData\(string\)
 
 Hide sub data.
 
@@ -721,7 +721,7 @@ The sub data name.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_HiddenDocument_InitializeSimParam"></a> InitializeSimParam\(\)
+### InitializeSimParam\(\)
 
 Initializes the simulation parameter.
 
@@ -729,7 +729,7 @@ Initializes the simulation parameter.
 protected override void InitializeSimParam()
 ```
 
-### <a id="VM_Managed_DAFUL_HiddenDocument_OnPostMakeDocumentImpl_VM_Managed_DocCreateAnalysisInfo_"></a> OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
+### OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
 
 Called when [post make document] [implementation].
 
@@ -743,7 +743,7 @@ protected override void OnPostMakeDocumentImpl(DocCreateAnalysisInfo info)
 
 The [analysis document create information].
 
-### <a id="VM_Managed_DAFUL_HiddenDocument_SetData_System_Xml_XmlNode_"></a> SetData\(XmlNode\)
+### SetData\(XmlNode\)
 
 Sets the analysis document information data.
 
@@ -756,4 +756,5 @@ public override void SetData(XmlNode reader)
 `reader` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
 
 The reader.
+
 

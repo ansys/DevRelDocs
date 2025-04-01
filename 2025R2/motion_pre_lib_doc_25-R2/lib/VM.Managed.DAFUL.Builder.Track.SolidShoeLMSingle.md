@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track_SolidShoeLMSingle"></a> Class SolidShoeLMSingle
+# Class SolidShoeLMSingle
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -52,7 +52,7 @@ BuilderBase<BodyShoe\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidShoeLMSingle__ctor"></a> SolidShoeLMSingle\(\)
+### SolidShoeLMSingle\(\)
 
 ```csharp
 public SolidShoeLMSingle()
@@ -60,7 +60,7 @@ public SolidShoeLMSingle()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidShoeLMSingle_GetCurrentBuilder"></a> GetCurrentBuilder\(\)
+### GetCurrentBuilder\(\)
 
 ```csharp
 protected override Builder GetCurrentBuilder()
@@ -69,4 +69,5 @@ protected override Builder GetCurrentBuilder()
 #### Returns
 
  Builder
+
 

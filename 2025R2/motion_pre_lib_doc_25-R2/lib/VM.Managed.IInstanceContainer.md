@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IInstanceContainer"></a> Interface IInstanceContainer
+# Interface IInstanceContainer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IInstanceContainer
 
 ## Properties
 
-### <a id="VM_Managed_IInstanceContainer_Instance"></a> Instance
+### Instance
 
 ```csharp
 Instance Instance { get; }
@@ -29,11 +29,12 @@ Instance Instance { get; }
 
 ## Methods
 
-### <a id="VM_Managed_IInstanceContainer_Redraw"></a> Redraw\(\)
+### Redraw\(\)
 
 re-draw.
 
 ```csharp
 void Redraw()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_Plastic"></a> Class Plastic
+# Class Plastic
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -177,7 +177,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Material_Plastic__ctor"></a> Plastic\(\)
+### Plastic\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.Plastic" data-throw-if-not-resolved="false"></xref> class.
 
@@ -185,7 +185,7 @@ Initializes a new instance of the <xref href="VM.Managed.Material.Plastic" data-
 public Plastic()
 ```
 
-### <a id="VM_Managed_Material_Plastic__ctor_System_String_"></a> Plastic\(string\)
+### Plastic\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.Plastic" data-throw-if-not-resolved="false"></xref> class.
 
@@ -201,7 +201,7 @@ Name of the plastic material.
 
 ## Properties
 
-### <a id="VM_Managed_Material_Plastic_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -213,7 +213,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_Material_Plastic_DensityValue"></a> DensityValue
+### DensityValue
 
 Gets the density value.
 
@@ -225,7 +225,7 @@ public double DensityValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_Material_Plastic_HardeningParameter"></a> HardeningParameter
+### HardeningParameter
 
 Gets or sets the hardening parameter.
 
@@ -237,7 +237,7 @@ public ExpressionValueVariable HardeningParameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_Plastic_HardeningType"></a> HardeningType
+### HardeningType
 
 Gets or sets the hardening type.
 
@@ -249,7 +249,7 @@ public HardeningTypes HardeningType { get; set; }
 
  HardeningTypes
 
-### <a id="VM_Managed_Material_Plastic_Index"></a> Index
+### Index
 
 Gets or sets the material ID.
 Use SetID() when this instance sets for undo/redo
@@ -262,7 +262,7 @@ public uint Index { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_Material_Plastic_InitialYieldingStress"></a> InitialYieldingStress
+### InitialYieldingStress
 
 Gets or sets the initial yielding stress.
 
@@ -274,7 +274,7 @@ public ExpressionValueVariable InitialYieldingStress { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_Material_Plastic_Material"></a> Material
+### Material
 
 Gets or sets the material.
 
@@ -286,7 +286,7 @@ public IMaterial Material { get; set; }
 
  IMaterial
 
-### <a id="VM_Managed_Material_Plastic_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -298,7 +298,7 @@ public string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Material_Plastic__Material"></a> \_Material
+### \_Material
 
 Gets or sets the material.
 
@@ -312,7 +312,7 @@ public Linker<IMaterial> _Material { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Material_Plastic_CheckLinearMaterial"></a> CheckLinearMaterial\(\)
+### CheckLinearMaterial\(\)
 
 check linear material.
 
@@ -320,7 +320,7 @@ check linear material.
 public virtual void CheckLinearMaterial()
 ```
 
-### <a id="VM_Managed_Material_Plastic_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -334,7 +334,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_Material_Plastic_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -352,7 +352,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_Material_Plastic_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -366,7 +366,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_Material_Plastic_SetID_System_UInt32_"></a> SetID\(uint\)
+### SetID\(uint\)
 
 Set ID.
 
@@ -380,7 +380,7 @@ public void SetID(uint nID)
 
 The ID.
 
-### <a id="VM_Managed_Material_Plastic_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -393,4 +393,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

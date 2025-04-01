@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_IPointLoad"></a> Interface IPointLoad
+# Interface IPointLoad
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -21,7 +21,7 @@ public interface IPointLoad : IPointEntity
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_IPointLoad_Direction"></a> Direction
+### Direction
 
 Gets the direction.
 
@@ -33,7 +33,7 @@ VectorBase Direction { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_IPointLoad_ForceX"></a> ForceX
+### ForceX
 
 Gets the force x.
 
@@ -45,7 +45,7 @@ ExpressionValueVariable ForceX { get; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_IPointLoad_ForceY"></a> ForceY
+### ForceY
 
 Gets the force y.
 
@@ -57,7 +57,7 @@ ExpressionValueVariable ForceY { get; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_IPointLoad_ForceZ"></a> ForceZ
+### ForceZ
 
 Gets the force z.
 
@@ -69,7 +69,7 @@ ExpressionValueVariable ForceZ { get; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_IPointLoad_TorqueX"></a> TorqueX
+### TorqueX
 
 Gets the torque x.
 
@@ -81,7 +81,7 @@ ExpressionValueVariable TorqueX { get; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_IPointLoad_TorqueY"></a> TorqueY
+### TorqueY
 
 Gets the torque y.
 
@@ -92,4 +92,5 @@ ExpressionValueVariable TorqueY { get; }
 #### Property Value
 
  ExpressionValueVariable
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderImportCore"></a> Class BuilderImportCore
+# Class BuilderImportCore
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -150,7 +150,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderImportCore__ctor_System_String_"></a> BuilderImportCore\(string\)
+### BuilderImportCore\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderImportCore" data-throw-if-not-resolved="false"></xref> class
 
@@ -164,7 +164,7 @@ public BuilderImportCore(string strFilePath)
 
 File path to import.
 
-### <a id="VM_Managed_CAD_BuilderImportCore__ctor"></a> BuilderImportCore\(\)
+### BuilderImportCore\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderImportCore" data-throw-if-not-resolved="false"></xref> class
 
@@ -174,7 +174,7 @@ public BuilderImportCore()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderImportCore_ImportBodyFileCore"></a> ImportBodyFileCore
+### ImportBodyFileCore
 
 Gets the file. core of import body.
 
@@ -188,7 +188,7 @@ public string ImportBodyFileCore { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderImportCore_DeleteImportBodyFile"></a> DeleteImportBodyFile\(\)
+### DeleteImportBodyFile\(\)
 
 Delete the file for imported body.
 
@@ -196,7 +196,7 @@ Delete the file for imported body.
 public void DeleteImportBodyFile()
 ```
 
-### <a id="VM_Managed_CAD_BuilderImportCore_SetFilePath_System_String_"></a> SetFilePath\(string\)
+### SetFilePath\(string\)
 
 Sets the file for imported body.
 
@@ -207,4 +207,5 @@ public void SetFilePath(string strFilePath)
 #### Parameters
 
 `strFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase"></a> Class SetDesignDocumentBase
+# Class SetDesignDocumentBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -85,7 +85,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase__ctor"></a> SetDesignDocumentBase\(\)
+### SetDesignDocumentBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.SetDesignDocumentBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -93,7 +93,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operati
 public SetDesignDocumentBase()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase__ctor_VM_Managed_Operation_JournalParameter_"></a> SetDesignDocumentBase\(JournalParameter\)
+### SetDesignDocumentBase\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.SetDesignDocumentBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ The jp.
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase_m_docDesigner"></a> m\_docDesigner
+### m\_docDesigner
 
 The m_doc designer
 
@@ -121,7 +121,7 @@ protected Document m_docDesigner
 
  Document
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase_m_strBodyName"></a> m\_strBodyName
+### m\_strBodyName
 
 The M_STR body name
 
@@ -135,7 +135,7 @@ protected string m_strBodyName
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the history merge flag.
 
@@ -147,7 +147,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase_Name"></a> Name
+### Name
 
 Gets the Name.
 
@@ -161,7 +161,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
@@ -169,7 +169,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -183,7 +183,7 @@ public override void GetInformation(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase_OpenDesignDocument_System_Object_"></a> OpenDesignDocument\(object\)
+### OpenDesignDocument\(object\)
 
 Opens the design document.
 
@@ -201,7 +201,7 @@ The object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase_Result"></a> Result\(\)
+### Result\(\)
 
 Results this instance.
 
@@ -213,11 +213,12 @@ public HiddenDocument Result()
 
  HiddenDocument
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetDesignDocumentBase_SetActiveUserControl"></a> SetActiveUserControl\(\)
+### SetActiveUserControl\(\)
 
 Sets the active user control.
 
 ```csharp
 protected void SetActiveUserControl()
 ```
+
 

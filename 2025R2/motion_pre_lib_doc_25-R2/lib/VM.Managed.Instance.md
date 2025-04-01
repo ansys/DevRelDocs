@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Instance"></a> Class Instance
+# Class Instance
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -152,7 +152,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Instance__ctor_VM_Managed_Assembly_VM_Managed_TransformBase_"></a> Instance\(Assembly, TransformBase\)
+### Instance\(Assembly, TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.Instance" data-throw-if-not-resolved="false"></xref> class.
 
@@ -172,7 +172,7 @@ The transformation.
 
 ## Properties
 
-### <a id="VM_Managed_Instance_Assembly"></a> Assembly
+### Assembly
 
 Gets or sets the assembly.
 
@@ -184,7 +184,7 @@ public Assembly Assembly { get; set; }
 
  [Assembly](VM.Managed.Assembly.md)
 
-### <a id="VM_Managed_Instance_ClearChildInfoBeforeDeserialize"></a> ClearChildInfoBeforeDeserialize
+### ClearChildInfoBeforeDeserialize
 
 Gets a value indicating whether [clear child info before deserialize].
 
@@ -196,7 +196,7 @@ protected override bool ClearChildInfoBeforeDeserialize { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Instance_References"></a> References
+### References
 
 Gets or sets the reference container.
 
@@ -208,7 +208,7 @@ public Reference[] References { get; set; }
 
  [Reference](VM.Managed.Reference.md)\[\]
 
-### <a id="VM_Managed_Instance_Transformation"></a> Transformation
+### Transformation
 
 Gets or sets the transformation.
 
@@ -222,7 +222,7 @@ public TransformBase Transformation { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Instance_ContainsReference_VM_Managed_Reference_"></a> ContainsReference\(Reference\)
+### ContainsReference\(Reference\)
 
 ```csharp
 public bool ContainsReference(Reference reference)
@@ -236,7 +236,7 @@ public bool ContainsReference(Reference reference)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Instance_Find_System_String_"></a> Find\(string\)
+### Find\(string\)
 
 Find DAFUL object from the container by full name.
 
@@ -256,7 +256,7 @@ The DAFUL object full name.
 
 The DAFUL object.
 
-### <a id="VM_Managed_Instance_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Find DAFUL object from the container by name.
 
@@ -276,7 +276,7 @@ The DAFUL object name.
 
 The DAFUL object.
 
-### <a id="VM_Managed_Instance_FindReferenceWithObject_VM_Managed_ObjectBase_"></a> FindReferenceWithObject\(ObjectBase\)
+### FindReferenceWithObject\(ObjectBase\)
 
 ```csharp
 public Reference FindReferenceWithObject(ObjectBase objTarget)
@@ -290,7 +290,7 @@ public Reference FindReferenceWithObject(ObjectBase objTarget)
 
  [Reference](VM.Managed.Reference.md)
 
-### <a id="VM_Managed_Instance_FindReferenceWithPrototype_VM_Managed_Document3D_System_Collections_Generic_List_VM_Managed_Instance__VM_Managed_ObjectBase_System_Int32_"></a> FindReferenceWithPrototype\(Document3D, List<Instance\>, ObjectBase, int\)
+### FindReferenceWithPrototype\(Document3D, List<Instance\>, ObjectBase, int\)
 
 ```csharp
 public static Reference FindReferenceWithPrototype(Document3D doc3D, List<Instance> instanceCurrent, ObjectBase objTarget, int nIdx)
@@ -310,7 +310,7 @@ public static Reference FindReferenceWithPrototype(Document3D doc3D, List<Instan
 
  [Reference](VM.Managed.Reference.md)
 
-### <a id="VM_Managed_Instance_FindReferenceWithPrototype_VM_Managed_ObjectBase_"></a> FindReferenceWithPrototype\(ObjectBase\)
+### FindReferenceWithPrototype\(ObjectBase\)
 
 ```csharp
 public Reference FindReferenceWithPrototype(ObjectBase objTarget)
@@ -324,7 +324,7 @@ public Reference FindReferenceWithPrototype(ObjectBase objTarget)
 
  [Reference](VM.Managed.Reference.md)
 
-### <a id="VM_Managed_Instance_GetNewEntityName_System_String_System_Boolean_System_Int32_System_Int32_"></a> GetNewEntityName\(string, bool, int, int\)
+### GetNewEntityName\(string, bool, int, int\)
 
 [Not implementated]
 
@@ -346,7 +346,7 @@ public virtual string GetNewEntityName(string A_0, bool A_1, int A_2, int A_3)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Instance_GetNewEntityName_System_String_System_Boolean_System_Int32_"></a> GetNewEntityName\(string, bool, int\)
+### GetNewEntityName\(string, bool, int\)
 
 [Not implementated]
 
@@ -366,7 +366,7 @@ public virtual string GetNewEntityName(string A_0, bool A_1, int A_2)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Instance_GetNewEntityName_System_String_"></a> GetNewEntityName\(string\)
+### GetNewEntityName\(string\)
 
 [Not implementated]
 
@@ -382,7 +382,7 @@ public virtual string GetNewEntityName(string A_0)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Instance_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Get an unnamed object name.
 
@@ -402,7 +402,7 @@ The unnamed object.
 
 The unnamed object name.
 
-### <a id="VM_Managed_Instance_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -418,7 +418,7 @@ protected override void LinkRequestUpdate(object obNotifier, LinkEventArgs arg)
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_Instance_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -430,7 +430,7 @@ public override void OnDeserialization(object obSender)
 
 `obSender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_Managed_Instance_SetModified_VM_Managed_ModifiedResult_ModifiedType_"></a> SetModified\(ModifiedType\)
+### SetModified\(ModifiedType\)
 
 Called when object modified.
 
@@ -444,7 +444,7 @@ public override void SetModified(ModifiedResult.ModifiedType type)
 
 The modifed type.
 
-### <a id="VM_Managed_Instance_SetModified"></a> SetModified\(\)
+### SetModified\(\)
 
 Called when object modified.
 
@@ -452,7 +452,7 @@ Called when object modified.
 public override void SetModified()
 ```
 
-### <a id="VM_Managed_Instance_SkipUpdateObjectImpl"></a> SkipUpdateObjectImpl\(\)
+### SkipUpdateObjectImpl\(\)
 
 Skip the object that updated.
 
@@ -463,4 +463,5 @@ public override bool SkipUpdateObjectImpl()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

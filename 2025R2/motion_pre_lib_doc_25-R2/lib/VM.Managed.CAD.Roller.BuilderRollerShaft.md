@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Roller_BuilderRollerShaft"></a> Class BuilderRollerShaft
+# Class BuilderRollerShaft
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -216,7 +216,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerShaft__ctor"></a> BuilderRollerShaft\(\)
+### BuilderRollerShaft\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Roller.BuilderRollerShaft" data-throw-if-not-resolved="false"></xref> class.
 
@@ -226,7 +226,7 @@ public BuilderRollerShaft()
 
 ## Fields
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerShaft_lstBottom"></a> lstBottom
+### lstBottom
 
 The list of cylinder bottom position.
 
@@ -238,7 +238,7 @@ protected List<VectorBase> lstBottom
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerShaft_lstPosition"></a> lstPosition
+### lstPosition
 
 The list of position.
 
@@ -250,7 +250,7 @@ protected List<VectorBase> lstPosition
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerShaft_lstRadius"></a> lstRadius
+### lstRadius
 
 The list of cylinder radius.
 
@@ -262,7 +262,7 @@ protected List<double> lstRadius
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerShaft_lstTop"></a> lstTop
+### lstTop
 
 The list of cylinder top position.
 
@@ -274,7 +274,7 @@ protected List<VectorBase> lstTop
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerShaft_m_bCreateShaft"></a> m\_bCreateShaft
+### m\_bCreateShaft
 
 The boolean whether shaft creation or not.
 
@@ -286,7 +286,7 @@ protected bool m_bCreateShaft
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerShaft_m_enShaftType"></a> m\_enShaftType
+### m\_enShaftType
 
 The shaft type.
 
@@ -300,7 +300,7 @@ protected ShaftType m_enShaftType
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerShaft_CreateShaft"></a> CreateShaft
+### CreateShaft
 
 Gets and sets a value indicating whether [creation shaft]
 
@@ -312,7 +312,7 @@ public bool CreateShaft { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerShaft_ShaftDiameter"></a> ShaftDiameter
+### ShaftDiameter
 
 Gets and sets shaft diameter.
 
@@ -324,7 +324,7 @@ public ExpressionValueVariable ShaftDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerShaft_ShaftType"></a> ShaftType
+### ShaftType
 
 Gets and sets the shaft type.
 
@@ -336,7 +336,7 @@ public ShaftType ShaftType { get; set; }
 
  [ShaftType](VM.Managed.CAD.Roller.ShaftType.md)
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerShaft_ShaftWidth"></a> ShaftWidth
+### ShaftWidth
 
 Gets and sets shaft width.
 
@@ -350,7 +350,7 @@ public ExpressionValueVariable ShaftWidth { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerShaft_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
+### CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -358,7 +358,7 @@ Checks the validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerShaft_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -372,7 +372,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerShaft_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -389,4 +389,5 @@ The obj notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

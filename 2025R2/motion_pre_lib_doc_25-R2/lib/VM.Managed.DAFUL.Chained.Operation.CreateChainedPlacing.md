@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_Operation_CreateChainedPlacing"></a> Class CreateChainedPlacing
+# Class CreateChainedPlacing
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_CreateChainedPlacing__ctor"></a> CreateChainedPlacing\(\)
+### CreateChainedPlacing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.CreateChainedPlacing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation
 public CreateChainedPlacing()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_CreateChainedPlacing__ctor_System_String_"></a> CreateChainedPlacing\(string\)
+### CreateChainedPlacing\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.CreateChainedPlacing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -101,7 +101,7 @@ The STR initializer XML.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_CreateChainedPlacing_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -115,7 +115,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_CreateChainedPlacing_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -123,7 +123,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_CreateChainedPlacing_ExecutePickOperation_System_String___System_String___System_Int32_System_Int32_"></a> ExecutePickOperation\(string\[\], string\[\], int, int\)
+### ExecutePickOperation\(string\[\], string\[\], int, int\)
 
 Execute the operation.
 <param name="arPickResult">pick result array.</param><param name="arPickOp">pick operation array.</param><param name="start">The start.</param><param name="end">The end.</param>
@@ -145,4 +145,5 @@ protected virtual bool ExecutePickOperation(string[] arPickResult, string[] arPi
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

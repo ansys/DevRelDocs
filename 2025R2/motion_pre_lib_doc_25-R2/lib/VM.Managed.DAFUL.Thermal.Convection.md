@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_Convection"></a> Class Convection
+# Class Convection
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMDThermal.dll  
@@ -224,7 +224,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Thermal_Convection__ctor"></a> Convection\(\)
+### Convection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.Convection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -232,7 +232,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.Convectio
 public Convection()
 ```
 
-### <a id="VM_Managed_DAFUL_Thermal_Convection__ctor_System_String_"></a> Convection\(string\)
+### Convection\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.Convection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -248,7 +248,7 @@ Name of the STR.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Thermal_Convection_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the specified canvas.
 
@@ -266,7 +266,7 @@ The canvas.
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### <a id="VM_Managed_DAFUL_Thermal_Convection_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -294,7 +294,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Thermal_Convection_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -307,4 +307,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

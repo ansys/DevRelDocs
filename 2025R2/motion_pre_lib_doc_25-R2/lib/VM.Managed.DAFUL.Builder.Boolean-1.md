@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Boolean_1"></a> Class Boolean<T\>
+# Class Boolean<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -57,7 +57,7 @@ public abstract class Boolean<T> : BooleanBase<T>, IBuilder where T : Builder, n
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Boolean_1__ctor"></a> Boolean\(\)
+### Boolean\(\)
 
 ```csharp
 protected Boolean()
@@ -65,7 +65,7 @@ protected Boolean()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Builder_Boolean_1_m_ToolConnectables"></a> m\_ToolConnectables
+### m\_ToolConnectables
 
 ```csharp
 protected Body[] m_ToolConnectables
@@ -77,7 +77,7 @@ protected Body[] m_ToolConnectables
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Boolean_1_Argument"></a> Argument
+### Argument
 
 ```csharp
 protected override string Argument { get; }
@@ -87,7 +87,7 @@ protected override string Argument { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_Boolean_1_ReserveToolBody"></a> ReserveToolBody
+### ReserveToolBody
 
 ```csharp
 public bool ReserveToolBody { get; set; }
@@ -97,7 +97,7 @@ public bool ReserveToolBody { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Boolean_1_ToolBodiesName"></a> ToolBodiesName
+### ToolBodiesName
 
 ```csharp
 public string[] ToolBodiesName { get; set; }
@@ -107,7 +107,7 @@ public string[] ToolBodiesName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_Boolean_1_ToolConnectable"></a> ToolConnectable
+### ToolConnectable
 
 ```csharp
 public override Body ToolConnectable { get; }
@@ -119,7 +119,7 @@ public override Body ToolConnectable { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Boolean_1_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public override void Build(Document doc)
@@ -129,7 +129,7 @@ public override void Build(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Builder_Boolean_1_BuildTargetTool_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder___"></a> BuildTargetTool\(Builder, Builder\[\]\)
+### BuildTargetTool\(Builder, Builder\[\]\)
 
 ```csharp
 protected virtual void BuildTargetTool(Builder buiTarget, Builder[] buiTool)
@@ -141,7 +141,7 @@ protected virtual void BuildTargetTool(Builder buiTarget, Builder[] buiTool)
 
 `buiTool` Builder\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_Boolean_1_BuildTargetTool_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> BuildTargetTool\(Builder, Builder\)
+### BuildTargetTool\(Builder, Builder\)
 
 ```csharp
 protected override void BuildTargetTool(Builder buiTarget, Builder buiTool)
@@ -153,7 +153,7 @@ protected override void BuildTargetTool(Builder buiTarget, Builder buiTool)
 
 `buiTool` Builder
 
-### <a id="VM_Managed_DAFUL_Builder_Boolean_1_CheckValid_VM_Managed_Document_System_Collections_Generic_List_VM_Managed_CAD_Body__"></a> CheckValid\(Document, List<Body\>\)
+### CheckValid\(Document, List<Body\>\)
 
 ```csharp
 protected virtual bool CheckValid(Document doc, List<Body> lstBodies)
@@ -169,9 +169,10 @@ protected virtual bool CheckValid(Document doc, List<Body> lstBodies)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Boolean_1_DeleteToolBody"></a> DeleteToolBody\(\)
+### DeleteToolBody\(\)
 
 ```csharp
 protected override void DeleteToolBody()
 ```
+
 

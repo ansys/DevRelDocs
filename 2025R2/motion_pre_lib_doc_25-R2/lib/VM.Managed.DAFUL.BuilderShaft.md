@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BuilderShaft"></a> Class BuilderShaft
+# Class BuilderShaft
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -193,7 +193,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_BuilderShaft__ctor"></a> BuilderShaft\(\)
+### BuilderShaft\(\)
 
 ```csharp
 public BuilderShaft()
@@ -201,7 +201,7 @@ public BuilderShaft()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_BallDiameter"></a> BallDiameter
+### BallDiameter
 
 Gets and sets the ball diameter.
 
@@ -213,7 +213,7 @@ public Variable BallDiameter { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_IsRight"></a> IsRight
+### IsRight
 
 Gets or sets a value indicating whether screw is right handed.
 
@@ -225,7 +225,7 @@ public bool IsRight { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_Lead"></a> Lead
+### Lead
 
 Gets and sets the lead.
 
@@ -237,7 +237,7 @@ public Variable Lead { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_Position"></a> Position
+### Position
 
 Gets and sets the position.
 
@@ -249,7 +249,7 @@ public Vector Position { get; set; }
 
  Vector
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_ShaftChamperAngle"></a> ShaftChamperAngle
+### ShaftChamperAngle
 
 Gets and sets the shaft champer angle.
 
@@ -261,7 +261,7 @@ public Variable ShaftChamperAngle { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_ShaftConformity"></a> ShaftConformity
+### ShaftConformity
 
 Gets and sets the shaft conformity.
 
@@ -273,7 +273,7 @@ public Variable ShaftConformity { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_ShaftContactAngle"></a> ShaftContactAngle
+### ShaftContactAngle
 
 Gets and sets the shaft contact angle.
 
@@ -285,7 +285,7 @@ public Variable ShaftContactAngle { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_ShaftLength"></a> ShaftLength
+### ShaftLength
 
 Gets and sets the shaft length.
 
@@ -297,7 +297,7 @@ public Variable ShaftLength { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_ShaftOuterRadius"></a> ShaftOuterRadius
+### ShaftOuterRadius
 
 Gets and sets the shaft outer radius.
 
@@ -309,7 +309,7 @@ public Variable ShaftOuterRadius { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_ShaftPCD"></a> ShaftPCD
+### ShaftPCD
 
 Gets and sets the shaft PCD.
 
@@ -321,7 +321,7 @@ public Variable ShaftPCD { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_ShaftScrewEndLength"></a> ShaftScrewEndLength
+### ShaftScrewEndLength
 
 Gets and sets the shaft screw end length.
 
@@ -333,7 +333,7 @@ public Variable ShaftScrewEndLength { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_ShaftScrewStartAngle"></a> ShaftScrewStartAngle
+### ShaftScrewStartAngle
 
 Gets and sets the shaft screw start angle.
 
@@ -345,7 +345,7 @@ public Variable ShaftScrewStartAngle { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_ShaftScrewStartLength"></a> ShaftScrewStartLength
+### ShaftScrewStartLength
 
 Gets and sets the shaft screw start length.
 
@@ -357,7 +357,7 @@ public Variable ShaftScrewStartLength { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_ShaftShoulderRadius"></a> ShaftShoulderRadius
+### ShaftShoulderRadius
 
 Gets and sets the shaft shoulder radius.
 
@@ -369,7 +369,7 @@ public Variable ShaftShoulderRadius { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_ShaftShoulderType"></a> ShaftShoulderType
+### ShaftShoulderType
 
 Gets and sets the shaft shoulder type.
 
@@ -381,7 +381,7 @@ public ShoulderType ShaftShoulderType { get; set; }
 
  [ShoulderType](VM.Managed.DAFUL.ShoulderType.md)
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_ShaftStartArcAngle"></a> ShaftStartArcAngle
+### ShaftStartArcAngle
 
 Gets and sets the shaft start arc angle.
 
@@ -393,7 +393,7 @@ public Variable ShaftStartArcAngle { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_XAxis"></a> XAxis
+### XAxis
 
 Gets and sets the x-axis.
 
@@ -405,7 +405,7 @@ public Vector XAxis { get; set; }
 
  Vector
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_ZAxis"></a> ZAxis
+### ZAxis
 
 Gets and sets the z-axis.
 
@@ -419,7 +419,7 @@ public Vector ZAxis { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_CreateParameter"></a> CreateParameter\(\)
+### CreateParameter\(\)
 
 Create Parameter
 
@@ -431,7 +431,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_DAFUL_BuilderShaft_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 Fill Parameter
 
@@ -442,4 +442,5 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
+
 

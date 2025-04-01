@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyContact3D"></a> Class PropertyContact3D
+# Class PropertyContact3D
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -177,7 +177,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact3D__ctor"></a> PropertyContact3D\(\)
+### PropertyContact3D\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyContact3D" data-throw-if-not-resolved="false"></xref> class.
 
@@ -187,7 +187,7 @@ public PropertyContact3D()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact3D_CrossCheck"></a> CrossCheck
+### CrossCheck
 
 Gets or sets a value indicating whether [action and base cross check].
 
@@ -200,7 +200,7 @@ public bool CrossCheck { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact3D_IncrementTime"></a> IncrementTime
+### IncrementTime
 
 Gets or sets the value of increment time.
 
@@ -212,7 +212,7 @@ public ExpressionValueVariable IncrementTime { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact3D_InternalPointFactor"></a> InternalPointFactor
+### InternalPointFactor
 
 Gets or sets the factor of internal point.
 
@@ -224,7 +224,7 @@ public ExpressionValueVariable InternalPointFactor { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact3D_LimitIncrementInNR"></a> LimitIncrementInNR
+### LimitIncrementInNR
 
 Gets or sets the value of limit increment in NR.
 
@@ -236,7 +236,7 @@ public ExpressionValueVariable LimitIncrementInNR { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact3D_PointCheck"></a> PointCheck
+### PointCheck
 
 Gets or sets the point check type.
 
@@ -248,7 +248,7 @@ public PropertyContact3D.PointCheckType PointCheck { get; set; }
 
  [PropertyContact3D](VM.Managed.DAFUL.Contact.PropertyContact3D.md).[PointCheckType](VM.Managed.DAFUL.Contact.PropertyContact3D.PointCheckType.md)
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact3D_UseIncrementTime"></a> UseIncrementTime
+### UseIncrementTime
 
 Gets or sets a value indicating whether [use value of increment time].
 
@@ -260,7 +260,7 @@ public bool UseIncrementTime { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact3D_UseInternalPointFactor"></a> UseInternalPointFactor
+### UseInternalPointFactor
 
 Gets or sets a value indicating whether [use internal point].
 
@@ -272,7 +272,7 @@ public bool UseInternalPointFactor { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact3D_UseLimitIncrementInNR"></a> UseLimitIncrementInNR
+### UseLimitIncrementInNR
 
 Gets or sets a value indicating whether [use value of limit increment in NR].
 
@@ -284,7 +284,7 @@ public bool UseLimitIncrementInNR { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact3D_UseNodeOnlyOption"></a> UseNodeOnlyOption
+### UseNodeOnlyOption
 
 Gets or sets a value indicating whether [use node only option].
 
@@ -296,7 +296,7 @@ public bool UseNodeOnlyOption { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact3D_UseSlidingOnlyOption"></a> UseSlidingOnlyOption
+### UseSlidingOnlyOption
 
 Gets or sets a value indicating whether [use sliding only option].
 
@@ -310,7 +310,7 @@ public bool UseSlidingOnlyOption { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact3D_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -324,7 +324,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact3D_LoadOldVersion_System_Boolean_"></a> LoadOldVersion\(bool\)
+### LoadOldVersion\(bool\)
 
 Execute when load old version (lower and equal 6.1).
 
@@ -342,7 +342,7 @@ The cross check flag.
 
  [PropertyContact3D](VM.Managed.DAFUL.Contact.PropertyContact3D.md).[PointCheckType](VM.Managed.DAFUL.Contact.PropertyContact3D.PointCheckType.md)
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContact3D_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -355,4 +355,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

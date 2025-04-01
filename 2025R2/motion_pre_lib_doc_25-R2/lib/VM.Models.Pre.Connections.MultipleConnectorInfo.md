@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Connections_MultipleConnectorInfo"></a> Class MultipleConnectorInfo
+# Class MultipleConnectorInfo
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Connections_MultipleConnectorInfo__ctor"></a> MultipleConnectorInfo\(\)
+### MultipleConnectorInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Connections.MultipleConnectorInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public MultipleConnectorInfo()
 
 ## Properties
 
-### <a id="VM_Models_Pre_Connections_MultipleConnectorInfo_ConnectableEntity"></a> ConnectableEntity
+### ConnectableEntity
 
 Gets or sets the connectable entity.
 
@@ -118,7 +118,7 @@ public IConnectable ConnectableEntity { get; set; }
 
  IConnectable
 
-### <a id="VM_Models_Pre_Connections_MultipleConnectorInfo_Transformation"></a> Transformation
+### Transformation
 
 Gets or sets the transformation.
 
@@ -130,7 +130,7 @@ public TransformBase Transformation { get; set; }
 
  TransformBase
 
-### <a id="VM_Models_Pre_Connections_MultipleConnectorInfo__ConnectableEntity"></a> \_ConnectableEntity
+### \_ConnectableEntity
 
 Gets or sets the connectable entity.
 
@@ -141,4 +141,5 @@ public Linker<IConnectable> _ConnectableEntity { get; set; }
 #### Property Value
 
  Linker<IConnectable\>
+
 

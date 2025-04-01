@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_RebuildHiddenDocOp"></a> Class RebuildHiddenDocOp
+# Class RebuildHiddenDocOp
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -75,7 +75,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_History_RebuildHiddenDocOp__ctor_System_Collections_Generic_IEnumerable_System_UIntPtr__"></a> RebuildHiddenDocOp\(IEnumerable<UIntPtr\>\)
+### RebuildHiddenDocOp\(IEnumerable<UIntPtr\>\)
 
 ```csharp
 public RebuildHiddenDocOp(IEnumerable<UIntPtr> lstEntity)
@@ -85,7 +85,7 @@ public RebuildHiddenDocOp(IEnumerable<UIntPtr> lstEntity)
 
 `lstEntity` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\>
 
-### <a id="VM_Managed_History_RebuildHiddenDocOp__ctor"></a> RebuildHiddenDocOp\(\)
+### RebuildHiddenDocOp\(\)
 
 ```csharp
 public RebuildHiddenDocOp()
@@ -93,7 +93,7 @@ public RebuildHiddenDocOp()
 
 ## Properties
 
-### <a id="VM_Managed_History_RebuildHiddenDocOp_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -107,11 +107,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_History_RebuildHiddenDocOp_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
+
 

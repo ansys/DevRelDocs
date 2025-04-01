@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MultiObjectConnection"></a> Class MultiObjectConnection
+# Class MultiObjectConnection
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MultiObjectConnection__ctor"></a> MultiObjectConnection\(\)
+### MultiObjectConnection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectConnection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectConnec
 public MultiObjectConnection()
 ```
 
-### <a id="VM_Managed_DAFUL_MultiObjectConnection__ctor_VM_Managed_ObjectBase_"></a> MultiObjectConnection\(ObjectBase\)
+### MultiObjectConnection\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectConnection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ The connection object.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MultiObjectConnection_Connection"></a> Connection
+### Connection
 
 Gets or sets the connection object.
 
@@ -138,7 +138,7 @@ public ObjectBase Connection { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MultiObjectConnection_GetConnection_System_Object_System_Object_"></a> GetConnection\(object, object\)
+### GetConnection\(object, object\)
 
 Gets the connection object with base-action connection information.
 
@@ -160,11 +160,12 @@ The action object for the connection object.
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_MultiObjectConnection_Reset"></a> Reset\(\)
+### Reset\(\)
 
 Initializes the connection object with base-action connection information..
 
 ```csharp
 public abstract void Reset()
 ```
+
 

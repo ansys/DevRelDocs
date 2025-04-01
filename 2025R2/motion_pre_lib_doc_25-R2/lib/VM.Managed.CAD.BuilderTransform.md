@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderTransform"></a> Class BuilderTransform
+# Class BuilderTransform
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -187,7 +187,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderTransform__ctor"></a> BuilderTransform\(\)
+### BuilderTransform\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderTransform" data-throw-if-not-resolved="false"></xref> class
 
@@ -197,7 +197,7 @@ public BuilderTransform()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderTransform_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Gets the parametric.
 
@@ -211,7 +211,7 @@ public virtual bool IsParameterized { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderTransform_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
+### SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -224,4 +224,5 @@ public virtual void SetTransform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform info.
+
 

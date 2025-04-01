@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_AddReportFile"></a> Class AddReportFile
+# Class AddReportFile
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_AddReportFile__ctor_System_String_System_String_"></a> AddReportFile\(string, string\)
+### AddReportFile\(string, string\)
 
 ```csharp
 public AddReportFile(string strOutputName, string strFilePath)
@@ -91,7 +91,7 @@ public AddReportFile(string strOutputName, string strFilePath)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_AddReportFile_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 ```csharp
 public override bool IsHistoryMerge { get; }
@@ -101,7 +101,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_AddReportFile_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -115,11 +115,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_AddReportFile_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric"></a> Namespace VM.Managed.Symmetric
+# Namespace VM.Managed.Symmetric
 
 ### Namespaces
 
@@ -137,4 +137,5 @@ This interface is to represent the symmetric updater.
  [ISymmetricUpdaterAfterAddDoc](VM.Managed.Symmetric.ISymmetricUpdaterAfterAddDoc.md)
 
 This interface is to represent the symmetric updater.
+
 

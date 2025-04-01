@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IUnitChange"></a> Interface IUnitChange
+# Interface IUnitChange
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -17,7 +17,7 @@ public interface IUnitChange
 
 ## Methods
 
-### <a id="VM_Managed_IUnitChange_ChangeUnit_VM_Unit_"></a> ChangeUnit\(Unit\)
+### ChangeUnit\(Unit\)
 
 Changes the unit.
 
@@ -30,4 +30,5 @@ void ChangeUnit(Unit unit)
 `unit` Unit
 
 The unit.
+
 

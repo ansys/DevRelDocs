@@ -1,4 +1,4 @@
-# <a id="VM_Managed_InstanceContainer_InterfaceTable"></a> Class InstanceContainer.InterfaceTable
+# Class InstanceContainer.InterfaceTable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_InstanceContainer_InterfaceTable__ctor"></a> InterfaceTable\(\)
+### InterfaceTable\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.InstanceContainer.InterfaceTable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.InstanceContainer.Inter
 public InterfaceTable()
 ```
 
-### <a id="VM_Managed_InstanceContainer_InterfaceTable__ctor_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> InterfaceTable\(ObjectBase, ObjectBase\)
+### InterfaceTable\(ObjectBase, ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.InstanceContainer.InterfaceTable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ public InterfaceTable(ObjectBase from, ObjectBase to)
 
 ## Properties
 
-### <a id="VM_Managed_InstanceContainer_InterfaceTable_FromReference"></a> FromReference
+### FromReference
 
 Gets or sets the [from object].
 
@@ -136,7 +136,7 @@ public ObjectBase FromReference { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_InstanceContainer_InterfaceTable_ReferenceFrom"></a> ReferenceFrom
+### ReferenceFrom
 
 Obsolete
 
@@ -149,7 +149,7 @@ public ObjectBase ReferenceFrom { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_InstanceContainer_InterfaceTable_ReferenceTo"></a> ReferenceTo
+### ReferenceTo
 
 Obsolete
 
@@ -162,7 +162,7 @@ public ObjectBase ReferenceTo { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_InstanceContainer_InterfaceTable_SelectName"></a> SelectName
+### SelectName
 
 Gets or sets the selected name among of the names.
 
@@ -174,7 +174,7 @@ public string SelectName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_InstanceContainer_InterfaceTable_ToReference"></a> ToReference
+### ToReference
 
 Gets or sets the [to object].
 
@@ -188,7 +188,7 @@ public ObjectBase ToReference { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_InstanceContainer_InterfaceTable_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -206,7 +206,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_InstanceContainer_InterfaceTable_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -219,4 +219,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

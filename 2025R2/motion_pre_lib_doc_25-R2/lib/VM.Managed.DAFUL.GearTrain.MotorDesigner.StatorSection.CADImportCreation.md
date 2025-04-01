@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CADImportCreation"></a> Class MotorDesigner.StatorSection.CADImportCreation
+# Class MotorDesigner.StatorSection.CADImportCreation
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -104,7 +104,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CADImportCreation__ctor"></a> CADImportCreation\(\)
+### CADImportCreation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.StatorSection.CADImportCreation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ public CADImportCreation()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CADImportCreation_FilePath"></a> FilePath
+### FilePath
 
 Gets or sets the file path.
 
@@ -126,7 +126,7 @@ public string FilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CADImportCreation_MountingOuterRound"></a> MountingOuterRound
+### MountingOuterRound
 
 Gets or sets the mounting outer round.
 
@@ -138,7 +138,7 @@ public ExpressionValueVariable MountingOuterRound { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CADImportCreation_MountingRadius"></a> MountingRadius
+### MountingRadius
 
 Gets or sets the mounting radius.
 
@@ -150,7 +150,7 @@ public ExpressionValueVariable MountingRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CADImportCreation_NumberOfMounting"></a> NumberOfMounting
+### NumberOfMounting
 
 Gets or sets the number of mounting.
 
@@ -162,7 +162,7 @@ public ExpressionValueVariable NumberOfMounting { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CADImportCreation_NumberOfSlot"></a> NumberOfSlot
+### NumberOfSlot
 
 Gets or sets the number of slot.
 
@@ -174,7 +174,7 @@ public ExpressionValueVariable NumberOfSlot { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CADImportCreation_TiltedAngle"></a> TiltedAngle
+### TiltedAngle
 
 Gets or sets the tilted angle.
 
@@ -186,7 +186,7 @@ public ExpressionValueVariable TiltedAngle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CADImportCreation_TypeOfGeometryCreation"></a> TypeOfGeometryCreation
+### TypeOfGeometryCreation
 
 Gets the geometry creation type.
 
@@ -200,7 +200,7 @@ public override MotorDesigner.GeometryCreationType TypeOfGeometryCreation { get;
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CADImportCreation_AnalysisCAD_VM_Managed_Document3D_System_String_"></a> AnalysisCAD\(Document3D, string\)
+### AnalysisCAD\(Document3D, string\)
 
 Analysis CAD
 
@@ -229,7 +229,7 @@ geometry paramter
             item4 : MountingRadius
             item5 : MountingOuterRound
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CADImportCreation_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -242,4 +242,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

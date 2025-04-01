@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo"></a> Class DocCreateCarAnalysisInfo
+# Class DocCreateCarAnalysisInfo
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -39,7 +39,7 @@ DocCreateInfo.DocumentName
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo__ctor"></a> DocCreateCarAnalysisInfo\(\)
+### DocCreateCarAnalysisInfo\(\)
 
 ```csharp
 public DocCreateCarAnalysisInfo()
@@ -47,7 +47,7 @@ public DocCreateCarAnalysisInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_GravityX"></a> GravityX
+### GravityX
 
 Gets or sets the X coordinate of gravity.
 
@@ -59,7 +59,7 @@ public double GravityX { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_GravityY"></a> GravityY
+### GravityY
 
 Gets or sets the gravity Y coordinate of gravity.
 
@@ -71,7 +71,7 @@ public double GravityY { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_GravityZ"></a> GravityZ
+### GravityZ
 
 Gets or sets the gravity Z coordinate of gravity.
 
@@ -83,7 +83,7 @@ public double GravityZ { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_IconSize"></a> IconSize
+### IconSize
 
 Gets or sets the icon size.
 
@@ -95,7 +95,7 @@ public double IconSize { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_IncrementTime"></a> IncrementTime
+### IncrementTime
 
 Gets or sets the increment time.
 
@@ -107,7 +107,7 @@ public double IncrementTime { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_UseIncrementTime"></a> UseIncrementTime
+### UseIncrementTime
 
 Gets or sets the use increment time.
 
@@ -118,4 +118,5 @@ public bool UseIncrementTime { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

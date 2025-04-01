@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_IPropDlg"></a> Interface IPropDlg
+# Interface IPropDlg
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  
@@ -20,7 +20,7 @@ public interface IPropDlg : IStdModelessDialog, IStdDialog
 
 ## Properties
 
-### <a id="VM_NX_Dialog_IPropDlg_AllowMulti"></a> AllowMulti
+### AllowMulti
 
 ```csharp
 bool AllowMulti { get; }
@@ -30,7 +30,7 @@ bool AllowMulti { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IPropDlg_IsCreate"></a> IsCreate
+### IsCreate
 
 ```csharp
 bool IsCreate { get; set; }
@@ -40,7 +40,7 @@ bool IsCreate { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IPropDlg_IsMulti"></a> IsMulti
+### IsMulti
 
 ```csharp
 bool IsMulti { get; }
@@ -50,7 +50,7 @@ bool IsMulti { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IPropDlg_IsReadOnly"></a> IsReadOnly
+### IsReadOnly
 
 ```csharp
 bool IsReadOnly { get; set; }
@@ -60,7 +60,7 @@ bool IsReadOnly { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IPropDlg_Tag"></a> Tag
+### Tag
 
 ```csharp
 UIntPtr Tag { get; set; }
@@ -72,7 +72,7 @@ UIntPtr Tag { get; set; }
 
 ## Methods
 
-### <a id="VM_NX_Dialog_IPropDlg_GetPage_System_String_"></a> GetPage\(string\)
+### GetPage\(string\)
 
 ```csharp
 IPropPage GetPage(string strPageName)
@@ -86,7 +86,7 @@ IPropPage GetPage(string strPageName)
 
  [IPropPage](VM.NX.Dialog.IPropPage.md)
 
-### <a id="VM_NX_Dialog_IPropDlg_Redraw_System_Double_"></a> Redraw\(double\)
+### Redraw\(double\)
 
 ```csharp
 void Redraw(double dIconSize)
@@ -96,7 +96,7 @@ void Redraw(double dIconSize)
 
 `dIconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_NX_Dialog_IPropDlg_SetInputData_System_String_"></a> SetInputData\(string\)
+### SetInputData\(string\)
 
 ```csharp
 bool SetInputData(string strInput)
@@ -110,7 +110,7 @@ bool SetInputData(string strInput)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IPropDlg_UpdateAllPage_System_Windows_Forms_Form_"></a> UpdateAllPage\(Form\)
+### UpdateAllPage\(Form\)
 
 ```csharp
 void UpdateAllPage(Form formFrom)
@@ -119,4 +119,5 @@ void UpdateAllPage(Form formFrom)
 #### Parameters
 
 `formFrom` [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form)
+
 

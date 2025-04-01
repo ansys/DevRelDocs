@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_OpenDocumentInfo"></a> Class OpenDocumentInfo
+# Class OpenDocumentInfo
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -20,7 +20,7 @@ public class OpenDocumentInfo
 
 ## Constructors
 
-### <a id="VM_CAD_Kernel_OpenDocumentInfo__ctor"></a> OpenDocumentInfo\(\)
+### OpenDocumentInfo\(\)
 
 ```csharp
 public OpenDocumentInfo()
@@ -28,7 +28,7 @@ public OpenDocumentInfo()
 
 ## Properties
 
-### <a id="VM_CAD_Kernel_OpenDocumentInfo_ConversionMethod"></a> ConversionMethod
+### ConversionMethod
 
 ```csharp
 public ConversionMethod ConversionMethod { get; set; }
@@ -38,7 +38,7 @@ public ConversionMethod ConversionMethod { get; set; }
 
  [ConversionMethod](VM.CAD.Kernel.ConversionMethod.md)
 
-### <a id="VM_CAD_Kernel_OpenDocumentInfo_DocumentType"></a> DocumentType
+### DocumentType
 
 ```csharp
 public DocumentType DocumentType { get; set; }
@@ -48,7 +48,7 @@ public DocumentType DocumentType { get; set; }
 
  DocumentType
 
-### <a id="VM_CAD_Kernel_OpenDocumentInfo_FilePath"></a> FilePath
+### FilePath
 
 ```csharp
 public string FilePath { get; set; }
@@ -58,7 +58,7 @@ public string FilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_CAD_Kernel_OpenDocumentInfo_LoadPrior242Sp3Files"></a> LoadPrior242Sp3Files
+### LoadPrior242Sp3Files
 
 ```csharp
 public bool LoadPrior242Sp3Files { get; set; }
@@ -68,7 +68,7 @@ public bool LoadPrior242Sp3Files { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_CAD_Kernel_OpenDocumentInfo_Offset"></a> Offset
+### Offset
 
 ```csharp
 public long Offset { get; set; }
@@ -77,4 +77,5 @@ public long Offset { get; set; }
 #### Property Value
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
+
 

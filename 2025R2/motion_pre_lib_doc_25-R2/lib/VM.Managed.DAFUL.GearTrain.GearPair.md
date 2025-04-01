@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearPair"></a> Class GearPair
+# Class GearPair
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPair__ctor"></a> GearPair\(\)
+### GearPair\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearPair" data-throw-if-not-resolved="false"></xref> class.
 
@@ -177,7 +177,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearPai
 public GearPair()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPair__ctor_System_String_"></a> GearPair\(string\)
+### GearPair\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearPair" data-throw-if-not-resolved="false"></xref> class.
 
@@ -193,7 +193,7 @@ Name of the sub entity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPair_DrivenGeometryInformation"></a> DrivenGeometryInformation
+### DrivenGeometryInformation
 
 Gets or sets the driven geometry information.
 
@@ -205,7 +205,7 @@ public GearGeometryInfo DrivenGeometryInformation { get; set; }
 
  [GearGeometryInfo](VM.Managed.DAFUL.GearTrain.GearGeometryInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPair_DrivingGeometryInformation"></a> DrivingGeometryInformation
+### DrivingGeometryInformation
 
 Gets or sets the driving geometry information.
 
@@ -217,7 +217,7 @@ public GearGeometryInfo DrivingGeometryInformation { get; set; }
 
  [GearGeometryInfo](VM.Managed.DAFUL.GearTrain.GearGeometryInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPair_PredefinedPIs"></a> PredefinedPIs
+### PredefinedPIs
 
 Gets the array of predefined performance index.
 
@@ -229,7 +229,7 @@ public PerformanceIndexInformation[] PredefinedPIs { get; }
 
  [PerformanceIndexInformation](VM.Managed.DAFUL.GearTrain.PerformanceIndexInformation.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPair_ResultSummary"></a> ResultSummary
+### ResultSummary
 
 Gets or sets the result summary.
 Use SetResultSummary() when this instance sets for undo/redo
@@ -244,7 +244,7 @@ public GearPair.Summary ResultSummary { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Contains_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> Contains\(GearGeometryInfo\)
+### Contains\(GearGeometryInfo\)
 
 Determines whether [contains] [the specified information].
 
@@ -262,7 +262,7 @@ The information.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPair_GetGearPair_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> GetGearPair\(GearGeometryInfo\)
+### GetGearPair\(GearGeometryInfo\)
 
 Gets the gear pair.
 
@@ -280,7 +280,7 @@ The information.
 
  [GearGeometryInfo](VM.Managed.DAFUL.GearTrain.GearGeometryInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -294,7 +294,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPair_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -308,7 +308,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPair_SetResultSummary_System_Xml_XmlNode_"></a> SetResultSummary\(XmlNode\)
+### SetResultSummary\(XmlNode\)
 
 Sets the result summary.
 
@@ -322,7 +322,7 @@ public void SetResultSummary(XmlNode node)
 
 The node.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPair_SetResultSummary_System_Double_"></a> SetResultSummary\(double\)
+### SetResultSummary\(double\)
 
 Sets the result summary.
 
@@ -336,7 +336,7 @@ public void SetResultSummary(double dCenterDIstance)
 
 The center distance.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPair_SetResultSummary_VM_Managed_DAFUL_GearTrain_GearPair_Summary_"></a> SetResultSummary\(Summary\)
+### SetResultSummary\(Summary\)
 
 Set result summary.
 
@@ -349,4 +349,5 @@ public void SetResultSummary(GearPair.Summary summary)
 `summary` [GearPair](VM.Managed.DAFUL.GearTrain.GearPair.md).[Summary](VM.Managed.DAFUL.GearTrain.GearPair.Summary.md)
 
 The result summary.
+
 

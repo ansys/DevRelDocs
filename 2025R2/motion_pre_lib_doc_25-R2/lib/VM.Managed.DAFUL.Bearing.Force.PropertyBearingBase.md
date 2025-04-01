@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingBase"></a> Class PropertyBearingBase
+# Class PropertyBearingBase
 
 Namespace: [VM.Managed.DAFUL.Bearing.Force](VM.Managed.DAFUL.Bearing.Force.md)  
 Assembly: VMDBearing.dll  
@@ -174,7 +174,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingBase__ctor"></a> PropertyBearingBase\(\)
+### PropertyBearingBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.PropertyBearingBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -184,7 +184,7 @@ public PropertyBearingBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingBase_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -195,4 +195,5 @@ public override sealed ArgumentTypes ArgumentType { get; }
 #### Property Value
 
  ArgumentTypes
+
 

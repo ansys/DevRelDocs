@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Container"></a> Class Container
+# Class Container
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Container__ctor_VM_Models_Pre_IOwned_"></a> Container\(IOwned\)
+### Container\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.LinkContainer.Container" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ public Container(IOwned obParent)
 
 The owner object.
 
-### <a id="VM_Managed_Container__ctor"></a> Container\(\)
+### Container\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.LinkContainer.Container" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ public Container()
 
 ## Methods
 
-### <a id="VM_Managed_Container_Find_System_String_"></a> Find\(string\)
+### Find\(string\)
 
 Find DAFUL object from the container by full name.
 
@@ -145,7 +145,7 @@ The DAFUL object full name.
 
 The DAFUL object.
 
-### <a id="VM_Managed_Container_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Find DAFUL object from the container by name.
 
@@ -165,7 +165,7 @@ The DAFUL object name.
 
 The DAFUL object.
 
-### <a id="VM_Managed_Container_GetNewEntityName_System_String_System_Boolean_System_Int32_System_Int32_"></a> GetNewEntityName\(string, bool, int, int\)
+### GetNewEntityName\(string, bool, int, int\)
 
 Generate an unique DAFUL object name from the container using the prefix name.
 
@@ -197,7 +197,7 @@ The start index.
 
 The DAFUL object name.
 
-### <a id="VM_Managed_Container_GetNewEntityName_System_String_System_Boolean_System_Int32_"></a> GetNewEntityName\(string, bool, int\)
+### GetNewEntityName\(string, bool, int\)
 
 Generate an unique DAFUL object name from the container using the prefix name.
 
@@ -225,7 +225,7 @@ The Number of Figure.
 
 The DAFUL object name.
 
-### <a id="VM_Managed_Container_GetNewEntityName_System_String_"></a> GetNewEntityName\(string\)
+### GetNewEntityName\(string\)
 
 Generate an unique DAFUL object name from the container using the prefix name.
 
@@ -245,7 +245,7 @@ The DAFUL object prefix name.
 
 The DAFUL object name.
 
-### <a id="VM_Managed_Container_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Get an unnamed object name.
 
@@ -264,4 +264,5 @@ The unnamed object.
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The unnamed object name.
+
 

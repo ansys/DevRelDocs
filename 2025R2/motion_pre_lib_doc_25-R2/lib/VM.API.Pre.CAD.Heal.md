@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_CAD_Heal"></a> Class Heal
+# Class Heal
 
 Namespace: [VM.API.Pre.CAD](VM.API.Pre.CAD.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class Heal
 
 ## Methods
 
-### <a id="VM_API_Pre_CAD_Heal_HasDefect_VM_Managed_CAD_Body_System_Action_System_String__System_Boolean_"></a> HasDefect\(Body, Action<string\>, bool\)
+### HasDefect\(Body, Action<string\>, bool\)
 
 Check if the body has defect.
 
@@ -50,7 +50,7 @@ The flag whether showing the detailed information.
 
 The error type.
 
-### <a id="VM_API_Pre_CAD_Heal_HasDefect_VM_Managed_CAD_IGeometryContainer_System_Action_System_String__System_Boolean_"></a> HasDefect\(IGeometryContainer, Action<string\>, bool\)
+### HasDefect\(IGeometryContainer, Action<string\>, bool\)
 
 Check if the geometry container has defect.
 
@@ -78,7 +78,7 @@ The flag whether showing the detailed information.
 
 The error type.
 
-### <a id="VM_API_Pre_CAD_Heal_HasDefect_VM_API_Pre_Obj_System_Action_System_String__System_Boolean_"></a> HasDefect\(Obj, Action<string\>, bool\)
+### HasDefect\(Obj, Action<string\>, bool\)
 
 ```csharp
 [NotNullObj(new string[] { "entity" })]
@@ -97,7 +97,7 @@ public static int HasDefect(Obj entity, Action<string> actOutMessage = null, boo
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_API_Pre_CAD_Heal_Repair_VM_Managed_CAD_Body_System_Action_System_String__"></a> Repair\(Body, Action<string\>\)
+### Repair\(Body, Action<string\>\)
 
 Repair the body.
 
@@ -121,7 +121,7 @@ The action delegate for output message.
 
 The error type.
 
-### <a id="VM_API_Pre_CAD_Heal_Repair_VM_Managed_CAD_IGeometryContainer_System_Action_System_String__"></a> Repair\(IGeometryContainer, Action<string\>\)
+### Repair\(IGeometryContainer, Action<string\>\)
 
 Repair the geometry container.
 
@@ -145,7 +145,7 @@ The action delegate for output message.
 
 The error type.
 
-### <a id="VM_API_Pre_CAD_Heal_Repair_VM_API_Pre_Obj_System_Action_System_String__"></a> Repair\(Obj, Action<string\>\)
+### Repair\(Obj, Action<string\>\)
 
 ```csharp
 [NotNullObj(new string[] { "entity" })]
@@ -161,4 +161,5 @@ public static int Repair(Obj entity, Action<string> actOutMessage = null)
 #### Returns
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

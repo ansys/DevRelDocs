@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocument"></a> Class OpenDocument
+# Class OpenDocument
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocument__ctor_System_String_System_Boolean_VM_Managed_DAFUL_Dialog_Track_UCTrackPlacing_"></a> OpenDocument\(string, bool, UCTrackPlacing\)
+### OpenDocument\(string, bool, UCTrackPlacing\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.OpenDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -101,7 +101,7 @@ The placing.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocument_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -115,7 +115,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocument_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -123,7 +123,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocument_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -137,11 +137,12 @@ public override void GetInformation(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocument_PostExecute"></a> PostExecute\(\)
+### PostExecute\(\)
 
 PostExecute the operation.
 
 ```csharp
 public override void PostExecute()
 ```
+
 

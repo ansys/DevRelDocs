@@ -1,4 +1,4 @@
-# <a id="VM_Models_ProjectObjectBase"></a> Class ProjectObjectBase
+# Class ProjectObjectBase
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -49,7 +49,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_ProjectObjectBase__ctor"></a> ProjectObjectBase\(\)
+### ProjectObjectBase\(\)
 
 ```csharp
 protected ProjectObjectBase()
@@ -57,7 +57,7 @@ protected ProjectObjectBase()
 
 ## Properties
 
-### <a id="VM_Models_ProjectObjectBase_DisplayName"></a> DisplayName
+### DisplayName
 
 ```csharp
 [Browsable(false)]
@@ -68,7 +68,7 @@ public virtual string DisplayName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_ProjectObjectBase_ID"></a> ID
+### ID
 
 ```csharp
 [Browsable(false)]
@@ -79,7 +79,7 @@ public virtual Identifier ID { get; }
 
  Identifier
 
-### <a id="VM_Models_ProjectObjectBase_Name"></a> Name
+### Name
 
 ```csharp
 public virtual string Name { get; set; }
@@ -91,13 +91,13 @@ public virtual string Name { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_ProjectObjectBase_DisposeManagedResources"></a> DisposeManagedResources\(\)
+### DisposeManagedResources\(\)
 
 ```csharp
 protected override void DisposeManagedResources()
 ```
 
-### <a id="VM_Models_ProjectObjectBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 ```csharp
 public virtual void OnDeserialization(object sender)
@@ -106,4 +106,5 @@ public virtual void OnDeserialization(object sender)
 #### Parameters
 
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
 

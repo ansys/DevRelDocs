@@ -1,9 +1,9 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard"></a> Class ConcentratedLoadStandard
+# Class ConcentratedLoadStandard
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
 
-This class is to represent the characteristic properties of standard type.
+<p>This class is to represent the characteristic properties of standard type.</p>
 
 ```csharp
 public sealed class ConcentratedLoadStandard : ConcentratedLoadFunction, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable, IReserved
@@ -78,9 +78,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard__ctor"></a> ConcentratedLoadStandard\(\)
+### ConcentratedLoadStandard\(\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public ConcentratedLoadStandard()
@@ -88,9 +90,22 @@ public ConcentratedLoadStandard()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_ForceFunction"></a> ForceFunction
+### ForceFunction
 
-Gets or sets the force function.
+<p>Gets or sets the force function.</p>
+<p>힘 함수를 가져오거나 넣어줍니다.</p>
+<p>
+        Type : ElementFunction
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : false
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public ElementFunction ForceFunction { get; set; }
@@ -100,9 +115,28 @@ public ElementFunction ForceFunction { get; set; }
 
  [ElementFunction](VM.Managed.DAFUL.Flexible.Force.ElementFunction.md)
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_FunctionDirectionType"></a> FunctionDirectionType
+### FunctionDirectionType
 
-Gets or sets the type of the direction.
+<p>Gets or sets the type of the direction.</p>
+<p>방향의 타입을 가져오거나 넣어줍니다.</p>
+<p>
+        Type : DirectionType
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Direction Type
+        Control Type : N/A
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Load
+        Category Index : 1
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public ConcentratedLoadStandard.DirectionType FunctionDirectionType { get; set; }
@@ -112,9 +146,22 @@ public ConcentratedLoadStandard.DirectionType FunctionDirectionType { get; set; 
 
  [ConcentratedLoadStandard](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.md).[DirectionType](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.DirectionType.md)
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_TorqueFunction"></a> TorqueFunction
+### TorqueFunction
 
-Gets or sets the torque function.
+<p>Gets or sets the torque function.</p>
+<p>회전력 함수를 가져오거나 넣어줍니다.</p>
+<p>
+        Type : ElementFunction
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : false
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public ElementFunction TorqueFunction { get; set; }
@@ -124,9 +171,10 @@ public ElementFunction TorqueFunction { get; set; }
 
  [ElementFunction](VM.Managed.DAFUL.Flexible.Force.ElementFunction.md)
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_Type"></a> Type
+### Type
 
-Gets the function type.
+<p>Gets the function type.</p>
+<p>함수 타입을 가져오거나 넣어줍니다.</p>
 
 ```csharp
 public override ConcentratedLoadFunction.FunctionType Type { get; }
@@ -136,9 +184,22 @@ public override ConcentratedLoadFunction.FunctionType Type { get; }
 
  [ConcentratedLoadFunction](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction.md).[FunctionType](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction.FunctionType.md)
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_UseForceFunction"></a> UseForceFunction
+### UseForceFunction
 
-Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.ForceFunction" data-throw-if-not-resolved="false"></xref> is use.
+<p>Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.ForceFunction" data-throw-if-not-resolved="false"></xref> is use.</p>
+<p>이 <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.ForceFunction" data-throw-if-not-resolved="false"></xref> 사용 여부를 가져오거나 넣어줍니다.</p>
+<p>
+        Type : bool
+        LinkRequestUpdate 시 처리 :
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : false
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public bool UseForceFunction { get; set; }
@@ -148,9 +209,22 @@ public bool UseForceFunction { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_UseTorqueFunction"></a> UseTorqueFunction
+### UseTorqueFunction
 
-Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.TorqueFunction" data-throw-if-not-resolved="false"></xref> is use.
+<p>Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.TorqueFunction" data-throw-if-not-resolved="false"></xref> is use.</p>
+<p>이 <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.TorqueFunction" data-throw-if-not-resolved="false"></xref> 사용 여부를 가져오거나 넣어줍니다.</p>
+<p>
+        Type : bool
+        LinkRequestUpdate 시 처리 :
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : false
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public bool UseTorqueFunction { get; set; }
@@ -162,9 +236,10 @@ public bool UseTorqueFunction { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
+<p>단위 변화 팩터를 이용하여 필드를 초기화 해줍니다.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -174,5 +249,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
+<p>단위 변환 팩터.</p>
+
 

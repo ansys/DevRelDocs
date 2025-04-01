@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_ReferenceNodeset"></a> Class ReferenceNodeset
+# Class ReferenceNodeset
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -214,7 +214,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceNodeset__ctor_VM_Managed_ObjectBase_"></a> ReferenceNodeset\(ObjectBase\)
+### ReferenceNodeset\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ReferenceNodeset" data-throw-if-not-resolved="false"></xref> class.
 
@@ -228,7 +228,7 @@ public ReferenceNodeset(ObjectBase obj)
 
 The reference's object.
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceNodeset__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceNodeset\(SerializationInfo, StreamingContext\)
+### ReferenceNodeset\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ReferenceNodeset" data-throw-if-not-resolved="false"></xref> class.
 
@@ -248,7 +248,7 @@ The context.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceNodeset_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -260,7 +260,7 @@ public virtual ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceNodeset_ConnectableFullName"></a> ConnectableFullName
+### ConnectableFullName
 
 Gets the full name of the connectable.
 
@@ -272,7 +272,7 @@ public override string ConnectableFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceNodeset_ConnectableName"></a> ConnectableName
+### ConnectableName
 
 Gets the name of the connectable.
 
@@ -284,7 +284,7 @@ public override string ConnectableName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceNodeset_ConnectablePostfixName"></a> ConnectablePostfixName
+### ConnectablePostfixName
 
 Sets the postfix name of the connectable.
 
@@ -296,7 +296,7 @@ public override string ConnectablePostfixName { set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceNodeset_ParentType"></a> ParentType
+### ParentType
 
 Gets the type of the parent.
 
@@ -308,7 +308,7 @@ public override MarkerParentType ParentType { get; }
 
  MarkerParentType
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceNodeset_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -322,7 +322,7 @@ public virtual string ReferenceType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceNodeset_GetGeometryNavigatorInformation_System_Xml_XmlDocument_System_Xml_XmlElement_"></a> GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
+### GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
 
 Gets the geometry information for model navigator .
 
@@ -346,7 +346,7 @@ The XmlElement information.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceNodeset_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -372,7 +372,7 @@ The XmlElement for object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceNodeset_GetPointCount"></a> GetPointCount\(\)
+### GetPointCount\(\)
 
 Gets the count of node point.
 
@@ -386,7 +386,7 @@ public virtual uint GetPointCount()
 
 The count of node point.
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceNodeset_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
+### GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the point direction.
 
@@ -412,7 +412,7 @@ The direction.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceNodeset_GetPointPosition_System_UInt32_VM_Managed_IReferencable_"></a> GetPointPosition\(uint, IReferencable\)
+### GetPointPosition\(uint, IReferencable\)
 
 Gets the node point position.
 
@@ -434,7 +434,7 @@ The index.
 
 The node point position.
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceNodeset_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -451,4 +451,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

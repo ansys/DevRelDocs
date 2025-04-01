@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CategoryInfo"></a> Class CategoryInfo
+# Class CategoryInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class CategoryInfo
 
 ## Constructors
 
-### <a id="VM_Managed_CategoryInfo__ctor"></a> CategoryInfo\(\)
+### CategoryInfo\(\)
 
 ```csharp
 public CategoryInfo()
@@ -30,7 +30,7 @@ public CategoryInfo()
 
 ## Fields
 
-### <a id="VM_Managed_CategoryInfo_Categories"></a> Categories
+### Categories
 
 ```csharp
 public List<CategoryInfo.Category> Categories
@@ -40,7 +40,7 @@ public List<CategoryInfo.Category> Categories
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[CategoryInfo](VM.Managed.CategoryInfo.md).[Category](VM.Managed.CategoryInfo.Category.md)\>
 
-### <a id="VM_Managed_CategoryInfo_Toolkit"></a> Toolkit
+### Toolkit
 
 ```csharp
 public string Toolkit
@@ -50,7 +50,7 @@ public string Toolkit
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_CategoryInfo_TypeInfos"></a> TypeInfos
+### TypeInfos
 
 ```csharp
 public List<CategoryInfo.TypeInfo> TypeInfos
@@ -59,4 +59,5 @@ public List<CategoryInfo.TypeInfo> TypeInfos
 #### Field Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[CategoryInfo](VM.Managed.CategoryInfo.md).[TypeInfo](VM.Managed.CategoryInfo.TypeInfo.md)\>
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_ContactStandard"></a> Class ContactStandard
+# Class ContactStandard
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -83,7 +83,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard__ctor"></a> ContactStandard\(\)
+### ContactStandard\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -91,7 +91,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactSt
 public ContactStandard()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard__ctor_VM_Managed_DAFUL_Contact_PropertyContact_"></a> ContactStandard\(PropertyContact\)
+### ContactStandard\(PropertyContact\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ Owner contact property.
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard___a__a_VM_Models_Pre_LinkAttribute"></a> \_\_a$\_a\_VM.Models.Pre.LinkAttribute
+### \_\_a$\_a\_VM.Models.Pre.LinkAttribute
 
 ```csharp
 protected LinkAttribute __a$_a_VM.Models.Pre.LinkAttribute
@@ -117,7 +117,7 @@ protected LinkAttribute __a$_a_VM.Models.Pre.LinkAttribute
 
  LinkAttribute
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard___a__a_VM_Models_Pre_LinkUpdateAttribute"></a> \_\_a$\_a\_VM.Models.Pre.LinkUpdateAttribute
+### \_\_a$\_a\_VM.Models.Pre.LinkUpdateAttribute
 
 ```csharp
 protected LinkUpdateAttribute __a$_a_VM.Models.Pre.LinkUpdateAttribute
@@ -129,7 +129,7 @@ protected LinkUpdateAttribute __a$_a_VM.Models.Pre.LinkUpdateAttribute
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_ActionPoissonsRatio"></a> ActionPoissonsRatio
+### ActionPoissonsRatio
 
 Gets or sets the poisson's ratio of action surface.
 
@@ -141,7 +141,7 @@ public ExpressionValueVariable ActionPoissonsRatio { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_ActionYoungsModulus"></a> ActionYoungsModulus
+### ActionYoungsModulus
 
 Gets or sets the young's modulus of action surface.
 
@@ -153,7 +153,7 @@ public ExpressionValueVariable ActionYoungsModulus { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_BasePoissonsRatio"></a> BasePoissonsRatio
+### BasePoissonsRatio
 
 Gets or sets the poisson's ratio of base surface.
 
@@ -165,7 +165,7 @@ public ExpressionValueVariable BasePoissonsRatio { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_BaseYoungsModulus"></a> BaseYoungsModulus
+### BaseYoungsModulus
 
 Gets or sets the young's modulus of base surface.
 
@@ -177,7 +177,7 @@ public ExpressionValueVariable BaseYoungsModulus { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_BounceOffDampingFactor"></a> BounceOffDampingFactor
+### BounceOffDampingFactor
 
 Gets or sets the bounce off damping factor.
 
@@ -189,7 +189,7 @@ public ExpressionValueVariable BounceOffDampingFactor { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_BoundaryPenetration"></a> BoundaryPenetration
+### BoundaryPenetration
 
 Gets or sets the boundary penetration.
 
@@ -201,7 +201,7 @@ public ExpressionValueVariable BoundaryPenetration { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_CalculatedFromMaterial"></a> CalculatedFromMaterial
+### CalculatedFromMaterial
 
 Gets or sets a value indicating whether [Calculated from material].
 
@@ -213,7 +213,7 @@ public bool CalculatedFromMaterial { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_CalculationMethodOfContactArea"></a> CalculationMethodOfContactArea
+### CalculationMethodOfContactArea
 
 Gets or sets the calculation method of contact area.
 
@@ -225,7 +225,7 @@ public ContactStandard.CalculationMethodType CalculationMethodOfContactArea { ge
 
  [ContactStandard](VM.Managed.DAFUL.Contact.ContactStandard.md).[CalculationMethodType](VM.Managed.DAFUL.Contact.ContactStandard.CalculationMethodType.md)
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_DampCoef"></a> DampCoef
+### DampCoef
 
 Gets or sets the damping coefficient.
 
@@ -237,7 +237,7 @@ public ExpressionValueVariable DampCoef { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_DampCoefRatio"></a> DampCoefRatio
+### DampCoefRatio
 
 Gets or sets the damping coefficient ratio.
 
@@ -249,7 +249,7 @@ public ExpressionValueVariable DampCoefRatio { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_DampingSpline"></a> DampingSpline
+### DampingSpline
 
 Gets or sets the damping spline.
 
@@ -261,7 +261,7 @@ public Spline DampingSpline { get; set; }
 
  Spline
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_DampingType"></a> DampingType
+### DampingType
 
 Gets or sets the type of the damping.
 
@@ -273,7 +273,7 @@ public ContactStandard.DampingCoefficientType DampingType { get; set; }
 
  [ContactStandard](VM.Managed.DAFUL.Contact.ContactStandard.md).[DampingCoefficientType](VM.Managed.DAFUL.Contact.ContactStandard.DampingCoefficientType.md)
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_DynFriCoef"></a> DynFriCoef
+### DynFriCoef
 
 Gets or sets the dynamic friction coefficient
 
@@ -285,7 +285,7 @@ public ExpressionValueVariable DynFriCoef { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_DynThreshold"></a> DynThreshold
+### DynThreshold
 
 Gets or sets the dynamic threshold.
 
@@ -297,7 +297,7 @@ public ExpressionValueVariable DynThreshold { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_FrictionSpline"></a> FrictionSpline
+### FrictionSpline
 
 Gets or sets the friction spline.
 
@@ -309,7 +309,7 @@ public Spline FrictionSpline { get; set; }
 
  Spline
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_FrictionSplineInfo"></a> FrictionSplineInfo
+### FrictionSplineInfo
 
 Gets or sets the friction spline information.
 
@@ -321,7 +321,7 @@ public FrictionSplineInfo[] FrictionSplineInfo { get; set; }
 
  [FrictionSplineInfo](VM.Managed.DAFUL.Contact.FrictionSplineInfo.md)\[\]
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_FrictionType"></a> FrictionType
+### FrictionType
 
 Gets or sets the type of the friction.
 
@@ -333,7 +333,7 @@ public ContactStandard.InputType FrictionType { get; set; }
 
  [ContactStandard](VM.Managed.DAFUL.Contact.ContactStandard.md).[InputType](VM.Managed.DAFUL.Contact.ContactStandard.InputType.md)
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_MaxSticDeform"></a> MaxSticDeform
+### MaxSticDeform
 
 Gets or sets the max stiction deformation.
 
@@ -345,7 +345,7 @@ public ExpressionValueVariable MaxSticDeform { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_StaFriCoef"></a> StaFriCoef
+### StaFriCoef
 
 Gets or sets the static friction coefficient.
 
@@ -357,7 +357,7 @@ public ExpressionValueVariable StaFriCoef { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_SticVel"></a> SticVel
+### SticVel
 
 Gets or sets the stiction velocity.
 
@@ -369,7 +369,7 @@ public ExpressionValueVariable SticVel { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_StiffCoef"></a> StiffCoef
+### StiffCoef
 
 Gets or sets the stiffness coefficient.
 
@@ -381,7 +381,7 @@ public ExpressionValueVariable StiffCoef { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_StiffOrder"></a> StiffOrder
+### StiffOrder
 
 Gets or sets the stiffness order.
 
@@ -393,7 +393,7 @@ public ExpressionValueVariable StiffOrder { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_StiffPerContactArea"></a> StiffPerContactArea
+### StiffPerContactArea
 
 Gets or sets the stiffness per contact area.
 
@@ -405,7 +405,7 @@ public ExpressionValueVariable StiffPerContactArea { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_StiffnessSpline"></a> StiffnessSpline
+### StiffnessSpline
 
 Gets or sets the stiffness spline.
 
@@ -417,7 +417,7 @@ public Spline StiffnessSpline { get; set; }
 
  Spline
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_StiffnessType"></a> StiffnessType
+### StiffnessType
 
 Gets or sets the type of the siffness.
 
@@ -429,7 +429,7 @@ public ContactStandard.StiffnessCoefficientType StiffnessType { get; set; }
 
  [ContactStandard](VM.Managed.DAFUL.Contact.ContactStandard.md).[StiffnessCoefficientType](VM.Managed.DAFUL.Contact.ContactStandard.StiffnessCoefficientType.md)
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_ThicknessOfContactSurface"></a> ThicknessOfContactSurface
+### ThicknessOfContactSurface
 
 Gets or sets the thickness of contact surface.
 
@@ -441,7 +441,7 @@ public ExpressionValueVariable ThicknessOfContactSurface { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_Type"></a> Type
+### Type
 
 Get function type of itself.
 
@@ -453,7 +453,7 @@ public override ContactFunction.FunctionType Type { get; }
 
  [ContactFunction](VM.Managed.DAFUL.Contact.ContactFunction.md).[FunctionType](VM.Managed.DAFUL.Contact.ContactFunction.FunctionType.md)
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_UseBounceOffDampingFactor"></a> UseBounceOffDampingFactor
+### UseBounceOffDampingFactor
 
 Gets or sets a value indicating whether [use bounce off damping factor].
 
@@ -465,7 +465,7 @@ public bool UseBounceOffDampingFactor { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_UseStiction"></a> UseStiction
+### UseStiction
 
 Gets or sets a value indicating whether [use stiction].
 
@@ -479,7 +479,7 @@ public bool UseStiction { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_GetSortedFrictionSplineInfo"></a> GetSortedFrictionSplineInfo\(\)
+### GetSortedFrictionSplineInfo\(\)
 
 Gets sorted friction spline Information.
 
@@ -491,7 +491,7 @@ public FrictionSplineInfo[] GetSortedFrictionSplineInfo()
 
  [FrictionSplineInfo](VM.Managed.DAFUL.Contact.FrictionSplineInfo.md)\[\]
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -505,7 +505,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -519,7 +519,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_OnLinkReserved_VM_Managed_ILink_System_Object_System_EventArgs_"></a> OnLinkReserved\(ILink, object, EventArgs\)
+### OnLinkReserved\(ILink, object, EventArgs\)
 
 ```csharp
 protected override void OnLinkReserved(ILink link, object objNotifer, EventArgs args)
@@ -533,7 +533,7 @@ protected override void OnLinkReserved(ILink link, object objNotifer, EventArgs 
 
 `args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
+### ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -547,7 +547,7 @@ public override void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Contact_ContactStandard_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
+### WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -560,4 +560,5 @@ public override void WriteTemplate(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

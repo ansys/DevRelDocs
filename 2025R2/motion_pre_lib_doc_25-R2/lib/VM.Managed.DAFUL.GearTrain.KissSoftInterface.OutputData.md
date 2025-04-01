@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData"></a> Class KissSoftInterface.OutputData
+# Class KissSoftInterface.OutputData
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -22,7 +22,7 @@ public class KissSoftInterface.OutputData
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData__ctor"></a> OutputData\(\)
+### OutputData\(\)
 
 Constructor of outputData
 
@@ -30,7 +30,7 @@ Constructor of outputData
 public OutputData()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData__ctor_System_String_System_UInt32_System_UInt32_System_UInt32_"></a> OutputData\(string, uint, uint, uint\)
+### OutputData\(string, uint, uint, uint\)
 
 Constructor of outputData
 
@@ -58,7 +58,7 @@ The number of slice
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_AxialCrossingAngle"></a> AxialCrossingAngle
+### AxialCrossingAngle
 
 Gets or sets the axial crossing angle
 
@@ -70,7 +70,7 @@ public double AxialCrossingAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_CenterDistancePair1"></a> CenterDistancePair1
+### CenterDistancePair1
 
 Gets or sets the center distance pair1
 
@@ -82,7 +82,7 @@ public double CenterDistancePair1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_CenterDistancePair2"></a> CenterDistancePair2
+### CenterDistancePair2
 
 Gets or sets the center distance pair2
 
@@ -94,7 +94,7 @@ public double CenterDistancePair2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_CenterDistancePair3"></a> CenterDistancePair3
+### CenterDistancePair3
 
 Gets or sets the center distance pair3
 
@@ -106,7 +106,7 @@ public double CenterDistancePair3 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_FilePath"></a> FilePath
+### FilePath
 
 Gets or sets the file path
 
@@ -118,7 +118,7 @@ public string FilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_GearDataList"></a> GearDataList
+### GearDataList
 
 Gets or sets the gear data list
 
@@ -130,7 +130,7 @@ public KissSoftInterface.GearData[] GearDataList { get; set; }
 
  [KissSoftInterface](VM.Managed.DAFUL.GearTrain.KissSoftInterface.md).[GearData](VM.Managed.DAFUL.GearTrain.KissSoftInterface.GearData.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_NormalModule"></a> NormalModule
+### NormalModule
 
 Gets or sets the normal module
 
@@ -142,7 +142,7 @@ public double NormalModule { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_NormalPressureAngle"></a> NormalPressureAngle
+### NormalPressureAngle
 
 Gets or sets the normal pressure angle
 
@@ -154,7 +154,7 @@ public double NormalPressureAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_NumberOfGear"></a> NumberOfGear
+### NumberOfGear
 
 Gets or sets the number of gear
 
@@ -166,7 +166,7 @@ public uint NumberOfGear { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_NumberOfInvolute"></a> NumberOfInvolute
+### NumberOfInvolute
 
 Gets or sets the number of involute
 
@@ -178,7 +178,7 @@ public uint NumberOfInvolute { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_NumberOfPlaneraryGear"></a> NumberOfPlaneraryGear
+### NumberOfPlaneraryGear
 
 Gets or sets the number of planerary gear
 
@@ -190,7 +190,7 @@ public uint NumberOfPlaneraryGear { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_NumberOfSlice"></a> NumberOfSlice
+### NumberOfSlice
 
 Gets or sets the number of columns
 
@@ -202,7 +202,7 @@ public uint NumberOfSlice { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_NumberOfTrochoid"></a> NumberOfTrochoid
+### NumberOfTrochoid
 
 Gets or sets the number of trochoid
 
@@ -214,7 +214,7 @@ public uint NumberOfTrochoid { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_TypeOfGear"></a> TypeOfGear
+### TypeOfGear
 
 Gets or sets the gear type
 
@@ -226,7 +226,7 @@ public KissSoftInterface.GearType TypeOfGear { get; set; }
 
  [KissSoftInterface](VM.Managed.DAFUL.GearTrain.KissSoftInterface.md).[GearType](VM.Managed.DAFUL.GearTrain.KissSoftInterface.GearType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_TypeOfGearHelicalPair"></a> TypeOfGearHelicalPair
+### TypeOfGearHelicalPair
 
 Gets or sets the gear helical pair type
 
@@ -237,4 +237,5 @@ public KissSoftInterface.GearHelicalPairType TypeOfGearHelicalPair { get; set; }
 #### Property Value
 
  [KissSoftInterface](VM.Managed.DAFUL.GearTrain.KissSoftInterface.md).[GearHelicalPairType](VM.Managed.DAFUL.GearTrain.KissSoftInterface.GearHelicalPairType.md)
+
 

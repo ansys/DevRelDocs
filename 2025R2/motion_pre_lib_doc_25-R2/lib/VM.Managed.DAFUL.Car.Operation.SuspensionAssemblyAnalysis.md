@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_SuspensionAssemblyAnalysis"></a> Class SuspensionAssemblyAnalysis
+# Class SuspensionAssemblyAnalysis
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -111,7 +111,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_SuspensionAssemblyAnalysis__ctor_VM_Managed_Document_"></a> SuspensionAssemblyAnalysis\(Document\)
+### SuspensionAssemblyAnalysis\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.SuspensionAssemblyAnalysis" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ public SuspensionAssemblyAnalysis(Document doc)
 
 The doc.
 
-### <a id="VM_Managed_DAFUL_Car_Operation_SuspensionAssemblyAnalysis__ctor_VM_Managed_Operation_JournalParameter_"></a> SuspensionAssemblyAnalysis\(JournalParameter\)
+### SuspensionAssemblyAnalysis\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.SuspensionAssemblyAnalysis" data-throw-if-not-resolved="false"></xref> class.
 
@@ -141,7 +141,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_SuspensionAssemblyAnalysis_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -155,7 +155,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_SuspensionAssemblyAnalysis_ExecuteImpl"></a> ExecuteImpl\(\)
+### ExecuteImpl\(\)
 
 Executes [implementation].
 
@@ -163,7 +163,7 @@ Executes [implementation].
 protected override void ExecuteImpl()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_SuspensionAssemblyAnalysis_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -180,4 +180,5 @@ The updater.
 `doc` Document
 
 The document.
+
 

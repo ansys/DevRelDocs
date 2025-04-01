@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track_SolidLinkLMSimple"></a> Class SolidLinkLMSimple
+# Class SolidLinkLMSimple
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -52,7 +52,7 @@ BuilderBase<BodyLink\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidLinkLMSimple__ctor"></a> SolidLinkLMSimple\(\)
+### SolidLinkLMSimple\(\)
 
 ```csharp
 public SolidLinkLMSimple()
@@ -60,7 +60,7 @@ public SolidLinkLMSimple()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Track_SolidLinkLMSimple_GetCurrentBuilder"></a> GetCurrentBuilder\(\)
+### GetCurrentBuilder\(\)
 
 ```csharp
 protected override Builder GetCurrentBuilder()
@@ -69,4 +69,5 @@ protected override Builder GetCurrentBuilder()
 #### Returns
 
  Builder
+
 

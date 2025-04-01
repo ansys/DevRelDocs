@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderReAssembly"></a> Class ShimmyJudderReAssembly
+# Class ShimmyJudderReAssembly
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -91,7 +91,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderReAssembly__ctor_VM_Managed_Document_"></a> ShimmyJudderReAssembly\(Document\)
+### ShimmyJudderReAssembly\(Document\)
 
 ```csharp
 public ShimmyJudderReAssembly(Document doc)
@@ -103,7 +103,7 @@ public ShimmyJudderReAssembly(Document doc)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderReAssembly_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -117,9 +117,10 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderReAssembly_SetDialog"></a> SetDialog\(\)
+### SetDialog\(\)
 
 ```csharp
 protected override void SetDialog()
 ```
+
 

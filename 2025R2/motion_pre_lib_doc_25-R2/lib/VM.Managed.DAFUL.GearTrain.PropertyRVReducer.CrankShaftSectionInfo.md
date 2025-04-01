@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_CrankShaftSectionInfo"></a> Class PropertyRVReducer.CrankShaftSectionInfo
+# Class PropertyRVReducer.CrankShaftSectionInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_CrankShaftSectionInfo__ctor"></a> CrankShaftSectionInfo\(\)
+### CrankShaftSectionInfo\(\)
 
 CrankShaftSectionInfo Constructor
 
@@ -104,7 +104,7 @@ CrankShaftSectionInfo Constructor
 public CrankShaftSectionInfo()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_CrankShaftSectionInfo__ctor_System_String_System_String_System_String_"></a> CrankShaftSectionInfo\(string, string, string\)
+### CrankShaftSectionInfo\(string, string, string\)
 
 CrankShaftSectionInfo Constructor
 
@@ -128,7 +128,7 @@ The eccentricity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_CrankShaftSectionInfo_Diameter"></a> Diameter
+### Diameter
 
 Gets or sets the offset.
 
@@ -140,7 +140,7 @@ public ExpressionValueVariable Diameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_CrankShaftSectionInfo_Eccentricity"></a> Eccentricity
+### Eccentricity
 
 Gets or sets the offset.
 
@@ -152,7 +152,7 @@ public ExpressionValueVariable Eccentricity { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_CrankShaftSectionInfo_Length"></a> Length
+### Length
 
 Gets or sets the offset.
 
@@ -166,11 +166,12 @@ public ExpressionValueVariable Length { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_CrankShaftSectionInfo_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 Initialize
 
 ```csharp
 public void Initialize()
 ```
+
 

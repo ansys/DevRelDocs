@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ToolkitMultiSelectionSettingBase_1"></a> Class ToolkitMultiSelectionSettingBase<T\>
+# Class ToolkitMultiSelectionSettingBase<T\>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -109,7 +109,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_ToolkitMultiSelectionSettingBase_1__ctor"></a> ToolkitMultiSelectionSettingBase\(\)
+### ToolkitMultiSelectionSettingBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ToolkitMultiSelectionSettingBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -119,7 +119,7 @@ public ToolkitMultiSelectionSettingBase()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_ToolkitMultiSelectionSettingBase_1_Add_VM_Managed_ObjectBase_"></a> Add\(ObjectBase\)
+### Add\(ObjectBase\)
 
 Adds the object.
 
@@ -133,7 +133,7 @@ public override void Add(ObjectBase ob)
 
 The object to add.
 
-### <a id="VM_Managed_DAFUL_ToolkitMultiSelectionSettingBase_1_Add_VM_Managed_ObjectBase__0_"></a> Add\(ObjectBase, T\)
+### Add\(ObjectBase, T\)
 
 Adds both the object and item.
 
@@ -151,7 +151,7 @@ The object to add.
 
 The selection of the object.
 
-### <a id="VM_Managed_DAFUL_ToolkitMultiSelectionSettingBase_1_Contains_VM_Managed_ObjectBase_"></a> Contains\(ObjectBase\)
+### Contains\(ObjectBase\)
 
 Determines whether [contains] the object.
 
@@ -171,7 +171,7 @@ The object to find.
 
 Whether it contains the object.
 
-### <a id="VM_Managed_DAFUL_ToolkitMultiSelectionSettingBase_1_GetSelection_VM_Managed_ObjectBase_"></a> GetSelection\(ObjectBase\)
+### GetSelection\(ObjectBase\)
 
 Gets the selection of the object.
 
@@ -191,7 +191,7 @@ The object to get selection.
 
 The selection of the object.
 
-### <a id="VM_Managed_DAFUL_ToolkitMultiSelectionSettingBase_1_Remove_VM_Managed_ObjectBase_"></a> Remove\(ObjectBase\)
+### Remove\(ObjectBase\)
 
 Removes the object.
 
@@ -211,7 +211,7 @@ The object to remove.
 
 Whether it is success to remove the object.
 
-### <a id="VM_Managed_DAFUL_ToolkitMultiSelectionSettingBase_1_Replace_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> Replace\(ObjectBase, ObjectBase\)
+### Replace\(ObjectBase, ObjectBase\)
 
 Replaces the object.
 
@@ -229,7 +229,7 @@ The old object.
 
 The new object.
 
-### <a id="VM_Managed_DAFUL_ToolkitMultiSelectionSettingBase_1_SetSelection_VM_Managed_ObjectBase__0_"></a> SetSelection\(ObjectBase, T\)
+### SetSelection\(ObjectBase, T\)
 
 Sets the selection of the object.
 
@@ -252,4 +252,5 @@ The selection of the object.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 Whether it is success to set the selection.
+
 

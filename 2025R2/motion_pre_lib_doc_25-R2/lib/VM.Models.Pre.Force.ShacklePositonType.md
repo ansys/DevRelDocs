@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_ShacklePositonType"></a> Enum ShacklePositonType
+# Enum ShacklePositonType
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -12,4 +12,5 @@ public enum ShacklePositonType
 `Compression = 0` 
 
 `Tension = 1` 
+
 

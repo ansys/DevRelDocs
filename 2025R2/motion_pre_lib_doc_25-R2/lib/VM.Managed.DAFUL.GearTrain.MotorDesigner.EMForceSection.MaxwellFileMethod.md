@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MaxwellFileMethod"></a> Class MotorDesigner.EMForceSection.MaxwellFileMethod
+# Class MotorDesigner.EMForceSection.MaxwellFileMethod
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -102,7 +102,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MaxwellFileMethod__ctor"></a> MaxwellFileMethod\(\)
+### MaxwellFileMethod\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.MaxwellFileMethod" data-throw-if-not-resolved="false"></xref> class.
 
@@ -112,7 +112,7 @@ public MaxwellFileMethod()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MaxwellFileMethod_InitialPositionAngle"></a> InitialPositionAngle
+### InitialPositionAngle
 
 Gets or sets the initial position angle.
 
@@ -124,7 +124,7 @@ public ExpressionValueVariable InitialPositionAngle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MaxwellFileMethod_Marker"></a> Marker
+### Marker
 
 Gets or sets the marker.
 
@@ -136,7 +136,7 @@ public Marker Marker { get; set; }
 
  Marker
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MaxwellFileMethod_ResultFile"></a> ResultFile
+### ResultFile
 
 Gets or sets the result file.
 
@@ -148,7 +148,7 @@ public string ResultFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MaxwellFileMethod_RotorVectorSet"></a> RotorVectorSet
+### RotorVectorSet
 
 Gets or sets the vector set for rotor.
 
@@ -160,7 +160,7 @@ public MotorDesigner.EMForceSection.VectorCreator[] RotorVectorSet { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[EMForceSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.md).[VectorCreator](VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.VectorCreator.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MaxwellFileMethod_StatorVectorSet"></a> StatorVectorSet
+### StatorVectorSet
 
 Gets or sets the vector set for stator.
 
@@ -172,7 +172,7 @@ public MotorDesigner.EMForceSection.VectorCreator[] StatorVectorSet { get; set; 
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[EMForceSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.md).[VectorCreator](VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.VectorCreator.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MaxwellFileMethod_String"></a> String
+### String
 
 Gets or sets the string.
 
@@ -184,7 +184,7 @@ public StringValue String { get; set; }
 
  StringValue
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MaxwellFileMethod_TypeOfGeometryCreation"></a> TypeOfGeometryCreation
+### TypeOfGeometryCreation
 
 Gets the method type.
 
@@ -198,7 +198,7 @@ public override MotorDesigner.GeometryCreationType TypeOfGeometryCreation { get;
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MaxwellFileMethod_CanBeDestroy_System_Object_"></a> CanBeDestroy\(object\)
+### CanBeDestroy\(object\)
 
 Whether can be destroy or not.
 
@@ -216,7 +216,7 @@ The destroy object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MaxwellFileMethod_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -229,4 +229,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

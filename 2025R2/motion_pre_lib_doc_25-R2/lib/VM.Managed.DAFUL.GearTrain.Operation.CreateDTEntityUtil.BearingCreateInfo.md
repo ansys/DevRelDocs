@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo"></a> Class CreateDTEntityUtil.BearingCreateInfo
+# Class CreateDTEntityUtil.BearingCreateInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -20,7 +20,7 @@ public class CreateDTEntityUtil.BearingCreateInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo__ctor"></a> BearingCreateInfo\(\)
+### BearingCreateInfo\(\)
 
 ```csharp
 public BearingCreateInfo()
@@ -28,7 +28,7 @@ public BearingCreateInfo()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_ActionPoint"></a> ActionPoint
+### ActionPoint
 
 ```csharp
 public double ActionPoint
@@ -38,7 +38,7 @@ public double ActionPoint
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_AdditionalDimensionInformation"></a> AdditionalDimensionInformation
+### AdditionalDimensionInformation
 
 ```csharp
 public double[] AdditionalDimensionInformation
@@ -48,7 +48,7 @@ public double[] AdditionalDimensionInformation
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_AdditionalPropertyInformation"></a> AdditionalPropertyInformation
+### AdditionalPropertyInformation
 
 ```csharp
 public double[] AdditionalPropertyInformation
@@ -58,7 +58,7 @@ public double[] AdditionalPropertyInformation
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_AxialClearance"></a> AxialClearance
+### AxialClearance
 
 ```csharp
 public double AxialClearance
@@ -68,7 +68,7 @@ public double AxialClearance
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_BallDiameter"></a> BallDiameter
+### BallDiameter
 
 ```csharp
 public double BallDiameter
@@ -78,7 +78,7 @@ public double BallDiameter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_BearingType"></a> BearingType
+### BearingType
 
 ```csharp
 public PropertyBearing.enBearingType BearingType
@@ -88,7 +88,7 @@ public PropertyBearing.enBearingType BearingType
 
  PropertyBearing.enBearingType
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_CurvatureCenterInner"></a> CurvatureCenterInner
+### CurvatureCenterInner
 
 ```csharp
 public double CurvatureCenterInner
@@ -98,7 +98,7 @@ public double CurvatureCenterInner
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_CurvatureCenterOuter"></a> CurvatureCenterOuter
+### CurvatureCenterOuter
 
 ```csharp
 public double CurvatureCenterOuter
@@ -108,7 +108,7 @@ public double CurvatureCenterOuter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_DampingRatio"></a> DampingRatio
+### DampingRatio
 
 ```csharp
 public double DampingRatio
@@ -118,7 +118,7 @@ public double DampingRatio
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_InnerRacewayOfInnerDiameter"></a> InnerRacewayOfInnerDiameter
+### InnerRacewayOfInnerDiameter
 
 ```csharp
 public double InnerRacewayOfInnerDiameter
@@ -128,7 +128,7 @@ public double InnerRacewayOfInnerDiameter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_InnerRacewayOfOuterDiameter"></a> InnerRacewayOfOuterDiameter
+### InnerRacewayOfOuterDiameter
 
 ```csharp
 public double InnerRacewayOfOuterDiameter
@@ -138,7 +138,7 @@ public double InnerRacewayOfOuterDiameter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_InnerRacewayOfOuterDiameter2"></a> InnerRacewayOfOuterDiameter2
+### InnerRacewayOfOuterDiameter2
 
 ```csharp
 public double InnerRacewayOfOuterDiameter2
@@ -148,7 +148,7 @@ public double InnerRacewayOfOuterDiameter2
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_NumberOfBall"></a> NumberOfBall
+### NumberOfBall
 
 ```csharp
 public int NumberOfBall
@@ -158,7 +158,7 @@ public int NumberOfBall
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_OuterRacewayOfInnerDiameter"></a> OuterRacewayOfInnerDiameter
+### OuterRacewayOfInnerDiameter
 
 ```csharp
 public double OuterRacewayOfInnerDiameter
@@ -168,7 +168,7 @@ public double OuterRacewayOfInnerDiameter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_OuterRacewayOfInnerDiameter2"></a> OuterRacewayOfInnerDiameter2
+### OuterRacewayOfInnerDiameter2
 
 ```csharp
 public double OuterRacewayOfInnerDiameter2
@@ -178,7 +178,7 @@ public double OuterRacewayOfInnerDiameter2
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_OuterRacewayOfOuterDiameter"></a> OuterRacewayOfOuterDiameter
+### OuterRacewayOfOuterDiameter
 
 ```csharp
 public double OuterRacewayOfOuterDiameter
@@ -188,7 +188,7 @@ public double OuterRacewayOfOuterDiameter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_RadialClearance"></a> RadialClearance
+### RadialClearance
 
 ```csharp
 public double RadialClearance
@@ -198,7 +198,7 @@ public double RadialClearance
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_RoundingRadius"></a> RoundingRadius
+### RoundingRadius
 
 ```csharp
 public double RoundingRadius
@@ -208,7 +208,7 @@ public double RoundingRadius
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_StiffnessMatrix"></a> StiffnessMatrix
+### StiffnessMatrix
 
 ```csharp
 public double[] StiffnessMatrix
@@ -218,7 +218,7 @@ public double[] StiffnessMatrix
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_StiffnessType"></a> StiffnessType
+### StiffnessType
 
 ```csharp
 public PropertyBearing.enStiffnessType StiffnessType
@@ -228,7 +228,7 @@ public PropertyBearing.enStiffnessType StiffnessType
 
  PropertyBearing.enStiffnessType
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_UnloadedContactAngle"></a> UnloadedContactAngle
+### UnloadedContactAngle
 
 ```csharp
 public double UnloadedContactAngle
@@ -238,7 +238,7 @@ public double UnloadedContactAngle
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_Width"></a> Width
+### Width
 
 ```csharp
 public double Width
@@ -250,7 +250,7 @@ public double Width
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; }
@@ -262,9 +262,10 @@ public string[] InputArray { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 ```csharp
 public void Initialize()
 ```
+
 

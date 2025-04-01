@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_EasyFlex_EFConstraintAPI"></a> Class EFConstraintAPI
+# Class EFConstraintAPI
 
 Namespace: [VM.API.Pre.EasyFlex](VM.API.Pre.EasyFlex.md)  
 Assembly: VM.API.Pre.EasyFlex.dll  
@@ -22,7 +22,7 @@ public static class EFConstraintAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_EasyFlex_EFConstraintAPI_CreateBoundaryConditionWithColor_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_API_Pre_Obj__System_String_"></a> CreateBoundaryConditionWithColor\(SubSystemDocument, Obj, IEnumerable<Color\>, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Obj?, string\)
+### CreateBoundaryConditionWithColor\(SubSystemDocument, Obj, IEnumerable<Color\>, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Obj?, string\)
 
 ```csharp
 [NotNull(new string[] { "document", "colors" })]
@@ -53,7 +53,7 @@ public static Obj CreateBoundaryConditionWithColor(this SubSystemDocument docume
 
  Obj
 
-### <a id="VM_API_Pre_EasyFlex_EFConstraintAPI_CreateBoundaryConditionWithFaces_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_API_Pre_Obj__System_String_"></a> CreateBoundaryConditionWithFaces\(SubSystemDocument, IEnumerable<Obj\>, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Obj?, string\)
+### CreateBoundaryConditionWithFaces\(SubSystemDocument, IEnumerable<Obj\>, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Obj?, string\)
 
 ```csharp
 [NotNull(new string[] { "document", "baseGeometry" })]
@@ -80,7 +80,7 @@ public static Obj CreateBoundaryConditionWithFaces(this SubSystemDocument docume
 
  Obj
 
-### <a id="VM_API_Pre_EasyFlex_EFConstraintAPI_CreateBoundaryConditionWithFaceset_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_API_Pre_Obj__System_String_"></a> CreateBoundaryConditionWithFaceset\(SubSystemDocument, Obj, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Obj?, string\)
+### CreateBoundaryConditionWithFaceset\(SubSystemDocument, Obj, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Obj?, string\)
 
 ```csharp
 [NotNull(new string[] { "document" })]
@@ -109,7 +109,7 @@ public static Obj CreateBoundaryConditionWithFaceset(this SubSystemDocument docu
 
  Obj
 
-### <a id="VM_API_Pre_EasyFlex_EFConstraintAPI_CreateRange_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateRange\(SubSystemDocument, Obj, Vector, Vector, ExpressionValueVariable?, string\)
+### CreateRange\(SubSystemDocument, Obj, Vector, Vector, ExpressionValueVariable?, string\)
 
 Create <xref href="VM.Managed.DAFUL.Range" data-throw-if-not-resolved="false"></xref>.
 
@@ -167,7 +167,7 @@ Will be thrown if the type of 'body' is not <xref href="VM.Managed.DAFUL.SolidBo
 
 Will be thrown if the 'radius' value is equal to or less than 0.
 
-### <a id="VM_API_Pre_EasyFlex_EFConstraintAPI_CreateRigidBodyElementPairWithColor_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__VM_Vector_System_String_"></a> CreateRigidBodyElementPairWithColor\(SubSystemDocument, Obj, IEnumerable<Color\>, Obj, IEnumerable<Color\>, Vector, string\)
+### CreateRigidBodyElementPairWithColor\(SubSystemDocument, Obj, IEnumerable<Color\>, Obj, IEnumerable<Color\>, Vector, string\)
 
 ```csharp
 [NotNull(new string[] { "document" })]
@@ -196,7 +196,7 @@ public static Obj CreateRigidBodyElementPairWithColor(this SubSystemDocument doc
 
  Obj
 
-### <a id="VM_API_Pre_EasyFlex_EFConstraintAPI_CreateRigidBodyElementPairWithColor_VM_Managed_DAFUL_PartDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__VM_Vector_System_String_"></a> CreateRigidBodyElementPairWithColor\(PartDocument, Obj, IEnumerable<Color\>, Obj, IEnumerable<Color\>, Vector, string\)
+### CreateRigidBodyElementPairWithColor\(PartDocument, Obj, IEnumerable<Color\>, Obj, IEnumerable<Color\>, Vector, string\)
 
 ```csharp
 [NotNull(new string[] { "document" })]
@@ -224,7 +224,7 @@ public static Obj CreateRigidBodyElementPairWithColor(this PartDocument document
 
  Obj
 
-### <a id="VM_API_Pre_EasyFlex_EFConstraintAPI_CreateRigidBodyElementPairWithFaces_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_Vector_System_String_"></a> CreateRigidBodyElementPairWithFaces\(IDocument, IEnumerable<Obj\>, IEnumerable<Obj\>, Vector, string\)
+### CreateRigidBodyElementPairWithFaces\(IDocument, IEnumerable<Obj\>, IEnumerable<Obj\>, Vector, string\)
 
 ```csharp
 [NotNull(new string[] { "document", "baseGeometry", "actionGeometry" })]
@@ -247,7 +247,7 @@ public static Obj CreateRigidBodyElementPairWithFaces(this IDocument document, I
 
  Obj
 
-### <a id="VM_API_Pre_EasyFlex_EFConstraintAPI_CreateRigidBodyElementPairWithFaceset_VM_Models_Pre_IDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_System_String_"></a> CreateRigidBodyElementPairWithFaceset\(IDocument, Obj, Obj, Vector, string\)
+### CreateRigidBodyElementPairWithFaceset\(IDocument, Obj, Obj, Vector, string\)
 
 ```csharp
 [NotNull(new string[] { "document" })]
@@ -272,7 +272,7 @@ public static Obj CreateRigidBodyElementPairWithFaceset(this IDocument document,
 
  Obj
 
-### <a id="VM_API_Pre_EasyFlex_EFConstraintAPI_CreateRigidBodyElementWithColor_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__VM_Vector_System_String_"></a> CreateRigidBodyElementWithColor\(SubSystemDocument, Obj, IEnumerable<Color\>, Vector, string\)
+### CreateRigidBodyElementWithColor\(SubSystemDocument, Obj, IEnumerable<Color\>, Vector, string\)
 
 ```csharp
 [NotNull(new string[] { "document", "colors" })]
@@ -297,7 +297,7 @@ public static Obj CreateRigidBodyElementWithColor(this SubSystemDocument documen
 
  Obj
 
-### <a id="VM_API_Pre_EasyFlex_EFConstraintAPI_CreateRigidBodyElementWithColor_VM_Managed_DAFUL_PartDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__VM_Vector_System_String_"></a> CreateRigidBodyElementWithColor\(PartDocument, Obj, IEnumerable<Color\>, Vector, string\)
+### CreateRigidBodyElementWithColor\(PartDocument, Obj, IEnumerable<Color\>, Vector, string\)
 
 ```csharp
 [NotNull(new string[] { "document", "colors" })]
@@ -321,7 +321,7 @@ public static Obj CreateRigidBodyElementWithColor(this PartDocument document, Ob
 
  Obj
 
-### <a id="VM_API_Pre_EasyFlex_EFConstraintAPI_CreateRigidBodyElementWithFaces_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_Vector_System_String_"></a> CreateRigidBodyElementWithFaces\(IDocument, IEnumerable<Obj\>, Vector, string\)
+### CreateRigidBodyElementWithFaces\(IDocument, IEnumerable<Obj\>, Vector, string\)
 
 ```csharp
 [NotNull(new string[] { "document", "baseGeometry" })]
@@ -342,7 +342,7 @@ public static Obj CreateRigidBodyElementWithFaces(this IDocument document, IEnum
 
  Obj
 
-### <a id="VM_API_Pre_EasyFlex_EFConstraintAPI_CreateRigidBodyElementWithFaceset_VM_Models_Pre_IDocument_VM_API_Pre_Obj_VM_Vector_System_String_"></a> CreateRigidBodyElementWithFaceset\(IDocument, Obj, Vector, string\)
+### CreateRigidBodyElementWithFaceset\(IDocument, Obj, Vector, string\)
 
 ```csharp
 [NotNull(new string[] { "document" })]
@@ -364,4 +364,5 @@ public static Obj CreateRigidBodyElementWithFaceset(this IDocument document, Obj
 #### Returns
 
  Obj
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Operation_ChangeNodalModalOperation"></a> Class ChangeNodalModalOperation
+# Class ChangeNodalModalOperation
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ChangeNodalModalOperation__ctor_VM_Managed_DAFUL_FE_NodalBody_VM_Managed_DAFUL_BodyAnalysisType_"></a> ChangeNodalModalOperation\(NodalBody, BodyAnalysisType\)
+### ChangeNodalModalOperation\(NodalBody, BodyAnalysisType\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Operation.ChangeNodalModalOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -95,7 +95,7 @@ The nodal body.
 
 The type of nodal body.
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ChangeNodalModalOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ChangeNodalModalOperation\(JournalParameter\)
+### ChangeNodalModalOperation\(JournalParameter\)
 
 ```csharp
 public ChangeNodalModalOperation(JournalParameter jp)
@@ -107,7 +107,7 @@ public ChangeNodalModalOperation(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ChangeNodalModalOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -121,7 +121,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ChangeNodalModalOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -129,7 +129,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ChangeNodalModalOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -138,4 +138,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

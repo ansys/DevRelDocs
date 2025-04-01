@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Force_PropertyReboundstop"></a> Class PropertyReboundstop
+# Class PropertyReboundstop
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -174,7 +174,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyReboundstop__ctor"></a> PropertyReboundstop\(\)
+### PropertyReboundstop\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertyReboundstop" data-throw-if-not-resolved="false"></xref> class.
 
@@ -182,7 +182,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.Propert
 public PropertyReboundstop()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyReboundstop__ctor_System_String_System_String_"></a> PropertyReboundstop\(string, string\)
+### PropertyReboundstop\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertyReboundstop" data-throw-if-not-resolved="false"></xref> class.
 
@@ -202,7 +202,7 @@ The build information.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyReboundstop_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -214,7 +214,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyReboundstop_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -226,7 +226,7 @@ public override string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyReboundstop_Spline"></a> Spline
+### Spline
 
 Gets or sets the spline.
 
@@ -240,7 +240,7 @@ public Spline Spline { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyReboundstop_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -253,4 +253,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

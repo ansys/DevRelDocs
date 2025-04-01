@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_AbstractXmlSerializer_1"></a> Class AbstractXmlSerializer<AbstractType\>
+# Class AbstractXmlSerializer<AbstractType\>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -26,13 +26,13 @@ public class AbstractXmlSerializer<AbstractType>
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_AbstractXmlSerializer_1__ctor"></a> AbstractXmlSerializer\(\)
+### AbstractXmlSerializer\(\)
 
 ```csharp
 public AbstractXmlSerializer()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_AbstractXmlSerializer_1__ctor__0_"></a> AbstractXmlSerializer\(AbstractType\)
+### AbstractXmlSerializer\(AbstractType\)
 
 ```csharp
 public AbstractXmlSerializer(AbstractType data)
@@ -44,7 +44,7 @@ public AbstractXmlSerializer(AbstractType data)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_AbstractXmlSerializer_1_Data"></a> Data
+### Data
 
 ```csharp
 public AbstractType Data { get; set; }
@@ -56,7 +56,7 @@ public AbstractType Data { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_AbstractXmlSerializer_1_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 ```csharp
 public virtual XmlSchema GetSchema()
@@ -66,7 +66,7 @@ public virtual XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### <a id="VM_Managed_DAFUL_FE_AbstractXmlSerializer_1_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 ```csharp
 public virtual void ReadXml(XmlReader reader)
@@ -76,7 +76,7 @@ public virtual void ReadXml(XmlReader reader)
 
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
-### <a id="VM_Managed_DAFUL_FE_AbstractXmlSerializer_1_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 ```csharp
 public virtual void WriteXml(XmlWriter writer)
@@ -88,7 +88,7 @@ public virtual void WriteXml(XmlWriter writer)
 
 ## Operators
 
-### <a id="VM_Managed_DAFUL_FE_AbstractXmlSerializer_1_op_Implicit_VM_Managed_DAFUL_FE_AbstractXmlSerializer__0____0"></a> implicit operator AbstractType\(AbstractXmlSerializer<AbstractType\>\)
+### implicit operator AbstractType\(AbstractXmlSerializer<AbstractType\>\)
 
 ```csharp
 public static implicit operator AbstractType(AbstractXmlSerializer<AbstractType> o)
@@ -102,7 +102,7 @@ public static implicit operator AbstractType(AbstractXmlSerializer<AbstractType>
 
  AbstractType
 
-### <a id="VM_Managed_DAFUL_FE_AbstractXmlSerializer_1_op_Implicit__0__VM_Managed_DAFUL_FE_AbstractXmlSerializer__0_"></a> implicit operator AbstractXmlSerializer<AbstractType\>\(AbstractType\)
+### implicit operator AbstractXmlSerializer<AbstractType\>\(AbstractType\)
 
 ```csharp
 public static implicit operator AbstractXmlSerializer<AbstractType>(AbstractType o)
@@ -115,4 +115,5 @@ public static implicit operator AbstractXmlSerializer<AbstractType>(AbstractType
 #### Returns
 
  [AbstractXmlSerializer](VM.Managed.DAFUL.FE.AbstractXmlSerializer\-1.md)<AbstractType\>
+
 

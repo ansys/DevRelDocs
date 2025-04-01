@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Beam_Force_BeamForce"></a> Class BeamForce
+# Class BeamForce
 
 Namespace: [VM.Managed.DAFUL.Beam.Force](VM.Managed.DAFUL.Beam.Force.md)  
 Assembly: VMDBeamGroup.dll  
@@ -257,7 +257,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce__ctor"></a> BeamForce\(\)
+### BeamForce\(\)
 
 Constructor of Beam Force
 
@@ -265,7 +265,7 @@ Constructor of Beam Force
 public BeamForce()
 ```
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce__ctor_System_String_"></a> BeamForce\(string\)
+### BeamForce\(string\)
 
 Constructor of Beam Force with Name
 
@@ -281,7 +281,7 @@ Beam Force Name
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_AreaValue"></a> AreaValue
+### AreaValue
 
 Area
 
@@ -293,7 +293,7 @@ public double AreaValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_AsyValue"></a> AsyValue
+### AsyValue
 
 Asy
 
@@ -305,7 +305,7 @@ public double AsyValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_AszValue"></a> AszValue
+### AszValue
 
 Asz
 
@@ -317,7 +317,7 @@ public double AszValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_Color"></a> Color
+### Color
 
 Color of Beam Force
 
@@ -329,7 +329,7 @@ public Color Color { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_CrossSectionType"></a> CrossSectionType
+### CrossSectionType
 
 Cross Section Type (CIRCULAR, RECTANGULAR, etc...)
 
@@ -341,7 +341,7 @@ public CrossSectionType CrossSectionType { get; set; }
 
  CrossSectionType
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_EValue"></a> EValue
+### EValue
 
 Young's modulus
 
@@ -353,7 +353,7 @@ public double EValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_GValue"></a> GValue
+### GValue
 
 shear modulus
 
@@ -365,7 +365,7 @@ public double GValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_GeomInfos"></a> GeomInfos
+### GeomInfos
 
 Parameters to describe cross section
 
@@ -377,7 +377,7 @@ public double[] GeomInfos { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_IxxValue"></a> IxxValue
+### IxxValue
 
 Ixx
 
@@ -389,7 +389,7 @@ public double IxxValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_IyyValue"></a> IyyValue
+### IyyValue
 
 Iyy
 
@@ -401,7 +401,7 @@ public double IyyValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_IyzValue"></a> IyzValue
+### IyzValue
 
 Iyz
 
@@ -413,7 +413,7 @@ public double IyzValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_IzzValue"></a> IzzValue
+### IzzValue
 
 Izz
 
@@ -425,7 +425,7 @@ public double IzzValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_LengthValue"></a> LengthValue
+### LengthValue
 
 length
 
@@ -437,7 +437,7 @@ public double LengthValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_ParamCount"></a> ParamCount
+### ParamCount
 
 The count of parameters to describe cross section
 
@@ -449,7 +449,7 @@ public uint ParamCount { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -461,7 +461,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
  IReportable.ReportEntityType
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_UseMiddleElementReferenceFrame"></a> UseMiddleElementReferenceFrame
+### UseMiddleElementReferenceFrame
 
 Use middle element reference frame
 
@@ -473,7 +473,7 @@ public bool UseMiddleElementReferenceFrame { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_YDirection"></a> YDirection
+### YDirection
 
 Normal direction of cross section
 
@@ -485,7 +485,7 @@ public double[] YDirection { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_Beam_Force_BeamForce_ZetaValue"></a> ZetaValue
+### ZetaValue
 
 Damping ratio
 
@@ -496,4 +496,5 @@ public double ZetaValue { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

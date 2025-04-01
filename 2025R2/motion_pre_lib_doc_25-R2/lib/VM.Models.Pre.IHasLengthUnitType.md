@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IHasLengthUnitType"></a> Interface IHasLengthUnitType
+# Interface IHasLengthUnitType
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,7 +15,7 @@ public interface IHasLengthUnitType
 
 ## Properties
 
-### <a id="VM_Models_Pre_IHasLengthUnitType_UnitOfLength"></a> UnitOfLength
+### UnitOfLength
 
 ```csharp
 LengthUnitType UnitOfLength { get; set; }
@@ -24,4 +24,5 @@ LengthUnitType UnitOfLength { get; set; }
 #### Property Value
 
  [LengthUnitType](VM.Models.Pre.LengthUnitType.md)
+
 

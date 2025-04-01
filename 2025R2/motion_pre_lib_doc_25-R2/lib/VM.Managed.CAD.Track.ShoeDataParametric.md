@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_ShoeDataParametric"></a> Class ShoeDataParametric
+# Class ShoeDataParametric
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -116,7 +116,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric__ctor"></a> ShoeDataParametric\(\)
+### ShoeDataParametric\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataParametric" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataParam
 public ShoeDataParametric()
 ```
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric__ctor_VM_Models_Pre_IOwned_"></a> ShoeDataParametric\(IOwned\)
+### ShoeDataParametric\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataParametric" data-throw-if-not-resolved="false"></xref> class.
 
@@ -140,7 +140,7 @@ The owner object.
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_FirstGH"></a> FirstGH
+### FirstGH
 
 Gets and sets height of first grouser .
 
@@ -152,7 +152,7 @@ public ExpressionValueVariable FirstGH { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_FirstGLW"></a> FirstGLW
+### FirstGLW
 
 Gets and sets lower width of first grouser.
 
@@ -164,7 +164,7 @@ public ExpressionValueVariable FirstGLW { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_FirstGUW"></a> FirstGUW
+### FirstGUW
 
 Gets and sets upper width of first grouser
 
@@ -176,7 +176,7 @@ public ExpressionValueVariable FirstGUW { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_LDP1"></a> LDP1
+### LDP1
 
 Gets and sets longitudinal distance from reference position to p1.
 
@@ -188,7 +188,7 @@ public ExpressionValueVariable LDP1 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_LDP2"></a> LDP2
+### LDP2
 
 Gets and sets longitudinal distance from reference position to p2.
 
@@ -200,7 +200,7 @@ public ExpressionValueVariable LDP2 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_LDQ1"></a> LDQ1
+### LDQ1
 
 Gets and sets longitudinal distance from reference position to q1.
 
@@ -212,7 +212,7 @@ public ExpressionValueVariable LDQ1 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_PlateHeight"></a> PlateHeight
+### PlateHeight
 
 Gets and sets plate thickness
 
@@ -224,7 +224,7 @@ public ExpressionValueVariable PlateHeight { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_RP1"></a> RP1
+### RP1
 
 Gets and sets arc radius with respect to p1.
 
@@ -236,7 +236,7 @@ public ExpressionValueVariable RP1 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_RP2"></a> RP2
+### RP2
 
 Gets and sets arc radius with respect to p2.
 
@@ -248,7 +248,7 @@ public ExpressionValueVariable RP2 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_RQ1"></a> RQ1
+### RQ1
 
 Gets and sets arc radius with respect to q1.
 
@@ -260,7 +260,7 @@ public ExpressionValueVariable RQ1 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_ShoeDistance1"></a> ShoeDistance1
+### ShoeDistance1
 
 Gets and sets longitudinal distance from reference position to first grouser center.
 
@@ -272,7 +272,7 @@ public ExpressionValueVariable ShoeDistance1 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_ShoeLength"></a> ShoeLength
+### ShoeLength
 
 Gets and sets shoe length from reference position to head.
 
@@ -284,7 +284,7 @@ public ExpressionValueVariable ShoeLength { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_VDP1"></a> VDP1
+### VDP1
 
 Gets and sets vertical distance from reference position to p1.
 
@@ -296,7 +296,7 @@ public ExpressionValueVariable VDP1 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_VDP2"></a> VDP2
+### VDP2
 
 Gets and sets vertical distance from reference position to p2.
 
@@ -308,7 +308,7 @@ public ExpressionValueVariable VDP2 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_VDQ1"></a> VDQ1
+### VDQ1
 
 Gets and sets vertical distance from reference position to q1.
 
@@ -322,7 +322,7 @@ public ExpressionValueVariable VDQ1 { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_GetPoints_XYPlane"></a> GetPoints\_XYPlane\(\)
+### GetPoints\_XYPlane\(\)
 
 Gets the profile data of shoe.
 
@@ -336,11 +336,12 @@ public virtual List<VectorBase> GetPoints_XYPlane()
 
 The Points
 
-### <a id="VM_Managed_CAD_Track_ShoeDataParametric_Validation"></a> Validation\(\)
+### Validation\(\)
 
 Checks the validation .
 
 ```csharp
 public override void Validation()
 ```
+
 

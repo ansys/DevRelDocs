@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyGeneralContact"></a> Class PropertyGeneralContact
+# Class PropertyGeneralContact
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -186,7 +186,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyGeneralContact__ctor"></a> PropertyGeneralContact\(\)
+### PropertyGeneralContact\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyGeneralContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -196,9 +196,28 @@ public PropertyGeneralContact()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyGeneralContact_TypeOfContact"></a> TypeOfContact
+### TypeOfContact
 
-Gets and sets the type of contact.
+<p>Gets and sets the type of contact.</p>
+<p>
+        Type : VM.Managed.DAFUL.Contact.ContactType
+        LinkRequestUpdate 시 처리 : N/A
+        LinkRequestDestroy 시 처리 :
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Contact Type
+        Control Type : ComboBox
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Characteristic
+        Category Index : 1
+        변경 시 DFS 재생성 여부 : No
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public PropertyGeneralContact.ContactType TypeOfContact { get; set; }
@@ -210,7 +229,7 @@ public PropertyGeneralContact.ContactType TypeOfContact { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyGeneralContact_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -224,7 +243,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyGeneralContact_LoadOldVersion_System_Boolean_"></a> LoadOldVersion\(bool\)
+### LoadOldVersion\(bool\)
 
 Execute when load old version (lower and equal 6.1).
 
@@ -241,4 +260,5 @@ The cross check flag.
 #### Returns
 
  [PropertyContact3D](VM.Managed.DAFUL.Contact.PropertyContact3D.md).[PointCheckType](VM.Managed.DAFUL.Contact.PropertyContact3D.PointCheckType.md)
+
 

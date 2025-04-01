@@ -1,4 +1,4 @@
-# <a id="VM_Models_Project"></a> Namespace VM.Models.Project
+# Namespace VM.Models.Project
 
 ### Namespaces
 
@@ -13,4 +13,5 @@
  [IAnalysisScenario](VM.Models.Project.IAnalysisScenario.md)
 
  [IScenarioService](VM.Models.Project.IScenarioService.md)
+
 

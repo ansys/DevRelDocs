@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ITemplateDocument"></a> Interface ITemplateDocument
+# Interface ITemplateDocument
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,11 +17,12 @@ public interface ITemplateDocument
 
 ## Methods
 
-### <a id="VM_Managed_ITemplateDocument_SetTemplatePath"></a> SetTemplatePath\(\)
+### SetTemplatePath\(\)
 
 Sets the template information.
 
 ```csharp
 void SetTemplatePath()
 ```
+
 

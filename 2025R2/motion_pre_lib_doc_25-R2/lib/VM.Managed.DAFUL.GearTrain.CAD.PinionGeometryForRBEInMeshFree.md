@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_PinionGeometryForRBEInMeshFree"></a> Class PinionGeometryForRBEInMeshFree
+# Class PinionGeometryForRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -298,7 +298,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_PinionGeometryForRBEInMeshFree__ctor"></a> PinionGeometryForRBEInMeshFree\(\)
+### PinionGeometryForRBEInMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.PinionGeometryForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -306,7 +306,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Pin
 public PinionGeometryForRBEInMeshFree()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_PinionGeometryForRBEInMeshFree__ctor_VM_Managed_CAD_Builder_"></a> PinionGeometryForRBEInMeshFree\(Builder\)
+### PinionGeometryForRBEInMeshFree\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.PinionGeometryForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -319,4 +319,5 @@ public PinionGeometryForRBEInMeshFree(Builder builder)
 `builder` Builder
 
 The builder.
+
 

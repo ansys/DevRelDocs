@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_Parallel"></a> Class Parallel
+# Class Parallel
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCP.dll  
@@ -36,7 +36,7 @@ Named<Parallel\>.SymmetricManager
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_Constraints_Parallel__ctor"></a> Parallel\(\)
+### Parallel\(\)
 
 ```csharp
 public Parallel()
@@ -44,7 +44,7 @@ public Parallel()
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_Constraints_Parallel_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -77,4 +77,5 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

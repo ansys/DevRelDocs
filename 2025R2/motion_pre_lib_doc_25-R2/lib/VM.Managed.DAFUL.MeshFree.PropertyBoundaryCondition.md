@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_PropertyBoundaryCondition"></a> Class PropertyBoundaryCondition
+# Class PropertyBoundaryCondition
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -182,11 +182,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_PropertyBoundaryCondition__ctor"></a> PropertyBoundaryCondition\(\)
+### PropertyBoundaryCondition\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.PropertyBoundaryCondition" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyBoundaryCondition()
 ```
+
 

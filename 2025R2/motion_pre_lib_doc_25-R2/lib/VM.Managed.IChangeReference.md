@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IChangeReference"></a> Interface IChangeReference
+# Interface IChangeReference
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IChangeReference
 
 ## Methods
 
-### <a id="VM_Managed_IChangeReference_ChangeReference_VM_Managed_ObjectEventCore_VM_Managed_ObjectEventCore_"></a> ChangeReference\(ObjectEventCore, ObjectEventCore\)
+### ChangeReference\(ObjectEventCore, ObjectEventCore\)
 
 Changes the reference.
 
@@ -34,4 +34,5 @@ The old event core.
 `oecNew` [ObjectEventCore](VM.Managed.ObjectEventCore.md)
 
 The new event core.
+
 

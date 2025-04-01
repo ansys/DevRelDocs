@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_History"></a> Namespace VM.Managed.DAFUL.FE.History
+# Namespace VM.Managed.DAFUL.FE.History
 
 ### Classes
 
@@ -77,4 +77,5 @@ This base class is to represent the remove event for patchset.
  [ObjectBaseSetBaseColorEvent](VM.Managed.DAFUL.FE.History.ObjectBaseSetBaseColorEvent.md)
 
 This class is to represent the color event for sets.
+
 

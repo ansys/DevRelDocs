@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_ContactStandard_CalculationMethodType"></a> Enum ContactStandard.CalculationMethodType
+# Enum ContactStandard.CalculationMethodType
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -26,6 +26,7 @@ SphereToSurface
 `SurfaceToSurface = 0` 
 
 SurfaceToSurface
+
 
 
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_MaxwellCreation"></a> Class MotorDesigner.StatorSection.MaxwellCreation
+# Class MotorDesigner.StatorSection.MaxwellCreation
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -104,7 +104,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_MaxwellCreation__ctor"></a> MaxwellCreation\(\)
+### MaxwellCreation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.StatorSection.MaxwellCreation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ public MaxwellCreation()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_MaxwellCreation_FilePath"></a> FilePath
+### FilePath
 
 Gets or sets the file path.
 
@@ -126,7 +126,7 @@ public string FilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_MaxwellCreation_TypeOfGeometryCreation"></a> TypeOfGeometryCreation
+### TypeOfGeometryCreation
 
 Gets the geometry creation type.
 
@@ -140,7 +140,7 @@ public override MotorDesigner.GeometryCreationType TypeOfGeometryCreation { get;
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_MaxwellCreation_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -153,4 +153,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

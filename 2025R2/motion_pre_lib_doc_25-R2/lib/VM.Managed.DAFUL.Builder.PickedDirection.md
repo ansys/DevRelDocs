@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_PickedDirection"></a> Class PickedDirection
+# Class PickedDirection
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -25,13 +25,13 @@ public class PickedDirection : PickedResult
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_PickedDirection__ctor"></a> PickedDirection\(\)
+### PickedDirection\(\)
 
 ```csharp
 public PickedDirection()
 ```
 
-### <a id="VM_Managed_DAFUL_Builder_PickedDirection__ctor_VM_Managed_DirectionBase_"></a> PickedDirection\(DirectionBase\)
+### PickedDirection\(DirectionBase\)
 
 ```csharp
 public PickedDirection(DirectionBase directionBase)
@@ -43,7 +43,7 @@ public PickedDirection(DirectionBase directionBase)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_PickedDirection_Direction"></a> Direction
+### Direction
 
 ```csharp
 public DirectionBase Direction { get; set; }
@@ -53,7 +53,7 @@ public DirectionBase Direction { get; set; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Builder_PickedDirection_Type"></a> Type
+### Type
 
 ```csharp
 public override PickedResult.PickedType Type { get; }
@@ -62,4 +62,5 @@ public override PickedResult.PickedType Type { get; }
 #### Property Value
 
  [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md).[PickedType](VM.Managed.DAFUL.Builder.PickedResult.PickedType.md)
+
 

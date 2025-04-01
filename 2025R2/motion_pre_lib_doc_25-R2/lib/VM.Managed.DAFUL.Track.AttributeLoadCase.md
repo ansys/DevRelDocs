@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_AttributeLoadCase"></a> Class AttributeLoadCase
+# Class AttributeLoadCase
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_AttributeLoadCase__ctor"></a> AttributeLoadCase\(\)
+### AttributeLoadCase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.AttributeLoadCase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeLoadCase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_AttributeLoadCase_HydroForce"></a> HydroForce
+### HydroForce
 
 Gets or sets the hydro force.
 
@@ -121,7 +121,7 @@ public IHydroForce HydroForce { get; set; }
 
  [IHydroForce](VM.Managed.DAFUL.Track.IHydroForce.md)
 
-### <a id="VM_Managed_DAFUL_Track_AttributeLoadCase_LoadCaseList"></a> LoadCaseList
+### LoadCaseList
 
 Gets or sets the load case list.
 
@@ -133,7 +133,7 @@ public AttributeLoadCase.LoadCaseData[] LoadCaseList { get; set; }
 
  [AttributeLoadCase](VM.Managed.DAFUL.Track.AttributeLoadCase.md).[LoadCaseData](VM.Managed.DAFUL.Track.AttributeLoadCase.LoadCaseData.md)\[\]
 
-### <a id="VM_Managed_DAFUL_Track_AttributeLoadCase_MeasurePoints"></a> MeasurePoints
+### MeasurePoints
 
 Gets or sets the measure points.
 
@@ -145,7 +145,7 @@ public PointBase[] MeasurePoints { get; set; }
 
  PointBase\[\]
 
-### <a id="VM_Managed_DAFUL_Track_AttributeLoadCase__HydroForce"></a> \_HydroForce
+### \_HydroForce
 
 Gets or sets the hydro force.
 
@@ -159,7 +159,7 @@ public Linker<IHydroForce> _HydroForce { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_AttributeLoadCase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -172,4 +172,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase"></a> Class ExtractFaceSetBase
+# Class ExtractFaceSetBase
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -29,7 +29,7 @@ IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase__ctor"></a> ExtractFaceSetBase\(\)
+### ExtractFaceSetBase\(\)
 
 ```csharp
 public ExtractFaceSetBase()
@@ -37,7 +37,7 @@ public ExtractFaceSetBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_FirstConnectable"></a> FirstConnectable
+### FirstConnectable
 
 ```csharp
 protected virtual Body FirstConnectable { get; }
@@ -47,7 +47,7 @@ protected virtual Body FirstConnectable { get; }
 
  Body
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_FirstFaceSetName"></a> FirstFaceSetName
+### FirstFaceSetName
 
 ```csharp
 public string FirstFaceSetName { get; }
@@ -57,7 +57,7 @@ public string FirstFaceSetName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -67,7 +67,7 @@ public string[] InputArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_Parameters"></a> Parameters
+### Parameters
 
 ```csharp
 public PickedResult[] Parameters { get; set; }
@@ -77,7 +77,7 @@ public PickedResult[] Parameters { get; set; }
 
  PickedResult\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_SecondConnectable"></a> SecondConnectable
+### SecondConnectable
 
 ```csharp
 protected virtual Body SecondConnectable { get; }
@@ -87,7 +87,7 @@ protected virtual Body SecondConnectable { get; }
 
  Body
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_SecondFaceSetName"></a> SecondFaceSetName
+### SecondFaceSetName
 
 ```csharp
 public string SecondFaceSetName { get; }
@@ -97,7 +97,7 @@ public string SecondFaceSetName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_SplitFirstBody"></a> SplitFirstBody
+### SplitFirstBody
 
 ```csharp
 public bool SplitFirstBody { get; }
@@ -107,7 +107,7 @@ public bool SplitFirstBody { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_SplitSecondBody"></a> SplitSecondBody
+### SplitSecondBody
 
 ```csharp
 public bool SplitSecondBody { get; }
@@ -117,7 +117,7 @@ public bool SplitSecondBody { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_TargetFaces"></a> TargetFaces
+### TargetFaces
 
 ```csharp
 protected virtual Face[] TargetFaces { get; }
@@ -127,7 +127,7 @@ protected virtual Face[] TargetFaces { get; }
 
  Face\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_Tolerance"></a> Tolerance
+### Tolerance
 
 ```csharp
 public double Tolerance { get; }
@@ -137,7 +137,7 @@ public double Tolerance { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_UseTolerance"></a> UseTolerance
+### UseTolerance
 
 ```csharp
 public bool UseTolerance { get; }
@@ -149,7 +149,7 @@ public bool UseTolerance { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_CreateFaceSet_System_String_VM_Managed_DAFUL_SolidBody_VM_Managed_CAD_Face___VM_Managed_Document3D_"></a> CreateFaceSet\(string, SolidBody, Face\[\], Document3D\)
+### CreateFaceSet\(string, SolidBody, Face\[\], Document3D\)
 
 ```csharp
 protected virtual void CreateFaceSet(string strName, SolidBody sbParent, Face[] arFace, Document3D doc3D)
@@ -165,7 +165,7 @@ protected virtual void CreateFaceSet(string strName, SolidBody sbParent, Face[] 
 
 `doc3D` Document3D
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_CreateFaceSet_System_String_VM_Managed_CAD_Body_VM_Managed_CAD_Face___VM_Managed_Document3D_"></a> CreateFaceSet\(string, Body, Face\[\], Document3D\)
+### CreateFaceSet\(string, Body, Face\[\], Document3D\)
 
 ```csharp
 protected virtual void CreateFaceSet(string strName, Body sbParent, Face[] arFace, Document3D doc3D)
@@ -181,7 +181,7 @@ protected virtual void CreateFaceSet(string strName, Body sbParent, Face[] arFac
 
 `doc3D` Document3D
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_ExtractFaceSetBase_Success"></a> Success\(\)
+### Success\(\)
 
 ```csharp
 public bool Success()
@@ -190,4 +190,5 @@ public bool Success()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

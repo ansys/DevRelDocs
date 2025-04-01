@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_DocumentPropertyEvent"></a> Class DocumentPropertyEvent
+# Class DocumentPropertyEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -35,7 +35,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_History_DocumentPropertyEvent__ctor_VM_Managed_Document_"></a> DocumentPropertyEvent\(Document\)
+### DocumentPropertyEvent\(Document\)
 
 ```csharp
 public DocumentPropertyEvent(Document doc)
@@ -45,7 +45,7 @@ public DocumentPropertyEvent(Document doc)
 
 `doc` [Document](VM.Managed.Document.md)
 
-### <a id="VM_Managed_History_DocumentPropertyEvent__ctor"></a> DocumentPropertyEvent\(\)
+### DocumentPropertyEvent\(\)
 
 ```csharp
 protected DocumentPropertyEvent()
@@ -53,7 +53,7 @@ protected DocumentPropertyEvent()
 
 ## Methods
 
-### <a id="VM_Managed_History_DocumentPropertyEvent_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 ```csharp
 protected override void Clear(bool bReserveReferenceCount)
@@ -63,7 +63,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_History_DocumentPropertyEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
+### Redo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Redo(HistoryEventArgs args)
@@ -73,7 +73,7 @@ protected override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_DocumentPropertyEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
+### Undo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Undo(HistoryEventArgs args)
@@ -82,4 +82,5 @@ protected override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
+
 

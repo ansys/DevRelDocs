@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Beam"></a> Namespace VM.Managed.DAFUL.Beam
+# Namespace VM.Managed.DAFUL.Beam
 
 ### Namespaces
 
@@ -46,4 +46,5 @@ Beam Group have several beam information classes
  [RenderingType](VM.Managed.DAFUL.Beam.RenderingType.md)
 
  [ResultType](VM.Managed.DAFUL.Beam.ResultType.md)
+
 

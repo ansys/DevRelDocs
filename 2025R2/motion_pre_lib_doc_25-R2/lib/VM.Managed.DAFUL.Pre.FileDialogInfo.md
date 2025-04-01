@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_FileDialogInfo"></a> Class FileDialogInfo
+# Class FileDialogInfo
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -27,7 +27,7 @@ public class FileDialogInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo__ctor"></a> FileDialogInfo\(\)
+### FileDialogInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.FileDialogInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -37,7 +37,7 @@ public FileDialogInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_AddExtension"></a> AddExtension
+### AddExtension
 
 Gets or sets the [add extension] flag.
 
@@ -49,7 +49,7 @@ public bool AddExtension { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_DefaultExt"></a> DefaultExt
+### DefaultExt
 
 Gets or sets the default extension.
 
@@ -61,7 +61,7 @@ public string DefaultExt { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_FileName"></a> FileName
+### FileName
 
 Gets or sets the name of the file.
 
@@ -73,7 +73,7 @@ public string FileName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_Filter"></a> Filter
+### Filter
 
 Gets or sets the filter.
 
@@ -85,7 +85,7 @@ public string Filter { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_FilterIndex"></a> FilterIndex
+### FilterIndex
 
 Gets or sets the filter index.
 
@@ -97,7 +97,7 @@ public int FilterIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_InitialDirectory"></a> InitialDirectory
+### InitialDirectory
 
 Gets or sets the initial directory.
 
@@ -109,7 +109,7 @@ public string InitialDirectory { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_RestoreDirectory"></a> RestoreDirectory
+### RestoreDirectory
 
 Gets or sets the [restore directory] flag.
 
@@ -121,7 +121,7 @@ public bool RestoreDirectory { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_FileDialogInfo_Title"></a> Title
+### Title
 
 Gets or sets the title.
 
@@ -132,4 +132,5 @@ public string Title { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

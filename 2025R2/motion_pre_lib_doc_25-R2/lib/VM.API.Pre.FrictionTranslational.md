@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FrictionTranslational"></a> Class FrictionTranslational
+# Class FrictionTranslational
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -34,7 +34,7 @@ public class FrictionTranslational : Friction
 
 ## Constructors
 
-### <a id="VM_API_Pre_FrictionTranslational__ctor"></a> FrictionTranslational\(\)
+### FrictionTranslational\(\)
 
 Default constructor
 
@@ -42,7 +42,7 @@ Default constructor
 public FrictionTranslational()
 ```
 
-### <a id="VM_API_Pre_FrictionTranslational__ctor_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Managed_DAFUL_Constraints_Friction_EffectType_System_Boolean_System_Boolean_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Managed_DAFUL_Constraints_OverlapDeltaType_System_Boolean_"></a> FrictionTranslational\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, EffectType, bool, bool, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, OverlapDeltaType, bool\)
+### FrictionTranslational\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, EffectType, bool, bool, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, OverlapDeltaType, bool\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.FrictionTranslational" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ The torsional moment.
 
 ## Properties
 
-### <a id="VM_API_Pre_FrictionTranslational_InitialOverlap"></a> InitialOverlap
+### InitialOverlap
 
 The value for the initial overlap. The default value is 1.
 
@@ -118,7 +118,7 @@ public ExpressionValueVariable InitialOverlap { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_FrictionTranslational_OverlapOption"></a> OverlapOption
+### OverlapOption
 
 The value for the overlap option. The default value is <xref href="VM.Managed.DAFUL.Constraints.OverlapDeltaType.Constant" data-throw-if-not-resolved="false"></xref>.
 
@@ -130,7 +130,7 @@ public OverlapDeltaType OverlapOption { get; set; }
 
  OverlapDeltaType
 
-### <a id="VM_API_Pre_FrictionTranslational_PreForce"></a> PreForce
+### PreForce
 
 The value for the preForce. The default value is 0.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable PreForce { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_FrictionTranslational_ReactionArm"></a> ReactionArm
+### ReactionArm
 
 The value for the reaction arm. The default value is 1.
 
@@ -154,7 +154,7 @@ public ExpressionValueVariable ReactionArm { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_FrictionTranslational_TorsionalMoment"></a> TorsionalMoment
+### TorsionalMoment
 
 The value for the torsional moment. The default value is 'true'.
 
@@ -165,4 +165,5 @@ public bool TorsionalMoment { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

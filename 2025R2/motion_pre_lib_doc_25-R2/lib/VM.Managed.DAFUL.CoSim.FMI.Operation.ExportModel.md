@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel"></a> Class ExportModel
+# Class ExportModel
 
 Namespace: [VM.Managed.DAFUL.CoSim.FMI.Operation](VM.Managed.DAFUL.CoSim.FMI.Operation.md)  
 Assembly: VMOpCoSimFMI.dll  
@@ -75,7 +75,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel__ctor_VM_Managed_Document_"></a> ExportModel\(Document\)
+### ExportModel\(Document\)
 
 ```csharp
 public ExportModel(Document doc)
@@ -85,7 +85,7 @@ public ExportModel(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel__ctor_VM_Managed_Document_System_String_System_String_System_String_System_Collections_Generic_IEnumerable_VM_Managed_ObjectBase__System_Collections_Generic_IEnumerable_VM_Managed_ObjectBase__VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_String_System_String_"></a> ExportModel\(Document, string, string, string, IEnumerable<ObjectBase\>, IEnumerable<ObjectBase\>, ExpressionValueVariable, ExpressionValueVariable, string, string\)
+### ExportModel\(Document, string, string, string, IEnumerable<ObjectBase\>, IEnumerable<ObjectBase\>, ExpressionValueVariable, ExpressionValueVariable, string, string\)
 
 ```csharp
 public ExportModel(Document doc, string filePath, string strDFSFile, string strRESFile, IEnumerable<ObjectBase> inputs, IEnumerable<ObjectBase> outputs, ExpressionValueVariable version, ExpressionValueVariable interfaceTimeStep, string modelDescription, string interfacePath)
@@ -113,7 +113,7 @@ public ExportModel(Document doc, string filePath, string strDFSFile, string strR
 
 `interfacePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel__ctor_VM_Managed_Document_System_String_System_String_System_String_System_Collections_Generic_IEnumerable_VM_Managed_ObjectBase__System_Collections_Generic_IEnumerable_VM_Managed_ObjectBase__VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_String_System_String_System_String_System_String_"></a> ExportModel\(Document, string, string, string, IEnumerable<ObjectBase\>, IEnumerable<ObjectBase\>, ExpressionValueVariable, ExpressionValueVariable, string, string, string, string\)
+### ExportModel\(Document, string, string, string, IEnumerable<ObjectBase\>, IEnumerable<ObjectBase\>, ExpressionValueVariable, ExpressionValueVariable, string, string, string, string\)
 
 ```csharp
 public ExportModel(Document doc, string filePath, string strDFSFile, string strRESFile, IEnumerable<ObjectBase> inputs, IEnumerable<ObjectBase> outputs, ExpressionValueVariable version, ExpressionValueVariable interfaceTimeStep, string modelDescription, string interfacePath, string scalefactor, string strMessageLevel)
@@ -145,7 +145,7 @@ public ExportModel(Document doc, string filePath, string strDFSFile, string strR
 
 `strMessageLevel` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel__ctor_VM_Managed_Document_System_Collections_Generic_List_System_Object__"></a> ExportModel\(Document, List<object\>\)
+### ExportModel\(Document, List<object\>\)
 
 ```csharp
 public ExportModel(Document doc, List<object> lstInfo)
@@ -157,7 +157,7 @@ public ExportModel(Document doc, List<object> lstInfo)
 
 `lstInfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
-### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportModel\(JournalParameter\)
+### ExportModel\(JournalParameter\)
 
 ```csharp
 public ExportModel(JournalParameter jp)
@@ -169,7 +169,7 @@ public ExportModel(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -183,7 +183,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -191,7 +191,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -201,7 +201,7 @@ public override void GetInformation(XmlWriter writer)
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
-### <a id="VM_Managed_DAFUL_CoSim_FMI_Operation_ExportModel_Get_ModelDescription_VM_Managed_DAFUL_SubSystemDocument_System_String_System_Collections_Generic_IList_VM_Managed_ObjectBase__System_Collections_Generic_IList_VM_Managed_ObjectBase__System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_Int32__System_Double_System_String_System_Double_System_String_System_String_"></a> Get\_ModelDescription\(SubSystemDocument, string, IList<ObjectBase\>, IList<ObjectBase\>, IList<int\>, IList<int\>, double, string, double, string, string\)
+### Get\_ModelDescription\(SubSystemDocument, string, IList<ObjectBase\>, IList<ObjectBase\>, IList<int\>, IList<int\>, double, string, double, string, string\)
 
 ```csharp
 public XmlDocument Get_ModelDescription(SubSystemDocument subSystem, string strFileFullPath, IList<ObjectBase> lstInputName, IList<ObjectBase> lstOutputName, IList<int> lstInputSeq, IList<int> lstOutputSeq, double version, string description, double stepSize, string scalefactor = null, string messagelevel = null)
@@ -234,4 +234,5 @@ public XmlDocument Get_ModelDescription(SubSystemDocument subSystem, string strF
 #### Returns
 
  [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
+
 

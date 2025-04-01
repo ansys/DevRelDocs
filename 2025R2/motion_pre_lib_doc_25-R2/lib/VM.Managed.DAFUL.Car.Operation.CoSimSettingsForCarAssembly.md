@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_CoSimSettingsForCarAssembly"></a> Class CoSimSettingsForCarAssembly
+# Class CoSimSettingsForCarAssembly
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -111,7 +111,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_CoSimSettingsForCarAssembly__ctor_VM_Managed_Document_"></a> CoSimSettingsForCarAssembly\(Document\)
+### CoSimSettingsForCarAssembly\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.CoSimSettingsForCarAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -127,7 +127,7 @@ The doc.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_CoSimSettingsForCarAssembly_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -139,7 +139,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_Operation_CoSimSettingsForCarAssembly_UseCoSim"></a> UseCoSim
+### UseCoSim
 
 Gets a value indicating whether [use co sim].
 
@@ -153,7 +153,7 @@ protected override bool UseCoSim { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_CoSimSettingsForCarAssembly_ExecuteImpl"></a> ExecuteImpl\(\)
+### ExecuteImpl\(\)
 
 Executes [implementation].
 
@@ -161,7 +161,7 @@ Executes [implementation].
 protected override void ExecuteImpl()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_CoSimSettingsForCarAssembly_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -178,4 +178,5 @@ The updater.
 `doc` Document
 
 The document.
+
 

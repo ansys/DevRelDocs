@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_SolidBodyAPI"></a> Class SolidBodyAPI
+# Class SolidBodyAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class SolidBodyAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_SolidBodyAPI_ChangeSolidBodyAnalysisSetting_VM_API_Pre_Obj_VM_Managed_DAFUL_BodyAnalysisType_"></a> ChangeSolidBodyAnalysisSetting\(Obj, BodyAnalysisType\)
+### ChangeSolidBodyAnalysisSetting\(Obj, BodyAnalysisType\)
 
 Change the analysis setting of solid body.
 
@@ -52,7 +52,7 @@ Will be thrown if 'solidBody' arguments are empty.
 
 Will be thrown if 'solidBody' argument is not empty and type of 'solidBody' is not <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_SolidBodyAPI_CreateMarker_VM_API_Pre_Obj_VM_TMatrix_System_String_VM_Managed_SymmetricType_"></a> CreateMarker\(Obj, TMatrix, string, SymmetricType\)
+### CreateMarker\(Obj, TMatrix, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Marker" data-throw-if-not-resolved="false"></xref> at the given <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>
 
@@ -91,7 +91,7 @@ the new <xref href="VM.Managed.DAFUL.Marker" data-throw-if-not-resolved="false">
 
 Will be thrown if 'solidBody' is null.
 
-### <a id="VM_API_Pre_SolidBodyAPI_CreateMeshFile_VM_API_Pre_Obj_System_String_System_String_System_Boolean_System_Boolean_System_Boolean_System_String_System_Nullable_VM_API_Pre_FacetParameters__"></a> CreateMeshFile\(Obj, string, string, bool, bool, bool, string, FacetParameters?\)
+### CreateMeshFile\(Obj, string, string, bool, bool, bool, string, FacetParameters?\)
 
 Generate mesh file with given <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> entity.
 
@@ -147,7 +147,7 @@ The new NodalBody entity if importMeshAfterCreate flag is true. Otherwise, empty
 
 Will be thrown if body or pathMeshFile arguments are empty.
 
-### <a id="VM_API_Pre_SolidBodyAPI_CreateSolidBlock_VM_Managed_DAFUL_SubSystemDocument_VM_Vector_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_String_VM_API_Pre_BooleanOperationType_System_Nullable_System_Drawing_Color__VM_Managed_SymmetricType_System_Boolean_"></a> CreateSolidBlock\(SubSystemDocument, Vector, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, string, BooleanOperationType, Color?, SymmetricType, bool\)
+### CreateSolidBlock\(SubSystemDocument, Vector, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, string, BooleanOperationType, Color?, SymmetricType, bool\)
 
 Create <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.BuilderBlockSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -215,7 +215,7 @@ Will be thrown if 'document' is null.
 
 Will be thrown if 'width', 'height', 'depth' values equal to or less than 0.
 
-### <a id="VM_API_Pre_SolidBodyAPI_CreateSolidBlock_VM_Managed_DAFUL_SubSystemDocument_VM_Vector_System_String_"></a> CreateSolidBlock\(SubSystemDocument, Vector, string\)
+### CreateSolidBlock\(SubSystemDocument, Vector, string\)
 
 Create <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.BuilderBlockSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -243,7 +243,7 @@ The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolv
 
 The new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> object created by this API.
 
-### <a id="VM_API_Pre_SolidBodyAPI_CreateSolidCylinder_VM_Managed_DAFUL_SubSystemDocument_VM_Vector_VM_Vector_VM_Models_Pre_ExpressionValueVariable_System_String_VM_API_Pre_BooleanOperationType_System_Nullable_System_Drawing_Color__VM_Managed_SymmetricType_System_Boolean_"></a> CreateSolidCylinder\(SubSystemDocument, Vector, Vector, ExpressionValueVariable, string, BooleanOperationType, Color?, SymmetricType, bool\)
+### CreateSolidCylinder\(SubSystemDocument, Vector, Vector, ExpressionValueVariable, string, BooleanOperationType, Color?, SymmetricType, bool\)
 
 Create <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.BuilderCylinderSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -311,7 +311,7 @@ Will be thrown if 'radius' value equal to or less than 0.
 
 Will be thrown if 'bottomPosition' equal to 'topPosition'.
 
-### <a id="VM_API_Pre_SolidBodyAPI_CreateSolidCylinder_VM_Managed_DAFUL_SubSystemDocument_VM_Vector_VM_Vector_System_String_"></a> CreateSolidCylinder\(SubSystemDocument, Vector, Vector, string\)
+### CreateSolidCylinder\(SubSystemDocument, Vector, Vector, string\)
 
 Create <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.BuilderCylinderSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -343,7 +343,7 @@ The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolv
 
 The new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> object created by this API.
 
-### <a id="VM_API_Pre_SolidBodyAPI_CreateSolidSphere_VM_Managed_DAFUL_SubSystemDocument_VM_Vector_VM_Models_Pre_ExpressionValueVariable_System_String_VM_API_Pre_BooleanOperationType_System_Nullable_System_Drawing_Color__VM_Managed_SymmetricType_System_Boolean_"></a> CreateSolidSphere\(SubSystemDocument, Vector, ExpressionValueVariable, string, BooleanOperationType, Color?, SymmetricType, bool\)
+### CreateSolidSphere\(SubSystemDocument, Vector, ExpressionValueVariable, string, BooleanOperationType, Color?, SymmetricType, bool\)
 
 Create <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.BuilderSphereSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -403,7 +403,7 @@ Will be thrown if 'document' is null.
 
 Will be thrown if 'radius' value equal to or less than 0.
 
-### <a id="VM_API_Pre_SolidBodyAPI_CreateSolidSphere_VM_Managed_DAFUL_SubSystemDocument_VM_Vector_System_String_"></a> CreateSolidSphere\(SubSystemDocument, Vector, string\)
+### CreateSolidSphere\(SubSystemDocument, Vector, string\)
 
 Create <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.BuilderSphereSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -431,7 +431,7 @@ The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolv
 
 The new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> object created by this API.
 
-### <a id="VM_API_Pre_SolidBodyAPI_CreateSolidTriPlate_VM_Managed_DAFUL_SubSystemDocument_VM_Vector_VM_Vector_VM_Vector_VM_Models_Pre_ExpressionValueVariable_System_String_VM_API_Pre_BooleanOperationType_System_Nullable_System_Drawing_Color__VM_Managed_SymmetricType_System_Boolean_"></a> CreateSolidTriPlate\(SubSystemDocument, Vector, Vector, Vector, ExpressionValueVariable, string, BooleanOperationType, Color?, SymmetricType, bool\)
+### CreateSolidTriPlate\(SubSystemDocument, Vector, Vector, Vector, ExpressionValueVariable, string, BooleanOperationType, Color?, SymmetricType, bool\)
 
 Create <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.BuilderTriPlateSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -503,7 +503,7 @@ Will be thrown if 'height' value equal to or less than 0.
 
 Will be thrown if the condition of triangle's crossproduct is not met.
 
-### <a id="VM_API_Pre_SolidBodyAPI_CreateSolidTriPlate_VM_Managed_DAFUL_SubSystemDocument_VM_Vector_VM_Vector_VM_Vector_System_String_"></a> CreateSolidTriPlate\(SubSystemDocument, Vector, Vector, Vector, string\)
+### CreateSolidTriPlate\(SubSystemDocument, Vector, Vector, Vector, string\)
 
 Create <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.BuilderTriPlateSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -539,7 +539,7 @@ The name of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolv
 
 The new <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> object created by this API.
 
-### <a id="VM_API_Pre_SolidBodyAPI_UpdateBody_VM_API_Pre_Obj_"></a> UpdateBody\(Obj\)
+### UpdateBody\(Obj\)
 
 Update body.
 
@@ -563,4 +563,5 @@ Will be thrown if 'body' arguments are empty.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if 'body' argument is not empty and type of 'body' is not <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> or <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref>.
+
 

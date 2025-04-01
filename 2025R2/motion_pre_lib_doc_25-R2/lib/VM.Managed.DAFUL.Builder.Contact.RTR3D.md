@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Contact_RTR3D"></a> Class RTR3D
+# Class RTR3D
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -53,7 +53,7 @@ BuilderBase<RTR3D\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_RTR3D__ctor"></a> RTR3D\(\)
+### RTR3D\(\)
 
 ```csharp
 public RTR3D()
@@ -61,7 +61,7 @@ public RTR3D()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_RTR3D_ActionContactable"></a> ActionContactable
+### ActionContactable
 
 ```csharp
 public IContactableRigid3D ActionContactable { get; }
@@ -71,7 +71,7 @@ public IContactableRigid3D ActionContactable { get; }
 
  IContactableRigid3D
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_RTR3D_BaseContactable"></a> BaseContactable
+### BaseContactable
 
 ```csharp
 public IContactableRigid3D BaseContactable { get; }
@@ -83,7 +83,7 @@ public IContactableRigid3D BaseContactable { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_RTR3D_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -98,4 +98,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

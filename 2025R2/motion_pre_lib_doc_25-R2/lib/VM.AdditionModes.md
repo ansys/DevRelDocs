@@ -1,4 +1,4 @@
-# <a id="VM_AdditionModes"></a> Enum AdditionModes
+# Enum AdditionModes
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -32,6 +32,7 @@ Subtract from current selection mode
 `Toggle = 3` 
 
 Toggle selection mode
+
 
 
 

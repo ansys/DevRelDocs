@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_GetLengthOfEdgeOp"></a> Class GetLengthOfEdgeOp
+# Class GetLengthOfEdgeOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_GetLengthOfEdgeOp__ctor_VM_Managed_CAD_Edge_"></a> GetLengthOfEdgeOp\(Edge\)
+### GetLengthOfEdgeOp\(Edge\)
 
 ```csharp
 public GetLengthOfEdgeOp(Edge edge)
@@ -87,7 +87,7 @@ public GetLengthOfEdgeOp(Edge edge)
 
 `edge` [Edge](VM.Managed.CAD.Edge.md)
 
-### <a id="VM_Managed_CAD_GetLengthOfEdgeOp__ctor"></a> GetLengthOfEdgeOp\(\)
+### GetLengthOfEdgeOp\(\)
 
 ```csharp
 public GetLengthOfEdgeOp()
@@ -95,7 +95,7 @@ public GetLengthOfEdgeOp()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_GetLengthOfEdgeOp_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the merge of history.
 
@@ -107,7 +107,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_GetLengthOfEdgeOp_Length"></a> Length
+### Length
 
 Gets the length.
 
@@ -119,7 +119,7 @@ public double Length { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_GetLengthOfEdgeOp_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -133,11 +133,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_GetLengthOfEdgeOp_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

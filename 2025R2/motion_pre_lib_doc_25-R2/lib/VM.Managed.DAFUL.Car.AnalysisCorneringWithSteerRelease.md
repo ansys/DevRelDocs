@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease"></a> Class AnalysisCorneringWithSteerRelease
+# Class AnalysisCorneringWithSteerRelease
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -51,7 +51,7 @@ IHasLengthUnitType
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease__ctor"></a> AnalysisCorneringWithSteerRelease\(\)
+### AnalysisCorneringWithSteerRelease\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisCorneringWithSteerRelease" data-throw-if-not-resolved="false"></xref> class.
 
@@ -59,7 +59,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisCorne
 public AnalysisCorneringWithSteerRelease()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisCorneringWithSteerRelease\(ILinkContainer\)
+### AnalysisCorneringWithSteerRelease\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisCorneringWithSteerRelease" data-throw-if-not-resolved="false"></xref> class.
 
@@ -75,7 +75,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_Acceleration"></a> Acceleration
+### Acceleration
 
 Gets or sets the acceleration.
 
@@ -87,7 +87,7 @@ public double Acceleration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_AccelerationUnitType"></a> AccelerationUnitType
+### AccelerationUnitType
 
 Gets or sets the acceleration unit.
 
@@ -99,7 +99,7 @@ public AccelerationUnitType AccelerationUnitType { get; set; }
 
  [AccelerationUnitType](VM.Managed.DAFUL.Car.Analysis.AccelerationUnitType.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_InitialVelocityCornering"></a> InitialVelocityCornering
+### InitialVelocityCornering
 
 Gets or sets the initial velocity.
 
@@ -111,7 +111,7 @@ public override double InitialVelocityCornering { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_LongitudinalVelocity"></a> LongitudinalVelocity
+### LongitudinalVelocity
 
 Gets or sets the longitudinal velocity.
 
@@ -123,7 +123,7 @@ public double LongitudinalVelocity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_Radius"></a> Radius
+### Radius
 
 Gets or sets the radius.
 
@@ -135,7 +135,7 @@ public double Radius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_SteadyStatePrephaseType"></a> SteadyStatePrephaseType
+### SteadyStatePrephaseType
 
 Gets or sets the steady state prephase.
 
@@ -147,7 +147,7 @@ public SteadyStatePrephaseType SteadyStatePrephaseType { get; set; }
 
  [SteadyStatePrephaseType](VM.Managed.DAFUL.Car.Analysis.Full.SteadyStatePrephaseType.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_TireRadiusPosition"></a> TireRadiusPosition
+### TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -159,7 +159,7 @@ public override int TireRadiusPosition { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_UnitOfLength"></a> UnitOfLength
+### UnitOfLength
 
 Gets or sets the length unit.
 
@@ -171,7 +171,7 @@ public LengthUnitType UnitOfLength { get; set; }
 
  LengthUnitType
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_VelocityUnitType"></a> VelocityUnitType
+### VelocityUnitType
 
 Gets or sets the velocity unit.
 
@@ -185,7 +185,7 @@ public VelocityUnitType VelocityUnitType { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisCorneringWithSteerRelease_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
+### GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -198,4 +198,5 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
+
 

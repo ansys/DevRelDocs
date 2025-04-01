@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_ChangeAssemblyType"></a> Enum ChangeAssemblyType
+# Enum ChangeAssemblyType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -20,6 +20,7 @@ NodalBody
 `SubSystem = 0` 
 
 SubSystem
+
 
 
 

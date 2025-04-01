@@ -1,4 +1,4 @@
-# <a id="VM_Managed_INamed"></a> Interface INamed
+# Interface INamed
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface INamed
 
 ## Properties
 
-### <a id="VM_Managed_INamed_FullName"></a> FullName
+### FullName
 
 Gets the object full name.
 
@@ -29,7 +29,7 @@ string FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_INamed_Name"></a> Name
+### Name
 
 Gets or sets the object name.
 
@@ -41,7 +41,7 @@ string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_INamed_NonSymmetricName"></a> NonSymmetricName
+### NonSymmetricName
 
 Gets the non-symmetric object name.
 
@@ -52,4 +52,5 @@ string NonSymmetricName { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

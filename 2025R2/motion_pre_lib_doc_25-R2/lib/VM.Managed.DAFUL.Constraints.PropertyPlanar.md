@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_PropertyPlanar"></a> Class PropertyPlanar
+# Class PropertyPlanar
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyPlanar__ctor"></a> PropertyPlanar\(\)
+### PropertyPlanar\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.PropertyPlanar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public PropertyPlanar()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyPlanar_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -191,7 +191,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyPlanar_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -202,4 +202,5 @@ public override string ReferenceType { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

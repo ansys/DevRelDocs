@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_ExportXMLMeshFree"></a> Class ExportXMLMeshFree
+# Class ExportXMLMeshFree
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -104,7 +104,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ExportXMLMeshFree__ctor_VM_Managed_Document_"></a> ExportXMLMeshFree\(Document\)
+### ExportXMLMeshFree\(Document\)
 
 ```csharp
 public ExportXMLMeshFree(Document doc)
@@ -114,7 +114,7 @@ public ExportXMLMeshFree(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ExportXMLMeshFree__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportXMLMeshFree\(JournalParameter\)
+### ExportXMLMeshFree\(JournalParameter\)
 
 ```csharp
 public ExportXMLMeshFree(JournalParameter jp)
@@ -126,7 +126,7 @@ public ExportXMLMeshFree(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ExportXMLMeshFree_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -137,4 +137,5 @@ public override string Name { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

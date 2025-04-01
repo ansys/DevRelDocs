@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamExtrude"></a> Class BuilderParamExtrude
+# Class BuilderParamExtrude
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -34,7 +34,7 @@ public class BuilderParamExtrude : BuilderParamColorGeom
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamExtrude__ctor"></a> BuilderParamExtrude\(\)
+### BuilderParamExtrude\(\)
 
 ```csharp
 public BuilderParamExtrude()
@@ -42,7 +42,7 @@ public BuilderParamExtrude()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_BuilderParamExtrude_Axis"></a> Axis
+### Axis
 
 Axis for the extrude
 
@@ -54,7 +54,7 @@ public Vector Axis { get; set; }
 
  Vector
 
-### <a id="VM_CAD_Builders_BuilderParamExtrude_ChamferInfos"></a> ChamferInfos
+### ChamferInfos
 
 Champer information for the extrude geometry
 
@@ -66,7 +66,7 @@ public List<ChamferInfo> ChamferInfos { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ChamferInfo](VM.CAD.Builders.ChamferInfo.md)\>
 
-### <a id="VM_CAD_Builders_BuilderParamExtrude_Depth"></a> Depth
+### Depth
 
 Depth value of the extrude geometry
 
@@ -78,7 +78,7 @@ public double Depth { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_BuilderParamExtrude_DrawInfos"></a> DrawInfos
+### DrawInfos
 
 Profile informations for the extrude geometry
 
@@ -89,4 +89,5 @@ public List<DrawInfo> DrawInfos { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[DrawInfo](VM.CAD.Builders.DrawInfo.md)\>
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_Util_SubsystemDocument"></a> Class SubsystemDocument
+# Class SubsystemDocument
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -20,7 +20,7 @@ public static class SubsystemDocument
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_Util_SubsystemDocument_CreateNewSubsystemDocument_System_String_VM_Unit_System_String_"></a> CreateNewSubsystemDocument\(string, Unit, string\)
+### CreateNewSubsystemDocument\(string, Unit, string\)
 
 ```csharp
 public static SubSystemDocument CreateNewSubsystemDocument(string strNewSubsystemFilePath, Unit unit, string kernelLengthUnit = null)
@@ -37,4 +37,5 @@ public static SubSystemDocument CreateNewSubsystemDocument(string strNewSubsyste
 #### Returns
 
  SubSystemDocument
+
 

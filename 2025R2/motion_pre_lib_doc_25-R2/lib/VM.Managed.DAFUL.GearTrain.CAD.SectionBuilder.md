@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_SectionBuilder"></a> Class SectionBuilder
+# Class SectionBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -193,7 +193,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SectionBuilder__ctor"></a> SectionBuilder\(\)
+### SectionBuilder\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.SectionBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -203,7 +203,7 @@ public SectionBuilder()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SectionBuilder_SectionInformation"></a> SectionInformation
+### SectionInformation
 
 Gets or sets the section information.
 
@@ -217,7 +217,7 @@ public SectionInfo SectionInformation { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SectionBuilder_CreateParameter"></a> CreateParameter\(\)
+### CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -227,7 +227,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SectionBuilder_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -237,7 +237,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SectionBuilder_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
+### GetLengthAndHeight\(ref double, ref double\)
 
 Gets the start and end point.
 
@@ -254,4 +254,5 @@ Length of the d.
 `dHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 Height of the d.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_ElementTypes"></a> Enum ElementTypes
+# Enum ElementTypes
 
 Namespace: [VM.Models.FE.Mesh](VM.Models.FE.Mesh.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -41,4 +41,5 @@ public enum ElementTypes
 `Solid6 = 10` 
 
 `Solid8 = 11` 
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Constraints_CouplerCableJJ"></a> Class CouplerCableJJ
+# Class CouplerCableJJ
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  
@@ -57,9 +57,10 @@ BuilderBase<CouplerCable\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Constraints_CouplerCableJJ__ctor"></a> CouplerCableJJ\(\)
+### CouplerCableJJ\(\)
 
 ```csharp
 public CouplerCableJJ()
 ```
+
 

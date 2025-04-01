@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IHiddenDocument"></a> Interface IHiddenDocument
+# Interface IHiddenDocument
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IHiddenDocument
 
 ## Properties
 
-### <a id="VM_Managed_IHiddenDocument_TargetDesign"></a> TargetDesign
+### TargetDesign
 
 Gets the target design entity.
 
@@ -29,7 +29,7 @@ IOpenDesigner TargetDesign { get; }
 
  [IOpenDesigner](VM.Managed.IOpenDesigner.md)
 
-### <a id="VM_Managed_IHiddenDocument_TargetDocument"></a> TargetDocument
+### TargetDocument
 
 Gets the document of target.
 
@@ -43,11 +43,12 @@ Document TargetDocument { get; }
 
 ## Methods
 
-### <a id="VM_Managed_IHiddenDocument_Close"></a> Close\(\)
+### Close\(\)
 
 Close document.
 
 ```csharp
 void Close()
 ```
+
 

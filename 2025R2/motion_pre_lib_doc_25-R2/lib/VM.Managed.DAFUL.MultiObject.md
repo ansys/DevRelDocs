@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MultiObject"></a> Class MultiObject
+# Class MultiObject
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MultiObject__ctor"></a> MultiObject\(\)
+### MultiObject\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObject" data-throw-if-not-resolved="false"></xref> class.
 
@@ -177,7 +177,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObject" data
 public MultiObject()
 ```
 
-### <a id="VM_Managed_DAFUL_MultiObject__ctor_System_String_"></a> MultiObject\(string\)
+### MultiObject\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObject" data-throw-if-not-resolved="false"></xref> class.
 
@@ -193,7 +193,7 @@ Name of this multi object.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MultiObject_Connections"></a> Connections
+### Connections
 
 Gets or sets the array of connections.
 
@@ -205,7 +205,7 @@ public MultiObjectConnection[] Connections { get; set; }
 
  [MultiObjectConnection](VM.Managed.DAFUL.MultiObjectConnection.md)\[\]
 
-### <a id="VM_Managed_DAFUL_MultiObject_Enumerable"></a> Enumerable
+### Enumerable
 
 Gets the enumerable interface of this class.
 
@@ -217,7 +217,7 @@ public IEnumerable<ObjectBase> Enumerable { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ObjectBase\>
 
-### <a id="VM_Managed_DAFUL_MultiObject_MultiObjectContainer"></a> MultiObjectContainer
+### MultiObjectContainer
 
 Gets or sets the multi object container.
 
@@ -231,7 +231,7 @@ public MultiObjectContainer MultiObjectContainer { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MultiObject_AddConnection_VM_Managed_DAFUL_MultiObjectConnection_"></a> AddConnection\(MultiObjectConnection\)
+### AddConnection\(MultiObjectConnection\)
 
 Adds the new connection.
 
@@ -245,7 +245,7 @@ public void AddConnection(MultiObjectConnection connection)
 
 The connection.
 
-### <a id="VM_Managed_DAFUL_MultiObject_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -259,7 +259,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_MultiObject_RemoveConnection_VM_Managed_DAFUL_MultiObjectConnection_"></a> RemoveConnection\(MultiObjectConnection\)
+### RemoveConnection\(MultiObjectConnection\)
 
 Removes the connection.
 
@@ -276,4 +276,5 @@ The connection.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

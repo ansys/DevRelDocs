@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_IGeometryContainer"></a> Interface IGeometryContainer
+# Interface IGeometryContainer
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IGeometryContainer
 
 ## Methods
 
-### <a id="VM_Managed_CAD_IGeometryContainer_GetGeometries_System_Collections_Generic_IList_VM_Managed_ObjectBase__"></a> GetGeometries\(IList<ObjectBase\>\)
+### GetGeometries\(IList<ObjectBase\>\)
 
 ```csharp
 void GetGeometries(IList<ObjectBase> lstObj)
@@ -27,7 +27,7 @@ void GetGeometries(IList<ObjectBase> lstObj)
 
 `lstObj` [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
-### <a id="VM_Managed_CAD_IGeometryContainer_IsContain_System_UIntPtr_"></a> IsContain\(UIntPtr\)
+### IsContain\(UIntPtr\)
 
 Determines whether the specified geom_key is contain.
 
@@ -46,4 +46,5 @@ The body key.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if the specified geom_key is contain; otherwise, <code>false</code>.
+
 

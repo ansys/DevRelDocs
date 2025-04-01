@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PointOnGeometryBase"></a> Class PointOnGeometryBase
+# Class PointOnGeometryBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -116,7 +116,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_PointOnGeometryBase__ctor"></a> PointOnGeometryBase\(\)
+### PointOnGeometryBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointOnGeometryBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -126,7 +126,7 @@ protected PointOnGeometryBase()
 
 ## Fields
 
-### <a id="VM_Managed_PointOnGeometryBase_m_ptrEntityKey"></a> m\_ptrEntityKey
+### m\_ptrEntityKey
 
 ```csharp
 protected UIntPtr m_ptrEntityKey
@@ -136,7 +136,7 @@ protected UIntPtr m_ptrEntityKey
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### <a id="VM_Managed_PointOnGeometryBase_m_vecPosition"></a> m\_vecPosition
+### m\_vecPosition
 
 ```csharp
 protected VectorBase m_vecPosition
@@ -148,7 +148,7 @@ protected VectorBase m_vecPosition
 
 ## Properties
 
-### <a id="VM_Managed_PointOnGeometryBase_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Get the parametric.
 
@@ -160,7 +160,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_PointOnGeometryBase_Value"></a> Value
+### Value
 
 Get the VectorBase(x, y, z).
 
@@ -172,7 +172,7 @@ public override VectorBase Value { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_PointOnGeometryBase_X"></a> X
+### X
 
 Get the X point.
 
@@ -184,7 +184,7 @@ public override double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_PointOnGeometryBase_Y"></a> Y
+### Y
 
 Get the Y point.
 
@@ -196,7 +196,7 @@ public override double Y { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_PointOnGeometryBase_Z"></a> Z
+### Z
 
 Get the Z point.
 
@@ -210,7 +210,7 @@ public override double Z { get; }
 
 ## Methods
 
-### <a id="VM_Managed_PointOnGeometryBase_IsParametric_VM_Managed_Primitive_enRefType_"></a> IsParametric\(enRefType\)
+### IsParametric\(enRefType\)
 
 Gets parametric.
 
@@ -230,7 +230,7 @@ Point picking type.
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
-### <a id="VM_Managed_PointOnGeometryBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -244,7 +244,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_PointOnGeometryBase_RecalcPosition"></a> RecalcPosition\(\)
+### RecalcPosition\(\)
 
 Recalculate position.
 
@@ -252,7 +252,7 @@ Recalculate position.
 protected void RecalcPosition()
 ```
 
-### <a id="VM_Managed_PointOnGeometryBase_SetPosition_System_String_"></a> SetPosition\(string\)
+### SetPosition\(string\)
 
 Sets the Position
 
@@ -265,4 +265,5 @@ protected void SetPosition(string strPosition)
 `strPosition` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 Position.
+
 

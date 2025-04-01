@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_IPowerLoad"></a> Interface IPowerLoad
+# Interface IPowerLoad
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IPowerLoad
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_IPowerLoad_Type"></a> Type
+### Type
 
 Gets the type of power load.
 
@@ -28,4 +28,5 @@ PowerLoad.PowerLoadType Type { get; }
 #### Property Value
 
  [PowerLoad](VM.Managed.DAFUL.GearTrain.PowerLoad.md).[PowerLoadType](VM.Managed.DAFUL.GearTrain.PowerLoad.PowerLoadType.md)
+
 

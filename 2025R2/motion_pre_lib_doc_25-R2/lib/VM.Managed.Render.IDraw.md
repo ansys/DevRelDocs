@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Render_IDraw"></a> Interface IDraw
+# Interface IDraw
 
 Namespace: [VM.Managed.Render](VM.Managed.Render.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IDraw
 
 ## Properties
 
-### <a id="VM_Managed_Render_IDraw_Hide"></a> Hide
+### Hide
 
 Gets or sets the hide.
 
@@ -31,7 +31,7 @@ bool Hide { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Render_IDraw_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 draw
 
@@ -44,4 +44,5 @@ void Draw(Canvas canvas)
 `canvas` Canvas
 
 The canvas.
+
 

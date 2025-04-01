@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoGearContactAnalysis"></a> Class PseudoGearContactAnalysis
+# Class PseudoGearContactAnalysis
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoGearContactAnalysis__ctor"></a> PseudoGearContactAnalysis\(\)
+### PseudoGearContactAnalysis\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.PseudoGearContactAnalysis" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public PseudoGearContactAnalysis()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoGearContactAnalysis_Name"></a> Name
+### Name
 
 Gets or sets the name.
 
@@ -191,7 +191,7 @@ public override string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoGearContactAnalysis_TransmissionError"></a> TransmissionError
+### TransmissionError
 
 Gets or sets the transmission error.
 
@@ -202,4 +202,5 @@ public TransmissionError TransmissionError { get; set; }
 #### Property Value
 
  [TransmissionError](VM.Managed.DAFUL.GearTrain.TransmissionError.md)
+
 

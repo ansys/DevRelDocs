@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamPair"></a> Class BuilderParamPair
+# Class BuilderParamPair
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -39,7 +39,7 @@ public abstract class BuilderParamPair : BuilderParamColorGeom
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamPair__ctor"></a> BuilderParamPair\(\)
+### BuilderParamPair\(\)
 
 ```csharp
 protected BuilderParamPair()
@@ -47,7 +47,7 @@ protected BuilderParamPair()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_BuilderParamPair_Target"></a> Target
+### Target
 
 ```csharp
 public BuilderParamBase Target { get; set; }
@@ -57,7 +57,7 @@ public BuilderParamBase Target { get; set; }
 
  [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md)
 
-### <a id="VM_CAD_Builders_BuilderParamPair_Tool"></a> Tool
+### Tool
 
 ```csharp
 public BuilderParamBase Tool { get; set; }
@@ -66,4 +66,5 @@ public BuilderParamBase Tool { get; set; }
 #### Property Value
 
  [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md)
+
 

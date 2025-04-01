@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_QueryTransform"></a> Class QueryTransform
+# Class QueryTransform
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -20,7 +20,7 @@ public class QueryTransform
 
 ## Constructors
 
-### <a id="VM_Models_Pre_QueryTransform__ctor"></a> QueryTransform\(\)
+### QueryTransform\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.QueryTransform" data-throw-if-not-resolved="false"></xref> class.
 
@@ -30,7 +30,7 @@ public QueryTransform()
 
 ## Properties
 
-### <a id="VM_Models_Pre_QueryTransform_Count"></a> Count
+### Count
 
 ```csharp
 public int Count { get; }
@@ -40,7 +40,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Models_Pre_QueryTransform_SingleParams"></a> SingleParams
+### SingleParams
 
 ```csharp
 public List<ITransformable> SingleParams { get; set; }
@@ -50,7 +50,7 @@ public List<ITransformable> SingleParams { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Models.Pre.ITransformable.md)\>
 
-### <a id="VM_Models_Pre_QueryTransform_Singles"></a> Singles
+### Singles
 
 ```csharp
 public List<ITransformable> Singles { get; set; }
@@ -60,7 +60,7 @@ public List<ITransformable> Singles { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Models.Pre.ITransformable.md)\>
 
-### <a id="VM_Models_Pre_QueryTransform_SymmetricParams"></a> SymmetricParams
+### SymmetricParams
 
 ```csharp
 public List<ITransformable> SymmetricParams { get; set; }
@@ -70,7 +70,7 @@ public List<ITransformable> SymmetricParams { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Models.Pre.ITransformable.md)\>
 
-### <a id="VM_Models_Pre_QueryTransform_Symmetrics"></a> Symmetrics
+### Symmetrics
 
 ```csharp
 public List<ITransformable> Symmetrics { get; set; }
@@ -82,7 +82,7 @@ public List<ITransformable> Symmetrics { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_QueryTransform_AddData_System_Collections_Generic_List_VM_Models_Pre_ITransformable__VM_Models_Pre_ITransformable_"></a> AddData\(List<ITransformable\>, ITransformable\)
+### AddData\(List<ITransformable\>, ITransformable\)
 
 Add object to transformable object container.
 
@@ -100,7 +100,7 @@ The transformable object container.
 
 The transformable object.
 
-### <a id="VM_Models_Pre_QueryTransform_GetDataNoParam_System_Collections_Generic_List_VM_Models_Pre_ITransformable__"></a> GetDataNoParam\(List<ITransformable\>\)
+### GetDataNoParam\(List<ITransformable\>\)
 
 Get transformable object container with single characteristic.
 
@@ -114,7 +114,7 @@ public void GetDataNoParam(List<ITransformable> transformables)
 
 The transformable object container.
 
-### <a id="VM_Models_Pre_QueryTransform_GetDataParamSingle_System_Collections_Generic_List_VM_Models_Pre_ITransformable__"></a> GetDataParamSingle\(List<ITransformable\>\)
+### GetDataParamSingle\(List<ITransformable\>\)
 
 Get transformable object container with single and parameter characteristic.
 
@@ -128,7 +128,7 @@ public void GetDataParamSingle(List<ITransformable> transformables)
 
 The transformable object container.
 
-### <a id="VM_Models_Pre_QueryTransform_GetDataParamSym_System_Collections_Generic_List_VM_Models_Pre_ITransformable__"></a> GetDataParamSym\(List<ITransformable\>\)
+### GetDataParamSym\(List<ITransformable\>\)
 
 Get transformable object container with symmetric and parameter characteristic.
 
@@ -141,4 +141,5 @@ public void GetDataParamSym(List<ITransformable> transformables)
 `transformables` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ITransformable](VM.Models.Pre.ITransformable.md)\>
 
 The transformable object container.
+
 

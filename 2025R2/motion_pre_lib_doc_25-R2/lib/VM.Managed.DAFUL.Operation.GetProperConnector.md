@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_GetProperConnector"></a> Class GetProperConnector
+# Class GetProperConnector
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_GetProperConnector__ctor_VM_Models_Pre_IDocument_System_Boolean_VM_Managed_CAD_Body_VM_Managed_CAD_Body_System_Double_"></a> GetProperConnector\(IDocument, bool, Body, Body, double\)
+### GetProperConnector\(IDocument, bool, Body, Body, double\)
 
 ```csharp
 public GetProperConnector(IDocument doc, bool bAuto, Body bodyFirst, Body bodySecond, double dTolerance)
@@ -97,7 +97,7 @@ public GetProperConnector(IDocument doc, bool bAuto, Body bodyFirst, Body bodySe
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_ActionBody"></a> ActionBody
+### ActionBody
 
 ```csharp
 public Body ActionBody { get; }
@@ -107,7 +107,7 @@ public Body ActionBody { get; }
 
  Body
 
-### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_ActionFaceIDs"></a> ActionFaceIDs
+### ActionFaceIDs
 
 ```csharp
 public ICollection<int> ActionFaceIDs { get; }
@@ -117,7 +117,7 @@ public ICollection<int> ActionFaceIDs { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_ActionPosition"></a> ActionPosition
+### ActionPosition
 
 ```csharp
 public double[] ActionPosition { get; }
@@ -127,7 +127,7 @@ public double[] ActionPosition { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_BaseBody"></a> BaseBody
+### BaseBody
 
 ```csharp
 public Body BaseBody { get; }
@@ -137,7 +137,7 @@ public Body BaseBody { get; }
 
  Body
 
-### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_BaseFaceIDs"></a> BaseFaceIDs
+### BaseFaceIDs
 
 ```csharp
 public ICollection<int> BaseFaceIDs { get; }
@@ -147,7 +147,7 @@ public ICollection<int> BaseFaceIDs { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_BasePosition"></a> BasePosition
+### BasePosition
 
 ```csharp
 public double[] BasePosition { get; }
@@ -157,7 +157,7 @@ public double[] BasePosition { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_CenterPosition"></a> CenterPosition
+### CenterPosition
 
 ```csharp
 public double[] CenterPosition { get; }
@@ -167,7 +167,7 @@ public double[] CenterPosition { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_ConnectorType"></a> ConnectorType
+### ConnectorType
 
 ```csharp
 public PropertyGeneral.ConnectorType ConnectorType { get; }
@@ -177,7 +177,7 @@ public PropertyGeneral.ConnectorType ConnectorType { get; }
 
  PropertyGeneral.ConnectorType
 
-### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_Direction"></a> Direction
+### Direction
 
 ```csharp
 public double[] Direction { get; }
@@ -187,7 +187,7 @@ public double[] Direction { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 ```csharp
 public override bool IsHistoryMerge { get; }
@@ -197,7 +197,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -211,7 +211,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -219,7 +219,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_GetProperConnector_GetAutoConnectorType_VM_Models_Pre_IDocument_VM_Managed_CAD_Body_VM_Managed_CAD_Body_"></a> GetAutoConnectorType\(IDocument, Body, Body\)
+### GetAutoConnectorType\(IDocument, Body, Body\)
 
 ```csharp
 public static PropertyGeneral.ConnectorType GetAutoConnectorType(IDocument doc, Body bodyFirst, Body bodySecond)
@@ -236,4 +236,5 @@ public static PropertyGeneral.ConnectorType GetAutoConnectorType(IDocument doc, 
 #### Returns
 
  PropertyGeneral.ConnectorType
+
 

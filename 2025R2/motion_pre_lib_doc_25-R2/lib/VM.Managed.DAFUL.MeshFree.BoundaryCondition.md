@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_BoundaryCondition"></a> Class BoundaryCondition
+# Class BoundaryCondition
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -232,7 +232,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_BoundaryCondition__ctor"></a> BoundaryCondition\(\)
+### BoundaryCondition\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.BoundaryCondition" data-throw-if-not-resolved="false"></xref> class.
 
@@ -240,7 +240,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Boundary
 public BoundaryCondition()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_BoundaryCondition__ctor_System_String_"></a> BoundaryCondition\(string\)
+### BoundaryCondition\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.BoundaryCondition" data-throw-if-not-resolved="false"></xref> class.
 
@@ -256,7 +256,7 @@ Name of the STR.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_BoundaryCondition_GenerableImpl"></a> GenerableImpl
+### GenerableImpl
 
 Gets a value indicating whether this instance is generable.
 
@@ -270,7 +270,7 @@ protected override bool GenerableImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_BoundaryCondition_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -298,7 +298,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_MeshFree_BoundaryCondition_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 BC for update the linked object.
 
@@ -316,7 +316,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_MeshFree_BoundaryCondition_ReplaceEntityImpl_VM_Managed_Document_VM_Managed_IGenerable_"></a> ReplaceEntityImpl\(Document, IGenerable\)
+### ReplaceEntityImpl\(Document, IGenerable\)
 
 Replace entity
 
@@ -333,4 +333,5 @@ The document.
 `generableNew` IGenerable
 
 The new generable entity.
+
 

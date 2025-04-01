@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_DrawInfoPointList"></a> Class DrawInfoPointList
+# Class DrawInfoPointList
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -23,7 +23,7 @@ public class DrawInfoPointList : DrawInfo
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_DrawInfoPointList__ctor"></a> DrawInfoPointList\(\)
+### DrawInfoPointList\(\)
 
 ```csharp
 public DrawInfoPointList()
@@ -31,7 +31,7 @@ public DrawInfoPointList()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_DrawInfoPointList_Closed"></a> Closed
+### Closed
 
 Flag indicates whether the profile is closed polyline or not
 
@@ -43,7 +43,7 @@ public bool Closed { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_CAD_Builders_DrawInfoPointList_Points"></a> Points
+### Points
 
 Profile points
 
@@ -54,4 +54,5 @@ public List<Vector> Points { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
+
 

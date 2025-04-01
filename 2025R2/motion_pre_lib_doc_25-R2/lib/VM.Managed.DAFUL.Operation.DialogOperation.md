@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_DialogOperation"></a> Class DialogOperation
+# Class DialogOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,13 +77,13 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_DialogOperation__ctor"></a> DialogOperation\(\)
+### DialogOperation\(\)
 
 ```csharp
 public DialogOperation()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_DialogOperation__ctor_VM_Managed_Document_"></a> DialogOperation\(Document\)
+### DialogOperation\(Document\)
 
 ```csharp
 public DialogOperation(Document doc)
@@ -95,7 +95,7 @@ public DialogOperation(Document doc)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_DialogOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -107,7 +107,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Operation_DialogOperation_OpDialog"></a> OpDialog
+### OpDialog
 
 Gets or sets the op dialog.
 
@@ -121,7 +121,7 @@ protected OperationDialogBase OpDialog { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_DialogOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -129,7 +129,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_DialogOperation_IsConainOpenedDic_VM_Managed_Document_"></a> IsConainOpenedDic\(Document\)
+### IsConainOpenedDic\(Document\)
 
 ```csharp
 protected static bool IsConainOpenedDic(Document doc)
@@ -143,7 +143,7 @@ protected static bool IsConainOpenedDic(Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_DialogOperation_OnApply_System_Object_System_ComponentModel_CancelEventArgs_"></a> OnApply\(object, CancelEventArgs\)
+### OnApply\(object, CancelEventArgs\)
 
 Called when [apply].
 
@@ -160,4 +160,5 @@ The sender.
 `arg` [CancelEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.canceleventargs)
 
 The <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

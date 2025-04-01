@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_Water_WaveStructure"></a> Struct Water.WaveStructure
+# Struct Water.WaveStructure
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -11,7 +11,7 @@ public struct Water.WaveStructure
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_DecayFactor"></a> DecayFactor
+### DecayFactor
 
 DecayFactor
 
@@ -23,7 +23,7 @@ public double DecayFactor
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_Density"></a> Density
+### Density
 
 Density
 
@@ -35,7 +35,7 @@ public double Density
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_DepthAtDeepWater"></a> DepthAtDeepWater
+### DepthAtDeepWater
 
 DepthAtDeepWater
 
@@ -47,7 +47,7 @@ public double DepthAtDeepWater
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_DistanceToDeepWater"></a> DistanceToDeepWater
+### DistanceToDeepWater
 
 DistanceToDeepWater
 
@@ -59,7 +59,7 @@ public double DistanceToDeepWater
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_EndTime"></a> EndTime
+### EndTime
 
 EndTime
 
@@ -71,7 +71,7 @@ public double EndTime
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_Gravity"></a> Gravity
+### Gravity
 
 Gravity
 
@@ -83,7 +83,7 @@ public VectorBase Gravity
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_LengthInXAxis"></a> LengthInXAxis
+### LengthInXAxis
 
 LengthInXAxis
 
@@ -95,7 +95,7 @@ public double LengthInXAxis
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_OutputStep"></a> OutputStep
+### OutputStep
 
 OutputStep
 
@@ -107,7 +107,7 @@ public uint OutputStep
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_RandomPhase"></a> RandomPhase
+### RandomPhase
 
 RandomPhase
 
@@ -119,7 +119,7 @@ public List<double> RandomPhase
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_Slope"></a> Slope
+### Slope
 
 Slope
 
@@ -131,7 +131,7 @@ public double Slope
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_TypeOfPMPeriod"></a> TypeOfPMPeriod
+### TypeOfPMPeriod
 
 TypeOfPMPeriod
 
@@ -143,7 +143,7 @@ public Wave.PMPeriodType TypeOfPMPeriod
 
  [Wave](VM.Managed.DAFUL.Track.Wave.md).[PMPeriodType](VM.Managed.DAFUL.Track.Wave.PMPeriodType.md)
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_TypeOfWave"></a> TypeOfWave
+### TypeOfWave
 
 TypeOfWave
 
@@ -155,7 +155,7 @@ public Wave.WaveType TypeOfWave
 
  [Wave](VM.Managed.DAFUL.Track.Wave.md).[WaveType](VM.Managed.DAFUL.Track.Wave.WaveType.md)
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_UseBreaking"></a> UseBreaking
+### UseBreaking
 
 UseBreaking
 
@@ -167,7 +167,7 @@ public bool UseBreaking
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_UserFilePath"></a> UserFilePath
+### UserFilePath
 
 UserFilePath
 
@@ -179,7 +179,7 @@ public string UserFilePath
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_WaveHeightPeriod"></a> WaveHeightPeriod
+### WaveHeightPeriod
 
 WaveHeightPeriod
 
@@ -191,7 +191,7 @@ public List<double[]> WaveHeightPeriod
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
 
-### <a id="VM_Managed_DAFUL_Track_Water_WaveStructure_WidthInYAxis"></a> WidthInYAxis
+### WidthInYAxis
 
 WidthInYAxis
 
@@ -202,4 +202,5 @@ public double WidthInYAxis
 #### Field Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

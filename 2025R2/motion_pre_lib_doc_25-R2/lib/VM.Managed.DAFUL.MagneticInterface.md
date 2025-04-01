@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MagneticInterface"></a> Class MagneticInterface
+# Class MagneticInterface
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMAppCore.dll  
@@ -20,7 +20,7 @@ public class MagneticInterface
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MagneticInterface__ctor_System_String_System_String_"></a> MagneticInterface\(string, string\)
+### MagneticInterface\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MagneticInterface" data-throw-if-not-resolved="false"></xref> class
 
@@ -38,7 +38,7 @@ The interface dll path.
 
 The target Maxwell version. (eg. 2025.2)
 
-### <a id="VM_Managed_DAFUL_MagneticInterface__ctor_System_String_"></a> MagneticInterface\(string\)
+### MagneticInterface\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MagneticInterface" data-throw-if-not-resolved="false"></xref> class
 
@@ -54,7 +54,7 @@ The interface dll path.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MagneticInterface_CloseProject"></a> CloseProject\(\)
+### CloseProject\(\)
 
 ```csharp
 public bool CloseProject()
@@ -64,7 +64,7 @@ public bool CloseProject()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MagneticInterface_CreateProject_System_String_System_String_"></a> CreateProject\(string, string\)
+### CreateProject\(string, string\)
 
 ```csharp
 public bool CreateProject(string projectFilePath, string geometryFilePath)
@@ -80,7 +80,7 @@ public bool CreateProject(string projectFilePath, string geometryFilePath)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MagneticInterface_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 ```csharp
 [HandleProcessCorruptedStateExceptions]
@@ -91,13 +91,13 @@ protected virtual void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MagneticInterface_Dispose"></a> Dispose\(\)
+### Dispose\(\)
 
 ```csharp
 public override sealed void Dispose()
 ```
 
-### <a id="VM_Managed_DAFUL_MagneticInterface_Finalize"></a> \~MagneticInterface\(\)
+### \~MagneticInterface\(\)
 
 Releases unmanaged resources and performs other cleanup operations before the
 <xref href="VM.Managed.DAFUL.MagneticInterface" data-throw-if-not-resolved="false"></xref> is reclaimed by garbage collection.
@@ -106,7 +106,7 @@ Releases unmanaged resources and performs other cleanup operations before the
 protected ~MagneticInterface()
 ```
 
-### <a id="VM_Managed_DAFUL_MagneticInterface_GetMaxwellDesigns_System_String_System_String____"></a> GetMaxwellDesigns\(string, ref string\[\]\)
+### GetMaxwellDesigns\(string, ref string\[\]\)
 
 ```csharp
 public bool GetMaxwellDesigns(string projectFilePath, ref string[] designList)
@@ -122,7 +122,7 @@ public bool GetMaxwellDesigns(string projectFilePath, ref string[] designList)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MagneticInterface_GetMessages_System_String____"></a> GetMessages\(ref string\[\]\)
+### GetMessages\(ref string\[\]\)
 
 ```csharp
 public bool GetMessages(ref string[] arMessage)
@@ -136,7 +136,7 @@ public bool GetMessages(ref string[] arMessage)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MagneticInterface_InitGeometry_System_String_"></a> InitGeometry\(string\)
+### InitGeometry\(string\)
 
 ```csharp
 public bool InitGeometry(string geometryFilePath)
@@ -150,7 +150,7 @@ public bool InitGeometry(string geometryFilePath)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MagneticInterface_InitMagneticObjects_VM_Managed_DAFUL_MagneticInterface_Group___System_Collections_Generic_Dictionary_System_String_VM_Managed_DAFUL_MagneticInterface_Material__"></a> InitMagneticObjects\(Group\[\], Dictionary<string, Material\>\)
+### InitMagneticObjects\(Group\[\], Dictionary<string, Material\>\)
 
 ```csharp
 public bool InitMagneticObjects(MagneticInterface.Group[] groups, Dictionary<string, MagneticInterface.Material> materialInfo)
@@ -166,7 +166,7 @@ public bool InitMagneticObjects(MagneticInterface.Group[] groups, Dictionary<str
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MagneticInterface_InitMagneticObjects_VM_Managed_DAFUL_MagneticInterface_Group___"></a> InitMagneticObjects\(Group\[\]\)
+### InitMagneticObjects\(Group\[\]\)
 
 ```csharp
 public bool InitMagneticObjects(MagneticInterface.Group[] groups)
@@ -180,7 +180,7 @@ public bool InitMagneticObjects(MagneticInterface.Group[] groups)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MagneticInterface_OpenProject_System_String_System_String_"></a> OpenProject\(string, string\)
+### OpenProject\(string, string\)
 
 ```csharp
 public bool OpenProject(string projectFilePath, string designName)
@@ -196,7 +196,7 @@ public bool OpenProject(string projectFilePath, string designName)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MagneticInterface_QuitApplication"></a> QuitApplication\(\)
+### QuitApplication\(\)
 
 ```csharp
 public bool QuitApplication()
@@ -206,7 +206,7 @@ public bool QuitApplication()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MagneticInterface_ReleaseApplication"></a> ReleaseApplication\(\)
+### ReleaseApplication\(\)
 
 ```csharp
 public bool ReleaseApplication()
@@ -216,7 +216,7 @@ public bool ReleaseApplication()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MagneticInterface_SaveProject"></a> SaveProject\(\)
+### SaveProject\(\)
 
 ```csharp
 public bool SaveProject()
@@ -225,4 +225,5 @@ public bool SaveProject()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

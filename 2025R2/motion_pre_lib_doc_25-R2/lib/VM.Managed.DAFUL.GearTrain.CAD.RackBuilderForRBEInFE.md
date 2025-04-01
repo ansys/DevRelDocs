@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInFE"></a> Class RackBuilderForRBEInFE
+# Class RackBuilderForRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -232,7 +232,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInFE__ctor"></a> RackBuilderForRBEInFE\(\)
+### RackBuilderForRBEInFE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RackBuilderForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -242,7 +242,7 @@ public RackBuilderForRBEInFE()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInFE_EndParentConnectable"></a> EndParentConnectable
+### EndParentConnectable
 
 Gets or sets the end parent connectable.
 
@@ -254,7 +254,7 @@ public IConnectable EndParentConnectable { get; set; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInFE_EndPosition"></a> EndPosition
+### EndPosition
 
 Gets the end position.
 
@@ -266,7 +266,7 @@ public VectorBase EndPosition { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInFE_InitialAngle"></a> InitialAngle
+### InitialAngle
 
 Gets or sets the Initial angle.
 
@@ -278,7 +278,7 @@ public double InitialAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInFE_UseEndParentConnectable"></a> UseEndParentConnectable
+### UseEndParentConnectable
 
 Gets or sets a value indicating whether [use end parent connectable].
 
@@ -290,7 +290,7 @@ public bool UseEndParentConnectable { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInFE_UseStartParentConnectable"></a> UseStartParentConnectable
+### UseStartParentConnectable
 
 Gets or sets a value indicating whether [use start parent connectable].
 
@@ -302,7 +302,7 @@ public bool UseStartParentConnectable { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInFE__EndParentConnectable"></a> \_EndParentConnectable
+### \_EndParentConnectable
 
 Gets or sets the _ end parent connectable.
 
@@ -316,7 +316,7 @@ public Linker<IConnectable> _EndParentConnectable { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackBuilderForRBEInFE_UpdateGeometry_VM_Managed_DAFUL_HiddenDocument_System_String_System_String_System_Boolean_System_Boolean_VM_Managed_VectorBase_System_Double_"></a> UpdateGeometry\(HiddenDocument, string, string, bool, bool, VectorBase, double\)
+### UpdateGeometry\(HiddenDocument, string, string, bool, bool, VectorBase, double\)
 
 Updates the geometry.
 
@@ -353,4 +353,5 @@ The vec z axis.
 `dInitAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 The initial angle.
+
 

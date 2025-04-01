@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IdentifierManager"></a> Class IdentifierManager
+# Class IdentifierManager
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -24,13 +24,13 @@ public class IdentifierManager : IIdentifierManager
 
 ## Constructors
 
-### <a id="VM_Models_Pre_IdentifierManager__ctor"></a> IdentifierManager\(\)
+### IdentifierManager\(\)
 
 ```csharp
 public IdentifierManager()
 ```
 
-### <a id="VM_Models_Pre_IdentifierManager__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> IdentifierManager\(SerializationInfo, StreamingContext\)
+### IdentifierManager\(SerializationInfo, StreamingContext\)
 
 ```csharp
 public IdentifierManager(SerializationInfo info, StreamingContext context)
@@ -44,7 +44,7 @@ public IdentifierManager(SerializationInfo info, StreamingContext context)
 
 ## Properties
 
-### <a id="VM_Models_Pre_IdentifierManager_Current"></a> Current
+### Current
 
 ```csharp
 public Identifier Current { get; }
@@ -56,7 +56,7 @@ public Identifier Current { get; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_IdentifierManager_GetNextIdentifier"></a> GetNextIdentifier\(\)
+### GetNextIdentifier\(\)
 
 ```csharp
 public Identifier GetNextIdentifier()
@@ -66,7 +66,7 @@ public Identifier GetNextIdentifier()
 
  Identifier
 
-### <a id="VM_Models_Pre_IdentifierManager_SetNextIdentifier_VM_Identifier_"></a> SetNextIdentifier\(Identifier\)
+### SetNextIdentifier\(Identifier\)
 
 ```csharp
 public void SetNextIdentifier(Identifier identifier)
@@ -75,4 +75,5 @@ public void SetNextIdentifier(Identifier identifier)
 #### Parameters
 
 `identifier` Identifier
+
 

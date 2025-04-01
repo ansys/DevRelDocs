@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_RampSteerConfiguration"></a> Class RampSteerConfiguration
+# Class RampSteerConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_RampSteerConfiguration__ctor"></a> RampSteerConfiguration\(\)
+### RampSteerConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RampSteerConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RampSteerConf
 public RampSteerConfiguration()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_RampSteerConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisRampSteer_"></a> RampSteerConfiguration\(AnalysisRampSteer\)
+### RampSteerConfiguration\(AnalysisRampSteer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RampSteerConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The analysis.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_RampSteerConfiguration_Analysis"></a> Analysis
+### Analysis
 
 Gets or sets the analysis.
 
@@ -239,7 +239,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_RampSteerConfiguration_AnalysisName"></a> AnalysisName
+### AnalysisName
 
 Gets the name of the analysis.
 
@@ -251,7 +251,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_RampSteerConfiguration_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -263,7 +263,7 @@ public override FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_Car_RampSteerConfiguration_RampSteerParam"></a> RampSteerParam
+### RampSteerParam
 
 Gets or sets the ramp steer parameter.
 
@@ -274,4 +274,5 @@ public AnalysisRampSteer RampSteerParam { get; set; }
 #### Property Value
 
  [AnalysisRampSteer](VM.Managed.DAFUL.Car.AnalysisRampSteer.md)
+
 

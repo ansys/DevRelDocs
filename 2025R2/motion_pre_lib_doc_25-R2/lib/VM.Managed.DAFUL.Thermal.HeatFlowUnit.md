@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_HeatFlowUnit"></a> Class HeatFlowUnit
+# Class HeatFlowUnit
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -31,7 +31,7 @@ FunctionUnitBase.Factor
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Thermal_HeatFlowUnit__ctor"></a> HeatFlowUnit\(\)
+### HeatFlowUnit\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatFlowUnit" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatFlowU
 public HeatFlowUnit()
 ```
 
-### <a id="VM_Managed_DAFUL_Thermal_HeatFlowUnit__ctor_VM_Models_Pre_ILinkContainer_"></a> HeatFlowUnit\(ILinkContainer\)
+### HeatFlowUnit\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatFlowUnit" data-throw-if-not-resolved="false"></xref> class.
 
@@ -55,7 +55,7 @@ The owner.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Thermal_HeatFlowUnit_Factor"></a> Factor
+### Factor
 
 Gets the factor.
 
@@ -67,7 +67,7 @@ public override string Factor { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Thermal_HeatFlowUnit_Scale"></a> Scale
+### Scale
 
 Gets the scale.
 
@@ -79,7 +79,7 @@ public override double Scale { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Thermal_HeatFlowUnit_UnitOfHeatFlow"></a> UnitOfHeatFlow
+### UnitOfHeatFlow
 
 Gets or sets the unit.
 
@@ -90,4 +90,5 @@ public HeatFlowUnit.HeatFlow UnitOfHeatFlow { get; set; }
 #### Property Value
 
  [HeatFlowUnit](VM.Managed.DAFUL.Thermal.HeatFlowUnit.md).[HeatFlow](VM.Managed.DAFUL.Thermal.HeatFlowUnit.HeatFlow.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_RangeShapeCircle"></a> Class RangeShapeCircle
+# Class RangeShapeCircle
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_RangeShapeCircle__ctor"></a> RangeShapeCircle\(\)
+### RangeShapeCircle\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Range" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Range" data-throw
 public RangeShapeCircle()
 ```
 
-### <a id="VM_Managed_DAFUL_RangeShapeCircle__ctor_VM_Managed_TransformBase_VM_Managed_Variable_"></a> RangeShapeCircle\(TransformBase, Variable\)
+### RangeShapeCircle\(TransformBase, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Range" data-throw-if-not-resolved="false"></xref> class.
 
@@ -129,7 +129,7 @@ The radius.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_RangeShapeCircle_Radius"></a> Radius
+### Radius
 
 Gets or sets the radius.
 
@@ -143,7 +143,7 @@ public Variable Radius { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_RangeShapeCircle_GetPoints"></a> GetPoints\(\)
+### GetPoints\(\)
 
 Gets the points.
 
@@ -156,4 +156,5 @@ public override Vector[] GetPoints()
  Vector\[\]
 
 Get the Points
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IVisibleImpl"></a> Class IVisibleImpl
+# Class IVisibleImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class IVisibleImpl
 
 ## Constructors
 
-### <a id="VM_Managed_IVisibleImpl__ctor"></a> IVisibleImpl\(\)
+### IVisibleImpl\(\)
 
 ```csharp
 public IVisibleImpl()
@@ -30,7 +30,7 @@ public IVisibleImpl()
 
 ## Methods
 
-### <a id="VM_Managed_IVisibleImpl_GetLayer_VM_Managed_ObjectBase_"></a> GetLayer\(ObjectBase\)
+### GetLayer\(ObjectBase\)
 
 Gets the layer.
 
@@ -50,7 +50,7 @@ The object.
 
 The layer
 
-### <a id="VM_Managed_IVisibleImpl_GetVisibleState_VM_Managed_ObjectBase_"></a> GetVisibleState\(ObjectBase\)
+### GetVisibleState\(ObjectBase\)
 
 Gets the visible state of an object.
 
@@ -70,7 +70,7 @@ The object.
 
 The visible state
 
-### <a id="VM_Managed_IVisibleImpl_SetLayer_VM_Managed_ObjectBase_VM_Managed_Layer_"></a> SetLayer\(ObjectBase, Layer\)
+### SetLayer\(ObjectBase, Layer\)
 
 Sets the layer.
 
@@ -88,7 +88,7 @@ The object.
 
 The layer.
 
-### <a id="VM_Managed_IVisibleImpl_SetVisibleState_VM_Managed_ObjectBase_System_Boolean_"></a> SetVisibleState\(ObjectBase, bool\)
+### SetVisibleState\(ObjectBase, bool\)
 
 Sets the visible state of an object.
 
@@ -105,4 +105,5 @@ The object.
 `bVisible` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 The visibility.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_MeshFreeAnalysisLevelGroup"></a> Class MeshFreeAnalysisLevelGroup
+# Class MeshFreeAnalysisLevelGroup
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -97,7 +97,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_MeshFreeAnalysisLevelGroup__ctor_System_UInt32_"></a> MeshFreeAnalysisLevelGroup\(uint\)
+### MeshFreeAnalysisLevelGroup\(uint\)
 
 Initializes a new instance of the <xref href="VM.Managed.MeshFreeAnalysisLevelGroup" data-throw-if-not-resolved="false"></xref> class whth level count.
 
@@ -109,7 +109,7 @@ public MeshFreeAnalysisLevelGroup(uint levelCount)
 
 `levelCount` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_MeshFreeAnalysisLevelGroup__ctor"></a> MeshFreeAnalysisLevelGroup\(\)
+### MeshFreeAnalysisLevelGroup\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.MeshFreeAnalysisLevelGroup" data-throw-if-not-resolved="false"></xref> class.
 
@@ -119,7 +119,7 @@ public MeshFreeAnalysisLevelGroup()
 
 ## Properties
 
-### <a id="VM_Managed_MeshFreeAnalysisLevelGroup_AnalysisLevels"></a> AnalysisLevels
+### AnalysisLevels
 
 Gets or sets the silmulation level container for MeshFree.
 
@@ -131,7 +131,7 @@ public MeshFreeAnalysisLevel[] AnalysisLevels { get; set; }
 
  [MeshFreeAnalysisLevel](VM.Managed.MeshFreeAnalysisLevel.md)\[\]
 
-### <a id="VM_Managed_MeshFreeAnalysisLevelGroup_CheckedAnalysisLevels"></a> CheckedAnalysisLevels
+### CheckedAnalysisLevels
 
 ```csharp
 public MeshFreeAnalysisLevel[] CheckedAnalysisLevels { get; }
@@ -141,7 +141,7 @@ public MeshFreeAnalysisLevel[] CheckedAnalysisLevels { get; }
 
  [MeshFreeAnalysisLevel](VM.Managed.MeshFreeAnalysisLevel.md)\[\]
 
-### <a id="VM_Managed_MeshFreeAnalysisLevelGroup_Count"></a> Count
+### Count
 
 ```csharp
 public int Count { get; }
@@ -151,7 +151,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_MeshFreeAnalysisLevelGroup_UseLocalRefinement"></a> UseLocalRefinement
+### UseLocalRefinement
 
 Gets or sets a value indicating whether use [local refinement].
 
@@ -163,7 +163,7 @@ public bool UseLocalRefinement { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_MeshFreeAnalysisLevelGroup_Item_System_Int32_"></a> this\[int\]
+### this\[int\]
 
 ```csharp
 public MeshFreeAnalysisLevel this[int index] { get; set; }
@@ -172,4 +172,5 @@ public MeshFreeAnalysisLevel this[int index] { get; set; }
 #### Property Value
 
  [MeshFreeAnalysisLevel](VM.Managed.MeshFreeAnalysisLevel.md)
+
 

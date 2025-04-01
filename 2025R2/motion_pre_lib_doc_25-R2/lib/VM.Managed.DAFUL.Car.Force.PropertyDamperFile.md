@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Force_PropertyDamperFile"></a> Class PropertyDamperFile
+# Class PropertyDamperFile
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -176,7 +176,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyDamperFile__ctor"></a> PropertyDamperFile\(\)
+### PropertyDamperFile\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertyDamperFile" data-throw-if-not-resolved="false"></xref> class.
 
@@ -186,7 +186,7 @@ public PropertyDamperFile()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyDamperFile_SetModified"></a> SetModified\(\)
+### SetModified\(\)
 
 Called when object modified.
 
@@ -194,7 +194,7 @@ Called when object modified.
 protected override void SetModified()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyDamperFile_SetModified_VM_Managed_ModifiedResult_ModifiedType_"></a> SetModified\(ModifiedType\)
+### SetModified\(ModifiedType\)
 
 Called when object modified.
 
@@ -207,4 +207,5 @@ protected override void SetModified(ModifiedResult.ModifiedType type)
 `type` ModifiedResult.ModifiedType
 
 The modifed type.
+
 

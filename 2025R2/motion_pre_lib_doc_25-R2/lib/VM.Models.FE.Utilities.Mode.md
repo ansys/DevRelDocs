@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Utilities_Mode"></a> Struct Mode
+# Struct Mode
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -9,7 +9,7 @@ public struct Mode
 
 ## Constructors
 
-### <a id="VM_Models_FE_Utilities_Mode__ctor_System_Double_"></a> Mode\(double\)
+### Mode\(double\)
 
 ```csharp
 public Mode(double eigenvalue)
@@ -19,7 +19,7 @@ public Mode(double eigenvalue)
 
 `eigenvalue` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Utilities_Mode__ctor_System_Double_System_Double_System_Double_System_Boolean_"></a> Mode\(double, double, double, bool\)
+### Mode\(double, double, double, bool\)
 
 ```csharp
 public Mode(double eigenvalue, double frequency, double damping, bool enabled)
@@ -37,7 +37,7 @@ public Mode(double eigenvalue, double frequency, double damping, bool enabled)
 
 ## Properties
 
-### <a id="VM_Models_FE_Utilities_Mode_Damping"></a> Damping
+### Damping
 
 ```csharp
 public double Damping { readonly get; set; }
@@ -47,7 +47,7 @@ public double Damping { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Utilities_Mode_Eigenvalue"></a> Eigenvalue
+### Eigenvalue
 
 ```csharp
 public double Eigenvalue { readonly get; set; }
@@ -57,7 +57,7 @@ public double Eigenvalue { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Utilities_Mode_Enabled"></a> Enabled
+### Enabled
 
 ```csharp
 public bool Enabled { readonly get; set; }
@@ -67,7 +67,7 @@ public bool Enabled { readonly get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_FE_Utilities_Mode_Frequency"></a> Frequency
+### Frequency
 
 ```csharp
 public double Frequency { readonly get; set; }
@@ -79,7 +79,7 @@ public double Frequency { readonly get; set; }
 
 ## Methods
 
-### <a id="VM_Models_FE_Utilities_Mode_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 ```csharp
 public override readonly bool Equals(object obj)
@@ -93,7 +93,7 @@ public override readonly bool Equals(object obj)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_FE_Utilities_Mode_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 ```csharp
 public override readonly int GetHashCode()
@@ -105,7 +105,7 @@ public override readonly int GetHashCode()
 
 ## Operators
 
-### <a id="VM_Models_FE_Utilities_Mode_op_Equality_VM_Models_FE_Utilities_Mode_VM_Models_FE_Utilities_Mode_"></a> operator ==\(Mode, Mode\)
+### operator ==\(Mode, Mode\)
 
 ```csharp
 public static bool operator ==(Mode left, Mode right)
@@ -121,7 +121,7 @@ public static bool operator ==(Mode left, Mode right)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_FE_Utilities_Mode_op_Inequality_VM_Models_FE_Utilities_Mode_VM_Models_FE_Utilities_Mode_"></a> operator \!=\(Mode, Mode\)
+### operator \!=\(Mode, Mode\)
 
 ```csharp
 public static bool operator !=(Mode left, Mode right)
@@ -136,4 +136,5 @@ public static bool operator !=(Mode left, Mode right)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

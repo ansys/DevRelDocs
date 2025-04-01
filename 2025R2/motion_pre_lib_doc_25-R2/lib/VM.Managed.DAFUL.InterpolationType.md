@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_InterpolationType"></a> Enum InterpolationType
+# Enum InterpolationType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -20,6 +20,7 @@ Akima.
 `Linear = 0` 
 
 Linear.
+
 
 
 

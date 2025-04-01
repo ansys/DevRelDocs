@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable"></a> Class Mesh.ModeInvariantVariable
+# Class Mesh.ModeInvariantVariable
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -22,7 +22,7 @@ public class Mesh.ModeInvariantVariable
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable__ctor_System_Int32_"></a> ModeInvariantVariable\(int\)
+### ModeInvariantVariable\(int\)
 
 ```csharp
 public ModeInvariantVariable(int nModeSize)
@@ -34,7 +34,7 @@ public ModeInvariantVariable(int nModeSize)
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_arInvariant2"></a> m\_arInvariant2
+### m\_arInvariant2
 
 ```csharp
 public double[] m_arInvariant2
@@ -44,7 +44,7 @@ public double[] m_arInvariant2
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_arInvariant3"></a> m\_arInvariant3
+### m\_arInvariant3
 
 ```csharp
 public double[] m_arInvariant3
@@ -54,7 +54,7 @@ public double[] m_arInvariant3
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_arInvariant4"></a> m\_arInvariant4
+### m\_arInvariant4
 
 ```csharp
 public double[] m_arInvariant4
@@ -64,7 +64,7 @@ public double[] m_arInvariant4
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_arInvariant5"></a> m\_arInvariant5
+### m\_arInvariant5
 
 ```csharp
 public double[] m_arInvariant5
@@ -74,7 +74,7 @@ public double[] m_arInvariant5
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_arInvariant6"></a> m\_arInvariant6
+### m\_arInvariant6
 
 ```csharp
 public double[] m_arInvariant6
@@ -84,7 +84,7 @@ public double[] m_arInvariant6
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_arInvariant7"></a> m\_arInvariant7
+### m\_arInvariant7
 
 ```csharp
 public double[] m_arInvariant7
@@ -94,7 +94,7 @@ public double[] m_arInvariant7
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_arInvariant8"></a> m\_arInvariant8
+### m\_arInvariant8
 
 ```csharp
 public double[] m_arInvariant8
@@ -104,7 +104,7 @@ public double[] m_arInvariant8
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_FE_Mesh_ModeInvariantVariable_m_dInvariant1"></a> m\_dInvariant1
+### m\_dInvariant1
 
 ```csharp
 public double m_dInvariant1
@@ -113,4 +113,5 @@ public double m_dInvariant1
 #### Field Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

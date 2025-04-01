@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_IHasMinorRole"></a> Interface IHasMinorRole
+# Interface IHasMinorRole
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -17,7 +17,7 @@ public interface IHasMinorRole
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_IHasMinorRole_MinorRoleType"></a> MinorRoleType
+### MinorRoleType
 
 Gets or sets the type of the minor role.
 
@@ -28,4 +28,5 @@ MinorRole MinorRoleType { get; set; }
 #### Property Value
 
  [MinorRole](VM.Managed.DAFUL.Car.MinorRole.md)
+
 

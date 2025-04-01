@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE"></a> Class RacewayBuilderForRBEInFE
+# Class RacewayBuilderForRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -232,7 +232,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE__ctor"></a> RacewayBuilderForRBEInFE\(\)
+### RacewayBuilderForRBEInFE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RacewayBuilderForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -242,7 +242,7 @@ public RacewayBuilderForRBEInFE()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_ConnectableEntity"></a> ConnectableEntity
+### ConnectableEntity
 
 Gets the ConnectableEntity.
 
@@ -254,7 +254,7 @@ public IConnectable ConnectableEntity { get; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_MatedAngle"></a> MatedAngle
+### MatedAngle
 
 Gets or sets the mate angle.
 
@@ -266,7 +266,7 @@ public double MatedAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_OffsetToAxisDirection"></a> OffsetToAxisDirection
+### OffsetToAxisDirection
 
 Gets the offset to axis direction.
 
@@ -278,7 +278,7 @@ public override double OffsetToAxisDirection { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_ParentConnectable"></a> ParentConnectable
+### ParentConnectable
 
 Gets or sets the parent connectable.
 
@@ -290,7 +290,7 @@ public IConnectable ParentConnectable { get; set; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_Position"></a> Position
+### Position
 
 Gets the position.
 
@@ -302,7 +302,7 @@ public VectorBase Position { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_Rotation"></a> Rotation
+### Rotation
 
 Gets or sets the rotation.
 
@@ -314,7 +314,7 @@ public OMatrix Rotation { get; set; }
 
  OMatrix
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_StartPoint"></a> StartPoint
+### StartPoint
 
 Gets or sets the start point.
 
@@ -326,7 +326,7 @@ public PointBase StartPoint { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_UseDesigner"></a> UseDesigner
+### UseDesigner
 
 Gets or sets a value indicating whether [zero setting].
 
@@ -338,7 +338,7 @@ public bool UseDesigner { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_ZAxis"></a> ZAxis
+### ZAxis
 
 Gets or sets the start axis.
 
@@ -350,7 +350,7 @@ public DirectionBase ZAxis { get; set; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE__ParentConnectable"></a> \_ParentConnectable
+### \_ParentConnectable
 
 Gets or sets the parent connectable.
 
@@ -364,7 +364,7 @@ public Linker<IConnectable> _ParentConnectable { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_GetCenterPosition"></a> GetCenterPosition\(\)
+### GetCenterPosition\(\)
 
 Gets center position.
 
@@ -376,7 +376,7 @@ public VectorBase GetCenterPosition()
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_GetTransform"></a> GetTransform\(\)
+### GetTransform\(\)
 
 Gets the transform for the raceway in FE desginer.
 
@@ -390,7 +390,7 @@ public override TMatrix GetTransform()
 
 The transform.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -404,7 +404,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -422,7 +422,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -440,11 +440,12 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_UpdateGeometry"></a> UpdateGeometry\(\)
+### UpdateGeometry\(\)
 
 Updates the geometry.
 
 ```csharp
 public virtual void UpdateGeometry()
 ```
+
 

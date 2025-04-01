@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_FEEntity_1"></a> Class FEEntity<TProperty\>
+# Class FEEntity<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -208,7 +208,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_FEEntity_1__ctor"></a> FEEntity\(\)
+### FEEntity\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FEEntity%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -216,7 +216,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FEEntity%601" 
 public FEEntity()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_FEEntity_1__ctor_System_String_"></a> FEEntity\(string\)
+### FEEntity\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FEEntity%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -232,7 +232,7 @@ Name of the FE entity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_FEEntity_1_FEID"></a> FEID
+### FEID
 
 Gets or sets the ID.
 
@@ -244,7 +244,7 @@ public uint FEID { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_FE_FEEntity_1_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -258,7 +258,7 @@ protected override sealed bool HasLayerExplicitly { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_FEEntity_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -271,4 +271,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

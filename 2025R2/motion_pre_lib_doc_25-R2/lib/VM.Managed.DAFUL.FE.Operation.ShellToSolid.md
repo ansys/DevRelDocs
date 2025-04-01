@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Operation_ShellToSolid"></a> Class ShellToSolid
+# Class ShellToSolid
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -85,7 +85,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ShellToSolid__ctor"></a> ShellToSolid\(\)
+### ShellToSolid\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Operation.ShellToSolid" data-throw-if-not-resolved="false"></xref> class.
 
@@ -93,7 +93,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Operation.Shel
 public ShellToSolid()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ShellToSolid__ctor_System_String_"></a> ShellToSolid\(string\)
+### ShellToSolid\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Operation.ShellToSolid" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ The STR initializer XML.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ShellToSolid_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute.
 
@@ -117,7 +117,7 @@ Execute.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Operation_ShellToSolid_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -134,4 +134,5 @@ The updater.
 `doc` Document
 
 The document.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderSheetThicken_Rebuild"></a> Struct BuilderSheetThicken.Rebuild
+# Struct BuilderSheetThicken.Rebuild
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -12,4 +12,5 @@ public struct BuilderSheetThicken.Rebuild : ILinkContainerEvent.ILinkEventBuilde
 #### Implements
 
 [ILinkContainerEvent.ILinkEventBuilder](VM.Managed.ILinkContainerEvent.ILinkEventBuilder.md)
+
 

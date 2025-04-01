@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_MultiObjectContactGeometryFinderBase"></a> Class MultiObjectContactGeometryFinderBase
+# Class MultiObjectContactGeometryFinderBase
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_MultiObjectContactGeometryFinderBase__ctor"></a> MultiObjectContactGeometryFinderBase\(\)
+### MultiObjectContactGeometryFinderBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MultiObjectContactGeometryFinderBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MultiObje
 public MultiObjectContactGeometryFinderBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_MultiObjectContactGeometryFinderBase__ctor_VM_Models_Pre_IOwned_"></a> MultiObjectContactGeometryFinderBase\(IOwned\)
+### MultiObjectContactGeometryFinderBase\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MultiObjectContactGeometryFinderBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ The owner.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_MultiObjectContactGeometryFinderBase_GetContactGeometry_VM_Managed_ObjectBase_"></a> GetContactGeometry\(ObjectBase\)
+### GetContactGeometry\(ObjectBase\)
 
 Get contact geometry from the object.
 
@@ -142,4 +142,5 @@ The object to fing contact geometry.
 #### Returns
 
  ObjectBase
+
 

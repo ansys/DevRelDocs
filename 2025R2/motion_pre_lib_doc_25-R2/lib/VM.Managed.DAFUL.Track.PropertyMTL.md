@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_PropertyMTL"></a> Class PropertyMTL
+# Class PropertyMTL
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_PropertyMTL__ctor"></a> PropertyMTL\(\)
+### PropertyMTL\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.PropertyMTL" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertyMTL()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_PropertyMTL_DrivingData"></a> DrivingData
+### DrivingData
 
 Gets or sets the driving data.
 
@@ -187,7 +187,7 @@ public Driving DrivingData { get; set; }
 
  [Driving](VM.Managed.DAFUL.Track.Driving.md)
 
-### <a id="VM_Managed_DAFUL_Track_PropertyMTL_SoilInteractionProperty"></a> SoilInteractionProperty
+### SoilInteractionProperty
 
 Gets or sets the soil interaction property.
 
@@ -201,7 +201,7 @@ public PropertySoilInteraction SoilInteractionProperty { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_PropertyMTL_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -214,4 +214,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

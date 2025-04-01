@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetCycloidPin"></a> Class GearSetCycloidPin
+# Class GearSetCycloidPin
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -73,7 +73,7 @@ BuilderBase<GearSetCycloidPin\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetCycloidPin__ctor"></a> GearSetCycloidPin\(\)
+### GearSetCycloidPin\(\)
 
 ```csharp
 public GearSetCycloidPin()
@@ -81,7 +81,7 @@ public GearSetCycloidPin()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetCycloidPin_CycloidProfile"></a> CycloidProfile
+### CycloidProfile
 
 ```csharp
 protected string CycloidProfile { get; }
@@ -91,7 +91,7 @@ protected string CycloidProfile { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetCycloidPin_Eccentricity"></a> Eccentricity
+### Eccentricity
 
 ```csharp
 protected string Eccentricity { get; }
@@ -101,7 +101,7 @@ protected string Eccentricity { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetCycloidPin_PinDiameter"></a> PinDiameter
+### PinDiameter
 
 ```csharp
 protected string PinDiameter { get; }
@@ -111,7 +111,7 @@ protected string PinDiameter { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetCycloidPin_PinPitch"></a> PinPitch
+### PinPitch
 
 ```csharp
 protected string PinPitch { get; }
@@ -123,7 +123,7 @@ protected string PinPitch { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetCycloidPin_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -139,7 +139,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetCycloidPin_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -152,4 +152,5 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

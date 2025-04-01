@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_OppositeWheelTravelConfiguration"></a> Class OppositeWheelTravelConfiguration
+# Class OppositeWheelTravelConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -191,7 +191,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_OppositeWheelTravelConfiguration__ctor"></a> OppositeWheelTravelConfiguration\(\)
+### OppositeWheelTravelConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.OppositeWheelTravelConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -199,7 +199,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.OppositeWheel
 public OppositeWheelTravelConfiguration()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_OppositeWheelTravelConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisOppositeTravel_"></a> OppositeWheelTravelConfiguration\(AnalysisOppositeTravel\)
+### OppositeWheelTravelConfiguration\(AnalysisOppositeTravel\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.OppositeWheelTravelConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -215,7 +215,7 @@ The analysis.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_OppositeWheelTravelConfiguration_Analysis"></a> Analysis
+### Analysis
 
 Gets or sets the type of the analysis.
 
@@ -227,7 +227,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_OppositeWheelTravelConfiguration_AnalysisName"></a> AnalysisName
+### AnalysisName
 
 Gets the name of the analysis.
 
@@ -239,7 +239,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_OppositeWheelTravelConfiguration_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -251,7 +251,7 @@ public override SuspensionAnalysisType AnalysisType { get; }
 
  [SuspensionAnalysisType](VM.Managed.DAFUL.Car.SuspensionAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_Car_OppositeWheelTravelConfiguration_OppositeTravelParam"></a> OppositeTravelParam
+### OppositeTravelParam
 
 Gets or sets the opposite travel parameter.
 
@@ -262,4 +262,5 @@ public AnalysisOppositeTravel OppositeTravelParam { get; set; }
 #### Property Value
 
  [AnalysisOppositeTravel](VM.Managed.DAFUL.Car.AnalysisOppositeTravel.md)
+
 

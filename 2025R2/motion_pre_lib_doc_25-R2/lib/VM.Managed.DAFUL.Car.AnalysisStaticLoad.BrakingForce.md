@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_BrakingForce"></a> Class AnalysisStaticLoad.BrakingForce
+# Class AnalysisStaticLoad.BrakingForce
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -31,7 +31,7 @@ public class AnalysisStaticLoad.BrakingForce : AnalysisStaticLoad.StaticRoadBase
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_BrakingForce__ctor"></a> BrakingForce\(\)
+### BrakingForce\(\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.BrakingForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.BrakingForce
 public BrakingForce()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_BrakingForce__ctor_VM_Models_Pre_ILinkContainer_"></a> BrakingForce\(ILinkContainer\)
+### BrakingForce\(ILinkContainer\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.BrakingForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -52,4 +52,5 @@ public BrakingForce(ILinkContainer lnkContainer)
 `lnkContainer` ILinkContainer
 
 The link container.
+
 

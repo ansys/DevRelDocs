@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IMassProp"></a> Interface IMassProp
+# Interface IMassProp
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IMassProp
 
 ## Methods
 
-### <a id="VM_Managed_IMassProp_GetMassProp_System_Double__VM_Managed_VectorBase_VM_Managed_OMatrix_System_Double___System_Boolean_"></a> GetMassProp\(ref double, VectorBase, OMatrix, double\[\], bool\)
+### GetMassProp\(ref double, VectorBase, OMatrix, double\[\], bool\)
 
 Gets the mass property.
 
@@ -45,7 +45,7 @@ The tensor.
 
 `bGlobal` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_IMassProp_SetMassProp_System_Double_VM_Managed_VectorBase_VM_Managed_OMatrix_System_Double___System_Boolean_"></a> SetMassProp\(double, VectorBase, OMatrix, double\[\], bool\)
+### SetMassProp\(double, VectorBase, OMatrix, double\[\], bool\)
 
 Sets the mass property.
 
@@ -72,4 +72,5 @@ The orientation.
 The tensor.
 
 `bGlobal` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

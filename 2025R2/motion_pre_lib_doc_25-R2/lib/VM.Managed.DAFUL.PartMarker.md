@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PartMarker"></a> Class PartMarker
+# Class PartMarker
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -230,7 +230,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_PartMarker__ctor"></a> PartMarker\(\)
+### PartMarker\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.PartMarker" data-throw-if-not-resolved="false"></xref> class.
 
@@ -238,7 +238,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.PartMarker" data-
 public PartMarker()
 ```
 
-### <a id="VM_Managed_DAFUL_PartMarker__ctor_System_String_"></a> PartMarker\(string\)
+### PartMarker\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Marker" data-throw-if-not-resolved="false"></xref> class.
 
@@ -254,7 +254,7 @@ Name of the marker.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_PartMarker_ParentSolid"></a> ParentSolid
+### ParentSolid
 
 Gets or sets the parent solid.
 
@@ -266,7 +266,7 @@ public IPartMarkerParent ParentSolid { get; set; }
 
  IPartMarkerParent
 
-### <a id="VM_Managed_DAFUL_PartMarker__ParentSolid"></a> \_ParentSolid
+### \_ParentSolid
 
 Gets or sets the parent solid.
 
@@ -280,7 +280,7 @@ public Linker<IPartMarkerParent> _ParentSolid { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_PartMarker_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -308,7 +308,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_PartMarker_IsExistNameInAssemblyBody_System_String_"></a> IsExistNameInAssemblyBody\(string\)
+### IsExistNameInAssemblyBody\(string\)
 
 whether this name is exist to assembly body.
 
@@ -328,7 +328,7 @@ The marker name.
 
 <code>true</code> if exist; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_PartMarker_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -346,7 +346,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_PartMarker_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -359,4 +359,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

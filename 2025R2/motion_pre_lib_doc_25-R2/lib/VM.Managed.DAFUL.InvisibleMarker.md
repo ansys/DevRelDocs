@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_InvisibleMarker"></a> Class InvisibleMarker
+# Class InvisibleMarker
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -229,7 +229,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_InvisibleMarker__ctor"></a> InvisibleMarker\(\)
+### InvisibleMarker\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.InvisibleMarker" data-throw-if-not-resolved="false"></xref> class.
 
@@ -239,7 +239,7 @@ public InvisibleMarker()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_InvisibleMarker_RMName"></a> RMName
+### RMName
 
 Name of Reference Marker
 
@@ -253,7 +253,7 @@ public static string RMName { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_InvisibleMarker_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon [Not draw].
 
@@ -267,7 +267,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_InvisibleMarker_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation] [Not show].
 
@@ -294,4 +294,5 @@ if set to <code>true</code> [has child].
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

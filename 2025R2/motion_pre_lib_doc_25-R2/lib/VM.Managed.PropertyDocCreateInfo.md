@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PropertyDocCreateInfo"></a> Class PropertyDocCreateInfo
+# Class PropertyDocCreateInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -31,9 +31,10 @@ DocCreateInfo.DocumentName
 
 ## Constructors
 
-### <a id="VM_Managed_PropertyDocCreateInfo__ctor"></a> PropertyDocCreateInfo\(\)
+### PropertyDocCreateInfo\(\)
 
 ```csharp
 public PropertyDocCreateInfo()
 ```
+
 

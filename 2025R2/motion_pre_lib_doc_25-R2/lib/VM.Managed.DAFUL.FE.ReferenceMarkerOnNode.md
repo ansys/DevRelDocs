@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_ReferenceMarkerOnNode"></a> Class ReferenceMarkerOnNode
+# Class ReferenceMarkerOnNode
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceMarkerOnNode__ctor_VM_Managed_ObjectBase_"></a> ReferenceMarkerOnNode\(ObjectBase\)
+### ReferenceMarkerOnNode\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ReferenceMarkerOnNode" data-throw-if-not-resolved="false"></xref> class.
 
@@ -217,7 +217,7 @@ public ReferenceMarkerOnNode(ObjectBase obj)
 
 The reference's object.
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceMarkerOnNode__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceMarkerOnNode\(SerializationInfo, StreamingContext\)
+### ReferenceMarkerOnNode\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ReferenceMarkerOnNode" data-throw-if-not-resolved="false"></xref> class.
 
@@ -237,7 +237,7 @@ The context.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceMarkerOnNode_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -249,7 +249,7 @@ public virtual ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceMarkerOnNode_OriginalPosition"></a> OriginalPosition
+### OriginalPosition
 
 Gets the original position and the flag indication whether transform is applied or not.
 
@@ -261,7 +261,7 @@ protected override Tuple<VectorBase, bool> OriginalPosition { get; }
 
  [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<VectorBase, [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceMarkerOnNode_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -275,7 +275,7 @@ public virtual string ReferenceType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceMarkerOnNode_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -301,7 +301,7 @@ The XmlElement for object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_FE_ReferenceMarkerOnNode_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -318,4 +318,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

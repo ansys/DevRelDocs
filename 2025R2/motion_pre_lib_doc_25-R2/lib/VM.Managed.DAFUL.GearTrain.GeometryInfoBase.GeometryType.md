@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GeometryInfoBase_GeometryType"></a> Enum GeometryInfoBase.GeometryType
+# Enum GeometryInfoBase.GeometryType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,6 +26,7 @@ The raceway
 `SlidingBearing = 2` 
 
 The sliding bearing
+
 
 
 

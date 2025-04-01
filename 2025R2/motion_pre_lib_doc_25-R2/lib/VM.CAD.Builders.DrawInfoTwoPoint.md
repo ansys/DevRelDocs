@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_DrawInfoTwoPoint"></a> Class DrawInfoTwoPoint
+# Class DrawInfoTwoPoint
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -28,7 +28,7 @@ public abstract class DrawInfoTwoPoint : DrawInfo
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_DrawInfoTwoPoint__ctor"></a> DrawInfoTwoPoint\(\)
+### DrawInfoTwoPoint\(\)
 
 ```csharp
 protected DrawInfoTwoPoint()
@@ -36,7 +36,7 @@ protected DrawInfoTwoPoint()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_DrawInfoTwoPoint_Point1"></a> Point1
+### Point1
 
 First point
 
@@ -48,7 +48,7 @@ public Vector Point1 { get; set; }
 
  Vector
 
-### <a id="VM_CAD_Builders_DrawInfoTwoPoint_Point2"></a> Point2
+### Point2
 
 Second point
 
@@ -59,4 +59,5 @@ public Vector Point2 { get; set; }
 #### Property Value
 
  Vector
+
 

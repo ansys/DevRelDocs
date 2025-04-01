@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometry"></a> Class RacewayGeometry
+# Class RacewayGeometry
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -301,7 +301,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometry__ctor"></a> RacewayGeometry\(\)
+### RacewayGeometry\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RacewayGeometry" data-throw-if-not-resolved="false"></xref> class.
 
@@ -309,7 +309,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Rac
 public RacewayGeometry()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometry__ctor_VM_Managed_CAD_Builder_"></a> RacewayGeometry\(Builder\)
+### RacewayGeometry\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RacewayGeometry" data-throw-if-not-resolved="false"></xref> class.
 
@@ -325,7 +325,7 @@ The body's builder.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometry_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
+### GetLengthAndHeight\(ref double, ref double\)
 
 Gets the start and end point.
 
@@ -343,7 +343,7 @@ Length of the d.
 
 Height of the d.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometry_GetNameWhenDelete"></a> GetNameWhenDelete\(\)
+### GetNameWhenDelete\(\)
 
 Gets the name when delete.
 
@@ -355,7 +355,7 @@ protected override string GetNameWhenDelete()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometry_TemperaryRacewayGeometry_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_Double_VM_Managed_DAFUL_GearTrain_CAD_ReferencePointType_System_Boolean_"></a> TemperaryRacewayGeometry\(RacewayGeometryInfo, HiddenShaftSetDocument, double, ReferencePointType, bool\)
+### TemperaryRacewayGeometry\(RacewayGeometryInfo, HiddenShaftSetDocument, double, ReferencePointType, bool\)
 
 Temperaries the raceway geometry.
 
@@ -389,7 +389,7 @@ The flag of reverse direction.
 
  [RacewayGeometry](VM.Managed.DAFUL.GearTrain.CAD.RacewayGeometry.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometry_TemperaryRacewayGeometry_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_VM_Managed_DAFUL_DocumentAnalysis_VM_Managed_DAFUL_GearTrain_Bearing_"></a> TemperaryRacewayGeometry\(RacewayGeometryInfo, DocumentAnalysis, Bearing\)
+### TemperaryRacewayGeometry\(RacewayGeometryInfo, DocumentAnalysis, Bearing\)
 
 Temperaries the raceway geometry in Bearing Design.
 
@@ -414,4 +414,5 @@ The owner bearing.
 #### Returns
 
  [RacewayGeometry](VM.Managed.DAFUL.GearTrain.CAD.RacewayGeometry.md)
+
 

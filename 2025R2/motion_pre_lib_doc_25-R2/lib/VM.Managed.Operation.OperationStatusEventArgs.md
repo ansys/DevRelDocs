@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_OperationStatusEventArgs"></a> Class OperationStatusEventArgs
+# Class OperationStatusEventArgs
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class OperationStatusEventArgs : EventArgs
 
 ## Constructors
 
-### <a id="VM_Managed_Operation_OperationStatusEventArgs__ctor_VM_Managed_Operation_OperationStatus_VM_Managed_Operation_OperationStatus_"></a> OperationStatusEventArgs\(OperationStatus, OperationStatus\)
+### OperationStatusEventArgs\(OperationStatus, OperationStatus\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationStatusEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -43,7 +43,7 @@ The previous operation status.
 
 ## Properties
 
-### <a id="VM_Managed_Operation_OperationStatusEventArgs_PreviousStatus"></a> PreviousStatus
+### PreviousStatus
 
 Gets the previous operation status.
 
@@ -55,7 +55,7 @@ public OperationStatus PreviousStatus { get; }
 
  [OperationStatus](VM.Managed.Operation.OperationStatus.md)
 
-### <a id="VM_Managed_Operation_OperationStatusEventArgs_Status"></a> Status
+### Status
 
 Gets the operation status.
 
@@ -66,4 +66,5 @@ public OperationStatus Status { get; }
 #### Property Value
 
  [OperationStatus](VM.Managed.Operation.OperationStatus.md)
+
 

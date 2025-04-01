@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_RScalar"></a> Class RScalar
+# Class RScalar
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -251,7 +251,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Force_RScalar__ctor"></a> RScalar\(\)
+### RScalar\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.RScalar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -259,7 +259,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.RScalar" da
 public RScalar()
 ```
 
-### <a id="VM_Managed_DAFUL_Force_RScalar__ctor_System_String_"></a> RScalar\(string\)
+### RScalar\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.RScalar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -275,7 +275,7 @@ Name of the rotation scalar force.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Force_RScalar_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -289,7 +289,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Force_RScalar_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -303,7 +303,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Force_RScalar_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -320,4 +320,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

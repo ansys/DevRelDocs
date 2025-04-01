@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_ConceptCarrier"></a> Class ConceptCarrier
+# Class ConceptCarrier
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -60,7 +60,7 @@ BuilderBase<ShaftSet\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ConceptCarrier__ctor"></a> ConceptCarrier\(\)
+### ConceptCarrier\(\)
 
 ```csharp
 public ConceptCarrier()
@@ -68,7 +68,7 @@ public ConceptCarrier()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ConceptCarrier_AddToDoc"></a> AddToDoc
+### AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -78,7 +78,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ConceptCarrier_Color"></a> Color
+### Color
 
 ```csharp
 public string Color { get; set; }
@@ -88,7 +88,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ConceptCarrier_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -100,7 +100,7 @@ public string[] InputArray { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ConceptCarrier_MakeBearingBuilder_VM_Managed_DAFUL_GearTrain_Bearing_VM_Managed_DAFUL_Builder_GearTrain_Bearing__"></a> MakeBearingBuilder\(Bearing, ref Bearing\)
+### MakeBearingBuilder\(Bearing, ref Bearing\)
 
 ```csharp
 public static void MakeBearingBuilder(Bearing br, ref Bearing bearing)
@@ -112,7 +112,7 @@ public static void MakeBearingBuilder(Bearing br, ref Bearing bearing)
 
 `bearing` [Bearing](VM.Managed.DAFUL.Builder.GearTrain.Bearing.md)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ConceptCarrier_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -127,4 +127,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

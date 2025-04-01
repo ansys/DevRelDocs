@@ -1,4 +1,4 @@
-# <a id="VM_IHasBindingValueConverter"></a> Interface IHasBindingValueConverter
+# Interface IHasBindingValueConverter
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -17,7 +17,7 @@ public interface IHasBindingValueConverter
 
 ## Methods
 
-### <a id="VM_IHasBindingValueConverter_Convert"></a> Convert\(\)
+### Convert\(\)
 
 Convert a value bount to a symbol.
 
@@ -30,4 +30,5 @@ object Convert()
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The converted value.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Thermal_HeatFlow"></a> Class HeatFlow
+# Class HeatFlow
 
 Namespace: [VM.Managed.DAFUL.Builder.Thermal](VM.Managed.DAFUL.Builder.Thermal.md)  
 Assembly: VMBldThermal.dll  
@@ -53,7 +53,7 @@ BuilderBase<HeatFlow\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Thermal_HeatFlow__ctor"></a> HeatFlow\(\)
+### HeatFlow\(\)
 
 ```csharp
 public HeatFlow()
@@ -61,7 +61,7 @@ public HeatFlow()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Thermal_HeatFlow_Target"></a> Target
+### Target
 
 ```csharp
 public IHeatFlowComponent Target { get; }
@@ -73,7 +73,7 @@ public IHeatFlowComponent Target { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Thermal_HeatFlow_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -88,4 +88,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

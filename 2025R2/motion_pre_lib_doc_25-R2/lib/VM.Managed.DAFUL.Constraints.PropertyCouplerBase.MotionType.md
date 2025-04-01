@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_PropertyCouplerBase_MotionType"></a> Enum PropertyCouplerBase.MotionType
+# Enum PropertyCouplerBase.MotionType
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -20,6 +20,7 @@ Rotation.
 `Translation = 1` 
 
 Translation.
+
 
 
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_PickerHole"></a> Class PickerHole
+# Class PickerHole
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -51,7 +51,7 @@ public class PickerHole : PickerBase
 
 ## Constructors
 
-### <a id="VM_Managed_Picker_Core_PickerHole__ctor"></a> PickerHole\(\)
+### PickerHole\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerHole" data-throw-if-not-resolved="false"></xref> class
 
@@ -61,7 +61,7 @@ public PickerHole()
 
 ## Properties
 
-### <a id="VM_Managed_Picker_Core_PickerHole_Result"></a> Result
+### Result
 
 Gets or sets the object of picking result.
 
@@ -75,7 +75,7 @@ public override object Result { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Picker_Core_PickerHole_GetPickerInfo"></a> GetPickerInfo\(\)
+### GetPickerInfo\(\)
 
 Gets information of picking type.
 
@@ -87,7 +87,7 @@ public override string GetPickerInfo()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Picker_Core_PickerHole_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
+### SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -110,4 +110,5 @@ If it is true, skip the result setting.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

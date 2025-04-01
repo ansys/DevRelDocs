@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_MarkerOnNode"></a> Class MarkerOnNode
+# Class MarkerOnNode
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -231,7 +231,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_MarkerOnNode__ctor_System_String_"></a> MarkerOnNode\(string\)
+### MarkerOnNode\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.MarkerOnNode" data-throw-if-not-resolved="false"></xref> class.
 
@@ -245,7 +245,7 @@ public MarkerOnNode(string strName)
 
 Name of the FRBE.
 
-### <a id="VM_Managed_DAFUL_FE_MarkerOnNode__ctor"></a> MarkerOnNode\(\)
+### MarkerOnNode\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.MarkerOnNode" data-throw-if-not-resolved="false"></xref> class.
 
@@ -255,7 +255,7 @@ public MarkerOnNode()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_MarkerOnNode_Name"></a> Name
+### Name
 
 Gets or sets the name.
 
@@ -269,7 +269,7 @@ public override string Name { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_MarkerOnNode_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -297,7 +297,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_FE_MarkerOnNode_InstantiateImpl_VM_Managed_Reference_VM_CAD_Kernel_Render_Canvas_"></a> InstantiateImpl\(Reference, Canvas\)
+### InstantiateImpl\(Reference, Canvas\)
 
 Instantiates the specified reference.
 
@@ -315,9 +315,10 @@ The reference
 
 The canvas
 
-### <a id="VM_Managed_DAFUL_FE_MarkerOnNode_RecalcTransform"></a> RecalcTransform\(\)
+### RecalcTransform\(\)
 
 ```csharp
 public void RecalcTransform()
 ```
+
 

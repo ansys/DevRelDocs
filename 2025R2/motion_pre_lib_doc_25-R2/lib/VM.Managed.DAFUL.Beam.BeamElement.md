@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Beam_BeamElement"></a> Class BeamElement
+# Class BeamElement
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VMDBeamGroup.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement__ctor"></a> BeamElement\(\)
+### BeamElement\(\)
 
 Constructor of BeamElement Class
 
@@ -106,7 +106,7 @@ public BeamElement()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_ActionBody"></a> ActionBody
+### ActionBody
 
 Action sphere body tp save
 
@@ -118,7 +118,7 @@ public SolidBody ActionBody { get; set; }
 
  SolidBody
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_ActionBodyMass"></a> ActionBodyMass
+### ActionBodyMass
 
 Mass of action sphere body
 
@@ -130,7 +130,7 @@ public ExpressionValueVariable ActionBodyMass { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_ActionBodyMomentOfInertia"></a> ActionBodyMomentOfInertia
+### ActionBodyMomentOfInertia
 
 Moment of inertia of action sphere body
 
@@ -142,7 +142,7 @@ public Variable[] ActionBodyMomentOfInertia { get; set; }
 
  Variable\[\]
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_ActionBodyOrientationArray"></a> ActionBodyOrientationArray
+### ActionBodyOrientationArray
 
 Orientation array of base sphere body
 
@@ -154,7 +154,7 @@ public double[] ActionBodyOrientationArray { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_ActionBodyPosition"></a> ActionBodyPosition
+### ActionBodyPosition
 
 Point of action sphere body
 
@@ -166,7 +166,7 @@ public VectorBase ActionBodyPosition { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_ActionBodyRadius"></a> ActionBodyRadius
+### ActionBodyRadius
 
 Sphere radius of base sphere body
 
@@ -178,7 +178,7 @@ public double ActionBodyRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_ActionBodyTransformationMatrix"></a> ActionBodyTransformationMatrix
+### ActionBodyTransformationMatrix
 
 Transformation Matrix of action sphere body
 
@@ -190,7 +190,7 @@ public double[] ActionBodyTransformationMatrix { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_AngleArrayBetweenTwoBodies"></a> AngleArrayBetweenTwoBodies
+### AngleArrayBetweenTwoBodies
 
 Angle between two bodies (X, Y, Z | Roll, Pitch, Yaw)
 
@@ -202,7 +202,7 @@ public double[] AngleArrayBetweenTwoBodies { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_Area"></a> Area
+### Area
 
 Area of beam element
 
@@ -214,7 +214,7 @@ public ExpressionValueVariable Area { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_Asy"></a> Asy
+### Asy
 
 Shear moment of ratio of Asy
 
@@ -226,7 +226,7 @@ public ExpressionValueVariable Asy { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_Asz"></a> Asz
+### Asz
 
 Shear moment of ratio of Asz
 
@@ -238,7 +238,7 @@ public ExpressionValueVariable Asz { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_BaseBody"></a> BaseBody
+### BaseBody
 
 Base sphere body to use
 
@@ -250,7 +250,7 @@ public SolidBody BaseBody { get; set; }
 
  SolidBody
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_BaseBodyMass"></a> BaseBodyMass
+### BaseBodyMass
 
 Mass of base sphere body
 
@@ -262,7 +262,7 @@ public ExpressionValueVariable BaseBodyMass { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_BaseBodyMomentOfInertia"></a> BaseBodyMomentOfInertia
+### BaseBodyMomentOfInertia
 
 Moment of inertia of base sphere body
 
@@ -274,7 +274,7 @@ public Variable[] BaseBodyMomentOfInertia { get; set; }
 
  Variable\[\]
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_BaseBodyOrientationArray"></a> BaseBodyOrientationArray
+### BaseBodyOrientationArray
 
 Orientation array of base sphere body
 
@@ -286,7 +286,7 @@ public double[] BaseBodyOrientationArray { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_BaseBodyPosition"></a> BaseBodyPosition
+### BaseBodyPosition
 
 Point of base sphere body
 
@@ -298,7 +298,7 @@ public VectorBase BaseBodyPosition { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_BaseBodyRadius"></a> BaseBodyRadius
+### BaseBodyRadius
 
 Sphere radius of base sphere body
 
@@ -310,7 +310,7 @@ public double BaseBodyRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_BaseBodyTransformationMatrix"></a> BaseBodyTransformationMatrix
+### BaseBodyTransformationMatrix
 
 Transformation Matrix of base sphere body
 
@@ -322,7 +322,7 @@ public double[] BaseBodyTransformationMatrix { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_IsFirstBeamElement"></a> IsFirstBeamElement
+### IsFirstBeamElement
 
 Whether this beam element is a first element
 
@@ -334,7 +334,7 @@ public bool IsFirstBeamElement { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_IsLastBeamElement"></a> IsLastBeamElement
+### IsLastBeamElement
 
 Whether this beam element is a last element
 
@@ -346,7 +346,7 @@ public bool IsLastBeamElement { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_Ixx"></a> Ixx
+### Ixx
 
 Area moment of inertia of Ixx
 
@@ -358,7 +358,7 @@ public ExpressionValueVariable Ixx { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_Iyy"></a> Iyy
+### Iyy
 
 Area moment of inertia of Iyy
 
@@ -370,7 +370,7 @@ public ExpressionValueVariable Iyy { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_Iyz"></a> Iyz
+### Iyz
 
 Area moment of inertia of Iyz
 
@@ -382,7 +382,7 @@ public ExpressionValueVariable Iyz { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_Izz"></a> Izz
+### Izz
 
 Area moment of inertia of Izz
 
@@ -394,7 +394,7 @@ public ExpressionValueVariable Izz { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_LengthBetweenTwoBodies"></a> LengthBetweenTwoBodies
+### LengthBetweenTwoBodies
 
 Length between two bodies
 
@@ -406,7 +406,7 @@ public double LengthBetweenTwoBodies { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement__ActionBody"></a> \_ActionBody
+### \_ActionBody
 
 Action sphere body to save
 
@@ -418,7 +418,7 @@ public Linker<SolidBody> _ActionBody { get; set; }
 
  Linker<SolidBody\>
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement__BaseBody"></a> \_BaseBody
+### \_BaseBody
 
 Base sphere body to save
 
@@ -432,7 +432,7 @@ public Linker<SolidBody> _BaseBody { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -450,11 +450,12 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Beam_BeamElement_UpdateAreaProperties"></a> UpdateAreaProperties\(\)
+### UpdateAreaProperties\(\)
 
 Update area properties of beam elements
 
 ```csharp
 public void UpdateAreaProperties()
 ```
+
 

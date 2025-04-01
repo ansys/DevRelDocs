@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_CPlacingConnector"></a> Class CPlacingConnector
+# Class CPlacingConnector
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -204,7 +204,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_CPlacingConnector__ctor"></a> CPlacingConnector\(\)
+### CPlacingConnector\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.CPlacingConnector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -212,7 +212,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector
 public CPlacingConnector()
 ```
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_CPlacingConnector__ctor_System_String_"></a> CPlacingConnector\(string\)
+### CPlacingConnector\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.CPlacingConnector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -228,7 +228,7 @@ Name of the string.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_CPlacingConnector_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -240,7 +240,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_CPlacingConnector_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -252,7 +252,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_CPlacingConnector_ReferenceChainedPlacing"></a> ReferenceChainedPlacing
+### ReferenceChainedPlacing
 
 Gets or sets the reference chained placing.
 
@@ -266,7 +266,7 @@ public ChainedPlacing ReferenceChainedPlacing { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_CPlacingConnector_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -280,7 +280,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_CPlacingConnector_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -308,7 +308,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_CPlacingConnector_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -322,11 +322,12 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_CPlacingConnector_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
 ```csharp
 public virtual void ReDraw()
 ```
+
 

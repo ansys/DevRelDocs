@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_SetFEDesignDocument"></a> Class SetFEDesignDocument
+# Class SetFEDesignDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -96,7 +96,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetFEDesignDocument__ctor_VM_Managed_DAFUL_GearTrain_IMeshEntity_"></a> SetFEDesignDocument\(IMeshEntity\)
+### SetFEDesignDocument\(IMeshEntity\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.SetFEDesignDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -110,7 +110,7 @@ public SetFEDesignDocument(IMeshEntity meshEntity)
 
 The mesh entity.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetFEDesignDocument__ctor_VM_Managed_Operation_JournalParameter_"></a> SetFEDesignDocument\(JournalParameter\)
+### SetFEDesignDocument\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.SetFEDesignDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -126,11 +126,12 @@ The jp.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetFEDesignDocument_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_ExcitationType"></a> Enum PropertyMotorEMForce.ExcitationType
+# Enum PropertyMotorEMForce.ExcitationType
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,6 +26,7 @@ Rotor
 `Stator = 1` 
 
 Stator
+
 
 
 

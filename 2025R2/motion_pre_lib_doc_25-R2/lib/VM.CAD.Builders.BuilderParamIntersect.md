@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamIntersect"></a> Class BuilderParamIntersect
+# Class BuilderParamIntersect
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -37,9 +37,10 @@ public class BuilderParamIntersect : BuilderParamPair
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamIntersect__ctor"></a> BuilderParamIntersect\(\)
+### BuilderParamIntersect\(\)
 
 ```csharp
 public BuilderParamIntersect()
 ```
+
 

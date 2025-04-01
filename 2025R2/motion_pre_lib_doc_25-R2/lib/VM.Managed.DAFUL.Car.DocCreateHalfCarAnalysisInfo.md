@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo"></a> Class DocCreateHalfCarAnalysisInfo
+# Class DocCreateHalfCarAnalysisInfo
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -40,7 +40,7 @@ DocCreateInfo.DocumentName
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo__ctor"></a> DocCreateHalfCarAnalysisInfo\(\)
+### DocCreateHalfCarAnalysisInfo\(\)
 
 ```csharp
 public DocCreateHalfCarAnalysisInfo()
@@ -48,7 +48,7 @@ public DocCreateHalfCarAnalysisInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo_AssemblyPath"></a> AssemblyPath
+### AssemblyPath
 
 Gets or sets the assembly path.
 
@@ -60,7 +60,7 @@ public string AssemblyPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo_IsOther"></a> IsOther
+### IsOther
 
 Gets or sets a value indicating whether document has other subsystem or not.
 
@@ -72,7 +72,7 @@ public bool IsOther { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo_IsSteering"></a> IsSteering
+### IsSteering
 
 Gets or sets a value indicating whether document has steering or not.
 
@@ -84,7 +84,7 @@ public bool IsSteering { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo_OtherPath"></a> OtherPath
+### OtherPath
 
 Gets or sets the other path.
 
@@ -96,7 +96,7 @@ public string OtherPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo_SteeringPath"></a> SteeringPath
+### SteeringPath
 
 Gets or sets the steering path.
 
@@ -108,7 +108,7 @@ public string SteeringPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo_SuspensionPath"></a> SuspensionPath
+### SuspensionPath
 
 Gets or sets the suspension path.
 
@@ -120,7 +120,7 @@ public string SuspensionPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_DocCreateHalfCarAnalysisInfo_TestRigPath"></a> TestRigPath
+### TestRigPath
 
 Gets or sets the test rig path.
 
@@ -131,4 +131,5 @@ public string TestRigPath { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

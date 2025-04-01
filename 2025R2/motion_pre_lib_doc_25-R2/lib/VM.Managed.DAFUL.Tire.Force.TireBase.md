@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire_Force_TireBase"></a> Class TireBase
+# Class TireBase
 
 Namespace: [VM.Managed.DAFUL.Tire.Force](VM.Managed.DAFUL.Tire.Force.md)  
 Assembly: VMDTire.dll  
@@ -257,7 +257,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Tire_Force_TireBase__ctor"></a> TireBase\(\)
+### TireBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Force.TireBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -265,7 +265,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Force.TireBa
 public TireBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Tire_Force_TireBase__ctor_System_String_"></a> TireBase\(string\)
+### TireBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Force.TireBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -281,7 +281,7 @@ Name of the bush force.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Tire_Force_TireBase_ActivePropertyFile"></a> ActivePropertyFile
+### ActivePropertyFile
 
 Gets or sets the active property file.
 
@@ -293,7 +293,7 @@ public ActiveTirePropertyFile ActivePropertyFile { get; set; }
 
  [ActiveTirePropertyFile](VM.Managed.DAFUL.Tire.Force.ActiveTirePropertyFile.md)
 
-### <a id="VM_Managed_DAFUL_Tire_Force_TireBase_CanSwitchImpl"></a> CanSwitchImpl
+### CanSwitchImpl
 
 ```csharp
 protected override bool CanSwitchImpl { get; }
@@ -303,7 +303,7 @@ protected override bool CanSwitchImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Tire_Force_TireBase_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -315,7 +315,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
  IReportable.ReportEntityType
 
-### <a id="VM_Managed_DAFUL_Tire_Force_TireBase_WheelBodyBase"></a> WheelBodyBase
+### WheelBodyBase
 
 Gets or sets the wheel body.
 
@@ -329,7 +329,7 @@ public WheelBodyBase WheelBodyBase { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Tire_Force_TireBase_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds the local.
 
@@ -347,7 +347,7 @@ Name of the string.
 
  IObjectBase
 
-### <a id="VM_Managed_DAFUL_Tire_Force_TireBase_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -365,7 +365,7 @@ The ob unnamed.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Tire_Force_TireBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -379,7 +379,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### <a id="VM_Managed_DAFUL_Tire_Force_TireBase_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -397,7 +397,7 @@ The linked object.
 
 The destroying event information.
 
-### <a id="VM_Managed_DAFUL_Tire_Force_TireBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -415,7 +415,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Tire_Force_TireBase_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -429,7 +429,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Tire_Force_TireBase_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -442,4 +442,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

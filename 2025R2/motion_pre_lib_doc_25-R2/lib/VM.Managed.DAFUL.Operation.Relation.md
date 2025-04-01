@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_Relation"></a> Class Relation
+# Class Relation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_Relation__ctor_VM_Models_Pre_IDocument_"></a> Relation\(IDocument\)
+### Relation\(IDocument\)
 
 ```csharp
 public Relation(IDocument doc)
@@ -87,7 +87,7 @@ public Relation(IDocument doc)
 
 `doc` IDocument
 
-### <a id="VM_Managed_DAFUL_Operation_Relation__ctor_VM_Models_Pre_IDocument_VM_Managed_DAFUL_SolidBody_"></a> Relation\(IDocument, SolidBody\)
+### Relation\(IDocument, SolidBody\)
 
 ```csharp
 public Relation(IDocument doc, SolidBody selectedBody)
@@ -99,7 +99,7 @@ public Relation(IDocument doc, SolidBody selectedBody)
 
 `selectedBody` SolidBody
 
-### <a id="VM_Managed_DAFUL_Operation_Relation__ctor_VM_Models_Pre_IDocument_VM_Managed_DAFUL_SolidBody_System_Double_"></a> Relation\(IDocument, SolidBody, double\)
+### Relation\(IDocument, SolidBody, double\)
 
 ```csharp
 public Relation(IDocument doc, SolidBody selectedBody, double dTolerance)
@@ -115,7 +115,7 @@ public Relation(IDocument doc, SolidBody selectedBody, double dTolerance)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_Relation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -127,7 +127,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Operation_Relation_SeedBody"></a> SeedBody
+### SeedBody
 
 ```csharp
 public SolidBody SeedBody { get; set; }
@@ -137,7 +137,7 @@ public SolidBody SeedBody { get; set; }
 
  SolidBody
 
-### <a id="VM_Managed_DAFUL_Operation_Relation_SelectedBody"></a> SelectedBody
+### SelectedBody
 
 ```csharp
 public ICollection<SolidBody> SelectedBody { get; }
@@ -147,7 +147,7 @@ public ICollection<SolidBody> SelectedBody { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<SolidBody\>
 
-### <a id="VM_Managed_DAFUL_Operation_Relation_Tolerance"></a> Tolerance
+### Tolerance
 
 ```csharp
 public double Tolerance { get; set; }
@@ -159,7 +159,7 @@ public double Tolerance { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_Relation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -167,7 +167,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_Relation_ExecuteAutoPicker_VM_Managed_Document3D_System_String_System_String_"></a> ExecuteAutoPicker\(Document3D, string, string\)
+### ExecuteAutoPicker\(Document3D, string, string\)
 
 ```csharp
 protected void ExecuteAutoPicker(Document3D doc3D, string strKey, string strTol)
@@ -180,4 +180,5 @@ protected void ExecuteAutoPicker(Document3D doc3D, string strKey, string strTol)
 `strKey` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `strTol` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

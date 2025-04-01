@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CheckSolidHelper"></a> Class CheckSolidHelper
+# Class CheckSolidHelper
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -20,7 +20,7 @@ public class CheckSolidHelper
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_CheckSolidHelper__ctor"></a> CheckSolidHelper\(\)
+### CheckSolidHelper\(\)
 
 ```csharp
 public CheckSolidHelper()
@@ -28,7 +28,7 @@ public CheckSolidHelper()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_CheckSolidHelper_UseCheckSolid"></a> UseCheckSolid
+### UseCheckSolid
 
 ```csharp
 public static bool UseCheckSolid { get; set; }
@@ -37,4 +37,5 @@ public static bool UseCheckSolid { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FunctionUnitBase"></a> Class FunctionUnitBase
+# Class FunctionUnitBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -22,7 +22,7 @@ public abstract class FunctionUnitBase
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FunctionUnitBase__ctor"></a> FunctionUnitBase\(\)
+### FunctionUnitBase\(\)
 
 ```csharp
 protected FunctionUnitBase()
@@ -30,7 +30,7 @@ protected FunctionUnitBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FunctionUnitBase_Factor"></a> Factor
+### Factor
 
 Gets the factor.
 
@@ -42,7 +42,7 @@ public virtual string Factor { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_FunctionUnitBase_Scale"></a> Scale
+### Scale
 
 Gets the scale.
 
@@ -54,7 +54,7 @@ public virtual double Scale { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_FunctionUnitBase_Shift"></a> Shift
+### Shift
 
 Gets the shift.
 
@@ -65,4 +65,5 @@ public virtual double Shift { get; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_EntityBase"></a> Class EntityBase
+# Class EntityBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -174,7 +174,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_EntityBase__ctor"></a> EntityBase\(\)
+### EntityBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.EntityBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -182,7 +182,7 @@ Initializes a new instance of the <xref href="VM.Managed.EntityBase" data-throw-
 protected EntityBase()
 ```
 
-### <a id="VM_Managed_EntityBase__ctor_System_String_"></a> EntityBase\(string\)
+### EntityBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.EntityBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -198,7 +198,7 @@ Name of the entity base.
 
 ## Properties
 
-### <a id="VM_Managed_EntityBase_Comment"></a> Comment
+### Comment
 
 Gets or sets the comment.
 
@@ -210,9 +210,9 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_EntityBase_DisplayName"></a> DisplayName
+### DisplayName
 
-The display name.
+<p>The display name.</p>
 
 ```csharp
 public virtual string DisplayName { get; }
@@ -222,7 +222,7 @@ public virtual string DisplayName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_EntityBase_FullName"></a> FullName
+### FullName
 
 Gets the full name.
 
@@ -234,7 +234,7 @@ public string FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_EntityBase_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -246,7 +246,7 @@ protected abstract bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_EntityBase_IsEnabled"></a> IsEnabled
+### IsEnabled
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.EntityBase" data-throw-if-not-resolved="false"></xref> is enabled.
 
@@ -258,7 +258,7 @@ public virtual bool IsEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_EntityBase_IsFileProperty"></a> IsFileProperty
+### IsFileProperty
 
 Gets a value indicating whether this instance is file property.
 
@@ -270,7 +270,7 @@ protected bool IsFileProperty { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_EntityBase_IsVisible"></a> IsVisible
+### IsVisible
 
 Gets or sets the visible state.
 
@@ -282,7 +282,7 @@ public virtual bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_EntityBase_Layer"></a> Layer
+### Layer
 
 Gets or sets the layer.
 
@@ -294,7 +294,7 @@ public virtual Layer Layer { get; set; }
 
  Layer
 
-### <a id="VM_Managed_EntityBase_Name"></a> Name
+### Name
 
 Gets or sets the name.
 
@@ -306,7 +306,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_EntityBase_NonSymmetricName"></a> NonSymmetricName
+### NonSymmetricName
 
 Gets the name of the non symmetric.
 
@@ -318,7 +318,7 @@ public string NonSymmetricName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_EntityBase_UntypedProperty"></a> UntypedProperty
+### UntypedProperty
 
 Gets or sets the untyped property.
 
@@ -332,7 +332,7 @@ public Property UntypedProperty { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_EntityBase_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -352,7 +352,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_EntityBase_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
+### FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -372,7 +372,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_EntityBase_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -400,7 +400,7 @@ if set to <code>true</code> [b has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_EntityBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -414,7 +414,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_EntityBase_LinkAddedToDocument_System_Object_VM_Managed_AddToDocEventArgs_"></a> LinkAddedToDocument\(object, AddToDocEventArgs\)
+### LinkAddedToDocument\(object, AddToDocEventArgs\)
 
 Add linked object to a document.
 
@@ -432,7 +432,7 @@ The linked object.
 
 The <xref href="VM.Managed.AddToDocEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_EntityBase_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -450,7 +450,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_EntityBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -464,7 +464,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_EntityBase_OnDeserializationForAttribute"></a> OnDeserializationForAttribute\(\)
+### OnDeserializationForAttribute\(\)
 
 Called when [deserialization for attribute].
 
@@ -472,7 +472,7 @@ Called when [deserialization for attribute].
 public virtual void OnDeserializationForAttribute()
 ```
 
-### <a id="VM_Managed_EntityBase_OnUpdatePropertyImpl_VM_Managed_Property_VM_Managed_LinkEventArgs_"></a> OnUpdatePropertyImpl\(Property, LinkEventArgs\)
+### OnUpdatePropertyImpl\(Property, LinkEventArgs\)
 
 Called when [update property].
 
@@ -490,7 +490,7 @@ The property.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_EntityBase_PropertyRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> PropertyRequestUpdate\(object, LinkEventArgs\)
+### PropertyRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the property.
 
@@ -508,7 +508,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_EntityBase_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -522,7 +522,7 @@ protected virtual void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_EntityBase_SetOldNameWithNewEntity_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)
+### SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)
 
 Change for the new name.
 
@@ -540,7 +540,7 @@ The new object.
 
 The old object.
 
-### <a id="VM_Managed_EntityBase_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -553,4 +553,5 @@ protected virtual void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

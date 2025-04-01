@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PreventDuplicateRBEException"></a> Class PreventDuplicateRBEException
+# Class PreventDuplicateRBEException
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -21,7 +21,7 @@ public class PreventDuplicateRBEException : Exception
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_PreventDuplicateRBEException__ctor_System_String_"></a> PreventDuplicateRBEException\(string\)
+### PreventDuplicateRBEException\(string\)
 
 ```csharp
 public PreventDuplicateRBEException(string strMessage)
@@ -30,4 +30,5 @@ public PreventDuplicateRBEException(string strMessage)
 #### Parameters
 
 `strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

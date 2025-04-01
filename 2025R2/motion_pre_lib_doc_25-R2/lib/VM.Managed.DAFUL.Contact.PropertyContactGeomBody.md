@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomBody"></a> Class PropertyContactGeomBody
+# Class PropertyContactGeomBody
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -177,11 +177,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomBody__ctor"></a> PropertyContactGeomBody\(\)
+### PropertyContactGeomBody\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyContactGeomBody" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyContactGeomBody()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Force_ReferenceMotorEMForce"></a> Class ReferenceMotorEMForce
+# Class ReferenceMotorEMForce
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -183,7 +183,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_ReferenceMotorEMForce__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceMotorEMForce\(SerializationInfo, StreamingContext\)
+### ReferenceMotorEMForce\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Force.ReferenceMotorEMForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -201,7 +201,7 @@ The info.
 
 The context.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_ReferenceMotorEMForce__ctor_VM_Managed_ObjectBase_"></a> ReferenceMotorEMForce\(ObjectBase\)
+### ReferenceMotorEMForce\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Force.ReferenceMotorEMForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -214,4 +214,5 @@ public ReferenceMotorEMForce(ObjectBase obj)
 `obj` ObjectBase
 
 The reference's object.
+
 

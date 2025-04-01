@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTClutch"></a> Class AttributeBodyToDTClutch
+# Class AttributeBodyToDTClutch
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTClutch__ctor"></a> AttributeBodyToDTClutch\(\)
+### AttributeBodyToDTClutch\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AttributeBodyToDTClutch" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeBodyToDTClutch()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTClutch_ClutchName"></a> ClutchName
+### ClutchName
 
 Gets or sets the clutch name.
 
@@ -121,7 +121,7 @@ public string ClutchName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTClutch_DampingCoefficient"></a> DampingCoefficient
+### DampingCoefficient
 
 Gets or sets the damping coefficient.
 
@@ -133,7 +133,7 @@ public ExpressionValueVariable DampingCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTClutch_Direction"></a> Direction
+### Direction
 
 Gets or sets the direction.
 
@@ -145,7 +145,7 @@ public DirectionBase Direction { get; set; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTClutch_DisengageDuration"></a> DisengageDuration
+### DisengageDuration
 
 Gets or sets the disengage duration.
 
@@ -157,7 +157,7 @@ public ExpressionValueVariable DisengageDuration { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTClutch_DisengageSplineValue"></a> DisengageSplineValue
+### DisengageSplineValue
 
 Gets or sets the disengage spline value.
 
@@ -169,7 +169,7 @@ public SplineValue DisengageSplineValue { get; set; }
 
  SplineValue
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTClutch_EngageDuration"></a> EngageDuration
+### EngageDuration
 
 Gets or sets the engage duration.
 
@@ -181,7 +181,7 @@ public ExpressionValueVariable EngageDuration { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTClutch_EngageSplineValue"></a> EngageSplineValue
+### EngageSplineValue
 
 Gets or sets the engage spline value.
 
@@ -193,7 +193,7 @@ public SplineValue EngageSplineValue { get; set; }
 
  SplineValue
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTClutch_Position"></a> Position
+### Position
 
 Gets or sets the position.
 
@@ -205,7 +205,7 @@ public PointBase Position { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTClutch_Stiffness"></a> Stiffness
+### Stiffness
 
 Gets or sets the stiffness.
 
@@ -219,7 +219,7 @@ public ExpressionValueVariable Stiffness { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTClutch_GetStiffnessDefaultValue_VM_Unit_ConvertFactor_"></a> GetStiffnessDefaultValue\(ConvertFactor\)
+### GetStiffnessDefaultValue\(ConvertFactor\)
 
 Gets the stiffness default value
 
@@ -235,7 +235,7 @@ public static double GetStiffnessDefaultValue(Unit.ConvertFactor factor)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTClutch_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -248,4 +248,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

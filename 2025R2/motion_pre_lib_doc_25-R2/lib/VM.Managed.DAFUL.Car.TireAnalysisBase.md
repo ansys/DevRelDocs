@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_TireAnalysisBase"></a> Class TireAnalysisBase
+# Class TireAnalysisBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -47,7 +47,7 @@ IHasInitialVel
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_TireAnalysisBase__ctor"></a> TireAnalysisBase\(\)
+### TireAnalysisBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TireAnalysisBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -55,7 +55,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TireAnalysisB
 public TireAnalysisBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_TireAnalysisBase__ctor_VM_Models_Pre_ILinkContainer_"></a> TireAnalysisBase\(ILinkContainer\)
+### TireAnalysisBase\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TireAnalysisBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -71,7 +71,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_TireAnalysisBase_InitialVelocity"></a> InitialVelocity
+### InitialVelocity
 
 Gets the initial velocity.
 
@@ -83,7 +83,7 @@ protected virtual double InitialVelocity { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_TireAnalysisBase_TypeOfSimulation"></a> TypeOfSimulation
+### TypeOfSimulation
 
 Gets the type of simulation.
 
@@ -97,7 +97,7 @@ public virtual TireAnalysisBase.SimulationType TypeOfSimulation { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_TireAnalysisBase_GetConvertUnitToMMKS_VM_Managed_DAFUL_Car_Analysis_VelocityUnitType_"></a> GetConvertUnitToMMKS\(VelocityUnitType\)
+### GetConvertUnitToMMKS\(VelocityUnitType\)
 
 Gets the convert unit for velocity.
 
@@ -115,7 +115,7 @@ The type.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_TireAnalysisBase_GetTestRigMotionUSUBArgumentCore_System_String_System_String_VM_Managed_DAFUL_Car_AnalysisInfo_System_String___"></a> GetTestRigMotionUSUBArgumentCore\(string, string, AnalysisInfo, string\[\]\)
+### GetTestRigMotionUSUBArgumentCore\(string, string, AnalysisInfo, string\[\]\)
 
 Gets the test rig motion USUB argument core.
 
@@ -140,4 +140,5 @@ The info.
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The ar parameter.
+
 

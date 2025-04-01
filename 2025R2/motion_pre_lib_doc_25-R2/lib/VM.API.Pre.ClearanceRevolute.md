@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_ClearanceRevolute"></a> Class ClearanceRevolute
+# Class ClearanceRevolute
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -30,7 +30,7 @@ public class ClearanceRevolute : Clearance
 
 ## Constructors
 
-### <a id="VM_API_Pre_ClearanceRevolute__ctor"></a> ClearanceRevolute\(\)
+### ClearanceRevolute\(\)
 
 Default constructor
 
@@ -38,7 +38,7 @@ Default constructor
 public ClearanceRevolute()
 ```
 
-### <a id="VM_API_Pre_ClearanceRevolute__ctor_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Boolean_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> ClearanceRevolute\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, ExpressionValueVariable\)
+### ClearanceRevolute\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, ExpressionValueVariable\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.ClearanceRevolute" data-throw-if-not-resolved="false"></xref> class.
 
@@ -74,7 +74,7 @@ The axial clearance.
 
 ## Properties
 
-### <a id="VM_API_Pre_ClearanceRevolute_AxialClearance"></a> AxialClearance
+### AxialClearance
 
 The value for the axial clearance. The default value is 0.1.
 
@@ -86,7 +86,7 @@ public ExpressionValueVariable AxialClearance { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_API_Pre_ClearanceRevolute_RadialClearance"></a> RadialClearance
+### RadialClearance
 
 The value for the radial clearance. The default value is 0.1.
 
@@ -97,4 +97,5 @@ public ExpressionValueVariable RadialClearance { get; set; }
 #### Property Value
 
  ExpressionValueVariable
+
 

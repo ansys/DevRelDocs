@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_RequestEntity"></a> Class RequestEntity
+# Class RequestEntity
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -184,7 +184,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_RequestEntity__ctor"></a> RequestEntity\(\)
+### RequestEntity\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -192,7 +192,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestEntity" da
 public RequestEntity()
 ```
 
-### <a id="VM_Managed_DAFUL_RequestEntity__ctor_System_String_"></a> RequestEntity\(string\)
+### RequestEntity\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -208,7 +208,7 @@ Name of the sub entity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_RequestEntity_NavigatorEntityName"></a> NavigatorEntityName
+### NavigatorEntityName
 
 ```csharp
 protected override string NavigatorEntityName { get; }
@@ -218,7 +218,7 @@ protected override string NavigatorEntityName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_RequestEntity_WriteToOutFileImpl"></a> WriteToOutFileImpl
+### WriteToOutFileImpl
 
 ```csharp
 protected virtual bool WriteToOutFileImpl { get; }
@@ -230,7 +230,7 @@ protected virtual bool WriteToOutFileImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_RequestEntity_AddNavigatorInfo_System_Xml_XmlDocument_System_Xml_XmlElement_System_String_VM_Managed_ObjectBase_System_String_System_Boolean_"></a> AddNavigatorInfo\(XmlDocument, XmlElement, string, ObjectBase, string, bool\)
+### AddNavigatorInfo\(XmlDocument, XmlElement, string, ObjectBase, string, bool\)
 
 Gets the object information for Add Navigator
 
@@ -258,7 +258,7 @@ The Group Name
 
 `bAddMarker` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestEntity_EntityFiltering_System_Object_VM_Managed_Picker_Core_FilterArgs_"></a> EntityFiltering\(object, FilterArgs\)
+### EntityFiltering\(object, FilterArgs\)
 
 Entity filtering function
 
@@ -276,7 +276,7 @@ The sender
 
 The argument
 
-### <a id="VM_Managed_DAFUL_RequestEntity_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -289,4 +289,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

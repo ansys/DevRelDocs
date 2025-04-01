@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_History_NodalBodyUpdatePositionEvent"></a> Class NodalBodyUpdatePositionEvent
+# Class NodalBodyUpdatePositionEvent
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  
@@ -37,7 +37,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_History_NodalBodyUpdatePositionEvent__ctor_System_Object_VM_Managed_DAFUL_FE_NodalBody_NodeInformation___VM_Managed_DAFUL_FE_NodalBody_ElementInformation___"></a> NodalBodyUpdatePositionEvent\(object, NodeInformation\[\], ElementInformation\[\]\)
+### NodalBodyUpdatePositionEvent\(object, NodeInformation\[\], ElementInformation\[\]\)
 
 ```csharp
 public NodalBodyUpdatePositionEvent(object obj, NodalBody.NodeInformation[] arNodeInfo, NodalBody.ElementInformation[] arElementInfo)
@@ -53,7 +53,7 @@ public NodalBodyUpdatePositionEvent(object obj, NodalBody.NodeInformation[] arNo
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_History_NodalBodyUpdatePositionEvent_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 ```csharp
 public override void Clear(bool bReserveReferenceCount)
@@ -63,7 +63,7 @@ public override void Clear(bool bReserveReferenceCount)
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_History_NodalBodyUpdatePositionEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
+### Redo\(HistoryEventArgs\)
 
 ```csharp
 public override void Redo(HistoryEventArgs args)
@@ -73,7 +73,7 @@ public override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_DAFUL_FE_History_NodalBodyUpdatePositionEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
+### Undo\(HistoryEventArgs\)
 
 ```csharp
 public override void Undo(HistoryEventArgs args)
@@ -82,4 +82,5 @@ public override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
+
 

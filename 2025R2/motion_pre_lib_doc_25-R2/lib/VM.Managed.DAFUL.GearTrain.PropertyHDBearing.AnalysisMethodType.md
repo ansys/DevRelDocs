@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyHDBearing_AnalysisMethodType"></a> Enum PropertyHDBearing.AnalysisMethodType
+# Enum PropertyHDBearing.AnalysisMethodType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -32,6 +32,7 @@ stiffness map
 `StiffnessMap_Debug = 2` 
 
 stiffness map and debug information
+
 
 
 

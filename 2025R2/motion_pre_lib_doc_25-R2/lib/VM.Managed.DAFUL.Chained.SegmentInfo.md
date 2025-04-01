@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_SegmentInfo"></a> Class SegmentInfo
+# Class SegmentInfo
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -22,7 +22,7 @@ public class SegmentInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_SegmentInfo__ctor"></a> SegmentInfo\(\)
+### SegmentInfo\(\)
 
 ```csharp
 public SegmentInfo()
@@ -30,7 +30,7 @@ public SegmentInfo()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Chained_SegmentInfo_m_TransCurrentPlane"></a> m\_TransCurrentPlane
+### m\_TransCurrentPlane
 
 The transformation matrix of current plane.
 
@@ -42,7 +42,7 @@ public TMatrix m_TransCurrentPlane
 
  TMatrix
 
-### <a id="VM_Managed_DAFUL_Chained_SegmentInfo_m_TransGRF"></a> m\_TransGRF
+### m\_TransGRF
 
 The transformation matrix of geometry reference frame.
 
@@ -54,7 +54,7 @@ public TMatrix m_TransGRF
 
  TMatrix
 
-### <a id="VM_Managed_DAFUL_Chained_SegmentInfo_m_dHeight1"></a> m\_dHeight1
+### m\_dHeight1
 
 The height1 of segment.
 
@@ -66,7 +66,7 @@ public double m_dHeight1
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Chained_SegmentInfo_m_dHeight2"></a> m\_dHeight2
+### m\_dHeight2
 
 The height2 of segment.
 
@@ -78,7 +78,7 @@ public double m_dHeight2
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Chained_SegmentInfo_m_dLength"></a> m\_dLength
+### m\_dLength
 
 The length of segment.
 
@@ -90,7 +90,7 @@ public double m_dLength
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Chained_SegmentInfo_m_dOriginalLength"></a> m\_dOriginalLength
+### m\_dOriginalLength
 
 The original length of segment.
 
@@ -104,9 +104,10 @@ public double m_dOriginalLength
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Chained_SegmentInfo_initialize"></a> initialize\(\)
+### initialize\(\)
 
 ```csharp
 public void initialize()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_MeshFree_Range"></a> Class Range
+# Class Range
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree](VM.Managed.DAFUL.Builder.MeshFree.md)  
 Assembly: VMBldMeshFree.dll  
@@ -53,7 +53,7 @@ BuilderBase<Range\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Range__ctor"></a> Range\(\)
+### Range\(\)
 
 ```csharp
 public Range()
@@ -61,7 +61,7 @@ public Range()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Range_AddToDoc"></a> AddToDoc
+### AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -71,7 +71,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Range_Connectable"></a> Connectable
+### Connectable
 
 ```csharp
 public ObjectBase Connectable { get; }
@@ -81,7 +81,7 @@ public ObjectBase Connectable { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Range_Radius"></a> Radius
+### Radius
 
 ```csharp
 public Variable Radius { get; set; }
@@ -93,7 +93,7 @@ public Variable Radius { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_MeshFree_Range_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -108,4 +108,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

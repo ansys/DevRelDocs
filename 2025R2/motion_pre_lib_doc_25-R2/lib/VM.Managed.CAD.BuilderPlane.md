@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderPlane"></a> Class BuilderPlane
+# Class BuilderPlane
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -201,7 +201,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderPlane__ctor_VM_Managed_PlaneBase_"></a> BuilderPlane\(PlaneBase\)
+### BuilderPlane\(PlaneBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderPlane" data-throw-if-not-resolved="false"></xref> class
 
@@ -215,7 +215,7 @@ public BuilderPlane(PlaneBase plane)
 
 The plane info.
 
-### <a id="VM_Managed_CAD_BuilderPlane__ctor"></a> BuilderPlane\(\)
+### BuilderPlane\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderPlane" data-throw-if-not-resolved="false"></xref> class
 
@@ -225,7 +225,7 @@ public BuilderPlane()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderPlane_Plane"></a> Plane
+### Plane
 
 Gets or sets the plane info.
 
@@ -237,7 +237,7 @@ public PlaneBase Plane { get; set; }
 
  [PlaneBase](VM.Managed.PlaneBase.md)
 
-### <a id="VM_Managed_CAD_BuilderPlane_TransformationMatrix"></a> TransformationMatrix
+### TransformationMatrix
 
 Gets the transformation matrix.
 
@@ -251,7 +251,7 @@ public override sealed TMatrix TransformationMatrix { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderPlane_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase A_0)
@@ -261,7 +261,7 @@ protected override void FillParameter(BuilderParamBase A_0)
 
 `A_0` BuilderParamBase
 
-### <a id="VM_Managed_CAD_BuilderPlane_GetBuildPlaneXml_System_Text_StringBuilder_"></a> GetBuildPlaneXml\(StringBuilder\)
+### GetBuildPlaneXml\(StringBuilder\)
 
 ```csharp
 protected void GetBuildPlaneXml(StringBuilder builder)
@@ -271,7 +271,7 @@ protected void GetBuildPlaneXml(StringBuilder builder)
 
 `builder` [StringBuilder](https://learn.microsoft.com/dotnet/api/system.text.stringbuilder)
 
-### <a id="VM_Managed_CAD_BuilderPlane_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
+### SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -284,4 +284,5 @@ public override void SetTransform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform info.
+
 

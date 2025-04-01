@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PropertyCreateInfo"></a> Class PropertyCreateInfo
+# Class PropertyCreateInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class PropertyCreateInfo
 
 ## Constructors
 
-### <a id="VM_Managed_PropertyCreateInfo__ctor"></a> PropertyCreateInfo\(\)
+### PropertyCreateInfo\(\)
 
 ```csharp
 public PropertyCreateInfo()
@@ -30,7 +30,7 @@ public PropertyCreateInfo()
 
 ## Fields
 
-### <a id="VM_Managed_PropertyCreateInfo_Assembly"></a> Assembly
+### Assembly
 
 The assembly
 
@@ -42,7 +42,7 @@ public string Assembly
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_PropertyCreateInfo_Pages"></a> Pages
+### Pages
 
 The pages
 
@@ -53,4 +53,5 @@ public List<PropertyCreateInfo.PageInfo> Pages
 #### Field Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PropertyCreateInfo](VM.Managed.PropertyCreateInfo.md).[PageInfo](VM.Managed.PropertyCreateInfo.PageInfo.md)\>
+
 

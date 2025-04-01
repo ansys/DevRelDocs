@@ -1,9 +1,16 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoad"></a> Class PressureLoad
+# Class PressureLoad
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
 
-This class is to represent the pressure load.
+<p>This class is to represent the pressure load.</p>
+<p>
+        Symmetric Modeling : No
+        Reference : Yes
+        Reference Type : VM.Managed.Reference
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
 ```csharp
 public class PressureLoad : PressureLoadBase<PropertyPressureLoad>, IObservableObject, IDisposableObject, ILinkable, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, IEntity, IEntityBase, IObjectBase, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, IHasKeyObject, IHasName, IEnabled, IHasComment, IVisible, IDocumentOwner, INamed, INavigatorItem, IVisible, IMultiChangable, IHasProperty, IGroup, IDraw, IDrawIcon, IDrawChangeFacet, IArgument, IEntityRelation, IGenerable, IReportable
@@ -225,17 +232,21 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoad__ctor"></a> PressureLoad\(\)
+### PressureLoad\(\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoad" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoad" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoad" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public PressureLoad()
 ```
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoad__ctor_System_String_"></a> PressureLoad\(string\)
+### PressureLoad\(string\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoad" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoad" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoad" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public PressureLoad(string strName)
@@ -245,11 +256,12 @@ public PressureLoad(string strName)
 
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-Name of the STR.
+<p>Name of the STR.</p>
+<p>이름</p>
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoad_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -277,9 +289,10 @@ if set to <code>true</code> the tie has child.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoad_InitializeEvent_VM_Managed_Document3D_"></a> InitializeEvent\(Document3D\)
+### InitializeEvent\(Document3D\)
 
-Initializes event.
+<p>Initializes event.</p>
+<p>로드시 예전 데이터를 새로운 데이터로 이전합니다.</p>
 
 ```csharp
 public static void InitializeEvent(Document3D doc)
@@ -288,4 +301,5 @@ public static void InitializeEvent(Document3D doc)
 #### Parameters
 
 `doc` Document3D
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody"></a> Class ReplaceFEBody
+# Class ReplaceFEBody
 
 Namespace: [VM.Managed.DAFUL.Builder.FE](VM.Managed.DAFUL.Builder.FE.md)  
 Assembly: VMBldFE.dll  
@@ -24,7 +24,7 @@ IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody__ctor"></a> ReplaceFEBody\(\)
+### ReplaceFEBody\(\)
 
 ```csharp
 public ReplaceFEBody()
@@ -32,7 +32,7 @@ public ReplaceFEBody()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_m_bSuccess"></a> m\_bSuccess
+### m\_bSuccess
 
 ```csharp
 protected bool m_bSuccess
@@ -44,7 +44,7 @@ protected bool m_bSuccess
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_AllowMulti"></a> AllowMulti
+### AllowMulti
 
 ```csharp
 public bool AllowMulti { get; set; }
@@ -54,7 +54,7 @@ public bool AllowMulti { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_BuildObject"></a> BuildObject
+### BuildObject
 
 ```csharp
 public ObjectBase BuildObject { get; }
@@ -64,7 +64,7 @@ public ObjectBase BuildObject { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_FEBody"></a> FEBody
+### FEBody
 
 ```csharp
 public NodalBody FEBody { get; }
@@ -74,7 +74,7 @@ public NodalBody FEBody { get; }
 
  NodalBody
 
-### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_HideRemoveMessage"></a> HideRemoveMessage
+### HideRemoveMessage
 
 ```csharp
 public bool HideRemoveMessage { get; set; }
@@ -84,7 +84,7 @@ public bool HideRemoveMessage { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_Parameters"></a> Parameters
+### Parameters
 
 ```csharp
 public PickedResult[] Parameters { get; set; }
@@ -94,7 +94,7 @@ public PickedResult[] Parameters { get; set; }
 
  PickedResult\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_PropertyFilePath"></a> PropertyFilePath
+### PropertyFilePath
 
 ```csharp
 public string PropertyFilePath { get; set; }
@@ -106,7 +106,7 @@ public string PropertyFilePath { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public void Build(Document docToAdd)
@@ -116,7 +116,7 @@ public void Build(Document docToAdd)
 
 `docToAdd` Document
 
-### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_Build_VM_Managed_Document_System_Collections_Generic_List_System_String__"></a> Build\(Document, List<string\>\)
+### Build\(Document, List<string\>\)
 
 ```csharp
 public void Build(Document docToAdd, List<string> lstSetPointKeys)
@@ -128,7 +128,7 @@ public void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_BuildImpl_VM_Managed_Document_"></a> BuildImpl\(Document\)
+### BuildImpl\(Document\)
 
 ```csharp
 public virtual void BuildImpl(Document docToAdd)
@@ -138,7 +138,7 @@ public virtual void BuildImpl(Document docToAdd)
 
 `docToAdd` Document
 
-### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_Success"></a> Success\(\)
+### Success\(\)
 
 ```csharp
 public bool Success()
@@ -148,7 +148,7 @@ public bool Success()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_FE_ReplaceFEBody_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public bool Validate(IList<string> lstErrorMessage)
@@ -161,4 +161,5 @@ public bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

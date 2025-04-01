@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_ExportDFG"></a> Class ExportDFG
+# Class ExportDFG
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -104,7 +104,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFG__ctor_VM_Managed_Document_"></a> ExportDFG\(Document\)
+### ExportDFG\(Document\)
 
 ```csharp
 public ExportDFG(Document doc)
@@ -114,7 +114,7 @@ public ExportDFG(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFG__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportDFG\(JournalParameter\)
+### ExportDFG\(JournalParameter\)
 
 ```csharp
 public ExportDFG(JournalParameter jp)
@@ -126,7 +126,7 @@ public ExportDFG(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFG_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -140,9 +140,10 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFG_ExportDFGImpl"></a> ExportDFGImpl\(\)
+### ExportDFGImpl\(\)
 
 ```csharp
 protected override void ExportDFGImpl()
 ```
+
 

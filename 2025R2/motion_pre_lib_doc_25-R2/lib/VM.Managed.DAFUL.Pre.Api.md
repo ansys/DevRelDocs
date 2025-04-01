@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_Api"></a> Class Api
+# Class Api
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpreAPI.dll  
@@ -27,7 +27,7 @@ IMainWindow
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_Api_ActiveDocument"></a> ActiveDocument
+### ActiveDocument
 
 Gets the active document. [Not Implementation]
 
@@ -39,7 +39,7 @@ public IDocument ActiveDocument { get; set; }
 
  IDocument
 
-### <a id="VM_Managed_DAFUL_Pre_Api_ActiveDocumentViewModel"></a> ActiveDocumentViewModel
+### ActiveDocumentViewModel
 
 Gets the active DocumentViewModel
 
@@ -51,7 +51,7 @@ public IDocumentViewModel ActiveDocumentViewModel { get; }
 
  IDocumentViewModel
 
-### <a id="VM_Managed_DAFUL_Pre_Api_ActiveModel"></a> ActiveModel
+### ActiveModel
 
 Gets the active model.
 
@@ -63,7 +63,7 @@ public Model ActiveModel { get; }
 
  Model
 
-### <a id="VM_Managed_DAFUL_Pre_Api_ActiveWork"></a> ActiveWork
+### ActiveWork
 
 Gets the active work.
 
@@ -75,7 +75,7 @@ public Work ActiveWork { get; }
 
  Work
 
-### <a id="VM_Managed_DAFUL_Pre_Api_ApplicationCore"></a> ApplicationCore
+### ApplicationCore
 
 Gets the application core.
 
@@ -87,7 +87,7 @@ public Application ApplicationCore { get; }
 
  Application
 
-### <a id="VM_Managed_DAFUL_Pre_Api_DialogManager"></a> DialogManager
+### DialogManager
 
 Gets the dialog manager.
 
@@ -99,7 +99,7 @@ public IDlgManager DialogManager { get; }
 
  IDlgManager
 
-### <a id="VM_Managed_DAFUL_Pre_Api_GlobalJournal"></a> GlobalJournal
+### GlobalJournal
 
 Gets the global journal.
 
@@ -111,7 +111,7 @@ public JournalRecorder GlobalJournal { get; }
 
  JournalRecorder
 
-### <a id="VM_Managed_DAFUL_Pre_Api_KerenlTranslatorMessageWriter"></a> KerenlTranslatorMessageWriter
+### KerenlTranslatorMessageWriter
 
 ```csharp
 public Action<string> KerenlTranslatorMessageWriter { get; set; }
@@ -121,7 +121,7 @@ public Action<string> KerenlTranslatorMessageWriter { get; set; }
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Pre_Api_KernelMessageWriter"></a> KernelMessageWriter
+### KernelMessageWriter
 
 Messagen output action for the kernel message
 
@@ -133,7 +133,7 @@ public Action<string> KernelMessageWriter { get; set; }
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Pre_Api_LocalJournal"></a> LocalJournal
+### LocalJournal
 
 Gets the local journal.
 
@@ -145,7 +145,7 @@ public JournalRecorder LocalJournal { get; }
 
  JournalRecorder
 
-### <a id="VM_Managed_DAFUL_Pre_Api_MainWindow"></a> MainWindow
+### MainWindow
 
 Gets the main window. [Not Implementation]
 
@@ -157,7 +157,7 @@ public IMainWindow MainWindow { get; }
 
  IMainWindow
 
-### <a id="VM_Managed_DAFUL_Pre_Api_UnUseMRU"></a> UnUseMRU
+### UnUseMRU
 
 Gets or sets a value indicating whether [un use MRU].
 
@@ -169,7 +169,7 @@ public bool UnUseMRU { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_Api_Version"></a> Version
+### Version
 
 Gets the version.
 
@@ -181,7 +181,7 @@ public string Version { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_Api_WriteDFG"></a> WriteDFG
+### WriteDFG
 
 Gets or sets the WriteDFG flag. [Not Implementation]
 
@@ -195,7 +195,7 @@ public bool WriteDFG { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Pre_Api_ActiveDocChanged"></a> ActiveDocChanged\(\)
+### ActiveDocChanged\(\)
 
 Activate changed document.
 
@@ -203,7 +203,7 @@ Activate changed document.
 public void ActiveDocChanged()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_Api_ActiveViewChanged"></a> ActiveViewChanged\(\)
+### ActiveViewChanged\(\)
 
 Activate changed view.
 
@@ -211,7 +211,7 @@ Activate changed view.
 public void ActiveViewChanged()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_Api_AutoSave"></a> AutoSave\(\)
+### AutoSave\(\)
 
 Auto save. [Not Implementation]
 
@@ -219,7 +219,7 @@ Auto save. [Not Implementation]
 public void AutoSave()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_Api_CanSimulation_System_Boolean_"></a> CanSimulation\(bool\)
+### CanSimulation\(bool\)
 
 Determines whether this instance can simulation the specified can. [Not Implementation]
 
@@ -233,7 +233,7 @@ public void CanSimulation(bool bCan)
 
 if set to <code>true</code> [can].
 
-### <a id="VM_Managed_DAFUL_Pre_Api_ClearMessage_System_String_"></a> ClearMessage\(string\)
+### ClearMessage\(string\)
 
 Clear Message. [Not Implementation]
 
@@ -247,7 +247,7 @@ public void ClearMessage(string strName)
 
 Name.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_CloseAllFile"></a> CloseAllFile\(\)
+### CloseAllFile\(\)
 
 Closes all file.
 
@@ -255,7 +255,7 @@ Closes all file.
 public void CloseAllFile()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_Api_CloseAllFileExceptWork"></a> CloseAllFileExceptWork\(\)
+### CloseAllFileExceptWork\(\)
 
 Closes all file except work.
 
@@ -263,7 +263,7 @@ Closes all file except work.
 public void CloseAllFileExceptWork()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_Api_CloseDocument_VM_Managed_Document_"></a> CloseDocument\(Document\)
+### CloseDocument\(Document\)
 
 Closes the file.
 
@@ -281,7 +281,7 @@ The <xref href="VM.Managed.Document" data-throw-if-not-resolved="false"></xref> 
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_Api_CloseFile_System_String_"></a> CloseFile\(string\)
+### CloseFile\(string\)
 
 Closes the file.
 
@@ -301,7 +301,7 @@ Name of the file.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_CloseFile_System_String_System_Boolean_"></a> CloseFile\(string, bool\)
+### CloseFile\(string, bool\)
 
 Closes the file.
 
@@ -323,7 +323,7 @@ if set to <code>true</code> [b use work].
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_Api_CloseFile_System_String_System_Boolean_System_Boolean_"></a> CloseFile\(string, bool, bool\)
+### CloseFile\(string, bool, bool\)
 
 Closes the file.
 
@@ -349,7 +349,7 @@ if set to <code>true</code> [b activate].
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_Api_CloseHiddenFile_System_String_"></a> CloseHiddenFile\(string\)
+### CloseHiddenFile\(string\)
 
 Closes the hidden file.
 
@@ -367,7 +367,7 @@ Name of the string file.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_Api_CloseWork"></a> CloseWork\(\)
+### CloseWork\(\)
 
 Close work.
 
@@ -375,7 +375,7 @@ Close work.
 public void CloseWork()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_Api_CreateDocument_System_String_"></a> CreateDocument\(string\)
+### CreateDocument\(string\)
 
 Creates the document.
 
@@ -395,7 +395,7 @@ Name of the file.
 
 The document.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_CreateDocument_System_String_System_Boolean_"></a> CreateDocument\(string, bool\)
+### CreateDocument\(string, bool\)
 
 Creates the document.
 
@@ -419,7 +419,7 @@ if set to <code>true</code> [b activate].
 
 The document.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_CreateDocument_System_String_System_Boolean_System_String_"></a> CreateDocument\(string, bool, string\)
+### CreateDocument\(string, bool, string\)
 
 Creates the document.
 
@@ -445,7 +445,7 @@ The STR doc create info.
 
  Document
 
-### <a id="VM_Managed_DAFUL_Pre_Api_CreateDocument_System_String_System_Boolean_System_String_System_Boolean_"></a> CreateDocument\(string, bool, string, bool\)
+### CreateDocument\(string, bool, string, bool\)
 
 Creates the document.
 
@@ -475,7 +475,7 @@ if set to <code>true</code> [b designer].
 
  Document
 
-### <a id="VM_Managed_DAFUL_Pre_Api_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 ```csharp
 protected virtual void Dispose(bool disposing)
@@ -485,13 +485,13 @@ protected virtual void Dispose(bool disposing)
 
 `disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_Api_Dispose"></a> Dispose\(\)
+### Dispose\(\)
 
 ```csharp
 public void Dispose()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_Api_EndOutput_System_String_"></a> EndOutput\(string\)
+### EndOutput\(string\)
 
 Ends the output. [Not Implementation]
 
@@ -505,7 +505,7 @@ public void EndOutput(string strName)
 
 Name.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_Finalize"></a> \~Api\(\)
+### \~Api\(\)
 
 Releases unmanaged resources and performs other cleanup operations before the
 <xref href="VM.Managed.DAFUL.Pre.Api" data-throw-if-not-resolved="false"></xref> is reclaimed by garbage collection.
@@ -514,7 +514,7 @@ Releases unmanaged resources and performs other cleanup operations before the
 protected ~Api()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_Api_Fit_System_String_"></a> Fit\(string\)
+### Fit\(string\)
 
 Fits this instance.
 
@@ -528,7 +528,7 @@ public void Fit(string strPathName)
 
 Name of the string path.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_GetAllOpenDocument"></a> GetAllOpenDocument\(\)
+### GetAllOpenDocument\(\)
 
 Gets all opend document.
 
@@ -540,7 +540,7 @@ public List<Document> GetAllOpenDocument()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Document\>
 
-### <a id="VM_Managed_DAFUL_Pre_Api_GetDocumentFromOpenedDocument_System_String_"></a> GetDocumentFromOpenedDocument\(string\)
+### GetDocumentFromOpenedDocument\(string\)
 
 Gets the document from opened document.
 
@@ -558,7 +558,7 @@ Name of the file.
 
  Document
 
-### <a id="VM_Managed_DAFUL_Pre_Api_GetMode"></a> GetMode\(\)
+### GetMode\(\)
 
 Gets the mode.
 
@@ -572,7 +572,7 @@ public string GetMode()
 
 The mode type
 
-### <a id="VM_Managed_DAFUL_Pre_Api_IsOpenDocument_System_String_"></a> IsOpenDocument\(string\)
+### IsOpenDocument\(string\)
 
 Determines whether [is open document] [the specified STR file name].
 
@@ -592,7 +592,7 @@ Name of the file.
 
 <code>true</code> if [is open document] [the specified STR file name]; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_IsRunningSimulation"></a> IsRunningSimulation\(\)
+### IsRunningSimulation\(\)
 
 Determines whether [is running simulation].
 
@@ -604,7 +604,7 @@ public bool IsRunningSimulation()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_Api_NewFile_VM_Managed_DAFUL_Pre_NewFile_"></a> NewFile\(NewFile\)
+### NewFile\(NewFile\)
 
 New file.
 
@@ -618,7 +618,7 @@ public void NewFile(NewFile nf)
 
 The new file information.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_NewModel_VM_Managed_DAFUL_Pre_NewModel_"></a> NewModel\(NewModel\)
+### NewModel\(NewModel\)
 
 New model.
 
@@ -632,7 +632,7 @@ public void NewModel(NewModel nM)
 
 The new model information.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_OpenDocument_System_String_"></a> OpenDocument\(string\)
+### OpenDocument\(string\)
 
 Opens the document.
 
@@ -652,7 +652,7 @@ Name of the file.
 
 The document.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_OpenDocument_System_String_System_Boolean_"></a> OpenDocument\(string, bool\)
+### OpenDocument\(string, bool\)
 
 Opens the document.
 
@@ -676,7 +676,7 @@ if set to <code>true</code> [b activate].
 
 The document.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_OpenDocument_System_String_System_String_System_Boolean_"></a> OpenDocument\(string, string, bool\)
+### OpenDocument\(string, string, bool\)
 
 Opens the document.
 
@@ -702,7 +702,7 @@ if set to <code>true</code> [b activate].
 
  Document
 
-### <a id="VM_Managed_DAFUL_Pre_Api_OpenDocumentFile_System_String_"></a> OpenDocumentFile\(string\)
+### OpenDocumentFile\(string\)
 
 Opens the document file.
 
@@ -720,7 +720,7 @@ Name of the STR file.
 
  Document
 
-### <a id="VM_Managed_DAFUL_Pre_Api_OpenFile_System_String_System_String_"></a> OpenFile\(string, string\)
+### OpenFile\(string, string\)
 
 Opens the file.
 
@@ -744,7 +744,7 @@ The reference directory.
 
 The file information class.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_OpenFileDialogAsMainWindow_VM_Managed_DAFUL_Pre_OpenFileDialogInfo_"></a> OpenFileDialogAsMainWindow\(OpenFileDialogInfo\)
+### OpenFileDialogAsMainWindow\(OpenFileDialogInfo\)
 
 Opens the file dialog as main window. [Not Implementation]
 
@@ -764,7 +764,7 @@ The info.
 
 the file name
 
-### <a id="VM_Managed_DAFUL_Pre_Api_OpenHiddenDocument_System_Object_"></a> OpenHiddenDocument\(object\)
+### OpenHiddenDocument\(object\)
 
 Opens the hidden document.
 
@@ -782,7 +782,7 @@ The object.
 
  Document
 
-### <a id="VM_Managed_DAFUL_Pre_Api_OpenModel_System_String_"></a> OpenModel\(string\)
+### OpenModel\(string\)
 
 Opens the model.
 
@@ -802,7 +802,7 @@ Name of the file.
 
 The model.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_OpenWork_System_String_"></a> OpenWork\(string\)
+### OpenWork\(string\)
 
 Opens the work.
 
@@ -820,7 +820,7 @@ Name of the STR file.
 
  Work
 
-### <a id="VM_Managed_DAFUL_Pre_Api_PrepareSimulation"></a> PrepareSimulation\(\)
+### PrepareSimulation\(\)
 
 Prepares the simulation. [Not Implementation]
 
@@ -834,7 +834,7 @@ public bool PrepareSimulation()
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_ReadAllText_System_String_System_String_"></a> ReadAllText\(string, string\)
+### ReadAllText\(string, string\)
 
 Reads all text. [Not Implementation]
 
@@ -852,7 +852,7 @@ The path.
 
 Name.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_ReadAllText_System_String_System_String_System_Boolean_"></a> ReadAllText\(string, string, bool\)
+### ReadAllText\(string, string, bool\)
 
 Reads all text.
 
@@ -874,7 +874,7 @@ Name of the STR.
 
 if set to <code>true</code> [b delete F ile].
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SaveAllFile"></a> SaveAllFile\(\)
+### SaveAllFile\(\)
 
 Saves all file.
 
@@ -886,7 +886,7 @@ public SaveAllResult SaveAllFile()
 
  SaveAllResult
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SaveFile"></a> SaveFile\(\)
+### SaveFile\(\)
 
 Save the file.
 
@@ -894,7 +894,7 @@ Save the file.
 public void SaveFile()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SaveFile_System_String_"></a> SaveFile\(string\)
+### SaveFile\(string\)
 
 Saves the file.
 
@@ -908,7 +908,7 @@ public void SaveFile(string strPath)
 
 The path.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SaveFile_VM_Managed_Document_System_String_"></a> SaveFile\(Document, string\)
+### SaveFile\(Document, string\)
 
 Saves the file.
 
@@ -926,7 +926,7 @@ The doc.
 
 Name of the STR file.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SaveFile_VM_Managed_Document_System_String_System_Boolean_"></a> SaveFile\(Document, string, bool\)
+### SaveFile\(Document, string, bool\)
 
 Saves the file.
 
@@ -949,7 +949,7 @@ Name of the STR file.
 
 if set to <code>true</code> [b ignore extern change].
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SaveFile_VM_Managed_Document_"></a> SaveFile\(Document\)
+### SaveFile\(Document\)
 
 Saves the file.
 
@@ -963,7 +963,7 @@ public void SaveFile(Document doc)
 
 The document to save.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SaveFileDialogAsMainWindow_VM_Managed_DAFUL_Pre_SaveFileDialogInfo_"></a> SaveFileDialogAsMainWindow\(SaveFileDialogInfo\)
+### SaveFileDialogAsMainWindow\(SaveFileDialogInfo\)
 
 Saves the file dialog as main window. [Not Implementation]
 
@@ -983,7 +983,7 @@ The info.
 
 the file name
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SaveModel_System_String_"></a> SaveModel\(string\)
+### SaveModel\(string\)
 
 Saves the model.
 
@@ -997,7 +997,7 @@ public void SaveModel(string strFileName)
 
 Name of the file.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SaveWork_System_String_"></a> SaveWork\(string\)
+### SaveWork\(string\)
 
 Saves the work.
 
@@ -1011,7 +1011,7 @@ public void SaveWork(string strFileName)
 
 Name of the file.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SetEnableOfTabCtrl_System_Object_System_Boolean_"></a> SetEnableOfTabCtrl\(object, bool\)
+### SetEnableOfTabCtrl\(object, bool\)
 
 Sets enable or disable of Tab..
 
@@ -1029,7 +1029,7 @@ The current document.
 
 if set to <code>true</code> [is enable].
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SetIntervalForAutoSize"></a> SetIntervalForAutoSize\(\)
+### SetIntervalForAutoSize\(\)
 
 Sets the size of the interval for auto. [Not Implementation]
 
@@ -1037,7 +1037,7 @@ Sets the size of the interval for auto. [Not Implementation]
 public void SetIntervalForAutoSize()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SetPathName_System_String_System_String_"></a> SetPathName\(string, string\)
+### SetPathName\(string, string\)
 
 Set path name.
 
@@ -1055,7 +1055,7 @@ The old path.
 
 The new path.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SetProgressState_System_Int32_"></a> SetProgressState\(int\)
+### SetProgressState\(int\)
 
 Set taskbar progress state.
 
@@ -1069,7 +1069,7 @@ public void SetProgressState(int nStats)
 
 0x0 : NOPROGRESS, 0x1 : INDETERMINATE, 0x2 : NORMAL, 0x4 : ERROR, 0x8 : PAUSED
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SetProgressValue_System_UInt64_System_UInt64_"></a> SetProgressValue\(ulong, ulong\)
+### SetProgressValue\(ulong, ulong\)
 
 Set taskbar progress value.
 
@@ -1087,7 +1087,7 @@ The completed value.
 
 The total value.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SetSimulationParameters_System_String_System_String_"></a> SetSimulationParameters\(string, string\)
+### SetSimulationParameters\(string, string\)
 
 Sets the simulation parameters. [Not Implementation]
 
@@ -1111,7 +1111,7 @@ Size of the step.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_SetStatusBar_System_String_"></a> SetStatusBar\(string\)
+### SetStatusBar\(string\)
 
 Set status bar.
 
@@ -1125,7 +1125,7 @@ public void SetStatusBar(string strMessage)
 
 The message.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_Start"></a> Start\(\)
+### Start\(\)
 
 Start Api instance
 
@@ -1139,7 +1139,7 @@ public static Api Start()
 
 new Api instance
 
-### <a id="VM_Managed_DAFUL_Pre_Api_Start_System_String_System_String_"></a> Start\(string, string\)
+### Start\(string, string\)
 
 Start Api instance.
 
@@ -1163,7 +1163,7 @@ The kernel core module path.
 
 new Api instance
 
-### <a id="VM_Managed_DAFUL_Pre_Api_Start_System_String_System_String_System_String_System_String_"></a> Start\(string, string, string, string\)
+### Start\(string, string, string, string\)
 
 Start Api instance.
 
@@ -1195,7 +1195,7 @@ The Hoops Exchange directory.
 
 new Api instance
 
-### <a id="VM_Managed_DAFUL_Pre_Api_Start_VM_Managed_DAFUL_Pre_ApiStartOptions_"></a> Start\(ApiStartOptions\)
+### Start\(ApiStartOptions\)
 
 Start Api instance with given <xref href="VM.Managed.DAFUL.Pre.ApiStartOptions" data-throw-if-not-resolved="false"></xref>
 
@@ -1215,7 +1215,7 @@ The <xref href="VM.Managed.DAFUL.Pre.ApiStartOptions" data-throw-if-not-resolved
 
 new Api instance
 
-### <a id="VM_Managed_DAFUL_Pre_Api_StartOperationStatus"></a> StartOperationStatus\(\)
+### StartOperationStatus\(\)
 
 Starts the operation status.
 
@@ -1223,7 +1223,7 @@ Starts the operation status.
 public void StartOperationStatus()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_Api_StartOutput_System_String_System_String_"></a> StartOutput\(string, string\)
+### StartOutput\(string, string\)
 
 Starts the output. [Not Implementation]
 
@@ -1241,7 +1241,7 @@ The path.
 
 Name.
 
-### <a id="VM_Managed_DAFUL_Pre_Api_UseSession_System_String_"></a> UseSession\(string\)
+### UseSession\(string\)
 
 Get session object to menage operation session
 
@@ -1261,7 +1261,7 @@ The name of the session
 
 The <xref href="VM.CAD.Kernel.ISession?text=session" data-throw-if-not-resolved="false"></xref> object
 
-### <a id="VM_Managed_DAFUL_Pre_Api_UseSession_VM_Models_IOperation_"></a> UseSession\(IOperation\)
+### UseSession\(IOperation\)
 
 Get session object to menage operation session
 
@@ -1281,7 +1281,7 @@ The <xref href="VM.Models.IOperation?text=operation" data-throw-if-not-resolved=
 
 The <xref href="VM.CAD.Kernel.ISession?text=session" data-throw-if-not-resolved="false"></xref> object
 
-### <a id="VM_Managed_DAFUL_Pre_Api_OnActiveDocumentChanged"></a> OnActiveDocumentChanged
+### OnActiveDocumentChanged
 
 Occurs when [on active document changed]. [Not Implementation]
 
@@ -1293,7 +1293,7 @@ public event EventHandler OnActiveDocumentChanged
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### <a id="VM_Managed_DAFUL_Pre_Api_OnActiveViewChanged"></a> OnActiveViewChanged
+### OnActiveViewChanged
 
 Occurs when [on active view changed]. [Not Implementation]
 
@@ -1304,4 +1304,5 @@ public event EventHandler OnActiveViewChanged
 #### Event Type
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+
 

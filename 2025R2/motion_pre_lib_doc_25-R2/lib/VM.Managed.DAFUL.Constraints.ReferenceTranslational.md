@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_ReferenceTranslational"></a> Class ReferenceTranslational
+# Class ReferenceTranslational
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -186,7 +186,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceTranslational__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceTranslational\(SerializationInfo, StreamingContext\)
+### ReferenceTranslational\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.ReferenceTranslational" data-throw-if-not-resolved="false"></xref> class.
 
@@ -204,7 +204,7 @@ The info.
 
 The context.
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceTranslational__ctor_VM_Managed_ObjectBase_"></a> ReferenceTranslational\(ObjectBase\)
+### ReferenceTranslational\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.ReferenceTranslational" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,7 +220,7 @@ The reference's object.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceTranslational_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -232,7 +232,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceTranslational_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -246,7 +246,7 @@ public string ReferenceType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceTranslational_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -273,4 +273,5 @@ if set to <code>true</code> [has child].
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

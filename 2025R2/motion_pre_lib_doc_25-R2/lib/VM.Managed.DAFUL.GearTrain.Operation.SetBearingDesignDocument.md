@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_SetBearingDesignDocument"></a> Class SetBearingDesignDocument
+# Class SetBearingDesignDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -87,7 +87,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetBearingDesignDocument__ctor_VM_Managed_DAFUL_GearTrain_Bearing_"></a> SetBearingDesignDocument\(Bearing\)
+### SetBearingDesignDocument\(Bearing\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.SetBearingDesignDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -101,7 +101,7 @@ public SetBearingDesignDocument(Bearing bearing)
 
 The bearing.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetBearingDesignDocument__ctor_VM_Managed_Operation_JournalParameter_"></a> SetBearingDesignDocument\(JournalParameter\)
+### SetBearingDesignDocument\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.SetBearingDesignDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,11 +115,12 @@ public SetBearingDesignDocument(JournalParameter jp)
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetBearingDesignDocument_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
+
 

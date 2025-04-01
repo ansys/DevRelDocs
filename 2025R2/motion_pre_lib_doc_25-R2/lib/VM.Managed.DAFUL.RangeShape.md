@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_RangeShape"></a> Class RangeShape
+# Class RangeShape
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_RangeShape__ctor"></a> RangeShape\(\)
+### RangeShape\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Range" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Range" data-throw
 public RangeShape()
 ```
 
-### <a id="VM_Managed_DAFUL_RangeShape__ctor_VM_Managed_TransformBase_"></a> RangeShape\(TransformBase\)
+### RangeShape\(TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Range" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ The transform.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_RangeShape_Direction"></a> Direction
+### Direction
 
 Gets the direction.
 
@@ -136,7 +136,7 @@ public VectorBase Direction { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_RangeShape_Location"></a> Location
+### Location
 
 Gets the location.
 
@@ -148,7 +148,7 @@ public VectorBase Location { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_RangeShape_Transform"></a> Transform
+### Transform
 
 Gets or sets the transform.
 
@@ -162,7 +162,7 @@ public TransformBase Transform { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_RangeShape_GetPoints"></a> GetPoints\(\)
+### GetPoints\(\)
 
 Gets the points.
 
@@ -173,4 +173,5 @@ public abstract Vector[] GetPoints()
 #### Returns
 
  Vector\[\]
+
 

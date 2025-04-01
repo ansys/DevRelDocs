@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SerializableDictionary_2"></a> Class SerializableDictionary<TKey, TValue\>
+# Class SerializableDictionary<TKey, TValue\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -29,7 +29,7 @@ public class SerializableDictionary<TKey, TValue> : Dictionary<TKey, TValue>
 
 ## Constructors
 
-### <a id="VM_Managed_SerializableDictionary_2__ctor"></a> SerializableDictionary\(\)
+### SerializableDictionary\(\)
 
 SerializableDictionary Constructor
 
@@ -37,7 +37,7 @@ SerializableDictionary Constructor
 public SerializableDictionary()
 ```
 
-### <a id="VM_Managed_SerializableDictionary_2__ctor_System_Collections_Generic_Dictionary__0__1__"></a> SerializableDictionary\(Dictionary<TKey, TValue\>\)
+### SerializableDictionary\(Dictionary<TKey, TValue\>\)
 
 SerializableDictionary Constructor
 
@@ -51,7 +51,7 @@ public SerializableDictionary(Dictionary<TKey, TValue> dic)
 
 ## Methods
 
-### <a id="VM_Managed_SerializableDictionary_2_CopyTo_System_Collections_Generic_Dictionary__0__1___"></a> CopyTo\(ref Dictionary<TKey, TValue\>\)
+### CopyTo\(ref Dictionary<TKey, TValue\>\)
 
 CopyTo
 
@@ -63,7 +63,7 @@ public void CopyTo(ref Dictionary<TKey, TValue> dic)
 
 `dic` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<TKey, TValue\>
 
-### <a id="VM_Managed_SerializableDictionary_2_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 GetSchema
 
@@ -75,7 +75,7 @@ public XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### <a id="VM_Managed_SerializableDictionary_2_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 ReadXml
 
@@ -87,7 +87,7 @@ public void ReadXml(XmlReader reader)
 
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
-### <a id="VM_Managed_SerializableDictionary_2_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 WriteXml
 
@@ -98,4 +98,5 @@ public void WriteXml(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearPropertyBase"></a> Class GearPropertyBase
+# Class GearPropertyBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -108,7 +108,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPropertyBase__ctor"></a> GearPropertyBase\(\)
+### GearPropertyBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearPropertyBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -118,7 +118,7 @@ public GearPropertyBase()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPropertyBase_InitChild_System_Int32_"></a> InitChild\(int\)
+### InitChild\(int\)
 
 Initializes the child.
 
@@ -131,4 +131,5 @@ public virtual void InitChild(int nNum)
 `nNum` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 The n number.
+
 

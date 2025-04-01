@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_DOE_Result_IDOEView"></a> Interface IDOEView
+# Interface IDOEView
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -15,13 +15,13 @@ public interface IDOEView
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_DOE_Result_IDOEView_Close"></a> Close\(\)
+### Close\(\)
 
 ```csharp
 void Close()
 ```
 
-### <a id="VM_Managed_DAFUL_DOE_Result_IDOEView_Open_System_String_"></a> Open\(string\)
+### Open\(string\)
 
 ```csharp
 void Open(string strPath)
@@ -31,7 +31,7 @@ void Open(string strPath)
 
 `strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_IDOEView_Reload_System_String_"></a> Reload\(string\)
+### Reload\(string\)
 
 ```csharp
 void Reload(string strPath)
@@ -41,7 +41,7 @@ void Reload(string strPath)
 
 `strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_IDOEView_ReloadResult_System_String_"></a> ReloadResult\(string\)
+### ReloadResult\(string\)
 
 ```csharp
 void ReloadResult(string strPath)
@@ -51,7 +51,7 @@ void ReloadResult(string strPath)
 
 `strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_IDOEView_Save_System_String_"></a> Save\(string\)
+### Save\(string\)
 
 ```csharp
 void Save(string strPath)
@@ -61,7 +61,7 @@ void Save(string strPath)
 
 `strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_DOE_Result_IDOEView_SaveAs_System_String_"></a> SaveAs\(string\)
+### SaveAs\(string\)
 
 ```csharp
 void SaveAs(string strPath)
@@ -70,4 +70,5 @@ void SaveAs(string strPath)
 #### Parameters
 
 `strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisFishHook"></a> Class AnalysisFishHook
+# Class AnalysisFishHook
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -47,7 +47,7 @@ IHasInitialVel
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook__ctor"></a> AnalysisFishHook\(\)
+### AnalysisFishHook\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisFishHook" data-throw-if-not-resolved="false"></xref> class.
 
@@ -55,7 +55,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisFishH
 public AnalysisFishHook()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisFishHook\(ILinkContainer\)
+### AnalysisFishHook\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisFishHook" data-throw-if-not-resolved="false"></xref> class.
 
@@ -71,7 +71,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_FirstSteer_Angle"></a> FirstSteer\_Angle
+### FirstSteer\_Angle
 
 Gets or sets the first steer angle.
 
@@ -83,7 +83,7 @@ public double FirstSteer_Angle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_FirstStep_Duration"></a> FirstStep\_Duration
+### FirstStep\_Duration
 
 Gets or sets the first duration of the step.
 
@@ -95,7 +95,7 @@ public double FirstStep_Duration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_FirstTurnDir"></a> FirstTurnDir
+### FirstTurnDir
 
 Gets or sets the first turn direction.
 
@@ -107,7 +107,7 @@ public TurnDirectionType FirstTurnDir { get; set; }
 
  [TurnDirectionType](VM.Managed.DAFUL.Car.Analysis.Full.TurnDirectionType.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_FirstTurn_Duration"></a> FirstTurn\_Duration
+### FirstTurn\_Duration
 
 Gets or sets the duration of first turn.
 
@@ -119,7 +119,7 @@ public double FirstTurn_Duration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_SecondSteer_Angle"></a> SecondSteer\_Angle
+### SecondSteer\_Angle
 
 Gets or sets the second steer angle.
 
@@ -131,7 +131,7 @@ public double SecondSteer_Angle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_SecondStep_Duration"></a> SecondStep\_Duration
+### SecondStep\_Duration
 
 Gets or sets the duration of the second step.
 
@@ -143,7 +143,7 @@ public double SecondStep_Duration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_SecondTurnDirectionType"></a> SecondTurnDirectionType
+### SecondTurnDirectionType
 
 Gets or sets the second turn direction.
 
@@ -155,7 +155,7 @@ public TurnDirectionType SecondTurnDirectionType { get; set; }
 
  [TurnDirectionType](VM.Managed.DAFUL.Car.Analysis.Full.TurnDirectionType.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_SecondTurn_Duration"></a> SecondTurn\_Duration
+### SecondTurn\_Duration
 
 Gets or sets the duration of second turn.
 
@@ -167,7 +167,7 @@ public double SecondTurn_Duration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_TireRadiusPosition"></a> TireRadiusPosition
+### TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -181,7 +181,7 @@ public override int TireRadiusPosition { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisFishHook_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
+### GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -194,4 +194,5 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
+
 

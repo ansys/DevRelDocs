@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Contact_AutoContact"></a> Class AutoContact
+# Class AutoContact
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -53,7 +53,7 @@ BuilderBase<AutoContact\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_AutoContact__ctor"></a> AutoContact\(\)
+### AutoContact\(\)
 
 ```csharp
 public AutoContact()
@@ -61,7 +61,7 @@ public AutoContact()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_AutoContact_MaximumDistance"></a> MaximumDistance
+### MaximumDistance
 
 ```csharp
 public Variable MaximumDistance { get; set; }
@@ -71,7 +71,7 @@ public Variable MaximumDistance { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_AutoContact_ObjectList"></a> ObjectList
+### ObjectList
 
 ```csharp
 public string[] ObjectList { get; set; }
@@ -83,7 +83,7 @@ public string[] ObjectList { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_AutoContact_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -98,4 +98,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

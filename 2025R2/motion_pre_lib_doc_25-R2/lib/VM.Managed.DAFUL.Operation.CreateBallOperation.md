@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_CreateBallOperation"></a> Class CreateBallOperation
+# Class CreateBallOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOPBallPlacing.dll  
@@ -75,7 +75,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_CreateBallOperation__ctor_VM_Managed_DAFUL_Operation_BallInfo_"></a> CreateBallOperation\(BallInfo\)
+### CreateBallOperation\(BallInfo\)
 
 ```csharp
 public CreateBallOperation(BallInfo ballInfo)
@@ -87,7 +87,7 @@ public CreateBallOperation(BallInfo ballInfo)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_CreateBallOperation_ConvertKey"></a> ConvertKey
+### ConvertKey
 
 ```csharp
 public ObjectBase.ConvertKey ConvertKey { get; }
@@ -97,7 +97,7 @@ public ObjectBase.ConvertKey ConvertKey { get; }
 
  ObjectBase.ConvertKey
 
-### <a id="VM_Managed_DAFUL_Operation_CreateBallOperation_FacesetKey"></a> FacesetKey
+### FacesetKey
 
 ```csharp
 public string FacesetKey { get; }
@@ -107,7 +107,7 @@ public string FacesetKey { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Operation_CreateBallOperation_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 ```csharp
 public override bool IsHistoryMerge { get; }
@@ -117,7 +117,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Operation_CreateBallOperation_Key"></a> Key
+### Key
 
 ```csharp
 public string Key { get; }
@@ -127,7 +127,7 @@ public string Key { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Operation_CreateBallOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -141,11 +141,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_CreateBallOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
+
 

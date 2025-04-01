@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_Util_CreateSubsystem"></a> Class CreateSubsystem
+# Class CreateSubsystem
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -22,7 +22,7 @@ public class CreateSubsystem
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateSubsystem__ctor"></a> CreateSubsystem\(\)
+### CreateSubsystem\(\)
 
 ```csharp
 public CreateSubsystem()
@@ -30,7 +30,7 @@ public CreateSubsystem()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateSubsystem_Create_VM_Managed_Document3D_System_String_VM_Managed_TransformBase_System_String_"></a> Create\(Document3D, string, TransformBase, string\)
+### Create\(Document3D, string, TransformBase, string\)
 
 Create the subsystem.
 
@@ -62,7 +62,7 @@ The subsystem prefix name.
 
 The new subsystem.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateSubsystem_Create_VM_Managed_Document3D_VM_Managed_DAFUL_SubSystemDocument_VM_Managed_TransformBase_System_String_"></a> Create\(Document3D, SubSystemDocument, TransformBase, string\)
+### Create\(Document3D, SubSystemDocument, TransformBase, string\)
 
 Create the subsystem.
 
@@ -94,7 +94,7 @@ The subsystem prefix name.
 
 The new subsystem.
 
-### <a id="VM_Managed_DAFUL_Operation_Util_CreateSubsystem_ImportSubSystem_VM_Managed_DAFUL_SubSystemDocument_VM_Managed_DAFUL_SubSystemDocument_System_String_"></a> ImportSubSystem\(SubSystemDocument, SubSystemDocument, string\)
+### ImportSubSystem\(SubSystemDocument, SubSystemDocument, string\)
 
 Import subsystem
 
@@ -121,4 +121,5 @@ The name
  SubSystem
 
 nodal body
+
 

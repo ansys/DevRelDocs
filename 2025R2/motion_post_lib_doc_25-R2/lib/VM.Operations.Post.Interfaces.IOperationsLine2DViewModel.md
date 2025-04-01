@@ -222,7 +222,7 @@ A collection of data series with transformed absolute values.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.html">Interface IOperationsTransformLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -259,7 +259,7 @@ A collection of data series with transformed absolute values.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.html">Interface IOperationsTransformLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -296,7 +296,7 @@ A collection of data series with aligned values.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.html">Interface IOperationsTransformLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -333,7 +333,7 @@ A collection of data series with aligned values.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.html">Interface IOperationsTransformLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -364,7 +364,7 @@ A collection of data series with differentiated values.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.html">Interface IOperationsCalculusLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsCalculusLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -393,7 +393,7 @@ A collection of data series with differentiated values.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.html">Interface IOperationsCalculusLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsCalculusLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -452,7 +452,7 @@ A collection of data series with FFT applied.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.html">Interface IOperationsFFTLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsFFTLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -511,7 +511,7 @@ A collection of data series with FFT applied.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.html">Interface IOperationsFFTLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsFFTLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -558,7 +558,7 @@ A collection of data series with filtering applied.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.html">Interface IOperationsSignalProcessingLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -605,7 +605,7 @@ A collection of data series with filtering applied.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.html">Interface IOperationsSignalProcessingLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -646,7 +646,7 @@ A collection of data series with frequency weighting applied.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.html">Interface IOperationsSignalProcessingLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -687,7 +687,7 @@ A collection of data series with frequency weighting applied.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.html">Interface IOperationsSignalProcessingLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -716,7 +716,7 @@ A collection of data series with integrated values.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.html">Interface IOperationsCalculusLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsCalculusLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -745,7 +745,7 @@ A collection of data series with integrated values.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.html">Interface IOperationsCalculusLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsCalculusLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -778,7 +778,7 @@ A collection of data series with interpolated values.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsInterpolationLineDataSeriesViewModel.html">Interface IOperationsInterpolationLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsInterpolationLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsInterpolationLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -811,7 +811,7 @@ A collection of data series with interpolated values.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsInterpolationLineDataSeriesViewModel.html">Interface IOperationsInterpolationLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsInterpolationLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsInterpolationLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -852,7 +852,7 @@ A collection of data series with logarithmic scaling applied.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.html">Interface IOperationsTransformLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -893,7 +893,7 @@ A collection of data series with logarithmic scaling applied.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.html">Interface IOperationsTransformLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -927,7 +927,7 @@ A collection of STFTView.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.html">Interface IOperationsHeatMapSTFTViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.md).
 
 #### Remarks
 
@@ -961,7 +961,7 @@ A collection of STFTView.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.html">Interface IOperationsHeatMapSTFTViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.md).
 
 #### Remarks
 
@@ -998,7 +998,7 @@ A collection of data series with scaled values.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.html">Interface IOperationsTransformLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -1035,7 +1035,7 @@ A collection of data series with scaled values.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.html">Interface IOperationsTransformLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -1074,7 +1074,7 @@ A single data series resulting from the mathematical operation.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsSimpleMathLineDataSeriesViewModel.html">Interface IOperationsSimpleMathLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsSimpleMathLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSimpleMathLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -1113,7 +1113,7 @@ A single data series resulting from the mathematical operation.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsSimpleMathLineDataSeriesViewModel.html">Interface IOperationsSimpleMathLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsSimpleMathLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSimpleMathLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -1156,7 +1156,7 @@ A collection of data series with smoothing applied.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.html">Interface IOperationsSignalProcessingLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -1199,7 +1199,7 @@ A collection of data series with smoothing applied.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.html">Interface IOperationsSignalProcessingLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -1236,7 +1236,7 @@ A collection of translated data series.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.html">Interface IOperationsTransformLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -1273,7 +1273,7 @@ A collection of translated data series.
 
 #### Examples
 
-For an example that includes this property, see the <a href="VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.html">Interface IOperationsTransformLineDataSeriesViewModel</a>.
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 

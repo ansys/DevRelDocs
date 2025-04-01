@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_DictionaryExtensions"></a> Class DictionaryExtensions
+# Class DictionaryExtensions
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -20,7 +20,7 @@ public static class DictionaryExtensions
 
 ## Methods
 
-### <a id="VM_Models_Pre_DictionaryExtensions_TryChangeKey__2_System_Collections_Generic_IDictionary___0___1____0___0_"></a> TryChangeKey<TKey, TValue\>\(IDictionary<TKey, TValue\>, TKey, TKey\)
+### TryChangeKey<TKey, TValue\>\(IDictionary<TKey, TValue\>, TKey, TKey\)
 
 ```csharp
 public static bool TryChangeKey<TKey, TValue>(this IDictionary<TKey, TValue> dictionary, TKey fromKey, TKey toKey)
@@ -43,4 +43,5 @@ public static bool TryChangeKey<TKey, TValue>(this IDictionary<TKey, TValue> dic
 `TKey` 
 
 `TValue` 
+
 

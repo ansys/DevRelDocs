@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionSingle"></a> Class DesignDimensionSingle
+# Class DesignDimensionSingle
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionSingle__ctor"></a> DesignDimensionSingle\(\)
+### DesignDimensionSingle\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.DesignDimensionSingle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.DesignD
 public DesignDimensionSingle()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionSingle__ctor_System_String_"></a> DesignDimensionSingle\(string\)
+### DesignDimensionSingle\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.DesignDimensionSingle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ Name of the design subentity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionSingle_TargetObject"></a> TargetObject
+### TargetObject
 
 Gets or sets the target object.
 
@@ -233,7 +233,7 @@ public IDimension TargetObject { get; set; }
 
  [IDimension](VM.Managed.DAFUL.GearTrain.IDimension.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionSingle__TargetObject"></a> \_TargetObject
+### \_TargetObject
 
 Gets or sets the _ target object.
 
@@ -247,7 +247,7 @@ public Linker<IDimension> _TargetObject { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionSingle_FindTargetObject_VM_Managed_DAFUL_GearTrain_CAD_Section_"></a> FindTargetObject\(Section\)
+### FindTargetObject\(Section\)
 
 Finds the target object.
 
@@ -264,4 +264,5 @@ The sec body.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

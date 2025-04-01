@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_BearingInfo"></a> Class PropertyRVReducer.BearingInfo
+# Class PropertyRVReducer.BearingInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_BearingInfo__ctor"></a> BearingInfo\(\)
+### BearingInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyRVReducer.BearingInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public BearingInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_BearingInfo_Direction"></a> Direction
+### Direction
 
 Gets or sets the direction.
 
@@ -118,7 +118,7 @@ public bool Direction { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_BearingInfo_InnerEquipType"></a> InnerEquipType
+### InnerEquipType
 
 Gets or sets the inner equip type.
 
@@ -130,7 +130,7 @@ public PropertyRVReducer.BearingInfo.EquipType InnerEquipType { get; set; }
 
  [PropertyRVReducer](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.md).[BearingInfo](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.BearingInfo.md).[EquipType](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.BearingInfo.EquipType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_BearingInfo_InnerRaceway"></a> InnerRaceway
+### InnerRaceway
 
 Gets or sets the inner raceway.
 
@@ -142,7 +142,7 @@ public IConnectable InnerRaceway { get; set; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_BearingInfo_Offset"></a> Offset
+### Offset
 
 Gets or sets the offset.
 
@@ -154,7 +154,7 @@ public ExpressionValueVariable Offset { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_BearingInfo_OuterEquipType"></a> OuterEquipType
+### OuterEquipType
 
 Gets or sets the outer equip type.
 
@@ -166,7 +166,7 @@ public PropertyRVReducer.BearingInfo.EquipType OuterEquipType { get; set; }
 
  [PropertyRVReducer](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.md).[BearingInfo](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.BearingInfo.md).[EquipType](VM.Managed.DAFUL.GearTrain.PropertyRVReducer.BearingInfo.EquipType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_BearingInfo_OuterRaceway"></a> OuterRaceway
+### OuterRaceway
 
 Gets or sets the outer raceway.
 
@@ -178,7 +178,7 @@ public IConnectable OuterRaceway { get; set; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_BearingInfo__InnerRaceway"></a> \_InnerRaceway
+### \_InnerRaceway
 
 Gets or sets the inner raceway.
 
@@ -190,7 +190,7 @@ public Linker<IConnectable> _InnerRaceway { get; set; }
 
  Linker<IConnectable\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_BearingInfo__OuterRaceway"></a> \_OuterRaceway
+### \_OuterRaceway
 
 Gets or sets the outer raceway.
 
@@ -204,11 +204,12 @@ public Linker<IConnectable> _OuterRaceway { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyRVReducer_BearingInfo_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 Initialize
 
 ```csharp
 public void Initialize()
 ```
+
 

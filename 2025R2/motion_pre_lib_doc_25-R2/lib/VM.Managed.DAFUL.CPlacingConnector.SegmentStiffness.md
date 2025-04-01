@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentStiffness"></a> Class SegmentStiffness
+# Class SegmentStiffness
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentStiffness__ctor"></a> SegmentStiffness\(\)
+### SegmentStiffness\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.SegmentStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public SegmentStiffness()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentStiffness_Name"></a> Name
+### Name
 
 Gets or sets the name.
 
@@ -118,7 +118,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentStiffness_Stiffness"></a> Stiffness
+### Stiffness
 
 Gets the stiffness vector
 
@@ -130,7 +130,7 @@ public VectorBase Stiffness { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentStiffness_TKX"></a> TKX
+### TKX
 
 Gets or sets the TKX.
 
@@ -148,7 +148,7 @@ public ExpressionValueVariable TKX { get; set; }
 
 TKX is null.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentStiffness_TKY"></a> TKY
+### TKY
 
 Gets or sets the TKY.
 
@@ -166,7 +166,7 @@ public ExpressionValueVariable TKY { get; set; }
 
 TKY is null.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentStiffness_TKZ"></a> TKZ
+### TKZ
 
 Gets or sets the TKZ.
 
@@ -186,7 +186,7 @@ TKZ is null.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentStiffness_ContainsActionFilter_System_String_"></a> ContainsActionFilter\(string\)
+### ContainsActionFilter\(string\)
 
 Whether the name contains action filter or not.
 
@@ -204,7 +204,7 @@ The name
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentStiffness_ContainsBaseFilter_System_String_"></a> ContainsBaseFilter\(string\)
+### ContainsBaseFilter\(string\)
 
 Whether the name contains base filter or not.
 
@@ -222,7 +222,7 @@ The name
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentStiffness_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -236,7 +236,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_SegmentStiffness_MatchingFilterName_System_String_System_String_"></a> MatchingFilterName\(string, string\)
+### MatchingFilterName\(string, string\)
 
 Whether base and action name is matching or not.
 
@@ -257,4 +257,5 @@ The action name
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

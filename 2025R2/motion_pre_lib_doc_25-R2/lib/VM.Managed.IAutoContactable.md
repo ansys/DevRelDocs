@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IAutoContactable"></a> Interface IAutoContactable
+# Interface IAutoContactable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IAutoContactable
 
 ## Methods
 
-### <a id="VM_Managed_IAutoContactable_GetContactables"></a> GetContactables\(\)
+### GetContactables\(\)
 
 Get contactable objects.
 
@@ -31,7 +31,7 @@ ObjectBase[] GetContactables()
 
 The contactable objects.
 
-### <a id="VM_Managed_IAutoContactable_IsAutoContactable"></a> IsAutoContactable\(\)
+### IsAutoContactable\(\)
 
 Determines whether the specified auto contactable.
 
@@ -44,4 +44,5 @@ bool IsAutoContactable()
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if the specified auto contactable; otherwise, <code>false</code>.
+
 

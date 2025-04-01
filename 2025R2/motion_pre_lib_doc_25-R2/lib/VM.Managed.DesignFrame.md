@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DesignFrame"></a> Class DesignFrame
+# Class DesignFrame
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -191,7 +191,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DesignFrame__ctor"></a> DesignFrame\(\)
+### DesignFrame\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DesignFrame" data-throw-if-not-resolved="false"></xref> class.
 
@@ -199,7 +199,7 @@ Initializes a new instance of the <xref href="VM.Managed.DesignFrame" data-throw
 public DesignFrame()
 ```
 
-### <a id="VM_Managed_DesignFrame__ctor_System_String_"></a> DesignFrame\(string\)
+### DesignFrame\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DesignFrame" data-throw-if-not-resolved="false"></xref> class.
 
@@ -215,7 +215,7 @@ Name of the design frame.
 
 ## Properties
 
-### <a id="VM_Managed_DesignFrame_FrameIconName"></a> FrameIconName
+### FrameIconName
 
 Gets the name of the frame icon.
 In order to distinguish from Marker.
@@ -228,7 +228,7 @@ protected virtual string FrameIconName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DesignFrame_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -240,7 +240,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DesignFrame_IsVisible"></a> IsVisible
+### IsVisible
 
 Gets or sets the visible state.
 
@@ -252,7 +252,7 @@ public virtual bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DesignFrame_Layer"></a> Layer
+### Layer
 
 Gets or sets the layer.
 
@@ -264,7 +264,7 @@ public Layer Layer { get; set; }
 
  Layer
 
-### <a id="VM_Managed_DesignFrame_Orientation"></a> Orientation
+### Orientation
 
 Gets the orientation.
 
@@ -276,7 +276,7 @@ public OMatrix Orientation { get; }
 
  OMatrix
 
-### <a id="VM_Managed_DesignFrame_Position"></a> Position
+### Position
 
 Gets the position.
 
@@ -288,7 +288,7 @@ public VectorBase Position { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DesignFrame_Transformation"></a> Transformation
+### Transformation
 
 Gets or sets the transformation.
 
@@ -300,7 +300,7 @@ public TransformBase Transformation { get; set; }
 
  TransformBase
 
-### <a id="VM_Managed_DesignFrame_TransformationMatrix"></a> TransformationMatrix
+### TransformationMatrix
 
 Gets or sets the transformation matrix.
 
@@ -312,7 +312,7 @@ public TMatrix TransformationMatrix { get; set; }
 
  TMatrix
 
-### <a id="VM_Managed_DesignFrame_Value"></a> Value
+### Value
 
 Gets the position.
 
@@ -324,7 +324,7 @@ public VectorBase Value { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DesignFrame_X"></a> X
+### X
 
 Gets the X coordinate of position.
 
@@ -336,7 +336,7 @@ public double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DesignFrame_Y"></a> Y
+### Y
 
 Gets the Y coordinate of position.
 
@@ -348,7 +348,7 @@ public double Y { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DesignFrame_Z"></a> Z
+### Z
 
 Gets the Z coordinate of position.
 
@@ -362,7 +362,7 @@ public double Z { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DesignFrame_BindInterfaceImpl_VM_Managed_TMatrix_VM_Managed_TMatrix_VM_Managed_IInterface_"></a> BindInterfaceImpl\(TMatrix, TMatrix, IInterface\)
+### BindInterfaceImpl\(TMatrix, TMatrix, IInterface\)
 
 Binds the interface [implementation].
 
@@ -384,7 +384,7 @@ The matrix after transformation.
 
 The interface.
 
-### <a id="VM_Managed_DesignFrame_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -398,7 +398,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DesignFrame_GetDirection_VM_Coordinate_"></a> GetDirection\(Coordinate\)
+### GetDirection\(Coordinate\)
 
 Gets the direction.
 
@@ -418,7 +418,7 @@ Type of the direction.
 
 The direction
 
-### <a id="VM_Managed_DesignFrame_GetFullName"></a> GetFullName\(\)
+### GetFullName\(\)
 
 Gets the full name.
 
@@ -432,7 +432,7 @@ public string GetFullName()
 
 The full name
 
-### <a id="VM_Managed_DesignFrame_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -446,7 +446,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DesignFrame_InstantiateImpl_VM_Managed_Reference_VM_CAD_Kernel_Render_Canvas_"></a> InstantiateImpl\(Reference, Canvas\)
+### InstantiateImpl\(Reference, Canvas\)
 
 Instantiates the specified reference.
 
@@ -464,7 +464,7 @@ The reference
 
 The canvas
 
-### <a id="VM_Managed_DesignFrame_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -482,7 +482,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DesignFrame_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
@@ -490,7 +490,7 @@ Redraw.
 public virtual void ReDraw()
 ```
 
-### <a id="VM_Managed_DesignFrame_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -504,7 +504,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DesignFrame_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -517,4 +517,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

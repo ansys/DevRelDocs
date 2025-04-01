@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_AutoContactInfo"></a> Class AutoContactInfo
+# Class AutoContactInfo
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -170,7 +170,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo__ctor"></a> AutoContactInfo\(\)
+### AutoContactInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.AutoContactInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -180,7 +180,7 @@ public AutoContactInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo_Contact"></a> Contact
+### Contact
 
 Gets or sets the contact.
 
@@ -192,7 +192,7 @@ public virtual ObjectBase Contact { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo_Geometries"></a> Geometries
+### Geometries
 
 Gets or sets the geometris.
 
@@ -204,7 +204,7 @@ public ObjectBase[] Geometries { get; set; }
 
  ObjectBase\[\]
 
-### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo_Hide"></a> Hide
+### Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -216,7 +216,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo_IsUse"></a> IsUse
+### IsUse
 
 Gets or sets a value indicating whether this instance is use.
 
@@ -228,7 +228,7 @@ public bool IsUse { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo_Name"></a> Name
+### Name
 
 Gets or sets a name.
 
@@ -240,7 +240,7 @@ public override string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo_SubName"></a> SubName
+### SubName
 
 Gets or sets the sub name.
 
@@ -252,7 +252,7 @@ public string SubName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo__Contact"></a> \_Contact
+### \_Contact
 
 Gets or sets the contact.
 
@@ -266,7 +266,7 @@ public IContact _Contact { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo_AddGeometry"></a> AddGeometry\(\)
+### AddGeometry\(\)
 
 Add contactable geometry.
 
@@ -274,7 +274,7 @@ Add contactable geometry.
 public void AddGeometry()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -288,7 +288,7 @@ public void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -306,7 +306,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Contact_AutoContactInfo_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -319,4 +319,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

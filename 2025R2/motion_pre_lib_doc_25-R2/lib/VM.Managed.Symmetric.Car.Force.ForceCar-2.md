@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Car_Force_ForceCar_2"></a> Class ForceCar<T, TProp\>
+# Class ForceCar<T, TProp\>
 
 Namespace: [VM.Managed.Symmetric.Car.Force](VM.Managed.Symmetric.Car.Force.md)  
 Assembly: VMSymCar.dll  
@@ -38,7 +38,7 @@ Named<T\>.SymmetricManager
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_Car_Force_ForceCar_2__ctor"></a> ForceCar\(\)
+### ForceCar\(\)
 
 ```csharp
 public ForceCar()
@@ -46,7 +46,7 @@ public ForceCar()
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_Car_Force_ForceCar_2_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -79,4 +79,5 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

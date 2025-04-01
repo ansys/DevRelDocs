@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_NXFormBase"></a> Class NXFormBase
+# Class NXFormBase
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDM.dll  
@@ -30,7 +30,7 @@ IStdDialog
 
 ## Constructors
 
-### <a id="VM_NX_Dialog_NXFormBase__ctor"></a> NXFormBase\(\)
+### NXFormBase\(\)
 
 ```csharp
 public NXFormBase()
@@ -38,7 +38,7 @@ public NXFormBase()
 
 ## Fields
 
-### <a id="VM_NX_Dialog_NXFormBase_btApply"></a> btApply
+### btApply
 
 ```csharp
 public Button btApply
@@ -48,7 +48,7 @@ public Button btApply
 
  [Button](https://learn.microsoft.com/dotnet/api/system.windows.forms.button)
 
-### <a id="VM_NX_Dialog_NXFormBase_btCancel"></a> btCancel
+### btCancel
 
 ```csharp
 public Button btCancel
@@ -58,7 +58,7 @@ public Button btCancel
 
  [Button](https://learn.microsoft.com/dotnet/api/system.windows.forms.button)
 
-### <a id="VM_NX_Dialog_NXFormBase_btOK"></a> btOK
+### btOK
 
 ```csharp
 public Button btOK
@@ -70,7 +70,7 @@ public Button btOK
 
 ## Properties
 
-### <a id="VM_NX_Dialog_NXFormBase_AppHandle"></a> AppHandle
+### AppHandle
 
 ```csharp
 public static IAppHandle AppHandle { get; set; }
@@ -80,7 +80,7 @@ public static IAppHandle AppHandle { get; set; }
 
  IAppHandle
 
-### <a id="VM_NX_Dialog_NXFormBase_ApplyState"></a> ApplyState
+### ApplyState
 
 ```csharp
 public static int ApplyState { get; set; }
@@ -90,7 +90,7 @@ public static int ApplyState { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_NX_Dialog_NXFormBase_Document"></a> Document
+### Document
 
 ```csharp
 public object Document { get; set; }
@@ -100,7 +100,7 @@ public object Document { get; set; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_NX_Dialog_NXFormBase_GeometryParams"></a> GeometryParams
+### GeometryParams
 
 ```csharp
 public static Dictionary<string, XmlNode> GeometryParams { get; set; }
@@ -110,7 +110,7 @@ public static Dictionary<string, XmlNode> GeometryParams { get; set; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)\>
 
-### <a id="VM_NX_Dialog_NXFormBase_IsPicking"></a> IsPicking
+### IsPicking
 
 ```csharp
 public static bool IsPicking { get; set; }
@@ -120,7 +120,7 @@ public static bool IsPicking { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_NXFormBase_Result"></a> Result
+### Result
 
 ```csharp
 public XmlDocument Result { get; set; }
@@ -132,7 +132,7 @@ public XmlDocument Result { get; set; }
 
 ## Methods
 
-### <a id="VM_NX_Dialog_NXFormBase_BaseButtonLocation_System_Windows_Forms_Form_System_Windows_Forms_TabControl_System_Windows_Forms_Button_System_Windows_Forms_Button_System_Windows_Forms_Button_"></a> BaseButtonLocation\(Form, TabControl, Button, Button, Button\)
+### BaseButtonLocation\(Form, TabControl, Button, Button, Button\)
 
 ```csharp
 public void BaseButtonLocation(Form form, TabControl TC, Button btnOK, Button btnApp, Button btnCancel)
@@ -150,7 +150,7 @@ public void BaseButtonLocation(Form form, TabControl TC, Button btnOK, Button bt
 
 `btnCancel` [Button](https://learn.microsoft.com/dotnet/api/system.windows.forms.button)
 
-### <a id="VM_NX_Dialog_NXFormBase_BaseButtonLocationNoTab_System_Windows_Forms_Form_System_Windows_Forms_Button_System_Windows_Forms_Button_System_Windows_Forms_Button_"></a> BaseButtonLocationNoTab\(Form, Button, Button, Button\)
+### BaseButtonLocationNoTab\(Form, Button, Button, Button\)
 
 ```csharp
 public void BaseButtonLocationNoTab(Form form, Button btnOK, Button btnApp, Button btnCancel)
@@ -166,7 +166,7 @@ public void BaseButtonLocationNoTab(Form form, Button btnOK, Button btnApp, Butt
 
 `btnCancel` [Button](https://learn.microsoft.com/dotnet/api/system.windows.forms.button)
 
-### <a id="VM_NX_Dialog_NXFormBase_CancelAll"></a> CancelAll\(\)
+### CancelAll\(\)
 
 ```csharp
 protected virtual bool CancelAll()
@@ -176,7 +176,7 @@ protected virtual bool CancelAll()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_NXFormBase_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 ```csharp
 protected override void Dispose(bool disposing)
@@ -186,7 +186,7 @@ protected override void Dispose(bool disposing)
 
 `disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_NXFormBase_EnableButton_System_Boolean_"></a> EnableButton\(bool\)
+### EnableButton\(bool\)
 
 ```csharp
 public virtual void EnableButton(bool bEnabled)
@@ -196,7 +196,7 @@ public virtual void EnableButton(bool bEnabled)
 
 `bEnabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_NXFormBase_InitNXForm_VM_NX_Dialog_IAppHandle_"></a> InitNXForm\(IAppHandle\)
+### InitNXForm\(IAppHandle\)
 
 ```csharp
 public static void InitNXForm(IAppHandle handleApp)
@@ -206,7 +206,7 @@ public static void InitNXForm(IAppHandle handleApp)
 
 `handleApp` IAppHandle
 
-### <a id="VM_NX_Dialog_NXFormBase_Initialize_System_String_"></a> Initialize\(string\)
+### Initialize\(string\)
 
 ```csharp
 public virtual bool Initialize(string strInitInfo)
@@ -220,7 +220,7 @@ public virtual bool Initialize(string strInitInfo)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_NXFormBase_LockButtons_System_Boolean_"></a> LockButtons\(bool\)
+### LockButtons\(bool\)
 
 ```csharp
 public virtual void LockButtons(bool bLock)
@@ -230,7 +230,7 @@ public virtual void LockButtons(bool bLock)
 
 `bLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_NXFormBase_OnApply"></a> OnApply\(\)
+### OnApply\(\)
 
 ```csharp
 protected virtual bool OnApply()
@@ -240,7 +240,7 @@ protected virtual bool OnApply()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_NXFormBase_OnPreApply"></a> OnPreApply\(\)
+### OnPreApply\(\)
 
 ```csharp
 protected virtual bool OnPreApply()
@@ -250,13 +250,13 @@ protected virtual bool OnPreApply()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_NXFormBase_RasieApplyButtonClick"></a> RasieApplyButtonClick\(\)
+### RasieApplyButtonClick\(\)
 
 ```csharp
 public void RasieApplyButtonClick()
 ```
 
-### <a id="VM_NX_Dialog_NXFormBase_SetReadOnly_System_Boolean_"></a> SetReadOnly\(bool\)
+### SetReadOnly\(bool\)
 
 ```csharp
 public virtual bool SetReadOnly(bool bReadOnly)
@@ -270,7 +270,7 @@ public virtual bool SetReadOnly(bool bReadOnly)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_NXFormBase_SetSkipPreApply_System_Boolean_"></a> SetSkipPreApply\(bool\)
+### SetSkipPreApply\(bool\)
 
 ```csharp
 public void SetSkipPreApply(bool bSkip)
@@ -280,7 +280,7 @@ public void SetSkipPreApply(bool bSkip)
 
 `bSkip` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_NXFormBase_SetUseApplyBtn_System_Boolean_"></a> SetUseApplyBtn\(bool\)
+### SetUseApplyBtn\(bool\)
 
 ```csharp
 public void SetUseApplyBtn(bool bUse)
@@ -289,4 +289,5 @@ public void SetUseApplyBtn(bool bUse)
 #### Parameters
 
 `bUse` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

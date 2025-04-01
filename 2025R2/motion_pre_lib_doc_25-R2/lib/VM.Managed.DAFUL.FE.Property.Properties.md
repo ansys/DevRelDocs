@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Property_Properties"></a> Class Properties
+# Class Properties
 
 Namespace: [VM.Managed.DAFUL.FE.Property](VM.Managed.DAFUL.FE.Property.md)  
 Assembly: VMFE.dll  
@@ -104,7 +104,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Property_Properties__ctor"></a> Properties\(\)
+### Properties\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Property.Properties" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ public Properties()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Property_Properties_BeamLs"></a> BeamLs
+### BeamLs
 
 Gets the beamL property container.
 
@@ -126,7 +126,7 @@ public NamedObjectDictionary<BeamL> BeamLs { get; }
 
  NamedObjectDictionary<[BeamL](VM.Managed.DAFUL.FE.Property.BeamL.md)\>
 
-### <a id="VM_Managed_DAFUL_FE_Property_Properties_Beams"></a> Beams
+### Beams
 
 Gets the beam property container.
 
@@ -138,7 +138,7 @@ public NamedObjectDictionary<Beam> Beams { get; }
 
  NamedObjectDictionary<[Beam](VM.Managed.DAFUL.FE.Property.Beam.md)\>
 
-### <a id="VM_Managed_DAFUL_FE_Property_Properties_Shells"></a> Shells
+### Shells
 
 Gets the shell property container.
 
@@ -150,7 +150,7 @@ public NamedObjectDictionary<Shell> Shells { get; }
 
  NamedObjectDictionary<[Shell](VM.Managed.DAFUL.FE.Property.Shell.md)\>
 
-### <a id="VM_Managed_DAFUL_FE_Property_Properties_Solids"></a> Solids
+### Solids
 
 Gets the solid property container.
 
@@ -164,7 +164,7 @@ public NamedObjectDictionary<Solid> Solids { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Property_Properties_Add_System_Object_"></a> Add\(object\)
+### Add\(object\)
 
 Add property to this instance.
 
@@ -178,7 +178,7 @@ public void Add(object ob)
 
 The property.
 
-### <a id="VM_Managed_DAFUL_FE_Property_Properties_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -198,7 +198,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_DAFUL_FE_Property_Properties_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <xref href="System.Xml.Serialization.XmlSchemaProviderAttribute" data-throw-if-not-resolved="false"></xref> to the class.
 
@@ -212,7 +212,7 @@ public virtual XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### <a id="VM_Managed_DAFUL_FE_Property_Properties_InitChilds"></a> InitChilds\(\)
+### InitChilds\(\)
 
 Initializes properties in this instance.
 
@@ -220,7 +220,7 @@ Initializes properties in this instance.
 public void InitChilds()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Property_Properties_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -234,7 +234,7 @@ public override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_FE_Property_Properties_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -248,7 +248,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
-### <a id="VM_Managed_DAFUL_FE_Property_Properties_Remove_System_Object_"></a> Remove\(object\)
+### Remove\(object\)
 
 Remove property from this instance.
 
@@ -262,7 +262,7 @@ public void Remove(object ob)
 
 The property.
 
-### <a id="VM_Managed_DAFUL_FE_Property_Properties_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -275,4 +275,5 @@ public virtual void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
+
 

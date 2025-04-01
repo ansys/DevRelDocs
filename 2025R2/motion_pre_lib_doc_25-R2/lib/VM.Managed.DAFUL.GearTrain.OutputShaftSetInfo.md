@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_OutputShaftSetInfo"></a> Class OutputShaftSetInfo
+# Class OutputShaftSetInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_OutputShaftSetInfo__ctor"></a> OutputShaftSetInfo\(\)
+### OutputShaftSetInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.OutputShaftSetInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.OutputS
 public OutputShaftSetInfo()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_OutputShaftSetInfo__ctor_VM_Models_Pre_IOwned_"></a> OutputShaftSetInfo\(IOwned\)
+### OutputShaftSetInfo\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.OutputShaftSetInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_OutputShaftSetInfo_Efficiency_New"></a> Efficiency\_New
+### Efficiency\_New
 
 Gets or sets the efficiency.
 
@@ -132,7 +132,7 @@ public ExpressionValueVariable Efficiency_New { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_OutputShaftSetInfo_IsExternable"></a> IsExternable
+### IsExternable
 
 Gets a value indicating whether this instance is Externable.
 
@@ -144,7 +144,7 @@ public override bool IsExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_OutputShaftSetInfo_OutputShaftSet"></a> OutputShaftSet
+### OutputShaftSet
 
 Gets or sets the ouput shaft set.
 
@@ -156,7 +156,7 @@ public IHasPowerLoad OutputShaftSet { get; set; }
 
  [IHasPowerLoad](VM.Managed.DAFUL.GearTrain.IHasPowerLoad.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_OutputShaftSetInfo_OutputTorqueFilePath"></a> OutputTorqueFilePath
+### OutputTorqueFilePath
 
 Gets or sets the output torque path.
 
@@ -168,7 +168,7 @@ public string OutputTorqueFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_OutputShaftSetInfo_ReductionRatio"></a> ReductionRatio
+### ReductionRatio
 
 Gets or sets the reduction ratio.
 
@@ -180,7 +180,7 @@ public ExpressionValueVariable ReductionRatio { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_OutputShaftSetInfo_Split_New"></a> Split\_New
+### Split\_New
 
 Gets or sets the split.
 
@@ -192,7 +192,7 @@ public ExpressionValueVariable Split_New { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_OutputShaftSetInfo__OutputShaftSet"></a> \_OutputShaftSet
+### \_OutputShaftSet
 
 Gets or sets the _ ouput shaft set.
 
@@ -206,9 +206,9 @@ public Linker<IHasPowerLoad> _OutputShaftSet { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_OutputShaftSetInfo_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -218,9 +218,9 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
 
-### <a id="VM_Managed_DAFUL_GearTrain_OutputShaftSetInfo_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -233,4 +233,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

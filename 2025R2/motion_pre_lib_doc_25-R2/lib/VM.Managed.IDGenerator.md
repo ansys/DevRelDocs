@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IDGenerator"></a> Class IDGenerator
+# Class IDGenerator
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -20,7 +20,7 @@ public class IDGenerator
 
 ## Constructors
 
-### <a id="VM_Managed_IDGenerator__ctor"></a> IDGenerator\(\)
+### IDGenerator\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.IDGenerator" data-throw-if-not-resolved="false"></xref> class.
 
@@ -30,7 +30,7 @@ public IDGenerator()
 
 ## Methods
 
-### <a id="VM_Managed_IDGenerator_GetNextID"></a> GetNextID\(\)
+### GetNextID\(\)
 
 Get next ID.
 
@@ -42,7 +42,7 @@ public Identifier GetNextID()
 
  Identifier
 
-### <a id="VM_Managed_IDGenerator_SetNextID_VM_Identifier_"></a> SetNextID\(Identifier\)
+### SetNextID\(Identifier\)
 
 Set next ID.
 
@@ -53,4 +53,5 @@ public void SetNextID(Identifier id)
 #### Parameters
 
 `id` Identifier
+
 

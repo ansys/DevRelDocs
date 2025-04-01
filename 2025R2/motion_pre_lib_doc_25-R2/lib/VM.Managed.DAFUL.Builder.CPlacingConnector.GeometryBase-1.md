@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CPlacingConnector_GeometryBase_1"></a> Class GeometryBase<T\>
+# Class GeometryBase<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder.CPlacingConnector](VM.Managed.DAFUL.Builder.CPlacingConnector.md)  
 Assembly: VMBldCPlacingConnector.dll  
@@ -57,7 +57,7 @@ BuilderBase<T\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_CPlacingConnector_GeometryBase_1__ctor"></a> GeometryBase\(\)
+### GeometryBase\(\)
 
 ```csharp
 public GeometryBase()
@@ -65,7 +65,7 @@ public GeometryBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_CPlacingConnector_GeometryBase_1_Body"></a> Body
+### Body
 
 ```csharp
 public ObjectBase Body { get; }
@@ -75,7 +75,7 @@ public ObjectBase Body { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_CPlacingConnector_GeometryBase_1_DirectionZ"></a> DirectionZ
+### DirectionZ
 
 ```csharp
 public DirectionBase DirectionZ { get; }
@@ -85,7 +85,7 @@ public DirectionBase DirectionZ { get; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Builder_CPlacingConnector_GeometryBase_1_Position"></a> Position
+### Position
 
 ```csharp
 public PointBase Position { get; }
@@ -94,4 +94,5 @@ public PointBase Position { get; }
 #### Property Value
 
  PointBase
+
 

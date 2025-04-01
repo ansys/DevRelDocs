@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PowerLoadOnRBE"></a> Class PowerLoadOnRBE
+# Class PowerLoadOnRBE
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -174,7 +174,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerLoadOnRBE__ctor"></a> PowerLoadOnRBE\(\)
+### PowerLoadOnRBE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PowerLoadOnRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -182,7 +182,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PowerLo
 public PowerLoadOnRBE()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerLoadOnRBE__ctor_System_String_"></a> PowerLoadOnRBE\(string\)
+### PowerLoadOnRBE\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PowerLoadOnRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -198,7 +198,7 @@ Name of the sub entity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerLoadOnRBE_TypeOfPowerLoad"></a> TypeOfPowerLoad
+### TypeOfPowerLoad
 
 Gets or sets the type of power load.
 Use SetTypeOfPowerLoad() when this instance sets for undo/redo
@@ -211,7 +211,7 @@ public PowerLoad.PowerLoadType TypeOfPowerLoad { get; set; }
 
  [PowerLoad](VM.Managed.DAFUL.GearTrain.PowerLoad.md).[PowerLoadType](VM.Managed.DAFUL.GearTrain.PowerLoad.PowerLoadType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerLoadOnRBE_ZAxis"></a> ZAxis
+### ZAxis
 
 Gets or sets the start axis.
 
@@ -225,7 +225,7 @@ public DirectionBase ZAxis { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerLoadOnRBE_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -239,7 +239,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PowerLoadOnRBE_SetTypeOfPowerLoad_VM_Managed_DAFUL_GearTrain_PowerLoad_PowerLoadType_"></a> SetTypeOfPowerLoad\(PowerLoadType\)
+### SetTypeOfPowerLoad\(PowerLoadType\)
 
 Set type of power load.
 
@@ -252,4 +252,5 @@ public void SetTypeOfPowerLoad(PowerLoad.PowerLoadType type)
 `type` [PowerLoad](VM.Managed.DAFUL.GearTrain.PowerLoad.md).[PowerLoadType](VM.Managed.DAFUL.GearTrain.PowerLoad.PowerLoadType.md)
 
 The power load type.
+
 

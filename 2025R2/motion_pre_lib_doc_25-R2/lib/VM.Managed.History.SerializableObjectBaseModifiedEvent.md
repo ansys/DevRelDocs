@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_SerializableObjectBaseModifiedEvent"></a> Class SerializableObjectBaseModifiedEvent
+# Class SerializableObjectBaseModifiedEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -68,7 +68,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEvent__ctor_System_Object_"></a> SerializableObjectBaseModifiedEvent\(object\)
+### SerializableObjectBaseModifiedEvent\(object\)
 
 ```csharp
 public SerializableObjectBaseModifiedEvent(object obOriginal)
@@ -80,7 +80,7 @@ public SerializableObjectBaseModifiedEvent(object obOriginal)
 
 ## Methods
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEvent_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
+### AfterRedo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterRedo(HistoryEventArgs args)
@@ -90,7 +90,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEvent_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
+### AfterUndo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterUndo(HistoryEventArgs args)
@@ -100,7 +100,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_SerializableObjectBaseModifiedEvent_MergeImpl_VM_Managed_History_SerializableObjectBaseModifiedEventBase_"></a> MergeImpl\(SerializableObjectBaseModifiedEventBase\)
+### MergeImpl\(SerializableObjectBaseModifiedEventBase\)
 
 ```csharp
 protected override SerializableObjectBaseModifiedEventBase.MergeTo MergeImpl(SerializableObjectBaseModifiedEventBase evtNext)
@@ -113,4 +113,5 @@ protected override SerializableObjectBaseModifiedEventBase.MergeTo MergeImpl(Ser
 #### Returns
 
  [SerializableObjectBaseModifiedEventBase](VM.Managed.History.SerializableObjectBaseModifiedEventBase.md).[MergeTo](VM.Managed.History.SerializableObjectBaseModifiedEventBase.MergeTo.md)
+
 

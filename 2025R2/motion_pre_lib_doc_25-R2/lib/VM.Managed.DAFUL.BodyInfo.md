@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_BodyInfo"></a> Class BodyInfo
+# Class BodyInfo
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -22,7 +22,7 @@ public class BodyInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_BodyInfo__ctor"></a> BodyInfo\(\)
+### BodyInfo\(\)
 
 ```csharp
 public BodyInfo()
@@ -30,7 +30,7 @@ public BodyInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_BodyInfo_Key"></a> Key
+### Key
 
 Gets and sets the key.
 
@@ -42,7 +42,7 @@ public string Key { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_BodyInfo_TargetFaces"></a> TargetFaces
+### TargetFaces
 
 Gets and sets the target faces.
 
@@ -53,4 +53,5 @@ public List<KeyInfo> TargetFaces { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[KeyInfo](VM.Managed.DAFUL.KeyInfo.md)\>
+
 

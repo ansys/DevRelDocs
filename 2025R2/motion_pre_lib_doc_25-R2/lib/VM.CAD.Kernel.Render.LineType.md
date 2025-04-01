@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Render_LineType"></a> Enum LineType
+# Enum LineType
 
 Namespace: [VM.CAD.Kernel.Render](VM.CAD.Kernel.Render.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -68,6 +68,7 @@ center
 `Solid = 0` 
 
 ---
+
 
 
 

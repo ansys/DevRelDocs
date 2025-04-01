@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_RectangleWithBevelEdgeCleat"></a> Class RectangleWithBevelEdgeCleat
+# Class RectangleWithBevelEdgeCleat
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -29,7 +29,7 @@ public class RectangleWithBevelEdgeCleat : CleatShape
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_RectangleWithBevelEdgeCleat__ctor"></a> RectangleWithBevelEdgeCleat\(\)
+### RectangleWithBevelEdgeCleat\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RectangleWithBevelEdgeCleat" data-throw-if-not-resolved="false"></xref> class.
 
@@ -37,7 +37,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RectangleWith
 public RectangleWithBevelEdgeCleat()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_RectangleWithBevelEdgeCleat__ctor_VM_Managed_DAFUL_Car_AnalysisRideDrum_"></a> RectangleWithBevelEdgeCleat\(AnalysisRideDrum\)
+### RectangleWithBevelEdgeCleat\(AnalysisRideDrum\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RectangleWithBevelEdgeCleat" data-throw-if-not-resolved="false"></xref> class.
 
@@ -53,7 +53,7 @@ The ride drum.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_RectangleWithBevelEdgeCleat_EdgeLength"></a> EdgeLength
+### EdgeLength
 
 Gets or sets the length of the edge.
 
@@ -65,7 +65,7 @@ public double EdgeLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_RectangleWithBevelEdgeCleat_Height"></a> Height
+### Height
 
 Gets or sets the height.
 
@@ -77,7 +77,7 @@ public double Height { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_RectangleWithBevelEdgeCleat_Length"></a> Length
+### Length
 
 Gets or sets the length.
 
@@ -89,7 +89,7 @@ public double Length { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_RectangleWithBevelEdgeCleat_TypeOfCleatShape"></a> TypeOfCleatShape
+### TypeOfCleatShape
 
 Gets the type of cleat shape.
 
@@ -103,7 +103,7 @@ public override CleatShapeType TypeOfCleatShape { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_RectangleWithBevelEdgeCleat_GetXZData_System_Double_"></a> GetXZData\(double\)
+### GetXZData\(double\)
 
 Gets the XZ data.
 
@@ -120,4 +120,5 @@ The d end time.
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

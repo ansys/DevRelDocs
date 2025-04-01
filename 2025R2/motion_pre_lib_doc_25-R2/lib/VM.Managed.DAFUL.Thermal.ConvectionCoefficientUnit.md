@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_ConvectionCoefficientUnit"></a> Class ConvectionCoefficientUnit
+# Class ConvectionCoefficientUnit
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -31,7 +31,7 @@ FunctionUnitBase.Factor
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Thermal_ConvectionCoefficientUnit__ctor"></a> ConvectionCoefficientUnit\(\)
+### ConvectionCoefficientUnit\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ConvectionCoefficientUnit" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.Convectio
 public ConvectionCoefficientUnit()
 ```
 
-### <a id="VM_Managed_DAFUL_Thermal_ConvectionCoefficientUnit__ctor_VM_Models_Pre_ILinkContainer_"></a> ConvectionCoefficientUnit\(ILinkContainer\)
+### ConvectionCoefficientUnit\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ConvectionCoefficientUnit" data-throw-if-not-resolved="false"></xref> class.
 
@@ -55,7 +55,7 @@ The owner.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Thermal_ConvectionCoefficientUnit_Factor"></a> Factor
+### Factor
 
 Gets the factor.
 
@@ -67,7 +67,7 @@ public override string Factor { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Thermal_ConvectionCoefficientUnit_Scale"></a> Scale
+### Scale
 
 Gets the scale.
 
@@ -79,7 +79,7 @@ public override double Scale { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Thermal_ConvectionCoefficientUnit_UnitOfConvectionCoef"></a> UnitOfConvectionCoef
+### UnitOfConvectionCoef
 
 Gets or sets the unit.
 
@@ -90,4 +90,5 @@ public ConvectionCoefficientUnit.ConvectionCoefficient UnitOfConvectionCoef { ge
 #### Property Value
 
  [ConvectionCoefficientUnit](VM.Managed.DAFUL.Thermal.ConvectionCoefficientUnit.md).[ConvectionCoefficient](VM.Managed.DAFUL.Thermal.ConvectionCoefficientUnit.ConvectionCoefficient.md)
+
 

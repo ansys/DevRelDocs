@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderForRBEInMeshFree"></a> Class HDBearingBuilderForRBEInMeshFree
+# Class HDBearingBuilderForRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -238,11 +238,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderForRBEInMeshFree__ctor"></a> HDBearingBuilderForRBEInMeshFree\(\)
+### HDBearingBuilderForRBEInMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.HDBearingBuilderForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public HDBearingBuilderForRBEInMeshFree()
 ```
+
 

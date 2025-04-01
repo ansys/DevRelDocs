@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_GetBoundingBoxOp"></a> Class GetBoundingBoxOp
+# Class GetBoundingBoxOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_GetBoundingBoxOp__ctor_VM_Managed_CAD_Body_VM_Managed_TMatrix_VM_Managed_CAD_BoxingMode_"></a> GetBoundingBoxOp\(Body, TMatrix, BoxingMode\)
+### GetBoundingBoxOp\(Body, TMatrix, BoxingMode\)
 
 ```csharp
 public GetBoundingBoxOp(Body body, TMatrix matT, BoxingMode boxingMode)
@@ -93,7 +93,7 @@ public GetBoundingBoxOp(Body body, TMatrix matT, BoxingMode boxingMode)
 
 ## Properties
 
-### <a id="VM_Managed_CAD_GetBoundingBoxOp_MaxPt"></a> MaxPt
+### MaxPt
 
 Gets the direction.
 
@@ -105,7 +105,7 @@ public VectorBase MaxPt { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_CAD_GetBoundingBoxOp_MinPt"></a> MinPt
+### MinPt
 
 Gets the point.
 
@@ -117,7 +117,7 @@ public VectorBase MinPt { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_CAD_GetBoundingBoxOp_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -129,7 +129,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_CAD_GetBoundingBoxOp_Result"></a> Result
+### Result
 
 Gets the result.
 
@@ -143,11 +143,12 @@ public bool Result { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_GetBoundingBoxOp_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

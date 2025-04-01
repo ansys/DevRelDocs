@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_Screw"></a> Class Screw
+# Class Screw
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCP.dll  
@@ -36,7 +36,7 @@ Named<Screw\>.SymmetricManager
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_Constraints_Screw__ctor"></a> Screw\(\)
+### Screw\(\)
 
 ```csharp
 public Screw()
@@ -44,7 +44,7 @@ public Screw()
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_Constraints_Screw_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -78,7 +78,7 @@ Plane of symmetric.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Symmetric_Constraints_Screw_UpdateProperty_VM_Managed_DAFUL_Constraints_PropertyScrew_VM_Managed_DAFUL_Constraints_PropertyScrew_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateProperty\(PropertyScrew, PropertyScrew, SymmetricType, Plane, Document\)
+### UpdateProperty\(PropertyScrew, PropertyScrew, SymmetricType, Plane, Document\)
 
 ```csharp
 public static bool UpdateProperty(PropertyScrew toolProperty, PropertyScrew targetProperty, SymmetricType sym_type, Plane sym_plane, Document doc)
@@ -99,4 +99,5 @@ public static bool UpdateProperty(PropertyScrew toolProperty, PropertyScrew targ
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

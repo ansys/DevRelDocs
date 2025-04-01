@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCrossHelical"></a> Class PropertyGearSetCrossHelical
+# Class PropertyGearSetCrossHelical
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -210,7 +210,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCrossHelical__ctor"></a> PropertyGearSetCrossHelical\(\)
+### PropertyGearSetCrossHelical\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyGearSetCrossHelical" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,7 +220,7 @@ public PropertyGearSetCrossHelical()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCrossHelical_CrossAxisAngle"></a> CrossAxisAngle
+### CrossAxisAngle
 
 Gets or sets the cross axis angle.
 
@@ -234,7 +234,7 @@ public Variable[] CrossAxisAngle { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCrossHelical_PostBuildGear"></a> PostBuildGear\(\)
+### PostBuildGear\(\)
 
 post builder gear.
 
@@ -242,7 +242,7 @@ post builder gear.
 protected override void PostBuildGear()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCrossHelical_ReadResultCore_System_Xml_XmlDocument_"></a> ReadResultCore\(XmlDocument\)
+### ReadResultCore\(XmlDocument\)
 
 Reads the result core.
 
@@ -256,7 +256,7 @@ protected override void ReadResultCore(XmlDocument xmlDoc)
 
 The XML document.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCrossHelical_ReadResultWithKissSoftInterface_System_UInt32_System_UInt32_System_UInt32_System_Double_System_Double_System_Double___System_Double_VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData___"></a> ReadResultWithKissSoftInterface\(uint, uint, uint, double, double, double\[\], double, GearData\[\]\)
+### ReadResultWithKissSoftInterface\(uint, uint, uint, double, double, double\[\], double, GearData\[\]\)
 
 Read result with KissSoft interface
 
@@ -297,4 +297,5 @@ The axial crossing angle
 `arGearData` [KissSoftInterface](VM.Managed.DAFUL.GearTrain.KissSoftInterface.md).[GearData](VM.Managed.DAFUL.GearTrain.KissSoftInterface.GearData.md)\[\]
 
 The gear data array
+
 

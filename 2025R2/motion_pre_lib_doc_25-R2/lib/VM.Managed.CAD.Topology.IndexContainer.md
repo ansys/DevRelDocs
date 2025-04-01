@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Topology_IndexContainer"></a> Class Topology.IndexContainer
+# Class Topology.IndexContainer
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -73,7 +73,7 @@ ObservableObject.PropertyChanged
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Topology_IndexContainer_Index"></a> Index
+### Index
 
 Gets or sets the index.
 
@@ -84,4 +84,5 @@ public int Index { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

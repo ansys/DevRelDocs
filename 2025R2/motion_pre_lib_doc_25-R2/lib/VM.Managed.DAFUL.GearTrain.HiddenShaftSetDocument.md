@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument"></a> Class HiddenShaftSetDocument
+# Class HiddenShaftSetDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -592,7 +592,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument__ctor_System_UIntPtr_"></a> HiddenShaftSetDocument\(UIntPtr\)
+### HiddenShaftSetDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HiddenShaftSetDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -608,7 +608,7 @@ The document core.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_InitialCategories"></a> InitialCategories
+### InitialCategories
 
 Gets the initial categories.
 
@@ -620,7 +620,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_RenderingMode"></a> RenderingMode
+### RenderingMode
 
 Gets the rendering mode.
 
@@ -632,7 +632,7 @@ public override View3D.RenderingMode RenderingMode { get; }
 
  View3D.RenderingMode
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_ShaftSet"></a> ShaftSet
+### ShaftSet
 
 Gets or sets the shaft set.
 
@@ -644,7 +644,7 @@ public ShaftSet ShaftSet { get; set; }
 
  [ShaftSet](VM.Managed.DAFUL.GearTrain.ShaftSet.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_TargetDesign"></a> TargetDesign
+### TargetDesign
 
 Gets the target design.
 
@@ -656,7 +656,7 @@ public override IOpenDesigner TargetDesign { get; }
 
  IOpenDesigner
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_VisibleDimension"></a> VisibleDimension
+### VisibleDimension
 
 Gets or sets a value indicating whether [visible dimension].
 
@@ -670,7 +670,7 @@ public bool VisibleDimension { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_ClearDocument"></a> ClearDocument\(\)
+### ClearDocument\(\)
 
 Clears the document.
 
@@ -678,7 +678,7 @@ Clears the document.
 protected override void ClearDocument()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_CreateAssemblyImpl"></a> CreateAssemblyImpl\(\)
+### CreateAssemblyImpl\(\)
 
 Creates the assembly implementation.
 
@@ -694,7 +694,7 @@ protected override Assembly CreateAssemblyImpl()
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_CreateViewCore_System_UIntPtr_"></a> CreateViewCore\(UIntPtr\)
+### CreateViewCore\(UIntPtr\)
 
 Create view [Core].
 
@@ -712,7 +712,7 @@ The view handle.
 
  View
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_DrawCoordinate_System_Double_"></a> DrawCoordinate\(double\)
+### DrawCoordinate\(double\)
 
 Draws the coordinate.
 
@@ -724,7 +724,7 @@ public override void DrawCoordinate(double dIconSize)
 
 `dIconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_FindCategory_System_String_"></a> FindCategory\(string\)
+### FindCategory\(string\)
 
 Finds the category.
 
@@ -742,7 +742,7 @@ Type of the string.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_GetAllGears"></a> GetAllGears\(\)
+### GetAllGears\(\)
 
 Gets all gears.
 
@@ -754,7 +754,7 @@ public ObjectBase[] GetAllGears()
 
  ObjectBase\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
+### InitializeCategoryInfo\(string\)
 
 Initializes the category information.
 
@@ -768,7 +768,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the string category.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -786,7 +786,7 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_ModifyDimension"></a> ModifyDimension\(\)
+### ModifyDimension\(\)
 
 Modifies the dimension.
 
@@ -794,7 +794,7 @@ Modifies the dimension.
 public void ModifyDimension()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -808,7 +808,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_RefreshChildNameInNav"></a> RefreshChildNameInNav\(\)
+### RefreshChildNameInNav\(\)
 
 Refreshes the child name in nav.
 
@@ -816,7 +816,7 @@ Refreshes the child name in nav.
 public void RefreshChildNameInNav()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_RefreshSectionInNav"></a> RefreshSectionInNav\(\)
+### RefreshSectionInNav\(\)
 
 Refreshes the section in nav.
 
@@ -824,11 +824,12 @@ Refreshes the section in nav.
 public void RefreshSectionInNav()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_ShowHideDimension"></a> ShowHideDimension\(\)
+### ShowHideDimension\(\)
 
 Shows the hide dimension.
 
 ```csharp
 public void ShowHideDimension()
 ```
+
 

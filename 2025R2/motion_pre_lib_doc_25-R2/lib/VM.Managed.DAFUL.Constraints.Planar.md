@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_Planar"></a> Class Planar
+# Class Planar
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -249,7 +249,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_Planar__ctor"></a> Planar\(\)
+### Planar\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Planar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -257,7 +257,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Plana
 public Planar()
 ```
 
-### <a id="VM_Managed_DAFUL_Constraints_Planar__ctor_System_String_"></a> Planar\(string\)
+### Planar\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Planar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -273,7 +273,7 @@ Name of the planar constraint.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_Planar_PreventDuplicatedRBE"></a> PreventDuplicatedRBE
+### PreventDuplicatedRBE
 
 Gets a value whether this instance prevent duplicated RBE.
 
@@ -285,7 +285,7 @@ public override bool PreventDuplicatedRBE { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Constraints_Planar_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -299,7 +299,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_Planar_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -313,7 +313,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Constraints_Planar_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -327,7 +327,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Constraints_Planar_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -340,4 +340,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

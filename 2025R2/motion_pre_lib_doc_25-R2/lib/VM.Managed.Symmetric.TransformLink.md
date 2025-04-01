@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_TransformLink"></a> Class TransformLink
+# Class TransformLink
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -24,7 +24,7 @@ ISymmetricBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_TransformLink__ctor"></a> TransformLink\(\)
+### TransformLink\(\)
 
 ```csharp
 public TransformLink()
@@ -32,7 +32,7 @@ public TransformLink()
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_TransformLink_Build_System_Object_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Build\(object, SymmetricType, Plane, Document\)
+### Build\(object, SymmetricType, Plane, Document\)
 
 Build the symmetric objects.
 
@@ -61,4 +61,5 @@ Plane of symmetric.
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The new object of symmetric.
+
 

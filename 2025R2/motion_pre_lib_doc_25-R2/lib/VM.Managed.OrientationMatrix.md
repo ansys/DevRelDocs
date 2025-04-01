@@ -1,4 +1,4 @@
-# <a id="VM_Managed_OrientationMatrix"></a> Class OrientationMatrix
+# Class OrientationMatrix
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -131,7 +131,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_OrientationMatrix__ctor_VM_Managed_OMatrix_"></a> OrientationMatrix\(OMatrix\)
+### OrientationMatrix\(OMatrix\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationMatrix" data-throw-if-not-resolved="false"></xref> class.
 
@@ -145,7 +145,7 @@ public OrientationMatrix(OMatrix matOrientation)
 
 The matrix of orientation.
 
-### <a id="VM_Managed_OrientationMatrix__ctor"></a> OrientationMatrix\(\)
+### OrientationMatrix\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationMatrix" data-throw-if-not-resolved="false"></xref> class.
 
@@ -155,7 +155,7 @@ public OrientationMatrix()
 
 ## Properties
 
-### <a id="VM_Managed_OrientationMatrix_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Gets the parametric.
 
@@ -167,7 +167,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_OrientationMatrix_Value"></a> Value
+### Value
 
 Gets the orientation.
 
@@ -181,7 +181,7 @@ public override OMatrix Value { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_OrientationMatrix_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -196,7 +196,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### <a id="VM_Managed_OrientationMatrix_IsParametric"></a> IsParametric\(\)
+### IsParametric\(\)
 
 Gets parametric.
 
@@ -210,7 +210,7 @@ public override bool IsParametric()
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
-### <a id="VM_Managed_OrientationMatrix_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -224,7 +224,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_OrientationMatrix_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -237,4 +237,5 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

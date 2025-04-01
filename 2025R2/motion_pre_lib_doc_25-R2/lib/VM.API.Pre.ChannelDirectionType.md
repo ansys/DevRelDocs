@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_ChannelDirectionType"></a> Enum ChannelDirectionType
+# Enum ChannelDirectionType
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -32,6 +32,7 @@ y
 `Z = 2` 
 
 z
+
 
 
 

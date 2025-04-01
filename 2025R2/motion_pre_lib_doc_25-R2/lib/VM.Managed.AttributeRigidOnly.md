@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeRigidOnly"></a> Class AttributeRigidOnly
+# Class AttributeRigidOnly
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -99,11 +99,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_AttributeRigidOnly__ctor"></a> AttributeRigidOnly\(\)
+### AttributeRigidOnly\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeRigidOnly" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public AttributeRigidOnly()
 ```
+
 

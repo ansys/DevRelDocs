@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_extension"></a> Class extension
+# Class extension
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -22,7 +22,7 @@ public class extension
 
 ## Constructors
 
-### <a id="VM_CAD_Kernel_extension__ctor"></a> extension\(\)
+### extension\(\)
 
 ```csharp
 public extension()
@@ -30,7 +30,7 @@ public extension()
 
 ## Properties
 
-### <a id="VM_CAD_Kernel_extension_value"></a> value
+### value
 
 ```csharp
 public string value { get; set; }
@@ -39,4 +39,5 @@ public string value { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

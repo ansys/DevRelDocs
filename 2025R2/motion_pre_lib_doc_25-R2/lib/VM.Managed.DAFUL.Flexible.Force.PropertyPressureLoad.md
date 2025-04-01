@@ -1,9 +1,17 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force_PropertyPressureLoad"></a> Class PropertyPressureLoad
+# Class PropertyPressureLoad
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
 
-This class is to represent the pressure load properties.
+<p>This class is to represent the pressure load properties.</p>
+<p>이 클래스는 압력하중 특성을 나타냅니다.</p>
+<p>
+        Symmetric Modeling : No
+        Reference : Yes
+        Reference Type : VM.Managed.Reference
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
 ```csharp
 public class PropertyPressureLoad : PropertyPressureLoadBase, IObservableObject, IDisposableObject, ILinkable, IObjectBase, IObject, IEventProvider, IHasKeyObject, ILinkContainerEvent, IVerifiable, IHistoryObjectSerializable, IAttributeContainer, IContainer, ILinkContainer, IOwned, IHasID, IFlexibleFunctionOwner
@@ -172,11 +180,14 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_PropertyPressureLoad__ctor"></a> PropertyPressureLoad\(\)
+### PropertyPressureLoad\(\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PropertyPressureLoad" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PropertyPressureLoad" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Force.PropertyPressureLoad" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 public PropertyPressureLoad()
 ```
+
 

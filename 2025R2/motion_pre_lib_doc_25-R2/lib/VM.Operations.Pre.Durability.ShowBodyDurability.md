@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre_Durability_ShowBodyDurability"></a> Class ShowBodyDurability
+# Class ShowBodyDurability
 
 Namespace: [VM.Operations.Pre.Durability](VM.Operations.Pre.Durability.md)  
 Assembly: VM.Operations.Pre.Durability.dll  
@@ -87,7 +87,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Operations_Pre_Durability_ShowBodyDurability__ctor_VM_Managed_Document_"></a> ShowBodyDurability\(Document\)
+### ShowBodyDurability\(Document\)
 
 ```csharp
 public ShowBodyDurability(Document doc)
@@ -99,7 +99,7 @@ public ShowBodyDurability(Document doc)
 
 ## Properties
 
-### <a id="VM_Operations_Pre_Durability_ShowBodyDurability_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -113,7 +113,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Operations_Pre_Durability_ShowBodyDurability_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -121,7 +121,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Operations_Pre_Durability_ShowBodyDurability_OnApply_System_Object_System_ComponentModel_CancelEventArgs_"></a> OnApply\(object, CancelEventArgs\)
+### OnApply\(object, CancelEventArgs\)
 
 Called when [apply].
 
@@ -139,13 +139,13 @@ The sender.
 
 The <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Operations_Pre_Durability_ShowBodyDurability_ShowDialog"></a> ShowDialog\(\)
+### ShowDialog\(\)
 
 ```csharp
 protected virtual void ShowDialog()
 ```
 
-### <a id="VM_Operations_Pre_Durability_ShowBodyDurability_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -162,4 +162,5 @@ The updater.
 `doc` Document
 
 The doc.
+
 
