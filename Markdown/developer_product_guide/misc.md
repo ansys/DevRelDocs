@@ -1,6 +1,6 @@
 # Miscellaneous
 
-This page covers all Ansys products that don';t neatly fit into a single product collection. Ansys System Coupling, for example, facilitates coupling of multiple solvers in a single solution and fits reasonably well into Structures, Electronics or Fluids, as a consequence.
+This page covers all Ansys products that don't neatly fit into a single product collection. Ansys System Coupling, for example, facilitates coupling of multiple solvers in a single solution and fits reasonably well into Structures, Electronics or Fluids, as a consequence.
 
 ## Workbench 
 
@@ -71,7 +71,7 @@ There are two primary Ansys Dynamic Reporting Python interfaces and the PyAnsys 
 
 ## Geometry 
 
-The Ansys Geometry Service has an OSS PyAnsys library called PyAnsys Geometry.
+The Ansys Geometry Service has an OSS PyAnsys library named PyAnsys Geometry.
 
 [PyAnsys Geometry Docs (PyAnsys)](https://geometry.docs.pyansys.com/version/stable/getting_started/index.html#)
 
