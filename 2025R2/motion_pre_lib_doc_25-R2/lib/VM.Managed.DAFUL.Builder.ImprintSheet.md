@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_ImprintSheet"></a> Class ImprintSheet
+# Class ImprintSheet
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -62,7 +62,7 @@ public abstract class ImprintSheet : Imprint, IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintSheet__ctor"></a> ImprintSheet\(\)
+### ImprintSheet\(\)
 
 ```csharp
 protected ImprintSheet()
@@ -70,7 +70,7 @@ protected ImprintSheet()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintSheet_ExtraArgument"></a> ExtraArgument
+### ExtraArgument
 
 ```csharp
 protected override string ExtraArgument { get; }
@@ -80,7 +80,7 @@ protected override string ExtraArgument { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintSheet_TargetConnectable"></a> TargetConnectable
+### TargetConnectable
 
 ```csharp
 public override Body TargetConnectable { get; }
@@ -90,7 +90,7 @@ public override Body TargetConnectable { get; }
 
  Body
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintSheet_TargetList"></a> TargetList
+### TargetList
 
 ```csharp
 public PickedFace TargetList { get; set; }
@@ -100,7 +100,7 @@ public PickedFace TargetList { get; set; }
 
  [PickedFace](VM.Managed.DAFUL.Builder.PickedFace.md)
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintSheet_ToolConnectable"></a> ToolConnectable
+### ToolConnectable
 
 ```csharp
 public override Body ToolConnectable { get; }
@@ -112,7 +112,7 @@ public override Body ToolConnectable { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintSheet_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public override void Build(Document doc)
@@ -122,7 +122,7 @@ public override void Build(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintSheet_BuildTargetTool_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> BuildTargetTool\(Builder, Builder\)
+### BuildTargetTool\(Builder, Builder\)
 
 ```csharp
 protected override void BuildTargetTool(Builder buiTarget, Builder buiTool)
@@ -134,7 +134,7 @@ protected override void BuildTargetTool(Builder buiTarget, Builder buiTool)
 
 `buiTool` Builder
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintSheet_GetPlaneBuilder"></a> GetPlaneBuilder\(\)
+### GetPlaneBuilder\(\)
 
 ```csharp
 protected abstract BuilderPlane GetPlaneBuilder()
@@ -143,4 +143,5 @@ protected abstract BuilderPlane GetPlaneBuilder()
 #### Returns
 
  BuilderPlane
+
 

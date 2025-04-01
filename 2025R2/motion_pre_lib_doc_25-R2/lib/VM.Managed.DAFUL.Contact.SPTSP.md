@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_SPTSP"></a> Class SPTSP
+# Class SPTSP
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -249,7 +249,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_SPTSP__ctor"></a> SPTSP\(\)
+### SPTSP\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.SPTSP" data-throw-if-not-resolved="false"></xref> class.
 
@@ -257,7 +257,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.SPTSP" da
 protected SPTSP()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_SPTSP__ctor_System_String_"></a> SPTSP\(string\)
+### SPTSP\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.SPTSP" data-throw-if-not-resolved="false"></xref> class.
 
@@ -273,7 +273,7 @@ Name of the sphere to sphere contact.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_SPTSP_ActionGeom"></a> ActionGeom
+### ActionGeom
 
 Gets or sets the action geom.
 
@@ -285,7 +285,7 @@ public ContactGeom3D ActionGeom { get; set; }
 
  [ContactGeom3D](VM.Managed.DAFUL.Contact.ContactGeom3D.md)
 
-### <a id="VM_Managed_DAFUL_Contact_SPTSP_BaseGeom"></a> BaseGeom
+### BaseGeom
 
 Gets or sets the base geom.
 
@@ -297,7 +297,7 @@ public ContactGeom3D BaseGeom { get; set; }
 
  [ContactGeom3D](VM.Managed.DAFUL.Contact.ContactGeom3D.md)
 
-### <a id="VM_Managed_DAFUL_Contact_SPTSP_CanSwitchImpl"></a> CanSwitchImpl
+### CanSwitchImpl
 
 ```csharp
 protected override bool CanSwitchImpl { get; }
@@ -307,7 +307,7 @@ protected override bool CanSwitchImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Contact_SPTSP_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -319,7 +319,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
  IReportable.ReportEntityType
 
-### <a id="VM_Managed_DAFUL_Contact_SPTSP_TargetType"></a> TargetType
+### TargetType
 
 Gets the type of the target.
 
@@ -331,7 +331,7 @@ public override string TargetType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Contact_SPTSP_Use"></a> Use
+### Use
 
 Gets a value indicating whether use this instance.
 
@@ -345,7 +345,7 @@ public override bool Use { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_SPTSP_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -364,4 +364,5 @@ Name to search for.
  IObjectBase
 
 An object that matches a specified name.
+
 

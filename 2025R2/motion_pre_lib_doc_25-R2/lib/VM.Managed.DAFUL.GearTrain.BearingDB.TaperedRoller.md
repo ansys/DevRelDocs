@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller"></a> Class TaperedRoller
+# Class TaperedRoller
 
 Namespace: [VM.Managed.DAFUL.GearTrain.BearingDB](VM.Managed.DAFUL.GearTrain.BearingDB.md)  
 Assembly: VMDGearTrain.dll  
@@ -36,7 +36,7 @@ Record.RecordNo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller__ctor"></a> TaperedRoller\(\)
+### TaperedRoller\(\)
 
 ```csharp
 public TaperedRoller()
@@ -44,7 +44,7 @@ public TaperedRoller()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_ActionP"></a> ActionP
+### ActionP
 
 Action point
 
@@ -57,7 +57,7 @@ public double? ActionP
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_Alpha"></a> Alpha
+### Alpha
 
 Contact angle
 
@@ -70,7 +70,7 @@ public double? Alpha
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_Beta"></a> Beta
+### Beta
 
 Roller tapered angle
 
@@ -83,7 +83,7 @@ public double? Beta
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_C0r"></a> C0r
+### C0r
 
 Basic static radial load rating
 
@@ -96,7 +96,7 @@ public double? C0r
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_ConeW"></a> ConeW
+### ConeW
 
 Width of cone
 
@@ -109,7 +109,7 @@ public double? ConeW
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_Cr"></a> Cr
+### Cr
 
 Basic dynamic radial load rating
 
@@ -122,7 +122,7 @@ public double? Cr
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_CupW"></a> CupW
+### CupW
 
 Width of cup
 
@@ -135,7 +135,7 @@ public double? CupW
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_Mass"></a> Mass
+### Mass
 
 Mass
 
@@ -148,7 +148,7 @@ public double? Mass
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_RolCP"></a> RolCP
+### RolCP
 
 Roller center point
 
@@ -161,7 +161,7 @@ public double? RolCP
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_RolDia"></a> RolDia
+### RolDia
 
 Roller diameter
 
@@ -174,7 +174,7 @@ public double? RolDia
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_RolLen"></a> RolLen
+### RolLen
 
 Roller length
 
@@ -187,7 +187,7 @@ public double? RolLen
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_RolPR"></a> RolPR
+### RolPR
 
 Roller pitch radius
 
@@ -200,7 +200,7 @@ public double? RolPR
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_RoundR1"></a> RoundR1
+### RoundR1
 
 Rounding radius of cone
 
@@ -213,7 +213,7 @@ public double? RoundR1
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_RoundR2"></a> RoundR2
+### RoundR2
 
 Rounding radius of cup
 
@@ -226,7 +226,7 @@ public double? RoundR2
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_Y"></a> Y
+### Y
 
 Y
 
@@ -239,7 +239,7 @@ public double? Y
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_Y0"></a> Y0
+### Y0
 
 Y0
 
@@ -252,7 +252,7 @@ public double? Y0
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_d1"></a> d1
+### d1
 
 Cone shoulder diameter
 
@@ -265,7 +265,7 @@ public double? d1
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_e"></a> e
+### e
 
 e
 
@@ -278,7 +278,7 @@ public double? e
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_nRoller"></a> nRoller
+### nRoller
 
 Number of roller
 
@@ -293,7 +293,7 @@ public int? nRoller
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_GetDefaultBearing_VM_Unit_ConvertFactor_"></a> GetDefaultBearing\(ConvertFactor\)
+### GetDefaultBearing\(ConvertFactor\)
 
 Get the default bearing.
 
@@ -313,7 +313,7 @@ The unit convert factor.
 
 The default bearing
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_UnitConvert_VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller__VM_Unit_ConvertFactor_"></a> UnitConvert\(ref TaperedRoller, ConvertFactor\)
+### UnitConvert\(ref TaperedRoller, ConvertFactor\)
 
 Convert bearing dimension unit.
 
@@ -331,7 +331,7 @@ The target bearing.
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller_UnitConvert_VM_Managed_DAFUL_GearTrain_BearingDB_TaperedRoller__System_Double_System_Double_System_Double_"></a> UnitConvert\(ref TaperedRoller, double, double, double\)
+### UnitConvert\(ref TaperedRoller, double, double, double\)
 
 Convert bearing dimension unit.
 
@@ -356,4 +356,5 @@ The force factor.
 `dMassFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 The mass factor.
+
 

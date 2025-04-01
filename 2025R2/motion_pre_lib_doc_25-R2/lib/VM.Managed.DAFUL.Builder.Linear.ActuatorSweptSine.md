@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorSweptSine"></a> Class ActuatorSweptSine
+# Class ActuatorSweptSine
 
 Namespace: [VM.Managed.DAFUL.Builder.Linear](VM.Managed.DAFUL.Builder.Linear.md)  
 Assembly: VMBldLinear.dll  
@@ -54,7 +54,7 @@ BuilderBase<ActuatorSweptSine\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorSweptSine__ctor"></a> ActuatorSweptSine\(\)
+### ActuatorSweptSine\(\)
 
 ```csharp
 public ActuatorSweptSine()
@@ -62,7 +62,7 @@ public ActuatorSweptSine()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorSweptSine_Magnitude"></a> Magnitude
+### Magnitude
 
 ```csharp
 public Variable Magnitude { get; set; }
@@ -72,7 +72,7 @@ public Variable Magnitude { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorSweptSine_PhaseAngle"></a> PhaseAngle
+### PhaseAngle
 
 ```csharp
 public Variable PhaseAngle { get; set; }
@@ -84,7 +84,7 @@ public Variable PhaseAngle { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorSweptSine_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -99,4 +99,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

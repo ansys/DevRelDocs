@@ -1,4 +1,4 @@
-# <a id="VM_Models_Project_IAnalysisScenario"></a> Interface IAnalysisScenario
+# Interface IAnalysisScenario
 
 Namespace: [VM.Models.Project](VM.Models.Project.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -25,7 +25,7 @@ IHasParent<IProjectDocument\>
 
 ## Methods
 
-### <a id="VM_Models_Project_IAnalysisScenario_SaveScenarioData_VM_IScenarioDocument_"></a> SaveScenarioData\(IScenarioDocument\)
+### SaveScenarioData\(IScenarioDocument\)
 
 ```csharp
 void SaveScenarioData(IScenarioDocument scenarioDocument)
@@ -34,4 +34,5 @@ void SaveScenarioData(IScenarioDocument scenarioDocument)
 #### Parameters
 
 `scenarioDocument` IScenarioDocument
+
 

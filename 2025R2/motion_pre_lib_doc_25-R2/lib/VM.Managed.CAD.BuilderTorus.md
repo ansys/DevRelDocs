@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderTorus"></a> Class BuilderTorus
+# Class BuilderTorus
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderTorus__ctor"></a> BuilderTorus\(\)
+### BuilderTorus\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderTorus" data-throw-if-not-resolved="false"></xref> class
 
@@ -207,7 +207,7 @@ public BuilderTorus()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderTorus__CenterPosition"></a> \_CenterPosition
+### \_CenterPosition
 
 Gets the center position of torus.
 
@@ -219,7 +219,7 @@ public abstract VectorBase _CenterPosition { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_CAD_BuilderTorus__RadiusMajor"></a> \_RadiusMajor
+### \_RadiusMajor
 
 Gets the major radius of torus.
 
@@ -231,7 +231,7 @@ public abstract double _RadiusMajor { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_BuilderTorus__RadiusMinor"></a> \_RadiusMinor
+### \_RadiusMinor
 
 Gets the minor radius of torus.
 
@@ -243,7 +243,7 @@ public abstract double _RadiusMinor { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_BuilderTorus__UpDirection"></a> \_UpDirection
+### \_UpDirection
 
 Gets the up direction of torus.
 
@@ -257,7 +257,7 @@ public abstract VectorBase _UpDirection { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderTorus_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
+### CheckValidationAboutBuild\(\)
 
 Checks validation about build.
 
@@ -265,7 +265,7 @@ Checks validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### <a id="VM_Managed_CAD_BuilderTorus_CreateParameter"></a> CreateParameter\(\)
+### CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -275,7 +275,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_CAD_BuilderTorus_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -284,4 +284,5 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
+
 

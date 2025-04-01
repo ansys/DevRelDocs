@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_VectorForceFunction"></a> Class VectorForceFunction
+# Class VectorForceFunction
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceFunction__ctor"></a> VectorForceFunction\(\)
+### VectorForceFunction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.VectorForceFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.VectorForce
 protected VectorForceFunction()
 ```
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceFunction__ctor_VM_Managed_DAFUL_Force_PropertyVector_"></a> VectorForceFunction\(PropertyVector\)
+### VectorForceFunction\(PropertyVector\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.VectorForceFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ The owner vector force property.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceFunction_IsUseRM"></a> IsUseRM
+### IsUseRM
 
 Gets or sets a value indicating whether this instance use reference marker.
 
@@ -137,7 +137,7 @@ public bool IsUseRM { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceFunction_ReferenceMarker"></a> ReferenceMarker
+### ReferenceMarker
 
 Gets or sets the reference marker.
 
@@ -149,7 +149,7 @@ public IMarker ReferenceMarker { get; set; }
 
  IMarker
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceFunction_Type"></a> Type
+### Type
 
 Gets the function type.
 
@@ -161,7 +161,7 @@ public abstract VectorForceFunction.FunctionType Type { get; }
 
  [VectorForceFunction](VM.Managed.DAFUL.Force.VectorForceFunction.md).[FunctionType](VM.Managed.DAFUL.Force.VectorForceFunction.FunctionType.md)
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceFunction__ReferenceMarker"></a> \_ReferenceMarker
+### \_ReferenceMarker
 
 Gets or sets the reference marker.
 
@@ -175,7 +175,7 @@ public Linker<IMarker> _ReferenceMarker { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceFunction_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -189,7 +189,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceFunction_OnLinkReserved_VM_Managed_ILink_System_Object_System_EventArgs_"></a> OnLinkReserved\(ILink, object, EventArgs\)
+### OnLinkReserved\(ILink, object, EventArgs\)
 
 ```csharp
 protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs args)
@@ -203,7 +203,7 @@ protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs
 
 `args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceFunction_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
+### ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -217,7 +217,7 @@ public virtual void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Force_VectorForceFunction_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
+### WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -230,4 +230,5 @@ public virtual void WriteTemplate(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

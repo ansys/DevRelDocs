@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_Contact3D_1"></a> Class Contact3D<TProperty\>
+# Class Contact3D<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -230,7 +230,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_Contact3D_1__ctor"></a> Contact3D\(\)
+### Contact3D\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.Contact3D%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -238,7 +238,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.Contact3D
 protected Contact3D()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_Contact3D_1__ctor_System_String_"></a> Contact3D\(string\)
+### Contact3D\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.Contact3D%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -254,7 +254,7 @@ Name of the 3D contact.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_Contact3D_1_ActionGeom"></a> ActionGeom
+### ActionGeom
 
 Gets or sets the action 3D contact geometry.
 
@@ -266,7 +266,7 @@ public ContactGeom3D ActionGeom { get; set; }
 
  [ContactGeom3D](VM.Managed.DAFUL.Contact.ContactGeom3D.md)
 
-### <a id="VM_Managed_DAFUL_Contact_Contact3D_1_BaseGeom"></a> BaseGeom
+### BaseGeom
 
 Gets or sets the base 3D contact geometry.
 
@@ -280,7 +280,7 @@ public ContactGeom3D BaseGeom { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_Contact3D_1_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -300,7 +300,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_DAFUL_Contact_Contact3D_1_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -314,7 +314,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Contact_Contact3D_1_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -327,4 +327,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ILink"></a> Interface ILink
+# Interface ILink
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface ILink
 
 ## Properties
 
-### <a id="VM_Managed_ILink_FieldHasValue"></a> FieldHasValue
+### FieldHasValue
 
 Gets the status of field.
 
@@ -29,7 +29,7 @@ bool FieldHasValue { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_ILink_LinkedObject"></a> LinkedObject
+### LinkedObject
 
 Gets the object container that has a relation with this.
 
@@ -41,7 +41,7 @@ ILinkContainer LinkedObject { get; }
 
  ILinkContainer
 
-### <a id="VM_Managed_ILink_Owner"></a> Owner
+### Owner
 
 Gets the object that has this link.
 
@@ -55,7 +55,7 @@ ILinkContainer Owner { get; }
 
 ## Methods
 
-### <a id="VM_Managed_ILink_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 Clear the link relation.
 <param name="bBackup">The backup flag.</param>
@@ -68,7 +68,7 @@ void Clear(bool bBackup)
 
 `bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_ILink_ClearBeforeDeserialize"></a> ClearBeforeDeserialize\(\)
+### ClearBeforeDeserialize\(\)
 
 Disconnect the link relation before deserialize.
 
@@ -76,7 +76,7 @@ Disconnect the link relation before deserialize.
 void ClearBeforeDeserialize()
 ```
 
-### <a id="VM_Managed_ILink_ClearBeforeSwap"></a> ClearBeforeSwap\(\)
+### ClearBeforeSwap\(\)
 
 Disconnect the link relation before undo/redo.
 
@@ -84,7 +84,7 @@ Disconnect the link relation before undo/redo.
 void ClearBeforeSwap()
 ```
 
-### <a id="VM_Managed_ILink_DestroyObject_System_Object_VM_Managed_LinkEventArgs_"></a> DestroyObject\(object, LinkEventArgs\)
+### DestroyObject\(object, LinkEventArgs\)
 
 Destroy this link
 
@@ -96,13 +96,13 @@ void DestroyObject(object objNotifier, LinkEventArgs arg)
 
 `objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-The linked object.
+<p>The linked object.</p>
 
 `arg` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
-The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+<p>The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.</p>
 
-### <a id="VM_Managed_ILink_DisposeLink"></a> DisposeLink\(\)
+### DisposeLink\(\)
 
 Dispose this link.
 
@@ -110,7 +110,7 @@ Dispose this link.
 void DisposeLink()
 ```
 
-### <a id="VM_Managed_ILink_GetChilds_System_Collections_Generic_HashSet_VM_Models_Pre_ILinkContainer__"></a> GetChilds\(HashSet<ILinkContainer\>\)
+### GetChilds\(HashSet<ILinkContainer\>\)
 
 ```csharp
 void GetChilds(HashSet<ILinkContainer> lstObjs)
@@ -120,7 +120,7 @@ void GetChilds(HashSet<ILinkContainer> lstObjs)
 
 `lstObjs` [HashSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1)<ILinkContainer\>
 
-### <a id="VM_Managed_ILink_GetFirstDesignEntities"></a> GetFirstDesignEntities\(\)
+### GetFirstDesignEntities\(\)
 
 Get first design entities.
 
@@ -132,7 +132,7 @@ IEnumerable<IObject> GetFirstDesignEntities()
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IObject\>
 
-### <a id="VM_Managed_ILink_Reserve_VM_Managed_LinkEventArgs_"></a> Reserve\(LinkEventArgs\)
+### Reserve\(LinkEventArgs\)
 
 Reserve link.
 
@@ -152,7 +152,7 @@ The event argument.
 
 true if succeess to reserve, otherwise false.
 
-### <a id="VM_Managed_ILink_SetModified"></a> SetModified\(\)
+### SetModified\(\)
 
 set modified link for undo/redo
 
@@ -160,7 +160,7 @@ set modified link for undo/redo
 void SetModified()
 ```
 
-### <a id="VM_Managed_ILink_Verify_VM_Managed_VerifiedResult_"></a> Verify\(VerifiedResult\)
+### Verify\(VerifiedResult\)
 
 Verify the link.
 <param name="vr">The verified result.</param>
@@ -172,4 +172,5 @@ void Verify(VerifiedResult vr)
 #### Parameters
 
 `vr` [VerifiedResult](VM.Managed.VerifiedResult.md)
+
 

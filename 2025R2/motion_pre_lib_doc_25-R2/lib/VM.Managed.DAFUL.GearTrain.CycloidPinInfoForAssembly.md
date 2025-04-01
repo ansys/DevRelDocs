@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly"></a> Class CycloidPinInfoForAssembly
+# Class CycloidPinInfoForAssembly
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly__ctor"></a> CycloidPinInfoForAssembly\(\)
+### CycloidPinInfoForAssembly\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CycloidPinInfoForAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Cycloid
 public CycloidPinInfoForAssembly()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly__ctor_VM_Models_Pre_IOwned_"></a> CycloidPinInfoForAssembly\(IOwned\)
+### CycloidPinInfoForAssembly\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CycloidPinInfoForAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_CenterOfPinset"></a> CenterOfPinset
+### CenterOfPinset
 
 Gets or sets the center of pinset.
 
@@ -132,7 +132,7 @@ public PointBase CenterOfPinset { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_GearInfo"></a> GearInfo
+### GearInfo
 
 Gets or sets the gear information.
 
@@ -144,7 +144,7 @@ public GearGeometryInfo GearInfo { get; set; }
 
  [GearGeometryInfo](VM.Managed.DAFUL.GearTrain.GearGeometryInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_Housing"></a> Housing
+### Housing
 
 Gets or sets the housing.
 
@@ -156,7 +156,7 @@ public IHasBuilder Housing { get; set; }
 
  IHasBuilder
 
-### <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_PinBodies"></a> PinBodies
+### PinBodies
 
 Gets or sets the pin bodies.
 
@@ -168,7 +168,7 @@ public Body[] PinBodies { get; set; }
 
  Body\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_ReferenceGearInfo"></a> ReferenceGearInfo
+### ReferenceGearInfo
 
 Gets or sets the reference gear information.
 
@@ -180,7 +180,7 @@ public GearGeometryInfo ReferenceGearInfo { get; set; }
 
  [GearGeometryInfo](VM.Managed.DAFUL.GearTrain.GearGeometryInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_UseReferenceBody"></a> UseReferenceBody
+### UseReferenceBody
 
 Gets or sets the revolute property.
 
@@ -192,7 +192,7 @@ public bool UseReferenceBody { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly__Housing"></a> \_Housing
+### \_Housing
 
 Gets or sets the housing.
 
@@ -206,7 +206,7 @@ public Linker<IHasBuilder> _Housing { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_ClearPinBodies"></a> ClearPinBodies\(\)
+### ClearPinBodies\(\)
 
 Clear pin bodies.
 
@@ -214,7 +214,7 @@ Clear pin bodies.
 public void ClearPinBodies()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_GetEccentricDirection"></a> GetEccentricDirection\(\)
+### GetEccentricDirection\(\)
 
 Gets the eccentric direction.
 
@@ -226,7 +226,7 @@ public VectorBase GetEccentricDirection()
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_GetEccentricValue"></a> GetEccentricValue\(\)
+### GetEccentricValue\(\)
 
 Gets the eccentric value.
 
@@ -238,7 +238,7 @@ public double GetEccentricValue()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_GetShearingValue_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> GetShearingValue\(VectorBase, VectorBase\)
+### GetShearingValue\(VectorBase, VectorBase\)
 
 Gets shearing matrix
 
@@ -260,11 +260,12 @@ The applied vector
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 Initialize
 
 ```csharp
 public void Initialize()
 ```
+
 

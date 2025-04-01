@@ -1,4 +1,4 @@
-# <a id="VM_NameType"></a> Enum NameType
+# Enum NameType
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -32,6 +32,7 @@ Full name
 `Name = 3` 
 
 Name
+
 
 
 

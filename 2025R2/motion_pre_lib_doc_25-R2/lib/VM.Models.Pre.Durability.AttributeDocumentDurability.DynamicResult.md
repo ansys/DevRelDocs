@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult"></a> Class AttributeDocumentDurability.DynamicResult
+# Class AttributeDocumentDurability.DynamicResult
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult__ctor"></a> DynamicResult\(\)
+### DynamicResult\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Durability.AttributeDocumentDurability.DynamicResult" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public DynamicResult()
 
 ## Properties
 
-### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult_DamageTables"></a> DamageTables
+### DamageTables
 
 Gets or sets the rbe for bearing.
 
@@ -118,7 +118,7 @@ public AttributeDocumentDurability.DynamicResult.DamageTable[] DamageTables { ge
 
  [AttributeDocumentDurability](VM.Models.Pre.Durability.AttributeDocumentDurability.md).[DynamicResult](VM.Models.Pre.Durability.AttributeDocumentDurability.DynamicResult.md).[DamageTable](VM.Models.Pre.Durability.AttributeDocumentDurability.DynamicResult.DamageTable.md)\[\]
 
-### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult_NumberOfCycle"></a> NumberOfCycle
+### NumberOfCycle
 
 Gets or sets the number of cycle.
 
@@ -130,7 +130,7 @@ public ExpressionValueVariable NumberOfCycle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult_ReferenceTorque"></a> ReferenceTorque
+### ReferenceTorque
 
 Gets or sets the reference torque.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable ReferenceTorque { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult_ScaleFactorForDamage"></a> ScaleFactorForDamage
+### ScaleFactorForDamage
 
 Gets or sets the scale factor for damage.
 
@@ -156,9 +156,9 @@ public ExpressionValueVariable ScaleFactorForDamage { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -168,5 +168,6 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
+
 

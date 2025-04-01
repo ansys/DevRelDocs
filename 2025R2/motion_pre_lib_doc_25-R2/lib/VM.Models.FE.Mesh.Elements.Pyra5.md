@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Elements_Pyra5"></a> Class Pyra5
+# Class Pyra5
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -54,7 +54,7 @@ public class Pyra5 : Element5Nodes, IEntity
 
 ## Constructors
 
-### <a id="VM_Models_FE_Mesh_Elements_Pyra5__ctor"></a> Pyra5\(\)
+### Pyra5\(\)
 
 ```csharp
 public Pyra5()
@@ -62,7 +62,7 @@ public Pyra5()
 
 ## Properties
 
-### <a id="VM_Models_FE_Mesh_Elements_Pyra5_ElementType"></a> ElementType
+### ElementType
 
 ```csharp
 public override ElementTypes ElementType { get; }
@@ -71,4 +71,5 @@ public override ElementTypes ElementType { get; }
 #### Property Value
 
  [ElementTypes](VM.Models.FE.Mesh.ElementTypes.md)
+
 

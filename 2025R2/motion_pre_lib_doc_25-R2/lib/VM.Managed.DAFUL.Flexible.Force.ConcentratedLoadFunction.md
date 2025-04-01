@@ -1,9 +1,17 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadFunction"></a> Class ConcentratedLoadFunction
+# Class ConcentratedLoadFunction
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
 
-This base class is to represent the characteristic properties of concentrated load.
+<p>This base class is to represent the characteristic properties of concentrated load.</p>
+<p>이 클래스는 집중하중 함수를 나타냅니다.</p>
+<p>
+        Symmetric Modeling : No
+        Reference : No
+        Reference Type : N/A
+        삭제시 Reservable한 Link 변수 : N/A
+        Generic Collection에 담겨있는 Link 변수 : N/A
+        </p>
 
 ```csharp
 public abstract class ConcentratedLoadFunction : LinkContainer, IObservableObject, IDisposableObject, ILinkable, IObject, ILinkContainer, IOwned, IHasID, IEventProvider, ILinkContainerEvent, IVerifiable
@@ -101,9 +109,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadFunction__ctor"></a> ConcentratedLoadFunction\(\)
+### ConcentratedLoadFunction\(\)
 
-Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction" data-throw-if-not-resolved="false"></xref> class.
+<p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction" data-throw-if-not-resolved="false"></xref> class.</p>
+<p>
+  <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
 
 ```csharp
 protected ConcentratedLoadFunction()
@@ -111,9 +121,28 @@ protected ConcentratedLoadFunction()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadFunction_ReferenceMarker"></a> ReferenceMarker
+### ReferenceMarker
 
-Gets or sets the reference marker.
+<p>Gets or sets the reference marker.</p>
+<p>참조마커를 가져오거나 넣어줍니다.</p>
+<p>
+        Type : IMarker
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Reference Frame
+        Control Type : Marker Editor
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Bodundary Condition
+        Category Index : 2
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public IMarker ReferenceMarker { get; set; }
@@ -123,9 +152,10 @@ public IMarker ReferenceMarker { get; set; }
 
  IMarker
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadFunction_Type"></a> Type
+### Type
 
-Gets the function type.
+<p>Gets the function type.</p>
+<p>함수 타입을 가져옵니다.</p>
 
 ```csharp
 public abstract ConcentratedLoadFunction.FunctionType Type { get; }
@@ -135,9 +165,28 @@ public abstract ConcentratedLoadFunction.FunctionType Type { get; }
 
  [ConcentratedLoadFunction](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction.md).[FunctionType](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction.FunctionType.md)
 
-### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadFunction__ReferenceMarker"></a> \_ReferenceMarker
+### \_ReferenceMarker
 
-Gets or sets the reference marker.
+<p>Gets or sets the reference marker.</p>
+<p>참조마커를 가져오거나 넣어줍니다.</p>
+<p>
+        Type : IMarker
+        LinkRequestUpdate 시 처리 : N/A
+        Read/Write : Read/Write
+        Read/Write Condition : N/A
+        연관 프로퍼티 : N/A
+        Validation 조건 : N/A
+        UI Visibility : true
+        Label : Reference Frame
+        Control Type : Marker Editor
+        ToolTip : N/A
+        Error Message : N/A
+        Category : Bodundary Condition
+        Category Index : 2
+        변경 시 DFS 재생성 여부 : Yes
+        변경 시 DFG 재생성 여부 : No
+        변경 시 GINF 재생성 여부 : No
+        </p>
 
 ```csharp
 public Linker<IMarker> _ReferenceMarker { get; set; }
@@ -146,4 +195,5 @@ public Linker<IMarker> _ReferenceMarker { get; set; }
 #### Property Value
 
  Linker<IMarker\>
+
 

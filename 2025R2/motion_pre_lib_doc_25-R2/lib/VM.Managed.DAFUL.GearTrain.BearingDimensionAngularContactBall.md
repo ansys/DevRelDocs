@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionAngularContactBall"></a> Class BearingDimensionAngularContactBall
+# Class BearingDimensionAngularContactBall
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -121,7 +121,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionAngularContactBall__ctor"></a> BearingDimensionAngularContactBall\(\)
+### BearingDimensionAngularContactBall\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.BearingDimensionAngularContactBall" data-throw-if-not-resolved="false"></xref> class.
 
@@ -131,7 +131,7 @@ public BearingDimensionAngularContactBall()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionAngularContactBall_ActionPoint"></a> ActionPoint
+### ActionPoint
 
 Gets or sets the action point.
 
@@ -143,7 +143,7 @@ public ExpressionValueVariable ActionPoint { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionAngularContactBall_InnerRacewayShoulderDiameter2"></a> InnerRacewayShoulderDiameter2
+### InnerRacewayShoulderDiameter2
 
 Gets or sets the inner raceway shoulder diameter 2.
 
@@ -155,7 +155,7 @@ public ExpressionValueVariable InnerRacewayShoulderDiameter2 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionAngularContactBall_OuterRacewayShoulderBore2"></a> OuterRacewayShoulderBore2
+### OuterRacewayShoulderBore2
 
 Gets or sets the outer raceway shoulder bore 2.
 
@@ -169,7 +169,7 @@ public ExpressionValueVariable OuterRacewayShoulderBore2 { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionAngularContactBall_GetBuilder_VM_Managed_DAFUL_GearTrain_Bearing_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_VM_Managed_TMatrix_System_Boolean_System_Boolean_VM_Managed_CAD_BuilderMultiSubtractSimple__"></a> GetBuilder\(Bearing, RacewayType, TMatrix, bool, bool, ref BuilderMultiSubtractSimple\)
+### GetBuilder\(Bearing, RacewayType, TMatrix, bool, bool, ref BuilderMultiSubtractSimple\)
 
 Gets the builder.
 
@@ -203,7 +203,7 @@ The reverse direction falg.
 
 The builder.
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionAngularContactBall_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -220,4 +220,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The update event information.
+
 

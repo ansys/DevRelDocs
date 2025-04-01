@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_IBearing"></a> Interface IBearing
+# Interface IBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IBearing
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_IBearing_BearingBodies"></a> BearingBodies
+### BearingBodies
 
 Gets or sets the bearing bodies.
 
@@ -29,7 +29,7 @@ GeometryBase[] BearingBodies { get; set; }
 
  [GeometryBase](VM.Managed.DAFUL.GearTrain.CAD.GeometryBase.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_IBearing_PICandidates"></a> PICandidates
+### PICandidates
 
 Gets the array of performance index candidate.
 
@@ -43,7 +43,7 @@ PerformanceIndexInformation[] PICandidates { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_IBearing_FillBearingData_VM_Managed_Document_System_String_System_String_System_String_System_String___"></a> FillBearingData\(Document, string, string, string, string\[\]\)
+### FillBearingData\(Document, string, string, string, string\[\]\)
 
 Fill bearing data
 
@@ -77,7 +77,7 @@ The input array
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_IBearing_RemoveBuilder_VM_Managed_CAD_Builder_"></a> RemoveBuilder\(Builder\)
+### RemoveBuilder\(Builder\)
 
 Removes the builder.
 
@@ -90,4 +90,5 @@ void RemoveBuilder(Builder bui)
 `bui` Builder
 
 The bui.
+
 

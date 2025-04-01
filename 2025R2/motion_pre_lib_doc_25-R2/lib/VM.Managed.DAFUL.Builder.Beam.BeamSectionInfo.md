@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Beam_BeamSectionInfo"></a> Class BeamSectionInfo
+# Class BeamSectionInfo
 
 Namespace: [VM.Managed.DAFUL.Builder.Beam](VM.Managed.DAFUL.Builder.Beam.md)  
 Assembly: VMBldBeamGroup.dll  
@@ -20,7 +20,7 @@ public class BeamSectionInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BeamSectionInfo__ctor"></a> BeamSectionInfo\(\)
+### BeamSectionInfo\(\)
 
 ```csharp
 public BeamSectionInfo()
@@ -28,7 +28,7 @@ public BeamSectionInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BeamSectionInfo_CrossSection"></a> CrossSection
+### CrossSection
 
 ```csharp
 public CrossSectionType CrossSection { get; set; }
@@ -38,7 +38,7 @@ public CrossSectionType CrossSection { get; set; }
 
  CrossSectionType
 
-### <a id="VM_Managed_DAFUL_Builder_Beam_BeamSectionInfo_CrossSectionValueInfo"></a> CrossSectionValueInfo
+### CrossSectionValueInfo
 
 ```csharp
 public string[] CrossSectionValueInfo { get; set; }
@@ -47,4 +47,5 @@ public string[] CrossSectionValueInfo { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History"></a> Namespace VM.Managed.History
+# Namespace VM.Managed.History
 
 ### Classes
 
@@ -109,4 +109,5 @@ History addon for refresh assembled body
  [DocumentSimpleValueModifiedEvent<T\>.PostExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PostExecuteCallback.md)
 
  [DocumentSimpleValueModifiedEvent<T\>.PreExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PreExecuteCallback.md)
+
 

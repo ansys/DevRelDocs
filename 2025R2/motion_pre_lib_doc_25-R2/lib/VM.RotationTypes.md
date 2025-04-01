@@ -1,9 +1,9 @@
-# <a id="VM_RotationTypes"></a> Enum RotationTypes
+# Enum RotationTypes
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
 
-Specifies Rotation Type.
+<p>Specifies Rotation Type.</p>
 
 ```csharp
 public enum RotationTypes
@@ -13,13 +13,14 @@ public enum RotationTypes
 
 `EulerAngle = 0` 
 
-EulerAngle
+<p>EulerAngle</p>
 
 
 
 `FixedAngle = 1` 
 
-FixedAngle
+<p>FixedAngle</p>
+
 
 
 

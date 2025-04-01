@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_SetNode"></a> Class SetNode
+# Class SetNode
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_SetNode__ctor"></a> SetNode\(\)
+### SetNode\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.SetNode" data-throw-if-not-resolved="false"></xref> class.
 
@@ -207,7 +207,7 @@ public SetNode()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -219,7 +219,7 @@ public virtual ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_Color"></a> Color
+### Color
 
 Gets or sets the color.
 
@@ -231,7 +231,7 @@ public override Color Color { set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_Count"></a> Count
+### Count
 
 Gets the node count of this instance.
 
@@ -243,7 +243,7 @@ public uint Count { get; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_IsVisible"></a> IsVisible
+### IsVisible
 
 Gets or sets a value indicating whether object is visible.
 
@@ -255,7 +255,7 @@ bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_Layer"></a> Layer
+### Layer
 
 Gets or sets the layer.
 
@@ -267,7 +267,7 @@ Layer Layer { get; set; }
 
  Layer
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_NodeIndexCont"></a> NodeIndexCont
+### NodeIndexCont
 
 Gets the node index container.
 
@@ -279,7 +279,7 @@ public SetNode.NodeIndexContainer NodeIndexCont { get; set; }
 
  [SetNode](VM.Managed.DAFUL.FE.SetNode.md).[NodeIndexContainer](VM.Managed.DAFUL.FE.SetNode.NodeIndexContainer.md)
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_NodeShape"></a> NodeShape
+### NodeShape
 
 Gets or sets the node shape.
 
@@ -291,7 +291,7 @@ public MarkerType NodeShape { get; set; }
 
  MarkerType
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_RBEInformation"></a> RBEInformation
+### RBEInformation
 
 Gets or sets the rbe info.
 
@@ -303,7 +303,7 @@ public RBEInfo RBEInformation { get; set; }
 
  [RBEInfo](VM.Managed.DAFUL.FE.RBEInfo.md)
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -315,7 +315,7 @@ public virtual string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_Item_System_UInt32_"></a> this\[uint\]
+### this\[uint\]
 
 ```csharp
 public Node this[uint A_0] { get; }
@@ -327,7 +327,7 @@ public Node this[uint A_0] { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_AddNodes_System_UInt32___"></a> AddNodes\(uint\[\]\)
+### AddNodes\(uint\[\]\)
 
 Add nodes.
 
@@ -341,7 +341,7 @@ public void AddNodes(uint[] nodeIndexes)
 
 The node index array.
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_AddNodes_System_Collections_Generic_ICollection_System_UInt32__"></a> AddNodes\(ICollection<uint\>\)
+### AddNodes\(ICollection<uint\>\)
 
 ```csharp
 public void AddNodes(ICollection<uint> nodeIndexes)
@@ -351,7 +351,7 @@ public void AddNodes(ICollection<uint> nodeIndexes)
 
 `nodeIndexes` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_AddNodes_VM_Managed_DAFUL_FE_Node___"></a> AddNodes\(Node\[\]\)
+### AddNodes\(Node\[\]\)
 
 Add nodes.
 
@@ -365,7 +365,7 @@ public void AddNodes(Node[] nodes)
 
 The node array.
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_AddNodes_System_Collections_Generic_ICollection_VM_Managed_DAFUL_FE_Node__"></a> AddNodes\(ICollection<Node\>\)
+### AddNodes\(ICollection<Node\>\)
 
 ```csharp
 public void AddNodes(ICollection<Node> nodes)
@@ -375,13 +375,13 @@ public void AddNodes(ICollection<Node> nodes)
 
 `nodes` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Node](VM.Managed.DAFUL.FE.Node.md)\>
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_ConnectProxy"></a> ConnectProxy\(\)
+### ConnectProxy\(\)
 
 ```csharp
 public override void ConnectProxy()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -398,7 +398,7 @@ public virtual XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -410,7 +410,7 @@ public override void Initialize(Unit.ConvertFactor A_0)
 
 `A_0` Unit.ConvertFactor
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -424,13 +424,13 @@ public override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_PostOpenDocument"></a> PostOpenDocument\(\)
+### PostOpenDocument\(\)
 
 ```csharp
 protected override void PostOpenDocument()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -444,7 +444,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_RemoveNodes_VM_Managed_DAFUL_FE_Node___"></a> RemoveNodes\(Node\[\]\)
+### RemoveNodes\(Node\[\]\)
 
 Remove nodes.
 
@@ -458,7 +458,7 @@ public void RemoveNodes(Node[] nodes)
 
 The node array.
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_RemoveNodes_System_Collections_Generic_ICollection_VM_Managed_DAFUL_FE_Node__"></a> RemoveNodes\(ICollection<Node\>\)
+### RemoveNodes\(ICollection<Node\>\)
 
 ```csharp
 public void RemoveNodes(ICollection<Node> nodes)
@@ -468,7 +468,7 @@ public void RemoveNodes(ICollection<Node> nodes)
 
 `nodes` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Node](VM.Managed.DAFUL.FE.Node.md)\>
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_RemoveNodes_System_UInt32___"></a> RemoveNodes\(uint\[\]\)
+### RemoveNodes\(uint\[\]\)
 
 Remove nodes.
 
@@ -482,7 +482,7 @@ public void RemoveNodes(uint[] nodeIndexes)
 
 The node index array.
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_RemoveNodes_System_Collections_Generic_ICollection_System_UInt32__"></a> RemoveNodes\(ICollection<uint\>\)
+### RemoveNodes\(ICollection<uint\>\)
 
 ```csharp
 public void RemoveNodes(ICollection<uint> nodeIndexes)
@@ -492,13 +492,13 @@ public void RemoveNodes(ICollection<uint> nodeIndexes)
 
 `nodeIndexes` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_SetRBEInfo"></a> SetRBEInfo\(\)
+### SetRBEInfo\(\)
 
 ```csharp
 public void SetRBEInfo()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_SetNode_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -511,4 +511,5 @@ public virtual void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

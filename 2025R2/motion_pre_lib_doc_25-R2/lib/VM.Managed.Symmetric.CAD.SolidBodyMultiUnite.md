@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_CAD_SolidBodyMultiUnite"></a> Class SolidBodyMultiUnite
+# Class SolidBodyMultiUnite
 
 Namespace: [VM.Managed.Symmetric.CAD](VM.Managed.Symmetric.CAD.md)  
 Assembly: VMSymBase.dll  
@@ -30,7 +30,7 @@ ISymmetricUpdater
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_CAD_SolidBodyMultiUnite__ctor"></a> SolidBodyMultiUnite\(\)
+### SolidBodyMultiUnite\(\)
 
 ```csharp
 public SolidBodyMultiUnite()
@@ -38,7 +38,7 @@ public SolidBodyMultiUnite()
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_CAD_SolidBodyMultiUnite_Initialize_VM_Managed_Symmetric_ISymmetricManager_"></a> Initialize\(ISymmetricManager\)
+### Initialize\(ISymmetricManager\)
 
 Initialize the symmetric objects.
 
@@ -56,7 +56,7 @@ public virtual bool Initialize(ISymmetricManager Manager)
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Symmetric_CAD_SolidBodyMultiUnite_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -89,4 +89,5 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

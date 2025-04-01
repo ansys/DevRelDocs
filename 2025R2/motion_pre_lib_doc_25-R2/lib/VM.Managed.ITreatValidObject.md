@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ITreatValidObject"></a> Interface ITreatValidObject
+# Interface ITreatValidObject
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface ITreatValidObject
 
 ## Methods
 
-### <a id="VM_Managed_ITreatValidObject_AddInvalidObject_System_UIntPtr_"></a> AddInvalidObject\(UIntPtr\)
+### AddInvalidObject\(UIntPtr\)
 
 Add Invalid object.
 
@@ -30,4 +30,5 @@ void AddInvalidObject(UIntPtr ptrKey)
 `ptrKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
 The key.
+
 

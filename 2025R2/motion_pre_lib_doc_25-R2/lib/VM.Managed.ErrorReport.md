@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ErrorReport"></a> Class ErrorReport
+# Class ErrorReport
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class ErrorReport
 
 ## Constructors
 
-### <a id="VM_Managed_ErrorReport__ctor"></a> ErrorReport\(\)
+### ErrorReport\(\)
 
 ```csharp
 public ErrorReport()
@@ -30,7 +30,7 @@ public ErrorReport()
 
 ## Properties
 
-### <a id="VM_Managed_ErrorReport_Error"></a> Error
+### Error
 
 ```csharp
 public string Error { get; set; }
@@ -40,7 +40,7 @@ public string Error { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_ErrorReport_ErrorCode"></a> ErrorCode
+### ErrorCode
 
 ```csharp
 public uint ErrorCode { get; set; }
@@ -50,7 +50,7 @@ public uint ErrorCode { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_ErrorReport_ErrorObject"></a> ErrorObject
+### ErrorObject
 
 ```csharp
 public ObjectBase ErrorObject { get; set; }
@@ -62,7 +62,7 @@ public ObjectBase ErrorObject { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_ErrorReport_ToString"></a> ToString\(\)
+### ToString\(\)
 
 ```csharp
 public override string ToString()
@@ -71,4 +71,5 @@ public override string ToString()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

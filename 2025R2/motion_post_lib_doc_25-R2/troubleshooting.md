@@ -4,16 +4,16 @@
 * When installing Pythonnet, a clr-related error may occur.
 One possible reason for this is that there are two packages with the name clr: one used by Pythonnet, and another unrelated package.
 This can cause a conflict.
-If such a conflict arises, you can try the following steps:
+* If such a conflict arises, you can try the following steps:
 
 	1. Uninstall the conflicting clr package:
-	```
-	pip uninstall clr
-	```
+		```python
+		pip uninstall clr
+		```
 	2. Install pythonnet:
-	```
-	pip install pythonnet
-	```
+		```python
+		pip install pythonnet
+		```
 
 By reinstalling Pythonnet, you'll ensure that the correct clr module is used for interacting with .NET
 
@@ -45,9 +45,9 @@ To resolve this, follow the steps below. This solution applies to Motion version
 * Issue Resolution Steps
 	1. 	Please add the following line at the beginning of the xxx.py script file: 
 
-```python
-# -*- coding: utf-8 -*-
-```
+		```python
+		# -*- coding: utf-8 -*-
+		```
 
 ## Issues when using Operation API and Result File Reader API together
 * When using the Operation API and Result File Reader API simultaneously, the following error may occur.

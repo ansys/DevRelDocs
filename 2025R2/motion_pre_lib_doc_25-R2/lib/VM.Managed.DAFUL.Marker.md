@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Marker"></a> Class Marker
+# Class Marker
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -222,7 +222,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Marker__ctor"></a> Marker\(\)
+### Marker\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Marker" data-throw-if-not-resolved="false"></xref> class.
 
@@ -230,7 +230,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Marker" data-thro
 public Marker()
 ```
 
-### <a id="VM_Managed_DAFUL_Marker__ctor_System_String_"></a> Marker\(string\)
+### Marker\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Marker" data-throw-if-not-resolved="false"></xref> class.
 
@@ -246,7 +246,7 @@ Name of the marker.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Marker_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -258,7 +258,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Marker_FrameIconName"></a> FrameIconName
+### FrameIconName
 
 Gets the name of the frame icon.
 In order to distinguish from Marker.
@@ -271,7 +271,7 @@ protected override string FrameIconName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Marker_ParentConnectable"></a> ParentConnectable
+### ParentConnectable
 
 Gets or sets the parent connectable.
 
@@ -283,7 +283,7 @@ public IConnectable ParentConnectable { get; set; }
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)
 
-### <a id="VM_Managed_DAFUL_Marker_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the reference.
 
@@ -295,7 +295,7 @@ public string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Marker__ParentConnectable"></a> \_ParentConnectable
+### \_ParentConnectable
 
 Gets or sets the parent connectable.
 
@@ -309,7 +309,7 @@ public Linker<IConnectable> _ParentConnectable { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Marker_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -337,7 +337,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Marker_GetModelNavigatorInformationImplCore_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImplCore\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImplCore\(XmlDocument, XmlElement, bool\)
 
 Gets the model navigator information impl core.
 
@@ -363,7 +363,7 @@ if set to <code>true</code> [b has child].
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Marker_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -377,7 +377,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Marker_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -395,7 +395,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Marker_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -413,7 +413,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Marker_LinkRequestUpdating_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdating\(object, LinkEventArgs\)
+### LinkRequestUpdating\(object, LinkEventArgs\)
 
 Request for updating the linked object.
 
@@ -431,7 +431,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Marker_SetOldNameWithNewEntity_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)
+### SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)
 
 Change for the new name.
 
@@ -448,4 +448,5 @@ The new object.
 `obOld` ObjectBase
 
 The old object.
+
 

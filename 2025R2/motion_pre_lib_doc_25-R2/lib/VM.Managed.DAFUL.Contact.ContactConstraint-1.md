@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_ContactConstraint_1"></a> Class ContactConstraint<TProperty\>
+# Class ContactConstraint<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -251,7 +251,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_ContactConstraint_1__ctor"></a> ContactConstraint\(\)
+### ContactConstraint\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactConstraint%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -259,7 +259,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactCo
 protected ContactConstraint()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_ContactConstraint_1__ctor_System_String_"></a> ContactConstraint\(string\)
+### ContactConstraint\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactConstraint%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -275,7 +275,7 @@ Name of the [contact constraint].
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_ContactConstraint_1_TargetType"></a> TargetType
+### TargetType
 
 Gets the type of the target.
 
@@ -287,7 +287,7 @@ public abstract string TargetType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Contact_ContactConstraint_1_Use"></a> Use
+### Use
 
 Gets a value indicating whether use this instance.
 
@@ -301,7 +301,7 @@ public abstract bool Use { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_ContactConstraint_1_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 ```csharp
 protected override bool GetModelNavigatorInformationImpl(XmlDocument xmlDom, XmlElement xmlEle, bool bHasChild)
@@ -326,4 +326,5 @@ if set to <code>true</code> [has child].
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

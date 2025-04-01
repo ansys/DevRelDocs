@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Connections_MultipleConnectorBase"></a> Class MultipleConnectorBase
+# Class MultipleConnectorBase
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
@@ -209,7 +209,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Connections_MultipleConnectorBase__ctor"></a> MultipleConnectorBase\(\)
+### MultipleConnectorBase\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Connections.MultipleConnectorBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -217,7 +217,7 @@ Initializes a new instance of the <xref href="VM.Models.Pre.Connections.Multiple
 public MultipleConnectorBase()
 ```
 
-### <a id="VM_Models_Pre_Connections_MultipleConnectorBase__ctor_System_String_"></a> MultipleConnectorBase\(string\)
+### MultipleConnectorBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Connections.MultipleConnectorBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -233,7 +233,7 @@ Name of the contact.
 
 ## Properties
 
-### <a id="VM_Models_Pre_Connections_MultipleConnectorBase_TypeOfMultiConnector"></a> TypeOfMultiConnector
+### TypeOfMultiConnector
 
 Gets or sets the multi connector type.
 
@@ -245,7 +245,7 @@ public MultiConnectorType TypeOfMultiConnector { get; set; }
 
  [MultiConnectorType](VM.Models.Pre.Connections.MultiConnectorType.md)
 
-### <a id="VM_Models_Pre_Connections_MultipleConnectorBase_TypeOfMultiGeneralConnector"></a> TypeOfMultiGeneralConnector
+### TypeOfMultiGeneralConnector
 
 Gets or sets the multi general connector type.
 
@@ -256,4 +256,5 @@ public PropertyGeneral.ConnectorType TypeOfMultiGeneralConnector { get; set; }
 #### Property Value
 
  [PropertyGeneral](VM.Models.Pre.Connections.PropertyGeneral.md).[ConnectorType](VM.Models.Pre.Connections.PropertyGeneral.ConnectorType.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Direction"></a> Class Direction
+# Class Direction
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -115,7 +115,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Direction__ctor_VM_Managed_VectorBase_"></a> Direction\(VectorBase\)
+### Direction\(VectorBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.Direction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -129,7 +129,7 @@ public Direction(VectorBase vecValue)
 
 Value of direction.
 
-### <a id="VM_Managed_Direction__ctor_System_String_"></a> Direction\(string\)
+### Direction\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Direction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -143,7 +143,7 @@ public Direction(string strValue)
 
 Value of direction.
 
-### <a id="VM_Managed_Direction__ctor"></a> Direction\(\)
+### Direction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Direction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -153,7 +153,7 @@ public Direction()
 
 ## Properties
 
-### <a id="VM_Managed_Direction_Value"></a> Value
+### Value
 
 Gets or sets the value of direction.
 
@@ -167,7 +167,7 @@ public VectorBase Value { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Direction_ConvertToValue_System_String_"></a> ConvertToValue\(string\)
+### ConvertToValue\(string\)
 
 Convert to value.
 
@@ -185,7 +185,7 @@ The string.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Direction_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -199,7 +199,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_Direction_ParseToValue_System_Char__"></a> ParseToValue\(char\*\)
+### ParseToValue\(char\*\)
 
 Parse to value.
 
@@ -213,7 +213,7 @@ protected override void ParseToValue(char* wstrValue)
 
 The string.
 
-### <a id="VM_Managed_Direction_SetDefaultString_System_String__"></a> SetDefaultString\(ref string\)
+### SetDefaultString\(ref string\)
 
 Set default string.
 
@@ -226,4 +226,5 @@ protected override void SetDefaultString(ref string strValue)
 `strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The value holds default string.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_ShoeProfileSingle"></a> Class ShoeProfileSingle
+# Class ShoeProfileSingle
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -57,7 +57,7 @@ public class ShoeProfileSingle : ShoeProfileParametric
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSingle__ctor"></a> ShoeProfileSingle\(\)
+### ShoeProfileSingle\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeProfileSingle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -67,7 +67,7 @@ public ShoeProfileSingle()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSingle_LDQ2"></a> LDQ2
+### LDQ2
 
 Gets and sets longitudinal distance from reference position to q2.
 
@@ -79,7 +79,7 @@ public double LDQ2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSingle_RQ2"></a> RQ2
+### RQ2
 
 Gets and sets arc radius with respect to q2.
 
@@ -91,7 +91,7 @@ public double RQ2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSingle_VDQ2"></a> VDQ2
+### VDQ2
 
 Gets and sets vertical distance from reference position to q2.
 
@@ -105,7 +105,7 @@ public double VDQ2 { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSingle_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
+### CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -113,7 +113,7 @@ Checks the validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSingle_CreateProfile"></a> CreateProfile\(\)
+### CreateProfile\(\)
 
 Create profile data.
 
@@ -125,17 +125,18 @@ protected override bool CreateProfile()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSingle_SetInitializeValue"></a> SetInitializeValue\(\)
+### SetInitializeValue\(\)
 
 ```csharp
 public override void SetInitializeValue()
 ```
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileSingle_Validation"></a> Validation\(\)
+### Validation\(\)
 
 Check validation for member variables.
 
 ```csharp
 public override void Validation()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyPTCV"></a> Class PropertyPTCV
+# Class PropertyPTCV
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -171,7 +171,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyPTCV__ctor"></a> PropertyPTCV\(\)
+### PropertyPTCV\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyPTCV" data-throw-if-not-resolved="false"></xref> class.
 
@@ -181,7 +181,7 @@ public PropertyPTCV()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyPTCV_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -193,7 +193,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyPTCV_BaseClearance"></a> BaseClearance
+### BaseClearance
 
 Gets or sets the base clearance.
 
@@ -205,7 +205,7 @@ public ExpressionValueVariable BaseClearance { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyPTCV_Driver"></a> Driver
+### Driver
 
 Gets or sets the driver.
 
@@ -217,7 +217,7 @@ public Driver Driver { get; set; }
 
  Driver
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyPTCV_StiffScaleFactor"></a> StiffScaleFactor
+### StiffScaleFactor
 
 Gets or sets the stiffness scale factor.
 
@@ -231,7 +231,7 @@ public ExpressionValueVariable StiffScaleFactor { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyPTCV_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -244,4 +244,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

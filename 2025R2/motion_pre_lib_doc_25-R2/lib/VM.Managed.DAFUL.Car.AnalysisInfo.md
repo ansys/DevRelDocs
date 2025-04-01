@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisInfo"></a> Class AnalysisInfo
+# Class AnalysisInfo
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -22,7 +22,7 @@ public class AnalysisInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo__ctor"></a> AnalysisInfo\(\)
+### AnalysisInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -30,7 +30,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisInfo"
 public AnalysisInfo()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisInfo\(ILinkContainer\)
+### AnalysisInfo\(ILinkContainer\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,7 +46,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_AngleUnitType"></a> AngleUnitType
+### AngleUnitType
 
 Gets or sets the angle unit.
 
@@ -58,7 +58,7 @@ public AngleUnitType AngleUnitType { get; set; }
 
  [AngleUnitType](VM.Managed.DAFUL.Car.Analysis.AngleUnitType.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Final_CamberAngle"></a> Final\_CamberAngle
+### Final\_CamberAngle
 
 Gets or sets the final camber angle.
 
@@ -70,7 +70,7 @@ public double Final_CamberAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Final_SlipAngle"></a> Final\_SlipAngle
+### Final\_SlipAngle
 
 Gets or sets the final slip angle.
 
@@ -82,7 +82,7 @@ public double Final_SlipAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Final_SlipRatio"></a> Final\_SlipRatio
+### Final\_SlipRatio
 
 Gets or sets the final slip ratio.
 
@@ -94,7 +94,7 @@ public double Final_SlipRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Final_Velocity"></a> Final\_Velocity
+### Final\_Velocity
 
 Gets or sets the final velocity.
 
@@ -106,7 +106,7 @@ public double Final_Velocity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Final_VerticalLoad"></a> Final\_VerticalLoad
+### Final\_VerticalLoad
 
 Gets or sets the final vertical load.
 
@@ -118,7 +118,7 @@ public double Final_VerticalLoad { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_InitVelocity"></a> InitVelocity
+### InitVelocity
 
 Gets or sets the initial velocity.
 
@@ -130,7 +130,7 @@ public double InitVelocity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_InitVerticalLoad"></a> InitVerticalLoad
+### InitVerticalLoad
 
 Gets or sets the initial vertical load.
 
@@ -142,7 +142,7 @@ public double InitVerticalLoad { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Initial_CamberAngle"></a> Initial\_CamberAngle
+### Initial\_CamberAngle
 
 Gets or sets the initial camber angle.
 
@@ -154,7 +154,7 @@ public double Initial_CamberAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Initial_SlipAngle"></a> Initial\_SlipAngle
+### Initial\_SlipAngle
 
 Gets or sets the initial slip angle.
 
@@ -166,7 +166,7 @@ public double Initial_SlipAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_Initial_SlipRatio"></a> Initial\_SlipRatio
+### Initial\_SlipRatio
 
 Gets or sets the initial slip ratio.
 
@@ -178,7 +178,7 @@ public double Initial_SlipRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_LongitudinalSlipType"></a> LongitudinalSlipType
+### LongitudinalSlipType
 
 Gets or sets the longitudinal slip.
 
@@ -190,7 +190,7 @@ public LongtudinalSlip LongitudinalSlipType { get; set; }
 
  [LongtudinalSlip](VM.Managed.DAFUL.Car.Analysis.Full.LongtudinalSlip.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_VelocityUnitType"></a> VelocityUnitType
+### VelocityUnitType
 
 Gets or sets the velocity unit.
 
@@ -204,11 +204,12 @@ public VelocityUnitType VelocityUnitType { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisInfo_SetModified"></a> SetModified\(\)
+### SetModified\(\)
 
 Set modified flag.
 
 ```csharp
 protected void SetModified()
 ```
+
 

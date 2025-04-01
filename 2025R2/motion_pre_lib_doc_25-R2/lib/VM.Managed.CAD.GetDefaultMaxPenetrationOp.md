@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_GetDefaultMaxPenetrationOp"></a> Class GetDefaultMaxPenetrationOp
+# Class GetDefaultMaxPenetrationOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_GetDefaultMaxPenetrationOp__ctor_VM_Managed_CAD_Face_"></a> GetDefaultMaxPenetrationOp\(Face\)
+### GetDefaultMaxPenetrationOp\(Face\)
 
 ```csharp
 public GetDefaultMaxPenetrationOp(Face face)
@@ -87,7 +87,7 @@ public GetDefaultMaxPenetrationOp(Face face)
 
 `face` [Face](VM.Managed.CAD.Face.md)
 
-### <a id="VM_Managed_CAD_GetDefaultMaxPenetrationOp__ctor"></a> GetDefaultMaxPenetrationOp\(\)
+### GetDefaultMaxPenetrationOp\(\)
 
 ```csharp
 public GetDefaultMaxPenetrationOp()
@@ -95,7 +95,7 @@ public GetDefaultMaxPenetrationOp()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_GetDefaultMaxPenetrationOp_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the merge of history.
 
@@ -107,7 +107,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_GetDefaultMaxPenetrationOp_MaxPenetration"></a> MaxPenetration
+### MaxPenetration
 
 Gets the Max Penetration.
 
@@ -119,7 +119,7 @@ public double MaxPenetration { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_GetDefaultMaxPenetrationOp_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -131,7 +131,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_CAD_GetDefaultMaxPenetrationOp_Result"></a> Result
+### Result
 
 Gets the result.
 
@@ -145,11 +145,12 @@ public bool Result { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_GetDefaultMaxPenetrationOp_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

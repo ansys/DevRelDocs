@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisSteadySingle"></a> Class AnalysisSteadySingle
+# Class AnalysisSteadySingle
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -43,7 +43,7 @@ IHasInitialVel
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisSteadySingle__ctor"></a> AnalysisSteadySingle\(\)
+### AnalysisSteadySingle\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSteadySingle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -51,7 +51,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisStead
 public AnalysisSteadySingle()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisSteadySingle__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisSteadySingle\(ILinkContainer\)
+### AnalysisSteadySingle\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSteadySingle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -67,7 +67,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisSteadySingle_InitialVelocity"></a> InitialVelocity
+### InitialVelocity
 
 Gets the initial velocity.
 
@@ -79,7 +79,7 @@ protected override double InitialVelocity { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisSteadySingle_SingleInfo"></a> SingleInfo
+### SingleInfo
 
 Gets or sets the single.
 
@@ -93,7 +93,7 @@ public AnalysisInfo SingleInfo { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisSteadySingle_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
+### GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -106,4 +106,5 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
+
 

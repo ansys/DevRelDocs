@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Analysis_VelocityUnitType"></a> Enum VelocityUnitType
+# Enum VelocityUnitType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis](VM.Managed.DAFUL.Car.Analysis.md)  
 Assembly: VMDCar.dll  
@@ -32,6 +32,7 @@ mile/hr
 `mm_s = 3` 
 
 mm/s
+
 
 
 

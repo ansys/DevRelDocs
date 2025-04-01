@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_PinShapeContent"></a> Class PinShapeContent
+# Class PinShapeContent
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PinShapeContent__ctor"></a> PinShapeContent\(\)
+### PinShapeContent\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.SegmentStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public PinShapeContent()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PinShapeContent_Radius"></a> Radius
+### Radius
 
 Gets or sets the radius.
 
@@ -124,7 +124,7 @@ public ExpressionValueVariable Radius { get; set; }
 
 The radius is null.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PinShapeContent_X"></a> X
+### X
 
 Gets or sets the x.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable X { get; set; }
 
 The x is null.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PinShapeContent_Y"></a> Y
+### Y
 
 Gets or sets the y.
 
@@ -160,7 +160,7 @@ public ExpressionValueVariable Y { get; set; }
 
 The y is null.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PinShapeContent_Z"></a> Z
+### Z
 
 Gets or sets the z.
 
@@ -180,7 +180,7 @@ The z is null.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PinShapeContent_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -194,7 +194,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_CPlacingConnector_PinShapeContent_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -207,4 +207,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

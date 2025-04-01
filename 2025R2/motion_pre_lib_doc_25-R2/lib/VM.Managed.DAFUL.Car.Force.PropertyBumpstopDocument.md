@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Force_PropertyBumpstopDocument"></a> Class PropertyBumpstopDocument
+# Class PropertyBumpstopDocument
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -309,11 +309,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyBumpstopDocument__ctor"></a> PropertyBumpstopDocument\(\)
+### PropertyBumpstopDocument\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertyBumpstopDocument" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyBumpstopDocument()
 ```
+
 

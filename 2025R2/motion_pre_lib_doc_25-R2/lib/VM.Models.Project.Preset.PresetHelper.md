@@ -1,4 +1,4 @@
-# <a id="VM_Models_Project_Preset_PresetHelper"></a> Class PresetHelper
+# Class PresetHelper
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -20,7 +20,7 @@ public static class PresetHelper
 
 ## Methods
 
-### <a id="VM_Models_Project_Preset_PresetHelper_GetScenarios"></a> GetScenarios\(\)
+### GetScenarios\(\)
 
 ```csharp
 public static IEnumerable<IScenario> GetScenarios()
@@ -29,4 +29,5 @@ public static IEnumerable<IScenario> GetScenarios()
 #### Returns
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IScenario\>
+
 

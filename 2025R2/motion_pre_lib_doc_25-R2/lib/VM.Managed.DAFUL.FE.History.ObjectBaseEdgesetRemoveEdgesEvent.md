@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_History_ObjectBaseEdgesetRemoveEdgesEvent"></a> Class ObjectBaseEdgesetRemoveEdgesEvent
+# Class ObjectBaseEdgesetRemoveEdgesEvent
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  
@@ -44,7 +44,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseEdgesetRemoveEdgesEvent__ctor_System_Object_System_Collections_Generic_ICollection_System_Tuple_System_UInt32_System_UInt32___"></a> ObjectBaseEdgesetRemoveEdgesEvent\(object, ICollection<Tuple<uint, uint\>\>\)
+### ObjectBaseEdgesetRemoveEdgesEvent\(object, ICollection<Tuple<uint, uint\>\>\)
 
 ```csharp
 public ObjectBaseEdgesetRemoveEdgesEvent(object obOriginal, ICollection<Tuple<uint, uint>> edges)
@@ -58,7 +58,7 @@ public ObjectBaseEdgesetRemoveEdgesEvent(object obOriginal, ICollection<Tuple<ui
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseEdgesetRemoveEdgesEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
+### Redo\(HistoryEventArgs\)
 
 ```csharp
 public override void Redo(HistoryEventArgs args)
@@ -68,7 +68,7 @@ public override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseEdgesetRemoveEdgesEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
+### Undo\(HistoryEventArgs\)
 
 ```csharp
 public override void Undo(HistoryEventArgs args)
@@ -77,4 +77,5 @@ public override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
+
 

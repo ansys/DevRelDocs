@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MultiObjectContainer"></a> Class MultiObjectContainer
+# Class MultiObjectContainer
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -102,7 +102,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MultiObjectContainer__ctor"></a> MultiObjectContainer\(\)
+### MultiObjectContainer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectContainer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -110,7 +110,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectContai
 protected MultiObjectContainer()
 ```
 
-### <a id="VM_Managed_DAFUL_MultiObjectContainer__ctor_System_Collections_ICollection_"></a> MultiObjectContainer\(ICollection\)
+### MultiObjectContainer\(ICollection\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectContainer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -126,7 +126,7 @@ The collection of action objects.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MultiObjectContainer_Collection"></a> Collection
+### Collection
 
 Gets the collection interface of this container.
 
@@ -138,7 +138,7 @@ public ICollection<MultiObjectTarget> Collection { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[MultiObjectTarget](VM.Managed.DAFUL.MultiObjectTarget.md)\>
 
-### <a id="VM_Managed_DAFUL_MultiObjectContainer_Count"></a> Count
+### Count
 
 Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -150,7 +150,7 @@ protected abstract int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_MultiObjectContainer_ObjectBaseList"></a> ObjectBaseList
+### ObjectBaseList
 
 Gets or sets the object list.
 
@@ -162,7 +162,7 @@ protected IList<ObjectBase> ObjectBaseList { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<ObjectBase\>
 
-### <a id="VM_Managed_DAFUL_MultiObjectContainer_ObjectList"></a> ObjectList
+### ObjectList
 
 Gets or sets the object list.
 
@@ -175,7 +175,7 @@ protected List<Link<ObjectBase, LinkContainer.None, LinkContainer.Update, LinkCo
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Link<ObjectBase, LinkContainer.None, LinkContainer.Update, LinkContainer.None\>\>
 
-### <a id="VM_Managed_DAFUL_MultiObjectContainer_Objects"></a> Objects
+### Objects
 
 Gets or sets the action objects.
 
@@ -187,7 +187,7 @@ public ObjectBase[] Objects { get; set; }
 
  ObjectBase\[\]
 
-### <a id="VM_Managed_DAFUL_MultiObjectContainer_SwapActionBase"></a> SwapActionBase
+### SwapActionBase
 
 Gets or sets a value indicating whether swap base and action object or not.
 
@@ -201,7 +201,7 @@ public bool SwapActionBase { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MultiObjectContainer_GetEnumerator"></a> GetEnumerator\(\)
+### GetEnumerator\(\)
 
 Returns an enumerator that iterates through a collection.
 
@@ -215,7 +215,7 @@ protected abstract IEnumerator<MultiObjectTarget> GetEnumerator()
 
 An <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> object that can be used to iterate through the collection.
 
-### <a id="VM_Managed_DAFUL_MultiObjectContainer_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 ```csharp
 protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
@@ -227,7 +227,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 `arg` LinkEventArgs
 
-### <a id="VM_Managed_DAFUL_MultiObjectContainer_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -240,4 +240,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

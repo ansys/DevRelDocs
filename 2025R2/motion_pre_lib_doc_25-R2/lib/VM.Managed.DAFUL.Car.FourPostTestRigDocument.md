@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_FourPostTestRigDocument"></a> Class FourPostTestRigDocument
+# Class FourPostTestRigDocument
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -628,7 +628,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_FourPostTestRigDocument__ctor_System_UIntPtr_"></a> FourPostTestRigDocument\(UIntPtr\)
+### FourPostTestRigDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.VehicleTestRigDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -644,7 +644,7 @@ The document handle.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_FourPostTestRigDocument_InitialCategories"></a> InitialCategories
+### InitialCategories
 
 Gets the initial categories.
 
@@ -656,7 +656,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Car_FourPostTestRigDocument_SimulationScenarioTypeName"></a> SimulationScenarioTypeName
+### SimulationScenarioTypeName
 
 Gets the name of the simulation scenario type.
 
@@ -670,7 +670,7 @@ public override string SimulationScenarioTypeName { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_FourPostTestRigDocument_FindCategory_System_String_"></a> FindCategory\(string\)
+### FindCategory\(string\)
 
 Finds the category.
 
@@ -690,7 +690,7 @@ The fullname of type.
 
 The category.
 
-### <a id="VM_Managed_DAFUL_Car_FourPostTestRigDocument_GetAnalysisFromSimulationConfigurations_VM_Managed_DAFUL_Car_FourPostAnalysisType_"></a> GetAnalysisFromSimulationConfigurations\(FourPostAnalysisType\)
+### GetAnalysisFromSimulationConfigurations\(FourPostAnalysisType\)
 
 Gets the analysis from simulation configurations.
 
@@ -708,7 +708,7 @@ The type.
 
  AnalysisBase
 
-### <a id="VM_Managed_DAFUL_Car_FourPostTestRigDocument_GetFourPostConfigurationFromSimulationConfigurations_VM_Managed_DAFUL_Car_FourPostAnalysisType_"></a> GetFourPostConfigurationFromSimulationConfigurations\(FourPostAnalysisType\)
+### GetFourPostConfigurationFromSimulationConfigurations\(FourPostAnalysisType\)
 
 Gets the four post configuration from simulation configurations.
 
@@ -726,7 +726,7 @@ The type.
 
  [FourPostAnalysisConfigurationBase](VM.Managed.DAFUL.Car.FourPostAnalysisConfigurationBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_FourPostTestRigDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
+### InitializeCategoryInfo\(string\)
 
 Initializes the category info.
 
@@ -740,11 +740,12 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the STR category.
 
-### <a id="VM_Managed_DAFUL_Car_FourPostTestRigDocument_InitializeSimParam"></a> InitializeSimParam\(\)
+### InitializeSimParam\(\)
 
 Initializes the simulation parameter.
 
 ```csharp
 protected override void InitializeSimParam()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Project_Preset_ThermalStep"></a> Class ThermalStep
+# Class ThermalStep
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -74,7 +74,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Project_Preset_ThermalStep__ctor_VM_Models_IScenario_"></a> ThermalStep\(IScenario\)
+### ThermalStep\(IScenario\)
 
 ```csharp
 public ThermalStep(IScenario parent)
@@ -86,7 +86,7 @@ public ThermalStep(IScenario parent)
 
 ## Properties
 
-### <a id="VM_Models_Project_Preset_ThermalStep_Name"></a> Name
+### Name
 
 ```csharp
 public override string Name { get; }
@@ -96,7 +96,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Project_Preset_ThermalStep_TargetApplicationType"></a> TargetApplicationType
+### TargetApplicationType
 
 ```csharp
 public override ApplicationTypes TargetApplicationType { get; }
@@ -106,7 +106,7 @@ public override ApplicationTypes TargetApplicationType { get; }
 
  ApplicationTypes
 
-### <a id="VM_Models_Project_Preset_ThermalStep_Type"></a> Type
+### Type
 
 ```csharp
 public override StepType Type { get; }
@@ -115,4 +115,5 @@ public override StepType Type { get; }
 #### Property Value
 
  StepType
+
 

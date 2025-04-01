@@ -1,4 +1,4 @@
-# <a id="VM_IDirectionBase"></a> Interface IDirectionBase
+# Interface IDirectionBase
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IDirectionBase
 
 ## Properties
 
-### <a id="VM_IDirectionBase_Value"></a> Value
+### Value
 
 ```csharp
 Vector Value { get; }
@@ -27,9 +27,10 @@ Vector Value { get; }
 
 ## Methods
 
-### <a id="VM_IDirectionBase_Reverse"></a> Reverse\(\)
+### Reverse\(\)
 
 ```csharp
 void Reverse()
 ```
+
 

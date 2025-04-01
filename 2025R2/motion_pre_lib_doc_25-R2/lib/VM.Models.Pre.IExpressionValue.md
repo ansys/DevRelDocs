@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IExpressionValue"></a> Interface IExpressionValue
+# Interface IExpressionValue
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,7 +15,7 @@ public interface IExpressionValue
 
 ## Properties
 
-### <a id="VM_Models_Pre_IExpressionValue_Expression"></a> Expression
+### Expression
 
 ```csharp
 string Expression { get; set; }
@@ -25,7 +25,7 @@ string Expression { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_IExpressionValue_Value"></a> Value
+### Value
 
 ```csharp
 object Value { get; }
@@ -34,4 +34,5 @@ object Value { get; }
 #### Property Value
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
+
 

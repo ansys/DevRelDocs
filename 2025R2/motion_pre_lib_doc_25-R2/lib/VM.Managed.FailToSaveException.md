@@ -1,4 +1,4 @@
-# <a id="VM_Managed_FailToSaveException"></a> Class FailToSaveException
+# Class FailToSaveException
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class FailToSaveException : Exception
 
 ## Constructors
 
-### <a id="VM_Managed_FailToSaveException__ctor_System_String_System_Exception_"></a> FailToSaveException\(string, Exception\)
+### FailToSaveException\(string, Exception\)
 
 Initializes a new instance of the <xref href="VM.Managed.FailToSaveException" data-throw-if-not-resolved="false"></xref> class
 
@@ -36,4 +36,5 @@ public FailToSaveException(string message, Exception innerException)
 `message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `innerException` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
+
 

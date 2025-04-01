@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_MTL_PathData"></a> Class MTL.PathData
+# Class MTL.PathData
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_MTL_PathData__ctor"></a> PathData\(\)
+### PathData\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.MTL.PathData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.MTL.PathDat
 public PathData()
 ```
 
-### <a id="VM_Managed_DAFUL_Track_MTL_PathData__ctor_VM_Managed_DAFUL_Track_MTL_PathData_PathType_VM_Managed_IMarker_VM_Managed_Variable_"></a> PathData\(PathType, IMarker, Variable\)
+### PathData\(PathType, IMarker, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.MTL.PathData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -128,7 +128,7 @@ The winding radius.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_MTL_PathData_CenterMarker"></a> CenterMarker
+### CenterMarker
 
 Gets or sets the center marker.
 
@@ -140,7 +140,7 @@ public IMarker CenterMarker { get; set; }
 
  IMarker
 
-### <a id="VM_Managed_DAFUL_Track_MTL_PathData_TypeOfPath"></a> TypeOfPath
+### TypeOfPath
 
 Gets or sets the path type.
 
@@ -152,7 +152,7 @@ public MTL.PathData.PathType TypeOfPath { get; set; }
 
  [MTL](VM.Managed.DAFUL.Track.MTL.md).[PathData](VM.Managed.DAFUL.Track.MTL.PathData.md).[PathType](VM.Managed.DAFUL.Track.MTL.PathData.PathType.md)
 
-### <a id="VM_Managed_DAFUL_Track_MTL_PathData_WindingRadius"></a> WindingRadius
+### WindingRadius
 
 Gets or sets the winding radius.
 
@@ -170,7 +170,7 @@ public ExpressionValueVariable WindingRadius { get; set; }
 
 The winding radius is null.
 
-### <a id="VM_Managed_DAFUL_Track_MTL_PathData__CenterMarker"></a> \_CenterMarker
+### \_CenterMarker
 
 Gets or sets the center marker.
 
@@ -184,7 +184,7 @@ public Linker<IMarker> _CenterMarker { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_MTL_PathData_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -198,7 +198,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Track_MTL_PathData_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -215,4 +215,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

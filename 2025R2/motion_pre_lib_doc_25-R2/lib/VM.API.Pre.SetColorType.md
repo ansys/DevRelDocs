@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_SetColorType"></a> Enum SetColorType
+# Enum SetColorType
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -20,6 +20,7 @@ remove
 `Set = 0` 
 
 set
+
 
 
 

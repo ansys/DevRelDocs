@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1"></a> Class ImportBase<T\>
+# Class ImportBase<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -53,7 +53,7 @@ BuilderBase<T\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1__ctor"></a> ImportBase\(\)
+### ImportBase\(\)
 
 ```csharp
 protected ImportBase()
@@ -61,7 +61,7 @@ protected ImportBase()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_m_meshDoc"></a> m\_meshDoc
+### m\_meshDoc
 
 ```csharp
 protected Document m_meshDoc
@@ -71,7 +71,7 @@ protected Document m_meshDoc
 
  Document
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_m_objExtraParam"></a> m\_objExtraParam
+### m\_objExtraParam
 
 ```csharp
 public object m_objExtraParam
@@ -83,7 +83,7 @@ public object m_objExtraParam
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_AddToDoc"></a> AddToDoc
+### AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -93,7 +93,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_AssemblyFileName"></a> AssemblyFileName
+### AssemblyFileName
 
 ```csharp
 protected virtual string AssemblyFileName { get; }
@@ -103,7 +103,7 @@ protected virtual string AssemblyFileName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_CreatedFilePath"></a> CreatedFilePath
+### CreatedFilePath
 
 ```csharp
 public string CreatedFilePath { get; }
@@ -113,7 +113,7 @@ public string CreatedFilePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_DocumentName"></a> DocumentName
+### DocumentName
 
 ```csharp
 protected virtual string DocumentName { get; }
@@ -123,7 +123,7 @@ protected virtual string DocumentName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_ExtensionName"></a> ExtensionName
+### ExtensionName
 
 ```csharp
 protected virtual string ExtensionName { get; }
@@ -135,7 +135,7 @@ protected virtual string ExtensionName { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_AddNewReference_VM_Managed_ObjectBase_"></a> AddNewReference\(ObjectBase\)
+### AddNewReference\(ObjectBase\)
 
 ```csharp
 protected void AddNewReference(ObjectBase objectBase)
@@ -145,7 +145,7 @@ protected void AddNewReference(ObjectBase objectBase)
 
 `objectBase` ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_CreateAssemble_VM_Managed_InstanceContainer_VM_Managed_Document_"></a> CreateAssemble\(InstanceContainer, Document\)
+### CreateAssemble\(InstanceContainer, Document\)
 
 ```csharp
 protected void CreateAssemble(InstanceContainer instCon, Document doc)
@@ -157,7 +157,7 @@ protected void CreateAssemble(InstanceContainer instCon, Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_CreateAssembleCore_VM_Managed_Document_"></a> CreateAssembleCore\(Document\)
+### CreateAssembleCore\(Document\)
 
 ```csharp
 protected virtual void CreateAssembleCore(Document housingDesigner)
@@ -167,7 +167,7 @@ protected virtual void CreateAssembleCore(Document housingDesigner)
 
 `housingDesigner` Document
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
+### OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -177,7 +177,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -193,7 +193,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportBase_1_OnAddEntityFromMeshDoc"></a> OnAddEntityFromMeshDoc
+### OnAddEntityFromMeshDoc
 
 ```csharp
 public event ImportBase<T>.AddEntityFromMeshDoc OnAddEntityFromMeshDoc
@@ -202,4 +202,5 @@ public event ImportBase<T>.AddEntityFromMeshDoc OnAddEntityFromMeshDoc
 #### Event Type
 
  [ImportBase](VM.Managed.DAFUL.Builder.GearTrain.ImportBase\-1.md)<T\>.[AddEntityFromMeshDoc](VM.Managed.DAFUL.Builder.GearTrain.ImportBase\-1.AddEntityFromMeshDoc.md)
+
 

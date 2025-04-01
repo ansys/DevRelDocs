@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Operation_CreateEdgeset"></a> Class CreateEdgeset
+# Class CreateEdgeset
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateEdgeset__ctor_VM_Managed_Document_"></a> CreateEdgeset\(Document\)
+### CreateEdgeset\(Document\)
 
 ```csharp
 public CreateEdgeset(Document doc)
@@ -87,7 +87,7 @@ public CreateEdgeset(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateEdgeset__ctor_VM_Managed_Document_System_UInt32___"></a> CreateEdgeset\(Document, uint\[\]\)
+### CreateEdgeset\(Document, uint\[\]\)
 
 ```csharp
 public CreateEdgeset(Document doc, uint[] arnNodeIndex)
@@ -99,7 +99,7 @@ public CreateEdgeset(Document doc, uint[] arnNodeIndex)
 
 `arnNodeIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateEdgeset__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateEdgeset\(JournalParameter\)
+### CreateEdgeset\(JournalParameter\)
 
 ```csharp
 public CreateEdgeset(JournalParameter jp)
@@ -111,7 +111,7 @@ public CreateEdgeset(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateEdgeset_Edgeset"></a> Edgeset
+### Edgeset
 
 ```csharp
 public SetEdge Edgeset { get; }
@@ -121,7 +121,7 @@ public SetEdge Edgeset { get; }
 
  SetEdge
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateEdgeset_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -135,7 +135,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateEdgeset_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -143,7 +143,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateEdgeset_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -153,7 +153,7 @@ public override void GetInformation(XmlWriter writer)
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateEdgeset_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 ```csharp
 public static void UpdateUI(IUIUpdate updater, Document doc)
@@ -164,4 +164,5 @@ public static void UpdateUI(IUIUpdate updater, Document doc)
 `updater` IUIUpdate
 
 `doc` Document
+
 

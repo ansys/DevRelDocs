@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_IMFModalable"></a> Interface IMFModalable
+# Interface IMFModalable
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface IMFModalable
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_IMFModalable_DFMFPath"></a> DFMFPath
+### DFMFPath
 
 Gets or sets the DFMF file path.
 
@@ -29,7 +29,7 @@ string DFMFPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_IMFModalable_LastModifiedTimeToDFMFFile"></a> LastModifiedTimeToDFMFFile
+### LastModifiedTimeToDFMFFile
 
 Gets or sets the last modified time to DFMF file.
 
@@ -41,7 +41,7 @@ string LastModifiedTimeToDFMFFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_IMFModalable_ModeArray"></a> ModeArray
+### ModeArray
 
 Gets or sets the modes.
 
@@ -52,4 +52,5 @@ ModeForMFModal[] ModeArray { get; set; }
 #### Property Value
 
  [ModeForMFModal](VM.Managed.DAFUL.ModeForMFModal.md)\[\]
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Constraints_Revolute"></a> Class Revolute
+# Class Revolute
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCB.dll  
@@ -36,7 +36,7 @@ Named<Revolute\>.SymmetricManager
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_Constraints_Revolute__ctor"></a> Revolute\(\)
+### Revolute\(\)
 
 ```csharp
 public Revolute()
@@ -44,7 +44,7 @@ public Revolute()
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_Constraints_Revolute_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -78,7 +78,7 @@ Plane of symmetric.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Symmetric_Constraints_Revolute_UpdateProperty_VM_Managed_DAFUL_Constraints_PropertyRevolute_VM_Managed_DAFUL_Constraints_PropertyRevolute_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateProperty\(PropertyRevolute, PropertyRevolute, SymmetricType, Plane, Document\)
+### UpdateProperty\(PropertyRevolute, PropertyRevolute, SymmetricType, Plane, Document\)
 
 ```csharp
 public static void UpdateProperty(PropertyRevolute toolProperty, PropertyRevolute targetProperty, SymmetricType sym_type, Plane sym_plane, Document doc)
@@ -95,4 +95,5 @@ public static void UpdateProperty(PropertyRevolute toolProperty, PropertyRevolut
 `sym_plane` Plane
 
 `doc` Document
+
 

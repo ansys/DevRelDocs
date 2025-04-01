@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_ISymmetricBuilder"></a> Interface ISymmetricBuilder
+# Interface ISymmetricBuilder
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface ISymmetricBuilder
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_ISymmetricBuilder_Build_System_Object_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Build\(object, SymmetricType, Plane, Document\)
+### Build\(object, SymmetricType, Plane, Document\)
 
 Build the symmetric objects.
 
@@ -48,4 +48,5 @@ update document.
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The new object of symmetric.
+
 

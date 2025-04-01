@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_ThermalFunction_FunctionType"></a> Enum ThermalFunction.FunctionType
+# Enum ThermalFunction.FunctionType
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -20,6 +20,7 @@ The standard function.
 `UserSubroutine = 1` 
 
 The user subroutine function.
+
 
 
 

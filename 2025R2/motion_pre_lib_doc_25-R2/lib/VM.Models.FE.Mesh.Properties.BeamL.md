@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Properties_BeamL"></a> Class BeamL
+# Class BeamL
 
 Namespace: [VM.Models.FE.Mesh.Properties](VM.Models.FE.Mesh.Properties.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -41,7 +41,7 @@ public class BeamL : Solid, IPropertyBeam, IEntity
 
 ## Constructors
 
-### <a id="VM_Models_FE_Mesh_Properties_BeamL__ctor"></a> BeamL\(\)
+### BeamL\(\)
 
 ```csharp
 public BeamL()
@@ -49,7 +49,7 @@ public BeamL()
 
 ## Properties
 
-### <a id="VM_Models_FE_Mesh_Properties_BeamL_Dimensions"></a> Dimensions
+### Dimensions
 
 ```csharp
 public double[] Dimensions { get; set; }
@@ -59,7 +59,7 @@ public double[] Dimensions { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Models_FE_Mesh_Properties_BeamL_DimensionsWrapper"></a> DimensionsWrapper
+### DimensionsWrapper
 
 This is wrapping property for SQLite-net
 
@@ -72,7 +72,7 @@ public byte[] DimensionsWrapper { get; set; }
 
  [byte](https://learn.microsoft.com/dotnet/api/system.byte)\[\]
 
-### <a id="VM_Models_FE_Mesh_Properties_BeamL_Shape"></a> Shape
+### Shape
 
 ```csharp
 [Column]
@@ -83,7 +83,7 @@ public BeamCrossSectionShapes Shape { get; set; }
 
  [BeamCrossSectionShapes](VM.Models.FE.Mesh.BeamCrossSectionShapes.md)
 
-### <a id="VM_Models_FE_Mesh_Properties_BeamL_YDirection"></a> YDirection
+### YDirection
 
 ```csharp
 public Vector YDirection { get; set; }
@@ -93,7 +93,7 @@ public Vector YDirection { get; set; }
 
  Vector
 
-### <a id="VM_Models_FE_Mesh_Properties_BeamL_YX"></a> YX
+### YX
 
 ```csharp
 [Column]
@@ -104,7 +104,7 @@ public double YX { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Mesh_Properties_BeamL_YY"></a> YY
+### YY
 
 ```csharp
 [Column]
@@ -115,7 +115,7 @@ public double YY { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Mesh_Properties_BeamL_YZ"></a> YZ
+### YZ
 
 ```csharp
 [Column]
@@ -128,7 +128,7 @@ public double YZ { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_FE_Mesh_Properties_BeamL_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 ```csharp
 public override bool Equals(object obj)
@@ -141,4 +141,5 @@ public override bool Equals(object obj)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

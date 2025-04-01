@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderImprint"></a> Class BuilderImprint
+# Class BuilderImprint
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -218,7 +218,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderImprint__ctor_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_System_UInt32___System_UInt32___"></a> BuilderImprint\(Builder, Builder, uint\[\], uint\[\]\)
+### BuilderImprint\(Builder, Builder, uint\[\], uint\[\]\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderImprint" data-throw-if-not-resolved="false"></xref> class
 
@@ -244,7 +244,7 @@ The target faces.
 
 The tool faces.
 
-### <a id="VM_Managed_CAD_BuilderImprint__ctor_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_System_UInt32_System_UInt32_"></a> BuilderImprint\(Builder, Builder, uint, uint\)
+### BuilderImprint\(Builder, Builder, uint, uint\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderImprint" data-throw-if-not-resolved="false"></xref> class
 
@@ -270,7 +270,7 @@ The target face.
 
 The tool face.
 
-### <a id="VM_Managed_CAD_BuilderImprint__ctor_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> BuilderImprint\(Builder, Builder\)
+### BuilderImprint\(Builder, Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderImprint" data-throw-if-not-resolved="false"></xref> class
 
@@ -288,7 +288,7 @@ The target build.
 
 The tool build.
 
-### <a id="VM_Managed_CAD_BuilderImprint__ctor"></a> BuilderImprint\(\)
+### BuilderImprint\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderImprint" data-throw-if-not-resolved="false"></xref> class
 
@@ -298,7 +298,7 @@ public BuilderImprint()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderImprint_TargetFaceIndexes"></a> TargetFaceIndexes
+### TargetFaceIndexes
 
 Gets or sets the target faces.
 
@@ -310,7 +310,7 @@ public uint[] TargetFaceIndexes { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
 
-### <a id="VM_Managed_CAD_BuilderImprint_ToolFaceIndexes"></a> ToolFaceIndexes
+### ToolFaceIndexes
 
 Gets or sets the tool faces.
 
@@ -324,7 +324,7 @@ public uint[] ToolFaceIndexes { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderImprint_CreateParameter"></a> CreateParameter\(\)
+### CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -334,7 +334,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_CAD_BuilderImprint_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -343,4 +343,5 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
+
 

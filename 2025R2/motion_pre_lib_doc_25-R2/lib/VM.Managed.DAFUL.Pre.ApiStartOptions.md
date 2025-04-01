@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_ApiStartOptions"></a> Struct ApiStartOptions
+# Struct ApiStartOptions
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpreAPI.dll  
@@ -11,7 +11,7 @@ public struct ApiStartOptions
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_ApiStartOptions_ActionOnKernelMessage"></a> ActionOnKernelMessage
+### ActionOnKernelMessage
 
 Write kernel message action
 
@@ -23,7 +23,7 @@ public Action<string> ActionOnKernelMessage { readonly get; set; }
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Pre_ApiStartOptions_ActionOnKernelTranslatorMessage"></a> ActionOnKernelTranslatorMessage
+### ActionOnKernelTranslatorMessage
 
 Write kernel translator message action
 
@@ -35,7 +35,7 @@ public readonly Action<object> ActionOnKernelTranslatorMessage { get; }
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
-### <a id="VM_Managed_DAFUL_Pre_ApiStartOptions_ActionOnLicenseError"></a> ActionOnLicenseError
+### ActionOnLicenseError
 
 Action for license error message.
 
@@ -47,7 +47,7 @@ public Action<string, string> ActionOnLicenseError { readonly get; set; }
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Pre_ApiStartOptions_ActionOnLicenseInformation"></a> ActionOnLicenseInformation
+### ActionOnLicenseInformation
 
 Action for license information message.
 
@@ -59,7 +59,7 @@ public Action<string, string> ActionOnLicenseInformation { readonly get; set; }
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Pre_ApiStartOptions_ActionOnLicenseWarning"></a> ActionOnLicenseWarning
+### ActionOnLicenseWarning
 
 Action for license warning message.
 
@@ -71,7 +71,7 @@ public Action<string, string> ActionOnLicenseWarning { readonly get; set; }
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Pre_ApiStartOptions_ConsoleDefault"></a> ConsoleDefault
+### ConsoleDefault
 
 Default start option for the console applications.
 
@@ -83,7 +83,7 @@ public static ApiStartOptions ConsoleDefault { get; }
 
  [ApiStartOptions](VM.Managed.DAFUL.Pre.ApiStartOptions.md)
 
-### <a id="VM_Managed_DAFUL_Pre_ApiStartOptions_HoopsExchangeDirectory"></a> HoopsExchangeDirectory
+### HoopsExchangeDirectory
 
 Hoops Exchange directory
 
@@ -95,7 +95,7 @@ public string HoopsExchangeDirectory { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_ApiStartOptions_KernelCoreModulePath"></a> KernelCoreModulePath
+### KernelCoreModulePath
 
 Kernel core module path
 
@@ -107,7 +107,7 @@ public string KernelCoreModulePath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_ApiStartOptions_KernelPath"></a> KernelPath
+### KernelPath
 
 Kernel path
 
@@ -119,7 +119,7 @@ public string KernelPath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_ApiStartOptions_TranslatorDirectory"></a> TranslatorDirectory
+### TranslatorDirectory
 
 Translator directory
 
@@ -130,4 +130,5 @@ public string TranslatorDirectory { readonly get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

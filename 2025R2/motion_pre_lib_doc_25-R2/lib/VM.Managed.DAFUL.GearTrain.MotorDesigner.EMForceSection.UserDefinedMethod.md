@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod"></a> Class MotorDesigner.EMForceSection.UserDefinedMethod
+# Class MotorDesigner.EMForceSection.UserDefinedMethod
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -102,7 +102,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod__ctor"></a> UserDefinedMethod\(\)
+### UserDefinedMethod\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.UserDefinedMethod" data-throw-if-not-resolved="false"></xref> class.
 
@@ -112,7 +112,7 @@ public UserDefinedMethod()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_Harmonics"></a> Harmonics
+### Harmonics
 
 Gets or sets the harmonics.
 
@@ -124,7 +124,7 @@ public MotorDesigner.EMForceSection.Harmonic[] Harmonics { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[EMForceSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.md).[Harmonic](VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.Harmonic.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_NumberOfMagnetPole"></a> NumberOfMagnetPole
+### NumberOfMagnetPole
 
 Gets or sets the number of magnet pole.
 
@@ -136,7 +136,7 @@ public ExpressionValueVariable NumberOfMagnetPole { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_NumberOfPhase"></a> NumberOfPhase
+### NumberOfPhase
 
 Gets or sets the number of phase.
 
@@ -148,7 +148,7 @@ public ExpressionValueVariable NumberOfPhase { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_RotorVectorSet"></a> RotorVectorSet
+### RotorVectorSet
 
 Gets or sets the vector set for rotor.
 
@@ -160,7 +160,7 @@ public MotorDesigner.EMForceSection.VectorUserDefinedCreator[] RotorVectorSet { 
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[EMForceSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.md).[VectorUserDefinedCreator](VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.VectorUserDefinedCreator.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_StatorVectorSet"></a> StatorVectorSet
+### StatorVectorSet
 
 Gets or sets the vector set for stator.
 
@@ -172,7 +172,7 @@ public MotorDesigner.EMForceSection.VectorUserDefinedCreator[] StatorVectorSet {
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[EMForceSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.md).[VectorUserDefinedCreator](VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.VectorUserDefinedCreator.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_TNCurveSpline"></a> TNCurveSpline
+### TNCurveSpline
 
 Gets or sets the T-N curve spline.
 
@@ -184,7 +184,7 @@ public Spline TNCurveSpline { get; set; }
 
  Spline
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_TNCurveValue"></a> TNCurveValue
+### TNCurveValue
 
 Gets or sets the T-N curve.
 
@@ -196,7 +196,7 @@ public SplineValue TNCurveValue { get; set; }
 
  SplineValue
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_TypeOfGeometryCreation"></a> TypeOfGeometryCreation
+### TypeOfGeometryCreation
 
 Gets the method type.
 
@@ -210,7 +210,7 @@ public override MotorDesigner.GeometryCreationType TypeOfGeometryCreation { get;
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_CanBeDestroy_System_Object_"></a> CanBeDestroy\(object\)
+### CanBeDestroy\(object\)
 
 Whether can be destroy or not.
 
@@ -228,7 +228,7 @@ The destroy object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -242,7 +242,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_UserDefinedMethod_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -259,4 +259,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The destroy event information.
+
 

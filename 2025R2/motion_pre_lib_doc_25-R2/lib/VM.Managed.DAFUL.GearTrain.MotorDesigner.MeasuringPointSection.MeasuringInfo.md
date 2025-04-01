@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection_MeasuringInfo"></a> Class MotorDesigner.MeasuringPointSection.MeasuringInfo
+# Class MotorDesigner.MeasuringPointSection.MeasuringInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection_MeasuringInfo__ctor"></a> MeasuringInfo\(\)
+### MeasuringInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.MeasuringPointSection.MeasuringInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public MeasuringInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection_MeasuringInfo_DummyBody"></a> DummyBody
+### DummyBody
 
 Gets or sets the dummy body.
 
@@ -118,7 +118,7 @@ public SolidBody DummyBody { get; set; }
 
  SolidBody
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection_MeasuringInfo_Fixed"></a> Fixed
+### Fixed
 
 Gets or sets the fixed connector.
 
@@ -130,7 +130,7 @@ public General Fixed { get; set; }
 
  General
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection_MeasuringInfo_RBESet"></a> RBESet
+### RBESet
 
 Gets or sets the rbe set.
 
@@ -142,7 +142,7 @@ public MotorDesigner.RBECreator RBESet { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[RBECreator](VM.Managed.DAFUL.GearTrain.MotorDesigner.RBECreator.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection_MeasuringInfo_Use"></a> Use
+### Use
 
 Gets or sets a value indicating whether this instance use.
 
@@ -156,7 +156,7 @@ public bool Use { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPointSection_MeasuringInfo_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -169,4 +169,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

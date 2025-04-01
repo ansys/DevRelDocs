@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionMulti"></a> Class DesignDimensionMulti
+# Class DesignDimensionMulti
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionMulti__ctor"></a> DesignDimensionMulti\(\)
+### DesignDimensionMulti\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.DesignDimensionMulti" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.DesignD
 public DesignDimensionMulti()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionMulti__ctor_System_String_"></a> DesignDimensionMulti\(string\)
+### DesignDimensionMulti\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.DesignDimensionMulti" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ Name of the design subentity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionMulti_TargetObjectNames"></a> TargetObjectNames
+### TargetObjectNames
 
 Gets or sets the target object names.
 
@@ -233,7 +233,7 @@ public string[] TargetObjectNames { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionMulti_TargetObjects"></a> TargetObjects
+### TargetObjects
 
 Gets or sets the target objects.
 
@@ -247,7 +247,7 @@ public IDimension[] TargetObjects { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionMulti_AddTargetBody_VM_Managed_DAFUL_GearTrain_IDimension_"></a> AddTargetBody\(IDimension\)
+### AddTargetBody\(IDimension\)
 
 Adds the target body.
 
@@ -261,7 +261,7 @@ public void AddTargetBody(IDimension id)
 
 The identifier.
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionMulti_FindTargetObject_VM_Managed_DAFUL_GearTrain_CAD_Section_"></a> FindTargetObject\(Section\)
+### FindTargetObject\(Section\)
 
 Finds the target object.
 
@@ -279,7 +279,7 @@ The sec body.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_DesignDimensionMulti_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -292,4 +292,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

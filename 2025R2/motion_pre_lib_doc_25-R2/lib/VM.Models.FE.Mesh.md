@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh"></a> Namespace VM.Models.FE.Mesh
+# Namespace VM.Models.FE.Mesh
 
 ### Namespaces
 
@@ -37,4 +37,5 @@
  [BeamCrossSectionShapes](VM.Models.FE.Mesh.BeamCrossSectionShapes.md)
 
  [ElementTypes](VM.Models.FE.Mesh.ElementTypes.md)
+
 

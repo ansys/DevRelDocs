@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_CVCV"></a> Class CVCV
+# Class CVCV
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -250,7 +250,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_CVCV__ctor"></a> CVCV\(\)
+### CVCV\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.CVCV" data-throw-if-not-resolved="false"></xref> class.
 
@@ -258,7 +258,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.CVCV" dat
 public CVCV()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_CVCV__ctor_System_String_"></a> CVCV\(string\)
+### CVCV\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.CVCV" data-throw-if-not-resolved="false"></xref> class.
 
@@ -274,7 +274,7 @@ Name of the [curve to cam] contact.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_CVCV_ActionGeometry"></a> ActionGeometry
+### ActionGeometry
 
 Gets or sets the action geometry.
 
@@ -286,7 +286,7 @@ public ContactGeom2D ActionGeometry { get; set; }
 
  [ContactGeom2D](VM.Managed.DAFUL.Contact.ContactGeom2D.md)
 
-### <a id="VM_Managed_DAFUL_Contact_CVCV_BaseGeometry"></a> BaseGeometry
+### BaseGeometry
 
 Gets or sets the base geometry.
 
@@ -298,7 +298,7 @@ public ContactGeom2D BaseGeometry { get; set; }
 
  [ContactGeom2D](VM.Managed.DAFUL.Contact.ContactGeom2D.md)
 
-### <a id="VM_Managed_DAFUL_Contact_CVCV_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -310,7 +310,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
  IReportable.ReportEntityType
 
-### <a id="VM_Managed_DAFUL_Contact_CVCV_TargetType"></a> TargetType
+### TargetType
 
 Gets the type of the target.
 
@@ -322,7 +322,7 @@ public override string TargetType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Contact_CVCV_Use"></a> Use
+### Use
 
 Gets a value indicating whether use this instance.
 
@@ -336,7 +336,7 @@ public override bool Use { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_CVCV_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -350,7 +350,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_Contact_CVCV_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -370,7 +370,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_DAFUL_Contact_CVCV_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -398,7 +398,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Contact_CVCV_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -412,9 +412,10 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### <a id="VM_Managed_DAFUL_Contact_CVCV_SwitchImpl"></a> SwitchImpl\(\)
+### SwitchImpl\(\)
 
 ```csharp
 protected override void SwitchImpl()
 ```
+
 

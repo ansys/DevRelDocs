@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4"></a> Class LinkDictionaryCollectionBase<T, TValue, TValueWrapper, TValueConverter\>
+# Class LinkDictionaryCollectionBase<T, TValue, TValueWrapper, TValueConverter\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -106,13 +106,13 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4__ctor"></a> LinkDictionaryCollectionBase\(\)
+### LinkDictionaryCollectionBase\(\)
 
 ```csharp
 public LinkDictionaryCollectionBase()
 ```
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4__ctor_VM_Models_Pre_IOwned_"></a> LinkDictionaryCollectionBase\(IOwned\)
+### LinkDictionaryCollectionBase\(IOwned\)
 
 ```csharp
 public LinkDictionaryCollectionBase(IOwned owner)
@@ -122,7 +122,7 @@ public LinkDictionaryCollectionBase(IOwned owner)
 
 `owner` IOwned
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> LinkDictionaryCollectionBase\(SerializationInfo, StreamingContext\)
+### LinkDictionaryCollectionBase\(SerializationInfo, StreamingContext\)
 
 ```csharp
 protected LinkDictionaryCollectionBase(SerializationInfo info, StreamingContext context)
@@ -136,7 +136,7 @@ protected LinkDictionaryCollectionBase(SerializationInfo info, StreamingContext 
 
 ## Properties
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_Count"></a> Count
+### Count
 
 ```csharp
 public virtual int Count { get; }
@@ -146,7 +146,7 @@ public virtual int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_IsExternable"></a> IsExternable
+### IsExternable
 
 Gets a value indicating whether this instance is externable.
 
@@ -158,7 +158,7 @@ public override bool IsExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_IsReadOnly"></a> IsReadOnly
+### IsReadOnly
 
 ```csharp
 public virtual bool IsReadOnly { get; }
@@ -168,7 +168,7 @@ public virtual bool IsReadOnly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_Keys"></a> Keys
+### Keys
 
 ```csharp
 public virtual ICollection<T> Keys { get; }
@@ -178,7 +178,7 @@ public virtual ICollection<T> Keys { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<T\>
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_Values"></a> Values
+### Values
 
 ```csharp
 public virtual ICollection<TValue> Values { get; }
@@ -188,7 +188,7 @@ public virtual ICollection<TValue> Values { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<TValue\>
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_Item__0_"></a> this\[T\]
+### this\[T\]
 
 ```csharp
 public virtual TValue this[T key] { get; set; }
@@ -200,7 +200,7 @@ public virtual TValue this[T key] { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_Add__0__1_"></a> Add\(T, TValue\)
+### Add\(T, TValue\)
 
 ```csharp
 public void Add(T key, TValue value)
@@ -212,13 +212,13 @@ public void Add(T key, TValue value)
 
 `value` TValue
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_Clear"></a> Clear\(\)
+### Clear\(\)
 
 ```csharp
 public void Clear()
 ```
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_ContainsKey__0_"></a> ContainsKey\(T\)
+### ContainsKey\(T\)
 
 ```csharp
 public bool ContainsKey(T key)
@@ -232,7 +232,7 @@ public bool ContainsKey(T key)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_ContainsPtrKey_System_UIntPtr_"></a> ContainsPtrKey\(UIntPtr\)
+### ContainsPtrKey\(UIntPtr\)
 
 ```csharp
 public bool ContainsPtrKey(UIntPtr key)
@@ -246,7 +246,7 @@ public bool ContainsPtrKey(UIntPtr key)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_GetObjectDataImpl_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> GetObjectDataImpl\(SerializationInfo, StreamingContext\)
+### GetObjectDataImpl\(SerializationInfo, StreamingContext\)
 
 ```csharp
 virtual void GetObjectDataImpl(SerializationInfo info, StreamingContext context)
@@ -258,7 +258,7 @@ virtual void GetObjectDataImpl(SerializationInfo info, StreamingContext context)
 
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_IsSerializableEvent_System_Delegate_"></a> IsSerializableEvent\(Delegate\)
+### IsSerializableEvent\(Delegate\)
 
 Determines whether is [serializable event] [the specified delegate].
 
@@ -278,7 +278,7 @@ The delegate.
 
 <code>true</code> if is [serializable event] [the specified delegate]; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 The destroy event occured from the linked object.
 
@@ -294,7 +294,7 @@ protected override sealed void LinkRequestDestroy(object obNotifier, LinkEventAr
 
 The destroy event information.
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -310,7 +310,7 @@ protected override sealed void LinkRequestUpdate(object obNotifier, LinkEventArg
 
 The update event information.
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_Remove__0_"></a> Remove\(T\)
+### Remove\(T\)
 
 ```csharp
 public bool Remove(T key)
@@ -324,7 +324,7 @@ public bool Remove(T key)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_TryGetValue__0__1__"></a> TryGetValue\(T, ref TValue\)
+### TryGetValue\(T, ref TValue\)
 
 ```csharp
 public bool TryGetValue(T key, ref TValue value)
@@ -340,7 +340,7 @@ public bool TryGetValue(T key, ref TValue value)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_raise_CollectionChanged_System_Object_System_Collections_Specialized_NotifyCollectionChangedEventArgs_"></a> raise\_CollectionChanged\(object, NotifyCollectionChangedEventArgs\)
+### raise\_CollectionChanged\(object, NotifyCollectionChangedEventArgs\)
 
 ```csharp
 protected void raise_CollectionChanged(object objNotifier, NotifyCollectionChangedEventArgs e)
@@ -352,7 +352,7 @@ protected void raise_CollectionChanged(object objNotifier, NotifyCollectionChang
 
 `e` [NotifyCollectionChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs)
 
-### <a id="VM_Managed_Collections_LinkDictionaryCollectionBase_4_CollectionChanged"></a> CollectionChanged
+### CollectionChanged
 
 ```csharp
 public event NotifyCollectionChangedEventHandler CollectionChanged
@@ -361,4 +361,5 @@ public event NotifyCollectionChangedEventHandler CollectionChanged
 #### Event Type
 
  [NotifyCollectionChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler)
+
 

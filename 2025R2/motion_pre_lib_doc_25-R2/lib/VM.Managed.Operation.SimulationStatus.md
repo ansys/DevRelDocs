@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_SimulationStatus"></a> Enum SimulationStatus
+# Enum SimulationStatus
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -26,6 +26,7 @@ OnSimulation.
 `WriteDFS = 1` 
 
 WriteDFS.
+
 
 
 

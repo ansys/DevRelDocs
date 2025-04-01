@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCustom"></a> Class PropertyGearSetCustom
+# Class PropertyGearSetCustom
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -210,7 +210,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCustom__ctor"></a> PropertyGearSetCustom\(\)
+### PropertyGearSetCustom\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyGearSetCustom" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,7 +220,7 @@ public PropertyGearSetCustom()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCustom_GearProfileType"></a> GearProfileType
+### GearProfileType
 
 Gear profile type [0 : Involute, 1 : Cycloid, 2 : General]
 
@@ -234,7 +234,7 @@ public int GearProfileType { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCustom_BuildGear_System_Boolean_"></a> BuildGear\(bool\)
+### BuildGear\(bool\)
 
 Builds the gear.
 
@@ -250,7 +250,7 @@ public override bool BuildGear(bool bCreate)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCustom_PostBuildGear"></a> PostBuildGear\(\)
+### PostBuildGear\(\)
 
 post builder gear.
 
@@ -258,7 +258,7 @@ post builder gear.
 protected override void PostBuildGear()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCustom_ReadResultCore_System_Xml_XmlDocument_"></a> ReadResultCore\(XmlDocument\)
+### ReadResultCore\(XmlDocument\)
 
 Reads the result core.
 
@@ -271,4 +271,5 @@ protected override void ReadResultCore(XmlDocument xmlDoc)
 `xmlDoc` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
 
 The XML document.
+
 

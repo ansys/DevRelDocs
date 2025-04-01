@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyCVCV"></a> Class PropertyCVCV
+# Class PropertyCVCV
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -171,7 +171,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyCVCV__ctor"></a> PropertyCVCV\(\)
+### PropertyCVCV\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyCVCV" data-throw-if-not-resolved="false"></xref> class.
 
@@ -181,7 +181,7 @@ public PropertyCVCV()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyCVCV_ActionClearance"></a> ActionClearance
+### ActionClearance
 
 Gets or sets the action clearance.
 
@@ -193,7 +193,7 @@ public ExpressionValueVariable ActionClearance { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyCVCV_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -205,7 +205,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyCVCV_BaseClearance"></a> BaseClearance
+### BaseClearance
 
 Gets or sets the base clearance.
 
@@ -217,7 +217,7 @@ public ExpressionValueVariable BaseClearance { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyCVCV_StiffScaleFactor"></a> StiffScaleFactor
+### StiffScaleFactor
 
 Gets or sets the stiffness scale factor.
 
@@ -231,7 +231,7 @@ public ExpressionValueVariable StiffScaleFactor { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyCVCV_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -244,4 +244,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

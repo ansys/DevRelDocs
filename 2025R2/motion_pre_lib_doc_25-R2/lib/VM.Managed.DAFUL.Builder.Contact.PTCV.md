@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Contact_PTCV"></a> Class PTCV
+# Class PTCV
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -55,7 +55,7 @@ BuilderBase<PTCV\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_PTCV__ctor"></a> PTCV\(\)
+### PTCV\(\)
 
 ```csharp
 public PTCV()
@@ -63,7 +63,7 @@ public PTCV()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_PTCV_ActionContactable"></a> ActionContactable
+### ActionContactable
 
 ```csharp
 public IConnectable ActionContactable { get; }
@@ -73,7 +73,7 @@ public IConnectable ActionContactable { get; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_PTCV_BaseContactable"></a> BaseContactable
+### BaseContactable
 
 ```csharp
 public IContactableRigid2D BaseContactable { get; }
@@ -83,7 +83,7 @@ public IContactableRigid2D BaseContactable { get; }
 
  IContactableRigid2D
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_PTCV_Position"></a> Position
+### Position
 
 ```csharp
 public PointBase Position { get; }
@@ -95,7 +95,7 @@ public PointBase Position { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Contact_PTCV_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -110,4 +110,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

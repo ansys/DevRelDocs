@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_TestBase"></a> Class TestBase
+# Class TestBase
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Force_TestBase__ctor"></a> TestBase\(\)
+### TestBase\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.TestBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -111,7 +111,7 @@ public TestBase()
 
 ## Properties
 
-### <a id="VM_Models_Pre_Force_TestBase_LoadType"></a> LoadType
+### LoadType
 
 Gets or sets the load type.
 
@@ -123,7 +123,7 @@ public LoadType LoadType { get; set; }
 
  [LoadType](VM.Models.Pre.Force.LoadType.md)
 
-### <a id="VM_Models_Pre_Force_TestBase_NegativeDirectionValue"></a> NegativeDirectionValue
+### NegativeDirectionValue
 
 Gets or sets the negative direction value.
 
@@ -135,7 +135,7 @@ public ExpressionValueVariable NegativeDirectionValue { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Force_TestBase_PositiveDirectionValue"></a> PositiveDirectionValue
+### PositiveDirectionValue
 
 Gets or sets the positive direction value.
 
@@ -147,7 +147,7 @@ public ExpressionValueVariable PositiveDirectionValue { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Force_TestBase_SimulationTime"></a> SimulationTime
+### SimulationTime
 
 Gets or sets the simulation time.
 
@@ -159,7 +159,7 @@ public ExpressionValueVariable SimulationTime { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Force_TestBase_TestResultDirectory"></a> TestResultDirectory
+### TestResultDirectory
 
 Gets or sets the test result directory.
 
@@ -170,4 +170,5 @@ public string TestResultDirectory { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

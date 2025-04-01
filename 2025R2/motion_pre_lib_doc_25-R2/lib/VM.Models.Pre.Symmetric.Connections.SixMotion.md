@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Symmetric_Connections_SixMotion"></a> Class SixMotion
+# Class SixMotion
 
 Namespace: [VM.Models.Pre.Symmetric.Connections](VM.Models.Pre.Symmetric.Connections.md)  
 Assembly: VM.Models.Pre.Symmetric.Connections.dll  
@@ -20,7 +20,7 @@ public class SixMotion
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Symmetric_Connections_SixMotion__ctor"></a> SixMotion\(\)
+### SixMotion\(\)
 
 ```csharp
 public SixMotion()
@@ -28,7 +28,7 @@ public SixMotion()
 
 ## Methods
 
-### <a id="VM_Models_Pre_Symmetric_Connections_SixMotion_UpdateProperty_VM_Models_Pre_Connections_PropertySixMotion_VM_Models_Pre_Connections_PropertySixMotion_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateProperty\(PropertySixMotion, PropertySixMotion, SymmetricType, Plane, Document\)
+### UpdateProperty\(PropertySixMotion, PropertySixMotion, SymmetricType, Plane, Document\)
 
 ```csharp
 public static void UpdateProperty(PropertySixMotion toolProperty, PropertySixMotion targetProperty, SymmetricType sym_type, Plane sym_plane, Document doc)
@@ -45,4 +45,5 @@ public static void UpdateProperty(PropertySixMotion toolProperty, PropertySixMot
 `sym_plane` Plane
 
 `doc` Document
+
 

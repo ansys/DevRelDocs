@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_IDimension"></a> Interface IDimension
+# Interface IDimension
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IDimension
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_IDimension_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
+### GetLengthAndHeight\(ref double, ref double\)
 
 Gets the start and end point.
 
@@ -34,4 +34,5 @@ Length of the d.
 `dHeight` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 Height of the d.
+
 

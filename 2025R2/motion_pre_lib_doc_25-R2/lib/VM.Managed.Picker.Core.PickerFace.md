@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Picker_Core_PickerFace"></a> Class PickerFace
+# Class PickerFace
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -56,7 +56,7 @@ public class PickerFace : PickerTopol
 
 ## Constructors
 
-### <a id="VM_Managed_Picker_Core_PickerFace__ctor_VM_Managed_ObjectBase_"></a> PickerFace\(ObjectBase\)
+### PickerFace\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerFace" data-throw-if-not-resolved="false"></xref> class
 
@@ -70,7 +70,7 @@ public PickerFace(ObjectBase pParentObject)
 
 The parent of face.
 
-### <a id="VM_Managed_Picker_Core_PickerFace__ctor"></a> PickerFace\(\)
+### PickerFace\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerFace" data-throw-if-not-resolved="false"></xref> class
 
@@ -80,7 +80,7 @@ public PickerFace()
 
 ## Methods
 
-### <a id="VM_Managed_Picker_Core_PickerFace_Filtering_System_UIntPtr_"></a> Filtering\(UIntPtr\)
+### Filtering\(UIntPtr\)
 
 Filtering to not proper object.
 
@@ -100,7 +100,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerFace_FilteringAnother_System_UIntPtr_"></a> FilteringAnother\(UIntPtr\)
+### FilteringAnother\(UIntPtr\)
 
 Filtering to not proper object about special target.
 
@@ -120,7 +120,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_Picker_Core_PickerFace_GetPickerInfo"></a> GetPickerInfo\(\)
+### GetPickerInfo\(\)
 
 Gets information of picking type.
 
@@ -132,7 +132,7 @@ public override string GetPickerInfo()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Picker_Core_PickerFace_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
+### SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -155,4 +155,5 @@ If it is true, skip the result setting.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

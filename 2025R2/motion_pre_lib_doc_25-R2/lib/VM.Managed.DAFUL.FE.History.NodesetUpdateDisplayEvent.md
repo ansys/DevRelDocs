@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_History_NodesetUpdateDisplayEvent"></a> Class NodesetUpdateDisplayEvent
+# Class NodesetUpdateDisplayEvent
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  
@@ -37,7 +37,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_History_NodesetUpdateDisplayEvent__ctor_System_Object_"></a> NodesetUpdateDisplayEvent\(object\)
+### NodesetUpdateDisplayEvent\(object\)
 
 ```csharp
 public NodesetUpdateDisplayEvent(object obOriginal)
@@ -49,7 +49,7 @@ public NodesetUpdateDisplayEvent(object obOriginal)
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_History_NodesetUpdateDisplayEvent_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
+### AfterRedo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterRedo(HistoryEventArgs args)
@@ -59,7 +59,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_DAFUL_FE_History_NodesetUpdateDisplayEvent_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
+### AfterUndo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterUndo(HistoryEventArgs args)
@@ -69,7 +69,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_DAFUL_FE_History_NodesetUpdateDisplayEvent_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 ```csharp
 protected override void Clear(bool bReserveReferenceCount)
@@ -79,7 +79,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_History_NodesetUpdateDisplayEvent_NodesetUpdateDisplay_VM_Managed_ObjectBase_"></a> NodesetUpdateDisplay\(ObjectBase\)
+### NodesetUpdateDisplay\(ObjectBase\)
 
 ```csharp
 public static void NodesetUpdateDisplay(ObjectBase obj)
@@ -89,7 +89,7 @@ public static void NodesetUpdateDisplay(ObjectBase obj)
 
 `obj` ObjectBase
 
-### <a id="VM_Managed_DAFUL_FE_History_NodesetUpdateDisplayEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
+### Redo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Redo(HistoryEventArgs args)
@@ -99,7 +99,7 @@ protected override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_DAFUL_FE_History_NodesetUpdateDisplayEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
+### Undo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Undo(HistoryEventArgs args)
@@ -108,4 +108,5 @@ protected override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
+
 

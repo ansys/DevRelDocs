@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CPlacingConnector_Pin"></a> Class Pin
+# Class Pin
 
 Namespace: [VM.Managed.DAFUL.Builder.CPlacingConnector](VM.Managed.DAFUL.Builder.CPlacingConnector.md)  
 Assembly: VMBldCPlacingConnector.dll  
@@ -57,7 +57,7 @@ BuilderBase<Pin\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_CPlacingConnector_Pin__ctor"></a> Pin\(\)
+### Pin\(\)
 
 ```csharp
 public Pin()
@@ -65,7 +65,7 @@ public Pin()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_CPlacingConnector_Pin_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -80,4 +80,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

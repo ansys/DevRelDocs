@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_IMaterial"></a> Interface IMaterial
+# Interface IMaterial
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IMaterial
 
 ## Properties
 
-### <a id="VM_Managed_Material_IMaterial_DensityValue"></a> DensityValue
+### DensityValue
 
 Gets the density value.
 
@@ -29,7 +29,7 @@ double DensityValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_Material_IMaterial_Index"></a> Index
+### Index
 
 Gets or sets the material ID.
 
@@ -40,4 +40,5 @@ uint Index { get; set; }
 #### Property Value
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
 

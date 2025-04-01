@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_NCombinationContact"></a> Class NCombinationContact
+# Class NCombinationContact
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -230,7 +230,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_NCombinationContact__ctor"></a> NCombinationContact\(\)
+### NCombinationContact\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.NCombinationContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -238,7 +238,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.NCombinat
 public NCombinationContact()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_NCombinationContact__ctor_System_String_"></a> NCombinationContact\(string\)
+### NCombinationContact\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.NCombinationContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -254,7 +254,7 @@ Name of the contact.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_NCombinationContact_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -266,7 +266,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Contact_NCombinationContact_Geometries"></a> Geometries
+### Geometries
 
 Gets or sets the base geometires.
 
@@ -280,7 +280,7 @@ public MultipleContactInfo[] Geometries { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_NCombinationContact_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -294,7 +294,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_Contact_NCombinationContact_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -322,7 +322,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Contact_NCombinationContact_IsValidContact_VM_Managed_DAFUL_IContactable___VM_Managed_DAFUL_Contact_MultiContactType_System_Collections_Generic_Dictionary_VM_Managed_DAFUL_IContactable_System_Collections_Generic_List_VM_Managed_DAFUL_IContactable____"></a> IsValidContact\(IContactable\[\], MultiContactType, ref Dictionary<IContactable, List<IContactable\>\>\)
+### IsValidContact\(IContactable\[\], MultiContactType, ref Dictionary<IContactable, List<IContactable\>\>\)
 
 Determines whether the contact is valid.
 
@@ -350,7 +350,7 @@ The create pair.
 
 <code>true</code> if the specified object is interface; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_Contact_NCombinationContact_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -368,7 +368,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Contact_NCombinationContact_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -382,7 +382,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_Contact_NCombinationContact_OnLinkReserved_VM_Managed_ILink_System_Object_System_EventArgs_"></a> OnLinkReserved\(ILink, object, EventArgs\)
+### OnLinkReserved\(ILink, object, EventArgs\)
 
 ```csharp
 protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs arg)
@@ -395,4 +395,5 @@ protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs
 `objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `arg` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+
 

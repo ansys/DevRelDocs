@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1"></a> Class ShaftSetBase<TProperty\>
+# Class ShaftSetBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -239,7 +239,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1__ctor"></a> ShaftSetBase\(\)
+### ShaftSetBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ShaftSetBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -247,7 +247,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ShaftSe
 public ShaftSetBase()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1__ctor_System_String_"></a> ShaftSetBase\(string\)
+### ShaftSetBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ShaftSetBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -263,7 +263,7 @@ Name of the string.
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1_g_dicPositionToName"></a> g\_dicPositionToName
+### g\_dicPositionToName
 
 Gets the replaced section name.
 
@@ -277,7 +277,7 @@ public Dictionary<VectorBase, string> g_dicPositionToName
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1_Body"></a> Body
+### Body
 
 Gets or sets the body.
 
@@ -289,7 +289,7 @@ public Body Body { get; set; }
 
  Body
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1_Extension"></a> Extension
+### Extension
 
 Gets the extension.
 
@@ -301,7 +301,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1_Layer"></a> Layer
+### Layer
 
 Gets or sets the layer.
 
@@ -313,7 +313,7 @@ public override Layer Layer { get; set; }
 
  Layer
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1_Material"></a> Material
+### Material
 
 Gets or sets the material.
 
@@ -325,7 +325,7 @@ public IMaterial Material { get; set; }
 
  IMaterial
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1_TargetBody"></a> TargetBody
+### TargetBody
 
 Gets the target body.
 
@@ -337,7 +337,7 @@ public override ObjectBase[] TargetBody { get; }
 
  ObjectBase\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1_TypeFileName"></a> TypeFileName
+### TypeFileName
 
 Gets the name of the type file.
 
@@ -349,7 +349,7 @@ public override string TypeFileName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1__Material"></a> \_Material
+### \_Material
 
 Gets or sets the material.
 
@@ -363,7 +363,7 @@ public Linker<IMaterial> _Material { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1_Find_System_String_"></a> Find\(string\)
+### Find\(string\)
 
 Finds the specified string name.
 
@@ -381,7 +381,7 @@ Name of the string.
 
  IObjectBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1_GetBuilder"></a> GetBuilder\(\)
+### GetBuilder\(\)
 
 Gets the builders.
 
@@ -395,7 +395,7 @@ public ObjectBase[] GetBuilder()
 
 The builders.
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -415,7 +415,7 @@ The ob unnamed.
 
 The unnamed object name.
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -429,7 +429,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -443,7 +443,7 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetBase_1_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -456,4 +456,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

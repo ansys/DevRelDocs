@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner"></a> Class MotorDesigner
+# Class MotorDesigner
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner__ctor"></a> MotorDesigner\(\)
+### MotorDesigner\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public MotorDesigner()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_BearingSet"></a> BearingSet
+### BearingSet
 
 Gets or sets the bearing set.
 
@@ -201,7 +201,7 @@ Bearing set is null.
             or
             Bearing is null.
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForce"></a> EMForce
+### EMForce
 
 Gets or sets the EM force.
 
@@ -213,7 +213,7 @@ public MotorDesigner.EMForceSection EMForce { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[EMForceSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_Housing"></a> Housing
+### Housing
 
 Gets or sets the housing.
 
@@ -225,7 +225,7 @@ public MotorDesigner.HousingSection Housing { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[HousingSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.HousingSection.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingBody"></a> HousingBody
+### HousingBody
 
 Gets or sets the housing body.
 
@@ -237,7 +237,7 @@ public HousingMeshFree HousingBody { get; set; }
 
  [HousingMeshFree](VM.Managed.DAFUL.GearTrain.HousingMeshFree.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_MeasuringPoint"></a> MeasuringPoint
+### MeasuringPoint
 
 Gets or sets the measuring point.
 
@@ -249,7 +249,7 @@ public MotorDesigner.MeasuringPointSection MeasuringPoint { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[MeasuringPointSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.MeasuringPointSection.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_Position"></a> Position
+### Position
 
 Gets or sets the position.
 
@@ -261,7 +261,7 @@ public PointBase Position { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotateAxis"></a> RotateAxis
+### RotateAxis
 
 Gets or sets the rotate axis.
 
@@ -273,7 +273,7 @@ public DirectionBase RotateAxis { get; set; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_Rotor"></a> Rotor
+### Rotor
 
 Gets or sets the rotor.
 
@@ -285,7 +285,7 @@ public MotorDesigner.RotorSection Rotor { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[RotorSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.RotorSection.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorBody"></a> RotorBody
+### RotorBody
 
 Gets or sets the rotor body.
 
@@ -297,7 +297,7 @@ public SolidBody RotorBody { get; set; }
 
  SolidBody
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_SimpleShaftSet"></a> SimpleShaftSet
+### SimpleShaftSet
 
 Gets or sets the shaft set.
 
@@ -309,7 +309,7 @@ public ShaftSet SimpleShaftSet { get; set; }
 
  [ShaftSet](VM.Managed.DAFUL.GearTrain.ShaftSet.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_Stator"></a> Stator
+### Stator
 
 Gets or sets the stator.
 
@@ -321,7 +321,7 @@ public MotorDesigner.StatorSection Stator { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[StatorSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.StatorSection.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorBody"></a> StatorBody
+### StatorBody
 
 Gets or sets the stator body.
 
@@ -333,7 +333,7 @@ public SolidBody StatorBody { get; set; }
 
  SolidBody
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_TypeOfHousing"></a> TypeOfHousing
+### TypeOfHousing
 
 Gets or sets the housing type.
 
@@ -345,7 +345,7 @@ public MotorDesigner.HousingType TypeOfHousing { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[HousingType](VM.Managed.DAFUL.GearTrain.MotorDesigner.HousingType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_TypeOfStatorMounting"></a> TypeOfStatorMounting
+### TypeOfStatorMounting
 
 Gets or sets the stator mounting type.
 
@@ -359,7 +359,7 @@ public MotorDesigner.StatorMountingType TypeOfStatorMounting { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -387,7 +387,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -401,7 +401,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -415,7 +415,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_OnLinkReserved_VM_Managed_ILink_System_Object_System_EventArgs_"></a> OnLinkReserved\(ILink, object, EventArgs\)
+### OnLinkReserved\(ILink, object, EventArgs\)
 
 Called after reserve member
 
@@ -430,4 +430,5 @@ protected override void OnLinkReserved(ILink reserved, object objNotifier, Event
 `objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track"></a> Namespace VM.Managed.CAD.Track
+# Namespace VM.Managed.CAD.Track
 
 ### Classes
 
@@ -111,4 +111,5 @@ Specifies type for link-shoe type.
  [LinkType](VM.Managed.CAD.Track.LinkType.md)
 
 Specifies type for link type.
+
 

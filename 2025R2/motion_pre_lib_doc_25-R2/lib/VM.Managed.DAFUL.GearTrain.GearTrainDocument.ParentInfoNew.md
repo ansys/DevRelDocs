@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_ParentInfoNew"></a> Class GearTrainDocument.ParentInfoNew
+# Class GearTrainDocument.ParentInfoNew
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -150,7 +150,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_ParentInfoNew__ctor_VM_Managed_DAFUL_GearTrain_IOpenDesignerForGearTrain_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_"></a> ParentInfoNew\(IOpenDesignerForGearTrain, GeometryInfoBase\)
+### ParentInfoNew\(IOpenDesignerForGearTrain, GeometryInfoBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument.ParentInfoNew" data-throw-if-not-resolved="false"></xref> class.
 
@@ -170,7 +170,7 @@ The information.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_ParentInfoNew_ExtraInfo"></a> ExtraInfo
+### ExtraInfo
 
 Gets or sets the extra information.
 
@@ -182,7 +182,7 @@ public GeometryInfoBase ExtraInfo { get; set; }
 
  [GeometryInfoBase](VM.Managed.DAFUL.GearTrain.GeometryInfoBase.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_ParentInfoNew_OpenDesigner"></a> OpenDesigner
+### OpenDesigner
 
 Gets or sets the open designer.
 
@@ -193,4 +193,5 @@ public IOpenDesignerForGearTrain OpenDesigner { get; set; }
 #### Property Value
 
  [IOpenDesignerForGearTrain](VM.Managed.DAFUL.GearTrain.IOpenDesignerForGearTrain.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Roller"></a> Namespace VM.Managed.CAD.Roller
+# Namespace VM.Managed.CAD.Roller
 
 ### Classes
 
@@ -61,4 +61,5 @@ Specifies type for a roller
  [ShaftType](VM.Managed.CAD.Roller.ShaftType.md)
 
 Specifies type for a shaft.
+
 

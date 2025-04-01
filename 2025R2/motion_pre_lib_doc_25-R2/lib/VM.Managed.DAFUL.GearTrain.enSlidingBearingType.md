@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_enSlidingBearingType"></a> Enum enSlidingBearingType
+# Enum enSlidingBearingType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,6 +20,7 @@ The circular
 `CIRCULAR_PART = 1` 
 
 The circula r_ part
+
 
 
 

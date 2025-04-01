@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_InitialCondition"></a> Class InitialCondition
+# Class InitialCondition
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_InitialCondition__ctor"></a> InitialCondition\(\)
+### InitialCondition\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.InitialCondition" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public InitialCondition()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_InitialCondition_InitAngle"></a> InitAngle
+### InitAngle
 
 Gets or sets the initial angle.
 
@@ -118,7 +118,7 @@ public ExpressionValueVariable InitAngle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_InitialCondition_InitAngularVel"></a> InitAngularVel
+### InitAngularVel
 
 Gets or sets the initial angular velocity.
 
@@ -130,7 +130,7 @@ public ExpressionValueVariable InitAngularVel { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Constraints_InitialCondition_IsUseInitAngle"></a> IsUseInitAngle
+### IsUseInitAngle
 
 Gets or sets a value indicating whether this instance is use initial angle.
 
@@ -142,7 +142,7 @@ public bool IsUseInitAngle { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Constraints_InitialCondition_IsUseInitAngularVel"></a> IsUseInitAngularVel
+### IsUseInitAngularVel
 
 Gets or sets a value indicating whether this instance is use initial angular velocity.
 
@@ -153,4 +153,5 @@ public bool IsUseInitAngularVel { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

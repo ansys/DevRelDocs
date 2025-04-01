@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingStrength"></a> Class BearingStrength
+# Class BearingStrength
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength__ctor"></a> BearingStrength\(\)
+### BearingStrength\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.BearingStrength" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public BearingStrength()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_AxialForce"></a> AxialForce
+### AxialForce
 
 Gets or sets the axial force.
 
@@ -191,7 +191,7 @@ public ExpressionValueVariable AxialForce { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_C0r"></a> C0r
+### C0r
 
 Gets or sets the basic static load rating.
 
@@ -203,7 +203,7 @@ public ExpressionValueVariable C0r { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_C0r_Lib"></a> C0r\_Lib
+### C0r\_Lib
 
 Gets or sets the basic static load rating.
 
@@ -215,7 +215,7 @@ public ExpressionValueVariable C0r_Lib { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_Cleanliness"></a> Cleanliness
+### Cleanliness
 
 Gets or sets the a1 type.
 
@@ -227,7 +227,7 @@ public BearingStrength.enCleanlinessISOType Cleanliness { get; set; }
 
  [BearingStrength](VM.Managed.DAFUL.GearTrain.BearingStrength.md).[enCleanlinessISOType](VM.Managed.DAFUL.GearTrain.BearingStrength.enCleanlinessISOType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_CleanlinessGrease"></a> CleanlinessGrease
+### CleanlinessGrease
 
 Gets or sets the CleanlinessGrease type.
 
@@ -239,7 +239,7 @@ public BearingStrength.enCleanlinessGreaseType CleanlinessGrease { get; set; }
 
  [BearingStrength](VM.Managed.DAFUL.GearTrain.BearingStrength.md).[enCleanlinessGreaseType](VM.Managed.DAFUL.GearTrain.BearingStrength.enCleanlinessGreaseType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_CleanlinessNoFilter"></a> CleanlinessNoFilter
+### CleanlinessNoFilter
 
 Gets or sets the m_CleanlinessNoFilter type.
 
@@ -251,7 +251,7 @@ public BearingStrength.enCleanlinessISONoFilterType CleanlinessNoFilter { get; s
 
  [BearingStrength](VM.Managed.DAFUL.GearTrain.BearingStrength.md).[enCleanlinessISONoFilterType](VM.Managed.DAFUL.GearTrain.BearingStrength.enCleanlinessISONoFilterType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_ContactAngle"></a> ContactAngle
+### ContactAngle
 
 Gets or sets the factor for calculation.
 
@@ -263,7 +263,7 @@ public ExpressionValueVariable ContactAngle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_ContactAngle_Lib"></a> ContactAngle\_Lib
+### ContactAngle\_Lib
 
 Gets or sets the factor for calculation.
 
@@ -275,7 +275,7 @@ public ExpressionValueVariable ContactAngle_Lib { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_Cr"></a> Cr
+### Cr
 
 Gets or sets the basic dynamic load rating.
 
@@ -287,7 +287,7 @@ public ExpressionValueVariable Cr { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_Cr_Lib"></a> Cr\_Lib
+### Cr\_Lib
 
 Gets or sets the basic dynamic load rating.
 
@@ -299,7 +299,7 @@ public ExpressionValueVariable Cr_Lib { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_L10"></a> L10
+### L10
 
 Gets or sets the L10.
 
@@ -311,7 +311,7 @@ public ExpressionValueVariable L10 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_Lnm"></a> Lnm
+### Lnm
 
 Gets or sets the Lnm.
 
@@ -323,7 +323,7 @@ public ExpressionValueVariable Lnm { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_Lubricant"></a> Lubricant
+### Lubricant
 
 Gets or sets the Lubricant type.
 
@@ -335,7 +335,7 @@ public BearingStrength.enLubricantType Lubricant { get; set; }
 
  [BearingStrength](VM.Managed.DAFUL.GearTrain.BearingStrength.md).[enLubricantType](VM.Managed.DAFUL.GearTrain.BearingStrength.enLubricantType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_Pr"></a> Pr
+### Pr
 
 Gets or sets the dynamic equivalent radial load.
 
@@ -347,7 +347,7 @@ public ExpressionValueVariable Pr { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_RadialForce"></a> RadialForce
+### RadialForce
 
 Gets or sets the radial force.
 
@@ -359,7 +359,7 @@ public ExpressionValueVariable RadialForce { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_Speed"></a> Speed
+### Speed
 
 Gets or sets the speed.
 
@@ -371,7 +371,7 @@ public ExpressionValueVariable Speed { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_Temperature"></a> Temperature
+### Temperature
 
 Gets or sets the temperature.
 
@@ -383,7 +383,7 @@ public ExpressionValueVariable Temperature { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_TireRadius"></a> TireRadius
+### TireRadius
 
 Gets or sets the tire radius.
 
@@ -395,7 +395,7 @@ public ExpressionValueVariable TireRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_UseLibrary"></a> UseLibrary
+### UseLibrary
 
 Gets or sets the FromLibrary flag.
 
@@ -407,7 +407,7 @@ public bool UseLibrary { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_UseUserInput"></a> UseUserInput
+### UseUserInput
 
 Gets or sets the UserInput flag.
 
@@ -419,7 +419,7 @@ public bool UseUserInput { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_Y"></a> Y
+### Y
 
 Gets or sets the factor for calculation.
 
@@ -431,7 +431,7 @@ public ExpressionValueVariable Y { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_Y_Lib"></a> Y\_Lib
+### Y\_Lib
 
 Gets or sets the factor for calculation.
 
@@ -443,7 +443,7 @@ public ExpressionValueVariable Y_Lib { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_a1"></a> a1
+### a1
 
 Gets or sets the a1 type.
 
@@ -455,7 +455,7 @@ public BearingStrength.ena1Type a1 { get; set; }
 
  [BearingStrength](VM.Managed.DAFUL.GearTrain.BearingStrength.md).[ena1Type](VM.Managed.DAFUL.GearTrain.BearingStrength.ena1Type.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_e"></a> e
+### e
 
 Gets or sets the factor for calculation.
 
@@ -467,7 +467,7 @@ public ExpressionValueVariable e { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_e_Lib"></a> e\_Lib
+### e\_Lib
 
 Gets or sets the factor for calculation.
 
@@ -479,7 +479,7 @@ public ExpressionValueVariable e_Lib { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_f0"></a> f0
+### f0
 
 Gets or sets the factor for calculation of basic static load rating.
 
@@ -491,7 +491,7 @@ public ExpressionValueVariable f0 { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_f0_Lib"></a> f0\_Lib
+### f0\_Lib
 
 Gets or sets the factor for calculation of basic static load rating.
 
@@ -505,7 +505,7 @@ public ExpressionValueVariable f0_Lib { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -518,4 +518,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

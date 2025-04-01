@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Document"></a> Class Document
+# Class Document
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -33,7 +33,7 @@ public class Document : KernelObject
 
 ## Constructors
 
-### <a id="VM_CAD_Kernel_Document__ctor_System_UIntPtr_System_Boolean_"></a> Document\(UIntPtr, bool\)
+### Document\(UIntPtr, bool\)
 
 ```csharp
 public Document(UIntPtr key, bool isLock = true)
@@ -47,7 +47,7 @@ public Document(UIntPtr key, bool isLock = true)
 
 ## Properties
 
-### <a id="VM_CAD_Kernel_Document_GeometryID"></a> GeometryID
+### GeometryID
 
 ```csharp
 public Identifier GeometryID { get; set; }
@@ -59,7 +59,7 @@ public Identifier GeometryID { get; set; }
 
 ## Methods
 
-### <a id="VM_CAD_Kernel_Document_DisplayTmpDirection_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> DisplayTmpDirection\(double, double, double, double, double, double, double\)
+### DisplayTmpDirection\(double, double, double, double, double, double, double\)
 
 ```csharp
 public void DisplayTmpDirection(double dFromX, double dFromY, double dFromZ, double dToX, double dToY, double dToZ, double dIconSize)
@@ -81,7 +81,7 @@ public void DisplayTmpDirection(double dFromX, double dFromY, double dFromZ, dou
 
 `dIconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Kernel_Document_DisplayTmpOrientation_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> DisplayTmpOrientation\(double, double, double, double, double, double, double, double, double, double\)
+### DisplayTmpOrientation\(double, double, double, double, double, double, double, double, double, double\)
 
 ```csharp
 public void DisplayTmpOrientation(double dOriginX, double dOriginY, double dOriginZ, double dZPointX, double dZPointY, double dZPointZ, double dXPointX, double dXPointY, double dXPointZ, double dIconSize)
@@ -109,7 +109,7 @@ public void DisplayTmpOrientation(double dOriginX, double dOriginY, double dOrig
 
 `dIconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Kernel_Document_DisplayTmpTransform_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> DisplayTmpTransform\(double, double, double, double, double, double, double, double, double, double\)
+### DisplayTmpTransform\(double, double, double, double, double, double, double, double, double, double\)
 
 ```csharp
 public void DisplayTmpTransform(double dOriginX, double dOriginY, double dOriginZ, double dZPointX, double dZPointY, double dZPointZ, double dXPointX, double dXPointY, double dXPointZ, double dIconSize)
@@ -136,4 +136,5 @@ public void DisplayTmpTransform(double dOriginX, double dOriginY, double dOrigin
 `dXPointZ` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 `dIconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

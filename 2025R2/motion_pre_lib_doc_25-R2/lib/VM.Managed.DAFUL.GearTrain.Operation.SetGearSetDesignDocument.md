@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_SetGearSetDesignDocument"></a> Class SetGearSetDesignDocument
+# Class SetGearSetDesignDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -87,7 +87,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetGearSetDesignDocument__ctor_VM_Managed_DAFUL_GearTrain_IGearSet_"></a> SetGearSetDesignDocument\(IGearSet\)
+### SetGearSetDesignDocument\(IGearSet\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.SetGearSetDesignDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -101,7 +101,7 @@ public SetGearSetDesignDocument(IGearSet gearset)
 
 The gearset.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetGearSetDesignDocument__ctor_VM_Managed_Operation_JournalParameter_"></a> SetGearSetDesignDocument\(JournalParameter\)
+### SetGearSetDesignDocument\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.SetGearSetDesignDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -117,11 +117,12 @@ The jp.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetGearSetDesignDocument_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
+
 

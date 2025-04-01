@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Linear_PropertyActuatorPSD"></a> Class PropertyActuatorPSD
+# Class PropertyActuatorPSD
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  
@@ -167,7 +167,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorPSD__ctor"></a> PropertyActuatorPSD\(\)
+### PropertyActuatorPSD\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.PropertyActuatorPSD" data-throw-if-not-resolved="false"></xref> class.
 
@@ -177,7 +177,7 @@ public PropertyActuatorPSD()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorPSD_Input"></a> Input
+### Input
 
 Gets or sets the input.
 
@@ -189,7 +189,7 @@ public InputType Input { get; set; }
 
  [InputType](VM.Managed.DAFUL.Linear.InputType.md)
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorPSD_Interpolation"></a> Interpolation
+### Interpolation
 
 Gets or sets the interpolation.
 Use SetInterpolation() when this instance sets for undo/redo
@@ -202,7 +202,7 @@ public InterpolationType Interpolation { get; set; }
 
  InterpolationType
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorPSD_PhaseAngle"></a> PhaseAngle
+### PhaseAngle
 
 Gets or sets the phase angle.
 
@@ -214,7 +214,7 @@ public ExpressionValueVariable PhaseAngle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorPSD_PhaseAngleSpline"></a> PhaseAngleSpline
+### PhaseAngleSpline
 
 Gets or sets the phase angle spline.
 
@@ -226,7 +226,7 @@ public Spline PhaseAngleSpline { get; set; }
 
  Spline
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorPSD_PhaseAngleSplineInterpolation"></a> PhaseAngleSplineInterpolation
+### PhaseAngleSplineInterpolation
 
 Gets or sets the phase angle spline interpolation.
 Use SetPhaseAngleSplineInterpolation() when this instance sets for undo/redo
@@ -239,7 +239,7 @@ public InterpolationType PhaseAngleSplineInterpolation { get; set; }
 
  InterpolationType
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorPSD_Spline"></a> Spline
+### Spline
 
 Gets or sets the spline.
 
@@ -251,7 +251,7 @@ public Spline Spline { get; set; }
 
  Spline
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorPSD_UsePhaseAngleSpline"></a> UsePhaseAngleSpline
+### UsePhaseAngleSpline
 
 Gets or sets a value indicating whether [use phase angle spline].
 Use SetToUsePhaseAngleSpline() when this instance sets for undo/redo
@@ -266,7 +266,7 @@ public bool UsePhaseAngleSpline { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorPSD_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -280,7 +280,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorPSD_SetInterpolation_VM_Managed_DAFUL_InterpolationType_"></a> SetInterpolation\(InterpolationType\)
+### SetInterpolation\(InterpolationType\)
 
 Set interpolation type.
 
@@ -294,7 +294,7 @@ public void SetInterpolation(InterpolationType type)
 
 The interpolation type.
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorPSD_SetPhaseAngleSplineInterpolation_VM_Managed_DAFUL_InterpolationType_"></a> SetPhaseAngleSplineInterpolation\(InterpolationType\)
+### SetPhaseAngleSplineInterpolation\(InterpolationType\)
 
 Set phase angle spline interpolation type.
 
@@ -308,7 +308,7 @@ public void SetPhaseAngleSplineInterpolation(InterpolationType type)
 
 The phase angle spline interpolation type.
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorPSD_SetToUsePhaseAngleSpline_System_Boolean_"></a> SetToUsePhaseAngleSpline\(bool\)
+### SetToUsePhaseAngleSpline\(bool\)
 
 Set to use phase angle spline.
 
@@ -321,4 +321,5 @@ public void SetToUsePhaseAngleSpline(bool bFlag)
 `bFlag` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 The flag.
+
 

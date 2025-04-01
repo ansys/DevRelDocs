@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_RequestConnectedEntity"></a> Class RequestConnectedEntity
+# Class RequestConnectedEntity
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -180,7 +180,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_RequestConnectedEntity__ctor"></a> RequestConnectedEntity\(\)
+### RequestConnectedEntity\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestConnectedEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -188,7 +188,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestConnectedE
 public RequestConnectedEntity()
 ```
 
-### <a id="VM_Managed_DAFUL_RequestConnectedEntity__ctor_System_String_"></a> RequestConnectedEntity\(string\)
+### RequestConnectedEntity\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestConnectedEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -204,7 +204,7 @@ Name of the sub entity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_RequestConnectedEntity_NavigatorEntityName"></a> NavigatorEntityName
+### NavigatorEntityName
 
 ```csharp
 protected override string NavigatorEntityName { get; }
@@ -214,7 +214,7 @@ protected override string NavigatorEntityName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_RequestConnectedEntity_WriteToOutFile"></a> WriteToOutFile
+### WriteToOutFile
 
 Gets or sets the [Write to out file] flag.
 
@@ -228,7 +228,7 @@ public bool WriteToOutFile { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_RequestConnectedEntity_AddNavigatorInfo_System_Xml_XmlDocument_System_Xml_XmlElement_System_String_VM_Managed_ObjectBase_System_String_System_Boolean_"></a> AddNavigatorInfo\(XmlDocument, XmlElement, string, ObjectBase, string, bool\)
+### AddNavigatorInfo\(XmlDocument, XmlElement, string, ObjectBase, string, bool\)
 
 Gets the object information for Add Navigator
 
@@ -256,7 +256,7 @@ The Group Name
 
 `bAddMarker` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_RequestConnectedEntity_EntityFiltering_System_Object_VM_Managed_Picker_Core_FilterArgs_"></a> EntityFiltering\(object, FilterArgs\)
+### EntityFiltering\(object, FilterArgs\)
 
 Entity filtering function
 
@@ -274,7 +274,7 @@ The sender
 
 The argument
 
-### <a id="VM_Managed_DAFUL_RequestConnectedEntity_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -287,4 +287,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IDocumentOwner"></a> Interface IDocumentOwner
+# Interface IDocumentOwner
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface IDocumentOwner
 
 ## Methods
 
-### <a id="VM_Models_Pre_IDocumentOwner_GetOwnedDocuments_System_Collections_Generic_LinkedList_VM_Models_Pre_IDocument__"></a> GetOwnedDocuments\(LinkedList<IDocument\>\)
+### GetOwnedDocuments\(LinkedList<IDocument\>\)
 
 Gets the owned documents.
 
@@ -30,4 +30,5 @@ void GetOwnedDocuments(LinkedList<IDocument> documents)
 `documents` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<[IDocument](VM.Models.Pre.IDocument.md)\>
 
 The owned document container.
+
 

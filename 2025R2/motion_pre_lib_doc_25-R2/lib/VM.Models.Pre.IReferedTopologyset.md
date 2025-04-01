@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IReferedTopologyset"></a> Interface IReferedTopologyset
+# Interface IReferedTopologyset
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface IReferedTopologyset
 
 ## Methods
 
-### <a id="VM_Models_Pre_IReferedTopologyset_GetParentBody"></a> GetParentBody\(\)
+### GetParentBody\(\)
 
 Gets the refered topologies's parent body.
 
@@ -30,4 +30,5 @@ IReferenceGeometry GetParentBody()
  [IReferenceGeometry](VM.Models.Pre.IReferenceGeometry.md)
 
 The refered topologies's parent body.
+
 

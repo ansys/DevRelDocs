@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_IStatusBar"></a> Interface IStatusBar
+# Interface IStatusBar
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -17,7 +17,7 @@ public interface IStatusBar
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Pre_IStatusBar_SetValue_System_String_"></a> SetValue\(string\)
+### SetValue\(string\)
 
 Sets the value.
 
@@ -31,7 +31,7 @@ void SetValue(string strStatus)
 
 The status.
 
-### <a id="VM_Managed_DAFUL_Pre_IStatusBar_SetValue_System_String_System_Boolean_"></a> SetValue\(string, bool\)
+### SetValue\(string, bool\)
 
 Sets the value.
 
@@ -48,4 +48,5 @@ The status.
 `bLazy` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> [lazy].
+
 

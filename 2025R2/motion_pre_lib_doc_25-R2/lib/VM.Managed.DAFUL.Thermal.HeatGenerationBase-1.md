@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_HeatGenerationBase_1"></a> Class HeatGenerationBase<TProperty\>
+# Class HeatGenerationBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -221,7 +221,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Thermal_HeatGenerationBase_1__ctor"></a> HeatGenerationBase\(\)
+### HeatGenerationBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatGenerationBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -229,7 +229,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatGener
 public HeatGenerationBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Thermal_HeatGenerationBase_1__ctor_System_String_"></a> HeatGenerationBase\(string\)
+### HeatGenerationBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatGenerationBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -245,7 +245,7 @@ Name of the STR.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Thermal_HeatGenerationBase_1_HeatGenerationComponent"></a> HeatGenerationComponent
+### HeatGenerationComponent
 
 Gets or sets the heat generation component.
 
@@ -257,7 +257,7 @@ public ObjectBase HeatGenerationComponent { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Thermal_HeatGenerationBase_1_TargetObject"></a> TargetObject
+### TargetObject
 
 Gets the target object.
 
@@ -271,7 +271,7 @@ protected override ObjectBase TargetObject { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Thermal_HeatGenerationBase_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -284,4 +284,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

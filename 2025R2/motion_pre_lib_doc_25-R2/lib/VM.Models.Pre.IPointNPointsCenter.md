@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IPointNPointsCenter"></a> Interface IPointNPointsCenter
+# Interface IPointNPointsCenter
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -24,7 +24,7 @@ IHasID,
 
 ## Properties
 
-### <a id="VM_Models_Pre_IPointNPointsCenter_Points"></a> Points
+### Points
 
 ```csharp
 IPointBase[] Points { get; set; }
@@ -33,4 +33,5 @@ IPointBase[] Points { get; set; }
 #### Property Value
 
  [IPointBase](VM.Models.Pre.IPointBase.md)\[\]
+
 

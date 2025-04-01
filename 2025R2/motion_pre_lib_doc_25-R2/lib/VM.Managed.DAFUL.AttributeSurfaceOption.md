@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeSurfaceOption"></a> Class AttributeSurfaceOption
+# Class AttributeSurfaceOption
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_AttributeSurfaceOption__ctor"></a> AttributeSurfaceOption\(\)
+### AttributeSurfaceOption\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeSurfaceOption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeSurfaceO
 public AttributeSurfaceOption()
 ```
 
-### <a id="VM_Managed_DAFUL_AttributeSurfaceOption__ctor_VM_Managed_Variable_VM_Managed_DAFUL_SurfaceSmoothing_"></a> AttributeSurfaceOption\(Variable, SurfaceSmoothing\)
+### AttributeSurfaceOption\(Variable, SurfaceSmoothing\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeSurfaceOption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -127,7 +127,7 @@ The surface smoothing type.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_AttributeSurfaceOption_HalfThickness"></a> HalfThickness
+### HalfThickness
 
 Gets or sets the half thickness.
 
@@ -139,7 +139,7 @@ public ExpressionValueVariable HalfThickness { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_AttributeSurfaceOption_SurfaceSmoothingType"></a> SurfaceSmoothingType
+### SurfaceSmoothingType
 
 Gets or sets the type of the surface smoothing.
 
@@ -150,4 +150,5 @@ public SurfaceSmoothing SurfaceSmoothingType { get; set; }
 #### Property Value
 
  [SurfaceSmoothing](VM.Managed.DAFUL.SurfaceSmoothing.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_History"></a> Namespace VM.Managed.CAD.History
+# Namespace VM.Managed.CAD.History
 
 ### Classes
 
@@ -17,4 +17,5 @@ This class is to represent the name event for body.
  [BodyTransparencyEvent](VM.Managed.CAD.History.BodyTransparencyEvent.md)
 
 This class is to represent the transparency event for body.
+
 

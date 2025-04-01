@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_CADReplace"></a> Class CADReplace
+# Class CADReplace
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -40,7 +40,7 @@ public class CADReplace : CADImport, IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_CADReplace__ctor"></a> CADReplace\(\)
+### CADReplace\(\)
 
 ```csharp
 public CADReplace()
@@ -48,7 +48,7 @@ public CADReplace()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_CADReplace_Attribute"></a> Attribute
+### Attribute
 
 ```csharp
 public CADReplace.AttributeInfo Attribute { get; set; }
@@ -60,7 +60,7 @@ public CADReplace.AttributeInfo Attribute { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_CADReplace_BuildImpl_VM_Managed_Document_"></a> BuildImpl\(Document\)
+### BuildImpl\(Document\)
 
 ```csharp
 public override void BuildImpl(Document docToAdd)
@@ -69,4 +69,5 @@ public override void BuildImpl(Document docToAdd)
 #### Parameters
 
 `docToAdd` Document
+
 

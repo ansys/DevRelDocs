@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_DocCreateGearTrainInfo"></a> Class DocCreateGearTrainInfo
+# Class DocCreateGearTrainInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -42,7 +42,7 @@ DocCreateInfo.DocumentName
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_DocCreateGearTrainInfo__ctor"></a> DocCreateGearTrainInfo\(\)
+### DocCreateGearTrainInfo\(\)
 
 ```csharp
 public DocCreateGearTrainInfo()
@@ -50,7 +50,7 @@ public DocCreateGearTrainInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_DocCreateGearTrainInfo_ShaftDirX"></a> ShaftDirX
+### ShaftDirX
 
 Gets or sets the direction of shaft X coordinate.
 
@@ -62,7 +62,7 @@ public double ShaftDirX { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_DocCreateGearTrainInfo_ShaftDirY"></a> ShaftDirY
+### ShaftDirY
 
 Gets or sets the direction of shaft Y coordinate.
 
@@ -74,7 +74,7 @@ public double ShaftDirY { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_DocCreateGearTrainInfo_ShaftDirZ"></a> ShaftDirZ
+### ShaftDirZ
 
 Gets or sets the direction of shaft Z coordinate.
 
@@ -85,4 +85,5 @@ public double ShaftDirZ { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

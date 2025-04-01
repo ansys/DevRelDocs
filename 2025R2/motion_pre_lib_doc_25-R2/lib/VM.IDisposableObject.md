@@ -1,4 +1,4 @@
-# <a id="VM_IDisposableObject"></a> Interface IDisposableObject
+# Interface IDisposableObject
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IDisposableObject
 
 ## Properties
 
-### <a id="VM_IDisposableObject_IsDisposed"></a> IsDisposed
+### IsDisposed
 
 ```csharp
 bool IsDisposed { get; }
@@ -25,7 +25,7 @@ bool IsDisposed { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_IDisposableObject_TryDisposing"></a> TryDisposing
+### TryDisposing
 
 ```csharp
 bool TryDisposing { get; }
@@ -35,7 +35,7 @@ bool TryDisposing { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_IDisposableObject_Disposed"></a> Disposed
+### Disposed
 
 ```csharp
 event EventHandler Disposed
@@ -45,7 +45,7 @@ event EventHandler Disposed
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### <a id="VM_IDisposableObject_Disposing"></a> Disposing
+### Disposing
 
 ```csharp
 event EventHandler Disposing
@@ -54,4 +54,5 @@ event EventHandler Disposing
 #### Event Type
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+
 

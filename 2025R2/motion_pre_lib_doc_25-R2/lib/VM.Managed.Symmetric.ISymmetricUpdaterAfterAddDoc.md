@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_ISymmetricUpdaterAfterAddDoc"></a> Interface ISymmetricUpdaterAfterAddDoc
+# Interface ISymmetricUpdaterAfterAddDoc
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface ISymmetricUpdaterAfterAddDoc
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_ISymmetricUpdaterAfterAddDoc_UpdateAfterAddDoc_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateAfterAddDoc\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### UpdateAfterAddDoc\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects after [add document].
 
@@ -46,4 +46,5 @@ Plane of symmetric.
 `docOwner` [Document](VM.Managed.Document.md)
 
 update document.
+
 

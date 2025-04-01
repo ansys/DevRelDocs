@@ -1,4 +1,4 @@
-# <a id="VM_DependencyResolveAttribute"></a> Class DependencyResolveAttribute
+# Class DependencyResolveAttribute
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -22,7 +22,7 @@ public class DependencyResolveAttribute : Attribute
 
 ## Constructors
 
-### <a id="VM_DependencyResolveAttribute__ctor_System_Type_"></a> DependencyResolveAttribute\(Type\)
+### DependencyResolveAttribute\(Type\)
 
 ```csharp
 public DependencyResolveAttribute(Type interfaceType)
@@ -34,7 +34,7 @@ public DependencyResolveAttribute(Type interfaceType)
 
 ## Properties
 
-### <a id="VM_DependencyResolveAttribute_InterfaceType"></a> InterfaceType
+### InterfaceType
 
 ```csharp
 public Type InterfaceType { get; }
@@ -43,4 +43,5 @@ public Type InterfaceType { get; }
 #### Property Value
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
+
 

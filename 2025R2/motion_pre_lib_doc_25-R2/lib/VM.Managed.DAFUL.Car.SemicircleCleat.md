@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_SemicircleCleat"></a> Class SemicircleCleat
+# Class SemicircleCleat
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -29,7 +29,7 @@ public class SemicircleCleat : CleatShape
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_SemicircleCleat__ctor"></a> SemicircleCleat\(\)
+### SemicircleCleat\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SemicircleCleat" data-throw-if-not-resolved="false"></xref> class.
 
@@ -37,7 +37,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SemicircleCle
 public SemicircleCleat()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_SemicircleCleat__ctor_VM_Managed_DAFUL_Car_AnalysisRideDrum_"></a> SemicircleCleat\(AnalysisRideDrum\)
+### SemicircleCleat\(AnalysisRideDrum\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SemicircleCleat" data-throw-if-not-resolved="false"></xref> class.
 
@@ -53,7 +53,7 @@ The ride drum.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_SemicircleCleat_Radius"></a> Radius
+### Radius
 
 Gets or sets the radius.
 
@@ -65,7 +65,7 @@ public double Radius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_SemicircleCleat_TypeOfCleatShape"></a> TypeOfCleatShape
+### TypeOfCleatShape
 
 Gets the type of cleat shape.
 
@@ -79,7 +79,7 @@ public override CleatShapeType TypeOfCleatShape { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_SemicircleCleat_GetXZData_System_Double_"></a> GetXZData\(double\)
+### GetXZData\(double\)
 
 Gets the XZ data.
 
@@ -96,4 +96,5 @@ The d end time.
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

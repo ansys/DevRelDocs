@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_PythonFunctionIntellisenseService"></a> Class PythonFunctionIntellisenseService
+# Class PythonFunctionIntellisenseService
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -22,7 +22,7 @@ public static class PythonFunctionIntellisenseService
 
 ## Fields
 
-### <a id="VM_Models_Pre_PythonFunctionIntellisenseService_OnUpdatePythonModule"></a> OnUpdatePythonModule
+### OnUpdatePythonModule
 
 Raised when user defined python module is updated
 
@@ -36,7 +36,7 @@ public static EventHandler OnUpdatePythonModule
 
 ## Methods
 
-### <a id="VM_Models_Pre_PythonFunctionIntellisenseService_GetImportStrings_VM_Models_Pre_IDocument_System_Boolean_"></a> GetImportStrings\(IDocument, bool\)
+### GetImportStrings\(IDocument, bool\)
 
 Gets python herder string to import user defined puthon codes.
 
@@ -60,7 +60,7 @@ if true, include command to add path of module directory.
 
 The header strings.
 
-### <a id="VM_Models_Pre_PythonFunctionIntellisenseService_GetModulePath_VM_Models_Pre_IDocument_"></a> GetModulePath\(IDocument\)
+### GetModulePath\(IDocument\)
 
 Gets the path to the reorganized user defined python module
 
@@ -80,7 +80,7 @@ The <xref href="VM.Models.Pre.IDocument" data-throw-if-not-resolved="false"></xr
 
 The path to the reorganized user defined python module.
 
-### <a id="VM_Models_Pre_PythonFunctionIntellisenseService_IsRegistered_VM_Models_Pre_IDocument_"></a> IsRegistered\(IDocument\)
+### IsRegistered\(IDocument\)
 
 ```csharp
 public static bool IsRegistered(IDocument document)
@@ -94,7 +94,7 @@ public static bool IsRegistered(IDocument document)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_PythonFunctionIntellisenseService_Register_VM_Models_Pre_IDocument_"></a> Register\(IDocument\)
+### Register\(IDocument\)
 
 Register the <xref href="VM.Models.Pre.IDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -113,4 +113,5 @@ the <xref href="VM.Models.Pre.IDocument" data-throw-if-not-resolved="false"></xr
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Raised when document is null.
+
 

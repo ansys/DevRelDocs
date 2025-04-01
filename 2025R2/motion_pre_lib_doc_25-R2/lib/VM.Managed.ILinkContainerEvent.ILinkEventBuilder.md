@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ILinkContainerEvent_ILinkEventBuilder"></a> Interface ILinkContainerEvent.ILinkEventBuilder
+# Interface ILinkContainerEvent.ILinkEventBuilder
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface ILinkContainerEvent.ILinkEventBuilder
 
 ## Methods
 
-### <a id="VM_Managed_ILinkContainerEvent_ILinkEventBuilder_CreatePostLinkEvent_System_Object_"></a> CreatePostLinkEvent\(object\)
+### CreatePostLinkEvent\(object\)
 
 Create the linked object's post-event.
 
@@ -35,7 +35,7 @@ The object container.
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
-### <a id="VM_Managed_ILinkContainerEvent_ILinkEventBuilder_CreatePreLinkEvent_System_Object_"></a> CreatePreLinkEvent\(object\)
+### CreatePreLinkEvent\(object\)
 
 Create the linked object's pre-event.
 
@@ -52,4 +52,5 @@ The object container.
 #### Returns
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
+
 

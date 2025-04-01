@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseConeSimple"></a> Class SolidBodyEllipseConeSimple
+# Class SolidBodyEllipseConeSimple
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -65,7 +65,7 @@ public class SolidBodyEllipseConeSimple : SolidBodyEllipseCone<BuilderEllipseCon
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseConeSimple__ctor"></a> SolidBodyEllipseConeSimple\(\)
+### SolidBodyEllipseConeSimple\(\)
 
 ```csharp
 public SolidBodyEllipseConeSimple()
@@ -73,7 +73,7 @@ public SolidBodyEllipseConeSimple()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseConeSimple_BottomPosition"></a> BottomPosition
+### BottomPosition
 
 ```csharp
 public PointBase BottomPosition { get; set; }
@@ -83,7 +83,7 @@ public PointBase BottomPosition { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseConeSimple_MajorAxis"></a> MajorAxis
+### MajorAxis
 
 ```csharp
 public DirectionBase MajorAxis { get; set; }
@@ -93,7 +93,7 @@ public DirectionBase MajorAxis { get; set; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseConeSimple_RadiusMajor"></a> RadiusMajor
+### RadiusMajor
 
 ```csharp
 public Variable RadiusMajor { get; set; }
@@ -103,7 +103,7 @@ public Variable RadiusMajor { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseConeSimple_RadiusMinor"></a> RadiusMinor
+### RadiusMinor
 
 ```csharp
 public Variable RadiusMinor { get; set; }
@@ -113,7 +113,7 @@ public Variable RadiusMinor { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseConeSimple_TopPosition"></a> TopPosition
+### TopPosition
 
 ```csharp
 public PointBase TopPosition { get; set; }
@@ -123,7 +123,7 @@ public PointBase TopPosition { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseConeSimple_TopRadius"></a> TopRadius
+### TopRadius
 
 ```csharp
 public Variable TopRadius { get; set; }
@@ -135,7 +135,7 @@ public Variable TopRadius { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseConeSimple_MakeSymmetricSolidBuilder"></a> MakeSymmetricSolidBuilder\(\)
+### MakeSymmetricSolidBuilder\(\)
 
 ```csharp
 protected override Builder MakeSymmetricSolidBuilder()
@@ -145,7 +145,7 @@ protected override Builder MakeSymmetricSolidBuilder()
 
  Builder
 
-### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseConeSimple_SetSolidBuilderProperty_VM_Managed_CAD_BuilderEllipseConeSimple_"></a> SetSolidBuilderProperty\(BuilderEllipseConeSimple\)
+### SetSolidBuilderProperty\(BuilderEllipseConeSimple\)
 
 ```csharp
 protected override void SetSolidBuilderProperty(BuilderEllipseConeSimple solidBuilder)
@@ -154,4 +154,5 @@ protected override void SetSolidBuilderProperty(BuilderEllipseConeSimple solidBu
 #### Parameters
 
 `solidBuilder` BuilderEllipseConeSimple
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Tire"></a> Namespace VM.Managed.DAFUL.Tire
+# Namespace VM.Managed.DAFUL.Tire
 
 ### Namespaces
 
@@ -39,4 +39,5 @@ Specifies type for the side.
  [WheelBodyBase.SideType](VM.Managed.DAFUL.Tire.WheelBodyBase.SideType.md)
 
 Specifies type for the side.
+
 

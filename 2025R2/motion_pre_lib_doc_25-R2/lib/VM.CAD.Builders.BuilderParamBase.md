@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamBase"></a> Class BuilderParamBase
+# Class BuilderParamBase
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -29,7 +29,7 @@ public abstract class BuilderParamBase
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamBase__ctor"></a> BuilderParamBase\(\)
+### BuilderParamBase\(\)
 
 Initializes a new instance of the <xref href="VM.CAD.Builders.BuilderParamBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ protected BuilderParamBase()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_BuilderParamBase_Key"></a> Key
+### Key
 
 Gets or sets the key.
 
@@ -51,7 +51,7 @@ public KeyInfo Key { get; set; }
 
  [KeyInfo](VM.CAD.Builders.KeyInfo.md)
 
-### <a id="VM_CAD_Builders_BuilderParamBase_Transparency"></a> Transparency
+### Transparency
 
 Gets or sets the transparency information.
 
@@ -63,7 +63,7 @@ public TransparencyInfo Transparency { get; set; }
 
  [TransparencyInfo](VM.CAD.Builders.TransparencyInfo.md)
 
-### <a id="VM_CAD_Builders_BuilderParamBase_TypeName"></a> TypeName
+### TypeName
 
 Gets or sets the type name.
 
@@ -77,7 +77,7 @@ public string TypeName { get; set; }
 
 ## Methods
 
-### <a id="VM_CAD_Builders_BuilderParamBase_FinalizeParameter"></a> FinalizeParameter\(\)
+### FinalizeParameter\(\)
 
 Finalize additional parameter setup.
 
@@ -85,7 +85,7 @@ Finalize additional parameter setup.
 public virtual void FinalizeParameter()
 ```
 
-### <a id="VM_CAD_Builders_BuilderParamBase_SetTypeName"></a> SetTypeName\(\)
+### SetTypeName\(\)
 
 Set type name based on type of builder parameter.
 
@@ -93,7 +93,7 @@ Set type name based on type of builder parameter.
 protected void SetTypeName()
 ```
 
-### <a id="VM_CAD_Builders_BuilderParamBase_ToXmlString"></a> ToXmlString\(\)
+### ToXmlString\(\)
 
 Generates xml string of the builder parameter.
 
@@ -106,4 +106,5 @@ public virtual string ToXmlString()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The builder parameter xml string.
+
 

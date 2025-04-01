@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Constraints_CylindricalBBPD"></a> Class CylindricalBBPD
+# Class CylindricalBBPD
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCB.dll  
@@ -61,9 +61,10 @@ BuilderBase<Cylindrical\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Constraints_CylindricalBBPD__ctor"></a> CylindricalBBPD\(\)
+### CylindricalBBPD\(\)
 
 ```csharp
 public CylindricalBBPD()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData"></a> Class HydroForce.ActionBodyData
+# Class HydroForce.ActionBodyData
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData__ctor"></a> ActionBodyData\(\)
+### ActionBodyData\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.HydroForce.ActionBodyData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.HydroForce.
 public ActionBodyData()
 ```
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData__ctor_VM_Managed_ObjectBase_"></a> ActionBodyData\(ObjectBase\)
+### ActionBodyData\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.HydroForce.ActionBodyData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The Action Body.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData_ActionBody"></a> ActionBody
+### ActionBody
 
 Gets or sets the Action body.
 
@@ -132,7 +132,7 @@ public ObjectBase ActionBody { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData_CoarseningFactor"></a> CoarseningFactor
+### CoarseningFactor
 
 Gets or sets the coarsening factor.
 
@@ -144,7 +144,7 @@ public int CoarseningFactor { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData_EndingTime"></a> EndingTime
+### EndingTime
 
 Gets or sets the ending time.
 
@@ -162,7 +162,7 @@ public ExpressionValueVariable EndingTime { get; set; }
 
 The ending time is null.
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData_ShearCoefficient"></a> ShearCoefficient
+### ShearCoefficient
 
 Gets or sets the shear coefficient.
 
@@ -180,7 +180,7 @@ public ExpressionValueVariable ShearCoefficient { get; set; }
 
 The shear coefficient is null.
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData_ShearExponent"></a> ShearExponent
+### ShearExponent
 
 Gets or sets the shear exponent.
 
@@ -198,7 +198,7 @@ public ExpressionValueVariable ShearExponent { get; set; }
 
 The shear exponent is null.
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData_StartingTime"></a> StartingTime
+### StartingTime
 
 Gets or sets the starting time.
 
@@ -216,7 +216,7 @@ public ExpressionValueVariable StartingTime { get; set; }
 
 The starting time is null.
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData_TypeOfSurface"></a> TypeOfSurface
+### TypeOfSurface
 
 Gets or sets the surface type.
 
@@ -228,7 +228,7 @@ public HydroForce.ActionBodyData.SurfaceType TypeOfSurface { get; set; }
 
  [HydroForce](VM.Managed.DAFUL.Track.HydroForce.md).[ActionBodyData](VM.Managed.DAFUL.Track.HydroForce.ActionBodyData.md).[SurfaceType](VM.Managed.DAFUL.Track.HydroForce.ActionBodyData.SurfaceType.md)
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData_TypeOfWeightingFactor"></a> TypeOfWeightingFactor
+### TypeOfWeightingFactor
 
 Gets or sets the weighting factor type.
 
@@ -240,7 +240,7 @@ public HydroForce.ActionBodyData.WeightingFactorType TypeOfWeightingFactor { get
 
  [HydroForce](VM.Managed.DAFUL.Track.HydroForce.md).[ActionBodyData](VM.Managed.DAFUL.Track.HydroForce.ActionBodyData.md).[WeightingFactorType](VM.Managed.DAFUL.Track.HydroForce.ActionBodyData.WeightingFactorType.md)
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData_VolumeRatio"></a> VolumeRatio
+### VolumeRatio
 
 Gets or sets the volume ratio.
 
@@ -260,7 +260,7 @@ The volume ratio is null.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -274,7 +274,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Track_HydroForce_ActionBodyData_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -291,4 +291,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeCanNotOpenWithNewPreprocessor"></a> Class AttributeCanNotOpenWithNewPreprocessor
+# Class AttributeCanNotOpenWithNewPreprocessor
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_AttributeCanNotOpenWithNewPreprocessor__ctor"></a> AttributeCanNotOpenWithNewPreprocessor\(\)
+### AttributeCanNotOpenWithNewPreprocessor\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeCanNotOpenWithNewPreprocessor" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeCanNotOpenWithNewPreprocessor()
 
 ## Properties
 
-### <a id="VM_Managed_AttributeCanNotOpenWithNewPreprocessor_Count"></a> Count
+### Count
 
 ```csharp
 public uint Count { get; set; }
@@ -118,4 +118,5 @@ public uint Count { get; set; }
 #### Property Value
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
 

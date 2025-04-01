@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PointLinkDelta"></a> Class PointLinkDelta
+# Class PointLinkDelta
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -123,7 +123,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_PointLinkDelta__ctor_VM_Managed_IPoint_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_"></a> PointLinkDelta\(IPoint, Variable, Variable, Variable\)
+### PointLinkDelta\(IPoint, Variable, Variable, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointLinkDelta" data-throw-if-not-resolved="false"></xref> class.
 
@@ -149,7 +149,7 @@ Y of Delta.
 
 Z of Delta.
 
-### <a id="VM_Managed_PointLinkDelta__ctor_VM_Managed_IPoint_System_Double_System_Double_System_Double_"></a> PointLinkDelta\(IPoint, double, double, double\)
+### PointLinkDelta\(IPoint, double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointLinkDelta" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ Y of Delta.
 
 Z of Delta.
 
-### <a id="VM_Managed_PointLinkDelta__ctor_VM_Managed_IPoint_"></a> PointLinkDelta\(IPoint\)
+### PointLinkDelta\(IPoint\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointLinkDelta" data-throw-if-not-resolved="false"></xref> class.
 
@@ -189,7 +189,7 @@ public PointLinkDelta(IPoint pPoint)
 
 value of point.
 
-### <a id="VM_Managed_PointLinkDelta__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_"></a> PointLinkDelta\(Variable, Variable, Variable\)
+### PointLinkDelta\(Variable, Variable, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointLinkDelta" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Y of Delta.
 
 Z of Delta.
 
-### <a id="VM_Managed_PointLinkDelta__ctor_System_Double_System_Double_System_Double_"></a> PointLinkDelta\(double, double, double\)
+### PointLinkDelta\(double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointLinkDelta" data-throw-if-not-resolved="false"></xref> class.
 
@@ -233,7 +233,7 @@ Y of Delta.
 
 Z of Delta.
 
-### <a id="VM_Managed_PointLinkDelta__ctor"></a> PointLinkDelta\(\)
+### PointLinkDelta\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointLinkDelta" data-throw-if-not-resolved="false"></xref> class.
 
@@ -243,7 +243,7 @@ public PointLinkDelta()
 
 ## Fields
 
-### <a id="VM_Managed_PointLinkDelta_m_DeltaX"></a> m\_DeltaX
+### m\_DeltaX
 
 ```csharp
 protected Child<Variable, LinkContainer.Update> m_DeltaX
@@ -253,7 +253,7 @@ protected Child<Variable, LinkContainer.Update> m_DeltaX
 
  [Child](VM.Managed.Child\-2.md)<[Variable](VM.Managed.Variable.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>
 
-### <a id="VM_Managed_PointLinkDelta_m_DeltaY"></a> m\_DeltaY
+### m\_DeltaY
 
 ```csharp
 protected Child<Variable, LinkContainer.Update> m_DeltaY
@@ -263,7 +263,7 @@ protected Child<Variable, LinkContainer.Update> m_DeltaY
 
  [Child](VM.Managed.Child\-2.md)<[Variable](VM.Managed.Variable.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>
 
-### <a id="VM_Managed_PointLinkDelta_m_DeltaZ"></a> m\_DeltaZ
+### m\_DeltaZ
 
 ```csharp
 protected Child<Variable, LinkContainer.Update> m_DeltaZ
@@ -273,7 +273,7 @@ protected Child<Variable, LinkContainer.Update> m_DeltaZ
 
  [Child](VM.Managed.Child\-2.md)<[Variable](VM.Managed.Variable.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>
 
-### <a id="VM_Managed_PointLinkDelta_m_bUseFrameOrientation"></a> m\_bUseFrameOrientation
+### m\_bUseFrameOrientation
 
 ```csharp
 protected bool m_bUseFrameOrientation
@@ -283,7 +283,7 @@ protected bool m_bUseFrameOrientation
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_PointLinkDelta_m_enOrientationFrame"></a> m\_enOrientationFrame
+### m\_enOrientationFrame
 
 ```csharp
 protected OrientationFrame m_enOrientationFrame
@@ -295,7 +295,7 @@ protected OrientationFrame m_enOrientationFrame
 
 ## Properties
 
-### <a id="VM_Managed_PointLinkDelta_DeltaX"></a> DeltaX
+### DeltaX
 
 Gets or sets the delta X of link.
 
@@ -307,7 +307,7 @@ public Variable DeltaX { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### <a id="VM_Managed_PointLinkDelta_DeltaY"></a> DeltaY
+### DeltaY
 
 Gets or sets the delta Y of link.
 
@@ -319,7 +319,7 @@ public Variable DeltaY { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### <a id="VM_Managed_PointLinkDelta_DeltaZ"></a> DeltaZ
+### DeltaZ
 
 Gets or sets the delta Z of link.
 
@@ -331,7 +331,7 @@ public Variable DeltaZ { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### <a id="VM_Managed_PointLinkDelta_LinkOrientation"></a> LinkOrientation
+### LinkOrientation
 
 Gets the orientation of link.
 
@@ -343,7 +343,7 @@ public IOrientation LinkOrientation { get; }
 
  [IOrientation](VM.Managed.IOrientation.md)
 
-### <a id="VM_Managed_PointLinkDelta_OrientationFrameType"></a> OrientationFrameType
+### OrientationFrameType
 
 Whether use the frame orientation.
 
@@ -355,7 +355,7 @@ public OrientationFrame OrientationFrameType { get; set; }
 
  [OrientationFrame](VM.Managed.OrientationFrame.md)
 
-### <a id="VM_Managed_PointLinkDelta_UseFrameOrientation"></a> UseFrameOrientation
+### UseFrameOrientation
 
 Whether use the frame orientation.
 
@@ -367,7 +367,7 @@ public bool UseFrameOrientation { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_PointLinkDelta_Value"></a> Value
+### Value
 
 Get the VectorBase(x, y, z).
 
@@ -379,7 +379,7 @@ public override VectorBase Value { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_PointLinkDelta_X"></a> X
+### X
 
 Get the X point.
 
@@ -391,7 +391,7 @@ public override double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_PointLinkDelta_Y"></a> Y
+### Y
 
 Get the Y point.
 
@@ -403,7 +403,7 @@ public override double Y { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_PointLinkDelta_Z"></a> Z
+### Z
 
 Get the Z point.
 
@@ -417,7 +417,7 @@ public override double Z { get; }
 
 ## Methods
 
-### <a id="VM_Managed_PointLinkDelta_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -432,7 +432,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### <a id="VM_Managed_PointLinkDelta_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -446,7 +446,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_PointLinkDelta_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -459,4 +459,5 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PseudoNodalBody"></a> Class PseudoNodalBody
+# Class PseudoNodalBody
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -299,7 +299,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoNodalBody__ctor"></a> PseudoNodalBody\(\)
+### PseudoNodalBody\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoNodalBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -307,7 +307,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoN
 public PseudoNodalBody()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoNodalBody__ctor_System_String_VM_Managed_Instance_"></a> PseudoNodalBody\(string, Instance\)
+### PseudoNodalBody\(string, Instance\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoNodalBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -325,7 +325,7 @@ Name of the string.
 
 The instance nodal body.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoNodalBody__ctor_System_String_System_String_VM_Managed_TransformBase_"></a> PseudoNodalBody\(string, string, TransformBase\)
+### PseudoNodalBody\(string, string, TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoNodalBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -349,7 +349,7 @@ The transf.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoNodalBody_InstanceContainer"></a> InstanceContainer
+### InstanceContainer
 
 Gets or sets the instance container.
 
@@ -363,7 +363,7 @@ public InstanceContainer InstanceContainer { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoNodalBody_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -381,7 +381,7 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoNodalBody_ReAssembly"></a> ReAssembly\(\)
+### ReAssembly\(\)
 
 Res the assembly.
 
@@ -389,7 +389,7 @@ Res the assembly.
 public override void ReAssembly()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoNodalBody_TemperaryNodalBodyGeometry_VM_Managed_Document_System_String_VM_Managed_TMatrix_"></a> TemperaryNodalBodyGeometry\(Document, string, TMatrix\)
+### TemperaryNodalBodyGeometry\(Document, string, TMatrix\)
 
 Temeraries the nodal body geometry.
 
@@ -414,4 +414,5 @@ The mat t.
 #### Returns
 
  [PseudoNodalBody](VM.Managed.DAFUL.GearTrain.PseudoNodalBody.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Application"></a> Class Application
+# Class Application
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -28,7 +28,7 @@ public sealed class Application : KernelObject
 
 ## Constructors
 
-### <a id="VM_CAD_Kernel_Application__ctor_System_UIntPtr_System_Boolean_"></a> Application\(UIntPtr, bool\)
+### Application\(UIntPtr, bool\)
 
 Construct new Application object
 
@@ -48,7 +48,7 @@ If true, lock reference of the application object. otherwise, false.
 
 ## Methods
 
-### <a id="VM_CAD_Kernel_Application_OpenDocument_VM_CAD_Kernel_OpenDocumentInfo_"></a> OpenDocument\(OpenDocumentInfo\)
+### OpenDocument\(OpenDocumentInfo\)
 
 Open existing document
 
@@ -72,7 +72,7 @@ The opened document.
 
 [OpenDocumentInfo](VM.CAD.Kernel.OpenDocumentInfo.md)
 
-### <a id="VM_CAD_Kernel_Application_SetLogLevel_System_Int32_System_Int32_"></a> SetLogLevel\(int, int\)
+### SetLogLevel\(int, int\)
 
 Set loge level for kernel messages
 
@@ -95,4 +95,5 @@ Translator message log level
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
 Failed to set log level.
+
 

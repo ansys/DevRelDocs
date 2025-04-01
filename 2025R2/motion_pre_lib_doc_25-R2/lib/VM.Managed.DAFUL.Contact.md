@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact"></a> Namespace VM.Managed.DAFUL.Contact
+# Namespace VM.Managed.DAFUL.Contact
 
 ### Classes
 
@@ -278,7 +278,7 @@ Indicates whether contact area's calculation method is a surface or a sphere.
 
  [PropertyGeneralContact.ContactType](VM.Managed.DAFUL.Contact.PropertyGeneralContact.ContactType.md)
 
-Specifies type for a contact.
+<p>Specifies type for a contact.</p>
 
  [ContactStandard.DampingCoefficientType](VM.Managed.DAFUL.Contact.ContactStandard.DampingCoefficientType.md)
 
@@ -303,4 +303,5 @@ Specifies type for a point check.
  [ContactStandard.StiffnessCoefficientType](VM.Managed.DAFUL.Contact.ContactStandard.StiffnessCoefficientType.md)
 
 Indicates whether contact property's stiffness is a coefficient type or a user spline type.
+
 

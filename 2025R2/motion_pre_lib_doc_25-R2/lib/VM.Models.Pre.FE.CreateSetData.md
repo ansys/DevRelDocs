@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_FE_CreateSetData"></a> Enum CreateSetData
+# Enum CreateSetData
 
 Namespace: [VM.Models.Pre.FE](VM.Models.Pre.FE.md)  
 Assembly: VM.Models.Pre.FE.dll  
@@ -32,6 +32,7 @@ Create nothing
 `PatchSet = 2` 
 
 Create PatchSet when import
+
 
 
 

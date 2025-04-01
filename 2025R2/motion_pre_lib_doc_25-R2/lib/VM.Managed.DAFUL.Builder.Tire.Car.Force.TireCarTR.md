@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Tire_Car_Force_TireCarTR"></a> Class TireCarTR
+# Class TireCarTR
 
 Namespace: [VM.Managed.DAFUL.Builder.Tire.Car.Force](VM.Managed.DAFUL.Builder.Tire.Car.Force.md)  
 Assembly: VMBldTireCar.dll  
@@ -69,7 +69,7 @@ BuilderBase<TireCar\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Car_Force_TireCarTR__ctor"></a> TireCarTR\(\)
+### TireCarTR\(\)
 
 ```csharp
 public TireCarTR()
@@ -77,7 +77,7 @@ public TireCarTR()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Car_Force_TireCarTR_GetOrientation"></a> GetOrientation\(\)
+### GetOrientation\(\)
 
 ```csharp
 protected override OMatrix GetOrientation()
@@ -87,7 +87,7 @@ protected override OMatrix GetOrientation()
 
  OMatrix
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Car_Force_TireCarTR_MakeWheelBody_VM_Managed_Document_"></a> MakeWheelBody\(Document\)
+### MakeWheelBody\(Document\)
 
 ```csharp
 protected override WheelBodyBase MakeWheelBody(Document doc)
@@ -101,7 +101,7 @@ protected override WheelBodyBase MakeWheelBody(Document doc)
 
  WheelBodyBase
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Car_Force_TireCarTR_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -117,7 +117,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Tire_Car_Force_TireCarTR_SetDataWheelBody_VM_Managed_DAFUL_Tire_WheelBodyBase_VM_Managed_Document_"></a> SetDataWheelBody\(WheelBodyBase, Document\)
+### SetDataWheelBody\(WheelBodyBase, Document\)
 
 ```csharp
 protected override void SetDataWheelBody(WheelBodyBase wheel, Document doc)
@@ -128,4 +128,5 @@ protected override void SetDataWheelBody(WheelBodyBase wheel, Document doc)
 `wheel` WheelBodyBase
 
 `doc` Document
+
 

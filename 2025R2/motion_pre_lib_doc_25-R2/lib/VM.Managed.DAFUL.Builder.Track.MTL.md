@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Track_MTL"></a> Class MTL
+# Class MTL
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -53,7 +53,7 @@ BuilderBase<MTL\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MTL__ctor"></a> MTL\(\)
+### MTL\(\)
 
 ```csharp
 public MTL()
@@ -61,7 +61,7 @@ public MTL()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MTL_BaseContactable"></a> BaseContactable
+### BaseContactable
 
 ```csharp
 public IContactableRigid3D BaseContactable { get; }
@@ -71,7 +71,7 @@ public IContactableRigid3D BaseContactable { get; }
 
  IContactableRigid3D
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MTL_HullMarker"></a> HullMarker
+### HullMarker
 
 ```csharp
 public IMarker HullMarker { get; }
@@ -81,7 +81,7 @@ public IMarker HullMarker { get; }
 
  IMarker
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MTL_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -91,7 +91,7 @@ public string[] InputArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MTL_Thickness"></a> Thickness
+### Thickness
 
 ```csharp
 public Variable Thickness { get; set; }
@@ -101,7 +101,7 @@ public Variable Thickness { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MTL_Width"></a> Width
+### Width
 
 ```csharp
 public Variable Width { get; set; }
@@ -113,7 +113,7 @@ public Variable Width { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MTL_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
+### OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -123,7 +123,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_Track_MTL_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -138,4 +138,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

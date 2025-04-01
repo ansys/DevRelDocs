@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_ShoeProfileParametric"></a> Class ShoeProfileParametric
+# Class ShoeProfileParametric
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -42,7 +42,7 @@ public abstract class ShoeProfileParametric : ShoeProfileBase
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric__ctor"></a> ShoeProfileParametric\(\)
+### ShoeProfileParametric\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeProfileParametric" data-throw-if-not-resolved="false"></xref> class.
 
@@ -52,7 +52,7 @@ public ShoeProfileParametric()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_FirstGH"></a> FirstGH
+### FirstGH
 
 Gets and sets height for first grouser .
 
@@ -64,7 +64,7 @@ public double FirstGH { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_FirstGLW"></a> FirstGLW
+### FirstGLW
 
 Gets and sets lower width for first grouser.
 
@@ -76,7 +76,7 @@ public double FirstGLW { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_FirstGUW"></a> FirstGUW
+### FirstGUW
 
 Gets and sets upper width for first grouser
 
@@ -88,7 +88,7 @@ public double FirstGUW { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_LDP1"></a> LDP1
+### LDP1
 
 Gets and sets longitudinal distance from reference position to p1.
 
@@ -100,7 +100,7 @@ public double LDP1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_LDP2"></a> LDP2
+### LDP2
 
 Gets and sets longitudinal distance from reference position to p2.
 
@@ -112,7 +112,7 @@ public double LDP2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_LDQ1"></a> LDQ1
+### LDQ1
 
 Gets and sets longitudinal distance from reference position to q1.
 
@@ -124,7 +124,7 @@ public double LDQ1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_RP1"></a> RP1
+### RP1
 
 Gets and sets arc radius with respect to p1.
 
@@ -136,7 +136,7 @@ public double RP1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_RP2"></a> RP2
+### RP2
 
 Gets and sets arc radius with respect to p2.
 
@@ -148,7 +148,7 @@ public double RP2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_RQ1"></a> RQ1
+### RQ1
 
 Gets and sets arc radius with respect to q1.
 
@@ -160,7 +160,7 @@ public double RQ1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_ShoeDistance1"></a> ShoeDistance1
+### ShoeDistance1
 
 Gets and sets longitudinal distance from reference position to shoe head.
 
@@ -172,7 +172,7 @@ public double ShoeDistance1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_VDP1"></a> VDP1
+### VDP1
 
 Gets and sets vertical distance from reference position to p1.
 
@@ -184,7 +184,7 @@ public double VDP1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_VDP2"></a> VDP2
+### VDP2
 
 Gets and sets vertical distance from reference position to p2.
 
@@ -196,7 +196,7 @@ public double VDP2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_VDQ1"></a> VDQ1
+### VDQ1
 
 Gets and sets vertical distance from reference position to q1.
 
@@ -210,7 +210,7 @@ public double VDQ1 { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
+### CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -218,7 +218,7 @@ Checks the validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_Claculation_TangentPoint_Between_Two_Circle_VM_Managed_VectorBase_System_Double_VM_Managed_VectorBase_System_Double_"></a> Claculation\_TangentPoint\_Between\_Two\_Circle\(VectorBase, double, VectorBase, double\)
+### Claculation\_TangentPoint\_Between\_Two\_Circle\(VectorBase, double, VectorBase, double\)
 
 Called when tangent points calculates bewteen two circles.
 
@@ -250,7 +250,7 @@ The radius.
 
 The list of points
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_CreateProfile"></a> CreateProfile\(\)
+### CreateProfile\(\)
 
 Create profile data.
 
@@ -262,7 +262,7 @@ protected override bool CreateProfile()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_GetAngleUsingCosine2Law_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> GetAngleUsingCosine2Law\(VectorBase, VectorBase, VectorBase\)
+### GetAngleUsingCosine2Law\(VectorBase, VectorBase, VectorBase\)
 
 Gets angle using laq of cosine
 
@@ -290,7 +290,7 @@ Point C
 
 angle value
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_GetX_UsingEquationOfCircle_VM_Managed_VectorBase_System_Double_System_Double_"></a> GetX\_UsingEquationOfCircle\(VectorBase, double, double\)
+### GetX\_UsingEquationOfCircle\(VectorBase, double, double\)
 
 Gets x data using Equations of circles
 
@@ -318,7 +318,7 @@ radius
 
 x-value array
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_GetY_UsingEquationOfCircle_VM_Managed_VectorBase_System_Double_System_Double_"></a> GetY\_UsingEquationOfCircle\(VectorBase, double, double\)
+### GetY\_UsingEquationOfCircle\(VectorBase, double, double\)
 
 Gets y data using Equations of circles
 
@@ -346,11 +346,12 @@ radius
 
 y-value array
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileParametric_Validation"></a> Validation\(\)
+### Validation\(\)
 
 Check validation for member variables.
 
 ```csharp
 public override void Validation()
 ```
+
 

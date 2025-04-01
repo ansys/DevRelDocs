@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_CancelRibbon"></a> Enum CancelRibbon
+# Enum CancelRibbon
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -20,6 +20,7 @@ All
 `EntityVM = 1` 
 
 EntityVM
+
 
 
 

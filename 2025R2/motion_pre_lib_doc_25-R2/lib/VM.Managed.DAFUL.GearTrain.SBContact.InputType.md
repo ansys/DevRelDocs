@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_SBContact_InputType"></a> Enum SBContact.InputType
+# Enum SBContact.InputType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,6 +20,7 @@ coefficient
 `Spline = 1` 
 
 spline
+
 
 
 

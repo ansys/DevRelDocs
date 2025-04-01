@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CompositeFieldUsableValue"></a> Class CompositeFieldUsableValue
+# Class CompositeFieldUsableValue
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableValue__ctor"></a> CompositeFieldUsableValue\(\)
+### CompositeFieldUsableValue\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeFieldUsableValue" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeFieldUsa
 public CompositeFieldUsableValue()
 ```
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableValue__ctor_VM_Managed_Property_"></a> CompositeFieldUsableValue\(Property\)
+### CompositeFieldUsableValue\(Property\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeFieldUsableValue" data-throw-if-not-resolved="false"></xref> class.
 
@@ -122,7 +122,7 @@ public CompositeFieldUsableValue(Property owner)
 
 The owner.
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableValue__ctor_System_Double_"></a> CompositeFieldUsableValue\(double\)
+### CompositeFieldUsableValue\(double\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeFieldUsableValue" data-throw-if-not-resolved="false"></xref> class.
 
@@ -136,7 +136,7 @@ public CompositeFieldUsableValue(double dValue)
 
 The d value.
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableValue__ctor_VM_Managed_Property_System_Double_"></a> CompositeFieldUsableValue\(Property, double\)
+### CompositeFieldUsableValue\(Property, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeFieldUsableValue" data-throw-if-not-resolved="false"></xref> class.
 
@@ -156,7 +156,7 @@ The d value.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableValue_IsUse"></a> IsUse
+### IsUse
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.CompositeFieldUsable" data-throw-if-not-resolved="false"></xref> is use.
 
@@ -168,7 +168,7 @@ public override bool IsUse { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableValue_Use"></a> Use
+### Use
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.CompositeFieldUsable" data-throw-if-not-resolved="false"></xref> is use.
 
@@ -180,7 +180,7 @@ protected override bool Use { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_CompositeFieldUsableValue_Value"></a> Value
+### Value
 
 Gets or sets the value.
 
@@ -191,4 +191,5 @@ public ExpressionValueVariable Value { get; set; }
 #### Property Value
 
  ExpressionValueVariable
+
 

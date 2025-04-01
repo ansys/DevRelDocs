@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_Links_HydroDynamicAPI"></a> Class HydroDynamicAPI
+# Class HydroDynamicAPI
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -22,7 +22,7 @@ public static class HydroDynamicAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_Links_HydroDynamicAPI_CreateHydroForce_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_"></a> CreateHydroForce\(SubSystemDocument, Obj, Obj, IEnumerable<Obj\>, string\)
+### CreateHydroForce\(SubSystemDocument, Obj, Obj, IEnumerable<Obj\>, string\)
 
 ```csharp
 [NotNullObj(new string[] { "baseWater", "hullBody" })]
@@ -46,7 +46,7 @@ public static Obj CreateHydroForce(this SubSystemDocument document, Obj baseWate
 
  Obj
 
-### <a id="VM_API_Pre_Links_HydroDynamicAPI_CreateMasslessTrackLink_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Links_PathData__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateMasslessTrackLink\(SubSystemDocument, Obj, Obj, IEnumerable<PathData\>, ExpressionValueVariable?, ExpressionValueVariable?, string\)
+### CreateMasslessTrackLink\(SubSystemDocument, Obj, Obj, IEnumerable<PathData\>, ExpressionValueVariable?, ExpressionValueVariable?, string\)
 
 Create <xref href="VM.Managed.DAFUL.Track.MTL" data-throw-if-not-resolved="false"></xref>.
 
@@ -123,7 +123,7 @@ Will be thrown if type of 'Marker' of paths is not <xref href="VM.Managed.IMarke
 
 Will be thrown if type of 'WindingRadius' of paths value equal to or less than 0.
 
-### <a id="VM_API_Pre_Links_HydroDynamicAPI_CreateMultiMasslessTrackLink_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Links_PathData__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateMultiMasslessTrackLink\(SubSystemDocument, IEnumerable<Obj\>, Obj, IEnumerable<PathData\>, ExpressionValueVariable?, ExpressionValueVariable?, string\)
+### CreateMultiMasslessTrackLink\(SubSystemDocument, IEnumerable<Obj\>, Obj, IEnumerable<PathData\>, ExpressionValueVariable?, ExpressionValueVariable?, string\)
 
 Create <xref href="VM.Managed.DAFUL.Track.MTL" data-throw-if-not-resolved="false"></xref>.
 
@@ -194,7 +194,7 @@ Will be thrown if type of 'Marker' of paths is not <xref href="VM.Managed.IMarke
 
 Will be thrown if type of 'WindingRadius' of paths value equal to or less than 0.
 
-### <a id="VM_API_Pre_Links_HydroDynamicAPI_CreateSoilInteraction_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_"></a> CreateSoilInteraction\(SubSystemDocument, Obj, IEnumerable<Obj\>, string\)
+### CreateSoilInteraction\(SubSystemDocument, Obj, IEnumerable<Obj\>, string\)
 
 Create <xref href="VM.Managed.DAFUL.Track.SoilInteraction" data-throw-if-not-resolved="false"></xref>.
 
@@ -242,7 +242,7 @@ Will be thrown if type of 'baseEntity' is not <xref href="VM.Managed.DAFUL.ICont
 
 Will be thrown if item type of 'actionEntities' is not <xref href="VM.Managed.IMarker" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_Links_HydroDynamicAPI_CreateThrustForce_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_"></a> CreateThrustForce\(SubSystemDocument, Obj, Obj, Vector, Vector, string\)
+### CreateThrustForce\(SubSystemDocument, Obj, Obj, Vector, Vector, string\)
 
 ```csharp
 [NotNullObj(new string[] { "baseWater", "body" })]
@@ -269,7 +269,7 @@ public static Obj CreateThrustForce(this SubSystemDocument document, Obj baseWat
 
  Obj
 
-### <a id="VM_API_Pre_Links_HydroDynamicAPI_CreateWater_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_Vector_VM_Vector_VM_Vector_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateWater\(SubSystemDocument, Obj, Vector, Vector, Vector, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, string\)
+### CreateWater\(SubSystemDocument, Obj, Vector, Vector, Vector, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, string\)
 
 Create <xref href="VM.Managed.DAFUL.Track.Water" data-throw-if-not-resolved="false"></xref>.
 
@@ -349,4 +349,5 @@ Will be thrown if the magnitude of 'axisX'.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if 'axisZ' is equal to 'axisX'.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_BodyToDTAPI"></a> Class BodyToDTAPI
+# Class BodyToDTAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -22,7 +22,7 @@ public static class BodyToDTAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_GearTrain_BodyToDTAPI_ApplyBearingForBodyToDT_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_GearTrain_BearingParameters__"></a> ApplyBearingForBodyToDT\(GearTrainDocument, IEnumerable<BearingParameters\>\)
+### ApplyBearingForBodyToDT\(GearTrainDocument, IEnumerable<BearingParameters\>\)
 
 Create <xref href="VM.Managed.DAFUL.Builder.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
@@ -47,7 +47,7 @@ The bearings.
 
 Will be thrown if 'document' argument is empty or if the body of bearing is empty.
 
-### <a id="VM_API_Pre_GearTrain_BodyToDTAPI_ApplyClutchForBodyToDT_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_GearTrain_ClutchParameters__"></a> ApplyClutchForBodyToDT\(GearTrainDocument, IEnumerable<ClutchParameters\>\)
+### ApplyClutchForBodyToDT\(GearTrainDocument, IEnumerable<ClutchParameters\>\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.AttributeBodyToDTClutch" data-throw-if-not-resolved="false"></xref>.
 
@@ -72,7 +72,7 @@ The clutchs.
 
 Will be thrown if 'document' argument is empty or if the body of clutch is empty.
 
-### <a id="VM_API_Pre_GearTrain_BodyToDTAPI_ApplyGearSetForBodyToDT_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_GearTrain_GearSetParameters__"></a> ApplyGearSetForBodyToDT\(GearTrainDocument, IEnumerable<GearSetParameters\>\)
+### ApplyGearSetForBodyToDT\(GearTrainDocument, IEnumerable<GearSetParameters\>\)
 
 Create <xref href="VM.Managed.DSDL.DAFUL.GearTrain.GearSet" data-throw-if-not-resolved="false"></xref>.
 
@@ -97,7 +97,7 @@ The gear sets.
 
 Will be thrown if 'document' argument is empty or if the body of gearSet is empty.
 
-### <a id="VM_API_Pre_GearTrain_BodyToDTAPI_ApplyHousingForBodyToDT_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_GearTrain_HousingParameters__"></a> ApplyHousingForBodyToDT\(GearTrainDocument, IEnumerable<HousingParameters\>\)
+### ApplyHousingForBodyToDT\(GearTrainDocument, IEnumerable<HousingParameters\>\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.IHousing" data-throw-if-not-resolved="false"></xref>.
 
@@ -122,7 +122,7 @@ The housings.
 
 Will be thrown if 'document' argument is empty or if the body of housing is empty.
 
-### <a id="VM_API_Pre_GearTrain_BodyToDTAPI_ApplyShaftSetForBodyToDT_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_GearTrain_ShaftSetParameters__"></a> ApplyShaftSetForBodyToDT\(GearTrainDocument, IEnumerable<ShaftSetParameters\>\)
+### ApplyShaftSetForBodyToDT\(GearTrainDocument, IEnumerable<ShaftSetParameters\>\)
 
 Create <xref href="VM.Managed.DSDL.DAFUL.GearTrain.ShaftSet" data-throw-if-not-resolved="false"></xref>.
 
@@ -155,7 +155,7 @@ Will be thrown if the magnitude of 'rotateAxis' is 0.
 
 Will be thrown if 'width' value equal to or less than 0.
 
-### <a id="VM_API_Pre_GearTrain_BodyToDTAPI_AssembleItemsForBodyToDT_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_GearTrain_GearSetParameters__System_Collections_Generic_IEnumerable_VM_API_Pre_GearTrain_BearingParameters__System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> AssembleItemsForBodyToDT\(GearTrainDocument, IEnumerable<GearSetParameters\>, IEnumerable<BearingParameters\>, ExpressionValueVariable?\)
+### AssembleItemsForBodyToDT\(GearTrainDocument, IEnumerable<GearSetParameters\>, IEnumerable<BearingParameters\>, ExpressionValueVariable?\)
 
 Assemble the items for the body to DT.
 
@@ -188,7 +188,7 @@ The tolerance for assembly.
 
 Will be thrown if 'document' argument is empty or if the body of 'gearSet', 'bearing' is empty.
 
-### <a id="VM_API_Pre_GearTrain_BodyToDTAPI_RemoveBodyToDTAttribute_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__"></a> RemoveBodyToDTAttribute\(GearTrainDocument, IEnumerable<Obj\>\)
+### RemoveBodyToDTAttribute\(GearTrainDocument, IEnumerable<Obj\>\)
 
 Remove <xref href="VM.Managed.DAFUL.GearTrain.AttributeBodyToDTClutch" data-throw-if-not-resolved="false"></xref>.
 
@@ -212,4 +212,5 @@ The clutchs.
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document', 'clutchs' argument is empty.
+
 

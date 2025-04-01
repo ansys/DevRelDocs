@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Range"></a> Class Range
+# Class Range
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Range__ctor_VM_Managed_TransformBase_VM_Managed_Variable_"></a> Range\(TransformBase, Variable\)
+### Range\(TransformBase, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.Range" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ The transform.
 
 The radius.
 
-### <a id="VM_Managed_Range__ctor_VM_Managed_PointBase_VM_Managed_Variable_"></a> Range\(PointBase, Variable\)
+### Range\(PointBase, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.Range" data-throw-if-not-resolved="false"></xref> class.
 
@@ -132,7 +132,7 @@ The point.
 
 The radius.
 
-### <a id="VM_Managed_Range__ctor"></a> Range\(\)
+### Range\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Range" data-throw-if-not-resolved="false"></xref> class.
 
@@ -142,7 +142,7 @@ public Range()
 
 ## Properties
 
-### <a id="VM_Managed_Range_Direction"></a> Direction
+### Direction
 
 Get the direction.
 
@@ -154,7 +154,7 @@ public VectorBase Direction { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_Range_Point"></a> Point
+### Point
 
 Get the point.
 
@@ -166,7 +166,7 @@ public VectorBase Point { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_Range_Radius"></a> Radius
+### Radius
 
 Gets or sets the radius.
 
@@ -178,7 +178,7 @@ public Variable Radius { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### <a id="VM_Managed_Range_Transform"></a> Transform
+### Transform
 
 Gets or sets the transform.
 
@@ -189,4 +189,5 @@ public TransformBase Transform { get; set; }
 #### Property Value
 
  [TransformBase](VM.Managed.TransformBase.md)
+
 

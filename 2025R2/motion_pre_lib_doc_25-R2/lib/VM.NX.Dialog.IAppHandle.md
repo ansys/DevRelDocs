@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_IAppHandle"></a> Interface IAppHandle
+# Interface IAppHandle
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  
@@ -15,7 +15,7 @@ public interface IAppHandle
 
 ## Methods
 
-### <a id="VM_NX_Dialog_IAppHandle_Activate_System_UIntPtr_System_Boolean_"></a> Activate\(UIntPtr, bool\)
+### Activate\(UIntPtr, bool\)
 
 ```csharp
 void Activate(UIntPtr obj, bool isActive)
@@ -27,7 +27,7 @@ void Activate(UIntPtr obj, bool isActive)
 
 `isActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IAppHandle_Activate_System_Collections_Generic_List_System_UIntPtr__System_Boolean_"></a> Activate\(List<UIntPtr\>, bool\)
+### Activate\(List<UIntPtr\>, bool\)
 
 ```csharp
 void Activate(List<UIntPtr> lstObj, bool isActive)
@@ -39,7 +39,7 @@ void Activate(List<UIntPtr> lstObj, bool isActive)
 
 `isActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IAppHandle_ActivateFromExtern_System_UIntPtr_System_Boolean_"></a> ActivateFromExtern\(UIntPtr, bool\)
+### ActivateFromExtern\(UIntPtr, bool\)
 
 ```csharp
 void ActivateFromExtern(UIntPtr obj, bool isActive)
@@ -51,7 +51,7 @@ void ActivateFromExtern(UIntPtr obj, bool isActive)
 
 `isActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IAppHandle_ActivateFromExternWithoutReset_System_UIntPtr_System_Boolean_"></a> ActivateFromExternWithoutReset\(UIntPtr, bool\)
+### ActivateFromExternWithoutReset\(UIntPtr, bool\)
 
 ```csharp
 void ActivateFromExternWithoutReset(UIntPtr obj, bool isActive)
@@ -63,7 +63,7 @@ void ActivateFromExternWithoutReset(UIntPtr obj, bool isActive)
 
 `isActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IAppHandle_ActivateWithoutReset_System_UIntPtr_System_Boolean_"></a> ActivateWithoutReset\(UIntPtr, bool\)
+### ActivateWithoutReset\(UIntPtr, bool\)
 
 ```csharp
 void ActivateWithoutReset(UIntPtr obj, bool isActive)
@@ -75,7 +75,7 @@ void ActivateWithoutReset(UIntPtr obj, bool isActive)
 
 `isActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IAppHandle_ActivateWithoutReset_System_Collections_Generic_List_System_UIntPtr__System_Boolean_"></a> ActivateWithoutReset\(List<UIntPtr\>, bool\)
+### ActivateWithoutReset\(List<UIntPtr\>, bool\)
 
 ```csharp
 void ActivateWithoutReset(List<UIntPtr> lstObj, bool isActive)
@@ -87,7 +87,7 @@ void ActivateWithoutReset(List<UIntPtr> lstObj, bool isActive)
 
 `isActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IAppHandle_CalcCoordSys_System_String_System_Xml_XmlNode_System_Xml_XmlNode_"></a> CalcCoordSys\(string, XmlNode, XmlNode\)
+### CalcCoordSys\(string, XmlNode, XmlNode\)
 
 ```csharp
 bool CalcCoordSys(string strPickResult, XmlNode nodeBaseCoordSys, XmlNode nodeActionCoordSys)
@@ -105,7 +105,7 @@ bool CalcCoordSys(string strPickResult, XmlNode nodeBaseCoordSys, XmlNode nodeAc
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IAppHandle_DeleteObject_System_UIntPtr_System_Boolean_"></a> DeleteObject\(UIntPtr, bool\)
+### DeleteObject\(UIntPtr, bool\)
 
 ```csharp
 bool DeleteObject(UIntPtr obj, bool isFirst)
@@ -121,7 +121,7 @@ bool DeleteObject(UIntPtr obj, bool isFirst)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IAppHandle_DistanceBetween2Points_System_UIntPtr_System_UIntPtr_"></a> DistanceBetween2Points\(UIntPtr, UIntPtr\)
+### DistanceBetween2Points\(UIntPtr, UIntPtr\)
 
 ```csharp
 double DistanceBetween2Points(UIntPtr tagFrom, UIntPtr tagTo)
@@ -137,7 +137,7 @@ double DistanceBetween2Points(UIntPtr tagFrom, UIntPtr tagTo)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_NX_Dialog_IAppHandle_FindInActiveModel_System_String_"></a> FindInActiveModel\(string\)
+### FindInActiveModel\(string\)
 
 ```csharp
 UIntPtr FindInActiveModel(string strObjName)
@@ -151,7 +151,7 @@ UIntPtr FindInActiveModel(string strObjName)
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### <a id="VM_NX_Dialog_IAppHandle_GetDefaultName_System_String_"></a> GetDefaultName\(string\)
+### GetDefaultName\(string\)
 
 ```csharp
 string GetDefaultName(string strHead)
@@ -165,7 +165,7 @@ string GetDefaultName(string strHead)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_NX_Dialog_IAppHandle_IsValidName_System_String_System_UIntPtr_System_UIntPtr_"></a> IsValidName\(string, UIntPtr, UIntPtr\)
+### IsValidName\(string, UIntPtr, UIntPtr\)
 
 ```csharp
 bool IsValidName(string strName, UIntPtr tagContainer, UIntPtr tagObject)
@@ -183,7 +183,7 @@ bool IsValidName(string strName, UIntPtr tagContainer, UIntPtr tagObject)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IAppHandle_RegisterStrDialogResult_System_Int32_System_Xml_XmlDocument_"></a> RegisterStrDialogResult\(int, XmlDocument\)
+### RegisterStrDialogResult\(int, XmlDocument\)
 
 ```csharp
 void RegisterStrDialogResult(int nIDDialog, XmlDocument domResult)
@@ -195,7 +195,7 @@ void RegisterStrDialogResult(int nIDDialog, XmlDocument domResult)
 
 `domResult` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
 
-### <a id="VM_NX_Dialog_IAppHandle_SetMultiDeleteObject_System_Boolean_"></a> SetMultiDeleteObject\(bool\)
+### SetMultiDeleteObject\(bool\)
 
 ```csharp
 void SetMultiDeleteObject(bool bMulti)
@@ -205,7 +205,7 @@ void SetMultiDeleteObject(bool bMulti)
 
 `bMulti` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IAppHandle_StartOperation_System_String_"></a> StartOperation\(string\)
+### StartOperation\(string\)
 
 ```csharp
 void StartOperation(string strOpName)
@@ -215,7 +215,7 @@ void StartOperation(string strOpName)
 
 `strOpName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_NX_Dialog_IAppHandle_StartOperation_System_String_System_String_"></a> StartOperation\(string, string\)
+### StartOperation\(string, string\)
 
 ```csharp
 void StartOperation(string strOpName, string strOpInfo)
@@ -227,7 +227,7 @@ void StartOperation(string strOpName, string strOpInfo)
 
 `strOpInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_NX_Dialog_IAppHandle_StartOperation_System_String_System_String_System_Boolean_"></a> StartOperation\(string, string, bool\)
+### StartOperation\(string, string, bool\)
 
 ```csharp
 void StartOperation(string strOpName, string strOpInfo, bool bHistoryMerge)
@@ -241,7 +241,7 @@ void StartOperation(string strOpName, string strOpInfo, bool bHistoryMerge)
 
 `bHistoryMerge` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_Dialog_IAppHandle_StartOperation_System_String_System_UIntPtr_System_String_"></a> StartOperation\(string, UIntPtr, string\)
+### StartOperation\(string, UIntPtr, string\)
 
 ```csharp
 void StartOperation(string strOpName, UIntPtr ptrDoc, string strOpInfo)
@@ -255,9 +255,10 @@ void StartOperation(string strOpName, UIntPtr ptrDoc, string strOpInfo)
 
 `strOpInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_NX_Dialog_IAppHandle_UpdateDisplay"></a> UpdateDisplay\(\)
+### UpdateDisplay\(\)
 
 ```csharp
 void UpdateDisplay()
 ```
+
 

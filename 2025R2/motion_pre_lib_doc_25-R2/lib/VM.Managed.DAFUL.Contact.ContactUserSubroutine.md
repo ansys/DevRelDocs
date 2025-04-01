@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_ContactUserSubroutine"></a> Class ContactUserSubroutine
+# Class ContactUserSubroutine
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -81,7 +81,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_ContactUserSubroutine__ctor"></a> ContactUserSubroutine\(\)
+### ContactUserSubroutine\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactUserSubroutine" data-throw-if-not-resolved="false"></xref> class.
 
@@ -89,7 +89,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactUs
 public ContactUserSubroutine()
 ```
 
-### <a id="VM_Managed_DAFUL_Contact_ContactUserSubroutine__ctor_VM_Managed_DAFUL_Contact_PropertyContact_"></a> ContactUserSubroutine\(PropertyContact\)
+### ContactUserSubroutine\(PropertyContact\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactUserSubroutine" data-throw-if-not-resolved="false"></xref> class.
 
@@ -105,7 +105,7 @@ Owner contact property.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_ContactUserSubroutine_Type"></a> Type
+### Type
 
 Get function type of itself.
 
@@ -117,7 +117,7 @@ public override ContactFunction.FunctionType Type { get; }
 
  [ContactFunction](VM.Managed.DAFUL.Contact.ContactFunction.md).[FunctionType](VM.Managed.DAFUL.Contact.ContactFunction.FunctionType.md)
 
-### <a id="VM_Managed_DAFUL_Contact_ContactUserSubroutine_UserSubroutine"></a> UserSubroutine
+### UserSubroutine
 
 Gets or sets the user subroutine.
 
@@ -131,7 +131,7 @@ public UserSubroutine UserSubroutine { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_ContactUserSubroutine_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
+### ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -145,7 +145,7 @@ public override void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Contact_ContactUserSubroutine_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
+### WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -158,4 +158,5 @@ public override void WriteTemplate(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

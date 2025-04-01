@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSetExtensions"></a> Class SimulationDataSetExtensions
+# Class SimulationDataSetExtensions
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -20,7 +20,7 @@ public static class SimulationDataSetExtensions
 
 ## Fields
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSetExtensions_JsonSerializerSettings"></a> JsonSerializerSettings
+### JsonSerializerSettings
 
 ```csharp
 public static readonly JsonSerializerSettings JsonSerializerSettings
@@ -32,7 +32,7 @@ public static readonly JsonSerializerSettings JsonSerializerSettings
 
 ## Methods
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSetExtensions_Save_VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_"></a> Save\(SimulationDataSet\)
+### Save\(SimulationDataSet\)
 
 ```csharp
 public static void Save(this SimulationDataSet simulationDataSet)
@@ -42,7 +42,7 @@ public static void Save(this SimulationDataSet simulationDataSet)
 
 `simulationDataSet` [SimulationDataSet](VM.Models.Pre.Drivetrain.VehicleSimulator.SimulationDataSet.md)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSetExtensions_Save_VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_System_String_"></a> Save\(SimulationDataSet, string\)
+### Save\(SimulationDataSet, string\)
 
 ```csharp
 public static void Save(this SimulationDataSet simulationDataSet, string path)
@@ -53,4 +53,5 @@ public static void Save(this SimulationDataSet simulationDataSet, string path)
 `simulationDataSet` [SimulationDataSet](VM.Models.Pre.Drivetrain.VehicleSimulator.SimulationDataSet.md)
 
 `path` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

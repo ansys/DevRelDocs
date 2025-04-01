@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_UpdateItemInNavigatorAddon"></a> Class UpdateItemInNavigatorAddon
+# Class UpdateItemInNavigatorAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -60,7 +60,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### <a id="VM_Managed_History_UpdateItemInNavigatorAddon__ctor"></a> UpdateItemInNavigatorAddon\(\)
+### UpdateItemInNavigatorAddon\(\)
 
 ```csharp
 public UpdateItemInNavigatorAddon()
@@ -68,7 +68,7 @@ public UpdateItemInNavigatorAddon()
 
 ## Methods
 
-### <a id="VM_Managed_History_UpdateItemInNavigatorAddon_Process_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Process\(object, HistoryEventArgs\)
+### Process\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void Process(object o, HistoryEventArgs args)
@@ -79,4 +79,5 @@ protected override void Process(object o, HistoryEventArgs args)
 `o` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `args` HistoryEventArgs
+
 

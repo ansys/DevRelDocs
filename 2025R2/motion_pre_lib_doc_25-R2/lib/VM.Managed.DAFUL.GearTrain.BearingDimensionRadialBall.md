@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall"></a> Class BearingDimensionRadialBall
+# Class BearingDimensionRadialBall
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -107,7 +107,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall__ctor"></a> BearingDimensionRadialBall\(\)
+### BearingDimensionRadialBall\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.BearingDimensionRadialBall" data-throw-if-not-resolved="false"></xref> class.
 
@@ -117,7 +117,7 @@ public BearingDimensionRadialBall()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_BallDiameter"></a> BallDiameter
+### BallDiameter
 
 Gets or sets the ball diameter.
 
@@ -129,7 +129,7 @@ public ExpressionValueVariable BallDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_BallPitchDiameter"></a> BallPitchDiameter
+### BallPitchDiameter
 
 Gets or sets the ball pitch diameter.
 
@@ -141,7 +141,7 @@ public ExpressionValueVariable BallPitchDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_InnerRacewayGrooveRadius"></a> InnerRacewayGrooveRadius
+### InnerRacewayGrooveRadius
 
 Gets or sets the inner raceway groove radius.
 
@@ -153,7 +153,7 @@ public ExpressionValueVariable InnerRacewayGrooveRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_InnerRacewayShoulderDiameter"></a> InnerRacewayShoulderDiameter
+### InnerRacewayShoulderDiameter
 
 Gets or sets the inner raceway shoulder diameter.
 
@@ -165,7 +165,7 @@ public ExpressionValueVariable InnerRacewayShoulderDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_NumberOfBall"></a> NumberOfBall
+### NumberOfBall
 
 Gets or sets the number of ball.
 
@@ -177,7 +177,7 @@ public ExpressionValueVariable NumberOfBall { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_OuterRacewayGrooveRadius"></a> OuterRacewayGrooveRadius
+### OuterRacewayGrooveRadius
 
 Gets or sets the outer raceway groove radius.
 
@@ -189,7 +189,7 @@ public ExpressionValueVariable OuterRacewayGrooveRadius { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_OuterRacewayShoulderBore"></a> OuterRacewayShoulderBore
+### OuterRacewayShoulderBore
 
 Gets or sets the outer raceway shoulder bore.
 
@@ -201,7 +201,7 @@ public ExpressionValueVariable OuterRacewayShoulderBore { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RadialInternalClearanceC2"></a> RadialInternalClearanceC2
+### RadialInternalClearanceC2
 
 Gets the C2 type radial internal clearance.
 
@@ -213,7 +213,7 @@ public double RadialInternalClearanceC2 { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RadialInternalClearanceC3"></a> RadialInternalClearanceC3
+### RadialInternalClearanceC3
 
 Gets the C3 type radial internal clearance.
 
@@ -225,7 +225,7 @@ public double RadialInternalClearanceC3 { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RadialInternalClearanceC4"></a> RadialInternalClearanceC4
+### RadialInternalClearanceC4
 
 Gets the C4 type radial internal clearance.
 
@@ -237,7 +237,7 @@ public double RadialInternalClearanceC4 { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RadialInternalClearanceC5"></a> RadialInternalClearanceC5
+### RadialInternalClearanceC5
 
 Gets the C5 type radial internal clearance.
 
@@ -249,7 +249,7 @@ public double RadialInternalClearanceC5 { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RadialInternalClearanceCN"></a> RadialInternalClearanceCN
+### RadialInternalClearanceCN
 
 Gets the CN type radial internal clearance.
 
@@ -261,7 +261,7 @@ public double RadialInternalClearanceCN { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RadialInternalClearanceType"></a> RadialInternalClearanceType
+### RadialInternalClearanceType
 
 Gets or sets the type of radial internal clearance.
 
@@ -273,7 +273,7 @@ public BearingDimensionRadialBall.enRadialInternalClearanceType RadialInternalCl
 
  [BearingDimensionRadialBall](VM.Managed.DAFUL.GearTrain.BearingDimensionRadialBall.md).[enRadialInternalClearanceType](VM.Managed.DAFUL.GearTrain.BearingDimensionRadialBall.enRadialInternalClearanceType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RadialInternalClearanceUser"></a> RadialInternalClearanceUser
+### RadialInternalClearanceUser
 
 Gets the user input type radial internal clearance.
 
@@ -285,7 +285,7 @@ public ExpressionValueVariable RadialInternalClearanceUser { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_RoundingRadius"></a> RoundingRadius
+### RoundingRadius
 
 Gets or sets the rounding radius.
 
@@ -299,7 +299,7 @@ public ExpressionValueVariable RoundingRadius { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_GetBuilder_VM_Managed_DAFUL_GearTrain_Bearing_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_VM_Managed_TMatrix_System_Boolean_System_Boolean_VM_Managed_CAD_BuilderMultiSubtractSimple__"></a> GetBuilder\(Bearing, RacewayType, TMatrix, bool, bool, ref BuilderMultiSubtractSimple\)
+### GetBuilder\(Bearing, RacewayType, TMatrix, bool, bool, ref BuilderMultiSubtractSimple\)
 
 Gets the builder.
 
@@ -333,7 +333,7 @@ The reverse direction falg.
 
 The builder.
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionRadialBall_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -350,4 +350,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The update event information.
+
 

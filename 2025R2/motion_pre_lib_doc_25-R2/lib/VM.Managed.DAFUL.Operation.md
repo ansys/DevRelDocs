@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation"></a> Namespace VM.Managed.DAFUL.Operation
+# Namespace VM.Managed.DAFUL.Operation
 
 ### Namespaces
 
@@ -241,4 +241,5 @@ This class is to represent the update document information operation.
  [JournalUtility.OperationType](VM.Managed.DAFUL.Operation.JournalUtility.OperationType.md)
 
 Type of Operation
+
 

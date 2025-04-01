@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PseudoPointLoadOnRBE"></a> Class PseudoPointLoadOnRBE
+# Class PseudoPointLoadOnRBE
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -163,7 +163,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoPointLoadOnRBE__ctor"></a> PseudoPointLoadOnRBE\(\)
+### PseudoPointLoadOnRBE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoPointLoadOnRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -173,7 +173,7 @@ public PseudoPointLoadOnRBE()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoPointLoadOnRBE_Name"></a> Name
+### Name
 
 Gets or sets the name.
 
@@ -185,7 +185,7 @@ public override string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoPointLoadOnRBE_PointLoadOnRBEInformation"></a> PointLoadOnRBEInformation
+### PointLoadOnRBEInformation
 
 Gets or sets the point load on rbe information.
 
@@ -199,7 +199,7 @@ public PointLoadOnRBE PointLoadOnRBEInformation { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoPointLoadOnRBE_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the specified canvas.
 
@@ -217,7 +217,7 @@ The canvas.
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoPointLoadOnRBE_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 Links the request destroy.
 
@@ -234,4 +234,5 @@ The object notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

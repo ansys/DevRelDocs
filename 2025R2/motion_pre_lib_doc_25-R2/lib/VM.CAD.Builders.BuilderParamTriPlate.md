@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_BuilderParamTriPlate"></a> Class BuilderParamTriPlate
+# Class BuilderParamTriPlate
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -32,7 +32,7 @@ public class BuilderParamTriPlate : BuilderParamColorGeom
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_BuilderParamTriPlate__ctor"></a> BuilderParamTriPlate\(\)
+### BuilderParamTriPlate\(\)
 
 ```csharp
 public BuilderParamTriPlate()
@@ -40,7 +40,7 @@ public BuilderParamTriPlate()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_BuilderParamTriPlate_FirstPosition"></a> FirstPosition
+### FirstPosition
 
 ```csharp
 public Vector FirstPosition { get; set; }
@@ -50,7 +50,7 @@ public Vector FirstPosition { get; set; }
 
  Vector
 
-### <a id="VM_CAD_Builders_BuilderParamTriPlate_Height"></a> Height
+### Height
 
 ```csharp
 public double Height { get; set; }
@@ -60,7 +60,7 @@ public double Height { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_BuilderParamTriPlate_SecondPosition"></a> SecondPosition
+### SecondPosition
 
 ```csharp
 public Vector SecondPosition { get; set; }
@@ -70,7 +70,7 @@ public Vector SecondPosition { get; set; }
 
  Vector
 
-### <a id="VM_CAD_Builders_BuilderParamTriPlate_ThirdPosition"></a> ThirdPosition
+### ThirdPosition
 
 ```csharp
 public Vector ThirdPosition { get; set; }
@@ -79,4 +79,5 @@ public Vector ThirdPosition { get; set; }
 #### Property Value
 
  Vector
+
 

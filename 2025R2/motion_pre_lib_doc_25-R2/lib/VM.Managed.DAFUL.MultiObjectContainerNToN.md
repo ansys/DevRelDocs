@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MultiObjectContainerNToN"></a> Class MultiObjectContainerNToN
+# Class MultiObjectContainerNToN
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -106,7 +106,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MultiObjectContainerNToN__ctor_System_Collections_ICollection_VM_Managed_ObjectBase_"></a> MultiObjectContainerNToN\(ICollection, ObjectBase\)
+### MultiObjectContainerNToN\(ICollection, ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectContainerNToN" data-throw-if-not-resolved="false"></xref> class.
 
@@ -126,7 +126,7 @@ The base object.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MultiObjectContainerNToN_Count"></a> Count
+### Count
 
 Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -140,7 +140,7 @@ protected override int Count { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MultiObjectContainerNToN_GetEnumerator"></a> GetEnumerator\(\)
+### GetEnumerator\(\)
 
 Returns an enumerator that iterates through a collection.
 
@@ -153,4 +153,5 @@ protected override IEnumerator<MultiObjectTarget> GetEnumerator()
  [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1)<[MultiObjectTarget](VM.Managed.DAFUL.MultiObjectTarget.md)\>
 
 An <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> object that can be used to iterate through the collection.
+
 

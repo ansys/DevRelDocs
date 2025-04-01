@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_TopologyAPI"></a> Class TopologyAPI
+# Class TopologyAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class TopologyAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_TopologyAPI_ChangeEdgeColor_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Nullable_System_Drawing_Color__VM_API_Pre_SetColorType_"></a> ChangeEdgeColor\(IDocument, IEnumerable<Obj\>, Color?, SetColorType\)
+### ChangeEdgeColor\(IDocument, IEnumerable<Obj\>, Color?, SetColorType\)
 
 Change the topology edge.
 
@@ -63,7 +63,7 @@ Will be thrown if the type of 'document' is not <xref href="VM.Managed.DAFUL.Sub
 
 Will be thrown if the type of 'edges' is not <xref href="VM.Managed.CAD.Edge" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_TopologyAPI_ChangeFaceColor_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Nullable_System_Drawing_Color__VM_API_Pre_SetColorType_"></a> ChangeFaceColor\(IDocument, IEnumerable<Obj\>, Color?, SetColorType\)
+### ChangeFaceColor\(IDocument, IEnumerable<Obj\>, Color?, SetColorType\)
 
 Change the topology face.
 
@@ -103,4 +103,5 @@ Will be thrown if the type of 'document' is not <xref href="VM.Managed.DAFUL.Sub
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if the type of 'faces' is not <xref href="VM.Managed.CAD.Face" data-throw-if-not-resolved="false"></xref>.
+
 

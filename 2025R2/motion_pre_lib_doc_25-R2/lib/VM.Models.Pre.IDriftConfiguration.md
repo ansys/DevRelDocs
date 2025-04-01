@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IDriftConfiguration"></a> Interface IDriftConfiguration
+# Interface IDriftConfiguration
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface IDriftConfiguration
 
 ## Properties
 
-### <a id="VM_Models_Pre_IDriftConfiguration_DriftParameter"></a> DriftParameter
+### DriftParameter
 
 Gets the drift parameter.
 
@@ -28,4 +28,5 @@ IAnalysisDrift DriftParameter { get; }
 #### Property Value
 
  [IAnalysisDrift](VM.Models.Pre.IAnalysisDrift.md)
+
 

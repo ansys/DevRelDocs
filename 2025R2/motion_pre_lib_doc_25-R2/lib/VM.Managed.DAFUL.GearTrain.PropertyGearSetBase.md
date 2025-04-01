@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase"></a> Class PropertyGearSetBase
+# Class PropertyGearSetBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -178,7 +178,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase__ctor"></a> PropertyGearSetBase\(\)
+### PropertyGearSetBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyGearSetBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -188,7 +188,7 @@ public PropertyGearSetBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_AdvancedGearGeometry"></a> AdvancedGearGeometry
+### AdvancedGearGeometry
 
 Gets the advanced gear geometry state.
 
@@ -200,7 +200,7 @@ public bool AdvancedGearGeometry { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_BasicInvoluteProperty"></a> BasicInvoluteProperty
+### BasicInvoluteProperty
 
 Gets or sets the basic involute property.
 
@@ -212,7 +212,7 @@ public BasicInvolute BasicInvoluteProperty { get; set; }
 
  [BasicInvolute](VM.Managed.DAFUL.GearTrain.BasicInvolute.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_Color"></a> Color
+### Color
 
 Gets or sets the color.
 Use SetColor() when this instance sets for undo/redo
@@ -225,7 +225,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_ContactAnalysisProperty"></a> ContactAnalysisProperty
+### ContactAnalysisProperty
 
 Gets or sets the contact analysis property.
 
@@ -237,7 +237,7 @@ public ContactAnalysis ContactAnalysisProperty { get; set; }
 
  [ContactAnalysis](VM.Managed.DAFUL.GearTrain.ContactAnalysis.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_CreationMethod"></a> CreationMethod
+### CreationMethod
 
 Gets or sets the type of the creation method.
 
@@ -249,7 +249,7 @@ public PropertyGearSetBase.CreationMethodType CreationMethod { get; set; }
 
  [PropertyGearSetBase](VM.Managed.DAFUL.GearTrain.PropertyGearSetBase.md).[CreationMethodType](VM.Managed.DAFUL.GearTrain.PropertyGearSetBase.CreationMethodType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_DrawingColor"></a> DrawingColor
+### DrawingColor
 
 Gets the color of the drawing.
 
@@ -261,7 +261,7 @@ public Color DrawingColor { get; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_GearPairs"></a> GearPairs
+### GearPairs
 
 Gets or sets the gear pairs.
 
@@ -283,7 +283,7 @@ GearPair list is null.
 or
 GearPair is null.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_GeometryInfos"></a> GeometryInfos
+### GeometryInfos
 
 Gets or sets the geometry infos.
 
@@ -305,7 +305,7 @@ GeometryInfo list is null.
 or
 GeometryInfo is null.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_KissSoftInterfaceFilePath"></a> KissSoftInterfaceFilePath
+### KissSoftInterfaceFilePath
 
 Gets or sets the kiss soft interface file path
 
@@ -317,7 +317,7 @@ public string KissSoftInterfaceFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_MaterialProperty"></a> MaterialProperty
+### MaterialProperty
 
 Gets or sets the material property.
 
@@ -329,7 +329,7 @@ public Material MaterialProperty { get; set; }
 
  [Material](VM.Managed.DAFUL.GearTrain.Material.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_ModificationProperty"></a> ModificationProperty
+### ModificationProperty
 
 Gets or sets the modification property.
 
@@ -341,7 +341,7 @@ public Modification ModificationProperty { get; set; }
 
  [Modification](VM.Managed.DAFUL.GearTrain.Modification.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_ModifiedParam"></a> ModifiedParam
+### ModifiedParam
 
 Gets or sets the whether this instance's parameter is modified or not.
 
@@ -353,7 +353,7 @@ public bool ModifiedParam { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_SimulationType"></a> SimulationType
+### SimulationType
 
 Gets or sets the type of the simulation.
 Use SetSimulationType() when this instance sets for undo/redo
@@ -366,7 +366,7 @@ public PropertyGearSetBase.CreateDATType SimulationType { get; set; }
 
  [PropertyGearSetBase](VM.Managed.DAFUL.GearTrain.PropertyGearSetBase.md).[CreateDATType](VM.Managed.DAFUL.GearTrain.PropertyGearSetBase.CreateDATType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_ToleranceProperty"></a> ToleranceProperty
+### ToleranceProperty
 
 Gets or sets the tolerance property.
 
@@ -378,7 +378,7 @@ public Tolerance ToleranceProperty { get; set; }
 
  [Tolerance](VM.Managed.DAFUL.GearTrain.Tolerance.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_ToolProperty"></a> ToolProperty
+### ToolProperty
 
 Gets or sets the tool property.
 
@@ -390,7 +390,7 @@ public Tool ToolProperty { get; set; }
 
  [Tool](VM.Managed.DAFUL.GearTrain.Tool.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_ToothStiffnessProperty"></a> ToothStiffnessProperty
+### ToothStiffnessProperty
 
 Gets or sets the tooth stiffness property.
 
@@ -402,7 +402,7 @@ public ToothStiffness ToothStiffnessProperty { get; set; }
 
  [ToothStiffness](VM.Managed.DAFUL.GearTrain.ToothStiffness.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_UseKissSoftInterface"></a> UseKissSoftInterface
+### UseKissSoftInterface
 
 Gets or sets the kiss soft interface use flag
 
@@ -414,7 +414,7 @@ public bool UseKissSoftInterface { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_WebProperty"></a> WebProperty
+### WebProperty
 
 Gets or sets the web property.
 
@@ -428,7 +428,7 @@ public Web WebProperty { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_AddAttributes"></a> AddAttributes\(\)
+### AddAttributes\(\)
 
 Add attributes
 
@@ -436,7 +436,7 @@ Add attributes
 protected void AddAttributes()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_AddUnitAttribute_VM_Managed_Document_"></a> AddUnitAttribute\(Document\)
+### AddUnitAttribute\(Document\)
 
 Add unit attribute
 
@@ -448,7 +448,7 @@ public void AddUnitAttribute(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_BuildGear"></a> BuildGear\(\)
+### BuildGear\(\)
 
 Builds the gear.
 
@@ -460,7 +460,7 @@ public bool BuildGear()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_BuildGear_System_Boolean_"></a> BuildGear\(bool\)
+### BuildGear\(bool\)
 
 Builds the gear.
 
@@ -476,7 +476,7 @@ public virtual bool BuildGear(bool bCreate)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_BuildGearCore_System_Boolean_System_String_System_String_System_String___"></a> BuildGearCore\(bool, string, string, string\[\]\)
+### BuildGearCore\(bool, string, string, string\[\]\)
 
 Build gear core.
 
@@ -502,7 +502,7 @@ result path.
 
 dat file path array.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_BuildGearWithKissSoftInterface_System_Boolean_VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData_"></a> BuildGearWithKissSoftInterface\(bool, OutputData\)
+### BuildGearWithKissSoftInterface\(bool, OutputData\)
 
 Builds the gear with kiss soft interface.
 
@@ -520,7 +520,7 @@ public bool BuildGearWithKissSoftInterface(bool bCreate, KissSoftInterface.Outpu
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_BuildGearWithKissSoftInterface_System_String_"></a> BuildGearWithKissSoftInterface\(string\)
+### BuildGearWithKissSoftInterface\(string\)
 
 Builds the gear with kiss soft interface.
 
@@ -536,7 +536,7 @@ public bool BuildGearWithKissSoftInterface(string strFilePath)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_BuildGearWithKissSoftInterface"></a> BuildGearWithKissSoftInterface\(\)
+### BuildGearWithKissSoftInterface\(\)
 
 Builds the gear with kiss soft interface.
 
@@ -548,7 +548,7 @@ public bool BuildGearWithKissSoftInterface()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds the local.
 
@@ -566,7 +566,7 @@ Name of the string.
 
  IObjectBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_FindWebBuilder_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder_"></a> FindWebBuilder\(IGearBuilder\)
+### FindWebBuilder\(IGearBuilder\)
 
 Finds the web builder.
 
@@ -584,7 +584,7 @@ The geombuilder.
 
  [AddedWebBuilder](VM.Managed.DAFUL.GearTrain.CAD.AddedWebBuilder.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_FindWebValue_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> FindWebValue\(GearGeometryInfo\)
+### FindWebValue\(GearGeometryInfo\)
 
 Finds the web value.
 
@@ -602,7 +602,7 @@ The information.
 
  [WebPropertyValue](VM.Managed.DAFUL.GearTrain.WebPropertyValue.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_GetIndexForGeomInfo_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> GetIndexForGeomInfo\(GearGeometryInfo\)
+### GetIndexForGeomInfo\(GearGeometryInfo\)
 
 Get index for gear geometry information
 
@@ -620,7 +620,7 @@ The finding information.
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_GetSelectedGearInfo_System_String_VM_Managed_DAFUL_GearTrain_GearGeometryInfo___"></a> GetSelectedGearInfo\(string, GearGeometryInfo\[\]\)
+### GetSelectedGearInfo\(string, GearGeometryInfo\[\]\)
 
 Gets the selected gear Information
 
@@ -642,7 +642,7 @@ The geometry information
 
  [GearGeometryInfo](VM.Managed.DAFUL.GearTrain.GearGeometryInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_InitChild_System_Int32_System_String___VM_Unit_ConvertFactor_"></a> InitChild\(int, string\[\], ConvertFactor\)
+### InitChild\(int, string\[\], ConvertFactor\)
 
 Initializes the child.
 
@@ -664,7 +664,7 @@ Name of the ar.
 
 The factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -678,7 +678,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -696,7 +696,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -710,7 +710,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_OnPostDeserializedImpl_System_Runtime_Serialization_StreamingContext_"></a> OnPostDeserializedImpl\(StreamingContext\)
+### OnPostDeserializedImpl\(StreamingContext\)
 
 OnPostDeserialized
 
@@ -722,7 +722,7 @@ protected virtual void OnPostDeserializedImpl(StreamingContext context)
 
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_PostBuildGear"></a> PostBuildGear\(\)
+### PostBuildGear\(\)
 
 post builder gear.
 
@@ -730,7 +730,7 @@ post builder gear.
 protected virtual void PostBuildGear()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_ReadResultCore_System_Xml_XmlDocument_"></a> ReadResultCore\(XmlDocument\)
+### ReadResultCore\(XmlDocument\)
 
 Reads the result core.
 
@@ -744,7 +744,7 @@ protected virtual void ReadResultCore(XmlDocument xmlDoc)
 
 The XML document.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_ReadResultForDatFile_System_String___System_Int32_"></a> ReadResultForDatFile\(string\[\], int\)
+### ReadResultForDatFile\(string\[\], int\)
 
 Read result for dat file.
 
@@ -762,7 +762,7 @@ The dat path array.
 
 The index.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_ReadResultWithKissSoftInterface_System_UInt32_System_UInt32_System_UInt32_System_Double_System_Double_System_Double___System_Double_VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData___"></a> ReadResultWithKissSoftInterface\(uint, uint, uint, double, double, double\[\], double, GearData\[\]\)
+### ReadResultWithKissSoftInterface\(uint, uint, uint, double, double, double\[\], double, GearData\[\]\)
 
 Read result with KissSoft interface
 
@@ -804,7 +804,7 @@ The axial crossing angle
 
 The gear data array
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_SetColor_System_String_"></a> SetColor\(string\)
+### SetColor\(string\)
 
 Set color.
 
@@ -818,7 +818,7 @@ public void SetColor(string color)
 
 The color.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_SetModified"></a> SetModified\(\)
+### SetModified\(\)
 
 Sets modified flag.
 
@@ -826,7 +826,7 @@ Sets modified flag.
 protected override void SetModified()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_SetSimulationType_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_CreateDATType_"></a> SetSimulationType\(CreateDATType\)
+### SetSimulationType\(CreateDATType\)
 
 Set reference point.
 
@@ -839,4 +839,5 @@ public void SetSimulationType(PropertyGearSetBase.CreateDATType type)
 `type` [PropertyGearSetBase](VM.Managed.DAFUL.GearTrain.PropertyGearSetBase.md).[CreateDATType](VM.Managed.DAFUL.GearTrain.PropertyGearSetBase.CreateDATType.md)
 
 The reference point.
+
 

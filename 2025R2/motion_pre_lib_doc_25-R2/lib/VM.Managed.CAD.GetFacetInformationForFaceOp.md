@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_GetFacetInformationForFaceOp"></a> Class GetFacetInformationForFaceOp
+# Class GetFacetInformationForFaceOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_GetFacetInformationForFaceOp__ctor_VM_Managed_CAD_Face_VM_Models_Pre_FacetOption_"></a> GetFacetInformationForFaceOp\(Face, FacetOption\)
+### GetFacetInformationForFaceOp\(Face, FacetOption\)
 
 ```csharp
 public GetFacetInformationForFaceOp(Face face, FacetOption options)
@@ -91,7 +91,7 @@ public GetFacetInformationForFaceOp(Face face, FacetOption options)
 
 ## Properties
 
-### <a id="VM_Managed_CAD_GetFacetInformationForFaceOp_Connectivities"></a> Connectivities
+### Connectivities
 
 Gets the connectivities.
 
@@ -103,7 +103,7 @@ public int[] Connectivities { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
 
-### <a id="VM_Managed_CAD_GetFacetInformationForFaceOp_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the merge of history.
 
@@ -115,7 +115,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_GetFacetInformationForFaceOp_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -127,7 +127,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_CAD_GetFacetInformationForFaceOp_Points"></a> Points
+### Points
 
 Gets the points.
 
@@ -141,11 +141,12 @@ public VectorBase[] Points { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_GetFacetInformationForFaceOp_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

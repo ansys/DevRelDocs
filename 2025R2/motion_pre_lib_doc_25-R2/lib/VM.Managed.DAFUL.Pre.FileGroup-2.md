@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_FileGroup_2"></a> Class FileGroup<TGroup, TItem\>
+# Class FileGroup<TGroup, TItem\>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -44,7 +44,7 @@ The type of the item.
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_FileGroup_2__ctor"></a> FileGroup\(\)
+### FileGroup\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.FileGroup%602" data-throw-if-not-resolved="false"></xref> class.
 
@@ -52,7 +52,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.FileGroup%602
 public FileGroup()
 ```
 
-### <a id="VM_Managed_DAFUL_Pre_FileGroup_2__ctor_System_String_"></a> FileGroup\(string\)
+### FileGroup\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.FileGroup%602" data-throw-if-not-resolved="false"></xref> class.
 
@@ -68,7 +68,7 @@ Name of the file.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_FileGroup_2_Path"></a> Path
+### Path
 
 Gets or sets the path.
 
@@ -79,4 +79,5 @@ public string Path { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

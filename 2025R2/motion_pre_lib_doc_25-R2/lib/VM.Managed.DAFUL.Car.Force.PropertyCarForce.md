@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Force_PropertyCarForce"></a> Class PropertyCarForce
+# Class PropertyCarForce
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -176,7 +176,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyCarForce__ctor"></a> PropertyCarForce\(\)
+### PropertyCarForce\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertyCarForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -184,7 +184,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.Propert
 public PropertyCarForce()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Force_PropertyCarForce__ctor_System_String_System_String_"></a> PropertyCarForce\(string, string\)
+### PropertyCarForce\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertyCarForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -201,4 +201,5 @@ The name of proxy.
 `strBuildInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The build information.
+
 

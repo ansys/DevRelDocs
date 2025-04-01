@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderSimulationRun"></a> Class ShimmyJudderSimulationRun
+# Class ShimmyJudderSimulationRun
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -105,7 +105,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderSimulationRun__ctor_VM_Managed_Document_"></a> ShimmyJudderSimulationRun\(Document\)
+### ShimmyJudderSimulationRun\(Document\)
 
 ```csharp
 public ShimmyJudderSimulationRun(Document doc)
@@ -115,7 +115,7 @@ public ShimmyJudderSimulationRun(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderSimulationRun__ctor_VM_Managed_Document_System_String_"></a> ShimmyJudderSimulationRun\(Document, string\)
+### ShimmyJudderSimulationRun\(Document, string\)
 
 ```csharp
 public ShimmyJudderSimulationRun(Document doc, string strSimPar)
@@ -127,7 +127,7 @@ public ShimmyJudderSimulationRun(Document doc, string strSimPar)
 
 `strSimPar` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderSimulationRun__ctor_VM_Managed_Document_VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_"></a> ShimmyJudderSimulationRun\(Document, SimulationParameter\)
+### ShimmyJudderSimulationRun\(Document, SimulationParameter\)
 
 ```csharp
 public ShimmyJudderSimulationRun(Document doc, SimulationRun.SimulationParameter param)
@@ -139,7 +139,7 @@ public ShimmyJudderSimulationRun(Document doc, SimulationRun.SimulationParameter
 
 `param` SimulationRun.SimulationParameter
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderSimulationRun__ctor_VM_Managed_Operation_JournalParameter_"></a> ShimmyJudderSimulationRun\(JournalParameter\)
+### ShimmyJudderSimulationRun\(JournalParameter\)
 
 ```csharp
 public ShimmyJudderSimulationRun(JournalParameter jp)
@@ -151,7 +151,7 @@ public ShimmyJudderSimulationRun(JournalParameter jp)
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderSimulationRun_m_param"></a> m\_param
+### m\_param
 
 ```csharp
 protected SimulationScenarioBase.SolvingParam m_param
@@ -163,7 +163,7 @@ protected SimulationScenarioBase.SolvingParam m_param
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderSimulationRun_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -177,7 +177,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderSimulationRun_ApplySimulation"></a> ApplySimulation\(\)
+### ApplySimulation\(\)
 
 ```csharp
 protected bool ApplySimulation()
@@ -187,7 +187,7 @@ protected bool ApplySimulation()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderSimulationRun_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -195,7 +195,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderSimulationRun_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
+### SimulationRunImpl\(bool\)
 
 ```csharp
 protected override void SimulationRunImpl(bool bWriteDFG)
@@ -204,4 +204,5 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 #### Parameters
 
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

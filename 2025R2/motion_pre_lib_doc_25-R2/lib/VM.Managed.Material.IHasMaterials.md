@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Material_IHasMaterials"></a> Interface IHasMaterials
+# Interface IHasMaterials
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IHasMaterials
 
 ## Properties
 
-### <a id="VM_Managed_Material_IHasMaterials_Materials"></a> Materials
+### Materials
 
 Gets the materials.
 
@@ -28,4 +28,5 @@ IEnumerable<IMaterial> Materials { get; }
 #### Property Value
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IMaterial](VM.Managed.Material.IMaterial.md)\>
+
 

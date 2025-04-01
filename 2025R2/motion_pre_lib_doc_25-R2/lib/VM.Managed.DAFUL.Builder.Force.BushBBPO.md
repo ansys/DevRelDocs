@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Force_BushBBPO"></a> Class BushBBPO
+# Class BushBBPO
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFB.dll  
@@ -65,9 +65,10 @@ BuilderBase<Bush\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Force_BushBBPO__ctor"></a> BushBBPO\(\)
+### BushBBPO\(\)
 
 ```csharp
 public BushBBPO()
 ```
+
 

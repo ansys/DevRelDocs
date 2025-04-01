@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PartDocument"></a> Class PartDocument
+# Class PartDocument
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -516,7 +516,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_PartDocument__ctor_System_UIntPtr_"></a> PartDocument\(UIntPtr\)
+### PartDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -532,7 +532,7 @@ The document handle.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_PartDocument_DFMFFilePath"></a> DFMFFilePath
+### DFMFFilePath
 
 Gets or sets the DFMF file path.
 
@@ -544,7 +544,7 @@ public string DFMFFilePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_PartDocument_InitialCategories"></a> InitialCategories
+### InitialCategories
 
 Gets the initialize categories.
 
@@ -556,7 +556,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_PartDocument_LastModifiedTimeToDFMFFile"></a> LastModifiedTimeToDFMFFile
+### LastModifiedTimeToDFMFFile
 
 Gets or sets the last modified time to DFMF file.
 
@@ -568,7 +568,7 @@ public string LastModifiedTimeToDFMFFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_PartDocument_MassPropertyInfo"></a> MassPropertyInfo
+### MassPropertyInfo
 
 Gets or sets the mass property.
 
@@ -580,7 +580,7 @@ public PartDocument.MassProperty MassPropertyInfo { get; set; }
 
  [PartDocument](VM.Managed.DAFUL.PartDocument.md).[MassProperty](VM.Managed.DAFUL.PartDocument.MassProperty.md)
 
-### <a id="VM_Managed_DAFUL_PartDocument_MaxDistance"></a> MaxDistance
+### MaxDistance
 
 Gets or sets the maximum distance.
 
@@ -592,7 +592,7 @@ public double MaxDistance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_PartDocument_Modes"></a> Modes
+### Modes
 
 Gets or sets the modes.
 
@@ -604,7 +604,7 @@ public ModeForMFModal[] Modes { get; }
 
  [ModeForMFModal](VM.Managed.DAFUL.ModeForMFModal.md)\[\]
 
-### <a id="VM_Managed_DAFUL_PartDocument_ReferenceFrame"></a> ReferenceFrame
+### ReferenceFrame
 
 Gets or sets the reference frame.
 
@@ -616,7 +616,7 @@ public IDesignFrame ReferenceFrame { get; set; }
 
  IDesignFrame
 
-### <a id="VM_Managed_DAFUL_PartDocument_SkipCheckDFMFFile"></a> SkipCheckDFMFFile
+### SkipCheckDFMFFile
 
 Gets or sets the whether DFMF file existed.
 
@@ -628,7 +628,7 @@ public static bool SkipCheckDFMFFile { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_PartDocument__ReferenceFrame"></a> \_ReferenceFrame
+### \_ReferenceFrame
 
 Gets or sets the _ reference frame.
 
@@ -642,7 +642,7 @@ public Linker<IDesignFrame> _ReferenceFrame { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_PartDocument_Add_VM_Managed_ObjectBase_"></a> Add\(ObjectBase\)
+### Add\(ObjectBase\)
 
 Adds the specified object.
 
@@ -656,7 +656,7 @@ public override void Add(ObjectBase obj)
 
 The object.
 
-### <a id="VM_Managed_DAFUL_PartDocument_CalcBoundingBox_VM_Managed_IDesignFrame_System_Double____"></a> CalcBoundingBox\(IDesignFrame, ref double\[\]\)
+### CalcBoundingBox\(IDesignFrame, ref double\[\]\)
 
 Calcs the bounding box.
 
@@ -674,7 +674,7 @@ The design frame.
 
 The ar result.
 
-### <a id="VM_Managed_DAFUL_PartDocument_CreateAssemblyImpl"></a> CreateAssemblyImpl\(\)
+### CreateAssemblyImpl\(\)
 
 Creates the assembly [implementation].
 
@@ -688,7 +688,7 @@ protected override Assembly CreateAssemblyImpl()
 
 The assembly.
 
-### <a id="VM_Managed_DAFUL_PartDocument_FindCategory_System_String_"></a> FindCategory\(string\)
+### FindCategory\(string\)
 
 Finds the category.
 
@@ -708,7 +708,7 @@ The type.
 
 The category.
 
-### <a id="VM_Managed_DAFUL_PartDocument_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds the local.
 
@@ -726,7 +726,7 @@ Name of the STR.
 
  IObjectBase
 
-### <a id="VM_Managed_DAFUL_PartDocument_GetCADBodyNameAttribute_System_Collections_Generic_List_System_String___"></a> GetCADBodyNameAttribute\(ref List<string\>\)
+### GetCADBodyNameAttribute\(ref List<string\>\)
 
 Gets the CAD body name attributes.
 
@@ -740,7 +740,7 @@ public override void GetCADBodyNameAttribute(ref List<string> lstName)
 
 The output CAD body name attributes.
 
-### <a id="VM_Managed_DAFUL_PartDocument_GetData_System_Xml_XmlNode_"></a> GetData\(XmlNode\)
+### GetData\(XmlNode\)
 
 Gets the analysis document information data.
 
@@ -754,7 +754,7 @@ public override void GetData(XmlNode writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_PartDocument_GetFirstCADBody"></a> GetFirstCADBody\(\)
+### GetFirstCADBody\(\)
 
 Get first CAD Body in part document
 
@@ -766,7 +766,7 @@ public Body GetFirstCADBody()
 
  Body
 
-### <a id="VM_Managed_DAFUL_PartDocument_GetSimulationConfigurationType"></a> GetSimulationConfigurationType\(\)
+### GetSimulationConfigurationType\(\)
 
 Gets the type of the simulation configuration.
 
@@ -780,7 +780,7 @@ public override string GetSimulationConfigurationType()
 
 The type of the simulation configuration.
 
-### <a id="VM_Managed_DAFUL_PartDocument_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Get an unnamed object name.
 
@@ -800,7 +800,7 @@ The unnamed object.
 
 The unnamed object name.
 
-### <a id="VM_Managed_DAFUL_PartDocument_ImportCADBody_VM_Managed_CAD_BuilderImport___"></a> ImportCADBody\(BuilderImport\[\]\)
+### ImportCADBody\(BuilderImport\[\]\)
 
 Imports the CAD body.
 
@@ -814,7 +814,7 @@ protected override void ImportCADBody(BuilderImport[] arBuild)
 
 The build object array.
 
-### <a id="VM_Managed_DAFUL_PartDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
+### InitializeCategoryInfo\(string\)
 
 Initializes the category information.
 
@@ -828,7 +828,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 The category name.
 
-### <a id="VM_Managed_DAFUL_PartDocument_InitializeSimParam"></a> InitializeSimParam\(\)
+### InitializeSimParam\(\)
 
 Initializes the simulation parameter.
 
@@ -836,7 +836,7 @@ Initializes the simulation parameter.
 protected override void InitializeSimParam()
 ```
 
-### <a id="VM_Managed_DAFUL_PartDocument_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -854,7 +854,7 @@ The ob notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_PartDocument_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -868,7 +868,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_PartDocument_OnPostMakeDocumentImpl_VM_Managed_DocCreateAnalysisInfo_"></a> OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
+### OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
 
 Called when [post make document] [implementation].
 
@@ -882,7 +882,7 @@ protected override void OnPostMakeDocumentImpl(DocCreateAnalysisInfo info)
 
 The information of document creation.
 
-### <a id="VM_Managed_DAFUL_PartDocument_OperationBegin"></a> OperationBegin\(\)
+### OperationBegin\(\)
 
 Begin of operation.
 
@@ -890,7 +890,7 @@ Begin of operation.
 public override void OperationBegin()
 ```
 
-### <a id="VM_Managed_DAFUL_PartDocument_OperationEnd"></a> OperationEnd\(\)
+### OperationEnd\(\)
 
 End of operation.
 
@@ -898,7 +898,7 @@ End of operation.
 public override void OperationEnd()
 ```
 
-### <a id="VM_Managed_DAFUL_PartDocument_PostOpenDocument"></a> PostOpenDocument\(\)
+### PostOpenDocument\(\)
 
 Posts the open document.
 
@@ -906,7 +906,7 @@ Posts the open document.
 public override void PostOpenDocument()
 ```
 
-### <a id="VM_Managed_DAFUL_PartDocument_PostOpenDocumentAfterErrCheckEvent"></a> PostOpenDocumentAfterErrCheckEvent\(\)
+### PostOpenDocumentAfterErrCheckEvent\(\)
 
 Posts the open document after err check event.
 
@@ -914,7 +914,7 @@ Posts the open document after err check event.
 public override void PostOpenDocumentAfterErrCheckEvent()
 ```
 
-### <a id="VM_Managed_DAFUL_PartDocument_RegisterAddon"></a> RegisterAddon\(\)
+### RegisterAddon\(\)
 
 Register addon
 
@@ -922,7 +922,7 @@ Register addon
 protected override void RegisterAddon()
 ```
 
-### <a id="VM_Managed_DAFUL_PartDocument_ReplaceCADBody_VM_Managed_CAD_BuilderImport___"></a> ReplaceCADBody\(BuilderImport\[\]\)
+### ReplaceCADBody\(BuilderImport\[\]\)
 
 Replaces the CAD body.
 
@@ -936,7 +936,7 @@ public override void ReplaceCADBody(BuilderImport[] arBuilder)
 
 The builder object array.
 
-### <a id="VM_Managed_DAFUL_PartDocument_SetDFMFFilePath_System_String_"></a> SetDFMFFilePath\(string\)
+### SetDFMFFilePath\(string\)
 
 Set dfmf file path.
 
@@ -950,7 +950,7 @@ public void SetDFMFFilePath(string strDFMFFilePath)
 
 The dfmf file path.
 
-### <a id="VM_Managed_DAFUL_PartDocument_SetData_System_Xml_XmlNode_"></a> SetData\(XmlNode\)
+### SetData\(XmlNode\)
 
 Sets the analysis document information data.
 
@@ -964,7 +964,7 @@ public override void SetData(XmlNode reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_PartDocument_SetModes_VM_Managed_DAFUL_ModeForMFModal___"></a> SetModes\(ModeForMFModal\[\]\)
+### SetModes\(ModeForMFModal\[\]\)
 
 Set modes.
 
@@ -977,4 +977,5 @@ public void SetModes(ModeForMFModal[] arModes)
 `arModes` [ModeForMFModal](VM.Managed.DAFUL.ModeForMFModal.md)\[\]
 
 The modes.
+
 

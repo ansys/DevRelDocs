@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_AddSlidingBearingToRBEInMeshFree"></a> Class AddSlidingBearingToRBEInMeshFree
+# Class AddSlidingBearingToRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -50,7 +50,7 @@ IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddSlidingBearingToRBEInMeshFree__ctor"></a> AddSlidingBearingToRBEInMeshFree\(\)
+### AddSlidingBearingToRBEInMeshFree\(\)
 
 ```csharp
 public AddSlidingBearingToRBEInMeshFree()
@@ -58,7 +58,7 @@ public AddSlidingBearingToRBEInMeshFree()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddSlidingBearingToRBEInMeshFree_RBEName"></a> RBEName
+### RBEName
 
 ```csharp
 protected override string RBEName { get; }
@@ -70,7 +70,7 @@ protected override string RBEName { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddSlidingBearingToRBEInMeshFree_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public override void Build(Document docToAdd)
@@ -79,4 +79,5 @@ public override void Build(Document docToAdd)
 #### Parameters
 
 `docToAdd` Document
+
 

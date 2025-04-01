@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SubSystem"></a> Class SubSystem
+# Class SubSystem
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -211,7 +211,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_SubSystem__ctor"></a> SubSystem\(\)
+### SubSystem\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SubSystem" data-throw-if-not-resolved="false"></xref> class.
 
@@ -219,7 +219,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.SubSystem" data-t
 public SubSystem()
 ```
 
-### <a id="VM_Managed_DAFUL_SubSystem__ctor_System_String_VM_Managed_Instance_"></a> SubSystem\(string, Instance\)
+### SubSystem\(string, Instance\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SubSystem" data-throw-if-not-resolved="false"></xref> class.
 
@@ -237,7 +237,7 @@ Name of the sub system.
 
 The instance sub system.
 
-### <a id="VM_Managed_DAFUL_SubSystem__ctor_System_String_System_String_VM_Managed_TransformBase_"></a> SubSystem\(string, string, TransformBase\)
+### SubSystem\(string, string, TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SubSystem" data-throw-if-not-resolved="false"></xref> class.
 
@@ -261,7 +261,7 @@ The transformation.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_SubSystem_BindInterface_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> BindInterface\(ObjectBase, ObjectBase\)
+### BindInterface\(ObjectBase, ObjectBase\)
 
 Binds the interface.
 
@@ -285,7 +285,7 @@ The [to object].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SubSystem_BindInterfaces_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> BindInterfaces\(ObjectBase, ObjectBase\)
+### BindInterfaces\(ObjectBase, ObjectBase\)
 
 Binds the interfaces.
 
@@ -309,7 +309,7 @@ The [to object].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SubSystem_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
+### FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -329,7 +329,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SubSystem_InitInterfaceTable"></a> InitInterfaceTable\(\)
+### InitInterfaceTable\(\)
 
 Initialize the interface table.
 
@@ -337,7 +337,7 @@ Initialize the interface table.
 public override void InitInterfaceTable()
 ```
 
-### <a id="VM_Managed_DAFUL_SubSystem_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -355,7 +355,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_SubSystem_ProcessDuplicateReferenceImpl_VM_Managed_Reference_"></a> ProcessDuplicateReferenceImpl\(Reference\)
+### ProcessDuplicateReferenceImpl\(Reference\)
 
 Process duplicate reference
 
@@ -369,7 +369,7 @@ protected override void ProcessDuplicateReferenceImpl(Reference refer)
 
 The reference entity
 
-### <a id="VM_Managed_DAFUL_SubSystem_ReSetInterfacetable_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> ReSetInterfacetable\(ObjectBase, ObjectBase\)
+### ReSetInterfacetable\(ObjectBase, ObjectBase\)
 
 Reset interfacetable.
 
@@ -387,7 +387,7 @@ The target object.
 
 The tool object.
 
-### <a id="VM_Managed_DAFUL_SubSystem_ReSetInterfacetable_VM_Managed_ObjectBase_VM_Managed_ObjectBase_System_Collections_Generic_List_System_String__"></a> ReSetInterfacetable\(ObjectBase, ObjectBase, List<string\>\)
+### ReSetInterfacetable\(ObjectBase, ObjectBase, List<string\>\)
 
 Res the set interfacetable.
 
@@ -409,11 +409,12 @@ The tool.
 
 The LST names.
 
-### <a id="VM_Managed_DAFUL_SubSystem_Redraw"></a> Redraw\(\)
+### Redraw\(\)
 
 Redraw.
 
 ```csharp
 public override void Redraw()
 ```
+
 

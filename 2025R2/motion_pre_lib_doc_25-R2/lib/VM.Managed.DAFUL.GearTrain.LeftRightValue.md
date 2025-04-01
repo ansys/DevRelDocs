@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_LeftRightValue"></a> Class LeftRightValue
+# Class LeftRightValue
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_LeftRightValue__ctor"></a> LeftRightValue\(\)
+### LeftRightValue\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.LeftRightValue" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.LeftRig
 public LeftRightValue()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_LeftRightValue__ctor_System_String_System_String_"></a> LeftRightValue\(string, string\)
+### LeftRightValue\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.LeftRightValue" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ The string second value.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_LeftRightValue_Left"></a> Left
+### Left
 
 Gets or sets the left.
 
@@ -136,7 +136,7 @@ public Variable Left { get; set; }
 
  Variable
 
-### <a id="VM_Managed_DAFUL_GearTrain_LeftRightValue_Right"></a> Right
+### Right
 
 Gets or sets the right.
 
@@ -150,11 +150,12 @@ public Variable Right { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_LeftRightValue_InitChild"></a> InitChild\(\)
+### InitChild\(\)
 
 Initializes the child.
 
 ```csharp
 public void InitChild()
 ```
+
 

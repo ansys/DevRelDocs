@@ -1,4 +1,4 @@
-# <a id="VM_Managed_AttributeCollection"></a> Class AttributeCollection
+# Class AttributeCollection
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -73,7 +73,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_AttributeCollection__ctor"></a> AttributeCollection\(\)
+### AttributeCollection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeCollection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -83,7 +83,7 @@ public AttributeCollection()
 
 ## Properties
 
-### <a id="VM_Managed_AttributeCollection_Count"></a> Count
+### Count
 
 Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -95,7 +95,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_AttributeCollection_IsExternable"></a> IsExternable
+### IsExternable
 
 Gets a value indicating whether this instance is Externable.
 
@@ -107,7 +107,7 @@ public override bool IsExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_AttributeCollection_Keys"></a> Keys
+### Keys
 
 Gets an <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> containing the keys of the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
 
@@ -119,7 +119,7 @@ public ICollection<string> Keys { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_AttributeCollection_Values"></a> Values
+### Values
 
 Gets an <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> containing the values in the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
 
@@ -131,7 +131,7 @@ public ICollection<AttributeBase> Values { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[AttributeBase](VM.Managed.AttributeBase.md)\>
 
-### <a id="VM_Managed_AttributeCollection_Item_System_String_"></a> this\[string\]
+### this\[string\]
 
 ```csharp
 public AttributeBase this[string key] { get; set; }
@@ -143,7 +143,7 @@ public AttributeBase this[string key] { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_AttributeCollection_Add_System_String_VM_Managed_AttributeBase_"></a> Add\(string, AttributeBase\)
+### Add\(string, AttributeBase\)
 
 Adds an element with the provided key and value to the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
 
@@ -175,7 +175,7 @@ An element with the same key already exists in the <xref href="System.Collection
 
 The <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="VM_Managed_AttributeCollection_Clear"></a> Clear\(\)
+### Clear\(\)
 
 Removes all items from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -189,7 +189,7 @@ public void Clear()
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="VM_Managed_AttributeCollection_ContainsKey_System_String_"></a> ContainsKey\(string\)
+### ContainsKey\(string\)
 
 Determines whether the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> contains an element with the specified key.
 
@@ -215,7 +215,7 @@ true if the <xref href="System.Collections.Generic.IDictionary%602" data-throw-i
 
 <code class="paramref">strKey</code> is null.
 
-### <a id="VM_Managed_AttributeCollection_GetEnumerator"></a> GetEnumerator\(\)
+### GetEnumerator\(\)
 
 Returns an enumerator that iterates through the collection.
 
@@ -229,7 +229,7 @@ public IEnumerator<KeyValuePair<string, AttributeBase>> GetEnumerator()
 
 A <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> that can be used to iterate through the collection.
 
-### <a id="VM_Managed_AttributeCollection_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -246,7 +246,7 @@ public XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### <a id="VM_Managed_AttributeCollection_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -264,7 +264,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_AttributeCollection_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -282,7 +282,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_AttributeCollection_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -296,7 +296,7 @@ public void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_AttributeCollection_Remove_System_String_"></a> Remove\(string\)
+### Remove\(string\)
 
 Removes the element with the specified key from the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
 
@@ -326,7 +326,7 @@ true if the element is successfully removed; otherwise, false.  This method also
 
 The <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="VM_Managed_AttributeCollection_TryGetValue_System_String_VM_Managed_AttributeBase__"></a> TryGetValue\(string, out AttributeBase\)
+### TryGetValue\(string, out AttributeBase\)
 
 Gets the value associated with the specified key.
 
@@ -356,7 +356,7 @@ true if the object that implements <xref href="System.Collections.Generic.IDicti
 
 <code class="paramref">strKey</code> is null.
 
-### <a id="VM_Managed_AttributeCollection_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -369,4 +369,5 @@ public void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

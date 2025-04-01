@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase"></a> Class SuspensionLoadCase
+# Class SuspensionLoadCase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -27,7 +27,7 @@ public class SuspensionLoadCase : LoadCaseBase
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase__ctor"></a> SuspensionLoadCase\(\)
+### SuspensionLoadCase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SuspensionLoadCase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -35,7 +35,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SuspensionLoa
 public SuspensionLoadCase()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase__ctor_VM_Unit_"></a> SuspensionLoadCase\(Unit\)
+### SuspensionLoadCase\(Unit\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SuspensionLoadCase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -49,7 +49,7 @@ public SuspensionLoadCase(Unit unit)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_Analysis"></a> Analysis
+### Analysis
 
 Gets or sets the analysis.
 
@@ -61,7 +61,7 @@ public SuspensionAnalysisBase Analysis { get; set; }
 
  [SuspensionAnalysisBase](VM.Managed.DAFUL.Car.SuspensionAnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_Mode"></a> Mode
+### Mode
 
 Gets or sets the mode.
 
@@ -75,7 +75,7 @@ public SuspensionLoadCase.SuspensionMode Mode { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_CreateSimulation_VM_Managed_Simulation_Configuration_VM_Managed_DAFUL_Car_SuspensionAnalysisConfigurationBase__"></a> CreateSimulation\(Configuration, ref SuspensionAnalysisConfigurationBase\)
+### CreateSimulation\(Configuration, ref SuspensionAnalysisConfigurationBase\)
 
 Creates the simulation.
 
@@ -93,7 +93,7 @@ The config
 
 The sac.
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_GetXmlData_System_Xml_XmlWriter_"></a> GetXmlData\(XmlWriter\)
+### GetXmlData\(XmlWriter\)
 
 Gets the XML data.
 
@@ -107,7 +107,7 @@ public void GetXmlData(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_Initialize_System_Int32_System_Double_VM_Managed_DAFUL_Car_SuspensionAnalysisBase_"></a> Initialize\(int, double, SuspensionAnalysisBase\)
+### Initialize\(int, double, SuspensionAnalysisBase\)
 
 Initializes the specified n step.
 
@@ -129,7 +129,7 @@ The d time.
 
 The analysis.
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_MakeSpline_System_Collections_Generic_List_System_Double______"></a> MakeSpline\(List<double\[\]\>\[\]\)
+### MakeSpline\(List<double\[\]\>\[\]\)
 
 Makes the spline.
 
@@ -143,7 +143,7 @@ public void MakeSpline(List<double[]>[] arSpl)
 
 The ar SPL.
 
-### <a id="VM_Managed_DAFUL_Car_SuspensionLoadCase_SetXmlData_System_Xml_XmlReader_"></a> SetXmlData\(XmlReader\)
+### SetXmlData\(XmlReader\)
 
 Sets the XML data.
 
@@ -156,4 +156,5 @@ public void SetXmlData(XmlReader reader)
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
 The reader.
+
 

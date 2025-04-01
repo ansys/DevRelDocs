@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Car_Force_SpringBBPP"></a> Class SpringBBPP
+# Class SpringBBPP
 
 Namespace: [VM.Managed.DAFUL.Builder.Car.Force](VM.Managed.DAFUL.Builder.Car.Force.md)  
 Assembly: VMBldCar.dll  
@@ -61,7 +61,7 @@ BuilderBase<Spring\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Car_Force_SpringBBPP__ctor"></a> SpringBBPP\(\)
+### SpringBBPP\(\)
 
 ```csharp
 public SpringBBPP()
@@ -69,7 +69,7 @@ public SpringBBPP()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Car_Force_SpringBBPP_PropertyFilePath"></a> PropertyFilePath
+### PropertyFilePath
 
 ```csharp
 public string PropertyFilePath { get; set; }
@@ -81,7 +81,7 @@ public string PropertyFilePath { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Car_Force_SpringBBPP_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -96,4 +96,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

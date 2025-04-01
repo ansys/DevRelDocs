@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Utilities_FEConstraintTie"></a> Struct FEConstraintTie
+# Struct FEConstraintTie
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -9,7 +9,7 @@ public struct FEConstraintTie
 
 ## Properties
 
-### <a id="VM_Models_FE_Utilities_FEConstraintTie_ActionFEPatchInfo"></a> ActionFEPatchInfo
+### ActionFEPatchInfo
 
 ```csharp
 public FEPatchInfo[] ActionFEPatchInfo { readonly get; set; }
@@ -19,7 +19,7 @@ public FEPatchInfo[] ActionFEPatchInfo { readonly get; set; }
 
  [FEPatchInfo](VM.Models.FE.Utilities.FEPatchInfo.md)\[\]
 
-### <a id="VM_Models_FE_Utilities_FEConstraintTie_BaseFEPatchInfo"></a> BaseFEPatchInfo
+### BaseFEPatchInfo
 
 ```csharp
 public FEPatchInfo[] BaseFEPatchInfo { readonly get; set; }
@@ -29,7 +29,7 @@ public FEPatchInfo[] BaseFEPatchInfo { readonly get; set; }
 
  [FEPatchInfo](VM.Models.FE.Utilities.FEPatchInfo.md)\[\]
 
-### <a id="VM_Models_FE_Utilities_FEConstraintTie_ID"></a> ID
+### ID
 
 ```csharp
 public uint ID { readonly get; set; }
@@ -39,7 +39,7 @@ public uint ID { readonly get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Models_FE_Utilities_FEConstraintTie_NumberOfPatchOfActionGeom"></a> NumberOfPatchOfActionGeom
+### NumberOfPatchOfActionGeom
 
 ```csharp
 public uint NumberOfPatchOfActionGeom { readonly get; set; }
@@ -49,7 +49,7 @@ public uint NumberOfPatchOfActionGeom { readonly get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Models_FE_Utilities_FEConstraintTie_NumberOfPatchOfBaseGeom"></a> NumberOfPatchOfBaseGeom
+### NumberOfPatchOfBaseGeom
 
 ```csharp
 public uint NumberOfPatchOfBaseGeom { readonly get; set; }
@@ -58,4 +58,5 @@ public uint NumberOfPatchOfBaseGeom { readonly get; set; }
 #### Property Value
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
+
 

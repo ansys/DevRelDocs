@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_AttachLocationType"></a> Enum AttachLocationType
+# Enum AttachLocationType
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -26,6 +26,7 @@ Middle
 `Right = 2` 
 
 Right
+
 
 
 

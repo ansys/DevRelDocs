@@ -1,4 +1,4 @@
-# <a id="VM_Models_Project_ScenarioService"></a> Class ScenarioService
+# Class ScenarioService
 
 Namespace: [VM.Models.Project](VM.Models.Project.md)  
 Assembly: VM.Models.Project.dll  
@@ -24,7 +24,7 @@ public class ScenarioService : IScenarioService
 
 ## Constructors
 
-### <a id="VM_Models_Project_ScenarioService__ctor"></a> ScenarioService\(\)
+### ScenarioService\(\)
 
 ```csharp
 public ScenarioService()
@@ -32,13 +32,13 @@ public ScenarioService()
 
 ## Methods
 
-### <a id="VM_Models_Project_ScenarioService_Clear"></a> Clear\(\)
+### Clear\(\)
 
 ```csharp
 public void Clear()
 ```
 
-### <a id="VM_Models_Project_ScenarioService_Compose_System_Collections_Generic_IEnumerable_System_Reflection_Assembly__"></a> Compose\(IEnumerable<Assembly\>\)
+### Compose\(IEnumerable<Assembly\>\)
 
 ```csharp
 public void Compose(IEnumerable<Assembly> assemblies)
@@ -48,7 +48,7 @@ public void Compose(IEnumerable<Assembly> assemblies)
 
 `assemblies` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Assembly](https://learn.microsoft.com/dotnet/api/system.reflection.assembly)\>
 
-### <a id="VM_Models_Project_ScenarioService_ContainsName_System_String_"></a> ContainsName\(string\)
+### ContainsName\(string\)
 
 ```csharp
 public bool ContainsName(string typeName)
@@ -62,13 +62,13 @@ public bool ContainsName(string typeName)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Project_ScenarioService_Dispose"></a> Dispose\(\)
+### Dispose\(\)
 
 ```csharp
 public void Dispose()
 ```
 
-### <a id="VM_Models_Project_ScenarioService_TryGetInstance_System_String_VM_Models_IProjectDocument_System_String_VM_Models_IScenario__"></a> TryGetInstance\(string, IProjectDocument, string, out IScenario\)
+### TryGetInstance\(string, IProjectDocument, string, out IScenario\)
 
 ```csharp
 public bool TryGetInstance(string typeName, IProjectDocument parent, string scenarioName, out IScenario scenario)
@@ -88,7 +88,7 @@ public bool TryGetInstance(string typeName, IProjectDocument parent, string scen
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Project_ScenarioService_TryGetType_System_String_System_Type__"></a> TryGetType\(string, out Type\)
+### TryGetType\(string, out Type\)
 
 ```csharp
 public bool TryGetType(string typeName, out Type scenarioType)
@@ -103,4 +103,5 @@ public bool TryGetType(string typeName, out Type scenarioType)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

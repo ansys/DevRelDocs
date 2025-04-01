@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearSetCycloidPin"></a> Class GearSetCycloidPin
+# Class GearSetCycloidPin
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -264,7 +264,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCycloidPin__ctor"></a> GearSetCycloidPin\(\)
+### GearSetCycloidPin\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetCycloidPin" data-throw-if-not-resolved="false"></xref> class.
 
@@ -272,7 +272,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSet
 public GearSetCycloidPin()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCycloidPin__ctor_System_String_"></a> GearSetCycloidPin\(string\)
+### GearSetCycloidPin\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetCycloidPin" data-throw-if-not-resolved="false"></xref> class.
 
@@ -288,7 +288,7 @@ Name of the string.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCycloidPin_Extension"></a> Extension
+### Extension
 
 Gets the extension.
 
@@ -300,7 +300,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCycloidPin_TypeFileName"></a> TypeFileName
+### TypeFileName
 
 Gets the name of the type file.
 
@@ -312,7 +312,7 @@ public override string TypeFileName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCycloidPin_UseMeshing"></a> UseMeshing
+### UseMeshing
 
 Gets the flag whether this instance is meshing or not.
 
@@ -326,7 +326,7 @@ public override bool UseMeshing { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCycloidPin_CreateGearGeometry_System_String_System_Int32_VM_Managed_DAFUL_GearTrain_GearShapeBase___"></a> CreateGearGeometry\(string, int, GearShapeBase\[\]\)
+### CreateGearGeometry\(string, int, GearShapeBase\[\]\)
 
 Create Gear Geometry.
 
@@ -348,7 +348,7 @@ The No. of gear
 
 The gear shape geometry
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCycloidPin_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -366,7 +366,7 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCycloidPin_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -380,7 +380,7 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCycloidPin_MeshingAndMakePin_VM_Managed_IHasBuilder_VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_VectorBase_System_Boolean_"></a> MeshingAndMakePin\(IHasBuilder, CycloidPinInfoForAssembly, VectorBase, VectorBase, VectorBase, bool\)
+### MeshingAndMakePin\(IHasBuilder, CycloidPinInfoForAssembly, VectorBase, VectorBase, VectorBase, bool\)
 
 Meshing and make pin
 
@@ -418,7 +418,7 @@ The pin making flag
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCycloidPin_MeshingCore_System_Int32_System_Double_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder___"></a> MeshingCore\(int, double, ref List<IGearBuilder\>\)
+### MeshingCore\(int, double, ref List<IGearBuilder\>\)
 
 Meshing
 
@@ -440,7 +440,7 @@ The initial angle
 
 The builder list
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearSetCycloidPin_OnPostBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Post build in Special
 
@@ -461,4 +461,5 @@ The document
 `InputArray` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The input array
+
 

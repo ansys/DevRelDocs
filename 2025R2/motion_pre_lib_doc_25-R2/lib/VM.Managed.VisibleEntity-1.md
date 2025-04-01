@@ -1,4 +1,4 @@
-# <a id="VM_Managed_VisibleEntity_1"></a> Class VisibleEntity<TProperty\>
+# Class VisibleEntity<TProperty\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_VisibleEntity_1__ctor"></a> VisibleEntity\(\)
+### VisibleEntity\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.VisibleEntity%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.VisibleEntity%601" data
 protected VisibleEntity()
 ```
 
-### <a id="VM_Managed_VisibleEntity_1__ctor_System_String_"></a> VisibleEntity\(string\)
+### VisibleEntity\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.VisibleEntity%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -224,4 +224,5 @@ protected VisibleEntity(string strName)
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 Name of the entity.
+
 

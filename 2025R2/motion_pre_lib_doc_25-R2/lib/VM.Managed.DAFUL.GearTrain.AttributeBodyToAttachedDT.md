@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToAttachedDT"></a> Class AttributeBodyToAttachedDT
+# Class AttributeBodyToAttachedDT
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -111,7 +111,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToAttachedDT__ctor"></a> AttributeBodyToAttachedDT\(\)
+### AttributeBodyToAttachedDT\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AttributeBodyToAttachedDT" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ public AttributeBodyToAttachedDT()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToAttachedDT_Position"></a> Position
+### Position
 
 Gets or sets the position.
 
@@ -132,4 +132,5 @@ public PointBase Position { get; set; }
 #### Property Value
 
  PointBase
+
 

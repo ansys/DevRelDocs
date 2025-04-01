@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_BuilderJoint_1"></a> Class BuilderJoint<T\>
+# Class BuilderJoint<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -57,7 +57,7 @@ public abstract class BuilderJoint<T> : BuilderNamed<T>, IBuilder where T : Obje
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_BuilderJoint_1__ctor"></a> BuilderJoint\(\)
+### BuilderJoint\(\)
 
 ```csharp
 protected BuilderJoint()
@@ -65,7 +65,7 @@ protected BuilderJoint()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_BuilderJoint_1_FindReferenceParent_VM_Managed_DAFUL_IConnectable_VM_Managed_Document_"></a> FindReferenceParent\(IConnectable, Document\)
+### FindReferenceParent\(IConnectable, Document\)
 
 ```csharp
 protected ObjectBase FindReferenceParent(IConnectable parentOriginal, Document doc)
@@ -81,7 +81,7 @@ protected ObjectBase FindReferenceParent(IConnectable parentOriginal, Document d
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_BuilderJoint_1_GetJointForReference_VM_Managed_DAFUL_IRSpringDamperComponent_"></a> GetJointForReference\(IRSpringDamperComponent\)
+### GetJointForReference\(IRSpringDamperComponent\)
 
 ```csharp
 protected IRSpringDamperComponent GetJointForReference(IRSpringDamperComponent ob)
@@ -95,7 +95,7 @@ protected IRSpringDamperComponent GetJointForReference(IRSpringDamperComponent o
 
  IRSpringDamperComponent
 
-### <a id="VM_Managed_DAFUL_Builder_BuilderJoint_1_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -110,4 +110,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingStrength_enLubricantType"></a> Enum BearingStrength.enLubricantType
+# Enum BearingStrength.enLubricantType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,6 +26,7 @@ The oil with filter
 `Oil_without_filter = 1` 
 
 The oil without filter
+
 
 
 

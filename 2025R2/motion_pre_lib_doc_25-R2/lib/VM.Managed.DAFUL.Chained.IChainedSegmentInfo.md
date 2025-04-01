@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo"></a> Interface IChainedSegmentInfo
+# Interface IChainedSegmentInfo
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -17,7 +17,7 @@ public interface IChainedSegmentInfo
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_Clear_Connectors"></a> Clear\_Connectors\(\)
+### Clear\_Connectors\(\)
 
 Remove all objects.
 
@@ -25,7 +25,7 @@ Remove all objects.
 void Clear_Connectors()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_Clear_Contacts"></a> Clear\_Contacts\(\)
+### Clear\_Contacts\(\)
 
 Remove all objects.
 
@@ -33,7 +33,7 @@ Remove all objects.
 void Clear_Contacts()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_Clear_Transforms"></a> Clear\_Transforms\(\)
+### Clear\_Transforms\(\)
 
 Remove all objects.
 
@@ -41,7 +41,7 @@ Remove all objects.
 void Clear_Transforms()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_GetConnectors"></a> GetConnectors\(\)
+### GetConnectors\(\)
 
 Gets the array of connectors.
 
@@ -55,7 +55,7 @@ ObjectBase[] GetConnectors()
 
 The array of connectors(Body,NodeSet,FaceSet,PatchSet).
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_GetGeometryReference"></a> GetGeometryReference\(\)
+### GetGeometryReference\(\)
 
 Gets the geomerty reference.
 
@@ -69,7 +69,7 @@ ObjectBase GetGeometryReference()
 
 The geometry reference.
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_GetListContact"></a> GetListContact\(\)
+### GetListContact\(\)
 
 Gets the array of contact geometry.
 
@@ -83,7 +83,7 @@ ObjectBase[] GetListContact()
 
 The array of contact geometry(FaceSet,PatchSet).
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_GetSegmentHeight1"></a> GetSegmentHeight1\(\)
+### GetSegmentHeight1\(\)
 
 Gets the segment height1.
 
@@ -97,7 +97,7 @@ Variable GetSegmentHeight1()
 
 The segment height1.
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_GetSegmentHeight2"></a> GetSegmentHeight2\(\)
+### GetSegmentHeight2\(\)
 
 Gets the segment height2.
 
@@ -111,7 +111,7 @@ Variable GetSegmentHeight2()
 
 The segment height2.
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_GetSegmentLength"></a> GetSegmentLength\(\)
+### GetSegmentLength\(\)
 
 Gets the segment length.
 
@@ -125,7 +125,7 @@ Variable GetSegmentLength()
 
 The segment length.
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_GetTransforms"></a> GetTransforms\(\)
+### GetTransforms\(\)
 
 Gets the array of transforms.
 
@@ -139,7 +139,7 @@ ObjectBase[] GetTransforms()
 
 The array of transform(DesignFrame,Marker).
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_Get_WorkPlane"></a> Get\_WorkPlane\(\)
+### Get\_WorkPlane\(\)
 
 Get work plane.
 
@@ -153,7 +153,7 @@ Plane Get_WorkPlane()
 
 The plane
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_SetConnector_VM_Managed_ObjectBase_"></a> SetConnector\(ObjectBase\)
+### SetConnector\(ObjectBase\)
 
 Sets the connector of chained system.
 
@@ -173,7 +173,7 @@ The object(Body,NodeSet,FaceSet,PatchSet).
 
 <code>true</code> if the specified <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref> is equal to <xref href="VM.Managed.IChainedSegmentConnector" data-throw-if-not-resolved="false"></xref>; otherwise, <code>false</code>
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_SetConnectors_VM_Managed_ObjectBase___"></a> SetConnectors\(ObjectBase\[\]\)
+### SetConnectors\(ObjectBase\[\]\)
 
 Sets the array of connectors.
 
@@ -193,7 +193,7 @@ The array of connectors(Body,NodeSet,FaceSet,PatchSet).
 
 <code>true</code> if the specified <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref> is equal to <xref href="VM.Managed.IChainedSegmentConnector" data-throw-if-not-resolved="false"></xref>; otherwise, <code>false</code>
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_SetContact_VM_Managed_ObjectBase_"></a> SetContact\(ObjectBase\)
+### SetContact\(ObjectBase\)
 
 Sets the contact geometry.
 
@@ -213,7 +213,7 @@ The contact geometry(FaceSet,PatchSet).
 
 <code>true</code> if the specified <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref> include the following property <xref href="VM.Managed.IChainedSegmentContact" data-throw-if-not-resolved="false"></xref> ; otherwise, <code>false</code>
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_SetGeometryReference_VM_Managed_ObjectBase_"></a> SetGeometryReference\(ObjectBase\)
+### SetGeometryReference\(ObjectBase\)
 
 Sets the geomerty reference.
 
@@ -233,7 +233,7 @@ The geometry reference
 
 <code>true</code> if the specified <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref> include the following property <xref href="VM.Managed.DesignFrame" data-throw-if-not-resolved="false"></xref> or <xref href="VM.Managed.ReferenceDesignFrame" data-throw-if-not-resolved="false"></xref>; otherwise, <code>false</code>
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_SetListContact_VM_Managed_ObjectBase___"></a> SetListContact\(ObjectBase\[\]\)
+### SetListContact\(ObjectBase\[\]\)
 
 Sets the array of contact geometry.
 
@@ -251,7 +251,7 @@ The array of contact geometry(FaceSet,PatchSet).
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_SetSegmentHeight1_VM_Managed_Variable_"></a> SetSegmentHeight1\(Variable\)
+### SetSegmentHeight1\(Variable\)
 
 Sets the segment height1.
 
@@ -265,7 +265,7 @@ void SetSegmentHeight1(Variable _segmentheight1)
 
 The segment height1.
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_SetSegmentHeight2_VM_Managed_Variable_"></a> SetSegmentHeight2\(Variable\)
+### SetSegmentHeight2\(Variable\)
 
 Sets the segment height2.
 
@@ -279,7 +279,7 @@ void SetSegmentHeight2(Variable _segmentheight2)
 
 The segment height2.
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_SetSegmentLength_VM_Managed_Variable_"></a> SetSegmentLength\(Variable\)
+### SetSegmentLength\(Variable\)
 
 Sets the segment length.
 
@@ -293,7 +293,7 @@ void SetSegmentLength(Variable _segmentlength)
 
 The segment length
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_SetTransform_VM_Managed_ObjectBase_"></a> SetTransform\(ObjectBase\)
+### SetTransform\(ObjectBase\)
 
 Sets the transform.
 
@@ -313,7 +313,7 @@ the transform(DesignFrame, Marker)
 
 <code>true</code> if the specified <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref> include the following property <xref href="VM.Managed.DesignFrame" data-throw-if-not-resolved="false"></xref> or <xref href="VM.Managed.ReferenceDesignFrame" data-throw-if-not-resolved="false"></xref>; otherwise, <code>false</code>
 
-### <a id="VM_Managed_DAFUL_Chained_IChainedSegmentInfo_SetTransforms_VM_Managed_ObjectBase___"></a> SetTransforms\(ObjectBase\[\]\)
+### SetTransforms\(ObjectBase\[\]\)
 
 Sets the array of transforms
 
@@ -332,4 +332,5 @@ The array of transforms(DesignFrame,Marker).
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if the specified <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref> include the following property <xref href="VM.Managed.DesignFrame" data-throw-if-not-resolved="false"></xref> or <xref href="VM.Managed.ReferenceDesignFrame" data-throw-if-not-resolved="false"></xref>; otherwise, <code>false</code>
+
 

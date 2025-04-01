@@ -1,4 +1,4 @@
-# <a id="VM_Managed_View3D"></a> Class View3D
+# Class View3D
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -49,7 +49,7 @@ public class View3D : HandledView
 
 ## Constructors
 
-### <a id="VM_Managed_View3D__ctor_System_UIntPtr_VM_Managed_Document_"></a> View3D\(UIntPtr, Document\)
+### View3D\(UIntPtr, Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.View3D" data-throw-if-not-resolved="false"></xref> class
 
@@ -69,7 +69,7 @@ The document.
 
 ## Fields
 
-### <a id="VM_Managed_View3D_g_FrontViewPlane"></a> g\_FrontViewPlane
+### g\_FrontViewPlane
 
 ```csharp
 public static ViewPlane g_FrontViewPlane
@@ -79,7 +79,7 @@ public static ViewPlane g_FrontViewPlane
 
  [ViewPlane](VM.Managed.ViewPlane.md)
 
-### <a id="VM_Managed_View3D_g_bAdjacent"></a> g\_bAdjacent
+### g\_bAdjacent
 
 ```csharp
 public static bool g_bAdjacent
@@ -91,7 +91,7 @@ public static bool g_bAdjacent
 
 ## Properties
 
-### <a id="VM_Managed_View3D_BackgroundColor"></a> BackgroundColor
+### BackgroundColor
 
 Gets the color of background.
 
@@ -103,7 +103,7 @@ public View3D.ViewBackgroundColor BackgroundColor { get; }
 
  [View3D](VM.Managed.View3D.md).[ViewBackgroundColor](VM.Managed.View3D.ViewBackgroundColor.md)
 
-### <a id="VM_Managed_View3D_IsPropertySupport"></a> IsPropertySupport
+### IsPropertySupport
 
 ```csharp
 public virtual bool IsPropertySupport { get; }
@@ -113,7 +113,7 @@ public virtual bool IsPropertySupport { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_View3D_Perspective"></a> Perspective
+### Perspective
 
 Gets or sets the perspective.
 
@@ -125,7 +125,7 @@ public bool Perspective { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_View3D_RenderMode"></a> RenderMode
+### RenderMode
 
 Gets or sets the rendering mode.
 
@@ -137,7 +137,7 @@ public View3D.RenderingMode RenderMode { get; set; }
 
  [View3D](VM.Managed.View3D.md).[RenderingMode](VM.Managed.View3D.RenderingMode.md)
 
-### <a id="VM_Managed_View3D_Shadow"></a> Shadow
+### Shadow
 
 Gets or sets the shadow.
 
@@ -151,7 +151,7 @@ public bool Shadow { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_View3D_Activate_System_Boolean_"></a> Activate\(bool\)
+### Activate\(bool\)
 
 Activate view.
 
@@ -163,7 +163,7 @@ public override void Activate(bool bActivate)
 
 `bActivate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_View3D_Close"></a> Close\(\)
+### Close\(\)
 
 Close view.
 
@@ -171,7 +171,7 @@ Close view.
 public override void Close()
 ```
 
-### <a id="VM_Managed_View3D_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 ```csharp
 [HandleProcessCorruptedStateExceptions]
@@ -182,7 +182,7 @@ protected override void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_View3D_Draw"></a> Draw\(\)
+### Draw\(\)
 
 Draw.
 
@@ -190,7 +190,7 @@ Draw.
 public override void Draw()
 ```
 
-### <a id="VM_Managed_View3D_Fit"></a> Fit\(\)
+### Fit\(\)
 
 Fit
 
@@ -198,7 +198,7 @@ Fit
 public void Fit()
 ```
 
-### <a id="VM_Managed_View3D_FitCore"></a> FitCore\(\)
+### FitCore\(\)
 
 Fits the core.
 
@@ -206,7 +206,7 @@ Fits the core.
 protected virtual void FitCore()
 ```
 
-### <a id="VM_Managed_View3D_GetCursorMode"></a> GetCursorMode\(\)
+### GetCursorMode\(\)
 
 Get cursor mode .
 
@@ -220,7 +220,7 @@ public View3D.CursorMode GetCursorMode()
 
 The cursor mode.
 
-### <a id="VM_Managed_View3D_GetData_System_Xml_XmlNode_"></a> GetData\(XmlNode\)
+### GetData\(XmlNode\)
 
 Gets the view3d information data.
 
@@ -234,7 +234,7 @@ public virtual void GetData(XmlNode writer)
 
 The writer.
 
-### <a id="VM_Managed_View3D_GetModelBoundingBox_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetModelBoundingBox\(ref VectorBase, ref VectorBase\)
+### GetModelBoundingBox\(ref VectorBase, ref VectorBase\)
 
 Gets the bounding box of model.
 
@@ -256,7 +256,7 @@ The max value of bounding box.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_View3D_GetPopupMenuResult"></a> GetPopupMenuResult\(\)
+### GetPopupMenuResult\(\)
 
 Get result for popup menu.
 
@@ -270,7 +270,7 @@ public int GetPopupMenuResult()
 
 The result.
 
-### <a id="VM_Managed_View3D_GetSpecialMenuResult"></a> GetSpecialMenuResult\(\)
+### GetSpecialMenuResult\(\)
 
 Get result for special menu.
 
@@ -284,7 +284,7 @@ public int GetSpecialMenuResult()
 
 The result.
 
-### <a id="VM_Managed_View3D_GetUseFaceNormal"></a> GetUseFaceNormal\(\)
+### GetUseFaceNormal\(\)
 
 Get face normal.
 
@@ -298,7 +298,7 @@ public bool GetUseFaceNormal()
 
 The use.
 
-### <a id="VM_Managed_View3D_IsDefaultOperation"></a> IsDefaultOperation\(\)
+### IsDefaultOperation\(\)
 
 Whether default or not for orientation.
 
@@ -312,7 +312,7 @@ public bool IsDefaultOperation()
 
 <code>true</code> if default; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_View3D_OnContextMenu"></a> OnContextMenu\(\)
+### OnContextMenu\(\)
 
 Called when [show context menu].
 
@@ -320,7 +320,7 @@ Called when [show context menu].
 public virtual void OnContextMenu()
 ```
 
-### <a id="VM_Managed_View3D_OnLButtonDblClk_System_UInt32_System_Drawing_Point_"></a> OnLButtonDblClk\(uint, Point\)
+### OnLButtonDblClk\(uint, Point\)
 
 Called when [L-button double click].
 
@@ -334,7 +334,7 @@ public override void OnLButtonDblClk(uint nFlags, Point point)
 
 `point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
 
-### <a id="VM_Managed_View3D_OnLButtonDown_System_UInt32_System_Drawing_Point_"></a> OnLButtonDown\(uint, Point\)
+### OnLButtonDown\(uint, Point\)
 
 Called when [L-button down].
 
@@ -348,7 +348,7 @@ public override void OnLButtonDown(uint nFlags, Point point)
 
 `point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
 
-### <a id="VM_Managed_View3D_OnLButtonUp_System_UInt32_System_Drawing_Point_"></a> OnLButtonUp\(uint, Point\)
+### OnLButtonUp\(uint, Point\)
 
 Called when [L-button up].
 
@@ -362,7 +362,7 @@ public override void OnLButtonUp(uint nFlags, Point point)
 
 `point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
 
-### <a id="VM_Managed_View3D_OnMButtonDown_System_UInt32_System_Drawing_Point_"></a> OnMButtonDown\(uint, Point\)
+### OnMButtonDown\(uint, Point\)
 
 Called when [M-button down].
 
@@ -376,7 +376,7 @@ public override void OnMButtonDown(uint nFlags, Point point)
 
 `point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
 
-### <a id="VM_Managed_View3D_OnMButtonUp_System_UInt32_System_Drawing_Point_"></a> OnMButtonUp\(uint, Point\)
+### OnMButtonUp\(uint, Point\)
 
 Called when [M-button up].
 
@@ -390,7 +390,7 @@ public override void OnMButtonUp(uint nFlags, Point point)
 
 `point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
 
-### <a id="VM_Managed_View3D_OnMouseMove_System_UInt32_System_Drawing_Point_"></a> OnMouseMove\(uint, Point\)
+### OnMouseMove\(uint, Point\)
 
 Called when [mouse move].
 
@@ -404,7 +404,7 @@ public override void OnMouseMove(uint nFlags, Point point)
 
 `point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
 
-### <a id="VM_Managed_View3D_OnMouseWheel_System_UInt32_System_Int16_System_Drawing_Point_"></a> OnMouseWheel\(uint, short, Point\)
+### OnMouseWheel\(uint, short, Point\)
 
 Called when [use mouse wheel].
 
@@ -420,7 +420,7 @@ public override void OnMouseWheel(uint nFlags, short zDelta, Point pt)
 
 `pt` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
 
-### <a id="VM_Managed_View3D_OnRButtonDown_System_UInt32_System_Drawing_Point_"></a> OnRButtonDown\(uint, Point\)
+### OnRButtonDown\(uint, Point\)
 
 Called when [R-button down].
 
@@ -434,7 +434,7 @@ public override void OnRButtonDown(uint nFlags, Point point)
 
 `point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
 
-### <a id="VM_Managed_View3D_OnRButtonUp_System_UInt32_System_Drawing_Point_"></a> OnRButtonUp\(uint, Point\)
+### OnRButtonUp\(uint, Point\)
 
 Called when [R-button up].
 
@@ -448,7 +448,7 @@ public override void OnRButtonUp(uint nFlags, Point point)
 
 `point` [Point](https://learn.microsoft.com/dotnet/api/system.drawing.point)
 
-### <a id="VM_Managed_View3D_Resize_System_Int32_System_Int32_"></a> Resize\(int, int\)
+### Resize\(int, int\)
 
 Re-size.
 
@@ -466,7 +466,7 @@ The width.
 
 The height.
 
-### <a id="VM_Managed_View3D_SetData_System_Xml_XmlNode_"></a> SetData\(XmlNode\)
+### SetData\(XmlNode\)
 
 Sets the view3d information data.
 
@@ -480,7 +480,7 @@ public virtual void SetData(XmlNode reader)
 
 The reader.
 
-### <a id="VM_Managed_View3D_SetPopupMenuResult_System_Int32_"></a> SetPopupMenuResult\(int\)
+### SetPopupMenuResult\(int\)
 
 ```csharp
 public void SetPopupMenuResult(int nResult)
@@ -490,7 +490,7 @@ public void SetPopupMenuResult(int nResult)
 
 `nResult` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_View3D_SetSpecialMenuResult_System_Int32_"></a> SetSpecialMenuResult\(int\)
+### SetSpecialMenuResult\(int\)
 
 Set result for special menu.
 
@@ -504,7 +504,7 @@ public void SetSpecialMenuResult(int nResult)
 
 The result.
 
-### <a id="VM_Managed_View3D_SetSurfaceTolerance_System_Double_"></a> SetSurfaceTolerance\(double\)
+### SetSurfaceTolerance\(double\)
 
 Set surface tolerance.
 
@@ -518,7 +518,7 @@ public void SetSurfaceTolerance(double dSurfaceTolerance)
 
 The surface tolerance.
 
-### <a id="VM_Managed_View3D_SetUseFaceNormal_System_Boolean_"></a> SetUseFaceNormal\(bool\)
+### SetUseFaceNormal\(bool\)
 
 Set face normal.
 
@@ -532,7 +532,7 @@ public void SetUseFaceNormal(bool bNormal)
 
 The use.
 
-### <a id="VM_Managed_View3D_SetViewMode_VM_Managed_View3D_ViewMode_"></a> SetViewMode\(ViewMode\)
+### SetViewMode\(ViewMode\)
 
 Set mode of view.
 
@@ -546,7 +546,7 @@ public void SetViewMode(View3D.ViewMode mode)
 
 The view mode.
 
-### <a id="VM_Managed_View3D_TransformCamera_VM_Managed_TMatrix_"></a> TransformCamera\(TMatrix\)
+### TransformCamera\(TMatrix\)
 
 Transform.
 
@@ -559,4 +559,5 @@ public void TransformCamera(TMatrix mat)
 `mat` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SimulationConfiguration_Simulation"></a> Enum SimulationConfiguration.Simulation
+# Enum SimulationConfiguration.Simulation
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -44,6 +44,7 @@ Pre
 `Static = 1` 
 
 Static
+
 
 
 

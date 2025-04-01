@@ -1,4 +1,4 @@
-# <a id="VM_Managed_SimulationConfigurationExtraBase"></a> Class SimulationConfigurationExtraBase
+# Class SimulationConfigurationExtraBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_SimulationConfigurationExtraBase__ctor"></a> SimulationConfigurationExtraBase\(\)
+### SimulationConfigurationExtraBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.SimulationConfigurationExtraBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public SimulationConfigurationExtraBase()
 
 ## Properties
 
-### <a id="VM_Managed_SimulationConfigurationExtraBase_IsUse"></a> IsUse
+### IsUse
 
 Gets or sets a value indicating whether this instance is use.
 
@@ -120,7 +120,7 @@ public bool IsUse { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_SimulationConfigurationExtraBase_GetExtraInformation"></a> GetExtraInformation\(\)
+### GetExtraInformation\(\)
 
 Gets the extra information.
 
@@ -133,4 +133,5 @@ public virtual string GetExtraInformation()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The extra information.
+
 

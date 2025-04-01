@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuildBodyOp"></a> Class BuildBodyOp
+# Class BuildBodyOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuildBodyOp__ctor_VM_Managed_CAD_Body_"></a> BuildBodyOp\(Body\)
+### BuildBodyOp\(Body\)
 
 ```csharp
 public BuildBodyOp(Body body)
@@ -87,7 +87,7 @@ public BuildBodyOp(Body body)
 
 `body` [Body](VM.Managed.CAD.Body.md)
 
-### <a id="VM_Managed_CAD_BuildBodyOp__ctor"></a> BuildBodyOp\(\)
+### BuildBodyOp\(\)
 
 ```csharp
 public BuildBodyOp()
@@ -95,7 +95,7 @@ public BuildBodyOp()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuildBodyOp_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the merge of history.
 
@@ -107,7 +107,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_BuildBodyOp_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -121,11 +121,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuildBodyOp_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

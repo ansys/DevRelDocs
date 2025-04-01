@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_GearTrain_HousingAPI"></a> Class HousingAPI
+# Class HousingAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -22,7 +22,7 @@ public static class HousingAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_GearTrain_HousingAPI_CreateEFHousing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_"></a> CreateEFHousing\(GearTrainDocument, string\)
+### CreateEFHousing\(GearTrainDocument, string\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.HousingMeshFree" data-throw-if-not-resolved="false"></xref>.
 
@@ -53,7 +53,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.HousingMeshFree" data-throw-if-no
 
 Will be thrown if 'document' argument is empty.
 
-### <a id="VM_API_Pre_GearTrain_HousingAPI_CreateFEHousing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_"></a> CreateFEHousing\(GearTrainDocument, string\)
+### CreateFEHousing\(GearTrainDocument, string\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.HousingFE" data-throw-if-not-resolved="false"></xref>.
 
@@ -84,7 +84,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.HousingFE" data-throw-if-not-reso
 
 Will be thrown if 'document' argument is empty.
 
-### <a id="VM_API_Pre_GearTrain_HousingAPI_UpdateBodyInFE_VM_Managed_DAFUL_GearTrain_HiddenDocumentFEBase_VM_Managed_DAFUL_BodyAnalysisType_"></a> UpdateBodyInFE\(HiddenDocumentFEBase, BodyAnalysisType\)
+### UpdateBodyInFE\(HiddenDocumentFEBase, BodyAnalysisType\)
 
 Update nodal body in fe shaftset/housing designer.
 
@@ -109,7 +109,7 @@ The body analysis type.
 
 Will be thrown if 'document' or 'nodalBody' arguments are empty.
 
-### <a id="VM_API_Pre_GearTrain_HousingAPI_UpdateBodyInMeshFree_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshFreeBase_VM_Managed_DAFUL_BodyAnalysisType_VM_Managed_DAFUL_SolidBodyProperty_MassPropertyType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__"></a> UpdateBodyInMeshFree\(HiddenDocumentMeshFreeBase, BodyAnalysisType, MassPropertyType, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>\)
+### UpdateBodyInMeshFree\(HiddenDocumentMeshFreeBase, BodyAnalysisType, MassPropertyType, ExpressionValueVariable?, IEnumerable<ExpressionValueVariable\>\)
 
 Update assembled body in ef shaftset/housing designer.
 
@@ -154,7 +154,7 @@ Will be thrown if 'massPropertyType' is User and 'mass' or 'momentOfInertia' are
 
 Will be thrown if the length of 'momentOfInertia' is not 6.
 
-### <a id="VM_API_Pre_GearTrain_HousingAPI_UpdateDesignerInMesh_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_"></a> UpdateDesignerInMesh\(HiddenDocumentMeshBase\)
+### UpdateDesignerInMesh\(HiddenDocumentMeshBase\)
 
 Update designer in fe/ef shaftset/housing.
 
@@ -174,4 +174,5 @@ The <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshBase" data-throw-if
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document' argument is empty.
+
 

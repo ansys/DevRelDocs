@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Topology"></a> Class Topology
+# Class Topology
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -157,7 +157,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Topology__ctor_System_String_System_String_System_Boolean_"></a> Topology\(string, string, bool\)
+### Topology\(string, string, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Topology" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ The build information.
 
 Whether build or not.
 
-### <a id="VM_Managed_CAD_Topology__ctor"></a> Topology\(\)
+### Topology\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Topology" data-throw-if-not-resolved="false"></xref> class.
 
@@ -189,7 +189,7 @@ public Topology()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Topology_Body"></a> Body
+### Body
 
 Gets the body of topology.
 
@@ -201,7 +201,7 @@ public ObjectBase Body { get; }
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### <a id="VM_Managed_CAD_Topology_Index"></a> Index
+### Index
 
 Gets the index of topology.
 
@@ -213,7 +213,7 @@ public uint Index { get; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_CAD_Topology_IndexCont"></a> IndexCont
+### IndexCont
 
 Gets the index container.
 
@@ -225,7 +225,7 @@ public Topology.IndexContainer IndexCont { get; set; }
 
  [Topology](VM.Managed.CAD.Topology.md).[IndexContainer](VM.Managed.CAD.Topology.IndexContainer.md)
 
-### <a id="VM_Managed_CAD_Topology_IsValid"></a> IsValid
+### IsValid
 
 Whether valid or not.
 
@@ -239,13 +239,13 @@ public bool IsValid { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Topology_ConnectProxy"></a> ConnectProxy\(\)
+### ConnectProxy\(\)
 
 ```csharp
 protected override void ConnectProxy()
 ```
 
-### <a id="VM_Managed_CAD_Topology_GetColor_System_Drawing_Color__"></a> GetColor\(ref Color\)
+### GetColor\(ref Color\)
 
 Get color.
 
@@ -265,7 +265,7 @@ The color.
 
 <code>true</code> if exist color; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_CAD_Topology_GetName"></a> GetName\(\)
+### GetName\(\)
 
 Gets the name of topology.
 
@@ -279,7 +279,7 @@ public string GetName()
 
 The name of topology.
 
-### <a id="VM_Managed_CAD_Topology_GetPrefixName"></a> GetPrefixName\(\)
+### GetPrefixName\(\)
 
 Gets the pre fixname of topology.
 
@@ -293,7 +293,7 @@ protected virtual string GetPrefixName()
 
 The pre fixname of topology.
 
-### <a id="VM_Managed_CAD_Topology_GetTypeName"></a> GetTypeName\(\)
+### GetTypeName\(\)
 
 Gets the name of topology(edge, face, vertex).
 
@@ -307,7 +307,7 @@ public abstract string GetTypeName()
 
 The name of topology
 
-### <a id="VM_Managed_CAD_Topology_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Get an unnamed object name.
 
@@ -327,7 +327,7 @@ The unnamed object.
 
 The unnamed object name.
 
-### <a id="VM_Managed_CAD_Topology_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -341,7 +341,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_CAD_Topology_InitializeTopologyName_System_Boolean_"></a> InitializeTopologyName\(bool\)
+### InitializeTopologyName\(bool\)
 
 Initalize name of topology.
 
@@ -355,7 +355,7 @@ public void InitializeTopologyName(bool bForceInit)
 
 Whether initial force or not.
 
-### <a id="VM_Managed_CAD_Topology_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -369,9 +369,10 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_CAD_Topology_ResetInvalidEntity"></a> ResetInvalidEntity\(\)
+### ResetInvalidEntity\(\)
 
 ```csharp
 public override void ResetInvalidEntity()
 ```
+
 

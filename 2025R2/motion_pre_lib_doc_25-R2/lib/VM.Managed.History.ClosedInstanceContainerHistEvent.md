@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_ClosedInstanceContainerHistEvent"></a> Class ClosedInstanceContainerHistEvent
+# Class ClosedInstanceContainerHistEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -43,7 +43,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_History_ClosedInstanceContainerHistEvent__ctor_System_String_"></a> ClosedInstanceContainerHistEvent\(string\)
+### ClosedInstanceContainerHistEvent\(string\)
 
 ```csharp
 public ClosedInstanceContainerHistEvent(string strPathName)
@@ -52,4 +52,5 @@ public ClosedInstanceContainerHistEvent(string strPathName)
 #### Parameters
 
 `strPathName` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

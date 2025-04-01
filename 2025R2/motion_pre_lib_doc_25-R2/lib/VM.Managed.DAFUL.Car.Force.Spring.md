@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Force_Spring"></a> Class Spring
+# Class Spring
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -257,7 +257,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Force_Spring__ctor"></a> Spring\(\)
+### Spring\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.Spring" data-throw-if-not-resolved="false"></xref> class.
 
@@ -265,7 +265,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.Spring"
 public Spring()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Force_Spring__ctor_System_String_"></a> Spring\(string\)
+### Spring\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.Spring" data-throw-if-not-resolved="false"></xref> class.
 
@@ -281,7 +281,7 @@ Name of the STR.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Force_Spring_GeomColor"></a> GeomColor
+### GeomColor
 
 Gets or sets the color of the geometry.
 
@@ -293,7 +293,7 @@ public string GeomColor { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_Force_Spring_InstallMethod"></a> InstallMethod
+### InstallMethod
 
 Gets or sets the install method.
 
@@ -305,7 +305,7 @@ public ExpressionValueVariable InstallMethod { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Car_Force_Spring_InstallMethodType"></a> InstallMethodType
+### InstallMethodType
 
 Gets or sets the type of the install method.
 
@@ -317,7 +317,7 @@ public Spring.MethodType InstallMethodType { get; set; }
 
  [Spring](VM.Managed.DAFUL.Car.Force.Spring.md).[MethodType](VM.Managed.DAFUL.Car.Force.Spring.MethodType.md)
 
-### <a id="VM_Managed_DAFUL_Car_Force_Spring_ReportTypeImpl"></a> ReportTypeImpl
+### ReportTypeImpl
 
 Gets the report type.
 
@@ -329,7 +329,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
  IReportable.ReportEntityType
 
-### <a id="VM_Managed_DAFUL_Car_Force_Spring_SpringCoilCount"></a> SpringCoilCount
+### SpringCoilCount
 
 Gets or sets the spring coil count.
 
@@ -341,7 +341,7 @@ public int SpringCoilCount { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_Car_Force_Spring_SpringDiameter"></a> SpringDiameter
+### SpringDiameter
 
 Gets or sets the spring diameter.
 
@@ -355,7 +355,7 @@ public double SpringDiameter { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Force_Spring_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -369,7 +369,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_Car_Force_Spring_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -383,7 +383,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Car_Force_Spring_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -397,7 +397,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Car_Force_Spring_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -410,4 +410,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

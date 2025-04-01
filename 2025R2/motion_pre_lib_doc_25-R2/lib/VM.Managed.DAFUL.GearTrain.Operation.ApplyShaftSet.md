@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyShaftSet"></a> Class ApplyShaftSet
+# Class ApplyShaftSet
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -95,7 +95,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyShaftSet__ctor_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_Managed_DAFUL_Dialog_GearTrain_BodyToDTData___System_Boolean_"></a> ApplyShaftSet\(GearTrainDocument, BodyToDTData\[\], bool\)
+### ApplyShaftSet\(GearTrainDocument, BodyToDTData\[\], bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ApplyShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -117,7 +117,7 @@ The data.
 
 The refresh flag.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyShaftSet__ctor_VM_Managed_Operation_JournalParameter_"></a> ApplyShaftSet\(JournalParameter\)
+### ApplyShaftSet\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ApplyShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -133,7 +133,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyShaftSet_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -147,11 +147,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyShaftSet_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute
 
 ```csharp
 public override void Execute()
 ```
+
 

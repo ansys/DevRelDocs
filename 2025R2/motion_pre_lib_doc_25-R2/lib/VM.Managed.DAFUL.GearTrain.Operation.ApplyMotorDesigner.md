@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyMotorDesigner"></a> Class ApplyMotorDesigner
+# Class ApplyMotorDesigner
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyMotorDesigner__ctor_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_Managed_DAFUL_GearTrain_MotorDesigner_System_Boolean_System_Boolean_System_Boolean_VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MethodBase_"></a> ApplyMotorDesigner\(GearTrainDocument, MotorDesigner, bool, bool, bool, MethodBase\)
+### ApplyMotorDesigner\(GearTrainDocument, MotorDesigner, bool, bool, bool, MethodBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ The old em force method.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyMotorDesigner_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -127,11 +127,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyMotorDesigner_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

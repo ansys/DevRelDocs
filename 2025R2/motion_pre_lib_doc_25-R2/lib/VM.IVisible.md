@@ -1,4 +1,4 @@
-# <a id="VM_IVisible"></a> Interface IVisible
+# Interface IVisible
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IVisible
 
 ## Properties
 
-### <a id="VM_IVisible_IsVisible"></a> IsVisible
+### IsVisible
 
 ```csharp
 bool IsVisible { get; set; }
@@ -24,4 +24,5 @@ bool IsVisible { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

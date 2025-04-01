@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Force_PLoad"></a> Class PLoad
+# Class PLoad
 
 Namespace: [VM.Managed.DAFUL.FE.Force](VM.Managed.DAFUL.FE.Force.md)  
 Assembly: VMFE.dll  
@@ -213,7 +213,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoad__ctor_System_String_"></a> PLoad\(string\)
+### PLoad\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Force.PLoad" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ public PLoad(string strName)
 
 Name of the pressure load.
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoad__ctor"></a> PLoad\(\)
+### PLoad\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Force.PLoad" data-throw-if-not-resolved="false"></xref> class.
 
@@ -237,7 +237,7 @@ public PLoad()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoad_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -249,7 +249,7 @@ public virtual ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoad_IsHide"></a> IsHide
+### IsHide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -261,7 +261,7 @@ bool IsHide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoad_PLoadComponent"></a> PLoadComponent
+### PLoadComponent
 
 Gets or sets the pressure load component.
 
@@ -273,7 +273,7 @@ public IPLoadComponent PLoadComponent { get; set; }
 
  IPLoadComponent
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoad_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -285,7 +285,7 @@ public virtual string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoad__PLoadComponent"></a> \_PLoadComponent
+### \_PLoadComponent
 
 Gets or sets the pressure load component.
 
@@ -299,7 +299,7 @@ public LinkerFE<IPLoadComponent> _PLoadComponent { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoad_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -313,7 +313,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoad_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -341,7 +341,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoad_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -359,7 +359,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoad_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
@@ -367,7 +367,7 @@ Redraw.
 public virtual void ReDraw()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoad_ReDrawForHistory"></a> ReDrawForHistory\(\)
+### ReDrawForHistory\(\)
 
 Redraw for undo/redo
 
@@ -375,7 +375,7 @@ Redraw for undo/redo
 void ReDrawForHistory()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoad_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -389,7 +389,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_FE_Force_PLoad_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -402,4 +402,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

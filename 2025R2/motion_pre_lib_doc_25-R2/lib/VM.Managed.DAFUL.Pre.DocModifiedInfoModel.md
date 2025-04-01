@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoModel"></a> Class DocModifiedInfoModel
+# Class DocModifiedInfoModel
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -33,7 +33,7 @@ public class DocModifiedInfoModel : DocModifiedInfoFileGroupDocument<Model>
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoModel__ctor_VM_Managed_DAFUL_Pre_Model_"></a> DocModifiedInfoModel\(Model\)
+### DocModifiedInfoModel\(Model\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.DocModifiedInfoModel" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,4 +46,5 @@ public DocModifiedInfoModel(Model model)
 `model` [Model](VM.Managed.DAFUL.Pre.Model.md)
 
 The model.
+
 

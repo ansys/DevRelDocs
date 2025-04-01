@@ -1,4 +1,4 @@
-# <a id="VM_NX_Dialog_Factory_DlgFactoryBase"></a> Class DlgFactoryBase
+# Class DlgFactoryBase
 
 Namespace: [VM.NX.Dialog.Factory](VM.NX.Dialog.Factory.md)  
 Assembly: VMDM.dll  
@@ -24,7 +24,7 @@ public abstract class DlgFactoryBase
 
 ## Constructors
 
-### <a id="VM_NX_Dialog_Factory_DlgFactoryBase__ctor_System_String_System_String_"></a> DlgFactoryBase\(string, string\)
+### DlgFactoryBase\(string, string\)
 
 ```csharp
 protected DlgFactoryBase(string strDlgFileDirectory, string strDlgDirectory)
@@ -38,7 +38,7 @@ protected DlgFactoryBase(string strDlgFileDirectory, string strDlgDirectory)
 
 ## Fields
 
-### <a id="VM_NX_Dialog_Factory_DlgFactoryBase_g_dicPropertyMap"></a> g\_dicPropertyMap
+### g\_dicPropertyMap
 
 ```csharp
 protected static Dictionary<string, string> g_dicPropertyMap
@@ -50,7 +50,7 @@ protected static Dictionary<string, string> g_dicPropertyMap
 
 ## Methods
 
-### <a id="VM_NX_Dialog_Factory_DlgFactoryBase_GetAssemblyNameFromCommand_System_String_"></a> GetAssemblyNameFromCommand\(string\)
+### GetAssemblyNameFromCommand\(string\)
 
 ```csharp
 protected DlgFactoryBase.AssemblyInfo GetAssemblyNameFromCommand(string strCommand)
@@ -64,7 +64,7 @@ protected DlgFactoryBase.AssemblyInfo GetAssemblyNameFromCommand(string strComma
 
  [DlgFactoryBase](VM.NX.Dialog.Factory.DlgFactoryBase.md).[AssemblyInfo](VM.NX.Dialog.Factory.DlgFactoryBase.AssemblyInfo.md)
 
-### <a id="VM_NX_Dialog_Factory_DlgFactoryBase_GetTypeInfo_System_String_VM_NX_Dialog_Factory_DlgFactoryBase_AssemblyInfo_"></a> GetTypeInfo\(string, AssemblyInfo\)
+### GetTypeInfo\(string, AssemblyInfo\)
 
 ```csharp
 protected Type GetTypeInfo(string strCommand, DlgFactoryBase.AssemblyInfo assem)
@@ -80,7 +80,7 @@ protected Type GetTypeInfo(string strCommand, DlgFactoryBase.AssemblyInfo assem)
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### <a id="VM_NX_Dialog_Factory_DlgFactoryBase_GetTypeInfo_System_String_"></a> GetTypeInfo\(string\)
+### GetTypeInfo\(string\)
 
 ```csharp
 protected Type GetTypeInfo(string strCommand)
@@ -94,7 +94,7 @@ protected Type GetTypeInfo(string strCommand)
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### <a id="VM_NX_Dialog_Factory_DlgFactoryBase_IsUseDialog_System_String_"></a> IsUseDialog\(string\)
+### IsUseDialog\(string\)
 
 ```csharp
 public bool IsUseDialog(string strTypeName)
@@ -107,4 +107,5 @@ public bool IsUseDialog(string strTypeName)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_HDBGeometryInfo"></a> Class HDBGeometryInfo
+# Class HDBGeometryInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -174,7 +174,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometryInfo__ctor"></a> HDBGeometryInfo\(\)
+### HDBGeometryInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HDBGeometryInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -182,7 +182,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HDBGeom
 public HDBGeometryInfo()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometryInfo__ctor_System_String_VM_Managed_DAFUL_GearTrain_HDBGeometryInfo_HDBearingType_"></a> HDBGeometryInfo\(string, HDBearingType\)
+### HDBGeometryInfo\(string, HDBearingType\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HDBGeometryInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -202,7 +202,7 @@ v
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometryInfo_GeometryDepth"></a> GeometryDepth
+### GeometryDepth
 
 Gets the geometry depth.
 
@@ -214,7 +214,7 @@ public override double GeometryDepth { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometryInfo_GeometryHeight"></a> GeometryHeight
+### GeometryHeight
 
 Gets the geometry height.
 
@@ -226,7 +226,7 @@ public double GeometryHeight { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometryInfo_GeometryStartDepth"></a> GeometryStartDepth
+### GeometryStartDepth
 
 Gets the geometry start depth.
 
@@ -238,7 +238,7 @@ public double GeometryStartDepth { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometryInfo_Segments"></a> Segments
+### Segments
 
 Gets or sets the segment info.
 
@@ -250,7 +250,7 @@ public List<HDBGeometrySegment> Segments { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[HDBGeometrySegment](VM.Managed.DAFUL.GearTrain.HDBGeometrySegment.md)\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometryInfo_Type"></a> Type
+### Type
 
 Gets or sets the type.
 Use SetType() when this instance sets for undo/redo
@@ -263,7 +263,7 @@ public HDBGeometryInfo.HDBearingType Type { get; set; }
 
  [HDBGeometryInfo](VM.Managed.DAFUL.GearTrain.HDBGeometryInfo.md).[HDBearingType](VM.Managed.DAFUL.GearTrain.HDBGeometryInfo.HDBearingType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_HDBGeometryInfo_TypeOfGeometry"></a> TypeOfGeometry
+### TypeOfGeometry
 
 Gets the type of geometry.
 
@@ -274,4 +274,5 @@ public override GeometryInfoBase.GeometryType TypeOfGeometry { get; }
 #### Property Value
 
  [GeometryInfoBase](VM.Managed.DAFUL.GearTrain.GeometryInfoBase.md).[GeometryType](VM.Managed.DAFUL.GearTrain.GeometryInfoBase.GeometryType.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_RollVerticalForceConfiguration"></a> Class RollVerticalForceConfiguration
+# Class RollVerticalForceConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -191,7 +191,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_RollVerticalForceConfiguration__ctor"></a> RollVerticalForceConfiguration\(\)
+### RollVerticalForceConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RollVerticalForceConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -199,7 +199,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RollVerticalF
 public RollVerticalForceConfiguration()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_RollVerticalForceConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisRollVertical_"></a> RollVerticalForceConfiguration\(AnalysisRollVertical\)
+### RollVerticalForceConfiguration\(AnalysisRollVertical\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RollVerticalForceConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -215,7 +215,7 @@ The analysis.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_RollVerticalForceConfiguration_Analysis"></a> Analysis
+### Analysis
 
 Gets or sets the type of the analysis.
 
@@ -227,7 +227,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_RollVerticalForceConfiguration_AnalysisName"></a> AnalysisName
+### AnalysisName
 
 Gets the name of the analysis.
 
@@ -239,7 +239,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_RollVerticalForceConfiguration_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -251,7 +251,7 @@ public override SuspensionAnalysisType AnalysisType { get; }
 
  [SuspensionAnalysisType](VM.Managed.DAFUL.Car.SuspensionAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_Car_RollVerticalForceConfiguration_RollVerticalParam"></a> RollVerticalParam
+### RollVerticalParam
 
 Gets or sets the roll vertical parameter.
 
@@ -262,4 +262,5 @@ public AnalysisRollVertical RollVerticalParam { get; set; }
 #### Property Value
 
  [AnalysisRollVertical](VM.Managed.DAFUL.Car.AnalysisRollVertical.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PartAssembly"></a> Class PartAssembly
+# Class PartAssembly
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -160,7 +160,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_PartAssembly__ctor_VM_Managed_Document3D_"></a> PartAssembly\(Document3D\)
+### PartAssembly\(Document3D\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.PartAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -174,7 +174,7 @@ public PartAssembly(Document3D doc)
 
 The document.
 
-### <a id="VM_Managed_DAFUL_PartAssembly__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> PartAssembly\(SerializationInfo, StreamingContext\)
+### PartAssembly\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.PartAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -191,4 +191,5 @@ The info.
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
 The context.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FEFilm_Multi_Lateral"></a> Class FEFilm\_Multi\_Lateral
+# Class FEFilm\_Multi\_Lateral
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFEFilm.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FEFilm_Multi_Lateral__ctor"></a> FEFilm\_Multi\_Lateral\(\)
+### FEFilm\_Multi\_Lateral\(\)
 
 ```csharp
 public FEFilm_Multi_Lateral()
@@ -107,9 +107,9 @@ public FEFilm_Multi_Lateral()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FEFilm_Multi_Lateral_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
-Initializes member through unit convert factor.
+<p>Initializes member through unit convert factor.</p>
 
 ```csharp
 public override void Initialize(Unit.ConvertFactor factor)
@@ -119,5 +119,6 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 `factor` Unit.ConvertFactor
 
-The unit convert factor.
+<p>The unit convert factor.</p>
+
 

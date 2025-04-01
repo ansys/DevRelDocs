@@ -1,9 +1,9 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyGeneralContact_ContactType"></a> Enum PropertyGeneralContact.ContactType
+# Enum PropertyGeneralContact.ContactType
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
 
-Specifies type for a contact.
+<p>Specifies type for a contact.</p>
 
 ```csharp
 public enum PropertyGeneralContact.ContactType
@@ -13,13 +13,14 @@ public enum PropertyGeneralContact.ContactType
 
 `General = 0` 
 
-General Contact Type.
+<p>General Contact Type.</p>
 
 
 
 `Geometric = 1` 
 
-Geometry Specific Contact Type.
+<p>Geometry Specific Contact Type.</p>
+
 
 
 

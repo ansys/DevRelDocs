@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Linear_Actuator_2"></a> Class Actuator<T, TProp\>
+# Class Actuator<T, TProp\>
 
 Namespace: [VM.Managed.DAFUL.Builder.Linear](VM.Managed.DAFUL.Builder.Linear.md)  
 Assembly: VMBldLinear.dll  
@@ -59,9 +59,10 @@ BuilderBase<T\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Linear_Actuator_2__ctor"></a> Actuator\(\)
+### Actuator\(\)
 
 ```csharp
 protected Actuator()
 ```
+
 

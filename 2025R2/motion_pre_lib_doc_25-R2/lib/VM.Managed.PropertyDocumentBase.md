@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PropertyDocumentBase"></a> Class PropertyDocumentBase
+# Class PropertyDocumentBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -261,7 +261,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_PropertyDocumentBase__ctor"></a> PropertyDocumentBase\(\)
+### PropertyDocumentBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.PropertyDocumentBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -271,7 +271,7 @@ protected PropertyDocumentBase()
 
 ## Properties
 
-### <a id="VM_Managed_PropertyDocumentBase_CanClose"></a> CanClose
+### CanClose
 
 Gets a value indicating whether this instance can close.
 
@@ -283,7 +283,7 @@ public override sealed bool CanClose { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_PropertyDocumentBase_DocumentSessionOverride"></a> DocumentSessionOverride
+### DocumentSessionOverride
 
 Gets the document session override.
 
@@ -295,7 +295,7 @@ public override SessionOverride DocumentSessionOverride { get; }
 
  SessionOverride
 
-### <a id="VM_Managed_PropertyDocumentBase_IsPropertySupport"></a> IsPropertySupport
+### IsPropertySupport
 
 Gets a value indicating whether this instance is property support.
 
@@ -307,7 +307,7 @@ public bool IsPropertySupport { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_PropertyDocumentBase_Modified"></a> Modified
+### Modified
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.PropertyDocumentBase" data-throw-if-not-resolved="false"></xref> is modified.
 
@@ -319,7 +319,7 @@ public override sealed bool Modified { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_PropertyDocumentBase_OwnedCollection"></a> OwnedCollection
+### OwnedCollection
 
 Gets or sets the object list in propery document.
 
@@ -331,7 +331,7 @@ public IList<ObjectBase> OwnedCollection { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<ObjectBase\>
 
-### <a id="VM_Managed_PropertyDocumentBase_OwnedList"></a> OwnedList
+### OwnedList
 
 Gets or sets the object list in propery document.
 
@@ -344,7 +344,7 @@ public List<Link<ObjectBase, LinkContainer.None, LinkContainer.None, LinkContain
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Link<ObjectBase, LinkContainer.None, LinkContainer.None, LinkContainer.None\>\>
 
-### <a id="VM_Managed_PropertyDocumentBase_PropertyType"></a> PropertyType
+### PropertyType
 
 Gets the type of the property.
 
@@ -356,7 +356,7 @@ protected abstract Type PropertyType { get; }
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### <a id="VM_Managed_PropertyDocumentBase_Reload"></a> Reload
+### Reload
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.PropertyDocumentBase" data-throw-if-not-resolved="false"></xref> is reload.
 
@@ -368,7 +368,7 @@ public bool Reload { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_PropertyDocumentBase_SetDocumentSessionOverride"></a> SetDocumentSessionOverride
+### SetDocumentSessionOverride
 
 Sets the set document session override.
 
@@ -380,7 +380,7 @@ public SessionOverride SetDocumentSessionOverride { set; }
 
  SessionOverride
 
-### <a id="VM_Managed_PropertyDocumentBase_UntypedProperty"></a> UntypedProperty
+### UntypedProperty
 
 Gets or sets the untyped property.
 
@@ -392,7 +392,7 @@ protected abstract Property UntypedProperty { get; set; }
 
  [Property](VM.Managed.Property.md)
 
-### <a id="VM_Managed_PropertyDocumentBase_UntypedPropertyOwner"></a> UntypedPropertyOwner
+### UntypedPropertyOwner
 
 Gets the untyped property owner.
 
@@ -406,7 +406,7 @@ protected abstract ObjectBase UntypedPropertyOwner { get; }
 
 ## Methods
 
-### <a id="VM_Managed_PropertyDocumentBase_Add_VM_Managed_ObjectBase_"></a> Add\(ObjectBase\)
+### Add\(ObjectBase\)
 
 Adds the specified object.
 
@@ -420,7 +420,7 @@ public override sealed void Add(ObjectBase obj)
 
 The object.
 
-### <a id="VM_Managed_PropertyDocumentBase_AddImpl_VM_Managed_ObjectBase_"></a> AddImpl\(ObjectBase\)
+### AddImpl\(ObjectBase\)
 
 Adds the specified object [implementation].
 
@@ -434,7 +434,7 @@ protected virtual void AddImpl(ObjectBase obj)
 
 The object.
 
-### <a id="VM_Managed_PropertyDocumentBase_AddReferenceDocument_VM_Managed_Document_"></a> AddReferenceDocument\(Document\)
+### AddReferenceDocument\(Document\)
 
 Adds the [reference document] to a container.
 
@@ -448,7 +448,7 @@ public void AddReferenceDocument(Document docReference)
 
 The [reference document].
 
-### <a id="VM_Managed_PropertyDocumentBase_CreateView_System_UIntPtr_"></a> CreateView\(UIntPtr\)
+### CreateView\(UIntPtr\)
 
 Creates the view.
 
@@ -468,7 +468,7 @@ The handle.
 
 The view.
 
-### <a id="VM_Managed_PropertyDocumentBase_DeserializeObj__1_System_Xml_XmlReader_System_String_System_Type_"></a> DeserializeObj<T\>\(XmlReader, string, Type\)
+### DeserializeObj<T\>\(XmlReader, string, Type\)
 
 Deserializes the object.
 
@@ -502,7 +502,7 @@ The deserialized object.
 
 The deserialized object.
 
-### <a id="VM_Managed_PropertyDocumentBase_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -522,7 +522,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_PropertyDocumentBase_GetData_System_Xml_XmlNode_"></a> GetData\(XmlNode\)
+### GetData\(XmlNode\)
 
 Gets the data [Not Implemented].
 
@@ -536,7 +536,7 @@ public override void GetData(XmlNode writer)
 
 The writer.
 
-### <a id="VM_Managed_PropertyDocumentBase_IsTypeSupported_System_Type_"></a> IsTypeSupported\(Type\)
+### IsTypeSupported\(Type\)
 
 Determines whether is [type supported] [the specified type].
 
@@ -550,7 +550,7 @@ public override void IsTypeSupported(Type type)
 
 The type.
 
-### <a id="VM_Managed_PropertyDocumentBase_Load_System_String_"></a> Load\(string\)
+### Load\(string\)
 
 Loads the from specified path.
 
@@ -564,7 +564,7 @@ public void Load(string strPath)
 
 The STR path.
 
-### <a id="VM_Managed_PropertyDocumentBase_Load_System_IO_TextReader_"></a> Load\(TextReader\)
+### Load\(TextReader\)
 
 Loads the from specified reader.
 
@@ -578,7 +578,7 @@ public abstract void Load(TextReader reader)
 
 The reader.
 
-### <a id="VM_Managed_PropertyDocumentBase_Load_System_IO_Stream_"></a> Load\(Stream\)
+### Load\(Stream\)
 
 Loads the from specified stream.
 
@@ -592,7 +592,7 @@ public void Load(Stream stream)
 
 The stream.
 
-### <a id="VM_Managed_PropertyDocumentBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -606,7 +606,7 @@ protected override void OnDeserialization(object obSender)
 
 The sender.
 
-### <a id="VM_Managed_PropertyDocumentBase_OnPostAdd_VM_Managed_ObjectBase_"></a> OnPostAdd\(ObjectBase\)
+### OnPostAdd\(ObjectBase\)
 
 Called when [post add].
 
@@ -620,7 +620,7 @@ protected virtual void OnPostAdd(ObjectBase ob)
 
 The object.
 
-### <a id="VM_Managed_PropertyDocumentBase_OnPostMakeDocument_VM_Managed_DocCreateInfo_"></a> OnPostMakeDocument\(DocCreateInfo\)
+### OnPostMakeDocument\(DocCreateInfo\)
 
 Called when [post make document].
 
@@ -634,7 +634,7 @@ protected override void OnPostMakeDocument(DocCreateInfo info)
 
 The [create document] information.
 
-### <a id="VM_Managed_PropertyDocumentBase_RemoveReferenceDocument_VM_Managed_Document_"></a> RemoveReferenceDocument\(Document\)
+### RemoveReferenceDocument\(Document\)
 
 Removes the [reference document] to a container.
 
@@ -648,7 +648,7 @@ public void RemoveReferenceDocument(Document docReference)
 
 The [reference document].
 
-### <a id="VM_Managed_PropertyDocumentBase_Save_System_String_"></a> Save\(string\)
+### Save\(string\)
 
 Saves the from specified path.
 
@@ -662,7 +662,7 @@ public override sealed void Save(string strPath)
 
 The path.
 
-### <a id="VM_Managed_PropertyDocumentBase_Save_System_IO_TextWriter_"></a> Save\(TextWriter\)
+### Save\(TextWriter\)
 
 Saves the from specified writer.
 
@@ -676,7 +676,7 @@ public abstract void Save(TextWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_PropertyDocumentBase_Save_System_IO_Stream_"></a> Save\(Stream\)
+### Save\(Stream\)
 
 Saves the from specified stream.
 
@@ -690,7 +690,7 @@ public void Save(Stream stream)
 
 The stream.
 
-### <a id="VM_Managed_PropertyDocumentBase_SerializeObj__1_System_Xml_XmlWriter___0_System_String_"></a> SerializeObj<T\>\(XmlWriter, T, string\)
+### SerializeObj<T\>\(XmlWriter, T, string\)
 
 Serializes the object.
 
@@ -716,7 +716,7 @@ Name of the element.
 
 `T` 
 
-### <a id="VM_Managed_PropertyDocumentBase_SetData_System_Xml_XmlNode_"></a> SetData\(XmlNode\)
+### SetData\(XmlNode\)
 
 Sets the data [Not Implemented].
 
@@ -730,7 +730,7 @@ public override void SetData(XmlNode reader)
 
 The reader.
 
-### <a id="VM_Managed_PropertyDocumentBase_SetUnit_VM_Unit_"></a> SetUnit\(Unit\)
+### SetUnit\(Unit\)
 
 Sets the unit.
 
@@ -744,7 +744,7 @@ protected override sealed void SetUnit(Unit unit)
 
 The unit.
 
-### <a id="VM_Managed_PropertyDocumentBase_TriggerPostMakeDocument_VM_Managed_PropertyDocCreateInfo_"></a> TriggerPostMakeDocument\(PropertyDocCreateInfo\)
+### TriggerPostMakeDocument\(PropertyDocCreateInfo\)
 
 Triggers the [post make document].
 
@@ -757,4 +757,5 @@ public void TriggerPostMakeDocument(PropertyDocCreateInfo info)
 `info` [PropertyDocCreateInfo](VM.Managed.PropertyDocCreateInfo.md)
 
 The [create property document] information.
+
 

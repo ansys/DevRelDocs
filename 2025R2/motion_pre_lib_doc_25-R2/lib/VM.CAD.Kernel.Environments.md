@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Environments"></a> Class Environments
+# Class Environments
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -22,7 +22,7 @@ public class Environments
 
 ## Constructors
 
-### <a id="VM_CAD_Kernel_Environments__ctor"></a> Environments\(\)
+### Environments\(\)
 
 ```csharp
 public Environments()
@@ -30,7 +30,7 @@ public Environments()
 
 ## Properties
 
-### <a id="VM_CAD_Kernel_Environments_Environment"></a> Environment
+### Environment
 
 ```csharp
 public Environment Environment { get; set; }
@@ -39,4 +39,5 @@ public Environment Environment { get; set; }
 #### Property Value
 
  [Environment](VM.CAD.Kernel.Environment.md)
+
 

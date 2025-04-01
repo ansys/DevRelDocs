@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue"></a> Class WebPropertyValue
+# Class WebPropertyValue
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue__ctor"></a> WebPropertyValue\(\)
+### WebPropertyValue\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.WebPropertyValue" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public WebPropertyValue()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_AutoCalculationForMassInformation"></a> AutoCalculationForMassInformation
+### AutoCalculationForMassInformation
 
 Gets or sets a value indicating whether mass information is auto calculated or not.
 
@@ -118,7 +118,7 @@ public bool AutoCalculationForMassInformation { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_CADDataPath"></a> CADDataPath
+### CADDataPath
 
 Gets or sets the CAD Data path.
 
@@ -130,7 +130,7 @@ public string CADDataPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_ConstantOfWeb"></a> ConstantOfWeb
+### ConstantOfWeb
 
 Gets or sets the constant of web.
 
@@ -142,7 +142,7 @@ public ConstantWeb ConstantOfWeb { get; set; }
 
  [ConstantWeb](VM.Managed.DAFUL.GearTrain.ConstantWeb.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_FEDataPath"></a> FEDataPath
+### FEDataPath
 
 Gets or sets the FE Data path.
 
@@ -154,7 +154,7 @@ public string FEDataPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_InDiameter"></a> InDiameter
+### InDiameter
 
 Gets or sets the in radius.
 
@@ -166,7 +166,7 @@ public ExpressionValueVariable InDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_InputTypeOfWeb"></a> InputTypeOfWeb
+### InputTypeOfWeb
 
 Gets or sets the type of web.
 
@@ -178,7 +178,7 @@ public WebPropertyValue.WebType InputTypeOfWeb { get; set; }
 
  [WebPropertyValue](VM.Managed.DAFUL.GearTrain.WebPropertyValue.md).[WebType](VM.Managed.DAFUL.GearTrain.WebPropertyValue.WebType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_InputTypeOfWebStiffnessMethod"></a> InputTypeOfWebStiffnessMethod
+### InputTypeOfWebStiffnessMethod
 
 Gets or sets the type of web stiffness method.
 
@@ -190,7 +190,7 @@ public WebPropertyValue.WebStiffnessMethodType InputTypeOfWebStiffnessMethod { g
 
  [WebPropertyValue](VM.Managed.DAFUL.GearTrain.WebPropertyValue.md).[WebStiffnessMethodType](VM.Managed.DAFUL.GearTrain.WebPropertyValue.WebStiffnessMethodType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_Mass"></a> Mass
+### Mass
 
 Gets or sets the mass.
 
@@ -202,7 +202,7 @@ public ExpressionValueVariable Mass { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_MomentOfInertia"></a> MomentOfInertia
+### MomentOfInertia
 
 Gets or sets the moment of inertia.
 
@@ -214,7 +214,7 @@ public Variable[] MomentOfInertia { get; set; }
 
  Variable\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_MomentOfInertiaValue"></a> MomentOfInertiaValue
+### MomentOfInertiaValue
 
 Gets the moment of inertia value.
 
@@ -226,7 +226,7 @@ public double[] MomentOfInertiaValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_OutDiameter"></a> OutDiameter
+### OutDiameter
 
 Gets or sets the out radius.
 
@@ -238,7 +238,7 @@ public ExpressionValueVariable OutDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_PointCountPerSection"></a> PointCountPerSection
+### PointCountPerSection
 
 Gets or sets the number of point for stiffness per one section.
 
@@ -250,7 +250,7 @@ public ExpressionValueVariable PointCountPerSection { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_RepeatingSectionCount"></a> RepeatingSectionCount
+### RepeatingSectionCount
 
 Gets or sets the number of repeating section.
 
@@ -262,7 +262,7 @@ public ExpressionValueVariable RepeatingSectionCount { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_StiffnessScaleFactor"></a> StiffnessScaleFactor
+### StiffnessScaleFactor
 
 Gets or sets the stiffness scale factor.
 
@@ -274,7 +274,7 @@ public ExpressionValueVariable StiffnessScaleFactor { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_Thickness"></a> Thickness
+### Thickness
 
 Gets or sets the thickness.
 
@@ -286,7 +286,7 @@ public ExpressionValueVariable Thickness { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_VariableOfWeb"></a> VariableOfWeb
+### VariableOfWeb
 
 Gets or sets the variable of web.
 
@@ -300,7 +300,7 @@ public VariableWeb VariableOfWeb { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_GetResultAfterCalculateWebStiffness_System_String___"></a> GetResultAfterCalculateWebStiffness\(string\[\]\)
+### GetResultAfterCalculateWebStiffness\(string\[\]\)
 
 Get result after beam stiffness calculate.
 
@@ -318,7 +318,7 @@ The calculated results
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_InitChild_VM_Unit_ConvertFactor_"></a> InitChild\(ConvertFactor\)
+### InitChild\(ConvertFactor\)
 
 Initializes the child.
 
@@ -332,7 +332,7 @@ public void InitChild(Unit.ConvertFactor factor)
 
 The factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_WebPropertyValue_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -345,4 +345,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

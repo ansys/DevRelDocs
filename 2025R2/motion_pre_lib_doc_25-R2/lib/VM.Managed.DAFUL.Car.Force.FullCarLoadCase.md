@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Force_FullCarLoadCase"></a> Class FullCarLoadCase
+# Class FullCarLoadCase
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -27,7 +27,7 @@ public class FullCarLoadCase : LoadCaseBase
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Force_FullCarLoadCase__ctor"></a> FullCarLoadCase\(\)
+### FullCarLoadCase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.FullCarLoadCase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -35,7 +35,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.FullCar
 public FullCarLoadCase()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Force_FullCarLoadCase__ctor_VM_Unit_"></a> FullCarLoadCase\(Unit\)
+### FullCarLoadCase\(Unit\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.FullCarLoadCase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -48,4 +48,5 @@ public FullCarLoadCase(Unit unit)
 `unit` Unit
 
 The unit.
+
 

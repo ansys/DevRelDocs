@@ -1,4 +1,4 @@
-# <a id="VM_Unit_ConvertFactor"></a> Class Unit.ConvertFactor
+# Class Unit.ConvertFactor
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -22,7 +22,7 @@ public sealed class Unit.ConvertFactor
 
 ## Constructors
 
-### <a id="VM_Unit_ConvertFactor__ctor_VM_Unit_VM_Unit_"></a> ConvertFactor\(Unit, Unit\)
+### ConvertFactor\(Unit, Unit\)
 
 Initializes a new instance of the <xref href="VM.Unit.ConvertFactor" data-throw-if-not-resolved="false"></xref> class
 
@@ -40,7 +40,7 @@ The unit from.
 
 The unit to.
 
-### <a id="VM_Unit_ConvertFactor__ctor_VM_Unit_VM_Unit_ConvertFactor_"></a> ConvertFactor\(Unit, ConvertFactor\)
+### ConvertFactor\(Unit, ConvertFactor\)
 
 Initializes a new instance of the <xref href="VM.Unit.ConvertFactor" data-throw-if-not-resolved="false"></xref> class
 
@@ -60,7 +60,7 @@ The factor.
 
 ## Properties
 
-### <a id="VM_Unit_ConvertFactor_Default"></a> Default
+### Default
 
 Gets the default convert factor
 
@@ -72,7 +72,7 @@ public static Unit.ConvertFactor Default { get; }
 
  [Unit](VM.Unit.md).[ConvertFactor](VM.Unit.ConvertFactor.md)
 
-### <a id="VM_Unit_ConvertFactor_FromUCF"></a> FromUCF
+### FromUCF
 
 Gets the from UCF.
 
@@ -84,7 +84,7 @@ public double FromUCF { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Unit_ConvertFactor_ToUCF"></a> ToUCF
+### ToUCF
 
 Gets the to UCF.
 
@@ -96,7 +96,7 @@ public double ToUCF { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Unit_ConvertFactor_Item_System_String_"></a> this\[string\]
+### this\[string\]
 
 Gets the convert factor by using indexer
 
@@ -110,7 +110,7 @@ public double this[string stringDimension] { get; }
 
 ## Methods
 
-### <a id="VM_Unit_ConvertFactor_CalculateShiftingUnit_System_String_System_Double_"></a> CalculateShiftingUnit\(string, double\)
+### CalculateShiftingUnit\(string, double\)
 
 Calculate Shifting Unit.
 
@@ -134,9 +134,10 @@ The value
 
 The converted value
 
-### <a id="VM_Unit_ConvertFactor_Dispose"></a> Dispose\(\)
+### Dispose\(\)
 
 ```csharp
 public void Dispose()
 ```
+
 

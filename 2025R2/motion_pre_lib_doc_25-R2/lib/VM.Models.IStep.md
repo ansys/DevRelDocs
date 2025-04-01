@@ -1,4 +1,4 @@
-# <a id="VM_Models_IStep"></a> Interface IStep
+# Interface IStep
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -24,7 +24,7 @@ IHasParent<IScenario\>
 
 ## Properties
 
-### <a id="VM_Models_IStep_DefaultCommand"></a> DefaultCommand
+### DefaultCommand
 
 ```csharp
 ICommand DefaultCommand { get; }
@@ -34,7 +34,7 @@ ICommand DefaultCommand { get; }
 
  [ICommand](https://learn.microsoft.com/dotnet/api/system.windows.input.icommand)
 
-### <a id="VM_Models_IStep_FilePath"></a> FilePath
+### FilePath
 
 ```csharp
 string FilePath { get; }
@@ -44,7 +44,7 @@ string FilePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_IStep_Items"></a> Items
+### Items
 
 ```csharp
 IEnumerable<IStepItem> Items { get; }
@@ -54,7 +54,7 @@ IEnumerable<IStepItem> Items { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IStepItem](VM.Models.IStepItem.md)\>
 
-### <a id="VM_Models_IStep_ParentDocument"></a> ParentDocument
+### ParentDocument
 
 ```csharp
 IProjectDocument ParentDocument { get; }
@@ -64,7 +64,7 @@ IProjectDocument ParentDocument { get; }
 
  [IProjectDocument](VM.Models.IProjectDocument.md)
 
-### <a id="VM_Models_IStep_Source"></a> Source
+### Source
 
 ```csharp
 IStep Source { get; }
@@ -74,7 +74,7 @@ IStep Source { get; }
 
  [IStep](VM.Models.IStep.md)
 
-### <a id="VM_Models_IStep_State"></a> State
+### State
 
 ```csharp
 StepState State { get; }
@@ -84,7 +84,7 @@ StepState State { get; }
 
  [StepState](VM.Models.StepState.md)
 
-### <a id="VM_Models_IStep_TargetApplicationType"></a> TargetApplicationType
+### TargetApplicationType
 
 ```csharp
 ApplicationTypes TargetApplicationType { get; }
@@ -94,7 +94,7 @@ ApplicationTypes TargetApplicationType { get; }
 
  ApplicationTypes
 
-### <a id="VM_Models_IStep_Targets"></a> Targets
+### Targets
 
 ```csharp
 IEnumerable<IStep> Targets { get; }
@@ -104,7 +104,7 @@ IEnumerable<IStep> Targets { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IStep](VM.Models.IStep.md)\>
 
-### <a id="VM_Models_IStep_Type"></a> Type
+### Type
 
 ```csharp
 StepType Type { get; }
@@ -114,7 +114,7 @@ StepType Type { get; }
 
  [StepType](VM.Models.StepType.md)
 
-### <a id="VM_Models_IStep_Item_System_Int32_"></a> this\[int\]
+### this\[int\]
 
 ```csharp
 IStepItem this[int index] { get; }
@@ -126,7 +126,7 @@ IStepItem this[int index] { get; }
 
 ## Methods
 
-### <a id="VM_Models_IStep_Add_VM_Models_IStepItem_"></a> Add\(IStepItem\)
+### Add\(IStepItem\)
 
 ```csharp
 void Add(IStepItem item)
@@ -136,7 +136,7 @@ void Add(IStepItem item)
 
 `item` [IStepItem](VM.Models.IStepItem.md)
 
-### <a id="VM_Models_IStep_AddTarget_VM_Models_IStep_"></a> AddTarget\(IStep\)
+### AddTarget\(IStep\)
 
 ```csharp
 void AddTarget(IStep item)
@@ -146,7 +146,7 @@ void AddTarget(IStep item)
 
 `item` [IStep](VM.Models.IStep.md)
 
-### <a id="VM_Models_IStep_CanRelation_VM_Models_IStep_"></a> CanRelation\(IStep\)
+### CanRelation\(IStep\)
 
 ```csharp
 bool CanRelation(IStep source)
@@ -160,7 +160,7 @@ bool CanRelation(IStep source)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_IStep_ContainsTarget_VM_Models_IStep_"></a> ContainsTarget\(IStep\)
+### ContainsTarget\(IStep\)
 
 ```csharp
 bool ContainsTarget(IStep item)
@@ -174,7 +174,7 @@ bool ContainsTarget(IStep item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_IStep_RemoveTarget_VM_Models_IStep_"></a> RemoveTarget\(IStep\)
+### RemoveTarget\(IStep\)
 
 ```csharp
 void RemoveTarget(IStep item)
@@ -184,13 +184,13 @@ void RemoveTarget(IStep item)
 
 `item` [IStep](VM.Models.IStep.md)
 
-### <a id="VM_Models_IStep_ResetSource"></a> ResetSource\(\)
+### ResetSource\(\)
 
 ```csharp
 void ResetSource()
 ```
 
-### <a id="VM_Models_IStep_SetSource_VM_Models_IStep_"></a> SetSource\(IStep\)
+### SetSource\(IStep\)
 
 ```csharp
 void SetSource(IStep source)
@@ -199,4 +199,5 @@ void SetSource(IStep source)
 #### Parameters
 
 `source` [IStep](VM.Models.IStep.md)
+
 

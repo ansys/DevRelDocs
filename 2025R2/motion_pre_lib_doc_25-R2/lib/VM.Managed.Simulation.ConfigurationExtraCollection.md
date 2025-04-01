@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Simulation_ConfigurationExtraCollection"></a> Class ConfigurationExtraCollection
+# Class ConfigurationExtraCollection
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Simulation_ConfigurationExtraCollection__ctor"></a> ConfigurationExtraCollection\(\)
+### ConfigurationExtraCollection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Simulation.ConfigurationExtraCollection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public ConfigurationExtraCollection()
 
 ## Properties
 
-### <a id="VM_Managed_Simulation_ConfigurationExtraCollection_Count"></a> Count
+### Count
 
 Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -118,7 +118,7 @@ public virtual int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_Simulation_ConfigurationExtraCollection_Keys"></a> Keys
+### Keys
 
 Gets an <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> containing the keys of the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
 
@@ -130,7 +130,7 @@ public virtual ICollection<string> Keys { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_Simulation_ConfigurationExtraCollection_Values"></a> Values
+### Values
 
 Gets an <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> containing the values in the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
 
@@ -142,7 +142,7 @@ public virtual ICollection<SimulationConfigurationExtraBase> Values { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<SimulationConfigurationExtraBase\>
 
-### <a id="VM_Managed_Simulation_ConfigurationExtraCollection_Item_System_String_"></a> this\[string\]
+### this\[string\]
 
 Gets or sets the <xref href="VM.Managed.SimulationConfigurationExtraBase" data-throw-if-not-resolved="false"></xref> with the specified key.
 
@@ -156,7 +156,7 @@ public virtual SimulationConfigurationExtraBase this[string strKey] { get; set; 
 
 ## Methods
 
-### <a id="VM_Managed_Simulation_ConfigurationExtraCollection_Add_System_String_VM_Managed_SimulationConfigurationExtraBase_"></a> Add\(string, SimulationConfigurationExtraBase\)
+### Add\(string, SimulationConfigurationExtraBase\)
 
 Adds an element with the provided key and value to the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
 
@@ -188,7 +188,7 @@ An element with the same key already exists in the <xref href="System.Collection
 
 The <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="VM_Managed_Simulation_ConfigurationExtraCollection_Clear"></a> Clear\(\)
+### Clear\(\)
 
 Removes all items from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -202,7 +202,7 @@ public virtual void Clear()
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="VM_Managed_Simulation_ConfigurationExtraCollection_ContainsKey_System_String_"></a> ContainsKey\(string\)
+### ContainsKey\(string\)
 
 Determines whether the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> contains an element with the specified key.
 
@@ -228,7 +228,7 @@ true if the <xref href="System.Collections.Generic.IDictionary%602" data-throw-i
 
 <code class="paramref">key</code> is null.
 
-### <a id="VM_Managed_Simulation_ConfigurationExtraCollection_GetEnumerator"></a> GetEnumerator\(\)
+### GetEnumerator\(\)
 
 Returns an enumerator that iterates through the collection.
 
@@ -242,7 +242,7 @@ public virtual IEnumerator<KeyValuePair<string, SimulationConfigurationExtraBase
 
 A <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> that can be used to iterate through the collection.
 
-### <a id="VM_Managed_Simulation_ConfigurationExtraCollection_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <xref href="System.Xml.Serialization.XmlSchemaProviderAttribute" data-throw-if-not-resolved="false"></xref> to the class.
 
@@ -256,7 +256,7 @@ public virtual XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### <a id="VM_Managed_Simulation_ConfigurationExtraCollection_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -270,7 +270,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
-### <a id="VM_Managed_Simulation_ConfigurationExtraCollection_Remove_System_String_"></a> Remove\(string\)
+### Remove\(string\)
 
 Removes the element with the specified key from the <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref>.
 
@@ -300,7 +300,7 @@ true if the element is successfully removed; otherwise, false.  This method also
 
 The <xref href="System.Collections.Generic.IDictionary%602" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### <a id="VM_Managed_Simulation_ConfigurationExtraCollection_TryGetValue_System_String_VM_Managed_SimulationConfigurationExtraBase__"></a> TryGetValue\(string, out SimulationConfigurationExtraBase\)
+### TryGetValue\(string, out SimulationConfigurationExtraBase\)
 
 Gets the value associated with the specified key.
 
@@ -330,7 +330,7 @@ true if the object that implements <xref href="System.Collections.Generic.IDicti
 
 <code class="paramref">key</code> is null.
 
-### <a id="VM_Managed_Simulation_ConfigurationExtraCollection_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -343,4 +343,5 @@ public virtual void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
+
 

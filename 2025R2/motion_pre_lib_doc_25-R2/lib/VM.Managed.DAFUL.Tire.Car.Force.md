@@ -1,8 +1,9 @@
-# <a id="VM_Managed_DAFUL_Tire_Car_Force"></a> Namespace VM.Managed.DAFUL.Tire.Car.Force
+# Namespace VM.Managed.DAFUL.Tire.Car.Force
 
 ### Classes
 
  [TireCar](VM.Managed.DAFUL.Tire.Car.Force.TireCar.md)
 
 This class is to represent the tire force for car.
+
 

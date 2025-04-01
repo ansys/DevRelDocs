@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInMeshFree"></a> Class RacewayBuilderForRBEInMeshFree
+# Class RacewayBuilderForRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -248,11 +248,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInMeshFree__ctor"></a> RacewayBuilderForRBEInMeshFree\(\)
+### RacewayBuilderForRBEInMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RacewayBuilderForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public RacewayBuilderForRBEInMeshFree()
 ```
+
 

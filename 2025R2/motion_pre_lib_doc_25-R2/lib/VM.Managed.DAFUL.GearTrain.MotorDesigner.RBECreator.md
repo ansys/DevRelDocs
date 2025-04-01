@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RBECreator"></a> Class MotorDesigner.RBECreator
+# Class MotorDesigner.RBECreator
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RBECreator__ctor"></a> RBECreator\(\)
+### RBECreator\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.RBECreator" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDe
 public RBECreator()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RBECreator__ctor_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_"></a> RBECreator\(IConnectable, IConnectable\)
+### RBECreator\(IConnectable, IConnectable\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.RBECreator" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ The faceset.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RBECreator_FaceSet"></a> FaceSet
+### FaceSet
 
 Gets or sets the faceset.
 
@@ -136,7 +136,7 @@ public IConnectable FaceSet { get; set; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RBECreator_RBE"></a> RBE
+### RBE
 
 Gets or sets the rbe.
 
@@ -148,7 +148,7 @@ public IConnectable RBE { get; set; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RBECreator__FaceSet"></a> \_FaceSet
+### \_FaceSet
 
 Gets or sets the faceset.
 
@@ -160,7 +160,7 @@ public Linker<IConnectable> _FaceSet { get; set; }
 
  Linker<IConnectable\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RBECreator__RBE"></a> \_RBE
+### \_RBE
 
 Gets or sets the rbe.
 
@@ -174,13 +174,13 @@ public Linker<IConnectable> _RBE { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RBECreator_Delete"></a> Delete\(\)
+### Delete\(\)
 
 ```csharp
 public void Delete()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RBECreator_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -194,7 +194,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RBECreator_IsExistAll"></a> IsExistAll\(\)
+### IsExistAll\(\)
 
 Gets the state whether this instance exist all.
 
@@ -205,4 +205,5 @@ public bool IsExistAll()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

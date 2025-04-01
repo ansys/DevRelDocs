@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_OutputChannelInfo"></a> Struct OutputChannelInfo
+# Struct OutputChannelInfo
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -11,7 +11,7 @@ public struct OutputChannelInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_OutputChannelInfo__ctor_System_Boolean_System_String_System_String_System_String_System_String_VM_Managed_DAFUL_Linear_InputType_VM_Coordinate_System_Boolean_"></a> OutputChannelInfo\(bool, string, string, string, string, InputType, Coordinate, bool\)
+### OutputChannelInfo\(bool, string, string, string, string, InputType, Coordinate, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.OutputChannelInfo" data-throw-if-not-resolved="false"></xref> struct.
 
@@ -55,7 +55,7 @@ if set to <code>true</code> [b is enable].
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Car_OutputChannelInfo_ActionMarkerName"></a> ActionMarkerName
+### ActionMarkerName
 
 ActionMarkerName
 
@@ -67,7 +67,7 @@ public string ActionMarkerName
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_OutputChannelInfo_Axis"></a> Axis
+### Axis
 
 Axis
 
@@ -79,7 +79,7 @@ public Coordinate Axis
 
  Coordinate
 
-### <a id="VM_Managed_DAFUL_Car_OutputChannelInfo_BaseMarkerName"></a> BaseMarkerName
+### BaseMarkerName
 
 BaseMarkerName
 
@@ -91,7 +91,7 @@ public string BaseMarkerName
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_OutputChannelInfo_Input"></a> Input
+### Input
 
 Input
 
@@ -103,7 +103,7 @@ public InputType Input
 
  InputType
 
-### <a id="VM_Managed_DAFUL_Car_OutputChannelInfo_IsEnable"></a> IsEnable
+### IsEnable
 
 IsEnable
 
@@ -115,7 +115,7 @@ public bool IsEnable
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Car_OutputChannelInfo_Name"></a> Name
+### Name
 
 Name
 
@@ -127,7 +127,7 @@ public string Name
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_OutputChannelInfo_ReferenceMarkerName"></a> ReferenceMarkerName
+### ReferenceMarkerName
 
 ReferenceMarkerName
 
@@ -139,7 +139,7 @@ public string ReferenceMarkerName
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_OutputChannelInfo_Use"></a> Use
+### Use
 
 Use
 
@@ -150,4 +150,5 @@ public bool Use
 #### Field Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

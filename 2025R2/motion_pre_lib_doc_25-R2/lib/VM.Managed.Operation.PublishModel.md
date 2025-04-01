@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Operation_PublishModel"></a> Class PublishModel
+# Class PublishModel
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -83,13 +83,13 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_Operation_PublishModel__ctor"></a> PublishModel\(\)
+### PublishModel\(\)
 
 ```csharp
 public PublishModel()
 ```
 
-### <a id="VM_Managed_Operation_PublishModel__ctor_VM_Managed_Document_"></a> PublishModel\(Document\)
+### PublishModel\(Document\)
 
 ```csharp
 public PublishModel(Document doc)
@@ -101,7 +101,7 @@ public PublishModel(Document doc)
 
 ## Properties
 
-### <a id="VM_Managed_Operation_PublishModel_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -115,7 +115,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_Operation_PublishModel_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -123,7 +123,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_Operation_PublishModel_Execute_System_String_System_String_System_String_System_String_"></a> Execute\(string, string, string, string\)
+### Execute\(string, string, string, string\)
 
 Execute Operation for API.
 
@@ -149,7 +149,7 @@ The work name.
 
 The model name.
 
-### <a id="VM_Managed_Operation_PublishModel_Execute_System_String_System_String_"></a> Execute\(string, string\)
+### Execute\(string, string\)
 
 ```csharp
 public void Execute(string strDocPath, string strExportPath)
@@ -161,7 +161,7 @@ public void Execute(string strDocPath, string strExportPath)
 
 `strExportPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_Operation_PublishModel_OnApply_System_Object_System_ComponentModel_CancelEventArgs_"></a> OnApply\(object, CancelEventArgs\)
+### OnApply\(object, CancelEventArgs\)
 
 Called when [apply].
 
@@ -179,7 +179,7 @@ The sender.
 
 The <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_Operation_PublishModel_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -196,4 +196,5 @@ The updater.
 `doc` Document
 
 The doc.
+
 

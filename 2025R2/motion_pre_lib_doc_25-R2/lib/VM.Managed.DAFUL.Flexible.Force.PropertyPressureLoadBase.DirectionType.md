@@ -1,9 +1,10 @@
-# <a id="VM_Managed_DAFUL_Flexible_Force_PropertyPressureLoadBase_DirectionType"></a> Enum PropertyPressureLoadBase.DirectionType
+# Enum PropertyPressureLoadBase.DirectionType
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
 
-Specifies the pressure direction.
+<p>Specifies the pressure direction.</p>
+<p>압력 방향을 나열합니다.</p>
 
 ```csharp
 public enum PropertyPressureLoadBase.DirectionType
@@ -13,13 +14,16 @@ public enum PropertyPressureLoadBase.DirectionType
 
 `DOWN = 1` 
 
-pressure direction is down.
+<p>pressure direction is down.</p>
+<p>압력이 아랫방향입니다.</p>
 
 
 
 `UP = 0` 
 
-pressure direction is up.
+<p>pressure direction is up.</p>
+<p>압력이 윗방향입니다.</p>
+
 
 
 

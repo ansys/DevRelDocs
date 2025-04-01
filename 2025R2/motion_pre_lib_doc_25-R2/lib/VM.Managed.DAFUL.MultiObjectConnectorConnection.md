@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MultiObjectConnectorConnection"></a> Class MultiObjectConnectorConnection
+# Class MultiObjectConnectorConnection
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MultiObjectConnectorConnection__ctor"></a> MultiObjectConnectorConnection\(\)
+### MultiObjectConnectorConnection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectConnectorConnection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectConnec
 public MultiObjectConnectorConnection()
 ```
 
-### <a id="VM_Managed_DAFUL_MultiObjectConnectorConnection__ctor_VM_Managed_ObjectBase_"></a> MultiObjectConnectorConnection\(ObjectBase\)
+### MultiObjectConnectorConnection\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectConnection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ The connection object.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MultiObjectConnectorConnection_ActionMarkerTransform"></a> ActionMarkerTransform
+### ActionMarkerTransform
 
 Gets or sets the action marker transformation.
 
@@ -136,7 +136,7 @@ public ConnectorMarkerTransformBase ActionMarkerTransform { get; set; }
 
  [ConnectorMarkerTransformBase](VM.Managed.DAFUL.ConnectorMarkerTransformBase.md)
 
-### <a id="VM_Managed_DAFUL_MultiObjectConnectorConnection_BaseMarkerTransform"></a> BaseMarkerTransform
+### BaseMarkerTransform
 
 Gets or sets the base marker transformation.
 
@@ -150,7 +150,7 @@ public ConnectorMarkerTransformBase BaseMarkerTransform { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MultiObjectConnectorConnection_GetConnection_System_Object_System_Object_"></a> GetConnection\(object, object\)
+### GetConnection\(object, object\)
 
 Gets the connection object with base-action connection information.
 
@@ -172,11 +172,12 @@ The action object for the connection object.
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_MultiObjectConnectorConnection_Reset"></a> Reset\(\)
+### Reset\(\)
 
 Initializes the connection object with base-action connection information..
 
 ```csharp
 public override void Reset()
 ```
+
 

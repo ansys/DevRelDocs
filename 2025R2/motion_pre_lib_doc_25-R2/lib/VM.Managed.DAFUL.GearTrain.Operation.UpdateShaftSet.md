@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateShaftSet"></a> Class UpdateShaftSet
+# Class UpdateShaftSet
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -84,7 +84,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateShaftSet__ctor"></a> UpdateShaftSet\(\)
+### UpdateShaftSet\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -92,7 +92,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operati
 public UpdateShaftSet()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateShaftSet__ctor_System_Boolean_"></a> UpdateShaftSet\(bool\)
+### UpdateShaftSet\(bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public UpdateShaftSet(bool bMerge)
 
 The merge flag.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateShaftSet__ctor_VM_Managed_Document3D_System_Boolean_"></a> UpdateShaftSet\(Document3D, bool\)
+### UpdateShaftSet\(Document3D, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ The document.
 
 The merge flag.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateShaftSet__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateShaftSet\(JournalParameter\)
+### UpdateShaftSet\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -140,7 +140,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateShaftSet_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the history merge flag.
 
@@ -154,7 +154,7 @@ public override bool IsHistoryMerge { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateShaftSet_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -162,7 +162,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateShaftSet_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -175,4 +175,5 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

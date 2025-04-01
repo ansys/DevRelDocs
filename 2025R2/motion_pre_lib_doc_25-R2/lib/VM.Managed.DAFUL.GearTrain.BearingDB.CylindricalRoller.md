@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller"></a> Class CylindricalRoller
+# Class CylindricalRoller
 
 Namespace: [VM.Managed.DAFUL.GearTrain.BearingDB](VM.Managed.DAFUL.GearTrain.BearingDB.md)  
 Assembly: VMDGearTrain.dll  
@@ -36,7 +36,7 @@ Record.RecordNo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller__ctor"></a> CylindricalRoller\(\)
+### CylindricalRoller\(\)
 
 ```csharp
 public CylindricalRoller()
@@ -44,7 +44,7 @@ public CylindricalRoller()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_C0r"></a> C0r
+### C0r
 
 Basic static radial load rating
 
@@ -57,7 +57,7 @@ public double? C0r
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_Cr"></a> Cr
+### Cr
 
 Basic dynamic radial load rating
 
@@ -70,7 +70,7 @@ public double? Cr
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_IRSDia"></a> IRSDia
+### IRSDia
 
 Inner raceway shoulder diameter
 
@@ -83,7 +83,7 @@ public double? IRSDia
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_LS"></a> LS
+### LS
 
 Limiting Speed
 
@@ -96,7 +96,7 @@ public double? LS
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_Mass"></a> Mass
+### Mass
 
 Mass
 
@@ -109,7 +109,7 @@ public double? Mass
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_ORSBore"></a> ORSBore
+### ORSBore
 
 Outer raceway shoulder bore
 
@@ -122,7 +122,7 @@ public double? ORSBore
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_Pu"></a> Pu
+### Pu
 
 Pu
 
@@ -135,7 +135,7 @@ public double? Pu
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_RS"></a> RS
+### RS
 
 Reference Speed
 
@@ -148,7 +148,7 @@ public double? RS
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_RolDia"></a> RolDia
+### RolDia
 
 Roller diameter
 
@@ -161,7 +161,7 @@ public double? RolDia
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_RolLen"></a> RolLen
+### RolLen
 
 Roller length
 
@@ -174,7 +174,7 @@ public double? RolLen
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_RolPDia"></a> RolPDia
+### RolPDia
 
 Roller pitch diameter
 
@@ -187,7 +187,7 @@ public double? RolPDia
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_RoundR"></a> RoundR
+### RoundR
 
 Rounding radius
 
@@ -200,7 +200,7 @@ public double? RoundR
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_nRoller"></a> nRoller
+### nRoller
 
 Number of roller
 
@@ -215,7 +215,7 @@ public int? nRoller
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_GetDefaultBearing_VM_Unit_ConvertFactor_"></a> GetDefaultBearing\(ConvertFactor\)
+### GetDefaultBearing\(ConvertFactor\)
 
 Get the default bearing.
 
@@ -235,7 +235,7 @@ The unit convert factor.
 
 The default bearing
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_UnitConvert_VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller__VM_Unit_ConvertFactor_"></a> UnitConvert\(ref CylindricalRoller, ConvertFactor\)
+### UnitConvert\(ref CylindricalRoller, ConvertFactor\)
 
 Convert bearing dimension unit.
 
@@ -253,7 +253,7 @@ The target bearing.
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller_UnitConvert_VM_Managed_DAFUL_GearTrain_BearingDB_CylindricalRoller__System_Double_System_Double_System_Double_"></a> UnitConvert\(ref CylindricalRoller, double, double, double\)
+### UnitConvert\(ref CylindricalRoller, double, double, double\)
 
 Convert bearing dimension unit.
 
@@ -278,4 +278,5 @@ The force factor.
 `dMassFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 The mass factor.
+
 

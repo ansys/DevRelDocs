@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorBase"></a> Class BuilderParamMotorBase
+# Class BuilderParamMotorBase
 
 Namespace: [VM.CAD.Builders.DriveTrain](VM.CAD.Builders.DriveTrain.md)  
 Assembly: VM.CAD.Builders.DriveTrain.dll  
@@ -38,7 +38,7 @@ BuilderParamBase.Transparency
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorBase__ctor"></a> BuilderParamMotorBase\(\)
+### BuilderParamMotorBase\(\)
 
 ```csharp
 protected BuilderParamMotorBase()
@@ -46,7 +46,7 @@ protected BuilderParamMotorBase()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorBase_Depth"></a> Depth
+### Depth
 
 ```csharp
 public double Depth { get; set; }
@@ -56,7 +56,7 @@ public double Depth { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorBase_RotateAxis"></a> RotateAxis
+### RotateAxis
 
 ```csharp
 public Vector RotateAxis { get; set; }
@@ -66,7 +66,7 @@ public Vector RotateAxis { get; set; }
 
  Vector
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorBase_StartPosition"></a> StartPosition
+### StartPosition
 
 ```csharp
 public Vector StartPosition { get; set; }
@@ -75,4 +75,5 @@ public Vector StartPosition { get; set; }
 #### Property Value
 
  Vector
+
 

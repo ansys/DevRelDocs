@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart"></a> Class MeshGeneratorPart
+# Class MeshGeneratorPart
 
 Namespace: [VM.Managed.DAFUL.Builder.Mesher](VM.Managed.DAFUL.Builder.Mesher.md)  
 Assembly: VMBldMesher.dll  
@@ -24,7 +24,7 @@ IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart__ctor"></a> MeshGeneratorPart\(\)
+### MeshGeneratorPart\(\)
 
 ```csharp
 public MeshGeneratorPart()
@@ -32,7 +32,7 @@ public MeshGeneratorPart()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart_AddToModelFlag"></a> AddToModelFlag
+### AddToModelFlag
 
 ```csharp
 public bool AddToModelFlag { get; set; }
@@ -42,7 +42,7 @@ public bool AddToModelFlag { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart_BuildObject"></a> BuildObject
+### BuildObject
 
 ```csharp
 public ObjectBase BuildObject { get; }
@@ -52,7 +52,7 @@ public ObjectBase BuildObject { get; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart_InputArray"></a> InputArray
+### InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -62,7 +62,7 @@ public string[] InputArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart_MeshFilePath"></a> MeshFilePath
+### MeshFilePath
 
 ```csharp
 public string MeshFilePath { get; set; }
@@ -74,7 +74,7 @@ public string MeshFilePath { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public void Build(Document docToAdd)
@@ -84,7 +84,7 @@ public void Build(Document docToAdd)
 
 `docToAdd` Document
 
-### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart_Build_VM_Managed_Document_System_Collections_Generic_List_System_String__"></a> Build\(Document, List<string\>\)
+### Build\(Document, List<string\>\)
 
 ```csharp
 public void Build(Document docToAdd, List<string> lstSetPointKeys)
@@ -96,7 +96,7 @@ public void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart_Success"></a> Success\(\)
+### Success\(\)
 
 ```csharp
 public bool Success()
@@ -106,7 +106,7 @@ public bool Success()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGeneratorPart_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
+### Validate\(IList<string\>\)
 
 ```csharp
 public bool Validate(IList<string> lstErrorMessage)
@@ -119,4 +119,5 @@ public bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PseudoPowerLoadOnRBE"></a> Class PseudoPowerLoadOnRBE
+# Class PseudoPowerLoadOnRBE
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -163,7 +163,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoPowerLoadOnRBE__ctor"></a> PseudoPowerLoadOnRBE\(\)
+### PseudoPowerLoadOnRBE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoPowerLoadOnRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -173,7 +173,7 @@ public PseudoPowerLoadOnRBE()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoPowerLoadOnRBE_Name"></a> Name
+### Name
 
 Gets or sets the name.
 
@@ -185,7 +185,7 @@ public override string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoPowerLoadOnRBE_PowerLoadOnRBEInformation"></a> PowerLoadOnRBEInformation
+### PowerLoadOnRBEInformation
 
 Gets or sets the power load on rbe information.
 
@@ -199,7 +199,7 @@ public PowerLoadOnRBE PowerLoadOnRBEInformation { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoPowerLoadOnRBE_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the specified canvas.
 
@@ -217,7 +217,7 @@ The canvas.
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PseudoPowerLoadOnRBE_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -234,4 +234,5 @@ The object notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

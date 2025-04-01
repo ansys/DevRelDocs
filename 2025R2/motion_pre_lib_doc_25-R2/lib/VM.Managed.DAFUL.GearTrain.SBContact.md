@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_SBContact"></a> Class SBContact
+# Class SBContact
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact__ctor"></a> SBContact\(\)
+### SBContact\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.SBContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public SBContact()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_BoundaryPenetration"></a> BoundaryPenetration
+### BoundaryPenetration
 
 Gets or sets the boundary penetration.
 Use SetBoundaryPenetration() when this instance sets for undo/redo
@@ -192,7 +192,7 @@ public double BoundaryPenetration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_DampCoef"></a> DampCoef
+### DampCoef
 
 Gets or sets the damping coefficient.
 Use SetDampCoef() when this instance sets for undo/redo
@@ -205,7 +205,7 @@ public double DampCoef { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_DampingSpline"></a> DampingSpline
+### DampingSpline
 
 Gets or sets the damping spline path.
 Use SetDampingSpline() when this instance sets for undo/redo
@@ -218,7 +218,7 @@ public string DampingSpline { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_DampingType"></a> DampingType
+### DampingType
 
 Gets or sets the type of the damping.
 Use SetDampingType() when this instance sets for undo/redo
@@ -231,7 +231,7 @@ public SBContact.InputType DampingType { get; set; }
 
  [SBContact](VM.Managed.DAFUL.GearTrain.SBContact.md).[InputType](VM.Managed.DAFUL.GearTrain.SBContact.InputType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_DynFriCoef"></a> DynFriCoef
+### DynFriCoef
 
 Gets or sets the dynamic friction coefficient
 Use SetDynFriCoef() when this instance sets for undo/redo
@@ -244,7 +244,7 @@ public double DynFriCoef { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_DynThreshold"></a> DynThreshold
+### DynThreshold
 
 Gets or sets the dynamic threshold.
 Use SetDynThreshold() when this instance sets for undo/redo
@@ -257,7 +257,7 @@ public double DynThreshold { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_FrictionSpline"></a> FrictionSpline
+### FrictionSpline
 
 Gets or sets the friction spline path.
 Use SetFrictionSpline() when this instance sets for undo/redo
@@ -270,7 +270,7 @@ public string FrictionSpline { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_FrictionType"></a> FrictionType
+### FrictionType
 
 Gets or sets the type of the friction.
 Use SetFrictionType() when this instance sets for undo/redo
@@ -283,7 +283,7 @@ public SBContact.InputType FrictionType { get; set; }
 
  [SBContact](VM.Managed.DAFUL.GearTrain.SBContact.md).[InputType](VM.Managed.DAFUL.GearTrain.SBContact.InputType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_NumOfAxial"></a> NumOfAxial
+### NumOfAxial
 
 Gets or sets the number of axial.
 Use NumOfAxial() when this instance sets for undo/redo
@@ -296,7 +296,7 @@ public double NumOfAxial { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_NumOfCircular"></a> NumOfCircular
+### NumOfCircular
 
 Gets or sets the number of circular.
 Use SetNumOfCircular() when this instance sets for undo/redo
@@ -309,7 +309,7 @@ public double NumOfCircular { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_StaFriCoef"></a> StaFriCoef
+### StaFriCoef
 
 Gets or sets the static friction coefficient.
 Use SetStaFriCoef() when this instance sets for undo/redo
@@ -322,7 +322,7 @@ public double StaFriCoef { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SticVel"></a> SticVel
+### SticVel
 
 Gets or sets the stiction velocity.
 Use SetSticVel() when this instance sets for undo/redo
@@ -335,7 +335,7 @@ public double SticVel { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_StiffCoef"></a> StiffCoef
+### StiffCoef
 
 Gets or sets the stiffness coefficient.
 Use SetStiffCoef() when this instance sets for undo/redo
@@ -348,7 +348,7 @@ public double StiffCoef { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_StiffOrder"></a> StiffOrder
+### StiffOrder
 
 Gets or sets the stiffness order.
 Use SetStiffOrder() when this instance sets for undo/redo
@@ -361,7 +361,7 @@ public double StiffOrder { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_StiffnessSpline"></a> StiffnessSpline
+### StiffnessSpline
 
 Gets or sets the stiffness spline path.
 Use SetStiffnessSpline() when this instance sets for undo/redo
@@ -374,7 +374,7 @@ public string StiffnessSpline { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_StiffnessType"></a> StiffnessType
+### StiffnessType
 
 Gets or sets the type of the stiffness.
 Use SetStiffnessType() when this instance sets for undo/redo
@@ -389,7 +389,7 @@ public SBContact.InputType StiffnessType { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetBoundaryPenetration_System_Double_"></a> SetBoundaryPenetration\(double\)
+### SetBoundaryPenetration\(double\)
 
 Set boundary penetration.
 
@@ -403,7 +403,7 @@ public void SetBoundaryPenetration(double dVal)
 
 The boundary penetration.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetDampCoef_System_Double_"></a> SetDampCoef\(double\)
+### SetDampCoef\(double\)
 
 Set damping coefficient.
 
@@ -417,7 +417,7 @@ public void SetDampCoef(double dVal)
 
 The damping coefficient.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetDampingSpline_System_String_"></a> SetDampingSpline\(string\)
+### SetDampingSpline\(string\)
 
 Set damping spline path.
 
@@ -431,7 +431,7 @@ public void SetDampingSpline(string strPath)
 
 The damping spline path.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetDampingType_VM_Managed_DAFUL_GearTrain_SBContact_InputType_"></a> SetDampingType\(InputType\)
+### SetDampingType\(InputType\)
 
 Set type of the damping.
 
@@ -445,7 +445,7 @@ public void SetDampingType(SBContact.InputType type)
 
 The type of the damping.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetDynFriCoef_System_Double_"></a> SetDynFriCoef\(double\)
+### SetDynFriCoef\(double\)
 
 Set dynamic friction coefficient.
 
@@ -459,7 +459,7 @@ public void SetDynFriCoef(double dVal)
 
 The dynamic friction coefficient.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetDynThreshold_System_Double_"></a> SetDynThreshold\(double\)
+### SetDynThreshold\(double\)
 
 Set dynamic threshold.
 
@@ -473,7 +473,7 @@ public void SetDynThreshold(double dVal)
 
 The dynamic threshold.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetFrictionSpline_System_String_"></a> SetFrictionSpline\(string\)
+### SetFrictionSpline\(string\)
 
 Set friction spline path.
 
@@ -487,7 +487,7 @@ public void SetFrictionSpline(string strPath)
 
 The friction spline path.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetFrictionType_VM_Managed_DAFUL_GearTrain_SBContact_InputType_"></a> SetFrictionType\(InputType\)
+### SetFrictionType\(InputType\)
 
 Set type of the friction.
 
@@ -501,7 +501,7 @@ public void SetFrictionType(SBContact.InputType type)
 
 The type of the friction.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetNumOfAxial_System_Double_"></a> SetNumOfAxial\(double\)
+### SetNumOfAxial\(double\)
 
 Set number of axial.
 
@@ -515,7 +515,7 @@ public void SetNumOfAxial(double dVal)
 
 The number of axial.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetNumOfCircular_System_Double_"></a> SetNumOfCircular\(double\)
+### SetNumOfCircular\(double\)
 
 Set number of circular.
 
@@ -529,7 +529,7 @@ public void SetNumOfCircular(double dVal)
 
 The number of circular.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetStaFriCoef_System_Double_"></a> SetStaFriCoef\(double\)
+### SetStaFriCoef\(double\)
 
 Set static friction coefficient.
 
@@ -543,7 +543,7 @@ public void SetStaFriCoef(double dVal)
 
 The static friction coefficient.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetSticVel_System_Double_"></a> SetSticVel\(double\)
+### SetSticVel\(double\)
 
 Set stiction velocity.
 
@@ -557,7 +557,7 @@ public void SetSticVel(double dVal)
 
 The stiction velocity.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetStiffCoef_System_Double_"></a> SetStiffCoef\(double\)
+### SetStiffCoef\(double\)
 
 Set stiffness coefficient.
 
@@ -571,7 +571,7 @@ public void SetStiffCoef(double dVal)
 
 The stiffness coefficient.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetStiffOrder_System_Double_"></a> SetStiffOrder\(double\)
+### SetStiffOrder\(double\)
 
 Set stiffness order.
 
@@ -585,7 +585,7 @@ public void SetStiffOrder(double dVal)
 
 The stiffness order.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetStiffnessSpline_System_String_"></a> SetStiffnessSpline\(string\)
+### SetStiffnessSpline\(string\)
 
 Set stiffness spline path.
 
@@ -599,7 +599,7 @@ public void SetStiffnessSpline(string strPath)
 
 The stiffness spline path.
 
-### <a id="VM_Managed_DAFUL_GearTrain_SBContact_SetStiffnessType_VM_Managed_DAFUL_GearTrain_SBContact_InputType_"></a> SetStiffnessType\(InputType\)
+### SetStiffnessType\(InputType\)
 
 Set type of the stiffness.
 
@@ -612,4 +612,5 @@ public void SetStiffnessType(SBContact.InputType type)
 `type` [SBContact](VM.Managed.DAFUL.GearTrain.SBContact.md).[InputType](VM.Managed.DAFUL.GearTrain.SBContact.InputType.md)
 
 The type of the stiffness.
+
 

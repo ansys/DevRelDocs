@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IDirectionTwoPoints"></a> Interface IDirectionTwoPoints
+# Interface IDirectionTwoPoints
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -19,7 +19,7 @@ IDirectionBase
 
 ## Properties
 
-### <a id="VM_Models_Pre_IDirectionTwoPoints_End"></a> End
+### End
 
 ```csharp
 IPointBase End { get; set; }
@@ -29,7 +29,7 @@ IPointBase End { get; set; }
 
  [IPointBase](VM.Models.Pre.IPointBase.md)
 
-### <a id="VM_Models_Pre_IDirectionTwoPoints_Start"></a> Start
+### Start
 
 ```csharp
 IPointBase Start { get; set; }
@@ -38,4 +38,5 @@ IPointBase Start { get; set; }
 #### Property Value
 
  [IPointBase](VM.Models.Pre.IPointBase.md)
+
 

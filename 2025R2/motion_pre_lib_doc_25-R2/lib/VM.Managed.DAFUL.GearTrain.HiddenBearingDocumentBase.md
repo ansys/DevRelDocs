@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocumentBase"></a> Class HiddenBearingDocumentBase
+# Class HiddenBearingDocumentBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -596,7 +596,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocumentBase__ctor_System_UIntPtr_"></a> HiddenBearingDocumentBase\(UIntPtr\)
+### HiddenBearingDocumentBase\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HiddenBearingDocumentBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -612,7 +612,7 @@ The document handle.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocumentBase_DrawCoordinate_System_Double_"></a> DrawCoordinate\(double\)
+### DrawCoordinate\(double\)
 
 Draws the coordinate.
 
@@ -626,7 +626,7 @@ public override void DrawCoordinate(double dIconSize)
 
 Size of the d icon.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocumentBase_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -644,7 +644,7 @@ The linked object.
 
 The destroy event information.
 
-### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocumentBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -661,4 +661,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The update event information.
+
 

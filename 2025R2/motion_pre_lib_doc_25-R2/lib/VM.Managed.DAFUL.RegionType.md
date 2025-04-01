@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_RegionType"></a> Enum RegionType
+# Enum RegionType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -20,6 +20,7 @@ The node
 `Point = 1` 
 
 The point
+
 
 
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoGearGeometry"></a> Class PseudoGearGeometry
+# Class PseudoGearGeometry
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoGearGeometry__ctor"></a> PseudoGearGeometry\(\)
+### PseudoGearGeometry\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.PseudoGearGeometry" data-throw-if-not-resolved="false"></xref> class.
 
@@ -177,7 +177,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Pse
 public PseudoGearGeometry()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoGearGeometry__ctor_System_String_"></a> PseudoGearGeometry\(string\)
+### PseudoGearGeometry\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.PseudoGearGeometry" data-throw-if-not-resolved="false"></xref> class.
 
@@ -193,7 +193,7 @@ Name of the sub entity.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoGearGeometry_GearGeometryInformation"></a> GearGeometryInformation
+### GearGeometryInformation
 
 Gets or sets the gear geometry information.
 
@@ -205,7 +205,7 @@ public GearGeometryInfo GearGeometryInformation { get; set; }
 
  [GearGeometryInfo](VM.Managed.DAFUL.GearTrain.GearGeometryInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoGearGeometry_ModifiedToothStiffnessParameter"></a> ModifiedToothStiffnessParameter
+### ModifiedToothStiffnessParameter
 
 Gets or sets the flag whether this instance modified by tooth stiffness parameter or not.
 
@@ -217,7 +217,7 @@ public bool ModifiedToothStiffnessParameter { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoGearGeometry_Name"></a> Name
+### Name
 
 Gets or sets the name.
 
@@ -231,7 +231,7 @@ public override string Name { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoGearGeometry_GetIndexOfGearBody"></a> GetIndexOfGearBody\(\)
+### GetIndexOfGearBody\(\)
 
 Gets the index of gear body.
 
@@ -243,7 +243,7 @@ public int GetIndexOfGearBody()
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoGearGeometry_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -271,7 +271,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoGearGeometry_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -284,4 +284,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

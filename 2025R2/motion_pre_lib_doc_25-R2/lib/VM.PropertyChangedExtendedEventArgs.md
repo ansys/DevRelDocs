@@ -1,4 +1,4 @@
-# <a id="VM_PropertyChangedExtendedEventArgs"></a> Class PropertyChangedExtendedEventArgs
+# Class PropertyChangedExtendedEventArgs
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -22,7 +22,7 @@ public class PropertyChangedExtendedEventArgs : PropertyChangedEventArgs
 
 ## Constructors
 
-### <a id="VM_PropertyChangedExtendedEventArgs__ctor_System_String_System_Object_System_Object_"></a> PropertyChangedExtendedEventArgs\(string, object, object\)
+### PropertyChangedExtendedEventArgs\(string, object, object\)
 
 ```csharp
 public PropertyChangedExtendedEventArgs(string propertyName, object oldValue, object newValue)
@@ -38,7 +38,7 @@ public PropertyChangedExtendedEventArgs(string propertyName, object oldValue, ob
 
 ## Properties
 
-### <a id="VM_PropertyChangedExtendedEventArgs_NewValue"></a> NewValue
+### NewValue
 
 ```csharp
 public virtual object NewValue { get; }
@@ -48,7 +48,7 @@ public virtual object NewValue { get; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### <a id="VM_PropertyChangedExtendedEventArgs_OldValue"></a> OldValue
+### OldValue
 
 ```csharp
 public virtual object OldValue { get; }
@@ -57,4 +57,5 @@ public virtual object OldValue { get; }
 #### Property Value
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
+
 

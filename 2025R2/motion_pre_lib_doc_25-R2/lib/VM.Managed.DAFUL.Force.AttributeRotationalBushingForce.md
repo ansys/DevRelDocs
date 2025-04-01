@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce"></a> Class AttributeRotationalBushingForce
+# Class AttributeRotationalBushingForce
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce__ctor"></a> AttributeRotationalBushingForce\(\)
+### AttributeRotationalBushingForce\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.AttributeRotationalBushingForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeRotationalBushingForce()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_LowerAngle"></a> LowerAngle
+### LowerAngle
 
 Gets or sets the lower angle.
 
@@ -121,7 +121,7 @@ public ExpressionValueVariable LowerAngle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_LowerArm"></a> LowerArm
+### LowerArm
 
 Gets or sets the lower arm.
 
@@ -133,7 +133,7 @@ public ExpressionValueVariable LowerArm { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_TKX"></a> TKX
+### TKX
 
 Gets or sets the translational kx.
 
@@ -145,7 +145,7 @@ public double TKX { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_TKY"></a> TKY
+### TKY
 
 Gets or sets the translational ky.
 
@@ -157,7 +157,7 @@ public double TKY { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_TKZ"></a> TKZ
+### TKZ
 
 Gets or sets the translational kz.
 
@@ -169,7 +169,7 @@ public double TKZ { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_TypeOfUser"></a> TypeOfUser
+### TypeOfUser
 
 Gets or sets the user type.
 
@@ -181,7 +181,7 @@ public AttributeRotationalBushingForce.UserType TypeOfUser { get; set; }
 
  [AttributeRotationalBushingForce](VM.Managed.DAFUL.Force.AttributeRotationalBushingForce.md).[UserType](VM.Managed.DAFUL.Force.AttributeRotationalBushingForce.UserType.md)
 
-### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_UpperAngle"></a> UpperAngle
+### UpperAngle
 
 Gets or sets the upper angle.
 
@@ -193,7 +193,7 @@ public ExpressionValueVariable UpperAngle { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_UpperArm"></a> UpperArm
+### UpperArm
 
 Gets or sets the upper arm.
 
@@ -207,7 +207,7 @@ public ExpressionValueVariable UpperArm { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_GetKX_System_Double_"></a> GetKX\(double\)
+### GetKX\(double\)
 
 Gets the KX
 
@@ -225,7 +225,7 @@ The rotational kx.
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<SplineValue.TwoPoint\>
 
-### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_GetKY_System_Double_"></a> GetKY\(double\)
+### GetKY\(double\)
 
 Gets the KY
 
@@ -243,7 +243,7 @@ The rotational ky.
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<SplineValue.TwoPoint\>
 
-### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_GetKZ"></a> GetKZ\(\)
+### GetKZ\(\)
 
 Gets the KZ
 
@@ -255,7 +255,7 @@ public List<SplineValue.TwoPoint> GetKZ()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<SplineValue.TwoPoint\>
 
-### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_GetKZ_System_Double_"></a> GetKZ\(double\)
+### GetKZ\(double\)
 
 Gets the KZ
 <param name="dStiffness">The stifness.</param>
@@ -272,7 +272,7 @@ public List<SplineValue.TwoPoint> GetKZ(double dStiffness)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<SplineValue.TwoPoint\>
 
-### <a id="VM_Managed_DAFUL_Force_AttributeRotationalBushingForce_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -285,4 +285,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The factor.
+
 

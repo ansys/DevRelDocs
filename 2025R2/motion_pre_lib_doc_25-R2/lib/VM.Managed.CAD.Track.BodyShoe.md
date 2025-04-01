@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_BodyShoe"></a> Class BodyShoe
+# Class BodyShoe
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -290,7 +290,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Track_BodyShoe__ctor"></a> BodyShoe\(\)
+### BodyShoe\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.BodyShoe" data-throw-if-not-resolved="false"></xref> class.
 
@@ -298,7 +298,7 @@ Initializes a new instance of the <xref href="VM.Managed.CAD.Track.BodyShoe" dat
 public BodyShoe()
 ```
 
-### <a id="VM_Managed_CAD_Track_BodyShoe__ctor_VM_Managed_CAD_Builder_"></a> BodyShoe\(Builder\)
+### BodyShoe\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.BodyShoe" data-throw-if-not-resolved="false"></xref> class.
 
@@ -314,7 +314,7 @@ The Link or Shoe builder
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Track_BodyShoe_CheckValidationAboutBuild_System_String_"></a> CheckValidationAboutBuild\(string\)
+### CheckValidationAboutBuild\(string\)
 
 ```csharp
 public override bool CheckValidationAboutBuild(string strXml)
@@ -328,7 +328,7 @@ public override bool CheckValidationAboutBuild(string strXml)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Track_BodyShoe_GetFaceList_ShoeGrouser"></a> GetFaceList\_ShoeGrouser\(\)
+### GetFaceList\_ShoeGrouser\(\)
 
 Gets the tread faces.
 
@@ -342,7 +342,7 @@ public List<Face> GetFaceList_ShoeGrouser()
 
 The list of face
 
-### <a id="VM_Managed_CAD_Track_BodyShoe_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -360,7 +360,7 @@ The obj notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_CAD_Track_BodyShoe_ReGenerateBodyInformation_System_Xml_XmlDocument_"></a> ReGenerateBodyInformation\(XmlDocument\)
+### ReGenerateBodyInformation\(XmlDocument\)
 
 Sets body information
 
@@ -380,7 +380,7 @@ The data xml of roller
 
 Cad body of shoe
 
-### <a id="VM_Managed_CAD_Track_BodyShoe_RebuildGeometry_System_Object_VM_Managed_LinkEventArgs_"></a> RebuildGeometry\(object, LinkEventArgs\)
+### RebuildGeometry\(object, LinkEventArgs\)
 
 Rebuild geometry.
 
@@ -397,4 +397,5 @@ The builder.
 `args` LinkEventArgs
 
 The event handler.
+
 

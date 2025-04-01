@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_History_RefreshAssembledBodyAddon"></a> Class RefreshAssembledBodyAddon
+# Class RefreshAssembledBodyAddon
 
 Namespace: [VM.Managed.DAFUL.History](VM.Managed.DAFUL.History.md)  
 Assembly: VMDFBase.dll  
@@ -52,7 +52,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_History_RefreshAssembledBodyAddon__ctor"></a> RefreshAssembledBodyAddon\(\)
+### RefreshAssembledBodyAddon\(\)
 
 Construct new RefreshAssembledBodyAddon
 
@@ -62,7 +62,7 @@ public RefreshAssembledBodyAddon()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_History_RefreshAssembledBodyAddon_Process_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Process\(object, HistoryEventArgs\)
+### Process\(object, HistoryEventArgs\)
 
 Process addon logic.
 
@@ -79,4 +79,5 @@ The object
 `args` HistoryEventArgs
 
 The <xref href="VM.Managed.History.HistoryEventArgs?text=HistoryEventArgs" data-throw-if-not-resolved="false"></xref>
+
 

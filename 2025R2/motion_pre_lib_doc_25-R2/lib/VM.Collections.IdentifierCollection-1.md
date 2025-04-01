@@ -1,4 +1,4 @@
-# <a id="VM_Collections_IdentifierCollection_1"></a> Class IdentifierCollection<TItem\>
+# Class IdentifierCollection<TItem\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -26,7 +26,7 @@ public class IdentifierCollection<TItem> : KeyedCollection<Identifier, TItem> wh
 
 ## Constructors
 
-### <a id="VM_Collections_IdentifierCollection_1__ctor"></a> IdentifierCollection\(\)
+### IdentifierCollection\(\)
 
 ```csharp
 public IdentifierCollection()
@@ -34,7 +34,7 @@ public IdentifierCollection()
 
 ## Methods
 
-### <a id="VM_Collections_IdentifierCollection_1_GetKeyForItem__0_"></a> GetKeyForItem\(TItem\)
+### GetKeyForItem\(TItem\)
 
 ```csharp
 protected override Identifier GetKeyForItem(TItem item)
@@ -47,4 +47,5 @@ protected override Identifier GetKeyForItem(TItem item)
 #### Returns
 
  [Identifier](VM.Identifier.md)
+
 

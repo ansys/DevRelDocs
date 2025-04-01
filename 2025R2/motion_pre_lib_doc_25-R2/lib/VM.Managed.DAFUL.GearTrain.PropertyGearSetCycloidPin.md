@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCycloidPin"></a> Class PropertyGearSetCycloidPin
+# Class PropertyGearSetCycloidPin
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -210,7 +210,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCycloidPin__ctor"></a> PropertyGearSetCycloidPin\(\)
+### PropertyGearSetCycloidPin\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyGearSetCycloidPin" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,7 +220,7 @@ public PropertyGearSetCycloidPin()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCycloidPin_CycloidProfile"></a> CycloidProfile
+### CycloidProfile
 
 Gets or sets the cycloid profile.
 
@@ -232,7 +232,7 @@ public string CycloidProfile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCycloidPin_Eccentricity"></a> Eccentricity
+### Eccentricity
 
 Gets or sets the eccentricity.
 
@@ -244,7 +244,7 @@ public ExpressionValueVariable Eccentricity { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCycloidPin_PinDiameter"></a> PinDiameter
+### PinDiameter
 
 Gets or sets the pin diameter.
 
@@ -256,7 +256,7 @@ public ExpressionValueVariable PinDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCycloidPin_PinPitch"></a> PinPitch
+### PinPitch
 
 Gets or sets the pin pitch.
 
@@ -270,7 +270,7 @@ public ExpressionValueVariable PinPitch { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCycloidPin_BuildGear_System_Boolean_"></a> BuildGear\(bool\)
+### BuildGear\(bool\)
 
 Builds the gear.
 
@@ -286,7 +286,7 @@ public override bool BuildGear(bool bCreate)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCycloidPin_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -300,11 +300,12 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetCycloidPin_PostBuildGear"></a> PostBuildGear\(\)
+### PostBuildGear\(\)
 
 post builder gear.
 
 ```csharp
 protected override void PostBuildGear()
 ```
+
 

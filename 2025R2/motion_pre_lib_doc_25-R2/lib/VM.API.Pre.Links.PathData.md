@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_Links_PathData"></a> Struct PathData
+# Struct PathData
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -11,7 +11,7 @@ public struct PathData
 
 ## Constructors
 
-### <a id="VM_API_Pre_Links_PathData__ctor"></a> PathData\(\)
+### PathData\(\)
 
 Default constructor
 
@@ -19,7 +19,7 @@ Default constructor
 public PathData()
 ```
 
-### <a id="VM_API_Pre_Links_PathData__ctor_VM_Managed_DAFUL_Track_MTL_PathData_PathType_VM_API_Pre_Obj_VM_Models_Pre_ExpressionValueVariable_"></a> PathData\(PathType, Obj, ExpressionValueVariable\)
+### PathData\(PathType, Obj, ExpressionValueVariable\)
 
 Initializes a new instance of the pathdata class.
 
@@ -43,7 +43,7 @@ The winding radius.
 
 ## Properties
 
-### <a id="VM_API_Pre_Links_PathData_Marker"></a> Marker
+### Marker
 
 The marker. The default value null.
 
@@ -55,7 +55,7 @@ public Obj Marker { readonly get; set; }
 
  Obj
 
-### <a id="VM_API_Pre_Links_PathData_TypeOfPath"></a> TypeOfPath
+### TypeOfPath
 
 The type of path. The default value is idler.
 
@@ -67,7 +67,7 @@ public MTL.PathData.PathType TypeOfPath { readonly get; set; }
 
  MTL.PathData.PathType
 
-### <a id="VM_API_Pre_Links_PathData_WindingRadius"></a> WindingRadius
+### WindingRadius
 
 The value for the winding radius. The default value is 0.
 
@@ -78,4 +78,5 @@ public ExpressionValueVariable WindingRadius { readonly get; set; }
 #### Property Value
 
  ExpressionValueVariable
+
 

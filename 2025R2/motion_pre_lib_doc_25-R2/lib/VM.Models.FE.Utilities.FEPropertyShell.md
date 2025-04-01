@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Utilities_FEPropertyShell"></a> Struct FEPropertyShell
+# Struct FEPropertyShell
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -9,7 +9,7 @@ public struct FEPropertyShell
 
 ## Properties
 
-### <a id="VM_Models_FE_Utilities_FEPropertyShell_ID"></a> ID
+### ID
 
 ```csharp
 public uint ID { readonly get; set; }
@@ -19,7 +19,7 @@ public uint ID { readonly get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Models_FE_Utilities_FEPropertyShell_MaterialSequence"></a> MaterialSequence
+### MaterialSequence
 
 ```csharp
 public uint MaterialSequence { readonly get; set; }
@@ -29,7 +29,7 @@ public uint MaterialSequence { readonly get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Models_FE_Utilities_FEPropertyShell_Thickness"></a> Thickness
+### Thickness
 
 ```csharp
 public double Thickness { readonly get; set; }
@@ -38,4 +38,5 @@ public double Thickness { readonly get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_IEntity"></a> Interface IEntity
+# Interface IEntity
 
 Namespace: [VM.Models.FE.Mesh](VM.Models.FE.Mesh.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -15,7 +15,7 @@ public interface IEntity
 
 ## Properties
 
-### <a id="VM_Models_FE_Mesh_IEntity_Id"></a> Id
+### Id
 
 ```csharp
 int Id { get; set; }
@@ -24,4 +24,5 @@ int Id { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

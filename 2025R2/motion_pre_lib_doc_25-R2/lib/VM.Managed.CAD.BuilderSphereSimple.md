@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderSphereSimple"></a> Class BuilderSphereSimple
+# Class BuilderSphereSimple
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -199,7 +199,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderSphereSimple__ctor_VM_Managed_Variable_VM_Managed_PointBase_"></a> BuilderSphereSimple\(Variable, PointBase\)
+### BuilderSphereSimple\(Variable, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderSphereSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -217,7 +217,7 @@ The radius of sphere(variable).
 
 The center position of sphere.
 
-### <a id="VM_Managed_CAD_BuilderSphereSimple__ctor_System_Double_VM_Managed_PointBase_"></a> BuilderSphereSimple\(double, PointBase\)
+### BuilderSphereSimple\(double, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderSphereSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -235,7 +235,7 @@ The radius of sphere.
 
 The center position of sphere.
 
-### <a id="VM_Managed_CAD_BuilderSphereSimple__ctor_VM_Managed_Variable_"></a> BuilderSphereSimple\(Variable\)
+### BuilderSphereSimple\(Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderSphereSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -249,7 +249,7 @@ public BuilderSphereSimple(Variable Radius)
 
 The radius of sphere(variable).
 
-### <a id="VM_Managed_CAD_BuilderSphereSimple__ctor_System_Double_"></a> BuilderSphereSimple\(double\)
+### BuilderSphereSimple\(double\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderSphereSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -263,7 +263,7 @@ public BuilderSphereSimple(double dRadius)
 
 The radius of sphere.
 
-### <a id="VM_Managed_CAD_BuilderSphereSimple__ctor"></a> BuilderSphereSimple\(\)
+### BuilderSphereSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderSphereSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -273,7 +273,7 @@ public BuilderSphereSimple()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderSphereSimple_CenterPosition"></a> CenterPosition
+### CenterPosition
 
 Gets or sets the center position of sphere.
 
@@ -285,7 +285,7 @@ public PointBase CenterPosition { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### <a id="VM_Managed_CAD_BuilderSphereSimple_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Gets the parametric.
 
@@ -297,7 +297,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_BuilderSphereSimple_Radius"></a> Radius
+### Radius
 
 ```csharp
 public Variable Radius { get; set; }
@@ -307,7 +307,7 @@ public Variable Radius { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### <a id="VM_Managed_CAD_BuilderSphereSimple__CenterPosition"></a> \_CenterPosition
+### \_CenterPosition
 
 Gets the center position of shpere.
 
@@ -319,7 +319,7 @@ public override VectorBase _CenterPosition { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_CAD_BuilderSphereSimple__Radius"></a> \_Radius
+### \_Radius
 
 Gets the radius of shpere.
 
@@ -333,7 +333,7 @@ public override double _Radius { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderSphereSimple_ChangeDataForCircularReference"></a> ChangeDataForCircularReference\(\)
+### ChangeDataForCircularReference\(\)
 
 Change data for circular reference.
 
@@ -341,7 +341,7 @@ Change data for circular reference.
 public override void ChangeDataForCircularReference()
 ```
 
-### <a id="VM_Managed_CAD_BuilderSphereSimple_CheckCircularReference_VM_Managed_ObjectBase_"></a> CheckCircularReference\(ObjectBase\)
+### CheckCircularReference\(ObjectBase\)
 
 Check data for circular reference.
 
@@ -355,7 +355,7 @@ public override void CheckCircularReference(ObjectBase objCM)
 
 The CM.
 
-### <a id="VM_Managed_CAD_BuilderSphereSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -369,7 +369,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_CAD_BuilderSphereSimple_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
+### SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -382,4 +382,5 @@ public override void SetTransform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform info.
+
 

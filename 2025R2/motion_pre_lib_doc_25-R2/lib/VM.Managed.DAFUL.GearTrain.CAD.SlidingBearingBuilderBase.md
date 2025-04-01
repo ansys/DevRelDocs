@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase"></a> Class SlidingBearingBuilderBase
+# Class SlidingBearingBuilderBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -227,7 +227,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase__ctor"></a> SlidingBearingBuilderBase\(\)
+### SlidingBearingBuilderBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.SlidingBearingBuilderBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -235,7 +235,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Sli
 public SlidingBearingBuilderBase()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase__ctor_VM_Managed_DAFUL_GearTrain_SBGeometryInfo_"></a> SlidingBearingBuilderBase\(SBGeometryInfo\)
+### SlidingBearingBuilderBase\(SBGeometryInfo\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.SlidingBearingBuilderBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -251,7 +251,7 @@ The information.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_GeomInfo"></a> GeomInfo
+### GeomInfo
 
 Gets or sets the geom information.
 
@@ -263,7 +263,7 @@ public SBGeometryInfo GeomInfo { get; set; }
 
  [SBGeometryInfo](VM.Managed.DAFUL.GearTrain.SBGeometryInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_OffsetToAxisDirection"></a> OffsetToAxisDirection
+### OffsetToAxisDirection
 
 Gets the offset to axis direction.
 
@@ -275,7 +275,7 @@ public virtual double OffsetToAxisDirection { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_Radius"></a> Radius
+### Radius
 
 Gets the radius.
 
@@ -289,7 +289,7 @@ protected double Radius { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_DeleteCondition_System_Object_"></a> DeleteCondition\(object\)
+### DeleteCondition\(object\)
 
 ```csharp
 protected virtual bool DeleteCondition(object objNotifier)
@@ -303,7 +303,7 @@ protected virtual bool DeleteCondition(object objNotifier)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -313,7 +313,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_GetCenterPosition"></a> GetCenterPosition\(\)
+### GetCenterPosition\(\)
 
 Gets center position.
 
@@ -325,7 +325,7 @@ public virtual VectorBase GetCenterPosition()
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_GetTransform"></a> GetTransform\(\)
+### GetTransform\(\)
 
 Gets the transform.
 
@@ -339,7 +339,7 @@ public virtual TMatrix GetTransform()
 
 The transform.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -357,7 +357,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -375,7 +375,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_RebuildGeometry"></a> RebuildGeometry\(\)
+### RebuildGeometry\(\)
 
 Rebuilds the geometry.
 
@@ -383,7 +383,7 @@ Rebuilds the geometry.
 public void RebuildGeometry()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_RebuildGeometry_VM_Managed_CAD_BuilderMultiSubtractSimple_VM_Managed_DAFUL_GearTrain_SBGeometryInfo_System_Double_"></a> RebuildGeometry\(BuilderMultiSubtractSimple, SBGeometryInfo, double\)
+### RebuildGeometry\(BuilderMultiSubtractSimple, SBGeometryInfo, double\)
 
 Rebuilds the geometry.
 
@@ -409,7 +409,7 @@ The radius.
 
  BuilderMultiSubtractSimple
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_RebuildGeometry_VM_Managed_CAD_BuilderMultiSubtractSimple_VM_Managed_DAFUL_GearTrain_SBGeometryInfo_System_Double_System_Boolean_"></a> RebuildGeometry\(BuilderMultiSubtractSimple, SBGeometryInfo, double, bool\)
+### RebuildGeometry\(BuilderMultiSubtractSimple, SBGeometryInfo, double, bool\)
 
 Rebuilds the geometry.
 
@@ -439,7 +439,7 @@ The DSDL use flag.
 
  BuilderMultiSubtractSimple
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_SetTransformForBuilders_VM_Managed_TMatrix_"></a> SetTransformForBuilders\(TMatrix\)
+### SetTransformForBuilders\(TMatrix\)
 
 Set Transform for Builders.
 
@@ -453,7 +453,7 @@ protected void SetTransformForBuilders(TMatrix matT)
 
 The Transform Matrix.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_SetTransformForBuilders_VM_Managed_CAD_BuilderMultiSubtractSimple_VM_Managed_TMatrix_VM_Managed_DAFUL_GearTrain_SBGeometryInfo_System_Double_"></a> SetTransformForBuilders\(BuilderMultiSubtractSimple, TMatrix, SBGeometryInfo, double\)
+### SetTransformForBuilders\(BuilderMultiSubtractSimple, TMatrix, SBGeometryInfo, double\)
 
 Set Transform for Builders.
 
@@ -479,11 +479,12 @@ The geom info.
 
 The radius.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderBase_UpdateGeometry"></a> UpdateGeometry\(\)
+### UpdateGeometry\(\)
 
 Updates the geometry.
 
 ```csharp
 public virtual void UpdateGeometry()
 ```
+
 

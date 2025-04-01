@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_Operation_DeleteObjectList"></a> Class DeleteObjectList
+# Class DeleteObjectList
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_DeleteObjectList__ctor_VM_Managed_ObjectBase___VM_Managed_DestroyEventArgs_"></a> DeleteObjectList\(ObjectBase\[\], DestroyEventArgs\)
+### DeleteObjectList\(ObjectBase\[\], DestroyEventArgs\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.DeleteObjectList" data-throw-if-not-resolved="false"></xref> class.
 
@@ -95,7 +95,7 @@ The LST object.
 
 The <xref href="VM.Managed.DestroyEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_DeleteObjectList__ctor_System_Collections_Generic_List_VM_Managed_ObjectBase__VM_Managed_DestroyEventArgs_"></a> DeleteObjectList\(List<ObjectBase\>, DestroyEventArgs\)
+### DeleteObjectList\(List<ObjectBase\>, DestroyEventArgs\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.DeleteObjectList" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ The LST object.
 
 The <xref href="VM.Managed.DestroyEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_DeleteObjectList__ctor_VM_Managed_Operation_JournalParameter_"></a> DeleteObjectList\(JournalParameter\)
+### DeleteObjectList\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.DeleteObjectList" data-throw-if-not-resolved="false"></xref> class.
 
@@ -129,7 +129,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_DeleteObjectList_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -143,7 +143,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_DeleteObjectList_Delete"></a> Delete\(\)
+### Delete\(\)
 
 Deletes this instance.
 
@@ -151,7 +151,7 @@ Deletes this instance.
 public void Delete()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_DeleteObjectList_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -159,7 +159,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_Operation_DeleteObjectList_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -172,4 +172,5 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_ShoeProfileDouble"></a> Class ShoeProfileDouble
+# Class ShoeProfileDouble
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -57,7 +57,7 @@ public class ShoeProfileDouble : ShoeProfileParametric
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileDouble__ctor"></a> ShoeProfileDouble\(\)
+### ShoeProfileDouble\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeProfileDouble" data-throw-if-not-resolved="false"></xref> class.
 
@@ -67,7 +67,7 @@ public ShoeProfileDouble()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileDouble_SecondGH"></a> SecondGH
+### SecondGH
 
 Gets and sets height for second grouser .
 
@@ -79,7 +79,7 @@ public double SecondGH { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileDouble_SecondGLW"></a> SecondGLW
+### SecondGLW
 
 Gets and sets lower width for second grouser.
 
@@ -91,7 +91,7 @@ public double SecondGLW { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileDouble_SecondGUW"></a> SecondGUW
+### SecondGUW
 
 Gets and sets upper width for second grouser
 
@@ -103,7 +103,7 @@ public double SecondGUW { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileDouble_ShoeDistance2"></a> ShoeDistance2
+### ShoeDistance2
 
 Gets and sets longitudinal distance from reference position to second grouser center position.
 
@@ -115,7 +115,7 @@ public double ShoeDistance2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileDouble_TailHeight"></a> TailHeight
+### TailHeight
 
 Gets and sets height for tail.
 
@@ -129,7 +129,7 @@ public double TailHeight { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileDouble_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
+### CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -137,7 +137,7 @@ Checks the validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileDouble_CreateProfile"></a> CreateProfile\(\)
+### CreateProfile\(\)
 
 Create profile data.
 
@@ -149,17 +149,18 @@ protected override bool CreateProfile()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileDouble_SetInitializeValue"></a> SetInitializeValue\(\)
+### SetInitializeValue\(\)
 
 ```csharp
 public override void SetInitializeValue()
 ```
 
-### <a id="VM_Managed_CAD_Track_ShoeProfileDouble_Validation"></a> Validation\(\)
+### Validation\(\)
 
 Check validation for member variables.
 
 ```csharp
 public override void Validation()
 ```
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_IContact"></a> Interface IContact
+# Interface IContact
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -21,7 +21,7 @@ IEntityRelation
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_IContact_ActionGeom"></a> ActionGeom
+### ActionGeom
 
 Gets or sets the action geometry of contact.
 
@@ -33,7 +33,7 @@ ObjectBase ActionGeom { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Contact_IContact_BaseGeom"></a> BaseGeom
+### BaseGeom
 
 Gets or sets the base geometry of contact.
 
@@ -45,7 +45,7 @@ ObjectBase BaseGeom { get; set; }
 
  ObjectBase
 
-### <a id="VM_Managed_DAFUL_Contact_IContact_Property"></a> Property
+### Property
 
 Gets or sets the property.
 
@@ -56,4 +56,5 @@ Property Property { get; set; }
 #### Property Value
 
  Property
+
 

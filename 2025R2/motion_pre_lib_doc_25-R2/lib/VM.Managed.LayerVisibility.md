@@ -1,4 +1,4 @@
-# <a id="VM_Managed_LayerVisibility"></a> Enum LayerVisibility
+# Enum LayerVisibility
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -16,4 +16,5 @@ public enum LayerVisibility
 `Transparent = 2` 
 
 `Visible = 1` 
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_EasyFlex_GlueAPI"></a> Class GlueAPI
+# Class GlueAPI
 
 Namespace: [VM.API.Pre.EasyFlex](VM.API.Pre.EasyFlex.md)  
 Assembly: VM.API.Pre.EasyFlex.dll  
@@ -22,7 +22,7 @@ public static class GlueAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_EasyFlex_GlueAPI_CreateTieWithColor_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__System_String_VM_Managed_SymmetricType_"></a> CreateTieWithColor\(SubSystemDocument, Obj, IEnumerable<Color\>, Obj, IEnumerable<Color\>, string, SymmetricType\)
+### CreateTieWithColor\(SubSystemDocument, Obj, IEnumerable<Color\>, Obj, IEnumerable<Color\>, string, SymmetricType\)
 
 ```csharp
 [NotNull(new string[] { "document" })]
@@ -51,7 +51,7 @@ public static Obj CreateTieWithColor(this SubSystemDocument document, Obj baseBo
 
  Obj
 
-### <a id="VM_API_Pre_EasyFlex_GlueAPI_CreateTieWithColor_VM_Managed_DAFUL_PartDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__System_String_VM_Managed_SymmetricType_"></a> CreateTieWithColor\(PartDocument, Obj, IEnumerable<Color\>, Obj, IEnumerable<Color\>, string, SymmetricType\)
+### CreateTieWithColor\(PartDocument, Obj, IEnumerable<Color\>, Obj, IEnumerable<Color\>, string, SymmetricType\)
 
 ```csharp
 [NotNull(new string[] { "document" })]
@@ -79,7 +79,7 @@ public static Obj CreateTieWithColor(this PartDocument document, Obj baseBody, I
 
  Obj
 
-### <a id="VM_API_Pre_EasyFlex_GlueAPI_CreateTieWithFaces_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_VM_Managed_SymmetricType_"></a> CreateTieWithFaces\(IDocument, IEnumerable<Obj\>, IEnumerable<Obj\>, string, SymmetricType\)
+### CreateTieWithFaces\(IDocument, IEnumerable<Obj\>, IEnumerable<Obj\>, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Builder.FE.Contact.Tie" data-throw-if-not-resolved="false"></xref> with faces.
 
@@ -126,7 +126,7 @@ Will be thrown if 'document' or 'baseContactable' or 'actionContactable' argumen
 
 Will be thrown if the type of 'document' is not SubSystemDocument and PartDocument.
 
-### <a id="VM_API_Pre_EasyFlex_GlueAPI_CreateTieWithFaceset_VM_Models_Pre_IDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_String_VM_Managed_SymmetricType_"></a> CreateTieWithFaceset\(IDocument, Obj, Obj, string, SymmetricType\)
+### CreateTieWithFaceset\(IDocument, Obj, Obj, string, SymmetricType\)
 
 ```csharp
 [NotNull(new string[] { "document" })]
@@ -151,7 +151,7 @@ public static Obj CreateTieWithFaceset(this IDocument document, Obj baseGeometry
 
  Obj
 
-### <a id="VM_API_Pre_EasyFlex_GlueAPI_CreateWeld_VM_Models_Pre_IDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_Nullable_VM_Vector__System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_API_Pre_Obj__System_Nullable_System_Drawing_Color__"></a> CreateWeld\(IDocument, Obj, Obj, Vector, Vector, Vector?, string, ExpressionValueVariable?, ExpressionValueVariable?, Obj?, Color?\)
+### CreateWeld\(IDocument, Obj, Obj, Vector, Vector, Vector?, string, ExpressionValueVariable?, ExpressionValueVariable?, Obj?, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.MeshFree.Weld" data-throw-if-not-resolved="false"></xref> with two points.
 
@@ -236,7 +236,7 @@ Will be thrown if 'baseBody', 'actionBody' is not <xref href="VM.Managed.CAD.Bod
 
 Will be thrown if 'number' value is less than 2.
 
-### <a id="VM_API_Pre_EasyFlex_GlueAPI_CreateWeld_VM_Models_Pre_IDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_Vector__System_Nullable_VM_Vector__System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_API_Pre_Obj__System_Nullable_System_Drawing_Color__"></a> CreateWeld\(IDocument, Obj, Obj, IEnumerable<Vector\>, Vector?, string, ExpressionValueVariable?, Obj?, Color?\)
+### CreateWeld\(IDocument, Obj, Obj, IEnumerable<Vector\>, Vector?, string, ExpressionValueVariable?, Obj?, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.MeshFree.Weld" data-throw-if-not-resolved="false"></xref> with multi points.
 
@@ -309,7 +309,7 @@ Will be thrown if 'document' is not <xref href="VM.Managed.DAFUL.SubSystemDocume
 
 Will be thrown if 'baseBody', 'actionBody' is not <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> or if 'baseBody' is equal to 'actionBody'.
 
-### <a id="VM_API_Pre_EasyFlex_GlueAPI_CreateWeld_VM_Models_Pre_IDocument_System_String_VM_API_Pre_Obj_VM_API_Pre_Obj_System_String_System_Nullable_VM_API_Pre_Obj__System_Nullable_System_Drawing_Color__"></a> CreateWeld\(IDocument, string, Obj, Obj, string, Obj?, Color?\)
+### CreateWeld\(IDocument, string, Obj, Obj, string, Obj?, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.MeshFree.Weld" data-throw-if-not-resolved="false"></xref> with file.
 
@@ -378,4 +378,5 @@ Will be thrown if 'document' is not <xref href="VM.Managed.DAFUL.SubSystemDocume
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if 'baseBody', 'actionBody' is not <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> or if 'baseBody' is equal to 'actionBody'.
+
 

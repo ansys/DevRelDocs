@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_DivisionArray"></a> Class PropertyMotorEMForce.DivisionArray
+# Class PropertyMotorEMForce.DivisionArray
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,7 @@ public class PropertyMotorEMForce.DivisionArray
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_DivisionArray__ctor"></a> DivisionArray\(\)
+### DivisionArray\(\)
 
 ```csharp
 public DivisionArray()
@@ -28,7 +28,7 @@ public DivisionArray()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_DivisionArray_Divisions"></a> Divisions
+### Divisions
 
 ```csharp
 public LinkedList<PropertyMotorEMForce.PositionArray> Divisions
@@ -37,4 +37,5 @@ public LinkedList<PropertyMotorEMForce.PositionArray> Divisions
 #### Field Value
 
  [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<[PropertyMotorEMForce](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.md).[PositionArray](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.PositionArray.md)\>
+
 

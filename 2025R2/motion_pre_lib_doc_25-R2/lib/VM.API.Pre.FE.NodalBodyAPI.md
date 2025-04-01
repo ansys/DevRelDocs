@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FE_NodalBodyAPI"></a> Class NodalBodyAPI
+# Class NodalBodyAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -22,7 +22,7 @@ public static class NodalBodyAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_FE_NodalBodyAPI_ChangeNodalModal_VM_API_Pre_Obj_VM_Managed_DAFUL_BodyAnalysisType_"></a> ChangeNodalModal\(Obj, BodyAnalysisType\)
+### ChangeNodalModal\(Obj, BodyAnalysisType\)
 
 Change body analysis type.
 
@@ -52,7 +52,7 @@ Will be thrown if 'nodalBody' argument is empty.
 
 Will be thrown if type of 'nodalBody' is not <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_FE_NodalBodyAPI_CreateNodalBody_VM_Managed_DAFUL_SubSystemDocument_System_String_VM_Managed_DAFUL_FE_MeshDocument_VM_Managed_TransformBase_"></a> CreateNodalBody\(SubSystemDocument, string, MeshDocument, TransformBase\)
+### CreateNodalBody\(SubSystemDocument, string, MeshDocument, TransformBase\)
 
 Create New <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref> class with given <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.TransformBase?text=Transformation" data-throw-if-not-resolved="false"></xref>.
 
@@ -91,7 +91,7 @@ The new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="f
 
 Will be thrown if 'meshDocument' argument is empty.
 
-### <a id="VM_API_Pre_FE_NodalBodyAPI_CreateNodalBody_VM_Managed_DAFUL_SubSystemDocument_System_String_System_String_VM_Managed_TransformBase_"></a> CreateNodalBody\(SubSystemDocument, string, string, TransformBase\)
+### CreateNodalBody\(SubSystemDocument, string, string, TransformBase\)
 
 Create New <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref> class with given file path of the <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.TransformBase?text=Transformation" data-throw-if-not-resolved="false"></xref>.
 
@@ -135,7 +135,7 @@ Will be thrown if 'docToAdd' or 'transformMesh' arguments are empty.
 
 Will be thrown if meshFilePath file is not exist.
 
-### <a id="VM_API_Pre_FE_NodalBodyAPI_CreateNodalBody_VM_Managed_DAFUL_SubSystemDocument_System_String_VM_Managed_DAFUL_FE_MeshDocument_"></a> CreateNodalBody\(SubSystemDocument, string, MeshDocument\)
+### CreateNodalBody\(SubSystemDocument, string, MeshDocument\)
 
 Create New <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref> class with given <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved="false"></xref> with identity transformation.
 
@@ -170,7 +170,7 @@ The new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="f
 
 Will be thrown if 'meshDocument' argument is empty.
 
-### <a id="VM_API_Pre_FE_NodalBodyAPI_CreateNodalBody_VM_Managed_DAFUL_SubSystemDocument_System_String_System_String_"></a> CreateNodalBody\(SubSystemDocument, string, string\)
+### CreateNodalBody\(SubSystemDocument, string, string\)
 
 Create New <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref> class with given file path of the <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved="false"></xref> with identity transformation.
 
@@ -197,4 +197,5 @@ The path of the <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-
  Obj
 
 The new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
+
 

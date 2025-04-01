@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CADOperation_SetInterfaceNamesOp"></a> Class CADOperation.SetInterfaceNamesOp
+# Class CADOperation.SetInterfaceNamesOp
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CADOperation_SetInterfaceNamesOp__ctor"></a> SetInterfaceNamesOp\(\)
+### SetInterfaceNamesOp\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CADOperation.SetInterfaceNamesOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.CADOperation.SetInterfa
 public SetInterfaceNamesOp()
 ```
 
-### <a id="VM_Managed_CADOperation_SetInterfaceNamesOp__ctor_VM_Managed_IInterfaceSupport_System_Collections_Generic_Dictionary_VM_Managed_IInterface_System_Collections_Generic_List_System_String___"></a> SetInterfaceNamesOp\(IInterfaceSupport, Dictionary<IInterface, List<string\>\>\)
+### SetInterfaceNamesOp\(IInterfaceSupport, Dictionary<IInterface, List<string\>\>\)
 
 Initializes a new instance of the <xref href="VM.Managed.CADOperation.SetInterfaceNamesOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -105,7 +105,7 @@ The objectbase and interface names.
 
 ## Properties
 
-### <a id="VM_Managed_CADOperation_SetInterfaceNamesOp_Name"></a> Name
+### Name
 
 Gets the Name.
 
@@ -119,11 +119,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CADOperation_SetInterfaceNamesOp_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
+
 

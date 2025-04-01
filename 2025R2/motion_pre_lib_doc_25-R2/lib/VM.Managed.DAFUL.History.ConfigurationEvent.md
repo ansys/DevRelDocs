@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_History_ConfigurationEvent"></a> Class ConfigurationEvent
+# Class ConfigurationEvent
 
 Namespace: [VM.Managed.DAFUL.History](VM.Managed.DAFUL.History.md)  
 Assembly: VMDFBase.dll  
@@ -37,7 +37,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_History_ConfigurationEvent__ctor_System_String_VM_Managed_Document_"></a> ConfigurationEvent\(string, Document\)
+### ConfigurationEvent\(string, Document\)
 
 ConfigurationEvent constructor
 
@@ -57,7 +57,7 @@ The Document
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_History_ConfigurationEvent_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 Clear
 
@@ -71,7 +71,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 reference count flag
 
-### <a id="VM_Managed_DAFUL_History_ConfigurationEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
+### Redo\(HistoryEventArgs\)
 
 Redo
 
@@ -83,7 +83,7 @@ protected override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_DAFUL_History_ConfigurationEvent_RegisterConfigurationModified_VM_Managed_Simulation_Configuration_"></a> RegisterConfigurationModified\(Configuration\)
+### RegisterConfigurationModified\(Configuration\)
 
 Register modified configuration
 
@@ -97,7 +97,7 @@ public static void RegisterConfigurationModified(Configuration config)
 
 The new configuration
 
-### <a id="VM_Managed_DAFUL_History_ConfigurationEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
+### Undo\(HistoryEventArgs\)
 
 Undo
 
@@ -108,4 +108,5 @@ protected override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
+
 

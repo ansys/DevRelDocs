@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_ReferenceCylindrical"></a> Class ReferenceCylindrical
+# Class ReferenceCylindrical
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -185,7 +185,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceCylindrical__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceCylindrical\(SerializationInfo, StreamingContext\)
+### ReferenceCylindrical\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.ReferenceCylindrical" data-throw-if-not-resolved="false"></xref> class.
 
@@ -203,7 +203,7 @@ The info.
 
 The context.
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceCylindrical__ctor_VM_Managed_ObjectBase_"></a> ReferenceCylindrical\(ObjectBase\)
+### ReferenceCylindrical\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.ReferenceCylindrical" data-throw-if-not-resolved="false"></xref> class.
 
@@ -219,7 +219,7 @@ The reference's object.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceCylindrical_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -231,7 +231,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceCylindrical_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -245,7 +245,7 @@ public string ReferenceType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceCylindrical_GetActionMarker"></a> GetActionMarker\(\)
+### GetActionMarker\(\)
 
 Gets the action marker.
 
@@ -259,7 +259,7 @@ public Marker GetActionMarker()
 
 The action marker.
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceCylindrical_GetActionParentConnectable"></a> GetActionParentConnectable\(\)
+### GetActionParentConnectable\(\)
 
 Gets the action parent connectable.
 
@@ -273,7 +273,7 @@ public IConnectable GetActionParentConnectable()
 
 The action parent connectable.
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceCylindrical_GetActionTransform"></a> GetActionTransform\(\)
+### GetActionTransform\(\)
 
 Gets the action transform.
 
@@ -287,7 +287,7 @@ public TransformBase GetActionTransform()
 
 The action transformation.
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceCylindrical_GetBaseMarker"></a> GetBaseMarker\(\)
+### GetBaseMarker\(\)
 
 Gets the base marker.
 
@@ -301,7 +301,7 @@ public Marker GetBaseMarker()
 
 The base marker.
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceCylindrical_GetBaseParentConnectable"></a> GetBaseParentConnectable\(\)
+### GetBaseParentConnectable\(\)
 
 Gets the base parent connectable.
 
@@ -315,7 +315,7 @@ public IConnectable GetBaseParentConnectable()
 
 The base parent connectable.
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceCylindrical_GetBaseTransform"></a> GetBaseTransform\(\)
+### GetBaseTransform\(\)
 
 Gets the base transform.
 
@@ -329,7 +329,7 @@ public TransformBase GetBaseTransform()
 
 The base transformation.
 
-### <a id="VM_Managed_DAFUL_Constraints_ReferenceCylindrical_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -356,4 +356,5 @@ if set to <code>true</code> [has child].
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

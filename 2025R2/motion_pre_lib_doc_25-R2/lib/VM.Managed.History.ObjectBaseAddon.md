@@ -1,4 +1,4 @@
-# <a id="VM_Managed_History_ObjectBaseAddon"></a> Class ObjectBaseAddon
+# Class ObjectBaseAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -46,7 +46,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### <a id="VM_Managed_History_ObjectBaseAddon__ctor"></a> ObjectBaseAddon\(\)
+### ObjectBaseAddon\(\)
 
 ```csharp
 public ObjectBaseAddon()
@@ -54,7 +54,7 @@ public ObjectBaseAddon()
 
 ## Properties
 
-### <a id="VM_Managed_History_ObjectBaseAddon_List"></a> List
+### List
 
 ```csharp
 protected IEnumerable<UIntPtr> List { get; }
@@ -66,7 +66,7 @@ protected IEnumerable<UIntPtr> List { get; }
 
 ## Methods
 
-### <a id="VM_Managed_History_ObjectBaseAddon_AddEntity_System_UIntPtr_"></a> AddEntity\(UIntPtr\)
+### AddEntity\(UIntPtr\)
 
 ```csharp
 public void AddEntity(UIntPtr key)
@@ -76,7 +76,7 @@ public void AddEntity(UIntPtr key)
 
 `key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### <a id="VM_Managed_History_ObjectBaseAddon_AfterRedo_System_Object_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(object, HistoryEventArgs\)
+### AfterRedo\(object, HistoryEventArgs\)
 
 ```csharp
 protected override sealed void AfterRedo(object o, HistoryEventArgs args)
@@ -88,7 +88,7 @@ protected override sealed void AfterRedo(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseAddon_AfterRollback_System_Object_VM_Managed_History_HistoryEventArgs_"></a> AfterRollback\(object, HistoryEventArgs\)
+### AfterRollback\(object, HistoryEventArgs\)
 
 ```csharp
 protected override sealed void AfterRollback(object o, HistoryEventArgs args)
@@ -100,7 +100,7 @@ protected override sealed void AfterRollback(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseAddon_AfterUndo_System_Object_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(object, HistoryEventArgs\)
+### AfterUndo\(object, HistoryEventArgs\)
 
 ```csharp
 protected override sealed void AfterUndo(object o, HistoryEventArgs args)
@@ -112,7 +112,7 @@ protected override sealed void AfterUndo(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseAddon_BeforeRedo_System_Object_VM_Managed_History_HistoryEventArgs_"></a> BeforeRedo\(object, HistoryEventArgs\)
+### BeforeRedo\(object, HistoryEventArgs\)
 
 ```csharp
 protected override sealed void BeforeRedo(object o, HistoryEventArgs args)
@@ -124,7 +124,7 @@ protected override sealed void BeforeRedo(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseAddon_BeforeRollback_System_Object_VM_Managed_History_HistoryEventArgs_"></a> BeforeRollback\(object, HistoryEventArgs\)
+### BeforeRollback\(object, HistoryEventArgs\)
 
 ```csharp
 protected override sealed void BeforeRollback(object o, HistoryEventArgs args)
@@ -136,7 +136,7 @@ protected override sealed void BeforeRollback(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseAddon_BeforeUndo_System_Object_VM_Managed_History_HistoryEventArgs_"></a> BeforeUndo\(object, HistoryEventArgs\)
+### BeforeUndo\(object, HistoryEventArgs\)
 
 ```csharp
 protected override sealed void BeforeUndo(object o, HistoryEventArgs args)
@@ -148,7 +148,7 @@ protected override sealed void BeforeUndo(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseAddon_Init_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Init\(object, HistoryEventArgs\)
+### Init\(object, HistoryEventArgs\)
 
 ```csharp
 protected virtual void Init(object o, HistoryEventArgs args)
@@ -160,7 +160,7 @@ protected virtual void Init(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseAddon_Process_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Process\(object, HistoryEventArgs\)
+### Process\(object, HistoryEventArgs\)
 
 ```csharp
 protected virtual void Process(object o, HistoryEventArgs args)
@@ -172,7 +172,7 @@ protected virtual void Process(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### <a id="VM_Managed_History_ObjectBaseAddon_RemoveEntity_System_UIntPtr_"></a> RemoveEntity\(UIntPtr\)
+### RemoveEntity\(UIntPtr\)
 
 ```csharp
 public void RemoveEntity(UIntPtr key)
@@ -181,4 +181,5 @@ public void RemoveEntity(UIntPtr key)
 #### Parameters
 
 `key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
+
 

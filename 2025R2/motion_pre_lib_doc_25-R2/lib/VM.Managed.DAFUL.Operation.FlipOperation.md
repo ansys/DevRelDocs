@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_FlipOperation"></a> Class FlipOperation
+# Class FlipOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_FlipOperation__ctor_VM_Managed_Document3D_System_String___"></a> FlipOperation\(Document3D, string\[\]\)
+### FlipOperation\(Document3D, string\[\]\)
 
 ```csharp
 public FlipOperation(Document3D doc, string[] arFlipTargetName)
@@ -89,7 +89,7 @@ public FlipOperation(Document3D doc, string[] arFlipTargetName)
 
 `arFlipTargetName` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### <a id="VM_Managed_DAFUL_Operation_FlipOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> FlipOperation\(JournalParameter\)
+### FlipOperation\(JournalParameter\)
 
 ```csharp
 public FlipOperation(JournalParameter jp)
@@ -101,7 +101,7 @@ public FlipOperation(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_FlipOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -115,7 +115,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_FlipOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -123,7 +123,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_FlipOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -132,4 +132,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

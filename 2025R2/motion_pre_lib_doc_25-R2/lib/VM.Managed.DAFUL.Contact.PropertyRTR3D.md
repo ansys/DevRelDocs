@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyRTR3D"></a> Class PropertyRTR3D
+# Class PropertyRTR3D
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -186,11 +186,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyRTR3D__ctor"></a> PropertyRTR3D\(\)
+### PropertyRTR3D\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyRTR3D" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyRTR3D()
 ```
+
 

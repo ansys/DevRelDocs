@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Constraints_CouplerJJ"></a> Class CouplerJJ
+# Class CouplerJJ
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  
@@ -57,7 +57,7 @@ BuilderBase<Coupler\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Constraints_CouplerJJ__ctor"></a> CouplerJJ\(\)
+### CouplerJJ\(\)
 
 ```csharp
 public CouplerJJ()
@@ -65,7 +65,7 @@ public CouplerJJ()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Constraints_CouplerJJ_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -80,4 +80,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

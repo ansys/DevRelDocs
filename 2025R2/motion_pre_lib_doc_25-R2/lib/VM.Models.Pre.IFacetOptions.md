@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_IFacetOptions"></a> Interface IFacetOptions
+# Interface IFacetOptions
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,7 +15,7 @@ public interface IFacetOptions
 
 ## Properties
 
-### <a id="VM_Models_Pre_IFacetOptions_ApproximatedEvaluation"></a> ApproximatedEvaluation
+### ApproximatedEvaluation
 
 ```csharp
 bool ApproximatedEvaluation { get; set; }
@@ -25,7 +25,7 @@ bool ApproximatedEvaluation { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_IFacetOptions_DrawGlobalBody"></a> DrawGlobalBody
+### DrawGlobalBody
 
 ```csharp
 bool DrawGlobalBody { get; }
@@ -35,7 +35,7 @@ bool DrawGlobalBody { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_IFacetOptions_FacetAspectRatio"></a> FacetAspectRatio
+### FacetAspectRatio
 
 ```csharp
 IVariable FacetAspectRatio { get; set; }
@@ -45,7 +45,7 @@ IVariable FacetAspectRatio { get; set; }
 
  [IVariable](VM.Models.Pre.IVariable.md)
 
-### <a id="VM_Models_Pre_IFacetOptions_GridToEdge"></a> GridToEdge
+### GridToEdge
 
 ```csharp
 bool GridToEdge { get; set; }
@@ -55,7 +55,7 @@ bool GridToEdge { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_IFacetOptions_MaximumFacetSize"></a> MaximumFacetSize
+### MaximumFacetSize
 
 ```csharp
 IVariable MaximumFacetSize { get; set; }
@@ -65,7 +65,7 @@ IVariable MaximumFacetSize { get; set; }
 
  [IVariable](VM.Models.Pre.IVariable.md)
 
-### <a id="VM_Models_Pre_IFacetOptions_MaximumGridLine"></a> MaximumGridLine
+### MaximumGridLine
 
 ```csharp
 IVariable MaximumGridLine { get; set; }
@@ -75,7 +75,7 @@ IVariable MaximumGridLine { get; set; }
 
  [IVariable](VM.Models.Pre.IVariable.md)
 
-### <a id="VM_Models_Pre_IFacetOptions_MinimumUGridLine"></a> MinimumUGridLine
+### MinimumUGridLine
 
 ```csharp
 IVariable MinimumUGridLine { get; set; }
@@ -85,7 +85,7 @@ IVariable MinimumUGridLine { get; set; }
 
  [IVariable](VM.Models.Pre.IVariable.md)
 
-### <a id="VM_Models_Pre_IFacetOptions_MinimumVGridLine"></a> MinimumVGridLine
+### MinimumVGridLine
 
 ```csharp
 IVariable MinimumVGridLine { get; set; }
@@ -95,7 +95,7 @@ IVariable MinimumVGridLine { get; set; }
 
  [IVariable](VM.Models.Pre.IVariable.md)
 
-### <a id="VM_Models_Pre_IFacetOptions_RepairPatch"></a> RepairPatch
+### RepairPatch
 
 ```csharp
 bool RepairPatch { get; set; }
@@ -105,7 +105,7 @@ bool RepairPatch { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_IFacetOptions_SurfaceAngularTolerance"></a> SurfaceAngularTolerance
+### SurfaceAngularTolerance
 
 ```csharp
 IVariable SurfaceAngularTolerance { get; set; }
@@ -115,7 +115,7 @@ IVariable SurfaceAngularTolerance { get; set; }
 
  [IVariable](VM.Models.Pre.IVariable.md)
 
-### <a id="VM_Models_Pre_IFacetOptions_SurfaceTolerance"></a> SurfaceTolerance
+### SurfaceTolerance
 
 ```csharp
 IVariable SurfaceTolerance { get; set; }
@@ -125,7 +125,7 @@ IVariable SurfaceTolerance { get; set; }
 
  [IVariable](VM.Models.Pre.IVariable.md)
 
-### <a id="VM_Models_Pre_IFacetOptions_UseDefaultValues"></a> UseDefaultValues
+### UseDefaultValues
 
 ```csharp
 bool UseDefaultValues { get; set; }
@@ -135,7 +135,7 @@ bool UseDefaultValues { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_IFacetOptions_UseFacetAspectRatio"></a> UseFacetAspectRatio
+### UseFacetAspectRatio
 
 ```csharp
 bool UseFacetAspectRatio { get; set; }
@@ -145,7 +145,7 @@ bool UseFacetAspectRatio { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_IFacetOptions_UseLegacyFacetAlgorithm"></a> UseLegacyFacetAlgorithm
+### UseLegacyFacetAlgorithm
 
 ```csharp
 bool UseLegacyFacetAlgorithm { get; set; }
@@ -155,7 +155,7 @@ bool UseLegacyFacetAlgorithm { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_IFacetOptions_UseMaximumFacetSize"></a> UseMaximumFacetSize
+### UseMaximumFacetSize
 
 ```csharp
 bool UseMaximumFacetSize { get; set; }
@@ -165,7 +165,7 @@ bool UseMaximumFacetSize { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_IFacetOptions_UseMaximumGridLine"></a> UseMaximumGridLine
+### UseMaximumGridLine
 
 ```csharp
 bool UseMaximumGridLine { get; set; }
@@ -175,7 +175,7 @@ bool UseMaximumGridLine { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_IFacetOptions_UseMinimumUGridLine"></a> UseMinimumUGridLine
+### UseMinimumUGridLine
 
 ```csharp
 bool UseMinimumUGridLine { get; set; }
@@ -185,7 +185,7 @@ bool UseMinimumUGridLine { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_IFacetOptions_UseMinimumVGridLine"></a> UseMinimumVGridLine
+### UseMinimumVGridLine
 
 ```csharp
 bool UseMinimumVGridLine { get; set; }
@@ -195,7 +195,7 @@ bool UseMinimumVGridLine { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_IFacetOptions_UseSurfaceAngularTolerance"></a> UseSurfaceAngularTolerance
+### UseSurfaceAngularTolerance
 
 ```csharp
 bool UseSurfaceAngularTolerance { get; set; }
@@ -205,7 +205,7 @@ bool UseSurfaceAngularTolerance { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_Pre_IFacetOptions_UseSurfaceTolerance"></a> UseSurfaceTolerance
+### UseSurfaceTolerance
 
 ```csharp
 bool UseSurfaceTolerance { get; set; }
@@ -214,4 +214,5 @@ bool UseSurfaceTolerance { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

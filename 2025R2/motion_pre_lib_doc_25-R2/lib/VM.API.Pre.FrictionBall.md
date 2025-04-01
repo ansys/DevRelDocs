@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FrictionBall"></a> Class FrictionBall
+# Class FrictionBall
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -39,7 +39,7 @@ public class FrictionBall : FrictionRevolute
 
 ## Constructors
 
-### <a id="VM_API_Pre_FrictionBall__ctor"></a> FrictionBall\(\)
+### FrictionBall\(\)
 
 Default constructor
 
@@ -47,7 +47,7 @@ Default constructor
 public FrictionBall()
 ```
 
-### <a id="VM_API_Pre_FrictionBall__ctor_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Managed_DAFUL_Constraints_Friction_EffectType_System_Boolean_System_Boolean_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> FrictionBall\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, EffectType, bool, bool, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
+### FrictionBall\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, EffectType, bool, bool, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
 
 Default constructor
 
@@ -104,4 +104,5 @@ The ball Radius.
 `preTorque` ExpressionValueVariable
 
 The preTorque.
+
 

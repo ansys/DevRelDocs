@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_CouplerGear"></a> Class CouplerGear
+# Class CouplerGear
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -226,7 +226,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerGear__ctor"></a> CouplerGear\(\)
+### CouplerGear\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.CouplerGear" data-throw-if-not-resolved="false"></xref> class.
 
@@ -234,7 +234,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Coupl
 public CouplerGear()
 ```
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerGear__ctor_System_String_"></a> CouplerGear\(string\)
+### CouplerGear\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.CouplerGear" data-throw-if-not-resolved="false"></xref> class.
 
@@ -250,7 +250,7 @@ Name of the coupler gear.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerGear_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
+### Draw\(Canvas\)
 
 Draws the icon.
 
@@ -264,7 +264,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerGear_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -278,7 +278,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerGear_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -292,7 +292,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Constraints_CouplerGear_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -305,4 +305,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

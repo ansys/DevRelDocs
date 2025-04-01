@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_AssembledBodyAPI"></a> Class AssembledBodyAPI
+# Class AssembledBodyAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class AssembledBodyAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_AssembledBodyAPI_CreateAssembledBody_VM_Managed_DAFUL_SubSystemDocument_System_String_VM_TMatrix_System_String_"></a> CreateAssembledBody\(SubSystemDocument, string, TMatrix, string\)
+### CreateAssembledBody\(SubSystemDocument, string, TMatrix, string\)
 
 Create <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -66,7 +66,7 @@ Will be thrown if 'document' or 'transform' or 'partFilePath' arguments are empt
 
 Will be thrown if 'partFilePath' does not exist.
 
-### <a id="VM_API_Pre_AssembledBodyAPI_CreateAssembledBody_VM_Managed_DAFUL_SubSystemDocument_System_String_"></a> CreateAssembledBody\(SubSystemDocument, string\)
+### CreateAssembledBody\(SubSystemDocument, string\)
 
 Create <xref href="VM.Managed.DAFUL.AssembledBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -89,4 +89,5 @@ The file path of imported part document
  [Obj](VM.API.Pre.Obj.md)
 
 The new <xref href="VM.Managed.DAFUL.AssembledBody" data-throw-if-not-resolved="false"></xref> object that is created by this API.
+
 

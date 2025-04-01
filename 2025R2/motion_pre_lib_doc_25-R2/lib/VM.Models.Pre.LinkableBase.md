@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_LinkableBase"></a> Class LinkableBase
+# Class LinkableBase
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -41,7 +41,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_LinkableBase__ctor"></a> LinkableBase\(\)
+### LinkableBase\(\)
 
 ```csharp
 protected LinkableBase()
@@ -49,7 +49,7 @@ protected LinkableBase()
 
 ## Methods
 
-### <a id="VM_Models_Pre_LinkableBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 ```csharp
 protected virtual void OnDeserialization(object sender)
@@ -58,4 +58,5 @@ protected virtual void OnDeserialization(object sender)
 #### Parameters
 
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
+
 

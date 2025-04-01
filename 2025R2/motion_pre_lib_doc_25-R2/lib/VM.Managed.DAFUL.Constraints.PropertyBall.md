@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Constraints_PropertyBall"></a> Class PropertyBall
+# Class PropertyBall
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyBall__ctor"></a> PropertyBall\(\)
+### PropertyBall\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.PropertyBall" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public PropertyBall()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyBall_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -191,7 +191,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyBall_Friction"></a> Friction
+### Friction
 
 Gets or sets the friction.
 
@@ -203,7 +203,7 @@ public FrictionBall Friction { get; set; }
 
  [FrictionBall](VM.Managed.DAFUL.Constraints.FrictionBall.md)
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyBall_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -217,7 +217,7 @@ public override string ReferenceType { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Constraints_PropertyBall_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -230,4 +230,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

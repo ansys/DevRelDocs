@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType"></a> Enum RacewayGeometryInfo.RacewayType
+# Enum RacewayGeometryInfo.RacewayType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,6 +20,7 @@ The inner
 `Outer = 1` 
 
 The outer
+
 
 
 

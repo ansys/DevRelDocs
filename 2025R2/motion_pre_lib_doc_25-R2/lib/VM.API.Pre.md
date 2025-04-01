@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre"></a> Namespace VM.API.Pre
+# Namespace VM.API.Pre
 
 ### Namespaces
 
@@ -315,4 +315,5 @@ This is the enum for the set color type.
  [TimeUnitType](VM.API.Pre.TimeUnitType.md)
 
 This is the enum for the time unit.
+
 

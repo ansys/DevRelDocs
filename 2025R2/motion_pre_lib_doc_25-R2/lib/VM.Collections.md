@@ -1,4 +1,4 @@
-# <a id="VM_Collections"></a> Namespace VM.Collections
+# Namespace VM.Collections
 
 ### Classes
 
@@ -23,4 +23,5 @@ Represents an observable set of values.
  [ObservableKeyedCollectionBase<TKey, TItem\>](VM.Collections.ObservableKeyedCollectionBase\-2.md)
 
  [ObservableValuesDictionary<TKey, TValue\>](VM.Collections.ObservableValuesDictionary\-2.md)
+
 

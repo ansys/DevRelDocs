@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Linear_PropertyActuatorSweptSine"></a> Class PropertyActuatorSweptSine
+# Class PropertyActuatorSweptSine
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  
@@ -167,7 +167,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorSweptSine__ctor"></a> PropertyActuatorSweptSine\(\)
+### PropertyActuatorSweptSine\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.PropertyActuatorSweptSine" data-throw-if-not-resolved="false"></xref> class.
 
@@ -177,7 +177,7 @@ public PropertyActuatorSweptSine()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorSweptSine_Magnitude"></a> Magnitude
+### Magnitude
 
 Gets or sets the magnitude.
 
@@ -189,7 +189,7 @@ public ExpressionValueVariable Magnitude { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorSweptSine_PhaseAngle"></a> PhaseAngle
+### PhaseAngle
 
 Gets or sets the phase angle.
 
@@ -203,7 +203,7 @@ public ExpressionValueVariable PhaseAngle { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorSweptSine_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -216,4 +216,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

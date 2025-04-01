@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_SolidBody"></a> Class SolidBody
+# Class SolidBody
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -255,7 +255,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_SolidBody__ctor"></a> SolidBody\(\)
+### SolidBody\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -263,7 +263,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.SolidBody" data-t
 public SolidBody()
 ```
 
-### <a id="VM_Managed_DAFUL_SolidBody__ctor_System_String_"></a> SolidBody\(string\)
+### SolidBody\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -277,7 +277,7 @@ public SolidBody(string strName)
 
 Name of the solid body.
 
-### <a id="VM_Managed_DAFUL_SolidBody__ctor_System_String_VM_Managed_CAD_Builder_"></a> SolidBody\(string, Builder\)
+### SolidBody\(string, Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -297,7 +297,7 @@ The builder.
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_SolidBody_m_MeshFreeProperty"></a> m\_MeshFreeProperty
+### m\_MeshFreeProperty
 
 The SolidBody property object to use MeshFree Analysis
 
@@ -312,7 +312,7 @@ protected MeshFreePropertyForSolidBody m_MeshFreeProperty
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_SolidBody_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -324,7 +324,7 @@ public BodyAnalysisType AnalysisType { get; set; }
 
  [BodyAnalysisType](VM.Managed.DAFUL.BodyAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_SolidBody_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -336,7 +336,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_SolidBody_Connectable"></a> Connectable
+### Connectable
 
 Gets the connectable interface.
 
@@ -348,7 +348,7 @@ public IConnectable Connectable { get; }
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)
 
-### <a id="VM_Managed_DAFUL_SolidBody_DFMFPath"></a> DFMFPath
+### DFMFPath
 
 Gets or sets the DFMF file path.
 
@@ -360,7 +360,7 @@ public string DFMFPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_SolidBody_Geometry"></a> Geometry
+### Geometry
 
 Gets the geometry.
 
@@ -372,7 +372,7 @@ public override List<Body> Geometry { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Body\>
 
-### <a id="VM_Managed_DAFUL_SolidBody_HalfThickness"></a> HalfThickness
+### HalfThickness
 
 Gets or sets the half thickness [Not Implemented].
 
@@ -384,7 +384,7 @@ public ExpressionValueVariable HalfThickness { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_SolidBody_IsActionGeometry"></a> IsActionGeometry
+### IsActionGeometry
 
 Gets or sets a value indicating whether this instance is action geometry.
 
@@ -396,7 +396,7 @@ public bool IsActionGeometry { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SolidBody_IsBaseGeometry"></a> IsBaseGeometry
+### IsBaseGeometry
 
 Gets or sets a value indicating whether this instance is base geometry.
 
@@ -408,7 +408,7 @@ public bool IsBaseGeometry { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SolidBody_IsEditCM"></a> IsEditCM
+### IsEditCM
 
 Gets a value indicating whether this instance is edit CM.
 
@@ -420,7 +420,7 @@ public virtual bool IsEditCM { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SolidBody_IsInterface"></a> IsInterface
+### IsInterface
 
 Gets or sets a value indicating whether this instance is interface.
 
@@ -432,7 +432,7 @@ public bool IsInterface { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SolidBody_IsRepresentedAsBSurface"></a> IsRepresentedAsBSurface
+### IsRepresentedAsBSurface
 
 Gets or sets a value indicating whether this instance is represented as Bsurface.
 
@@ -444,7 +444,7 @@ public bool IsRepresentedAsBSurface { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SolidBody_LastModifiedTimeToDFMFFile"></a> LastModifiedTimeToDFMFFile
+### LastModifiedTimeToDFMFFile
 
 Gets or sets the last modified time to DFMF file.
 
@@ -456,7 +456,7 @@ public string LastModifiedTimeToDFMFFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_SolidBody_MaxPenetration"></a> MaxPenetration
+### MaxPenetration
 
 Gets the max penetration [Not Implemented].
 
@@ -468,7 +468,7 @@ public ExpressionValueVariable MaxPenetration { get; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_SolidBody_MeshFreeProperty"></a> MeshFreeProperty
+### MeshFreeProperty
 
 Gets or sets the SolidBody property to use MeshFree Analysis.
 
@@ -481,7 +481,7 @@ public MeshFreePropertyForSolidBody MeshFreeProperty { get; set; }
 
  [MeshFreePropertyForSolidBody](VM.Managed.DAFUL.MeshFreePropertyForSolidBody.md)
 
-### <a id="VM_Managed_DAFUL_SolidBody_ModalReferencePosition"></a> ModalReferencePosition
+### ModalReferencePosition
 
 Gets or sets the modal reference modal.
 
@@ -493,7 +493,7 @@ public PointBase ModalReferencePosition { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_SolidBody_ModeArray"></a> ModeArray
+### ModeArray
 
 Gets or sets the modes.
 
@@ -505,7 +505,7 @@ public ModeForMFModal[] ModeArray { get; set; }
 
  [ModeForMFModal](VM.Managed.DAFUL.ModeForMFModal.md)\[\]
 
-### <a id="VM_Managed_DAFUL_SolidBody_MovingReferenceFrame"></a> MovingReferenceFrame
+### MovingReferenceFrame
 
 Gets or sets the moving reference frame.
 
@@ -517,7 +517,7 @@ public IMarker MovingReferenceFrame { get; set; }
 
  IMarker
 
-### <a id="VM_Managed_DAFUL_SolidBody_ParentTypeImpl"></a> ParentTypeImpl
+### ParentTypeImpl
 
 Gets the parent type [implementation].
 
@@ -529,7 +529,7 @@ protected override MarkerParentType ParentTypeImpl { get; }
 
  [MarkerParentType](VM.Managed.DAFUL.MarkerParentType.md)
 
-### <a id="VM_Managed_DAFUL_SolidBody_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -541,7 +541,7 @@ public virtual string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_SolidBody_SurfaceSmoothingType"></a> SurfaceSmoothingType
+### SurfaceSmoothingType
 
 Gets or sets the type of the surface smoothing [Not Implemented].
 
@@ -553,7 +553,7 @@ public SurfaceSmoothing SurfaceSmoothingType { get; set; }
 
  [SurfaceSmoothing](VM.Managed.DAFUL.SurfaceSmoothing.md)
 
-### <a id="VM_Managed_DAFUL_SolidBody_TopologyEntityTypeName"></a> TopologyEntityTypeName
+### TopologyEntityTypeName
 
 Topology type name
 
@@ -565,7 +565,7 @@ public override string TopologyEntityTypeName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_SolidBody_UseAdvancedOption"></a> UseAdvancedOption
+### UseAdvancedOption
 
 Gets or sets use advanced option.
 
@@ -577,7 +577,7 @@ public bool UseAdvancedOption { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SolidBody_UseModalReferencePosition"></a> UseModalReferencePosition
+### UseModalReferencePosition
 
 Gets or sets use modal reference modal.
 
@@ -589,7 +589,7 @@ public bool UseModalReferencePosition { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SolidBody_UseRMovingReferenceFrame"></a> UseRMovingReferenceFrame
+### UseRMovingReferenceFrame
 
 Gets or sets use rotational modal reference modal.
 
@@ -601,7 +601,7 @@ public bool UseRMovingReferenceFrame { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SolidBody_UseTMovingReferenceFrame"></a> UseTMovingReferenceFrame
+### UseTMovingReferenceFrame
 
 Gets or sets use translational modal reference modal.
 
@@ -613,7 +613,7 @@ public bool UseTMovingReferenceFrame { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SolidBody__MovingReferenceFrame"></a> \_MovingReferenceFrame
+### \_MovingReferenceFrame
 
 Gets or sets the moving reference frame.
 
@@ -627,7 +627,7 @@ public Linker<IMarker> _MovingReferenceFrame { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_SolidBody_DoWorkAfterUpdateContents"></a> DoWorkAfterUpdateContents\(\)
+### DoWorkAfterUpdateContents\(\)
 
 After update contents, do work.
 
@@ -635,7 +635,7 @@ After update contents, do work.
 public override void DoWorkAfterUpdateContents()
 ```
 
-### <a id="VM_Managed_DAFUL_SolidBody_FindLocal_System_String_"></a> FindLocal\(string\)
+### FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -655,7 +655,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### <a id="VM_Managed_DAFUL_SolidBody_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
+### FixUp\(ObjectBase\)
 
 Fixes up.
 
@@ -673,7 +673,7 @@ The ob.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_SolidBody_GetAnalysisLevelInfo_System_Collections_Generic_List_System_Double___System_Collections_Generic_List_System_UInt32___"></a> GetAnalysisLevelInfo\(ref List<double\>, ref List<uint\>\)
+### GetAnalysisLevelInfo\(ref List<double\>, ref List<uint\>\)
 
 Get node distance and count for each analysis level
 
@@ -697,7 +697,7 @@ Node count list
 
 Whether it's successful.
 
-### <a id="VM_Managed_DAFUL_SolidBody_GetBuilder"></a> GetBuilder\(\)
+### GetBuilder\(\)
 
 Gets the geometry.
 
@@ -711,7 +711,7 @@ public ObjectBase[] GetBuilder()
 
 geometry container
 
-### <a id="VM_Managed_DAFUL_SolidBody_GetContactables"></a> GetContactables\(\)
+### GetContactables\(\)
 
 Get contactable objects.
 
@@ -725,7 +725,7 @@ public ObjectBase[] GetContactables()
 
 The contactable objects.
 
-### <a id="VM_Managed_DAFUL_SolidBody_GetDefaultMaxPenetration_System_Double__VM_Managed_IReferencable_"></a> GetDefaultMaxPenetration\(ref double, IReferencable\)
+### GetDefaultMaxPenetration\(ref double, IReferencable\)
 
 Gets the geometry's default max penetration.
 
@@ -749,7 +749,7 @@ The reference [no use].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SolidBody_GetGeometryNavigatorInformation_System_Xml_XmlDocument_System_Xml_XmlElement_"></a> GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
+### GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
 
 Gets the geometry information for model navigator.
 
@@ -773,7 +773,7 @@ The XmlElement for geometry.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SolidBody_GetLayerImpl"></a> GetLayerImpl\(\)
+### GetLayerImpl\(\)
 
 Gets the layer [implementation].
 
@@ -787,7 +787,7 @@ protected override Layer GetLayerImpl()
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SolidBody_GetMarkerArrayModelNavigatorInfo_System_Xml_XmlDocument_System_Xml_XmlElement_VM_Managed_Collections_NamedObjectDictionary_VM_Managed_DAFUL_Marker__"></a> GetMarkerArrayModelNavigatorInfo\(XmlDocument, XmlElement, NamedObjectDictionary<Marker\>\)
+### GetMarkerArrayModelNavigatorInfo\(XmlDocument, XmlElement, NamedObjectDictionary<Marker\>\)
 
 Gets the marker array information for model navigator.
 
@@ -815,7 +815,7 @@ The marker array.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SolidBody_GetMarkerModelNavigatorInfo_System_Xml_XmlDocument_System_Xml_XmlElement_VM_Managed_DAFUL_Marker_"></a> GetMarkerModelNavigatorInfo\(XmlDocument, XmlElement, Marker\)
+### GetMarkerModelNavigatorInfo\(XmlDocument, XmlElement, Marker\)
 
 Gets the marker information for model navigator.
 
@@ -843,7 +843,7 @@ The marker.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SolidBody_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -871,7 +871,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SolidBody_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
+### GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the geometry's point and direction.
 
@@ -899,7 +899,7 @@ The reference [no use].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SolidBody_GetPointDirectionOnGeometry_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase, IReferencable\)
+### GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the geometry's point and direction.
 
@@ -927,7 +927,7 @@ The reference [no use].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SolidBody_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
+### GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -947,7 +947,7 @@ The ob unnamed.
 
 The unnamed object name.
 
-### <a id="VM_Managed_DAFUL_SolidBody_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -961,7 +961,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_SolidBody_IsAutoContactable"></a> IsAutoContactable\(\)
+### IsAutoContactable\(\)
 
 Determines whether the specified auto contactable.
 
@@ -975,7 +975,7 @@ public bool IsAutoContactable()
 
 <code>true</code> if the specified auto contactable; otherwise, <code>false</code>.
 
-### <a id="VM_Managed_DAFUL_SolidBody_LinkRemovedFromDocument_System_Object_VM_Managed_RemoveFromDocEventArgs_"></a> LinkRemovedFromDocument\(object, RemoveFromDocEventArgs\)
+### LinkRemovedFromDocument\(object, RemoveFromDocEventArgs\)
 
 Remove Anlaysis Type in the Analysis Setting to a document.
 
@@ -993,7 +993,7 @@ The linked object.
 
 The <xref href="VM.Managed.AddToDocEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_SolidBody_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -1011,7 +1011,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_SolidBody_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -1025,7 +1025,7 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### <a id="VM_Managed_DAFUL_SolidBody_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -1039,7 +1039,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_SolidBody_PostAddToDocument"></a> PostAddToDocument\(\)
+### PostAddToDocument\(\)
 
 Call when post [add to document].
 
@@ -1047,7 +1047,7 @@ Call when post [add to document].
 public override void PostAddToDocument()
 ```
 
-### <a id="VM_Managed_DAFUL_SolidBody_ReDraw"></a> ReDraw\(\)
+### ReDraw\(\)
 
 Redraw.
 
@@ -1055,7 +1055,7 @@ Redraw.
 public void ReDraw()
 ```
 
-### <a id="VM_Managed_DAFUL_SolidBody_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
+### ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -1069,7 +1069,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_SolidBody_ResetInvalidEntity"></a> ResetInvalidEntity\(\)
+### ResetInvalidEntity\(\)
 
 Reset invalid entity.
 
@@ -1077,7 +1077,7 @@ Reset invalid entity.
 public override void ResetInvalidEntity()
 ```
 
-### <a id="VM_Managed_DAFUL_SolidBody_SetLayerImpl_VM_Managed_Layer_"></a> SetLayerImpl\(Layer\)
+### SetLayerImpl\(Layer\)
 
 Sets the layer [implementation].
 
@@ -1091,7 +1091,7 @@ protected override void SetLayerImpl(Layer layer)
 
 The layer.
 
-### <a id="VM_Managed_DAFUL_SolidBody_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
+### WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -1104,4 +1104,5 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

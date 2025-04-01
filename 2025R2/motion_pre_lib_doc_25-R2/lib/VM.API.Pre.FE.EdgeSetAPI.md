@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FE_EdgeSetAPI"></a> Class EdgeSetAPI
+# Class EdgeSetAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -22,7 +22,7 @@ public static class EdgeSetAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_FE_EdgeSetAPI_CreateEdgeset_VM_Managed_DAFUL_FE_MeshDocument_System_Collections_Generic_IEnumerable_System_UInt32__System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_Managed_DAFUL_SurfaceSmoothing_System_Nullable_System_Drawing_Color__"></a> CreateEdgeset\(MeshDocument, IEnumerable<uint\>, string, ExpressionValueVariable?, ExpressionValueVariable?, SurfaceSmoothing, Color?\)
+### CreateEdgeset\(MeshDocument, IEnumerable<uint\>, string, ExpressionValueVariable?, ExpressionValueVariable?, SurfaceSmoothing, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.FE.SetEdge" data-throw-if-not-resolved="false"></xref>.
 
@@ -72,4 +72,5 @@ The new <xref href="VM.Managed.DAFUL.FE.SetEdge" data-throw-if-not-resolved="fal
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document' or 'nodeIndex' arguments are empty.
+
 

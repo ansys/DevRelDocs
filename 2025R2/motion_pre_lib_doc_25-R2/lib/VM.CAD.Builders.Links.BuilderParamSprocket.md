@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_Links_BuilderParamSprocket"></a> Class BuilderParamSprocket
+# Class BuilderParamSprocket
 
 Namespace: [VM.CAD.Builders.Links](VM.CAD.Builders.Links.md)  
 Assembly: VM.CAD.Builders.Links.dll  
@@ -34,7 +34,7 @@ BuilderParamBase.Transparency
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_Links_BuilderParamSprocket__ctor"></a> BuilderParamSprocket\(\)
+### BuilderParamSprocket\(\)
 
 ```csharp
 public BuilderParamSprocket()
@@ -42,7 +42,7 @@ public BuilderParamSprocket()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_Links_BuilderParamSprocket_BooleanType"></a> BooleanType
+### BooleanType
 
 ```csharp
 public BooleanType BooleanType { get; set; }
@@ -52,7 +52,7 @@ public BooleanType BooleanType { get; set; }
 
  [BooleanType](VM.CAD.Builders.Links.BooleanType.md)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamSprocket_ExtrudeAxis"></a> ExtrudeAxis
+### ExtrudeAxis
 
 ```csharp
 public Vector ExtrudeAxis { get; set; }
@@ -62,7 +62,7 @@ public Vector ExtrudeAxis { get; set; }
 
  Vector
 
-### <a id="VM_CAD_Builders_Links_BuilderParamSprocket_NumberOfTooth"></a> NumberOfTooth
+### NumberOfTooth
 
 ```csharp
 public int NumberOfTooth { get; set; }
@@ -72,7 +72,7 @@ public int NumberOfTooth { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamSprocket_Points"></a> Points
+### Points
 
 ```csharp
 public List<Vector> Points { get; set; }
@@ -82,7 +82,7 @@ public List<Vector> Points { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### <a id="VM_CAD_Builders_Links_BuilderParamSprocket_ShaftRadius"></a> ShaftRadius
+### ShaftRadius
 
 ```csharp
 public double ShaftRadius { get; set; }
@@ -92,7 +92,7 @@ public double ShaftRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamSprocket_ShaftWidth"></a> ShaftWidth
+### ShaftWidth
 
 ```csharp
 public double ShaftWidth { get; set; }
@@ -102,7 +102,7 @@ public double ShaftWidth { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamSprocket_SprocketWidth"></a> SprocketWidth
+### SprocketWidth
 
 ```csharp
 public double SprocketWidth { get; set; }
@@ -112,7 +112,7 @@ public double SprocketWidth { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamSprocket_UseShaft"></a> UseShaft
+### UseShaft
 
 ```csharp
 public bool UseShaft { get; set; }
@@ -122,7 +122,7 @@ public bool UseShaft { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_CAD_Builders_Links_BuilderParamSprocket_WorkPlane"></a> WorkPlane
+### WorkPlane
 
 ```csharp
 public Plane WorkPlane { get; set; }
@@ -131,4 +131,5 @@ public Plane WorkPlane { get; set; }
 #### Property Value
 
  Plane
+
 

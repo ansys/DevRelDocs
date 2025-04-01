@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_IHasDFTHFile"></a> Interface IHasDFTHFile
+# Interface IHasDFTHFile
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -17,7 +17,7 @@ public interface IHasDFTHFile
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Thermal_IHasDFTHFile_DFTHRelativeFilePath"></a> DFTHRelativeFilePath
+### DFTHRelativeFilePath
 
 Gets or sets the dfth relative file path.
 
@@ -28,4 +28,5 @@ string DFTHRelativeFilePath { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

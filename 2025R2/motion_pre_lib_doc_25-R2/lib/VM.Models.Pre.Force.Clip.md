@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Force_Clip"></a> Class Clip
+# Class Clip
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Force_Clip__ctor"></a> Clip\(\)
+### Clip\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.Clip" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Clip()
 
 ## Properties
 
-### <a id="VM_Models_Pre_Force_Clip_BottomLeafNumber"></a> BottomLeafNumber
+### BottomLeafNumber
 
 Gets or sets the leaf number at bottom of clip.
 
@@ -118,7 +118,7 @@ public int BottomLeafNumber { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Models_Pre_Force_Clip_DampingCoefficient"></a> DampingCoefficient
+### DampingCoefficient
 
 Gets or sets the damping coefficient.
 
@@ -130,7 +130,7 @@ public ExpressionValueVariable DampingCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Force_Clip_DistanceToCenterBolt"></a> DistanceToCenterBolt
+### DistanceToCenterBolt
 
 Gets or sets the distance to center bolt.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable DistanceToCenterBolt { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Force_Clip_Height"></a> Height
+### Height
 
 Gets or sets the height of clip.
 
@@ -154,7 +154,7 @@ public ExpressionValueVariable Height { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Force_Clip_HorizontalCoverStiffness"></a> HorizontalCoverStiffness
+### HorizontalCoverStiffness
 
 Gets or sets the horizontal cover stiffness.
 
@@ -166,7 +166,7 @@ public ExpressionValueVariable HorizontalCoverStiffness { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Force_Clip_TopLeafNumber"></a> TopLeafNumber
+### TopLeafNumber
 
 Gets or sets the leaf number at top of clip.
 
@@ -178,7 +178,7 @@ public int TopLeafNumber { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Models_Pre_Force_Clip_VerticalCoverStiffness"></a> VerticalCoverStiffness
+### VerticalCoverStiffness
 
 Gets or sets the vertical cover stiffness.
 
@@ -190,7 +190,7 @@ public ExpressionValueVariable VerticalCoverStiffness { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Models_Pre_Force_Clip_Width"></a> Width
+### Width
 
 Gets or sets the width of clip.
 
@@ -204,7 +204,7 @@ public ExpressionValueVariable Width { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_Force_Clip_GetClipInfo"></a> GetClipInfo\(\)
+### GetClipInfo\(\)
 
 Convert to <xref href="VM.Models.Pre.Force.ClipInfo" data-throw-if-not-resolved="false"></xref> from current <xref href="VM.Models.Pre.Force.Clip" data-throw-if-not-resolved="false"></xref>.
 
@@ -218,7 +218,7 @@ public ClipInfo GetClipInfo()
 
 The ClipInfo instance.
 
-### <a id="VM_Models_Pre_Force_Clip_GetInitialDistanceToCenterBolt_VM_Models_Pre_Force_LeafInfo___VM_Models_Pre_Force_Clip___VM_Models_Pre_Force_Clip_VM_Models_Pre_Force_Axle_"></a> GetInitialDistanceToCenterBolt\(LeafInfo\[\], Clip\[\], Clip, Axle\)
+### GetInitialDistanceToCenterBolt\(LeafInfo\[\], Clip\[\], Clip, Axle\)
 
 Get the initial distance to center bolt value.
 
@@ -250,7 +250,7 @@ The Axle.
 
 The initial distance to center bolt value.
 
-### <a id="VM_Models_Pre_Force_Clip_GetInitialHeight_VM_Models_Pre_Force_LeafInfo___System_Double_"></a> GetInitialHeight\(LeafInfo\[\], double\)
+### GetInitialHeight\(LeafInfo\[\], double\)
 
 Get the initial height value.
 
@@ -274,7 +274,7 @@ The distance to center bolt.
 
 The initial height value.
 
-### <a id="VM_Models_Pre_Force_Clip_GetInitialWidth_VM_Models_Pre_Force_LeafInfo___"></a> GetInitialWidth\(LeafInfo\[\]\)
+### GetInitialWidth\(LeafInfo\[\]\)
 
 Get the initial width value.
 
@@ -294,7 +294,7 @@ The LeafInfo array.
 
 The initial width value.
 
-### <a id="VM_Models_Pre_Force_Clip_Initialize"></a> Initialize\(\)
+### Initialize\(\)
 
 Initialize clip.
 
@@ -302,7 +302,7 @@ Initialize clip.
 public void Initialize()
 ```
 
-### <a id="VM_Models_Pre_Force_Clip_Initialize_VM_Models_Pre_Force_Leaf___VM_Models_Pre_Force_Clip___VM_Models_Pre_Force_Axle_"></a> Initialize\(Leaf\[\], Clip\[\], Axle\)
+### Initialize\(Leaf\[\], Clip\[\], Axle\)
 
 Initialize clip.
 
@@ -323,4 +323,5 @@ The clip array.
 `axle` [Axle](VM.Models.Pre.Force.Axle.md)
 
 The axle
+
 

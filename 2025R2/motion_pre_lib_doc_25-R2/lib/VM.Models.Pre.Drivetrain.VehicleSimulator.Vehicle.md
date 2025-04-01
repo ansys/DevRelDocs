@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Vehicle"></a> Class Vehicle
+# Class Vehicle
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -54,7 +54,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Vehicle__ctor"></a> Vehicle\(\)
+### Vehicle\(\)
 
 ```csharp
 public Vehicle()
@@ -62,7 +62,7 @@ public Vehicle()
 
 ## Properties
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Vehicle_BodyMass"></a> BodyMass
+### BodyMass
 
 ```csharp
 public double BodyMass { get; set; }
@@ -72,7 +72,7 @@ public double BodyMass { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Vehicle_EndSpeed"></a> EndSpeed
+### EndSpeed
 
 ```csharp
 public double EndSpeed { get; set; }
@@ -82,7 +82,7 @@ public double EndSpeed { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Vehicle_FittingCoefficientA"></a> FittingCoefficientA
+### FittingCoefficientA
 
 ```csharp
 public double FittingCoefficientA { get; set; }
@@ -92,7 +92,7 @@ public double FittingCoefficientA { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Vehicle_FittingCoefficientB"></a> FittingCoefficientB
+### FittingCoefficientB
 
 ```csharp
 public double FittingCoefficientB { get; set; }
@@ -102,7 +102,7 @@ public double FittingCoefficientB { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Vehicle_FittingCoefficientC"></a> FittingCoefficientC
+### FittingCoefficientC
 
 ```csharp
 public double FittingCoefficientC { get; set; }
@@ -112,7 +112,7 @@ public double FittingCoefficientC { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Vehicle_StartSpeed"></a> StartSpeed
+### StartSpeed
 
 ```csharp
 public double StartSpeed { get; set; }
@@ -122,7 +122,7 @@ public double StartSpeed { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Vehicle_WheelRadius"></a> WheelRadius
+### WheelRadius
 
 ```csharp
 public double WheelRadius { get; set; }
@@ -131,4 +131,5 @@ public double WheelRadius { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

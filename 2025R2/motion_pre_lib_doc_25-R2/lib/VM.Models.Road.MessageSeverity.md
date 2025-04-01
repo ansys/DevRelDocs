@@ -1,4 +1,4 @@
-# <a id="VM_Models_Road_MessageSeverity"></a> Enum MessageSeverity
+# Enum MessageSeverity
 
 Namespace: [VM.Models.Road](VM.Models.Road.md)  
 Assembly: VM.Models.Road.dll  
@@ -20,4 +20,5 @@ public enum MessageSeverity
 `Notice = 3` 
 
 `Warning = 2` 
+
 

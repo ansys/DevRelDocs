@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Contact_PropertyTie"></a> Class PropertyTie
+# Class PropertyTie
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Contact](VM.Managed.DAFUL.MeshFree.Contact.md)  
 Assembly: VMDMeshFree.dll  
@@ -177,11 +177,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_Contact_PropertyTie__ctor"></a> PropertyTie\(\)
+### PropertyTie\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Contact.PropertyTie" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyTie()
 ```
+
 

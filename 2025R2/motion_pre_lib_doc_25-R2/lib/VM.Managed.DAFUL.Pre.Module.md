@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_Module"></a> Class Module
+# Class Module
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -22,7 +22,7 @@ public class Module
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_Module__ctor"></a> Module\(\)
+### Module\(\)
 
 ```csharp
 public Module()
@@ -30,7 +30,7 @@ public Module()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_Module_DocumentCommands"></a> DocumentCommands
+### DocumentCommands
 
 Gets or sets the document commands.
 
@@ -42,7 +42,7 @@ public List<Module.Command> DocumentCommands { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Module](VM.Managed.DAFUL.Pre.Module.md).[Command](VM.Managed.DAFUL.Pre.Module.Command.md)\>
 
-### <a id="VM_Managed_DAFUL_Pre_Module_IsOverlap"></a> IsOverlap
+### IsOverlap
 
 Gets or sets a value indicating whether this instance is overlap.
 
@@ -54,7 +54,7 @@ public bool IsOverlap { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Pre_Module_Name"></a> Name
+### Name
 
 Gets or sets the name.
 
@@ -66,7 +66,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_Module_ParentModule"></a> ParentModule
+### ParentModule
 
 Gets or sets the parent module.
 
@@ -78,7 +78,7 @@ public string ParentModule { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_Module_Toolkit"></a> Toolkit
+### Toolkit
 
 Gets or sets the toolkit.
 
@@ -90,7 +90,7 @@ public string Toolkit { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_Module_ViewCommands"></a> ViewCommands
+### ViewCommands
 
 Gets or sets the view commands.
 
@@ -101,4 +101,5 @@ public List<Module.Command> ViewCommands { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Module](VM.Managed.DAFUL.Pre.Module.md).[Command](VM.Managed.DAFUL.Pre.Module.Command.md)\>
+
 

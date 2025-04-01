@@ -1,4 +1,4 @@
-# <a id="VM_Operations_Pre_Durability"></a> Namespace VM.Operations.Pre.Durability
+# Namespace VM.Operations.Pre.Durability
 
 ### Classes
 
@@ -21,4 +21,5 @@ show the gear durability tool.
 The run simulation operation for body durability
 
  [SimulationRun](VM.Operations.Pre.Durability.SimulationRun.md)
+
 

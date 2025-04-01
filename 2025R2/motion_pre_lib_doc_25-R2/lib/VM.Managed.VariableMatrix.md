@@ -1,4 +1,4 @@
-# <a id="VM_Managed_VariableMatrix"></a> Class VariableMatrix
+# Class VariableMatrix
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_VariableMatrix__ctor"></a> VariableMatrix\(\)
+### VariableMatrix\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.VariableMatrix" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.VariableMatrix" data-th
 public VariableMatrix()
 ```
 
-### <a id="VM_Managed_VariableMatrix__ctor_System_Int32_System_Int32_"></a> VariableMatrix\(int, int\)
+### VariableMatrix\(int, int\)
 
 Initializes a new instance of the <xref href="VM.Managed.VariableMatrix" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ The n column.
 
 ## Properties
 
-### <a id="VM_Managed_VariableMatrix_ColumnCount"></a> ColumnCount
+### ColumnCount
 
 ```csharp
 public int ColumnCount { get; set; }
@@ -134,7 +134,7 @@ public int ColumnCount { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_VariableMatrix_Matrix"></a> Matrix
+### Matrix
 
 Gets or sets the matrix.
 
@@ -146,7 +146,7 @@ public Variable[] Matrix { get; set; }
 
  Variable\[\]
 
-### <a id="VM_Managed_VariableMatrix_RowCount"></a> RowCount
+### RowCount
 
 ```csharp
 public int RowCount { get; set; }
@@ -158,7 +158,7 @@ public int RowCount { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_VariableMatrix_GetAllValue"></a> GetAllValue\(\)
+### GetAllValue\(\)
 
 Gets all value.
 
@@ -170,7 +170,7 @@ public string GetAllValue()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_VariableMatrix_GetArray"></a> GetArray\(\)
+### GetArray\(\)
 
 Gets the array.
 
@@ -182,7 +182,7 @@ public ExpressionValueVariable[,] GetArray()
 
  ExpressionValueVariable\[,\]
 
-### <a id="VM_Managed_VariableMatrix_GetValueArray"></a> GetValueArray\(\)
+### GetValueArray\(\)
 
 Gets the value array.
 
@@ -194,7 +194,7 @@ public double[,] GetValueArray()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[,\]
 
-### <a id="VM_Managed_VariableMatrix_GetVariable_System_Int32_System_Int32_"></a> GetVariable\(int, int\)
+### GetVariable\(int, int\)
 
 Gets the variable.
 
@@ -216,7 +216,7 @@ The n column.
 
  Variable
 
-### <a id="VM_Managed_VariableMatrix_SetData_VM_Managed_Variable_System_Int32_System_Int32_"></a> SetData\(Variable, int, int\)
+### SetData\(Variable, int, int\)
 
 Sets the data.
 
@@ -238,7 +238,7 @@ The n row.
 
 The n column.
 
-### <a id="VM_Managed_VariableMatrix_SetValueArray_System_Double_0__0___"></a> SetValueArray\(double\[,\]\)
+### SetValueArray\(double\[,\]\)
 
 Sets the value array.
 
@@ -251,4 +251,5 @@ public void SetValueArray(double[,] ardValue)
 `ardValue` [double](https://learn.microsoft.com/dotnet/api/system.double)\[,\]
 
 The values.
+
 

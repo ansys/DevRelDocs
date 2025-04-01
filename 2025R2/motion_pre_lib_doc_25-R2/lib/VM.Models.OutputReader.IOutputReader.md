@@ -1,4 +1,4 @@
-# <a id="VM_Models_OutputReader_IOutputReader"></a> Interface IOutputReader
+# Interface IOutputReader
 
 Namespace: [VM.Models.OutputReader](VM.Models.OutputReader.md)  
 Assembly: VM.Models.OutputReader.dll  
@@ -15,13 +15,13 @@ public interface IOutputReader
 
 ## Methods
 
-### <a id="VM_Models_OutputReader_IOutputReader_Close"></a> Close\(\)
+### Close\(\)
 
 ```csharp
 void Close()
 ```
 
-### <a id="VM_Models_OutputReader_IOutputReader_ExportContourResultToFile_System_String_System_IO_FileMode_System_Collections_Generic_IList_System_Int32__System_String_VM_Models_ContourMappingType_System_String_VM_Models_AnalysisResultType_VM_Models_FileFormatType_"></a> ExportContourResultToFile\(string, FileMode, IList<int\>, string, ContourMappingType, string, AnalysisResultType, FileFormatType\)
+### ExportContourResultToFile\(string, FileMode, IList<int\>, string, ContourMappingType, string, AnalysisResultType, FileFormatType\)
 
 ```csharp
 void ExportContourResultToFile(string resultpath, FileMode mode, IList<int> stateids, string target, ContourMappingType type, string path, AnalysisResultType analysisType = AnalysisResultType.Dynamics, FileFormatType formatType = FileFormatType.BINARY)
@@ -45,7 +45,7 @@ void ExportContourResultToFile(string resultpath, FileMode mode, IList<int> stat
 
 `formatType` FileFormatType
 
-### <a id="VM_Models_OutputReader_IOutputReader_ExportContourResultToFile_System_String_System_IO_FileMode_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_String__VM_Models_ContourMappingType_System_String_VM_Models_AnalysisResultType_VM_Models_FileFormatType_"></a> ExportContourResultToFile\(string, FileMode, IList<int\>, IList<string\>, ContourMappingType, string, AnalysisResultType, FileFormatType\)
+### ExportContourResultToFile\(string, FileMode, IList<int\>, IList<string\>, ContourMappingType, string, AnalysisResultType, FileFormatType\)
 
 ```csharp
 void ExportContourResultToFile(string resultpath, FileMode mode, IList<int> stateids, IList<string> targets, ContourMappingType type, string path, AnalysisResultType analysisType = AnalysisResultType.Dynamics, FileFormatType formatType = FileFormatType.BINARY)
@@ -69,7 +69,7 @@ void ExportContourResultToFile(string resultpath, FileMode mode, IList<int> stat
 
 `formatType` FileFormatType
 
-### <a id="VM_Models_OutputReader_IOutputReader_GetCurves_VM_Models_OutputReader_PlotParameters_"></a> GetCurves\(PlotParameters\)
+### GetCurves\(PlotParameters\)
 
 ```csharp
 IDictionary<string, Point2D[]> GetCurves(PlotParameters parameters)
@@ -83,7 +83,7 @@ IDictionary<string, Point2D[]> GetCurves(PlotParameters parameters)
 
  [IDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), Point2D\[\]\>
 
-### <a id="VM_Models_OutputReader_IOutputReader_GetFlexibleBodyReferenceFrame_System_String_System_Boolean_"></a> GetFlexibleBodyReferenceFrame\(string, bool\)
+### GetFlexibleBodyReferenceFrame\(string, bool\)
 
 ```csharp
 IList<double[]> GetFlexibleBodyReferenceFrame(string target, bool reCalculateOrientation = false)
@@ -99,7 +99,7 @@ IList<double[]> GetFlexibleBodyReferenceFrame(string target, bool reCalculateOri
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
 
-### <a id="VM_Models_OutputReader_IOutputReader_GetGeometryNodes_System_String_"></a> GetGeometryNodes\(string\)
+### GetGeometryNodes\(string\)
 
 ```csharp
 double[] GetGeometryNodes(string path)
@@ -113,7 +113,7 @@ double[] GetGeometryNodes(string path)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Models_OutputReader_IOutputReader_GetReferenceTimeArray"></a> GetReferenceTimeArray\(\)
+### GetReferenceTimeArray\(\)
 
 ```csharp
 IList<double> GetReferenceTimeArray()
@@ -123,7 +123,7 @@ IList<double> GetReferenceTimeArray()
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### <a id="VM_Models_OutputReader_IOutputReader_GetStateIDArray"></a> GetStateIDArray\(\)
+### GetStateIDArray\(\)
 
 ```csharp
 IList<int> GetStateIDArray()
@@ -133,7 +133,7 @@ IList<int> GetStateIDArray()
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### <a id="VM_Models_OutputReader_IOutputReader_GetVector_System_String_System_String_VM_Models_AnalysisResultType_"></a> GetVector\(string, string, AnalysisResultType\)
+### GetVector\(string, string, AnalysisResultType\)
 
 ```csharp
 IDictionary<string, IVectorDisplayAnimationData> GetVector(string target, string path, AnalysisResultType analysisModelType = AnalysisResultType.Dynamics)
@@ -150,4 +150,5 @@ IDictionary<string, IVectorDisplayAnimationData> GetVector(string target, string
 #### Returns
 
  [IDictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [IVectorDisplayAnimationData](VM.Models.OutputReader.IVectorDisplayAnimationData.md)\>
+
 

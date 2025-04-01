@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_AttributeRelief"></a> Class AttributeRelief
+# Class AttributeRelief
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -97,11 +97,12 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_AttributeRelief__ctor"></a> AttributeRelief\(\)
+### AttributeRelief\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeRelief" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public AttributeRelief()
 ```
+
 

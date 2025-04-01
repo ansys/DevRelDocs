@@ -1,4 +1,4 @@
-# <a id="VM_Collections_ObservableKeyedCollection_2"></a> Class ObservableKeyedCollection<TKey, TItem\>
+# Class ObservableKeyedCollection<TKey, TItem\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -42,7 +42,7 @@ public class ObservableKeyedCollection<TKey, TItem> : ObservableKeyedCollectionB
 
 ## Constructors
 
-### <a id="VM_Collections_ObservableKeyedCollection_2__ctor_System_Func__1__0__"></a> ObservableKeyedCollection\(Func<TItem, TKey\>\)
+### ObservableKeyedCollection\(Func<TItem, TKey\>\)
 
 ```csharp
 public ObservableKeyedCollection(Func<TItem, TKey> getKeyForItem)
@@ -54,7 +54,7 @@ public ObservableKeyedCollection(Func<TItem, TKey> getKeyForItem)
 
 ## Methods
 
-### <a id="VM_Collections_ObservableKeyedCollection_2_GetKeyForItem__1_"></a> GetKeyForItem\(TItem\)
+### GetKeyForItem\(TItem\)
 
 ```csharp
 protected override TKey GetKeyForItem(TItem item)
@@ -67,4 +67,5 @@ protected override TKey GetKeyForItem(TItem item)
 #### Returns
 
  TKey
+
 

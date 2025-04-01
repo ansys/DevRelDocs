@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ControlDocCreateInfo"></a> Class ControlDocCreateInfo
+# Class ControlDocCreateInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -31,9 +31,10 @@ public class ControlDocCreateInfo : DocCreateInfo
 
 ## Constructors
 
-### <a id="VM_Managed_ControlDocCreateInfo__ctor"></a> ControlDocCreateInfo\(\)
+### ControlDocCreateInfo\(\)
 
 ```csharp
 public ControlDocCreateInfo()
 ```
+
 

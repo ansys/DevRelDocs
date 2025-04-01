@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_PartMarker"></a> Class PartMarker
+# Class PartMarker
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -53,7 +53,7 @@ public class PartMarker : BuilderNamed<PartMarker>, IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_PartMarker__ctor"></a> PartMarker\(\)
+### PartMarker\(\)
 
 ```csharp
 public PartMarker()
@@ -61,7 +61,7 @@ public PartMarker()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_PartMarker_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -76,4 +76,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

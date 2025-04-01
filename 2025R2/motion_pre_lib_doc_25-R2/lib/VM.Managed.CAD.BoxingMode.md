@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BoxingMode"></a> Enum BoxingMode
+# Enum BoxingMode
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -32,6 +32,7 @@ Quick.
 `Tight = 0` 
 
 Tight.
+
 
 
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedHDBearingBuilderForRBEInMeshFree"></a> Class AddedHDBearingBuilderForRBEInMeshFree
+# Class AddedHDBearingBuilderForRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -237,7 +237,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedHDBearingBuilderForRBEInMeshFree__ctor"></a> AddedHDBearingBuilderForRBEInMeshFree\(\)
+### AddedHDBearingBuilderForRBEInMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedHDBearingBuilderForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -245,7 +245,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Add
 public AddedHDBearingBuilderForRBEInMeshFree()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedHDBearingBuilderForRBEInMeshFree__ctor_VM_Managed_DAFUL_GearTrain_CAD_HDBearingGeometryForRBEInMeshFree_"></a> AddedHDBearingBuilderForRBEInMeshFree\(HDBearingGeometryForRBEInMeshFree\)
+### AddedHDBearingBuilderForRBEInMeshFree\(HDBearingGeometryForRBEInMeshFree\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedHDBearingBuilderForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -258,4 +258,5 @@ public AddedHDBearingBuilderForRBEInMeshFree(HDBearingGeometryForRBEInMeshFree g
 `geometry` [HDBearingGeometryForRBEInMeshFree](VM.Managed.DAFUL.GearTrain.CAD.HDBearingGeometryForRBEInMeshFree.md)
 
 The geometry.
+
 

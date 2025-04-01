@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulationRun"></a> Class SimulationRun
+# Class SimulationRun
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -100,7 +100,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulationRun__ctor_VM_Managed_Document_"></a> SimulationRun\(Document\)
+### SimulationRun\(Document\)
 
 ```csharp
 public SimulationRun(Document doc)
@@ -110,7 +110,7 @@ public SimulationRun(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulationRun__ctor_VM_Managed_Operation_JournalParameter_"></a> SimulationRun\(JournalParameter\)
+### SimulationRun\(JournalParameter\)
 
 ```csharp
 public SimulationRun(JournalParameter jp)
@@ -122,7 +122,7 @@ public SimulationRun(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulationRun_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -136,7 +136,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulationRun_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
+### SimulationRunImpl\(bool\)
 
 ```csharp
 protected override void SimulationRunImpl(bool bWriteDFG)
@@ -146,7 +146,7 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_SimulationRun_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 ```csharp
 public static void UpdateUI(IUIUpdate updater, Document doc)
@@ -157,4 +157,5 @@ public static void UpdateUI(IUIUpdate updater, Document doc)
 `updater` IUIUpdate
 
 `doc` Document
+
 

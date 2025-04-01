@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_ImprintFF"></a> Class ImprintFF
+# Class ImprintFF
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -62,7 +62,7 @@ public class ImprintFF : ImprintBody, IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintFF__ctor"></a> ImprintFF\(\)
+### ImprintFF\(\)
 
 ```csharp
 public ImprintFF()
@@ -70,7 +70,7 @@ public ImprintFF()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintFF_ExtraArgument"></a> ExtraArgument
+### ExtraArgument
 
 ```csharp
 protected override string ExtraArgument { get; }
@@ -80,7 +80,7 @@ protected override string ExtraArgument { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintFF_TargetConnectable"></a> TargetConnectable
+### TargetConnectable
 
 ```csharp
 public override Body TargetConnectable { get; }
@@ -90,7 +90,7 @@ public override Body TargetConnectable { get; }
 
  Body
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintFF_TargetList"></a> TargetList
+### TargetList
 
 ```csharp
 public PickedFace TargetList { get; set; }
@@ -100,7 +100,7 @@ public PickedFace TargetList { get; set; }
 
  [PickedFace](VM.Managed.DAFUL.Builder.PickedFace.md)
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintFF_ToolConnectable"></a> ToolConnectable
+### ToolConnectable
 
 ```csharp
 public override Body ToolConnectable { get; }
@@ -110,7 +110,7 @@ public override Body ToolConnectable { get; }
 
  Body
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintFF_ToolList"></a> ToolList
+### ToolList
 
 ```csharp
 public PickedFace ToolList { get; set; }
@@ -122,7 +122,7 @@ public PickedFace ToolList { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintFF_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public override void Build(Document doc)
@@ -132,7 +132,7 @@ public override void Build(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Builder_ImprintFF_BuildTargetTool_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> BuildTargetTool\(Builder, Builder\)
+### BuildTargetTool\(Builder, Builder\)
 
 ```csharp
 protected override void BuildTargetTool(Builder buiTarget, Builder buiTool)
@@ -143,4 +143,5 @@ protected override void BuildTargetTool(Builder buiTarget, Builder buiTool)
 `buiTarget` Builder
 
 `buiTool` Builder
+
 

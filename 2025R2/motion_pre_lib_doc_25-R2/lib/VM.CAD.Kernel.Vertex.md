@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_Vertex"></a> Class Vertex
+# Class Vertex
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -47,7 +47,7 @@ ISelected
 
 ## Constructors
 
-### <a id="VM_CAD_Kernel_Vertex__ctor_System_UIntPtr_System_Boolean_"></a> Vertex\(UIntPtr, bool\)
+### Vertex\(UIntPtr, bool\)
 
 ```csharp
 public Vertex(UIntPtr key, bool isLock = true)
@@ -61,7 +61,7 @@ public Vertex(UIntPtr key, bool isLock = true)
 
 ## Methods
 
-### <a id="VM_CAD_Kernel_Vertex_GetDefaultPoint"></a> GetDefaultPoint\(\)
+### GetDefaultPoint\(\)
 
 ```csharp
 public override Vector GetDefaultPoint()
@@ -71,7 +71,7 @@ public override Vector GetDefaultPoint()
 
  Vector
 
-### <a id="VM_CAD_Kernel_Vertex_IsVertex_System_UIntPtr_"></a> IsVertex\(UIntPtr\)
+### IsVertex\(UIntPtr\)
 
 ```csharp
 public static bool IsVertex(UIntPtr key)
@@ -84,4 +84,5 @@ public static bool IsVertex(UIntPtr key)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

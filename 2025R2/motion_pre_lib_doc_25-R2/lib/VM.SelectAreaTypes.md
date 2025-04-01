@@ -1,4 +1,4 @@
-# <a id="VM_SelectAreaTypes"></a> Enum SelectAreaTypes
+# Enum SelectAreaTypes
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -60,6 +60,7 @@ Rectangular Selection.
 `Single = 0` 
 
 Single Selection.
+
 
 
 

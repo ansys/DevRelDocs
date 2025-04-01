@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisBraking"></a> Class AnalysisBraking
+# Class AnalysisBraking
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -48,7 +48,7 @@ IHasInitialVel
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisBraking__ctor"></a> AnalysisBraking\(\)
+### AnalysisBraking\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisBraking" data-throw-if-not-resolved="false"></xref> class.
 
@@ -56,7 +56,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisBraki
 public AnalysisBraking()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisBraking__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisBraking\(ILinkContainer\)
+### AnalysisBraking\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisBraking" data-throw-if-not-resolved="false"></xref> class.
 
@@ -72,7 +72,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisBraking_BrakeLoopType"></a> BrakeLoopType
+### BrakeLoopType
 
 Gets or sets the loop of brake.
 
@@ -84,7 +84,7 @@ public StraightLoopType BrakeLoopType { get; set; }
 
  [StraightLoopType](VM.Managed.DAFUL.Car.Analysis.Full.StraightLoopType.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisBraking_DecelerationValue"></a> DecelerationValue
+### DecelerationValue
 
 Gets or sets the deceleration.
 
@@ -96,7 +96,7 @@ public double DecelerationValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisBraking_FinalBrakeValue"></a> FinalBrakeValue
+### FinalBrakeValue
 
 Gets or sets the final brake.
 
@@ -108,7 +108,7 @@ public double FinalBrakeValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisBraking_SteeringInputType"></a> SteeringInputType
+### SteeringInputType
 
 Gets or sets the steering input.
 
@@ -120,7 +120,7 @@ public StraightLineSteeringInputType SteeringInputType { get; set; }
 
  [StraightLineSteeringInputType](VM.Managed.DAFUL.Car.Analysis.Full.StraightLineSteeringInputType.md)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisBraking_StepDuration"></a> StepDuration
+### StepDuration
 
 Gets or sets the duration of step.
 
@@ -132,7 +132,7 @@ public double StepDuration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisBraking_TireRadiusPosition"></a> TireRadiusPosition
+### TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -146,7 +146,7 @@ public override int TireRadiusPosition { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisBraking_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
+### GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -159,4 +159,5 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
+
 

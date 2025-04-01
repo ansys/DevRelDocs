@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Operation_AddDesignPointOperation"></a> Class AddDesignPointOperation
+# Class AddDesignPointOperation
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Operation_AddDesignPointOperation__ctor_VM_Managed_DAFUL_FE_Mesh_VM_Managed_VectorBase_"></a> AddDesignPointOperation\(Mesh, VectorBase\)
+### AddDesignPointOperation\(Mesh, VectorBase\)
 
 ```csharp
 public AddDesignPointOperation(Mesh mesh, VectorBase vecPos)
@@ -89,7 +89,7 @@ public AddDesignPointOperation(Mesh mesh, VectorBase vecPos)
 
 `vecPos` VectorBase
 
-### <a id="VM_Managed_DAFUL_FE_Operation_AddDesignPointOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> AddDesignPointOperation\(JournalParameter\)
+### AddDesignPointOperation\(JournalParameter\)
 
 ```csharp
 public AddDesignPointOperation(JournalParameter jp)
@@ -101,7 +101,7 @@ public AddDesignPointOperation(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Operation_AddDesignPointOperation_CreatedDesignPoint"></a> CreatedDesignPoint
+### CreatedDesignPoint
 
 ```csharp
 public DesignPoint CreatedDesignPoint { get; }
@@ -111,7 +111,7 @@ public DesignPoint CreatedDesignPoint { get; }
 
  DesignPoint
 
-### <a id="VM_Managed_DAFUL_FE_Operation_AddDesignPointOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -125,7 +125,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Operation_AddDesignPointOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -133,7 +133,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Operation_AddDesignPointOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -142,4 +142,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

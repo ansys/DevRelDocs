@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness"></a> Class CalculateToothStiffness
+# Class CalculateToothStiffness
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -82,7 +82,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness__ctor_System_String_System_String_System_Double_VM_Managed_Vector___System_UInt32_System_Int32_System_String_"></a> CalculateToothStiffness\(string, string, double, Vector\[\], uint, int, string\)
+### CalculateToothStiffness\(string, string, double, Vector\[\], uint, int, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateToothStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ Index of the n gear.
 
 The gearset name.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness__ctor_VM_Managed_Document3D_System_String_System_String_System_Double_VM_Managed_Vector___System_UInt32_System_Int32_System_String_"></a> CalculateToothStiffness\(Document3D, string, string, double, Vector\[\], uint, int, string\)
+### CalculateToothStiffness\(Document3D, string, string, double, Vector\[\], uint, int, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateToothStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -162,7 +162,7 @@ Index of the n gear.
 
 The gearset name.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness__ctor_VM_Managed_Operation_JournalParameter_"></a> CalculateToothStiffness\(JournalParameter\)
+### CalculateToothStiffness\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateToothStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -178,7 +178,7 @@ The jp.
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_arTeethPosition"></a> m\_arTeethPosition
+### m\_arTeethPosition
 
 m_arTeethPosition
 
@@ -190,7 +190,7 @@ protected Vector[] m_arTeethPosition
 
  Vector\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_ardDeform"></a> m\_ardDeform
+### m\_ardDeform
 
 m_ardDeform
 
@@ -202,7 +202,7 @@ protected double[] m_ardDeform
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_bAdvancedGearGeometry"></a> m\_bAdvancedGearGeometry
+### m\_bAdvancedGearGeometry
 
 ```csharp
 protected bool m_bAdvancedGearGeometry
@@ -212,7 +212,7 @@ protected bool m_bAdvancedGearGeometry
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_bRingGear"></a> m\_bRingGear
+### m\_bRingGear
 
 ```csharp
 protected bool m_bRingGear
@@ -222,7 +222,7 @@ protected bool m_bRingGear
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_doc"></a> m\_doc
+### m\_doc
 
 The document.
 
@@ -234,7 +234,7 @@ protected Document3D m_doc
 
  Document3D
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_nGearIdx"></a> m\_nGearIdx
+### m\_nGearIdx
 
 m_nGearIdx
 
@@ -246,7 +246,7 @@ protected int m_nGearIdx
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_nNumberOfMarker"></a> m\_nNumberOfMarker
+### m\_nNumberOfMarker
 
 m_nNumberOfMarker
 
@@ -258,7 +258,7 @@ protected uint m_nNumberOfMarker
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_strDatFile"></a> m\_strDatFile
+### m\_strDatFile
 
 The mesh data file path
 
@@ -270,7 +270,7 @@ protected string m_strDatFile
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_strDocInfo"></a> m\_strDocInfo
+### m\_strDocInfo
 
 The document information
 
@@ -282,7 +282,7 @@ protected string m_strDocInfo
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_m_strGearSet"></a> m\_strGearSet
+### m\_strGearSet
 
 m_strGearSet
 
@@ -296,7 +296,7 @@ protected string m_strGearSet
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -310,7 +310,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_CreateMarkerOnNode_VM_Managed_DAFUL_FE_MeshDocument_System_Int32_System_Collections_Generic_List_VM_Managed_VectorBase___"></a> CreateMarkerOnNode\(MeshDocument, int, ref List<VectorBase\>\)
+### CreateMarkerOnNode\(MeshDocument, int, ref List<VectorBase\>\)
 
 CreateMarkerOnNode
 
@@ -332,7 +332,7 @@ the index of node
 
 the list of marker's position
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_CreateSetNode_VM_Managed_DAFUL_FE_MeshDocument_System_String_"></a> CreateSetNode\(MeshDocument, string\)
+### CreateSetNode\(MeshDocument, string\)
 
 Create setNode.
 
@@ -354,7 +354,7 @@ The name.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
@@ -362,7 +362,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_FindReferConnectEntity__1_VM_Managed_DAFUL_FE_NodalBody_System_String_"></a> FindReferConnectEntity<T\>\(NodalBody, string\)
+### FindReferConnectEntity<T\>\(NodalBody, string\)
 
 FindReferConnectEntity
 
@@ -392,7 +392,7 @@ the reference object
 
 the type of reference object
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_GetBasePositionOfTScalar_VM_Managed_Vector_VM_Managed_Vector_System_Boolean_"></a> GetBasePositionOfTScalar\(Vector, Vector, bool\)
+### GetBasePositionOfTScalar\(Vector, Vector, bool\)
 
 GetBasePositionOfTScalar
 
@@ -420,7 +420,7 @@ bLast
 
 PointBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -434,7 +434,7 @@ public override void GetInformation(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_ReadOutFile_System_String_System_Int32_System_Double____"></a> ReadOutFile\(string, int, ref double\[\]\)
+### ReadOutFile\(string, int, ref double\[\]\)
 
 ReadOutFile
 
@@ -456,7 +456,7 @@ nLen
 
 ardDeform
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_Result"></a> Result\(\)
+### Result\(\)
 
 Results this instance.
 
@@ -468,7 +468,7 @@ public double[] Result()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffness_WriteDat_System_String_"></a> WriteDat\(string\)
+### WriteDat\(string\)
 
 WriteDat
 
@@ -481,4 +481,5 @@ protected void WriteDat(string strDatPath)
 `strDatPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 strDatPath
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_Operation_FourPostSimulationRun"></a> Class FourPostSimulationRun
+# Class FourPostSimulationRun
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -105,7 +105,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FourPostSimulationRun__ctor_VM_Managed_Document_"></a> FourPostSimulationRun\(Document\)
+### FourPostSimulationRun\(Document\)
 
 ```csharp
 public FourPostSimulationRun(Document doc)
@@ -115,7 +115,7 @@ public FourPostSimulationRun(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FourPostSimulationRun__ctor_VM_Managed_Document_System_String_"></a> FourPostSimulationRun\(Document, string\)
+### FourPostSimulationRun\(Document, string\)
 
 ```csharp
 public FourPostSimulationRun(Document doc, string strSimPar)
@@ -127,7 +127,7 @@ public FourPostSimulationRun(Document doc, string strSimPar)
 
 `strSimPar` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FourPostSimulationRun__ctor_VM_Managed_Document_VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_"></a> FourPostSimulationRun\(Document, SimulationParameter\)
+### FourPostSimulationRun\(Document, SimulationParameter\)
 
 ```csharp
 public FourPostSimulationRun(Document doc, SimulationRun.SimulationParameter param)
@@ -139,7 +139,7 @@ public FourPostSimulationRun(Document doc, SimulationRun.SimulationParameter par
 
 `param` SimulationRun.SimulationParameter
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FourPostSimulationRun__ctor_VM_Managed_Operation_JournalParameter_"></a> FourPostSimulationRun\(JournalParameter\)
+### FourPostSimulationRun\(JournalParameter\)
 
 ```csharp
 public FourPostSimulationRun(JournalParameter jp)
@@ -151,7 +151,7 @@ public FourPostSimulationRun(JournalParameter jp)
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FourPostSimulationRun_m_param"></a> m\_param
+### m\_param
 
 ```csharp
 protected SimulationScenarioBase.SolvingParam m_param
@@ -163,7 +163,7 @@ protected SimulationScenarioBase.SolvingParam m_param
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FourPostSimulationRun_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -177,7 +177,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FourPostSimulationRun_ApplySimulation"></a> ApplySimulation\(\)
+### ApplySimulation\(\)
 
 ```csharp
 protected bool ApplySimulation()
@@ -187,7 +187,7 @@ protected bool ApplySimulation()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FourPostSimulationRun_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -195,7 +195,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FourPostSimulationRun_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
+### SimulationRunImpl\(bool\)
 
 ```csharp
 protected override void SimulationRunImpl(bool bWriteDFG)
@@ -205,7 +205,7 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Car_Operation_FourPostSimulationRun_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 ```csharp
 public static void UpdateUI(IUIUpdate updater, Document doc)
@@ -216,4 +216,5 @@ public static void UpdateUI(IUIUpdate updater, Document doc)
 `updater` IUIUpdate
 
 `doc` Document
+
 

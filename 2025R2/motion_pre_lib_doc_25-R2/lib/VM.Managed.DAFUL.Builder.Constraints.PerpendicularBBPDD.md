@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Constraints_PerpendicularBBPDD"></a> Class PerpendicularBBPDD
+# Class PerpendicularBBPDD
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  
@@ -61,9 +61,10 @@ BuilderBase<Perpendicular\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Constraints_PerpendicularBBPDD__ctor"></a> PerpendicularBBPDD\(\)
+### PerpendicularBBPDD\(\)
 
 ```csharp
 public PerpendicularBBPDD()
 ```
+
 

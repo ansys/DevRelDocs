@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Force_ForceFunction"></a> Class ForceFunction
+# Class ForceFunction
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Force_ForceFunction__ctor"></a> ForceFunction\(\)
+### ForceFunction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.ForceFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.ForceFuncti
 protected ForceFunction()
 ```
 
-### <a id="VM_Managed_DAFUL_Force_ForceFunction__ctor_VM_Managed_DAFUL_Force_PropertyForce_"></a> ForceFunction\(PropertyForce\)
+### ForceFunction\(PropertyForce\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.ForceFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ The owner force property.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Force_ForceFunction_IsUseApplyAction"></a> IsUseApplyAction
+### IsUseApplyAction
 
 Gets or sets a value indicating whether this instance use apply action.
 
@@ -137,7 +137,7 @@ public bool IsUseApplyAction { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Force_ForceFunction_Type"></a> Type
+### Type
 
 Gets the function type.
 
@@ -151,7 +151,7 @@ public abstract ForceFunction.FunctionType Type { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Force_ForceFunction_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
+### ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -165,7 +165,7 @@ public virtual void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Force_ForceFunction_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
+### WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -178,4 +178,5 @@ public virtual void WriteTemplate(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

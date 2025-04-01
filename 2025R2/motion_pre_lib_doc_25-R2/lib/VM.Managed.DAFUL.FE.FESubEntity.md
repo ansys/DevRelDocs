@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_FESubEntity"></a> Class FESubEntity
+# Class FESubEntity
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -181,7 +181,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_FESubEntity__ctor_System_String_System_String_System_String_"></a> FESubEntity\(string, string, string\)
+### FESubEntity\(string, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FESubEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -203,7 +203,7 @@ Name of the proxy.
 
 The build information.
 
-### <a id="VM_Managed_DAFUL_FE_FESubEntity__ctor_System_String_System_String_"></a> FESubEntity\(string, string\)
+### FESubEntity\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FESubEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ Name of the proxy.
 
 The build information.
 
-### <a id="VM_Managed_DAFUL_FE_FESubEntity__ctor_System_String_"></a> FESubEntity\(string\)
+### FESubEntity\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FESubEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -235,7 +235,7 @@ protected FESubEntity(string strName)
 
 Name of the FE sub entity.
 
-### <a id="VM_Managed_DAFUL_FE_FESubEntity__ctor"></a> FESubEntity\(\)
+### FESubEntity\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FESubEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -245,7 +245,7 @@ protected FESubEntity()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_FESubEntity_FEID"></a> FEID
+### FEID
 
 Gets or sets the ID.
 
@@ -257,7 +257,7 @@ public uint FEID { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_FE_FESubEntity_OwnerMesh"></a> OwnerMesh
+### OwnerMesh
 
 Gets the owner mesh.
 
@@ -271,7 +271,7 @@ public Mesh OwnerMesh { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_FESubEntity_GetNodalBodyForReference_VM_Managed_Reference_VM_Managed_DAFUL_FE_Mesh_"></a> GetNodalBodyForReference\(Reference, Mesh\)
+### GetNodalBodyForReference\(Reference, Mesh\)
 
 Get nodal body from referece object.
 
@@ -295,7 +295,7 @@ The mesh.
 
 The nodal body.
 
-### <a id="VM_Managed_DAFUL_FE_FESubEntity_GetNodalBodyForSubsystem_VM_Managed_DAFUL_SubSystem_VM_Managed_DAFUL_FE_Mesh_"></a> GetNodalBodyForSubsystem\(SubSystem, Mesh\)
+### GetNodalBodyForSubsystem\(SubSystem, Mesh\)
 
 Get nodal body from subsystem and mesh.
 
@@ -318,4 +318,5 @@ The mesh.
  ObjectBase
 
 The nodal body.
+
 

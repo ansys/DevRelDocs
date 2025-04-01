@@ -1,4 +1,4 @@
-# <a id="VM_Managed_WrapperStream"></a> Class WrapperStream
+# Class WrapperStream
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -24,7 +24,7 @@ public class WrapperStream : Stream
 
 ## Constructors
 
-### <a id="VM_Managed_WrapperStream__ctor_System_String_System_IO_FileMode_System_String_"></a> WrapperStream\(string, FileMode, string\)
+### WrapperStream\(string, FileMode, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.WrapperStream" data-throw-if-not-resolved="false"></xref> class.
 
@@ -48,7 +48,7 @@ The comment.
 
 ## Properties
 
-### <a id="VM_Managed_WrapperStream_CanRead"></a> CanRead
+### CanRead
 
 Gets or sets the readable state.
 
@@ -60,7 +60,7 @@ public override bool CanRead { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_WrapperStream_CanSeek"></a> CanSeek
+### CanSeek
 
 Gets or sets the seekable state.
 
@@ -72,7 +72,7 @@ public override bool CanSeek { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_WrapperStream_CanWrite"></a> CanWrite
+### CanWrite
 
 Gets or sets the writable state.
 
@@ -84,7 +84,7 @@ public override bool CanWrite { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_WrapperStream_Comment"></a> Comment
+### Comment
 
 Gets the comment.
 
@@ -96,7 +96,7 @@ public string Comment { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_WrapperStream_Length"></a> Length
+### Length
 
 Gets the length.
 
@@ -108,7 +108,7 @@ public override long Length { get; }
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="VM_Managed_WrapperStream_PointerSize"></a> PointerSize
+### PointerSize
 
 Gets the size of pointer.
 
@@ -120,7 +120,7 @@ public long PointerSize { get; }
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="VM_Managed_WrapperStream_Position"></a> Position
+### Position
 
 Gets or sets the position.
 
@@ -134,7 +134,7 @@ public override long Position { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_WrapperStream_Close"></a> Close\(\)
+### Close\(\)
 
 Close view.
 
@@ -142,7 +142,7 @@ Close view.
 public override void Close()
 ```
 
-### <a id="VM_Managed_WrapperStream_Flush"></a> Flush\(\)
+### Flush\(\)
 
 Flushes this instance.
 
@@ -150,7 +150,7 @@ Flushes this instance.
 public override void Flush()
 ```
 
-### <a id="VM_Managed_WrapperStream_Read_System_Byte___System_Int32_System_Int32_"></a> Read\(byte\[\], int, int\)
+### Read\(byte\[\], int, int\)
 
 Reads the specified buffer.
 
@@ -176,7 +176,7 @@ The count.
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_WrapperStream_Seek_System_Int64_System_IO_SeekOrigin_"></a> Seek\(long, SeekOrigin\)
+### Seek\(long, SeekOrigin\)
 
 Seeks the specified offset.
 
@@ -198,7 +198,7 @@ The origin.
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### <a id="VM_Managed_WrapperStream_SetLength_System_Int64_"></a> SetLength\(long\)
+### SetLength\(long\)
 
 Sets the length.
 
@@ -212,7 +212,7 @@ public override void SetLength(long len)
 
 The length.
 
-### <a id="VM_Managed_WrapperStream_Write_System_Byte___System_Int32_System_Int32_"></a> Write\(byte\[\], int, int\)
+### Write\(byte\[\], int, int\)
 
 Writes the specified buffer.
 
@@ -233,4 +233,5 @@ The offset.
 `count` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 The count.
+
 

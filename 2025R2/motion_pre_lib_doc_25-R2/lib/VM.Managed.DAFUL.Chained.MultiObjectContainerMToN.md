@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN"></a> Class MultiObjectContainerMToN
+# Class MultiObjectContainerMToN
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -106,7 +106,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN__ctor_System_Collections_ICollection_"></a> MultiObjectContainerMToN\(ICollection\)
+### MultiObjectContainerMToN\(ICollection\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.MultiObjectContainerMToN" data-throw-if-not-resolved="false"></xref> class.
 
@@ -122,7 +122,7 @@ The collection of objects.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN_BaseObjectCollection"></a> BaseObjectCollection
+### BaseObjectCollection
 
 Gets or sets the object list.
 
@@ -134,7 +134,7 @@ protected IList<ObjectBase> BaseObjectCollection { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<ObjectBase\>
 
-### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN_BaseObjectList"></a> BaseObjectList
+### BaseObjectList
 
 Gets or sets the object list.
 
@@ -147,7 +147,7 @@ protected List<Link<ObjectBase, LinkContainer.None, LinkContainer.Update, LinkCo
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Link<ObjectBase, LinkContainer.None, LinkContainer.Update, LinkContainer.None\>\>
 
-### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN_BaseObjects"></a> BaseObjects
+### BaseObjects
 
 Gets or sets the Base objects.
 
@@ -159,7 +159,7 @@ public ObjectBase[] BaseObjects { get; set; }
 
  ObjectBase\[\]
 
-### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN_Count"></a> Count
+### Count
 
 Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -171,7 +171,7 @@ protected override int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN_NumberOfBackward"></a> NumberOfBackward
+### NumberOfBackward
 
 Gets and sets the number of backward segment.
 
@@ -183,7 +183,7 @@ public int NumberOfBackward { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN_NumberOfForward"></a> NumberOfForward
+### NumberOfForward
 
 Gets and sets the number of forward segment.
 
@@ -197,7 +197,7 @@ public int NumberOfForward { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN_GetEnumerator"></a> GetEnumerator\(\)
+### GetEnumerator\(\)
 
 Returns an enumerator that iterates through a collection.
 
@@ -211,7 +211,7 @@ protected override IEnumerator<MultiObjectTarget> GetEnumerator()
 
 An <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> object that can be used to iterate through the collection.
 
-### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainerMToN_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -224,4 +224,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeContactAnalysisSpline"></a> Class MakeContactAnalysisSpline
+# Class MakeContactAnalysisSpline
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeContactAnalysisSpline__ctor_System_Double___System_String_System_String_"></a> MakeContactAnalysisSpline\(double\[\], string, string\)
+### MakeContactAnalysisSpline\(double\[\], string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.MakeContactAnalysisSpline" data-throw-if-not-resolved="false"></xref> class.
 
@@ -99,7 +99,7 @@ Index of the string.
 
 Name of the string.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeContactAnalysisSpline__ctor_VM_Managed_Operation_JournalParameter_"></a> MakeContactAnalysisSpline\(JournalParameter\)
+### MakeContactAnalysisSpline\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.MakeContactAnalysisSpline" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeContactAnalysisSpline_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -129,7 +129,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeContactAnalysisSpline_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -137,7 +137,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeContactAnalysisSpline_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -150,4 +150,5 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CoSim_CoSimIOFunction"></a> Class CoSimIOFunction
+# Class CoSimIOFunction
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_CoSim_CoSimIOFunction__ctor"></a> CoSimIOFunction\(\)
+### CoSimIOFunction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimIOFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimIOFunc
 protected CoSimIOFunction()
 ```
 
-### <a id="VM_Managed_DAFUL_CoSim_CoSimIOFunction__ctor_VM_Managed_DAFUL_CoSim_CoSimIO_"></a> CoSimIOFunction\(CoSimIO\)
+### CoSimIOFunction\(CoSimIO\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimIOFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,4 +121,5 @@ protected CoSimIOFunction(CoSimIO owner)
 `owner` [CoSimIO](VM.Managed.DAFUL.CoSim.CoSimIO.md)
 
 The owner.
+
 

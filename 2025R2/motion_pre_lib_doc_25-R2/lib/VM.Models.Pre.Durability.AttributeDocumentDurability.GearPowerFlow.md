@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_GearPowerFlow"></a> Class AttributeDocumentDurability.GearPowerFlow
+# Class AttributeDocumentDurability.GearPowerFlow
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -22,7 +22,7 @@ public class AttributeDocumentDurability.GearPowerFlow
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_GearPowerFlow__ctor"></a> GearPowerFlow\(\)
+### GearPowerFlow\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Durability.AttributeDocumentDurability.GearPowerFlow" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public GearPowerFlow()
 
 ## Properties
 
-### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_GearPowerFlow_InputRelativeFile"></a> InputRelativeFile
+### InputRelativeFile
 
 Gets or sets the gear results.
 
@@ -43,4 +43,5 @@ public string InputRelativeFile { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_ThermalUserSubroutine"></a> Class ThermalUserSubroutine
+# Class ThermalUserSubroutine
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -76,7 +76,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalUserSubroutine__ctor"></a> ThermalUserSubroutine\(\)
+### ThermalUserSubroutine\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalUserSubroutine" data-throw-if-not-resolved="false"></xref> class.
 
@@ -84,7 +84,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalUs
 public ThermalUserSubroutine()
 ```
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalUserSubroutine__ctor_VM_Managed_DAFUL_Thermal_PropertyThermalBase_"></a> ThermalUserSubroutine\(PropertyThermalBase\)
+### ThermalUserSubroutine\(PropertyThermalBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalUserSubroutine" data-throw-if-not-resolved="false"></xref> class.
 
@@ -100,7 +100,7 @@ The owner thermal property.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalUserSubroutine_Type"></a> Type
+### Type
 
 Gets the function type.
 
@@ -112,7 +112,7 @@ public override ThermalFunction.FunctionType Type { get; }
 
  [ThermalFunction](VM.Managed.DAFUL.Thermal.ThermalFunction.md).[FunctionType](VM.Managed.DAFUL.Thermal.ThermalFunction.FunctionType.md)
 
-### <a id="VM_Managed_DAFUL_Thermal_ThermalUserSubroutine_UserSubroutine"></a> UserSubroutine
+### UserSubroutine
 
 Gets or sets the user subroutine.
 
@@ -123,4 +123,5 @@ public UserSubroutine UserSubroutine { get; set; }
 #### Property Value
 
  UserSubroutine
+
 

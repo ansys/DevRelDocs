@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_PickedFace"></a> Class PickedFace
+# Class PickedFace
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -20,7 +20,7 @@ public class PickedFace
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_PickedFace__ctor"></a> PickedFace\(\)
+### PickedFace\(\)
 
 ```csharp
 public PickedFace()
@@ -28,7 +28,7 @@ public PickedFace()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_PickedFace_ObjectKey"></a> ObjectKey
+### ObjectKey
 
 ```csharp
 public string[] ObjectKey { get; set; }
@@ -37,4 +37,5 @@ public string[] ObjectKey { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
+
 

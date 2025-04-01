@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_SaveFileDialogInfo"></a> Class SaveFileDialogInfo
+# Class SaveFileDialogInfo
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -34,7 +34,7 @@ public class SaveFileDialogInfo : FileDialogInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_SaveFileDialogInfo__ctor"></a> SaveFileDialogInfo\(\)
+### SaveFileDialogInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.SaveFileDialogInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -44,7 +44,7 @@ public SaveFileDialogInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_SaveFileDialogInfo_OverwritePrompt"></a> OverwritePrompt
+### OverwritePrompt
 
 Gets or sets the [overwrite prompt] flag.
 
@@ -55,4 +55,5 @@ public bool OverwritePrompt { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_Chained_ChainedPlacing"></a> Class ChainedPlacing
+# Class ChainedPlacing
 
 Namespace: [VM.Managed.DAFUL.Builder.Chained](VM.Managed.DAFUL.Builder.Chained.md)  
 Assembly: VMBldChained.dll  
@@ -53,7 +53,7 @@ BuilderBase<ChainedPlacing\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_Chained_ChainedPlacing__ctor"></a> ChainedPlacing\(\)
+### ChainedPlacing\(\)
 
 ```csharp
 public ChainedPlacing()
@@ -61,7 +61,7 @@ public ChainedPlacing()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_Chained_ChainedPlacing_ObjectNames"></a> ObjectNames
+### ObjectNames
 
 ```csharp
 public string[] ObjectNames { get; set; }
@@ -73,7 +73,7 @@ public string[] ObjectNames { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_Chained_ChainedPlacing_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -88,4 +88,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Track_Wave"></a> Class Wave
+# Class Wave
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Track_Wave__ctor"></a> Wave\(\)
+### Wave\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.Wave" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Wave()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Track_Wave_DecayFactor"></a> DecayFactor
+### DecayFactor
 
 Gets or sets the Decay Factor.
 
@@ -124,7 +124,7 @@ public ExpressionValueVariable DecayFactor { get; set; }
 
 Decay Factor is null.
 
-### <a id="VM_Managed_DAFUL_Track_Wave_TypeOfPMPeriod"></a> TypeOfPMPeriod
+### TypeOfPMPeriod
 
 Gets or sets the PM period type.
 
@@ -136,7 +136,7 @@ public Wave.PMPeriodType TypeOfPMPeriod { get; set; }
 
  [Wave](VM.Managed.DAFUL.Track.Wave.md).[PMPeriodType](VM.Managed.DAFUL.Track.Wave.PMPeriodType.md)
 
-### <a id="VM_Managed_DAFUL_Track_Wave_TypeOfWave"></a> TypeOfWave
+### TypeOfWave
 
 Gets or sets the wave type.
 
@@ -148,7 +148,7 @@ public Wave.WaveType TypeOfWave { get; set; }
 
  [Wave](VM.Managed.DAFUL.Track.Wave.md).[WaveType](VM.Managed.DAFUL.Track.Wave.WaveType.md)
 
-### <a id="VM_Managed_DAFUL_Track_Wave_UseBreaking"></a> UseBreaking
+### UseBreaking
 
 Gets or sets the breaking use flag.
 
@@ -160,7 +160,7 @@ public bool UseBreaking { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Track_Wave_UserDefinedFile"></a> UserDefinedFile
+### UserDefinedFile
 
 Gets or sets the user defined file.
 
@@ -172,7 +172,7 @@ public string UserDefinedFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Track_Wave_WaveDataSet"></a> WaveDataSet
+### WaveDataSet
 
 Gets or sets the wave dataset.
 
@@ -186,7 +186,7 @@ public WaveData[] WaveDataSet { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Track_Wave_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -199,4 +199,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

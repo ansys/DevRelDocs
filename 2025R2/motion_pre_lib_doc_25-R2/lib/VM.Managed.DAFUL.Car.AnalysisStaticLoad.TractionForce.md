@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_TractionForce"></a> Class AnalysisStaticLoad.TractionForce
+# Class AnalysisStaticLoad.TractionForce
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -31,7 +31,7 @@ public class AnalysisStaticLoad.TractionForce : AnalysisStaticLoad.StaticRoadBas
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_TractionForce__ctor"></a> TractionForce\(\)
+### TractionForce\(\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.TractionForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.TractionForc
 public TractionForce()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_TractionForce__ctor_VM_Models_Pre_ILinkContainer_"></a> TractionForce\(ILinkContainer\)
+### TractionForce\(ILinkContainer\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.TractionForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -52,4 +52,5 @@ public TractionForce(ILinkContainer lnkContainer)
 `lnkContainer` ILinkContainer
 
 The link container.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_Operation_ModeChangeOperationMeshFree"></a> Class ModeChangeOperationMeshFree
+# Class ModeChangeOperationMeshFree
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ModeChangeOperationMeshFree__ctor"></a> ModeChangeOperationMeshFree\(\)
+### ModeChangeOperationMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Operation.ModeChangeOperationMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Operatio
 public ModeChangeOperationMeshFree()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ModeChangeOperationMeshFree__ctor_VM_Managed_Document_"></a> ModeChangeOperationMeshFree\(Document\)
+### ModeChangeOperationMeshFree\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Operation.ModeChangeOperationMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -99,7 +99,7 @@ public ModeChangeOperationMeshFree(Document doc)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ModeChangeOperationMeshFree_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -113,7 +113,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ModeChangeOperationMeshFree_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -121,11 +121,12 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_Operation_ModeChangeOperationMeshFree_PostExecute"></a> PostExecute\(\)
+### PostExecute\(\)
 
 PostExecute the operation.
 
 ```csharp
 public override void PostExecute()
 ```
+
 

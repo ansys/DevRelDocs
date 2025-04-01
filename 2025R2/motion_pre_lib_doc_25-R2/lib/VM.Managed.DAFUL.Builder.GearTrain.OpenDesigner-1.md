@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_OpenDesigner_1"></a> Class OpenDesigner<T\>
+# Class OpenDesigner<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -57,7 +57,7 @@ BuilderBase<T\>.ErrorMessage
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_OpenDesigner_1__ctor"></a> OpenDesigner\(\)
+### OpenDesigner\(\)
 
 ```csharp
 protected OpenDesigner()
@@ -65,7 +65,7 @@ protected OpenDesigner()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_OpenDesigner_1_AlwaysDesignerOpen"></a> AlwaysDesignerOpen
+### AlwaysDesignerOpen
 
 ```csharp
 protected bool AlwaysDesignerOpen { set; }
@@ -75,7 +75,7 @@ protected bool AlwaysDesignerOpen { set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_OpenDesigner_1_HiddenDocument"></a> HiddenDocument
+### HiddenDocument
 
 ```csharp
 protected HiddenDocument HiddenDocument { get; set; }
@@ -85,7 +85,7 @@ protected HiddenDocument HiddenDocument { get; set; }
 
  HiddenDocument
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_OpenDesigner_1_ShowDesigner"></a> ShowDesigner
+### ShowDesigner
 
 ```csharp
 public string ShowDesigner { get; set; }
@@ -97,7 +97,7 @@ public string ShowDesigner { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_OpenDesigner_1_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
+### OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -107,7 +107,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_OpenDesigner_1_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -122,4 +122,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

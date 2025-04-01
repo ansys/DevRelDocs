@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_ShaftSetMeshBase_1"></a> Class ShaftSetMeshBase<TProperty\>
+# Class ShaftSetMeshBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -250,7 +250,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetMeshBase_1__ctor"></a> ShaftSetMeshBase\(\)
+### ShaftSetMeshBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ShaftSetMeshBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -258,7 +258,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ShaftSe
 public ShaftSetMeshBase()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetMeshBase_1__ctor_System_String_"></a> ShaftSetMeshBase\(string\)
+### ShaftSetMeshBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ShaftSetMeshBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -274,7 +274,7 @@ Name of the string.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetMeshBase_1_TargetBody"></a> TargetBody
+### TargetBody
 
 Gets the target body.
 
@@ -288,7 +288,7 @@ public override ObjectBase[] TargetBody { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetMeshBase_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -302,7 +302,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetMeshBase_1_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -315,4 +315,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

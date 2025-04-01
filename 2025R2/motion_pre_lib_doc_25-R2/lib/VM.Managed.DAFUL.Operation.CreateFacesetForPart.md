@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Operation_CreateFacesetForPart"></a> Class CreateFacesetForPart
+# Class CreateFacesetForPart
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFacesetForPart__ctor_VM_Managed_Document_"></a> CreateFacesetForPart\(Document\)
+### CreateFacesetForPart\(Document\)
 
 ```csharp
 public CreateFacesetForPart(Document doc)
@@ -87,7 +87,7 @@ public CreateFacesetForPart(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFacesetForPart__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateFacesetForPart\(JournalParameter\)
+### CreateFacesetForPart\(JournalParameter\)
 
 ```csharp
 public CreateFacesetForPart(JournalParameter jp)
@@ -99,7 +99,7 @@ public CreateFacesetForPart(JournalParameter jp)
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFacesetForPart_m_arnFace"></a> m\_arnFace
+### m\_arnFace
 
 ```csharp
 protected uint[] m_arnFace
@@ -109,7 +109,7 @@ protected uint[] m_arnFace
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFacesetForPart_m_doc"></a> m\_doc
+### m\_doc
 
 ```csharp
 protected IDocument m_doc
@@ -119,7 +119,7 @@ protected IDocument m_doc
 
  IDocument
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFacesetForPart_m_strParent"></a> m\_strParent
+### m\_strParent
 
 ```csharp
 protected string m_strParent
@@ -131,7 +131,7 @@ protected string m_strParent
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFacesetForPart_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -145,7 +145,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFacesetForPart_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -153,7 +153,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_Operation_CreateFacesetForPart_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -162,4 +162,5 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
+
 

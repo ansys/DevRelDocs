@@ -1,4 +1,4 @@
-# <a id="VM_NX_App_Navigator_INavigatorPage"></a> Interface INavigatorPage
+# Interface INavigatorPage
 
 Namespace: [VM.NX.App.Navigator](VM.NX.App.Navigator.md)  
 Assembly: VMDIDef.dll  
@@ -15,7 +15,7 @@ public interface INavigatorPage
 
 ## Properties
 
-### <a id="VM_NX_App_Navigator_INavigatorPage_DoingImport"></a> DoingImport
+### DoingImport
 
 ```csharp
 bool DoingImport { get; set; }
@@ -25,7 +25,7 @@ bool DoingImport { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_App_Navigator_INavigatorPage_SkipChildAdded"></a> SkipChildAdded
+### SkipChildAdded
 
 ```csharp
 bool SkipChildAdded { get; set; }
@@ -37,7 +37,7 @@ bool SkipChildAdded { get; set; }
 
 ## Methods
 
-### <a id="VM_NX_App_Navigator_INavigatorPage_Add_System_String_"></a> Add\(string\)
+### Add\(string\)
 
 ```csharp
 bool Add(string strAddInfo)
@@ -51,7 +51,7 @@ bool Add(string strAddInfo)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_App_Navigator_INavigatorPage_ClearSelectNavItem"></a> ClearSelectNavItem\(\)
+### ClearSelectNavItem\(\)
 
 ```csharp
 bool ClearSelectNavItem()
@@ -61,7 +61,7 @@ bool ClearSelectNavItem()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_App_Navigator_INavigatorPage_Initialize_System_Xml_XmlDocument_"></a> Initialize\(XmlDocument\)
+### Initialize\(XmlDocument\)
 
 ```csharp
 bool Initialize(XmlDocument dom)
@@ -75,7 +75,7 @@ bool Initialize(XmlDocument dom)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_App_Navigator_INavigatorPage_MultipleAdd_System_String_"></a> MultipleAdd\(string\)
+### MultipleAdd\(string\)
 
 ```csharp
 bool MultipleAdd(string strAddInfo)
@@ -89,7 +89,7 @@ bool MultipleAdd(string strAddInfo)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_App_Navigator_INavigatorPage_Remove_System_String_"></a> Remove\(string\)
+### Remove\(string\)
 
 ```csharp
 bool Remove(string strRemoveInfo)
@@ -103,7 +103,7 @@ bool Remove(string strRemoveInfo)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_App_Navigator_INavigatorPage_Rename_System_String_"></a> Rename\(string\)
+### Rename\(string\)
 
 ```csharp
 bool Rename(string strRenameInfo)
@@ -117,13 +117,13 @@ bool Rename(string strRenameInfo)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_App_Navigator_INavigatorPage_SelectRoot"></a> SelectRoot\(\)
+### SelectRoot\(\)
 
 ```csharp
 void SelectRoot()
 ```
 
-### <a id="VM_NX_App_Navigator_INavigatorPage_Update_System_String_"></a> Update\(string\)
+### Update\(string\)
 
 ```csharp
 bool Update(string strUpdateInfo)
@@ -137,7 +137,7 @@ bool Update(string strUpdateInfo)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_App_Navigator_INavigatorPage_UpdateAllTree_System_String_"></a> UpdateAllTree\(string\)
+### UpdateAllTree\(string\)
 
 ```csharp
 bool UpdateAllTree(string strUpdateInfo)
@@ -151,7 +151,7 @@ bool UpdateAllTree(string strUpdateInfo)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_App_Navigator_INavigatorPage_UpdateEnable_System_String_"></a> UpdateEnable\(string\)
+### UpdateEnable\(string\)
 
 ```csharp
 bool UpdateEnable(string strUpdateInfo)
@@ -165,7 +165,7 @@ bool UpdateEnable(string strUpdateInfo)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_App_Navigator_INavigatorPage_UpdateIconForNodalModal_System_String_"></a> UpdateIconForNodalModal\(string\)
+### UpdateIconForNodalModal\(string\)
 
 ```csharp
 bool UpdateIconForNodalModal(string strXml)
@@ -179,7 +179,7 @@ bool UpdateIconForNodalModal(string strXml)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_NX_App_Navigator_INavigatorPage_UpdateRootName_System_String_"></a> UpdateRootName\(string\)
+### UpdateRootName\(string\)
 
 ```csharp
 void UpdateRootName(string strUpdateInfo)
@@ -188,4 +188,5 @@ void UpdateRootName(string strUpdateInfo)
 #### Parameters
 
 `strUpdateInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

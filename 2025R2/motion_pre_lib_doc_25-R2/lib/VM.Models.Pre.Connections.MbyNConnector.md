@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Connections_MbyNConnector"></a> Class MbyNConnector
+# Class MbyNConnector
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
@@ -205,7 +205,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Models_Pre_Connections_MbyNConnector__ctor"></a> MbyNConnector\(\)
+### MbyNConnector\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Connections.MbyNConnector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -213,7 +213,7 @@ Initializes a new instance of the <xref href="VM.Models.Pre.Connections.MbyNConn
 public MbyNConnector()
 ```
 
-### <a id="VM_Models_Pre_Connections_MbyNConnector__ctor_System_String_"></a> MbyNConnector\(string\)
+### MbyNConnector\(string\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Connections.MbyNConnector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -229,7 +229,7 @@ Name of the contact.
 
 ## Properties
 
-### <a id="VM_Models_Pre_Connections_MbyNConnector_ActionMultipleConnectorInformation"></a> ActionMultipleConnectorInformation
+### ActionMultipleConnectorInformation
 
 Gets or sets the action information list.
 
@@ -241,7 +241,7 @@ public MultipleConnectorInfo[] ActionMultipleConnectorInformation { get; set; }
 
  [MultipleConnectorInfo](VM.Models.Pre.Connections.MultipleConnectorInfo.md)\[\]
 
-### <a id="VM_Models_Pre_Connections_MbyNConnector_BaseMultipleConnectorInformation"></a> BaseMultipleConnectorInformation
+### BaseMultipleConnectorInformation
 
 Gets or sets the base information list.
 
@@ -253,7 +253,7 @@ public MultipleConnectorInfo[] BaseMultipleConnectorInformation { get; set; }
 
  [MultipleConnectorInfo](VM.Models.Pre.Connections.MultipleConnectorInfo.md)\[\]
 
-### <a id="VM_Models_Pre_Connections_MbyNConnector_HasLayerExplicitly"></a> HasLayerExplicitly
+### HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -267,7 +267,7 @@ protected override bool HasLayerExplicitly { get; }
 
 ## Methods
 
-### <a id="VM_Models_Pre_Connections_MbyNConnector_OnLinkReserved_VM_Managed_ILink_System_Object_System_EventArgs_"></a> OnLinkReserved\(ILink, object, EventArgs\)
+### OnLinkReserved\(ILink, object, EventArgs\)
 
 ```csharp
 protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs args)
@@ -280,4 +280,5 @@ protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs
 `objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
+
 

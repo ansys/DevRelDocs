@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Linear_PropertyActuatorRotatingMass"></a> Class PropertyActuatorRotatingMass
+# Class PropertyActuatorRotatingMass
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  
@@ -167,7 +167,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorRotatingMass__ctor"></a> PropertyActuatorRotatingMass\(\)
+### PropertyActuatorRotatingMass\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.PropertyActuatorRotatingMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -177,7 +177,7 @@ public PropertyActuatorRotatingMass()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorRotatingMass_Input"></a> Input
+### Input
 
 Gets or sets the input.
 
@@ -189,7 +189,7 @@ public InputType Input { get; set; }
 
  [InputType](VM.Managed.DAFUL.Linear.InputType.md)
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorRotatingMass_Mass"></a> Mass
+### Mass
 
 Gets or sets the mass.
 
@@ -201,7 +201,7 @@ public ExpressionValueVariable Mass { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorRotatingMass_NormalOffset"></a> NormalOffset
+### NormalOffset
 
 Gets or sets the normal offset.
 
@@ -213,7 +213,7 @@ public ExpressionValueVariable NormalOffset { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorRotatingMass_RadialOffset"></a> RadialOffset
+### RadialOffset
 
 Gets or sets the radial offset.
 
@@ -227,7 +227,7 @@ public ExpressionValueVariable RadialOffset { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorRotatingMass_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -240,4 +240,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

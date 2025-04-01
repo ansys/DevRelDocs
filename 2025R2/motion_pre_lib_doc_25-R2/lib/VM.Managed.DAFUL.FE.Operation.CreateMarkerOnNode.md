@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_Operation_CreateMarkerOnNode"></a> Class CreateMarkerOnNode
+# Class CreateMarkerOnNode
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateMarkerOnNode__ctor_VM_Managed_Document_"></a> CreateMarkerOnNode\(Document\)
+### CreateMarkerOnNode\(Document\)
 
 ```csharp
 public CreateMarkerOnNode(Document doc)
@@ -87,7 +87,7 @@ public CreateMarkerOnNode(Document doc)
 
 `doc` Document
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateMarkerOnNode__ctor_VM_Managed_Document_VM_Managed_DAFUL_FE_PointOnNode_VM_Managed_OrientationBase_"></a> CreateMarkerOnNode\(Document, PointOnNode, OrientationBase\)
+### CreateMarkerOnNode\(Document, PointOnNode, OrientationBase\)
 
 ```csharp
 public CreateMarkerOnNode(Document doc, PointOnNode pointOnNode, OrientationBase orientationBase)
@@ -101,7 +101,7 @@ public CreateMarkerOnNode(Document doc, PointOnNode pointOnNode, OrientationBase
 
 `orientationBase` OrientationBase
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateMarkerOnNode__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateMarkerOnNode\(JournalParameter\)
+### CreateMarkerOnNode\(JournalParameter\)
 
 ```csharp
 public CreateMarkerOnNode(JournalParameter jp)
@@ -113,7 +113,7 @@ public CreateMarkerOnNode(JournalParameter jp)
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateMarkerOnNode_Marker"></a> Marker
+### Marker
 
 ```csharp
 public MarkerOnNode Marker { get; }
@@ -123,7 +123,7 @@ public MarkerOnNode Marker { get; }
 
  MarkerOnNode
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateMarkerOnNode_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -137,7 +137,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateMarkerOnNode_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
@@ -145,7 +145,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateMarkerOnNode_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -155,7 +155,7 @@ public override void GetInformation(XmlWriter writer)
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
-### <a id="VM_Managed_DAFUL_FE_Operation_CreateMarkerOnNode_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 ```csharp
 public static void UpdateUI(IUIUpdate updater, Document doc)
@@ -166,4 +166,5 @@ public static void UpdateUI(IUIUpdate updater, Document doc)
 `updater` IUIUpdate
 
 `doc` Document
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowHideDimension"></a> Class ShowHideDimension
+# Class ShowHideDimension
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowHideDimension__ctor"></a> ShowHideDimension\(\)
+### ShowHideDimension\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ShowHideDimension" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operati
 public ShowHideDimension()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowHideDimension__ctor_VM_Managed_Document_"></a> ShowHideDimension\(Document\)
+### ShowHideDimension\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ShowHideDimension" data-throw-if-not-resolved="false"></xref> class.
 
@@ -99,7 +99,7 @@ public ShowHideDimension(Document doc)
 
 The document.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowHideDimension__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowHideDimension\(JournalParameter\)
+### ShowHideDimension\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ShowHideDimension" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowHideDimension_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -129,7 +129,7 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowHideDimension_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
@@ -137,7 +137,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowHideDimension_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -151,7 +151,7 @@ public override void GetInformation(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowHideDimension_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
+### UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -168,4 +168,5 @@ The updater.
 `doc` Document
 
 The document.
+
 

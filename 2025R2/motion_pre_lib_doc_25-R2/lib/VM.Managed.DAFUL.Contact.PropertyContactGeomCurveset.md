@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomCurveset"></a> Class PropertyContactGeomCurveset
+# Class PropertyContactGeomCurveset
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -172,7 +172,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomCurveset__ctor"></a> PropertyContactGeomCurveset\(\)
+### PropertyContactGeomCurveset\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyContactGeomCurveset" data-throw-if-not-resolved="false"></xref> class.
 
@@ -182,7 +182,7 @@ public PropertyContactGeomCurveset()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomCurveset_NumOfSliceBetweenCurve"></a> NumOfSliceBetweenCurve
+### NumOfSliceBetweenCurve
 
 Gets or sets the number of slice between curve.
 
@@ -196,7 +196,7 @@ public ExpressionValueVariable NumOfSliceBetweenCurve { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomCurveset_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -209,4 +209,5 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
+
 

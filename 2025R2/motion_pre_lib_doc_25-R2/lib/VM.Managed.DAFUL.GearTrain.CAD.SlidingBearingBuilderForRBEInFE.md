@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE"></a> Class SlidingBearingBuilderForRBEInFE
+# Class SlidingBearingBuilderForRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -245,7 +245,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE__ctor"></a> SlidingBearingBuilderForRBEInFE\(\)
+### SlidingBearingBuilderForRBEInFE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.SlidingBearingBuilderForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -253,7 +253,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Sli
 public SlidingBearingBuilderForRBEInFE()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE__ctor_VM_Managed_DAFUL_GearTrain_SBGeometryInfo_"></a> SlidingBearingBuilderForRBEInFE\(SBGeometryInfo\)
+### SlidingBearingBuilderForRBEInFE\(SBGeometryInfo\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.SlidingBearingBuilderForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -269,7 +269,7 @@ The information.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE_ConnectableEntity"></a> ConnectableEntity
+### ConnectableEntity
 
 Gets the ConnectableEntity.
 
@@ -281,7 +281,7 @@ public IConnectable ConnectableEntity { get; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE_OffsetToAxisDirection"></a> OffsetToAxisDirection
+### OffsetToAxisDirection
 
 Gets the offset to axis direction.
 
@@ -293,7 +293,7 @@ public override double OffsetToAxisDirection { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE_ParentConnectable"></a> ParentConnectable
+### ParentConnectable
 
 Gets or sets the parent connectable.
 
@@ -305,7 +305,7 @@ public IConnectable ParentConnectable { get; set; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE_Position"></a> Position
+### Position
 
 Gets the position.
 
@@ -317,7 +317,7 @@ public VectorBase Position { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE_Rotation"></a> Rotation
+### Rotation
 
 Gets or sets the rotation.
 Use SetRotation() when this instance sets for undo/redo
@@ -330,7 +330,7 @@ public OMatrix Rotation { get; set; }
 
  OMatrix
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE_StartPoint"></a> StartPoint
+### StartPoint
 
 Gets or sets the start point.
 
@@ -342,7 +342,7 @@ public PointBase StartPoint { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE__ParentConnectable"></a> \_ParentConnectable
+### \_ParentConnectable
 
 Gets or sets the parent connectable.
 
@@ -356,7 +356,7 @@ public Linker<IConnectable> _ParentConnectable { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE_CreateGeometryInFE_VM_Managed_DAFUL_HiddenDocument_VM_Managed_DAFUL_GearTrain_SBGeometryInfo_VM_Managed_DAFUL_IConnectable_System_Boolean_"></a> CreateGeometryInFE\(HiddenDocument, SBGeometryInfo, IConnectable, bool\)
+### CreateGeometryInFE\(HiddenDocument, SBGeometryInfo, IConnectable, bool\)
 
 Creates geometries in hidden document.
 
@@ -388,7 +388,7 @@ The flag for adding to document.
 
 Sliding bearing geometry.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE_DeleteCondition_System_Object_"></a> DeleteCondition\(object\)
+### DeleteCondition\(object\)
 
 ```csharp
 protected override bool DeleteCondition(object objNotifier)
@@ -402,7 +402,7 @@ protected override bool DeleteCondition(object objNotifier)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE_GetCenterPosition"></a> GetCenterPosition\(\)
+### GetCenterPosition\(\)
 
 Gets center position.
 
@@ -414,7 +414,7 @@ public override VectorBase GetCenterPosition()
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE_GetTransform"></a> GetTransform\(\)
+### GetTransform\(\)
 
 Gets the transform sliding bearing in FE Desinger.
 
@@ -426,7 +426,7 @@ public override TMatrix GetTransform()
 
  TMatrix
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilderForRBEInFE_SetRotation_VM_Managed_OMatrix_"></a> SetRotation\(OMatrix\)
+### SetRotation\(OMatrix\)
 
 Set rotation.
 
@@ -439,4 +439,5 @@ public void SetRotation(OMatrix mat)
 `mat` OMatrix
 
 The matrix.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase"></a> Class GearShapeBase
+# Class GearShapeBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -105,7 +105,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase__ctor"></a> GearShapeBase\(\)
+### GearShapeBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearShapeBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ public GearShapeBase()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_AddToProperty"></a> AddToProperty
+### AddToProperty
 
 Gets the flag whether this instance add to property or not.
 
@@ -127,7 +127,7 @@ public virtual bool AddToProperty { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_AddToShaft"></a> AddToShaft
+### AddToShaft
 
 Gets the flag whether this instance add to shaft or not.
 
@@ -139,7 +139,7 @@ public virtual bool AddToShaft { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_ExtraRotateAngle"></a> ExtraRotateAngle
+### ExtraRotateAngle
 
 Gets the extra rotate angle.
 
@@ -151,7 +151,7 @@ public virtual double ExtraRotateAngle { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_GearDepth"></a> GearDepth
+### GearDepth
 
 Gets the gear depth.
 
@@ -163,7 +163,7 @@ public double GearDepth { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_GraphicInvolutePointList"></a> GraphicInvolutePointList
+### GraphicInvolutePointList
 
 Gets or sets the graphic involute points.
 
@@ -175,7 +175,7 @@ public List<GearShapeBase.InvolutePoint> GraphicInvolutePointList { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GearShapeBase](VM.Managed.DAFUL.GearTrain.GearShapeBase.md).[InvolutePoint](VM.Managed.DAFUL.GearTrain.GearShapeBase.InvolutePoint.md)\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_InvolutePointList"></a> InvolutePointList
+### InvolutePointList
 
 Gets or sets the involute points.
 
@@ -187,7 +187,7 @@ public List<GearShapeBase.InvolutePoint> InvolutePointList { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GearShapeBase](VM.Managed.DAFUL.GearTrain.GearShapeBase.md).[InvolutePoint](VM.Managed.DAFUL.GearTrain.GearShapeBase.InvolutePoint.md)\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_IsHideBCD"></a> IsHideBCD
+### IsHideBCD
 
 Gets or sets a value indicating whether [hide BCD].
 
@@ -199,7 +199,7 @@ public bool IsHideBCD { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_IsHidePCD"></a> IsHidePCD
+### IsHidePCD
 
 Gets or sets a value indicating whether [hide PCD].
 
@@ -211,7 +211,7 @@ public bool IsHidePCD { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_IsHideRCD"></a> IsHideRCD
+### IsHideRCD
 
 Gets or sets a value indicating whether [hide RCD].
 
@@ -223,7 +223,7 @@ public bool IsHideRCD { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_IsHideTCD"></a> IsHideTCD
+### IsHideTCD
 
 Gets or sets a value indicating whether [hide TCD].
 
@@ -235,7 +235,7 @@ public bool IsHideTCD { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_MBCDList"></a> MBCDList
+### MBCDList
 
 Gets or sets the MBCD.
 
@@ -247,7 +247,7 @@ public List<Vector> MBCDList { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_ModificationGraphSplineValues"></a> ModificationGraphSplineValues
+### ModificationGraphSplineValues
 
 Gets or sets the modification graph spline values.
 
@@ -269,7 +269,7 @@ SplineValue list is null.
 or
 SplineValue is null.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_NodesetPointList"></a> NodesetPointList
+### NodesetPointList
 
 Gets or sets the nodeset points.
 
@@ -281,7 +281,7 @@ public List<Vector> NodesetPointList { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_ResultSpecification"></a> ResultSpecification
+### ResultSpecification
 
 Gets or sets the result spec.
 
@@ -293,7 +293,7 @@ public GearShapeBase.Spec ResultSpecification { get; set; }
 
  [GearShapeBase](VM.Managed.DAFUL.GearTrain.GearShapeBase.md).[Spec](VM.Managed.DAFUL.GearTrain.GearShapeBase.Spec.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_SummaryOfResult"></a> SummaryOfResult
+### SummaryOfResult
 
 Gets or sets the result summary.
 
@@ -305,7 +305,7 @@ public GearShapeBase.Summary SummaryOfResult { get; set; }
 
  [GearShapeBase](VM.Managed.DAFUL.GearTrain.GearShapeBase.md).[Summary](VM.Managed.DAFUL.GearTrain.GearShapeBase.Summary.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_ToleranceList"></a> ToleranceList
+### ToleranceList
 
 Gets or sets the tolerances.
 
@@ -319,7 +319,7 @@ public List<GearShapeBase.Tolerance> ToleranceList { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_FillSpline_System_Collections_Generic_IEnumerable_VM_Managed_Vector__System_Collections_Generic_List_VM_Vector__System_Double_System_Double_"></a> FillSpline\(IEnumerable<Vector\>, List<Vector\>, double, double\)
+### FillSpline\(IEnumerable<Vector\>, List<Vector\>, double, double\)
 
 ```csharp
 protected void FillSpline(IEnumerable<Vector> source, List<Vector> target, double factorLength, double offset)
@@ -335,7 +335,7 @@ protected void FillSpline(IEnumerable<Vector> source, List<Vector> target, doubl
 
 `offset` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_GetFactorForLength"></a> GetFactorForLength\(\)
+### GetFactorForLength\(\)
 
 Gets the length of the factor for.
 
@@ -347,7 +347,7 @@ protected double GetFactorForLength()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_GetInvolutePointFor2D"></a> GetInvolutePointFor2D\(\)
+### GetInvolutePointFor2D\(\)
 
 Gets the involute point for2 d.
 
@@ -359,7 +359,7 @@ public GearShapeBase.InvolutePoint GetInvolutePointFor2D()
 
  [GearShapeBase](VM.Managed.DAFUL.GearTrain.GearShapeBase.md).[InvolutePoint](VM.Managed.DAFUL.GearTrain.GearShapeBase.InvolutePoint.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
+### GetLengthAndHeight\(ref double, ref double\)
 
 Gets the height of the length and.
 
@@ -377,7 +377,7 @@ Length of the d.
 
 Height of the d.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_GetPropertyOfGearSet"></a> GetPropertyOfGearSet\(\)
+### GetPropertyOfGearSet\(\)
 
 Gets the property of gear set.
 
@@ -389,7 +389,7 @@ protected PropertyGearSetBase GetPropertyOfGearSet()
 
  [PropertyGearSetBase](VM.Managed.DAFUL.GearTrain.PropertyGearSetBase.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -403,7 +403,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_SetInvolutePoints_System_Collections_Generic_List_System_Xml_XmlNode____System_Boolean_"></a> SetInvolutePoints\(List<XmlNode\[\]\>, bool\)
+### SetInvolutePoints\(List<XmlNode\[\]\>, bool\)
 
 Sets the involute points.
 
@@ -421,7 +421,7 @@ The LST point.
 
 The Graphic flag.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_SetInvolutePoints_VM_Managed_Vector___VM_Managed_Vector___System_UInt32_System_UInt32_"></a> SetInvolutePoints\(Vector\[\], Vector\[\], uint, uint\)
+### SetInvolutePoints\(Vector\[\], Vector\[\], uint, uint\)
 
 Sets the involute points.
 
@@ -447,7 +447,7 @@ The No. tooth.
 
 The No. slice.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_SetNodesetPoints_System_Collections_Generic_List_System_Xml_XmlNode__"></a> SetNodesetPoints\(List<XmlNode\>\)
+### SetNodesetPoints\(List<XmlNode\>\)
 
 Sets the nodeset points.
 
@@ -461,7 +461,7 @@ public virtual void SetNodesetPoints(List<XmlNode> lstPoint)
 
 The LST point.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_SetResultSpec_System_Xml_XmlNode_"></a> SetResultSpec\(XmlNode\)
+### SetResultSpec\(XmlNode\)
 
 Sets the result spec.
 
@@ -475,7 +475,7 @@ public virtual void SetResultSpec(XmlNode node)
 
 The node.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_SetResultSpec_VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_System_UInt32_System_UInt32_System_UInt32_System_Double_System_Double_System_Double_"></a> SetResultSpec\(GearData, uint, uint, uint, double, double, double\)
+### SetResultSpec\(GearData, uint, uint, uint, double, double, double\)
 
 Sets the result spec.
 
@@ -513,7 +513,7 @@ The center distance.
 
 The density.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_SetResultSummary_System_Xml_XmlNode_"></a> SetResultSummary\(XmlNode\)
+### SetResultSummary\(XmlNode\)
 
 Sets the result summary.
 
@@ -527,7 +527,7 @@ public void SetResultSummary(XmlNode node)
 
 The node.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_SetResultSummary_VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData_System_Double_System_Double_System_Double_"></a> SetResultSummary\(GearData, double, double, double\)
+### SetResultSummary\(GearData, double, double, double\)
 
 Sets the result summary.
 
@@ -553,7 +553,7 @@ The normal pressure angle.
 
 The helix angle.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Show2D_VM_CAD_Kernel_Render_Canvas_"></a> Show2D\(Canvas\)
+### Show2D\(Canvas\)
 
 Show2D.
 
@@ -567,7 +567,7 @@ public virtual void Show2D(Canvas canvas)
 
 The canvas.
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Show2DCore_VM_CAD_Kernel_Render_Canvas_VM_Managed_OMatrix_"></a> Show2DCore\(Canvas, OMatrix\)
+### Show2DCore\(Canvas, OMatrix\)
 
 Show2D.
 
@@ -584,4 +584,5 @@ The canvas.
 `oMatrix` OMatrix
 
 The normal matrix.
+
 

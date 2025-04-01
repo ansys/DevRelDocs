@@ -1,4 +1,4 @@
-# <a id="VM_Managed_Symmetric_Force_RSpringDamper"></a> Class RSpringDamper
+# Class RSpringDamper
 
 Namespace: [VM.Managed.Symmetric.Force](VM.Managed.Symmetric.Force.md)  
 Assembly: VMSymFB.dll  
@@ -36,7 +36,7 @@ Named<RSpringDamper\>.SymmetricManager
 
 ## Constructors
 
-### <a id="VM_Managed_Symmetric_Force_RSpringDamper__ctor"></a> RSpringDamper\(\)
+### RSpringDamper\(\)
 
 ```csharp
 public RSpringDamper()
@@ -44,7 +44,7 @@ public RSpringDamper()
 
 ## Methods
 
-### <a id="VM_Managed_Symmetric_Force_RSpringDamper_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -77,4 +77,5 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
+
 

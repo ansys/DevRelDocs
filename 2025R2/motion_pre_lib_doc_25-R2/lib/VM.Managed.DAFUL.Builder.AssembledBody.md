@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_AssembledBody"></a> Class AssembledBody
+# Class AssembledBody
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -53,7 +53,7 @@ public class AssembledBody : BuilderNamed<AssembledBody>, IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_AssembledBody__ctor"></a> AssembledBody\(\)
+### AssembledBody\(\)
 
 ```csharp
 public AssembledBody()
@@ -61,7 +61,7 @@ public AssembledBody()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_AssembledBody_PropertyFilePath"></a> PropertyFilePath
+### PropertyFilePath
 
 ```csharp
 public string PropertyFilePath { get; set; }
@@ -73,7 +73,7 @@ public string PropertyFilePath { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_AssembledBody_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -88,4 +88,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

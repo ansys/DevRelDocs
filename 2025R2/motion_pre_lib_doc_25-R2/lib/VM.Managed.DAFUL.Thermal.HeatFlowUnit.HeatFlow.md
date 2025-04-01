@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Thermal_HeatFlowUnit_HeatFlow"></a> Enum HeatFlowUnit.HeatFlow
+# Enum HeatFlowUnit.HeatFlow
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -44,6 +44,7 @@ W.
 `kW = 1` 
 
 kW.
+
 
 
 

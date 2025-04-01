@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Kernel_FacetGeomInfo"></a> Struct FacetGeomInfo
+# Struct FacetGeomInfo
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -9,7 +9,7 @@ public struct FacetGeomInfo
 
 ## Fields
 
-### <a id="VM_CAD_Kernel_FacetGeomInfo_BoundingBox"></a> BoundingBox
+### BoundingBox
 
 ```csharp
 public BoundingBox BoundingBox
@@ -19,7 +19,7 @@ public BoundingBox BoundingBox
 
  [BoundingBox](VM.CAD.Kernel.BoundingBox.md)
 
-### <a id="VM_CAD_Kernel_FacetGeomInfo_Connectivities"></a> Connectivities
+### Connectivities
 
 ```csharp
 public uint[] Connectivities
@@ -29,7 +29,7 @@ public uint[] Connectivities
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
 
-### <a id="VM_CAD_Kernel_FacetGeomInfo_LengthOfEachFace"></a> LengthOfEachFace
+### LengthOfEachFace
 
 ```csharp
 public uint[] LengthOfEachFace
@@ -39,7 +39,7 @@ public uint[] LengthOfEachFace
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
 
-### <a id="VM_CAD_Kernel_FacetGeomInfo_MidPoints"></a> MidPoints
+### MidPoints
 
 ```csharp
 public Vector[] MidPoints
@@ -49,7 +49,7 @@ public Vector[] MidPoints
 
  Vector\[\]
 
-### <a id="VM_CAD_Kernel_FacetGeomInfo_Normals"></a> Normals
+### Normals
 
 ```csharp
 public Vector[] Normals
@@ -59,7 +59,7 @@ public Vector[] Normals
 
  Vector\[\]
 
-### <a id="VM_CAD_Kernel_FacetGeomInfo_NumOfConnectivities"></a> NumOfConnectivities
+### NumOfConnectivities
 
 ```csharp
 public uint[] NumOfConnectivities
@@ -69,7 +69,7 @@ public uint[] NumOfConnectivities
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
 
-### <a id="VM_CAD_Kernel_FacetGeomInfo_StartingSeqOfEachFace"></a> StartingSeqOfEachFace
+### StartingSeqOfEachFace
 
 ```csharp
 public uint[] StartingSeqOfEachFace
@@ -79,7 +79,7 @@ public uint[] StartingSeqOfEachFace
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
 
-### <a id="VM_CAD_Kernel_FacetGeomInfo_Vertices"></a> Vertices
+### Vertices
 
 ```csharp
 public Vector[] Vertices
@@ -88,4 +88,5 @@ public Vector[] Vertices
 #### Field Value
 
  Vector\[\]
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE"></a> Class GearBuilderForRBEInFE
+# Class GearBuilderForRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE__ctor"></a> GearBuilderForRBEInFE\(\)
+### GearBuilderForRBEInFE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.GearBuilderForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -213,7 +213,7 @@ public GearBuilderForRBEInFE()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_BearingPoint"></a> BearingPoint
+### BearingPoint
 
 Gets or sets the bearing point.
 
@@ -225,7 +225,7 @@ public PointBase BearingPoint { get; set; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_ConnectableEntity"></a> ConnectableEntity
+### ConnectableEntity
 
 Gets the ConnectableEntity.
 
@@ -237,7 +237,7 @@ public IConnectable ConnectableEntity { get; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_GearGeometryInformation"></a> GearGeometryInformation
+### GearGeometryInformation
 
 Gets or sets the geometry information.
 
@@ -249,7 +249,7 @@ public GearGeometryInfo GearGeometryInformation { get; set; }
 
  [GearGeometryInfo](VM.Managed.DAFUL.GearTrain.GearGeometryInfo.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_IsDesigner"></a> IsDesigner
+### IsDesigner
 
 Gets or sets a value indicating whether [zero setting].
 Use SetDesigner() when this instance sets for undo/redo
@@ -262,7 +262,7 @@ public bool IsDesigner { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_MateAngle"></a> MateAngle
+### MateAngle
 
 Gets or sets the mate angle.
 Use SetMateAngle() when this instance sets for undo/redo
@@ -275,7 +275,7 @@ public double MateAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_OffsetToAxisDirection"></a> OffsetToAxisDirection
+### OffsetToAxisDirection
 
 Gets the offset to axis direction.
 
@@ -287,7 +287,7 @@ public double OffsetToAxisDirection { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_ParentConnectable"></a> ParentConnectable
+### ParentConnectable
 
 Gets or sets the parent connectable.
 
@@ -299,7 +299,7 @@ public IConnectable ParentConnectable { get; set; }
 
  IConnectable
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_Position"></a> Position
+### Position
 
 Gets the position.
 
@@ -311,7 +311,7 @@ public VectorBase Position { get; }
 
  VectorBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_ReferenceOffset"></a> ReferenceOffset
+### ReferenceOffset
 
 Gets or sets the reference offset on bearing.
 Use SetReferenceOffset() when this instance sets for undo/redo
@@ -324,7 +324,7 @@ public double ReferenceOffset { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_ReferencePoint"></a> ReferencePoint
+### ReferencePoint
 
 Gets or sets the reference point on bearing.
 Use SetReferencePoint() when this instance sets for undo/redo
@@ -337,7 +337,7 @@ public ReferencePointType ReferencePoint { get; set; }
 
  [ReferencePointType](VM.Managed.DAFUL.GearTrain.CAD.ReferencePointType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_Rotation"></a> Rotation
+### Rotation
 
 Gets or sets the rotation.
 Use SetRotation() when this instance sets for undo/redo
@@ -350,7 +350,7 @@ public OMatrix Rotation { get; set; }
 
  OMatrix
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_StartPoint"></a> StartPoint
+### StartPoint
 
 Gets the start point.
 
@@ -362,7 +362,7 @@ public PointBase StartPoint { get; }
 
  PointBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_TypeOfParent"></a> TypeOfParent
+### TypeOfParent
 
 Gets or sets the type of parent.
 Use SetTypeOfParent() when this instance sets for undo/redo
@@ -375,7 +375,7 @@ public GearBuilder.ParentType TypeOfParent { get; set; }
 
  [GearBuilder](VM.Managed.DAFUL.GearTrain.CAD.GearBuilder.md).[ParentType](VM.Managed.DAFUL.GearTrain.CAD.GearBuilder.ParentType.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_ZAxis"></a> ZAxis
+### ZAxis
 
 Gets or sets the start axis.
 
@@ -387,7 +387,7 @@ public DirectionBase ZAxis { get; set; }
 
  DirectionBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE__ParentConnectable"></a> \_ParentConnectable
+### \_ParentConnectable
 
 Gets or sets the parent connectable.
 
@@ -401,7 +401,7 @@ public Linker<IConnectable> _ParentConnectable { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_CreateParameter"></a> CreateParameter\(\)
+### CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -411,7 +411,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -421,7 +421,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
+### GetLengthAndHeight\(ref double, ref double\)
 
 Gets the height of the length and.
 
@@ -439,7 +439,7 @@ Length of the d.
 
 Height of the d.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -453,7 +453,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -471,7 +471,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -489,7 +489,7 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_SetDesigner_System_Boolean_"></a> SetDesigner\(bool\)
+### SetDesigner\(bool\)
 
 Set designer flag.
 
@@ -503,7 +503,7 @@ public void SetDesigner(bool bFlag)
 
 The designer flag.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_SetMateAngle_System_Double_"></a> SetMateAngle\(double\)
+### SetMateAngle\(double\)
 
 Set mate angle.
 
@@ -517,7 +517,7 @@ public void SetMateAngle(double dMateAngle)
 
 The mate angle.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_SetReferenceOffset_System_Double_"></a> SetReferenceOffset\(double\)
+### SetReferenceOffset\(double\)
 
 Set reference offset.
 
@@ -531,7 +531,7 @@ public void SetReferenceOffset(double dOffset)
 
 The reference offset.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_SetReferencePoint_VM_Managed_DAFUL_GearTrain_CAD_ReferencePointType_"></a> SetReferencePoint\(ReferencePointType\)
+### SetReferencePoint\(ReferencePointType\)
 
 Set reference point.
 
@@ -545,7 +545,7 @@ public void SetReferencePoint(ReferencePointType type)
 
 The reference point.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_SetRotation_VM_Managed_OMatrix_"></a> SetRotation\(OMatrix\)
+### SetRotation\(OMatrix\)
 
 Set rotation.
 
@@ -559,7 +559,7 @@ public void SetRotation(OMatrix mat)
 
 The matrix.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_SetTypeOfParent_VM_Managed_DAFUL_GearTrain_CAD_GearBuilder_ParentType_"></a> SetTypeOfParent\(ParentType\)
+### SetTypeOfParent\(ParentType\)
 
 Set type of parent.
 
@@ -573,7 +573,7 @@ public void SetTypeOfParent(GearBuilder.ParentType type)
 
 The type of parent.
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_UpdateGearGeometry"></a> UpdateGearGeometry\(\)
+### UpdateGearGeometry\(\)
 
 Updates the gear geometry.
 
@@ -581,7 +581,7 @@ Updates the gear geometry.
 public void UpdateGearGeometry()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInFE_UpdateGeometry_VM_Managed_DAFUL_HiddenDocument_VM_Managed_DAFUL_GearTrain_CAD_GearBuilder_ParentType_System_String_System_Double_VM_Managed_DAFUL_GearTrain_CAD_ReferencePointType_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> UpdateGeometry\(HiddenDocument, ParentType, string, double, ReferencePointType, VectorBase, VectorBase\)
+### UpdateGeometry\(HiddenDocument, ParentType, string, double, ReferencePointType, VectorBase, VectorBase\)
 
 Updates the geometry.
 
@@ -618,4 +618,5 @@ The vec bearing point.
 `vecZAxis` VectorBase
 
 The vec Axis.
+
 

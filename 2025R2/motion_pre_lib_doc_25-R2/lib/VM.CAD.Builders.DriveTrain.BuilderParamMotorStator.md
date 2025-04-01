@@ -1,4 +1,4 @@
-# <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator"></a> Class BuilderParamMotorStator
+# Class BuilderParamMotorStator
 
 Namespace: [VM.CAD.Builders.DriveTrain](VM.CAD.Builders.DriveTrain.md)  
 Assembly: VM.CAD.Builders.DriveTrain.dll  
@@ -36,7 +36,7 @@ BuilderParamBase.Transparency
 
 ## Constructors
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator__ctor"></a> BuilderParamMotorStator\(\)
+### BuilderParamMotorStator\(\)
 
 ```csharp
 public BuilderParamMotorStator()
@@ -44,7 +44,7 @@ public BuilderParamMotorStator()
 
 ## Properties
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_Bs0"></a> Bs0
+### Bs0
 
 ```csharp
 public double Bs0 { get; set; }
@@ -54,7 +54,7 @@ public double Bs0 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_Bs1"></a> Bs1
+### Bs1
 
 ```csharp
 public double Bs1 { get; set; }
@@ -64,7 +64,7 @@ public double Bs1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_Bs2"></a> Bs2
+### Bs2
 
 ```csharp
 public double Bs2 { get; set; }
@@ -74,7 +74,7 @@ public double Bs2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_GeometryMethod"></a> GeometryMethod
+### GeometryMethod
 
 ```csharp
 public int GeometryMethod { get; set; }
@@ -84,7 +84,7 @@ public int GeometryMethod { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_Hs0"></a> Hs0
+### Hs0
 
 ```csharp
 public double Hs0 { get; set; }
@@ -94,7 +94,7 @@ public double Hs0 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_Hs1"></a> Hs1
+### Hs1
 
 ```csharp
 public double Hs1 { get; set; }
@@ -104,7 +104,7 @@ public double Hs1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_Hs2"></a> Hs2
+### Hs2
 
 ```csharp
 public double Hs2 { get; set; }
@@ -114,7 +114,7 @@ public double Hs2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_ImportBuilder"></a> ImportBuilder
+### ImportBuilder
 
 ```csharp
 public string ImportBuilder { get; set; }
@@ -124,7 +124,7 @@ public string ImportBuilder { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_InnerDiameter"></a> InnerDiameter
+### InnerDiameter
 
 ```csharp
 public double InnerDiameter { get; set; }
@@ -134,7 +134,7 @@ public double InnerDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_IsExistMounting"></a> IsExistMounting
+### IsExistMounting
 
 ```csharp
 public bool IsExistMounting { get; set; }
@@ -144,7 +144,7 @@ public bool IsExistMounting { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_MPCR"></a> MPCR
+### MPCR
 
 ```csharp
 public double MPCR { get; set; }
@@ -154,7 +154,7 @@ public double MPCR { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_NumberOfMounting"></a> NumberOfMounting
+### NumberOfMounting
 
 ```csharp
 public int NumberOfMounting { get; set; }
@@ -164,7 +164,7 @@ public int NumberOfMounting { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_NumberOfSlot"></a> NumberOfSlot
+### NumberOfSlot
 
 ```csharp
 public int NumberOfSlot { get; set; }
@@ -174,7 +174,7 @@ public int NumberOfSlot { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_OuterDiameter"></a> OuterDiameter
+### OuterDiameter
 
 ```csharp
 public double OuterDiameter { get; set; }
@@ -184,7 +184,7 @@ public double OuterDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_Rmf"></a> Rmf
+### Rmf
 
 ```csharp
 public double Rmf { get; set; }
@@ -194,7 +194,7 @@ public double Rmf { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_Rmi"></a> Rmi
+### Rmi
 
 ```csharp
 public double Rmi { get; set; }
@@ -204,7 +204,7 @@ public double Rmi { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_Rmo"></a> Rmo
+### Rmo
 
 ```csharp
 public double Rmo { get; set; }
@@ -214,7 +214,7 @@ public double Rmo { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_RotateAngle"></a> RotateAngle
+### RotateAngle
 
 ```csharp
 public double RotateAngle { get; set; }
@@ -224,7 +224,7 @@ public double RotateAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_CAD_Builders_DriveTrain_BuilderParamMotorStator_Rs"></a> Rs
+### Rs
 
 ```csharp
 public double Rs { get; set; }
@@ -233,4 +233,5 @@ public double Rs { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
+
 

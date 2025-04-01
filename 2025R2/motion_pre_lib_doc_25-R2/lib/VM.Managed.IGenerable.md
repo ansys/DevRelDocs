@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IGenerable"></a> Interface IGenerable
+# Interface IGenerable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,9 +17,9 @@ public interface IGenerable
 
 ## Properties
 
-### <a id="VM_Managed_IGenerable_Generable"></a> Generable
+### Generable
 
-Gets a value indicating whether this instance is generable.
+<p> Gets a value indicating whether this instance is generable.</p>
 
 ```csharp
 bool Generable { get; }
@@ -31,7 +31,7 @@ bool Generable { get; }
 
 ## Methods
 
-### <a id="VM_Managed_IGenerable_ReplaceEntity_VM_Managed_Document_VM_Managed_IGenerable_"></a> ReplaceEntity\(Document, IGenerable\)
+### ReplaceEntity\(Document, IGenerable\)
 
 Replace entity.
 
@@ -48,4 +48,5 @@ The document
 `generableNew` [IGenerable](VM.Managed.IGenerable.md)
 
 The new generable entity
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_IHasParent_1"></a> Interface IHasParent<T\>
+# Interface IHasParent<T\>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -19,7 +19,7 @@ public interface IHasParent<T>
 
 ## Properties
 
-### <a id="VM_IHasParent_1_Parent"></a> Parent
+### Parent
 
 ```csharp
 T Parent { get; }
@@ -28,4 +28,5 @@ T Parent { get; }
 #### Property Value
 
  T
+
 

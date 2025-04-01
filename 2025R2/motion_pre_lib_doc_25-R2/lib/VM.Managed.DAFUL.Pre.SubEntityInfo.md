@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_SubEntityInfo"></a> Class SubEntityInfo
+# Class SubEntityInfo
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -32,7 +32,7 @@ public class SubEntityInfo : DockableWindowInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_SubEntityInfo__ctor"></a> SubEntityInfo\(\)
+### SubEntityInfo\(\)
 
 ```csharp
 public SubEntityInfo()
@@ -40,7 +40,7 @@ public SubEntityInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_SubEntityInfo_InputDocuments"></a> InputDocuments
+### InputDocuments
 
 Gets or sets the input documents.
 
@@ -52,7 +52,7 @@ public List<InputDocument> InputDocuments { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[InputDocument](VM.Managed.DAFUL.Pre.InputDocument.md)\>
 
-### <a id="VM_Managed_DAFUL_Pre_SubEntityInfo_RibbonCommand"></a> RibbonCommand
+### RibbonCommand
 
 Gets or sets the ribbon command.
 
@@ -63,4 +63,5 @@ public string RibbonCommand { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

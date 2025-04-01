@@ -1,4 +1,4 @@
-# <a id="VM_Managed_TransformLink"></a> Class TransformLink
+# Class TransformLink
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -135,7 +135,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_TransformLink__ctor_VM_Managed_ITransform_"></a> TransformLink\(ITransform\)
+### TransformLink\(ITransform\)
 
 Initializes a new instance of the <xref href="VM.Managed.TransformLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -149,7 +149,7 @@ public TransformLink(ITransform pTransform)
 
 The data of transform.
 
-### <a id="VM_Managed_TransformLink__ctor"></a> TransformLink\(\)
+### TransformLink\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.TransformLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -159,7 +159,7 @@ public TransformLink()
 
 ## Fields
 
-### <a id="VM_Managed_TransformLink_m_linkTransform"></a> m\_linkTransform
+### m\_linkTransform
 
 ```csharp
 protected Link<ITransform, LinkContainer.Update, LinkContainer.Destroy, LinkContainer.None> m_linkTransform
@@ -171,7 +171,7 @@ protected Link<ITransform, LinkContainer.Update, LinkContainer.Destroy, LinkCont
 
 ## Properties
 
-### <a id="VM_Managed_TransformLink_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Gets the parametric.
 
@@ -183,7 +183,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_TransformLink_LinkTransform"></a> LinkTransform
+### LinkTransform
 
 Gets or sets the object of design frame or design point.
 
@@ -195,7 +195,7 @@ public ITransform LinkTransform { get; set; }
 
  [ITransform](VM.Managed.ITransform.md)
 
-### <a id="VM_Managed_TransformLink_Orientation"></a> Orientation
+### Orientation
 
 Gets the information of orientation(OMatrix type).
 
@@ -207,7 +207,7 @@ public override OMatrix Orientation { get; }
 
  [OMatrix](VM.Managed.OMatrix.md)
 
-### <a id="VM_Managed_TransformLink_Position"></a> Position
+### Position
 
 Gets the information of position(VectorBase type).
 
@@ -219,7 +219,7 @@ public override VectorBase Position { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_TransformLink_TransformationMatrix"></a> TransformationMatrix
+### TransformationMatrix
 
 Gets the information of transform(TMatrix type).
 
@@ -231,7 +231,7 @@ public override TMatrix TransformationMatrix { get; set; }
 
  [TMatrix](VM.Managed.TMatrix.md)
 
-### <a id="VM_Managed_TransformLink__LinkTransform"></a> \_LinkTransform
+### \_LinkTransform
 
 Gets or sets the object of design frame or design point.
 
@@ -245,7 +245,7 @@ public Linker<ITransform> _LinkTransform { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_TransformLink_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -260,7 +260,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### <a id="VM_Managed_TransformLink_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -276,7 +276,7 @@ protected override void LinkRequestUpdate(object obNotifier, LinkEventArgs arg)
 
 The update event information.
 
-### <a id="VM_Managed_TransformLink_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -290,7 +290,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_TransformLink_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -303,4 +303,5 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

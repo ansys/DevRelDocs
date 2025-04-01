@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_SettingClass"></a> Class SettingClass
+# Class SettingClass
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpreAPI.dll  
@@ -22,7 +22,7 @@ public class SettingClass
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_SettingClass__ctor"></a> SettingClass\(\)
+### SettingClass\(\)
 
 ```csharp
 public SettingClass()
@@ -30,7 +30,7 @@ public SettingClass()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Pre_SettingClass_RootPath"></a> RootPath
+### RootPath
 
 The root path
 
@@ -44,7 +44,7 @@ public static string RootPath
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_SettingClass_DlgPath"></a> DlgPath
+### DlgPath
 
 Gets the dialog path.
 
@@ -56,7 +56,7 @@ public static string DlgPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_SettingClass_HoopsExchangeDirectory"></a> HoopsExchangeDirectory
+### HoopsExchangeDirectory
 
 Gets the Hoops Exchange directory.
 
@@ -68,7 +68,7 @@ public static string HoopsExchangeDirectory { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_SettingClass_KernelCoreModulePath"></a> KernelCoreModulePath
+### KernelCoreModulePath
 
 Gets the kernel core module path.
 
@@ -80,7 +80,7 @@ public static string KernelCoreModulePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_SettingClass_KernelPath"></a> KernelPath
+### KernelPath
 
 Gets the kernel path.
 
@@ -92,7 +92,7 @@ public static string KernelPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_SettingClass_TemplatePath"></a> TemplatePath
+### TemplatePath
 
 Gets the template path.
 
@@ -104,7 +104,7 @@ public static string TemplatePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_SettingClass_TranslatorDirectory"></a> TranslatorDirectory
+### TranslatorDirectory
 
 Gets the translator directory.
 
@@ -116,7 +116,7 @@ public static string TranslatorDirectory { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_SettingClass_UnitPath"></a> UnitPath
+### UnitPath
 
 Gets the unit path.
 
@@ -127,4 +127,5 @@ public static string UnitPath { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

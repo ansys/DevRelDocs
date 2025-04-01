@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Track_BuilderShoe"></a> Class BuilderShoe
+# Class BuilderShoe
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -201,7 +201,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Track_BuilderShoe__ctor"></a> BuilderShoe\(\)
+### BuilderShoe\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.BuilderShoe" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ public BuilderShoe()
 
 ## Fields
 
-### <a id="VM_Managed_CAD_Track_BuilderShoe_m_enShoeType"></a> m\_enShoeType
+### m\_enShoeType
 
 The enum for shoe type.
 
@@ -225,7 +225,7 @@ protected LMShoeType m_enShoeType
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Track_BuilderShoe_Profile"></a> Profile
+### Profile
 
 Gets and sets position data for shoe profile.
 
@@ -237,7 +237,7 @@ public Spline Profile { get; set; }
 
  Spline
 
-### <a id="VM_Managed_CAD_Track_BuilderShoe_ShoeType"></a> ShoeType
+### ShoeType
 
 Gets and sets shoe type.
 
@@ -249,7 +249,7 @@ public LMShoeType ShoeType { get; set; }
 
  [LMShoeType](VM.Managed.CAD.Track.LMShoeType.md)
 
-### <a id="VM_Managed_CAD_Track_BuilderShoe_Transform"></a> Transform
+### Transform
 
 Gets and sets Transformation.
 
@@ -261,7 +261,7 @@ public override sealed TransformBase Transform { get; set; }
 
  TransformBase
 
-### <a id="VM_Managed_CAD_Track_BuilderShoe_Uneditable"></a> Uneditable
+### Uneditable
 
 Gets or sets Uneditable value..
 
@@ -275,7 +275,7 @@ public override bool Uneditable { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Track_BuilderShoe_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
+### SetTransform\(TMatrix\)
 
 Sets the transform information.
 
@@ -288,4 +288,5 @@ public override void SetTransform(TMatrix matT)
 `matT` TMatrix
 
 The transform information.
+
 

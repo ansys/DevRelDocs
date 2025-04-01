@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_IOutputWindow"></a> Interface IOutputWindow
+# Interface IOutputWindow
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -17,7 +17,7 @@ public interface IOutputWindow
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Pre_IOutputWindow_AddMessage_System_String_System_String_"></a> AddMessage\(string, string\)
+### AddMessage\(string, string\)
 
 Adds the message.
 
@@ -35,7 +35,7 @@ Name of the output.
 
 The message.
 
-### <a id="VM_Managed_DAFUL_Pre_IOutputWindow_ClearMessage_System_String_"></a> ClearMessage\(string\)
+### ClearMessage\(string\)
 
 the clear.
 
@@ -47,7 +47,7 @@ void ClearMessage(string strOutputName)
 
 `strOutputName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Pre_IOutputWindow_ReadAllTextFromFile_System_String_System_String_System_Boolean_"></a> ReadAllTextFromFile\(string, string, bool\)
+### ReadAllTextFromFile\(string, string, bool\)
 
 Reads all text from file.
 
@@ -69,7 +69,7 @@ Name of the file.
 
 if set to <code>true</code> [delete file].
 
-### <a id="VM_Managed_DAFUL_Pre_IOutputWindow_ReportFile_System_String_System_String_"></a> ReportFile\(string, string\)
+### ReportFile\(string, string\)
 
 Reports the file.
 
@@ -87,7 +87,7 @@ Name of the output.
 
 Name of the file.
 
-### <a id="VM_Managed_DAFUL_Pre_IOutputWindow_StopReportFile_System_String_"></a> StopReportFile\(string\)
+### StopReportFile\(string\)
 
 Stops the report file.
 
@@ -100,4 +100,5 @@ void StopReportFile(string strOutputName)
 `strOutputName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 Name of the output.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DependentDocEventArgs"></a> Class DependentDocEventArgs
+# Class DependentDocEventArgs
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public sealed class DependentDocEventArgs : EventArgs
 
 ## Constructors
 
-### <a id="VM_Managed_DependentDocEventArgs__ctor_VM_Managed_Document_"></a> DependentDocEventArgs\(Document\)
+### DependentDocEventArgs\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DependentDocEventArgs" data-throw-if-not-resolved="false"></xref> class
 
@@ -39,7 +39,7 @@ The dependent document.
 
 ## Properties
 
-### <a id="VM_Managed_DependentDocEventArgs_DependentDocument"></a> DependentDocument
+### DependentDocument
 
 Gets the dependent document.
 
@@ -50,4 +50,5 @@ public Document DependentDocument { get; }
 #### Property Value
 
  [Document](VM.Managed.Document.md)
+
 

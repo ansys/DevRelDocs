@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_History_SetFaceRemoveEvent"></a> Class SetFaceRemoveEvent
+# Class SetFaceRemoveEvent
 
 Namespace: [VM.Managed.DAFUL.History](VM.Managed.DAFUL.History.md)  
 Assembly: VMDFBase.dll  
@@ -37,7 +37,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_History_SetFaceRemoveEvent__ctor_System_UIntPtr_System_UIntPtr_"></a> SetFaceRemoveEvent\(UIntPtr, UIntPtr\)
+### SetFaceRemoveEvent\(UIntPtr, UIntPtr\)
 
 SetFaceRemoveEvent constructor
 
@@ -57,7 +57,7 @@ key of topology
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_History_SetFaceRemoveEvent_Clear_System_Boolean_"></a> Clear\(bool\)
+### Clear\(bool\)
 
 clear
 
@@ -71,7 +71,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 reference count flag
 
-### <a id="VM_Managed_DAFUL_History_SetFaceRemoveEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
+### Redo\(HistoryEventArgs\)
 
 redo
 
@@ -85,7 +85,7 @@ protected override void Redo(HistoryEventArgs args)
 
 The argument
 
-### <a id="VM_Managed_DAFUL_History_SetFaceRemoveEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
+### Undo\(HistoryEventArgs\)
 
 undo
 
@@ -98,4 +98,5 @@ protected override void Undo(HistoryEventArgs args)
 `args` HistoryEventArgs
 
 The argument
+
 

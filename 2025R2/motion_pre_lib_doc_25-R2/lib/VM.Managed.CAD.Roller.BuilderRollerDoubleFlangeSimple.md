@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple"></a> Class BuilderRollerDoubleFlangeSimple
+# Class BuilderRollerDoubleFlangeSimple
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -235,7 +235,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple__ctor"></a> BuilderRollerDoubleFlangeSimple\(\)
+### BuilderRollerDoubleFlangeSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Roller.BuilderRollerDoubleFlangeSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -245,7 +245,7 @@ public BuilderRollerDoubleFlangeSimple()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_InnerFlangeDiameter"></a> InnerFlangeDiameter
+### InnerFlangeDiameter
 
 Gets and sets inner flange diameter.
 
@@ -257,7 +257,7 @@ public ExpressionValueVariable InnerFlangeDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_InnerFlangeWidth"></a> InnerFlangeWidth
+### InnerFlangeWidth
 
 Gets and sets inner flange width.
 
@@ -269,7 +269,7 @@ public ExpressionValueVariable InnerFlangeWidth { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_OuterFlangeDiameter"></a> OuterFlangeDiameter
+### OuterFlangeDiameter
 
 Gets and sets outer flange diameter.
 
@@ -281,7 +281,7 @@ public ExpressionValueVariable OuterFlangeDiameter { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_OuterFlangeWidth"></a> OuterFlangeWidth
+### OuterFlangeWidth
 
 Gets and sets outer flange width.
 
@@ -293,7 +293,7 @@ public ExpressionValueVariable OuterFlangeWidth { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_RollerType"></a> RollerType
+### RollerType
 
 Gets roller type.
 
@@ -305,7 +305,7 @@ public RollerType RollerType { get; set; }
 
  [RollerType](VM.Managed.CAD.Roller.RollerType.md)
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_TypeOfBuilder"></a> TypeOfBuilder
+### TypeOfBuilder
 
 ```csharp
 public override string TypeOfBuilder { get; set; }
@@ -317,7 +317,7 @@ public override string TypeOfBuilder { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
+### CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -325,7 +325,7 @@ Checks the validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
+### FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -335,7 +335,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -349,7 +349,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_CAD_Roller_BuilderRollerDoubleFlangeSimple_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -366,4 +366,5 @@ The obj notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
+
 

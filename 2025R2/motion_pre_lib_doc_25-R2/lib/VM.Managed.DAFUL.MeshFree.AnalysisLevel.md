@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel"></a> Class AnalysisLevel
+# Class AnalysisLevel
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel__ctor"></a> AnalysisLevel\(\)
+### AnalysisLevel\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.AnalysisLevel" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Analysis
 public AnalysisLevel()
 ```
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel__ctor_System_UInt32_"></a> AnalysisLevel\(uint\)
+### AnalysisLevel\(uint\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.AnalysisLevel" data-throw-if-not-resolved="false"></xref> class width level number.
 
@@ -120,7 +120,7 @@ Level Number.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_Level"></a> Level
+### Level
 
 Gets the level number.
 
@@ -132,7 +132,7 @@ public uint Level { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_LocalRefinementRatio"></a> LocalRefinementRatio
+### LocalRefinementRatio
 
 Gets or sets the ratio of local refinement.
 
@@ -144,7 +144,7 @@ public double LocalRefinementRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_NodeCount"></a> NodeCount
+### NodeCount
 
 Gets or sets the node count.
 
@@ -156,7 +156,7 @@ public uint NodeCount { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_NodeDistance"></a> NodeDistance
+### NodeDistance
 
 Gets or sets the node distance.
 
@@ -175,7 +175,7 @@ public double NodeDistance { get; set; }
 
 The node distance should be same as 0 or bigger than 0.
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_NodeDistanceOriginalX"></a> NodeDistanceOriginalX
+### NodeDistanceOriginalX
 
 Gets or sets the node distance origin X.
 
@@ -187,7 +187,7 @@ public double NodeDistanceOriginalX { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_NodeDistanceOriginalY"></a> NodeDistanceOriginalY
+### NodeDistanceOriginalY
 
 Gets or sets the node distance origin Y.
 
@@ -205,7 +205,7 @@ public double NodeDistanceOriginalY { get; set; }
 
 The node distance should be same as 0 or bigger than 0.
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_NodeDistanceOriginalZ"></a> NodeDistanceOriginalZ
+### NodeDistanceOriginalZ
 
 Gets or sets the node distance origin Z.
 
@@ -217,7 +217,7 @@ public double NodeDistanceOriginalZ { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_NodeDistanceX"></a> NodeDistanceX
+### NodeDistanceX
 
 Gets or sets the node distance X.
 
@@ -229,7 +229,7 @@ public double NodeDistanceX { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_NodeDistanceY"></a> NodeDistanceY
+### NodeDistanceY
 
 Gets or sets the node distance Y.
 
@@ -247,7 +247,7 @@ public double NodeDistanceY { get; set; }
 
 The node distance should be same as 0 or bigger than 0.
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_NodeDistanceZ"></a> NodeDistanceZ
+### NodeDistanceZ
 
 Gets or sets the node distance Z.
 
@@ -259,7 +259,7 @@ public double NodeDistanceZ { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_UseThisLevel"></a> UseThisLevel
+### UseThisLevel
 
 Gets or sets a value indicating whether use [this level].
 
@@ -273,11 +273,12 @@ public bool UseThisLevel { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_MeshFree_AnalysisLevel_OnDeserializationAttribute"></a> OnDeserializationAttribute\(\)
+### OnDeserializationAttribute\(\)
 
 Called when [deserialization attribute].
 
 ```csharp
 public void OnDeserializationAttribute()
 ```
+
 

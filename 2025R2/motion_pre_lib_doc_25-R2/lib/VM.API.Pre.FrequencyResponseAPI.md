@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_FrequencyResponseAPI"></a> Class FrequencyResponseAPI
+# Class FrequencyResponseAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class FrequencyResponseAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_FrequencyResponseAPI_CreateInputChannel_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_Vector_VM_OMatrix_VM_API_Pre_Obj_VM_API_Pre_InputChannelInputType_VM_Managed_DAFUL_Linear_InputModeType_System_String_"></a> CreateInputChannel\(SubSystemDocument, Obj, Vector, OMatrix, Obj, InputChannelInputType, InputModeType, string\)
+### CreateInputChannel\(SubSystemDocument, Obj, Vector, OMatrix, Obj, InputChannelInputType, InputModeType, string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument" })]
@@ -52,7 +52,7 @@ public static Obj CreateInputChannel(this SubSystemDocument subSystemDocument, O
 
  [Obj](VM.API.Pre.Obj.md)
 
-### <a id="VM_API_Pre_FrequencyResponseAPI_CreateOutputChannel_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Nullable_VM_API_Pre_Obj__System_Nullable_VM_API_Pre_Obj__VM_API_Pre_OutputChannelInputType_VM_API_Pre_ChannelDirectionType_System_String_"></a> CreateOutputChannel\(SubSystemDocument, Obj, Obj?, Obj?, OutputChannelInputType, ChannelDirectionType, string\)
+### CreateOutputChannel\(SubSystemDocument, Obj, Obj?, Obj?, OutputChannelInputType, ChannelDirectionType, string\)
 
 Create <xref href="VM.Managed.DAFUL.Linear.ChannelOutput" data-throw-if-not-resolved="false"></xref>.
 
@@ -109,7 +109,7 @@ Will be thrown if 'subSystemDocument', 'actionMarker' is null.
 
 Will be thrown if the type of 'baseMarker', 'referenceMarker' is not <xref href="VM.Managed.IMarker" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_FrequencyResponseAPI_CreateRotatingMassActuatorForForce_VM_Managed_DAFUL_SubSystemDocument_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateRotatingMassActuatorForForce\(SubSystemDocument, ExpressionValueVariable?, ExpressionValueVariable?, string\)
+### CreateRotatingMassActuatorForForce\(SubSystemDocument, ExpressionValueVariable?, ExpressionValueVariable?, string\)
 
 Create <xref href="VM.Managed.DAFUL.Builder.Linear.ActuatorRotatingMass" data-throw-if-not-resolved="false"></xref>.
 
@@ -148,7 +148,7 @@ The new <xref href="VM.Managed.DAFUL.Builder.Linear.ActuatorRotatingMass" data-t
 
 Will be thrown if 'subSystemDocument' is null.
 
-### <a id="VM_API_Pre_FrequencyResponseAPI_CreateRotatingMassActuatorForMoment_VM_Managed_DAFUL_SubSystemDocument_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateRotatingMassActuatorForMoment\(SubSystemDocument, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, string\)
+### CreateRotatingMassActuatorForMoment\(SubSystemDocument, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, string\)
 
 Create <xref href="VM.Managed.DAFUL.Builder.Linear.ActuatorRotatingMass" data-throw-if-not-resolved="false"></xref>.
 
@@ -191,7 +191,7 @@ The new <xref href="VM.Managed.DAFUL.Builder.Linear.ActuatorRotatingMass" data-t
 
 Will be thrown if 'subSystemDocument' is null.
 
-### <a id="VM_API_Pre_FrequencyResponseAPI_CreateSweptSineActuator_VM_Managed_DAFUL_SubSystemDocument_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateSweptSineActuator\(SubSystemDocument, ExpressionValueVariable?, ExpressionValueVariable?, string\)
+### CreateSweptSineActuator\(SubSystemDocument, ExpressionValueVariable?, ExpressionValueVariable?, string\)
 
 Create <xref href="VM.Managed.DAFUL.Builder.Linear.ActuatorSweptSine" data-throw-if-not-resolved="false"></xref>.
 
@@ -229,4 +229,5 @@ The new <xref href="VM.Managed.DAFUL.Builder.Linear.ActuatorSweptSine" data-thro
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'subSystemDocument' is null.
+
 

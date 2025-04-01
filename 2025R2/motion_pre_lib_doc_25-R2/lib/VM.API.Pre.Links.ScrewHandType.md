@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_Links_ScrewHandType"></a> Enum ScrewHandType
+# Enum ScrewHandType
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -20,6 +20,7 @@ left
 `Right = 1` 
 
 right
+
 
 
 

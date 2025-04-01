@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_TransientBatchConfiguration"></a> Class TransientBatchConfiguration
+# Class TransientBatchConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_TransientBatchConfiguration__ctor"></a> TransientBatchConfiguration\(\)
+### TransientBatchConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TransientBatchConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TransientBatc
 public TransientBatchConfiguration()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_TransientBatchConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisTransientBatch_"></a> TransientBatchConfiguration\(AnalysisTransientBatch\)
+### TransientBatchConfiguration\(AnalysisTransientBatch\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TransientBatchConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ The analysis.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_TransientBatchConfiguration_Analysis"></a> Analysis
+### Analysis
 
 Gets or sets the type of the analysis.
 
@@ -233,7 +233,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_TransientBatchConfiguration_AnalysisName"></a> AnalysisName
+### AnalysisName
 
 Gets the name of the analysis.
 
@@ -245,7 +245,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_Car_TransientBatchConfiguration_AnalysisType"></a> AnalysisType
+### AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -257,7 +257,7 @@ public override TireAnalysisType AnalysisType { get; }
 
  [TireAnalysisType](VM.Managed.DAFUL.Car.TireAnalysisType.md)
 
-### <a id="VM_Managed_DAFUL_Car_TransientBatchConfiguration_TransientBatchParam"></a> TransientBatchParam
+### TransientBatchParam
 
 Gets or sets the transient batch parameter.
 
@@ -271,11 +271,12 @@ public AnalysisTransientBatch TransientBatchParam { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_TransientBatchConfiguration_InitializeParam"></a> InitializeParam\(\)
+### InitializeParam\(\)
 
 Initializes the param.
 
 ```csharp
 public override void InitializeParam()
 ```
+
 

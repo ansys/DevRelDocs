@@ -1,4 +1,4 @@
-# <a id="VM_Managed_IHasBuilder"></a> Interface IHasBuilder
+# Interface IHasBuilder
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IHasBuilder
 
 ## Methods
 
-### <a id="VM_Managed_IHasBuilder_GetBuilder"></a> GetBuilder\(\)
+### GetBuilder\(\)
 
 Gets the builders.
 
@@ -30,4 +30,5 @@ ObjectBase[] GetBuilder()
  [ObjectBase](VM.Managed.ObjectBase.md)\[\]
 
 The builders.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ObjectEventCore"></a> Class ObjectEventCore
+# Class ObjectEventCore
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -36,7 +36,7 @@ IHistoryObjectSerializableDelegate
 
 ## Constructors
 
-### <a id="VM_Managed_ObjectEventCore__ctor_VM_Managed_ObjectBase_"></a> ObjectEventCore\(ObjectBase\)
+### ObjectEventCore\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.ObjectEventCore" data-throw-if-not-resolved="false"></xref> class.
 
@@ -50,7 +50,7 @@ public ObjectEventCore(ObjectBase ob)
 
 Name of the object base.
 
-### <a id="VM_Managed_ObjectEventCore__ctor"></a> ObjectEventCore\(\)
+### ObjectEventCore\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.ObjectEventCore" data-throw-if-not-resolved="false"></xref> class.
 
@@ -58,7 +58,7 @@ Initializes a new instance of the <xref href="VM.Managed.ObjectEventCore" data-t
 public ObjectEventCore()
 ```
 
-### <a id="VM_Managed_ObjectEventCore__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ObjectEventCore\(SerializationInfo, StreamingContext\)
+### ObjectEventCore\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.ObjectEventCore" data-throw-if-not-resolved="false"></xref> class.
 
@@ -78,7 +78,7 @@ The context.
 
 ## Properties
 
-### <a id="VM_Managed_ObjectEventCore_Container"></a> Container
+### Container
 
 Gets the container.
 
@@ -90,7 +90,7 @@ public IOwned Container { get; }
 
  IOwned
 
-### <a id="VM_Managed_ObjectEventCore_Document"></a> Document
+### Document
 
 Gets the document.
 
@@ -102,7 +102,7 @@ public Document Document { get; }
 
  [Document](VM.Managed.Document.md)
 
-### <a id="VM_Managed_ObjectEventCore_IsChildExternable"></a> IsChildExternable
+### IsChildExternable
 
 Gets a value indicating whether this instance's child is Externable.
 
@@ -114,7 +114,7 @@ bool IsChildExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_ObjectEventCore_IsExternable"></a> IsExternable
+### IsExternable
 
 Gets a value indicating whether this instance is Externable.
 
@@ -126,7 +126,7 @@ bool IsExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_ObjectEventCore_Object"></a> Object
+### Object
 
 Gets the object.
 
@@ -138,7 +138,7 @@ public ObjectBase Object { get; }
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### <a id="VM_Managed_ObjectEventCore_Owner"></a> Owner
+### Owner
 
 Gets the owner.
 
@@ -152,7 +152,7 @@ public ObjectBase Owner { get; }
 
 ## Methods
 
-### <a id="VM_Managed_ObjectEventCore_Dispose_System_Boolean_"></a> Dispose\(bool\)
+### Dispose\(bool\)
 
 ```csharp
 [HandleProcessCorruptedStateExceptions]
@@ -163,7 +163,7 @@ protected virtual void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_ObjectEventCore_Dispose"></a> Dispose\(\)
+### Dispose\(\)
 
 destroy a instance of the <xref href="VM.Managed.ObjectEventCore" data-throw-if-not-resolved="false"></xref> class.
 
@@ -171,7 +171,7 @@ destroy a instance of the <xref href="VM.Managed.ObjectEventCore" data-throw-if-
 public override sealed void Dispose()
 ```
 
-### <a id="VM_Managed_ObjectEventCore_Finalize"></a> \~ObjectEventCore\(\)
+### \~ObjectEventCore\(\)
 
 Releases unmanaged resources and performs other cleanup operations before the
 <xref href="VM.Managed.ObjectEventCore" data-throw-if-not-resolved="false"></xref> is reclaimed by garbage collection.
@@ -180,7 +180,7 @@ Releases unmanaged resources and performs other cleanup operations before the
 protected ~ObjectEventCore()
 ```
 
-### <a id="VM_Managed_ObjectEventCore_GetInvocationDestroyTargetList"></a> GetInvocationDestroyTargetList\(\)
+### GetInvocationDestroyTargetList\(\)
 
 ```csharp
 public List<ObjectBase> GetInvocationDestroyTargetList()
@@ -190,7 +190,7 @@ public List<ObjectBase> GetInvocationDestroyTargetList()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
-### <a id="VM_Managed_ObjectEventCore_GetInvocationUpdateTargetList"></a> GetInvocationUpdateTargetList\(\)
+### GetInvocationUpdateTargetList\(\)
 
 ```csharp
 public List<ObjectBase> GetInvocationUpdateTargetList()
@@ -200,7 +200,7 @@ public List<ObjectBase> GetInvocationUpdateTargetList()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
-### <a id="VM_Managed_ObjectEventCore_GetObjectDataImpl_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> GetObjectDataImpl\(SerializationInfo, StreamingContext\)
+### GetObjectDataImpl\(SerializationInfo, StreamingContext\)
 
 Serialization function for restore.
 
@@ -218,7 +218,7 @@ The info.
 
 The context.
 
-### <a id="VM_Managed_ObjectEventCore_GetTargetListForUpdate"></a> GetTargetListForUpdate\(\)
+### GetTargetListForUpdate\(\)
 
 Gets a updated objects.
 
@@ -230,7 +230,7 @@ virtual List<IEventProvider> GetTargetListForUpdate()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IEventProvider\>
 
-### <a id="VM_Managed_ObjectEventCore_RemoveInvocationDestroyTargetList_VM_Managed_ObjectBase_"></a> RemoveInvocationDestroyTargetList\(ObjectBase\)
+### RemoveInvocationDestroyTargetList\(ObjectBase\)
 
 ```csharp
 public void RemoveInvocationDestroyTargetList(ObjectBase obj)
@@ -240,13 +240,13 @@ public void RemoveInvocationDestroyTargetList(ObjectBase obj)
 
 `obj` [ObjectBase](VM.Managed.ObjectBase.md)
 
-### <a id="VM_Managed_ObjectEventCore_RemoveInvocationUpdateTargetList"></a> RemoveInvocationUpdateTargetList\(\)
+### RemoveInvocationUpdateTargetList\(\)
 
 ```csharp
 public void RemoveInvocationUpdateTargetList()
 ```
 
-### <a id="VM_Managed_ObjectEventCore_ReplaceImpl_VM_Managed_ObjectEventCore_"></a> ReplaceImpl\(ObjectEventCore\)
+### ReplaceImpl\(ObjectEventCore\)
 
 Replace event core [implementation].
 
@@ -260,7 +260,7 @@ protected virtual void ReplaceImpl(ObjectEventCore coreOld)
 
 The object EventCore.
 
-### <a id="VM_Managed_ObjectEventCore_SetContainer_VM_Models_Pre_IOwned_System_Boolean_"></a> SetContainer\(IOwned, bool\)
+### SetContainer\(IOwned, bool\)
 
 ```csharp
 public virtual void SetContainer(IOwned obOwner, bool bBackup)
@@ -272,7 +272,7 @@ public virtual void SetContainer(IOwned obOwner, bool bBackup)
 
 `bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_ObjectEventCore_SkipUpdateObjectImpl"></a> SkipUpdateObjectImpl\(\)
+### SkipUpdateObjectImpl\(\)
 
 Skip the object that updated.
 
@@ -284,7 +284,7 @@ virtual bool SkipUpdateObjectImpl()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_ObjectEventCore_Swap_VM_Managed_ObjectEventCore_VM_Managed_ObjectEventCore_"></a> Swap\(ObjectEventCore, ObjectEventCore\)
+### Swap\(ObjectEventCore, ObjectEventCore\)
 
 ```csharp
 public static void Swap(ObjectEventCore coreOld, ObjectEventCore coreNew)
@@ -295,4 +295,5 @@ public static void Swap(ObjectEventCore coreOld, ObjectEventCore coreNew)
 `coreOld` [ObjectEventCore](VM.Managed.ObjectEventCore.md)
 
 `coreNew` [ObjectEventCore](VM.Managed.ObjectEventCore.md)
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_GearPairInfoForSubsystem"></a> Class GearPairInfoForSubsystem
+# Class GearPairInfoForSubsystem
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPairInfoForSubsystem__ctor"></a> GearPairInfoForSubsystem\(\)
+### GearPairInfoForSubsystem\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearPairInfoForSubsystem" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public GearPairInfoForSubsystem()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPairInfoForSubsystem_DrivenGearBody"></a> DrivenGearBody
+### DrivenGearBody
 
 Gets or sets the driven gear body.
 
@@ -118,7 +118,7 @@ public Body DrivenGearBody { get; set; }
 
  Body
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPairInfoForSubsystem_DrivingGearBody"></a> DrivingGearBody
+### DrivingGearBody
 
 Gets or sets the driving gear body.
 
@@ -130,7 +130,7 @@ public Body DrivingGearBody { get; set; }
 
  Body
 
-### <a id="VM_Managed_DAFUL_GearTrain_GearPairInfoForSubsystem_PairSequence"></a> PairSequence
+### PairSequence
 
 Gets the pair sequence.
 
@@ -141,4 +141,5 @@ public int PairSequence { get; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 

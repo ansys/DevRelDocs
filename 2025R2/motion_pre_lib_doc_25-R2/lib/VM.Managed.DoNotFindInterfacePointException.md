@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DoNotFindInterfacePointException"></a> Class DoNotFindInterfacePointException
+# Class DoNotFindInterfacePointException
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class DoNotFindInterfacePointException : Exception
 
 ## Constructors
 
-### <a id="VM_Managed_DoNotFindInterfacePointException__ctor_System_String_"></a> DoNotFindInterfacePointException\(string\)
+### DoNotFindInterfacePointException\(string\)
 
 ```csharp
 public DoNotFindInterfacePointException(string strMessage)
@@ -32,4 +32,5 @@ public DoNotFindInterfacePointException(string strMessage)
 #### Parameters
 
 `strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
+
 

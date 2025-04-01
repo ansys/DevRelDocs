@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_SetPatchBase"></a> Class SetPatchBase
+# Class SetPatchBase
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -205,7 +205,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase__ctor_System_String_System_String_"></a> SetPatchBase\(string, string\)
+### SetPatchBase\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.SetPatchBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -223,7 +223,7 @@ Name of the proxy.
 
 The build information.
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase__ctor"></a> SetPatchBase\(\)
+### SetPatchBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.SetPatchBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -233,7 +233,7 @@ public SetPatchBase()
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_m_bActionGeometry"></a> m\_bActionGeometry
+### m\_bActionGeometry
 
 ```csharp
 protected bool m_bActionGeometry
@@ -243,7 +243,7 @@ protected bool m_bActionGeometry
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_m_bBaseGeometry"></a> m\_bBaseGeometry
+### m\_bBaseGeometry
 
 ```csharp
 protected bool m_bBaseGeometry
@@ -253,7 +253,7 @@ protected bool m_bBaseGeometry
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_m_bFailedConnectProxy"></a> m\_bFailedConnectProxy
+### m\_bFailedConnectProxy
 
 ```csharp
 protected bool m_bFailedConnectProxy
@@ -263,7 +263,7 @@ protected bool m_bFailedConnectProxy
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_m_lstPatch"></a> m\_lstPatch
+### m\_lstPatch
 
 ```csharp
 protected List<Patch> m_lstPatch
@@ -275,7 +275,7 @@ protected List<Patch> m_lstPatch
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_ArgumentType"></a> ArgumentType
+### ArgumentType
 
 Gets the type of the argument
 
@@ -287,7 +287,7 @@ public virtual ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_Count"></a> Count
+### Count
 
 Gets the patch count of this instance.
 
@@ -299,7 +299,7 @@ public virtual uint Count { get; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_Gap"></a> Gap
+### Gap
 
 The gap
 
@@ -311,7 +311,7 @@ public virtual ExpressionValueVariable Gap { get; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_GeometryFullName"></a> GeometryFullName
+### GeometryFullName
 
 Gets the geometry full name
 
@@ -323,7 +323,7 @@ public string GeometryFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_GeometryNameForMultiContact"></a> GeometryNameForMultiContact
+### GeometryNameForMultiContact
 
 Gets the name for multiple contact
 
@@ -335,7 +335,7 @@ public string GeometryNameForMultiContact { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_HalfThickness"></a> HalfThickness
+### HalfThickness
 
 Gets a half thickness.
 
@@ -347,7 +347,7 @@ public virtual ExpressionValueVariable HalfThickness { get; set; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_IsVisible"></a> IsVisible
+### IsVisible
 
 Gets or sets a value indicating whether object is visible.
 
@@ -359,7 +359,7 @@ bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_Layer"></a> Layer
+### Layer
 
 Gets or sets the layer.
 
@@ -371,7 +371,7 @@ Layer Layer { get; set; }
 
  Layer
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_MaxPenetration"></a> MaxPenetration
+### MaxPenetration
 
 Gets a maximum penetration.
 
@@ -383,7 +383,7 @@ public virtual ExpressionValueVariable MaxPenetration { get; }
 
  ExpressionValueVariable
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_ReferenceType"></a> ReferenceType
+### ReferenceType
 
 Gets the type of the array for argument.
 
@@ -395,7 +395,7 @@ public virtual string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_SurfaceSmoothingType"></a> SurfaceSmoothingType
+### SurfaceSmoothingType
 
 Gets a surface smoothing.
 
@@ -407,7 +407,7 @@ public virtual SurfaceSmoothing SurfaceSmoothingType { get; set; }
 
  SurfaceSmoothing
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_Item_System_UInt32_"></a> this\[uint\]
+### this\[uint\]
 
 ```csharp
 public Node this[uint A_0] { get; }
@@ -419,7 +419,7 @@ public Node this[uint A_0] { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_AddPatches_VM_Managed_DAFUL_FE_Patch___"></a> AddPatches\(Patch\[\]\)
+### AddPatches\(Patch\[\]\)
 
 Add patches.
 
@@ -433,7 +433,7 @@ public void AddPatches(Patch[] patches)
 
 The patch array.
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_AddPatches_System_Collections_Generic_ICollection_VM_Managed_DAFUL_FE_Patch__"></a> AddPatches\(ICollection<Patch\>\)
+### AddPatches\(ICollection<Patch\>\)
 
 ```csharp
 public virtual void AddPatches(ICollection<Patch> patches)
@@ -443,7 +443,7 @@ public virtual void AddPatches(ICollection<Patch> patches)
 
 `patches` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Patch](VM.Managed.DAFUL.FE.Patch.md)\>
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_GetCenterPositionDirectionImpl_System_UInt32_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetCenterPositionDirectionImpl\(uint, ref VectorBase, ref VectorBase, IReferencable\)
+### GetCenterPositionDirectionImpl\(uint, ref VectorBase, ref VectorBase, IReferencable\)
 
 ```csharp
 protected virtual void GetCenterPositionDirectionImpl(uint index, ref VectorBase center, ref VectorBase direction, IReferencable reference)
@@ -459,7 +459,7 @@ protected virtual void GetCenterPositionDirectionImpl(uint index, ref VectorBase
 
 `reference` IReferencable
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_GetDefaultMaxPenetrationImpl_System_Double__VM_Managed_IReferencable_"></a> GetDefaultMaxPenetrationImpl\(ref double, IReferencable\)
+### GetDefaultMaxPenetrationImpl\(ref double, IReferencable\)
 
 ```csharp
 protected virtual bool GetDefaultMaxPenetrationImpl(ref double dMaxPenetration, IReferencable reference)
@@ -475,7 +475,7 @@ protected virtual bool GetDefaultMaxPenetrationImpl(ref double dMaxPenetration, 
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_GetPointDirectionImpl_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirectionImpl\(ref VectorBase, ref VectorBase, IReferencable\)
+### GetPointDirectionImpl\(ref VectorBase, ref VectorBase, IReferencable\)
 
 ```csharp
 protected virtual bool GetPointDirectionImpl(ref VectorBase point, ref VectorBase direction, IReferencable reference)
@@ -493,7 +493,7 @@ protected virtual bool GetPointDirectionImpl(ref VectorBase point, ref VectorBas
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -510,7 +510,7 @@ public virtual XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_InstantiateImpl_VM_Managed_Reference_VM_CAD_Kernel_Render_Canvas_"></a> InstantiateImpl\(Reference, Canvas\)
+### InstantiateImpl\(Reference, Canvas\)
 
 ```csharp
 protected virtual void InstantiateImpl(Reference reference, Canvas canvas)
@@ -522,7 +522,7 @@ protected virtual void InstantiateImpl(Reference reference, Canvas canvas)
 
 `canvas` Canvas
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 ```csharp
 protected virtual void MakeReferenceImpl(LinkedList<Reference> lstRef)
@@ -532,7 +532,7 @@ protected virtual void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 `lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Reference\>
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -546,7 +546,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_ReadXmlCore_System_Xml_XmlReader_System_Boolean__"></a> ReadXmlCore\(XmlReader, ref bool\)
+### ReadXmlCore\(XmlReader, ref bool\)
 
 ```csharp
 protected virtual void ReadXmlCore(XmlReader reader, ref bool bNeedUpdate)
@@ -558,7 +558,7 @@ protected virtual void ReadXmlCore(XmlReader reader, ref bool bNeedUpdate)
 
 `bNeedUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_RemovePatches_VM_Managed_DAFUL_FE_Patch___"></a> RemovePatches\(Patch\[\]\)
+### RemovePatches\(Patch\[\]\)
 
 Remove patches.
 
@@ -572,7 +572,7 @@ public void RemovePatches(Patch[] patches)
 
 The patch array.
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_RemovePatches_System_Collections_Generic_ICollection_VM_Managed_DAFUL_FE_Patch__"></a> RemovePatches\(ICollection<Patch\>\)
+### RemovePatches\(ICollection<Patch\>\)
 
 ```csharp
 public void RemovePatches(ICollection<Patch> patches)
@@ -582,7 +582,7 @@ public void RemovePatches(ICollection<Patch> patches)
 
 `patches` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Patch](VM.Managed.DAFUL.FE.Patch.md)\>
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_SetGap_System_String_"></a> SetGap\(string\)
+### SetGap\(string\)
 
 Sets the gap
 
@@ -596,7 +596,7 @@ public virtual void SetGap(string strValue)
 
 The value
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_SetLayer_VM_Managed_Layer_"></a> SetLayer\(Layer\)
+### SetLayer\(Layer\)
 
 ```csharp
 protected virtual void SetLayer(Layer value)
@@ -606,7 +606,7 @@ protected virtual void SetLayer(Layer value)
 
 `value` Layer
 
-### <a id="VM_Managed_DAFUL_FE_SetPatchBase_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -619,4 +619,5 @@ public virtual void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

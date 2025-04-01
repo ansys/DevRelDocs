@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Chained_ChainedPlacing"></a> Class ChainedPlacing
+# Class ChainedPlacing
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -166,7 +166,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing__ctor"></a> ChainedPlacing\(\)
+### ChainedPlacing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedPlacing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -174,7 +174,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedPl
 public ChainedPlacing()
 ```
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing__ctor_System_String_"></a> ChainedPlacing\(string\)
+### ChainedPlacing\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedPlacing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -190,7 +190,7 @@ Name of the <xref href="VM.Managed.DAFUL.Chained.ChainedPlacing" data-throw-if-n
 
 ## Fields
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_m_Placing"></a> m\_Placing
+### m\_Placing
 
 This is the position data for construction chained system.
 
@@ -202,7 +202,7 @@ protected Child<Placing, ObjectBase.Update> m_Placing
 
  Child<[Placing](VM.Managed.DAFUL.Chained.Placing.md), ObjectBase.Update\>
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_m_dicConnectors"></a> m\_dicConnectors
+### m\_dicConnectors
 
 This is connector dictionary.
 
@@ -214,7 +214,7 @@ protected Child<NamedObjectDictionary<ChainedObject>, ObjectBase.Update> m_dicCo
 
  Child<NamedObjectDictionary<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>, ObjectBase.Update\>
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_m_dicContacts"></a> m\_dicContacts
+### m\_dicContacts
 
 This is contact dictionary.
 
@@ -226,7 +226,7 @@ protected Child<NamedObjectDictionary<ChainedObject>, ObjectBase.Update> m_dicCo
 
  Child<NamedObjectDictionary<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>, ObjectBase.Update\>
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_m_dicMtoNContacts"></a> m\_dicMtoNContacts
+### m\_dicMtoNContacts
 
 This is contact dictionary.
 
@@ -240,7 +240,7 @@ protected Child<NamedObjectDictionary<ChainedObject>, ObjectBase.Update> m_dicMt
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_BearingFrictionLossList"></a> BearingFrictionLossList
+### BearingFrictionLossList
 
 Gets or sets the bearing friction loss list.
 
@@ -252,7 +252,7 @@ public BearingFrictionLoss[] BearingFrictionLossList { get; set; }
 
  [BearingFrictionLoss](VM.Managed.DAFUL.Chained.BearingFrictionLoss.md)\[\]
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_Connectors"></a> Connectors
+### Connectors
 
 Gets or sets connector dictionary.
 
@@ -264,7 +264,7 @@ public NamedObjectDictionary<ChainedObject> Connectors { get; set; }
 
  NamedObjectDictionary<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_Contacts"></a> Contacts
+### Contacts
 
 Gets or sets contact dictionary.
 
@@ -276,7 +276,7 @@ public NamedObjectDictionary<ChainedObject> Contacts { get; set; }
 
  NamedObjectDictionary<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_MtoNContacts"></a> MtoNContacts
+### MtoNContacts
 
 Gets or sets contact dictionary.
 
@@ -288,7 +288,7 @@ public NamedObjectDictionary<ChainedObject> MtoNContacts { get; set; }
 
  NamedObjectDictionary<[ChainedObject](VM.Managed.DAFUL.Chained.ChainedObject.md)\>
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_Paths"></a> Paths
+### Paths
 
 Gets the paths.
 
@@ -300,7 +300,7 @@ protected override InstanceContainer[] Paths { get; }
 
  InstanceContainer\[\]
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_Placing"></a> Placing
+### Placing
 
 Gets or sets the position data for construction chained system
 
@@ -314,7 +314,7 @@ public Placing Placing { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_AddBearingFrictionLoss_VM_Managed_DAFUL_Chained_BearingFrictionLoss_"></a> AddBearingFrictionLoss\(BearingFrictionLoss\)
+### AddBearingFrictionLoss\(BearingFrictionLoss\)
 
 Adds the bearing friction loss.
 
@@ -328,7 +328,7 @@ public void AddBearingFrictionLoss(BearingFrictionLoss loss)
 
 The loss.
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -342,7 +342,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
+### LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -360,7 +360,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -378,7 +378,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### <a id="VM_Managed_DAFUL_Chained_ChainedPlacing_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -391,4 +391,5 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
+
 

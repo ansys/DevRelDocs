@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection"></a> Class MotorDesigner.RotorSection
+# Class MotorDesigner.RotorSection
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection__ctor"></a> RotorSection\(\)
+### RotorSection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.RotorSection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public RotorSection()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_DummyBody"></a> DummyBody
+### DummyBody
 
 Gets or sets the dummy body.
 
@@ -118,7 +118,7 @@ public SolidBody DummyBody { get; set; }
 
  SolidBody
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_GeometryCreation"></a> GeometryCreation
+### GeometryCreation
 
 Gets or sets the geometry creation.
 
@@ -130,7 +130,7 @@ public MotorDesigner.CreationBase GeometryCreation { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[CreationBase](VM.Managed.DAFUL.GearTrain.MotorDesigner.CreationBase.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_MountRBEs"></a> MountRBEs
+### MountRBEs
 
 Gets or sets the rbe for mount.
 
@@ -142,7 +142,7 @@ public MotorDesigner.RBECreator[] MountRBEs { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[RBECreator](VM.Managed.DAFUL.GearTrain.MotorDesigner.RBECreator.md)\[\]
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_Revolute"></a> Revolute
+### Revolute
 
 Gets or sets the revolute connector.
 
@@ -156,7 +156,7 @@ public General Revolute { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_CanBeDestroy_System_Object_"></a> CanBeDestroy\(object\)
+### CanBeDestroy\(object\)
 
 Whether can be destroy or not.
 
@@ -174,7 +174,7 @@ The destroy object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_ChangeGeometryCreation_VM_Managed_DAFUL_GearTrain_MotorDesigner_GeometryCreationType_"></a> ChangeGeometryCreation\(GeometryCreationType\)
+### ChangeGeometryCreation\(GeometryCreationType\)
 
 Change geometry creation
 
@@ -188,7 +188,7 @@ public void ChangeGeometryCreation(MotorDesigner.GeometryCreationType geometryCr
 
 The geometry creation type
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_CreateBuilder_VM_Managed_Document_"></a> CreateBuilder\(Document\)
+### CreateBuilder\(Document\)
 
 Create builder
 
@@ -206,7 +206,7 @@ The document
 
  [MotorRotorBuiler](VM.Managed.DAFUL.GearTrain.MotorRotorBuiler.md)
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -220,7 +220,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
+### LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -237,4 +237,5 @@ The linked object.
 `arg` LinkEventArgs
 
 The destroy event information.
+
 

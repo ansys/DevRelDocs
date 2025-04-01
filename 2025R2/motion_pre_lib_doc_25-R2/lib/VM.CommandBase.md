@@ -1,4 +1,4 @@
-# <a id="VM_CommandBase"></a> Class CommandBase
+# Class CommandBase
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -40,7 +40,7 @@ public abstract class CommandBase : ObservableObject, IObservableObject, IDispos
 
 ## Constructors
 
-### <a id="VM_CommandBase__ctor_System_Func_System_Object_System_Boolean__"></a> CommandBase\(Func<object, bool\>\)
+### CommandBase\(Func<object, bool\>\)
 
 ```csharp
 public CommandBase(Func<object, bool> canExecute)
@@ -52,7 +52,7 @@ public CommandBase(Func<object, bool> canExecute)
 
 ## Properties
 
-### <a id="VM_CommandBase_Description"></a> Description
+### Description
 
 ```csharp
 public string Description { get; set; }
@@ -62,7 +62,7 @@ public string Description { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_CommandBase_IsExecuting"></a> IsExecuting
+### IsExecuting
 
 ```csharp
 protected bool IsExecuting { get; set; }
@@ -74,7 +74,7 @@ protected bool IsExecuting { get; set; }
 
 ## Methods
 
-### <a id="VM_CommandBase_CanExecute_System_Object_"></a> CanExecute\(object\)
+### CanExecute\(object\)
 
 ```csharp
 public bool CanExecute(object parameter)
@@ -88,19 +88,19 @@ public bool CanExecute(object parameter)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_CommandBase_OnCanExecuteChanged"></a> OnCanExecuteChanged\(\)
+### OnCanExecuteChanged\(\)
 
 ```csharp
 protected void OnCanExecuteChanged()
 ```
 
-### <a id="VM_CommandBase_OnShouldExecute"></a> OnShouldExecute\(\)
+### OnShouldExecute\(\)
 
 ```csharp
 protected void OnShouldExecute()
 ```
 
-### <a id="VM_CommandBase_CanExecuteChanged"></a> CanExecuteChanged
+### CanExecuteChanged
 
 ```csharp
 public virtual event EventHandler CanExecuteChanged
@@ -110,7 +110,7 @@ public virtual event EventHandler CanExecuteChanged
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### <a id="VM_CommandBase_ShouldExecute"></a> ShouldExecute
+### ShouldExecute
 
 ```csharp
 public event EventHandler ShouldExecute
@@ -119,4 +119,5 @@ public event EventHandler ShouldExecute
 #### Event Type
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
+
 

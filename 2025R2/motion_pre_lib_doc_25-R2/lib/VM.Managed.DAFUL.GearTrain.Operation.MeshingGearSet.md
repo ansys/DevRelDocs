@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_GearTrain_Operation_MeshingGearSet"></a> Class MeshingGearSet
+# Class MeshingGearSet
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MeshingGearSet__ctor_System_Collections_Generic_List_System_String__"></a> MeshingGearSet\(List<string\>\)
+### MeshingGearSet\(List<string\>\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.MeshingGearSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -91,7 +91,7 @@ public MeshingGearSet(List<string> lstSelGearSet)
 
 The selectd gearset list.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MeshingGearSet__ctor_VM_Managed_Document_System_Collections_Generic_List_System_String__"></a> MeshingGearSet\(Document, List<string\>\)
+### MeshingGearSet\(Document, List<string\>\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.MeshingGearSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ The document.
 
 The selectd gearset list.
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MeshingGearSet__ctor_VM_Managed_Operation_JournalParameter_"></a> MeshingGearSet\(JournalParameter\)
+### MeshingGearSet\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.MeshingGearSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ The jp.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MeshingGearSet_Name"></a> Name
+### Name
 
 Gets the name.
 
@@ -137,7 +137,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MeshingGearSet_Result"></a> Result
+### Result
 
 Gets or sets the Result.
 
@@ -151,7 +151,7 @@ public Dictionary<string, bool> Result { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MeshingGearSet_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Executes this instance.
 
@@ -159,7 +159,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### <a id="VM_Managed_DAFUL_GearTrain_Operation_MeshingGearSet_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
+### GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -172,4 +172,5 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

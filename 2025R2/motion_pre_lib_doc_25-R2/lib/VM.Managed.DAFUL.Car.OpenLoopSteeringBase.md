@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_OpenLoopSteeringBase"></a> Class OpenLoopSteeringBase
+# Class OpenLoopSteeringBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -49,7 +49,7 @@ IHasInitialVel
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_OpenLoopSteeringBase__ctor"></a> OpenLoopSteeringBase\(\)
+### OpenLoopSteeringBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.OpenLoopSteeringBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -57,7 +57,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.OpenLoopSteer
 public OpenLoopSteeringBase()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_OpenLoopSteeringBase__ctor_VM_Models_Pre_ILinkContainer_"></a> OpenLoopSteeringBase\(ILinkContainer\)
+### OpenLoopSteeringBase\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.OpenLoopSteeringBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -73,7 +73,7 @@ The link container.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_OpenLoopSteeringBase_InitialVelocity"></a> InitialVelocity
+### InitialVelocity
 
 Gets or sets the initial velocity.
 
@@ -85,7 +85,7 @@ public double InitialVelocity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_OpenLoopSteeringBase_VelocityUnitType"></a> VelocityUnitType
+### VelocityUnitType
 
 Gets or sets the velocity unit.
 
@@ -99,7 +99,7 @@ public VelocityUnitType VelocityUnitType { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_OpenLoopSteeringBase_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
+### GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -112,4 +112,5 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
+
 

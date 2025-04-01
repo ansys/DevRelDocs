@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Pre_ControlDocInfo"></a> Class ControlDocInfo
+# Class ControlDocInfo
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -52,7 +52,7 @@ public class ControlDocInfo : DocInfo
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Pre_ControlDocInfo__ctor"></a> ControlDocInfo\(\)
+### ControlDocInfo\(\)
 
 ```csharp
 public ControlDocInfo()
@@ -60,7 +60,7 @@ public ControlDocInfo()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Pre_ControlDocInfo_ControlCreateInfo"></a> ControlCreateInfo
+### ControlCreateInfo
 
 Gets and sets the creation information for control.
 
@@ -71,4 +71,5 @@ public ControlCreateInfo ControlCreateInfo { get; set; }
 #### Property Value
 
  ControlCreateInfo
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_Managed_ObjectBaseEventArgs"></a> Class ObjectBaseEventArgs
+# Class ObjectBaseEventArgs
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -21,7 +21,7 @@ public class ObjectBaseEventArgs : EventArgs
 
 ## Constructors
 
-### <a id="VM_Managed_ObjectBaseEventArgs__ctor_VM_Managed_ObjectBase_"></a> ObjectBaseEventArgs\(ObjectBase\)
+### ObjectBaseEventArgs\(ObjectBase\)
 
 ```csharp
 public ObjectBaseEventArgs(ObjectBase objectBase)
@@ -33,7 +33,7 @@ public ObjectBaseEventArgs(ObjectBase objectBase)
 
 ## Properties
 
-### <a id="VM_Managed_ObjectBaseEventArgs_ObjectBase"></a> ObjectBase
+### ObjectBase
 
 ```csharp
 public ObjectBase ObjectBase { get; }
@@ -42,4 +42,5 @@ public ObjectBase ObjectBase { get; }
 #### Property Value
 
  [ObjectBase](VM.Managed.ObjectBase.md)
+
 

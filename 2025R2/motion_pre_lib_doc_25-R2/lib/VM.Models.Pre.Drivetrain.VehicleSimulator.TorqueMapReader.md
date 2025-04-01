@@ -1,4 +1,4 @@
-# <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMapReader"></a> Class TorqueMapReader
+# Class TorqueMapReader
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -20,7 +20,7 @@ public static class TorqueMapReader
 
 ## Fields
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMapReader_ConfigExtension"></a> ConfigExtension
+### ConfigExtension
 
 ```csharp
 public const string ConfigExtension = ".config"
@@ -30,7 +30,7 @@ public const string ConfigExtension = ".config"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMapReader_MCMExtension"></a> MCMExtension
+### MCMExtension
 
 ```csharp
 public const string MCMExtension = ".mcm"
@@ -40,7 +40,7 @@ public const string MCMExtension = ".mcm"
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMapReader_PWRExtension"></a> PWRExtension
+### PWRExtension
 
 ```csharp
 public const string PWRExtension = ".pwr"
@@ -52,7 +52,7 @@ public const string PWRExtension = ".pwr"
 
 ## Methods
 
-### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_TorqueMapReader_Read_System_String_System_Boolean_"></a> Read\(string, bool\)
+### Read\(string, bool\)
 
 ```csharp
 public static TorqueMap Read(string path, bool isPowerSplitMap = false)
@@ -67,4 +67,5 @@ public static TorqueMap Read(string path, bool isPowerSplitMap = false)
 #### Returns
 
  [TorqueMap](VM.Models.Pre.Drivetrain.VehicleSimulator.TorqueMap.md)
+
 

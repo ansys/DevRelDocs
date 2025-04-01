@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CADOperation"></a> Class CADOperation
+# Class CADOperation
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -22,7 +22,7 @@ public class CADOperation
 
 ## Constructors
 
-### <a id="VM_Managed_CADOperation__ctor"></a> CADOperation\(\)
+### CADOperation\(\)
 
 ```csharp
 public CADOperation()
@@ -30,7 +30,7 @@ public CADOperation()
 
 ## Methods
 
-### <a id="VM_Managed_CADOperation_SetInterfaceNames_VM_Managed_IInterfaceSupport_System_Collections_Generic_Dictionary_VM_Managed_IInterface_System_Collections_Generic_List_System_String___"></a> SetInterfaceNames\(IInterfaceSupport, Dictionary<IInterface, List<string\>\>\)
+### SetInterfaceNames\(IInterfaceSupport, Dictionary<IInterface, List<string\>\>\)
 
 Set interface names.
 
@@ -48,7 +48,7 @@ The document.
 
 The objectbase and interface names.
 
-### <a id="VM_Managed_CADOperation_SetMarkerTramsform_VM_Managed_DesignFrame_VM_Managed_TransformBase_"></a> SetMarkerTramsform\(DesignFrame, TransformBase\)
+### SetMarkerTramsform\(DesignFrame, TransformBase\)
 
 Set marker transform.
 
@@ -66,7 +66,7 @@ The design frame.
 
 The transform.
 
-### <a id="VM_Managed_CADOperation_SetShearModulus_VM_Managed_Material_ISO_System_Boolean_System_String_"></a> SetShearModulus\(ISO, bool, string\)
+### SetShearModulus\(ISO, bool, string\)
 
 Set shear modulus.
 
@@ -87,4 +87,5 @@ Use shear modulus with user input.
 `strShearModulus` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The sherar modulus.
+
 

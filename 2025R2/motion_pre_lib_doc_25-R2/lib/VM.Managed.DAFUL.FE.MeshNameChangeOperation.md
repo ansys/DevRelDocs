@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_FE_MeshNameChangeOperation"></a> Class MeshNameChangeOperation
+# Class MeshNameChangeOperation
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_FE_MeshNameChangeOperation__ctor_VM_Managed_DAFUL_FE_Mesh_System_String_System_String_"></a> MeshNameChangeOperation\(Mesh, string, string\)
+### MeshNameChangeOperation\(Mesh, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.MeshNameChangeOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -101,7 +101,7 @@ The new name.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_FE_MeshNameChangeOperation_IsHistoryMerge"></a> IsHistoryMerge
+### IsHistoryMerge
 
 Gets the merge of history.
 
@@ -113,7 +113,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_FE_MeshNameChangeOperation_Name"></a> Name
+### Name
 
 Gets the operation name.
 
@@ -127,11 +127,12 @@ public override string Name { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_FE_MeshNameChangeOperation_Execute"></a> Execute\(\)
+### Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
+
 

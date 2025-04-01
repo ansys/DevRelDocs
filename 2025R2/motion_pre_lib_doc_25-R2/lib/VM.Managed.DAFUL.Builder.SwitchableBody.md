@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_SwitchableBody"></a> Class SwitchableBody
+# Class SwitchableBody
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -53,7 +53,7 @@ public class SwitchableBody : BuilderNamed<SwitchableBody>, IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_SwitchableBody__ctor"></a> SwitchableBody\(\)
+### SwitchableBody\(\)
 
 ```csharp
 public SwitchableBody()
@@ -61,7 +61,7 @@ public SwitchableBody()
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Builder_SwitchableBody_ObjectNames"></a> ObjectNames
+### ObjectNames
 
 ```csharp
 public string[] ObjectNames { get; set; }
@@ -73,7 +73,7 @@ public string[] ObjectNames { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_SwitchableBody_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
+### OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -88,4 +88,5 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

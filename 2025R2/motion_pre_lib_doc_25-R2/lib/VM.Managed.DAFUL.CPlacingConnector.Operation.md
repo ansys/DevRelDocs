@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_CPlacingConnector_Operation"></a> Namespace VM.Managed.DAFUL.CPlacingConnector.Operation
+# Namespace VM.Managed.DAFUL.CPlacingConnector.Operation
 
 ### Classes
 
@@ -21,4 +21,5 @@ The class for multi key parameter.
  [CalculateSegmentStiffness.UniteParam](VM.Managed.DAFUL.CPlacingConnector.Operation.CalculateSegmentStiffness.UniteParam.md)
 
 The class for unite parameter.
+
 

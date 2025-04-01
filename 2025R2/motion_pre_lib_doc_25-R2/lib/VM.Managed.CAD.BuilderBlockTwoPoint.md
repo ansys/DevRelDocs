@@ -1,4 +1,4 @@
-# <a id="VM_Managed_CAD_BuilderBlockTwoPoint"></a> Class BuilderBlockTwoPoint
+# Class BuilderBlockTwoPoint
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -205,7 +205,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_CAD_BuilderBlockTwoPoint__ctor_VM_Managed_PointBase_VM_Managed_PointBase_"></a> BuilderBlockTwoPoint\(PointBase, PointBase\)
+### BuilderBlockTwoPoint\(PointBase, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderBlockTwoPoint" data-throw-if-not-resolved="false"></xref> class
 
@@ -223,7 +223,7 @@ The first point.
 
 The second point.
 
-### <a id="VM_Managed_CAD_BuilderBlockTwoPoint__ctor_VM_Managed_PointBase_"></a> BuilderBlockTwoPoint\(PointBase\)
+### BuilderBlockTwoPoint\(PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderBlockTwoPoint" data-throw-if-not-resolved="false"></xref> class
 
@@ -237,7 +237,7 @@ public BuilderBlockTwoPoint(PointBase secondPoint)
 
 The second point.
 
-### <a id="VM_Managed_CAD_BuilderBlockTwoPoint__ctor"></a> BuilderBlockTwoPoint\(\)
+### BuilderBlockTwoPoint\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderBlockTwoPoint" data-throw-if-not-resolved="false"></xref> class
 
@@ -247,7 +247,7 @@ public BuilderBlockTwoPoint()
 
 ## Properties
 
-### <a id="VM_Managed_CAD_BuilderBlockTwoPoint_FirstPoint"></a> FirstPoint
+### FirstPoint
 
 Gets or sets the first point of block.
 
@@ -259,7 +259,7 @@ public PointBase FirstPoint { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### <a id="VM_Managed_CAD_BuilderBlockTwoPoint_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Gets the parametric.
 
@@ -271,7 +271,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_CAD_BuilderBlockTwoPoint_SecondPoint"></a> SecondPoint
+### SecondPoint
 
 Gets or sets the second point of block.
 
@@ -283,7 +283,7 @@ public PointBase SecondPoint { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### <a id="VM_Managed_CAD_BuilderBlockTwoPoint__Depth"></a> \_Depth
+### \_Depth
 
 Gets the depth of block.
 
@@ -295,7 +295,7 @@ public override double _Depth { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_BuilderBlockTwoPoint__Height"></a> \_Height
+### \_Height
 
 Gets the height of block.
 
@@ -307,7 +307,7 @@ public override double _Height { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_CAD_BuilderBlockTwoPoint__Transform"></a> \_Transform
+### \_Transform
 
 Gets the transform info. of block.
 
@@ -319,7 +319,7 @@ public override TMatrix _Transform { get; }
 
  [TMatrix](VM.Managed.TMatrix.md)
 
-### <a id="VM_Managed_CAD_BuilderBlockTwoPoint__Width"></a> \_Width
+### \_Width
 
 Gets the width of block.
 
@@ -333,7 +333,7 @@ public override double _Width { get; }
 
 ## Methods
 
-### <a id="VM_Managed_CAD_BuilderBlockTwoPoint_ChangeDataForCircularReference"></a> ChangeDataForCircularReference\(\)
+### ChangeDataForCircularReference\(\)
 
 Change data for circular reference.
 
@@ -341,7 +341,7 @@ Change data for circular reference.
 public override void ChangeDataForCircularReference()
 ```
 
-### <a id="VM_Managed_CAD_BuilderBlockTwoPoint_CheckCircularReference_VM_Managed_ObjectBase_"></a> CheckCircularReference\(ObjectBase\)
+### CheckCircularReference\(ObjectBase\)
 
 Check data for circular reference.
 
@@ -355,7 +355,7 @@ public override void CheckCircularReference(ObjectBase objCM)
 
 The CM.
 
-### <a id="VM_Managed_CAD_BuilderBlockTwoPoint_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
+### Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -369,7 +369,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### <a id="VM_Managed_CAD_BuilderBlockTwoPoint_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
+### SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -382,4 +382,5 @@ public override void SetTransform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform info.
+
 

@@ -1,4 +1,4 @@
-# <a id="VM_API_Pre_CoSimulator_CoSimulatorAPI"></a> Class CoSimulatorAPI
+# Class CoSimulatorAPI
 
 Namespace: [VM.API.Pre.CoSimulator](VM.API.Pre.CoSimulator.md)  
 Assembly: VM.API.Pre.CoSimulator.dll  
@@ -22,7 +22,7 @@ public static class CoSimulatorAPI
 
 ## Methods
 
-### <a id="VM_API_Pre_CoSimulator_CoSimulatorAPI_CreateSInput_VM_Managed_DAFUL_SubSystemDocument_VM_Models_Pre_UnitName_System_String_"></a> CreateSInput\(SubSystemDocument, UnitName, string\)
+### CreateSInput\(SubSystemDocument, UnitName, string\)
 
 Create <xref href="VM.Managed.DAFUL.CoSim.SInput" data-throw-if-not-resolved="false"></xref>.
 
@@ -57,7 +57,7 @@ The new <xref href="VM.Managed.DAFUL.CoSim.SInput" data-throw-if-not-resolved="f
 
 Will be thrown if 'document' is null.
 
-### <a id="VM_API_Pre_CoSimulator_CoSimulatorAPI_CreateSOutput_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_Models_Pre_UnitName_System_String_"></a> CreateSOutput\(SubSystemDocument, Obj, UnitName, string\)
+### CreateSOutput\(SubSystemDocument, Obj, UnitName, string\)
 
 Create <xref href="VM.Managed.DAFUL.CoSim.SOutput" data-throw-if-not-resolved="false"></xref>.
 
@@ -102,7 +102,7 @@ Will be thrown if 'document', 'formula' is null.
 
 Will be thrown if the type of 'formula' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_CoSimulator_CoSimulatorAPI_ExecuteMatlabProcess_VM_API_Pre_Obj_System_String_System_String_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> ExecuteMatlabProcess\(Obj, string, string, IEnumerable<Obj\>, IEnumerable<Obj\>, string, ExpressionValueVariable?\)
+### ExecuteMatlabProcess\(Obj, string, string, IEnumerable<Obj\>, IEnumerable<Obj\>, string, ExpressionValueVariable?\)
 
 Execute process using <xref href="VM.Managed.DAFUL.CoSim.Matlab.MFileGen" data-throw-if-not-resolved="false"></xref>.
 
@@ -161,7 +161,7 @@ Will be thrown if the type of 'inputs' is not <xref href="VM.Managed.DAFUL.CoSim
 
 Will be thrown if 'interfaceTimeStep' value is equal to or less than 0.
 
-### <a id="VM_API_Pre_CoSimulator_CoSimulatorAPI_ExecuteProcess_VM_API_Pre_Obj_System_String_System_String_System_String_"></a> ExecuteProcess\(Obj, string, string, string\)
+### ExecuteProcess\(Obj, string, string, string\)
 
 Execute process using <xref href="VM.Managed.DAFUL.CoSim.FileGen" data-throw-if-not-resolved="false"></xref>.
 
@@ -200,7 +200,7 @@ Will be thrown if 'fileGen', 'strFileName', 'strFileDir', 'strInterfacePath' arg
 
 Will be thrown if the type of 'fileGen' is not <xref href="VM.Managed.DAFUL.CoSim.FileGen" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_CoSimulator_CoSimulatorAPI_ExportMatlabModel_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_System_String_"></a> ExportMatlabModel\(Obj, IEnumerable<Obj\>, IEnumerable<Obj\>, string, string\)
+### ExportMatlabModel\(Obj, IEnumerable<Obj\>, IEnumerable<Obj\>, string, string\)
 
 Export matlab model using <xref href="VM.Managed.DAFUL.CoSim.Matlab.MFileGen" data-throw-if-not-resolved="false"></xref>.
 
@@ -243,7 +243,7 @@ Will be thrown if 'fileGen', 'strFileName', 'strFileDir' arguments are empty.
 
 Will be thrown if the type of 'fileGen' is not <xref href="VM.Managed.DAFUL.CoSim.Matlab.MFileGen" data-throw-if-not-resolved="false"></xref>.
 
-### <a id="VM_API_Pre_CoSimulator_CoSimulatorAPI_ExportModel_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_System_String_System_String_VM_API_Pre_CoSimulator_FMIVersionType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_System_Double_System_Int32_"></a> ExportModel\(Obj, IEnumerable<Obj\>, IEnumerable<Obj\>, string, string, string, FMIVersionType, ExpressionValueVariable?, string, double, int\)
+### ExportModel\(Obj, IEnumerable<Obj\>, IEnumerable<Obj\>, string, string, string, FMIVersionType, ExpressionValueVariable?, string, double, int\)
 
 Export model using <xref href="VM.Managed.DAFUL.CoSim.FileGen" data-throw-if-not-resolved="false"></xref>..
 
@@ -318,7 +318,7 @@ Will be thrown if the type of 'inputs' is not <xref href="VM.Managed.DAFUL.CoSim
 
 Will be thrown if 'interfaceTimeStep' value is equal to or less than 0.
 
-### <a id="VM_API_Pre_CoSimulator_CoSimulatorAPI_GenerateFile_VM_Managed_DAFUL_SubSystemDocument_System_String_"></a> GenerateFile\(SubSystemDocument, string\)
+### GenerateFile\(SubSystemDocument, string\)
 
 Create <xref href="VM.Managed.DAFUL.CoSim.FileGen" data-throw-if-not-resolved="false"></xref>.
 
@@ -349,7 +349,7 @@ The new <xref href="VM.Managed.DAFUL.CoSim.FileGen" data-throw-if-not-resolved="
 
 Will be thrown if 'document' is null.
 
-### <a id="VM_API_Pre_CoSimulator_CoSimulatorAPI_GenerateMatlabFile_VM_Managed_DAFUL_SubSystemDocument_System_String_"></a> GenerateMatlabFile\(SubSystemDocument, string\)
+### GenerateMatlabFile\(SubSystemDocument, string\)
 
 Create <xref href="VM.Managed.DAFUL.CoSim.Matlab.MFileGen" data-throw-if-not-resolved="false"></xref>.
 
@@ -379,4 +379,5 @@ The new <xref href="VM.Managed.DAFUL.CoSim.Matlab.MFileGen" data-throw-if-not-re
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document' is null.
+
 

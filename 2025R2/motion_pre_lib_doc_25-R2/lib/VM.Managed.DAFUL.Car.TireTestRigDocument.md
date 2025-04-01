@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_TireTestRigDocument"></a> Class TireTestRigDocument
+# Class TireTestRigDocument
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -595,7 +595,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument__ctor_System_UIntPtr_"></a> TireTestRigDocument\(UIntPtr\)
+### TireTestRigDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TireTestRigDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -611,7 +611,7 @@ The document handle.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument_ApplyInitialVelocityImpl"></a> ApplyInitialVelocityImpl
+### ApplyInitialVelocityImpl
 
 Whether InitialVelocity is applicable or not
 
@@ -623,7 +623,7 @@ protected override bool ApplyInitialVelocityImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument_InitialCategories"></a> InitialCategories
+### InitialCategories
 
 Gets the initial categories.
 
@@ -635,7 +635,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument_InitialVelocityImpl"></a> InitialVelocityImpl
+### InitialVelocityImpl
 
 Gets the initial velocity
 
@@ -647,7 +647,7 @@ protected override double InitialVelocityImpl { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument_SimulationScenarioTypeName"></a> SimulationScenarioTypeName
+### SimulationScenarioTypeName
 
 Gets the name of the simulation scenario type.
 
@@ -661,7 +661,7 @@ public override string SimulationScenarioTypeName { get; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument_FindCategory_System_String_"></a> FindCategory\(string\)
+### FindCategory\(string\)
 
 Finds the category.
 
@@ -681,7 +681,7 @@ The fullname of type.
 
 The category.
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument_GetAnalysisFromSimulationConfigurations_VM_Managed_DAFUL_Car_TireAnalysisType_"></a> GetAnalysisFromSimulationConfigurations\(TireAnalysisType\)
+### GetAnalysisFromSimulationConfigurations\(TireAnalysisType\)
 
 Gets the analysis from simulation configurations.
 
@@ -699,7 +699,7 @@ The type.
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument_GetSimulationConfigurationType"></a> GetSimulationConfigurationType\(\)
+### GetSimulationConfigurationType\(\)
 
 Gets the type of the simulation configuration.
 
@@ -713,7 +713,7 @@ public override string GetSimulationConfigurationType()
 
 The type of the simulation configuration.
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument_GetTireConfigurationFromSimulationConfigurations_VM_Managed_DAFUL_Car_TireAnalysisType_"></a> GetTireConfigurationFromSimulationConfigurations\(TireAnalysisType\)
+### GetTireConfigurationFromSimulationConfigurations\(TireAnalysisType\)
 
 Gets the tire configuration from simulation configurations.
 
@@ -731,7 +731,7 @@ The type.
 
  [TireAnalysisConfigurationBase](VM.Managed.DAFUL.Car.TireAnalysisConfigurationBase.md)
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
+### InitializeCategoryInfo\(string\)
 
 Initializes the category info.
 
@@ -745,7 +745,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the STR category.
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument_InitializeSimParam"></a> InitializeSimParam\(\)
+### InitializeSimParam\(\)
 
 Initializes the simulation parameter.
 
@@ -753,7 +753,7 @@ Initializes the simulation parameter.
 protected override void InitializeSimParam()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument_LoadTemplateBasedXml_System_Xml_XmlReader_"></a> LoadTemplateBasedXml\(XmlReader\)
+### LoadTemplateBasedXml\(XmlReader\)
 
 Loads the XML for template based document.
 
@@ -767,7 +767,7 @@ protected override void LoadTemplateBasedXml(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument_ReplaceAssembly_System_String_"></a> ReplaceAssembly\(string\)
+### ReplaceAssembly\(string\)
 
 Replaces the assembly.
 
@@ -781,7 +781,7 @@ public override void ReplaceAssembly(string strAssemblyInfo)
 
 The assembly info.
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument_SaveTemplateBasedXml_System_Xml_XmlWriter_"></a> SaveTemplateBasedXml\(XmlWriter\)
+### SaveTemplateBasedXml\(XmlWriter\)
 
 Saves the XML for template based document.
 
@@ -795,7 +795,7 @@ protected override void SaveTemplateBasedXml(XmlWriter writer)
 
 The writer.
 
-### <a id="VM_Managed_DAFUL_Car_TireTestRigDocument_SetTemplateInfoImpl_VM_Managed_DocFromTemplateInfo_"></a> SetTemplateInfoImpl\(DocFromTemplateInfo\)
+### SetTemplateInfoImpl\(DocFromTemplateInfo\)
 
 Sets the template info. [Implemetation]
 
@@ -808,4 +808,5 @@ protected override void SetTemplateInfoImpl(DocFromTemplateInfo docTemplateInfo)
 `docTemplateInfo` DocFromTemplateInfo
 
 The doc template info.
+
 

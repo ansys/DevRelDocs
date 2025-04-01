@@ -1,4 +1,4 @@
-# <a id="VM_Managed_MeshFreeAnalysisLevelInfoCli"></a> Class MeshFreeAnalysisLevelInfoCli
+# Class MeshFreeAnalysisLevelInfoCli
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class MeshFreeAnalysisLevelInfoCli
 
 ## Constructors
 
-### <a id="VM_Managed_MeshFreeAnalysisLevelInfoCli__ctor"></a> MeshFreeAnalysisLevelInfoCli\(\)
+### MeshFreeAnalysisLevelInfoCli\(\)
 
 ```csharp
 public MeshFreeAnalysisLevelInfoCli()
@@ -30,7 +30,7 @@ public MeshFreeAnalysisLevelInfoCli()
 
 ## Methods
 
-### <a id="VM_Managed_MeshFreeAnalysisLevelInfoCli_MeshFreeNodeInformation_VM_Managed_VectorBase_System_Double_System_Int32_System_Collections_Generic_List_System_Double___System_Collections_Generic_List_System_UInt32___"></a> MeshFreeNodeInformation\(VectorBase, double, int, ref List<double\>, ref List<uint\>\)
+### MeshFreeNodeInformation\(VectorBase, double, int, ref List<double\>, ref List<uint\>\)
 
 ```csharp
 public static bool MeshFreeNodeInformation(VectorBase vecBoundary, double dVolume, int nMaxLevel, ref List<double> lstNodeDistance, ref List<uint> lstNodeCount)
@@ -51,4 +51,5 @@ public static bool MeshFreeNodeInformation(VectorBase vecBoundary, double dVolum
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
+
 

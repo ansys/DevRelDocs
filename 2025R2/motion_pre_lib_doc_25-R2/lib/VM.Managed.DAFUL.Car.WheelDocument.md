@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Car_WheelDocument"></a> Class WheelDocument
+# Class WheelDocument
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -574,7 +574,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Car_WheelDocument__ctor_System_UIntPtr_"></a> WheelDocument\(UIntPtr\)
+### WheelDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.DriveLineDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -590,7 +590,7 @@ The document handle.
 
 ## Properties
 
-### <a id="VM_Managed_DAFUL_Car_WheelDocument_InitialCategories"></a> InitialCategories
+### InitialCategories
 
 Gets the initial categories.
 
@@ -602,7 +602,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### <a id="VM_Managed_DAFUL_Car_WheelDocument_Interfaces"></a> Interfaces
+### Interfaces
 
 Gets the interfaces.
 
@@ -614,7 +614,7 @@ protected override InterfaceManager Interfaces { get; }
 
  InterfaceManager
 
-### <a id="VM_Managed_DAFUL_Car_WheelDocument_MinorRoleType"></a> MinorRoleType
+### MinorRoleType
 
 Gets or sets the type of the minor role.
 
@@ -628,7 +628,7 @@ public MinorRole MinorRoleType { get; set; }
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Car_WheelDocument_ClearDocument"></a> ClearDocument\(\)
+### ClearDocument\(\)
 
 Clears the document.
 
@@ -636,7 +636,7 @@ Clears the document.
 protected override void ClearDocument()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_WheelDocument_FindCategory_System_String_"></a> FindCategory\(string\)
+### FindCategory\(string\)
 
 Finds the category.
 
@@ -656,7 +656,7 @@ The fullname of type.
 
 The category.
 
-### <a id="VM_Managed_DAFUL_Car_WheelDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
+### InitializeCategoryInfo\(string\)
 
 Initializes the category info.
 
@@ -670,7 +670,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the STR category.
 
-### <a id="VM_Managed_DAFUL_Car_WheelDocument_InitializeInterface"></a> InitializeInterface\(\)
+### InitializeInterface\(\)
 
 Initializes the interface.
 
@@ -678,7 +678,7 @@ Initializes the interface.
 protected override void InitializeInterface()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_WheelDocument_InitializeSimParam"></a> InitializeSimParam\(\)
+### InitializeSimParam\(\)
 
 Initializes the simulation parameter.
 
@@ -686,7 +686,7 @@ Initializes the simulation parameter.
 protected override void InitializeSimParam()
 ```
 
-### <a id="VM_Managed_DAFUL_Car_WheelDocument_LoadTemplateBasedXml_System_Xml_XmlReader_"></a> LoadTemplateBasedXml\(XmlReader\)
+### LoadTemplateBasedXml\(XmlReader\)
 
 Loads the XML for template based document.
 
@@ -700,7 +700,7 @@ protected override void LoadTemplateBasedXml(XmlReader reader)
 
 The reader.
 
-### <a id="VM_Managed_DAFUL_Car_WheelDocument_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
+### OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -714,7 +714,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### <a id="VM_Managed_DAFUL_Car_WheelDocument_SaveTemplateBasedXml_System_Xml_XmlWriter_"></a> SaveTemplateBasedXml\(XmlWriter\)
+### SaveTemplateBasedXml\(XmlWriter\)
 
 Saves the XML for template based document.
 
@@ -727,4 +727,5 @@ protected override void SaveTemplateBasedXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
+
 

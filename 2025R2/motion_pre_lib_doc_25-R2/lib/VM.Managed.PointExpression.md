@@ -1,4 +1,4 @@
-# <a id="VM_Managed_PointExpression"></a> Class PointExpression
+# Class PointExpression
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -107,7 +107,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_PointExpression__ctor_VM_Managed_VectorBase_"></a> PointExpression\(VectorBase\)
+### PointExpression\(VectorBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointExpression" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ public PointExpression(VectorBase vecPosition)
 
 Value of position.
 
-### <a id="VM_Managed_PointExpression__ctor_System_Double_System_Double_System_Double_"></a> PointExpression\(double, double, double\)
+### PointExpression\(double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointExpression" data-throw-if-not-resolved="false"></xref> class.
 
@@ -143,7 +143,7 @@ Value of Y.
 
 Value of Z.
 
-### <a id="VM_Managed_PointExpression__ctor"></a> PointExpression\(\)
+### PointExpression\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointExpression" data-throw-if-not-resolved="false"></xref> class.
 
@@ -153,7 +153,7 @@ public PointExpression()
 
 ## Properties
 
-### <a id="VM_Managed_PointExpression_Expression"></a> Expression
+### Expression
 
 Gets or sets the value of point.
 
@@ -165,7 +165,7 @@ protected Point Expression { get; set; }
 
  [Point](VM.Managed.Point.md)
 
-### <a id="VM_Managed_PointExpression_IsParameterized"></a> IsParameterized
+### IsParameterized
 
 Get the parametric.
 
@@ -177,7 +177,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Managed_PointExpression_Value"></a> Value
+### Value
 
 Get the VectorBase(x, y, z).
 
@@ -189,7 +189,7 @@ public override VectorBase Value { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### <a id="VM_Managed_PointExpression_X"></a> X
+### X
 
 Get the X point.
 
@@ -201,7 +201,7 @@ public override double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_PointExpression_Y"></a> Y
+### Y
 
 Get the Y point.
 
@@ -213,7 +213,7 @@ public override double Y { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Managed_PointExpression_Z"></a> Z
+### Z
 
 Get the Z point.
 
@@ -227,7 +227,7 @@ public override double Z { get; }
 
 ## Methods
 
-### <a id="VM_Managed_PointExpression_ChangeExpresstionForDV_System_String_System_String_"></a> ChangeExpresstionForDV\(string, string\)
+### ChangeExpresstionForDV\(string, string\)
 
 ```csharp
 public void ChangeExpresstionForDV(string strOldName, string strNewName)
@@ -239,7 +239,7 @@ public void ChangeExpresstionForDV(string strOldName, string strNewName)
 
 `strNewName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### <a id="VM_Managed_PointExpression_GetSchema"></a> GetSchema\(\)
+### GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -254,7 +254,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### <a id="VM_Managed_PointExpression_IsParametric_VM_Managed_Primitive_enRefType_"></a> IsParametric\(enRefType\)
+### IsParametric\(enRefType\)
 
 Gets parametric.
 
@@ -274,7 +274,7 @@ Point picking type.
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
-### <a id="VM_Managed_PointExpression_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
+### LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -292,7 +292,7 @@ The linked object.
 
 The update event information.
 
-### <a id="VM_Managed_PointExpression_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
+### ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -306,7 +306,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### <a id="VM_Managed_PointExpression_Set_System_String_"></a> Set\(string\)
+### Set\(string\)
 
 sets the expression.
 
@@ -320,7 +320,7 @@ public void Set(string strPosition)
 
 Value of position.
 
-### <a id="VM_Managed_PointExpression_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
+### WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -333,4 +333,5 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
+
 

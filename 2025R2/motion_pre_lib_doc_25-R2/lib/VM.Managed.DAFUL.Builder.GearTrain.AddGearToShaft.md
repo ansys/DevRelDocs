@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToShaft"></a> Class AddGearToShaft
+# Class AddGearToShaft
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -54,7 +54,7 @@ IBuilder
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToShaft__ctor"></a> AddGearToShaft\(\)
+### AddGearToShaft\(\)
 
 ```csharp
 public AddGearToShaft()
@@ -62,7 +62,7 @@ public AddGearToShaft()
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToShaft_Build_VM_Managed_Document_"></a> Build\(Document\)
+### Build\(Document\)
 
 ```csharp
 public override void Build(Document docToAdd)
@@ -72,7 +72,7 @@ public override void Build(Document docToAdd)
 
 `docToAdd` Document
 
-### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToShaft_CreateGearGeom_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_VM_Managed_DAFUL_GearTrain_CAD_ReferencePointType_System_Double_VM_Managed_VectorBase_VM_Managed_DAFUL_GearTrain_CAD_GearBuilder_ParentType_VM_Managed_Vector_"></a> CreateGearGeom\(GearGeometryInfo, HiddenShaftSetDocument, ReferencePointType, double, VectorBase, ParentType, Vector\)
+### CreateGearGeom\(GearGeometryInfo, HiddenShaftSetDocument, ReferencePointType, double, VectorBase, ParentType, Vector\)
 
 ```csharp
 protected virtual GearGeometry CreateGearGeom(GearGeometryInfo ggInfo, HiddenShaftSetDocument hiddenDoc, ReferencePointType typeRP, double dOffset, VectorBase vecPoint, GearBuilder.ParentType typeParent, Vector vecBearingOffset)
@@ -97,4 +97,5 @@ protected virtual GearGeometry CreateGearGeom(GearGeometryInfo ggInfo, HiddenSha
 #### Returns
 
  GearGeometry
+
 

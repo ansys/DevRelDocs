@@ -1,4 +1,4 @@
-# <a id="VM_Managed_DAFUL_PartSetCurveForEdges"></a> Class PartSetCurveForEdges
+# Class PartSetCurveForEdges
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -233,7 +233,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### <a id="VM_Managed_DAFUL_PartSetCurveForEdges__ctor"></a> PartSetCurveForEdges\(\)
+### PartSetCurveForEdges\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.PartSetCurveForEdges" data-throw-if-not-resolved="false"></xref> class.
 
@@ -241,7 +241,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.PartSetCurveForEd
 public PartSetCurveForEdges()
 ```
 
-### <a id="VM_Managed_DAFUL_PartSetCurveForEdges__ctor_System_String_"></a> PartSetCurveForEdges\(string\)
+### PartSetCurveForEdges\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.PartSetCurveForEdges" data-throw-if-not-resolved="false"></xref> class.
 
@@ -257,7 +257,7 @@ Name of the face set.
 
 ## Methods
 
-### <a id="VM_Managed_DAFUL_PartSetCurveForEdges_AddEdge_VM_Managed_CAD_Edge_"></a> AddEdge\(Edge\)
+### AddEdge\(Edge\)
 
 Adds the edge to topology list.
 
@@ -271,7 +271,7 @@ public override void AddEdge(Edge edge)
 
 The edge.
 
-### <a id="VM_Managed_DAFUL_PartSetCurveForEdges_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
+### MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -284,4 +284,5 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 `lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Reference\>
 
 The container.
+
 

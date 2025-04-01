@@ -1,4 +1,4 @@
-# <a id="VM_Models_FE_Mesh_Materials_ISO"></a> Class ISO
+# Class ISO
 
 Namespace: [VM.Models.FE.Mesh.Materials](VM.Models.FE.Mesh.Materials.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -39,7 +39,7 @@ public class ISO : Material, IEntity
 
 ## Constructors
 
-### <a id="VM_Models_FE_Mesh_Materials_ISO__ctor"></a> ISO\(\)
+### ISO\(\)
 
 ```csharp
 public ISO()
@@ -47,7 +47,7 @@ public ISO()
 
 ## Properties
 
-### <a id="VM_Models_FE_Mesh_Materials_ISO_DampingRatio"></a> DampingRatio
+### DampingRatio
 
 ```csharp
 [Column]
@@ -58,7 +58,7 @@ public double DampingRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Mesh_Materials_ISO_PoissonsRation"></a> PoissonsRation
+### PoissonsRation
 
 ```csharp
 [Column]
@@ -69,7 +69,7 @@ public double PoissonsRation { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Mesh_Materials_ISO_ShearModulus"></a> ShearModulus
+### ShearModulus
 
 ```csharp
 [Column]
@@ -80,7 +80,7 @@ public double ShearModulus { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### <a id="VM_Models_FE_Mesh_Materials_ISO_YoungsModulus"></a> YoungsModulus
+### YoungsModulus
 
 ```csharp
 [Column]
@@ -93,7 +93,7 @@ public double YoungsModulus { get; set; }
 
 ## Methods
 
-### <a id="VM_Models_FE_Mesh_Materials_ISO_Equals_System_Object_"></a> Equals\(object\)
+### Equals\(object\)
 
 ```csharp
 public override bool Equals(object obj)
@@ -107,7 +107,7 @@ public override bool Equals(object obj)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### <a id="VM_Models_FE_Mesh_Materials_ISO_GetHashCode"></a> GetHashCode\(\)
+### GetHashCode\(\)
 
 ```csharp
 public override int GetHashCode()
@@ -116,4 +116,5 @@ public override int GetHashCode()
 #### Returns
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
+
 
