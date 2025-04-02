@@ -1,4 +1,4 @@
-# Class NameToEntityWhenRenameExeption
+#  Class NameToEntityWhenRenameExeption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class NameToEntityWhenRenameExeption : Exception
 
 ## Constructors
 
-### NameToEntityWhenRenameExeption\(string\)
+### <a id="VM_Managed_NameToEntityWhenRenameExeption__ctor_System_String_"></a> NameToEntityWhenRenameExeption\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.NameToEntityWhenRenameExeption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,5 +36,4 @@ public NameToEntityWhenRenameExeption(string strMessage)
 `strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The error message.
-
 

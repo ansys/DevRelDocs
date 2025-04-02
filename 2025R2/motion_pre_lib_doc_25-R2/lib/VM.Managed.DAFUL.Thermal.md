@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Thermal
+#  Namespace VM.Managed.DAFUL.Thermal
 
 ### Classes
 
@@ -185,5 +185,4 @@ Indicates whether this is a value or a file type.
  [TemperatureUnit.Temperature](VM.Managed.DAFUL.Thermal.TemperatureUnit.Temperature.md)
 
 Specise type for temperature.
-
 

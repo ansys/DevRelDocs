@@ -1,4 +1,4 @@
-# Class AttributeUnit
+#  Class AttributeUnit
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeUnit\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit__ctor"></a> AttributeUnit\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AttributeUnit" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Attribu
 public AttributeUnit()
 ```
 
-### AttributeUnit\(double, double, double, double, double, double, double, double\)
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit__ctor_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> AttributeUnit\(double, double, double, double, double, double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AttributeUnit" data-throw-if-not-resolved="false"></xref> class.
 
@@ -151,7 +151,7 @@ The work factor
 
 ## Properties
 
-### AngleFactor
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_AngleFactor"></a> AngleFactor
 
 Gets or sets the angle factor.
 
@@ -163,7 +163,7 @@ public double AngleFactor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ForceFactor
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_ForceFactor"></a> ForceFactor
 
 Gets or sets the force factor.
 
@@ -175,7 +175,7 @@ public double ForceFactor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### LengthFactor
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_LengthFactor"></a> LengthFactor
 
 Gets or sets the length factor.
 
@@ -187,7 +187,7 @@ public double LengthFactor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MassFactor
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_MassFactor"></a> MassFactor
 
 Gets or sets the mass factor.
 
@@ -199,7 +199,7 @@ public double MassFactor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### PowerFactor
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_PowerFactor"></a> PowerFactor
 
 Gets or sets the power factor.
 
@@ -211,7 +211,7 @@ public double PowerFactor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TemperatureFactor
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_TemperatureFactor"></a> TemperatureFactor
 
 Gets or sets the temperature factor.
 
@@ -223,7 +223,7 @@ public double TemperatureFactor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TimeFactor
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_TimeFactor"></a> TimeFactor
 
 Gets or sets the time factor.
 
@@ -235,7 +235,7 @@ public double TimeFactor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### WorkFactor
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeUnit_WorkFactor"></a> WorkFactor
 
 Gets or sets the work factor.
 
@@ -246,5 +246,4 @@ public double WorkFactor { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

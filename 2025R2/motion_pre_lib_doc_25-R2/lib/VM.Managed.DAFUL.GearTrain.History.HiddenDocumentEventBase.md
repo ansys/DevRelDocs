@@ -1,4 +1,4 @@
-# Class HiddenDocumentEventBase
+#  Class HiddenDocumentEventBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain.History](VM.Managed.DAFUL.GearTrain.History.md)  
 Assembly: VMDGearTrain.dll  
@@ -42,7 +42,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### HiddenDocumentEventBase\(object, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_History_HiddenDocumentEventBase__ctor_System_Object_System_String_"></a> HiddenDocumentEventBase\(object, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.History.HiddenDocumentEventBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -62,7 +62,7 @@ The file path.
 
 ## Methods
 
-### Clear\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_History_HiddenDocumentEventBase_Clear_System_Boolean_"></a> Clear\(bool\)
 
 Clear this event.
 
@@ -76,7 +76,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 The event argument for clear.
 
-### Close\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_History_HiddenDocumentEventBase_Close"></a> Close\(\)
 
 Close hidden document.
 
@@ -84,12 +84,11 @@ Close hidden document.
 protected void Close()
 ```
 
-### Open\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_History_HiddenDocumentEventBase_Open"></a> Open\(\)
 
 Open hidden document.
 
 ```csharp
 protected void Open()
 ```
-
 

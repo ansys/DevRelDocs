@@ -1,4 +1,4 @@
-# Class CircularReferenceException
+#  Class CircularReferenceException
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -23,7 +23,7 @@ public class CircularReferenceException : InvalidOperationException
 
 ## Constructors
 
-### CircularReferenceException\(object\)
+### <a id="VM_Models_Pre_CircularReferenceException__ctor_System_Object_"></a> CircularReferenceException\(object\)
 
 ```csharp
 public CircularReferenceException(object problem)
@@ -33,7 +33,7 @@ public CircularReferenceException(object problem)
 
 `problem` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### CircularReferenceException\(object, IEnumerable\)
+### <a id="VM_Models_Pre_CircularReferenceException__ctor_System_Object_System_Collections_IEnumerable_"></a> CircularReferenceException\(object, IEnumerable\)
 
 ```csharp
 public CircularReferenceException(object problem, IEnumerable objectChain)
@@ -47,7 +47,7 @@ public CircularReferenceException(object problem, IEnumerable objectChain)
 
 ## Properties
 
-### ObjectsChain
+### <a id="VM_Models_Pre_CircularReferenceException_ObjectsChain"></a> ObjectsChain
 
 ```csharp
 public IEnumerable ObjectsChain { get; }
@@ -57,7 +57,7 @@ public IEnumerable ObjectsChain { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-### Problem
+### <a id="VM_Models_Pre_CircularReferenceException_Problem"></a> Problem
 
 ```csharp
 public object Problem { get; }
@@ -66,5 +66,4 @@ public object Problem { get; }
 #### Property Value
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
-
 

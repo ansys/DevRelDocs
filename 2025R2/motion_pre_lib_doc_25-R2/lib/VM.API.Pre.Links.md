@@ -1,4 +1,4 @@
-# Namespace VM.API.Pre.Links
+#  Namespace VM.API.Pre.Links
 
 ### Classes
 
@@ -45,5 +45,4 @@ This struct represents the path data
  [ScrewHandType](VM.API.Pre.Links.ScrewHandType.md)
 
 This is the enum for the screw hand type.
-
 

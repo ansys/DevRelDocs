@@ -1,4 +1,4 @@
-# Class UpdateRackInMeshFree
+#  Class UpdateRackInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -87,7 +87,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdateRackInMeshFree\(string, string, string, bool, bool, string, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateRackInMeshFree__ctor_System_String_System_String_System_String_System_Boolean_System_Boolean_System_String_System_String_"></a> UpdateRackInMeshFree\(string, string, string, bool, bool, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateRackInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ The string z axis.
 
 The Initial angle.
 
-### UpdateRackInMeshFree\(Document3D, string, string, string, bool, bool, string, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateRackInMeshFree__ctor_VM_Managed_Document3D_System_String_System_String_System_String_System_Boolean_System_Boolean_System_String_System_String_"></a> UpdateRackInMeshFree\(Document3D, string, string, string, bool, bool, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateRackInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -167,7 +167,7 @@ The string z axis.
 
 The Initial angle.
 
-### UpdateRackInMeshFree\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateRackInMeshFree__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateRackInMeshFree\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateRackInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -180,5 +180,4 @@ public UpdateRackInMeshFree(JournalParameter jp)
 `jp` JournalParameter
 
 The jp.
-
 

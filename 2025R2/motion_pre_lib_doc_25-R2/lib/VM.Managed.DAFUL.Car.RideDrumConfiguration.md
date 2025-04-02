@@ -1,4 +1,4 @@
-# Class RideDrumConfiguration
+#  Class RideDrumConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### RideDrumConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_RideDrumConfiguration__ctor"></a> RideDrumConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RideDrumConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RideDrumConfi
 public RideDrumConfiguration()
 ```
 
-### RideDrumConfiguration\(AnalysisRideDrum\)
+### <a id="VM_Managed_DAFUL_Car_RideDrumConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisRideDrum_"></a> RideDrumConfiguration\(AnalysisRideDrum\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RideDrumConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_RideDrumConfiguration_Analysis"></a> Analysis
 
 Gets or sets the type of the analysis.
 
@@ -233,7 +233,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_RideDrumConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -245,7 +245,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_RideDrumConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -257,7 +257,7 @@ public override TireAnalysisType AnalysisType { get; }
 
  [TireAnalysisType](VM.Managed.DAFUL.Car.TireAnalysisType.md)
 
-### RideDrumParam
+### <a id="VM_Managed_DAFUL_Car_RideDrumConfiguration_RideDrumParam"></a> RideDrumParam
 
 Gets or sets the ride drum parameter.
 
@@ -271,12 +271,11 @@ public AnalysisRideDrum RideDrumParam { get; set; }
 
 ## Methods
 
-### InitializeParam\(\)
+### <a id="VM_Managed_DAFUL_Car_RideDrumConfiguration_InitializeParam"></a> InitializeParam\(\)
 
 Initializes the param.
 
 ```csharp
 public override void InitializeParam()
 ```
-
 

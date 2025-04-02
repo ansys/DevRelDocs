@@ -1,4 +1,4 @@
-# Class RequestAPI
+#  Class RequestAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class RequestAPI
 
 ## Methods
 
-### CreateConnectedEntityRequest\(SubSystemDocument, Obj, string\)
+### <a id="VM_API_Pre_RequestAPI_CreateConnectedEntityRequest_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_"></a> CreateConnectedEntityRequest\(SubSystemDocument, Obj, string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument" })]
@@ -43,7 +43,7 @@ public static Obj CreateConnectedEntityRequest(this SubSystemDocument subSystemD
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateEntitiesRequest\(SubSystemDocument, Obj\[\], string\)
+### <a id="VM_API_Pre_RequestAPI_CreateEntitiesRequest_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj___System_String_"></a> CreateEntitiesRequest\(SubSystemDocument, Obj\[\], string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument" })]
@@ -58,7 +58,7 @@ public static void CreateEntitiesRequest(this SubSystemDocument subSystemDocumen
 
 `name` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### CreateEntityRequest\(SubSystemDocument, Obj, string\)
+### <a id="VM_API_Pre_RequestAPI_CreateEntityRequest_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_"></a> CreateEntityRequest\(SubSystemDocument, Obj, string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument" })]
@@ -79,7 +79,7 @@ public static Obj CreateEntityRequest(this SubSystemDocument subSystemDocument, 
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateKinematicRequest\(SubSystemDocument, Obj, string, Obj?, Obj?, OutputType?\)
+### <a id="VM_API_Pre_RequestAPI_CreateKinematicRequest_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_System_Nullable_VM_API_Pre_Obj__System_Nullable_VM_API_Pre_Obj__System_Nullable_VM_Managed_DAFUL_RequestKinematic_OutputType__"></a> CreateKinematicRequest\(SubSystemDocument, Obj, string, Obj?, Obj?, OutputType?\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument" })]
@@ -105,7 +105,7 @@ public static Obj CreateKinematicRequest(this SubSystemDocument subSystemDocumen
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateStructuralRequest\(SubSystemDocument, Obj, string, SideFilter, OutputType?\)
+### <a id="VM_API_Pre_RequestAPI_CreateStructuralRequest_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_VM_Managed_DAFUL_RequestStructure_SideFilter_System_Nullable_VM_Managed_DAFUL_RequestStructure_OutputType__"></a> CreateStructuralRequest\(SubSystemDocument, Obj, string, SideFilter, OutputType?\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument" })]
@@ -128,5 +128,4 @@ public static Obj CreateStructuralRequest(this SubSystemDocument subSystemDocume
 #### Returns
 
  [Obj](VM.API.Pre.Obj.md)
-
 

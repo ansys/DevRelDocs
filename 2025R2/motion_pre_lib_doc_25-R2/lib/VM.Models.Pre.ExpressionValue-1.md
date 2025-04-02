@@ -1,4 +1,4 @@
-# Struct ExpressionValue<T\>
+#  Struct ExpressionValue<T\>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -25,7 +25,7 @@ IExpression
 
 ## Constructors
 
-### ExpressionValue\(T, string\)
+### <a id="VM_Models_Pre_ExpressionValue_1__ctor__0_System_String_"></a> ExpressionValue\(T, string\)
 
 ```csharp
 public ExpressionValue(T value, string expression)
@@ -39,7 +39,7 @@ public ExpressionValue(T value, string expression)
 
 ## Properties
 
-### Expression
+### <a id="VM_Models_Pre_ExpressionValue_1_Expression"></a> Expression
 
 ```csharp
 public string Expression { get; set; }
@@ -49,7 +49,7 @@ public string Expression { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsSimpleValue
+### <a id="VM_Models_Pre_ExpressionValue_1_IsSimpleValue"></a> IsSimpleValue
 
 ```csharp
 public bool IsSimpleValue { get; }
@@ -59,7 +59,7 @@ public bool IsSimpleValue { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Parser
+### <a id="VM_Models_Pre_ExpressionValue_1_Parser"></a> Parser
 
 ```csharp
 public static IExpressionParser<T> Parser { get; }
@@ -69,7 +69,7 @@ public static IExpressionParser<T> Parser { get; }
 
  [IExpressionParser](VM.Models.Pre.IExpressionParser\-1.md)<T\>
 
-### Value
+### <a id="VM_Models_Pre_ExpressionValue_1_Value"></a> Value
 
 ```csharp
 public T Value { get; set; }
@@ -81,7 +81,7 @@ public T Value { get; set; }
 
 ## Methods
 
-### Equals\(ExpressionValue<T\>\)
+### <a id="VM_Models_Pre_ExpressionValue_1_Equals_VM_Models_Pre_ExpressionValue__0__"></a> Equals\(ExpressionValue<T\>\)
 
 ```csharp
 public bool Equals(ExpressionValue<T> other)
@@ -95,7 +95,7 @@ public bool Equals(ExpressionValue<T> other)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Equals\(object\)
+### <a id="VM_Models_Pre_ExpressionValue_1_Equals_System_Object_"></a> Equals\(object\)
 
 ```csharp
 public override bool Equals(object obj)
@@ -109,7 +109,7 @@ public override bool Equals(object obj)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetSchema\(\)
+### <a id="VM_Models_Pre_ExpressionValue_1_GetSchema"></a> GetSchema\(\)
 
 ```csharp
 public XmlSchema GetSchema()
@@ -119,7 +119,7 @@ public XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### GetValue\(string\)
+### <a id="VM_Models_Pre_ExpressionValue_1_GetValue_System_String_"></a> GetValue\(string\)
 
 ```csharp
 public static object GetValue(string expression)
@@ -133,7 +133,7 @@ public static object GetValue(string expression)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Models_Pre_ExpressionValue_1_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 ```csharp
 public void ReadXml(XmlReader reader)
@@ -143,7 +143,7 @@ public void ReadXml(XmlReader reader)
 
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
-### SetParser\(IExpressionParser<T\>\)
+### <a id="VM_Models_Pre_ExpressionValue_1_SetParser_VM_Models_Pre_IExpressionParser__0__"></a> SetParser\(IExpressionParser<T\>\)
 
 ```csharp
 public static void SetParser(IExpressionParser<T> parser)
@@ -153,7 +153,7 @@ public static void SetParser(IExpressionParser<T> parser)
 
 `parser` [IExpressionParser](VM.Models.Pre.IExpressionParser\-1.md)<T\>
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Models_Pre_ExpressionValue_1_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 ```csharp
 public void WriteXml(XmlWriter writer)
@@ -165,7 +165,7 @@ public void WriteXml(XmlWriter writer)
 
 ## Operators
 
-### operator ==\(ExpressionValue<T\>, ExpressionValue<T\>\)
+### <a id="VM_Models_Pre_ExpressionValue_1_op_Equality_VM_Models_Pre_ExpressionValue__0__VM_Models_Pre_ExpressionValue__0__"></a> operator ==\(ExpressionValue<T\>, ExpressionValue<T\>\)
 
 ```csharp
 public static bool operator ==(ExpressionValue<T> expressionValue1, ExpressionValue<T> expressionValue2)
@@ -181,7 +181,7 @@ public static bool operator ==(ExpressionValue<T> expressionValue1, ExpressionVa
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### implicit operator ExpressionValue<T\>\(T\)
+### <a id="VM_Models_Pre_ExpressionValue_1_op_Implicit__0__VM_Models_Pre_ExpressionValue__0_"></a> implicit operator ExpressionValue<T\>\(T\)
 
 ```csharp
 public static implicit operator ExpressionValue<T>(T value)
@@ -195,7 +195,7 @@ public static implicit operator ExpressionValue<T>(T value)
 
  [ExpressionValue](VM.Models.Pre.ExpressionValue\-1.md)<T\>
 
-### implicit operator T\(ExpressionValue<T\>\)
+### <a id="VM_Models_Pre_ExpressionValue_1_op_Implicit_VM_Models_Pre_ExpressionValue__0____0"></a> implicit operator T\(ExpressionValue<T\>\)
 
 ```csharp
 public static implicit operator T(ExpressionValue<T> expressionValue)
@@ -209,7 +209,7 @@ public static implicit operator T(ExpressionValue<T> expressionValue)
 
  T
 
-### implicit operator ExpressionValue<T\>\(string\)
+### <a id="VM_Models_Pre_ExpressionValue_1_op_Implicit_System_String__VM_Models_Pre_ExpressionValue__0_"></a> implicit operator ExpressionValue<T\>\(string\)
 
 ```csharp
 public static implicit operator ExpressionValue<T>(string expression)
@@ -223,7 +223,7 @@ public static implicit operator ExpressionValue<T>(string expression)
 
  [ExpressionValue](VM.Models.Pre.ExpressionValue\-1.md)<T\>
 
-### implicit operator string\(ExpressionValue<T\>\)
+### <a id="VM_Models_Pre_ExpressionValue_1_op_Implicit_VM_Models_Pre_ExpressionValue__0___System_String"></a> implicit operator string\(ExpressionValue<T\>\)
 
 ```csharp
 public static implicit operator string(ExpressionValue<T> expressionValue)
@@ -237,7 +237,7 @@ public static implicit operator string(ExpressionValue<T> expressionValue)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### operator \!=\(ExpressionValue<T\>, ExpressionValue<T\>\)
+### <a id="VM_Models_Pre_ExpressionValue_1_op_Inequality_VM_Models_Pre_ExpressionValue__0__VM_Models_Pre_ExpressionValue__0__"></a> operator \!=\(ExpressionValue<T\>, ExpressionValue<T\>\)
 
 ```csharp
 public static bool operator !=(ExpressionValue<T> expressionValue1, ExpressionValue<T> expressionValue2)
@@ -252,5 +252,4 @@ public static bool operator !=(ExpressionValue<T> expressionValue1, ExpressionVa
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

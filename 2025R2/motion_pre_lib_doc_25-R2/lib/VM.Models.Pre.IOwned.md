@@ -1,4 +1,4 @@
-# Interface IOwned
+#  Interface IOwned
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface IOwned
 
 ## Properties
 
-### Container
+### <a id="VM_Models_Pre_IOwned_Container"></a> Container
 
 Gets or sets the owner object.
 
@@ -29,7 +29,7 @@ IOwned Container { get; }
 
  [IOwned](VM.Models.Pre.IOwned.md)
 
-### Document
+### <a id="VM_Models_Pre_IOwned_Document"></a> Document
 
 Gets the document that contains the object.
 
@@ -41,7 +41,7 @@ IDocument Document { get; }
 
  [IDocument](VM.Models.Pre.IDocument.md)
 
-### Owner
+### <a id="VM_Models_Pre_IOwned_Owner"></a> Owner
 
 Gets the owner object.
 
@@ -55,7 +55,7 @@ IObject Owner { get; }
 
 ## Methods
 
-### SetContainer\(IOwned, bool, bool\)
+### <a id="VM_Models_Pre_IOwned_SetContainer_VM_Models_Pre_IOwned_System_Boolean_System_Boolean_"></a> SetContainer\(IOwned, bool, bool\)
 
 Sets the owner object.
 
@@ -70,5 +70,4 @@ void SetContainer(IOwned owner, bool backup, bool isFromLinkAttribute = false)
 `backup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 `isFromLinkAttribute` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

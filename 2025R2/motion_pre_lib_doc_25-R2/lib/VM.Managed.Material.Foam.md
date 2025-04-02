@@ -1,4 +1,4 @@
-# Class Foam
+#  Class Foam
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -183,7 +183,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Foam\(\)
+### <a id="VM_Managed_Material_Foam__ctor"></a> Foam\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.Foam" data-throw-if-not-resolved="false"></xref> class.
 
@@ -191,7 +191,7 @@ Initializes a new instance of the <xref href="VM.Managed.Material.Foam" data-thr
 public Foam()
 ```
 
-### Foam\(string\)
+### <a id="VM_Managed_Material_Foam__ctor_System_String_"></a> Foam\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.Foam" data-throw-if-not-resolved="false"></xref> class.
 
@@ -207,7 +207,7 @@ Name of the foam material.
 
 ## Properties
 
-### DampingRatio
+### <a id="VM_Managed_Material_Foam_DampingRatio"></a> DampingRatio
 
 Gets or sets the damping ratio.
 
@@ -219,7 +219,7 @@ public ExpressionValueVariable DampingRatio { get; set; }
 
  ExpressionValueVariable
 
-### DisableHScaleFactor
+### <a id="VM_Managed_Material_Foam_DisableHScaleFactor"></a> DisableHScaleFactor
 
 Gets or sets a value indicating whether [disable H scale factor].
 Use SetDisableHScaleFactor() when this instance sets for undo/redo
@@ -232,7 +232,7 @@ public bool DisableHScaleFactor { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Spline
+### <a id="VM_Managed_Material_Foam_Spline"></a> Spline
 
 Gets or sets the spline.
 
@@ -244,7 +244,7 @@ public ISpline Spline { get; set; }
 
  ISpline
 
-### YModulus
+### <a id="VM_Managed_Material_Foam_YModulus"></a> YModulus
 
 Gets or sets the Y modulus.
 
@@ -256,7 +256,7 @@ public ExpressionValueVariable YModulus { get; set; }
 
  ExpressionValueVariable
 
-### \_Spline
+### <a id="VM_Managed_Material_Foam__Spline"></a> \_Spline
 
 Gets or sets the spline.
 
@@ -270,7 +270,7 @@ public Linker<ISpline> _Spline { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_Material_Foam_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -284,7 +284,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_Material_Foam_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -298,7 +298,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### SetDisableHScaleFactor\(bool\)
+### <a id="VM_Managed_Material_Foam_SetDisableHScaleFactor_System_Boolean_"></a> SetDisableHScaleFactor\(bool\)
 
 Set [disable Hscale] factor.
 
@@ -312,7 +312,7 @@ public void SetDisableHScaleFactor(bool bFactor)
 
 The [disable Hscale] factor.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_Material_Foam_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -325,5 +325,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

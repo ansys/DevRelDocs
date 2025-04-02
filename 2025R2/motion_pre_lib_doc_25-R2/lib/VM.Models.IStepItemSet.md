@@ -1,4 +1,4 @@
-# Interface IStepItemSet
+#  Interface IStepItemSet
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -15,7 +15,7 @@ public interface IStepItemSet
 
 ## Properties
 
-### ScenarioType
+### <a id="VM_Models_IStepItemSet_ScenarioType"></a> ScenarioType
 
 ```csharp
 Type ScenarioType { get; }
@@ -25,7 +25,7 @@ Type ScenarioType { get; }
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### Target
+### <a id="VM_Models_IStepItemSet_Target"></a> Target
 
 ```csharp
 ApplicationTypes Target { get; }
@@ -34,5 +34,4 @@ ApplicationTypes Target { get; }
 #### Property Value
 
  ApplicationTypes
-
 

@@ -1,4 +1,4 @@
-# Class TranslationalBBPD
+#  Class TranslationalBBPD
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCB.dll  
@@ -61,10 +61,9 @@ BuilderBase<Translational\>.ErrorMessage
 
 ## Constructors
 
-### TranslationalBBPD\(\)
+### <a id="VM_Managed_DAFUL_Builder_Constraints_TranslationalBBPD__ctor"></a> TranslationalBBPD\(\)
 
 ```csharp
 public TranslationalBBPD()
 ```
-
 

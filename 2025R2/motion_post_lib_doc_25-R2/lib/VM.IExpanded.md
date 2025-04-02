@@ -1,4 +1,4 @@
-# Interface IExpanded
+#  Interface IExpanded
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IExpanded
 
 ## Properties
 
-### IsExpanded
+### <a id="VM_IExpanded_IsExpanded"></a> IsExpanded
 
 ```python
 bool IsExpanded { get; set; }

@@ -1,4 +1,4 @@
-# Interface ISubEntityGridView
+#  Interface ISubEntityGridView
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -17,7 +17,7 @@ public interface ISubEntityGridView
 
 ## Methods
 
-### ActiveSubentityGridView\(string\)
+### <a id="VM_Managed_DAFUL_Pre_ISubEntityGridView_ActiveSubentityGridView_System_String_"></a> ActiveSubentityGridView\(string\)
 
 Actives the subentity grid viw.
 
@@ -31,7 +31,7 @@ void ActiveSubentityGridView(string strGridViewType)
 
 Type of the grid view.
 
-### ActiveSubentityGridView\(SubEntityViewType\)
+### <a id="VM_Managed_DAFUL_Pre_ISubEntityGridView_ActiveSubentityGridView_VM_Managed_DAFUL_Pre_SubEntityViewType_"></a> ActiveSubentityGridView\(SubEntityViewType\)
 
 Actives the subentity grid view.
 
@@ -45,7 +45,7 @@ void ActiveSubentityGridView(SubEntityViewType typeGridView)
 
 The type grid view.
 
-### Clear\(SubEntityViewType\)
+### <a id="VM_Managed_DAFUL_Pre_ISubEntityGridView_Clear_VM_Managed_DAFUL_Pre_SubEntityViewType_"></a> Clear\(SubEntityViewType\)
 
 Clears this instance.
 
@@ -59,7 +59,7 @@ void Clear(SubEntityViewType typeGridView)
 
 The type grid view.
 
-### RefreshGridView\(string, ObjectBase\)
+### <a id="VM_Managed_DAFUL_Pre_ISubEntityGridView_RefreshGridView_System_String_VM_Managed_ObjectBase_"></a> RefreshGridView\(string, ObjectBase\)
 
 Refreshes the grid view.
 
@@ -77,7 +77,7 @@ Type of the grid view.
 
 The object.
 
-### RefreshGridView\(SubEntityViewType, ObjectBase\)
+### <a id="VM_Managed_DAFUL_Pre_ISubEntityGridView_RefreshGridView_VM_Managed_DAFUL_Pre_SubEntityViewType_VM_Managed_ObjectBase_"></a> RefreshGridView\(SubEntityViewType, ObjectBase\)
 
 Refreshes the grid view.
 
@@ -95,7 +95,7 @@ The type grid view.
 
 The ob.
 
-### RefreshGridView\(SubEntityViewType\)
+### <a id="VM_Managed_DAFUL_Pre_ISubEntityGridView_RefreshGridView_VM_Managed_DAFUL_Pre_SubEntityViewType_"></a> RefreshGridView\(SubEntityViewType\)
 
 Refreshes the grid view.
 
@@ -109,7 +109,7 @@ void RefreshGridView(SubEntityViewType typeGridView)
 
 The type grid view.
 
-### RefreshGridView\(\)
+### <a id="VM_Managed_DAFUL_Pre_ISubEntityGridView_RefreshGridView"></a> RefreshGridView\(\)
 
 Refreshes the grid view.
 
@@ -117,7 +117,7 @@ Refreshes the grid view.
 void RefreshGridView()
 ```
 
-### SetEnableDisable\(string, ObjectBase\)
+### <a id="VM_Managed_DAFUL_Pre_ISubEntityGridView_SetEnableDisable_System_String_VM_Managed_ObjectBase_"></a> SetEnableDisable\(string, ObjectBase\)
 
 Sets the enable or disable.
 
@@ -135,7 +135,7 @@ Type of the grid view.
 
 The object.
 
-### SetEnableDisable\(SubEntityViewType, ObjectBase\)
+### <a id="VM_Managed_DAFUL_Pre_ISubEntityGridView_SetEnableDisable_VM_Managed_DAFUL_Pre_SubEntityViewType_VM_Managed_ObjectBase_"></a> SetEnableDisable\(SubEntityViewType, ObjectBase\)
 
 Sets the enable disable.
 
@@ -152,5 +152,4 @@ The type grid view.
 `ob` ObjectBase
 
 The ob.
-
 

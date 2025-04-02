@@ -1,4 +1,4 @@
-# Class BearingBase<TProperty\>
+#  Class BearingBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Bearing.Force](VM.Managed.DAFUL.Bearing.Force.md)  
 Assembly: VMDBearing.dll  
@@ -258,7 +258,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BearingBase\(\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_BearingBase_1__ctor"></a> BearingBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.BearingBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -266,7 +266,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.Bea
 public BearingBase()
 ```
 
-### BearingBase\(string\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_BearingBase_1__ctor_System_String_"></a> BearingBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.BearingBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -282,7 +282,7 @@ Name of the force.
 
 ## Properties
 
-### UseForSimulationScenario
+### <a id="VM_Managed_DAFUL_Bearing_Force_BearingBase_1_UseForSimulationScenario"></a> UseForSimulationScenario
 
 Use for simulation scenario.
 
@@ -296,7 +296,7 @@ protected override bool UseForSimulationScenario { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_BearingBase_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -309,5 +309,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

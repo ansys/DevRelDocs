@@ -1,4 +1,4 @@
-# Class TopologyUtil
+#  Class TopologyUtil
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -20,7 +20,7 @@ public class TopologyUtil
 
 ## Constructors
 
-### TopologyUtil\(\)
+### <a id="VM_Managed_CAD_TopologyUtil__ctor"></a> TopologyUtil\(\)
 
 ```csharp
 public TopologyUtil()
@@ -28,7 +28,7 @@ public TopologyUtil()
 
 ## Methods
 
-### GetTopologyType\(Body, UIntPtr\)
+### <a id="VM_Managed_CAD_TopologyUtil_GetTopologyType_VM_Managed_CAD_Body_System_UIntPtr_"></a> GetTopologyType\(Body, UIntPtr\)
 
 ```csharp
 public static IBody.enToplogyType GetTopologyType(Body body, UIntPtr ptrEntityKey)
@@ -44,7 +44,7 @@ public static IBody.enToplogyType GetTopologyType(Body body, UIntPtr ptrEntityKe
 
  [IBody](VM.CAD.IBody.md).[enToplogyType](VM.CAD.IBody.enToplogyType.md)
 
-### GetVMPID\(Body, UIntPtr\)
+### <a id="VM_Managed_CAD_TopologyUtil_GetVMPID_VM_Managed_CAD_Body_System_UIntPtr_"></a> GetVMPID\(Body, UIntPtr\)
 
 ```csharp
 public static int GetVMPID(Body body, UIntPtr ptrEntityKey)
@@ -59,5 +59,4 @@ public static int GetVMPID(Body body, UIntPtr ptrEntityKey)
 #### Returns
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 

@@ -1,4 +1,4 @@
-# Enum TabLocationType
+#  Enum TabLocationType
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -38,7 +38,6 @@ Opposite direction with the rotation axis
 `Same = 0` 
 
 Same direction with the rotation axis
-
 
 
 

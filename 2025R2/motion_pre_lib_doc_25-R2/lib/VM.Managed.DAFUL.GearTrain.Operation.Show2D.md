@@ -1,4 +1,4 @@
-# Class Show2D
+#  Class Show2D
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### Show2D\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_Show2D__ctor"></a> Show2D\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.Show2D" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operati
 public Show2D()
 ```
 
-### Show2D\(Document\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_Show2D__ctor_VM_Managed_Document_"></a> Show2D\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.Show2D" data-throw-if-not-resolved="false"></xref> class.
 
@@ -99,7 +99,7 @@ public Show2D(Document doc)
 
 The document.
 
-### Show2D\(XmlElement\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_Show2D__ctor_System_Xml_XmlElement_"></a> Show2D\(XmlElement\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.Show2D" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ The node argument.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_Show2D_Name"></a> Name
 
 Gets the name.
 
@@ -129,7 +129,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_Show2D_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -137,7 +137,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_Show2D_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -151,7 +151,7 @@ public override void GetInformation(XmlWriter writer)
 
 The writer.
 
-### UpdateUI\(IUIUpdate, Document\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_Show2D_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -168,5 +168,4 @@ The updater.
 `doc` Document
 
 The document.
-
 

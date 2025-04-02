@@ -1,4 +1,4 @@
-# Class Body.CalculateMassPropertyExeption
+#  Class Body.CalculateMassPropertyExeption
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class Body.CalculateMassPropertyExeption : Exception
 
 ## Constructors
 
-### CalculateMassPropertyExeption\(string\)
+### <a id="VM_Managed_CAD_Body_CalculateMassPropertyExeption__ctor_System_String_"></a> CalculateMassPropertyExeption\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Body.CalculateMassPropertyExeption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,5 +36,4 @@ public CalculateMassPropertyExeption(string strMessage)
 `strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The error message.
-
 

@@ -1,4 +1,4 @@
-# Class DOESolver
+#  Class DOESolver
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -20,13 +20,13 @@ public class DOESolver
 
 ## Constructors
 
-### DOESolver\(\)
+### <a id="VM_Managed_DAFUL_DOE_Result_DOESolver__ctor"></a> DOESolver\(\)
 
 ```csharp
 public DOESolver()
 ```
 
-### DOESolver\(string\[\]\)
+### <a id="VM_Managed_DAFUL_DOE_Result_DOESolver__ctor_System_String___"></a> DOESolver\(string\[\]\)
 
 ```csharp
 public DOESolver(string[] arKey)
@@ -38,7 +38,7 @@ public DOESolver(string[] arKey)
 
 ## Properties
 
-### Times
+### <a id="VM_Managed_DAFUL_DOE_Result_DOESolver_Times"></a> Times
 
 ```csharp
 public List<double> Times { get; set; }
@@ -48,7 +48,7 @@ public List<double> Times { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### Values
+### <a id="VM_Managed_DAFUL_DOE_Result_DOESolver_Values"></a> Values
 
 ```csharp
 public SerializableDictionary<string, List<double>> Values { get; set; }
@@ -60,7 +60,7 @@ public SerializableDictionary<string, List<double>> Values { get; set; }
 
 ## Methods
 
-### AddValues\(string\[\]\)
+### <a id="VM_Managed_DAFUL_DOE_Result_DOESolver_AddValues_System_String___"></a> AddValues\(string\[\]\)
 
 ```csharp
 public void AddValues(string[] arValue)
@@ -69,5 +69,4 @@ public void AddValues(string[] arValue)
 #### Parameters
 
 `arValue` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
-
 

@@ -1,4 +1,4 @@
-# Class ZeroKeyWhenAddDocExeption
+#  Class ZeroKeyWhenAddDocExeption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class ZeroKeyWhenAddDocExeption : Exception
 
 ## Constructors
 
-### ZeroKeyWhenAddDocExeption\(string\)
+### <a id="VM_Managed_ZeroKeyWhenAddDocExeption__ctor_System_String_"></a> ZeroKeyWhenAddDocExeption\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.ZeroKeyWhenAddDocExeption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,5 +36,4 @@ public ZeroKeyWhenAddDocExeption(string strMessage)
 `strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The error message.
-
 

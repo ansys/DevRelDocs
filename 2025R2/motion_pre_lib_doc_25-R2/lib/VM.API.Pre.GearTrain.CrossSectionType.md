@@ -1,4 +1,4 @@
-# Enum CrossSectionType
+#  Enum CrossSectionType
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -32,7 +32,6 @@ HOLLOW_TAPERED
 `TAPERED = 2` 
 
 TAPERED
-
 
 
 

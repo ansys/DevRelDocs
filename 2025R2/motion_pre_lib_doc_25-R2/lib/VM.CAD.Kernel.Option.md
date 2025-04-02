@@ -1,4 +1,4 @@
-# Class Option
+#  Class Option
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -22,7 +22,7 @@ public class Option
 
 ## Constructors
 
-### Option\(\)
+### <a id="VM_CAD_Kernel_Option__ctor"></a> Option\(\)
 
 ```csharp
 public Option()
@@ -30,7 +30,7 @@ public Option()
 
 ## Properties
 
-### Display
+### <a id="VM_CAD_Kernel_Option_Display"></a> Display
 
 ```csharp
 public Display Display { get; set; }
@@ -40,7 +40,7 @@ public Display Display { get; set; }
 
  [Display](VM.CAD.Kernel.Display.md)
 
-### default
+### <a id="VM_CAD_Kernel_Option_default"></a> default
 
 ```csharp
 public string @default { get; set; }
@@ -50,7 +50,7 @@ public string @default { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### items
+### <a id="VM_CAD_Kernel_Option_items"></a> items
 
 ```csharp
 public string items { get; set; }
@@ -60,7 +60,7 @@ public string items { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### name
+### <a id="VM_CAD_Kernel_Option_name"></a> name
 
 ```csharp
 public string name { get; set; }
@@ -69,5 +69,4 @@ public string name { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

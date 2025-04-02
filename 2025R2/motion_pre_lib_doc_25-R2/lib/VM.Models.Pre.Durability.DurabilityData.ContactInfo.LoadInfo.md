@@ -1,4 +1,4 @@
-# Class DurabilityData.ContactInfo.LoadInfo
+#  Class DurabilityData.ContactInfo.LoadInfo
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -20,7 +20,7 @@ public class DurabilityData.ContactInfo.LoadInfo
 
 ## Constructors
 
-### LoadInfo\(\)
+### <a id="VM_Models_Pre_Durability_DurabilityData_ContactInfo_LoadInfo__ctor"></a> LoadInfo\(\)
 
 ```csharp
 public LoadInfo()
@@ -28,7 +28,7 @@ public LoadInfo()
 
 ## Fields
 
-### Force
+### <a id="VM_Models_Pre_Durability_DurabilityData_ContactInfo_LoadInfo_Force"></a> Force
 
 ```csharp
 public Vector Force
@@ -38,7 +38,7 @@ public Vector Force
 
  Vector
 
-### Position
+### <a id="VM_Models_Pre_Durability_DurabilityData_ContactInfo_LoadInfo_Position"></a> Position
 
 ```csharp
 public Vector Position
@@ -47,5 +47,4 @@ public Vector Position
 #### Field Value
 
  Vector
-
 

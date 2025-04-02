@@ -1,4 +1,4 @@
-# Class SwitchableBodyAPI
+#  Class SwitchableBodyAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class SwitchableBodyAPI
 
 ## Methods
 
-### CreateSwitchableBody\(SubSystemDocument, IEnumerable<Obj\>, Obj?, string, SymmetricType\)
+### <a id="VM_API_Pre_SwitchableBodyAPI_CreateSwitchableBody_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Nullable_VM_API_Pre_Obj__System_String_VM_Managed_SymmetricType_"></a> CreateSwitchableBody\(SubSystemDocument, IEnumerable<Obj\>, Obj?, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.SwitchableBody" data-throw-if-not-resolved="false"></xref>
 
@@ -72,5 +72,4 @@ Will be thrown if the type of 'bodies', 'selectedBody' is not <xref href="VM.Man
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if the element of 'bodies' does not contain 'selectedBody'.
-
 

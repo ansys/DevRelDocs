@@ -1,4 +1,4 @@
-# Class BuilderRollerBase
+#  Class BuilderRollerBase
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -202,7 +202,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderRollerBase\(\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerBase__ctor"></a> BuilderRollerBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Roller.BuilderRollerBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -212,7 +212,7 @@ public BuilderRollerBase()
 
 ## Fields
 
-### m\_LinkEventReason
+### <a id="VM_Managed_CAD_Roller_BuilderRollerBase_m_LinkEventReason"></a> m\_LinkEventReason
 
 Gets and sets linkeventargs
 
@@ -224,7 +224,7 @@ protected NotifyReason m_LinkEventReason
 
  NotifyReason
 
-### m\_enRollerType
+### <a id="VM_Managed_CAD_Roller_BuilderRollerBase_m_enRollerType"></a> m\_enRollerType
 
 The roller Type.
 
@@ -238,7 +238,7 @@ protected RollerType m_enRollerType
 
 ## Properties
 
-### ApplyToFileProperty
+### <a id="VM_Managed_CAD_Roller_BuilderRollerBase_ApplyToFileProperty"></a> ApplyToFileProperty
 
 Gets and sets boolean
 Use SetApplyToFileProperty() when this instance sets for undo/redo
@@ -251,7 +251,7 @@ public bool ApplyToFileProperty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Transform
+### <a id="VM_Managed_CAD_Roller_BuilderRollerBase_Transform"></a> Transform
 
 Gets and sets Transformation.
 
@@ -263,7 +263,7 @@ public override sealed TransformBase Transform { get; set; }
 
  TransformBase
 
-### Uneditable
+### <a id="VM_Managed_CAD_Roller_BuilderRollerBase_Uneditable"></a> Uneditable
 
 Gets or sets Uneditable value..
 
@@ -277,7 +277,7 @@ public override bool Uneditable { get; }
 
 ## Methods
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerBase_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -287,7 +287,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerBase_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -297,7 +297,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### SetApplyToFileProperty\(bool\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerBase_SetApplyToFileProperty_System_Boolean_"></a> SetApplyToFileProperty\(bool\)
 
 Set [apply to file property].
 
@@ -311,7 +311,7 @@ public void SetApplyToFileProperty(bool bApply)
 
 The [apply to file property].
 
-### SetTransform\(TMatrix\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerBase_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
 
 Sets the transform information.
 
@@ -324,5 +324,4 @@ public override void SetTransform(TMatrix matT)
 `matT` TMatrix
 
 The transform information.
-
 

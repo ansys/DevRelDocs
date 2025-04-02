@@ -1,4 +1,4 @@
-# Struct TireAssembly
+#  Struct TireAssembly
 
 Namespace: [VM.API.Pre.Car](VM.API.Pre.Car.md)  
 Assembly: VM.API.Pre.Car.dll  
@@ -11,7 +11,7 @@ public struct TireAssembly
 
 ## Constructors
 
-### TireAssembly\(string\)
+### <a id="VM_API_Pre_Car_TireAssembly__ctor_System_String_"></a> TireAssembly\(string\)
 
 Constructor
 
@@ -27,7 +27,7 @@ The wheel path.
 
 ## Properties
 
-### WheelPath
+### <a id="VM_API_Pre_Car_TireAssembly_WheelPath"></a> WheelPath
 
 Gets or sets the suspension path.
 
@@ -38,5 +38,4 @@ public string WheelPath { readonly get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

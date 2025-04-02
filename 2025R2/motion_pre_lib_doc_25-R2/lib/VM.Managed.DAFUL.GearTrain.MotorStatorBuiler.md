@@ -1,4 +1,4 @@
-# Class MotorStatorBuiler
+#  Class MotorStatorBuiler
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -198,7 +198,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MotorStatorBuiler\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler__ctor"></a> MotorStatorBuiler\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorStatorBuiler" data-throw-if-not-resolved="false"></xref> class.
 
@@ -208,7 +208,7 @@ public MotorStatorBuiler()
 
 ## Properties
 
-### Bs0
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_Bs0"></a> Bs0
 
 ```csharp
 public double Bs0 { get; set; }
@@ -218,7 +218,7 @@ public double Bs0 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Bs1
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_Bs1"></a> Bs1
 
 ```csharp
 public double Bs1 { get; set; }
@@ -228,7 +228,7 @@ public double Bs1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Bs2
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_Bs2"></a> Bs2
 
 ```csharp
 public double Bs2 { get; set; }
@@ -238,7 +238,7 @@ public double Bs2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GeometryMethod
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_GeometryMethod"></a> GeometryMethod
 
 ```csharp
 public MotorDesigner.GeometryCreationType GeometryMethod { get; set; }
@@ -248,7 +248,7 @@ public MotorDesigner.GeometryCreationType GeometryMethod { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[GeometryCreationType](VM.Managed.DAFUL.GearTrain.MotorDesigner.GeometryCreationType.md)
 
-### Hs0
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_Hs0"></a> Hs0
 
 ```csharp
 public double Hs0 { get; set; }
@@ -258,7 +258,7 @@ public double Hs0 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Hs1
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_Hs1"></a> Hs1
 
 ```csharp
 public double Hs1 { get; set; }
@@ -268,7 +268,7 @@ public double Hs1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Hs2
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_Hs2"></a> Hs2
 
 ```csharp
 public double Hs2 { get; set; }
@@ -278,7 +278,7 @@ public double Hs2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ImportBuilder
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_ImportBuilder"></a> ImportBuilder
 
 Gets or sets the import builder.
 
@@ -290,7 +290,7 @@ public BuilderImport ImportBuilder { get; set; }
 
  BuilderImport
 
-### InnerDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_InnerDiameter"></a> InnerDiameter
 
 ```csharp
 public double InnerDiameter { get; set; }
@@ -300,7 +300,7 @@ public double InnerDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsExistMounting
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_IsExistMounting"></a> IsExistMounting
 
 ```csharp
 public bool IsExistMounting { get; set; }
@@ -310,7 +310,7 @@ public bool IsExistMounting { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MPCR
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_MPCR"></a> MPCR
 
 ```csharp
 public double MPCR { get; set; }
@@ -320,7 +320,7 @@ public double MPCR { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NumberOfMounting
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_NumberOfMounting"></a> NumberOfMounting
 
 ```csharp
 public int NumberOfMounting { get; set; }
@@ -330,7 +330,7 @@ public int NumberOfMounting { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfSlot
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_NumberOfSlot"></a> NumberOfSlot
 
 ```csharp
 public int NumberOfSlot { get; set; }
@@ -340,7 +340,7 @@ public int NumberOfSlot { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### OuterDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_OuterDiameter"></a> OuterDiameter
 
 ```csharp
 public double OuterDiameter { get; set; }
@@ -350,7 +350,7 @@ public double OuterDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Rmf
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_Rmf"></a> Rmf
 
 ```csharp
 public double Rmf { get; set; }
@@ -360,7 +360,7 @@ public double Rmf { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Rmi
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_Rmi"></a> Rmi
 
 ```csharp
 public double Rmi { get; set; }
@@ -370,7 +370,7 @@ public double Rmi { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Rmo
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_Rmo"></a> Rmo
 
 ```csharp
 public double Rmo { get; set; }
@@ -380,7 +380,7 @@ public double Rmo { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RotateAngle
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_RotateAngle"></a> RotateAngle
 
 ```csharp
 public double RotateAngle { get; set; }
@@ -390,7 +390,7 @@ public double RotateAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Rs
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_Rs"></a> Rs
 
 ```csharp
 public double Rs { get; set; }
@@ -402,7 +402,7 @@ public double Rs { get; set; }
 
 ## Methods
 
-### CreateParameter\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_CreateParameter"></a> CreateParameter\(\)
 
 Create parameter
 
@@ -414,7 +414,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 Fill parameter
 
@@ -426,7 +426,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorStatorBuiler_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -439,5 +439,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

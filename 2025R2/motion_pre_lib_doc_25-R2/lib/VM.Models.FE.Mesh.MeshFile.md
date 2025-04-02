@@ -1,4 +1,4 @@
-# Class MeshFile
+#  Class MeshFile
 
 Namespace: [VM.Models.FE.Mesh](VM.Models.FE.Mesh.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -26,7 +26,7 @@ public class MeshFile
 
 ## Constructors
 
-### MeshFile\(\)
+### <a id="VM_Models_FE_Mesh_MeshFile__ctor"></a> MeshFile\(\)
 
 ```csharp
 public MeshFile()
@@ -34,7 +34,7 @@ public MeshFile()
 
 ## Properties
 
-### IsTemporary
+### <a id="VM_Models_FE_Mesh_MeshFile_IsTemporary"></a> IsTemporary
 
 ```csharp
 protected bool IsTemporary { get; set; }
@@ -46,7 +46,7 @@ protected bool IsTemporary { get; set; }
 
 ## Methods
 
-### Add\(object\)
+### <a id="VM_Models_FE_Mesh_MeshFile_Add_System_Object_"></a> Add\(object\)
 
 ```csharp
 public void Add(object obj)
@@ -56,7 +56,7 @@ public void Add(object obj)
 
 `obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### AddBunch\(IEnumerable\)
+### <a id="VM_Models_FE_Mesh_MeshFile_AddBunch_System_Collections_IEnumerable_"></a> AddBunch\(IEnumerable\)
 
 ```csharp
 public void AddBunch(IEnumerable enumObjs)
@@ -66,7 +66,7 @@ public void AddBunch(IEnumerable enumObjs)
 
 `enumObjs` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.ienumerable)
 
-### Connect\(string\)
+### <a id="VM_Models_FE_Mesh_MeshFile_Connect_System_String_"></a> Connect\(string\)
 
 ```csharp
 public static MeshFile Connect(string pathMeshFile)
@@ -80,7 +80,7 @@ public static MeshFile Connect(string pathMeshFile)
 
  [MeshFile](VM.Models.FE.Mesh.MeshFile.md)
 
-### Create\(string\)
+### <a id="VM_Models_FE_Mesh_MeshFile_Create_System_String_"></a> Create\(string\)
 
 ```csharp
 public static MeshFile Create(string pathMeshFile)
@@ -94,7 +94,7 @@ public static MeshFile Create(string pathMeshFile)
 
  [MeshFile](VM.Models.FE.Mesh.MeshFile.md)
 
-### CreateTable<T\>\(\)
+### <a id="VM_Models_FE_Mesh_MeshFile_CreateTable__1"></a> CreateTable<T\>\(\)
 
 ```csharp
 protected void CreateTable<T>() where T : new()
@@ -104,7 +104,7 @@ protected void CreateTable<T>() where T : new()
 
 `T` 
 
-### CreateTemporary\(\)
+### <a id="VM_Models_FE_Mesh_MeshFile_CreateTemporary"></a> CreateTemporary\(\)
 
 ```csharp
 public static MeshFile CreateTemporary()
@@ -114,13 +114,13 @@ public static MeshFile CreateTemporary()
 
  [MeshFile](VM.Models.FE.Mesh.MeshFile.md)
 
-### Dispose\(\)
+### <a id="VM_Models_FE_Mesh_MeshFile_Dispose"></a> Dispose\(\)
 
 ```csharp
 public void Dispose()
 ```
 
-### Dispose\(bool\)
+### <a id="VM_Models_FE_Mesh_MeshFile_Dispose_System_Boolean_"></a> Dispose\(bool\)
 
 ```csharp
 protected virtual void Dispose(bool disposing)
@@ -130,7 +130,7 @@ protected virtual void Dispose(bool disposing)
 
 `disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Initialize\(string\)
+### <a id="VM_Models_FE_Mesh_MeshFile_Initialize_System_String_"></a> Initialize\(string\)
 
 ```csharp
 protected void Initialize(string pathMeshFile)
@@ -140,7 +140,7 @@ protected void Initialize(string pathMeshFile)
 
 `pathMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### QueryByColumn<T\>\(string, object\)
+### <a id="VM_Models_FE_Mesh_MeshFile_QueryByColumn__1_System_String_System_Object_"></a> QueryByColumn<T\>\(string, object\)
 
 ```csharp
 public IEnumerable<T> QueryByColumn<T>(string columnName, object value) where T : class, new()
@@ -160,7 +160,7 @@ public IEnumerable<T> QueryByColumn<T>(string columnName, object value) where T 
 
 `T` 
 
-### Table<T\>\(\)
+### <a id="VM_Models_FE_Mesh_MeshFile_Table__1"></a> Table<T\>\(\)
 
 ```csharp
 public IEnumerable<T> Table<T>() where T : class, new()
@@ -174,7 +174,7 @@ public IEnumerable<T> Table<T>() where T : class, new()
 
 `T` 
 
-### TryQueryByID<T\>\(int, out T\)
+### <a id="VM_Models_FE_Mesh_MeshFile_TryQueryByID__1_System_Int32___0__"></a> TryQueryByID<T\>\(int, out T\)
 
 ```csharp
 public bool TryQueryByID<T>(int id, out T result) where T : class, new()
@@ -193,5 +193,4 @@ public bool TryQueryByID<T>(int id, out T result) where T : class, new()
 #### Type Parameters
 
 `T` 
-
 

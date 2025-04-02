@@ -1,4 +1,4 @@
-# Class VariableWeb
+#  Class VariableWeb
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### VariableWeb\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_VariableWeb__ctor"></a> VariableWeb\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.VariableWeb" data-throw-if-not-resolved="false"></xref> class.
 
@@ -110,7 +110,7 @@ public VariableWeb()
 
 ## Properties
 
-### WebStiffnesses
+### <a id="VM_Managed_DAFUL_GearTrain_VariableWeb_WebStiffnesses"></a> WebStiffnesses
 
 Gets or sets the web stiffnesses.
 
@@ -124,7 +124,7 @@ public WebStiffness[] WebStiffnesses { get; set; }
 
 ## Methods
 
-### InitChild\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_VariableWeb_InitChild_VM_Unit_ConvertFactor_"></a> InitChild\(ConvertFactor\)
 
 Initializes the child.
 
@@ -138,7 +138,7 @@ public override void InitChild(Unit.ConvertFactor factor)
 
 The factor.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_VariableWeb_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -151,5 +151,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

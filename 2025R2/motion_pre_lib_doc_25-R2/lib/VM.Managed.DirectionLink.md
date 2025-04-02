@@ -1,4 +1,4 @@
-# Class DirectionLink
+#  Class DirectionLink
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -107,7 +107,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DirectionLink\(IDirectionContainer, string\)
+### <a id="VM_Managed_DirectionLink__ctor_VM_Managed_IDirectionContainer_System_String_"></a> DirectionLink\(IDirectionContainer, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DirectionLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ The data of direction of Design Frame.
 
 Direction type(x,y,z).
 
-### DirectionLink\(\)
+### <a id="VM_Managed_DirectionLink__ctor"></a> DirectionLink\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DirectionLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -135,7 +135,7 @@ public DirectionLink()
 
 ## Fields
 
-### m\_linkDirectionContainer
+### <a id="VM_Managed_DirectionLink_m_linkDirectionContainer"></a> m\_linkDirectionContainer
 
 ```csharp
 protected Link<IDirectionContainer, LinkContainer.Update, LinkContainer.Destroy, LinkContainer.None> m_linkDirectionContainer
@@ -145,7 +145,7 @@ protected Link<IDirectionContainer, LinkContainer.Update, LinkContainer.Destroy,
 
  [Link](VM.Managed.Link\-4.md)<[IDirectionContainer](VM.Managed.IDirectionContainer.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md), [LinkContainer](VM.Managed.LinkContainer.md).[Destroy](VM.Managed.LinkContainer.Destroy.md), [LinkContainer](VM.Managed.LinkContainer.md).[None](VM.Managed.LinkContainer.None.md)\>
 
-### m\_strDirectionType
+### <a id="VM_Managed_DirectionLink_m_strDirectionType"></a> m\_strDirectionType
 
 ```csharp
 protected string m_strDirectionType
@@ -157,7 +157,7 @@ protected string m_strDirectionType
 
 ## Properties
 
-### DirectionContainer
+### <a id="VM_Managed_DirectionLink_DirectionContainer"></a> DirectionContainer
 
 Gets or sets the object of design frame.
 
@@ -169,7 +169,7 @@ public IDirectionContainer DirectionContainer { get; set; }
 
  [IDirectionContainer](VM.Managed.IDirectionContainer.md)
 
-### DirectionType
+### <a id="VM_Managed_DirectionLink_DirectionType"></a> DirectionType
 
 Gets the direction type of design frame.
 
@@ -181,7 +181,7 @@ public string DirectionType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsParameterized
+### <a id="VM_Managed_DirectionLink_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -193,7 +193,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Position
+### <a id="VM_Managed_DirectionLink_Position"></a> Position
 
 Gets the position of design frame.
 
@@ -205,7 +205,7 @@ public VectorBase Position { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### Value
+### <a id="VM_Managed_DirectionLink_Value"></a> Value
 
 Gets the VectorBase(x, y, z).
 
@@ -217,7 +217,7 @@ public override VectorBase Value { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### \_DirectionContainer
+### <a id="VM_Managed_DirectionLink__DirectionContainer"></a> \_DirectionContainer
 
 Gets or sets the object of design frame.
 
@@ -231,7 +231,7 @@ public Linker<IDirectionContainer> _DirectionContainer { get; set; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_DirectionLink_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -248,7 +248,7 @@ public override XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DirectionLink_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -262,7 +262,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DirectionLink_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -275,5 +275,4 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

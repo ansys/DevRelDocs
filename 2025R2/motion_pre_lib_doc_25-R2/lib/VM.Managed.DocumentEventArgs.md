@@ -1,4 +1,4 @@
-# Class DocumentEventArgs
+#  Class DocumentEventArgs
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class DocumentEventArgs : EventArgs
 
 ## Constructors
 
-### DocumentEventArgs\(string\)
+### <a id="VM_Managed_DocumentEventArgs__ctor_System_String_"></a> DocumentEventArgs\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DocumentEventArgs" data-throw-if-not-resolved="false"></xref> class
 
@@ -39,7 +39,7 @@ The document update information.
 
 ## Properties
 
-### InformationXml
+### <a id="VM_Managed_DocumentEventArgs_InformationXml"></a> InformationXml
 
 Gets the document update information.
 
@@ -50,5 +50,4 @@ public string InformationXml { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

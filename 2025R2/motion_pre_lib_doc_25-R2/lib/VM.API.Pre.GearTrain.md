@@ -1,4 +1,4 @@
-# Namespace VM.API.Pre.GearTrain
+#  Namespace VM.API.Pre.GearTrain
 
 ### Classes
 
@@ -137,5 +137,4 @@ This is the enum for the pinion install method.
  [ShaftAttachType](VM.API.Pre.GearTrain.ShaftAttachType.md)
 
 This is the enum for the shaft attach.
-
 

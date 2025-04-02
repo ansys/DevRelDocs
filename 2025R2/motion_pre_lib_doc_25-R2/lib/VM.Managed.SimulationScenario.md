@@ -1,4 +1,4 @@
-# Class SimulationScenario
+#  Class SimulationScenario
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -170,7 +170,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SimulationScenario\(\)
+### <a id="VM_Managed_SimulationScenario__ctor"></a> SimulationScenario\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.SimulationScenario" data-throw-if-not-resolved="false"></xref> class.
 
@@ -178,7 +178,7 @@ Initializes a new instance of the <xref href="VM.Managed.SimulationScenario" dat
 public SimulationScenario()
 ```
 
-### SimulationScenario\(string\)
+### <a id="VM_Managed_SimulationScenario__ctor_System_String_"></a> SimulationScenario\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.SimulationScenario" data-throw-if-not-resolved="false"></xref> class.
 
@@ -194,7 +194,7 @@ Name of the STR.
 
 ## Properties
 
-### ActionType
+### <a id="VM_Managed_SimulationScenario_ActionType"></a> ActionType
 
 Gets or sets the type of the action.
 
@@ -206,7 +206,7 @@ public SimulationScenario.Action ActionType { get; set; }
 
  [SimulationScenario](VM.Managed.SimulationScenario.md).[Action](VM.Managed.SimulationScenario.Action.md)
 
-### ActionValue
+### <a id="VM_Managed_SimulationScenario_ActionValue"></a> ActionValue
 
 Gets or sets the action value.
 
@@ -218,7 +218,7 @@ public double ActionValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### EnableTarget
+### <a id="VM_Managed_SimulationScenario_EnableTarget"></a> EnableTarget
 
 Gets or sets the enable target.
 
@@ -230,7 +230,7 @@ public ObjectBase EnableTarget { get; set; }
 
  ObjectBase
 
-### Function
+### <a id="VM_Managed_SimulationScenario_Function"></a> Function
 
 Gets or sets the function.
 
@@ -242,7 +242,7 @@ public ObjectBase Function { get; set; }
 
  ObjectBase
 
-### ICFFilePath
+### <a id="VM_Managed_SimulationScenario_ICFFilePath"></a> ICFFilePath
 
 Gets or sets the ICF file path.
 
@@ -254,7 +254,7 @@ public string ICFFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SensorType
+### <a id="VM_Managed_SimulationScenario_SensorType"></a> SensorType
 
 Gets or sets the type of the sensor.
 
@@ -266,7 +266,7 @@ public SimulationScenario.Sensor SensorType { get; set; }
 
  [SimulationScenario](VM.Managed.SimulationScenario.md).[Sensor](VM.Managed.SimulationScenario.Sensor.md)
 
-### SignType
+### <a id="VM_Managed_SimulationScenario_SignType"></a> SignType
 
 Gets or sets the type of the sign.
 
@@ -278,7 +278,7 @@ public SimulationScenario.Sign SignType { get; set; }
 
  [SimulationScenario](VM.Managed.SimulationScenario.md).[Sign](VM.Managed.SimulationScenario.Sign.md)
 
-### TargetMotion
+### <a id="VM_Managed_SimulationScenario_TargetMotion"></a> TargetMotion
 
 Gets or sets the target motion.
 
@@ -290,7 +290,7 @@ public SimulationScenario.Motion TargetMotion { get; set; }
 
  [SimulationScenario](VM.Managed.SimulationScenario.md).[Motion](VM.Managed.SimulationScenario.Motion.md)
 
-### Value
+### <a id="VM_Managed_SimulationScenario_Value"></a> Value
 
 Gets or sets the value.
 
@@ -302,7 +302,7 @@ public double Value { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### \_EnableTarget
+### <a id="VM_Managed_SimulationScenario__EnableTarget"></a> \_EnableTarget
 
 Gets or sets the enable target.
 
@@ -315,7 +315,7 @@ public Linker<IEnableForSimulationScenario> _EnableTarget { get; set; }
 
  Linker<[IEnableForSimulationScenario](VM.Managed.IEnableForSimulationScenario.md)\>
 
-### \_ScenarioTarget
+### <a id="VM_Managed_SimulationScenario__ScenarioTarget"></a> \_ScenarioTarget
 
 ```csharp
 public Linker<ObjectBase> _ScenarioTarget { get; set; }
@@ -327,7 +327,7 @@ public Linker<ObjectBase> _ScenarioTarget { get; set; }
 
 ## Methods
 
-### GetTargetType\(\)
+### <a id="VM_Managed_SimulationScenario_GetTargetType"></a> GetTargetType\(\)
 
 ```csharp
 public string GetTargetType()
@@ -337,7 +337,7 @@ public string GetTargetType()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_SimulationScenario_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -351,7 +351,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_SimulationScenario_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -369,7 +369,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_SimulationScenario_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 ```csharp
 protected override void OnDeserialization(object sender)
@@ -378,5 +378,4 @@ protected override void OnDeserialization(object sender)
 #### Parameters
 
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
-
 

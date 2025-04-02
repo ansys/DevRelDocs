@@ -1,4 +1,4 @@
-# Class SetCurveBase
+#  Class SetCurveBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -187,7 +187,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SetCurveBase\(\)
+### <a id="VM_Managed_DAFUL_SetCurveBase__ctor"></a> SetCurveBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetCurveBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -195,7 +195,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetCurveBase" dat
 public SetCurveBase()
 ```
 
-### SetCurveBase\(string\)
+### <a id="VM_Managed_DAFUL_SetCurveBase__ctor_System_String_"></a> SetCurveBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetCurveBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -209,7 +209,7 @@ public SetCurveBase(string strName)
 
 Name of the face set.
 
-### SetCurveBase\(string, string\)
+### <a id="VM_Managed_DAFUL_SetCurveBase__ctor_System_String_System_String_"></a> SetCurveBase\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetCurveBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -229,7 +229,7 @@ Name of the proxy.
 
 ## Properties
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_SetCurveBase_AnalysisType"></a> AnalysisType
 
 Gets the analysis type.
 
@@ -241,7 +241,7 @@ public virtual BodyAnalysisType AnalysisType { get; }
 
  [BodyAnalysisType](VM.Managed.DAFUL.BodyAnalysisType.md)
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_SetCurveBase_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -253,7 +253,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### AttribType
+### <a id="VM_Managed_DAFUL_SetCurveBase_AttribType"></a> AttribType
 
 Gets the attribute type of curve set.
 
@@ -265,7 +265,7 @@ public AttributeCurvesetTypeBase.CurvesetType AttribType { get; }
 
  [AttributeCurvesetTypeBase](VM.Managed.DAFUL.AttributeCurvesetTypeBase.md).[CurvesetType](VM.Managed.DAFUL.AttributeCurvesetTypeBase.CurvesetType.md)
 
-### Body
+### <a id="VM_Managed_DAFUL_SetCurveBase_Body"></a> Body
 
 Gets the body.
 
@@ -277,7 +277,7 @@ public IBody Body { get; }
 
  IBody
 
-### Connectable
+### <a id="VM_Managed_DAFUL_SetCurveBase_Connectable"></a> Connectable
 
 Gets the connectable.
 
@@ -289,7 +289,7 @@ public IConnectable Connectable { get; }
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)
 
-### GeometryFullName
+### <a id="VM_Managed_DAFUL_SetCurveBase_GeometryFullName"></a> GeometryFullName
 
 Gets the geometry full name
 
@@ -301,7 +301,7 @@ public string GeometryFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GeometryNameForMultiContact
+### <a id="VM_Managed_DAFUL_SetCurveBase_GeometryNameForMultiContact"></a> GeometryNameForMultiContact
 
 Gets the name for multiple contact
 
@@ -313,7 +313,7 @@ public string GeometryNameForMultiContact { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsActionGeometry
+### <a id="VM_Managed_DAFUL_SetCurveBase_IsActionGeometry"></a> IsActionGeometry
 
 Gets or sets a value indicating whether this instance is action geometry.
 
@@ -325,7 +325,7 @@ public bool IsActionGeometry { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsBaseGeometry
+### <a id="VM_Managed_DAFUL_SetCurveBase_IsBaseGeometry"></a> IsBaseGeometry
 
 Gets or sets a value indicating whether this instance is base geometry.
 
@@ -337,7 +337,7 @@ public bool IsBaseGeometry { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsCloseLoop
+### <a id="VM_Managed_DAFUL_SetCurveBase_IsCloseLoop"></a> IsCloseLoop
 
 The flag that indicate closed loop
 
@@ -349,7 +349,7 @@ public bool IsCloseLoop { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ParentBody
+### <a id="VM_Managed_DAFUL_SetCurveBase_ParentBody"></a> ParentBody
 
 Gets or sets the parent body.
 
@@ -361,7 +361,7 @@ public ObjectBase ParentBody { get; set; }
 
  ObjectBase
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_SetCurveBase_ReferenceType"></a> ReferenceType
 
 Gets the type of the reference.
 
@@ -375,7 +375,7 @@ public string ReferenceType { get; }
 
 ## Methods
 
-### GetAkimaSpline\(double\[\], double\[\], double\[\]\)
+### <a id="VM_Managed_DAFUL_SetCurveBase_GetAkimaSpline_System_Double___System_Double___System_Double___"></a> GetAkimaSpline\(double\[\], double\[\], double\[\]\)
 
 Get akima spline
 
@@ -403,7 +403,7 @@ The array of Z position
 
 The list of points
 
-### GetAkimaSpline\(VectorBase\[\], int\)
+### <a id="VM_Managed_DAFUL_SetCurveBase_GetAkimaSpline_VM_Managed_VectorBase___System_Int32_"></a> GetAkimaSpline\(VectorBase\[\], int\)
 
 Get akima spline
 
@@ -427,7 +427,7 @@ The number of result points.
 
 The list of points
 
-### GetAkimaSpline\(double\[\], double\[\], double\[\], int\)
+### <a id="VM_Managed_DAFUL_SetCurveBase_GetAkimaSpline_System_Double___System_Double___System_Double___System_Int32_"></a> GetAkimaSpline\(double\[\], double\[\], double\[\], int\)
 
 Get akima spline
 
@@ -459,7 +459,7 @@ The number of result points.
 
 The list of points
 
-### GetCADBody\(\)
+### <a id="VM_Managed_DAFUL_SetCurveBase_GetCADBody"></a> GetCADBody\(\)
 
 Gets the cad body from parent body.
 
@@ -471,7 +471,7 @@ public Body GetCADBody()
 
  Body
 
-### GetDefaultMaxPenetration\(ref double, IReferencable\)
+### <a id="VM_Managed_DAFUL_SetCurveBase_GetDefaultMaxPenetration_System_Double__VM_Managed_IReferencable_"></a> GetDefaultMaxPenetration\(ref double, IReferencable\)
 
 Gets the default maximum penetration.
 
@@ -495,7 +495,7 @@ The reference.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
+### <a id="VM_Managed_DAFUL_SetCurveBase_GetGeometryNavigatorInformation_System_Xml_XmlDocument_System_Xml_XmlElement_"></a> GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
 
 Gets the geometry information for model navigator .
 
@@ -519,7 +519,7 @@ The XmlElement information.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_SetCurveBase_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -547,7 +547,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
+### <a id="VM_Managed_DAFUL_SetCurveBase_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the point direction. (using facet information)
 
@@ -575,7 +575,7 @@ The reference.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPoints\(\)
+### <a id="VM_Managed_DAFUL_SetCurveBase_GetPoints"></a> GetPoints\(\)
 
 Get points
 
@@ -589,7 +589,7 @@ public virtual VectorBase[] GetPoints()
 
 The array of points
 
-### GetPointsAboutOrigin\(\)
+### <a id="VM_Managed_DAFUL_SetCurveBase_GetPointsAboutOrigin"></a> GetPointsAboutOrigin\(\)
 
 Get points about origin
 
@@ -603,7 +603,7 @@ public virtual VectorBase[] GetPointsAboutOrigin()
 
 The array of points
 
-### GetProfilePoint\(ref bool, ref List<VectorBase\>\)
+### <a id="VM_Managed_DAFUL_SetCurveBase_GetProfilePoint_System_Boolean__System_Collections_Generic_List_VM_Managed_VectorBase___"></a> GetProfilePoint\(ref bool, ref List<VectorBase\>\)
 
 Get profile points
 
@@ -625,7 +625,7 @@ The list of points
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_SetCurveBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initialize the <xref href="VM.Managed.DAFUL.SetCurveBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -638,5 +638,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The convert factor
-
 

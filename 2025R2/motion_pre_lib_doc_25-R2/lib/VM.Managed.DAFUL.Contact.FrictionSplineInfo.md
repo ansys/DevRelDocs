@@ -1,4 +1,4 @@
-# Class FrictionSplineInfo
+#  Class FrictionSplineInfo
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### FrictionSplineInfo\(\)
+### <a id="VM_Managed_DAFUL_Contact_FrictionSplineInfo__ctor"></a> FrictionSplineInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.FrictionSplineInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public FrictionSplineInfo()
 
 ## Properties
 
-### FricSpline
+### <a id="VM_Managed_DAFUL_Contact_FrictionSplineInfo_FricSpline"></a> FricSpline
 
 Gets or set the friction spline.
 
@@ -118,7 +118,7 @@ public Spline FricSpline { get; set; }
 
  Spline
 
-### NormalForce
+### <a id="VM_Managed_DAFUL_Contact_FrictionSplineInfo_NormalForce"></a> NormalForce
 
 Gets or set the value of normal force.
 
@@ -129,5 +129,4 @@ public Variable NormalForce { get; set; }
 #### Property Value
 
  Variable
-
 

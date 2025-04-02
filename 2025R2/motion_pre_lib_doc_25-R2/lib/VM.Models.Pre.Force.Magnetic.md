@@ -1,4 +1,4 @@
-# Class Magnetic
+#  Class Magnetic
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -173,7 +173,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Magnetic\(\)
+### <a id="VM_Models_Pre_Force_Magnetic__ctor"></a> Magnetic\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.Magnetic" data-throw-if-not-resolved="false"></xref> class.
 
@@ -181,7 +181,7 @@ Initializes a new instance of the <xref href="VM.Models.Pre.Force.Magnetic" data
 public Magnetic()
 ```
 
-### Magnetic\(string\)
+### <a id="VM_Models_Pre_Force_Magnetic__ctor_System_String_"></a> Magnetic\(string\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.Magnetic" data-throw-if-not-resolved="false"></xref> class.
 
@@ -197,7 +197,7 @@ Name of the string.
 
 ## Fields
 
-### \_\_a$\_a\_VM.Models.Pre.LinkAttribute
+### <a id="VM_Models_Pre_Force_Magnetic___a__a_VM_Models_Pre_LinkAttribute"></a> \_\_a$\_a\_VM.Models.Pre.LinkAttribute
 
 ```csharp
 protected LinkAttribute __a$_a_VM.Models.Pre.LinkAttribute
@@ -207,7 +207,7 @@ protected LinkAttribute __a$_a_VM.Models.Pre.LinkAttribute
 
  LinkAttribute
 
-### \_\_a$\_a\_VM.Models.Pre.LinkUpdateAttribute
+### <a id="VM_Models_Pre_Force_Magnetic___a__a_VM_Models_Pre_LinkUpdateAttribute"></a> \_\_a$\_a\_VM.Models.Pre.LinkUpdateAttribute
 
 ```csharp
 protected LinkUpdateAttribute __a$_a_VM.Models.Pre.LinkUpdateAttribute
@@ -219,7 +219,7 @@ protected LinkUpdateAttribute __a$_a_VM.Models.Pre.LinkUpdateAttribute
 
 ## Properties
 
-### Criterion
+### <a id="VM_Models_Pre_Force_Magnetic_Criterion"></a> Criterion
 
 Gets or sets the criterion.
 
@@ -231,7 +231,7 @@ public ExpressionValueVariable Criterion { get; set; }
 
  ExpressionValueVariable
 
-### DesignName
+### <a id="VM_Models_Pre_Force_Magnetic_DesignName"></a> DesignName
 
 Gets or sets the design name.
 
@@ -243,7 +243,7 @@ public string DesignName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GroupInformations
+### <a id="VM_Models_Pre_Force_Magnetic_GroupInformations"></a> GroupInformations
 
 Gets or sets the path data.
 
@@ -255,7 +255,7 @@ public Magnetic.GroupInformation[] GroupInformations { get; set; }
 
  [Magnetic](VM.Models.Pre.Force.Magnetic.md).[GroupInformation](VM.Models.Pre.Force.Magnetic.GroupInformation.md)\[\]
 
-### InterfaceStepFactor
+### <a id="VM_Models_Pre_Force_Magnetic_InterfaceStepFactor"></a> InterfaceStepFactor
 
 Gets or sets the interface step factor.
 
@@ -267,7 +267,7 @@ public CompositeFieldUsable InterfaceStepFactor { get; set; }
 
  CompositeFieldUsable
 
-### MeasurementType
+### <a id="VM_Models_Pre_Force_Magnetic_MeasurementType"></a> MeasurementType
 
 Gets or sets the measurement type.
 
@@ -279,7 +279,7 @@ public MeasurementType MeasurementType { get; set; }
 
  [MeasurementType](VM.Models.Pre.Force.MeasurementType.md)
 
-### ProjectRelativeFilePath
+### <a id="VM_Models_Pre_Force_Magnetic_ProjectRelativeFilePath"></a> ProjectRelativeFilePath
 
 Gets or sets the project relative file path.
 
@@ -291,7 +291,7 @@ public string ProjectRelativeFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### StopAutomatically
+### <a id="VM_Models_Pre_Force_Magnetic_StopAutomatically"></a> StopAutomatically
 
 Gets or sets the stop automatically flag.
 
@@ -305,7 +305,7 @@ public bool StopAutomatically { get; set; }
 
 ## Methods
 
-### AddGroupInformation\(Group\)
+### <a id="VM_Models_Pre_Force_Magnetic_AddGroupInformation_VM_Managed_DAFUL_Group_"></a> AddGroupInformation\(Group\)
 
 Add group information.
 
@@ -319,7 +319,7 @@ public void AddGroupInformation(Group group)
 
 The group
 
-### AddGroupInformation\(Group, IMarker\)
+### <a id="VM_Models_Pre_Force_Magnetic_AddGroupInformation_VM_Managed_DAFUL_Group_VM_Managed_IMarker_"></a> AddGroupInformation\(Group, IMarker\)
 
 Add group information.
 
@@ -337,7 +337,7 @@ The group
 
 The marker
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Models_Pre_Force_Magnetic_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -357,7 +357,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetDefaultMarkerInGroup\(Group\)
+### <a id="VM_Models_Pre_Force_Magnetic_GetDefaultMarkerInGroup_VM_Managed_DAFUL_Group_"></a> GetDefaultMarkerInGroup\(Group\)
 
 Gets default marker in group
 
@@ -377,7 +377,7 @@ The group
 
 The marker
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Models_Pre_Force_Magnetic_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -405,7 +405,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetTransformInGroup\(IMarker, Group\)
+### <a id="VM_Models_Pre_Force_Magnetic_GetTransformInGroup_VM_Managed_IMarker_VM_Managed_DAFUL_Group_"></a> GetTransformInGroup\(IMarker, Group\)
 
 Getst transform in group.
 
@@ -429,7 +429,7 @@ The group
 
 The marker transform
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Models_Pre_Force_Magnetic_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -443,7 +443,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### OnLinkReserved\(ILink, object, EventArgs\)
+### <a id="VM_Models_Pre_Force_Magnetic_OnLinkReserved_VM_Managed_ILink_System_Object_System_EventArgs_"></a> OnLinkReserved\(ILink, object, EventArgs\)
 
 ```csharp
 protected override void OnLinkReserved(ILink reserved, object objNotifier, EventArgs args)
@@ -456,5 +456,4 @@ protected override void OnLinkReserved(ILink reserved, object objNotifier, Event
 `objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
-
 

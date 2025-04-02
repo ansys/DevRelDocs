@@ -1,4 +1,4 @@
-# Class CreateGroupImpl
+#  Class CreateGroupImpl
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -22,7 +22,7 @@ public class CreateGroupImpl
 
 ## Constructors
 
-### CreateGroupImpl\(\)
+### <a id="VM_Managed_DAFUL_Car_CreateGroupImpl__ctor"></a> CreateGroupImpl\(\)
 
 ```csharp
 public CreateGroupImpl()
@@ -30,7 +30,7 @@ public CreateGroupImpl()
 
 ## Methods
 
-### CreateGroupForGeneral\(SubSystemDocument\)
+### <a id="VM_Managed_DAFUL_Car_CreateGroupImpl_CreateGroupForGeneral_VM_Managed_DAFUL_SubSystemDocument_"></a> CreateGroupForGeneral\(SubSystemDocument\)
 
 Create Group for General
 
@@ -44,7 +44,7 @@ public static void CreateGroupForGeneral(SubSystemDocument subDoc)
 
 The document
 
-### CreateGroupForSuspension\(SubSystemDocument\)
+### <a id="VM_Managed_DAFUL_Car_CreateGroupImpl_CreateGroupForSuspension_VM_Managed_DAFUL_SubSystemDocument_"></a> CreateGroupForSuspension\(SubSystemDocument\)
 
 Create Group for Suspension
 
@@ -57,5 +57,4 @@ public static void CreateGroupForSuspension(SubSystemDocument subDoc)
 `subDoc` SubSystemDocument
 
 The document
-
 

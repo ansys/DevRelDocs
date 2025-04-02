@@ -1,4 +1,4 @@
-# Enum FlexibleBodyType
+#  Enum FlexibleBodyType
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -14,5 +14,4 @@ public enum FlexibleBodyType
 `Modal = 1` 
 
 `Nodal = 0` 
-
 

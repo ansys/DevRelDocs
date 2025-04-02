@@ -1,4 +1,4 @@
-# Class CalculatePinStiffness
+#  Class CalculatePinStiffness
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector.Operation](VM.Managed.DAFUL.CPlacingConnector.Operation.md)  
 Assembly: VMOpCPlacingConnector.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### CalculatePinStiffness\(string, string\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePinStiffness__ctor_System_String_System_String_"></a> CalculatePinStiffness\(string, string\)
 
 Calculate pin stiffness
 
@@ -95,7 +95,7 @@ The file path
 
 The pin name
 
-### CalculatePinStiffness\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePinStiffness__ctor_VM_Managed_Operation_JournalParameter_"></a> CalculatePinStiffness\(JournalParameter\)
 
 Calculate pin stiffness
 
@@ -111,7 +111,7 @@ The journal parameter
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePinStiffness_Name"></a> Name
 
 Gets the name.
 
@@ -125,7 +125,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePinStiffness_Execute"></a> Execute\(\)
 
 Execute
 
@@ -133,7 +133,7 @@ Execute
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePinStiffness_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -147,7 +147,7 @@ public override void GetInformation(XmlWriter writer)
 
 The writer.
 
-### Result\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePinStiffness_Result"></a> Result\(\)
 
 Results this instance.
 
@@ -159,7 +159,7 @@ public double Result()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Success\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculatePinStiffness_Success"></a> Success\(\)
 
 success flag
 
@@ -170,5 +170,4 @@ public bool Success()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

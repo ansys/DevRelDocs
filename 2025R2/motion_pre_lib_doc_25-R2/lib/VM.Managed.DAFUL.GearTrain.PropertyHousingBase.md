@@ -1,4 +1,4 @@
-# Class PropertyHousingBase
+#  Class PropertyHousingBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -172,7 +172,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyHousingBase\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase__ctor"></a> PropertyHousingBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyHousingBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -182,7 +182,7 @@ public PropertyHousingBase()
 
 ## Properties
 
-### ComponentAnalysis
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_ComponentAnalysis"></a> ComponentAnalysis
 
 Gets or sets the component analysis.
 
@@ -194,7 +194,7 @@ public ComponentAnalysis ComponentAnalysis { get; set; }
 
  [ComponentAnalysis](VM.Managed.DAFUL.GearTrain.ComponentAnalysis.md)
 
-### IPointLoads
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_IPointLoads"></a> IPointLoads
 
 Gets the point loads.
 
@@ -206,7 +206,7 @@ public IPointLoad[] IPointLoads { get; }
 
  [IPointLoad](VM.Managed.DAFUL.GearTrain.IPointLoad.md)\[\]
 
-### IUnbalanceMasses
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_IUnbalanceMasses"></a> IUnbalanceMasses
 
 Gets the unbalance masses.
 
@@ -218,7 +218,7 @@ public IUnbalanceMass[] IUnbalanceMasses { get; }
 
  [IUnbalanceMass](VM.Managed.DAFUL.GearTrain.IUnbalanceMass.md)\[\]
 
-### PointLoads
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_PointLoads"></a> PointLoads
 
 Gets or sets the point loads.
 
@@ -230,7 +230,7 @@ public SubEntity[] PointLoads { get; set; }
 
  SubEntity\[\]
 
-### UnbalanceMasses
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_UnbalanceMasses"></a> UnbalanceMasses
 
 Gets or sets the unbalance masses.
 
@@ -244,7 +244,7 @@ public SubEntity[] UnbalanceMasses { get; set; }
 
 ## Methods
 
-### AddPointLoad\(IPointLoad\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_AddPointLoad_VM_Managed_DAFUL_GearTrain_IPointLoad_"></a> AddPointLoad\(IPointLoad\)
 
 Adds the point load.
 
@@ -258,7 +258,7 @@ public void AddPointLoad(IPointLoad pl)
 
 The pl.
 
-### AddUnbalanceMass\(IUnbalanceMass\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_AddUnbalanceMass_VM_Managed_DAFUL_GearTrain_IUnbalanceMass_"></a> AddUnbalanceMass\(IUnbalanceMass\)
 
 Adds the unbalance mass.
 
@@ -272,7 +272,7 @@ public void AddUnbalanceMass(IUnbalanceMass um)
 
 The um.
 
-### FindAddedBuilderFromGeomInfo\(GeometryInfoBase, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_FindAddedBuilderFromGeomInfo_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_System_String_"></a> FindAddedBuilderFromGeomInfo\(GeometryInfoBase, string\)
 
 Finds the added builder from geom information.
 
@@ -294,7 +294,7 @@ Name of the string category.
 
  [IGTBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGTBuilder.md)
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -314,7 +314,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GeometryInfos\(GeometryType\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_GeometryInfos_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_GeometryType_"></a> GeometryInfos\(GeometryType\)
 
 Geometries the infos.
 
@@ -332,7 +332,7 @@ The type geom.
 
  [GeometryInfoBase](VM.Managed.DAFUL.GearTrain.GeometryInfoBase.md)\[\]
 
-### GetGlobalAxisCore\(Body\[\], ref List<VectorBase\[\]\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_GetGlobalAxisCore_VM_Managed_CAD_Body___System_Collections_Generic_List_VM_Managed_VectorBase_____"></a> GetGlobalAxisCore\(Body\[\], ref List<VectorBase\[\]\>\)
 
 Get the global axis
 
@@ -350,7 +350,7 @@ The body list.
 
 vector list.
 
-### GetNewNameFromChildEntityCore\(List<string\>, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_GetNewNameFromChildEntityCore_System_Collections_Generic_List_System_String__System_String_"></a> GetNewNameFromChildEntityCore\(List<string\>, string\)
 
 Gets the new name from child entity core.
 
@@ -372,7 +372,7 @@ The string prefix.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetNewNameFromPointLoad\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_GetNewNameFromPointLoad_System_String_"></a> GetNewNameFromPointLoad\(string\)
 
 Gets the new name from point load.
 
@@ -390,7 +390,7 @@ The STR prefix.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetNewNameFromUnbalanceMass\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_GetNewNameFromUnbalanceMass_System_String_"></a> GetNewNameFromUnbalanceMass\(string\)
 
 Gets the new name from unbalance mass.
 
@@ -408,7 +408,7 @@ The STR prefix.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetPointLoadPoint\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_GetPointLoadPoint"></a> GetPointLoadPoint\(\)
 
 Gets the point load point.
 
@@ -420,7 +420,7 @@ public List<Vector> GetPointLoadPoint()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### GetUnbalanceMassPoint\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_GetUnbalanceMassPoint"></a> GetUnbalanceMassPoint\(\)
 
 Gets the unbalance mass point.
 
@@ -432,7 +432,7 @@ public List<Vector> GetUnbalanceMassPoint()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -450,7 +450,7 @@ The ob unnamed.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -464,7 +464,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### IsAvaiableToAddOrModifyCrossHelicalGearWithAxis\(GearTrainDocument, string, VectorBase, VectorBase, GearGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_IsAvaiableToAddOrModifyCrossHelicalGearWithAxis_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> IsAvaiableToAddOrModifyCrossHelicalGearWithAxis\(GearTrainDocument, string, VectorBase, VectorBase, GearGeometryInfo\)
 
 Determines whether [is avaiable to add or modify cross helical gear with axis] [the specified geartrain document].
 
@@ -498,7 +498,7 @@ The added gear information.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsAvaiableToAddOrModifyGearWithAxis\(GearTrainDocument, string, VectorBase, VectorBase, GearGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_IsAvaiableToAddOrModifyGearWithAxis_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> IsAvaiableToAddOrModifyGearWithAxis\(GearTrainDocument, string, VectorBase, VectorBase, GearGeometryInfo\)
 
 Determines whether [is avaiable to add or modify gear with axis] [the specified geartrain document].
 
@@ -532,7 +532,7 @@ The added gear information.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsAvaiableToAddOrModifyGearWithCenterDistance\(GearTrainDocument, string, VectorBase, VectorBase, GearGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_IsAvaiableToAddOrModifyGearWithCenterDistance_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> IsAvaiableToAddOrModifyGearWithCenterDistance\(GearTrainDocument, string, VectorBase, VectorBase, GearGeometryInfo\)
 
 Determines whether [is avaiable to add or modify gear with center distance] [the specified document gt].
 
@@ -566,7 +566,7 @@ The gear geometry information.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsContainsNameOfPointLoad\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_IsContainsNameOfPointLoad_System_String_"></a> IsContainsNameOfPointLoad\(string\)
 
 Determines whether [is contains name of point load] [the specified STR name].
 
@@ -586,7 +586,7 @@ Name of the STR.
 
 <code>true</code> if [is contains name of point load] [the specified STR name]; otherwise, <code>false</code>.
 
-### IsContainsNameOfUnbalanceMass\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_IsContainsNameOfUnbalanceMass_System_String_"></a> IsContainsNameOfUnbalanceMass\(string\)
 
 Determines whether [is contains name of unbalance mass] [the specified STR name].
 
@@ -606,7 +606,7 @@ Name of the STR.
 
 <code>true</code> if [is contains name of unbalance mass] [the specified STR name]; otherwise, <code>false</code>.
 
-### IsContainsOffsetOfPointLoad\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_IsContainsOffsetOfPointLoad_System_Double_"></a> IsContainsOffsetOfPointLoad\(double\)
 
 Determines whether [is contains offset of point load] [the specified d offset].
 
@@ -626,7 +626,7 @@ The d offset.
 
 <code>true</code> if [is contains offset of point load] [the specified d offset]; otherwise, <code>false</code>.
 
-### IsContainsOffsetOfUnbalanceMass\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_IsContainsOffsetOfUnbalanceMass_System_Double_"></a> IsContainsOffsetOfUnbalanceMass\(double\)
 
 Determines whether [is contains offset of unbalance mass] [the specified d offset].
 
@@ -646,7 +646,7 @@ The d offset.
 
 <code>true</code> if [is contains offset of unbalance mass] [the specified d offset]; otherwise, <code>false</code>.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -660,7 +660,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### RemovePointLoad\(IPointEntity\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_RemovePointLoad_VM_Managed_DAFUL_GearTrain_IPointEntity_"></a> RemovePointLoad\(IPointEntity\)
 
 Removes the point load.
 
@@ -674,7 +674,7 @@ public void RemovePointLoad(IPointEntity pl)
 
 The pl.
 
-### RemoveUnbalanceMass\(IPointEntity\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingBase_RemoveUnbalanceMass_VM_Managed_DAFUL_GearTrain_IPointEntity_"></a> RemoveUnbalanceMass\(IPointEntity\)
 
 Removes the unbalance mass.
 
@@ -687,5 +687,4 @@ public void RemoveUnbalanceMass(IPointEntity um)
 `um` [IPointEntity](VM.Managed.DAFUL.GearTrain.IPointEntity.md)
 
 The um.
-
 

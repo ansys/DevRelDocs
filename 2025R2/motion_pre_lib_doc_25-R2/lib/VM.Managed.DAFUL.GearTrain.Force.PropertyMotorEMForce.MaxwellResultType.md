@@ -1,4 +1,4 @@
-# Enum PropertyMotorEMForce.MaxwellResultType
+#  Enum PropertyMotorEMForce.MaxwellResultType
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,7 +26,6 @@ Element-base(surface)
 `VolumeElementBase = 2` 
 
 Element-base(volume)
-
 
 
 

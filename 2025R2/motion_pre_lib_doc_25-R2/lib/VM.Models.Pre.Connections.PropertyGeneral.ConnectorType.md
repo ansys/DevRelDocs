@@ -1,4 +1,4 @@
-# Enum PropertyGeneral.ConnectorType
+#  Enum PropertyGeneral.ConnectorType
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
@@ -116,7 +116,6 @@ Inline.
 `Universal = 14` 
 
 <p>Universal.</p>
-
 
 
 

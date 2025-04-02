@@ -1,4 +1,4 @@
-# Class IEnableImpl
+#  Class IEnableImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class IEnableImpl
 
 ## Constructors
 
-### IEnableImpl\(\)
+### <a id="VM_Managed_IEnableImpl__ctor"></a> IEnableImpl\(\)
 
 ```csharp
 public IEnableImpl()
@@ -30,7 +30,7 @@ public IEnableImpl()
 
 ## Methods
 
-### GetEnabled\(INamed\)
+### <a id="VM_Managed_IEnableImpl_GetEnabled_VM_Managed_INamed_"></a> GetEnabled\(INamed\)
 
 Determines whether the specified object is enable.
 
@@ -50,7 +50,7 @@ The object has name.
 
 <code>true</code> if the specified object is enable; otherwise, <code>false</code>.
 
-### SetEnabled\(INamed, bool\)
+### <a id="VM_Managed_IEnableImpl_SetEnabled_VM_Managed_INamed_System_Boolean_"></a> SetEnabled\(INamed, bool\)
 
 Sets the enabled to object.
 
@@ -67,5 +67,4 @@ The object has name.
 `bEnabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 whether or not enabled.
-
 

@@ -1,4 +1,4 @@
-# Class ExportXML
+#  Class ExportXML
 
 Namespace: [VM.Managed.DAFUL.Linear.Operation](VM.Managed.DAFUL.Linear.Operation.md)  
 Assembly: VMOpLinear.dll  
@@ -110,7 +110,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ExportXML\(Document\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ExportXML__ctor_VM_Managed_Document_"></a> ExportXML\(Document\)
 
 ```csharp
 public ExportXML(Document doc)
@@ -120,7 +120,7 @@ public ExportXML(Document doc)
 
 `doc` Document
 
-### ExportXML\(Document, ObjectBase\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ExportXML__ctor_VM_Managed_Document_VM_Managed_ObjectBase_"></a> ExportXML\(Document, ObjectBase\)
 
 ```csharp
 public ExportXML(Document doc, ObjectBase objSingle)
@@ -132,7 +132,7 @@ public ExportXML(Document doc, ObjectBase objSingle)
 
 `objSingle` ObjectBase
 
-### ExportXML\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ExportXML__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportXML\(JournalParameter\)
 
 ```csharp
 public ExportXML(JournalParameter jp)
@@ -144,7 +144,7 @@ public ExportXML(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Linear_Operation_ExportXML_Name"></a> Name
 
 Gets the operation name.
 
@@ -158,7 +158,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ExportXML_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -166,7 +166,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### SimulationRunImpl\(bool\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ExportXML_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
 
 ```csharp
 protected override void SimulationRunImpl(bool bWriteDFG)
@@ -175,5 +175,4 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 #### Parameters
 
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

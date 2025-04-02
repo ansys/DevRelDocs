@@ -1,4 +1,4 @@
-# Enum BearingStrength.enCleanlinessGreaseType
+#  Enum BearingStrength.enCleanlinessGreaseType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -38,7 +38,6 @@ Slight-typical contamination
 `Very_Severe_Contamination = 4` 
 
 Very severe contamination
-
 
 
 

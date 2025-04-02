@@ -1,4 +1,4 @@
-# Class Sets
+#  Class Sets
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -104,7 +104,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Sets\(\)
+### <a id="VM_Managed_DAFUL_FE_Sets__ctor"></a> Sets\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Sets" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ public Sets()
 
 ## Properties
 
-### EdgeSets
+### <a id="VM_Managed_DAFUL_FE_Sets_EdgeSets"></a> EdgeSets
 
 Gets the edge set container.
 
@@ -126,7 +126,7 @@ public NamedObjectDictionary<SetEdge> EdgeSets { get; }
 
  NamedObjectDictionary<[SetEdge](VM.Managed.DAFUL.FE.SetEdge.md)\>
 
-### ElementSets
+### <a id="VM_Managed_DAFUL_FE_Sets_ElementSets"></a> ElementSets
 
 Gets the element set container.
 
@@ -138,7 +138,7 @@ public NamedObjectDictionary<SetElement> ElementSets { get; }
 
  NamedObjectDictionary<[SetElement](VM.Managed.DAFUL.FE.SetElement.md)\>
 
-### NodeSets
+### <a id="VM_Managed_DAFUL_FE_Sets_NodeSets"></a> NodeSets
 
 Gets the node set container.
 
@@ -150,7 +150,7 @@ public NamedObjectDictionary<SetNode> NodeSets { get; }
 
  NamedObjectDictionary<[SetNode](VM.Managed.DAFUL.FE.SetNode.md)\>
 
-### PatchSets
+### <a id="VM_Managed_DAFUL_FE_Sets_PatchSets"></a> PatchSets
 
 Gets the patch set container.
 
@@ -164,7 +164,7 @@ public NamedObjectDictionary<SetPatch> PatchSets { get; }
 
 ## Methods
 
-### Add\(object\)
+### <a id="VM_Managed_DAFUL_FE_Sets_Add_System_Object_"></a> Add\(object\)
 
 Add set to this instance.
 
@@ -178,7 +178,7 @@ public void Add(object ob)
 
 The set.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_FE_Sets_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -198,7 +198,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetSchema\(\)
+### <a id="VM_Managed_DAFUL_FE_Sets_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <xref href="System.Xml.Serialization.XmlSchemaProviderAttribute" data-throw-if-not-resolved="false"></xref> to the class.
 
@@ -212,7 +212,7 @@ public virtual XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### InitChilds\(\)
+### <a id="VM_Managed_DAFUL_FE_Sets_InitChilds"></a> InitChilds\(\)
 
 Initializes sets in this instance.
 
@@ -220,7 +220,7 @@ Initializes sets in this instance.
 public void InitChilds()
 ```
 
-### MakeReference\(LinkedList<Reference\>\)
+### <a id="VM_Managed_DAFUL_FE_Sets_MakeReference_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReference\(LinkedList<Reference\>\)
 
 ```csharp
 public void MakeReference(LinkedList<Reference> lstRef)
@@ -230,7 +230,7 @@ public void MakeReference(LinkedList<Reference> lstRef)
 
 `lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Reference\>
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_FE_Sets_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -244,7 +244,7 @@ public override void OnDeserialization(object sender)
 
 The sender.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_FE_Sets_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -258,7 +258,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
-### Remove\(object\)
+### <a id="VM_Managed_DAFUL_FE_Sets_Remove_System_Object_"></a> Remove\(object\)
 
 Remove set from this instance.
 
@@ -272,7 +272,7 @@ public void Remove(object ob)
 
 The set.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_FE_Sets_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -285,5 +285,4 @@ public virtual void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
-
 

@@ -1,4 +1,4 @@
-# Class Edge
+#  Class Edge
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -166,7 +166,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Edge\(\)
+### <a id="VM_Managed_CAD_Edge__ctor"></a> Edge\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Edge" data-throw-if-not-resolved="false"></xref> class.
 
@@ -176,7 +176,7 @@ public Edge()
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_CAD_Edge_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draw [Not draw].
 
@@ -190,7 +190,7 @@ public void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### GetEdgeCenterPoint\(ref VectorBase\)
+### <a id="VM_Managed_CAD_Edge_GetEdgeCenterPoint_VM_Managed_VectorBase__"></a> GetEdgeCenterPoint\(ref VectorBase\)
 
 Get edge's center point.
 
@@ -210,7 +210,7 @@ The vector holds center position.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetEdgePointAndDirection\(ref VectorBase, ref VectorBase\)
+### <a id="VM_Managed_CAD_Edge_GetEdgePointAndDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetEdgePointAndDirection\(ref VectorBase, ref VectorBase\)
 
 Get edge's center point and direction.
 
@@ -234,7 +234,7 @@ The vector holds direction.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetEdgePoints\(double, double, double\)
+### <a id="VM_Managed_CAD_Edge_GetEdgePoints_System_Double_System_Double_System_Double_"></a> GetEdgePoints\(double, double, double\)
 
 Get edge point container.
 
@@ -256,7 +256,7 @@ public Vector[] GetEdgePoints(double dTol, double dLen, double dAngle)
 
 The edge container.
 
-### GetEdgePoints\(uint\)
+### <a id="VM_Managed_CAD_Edge_GetEdgePoints_System_UInt32_"></a> GetEdgePoints\(uint\)
 
 Get edge point container.
 
@@ -276,7 +276,7 @@ The number of edge points.
 
 The edge container.
 
-### GetLength\(\)
+### <a id="VM_Managed_CAD_Edge_GetLength"></a> GetLength\(\)
 
 Get length of edge.
 
@@ -288,7 +288,7 @@ public double GetLength()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetNumOfEdgePoint\(\)
+### <a id="VM_Managed_CAD_Edge_GetNumOfEdgePoint"></a> GetNumOfEdgePoint\(\)
 
 Get number of edge point.
 
@@ -302,7 +302,7 @@ public uint GetNumOfEdgePoint()
 
 The number of edge point.
 
-### GetPiecewiseCurve\(List<Edge\>, double, double, double, ref bool\)
+### <a id="VM_Managed_CAD_Edge_GetPiecewiseCurve_System_Collections_Generic_List_VM_Managed_CAD_Edge__System_Double_System_Double_System_Double_System_Boolean__"></a> GetPiecewiseCurve\(List<Edge\>, double, double, double, ref bool\)
 
 ```csharp
 public static List<VectorBase> GetPiecewiseCurve(List<Edge> lstEdges, double dTol, double dLen, double dAngle, ref bool bCloseLoop)
@@ -324,7 +324,7 @@ public static List<VectorBase> GetPiecewiseCurve(List<Edge> lstEdges, double dTo
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[VectorBase](VM.Managed.VectorBase.md)\>
 
-### GetTypeName\(\)
+### <a id="VM_Managed_CAD_Edge_GetTypeName"></a> GetTypeName\(\)
 
 Gets the name of topology(edge, face, vertex).
 
@@ -338,7 +338,7 @@ public override string GetTypeName()
 
 The name of topology
 
-### IsOpen\(\)
+### <a id="VM_Managed_CAD_Edge_IsOpen"></a> IsOpen\(\)
 
 Whether edge is open.
 
@@ -351,5 +351,4 @@ public bool IsOpen()
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if open; otherwise, <code>false</code>.
-
 

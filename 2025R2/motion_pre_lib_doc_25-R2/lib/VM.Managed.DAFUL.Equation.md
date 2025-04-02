@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Equation
+#  Namespace VM.Managed.DAFUL.Equation
 
 ### Classes
 
@@ -51,5 +51,4 @@ Specifies type for the function of differential equation.
  [EquationFunction.FunctionType](VM.Managed.DAFUL.Equation.EquationFunction.FunctionType.md)
 
 Indicates whether this is a standard type or a user sub-routine type.
-
 

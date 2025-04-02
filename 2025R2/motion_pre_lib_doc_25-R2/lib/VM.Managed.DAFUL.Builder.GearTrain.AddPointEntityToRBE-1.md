@@ -1,4 +1,4 @@
-# Class AddPointEntityToRBE<T\>
+#  Class AddPointEntityToRBE<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -57,7 +57,7 @@ BuilderBase<T\>.ErrorMessage
 
 ## Constructors
 
-### AddPointEntityToRBE\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToRBE_1__ctor"></a> AddPointEntityToRBE\(\)
 
 ```csharp
 protected AddPointEntityToRBE()
@@ -65,7 +65,7 @@ protected AddPointEntityToRBE()
 
 ## Properties
 
-### InputArray
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToRBE_1_InputArray"></a> InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -75,7 +75,7 @@ public string[] InputArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### RBEConnectable
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToRBE_1_RBEConnectable"></a> RBEConnectable
 
 ```csharp
 public IConnectable RBEConnectable { get; }
@@ -87,7 +87,7 @@ public IConnectable RBEConnectable { get; }
 
 ## Methods
 
-### RBEName\(HiddenDocumentMeshBase\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToRBE_1_RBEName_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_"></a> RBEName\(HiddenDocumentMeshBase\)
 
 ```csharp
 protected string RBEName(HiddenDocumentMeshBase hiddenMeshDoc)
@@ -101,7 +101,7 @@ protected string RBEName(HiddenDocumentMeshBase hiddenMeshDoc)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddPointEntityToRBE_1_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -114,5 +114,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

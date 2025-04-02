@@ -1,4 +1,4 @@
-# Class ChannelOutput
+#  Class ChannelOutput
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  
@@ -174,7 +174,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ChannelOutput\(\)
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput__ctor"></a> ChannelOutput\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.ChannelOutput" data-throw-if-not-resolved="false"></xref> class.
 
@@ -182,7 +182,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.ChannelOut
 public ChannelOutput()
 ```
 
-### ChannelOutput\(string\)
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput__ctor_System_String_"></a> ChannelOutput\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.ChannelOutput" data-throw-if-not-resolved="false"></xref> class.
 
@@ -198,7 +198,7 @@ Name of the STR.
 
 ## Properties
 
-### ActionMarker
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_ActionMarker"></a> ActionMarker
 
 Gets or sets the action marker.
 
@@ -210,7 +210,7 @@ public IMarker ActionMarker { get; set; }
 
  IMarker
 
-### BaseMarker
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_BaseMarker"></a> BaseMarker
 
 Gets or sets the base marker.
 
@@ -222,7 +222,7 @@ public IMarker BaseMarker { get; set; }
 
  IMarker
 
-### Direction
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_Direction"></a> Direction
 
 Gets or sets the direction.
 Use SetDirection() when this instance sets for undo/redo
@@ -235,7 +235,7 @@ public Coordinate Direction { get; set; }
 
  Coordinate
 
-### FrameIconName
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_FrameIconName"></a> FrameIconName
 
 Gets the name of the frame icon.
 In order to distinguish from Marker.
@@ -248,7 +248,7 @@ protected virtual string FrameIconName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Hide
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_Hide"></a> Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -260,7 +260,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Input
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_Input"></a> Input
 
 Gets or sets the input.
 
@@ -272,7 +272,7 @@ public InputType Input { get; set; }
 
  [InputType](VM.Managed.DAFUL.Linear.InputType.md)
 
-### IsVisible
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_IsVisible"></a> IsVisible
 
 Gets or sets a value indicating whether object is visible.
 
@@ -284,7 +284,7 @@ public bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReferenceMarker
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_ReferenceMarker"></a> ReferenceMarker
 
 Gets or sets the reference marker.
 
@@ -296,7 +296,7 @@ public IMarker ReferenceMarker { get; set; }
 
  IMarker
 
-### UseBaseMarker
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_UseBaseMarker"></a> UseBaseMarker
 
 Gets or sets a value indicating whether [use base marker].
 
@@ -308,7 +308,7 @@ public bool UseBaseMarker { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseReferenceMarker
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_UseReferenceMarker"></a> UseReferenceMarker
 
 Gets or sets a value indicating whether [use reference marker].
 
@@ -320,7 +320,7 @@ public bool UseReferenceMarker { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### \_ActionMarker
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput__ActionMarker"></a> \_ActionMarker
 
 Gets or sets the _ action marker.
 
@@ -332,7 +332,7 @@ public Linker<IMarker> _ActionMarker { get; set; }
 
  Linker<IMarker\>
 
-### \_BaseMarker
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput__BaseMarker"></a> \_BaseMarker
 
 Gets or sets the _ base marker.
 
@@ -344,7 +344,7 @@ public Linker<IMarker> _BaseMarker { get; set; }
 
  Linker<IMarker\>
 
-### \_ReferenceMarker
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput__ReferenceMarker"></a> \_ReferenceMarker
 
 Gets or sets the _ reference marker.
 
@@ -358,7 +358,7 @@ public Linker<IMarker> _ReferenceMarker { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -372,7 +372,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -392,7 +392,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -420,7 +420,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -434,7 +434,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### OnLinkReserved\(ILink, object, EventArgs\)
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_OnLinkReserved_VM_Managed_ILink_System_Object_System_EventArgs_"></a> OnLinkReserved\(ILink, object, EventArgs\)
 
 ```csharp
 protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs args)
@@ -448,7 +448,7 @@ protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs
 
 `args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
 
-### ReDraw\(\)
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_ReDraw"></a> ReDraw\(\)
 
 Redraw.
 
@@ -456,7 +456,7 @@ Redraw.
 public virtual void ReDraw()
 ```
 
-### SetDirection\(Coordinate\)
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_SetDirection_VM_Coordinate_"></a> SetDirection\(Coordinate\)
 
 Set direction.
 
@@ -470,7 +470,7 @@ public void SetDirection(Coordinate coord)
 
 The direction.
 
-### SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)
+### <a id="VM_Managed_DAFUL_Linear_ChannelOutput_SetOldNameWithNewEntity_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)
 
 Sets the old name with new entity.
 
@@ -487,5 +487,4 @@ The ob new.
 `obOld` ObjectBase
 
 The ob old.
-
 

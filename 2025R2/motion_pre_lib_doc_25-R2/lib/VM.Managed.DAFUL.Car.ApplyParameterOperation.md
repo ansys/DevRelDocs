@@ -1,4 +1,4 @@
-# Class ApplyParameterOperation
+#  Class ApplyParameterOperation
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ApplyParameterOperation\(\)
+### <a id="VM_Managed_DAFUL_Car_ApplyParameterOperation__ctor"></a> ApplyParameterOperation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ApplyParameterOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -87,7 +87,7 @@ public ApplyParameterOperation()
 
 ## Fields
 
-### OnApplyParameter
+### <a id="VM_Managed_DAFUL_Car_ApplyParameterOperation_OnApplyParameter"></a> OnApplyParameter
 
 On Apply parameter event
 
@@ -101,7 +101,7 @@ public ApplyParameterOperation.ApplyParameterCallback OnApplyParameter
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_ApplyParameterOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -113,7 +113,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Success
+### <a id="VM_Managed_DAFUL_Car_ApplyParameterOperation_Success"></a> Success
 
 Gets the success flag.
 
@@ -127,12 +127,11 @@ public bool Success { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_ApplyParameterOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

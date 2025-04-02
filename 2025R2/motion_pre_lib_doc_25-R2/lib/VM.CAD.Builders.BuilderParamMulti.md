@@ -1,4 +1,4 @@
-# Class BuilderParamMulti
+#  Class BuilderParamMulti
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -40,7 +40,7 @@ public abstract class BuilderParamMulti : BuilderParamColorGeom
 
 ## Constructors
 
-### BuilderParamMulti\(\)
+### <a id="VM_CAD_Builders_BuilderParamMulti__ctor"></a> BuilderParamMulti\(\)
 
 ```csharp
 protected BuilderParamMulti()
@@ -48,7 +48,7 @@ protected BuilderParamMulti()
 
 ## Properties
 
-### Builders
+### <a id="VM_CAD_Builders_BuilderParamMulti_Builders"></a> Builders
 
 Collection of geometries to be combined
 
@@ -62,12 +62,11 @@ public List<BuilderParamBase> Builders { get; set; }
 
 ## Methods
 
-### FinalizeParameter\(\)
+### <a id="VM_CAD_Builders_BuilderParamMulti_FinalizeParameter"></a> FinalizeParameter\(\)
 
 Finalize additional parameter setup.
 
 ```csharp
 public override void FinalizeParameter()
 ```
-
 

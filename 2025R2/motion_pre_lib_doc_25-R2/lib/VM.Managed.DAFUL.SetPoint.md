@@ -1,4 +1,4 @@
-# Class SetPoint
+#  Class SetPoint
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -265,7 +265,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SetPoint\(\)
+### <a id="VM_Managed_DAFUL_SetPoint__ctor"></a> SetPoint\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetPoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -273,7 +273,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetPoint" data-th
 public SetPoint()
 ```
 
-### SetPoint\(string\)
+### <a id="VM_Managed_DAFUL_SetPoint__ctor_System_String_"></a> SetPoint\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetPoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -289,7 +289,7 @@ Name of the point set.
 
 ## Methods
 
-### GetFormattedData\(SetPoint\)
+### <a id="VM_Managed_DAFUL_SetPoint_GetFormattedData_VM_Managed_DAFUL_SetPoint_"></a> GetFormattedData\(SetPoint\)
 
 Get formatted data from SetPoint object.
 
@@ -309,7 +309,7 @@ The SetPoint object.
 
 The formatted data.
 
-### GetFormattedData\(Face\)
+### <a id="VM_Managed_DAFUL_SetPoint_GetFormattedData_VM_Managed_CAD_Face_"></a> GetFormattedData\(Face\)
 
 Get formatted data from Face object.
 
@@ -329,7 +329,7 @@ The Face object.
 
 The formatted data.
 
-### GetFormattedData\(Range\)
+### <a id="VM_Managed_DAFUL_SetPoint_GetFormattedData_VM_Managed_Range_"></a> GetFormattedData\(Range\)
 
 Get formatted data from Range object.
 
@@ -349,7 +349,7 @@ The Range object.
 
 The formatted data.
 
-### GetFormattedData\(TransformBase, Variable\)
+### <a id="VM_Managed_DAFUL_SetPoint_GetFormattedData_VM_Managed_TransformBase_VM_Managed_Variable_"></a> GetFormattedData\(TransformBase, Variable\)
 
 Get formatted data from Range object.
 
@@ -373,7 +373,7 @@ The radius.
 
 The formatted data.
 
-### GetObject\(ref string\)
+### <a id="VM_Managed_DAFUL_SetPoint_GetObject_System_String__"></a> GetObject\(ref string\)
 
 Get SetPoint object from formatted data.
 
@@ -392,5 +392,4 @@ The formatted data.
  [SetPoint](VM.Managed.DAFUL.SetPoint.md)
 
 The SetPoint object.
-
 

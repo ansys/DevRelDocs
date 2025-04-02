@@ -1,4 +1,4 @@
-# Class GearShapeBase.Spec
+#  Class GearShapeBase.Spec
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -22,7 +22,7 @@ public class GearShapeBase.Spec
 
 ## Constructors
 
-### Spec\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec__ctor"></a> Spec\(\)
 
 ```csharp
 public Spec()
@@ -30,7 +30,7 @@ public Spec()
 
 ## Properties
 
-### AccumulateCenter
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_AccumulateCenter"></a> AccumulateCenter
 
 Gets or sets the accumulate center.
 
@@ -42,7 +42,7 @@ public double[] AccumulateCenter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### ActiveRootDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_ActiveRootDiameter"></a> ActiveRootDiameter
 
 Gets or sets the active root diameter.
 
@@ -54,7 +54,7 @@ public double ActiveRootDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ActiveTipDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_ActiveTipDiameter"></a> ActiveTipDiameter
 
 Gets or sets the active tip diameter.
 
@@ -66,7 +66,7 @@ public double ActiveTipDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### BCD
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_BCD"></a> BCD
 
 Gets or sets the BCD.
 
@@ -78,7 +78,7 @@ public double BCD { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### BCR
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_BCR"></a> BCR
 
 Gets or sets the BCD.
 
@@ -90,7 +90,7 @@ public double BCR { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### BackLash
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_BackLash"></a> BackLash
 
 Gets or sets the back lash.
 
@@ -102,7 +102,7 @@ public double BackLash { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Center
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_Center"></a> Center
 
 Gets or sets the center.
 
@@ -114,7 +114,7 @@ public double[] Center { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### DatFile
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_DatFile"></a> DatFile
 
 Gets or sets the dat file.
 
@@ -126,7 +126,7 @@ public string DatFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DensityForKissSoft
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_DensityForKissSoft"></a> DensityForKissSoft
 
 ```csharp
 public double DensityForKissSoft { get; set; }
@@ -136,7 +136,7 @@ public double DensityForKissSoft { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### DiameterNA
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_DiameterNA"></a> DiameterNA
 
 Gets or sets the NA diameter.
 
@@ -148,7 +148,7 @@ public double DiameterNA { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### DiameterNF
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_DiameterNF"></a> DiameterNF
 
 Gets or sets the NF diameter.
 
@@ -160,7 +160,7 @@ public double DiameterNF { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Drack
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_Drack"></a> Drack
 
 Gets or sets the Drack.
 
@@ -172,7 +172,7 @@ public double Drack { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### EndPosY
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_EndPosY"></a> EndPosY
 
 Gets or sets the end position y.
 
@@ -184,7 +184,7 @@ public double EndPosY { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### FaceWidth
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_FaceWidth"></a> FaceWidth
 
 Gets or sets the width of the face.
 
@@ -196,7 +196,7 @@ public double FaceWidth { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### HelixAngle
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_HelixAngle"></a> HelixAngle
 
 Gets or sets the helix angle.
 
@@ -208,7 +208,7 @@ public double HelixAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### HelixDirection
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_HelixDirection"></a> HelixDirection
 
 Gets or sets the helix direction.
 
@@ -220,7 +220,7 @@ public double HelixDirection { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Hrack
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_Hrack"></a> Hrack
 
 Gets or sets the Hrack.
 
@@ -232,7 +232,7 @@ public double Hrack { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ModuleT
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_ModuleT"></a> ModuleT
 
 Gets or sets the module of rack.
 
@@ -244,7 +244,7 @@ public double ModuleT { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NumberOfInvolutePoint
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_NumberOfInvolutePoint"></a> NumberOfInvolutePoint
 
 Gets or sets the number of involute point.
 
@@ -256,7 +256,7 @@ public uint NumberOfInvolutePoint { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### NumberOfTeeth
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_NumberOfTeeth"></a> NumberOfTeeth
 
 Gets or sets the number of teeth.
 
@@ -268,7 +268,7 @@ public uint NumberOfTeeth { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### NumberOfTrochoid
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_NumberOfTrochoid"></a> NumberOfTrochoid
 
 Gets or sets the number Of trochoid.
 
@@ -280,7 +280,7 @@ public int NumberOfTrochoid { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Orientation
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_Orientation"></a> Orientation
 
 Gets or sets the orientation.
 
@@ -292,7 +292,7 @@ public OMatrix Orientation { get; set; }
 
  OMatrix
 
-### PCD
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_PCD"></a> PCD
 
 Gets or sets the PCD.
 
@@ -304,7 +304,7 @@ public double PCD { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### PCR
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_PCR"></a> PCR
 
 Gets or sets the PCD.
 
@@ -316,7 +316,7 @@ public double PCR { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ProfileShift
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_ProfileShift"></a> ProfileShift
 
 Gets or sets the profile shift.
 
@@ -328,7 +328,7 @@ public double ProfileShift { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RCD
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_RCD"></a> RCD
 
 Gets or sets the RCD.
 
@@ -340,7 +340,7 @@ public double RCD { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RCR
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_RCR"></a> RCR
 
 Gets or sets the RCD.
 
@@ -352,7 +352,7 @@ public double RCR { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RadiusNF
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_RadiusNF"></a> RadiusNF
 
 Gets or sets the NF radius.
 
@@ -364,7 +364,7 @@ public double RadiusNF { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RotationAngle
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_RotationAngle"></a> RotationAngle
 
 Gets or sets the rotation angle.
 
@@ -376,7 +376,7 @@ public double RotationAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SliceSize
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_SliceSize"></a> SliceSize
 
 Gets or sets the size of the slice.
 
@@ -388,7 +388,7 @@ public double SliceSize { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TCD
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_TCD"></a> TCD
 
 Gets or sets the TCD.
 
@@ -400,7 +400,7 @@ public double TCD { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TCR
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_TCR"></a> TCR
 
 Gets or sets the TCD.
 
@@ -412,7 +412,7 @@ public double TCR { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ToothHeight
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_ToothHeight"></a> ToothHeight
 
 Gets or sets the tooth height.
 
@@ -424,7 +424,7 @@ public double ToothHeight { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### WholeDepth
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Spec_WholeDepth"></a> WholeDepth
 
 Gets or sets the WholeDepth.
 
@@ -435,5 +435,4 @@ public double WholeDepth { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

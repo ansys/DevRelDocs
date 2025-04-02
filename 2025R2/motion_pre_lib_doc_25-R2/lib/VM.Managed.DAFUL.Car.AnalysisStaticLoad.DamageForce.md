@@ -1,4 +1,4 @@
-# Class AnalysisStaticLoad.DamageForce
+#  Class AnalysisStaticLoad.DamageForce
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -31,7 +31,7 @@ public class AnalysisStaticLoad.DamageForce : AnalysisStaticLoad.StaticRoadBaseI
 
 ## Constructors
 
-### DamageForce\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_DamageForce__ctor"></a> DamageForce\(\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.DamageForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.DamageForce"
 public DamageForce()
 ```
 
-### DamageForce\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_DamageForce__ctor_VM_Models_Pre_ILinkContainer_"></a> DamageForce\(ILinkContainer\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.DamageForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -52,5 +52,4 @@ public DamageForce(ILinkContainer lnkContainer)
 `lnkContainer` ILinkContainer
 
 The link container.
-
 

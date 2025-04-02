@@ -1,4 +1,4 @@
-# Enum MountType
+#  Enum MountType
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -20,7 +20,6 @@ Overslung
 `Underslung = 1` 
 
 Underslung
-
 
 
 

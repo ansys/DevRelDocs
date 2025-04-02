@@ -1,4 +1,4 @@
-# Enum ContactStandard.InputType
+#  Enum ContactStandard.InputType
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -32,7 +32,6 @@ spline
 `V_MultipleSplines = 3` 
 
 spline
-
 
 
 

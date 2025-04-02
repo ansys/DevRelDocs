@@ -1,4 +1,4 @@
-# Class AttributePulleyAndPin
+#  Class AttributePulleyAndPin
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributePulleyAndPin\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributePulleyAndPin__ctor"></a> AttributePulleyAndPin\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.AttributePulleyAndPin" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributePulleyAndPin()
 
 ## Properties
 
-### ReferencePin
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributePulleyAndPin_ReferencePin"></a> ReferencePin
 
 Gets or sets the reference of pin.
 
@@ -121,7 +121,7 @@ public Reference ReferencePin { get; set; }
 
  Reference
 
-### ReferencePulley
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributePulleyAndPin_ReferencePulley"></a> ReferencePulley
 
 Gets or sets the reference of pulley.
 
@@ -135,7 +135,7 @@ public Reference ReferencePulley { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributePulleyAndPin_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -148,5 +148,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The factor.
-
 

@@ -1,4 +1,4 @@
-# Enum Configuration.Jacobian
+#  Enum Configuration.Jacobian
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -20,7 +20,6 @@ Analytic
 `FDM = 2` 
 
 Finite difference method
-
 
 
 

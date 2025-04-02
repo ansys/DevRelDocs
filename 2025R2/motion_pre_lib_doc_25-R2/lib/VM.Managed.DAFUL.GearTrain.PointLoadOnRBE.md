@@ -1,4 +1,4 @@
-# Class PointLoadOnRBE
+#  Class PointLoadOnRBE
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -175,7 +175,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PointLoadOnRBE\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PointLoadOnRBE__ctor"></a> PointLoadOnRBE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PointLoadOnRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -183,7 +183,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PointLo
 public PointLoadOnRBE()
 ```
 
-### PointLoadOnRBE\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PointLoadOnRBE__ctor_System_String_"></a> PointLoadOnRBE\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PointLoadOnRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -199,7 +199,7 @@ Name of the sub entity.
 
 ## Properties
 
-### Direction
+### <a id="VM_Managed_DAFUL_GearTrain_PointLoadOnRBE_Direction"></a> Direction
 
 Gets the direction.
 
@@ -211,7 +211,7 @@ public VectorBase Direction { get; }
 
  VectorBase
 
-### ForceX
+### <a id="VM_Managed_DAFUL_GearTrain_PointLoadOnRBE_ForceX"></a> ForceX
 
 Gets or sets the force X.
 
@@ -223,7 +223,7 @@ public ExpressionValueVariable ForceX { get; set; }
 
  ExpressionValueVariable
 
-### ForceY
+### <a id="VM_Managed_DAFUL_GearTrain_PointLoadOnRBE_ForceY"></a> ForceY
 
 Gets or sets the force Y.
 
@@ -235,7 +235,7 @@ public ExpressionValueVariable ForceY { get; set; }
 
  ExpressionValueVariable
 
-### ForceZ
+### <a id="VM_Managed_DAFUL_GearTrain_PointLoadOnRBE_ForceZ"></a> ForceZ
 
 Gets or sets the force Z.
 
@@ -247,7 +247,7 @@ public ExpressionValueVariable ForceZ { get; set; }
 
  ExpressionValueVariable
 
-### TorqueX
+### <a id="VM_Managed_DAFUL_GearTrain_PointLoadOnRBE_TorqueX"></a> TorqueX
 
 Gets or sets the torque X.
 
@@ -259,7 +259,7 @@ public ExpressionValueVariable TorqueX { get; set; }
 
  ExpressionValueVariable
 
-### TorqueY
+### <a id="VM_Managed_DAFUL_GearTrain_PointLoadOnRBE_TorqueY"></a> TorqueY
 
 Gets or sets the torque Y.
 
@@ -271,7 +271,7 @@ public ExpressionValueVariable TorqueY { get; set; }
 
  ExpressionValueVariable
 
-### ZAxis
+### <a id="VM_Managed_DAFUL_GearTrain_PointLoadOnRBE_ZAxis"></a> ZAxis
 
 Gets or sets the start axis.
 
@@ -285,7 +285,7 @@ public DirectionBase ZAxis { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_PointLoadOnRBE_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -298,5 +298,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

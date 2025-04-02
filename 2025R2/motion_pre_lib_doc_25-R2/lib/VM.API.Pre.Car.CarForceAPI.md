@@ -1,4 +1,4 @@
-# Class CarForceAPI
+#  Class CarForceAPI
 
 Namespace: [VM.API.Pre.Car](VM.API.Pre.Car.md)  
 Assembly: VM.API.Pre.Car.dll  
@@ -22,7 +22,7 @@ public static class CarForceAPI
 
 ## Methods
 
-### CreateBumpStop\(IPostTemplateBasedDocument, string, Obj, Obj, Vector, Vector, string, SymmetricType\)
+### <a id="VM_API_Pre_Car_CarForceAPI_CreateBumpStop_VM_Managed_IPostTemplateBasedDocument_System_String_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateBumpStop\(IPostTemplateBasedDocument, string, Obj, Obj, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.Force.Bumpstop" data-throw-if-not-resolved="false"></xref>
 
@@ -92,7 +92,7 @@ Will be thrown if extension of 'propertyFilePath' is not .cpfbsxml.
 
 Will be thrown if 'propertyFilePath' does not exist.
 
-### CreateBush\(IPostTemplateBasedDocument, string, Obj, Obj, Vector, OMatrix?, string, SymmetricType\)
+### <a id="VM_API_Pre_Car_CarForceAPI_CreateBush_VM_Managed_IPostTemplateBasedDocument_System_String_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_System_Nullable_VM_OMatrix__System_String_VM_Managed_SymmetricType_"></a> CreateBush\(IPostTemplateBasedDocument, string, Obj, Obj, Vector, OMatrix?, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Force.Bush" data-throw-if-not-resolved="false"></xref>
 
@@ -166,7 +166,7 @@ Will be thrown if the magnitude of 'orientation' is 0.
 
 Will be thrown if 'propertyFilePath' does not exist.
 
-### CreateDamper\(IPostTemplateBasedDocument, string, Obj, Obj, Vector, Vector, string, SymmetricType\)
+### <a id="VM_API_Pre_Car_CarForceAPI_CreateDamper_VM_Managed_IPostTemplateBasedDocument_System_String_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateDamper\(IPostTemplateBasedDocument, string, Obj, Obj, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.Force.Damper" data-throw-if-not-resolved="false"></xref>
 
@@ -236,7 +236,7 @@ Will be thrown if extension of 'propertyFilePath' is not .cpfdxml.
 
 Will be thrown if 'propertyFilePath' does not exist.
 
-### CreateReboundStop\(IPostTemplateBasedDocument, string, Obj, Obj, Vector, Vector, string, SymmetricType\)
+### <a id="VM_API_Pre_Car_CarForceAPI_CreateReboundStop_VM_Managed_IPostTemplateBasedDocument_System_String_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateReboundStop\(IPostTemplateBasedDocument, string, Obj, Obj, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.Force.Reboundstop" data-throw-if-not-resolved="false"></xref>
 
@@ -306,7 +306,7 @@ Will be thrown if extension of 'propertyFilePath' is not .cpfrbsxml.
 
 Will be thrown if 'propertyFilePath' does not exist.
 
-### CreateSpring\(IPostTemplateBasedDocument, string, Obj, Obj, Vector, Vector, string, SymmetricType\)
+### <a id="VM_API_Pre_Car_CarForceAPI_CreateSpring_VM_Managed_IPostTemplateBasedDocument_System_String_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_VM_Managed_SymmetricType_"></a> CreateSpring\(IPostTemplateBasedDocument, string, Obj, Obj, Vector, Vector, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.Force.Spring" data-throw-if-not-resolved="false"></xref>
 
@@ -376,7 +376,7 @@ Will be thrown if extension of 'propertyFilePath' is not .cpfsxml.
 
 Will be thrown if 'propertyFilePath' does not exist.
 
-### CreateTire\(SubSystemDocument, string, TMatrix, SideType, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?, SymmetricType, bool\)
+### <a id="VM_API_Pre_Car_CarForceAPI_CreateTire_VM_Managed_DAFUL_SubSystemDocument_System_String_VM_TMatrix_VM_Managed_DAFUL_Tire_WheelBodyBase_SideType_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_System_Drawing_Color__VM_Managed_SymmetricType_System_Boolean_"></a> CreateTire\(SubSystemDocument, string, TMatrix, SideType, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?, SymmetricType, bool\)
 
 Create <xref href="VM.Managed.DAFUL.Tire.Car.Force.TireCar" data-throw-if-not-resolved="false"></xref>
 
@@ -455,5 +455,4 @@ Will be thrown if 'subSystemDocument' argument is null.
  [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
 
 Will be thrown if 'tirePropertyFile' file does not exist.
-
 

@@ -1,4 +1,4 @@
-# Class BuilderHasTransform
+#  Class BuilderHasTransform
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -198,7 +198,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderHasTransform\(\)
+### <a id="VM_Managed_CAD_BuilderHasTransform__ctor"></a> BuilderHasTransform\(\)
 
 ```csharp
 public BuilderHasTransform()
@@ -206,7 +206,7 @@ public BuilderHasTransform()
 
 ## Properties
 
-### IsParameterized
+### <a id="VM_Managed_CAD_BuilderHasTransform_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -218,7 +218,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Transform
+### <a id="VM_Managed_CAD_BuilderHasTransform_Transform"></a> Transform
 
 Gets or sets the transformation of import body.
 
@@ -230,7 +230,7 @@ public abstract TransformBase Transform { get; set; }
 
  [TransformBase](VM.Managed.TransformBase.md)
 
-### TransformationMatrix
+### <a id="VM_Managed_CAD_BuilderHasTransform_TransformationMatrix"></a> TransformationMatrix
 
 Gets the transformation matrix.
 
@@ -241,5 +241,4 @@ public TMatrix TransformationMatrix { get; }
 #### Property Value
 
  TMatrix
-
 

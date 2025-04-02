@@ -1,4 +1,4 @@
-# Class PointLinkDelta
+#  Class PointLinkDelta
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -24,7 +24,7 @@ ISymmetricBuilder
 
 ## Constructors
 
-### PointLinkDelta\(\)
+### <a id="VM_Managed_Symmetric_PointLinkDelta__ctor"></a> PointLinkDelta\(\)
 
 ```csharp
 public PointLinkDelta()
@@ -32,7 +32,7 @@ public PointLinkDelta()
 
 ## Methods
 
-### Build\(object, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_PointLinkDelta_Build_System_Object_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Build\(object, SymmetricType, Plane, Document\)
 
 Build the symmetric objects.
 
@@ -61,5 +61,4 @@ Plane of symmetric.
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The new object of symmetric.
-
 

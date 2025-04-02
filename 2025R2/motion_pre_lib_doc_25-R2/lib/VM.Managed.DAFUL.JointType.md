@@ -1,4 +1,4 @@
-# Enum JointType
+#  Enum JointType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -32,7 +32,6 @@ revolute
 `Translational = 2` 
 
 translational
-
 
 
 

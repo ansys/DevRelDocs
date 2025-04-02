@@ -1,4 +1,4 @@
-# Class ShimmySimulationConfiguration
+#  Class ShimmySimulationConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ShimmySimulationConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_ShimmySimulationConfiguration__ctor"></a> ShimmySimulationConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ShimmySimulationConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ShimmySimulat
 public ShimmySimulationConfiguration()
 ```
 
-### ShimmySimulationConfiguration\(AnalysisShimmy\)
+### <a id="VM_Managed_DAFUL_Car_ShimmySimulationConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisShimmy_"></a> ShimmySimulationConfiguration\(AnalysisShimmy\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ShimmySimulationConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_ShimmySimulationConfiguration_Analysis"></a> Analysis
 
 Gets or sets the analysis.
 
@@ -233,7 +233,7 @@ public override AnalysisBase Analysis { get; set; }
 
  AnalysisBase
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_ShimmySimulationConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -245,7 +245,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_ShimmySimulationConfiguration_AnalysisType"></a> AnalysisType
 
 Gets the type of the analysis.
 
@@ -257,7 +257,7 @@ public override ShimmyJudderAnalysisType AnalysisType { get; }
 
  [ShimmyJudderAnalysisType](VM.Managed.DAFUL.Car.ShimmyJudderAnalysisType.md)
 
-### ShimmyParameter
+### <a id="VM_Managed_DAFUL_Car_ShimmySimulationConfiguration_ShimmyParameter"></a> ShimmyParameter
 
 Gets or sets the shimmy parameter.
 
@@ -268,5 +268,4 @@ public AnalysisShimmy ShimmyParameter { get; set; }
 #### Property Value
 
  [AnalysisShimmy](VM.Managed.DAFUL.Car.AnalysisShimmy.md)
-
 

@@ -1,4 +1,4 @@
-# Enum AnalysisFrequencyBase.IncrementType
+#  Enum AnalysisFrequencyBase.IncrementType
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -20,7 +20,6 @@ Linear
 `Log = 1` 
 
 Log
-
 
 
 

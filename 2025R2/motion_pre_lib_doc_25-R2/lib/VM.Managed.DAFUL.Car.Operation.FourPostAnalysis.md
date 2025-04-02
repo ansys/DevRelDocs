@@ -1,4 +1,4 @@
-# Class FourPostAnalysis
+#  Class FourPostAnalysis
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -107,7 +107,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### FourPostAnalysis\(Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_FourPostAnalysis__ctor_VM_Managed_Document_"></a> FourPostAnalysis\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.FourPostAnalysis" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ public FourPostAnalysis(Document doc)
 
 The doc.
 
-### FourPostAnalysis\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_FourPostAnalysis__ctor_VM_Managed_Operation_JournalParameter_"></a> FourPostAnalysis\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.FourPostAnalysis" data-throw-if-not-resolved="false"></xref> class.
 
@@ -137,7 +137,7 @@ The jp.
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_FourPostAnalysis_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -145,7 +145,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### ExecuteImpl\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_FourPostAnalysis_ExecuteImpl"></a> ExecuteImpl\(\)
 
 Executes [implementation].
 
@@ -153,7 +153,7 @@ Executes [implementation].
 protected override void ExecuteImpl()
 ```
 
-### SimulationRunImpl\(bool\)
+### <a id="VM_Managed_DAFUL_Car_Operation_FourPostAnalysis_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
 
 Simulations the run [implementation].
 
@@ -166,5 +166,4 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> [b write DFG].
-
 

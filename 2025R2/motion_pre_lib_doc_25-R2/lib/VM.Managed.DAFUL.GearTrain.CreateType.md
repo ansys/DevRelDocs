@@ -1,4 +1,4 @@
-# Enum CreateType
+#  Enum CreateType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ The fe
 `MeshFree = 1` 
 
 The mesh free
-
 
 
 

@@ -1,4 +1,4 @@
-# Class ReferenceBody
+#  Class ReferenceBody
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -183,7 +183,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferenceBody\(ObjectBase\)
+### <a id="VM_Managed_CAD_ReferenceBody__ctor_VM_Managed_ObjectBase_"></a> ReferenceBody\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.ReferenceBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -197,7 +197,7 @@ public ReferenceBody(ObjectBase obj)
 
 The object.
 
-### ReferenceBody\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_CAD_ReferenceBody__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceBody\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.ReferenceBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -217,7 +217,7 @@ context.
 
 ## Methods
 
-### GetContactables\(\)
+### <a id="VM_Managed_CAD_ReferenceBody_GetContactables"></a> GetContactables\(\)
 
 Get contactable objects.
 
@@ -231,7 +231,7 @@ public override ObjectBase[] GetContactables()
 
 The contactable objects.
 
-### IsAutoContactable\(\)
+### <a id="VM_Managed_CAD_ReferenceBody_IsAutoContactable"></a> IsAutoContactable\(\)
 
 Determines whether the specified auto contactable.
 
@@ -244,5 +244,4 @@ public override bool IsAutoContactable()
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if the specified auto contactable; otherwise, <code>false</code>.
-
 

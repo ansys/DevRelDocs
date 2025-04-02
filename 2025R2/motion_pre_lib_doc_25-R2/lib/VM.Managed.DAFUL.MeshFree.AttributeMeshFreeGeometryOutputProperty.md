@@ -1,4 +1,4 @@
-# Class AttributeMeshFreeGeometryOutputProperty
+#  Class AttributeMeshFreeGeometryOutputProperty
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -152,7 +152,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeMeshFreeGeometryOutputProperty\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty__ctor"></a> AttributeMeshFreeGeometryOutputProperty\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.AttributeMeshFreeGeometryOutputProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -160,7 +160,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Attribut
 public AttributeMeshFreeGeometryOutputProperty()
 ```
 
-### AttributeMeshFreeGeometryOutputProperty\(Variable, Variable, Variable, bool, bool, bool, bool, bool, bool, OutputType, bool, Variable, Variable, Variable, TransformBase\)
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_VM_Managed_DAFUL_MeshFree_OutputType_System_Boolean_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_TransformBase_"></a> AttributeMeshFreeGeometryOutputProperty\(Variable, Variable, Variable, bool, bool, bool, bool, bool, bool, OutputType, bool, Variable, Variable, Variable, TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.AttributeMeshFreeGeometryOutputProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -230,7 +230,7 @@ The user defined distance's Z value.
 
 The reference frame for user defined distance.
 
-### AttributeMeshFreeGeometryOutputProperty\(Variable, Variable, Variable, Variable, bool, bool, bool, bool, bool, bool, bool, OutputType, bool, Variable, Variable, Variable, TransformBase\)
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_VM_Managed_DAFUL_MeshFree_OutputType_System_Boolean_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_TransformBase_"></a> AttributeMeshFreeGeometryOutputProperty\(Variable, Variable, Variable, Variable, bool, bool, bool, bool, bool, bool, bool, OutputType, bool, Variable, Variable, Variable, TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.AttributeMeshFreeGeometryOutputProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -310,7 +310,7 @@ The reference frame for user defined distance.
 
 ## Properties
 
-### GINFPath
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_GINFPath"></a> GINFPath
 
 Gets or sets GINF file path for MeshFree
 
@@ -322,7 +322,7 @@ public string GINFPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GeomPrecision
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_GeomPrecision"></a> GeomPrecision
 
 Gets or sets geometry precision of solid body for MeshFree
 
@@ -334,7 +334,7 @@ public uint GeomPrecision { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### IsUseUserDefinedDistance
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_IsUseUserDefinedDistance"></a> IsUseUserDefinedDistance
 
 Gets or sets a value indicating whether [use user defined distance].
 
@@ -346,7 +346,7 @@ public bool IsUseUserDefinedDistance { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReferenceFrame
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_ReferenceFrame"></a> ReferenceFrame
 
 Gets or sets the reference frame for user defined distance
 
@@ -358,7 +358,7 @@ public TransformBase ReferenceFrame { get; set; }
 
  TransformBase
 
-### TypeOfGeometry
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_TypeOfGeometry"></a> TypeOfGeometry
 
 Gets or sets geometry type of solid body for MeshFree
 
@@ -370,7 +370,7 @@ public GeometryType TypeOfGeometry { get; set; }
 
  [GeometryType](VM.Managed.DAFUL.MeshFree.GeometryType.md)
 
-### TypeOfOutput
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_TypeOfOutput"></a> TypeOfOutput
 
 Gets or sets the type of the output.
 
@@ -382,7 +382,7 @@ public OutputType TypeOfOutput { get; set; }
 
  [OutputType](VM.Managed.DAFUL.MeshFree.OutputType.md)
 
-### UseDefaultSetting
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_UseDefaultSetting"></a> UseDefaultSetting
 
 Gets or sets a value indicating whether [use default setting].
 
@@ -395,7 +395,7 @@ public bool UseDefaultSetting { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UserDefinedDistanceX
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_UserDefinedDistanceX"></a> UserDefinedDistanceX
 
 Gets or sets the user defined distance's X value
 
@@ -407,7 +407,7 @@ public ExpressionValueVariable UserDefinedDistanceX { get; set; }
 
  ExpressionValueVariable
 
-### UserDefinedDistanceY
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_UserDefinedDistanceY"></a> UserDefinedDistanceY
 
 Gets or sets the user defined distance's Y value
 
@@ -419,7 +419,7 @@ public ExpressionValueVariable UserDefinedDistanceY { get; set; }
 
  ExpressionValueVariable
 
-### UserDefinedDistanceZ
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_UserDefinedDistanceZ"></a> UserDefinedDistanceZ
 
 Gets or sets the user defined distance's Z value
 
@@ -433,7 +433,7 @@ public ExpressionValueVariable UserDefinedDistanceZ { get; set; }
 
 ## Methods
 
-### Initialize\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_Initialize"></a> Initialize\(\)
 
 Initializes this instance.
 
@@ -441,12 +441,11 @@ Initializes this instance.
 public override void Initialize()
 ```
 
-### OnDeserializationAttribute\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeGeometryOutputProperty_OnDeserializationAttribute"></a> OnDeserializationAttribute\(\)
 
 Called when [deserialization attribute].
 
 ```csharp
 public override void OnDeserializationAttribute()
 ```
-
 

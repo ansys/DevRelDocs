@@ -1,4 +1,4 @@
-# Class AttributeMbyNContact
+#  Class AttributeMbyNContact
 
 Namespace: [VM.Models.Pre.FE](VM.Models.Pre.FE.md)  
 Assembly: VM.Models.Pre.FE.dll  
@@ -97,7 +97,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeMbyNContact\(\)
+### <a id="VM_Models_Pre_FE_AttributeMbyNContact__ctor"></a> AttributeMbyNContact\(\)
 
 ```csharp
 public AttributeMbyNContact()
@@ -105,7 +105,7 @@ public AttributeMbyNContact()
 
 ## Properties
 
-### AttributeMbyNContactData
+### <a id="VM_Models_Pre_FE_AttributeMbyNContact_AttributeMbyNContactData"></a> AttributeMbyNContactData
 
 ```csharp
 public IList<AttributeMbyNContactData> AttributeMbyNContactData { get; }
@@ -114,5 +114,4 @@ public IList<AttributeMbyNContactData> AttributeMbyNContactData { get; }
 #### Property Value
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[AttributeMbyNContactData](VM.Models.Pre.FE.AttributeMbyNContactData.md)\>
-
 

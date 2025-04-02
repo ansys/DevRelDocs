@@ -1,4 +1,4 @@
-# Class ShaftSetMeshFree
+#  Class ShaftSetMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -248,7 +248,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ShaftSetMeshFree\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetMeshFree__ctor"></a> ShaftSetMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ShaftSetMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -256,7 +256,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ShaftSe
 public ShaftSetMeshFree()
 ```
 
-### ShaftSetMeshFree\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetMeshFree__ctor_System_String_"></a> ShaftSetMeshFree\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ShaftSetMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -272,7 +272,7 @@ Name of the string.
 
 ## Properties
 
-### Extension
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetMeshFree_Extension"></a> Extension
 
 Gets the extension.
 
@@ -284,7 +284,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TypeFileName
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetMeshFree_TypeFileName"></a> TypeFileName
 
 Gets the name of the type file.
 
@@ -296,7 +296,7 @@ public override string TypeFileName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TypeOfCreate
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetMeshFree_TypeOfCreate"></a> TypeOfCreate
 
 Gets the type of create.
 
@@ -308,7 +308,7 @@ public override CreateType TypeOfCreate { get; }
 
  [CreateType](VM.Managed.DAFUL.GearTrain.CreateType.md)
 
-### TypeOfParent
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetMeshFree_TypeOfParent"></a> TypeOfParent
 
 Gets the type of parent.
 
@@ -322,7 +322,7 @@ public override ParentType TypeOfParent { get; }
 
 ## Methods
 
-### SetDataToDesignDoc\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSetMeshFree_SetDataToDesignDoc_System_Boolean_"></a> SetDataToDesignDoc\(bool\)
 
 Sets the data to design document.
 
@@ -337,5 +337,4 @@ public override Document SetDataToDesignDoc(bool bRecord)
 #### Returns
 
  Document
-
 

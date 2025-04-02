@@ -1,4 +1,4 @@
-# Enum ClearanceInfo.RadialType
+#  Enum ClearanceInfo.RadialType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ The fix
 `Sliding = 1` 
 
 The sliding
-
 
 
 

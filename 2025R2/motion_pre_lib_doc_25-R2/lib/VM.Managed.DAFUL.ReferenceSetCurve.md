@@ -1,4 +1,4 @@
-# Class ReferenceSetCurve
+#  Class ReferenceSetCurve
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -196,7 +196,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferenceSetCurve\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceSetCurve\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferenceSetCurve" data-throw-if-not-resolved="false"></xref> class.
 
@@ -214,7 +214,7 @@ The info.
 
 The context.
 
-### ReferenceSetCurve\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve__ctor_VM_Managed_ObjectBase_"></a> ReferenceSetCurve\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferenceSetCurve" data-throw-if-not-resolved="false"></xref> class.
 
@@ -230,7 +230,7 @@ The reference's object.
 
 ## Properties
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_AnalysisType"></a> AnalysisType
 
 Gets the analysis type.
 
@@ -242,7 +242,7 @@ public BodyAnalysisType AnalysisType { get; }
 
  [BodyAnalysisType](VM.Managed.DAFUL.BodyAnalysisType.md)
 
-### Body
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_Body"></a> Body
 
 Gets the body.
 
@@ -254,7 +254,7 @@ public IBody Body { get; }
 
  IBody
 
-### Connectable
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_Connectable"></a> Connectable
 
 Gets the connectable.
 
@@ -266,7 +266,7 @@ public IConnectable Connectable { get; }
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)
 
-### GeometryFullName
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_GeometryFullName"></a> GeometryFullName
 
 Gets the geometry full name
 
@@ -278,7 +278,7 @@ public string GeometryFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GeometryNameForMultiContact
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_GeometryNameForMultiContact"></a> GeometryNameForMultiContact
 
 Gets the name for multiple contact
 
@@ -290,7 +290,7 @@ public string GeometryNameForMultiContact { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsActionGeometry
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_IsActionGeometry"></a> IsActionGeometry
 
 Gets or sets a value indicating whether this instance is action geometry.
 
@@ -302,7 +302,7 @@ public bool IsActionGeometry { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsBaseGeometry
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_IsBaseGeometry"></a> IsBaseGeometry
 
 Gets or sets a value indicating whether this instance is base geometry.
 
@@ -314,7 +314,7 @@ public bool IsBaseGeometry { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsCloseLoop
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_IsCloseLoop"></a> IsCloseLoop
 
 Gets value indicating whether this instance is close loop.
 
@@ -326,7 +326,7 @@ public bool IsCloseLoop { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ParentBody
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_ParentBody"></a> ParentBody
 
 Gets or sets the parent body.
 
@@ -340,7 +340,7 @@ public ObjectBase ParentBody { get; }
 
 ## Methods
 
-### GetConnectableImpl\(\)
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_GetConnectableImpl"></a> GetConnectableImpl\(\)
 
 Gets the connectable [implementation].
 
@@ -352,7 +352,7 @@ protected virtual IConnectable GetConnectableImpl()
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)
 
-### GetDefaultMaxPenetration\(ref double, IReferencable\)
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_GetDefaultMaxPenetration_System_Double__VM_Managed_IReferencable_"></a> GetDefaultMaxPenetration\(ref double, IReferencable\)
 
 Gets the default maximum penetration.
 
@@ -376,7 +376,7 @@ The reference.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_GetGeometryNavigatorInformation_System_Xml_XmlDocument_System_Xml_XmlElement_"></a> GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
 
 Gets the geometry information for model navigator .
 
@@ -400,7 +400,7 @@ The XmlElement information.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the point direction. (using facet information)
 
@@ -428,7 +428,7 @@ The reference.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPoints\(\)
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_GetPoints"></a> GetPoints\(\)
 
 Gets the points.
 
@@ -442,7 +442,7 @@ public VectorBase[] GetPoints()
 
 the points.
 
-### GetPointsAboutOrigin\(\)
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_GetPointsAboutOrigin"></a> GetPointsAboutOrigin\(\)
 
 Gets the points.
 
@@ -456,7 +456,7 @@ public VectorBase[] GetPointsAboutOrigin()
 
 the points.
 
-### GetProfilePoint\(ref bool, ref List<VectorBase\>\)
+### <a id="VM_Managed_DAFUL_ReferenceSetCurve_GetProfilePoint_System_Boolean__System_Collections_Generic_List_VM_Managed_VectorBase___"></a> GetProfilePoint\(ref bool, ref List<VectorBase\>\)
 
 Gets the profile point.
 
@@ -479,5 +479,4 @@ The points.
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 the profile point.
-
 

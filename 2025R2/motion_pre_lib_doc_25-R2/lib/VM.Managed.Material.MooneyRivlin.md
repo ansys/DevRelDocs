@@ -1,4 +1,4 @@
-# Class MooneyRivlin
+#  Class MooneyRivlin
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -190,7 +190,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MooneyRivlin\(\)
+### <a id="VM_Managed_Material_MooneyRivlin__ctor"></a> MooneyRivlin\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.MooneyRivlin" data-throw-if-not-resolved="false"></xref> class.
 
@@ -198,7 +198,7 @@ Initializes a new instance of the <xref href="VM.Managed.Material.MooneyRivlin" 
 public MooneyRivlin()
 ```
 
-### MooneyRivlin\(string\)
+### <a id="VM_Managed_Material_MooneyRivlin__ctor_System_String_"></a> MooneyRivlin\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.MooneyRivlin" data-throw-if-not-resolved="false"></xref> class.
 
@@ -214,7 +214,7 @@ Name of the mooney-rivlin material.
 
 ## Properties
 
-### C01
+### <a id="VM_Managed_Material_MooneyRivlin_C01"></a> C01
 
 Gets or sets the C01.
 
@@ -226,7 +226,7 @@ public ExpressionValueVariable C01 { get; set; }
 
  ExpressionValueVariable
 
-### C10
+### <a id="VM_Managed_Material_MooneyRivlin_C10"></a> C10
 
 Gets or sets the C10.
 
@@ -238,7 +238,7 @@ public ExpressionValueVariable C10 { get; set; }
 
  ExpressionValueVariable
 
-### D
+### <a id="VM_Managed_Material_MooneyRivlin_D"></a> D
 
 Gets or sets the D.
 
@@ -252,7 +252,7 @@ public ExpressionValueVariable D { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_Material_MooneyRivlin_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -266,7 +266,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_Material_MooneyRivlin_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -280,7 +280,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_Material_MooneyRivlin_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -293,5 +293,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

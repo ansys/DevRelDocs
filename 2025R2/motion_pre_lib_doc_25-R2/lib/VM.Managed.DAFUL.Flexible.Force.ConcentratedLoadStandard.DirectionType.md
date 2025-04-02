@@ -1,4 +1,4 @@
-# Enum ConcentratedLoadStandard.DirectionType
+#  Enum ConcentratedLoadStandard.DirectionType
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -27,5 +27,4 @@ public enum ConcentratedLoadStandard.DirectionType
 
 <p>3 function. x, y, z.</p>
 <p>x, y, z 세개의 함수</p>
-
 

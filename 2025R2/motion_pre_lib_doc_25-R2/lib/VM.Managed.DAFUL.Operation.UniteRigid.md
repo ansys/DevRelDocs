@@ -1,4 +1,4 @@
-# Class UniteRigid
+#  Class UniteRigid
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UniteRigid\(IDocument\)
+### <a id="VM_Managed_DAFUL_Operation_UniteRigid__ctor_VM_Models_Pre_IDocument_"></a> UniteRigid\(IDocument\)
 
 ```csharp
 public UniteRigid(IDocument doc)
@@ -87,7 +87,7 @@ public UniteRigid(IDocument doc)
 
 `doc` IDocument
 
-### UniteRigid\(IDocument, IEnumerable<IObject\>\)
+### <a id="VM_Managed_DAFUL_Operation_UniteRigid__ctor_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_Models_Pre_IObject__"></a> UniteRigid\(IDocument, IEnumerable<IObject\>\)
 
 ```csharp
 public UniteRigid(IDocument doc, IEnumerable<IObject> selectedBody)
@@ -99,7 +99,7 @@ public UniteRigid(IDocument doc, IEnumerable<IObject> selectedBody)
 
 `selectedBody` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IObject\>
 
-### UniteRigid\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_UniteRigid__ctor_VM_Managed_Operation_JournalParameter_"></a> UniteRigid\(JournalParameter\)
 
 ```csharp
 public UniteRigid(JournalParameter jp)
@@ -111,7 +111,7 @@ public UniteRigid(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_UniteRigid_Name"></a> Name
 
 Gets the operation name.
 
@@ -123,7 +123,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SelectedBody
+### <a id="VM_Managed_DAFUL_Operation_UniteRigid_SelectedBody"></a> SelectedBody
 
 ```csharp
 public IList<SolidBody> SelectedBody { get; set; }
@@ -135,7 +135,7 @@ public IList<SolidBody> SelectedBody { get; set; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_UniteRigid_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -143,7 +143,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Operation_UniteRigid_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -152,5 +152,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

@@ -1,4 +1,4 @@
-# Class ProfileSprocket\_BS
+#  Class ProfileSprocket\_BS
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -45,7 +45,7 @@ public class ProfileSprocket_BS : ProfileSprocketBase
 
 ## Constructors
 
-### ProfileSprocket\_BS\(ProfileDataSprocket\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocket_BS__ctor_VM_Managed_CAD_Sprocket_ProfileDataSprocket_"></a> ProfileSprocket\_BS\(ProfileDataSprocket\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Sprocket.ProfileSprocket_BS" data-throw-if-not-resolved="false"></xref> class.
 
@@ -61,7 +61,7 @@ The info is data for creation profile.
 
 ## Methods
 
-### CreateProfile\(\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocket_BS_CreateProfile"></a> CreateProfile\(\)
 
 Create profile data.
 
@@ -73,7 +73,7 @@ protected override bool CreateProfile()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validation\(\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocket_BS_Validation"></a> Validation\(\)
 
 ```csharp
 protected override bool Validation()
@@ -82,5 +82,4 @@ protected override bool Validation()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

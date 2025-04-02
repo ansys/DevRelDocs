@@ -1,4 +1,4 @@
-# Class ContactGeomCurveset
+#  Class ContactGeomCurveset
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -217,7 +217,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ContactGeomCurveset\(\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset__ctor"></a> ContactGeomCurveset\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeomCurveset" data-throw-if-not-resolved="false"></xref> class.
 
@@ -225,7 +225,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGe
 protected ContactGeomCurveset()
 ```
 
-### ContactGeomCurveset\(string\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset__ctor_System_String_"></a> ContactGeomCurveset\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeomCurveset" data-throw-if-not-resolved="false"></xref> class.
 
@@ -241,7 +241,7 @@ Name of the contact geometry .
 
 ## Properties
 
-### CurvesetList
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_CurvesetList"></a> CurvesetList
 
 Gets or sets the curveset link container.
 
@@ -253,7 +253,7 @@ public IContactableRigid2D[] CurvesetList { get; set; }
 
  IContactableRigid2D\[\]
 
-### GeometryFullName
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_GeometryFullName"></a> GeometryFullName
 
 Gets the full name of the geometry.
 
@@ -265,7 +265,7 @@ public override string GeometryFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GeometryParentKey
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_GeometryParentKey"></a> GeometryParentKey
 
 Get geometry parent key
 
@@ -277,7 +277,7 @@ public override ObjectBase.ConvertKey GeometryParentKey { get; }
 
  ObjectBase.ConvertKey
 
-### ParentBody
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_ParentBody"></a> ParentBody
 
 Gets or sets the geometry.
 
@@ -289,7 +289,7 @@ public ObjectBase ParentBody { get; }
 
  ObjectBase
 
-### TargetGeometry
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_TargetGeometry"></a> TargetGeometry
 
 Gets or sets the target geometry.
 
@@ -301,7 +301,7 @@ public override ObjectBase TargetGeometry { get; }
 
  ObjectBase
 
-### \_CurvesetList
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset__CurvesetList"></a> \_CurvesetList
 
 Gets or sets the curveset link container.
 
@@ -315,7 +315,7 @@ public Linker<IContactableRigid2D>[] _CurvesetList { get; set; }
 
 ## Methods
 
-### AddCurveset\(IContactableRigid2D\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_AddCurveset_VM_Managed_DAFUL_IContactableRigid2D_"></a> AddCurveset\(IContactableRigid2D\)
 
 Adds the curveset.
 
@@ -329,7 +329,7 @@ public void AddCurveset(IContactableRigid2D cs)
 
 The curveset.
 
-### GetCurvesetsIncludeSlice\(int, bool\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_GetCurvesetsIncludeSlice_System_Int32_System_Boolean_"></a> GetCurvesetsIncludeSlice\(int, bool\)
 
 Gets or sets the curveset include slice link container.
 
@@ -353,7 +353,7 @@ The original geometry position.
 
 The curveset include slice link container.
 
-### GetCurvesetsIncludeSlice\(bool\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_GetCurvesetsIncludeSlice_System_Boolean_"></a> GetCurvesetsIncludeSlice\(bool\)
 
 Gets or sets the curveset include slice link container.
 
@@ -373,7 +373,7 @@ The original geometry position.
 
 The curveset include slice link container.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [base].
 
@@ -401,7 +401,7 @@ if set to <code>true</code> [b has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPointDirection\(ref VectorBase, ref VectorBase\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointDirection\(ref VectorBase, ref VectorBase\)
 
 Gets the normal origin point and direction.
 
@@ -425,7 +425,7 @@ The normal direction.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_GetPointDirectionOnGeometry_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase\)
 
 Gets the normal origin point and direction.
 
@@ -449,7 +449,7 @@ The normal direction.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPoints\(IContactableRigid2D\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_GetPoints_VM_Managed_DAFUL_IContactableRigid2D_"></a> GetPoints\(IContactableRigid2D\)
 
 Get Points with sorting.
 
@@ -469,7 +469,7 @@ The curveset.
 
 The curveset points with sorting.
 
-### GetPointsAboutOrigin\(IContactableRigid2D\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_GetPointsAboutOrigin_VM_Managed_DAFUL_IContactableRigid2D_"></a> GetPointsAboutOrigin\(IContactableRigid2D\)
 
 Get Points with sorting.
 
@@ -489,7 +489,7 @@ The curveset.
 
 The curveset points with sorting.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -507,7 +507,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -521,7 +521,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnLinkReserved\(ILink, object, EventArgs\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCurveset_OnLinkReserved_VM_Managed_ILink_System_Object_System_EventArgs_"></a> OnLinkReserved\(ILink, object, EventArgs\)
 
 ```csharp
 protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs args)
@@ -534,5 +534,4 @@ protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs
 `objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
-
 

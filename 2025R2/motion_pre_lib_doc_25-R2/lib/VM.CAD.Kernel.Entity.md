@@ -1,4 +1,4 @@
-# Class Entity
+#  Class Entity
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -42,7 +42,7 @@ IHasID
 
 ## Constructors
 
-### Entity\(UIntPtr, bool\)
+### <a id="VM_CAD_Kernel_Entity__ctor_System_UIntPtr_System_Boolean_"></a> Entity\(UIntPtr, bool\)
 
 ```csharp
 protected Entity(UIntPtr key, bool isLock = true)
@@ -56,7 +56,7 @@ protected Entity(UIntPtr key, bool isLock = true)
 
 ## Properties
 
-### PID
+### <a id="VM_CAD_Kernel_Entity_PID"></a> PID
 
 ```csharp
 public Identifier PID { get; }
@@ -65,5 +65,4 @@ public Identifier PID { get; }
 #### Property Value
 
  Identifier
-
 

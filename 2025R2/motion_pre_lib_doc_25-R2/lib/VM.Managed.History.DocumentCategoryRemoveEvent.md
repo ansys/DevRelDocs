@@ -1,4 +1,4 @@
-# Class DocumentCategoryRemoveEvent
+#  Class DocumentCategoryRemoveEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -44,7 +44,7 @@ HistoryEvent.IsValid
 
 ## Methods
 
-### Redo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_DocumentCategoryRemoveEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
 
 ```csharp
 public override void Redo(HistoryEventArgs args)
@@ -54,7 +54,7 @@ public override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### Undo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_DocumentCategoryRemoveEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
 
 ```csharp
 public override void Undo(HistoryEventArgs args)
@@ -63,5 +63,4 @@ public override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
-
 

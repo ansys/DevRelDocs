@@ -1,4 +1,4 @@
-# Class VehicleTestRigDocument
+#  Class VehicleTestRigDocument
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -628,7 +628,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### VehicleTestRigDocument\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_Car_VehicleTestRigDocument__ctor_System_UIntPtr_"></a> VehicleTestRigDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.VehicleTestRigDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -644,7 +644,7 @@ The document handle.
 
 ## Properties
 
-### InitialCategories
+### <a id="VM_Managed_DAFUL_Car_VehicleTestRigDocument_InitialCategories"></a> InitialCategories
 
 Gets the initial categories.
 
@@ -658,7 +658,7 @@ protected override List<string> InitialCategories { get; }
 
 ## Methods
 
-### FindCategory\(string\)
+### <a id="VM_Managed_DAFUL_Car_VehicleTestRigDocument_FindCategory_System_String_"></a> FindCategory\(string\)
 
 Finds the category.
 
@@ -678,7 +678,7 @@ The fullname of type.
 
 The category.
 
-### InitializeCategoryInfo\(string\)
+### <a id="VM_Managed_DAFUL_Car_VehicleTestRigDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
 
 Initializes the category info.
 
@@ -691,5 +691,4 @@ public static void InitializeCategoryInfo(string strCategoryName)
 `strCategoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 Name of the STR category.
-
 

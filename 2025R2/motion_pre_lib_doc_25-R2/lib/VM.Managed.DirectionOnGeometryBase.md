@@ -1,4 +1,4 @@
-# Class DirectionOnGeometryBase
+#  Class DirectionOnGeometryBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -114,7 +114,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DirectionOnGeometryBase\(\)
+### <a id="VM_Managed_DirectionOnGeometryBase__ctor"></a> DirectionOnGeometryBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DirectionOnGeometryBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ public DirectionOnGeometryBase()
 
 ## Fields
 
-### m\_ptrEntityKey
+### <a id="VM_Managed_DirectionOnGeometryBase_m_ptrEntityKey"></a> m\_ptrEntityKey
 
 ```csharp
 protected UIntPtr m_ptrEntityKey
@@ -134,7 +134,7 @@ protected UIntPtr m_ptrEntityKey
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### m\_vecDirection
+### <a id="VM_Managed_DirectionOnGeometryBase_m_vecDirection"></a> m\_vecDirection
 
 ```csharp
 protected VectorBase m_vecDirection
@@ -144,7 +144,7 @@ protected VectorBase m_vecDirection
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### m\_vecEndPosition
+### <a id="VM_Managed_DirectionOnGeometryBase_m_vecEndPosition"></a> m\_vecEndPosition
 
 ```csharp
 protected VectorBase m_vecEndPosition
@@ -154,7 +154,7 @@ protected VectorBase m_vecEndPosition
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### m\_vecStartPosition
+### <a id="VM_Managed_DirectionOnGeometryBase_m_vecStartPosition"></a> m\_vecStartPosition
 
 ```csharp
 protected VectorBase m_vecStartPosition
@@ -166,7 +166,7 @@ protected VectorBase m_vecStartPosition
 
 ## Properties
 
-### IsParameterized
+### <a id="VM_Managed_DirectionOnGeometryBase_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -178,7 +178,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Value
+### <a id="VM_Managed_DirectionOnGeometryBase_Value"></a> Value
 
 Gets the VectorBase(x, y, z).
 
@@ -192,7 +192,7 @@ public override VectorBase Value { get; }
 
 ## Methods
 
-### IsParametric\(enRefType\)
+### <a id="VM_Managed_DirectionOnGeometryBase_IsParametric_VM_Managed_Primitive_enRefType_"></a> IsParametric\(enRefType\)
 
 Gets parametric.
 
@@ -212,7 +212,7 @@ Point picking type.
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DirectionOnGeometryBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -226,7 +226,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### RecalcDirection\(\)
+### <a id="VM_Managed_DirectionOnGeometryBase_RecalcDirection"></a> RecalcDirection\(\)
 
 Recalculate direction
 
@@ -234,7 +234,7 @@ Recalculate direction
 protected void RecalcDirection()
 ```
 
-### SetDirectionInfo\(string, string, string\)
+### <a id="VM_Managed_DirectionOnGeometryBase_SetDirectionInfo_System_String_System_String_System_String_"></a> SetDirectionInfo\(string, string, string\)
 
 Sets the direction.
 
@@ -255,5 +255,4 @@ Start position.
 `strEndPosition` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 End position.
-
 

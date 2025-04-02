@@ -1,4 +1,4 @@
-# Class TransformMatrix
+#  Class TransformMatrix
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -134,7 +134,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### TransformMatrix\(TMatrix\)
+### <a id="VM_Managed_TransformMatrix__ctor_VM_Managed_TMatrix_"></a> TransformMatrix\(TMatrix\)
 
 Initializes a new instance of the <xref href="VM.Managed.TransformMatrix" data-throw-if-not-resolved="false"></xref> class.
 
@@ -148,7 +148,7 @@ public TransformMatrix(TMatrix matTransform)
 
 The matrix of transform.
 
-### TransformMatrix\(\)
+### <a id="VM_Managed_TransformMatrix__ctor"></a> TransformMatrix\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.TransformMatrix" data-throw-if-not-resolved="false"></xref> class.
 
@@ -158,7 +158,7 @@ public TransformMatrix()
 
 ## Properties
 
-### IsParameterized
+### <a id="VM_Managed_TransformMatrix_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -170,7 +170,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Orientation
+### <a id="VM_Managed_TransformMatrix_Orientation"></a> Orientation
 
 Gets the orientation.
 
@@ -182,7 +182,7 @@ public override OMatrix Orientation { get; }
 
  [OMatrix](VM.Managed.OMatrix.md)
 
-### Position
+### <a id="VM_Managed_TransformMatrix_Position"></a> Position
 
 Gets the position.
 
@@ -194,7 +194,7 @@ public override VectorBase Position { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### TransformationMatrix
+### <a id="VM_Managed_TransformMatrix_TransformationMatrix"></a> TransformationMatrix
 
 Gets the transform.
 
@@ -208,7 +208,7 @@ public override TMatrix TransformationMatrix { get; set; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_TransformMatrix_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -223,7 +223,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_TransformMatrix_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -237,7 +237,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_TransformMatrix_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -250,5 +250,4 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

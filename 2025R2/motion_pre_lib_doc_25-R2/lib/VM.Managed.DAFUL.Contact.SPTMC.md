@@ -1,4 +1,4 @@
-# Class SPTMC
+#  Class SPTMC
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -229,7 +229,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SPTMC\(\)
+### <a id="VM_Managed_DAFUL_Contact_SPTMC__ctor"></a> SPTMC\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.SPTMC" data-throw-if-not-resolved="false"></xref> class.
 
@@ -237,7 +237,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.SPTMC" da
 public SPTMC()
 ```
 
-### SPTMC\(string\)
+### <a id="VM_Managed_DAFUL_Contact_SPTMC__ctor_System_String_"></a> SPTMC\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.SPTMC" data-throw-if-not-resolved="false"></xref> class.
 
@@ -253,7 +253,7 @@ Name of the 2D contact.
 
 ## Properties
 
-### ActionGeom
+### <a id="VM_Managed_DAFUL_Contact_SPTMC_ActionGeom"></a> ActionGeom
 
 Gets or sets the action geom.
 
@@ -265,7 +265,7 @@ public ContactGeomSphere ActionGeom { get; set; }
 
  [ContactGeomSphere](VM.Managed.DAFUL.Contact.ContactGeomSphere.md)
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Contact_SPTMC_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -277,7 +277,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Contact_SPTMC_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -289,7 +289,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
  IReportable.ReportEntityType
 
-### \_ActionGeom
+### <a id="VM_Managed_DAFUL_Contact_SPTMC__ActionGeom"></a> \_ActionGeom
 
 Gets or sets the action geom.
 
@@ -303,7 +303,7 @@ protected override IContactGeometry2Dot5D _ActionGeom { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Contact_SPTMC_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -317,7 +317,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_Contact_SPTMC_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -337,7 +337,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetChildList\(\)
+### <a id="VM_Managed_DAFUL_Contact_SPTMC_GetChildList"></a> GetChildList\(\)
 
 Get child list
 
@@ -351,7 +351,7 @@ public override IEnumerable<ObjectBase> GetChildList()
 
 Child list
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Contact_SPTMC_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -365,12 +365,11 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### UpdateIcon\(\)
+### <a id="VM_Managed_DAFUL_Contact_SPTMC_UpdateIcon"></a> UpdateIcon\(\)
 
 Updates the icon [Not Implemented].
 
 ```csharp
 protected override void UpdateIcon()
 ```
-
 

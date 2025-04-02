@@ -1,4 +1,4 @@
-# Class SymmetricManager.SymmetricFactory<T\>
+#  Class SymmetricManager.SymmetricFactory<T\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -26,7 +26,7 @@ public class SymmetricManager.SymmetricFactory<T>
 
 ## Constructors
 
-### SymmetricFactory\(XmlNodeList\)
+### <a id="VM_Managed_SymmetricManager_SymmetricFactory_1__ctor_System_Xml_XmlNodeList_"></a> SymmetricFactory\(XmlNodeList\)
 
 Initializes a new instance of the <xref href="VM.Managed.SymmetricManager.SymmetricFactory%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -42,7 +42,7 @@ The node initial information.
 
 ## Properties
 
-### this\[object\]
+### <a id="VM_Managed_SymmetricManager_SymmetricFactory_1_Item_System_Object_"></a> this\[object\]
 
 Gets the T with the specified object.
 
@@ -54,7 +54,7 @@ public T this[object ob] { get; }
 
  T
 
-### this\[Type\]
+### <a id="VM_Managed_SymmetricManager_SymmetricFactory_1_Item_System_Type_"></a> this\[Type\]
 
 Gets the T with the specified type.
 
@@ -68,7 +68,7 @@ public T this[Type type] { get; }
 
 ## Methods
 
-### Add\(Type, T\)
+### <a id="VM_Managed_SymmetricManager_SymmetricFactory_1_Add_System_Type__0_"></a> Add\(Type, T\)
 
 Add new symmetric item into the factory
 
@@ -85,5 +85,4 @@ The type of symmetric object.
 `value` T
 
 The new item.
-
 

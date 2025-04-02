@@ -1,4 +1,4 @@
-# Class InterfaceAddEvent
+#  Class InterfaceAddEvent
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -67,7 +67,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### InterfaceAddEvent\(Document, object, string, object, object, PostExecuteCallback, string\)
+### <a id="VM_Managed_InterfaceAddEvent__ctor_VM_Managed_Document_System_Object_System_String_System_Object_System_Object_VM_Managed_History_DocumentSimpleValueModifiedEvent_System_Collections_Generic_List_VM_Managed_InterfaceManager_InterfaceInfoForUndo___PostExecuteCallback_System_String_"></a> InterfaceAddEvent\(Document, object, string, object, object, PostExecuteCallback, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.InterfaceAddEvent" data-throw-if-not-resolved="false"></xref> class.
 
@@ -93,7 +93,7 @@ public InterfaceAddEvent(Document doc, object obj, string strPropertyName, objec
 
 ## Methods
 
-### AfterRedo\(HistoryEventArgs\)
+### <a id="VM_Managed_InterfaceAddEvent_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
 
 After redo.
 <param name="args">The argument</param>
@@ -106,7 +106,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### AfterUndo\(HistoryEventArgs\)
+### <a id="VM_Managed_InterfaceAddEvent_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
 
 After undo.
 <param name="args">The argument</param>
@@ -118,5 +118,4 @@ protected override void AfterUndo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
-
 

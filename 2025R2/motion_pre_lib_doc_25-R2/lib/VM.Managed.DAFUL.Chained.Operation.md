@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Chained.Operation
+#  Namespace VM.Managed.DAFUL.Chained.Operation
 
 ### Classes
 
@@ -49,5 +49,4 @@ Open Document With Files Operation
  [ReplaceDesignPosition](VM.Managed.DAFUL.Chained.Operation.ReplaceDesignPosition.md)
 
 Replace Design Position Operation
-
 

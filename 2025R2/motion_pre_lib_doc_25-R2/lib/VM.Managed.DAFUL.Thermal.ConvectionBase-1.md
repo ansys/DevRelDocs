@@ -1,4 +1,4 @@
-# Class ConvectionBase<TProperty\>
+#  Class ConvectionBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -221,7 +221,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ConvectionBase\(\)
+### <a id="VM_Managed_DAFUL_Thermal_ConvectionBase_1__ctor"></a> ConvectionBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ConvectionBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -229,7 +229,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.Convectio
 public ConvectionBase()
 ```
 
-### ConvectionBase\(string\)
+### <a id="VM_Managed_DAFUL_Thermal_ConvectionBase_1__ctor_System_String_"></a> ConvectionBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ConvectionBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -245,7 +245,7 @@ Name of the STR.
 
 ## Properties
 
-### ConvectionComponent
+### <a id="VM_Managed_DAFUL_Thermal_ConvectionBase_1_ConvectionComponent"></a> ConvectionComponent
 
 Gets or sets the convection component.
 
@@ -257,7 +257,7 @@ public IConvectionComponent ConvectionComponent { get; set; }
 
  IConvectionComponent
 
-### TargetObject
+### <a id="VM_Managed_DAFUL_Thermal_ConvectionBase_1_TargetObject"></a> TargetObject
 
 Gets the target object.
 
@@ -269,7 +269,7 @@ protected override ObjectBase TargetObject { get; }
 
  ObjectBase
 
-### \_ConvectionComponent
+### <a id="VM_Managed_DAFUL_Thermal_ConvectionBase_1__ConvectionComponent"></a> \_ConvectionComponent
 
 Gets or sets the convection component.
 
@@ -283,7 +283,7 @@ public Linker<IConvectionComponent> _ConvectionComponent { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Thermal_ConvectionBase_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -297,7 +297,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReplaceEntityImpl\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Thermal_ConvectionBase_1_ReplaceEntityImpl_VM_Managed_ObjectBase_"></a> ReplaceEntityImpl\(ObjectBase\)
 
 Replace entity
 
@@ -310,5 +310,4 @@ protected override void ReplaceEntityImpl(ObjectBase newObject)
 `newObject` ObjectBase
 
 The new object
-
 

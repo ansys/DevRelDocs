@@ -1,4 +1,4 @@
-# Class PointNPointsCenter
+#  Class PointNPointsCenter
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -107,7 +107,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PointNPointsCenter\(\)
+### <a id="VM_Managed_PointNPointsCenter__ctor"></a> PointNPointsCenter\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointNPointsCenter" data-throw-if-not-resolved="false"></xref> class.
 
@@ -117,7 +117,7 @@ public PointNPointsCenter()
 
 ## Fields
 
-### m\_PointCollection
+### <a id="VM_Managed_PointNPointsCenter_m_PointCollection"></a> m\_PointCollection
 
 ```csharp
 protected LinkListCollection<PointBase, Child<PointBase, LinkContainer.Update>> m_PointCollection
@@ -127,7 +127,7 @@ protected LinkListCollection<PointBase, Child<PointBase, LinkContainer.Update>> 
 
  [LinkListCollection](VM.Managed.Collections.LinkListCollection\-2.md)<[PointBase](VM.Managed.PointBase.md), [Child](VM.Managed.Child\-2.md)<[PointBase](VM.Managed.PointBase.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>\>
 
-### m\_lstPoints
+### <a id="VM_Managed_PointNPointsCenter_m_lstPoints"></a> m\_lstPoints
 
 ```csharp
 [Obsolete]
@@ -140,7 +140,7 @@ protected List<Child<PointBase, LinkContainer.Update>> m_lstPoints
 
 ## Properties
 
-### Count
+### <a id="VM_Managed_PointNPointsCenter_Count"></a> Count
 
 Gets the count of Point.
 
@@ -152,7 +152,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### IsParameterized
+### <a id="VM_Managed_PointNPointsCenter_IsParameterized"></a> IsParameterized
 
 Get the parametric.
 
@@ -164,7 +164,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Points
+### <a id="VM_Managed_PointNPointsCenter_Points"></a> Points
 
 Gets or sets the object of points.
 
@@ -176,7 +176,7 @@ public PointBase[] Points { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)\[\]
 
-### Value
+### <a id="VM_Managed_PointNPointsCenter_Value"></a> Value
 
 Get the VectorBase(x, y, z).
 
@@ -188,7 +188,7 @@ public override VectorBase Value { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### X
+### <a id="VM_Managed_PointNPointsCenter_X"></a> X
 
 Get the X point.
 
@@ -200,7 +200,7 @@ public override double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_Managed_PointNPointsCenter_Y"></a> Y
 
 Get the Y point.
 
@@ -212,7 +212,7 @@ public override double Y { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Z
+### <a id="VM_Managed_PointNPointsCenter_Z"></a> Z
 
 Get the Z point.
 
@@ -224,7 +224,7 @@ public override double Z { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### this\[int\]
+### <a id="VM_Managed_PointNPointsCenter_Item_System_Int32_"></a> this\[int\]
 
 ```csharp
 public PointBase this[int nIndex] { get; set; }
@@ -236,7 +236,7 @@ public PointBase this[int nIndex] { get; set; }
 
 ## Methods
 
-### Add\(PointBase\)
+### <a id="VM_Managed_PointNPointsCenter_Add_VM_Managed_PointBase_"></a> Add\(PointBase\)
 
 Gets or sets default of point.
 
@@ -248,7 +248,7 @@ public void Add(PointBase pPoint)
 
 `pPoint` [PointBase](VM.Managed.PointBase.md)
 
-### GetSchema\(\)
+### <a id="VM_Managed_PointNPointsCenter_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -263,7 +263,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_PointNPointsCenter_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -275,7 +275,7 @@ public override void OnDeserialization(object obSender)
 
 `obSender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_PointNPointsCenter_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -289,7 +289,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_PointNPointsCenter_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -302,5 +302,4 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

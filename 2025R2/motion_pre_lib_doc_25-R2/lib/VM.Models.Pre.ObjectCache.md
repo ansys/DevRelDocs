@@ -1,4 +1,4 @@
-# Class ObjectCache
+#  Class ObjectCache
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -20,7 +20,7 @@ public static class ObjectCache
 
 ## Methods
 
-### Add\(UIntPtr, object\)
+### <a id="VM_Models_Pre_ObjectCache_Add_System_UIntPtr_System_Object_"></a> Add\(UIntPtr, object\)
 
 ```csharp
 public static void Add(UIntPtr key, object value)
@@ -32,7 +32,7 @@ public static void Add(UIntPtr key, object value)
 
 `value` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### Contains\(UIntPtr\)
+### <a id="VM_Models_Pre_ObjectCache_Contains_System_UIntPtr_"></a> Contains\(UIntPtr\)
 
 ```csharp
 public static bool Contains(UIntPtr key)
@@ -46,7 +46,7 @@ public static bool Contains(UIntPtr key)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetValue\(UIntPtr\)
+### <a id="VM_Models_Pre_ObjectCache_GetValue_System_UIntPtr_"></a> GetValue\(UIntPtr\)
 
 ```csharp
 public static object GetValue(UIntPtr key)
@@ -60,7 +60,7 @@ public static object GetValue(UIntPtr key)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### Remove\(UIntPtr\)
+### <a id="VM_Models_Pre_ObjectCache_Remove_System_UIntPtr_"></a> Remove\(UIntPtr\)
 
 ```csharp
 public static void Remove(UIntPtr key)
@@ -70,7 +70,7 @@ public static void Remove(UIntPtr key)
 
 `key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### TryGetValue\(UIntPtr, out object\)
+### <a id="VM_Models_Pre_ObjectCache_TryGetValue_System_UIntPtr_System_Object__"></a> TryGetValue\(UIntPtr, out object\)
 
 ```csharp
 public static bool TryGetValue(UIntPtr key, out object value)
@@ -86,7 +86,7 @@ public static bool TryGetValue(UIntPtr key, out object value)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TryGetValue<T\>\(UIntPtr, out T\)
+### <a id="VM_Models_Pre_ObjectCache_TryGetValue__1_System_UIntPtr___0__"></a> TryGetValue<T\>\(UIntPtr, out T\)
 
 ```csharp
 public static bool TryGetValue<T>(UIntPtr key, out T value)
@@ -105,5 +105,4 @@ public static bool TryGetValue<T>(UIntPtr key, out T value)
 #### Type Parameters
 
 `T` 
-
 

@@ -1,4 +1,4 @@
-# Class Contact<TProperty\>
+#  Class Contact<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -211,7 +211,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Contact\(\)
+### <a id="VM_Managed_DAFUL_Contact_Contact_1__ctor"></a> Contact\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.Contact%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -219,7 +219,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.Contact%6
 protected Contact()
 ```
 
-### Contact\(string\)
+### <a id="VM_Managed_DAFUL_Contact_Contact_1__ctor_System_String_"></a> Contact\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.Contact%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -235,7 +235,7 @@ Name of the contact.
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Contact_Contact_1_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -247,7 +247,7 @@ public abstract ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_Contact_Contact_1_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -259,7 +259,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Hide
+### <a id="VM_Managed_DAFUL_Contact_Contact_1_Hide"></a> Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -271,7 +271,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Contact_Contact_1_ReferenceType"></a> ReferenceType
 
 Gets the type of the array for argument.
 
@@ -283,7 +283,7 @@ public virtual string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Contact_Contact_1_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -297,7 +297,7 @@ protected abstract IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Contact_Contact_1_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the specified canvas.
 
@@ -311,7 +311,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas.
 
-### LinkRequestDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Contact_Contact_1_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -329,7 +329,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Contact_Contact_1_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -347,7 +347,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### ReDraw\(\)
+### <a id="VM_Managed_DAFUL_Contact_Contact_1_ReDraw"></a> ReDraw\(\)
 
 Redraw.
 
@@ -355,7 +355,7 @@ Redraw.
 public virtual void ReDraw()
 ```
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Contact_Contact_1_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -369,7 +369,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### UpdateIcon\(\)
+### <a id="VM_Managed_DAFUL_Contact_Contact_1_UpdateIcon"></a> UpdateIcon\(\)
 
 Updates the icon.
 
@@ -377,7 +377,7 @@ Updates the icon.
 protected abstract void UpdateIcon()
 ```
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Contact_Contact_1_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -390,5 +390,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

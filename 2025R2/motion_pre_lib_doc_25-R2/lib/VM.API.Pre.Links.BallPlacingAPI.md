@@ -1,4 +1,4 @@
-# Class BallPlacingAPI
+#  Class BallPlacingAPI
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -22,7 +22,7 @@ public static class BallPlacingAPI
 
 ## Methods
 
-### CreateBall\(BallInfo\)
+### <a id="VM_API_Pre_Links_BallPlacingAPI_CreateBall_VM_Managed_DAFUL_Operation_BallInfo_"></a> CreateBall\(BallInfo\)
 
 Create ball.
 
@@ -52,7 +52,7 @@ Will be thrown if the Name of 'ballInfo' is null.
 
 Will be thrown if the Radius of 'ballInfo' is equal to or less than 0.
 
-### CreateBallPlacing\(SubSystemDocument, string, PathType, string, ExpressionValueVariable?, ExpressionValueVariable?, Color?\)
+### <a id="VM_API_Pre_Links_BallPlacingAPI_CreateBallPlacing_VM_Managed_DAFUL_SubSystemDocument_System_String_VM_Managed_DAFUL_PathType_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_System_Drawing_Color__"></a> CreateBallPlacing\(SubSystemDocument, string, PathType, string, ExpressionValueVariable?, ExpressionValueVariable?, Color?\)
 
 Create ball placing <xref href="VM.Managed.DAFUL.BallPlacing" data-throw-if-not-resolved="false"></xref>.
 
@@ -120,7 +120,7 @@ Will be thrown if 'ballRadius' value equal to or less than 0.
 
 Will be thrown if 'numberOfBall' is less than 2 or greater than 999.
 
-### CreateBallPlacingContact\(SubSystemDocument, IEnumerable<Obj\>, Obj, string\)
+### <a id="VM_API_Pre_Links_BallPlacingAPI_CreateBallPlacingContact_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_API_Pre_Obj_System_String_"></a> CreateBallPlacingContact\(SubSystemDocument, IEnumerable<Obj\>, Obj, string\)
 
 Create ball placing contact <xref href="VM.Managed.DAFUL.BallPlacingContact" data-throw-if-not-resolved="false"></xref>.
 
@@ -165,7 +165,7 @@ Will be thrown if 'document', 'baseGeometries', 'ballPlacing', 'ballPlacing' are
 
 Will be thrown if item type of 'baseGeometries' is not <xref href="VM.Managed.DAFUL.IContactable" data-throw-if-not-resolved="false"></xref>.
 
-### CreateBallScrew\(SubSystemDocument, Vector, Vector, Vector, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ScrewHandType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, string\)
+### <a id="VM_API_Pre_Links_BallPlacingAPI_CreateBallScrew_VM_Managed_DAFUL_SubSystemDocument_VM_Vector_VM_Vector_VM_Vector_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_Links_ScrewHandType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateBallScrew\(SubSystemDocument, Vector, Vector, Vector, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ScrewHandType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, string\)
 
 ```csharp
 [NotNull(new string[] { "document" })]
@@ -217,7 +217,7 @@ public static Obj CreateBallScrew(this SubSystemDocument document, Vector shaftR
 
  Obj
 
-### CreateSurfaceWithCurvesets\(SubSystemDocument, string, Obj, Obj, Obj, ExpressionValueVariable?, ExpressionValueVariable?, string\)
+### <a id="VM_API_Pre_Links_BallPlacingAPI_CreateSurfaceWithCurvesets_VM_Managed_DAFUL_SubSystemDocument_System_String_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateSurfaceWithCurvesets\(SubSystemDocument, string, Obj, Obj, Obj, ExpressionValueVariable?, ExpressionValueVariable?, string\)
 
 Create surface with curvesets <xref href="VM.Managed.DAFUL.SurfaceWithCurvesets" data-throw-if-not-resolved="false"></xref>.
 
@@ -303,7 +303,7 @@ Will be thrown if item type of 'endCurveSet' is not <xref href="VM.Managed.DAFUL
 
 Will be thrown if 'numberOfSlice', 'cuttingPlaneRadius' values equal to or less than 0.
 
-### DeleteBall\(Obj\)
+### <a id="VM_API_Pre_Links_BallPlacingAPI_DeleteBall_VM_API_Pre_Obj_"></a> DeleteBall\(Obj\)
 
 Delete ball.
 
@@ -329,7 +329,7 @@ Will be thrown if 'ball' is null.
 
 Will be thrown if item type of 'ball' is not <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
-### UpdateBall\(Obj, BallInfo\)
+### <a id="VM_API_Pre_Links_BallPlacingAPI_UpdateBall_VM_API_Pre_Obj_VM_Managed_DAFUL_Operation_BallInfo_"></a> UpdateBall\(Obj, BallInfo\)
 
 Update ball.
 
@@ -367,7 +367,7 @@ Will be thrown if the Name of 'ballInfo' is null.
 
 Will be thrown if the Radius of 'ballInfo' is equal to or less than 0.
 
-### UpdateFaceSet\(Obj, ExpressionValueVariable, ExpressionValueVariable\)
+### <a id="VM_API_Pre_Links_BallPlacingAPI_UpdateFaceSet_VM_API_Pre_Obj_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> UpdateFaceSet\(Obj, ExpressionValueVariable, ExpressionValueVariable\)
 
 Update faceset.
 
@@ -401,7 +401,7 @@ Will be thrown if 'faceset' is null.
 
 Will be thrown if item type of 'faceset' is not <xref href="VM.Managed.DAFUL.SetFace" data-throw-if-not-resolved="false"></xref>.
 
-### UpdateSurfaceWithCurvesets\(Obj, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable\)
+### <a id="VM_API_Pre_Links_BallPlacingAPI_UpdateSurfaceWithCurvesets_VM_API_Pre_Obj_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Boolean_VM_Models_Pre_ExpressionValueVariable_"></a> UpdateSurfaceWithCurvesets\(Obj, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable\)
 
 Update surface with curvesets.
 
@@ -442,5 +442,4 @@ Will be thrown if 'surfaceWithCurvesets' is null.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if item type of 'surfaceWithCurvesets' is not <xref href="VM.Managed.DAFUL.SurfaceWithCurvesets" data-throw-if-not-resolved="false"></xref>.
-
 

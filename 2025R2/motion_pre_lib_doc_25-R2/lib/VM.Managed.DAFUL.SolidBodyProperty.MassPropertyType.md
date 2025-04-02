@@ -1,4 +1,4 @@
-# Enum SolidBodyProperty.MassPropertyType
+#  Enum SolidBodyProperty.MassPropertyType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -32,7 +32,6 @@ The default mass.
 `User = 2` 
 
 The mass is written by user.
-
 
 
 

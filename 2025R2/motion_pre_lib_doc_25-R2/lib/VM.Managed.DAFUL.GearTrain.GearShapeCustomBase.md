@@ -1,4 +1,4 @@
-# Class GearShapeCustomBase
+#  Class GearShapeCustomBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -134,7 +134,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearShapeCustomBase\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase__ctor"></a> GearShapeCustomBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearShapeCustomBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -144,7 +144,7 @@ public GearShapeCustomBase()
 
 ## Properties
 
-### BaseProfile
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_BaseProfile"></a> BaseProfile
 
 The base profile
 
@@ -156,7 +156,7 @@ public GearShapeCustomBase.Profile BaseProfile { get; set; }
 
  [GearShapeCustomBase](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.md).[Profile](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Profile.md)
 
-### ExtraProfileList
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_ExtraProfileList"></a> ExtraProfileList
 
 The extra profile list
 
@@ -168,7 +168,7 @@ public List<GearShapeCustomBase.Profile> ExtraProfileList { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GearShapeCustomBase](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.md).[Profile](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Profile.md)\>
 
-### ProfileCount
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_ProfileCount"></a> ProfileCount
 
 The number of profile
 
@@ -180,7 +180,7 @@ public int ProfileCount { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### SliceCount
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_SliceCount"></a> SliceCount
 
 The number of slice count
 
@@ -192,7 +192,7 @@ public ExpressionValueVariable SliceCount { get; set; }
 
  ExpressionValueVariable
 
-### UseExtraProfile
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_UseExtraProfile"></a> UseExtraProfile
 
 The flag of using extra profile
 
@@ -206,7 +206,7 @@ public bool UseExtraProfile { get; set; }
 
 ## Methods
 
-### GetOrientation\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_GetOrientation"></a> GetOrientation\(\)
 
 Gets orientation
 
@@ -218,7 +218,7 @@ protected virtual OMatrix GetOrientation()
 
  OMatrix
 
-### ImportProfileFromFile\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_ImportProfileFromFile_System_String_"></a> ImportProfileFromFile\(string\)
 
 Import profile from file
 
@@ -236,7 +236,7 @@ The file name
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[GearShapeCustomBase](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.md).[Point2D](VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Point2D.md)\>
 
-### IsNumeric\(string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_IsNumeric_System_String___"></a> IsNumeric\(string\[\]\)
 
 Is numeric
 
@@ -254,7 +254,7 @@ The string array
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsNumeric\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_IsNumeric_System_String_"></a> IsNumeric\(string\)
 
 Is numeric
 
@@ -272,7 +272,7 @@ The string
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LoadProfileData\(string, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_LoadProfileData_System_String_System_String_"></a> LoadProfileData\(string, string\)
 
 Load profile data
 
@@ -294,7 +294,7 @@ The extension
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\[\]\>
 
-### SetBaseProfile\(Profile\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_SetBaseProfile_VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile_"></a> SetBaseProfile\(Profile\)
 
 Set base profile.
 
@@ -308,7 +308,7 @@ public void SetBaseProfile(GearShapeCustomBase.Profile profile)
 
 The profile.
 
-### SetExtraProfileList\(List<Profile\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_SetExtraProfileList_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile__"></a> SetExtraProfileList\(List<Profile\>\)
 
 Set the extra profiles.
 
@@ -322,7 +322,7 @@ public void SetExtraProfileList(List<GearShapeCustomBase.Profile> profiles)
 
 The profiles.
 
-### SetUseExtraProfile\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_SetUseExtraProfile_System_Boolean_"></a> SetUseExtraProfile\(bool\)
 
 Set the flag of use extra profile.
 
@@ -336,7 +336,7 @@ public void SetUseExtraProfile(bool bUseExtaProfile)
 
 The flag of use extra profile.
 
-### Show2D\(Canvas\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Show2D_VM_CAD_Kernel_Render_Canvas_"></a> Show2D\(Canvas\)
 
 Show2D.
 
@@ -350,12 +350,11 @@ public override void Show2D(Canvas canvas)
 
 The canvas.
 
-### UpdateResultSpecification\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_UpdateResultSpecification"></a> UpdateResultSpecification\(\)
 
 Update the result specification
 
 ```csharp
 public void UpdateResultSpecification()
 ```
-
 

@@ -1,4 +1,4 @@
-# Class WebStiffness
+#  Class WebStiffness
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### WebStiffness\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_WebStiffness__ctor"></a> WebStiffness\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.WebStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public WebStiffness()
 
 ## Properties
 
-### Angle
+### <a id="VM_Managed_DAFUL_GearTrain_WebStiffness_Angle"></a> Angle
 
 Gets or sets the angle value.
 
@@ -118,7 +118,7 @@ public ExpressionValueVariable Angle { get; set; }
 
  ExpressionValueVariable
 
-### StiffnessValues
+### <a id="VM_Managed_DAFUL_GearTrain_WebStiffness_StiffnessValues"></a> StiffnessValues
 
 Gets the stiffness values.
 
@@ -130,7 +130,7 @@ public double[] StiffnessValues { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### Stiffnesses
+### <a id="VM_Managed_DAFUL_GearTrain_WebStiffness_Stiffnesses"></a> Stiffnesses
 
 Gets or sets the stiffnesses.
 
@@ -152,7 +152,7 @@ Stiffnesses list is null.
 
 ## Methods
 
-### InitChild\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_WebStiffness_InitChild_VM_Unit_ConvertFactor_"></a> InitChild\(ConvertFactor\)
 
 Initializes the child.
 
@@ -165,5 +165,4 @@ public void InitChild(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The factor.
-
 

@@ -1,4 +1,4 @@
-# Interface IOperationsSignalProcessingLineDataSeriesViewModel
+#  Interface IOperationsSignalProcessingLineDataSeriesViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -105,7 +105,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### CutOffFrequency
+### <a id="VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel_CutOffFrequency"></a> CutOffFrequency
 
 Gets or sets the value of the cut-off frequency.
 
@@ -125,7 +125,7 @@ For an example that includes this property, see the [Interface IOperationsSignal
 
 Use this property to specify or retrieve the value of the cut-off frequency.
 
-### FilteringType
+### <a id="VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel_FilteringType"></a> FilteringType
 
 Gets or sets the filtering type of signal processing.
 
@@ -147,7 +147,7 @@ Use this property to specify or retrieve the filtering type of signal processing
 The supported types are:
 <ul><li><xref href="VM.Models.Post.FilteringType.LowPass" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FilteringType.HighPass" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FilteringType.BandPass" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FilteringType.BandStop" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### FrequencyAxisType
+### <a id="VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel_FrequencyAxisType"></a> FrequencyAxisType
 
 Gets or sets the type of frequency axis.
 
@@ -169,7 +169,7 @@ Use this property to specify or retrieve the type of frequency axis.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.FrequencyAxisType.X" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FrequencyAxisType.Y" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### HighCutOffFrequency
+### <a id="VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel_HighCutOffFrequency"></a> HighCutOffFrequency
 
 Gets or sets the value of the high cut-off frequency.
 
@@ -189,7 +189,7 @@ For an example that includes this property, see the [Interface IOperationsSignal
 
 Use this property to specify or retrieve the value of the high cut-off frequency.
 
-### LowCutOffFrequency
+### <a id="VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel_LowCutOffFrequency"></a> LowCutOffFrequency
 
 Gets or sets the value of the low cut-off frequency.
 
@@ -209,7 +209,7 @@ For an example that includes this property, see the [Interface IOperationsSignal
 
 Use this property to specify or retrieve the value of the low cut-off frequency.
 
-### Order
+### <a id="VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel_Order"></a> Order
 
 Gets or sets the order of the filter, which represents the points of the window.
 
@@ -229,7 +229,7 @@ For an example that includes this property, see the [Interface IOperationsSignal
 
 Use this property to specify or retrieve the order of the filter, which determines the points of the window.
 
-### PointsOfWindow
+### <a id="VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel_PointsOfWindow"></a> PointsOfWindow
 
 Gets or sets the points of the window.
 
@@ -249,7 +249,7 @@ For an example that includes this property, see the [Interface IOperationsSignal
 
 Use this property to specify or retrieve the points of the window.
 
-### PolynomialOrder
+### <a id="VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel_PolynomialOrder"></a> PolynomialOrder
 
 Gets or sets the value of the polynomial order.
 
@@ -269,7 +269,7 @@ For an example that includes this property, see the [Interface IOperationsSignal
 
 Use this property to specify or retrieve the value of the polynomial order.
 
-### SignalProcessingType
+### <a id="VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel_SignalProcessingType"></a> SignalProcessingType
 
 Gets or sets the type of signal processing.
 
@@ -291,7 +291,7 @@ Use this property to specify or retrieve the type of signal processing.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.SignalProcessingType.Filtering" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SignalProcessingType.Smoothing" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SignalProcessingType.FrequencyWeighting" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### SmoothingType
+### <a id="VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel_SmoothingType"></a> SmoothingType
 
 Gets or sets the type of smoothing.
 
@@ -313,7 +313,7 @@ Use this property to specify or retrieve the type of smoothing.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.SmoothingType.MovingWindowAveraging" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SmoothingType.SavitzkyGloay" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### WeightingType
+### <a id="VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel_WeightingType"></a> WeightingType
 
 Gets or sets the type of weighting.
 

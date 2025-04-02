@@ -1,4 +1,4 @@
-# Class MotorBaseBuiler
+#  Class MotorBaseBuiler
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -199,7 +199,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MotorBaseBuiler\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorBaseBuiler__ctor"></a> MotorBaseBuiler\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorRotorBuiler" data-throw-if-not-resolved="false"></xref> class.
 
@@ -209,7 +209,7 @@ public MotorBaseBuiler()
 
 ## Properties
 
-### Depth
+### <a id="VM_Managed_DAFUL_GearTrain_MotorBaseBuiler_Depth"></a> Depth
 
 ```csharp
 public double Depth { get; set; }
@@ -219,7 +219,7 @@ public double Depth { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RotateAxis
+### <a id="VM_Managed_DAFUL_GearTrain_MotorBaseBuiler_RotateAxis"></a> RotateAxis
 
 ```csharp
 public Vector RotateAxis { get; set; }
@@ -229,7 +229,7 @@ public Vector RotateAxis { get; set; }
 
  Vector
 
-### StartPosition
+### <a id="VM_Managed_DAFUL_GearTrain_MotorBaseBuiler_StartPosition"></a> StartPosition
 
 ```csharp
 public Vector StartPosition { get; set; }
@@ -241,7 +241,7 @@ public Vector StartPosition { get; set; }
 
 ## Methods
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorBaseBuiler_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 Fill parameter
 
@@ -252,5 +252,4 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
-
 

@@ -1,4 +1,4 @@
-# Interface IOperationsEigenValueAnalysisResultViewModel
+#  Interface IOperationsEigenValueAnalysisResultViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -83,7 +83,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### Frame
+### <a id="VM_Operations_Post_Interfaces_IOperationsEigenValueAnalysisResultViewModel_Frame"></a> Frame
 
 Gets or sets the frame number to be read when loading animation for EigenValue analysis type.
 
@@ -103,7 +103,7 @@ For an example that includes this property, see the [Interface IOperationsEigenV
 
 Use this property to specify or retrieve the frame number to load for animations in EigenValue analysis.
 
-### TargetSamplingTime
+### <a id="VM_Operations_Post_Interfaces_IOperationsEigenValueAnalysisResultViewModel_TargetSamplingTime"></a> TargetSamplingTime
 
 Gets or sets the target sampling time.
 
@@ -125,7 +125,7 @@ This property allows you to select and set one specific sampling time from multi
 
 ## Methods
 
-### GetFrequencies\(\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsEigenValueAnalysisResultViewModel_GetFrequencies"></a> GetFrequencies\(\)
 
 Retrieves all instances of frequencies.
 
@@ -147,7 +147,7 @@ For an example that includes this property, see the [Interface IOperationsEigenV
 
 This method finds and returns all instances of frequencies.
 
-### GetFrequency\(int\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsEigenValueAnalysisResultViewModel_GetFrequency_System_Int32_"></a> GetFrequency\(int\)
 
 Retrieves the frequency instance for the specified sampling time index.
 
@@ -175,7 +175,7 @@ For an example that includes this property, see the [Interface IOperationsEigenV
 
 This method finds and returns the frequency instance corresponding to the provided sampling time index.
 
-### GetSamplingTimes\(\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsEigenValueAnalysisResultViewModel_GetSamplingTimes"></a> GetSamplingTimes\(\)
 
 Retrieves an array of sampling times.
 

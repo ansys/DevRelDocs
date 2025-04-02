@@ -1,4 +1,4 @@
-# Enum TopologyType
+#  Enum TopologyType
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -16,5 +16,4 @@ public enum TopologyType
 `Unknown = 0` 
 
 `Vertex = 3` 
-
 

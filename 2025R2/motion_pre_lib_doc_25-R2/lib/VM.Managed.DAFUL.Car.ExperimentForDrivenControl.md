@@ -1,4 +1,4 @@
-# Class ExperimentForDrivenControl
+#  Class ExperimentForDrivenControl
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -22,7 +22,7 @@ public class ExperimentForDrivenControl
 
 ## Constructors
 
-### ExperimentForDrivenControl\(\)
+### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl__ctor"></a> ExperimentForDrivenControl\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ExperimentForDrivenControl" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public ExperimentForDrivenControl()
 
 ## Properties
 
-### ClutchFallTime
+### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_ClutchFallTime"></a> ClutchFallTime
 
 Gets or sets the clutch fall time.
 
@@ -44,7 +44,7 @@ public double ClutchFallTime { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ClutchRaiseTime
+### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_ClutchRaiseTime"></a> ClutchRaiseTime
 
 Gets or sets the clutch raise time.
 
@@ -56,7 +56,7 @@ public double ClutchRaiseTime { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GearPosition
+### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_GearPosition"></a> GearPosition
 
 Gets or sets the gear position.
 
@@ -68,7 +68,7 @@ public int GearPosition { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GearShiftTime
+### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_GearShiftTime"></a> GearShiftTime
 
 Gets or sets the gear shift time.
 
@@ -80,7 +80,7 @@ public double GearShiftTime { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### InitialVelocity
+### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_InitialVelocity"></a> InitialVelocity
 
 Gets or sets the initial velocity.
 
@@ -92,7 +92,7 @@ public double InitialVelocity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MiniManeuvers
+### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_MiniManeuvers"></a> MiniManeuvers
 
 Gets or sets the mini maneuvers.
 
@@ -104,7 +104,7 @@ public List<double> MiniManeuvers { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### ThrottleFallTime
+### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_ThrottleFallTime"></a> ThrottleFallTime
 
 Gets or sets the throttle fall time.
 
@@ -116,7 +116,7 @@ public double ThrottleFallTime { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ThrottleOffDelay
+### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_ThrottleOffDelay"></a> ThrottleOffDelay
 
 Gets or sets the throttle off delay.
 
@@ -128,7 +128,7 @@ public double ThrottleOffDelay { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ThrottleOnDelay
+### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_ThrottleOnDelay"></a> ThrottleOnDelay
 
 Gets or sets the throttle on delay.
 
@@ -140,7 +140,7 @@ public double ThrottleOnDelay { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ThrottleRaiseTime
+### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_ThrottleRaiseTime"></a> ThrottleRaiseTime
 
 Gets or sets the throttle raise time.
 
@@ -154,7 +154,7 @@ public double ThrottleRaiseTime { get; set; }
 
 ## Methods
 
-### GetUSUBArgumentForFileDriven\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_ExperimentForDrivenControl_GetUSUBArgumentForFileDriven_System_String___"></a> GetUSUBArgumentForFileDriven\(string\[\]\)
 
 Gets the USUB argument for file driven.
 
@@ -167,5 +167,4 @@ public void GetUSUBArgumentForFileDriven(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The ar parameter.
-
 

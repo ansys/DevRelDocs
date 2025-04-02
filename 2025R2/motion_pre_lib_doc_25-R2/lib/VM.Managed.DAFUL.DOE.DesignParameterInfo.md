@@ -1,4 +1,4 @@
-# Class DesignParameterInfo
+#  Class DesignParameterInfo
 
 Namespace: [VM.Managed.DAFUL.DOE](VM.Managed.DAFUL.DOE.md)  
 Assembly: VMDDOE.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DesignParameterInfo\(\)
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo__ctor"></a> DesignParameterInfo\(\)
 
 ```csharp
 public DesignParameterInfo()
@@ -108,7 +108,7 @@ public DesignParameterInfo()
 
 ## Properties
 
-### Cases
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_Cases"></a> Cases
 
 ```csharp
 public List<DesignParameterCase> Cases { get; set; }
@@ -118,7 +118,7 @@ public List<DesignParameterCase> Cases { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[DesignParameterCase](VM.Managed.DAFUL.DOE.DesignParameterCase.md)\>
 
-### Current
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_Current"></a> Current
 
 ```csharp
 public double Current { get; }
@@ -128,7 +128,7 @@ public double Current { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TypeOfValue
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_TypeOfValue"></a> TypeOfValue
 
 ```csharp
 public DesignParameterInfo.ValueType TypeOfValue { get; set; }
@@ -138,7 +138,7 @@ public DesignParameterInfo.ValueType TypeOfValue { get; set; }
 
  [DesignParameterInfo](VM.Managed.DAFUL.DOE.DesignParameterInfo.md).[ValueType](VM.Managed.DAFUL.DOE.DesignParameterInfo.ValueType.md)
 
-### Values
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_Values"></a> Values
 
 ```csharp
 public double[] Values { get; }
@@ -148,7 +148,7 @@ public double[] Values { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### \_Lower
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo__Lower"></a> \_Lower
 
 ```csharp
 public double _Lower { get; set; }
@@ -158,7 +158,7 @@ public double _Lower { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### \_Upper
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo__Upper"></a> \_Upper
 
 ```csharp
 public double _Upper { get; set; }
@@ -170,7 +170,7 @@ public double _Upper { get; set; }
 
 ## Methods
 
-### CalculateDesigns\(DOEType, List<DesignParameterInfo\>, ref int, ref int\)
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_CalculateDesigns_VM_Managed_DAFUL_DOE_DOEType_System_Collections_Generic_List_VM_Managed_DAFUL_DOE_DesignParameterInfo__System_Int32__System_Int32__"></a> CalculateDesigns\(DOEType, List<DesignParameterInfo\>, ref int, ref int\)
 
 ```csharp
 public static Dictionary<DesignParameterInfo, List<int>> CalculateDesigns(DOEType type, List<DesignParameterInfo> lstDP, ref int nLevel, ref int nRun)
@@ -190,7 +190,7 @@ public static Dictionary<DesignParameterInfo, List<int>> CalculateDesigns(DOETyp
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[DesignParameterInfo](VM.Managed.DAFUL.DOE.DesignParameterInfo.md), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>\>
 
-### ChangeCaseValue\(List<int\>, uint\)
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_ChangeCaseValue_System_Collections_Generic_List_System_Int32__System_UInt32_"></a> ChangeCaseValue\(List<int\>, uint\)
 
 ```csharp
 public void ChangeCaseValue(List<int> case_format, uint nLevel)
@@ -202,7 +202,7 @@ public void ChangeCaseValue(List<int> case_format, uint nLevel)
 
 `nLevel` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### ChangeTargetValue\(double\)
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_ChangeTargetValue_System_Double_"></a> ChangeTargetValue\(double\)
 
 ```csharp
 public bool ChangeTargetValue(double dValue)
@@ -216,7 +216,7 @@ public bool ChangeTargetValue(double dValue)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetCaseFormat\(List<int\>\)
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_GetCaseFormat_System_Collections_Generic_List_System_Int32__"></a> GetCaseFormat\(List<int\>\)
 
 ```csharp
 public static List<int> GetCaseFormat(List<int> lst)
@@ -230,7 +230,7 @@ public static List<int> GetCaseFormat(List<int> lst)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### GetCases\(\)
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_GetCases"></a> GetCases\(\)
 
 ```csharp
 public List<int> GetCases()
@@ -240,7 +240,7 @@ public List<int> GetCases()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### IsSameCases\(List<int\>\)
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_IsSameCases_System_Collections_Generic_List_System_Int32__"></a> IsSameCases\(List<int\>\)
 
 ```csharp
 public bool IsSameCases(List<int> lst)
@@ -254,7 +254,7 @@ public bool IsSameCases(List<int> lst)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsSameCasesForUserInput\(List<int\>\)
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_IsSameCasesForUserInput_System_Collections_Generic_List_System_Int32__"></a> IsSameCasesForUserInput\(List<int\>\)
 
 ```csharp
 public bool IsSameCasesForUserInput(List<int> lst)
@@ -268,7 +268,7 @@ public bool IsSameCasesForUserInput(List<int> lst)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_DOE_DesignParameterInfo_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -285,5 +285,4 @@ The linked object.
 `arg` LinkEventArgs
 
 The update event information.
-
 

@@ -1,4 +1,4 @@
-# Interface IObjectBase
+#  Interface IObjectBase
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -26,13 +26,13 @@ IHasID,
 
 ## Methods
 
-### DestroyObject\(\)
+### <a id="VM_Models_Pre_IObjectBase_DestroyObject"></a> DestroyObject\(\)
 
 ```csharp
 void DestroyObject()
 ```
 
-### FixUp\(IObjectBase\)
+### <a id="VM_Models_Pre_IObjectBase_FixUp_VM_Models_Pre_IObjectBase_"></a> FixUp\(IObjectBase\)
 
 ```csharp
 void FixUp(IObjectBase objectBase)
@@ -42,7 +42,7 @@ void FixUp(IObjectBase objectBase)
 
 `objectBase` [IObjectBase](VM.Models.Pre.IObjectBase.md)
 
-### Destroying
+### <a id="VM_Models_Pre_IObjectBase_Destroying"></a> Destroying
 
 Raised when object is about to be destroyed
 
@@ -53,5 +53,4 @@ event EventHandler<Identifier> Destroying
 #### Event Type
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
-
 

@@ -1,4 +1,4 @@
-# Class SerialLinkContainer
+#  Class SerialLinkContainer
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -22,7 +22,7 @@ public static class SerialLinkContainer
 
 ## Methods
 
-### Serial<T\>\(LinkContainer\)
+### <a id="VM_Managed_DAFUL_Operation_SerialLinkContainer_Serial__1_VM_Managed_LinkContainer_"></a> Serial<T\>\(LinkContainer\)
 
 Create new entity.
 
@@ -41,5 +41,4 @@ public static T Serial<T>(LinkContainer linkcontainer)
 #### Type Parameters
 
 `T` 
-
 

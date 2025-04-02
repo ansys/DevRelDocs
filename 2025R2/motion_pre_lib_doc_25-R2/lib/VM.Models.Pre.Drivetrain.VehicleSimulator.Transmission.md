@@ -1,4 +1,4 @@
-# Class Transmission
+#  Class Transmission
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -54,7 +54,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Transmission\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Transmission__ctor"></a> Transmission\(\)
 
 ```csharp
 public Transmission()
@@ -62,7 +62,7 @@ public Transmission()
 
 ## Properties
 
-### FinalGearRatio
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Transmission_FinalGearRatio"></a> FinalGearRatio
 
 ```csharp
 public double FinalGearRatio { get; set; }
@@ -72,7 +72,7 @@ public double FinalGearRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GearRatioTable
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Transmission_GearRatioTable"></a> GearRatioTable
 
 ```csharp
 public DataTable GearRatioTable { get; set; }
@@ -82,7 +82,7 @@ public DataTable GearRatioTable { get; set; }
 
  [DataTable](https://learn.microsoft.com/dotnet/api/system.data.datatable)
 
-### IsValid
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Transmission_IsValid"></a> IsValid
 
 ```csharp
 public override bool IsValid { get; }
@@ -92,7 +92,7 @@ public override bool IsValid { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ShiftMap
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Transmission_ShiftMap"></a> ShiftMap
 
 ```csharp
 public ShiftMap ShiftMap { get; set; }
@@ -104,7 +104,7 @@ public ShiftMap ShiftMap { get; set; }
 
 ## Methods
 
-### GetStepCount\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Transmission_GetStepCount"></a> GetStepCount\(\)
 
 ```csharp
 public int GetStepCount()
@@ -113,5 +113,4 @@ public int GetStepCount()
 #### Returns
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 

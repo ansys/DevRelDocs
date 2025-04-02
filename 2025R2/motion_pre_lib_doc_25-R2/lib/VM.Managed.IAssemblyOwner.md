@@ -1,4 +1,4 @@
-# Interface IAssemblyOwner
+#  Interface IAssemblyOwner
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IAssemblyOwner
 
 ## Properties
 
-### Owner
+### <a id="VM_Managed_IAssemblyOwner_Owner"></a> Owner
 
 Gets the owner.
 
@@ -31,7 +31,7 @@ Document Owner { get; }
 
 ## Methods
 
-### ProcessDuplicateReference\(Reference\)
+### <a id="VM_Managed_IAssemblyOwner_ProcessDuplicateReference_VM_Managed_Reference_"></a> ProcessDuplicateReference\(Reference\)
 
 Process for duplicated reference
 
@@ -44,5 +44,4 @@ void ProcessDuplicateReference(Reference @ref)
 `ref` [Reference](VM.Managed.Reference.md)
 
 The reference.
-
 

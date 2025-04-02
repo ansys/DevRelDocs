@@ -1,4 +1,4 @@
-# Class HiddenBearingDocument
+#  Class HiddenBearingDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -595,7 +595,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### HiddenBearingDocument\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocument__ctor_System_UIntPtr_"></a> HiddenBearingDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HiddenBearingDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -611,7 +611,7 @@ The document handle.
 
 ## Fields
 
-### m\_canvasBall
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_m_canvasBall"></a> m\_canvasBall
 
 The ball canvas.
 
@@ -625,7 +625,7 @@ protected Canvas m_canvasBall
 
 ## Properties
 
-### Bearing
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_Bearing"></a> Bearing
 
 Gets or sets the gear set.
 
@@ -637,7 +637,7 @@ public Bearing Bearing { get; set; }
 
  [Bearing](VM.Managed.DAFUL.GearTrain.Bearing.md)
 
-### InitialCategories
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_InitialCategories"></a> InitialCategories
 
 Gets the initial categories.
 
@@ -649,7 +649,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### TargetDesign
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_TargetDesign"></a> TargetDesign
 
 Gets the target design.
 
@@ -663,7 +663,7 @@ public override IOpenDesigner TargetDesign { get; }
 
 ## Methods
 
-### ClearDocument\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_ClearDocument"></a> ClearDocument\(\)
 
 Clears the document.
 
@@ -671,7 +671,7 @@ Clears the document.
 protected override void ClearDocument()
 ```
 
-### CreateAssemblyImpl\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_CreateAssemblyImpl"></a> CreateAssemblyImpl\(\)
 
 Creates the assembly implementation.
 
@@ -687,7 +687,7 @@ protected override Assembly CreateAssemblyImpl()
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### CreateStiffness\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_CreateStiffness"></a> CreateStiffness\(\)
 
 Creates the stiffness.
 
@@ -695,7 +695,7 @@ Creates the stiffness.
 public void CreateStiffness()
 ```
 
-### DrawBall\(Color\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_DrawBall_System_Drawing_Color_"></a> DrawBall\(Color\)
 
 Draw ball.
 
@@ -709,7 +709,7 @@ public void DrawBall(Color color)
 
 the drawing color of ball.
 
-### FindCategory\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_FindCategory_System_String_"></a> FindCategory\(string\)
 
 Finds the category.
 
@@ -727,7 +727,7 @@ Type of the string.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### HideSubData\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_HideSubData_System_String_"></a> HideSubData\(string\)
 
 Hide sub data.
 
@@ -745,7 +745,7 @@ The sub data name.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### InitializeCategoryInfo\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
 
 Initializes the category information.
 
@@ -759,12 +759,11 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the string category.
 
-### RemoveComponentAnalysisInNav\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_RemoveComponentAnalysisInNav"></a> RemoveComponentAnalysisInNav\(\)
 
 Remove the component analysis in nav.
 
 ```csharp
 public void RemoveComponentAnalysisInNav()
 ```
-
 

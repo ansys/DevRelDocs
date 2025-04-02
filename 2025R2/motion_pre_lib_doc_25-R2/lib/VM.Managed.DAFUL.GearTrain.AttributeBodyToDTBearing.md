@@ -1,4 +1,4 @@
-# Class AttributeBodyToDTBearing
+#  Class AttributeBodyToDTBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -108,12 +108,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeBodyToDTBearing\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTBearing__ctor"></a> AttributeBodyToDTBearing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AttributeBodyToDTBearing" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public AttributeBodyToDTBearing()
 ```
-
 

@@ -1,4 +1,4 @@
-# Class DocumentSimpleValueModifiedEvent<T\>
+#  Class DocumentSimpleValueModifiedEvent<T\>
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -43,13 +43,13 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### DocumentSimpleValueModifiedEvent\(\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1__ctor"></a> DocumentSimpleValueModifiedEvent\(\)
 
 ```csharp
 public DocumentSimpleValueModifiedEvent()
 ```
 
-### DocumentSimpleValueModifiedEvent\(Document, object, string, object, IUpdateDocAddOn\[\]\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1__ctor_VM_Managed_Document_System_Object_System_String_System_Object_VM_Managed_History_IUpdateDocAddOn___"></a> DocumentSimpleValueModifiedEvent\(Document, object, string, object, IUpdateDocAddOn\[\]\)
 
 ```csharp
 public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strPropertyName, object objTarget, IUpdateDocAddOn[] arAddOn)
@@ -67,7 +67,7 @@ public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strProp
 
 `arAddOn` [IUpdateDocAddOn](VM.Managed.History.IUpdateDocAddOn.md)\[\]
 
-### DocumentSimpleValueModifiedEvent\(Document, object, string, object, object, PreExecuteCallback\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1__ctor_VM_Managed_Document_System_Object_System_String_System_Object_System_Object_VM_Managed_History_DocumentSimpleValueModifiedEvent__0__PreExecuteCallback_"></a> DocumentSimpleValueModifiedEvent\(Document, object, string, object, object, PreExecuteCallback\)
 
 ```csharp
 public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strPropertyName, object objTarget, object objParam, DocumentSimpleValueModifiedEvent<T>.PreExecuteCallback delPreExecute)
@@ -87,7 +87,7 @@ public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strProp
 
 `delPreExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PreExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PreExecuteCallback.md)
 
-### DocumentSimpleValueModifiedEvent\(Document, object, string, object, object, PostExecuteCallback\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1__ctor_VM_Managed_Document_System_Object_System_String_System_Object_System_Object_VM_Managed_History_DocumentSimpleValueModifiedEvent__0__PostExecuteCallback_"></a> DocumentSimpleValueModifiedEvent\(Document, object, string, object, object, PostExecuteCallback\)
 
 ```csharp
 public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strPropertyName, object objTarget, object objParam, DocumentSimpleValueModifiedEvent<T>.PostExecuteCallback delPostExecute)
@@ -107,7 +107,7 @@ public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strProp
 
 `delPostExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PostExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PostExecuteCallback.md)
 
-### DocumentSimpleValueModifiedEvent\(Document, object, string, object, IUpdateDocAddOn\[\], object, PreExecuteCallback\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1__ctor_VM_Managed_Document_System_Object_System_String_System_Object_VM_Managed_History_IUpdateDocAddOn___System_Object_VM_Managed_History_DocumentSimpleValueModifiedEvent__0__PreExecuteCallback_"></a> DocumentSimpleValueModifiedEvent\(Document, object, string, object, IUpdateDocAddOn\[\], object, PreExecuteCallback\)
 
 ```csharp
 public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strPropertyName, object objTarget, IUpdateDocAddOn[] arAddOn, object objParam, DocumentSimpleValueModifiedEvent<T>.PreExecuteCallback delPreExecute)
@@ -129,7 +129,7 @@ public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strProp
 
 `delPreExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PreExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PreExecuteCallback.md)
 
-### DocumentSimpleValueModifiedEvent\(Document, object, string, object, IUpdateDocAddOn\[\], object, PostExecuteCallback\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1__ctor_VM_Managed_Document_System_Object_System_String_System_Object_VM_Managed_History_IUpdateDocAddOn___System_Object_VM_Managed_History_DocumentSimpleValueModifiedEvent__0__PostExecuteCallback_"></a> DocumentSimpleValueModifiedEvent\(Document, object, string, object, IUpdateDocAddOn\[\], object, PostExecuteCallback\)
 
 ```csharp
 public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strPropertyName, object objTarget, IUpdateDocAddOn[] arAddOn, object objParam, DocumentSimpleValueModifiedEvent<T>.PostExecuteCallback delPostExecute)
@@ -153,7 +153,7 @@ public DocumentSimpleValueModifiedEvent(Document doc, object obj, string strProp
 
 ## Fields
 
-### PostExecute
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_PostExecute"></a> PostExecute
 
 ```csharp
 public DocumentSimpleValueModifiedEvent<T>.PostExecuteCallback PostExecute
@@ -163,7 +163,7 @@ public DocumentSimpleValueModifiedEvent<T>.PostExecuteCallback PostExecute
 
  [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PostExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PostExecuteCallback.md)
 
-### PreExecute
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_PreExecute"></a> PreExecute
 
 ```csharp
 public DocumentSimpleValueModifiedEvent<T>.PreExecuteCallback PreExecute
@@ -173,7 +173,7 @@ public DocumentSimpleValueModifiedEvent<T>.PreExecuteCallback PreExecute
 
  [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PreExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PreExecuteCallback.md)
 
-### m\_arAddOn
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_m_arAddOn"></a> m\_arAddOn
 
 ```csharp
 protected IUpdateDocAddOn[] m_arAddOn
@@ -183,7 +183,7 @@ protected IUpdateDocAddOn[] m_arAddOn
 
  [IUpdateDocAddOn](VM.Managed.History.IUpdateDocAddOn.md)\[\]
 
-### m\_objParam
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_m_objParam"></a> m\_objParam
 
 ```csharp
 protected object m_objParam
@@ -193,7 +193,7 @@ protected object m_objParam
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### m\_strPropertyName
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_m_strPropertyName"></a> m\_strPropertyName
 
 ```csharp
 protected string m_strPropertyName
@@ -203,7 +203,7 @@ protected string m_strPropertyName
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### m\_value
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_m_value"></a> m\_value
 
 ```csharp
 protected T m_value
@@ -215,7 +215,7 @@ protected T m_value
 
 ## Methods
 
-### AfterRedo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterRedo(HistoryEventArgs args)
@@ -225,7 +225,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### AfterUndo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterUndo(HistoryEventArgs args)
@@ -235,7 +235,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### BeforeRedo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_BeforeRedo_VM_Managed_History_HistoryEventArgs_"></a> BeforeRedo\(HistoryEventArgs\)
 
 ```csharp
 protected override void BeforeRedo(HistoryEventArgs args)
@@ -245,7 +245,7 @@ protected override void BeforeRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### BeforeUndo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_BeforeUndo_VM_Managed_History_HistoryEventArgs_"></a> BeforeUndo\(HistoryEventArgs\)
 
 ```csharp
 protected override void BeforeUndo(HistoryEventArgs args)
@@ -255,7 +255,7 @@ protected override void BeforeUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### Clear\(bool\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_Clear_System_Boolean_"></a> Clear\(bool\)
 
 ```csharp
 protected override void Clear(bool bReserveReferenceCount)
@@ -265,7 +265,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### DocumentSimpleValueModified\(Document, object, string\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_DocumentSimpleValueModified_VM_Managed_Document_System_Object_System_String_"></a> DocumentSimpleValueModified\(Document, object, string\)
 
 ```csharp
 public static void DocumentSimpleValueModified(Document doc, object obj, string strPropertyName)
@@ -279,7 +279,7 @@ public static void DocumentSimpleValueModified(Document doc, object obj, string 
 
 `strPropertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DocumentSimpleValueModified\(Document, object, string, object\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_DocumentSimpleValueModified_VM_Managed_Document_System_Object_System_String_System_Object_"></a> DocumentSimpleValueModified\(Document, object, string, object\)
 
 ```csharp
 public static void DocumentSimpleValueModified(Document doc, object obj, string strPropertyName, object objTarget)
@@ -295,7 +295,7 @@ public static void DocumentSimpleValueModified(Document doc, object obj, string 
 
 `objTarget` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### DocumentSimpleValueModified\(Document, object, string, object, IUpdateDocAddOn\[\]\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_DocumentSimpleValueModified_VM_Managed_Document_System_Object_System_String_System_Object_VM_Managed_History_IUpdateDocAddOn___"></a> DocumentSimpleValueModified\(Document, object, string, object, IUpdateDocAddOn\[\]\)
 
 ```csharp
 public static void DocumentSimpleValueModified(Document doc, object obj, string strPropertyName, object objTarget, IUpdateDocAddOn[] arAddOn)
@@ -313,7 +313,7 @@ public static void DocumentSimpleValueModified(Document doc, object obj, string 
 
 `arAddOn` [IUpdateDocAddOn](VM.Managed.History.IUpdateDocAddOn.md)\[\]
 
-### DocumentSimpleValueModified\(Document, object, string, object, object, PreExecuteCallback\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_DocumentSimpleValueModified_VM_Managed_Document_System_Object_System_String_System_Object_System_Object_VM_Managed_History_DocumentSimpleValueModifiedEvent__0__PreExecuteCallback_"></a> DocumentSimpleValueModified\(Document, object, string, object, object, PreExecuteCallback\)
 
 ```csharp
 public static void DocumentSimpleValueModified(Document doc, object obj, string strPropertyName, object objTarget, object objParam, DocumentSimpleValueModifiedEvent<T>.PreExecuteCallback delPreExecute)
@@ -333,7 +333,7 @@ public static void DocumentSimpleValueModified(Document doc, object obj, string 
 
 `delPreExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PreExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PreExecuteCallback.md)
 
-### DocumentSimpleValueModified\(Document, object, string, object, object, PostExecuteCallback\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_DocumentSimpleValueModified_VM_Managed_Document_System_Object_System_String_System_Object_System_Object_VM_Managed_History_DocumentSimpleValueModifiedEvent__0__PostExecuteCallback_"></a> DocumentSimpleValueModified\(Document, object, string, object, object, PostExecuteCallback\)
 
 ```csharp
 public static void DocumentSimpleValueModified(Document doc, object obj, string strPropertyName, object objTarget, object objParam, DocumentSimpleValueModifiedEvent<T>.PostExecuteCallback delPostExecute)
@@ -353,7 +353,7 @@ public static void DocumentSimpleValueModified(Document doc, object obj, string 
 
 `delPostExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PostExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PostExecuteCallback.md)
 
-### DocumentSimpleValueModified\(Document, object, string, object, IUpdateDocAddOn\[\], object, PreExecuteCallback\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_DocumentSimpleValueModified_VM_Managed_Document_System_Object_System_String_System_Object_VM_Managed_History_IUpdateDocAddOn___System_Object_VM_Managed_History_DocumentSimpleValueModifiedEvent__0__PreExecuteCallback_"></a> DocumentSimpleValueModified\(Document, object, string, object, IUpdateDocAddOn\[\], object, PreExecuteCallback\)
 
 ```csharp
 public static void DocumentSimpleValueModified(Document doc, object obj, string strPropertyName, object objTarget, IUpdateDocAddOn[] arAddOn, object objParam, DocumentSimpleValueModifiedEvent<T>.PreExecuteCallback delPreExecute)
@@ -375,7 +375,7 @@ public static void DocumentSimpleValueModified(Document doc, object obj, string 
 
 `delPreExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PreExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PreExecuteCallback.md)
 
-### DocumentSimpleValueModified\(Document, object, string, object, IUpdateDocAddOn\[\], object, PostExecuteCallback\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_DocumentSimpleValueModified_VM_Managed_Document_System_Object_System_String_System_Object_VM_Managed_History_IUpdateDocAddOn___System_Object_VM_Managed_History_DocumentSimpleValueModifiedEvent__0__PostExecuteCallback_"></a> DocumentSimpleValueModified\(Document, object, string, object, IUpdateDocAddOn\[\], object, PostExecuteCallback\)
 
 ```csharp
 public static void DocumentSimpleValueModified(Document doc, object obj, string strPropertyName, object objTarget, IUpdateDocAddOn[] arAddOn, object objParam, DocumentSimpleValueModifiedEvent<T>.PostExecuteCallback delPostExecute)
@@ -397,7 +397,7 @@ public static void DocumentSimpleValueModified(Document doc, object obj, string 
 
 `delPostExecute` [DocumentSimpleValueModifiedEvent](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.md)<T\>.[PostExecuteCallback](VM.Managed.History.DocumentSimpleValueModifiedEvent\-1.PostExecuteCallback.md)
 
-### Redo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Redo(HistoryEventArgs args)
@@ -407,7 +407,7 @@ protected override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### Undo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_DocumentSimpleValueModifiedEvent_1_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Undo(HistoryEventArgs args)
@@ -416,5 +416,4 @@ protected override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
-
 

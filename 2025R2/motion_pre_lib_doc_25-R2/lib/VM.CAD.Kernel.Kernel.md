@@ -1,4 +1,4 @@
-# Class Kernel
+#  Class Kernel
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -33,7 +33,7 @@ public class Kernel : KernelObject
 
 ## Constructors
 
-### Kernel\(UIntPtr, bool\)
+### <a id="VM_CAD_Kernel_Kernel__ctor_System_UIntPtr_System_Boolean_"></a> Kernel\(UIntPtr, bool\)
 
 ```csharp
 public Kernel(UIntPtr key, bool isLock = true)
@@ -47,7 +47,7 @@ public Kernel(UIntPtr key, bool isLock = true)
 
 ## Methods
 
-### UseSession\(string\)
+### <a id="VM_CAD_Kernel_Kernel_UseSession_System_String_"></a> UseSession\(string\)
 
 ```csharp
 public IDisposable UseSession(string strSessionName)
@@ -60,5 +60,4 @@ public IDisposable UseSession(string strSessionName)
 #### Returns
 
  [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
-
 

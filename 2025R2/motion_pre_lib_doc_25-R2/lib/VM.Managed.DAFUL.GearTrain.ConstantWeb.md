@@ -1,4 +1,4 @@
-# Class ConstantWeb
+#  Class ConstantWeb
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ConstantWeb\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_ConstantWeb__ctor"></a> ConstantWeb\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ConstantWeb" data-throw-if-not-resolved="false"></xref> class.
 
@@ -110,7 +110,7 @@ public ConstantWeb()
 
 ## Properties
 
-### DampingRatio
+### <a id="VM_Managed_DAFUL_GearTrain_ConstantWeb_DampingRatio"></a> DampingRatio
 
 Gets or sets the damping ratio.
 
@@ -122,7 +122,7 @@ public ExpressionValueVariable DampingRatio { get; set; }
 
  ExpressionValueVariable
 
-### WebStiffness
+### <a id="VM_Managed_DAFUL_GearTrain_ConstantWeb_WebStiffness"></a> WebStiffness
 
 Gets or sets the web stiffness.
 
@@ -136,7 +136,7 @@ public WebStiffness WebStiffness { get; set; }
 
 ## Methods
 
-### InitChild\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_ConstantWeb_InitChild_VM_Unit_ConvertFactor_"></a> InitChild\(ConvertFactor\)
 
 Initializes the child.
 
@@ -149,5 +149,4 @@ public virtual void InitChild(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The factor.
-
 

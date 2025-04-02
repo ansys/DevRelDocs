@@ -1,4 +1,4 @@
-# Class ReGenerateSprocketOperation
+#  Class ReGenerateSprocketOperation
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ReGenerateSprocketOperation\(XmlDocument, BuilderSingleSprocketSimple, bool\)
+### <a id="VM_Managed_CAD_Sprocket_ReGenerateSprocketOperation__ctor_System_Xml_XmlDocument_VM_Managed_CAD_Sprocket_BuilderSingleSprocketSimple_System_Boolean_"></a> ReGenerateSprocketOperation\(XmlDocument, BuilderSingleSprocketSimple, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Sprocket.ReGenerateSprocketOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -99,7 +99,7 @@ The sprocket body.
 
 if set to <code>true</code> [b builder].
 
-### ReGenerateSprocketOperation\(JournalParameter\)
+### <a id="VM_Managed_CAD_Sprocket_ReGenerateSprocketOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ReGenerateSprocketOperation\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Sprocket.ReGenerateSprocketOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_CAD_Sprocket_ReGenerateSprocketOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -127,7 +127,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ResultBody
+### <a id="VM_Managed_CAD_Sprocket_ReGenerateSprocketOperation_ResultBody"></a> ResultBody
 
 Gets the result body.
 
@@ -141,7 +141,7 @@ public ObjectBase ResultBody { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_CAD_Sprocket_ReGenerateSprocketOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -149,7 +149,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_CAD_Sprocket_ReGenerateSprocketOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -162,5 +162,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

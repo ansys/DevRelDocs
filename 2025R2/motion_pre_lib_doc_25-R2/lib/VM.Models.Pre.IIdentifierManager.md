@@ -1,4 +1,4 @@
-# Interface IIdentifierManager
+#  Interface IIdentifierManager
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,7 +15,7 @@ public interface IIdentifierManager
 
 ## Properties
 
-### Current
+### <a id="VM_Models_Pre_IIdentifierManager_Current"></a> Current
 
 ```csharp
 Identifier Current { get; }
@@ -27,7 +27,7 @@ Identifier Current { get; }
 
 ## Methods
 
-### GetNextIdentifier\(\)
+### <a id="VM_Models_Pre_IIdentifierManager_GetNextIdentifier"></a> GetNextIdentifier\(\)
 
 ```csharp
 Identifier GetNextIdentifier()
@@ -37,7 +37,7 @@ Identifier GetNextIdentifier()
 
  Identifier
 
-### SetNextIdentifier\(Identifier\)
+### <a id="VM_Models_Pre_IIdentifierManager_SetNextIdentifier_VM_Identifier_"></a> SetNextIdentifier\(Identifier\)
 
 ```csharp
 void SetNextIdentifier(Identifier identifier)
@@ -46,5 +46,4 @@ void SetNextIdentifier(Identifier identifier)
 #### Parameters
 
 `identifier` Identifier
-
 

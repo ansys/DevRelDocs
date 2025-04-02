@@ -1,4 +1,4 @@
-# Class CreateAPI
+#  Class CreateAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class CreateAPI
 
 ## Methods
 
-### Create<T\>\(IDocument, string, Func<string, T\>\)
+### <a id="VM_API_Pre_CreateAPI_Create__1_VM_Models_Pre_IDocument_System_String_System_Func_System_String___0__"></a> Create<T\>\(IDocument, string, Func<string, T\>\)
 
 Create Entity.
 
@@ -63,5 +63,4 @@ The entity type
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document' or 'name' arguments are null.
-
 

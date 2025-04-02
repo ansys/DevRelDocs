@@ -1,4 +1,4 @@
-# Class PropertyBearingGeneral
+#  Class PropertyBearingGeneral
 
 Namespace: [VM.Managed.DAFUL.Bearing.Force](VM.Managed.DAFUL.Bearing.Force.md)  
 Assembly: VMDBearing.dll  
@@ -171,7 +171,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyBearingGeneral\(\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingGeneral__ctor"></a> PropertyBearingGeneral\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.PropertyBearingGeneral" data-throw-if-not-resolved="false"></xref> class.
 
@@ -181,7 +181,7 @@ public PropertyBearingGeneral()
 
 ## Properties
 
-### BearingStiffnessInfos
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingGeneral_BearingStiffnessInfos"></a> BearingStiffnessInfos
 
 Gets or sets the bearing stiffness infos.
 
@@ -193,7 +193,7 @@ public BearingStiffness[] BearingStiffnessInfos { get; set; }
 
  [BearingStiffness](VM.Managed.DAFUL.Bearing.Force.BearingStiffness.md)\[\]
 
-### DampingRatio
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingGeneral_DampingRatio"></a> DampingRatio
 
 Gets or sets the damping ratio.
 
@@ -205,7 +205,7 @@ public ExpressionValueVariable DampingRatio { get; set; }
 
  ExpressionValueVariable
 
-### FormulType
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingGeneral_FormulType"></a> FormulType
 
 Gets or sets the type.
 Use SetFormulationType() when this instance sets for undo/redo
@@ -218,7 +218,7 @@ public PropertyBearingGeneral.FormulationType FormulType { get; set; }
 
  [PropertyBearingGeneral](VM.Managed.DAFUL.Bearing.Force.PropertyBearingGeneral.md).[FormulationType](VM.Managed.DAFUL.Bearing.Force.PropertyBearingGeneral.FormulationType.md)
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingGeneral_ReferenceType"></a> ReferenceType
 
 Gets the type of the reference.
 
@@ -230,7 +230,7 @@ public override string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TorqueReference
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingGeneral_TorqueReference"></a> TorqueReference
 
 Gets or sets the torque reference.
 
@@ -242,7 +242,7 @@ public ITorqueReferenceForBearing TorqueReference { get; set; }
 
  ITorqueReferenceForBearing
 
-### \_TorqueReference
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingGeneral__TorqueReference"></a> \_TorqueReference
 
 Gets or sets the _ torque reference.
 
@@ -256,7 +256,7 @@ public Linker<ITorqueReferenceForBearing> _TorqueReference { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingGeneral_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -270,7 +270,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingGeneral_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -284,7 +284,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### SetFormulationType\(FormulationType\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingGeneral_SetFormulationType_VM_Managed_DAFUL_Bearing_Force_PropertyBearingGeneral_FormulationType_"></a> SetFormulationType\(FormulationType\)
 
 Set formulation type.
 
@@ -297,5 +297,4 @@ public void SetFormulationType(PropertyBearingGeneral.FormulationType type)
 `type` [PropertyBearingGeneral](VM.Managed.DAFUL.Bearing.Force.PropertyBearingGeneral.md).[FormulationType](VM.Managed.DAFUL.Bearing.Force.PropertyBearingGeneral.FormulationType.md)
 
 The formulation type.
-
 

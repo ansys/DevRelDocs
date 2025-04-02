@@ -1,4 +1,4 @@
-# Interface IPointRated
+#  Interface IPointRated
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -24,7 +24,7 @@ IHasID,
 
 ## Properties
 
-### End
+### <a id="VM_Models_Pre_IPointRated_End"></a> End
 
 ```csharp
 IPointBase End { get; set; }
@@ -34,7 +34,7 @@ IPointBase End { get; set; }
 
  [IPointBase](VM.Models.Pre.IPointBase.md)
 
-### Start
+### <a id="VM_Models_Pre_IPointRated_Start"></a> Start
 
 ```csharp
 IPointBase Start { get; set; }
@@ -43,5 +43,4 @@ IPointBase Start { get; set; }
 #### Property Value
 
  [IPointBase](VM.Models.Pre.IPointBase.md)
-
 

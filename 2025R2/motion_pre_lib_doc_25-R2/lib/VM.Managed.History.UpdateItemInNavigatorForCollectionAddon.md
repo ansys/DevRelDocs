@@ -1,4 +1,4 @@
-# Class UpdateItemInNavigatorForCollectionAddon
+#  Class UpdateItemInNavigatorForCollectionAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -64,7 +64,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### UpdateItemInNavigatorForCollectionAddon\(UIntPtr\)
+### <a id="VM_Managed_History_UpdateItemInNavigatorForCollectionAddon__ctor_System_UIntPtr_"></a> UpdateItemInNavigatorForCollectionAddon\(UIntPtr\)
 
 ```csharp
 public UpdateItemInNavigatorForCollectionAddon(UIntPtr ptrKey)
@@ -74,7 +74,7 @@ public UpdateItemInNavigatorForCollectionAddon(UIntPtr ptrKey)
 
 `ptrKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### UpdateItemInNavigatorForCollectionAddon\(\)
+### <a id="VM_Managed_History_UpdateItemInNavigatorForCollectionAddon__ctor"></a> UpdateItemInNavigatorForCollectionAddon\(\)
 
 ```csharp
 public UpdateItemInNavigatorForCollectionAddon()
@@ -82,7 +82,7 @@ public UpdateItemInNavigatorForCollectionAddon()
 
 ## Methods
 
-### Process\(object, HistoryEventArgs\)
+### <a id="VM_Managed_History_UpdateItemInNavigatorForCollectionAddon_Process_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Process\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void Process(object o, HistoryEventArgs args)
@@ -94,7 +94,7 @@ protected override void Process(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### SetEntity\(UIntPtr\)
+### <a id="VM_Managed_History_UpdateItemInNavigatorForCollectionAddon_SetEntity_System_UIntPtr_"></a> SetEntity\(UIntPtr\)
 
 ```csharp
 public void SetEntity(UIntPtr ptrKey)
@@ -103,5 +103,4 @@ public void SetEntity(UIntPtr ptrKey)
 #### Parameters
 
 `ptrKey` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
-
 

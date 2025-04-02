@@ -1,4 +1,4 @@
-# Class PropertyGearSetInternal
+#  Class PropertyGearSetInternal
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -210,7 +210,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyGearSetInternal\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetInternal__ctor"></a> PropertyGearSetInternal\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyGearSetInternal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,7 +220,7 @@ public PropertyGearSetInternal()
 
 ## Methods
 
-### PostBuildGear\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetInternal_PostBuildGear"></a> PostBuildGear\(\)
 
 post builder gear.
 
@@ -228,7 +228,7 @@ post builder gear.
 protected override void PostBuildGear()
 ```
 
-### ReadResultCore\(XmlDocument\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetInternal_ReadResultCore_System_Xml_XmlDocument_"></a> ReadResultCore\(XmlDocument\)
 
 Reads the result core.
 
@@ -242,7 +242,7 @@ protected override void ReadResultCore(XmlDocument xmlDoc)
 
 The XML document.
 
-### ReadResultWithKissSoftInterface\(uint, uint, uint, double, double, double\[\], double, GearData\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetInternal_ReadResultWithKissSoftInterface_System_UInt32_System_UInt32_System_UInt32_System_Double_System_Double_System_Double___System_Double_VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData___"></a> ReadResultWithKissSoftInterface\(uint, uint, uint, double, double, double\[\], double, GearData\[\]\)
 
 Read result with KissSoft interface
 
@@ -283,5 +283,4 @@ The axial crossing angle
 `arGearData` [KissSoftInterface](VM.Managed.DAFUL.GearTrain.KissSoftInterface.md).[GearData](VM.Managed.DAFUL.GearTrain.KissSoftInterface.GearData.md)\[\]
 
 The gear data array
-
 

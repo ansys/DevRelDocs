@@ -1,4 +1,4 @@
-# Class ComponentStiffness
+#  Class ComponentStiffness
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ComponentStiffness\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_ComponentStiffness__ctor"></a> ComponentStiffness\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.ComponentStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector
 public ComponentStiffness()
 ```
 
-### ComponentStiffness\(string\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_ComponentStiffness__ctor_System_String_"></a> ComponentStiffness\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.ComponentStiffness" data-throw-if-not-resolved="false"></xref> class.
 <param name="strName">The name.</param>
@@ -124,7 +124,7 @@ public ComponentStiffness(string strName)
 
 ## Properties
 
-### Calculated
+### <a id="VM_Managed_DAFUL_CPlacingConnector_ComponentStiffness_Calculated"></a> Calculated
 
 Gets or sets the calculated state.
 
@@ -136,7 +136,7 @@ public bool Calculated { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_CPlacingConnector_ComponentStiffness_Name"></a> Name
 
 Gets or sets the stiffness.
 
@@ -156,7 +156,7 @@ The stiffness is null.
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_ComponentStiffness_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -169,5 +169,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The factor.
-
 

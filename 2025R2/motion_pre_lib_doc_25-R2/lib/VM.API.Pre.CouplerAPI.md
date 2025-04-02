@@ -1,4 +1,4 @@
-# Class CouplerAPI
+#  Class CouplerAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class CouplerAPI
 
 ## Methods
 
-### CreateCable\(SubSystemDocument, Obj, Obj, ExpressionValueVariable?, ExpressionValueVariable?, string, SymmetricType\)
+### <a id="VM_API_Pre_CouplerAPI_CreateCable_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_VM_Managed_SymmetricType_"></a> CreateCable\(SubSystemDocument, Obj, Obj, ExpressionValueVariable?, ExpressionValueVariable?, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Constraints.CouplerCable" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.DAFUL.Builder.Constraints.CouplerCableJJ" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -75,7 +75,7 @@ The new <xref href="VM.Managed.DAFUL.Constraints.CouplerCable" data-throw-if-not
 
 Will be thrown if 'subSystemDocument', 'firstJoint', 'secondJoint' is null.
 
-### CreateCoupler\(SubSystemDocument, Obj, Obj, MotionType, MotionType, ExpressionValueVariable?, ExpressionValueVariable?, string, SymmetricType\)
+### <a id="VM_API_Pre_CouplerAPI_CreateCoupler_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Managed_DAFUL_Constraints_PropertyCouplerBase_MotionType_VM_Managed_DAFUL_Constraints_PropertyCouplerBase_MotionType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_VM_Managed_SymmetricType_"></a> CreateCoupler\(SubSystemDocument, Obj, Obj, MotionType, MotionType, ExpressionValueVariable?, ExpressionValueVariable?, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Constraints.Coupler" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.DAFUL.Builder.Constraints.CouplerJJ" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -136,7 +136,7 @@ The new <xref href="VM.Managed.DAFUL.Constraints.Coupler" data-throw-if-not-reso
 
 Will be thrown if 'subSystemDocument', 'firstJoint', 'secondJoint' is null.
 
-### CreateCoupler\(SubSystemDocument, Obj, Obj, Obj, MotionType, MotionType, MotionType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, string, SymmetricType\)
+### <a id="VM_API_Pre_CouplerAPI_CreateCoupler_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Managed_DAFUL_Constraints_PropertyCouplerBase_MotionType_VM_Managed_DAFUL_Constraints_PropertyCouplerBase_MotionType_VM_Managed_DAFUL_Constraints_PropertyCouplerBase_MotionType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_VM_Managed_SymmetricType_"></a> CreateCoupler\(SubSystemDocument, Obj, Obj, Obj, MotionType, MotionType, MotionType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Constraints.Coupler" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.DAFUL.Builder.Constraints.CouplerJJ" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -209,7 +209,7 @@ The new <xref href="VM.Managed.DAFUL.Constraints.Coupler" data-throw-if-not-reso
 
 Will be thrown if 'subSystemDocument', 'firstJoint', 'secondJoint', 'thirdJoint' is null.
 
-### CreateGear\(SubSystemDocument, Obj, Obj, ExpressionValueVariable?, ExpressionValueVariable?, string, SymmetricType\)
+### <a id="VM_API_Pre_CouplerAPI_CreateGear_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_VM_Managed_SymmetricType_"></a> CreateGear\(SubSystemDocument, Obj, Obj, ExpressionValueVariable?, ExpressionValueVariable?, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Constraints.CouplerGear" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.DAFUL.Builder.Constraints.CouplerGearJJ" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -262,7 +262,7 @@ The new <xref href="VM.Managed.DAFUL.Constraints.CouplerGear" data-throw-if-not-
 
 Will be thrown if 'subSystemDocument', 'firstJoint', 'secondJoint' is null.
 
-### CreateRackAndPinion\(SubSystemDocument, Obj, Obj, ExpressionValueVariable?, ExpressionValueVariable?, string, SymmetricType\)
+### <a id="VM_API_Pre_CouplerAPI_CreateRackAndPinion_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_VM_Managed_SymmetricType_"></a> CreateRackAndPinion\(SubSystemDocument, Obj, Obj, ExpressionValueVariable?, ExpressionValueVariable?, string, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Constraints.CouplerRackPinion" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.DAFUL.Builder.Constraints.CouplerRackPinionJJ" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -314,5 +314,4 @@ The new <xref href="VM.Managed.DAFUL.Constraints.CouplerRackPinion" data-throw-i
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'subSystemDocument', 'firstJoint', 'secondJoint' is null.
-
 

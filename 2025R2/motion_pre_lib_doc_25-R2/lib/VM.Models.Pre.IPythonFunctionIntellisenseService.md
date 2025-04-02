@@ -1,4 +1,4 @@
-# Interface IPythonFunctionIntellisenseService
+#  Interface IPythonFunctionIntellisenseService
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface IPythonFunctionIntellisenseService
 
 ## Properties
 
-### Document
+### <a id="VM_Models_Pre_IPythonFunctionIntellisenseService_Document"></a> Document
 
 The <xref href="VM.Models.Pre.IDocument" data-throw-if-not-resolved="false"></xref>
 
@@ -28,5 +28,4 @@ IDocument Document { get; }
 #### Property Value
 
  [IDocument](VM.Models.Pre.IDocument.md)
-
 

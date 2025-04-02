@@ -1,4 +1,4 @@
-# Enum SteeringInputType
+#  Enum SteeringInputType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.Full](VM.Managed.DAFUL.Car.Analysis.Full.md)  
 Assembly: VMDCar.dll  
@@ -32,7 +32,6 @@ Length
 `Torque = 1` 
 
 Torque
-
 
 
 

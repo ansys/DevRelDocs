@@ -1,4 +1,4 @@
-# Class ShowInterfaceDlgForCar
+#  Class ShowInterfaceDlgForCar
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ShowInterfaceDlgForCar\(Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowInterfaceDlgForCar__ctor_VM_Managed_Document_"></a> ShowInterfaceDlgForCar\(Document\)
 
 ```csharp
 public ShowInterfaceDlgForCar(Document doc)
@@ -89,7 +89,7 @@ public ShowInterfaceDlgForCar(Document doc)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowInterfaceDlgForCar_Name"></a> Name
 
 Gets the operation name.
 
@@ -103,7 +103,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowInterfaceDlgForCar_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -111,7 +111,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### UpdateUI\(IUIUpdate, Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowInterfaceDlgForCar_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 
 ```csharp
 public static void UpdateUI(IUIUpdate updater, Document doc)
@@ -122,5 +122,4 @@ public static void UpdateUI(IUIUpdate updater, Document doc)
 `updater` IUIUpdate
 
 `doc` Document
-
 

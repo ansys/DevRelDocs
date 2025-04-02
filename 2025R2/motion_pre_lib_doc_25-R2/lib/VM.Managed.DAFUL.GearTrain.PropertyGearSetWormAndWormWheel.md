@@ -1,4 +1,4 @@
-# Class PropertyGearSetWormAndWormWheel
+#  Class PropertyGearSetWormAndWormWheel
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -210,7 +210,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyGearSetWormAndWormWheel\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetWormAndWormWheel__ctor"></a> PropertyGearSetWormAndWormWheel\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyGearSetWormAndWormWheel" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,7 +220,7 @@ public PropertyGearSetWormAndWormWheel()
 
 ## Properties
 
-### DatFileForWeb
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetWormAndWormWheel_DatFileForWeb"></a> DatFileForWeb
 
 Gets or sets the dat file.
 Use SetDatFileForWeb() when this instance sets for undo/redo
@@ -235,7 +235,7 @@ public string DatFileForWeb { get; set; }
 
 ## Methods
 
-### BuildGear\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetWormAndWormWheel_BuildGear_System_Boolean_"></a> BuildGear\(bool\)
 
 Builds the gear.
 
@@ -251,7 +251,7 @@ public override bool BuildGear(bool bCreate)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetWormAndWormWheel_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds the local.
 
@@ -269,7 +269,7 @@ Name of the string.
 
  IObjectBase
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetWormAndWormWheel_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -289,7 +289,7 @@ The ob unnamed.
 
 The unnamed object name.
 
-### InitChild\(int, string\[\], ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetWormAndWormWheel_InitChild_System_Int32_System_String___VM_Unit_ConvertFactor_"></a> InitChild\(int, string\[\], ConvertFactor\)
 
 Initializes the child.
 
@@ -311,7 +311,7 @@ Name of the ar.
 
 The factor.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetWormAndWormWheel_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -325,7 +325,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### PostBuildGear\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetWormAndWormWheel_PostBuildGear"></a> PostBuildGear\(\)
 
 post builder gear.
 
@@ -333,7 +333,7 @@ post builder gear.
 protected override void PostBuildGear()
 ```
 
-### ReadResultCore\(XmlDocument\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetWormAndWormWheel_ReadResultCore_System_Xml_XmlDocument_"></a> ReadResultCore\(XmlDocument\)
 
 Reads the result core.
 
@@ -347,7 +347,7 @@ protected override void ReadResultCore(XmlDocument xmlDoc)
 
 The XML document.
 
-### ReadResultForDatFile\(string\[\], int\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetWormAndWormWheel_ReadResultForDatFile_System_String___System_Int32_"></a> ReadResultForDatFile\(string\[\], int\)
 
 Read result for dat file.
 
@@ -365,7 +365,7 @@ The dat path array.
 
 The index.
 
-### ReadResultWithKissSoftInterface\(uint, uint, uint, double, double, double\[\], double, GearData\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetWormAndWormWheel_ReadResultWithKissSoftInterface_System_UInt32_System_UInt32_System_UInt32_System_Double_System_Double_System_Double___System_Double_VM_Managed_DAFUL_GearTrain_KissSoftInterface_GearData___"></a> ReadResultWithKissSoftInterface\(uint, uint, uint, double, double, double\[\], double, GearData\[\]\)
 
 Read result with KissSoft interface
 
@@ -407,7 +407,7 @@ The axial crossing angle
 
 The gear data array
 
-### SetDatFileForWeb\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetWormAndWormWheel_SetDatFileForWeb_System_String_"></a> SetDatFileForWeb\(string\)
 
 Set dat file for web.
 
@@ -420,5 +420,4 @@ public void SetDatFileForWeb(string strFile)
 `strFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The  dat file for web.
-
 

@@ -1,4 +1,4 @@
-# Enum OutputType
+#  Enum OutputType
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -20,7 +20,6 @@ Surface (Triangle)
 `Volume = 1` 
 
 Volume (Tetrahedron)
-
 
 
 

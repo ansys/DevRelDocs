@@ -1,4 +1,4 @@
-# Class DesignParameter
+#  Class DesignParameter
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -27,7 +27,7 @@ public class DesignParameter : DOEInformationBase
 
 ## Constructors
 
-### DesignParameter\(\)
+### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter__ctor"></a> DesignParameter\(\)
 
 ```csharp
 public DesignParameter()
@@ -35,7 +35,7 @@ public DesignParameter()
 
 ## Properties
 
-### Current
+### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_Current"></a> Current
 
 ```csharp
 public double Current { get; set; }
@@ -45,7 +45,7 @@ public double Current { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Lower
+### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_Lower"></a> Lower
 
 ```csharp
 public double Lower { get; set; }
@@ -55,7 +55,7 @@ public double Lower { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Type
+### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_Type"></a> Type
 
 ```csharp
 public DesignParameter.ValueType Type { get; set; }
@@ -65,7 +65,7 @@ public DesignParameter.ValueType Type { get; set; }
 
  [DesignParameter](VM.Managed.DAFUL.DOE.Result.DesignParameter.md).[ValueType](VM.Managed.DAFUL.DOE.Result.DesignParameter.ValueType.md)
 
-### Upper
+### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_Upper"></a> Upper
 
 ```csharp
 public double Upper { get; set; }
@@ -75,7 +75,7 @@ public double Upper { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Values
+### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_Values"></a> Values
 
 ```csharp
 public double[] Values { get; set; }
@@ -87,7 +87,7 @@ public double[] Values { get; set; }
 
 ## Methods
 
-### GetName\(\)
+### <a id="VM_Managed_DAFUL_DOE_Result_DesignParameter_GetName"></a> GetName\(\)
 
 ```csharp
 public string GetName()
@@ -96,5 +96,4 @@ public string GetName()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

@@ -1,4 +1,4 @@
-# Class Request
+#  Class Request
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Request\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Request__ctor"></a> Request\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Request" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Request
 public Request()
 ```
 
-### Request\(IOwned\)
+### <a id="VM_Managed_DAFUL_GearTrain_Request__ctor_VM_Models_Pre_IOwned_"></a> Request\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Request" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner.
 
 ## Properties
 
-### BaseMarker
+### <a id="VM_Managed_DAFUL_GearTrain_Request_BaseMarker"></a> BaseMarker
 
 Gets or sets the base marker.
 
@@ -132,7 +132,7 @@ public IMarker BaseMarker { get; set; }
 
  IMarker
 
-### ForceActionEntitis
+### <a id="VM_Managed_DAFUL_GearTrain_Request_ForceActionEntitis"></a> ForceActionEntitis
 
 Gets or sets the force action entitis.
 
@@ -154,7 +154,7 @@ IMarker list is null.
 or
 IMarker is null.
 
-### ForceActionEntityNames
+### <a id="VM_Managed_DAFUL_GearTrain_Request_ForceActionEntityNames"></a> ForceActionEntityNames
 
 Gets or sets the force action entity names.
 
@@ -166,7 +166,7 @@ public string[] ForceActionEntityNames { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### ForceDisplayEndTime
+### <a id="VM_Managed_DAFUL_GearTrain_Request_ForceDisplayEndTime"></a> ForceDisplayEndTime
 
 Gets or sets the force display end time.
 
@@ -178,7 +178,7 @@ public ExpressionValueVariable ForceDisplayEndTime { get; set; }
 
  ExpressionValueVariable
 
-### ForceDisplayStartTime
+### <a id="VM_Managed_DAFUL_GearTrain_Request_ForceDisplayStartTime"></a> ForceDisplayStartTime
 
 Gets or sets the force display start time.
 
@@ -190,7 +190,7 @@ public ExpressionValueVariable ForceDisplayStartTime { get; set; }
 
  ExpressionValueVariable
 
-### KinematicActionEntitis
+### <a id="VM_Managed_DAFUL_GearTrain_Request_KinematicActionEntitis"></a> KinematicActionEntitis
 
 Gets or sets the kinematic action entities.
 
@@ -212,7 +212,7 @@ ObjectBase list is null.
 or
 ObjectBase is null.
 
-### SamplingTime
+### <a id="VM_Managed_DAFUL_GearTrain_Request_SamplingTime"></a> SamplingTime
 
 Gets or sets the sampling time.
 
@@ -225,7 +225,7 @@ public Variable SamplingTime { get; set; }
 
  Variable
 
-### SamplingTimes
+### <a id="VM_Managed_DAFUL_GearTrain_Request_SamplingTimes"></a> SamplingTimes
 
 Gets or sets the array of sampling time.
 
@@ -237,7 +237,7 @@ public Variable[] SamplingTimes { get; set; }
 
  Variable\[\]
 
-### SynchronizeSimulationTime
+### <a id="VM_Managed_DAFUL_GearTrain_Request_SynchronizeSimulationTime"></a> SynchronizeSimulationTime
 
 Gets or sets the synchronize simulation time flag.
 
@@ -249,7 +249,7 @@ public bool SynchronizeSimulationTime { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### \_BaseMarker
+### <a id="VM_Managed_DAFUL_GearTrain_Request__BaseMarker"></a> \_BaseMarker
 
 Gets or sets the base marker.
 
@@ -261,7 +261,7 @@ public Linker<IMarker> _BaseMarker { get; set; }
 
  Linker<IMarker\>
 
-### \_ForceActionEntitis
+### <a id="VM_Managed_DAFUL_GearTrain_Request__ForceActionEntitis"></a> \_ForceActionEntitis
 
 Gets or sets the force action entitis.
 
@@ -285,7 +285,7 @@ IMarker is null.
 
 ## Methods
 
-### AddForceActionEntity\(IConnector\)
+### <a id="VM_Managed_DAFUL_GearTrain_Request_AddForceActionEntity_VM_Managed_DAFUL_IConnector_"></a> AddForceActionEntity\(IConnector\)
 
 Adds the force action entity.
 
@@ -299,7 +299,7 @@ public void AddForceActionEntity(IConnector conn)
 
 The connection.
 
-### AddKinematicActionEntity\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_Request_AddKinematicActionEntity_VM_Managed_ObjectBase_"></a> AddKinematicActionEntity\(ObjectBase\)
 
 Adds the kinematic action entity.
 
@@ -313,7 +313,7 @@ public void AddKinematicActionEntity(ObjectBase obj)
 
 The object.
 
-### AddSamplingTime\(Variable\)
+### <a id="VM_Managed_DAFUL_GearTrain_Request_AddSamplingTime_VM_Managed_Variable_"></a> AddSamplingTime\(Variable\)
 
 Adds the sampling time value.
 
@@ -327,7 +327,7 @@ public void AddSamplingTime(Variable st)
 
 sampling time value.
 
-### ClearData\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Request_ClearData"></a> ClearData\(\)
 
 Clears the data.
 
@@ -335,7 +335,7 @@ Clears the data.
 public void ClearData()
 ```
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_Request_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -348,5 +348,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

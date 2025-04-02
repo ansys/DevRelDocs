@@ -1,4 +1,4 @@
-# Class ImportPart
+#  Class ImportPart
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -63,7 +63,7 @@ BuilderBase<AssembledBody\>.ErrorMessage
 
 ## Constructors
 
-### ImportPart\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart__ctor"></a> ImportPart\(\)
 
 ```csharp
 public ImportPart()
@@ -71,7 +71,7 @@ public ImportPart()
 
 ## Properties
 
-### AssemblyFileName
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_AssemblyFileName"></a> AssemblyFileName
 
 ```csharp
 protected override string AssemblyFileName { get; }
@@ -81,7 +81,7 @@ protected override string AssemblyFileName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DocumentName
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_DocumentName"></a> DocumentName
 
 ```csharp
 protected override string DocumentName { get; }
@@ -91,7 +91,7 @@ protected override string DocumentName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ExtensionName
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_ExtensionName"></a> ExtensionName
 
 ```csharp
 protected override string ExtensionName { get; }
@@ -101,7 +101,7 @@ protected override string ExtensionName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FileName
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_FileName"></a> FileName
 
 ```csharp
 public string[] FileName { get; set; }
@@ -111,7 +111,7 @@ public string[] FileName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### Healing
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_Healing"></a> Healing
 
 ```csharp
 public bool Healing { get; set; }
@@ -121,7 +121,7 @@ public bool Healing { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### InputArray
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_InputArray"></a> InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -131,7 +131,7 @@ public string[] InputArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### PropertyFilePath
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_PropertyFilePath"></a> PropertyFilePath
 
 ```csharp
 public string PropertyFilePath { get; set; }
@@ -141,7 +141,7 @@ public string PropertyFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ResultType
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_ResultType"></a> ResultType
 
 ```csharp
 public string ResultType { get; set; }
@@ -151,7 +151,7 @@ public string ResultType { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UnitType
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_UnitType"></a> UnitType
 
 ```csharp
 public Document3D.CadImportUnitType UnitType { get; set; }
@@ -163,7 +163,7 @@ public Document3D.CadImportUnitType UnitType { get; set; }
 
 ## Methods
 
-### CreateAssembleCore\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_CreateAssembleCore_VM_Managed_Document_"></a> CreateAssembleCore\(Document\)
 
 ```csharp
 protected override void CreateAssembleCore(Document meshDoc)
@@ -173,7 +173,7 @@ protected override void CreateAssembleCore(Document meshDoc)
 
 `meshDoc` Document
 
-### ImportCAD\(PartDocument\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_ImportCAD_VM_Managed_DAFUL_PartDocument_"></a> ImportCAD\(PartDocument\)
 
 ```csharp
 public void ImportCAD(PartDocument docToAdd)
@@ -183,7 +183,7 @@ public void ImportCAD(PartDocument docToAdd)
 
 `docToAdd` PartDocument
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportPart_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -198,5 +198,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

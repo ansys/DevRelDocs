@@ -1,4 +1,4 @@
-# Enum AnalysisParameterEigenvalue.AnalysisType
+#  Enum AnalysisParameterEigenvalue.AnalysisType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -20,7 +20,6 @@ Component
 `System = 0` 
 
 System
-
 
 
 

@@ -1,4 +1,4 @@
-# Class ElementSet
+#  Class ElementSet
 
 Namespace: [VM.Models.FE.Mesh.Sets](VM.Models.FE.Mesh.Sets.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -41,10 +41,9 @@ public class ElementSet : Set, IEntity, ISet
 
 ## Constructors
 
-### ElementSet\(\)
+### <a id="VM_Models_FE_Mesh_Sets_ElementSet__ctor"></a> ElementSet\(\)
 
 ```csharp
 public ElementSet()
 ```
-
 

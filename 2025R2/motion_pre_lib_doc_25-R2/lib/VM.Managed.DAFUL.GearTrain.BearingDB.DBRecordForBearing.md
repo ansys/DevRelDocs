@@ -1,4 +1,4 @@
-# Class DBRecordForBearing
+#  Class DBRecordForBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain.BearingDB](VM.Managed.DAFUL.GearTrain.BearingDB.md)  
 Assembly: VMDGearTrain.dll  
@@ -35,7 +35,7 @@ Record.RecordNo
 
 ## Constructors
 
-### DBRecordForBearing\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing__ctor"></a> DBRecordForBearing\(\)
 
 ```csharp
 public DBRecordForBearing()
@@ -43,7 +43,7 @@ public DBRecordForBearing()
 
 ## Fields
 
-### Bore
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_Bore"></a> Bore
 
 Bore
 
@@ -56,7 +56,7 @@ public double? Bore
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### Company
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_Company"></a> Company
 
 Company
 
@@ -69,7 +69,7 @@ public string Company
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Designation
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_Designation"></a> Designation
 
 Designation
 
@@ -82,7 +82,7 @@ public string Designation
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### OutDia
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_OutDia"></a> OutDia
 
 Outer diameter
 
@@ -95,7 +95,7 @@ public double? OutDia
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### Type
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_Type"></a> Type
 
 Bearing type
 
@@ -108,7 +108,7 @@ public string Type
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Width
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_Width"></a> Width
 
 Width
 
@@ -121,7 +121,7 @@ public double? Width
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### nRows
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_DBRecordForBearing_nRows"></a> nRows
 
 Number of row
 
@@ -133,5 +133,4 @@ public int? nRows
 #### Field Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)?
-
 

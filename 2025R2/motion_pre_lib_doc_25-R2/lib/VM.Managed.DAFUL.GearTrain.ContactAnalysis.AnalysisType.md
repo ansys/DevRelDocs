@@ -1,4 +1,4 @@
-# Enum ContactAnalysis.AnalysisType
+#  Enum ContactAnalysis.AnalysisType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ Contact
 `Rating = 1` 
 
 Rating
-
 
 
 

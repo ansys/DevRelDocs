@@ -1,4 +1,4 @@
-# Enum BodyType
+#  Enum BodyType
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -32,7 +32,6 @@ Solid.
 `Wire = 1` 
 
 Wire.
-
 
 
 

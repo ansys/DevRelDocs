@@ -1,4 +1,4 @@
-# Interface ILinkContainer
+#  Interface ILinkContainer
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -22,7 +22,7 @@ IHasID
 
 ## Properties
 
-### ClearChildInfoBeforeDeserialize
+### <a id="VM_Models_Pre_ILinkContainer_ClearChildInfoBeforeDeserialize"></a> ClearChildInfoBeforeDeserialize
 
 Gets a value indicating whether [clear child info before deserialize].
 
@@ -36,7 +36,7 @@ bool ClearChildInfoBeforeDeserialize { get; }
 
 ## Methods
 
-### ClearLinkBeforeDeserialize\(\)
+### <a id="VM_Models_Pre_ILinkContainer_ClearLinkBeforeDeserialize"></a> ClearLinkBeforeDeserialize\(\)
 
 Disconnect the link relation.
 
@@ -44,7 +44,7 @@ Disconnect the link relation.
 void ClearLinkBeforeDeserialize()
 ```
 
-### ClearLinkBeforeSwap\(\)
+### <a id="VM_Models_Pre_ILinkContainer_ClearLinkBeforeSwap"></a> ClearLinkBeforeSwap\(\)
 
 Disconnect the link relation for undo/redo.
 
@@ -52,7 +52,7 @@ Disconnect the link relation for undo/redo.
 void ClearLinkBeforeSwap()
 ```
 
-### GetChilds\(HashSet<ILinkContainer\>\)
+### <a id="VM_Models_Pre_ILinkContainer_GetChilds_System_Collections_Generic_HashSet_VM_Models_Pre_ILinkContainer__"></a> GetChilds\(HashSet<ILinkContainer\>\)
 
 Get child objects.
 
@@ -66,7 +66,7 @@ void GetChilds(HashSet<ILinkContainer> lstObjs)
 
 The object list.
 
-### GetFirstDesignEntities\(\)
+### <a id="VM_Models_Pre_ILinkContainer_GetFirstDesignEntities"></a> GetFirstDesignEntities\(\)
 
 Get first design entities.
 
@@ -80,7 +80,7 @@ IEnumerable<IObject> GetFirstDesignEntities()
 
 The collection of IObject&gt;
 
-### OnReserved\(object, object, EventArgs\)
+### <a id="VM_Models_Pre_ILinkContainer_OnReserved_System_Object_System_Object_System_EventArgs_"></a> OnReserved\(object, object, EventArgs\)
 
 Called after reserve linked object.
 
@@ -102,7 +102,7 @@ The notifier object.
 
 The event argument.
 
-### SetDestroyedLink\(\)
+### <a id="VM_Models_Pre_ILinkContainer_SetDestroyedLink"></a> SetDestroyedLink\(\)
 
 Called when object destroyed.
 
@@ -110,7 +110,7 @@ Called when object destroyed.
 void SetDestroyedLink()
 ```
 
-### SetModifiedAllLink\(\)
+### <a id="VM_Models_Pre_ILinkContainer_SetModifiedAllLink"></a> SetModifiedAllLink\(\)
 
 Called when all object modified.
 
@@ -118,7 +118,7 @@ Called when all object modified.
 void SetModifiedAllLink()
 ```
 
-### SetModifiedLink\(\)
+### <a id="VM_Models_Pre_ILinkContainer_SetModifiedLink"></a> SetModifiedLink\(\)
 
 Called when object modified.
 
@@ -126,7 +126,7 @@ Called when object modified.
 void SetModifiedLink()
 ```
 
-### SkipModifiedEvent\(\)
+### <a id="VM_Models_Pre_ILinkContainer_SkipModifiedEvent"></a> SkipModifiedEvent\(\)
 
 Skip Modified event for undo/redo.
 
@@ -139,5 +139,4 @@ bool SkipModifiedEvent()
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 True if succeeded, otherwise false.
-
 

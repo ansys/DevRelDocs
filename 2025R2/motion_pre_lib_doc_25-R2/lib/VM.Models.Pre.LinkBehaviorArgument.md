@@ -1,4 +1,4 @@
-# Class LinkBehaviorArgument
+#  Class LinkBehaviorArgument
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -22,7 +22,7 @@ public class LinkBehaviorArgument : Attribute
 
 ## Constructors
 
-### LinkBehaviorArgument\(LinkBehaviorSource\)
+### <a id="VM_Models_Pre_LinkBehaviorArgument__ctor_VM_Models_Pre_LinkBehaviorSource_"></a> LinkBehaviorArgument\(LinkBehaviorSource\)
 
 ```csharp
 public LinkBehaviorArgument(LinkBehaviorSource source)
@@ -34,7 +34,7 @@ public LinkBehaviorArgument(LinkBehaviorSource source)
 
 ## Properties
 
-### Source
+### <a id="VM_Models_Pre_LinkBehaviorArgument_Source"></a> Source
 
 ```csharp
 public LinkBehaviorSource Source { get; }
@@ -43,5 +43,4 @@ public LinkBehaviorSource Source { get; }
 #### Property Value
 
  [LinkBehaviorSource](VM.Models.Pre.LinkBehaviorSource.md)
-
 

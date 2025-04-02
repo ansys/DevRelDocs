@@ -1,4 +1,4 @@
-# Class ChainedMultiBaseInfo
+#  Class ChainedMultiBaseInfo
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -101,12 +101,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ChainedMultiBaseInfo\(\)
+### <a id="VM_Managed_DAFUL_Chained_ChainedMultiBaseInfo__ctor"></a> ChainedMultiBaseInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedMultiBaseInfo" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public ChainedMultiBaseInfo()
 ```
-
 

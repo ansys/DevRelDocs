@@ -1,4 +1,4 @@
-# Class VectorForceStandard
+#  Class VectorForceStandard
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -80,7 +80,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### VectorForceStandard\(\)
+### <a id="VM_Managed_DAFUL_Force_VectorForceStandard__ctor"></a> VectorForceStandard\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.VectorForceStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -88,7 +88,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.VectorForce
 public VectorForceStandard()
 ```
 
-### VectorForceStandard\(PropertyVector\)
+### <a id="VM_Managed_DAFUL_Force_VectorForceStandard__ctor_VM_Managed_DAFUL_Force_PropertyVector_"></a> VectorForceStandard\(PropertyVector\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.VectorForceStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ The owner vector force property.
 
 ## Properties
 
-### FunctionFX
+### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_FunctionFX"></a> FunctionFX
 
 Gets or sets the vector function FX.
 
@@ -116,7 +116,7 @@ public VectorForceStandard.VectorFunction FunctionFX { get; set; }
 
  [VectorForceStandard](VM.Managed.DAFUL.Force.VectorForceStandard.md).[VectorFunction](VM.Managed.DAFUL.Force.VectorForceStandard.VectorFunction.md)
 
-### FunctionFY
+### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_FunctionFY"></a> FunctionFY
 
 Gets or sets the vector function FY.
 
@@ -128,7 +128,7 @@ public VectorForceStandard.VectorFunction FunctionFY { get; set; }
 
  [VectorForceStandard](VM.Managed.DAFUL.Force.VectorForceStandard.md).[VectorFunction](VM.Managed.DAFUL.Force.VectorForceStandard.VectorFunction.md)
 
-### FunctionFZ
+### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_FunctionFZ"></a> FunctionFZ
 
 Gets or sets the vector function FZ.
 
@@ -140,7 +140,7 @@ public VectorForceStandard.VectorFunction FunctionFZ { get; set; }
 
  [VectorForceStandard](VM.Managed.DAFUL.Force.VectorForceStandard.md).[VectorFunction](VM.Managed.DAFUL.Force.VectorForceStandard.VectorFunction.md)
 
-### FunctionTX
+### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_FunctionTX"></a> FunctionTX
 
 Gets or sets the vector function TX.
 
@@ -152,7 +152,7 @@ public VectorForceStandard.VectorFunction FunctionTX { get; set; }
 
  [VectorForceStandard](VM.Managed.DAFUL.Force.VectorForceStandard.md).[VectorFunction](VM.Managed.DAFUL.Force.VectorForceStandard.VectorFunction.md)
 
-### FunctionTY
+### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_FunctionTY"></a> FunctionTY
 
 Gets or sets the vector function TY.
 
@@ -164,7 +164,7 @@ public VectorForceStandard.VectorFunction FunctionTY { get; set; }
 
  [VectorForceStandard](VM.Managed.DAFUL.Force.VectorForceStandard.md).[VectorFunction](VM.Managed.DAFUL.Force.VectorForceStandard.VectorFunction.md)
 
-### FunctionTZ
+### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_FunctionTZ"></a> FunctionTZ
 
 Gets or sets the vector function TZ.
 
@@ -176,7 +176,7 @@ public VectorForceStandard.VectorFunction FunctionTZ { get; set; }
 
  [VectorForceStandard](VM.Managed.DAFUL.Force.VectorForceStandard.md).[VectorFunction](VM.Managed.DAFUL.Force.VectorForceStandard.VectorFunction.md)
 
-### Type
+### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_Type"></a> Type
 
 Gets the function type.
 
@@ -190,7 +190,7 @@ public override VectorForceFunction.FunctionType Type { get; }
 
 ## Methods
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -204,7 +204,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### ReadTemplate\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -218,7 +218,7 @@ public override void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### WriteTemplate\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Force_VectorForceStandard_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -231,5 +231,4 @@ public override void WriteTemplate(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

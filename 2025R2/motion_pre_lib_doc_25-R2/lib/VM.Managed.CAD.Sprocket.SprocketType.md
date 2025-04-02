@@ -1,4 +1,4 @@
-# Enum SprocketType
+#  Enum SprocketType
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -20,7 +20,6 @@ Double sprocket.
 `Single = 0` 
 
 Single sprocket.
-
 
 
 

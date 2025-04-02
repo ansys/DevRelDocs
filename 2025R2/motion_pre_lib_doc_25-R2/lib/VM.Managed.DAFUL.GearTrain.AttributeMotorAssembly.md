@@ -1,4 +1,4 @@
-# Class AttributeMotorAssembly
+#  Class AttributeMotorAssembly
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeMotorAssembly\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly__ctor"></a> AttributeMotorAssembly\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AttributeMotorAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeMotorAssembly()
 
 ## Properties
 
-### Bushing
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_Bushing"></a> Bushing
 
 Gets or sets the bushing.
 
@@ -121,7 +121,7 @@ public General Bushing { get; set; }
 
  General
 
-### EndRPM
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_EndRPM"></a> EndRPM
 
 Gets or sets the end rpm.
 
@@ -133,7 +133,7 @@ public ExpressionValueVariable EndRPM { get; set; }
 
  ExpressionValueVariable
 
-### FrontBearingSet
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_FrontBearingSet"></a> FrontBearingSet
 
 Gets or sets the front bearing set.
 
@@ -145,7 +145,7 @@ public AttributeMotorAssembly.MountInfo[] FrontBearingSet { get; set; }
 
  [AttributeMotorAssembly](VM.Managed.DAFUL.GearTrain.AttributeMotorAssembly.md).[MountInfo](VM.Managed.DAFUL.GearTrain.AttributeMotorAssembly.MountInfo.md)\[\]
 
-### HousingMountSet
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_HousingMountSet"></a> HousingMountSet
 
 Gets or sets the housing mount set.
 
@@ -157,7 +157,7 @@ public AttributeMotorAssembly.MountInfo[] HousingMountSet { get; set; }
 
  [AttributeMotorAssembly](VM.Managed.DAFUL.GearTrain.AttributeMotorAssembly.md).[MountInfo](VM.Managed.DAFUL.GearTrain.AttributeMotorAssembly.MountInfo.md)\[\]
 
-### RearBearingSet
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_RearBearingSet"></a> RearBearingSet
 
 Gets or sets the rear bearing set.
 
@@ -169,7 +169,7 @@ public AttributeMotorAssembly.MountInfo[] RearBearingSet { get; set; }
 
  [AttributeMotorAssembly](VM.Managed.DAFUL.GearTrain.AttributeMotorAssembly.md).[MountInfo](VM.Managed.DAFUL.GearTrain.AttributeMotorAssembly.MountInfo.md)\[\]
 
-### RotorSet
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_RotorSet"></a> RotorSet
 
 Gets or sets the rotor set.
 
@@ -181,7 +181,7 @@ public AttributeMotorAssembly.MountInfo[] RotorSet { get; set; }
 
  [AttributeMotorAssembly](VM.Managed.DAFUL.GearTrain.AttributeMotorAssembly.md).[MountInfo](VM.Managed.DAFUL.GearTrain.AttributeMotorAssembly.MountInfo.md)\[\]
 
-### StartRPM
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_StartRPM"></a> StartRPM
 
 Gets or sets the start rpm.
 
@@ -193,7 +193,7 @@ public ExpressionValueVariable StartRPM { get; set; }
 
  ExpressionValueVariable
 
-### StatorMountSet
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_StatorMountSet"></a> StatorMountSet
 
 Gets or sets the stator mount set.
 
@@ -207,7 +207,7 @@ public AttributeMotorAssembly.MountInfo[] StatorMountSet { get; set; }
 
 ## Methods
 
-### GetFrontBearingOffset\(HousingSection\)
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_GetFrontBearingOffset_VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_"></a> GetFrontBearingOffset\(HousingSection\)
 
 Gets the front bearing offset
 
@@ -225,7 +225,7 @@ The housing section
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetRearBearingOffset\(HousingSection\)
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_GetRearBearingOffset_VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_"></a> GetRearBearingOffset\(HousingSection\)
 
 Gets the rear bearing offset
 
@@ -243,7 +243,7 @@ The housing section
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -256,5 +256,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

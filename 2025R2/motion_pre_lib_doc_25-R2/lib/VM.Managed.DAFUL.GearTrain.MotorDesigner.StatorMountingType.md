@@ -1,4 +1,4 @@
-# Enum MotorDesigner.StatorMountingType
+#  Enum MotorDesigner.StatorMountingType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ Bolting
 `PressFit = 0` 
 
 PressFit
-
 
 
 

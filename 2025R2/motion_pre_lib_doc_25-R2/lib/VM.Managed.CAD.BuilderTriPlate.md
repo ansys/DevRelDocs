@@ -1,4 +1,4 @@
-# Class BuilderTriPlate
+#  Class BuilderTriPlate
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderTriPlate\(\)
+### <a id="VM_Managed_CAD_BuilderTriPlate__ctor"></a> BuilderTriPlate\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderTriPlate" data-throw-if-not-resolved="false"></xref> class
 
@@ -207,7 +207,7 @@ public BuilderTriPlate()
 
 ## Properties
 
-### \_FirstPosition
+### <a id="VM_Managed_CAD_BuilderTriPlate__FirstPosition"></a> \_FirstPosition
 
 Gets the first position of TriPlate.
 
@@ -219,7 +219,7 @@ public abstract VectorBase _FirstPosition { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### \_Height
+### <a id="VM_Managed_CAD_BuilderTriPlate__Height"></a> \_Height
 
 Gets the height of TriPlate.
 
@@ -231,7 +231,7 @@ public abstract double _Height { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### \_SecondPosition
+### <a id="VM_Managed_CAD_BuilderTriPlate__SecondPosition"></a> \_SecondPosition
 
 Gets the second position of TriPlate.
 
@@ -243,7 +243,7 @@ public abstract VectorBase _SecondPosition { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### \_ThirdPosition
+### <a id="VM_Managed_CAD_BuilderTriPlate__ThirdPosition"></a> \_ThirdPosition
 
 Gets the third position of TriPlate.
 
@@ -257,7 +257,7 @@ public abstract VectorBase _ThirdPosition { get; }
 
 ## Methods
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_BuilderTriPlate_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Checks validation about build.
 
@@ -265,7 +265,7 @@ Checks validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_BuilderTriPlate_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -275,7 +275,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_BuilderTriPlate_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -284,5 +284,4 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
-
 

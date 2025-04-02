@@ -1,4 +1,4 @@
-# Class SolidBodyBlock<T\>
+#  Class SolidBodyBlock<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -68,10 +68,9 @@ public abstract class SolidBodyBlock<T> : SolidBody<T>, IBuilder where T : Build
 
 ## Constructors
 
-### SolidBodyBlock\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyBlock_1__ctor"></a> SolidBodyBlock\(\)
 
 ```csharp
 protected SolidBodyBlock()
 ```
-
 

@@ -1,4 +1,4 @@
-# Class BuilderParamEllipseCylinder
+#  Class BuilderParamEllipseCylinder
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -36,7 +36,7 @@ public class BuilderParamEllipseCylinder : BuilderParamCylinder
 
 ## Constructors
 
-### BuilderParamEllipseCylinder\(\)
+### <a id="VM_CAD_Builders_BuilderParamEllipseCylinder__ctor"></a> BuilderParamEllipseCylinder\(\)
 
 ```csharp
 public BuilderParamEllipseCylinder()
@@ -44,7 +44,7 @@ public BuilderParamEllipseCylinder()
 
 ## Properties
 
-### RadiusMinor
+### <a id="VM_CAD_Builders_BuilderParamEllipseCylinder_RadiusMinor"></a> RadiusMinor
 
 ```csharp
 public double RadiusMinor { get; set; }
@@ -53,5 +53,4 @@ public double RadiusMinor { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

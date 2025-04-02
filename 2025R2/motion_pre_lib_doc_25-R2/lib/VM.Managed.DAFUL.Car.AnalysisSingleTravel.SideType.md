@@ -1,4 +1,4 @@
-# Enum AnalysisSingleTravel.SideType
+#  Enum AnalysisSingleTravel.SideType
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -20,7 +20,6 @@ Left
 `Right = 1` 
 
 Right
-
 
 
 

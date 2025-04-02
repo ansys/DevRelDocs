@@ -1,4 +1,4 @@
-# Class PropertyBushDocument
+#  Class PropertyBushDocument
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -309,7 +309,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyBushDocument\(\)
+### <a id="VM_Managed_DAFUL_Force_PropertyBushDocument__ctor"></a> PropertyBushDocument\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.PropertyBushDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -319,12 +319,11 @@ public PropertyBushDocument()
 
 ## Methods
 
-### NullProperty\(\)
+### <a id="VM_Managed_DAFUL_Force_PropertyBushDocument_NullProperty"></a> NullProperty\(\)
 
 Null Property
 
 ```csharp
 public void NullProperty()
 ```
-
 

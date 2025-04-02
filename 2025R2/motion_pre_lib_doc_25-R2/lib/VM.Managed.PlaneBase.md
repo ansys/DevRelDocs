@@ -1,4 +1,4 @@
-# Class PlaneBase
+#  Class PlaneBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PlaneBase\(\)
+### <a id="VM_Managed_PlaneBase__ctor"></a> PlaneBase\(\)
 
 ```csharp
 public PlaneBase()
@@ -109,7 +109,7 @@ public PlaneBase()
 
 ## Properties
 
-### TransformationMatrix
+### <a id="VM_Managed_PlaneBase_TransformationMatrix"></a> TransformationMatrix
 
 Gets the information of transform(TMatrix type).
 
@@ -120,5 +120,4 @@ public abstract TMatrix TransformationMatrix { get; set; }
 #### Property Value
 
  [TMatrix](VM.Managed.TMatrix.md)
-
 

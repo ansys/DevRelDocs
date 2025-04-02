@@ -1,4 +1,4 @@
-# Interface IPLoadComponent
+#  Interface IPLoadComponent
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -21,7 +21,7 @@ public interface IPLoadComponent : IGeometricalComponent
 
 ## Methods
 
-### GetCenterPositionDirection\(uint, ref VectorBase, ref VectorBase, IReferencable\)
+### <a id="VM_Managed_DAFUL_IPLoadComponent_GetCenterPositionDirection_System_UInt32_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetCenterPositionDirection\(uint, ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the center position and direction.
 
@@ -47,7 +47,7 @@ The direction.
 
 The reference.
 
-### GetPatchCount\(\)
+### <a id="VM_Managed_DAFUL_IPLoadComponent_GetPatchCount"></a> GetPatchCount\(\)
 
 Gets the count of patch.
 
@@ -60,5 +60,4 @@ uint GetPatchCount()
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
 The count of patch.
-
 

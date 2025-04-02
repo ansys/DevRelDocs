@@ -1,4 +1,4 @@
-# Class ReservableDestroyAttribute
+#  Class ReservableDestroyAttribute
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -24,10 +24,9 @@ public class ReservableDestroyAttribute : Attribute
 
 ## Constructors
 
-### ReservableDestroyAttribute\(\)
+### <a id="VM_Managed_ReservableDestroyAttribute__ctor"></a> ReservableDestroyAttribute\(\)
 
 ```csharp
 public ReservableDestroyAttribute()
 ```
-
 

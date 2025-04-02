@@ -1,4 +1,4 @@
-# Class PickerTopol
+#  Class PickerTopol
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -55,7 +55,7 @@ public abstract class PickerTopol : PickerBase
 
 ## Constructors
 
-### PickerTopol\(ObjectBase\)
+### <a id="VM_Managed_Picker_Core_PickerTopol__ctor_VM_Managed_ObjectBase_"></a> PickerTopol\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerTopol" data-throw-if-not-resolved="false"></xref> class
 
@@ -69,7 +69,7 @@ public PickerTopol(ObjectBase pParentObject)
 
 The parent of face.
 
-### PickerTopol\(\)
+### <a id="VM_Managed_Picker_Core_PickerTopol__ctor"></a> PickerTopol\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerTopol" data-throw-if-not-resolved="false"></xref> class
 
@@ -79,7 +79,7 @@ public PickerTopol()
 
 ## Fields
 
-### m\_pParentObject
+### <a id="VM_Managed_Picker_Core_PickerTopol_m_pParentObject"></a> m\_pParentObject
 
 ```csharp
 protected ObjectBase m_pParentObject
@@ -88,5 +88,4 @@ protected ObjectBase m_pParentObject
 #### Field Value
 
  [ObjectBase](VM.Managed.ObjectBase.md)
-
 

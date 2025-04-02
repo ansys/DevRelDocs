@@ -1,4 +1,4 @@
-# Enum Wave.PMPeriodType
+#  Enum Wave.PMPeriodType
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -26,7 +26,6 @@ Peak
 `ZeroCrossing = 2` 
 
 Zero-Crossing
-
 
 
 

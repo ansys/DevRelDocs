@@ -1,4 +1,4 @@
-# Class BooleanAPI
+#  Class BooleanAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class BooleanAPI
 
 ## Methods
 
-### CheckClashOperation\(Document3D, Body, Body\)
+### <a id="VM_API_Pre_BooleanAPI_CheckClashOperation_VM_Managed_Document3D_VM_Managed_CAD_Body_VM_Managed_CAD_Body_"></a> CheckClashOperation\(Document3D, Body, Body\)
 
 Check a clash of bodies.
 
@@ -50,7 +50,7 @@ The tool of a body.
 
 the object seleted by this API.
 
-### IntersectBody\(IDocument, Obj, IEnumerable<Obj\>, bool\)
+### <a id="VM_API_Pre_BooleanAPI_IntersectBody_VM_Models_Pre_IDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Boolean_"></a> IntersectBody\(IDocument, Obj, IEnumerable<Obj\>, bool\)
 
 ```csharp
 [NotNull(new string[] { "document", "toolBodies" })]
@@ -68,7 +68,7 @@ public static void IntersectBody(this IDocument document, Obj targetBody, IEnume
 
 `reserveToolBody` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SubtractBody\(IDocument, Obj, Obj, bool\)
+### <a id="VM_API_Pre_BooleanAPI_SubtractBody_VM_Models_Pre_IDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Boolean_"></a> SubtractBody\(IDocument, Obj, Obj, bool\)
 
 ```csharp
 [NotNull(new string[] { "document" })]
@@ -86,7 +86,7 @@ public static void SubtractBody(this IDocument document, Obj targetBody, Obj too
 
 `reserveToolBody` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UniteBody\(IDocument, Obj, IEnumerable<Obj\>, bool\)
+### <a id="VM_API_Pre_BooleanAPI_UniteBody_VM_Models_Pre_IDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Boolean_"></a> UniteBody\(IDocument, Obj, IEnumerable<Obj\>, bool\)
 
 ```csharp
 [NotNull(new string[] { "document", "toolBodies" })]
@@ -103,5 +103,4 @@ public static void UniteBody(this IDocument document, Obj targetBody, IEnumerabl
 `toolBodies` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Obj](VM.API.Pre.Obj.md)\>
 
 `reserveToolBody` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

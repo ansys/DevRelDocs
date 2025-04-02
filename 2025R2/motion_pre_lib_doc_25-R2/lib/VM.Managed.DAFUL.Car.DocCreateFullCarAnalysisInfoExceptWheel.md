@@ -1,4 +1,4 @@
-# Class DocCreateFullCarAnalysisInfoExceptWheel
+#  Class DocCreateFullCarAnalysisInfoExceptWheel
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -44,7 +44,7 @@ DocCreateInfo.DocumentName
 
 ## Constructors
 
-### DocCreateFullCarAnalysisInfoExceptWheel\(\)
+### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel__ctor"></a> DocCreateFullCarAnalysisInfoExceptWheel\(\)
 
 ```csharp
 protected DocCreateFullCarAnalysisInfoExceptWheel()
@@ -52,7 +52,7 @@ protected DocCreateFullCarAnalysisInfoExceptWheel()
 
 ## Properties
 
-### AssemblyPath
+### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_AssemblyPath"></a> AssemblyPath
 
 Gets or sets the assembly path.
 
@@ -64,7 +64,7 @@ public string AssemblyPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### BodyPath
+### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_BodyPath"></a> BodyPath
 
 Gets or sets the body path.
 
@@ -76,7 +76,7 @@ public string BodyPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### BrakePath
+### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_BrakePath"></a> BrakePath
 
 Gets or sets the break path.
 
@@ -88,7 +88,7 @@ public string BrakePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FrontSuspensionPath
+### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_FrontSuspensionPath"></a> FrontSuspensionPath
 
 Gets or sets the front suspension path.
 
@@ -100,7 +100,7 @@ public string FrontSuspensionPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsBreak
+### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_IsBreak"></a> IsBreak
 
 Gets or sets a value indicating whether document has break or not.
 
@@ -112,7 +112,7 @@ public bool IsBreak { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsOther
+### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_IsOther"></a> IsOther
 
 Gets or sets a value indicating whether document has other subsystem or not.
 
@@ -124,7 +124,7 @@ public bool IsOther { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsPowerTrain
+### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_IsPowerTrain"></a> IsPowerTrain
 
 Gets or sets a value indicating whether document has powertrain or not.
 
@@ -136,7 +136,7 @@ public bool IsPowerTrain { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### OtherPath
+### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_OtherPath"></a> OtherPath
 
 Gets or sets the other path.
 
@@ -148,7 +148,7 @@ public string OtherPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PowerTrainPath
+### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_PowerTrainPath"></a> PowerTrainPath
 
 Gets or sets the powertrain path.
 
@@ -160,7 +160,7 @@ public string PowerTrainPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RearSuspensionPath
+### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_RearSuspensionPath"></a> RearSuspensionPath
 
 Gets or sets the rear suspension path.
 
@@ -172,7 +172,7 @@ public string RearSuspensionPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SteeringPath
+### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_SteeringPath"></a> SteeringPath
 
 Gets or sets the steering path.
 
@@ -184,7 +184,7 @@ public string SteeringPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TestRigPath
+### <a id="VM_Managed_DAFUL_Car_DocCreateFullCarAnalysisInfoExceptWheel_TestRigPath"></a> TestRigPath
 
 Gets or sets the test rig path.
 
@@ -195,5 +195,4 @@ public string TestRigPath { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

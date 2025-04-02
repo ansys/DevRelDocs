@@ -1,4 +1,4 @@
-# Class CreateMagnetic
+#  Class CreateMagnetic
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### CreateMagnetic\(Document\)
+### <a id="VM_Managed_DAFUL_Operation_CreateMagnetic__ctor_VM_Managed_Document_"></a> CreateMagnetic\(Document\)
 
 ```csharp
 public CreateMagnetic(Document doc)
@@ -87,7 +87,7 @@ public CreateMagnetic(Document doc)
 
 `doc` Document
 
-### CreateMagnetic\(Document, IEnumerable<string\>\)
+### <a id="VM_Managed_DAFUL_Operation_CreateMagnetic__ctor_VM_Managed_Document_System_Collections_Generic_IEnumerable_System_String__"></a> CreateMagnetic\(Document, IEnumerable<string\>\)
 
 ```csharp
 public CreateMagnetic(Document doc, IEnumerable<string> groupNames)
@@ -99,7 +99,7 @@ public CreateMagnetic(Document doc, IEnumerable<string> groupNames)
 
 `groupNames` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### CreateMagnetic\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_CreateMagnetic__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateMagnetic\(JournalParameter\)
 
 ```csharp
 public CreateMagnetic(JournalParameter jp)
@@ -111,7 +111,7 @@ public CreateMagnetic(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_CreateMagnetic_Name"></a> Name
 
 Gets the operation name.
 
@@ -125,7 +125,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_CreateMagnetic_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -133,7 +133,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Operation_CreateMagnetic_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -142,5 +142,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

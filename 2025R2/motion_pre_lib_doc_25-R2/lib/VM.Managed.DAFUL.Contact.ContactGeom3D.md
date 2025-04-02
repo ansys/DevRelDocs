@@ -1,4 +1,4 @@
-# Class ContactGeom3D
+#  Class ContactGeom3D
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -209,7 +209,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ContactGeom3D\(\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D__ctor"></a> ContactGeom3D\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeom3D" data-throw-if-not-resolved="false"></xref> class.
 
@@ -217,7 +217,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGe
 protected ContactGeom3D()
 ```
 
-### ContactGeom3D\(string\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D__ctor_System_String_"></a> ContactGeom3D\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeom3D" data-throw-if-not-resolved="false"></xref> class.
 
@@ -233,7 +233,7 @@ Name of the 3D contact geometry.
 
 ## Properties
 
-### Geometry
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D_Geometry"></a> Geometry
 
 Gets or sets the geometry.
 
@@ -245,7 +245,7 @@ public IContactable Geometry { get; set; }
 
  IContactable
 
-### GeometryFullName
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D_GeometryFullName"></a> GeometryFullName
 
 Gets the full name of the geometry.
 
@@ -257,7 +257,7 @@ public override string GeometryFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### HalfThickness
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D_HalfThickness"></a> HalfThickness
 
 Gets or sets the half thickness.
 
@@ -269,7 +269,7 @@ public ExpressionValueVariable HalfThickness { get; set; }
 
  ExpressionValueVariable
 
-### IsRepresentedAsBSurface
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D_IsRepresentedAsBSurface"></a> IsRepresentedAsBSurface
 
 Gets or sets the flag of NURBS.
 
@@ -281,7 +281,7 @@ public virtual bool IsRepresentedAsBSurface { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MaxPenetration
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D_MaxPenetration"></a> MaxPenetration
 
 Gets or sets the maximum penetration.
 
@@ -293,7 +293,7 @@ public ExpressionValueVariable MaxPenetration { get; set; }
 
  ExpressionValueVariable
 
-### SurfaceSmoothingType
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D_SurfaceSmoothingType"></a> SurfaceSmoothingType
 
 Gets or sets the type of the surface smoothing.
 
@@ -305,7 +305,7 @@ public SurfaceSmoothing SurfaceSmoothingType { get; set; }
 
  SurfaceSmoothing
 
-### \_Geometry
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D__Geometry"></a> \_Geometry
 
 Gets or sets the geometry.
 
@@ -319,7 +319,7 @@ public Linker<IContactable> _Geometry { get; set; }
 
 ## Methods
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -347,7 +347,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPointDirection\(ref VectorBase, ref VectorBase\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointDirection\(ref VectorBase, ref VectorBase\)
 
 Gets the normal origin point and direction.
 
@@ -371,7 +371,7 @@ The normal direction.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D_GetPointDirectionOnGeometry_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase\)
 
 Gets the normal origin point and direction.
 
@@ -395,7 +395,7 @@ The normal direction.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -413,7 +413,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -431,7 +431,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom3D_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -444,5 +444,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

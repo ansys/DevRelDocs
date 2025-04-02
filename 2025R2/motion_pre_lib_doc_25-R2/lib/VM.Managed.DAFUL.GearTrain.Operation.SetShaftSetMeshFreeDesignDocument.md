@@ -1,4 +1,4 @@
-# Class SetShaftSetMeshFreeDesignDocument
+#  Class SetShaftSetMeshFreeDesignDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -93,7 +93,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### SetShaftSetMeshFreeDesignDocument\(IMeshEntity\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetShaftSetMeshFreeDesignDocument__ctor_VM_Managed_DAFUL_GearTrain_IMeshEntity_"></a> SetShaftSetMeshFreeDesignDocument\(IMeshEntity\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.SetShaftSetMeshFreeDesignDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ public SetShaftSetMeshFreeDesignDocument(IMeshEntity meshEntity)
 
 The mesh entity.
 
-### SetShaftSetMeshFreeDesignDocument\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_SetShaftSetMeshFreeDesignDocument__ctor_VM_Managed_Operation_JournalParameter_"></a> SetShaftSetMeshFreeDesignDocument\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.SetShaftSetMeshFreeDesignDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,5 +120,4 @@ public SetShaftSetMeshFreeDesignDocument(JournalParameter jp)
 `jp` JournalParameter
 
 The jp.
-
 

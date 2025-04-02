@@ -1,4 +1,4 @@
-# Enum View3D.CursorMode
+#  Enum View3D.CursorMode
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -32,7 +32,6 @@ Spin.
 `Zoom = 3` 
 
 Zoom.
-
 
 
 

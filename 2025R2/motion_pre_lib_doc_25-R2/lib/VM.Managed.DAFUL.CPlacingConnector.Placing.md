@@ -1,4 +1,4 @@
-# Class Placing
+#  Class Placing
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Placing\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Placing__ctor"></a> Placing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.Placing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Placing()
 
 ## Properties
 
-### Path
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Placing_Path"></a> Path
 
 Gets or sets the path.
 
@@ -118,7 +118,7 @@ public PathGroup Path { get; set; }
 
  [PathGroup](VM.Managed.DAFUL.CPlacingConnector.PathGroup.md)
 
-### Segment
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Placing_Segment"></a> Segment
 
 Gets or sets the segment.
 
@@ -132,7 +132,7 @@ public SegmentGroup Segment { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Placing_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -145,5 +145,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

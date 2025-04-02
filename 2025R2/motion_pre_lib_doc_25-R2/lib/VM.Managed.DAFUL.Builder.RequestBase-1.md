@@ -1,4 +1,4 @@
-# Class RequestBase<T\>
+#  Class RequestBase<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -57,7 +57,7 @@ public class RequestBase<T> : BuilderNamed<T>, IBuilder where T : RequestBase, n
 
 ## Constructors
 
-### RequestBase\(\)
+### <a id="VM_Managed_DAFUL_Builder_RequestBase_1__ctor"></a> RequestBase\(\)
 
 ```csharp
 public RequestBase()
@@ -65,7 +65,7 @@ public RequestBase()
 
 ## Properties
 
-### ActionEntity
+### <a id="VM_Managed_DAFUL_Builder_RequestBase_1_ActionEntity"></a> ActionEntity
 
 ```csharp
 public ObjectBase ActionEntity { get; }
@@ -74,5 +74,4 @@ public ObjectBase ActionEntity { get; }
 #### Property Value
 
  ObjectBase
-
 

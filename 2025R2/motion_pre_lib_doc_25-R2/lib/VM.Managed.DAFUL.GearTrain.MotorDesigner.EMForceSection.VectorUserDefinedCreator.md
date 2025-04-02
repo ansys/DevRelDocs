@@ -1,4 +1,4 @@
-# Class MotorDesigner.EMForceSection.VectorUserDefinedCreator
+#  Class MotorDesigner.EMForceSection.VectorUserDefinedCreator
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -103,7 +103,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### VectorUserDefinedCreator\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_VectorUserDefinedCreator__ctor"></a> VectorUserDefinedCreator\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.VectorUserDefinedCreator" data-throw-if-not-resolved="false"></xref> class.
 
@@ -111,7 +111,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDe
 public VectorUserDefinedCreator()
 ```
 
-### VectorUserDefinedCreator\(Vector, UserSubroutine, Array\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_VectorUserDefinedCreator__ctor_VM_Managed_DAFUL_Force_Vector_VM_Managed_DAFUL_UserSubroutine_VM_Managed_DAFUL_Array_"></a> VectorUserDefinedCreator\(Vector, UserSubroutine, Array\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.VectorUserDefinedCreator" data-throw-if-not-resolved="false"></xref> class.
 
@@ -135,7 +135,7 @@ The array.
 
 ## Properties
 
-### Array
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_VectorUserDefinedCreator_Array"></a> Array
 
 Gets or sets the array.
 
@@ -149,13 +149,13 @@ public Array Array { get; set; }
 
 ## Methods
 
-### Delete\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_VectorUserDefinedCreator_Delete"></a> Delete\(\)
 
 ```csharp
 public override void Delete()
 ```
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_VectorUserDefinedCreator_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -169,7 +169,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### IsExistAll\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_VectorUserDefinedCreator_IsExistAll"></a> IsExistAll\(\)
 
 Gets the state whether this instance exist all.
 
@@ -181,7 +181,7 @@ public override bool IsExistAll()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_VectorUserDefinedCreator_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -198,5 +198,4 @@ The linked object.
 `arg` LinkEventArgs
 
 The destroy event information.
-
 

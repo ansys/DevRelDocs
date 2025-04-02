@@ -1,4 +1,4 @@
-# Enum JournalUtility.OperationType
+#  Enum JournalUtility.OperationType
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -26,7 +26,6 @@ The delete
 `Modify = 1` 
 
 The modify
-
 
 
 

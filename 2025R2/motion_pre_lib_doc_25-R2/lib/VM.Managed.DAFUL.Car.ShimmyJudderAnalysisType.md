@@ -1,4 +1,4 @@
-# Enum ShimmyJudderAnalysisType
+#  Enum ShimmyJudderAnalysisType
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -20,7 +20,6 @@ Judder
 `Shimmy = 0` 
 
 Shimmy
-
 
 
 

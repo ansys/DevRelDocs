@@ -1,4 +1,4 @@
-# Class Axle
+#  Class Axle
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Axle\(\)
+### <a id="VM_Models_Pre_Force_Axle__ctor"></a> Axle\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.Axle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Axle()
 
 ## Properties
 
-### BoltingType
+### <a id="VM_Models_Pre_Force_Axle_BoltingType"></a> BoltingType
 
 Gets or sets the bolting type.
 
@@ -118,7 +118,7 @@ public BoltingType BoltingType { get; set; }
 
  [BoltingType](VM.Models.Pre.Force.BoltingType.md)
 
-### ConnectorProperty
+### <a id="VM_Models_Pre_Force_Axle_ConnectorProperty"></a> ConnectorProperty
 
 Gets or sets the connector property.
 
@@ -130,7 +130,7 @@ public PropertyBush ConnectorProperty { get; set; }
 
  PropertyBush
 
-### FrontInactiveLength
+### <a id="VM_Models_Pre_Force_Axle_FrontInactiveLength"></a> FrontInactiveLength
 
 Gets or sets the front inactive length.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable FrontInactiveLength { get; set; }
 
  ExpressionValueVariable
 
-### MountType
+### <a id="VM_Models_Pre_Force_Axle_MountType"></a> MountType
 
 Gets or sets the mount type.
 
@@ -154,7 +154,7 @@ public MountType MountType { get; set; }
 
  [MountType](VM.Models.Pre.Force.MountType.md)
 
-### OffsetZ
+### <a id="VM_Models_Pre_Force_Axle_OffsetZ"></a> OffsetZ
 
 Gets or sets the offset Z to leaf spring pack.
 
@@ -166,7 +166,7 @@ public ExpressionValueVariable OffsetZ { get; set; }
 
  ExpressionValueVariable
 
-### RearInactiveLength
+### <a id="VM_Models_Pre_Force_Axle_RearInactiveLength"></a> RearInactiveLength
 
 Gets or sets the rear inactive length.
 
@@ -178,7 +178,7 @@ public ExpressionValueVariable RearInactiveLength { get; set; }
 
  ExpressionValueVariable
 
-### UBoltMass
+### <a id="VM_Models_Pre_Force_Axle_UBoltMass"></a> UBoltMass
 
 Gets or sets the U bolt mass.
 
@@ -192,7 +192,7 @@ public ExpressionValueVariable UBoltMass { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Models_Pre_Force_Axle_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 <p>Initializes member through unit convert factor.</p>
 
@@ -205,5 +205,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 <p>The unit convert factor.</p>
-
 

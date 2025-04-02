@@ -1,4 +1,4 @@
-# Interface IOperationsLineDataSeriesViewModel
+#  Interface IOperationsLineDataSeriesViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -83,7 +83,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### SourceX
+### <a id="VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModel_SourceX"></a> SourceX
 
 Gets or sets the source X instance of the series.
 
@@ -103,7 +103,7 @@ For an example that includes this property, see the [Interface IOperationsLineDa
 
 Use this property to specify or retrieve the source X instance of the series.
 
-### SourceY
+### <a id="VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModel_SourceY"></a> SourceY
 
 Gets or sets the source Y instance of the series.
 
@@ -125,7 +125,7 @@ Use this property to specify or retrieve the source Y instance of the series.
 
 ## Methods
 
-### CreateLineDataSeries\(string, string, string, string, string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModel_CreateLineDataSeries_System_String_System_String_System_String_System_String_System_String_"></a> CreateLineDataSeries\(string, string, string, string, string\)
 
 Creates information of Axis for data series. It is used for modifying information of axis for data series.
 
@@ -169,7 +169,7 @@ For an example that includes this property, see the [Interface IOperationsLineDa
 
 This method creates axis information for a data series, allowing for the modification of axis information for the data series.
 
-### CreateLineDataSeries\(string, string, string, string, string, string, string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModel_CreateLineDataSeries_System_String_System_String_System_String_System_String_System_String_System_String_System_String_"></a> CreateLineDataSeries\(string, string, string, string, string, string, string\)
 
 Creates information of Axis for data series. It is used for modifying information of axis for data series.
 

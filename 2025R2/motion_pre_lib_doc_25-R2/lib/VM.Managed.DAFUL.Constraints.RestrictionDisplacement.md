@@ -1,4 +1,4 @@
-# Class RestrictionDisplacement
+#  Class RestrictionDisplacement
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -84,7 +84,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### RestrictionDisplacement\(\)
+### <a id="VM_Managed_DAFUL_Constraints_RestrictionDisplacement__ctor"></a> RestrictionDisplacement\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.RestrictionDisplacement" data-throw-if-not-resolved="false"></xref> class.
 
@@ -94,7 +94,7 @@ public RestrictionDisplacement()
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Constraints_RestrictionDisplacement_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -107,5 +107,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

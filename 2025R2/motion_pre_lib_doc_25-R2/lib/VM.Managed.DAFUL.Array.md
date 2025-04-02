@@ -1,4 +1,4 @@
-# Class Array
+#  Class Array
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  
@@ -172,7 +172,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Array\(\)
+### <a id="VM_Managed_DAFUL_Array__ctor"></a> Array\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Array" data-throw-if-not-resolved="false"></xref> class.
 
@@ -180,7 +180,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Array" data-throw
 public Array()
 ```
 
-### Array\(string\)
+### <a id="VM_Managed_DAFUL_Array__ctor_System_String_"></a> Array\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Array" data-throw-if-not-resolved="false"></xref> class.
 
@@ -196,7 +196,7 @@ Name of the array.
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Array_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -208,7 +208,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### ArraySize
+### <a id="VM_Managed_DAFUL_Array_ArraySize"></a> ArraySize
 
 Gets or sets the size of the array.
 
@@ -220,7 +220,7 @@ public int ArraySize { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### IsInterface
+### <a id="VM_Managed_DAFUL_Array_IsInterface"></a> IsInterface
 
 Gets or sets a value indicating whether this instance is interface.
 
@@ -232,7 +232,7 @@ public bool IsInterface { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Array_ReferenceType"></a> ReferenceType
 
 Gets the type of the array for argument.
 
@@ -246,7 +246,7 @@ public string ReferenceType { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Array_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -260,7 +260,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Array_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -274,7 +274,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Array_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -287,5 +287,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

@@ -1,4 +1,4 @@
-# Class CompositeField
+#  Class CompositeField
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### CompositeField\(\)
+### <a id="VM_Managed_DAFUL_CompositeField__ctor"></a> CompositeField\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeField" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeField" d
 protected CompositeField()
 ```
 
-### CompositeField\(Property\)
+### <a id="VM_Managed_DAFUL_CompositeField__ctor_VM_Managed_Property_"></a> CompositeField\(Property\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CompositeField" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,5 +121,4 @@ protected CompositeField(Property owner)
 `owner` Property
 
 The owner.
-
 

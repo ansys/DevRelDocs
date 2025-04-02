@@ -1,4 +1,4 @@
-# Class CheckLicenseManager
+#  Class CheckLicenseManager
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public abstract class CheckLicenseManager
 
 ## Constructors
 
-### CheckLicenseManager\(\)
+### <a id="VM_Managed_CheckLicenseManager__ctor"></a> CheckLicenseManager\(\)
 
 ```csharp
 public CheckLicenseManager()
@@ -30,7 +30,7 @@ public CheckLicenseManager()
 
 ## Methods
 
-### GetToolkitInfoPath\(\)
+### <a id="VM_Managed_CheckLicenseManager_GetToolkitInfoPath"></a> GetToolkitInfoPath\(\)
 
 ```csharp
 public static string GetToolkitInfoPath()
@@ -40,7 +40,7 @@ public static string GetToolkitInfoPath()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SetToolkitInfoPath\(string\)
+### <a id="VM_Managed_CheckLicenseManager_SetToolkitInfoPath_System_String_"></a> SetToolkitInfoPath\(string\)
 
 ```csharp
 public static void SetToolkitInfoPath(string value)
@@ -49,5 +49,4 @@ public static void SetToolkitInfoPath(string value)
 #### Parameters
 
 `value` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

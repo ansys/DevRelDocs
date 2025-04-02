@@ -1,4 +1,4 @@
-# Interface IOperationsSimpleMathLineDataSeriesViewModel
+#  Interface IOperationsSimpleMathLineDataSeriesViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -76,7 +76,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### MathType
+### <a id="VM_Operations_Post_Interfaces_IOperationsSimpleMathLineDataSeriesViewModel_MathType"></a> MathType
 
 Gets or sets the type of simple math operation.
 
@@ -98,7 +98,7 @@ Use this property to specify or retrieve the type of simple math operation.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.SimpleMathType.Add" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SimpleMathType.Subtract" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SimpleMathType.Multiply" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### Points
+### <a id="VM_Operations_Post_Interfaces_IOperationsSimpleMathLineDataSeriesViewModel_Points"></a> Points
 
 Gets or sets the number of data points for interpolation.
 

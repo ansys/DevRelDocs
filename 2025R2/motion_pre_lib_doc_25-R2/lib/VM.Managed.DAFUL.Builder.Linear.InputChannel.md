@@ -1,4 +1,4 @@
-# Class InputChannel
+#  Class InputChannel
 
 Namespace: [VM.Managed.DAFUL.Builder.Linear](VM.Managed.DAFUL.Builder.Linear.md)  
 Assembly: VMBldLinear.dll  
@@ -53,7 +53,7 @@ BuilderBase<ChannelInput\>.ErrorMessage
 
 ## Constructors
 
-### InputChannel\(\)
+### <a id="VM_Managed_DAFUL_Builder_Linear_InputChannel__ctor"></a> InputChannel\(\)
 
 ```csharp
 public InputChannel()
@@ -61,7 +61,7 @@ public InputChannel()
 
 ## Properties
 
-### Connectable
+### <a id="VM_Managed_DAFUL_Builder_Linear_InputChannel_Connectable"></a> Connectable
 
 ```csharp
 public IConnectable Connectable { get; }
@@ -71,7 +71,7 @@ public IConnectable Connectable { get; }
 
  IConnectable
 
-### InputMode
+### <a id="VM_Managed_DAFUL_Builder_Linear_InputChannel_InputMode"></a> InputMode
 
 ```csharp
 public string InputMode { get; set; }
@@ -81,7 +81,7 @@ public string InputMode { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### InputType
+### <a id="VM_Managed_DAFUL_Builder_Linear_InputChannel_InputType"></a> InputType
 
 ```csharp
 public string InputType { get; set; }
@@ -91,7 +91,7 @@ public string InputType { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ObjectName
+### <a id="VM_Managed_DAFUL_Builder_Linear_InputChannel_ObjectName"></a> ObjectName
 
 ```csharp
 public string ObjectName { get; set; }
@@ -103,7 +103,7 @@ public string ObjectName { get; set; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Linear_InputChannel_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -119,7 +119,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_Linear_InputChannel_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -132,5 +132,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

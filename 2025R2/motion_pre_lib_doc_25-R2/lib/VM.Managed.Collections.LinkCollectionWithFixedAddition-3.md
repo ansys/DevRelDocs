@@ -1,4 +1,4 @@
-# Class LinkCollectionWithFixedAddition<T, TLink, TCollection\>
+#  Class LinkCollectionWithFixedAddition<T, TLink, TCollection\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -52,7 +52,7 @@ IPostDeserialized
 
 ## Constructors
 
-### LinkCollectionWithFixedAddition\(ILinkContainer, int\)
+### <a id="VM_Managed_Collections_LinkCollectionWithFixedAddition_3__ctor_VM_Models_Pre_ILinkContainer_System_Int32_"></a> LinkCollectionWithFixedAddition\(ILinkContainer, int\)
 
 ```csharp
 public LinkCollectionWithFixedAddition(ILinkContainer objParent, int nMin)
@@ -64,7 +64,7 @@ public LinkCollectionWithFixedAddition(ILinkContainer objParent, int nMin)
 
 `nMin` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### LinkCollectionWithFixedAddition\(ILinkContainer, int, int\)
+### <a id="VM_Managed_Collections_LinkCollectionWithFixedAddition_3__ctor_VM_Models_Pre_ILinkContainer_System_Int32_System_Int32_"></a> LinkCollectionWithFixedAddition\(ILinkContainer, int, int\)
 
 ```csharp
 public LinkCollectionWithFixedAddition(ILinkContainer objParent, int nMin, int nMax)
@@ -78,7 +78,7 @@ public LinkCollectionWithFixedAddition(ILinkContainer objParent, int nMin, int n
 
 `nMax` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### LinkCollectionWithFixedAddition\(ILinkContainer, TCollection, int\)
+### <a id="VM_Managed_Collections_LinkCollectionWithFixedAddition_3__ctor_VM_Models_Pre_ILinkContainer__2_System_Int32_"></a> LinkCollectionWithFixedAddition\(ILinkContainer, TCollection, int\)
 
 ```csharp
 public LinkCollectionWithFixedAddition(ILinkContainer objParent, TCollection collection, int nMin)
@@ -92,7 +92,7 @@ public LinkCollectionWithFixedAddition(ILinkContainer objParent, TCollection col
 
 `nMin` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### LinkCollectionWithFixedAddition\(ILinkContainer, TCollection, int, int\)
+### <a id="VM_Managed_Collections_LinkCollectionWithFixedAddition_3__ctor_VM_Models_Pre_ILinkContainer__2_System_Int32_System_Int32_"></a> LinkCollectionWithFixedAddition\(ILinkContainer, TCollection, int, int\)
 
 ```csharp
 public LinkCollectionWithFixedAddition(ILinkContainer objParent, TCollection collection, int nMin, int nMax)
@@ -110,7 +110,7 @@ public LinkCollectionWithFixedAddition(ILinkContainer objParent, TCollection col
 
 ## Methods
 
-### Add\(T\)
+### <a id="VM_Managed_Collections_LinkCollectionWithFixedAddition_3_Add__0_"></a> Add\(T\)
 
 ```csharp
 public override sealed void Add(T item)
@@ -120,7 +120,7 @@ public override sealed void Add(T item)
 
 `item` T
 
-### Add\(T, bool\)
+### <a id="VM_Managed_Collections_LinkCollectionWithFixedAddition_3_Add__0_System_Boolean_"></a> Add\(T, bool\)
 
 ```csharp
 public override sealed void Add(T item, bool bContainsDocument)
@@ -132,7 +132,7 @@ public override sealed void Add(T item, bool bContainsDocument)
 
 `bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Remove\(T\)
+### <a id="VM_Managed_Collections_LinkCollectionWithFixedAddition_3_Remove__0_"></a> Remove\(T\)
 
 ```csharp
 public override sealed bool Remove(T item)
@@ -146,7 +146,7 @@ public override sealed bool Remove(T item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Remove\(T, bool\)
+### <a id="VM_Managed_Collections_LinkCollectionWithFixedAddition_3_Remove__0_System_Boolean_"></a> Remove\(T, bool\)
 
 ```csharp
 public override sealed bool Remove(T item, bool bContainsDocument)
@@ -161,5 +161,4 @@ public override sealed bool Remove(T item, bool bContainsDocument)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Class RectanglePlane
+#  Class RectanglePlane
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -65,7 +65,7 @@ public class RectanglePlane : ImprintSheet, IBuilder
 
 ## Constructors
 
-### RectanglePlane\(\)
+### <a id="VM_Managed_DAFUL_Builder_RectanglePlane__ctor"></a> RectanglePlane\(\)
 
 ```csharp
 public RectanglePlane()
@@ -73,7 +73,7 @@ public RectanglePlane()
 
 ## Properties
 
-### Height
+### <a id="VM_Managed_DAFUL_Builder_RectanglePlane_Height"></a> Height
 
 ```csharp
 public Variable Height { get; set; }
@@ -83,7 +83,7 @@ public Variable Height { get; set; }
 
  Variable
 
-### Width
+### <a id="VM_Managed_DAFUL_Builder_RectanglePlane_Width"></a> Width
 
 ```csharp
 public Variable Width { get; set; }
@@ -95,7 +95,7 @@ public Variable Width { get; set; }
 
 ## Methods
 
-### GetPlaneBuilder\(\)
+### <a id="VM_Managed_DAFUL_Builder_RectanglePlane_GetPlaneBuilder"></a> GetPlaneBuilder\(\)
 
 ```csharp
 protected override BuilderPlane GetPlaneBuilder()
@@ -104,5 +104,4 @@ protected override BuilderPlane GetPlaneBuilder()
 #### Returns
 
  BuilderPlane
-
 

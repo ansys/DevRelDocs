@@ -1,4 +1,4 @@
-# Class DurabilityData.ContactInfo.FrameInfo
+#  Class DurabilityData.ContactInfo.FrameInfo
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -20,7 +20,7 @@ public class DurabilityData.ContactInfo.FrameInfo
 
 ## Constructors
 
-### FrameInfo\(\)
+### <a id="VM_Models_Pre_Durability_DurabilityData_ContactInfo_FrameInfo__ctor"></a> FrameInfo\(\)
 
 ```csharp
 public FrameInfo()
@@ -28,7 +28,7 @@ public FrameInfo()
 
 ## Fields
 
-### Frame
+### <a id="VM_Models_Pre_Durability_DurabilityData_ContactInfo_FrameInfo_Frame"></a> Frame
 
 ```csharp
 public int Frame
@@ -38,7 +38,7 @@ public int Frame
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### LoadInformation
+### <a id="VM_Models_Pre_Durability_DurabilityData_ContactInfo_FrameInfo_LoadInformation"></a> LoadInformation
 
 ```csharp
 public DurabilityData.ContactInfo.LoadInfo[] LoadInformation
@@ -48,7 +48,7 @@ public DurabilityData.ContactInfo.LoadInfo[] LoadInformation
 
  [DurabilityData](VM.Models.Pre.Durability.DurabilityData.md).[ContactInfo](VM.Models.Pre.Durability.DurabilityData.ContactInfo.md).[LoadInfo](VM.Models.Pre.Durability.DurabilityData.ContactInfo.LoadInfo.md)\[\]
 
-### Transform
+### <a id="VM_Models_Pre_Durability_DurabilityData_ContactInfo_FrameInfo_Transform"></a> Transform
 
 ```csharp
 public TMatrix Transform
@@ -57,5 +57,4 @@ public TMatrix Transform
 #### Field Value
 
  TMatrix
-
 

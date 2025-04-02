@@ -1,4 +1,4 @@
-# Class Builder
+#  Class Builder
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -156,7 +156,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Builder\(\)
+### <a id="VM_Managed_CAD_Builder__ctor"></a> Builder\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Builder" data-throw-if-not-resolved="false"></xref> class
 
@@ -166,7 +166,7 @@ public Builder()
 
 ## Properties
 
-### InitialKernelLengthUnit
+### <a id="VM_Managed_CAD_Builder_InitialKernelLengthUnit"></a> InitialKernelLengthUnit
 
 Gets or sets a inital kernel length unit.
 
@@ -178,7 +178,7 @@ public double InitialKernelLengthUnit { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsExternable
+### <a id="VM_Managed_CAD_Builder_IsExternable"></a> IsExternable
 
 Gets a value indicating whether this instance is Externable.
 
@@ -190,7 +190,7 @@ public override bool IsExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Transparency
+### <a id="VM_Managed_CAD_Builder_Transparency"></a> Transparency
 
 Gets or sets the tranparency.
 
@@ -202,7 +202,7 @@ public virtual double Transparency { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TypeOfBuilder
+### <a id="VM_Managed_CAD_Builder_TypeOfBuilder"></a> TypeOfBuilder
 
 Gets or sets the type of builder.
 
@@ -214,7 +214,7 @@ public virtual string TypeOfBuilder { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Uneditable
+### <a id="VM_Managed_CAD_Builder_Uneditable"></a> Uneditable
 
 Gets or sets Uneditable value..
 
@@ -228,13 +228,13 @@ public virtual bool Uneditable { get; }
 
 ## Methods
 
-### AddUneditableAttribute\(\)
+### <a id="VM_Managed_CAD_Builder_AddUneditableAttribute"></a> AddUneditableAttribute\(\)
 
 ```csharp
 public void AddUneditableAttribute()
 ```
 
-### ChangeDataForCircularReference\(\)
+### <a id="VM_Managed_CAD_Builder_ChangeDataForCircularReference"></a> ChangeDataForCircularReference\(\)
 
 Change data for circular reference.
 
@@ -242,7 +242,7 @@ Change data for circular reference.
 public virtual void ChangeDataForCircularReference()
 ```
 
-### CheckCircularReference\(ObjectBase\)
+### <a id="VM_Managed_CAD_Builder_CheckCircularReference_VM_Managed_ObjectBase_"></a> CheckCircularReference\(ObjectBase\)
 
 Check data for circular reference.
 
@@ -256,7 +256,7 @@ public virtual void CheckCircularReference(ObjectBase objCM)
 
 The CM.
 
-### CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\)
+### <a id="VM_Managed_CAD_Builder_CheckCircularReferenceForDirection_VM_Managed_DirectionBase_VM_Managed_ObjectBase_"></a> CheckCircularReferenceForDirection\(DirectionBase, ObjectBase\)
 
 ```csharp
 protected void CheckCircularReferenceForDirection(DirectionBase db, ObjectBase objCM)
@@ -268,7 +268,7 @@ protected void CheckCircularReferenceForDirection(DirectionBase db, ObjectBase o
 
 `objCM` [ObjectBase](VM.Managed.ObjectBase.md)
 
-### CheckCircularReferenceForOrientation\(OrientationBase, ObjectBase\)
+### <a id="VM_Managed_CAD_Builder_CheckCircularReferenceForOrientation_VM_Managed_OrientationBase_VM_Managed_ObjectBase_"></a> CheckCircularReferenceForOrientation\(OrientationBase, ObjectBase\)
 
 ```csharp
 protected void CheckCircularReferenceForOrientation(OrientationBase ob, ObjectBase objCM)
@@ -280,7 +280,7 @@ protected void CheckCircularReferenceForOrientation(OrientationBase ob, ObjectBa
 
 `objCM` [ObjectBase](VM.Managed.ObjectBase.md)
 
-### CheckCircularReferenceForPoint\(PointBase, ObjectBase\)
+### <a id="VM_Managed_CAD_Builder_CheckCircularReferenceForPoint_VM_Managed_PointBase_VM_Managed_ObjectBase_"></a> CheckCircularReferenceForPoint\(PointBase, ObjectBase\)
 
 ```csharp
 protected void CheckCircularReferenceForPoint(PointBase pb, ObjectBase objCM)
@@ -292,7 +292,7 @@ protected void CheckCircularReferenceForPoint(PointBase pb, ObjectBase objCM)
 
 `objCM` [ObjectBase](VM.Managed.ObjectBase.md)
 
-### CheckCircularReferenceForTransform\(TransformBase, ObjectBase\)
+### <a id="VM_Managed_CAD_Builder_CheckCircularReferenceForTransform_VM_Managed_TransformBase_VM_Managed_ObjectBase_"></a> CheckCircularReferenceForTransform\(TransformBase, ObjectBase\)
 
 ```csharp
 protected void CheckCircularReferenceForTransform(TransformBase tb, ObjectBase objCM)
@@ -304,7 +304,7 @@ protected void CheckCircularReferenceForTransform(TransformBase tb, ObjectBase o
 
 `objCM` [ObjectBase](VM.Managed.ObjectBase.md)
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_Builder_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Checks validation about build.
 
@@ -312,7 +312,7 @@ Checks validation about build.
 public virtual void CheckValidationAboutBuild()
 ```
 
-### Clone\(\)
+### <a id="VM_Managed_CAD_Builder_Clone"></a> Clone\(\)
 
 ```csharp
 public virtual object Clone()
@@ -322,7 +322,7 @@ public virtual object Clone()
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### Contains\(Type\)
+### <a id="VM_Managed_CAD_Builder_Contains_System_Type_"></a> Contains\(Type\)
 
 ```csharp
 public virtual bool Contains(Type typeBuilder)
@@ -336,7 +336,7 @@ public virtual bool Contains(Type typeBuilder)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CopyFilePathWhenImportBuilder\(Builder\)
+### <a id="VM_Managed_CAD_Builder_CopyFilePathWhenImportBuilder_VM_Managed_CAD_Builder_"></a> CopyFilePathWhenImportBuilder\(Builder\)
 
 ```csharp
 public virtual void CopyFilePathWhenImportBuilder(Builder buiOriginal)
@@ -346,7 +346,7 @@ public virtual void CopyFilePathWhenImportBuilder(Builder buiOriginal)
 
 `buiOriginal` [Builder](VM.Managed.CAD.Builder.md)
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_Builder_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected virtual BuilderParamBase CreateParameter()
@@ -356,7 +356,7 @@ protected virtual BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_Builder_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected virtual void FillParameter(BuilderParamBase A_0)
@@ -366,7 +366,7 @@ protected virtual void FillParameter(BuilderParamBase A_0)
 
 `A_0` BuilderParamBase
 
-### FindLocal\(string\)
+### <a id="VM_Managed_CAD_Builder_FindLocal_System_String_"></a> FindLocal\(string\)
 
 ```csharp
 public virtual ObjectBase FindLocal(string strName)
@@ -380,7 +380,7 @@ public virtual ObjectBase FindLocal(string strName)
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### GetBodyType\(\)
+### <a id="VM_Managed_CAD_Builder_GetBodyType"></a> GetBodyType\(\)
 
 Gets the type of body.
 
@@ -392,7 +392,7 @@ public virtual BodyCreateType GetBodyType()
 
  [BodyCreateType](VM.Managed.CAD.BodyCreateType.md)
 
-### GetFactorForLength\(\)
+### <a id="VM_Managed_CAD_Builder_GetFactorForLength"></a> GetFactorForLength\(\)
 
 Gets the factor for length.
 
@@ -406,7 +406,7 @@ protected double GetFactorForLength()
 
 The factor.
 
-### GetFilledParameter\(\)
+### <a id="VM_Managed_CAD_Builder_GetFilledParameter"></a> GetFilledParameter\(\)
 
 Create a BuilderParamBase and fill it.
 
@@ -420,7 +420,7 @@ public BuilderParamBase GetFilledParameter()
 
 A filled BuilderParameter.
 
-### GetNameAttribute\(string, ref List<string\>\)
+### <a id="VM_Managed_CAD_Builder_GetNameAttribute_System_String_System_Collections_Generic_List_System_String___"></a> GetNameAttribute\(string, ref List<string\>\)
 
 ```csharp
 public virtual void GetNameAttribute(string strPrefix, ref List<string> lstName)
@@ -432,7 +432,7 @@ public virtual void GetNameAttribute(string strPrefix, ref List<string> lstName)
 
 `lstName` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### GetParentBody\(\)
+### <a id="VM_Managed_CAD_Builder_GetParentBody"></a> GetParentBody\(\)
 
 Get parent body
 
@@ -444,7 +444,7 @@ public Body GetParentBody()
 
  [Body](VM.Managed.CAD.Body.md)
 
-### GetUnitScale\(\)
+### <a id="VM_Managed_CAD_Builder_GetUnitScale"></a> GetUnitScale\(\)
 
 ```csharp
 protected double GetUnitScale()
@@ -454,7 +454,7 @@ protected double GetUnitScale()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_CAD_Builder_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 ```csharp
 public virtual string GetUnnamedObjectName(object obUnnamed)
@@ -468,7 +468,7 @@ public virtual string GetUnnamedObjectName(object obUnnamed)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetXmlString\(\)
+### <a id="VM_Managed_CAD_Builder_GetXmlString"></a> GetXmlString\(\)
 
 ```csharp
 public string GetXmlString()
@@ -478,7 +478,7 @@ public string GetXmlString()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_CAD_Builder_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -492,7 +492,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_CAD_Builder_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -510,7 +510,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_CAD_Builder_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -524,13 +524,13 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### PostWorkWhenFailedToGetXmlString\(\)
+### <a id="VM_Managed_CAD_Builder_PostWorkWhenFailedToGetXmlString"></a> PostWorkWhenFailedToGetXmlString\(\)
 
 ```csharp
 protected virtual void PostWorkWhenFailedToGetXmlString()
 ```
 
-### ReplaceData\(string, object\)
+### <a id="VM_Managed_CAD_Builder_ReplaceData_System_String_System_Object_"></a> ReplaceData\(string, object\)
 
 Replace data
 
@@ -551,5 +551,4 @@ The data for replacing.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

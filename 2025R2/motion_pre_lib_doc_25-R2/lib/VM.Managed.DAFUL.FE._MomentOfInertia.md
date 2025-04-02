@@ -1,4 +1,4 @@
-# Struct \_MomentOfInertia
+#  Struct \_MomentOfInertia
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +11,7 @@ public struct _MomentOfInertia
 
 ## Constructors
 
-### \_MomentOfInertia\(double\)
+### <a id="VM_Managed_DAFUL_FE__MomentOfInertia__ctor_System_Double_"></a> \_MomentOfInertia\(double\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE._MomentOfInertia" data-throw-if-not-resolved="false"></xref> class.
 
@@ -27,7 +27,7 @@ The initial value.
 
 ## Fields
 
-### Ixx
+### <a id="VM_Managed_DAFUL_FE__MomentOfInertia_Ixx"></a> Ixx
 
 Ixx of moment of inertia.
 
@@ -39,7 +39,7 @@ public double Ixx
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Ixy
+### <a id="VM_Managed_DAFUL_FE__MomentOfInertia_Ixy"></a> Ixy
 
 Ixy of moment of inertia.
 
@@ -51,7 +51,7 @@ public double Ixy
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Ixz
+### <a id="VM_Managed_DAFUL_FE__MomentOfInertia_Ixz"></a> Ixz
 
 Ixz of moment of inertia.
 
@@ -63,7 +63,7 @@ public double Ixz
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Iyy
+### <a id="VM_Managed_DAFUL_FE__MomentOfInertia_Iyy"></a> Iyy
 
 Iyy of moment of inertia.
 
@@ -75,7 +75,7 @@ public double Iyy
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Iyz
+### <a id="VM_Managed_DAFUL_FE__MomentOfInertia_Iyz"></a> Iyz
 
 Iyz of moment of inertia.
 
@@ -87,7 +87,7 @@ public double Iyz
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Izz
+### <a id="VM_Managed_DAFUL_FE__MomentOfInertia_Izz"></a> Izz
 
 Izz of moment of inertia.
 
@@ -98,5 +98,4 @@ public double Izz
 #### Field Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

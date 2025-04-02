@@ -1,4 +1,4 @@
-# Class FMass
+#  Class FMass
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -175,7 +175,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### FMass\(string\)
+### <a id="VM_Managed_DAFUL_FE_FMass__ctor_System_String_"></a> FMass\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -189,7 +189,7 @@ public FMass(string strName)
 
 Name of the FE mass.
 
-### FMass\(\)
+### <a id="VM_Managed_DAFUL_FE_FMass__ctor"></a> FMass\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -199,7 +199,7 @@ public FMass()
 
 ## Properties
 
-### Mass
+### <a id="VM_Managed_DAFUL_FE_FMass_Mass"></a> Mass
 
 Gets or sets mass.
 
@@ -211,7 +211,7 @@ public double Mass { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MomentOfInertia\[MomentOfInertia\]
+### <a id="VM_Managed_DAFUL_FE_FMass_MomentOfInertia_VM_Managed_DAFUL_MomentOfInertia_"></a> MomentOfInertia\[MomentOfInertia\]
 
 Gets or sets moment of inertia.
 
@@ -223,7 +223,7 @@ public double MomentOfInertia[MomentOfInertia enType] { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Node
+### <a id="VM_Managed_DAFUL_FE_FMass_Node"></a> Node
 
 Gets node.
 
@@ -237,7 +237,7 @@ public Node Node { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_FE_FMass_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -251,7 +251,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### get\_MomentOfInertia\(MomentOfInertia\)
+### <a id="VM_Managed_DAFUL_FE_FMass_get_MomentOfInertia_VM_Managed_DAFUL_MomentOfInertia_"></a> get\_MomentOfInertia\(MomentOfInertia\)
 
 ```csharp
 public double get_MomentOfInertia(MomentOfInertia enType)
@@ -265,7 +265,7 @@ public double get_MomentOfInertia(MomentOfInertia enType)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### set\_MomentOfInertia\(MomentOfInertia, double\)
+### <a id="VM_Managed_DAFUL_FE_FMass_set_MomentOfInertia_VM_Managed_DAFUL_MomentOfInertia_System_Double_"></a> set\_MomentOfInertia\(MomentOfInertia, double\)
 
 ```csharp
 public void set_MomentOfInertia(MomentOfInertia enType, double dVal)
@@ -276,5 +276,4 @@ public void set_MomentOfInertia(MomentOfInertia enType, double dVal)
 `enType` MomentOfInertia
 
 `dVal` [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

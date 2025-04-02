@@ -1,4 +1,4 @@
-# Struct Body.Rebuild
+#  Struct Body.Rebuild
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -12,5 +12,4 @@ public struct Body.Rebuild : ILinkContainerEvent.ILinkEventBuilder
 #### Implements
 
 [ILinkContainerEvent.ILinkEventBuilder](VM.Managed.ILinkContainerEvent.ILinkEventBuilder.md)
-
 

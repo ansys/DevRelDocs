@@ -1,4 +1,4 @@
-# Class GearSet
+#  Class GearSet
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -264,7 +264,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearSet\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSet__ctor"></a> GearSet\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -272,7 +272,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSet
 public GearSet()
 ```
 
-### GearSet\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSet__ctor_System_String_"></a> GearSet\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -288,7 +288,7 @@ Name of the string.
 
 ## Properties
 
-### TypeFileName
+### <a id="VM_Managed_DAFUL_GearTrain_GearSet_TypeFileName"></a> TypeFileName
 
 Gets the name of the type file.
 
@@ -302,7 +302,7 @@ public override string TypeFileName { get; }
 
 ## Methods
 
-### MeshingCore\(int, double, ref List<IGearBuilder\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSet_MeshingCore_System_Int32_System_Double_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder___"></a> MeshingCore\(int, double, ref List<IGearBuilder\>\)
 
 Meshing
 
@@ -324,7 +324,7 @@ The initial angle
 
 The builder list
 
-### OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSet_OnPreBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Pre build in Special
 
@@ -345,5 +345,4 @@ The document
 `InputArray` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The input array
-
 

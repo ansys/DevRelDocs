@@ -1,4 +1,4 @@
-# Class BearingFrictionLoss
+#  Class BearingFrictionLoss
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BearingFrictionLoss\(\)
+### <a id="VM_Managed_DAFUL_Chained_BearingFrictionLoss__ctor"></a> BearingFrictionLoss\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.BearingFrictionLoss" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.BearingFr
 public BearingFrictionLoss()
 ```
 
-### BearingFrictionLoss\(IOwned\)
+### <a id="VM_Managed_DAFUL_Chained_BearingFrictionLoss__ctor_VM_Models_Pre_IOwned_"></a> BearingFrictionLoss\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.BearingFrictionLoss" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner.
 
 ## Properties
 
-### Bearing
+### <a id="VM_Managed_DAFUL_Chained_BearingFrictionLoss_Bearing"></a> Bearing
 
 Gets or sets the bearing.
 
@@ -132,7 +132,7 @@ public IConnector Bearing { get; set; }
 
  IConnector
 
-### Diameter
+### <a id="VM_Managed_DAFUL_Chained_BearingFrictionLoss_Diameter"></a> Diameter
 
 Gets or sets the diameter.
 
@@ -144,7 +144,7 @@ public ExpressionValueVariable Diameter { get; set; }
 
  ExpressionValueVariable
 
-### Friction
+### <a id="VM_Managed_DAFUL_Chained_BearingFrictionLoss_Friction"></a> Friction
 
 Gets or sets the friction.
 
@@ -156,7 +156,7 @@ public ExpressionValueVariable Friction { get; set; }
 
  ExpressionValueVariable
 
-### \_Bearing
+### <a id="VM_Managed_DAFUL_Chained_BearingFrictionLoss__Bearing"></a> \_Bearing
 
 Gets or sets the bearing.
 
@@ -170,7 +170,7 @@ public Linker<IConnector> _Bearing { get; set; }
 
 ## Methods
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Chained_BearingFrictionLoss_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -187,5 +187,4 @@ The linked object.
 `arg` LinkEventArgs
 
 The destroy event information.
-
 

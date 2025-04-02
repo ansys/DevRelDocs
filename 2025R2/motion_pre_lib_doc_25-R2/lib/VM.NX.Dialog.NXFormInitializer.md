@@ -1,4 +1,4 @@
-# Class NXFormInitializer
+#  Class NXFormInitializer
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDM.dll  
@@ -24,7 +24,7 @@ INXFormInit
 
 ## Constructors
 
-### NXFormInitializer\(\)
+### <a id="VM_NX_Dialog_NXFormInitializer__ctor"></a> NXFormInitializer\(\)
 
 ```csharp
 public NXFormInitializer()
@@ -32,7 +32,7 @@ public NXFormInitializer()
 
 ## Methods
 
-### Initialize\(IAppHandle\)
+### <a id="VM_NX_Dialog_NXFormInitializer_Initialize_VM_NX_Dialog_IAppHandle_"></a> Initialize\(IAppHandle\)
 
 ```csharp
 public void Initialize(IAppHandle handle)
@@ -41,5 +41,4 @@ public void Initialize(IAppHandle handle)
 #### Parameters
 
 `handle` IAppHandle
-
 

@@ -1,4 +1,4 @@
-# Class NavigatorAddon
+#  Class NavigatorAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -59,7 +59,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### NavigatorAddon\(\)
+### <a id="VM_Managed_History_NavigatorAddon__ctor"></a> NavigatorAddon\(\)
 
 ```csharp
 public NavigatorAddon()
@@ -67,13 +67,13 @@ public NavigatorAddon()
 
 ## Methods
 
-### Add\(\)
+### <a id="VM_Managed_History_NavigatorAddon_Add"></a> Add\(\)
 
 ```csharp
 protected void Add()
 ```
 
-### AddCore\(UIntPtr\)
+### <a id="VM_Managed_History_NavigatorAddon_AddCore_System_UIntPtr_"></a> AddCore\(UIntPtr\)
 
 ```csharp
 public static void AddCore(UIntPtr key)
@@ -83,7 +83,7 @@ public static void AddCore(UIntPtr key)
 
 `key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### Process\(object, HistoryEventArgs\)
+### <a id="VM_Managed_History_NavigatorAddon_Process_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Process\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void Process(object o, HistoryEventArgs args)
@@ -95,13 +95,13 @@ protected override void Process(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### Remove\(\)
+### <a id="VM_Managed_History_NavigatorAddon_Remove"></a> Remove\(\)
 
 ```csharp
 protected void Remove()
 ```
 
-### RemoveCore\(UIntPtr\)
+### <a id="VM_Managed_History_NavigatorAddon_RemoveCore_System_UIntPtr_"></a> RemoveCore\(UIntPtr\)
 
 ```csharp
 public static void RemoveCore(UIntPtr key)
@@ -111,13 +111,13 @@ public static void RemoveCore(UIntPtr key)
 
 `key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### Rename\(\)
+### <a id="VM_Managed_History_NavigatorAddon_Rename"></a> Rename\(\)
 
 ```csharp
 protected void Rename()
 ```
 
-### RenameCore\(UIntPtr\)
+### <a id="VM_Managed_History_NavigatorAddon_RenameCore_System_UIntPtr_"></a> RenameCore\(UIntPtr\)
 
 ```csharp
 public static void RenameCore(UIntPtr key)
@@ -127,13 +127,13 @@ public static void RenameCore(UIntPtr key)
 
 `key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### Update\(\)
+### <a id="VM_Managed_History_NavigatorAddon_Update"></a> Update\(\)
 
 ```csharp
 protected void Update()
 ```
 
-### UpdateCore\(UIntPtr\)
+### <a id="VM_Managed_History_NavigatorAddon_UpdateCore_System_UIntPtr_"></a> UpdateCore\(UIntPtr\)
 
 ```csharp
 public static void UpdateCore(UIntPtr key)
@@ -142,5 +142,4 @@ public static void UpdateCore(UIntPtr key)
 #### Parameters
 
 `key` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
-
 

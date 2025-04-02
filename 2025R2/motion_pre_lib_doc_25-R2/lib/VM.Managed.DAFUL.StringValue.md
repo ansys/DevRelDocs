@@ -1,4 +1,4 @@
-# Class StringValue
+#  Class StringValue
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  
@@ -172,7 +172,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### StringValue\(\)
+### <a id="VM_Managed_DAFUL_StringValue__ctor"></a> StringValue\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.StringValue" data-throw-if-not-resolved="false"></xref> class.
 
@@ -180,7 +180,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.StringValue" data
 public StringValue()
 ```
 
-### StringValue\(string\)
+### <a id="VM_Managed_DAFUL_StringValue__ctor_System_String_"></a> StringValue\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.StringValue" data-throw-if-not-resolved="false"></xref> class.
 
@@ -196,7 +196,7 @@ Name of the string.
 
 ## Fields
 
-### m\_bSkipToUpdateSymmetric
+### <a id="VM_Managed_DAFUL_StringValue_m_bSkipToUpdateSymmetric"></a> m\_bSkipToUpdateSymmetric
 
 ```csharp
 protected bool m_bSkipToUpdateSymmetric
@@ -208,7 +208,7 @@ protected bool m_bSkipToUpdateSymmetric
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_StringValue_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -220,7 +220,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### FolderPath
+### <a id="VM_Managed_DAFUL_StringValue_FolderPath"></a> FolderPath
 
 Gets or sets the flag of folder path.
 
@@ -232,7 +232,7 @@ public bool FolderPath { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsInterface
+### <a id="VM_Managed_DAFUL_StringValue_IsInterface"></a> IsInterface
 
 Gets or sets a value indicating whether this instance is interface.
 
@@ -244,7 +244,7 @@ public bool IsInterface { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_StringValue_ReferenceType"></a> ReferenceType
 
 Gets the type of the string for argument.
 
@@ -256,7 +256,7 @@ public string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### StringVal
+### <a id="VM_Managed_DAFUL_StringValue_StringVal"></a> StringVal
 
 Gets or sets the string.
 
@@ -270,7 +270,7 @@ public string StringVal { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_StringValue_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -284,7 +284,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_DAFUL_StringValue_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -298,7 +298,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_StringValue_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -311,5 +311,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

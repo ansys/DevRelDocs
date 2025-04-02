@@ -1,4 +1,4 @@
-# Class BuilderCone
+#  Class BuilderCone
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -205,7 +205,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderCone\(\)
+### <a id="VM_Managed_CAD_BuilderCone__ctor"></a> BuilderCone\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderCone" data-throw-if-not-resolved="false"></xref> class
 
@@ -215,7 +215,7 @@ public BuilderCone()
 
 ## Properties
 
-### \_TopRadius
+### <a id="VM_Managed_CAD_BuilderCone__TopRadius"></a> \_TopRadius
 
 Gets the top radius of block.
 
@@ -229,7 +229,7 @@ public abstract double _TopRadius { get; }
 
 ## Methods
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_BuilderCone_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Checks validation about build.
 
@@ -237,7 +237,7 @@ Checks validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_BuilderCone_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -247,7 +247,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_BuilderCone_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -256,5 +256,4 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
-
 

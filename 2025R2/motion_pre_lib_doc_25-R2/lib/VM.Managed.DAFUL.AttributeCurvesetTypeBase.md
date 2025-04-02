@@ -1,4 +1,4 @@
-# Class AttributeCurvesetTypeBase
+#  Class AttributeCurvesetTypeBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -103,7 +103,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeCurvesetTypeBase\(\)
+### <a id="VM_Managed_DAFUL_AttributeCurvesetTypeBase__ctor"></a> AttributeCurvesetTypeBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeCurvesetTypeBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public AttributeCurvesetTypeBase()
 
 ## Properties
 
-### Type
+### <a id="VM_Managed_DAFUL_AttributeCurvesetTypeBase_Type"></a> Type
 
 Gets or sets the type.
 
@@ -124,5 +124,4 @@ public AttributeCurvesetTypeBase.CurvesetType Type { get; set; }
 #### Property Value
 
  [AttributeCurvesetTypeBase](VM.Managed.DAFUL.AttributeCurvesetTypeBase.md).[CurvesetType](VM.Managed.DAFUL.AttributeCurvesetTypeBase.CurvesetType.md)
-
 

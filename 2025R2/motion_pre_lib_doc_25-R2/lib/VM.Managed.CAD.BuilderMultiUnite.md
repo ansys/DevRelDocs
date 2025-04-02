@@ -1,4 +1,4 @@
-# Class BuilderMultiUnite
+#  Class BuilderMultiUnite
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -216,7 +216,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderMultiUnite\(\)
+### <a id="VM_Managed_CAD_BuilderMultiUnite__ctor"></a> BuilderMultiUnite\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderMultiUnite" data-throw-if-not-resolved="false"></xref> class
 
@@ -226,7 +226,7 @@ public BuilderMultiUnite()
 
 ## Methods
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_BuilderMultiUnite_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -236,7 +236,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_BuilderMultiUnite_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -245,5 +245,4 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
-
 

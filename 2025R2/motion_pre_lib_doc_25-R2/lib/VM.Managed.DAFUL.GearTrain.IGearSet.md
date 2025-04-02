@@ -1,4 +1,4 @@
-# Interface IGearSet
+#  Interface IGearSet
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IGearSet
 
 ## Properties
 
-### AddToShaft
+### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_AddToShaft"></a> AddToShaft
 
 Gets the flag whether this instance add to shaft or not.
 
@@ -29,7 +29,7 @@ bool AddToShaft { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GearBodies
+### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_GearBodies"></a> GearBodies
 
 Gets or sets the gear bodies.
 
@@ -41,7 +41,7 @@ Body[] GearBodies { get; set; }
 
  Body\[\]
 
-### GearBodiesExceptWeb
+### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_GearBodiesExceptWeb"></a> GearBodiesExceptWeb
 
 Gets the gear bodies except web.
 
@@ -53,7 +53,7 @@ Body[] GearBodiesExceptWeb { get; }
 
  Body\[\]
 
-### PICandidates
+### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_PICandidates"></a> PICandidates
 
 Gets the array of performance index candidate.
 
@@ -65,7 +65,7 @@ PerformanceIndexInformation[] PICandidates { get; }
 
  [PerformanceIndexInformation](VM.Managed.DAFUL.GearTrain.PerformanceIndexInformation.md)\[\]
 
-### PairInfos
+### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_PairInfos"></a> PairInfos
 
 Gets the gear pair information.
 
@@ -77,7 +77,7 @@ GearPairInfoForSubsystem[] PairInfos { get; }
 
  [GearPairInfoForSubsystem](VM.Managed.DAFUL.GearTrain.GearPairInfoForSubsystem.md)\[\]
 
-### PropertyOfGearSet
+### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_PropertyOfGearSet"></a> PropertyOfGearSet
 
 Gets the property of gear set.
 
@@ -89,7 +89,7 @@ PropertyGearSetBase PropertyOfGearSet { get; }
 
  [PropertyGearSetBase](VM.Managed.DAFUL.GearTrain.PropertyGearSetBase.md)
 
-### UseMeshing
+### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_UseMeshing"></a> UseMeshing
 
 Gets the flag whether this instance is meshing or not.
 
@@ -103,7 +103,7 @@ bool UseMeshing { get; }
 
 ## Methods
 
-### AddBuilder\(Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_AddBuilder_VM_Managed_CAD_Builder_"></a> AddBuilder\(Builder\)
 
 Adds the builder.
 
@@ -121,7 +121,7 @@ The bui.
 
  Body
 
-### AddPairInfo\(Body, Body\)
+### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_AddPairInfo_VM_Managed_CAD_Body_VM_Managed_CAD_Body_"></a> AddPairInfo\(Body, Body\)
 
 Adds the pair information.
 
@@ -139,7 +139,7 @@ The target.
 
 The tool.
 
-### FillGearData\(Document, int, string, string\[\], string\[\], string\[\], string\[\], bool, bool, string, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_FillGearData_VM_Managed_Document_System_Int32_System_String_System_String___System_String___System_String___System_String___System_Boolean_System_Boolean_System_String_System_String___"></a> FillGearData\(Document, int, string, string\[\], string\[\], string\[\], string\[\], bool, bool, string, string\[\]\)
 
 Fill gear data
 
@@ -197,7 +197,7 @@ The input array for create
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetBodyFromGeometryInfo\(GeometryInfoBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_GetBodyFromGeometryInfo_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_"></a> GetBodyFromGeometryInfo\(GeometryInfoBase\)
 
 Get body from geometry information.
 
@@ -215,7 +215,7 @@ The geometry information.
 
  Body
 
-### Meshing\(List<IGearBuilder\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_Meshing_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder__"></a> Meshing\(List<IGearBuilder\>\)
 
 Meshing the gears.
 
@@ -233,7 +233,7 @@ The gear builder list.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RemoveBuilder\(Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_IGearSet_RemoveBuilder_VM_Managed_CAD_Builder_"></a> RemoveBuilder\(Builder\)
 
 Removes the builder.
 
@@ -246,5 +246,4 @@ void RemoveBuilder(Builder bui)
 `bui` Builder
 
 The bui.
-
 

@@ -1,4 +1,4 @@
-# Class Options
+#  Class Options
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -22,7 +22,7 @@ public class Options
 
 ## Constructors
 
-### Options\(\)
+### <a id="VM_CAD_Kernel_Options__ctor"></a> Options\(\)
 
 ```csharp
 public Options()
@@ -30,7 +30,7 @@ public Options()
 
 ## Properties
 
-### Option
+### <a id="VM_CAD_Kernel_Options_Option"></a> Option
 
 ```csharp
 public Option Option { get; set; }
@@ -39,5 +39,4 @@ public Option Option { get; set; }
 #### Property Value
 
  [Option](VM.CAD.Kernel.Option.md)
-
 

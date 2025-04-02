@@ -1,4 +1,4 @@
-# Interface IPseudoEntityOnShaftSet
+#  Interface IPseudoEntityOnShaftSet
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IPseudoEntityOnShaftSet
 
 ## Properties
 
-### GetInformation
+### <a id="VM_Managed_DAFUL_GearTrain_IPseudoEntityOnShaftSet_GetInformation"></a> GetInformation
 
 Gets the get information.
 
@@ -28,5 +28,4 @@ PointEntityOnShaftSet GetInformation { get; }
 #### Property Value
 
  [PointEntityOnShaftSet](VM.Managed.DAFUL.GearTrain.PointEntityOnShaftSet.md)
-
 

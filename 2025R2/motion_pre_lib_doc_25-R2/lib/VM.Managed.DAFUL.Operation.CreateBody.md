@@ -1,4 +1,4 @@
-# Class CreateBody
+#  Class CreateBody
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -22,7 +22,7 @@ public class CreateBody
 
 ## Constructors
 
-### CreateBody\(\)
+### <a id="VM_Managed_DAFUL_Operation_CreateBody__ctor"></a> CreateBody\(\)
 
 ```csharp
 public CreateBody()
@@ -30,7 +30,7 @@ public CreateBody()
 
 ## Methods
 
-### CreateBlockBody\(SubSystemDocument, string, double, double, double, PointBase\)
+### <a id="VM_Managed_DAFUL_Operation_CreateBody_CreateBlockBody_VM_Managed_DAFUL_SubSystemDocument_System_String_System_Double_System_Double_System_Double_VM_Managed_PointBase_"></a> CreateBlockBody\(SubSystemDocument, string, double, double, double, PointBase\)
 
 Create block body
 
@@ -68,7 +68,7 @@ the position
 
  SolidBody
 
-### CreateCylinderBody\(Document, string, PointBase, PointBase, double\)
+### <a id="VM_Managed_DAFUL_Operation_CreateBody_CreateCylinderBody_VM_Managed_Document_System_String_VM_Managed_PointBase_VM_Managed_PointBase_System_Double_"></a> CreateCylinderBody\(Document, string, PointBase, PointBase, double\)
 
 Create cylinder body
 
@@ -102,7 +102,7 @@ The radius
 
  SolidBody
 
-### CreateCylinderBody\(Document, PointBase, PointBase, double\)
+### <a id="VM_Managed_DAFUL_Operation_CreateBody_CreateCylinderBody_VM_Managed_Document_VM_Managed_PointBase_VM_Managed_PointBase_System_Double_"></a> CreateCylinderBody\(Document, PointBase, PointBase, double\)
 
 Create cylinder body in part
 
@@ -132,7 +132,7 @@ The radius
 
  Body
 
-### CreateSphereBody\(Document, string, double, PointBase, bool, bool\)
+### <a id="VM_Managed_DAFUL_Operation_CreateBody_CreateSphereBody_VM_Managed_Document_System_String_System_Double_VM_Managed_PointBase_System_Boolean_System_Boolean_"></a> CreateSphereBody\(Document, string, double, PointBase, bool, bool\)
 
 Create sphere body
 
@@ -170,7 +170,7 @@ Flag for add created element to document.
 
  SolidBody
 
-### CreateSphereBody\(Document, string, string, PointBase, bool, bool\)
+### <a id="VM_Managed_DAFUL_Operation_CreateBody_CreateSphereBody_VM_Managed_Document_System_String_System_String_VM_Managed_PointBase_System_Boolean_System_Boolean_"></a> CreateSphereBody\(Document, string, string, PointBase, bool, bool\)
 
 Create sphere body
 
@@ -207,5 +207,4 @@ Flag for add created element to document.
 #### Returns
 
  SolidBody
-
 

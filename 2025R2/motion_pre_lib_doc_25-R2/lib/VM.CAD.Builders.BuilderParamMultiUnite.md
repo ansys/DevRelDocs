@@ -1,4 +1,4 @@
-# Class BuilderParamMultiUnite
+#  Class BuilderParamMultiUnite
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -35,10 +35,9 @@ public class BuilderParamMultiUnite : BuilderParamMulti
 
 ## Constructors
 
-### BuilderParamMultiUnite\(\)
+### <a id="VM_CAD_Builders_BuilderParamMultiUnite__ctor"></a> BuilderParamMultiUnite\(\)
 
 ```csharp
 public BuilderParamMultiUnite()
 ```
-
 

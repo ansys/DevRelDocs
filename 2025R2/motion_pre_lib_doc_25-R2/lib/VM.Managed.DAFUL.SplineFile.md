@@ -1,4 +1,4 @@
-# Class SplineFile
+#  Class SplineFile
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -83,7 +83,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SplineFile\(\)
+### <a id="VM_Managed_DAFUL_SplineFile__ctor"></a> SplineFile\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SplineFile" data-throw-if-not-resolved="false"></xref> class.
 
@@ -93,7 +93,7 @@ public SplineFile()
 
 ## Properties
 
-### ContainsNegativeNumber
+### <a id="VM_Managed_DAFUL_SplineFile_ContainsNegativeNumber"></a> ContainsNegativeNumber
 
 Gets the flag whether number is negative or not.
 
@@ -105,7 +105,7 @@ public override bool ContainsNegativeNumber { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### FilePath
+### <a id="VM_Managed_DAFUL_SplineFile_FilePath"></a> FilePath
 
 Gets or sets the file path.
 
@@ -117,7 +117,7 @@ public string FilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SelectedSplineName
+### <a id="VM_Managed_DAFUL_SplineFile_SelectedSplineName"></a> SelectedSplineName
 
 Gets or sets the name of the selected spline.
 
@@ -129,7 +129,7 @@ public string SelectedSplineName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Type
+### <a id="VM_Managed_DAFUL_SplineFile_Type"></a> Type
 
 Gets or sets the type.
 
@@ -143,7 +143,7 @@ public override SplineData.DataType Type { get; protected set; }
 
 ## Methods
 
-### GetPoints\(\)
+### <a id="VM_Managed_DAFUL_SplineFile_GetPoints"></a> GetPoints\(\)
 
 <p>Gets the points.</p>
 
@@ -157,7 +157,7 @@ public override IEnumerable<SplineData.Point> GetPoints()
 
 The point list.
 
-### GetPoints\(string\)
+### <a id="VM_Managed_DAFUL_SplineFile_GetPoints_System_String_"></a> GetPoints\(string\)
 
 Gets the points.
 
@@ -177,7 +177,7 @@ The Document file path.
 
 The point list.
 
-### GetPoints\(List<double\>, List<double\>\)
+### <a id="VM_Managed_DAFUL_SplineFile_GetPoints_System_Collections_Generic_List_System_Double__System_Collections_Generic_List_System_Double__"></a> GetPoints\(List<double\>, List<double\>\)
 
 Gets the points.
 
@@ -195,7 +195,7 @@ The LST X.
 
 The LST Y.
 
-### GetPoints\(List<double\>, List<double\>, string\)
+### <a id="VM_Managed_DAFUL_SplineFile_GetPoints_System_Collections_Generic_List_System_Double__System_Collections_Generic_List_System_Double__System_String_"></a> GetPoints\(List<double\>, List<double\>, string\)
 
 Gets the points.
 
@@ -217,7 +217,7 @@ The LST Y.
 
 The Document file path.
 
-### GetSchema\(\)
+### <a id="VM_Managed_DAFUL_SplineFile_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <xref href="System.Xml.Serialization.XmlSchemaProviderAttribute" data-throw-if-not-resolved="false"></xref> to the class.
 
@@ -231,7 +231,7 @@ public override XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_SplineFile_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -245,7 +245,7 @@ public override void ReadXml(XmlReader reader)
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_SplineFile_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -258,5 +258,4 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
-
 

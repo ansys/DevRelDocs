@@ -1,4 +1,4 @@
-# Class MemberItem<TDescriptor\>
+#  Class MemberItem<TDescriptor\>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -13,12 +13,12 @@ public abstract class MemberItem<TDescriptor> where TDescriptor : MemberDescript
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [MemberItem<TDescriptor\>](VM.MemberItem\-1.md)
 
 ## Constructors
 
-### MemberItem\(TDescriptor\)
+### <a id="VM_MemberItem_1__ctor__0_"></a> MemberItem\(TDescriptor\)
 
 ```python
 protected MemberItem(TDescriptor memberDescriptor)
@@ -30,7 +30,7 @@ protected MemberItem(TDescriptor memberDescriptor)
 
 ## Properties
 
-### Attributes
+### <a id="VM_MemberItem_1_Attributes"></a> Attributes
 
 ```python
 public IEnumerable<Attribute> Attributes { get; }
@@ -40,7 +40,7 @@ public IEnumerable<Attribute> Attributes { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\>
 
-### MemberDescriptor
+### <a id="VM_MemberItem_1_MemberDescriptor"></a> MemberDescriptor
 
 ```python
 protected TDescriptor MemberDescriptor { get; }
@@ -52,7 +52,7 @@ protected TDescriptor MemberDescriptor { get; }
 
 ## Methods
 
-### HasAttribute<T\>\(\)
+### <a id="VM_MemberItem_1_HasAttribute__1"></a> HasAttribute<T\>\(\)
 
 ```python
 public bool HasAttribute<T>() where T : Attribute
@@ -66,7 +66,7 @@ public bool HasAttribute<T>() where T : Attribute
 
 `T` 
 
-### TryGetAttributeInstance<T\>\(out T\)
+### <a id="VM_MemberItem_1_TryGetAttributeInstance__1___0__"></a> TryGetAttributeInstance<T\>\(out T\)
 
 ```python
 public bool TryGetAttributeInstance<T>(out T attribute) where T : Attribute

@@ -1,4 +1,4 @@
-# Interface IInterfaceTable
+#  Interface IInterfaceTable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -17,7 +17,7 @@ public interface IInterfaceTable
 
 ## Properties
 
-### InterfaceTables
+### <a id="VM_Managed_IInterfaceTable_InterfaceTables"></a> InterfaceTables
 
 Gets the interface tables.
 
@@ -28,5 +28,4 @@ InstanceContainer.InterfaceTable[] InterfaceTables { get; }
 #### Property Value
 
  [InstanceContainer](VM.Managed.InstanceContainer.md).[InterfaceTable](VM.Managed.InstanceContainer.InterfaceTable.md)\[\]
-
 

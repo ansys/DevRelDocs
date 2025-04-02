@@ -1,4 +1,4 @@
-# Namespace VM.Models.FE.Mesh.Properties
+#  Namespace VM.Models.FE.Mesh.Properties
 
 ### Classes
 
@@ -7,5 +7,4 @@
  [Shell](VM.Models.FE.Mesh.Properties.Shell.md)
 
  [Solid](VM.Models.FE.Mesh.Properties.Solid.md)
-
 

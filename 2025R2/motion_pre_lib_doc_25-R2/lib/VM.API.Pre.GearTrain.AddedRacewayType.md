@@ -1,4 +1,4 @@
-# Enum AddedRacewayType
+#  Enum AddedRacewayType
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -20,7 +20,6 @@ Inner
 `Outer = 1` 
 
 Outer
-
 
 
 

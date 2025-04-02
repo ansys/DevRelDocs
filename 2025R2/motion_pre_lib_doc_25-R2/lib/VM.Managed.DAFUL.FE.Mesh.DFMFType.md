@@ -1,4 +1,4 @@
-# Enum Mesh.DFMFType
+#  Enum Mesh.DFMFType
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -16,5 +16,4 @@ public enum Mesh.DFMFType
 `DAFULNodal = 1` 
 
 `FENodal = 0` 
-
 

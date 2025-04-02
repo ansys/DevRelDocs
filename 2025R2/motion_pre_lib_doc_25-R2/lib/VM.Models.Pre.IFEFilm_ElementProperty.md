@@ -1,4 +1,4 @@
-# Interface IFEFilm\_ElementProperty
+#  Interface IFEFilm\_ElementProperty
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -21,7 +21,7 @@ IHasID
 
 ## Properties
 
-### ThicknessPerElement
+### <a id="VM_Models_Pre_IFEFilm_ElementProperty_ThicknessPerElement"></a> ThicknessPerElement
 
 ```csharp
 ExpressionValueVariable ThicknessPerElement { get; set; }
@@ -31,7 +31,7 @@ ExpressionValueVariable ThicknessPerElement { get; set; }
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### WidthPerElement
+### <a id="VM_Models_Pre_IFEFilm_ElementProperty_WidthPerElement"></a> WidthPerElement
 
 ```csharp
 ExpressionValueVariable WidthPerElement { get; set; }
@@ -40,5 +40,4 @@ ExpressionValueVariable WidthPerElement { get; set; }
 #### Property Value
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
-
 

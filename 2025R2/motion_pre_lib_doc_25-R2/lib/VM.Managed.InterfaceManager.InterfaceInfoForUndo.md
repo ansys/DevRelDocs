@@ -1,4 +1,4 @@
-# Struct InterfaceManager.InterfaceInfoForUndo
+#  Struct InterfaceManager.InterfaceInfoForUndo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -11,7 +11,7 @@ public struct InterfaceManager.InterfaceInfoForUndo
 
 ## Constructors
 
-### InterfaceInfoForUndo\(UIntPtr, List<string\>\)
+### <a id="VM_Managed_InterfaceManager_InterfaceInfoForUndo__ctor_System_UIntPtr_System_Collections_Generic_List_System_String__"></a> InterfaceInfoForUndo\(UIntPtr, List<string\>\)
 
 Initializes a new instance of the <xref href="VM.Managed.InterfaceManager.InterfaceInfoForUndo" data-throw-if-not-resolved="false"></xref> struct.
 
@@ -28,5 +28,4 @@ The interface object key.
 `interfaceNames` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 The interface names.
-
 

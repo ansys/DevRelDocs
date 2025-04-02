@@ -1,4 +1,4 @@
-# Class PropertyTireDocument
+#  Class PropertyTireDocument
 
 Namespace: [VM.Managed.DAFUL.Tire.Force](VM.Managed.DAFUL.Tire.Force.md)  
 Assembly: VMDTire.dll  
@@ -309,12 +309,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyTireDocument\(\)
+### <a id="VM_Managed_DAFUL_Tire_Force_PropertyTireDocument__ctor"></a> PropertyTireDocument\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Force.PropertyTireDocument" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyTireDocument()
 ```
-
 

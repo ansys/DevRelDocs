@@ -1,4 +1,4 @@
-# Class HousingFEBase<TProperty\>
+#  Class HousingFEBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -66,7 +66,7 @@ BuilderBase<TProperty\>.ErrorMessage
 
 ## Constructors
 
-### HousingFEBase\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_HousingFEBase_1__ctor"></a> HousingFEBase\(\)
 
 ```csharp
 protected HousingFEBase()
@@ -74,7 +74,7 @@ protected HousingFEBase()
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_HousingFEBase_1_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -89,5 +89,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Class BuilderPair
+#  Class BuilderPair
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderPair\(Builder, Builder\)
+### <a id="VM_Managed_CAD_BuilderPair__ctor_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> BuilderPair\(Builder, Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderBoolean" data-throw-if-not-resolved="false"></xref> class
 
@@ -221,7 +221,7 @@ The target builder.
 
 The tool builder.
 
-### BuilderPair\(\)
+### <a id="VM_Managed_CAD_BuilderPair__ctor"></a> BuilderPair\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderBoolean" data-throw-if-not-resolved="false"></xref> class
 
@@ -231,7 +231,7 @@ public BuilderPair()
 
 ## Properties
 
-### Target
+### <a id="VM_Managed_CAD_BuilderPair_Target"></a> Target
 
 Gets or sets the target builder.
 
@@ -243,7 +243,7 @@ public Builder Target { get; set; }
 
  [Builder](VM.Managed.CAD.Builder.md)
 
-### Tool
+### <a id="VM_Managed_CAD_BuilderPair_Tool"></a> Tool
 
 Gets or sets the tool builder.
 
@@ -257,7 +257,7 @@ public Builder Tool { get; set; }
 
 ## Methods
 
-### Contains\(Type\)
+### <a id="VM_Managed_CAD_BuilderPair_Contains_System_Type_"></a> Contains\(Type\)
 
 ```csharp
 public override bool Contains(Type typeBuilder)
@@ -271,7 +271,7 @@ public override bool Contains(Type typeBuilder)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CopyFilePathWhenImportBuilder\(Builder\)
+### <a id="VM_Managed_CAD_BuilderPair_CopyFilePathWhenImportBuilder_VM_Managed_CAD_Builder_"></a> CopyFilePathWhenImportBuilder\(Builder\)
 
 ```csharp
 public override void CopyFilePathWhenImportBuilder(Builder buiOriginal)
@@ -281,7 +281,7 @@ public override void CopyFilePathWhenImportBuilder(Builder buiOriginal)
 
 `buiOriginal` [Builder](VM.Managed.CAD.Builder.md)
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_BuilderPair_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -291,7 +291,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### Find\(string\)
+### <a id="VM_Managed_CAD_BuilderPair_Find_System_String_"></a> Find\(string\)
 
 Find DAFUL object from the container by full name.
 
@@ -311,7 +311,7 @@ The DAFUL object full name.
 
 The DAFUL object.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_CAD_BuilderPair_FindLocal_System_String_"></a> FindLocal\(string\)
 
 ```csharp
 public override ObjectBase FindLocal(string strName)
@@ -325,7 +325,7 @@ public override ObjectBase FindLocal(string strName)
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### FindLocalImpl\(string\)
+### <a id="VM_Managed_CAD_BuilderPair_FindLocalImpl_System_String_"></a> FindLocalImpl\(string\)
 
 Find DAFUL object from the container by name.
 
@@ -345,7 +345,7 @@ The DAFUL object name.
 
 The DAFUL object.
 
-### GetBodyType\(\)
+### <a id="VM_Managed_CAD_BuilderPair_GetBodyType"></a> GetBodyType\(\)
 
 Gets the type of body.
 
@@ -357,7 +357,7 @@ public override BodyCreateType GetBodyType()
 
  [BodyCreateType](VM.Managed.CAD.BodyCreateType.md)
 
-### GetBuildExtraXml\(StringBuilder\)
+### <a id="VM_Managed_CAD_BuilderPair_GetBuildExtraXml_System_Text_StringBuilder_"></a> GetBuildExtraXml\(StringBuilder\)
 
 Get extra build xml info.
 
@@ -369,7 +369,7 @@ protected virtual void GetBuildExtraXml(StringBuilder A_0)
 
 `A_0` [StringBuilder](https://learn.microsoft.com/dotnet/api/system.text.stringbuilder)
 
-### GetNameAttribute\(string, ref List<string\>\)
+### <a id="VM_Managed_CAD_BuilderPair_GetNameAttribute_System_String_System_Collections_Generic_List_System_String___"></a> GetNameAttribute\(string, ref List<string\>\)
 
 ```csharp
 public override void GetNameAttribute(string strPrefix, ref List<string> lstName)
@@ -381,7 +381,7 @@ public override void GetNameAttribute(string strPrefix, ref List<string> lstName
 
 `lstName` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### GetNewEntityName\(string, bool, int, int\)
+### <a id="VM_Managed_CAD_BuilderPair_GetNewEntityName_System_String_System_Boolean_System_Int32_System_Int32_"></a> GetNewEntityName\(string, bool, int, int\)
 
 Generate an unique DAFUL object name from the container using the prefix name.
 
@@ -413,7 +413,7 @@ The start index.
 
 The DAFUL object name.
 
-### GetNewEntityName\(string, bool, int\)
+### <a id="VM_Managed_CAD_BuilderPair_GetNewEntityName_System_String_System_Boolean_System_Int32_"></a> GetNewEntityName\(string, bool, int\)
 
 Generate an unique DAFUL object name from the container using the prefix name.
 
@@ -441,7 +441,7 @@ The Number of Figure.
 
 The DAFUL object name.
 
-### GetNewEntityName\(string\)
+### <a id="VM_Managed_CAD_BuilderPair_GetNewEntityName_System_String_"></a> GetNewEntityName\(string\)
 
 Generate an unique DAFUL object name from the container using the prefix name.
 
@@ -461,7 +461,7 @@ The DAFUL object prefix name.
 
 The DAFUL object name.
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_CAD_BuilderPair_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 ```csharp
 public override string GetUnnamedObjectName(object obUnnamed)
@@ -475,7 +475,7 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_CAD_BuilderPair_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -489,7 +489,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### RebuildGeometry\(object, LinkEventArgs\)
+### <a id="VM_Managed_CAD_BuilderPair_RebuildGeometry_System_Object_VM_Managed_LinkEventArgs_"></a> RebuildGeometry\(object, LinkEventArgs\)
 
 Rebuild geometry.
 
@@ -507,14 +507,14 @@ The builder.
 
 The event handler.
 
-### RemoveFromCreatedList\(\)
+### <a id="VM_Managed_CAD_BuilderPair_RemoveFromCreatedList"></a> RemoveFromCreatedList\(\)
 
 ```csharp
 [Obsolete]
 public override void RemoveFromCreatedList()
 ```
 
-### ReplaceBuild\(Builder, Builder\)
+### <a id="VM_Managed_CAD_BuilderPair_ReplaceBuild_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> ReplaceBuild\(Builder, Builder\)
 
 ```csharp
 public override void ReplaceBuild(Builder buildOriginal, Builder buildReplace)
@@ -526,7 +526,7 @@ public override void ReplaceBuild(Builder buildOriginal, Builder buildReplace)
 
 `buildReplace` [Builder](VM.Managed.CAD.Builder.md)
 
-### ReplaceData\(string, object\)
+### <a id="VM_Managed_CAD_BuilderPair_ReplaceData_System_String_System_Object_"></a> ReplaceData\(string, object\)
 
 Replace data
 
@@ -548,7 +548,7 @@ The data for replacing.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetTransform\(TMatrix\)
+### <a id="VM_Managed_CAD_BuilderPair_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -561,5 +561,4 @@ public override void SetTransform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform info.
-
 

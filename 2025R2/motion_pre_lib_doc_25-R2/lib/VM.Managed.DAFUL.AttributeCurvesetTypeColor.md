@@ -1,4 +1,4 @@
-# Class AttributeCurvesetTypeColor
+#  Class AttributeCurvesetTypeColor
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeCurvesetTypeColor\(\)
+### <a id="VM_Managed_DAFUL_AttributeCurvesetTypeColor__ctor"></a> AttributeCurvesetTypeColor\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeCurvesetTypeBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -111,7 +111,7 @@ public AttributeCurvesetTypeColor()
 
 ## Properties
 
-### ColorList
+### <a id="VM_Managed_DAFUL_AttributeCurvesetTypeColor_ColorList"></a> ColorList
 
 Gets or sets the list of argb color value.
 
@@ -122,5 +122,4 @@ public List<int> ColorList { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
-
 

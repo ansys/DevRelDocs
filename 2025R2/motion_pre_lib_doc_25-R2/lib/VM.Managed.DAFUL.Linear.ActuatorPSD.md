@@ -1,4 +1,4 @@
-# Class ActuatorPSD
+#  Class ActuatorPSD
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  
@@ -205,7 +205,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ActuatorPSD\(\)
+### <a id="VM_Managed_DAFUL_Linear_ActuatorPSD__ctor"></a> ActuatorPSD\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.ActuatorPSD" data-throw-if-not-resolved="false"></xref> class.
 
@@ -213,7 +213,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.ActuatorPS
 public ActuatorPSD()
 ```
 
-### ActuatorPSD\(string\)
+### <a id="VM_Managed_DAFUL_Linear_ActuatorPSD__ctor_System_String_"></a> ActuatorPSD\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.ActuatorPSD" data-throw-if-not-resolved="false"></xref> class.
 
@@ -229,7 +229,7 @@ Name of the STR.
 
 ## Properties
 
-### TypeOfActuator
+### <a id="VM_Managed_DAFUL_Linear_ActuatorPSD_TypeOfActuator"></a> TypeOfActuator
 
 Gets the type of actuator.
 
@@ -243,7 +243,7 @@ public override ActuatorType TypeOfActuator { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Linear_ActuatorPSD_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -256,5 +256,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

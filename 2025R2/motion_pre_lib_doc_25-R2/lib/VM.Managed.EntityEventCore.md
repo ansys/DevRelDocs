@@ -1,4 +1,4 @@
-# Class EntityEventCore
+#  Class EntityEventCore
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -54,7 +54,7 @@ ObjectEventCore.Object
 
 ## Constructors
 
-### EntityEventCore\(\)
+### <a id="VM_Managed_EntityEventCore__ctor"></a> EntityEventCore\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.EntityEventCore" data-throw-if-not-resolved="false"></xref> class.
 
@@ -62,7 +62,7 @@ Initializes a new instance of the <xref href="VM.Managed.EntityEventCore" data-t
 public EntityEventCore()
 ```
 
-### EntityEventCore\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_EntityEventCore__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> EntityEventCore\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.EntityEventCore" data-throw-if-not-resolved="false"></xref> class.
 
@@ -82,7 +82,7 @@ The context.
 
 ## Methods
 
-### PropertyRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_EntityEventCore_PropertyRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> PropertyRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the property.
 
@@ -99,5 +99,4 @@ The linked object.
 `args` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

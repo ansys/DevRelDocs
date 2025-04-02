@@ -1,4 +1,4 @@
-# Class ReferenceFRBE
+#  Class ReferenceFRBE
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -206,7 +206,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferenceFRBE\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_FE_ReferenceFRBE__ctor_VM_Managed_ObjectBase_"></a> ReferenceFRBE\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ReferenceFRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,7 +220,7 @@ public ReferenceFRBE(ObjectBase obj)
 
 The reference's object.
 
-### ReferenceFRBE\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_DAFUL_FE_ReferenceFRBE__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceFRBE\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ReferenceFRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -240,7 +240,7 @@ The context.
 
 ## Properties
 
-### ConnectableFullName
+### <a id="VM_Managed_DAFUL_FE_ReferenceFRBE_ConnectableFullName"></a> ConnectableFullName
 
 Gets the full name of the connectable.
 
@@ -252,7 +252,7 @@ public override string ConnectableFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectableName
+### <a id="VM_Managed_DAFUL_FE_ReferenceFRBE_ConnectableName"></a> ConnectableName
 
 Gets the name of the connectable.
 
@@ -264,7 +264,7 @@ public override string ConnectableName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectablePostfixName
+### <a id="VM_Managed_DAFUL_FE_ReferenceFRBE_ConnectablePostfixName"></a> ConnectablePostfixName
 
 Sets the postfix name of the connectable.
 
@@ -276,7 +276,7 @@ public override string ConnectablePostfixName { set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ParentType
+### <a id="VM_Managed_DAFUL_FE_ReferenceFRBE_ParentType"></a> ParentType
 
 Gets the type of the parent.
 
@@ -290,7 +290,7 @@ public override MarkerParentType ParentType { get; }
 
 ## Methods
 
-### GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
+### <a id="VM_Managed_DAFUL_FE_ReferenceFRBE_GetGeometryNavigatorInformation_System_Xml_XmlDocument_System_Xml_XmlElement_"></a> GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
 
 ```csharp
 public bool GetGeometryNavigatorInformation(XmlDocument xmlDom, XmlElement xmlEle)
@@ -306,7 +306,7 @@ public bool GetGeometryNavigatorInformation(XmlDocument xmlDom, XmlElement xmlEl
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_FE_ReferenceFRBE_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -332,7 +332,7 @@ The XmlElement for object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_FE_ReferenceFRBE_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -349,5 +349,4 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

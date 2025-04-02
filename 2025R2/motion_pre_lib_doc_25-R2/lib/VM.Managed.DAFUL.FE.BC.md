@@ -1,4 +1,4 @@
-# Class BC
+#  Class BC
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -213,7 +213,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BC\(string\)
+### <a id="VM_Managed_DAFUL_FE_BC__ctor_System_String_"></a> BC\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.BC" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ public BC(string strName)
 
 Name of the boundary condition.
 
-### BC\(\)
+### <a id="VM_Managed_DAFUL_FE_BC__ctor"></a> BC\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.BC" data-throw-if-not-resolved="false"></xref> class.
 
@@ -237,7 +237,7 @@ public BC()
 
 ## Properties
 
-### BCComponent
+### <a id="VM_Managed_DAFUL_FE_BC_BCComponent"></a> BCComponent
 
 Gets or sets the boundary condition component.
 
@@ -249,7 +249,7 @@ public INodeSet BCComponent { get; set; }
 
  INodeSet
 
-### GenerableImpl
+### <a id="VM_Managed_DAFUL_FE_BC_GenerableImpl"></a> GenerableImpl
 
 <p> Gets a value indicating whether this instance is generable.</p>
 
@@ -261,7 +261,7 @@ bool GenerableImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsHide
+### <a id="VM_Managed_DAFUL_FE_BC_IsHide"></a> IsHide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -273,7 +273,7 @@ bool IsHide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReferenceMarker
+### <a id="VM_Managed_DAFUL_FE_BC_ReferenceMarker"></a> ReferenceMarker
 
 Gets or sets the base marker.
 
@@ -287,7 +287,7 @@ public IMarker ReferenceMarker { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_FE_BC_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -301,7 +301,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_FE_BC_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -319,7 +319,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_FE_BC_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -333,7 +333,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### ReDraw\(\)
+### <a id="VM_Managed_DAFUL_FE_BC_ReDraw"></a> ReDraw\(\)
 
 Redraw.
 
@@ -341,7 +341,7 @@ Redraw.
 public virtual void ReDraw()
 ```
 
-### ReDrawForHistory\(\)
+### <a id="VM_Managed_DAFUL_FE_BC_ReDrawForHistory"></a> ReDrawForHistory\(\)
 
 Redraw for undo/redo
 
@@ -349,7 +349,7 @@ Redraw for undo/redo
 void ReDrawForHistory()
 ```
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_DAFUL_FE_BC_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -363,7 +363,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_FE_BC_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -376,5 +376,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

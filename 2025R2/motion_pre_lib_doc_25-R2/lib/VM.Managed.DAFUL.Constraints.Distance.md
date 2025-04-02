@@ -1,4 +1,4 @@
-# Class Distance
+#  Class Distance
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -249,7 +249,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Distance\(\)
+### <a id="VM_Managed_DAFUL_Constraints_Distance__ctor"></a> Distance\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Distance" data-throw-if-not-resolved="false"></xref> class.
 
@@ -257,7 +257,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Dista
 public Distance()
 ```
 
-### Distance\(string\)
+### <a id="VM_Managed_DAFUL_Constraints_Distance__ctor_System_String_"></a> Distance\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Distance" data-throw-if-not-resolved="false"></xref> class.
 
@@ -273,7 +273,7 @@ Name of the distance constraint.
 
 ## Properties
 
-### DistanceLength
+### <a id="VM_Managed_DAFUL_Constraints_Distance_DistanceLength"></a> DistanceLength
 
 Gets or sets the length.
 
@@ -285,7 +285,7 @@ public ExpressionValueVariable DistanceLength { get; set; }
 
  ExpressionValueVariable
 
-### PreventDuplicatedRBE
+### <a id="VM_Managed_DAFUL_Constraints_Distance_PreventDuplicatedRBE"></a> PreventDuplicatedRBE
 
 Gets a value whether this instance prevent duplicated RBE.
 
@@ -297,7 +297,7 @@ public override bool PreventDuplicatedRBE { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Constraints_Distance_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -311,7 +311,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Constraints_Distance_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -325,7 +325,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Constraints_Distance_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -339,7 +339,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Constraints_Distance_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -353,7 +353,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Constraints_Distance_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -366,5 +366,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

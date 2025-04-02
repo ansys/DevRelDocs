@@ -1,4 +1,4 @@
-# Class CADOperation.CalcBoundingBoxOp
+#  Class CADOperation.CalcBoundingBoxOp
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### CalcBoundingBoxOp\(\)
+### <a id="VM_Managed_DAFUL_CADOperation_CalcBoundingBoxOp__ctor"></a> CalcBoundingBoxOp\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CADOperation.CalcBoundingBoxOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CADOperation.Calc
 public CalcBoundingBoxOp()
 ```
 
-### CalcBoundingBoxOp\(PartDocument, IDesignFrame\)
+### <a id="VM_Managed_DAFUL_CADOperation_CalcBoundingBoxOp__ctor_VM_Managed_DAFUL_PartDocument_VM_Managed_IDesignFrame_"></a> CalcBoundingBoxOp\(PartDocument, IDesignFrame\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CADOperation.CalcBoundingBoxOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -105,7 +105,7 @@ The design frame
 
 ## Properties
 
-### IsHistoryMerge
+### <a id="VM_Managed_DAFUL_CADOperation_CalcBoundingBoxOp_IsHistoryMerge"></a> IsHistoryMerge
 
 Gets the history merge flag.
 
@@ -117,7 +117,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_CADOperation_CalcBoundingBoxOp_Name"></a> Name
 
 Gets the Name.
 
@@ -129,7 +129,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Result
+### <a id="VM_Managed_DAFUL_CADOperation_CalcBoundingBoxOp_Result"></a> Result
 
 Gets the result.
 
@@ -143,12 +143,11 @@ public double[] Result { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_CADOperation_CalcBoundingBoxOp_Execute"></a> Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
-
 

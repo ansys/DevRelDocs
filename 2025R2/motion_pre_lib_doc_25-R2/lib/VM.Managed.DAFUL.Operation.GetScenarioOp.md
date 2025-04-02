@@ -1,4 +1,4 @@
-# Class GetScenarioOp
+#  Class GetScenarioOp
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### GetScenarioOp\(\)
+### <a id="VM_Managed_DAFUL_Operation_GetScenarioOp__ctor"></a> GetScenarioOp\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Operation.GetScenarioOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Operation.GetScen
 public GetScenarioOp()
 ```
 
-### GetScenarioOp\(DocumentAnalysis, Scenario\)
+### <a id="VM_Managed_DAFUL_Operation_GetScenarioOp__ctor_VM_Managed_DAFUL_DocumentAnalysis_VM_Managed_Simulation_Scenario_"></a> GetScenarioOp\(DocumentAnalysis, Scenario\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Operation.GetScenarioOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -103,7 +103,7 @@ The document.
 
 The scenario.
 
-### GetScenarioOp\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_GetScenarioOp__ctor_VM_Managed_Operation_JournalParameter_"></a> GetScenarioOp\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Operation.ModifyScenarioOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -119,7 +119,7 @@ The journal parameter
 
 ## Properties
 
-### Exist
+### <a id="VM_Managed_DAFUL_Operation_GetScenarioOp_Exist"></a> Exist
 
 Gets the exist flag.
 
@@ -131,7 +131,7 @@ public bool Exist { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsHistoryMerge
+### <a id="VM_Managed_DAFUL_Operation_GetScenarioOp_IsHistoryMerge"></a> IsHistoryMerge
 
 Gets the history merge flag.
 
@@ -143,7 +143,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_GetScenarioOp_Name"></a> Name
 
 Gets the Name.
 
@@ -157,7 +157,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_GetScenarioOp_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -165,7 +165,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Operation_GetScenarioOp_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Get Information for journal
 
@@ -178,5 +178,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer
-
 

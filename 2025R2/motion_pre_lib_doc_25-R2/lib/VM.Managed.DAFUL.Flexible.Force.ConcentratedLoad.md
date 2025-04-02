@@ -1,4 +1,4 @@
-# Class ConcentratedLoad
+#  Class ConcentratedLoad
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -233,7 +233,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ConcentratedLoad\(\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoad__ctor"></a> ConcentratedLoad\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoad" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -243,7 +243,7 @@ ObservableObject.PropertyChanged
 public ConcentratedLoad()
 ```
 
-### ConcentratedLoad\(string\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoad__ctor_System_String_"></a> ConcentratedLoad\(string\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoad" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -262,7 +262,7 @@ public ConcentratedLoad(string strName)
 
 ## Methods
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoad_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -282,7 +282,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoad_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -310,7 +310,7 @@ if set to <code>true</code> the tie has child.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### InitializeEvent\(Document3D\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoad_InitializeEvent_VM_Managed_Document3D_"></a> InitializeEvent\(Document3D\)
 
 <p>Initializes event.</p>
 <p>로드시 예전 데이터를 새로운 데이터로 이전합니다.</p>
@@ -322,5 +322,4 @@ public static void InitializeEvent(Document3D doc)
 #### Parameters
 
 `doc` Document3D
-
 

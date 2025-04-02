@@ -1,4 +1,4 @@
-# Class UpdateRackInFE
+#  Class UpdateRackInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -88,7 +88,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdateRackInFE\(string, string, string, bool, bool, string, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateRackInFE__ctor_System_String_System_String_System_String_System_Boolean_System_Boolean_System_String_System_String_"></a> UpdateRackInFE\(string, string, string, bool, bool, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateRackInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -126,7 +126,7 @@ The string z axis.
 
 The Initial angle.
 
-### UpdateRackInFE\(Document3D, string, string, string, bool, bool, string, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateRackInFE__ctor_VM_Managed_Document3D_System_String_System_String_System_String_System_Boolean_System_Boolean_System_String_System_String_"></a> UpdateRackInFE\(Document3D, string, string, string, bool, bool, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateRackInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -168,7 +168,7 @@ The string z axis.
 
 The Initial angle.
 
-### UpdateRackInFE\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateRackInFE__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateRackInFE\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateRackInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -184,7 +184,7 @@ The jp.
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateRackInFE_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -192,7 +192,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateRackInFE_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -205,5 +205,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

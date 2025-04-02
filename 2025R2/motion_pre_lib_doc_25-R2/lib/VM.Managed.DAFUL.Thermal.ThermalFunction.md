@@ -1,4 +1,4 @@
-# Class ThermalFunction
+#  Class ThermalFunction
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ThermalFunction\(\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalFunction__ctor"></a> ThermalFunction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalFu
 protected ThermalFunction()
 ```
 
-### ThermalFunction\(PropertyThermalBase\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalFunction__ctor_VM_Managed_DAFUL_Thermal_PropertyThermalBase_"></a> ThermalFunction\(PropertyThermalBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ The owner thermal property.
 
 ## Properties
 
-### Type
+### <a id="VM_Managed_DAFUL_Thermal_ThermalFunction_Type"></a> Type
 
 Gets the function type.
 
@@ -136,5 +136,4 @@ public abstract ThermalFunction.FunctionType Type { get; }
 #### Property Value
 
  [ThermalFunction](VM.Managed.DAFUL.Thermal.ThermalFunction.md).[FunctionType](VM.Managed.DAFUL.Thermal.ThermalFunction.FunctionType.md)
-
 

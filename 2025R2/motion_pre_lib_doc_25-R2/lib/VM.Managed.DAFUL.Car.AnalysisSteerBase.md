@@ -1,4 +1,4 @@
-# Class AnalysisSteerBase
+#  Class AnalysisSteerBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -54,7 +54,7 @@ IHasInitialVel
 
 ## Constructors
 
-### AnalysisSteerBase\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteerBase__ctor"></a> AnalysisSteerBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSteerBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -62,7 +62,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSteer
 public AnalysisSteerBase()
 ```
 
-### AnalysisSteerBase\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteerBase__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisSteerBase\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSteerBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -78,7 +78,7 @@ The link container.
 
 ## Properties
 
-### IsCruiseControl
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteerBase_IsCruiseControl"></a> IsCruiseControl
 
 Gets or sets a value indicating whether [cruise control].
 
@@ -90,7 +90,7 @@ public bool IsCruiseControl { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SteeringInputType
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteerBase_SteeringInputType"></a> SteeringInputType
 
 Gets or sets the steering input.
 
@@ -102,7 +102,7 @@ public SteeringInputType SteeringInputType { get; set; }
 
  [SteeringInputType](VM.Managed.DAFUL.Car.Analysis.Full.SteeringInputType.md)
 
-### TimeOfStart
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteerBase_TimeOfStart"></a> TimeOfStart
 
 Gets or sets the start time.
 
@@ -113,5 +113,4 @@ public double TimeOfStart { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

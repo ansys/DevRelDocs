@@ -1,4 +1,4 @@
-# Class RideGeneralConfiguration
+#  Class RideGeneralConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### RideGeneralConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_RideGeneralConfiguration__ctor"></a> RideGeneralConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RideGeneralConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RideGeneralCo
 public RideGeneralConfiguration()
 ```
 
-### RideGeneralConfiguration\(AnalysisRideGeneral\)
+### <a id="VM_Managed_DAFUL_Car_RideGeneralConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisRideGeneral_"></a> RideGeneralConfiguration\(AnalysisRideGeneral\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RideGeneralConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_RideGeneralConfiguration_Analysis"></a> Analysis
 
 Gets or sets the type of the analysis.
 
@@ -233,7 +233,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_RideGeneralConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -245,7 +245,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_RideGeneralConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -257,7 +257,7 @@ public override TireAnalysisType AnalysisType { get; }
 
  [TireAnalysisType](VM.Managed.DAFUL.Car.TireAnalysisType.md)
 
-### RideGeneralParam
+### <a id="VM_Managed_DAFUL_Car_RideGeneralConfiguration_RideGeneralParam"></a> RideGeneralParam
 
 Gets or sets the ride general parameter.
 
@@ -271,12 +271,11 @@ public AnalysisRideGeneral RideGeneralParam { get; set; }
 
 ## Methods
 
-### InitializeParam\(\)
+### <a id="VM_Managed_DAFUL_Car_RideGeneralConfiguration_InitializeParam"></a> InitializeParam\(\)
 
 Initializes the param.
 
 ```csharp
 public override void InitializeParam()
 ```
-
 

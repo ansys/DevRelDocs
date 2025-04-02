@@ -1,4 +1,4 @@
-# Class PropertyCPlacingConnector
+#  Class PropertyCPlacingConnector
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyCPlacingConnector\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyCPlacingConnector__ctor"></a> PropertyCPlacingConnector\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.PropertyCPlacingConnector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertyCPlacingConnector()
 
 ## Properties
 
-### CPlacing
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyCPlacingConnector_CPlacing"></a> CPlacing
 
 Gets or sets the cplacing.
 
@@ -187,7 +187,7 @@ public Placing CPlacing { get; set; }
 
  [Placing](VM.Managed.DAFUL.CPlacingConnector.Placing.md)
 
-### SegmentToPath
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyCPlacingConnector_SegmentToPath"></a> SegmentToPath
 
 Gets or sets the segment to path.
 
@@ -199,7 +199,7 @@ public SegmentToPathGroup SegmentToPath { get; set; }
 
  [SegmentToPathGroup](VM.Managed.DAFUL.CPlacingConnector.SegmentToPathGroup.md)
 
-### SegmentToSegment
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyCPlacingConnector_SegmentToSegment"></a> SegmentToSegment
 
 Gets or sets the segment to segment.
 
@@ -213,7 +213,7 @@ public SegmentToSegmentGroup SegmentToSegment { get; set; }
 
 ## Methods
 
-### FindConnectable\(DocumentAnalysis, ref Dictionary<IConnectable, TMatrix\>, ref Dictionary<IConnectable, TMatrix\>\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyCPlacingConnector_FindConnectable_VM_Managed_DAFUL_DocumentAnalysis_System_Collections_Generic_Dictionary_VM_Managed_DAFUL_IConnectable_VM_Managed_TMatrix___System_Collections_Generic_Dictionary_VM_Managed_DAFUL_IConnectable_VM_Managed_TMatrix___"></a> FindConnectable\(DocumentAnalysis, ref Dictionary<IConnectable, TMatrix\>, ref Dictionary<IConnectable, TMatrix\>\)
 
 Find Connectable entity
 
@@ -235,7 +235,7 @@ The base connectable entity
 
 The action connectable entity
 
-### FindConnectable\(DocumentAnalysis, Func<string, bool\>, ref Dictionary<IConnectable, TMatrix\>\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyCPlacingConnector_FindConnectable_VM_Managed_DAFUL_DocumentAnalysis_System_Func_System_String_System_Boolean__System_Collections_Generic_Dictionary_VM_Managed_DAFUL_IConnectable_VM_Managed_TMatrix___"></a> FindConnectable\(DocumentAnalysis, Func<string, bool\>, ref Dictionary<IConnectable, TMatrix\>\)
 
 Find Connectable entity
 
@@ -257,7 +257,7 @@ The filter function
 
 The connectable entity
 
-### FindReference\(IInstanceContainer, Type, ref List<IConnectable\>\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyCPlacingConnector_FindReference_VM_Managed_IInstanceContainer_System_Type_System_Collections_Generic_List_VM_Managed_DAFUL_IConnectable___"></a> FindReference\(IInstanceContainer, Type, ref List<IConnectable\>\)
 
 Find reference
 
@@ -283,7 +283,7 @@ The connectable
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Reference\>
 
-### FindReferenceInCurrentDocument\(DocumentAnalysis, InstanceContainer, IConnectable, ref TMatrix\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyCPlacingConnector_FindReferenceInCurrentDocument_VM_Managed_DAFUL_DocumentAnalysis_VM_Managed_InstanceContainer_VM_Managed_DAFUL_IConnectable_VM_Managed_TMatrix__"></a> FindReferenceInCurrentDocument\(DocumentAnalysis, InstanceContainer, IConnectable, ref TMatrix\)
 
 Find reference entity in current document
 
@@ -313,7 +313,7 @@ The transform matrix
 
  IConnectable
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyCPlacingConnector_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -326,5 +326,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

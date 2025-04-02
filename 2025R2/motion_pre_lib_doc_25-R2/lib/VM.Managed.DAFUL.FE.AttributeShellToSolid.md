@@ -1,4 +1,4 @@
-# Class AttributeShellToSolid
+#  Class AttributeShellToSolid
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeShellToSolid\(double\)
+### <a id="VM_Managed_DAFUL_FE_AttributeShellToSolid__ctor_System_Double_"></a> AttributeShellToSolid\(double\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.AttributeShellToSolid" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public AttributeShellToSolid(double dAlpha)
 
 The alpha.
 
-### AttributeShellToSolid\(\)
+### <a id="VM_Managed_DAFUL_FE_AttributeShellToSolid__ctor"></a> AttributeShellToSolid\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.AttributeShellToSolid" data-throw-if-not-resolved="false"></xref> class.
 
@@ -123,7 +123,7 @@ public AttributeShellToSolid()
 
 ## Properties
 
-### Alpha
+### <a id="VM_Managed_DAFUL_FE_AttributeShellToSolid_Alpha"></a> Alpha
 
 Gets or sets the alpha.
 
@@ -134,5 +134,4 @@ public double Alpha { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

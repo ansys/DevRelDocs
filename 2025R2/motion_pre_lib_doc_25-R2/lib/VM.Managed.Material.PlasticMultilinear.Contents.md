@@ -1,4 +1,4 @@
-# Class PlasticMultilinear.Contents
+#  Class PlasticMultilinear.Contents
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Contents\(\)
+### <a id="VM_Managed_Material_PlasticMultilinear_Contents__ctor"></a> Contents\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.PlasticMultilinear.Contents" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ public Contents()
 
 ## Properties
 
-### Strain
+### <a id="VM_Managed_Material_PlasticMultilinear_Contents_Strain"></a> Strain
 
 Gets or sets the strain.
 
@@ -120,7 +120,7 @@ public ExpressionValueVariable Strain { get; set; }
 
  ExpressionValueVariable
 
-### Stress
+### <a id="VM_Managed_Material_PlasticMultilinear_Contents_Stress"></a> Stress
 
 Gets or sets the stress.
 
@@ -134,7 +134,7 @@ public ExpressionValueVariable Stress { get; set; }
 
 ## Methods
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_Material_PlasticMultilinear_Contents_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -151,5 +151,4 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

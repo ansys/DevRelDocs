@@ -1,4 +1,4 @@
-# Class AttributeBodyToDTGearSet
+#  Class AttributeBodyToDTGearSet
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -108,12 +108,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeBodyToDTGearSet\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeBodyToDTGearSet__ctor"></a> AttributeBodyToDTGearSet\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AttributeBodyToDTGearSet" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public AttributeBodyToDTGearSet()
 ```
-
 

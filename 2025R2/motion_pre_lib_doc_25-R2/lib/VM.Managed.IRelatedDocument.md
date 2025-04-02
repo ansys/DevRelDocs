@@ -1,4 +1,4 @@
-# Interface IRelatedDocument
+#  Interface IRelatedDocument
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IRelatedDocument
 
 ## Methods
 
-### RegisterDependentDocument\(Document\)
+### <a id="VM_Managed_IRelatedDocument_RegisterDependentDocument_VM_Managed_Document_"></a> RegisterDependentDocument\(Document\)
 
 Registers the dependent document.
 
@@ -31,7 +31,7 @@ void RegisterDependentDocument(Document docDependent)
 
 The dependent document.
 
-### UnregisterDependentDocument\(Document\)
+### <a id="VM_Managed_IRelatedDocument_UnregisterDependentDocument_VM_Managed_Document_"></a> UnregisterDependentDocument\(Document\)
 
 Unregisters the dependent document.
 
@@ -44,5 +44,4 @@ void UnregisterDependentDocument(Document docDependent)
 `docDependent` [Document](VM.Managed.Document.md)
 
 The dependent document.
-
 

@@ -1,4 +1,4 @@
-# Class View3DSpecialFit
+#  Class View3DSpecialFit
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -88,7 +88,7 @@ public class View3DSpecialFit : View3D, ISpecialFitView
 
 ## Constructors
 
-### View3DSpecialFit\(UIntPtr, Document\)
+### <a id="VM_Managed_View3DSpecialFit__ctor_System_UIntPtr_VM_Managed_Document_"></a> View3DSpecialFit\(UIntPtr, Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.View3DSpecialFit" data-throw-if-not-resolved="false"></xref> class
 
@@ -108,7 +108,7 @@ The document.
 
 ## Methods
 
-### Dispose\(bool\)
+### <a id="VM_Managed_View3DSpecialFit_Dispose_System_Boolean_"></a> Dispose\(bool\)
 
 ```csharp
 [HandleProcessCorruptedStateExceptions]
@@ -119,13 +119,13 @@ protected override void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### \~View3DSpecialFit\(\)
+### <a id="VM_Managed_View3DSpecialFit_Finalize"></a> \~View3DSpecialFit\(\)
 
 ```csharp
 protected ~View3DSpecialFit()
 ```
 
-### FitCore\(\)
+### <a id="VM_Managed_View3DSpecialFit_FitCore"></a> FitCore\(\)
 
 Fits the core.
 
@@ -133,13 +133,13 @@ Fits the core.
 protected override void FitCore()
 ```
 
-### raise\_OnPostFit\(\)
+### <a id="VM_Managed_View3DSpecialFit_raise_OnPostFit"></a> raise\_OnPostFit\(\)
 
 ```csharp
 public virtual void raise_OnPostFit()
 ```
 
-### OnPostFit
+### <a id="VM_Managed_View3DSpecialFit_OnPostFit"></a> OnPostFit
 
 Occurs when [on PostFit].
 
@@ -150,5 +150,4 @@ public virtual event ISpecialFitView.PostFit OnPostFit
 #### Event Type
 
  [ISpecialFitView](VM.Managed.ISpecialFitView.md).[PostFit](VM.Managed.ISpecialFitView.PostFit.md)
-
 

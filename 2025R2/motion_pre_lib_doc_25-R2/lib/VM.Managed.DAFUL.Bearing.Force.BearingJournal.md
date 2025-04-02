@@ -1,4 +1,4 @@
-# Class BearingJournal
+#  Class BearingJournal
 
 Namespace: [VM.Managed.DAFUL.Bearing.Force](VM.Managed.DAFUL.Bearing.Force.md)  
 Assembly: VMDBearing.dll  
@@ -258,7 +258,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BearingJournal\(\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_BearingJournal__ctor"></a> BearingJournal\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.BearingJournal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -266,7 +266,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.Bea
 public BearingJournal()
 ```
 
-### BearingJournal\(string\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_BearingJournal__ctor_System_String_"></a> BearingJournal\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.BearingJournal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -282,7 +282,7 @@ Name of the force.
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_BearingJournal_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -295,5 +295,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

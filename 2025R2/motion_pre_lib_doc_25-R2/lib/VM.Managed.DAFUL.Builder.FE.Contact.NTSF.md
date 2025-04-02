@@ -1,4 +1,4 @@
-# Class NTSF
+#  Class NTSF
 
 Namespace: [VM.Managed.DAFUL.Builder.FE.Contact](VM.Managed.DAFUL.Builder.FE.Contact.md)  
 Assembly: VMBldFECt.dll  
@@ -53,7 +53,7 @@ BuilderBase<NTSF\>.ErrorMessage
 
 ## Constructors
 
-### NTSF\(\)
+### <a id="VM_Managed_DAFUL_Builder_FE_Contact_NTSF__ctor"></a> NTSF\(\)
 
 ```csharp
 public NTSF()
@@ -61,7 +61,7 @@ public NTSF()
 
 ## Properties
 
-### ActionContactable
+### <a id="VM_Managed_DAFUL_Builder_FE_Contact_NTSF_ActionContactable"></a> ActionContactable
 
 ```csharp
 public INTSFContactable ActionContactable { get; }
@@ -71,7 +71,7 @@ public INTSFContactable ActionContactable { get; }
 
  INTSFContactable
 
-### BaseContactable
+### <a id="VM_Managed_DAFUL_Builder_FE_Contact_NTSF_BaseContactable"></a> BaseContactable
 
 ```csharp
 public IContactableRigid3D BaseContactable { get; }
@@ -83,7 +83,7 @@ public IContactableRigid3D BaseContactable { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_FE_Contact_NTSF_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -98,5 +98,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

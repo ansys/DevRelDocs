@@ -1,4 +1,4 @@
-# Class AddObjectListToActiveDocument
+#  Class AddObjectListToActiveDocument
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### AddObjectListToActiveDocument\(ObjectBase\[\], Document\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddObjectListToActiveDocument__ctor_VM_Managed_ObjectBase___VM_Managed_Document_"></a> AddObjectListToActiveDocument\(ObjectBase\[\], Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.AddObjectListToActiveDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -95,7 +95,7 @@ The LST object.
 
 The document.
 
-### AddObjectListToActiveDocument\(List<ObjectBase\>, Document\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddObjectListToActiveDocument__ctor_System_Collections_Generic_List_VM_Managed_ObjectBase__VM_Managed_Document_"></a> AddObjectListToActiveDocument\(List<ObjectBase\>, Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.AddObjectListToActiveDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ The LST object.
 
 The document.
 
-### AddObjectListToActiveDocument\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddObjectListToActiveDocument__ctor_VM_Managed_Operation_JournalParameter_"></a> AddObjectListToActiveDocument\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.AddObjectListToActiveDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -129,7 +129,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddObjectListToActiveDocument_Name"></a> Name
 
 Gets the operation name.
 
@@ -143,7 +143,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddObjectListToActiveDocument_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -151,7 +151,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddObjectListToActiveDocument_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -164,5 +164,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

@@ -1,4 +1,4 @@
-# Class WheelBodyCar
+#  Class WheelBodyCar
 
 Namespace: [VM.Managed.DAFUL.Tire.Car](VM.Managed.DAFUL.Tire.Car.md)  
 Assembly: VMDTireCar.dll  
@@ -330,7 +330,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### WheelBodyCar\(\)
+### <a id="VM_Managed_DAFUL_Tire_Car_WheelBodyCar__ctor"></a> WheelBodyCar\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Car.WheelBodyCar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -338,7 +338,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Car.WheelBod
 public WheelBodyCar()
 ```
 
-### WheelBodyCar\(string\)
+### <a id="VM_Managed_DAFUL_Tire_Car_WheelBodyCar__ctor_System_String_"></a> WheelBodyCar\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Car.WheelBodyCar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -352,7 +352,7 @@ public WheelBodyCar(string strName)
 
 The Name.
 
-### WheelBodyCar\(string, Builder\)
+### <a id="VM_Managed_DAFUL_Tire_Car_WheelBodyCar__ctor_System_String_VM_Managed_CAD_Builder_"></a> WheelBodyCar\(string, Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Car.WheelBodyCar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -372,7 +372,7 @@ The builder.
 
 ## Methods
 
-### GetOrientation\(OMatrix\)
+### <a id="VM_Managed_DAFUL_Tire_Car_WheelBodyCar_GetOrientation_VM_Managed_OMatrix_"></a> GetOrientation\(OMatrix\)
 
 Gets the orientation.
 
@@ -390,7 +390,7 @@ The mat input.
 
  OMatrix
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Tire_Car_WheelBodyCar_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -403,5 +403,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

@@ -1,4 +1,4 @@
-# Class CourseBase
+#  Class CourseBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -48,7 +48,7 @@ IHasInitialVel
 
 ## Constructors
 
-### CourseBase\(\)
+### <a id="VM_Managed_DAFUL_Car_CourseBase__ctor"></a> CourseBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CourseBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -56,7 +56,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CourseBase" d
 public CourseBase()
 ```
 
-### CourseBase\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_CourseBase__ctor_VM_Models_Pre_ILinkContainer_"></a> CourseBase\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CourseBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -72,7 +72,7 @@ The link container.
 
 ## Properties
 
-### InitialVelocity
+### <a id="VM_Managed_DAFUL_Car_CourseBase_InitialVelocity"></a> InitialVelocity
 
 Gets or sets the initial velocity.
 
@@ -84,7 +84,7 @@ public double InitialVelocity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### VelocityUnitType
+### <a id="VM_Managed_DAFUL_Car_CourseBase_VelocityUnitType"></a> VelocityUnitType
 
 Gets or sets the type of the velocity unit.
 
@@ -98,7 +98,7 @@ public VelocityUnitType VelocityUnitType { get; set; }
 
 ## Methods
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_CourseBase_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -111,5 +111,4 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
-
 

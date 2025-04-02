@@ -1,4 +1,4 @@
-# Class GeneralContact
+#  Class GeneralContact
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -53,7 +53,7 @@ BuilderBase<GeneralContact\>.ErrorMessage
 
 ## Constructors
 
-### GeneralContact\(\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_GeneralContact__ctor"></a> GeneralContact\(\)
 
 ```csharp
 public GeneralContact()
@@ -61,7 +61,7 @@ public GeneralContact()
 
 ## Properties
 
-### ActionObject
+### <a id="VM_Managed_DAFUL_Builder_Contact_GeneralContact_ActionObject"></a> ActionObject
 
 ```csharp
 public ObjectBase ActionObject { get; }
@@ -71,7 +71,7 @@ public ObjectBase ActionObject { get; }
 
  ObjectBase
 
-### BaseObject
+### <a id="VM_Managed_DAFUL_Builder_Contact_GeneralContact_BaseObject"></a> BaseObject
 
 ```csharp
 public ObjectBase BaseObject { get; }
@@ -83,7 +83,7 @@ public ObjectBase BaseObject { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_GeneralContact_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -98,5 +98,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

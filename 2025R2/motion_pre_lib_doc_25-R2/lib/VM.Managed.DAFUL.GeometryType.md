@@ -1,4 +1,4 @@
-# Enum GeometryType
+#  Enum GeometryType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -20,7 +20,6 @@ Sphere
 `Surface = 0` 
 
 Surface
-
 
 
 

@@ -1,4 +1,4 @@
-# Class RigidBodyElementPair
+#  Class RigidBodyElementPair
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -246,7 +246,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### RigidBodyElementPair\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementPair__ctor"></a> RigidBodyElementPair\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.RigidBodyElementPair" data-throw-if-not-resolved="false"></xref> class.
 
@@ -254,7 +254,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.RigidBod
 public RigidBodyElementPair()
 ```
 
-### RigidBodyElementPair\(string\)
+### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementPair__ctor_System_String_"></a> RigidBodyElementPair\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.RigidBodyElementPair" data-throw-if-not-resolved="false"></xref> class.
 
@@ -270,7 +270,7 @@ Name of the STR.
 
 ## Properties
 
-### RBEActionComponent
+### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementPair_RBEActionComponent"></a> RBEActionComponent
 
 Gets or sets the rbe action component.
 
@@ -282,7 +282,7 @@ public IGeometricalComponent RBEActionComponent { get; set; }
 
  IGeometricalComponent
 
-### \_RBEActionComponent
+### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementPair__RBEActionComponent"></a> \_RBEActionComponent
 
 Gets or sets the rbe action component.
 
@@ -296,7 +296,7 @@ public Linker<IGeometricalComponent> _RBEActionComponent { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementPair_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -310,7 +310,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### DrawbleCore\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementPair_DrawbleCore_VM_Managed_ObjectBase_"></a> DrawbleCore\(ObjectBase\)
 
 Drawble.
 
@@ -330,7 +330,7 @@ The target object.
 
 <code>true</code> if this instance is drawable; otherwise, <code>false</code>.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementPair_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -350,7 +350,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementPair_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -378,7 +378,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementPair_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -396,7 +396,7 @@ The ob unnamed.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_MeshFree_RigidBodyElementPair_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -409,5 +409,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

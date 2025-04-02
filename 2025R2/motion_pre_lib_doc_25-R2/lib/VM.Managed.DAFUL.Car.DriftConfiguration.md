@@ -1,4 +1,4 @@
-# Class DriftConfiguration
+#  Class DriftConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -204,7 +204,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DriftConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_DriftConfiguration__ctor"></a> DriftConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.DriftConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -212,7 +212,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.DriftConfigur
 public DriftConfiguration()
 ```
 
-### DriftConfiguration\(AnalysisDrift\)
+### <a id="VM_Managed_DAFUL_Car_DriftConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisDrift_"></a> DriftConfiguration\(AnalysisDrift\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.DriftConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -228,7 +228,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_DriftConfiguration_Analysis"></a> Analysis
 
 Gets or sets the analysis.
 
@@ -240,7 +240,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_DriftConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -252,7 +252,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_DriftConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -264,7 +264,7 @@ public override FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### DriftParam
+### <a id="VM_Managed_DAFUL_Car_DriftConfiguration_DriftParam"></a> DriftParam
 
 Gets or sets the drift parameter.
 
@@ -275,5 +275,4 @@ public AnalysisDrift DriftParam { get; set; }
 #### Property Value
 
  [AnalysisDrift](VM.Managed.DAFUL.Car.AnalysisDrift.md)
-
 

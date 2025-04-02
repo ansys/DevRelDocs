@@ -1,4 +1,4 @@
-# Interface IUpdateDocAddOn
+#  Interface IUpdateDocAddOn
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -15,10 +15,9 @@ public interface IUpdateDocAddOn
 
 ## Methods
 
-### SetUpdatedFlag\(\)
+### <a id="VM_Managed_History_IUpdateDocAddOn_SetUpdatedFlag"></a> SetUpdatedFlag\(\)
 
 ```csharp
 void SetUpdatedFlag()
 ```
-
 

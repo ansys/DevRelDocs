@@ -1,4 +1,4 @@
-# Enum ISO.CapacityMatrix
+#  Enum ISO.CapacityMatrix
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -20,7 +20,6 @@ Consistent
 `Diagonal = 1` 
 
 Diagonal
-
 
 
 

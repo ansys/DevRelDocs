@@ -1,4 +1,4 @@
-# Enum PropertyBoundaryConditionBase.BCConstrainedType
+#  Enum PropertyBoundaryConditionBase.BCConstrainedType
 
 Namespace: [VM.Managed.DAFUL.Flexible](VM.Managed.DAFUL.Flexible.md)  
 Assembly: VMFlexibleBase.dll  
@@ -37,7 +37,6 @@ public enum PropertyBoundaryConditionBase.BCConstrainedType
 
 <p>The BC is constrained all the way.</p>
 <p>모든 방향에 정의된 경계조건.</p>
-
 
 
 

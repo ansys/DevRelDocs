@@ -1,4 +1,4 @@
-# Class AttributeDocumentDurability.GearSummary
+#  Class AttributeDocumentDurability.GearSummary
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -22,7 +22,7 @@ public class AttributeDocumentDurability.GearSummary
 
 ## Constructors
 
-### GearSummary\(\)
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_GearSummary__ctor"></a> GearSummary\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Durability.AttributeDocumentDurability.GearSummary" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public GearSummary()
 
 ## Properties
 
-### GearResults
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_GearSummary_GearResults"></a> GearResults
 
 Gets or sets the gear results.
 
@@ -43,5 +43,4 @@ public IEnumerable<AttributeDocumentDurability.GearSummary.GearResult> GearResul
 #### Property Value
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[AttributeDocumentDurability](VM.Models.Pre.Durability.AttributeDocumentDurability.md).[GearSummary](VM.Models.Pre.Durability.AttributeDocumentDurability.GearSummary.md).[GearResult](VM.Models.Pre.Durability.AttributeDocumentDurability.GearSummary.GearResult.md)\>
-
 

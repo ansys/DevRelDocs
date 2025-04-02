@@ -1,4 +1,4 @@
-# Enum AttributeLoadCase.LoadCaseData.LoadCaseType
+#  Enum AttributeLoadCase.LoadCaseData.LoadCaseType
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -44,7 +44,6 @@ Thrust
 `Vertical = 1` 
 
 Vertical
-
 
 
 

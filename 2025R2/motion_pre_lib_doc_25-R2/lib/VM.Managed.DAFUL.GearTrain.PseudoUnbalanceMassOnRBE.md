@@ -1,4 +1,4 @@
-# Class PseudoUnbalanceMassOnRBE
+#  Class PseudoUnbalanceMassOnRBE
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -163,7 +163,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PseudoUnbalanceMassOnRBE\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PseudoUnbalanceMassOnRBE__ctor"></a> PseudoUnbalanceMassOnRBE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoUnbalanceMassOnRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -173,7 +173,7 @@ public PseudoUnbalanceMassOnRBE()
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_PseudoUnbalanceMassOnRBE_Name"></a> Name
 
 Gets or sets the name.
 
@@ -185,7 +185,7 @@ public override string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UnbalanceMassOnRBEInformation
+### <a id="VM_Managed_DAFUL_GearTrain_PseudoUnbalanceMassOnRBE_UnbalanceMassOnRBEInformation"></a> UnbalanceMassOnRBEInformation
 
 Gets or sets the unbalance mass on rbe information.
 
@@ -199,7 +199,7 @@ public UnbalanceMassOnRBE UnbalanceMassOnRBEInformation { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_GearTrain_PseudoUnbalanceMassOnRBE_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the specified canvas.
 
@@ -217,7 +217,7 @@ The canvas.
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### LinkRequestDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_PseudoUnbalanceMassOnRBE_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
 Links the request destroy.
 
@@ -234,5 +234,4 @@ The object notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

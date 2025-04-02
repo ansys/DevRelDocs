@@ -1,4 +1,4 @@
-# Interface IHasReportOnly
+#  Interface IHasReportOnly
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IHasReportOnly
 
 ## Properties
 
-### IsReportOnly
+### <a id="VM_Managed_IHasReportOnly_IsReportOnly"></a> IsReportOnly
 
 Gets a value indicating whether this instance has only report.
 
@@ -28,5 +28,4 @@ bool IsReportOnly { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

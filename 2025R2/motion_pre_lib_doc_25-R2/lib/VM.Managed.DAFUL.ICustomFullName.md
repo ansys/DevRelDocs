@@ -1,4 +1,4 @@
-# Interface ICustomFullName
+#  Interface ICustomFullName
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface ICustomFullName
 
 ## Methods
 
-### GetFullName\(Document\)
+### <a id="VM_Managed_DAFUL_ICustomFullName_GetFullName_VM_Managed_Document_"></a> GetFullName\(Document\)
 
 Get full name of object
 
@@ -34,5 +34,4 @@ The document
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

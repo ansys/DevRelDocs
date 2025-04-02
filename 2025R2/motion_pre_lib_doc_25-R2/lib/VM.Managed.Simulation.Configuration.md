@@ -1,4 +1,4 @@
-# Class Configuration
+#  Class Configuration
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -97,7 +97,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Configuration\(\)
+### <a id="VM_Managed_Simulation_Configuration__ctor"></a> Configuration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Simulation.Configuration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ public Configuration()
 
 ## Properties
 
-### AccuracyOfGMS
+### <a id="VM_Managed_Simulation_Configuration_AccuracyOfGMS"></a> AccuracyOfGMS
 
 Gets or sets the accuracy of GMS
 
@@ -119,7 +119,7 @@ public int AccuracyOfGMS { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### AppendedDateTime
+### <a id="VM_Managed_Simulation_Configuration_AppendedDateTime"></a> AppendedDateTime
 
 Gets or sets a value indicating whether [append date time].
 
@@ -131,7 +131,7 @@ public bool AppendedDateTime { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Attributes
+### <a id="VM_Managed_Simulation_Configuration_Attributes"></a> Attributes
 
 Gets or sets the attributes
 
@@ -143,7 +143,7 @@ public AttributeCollection Attributes { get; set; }
 
  AttributeCollection
 
-### BodyOrientationType
+### <a id="VM_Managed_Simulation_Configuration_BodyOrientationType"></a> BodyOrientationType
 
 Gets or sets the type of the body orientation.
 
@@ -155,7 +155,7 @@ public Configuration.BodyOrientation BodyOrientationType { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[BodyOrientation](VM.Managed.Simulation.Configuration.BodyOrientation.md)
 
-### CheckedLevelArray
+### <a id="VM_Managed_Simulation_Configuration_CheckedLevelArray"></a> CheckedLevelArray
 
 Gets or sets the checked level.
 
@@ -167,7 +167,7 @@ public bool[] CheckedLevelArray { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\[\]
 
-### ConfigName
+### <a id="VM_Managed_Simulation_Configuration_ConfigName"></a> ConfigName
 
 Gets or sets the name.
 
@@ -179,7 +179,7 @@ public string ConfigName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### CriterionVal
+### <a id="VM_Managed_Simulation_Configuration_CriterionVal"></a> CriterionVal
 
 Gets or sets the criterion value.
 
@@ -191,7 +191,7 @@ public double[] CriterionVal { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### DisableEntities
+### <a id="VM_Managed_Simulation_Configuration_DisableEntities"></a> DisableEntities
 
 Gets the disable container.
 
@@ -203,7 +203,7 @@ public ObjectBase[] DisableEntities { get; }
 
  ObjectBase\[\]
 
-### EigenvalueOutputStep
+### <a id="VM_Managed_Simulation_Configuration_EigenvalueOutputStep"></a> EigenvalueOutputStep
 
 Gets or sets the eigen value output step.
 
@@ -215,7 +215,7 @@ public int EigenvalueOutputStep { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### ExportICFFilePath
+### <a id="VM_Managed_Simulation_Configuration_ExportICFFilePath"></a> ExportICFFilePath
 
 Gets or sets the export ICF path.
 
@@ -227,7 +227,7 @@ public string ExportICFFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ExtraConfigs
+### <a id="VM_Managed_Simulation_Configuration_ExtraConfigs"></a> ExtraConfigs
 
 Gets or sets the extra configuration.
 
@@ -239,7 +239,7 @@ public ConfigurationExtraCollection ExtraConfigs { get; set; }
 
  [ConfigurationExtraCollection](VM.Managed.Simulation.ConfigurationExtraCollection.md)
 
-### FlexibleBodyLevelForSuperSolver
+### <a id="VM_Managed_Simulation_Configuration_FlexibleBodyLevelForSuperSolver"></a> FlexibleBodyLevelForSuperSolver
 
 Gets or sets the level of flexible body for super solver.
 
@@ -251,7 +251,7 @@ public int FlexibleBodyLevelForSuperSolver { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GINFPath
+### <a id="VM_Managed_Simulation_Configuration_GINFPath"></a> GINFPath
 
 Gets or sets the GINF file path.
 
@@ -263,7 +263,7 @@ public string GINFPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### HighSpeedRotationOption
+### <a id="VM_Managed_Simulation_Configuration_HighSpeedRotationOption"></a> HighSpeedRotationOption
 
 ```csharp
 public HighSpeedRotationOption HighSpeedRotationOption { get; set; }
@@ -273,7 +273,7 @@ public HighSpeedRotationOption HighSpeedRotationOption { get; set; }
 
  [HighSpeedRotationOption](VM.Managed.DAFUL.HighSpeedRotationOption.md)
 
-### ImportICFFilePath
+### <a id="VM_Managed_Simulation_Configuration_ImportICFFilePath"></a> ImportICFFilePath
 
 Gets or sets the import ICF path.
 
@@ -285,7 +285,7 @@ public string ImportICFFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsIncludeEigenvalue
+### <a id="VM_Managed_Simulation_Configuration_IsIncludeEigenvalue"></a> IsIncludeEigenvalue
 
 Gets or sets a value indicating whether [include eigenvalue].
 
@@ -297,7 +297,7 @@ public bool IsIncludeEigenvalue { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsIncludeStatic
+### <a id="VM_Managed_Simulation_Configuration_IsIncludeStatic"></a> IsIncludeStatic
 
 Gets or sets a value indicating whether [include static].
 
@@ -309,7 +309,7 @@ public bool IsIncludeStatic { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsIncludeThermal
+### <a id="VM_Managed_Simulation_Configuration_IsIncludeThermal"></a> IsIncludeThermal
 
 Gets or sets a value indicating whether [include thermal].
 
@@ -321,7 +321,7 @@ public bool IsIncludeThermal { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsUseLocalRefinement
+### <a id="VM_Managed_Simulation_Configuration_IsUseLocalRefinement"></a> IsUseLocalRefinement
 
 Gets or sets a value indicating whether [use local refinement].
 
@@ -333,7 +333,7 @@ public bool IsUseLocalRefinement { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### JacobianOption
+### <a id="VM_Managed_Simulation_Configuration_JacobianOption"></a> JacobianOption
 
 Gets or sets the jacobian eval option.
 
@@ -345,7 +345,7 @@ public Configuration.LinearProblem JacobianOption { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[LinearProblem](VM.Managed.Simulation.Configuration.LinearProblem.md)
 
-### LevelOfGeometryPrecision
+### <a id="VM_Managed_Simulation_Configuration_LevelOfGeometryPrecision"></a> LevelOfGeometryPrecision
 
 Gets or sets the geometry precision level.
 
@@ -357,7 +357,7 @@ public int LevelOfGeometryPrecision { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### MeshFreeAnalysisLevelGroup
+### <a id="VM_Managed_Simulation_Configuration_MeshFreeAnalysisLevelGroup"></a> MeshFreeAnalysisLevelGroup
 
 Gets or sets analysis level group for MeshFree
 
@@ -370,7 +370,7 @@ public MeshFreeAnalysisLevelGroup MeshFreeAnalysisLevelGroup { get; set; }
 
  MeshFreeAnalysisLevelGroup
 
-### MotionStepForPositionAnaly
+### <a id="VM_Managed_Simulation_Configuration_MotionStepForPositionAnaly"></a> MotionStepForPositionAnaly
 
 ```csharp
 public uint MotionStepForPositionAnaly { get; set; }
@@ -380,7 +380,7 @@ public uint MotionStepForPositionAnaly { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### NodalOutputEntities
+### <a id="VM_Managed_Simulation_Configuration_NodalOutputEntities"></a> NodalOutputEntities
 
 Gets the nodal output container.
 
@@ -392,7 +392,7 @@ public ObjectBase[] NodalOutputEntities { get; }
 
  ObjectBase\[\]
 
-### NumberOfCore
+### <a id="VM_Managed_Simulation_Configuration_NumberOfCore"></a> NumberOfCore
 
 Gets or sets the number of core.
 
@@ -404,7 +404,7 @@ public uint NumberOfCore { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### ParameterOfDynamicAnalysis
+### <a id="VM_Managed_Simulation_Configuration_ParameterOfDynamicAnalysis"></a> ParameterOfDynamicAnalysis
 
 Gets or sets the dynamic analysis parameter.
 
@@ -416,7 +416,7 @@ public AnalysisParameterDynamic ParameterOfDynamicAnalysis { get; set; }
 
  AnalysisParameterDynamic
 
-### ParameterOfEigenvalueAnalysis
+### <a id="VM_Managed_Simulation_Configuration_ParameterOfEigenvalueAnalysis"></a> ParameterOfEigenvalueAnalysis
 
 Gets or sets the eigenvalue analysis parameter.
 
@@ -428,7 +428,7 @@ public AnalysisParameterEigenvalue ParameterOfEigenvalueAnalysis { get; set; }
 
  AnalysisParameterEigenvalue
 
-### ParameterOfStaticAnalysis
+### <a id="VM_Managed_Simulation_Configuration_ParameterOfStaticAnalysis"></a> ParameterOfStaticAnalysis
 
 Gets or sets the static analysis parameter.
 
@@ -440,7 +440,7 @@ public AnalysisParameterStatic ParameterOfStaticAnalysis { get; set; }
 
  AnalysisParameterStatic
 
-### ParameterOfThermalAnalysis
+### <a id="VM_Managed_Simulation_Configuration_ParameterOfThermalAnalysis"></a> ParameterOfThermalAnalysis
 
 Gets or sets the thermal analysis parameter.
 
@@ -452,7 +452,7 @@ public AnalysisParameterThermal ParameterOfThermalAnalysis { get; set; }
 
  AnalysisParameterThermal
 
-### PlasticMaterialStrain
+### <a id="VM_Managed_Simulation_Configuration_PlasticMaterialStrain"></a> PlasticMaterialStrain
 
 ```csharp
 public PlasticMaterialStrain PlasticMaterialStrain { get; set; }
@@ -462,7 +462,7 @@ public PlasticMaterialStrain PlasticMaterialStrain { get; set; }
 
  [PlasticMaterialStrain](VM.Managed.DAFUL.PlasticMaterialStrain.md)
 
-### PreventShearLocking
+### <a id="VM_Managed_Simulation_Configuration_PreventShearLocking"></a> PreventShearLocking
 
 ```csharp
 public bool PreventShearLocking { get; set; }
@@ -472,7 +472,7 @@ public bool PreventShearLocking { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RecordOfResult
+### <a id="VM_Managed_Simulation_Configuration_RecordOfResult"></a> RecordOfResult
 
 Gets or sets the result record.
 
@@ -484,7 +484,7 @@ public Configuration.ResultRecord RecordOfResult { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[ResultRecord](VM.Managed.Simulation.Configuration.ResultRecord.md)
 
-### RecordOfStressStrainType
+### <a id="VM_Managed_Simulation_Configuration_RecordOfStressStrainType"></a> RecordOfStressStrainType
 
 Gets or sets the type of the stress/strain record.
 
@@ -496,7 +496,7 @@ public Configuration.RecordOfStressStrain RecordOfStressStrainType { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[RecordOfStressStrain](VM.Managed.Simulation.Configuration.RecordOfStressStrain.md)
 
-### ResultFilePath
+### <a id="VM_Managed_Simulation_Configuration_ResultFilePath"></a> ResultFilePath
 
 Gets or sets the result path.
 
@@ -508,7 +508,7 @@ public string ResultFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ShowHideAdvancedOption
+### <a id="VM_Managed_Simulation_Configuration_ShowHideAdvancedOption"></a> ShowHideAdvancedOption
 
 Gets or sets a value indicating whether [show advanced option].
 
@@ -520,7 +520,7 @@ public bool ShowHideAdvancedOption { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SimulationParam
+### <a id="VM_Managed_Simulation_Configuration_SimulationParam"></a> SimulationParam
 
 Gets or sets the simulation parameter.
 
@@ -532,7 +532,7 @@ public SimulationParameter SimulationParam { get; set; }
 
  SimulationParameter
 
-### SimulationStepForPLT
+### <a id="VM_Managed_Simulation_Configuration_SimulationStepForPLT"></a> SimulationStepForPLT
 
 Gets or sets the simulation step of plt.
 
@@ -544,7 +544,7 @@ public uint SimulationStepForPLT { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### StepOfDynamicSimulation
+### <a id="VM_Managed_Simulation_Configuration_StepOfDynamicSimulation"></a> StepOfDynamicSimulation
 
 Gets or sets the dynamic simulation step.
 
@@ -556,7 +556,7 @@ public uint StepOfDynamicSimulation { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### StepOfStaticSimulation
+### <a id="VM_Managed_Simulation_Configuration_StepOfStaticSimulation"></a> StepOfStaticSimulation
 
 Gets or sets the static simulation step.
 
@@ -568,7 +568,7 @@ public uint StepOfStaticSimulation { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### StressStrainReport
+### <a id="VM_Managed_Simulation_Configuration_StressStrainReport"></a> StressStrainReport
 
 ```csharp
 public StressStrainReport StressStrainReport { get; set; }
@@ -578,7 +578,7 @@ public StressStrainReport StressStrainReport { get; set; }
 
  [StressStrainReport](VM.Managed.DAFUL.StressStrainReport.md)
 
-### SubTypeOfCriterion
+### <a id="VM_Managed_Simulation_Configuration_SubTypeOfCriterion"></a> SubTypeOfCriterion
 
 Gets or sets the type of the criterion sub.
 
@@ -590,7 +590,7 @@ public Configuration.CriterionSub SubTypeOfCriterion { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[CriterionSub](VM.Managed.Simulation.Configuration.CriterionSub.md)
 
-### SynchronizeMaxStepSize
+### <a id="VM_Managed_Simulation_Configuration_SynchronizeMaxStepSize"></a> SynchronizeMaxStepSize
 
 Gets or sets a value indicating whether [synchronize maximum step size].
 
@@ -602,7 +602,7 @@ public bool SynchronizeMaxStepSize { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TreatAsModalForEFModalBodyResult
+### <a id="VM_Managed_Simulation_Configuration_TreatAsModalForEFModalBodyResult"></a> TreatAsModalForEFModalBodyResult
 
 Gets or sets the flag that whether treat as modal for efmodal body result or not.
 
@@ -614,7 +614,7 @@ public bool TreatAsModalForEFModalBodyResult { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TypeOfCriterion
+### <a id="VM_Managed_Simulation_Configuration_TypeOfCriterion"></a> TypeOfCriterion
 
 Gets or sets the type of the criterion.
 
@@ -626,7 +626,7 @@ public Configuration.Criterion TypeOfCriterion { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[Criterion](VM.Managed.Simulation.Configuration.Criterion.md)
 
-### TypeOfDynamicSkipAnalysis
+### <a id="VM_Managed_Simulation_Configuration_TypeOfDynamicSkipAnalysis"></a> TypeOfDynamicSkipAnalysis
 
 Gets or sets the type of dynamic skip analysis.
 
@@ -638,7 +638,7 @@ public Configuration.SkipAnalysis TypeOfDynamicSkipAnalysis { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[SkipAnalysis](VM.Managed.Simulation.Configuration.SkipAnalysis.md)
 
-### TypeOfEigenvalueSkipAnalysis
+### <a id="VM_Managed_Simulation_Configuration_TypeOfEigenvalueSkipAnalysis"></a> TypeOfEigenvalueSkipAnalysis
 
 Gets or sets the type of eigenvalue skip analysis.
 
@@ -650,7 +650,7 @@ public Configuration.SkipAnalysis TypeOfEigenvalueSkipAnalysis { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[SkipAnalysis](VM.Managed.Simulation.Configuration.SkipAnalysis.md)
 
-### TypeOfInitialSkipAnalysis
+### <a id="VM_Managed_Simulation_Configuration_TypeOfInitialSkipAnalysis"></a> TypeOfInitialSkipAnalysis
 
 Gets or sets the type of initial skip analysis.
 
@@ -662,7 +662,7 @@ public Configuration.SkipAnalysis TypeOfInitialSkipAnalysis { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[SkipAnalysis](VM.Managed.Simulation.Configuration.SkipAnalysis.md)
 
-### TypeOfJacobian
+### <a id="VM_Managed_Simulation_Configuration_TypeOfJacobian"></a> TypeOfJacobian
 
 Gets or sets the type of the jacobian.
 
@@ -674,7 +674,7 @@ public Configuration.Jacobian TypeOfJacobian { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[Jacobian](VM.Managed.Simulation.Configuration.Jacobian.md)
 
-### TypeOfLinearSolver
+### <a id="VM_Managed_Simulation_Configuration_TypeOfLinearSolver"></a> TypeOfLinearSolver
 
 Gets or sets the type of the linear solver.
 
@@ -686,7 +686,7 @@ public Configuration.LinearSolver TypeOfLinearSolver { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[LinearSolver](VM.Managed.Simulation.Configuration.LinearSolver.md)
 
-### TypeOfMemoryOptimization
+### <a id="VM_Managed_Simulation_Configuration_TypeOfMemoryOptimization"></a> TypeOfMemoryOptimization
 
 Gets or sets the type of the memory optimization.
 
@@ -698,7 +698,7 @@ public Configuration.MemoryOptimization TypeOfMemoryOptimization { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[MemoryOptimization](VM.Managed.Simulation.Configuration.MemoryOptimization.md)
 
-### TypeOfMeshDataForOutput
+### <a id="VM_Managed_Simulation_Configuration_TypeOfMeshDataForOutput"></a> TypeOfMeshDataForOutput
 
 Gets or sets the type of the mesh data for output.
 
@@ -710,7 +710,7 @@ public Configuration.MeshDataForOutput TypeOfMeshDataForOutput { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[MeshDataForOutput](VM.Managed.Simulation.Configuration.MeshDataForOutput.md)
 
-### TypeOfNodalCoordinate
+### <a id="VM_Managed_Simulation_Configuration_TypeOfNodalCoordinate"></a> TypeOfNodalCoordinate
 
 Gets or sets the type of the nodal coordinate.
 
@@ -722,7 +722,7 @@ public Configuration.NodalCoordinate TypeOfNodalCoordinate { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[NodalCoordinate](VM.Managed.Simulation.Configuration.NodalCoordinate.md)
 
-### TypeOfSimulation
+### <a id="VM_Managed_Simulation_Configuration_TypeOfSimulation"></a> TypeOfSimulation
 
 Gets or sets the type of the simulation.
 
@@ -734,7 +734,7 @@ public Configuration.Simulation TypeOfSimulation { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[Simulation](VM.Managed.Simulation.Configuration.Simulation.md)
 
-### TypeOfStaticSkipAnalysis
+### <a id="VM_Managed_Simulation_Configuration_TypeOfStaticSkipAnalysis"></a> TypeOfStaticSkipAnalysis
 
 Gets or sets the type of static skip analysis.
 
@@ -746,7 +746,7 @@ public Configuration.SkipAnalysis TypeOfStaticSkipAnalysis { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[SkipAnalysis](VM.Managed.Simulation.Configuration.SkipAnalysis.md)
 
-### TypeOfThermalSkipAnalysis
+### <a id="VM_Managed_Simulation_Configuration_TypeOfThermalSkipAnalysis"></a> TypeOfThermalSkipAnalysis
 
 Gets or sets the type of thermal skip analysis.
 
@@ -758,7 +758,7 @@ public Configuration.SkipAnalysis TypeOfThermalSkipAnalysis { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[SkipAnalysis](VM.Managed.Simulation.Configuration.SkipAnalysis.md)
 
-### TypeOfTreatmentOfNonContactEntity
+### <a id="VM_Managed_Simulation_Configuration_TypeOfTreatmentOfNonContactEntity"></a> TypeOfTreatmentOfNonContactEntity
 
 Gets or sets the type of the Treatment of non-contact entity.
 
@@ -770,7 +770,7 @@ public Configuration.TreatmentOfNonContactEntity TypeOfTreatmentOfNonContactEnti
 
  [Configuration](VM.Managed.Simulation.Configuration.md).[TreatmentOfNonContactEntity](VM.Managed.Simulation.Configuration.TreatmentOfNonContactEntity.md)
 
-### UseAutoSolverProgressBar
+### <a id="VM_Managed_Simulation_Configuration_UseAutoSolverProgressBar"></a> UseAutoSolverProgressBar
 
 Gets or sets a value indicating whether [auto solver progress bar].
 
@@ -782,7 +782,7 @@ public bool UseAutoSolverProgressBar { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseExportICF
+### <a id="VM_Managed_Simulation_Configuration_UseExportICF"></a> UseExportICF
 
 Gets or sets a value indicating whether this instance is use export ICF.
 
@@ -794,7 +794,7 @@ public bool UseExportICF { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseImportICF
+### <a id="VM_Managed_Simulation_Configuration_UseImportICF"></a> UseImportICF
 
 Gets or sets a value indicating whether this instance is use import ICF.
 
@@ -806,7 +806,7 @@ public bool UseImportICF { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseMeshFreeAllBodySettings
+### <a id="VM_Managed_Simulation_Configuration_UseMeshFreeAllBodySettings"></a> UseMeshFreeAllBodySettings
 
 Gets or sets whether use all body settings for MeshFree
 
@@ -819,7 +819,7 @@ public bool UseMeshFreeAllBodySettings { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseMotionStep
+### <a id="VM_Managed_Simulation_Configuration_UseMotionStep"></a> UseMotionStep
 
 Gets or sets a value indicating whether this instance is use motion step.
 
@@ -831,7 +831,7 @@ public bool UseMotionStep { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseOutOfCore
+### <a id="VM_Managed_Simulation_Configuration_UseOutOfCore"></a> UseOutOfCore
 
 Gets or sets a value indicating whether [out of core].
 
@@ -843,7 +843,7 @@ public bool UseOutOfCore { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UsePLT
+### <a id="VM_Managed_Simulation_Configuration_UsePLT"></a> UsePLT
 
 Gets or sets a value indicating whether this instance is use the simulation step of plt.
 
@@ -855,7 +855,7 @@ public bool UsePLT { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseSolvingSpeedOption
+### <a id="VM_Managed_Simulation_Configuration_UseSolvingSpeedOption"></a> UseSolvingSpeedOption
 
 Gets or sets a value indicating whether [solving speed option].
 
@@ -867,7 +867,7 @@ public bool UseSolvingSpeedOption { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UserTetraFilePath
+### <a id="VM_Managed_Simulation_Configuration_UserTetraFilePath"></a> UserTetraFilePath
 
 Gets or sets the user tetra path.
 
@@ -881,7 +881,7 @@ public string UserTetraFilePath { get; set; }
 
 ## Methods
 
-### AddNodalOutputEntity\(ObjectBase\)
+### <a id="VM_Managed_Simulation_Configuration_AddNodalOutputEntity_VM_Managed_ObjectBase_"></a> AddNodalOutputEntity\(ObjectBase\)
 
 Add new nodal output entity.
 
@@ -895,7 +895,7 @@ public void AddNodalOutputEntity(ObjectBase ob)
 
 The object.
 
-### AddToolkitSetting\(string, ToolKitSettingBase\)
+### <a id="VM_Managed_Simulation_Configuration_AddToolkitSetting_System_String_VM_Managed_DAFUL_ToolKitSettingBase_"></a> AddToolkitSetting\(string, ToolKitSettingBase\)
 
 Adds the toolkit setting.
 
@@ -913,7 +913,7 @@ Name of the STR.
 
 The setting.
 
-### AddToolkitSettingValue\(string, ObjectBase\)
+### <a id="VM_Managed_Simulation_Configuration_AddToolkitSettingValue_System_String_VM_Managed_ObjectBase_"></a> AddToolkitSettingValue\(string, ObjectBase\)
 
 Adds the toolkit setting.
 
@@ -931,7 +931,7 @@ key of toolkit.
 
 The new toolkit setting.
 
-### ClearNodalOutputEntity\(\)
+### <a id="VM_Managed_Simulation_Configuration_ClearNodalOutputEntity"></a> ClearNodalOutputEntity\(\)
 
 Clear nodal output list.
 
@@ -939,7 +939,7 @@ Clear nodal output list.
 public void ClearNodalOutputEntity()
 ```
 
-### Clone\(string\)
+### <a id="VM_Managed_Simulation_Configuration_Clone_System_String_"></a> Clone\(string\)
 
 Clones the specified STR name.
 
@@ -957,7 +957,7 @@ Name of the STR.
 
  [Configuration](VM.Managed.Simulation.Configuration.md)
 
-### ContainsToolkitSetting\(string\)
+### <a id="VM_Managed_Simulation_Configuration_ContainsToolkitSetting_System_String_"></a> ContainsToolkitSetting\(string\)
 
 Determines whether contains toolkit setting with the specified STR key.
 
@@ -977,7 +977,7 @@ key of toolkit.
 
 <code>true</code> if contains toolkit setting with the specified STR key; otherwise, <code>false</code>.
 
-### ContainsToolkitSettingValue\(string, ObjectBase\)
+### <a id="VM_Managed_Simulation_Configuration_ContainsToolkitSettingValue_System_String_VM_Managed_ObjectBase_"></a> ContainsToolkitSettingValue\(string, ObjectBase\)
 
 Determines whether contains toolkit setting with the specified toolkit key.
 
@@ -1001,7 +1001,7 @@ The toolkit setting.
 
 <code>true</code> if contains toolkit setting value with the specified toolkit key; otherwise, <code>false</code>.
 
-### DeserializeConfiguration\(string\)
+### <a id="VM_Managed_Simulation_Configuration_DeserializeConfiguration_System_String_"></a> DeserializeConfiguration\(string\)
 
 Deserializes the configuration.
 
@@ -1019,7 +1019,7 @@ The reader.
 
  [Configuration](VM.Managed.Simulation.Configuration.md)
 
-### GetNewConfigurationList\(DocumentAnalysis\)
+### <a id="VM_Managed_Simulation_Configuration_GetNewConfigurationList_VM_Managed_DAFUL_DocumentAnalysis_"></a> GetNewConfigurationList\(DocumentAnalysis\)
 
 Gets the new configuration list.
 
@@ -1039,7 +1039,7 @@ The document.
 
 configuration list.
 
-### GetToolkitSetting\(string\)
+### <a id="VM_Managed_Simulation_Configuration_GetToolkitSetting_System_String_"></a> GetToolkitSetting\(string\)
 
 Gets the toolkit setting.
 
@@ -1057,7 +1057,7 @@ key of toolkit.
 
  [ToolKitSettingBase](VM.Managed.DAFUL.ToolKitSettingBase.md)
 
-### InitializeConfig\(string\)
+### <a id="VM_Managed_Simulation_Configuration_InitializeConfig_System_String_"></a> InitializeConfig\(string\)
 
 Initializes the config.
 
@@ -1071,7 +1071,7 @@ public void InitializeConfig(string strName)
 
 Name of the simulation configuration.
 
-### IsEnabled\(ObjectBase\)
+### <a id="VM_Managed_Simulation_Configuration_IsEnabled_VM_Managed_ObjectBase_"></a> IsEnabled\(ObjectBase\)
 
 Determines whether the specified ob is enabled.
 
@@ -1091,7 +1091,7 @@ The object.
 
 <code>true</code> if the specified object is enabled; otherwise, <code>false</code>.
 
-### IsThermalAnalysis\(\)
+### <a id="VM_Managed_Simulation_Configuration_IsThermalAnalysis"></a> IsThermalAnalysis\(\)
 
 Determines whether is thermal analysis.
 
@@ -1105,7 +1105,7 @@ public bool IsThermalAnalysis()
 
 <code>true</code> if this instance is thermal analysis; otherwise, <code>false</code>.
 
-### LinkRemovedFromDocument\(object, RemoveFromDocEventArgs\)
+### <a id="VM_Managed_Simulation_Configuration_LinkRemovedFromDocument_System_Object_VM_Managed_RemoveFromDocEventArgs_"></a> LinkRemovedFromDocument\(object, RemoveFromDocEventArgs\)
 
 Remove Anlaysis Type in the Analysis Setting to a document.
 
@@ -1123,7 +1123,7 @@ The linked object.
 
 The <xref href="VM.Managed.AddToDocEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_Simulation_Configuration_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -1141,7 +1141,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_Simulation_Configuration_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -1159,7 +1159,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_Simulation_Configuration_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -1173,7 +1173,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### PostDeserialize\(Configuration\)
+### <a id="VM_Managed_Simulation_Configuration_PostDeserialize_VM_Managed_Simulation_Configuration_"></a> PostDeserialize\(Configuration\)
 
 Posts the deserialize.
 
@@ -1187,7 +1187,7 @@ public void PostDeserialize(Configuration config)
 
 The configuration.
 
-### RemoveToolkitSetting\(string\)
+### <a id="VM_Managed_Simulation_Configuration_RemoveToolkitSetting_System_String_"></a> RemoveToolkitSetting\(string\)
 
 Removes the toolkit setting.
 
@@ -1201,7 +1201,7 @@ public void RemoveToolkitSetting(string strName)
 
 Name of the STR.
 
-### RemoveToolkitSettingValue\(string, ObjectBase\)
+### <a id="VM_Managed_Simulation_Configuration_RemoveToolkitSettingValue_System_String_VM_Managed_ObjectBase_"></a> RemoveToolkitSettingValue\(string, ObjectBase\)
 
 Removes the toolkit setting.
 
@@ -1219,7 +1219,7 @@ key of toolkit.
 
 The toolkit setting to remove.
 
-### ReplaceAnalysisParameter\(Configuration\)
+### <a id="VM_Managed_Simulation_Configuration_ReplaceAnalysisParameter_VM_Managed_Simulation_Configuration_"></a> ReplaceAnalysisParameter\(Configuration\)
 
 Replaces the specified configuration.
 
@@ -1233,7 +1233,7 @@ public void ReplaceAnalysisParameter(Configuration configReplace)
 
 The replacing configuration .
 
-### ReplaceToolkitSettingValue\(string, ObjectBase, ObjectBase\)
+### <a id="VM_Managed_Simulation_Configuration_ReplaceToolkitSettingValue_System_String_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> ReplaceToolkitSettingValue\(string, ObjectBase, ObjectBase\)
 
 Replaces the toolkit setting.
 
@@ -1255,7 +1255,7 @@ The old toolkit setting.
 
 The new toolkit setting.
 
-### SerializeConfiguration\(\)
+### <a id="VM_Managed_Simulation_Configuration_SerializeConfiguration"></a> SerializeConfiguration\(\)
 
 Serializes the configuration.
 
@@ -1267,7 +1267,7 @@ public string SerializeConfiguration()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SetEnable\(ObjectBase, bool\)
+### <a id="VM_Managed_Simulation_Configuration_SetEnable_VM_Managed_ObjectBase_System_Boolean_"></a> SetEnable\(ObjectBase, bool\)
 
 Sets the enable.
 
@@ -1284,5 +1284,4 @@ The object.
 `bEnabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> enabled.
-
 

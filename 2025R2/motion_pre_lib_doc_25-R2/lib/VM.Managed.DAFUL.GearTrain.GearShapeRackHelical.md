@@ -1,4 +1,4 @@
-# Class GearShapeRackHelical
+#  Class GearShapeRackHelical
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -138,12 +138,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearShapeRackHelical\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeRackHelical__ctor"></a> GearShapeRackHelical\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearShapeRackHelical" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public GearShapeRackHelical()
 ```
-
 

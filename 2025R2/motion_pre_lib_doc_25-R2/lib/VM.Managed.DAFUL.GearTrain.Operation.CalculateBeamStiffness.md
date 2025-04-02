@@ -1,4 +1,4 @@
-# Class CalculateBeamStiffness
+#  Class CalculateBeamStiffness
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### CalculateBeamStiffness\(HiddenGearSetRackAndPinionDocument, string, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateBeamStiffness__ctor_VM_Managed_DAFUL_GearTrain_HiddenGearSetRackAndPinionDocument_System_String_System_String_"></a> CalculateBeamStiffness\(HiddenGearSetRackAndPinionDocument, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateBeamStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -99,7 +99,7 @@ The string document information.
 
 The dat file path.
 
-### CalculateBeamStiffness\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateBeamStiffness__ctor_VM_Managed_Operation_JournalParameter_"></a> CalculateBeamStiffness\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateBeamStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateBeamStiffness_Name"></a> Name
 
 Gets the operation name.
 
@@ -129,7 +129,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateBeamStiffness_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -137,7 +137,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateBeamStiffness_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -151,7 +151,7 @@ public override void GetInformation(XmlWriter writer)
 
 The writer.
 
-### Result\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateBeamStiffness_Result"></a> Result\(\)
 
 Results this instance.
 
@@ -162,5 +162,4 @@ public string[] Result()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
-
 

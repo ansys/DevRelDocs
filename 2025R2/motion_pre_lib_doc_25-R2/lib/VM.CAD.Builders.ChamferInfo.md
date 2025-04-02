@@ -1,4 +1,4 @@
-# Class ChamferInfo
+#  Class ChamferInfo
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -26,7 +26,7 @@ public abstract class ChamferInfo
 
 ## Constructors
 
-### ChamferInfo\(\)
+### <a id="VM_CAD_Builders_ChamferInfo__ctor"></a> ChamferInfo\(\)
 
 ```csharp
 protected ChamferInfo()
@@ -34,7 +34,7 @@ protected ChamferInfo()
 
 ## Properties
 
-### LeftRange
+### <a id="VM_CAD_Builders_ChamferInfo_LeftRange"></a> LeftRange
 
 Left range of the champer
 
@@ -46,7 +46,7 @@ public double LeftRange { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Radius
+### <a id="VM_CAD_Builders_ChamferInfo_Radius"></a> Radius
 
 Radius of the champer
 
@@ -58,7 +58,7 @@ public double Radius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RightRange
+### <a id="VM_CAD_Builders_ChamferInfo_RightRange"></a> RightRange
 
 Right range of the champer
 
@@ -69,5 +69,4 @@ public double RightRange { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

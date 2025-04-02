@@ -1,4 +1,4 @@
-# Class SolidBodyShoeLMTriple
+#  Class SolidBodyShoeLMTriple
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -61,7 +61,7 @@ BuilderBase<SolidBodyShoe\>.ErrorMessage
 
 ## Constructors
 
-### SolidBodyShoeLMTriple\(\)
+### <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyShoeLMTriple__ctor"></a> SolidBodyShoeLMTriple\(\)
 
 ```csharp
 public SolidBodyShoeLMTriple()
@@ -69,7 +69,7 @@ public SolidBodyShoeLMTriple()
 
 ## Methods
 
-### GetCurrentBuilder\(\)
+### <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyShoeLMTriple_GetCurrentBuilder"></a> GetCurrentBuilder\(\)
 
 ```csharp
 protected override Builder GetCurrentBuilder()
@@ -78,5 +78,4 @@ protected override Builder GetCurrentBuilder()
 #### Returns
 
  Builder
-
 

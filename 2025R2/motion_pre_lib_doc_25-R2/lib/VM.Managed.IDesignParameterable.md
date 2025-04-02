@@ -1,4 +1,4 @@
-# Interface IDesignParameterable
+#  Interface IDesignParameterable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IDesignParameterable
 
 ## Properties
 
-### UseDesignParameter
+### <a id="VM_Managed_IDesignParameterable_UseDesignParameter"></a> UseDesignParameter
 
 Gets or sets a value indicating whether this instance will be used as the design parameter in DOE simulation.
 
@@ -28,5 +28,4 @@ bool UseDesignParameter { get; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

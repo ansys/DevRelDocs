@@ -1,4 +1,4 @@
-# Interface IInterface
+#  Interface IInterface
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -17,7 +17,7 @@ public interface IInterface
 
 ## Properties
 
-### IsInterface
+### <a id="VM_Managed_IInterface_IsInterface"></a> IsInterface
 
 Gets or sets a value indicating whether this instance is interface.
 
@@ -31,7 +31,7 @@ bool IsInterface { get; set; }
 
 ## Methods
 
-### BindInterface\(TMatrix, TMatrix, IInterface\)
+### <a id="VM_Managed_IInterface_BindInterface_VM_Managed_TMatrix_VM_Managed_TMatrix_VM_Managed_IInterface_"></a> BindInterface\(TMatrix, TMatrix, IInterface\)
 
 Binds the interface.
 
@@ -52,5 +52,4 @@ The [to matrix].
 `itf` [IInterface](VM.Managed.IInterface.md)
 
 The interface.
-
 

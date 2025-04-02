@@ -1,4 +1,4 @@
-# Class DocFromTemplateInfo
+#  Class DocFromTemplateInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -31,7 +31,7 @@ public class DocFromTemplateInfo : DocCreateInfo
 
 ## Constructors
 
-### DocFromTemplateInfo\(\)
+### <a id="VM_Managed_DocFromTemplateInfo__ctor"></a> DocFromTemplateInfo\(\)
 
 ```csharp
 public DocFromTemplateInfo()
@@ -39,7 +39,7 @@ public DocFromTemplateInfo()
 
 ## Properties
 
-### TemplatePath
+### <a id="VM_Managed_DocFromTemplateInfo_TemplatePath"></a> TemplatePath
 
 Gets or sets the template document path.
 
@@ -50,5 +50,4 @@ public string TemplatePath { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

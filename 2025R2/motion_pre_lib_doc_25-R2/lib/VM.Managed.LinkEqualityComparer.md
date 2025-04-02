@@ -1,4 +1,4 @@
-# Class LinkEqualityComparer
+#  Class LinkEqualityComparer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class LinkEqualityComparer
 
 ## Constructors
 
-### LinkEqualityComparer\(\)
+### <a id="VM_Managed_LinkEqualityComparer__ctor"></a> LinkEqualityComparer\(\)
 
 ```csharp
 public LinkEqualityComparer()
@@ -30,7 +30,7 @@ public LinkEqualityComparer()
 
 ## Methods
 
-### Equals\(ILink, ILink\)
+### <a id="VM_Managed_LinkEqualityComparer_Equals_VM_Managed_ILink_VM_Managed_ILink_"></a> Equals\(ILink, ILink\)
 
 Compare two Link objects.
 
@@ -52,7 +52,7 @@ The second comparable object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetHashCode\(ILink\)
+### <a id="VM_Managed_LinkEqualityComparer_GetHashCode_VM_Managed_ILink_"></a> GetHashCode\(ILink\)
 
 Get hash code of Link object.
 
@@ -69,5 +69,4 @@ The object to get hash code.
 #### Returns
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 

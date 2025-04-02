@@ -1,4 +1,4 @@
-# Class Water
+#  Class Water
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -208,7 +208,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Water\(\)
+### <a id="VM_Managed_DAFUL_Track_Water__ctor"></a> Water\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.Water" data-throw-if-not-resolved="false"></xref> class.
 
@@ -216,7 +216,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.Water" data
 public Water()
 ```
 
-### Water\(string\)
+### <a id="VM_Managed_DAFUL_Track_Water__ctor_System_String_"></a> Water\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.Water" data-throw-if-not-resolved="false"></xref> class.
 
@@ -232,7 +232,7 @@ Name of the string.
 
 ## Properties
 
-### Color
+### <a id="VM_Managed_DAFUL_Track_Water_Color"></a> Color
 
 Gets or sets the color.
 
@@ -244,7 +244,7 @@ public Color Color { get; set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### DepthAtDeepWater
+### <a id="VM_Managed_DAFUL_Track_Water_DepthAtDeepWater"></a> DepthAtDeepWater
 
 Gets or sets the Depth at Deep Water.
 
@@ -262,7 +262,7 @@ public ExpressionValueVariable DepthAtDeepWater { get; set; }
 
 Depth at Deep Water is null.
 
-### DistanceToDeepWater
+### <a id="VM_Managed_DAFUL_Track_Water_DistanceToDeepWater"></a> DistanceToDeepWater
 
 Gets or sets the Distance to DeepWater.
 
@@ -280,7 +280,7 @@ public ExpressionValueVariable DistanceToDeepWater { get; set; }
 
 Distance to DeepWater is null.
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_Track_Water_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -292,7 +292,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Hide
+### <a id="VM_Managed_DAFUL_Track_Water_Hide"></a> Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -304,7 +304,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Layer
+### <a id="VM_Managed_DAFUL_Track_Water_Layer"></a> Layer
 
 Gets or sets the layer.
 
@@ -316,7 +316,7 @@ public override Layer Layer { get; set; }
 
  Layer
 
-### LengthInXAxis
+### <a id="VM_Managed_DAFUL_Track_Water_LengthInXAxis"></a> LengthInXAxis
 
 Gets or sets the Length in X Axis.
 
@@ -334,7 +334,7 @@ public ExpressionValueVariable LengthInXAxis { get; set; }
 
 Length in X Axis is null.
 
-### RandomPhase
+### <a id="VM_Managed_DAFUL_Track_Water_RandomPhase"></a> RandomPhase
 
 Gets or sets the random phase
 
@@ -346,7 +346,7 @@ public List<double> RandomPhase { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### ReferenceFrame
+### <a id="VM_Managed_DAFUL_Track_Water_ReferenceFrame"></a> ReferenceFrame
 
 Gets or sets the reference frame.
 
@@ -358,7 +358,7 @@ public Marker ReferenceFrame { get; set; }
 
  Marker
 
-### Slope
+### <a id="VM_Managed_DAFUL_Track_Water_Slope"></a> Slope
 
 Gets or sets the Slope.
 
@@ -376,7 +376,7 @@ public ExpressionValueVariable Slope { get; set; }
 
 Slope is null.
 
-### Transparency
+### <a id="VM_Managed_DAFUL_Track_Water_Transparency"></a> Transparency
 
 Gets or sets the transparency.
 
@@ -388,7 +388,7 @@ public double Transparency { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UseSlope
+### <a id="VM_Managed_DAFUL_Track_Water_UseSlope"></a> UseSlope
 
 Gets or sets the Slope flag.
 
@@ -400,7 +400,7 @@ public bool UseSlope { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### WidthInYAxis
+### <a id="VM_Managed_DAFUL_Track_Water_WidthInYAxis"></a> WidthInYAxis
 
 Gets or sets the Width in Y Axis.
 
@@ -418,7 +418,7 @@ public ExpressionValueVariable WidthInYAxis { get; set; }
 
 Width in Y Axis is null.
 
-### \_Color
+### <a id="VM_Managed_DAFUL_Track_Water__Color"></a> \_Color
 
 Gets or sets the color.
 
@@ -432,7 +432,7 @@ public int _Color { get; set; }
 
 ## Methods
 
-### CalculateWave\(Document, WaveStructure, bool, ref double\[\], ref List<WaveResult\>\)
+### <a id="VM_Managed_DAFUL_Track_Water_CalculateWave_VM_Managed_Document_VM_Managed_DAFUL_Track_Water_WaveStructure_System_Boolean_System_Double____System_Collections_Generic_List_VM_Managed_DAFUL_Track_Water_WaveResult___"></a> CalculateWave\(Document, WaveStructure, bool, ref double\[\], ref List<WaveResult\>\)
 
 Calculate Wave
 
@@ -462,7 +462,7 @@ The X array
 
 The result
 
-### CreateCurrentFile\(\)
+### <a id="VM_Managed_DAFUL_Track_Water_CreateCurrentFile"></a> CreateCurrentFile\(\)
 
 Create current file
 
@@ -470,7 +470,7 @@ Create current file
 public void CreateCurrentFile()
 ```
 
-### CreateCurrentFile\(string\)
+### <a id="VM_Managed_DAFUL_Track_Water_CreateCurrentFile_System_String_"></a> CreateCurrentFile\(string\)
 
 Create current file
 
@@ -484,7 +484,7 @@ public void CreateCurrentFile(string strCurrentFilePath)
 
 The current file path
 
-### CreateWaveFile\(\)
+### <a id="VM_Managed_DAFUL_Track_Water_CreateWaveFile"></a> CreateWaveFile\(\)
 
 Create wave file
 
@@ -492,7 +492,7 @@ Create wave file
 public void CreateWaveFile()
 ```
 
-### CreateWaveFile\(Document, string\)
+### <a id="VM_Managed_DAFUL_Track_Water_CreateWaveFile_VM_Managed_Document_System_String_"></a> CreateWaveFile\(Document, string\)
 
 Create wave file
 
@@ -510,7 +510,7 @@ The document
 
 The wave file path
 
-### CreateWaveMesh\(TransformBase, double, double\[\], List<WaveResult\>, ref Vector\[\], ref int\[\]\)
+### <a id="VM_Managed_DAFUL_Track_Water_CreateWaveMesh_VM_Managed_TransformBase_System_Double_System_Double___System_Collections_Generic_List_VM_Managed_DAFUL_Track_Water_WaveResult__VM_Vector____System_Int32____"></a> CreateWaveMesh\(TransformBase, double, double\[\], List<WaveResult\>, ref Vector\[\], ref int\[\]\)
 
 Create Rectangular Mesh
 
@@ -544,7 +544,7 @@ The position array
 
 The Connectivity array
 
-### CreateWaveMesh\(Document, TransformBase, double, ref Vector\[\], ref int\[\]\)
+### <a id="VM_Managed_DAFUL_Track_Water_CreateWaveMesh_VM_Managed_Document_VM_Managed_TransformBase_System_Double_VM_Vector____System_Int32____"></a> CreateWaveMesh\(Document, TransformBase, double, ref Vector\[\], ref int\[\]\)
 
 Create Rectangular Mesh
 
@@ -574,7 +574,7 @@ The position array
 
 The Connectivity array
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Track_Water_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -588,7 +588,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### GenerateRandomPhase\(\)
+### <a id="VM_Managed_DAFUL_Track_Water_GenerateRandomPhase"></a> GenerateRandomPhase\(\)
 
 Generate random phase
 
@@ -600,7 +600,7 @@ public static List<double> GenerateRandomPhase()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Track_Water_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -628,7 +628,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Track_Water_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -642,7 +642,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Track_Water_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -660,7 +660,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Track_Water_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -674,7 +674,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### PiersonMoskowitzSpectrum\(PMPeriodType, List<double\[\]\>, double, ref double, ref double\[\], ref double\[\], ref double\[\], ref List<Tuple<double, double\>\>\)
+### <a id="VM_Managed_DAFUL_Track_Water_PiersonMoskowitzSpectrum_VM_Managed_DAFUL_Track_Wave_PMPeriodType_System_Collections_Generic_List_System_Double____System_Double_System_Double__System_Double____System_Double____System_Double____System_Collections_Generic_List_System_Tuple_System_Double_System_Double____"></a> PiersonMoskowitzSpectrum\(PMPeriodType, List<double\[\]\>, double, ref double, ref double\[\], ref double\[\], ref double\[\], ref List<Tuple<double, double\>\>\)
 
 Calculate Pierson-Moskowitz Spectrum
 
@@ -716,12 +716,11 @@ The k set
 
 The Frequency and Spectrum data set
 
-### ReDraw\(\)
+### <a id="VM_Managed_DAFUL_Track_Water_ReDraw"></a> ReDraw\(\)
 
 Redraw.
 
 ```csharp
 public virtual void ReDraw()
 ```
-
 

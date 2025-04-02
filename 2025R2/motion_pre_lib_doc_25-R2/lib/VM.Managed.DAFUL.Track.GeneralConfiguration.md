@@ -1,4 +1,4 @@
-# Class GeneralConfiguration
+#  Class GeneralConfiguration
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -193,7 +193,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GeneralConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Track_GeneralConfiguration__ctor"></a> GeneralConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.GeneralConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -203,7 +203,7 @@ public GeneralConfiguration()
 
 ## Properties
 
-### ConfigurationName
+### <a id="VM_Managed_DAFUL_Track_GeneralConfiguration_ConfigurationName"></a> ConfigurationName
 
 Gets the configuration name
 
@@ -214,5 +214,4 @@ public override string ConfigurationName { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

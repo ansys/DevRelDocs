@@ -1,4 +1,4 @@
-# Class TransformBase
+#  Class TransformBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -127,7 +127,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### TransformBase\(string\)
+### <a id="VM_Managed_TransformBase__ctor_System_String_"></a> TransformBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.TransformBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -141,7 +141,7 @@ public TransformBase(string strValue)
 
 The value of Variable(string type).
 
-### TransformBase\(\)
+### <a id="VM_Managed_TransformBase__ctor"></a> TransformBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.TransformBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -151,7 +151,7 @@ public TransformBase()
 
 ## Fields
 
-### m\_matTransform
+### <a id="VM_Managed_TransformBase_m_matTransform"></a> m\_matTransform
 
 ```csharp
 protected TMatrix m_matTransform
@@ -163,7 +163,7 @@ protected TMatrix m_matTransform
 
 ## Properties
 
-### AngleType
+### <a id="VM_Managed_TransformBase_AngleType"></a> AngleType
 
 Gets the specifies angle type.
 
@@ -175,7 +175,7 @@ public virtual AngleTypes AngleType { get; }
 
  AngleTypes
 
-### IsParameterized
+### <a id="VM_Managed_TransformBase_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -187,7 +187,7 @@ public virtual bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Orientation
+### <a id="VM_Managed_TransformBase_Orientation"></a> Orientation
 
 Gets the information of orientation(OMatrix type).
 
@@ -199,7 +199,7 @@ public virtual OMatrix Orientation { get; }
 
  [OMatrix](VM.Managed.OMatrix.md)
 
-### OrientationImpl
+### <a id="VM_Managed_TransformBase_OrientationImpl"></a> OrientationImpl
 
 Gets the information of orientation(OMatrix type).
 
@@ -211,7 +211,7 @@ virtual OMatrix OrientationImpl { get; }
 
  OMatrix
 
-### Position
+### <a id="VM_Managed_TransformBase_Position"></a> Position
 
 Gets the information of position(VectorBase type).
 
@@ -223,7 +223,7 @@ public virtual VectorBase Position { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### PositionImpl
+### <a id="VM_Managed_TransformBase_PositionImpl"></a> PositionImpl
 
 Gets the information of position(VectorBase type).
 
@@ -235,7 +235,7 @@ virtual Vector PositionImpl { get; }
 
  Vector
 
-### RotationAngles
+### <a id="VM_Managed_TransformBase_RotationAngles"></a> RotationAngles
 
 Gets the list of ration angles.
 
@@ -247,7 +247,7 @@ public virtual double[] RotationAngles { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### RotationAxis
+### <a id="VM_Managed_TransformBase_RotationAxis"></a> RotationAxis
 
 Gets the rotation axes type.
 
@@ -259,7 +259,7 @@ public virtual RotationAxes RotationAxis { get; }
 
  RotationAxes
 
-### RotationType
+### <a id="VM_Managed_TransformBase_RotationType"></a> RotationType
 
 Gets the specifies rotation type.
 
@@ -271,7 +271,7 @@ public virtual RotationTypes RotationType { get; }
 
  RotationTypes
 
-### TransformationMatrix
+### <a id="VM_Managed_TransformBase_TransformationMatrix"></a> TransformationMatrix
 
 Gets the information of transform(TMatrix type).
 
@@ -283,7 +283,7 @@ public virtual TMatrix TransformationMatrix { get; set; }
 
  [TMatrix](VM.Managed.TMatrix.md)
 
-### TransformationMatrixImpl
+### <a id="VM_Managed_TransformBase_TransformationMatrixImpl"></a> TransformationMatrixImpl
 
 Gets the information of transform(TMatrix type).
 
@@ -295,7 +295,7 @@ virtual TMatrix TransformationMatrixImpl { get; }
 
  TMatrix
 
-### UseExpression
+### <a id="VM_Managed_TransformBase_UseExpression"></a> UseExpression
 
 Gets the UseExpression.
 
@@ -309,7 +309,7 @@ public bool UseExpression { get; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_TransformBase_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -324,7 +324,7 @@ public virtual XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_TransformBase_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -338,7 +338,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WritePosAndOriToXml\(XmlWriter\)
+### <a id="VM_Managed_TransformBase_WritePosAndOriToXml_System_Xml_XmlWriter_"></a> WritePosAndOriToXml\(XmlWriter\)
 
 Converts an object into its XML representation about pointAndOrientation.
 
@@ -352,7 +352,7 @@ protected void WritePosAndOriToXml(XmlWriter writer)
 
 The XmlWriter stream to which the object is serialized about pointAndOrientation.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_TransformBase_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -365,5 +365,4 @@ public virtual void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

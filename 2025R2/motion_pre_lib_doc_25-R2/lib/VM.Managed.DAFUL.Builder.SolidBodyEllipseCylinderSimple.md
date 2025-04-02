@@ -1,4 +1,4 @@
-# Class SolidBodyEllipseCylinderSimple
+#  Class SolidBodyEllipseCylinderSimple
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -65,7 +65,7 @@ public class SolidBodyEllipseCylinderSimple : SolidBodyEllipseCylinder<BuilderEl
 
 ## Constructors
 
-### SolidBodyEllipseCylinderSimple\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseCylinderSimple__ctor"></a> SolidBodyEllipseCylinderSimple\(\)
 
 ```csharp
 public SolidBodyEllipseCylinderSimple()
@@ -73,7 +73,7 @@ public SolidBodyEllipseCylinderSimple()
 
 ## Properties
 
-### BottomPosition
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseCylinderSimple_BottomPosition"></a> BottomPosition
 
 ```csharp
 public PointBase BottomPosition { get; }
@@ -83,7 +83,7 @@ public PointBase BottomPosition { get; }
 
  PointBase
 
-### MajorAxis
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseCylinderSimple_MajorAxis"></a> MajorAxis
 
 ```csharp
 public DirectionBase MajorAxis { get; }
@@ -93,7 +93,7 @@ public DirectionBase MajorAxis { get; }
 
  DirectionBase
 
-### RadiusMajor
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseCylinderSimple_RadiusMajor"></a> RadiusMajor
 
 ```csharp
 public Variable RadiusMajor { get; set; }
@@ -103,7 +103,7 @@ public Variable RadiusMajor { get; set; }
 
  Variable
 
-### RadiusMinor
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseCylinderSimple_RadiusMinor"></a> RadiusMinor
 
 ```csharp
 public Variable RadiusMinor { get; set; }
@@ -113,7 +113,7 @@ public Variable RadiusMinor { get; set; }
 
  Variable
 
-### TopPosition
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseCylinderSimple_TopPosition"></a> TopPosition
 
 ```csharp
 public PointBase TopPosition { get; }
@@ -125,7 +125,7 @@ public PointBase TopPosition { get; }
 
 ## Methods
 
-### MakeSymmetricSolidBuilder\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseCylinderSimple_MakeSymmetricSolidBuilder"></a> MakeSymmetricSolidBuilder\(\)
 
 ```csharp
 protected override Builder MakeSymmetricSolidBuilder()
@@ -135,7 +135,7 @@ protected override Builder MakeSymmetricSolidBuilder()
 
  Builder
 
-### SetSolidBuilderProperty\(BuilderEllipseCylinderSimple\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyEllipseCylinderSimple_SetSolidBuilderProperty_VM_Managed_CAD_BuilderEllipseCylinderSimple_"></a> SetSolidBuilderProperty\(BuilderEllipseCylinderSimple\)
 
 ```csharp
 protected override void SetSolidBuilderProperty(BuilderEllipseCylinderSimple solidBuilder)
@@ -144,5 +144,4 @@ protected override void SetSolidBuilderProperty(BuilderEllipseCylinderSimple sol
 #### Parameters
 
 `solidBuilder` BuilderEllipseCylinderSimple
-
 

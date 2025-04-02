@@ -1,4 +1,4 @@
-# Enum enHDBGeometrySegmentType
+#  Enum enHDBGeometrySegmentType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ The journal
 `Thrust = 0` 
 
 The thrust
-
 
 
 

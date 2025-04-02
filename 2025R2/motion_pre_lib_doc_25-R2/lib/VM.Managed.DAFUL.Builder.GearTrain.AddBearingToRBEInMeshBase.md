@@ -1,4 +1,4 @@
-# Class AddBearingToRBEInMeshBase
+#  Class AddBearingToRBEInMeshBase
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -52,7 +52,7 @@ IBuilder
 
 ## Constructors
 
-### AddBearingToRBEInMeshBase\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshBase__ctor"></a> AddBearingToRBEInMeshBase\(\)
 
 ```csharp
 protected AddBearingToRBEInMeshBase()
@@ -60,7 +60,7 @@ protected AddBearingToRBEInMeshBase()
 
 ## Fields
 
-### m\_con
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshBase_m_con"></a> m\_con
 
 ```csharp
 protected IConnectable m_con
@@ -72,7 +72,7 @@ protected IConnectable m_con
 
 ## Properties
 
-### RBEConnectable
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshBase_RBEConnectable"></a> RBEConnectable
 
 ```csharp
 public IConnectable RBEConnectable { get; }
@@ -84,7 +84,7 @@ public IConnectable RBEConnectable { get; }
 
 ## Methods
 
-### Build\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshBase_Build_VM_Managed_Document_"></a> Build\(Document\)
 
 ```csharp
 public override void Build(Document docToAdd)
@@ -94,7 +94,7 @@ public override void Build(Document docToAdd)
 
 `docToAdd` Document
 
-### GetRacewayBuilder\(GeometryBase\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshBase_GetRacewayBuilder_VM_Managed_DAFUL_GearTrain_CAD_GeometryBase_"></a> GetRacewayBuilder\(GeometryBase\)
 
 ```csharp
 protected virtual RacewayBuilderForRBEInFE GetRacewayBuilder(GeometryBase bearing_geom)
@@ -108,7 +108,7 @@ protected virtual RacewayBuilderForRBEInFE GetRacewayBuilder(GeometryBase bearin
 
  RacewayBuilderForRBEInFE
 
-### GetRacewayGeometry\(RacewayBuilderForRBEInFE\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshBase_GetRacewayGeometry_VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_"></a> GetRacewayGeometry\(RacewayBuilderForRBEInFE\)
 
 ```csharp
 protected virtual GeometryBase GetRacewayGeometry(RacewayBuilderForRBEInFE bearingBuilder)
@@ -122,7 +122,7 @@ protected virtual GeometryBase GetRacewayGeometry(RacewayBuilderForRBEInFE beari
 
  GeometryBase
 
-### GetTmpRacewayGeometry\(RacewayGeometryInfo, HiddenDocumentMeshBase, DirectionBase, OMatrix, bool\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshBase_GetTmpRacewayGeometry_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_Managed_DirectionBase_VM_Managed_OMatrix_System_Boolean_"></a> GetTmpRacewayGeometry\(RacewayGeometryInfo, HiddenDocumentMeshBase, DirectionBase, OMatrix, bool\)
 
 ```csharp
 protected virtual GeometryBase GetTmpRacewayGeometry(RacewayGeometryInfo rgInfo, HiddenDocumentMeshBase hiddenDoc, DirectionBase zAxis, OMatrix matO, bool bAddDoc)
@@ -144,7 +144,7 @@ protected virtual GeometryBase GetTmpRacewayGeometry(RacewayGeometryInfo rgInfo,
 
  GeometryBase
 
-### RBEName\(IConnectable\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshBase_RBEName_VM_Managed_DAFUL_IConnectable_"></a> RBEName\(IConnectable\)
 
 ```csharp
 protected virtual string RBEName(IConnectable con)
@@ -158,7 +158,7 @@ protected virtual string RBEName(IConnectable con)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInMeshBase_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -171,5 +171,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

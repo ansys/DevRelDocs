@@ -1,4 +1,4 @@
-# Class PickerMulti
+#  Class PickerMulti
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -56,7 +56,7 @@ public abstract class PickerMulti : PickerBase
 
 ## Constructors
 
-### PickerMulti\(\)
+### <a id="VM_Managed_Picker_Core_PickerMulti__ctor"></a> PickerMulti\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerMulti" data-throw-if-not-resolved="false"></xref> class
 
@@ -66,7 +66,7 @@ public PickerMulti()
 
 ## Methods
 
-### GetResultXmlFromKey\(UIntPtr\[\]\)
+### <a id="VM_Managed_Picker_Core_PickerMulti_GetResultXmlFromKey_System_UIntPtr___"></a> GetResultXmlFromKey\(UIntPtr\[\]\)
 
 Get valid result xml according to picker keys of core.
 
@@ -84,7 +84,7 @@ public virtual string GetResultXmlFromKey(UIntPtr[] A_0)
 
 The valid result xml.
 
-### SetHighlight\(List<UIntPtr\>, bool, bool\)
+### <a id="VM_Managed_Picker_Core_PickerMulti_SetHighlight_System_Collections_Generic_List_System_UIntPtr__System_Boolean_System_Boolean_"></a> SetHighlight\(List<UIntPtr\>, bool, bool\)
 
 ```csharp
 public abstract void SetHighlight(List<UIntPtr> lstObject, bool bHighlight, bool bUpdate)
@@ -97,5 +97,4 @@ public abstract void SetHighlight(List<UIntPtr> lstObject, bool bHighlight, bool
 `bHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 `bUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

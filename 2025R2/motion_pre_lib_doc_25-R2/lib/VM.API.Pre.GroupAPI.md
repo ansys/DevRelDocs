@@ -1,4 +1,4 @@
-# Class GroupAPI
+#  Class GroupAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class GroupAPI
 
 ## Methods
 
-### ApplyGroup\(Obj, IEnumerable<Obj\>\)
+### <a id="VM_API_Pre_GroupAPI_ApplyGroup_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__"></a> ApplyGroup\(Obj, IEnumerable<Obj\>\)
 
 Apply a <xref href="VM.Managed.DAFUL.Group" data-throw-if-not-resolved="false"></xref> update.
 
@@ -51,7 +51,7 @@ Will be thrown if 'group' is null.
 
 Will be thrown if the type of 'group' is not <xref href="VM.Managed.IGroup" data-throw-if-not-resolved="false"></xref>.
 
-### CreateGroup\(SubSystemDocument, IEnumerable<Obj\>\)
+### <a id="VM_API_Pre_GroupAPI_CreateGroup_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__"></a> CreateGroup\(SubSystemDocument, IEnumerable<Obj\>\)
 
 Create <xref href="VM.Managed.DAFUL.Group" data-throw-if-not-resolved="false"></xref>
 
@@ -85,5 +85,4 @@ Will be thrown if 'subSystemDocument', 'objs' is null.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if the type of 'objs' is not <xref href="VM.Managed.IGroup" data-throw-if-not-resolved="false"></xref>.
-
 

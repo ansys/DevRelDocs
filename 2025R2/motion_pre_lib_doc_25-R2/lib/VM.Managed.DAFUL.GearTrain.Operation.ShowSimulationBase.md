@@ -1,4 +1,4 @@
-# Class ShowSimulationBase
+#  Class ShowSimulationBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -109,7 +109,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ShowSimulationBase\(Document\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationBase__ctor_VM_Managed_Document_"></a> ShowSimulationBase\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ShowSimulationBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ public ShowSimulationBase(Document doc)
 
 `doc` Document
 
-### ShowSimulationBase\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationBase__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowSimulationBase\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ShowSimulationBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -137,7 +137,7 @@ The jp.
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationBase_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -145,7 +145,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### PrepareForm\(SimulationFormBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationBase_PrepareForm_VM_Managed_DAFUL_Pre_Forms_SimulationFormBase_"></a> PrepareForm\(SimulationFormBase\)
 
 Prepares the form.
 
@@ -158,5 +158,4 @@ protected override void PrepareForm(SimulationFormBase form)
 `form` SimulationFormBase
 
 The form.
-
 

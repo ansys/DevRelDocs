@@ -1,4 +1,4 @@
-# Class GearSetCrossHelical
+#  Class GearSetCrossHelical
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -264,7 +264,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearSetCrossHelical\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetCrossHelical__ctor"></a> GearSetCrossHelical\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetCrossHelical" data-throw-if-not-resolved="false"></xref> class.
 
@@ -272,7 +272,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSet
 public GearSetCrossHelical()
 ```
 
-### GearSetCrossHelical\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetCrossHelical__ctor_System_String_"></a> GearSetCrossHelical\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetCrossHelical" data-throw-if-not-resolved="false"></xref> class.
 
@@ -288,7 +288,7 @@ Name of the string.
 
 ## Properties
 
-### Extension
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetCrossHelical_Extension"></a> Extension
 
 Gets the extension.
 
@@ -300,7 +300,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TypeFileName
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetCrossHelical_TypeFileName"></a> TypeFileName
 
 Gets the name of the type file.
 
@@ -314,7 +314,7 @@ public override string TypeFileName { get; }
 
 ## Methods
 
-### AppendExtraRotateAngle\(List<IGearBuilder\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetCrossHelical_AppendExtraRotateAngle_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder__"></a> AppendExtraRotateAngle\(List<IGearBuilder\>\)
 
 Append extra rotate angle
 
@@ -328,7 +328,7 @@ protected override void AppendExtraRotateAngle(List<IGearBuilder> lstOrder)
 
 gear builder list
 
-### CreateGearGeometry\(string, int, GearShapeBase\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetCrossHelical_CreateGearGeometry_System_String_System_Int32_VM_Managed_DAFUL_GearTrain_GearShapeBase___"></a> CreateGearGeometry\(string, int, GearShapeBase\[\]\)
 
 Create Gear Geometry.
 
@@ -350,7 +350,7 @@ The No. of gear
 
 The gear shape geometry
 
-### GetPositionsForMeshing\(List<IGearBuilder\>, int, ref VectorBase, ref VectorBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetCrossHelical_GetPositionsForMeshing_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder__System_Int32_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPositionsForMeshing\(List<IGearBuilder\>, int, ref VectorBase, ref VectorBase\)
 
 Get positions for meshing.
 
@@ -376,7 +376,7 @@ The first gear position
 
 The second gear position
 
-### GetRotateMatrix\(double, VectorBase, VectorBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetCrossHelical_GetRotateMatrix_System_Double_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> GetRotateMatrix\(double, VectorBase, VectorBase\)
 
 Gets the rotated matrix
 
@@ -402,7 +402,7 @@ The direction
 
  TMatrix
 
-### MeshingCore\(int, double, ref List<IGearBuilder\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetCrossHelical_MeshingCore_System_Int32_System_Double_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder___"></a> MeshingCore\(int, double, ref List<IGearBuilder\>\)
 
 Meshing
 
@@ -424,7 +424,7 @@ The initial angle
 
 The builder list
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetCrossHelical_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -438,7 +438,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetCrossHelical_OnPreBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Pre build in Special
 
@@ -459,5 +459,4 @@ The document
 `InputArray` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The input array
-
 

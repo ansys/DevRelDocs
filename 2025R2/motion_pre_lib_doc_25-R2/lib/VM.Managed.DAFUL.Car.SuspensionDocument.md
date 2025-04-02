@@ -1,4 +1,4 @@
-# Class SuspensionDocument
+#  Class SuspensionDocument
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -574,7 +574,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SuspensionDocument\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument__ctor_System_UIntPtr_"></a> SuspensionDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SuspensionDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -590,7 +590,7 @@ The document handle.
 
 ## Properties
 
-### ICoordRef
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_ICoordRef"></a> ICoordRef
 
 Obsolete
 
@@ -603,7 +603,7 @@ public ObjectBase ICoordRef { get; set; }
 
  ObjectBase
 
-### ICoordRefOfSetUp
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_ICoordRefOfSetUp"></a> ICoordRefOfSetUp
 
 Gets or sets the action coordinate reference.
 
@@ -615,7 +615,7 @@ public ObjectBase ICoordRefOfSetUp { get; set; }
 
  ObjectBase
 
-### IPart
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_IPart"></a> IPart
 
 Obsolete
 
@@ -628,7 +628,7 @@ public ObjectBase IPart { get; set; }
 
  ObjectBase
 
-### IPartOfSetUp
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_IPartOfSetUp"></a> IPartOfSetUp
 
 Gets or sets the action part.
 
@@ -640,7 +640,7 @@ public ObjectBase IPartOfSetUp { get; set; }
 
  ObjectBase
 
-### InitialCategories
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_InitialCategories"></a> InitialCategories
 
 Gets the initial categories.
 
@@ -652,7 +652,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### Interfaces
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_Interfaces"></a> Interfaces
 
 Gets the interfaces.
 
@@ -664,7 +664,7 @@ protected override InterfaceManager Interfaces { get; }
 
  InterfaceManager
 
-### JCoordRef
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_JCoordRef"></a> JCoordRef
 
 Obsolete
 
@@ -677,7 +677,7 @@ public ObjectBase JCoordRef { get; set; }
 
  ObjectBase
 
-### JCoordRefOfSetUp
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_JCoordRefOfSetUp"></a> JCoordRefOfSetUp
 
 Gets or sets the base coordinate reference.
 
@@ -689,7 +689,7 @@ public ObjectBase JCoordRefOfSetUp { get; set; }
 
  ObjectBase
 
-### JPart
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_JPart"></a> JPart
 
 Obsolete
 
@@ -702,7 +702,7 @@ public ObjectBase JPart { get; set; }
 
  ObjectBase
 
-### JPartOfSetUp
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_JPartOfSetUp"></a> JPartOfSetUp
 
 Gets or sets the base part.
 
@@ -714,7 +714,7 @@ public ObjectBase JPartOfSetUp { get; set; }
 
  ObjectBase
 
-### MinorRoleType
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_MinorRoleType"></a> MinorRoleType
 
 Gets or sets the type of the minor role.
 
@@ -726,7 +726,7 @@ public MinorRole MinorRoleType { get; set; }
 
  [MinorRole](VM.Managed.DAFUL.Car.MinorRole.md)
 
-### SteeringAxisType
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_SteeringAxisType"></a> SteeringAxisType
 
 Gets or sets the type of the steering axis.
 
@@ -738,7 +738,7 @@ public SuspensionDocument.SteeringAxis SteeringAxisType { get; set; }
 
  [SuspensionDocument](VM.Managed.DAFUL.Car.SuspensionDocument.md).[SteeringAxis](VM.Managed.DAFUL.Car.SuspensionDocument.SteeringAxis.md)
 
-### \_ICoordRefOfSetUp
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument__ICoordRefOfSetUp"></a> \_ICoordRefOfSetUp
 
 Gets or sets the action coordinate reference.
 
@@ -750,7 +750,7 @@ public Linker<ObjectBase> _ICoordRefOfSetUp { get; set; }
 
  Linker<ObjectBase\>
 
-### \_IPartOfSetUp
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument__IPartOfSetUp"></a> \_IPartOfSetUp
 
 Gets or sets the action part.
 
@@ -762,7 +762,7 @@ public Linker<ObjectBase> _IPartOfSetUp { get; set; }
 
  Linker<ObjectBase\>
 
-### \_JCoordRefOfSetUp
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument__JCoordRefOfSetUp"></a> \_JCoordRefOfSetUp
 
 Gets or sets the base coordinate reference.
 
@@ -774,7 +774,7 @@ public Linker<ObjectBase> _JCoordRefOfSetUp { get; set; }
 
  Linker<ObjectBase\>
 
-### \_JPartOfSetUp
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument__JPartOfSetUp"></a> \_JPartOfSetUp
 
 Gets or sets the base part.
 
@@ -788,7 +788,7 @@ public Linker<ObjectBase> _JPartOfSetUp { get; set; }
 
 ## Methods
 
-### BuildSuspensionAssemblyDocument\(\)
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_BuildSuspensionAssemblyDocument"></a> BuildSuspensionAssemblyDocument\(\)
 
 Builds the suspension assembly document.
 
@@ -796,7 +796,7 @@ Builds the suspension assembly document.
 public void BuildSuspensionAssemblyDocument()
 ```
 
-### ClearDocument\(\)
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_ClearDocument"></a> ClearDocument\(\)
 
 Clears the document.
 
@@ -804,7 +804,7 @@ Clears the document.
 protected override void ClearDocument()
 ```
 
-### FindCategory\(string\)
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_FindCategory_System_String_"></a> FindCategory\(string\)
 
 Finds the category.
 
@@ -824,7 +824,7 @@ The fullname of type.
 
 The category.
 
-### InitializeCategoryInfo\(string\)
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
 
 Initializes the category info.
 
@@ -838,7 +838,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the STR category.
 
-### InitializeInterface\(\)
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_InitializeInterface"></a> InitializeInterface\(\)
 
 Initializes the interface.
 
@@ -846,7 +846,7 @@ Initializes the interface.
 protected override void InitializeInterface()
 ```
 
-### InitializeSimParam\(\)
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_InitializeSimParam"></a> InitializeSimParam\(\)
 
 Initializes the simulation parameter.
 
@@ -854,7 +854,7 @@ Initializes the simulation parameter.
 protected override void InitializeSimParam()
 ```
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -872,7 +872,7 @@ The linked object.
 
 The destroying event information.
 
-### LoadTemplateBasedXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_LoadTemplateBasedXml_System_Xml_XmlReader_"></a> LoadTemplateBasedXml\(XmlReader\)
 
 Loads the XML for template based document.
 
@@ -886,7 +886,7 @@ protected override void LoadTemplateBasedXml(XmlReader reader)
 
 The reader.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -900,7 +900,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### SaveTemplateBasedXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Car_SuspensionDocument_SaveTemplateBasedXml_System_Xml_XmlWriter_"></a> SaveTemplateBasedXml\(XmlWriter\)
 
 Saves the XML for template based document.
 
@@ -913,5 +913,4 @@ protected override void SaveTemplateBasedXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

@@ -1,4 +1,4 @@
-# Interface IHasReplaceableEntity
+#  Interface IHasReplaceableEntity
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface IHasReplaceableEntity
 
 ## Methods
 
-### HasReplaceableEntity\(IObjectBase\)
+### <a id="VM_Models_Pre_IHasReplaceableEntity_HasReplaceableEntity_VM_Models_Pre_IObjectBase_"></a> HasReplaceableEntity\(IObjectBase\)
 
 Gets a value indicating whether this instance has replacable entity.
 
@@ -37,7 +37,7 @@ The old object
 
 if this instance has replacable entity, the result is true.
 
-### ReplaceEntity\(IObjectBase, IObjectBase\)
+### <a id="VM_Models_Pre_IHasReplaceableEntity_ReplaceEntity_VM_Models_Pre_IObjectBase_VM_Models_Pre_IObjectBase_"></a> ReplaceEntity\(IObjectBase, IObjectBase\)
 
 Replace Entity
 
@@ -60,5 +60,4 @@ The new object
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if success, the result is true.
-
 

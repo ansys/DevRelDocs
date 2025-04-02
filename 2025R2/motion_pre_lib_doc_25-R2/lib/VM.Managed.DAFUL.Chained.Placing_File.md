@@ -1,4 +1,4 @@
-# Class Placing\_File
+#  Class Placing\_File
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Placing\_File\(\)
+### <a id="VM_Managed_DAFUL_Chained_Placing_File__ctor"></a> Placing\_File\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Placing_File" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Placing_File()
 
 ## Properties
 
-### FileName
+### <a id="VM_Managed_DAFUL_Chained_Placing_File_FileName"></a> FileName
 
 Gets or sets the segment prefix name.
 
@@ -118,7 +118,7 @@ public string FileName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Height1
+### <a id="VM_Managed_DAFUL_Chained_Placing_File_Height1"></a> Height1
 
 Gets or sets the segment height1.
 
@@ -130,7 +130,7 @@ public ExpressionValueVariable Height1 { get; set; }
 
  ExpressionValueVariable
 
-### Height2
+### <a id="VM_Managed_DAFUL_Chained_Placing_File_Height2"></a> Height2
 
 Gets or sets the segment height2.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable Height2 { get; set; }
 
  ExpressionValueVariable
 
-### Length
+### <a id="VM_Managed_DAFUL_Chained_Placing_File_Length"></a> Length
 
 Gets or sets the segment length.
 
@@ -154,7 +154,7 @@ public ExpressionValueVariable Length { get; set; }
 
  ExpressionValueVariable
 
-### SegmentAdditionalInfo
+### <a id="VM_Managed_DAFUL_Chained_Placing_File_SegmentAdditionalInfo"></a> SegmentAdditionalInfo
 
 Gets and sets additional information for path.
 
@@ -168,7 +168,7 @@ public PlacingSegmentInfoBase SegmentAdditionalInfo { get; set; }
 
 ## Methods
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Chained_Placing_File_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -181,5 +181,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

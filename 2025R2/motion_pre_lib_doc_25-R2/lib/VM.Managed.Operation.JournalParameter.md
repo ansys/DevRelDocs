@@ -1,4 +1,4 @@
-# Class JournalParameter
+#  Class JournalParameter
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class JournalParameter
 
 ## Constructors
 
-### JournalParameter\(XmlNode, string, string\)
+### <a id="VM_Managed_Operation_JournalParameter__ctor_System_Xml_XmlNode_System_String_System_String_"></a> JournalParameter\(XmlNode, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.JournalParameter" data-throw-if-not-resolved="false"></xref> struct.
 
@@ -46,7 +46,7 @@ The current version.
 
 ## Fields
 
-### CurrentVersion
+### <a id="VM_Managed_Operation_JournalParameter_CurrentVersion"></a> CurrentVersion
 
 The current version
 
@@ -58,7 +58,7 @@ public string CurrentVersion
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### JournalVersion
+### <a id="VM_Managed_Operation_JournalParameter_JournalVersion"></a> JournalVersion
 
 The journal version
 
@@ -70,7 +70,7 @@ public string JournalVersion
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### XmlInfo
+### <a id="VM_Managed_Operation_JournalParameter_XmlInfo"></a> XmlInfo
 
 The XML information
 
@@ -81,5 +81,4 @@ public XmlNode XmlInfo
 #### Field Value
 
  [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
-
 

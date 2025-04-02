@@ -1,4 +1,4 @@
-# Class AssemblyManager
+#  Class AssemblyManager
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -170,7 +170,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AssemblyManager\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_AssemblyManager__ctor"></a> AssemblyManager\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AssemblyManager" data-throw-if-not-resolved="false"></xref> class.
 
@@ -178,7 +178,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Assembl
 public AssemblyManager()
 ```
 
-### AssemblyManager\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_AssemblyManager__ctor_System_String_"></a> AssemblyManager\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AssemblyManager" data-throw-if-not-resolved="false"></xref> class.
 
@@ -194,7 +194,7 @@ The name.
 
 ## Properties
 
-### Assembly
+### <a id="VM_Managed_DAFUL_GearTrain_AssemblyManager_Assembly"></a> Assembly
 
 Gets or sets the assembly.
 
@@ -206,7 +206,7 @@ public GTAssembly Assembly { get; set; }
 
  [GTAssembly](VM.Managed.DAFUL.GearTrain.GTAssembly.md)
 
-### PowerFlow
+### <a id="VM_Managed_DAFUL_GearTrain_AssemblyManager_PowerFlow"></a> PowerFlow
 
 Gets or sets the power flow.
 
@@ -218,7 +218,7 @@ public PowerFlow PowerFlow { get; set; }
 
  [PowerFlow](VM.Managed.DAFUL.GearTrain.PowerFlow.md)
 
-### Request
+### <a id="VM_Managed_DAFUL_GearTrain_AssemblyManager_Request"></a> Request
 
 Gets or sets the request.
 
@@ -232,7 +232,7 @@ public Request Request { get; set; }
 
 ## Methods
 
-### InitChild\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_AssemblyManager_InitChild_VM_Unit_ConvertFactor_"></a> InitChild\(ConvertFactor\)
 
 Initializes the child.
 
@@ -243,5 +243,4 @@ public void InitChild(Unit.ConvertFactor factor)
 #### Parameters
 
 `factor` Unit.ConvertFactor
-
 

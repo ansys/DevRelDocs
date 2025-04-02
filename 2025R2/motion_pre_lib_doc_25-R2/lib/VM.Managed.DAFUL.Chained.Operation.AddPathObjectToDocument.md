@@ -1,4 +1,4 @@
-# Class AddPathObjectToDocument
+#  Class AddPathObjectToDocument
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### AddPathObjectToDocument\(List<string\>, List<Document3D\>, Document3D\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddPathObjectToDocument__ctor_System_Collections_Generic_List_System_String__System_Collections_Generic_List_VM_Managed_Document3D__VM_Managed_Document3D_"></a> AddPathObjectToDocument\(List<string\>, List<Document3D\>, Document3D\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.AddPathObjectToDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -99,7 +99,7 @@ The LST document.
 
 The doc_ active.
 
-### AddPathObjectToDocument\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddPathObjectToDocument__ctor_VM_Managed_Operation_JournalParameter_"></a> AddPathObjectToDocument\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.AddPathObjectToDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddPathObjectToDocument_Name"></a> Name
 
 Gets the operation name.
 
@@ -127,7 +127,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PathObjects
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddPathObjectToDocument_PathObjects"></a> PathObjects
 
 Gets the path objects.
 
@@ -139,7 +139,7 @@ public List<ObjectBase> PathObjects { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
 
-### RowObject
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddPathObjectToDocument_RowObject"></a> RowObject
 
 Gets the row object.
 
@@ -153,7 +153,7 @@ public List<string> RowObject { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddPathObjectToDocument_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -161,7 +161,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### ExecutePost\(\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddPathObjectToDocument_ExecutePost"></a> ExecutePost\(\)
 
 Executes the post.
 
@@ -169,7 +169,7 @@ Executes the post.
 public void ExecutePost()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddPathObjectToDocument_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -182,5 +182,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

@@ -1,4 +1,4 @@
-# Enum MotorDesigner.HousingSection.StatorMountingDirection
+#  Enum MotorDesigner.HousingSection.StatorMountingDirection
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ Front
 `Rear = 1` 
 
 Rear
-
 
 
 

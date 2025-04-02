@@ -1,4 +1,4 @@
-# Class AngularContactBall
+#  Class AngularContactBall
 
 Namespace: [VM.Managed.DAFUL.GearTrain.BearingDB](VM.Managed.DAFUL.GearTrain.BearingDB.md)  
 Assembly: VMDGearTrain.dll  
@@ -36,7 +36,7 @@ Record.RecordNo
 
 ## Constructors
 
-### AngularContactBall\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall__ctor"></a> AngularContactBall\(\)
 
 ```csharp
 public AngularContactBall()
@@ -44,7 +44,7 @@ public AngularContactBall()
 
 ## Fields
 
-### ActionP
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_ActionP"></a> ActionP
 
 Action point
 
@@ -57,7 +57,7 @@ public double? ActionP
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### BallDia
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_BallDia"></a> BallDia
 
 Ball diameter
 
@@ -70,7 +70,7 @@ public double? BallDia
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### BallPDia
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_BallPDia"></a> BallPDia
 
 Ball pitch diameter
 
@@ -83,7 +83,7 @@ public double? BallPDia
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### C0r
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_C0r"></a> C0r
 
 Basic static radial load rating
 
@@ -96,7 +96,7 @@ public double? C0r
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### Cr
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_Cr"></a> Cr
 
 Basic dynamic radial load rating
 
@@ -109,7 +109,7 @@ public double? Cr
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### IRSDia
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_IRSDia"></a> IRSDia
 
 Inner raceway shoulder diameter
 
@@ -122,7 +122,7 @@ public double? IRSDia
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### IRSDia2
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_IRSDia2"></a> IRSDia2
 
 Inner raceway shoulder diameter 2
 
@@ -135,7 +135,7 @@ public double? IRSDia2
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### Mass
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_Mass"></a> Mass
 
 Mass
 
@@ -148,7 +148,7 @@ public double? Mass
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### ORSBore
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_ORSBore"></a> ORSBore
 
 Outer raceway shoulder bore
 
@@ -161,7 +161,7 @@ public double? ORSBore
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### ORSBore2
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_ORSBore2"></a> ORSBore2
 
 Outer raceway shoulder boer 2
 
@@ -174,7 +174,7 @@ public double? ORSBore2
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### RoundR
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_RoundR"></a> RoundR
 
 Rounding radius
 
@@ -187,7 +187,7 @@ public double? RoundR
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### f0
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_f0"></a> f0
 
 Factor for calculation of basic static load rating
 
@@ -200,7 +200,7 @@ public double? f0
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### nBall
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_nBall"></a> nBall
 
 Number of ball
 
@@ -213,7 +213,7 @@ public int? nBall
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)?
 
-### ra
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_ra"></a> ra
 
 ra
 
@@ -228,7 +228,7 @@ public double? ra
 
 ## Methods
 
-### GetDefaultBearing\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_GetDefaultBearing_VM_Unit_ConvertFactor_"></a> GetDefaultBearing\(ConvertFactor\)
 
 Get the default bearing.
 
@@ -248,7 +248,7 @@ The unit convert factor.
 
 The default bearing
 
-### UnitConvert\(ref AngularContactBall, ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_UnitConvert_VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall__VM_Unit_ConvertFactor_"></a> UnitConvert\(ref AngularContactBall, ConvertFactor\)
 
 Convert bearing dimension unit.
 
@@ -266,7 +266,7 @@ The target bearing.
 
 The unit convert factor.
 
-### UnitConvert\(ref AngularContactBall, double, double, double\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall_UnitConvert_VM_Managed_DAFUL_GearTrain_BearingDB_AngularContactBall__System_Double_System_Double_System_Double_"></a> UnitConvert\(ref AngularContactBall, double, double, double\)
 
 Convert bearing dimension unit.
 
@@ -291,5 +291,4 @@ The force factor.
 `dMassFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 The mass factor.
-
 

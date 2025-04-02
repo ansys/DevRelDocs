@@ -1,4 +1,4 @@
-# Interface IView
+#  Interface IView
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -74,7 +74,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### FullName
+### <a id="VM_Operations_Post_Interfaces_IView_FullName"></a> FullName
 
 Gets or sets the name of the view.
 
@@ -96,7 +96,7 @@ The <xref href="VM.Operations.Post.Interfaces.IView.FullName" data-throw-if-not-
 It is a read-write property, meaning it can be both retrieved and modified.
 This property is typically used in scenarios where the view's name is needed for display, logging, or processing purposes.
 
-### GroupID
+### <a id="VM_Operations_Post_Interfaces_IView_GroupID"></a> GroupID
 
 Gets the ID of the page that the current view belongs to.
 
@@ -117,7 +117,7 @@ For an example that includes this property, see the [Interface IView](#VM_Operat
 The <xref href="VM.Operations.Post.Interfaces.IView.GroupID" data-throw-if-not-resolved="false"></xref> property provides the ID of the page to which the current view belongs.
 This property is read-only and is set when the view is associated with a page. It allows for identifying the parent page of a view.
 
-### GroupName
+### <a id="VM_Operations_Post_Interfaces_IView_GroupName"></a> GroupName
 
 Gets or sets the name of the page that the current view belongs to.
 
@@ -138,7 +138,7 @@ For an example that includes this property, see the [Interface IView](#VM_Operat
 The <xref href="VM.Operations.Post.Interfaces.IView.GroupName" data-throw-if-not-resolved="false"></xref> property allows getting or setting the name of the page to which the current view belongs.
 When accessed, it retrieves the name of the parent page. When set, it updates the name of the parent page, allowing the name of the page to be changed from the context of the current view.
 
-### ID
+### <a id="VM_Operations_Post_Interfaces_IView_ID"></a> ID
 
 Gets the unique identifier of the view.
 
@@ -160,7 +160,7 @@ The <xref href="VM.Operations.Post.Interfaces.IView.ID" data-throw-if-not-resolv
 This identifier is generated at the time of the view's creation and remains constant for the lifetime of the view.
 The property is read-only and ensures each view can be uniquely identified.
 
-### ViewType
+### <a id="VM_Operations_Post_Interfaces_IView_ViewType"></a> ViewType
 
 Gets the type of the view, indicating whether it is an Animation or Chart type.
 Supported view types include:
@@ -188,7 +188,7 @@ The available options are:
 
 ## Methods
 
-### Activate\(\)
+### <a id="VM_Operations_Post_Interfaces_IView_Activate"></a> Activate\(\)
 
 Activates the view.
 
@@ -206,7 +206,7 @@ The <xref href="VM.Operations.Post.Interfaces.IView.Activate" data-throw-if-not-
 When this method is called, it deactivates any currently active views within the same page and sets the selected view as the only active view.
 There can be only one active view at a time.
 
-### DockTo\(DockLayout, IView\)
+### <a id="VM_Operations_Post_Interfaces_IView_DockTo_VM_Models_Post_DockLayout_VM_Operations_Post_Interfaces_IView_"></a> DockTo\(DockLayout, IView\)
 
 Moves the view to a specified position relative to another view.
 
@@ -236,7 +236,7 @@ The <xref href="VM.Operations.Post.Interfaces.IView.DockTo(VM.Models.Post.DockLa
 The position is specified using the <code class="paramref">dockLayout</code> parameter, which determines the direction (Top, Bottom, Left, Right) 
 where the current view will be docked in relation to the target view.
 
-### ExportImage\(string, ImageFormat, double?, double?\)
+### <a id="VM_Operations_Post_Interfaces_IView_ExportImage_System_String_VM_Models_Post_ImageFormat_System_Nullable_System_Double__System_Nullable_System_Double__"></a> ExportImage\(string, ImageFormat, double?, double?\)
 
 Exports the image to the specified file path in the specified format.
 

@@ -1,4 +1,4 @@
-# Class ObjectBaseEventCompactAddon
+#  Class ObjectBaseEventCompactAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -38,7 +38,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### ObjectBaseEventCompactAddon\(\)
+### <a id="VM_Managed_History_ObjectBaseEventCompactAddon__ctor"></a> ObjectBaseEventCompactAddon\(\)
 
 ```csharp
 public ObjectBaseEventCompactAddon()
@@ -46,7 +46,7 @@ public ObjectBaseEventCompactAddon()
 
 ## Methods
 
-### AddEvent\(LinkedListNode<HistoryEvent\>\)
+### <a id="VM_Managed_History_ObjectBaseEventCompactAddon_AddEvent_System_Collections_Generic_LinkedListNode_VM_Managed_History_HistoryEvent__"></a> AddEvent\(LinkedListNode<HistoryEvent\>\)
 
 ```csharp
 public void AddEvent(LinkedListNode<HistoryEvent> e)
@@ -56,7 +56,7 @@ public void AddEvent(LinkedListNode<HistoryEvent> e)
 
 `e` [LinkedListNode](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlistnode\-1)<HistoryEvent\>
 
-### AfterRecord\(object, HistoryEventArgs\)
+### <a id="VM_Managed_History_ObjectBaseEventCompactAddon_AfterRecord_System_Object_VM_Managed_History_HistoryEventArgs_"></a> AfterRecord\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void AfterRecord(object o, HistoryEventArgs args)
@@ -68,7 +68,7 @@ protected override void AfterRecord(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### BeforeRecord\(object, HistoryEventArgs\)
+### <a id="VM_Managed_History_ObjectBaseEventCompactAddon_BeforeRecord_System_Object_VM_Managed_History_HistoryEventArgs_"></a> BeforeRecord\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void BeforeRecord(object o, HistoryEventArgs args)
@@ -80,7 +80,7 @@ protected override void BeforeRecord(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### GetLastEvent\(UIntPtr\)
+### <a id="VM_Managed_History_ObjectBaseEventCompactAddon_GetLastEvent_System_UIntPtr_"></a> GetLastEvent\(UIntPtr\)
 
 ```csharp
 public SerializableObjectBaseModifiedEventBase GetLastEvent(UIntPtr keyObj)
@@ -94,7 +94,7 @@ public SerializableObjectBaseModifiedEventBase GetLastEvent(UIntPtr keyObj)
 
  [SerializableObjectBaseModifiedEventBase](VM.Managed.History.SerializableObjectBaseModifiedEventBase.md)
 
-### RemoveLastEvent\(UIntPtr\)
+### <a id="VM_Managed_History_ObjectBaseEventCompactAddon_RemoveLastEvent_System_UIntPtr_"></a> RemoveLastEvent\(UIntPtr\)
 
 ```csharp
 public void RemoveLastEvent(UIntPtr keyObj)
@@ -103,5 +103,4 @@ public void RemoveLastEvent(UIntPtr keyObj)
 #### Parameters
 
 `keyObj` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
-
 

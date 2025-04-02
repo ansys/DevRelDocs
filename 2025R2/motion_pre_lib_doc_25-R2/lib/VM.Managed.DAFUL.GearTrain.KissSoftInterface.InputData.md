@@ -1,4 +1,4 @@
-# Struct KissSoftInterface.InputData
+#  Struct KissSoftInterface.InputData
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +11,7 @@ public struct KissSoftInterface.InputData
 
 ## Constructors
 
-### InputData\(string, uint, uint, uint\)
+### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_InputData__ctor_System_String_System_UInt32_System_UInt32_System_UInt32_"></a> InputData\(string, uint, uint, uint\)
 
 Constructor of InputData
 
@@ -39,7 +39,7 @@ The No. of slice
 
 ## Properties
 
-### FilePath
+### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_InputData_FilePath"></a> FilePath
 
 File path
 
@@ -51,7 +51,7 @@ public string FilePath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GeneralInputData
+### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_InputData_GeneralInputData"></a> GeneralInputData
 
 Gets general input data as double array
 
@@ -63,7 +63,7 @@ public double[] GeneralInputData { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### NumberOfInvolute
+### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_InputData_NumberOfInvolute"></a> NumberOfInvolute
 
 Number of rows
 
@@ -75,7 +75,7 @@ public uint NumberOfInvolute { readonly get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### NumberOfSlice
+### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_InputData_NumberOfSlice"></a> NumberOfSlice
 
 Number of columns
 
@@ -87,7 +87,7 @@ public uint NumberOfSlice { readonly get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### NumberOfTrochoid
+### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_InputData_NumberOfTrochoid"></a> NumberOfTrochoid
 
 Number of rows
 
@@ -99,7 +99,7 @@ public uint NumberOfTrochoid { readonly get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### PreInputData
+### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_InputData_PreInputData"></a> PreInputData
 
 Gets pre input data as double array
 
@@ -110,5 +110,4 @@ public double[] PreInputData { get; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
-
 

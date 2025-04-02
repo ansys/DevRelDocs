@@ -1,4 +1,4 @@
-# Class IFacetableExtension
+#  Class IFacetableExtension
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -20,7 +20,7 @@ public static class IFacetableExtension
 
 ## Methods
 
-### SetGeometryOption\(IFacetable, string, string, double\)
+### <a id="VM_CAD_Kernel_IFacetableExtension_SetGeometryOption_VM_CAD_Kernel_IFacetable_System_String_System_String_System_Double_"></a> SetGeometryOption\(IFacetable, string, string, double\)
 
 ```csharp
 public static void SetGeometryOption(this IFacetable target, string argument, string defaultArgument, double lengthFactor)
@@ -35,5 +35,4 @@ public static void SetGeometryOption(this IFacetable target, string argument, st
 `defaultArgument` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 `lengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

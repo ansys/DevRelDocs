@@ -1,4 +1,4 @@
-# Enum SimulationScenario.Action
+#  Enum SimulationScenario.Action
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -56,7 +56,6 @@ RESSTEP
 `STOP = 0` 
 
 STOP
-
 
 
 

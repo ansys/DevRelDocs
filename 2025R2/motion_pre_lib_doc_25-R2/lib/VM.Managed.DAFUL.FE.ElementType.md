@@ -1,4 +1,4 @@
-# Enum ElementType
+#  Enum ElementType
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -92,7 +92,6 @@ solid8.
 `Unknown = -1` 
 
 unknown.
-
 
 
 

@@ -1,4 +1,4 @@
-# Class GearShapeCycloidPin
+#  Class GearShapeCycloidPin
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -144,7 +144,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearShapeCycloidPin\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCycloidPin__ctor"></a> GearShapeCycloidPin\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearShapeCycloidPin" data-throw-if-not-resolved="false"></xref> class.
 
@@ -154,7 +154,7 @@ public GearShapeCycloidPin()
 
 ## Properties
 
-### ToleranceValue
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCycloidPin_ToleranceValue"></a> ToleranceValue
 
 The tolerance
 
@@ -168,7 +168,7 @@ public ExpressionValueVariable ToleranceValue { get; set; }
 
 ## Methods
 
-### GetOrientation\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCycloidPin_GetOrientation"></a> GetOrientation\(\)
 
 Gets orientation
 
@@ -179,5 +179,4 @@ protected override OMatrix GetOrientation()
 #### Returns
 
  OMatrix
-
 

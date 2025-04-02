@@ -1,4 +1,4 @@
-# Interface IPostTemplateBasedDocument
+#  Interface IPostTemplateBasedDocument
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IPostTemplateBasedDocument
 
 ## Methods
 
-### CreateGroup\(\)
+### <a id="VM_Managed_IPostTemplateBasedDocument_CreateGroup"></a> CreateGroup\(\)
 
 Create group
 
@@ -25,7 +25,7 @@ Create group
 void CreateGroup()
 ```
 
-### SetTemplateInfo\(DocFromTemplateInfo\)
+### <a id="VM_Managed_IPostTemplateBasedDocument_SetTemplateInfo_VM_Managed_DocFromTemplateInfo_"></a> SetTemplateInfo\(DocFromTemplateInfo\)
 
 Sets the template information.
 
@@ -38,5 +38,4 @@ void SetTemplateInfo(DocFromTemplateInfo docTemplateInfo)
 `docTemplateInfo` [DocFromTemplateInfo](VM.Managed.DocFromTemplateInfo.md)
 
 The document template information.
-
 

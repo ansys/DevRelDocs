@@ -1,4 +1,4 @@
-# Enum SymmetricType
+#  Enum SymmetricType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -32,7 +32,6 @@ none.
 `Right = 2` 
 
 right.
-
 
 
 

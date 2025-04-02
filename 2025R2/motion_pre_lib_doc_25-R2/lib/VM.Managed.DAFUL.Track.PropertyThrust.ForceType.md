@@ -1,4 +1,4 @@
-# Enum PropertyThrust.ForceType
+#  Enum PropertyThrust.ForceType
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -26,7 +26,6 @@ Pump
 `Velocity = 1` 
 
 Velocity
-
 
 
 

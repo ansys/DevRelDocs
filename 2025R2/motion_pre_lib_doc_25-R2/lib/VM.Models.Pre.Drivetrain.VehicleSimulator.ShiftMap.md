@@ -1,4 +1,4 @@
-# Class ShiftMap
+#  Class ShiftMap
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -50,7 +50,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ShiftMap\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ShiftMap__ctor"></a> ShiftMap\(\)
 
 ```csharp
 public ShiftMap()
@@ -58,7 +58,7 @@ public ShiftMap()
 
 ## Methods
 
-### GetAPSValues\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ShiftMap_GetAPSValues"></a> GetAPSValues\(\)
 
 ```csharp
 public double[] GetAPSValues()
@@ -68,7 +68,7 @@ public double[] GetAPSValues()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### GetShiftProfileCount\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ShiftMap_GetShiftProfileCount"></a> GetShiftProfileCount\(\)
 
 ```csharp
 public int GetShiftProfileCount()
@@ -78,7 +78,7 @@ public int GetShiftProfileCount()
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GetShiftValues\(int\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ShiftMap_GetShiftValues_System_Int32_"></a> GetShiftValues\(int\)
 
 ```csharp
 public IEnumerable<DataPoint> GetShiftValues(int shiftProfileIndex)
@@ -92,7 +92,7 @@ public IEnumerable<DataPoint> GetShiftValues(int shiftProfileIndex)
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<DataPoint\>
 
-### IsValidate\(int\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ShiftMap_IsValidate_System_Int32_"></a> IsValidate\(int\)
 
 ```csharp
 public bool IsValidate(int shiftProfileCount)
@@ -105,5 +105,4 @@ public bool IsValidate(int shiftProfileCount)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Class Entity
+#  Class Entity
 
 Namespace: [VM.Models.FE.Mesh](VM.Models.FE.Mesh.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -32,7 +32,7 @@ public abstract class Entity : IEntity
 
 ## Constructors
 
-### Entity\(\)
+### <a id="VM_Models_FE_Mesh_Entity__ctor"></a> Entity\(\)
 
 ```csharp
 protected Entity()
@@ -40,7 +40,7 @@ protected Entity()
 
 ## Properties
 
-### Id
+### <a id="VM_Models_FE_Mesh_Entity_Id"></a> Id
 
 ```csharp
 [Column(IsPrimaryKey = true)]
@@ -53,7 +53,7 @@ public int Id { get; set; }
 
 ## Methods
 
-### Equals\(object\)
+### <a id="VM_Models_FE_Mesh_Entity_Equals_System_Object_"></a> Equals\(object\)
 
 ```csharp
 public override bool Equals(object obj)
@@ -67,7 +67,7 @@ public override bool Equals(object obj)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### FromByteArray<T\>\(byte\[\]\)
+### <a id="VM_Models_FE_Mesh_Entity_FromByteArray__1_System_Byte___"></a> FromByteArray<T\>\(byte\[\]\)
 
 ```csharp
 protected static T FromByteArray<T>(byte[] arr)
@@ -85,7 +85,7 @@ protected static T FromByteArray<T>(byte[] arr)
 
 `T` 
 
-### GetHashCode\(\)
+### <a id="VM_Models_FE_Mesh_Entity_GetHashCode"></a> GetHashCode\(\)
 
 ```csharp
 public override int GetHashCode()
@@ -95,7 +95,7 @@ public override int GetHashCode()
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### ToByteArray<T\>\(T\)
+### <a id="VM_Models_FE_Mesh_Entity_ToByteArray__1___0_"></a> ToByteArray<T\>\(T\)
 
 ```csharp
 protected static byte[] ToByteArray<T>(T value)
@@ -112,5 +112,4 @@ protected static byte[] ToByteArray<T>(T value)
 #### Type Parameters
 
 `T` 
-
 

@@ -1,4 +1,4 @@
-# Class SolidBody<T\>.BodyNameInfo
+#  Class SolidBody<T\>.BodyNameInfo
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -20,7 +20,7 @@ public class SolidBody<T>.BodyNameInfo
 
 ## Constructors
 
-### BodyNameInfo\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_BodyNameInfo__ctor"></a> BodyNameInfo\(\)
 
 ```csharp
 public BodyNameInfo()
@@ -28,7 +28,7 @@ public BodyNameInfo()
 
 ## Properties
 
-### BooleanOption
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_BodyNameInfo_BooleanOption"></a> BooleanOption
 
 ```csharp
 public string BooleanOption { get; set; }
@@ -38,7 +38,7 @@ public string BooleanOption { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Color
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_BodyNameInfo_Color"></a> Color
 
 ```csharp
 public string Color { get; set; }
@@ -48,7 +48,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### CreateOption
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_BodyNameInfo_CreateOption"></a> CreateOption
 
 ```csharp
 public string CreateOption { get; set; }
@@ -58,7 +58,7 @@ public string CreateOption { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Name
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_BodyNameInfo_Name"></a> Name
 
 ```csharp
 public string Name { get; set; }
@@ -67,5 +67,4 @@ public string Name { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

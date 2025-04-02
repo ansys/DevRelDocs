@@ -1,4 +1,4 @@
-# Enum SuspensionLoadCase.Column
+#  Enum SuspensionLoadCase.Column
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -122,7 +122,6 @@ WheelZLeft
 `WheelZRight = 1` 
 
 WheelZRight
-
 
 
 

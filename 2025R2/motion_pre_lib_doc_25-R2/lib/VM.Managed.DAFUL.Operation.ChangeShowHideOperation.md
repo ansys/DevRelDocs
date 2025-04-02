@@ -1,4 +1,4 @@
-# Class ChangeShowHideOperation
+#  Class ChangeShowHideOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ChangeShowHideOperation\(bool, bool\)
+### <a id="VM_Managed_DAFUL_Operation_ChangeShowHideOperation__ctor_System_Boolean_System_Boolean_"></a> ChangeShowHideOperation\(bool, bool\)
 
 ```csharp
 public ChangeShowHideOperation(bool bVisible, bool bGround)
@@ -89,7 +89,7 @@ public ChangeShowHideOperation(bool bVisible, bool bGround)
 
 `bGround` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ChangeShowHideOperation\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_ChangeShowHideOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ChangeShowHideOperation\(JournalParameter\)
 
 ```csharp
 public ChangeShowHideOperation(JournalParameter jp)
@@ -101,7 +101,7 @@ public ChangeShowHideOperation(JournalParameter jp)
 
 ## Properties
 
-### ExecutableOnHold
+### <a id="VM_Managed_DAFUL_Operation_ChangeShowHideOperation_ExecutableOnHold"></a> ExecutableOnHold
 
 ```csharp
 protected override bool ExecutableOnHold { get; }
@@ -111,7 +111,7 @@ protected override bool ExecutableOnHold { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_ChangeShowHideOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -125,7 +125,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_ChangeShowHideOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -133,7 +133,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Operation_ChangeShowHideOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -142,5 +142,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

@@ -1,4 +1,4 @@
-# Class ChainedMultiContactsInfo
+#  Class ChainedMultiContactsInfo
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -97,12 +97,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ChainedMultiContactsInfo\(\)
+### <a id="VM_Managed_DAFUL_Chained_ChainedMultiContactsInfo__ctor"></a> ChainedMultiContactsInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedMultiContactsInfo" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public ChainedMultiContactsInfo()
 ```
-
 

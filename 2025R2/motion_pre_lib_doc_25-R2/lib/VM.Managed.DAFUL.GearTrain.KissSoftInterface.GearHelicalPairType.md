@@ -1,4 +1,4 @@
-# Enum KissSoftInterface.GearHelicalPairType
+#  Enum KissSoftInterface.GearHelicalPairType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ Double
 `Single = 0` 
 
 Single
-
 
 
 

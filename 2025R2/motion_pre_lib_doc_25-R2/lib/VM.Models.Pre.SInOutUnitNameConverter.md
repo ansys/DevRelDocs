@@ -1,4 +1,4 @@
-# Class SInOutUnitNameConverter
+#  Class SInOutUnitNameConverter
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -20,7 +20,7 @@ public static class SInOutUnitNameConverter
 
 ## Methods
 
-### ControlToSInOutUnitName\(string, IDocument\)
+### <a id="VM_Models_Pre_SInOutUnitNameConverter_ControlToSInOutUnitName_System_String_VM_Models_Pre_IDocument_"></a> ControlToSInOutUnitName\(string, IDocument\)
 
 ```csharp
 public static UnitName ControlToSInOutUnitName(string sInOutUnitName, IDocument document)
@@ -36,7 +36,7 @@ public static UnitName ControlToSInOutUnitName(string sInOutUnitName, IDocument 
 
  [UnitName](VM.Models.Pre.UnitName.md)
 
-### GetSInOutTypeName\(UnitName, string\)
+### <a id="VM_Models_Pre_SInOutUnitNameConverter_GetSInOutTypeName_VM_Models_Pre_UnitName_System_String_"></a> GetSInOutTypeName\(UnitName, string\)
 
 ```csharp
 public static string GetSInOutTypeName(UnitName sInOutUnitName, string strCausality)
@@ -52,7 +52,7 @@ public static string GetSInOutTypeName(UnitName sInOutUnitName, string strCausal
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetSInOutUnitName\(UnitName, IDocument\)
+### <a id="VM_Models_Pre_SInOutUnitNameConverter_GetSInOutUnitName_VM_Models_Pre_UnitName_VM_Models_Pre_IDocument_"></a> GetSInOutUnitName\(UnitName, IDocument\)
 
 ```csharp
 public static string GetSInOutUnitName(UnitName sInOutUnitName, IDocument document)
@@ -68,7 +68,7 @@ public static string GetSInOutUnitName(UnitName sInOutUnitName, IDocument docume
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetSInOutUnitNames\(IDocument, string\)
+### <a id="VM_Models_Pre_SInOutUnitNameConverter_GetSInOutUnitNames_VM_Models_Pre_IDocument_System_String_"></a> GetSInOutUnitNames\(IDocument, string\)
 
 ```csharp
 public static object GetSInOutUnitNames(IDocument document, string type)
@@ -84,7 +84,7 @@ public static object GetSInOutUnitNames(IDocument document, string type)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### GetUnitType\(UnitName\)
+### <a id="VM_Models_Pre_SInOutUnitNameConverter_GetUnitType_VM_Models_Pre_UnitName_"></a> GetUnitType\(UnitName\)
 
 Convert unit type to number
 
@@ -108,7 +108,7 @@ The number
 
  [InvalidOperationException](https://learn.microsoft.com/dotnet/api/system.invalidoperationexception)
 
-### SInOutUnitNameToControl\(string, IDocument\)
+### <a id="VM_Models_Pre_SInOutUnitNameConverter_SInOutUnitNameToControl_System_String_VM_Models_Pre_IDocument_"></a> SInOutUnitNameToControl\(string, IDocument\)
 
 ```csharp
 public static string SInOutUnitNameToControl(string sInOutUnitName, IDocument document)
@@ -123,5 +123,4 @@ public static string SInOutUnitNameToControl(string sInOutUnitName, IDocument do
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

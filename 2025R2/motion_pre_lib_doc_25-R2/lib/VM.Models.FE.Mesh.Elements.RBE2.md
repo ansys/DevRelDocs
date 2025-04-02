@@ -1,4 +1,4 @@
-# Class RBE2
+#  Class RBE2
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -39,7 +39,7 @@ public class RBE2 : HasMultipleNodes, IEntity
 
 ## Constructors
 
-### RBE2\(\)
+### <a id="VM_Models_FE_Mesh_Elements_RBE2__ctor"></a> RBE2\(\)
 
 ```csharp
 public RBE2()
@@ -47,7 +47,7 @@ public RBE2()
 
 ## Properties
 
-### MasterNodeId
+### <a id="VM_Models_FE_Mesh_Elements_RBE2_MasterNodeId"></a> MasterNodeId
 
 ```csharp
 [Column]
@@ -58,7 +58,7 @@ public int MasterNodeId { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NodeIdsWrapper
+### <a id="VM_Models_FE_Mesh_Elements_RBE2_NodeIdsWrapper"></a> NodeIdsWrapper
 
 ```csharp
 [Column]
@@ -71,7 +71,7 @@ public byte[] NodeIdsWrapper { get; set; }
 
 ## Methods
 
-### Equals\(object\)
+### <a id="VM_Models_FE_Mesh_Elements_RBE2_Equals_System_Object_"></a> Equals\(object\)
 
 ```csharp
 public override bool Equals(object obj)
@@ -85,7 +85,7 @@ public override bool Equals(object obj)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetHashCode\(\)
+### <a id="VM_Models_FE_Mesh_Elements_RBE2_GetHashCode"></a> GetHashCode\(\)
 
 ```csharp
 public override int GetHashCode()
@@ -94,5 +94,4 @@ public override int GetHashCode()
 #### Returns
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 

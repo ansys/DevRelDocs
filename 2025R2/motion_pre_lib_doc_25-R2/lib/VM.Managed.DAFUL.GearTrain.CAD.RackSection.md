@@ -1,4 +1,4 @@
-# Class RackSection
+#  Class RackSection
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -297,7 +297,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### RackSection\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSection__ctor"></a> RackSection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RackSection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -305,7 +305,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Rac
 public RackSection()
 ```
 
-### RackSection\(Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSection__ctor_VM_Managed_CAD_Builder_"></a> RackSection\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RackSection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -321,7 +321,7 @@ The builder.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSection_Name"></a> Name
 
 Gets or sets the name.
 
@@ -339,7 +339,7 @@ public override string Name { get; set; }
 
 ## Methods
 
-### LinkRequestDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackSection_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
 Links the request destroy.
 
@@ -356,5 +356,4 @@ The ob notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

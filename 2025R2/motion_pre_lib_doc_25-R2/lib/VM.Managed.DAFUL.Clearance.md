@@ -1,4 +1,4 @@
-# Class Clearance
+#  Class Clearance
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDCB.dll  
@@ -103,7 +103,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Clearance\(\)
+### <a id="VM_Managed_DAFUL_Clearance__ctor"></a> Clearance\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Clearance" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public Clearance()
 
 ## Fields
 
-### \_\_a$\_a\_VM.Models.Pre.LinkAttribute
+### <a id="VM_Managed_DAFUL_Clearance___a__a_VM_Models_Pre_LinkAttribute"></a> \_\_a$\_a\_VM.Models.Pre.LinkAttribute
 
 ```csharp
 protected LinkAttribute __a$_a_VM.Models.Pre.LinkAttribute
@@ -123,7 +123,7 @@ protected LinkAttribute __a$_a_VM.Models.Pre.LinkAttribute
 
  LinkAttribute
 
-### \_\_a$\_a\_VM.Models.Pre.LinkUpdateAttribute
+### <a id="VM_Managed_DAFUL_Clearance___a__a_VM_Models_Pre_LinkUpdateAttribute"></a> \_\_a$\_a\_VM.Models.Pre.LinkUpdateAttribute
 
 ```csharp
 protected LinkUpdateAttribute __a$_a_VM.Models.Pre.LinkUpdateAttribute
@@ -135,7 +135,7 @@ protected LinkUpdateAttribute __a$_a_VM.Models.Pre.LinkUpdateAttribute
 
 ## Properties
 
-### ExponentOfPenetration
+### <a id="VM_Managed_DAFUL_Clearance_ExponentOfPenetration"></a> ExponentOfPenetration
 
 Gets or sets the exponent of penetration.
 
@@ -147,7 +147,7 @@ public ExpressionValueVariable ExponentOfPenetration { get; set; }
 
  ExpressionValueVariable
 
-### MaxDampingCoefficient
+### <a id="VM_Managed_DAFUL_Clearance_MaxDampingCoefficient"></a> MaxDampingCoefficient
 
 Gets or sets the maximum damping coefficient.
 
@@ -159,7 +159,7 @@ public ExpressionValueVariable MaxDampingCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### StiffnessCoefficient
+### <a id="VM_Managed_DAFUL_Clearance_StiffnessCoefficient"></a> StiffnessCoefficient
 
 Gets or sets the stiffness coefficient.
 
@@ -171,7 +171,7 @@ public ExpressionValueVariable StiffnessCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### UseClearance
+### <a id="VM_Managed_DAFUL_Clearance_UseClearance"></a> UseClearance
 
 Gets or sets a value indicating whether [clearance].
 
@@ -183,7 +183,7 @@ public bool UseClearance { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseDampingEffectInVoid
+### <a id="VM_Managed_DAFUL_Clearance_UseDampingEffectInVoid"></a> UseDampingEffectInVoid
 
 Gets or sets a value indicating whether [damping effect in void].
 
@@ -197,7 +197,7 @@ public bool UseDampingEffectInVoid { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Clearance_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -211,7 +211,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReadTemplate\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Clearance_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -225,7 +225,7 @@ public virtual void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### WriteTemplate\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Clearance_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -238,5 +238,4 @@ public virtual void WriteTemplate(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

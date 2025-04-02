@@ -1,4 +1,4 @@
-# Class AttributeUseFacetProperty
+#  Class AttributeUseFacetProperty
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeUseFacetProperty\(\)
+### <a id="VM_Managed_DAFUL_AttributeUseFacetProperty__ctor"></a> AttributeUseFacetProperty\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeUseFacetProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeUseFacet
 public AttributeUseFacetProperty()
 ```
 
-### AttributeUseFacetProperty\(bool\)
+### <a id="VM_Managed_DAFUL_AttributeUseFacetProperty__ctor_System_Boolean_"></a> AttributeUseFacetProperty\(bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeUseFacetProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -123,7 +123,7 @@ The using flag.
 
 ## Properties
 
-### Use
+### <a id="VM_Managed_DAFUL_AttributeUseFacetProperty_Use"></a> Use
 
 Gets or sets the using flag.
 
@@ -134,5 +134,4 @@ public bool Use { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Class CoSimIOList
+#  Class CoSimIOList
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### CoSimIOList\(\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIOList__ctor"></a> CoSimIOList\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimIOList" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimIOList
 public CoSimIOList()
 ```
 
-### CoSimIOList\(CoSimSettingsBase\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIOList__ctor_VM_Managed_DAFUL_CoSim_CoSimSettingsBase_"></a> CoSimIOList\(CoSimSettingsBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimIOList" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner.
 
 ## Properties
 
-### SInputs
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIOList_SInputs"></a> SInputs
 
 Gets or sets the scalar input array.
 
@@ -132,7 +132,7 @@ public ObjectBase[] SInputs { get; set; }
 
  ObjectBase\[\]
 
-### SOutputs
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIOList_SOutputs"></a> SOutputs
 
 Gets or sets the scalar output.
 
@@ -146,7 +146,7 @@ public ObjectBase[] SOutputs { get; set; }
 
 ## Methods
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIOList_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -159,5 +159,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

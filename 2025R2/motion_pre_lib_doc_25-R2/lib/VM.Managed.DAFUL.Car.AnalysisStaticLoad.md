@@ -1,4 +1,4 @@
-# Class AnalysisStaticLoad
+#  Class AnalysisStaticLoad
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -43,7 +43,7 @@ public class AnalysisStaticLoad : SuspensionAnalysisBase
 
 ## Constructors
 
-### AnalysisStaticLoad\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad__ctor"></a> AnalysisStaticLoad\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSteering" data-throw-if-not-resolved="false"></xref> class.
 
@@ -51,7 +51,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSteer
 public AnalysisStaticLoad()
 ```
 
-### AnalysisStaticLoad\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisStaticLoad\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSteering" data-throw-if-not-resolved="false"></xref> class.
 
@@ -67,7 +67,7 @@ The link container.
 
 ## Properties
 
-### AligningTorqueInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_AligningTorqueInfo"></a> AligningTorqueInfo
 
 Gets or sets the aligning torque.
 
@@ -79,7 +79,7 @@ public AnalysisStaticLoad.AligningTorque AligningTorqueInfo { get; set; }
 
  [AnalysisStaticLoad](VM.Managed.DAFUL.Car.AnalysisStaticLoad.md).[AligningTorque](VM.Managed.DAFUL.Car.AnalysisStaticLoad.AligningTorque.md)
 
-### BrakingForceInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_BrakingForceInfo"></a> BrakingForceInfo
 
 Gets or sets the braking force.
 
@@ -91,7 +91,7 @@ public AnalysisStaticLoad.BrakingForce BrakingForceInfo { get; set; }
 
  [AnalysisStaticLoad](VM.Managed.DAFUL.Car.AnalysisStaticLoad.md).[BrakingForce](VM.Managed.DAFUL.Car.AnalysisStaticLoad.BrakingForce.md)
 
-### CoordSystem
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_CoordSystem"></a> CoordSystem
 
 Gets or sets the coordinate system.
 
@@ -103,7 +103,7 @@ public CoordinateSystemType CoordSystem { get; set; }
 
  [CoordinateSystemType](VM.Managed.DAFUL.Car.Analysis.Suspension.CoordinateSystemType.md)
 
-### CorneringForceInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_CorneringForceInfo"></a> CorneringForceInfo
 
 Gets or sets the cornering force.
 
@@ -115,7 +115,7 @@ public AnalysisStaticLoad.CorneringForce CorneringForceInfo { get; set; }
 
  [AnalysisStaticLoad](VM.Managed.DAFUL.Car.AnalysisStaticLoad.md).[CorneringForce](VM.Managed.DAFUL.Car.AnalysisStaticLoad.CorneringForce.md)
 
-### DamageForceInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_DamageForceInfo"></a> DamageForceInfo
 
 Gets or sets the damage force.
 
@@ -127,7 +127,7 @@ public AnalysisStaticLoad.DamageForce DamageForceInfo { get; set; }
 
  [AnalysisStaticLoad](VM.Managed.DAFUL.Car.AnalysisStaticLoad.md).[DamageForce](VM.Managed.DAFUL.Car.AnalysisStaticLoad.DamageForce.md)
 
-### DamageRadiusInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_DamageRadiusInfo"></a> DamageRadiusInfo
 
 Gets or sets the damage radius.
 
@@ -139,7 +139,7 @@ public AnalysisStaticLoad.DamageRadius DamageRadiusInfo { get; set; }
 
  [AnalysisStaticLoad](VM.Managed.DAFUL.Car.AnalysisStaticLoad.md).[DamageRadius](VM.Managed.DAFUL.Car.AnalysisStaticLoad.DamageRadius.md)
 
-### OverturningTorqueInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_OverturningTorqueInfo"></a> OverturningTorqueInfo
 
 Gets or sets the overturning torque.
 
@@ -151,7 +151,7 @@ public AnalysisStaticLoad.OverturningTorque OverturningTorqueInfo { get; set; }
 
  [AnalysisStaticLoad](VM.Managed.DAFUL.Car.AnalysisStaticLoad.md).[OverturningTorque](VM.Managed.DAFUL.Car.AnalysisStaticLoad.OverturningTorque.md)
 
-### RollResTorqueInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_RollResTorqueInfo"></a> RollResTorqueInfo
 
 Gets or sets the roll res torque.
 
@@ -163,7 +163,7 @@ public AnalysisStaticLoad.RollResTorque RollResTorqueInfo { get; set; }
 
  [AnalysisStaticLoad](VM.Managed.DAFUL.Car.AnalysisStaticLoad.md).[RollResTorque](VM.Managed.DAFUL.Car.AnalysisStaticLoad.RollResTorque.md)
 
-### SteerLimit\_Lower
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_SteerLimit_Lower"></a> SteerLimit\_Lower
 
 Gets or sets the steer lower limit.
 
@@ -175,7 +175,7 @@ public double SteerLimit_Lower { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SteerLimit\_Upper
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_SteerLimit_Upper"></a> SteerLimit\_Upper
 
 Gets or sets the steer upper limit.
 
@@ -187,7 +187,7 @@ public double SteerLimit_Upper { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SteeringFunctionArgument
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_SteeringFunctionArgument"></a> SteeringFunctionArgument
 
 Gets the steering function argument.
 
@@ -199,7 +199,7 @@ public override string SteeringFunctionArgument { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TractionForceInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_TractionForceInfo"></a> TractionForceInfo
 
 Gets or sets the traction force.
 
@@ -211,7 +211,7 @@ public AnalysisStaticLoad.TractionForce TractionForceInfo { get; set; }
 
  [AnalysisStaticLoad](VM.Managed.DAFUL.Car.AnalysisStaticLoad.md).[TractionForce](VM.Managed.DAFUL.Car.AnalysisStaticLoad.TractionForce.md)
 
-### Vertical\_Input
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_Vertical_Input"></a> Vertical\_Input
 
 Gets or sets the vertical input.
 
@@ -223,7 +223,7 @@ public AnalysisStaticLoad.VerticalInputType Vertical_Input { get; set; }
 
  [AnalysisStaticLoad](VM.Managed.DAFUL.Car.AnalysisStaticLoad.md).[VerticalInputType](VM.Managed.DAFUL.Car.AnalysisStaticLoad.VerticalInputType.md)
 
-### Vertical\_Len
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_Vertical_Len"></a> Vertical\_Len
 
 Gets or sets the vertical length.
 
@@ -237,7 +237,7 @@ public AnalysisStaticLoad.VerticalLength Vertical_Len { get; set; }
 
 ## Methods
 
-### GetDataForLoadCase\(int, Dictionary<Column, double\[\]\>, SuspensionMode\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_GetDataForLoadCase_System_Int32_System_Collections_Generic_Dictionary_VM_Managed_DAFUL_Car_SuspensionLoadCase_Column_System_Double____VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode_"></a> GetDataForLoadCase\(int, Dictionary<Column, double\[\]\>, SuspensionMode\)
 
 Gets the data for load case.
 
@@ -259,7 +259,7 @@ The column information.
 
 The mode.
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -273,7 +273,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 The parameter array.
 
-### GetXmlData\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_GetXmlData_System_Xml_XmlWriter_"></a> GetXmlData\(XmlWriter\)
 
 Gets the XML data.
 
@@ -287,7 +287,7 @@ public override void GetXmlData(XmlWriter writer)
 
 The writer.
 
-### SetDataForLoadCase\(SuspensionMode\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_SetDataForLoadCase_VM_Managed_DAFUL_Car_SuspensionLoadCase_SuspensionMode_"></a> SetDataForLoadCase\(SuspensionMode\)
 
 Sets the data for load case.
 
@@ -301,7 +301,7 @@ public override void SetDataForLoadCase(SuspensionLoadCase.SuspensionMode mode)
 
 The mode.
 
-### SetXmlData\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_SetXmlData_System_Xml_XmlReader_"></a> SetXmlData\(XmlReader\)
 
 Sets the XML data.
 
@@ -314,5 +314,4 @@ public override void SetXmlData(XmlReader reader)
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
 The reader.
-
 

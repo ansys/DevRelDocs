@@ -1,4 +1,4 @@
-# Class TireAnalysisRide
+#  Class TireAnalysisRide
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -113,7 +113,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### TireAnalysisRide\(Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_TireAnalysisRide__ctor_VM_Managed_Document_"></a> TireAnalysisRide\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.TireAnalysisRide" data-throw-if-not-resolved="false"></xref> class.
 
@@ -127,7 +127,7 @@ public TireAnalysisRide(Document doc)
 
 The doc.
 
-### TireAnalysisRide\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_TireAnalysisRide__ctor_VM_Managed_Operation_JournalParameter_"></a> TireAnalysisRide\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.TireAnalysisRide" data-throw-if-not-resolved="false"></xref> class.
 
@@ -143,7 +143,7 @@ The jp.
 
 ## Properties
 
-### ExecuteName
+### <a id="VM_Managed_DAFUL_Car_Operation_TireAnalysisRide_ExecuteName"></a> ExecuteName
 
 Gets the name of the execute.
 
@@ -155,7 +155,7 @@ protected override string ExecuteName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_TireAnalysisRide_Name"></a> Name
 
 Gets the operation name.
 
@@ -169,7 +169,7 @@ public override string Name { get; }
 
 ## Methods
 
-### ExecuteCore\(int, TireTestRigDocument, ref TireAnalysisConfigurationBase\)
+### <a id="VM_Managed_DAFUL_Car_Operation_TireAnalysisRide_ExecuteCore_System_Int32_VM_Managed_DAFUL_Car_TireTestRigDocument_VM_Managed_DAFUL_Car_TireAnalysisConfigurationBase__"></a> ExecuteCore\(int, TireTestRigDocument, ref TireAnalysisConfigurationBase\)
 
 Executes [core].
 
@@ -191,7 +191,7 @@ The document.
 
 The configuration.
 
-### UpdateUI\(IUIUpdate, Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_TireAnalysisRide_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -208,5 +208,4 @@ The updater.
 `doc` Document
 
 The document.
-
 

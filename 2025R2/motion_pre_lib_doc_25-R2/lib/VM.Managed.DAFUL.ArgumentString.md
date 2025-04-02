@@ -1,4 +1,4 @@
-# Class ArgumentString
+#  Class ArgumentString
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ArgumentString\(\)
+### <a id="VM_Managed_DAFUL_ArgumentString__ctor"></a> ArgumentString\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentString" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentString" d
 public ArgumentString()
 ```
 
-### ArgumentString\(ArgumentListGeneral\)
+### <a id="VM_Managed_DAFUL_ArgumentString__ctor_VM_Managed_DAFUL_ArgumentListGeneral_"></a> ArgumentString\(ArgumentListGeneral\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentString" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ The owner argument list.
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_ArgumentString_ArgumentType"></a> ArgumentType
 
 The type of the argument
 
@@ -136,7 +136,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### Expression
+### <a id="VM_Managed_DAFUL_ArgumentString_Expression"></a> Expression
 
 The argument expression
 
@@ -148,7 +148,7 @@ public override string Expression { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### String
+### <a id="VM_Managed_DAFUL_ArgumentString_String"></a> String
 
 Gets or sets the argument name.
 
@@ -162,7 +162,7 @@ public string String { get; set; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_DAFUL_ArgumentString_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <xref href="System.Xml.Serialization.XmlSchemaProviderAttribute" data-throw-if-not-resolved="false"></xref> to the class.
 
@@ -176,7 +176,7 @@ public XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_ArgumentString_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -190,7 +190,7 @@ public void ReadXml(XmlReader reader)
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_ArgumentString_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -203,5 +203,4 @@ public void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
-
 

@@ -1,4 +1,4 @@
-# Enum LinkType
+#  Enum LinkType
 
 Namespace: [VM.CAD.Builders.Links](VM.CAD.Builders.Links.md)  
 Assembly: VM.CAD.Builders.Links.dll  
@@ -20,7 +20,6 @@ Simple type.
 `Vtype = 1` 
 
 V type.
-
 
 
 

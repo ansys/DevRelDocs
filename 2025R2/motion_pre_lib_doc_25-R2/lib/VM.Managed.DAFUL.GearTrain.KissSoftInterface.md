@@ -1,4 +1,4 @@
-# Class KissSoftInterface
+#  Class KissSoftInterface
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -22,7 +22,7 @@ public class KissSoftInterface
 
 ## Constructors
 
-### KissSoftInterface\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface__ctor"></a> KissSoftInterface\(\)
 
 ```csharp
 public KissSoftInterface()
@@ -30,7 +30,7 @@ public KissSoftInterface()
 
 ## Properties
 
-### OutputDataForBuild
+### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputDataForBuild"></a> OutputDataForBuild
 
 Gets or sets the output data for build.
 
@@ -44,7 +44,7 @@ public static KissSoftInterface.OutputData OutputDataForBuild { get; set; }
 
 ## Methods
 
-### ExecuteKissSoftInterface\(IDocument, InputData, bool, ref OutputData\)
+### <a id="VM_Managed_DAFUL_GearTrain_KissSoftInterface_ExecuteKissSoftInterface_VM_Models_Pre_IDocument_VM_Managed_DAFUL_GearTrain_KissSoftInterface_InputData_System_Boolean_VM_Managed_DAFUL_GearTrain_KissSoftInterface_OutputData__"></a> ExecuteKissSoftInterface\(IDocument, InputData, bool, ref OutputData\)
 
 Execute KissSoft interface
 
@@ -73,5 +73,4 @@ The output data
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

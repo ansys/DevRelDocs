@@ -1,4 +1,4 @@
-# Class ShowPartBodyEigenValue
+#  Class ShowPartBodyEigenValue
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -83,7 +83,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ShowPartBodyEigenValue\(Document\)
+### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowPartBodyEigenValue__ctor_VM_Managed_Document_"></a> ShowPartBodyEigenValue\(Document\)
 
 ```csharp
 public ShowPartBodyEigenValue(Document doc)
@@ -95,7 +95,7 @@ public ShowPartBodyEigenValue(Document doc)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowPartBodyEigenValue_Name"></a> Name
 
 Gets the operation name.
 
@@ -109,7 +109,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowPartBodyEigenValue_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -117,7 +117,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### OnApply\(object, CancelEventArgs\)
+### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowPartBodyEigenValue_OnApply_System_Object_System_ComponentModel_CancelEventArgs_"></a> OnApply\(object, CancelEventArgs\)
 
 Called when [apply].
 
@@ -135,13 +135,13 @@ The sender.
 
 The <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### ShowDialog\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowPartBodyEigenValue_ShowDialog"></a> ShowDialog\(\)
 
 ```csharp
 protected virtual void ShowDialog()
 ```
 
-### UpdateUI\(IUIUpdate, Document\)
+### <a id="VM_Managed_DAFUL_MeshFree_Operation_ShowPartBodyEigenValue_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -158,5 +158,4 @@ The updater.
 `doc` Document
 
 The doc.
-
 

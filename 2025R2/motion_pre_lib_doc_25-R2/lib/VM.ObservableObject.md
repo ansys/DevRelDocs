@@ -1,4 +1,4 @@
-# Class ObservableObject
+#  Class ObservableObject
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -33,7 +33,7 @@ public abstract class ObservableObject : IObservableObject, IDisposableObject
 
 ## Constructors
 
-### ObservableObject\(\)
+### <a id="VM_ObservableObject__ctor"></a> ObservableObject\(\)
 
 ```csharp
 protected ObservableObject()
@@ -41,7 +41,7 @@ protected ObservableObject()
 
 ## Properties
 
-### IsDisposed
+### <a id="VM_ObservableObject_IsDisposed"></a> IsDisposed
 
 ```csharp
 [Browsable(false)]
@@ -52,7 +52,7 @@ public bool IsDisposed { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TryDisposing
+### <a id="VM_ObservableObject_TryDisposing"></a> TryDisposing
 
 ```csharp
 [Browsable(false)]
@@ -65,13 +65,13 @@ public bool TryDisposing { get; }
 
 ## Methods
 
-### Dispose\(\)
+### <a id="VM_ObservableObject_Dispose"></a> Dispose\(\)
 
 ```csharp
 public void Dispose()
 ```
 
-### Dispose\(bool\)
+### <a id="VM_ObservableObject_Dispose_System_Boolean_"></a> Dispose\(bool\)
 
 ```csharp
 protected virtual void Dispose(bool disposing)
@@ -81,19 +81,19 @@ protected virtual void Dispose(bool disposing)
 
 `disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### DisposeManagedResources\(\)
+### <a id="VM_ObservableObject_DisposeManagedResources"></a> DisposeManagedResources\(\)
 
 ```csharp
 protected virtual void DisposeManagedResources()
 ```
 
-### DisposeUnmanagedResources\(\)
+### <a id="VM_ObservableObject_DisposeUnmanagedResources"></a> DisposeUnmanagedResources\(\)
 
 ```csharp
 protected virtual void DisposeUnmanagedResources()
 ```
 
-### RaisePropertyChanged\(string\)
+### <a id="VM_ObservableObject_RaisePropertyChanged_System_String_"></a> RaisePropertyChanged\(string\)
 
 ```csharp
 public virtual void RaisePropertyChanged(string propertyName)
@@ -103,7 +103,7 @@ public virtual void RaisePropertyChanged(string propertyName)
 
 `propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RaisePropertyChanged\(string, object, object\)
+### <a id="VM_ObservableObject_RaisePropertyChanged_System_String_System_Object_System_Object_"></a> RaisePropertyChanged\(string, object, object\)
 
 ```csharp
 public virtual void RaisePropertyChanged(string propertyName, object oldValue, object newValue)
@@ -117,7 +117,7 @@ public virtual void RaisePropertyChanged(string propertyName, object oldValue, o
 
 `newValue` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### Disposed
+### <a id="VM_ObservableObject_Disposed"></a> Disposed
 
 ```csharp
 public event EventHandler Disposed
@@ -127,7 +127,7 @@ public event EventHandler Disposed
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### Disposing
+### <a id="VM_ObservableObject_Disposing"></a> Disposing
 
 ```csharp
 public event EventHandler Disposing
@@ -137,7 +137,7 @@ public event EventHandler Disposing
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### PropertyChanged
+### <a id="VM_ObservableObject_PropertyChanged"></a> PropertyChanged
 
 ```csharp
 public event PropertyChangedEventHandler PropertyChanged
@@ -146,5 +146,4 @@ public event PropertyChangedEventHandler PropertyChanged
 #### Event Type
 
  [PropertyChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler)
-
 

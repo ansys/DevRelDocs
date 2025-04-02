@@ -1,4 +1,4 @@
-# Class ShimmyJudderAnalysis
+#  Class ShimmyJudderAnalysis
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -106,7 +106,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ShimmyJudderAnalysis\(Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderAnalysis__ctor_VM_Managed_Document_"></a> ShimmyJudderAnalysis\(Document\)
 
 ```csharp
 public ShimmyJudderAnalysis(Document doc)
@@ -116,7 +116,7 @@ public ShimmyJudderAnalysis(Document doc)
 
 `doc` Document
 
-### ShimmyJudderAnalysis\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderAnalysis__ctor_VM_Managed_Operation_JournalParameter_"></a> ShimmyJudderAnalysis\(JournalParameter\)
 
 ```csharp
 public ShimmyJudderAnalysis(JournalParameter jp)
@@ -128,7 +128,7 @@ public ShimmyJudderAnalysis(JournalParameter jp)
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderAnalysis_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -136,7 +136,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### ExecuteImpl\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderAnalysis_ExecuteImpl"></a> ExecuteImpl\(\)
 
 Executes [implementation].
 
@@ -144,7 +144,7 @@ Executes [implementation].
 protected override void ExecuteImpl()
 ```
 
-### SimulationRunImpl\(bool\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShimmyJudderAnalysis_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
 
 ```csharp
 protected override void SimulationRunImpl(bool bWriteDFG)
@@ -153,5 +153,4 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 #### Parameters
 
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

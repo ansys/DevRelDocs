@@ -1,4 +1,4 @@
-# Enum SoilInteraction.ActionGeometryData.ContactShapeType
+#  Enum SoilInteraction.ActionGeometryData.ContactShapeType
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -20,7 +20,6 @@ Cylindrical
 `Planar = 0` 
 
 Planar
-
 
 
 

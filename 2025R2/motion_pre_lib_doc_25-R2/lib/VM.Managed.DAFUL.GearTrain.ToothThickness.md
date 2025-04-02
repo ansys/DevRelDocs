@@ -1,4 +1,4 @@
-# Class ToothThickness
+#  Class ToothThickness
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ToothThickness\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_ToothThickness__ctor"></a> ToothThickness\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ToothThickness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public ToothThickness()
 
 ## Properties
 
-### PairLower
+### <a id="VM_Managed_DAFUL_GearTrain_ToothThickness_PairLower"></a> PairLower
 
 Gets or sets the pair lower.
 
@@ -118,7 +118,7 @@ public GearPairValue PairLower { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairUpper
+### <a id="VM_Managed_DAFUL_GearTrain_ToothThickness_PairUpper"></a> PairUpper
 
 Gets or sets the pair upper.
 
@@ -132,7 +132,7 @@ public GearPairValue PairUpper { get; set; }
 
 ## Methods
 
-### InitChild\(int, ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_ToothThickness_InitChild_System_Int32_VM_Unit_ConvertFactor_"></a> InitChild\(int, ConvertFactor\)
 
 Initializes the child.
 
@@ -149,5 +149,4 @@ The n number.
 `factor` Unit.ConvertFactor
 
 The unit factor.
-
 

@@ -1,4 +1,4 @@
-# Enum Scenario.Sign
+#  Enum Scenario.Sign
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -38,7 +38,6 @@ Less than
 `LessAndEqual = 2` 
 
 Less than and Equal to
-
 
 
 

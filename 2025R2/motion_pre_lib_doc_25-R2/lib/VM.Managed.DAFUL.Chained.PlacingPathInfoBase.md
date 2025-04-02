@@ -1,4 +1,4 @@
-# Class PlacingPathInfoBase
+#  Class PlacingPathInfoBase
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PlacingPathInfoBase\(\)
+### <a id="VM_Managed_DAFUL_Chained_PlacingPathInfoBase__ctor"></a> PlacingPathInfoBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.PlacingPathInfoBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -110,7 +110,7 @@ public PlacingPathInfoBase()
 
 ## Methods
 
-### FindInnerLinkEventArgs\(LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Chained_PlacingPathInfoBase_FindInnerLinkEventArgs_VM_Managed_LinkEventArgs_"></a> FindInnerLinkEventArgs\(LinkEventArgs\)
 
 Find inner link event.
 
@@ -129,5 +129,4 @@ instance containing the event data.
  LinkEventArgs
 
 instance containing the event data.
-
 

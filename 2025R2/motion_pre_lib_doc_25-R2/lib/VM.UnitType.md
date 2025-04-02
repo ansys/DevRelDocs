@@ -1,4 +1,4 @@
-# Enum UnitType
+#  Enum UnitType
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -38,7 +38,6 @@ mks.
 `mmks = 1` 
 
 mmks.
-
 
 
 

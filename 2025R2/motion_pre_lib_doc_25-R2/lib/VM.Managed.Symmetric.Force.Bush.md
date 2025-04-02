@@ -1,4 +1,4 @@
-# Class Bush
+#  Class Bush
 
 Namespace: [VM.Managed.Symmetric.Force](VM.Managed.Symmetric.Force.md)  
 Assembly: VMSymFB.dll  
@@ -36,7 +36,7 @@ Named<Bush\>.SymmetricManager
 
 ## Constructors
 
-### Bush\(\)
+### <a id="VM_Managed_Symmetric_Force_Bush__ctor"></a> Bush\(\)
 
 ```csharp
 public Bush()
@@ -44,7 +44,7 @@ public Bush()
 
 ## Methods
 
-### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_Force_Bush_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -78,7 +78,7 @@ Plane of symmetric.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### UpdateProperty\(PropertyBush, PropertyBush, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_Force_Bush_UpdateProperty_VM_Managed_DAFUL_Force_PropertyBush_VM_Managed_DAFUL_Force_PropertyBush_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateProperty\(PropertyBush, PropertyBush, SymmetricType, Plane, Document\)
 
 ```csharp
 public static bool UpdateProperty(PropertyBush toolProperty, PropertyBush targetProperty, SymmetricType sym_type, Plane sym_plane, Document doc)
@@ -99,5 +99,4 @@ public static bool UpdateProperty(PropertyBush toolProperty, PropertyBush target
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

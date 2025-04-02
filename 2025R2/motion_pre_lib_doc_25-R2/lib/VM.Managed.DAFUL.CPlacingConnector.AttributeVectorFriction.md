@@ -1,4 +1,4 @@
-# Class AttributeVectorFriction
+#  Class AttributeVectorFriction
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeVectorFriction\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction__ctor"></a> AttributeVectorFriction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.AttributeVectorFriction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeVectorFriction()
 
 ## Properties
 
-### RadialDynamicsThreshold
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_RadialDynamicsThreshold"></a> RadialDynamicsThreshold
 
 Gets or sets the radial dynamics threshold.
 
@@ -121,7 +121,7 @@ public ExpressionValueVariable RadialDynamicsThreshold { get; set; }
 
  ExpressionValueVariable
 
-### RadialFrictionCoefficient
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_RadialFrictionCoefficient"></a> RadialFrictionCoefficient
 
 Gets or sets the radial friction coefficient.
 
@@ -133,7 +133,7 @@ public ExpressionValueVariable RadialFrictionCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### RadialStaticFrictionCoefficient
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_RadialStaticFrictionCoefficient"></a> RadialStaticFrictionCoefficient
 
 Gets or sets the radial static friction coefficient.
 
@@ -145,7 +145,7 @@ public ExpressionValueVariable RadialStaticFrictionCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### RadialStictionVelocity
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_RadialStictionVelocity"></a> RadialStictionVelocity
 
 Gets or sets the radial stiction velocity.
 
@@ -157,7 +157,7 @@ public ExpressionValueVariable RadialStictionVelocity { get; set; }
 
  ExpressionValueVariable
 
-### TangentialContactDampingRatio
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_TangentialContactDampingRatio"></a> TangentialContactDampingRatio
 
 Gets or sets the tangential contact damping ratio.
 
@@ -169,7 +169,7 @@ public ExpressionValueVariable TangentialContactDampingRatio { get; set; }
 
  ExpressionValueVariable
 
-### TangentialDynamicsThreshold
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_TangentialDynamicsThreshold"></a> TangentialDynamicsThreshold
 
 Gets or sets the tangential dynamics threshold.
 
@@ -181,7 +181,7 @@ public ExpressionValueVariable TangentialDynamicsThreshold { get; set; }
 
  ExpressionValueVariable
 
-### TangentialFrictionCoefficient
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_TangentialFrictionCoefficient"></a> TangentialFrictionCoefficient
 
 Gets or sets the tangential friction coefficient.
 
@@ -193,7 +193,7 @@ public ExpressionValueVariable TangentialFrictionCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### TangentialStaticFrictionCoefficient
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_TangentialStaticFrictionCoefficient"></a> TangentialStaticFrictionCoefficient
 
 Gets or sets the tangential static friction coefficient.
 
@@ -205,7 +205,7 @@ public ExpressionValueVariable TangentialStaticFrictionCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### TangentialStictionVelocity
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_TangentialStictionVelocity"></a> TangentialStictionVelocity
 
 Gets or sets the tangential stiction velocity.
 
@@ -219,7 +219,7 @@ public ExpressionValueVariable TangentialStictionVelocity { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeVectorFriction_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -232,5 +232,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The factor.
-
 

@@ -1,4 +1,4 @@
-# Struct LinkContainer.Destroy
+#  Struct LinkContainer.Destroy
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -12,5 +12,4 @@ public struct LinkContainer.Destroy : ILinkContainerEvent.ILinkEventBuilder
 #### Implements
 
 [ILinkContainerEvent.ILinkEventBuilder](VM.Managed.ILinkContainerEvent.ILinkEventBuilder.md)
-
 

@@ -1,4 +1,4 @@
-# Class Pulley
+#  Class Pulley
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -204,7 +204,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Pulley\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pulley__ctor"></a> Pulley\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.Pulley" data-throw-if-not-resolved="false"></xref> class.
 
@@ -212,7 +212,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector
 public Pulley()
 ```
 
-### Pulley\(string\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pulley__ctor_System_String_"></a> Pulley\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.Pulley" data-throw-if-not-resolved="false"></xref> class.
 
@@ -228,7 +228,7 @@ Name of the string.
 
 ## Properties
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pulley_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -240,7 +240,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Hide
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pulley_Hide"></a> Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -252,7 +252,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Parent
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pulley_Parent"></a> Parent
 
 Gets or sets the parent.
 
@@ -264,7 +264,7 @@ public ObjectBase Parent { get; set; }
 
  ObjectBase
 
-### ReferenceTransformation
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pulley_ReferenceTransformation"></a> ReferenceTransformation
 
 Gets or sets the reference transformation.
 
@@ -278,7 +278,7 @@ public TransformBase ReferenceTransformation { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pulley_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -292,7 +292,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pulley_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -320,7 +320,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPathInformation\(PathGroup\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pulley_GetPathInformation_VM_Managed_DAFUL_CPlacingConnector_PathGroup_"></a> GetPathInformation\(PathGroup\)
 
 Gets the path information
 
@@ -338,7 +338,7 @@ The path group
 
  [PathInformation](VM.Managed.DAFUL.CPlacingConnector.PathInformation.md)
 
-### GetPulleyStiffness\(PathGroup\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pulley_GetPulleyStiffness_VM_Managed_DAFUL_CPlacingConnector_PathGroup_"></a> GetPulleyStiffness\(PathGroup\)
 
 Gets the pulley stiffness
 
@@ -356,7 +356,7 @@ The path group
 
  [PulleyStiffness](VM.Managed.DAFUL.CPlacingConnector.PulleyStiffness.md)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pulley_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -370,12 +370,11 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReDraw\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pulley_ReDraw"></a> ReDraw\(\)
 
 Redraw.
 
 ```csharp
 public virtual void ReDraw()
 ```
-
 

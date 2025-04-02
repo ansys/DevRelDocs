@@ -1,4 +1,4 @@
-# Class PartDocument.MassProperty
+#  Class PartDocument.MassProperty
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MassProperty\(\)
+### <a id="VM_Managed_DAFUL_PartDocument_MassProperty__ctor"></a> MassProperty\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.PartDocument.MassProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.PartDocument.Mass
 public MassProperty()
 ```
 
-### MassProperty\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_PartDocument_MassProperty__ctor_VM_Unit_ConvertFactor_"></a> MassProperty\(ConvertFactor\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.PartDocument.MassProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The unit convert factor.
 
 ## Properties
 
-### Density
+### <a id="VM_Managed_DAFUL_PartDocument_MassProperty_Density"></a> Density
 
 Gets or sets the density.
 
@@ -132,7 +132,7 @@ public ExpressionValueVariable Density { get; set; }
 
  ExpressionValueVariable
 
-### Mass
+### <a id="VM_Managed_DAFUL_PartDocument_MassProperty_Mass"></a> Mass
 
 Gets or sets the mass.
 
@@ -144,7 +144,7 @@ public ExpressionValueVariable Mass { get; set; }
 
  ExpressionValueVariable
 
-### MassCenter
+### <a id="VM_Managed_DAFUL_PartDocument_MassProperty_MassCenter"></a> MassCenter
 
 Gets or sets the transformation.
 
@@ -156,7 +156,7 @@ public TransformBase MassCenter { get; set; }
 
  TransformBase
 
-### MassCenterOrientationValue
+### <a id="VM_Managed_DAFUL_PartDocument_MassProperty_MassCenterOrientationValue"></a> MassCenterOrientationValue
 
 Gets the orientation of mass center
 
@@ -168,7 +168,7 @@ public OMatrix MassCenterOrientationValue { get; }
 
  OMatrix
 
-### MassCenterPositionValue
+### <a id="VM_Managed_DAFUL_PartDocument_MassProperty_MassCenterPositionValue"></a> MassCenterPositionValue
 
 Gets the position of mass center
 
@@ -180,7 +180,7 @@ public VectorBase MassCenterPositionValue { get; }
 
  VectorBase
 
-### MassValue
+### <a id="VM_Managed_DAFUL_PartDocument_MassProperty_MassValue"></a> MassValue
 
 Gets or the mass.
 
@@ -192,7 +192,7 @@ public double MassValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MomentOfInertia
+### <a id="VM_Managed_DAFUL_PartDocument_MassProperty_MomentOfInertia"></a> MomentOfInertia
 
 Gets or sets the moment of inertia.
 
@@ -204,7 +204,7 @@ public Variable[] MomentOfInertia { get; set; }
 
  Variable\[\]
 
-### MomentOfInertiaValue
+### <a id="VM_Managed_DAFUL_PartDocument_MassProperty_MomentOfInertiaValue"></a> MomentOfInertiaValue
 
 Gets the moment of inertia.
 
@@ -216,7 +216,7 @@ public double[] MomentOfInertiaValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### SolidPropertyType
+### <a id="VM_Managed_DAFUL_PartDocument_MassProperty_SolidPropertyType"></a> SolidPropertyType
 
 Gets or sets the type of the solid property.
 
@@ -230,7 +230,7 @@ public PartDocument.MassPropertyType SolidPropertyType { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_PartDocument_MassProperty_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -244,7 +244,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_PartDocument_MassProperty_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -262,7 +262,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_PartDocument_MassProperty_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -275,5 +275,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

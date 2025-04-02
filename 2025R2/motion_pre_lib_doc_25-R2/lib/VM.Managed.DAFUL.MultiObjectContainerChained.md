@@ -1,4 +1,4 @@
-# Class MultiObjectContainerChained
+#  Class MultiObjectContainerChained
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -106,7 +106,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MultiObjectContainerChained\(ICollection\)
+### <a id="VM_Managed_DAFUL_MultiObjectContainerChained__ctor_System_Collections_ICollection_"></a> MultiObjectContainerChained\(ICollection\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectContainerChained" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ public MultiObjectContainerChained(ICollection collection)
 
 The collection of action objects.
 
-### MultiObjectContainerChained\(ICollection, bool\)
+### <a id="VM_Managed_DAFUL_MultiObjectContainerChained__ctor_System_Collections_ICollection_System_Boolean_"></a> MultiObjectContainerChained\(ICollection, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectContainerChained" data-throw-if-not-resolved="false"></xref> class.
 
@@ -140,7 +140,7 @@ The collection of action objects.
 
 ## Properties
 
-### ClosedState
+### <a id="VM_Managed_DAFUL_MultiObjectContainerChained_ClosedState"></a> ClosedState
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.MultiObjectContainerChained" data-throw-if-not-resolved="false"></xref> is closed.
 Use SetClosedState() when this instance sets for undo/redo
@@ -153,7 +153,7 @@ public bool ClosedState { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Count
+### <a id="VM_Managed_DAFUL_MultiObjectContainerChained_Count"></a> Count
 
 Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -167,7 +167,7 @@ protected override int Count { get; }
 
 ## Methods
 
-### GetEnumerator\(\)
+### <a id="VM_Managed_DAFUL_MultiObjectContainerChained_GetEnumerator"></a> GetEnumerator\(\)
 
 Returns an enumerator that iterates through a collection.
 
@@ -180,5 +180,4 @@ protected override IEnumerator<MultiObjectTarget> GetEnumerator()
  [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1)<[MultiObjectTarget](VM.Managed.DAFUL.MultiObjectTarget.md)\>
 
 An <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> object that can be used to iterate through the collection.
-
 

@@ -1,4 +1,4 @@
-# Class GearFEGeneratorException
+#  Class GearFEGeneratorException
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -21,7 +21,7 @@ public class GearFEGeneratorException : Exception
 
 ## Constructors
 
-### GearFEGeneratorException\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearFEGeneratorException__ctor_System_String_"></a> GearFEGeneratorException\(string\)
 
 ```csharp
 public GearFEGeneratorException(string strMessage)
@@ -30,5 +30,4 @@ public GearFEGeneratorException(string strMessage)
 #### Parameters
 
 `strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

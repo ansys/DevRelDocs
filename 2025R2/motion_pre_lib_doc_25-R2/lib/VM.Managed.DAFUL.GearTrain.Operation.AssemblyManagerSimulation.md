@@ -1,4 +1,4 @@
-# Class AssemblyManagerSimulation
+#  Class AssemblyManagerSimulation
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### AssemblyManagerSimulation\(GearTrainDocument\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssemblyManagerSimulation__ctor_VM_Managed_DAFUL_GearTrain_GearTrainDocument_"></a> AssemblyManagerSimulation\(GearTrainDocument\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.AssemblyManagerSimulation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -91,7 +91,7 @@ public AssemblyManagerSimulation(GearTrainDocument doc)
 
 The document.
 
-### AssemblyManagerSimulation\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssemblyManagerSimulation__ctor_VM_Managed_Operation_JournalParameter_"></a> AssemblyManagerSimulation\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.AssemblyManagerSimulation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssemblyManagerSimulation_Name"></a> Name
 
 Gets the name.
 
@@ -121,7 +121,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssemblyManagerSimulation_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -129,7 +129,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssemblyManagerSimulation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -142,5 +142,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

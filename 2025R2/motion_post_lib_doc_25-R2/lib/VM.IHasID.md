@@ -1,4 +1,4 @@
-# Interface IHasID
+#  Interface IHasID
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IHasID
 
 ## Properties
 
-### ID
+### <a id="VM_IHasID_ID"></a> ID
 
 ```python
 Identifier ID { get; }

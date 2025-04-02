@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.GearTrain.BearingDB
+#  Namespace VM.Managed.DAFUL.GearTrain.BearingDB
 
 ### Classes
 
@@ -21,5 +21,4 @@ Radial ball bearing
  [TaperedRoller](VM.Managed.DAFUL.GearTrain.BearingDB.TaperedRoller.md)
 
 Tapered roller bearing
-
 

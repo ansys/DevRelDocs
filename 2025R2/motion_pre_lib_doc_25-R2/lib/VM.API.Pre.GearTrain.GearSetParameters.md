@@ -1,4 +1,4 @@
-# Struct GearSetParameters
+#  Struct GearSetParameters
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +11,7 @@ public struct GearSetParameters
 
 ## Constructors
 
-### GearSetParameters\(\)
+### <a id="VM_API_Pre_GearTrain_GearSetParameters__ctor"></a> GearSetParameters\(\)
 
 Default constructor
 
@@ -19,7 +19,7 @@ Default constructor
 public GearSetParameters()
 ```
 
-### GearSetParameters\(string, string, Vector\)
+### <a id="VM_API_Pre_GearTrain_GearSetParameters__ctor_System_String_System_String_VM_Vector_"></a> GearSetParameters\(string, string, Vector\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.GearTrain.GearSetParameters" data-throw-if-not-resolved="false"></xref> class
 
@@ -43,7 +43,7 @@ The position of the gearset parameters.
 
 ## Properties
 
-### BodyName
+### <a id="VM_API_Pre_GearTrain_GearSetParameters_BodyName"></a> BodyName
 
 The value for the body name. The default value is "".
 
@@ -55,7 +55,7 @@ public string BodyName { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GearSetName
+### <a id="VM_API_Pre_GearTrain_GearSetParameters_GearSetName"></a> GearSetName
 
 The value for the gearset name. The default value is "".
 
@@ -67,7 +67,7 @@ public string GearSetName { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Position
+### <a id="VM_API_Pre_GearTrain_GearSetParameters_Position"></a> Position
 
 The value for the position. The default value is (0, 0, 0).
 
@@ -78,5 +78,4 @@ public Vector Position { readonly get; set; }
 #### Property Value
 
  Vector
-
 

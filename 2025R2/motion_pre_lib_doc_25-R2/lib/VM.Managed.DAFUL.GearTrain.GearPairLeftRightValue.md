@@ -1,4 +1,4 @@
-# Class GearPairLeftRightValue
+#  Class GearPairLeftRightValue
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearPairLeftRightValue\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearPairLeftRightValue__ctor"></a> GearPairLeftRightValue\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearPairLeftRightValue" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public GearPairLeftRightValue()
 
 ## Properties
 
-### LeftRightValues
+### <a id="VM_Managed_DAFUL_GearTrain_GearPairLeftRightValue_LeftRightValues"></a> LeftRightValues
 
 Gets or sets the left right values.
 
@@ -130,7 +130,7 @@ LeftRightValue is null.
 
 ## Methods
 
-### InitChild\(int\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearPairLeftRightValue_InitChild_System_Int32_"></a> InitChild\(int\)
 
 Initializes the child.
 
@@ -144,7 +144,7 @@ public void InitChild(int nNum)
 
 The n number.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearPairLeftRightValue_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -157,5 +157,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

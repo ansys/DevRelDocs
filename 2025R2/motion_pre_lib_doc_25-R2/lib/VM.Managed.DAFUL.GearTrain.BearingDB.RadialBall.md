@@ -1,4 +1,4 @@
-# Class RadialBall
+#  Class RadialBall
 
 Namespace: [VM.Managed.DAFUL.GearTrain.BearingDB](VM.Managed.DAFUL.GearTrain.BearingDB.md)  
 Assembly: VMDGearTrain.dll  
@@ -36,7 +36,7 @@ Record.RecordNo
 
 ## Constructors
 
-### RadialBall\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall__ctor"></a> RadialBall\(\)
 
 ```csharp
 public RadialBall()
@@ -44,7 +44,7 @@ public RadialBall()
 
 ## Fields
 
-### BallDia
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_BallDia"></a> BallDia
 
 Ball diameter
 
@@ -57,7 +57,7 @@ public double? BallDia
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### BallPDia
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_BallPDia"></a> BallPDia
 
 Ball pitch diameter
 
@@ -70,7 +70,7 @@ public double? BallPDia
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### C0r
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_C0r"></a> C0r
 
 Basic static radial load rating
 
@@ -83,7 +83,7 @@ public double? C0r
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### Cr
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_Cr"></a> Cr
 
 Basic dynamic radial load rating
 
@@ -96,7 +96,7 @@ public double? Cr
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### IRSDia
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_IRSDia"></a> IRSDia
 
 Inner raceway shoulder diameter
 
@@ -109,7 +109,7 @@ public double? IRSDia
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### Mass
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_Mass"></a> Mass
 
 Mass
 
@@ -122,7 +122,7 @@ public double? Mass
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### ORSBore
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_ORSBore"></a> ORSBore
 
 Outer raceway shoulder bore
 
@@ -135,7 +135,7 @@ public double? ORSBore
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### RoundR
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_RoundR"></a> RoundR
 
 Rounding radius
 
@@ -148,7 +148,7 @@ public double? RoundR
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### f0
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_f0"></a> f0
 
 Factor for calculation of basic static load rating
 
@@ -161,7 +161,7 @@ public double? f0
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### nBall
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_nBall"></a> nBall
 
 Number of ball
 
@@ -174,7 +174,7 @@ public int? nBall
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)?
 
-### ra
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_ra"></a> ra
 
 ra
 
@@ -189,7 +189,7 @@ public double? ra
 
 ## Methods
 
-### GetDefaultBearing\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_GetDefaultBearing_VM_Unit_ConvertFactor_"></a> GetDefaultBearing\(ConvertFactor\)
 
 Get the default bearing.
 
@@ -209,7 +209,7 @@ The unit convert factor.
 
 The default bearing
 
-### UnitConvert\(ref RadialBall, ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_UnitConvert_VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall__VM_Unit_ConvertFactor_"></a> UnitConvert\(ref RadialBall, ConvertFactor\)
 
 Convert bearing dimension unit.
 
@@ -227,7 +227,7 @@ The target bearing.
 
 The unit convert factor.
 
-### UnitConvert\(ref RadialBall, double, double, double\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall_UnitConvert_VM_Managed_DAFUL_GearTrain_BearingDB_RadialBall__System_Double_System_Double_System_Double_"></a> UnitConvert\(ref RadialBall, double, double, double\)
 
 Convert bearing dimension unit.
 
@@ -252,5 +252,4 @@ The force factor.
 `dMassFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 The mass factor.
-
 

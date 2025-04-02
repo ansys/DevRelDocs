@@ -1,4 +1,4 @@
-# Class BoundaryConditionBase<TProperty\>
+#  Class BoundaryConditionBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Flexible](VM.Managed.DAFUL.Flexible.md)  
 Assembly: VMFlexibleBase.dll  
@@ -221,7 +221,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BoundaryConditionBase\(\)
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1__ctor"></a> BoundaryConditionBase\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.BoundaryConditionBase%601" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -231,7 +231,7 @@ ObservableObject.PropertyChanged
 public BoundaryConditionBase()
 ```
 
-### BoundaryConditionBase\(string\)
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1__ctor_System_String_"></a> BoundaryConditionBase\(string\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.BoundaryConditionBase%601" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -250,7 +250,7 @@ public BoundaryConditionBase(string strName)
 
 ## Properties
 
-### BCComponent
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1_BCComponent"></a> BCComponent
 
 <p>Gets or sets the BC component.</p>
 <p>경계조건을 정의할 엔티티를 가져오거나 넣어줍니다.</p>
@@ -281,7 +281,7 @@ public IGeometricalComponent BCComponent { get; set; }
 
  IGeometricalComponent
 
-### GenerableImpl
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1_GenerableImpl"></a> GenerableImpl
 
 <p>Gets a value indicating whether this instance is generable.</p>
 <p>이 객체가 일반적으로 변환 가능한지 여부를 가져옵니다.</p>
@@ -294,7 +294,7 @@ protected virtual bool GenerableImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -306,7 +306,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Hide
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1_Hide"></a> Hide
 
 <p>Gets or sets a value indicating whether this instance is hide.</p>
 <p>아이콘을 숨길지 여부를 가져오거나 넣어줍니다.</p>
@@ -331,7 +331,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### NameOfBody
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1_NameOfBody"></a> NameOfBody
 
 <p>Gets the name of body referenced BCComponent.</p>
 <p>BC의 타겟요소가 참조하는 바디의 이름을 가져옵니다.</p>
@@ -356,7 +356,7 @@ public string NameOfBody { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ReferenceMarker
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1_ReferenceMarker"></a> ReferenceMarker
 
 <p>Gets or sets the reference marker.</p>
 <p>참조마커를 가져오거나 넣어줍니다.</p>
@@ -387,7 +387,7 @@ public IMarker ReferenceMarker { get; set; }
 
  IMarker
 
-### \_BCComponent
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1__BCComponent"></a> \_BCComponent
 
 <p>Gets or sets the BC component.</p>
 <p>경계조건을 정의할 엔티티를 가져오거나 넣어줍니다.</p>
@@ -418,7 +418,7 @@ public Linker<IGeometricalComponent> _BCComponent { get; set; }
 
  Linker<IGeometricalComponent\>
 
-### \_ReferenceMarker
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1__ReferenceMarker"></a> \_ReferenceMarker
 
 <p>Gets or sets the reference marker.</p>
 <p>참조마커를 가져오거나 넣어줍니다.</p>
@@ -451,7 +451,7 @@ public Linker<IMarker> _ReferenceMarker { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 <p>Draws the icon.</p>
 <p>아이콘을 그립니다.</p>
@@ -467,7 +467,7 @@ public void Draw(Canvas canvas)
 <p>The canvas has icon information.</p>
 <p>아이콘 정보를 가지는 캔버스</p>
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1_FindLocal_System_String_"></a> FindLocal\(string\)
 
 <p>Finds the local.</p>
 <p>특정한 오브젝트로부터 이름을 가지고 원하는 오브젝트를 가져오는 함수입니다.</p>
@@ -487,7 +487,7 @@ public override IObjectBase FindLocal(string strName)
 
  IObjectBase
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 <p>Gets the name of the unnamed object.</p>
 <p>이름이 없는 오브젝트에 정의된 이름을 가져오는 함수입니다.</p>
@@ -507,7 +507,7 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 <p>Request for update the linked object.</p>
 <p>참조된 객체가 갱신될 때 호출되는 이벤트.</p>
@@ -528,7 +528,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 <p>instance containing the event data.</p>
 <p>갱신 이벤트 정보입니다..</p>
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 <p>Called when [deserialization].</p>
 <p>이 클래스의 data가 Load되고 나서 호출되는 함수입니다.</p>
@@ -544,7 +544,7 @@ protected override void OnDeserialization(object sender)
 <p>The sender.</p>
 <p>Load 관련 객체정보입니다.</p>
 
-### ReDraw\(\)
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1_ReDraw"></a> ReDraw\(\)
 
 <p> Redraw.</p>
 <p> 다시 그려줍니다.</p>
@@ -553,7 +553,7 @@ protected override void OnDeserialization(object sender)
 public void ReDraw()
 ```
 
-### ReplaceEntityImpl\(Document, IGenerable\)
+### <a id="VM_Managed_DAFUL_Flexible_BoundaryConditionBase_1_ReplaceEntityImpl_VM_Managed_Document_VM_Managed_IGenerable_"></a> ReplaceEntityImpl\(Document, IGenerable\)
 
 <p>Replace entity.</p>
 <p>엔티티를 대체합니다.</p>
@@ -573,5 +573,4 @@ protected virtual void ReplaceEntityImpl(Document doc, IGenerable generableNew)
 
 <p>The new generable entity.</p>
 <p>새로운 엔티티</p>
-
 

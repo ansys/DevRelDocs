@@ -1,4 +1,4 @@
-# Class ImprintBB
+#  Class ImprintBB
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -62,7 +62,7 @@ public class ImprintBB : ImprintBody, IBuilder
 
 ## Constructors
 
-### ImprintBB\(\)
+### <a id="VM_Managed_DAFUL_Builder_ImprintBB__ctor"></a> ImprintBB\(\)
 
 ```csharp
 public ImprintBB()
@@ -70,7 +70,7 @@ public ImprintBB()
 
 ## Methods
 
-### BuildTargetTool\(Builder, Builder\)
+### <a id="VM_Managed_DAFUL_Builder_ImprintBB_BuildTargetTool_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> BuildTargetTool\(Builder, Builder\)
 
 ```csharp
 protected override void BuildTargetTool(Builder buiTarget, Builder buiTool)
@@ -81,5 +81,4 @@ protected override void BuildTargetTool(Builder buiTarget, Builder buiTool)
 `buiTarget` Builder
 
 `buiTool` Builder
-
 

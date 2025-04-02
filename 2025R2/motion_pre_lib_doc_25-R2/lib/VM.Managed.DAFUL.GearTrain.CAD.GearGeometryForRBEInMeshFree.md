@@ -1,4 +1,4 @@
-# Class GearGeometryForRBEInMeshFree
+#  Class GearGeometryForRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -300,7 +300,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearGeometryForRBEInMeshFree\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearGeometryForRBEInMeshFree__ctor"></a> GearGeometryForRBEInMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.GearGeometryForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -308,7 +308,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Gea
 public GearGeometryForRBEInMeshFree()
 ```
 
-### GearGeometryForRBEInMeshFree\(Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearGeometryForRBEInMeshFree__ctor_VM_Managed_CAD_Builder_"></a> GearGeometryForRBEInMeshFree\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.GearGeometryForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -324,7 +324,7 @@ The builder.
 
 ## Methods
 
-### TemperaryGearGeometry<T\>\(GearGeometryInfo, IConnectable, HiddenDocumentMeshBase, DirectionBase, ParentType, ReferencePointType, double, VectorBase, OMatrix\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearGeometryForRBEInMeshFree_TemperaryGearGeometry__1_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_Managed_DirectionBase_VM_Managed_DAFUL_GearTrain_CAD_GearBuilder_ParentType_VM_Managed_DAFUL_GearTrain_CAD_ReferencePointType_System_Double_VM_Managed_VectorBase_VM_Managed_OMatrix_"></a> TemperaryGearGeometry<T\>\(GearGeometryInfo, IConnectable, HiddenDocumentMeshBase, DirectionBase, ParentType, ReferencePointType, double, VectorBase, OMatrix\)
 
 Temperaries the gear geometry.
 
@@ -377,5 +377,4 @@ The mat o.
 #### Type Parameters
 
 `T` 
-
 

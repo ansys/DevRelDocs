@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Builder.GearTrain
+#  Namespace VM.Managed.DAFUL.Builder.GearTrain
 
 ### Namespaces
 
@@ -137,5 +137,4 @@ Stiffness Bearing
 ### Delegates
 
  [ImportBase<T\>.AddEntityFromMeshDoc](VM.Managed.DAFUL.Builder.GearTrain.ImportBase\-1.AddEntityFromMeshDoc.md)
-
 

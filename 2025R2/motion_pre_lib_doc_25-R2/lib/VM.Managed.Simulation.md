@@ -1,4 +1,4 @@
-# Namespace VM.Managed.Simulation
+#  Namespace VM.Managed.Simulation
 
 ### Classes
 
@@ -89,5 +89,4 @@ Specifies type for a skip analysis.
  [Configuration.TreatmentOfNonContactEntity](VM.Managed.Simulation.Configuration.TreatmentOfNonContactEntity.md)
 
 Specifies type for a Treatment of non-contact entity.
-
 

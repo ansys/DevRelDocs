@@ -1,4 +1,4 @@
-# Class HarmonicDrive.CheckClash
+#  Class HarmonicDrive.CheckClash
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBldHarmonicDrive.dll  
@@ -20,7 +20,7 @@ public class HarmonicDrive.CheckClash
 
 ## Constructors
 
-### CheckClash\(\)
+### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_CheckClash__ctor"></a> CheckClash\(\)
 
 ```csharp
 public CheckClash()
@@ -28,7 +28,7 @@ public CheckClash()
 
 ## Properties
 
-### TargetKey
+### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_CheckClash_TargetKey"></a> TargetKey
 
 Gets and sets the body.
 
@@ -40,7 +40,7 @@ public KeyInfo TargetKey { get; set; }
 
  KeyInfo
 
-### ToolKey
+### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_CheckClash_ToolKey"></a> ToolKey
 
 Gets and sets the body.
 
@@ -51,5 +51,4 @@ public KeyInfo ToolKey { get; set; }
 #### Property Value
 
  KeyInfo
-
 

@@ -1,4 +1,4 @@
-# Class BuilderParamShoe
+#  Class BuilderParamShoe
 
 Namespace: [VM.CAD.Builders.Links](VM.CAD.Builders.Links.md)  
 Assembly: VM.CAD.Builders.Links.dll  
@@ -34,7 +34,7 @@ BuilderParamBase.Transparency
 
 ## Constructors
 
-### BuilderParamShoe\(\)
+### <a id="VM_CAD_Builders_Links_BuilderParamShoe__ctor"></a> BuilderParamShoe\(\)
 
 ```csharp
 public BuilderParamShoe()
@@ -42,7 +42,7 @@ public BuilderParamShoe()
 
 ## Properties
 
-### Cylinders
+### <a id="VM_CAD_Builders_Links_BuilderParamShoe_Cylinders"></a> Cylinders
 
 ```csharp
 public List<BuilderParamCylinder> Cylinders { get; set; }
@@ -52,7 +52,7 @@ public List<BuilderParamCylinder> Cylinders { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<BuilderParamCylinder\>
 
-### ExtrudeAxis
+### <a id="VM_CAD_Builders_Links_BuilderParamShoe_ExtrudeAxis"></a> ExtrudeAxis
 
 ```csharp
 public Vector ExtrudeAxis { get; set; }
@@ -62,7 +62,7 @@ public Vector ExtrudeAxis { get; set; }
 
  Vector
 
-### Points
+### <a id="VM_CAD_Builders_Links_BuilderParamShoe_Points"></a> Points
 
 ```csharp
 public List<Vector> Points { get; set; }
@@ -72,7 +72,7 @@ public List<Vector> Points { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### Width
+### <a id="VM_CAD_Builders_Links_BuilderParamShoe_Width"></a> Width
 
 ```csharp
 public double Width { get; set; }
@@ -82,7 +82,7 @@ public double Width { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### WorkPlane
+### <a id="VM_CAD_Builders_Links_BuilderParamShoe_WorkPlane"></a> WorkPlane
 
 ```csharp
 public Plane WorkPlane { get; set; }
@@ -91,5 +91,4 @@ public Plane WorkPlane { get; set; }
 #### Property Value
 
  Plane
-
 

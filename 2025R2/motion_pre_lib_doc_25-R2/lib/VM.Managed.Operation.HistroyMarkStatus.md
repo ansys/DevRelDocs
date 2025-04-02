@@ -1,4 +1,4 @@
-# Enum HistroyMarkStatus
+#  Enum HistroyMarkStatus
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -20,7 +20,6 @@ Mark.
 `None = 0` 
 
 None.
-
 
 
 

@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.GearTrain.History
+#  Namespace VM.Managed.DAFUL.GearTrain.History
 
 ### Classes
 
@@ -17,5 +17,4 @@ The open hidden document event class
  [ReOpenHiddenDocEvent](VM.Managed.DAFUL.GearTrain.History.ReOpenHiddenDocEvent.md)
 
 The re-open hidden document event class
-
 

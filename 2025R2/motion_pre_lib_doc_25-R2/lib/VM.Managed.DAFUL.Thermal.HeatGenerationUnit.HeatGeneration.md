@@ -1,4 +1,4 @@
-# Enum HeatGenerationUnit.HeatGeneration
+#  Enum HeatGenerationUnit.HeatGeneration
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -98,7 +98,6 @@ kW/m^3.
 `kWPermm3 = 5` 
 
 kW/mm^3.
-
 
 
 

@@ -1,4 +1,4 @@
-# Class PlaneTransformation
+#  Class PlaneTransformation
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PlaneTransformation\(TransformMatrix\)
+### <a id="VM_Managed_PlaneTransformation__ctor_VM_Managed_TransformMatrix_"></a> PlaneTransformation\(TransformMatrix\)
 
 Initializes a new instance of the <xref href="VM.Managed.PlaneTransformation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -112,7 +112,7 @@ public PlaneTransformation(TransformMatrix trans)
 
 The matrix of transform.
 
-### PlaneTransformation\(\)
+### <a id="VM_Managed_PlaneTransformation__ctor"></a> PlaneTransformation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.PlaneTransformation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -122,7 +122,7 @@ public PlaneTransformation()
 
 ## Properties
 
-### Transform
+### <a id="VM_Managed_PlaneTransformation_Transform"></a> Transform
 
 Gets or sets the transform.
 
@@ -134,7 +134,7 @@ public TransformMatrix Transform { get; set; }
 
  [TransformMatrix](VM.Managed.TransformMatrix.md)
 
-### TransformationMatrix
+### <a id="VM_Managed_PlaneTransformation_TransformationMatrix"></a> TransformationMatrix
 
 Gets the transform.
 
@@ -145,5 +145,4 @@ public override TMatrix TransformationMatrix { get; set; }
 #### Property Value
 
  [TMatrix](VM.Managed.TMatrix.md)
-
 

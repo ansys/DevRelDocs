@@ -1,4 +1,4 @@
-# Enum AxisLocation
+#  Enum AxisLocation
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -18,5 +18,4 @@ public enum AxisLocation
 `AxisRightBottom = 0` 
 
 `AxisRightTop = 1` 
-
 

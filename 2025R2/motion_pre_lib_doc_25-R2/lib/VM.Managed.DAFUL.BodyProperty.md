@@ -1,4 +1,4 @@
-# Class BodyProperty
+#  Class BodyProperty
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -185,7 +185,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BodyProperty\(\)
+### <a id="VM_Managed_DAFUL_BodyProperty__ctor"></a> BodyProperty\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.BodyProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -195,7 +195,7 @@ public BodyProperty()
 
 ## Properties
 
-### Mass
+### <a id="VM_Managed_DAFUL_BodyProperty_Mass"></a> Mass
 
 Gets or sets the mass.
 
@@ -207,7 +207,7 @@ public ExpressionValueVariable Mass { get; set; }
 
  ExpressionValueVariable
 
-### MassValue
+### <a id="VM_Managed_DAFUL_BodyProperty_MassValue"></a> MassValue
 
 Gets the mass.
 
@@ -219,7 +219,7 @@ public override double MassValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MomentOfInertia
+### <a id="VM_Managed_DAFUL_BodyProperty_MomentOfInertia"></a> MomentOfInertia
 
 Gets or sets the moment of inertia.
 
@@ -231,7 +231,7 @@ public Variable[] MomentOfInertia { get; set; }
 
  Variable\[\]
 
-### MomentOfInertiaValue
+### <a id="VM_Managed_DAFUL_BodyProperty_MomentOfInertiaValue"></a> MomentOfInertiaValue
 
 Gets the moment of inertia.
 
@@ -245,7 +245,7 @@ public override double[] MomentOfInertiaValue { get; }
 
 ## Methods
 
-### GeomUpdate\(GetRelationInfoEventArgs\)
+### <a id="VM_Managed_DAFUL_BodyProperty_GeomUpdate_VM_Managed_GetRelationInfoEventArgs_"></a> GeomUpdate\(GetRelationInfoEventArgs\)
 
 Geoms the update.
 
@@ -259,7 +259,7 @@ public virtual void GeomUpdate(GetRelationInfoEventArgs arg)
 
 The <xref href="VM.Managed.GetRelationInfoEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_BodyProperty_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -273,7 +273,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_BodyProperty_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -290,5 +290,4 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

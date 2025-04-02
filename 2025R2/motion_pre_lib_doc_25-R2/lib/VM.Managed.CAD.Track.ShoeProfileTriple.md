@@ -1,4 +1,4 @@
-# Class ShoeProfileTriple
+#  Class ShoeProfileTriple
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -57,7 +57,7 @@ public class ShoeProfileTriple : ShoeProfileParametric
 
 ## Constructors
 
-### ShoeProfileTriple\(\)
+### <a id="VM_Managed_CAD_Track_ShoeProfileTriple__ctor"></a> ShoeProfileTriple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeProfileTriple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -67,7 +67,7 @@ public ShoeProfileTriple()
 
 ## Properties
 
-### SecondGH
+### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_SecondGH"></a> SecondGH
 
 Gets and sets height for second grouser .
 
@@ -79,7 +79,7 @@ public double SecondGH { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SecondGLW
+### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_SecondGLW"></a> SecondGLW
 
 Gets and sets lower width for second grouser.
 
@@ -91,7 +91,7 @@ public double SecondGLW { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SecondGUW
+### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_SecondGUW"></a> SecondGUW
 
 Gets and sets upper width for second grouser
 
@@ -103,7 +103,7 @@ public double SecondGUW { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ShoeDistance2
+### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_ShoeDistance2"></a> ShoeDistance2
 
 Gets and sets longitudinal distance from reference position to second grouser center position.
 
@@ -115,7 +115,7 @@ public double ShoeDistance2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ShoeDistance3
+### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_ShoeDistance3"></a> ShoeDistance3
 
 Gets and sets longitudinal distance from reference position to third grouser center position.
 
@@ -127,7 +127,7 @@ public double ShoeDistance3 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TailHeight
+### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_TailHeight"></a> TailHeight
 
 Gets and sets height for tail.
 
@@ -139,7 +139,7 @@ public double TailHeight { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ThirdGH
+### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_ThirdGH"></a> ThirdGH
 
 Gets and sets height for third grouser .
 
@@ -151,7 +151,7 @@ public double ThirdGH { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ThirdGLW
+### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_ThirdGLW"></a> ThirdGLW
 
 Gets and sets lower width for third grouser.
 
@@ -163,7 +163,7 @@ public double ThirdGLW { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ThirdGUW
+### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_ThirdGUW"></a> ThirdGUW
 
 Gets and sets upper width for third grouser
 
@@ -177,7 +177,7 @@ public double ThirdGUW { get; set; }
 
 ## Methods
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -185,7 +185,7 @@ Checks the validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### CreateProfile\(\)
+### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_CreateProfile"></a> CreateProfile\(\)
 
 Create profile data.
 
@@ -197,18 +197,17 @@ protected override bool CreateProfile()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetInitializeValue\(\)
+### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_SetInitializeValue"></a> SetInitializeValue\(\)
 
 ```csharp
 public override void SetInitializeValue()
 ```
 
-### Validation\(\)
+### <a id="VM_Managed_CAD_Track_ShoeProfileTriple_Validation"></a> Validation\(\)
 
 Check validation for member variables.
 
 ```csharp
 public override void Validation()
 ```
-
 

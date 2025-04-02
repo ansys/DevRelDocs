@@ -1,4 +1,4 @@
-# Class BuilderRollerFlatSimple
+#  Class BuilderRollerFlatSimple
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -212,7 +212,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderRollerFlatSimple\(\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlatSimple__ctor"></a> BuilderRollerFlatSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Roller.BuilderRollerFlatSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -222,7 +222,7 @@ public BuilderRollerFlatSimple()
 
 ## Properties
 
-### RollerType
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlatSimple_RollerType"></a> RollerType
 
 Gets roller type.
 
@@ -234,7 +234,7 @@ public RollerType RollerType { get; set; }
 
  [RollerType](VM.Managed.CAD.Roller.RollerType.md)
 
-### TypeOfBuilder
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlatSimple_TypeOfBuilder"></a> TypeOfBuilder
 
 ```csharp
 public override string TypeOfBuilder { get; set; }
@@ -246,7 +246,7 @@ public override string TypeOfBuilder { get; set; }
 
 ## Methods
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlatSimple_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -254,7 +254,7 @@ Checks the validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlatSimple_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -264,7 +264,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlatSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -278,7 +278,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlatSimple_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -295,5 +295,4 @@ The obj notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

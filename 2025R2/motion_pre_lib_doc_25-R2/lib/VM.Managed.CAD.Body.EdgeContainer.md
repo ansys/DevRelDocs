@@ -1,4 +1,4 @@
-# Class Body.EdgeContainer
+#  Class Body.EdgeContainer
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -74,7 +74,7 @@ ObservableObject.PropertyChanged
 
 ## Properties
 
-### Count
+### <a id="VM_Managed_CAD_Body_EdgeContainer_Count"></a> Count
 
 Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -86,7 +86,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### IsReadOnly
+### <a id="VM_Managed_CAD_Body_EdgeContainer_IsReadOnly"></a> IsReadOnly
 
 Gets a value indicating whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
@@ -98,7 +98,7 @@ public bool IsReadOnly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### this\[uint\]
+### <a id="VM_Managed_CAD_Body_EdgeContainer_Item_System_UInt32_"></a> this\[uint\]
 
 ```csharp
 public Edge this[uint nIndex] { get; }
@@ -110,7 +110,7 @@ public Edge this[uint nIndex] { get; }
 
 ## Methods
 
-### Add\(Edge\)
+### <a id="VM_Managed_CAD_Body_EdgeContainer_Add_VM_Managed_CAD_Edge_"></a> Add\(Edge\)
 
 Adds an item to the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> [Not Supported].
 
@@ -122,7 +122,7 @@ public void Add(Edge A_0)
 
 `A_0` [Edge](VM.Managed.CAD.Edge.md)
 
-### Clear\(\)
+### <a id="VM_Managed_CAD_Body_EdgeContainer_Clear"></a> Clear\(\)
 
 Removes all items from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> [Not Supported].
 
@@ -130,7 +130,7 @@ Removes all items from the <xref href="System.Collections.Generic.ICollection%60
 public void Clear()
 ```
 
-### Contains\(Edge\)
+### <a id="VM_Managed_CAD_Body_EdgeContainer_Contains_VM_Managed_CAD_Edge_"></a> Contains\(Edge\)
 
 Determines whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> contains a specific value.
 
@@ -150,7 +150,7 @@ The object to locate in the <xref href="System.Collections.Generic.ICollection%6
 
 true if <code class="paramref">edge</code> is found in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, false.
 
-### CopyTo\(Edge\[\], int\)
+### <a id="VM_Managed_CAD_Body_EdgeContainer_CopyTo_VM_Managed_CAD_Edge___System_Int32_"></a> CopyTo\(Edge\[\], int\)
 
 Copies the elements of the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> to an <xref href="System.Array" data-throw-if-not-resolved="false"></xref>, starting at a particular <xref href="System.Array" data-throw-if-not-resolved="false"></xref> index.
 
@@ -188,7 +188,7 @@ The number of elements in the source <xref href="System.Collections.Generic.ICol
 -or-
 Type <code class="paramref">arr</code> cannot be cast automatically to the type of the destination <code class="paramref">arr</code>.
 
-### GetCreatedEdge\(uint\)
+### <a id="VM_Managed_CAD_Body_EdgeContainer_GetCreatedEdge_System_UInt32_"></a> GetCreatedEdge\(uint\)
 
 Gets the created edge.
 
@@ -206,7 +206,7 @@ Index of the n.
 
  [Edge](VM.Managed.CAD.Edge.md)
 
-### GetEnumerator\(\)
+### <a id="VM_Managed_CAD_Body_EdgeContainer_GetEnumerator"></a> GetEnumerator\(\)
 
 Returns an enumerator that iterates through the collection.
 
@@ -220,7 +220,7 @@ public IEnumerator<Edge> GetEnumerator()
 
 A <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> that can be used to iterate through the collection.
 
-### GetSchema\(\)
+### <a id="VM_Managed_CAD_Body_EdgeContainer_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface,
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic)
@@ -237,7 +237,7 @@ public XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### GetTargetListForUpdate\(\)
+### <a id="VM_Managed_CAD_Body_EdgeContainer_GetTargetListForUpdate"></a> GetTargetListForUpdate\(\)
 
 Gets the update objects.
 
@@ -249,7 +249,7 @@ public override sealed List<IEventProvider> GetTargetListForUpdate()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IEventProvider\>
 
-### GetTemporaryEdge\(uint\)
+### <a id="VM_Managed_CAD_Body_EdgeContainer_GetTemporaryEdge_System_UInt32_"></a> GetTemporaryEdge\(uint\)
 
 Gets the temporary edge.
 
@@ -269,7 +269,7 @@ The edge index.
 
 The specified edge.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_CAD_Body_EdgeContainer_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -287,7 +287,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnPostDeserialized\(StreamingContext\)
+### <a id="VM_Managed_CAD_Body_EdgeContainer_OnPostDeserialized_System_Runtime_Serialization_StreamingContext_"></a> OnPostDeserialized\(StreamingContext\)
 
 ```csharp
 public void OnPostDeserialized(StreamingContext context)
@@ -297,7 +297,7 @@ public void OnPostDeserialized(StreamingContext context)
 
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_CAD_Body_EdgeContainer_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -311,7 +311,7 @@ public void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### Remove\(Edge\)
+### <a id="VM_Managed_CAD_Body_EdgeContainer_Remove_VM_Managed_CAD_Edge_"></a> Remove\(Edge\)
 
 Removes the specified name [Not Supported].
 
@@ -329,7 +329,7 @@ public bool Remove(Edge A_0)
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_CAD_Body_EdgeContainer_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -342,5 +342,4 @@ public void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

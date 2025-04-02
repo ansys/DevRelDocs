@@ -1,4 +1,4 @@
-# Class RequestEntity
+#  Class RequestEntity
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -24,7 +24,7 @@ public class RequestEntity : IBuilder
 
 ## Constructors
 
-### RequestEntity\(\)
+### <a id="VM_Managed_DAFUL_Builder_RequestEntity__ctor"></a> RequestEntity\(\)
 
 ```csharp
 public RequestEntity()
@@ -32,7 +32,7 @@ public RequestEntity()
 
 ## Properties
 
-### ActionEntity
+### <a id="VM_Managed_DAFUL_Builder_RequestEntity_ActionEntity"></a> ActionEntity
 
 ```csharp
 public ObjectBase ActionEntity { get; }
@@ -42,7 +42,7 @@ public ObjectBase ActionEntity { get; }
 
  ObjectBase
 
-### Entity
+### <a id="VM_Managed_DAFUL_Builder_RequestEntity_Entity"></a> Entity
 
 ```csharp
 public RequestEntity Entity { get; }
@@ -52,7 +52,7 @@ public RequestEntity Entity { get; }
 
  RequestEntity
 
-### Name
+### <a id="VM_Managed_DAFUL_Builder_RequestEntity_Name"></a> Name
 
 ```csharp
 public string Name { get; set; }
@@ -62,7 +62,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Parameters
+### <a id="VM_Managed_DAFUL_Builder_RequestEntity_Parameters"></a> Parameters
 
 ```csharp
 public PickedResult[] Parameters { get; set; }
@@ -71,5 +71,4 @@ public PickedResult[] Parameters { get; set; }
 #### Property Value
 
  [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md)\[\]
-
 

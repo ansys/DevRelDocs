@@ -1,4 +1,4 @@
-# Class Reference
+#  Class Reference
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -161,7 +161,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Reference\(ObjectBase\)
+### <a id="VM_Managed_Reference__ctor_VM_Managed_ObjectBase_"></a> Reference\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.Reference" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public Reference(ObjectBase obj)
 
 The object for reference.
 
-### Reference\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_Reference__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> Reference\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.Reference" data-throw-if-not-resolved="false"></xref> class.
 
@@ -195,7 +195,7 @@ context.
 
 ## Properties
 
-### ClearChildInfoBeforeDeserialize
+### <a id="VM_Managed_Reference_ClearChildInfoBeforeDeserialize"></a> ClearChildInfoBeforeDeserialize
 
 Before deserialize, info of child clear.
 
@@ -207,7 +207,7 @@ protected override bool ClearChildInfoBeforeDeserialize { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### FullName
+### <a id="VM_Managed_Reference_FullName"></a> FullName
 
 Gets the full name.
 
@@ -219,7 +219,7 @@ public virtual string FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FullTransformation
+### <a id="VM_Managed_Reference_FullTransformation"></a> FullTransformation
 
 Gets the full transformation info. of reference.
 
@@ -231,7 +231,7 @@ public TMatrix FullTransformation { get; }
 
  [TMatrix](VM.Managed.TMatrix.md)
 
-### FullTransformationInKernel
+### <a id="VM_Managed_Reference_FullTransformationInKernel"></a> FullTransformationInKernel
 
 Gets the full transformation info. of reference.
 
@@ -243,7 +243,7 @@ public TMatrix FullTransformationInKernel { get; }
 
  [TMatrix](VM.Managed.TMatrix.md)
 
-### IsVisible
+### <a id="VM_Managed_Reference_IsVisible"></a> IsVisible
 
 Gets or sets a value indicating whether object is visible.
 
@@ -255,7 +255,7 @@ public bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Layer
+### <a id="VM_Managed_Reference_Layer"></a> Layer
 
 Gets or sets the layer of reference.
 
@@ -267,7 +267,7 @@ virtual Layer Layer { get; set; }
 
  [Layer](VM.Managed.Layer.md)
 
-### Name
+### <a id="VM_Managed_Reference_Name"></a> Name
 
 Gets or sets the name.
 
@@ -279,7 +279,7 @@ public virtual string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NonSymmetricName
+### <a id="VM_Managed_Reference_NonSymmetricName"></a> NonSymmetricName
 
 Gets the name of the non symmetric.
 
@@ -291,7 +291,7 @@ public virtual string NonSymmetricName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Object
+### <a id="VM_Managed_Reference_Object"></a> Object
 
 Gets or sets the object of reference.
 
@@ -303,7 +303,7 @@ public ObjectBase Object { get; set; }
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### OwnerInstance
+### <a id="VM_Managed_Reference_OwnerInstance"></a> OwnerInstance
 
 Gets the owner instance of reference.
 
@@ -315,7 +315,7 @@ public Instance OwnerInstance { get; }
 
  [Instance](VM.Managed.Instance.md)
 
-### Prototype
+### <a id="VM_Managed_Reference_Prototype"></a> Prototype
 
 Gets the prototype of reference.
 
@@ -327,7 +327,7 @@ public ObjectBase Prototype { get; }
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### Transformation
+### <a id="VM_Managed_Reference_Transformation"></a> Transformation
 
 Gets the transformation info. of reference.
 
@@ -341,7 +341,7 @@ public TMatrix Transformation { get; }
 
 ## Methods
 
-### GetContactables\(\)
+### <a id="VM_Managed_Reference_GetContactables"></a> GetContactables\(\)
 
 Get contactable objects.
 
@@ -355,7 +355,7 @@ public virtual ObjectBase[] GetContactables()
 
 The contactable objects.
 
-### GetFullTransform\(Unit\)
+### <a id="VM_Managed_Reference_GetFullTransform_VM_Unit_"></a> GetFullTransform\(Unit\)
 
 Gets the info. of full transform.
 
@@ -375,7 +375,7 @@ The unit to convert.
 
 The transform.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_Reference_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -403,7 +403,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetTotalSubSystemName\(Document3D, ObjectBase\)
+### <a id="VM_Managed_Reference_GetTotalSubSystemName_VM_Managed_Document3D_VM_Managed_ObjectBase_"></a> GetTotalSubSystemName\(Document3D, ObjectBase\)
 
 Gets the subsystem name of total.
 
@@ -427,7 +427,7 @@ The object.
 
 The subsystem name.
 
-### GetTotalSubSystemNameCore\(Document3D, Document3D, ref Stack<string\>, ref ValueType\)
+### <a id="VM_Managed_Reference_GetTotalSubSystemNameCore_VM_Managed_Document3D_VM_Managed_Document3D_System_Collections_Generic_Stack_System_String___System_ValueType__"></a> GetTotalSubSystemNameCore\(Document3D, Document3D, ref Stack<string\>, ref ValueType\)
 
 ```csharp
 protected void GetTotalSubSystemNameCore(Document3D docSS, Document3D docOriginal, ref Stack<string> stackName, ref ValueType bFind)
@@ -443,7 +443,7 @@ protected void GetTotalSubSystemNameCore(Document3D docSS, Document3D docOrigina
 
 `bFind` [ValueType](https://learn.microsoft.com/dotnet/api/system.valuetype)
 
-### GetTransform\(Unit\)
+### <a id="VM_Managed_Reference_GetTransform_VM_Unit_"></a> GetTransform\(Unit\)
 
 Gets the info. of transform.
 
@@ -463,7 +463,7 @@ The unit to convert.
 
 The transform.
 
-### IsAutoContactable\(\)
+### <a id="VM_Managed_Reference_IsAutoContactable"></a> IsAutoContactable\(\)
 
 Determines whether the specified auto contactable.
 
@@ -477,7 +477,7 @@ public virtual bool IsAutoContactable()
 
 <code>true</code> if the specified auto contactable; otherwise, <code>false</code>.
 
-### IsOwner\(Reference\)
+### <a id="VM_Managed_Reference_IsOwner_VM_Managed_Reference_"></a> IsOwner\(Reference\)
 
 Determines whether the specified owner.
 
@@ -495,7 +495,7 @@ public virtual bool IsOwner(Reference A_0)
 
 <code>true</code> if the specified owner; otherwise, <code>false</code>.
 
-### LinkAddedToDocument\(object, AddToDocEventArgs\)
+### <a id="VM_Managed_Reference_LinkAddedToDocument_System_Object_VM_Managed_AddToDocEventArgs_"></a> LinkAddedToDocument\(object, AddToDocEventArgs\)
 
 Add linked object to a document.
 
@@ -513,7 +513,7 @@ The linked object.
 
 The <xref href="VM.Managed.AddToDocEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_Reference_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -531,7 +531,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_Reference_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -549,7 +549,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### SetModified\(ModifiedType\)
+### <a id="VM_Managed_Reference_SetModified_VM_Managed_ModifiedResult_ModifiedType_"></a> SetModified\(ModifiedType\)
 
 Called when object modified.
 
@@ -563,12 +563,11 @@ public override void SetModified(ModifiedResult.ModifiedType type)
 
 The modifed type.
 
-### SetModified\(\)
+### <a id="VM_Managed_Reference_SetModified"></a> SetModified\(\)
 
 Called when object modified.
 
 ```csharp
 public override void SetModified()
 ```
-
 

@@ -1,4 +1,4 @@
-# Class UpdateAssembledBodyEvent
+#  Class UpdateAssembledBodyEvent
 
 Namespace: [VM.Managed.DAFUL.History](VM.Managed.DAFUL.History.md)  
 Assembly: VMDFBase.dll  
@@ -37,7 +37,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### UpdateAssembledBodyEvent\(PartDocument, UIntPtr\)
+### <a id="VM_Managed_DAFUL_History_UpdateAssembledBodyEvent__ctor_VM_Managed_DAFUL_PartDocument_System_UIntPtr_"></a> UpdateAssembledBodyEvent\(PartDocument, UIntPtr\)
 
 Construct new UpdateAssembledBodyEvent
 
@@ -53,7 +53,7 @@ public UpdateAssembledBodyEvent(PartDocument doc, UIntPtr key)
 
 ## Methods
 
-### AfterRedo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_History_UpdateAssembledBodyEvent_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
 
 Called after redo this event
 
@@ -67,7 +67,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 The event argument
 
-### AfterUndo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_History_UpdateAssembledBodyEvent_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
 
 Called after undo this event
 
@@ -81,7 +81,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 The event argument
 
-### Clear\(bool\)
+### <a id="VM_Managed_DAFUL_History_UpdateAssembledBodyEvent_Clear_System_Boolean_"></a> Clear\(bool\)
 
 Clear event
 
@@ -95,7 +95,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 true to reserve reference count, otherwise false.
 
-### Redo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_History_UpdateAssembledBodyEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
 
 Redo event
 
@@ -109,7 +109,7 @@ protected override void Redo(HistoryEventArgs args)
 
 The event argument
 
-### Undo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_History_UpdateAssembledBodyEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
 
 Undo event
 
@@ -122,5 +122,4 @@ protected override void Undo(HistoryEventArgs args)
 `args` HistoryEventArgs
 
 The event argument
-
 

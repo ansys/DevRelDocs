@@ -1,4 +1,4 @@
-# Class DockableWindowInfo
+#  Class DockableWindowInfo
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -26,7 +26,7 @@ public class DockableWindowInfo
 
 ## Constructors
 
-### DockableWindowInfo\(\)
+### <a id="VM_Managed_DAFUL_Pre_DockableWindowInfo__ctor"></a> DockableWindowInfo\(\)
 
 ```csharp
 public DockableWindowInfo()
@@ -34,7 +34,7 @@ public DockableWindowInfo()
 
 ## Properties
 
-### Command
+### <a id="VM_Managed_DAFUL_Pre_DockableWindowInfo_Command"></a> Command
 
 Gets or sets the command.
 
@@ -46,7 +46,7 @@ public string Command { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Image
+### <a id="VM_Managed_DAFUL_Pre_DockableWindowInfo_Image"></a> Image
 
 Gets or sets the image.
 
@@ -58,7 +58,7 @@ public string Image { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Name
+### <a id="VM_Managed_DAFUL_Pre_DockableWindowInfo_Name"></a> Name
 
 Gets or sets the name.
 
@@ -70,7 +70,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Text
+### <a id="VM_Managed_DAFUL_Pre_DockableWindowInfo_Text"></a> Text
 
 Gets or sets the text.
 
@@ -82,7 +82,7 @@ public string Text { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Toolbar
+### <a id="VM_Managed_DAFUL_Pre_DockableWindowInfo_Toolbar"></a> Toolbar
 
 Gets or sets the toolbar.
 
@@ -94,7 +94,7 @@ public string Toolbar { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Type
+### <a id="VM_Managed_DAFUL_Pre_DockableWindowInfo_Type"></a> Type
 
 Gets or sets the type.
 
@@ -105,5 +105,4 @@ public string Type { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

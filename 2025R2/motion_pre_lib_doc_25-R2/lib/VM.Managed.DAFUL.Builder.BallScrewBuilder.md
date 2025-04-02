@@ -1,4 +1,4 @@
-# Class BallScrewBuilder
+#  Class BallScrewBuilder
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBldBallPlacing.dll  
@@ -53,7 +53,7 @@ BuilderBase<BallScrew\>.ErrorMessage
 
 ## Constructors
 
-### BallScrewBuilder\(\)
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder__ctor"></a> BallScrewBuilder\(\)
 
 ```csharp
 public BallScrewBuilder()
@@ -61,7 +61,7 @@ public BallScrewBuilder()
 
 ## Properties
 
-### BallDiameter
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_BallDiameter"></a> BallDiameter
 
 ```csharp
 public Variable BallDiameter { get; set; }
@@ -71,7 +71,7 @@ public Variable BallDiameter { get; set; }
 
  Variable
 
-### DirectionX
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_DirectionX"></a> DirectionX
 
 ```csharp
 public DirectionBase DirectionX { get; }
@@ -81,7 +81,7 @@ public DirectionBase DirectionX { get; }
 
  DirectionBase
 
-### DirectionZ
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_DirectionZ"></a> DirectionZ
 
 ```csharp
 public DirectionBase DirectionZ { get; }
@@ -91,7 +91,7 @@ public DirectionBase DirectionZ { get; }
 
  DirectionBase
 
-### HandOfScrew
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_HandOfScrew"></a> HandOfScrew
 
 ```csharp
 public string HandOfScrew { get; set; }
@@ -101,7 +101,7 @@ public string HandOfScrew { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Lead
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_Lead"></a> Lead
 
 ```csharp
 public Variable Lead { get; set; }
@@ -111,7 +111,7 @@ public Variable Lead { get; set; }
 
  Variable
 
-### NutLength
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_NutLength"></a> NutLength
 
 ```csharp
 public Variable NutLength { get; set; }
@@ -121,7 +121,7 @@ public Variable NutLength { get; set; }
 
  Variable
 
-### NutOD
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_NutOD"></a> NutOD
 
 ```csharp
 public Variable NutOD { get; set; }
@@ -131,7 +131,7 @@ public Variable NutOD { get; set; }
 
  Variable
 
-### NutPCD
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_NutPCD"></a> NutPCD
 
 ```csharp
 public Variable NutPCD { get; set; }
@@ -141,7 +141,7 @@ public Variable NutPCD { get; set; }
 
  Variable
 
-### NutScrewEndLength
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_NutScrewEndLength"></a> NutScrewEndLength
 
 ```csharp
 public Variable NutScrewEndLength { get; set; }
@@ -151,7 +151,7 @@ public Variable NutScrewEndLength { get; set; }
 
  Variable
 
-### NutScrewStartLength
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_NutScrewStartLength"></a> NutScrewStartLength
 
 ```csharp
 public Variable NutScrewStartLength { get; set; }
@@ -161,7 +161,7 @@ public Variable NutScrewStartLength { get; set; }
 
  Variable
 
-### NutStartLength
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_NutStartLength"></a> NutStartLength
 
 ```csharp
 public Variable NutStartLength { get; set; }
@@ -171,7 +171,7 @@ public Variable NutStartLength { get; set; }
 
  Variable
 
-### ShaftLength
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_ShaftLength"></a> ShaftLength
 
 ```csharp
 public Variable ShaftLength { get; set; }
@@ -181,7 +181,7 @@ public Variable ShaftLength { get; set; }
 
  Variable
 
-### ShaftPCD
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_ShaftPCD"></a> ShaftPCD
 
 ```csharp
 public Variable ShaftPCD { get; set; }
@@ -191,7 +191,7 @@ public Variable ShaftPCD { get; set; }
 
  Variable
 
-### ShaftReferencePosition
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_ShaftReferencePosition"></a> ShaftReferencePosition
 
 ```csharp
 public PointBase ShaftReferencePosition { get; }
@@ -201,7 +201,7 @@ public PointBase ShaftReferencePosition { get; }
 
  PointBase
 
-### ShaftScrewEndLength
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_ShaftScrewEndLength"></a> ShaftScrewEndLength
 
 ```csharp
 public Variable ShaftScrewEndLength { get; set; }
@@ -211,7 +211,7 @@ public Variable ShaftScrewEndLength { get; set; }
 
  Variable
 
-### ShaftScrewStartAngle
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_ShaftScrewStartAngle"></a> ShaftScrewStartAngle
 
 ```csharp
 public Variable ShaftScrewStartAngle { get; set; }
@@ -221,7 +221,7 @@ public Variable ShaftScrewStartAngle { get; set; }
 
  Variable
 
-### ShaftScrewStartLength
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_ShaftScrewStartLength"></a> ShaftScrewStartLength
 
 ```csharp
 public Variable ShaftScrewStartLength { get; set; }
@@ -233,7 +233,7 @@ public Variable ShaftScrewStartLength { get; set; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase created, Document doc)
@@ -249,7 +249,7 @@ protected override bool OnPostBuild(ObjectBase created, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_BallScrewBuilder_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -262,5 +262,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

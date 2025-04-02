@@ -1,4 +1,4 @@
-# Class AnalysisScenarioBase
+#  Class AnalysisScenarioBase
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -77,7 +77,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AnalysisScenarioBase\(IProjectDocument, string\)
+### <a id="VM_Models_Project_Preset_AnalysisScenarioBase__ctor_VM_Models_IProjectDocument_System_String_"></a> AnalysisScenarioBase\(IProjectDocument, string\)
 
 ```csharp
 public AnalysisScenarioBase(IProjectDocument parent, string name)
@@ -91,7 +91,7 @@ public AnalysisScenarioBase(IProjectDocument parent, string name)
 
 ## Properties
 
-### CategoryName
+### <a id="VM_Models_Project_Preset_AnalysisScenarioBase_CategoryName"></a> CategoryName
 
 ```csharp
 public override string CategoryName { get; }
@@ -103,7 +103,7 @@ public override string CategoryName { get; }
 
 ## Methods
 
-### SaveScenarioData\(IScenarioDocument\)
+### <a id="VM_Models_Project_Preset_AnalysisScenarioBase_SaveScenarioData_VM_IScenarioDocument_"></a> SaveScenarioData\(IScenarioDocument\)
 
 ```csharp
 public abstract void SaveScenarioData(IScenarioDocument scenarioDocument)
@@ -112,5 +112,4 @@ public abstract void SaveScenarioData(IScenarioDocument scenarioDocument)
 #### Parameters
 
 `scenarioDocument` IScenarioDocument
-
 

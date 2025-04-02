@@ -1,4 +1,4 @@
-# Class Bush
+#  Class Bush
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -253,7 +253,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Bush\(\)
+### <a id="VM_Managed_DAFUL_Force_Bush__ctor"></a> Bush\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.Bush" data-throw-if-not-resolved="false"></xref> class.
 
@@ -261,7 +261,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.Bush" data-
 public Bush()
 ```
 
-### Bush\(string\)
+### <a id="VM_Managed_DAFUL_Force_Bush__ctor_System_String_"></a> Bush\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.Bush" data-throw-if-not-resolved="false"></xref> class.
 
@@ -277,7 +277,7 @@ Name of the bush force.
 
 ## Properties
 
-### DiameterOfGraphic
+### <a id="VM_Managed_DAFUL_Force_Bush_DiameterOfGraphic"></a> DiameterOfGraphic
 
 Gets or sets the graphic diameter.
 Use SetGraphicDiameter() when this instance sets for undo/redo
@@ -290,7 +290,7 @@ public double DiameterOfGraphic { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Generable
+### <a id="VM_Managed_DAFUL_Force_Bush_Generable"></a> Generable
 
 <p> Gets a value indicating whether this instance is generable.</p>
 
@@ -302,7 +302,7 @@ public override bool Generable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LengthOfGraphic
+### <a id="VM_Managed_DAFUL_Force_Bush_LengthOfGraphic"></a> LengthOfGraphic
 
 Gets or sets the length of the graphic.
 Use SetGraphicLength() when this instance sets for undo/redo
@@ -315,7 +315,7 @@ public double LengthOfGraphic { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Force_Bush_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -329,13 +329,13 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### CopyGraphicValues\(\)
+### <a id="VM_Managed_DAFUL_Force_Bush_CopyGraphicValues"></a> CopyGraphicValues\(\)
 
 ```csharp
 public void CopyGraphicValues()
 ```
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Force_Bush_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -349,7 +349,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Force_Bush_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -363,7 +363,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Force_Bush_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -377,7 +377,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Force_Bush_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -391,7 +391,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Force_Bush_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -404,5 +404,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

@@ -1,4 +1,4 @@
-# Class PropertySixMotion
+#  Class PropertySixMotion
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
@@ -176,7 +176,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertySixMotion\(\)
+### <a id="VM_Models_Pre_Connections_PropertySixMotion__ctor"></a> PropertySixMotion\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.PropertySixMotion" data-throw-if-not-resolved="false"></xref> class.</p>
 
@@ -186,7 +186,7 @@ public PropertySixMotion()
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -198,7 +198,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### RotationalXProperty
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_RotationalXProperty"></a> RotationalXProperty
 
 <p>Gets or sets the rotational x property.</p>
 <p>
@@ -228,7 +228,7 @@ public PropertyRevolute RotationalXProperty { get; set; }
 
  PropertyRevolute
 
-### RotationalYProperty
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_RotationalYProperty"></a> RotationalYProperty
 
 <p>Gets or sets the rotational y property.</p>
 <p>
@@ -258,7 +258,7 @@ public PropertyRevolute RotationalYProperty { get; set; }
 
  PropertyRevolute
 
-### RotationalZProperty
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_RotationalZProperty"></a> RotationalZProperty
 
 <p>Gets or sets the rotational z property.</p>
 <p>
@@ -288,7 +288,7 @@ public PropertyRevolute RotationalZProperty { get; set; }
 
  PropertyRevolute
 
-### TranslationalXProperty
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_TranslationalXProperty"></a> TranslationalXProperty
 
 <p>Gets or sets the translational x property.</p>
 <p>
@@ -318,7 +318,7 @@ public PropertyTranslational TranslationalXProperty { get; set; }
 
  PropertyTranslational
 
-### TranslationalYProperty
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_TranslationalYProperty"></a> TranslationalYProperty
 
 <p>Gets or sets the translational y property.</p>
 <p>
@@ -348,7 +348,7 @@ public PropertyTranslational TranslationalYProperty { get; set; }
 
  PropertyTranslational
 
-### TranslationalZProperty
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_TranslationalZProperty"></a> TranslationalZProperty
 
 <p>Gets or sets the translational z property.</p>
 <p>
@@ -378,7 +378,7 @@ public PropertyTranslational TranslationalZProperty { get; set; }
 
  PropertyTranslational
 
-### UseRotationalXProperty
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_UseRotationalXProperty"></a> UseRotationalXProperty
 
 <p>Gets or sets the rotational x property use flag.</p>
 <p>
@@ -408,7 +408,7 @@ public bool UseRotationalXProperty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseRotationalYProperty
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_UseRotationalYProperty"></a> UseRotationalYProperty
 
 <p>Gets or sets the rotational y property use flag.</p>
 <p>
@@ -438,7 +438,7 @@ public bool UseRotationalYProperty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseRotationalZProperty
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_UseRotationalZProperty"></a> UseRotationalZProperty
 
 <p>Gets or sets the rotational z property use flag.</p>
 <p>
@@ -468,7 +468,7 @@ public bool UseRotationalZProperty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseTranslationalXProperty
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_UseTranslationalXProperty"></a> UseTranslationalXProperty
 
 <p>Gets or sets the translational x property use flag.</p>
 <p>
@@ -498,7 +498,7 @@ public bool UseTranslationalXProperty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseTranslationalYProperty
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_UseTranslationalYProperty"></a> UseTranslationalYProperty
 
 <p>Gets or sets the translational y property use flag.</p>
 <p>
@@ -528,7 +528,7 @@ public bool UseTranslationalYProperty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseTranslationalZProperty
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_UseTranslationalZProperty"></a> UseTranslationalZProperty
 
 <p>Gets or sets the translational z property use flag.</p>
 <p>
@@ -560,7 +560,7 @@ public bool UseTranslationalZProperty { get; set; }
 
 ## Methods
 
-### FindLocal\(string\)
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -580,7 +580,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -600,7 +600,7 @@ The unnamed object.
 
 The unnamed object name.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Models_Pre_Connections_PropertySixMotion_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 <p>Initializes member through unit convert factor.</p>
 
@@ -613,5 +613,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 <p>The unit convert factor.</p>
-
 

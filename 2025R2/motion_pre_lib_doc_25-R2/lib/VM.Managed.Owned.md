@@ -1,4 +1,4 @@
-# Class Owned
+#  Class Owned
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class Owned
 
 ## Constructors
 
-### Owned\(\)
+### <a id="VM_Managed_Owned__ctor"></a> Owned\(\)
 
 ```csharp
 public Owned()
@@ -30,7 +30,7 @@ public Owned()
 
 ## Methods
 
-### GetOwner\(IOwned\)
+### <a id="VM_Managed_Owned_GetOwner_VM_Models_Pre_IOwned_"></a> GetOwner\(IOwned\)
 
 Gets the owner.
 
@@ -49,5 +49,4 @@ IOwned interface.
  [ObjectBase](VM.Managed.ObjectBase.md)
 
 An object that matches a specified owned.
-
 

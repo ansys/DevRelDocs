@@ -1,4 +1,4 @@
-# Class PropertyCouplerBase
+#  Class PropertyCouplerBase
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -172,7 +172,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyCouplerBase\(\)
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCouplerBase__ctor"></a> PropertyCouplerBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.PropertyCouplerBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -182,7 +182,7 @@ public PropertyCouplerBase()
 
 ## Properties
 
-### MotionType1
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCouplerBase_MotionType1"></a> MotionType1
 
 Gets or sets the first motion type.
 
@@ -194,7 +194,7 @@ public PropertyCouplerBase.MotionType MotionType1 { get; set; }
 
  [PropertyCouplerBase](VM.Managed.DAFUL.Constraints.PropertyCouplerBase.md).[MotionType](VM.Managed.DAFUL.Constraints.PropertyCouplerBase.MotionType.md)
 
-### MotionType2
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCouplerBase_MotionType2"></a> MotionType2
 
 Gets or sets the second motion type.
 
@@ -206,7 +206,7 @@ public PropertyCouplerBase.MotionType MotionType2 { get; set; }
 
  [PropertyCouplerBase](VM.Managed.DAFUL.Constraints.PropertyCouplerBase.md).[MotionType](VM.Managed.DAFUL.Constraints.PropertyCouplerBase.MotionType.md)
 
-### Ratio1
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCouplerBase_Ratio1"></a> Ratio1
 
 Gets or sets the first ratio.
 
@@ -218,7 +218,7 @@ public ExpressionValueVariable Ratio1 { get; set; }
 
  ExpressionValueVariable
 
-### Ratio2
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCouplerBase_Ratio2"></a> Ratio2
 
 Gets or sets the second ratio.
 
@@ -232,7 +232,7 @@ public ExpressionValueVariable Ratio2 { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCouplerBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -245,5 +245,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

@@ -1,4 +1,4 @@
-# Class SubSystemDocument
+#  Class SubSystemDocument
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -523,7 +523,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SubSystemDocument\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument__ctor_System_UIntPtr_"></a> SubSystemDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -539,7 +539,7 @@ The document handle.
 
 ## Properties
 
-### ApplyInitialVelocityImpl
+### <a id="VM_Managed_DAFUL_SubSystemDocument_ApplyInitialVelocityImpl"></a> ApplyInitialVelocityImpl
 
 Whether InitialVelocity is applicable or not
 
@@ -551,7 +551,7 @@ protected virtual bool ApplyInitialVelocityImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ChangeNewFilePath
+### <a id="VM_Managed_DAFUL_SubSystemDocument_ChangeNewFilePath"></a> ChangeNewFilePath
 
 Gets or sets the change new file path.
 
@@ -564,7 +564,7 @@ public string ChangeNewFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ChangeNewFilePaths
+### <a id="VM_Managed_DAFUL_SubSystemDocument_ChangeNewFilePaths"></a> ChangeNewFilePaths
 
 Gets or sets the change new file paths.
 
@@ -576,7 +576,7 @@ public List<string> ChangeNewFilePaths { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### ChangeOldFilePath
+### <a id="VM_Managed_DAFUL_SubSystemDocument_ChangeOldFilePath"></a> ChangeOldFilePath
 
 Gets or sets the change old file path.
 
@@ -589,7 +589,7 @@ public string ChangeOldFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ChangeOldFilePaths
+### <a id="VM_Managed_DAFUL_SubSystemDocument_ChangeOldFilePaths"></a> ChangeOldFilePaths
 
 Gets or sets the change old file paths.
 
@@ -601,7 +601,7 @@ public List<string> ChangeOldFilePaths { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### DocumentSessionOverride
+### <a id="VM_Managed_DAFUL_SubSystemDocument_DocumentSessionOverride"></a> DocumentSessionOverride
 
 Gets the document session override.
 
@@ -613,7 +613,7 @@ public override SessionOverride DocumentSessionOverride { get; }
 
  SessionOverride
 
-### InitialCategories
+### <a id="VM_Managed_DAFUL_SubSystemDocument_InitialCategories"></a> InitialCategories
 
 Gets the initialize categories.
 
@@ -625,7 +625,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### InitialVelocityImpl
+### <a id="VM_Managed_DAFUL_SubSystemDocument_InitialVelocityImpl"></a> InitialVelocityImpl
 
 Gets the initial velocity
 
@@ -637,7 +637,7 @@ protected virtual double InitialVelocityImpl { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Interfaces
+### <a id="VM_Managed_DAFUL_SubSystemDocument_Interfaces"></a> Interfaces
 
 Gets the interface manager.
 
@@ -649,7 +649,7 @@ protected virtual InterfaceManager Interfaces { get; }
 
  InterfaceManager
 
-### SetDocumentSessionOverride
+### <a id="VM_Managed_DAFUL_SubSystemDocument_SetDocumentSessionOverride"></a> SetDocumentSessionOverride
 
 Sets the set document session override.
 
@@ -661,7 +661,7 @@ public SessionOverride SetDocumentSessionOverride { set; }
 
  SessionOverride
 
-### SkipBindInterfaceWhenOpen
+### <a id="VM_Managed_DAFUL_SubSystemDocument_SkipBindInterfaceWhenOpen"></a> SkipBindInterfaceWhenOpen
 
 Gets the [skip binding interface when open].
 
@@ -673,7 +673,7 @@ protected virtual bool SkipBindInterfaceWhenOpen { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TemplateXmlVersion
+### <a id="VM_Managed_DAFUL_SubSystemDocument_TemplateXmlVersion"></a> TemplateXmlVersion
 
 Gets the version of template XML.
 
@@ -687,7 +687,7 @@ public string TemplateXmlVersion { get; }
 
 ## Methods
 
-### CheckMassPropForCADImport\(\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_CheckMassPropForCADImport"></a> CheckMassPropForCADImport\(\)
 
 Check mass property for CAD Import.
 
@@ -699,7 +699,7 @@ public override string CheckMassPropForCADImport()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ClearDocument\(\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_ClearDocument"></a> ClearDocument\(\)
 
 Clears the document.
 
@@ -707,7 +707,7 @@ Clears the document.
 protected override void ClearDocument()
 ```
 
-### CreateAssemblyImpl\(\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_CreateAssemblyImpl"></a> CreateAssemblyImpl\(\)
 
 Creates the assembly [implementation].
 
@@ -721,7 +721,7 @@ protected override Assembly CreateAssemblyImpl()
 
 The assembly.
 
-### FindBodyFromCADBody\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_FindBodyFromCADBody_VM_Managed_ObjectBase_"></a> FindBodyFromCADBody\(ObjectBase\)
 
 Finds the body form CAD body.
 
@@ -741,7 +741,7 @@ The CAD body.
 
 The body such as solid body, assembled body.
 
-### FindCategory\(string\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_FindCategory_System_String_"></a> FindCategory\(string\)
 
 Finds the category.
 
@@ -761,7 +761,7 @@ The fullname of type.
 
 The category.
 
-### FindObjectForSelection\(ObjectBase, OperationTypeForSelection\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_FindObjectForSelection_VM_Managed_ObjectBase_VM_Managed_Document3D_OperationTypeForSelection_"></a> FindObjectForSelection\(ObjectBase, OperationTypeForSelection\)
 
 Finds the object for selecion.
 
@@ -783,7 +783,7 @@ Type of the operation for selection.
 
  ObjectBase
 
-### GetCADBodyNameAttribute\(ref List<string\>\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_GetCADBodyNameAttribute_System_Collections_Generic_List_System_String___"></a> GetCADBodyNameAttribute\(ref List<string\>\)
 
 Gets the CAD body name attributes.
 
@@ -797,7 +797,7 @@ public override void GetCADBodyNameAttribute(ref List<string> lstName)
 
 The output CAD body name attributes.
 
-### GetImportCADBody\(\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_GetImportCADBody"></a> GetImportCADBody\(\)
 
 Gets the Import CAD body.
 
@@ -809,7 +809,7 @@ public override List<ObjectBase> GetImportCADBody()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
 
-### GetReferDocument\(ref List<Document3D\>\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_GetReferDocument_System_Collections_Generic_List_VM_Managed_Document3D___"></a> GetReferDocument\(ref List<Document3D\>\)
 
 Gets the refer document.
 
@@ -823,7 +823,7 @@ public override void GetReferDocument(ref List<Document3D> lstDocument)
 
 The refer document container.
 
-### GetReference\(ObjectBase, ref List<Reference\>, ref List<ObjectBase\>\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_GetReference_VM_Managed_ObjectBase_System_Collections_Generic_List_VM_Managed_Reference___System_Collections_Generic_List_VM_Managed_ObjectBase___"></a> GetReference\(ObjectBase, ref List<Reference\>, ref List<ObjectBase\>\)
 
 Gets the reference of subsystem.
 
@@ -845,7 +845,7 @@ The reference container.
 
 The other container for assembled body.
 
-### GetRemovedConnectorForChangeAssembly\(ChangeAssemblyType, string, string, List<string\>\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_GetRemovedConnectorForChangeAssembly_VM_Managed_DAFUL_ChangeAssemblyType_System_String_System_String_System_Collections_Generic_List_System_String__"></a> GetRemovedConnectorForChangeAssembly\(ChangeAssemblyType, string, string, List<string\>\)
 
 Re-assemble for change assembly.
 
@@ -875,7 +875,7 @@ The new assembly path list.
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [SortedSet](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedset\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>\>
 
-### GetSimulationConfigurationType\(\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_GetSimulationConfigurationType"></a> GetSimulationConfigurationType\(\)
 
 Gets the type of the simulation configuration.
 
@@ -889,7 +889,7 @@ public override string GetSimulationConfigurationType()
 
 The type of the simulation configuration.
 
-### GetTransformationOfGlobal\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_GetTransformationOfGlobal_VM_Managed_ObjectBase_"></a> GetTransformationOfGlobal\(ObjectBase\)
 
 Gets the transformation of global.
 
@@ -907,7 +907,7 @@ The object.
 
  TMatrix
 
-### GetTransformationOfGlobal\(ObjectBase, string\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_GetTransformationOfGlobal_VM_Managed_ObjectBase_System_String_"></a> GetTransformationOfGlobal\(ObjectBase, string\)
 
 Gets the transformation of global.
 
@@ -929,7 +929,7 @@ The subsystem name.
 
  TMatrix
 
-### HideObjectInReading\(\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_HideObjectInReading"></a> HideObjectInReading\(\)
 
 Hides the object in reading.
 
@@ -937,7 +937,7 @@ Hides the object in reading.
 protected override void HideObjectInReading()
 ```
 
-### ImportCADBody\(BuilderImport\[\]\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_ImportCADBody_VM_Managed_CAD_BuilderImport___"></a> ImportCADBody\(BuilderImport\[\]\)
 
 Imports the CAD body.
 
@@ -951,7 +951,7 @@ protected override void ImportCADBody(BuilderImport[] arBuild)
 
 The build object array.
 
-### InitializeCategoryInfo\(string\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
 
 Initializes the category information.
 
@@ -965,7 +965,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 The category name.
 
-### InitializeInterface\(\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_InitializeInterface"></a> InitializeInterface\(\)
 
 Initializes the interface.
 
@@ -973,7 +973,7 @@ Initializes the interface.
 protected virtual void InitializeInterface()
 ```
 
-### InitializeSimParam\(\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_InitializeSimParam"></a> InitializeSimParam\(\)
 
 Initializes the simulation parameter.
 
@@ -981,7 +981,7 @@ Initializes the simulation parameter.
 protected override void InitializeSimParam()
 ```
 
-### LoadTemplateBasedXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_LoadTemplateBasedXml_System_Xml_XmlReader_"></a> LoadTemplateBasedXml\(XmlReader\)
 
 Loads the XML for template based document.
 
@@ -995,7 +995,7 @@ protected override void LoadTemplateBasedXml(XmlReader reader)
 
 The reader.
 
-### LoadTemplateBasedXml\(XmlReader, bool\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_LoadTemplateBasedXml_System_Xml_XmlReader_System_Boolean_"></a> LoadTemplateBasedXml\(XmlReader, bool\)
 
 Loads the XML for template based document.
 
@@ -1013,7 +1013,7 @@ The reader.
 
 if set to <code>true</code> [assembly].
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -1027,7 +1027,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_OnPostMakeDocumentImpl_VM_Managed_DocCreateAnalysisInfo_"></a> OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
 
 Called when [post make document] [implementation].
 
@@ -1041,7 +1041,7 @@ protected override void OnPostMakeDocumentImpl(DocCreateAnalysisInfo info)
 
 The [analysis document create information].
 
-### PossibleDifferentUnit\(SubSystemDocument, out string\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_PossibleDifferentUnit_VM_Managed_DAFUL_SubSystemDocument_System_String__"></a> PossibleDifferentUnit\(SubSystemDocument, out string\)
 
 Possible different unit.
 
@@ -1063,7 +1063,7 @@ The imported document type name.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### PossibleDifferentUnit\(out string\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_PossibleDifferentUnit_System_String__"></a> PossibleDifferentUnit\(out string\)
 
 Possible different unit.
 
@@ -1081,7 +1081,7 @@ The simulated document type name.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### PossibleToImport\(SubSystemDocument, out string, out string\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_PossibleToImport_VM_Managed_DAFUL_SubSystemDocument_System_String__System_String__"></a> PossibleToImport\(SubSystemDocument, out string, out string\)
 
 Possible to import subsystem.
 
@@ -1107,7 +1107,7 @@ The new document type name.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### PostOpenDocument\(\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_PostOpenDocument"></a> PostOpenDocument\(\)
 
 Posts the open document.
 
@@ -1115,7 +1115,7 @@ Posts the open document.
 public override void PostOpenDocument()
 ```
 
-### PostOpenDocumentAfterErrCheckEvent\(\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_PostOpenDocumentAfterErrCheckEvent"></a> PostOpenDocumentAfterErrCheckEvent\(\)
 
 Posts the open document after err check event.
 
@@ -1123,7 +1123,7 @@ Posts the open document after err check event.
 public override void PostOpenDocumentAfterErrCheckEvent()
 ```
 
-### ReAssembleForChangeAssembly\(ChangeAssemblyType, string, string, List<string\>\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_ReAssembleForChangeAssembly_VM_Managed_DAFUL_ChangeAssemblyType_System_String_System_String_System_Collections_Generic_List_System_String__"></a> ReAssembleForChangeAssembly\(ChangeAssemblyType, string, string, List<string\>\)
 
 Re-assemble for change assembly.
 
@@ -1149,7 +1149,7 @@ The old assembly path.
 
 The new assembly path list.
 
-### ReAssemblyImpl\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_ReAssemblyImpl_VM_Managed_ObjectBase_"></a> ReAssemblyImpl\(ObjectBase\)
 
 Reassembly [implementation].
 
@@ -1169,7 +1169,7 @@ The object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### ReInitInterfaceForAssembly\(\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_ReInitInterfaceForAssembly"></a> ReInitInterfaceForAssembly\(\)
 
 Re initialize interface for assembly.
 
@@ -1177,7 +1177,7 @@ Re initialize interface for assembly.
 public override void ReInitInterfaceForAssembly()
 ```
 
-### RegisterAddon\(\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_RegisterAddon"></a> RegisterAddon\(\)
 
 Register addon
 
@@ -1185,7 +1185,7 @@ Register addon
 protected override void RegisterAddon()
 ```
 
-### RenameEntityImpl\(string, ObjectBase\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_RenameEntityImpl_System_String_VM_Managed_ObjectBase_"></a> RenameEntityImpl\(string, ObjectBase\)
 
 Rename entity [Implementation].
 
@@ -1203,7 +1203,7 @@ The old name.
 
 The new object.
 
-### ReplaceCADBody\(BuilderImport\[\]\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_ReplaceCADBody_VM_Managed_CAD_BuilderImport___"></a> ReplaceCADBody\(BuilderImport\[\]\)
 
 Replaces the CAD body.
 
@@ -1217,7 +1217,7 @@ public override void ReplaceCADBody(BuilderImport[] arBuilder)
 
 The builder object array.
 
-### SaveTemplateBasedXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_SaveTemplateBasedXml_System_Xml_XmlWriter_"></a> SaveTemplateBasedXml\(XmlWriter\)
 
 Saves the XML for template based document.
 
@@ -1231,7 +1231,7 @@ protected override void SaveTemplateBasedXml(XmlWriter writer)
 
 The writer.
 
-### SaveTemplateBasedXml\(XmlWriter, bool\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_SaveTemplateBasedXml_System_Xml_XmlWriter_System_Boolean_"></a> SaveTemplateBasedXml\(XmlWriter, bool\)
 
 Saves the XML for template based document.
 
@@ -1249,7 +1249,7 @@ The writer.
 
 if set to <code>true</code> [assembly].
 
-### SkipDelete\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_SkipDelete_VM_Managed_ObjectBase_"></a> SkipDelete\(ObjectBase\)
 
 Skips the delete.
 
@@ -1267,7 +1267,7 @@ The obj.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SkipObjectInWriting\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_SkipObjectInWriting_VM_Managed_ObjectBase_"></a> SkipObjectInWriting\(ObjectBase\)
 
 Skips the object in writing.
 
@@ -1285,7 +1285,7 @@ The obj.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SkipShowHide\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_SkipShowHide_VM_Managed_ObjectBase_"></a> SkipShowHide\(ObjectBase\)
 
 Skips the show hide.
 
@@ -1303,12 +1303,11 @@ The obj.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### WriteMessageForShowHide\(\)
+### <a id="VM_Managed_DAFUL_SubSystemDocument_WriteMessageForShowHide"></a> WriteMessageForShowHide\(\)
 
 Writes the message for show hide.
 
 ```csharp
 protected override void WriteMessageForShowHide()
 ```
-
 

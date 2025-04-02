@@ -1,4 +1,4 @@
-# Class PointRated
+#  Class PointRated
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -107,7 +107,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PointRated\(PointBase, PointBase, Variable\)
+### <a id="VM_Managed_PointRated__ctor_VM_Managed_PointBase_VM_Managed_PointBase_VM_Managed_Variable_"></a> PointRated\(PointBase, PointBase, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointRated" data-throw-if-not-resolved="false"></xref> class.
 
@@ -129,7 +129,7 @@ End point.
 
 Ratio.
 
-### PointRated\(PointBase, PointBase, double\)
+### <a id="VM_Managed_PointRated__ctor_VM_Managed_PointBase_VM_Managed_PointBase_System_Double_"></a> PointRated\(PointBase, PointBase, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointRated" data-throw-if-not-resolved="false"></xref> class.
 
@@ -151,7 +151,7 @@ End point.
 
 Ratio.
 
-### PointRated\(PointBase, PointBase\)
+### <a id="VM_Managed_PointRated__ctor_VM_Managed_PointBase_VM_Managed_PointBase_"></a> PointRated\(PointBase, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointRated" data-throw-if-not-resolved="false"></xref> class.
 
@@ -169,7 +169,7 @@ Start point.
 
 End point.
 
-### PointRated\(\)
+### <a id="VM_Managed_PointRated__ctor"></a> PointRated\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointRated" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public PointRated()
 
 ## Fields
 
-### m\_Rate
+### <a id="VM_Managed_PointRated_m_Rate"></a> m\_Rate
 
 ```csharp
 protected Child<Variable, LinkContainer.Update> m_Rate
@@ -189,7 +189,7 @@ protected Child<Variable, LinkContainer.Update> m_Rate
 
  [Child](VM.Managed.Child\-2.md)<[Variable](VM.Managed.Variable.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>
 
-### m\_ptEnd
+### <a id="VM_Managed_PointRated_m_ptEnd"></a> m\_ptEnd
 
 ```csharp
 protected Child<PointBase, LinkContainer.Update> m_ptEnd
@@ -199,7 +199,7 @@ protected Child<PointBase, LinkContainer.Update> m_ptEnd
 
  [Child](VM.Managed.Child\-2.md)<[PointBase](VM.Managed.PointBase.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>
 
-### m\_ptStart
+### <a id="VM_Managed_PointRated_m_ptStart"></a> m\_ptStart
 
 ```csharp
 protected Child<PointBase, LinkContainer.Update> m_ptStart
@@ -211,7 +211,7 @@ protected Child<PointBase, LinkContainer.Update> m_ptStart
 
 ## Properties
 
-### EndPoint
+### <a id="VM_Managed_PointRated_EndPoint"></a> EndPoint
 
 Gets or sets end point.
 
@@ -223,7 +223,7 @@ public PointBase EndPoint { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### IsParameterized
+### <a id="VM_Managed_PointRated_IsParameterized"></a> IsParameterized
 
 Get the parametric.
 
@@ -235,7 +235,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Rate
+### <a id="VM_Managed_PointRated_Rate"></a> Rate
 
 Gets or sets ratio.
 
@@ -247,7 +247,7 @@ public Variable Rate { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### StartPoint
+### <a id="VM_Managed_PointRated_StartPoint"></a> StartPoint
 
 Gets or sets start point.
 
@@ -259,7 +259,7 @@ public PointBase StartPoint { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### Value
+### <a id="VM_Managed_PointRated_Value"></a> Value
 
 Get the VectorBase(x, y, z).
 
@@ -271,7 +271,7 @@ public override VectorBase Value { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### X
+### <a id="VM_Managed_PointRated_X"></a> X
 
 Get the X point.
 
@@ -283,7 +283,7 @@ public override double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_Managed_PointRated_Y"></a> Y
 
 Get the Y point.
 
@@ -295,7 +295,7 @@ public override double Y { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Z
+### <a id="VM_Managed_PointRated_Z"></a> Z
 
 Get the Z point.
 
@@ -309,7 +309,7 @@ public override double Z { get; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_PointRated_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -324,7 +324,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_PointRated_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -338,7 +338,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_PointRated_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -351,5 +351,4 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

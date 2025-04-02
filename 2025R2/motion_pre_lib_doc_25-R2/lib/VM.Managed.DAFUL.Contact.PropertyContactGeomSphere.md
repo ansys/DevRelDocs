@@ -1,4 +1,4 @@
-# Class PropertyContactGeomSphere
+#  Class PropertyContactGeomSphere
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -173,7 +173,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyContactGeomSphere\(\)
+### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomSphere__ctor"></a> PropertyContactGeomSphere\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyContactGeomSphere" data-throw-if-not-resolved="false"></xref> class.
 
@@ -183,7 +183,7 @@ public PropertyContactGeomSphere()
 
 ## Properties
 
-### CenterPosition
+### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomSphere_CenterPosition"></a> CenterPosition
 
 Gets or sets the center position of sphere.
 
@@ -195,7 +195,7 @@ public PointBase CenterPosition { get; set; }
 
  PointBase
 
-### Radius
+### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomSphere_Radius"></a> Radius
 
 Gets or sets the radius.
 
@@ -207,7 +207,7 @@ public ExpressionValueVariable Radius { get; set; }
 
  ExpressionValueVariable
 
-### \_CenterPosition
+### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomSphere__CenterPosition"></a> \_CenterPosition
 
 Gets or sets the center position.
 
@@ -219,7 +219,7 @@ public VectorBase _CenterPosition { get; }
 
  VectorBase
 
-### \_Radius
+### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomSphere__Radius"></a> \_Radius
 
 Gets or sets the radius.
 
@@ -233,7 +233,7 @@ public double _Radius { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomSphere_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -246,5 +246,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

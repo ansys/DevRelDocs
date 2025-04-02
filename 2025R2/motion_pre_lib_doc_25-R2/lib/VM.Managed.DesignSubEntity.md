@@ -1,4 +1,4 @@
-# Class DesignSubEntity
+#  Class DesignSubEntity
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -179,7 +179,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DesignSubEntity\(\)
+### <a id="VM_Managed_DesignSubEntity__ctor"></a> DesignSubEntity\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DesignSubEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -187,7 +187,7 @@ Initializes a new instance of the <xref href="VM.Managed.DesignSubEntity" data-t
 protected DesignSubEntity()
 ```
 
-### DesignSubEntity\(string, string\)
+### <a id="VM_Managed_DesignSubEntity__ctor_System_String_System_String_"></a> DesignSubEntity\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DesignSubEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ Name of the proxy.
 
 The build information.
 
-### DesignSubEntity\(string\)
+### <a id="VM_Managed_DesignSubEntity__ctor_System_String_"></a> DesignSubEntity\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DesignSubEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ Name of the design subentity.
 
 ## Fields
 
-### g\_dicUpdatedDesignSubEntity
+### <a id="VM_Managed_DesignSubEntity_g_dicUpdatedDesignSubEntity"></a> g\_dicUpdatedDesignSubEntity
 
 updated design subentity dictionary.
 
@@ -233,7 +233,7 @@ public static Dictionary<DesignSubEntity, object> g_dicUpdatedDesignSubEntity
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[DesignSubEntity](VM.Managed.DesignSubEntity.md), [object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
-### m\_bSkipToUpdateSymmetric
+### <a id="VM_Managed_DesignSubEntity_m_bSkipToUpdateSymmetric"></a> m\_bSkipToUpdateSymmetric
 
 ```csharp
 protected bool m_bSkipToUpdateSymmetric
@@ -245,7 +245,7 @@ protected bool m_bSkipToUpdateSymmetric
 
 ## Properties
 
-### IsInterface
+### <a id="VM_Managed_DesignSubEntity_IsInterface"></a> IsInterface
 
 Gets or sets a value indicating whether this instance is interface.
 
@@ -259,7 +259,7 @@ public bool IsInterface { get; set; }
 
 ## Methods
 
-### BindInterfaceImpl\(TMatrix, TMatrix, IInterface\)
+### <a id="VM_Managed_DesignSubEntity_BindInterfaceImpl_VM_Managed_TMatrix_VM_Managed_TMatrix_VM_Managed_IInterface_"></a> BindInterfaceImpl\(TMatrix, TMatrix, IInterface\)
 
 Binds the interface [implementation].
 
@@ -281,7 +281,7 @@ The matrix after transformation.
 
 The interface.
 
-### CheckCircularReference\(\)
+### <a id="VM_Managed_DesignSubEntity_CheckCircularReference"></a> CheckCircularReference\(\)
 
 Check circular reference
 
@@ -293,7 +293,7 @@ public bool CheckCircularReference()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_DesignSubEntity_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -312,5 +312,4 @@ The old object.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

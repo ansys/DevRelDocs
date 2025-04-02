@@ -1,4 +1,4 @@
-# Class ProjectDocument
+#  Class ProjectDocument
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -46,7 +46,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ProjectDocument\(string\)
+### <a id="VM_Models_ProjectDocument__ctor_System_String_"></a> ProjectDocument\(string\)
 
 ```csharp
 public ProjectDocument(string name)
@@ -58,7 +58,7 @@ public ProjectDocument(string name)
 
 ## Properties
 
-### ID
+### <a id="VM_Models_ProjectDocument_ID"></a> ID
 
 ```csharp
 public override Identifier ID { get; }
@@ -68,7 +68,7 @@ public override Identifier ID { get; }
 
  Identifier
 
-### Items
+### <a id="VM_Models_ProjectDocument_Items"></a> Items
 
 ```csharp
 public IEnumerable<IScenario> Items { get; }
@@ -78,7 +78,7 @@ public IEnumerable<IScenario> Items { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IScenario](VM.Models.IScenario.md)\>
 
-### RootPath
+### <a id="VM_Models_ProjectDocument_RootPath"></a> RootPath
 
 ```csharp
 [Browsable(false)]
@@ -89,7 +89,7 @@ public string RootPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ScenarioCount
+### <a id="VM_Models_ProjectDocument_ScenarioCount"></a> ScenarioCount
 
 ```csharp
 [Browsable(false)]
@@ -100,7 +100,7 @@ public int ScenarioCount { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### this\[Identifier\]
+### <a id="VM_Models_ProjectDocument_Item_VM_Identifier_"></a> this\[Identifier\]
 
 ```csharp
 public IScenario this[Identifier identifier] { get; }
@@ -110,7 +110,7 @@ public IScenario this[Identifier identifier] { get; }
 
  [IScenario](VM.Models.IScenario.md)
 
-### this\[int\]
+### <a id="VM_Models_ProjectDocument_Item_System_Int32_"></a> this\[int\]
 
 ```csharp
 public IScenario this[int index] { get; }
@@ -120,7 +120,7 @@ public IScenario this[int index] { get; }
 
  [IScenario](VM.Models.IScenario.md)
 
-### this\[string\]
+### <a id="VM_Models_ProjectDocument_Item_System_String_"></a> this\[string\]
 
 ```csharp
 public IScenario this[string name] { get; }
@@ -132,7 +132,7 @@ public IScenario this[string name] { get; }
 
 ## Methods
 
-### Add\(IScenario\)
+### <a id="VM_Models_ProjectDocument_Add_VM_Models_IScenario_"></a> Add\(IScenario\)
 
 ```csharp
 public void Add(IScenario item)
@@ -142,7 +142,7 @@ public void Add(IScenario item)
 
 `item` [IScenario](VM.Models.IScenario.md)
 
-### CanRegisterID\(Identifier\)
+### <a id="VM_Models_ProjectDocument_CanRegisterID_VM_Identifier_"></a> CanRegisterID\(Identifier\)
 
 ```csharp
 public bool CanRegisterID(Identifier identifier)
@@ -156,7 +156,7 @@ public bool CanRegisterID(Identifier identifier)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CanRegisterName\(string\)
+### <a id="VM_Models_ProjectDocument_CanRegisterName_System_String_"></a> CanRegisterName\(string\)
 
 ```csharp
 public bool CanRegisterName(string name)
@@ -170,7 +170,7 @@ public bool CanRegisterName(string name)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Contains\(IScenario\)
+### <a id="VM_Models_ProjectDocument_Contains_VM_Models_IScenario_"></a> Contains\(IScenario\)
 
 ```csharp
 public bool Contains(IScenario item)
@@ -184,7 +184,7 @@ public bool Contains(IScenario item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ContainsID\(Identifier\)
+### <a id="VM_Models_ProjectDocument_ContainsID_VM_Identifier_"></a> ContainsID\(Identifier\)
 
 ```csharp
 public bool ContainsID(Identifier identifier)
@@ -198,7 +198,7 @@ public bool ContainsID(Identifier identifier)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ContainsName\(IProjectObject\)
+### <a id="VM_Models_ProjectDocument_ContainsName_VM_Models_IProjectObject_"></a> ContainsName\(IProjectObject\)
 
 ```csharp
 public bool ContainsName(IProjectObject item)
@@ -212,13 +212,13 @@ public bool ContainsName(IProjectObject item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### DisposeManagedResources\(\)
+### <a id="VM_Models_ProjectDocument_DisposeManagedResources"></a> DisposeManagedResources\(\)
 
 ```csharp
 protected override void DisposeManagedResources()
 ```
 
-### Open\(string\)
+### <a id="VM_Models_ProjectDocument_Open_System_String_"></a> Open\(string\)
 
 ```csharp
 public static ProjectDocument Open(string path)
@@ -232,7 +232,7 @@ public static ProjectDocument Open(string path)
 
  [ProjectDocument](VM.Models.ProjectDocument.md)
 
-### Remove\(IScenario\)
+### <a id="VM_Models_ProjectDocument_Remove_VM_Models_IScenario_"></a> Remove\(IScenario\)
 
 ```csharp
 public void Remove(IScenario item)
@@ -242,13 +242,13 @@ public void Remove(IScenario item)
 
 `item` [IScenario](VM.Models.IScenario.md)
 
-### Save\(\)
+### <a id="VM_Models_ProjectDocument_Save"></a> Save\(\)
 
 ```csharp
 public void Save()
 ```
 
-### TryGetValue\(Identifier, out IScenario\)
+### <a id="VM_Models_ProjectDocument_TryGetValue_VM_Identifier_VM_Models_IScenario__"></a> TryGetValue\(Identifier, out IScenario\)
 
 ```csharp
 public bool TryGetValue(Identifier identifier, out IScenario scenario)
@@ -264,7 +264,7 @@ public bool TryGetValue(Identifier identifier, out IScenario scenario)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TryGetValue\(string, out IScenario\)
+### <a id="VM_Models_ProjectDocument_TryGetValue_System_String_VM_Models_IScenario__"></a> TryGetValue\(string, out IScenario\)
 
 ```csharp
 public bool TryGetValue(string name, out IScenario scenario)
@@ -280,7 +280,7 @@ public bool TryGetValue(string name, out IScenario scenario)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UnregisterID\(IProjectObject\)
+### <a id="VM_Models_ProjectDocument_UnregisterID_VM_Models_IProjectObject_"></a> UnregisterID\(IProjectObject\)
 
 ```csharp
 public void UnregisterID(IProjectObject item)
@@ -290,7 +290,7 @@ public void UnregisterID(IProjectObject item)
 
 `item` [IProjectObject](VM.Models.IProjectObject.md)
 
-### UnregisterName\(IProjectObject\)
+### <a id="VM_Models_ProjectDocument_UnregisterName_VM_Models_IProjectObject_"></a> UnregisterName\(IProjectObject\)
 
 ```csharp
 public void UnregisterName(IProjectObject item)
@@ -299,5 +299,4 @@ public void UnregisterName(IProjectObject item)
 #### Parameters
 
 `item` [IProjectObject](VM.Models.IProjectObject.md)
-
 

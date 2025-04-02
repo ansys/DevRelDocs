@@ -1,4 +1,4 @@
-# Class EFForceAPI
+#  Class EFForceAPI
 
 Namespace: [VM.API.Pre.EasyFlex](VM.API.Pre.EasyFlex.md)  
 Assembly: VM.API.Pre.EasyFlex.dll  
@@ -22,7 +22,7 @@ public static class EFForceAPI
 
 ## Methods
 
-### CreateConcentratedLoadFaceWithColor\(SubSystemDocument, Obj, IEnumerable<Color\>, Vector?, string, string\)
+### <a id="VM_API_Pre_EasyFlex_EFForceAPI_CreateConcentratedLoadFaceWithColor_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__System_Nullable_VM_Vector__System_String_System_String_"></a> CreateConcentratedLoadFaceWithColor\(SubSystemDocument, Obj, IEnumerable<Color\>, Vector?, string, string\)
 
 Create <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoad" data-throw-if-not-resolved="false"></xref> with colors.
 
@@ -79,7 +79,7 @@ Will be thrown if the type of 'body' is not <xref href="VM.Managed.DAFUL.SolidBo
 
 Will be thrown if the magnitude of 'direction' is 0.
 
-### CreateConcentratedLoadFaceWithFaces\(SubSystemDocument, IEnumerable<Obj\>, Vector?, string, string\)
+### <a id="VM_API_Pre_EasyFlex_EFForceAPI_CreateConcentratedLoadFaceWithFaces_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Nullable_VM_Vector__System_String_System_String_"></a> CreateConcentratedLoadFaceWithFaces\(SubSystemDocument, IEnumerable<Obj\>, Vector?, string, string\)
 
 Create <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoad" data-throw-if-not-resolved="false"></xref> with faces.
 
@@ -130,7 +130,7 @@ Will be thrown if the type of 'baseGeometry' is not <xref href="VM.Managed.CAD.F
 
 Will be thrown if the magnitude of 'direction' is 0.
 
-### CreateConcentratedLoadFaceWithFaceset\(SubSystemDocument, Obj, Vector?, string, string\)
+### <a id="VM_API_Pre_EasyFlex_EFForceAPI_CreateConcentratedLoadFaceWithFaceset_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Nullable_VM_Vector__System_String_System_String_"></a> CreateConcentratedLoadFaceWithFaceset\(SubSystemDocument, Obj, Vector?, string, string\)
 
 Create <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoad" data-throw-if-not-resolved="false"></xref> with faceset.
 
@@ -183,7 +183,7 @@ Will be thrown if the type of 'baseGeometry' is not <xref href="VM.Managed.DAFUL
 
 Will be thrown if the magnitude of 'direction' is 0.
 
-### CreateConcentratedLoadRange\(SubSystemDocument, Obj, Vector, Vector, ExpressionValueVariable?, Vector?, string, string\)
+### <a id="VM_API_Pre_EasyFlex_EFForceAPI_CreateConcentratedLoadRange_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Vector__System_String_System_String_"></a> CreateConcentratedLoadRange\(SubSystemDocument, Obj, Vector, Vector, ExpressionValueVariable?, Vector?, string, string\)
 
 Create <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoad" data-throw-if-not-resolved="false"></xref> with range.
 
@@ -252,7 +252,7 @@ Will be thrown if the magnitude of 'normalDirectionOfRange' is 0.
 
 Will be thrown if the magnitude of 'direction' is 0 or if the 'radius' value is equal to or less than 0.
 
-### CreatePressureLoadWithColor\(SubSystemDocument, Obj, IEnumerable<Color\>, bool, string, string\)
+### <a id="VM_API_Pre_EasyFlex_EFForceAPI_CreatePressureLoadWithColor_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__System_Boolean_System_String_System_String_"></a> CreatePressureLoadWithColor\(SubSystemDocument, Obj, IEnumerable<Color\>, bool, string, string\)
 
 Create <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoad" data-throw-if-not-resolved="false"></xref> with colors.
 
@@ -309,7 +309,7 @@ Will be thrown if the type of 'body' is not <xref href="VM.Managed.DAFUL.SolidBo
 
 Will be thrown if the magnitude of 'direction' is 0.
 
-### CreatePressureLoadWithFaces\(SubSystemDocument, IEnumerable<Obj\>, bool, string, string\)
+### <a id="VM_API_Pre_EasyFlex_EFForceAPI_CreatePressureLoadWithFaces_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Boolean_System_String_System_String_"></a> CreatePressureLoadWithFaces\(SubSystemDocument, IEnumerable<Obj\>, bool, string, string\)
 
 Create <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoad" data-throw-if-not-resolved="false"></xref> with faces.
 
@@ -356,7 +356,7 @@ Will be thrown if 'subSystemDocument', 'baseGeometry' argument is null.
 
 Will be thrown if the type of 'baseGeometry' is not <xref href="VM.Managed.CAD.Face" data-throw-if-not-resolved="false"></xref>.
 
-### CreatePressureLoadWithFaceset\(SubSystemDocument, Obj, bool, string, string\)
+### <a id="VM_API_Pre_EasyFlex_EFForceAPI_CreatePressureLoadWithFaceset_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Boolean_System_String_System_String_"></a> CreatePressureLoadWithFaceset\(SubSystemDocument, Obj, bool, string, string\)
 
 Create <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoad" data-throw-if-not-resolved="false"></xref> with faceset.
 
@@ -404,5 +404,4 @@ Will be thrown if 'subSystemDocument', 'baseGeometry' argument is null.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if the type of 'baseGeometry' is not <xref href="VM.Managed.DAFUL.IContactableRigid3D" data-throw-if-not-resolved="false"></xref>.
-
 

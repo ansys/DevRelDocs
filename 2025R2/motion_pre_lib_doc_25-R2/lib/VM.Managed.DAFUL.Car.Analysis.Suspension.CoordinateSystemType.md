@@ -1,4 +1,4 @@
-# Enum CoordinateSystemType
+#  Enum CoordinateSystemType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.Suspension](VM.Managed.DAFUL.Car.Analysis.Suspension.md)  
 Assembly: VMDCar.dll  
@@ -20,7 +20,6 @@ ISO
 `Vehicle = 0` 
 
 Vehicle
-
 
 
 

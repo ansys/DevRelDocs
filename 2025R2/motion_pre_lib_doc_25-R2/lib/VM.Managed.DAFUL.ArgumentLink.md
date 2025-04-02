@@ -1,4 +1,4 @@
-# Class ArgumentLink
+#  Class ArgumentLink
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ArgumentLink\(\)
+### <a id="VM_Managed_DAFUL_ArgumentLink__ctor"></a> ArgumentLink\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentLink" dat
 public ArgumentLink()
 ```
 
-### ArgumentLink\(IArgument\)
+### <a id="VM_Managed_DAFUL_ArgumentLink__ctor_VM_Models_Pre_IArgument_"></a> ArgumentLink\(IArgument\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -123,7 +123,7 @@ public ArgumentLink(IArgument arg)
 
 The argument.
 
-### ArgumentLink\(string, IArgument\)
+### <a id="VM_Managed_DAFUL_ArgumentLink__ctor_System_String_VM_Models_Pre_IArgument_"></a> ArgumentLink\(string, IArgument\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -141,7 +141,7 @@ The name of this argument.
 
 The argument.
 
-### ArgumentLink\(ArgumentListGeneral\)
+### <a id="VM_Managed_DAFUL_ArgumentLink__ctor_VM_Managed_DAFUL_ArgumentListGeneral_"></a> ArgumentLink\(ArgumentListGeneral\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -155,7 +155,7 @@ public ArgumentLink(ArgumentListGeneral owner)
 
 The owner argument list.
 
-### ArgumentLink\(ArgumentListGeneral, IArgument\)
+### <a id="VM_Managed_DAFUL_ArgumentLink__ctor_VM_Managed_DAFUL_ArgumentListGeneral_VM_Models_Pre_IArgument_"></a> ArgumentLink\(ArgumentListGeneral, IArgument\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ The argument.
 
 ## Properties
 
-### Argument
+### <a id="VM_Managed_DAFUL_ArgumentLink_Argument"></a> Argument
 
 Gets or sets the <xref href="VM.Models.Pre.IArgument" data-throw-if-not-resolved="false"></xref>.
 
@@ -187,7 +187,7 @@ public IArgument Argument { get; set; }
 
  IArgument
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_ArgumentLink_ArgumentType"></a> ArgumentType
 
 The type of the argument
 
@@ -199,7 +199,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### Expression
+### <a id="VM_Managed_DAFUL_ArgumentLink_Expression"></a> Expression
 
 The argument expression
 
@@ -213,7 +213,7 @@ public override string Expression { get; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_DAFUL_ArgumentLink_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <xref href="System.Xml.Serialization.XmlSchemaProviderAttribute" data-throw-if-not-resolved="false"></xref> to the class.
 
@@ -227,7 +227,7 @@ public XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### LinkRequestDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_ArgumentLink_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -245,7 +245,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_ArgumentLink_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -259,7 +259,7 @@ public void ReadXml(XmlReader reader)
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_ArgumentLink_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -272,5 +272,4 @@ public void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
-
 

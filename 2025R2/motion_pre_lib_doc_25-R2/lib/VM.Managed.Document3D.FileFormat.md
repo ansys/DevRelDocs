@@ -1,4 +1,4 @@
-# Enum Document3D.FileFormat
+#  Enum Document3D.FileFormat
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -20,7 +20,6 @@ binary.
 `Xml = 1` 
 
 xml.
-
 
 
 

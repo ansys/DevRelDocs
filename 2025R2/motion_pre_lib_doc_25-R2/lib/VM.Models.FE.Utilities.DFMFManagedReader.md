@@ -1,4 +1,4 @@
-# Class DFMFManagedReader
+#  Class DFMFManagedReader
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -142,7 +142,7 @@ public class DFMFManagedReader : DFMFReader, IDFMFReader
 
 ## Constructors
 
-### DFMFManagedReader\(\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader__ctor"></a> DFMFManagedReader\(\)
 
 ```csharp
 public DFMFManagedReader()
@@ -150,7 +150,7 @@ public DFMFManagedReader()
 
 ## Methods
 
-### GetMultipleShapes\(ModeMeta, ICollection<int\>, int, double, out Vector\[\]\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_GetMultipleShapes_VM_Models_FE_Utilities_DFMFReader_ModeMeta_System_Collections_Generic_ICollection_System_Int32__System_Int32_System_Double_VM_Vector____"></a> GetMultipleShapes\(ModeMeta, ICollection<int\>, int, double, out Vector\[\]\)
 
 ```csharp
 protected override sealed void GetMultipleShapes(DFMFReader.ModeMeta meta, ICollection<int> arnModeSeq, int nNodeSeq, double dFactor, out Vector[] arVecMode)
@@ -168,7 +168,7 @@ protected override sealed void GetMultipleShapes(DFMFReader.ModeMeta meta, IColl
 
 `arVecMode` Vector\[\]
 
-### GetMultipleStress\(ModeMeta, ICollection<int\>, int, double, out ICollection<double\[\]\>\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_GetMultipleStress_VM_Models_FE_Utilities_DFMFReader_ModeMeta_System_Collections_Generic_ICollection_System_Int32__System_Int32_System_Double_System_Collections_Generic_ICollection_System_Double_____"></a> GetMultipleStress\(ModeMeta, ICollection<int\>, int, double, out ICollection<double\[\]\>\)
 
 ```csharp
 protected override sealed void GetMultipleStress(DFMFReader.ModeMeta meta, ICollection<int> colModeSeq, int nodeSeq, double factor, out ICollection<double[]> colStress)
@@ -186,7 +186,7 @@ protected override sealed void GetMultipleStress(DFMFReader.ModeMeta meta, IColl
 
 `colStress` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
 
-### GetPointInformation\(ICollection<Vector\>, ModeMeta, Vector, int, out Vector, out Vector\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_GetPointInformation_System_Collections_Generic_ICollection_VM_Vector__VM_Models_FE_Utilities_DFMFReader_ModeMeta_VM_Vector_System_Int32_VM_Vector__VM_Vector__"></a> GetPointInformation\(ICollection<Vector\>, ModeMeta, Vector, int, out Vector, out Vector\)
 
 ```csharp
 protected override sealed bool GetPointInformation(ICollection<Vector> points, DFMFReader.ModeMeta meta, Vector position, int modeSequence, out Vector vecTra, out Vector vecRot)
@@ -210,7 +210,7 @@ protected override sealed bool GetPointInformation(ICollection<Vector> points, D
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetSingleShape\(ModeMeta, int, int, double, out Vector\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_GetSingleShape_VM_Models_FE_Utilities_DFMFReader_ModeMeta_System_Int32_System_Int32_System_Double_VM_Vector__"></a> GetSingleShape\(ModeMeta, int, int, double, out Vector\)
 
 ```csharp
 protected override sealed void GetSingleShape(DFMFReader.ModeMeta meta, int nModeSeq, int nNodeSeq, double dFactor, out Vector vecMode)
@@ -228,7 +228,7 @@ protected override sealed void GetSingleShape(DFMFReader.ModeMeta meta, int nMod
 
 `vecMode` Vector
 
-### GetSingleStress\(ModeMeta, int, int, double, out double\[\]\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_GetSingleStress_VM_Models_FE_Utilities_DFMFReader_ModeMeta_System_Int32_System_Int32_System_Double_System_Double____"></a> GetSingleStress\(ModeMeta, int, int, double, out double\[\]\)
 
 ```csharp
 protected override sealed void GetSingleStress(DFMFReader.ModeMeta meta, int modeSeq, int nodeSeq, double factor, out double[] stress)
@@ -246,7 +246,7 @@ protected override sealed void GetSingleStress(DFMFReader.ModeMeta meta, int mod
 
 `stress` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### ImportImpl\(string, Unit\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_ImportImpl_System_String_VM_Unit_"></a> ImportImpl\(string, Unit\)
 
 ```csharp
 protected override sealed void ImportImpl(string strModeFileName, Unit unit)
@@ -258,64 +258,63 @@ protected override sealed void ImportImpl(string strModeFileName, Unit unit)
 
 `unit` Unit
 
-### ReadConstraintInformation\(\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_ReadConstraintInformation"></a> ReadConstraintInformation\(\)
 
 ```csharp
 protected override void ReadConstraintInformation()
 ```
 
-### ReadInterfacePoints\(\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_ReadInterfacePoints"></a> ReadInterfacePoints\(\)
 
 ```csharp
 protected override void ReadInterfacePoints()
 ```
 
-### ReadMarkerPositions\(\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_ReadMarkerPositions"></a> ReadMarkerPositions\(\)
 
 ```csharp
 protected override void ReadMarkerPositions()
 ```
 
-### ReadMassInfoForOldVer\(\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_ReadMassInfoForOldVer"></a> ReadMassInfoForOldVer\(\)
 
 ```csharp
 protected override void ReadMassInfoForOldVer()
 ```
 
-### ReadMasterPoints\(\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_ReadMasterPoints"></a> ReadMasterPoints\(\)
 
 ```csharp
 protected override void ReadMasterPoints()
 ```
 
-### ReadMaterialInformation\(\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_ReadMaterialInformation"></a> ReadMaterialInformation\(\)
 
 ```csharp
 protected override void ReadMaterialInformation()
 ```
 
-### ReadModes\(\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_ReadModes"></a> ReadModes\(\)
 
 ```csharp
 protected override void ReadModes()
 ```
 
-### ReadNBodyInformations\(\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_ReadNBodyInformations"></a> ReadNBodyInformations\(\)
 
 ```csharp
 protected override void ReadNBodyInformations()
 ```
 
-### ReadNamedSelectionInformation\(\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_ReadNamedSelectionInformation"></a> ReadNamedSelectionInformation\(\)
 
 ```csharp
 protected override void ReadNamedSelectionInformation()
 ```
 
-### ReadPropertyInformation\(\)
+### <a id="VM_Models_FE_Utilities_DFMFManagedReader_ReadPropertyInformation"></a> ReadPropertyInformation\(\)
 
 ```csharp
 protected override void ReadPropertyInformation()
 ```
-
 

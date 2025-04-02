@@ -1,4 +1,4 @@
-# Class Placing
+#  Class Placing
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Placing\(\)
+### <a id="VM_Managed_DAFUL_Chained_Placing__ctor"></a> Placing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Placing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Placing" 
 public Placing()
 ```
 
-### Placing\(ChainedPlacingBase\)
+### <a id="VM_Managed_DAFUL_Chained_Placing__ctor_VM_Managed_DAFUL_Chained_ChainedPlacingBase_"></a> Placing\(ChainedPlacingBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Placing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner.
 
 ## Properties
 
-### AssembleType
+### <a id="VM_Managed_DAFUL_Chained_Placing_AssembleType"></a> AssembleType
 
 Gets and sets assemble type.
 
@@ -132,7 +132,7 @@ public AssembleType AssembleType { get; set; }
 
  [AssembleType](VM.Managed.DAFUL.Chained.AssembleType.md)
 
-### ChainedPaths
+### <a id="VM_Managed_DAFUL_Chained_Placing_ChainedPaths"></a> ChainedPaths
 
 Gets or sets the object array
 
@@ -144,7 +144,7 @@ public Placing_Paths[] ChainedPaths { get; set; }
 
  [Placing\_Paths](VM.Managed.DAFUL.Chained.Placing\_Paths.md)\[\]
 
-### ChainedSegments
+### <a id="VM_Managed_DAFUL_Chained_Placing_ChainedSegments"></a> ChainedSegments
 
 Gets or sets the object array
 
@@ -156,7 +156,7 @@ public InstanceContainer[] ChainedSegments { get; set; }
 
  InstanceContainer\[\]
 
-### ExternContacts
+### <a id="VM_Managed_DAFUL_Chained_Placing_ExternContacts"></a> ExternContacts
 
 Gets or sets the object array
 
@@ -168,7 +168,7 @@ public ObjectBase[] ExternContacts { get; set; }
 
  ObjectBase\[\]
 
-### FileSegments
+### <a id="VM_Managed_DAFUL_Chained_Placing_FileSegments"></a> FileSegments
 
 Gets or sets the string array.
 
@@ -180,7 +180,7 @@ public Placing_File[] FileSegments { get; set; }
 
  [Placing\_File](VM.Managed.DAFUL.Chained.Placing\_File.md)\[\]
 
-### IsFixNumberOfSegment
+### <a id="VM_Managed_DAFUL_Chained_Placing_IsFixNumberOfSegment"></a> IsFixNumberOfSegment
 
 If you fix the number of segment, sets the true.
 
@@ -192,7 +192,7 @@ public bool IsFixNumberOfSegment { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### NumberOfSegment
+### <a id="VM_Managed_DAFUL_Chained_Placing_NumberOfSegment"></a> NumberOfSegment
 
 This represents number of segment.
 
@@ -204,7 +204,7 @@ public int NumberOfSegment { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### OpenLoop
+### <a id="VM_Managed_DAFUL_Chained_Placing_OpenLoop"></a> OpenLoop
 
 If you make open loop system, sets the true.
 
@@ -216,7 +216,7 @@ public bool OpenLoop { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### PlacingAdditionalInfo
+### <a id="VM_Managed_DAFUL_Chained_Placing_PlacingAdditionalInfo"></a> PlacingAdditionalInfo
 
 Gets and sets the information for placing.
 
@@ -228,7 +228,7 @@ public PlacingInfoBase PlacingAdditionalInfo { get; set; }
 
  [PlacingInfoBase](VM.Managed.DAFUL.Chained.PlacingInfoBase.md)
 
-### PlacingGap
+### <a id="VM_Managed_DAFUL_Chained_Placing_PlacingGap"></a> PlacingGap
 
 This represents the gap between segment.
 
@@ -240,7 +240,7 @@ public double PlacingGap { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ToolkitType
+### <a id="VM_Managed_DAFUL_Chained_Placing_ToolkitType"></a> ToolkitType
 
 Gets and sets toolkit type.
 
@@ -252,7 +252,7 @@ public ToolkitType ToolkitType { get; set; }
 
  [ToolkitType](VM.Managed.DAFUL.Chained.ToolkitType.md)
 
-### UserDefinedArray
+### <a id="VM_Managed_DAFUL_Chained_Placing_UserDefinedArray"></a> UserDefinedArray
 
 Gets and sets the user-defined array.
 
@@ -266,7 +266,7 @@ public string[] UserDefinedArray { get; set; }
 
 ## Methods
 
-### Delete\_ExternContacts\(object\)
+### <a id="VM_Managed_DAFUL_Chained_Placing_Delete_ExternContacts_System_Object_"></a> Delete\_ExternContacts\(object\)
 
 Called when external contact geometry is deleted.
 
@@ -280,7 +280,7 @@ public void Delete_ExternContacts(object obj)
 
 Theexternal contact geometry.
 
-### Delete\_Path\(object\)
+### <a id="VM_Managed_DAFUL_Chained_Placing_Delete_Path_System_Object_"></a> Delete\_Path\(object\)
 
 Called when path components is deleted.
 
@@ -294,7 +294,7 @@ public void Delete_Path(object obj)
 
 The path component.
 
-### Delete\_Segment\(object\)
+### <a id="VM_Managed_DAFUL_Chained_Placing_Delete_Segment_System_Object_"></a> Delete\_Segment\(object\)
 
 Called when segment components is deleted.
 
@@ -308,7 +308,7 @@ public void Delete_Segment(object obj)
 
 The segment component.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Chained_Placing_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -321,5 +321,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

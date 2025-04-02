@@ -1,4 +1,4 @@
-# Class PropertyConcentratedLoad
+#  Class PropertyConcentratedLoad
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -180,7 +180,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyConcentratedLoad\(\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PropertyConcentratedLoad__ctor"></a> PropertyConcentratedLoad\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PropertyConcentratedLoad" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -189,5 +189,4 @@ ObservableObject.PropertyChanged
 ```csharp
 public PropertyConcentratedLoad()
 ```
-
 

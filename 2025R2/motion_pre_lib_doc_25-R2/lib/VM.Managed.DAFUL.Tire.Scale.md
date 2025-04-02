@@ -1,4 +1,4 @@
-# Class Scale
+#  Class Scale
 
 Namespace: [VM.Managed.DAFUL.Tire](VM.Managed.DAFUL.Tire.md)  
 Assembly: VMDTire.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Scale\(\)
+### <a id="VM_Managed_DAFUL_Tire_Scale__ctor"></a> Scale\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Scale" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Scale()
 
 ## Properties
 
-### AligningTorqueScaleFactor
+### <a id="VM_Managed_DAFUL_Tire_Scale_AligningTorqueScaleFactor"></a> AligningTorqueScaleFactor
 
 Gets or sets the aligning torque scale factor.
 
@@ -118,7 +118,7 @@ public ExpressionValueVariable AligningTorqueScaleFactor { get; set; }
 
  ExpressionValueVariable
 
-### ConicityForceOffset
+### <a id="VM_Managed_DAFUL_Tire_Scale_ConicityForceOffset"></a> ConicityForceOffset
 
 Gets or sets the conicity force offset.
 
@@ -130,7 +130,7 @@ public ExpressionValueVariable ConicityForceOffset { get; set; }
 
  ExpressionValueVariable
 
-### ConicityTorqueOffset
+### <a id="VM_Managed_DAFUL_Tire_Scale_ConicityTorqueOffset"></a> ConicityTorqueOffset
 
 Gets or sets the conicity torque offset.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable ConicityTorqueOffset { get; set; }
 
  ExpressionValueVariable
 
-### LateralForceScaleFactor
+### <a id="VM_Managed_DAFUL_Tire_Scale_LateralForceScaleFactor"></a> LateralForceScaleFactor
 
 Gets or sets the lateral force scale factor.
 
@@ -154,7 +154,7 @@ public ExpressionValueVariable LateralForceScaleFactor { get; set; }
 
  ExpressionValueVariable
 
-### OverturningMomentScaleFactor
+### <a id="VM_Managed_DAFUL_Tire_Scale_OverturningMomentScaleFactor"></a> OverturningMomentScaleFactor
 
 Gets or sets the overturning moment scale factor.
 
@@ -166,7 +166,7 @@ public ExpressionValueVariable OverturningMomentScaleFactor { get; set; }
 
  ExpressionValueVariable
 
-### PlysteerForceOffset
+### <a id="VM_Managed_DAFUL_Tire_Scale_PlysteerForceOffset"></a> PlysteerForceOffset
 
 Gets or sets the plysteer force offset.
 
@@ -178,7 +178,7 @@ public ExpressionValueVariable PlysteerForceOffset { get; set; }
 
  ExpressionValueVariable
 
-### PlysteerTorqueOffset
+### <a id="VM_Managed_DAFUL_Tire_Scale_PlysteerTorqueOffset"></a> PlysteerTorqueOffset
 
 Gets or sets the plysteer torque offset.
 
@@ -190,7 +190,7 @@ public ExpressionValueVariable PlysteerTorqueOffset { get; set; }
 
  ExpressionValueVariable
 
-### UnloadedRadiusOffset
+### <a id="VM_Managed_DAFUL_Tire_Scale_UnloadedRadiusOffset"></a> UnloadedRadiusOffset
 
 Gets or sets the unloaded radius offset.
 
@@ -201,5 +201,4 @@ public ExpressionValueVariable UnloadedRadiusOffset { get; set; }
 #### Property Value
 
  ExpressionValueVariable
-
 

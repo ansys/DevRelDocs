@@ -1,4 +1,4 @@
-# Namespace VM.Models
+#  Namespace VM.Models
 
 ### Namespaces
 
@@ -57,5 +57,4 @@
  [StepState](VM.Models.StepState.md)
 
  [StepType](VM.Models.StepType.md)
-
 

@@ -1,4 +1,4 @@
-# Enum Document3D.CadImportUnitType
+#  Enum Document3D.CadImportUnitType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -62,7 +62,6 @@ mm
 `um = 4` 
 
 um
-
 
 
 

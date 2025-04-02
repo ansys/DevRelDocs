@@ -1,4 +1,4 @@
-# Class Variable
+#  Class Variable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -117,7 +117,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Variable\(double, bool\)
+### <a id="VM_Managed_Variable__ctor_System_Double_System_Boolean_"></a> Variable\(double, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.Variable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -135,7 +135,7 @@ The value of Variable(double type).
 
 Determines whether is value without limiting the precision.
 
-### Variable\(double\)
+### <a id="VM_Managed_Variable__ctor_System_Double_"></a> Variable\(double\)
 
 Initializes a new instance of the <xref href="VM.Managed.Variable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -149,7 +149,7 @@ public Variable(double dValue)
 
 The value of Variable(double type). This value will be rounded.
 
-### Variable\(string\)
+### <a id="VM_Managed_Variable__ctor_System_String_"></a> Variable\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Variable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -163,7 +163,7 @@ public Variable(string strValue)
 
 The value of Variable(string type).
 
-### Variable\(\)
+### <a id="VM_Managed_Variable__ctor"></a> Variable\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Variable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -173,7 +173,7 @@ public Variable()
 
 ## Properties
 
-### DontUpdateByReferenceObject
+### <a id="VM_Managed_Variable_DontUpdateByReferenceObject"></a> DontUpdateByReferenceObject
 
 ```csharp
 public bool DontUpdateByReferenceObject { set; }
@@ -183,7 +183,7 @@ public bool DontUpdateByReferenceObject { set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsSimpleValue
+### <a id="VM_Managed_Variable_IsSimpleValue"></a> IsSimpleValue
 
 Gets the simple value.
 
@@ -195,7 +195,7 @@ public virtual bool IsSimpleValue { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### PreciseValue
+### <a id="VM_Managed_Variable_PreciseValue"></a> PreciseValue
 
 Sets the value without limiting the precision.
 
@@ -207,7 +207,7 @@ public double PreciseValue { set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Value
+### <a id="VM_Managed_Variable_Value"></a> Value
 
 Gets or sets the value
 
@@ -221,7 +221,7 @@ public virtual double Value { get; set; }
 
 ## Methods
 
-### Clone\(\)
+### <a id="VM_Managed_Variable_Clone"></a> Clone\(\)
 
 ```csharp
 public virtual object Clone()
@@ -231,7 +231,7 @@ public virtual object Clone()
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### ConvertToValue\(string\)
+### <a id="VM_Managed_Variable_ConvertToValue_System_String_"></a> ConvertToValue\(string\)
 
 Convert to value.
 
@@ -249,7 +249,7 @@ The string.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetFullName\(\)
+### <a id="VM_Managed_Variable_GetFullName"></a> GetFullName\(\)
 
 ```csharp
 public virtual string GetFullName()
@@ -259,7 +259,7 @@ public virtual string GetFullName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetNumericValue\(\)
+### <a id="VM_Managed_Variable_GetNumericValue"></a> GetNumericValue\(\)
 
 Get numeric value.
 
@@ -271,7 +271,7 @@ protected override double GetNumericValue()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetSchema\(\)
+### <a id="VM_Managed_Variable_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -286,7 +286,7 @@ public virtual XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### GetValue\(string\)
+### <a id="VM_Managed_Variable_GetValue_System_String_"></a> GetValue\(string\)
 
 ```csharp
 public static double GetValue(string strValue)
@@ -300,7 +300,7 @@ public static double GetValue(string strValue)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_Variable_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -316,7 +316,7 @@ protected override void LinkRequestDestroying(object obNotifier, LinkEventArgs a
 
 The destroy event information.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_Variable_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -334,7 +334,7 @@ The linked object.
 
 The update event information.
 
-### ParseToValue\(char\*\)
+### <a id="VM_Managed_Variable_ParseToValue_System_Char__"></a> ParseToValue\(char\*\)
 
 Parse to value.
 
@@ -348,7 +348,7 @@ protected override void ParseToValue(char* wstrValue)
 
 The string.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_Variable_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -362,7 +362,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### SetDefaultString\(ref string\)
+### <a id="VM_Managed_Variable_SetDefaultString_System_String__"></a> SetDefaultString\(ref string\)
 
 Set default string.
 
@@ -376,7 +376,7 @@ protected override void SetDefaultString(ref string strValue)
 
 The value holds default string.
 
-### SetExpression\(string\)
+### <a id="VM_Managed_Variable_SetExpression_System_String_"></a> SetExpression\(string\)
 
 Sets the value.
 
@@ -390,7 +390,7 @@ public virtual void SetExpression(string strValue)
 
 The value.
 
-### UpdateByReferenceObject\(object, LinkEventArgs\)
+### <a id="VM_Managed_Variable_UpdateByReferenceObject_System_Object_VM_Managed_LinkEventArgs_"></a> UpdateByReferenceObject\(object, LinkEventArgs\)
 
 The update event occured from the reference object.
 
@@ -408,7 +408,7 @@ The reference object.
 
 The update event information.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_Variable_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -424,7 +424,7 @@ The XmlWriter stream to which the object is serialized.
 
 ## Operators
 
-### implicit operator ExpressionValueVariable\(Variable\)
+### <a id="VM_Managed_Variable_op_Implicit_VM_Managed_Variable__VM_Models_Pre_ExpressionValueVariable"></a> implicit operator ExpressionValueVariable\(Variable\)
 
 Cast operator.
 
@@ -442,7 +442,7 @@ The Variable.
 
  ExpressionValueVariable
 
-### implicit operator Variable\(ExpressionValueVariable\)
+### <a id="VM_Managed_Variable_op_Implicit_VM_Models_Pre_ExpressionValueVariable__VM_Managed_Variable"></a> implicit operator Variable\(ExpressionValueVariable\)
 
 Cast operator.
 
@@ -459,5 +459,4 @@ The ExpressionValue.
 #### Returns
 
  [Variable](VM.Managed.Variable.md)
-
 

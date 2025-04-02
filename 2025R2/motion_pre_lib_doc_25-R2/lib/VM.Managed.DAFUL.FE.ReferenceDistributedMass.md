@@ -1,4 +1,4 @@
-# Class ReferenceDistributedMass
+#  Class ReferenceDistributedMass
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -183,7 +183,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferenceDistributedMass\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_FE_ReferenceDistributedMass__ctor_VM_Managed_ObjectBase_"></a> ReferenceDistributedMass\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ReferenceDistributedMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -197,7 +197,7 @@ public ReferenceDistributedMass(ObjectBase obj)
 
 The reference's object.
 
-### ReferenceDistributedMass\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_DAFUL_FE_ReferenceDistributedMass__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceDistributedMass\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ReferenceDistributedMass" data-throw-if-not-resolved="false"></xref> class.
 
@@ -217,7 +217,7 @@ The context.
 
 ## Methods
 
-### GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
+### <a id="VM_Managed_DAFUL_FE_ReferenceDistributedMass_GetGeometryNavigatorInformation_System_Xml_XmlDocument_System_Xml_XmlElement_"></a> GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
 
 Gets the geometry information for model navigator .
 
@@ -241,7 +241,7 @@ The XmlElement information.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_FE_ReferenceDistributedMass_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -266,5 +266,4 @@ The XmlElement for object.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

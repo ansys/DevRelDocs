@@ -1,4 +1,4 @@
-# Class CreateDTEntityUtil.GearSetRackAndPinionCreateInfo
+#  Class CreateDTEntityUtil.GearSetRackAndPinionCreateInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -52,7 +52,7 @@ public class CreateDTEntityUtil.GearSetRackAndPinionCreateInfo : CreateDTEntityU
 
 ## Constructors
 
-### GearSetRackAndPinionCreateInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetRackAndPinionCreateInfo__ctor"></a> GearSetRackAndPinionCreateInfo\(\)
 
 ```csharp
 public GearSetRackAndPinionCreateInfo()
@@ -60,7 +60,7 @@ public GearSetRackAndPinionCreateInfo()
 
 ## Fields
 
-### DiameterOfRack
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetRackAndPinionCreateInfo_DiameterOfRack"></a> DiameterOfRack
 
 ```csharp
 public double DiameterOfRack
@@ -70,7 +70,7 @@ public double DiameterOfRack
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### HeightOfRack
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetRackAndPinionCreateInfo_HeightOfRack"></a> HeightOfRack
 
 ```csharp
 public double HeightOfRack
@@ -80,7 +80,7 @@ public double HeightOfRack
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RackHelixAngle
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetRackAndPinionCreateInfo_RackHelixAngle"></a> RackHelixAngle
 
 ```csharp
 public double RackHelixAngle
@@ -90,7 +90,7 @@ public double RackHelixAngle
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RackType
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetRackAndPinionCreateInfo_RackType"></a> RackType
 
 ```csharp
 public Rack.BarType RackType
@@ -100,7 +100,7 @@ public Rack.BarType RackType
 
  Rack.BarType
 
-### SideLength
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetRackAndPinionCreateInfo_SideLength"></a> SideLength
 
 ```csharp
 public double SideLength
@@ -110,7 +110,7 @@ public double SideLength
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UseDifferentHelixAngle
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetRackAndPinionCreateInfo_UseDifferentHelixAngle"></a> UseDifferentHelixAngle
 
 ```csharp
 public bool UseDifferentHelixAngle
@@ -122,7 +122,7 @@ public bool UseDifferentHelixAngle
 
 ## Properties
 
-### InputArrayForPlanetaryRackAndPinion
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetRackAndPinionCreateInfo_InputArrayForPlanetaryRackAndPinion"></a> InputArrayForPlanetaryRackAndPinion
 
 ```csharp
 public string[] InputArrayForPlanetaryRackAndPinion { get; }
@@ -134,10 +134,9 @@ public string[] InputArrayForPlanetaryRackAndPinion { get; }
 
 ## Methods
 
-### InitializeRackAndPinion\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetRackAndPinionCreateInfo_InitializeRackAndPinion"></a> InitializeRackAndPinion\(\)
 
 ```csharp
 public void InitializeRackAndPinion()
 ```
-
 

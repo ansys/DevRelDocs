@@ -1,4 +1,4 @@
-# Enum SimulationScenario.Sensor
+#  Enum SimulationScenario.Sensor
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -20,7 +20,6 @@ function
 `Time = 0` 
 
 time
-
 
 
 

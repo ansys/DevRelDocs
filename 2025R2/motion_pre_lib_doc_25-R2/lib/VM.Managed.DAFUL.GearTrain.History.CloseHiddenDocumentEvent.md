@@ -1,4 +1,4 @@
-# Class CloseHiddenDocumentEvent
+#  Class CloseHiddenDocumentEvent
 
 Namespace: [VM.Managed.DAFUL.GearTrain.History](VM.Managed.DAFUL.GearTrain.History.md)  
 Assembly: VMDGearTrain.dll  
@@ -41,7 +41,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### CloseHiddenDocumentEvent\(object, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_History_CloseHiddenDocumentEvent__ctor_System_Object_System_String_"></a> CloseHiddenDocumentEvent\(object, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.History.CloseHiddenDocumentEvent" data-throw-if-not-resolved="false"></xref> class.
 
@@ -61,7 +61,7 @@ The file path.
 
 ## Methods
 
-### CloseHiddenDocument\(object, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_History_CloseHiddenDocumentEvent_CloseHiddenDocument_System_Object_System_String_"></a> CloseHiddenDocument\(object, string\)
 
 Close hidden document.
 
@@ -79,7 +79,7 @@ The object.
 
 The file path.
 
-### Redo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_History_CloseHiddenDocumentEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
 
 Undo this event.
 
@@ -93,7 +93,7 @@ protected override void Redo(HistoryEventArgs args)
 
 The event argument for undo.
 
-### Undo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_History_CloseHiddenDocumentEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
 
 Undo this event.
 
@@ -106,5 +106,4 @@ protected override void Undo(HistoryEventArgs args)
 `args` HistoryEventArgs
 
 The event argument for undo.
-
 

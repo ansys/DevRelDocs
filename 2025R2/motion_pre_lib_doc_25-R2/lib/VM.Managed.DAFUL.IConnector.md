@@ -1,4 +1,4 @@
-# Interface IConnector
+#  Interface IConnector
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -22,7 +22,7 @@ IGenerable
 
 ## Properties
 
-### ActionMarker
+### <a id="VM_Managed_DAFUL_IConnector_ActionMarker"></a> ActionMarker
 
 Gets or sets the action marker.
 
@@ -34,7 +34,7 @@ Marker ActionMarker { get; set; }
 
  [Marker](VM.Managed.DAFUL.Marker.md)
 
-### ActionMarkerParent
+### <a id="VM_Managed_DAFUL_IConnector_ActionMarkerParent"></a> ActionMarkerParent
 
 Gets the parent connector of action marker.
 
@@ -46,7 +46,7 @@ INamed ActionMarkerParent { get; }
 
  INamed
 
-### BaseMarker
+### <a id="VM_Managed_DAFUL_IConnector_BaseMarker"></a> BaseMarker
 
 Gets or sets the base marker.
 
@@ -58,7 +58,7 @@ Marker BaseMarker { get; set; }
 
  [Marker](VM.Managed.DAFUL.Marker.md)
 
-### BaseMarkerParent
+### <a id="VM_Managed_DAFUL_IConnector_BaseMarkerParent"></a> BaseMarkerParent
 
 Gets the parent connector of base marker.
 
@@ -70,7 +70,7 @@ INamed BaseMarkerParent { get; }
 
  INamed
 
-### ConnectorReferenceMarker
+### <a id="VM_Managed_DAFUL_IConnector_ConnectorReferenceMarker"></a> ConnectorReferenceMarker
 
 Gets or sets the reference marker.
 
@@ -82,7 +82,7 @@ IMarker ConnectorReferenceMarker { get; }
 
  IMarker
 
-### PreventDuplicatedRBE
+### <a id="VM_Managed_DAFUL_IConnector_PreventDuplicatedRBE"></a> PreventDuplicatedRBE
 
 Gets a value whether this instance prevent duplicated RBE.
 
@@ -94,7 +94,7 @@ bool PreventDuplicatedRBE { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Property
+### <a id="VM_Managed_DAFUL_IConnector_Property"></a> Property
 
 Gets or sets the property.
 
@@ -105,5 +105,4 @@ Property Property { get; set; }
 #### Property Value
 
  Property
-
 

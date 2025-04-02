@@ -1,4 +1,4 @@
-# Enum ResultType
+#  Enum ResultType
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VM.Models.FE.BeamCrossSection.dll  
@@ -40,5 +40,4 @@ public enum ResultType
 `PostTwoSectionPoints = 5` 
 
 `TwoSectionPoints = 2` 
-
 

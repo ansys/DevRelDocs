@@ -1,4 +1,4 @@
-# Enum HDBGeometryInfo.HDBearingType
+#  Enum HDBGeometryInfo.HDBearingType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ The inner
 `Outer = 1` 
 
 The outer
-
 
 
 

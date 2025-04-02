@@ -1,4 +1,4 @@
-# Class CheckedLink<T, TUpdate, TDestroy, TOwnerDestroy\>
+#  Class CheckedLink<T, TUpdate, TDestroy, TOwnerDestroy\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -62,13 +62,13 @@ public class CheckedLink<T, TUpdate, TDestroy, TOwnerDestroy> : Link<T, TUpdate,
 
 ## Constructors
 
-### CheckedLink\(\)
+### <a id="VM_Managed_CheckedLink_4__ctor"></a> CheckedLink\(\)
 
 ```csharp
 protected CheckedLink()
 ```
 
-### CheckedLink\(ILinkContainer\)
+### <a id="VM_Managed_CheckedLink_4__ctor_VM_Models_Pre_ILinkContainer_"></a> CheckedLink\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.CheckedLink%604" data-throw-if-not-resolved="false"></xref> class.
 
@@ -82,7 +82,7 @@ public CheckedLink(ILinkContainer objParent)
 
 The linked object's container object.
 
-### CheckedLink\(ILinkContainer, T\)
+### <a id="VM_Managed_CheckedLink_4__ctor_VM_Models_Pre_ILinkContainer__0_"></a> CheckedLink\(ILinkContainer, T\)
 
 Initializes a new instance of the <xref href="VM.Managed.CheckedLink%604" data-throw-if-not-resolved="false"></xref> class.
 
@@ -100,7 +100,7 @@ The linked object's container object.
 
 The linked object.
 
-### CheckedLink\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_CheckedLink_4__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> CheckedLink\(SerializationInfo, StreamingContext\)
 
 ```csharp
 protected CheckedLink(SerializationInfo info, StreamingContext context)
@@ -114,7 +114,7 @@ protected CheckedLink(SerializationInfo info, StreamingContext context)
 
 ## Properties
 
-### Checked
+### <a id="VM_Managed_CheckedLink_4_Checked"></a> Checked
 
 Gets or sets the checked state.
 
@@ -128,7 +128,7 @@ public bool Checked { get; set; }
 
 ## Methods
 
-### GetObjectData\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_CheckedLink_4_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> GetObjectData\(SerializationInfo, StreamingContext\)
 
 ```csharp
 protected override void GetObjectData(SerializationInfo info, StreamingContext context)
@@ -140,10 +140,9 @@ protected override void GetObjectData(SerializationInfo info, StreamingContext c
 
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-### OnResetLink\(\)
+### <a id="VM_Managed_CheckedLink_4_OnResetLink"></a> OnResetLink\(\)
 
 ```csharp
 protected virtual void OnResetLink()
 ```
-
 

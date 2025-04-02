@@ -1,4 +1,4 @@
-# Class LeafSpringExtensions
+#  Class LeafSpringExtensions
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -20,7 +20,7 @@ public static class LeafSpringExtensions
 
 ## Methods
 
-### GetLeafBeamElementPositions\(IOutputReader, int, int, \(int A, int B\), double\)
+### <a id="VM_Models_Pre_Force_LeafSpringExtensions_GetLeafBeamElementPositions_VM_Models_OutputReader_IOutputReader_System_Int32_System_Int32_System_ValueTuple_System_Int32_System_Int32__System_Double_"></a> GetLeafBeamElementPositions\(IOutputReader, int, int, \(int A, int B\), double\)
 
 ```csharp
 public static Vector[] GetLeafBeamElementPositions(IOutputReader outputReader, int beamProfilesCount, int leafIndex, (int A, int B) loadIndex, double variation)
@@ -42,7 +42,7 @@ public static Vector[] GetLeafBeamElementPositions(IOutputReader outputReader, i
 
  Vector\[\]
 
-### GetLoadIndex\(\(double Time, double Force\)\[\], double\)
+### <a id="VM_Models_Pre_Force_LeafSpringExtensions_GetLoadIndex_System_ValueTuple_System_Double_System_Double____System_Double_"></a> GetLoadIndex\(\(double Time, double Force\)\[\], double\)
 
 ```csharp
 public static (int A, int B) GetLoadIndex((double Time, double Force)[] loadResult, double designLoad)
@@ -58,7 +58,7 @@ public static (int A, int B) GetLoadIndex((double Time, double Force)[] loadResu
 
  \([int](https://learn.microsoft.com/dotnet/api/system.int32) [A](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32\-.a), [int](https://learn.microsoft.com/dotnet/api/system.int32) [B](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32\-.b)\)
 
-### GetLoadResult\(IOutputReader\)
+### <a id="VM_Models_Pre_Force_LeafSpringExtensions_GetLoadResult_VM_Models_OutputReader_IOutputReader_"></a> GetLoadResult\(IOutputReader\)
 
 ```csharp
 public static (double Time, double Force)[] GetLoadResult(IOutputReader outputReader)
@@ -72,7 +72,7 @@ public static (double Time, double Force)[] GetLoadResult(IOutputReader outputRe
 
  \([double](https://learn.microsoft.com/dotnet/api/system.double) [Time](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.time), [double](https://learn.microsoft.com/dotnet/api/system.double) [Force](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.force)\)\[\]
 
-### GetLoadVariation\(IOutputReader, double, \(int A, int B\)\)
+### <a id="VM_Models_Pre_Force_LeafSpringExtensions_GetLoadVariation_VM_Models_OutputReader_IOutputReader_System_Double_System_ValueTuple_System_Int32_System_Int32__"></a> GetLoadVariation\(IOutputReader, double, \(int A, int B\)\)
 
 ```csharp
 public static double GetLoadVariation(IOutputReader outputReader, double designLoad, (int A, int B) loadIndex)
@@ -90,7 +90,7 @@ public static double GetLoadVariation(IOutputReader outputReader, double designL
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetOutputReader\(string\)
+### <a id="VM_Models_Pre_Force_LeafSpringExtensions_GetOutputReader_System_String_"></a> GetOutputReader\(string\)
 
 ```csharp
 public static IOutputReader GetOutputReader(string resultPath)
@@ -104,7 +104,7 @@ public static IOutputReader GetOutputReader(string resultPath)
 
  IOutputReader
 
-### GetResult\(IOutputReader, string, params string\[\]\)
+### <a id="VM_Models_Pre_Force_LeafSpringExtensions_GetResult_VM_Models_OutputReader_IOutputReader_System_String_System_String___"></a> GetResult\(IOutputReader, string, params string\[\]\)
 
 ```csharp
 public static (double Time, double Value)[] GetResult(IOutputReader outputReader, string target, params string[] paths)
@@ -122,7 +122,7 @@ public static (double Time, double Value)[] GetResult(IOutputReader outputReader
 
  \([double](https://learn.microsoft.com/dotnet/api/system.double) [Time](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.time), [double](https://learn.microsoft.com/dotnet/api/system.double) [Value](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.value)\)\[\]
 
-### GetTransformMatrix\(IOutputReader, string, \(int A, int B\), double, TMatrix?\)
+### <a id="VM_Models_Pre_Force_LeafSpringExtensions_GetTransformMatrix_VM_Models_OutputReader_IOutputReader_System_String_System_ValueTuple_System_Int32_System_Int32__System_Double_System_Nullable_VM_TMatrix__"></a> GetTransformMatrix\(IOutputReader, string, \(int A, int B\), double, TMatrix?\)
 
 ```csharp
 public static TMatrix GetTransformMatrix(IOutputReader outputReader, string targetName, (int A, int B) loadIndex, double variation, TMatrix? repositionMatrix = null)
@@ -144,7 +144,7 @@ public static TMatrix GetTransformMatrix(IOutputReader outputReader, string targ
 
  TMatrix
 
-### IsTestSimulationCompleted\(IOutputReader, double\)
+### <a id="VM_Models_Pre_Force_LeafSpringExtensions_IsTestSimulationCompleted_VM_Models_OutputReader_IOutputReader_System_Double_"></a> IsTestSimulationCompleted\(IOutputReader, double\)
 
 ```csharp
 public static bool IsTestSimulationCompleted(IOutputReader outputReader, double endTime)
@@ -159,5 +159,4 @@ public static bool IsTestSimulationCompleted(IOutputReader outputReader, double 
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

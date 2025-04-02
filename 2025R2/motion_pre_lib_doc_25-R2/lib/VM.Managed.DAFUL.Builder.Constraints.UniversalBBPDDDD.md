@@ -1,4 +1,4 @@
-# Class UniversalBBPDDDD
+#  Class UniversalBBPDDDD
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  
@@ -61,10 +61,9 @@ BuilderBase<Universal\>.ErrorMessage
 
 ## Constructors
 
-### UniversalBBPDDDD\(\)
+### <a id="VM_Managed_DAFUL_Builder_Constraints_UniversalBBPDDDD__ctor"></a> UniversalBBPDDDD\(\)
 
 ```csharp
 public UniversalBBPDDDD()
 ```
-
 

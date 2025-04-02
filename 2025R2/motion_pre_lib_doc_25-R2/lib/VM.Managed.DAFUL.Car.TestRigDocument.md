@@ -1,4 +1,4 @@
-# Class TestRigDocument
+#  Class TestRigDocument
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -595,7 +595,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### TestRigDocument\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument__ctor_System_UIntPtr_"></a> TestRigDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TestRigDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -611,7 +611,7 @@ The document handle.
 
 ## Properties
 
-### BrakeRatio
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_BrakeRatio"></a> BrakeRatio
 
 Gets or sets the brake ratio.
 
@@ -623,7 +623,7 @@ public ExpressionValueVariable BrakeRatio { get; set; }
 
  ExpressionValueVariable
 
-### CGHeight
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_CGHeight"></a> CGHeight
 
 Gets or sets the height of the CG.
 
@@ -635,7 +635,7 @@ public ExpressionValueVariable CGHeight { get; set; }
 
  ExpressionValueVariable
 
-### DriveRatio
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_DriveRatio"></a> DriveRatio
 
 Gets or sets the drive ratio.
 
@@ -647,7 +647,7 @@ public ExpressionValueVariable DriveRatio { get; set; }
 
  ExpressionValueVariable
 
-### HasSteering
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_HasSteering"></a> HasSteering
 
 Gets or sets a value indicating whether this document has steering subsystem or not.
 
@@ -659,7 +659,7 @@ public bool HasSteering { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### InitialCategories
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_InitialCategories"></a> InitialCategories
 
 Gets the initial categories.
 
@@ -671,7 +671,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### IsPowerSteer
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_IsPowerSteer"></a> IsPowerSteer
 
 Gets a value indicating whether this instance is power steering.
 
@@ -683,7 +683,7 @@ public bool IsPowerSteer { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SimulationScenarioTypeName
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_SimulationScenarioTypeName"></a> SimulationScenarioTypeName
 
 Gets the name of the simulation scenario type.
 
@@ -695,7 +695,7 @@ public override string SimulationScenarioTypeName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SprungMass
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_SprungMass"></a> SprungMass
 
 Gets or sets the sprung mass.
 
@@ -707,7 +707,7 @@ public ExpressionValueVariable SprungMass { get; set; }
 
  ExpressionValueVariable
 
-### TireStiffness
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_TireStiffness"></a> TireStiffness
 
 Gets or sets the tire stiffness.
 
@@ -719,7 +719,7 @@ public ExpressionValueVariable TireStiffness { get; set; }
 
  ExpressionValueVariable
 
-### Tread
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_Tread"></a> Tread
 
 Gets or sets the tread.
 
@@ -731,7 +731,7 @@ public ExpressionValueVariable Tread { get; set; }
 
  ExpressionValueVariable
 
-### UnloadedRadius
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_UnloadedRadius"></a> UnloadedRadius
 
 Gets or sets the unloaded radius.
 
@@ -743,7 +743,7 @@ public ExpressionValueVariable UnloadedRadius { get; set; }
 
  ExpressionValueVariable
 
-### WheelBase
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_WheelBase"></a> WheelBase
 
 Gets or sets the wheel base.
 
@@ -755,7 +755,7 @@ public ExpressionValueVariable WheelBase { get; set; }
 
  ExpressionValueVariable
 
-### WheelMass
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_WheelMass"></a> WheelMass
 
 Gets or sets the wheel mass.
 
@@ -769,7 +769,7 @@ public ExpressionValueVariable WheelMass { get; set; }
 
 ## Methods
 
-### FindCategory\(string\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_FindCategory_System_String_"></a> FindCategory\(string\)
 
 Finds the category.
 
@@ -789,7 +789,7 @@ The fullname of type.
 
 The category.
 
-### GetAnalysisFromSimulationConfigurations\(SuspensionAnalysisType\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_GetAnalysisFromSimulationConfigurations_VM_Managed_DAFUL_Car_SuspensionAnalysisType_"></a> GetAnalysisFromSimulationConfigurations\(SuspensionAnalysisType\)
 
 Gets the analysis from simulation configurations.
 
@@ -807,7 +807,7 @@ The type.
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### GetSimulationConfigurationType\(\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_GetSimulationConfigurationType"></a> GetSimulationConfigurationType\(\)
 
 Gets the type of the simulation configuration.
 
@@ -821,7 +821,7 @@ public override string GetSimulationConfigurationType()
 
 The type of the simulation configuration.
 
-### GetSuspensionConfigurationFromSimulationConfigurations\(SuspensionAnalysisType\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_GetSuspensionConfigurationFromSimulationConfigurations_VM_Managed_DAFUL_Car_SuspensionAnalysisType_"></a> GetSuspensionConfigurationFromSimulationConfigurations\(SuspensionAnalysisType\)
 
 Gets the suspension configuration from simulation configurations.
 
@@ -839,7 +839,7 @@ The type.
 
  [SuspensionAnalysisConfigurationBase](VM.Managed.DAFUL.Car.SuspensionAnalysisConfigurationBase.md)
 
-### InitializeCategoryInfo\(string\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
 
 Initializes the category info.
 
@@ -853,7 +853,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the STR category.
 
-### InitializeSimParam\(\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_InitializeSimParam"></a> InitializeSimParam\(\)
 
 Initializes the simulation parameter.
 
@@ -861,7 +861,7 @@ Initializes the simulation parameter.
 protected override void InitializeSimParam()
 ```
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -879,7 +879,7 @@ The linked object.
 
 The destroy event information.
 
-### LoadTemplateBasedXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_LoadTemplateBasedXml_System_Xml_XmlReader_"></a> LoadTemplateBasedXml\(XmlReader\)
 
 Loads the XML for template based document.
 
@@ -893,7 +893,7 @@ protected override void LoadTemplateBasedXml(XmlReader reader)
 
 The reader.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -907,7 +907,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### ReplaceAssembly\(string\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_ReplaceAssembly_System_String_"></a> ReplaceAssembly\(string\)
 
 Replaces the assembly.
 
@@ -921,7 +921,7 @@ public override void ReplaceAssembly(string strAssemblyInfo)
 
 The assembly info.
 
-### SaveTemplateBasedXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_SaveTemplateBasedXml_System_Xml_XmlWriter_"></a> SaveTemplateBasedXml\(XmlWriter\)
 
 Saves the XML for template based document.
 
@@ -935,7 +935,7 @@ protected override void SaveTemplateBasedXml(XmlWriter writer)
 
 The writer.
 
-### SetPowerSteering\(bool\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_SetPowerSteering_System_Boolean_"></a> SetPowerSteering\(bool\)
 
 Set power steering.
 
@@ -949,7 +949,7 @@ public void SetPowerSteering(bool bIsPowerSteering)
 
 The flag.
 
-### SetTemplateInfoImpl\(DocFromTemplateInfo\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocument_SetTemplateInfoImpl_VM_Managed_DocFromTemplateInfo_"></a> SetTemplateInfoImpl\(DocFromTemplateInfo\)
 
 Sets the template info. [Implemetation]
 
@@ -962,5 +962,4 @@ protected override void SetTemplateInfoImpl(DocFromTemplateInfo docTemplateInfo)
 `docTemplateInfo` DocFromTemplateInfo
 
 The doc template info.
-
 

@@ -1,4 +1,4 @@
-# Class ExtendedMemberInfo<T\>
+#  Class ExtendedMemberInfo<T\>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -24,7 +24,7 @@ public abstract class ExtendedMemberInfo<T> where T : MemberInfo
 
 ## Constructors
 
-### ExtendedMemberInfo\(T\)
+### <a id="VM_ExtendedMemberInfo_1__ctor__0_"></a> ExtendedMemberInfo\(T\)
 
 ```csharp
 public ExtendedMemberInfo(T info)
@@ -36,7 +36,7 @@ public ExtendedMemberInfo(T info)
 
 ## Properties
 
-### Info
+### <a id="VM_ExtendedMemberInfo_1_Info"></a> Info
 
 ```csharp
 protected T Info { get; }
@@ -48,7 +48,7 @@ protected T Info { get; }
 
 ## Methods
 
-### HasAttribute<TAttribute\>\(\)
+### <a id="VM_ExtendedMemberInfo_1_HasAttribute__1"></a> HasAttribute<TAttribute\>\(\)
 
 ```csharp
 public bool HasAttribute<TAttribute>() where TAttribute : Attribute
@@ -62,7 +62,7 @@ public bool HasAttribute<TAttribute>() where TAttribute : Attribute
 
 `TAttribute` 
 
-### TryGetAttributeInstance<TAttribute\>\(out TAttribute\)
+### <a id="VM_ExtendedMemberInfo_1_TryGetAttributeInstance__1___0__"></a> TryGetAttributeInstance<TAttribute\>\(out TAttribute\)
 
 ```csharp
 public bool TryGetAttributeInstance<TAttribute>(out TAttribute attribute) where TAttribute : Attribute
@@ -79,5 +79,4 @@ public bool TryGetAttributeInstance<TAttribute>(out TAttribute attribute) where 
 #### Type Parameters
 
 `TAttribute` 
-
 

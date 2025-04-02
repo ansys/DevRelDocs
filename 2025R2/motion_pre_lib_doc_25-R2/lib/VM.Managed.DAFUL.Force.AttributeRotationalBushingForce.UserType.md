@@ -1,4 +1,4 @@
-# Enum AttributeRotationalBushingForce.UserType
+#  Enum AttributeRotationalBushingForce.UserType
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -20,7 +20,6 @@ Auto
 `Manual = 1` 
 
 Manual
-
 
 
 

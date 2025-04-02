@@ -1,4 +1,4 @@
-# Class CreateDTEntityUtil.GearSetCrossHelicalCreateInfo
+#  Class CreateDTEntityUtil.GearSetCrossHelicalCreateInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -52,7 +52,7 @@ public class CreateDTEntityUtil.GearSetCrossHelicalCreateInfo : CreateDTEntityUt
 
 ## Constructors
 
-### GearSetCrossHelicalCreateInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCrossHelicalCreateInfo__ctor"></a> GearSetCrossHelicalCreateInfo\(\)
 
 ```csharp
 public GearSetCrossHelicalCreateInfo()
@@ -60,7 +60,7 @@ public GearSetCrossHelicalCreateInfo()
 
 ## Fields
 
-### CrossAxisAngle
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCrossHelicalCreateInfo_CrossAxisAngle"></a> CrossAxisAngle
 
 ```csharp
 public double CrossAxisAngle
@@ -72,7 +72,7 @@ public double CrossAxisAngle
 
 ## Properties
 
-### InputArrayForCrossHelical
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCrossHelicalCreateInfo_InputArrayForCrossHelical"></a> InputArrayForCrossHelical
 
 ```csharp
 public string[] InputArrayForCrossHelical { get; }
@@ -84,10 +84,9 @@ public string[] InputArrayForCrossHelical { get; }
 
 ## Methods
 
-### InitializeCrossHelical\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCrossHelicalCreateInfo_InitializeCrossHelical"></a> InitializeCrossHelical\(\)
 
 ```csharp
 public void InitializeCrossHelical()
 ```
-
 

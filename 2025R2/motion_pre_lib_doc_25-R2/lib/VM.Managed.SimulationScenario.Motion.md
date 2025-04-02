@@ -1,4 +1,4 @@
-# Enum SimulationScenario.Motion
+#  Enum SimulationScenario.Motion
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -26,7 +26,6 @@ R. Motion
 `TMotion = 2` 
 
 T. Motion
-
 
 
 

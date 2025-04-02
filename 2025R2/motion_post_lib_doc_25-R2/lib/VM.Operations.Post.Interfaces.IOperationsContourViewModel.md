@@ -1,4 +1,4 @@
-# Interface IOperationsContourViewModel
+#  Interface IOperationsContourViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -82,7 +82,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### AutoRange
+### <a id="VM_Operations_Post_Interfaces_IOperationsContourViewModel_AutoRange"></a> AutoRange
 
 Gets or sets a value indicating whether the maximum and minimum range values are set automatically.
 
@@ -102,7 +102,7 @@ For an example that includes this property, see the [Interface IOperationsContou
 
 Use this property to specify or retrieve whether the maximum and minimum values of the range are set automatically.
 
-### Component
+### <a id="VM_Operations_Post_Interfaces_IOperationsContourViewModel_Component"></a> Component
 
 Gets or sets the contour component.
 
@@ -122,7 +122,7 @@ For an example that includes this property, see the [Interface IOperationsContou
 
 Use this property to specify or retrieve the contour component. The available components can be referred to in the UI Contour ActionPanel.
 
-### ComponentList
+### <a id="VM_Operations_Post_Interfaces_IOperationsContourViewModel_ComponentList"></a> ComponentList
 
 Gets the list of available components.
 
@@ -142,7 +142,7 @@ For an example that includes this property, see the [Interface IOperationsContou
 
 Use this property to retrieve the list of available components.
 
-### Continuous
+### <a id="VM_Operations_Post_Interfaces_IOperationsContourViewModel_Continuous"></a> Continuous
 
 Gets or sets a value indicating whether to allow gradation between colors.
 
@@ -162,7 +162,7 @@ For an example that includes this property, see the [Interface IOperationsContou
 
 Use this property to specify or retrieve whether color gradation is allowed.
 
-### FullName
+### <a id="VM_Operations_Post_Interfaces_IOperationsContourViewModel_FullName"></a> FullName
 
 Gets or sets the full name of the contour.
 
@@ -182,7 +182,7 @@ For an example that includes this property, see the [Interface IOperationsContou
 
 Use this property to specify or retrieve the full name of the contour.
 
-### IsEnabled
+### <a id="VM_Operations_Post_Interfaces_IOperationsContourViewModel_IsEnabled"></a> IsEnabled
 
 Gets or sets a value indicating whether the contour is enabled.
 
@@ -202,7 +202,7 @@ For an example that includes this property, see the [Interface IOperationsContou
 
 Use this property to specify or retrieve whether the contour is enabled.
 
-### LegendColorScheme
+### <a id="VM_Operations_Post_Interfaces_IOperationsContourViewModel_LegendColorScheme"></a> LegendColorScheme
 
 Gets or sets the color scheme of the legend.
 
@@ -228,7 +228,7 @@ By setting this property, you can ensure that the Legend is displayed with the d
 This property allows you to set the color scheme of the legend. The available color schemes are:
 <ul><li><xref href="VM.Models.Post.ColorSchemeType.NORMAL" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.NORMAL_INVERTED" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.BLACK_TO_WHITE" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.WHITE_TO_BLACK" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.GREEN_TO_BROWN" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.WHITE_TO_BROWN" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.METAL_CASTING" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.THERMAL_1" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.THERMAL_2" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.THERMAL_3" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### LegendFontColor
+### <a id="VM_Operations_Post_Interfaces_IOperationsContourViewModel_LegendFontColor"></a> LegendFontColor
 
 Gets or sets the font color of the contour legend.
 
@@ -248,7 +248,7 @@ For an example that includes this property, see the [Interface IOperationsContou
 
 Use this property to specify or retrieve the font color of the contour legend.
 
-### LegendVisibility
+### <a id="VM_Operations_Post_Interfaces_IOperationsContourViewModel_LegendVisibility"></a> LegendVisibility
 
 Gets or sets a value indicating whether the legend is visible.
 
@@ -268,7 +268,7 @@ For an example that includes this property, see the [Interface IOperationsContou
 
 Use this property to specify or retrieve whether the legend is displayed or hidden.
 
-### LogScale
+### <a id="VM_Operations_Post_Interfaces_IOperationsContourViewModel_LogScale"></a> LogScale
 
 Gets or sets a value indicating whether to scale the values using a logarithmic function.
 
@@ -288,7 +288,7 @@ For an example that includes this property, see the [Interface IOperationsContou
 
 Use this property to specify or retrieve whether the values are scaled using a logarithmic function.
 
-### Max
+### <a id="VM_Operations_Post_Interfaces_IOperationsContourViewModel_Max"></a> Max
 
 Gets or sets the maximum value of the contour.
 
@@ -308,7 +308,7 @@ For an example that includes this property, see the [Interface IOperationsContou
 
 Use this property to specify or retrieve the maximum value of the contour when the Auto Range option is disabled.
 
-### Min
+### <a id="VM_Operations_Post_Interfaces_IOperationsContourViewModel_Min"></a> Min
 
 Gets or sets the minimum value of the contour.
 
@@ -328,7 +328,7 @@ For an example that includes this property, see the [Interface IOperationsContou
 
 Use this property to specify or retrieve the minimum value of the contour when the Auto Range option is disabled.
 
-### MinMaxTargetType
+### <a id="VM_Operations_Post_Interfaces_IOperationsContourViewModel_MinMaxTargetType"></a> MinMaxTargetType
 
 Gets or sets the type of extremal values to be displayed.
 

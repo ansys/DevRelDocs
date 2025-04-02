@@ -1,4 +1,4 @@
-# Class GroupActionBase
+#  Class GroupActionBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -22,7 +22,7 @@ public abstract class GroupActionBase
 
 ## Constructors
 
-### GroupActionBase\(\)
+### <a id="VM_Managed_DAFUL_GroupActionBase__ctor"></a> GroupActionBase\(\)
 
 ```csharp
 protected GroupActionBase()
@@ -30,7 +30,7 @@ protected GroupActionBase()
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GroupActionBase_Name"></a> Name
 
 Gets the name.
 
@@ -44,7 +44,7 @@ public abstract string Name { get; }
 
 ## Methods
 
-### Action\(ObjectBase\[\], bool\)
+### <a id="VM_Managed_DAFUL_GroupActionBase_Action_VM_Managed_ObjectBase___System_Boolean_"></a> Action\(ObjectBase\[\], bool\)
 
 Actions the specified obs.
 
@@ -62,7 +62,7 @@ The obs.
 
 if set to <code>true</code> [b on off].
 
-### State\(ObjectBase\[\]\)
+### <a id="VM_Managed_DAFUL_GroupActionBase_State_VM_Managed_ObjectBase___"></a> State\(ObjectBase\[\]\)
 
 States the specified obs.
 
@@ -79,5 +79,4 @@ The obs.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

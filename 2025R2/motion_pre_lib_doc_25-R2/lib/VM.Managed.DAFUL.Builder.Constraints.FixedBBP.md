@@ -1,4 +1,4 @@
-# Class FixedBBP
+#  Class FixedBBP
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCB.dll  
@@ -61,10 +61,9 @@ BuilderBase<Fixed\>.ErrorMessage
 
 ## Constructors
 
-### FixedBBP\(\)
+### <a id="VM_Managed_DAFUL_Builder_Constraints_FixedBBP__ctor"></a> FixedBBP\(\)
 
 ```csharp
 public FixedBBP()
 ```
-
 

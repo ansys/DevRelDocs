@@ -1,4 +1,4 @@
-# Class CalculateWebStiffness
+#  Class CalculateWebStiffness
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -81,7 +81,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### CalculateWebStiffness\(HiddenGearSetDocumentBase, string, string, double, double, double, double, double, double\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness__ctor_VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_System_String_System_String_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_"></a> CalculateWebStiffness\(HiddenGearSetDocumentBase, string, string, double, double, double, double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateWebStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -127,7 +127,7 @@ The target density.
 
 The target damping ratio.
 
-### CalculateWebStiffness\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness__ctor_VM_Managed_Operation_JournalParameter_"></a> CalculateWebStiffness\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateWebStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -143,7 +143,7 @@ The jp.
 
 ## Fields
 
-### m\_arResult
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_arResult"></a> m\_arResult
 
 m_arResult
 
@@ -155,7 +155,7 @@ protected string[] m_arResult
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### m\_dAngle
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dAngle"></a> m\_dAngle
 
 m_dAngle
 
@@ -167,7 +167,7 @@ protected double m_dAngle
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dDampingRatio
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dDampingRatio"></a> m\_dDampingRatio
 
 m_dDampingRatio
 
@@ -179,7 +179,7 @@ protected double m_dDampingRatio
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dDensity
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dDensity"></a> m\_dDensity
 
 m_dDensity
 
@@ -191,7 +191,7 @@ protected double m_dDensity
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dIxx
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dIxx"></a> m\_dIxx
 
 m_dIxx
 
@@ -203,7 +203,7 @@ protected double m_dIxx
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dIxy
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dIxy"></a> m\_dIxy
 
 m_dIxy
 
@@ -215,7 +215,7 @@ protected double m_dIxy
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dIxz
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dIxz"></a> m\_dIxz
 
 m_dIxz
 
@@ -227,7 +227,7 @@ protected double m_dIxz
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dIyy
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dIyy"></a> m\_dIyy
 
 m_dIyy
 
@@ -239,7 +239,7 @@ protected double m_dIyy
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dIyz
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dIyz"></a> m\_dIyz
 
 m_dIyz
 
@@ -251,7 +251,7 @@ protected double m_dIyz
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dIzz
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dIzz"></a> m\_dIzz
 
 m_dIzz
 
@@ -263,7 +263,7 @@ protected double m_dIzz
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dMass
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dMass"></a> m\_dMass
 
 m_dMass
 
@@ -275,7 +275,7 @@ protected double m_dMass
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dPoissonRatio
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dPoissonRatio"></a> m\_dPoissonRatio
 
 m_dPoissonRatio
 
@@ -287,7 +287,7 @@ protected double m_dPoissonRatio
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dRange
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dRange"></a> m\_dRange
 
 m_dRange
 
@@ -299,7 +299,7 @@ protected double m_dRange
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dYoungsModulus
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_dYoungsModulus"></a> m\_dYoungsModulus
 
 m_dYoungsModulus
 
@@ -311,7 +311,7 @@ protected double m_dYoungsModulus
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_doc
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_doc"></a> m\_doc
 
 m_doc
 
@@ -323,7 +323,7 @@ protected HiddenGearSetDocumentBase m_doc
 
  HiddenGearSetDocumentBase
 
-### m\_strDATFilePath
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_strDATFilePath"></a> m\_strDATFilePath
 
 m_strDATFilePath
 
@@ -335,7 +335,7 @@ protected string m_strDATFilePath
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### m\_strDocInfo
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_m_strDocInfo"></a> m\_strDocInfo
 
 m_strDocInfo
 
@@ -349,7 +349,7 @@ protected string m_strDocInfo
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Name"></a> Name
 
 Gets the operation name.
 
@@ -363,7 +363,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -371,7 +371,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -385,7 +385,7 @@ public override void GetInformation(XmlWriter writer)
 
 The writer.
 
-### Ixx\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Ixx"></a> Ixx\(\)
 
 Ixx.
 
@@ -397,7 +397,7 @@ public double Ixx()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Ixy\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Ixy"></a> Ixy\(\)
 
 Ixy.
 
@@ -409,7 +409,7 @@ public double Ixy()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Ixz\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Ixz"></a> Ixz\(\)
 
 Ixz.
 
@@ -421,7 +421,7 @@ public double Ixz()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Iyy\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Iyy"></a> Iyy\(\)
 
 Iyy.
 
@@ -433,7 +433,7 @@ public double Iyy()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Iyz\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Iyz"></a> Iyz\(\)
 
 Iyz.
 
@@ -445,7 +445,7 @@ public double Iyz()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Izz\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Izz"></a> Izz\(\)
 
 Izz.
 
@@ -457,7 +457,7 @@ public double Izz()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Mass\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Mass"></a> Mass\(\)
 
 Mass.
 
@@ -469,7 +469,7 @@ public double Mass()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ReadOutFile\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_ReadOutFile_System_String_"></a> ReadOutFile\(string\)
 
 Reads the out file.
 
@@ -489,7 +489,7 @@ The string path.
 
 The result text lines.
 
-### Result\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateWebStiffness_Result"></a> Result\(\)
 
 Results this instance.
 
@@ -500,5 +500,4 @@ public string[] Result()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
-
 

@@ -1,4 +1,4 @@
-# Namespace VM.CAD.Kernel.Render
+#  Namespace VM.CAD.Kernel.Render
 
 ### Classes
 
@@ -27,5 +27,4 @@ Specifies type for a line.
  [MarkerType](VM.CAD.Kernel.Render.MarkerType.md)
 
 Specifies type for a marker.
-
 

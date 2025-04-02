@@ -1,4 +1,4 @@
-# Class UnbalanceMassOnRBE
+#  Class UnbalanceMassOnRBE
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -175,7 +175,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### UnbalanceMassOnRBE\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_UnbalanceMassOnRBE__ctor"></a> UnbalanceMassOnRBE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.UnbalanceMassOnRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -183,7 +183,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Unbalan
 public UnbalanceMassOnRBE()
 ```
 
-### UnbalanceMassOnRBE\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_UnbalanceMassOnRBE__ctor_System_String_"></a> UnbalanceMassOnRBE\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.UnbalanceMassOnRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -199,7 +199,7 @@ Name of the sub entity.
 
 ## Properties
 
-### CenterPositionOfDummyBody
+### <a id="VM_Managed_DAFUL_GearTrain_UnbalanceMassOnRBE_CenterPositionOfDummyBody"></a> CenterPositionOfDummyBody
 
 Gets the center position of dummy body.
 
@@ -211,7 +211,7 @@ public VectorBase CenterPositionOfDummyBody { get; }
 
  VectorBase
 
-### Mass
+### <a id="VM_Managed_DAFUL_GearTrain_UnbalanceMassOnRBE_Mass"></a> Mass
 
 Gets or sets the mass.
 
@@ -223,7 +223,7 @@ public ExpressionValueVariable Mass { get; set; }
 
  ExpressionValueVariable
 
-### MomentArm
+### <a id="VM_Managed_DAFUL_GearTrain_UnbalanceMassOnRBE_MomentArm"></a> MomentArm
 
 Gets or sets the moment arm.
 
@@ -235,7 +235,7 @@ public ExpressionValueVariable MomentArm { get; set; }
 
  ExpressionValueVariable
 
-### ZAxis
+### <a id="VM_Managed_DAFUL_GearTrain_UnbalanceMassOnRBE_ZAxis"></a> ZAxis
 
 Gets or sets the start axis.
 
@@ -249,7 +249,7 @@ public DirectionBase ZAxis { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_UnbalanceMassOnRBE_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -262,5 +262,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

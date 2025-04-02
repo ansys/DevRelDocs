@@ -1,4 +1,4 @@
-# Class Imprint
+#  Class Imprint
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -58,7 +58,7 @@ public abstract class Imprint : BooleanBase<BuilderImprint>, IBuilder
 
 ## Constructors
 
-### Imprint\(\)
+### <a id="VM_Managed_DAFUL_Builder_Imprint__ctor"></a> Imprint\(\)
 
 ```csharp
 protected Imprint()
@@ -66,7 +66,7 @@ protected Imprint()
 
 ## Properties
 
-### Type
+### <a id="VM_Managed_DAFUL_Builder_Imprint_Type"></a> Type
 
 ```csharp
 protected override string Type { get; }
@@ -78,7 +78,7 @@ protected override string Type { get; }
 
 ## Methods
 
-### Build\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_Imprint_Build_VM_Managed_Document_"></a> Build\(Document\)
 
 ```csharp
 public override void Build(Document doc)
@@ -88,7 +88,7 @@ public override void Build(Document doc)
 
 `doc` Document
 
-### GetFaces\(PickedFace\)
+### <a id="VM_Managed_DAFUL_Builder_Imprint_GetFaces_VM_Managed_DAFUL_Builder_PickedFace_"></a> GetFaces\(PickedFace\)
 
 ```csharp
 protected Face[] GetFaces(PickedFace facePick)
@@ -101,5 +101,4 @@ protected Face[] GetFaces(PickedFace facePick)
 #### Returns
 
  Face\[\]
-
 

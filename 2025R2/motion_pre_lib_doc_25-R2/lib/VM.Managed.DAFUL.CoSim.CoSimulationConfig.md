@@ -1,4 +1,4 @@
-# Class CoSimulationConfig
+#  Class CoSimulationConfig
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### CoSimulationConfig\(\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimulationConfig__ctor"></a> CoSimulationConfig\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimulationConfig" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public CoSimulationConfig()
 
 ## Properties
 
-### ExecutingProgramPath
+### <a id="VM_Managed_DAFUL_CoSim_CoSimulationConfig_ExecutingProgramPath"></a> ExecutingProgramPath
 
 Gets or sets excutable program path.
 
@@ -121,7 +121,7 @@ public string ExecutingProgramPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### MFileName
+### <a id="VM_Managed_DAFUL_CoSim_CoSimulationConfig_MFileName"></a> MFileName
 
 Gets or sets the name of the M file.
 
@@ -135,7 +135,7 @@ public string MFileName { get; set; }
 
 ## Methods
 
-### GetExtraInformation\(\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimulationConfig_GetExtraInformation"></a> GetExtraInformation\(\)
 
 Gets the extra information.
 
@@ -148,5 +148,4 @@ public override string GetExtraInformation()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The extra information.
-
 

@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Builder.Linear
+#  Namespace VM.Managed.DAFUL.Builder.Linear
 
 ### Classes
 
@@ -19,5 +19,4 @@
 ### Structs
 
  [OutputChannel.CheckedMarker](VM.Managed.DAFUL.Builder.Linear.OutputChannel.CheckedMarker.md)
-
 

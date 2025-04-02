@@ -1,4 +1,4 @@
-# Class GearTrainSimulationAPI
+#  Class GearTrainSimulationAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -22,7 +22,7 @@ public static class GearTrainSimulationAPI
 
 ## Methods
 
-### ExportDFG\(GearTrainDocument, string\)
+### <a id="VM_API_Pre_GearTrain_GearTrainSimulationAPI_ExportDFG_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_"></a> ExportDFG\(GearTrainDocument, string\)
 
 Export DFS file
 
@@ -48,7 +48,7 @@ The file path to export DFG file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFS\(GearTrainDocument, string\)
+### <a id="VM_API_Pre_GearTrain_GearTrainSimulationAPI_ExportDFS_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_"></a> ExportDFS\(GearTrainDocument, string\)
 
 Export DFS file
 
@@ -74,7 +74,7 @@ The file path to export DFS file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFSXML\(GearTrainDocument, string\)
+### <a id="VM_API_Pre_GearTrain_GearTrainSimulationAPI_ExportDFSXML_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_"></a> ExportDFSXML\(GearTrainDocument, string\)
 
 Export DFSXML file
 
@@ -100,7 +100,7 @@ The file path to export DFSXML file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### RunSimulation\(GearTrainDocument, SimulationParameter\)
+### <a id="VM_API_Pre_GearTrain_GearTrainSimulationAPI_RunSimulation_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_"></a> RunSimulation\(GearTrainDocument, SimulationParameter\)
 
 Run simulation.
 
@@ -124,5 +124,4 @@ The simulation parameter.
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document' argument is empty.
-
 

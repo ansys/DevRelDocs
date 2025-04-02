@@ -1,4 +1,4 @@
-# Class SuspensionAnalysisConfigurationBase
+#  Class SuspensionAnalysisConfigurationBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -198,7 +198,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SuspensionAnalysisConfigurationBase\(\)
+### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisConfigurationBase__ctor"></a> SuspensionAnalysisConfigurationBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SuspensionAnalysisConfigurationBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -208,7 +208,7 @@ public SuspensionAnalysisConfigurationBase()
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisConfigurationBase_Analysis"></a> Analysis
 
 Gets or sets the analysis.
 
@@ -220,7 +220,7 @@ public abstract AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisConfigurationBase_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -232,7 +232,7 @@ protected abstract string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_SuspensionAnalysisConfigurationBase_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -243,5 +243,4 @@ public abstract SuspensionAnalysisType AnalysisType { get; }
 #### Property Value
 
  [SuspensionAnalysisType](VM.Managed.DAFUL.Car.SuspensionAnalysisType.md)
-
 

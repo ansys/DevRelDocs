@@ -1,4 +1,4 @@
-# Interface IConnectorPosition
+#  Interface IConnectorPosition
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -15,7 +15,7 @@ public interface IConnectorPosition
 
 ## Properties
 
-### NumberOfPoint
+### <a id="VM_Managed_DAFUL_Builder_IConnectorPosition_NumberOfPoint"></a> NumberOfPoint
 
 ```csharp
 int NumberOfPoint { get; }
@@ -27,7 +27,7 @@ int NumberOfPoint { get; }
 
 ## Methods
 
-### SetPosition\(Marker, Marker, PickedResult\[\]\)
+### <a id="VM_Managed_DAFUL_Builder_IConnectorPosition_SetPosition_VM_Managed_DAFUL_Marker_VM_Managed_DAFUL_Marker_VM_Managed_DAFUL_Builder_PickedResult___"></a> SetPosition\(Marker, Marker, PickedResult\[\]\)
 
 ```csharp
 void SetPosition(Marker BM, Marker AM, PickedResult[] pickresult)
@@ -40,5 +40,4 @@ void SetPosition(Marker BM, Marker AM, PickedResult[] pickresult)
 `AM` Marker
 
 `pickresult` [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md)\[\]
-
 

@@ -1,4 +1,4 @@
-# Class NameUpdateOperation
+#  Class NameUpdateOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### NameUpdateOperation\(INamed, string\)
+### <a id="VM_Managed_DAFUL_Operation_NameUpdateOperation__ctor_VM_Managed_INamed_System_String_"></a> NameUpdateOperation\(INamed, string\)
 
 ```csharp
 public NameUpdateOperation(INamed nameObject, string strNewName)
@@ -89,7 +89,7 @@ public NameUpdateOperation(INamed nameObject, string strNewName)
 
 `strNewName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NameUpdateOperation\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_NameUpdateOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> NameUpdateOperation\(JournalParameter\)
 
 ```csharp
 public NameUpdateOperation(JournalParameter jp)
@@ -101,7 +101,7 @@ public NameUpdateOperation(JournalParameter jp)
 
 ## Properties
 
-### IsSuccess
+### <a id="VM_Managed_DAFUL_Operation_NameUpdateOperation_IsSuccess"></a> IsSuccess
 
 ```csharp
 public bool IsSuccess { get; }
@@ -111,7 +111,7 @@ public bool IsSuccess { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_NameUpdateOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -125,7 +125,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_NameUpdateOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -133,7 +133,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Operation_NameUpdateOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -142,5 +142,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

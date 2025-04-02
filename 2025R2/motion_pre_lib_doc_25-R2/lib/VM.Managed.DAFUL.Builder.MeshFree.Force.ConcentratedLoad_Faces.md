@@ -1,4 +1,4 @@
-# Class ConcentratedLoad\_Faces
+#  Class ConcentratedLoad\_Faces
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree.Force](VM.Managed.DAFUL.Builder.MeshFree.Force.md)  
 Assembly: VMBldMeshFree.dll  
@@ -53,7 +53,7 @@ BuilderBase<ConcentratedLoad\>.ErrorMessage
 
 ## Constructors
 
-### ConcentratedLoad\_Faces\(\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_ConcentratedLoad_Faces__ctor"></a> ConcentratedLoad\_Faces\(\)
 
 ```csharp
 public ConcentratedLoad_Faces()
@@ -61,7 +61,7 @@ public ConcentratedLoad_Faces()
 
 ## Properties
 
-### BaseGeometry
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_ConcentratedLoad_Faces_BaseGeometry"></a> BaseGeometry
 
 ```csharp
 public string[] BaseGeometry { get; set; }
@@ -71,7 +71,7 @@ public string[] BaseGeometry { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### InputArray
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_ConcentratedLoad_Faces_InputArray"></a> InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -83,7 +83,7 @@ public string[] InputArray { get; set; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_ConcentratedLoad_Faces_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -99,7 +99,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_Force_ConcentratedLoad_Faces_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -112,5 +112,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

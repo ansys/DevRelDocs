@@ -1,4 +1,4 @@
-# Class MeshDocumentChainedPath
+#  Class MeshDocumentChainedPath
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -574,7 +574,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MeshDocumentChainedPath\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_Chained_MeshDocumentChainedPath__ctor_System_UIntPtr_"></a> MeshDocumentChainedPath\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.MeshDocumentChainedPath" data-throw-if-not-resolved="false"></xref> class.
 
@@ -590,7 +590,7 @@ The document handle.
 
 ## Properties
 
-### InitialCategories
+### <a id="VM_Managed_DAFUL_Chained_MeshDocumentChainedPath_InitialCategories"></a> InitialCategories
 
 Gets the initialize categories.
 
@@ -602,7 +602,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### WorkingPlane
+### <a id="VM_Managed_DAFUL_Chained_MeshDocumentChainedPath_WorkingPlane"></a> WorkingPlane
 
 Gets or sets the working plane.
 
@@ -616,7 +616,7 @@ public Plane WorkingPlane { get; set; }
 
 ## Methods
 
-### CreateAssemblyImpl\(\)
+### <a id="VM_Managed_DAFUL_Chained_MeshDocumentChainedPath_CreateAssemblyImpl"></a> CreateAssemblyImpl\(\)
 
 Creates the assembly [implementation].
 
@@ -630,7 +630,7 @@ protected override Assembly CreateAssemblyImpl()
 
 The assembly.
 
-### FindCategory\(string\)
+### <a id="VM_Managed_DAFUL_Chained_MeshDocumentChainedPath_FindCategory_System_String_"></a> FindCategory\(string\)
 
 Finds the category.
 
@@ -650,7 +650,7 @@ The fullname of type.
 
 The category.
 
-### GetData\(XmlNode\)
+### <a id="VM_Managed_DAFUL_Chained_MeshDocumentChainedPath_GetData_System_Xml_XmlNode_"></a> GetData\(XmlNode\)
 
 Gets the ChainedPath mesh document information data.
 
@@ -664,7 +664,7 @@ public override void GetData(XmlNode writer)
 
 The writer.
 
-### InitializeCategoryInfo\(string\)
+### <a id="VM_Managed_DAFUL_Chained_MeshDocumentChainedPath_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
 
 Initializes the category info.
 
@@ -678,7 +678,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the STR category.
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Chained_MeshDocumentChainedPath_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -696,7 +696,7 @@ The linked object.
 
 The destroy event information.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Chained_MeshDocumentChainedPath_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -710,7 +710,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
+### <a id="VM_Managed_DAFUL_Chained_MeshDocumentChainedPath_OnPostMakeDocumentImpl_VM_Managed_DocCreateAnalysisInfo_"></a> OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
 
 Called when [post make document] [implementation].
 
@@ -724,7 +724,7 @@ public override void OnPostMakeDocumentImpl(DocCreateAnalysisInfo info)
 
 The [analysis document create information].
 
-### SetData\(XmlNode\)
+### <a id="VM_Managed_DAFUL_Chained_MeshDocumentChainedPath_SetData_System_Xml_XmlNode_"></a> SetData\(XmlNode\)
 
 Sets the ChainedPath mesh document information data.
 
@@ -737,5 +737,4 @@ public override void SetData(XmlNode reader)
 `reader` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
 
 The reader.
-
 

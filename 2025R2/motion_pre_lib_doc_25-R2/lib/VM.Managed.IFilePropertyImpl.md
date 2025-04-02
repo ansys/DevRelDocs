@@ -1,4 +1,4 @@
-# Class IFilePropertyImpl
+#  Class IFilePropertyImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -22,7 +22,7 @@ public sealed class IFilePropertyImpl
 
 ## Constructors
 
-### IFilePropertyImpl\(\)
+### <a id="VM_Managed_IFilePropertyImpl__ctor"></a> IFilePropertyImpl\(\)
 
 ```csharp
 public IFilePropertyImpl()
@@ -30,7 +30,7 @@ public IFilePropertyImpl()
 
 ## Methods
 
-### GetAbsulutePath<T\>\(T\)
+### <a id="VM_Managed_IFilePropertyImpl_GetAbsulutePath__1___0_"></a> GetAbsulutePath<T\>\(T\)
 
 Gets the absulute path.
 
@@ -54,7 +54,7 @@ The absulute path
 
 `T` 
 
-### GetChilds\(PropertyDocumentBase\)
+### <a id="VM_Managed_IFilePropertyImpl_GetChilds_VM_Managed_PropertyDocumentBase_"></a> GetChilds\(PropertyDocumentBase\)
 
 Gets object container in document.
 
@@ -74,7 +74,7 @@ The document.
 
 The object container in document.
 
-### GetPropertyDocumentImpl<T\>\(T\)
+### <a id="VM_Managed_IFilePropertyImpl_GetPropertyDocumentImpl__1___0_"></a> GetPropertyDocumentImpl<T\>\(T\)
 
 Gets the property document.
 
@@ -98,7 +98,7 @@ The property document.
 
 `T` 
 
-### GetRelativePath<T\>\(T, string\)
+### <a id="VM_Managed_IFilePropertyImpl_GetRelativePath__1___0_System_String_"></a> GetRelativePath<T\>\(T, string\)
 
 Gets the relative path.
 
@@ -126,7 +126,7 @@ The relative path
 
 `T` 
 
-### GetUnitImpl<T\>\(T\)
+### <a id="VM_Managed_IFilePropertyImpl_GetUnitImpl__1___0_"></a> GetUnitImpl<T\>\(T\)
 
 Gets the unit of property document.
 
@@ -150,7 +150,7 @@ The unit
 
 `T` 
 
-### SetChilds\(ObjectBase\[\], PropertyDocumentBase\)
+### <a id="VM_Managed_IFilePropertyImpl_SetChilds_VM_Managed_ObjectBase___VM_Managed_PropertyDocumentBase_"></a> SetChilds\(ObjectBase\[\], PropertyDocumentBase\)
 
 Sets object container in document.
 
@@ -167,5 +167,4 @@ The object container.
 `doc` [PropertyDocumentBase](VM.Managed.PropertyDocumentBase.md)
 
 The document.
-
 

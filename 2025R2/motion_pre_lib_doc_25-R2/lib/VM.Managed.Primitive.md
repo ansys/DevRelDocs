@@ -1,4 +1,4 @@
-# Class Primitive
+#  Class Primitive
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class Primitive
 
 ## Constructors
 
-### Primitive\(\)
+### <a id="VM_Managed_Primitive__ctor"></a> Primitive\(\)
 
 ```csharp
 public Primitive()
@@ -30,7 +30,7 @@ public Primitive()
 
 ## Properties
 
-### RefType
+### <a id="VM_Managed_Primitive_RefType"></a> RefType
 
 Gets or Sets the parametric reference type.
 
@@ -41,5 +41,4 @@ public static Primitive.enRefType RefType { get; set; }
 #### Property Value
 
  [Primitive](VM.Managed.Primitive.md).[enRefType](VM.Managed.Primitive.enRefType.md)
-
 

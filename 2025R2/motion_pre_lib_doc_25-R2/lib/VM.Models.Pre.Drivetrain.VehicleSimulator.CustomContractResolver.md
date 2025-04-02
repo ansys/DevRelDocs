@@ -1,4 +1,4 @@
-# Class CustomContractResolver
+#  Class CustomContractResolver
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -57,7 +57,7 @@ DefaultContractResolver.NamingStrategy
 
 ## Constructors
 
-### CustomContractResolver\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_CustomContractResolver__ctor"></a> CustomContractResolver\(\)
 
 ```csharp
 public CustomContractResolver()
@@ -65,7 +65,7 @@ public CustomContractResolver()
 
 ## Fields
 
-### Instance
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_CustomContractResolver_Instance"></a> Instance
 
 ```csharp
 public static readonly CustomContractResolver Instance
@@ -77,7 +77,7 @@ public static readonly CustomContractResolver Instance
 
 ## Methods
 
-### GetSerializableMembers\(Type\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_CustomContractResolver_GetSerializableMembers_System_Type_"></a> GetSerializableMembers\(Type\)
 
 Gets the serializable members for the type.
 
@@ -96,5 +96,4 @@ The type to get serializable members for.
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[MemberInfo](https://learn.microsoft.com/dotnet/api/system.reflection.memberinfo)\>
 
 The serializable members for the type.
-
 

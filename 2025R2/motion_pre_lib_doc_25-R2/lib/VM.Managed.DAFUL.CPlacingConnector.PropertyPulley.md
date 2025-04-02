@@ -1,4 +1,4 @@
-# Class PropertyPulley
+#  Class PropertyPulley
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyPulley\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyPulley__ctor"></a> PropertyPulley\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.PropertyPulley" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertyPulley()
 
 ## Properties
 
-### Content
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyPulley_Content"></a> Content
 
 Gets or sets the shape of pin.
 
@@ -187,7 +187,7 @@ public PulleyContent Content { get; set; }
 
  [PulleyContent](VM.Managed.DAFUL.CPlacingConnector.PulleyContent.md)
 
-### NumberOfRadialPoint
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyPulley_NumberOfRadialPoint"></a> NumberOfRadialPoint
 
 Gets or sets the number of radial point.
 
@@ -205,7 +205,7 @@ public ExpressionValueVariable NumberOfRadialPoint { get; set; }
 
 The number of radial point is null.
 
-### NumberOfTangentialPoint
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyPulley_NumberOfTangentialPoint"></a> NumberOfTangentialPoint
 
 Gets or sets the number of tangential point.
 
@@ -225,7 +225,7 @@ The number of tangential point is null.
 
 ## Methods
 
-### GetPointOnSheave\(bool\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyPulley_GetPointOnSheave_System_Boolean_"></a> GetPointOnSheave\(bool\)
 
 Gets the point in sheave
 
@@ -243,7 +243,7 @@ The tangential use
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>\>
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyPulley_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -256,5 +256,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

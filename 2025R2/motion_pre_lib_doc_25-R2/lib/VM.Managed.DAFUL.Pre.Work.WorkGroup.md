@@ -1,4 +1,4 @@
-# Class Work.WorkGroup
+#  Class Work.WorkGroup
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -34,7 +34,7 @@ public class Work.WorkGroup : Group<Work.WorkGroup, GroupItem>, IWorkGroup
 
 ## Constructors
 
-### WorkGroup\(\)
+### <a id="VM_Managed_DAFUL_Pre_Work_WorkGroup__ctor"></a> WorkGroup\(\)
 
 ```csharp
 public WorkGroup()
@@ -42,7 +42,7 @@ public WorkGroup()
 
 ## Properties
 
-### SubModels
+### <a id="VM_Managed_DAFUL_Pre_Work_WorkGroup_SubModels"></a> SubModels
 
 Gets or sets the sub models.
 
@@ -53,5 +53,4 @@ public List<Model> SubModels { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Model](VM.Managed.DAFUL.Pre.Model.md)\>
-
 

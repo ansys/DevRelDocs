@@ -1,4 +1,4 @@
-# Class ThrustConfiguration
+#  Class ThrustConfiguration
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -193,7 +193,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ThrustConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Track_ThrustConfiguration__ctor"></a> ThrustConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.ThrustConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -203,7 +203,7 @@ public ThrustConfiguration()
 
 ## Properties
 
-### ConfigurationName
+### <a id="VM_Managed_DAFUL_Track_ThrustConfiguration_ConfigurationName"></a> ConfigurationName
 
 Gets the configuration name
 
@@ -214,5 +214,4 @@ public override string ConfigurationName { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

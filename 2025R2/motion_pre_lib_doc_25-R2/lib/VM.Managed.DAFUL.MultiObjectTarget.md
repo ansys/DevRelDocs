@@ -1,4 +1,4 @@
-# Struct MultiObjectTarget
+#  Struct MultiObjectTarget
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,7 +11,7 @@ public struct MultiObjectTarget
 
 ## Constructors
 
-### MultiObjectTarget\(ObjectBase, ObjectBase\)
+### <a id="VM_Managed_DAFUL_MultiObjectTarget__ctor_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> MultiObjectTarget\(ObjectBase, ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectTarget" data-throw-if-not-resolved="false"></xref> struct.
 
@@ -29,7 +29,7 @@ The base object.
 
 The action object.
 
-### MultiObjectTarget\(ObjectBase, ObjectBase, bool\)
+### <a id="VM_Managed_DAFUL_MultiObjectTarget__ctor_VM_Managed_ObjectBase_VM_Managed_ObjectBase_System_Boolean_"></a> MultiObjectTarget\(ObjectBase, ObjectBase, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectTarget" data-throw-if-not-resolved="false"></xref> struct.
 
@@ -53,7 +53,7 @@ if set to <code>true</code> [swap base action].
 
 ## Fields
 
-### ActionObject
+### <a id="VM_Managed_DAFUL_MultiObjectTarget_ActionObject"></a> ActionObject
 
 Get action object.
 
@@ -65,7 +65,7 @@ public ObjectBase ActionObject
 
  ObjectBase
 
-### BaseObject
+### <a id="VM_Managed_DAFUL_MultiObjectTarget_BaseObject"></a> BaseObject
 
 Get base object.
 
@@ -79,7 +79,7 @@ public ObjectBase BaseObject
 
 ## Methods
 
-### Equals\(object\)
+### <a id="VM_Managed_DAFUL_MultiObjectTarget_Equals_System_Object_"></a> Equals\(object\)
 
 Determines whether the specified <xref href="System.Object" data-throw-if-not-resolved="false"></xref> is equal to this instance.
 
@@ -99,7 +99,7 @@ The <xref href="System.Object" data-throw-if-not-resolved="false"></xref> to com
 
 <code>true</code> if the specified <xref href="System.Object" data-throw-if-not-resolved="false"></xref> is equal to this instance; otherwise, <code>false</code>.
 
-### GetHashCode\(\)
+### <a id="VM_Managed_DAFUL_MultiObjectTarget_GetHashCode"></a> GetHashCode\(\)
 
 Returns a hash code for this instance.
 
@@ -115,7 +115,7 @@ A hash code for this instance, suitable for use in hashing algorithms and data s
 
 ## Operators
 
-### operator ==\(MultiObjectTarget, MultiObjectTarget\)
+### <a id="VM_Managed_DAFUL_MultiObjectTarget_op_Equality_VM_Managed_DAFUL_MultiObjectTarget_VM_Managed_DAFUL_MultiObjectTarget_"></a> operator ==\(MultiObjectTarget, MultiObjectTarget\)
 
 Implements the operator ==.
 
@@ -139,7 +139,7 @@ The right.
 
 The result of the operator.
 
-### operator \!=\(MultiObjectTarget, MultiObjectTarget\)
+### <a id="VM_Managed_DAFUL_MultiObjectTarget_op_Inequality_VM_Managed_DAFUL_MultiObjectTarget_VM_Managed_DAFUL_MultiObjectTarget_"></a> operator \!=\(MultiObjectTarget, MultiObjectTarget\)
 
 Implements the operator !=.
 
@@ -162,5 +162,4 @@ The right.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 The result of the operator.
-
 

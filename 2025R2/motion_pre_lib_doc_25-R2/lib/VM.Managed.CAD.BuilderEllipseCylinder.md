@@ -1,4 +1,4 @@
-# Class BuilderEllipseCylinder
+#  Class BuilderEllipseCylinder
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -204,7 +204,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderEllipseCylinder\(\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinder__ctor"></a> BuilderEllipseCylinder\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseCylinder" data-throw-if-not-resolved="false"></xref> class
 
@@ -214,7 +214,7 @@ public BuilderEllipseCylinder()
 
 ## Properties
 
-### \_MajorAxis
+### <a id="VM_Managed_CAD_BuilderEllipseCylinder__MajorAxis"></a> \_MajorAxis
 
 ```csharp
 public abstract VectorBase _MajorAxis { get; }
@@ -224,7 +224,7 @@ public abstract VectorBase _MajorAxis { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### \_RadiusMinor
+### <a id="VM_Managed_CAD_BuilderEllipseCylinder__RadiusMinor"></a> \_RadiusMinor
 
 Gets the minor radius of cylinder(variable).
 
@@ -238,7 +238,7 @@ public abstract double _RadiusMinor { get; }
 
 ## Methods
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinder_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Checks validation about build.
 
@@ -246,7 +246,7 @@ Checks validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinder_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -256,7 +256,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinder_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -265,5 +265,4 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
-
 

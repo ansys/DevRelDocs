@@ -1,4 +1,4 @@
-# Enum VerticalModeForSetupType
+#  Enum VerticalModeForSetupType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.Suspension](VM.Managed.DAFUL.Car.Analysis.Suspension.md)  
 Assembly: VMDCar.dll  
@@ -20,7 +20,6 @@ Contact Patch Height
 `WheelCenterHeight = 0` 
 
 Wheel Center Height
-
 
 
 
