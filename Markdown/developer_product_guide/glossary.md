@@ -4,7 +4,7 @@
 
 ### **API** (Application Program Interface)
 
-An API is any programmatic interface between an application and something else. In software, however, API usually refers to a text-based web API like a REST API or gRPC API.
+An API is a programmatic interface between an application and something else. In software, API usually refers to a text-based web API like a REST API or gRPC API.
 
 ### **Back end**
 
@@ -20,7 +20,7 @@ The front end of a software application is the part the user interacts with. Thi
 
 ### **gRPC** (Google Remote Procedure Call)
 
-gRPC is a high-performance, open-source RPC (remote procedure call) framework developed by Google. It allows clients to invoke methods on servers as if they were local, enabling efficient communication between distributed systems. gRPC uses Protocol Buffers (protobuf) for defining data structure schemas and supports multiple languages. It is known for its speed and bi-directional streaming, making it popular for microservices and high-throughput applications.
+gRPC is a high-performance, open-source RPC (remote procedure call) framework developed by Google. It lets clients invoke methods on servers as if they were local, enabling efficient communication between distributed systems. gRPC uses Protocol Buffers (protobuf) for defining data structure schemas and supports multiple languages. It is known for its speed and bi-directional streaming, making it popular for microservices and high-throughput applications.
 
 ### **GUI** (Graphical User Interface)
 
@@ -28,7 +28,7 @@ The GUI of an application includes the graphical elements that allow interaction
 
 ### **Programmatic interface**
 
-A programmatic interface allows software systems to interact with one another through code. This includes APIs in their traditional meaning but also Python wrappers.
+A programmatic interface lets software systems interact with one another through code. This includes APIs in their traditional meaning but also Python wrappers.
 
 ### **REST** (Representational State Transfer)
 
@@ -50,7 +50,7 @@ UX describes the experience of a user operating a system, product, or service. I
 
 ### **Library**
 
-A library in Python refers to a collection of pre-written functions, classes, and variables that perform specific tasks. This term and "package" are often used interchangeably. Although there are many asserted distinctions between the two terms, there is no general consensus. For example, The Python Standard Library has its own specific definition that is not interchangeable with "package."
+A library in Python is a collection of pre-written functions, classes, and variables that perform specific tasks. This term and "package" are often used interchangeably. Although there are many asserted distinctions between the two terms, there is no general consensus. For example, the Python Standard Library has its own specific definition that is not interchangeable with "package."
 
 ### **Module**
 
@@ -90,7 +90,7 @@ A wrapper is code or a function that wraps around another piece of code, typical
 
 ### **Dependencies**
 
-Dependencies in programming refer to external libraries, modules, or packages that a software application requires to function properly. For example, PyMAPDL depends on PyVista to run. Users must download PyVista as an external package and install it separately for PyMAPDL to operate. The package manager typically handles dependency installations.
+Dependencies in programming are external libraries, modules, or packages that a software application requires to function properly. For example, PyMAPDL depends on PyVista to run. Users must download PyVista as an external package and install it separately for PyMAPDL to operate. The package manager typically handles dependency installations.
 
 ### **Framework**
 
@@ -98,7 +98,7 @@ A framework is a pre-built, structured collection of code that provides a founda
 
 ### **Transient dependencies**
 
-Transient dependencies are indirect dependencies. These are the packages, modules, and libraries that a project's dependencies rely on. They are typically not declared by the package that they are needed for. For example, [PyMAPDL dependencies](https://github.com/ansys/pymapdl/blob/main/pyproject.toml) include the [`matplotlib`](https://matplotlib.org/stable/), but `matplotlib` depends on [`Pillow`](https://pillow.readthedocs.io/en/latest/), which is not listed in PyMAPDL's dependencies. This means `Pillow` is a transient dependency.
+Transient dependencies are indirect dependencies. These are the packages, modules, and libraries that a project's dependencies rely on. They are typically not declared by the package that they are needed for. For example, [PyMAPDL dependencies](https://github.com/ansys/pymapdl/blob/main/pyproject.toml) include [Matplotlib](https://matplotlib.org/stable/), but Matplotlib depends on [Pillow](https://pillow.readthedocs.io/en/latest/), which is not listed in PyMAPDL's dependencies. This means Pillow is a transient dependency.
 
 ## Ansys acronyms and abbreviations
 
@@ -113,8 +113,6 @@ Ansys uses many acronyms and abbreviations internally and externally. Here are t
 * **ASAF:** Ansys Solution Application Framework
 
 ## Developer acronyms, abbreviations, and jargon
-
-Developers often use the following acronyms, abbreviations, and jargon.
 
 ### Acronyms and abbreviations
 
