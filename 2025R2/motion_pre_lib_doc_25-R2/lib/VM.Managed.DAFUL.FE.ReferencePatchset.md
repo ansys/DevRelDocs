@@ -1,4 +1,4 @@
-# Class ReferencePatchset
+#  Class ReferencePatchset
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -206,7 +206,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferencePatchset\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset__ctor_VM_Managed_ObjectBase_"></a> ReferencePatchset\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ReferencePatchset" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,7 +220,7 @@ public ReferencePatchset(ObjectBase obj)
 
 The reference's object.
 
-### ReferencePatchset\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferencePatchset\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ReferencePatchset" data-throw-if-not-resolved="false"></xref> class.
 
@@ -240,7 +240,7 @@ The context.
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -252,7 +252,7 @@ public virtual ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### FullName
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_FullName"></a> FullName
 
 Gets the full name.
 
@@ -264,7 +264,7 @@ public override sealed string FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Gap
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_Gap"></a> Gap
 
 The gap
 
@@ -276,7 +276,7 @@ public virtual ExpressionValueVariable Gap { get; }
 
  ExpressionValueVariable
 
-### GeometryFullName
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_GeometryFullName"></a> GeometryFullName
 
 Gets the geometry full name
 
@@ -288,7 +288,7 @@ public string GeometryFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GeometryNameForMultiContact
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_GeometryNameForMultiContact"></a> GeometryNameForMultiContact
 
 Gets the name for multiple contact
 
@@ -300,7 +300,7 @@ public string GeometryNameForMultiContact { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### HalfThickness
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_HalfThickness"></a> HalfThickness
 
 Gets or sets the half thickness.
 
@@ -312,7 +312,7 @@ public virtual ExpressionValueVariable HalfThickness { get; set; }
 
  ExpressionValueVariable
 
-### MaxPenetration
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_MaxPenetration"></a> MaxPenetration
 
 Gets the maximum penetation.
 
@@ -324,7 +324,7 @@ public virtual ExpressionValueVariable MaxPenetration { get; }
 
  ExpressionValueVariable
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_ReferenceType"></a> ReferenceType
 
 Gets the type of the reference.
 
@@ -336,7 +336,7 @@ public virtual string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SurfaceSmoothingType
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_SurfaceSmoothingType"></a> SurfaceSmoothingType
 
 Gets or sets the surface smoothing.
 
@@ -350,7 +350,7 @@ public virtual SurfaceSmoothing SurfaceSmoothingType { get; set; }
 
 ## Methods
 
-### GetCenterPositionDirection\(uint, ref VectorBase, ref VectorBase, IReferencable\)
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_GetCenterPositionDirection_System_UInt32_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetCenterPositionDirection\(uint, ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the center position and direction.
 
@@ -374,7 +374,7 @@ The direction.
 
 `__unnamed003` IReferencable
 
-### GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_GetGeometryNavigatorInformation_System_Xml_XmlDocument_System_Xml_XmlElement_"></a> GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
 
 Gets the geometry information for model navigator .
 
@@ -398,7 +398,7 @@ The XmlElement information.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -424,7 +424,7 @@ The XmlElement for object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPatchCount\(\)
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_GetPatchCount"></a> GetPatchCount\(\)
 
 Gets the count of patch.
 
@@ -438,7 +438,7 @@ public virtual uint GetPatchCount()
 
 The count of patch.
 
-### GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the point direction.
 
@@ -466,7 +466,7 @@ The reference.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### IsOwner\(Reference\)
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_IsOwner_VM_Managed_Reference_"></a> IsOwner\(Reference\)
 
 Determines whether the specified owner.
 
@@ -484,7 +484,7 @@ public override bool IsOwner(Reference owner)
 
 <code>true</code> if the specified owner; otherwise, <code>false</code>.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -502,7 +502,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### SetGap\(string\)
+### <a id="VM_Managed_DAFUL_FE_ReferencePatchset_SetGap_System_String_"></a> SetGap\(string\)
 
 Sets the gap
 
@@ -515,5 +515,4 @@ public virtual void SetGap(string strValue)
 `strValue` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The value
-
 

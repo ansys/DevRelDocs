@@ -1,4 +1,4 @@
-# Class Mesh.ElementContainer
+#  Class Mesh.ElementContainer
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -22,7 +22,7 @@ public sealed class Mesh.ElementContainer
 
 ## Constructors
 
-### ElementContainer\(Mesh, ElementType, uint\)
+### <a id="VM_Managed_DAFUL_FE_Mesh_ElementContainer__ctor_VM_Managed_DAFUL_FE_Mesh_VM_Managed_DAFUL_FE_ElementType_System_UInt32_"></a> ElementContainer\(Mesh, ElementType, uint\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Mesh.ElementContainer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,7 +46,7 @@ The index of element type.
 
 ## Properties
 
-### Count
+### <a id="VM_Managed_DAFUL_FE_Mesh_ElementContainer_Count"></a> Count
 
 Gets the count.
 
@@ -58,7 +58,7 @@ public uint Count { get; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### Mesh
+### <a id="VM_Managed_DAFUL_FE_Mesh_ElementContainer_Mesh"></a> Mesh
 
 Gets the mesh.
 
@@ -70,7 +70,7 @@ public Mesh Mesh { get; }
 
  [Mesh](VM.Managed.DAFUL.FE.Mesh.md)
 
-### Type
+### <a id="VM_Managed_DAFUL_FE_Mesh_ElementContainer_Type"></a> Type
 
 Gets the element type.
 
@@ -82,7 +82,7 @@ public ElementType Type { get; }
 
  [ElementType](VM.Managed.DAFUL.FE.ElementType.md)
 
-### this\[uint\]
+### <a id="VM_Managed_DAFUL_FE_Mesh_ElementContainer_Item_System_UInt32_"></a> this\[uint\]
 
 ```csharp
 public Element this[uint nIndex] { get; set; }
@@ -91,5 +91,4 @@ public Element this[uint nIndex] { get; set; }
 #### Property Value
 
  [Element](VM.Managed.DAFUL.FE.Element.md)
-
 

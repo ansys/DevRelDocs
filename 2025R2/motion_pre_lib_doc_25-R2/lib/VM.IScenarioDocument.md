@@ -1,4 +1,4 @@
-# Interface IScenarioDocument
+#  Interface IScenarioDocument
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IScenarioDocument
 
 ## Methods
 
-### GetGravity\(\)
+### <a id="VM_IScenarioDocument_GetGravity"></a> GetGravity\(\)
 
 ```csharp
 Vector GetGravity()
@@ -25,7 +25,7 @@ Vector GetGravity()
 
  [Vector](VM.Vector.md)
 
-### GetName\(\)
+### <a id="VM_IScenarioDocument_GetName"></a> GetName\(\)
 
 ```csharp
 string GetName()
@@ -35,7 +35,7 @@ string GetName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetPath\(\)
+### <a id="VM_IScenarioDocument_GetPath"></a> GetPath\(\)
 
 ```csharp
 string GetPath()
@@ -45,7 +45,7 @@ string GetPath()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetScenarioValue\(\)
+### <a id="VM_IScenarioDocument_GetScenarioValue"></a> GetScenarioValue\(\)
 
 ```csharp
 Array GetScenarioValue()
@@ -54,5 +54,4 @@ Array GetScenarioValue()
 #### Returns
 
  [Array](https://learn.microsoft.com/dotnet/api/system.array)
-
 

@@ -1,4 +1,4 @@
-# Class PropertyReboundstopDocument
+#  Class PropertyReboundstopDocument
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -309,12 +309,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyReboundstopDocument\(\)
+### <a id="VM_Managed_DAFUL_Car_Force_PropertyReboundstopDocument__ctor"></a> PropertyReboundstopDocument\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertyReboundstopDocument" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyReboundstopDocument()
 ```
-
 

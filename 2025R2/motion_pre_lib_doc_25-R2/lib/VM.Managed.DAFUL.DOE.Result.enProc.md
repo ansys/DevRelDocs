@@ -1,4 +1,4 @@
-# Enum enProc
+#  Enum enProc
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -14,5 +14,4 @@ public enum enProc
 `PROC_PRE = 0` 
 
 `PROC_SOLVER = 1` 
-
 

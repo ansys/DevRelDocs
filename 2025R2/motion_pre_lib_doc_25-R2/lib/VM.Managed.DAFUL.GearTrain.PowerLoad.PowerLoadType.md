@@ -1,4 +1,4 @@
-# Enum PowerLoad.PowerLoadType
+#  Enum PowerLoad.PowerLoadType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ The input
 `Output = 1` 
 
 The output
-
 
 
 

@@ -1,4 +1,4 @@
-# Enum ClearanceInfo.AxialType
+#  Enum ClearanceInfo.AxialType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,7 +26,6 @@ The left
 `Right = 2` 
 
 The right
-
 
 
 

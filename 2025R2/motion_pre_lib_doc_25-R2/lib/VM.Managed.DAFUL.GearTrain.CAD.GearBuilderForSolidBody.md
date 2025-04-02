@@ -1,4 +1,4 @@
-# Class GearBuilderForSolidBody
+#  Class GearBuilderForSolidBody
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -225,7 +225,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearBuilderForSolidBody\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForSolidBody__ctor"></a> GearBuilderForSolidBody\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.GearBuilderForSolidBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -233,7 +233,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Gea
 public GearBuilderForSolidBody()
 ```
 
-### GearBuilderForSolidBody\(GearGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForSolidBody__ctor_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> GearBuilderForSolidBody\(GearGeometryInfo\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.GearBuilderForSolidBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -249,7 +249,7 @@ The geometry information.
 
 ## Properties
 
-### GearGeometryInformation
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForSolidBody_GearGeometryInformation"></a> GearGeometryInformation
 
 Gets or sets the gear geometry information.
 
@@ -260,5 +260,4 @@ public override GearGeometryInfo GearGeometryInformation { get; set; }
 #### Property Value
 
  [GearGeometryInfo](VM.Managed.DAFUL.GearTrain.GearGeometryInfo.md)
-
 

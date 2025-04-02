@@ -1,4 +1,4 @@
-# Class Face
+#  Class Face
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -168,7 +168,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Face\(\)
+### <a id="VM_Managed_CAD_Face__ctor"></a> Face\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Face" data-throw-if-not-resolved="false"></xref> class.
 
@@ -178,7 +178,7 @@ public Face()
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_CAD_Face_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws face.
 
@@ -192,7 +192,7 @@ public void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### FacetPositions\(FacetOption\)
+### <a id="VM_Managed_CAD_Face_FacetPositions_VM_Models_Pre_FacetOption_"></a> FacetPositions\(FacetOption\)
 
 Gets the facet position array.
 
@@ -210,7 +210,7 @@ The facet options.
 
  [VectorBase](VM.Managed.VectorBase.md)\[\]
 
-### GetArea\(\)
+### <a id="VM_Managed_CAD_Face_GetArea"></a> GetArea\(\)
 
 Get area of face.
 
@@ -222,7 +222,7 @@ public double GetArea()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetDefaultMaxPenetration\(ref double\)
+### <a id="VM_Managed_CAD_Face_GetDefaultMaxPenetration_System_Double__"></a> GetDefaultMaxPenetration\(ref double\)
 
 Gets the default maximum penetration.
 
@@ -242,7 +242,7 @@ The value holds maximum penetration.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetFacetInfo\(FacetOption, ref VectorBase\[\], ref int\[\]\)
+### <a id="VM_Managed_CAD_Face_GetFacetInfo_VM_Models_Pre_FacetOption_VM_Managed_VectorBase____System_Int32____"></a> GetFacetInfo\(FacetOption, ref VectorBase\[\], ref int\[\]\)
 
 Get facet information.
 
@@ -264,7 +264,7 @@ The facet point array.
 
 The facet connetivity array.
 
-### GetFacetMidPointInfo\(FacetOption, ref VectorBase\[\]\)
+### <a id="VM_Managed_CAD_Face_GetFacetMidPointInfo_VM_Models_Pre_FacetOption_VM_Managed_VectorBase____"></a> GetFacetMidPointInfo\(FacetOption, ref VectorBase\[\]\)
 
 Get facet middle point information.
 
@@ -282,7 +282,7 @@ The facet options.
 
 The facet middle point array.
 
-### GetPointAndDirection\(ref VectorBase, ref VectorBase, double, double\)
+### <a id="VM_Managed_CAD_Face_GetPointAndDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__System_Double_System_Double_"></a> GetPointAndDirection\(ref VectorBase, ref VectorBase, double, double\)
 
 ```csharp
 public bool GetPointAndDirection(ref VectorBase vecPosition, ref VectorBase vecDirection, double dU, double dV)
@@ -302,7 +302,7 @@ public bool GetPointAndDirection(ref VectorBase vecPosition, ref VectorBase vecD
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetPointAndDirection\(ref VectorBase, ref VectorBase\)
+### <a id="VM_Managed_CAD_Face_GetPointAndDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointAndDirection\(ref VectorBase, ref VectorBase\)
 
 Gets the point and direction.
 
@@ -326,7 +326,7 @@ The direction.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPointAndDirectionFromBoundaryEdge\(ref VectorBase, ref VectorBase, double, uint\)
+### <a id="VM_Managed_CAD_Face_GetPointAndDirectionFromBoundaryEdge_VM_Managed_VectorBase__VM_Managed_VectorBase__System_Double_System_UInt32_"></a> GetPointAndDirectionFromBoundaryEdge\(ref VectorBase, ref VectorBase, double, uint\)
 
 ```csharp
 public bool GetPointAndDirectionFromBoundaryEdge(ref VectorBase vecPosition, ref VectorBase vecDirection, double dU, uint nIndex)
@@ -346,7 +346,7 @@ public bool GetPointAndDirectionFromBoundaryEdge(ref VectorBase vecPosition, ref
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetPointAndDirectionFromFacet\(FacetOption, ref VectorBase\[\], ref VectorBase\[\]\)
+### <a id="VM_Managed_CAD_Face_GetPointAndDirectionFromFacet_VM_Models_Pre_FacetOption_VM_Managed_VectorBase____VM_Managed_VectorBase____"></a> GetPointAndDirectionFromFacet\(FacetOption, ref VectorBase\[\], ref VectorBase\[\]\)
 
 Gets the point and direction from facet.
 
@@ -374,7 +374,7 @@ The direction.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPointAndDirectionFromFacet\(FacetOption, ref VectorBase, ref VectorBase\)
+### <a id="VM_Managed_CAD_Face_GetPointAndDirectionFromFacet_VM_Models_Pre_FacetOption_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointAndDirectionFromFacet\(FacetOption, ref VectorBase, ref VectorBase\)
 
 Gets the point and direction from facet.
 
@@ -402,7 +402,7 @@ The direction.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetTypeName\(\)
+### <a id="VM_Managed_CAD_Face_GetTypeName"></a> GetTypeName\(\)
 
 Gets the name of topology(edge, face, vertex).
 
@@ -416,7 +416,7 @@ public override string GetTypeName()
 
 The name of topology
 
-### IsReverseNormalDirection\(\)
+### <a id="VM_Managed_CAD_Face_IsReverseNormalDirection"></a> IsReverseNormalDirection\(\)
 
 Determines whether is [reverse normal direction].
 
@@ -430,7 +430,7 @@ public bool IsReverseNormalDirection()
 
 <code>true</code> if is [reverse normal direction]; otherwise, <code>false</code>.
 
-### IsReverseNormalDirection\(bool\)
+### <a id="VM_Managed_CAD_Face_IsReverseNormalDirection_System_Boolean_"></a> IsReverseNormalDirection\(bool\)
 
 Determines whether is [reverse normal direction] [the toggle state].
 
@@ -450,7 +450,7 @@ if set to <code>true</code> normal direction is moving currnet's opposite state.
 
 <code>true</code> if is [reverse normal direction] [the toggle state]; otherwise, <code>false</code>.
 
-### IsSphere\(\)
+### <a id="VM_Managed_CAD_Face_IsSphere"></a> IsSphere\(\)
 
 Wheather face is sphere or not.
 
@@ -462,12 +462,11 @@ public bool IsSphere()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RollbackNormalDirection\(\)
+### <a id="VM_Managed_CAD_Face_RollbackNormalDirection"></a> RollbackNormalDirection\(\)
 
 Roll back normal direction.
 
 ```csharp
 public void RollbackNormalDirection()
 ```
-
 

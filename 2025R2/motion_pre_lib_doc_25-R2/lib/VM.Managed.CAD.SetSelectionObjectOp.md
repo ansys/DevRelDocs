@@ -1,4 +1,4 @@
-# Class SetSelectionObjectOp
+#  Class SetSelectionObjectOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### SetSelectionObjectOp\(Document3D\)
+### <a id="VM_Managed_CAD_SetSelectionObjectOp__ctor_VM_Managed_Document3D_"></a> SetSelectionObjectOp\(Document3D\)
 
 ```csharp
 public SetSelectionObjectOp(Document3D doc)
@@ -87,7 +87,7 @@ public SetSelectionObjectOp(Document3D doc)
 
 `doc` [Document3D](VM.Managed.Document3D.md)
 
-### SetSelectionObjectOp\(\)
+### <a id="VM_Managed_CAD_SetSelectionObjectOp__ctor"></a> SetSelectionObjectOp\(\)
 
 ```csharp
 public SetSelectionObjectOp()
@@ -95,7 +95,7 @@ public SetSelectionObjectOp()
 
 ## Properties
 
-### IsHistoryMerge
+### <a id="VM_Managed_CAD_SetSelectionObjectOp_IsHistoryMerge"></a> IsHistoryMerge
 
 Gets the merge of history.
 
@@ -107,7 +107,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_CAD_SetSelectionObjectOp_Name"></a> Name
 
 Gets the name.
 
@@ -121,12 +121,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_CAD_SetSelectionObjectOp_Execute"></a> Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
-
 

@@ -1,4 +1,4 @@
-# Class RacewayBuilderBase
+#  Class RacewayBuilderBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -226,7 +226,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### RacewayBuilderBase\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderBase__ctor"></a> RacewayBuilderBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RacewayBuilderBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -236,7 +236,7 @@ public RacewayBuilderBase()
 
 ## Properties
 
-### OffsetToAxisDirection
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderBase_OffsetToAxisDirection"></a> OffsetToAxisDirection
 
 Gets the offset to axis direction.
 
@@ -248,7 +248,7 @@ public virtual double OffsetToAxisDirection { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RacewayGeomInfo
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderBase_RacewayGeomInfo"></a> RacewayGeomInfo
 
 Gets or sets the bearing information.
 
@@ -262,7 +262,7 @@ public RacewayGeometryInfo RacewayGeomInfo { get; set; }
 
 ## Methods
 
-### GetTransform\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderBase_GetTransform"></a> GetTransform\(\)
 
 Gets the transform.
 
@@ -273,5 +273,4 @@ public virtual TMatrix GetTransform()
 #### Returns
 
  TMatrix
-
 

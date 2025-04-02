@@ -1,4 +1,4 @@
-# Enum LinkPropertyType
+#  Enum LinkPropertyType
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -32,7 +32,6 @@ Child type property
 `Link = 1` 
 
 Link type property
-
 
 
 

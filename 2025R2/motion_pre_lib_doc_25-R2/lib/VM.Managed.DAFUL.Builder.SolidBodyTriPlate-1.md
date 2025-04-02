@@ -1,4 +1,4 @@
-# Class SolidBodyTriPlate<T\>
+#  Class SolidBodyTriPlate<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -68,10 +68,9 @@ public abstract class SolidBodyTriPlate<T> : SolidBody<T>, IBuilder where T : Bu
 
 ## Constructors
 
-### SolidBodyTriPlate\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyTriPlate_1__ctor"></a> SolidBodyTriPlate\(\)
 
 ```csharp
 protected SolidBodyTriPlate()
 ```
-
 

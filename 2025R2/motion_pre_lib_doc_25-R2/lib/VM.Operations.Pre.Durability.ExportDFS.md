@@ -1,4 +1,4 @@
-# Class ExportDFS
+#  Class ExportDFS
 
 Namespace: [VM.Operations.Pre.Durability](VM.Operations.Pre.Durability.md)  
 Assembly: VM.Operations.Pre.Durability.dll  
@@ -102,7 +102,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ExportDFS\(Document, DurabilityData\)
+### <a id="VM_Operations_Pre_Durability_ExportDFS__ctor_VM_Managed_Document_VM_Models_Pre_Durability_DurabilityData_"></a> ExportDFS\(Document, DurabilityData\)
 
 ```csharp
 public ExportDFS(Document doc, DurabilityData durabilityData)
@@ -114,7 +114,7 @@ public ExportDFS(Document doc, DurabilityData durabilityData)
 
 `durabilityData` DurabilityData
 
-### ExportDFS\(JournalParameter\)
+### <a id="VM_Operations_Pre_Durability_ExportDFS__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportDFS\(JournalParameter\)
 
 ```csharp
 public ExportDFS(JournalParameter jp)
@@ -126,7 +126,7 @@ public ExportDFS(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Operations_Pre_Durability_ExportDFS_Name"></a> Name
 
 Gets the operation name.
 
@@ -140,7 +140,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Operations_Pre_Durability_ExportDFS_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -148,10 +148,9 @@ Execute the operation.
 public override void Execute()
 ```
 
-### ExportDFSImpl\(\)
+### <a id="VM_Operations_Pre_Durability_ExportDFS_ExportDFSImpl"></a> ExportDFSImpl\(\)
 
 ```csharp
 protected override void ExportDFSImpl()
 ```
-
 

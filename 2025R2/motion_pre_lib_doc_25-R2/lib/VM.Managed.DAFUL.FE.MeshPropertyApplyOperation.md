@@ -1,4 +1,4 @@
-# Class MeshPropertyApplyOperation
+#  Class MeshPropertyApplyOperation
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### MeshPropertyApplyOperation\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshPropertyApplyOperation__ctor"></a> MeshPropertyApplyOperation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.MeshPropertyApplyOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -87,7 +87,7 @@ public MeshPropertyApplyOperation()
 
 ## Fields
 
-### GetResult
+### <a id="VM_Managed_DAFUL_FE_MeshPropertyApplyOperation_GetResult"></a> GetResult
 
 Get result event
 
@@ -101,7 +101,7 @@ public MeshPropertyApplyOperation.GetResultCallback GetResult
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_FE_MeshPropertyApplyOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -113,7 +113,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Success
+### <a id="VM_Managed_DAFUL_FE_MeshPropertyApplyOperation_Success"></a> Success
 
 Gets the success flag.
 
@@ -127,12 +127,11 @@ public bool Success { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshPropertyApplyOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

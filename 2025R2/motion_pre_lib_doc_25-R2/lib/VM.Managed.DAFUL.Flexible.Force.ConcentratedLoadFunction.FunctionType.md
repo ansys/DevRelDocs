@@ -1,4 +1,4 @@
-# Enum ConcentratedLoadFunction.FunctionType
+#  Enum ConcentratedLoadFunction.FunctionType
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -23,7 +23,6 @@ public enum ConcentratedLoadFunction.FunctionType
 
 <p>The user subroutine function.</p>
 <p>사용자 정의 함수.</p>
-
 
 
 

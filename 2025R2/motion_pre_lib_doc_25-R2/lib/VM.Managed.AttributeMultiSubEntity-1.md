@@ -1,4 +1,4 @@
-# Class AttributeMultiSubEntity<TSubEntity\>
+#  Class AttributeMultiSubEntity<TSubEntity\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -105,7 +105,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeMultiSubEntity\(\)
+### <a id="VM_Managed_AttributeMultiSubEntity_1__ctor"></a> AttributeMultiSubEntity\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeMultiSubEntity%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ public AttributeMultiSubEntity()
 
 ## Properties
 
-### SubEntities
+### <a id="VM_Managed_AttributeMultiSubEntity_1_SubEntities"></a> SubEntities
 
 Gets or sets the sub entities.
 
@@ -139,7 +139,7 @@ SubEntity is null.
 
 ## Methods
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_AttributeMultiSubEntity_1_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -152,5 +152,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

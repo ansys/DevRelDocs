@@ -1,4 +1,4 @@
-# Class BearingGeneral
+#  Class BearingGeneral
 
 Namespace: [VM.Managed.DAFUL.Bearing.Force](VM.Managed.DAFUL.Bearing.Force.md)  
 Assembly: VMDBearing.dll  
@@ -254,7 +254,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BearingGeneral\(\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_BearingGeneral__ctor"></a> BearingGeneral\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.BearingGeneral" data-throw-if-not-resolved="false"></xref> class.
 
@@ -262,7 +262,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.Bea
 public BearingGeneral()
 ```
 
-### BearingGeneral\(string\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_BearingGeneral__ctor_System_String_"></a> BearingGeneral\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.BearingGeneral" data-throw-if-not-resolved="false"></xref> class.
 
@@ -278,7 +278,7 @@ Name of the force.
 
 ## Properties
 
-### CanWriteToOutFileImpl
+### <a id="VM_Managed_DAFUL_Bearing_Force_BearingGeneral_CanWriteToOutFileImpl"></a> CanWriteToOutFileImpl
 
 ```csharp
 protected override bool CanWriteToOutFileImpl { get; }
@@ -288,7 +288,7 @@ protected override bool CanWriteToOutFileImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Bearing_Force_BearingGeneral_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -302,7 +302,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_BearingGeneral_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -315,5 +315,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

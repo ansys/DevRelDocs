@@ -1,4 +1,4 @@
-# Enum LongtudinalSlip
+#  Enum LongtudinalSlip
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.Full](VM.Managed.DAFUL.Car.Analysis.Full.md)  
 Assembly: VMDCar.dll  
@@ -20,7 +20,6 @@ Slip Ratio Input
 `VelocityInput = 1` 
 
 Velocity Input
-
 
 
 

@@ -1,4 +1,4 @@
-# Class HousingNodalBody
+#  Class HousingNodalBody
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -299,7 +299,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### HousingNodalBody\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_HousingNodalBody__ctor"></a> HousingNodalBody\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HousingNodalBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -307,7 +307,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Housing
 public HousingNodalBody()
 ```
 
-### HousingNodalBody\(string, Instance\)
+### <a id="VM_Managed_DAFUL_GearTrain_HousingNodalBody__ctor_System_String_VM_Managed_Instance_"></a> HousingNodalBody\(string, Instance\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HousingNodalBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -325,7 +325,7 @@ Name of the string.
 
 The instance nodal body.
 
-### HousingNodalBody\(string, string, TransformBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_HousingNodalBody__ctor_System_String_System_String_VM_Managed_TransformBase_"></a> HousingNodalBody\(string, string, TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HousingNodalBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -349,7 +349,7 @@ The transf.
 
 ## Methods
 
-### ReAssembly\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_HousingNodalBody_ReAssembly"></a> ReAssembly\(\)
 
 Res the assembly.
 
@@ -357,12 +357,11 @@ Res the assembly.
 public override void ReAssembly()
 ```
 
-### ReAssemblyCore\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_HousingNodalBody_ReAssemblyCore"></a> ReAssemblyCore\(\)
 
 Res the assembly core.
 
 ```csharp
 public void ReAssemblyCore()
 ```
-
 

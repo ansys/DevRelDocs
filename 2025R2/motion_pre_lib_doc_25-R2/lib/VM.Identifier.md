@@ -1,4 +1,4 @@
-# Struct Identifier
+#  Struct Identifier
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -13,7 +13,7 @@ public struct Identifier : IIdentifier
 
 ## Properties
 
-### Initial
+### <a id="VM_Identifier_Initial"></a> Initial
 
 ```csharp
 public static Identifier Initial { get; }
@@ -25,7 +25,7 @@ public static Identifier Initial { get; }
 
 ## Methods
 
-### CompareTo\(Identifier\)
+### <a id="VM_Identifier_CompareTo_VM_Identifier_"></a> CompareTo\(Identifier\)
 
 ```csharp
 public int CompareTo(Identifier other)
@@ -39,7 +39,7 @@ public int CompareTo(Identifier other)
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### CompareTo\(object\)
+### <a id="VM_Identifier_CompareTo_System_Object_"></a> CompareTo\(object\)
 
 ```csharp
 public int CompareTo(object obj)
@@ -53,7 +53,7 @@ public int CompareTo(object obj)
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Equals\(Identifier\)
+### <a id="VM_Identifier_Equals_VM_Identifier_"></a> Equals\(Identifier\)
 
 ```csharp
 public bool Equals(Identifier other)
@@ -67,7 +67,7 @@ public bool Equals(Identifier other)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Equals\(object\)
+### <a id="VM_Identifier_Equals_System_Object_"></a> Equals\(object\)
 
 ```csharp
 public override bool Equals(object obj)
@@ -81,7 +81,7 @@ public override bool Equals(object obj)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetHashCode\(\)
+### <a id="VM_Identifier_GetHashCode"></a> GetHashCode\(\)
 
 ```csharp
 public override int GetHashCode()
@@ -91,7 +91,7 @@ public override int GetHashCode()
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GetNextIdentifier\(Identifier\)
+### <a id="VM_Identifier_GetNextIdentifier_VM_Identifier_"></a> GetNextIdentifier\(Identifier\)
 
 ```csharp
 public static Identifier GetNextIdentifier(Identifier other)
@@ -105,7 +105,7 @@ public static Identifier GetNextIdentifier(Identifier other)
 
  [Identifier](VM.Identifier.md)
 
-### ToString\(\)
+### <a id="VM_Identifier_ToString"></a> ToString\(\)
 
 ```csharp
 public override string ToString()
@@ -117,7 +117,7 @@ public override string ToString()
 
 ## Operators
 
-### operator ==\(Identifier, Identifier\)
+### <a id="VM_Identifier_op_Equality_VM_Identifier_VM_Identifier_"></a> operator ==\(Identifier, Identifier\)
 
 ```csharp
 public static bool operator ==(Identifier left, Identifier right)
@@ -133,7 +133,7 @@ public static bool operator ==(Identifier left, Identifier right)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### operator \>\(Identifier, Identifier\)
+### <a id="VM_Identifier_op_GreaterThan_VM_Identifier_VM_Identifier_"></a> operator \>\(Identifier, Identifier\)
 
 ```csharp
 public static bool operator >(Identifier left, Identifier right)
@@ -149,7 +149,7 @@ public static bool operator >(Identifier left, Identifier right)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### operator \>=\(Identifier, Identifier\)
+### <a id="VM_Identifier_op_GreaterThanOrEqual_VM_Identifier_VM_Identifier_"></a> operator \>=\(Identifier, Identifier\)
 
 ```csharp
 public static bool operator >=(Identifier left, Identifier right)
@@ -165,7 +165,7 @@ public static bool operator >=(Identifier left, Identifier right)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### operator \!=\(Identifier, Identifier\)
+### <a id="VM_Identifier_op_Inequality_VM_Identifier_VM_Identifier_"></a> operator \!=\(Identifier, Identifier\)
 
 ```csharp
 public static bool operator !=(Identifier left, Identifier right)
@@ -181,7 +181,7 @@ public static bool operator !=(Identifier left, Identifier right)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### operator <\(Identifier, Identifier\)
+### <a id="VM_Identifier_op_LessThan_VM_Identifier_VM_Identifier_"></a> operator <\(Identifier, Identifier\)
 
 ```csharp
 public static bool operator <(Identifier left, Identifier right)
@@ -197,7 +197,7 @@ public static bool operator <(Identifier left, Identifier right)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### operator <=\(Identifier, Identifier\)
+### <a id="VM_Identifier_op_LessThanOrEqual_VM_Identifier_VM_Identifier_"></a> operator <=\(Identifier, Identifier\)
 
 ```csharp
 public static bool operator <=(Identifier left, Identifier right)
@@ -212,5 +212,4 @@ public static bool operator <=(Identifier left, Identifier right)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

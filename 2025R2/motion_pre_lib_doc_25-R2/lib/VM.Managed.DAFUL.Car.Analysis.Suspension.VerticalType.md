@@ -1,4 +1,4 @@
-# Enum VerticalType
+#  Enum VerticalType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.Suspension](VM.Managed.DAFUL.Car.Analysis.Suspension.md)  
 Assembly: VMDCar.dll  
@@ -20,7 +20,6 @@ Absolute
 `Relative = 1` 
 
 Relative
-
 
 
 

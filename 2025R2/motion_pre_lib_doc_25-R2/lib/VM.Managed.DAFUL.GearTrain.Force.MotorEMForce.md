@@ -1,4 +1,4 @@
-# Class MotorEMForce
+#  Class MotorEMForce
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -207,7 +207,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MotorEMForce\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_MotorEMForce__ctor"></a> MotorEMForce\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Force.MotorEMForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -215,7 +215,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Force.M
 public MotorEMForce()
 ```
 
-### MotorEMForce\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_MotorEMForce__ctor_System_String_"></a> MotorEMForce\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Force.MotorEMForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -231,7 +231,7 @@ Name of the string.
 
 ## Properties
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_GearTrain_Force_MotorEMForce_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -243,7 +243,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Hide
+### <a id="VM_Managed_DAFUL_GearTrain_Force_MotorEMForce_Hide"></a> Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -255,7 +255,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RotorBody
+### <a id="VM_Managed_DAFUL_GearTrain_Force_MotorEMForce_RotorBody"></a> RotorBody
 
 Gets or sets the rotor body.
 
@@ -267,7 +267,7 @@ public ObjectBase RotorBody { get; set; }
 
  ObjectBase
 
-### StatorBody
+### <a id="VM_Managed_DAFUL_GearTrain_Force_MotorEMForce_StatorBody"></a> StatorBody
 
 Gets or sets the stator body.
 
@@ -281,7 +281,7 @@ public ObjectBase StatorBody { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_MotorEMForce_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -295,7 +295,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_MotorEMForce_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -323,12 +323,11 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### ReDraw\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_MotorEMForce_ReDraw"></a> ReDraw\(\)
 
 Redraw.
 
 ```csharp
 public virtual void ReDraw()
 ```
-
 

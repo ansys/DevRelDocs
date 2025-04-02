@@ -1,4 +1,4 @@
-# Class ForceCarPropertyDocument<TProp\>
+#  Class ForceCarPropertyDocument<TProp\>
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -307,7 +307,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ForceCarPropertyDocument\(\)
+### <a id="VM_Managed_DAFUL_Car_Force_ForceCarPropertyDocument_1__ctor"></a> ForceCarPropertyDocument\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.ForceCarPropertyDocument%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -317,7 +317,7 @@ public ForceCarPropertyDocument()
 
 ## Methods
 
-### AddImpl\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Car_Force_ForceCarPropertyDocument_1_AddImpl_VM_Managed_ObjectBase_"></a> AddImpl\(ObjectBase\)
 
 Adds the specified object [implementation].
 
@@ -331,7 +331,7 @@ protected override void AddImpl(ObjectBase obj)
 
 The object.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_Car_Force_ForceCarPropertyDocument_1_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -351,7 +351,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### IsEnabledImpl\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Car_Force_ForceCarPropertyDocument_1_IsEnabledImpl_VM_Managed_ObjectBase_"></a> IsEnabledImpl\(ObjectBase\)
 
 Determines whether is enabled [the specified object] [implementation].
 
@@ -371,7 +371,7 @@ The object.
 
 <code>true</code> if is enabled [the specified object]; otherwise, <code>false</code>.
 
-### IsTypeSupported\(Type\)
+### <a id="VM_Managed_DAFUL_Car_Force_ForceCarPropertyDocument_1_IsTypeSupported_System_Type_"></a> IsTypeSupported\(Type\)
 
 Determines whether is type supported or not.
 
@@ -385,7 +385,7 @@ public override void IsTypeSupported(Type type)
 
 The type.
 
-### OnPostMakeDocument\(DocCreateInfo\)
+### <a id="VM_Managed_DAFUL_Car_Force_ForceCarPropertyDocument_1_OnPostMakeDocument_VM_Managed_DocCreateInfo_"></a> OnPostMakeDocument\(DocCreateInfo\)
 
 Called when document is made.
 
@@ -399,7 +399,7 @@ protected override void OnPostMakeDocument(DocCreateInfo docCreateInfo)
 
 The document create information.
 
-### SetEnableImpl\(ObjectBase, bool\)
+### <a id="VM_Managed_DAFUL_Car_Force_ForceCarPropertyDocument_1_SetEnableImpl_VM_Managed_ObjectBase_System_Boolean_"></a> SetEnableImpl\(ObjectBase, bool\)
 
 Sets the enable [implementation].
 
@@ -417,7 +417,7 @@ The object.
 
 if set to <code>true</code> enable.
 
-### UpdateEnable\(ObjectBase, bool\)
+### <a id="VM_Managed_DAFUL_Car_Force_ForceCarPropertyDocument_1_UpdateEnable_VM_Managed_ObjectBase_System_Boolean_"></a> UpdateEnable\(ObjectBase, bool\)
 
 Update object to enable or disable.
 
@@ -434,5 +434,4 @@ The object.
 `bEnabled` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 Whether object is enable.
-
 

@@ -1,4 +1,4 @@
-# Class Resources
+#  Class Resources
 
 Namespace: [VM.Managed.Resource](VM.Managed.Resource.md)  
 Assembly: VMAppCore.dll  
@@ -20,10 +20,9 @@ public class Resources
 
 ## Constructors
 
-### Resources\(\)
+### <a id="VM_Managed_Resource_Resources__ctor"></a> Resources\(\)
 
 ```csharp
 public Resources()
 ```
-
 

@@ -1,4 +1,4 @@
-# Class PropertyChangedExtendedEventArgs
+#  Class PropertyChangedExtendedEventArgs
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,14 +9,14 @@ public class PropertyChangedExtendedEventArgs : PropertyChangedEventArgs
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
-[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ??
-[PropertyChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs) ← 
+[PropertyChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs) ← 
 [PropertyChangedExtendedEventArgs](VM.PropertyChangedExtendedEventArgs.md)
 
 ## Constructors
 
-### PropertyChangedExtendedEventArgs\(string, object, object\)
+### <a id="VM_PropertyChangedExtendedEventArgs__ctor_System_String_System_Object_System_Object_"></a> PropertyChangedExtendedEventArgs\(string, object, object\)
 
 ```python
 public PropertyChangedExtendedEventArgs(string propertyName, object oldValue, object newValue)
@@ -32,7 +32,7 @@ public PropertyChangedExtendedEventArgs(string propertyName, object oldValue, ob
 
 ## Properties
 
-### NewValue
+### <a id="VM_PropertyChangedExtendedEventArgs_NewValue"></a> NewValue
 
 ```python
 public virtual object NewValue { get; }
@@ -42,7 +42,7 @@ public virtual object NewValue { get; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### OldValue
+### <a id="VM_PropertyChangedExtendedEventArgs_OldValue"></a> OldValue
 
 ```python
 public virtual object OldValue { get; }

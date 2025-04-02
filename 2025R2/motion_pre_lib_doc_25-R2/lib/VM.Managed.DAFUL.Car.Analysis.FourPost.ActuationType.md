@@ -1,4 +1,4 @@
-# Enum ActuationType
+#  Enum ActuationType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.FourPost](VM.Managed.DAFUL.Car.Analysis.FourPost.md)  
 Assembly: VMDCar.dll  
@@ -32,7 +32,6 @@ Force
 `Velocity = 1` 
 
 Velocity
-
 
 
 

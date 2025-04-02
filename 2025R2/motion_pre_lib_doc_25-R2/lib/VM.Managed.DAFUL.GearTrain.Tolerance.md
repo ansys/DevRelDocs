@@ -1,4 +1,4 @@
-# Class Tolerance
+#  Class Tolerance
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Tolerance\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Tolerance__ctor"></a> Tolerance\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Tolerance" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ public Tolerance()
 
 ## Properties
 
-### BacklashParameter
+### <a id="VM_Managed_DAFUL_GearTrain_Tolerance_BacklashParameter"></a> BacklashParameter
 
 Gets or sets the backlash parameter.
 
@@ -120,7 +120,7 @@ public Backlash BacklashParameter { get; set; }
 
  [Backlash](VM.Managed.DAFUL.GearTrain.Backlash.md)
 
-### BallAndPinDiameterParameter
+### <a id="VM_Managed_DAFUL_GearTrain_Tolerance_BallAndPinDiameterParameter"></a> BallAndPinDiameterParameter
 
 Gets or sets the ball and diameter parameter.
 
@@ -132,7 +132,7 @@ public BallAndPinDiameter BallAndPinDiameterParameter { get; set; }
 
  [BallAndPinDiameter](VM.Managed.DAFUL.GearTrain.BallAndPinDiameter.md)
 
-### BaseTangentLengthParameter
+### <a id="VM_Managed_DAFUL_GearTrain_Tolerance_BaseTangentLengthParameter"></a> BaseTangentLengthParameter
 
 Gets or sets the base tangent length parameter.
 
@@ -144,7 +144,7 @@ public BaseTangentLength BaseTangentLengthParameter { get; set; }
 
  [BaseTangentLength](VM.Managed.DAFUL.GearTrain.BaseTangentLength.md)
 
-### GeneratingProfileParameter
+### <a id="VM_Managed_DAFUL_GearTrain_Tolerance_GeneratingProfileParameter"></a> GeneratingProfileParameter
 
 Gets or sets the generating profile parameter.
 
@@ -156,7 +156,7 @@ public GeneratingProfile GeneratingProfileParameter { get; set; }
 
  [GeneratingProfile](VM.Managed.DAFUL.GearTrain.GeneratingProfile.md)
 
-### ToothThicknessParameter
+### <a id="VM_Managed_DAFUL_GearTrain_Tolerance_ToothThicknessParameter"></a> ToothThicknessParameter
 
 Gets or sets the tooth thickness parameter.
 
@@ -168,7 +168,7 @@ public ToothThickness ToothThicknessParameter { get; set; }
 
  [ToothThickness](VM.Managed.DAFUL.GearTrain.ToothThickness.md)
 
-### TypeOfTolerance
+### <a id="VM_Managed_DAFUL_GearTrain_Tolerance_TypeOfTolerance"></a> TypeOfTolerance
 
 Gets or sets the tolerance type.
 
@@ -182,7 +182,7 @@ public Tolerance.ToleranceType TypeOfTolerance { get; set; }
 
 ## Methods
 
-### InitChild\(int, ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_Tolerance_InitChild_System_Int32_VM_Unit_ConvertFactor_"></a> InitChild\(int, ConvertFactor\)
 
 Initializes the child.
 
@@ -199,5 +199,4 @@ The n number.
 `factor` Unit.ConvertFactor
 
 The unit factor.
-
 

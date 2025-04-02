@@ -1,4 +1,4 @@
-# Enum BasicInvolute.ToothThicknessInToleranceFieldType
+#  Enum BasicInvolute.ToothThicknessInToleranceFieldType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -32,7 +32,6 @@ The minimum
 `Nominal = 1` 
 
 The nominal
-
 
 
 

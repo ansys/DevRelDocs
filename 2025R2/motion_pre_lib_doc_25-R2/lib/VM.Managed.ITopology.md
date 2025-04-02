@@ -1,4 +1,4 @@
-# Interface ITopology
+#  Interface ITopology
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface ITopology
 
 ## Methods
 
-### ToplogyInfo\(bool\)
+### <a id="VM_Managed_ITopology_ToplogyInfo_System_Boolean_"></a> ToplogyInfo\(bool\)
 
 ```csharp
 List<Tuple<UIntPtr, int>> ToplogyInfo(bool bConnect)
@@ -30,5 +30,4 @@ List<Tuple<UIntPtr, int>> ToplogyInfo(bool bConnect)
 #### Returns
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr), [int](https://learn.microsoft.com/dotnet/api/system.int32)\>\>
-
 

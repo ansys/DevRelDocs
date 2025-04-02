@@ -1,4 +1,4 @@
-# Class PropertyMotorEMForce
+#  Class PropertyMotorEMForce
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyMotorEMForce\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce__ctor"></a> PropertyMotorEMForce\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertyMotorEMForce()
 
 ## Properties
 
-### Depth
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_Depth"></a> Depth
 
 Gets or sets the depth.
 
@@ -193,7 +193,7 @@ public ExpressionValueVariable Depth { get; set; }
 
 Depth is null.
 
-### FileFormat
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_FileFormat"></a> FileFormat
 
 Gets or sets the file format.
 
@@ -205,7 +205,7 @@ public PropertyMotorEMForce.FileFormatType FileFormat { get; set; }
 
  [PropertyMotorEMForce](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.md).[FileFormatType](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.FileFormatType.md)
 
-### ForceUNVFiles
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_ForceUNVFiles"></a> ForceUNVFiles
 
 Gets or sets the force unv files.
 
@@ -217,7 +217,7 @@ public PropertyMotorEMForce.UNVFileWithRPM[] ForceUNVFiles { get; set; }
 
  [PropertyMotorEMForce](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.md).[UNVFileWithRPM](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.UNVFileWithRPM.md)\[\]
 
-### GeometryUNVFile
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_GeometryUNVFile"></a> GeometryUNVFile
 
 Gets or sets the geometry unv file.
 
@@ -229,7 +229,7 @@ public PropertyMotorEMForce.UNVFile GeometryUNVFile { get; set; }
 
  [PropertyMotorEMForce](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.md).[UNVFile](VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.UNVFile.md)
 
-### InitialPositionAngle
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_InitialPositionAngle"></a> InitialPositionAngle
 
 Gets or sets the initial position angle.
 
@@ -247,7 +247,7 @@ public ExpressionValueVariable InitialPositionAngle { get; set; }
 
 Initial position angle is null.
 
-### MaxwellForceFile
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellForceFile"></a> MaxwellForceFile
 
 Gets or sets the Maxwell force file.
 
@@ -259,7 +259,7 @@ public string MaxwellForceFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### MaxwellGeometryFile
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellGeometryFile"></a> MaxwellGeometryFile
 
 Gets or sets the Maxwell geometry file.
 
@@ -271,7 +271,7 @@ public string MaxwellGeometryFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NumberOfLayer
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_NumberOfLayer"></a> NumberOfLayer
 
 Gets or sets the number of layer.
 
@@ -289,7 +289,7 @@ public ExpressionValueVariable NumberOfLayer { get; set; }
 
 Number of layer is null.
 
-### ReferenceFrame
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_ReferenceFrame"></a> ReferenceFrame
 
 Gets or sets the reference frame.
 
@@ -301,7 +301,7 @@ public TransformBase ReferenceFrame { get; set; }
 
  TransformBase
 
-### ReferenceOfRotational
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_ReferenceOfRotational"></a> ReferenceOfRotational
 
 Gets or sets the reference Of rotational.
 
@@ -313,7 +313,7 @@ public ObjectBase ReferenceOfRotational { get; set; }
 
  ObjectBase
 
-### ResultFile
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_ResultFile"></a> ResultFile
 
 Gets or sets the result file.
 
@@ -325,7 +325,7 @@ public string ResultFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Scale
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_Scale"></a> Scale
 
 Gets or sets the scale.
 
@@ -339,7 +339,7 @@ public Scale Scale { get; set; }
 
 ## Methods
 
-### CheckAMGeometryAndForceFile\(Document, string, string, TMatrix\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_CheckAMGeometryAndForceFile_VM_Managed_Document_System_String_System_String_VM_Managed_TMatrix_"></a> CheckAMGeometryAndForceFile\(Document, string, string, TMatrix\)
 
 ```csharp
 public static void CheckAMGeometryAndForceFile(Document doc, string strGeometryAMFilePath, string strForceAMFilePath, TMatrix transform)
@@ -355,7 +355,7 @@ public static void CheckAMGeometryAndForceFile(Document doc, string strGeometryA
 
 `transform` TMatrix
 
-### CheckResultAMFile\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_CheckResultAMFile_System_String_"></a> CheckResultAMFile\(string\)
 
 Check result AM file
 
@@ -371,7 +371,7 @@ public static bool CheckResultAMFile(string strResultAMFilePath)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CheckUNVFiles\(Document, IEnumerable<string\>, TMatrix\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_CheckUNVFiles_VM_Managed_Document_System_Collections_Generic_IEnumerable_System_String__VM_Managed_TMatrix_"></a> CheckUNVFiles\(Document, IEnumerable<string\>, TMatrix\)
 
 Check UNV files
 
@@ -393,7 +393,7 @@ The force UNV files.
 
 The transform.
 
-### CheckUNVFiles\(Document, string, string\[\], TMatrix\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_CheckUNVFiles_VM_Managed_Document_System_String_System_String___VM_Managed_TMatrix_"></a> CheckUNVFiles\(Document, string, string\[\], TMatrix\)
 
 Check UNV files
 
@@ -419,7 +419,7 @@ The force UNV files.
 
 The transform.
 
-### GetGlobalPosition\(Vector, TMatrix\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_GetGlobalPosition_VM_Vector_VM_TMatrix_"></a> GetGlobalPosition\(Vector, TMatrix\)
 
 Gets global position
 
@@ -441,7 +441,7 @@ The Reference matrix
 
  Vector
 
-### GetNodeCountFromAMFile\(Document, string, string, TMatrix\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_GetNodeCountFromAMFile_VM_Managed_Document_System_String_System_String_VM_Managed_TMatrix_"></a> GetNodeCountFromAMFile\(Document, string, string, TMatrix\)
 
 ```csharp
 public static Tuple<int, int> GetNodeCountFromAMFile(Document doc, string strGeometryAMFilePath, string strForceAMFilePath, TMatrix transform)
@@ -461,7 +461,7 @@ public static Tuple<int, int> GetNodeCountFromAMFile(Document doc, string strGeo
 
  [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[int](https://learn.microsoft.com/dotnet/api/system.int32), [int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### GetNodeCountFromUNVFile\(Document, string, TMatrix\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_GetNodeCountFromUNVFile_VM_Managed_Document_System_String_VM_Managed_TMatrix_"></a> GetNodeCountFromUNVFile\(Document, string, TMatrix\)
 
 Get node count from UNV file.
 
@@ -487,7 +487,7 @@ The transform.
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GetNodeCountFromUNVFile\(Document, string, string, TMatrix\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_GetNodeCountFromUNVFile_VM_Managed_Document_System_String_System_String_VM_Managed_TMatrix_"></a> GetNodeCountFromUNVFile\(Document, string, string, TMatrix\)
 
 Get node count from UNV file.
 
@@ -517,7 +517,7 @@ The transform.
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GetRotorPosition\(Document, string, int, int\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_GetRotorPosition_VM_Managed_Document_System_String_System_Int32_System_Int32_"></a> GetRotorPosition\(Document, string, int, int\)
 
 Gets rotor position
 
@@ -547,7 +547,7 @@ The total rotor number
 
  Vector
 
-### GetRotorPosition\(Document, string, TMatrix, int, int\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_GetRotorPosition_VM_Managed_Document_System_String_VM_TMatrix_System_Int32_System_Int32_"></a> GetRotorPosition\(Document, string, TMatrix, int, int\)
 
 Gets rotor position
 
@@ -581,7 +581,7 @@ The total rotor number
 
  Vector
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -595,7 +595,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -609,7 +609,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### ReadAMGeometryAndForceFile\(Document, string, string, TMatrix, out Dictionary<VectorBase, VectorBase\>, out Dictionary<VectorBase, VectorBase\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_ReadAMGeometryAndForceFile_VM_Managed_Document_System_String_System_String_VM_Managed_TMatrix_System_Collections_Generic_Dictionary_VM_Managed_VectorBase_VM_Managed_VectorBase___System_Collections_Generic_Dictionary_VM_Managed_VectorBase_VM_Managed_VectorBase___"></a> ReadAMGeometryAndForceFile\(Document, string, string, TMatrix, out Dictionary<VectorBase, VectorBase\>, out Dictionary<VectorBase, VectorBase\>\)
 
 Read AM geometry and force file
 
@@ -643,7 +643,7 @@ The stator start and end point container.
 
 The rotor start and end point container.
 
-### ReadResultAMFile\(Document, string, out MaxwellResultInformation\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_ReadResultAMFile_VM_Managed_Document_System_String_VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_MaxwellResultInformation__"></a> ReadResultAMFile\(Document, string, out MaxwellResultInformation\)
 
 Read result AM file
 
@@ -665,7 +665,7 @@ The force file path.
 
 The maxwell result information.
 
-### ReadUNVFile\(Document, IEnumerable<string\>, TMatrix\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_ReadUNVFile_VM_Managed_Document_System_Collections_Generic_IEnumerable_System_String__VM_Managed_TMatrix_"></a> ReadUNVFile\(Document, IEnumerable<string\>, TMatrix\)
 
 Read UNV files
 
@@ -691,7 +691,7 @@ The transform.
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<VectorBase, VectorBase\>\>
 
-### ReadUNVFile\(Document, string, string\[\], TMatrix, out Dictionary<VectorBase, VectorBase\>\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_ReadUNVFile_VM_Managed_Document_System_String_System_String___VM_Managed_TMatrix_System_Collections_Generic_Dictionary_VM_Managed_VectorBase_VM_Managed_VectorBase_____"></a> ReadUNVFile\(Document, string, string\[\], TMatrix, out Dictionary<VectorBase, VectorBase\>\[\]\)
 
 Read UNV files
 
@@ -720,5 +720,4 @@ The transform.
 `startToEndPoint` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<VectorBase, VectorBase\>\[\]
 
 The start and end point container.
-
 

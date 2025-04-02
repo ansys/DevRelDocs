@@ -1,4 +1,4 @@
-# Enum Document3D.BasicOpType
+#  Enum Document3D.BasicOpType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -32,7 +32,6 @@ translate.
 `Zoom = 3` 
 
 zoom.
-
 
 
 

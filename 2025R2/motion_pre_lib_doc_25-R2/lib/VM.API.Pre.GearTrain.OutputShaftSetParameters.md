@@ -1,4 +1,4 @@
-# Struct OutputShaftSetParameters
+#  Struct OutputShaftSetParameters
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +11,7 @@ public struct OutputShaftSetParameters
 
 ## Constructors
 
-### OutputShaftSetParameters\(\)
+### <a id="VM_API_Pre_GearTrain_OutputShaftSetParameters__ctor"></a> OutputShaftSetParameters\(\)
 
 Default constructor
 
@@ -21,7 +21,7 @@ public OutputShaftSetParameters()
 
 ## Properties
 
-### Efficiency
+### <a id="VM_API_Pre_GearTrain_OutputShaftSetParameters_Efficiency"></a> Efficiency
 
 The split.
 
@@ -33,7 +33,7 @@ public ExpressionValueVariable Efficiency { readonly get; set; }
 
  ExpressionValueVariable
 
-### OutputShaftSet
+### <a id="VM_API_Pre_GearTrain_OutputShaftSetParameters_OutputShaftSet"></a> OutputShaftSet
 
 The output shaftset and the type is <xref href="VM.Managed.DAFUL.GearTrain.IHasPowerLoad" data-throw-if-not-resolved="false"></xref>.
 
@@ -45,7 +45,7 @@ public Obj OutputShaftSet { readonly get; set; }
 
  Obj
 
-### OutputTorqueFilePath
+### <a id="VM_API_Pre_GearTrain_OutputShaftSetParameters_OutputTorqueFilePath"></a> OutputTorqueFilePath
 
 The output torque file path
 
@@ -57,7 +57,7 @@ public string OutputTorqueFilePath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ReductionRatio
+### <a id="VM_API_Pre_GearTrain_OutputShaftSetParameters_ReductionRatio"></a> ReductionRatio
 
 The reduction ratio
 
@@ -69,7 +69,7 @@ public ExpressionValueVariable ReductionRatio { readonly get; set; }
 
  ExpressionValueVariable
 
-### Split
+### <a id="VM_API_Pre_GearTrain_OutputShaftSetParameters_Split"></a> Split
 
 The split.
 
@@ -80,5 +80,4 @@ public ExpressionValueVariable Split { readonly get; set; }
 #### Property Value
 
  ExpressionValueVariable
-
 

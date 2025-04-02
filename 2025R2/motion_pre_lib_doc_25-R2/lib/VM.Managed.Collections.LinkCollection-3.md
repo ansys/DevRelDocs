@@ -1,4 +1,4 @@
-# Class LinkCollection<T, TLink, TCollection\>
+#  Class LinkCollection<T, TLink, TCollection\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -33,7 +33,7 @@ IPostDeserialized
 
 ## Constructors
 
-### LinkCollection\(ILinkContainer\)
+### <a id="VM_Managed_Collections_LinkCollection_3__ctor_VM_Models_Pre_ILinkContainer_"></a> LinkCollection\(ILinkContainer\)
 
 ```csharp
 public LinkCollection(ILinkContainer objParent)
@@ -43,7 +43,7 @@ public LinkCollection(ILinkContainer objParent)
 
 `objParent` ILinkContainer
 
-### LinkCollection\(ILinkContainer, TCollection\)
+### <a id="VM_Managed_Collections_LinkCollection_3__ctor_VM_Models_Pre_ILinkContainer__2_"></a> LinkCollection\(ILinkContainer, TCollection\)
 
 ```csharp
 public LinkCollection(ILinkContainer objParent, TCollection collection)
@@ -57,7 +57,7 @@ public LinkCollection(ILinkContainer objParent, TCollection collection)
 
 ## Fields
 
-### m\_collection
+### <a id="VM_Managed_Collections_LinkCollection_3_m_collection"></a> m\_collection
 
 ```csharp
 protected TCollection m_collection
@@ -67,7 +67,7 @@ protected TCollection m_collection
 
  TCollection
 
-### m\_ehCollectionChanged
+### <a id="VM_Managed_Collections_LinkCollection_3_m_ehCollectionChanged"></a> m\_ehCollectionChanged
 
 ```csharp
 protected NotifyCollectionChangedEventHandler m_ehCollectionChanged
@@ -77,7 +77,7 @@ protected NotifyCollectionChangedEventHandler m_ehCollectionChanged
 
  [NotifyCollectionChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler)
 
-### m\_objLinkOwner
+### <a id="VM_Managed_Collections_LinkCollection_3_m_objLinkOwner"></a> m\_objLinkOwner
 
 ```csharp
 protected ILinkContainer m_objLinkOwner
@@ -87,7 +87,7 @@ protected ILinkContainer m_objLinkOwner
 
  ILinkContainer
 
-### m\_syncLock
+### <a id="VM_Managed_Collections_LinkCollection_3_m_syncLock"></a> m\_syncLock
 
 ```csharp
 protected object m_syncLock
@@ -99,7 +99,7 @@ protected object m_syncLock
 
 ## Properties
 
-### Count
+### <a id="VM_Managed_Collections_LinkCollection_3_Count"></a> Count
 
 ```csharp
 public virtual int Count { get; }
@@ -109,7 +109,7 @@ public virtual int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### IsReadOnly
+### <a id="VM_Managed_Collections_LinkCollection_3_IsReadOnly"></a> IsReadOnly
 
 ```csharp
 public virtual bool IsReadOnly { get; }
@@ -121,7 +121,7 @@ public virtual bool IsReadOnly { get; }
 
 ## Methods
 
-### Add\(T\)
+### <a id="VM_Managed_Collections_LinkCollection_3_Add__0_"></a> Add\(T\)
 
 ```csharp
 public virtual void Add(T item)
@@ -131,7 +131,7 @@ public virtual void Add(T item)
 
 `item` T
 
-### Add\(T, bool\)
+### <a id="VM_Managed_Collections_LinkCollection_3_Add__0_System_Boolean_"></a> Add\(T, bool\)
 
 ```csharp
 public virtual void Add(T item, bool bContainsDocument)
@@ -143,7 +143,7 @@ public virtual void Add(T item, bool bContainsDocument)
 
 `bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### AddDestroyEvent\(TLink\)
+### <a id="VM_Managed_Collections_LinkCollection_3_AddDestroyEvent__1_"></a> AddDestroyEvent\(TLink\)
 
 ```csharp
 protected void AddDestroyEvent(TLink obj)
@@ -153,13 +153,13 @@ protected void AddDestroyEvent(TLink obj)
 
 `obj` TLink
 
-### Clear\(\)
+### <a id="VM_Managed_Collections_LinkCollection_3_Clear"></a> Clear\(\)
 
 ```csharp
 public virtual void Clear()
 ```
 
-### Clear\(bool\)
+### <a id="VM_Managed_Collections_LinkCollection_3_Clear_System_Boolean_"></a> Clear\(bool\)
 
 ```csharp
 public virtual void Clear(bool bContainsDocument)
@@ -169,7 +169,7 @@ public virtual void Clear(bool bContainsDocument)
 
 `bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Contains\(T\)
+### <a id="VM_Managed_Collections_LinkCollection_3_Contains__0_"></a> Contains\(T\)
 
 ```csharp
 public virtual bool Contains(T item)
@@ -183,7 +183,7 @@ public virtual bool Contains(T item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CopyTo\(T\[\], int\)
+### <a id="VM_Managed_Collections_LinkCollection_3_CopyTo__0___System_Int32_"></a> CopyTo\(T\[\], int\)
 
 ```csharp
 public virtual void CopyTo(T[] ar, int arrayIndex)
@@ -195,7 +195,7 @@ public virtual void CopyTo(T[] ar, int arrayIndex)
 
 `arrayIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GetEnumerator\(\)
+### <a id="VM_Managed_Collections_LinkCollection_3_GetEnumerator"></a> GetEnumerator\(\)
 
 ```csharp
 public virtual IEnumerator<T> GetEnumerator()
@@ -205,7 +205,7 @@ public virtual IEnumerator<T> GetEnumerator()
 
  [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1)<T\>
 
-### GetEnumeratorImpl\(\)
+### <a id="VM_Managed_Collections_LinkCollection_3_GetEnumeratorImpl"></a> GetEnumeratorImpl\(\)
 
 ```csharp
 IEnumerator GetEnumeratorImpl()
@@ -215,7 +215,7 @@ IEnumerator GetEnumeratorImpl()
 
  [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
-### Remove\(T\)
+### <a id="VM_Managed_Collections_LinkCollection_3_Remove__0_"></a> Remove\(T\)
 
 ```csharp
 public virtual bool Remove(T item)
@@ -229,7 +229,7 @@ public virtual bool Remove(T item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Remove\(T, bool\)
+### <a id="VM_Managed_Collections_LinkCollection_3_Remove__0_System_Boolean_"></a> Remove\(T, bool\)
 
 ```csharp
 public virtual bool Remove(T item, bool bContainsDocument)
@@ -245,7 +245,7 @@ public virtual bool Remove(T item, bool bContainsDocument)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetModified\(ModifiedType, bool\)
+### <a id="VM_Managed_Collections_LinkCollection_3_SetModified_VM_Managed_Collections_ModifiedType_System_Boolean_"></a> SetModified\(ModifiedType, bool\)
 
 ```csharp
 public void SetModified(ModifiedType modifiedType, bool bContainsDocument)
@@ -257,7 +257,7 @@ public void SetModified(ModifiedType modifiedType, bool bContainsDocument)
 
 `bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SimpleValueModifiedForCollection\(ModifiedType\)
+### <a id="VM_Managed_Collections_LinkCollection_3_SimpleValueModifiedForCollection_VM_Managed_Collections_ModifiedType_"></a> SimpleValueModifiedForCollection\(ModifiedType\)
 
 ```csharp
 protected void SimpleValueModifiedForCollection(ModifiedType modifiedType)
@@ -267,7 +267,7 @@ protected void SimpleValueModifiedForCollection(ModifiedType modifiedType)
 
 `modifiedType` [ModifiedType](VM.Managed.Collections.ModifiedType.md)
 
-### SimpleValueModifiedForCollection\(ModifiedType, bool\)
+### <a id="VM_Managed_Collections_LinkCollection_3_SimpleValueModifiedForCollection_VM_Managed_Collections_ModifiedType_System_Boolean_"></a> SimpleValueModifiedForCollection\(ModifiedType, bool\)
 
 ```csharp
 protected void SimpleValueModifiedForCollection(ModifiedType modifiedType, bool bContainsDocument)
@@ -279,7 +279,7 @@ protected void SimpleValueModifiedForCollection(ModifiedType modifiedType, bool 
 
 `bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### raise\_CollectionChanged\(object, NotifyCollectionChangedEventArgs\)
+### <a id="VM_Managed_Collections_LinkCollection_3_raise_CollectionChanged_System_Object_System_Collections_Specialized_NotifyCollectionChangedEventArgs_"></a> raise\_CollectionChanged\(object, NotifyCollectionChangedEventArgs\)
 
 ```csharp
 public void raise_CollectionChanged(object objNotifier, NotifyCollectionChangedEventArgs e)
@@ -291,7 +291,7 @@ public void raise_CollectionChanged(object objNotifier, NotifyCollectionChangedE
 
 `e` [NotifyCollectionChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs)
 
-### CollectionChanged
+### <a id="VM_Managed_Collections_LinkCollection_3_CollectionChanged"></a> CollectionChanged
 
 ```csharp
 public event NotifyCollectionChangedEventHandler CollectionChanged
@@ -300,5 +300,4 @@ public event NotifyCollectionChangedEventHandler CollectionChanged
 #### Event Type
 
  [NotifyCollectionChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler)
-
 

@@ -1,4 +1,4 @@
-# Enum Configuration.TreatmentOfNonContactEntity
+#  Enum Configuration.TreatmentOfNonContactEntity
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -26,7 +26,6 @@ Ignore In Chained System
 `None = 2` 
 
 None
-
 
 
 

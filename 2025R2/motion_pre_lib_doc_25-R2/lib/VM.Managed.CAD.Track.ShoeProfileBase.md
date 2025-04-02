@@ -1,4 +1,4 @@
-# Class ShoeProfileBase
+#  Class ShoeProfileBase
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -27,7 +27,7 @@ public abstract class ShoeProfileBase
 
 ## Constructors
 
-### ShoeProfileBase\(\)
+### <a id="VM_Managed_CAD_Track_ShoeProfileBase__ctor"></a> ShoeProfileBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeProfileBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -37,7 +37,7 @@ public ShoeProfileBase()
 
 ## Fields
 
-### m\_lstPtOrigin
+### <a id="VM_Managed_CAD_Track_ShoeProfileBase_m_lstPtOrigin"></a> m\_lstPtOrigin
 
 The original point data.
 
@@ -49,7 +49,7 @@ protected List<VectorBase> m_lstPtOrigin
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
 
-### m\_lstPtWorkPlane
+### <a id="VM_Managed_CAD_Track_ShoeProfileBase_m_lstPtWorkPlane"></a> m\_lstPtWorkPlane
 
 The transformed point data to work plane.
 
@@ -63,7 +63,7 @@ protected List<VectorBase> m_lstPtWorkPlane
 
 ## Properties
 
-### BasePlateHeight
+### <a id="VM_Managed_CAD_Track_ShoeProfileBase_BasePlateHeight"></a> BasePlateHeight
 
 Gets and sets height for base plate.
 
@@ -75,7 +75,7 @@ public double BasePlateHeight { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ShoeLength
+### <a id="VM_Managed_CAD_Track_ShoeProfileBase_ShoeLength"></a> ShoeLength
 
 Gets and sets shoe total length.
 
@@ -89,7 +89,7 @@ public double ShoeLength { get; set; }
 
 ## Methods
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_Track_ShoeProfileBase_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -97,7 +97,7 @@ Checks the validation about build.
 public virtual void CheckValidationAboutBuild()
 ```
 
-### CreateProfile\(\)
+### <a id="VM_Managed_CAD_Track_ShoeProfileBase_CreateProfile"></a> CreateProfile\(\)
 
 Create profile data.
 
@@ -109,7 +109,7 @@ protected virtual bool CreateProfile()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetPointData\_For\_XYPlane\(\)
+### <a id="VM_Managed_CAD_Track_ShoeProfileBase_GetPointData_For_XYPlane"></a> GetPointData\_For\_XYPlane\(\)
 
 Gets points data on XY plane.
 
@@ -121,7 +121,7 @@ public List<VectorBase> GetPointData_For_XYPlane()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
 
-### GetWorkPlaneData\(\)
+### <a id="VM_Managed_CAD_Track_ShoeProfileBase_GetWorkPlaneData"></a> GetWorkPlaneData\(\)
 
 Gets and sets profile data transformed work plane.
 
@@ -129,7 +129,7 @@ Gets and sets profile data transformed work plane.
 protected void GetWorkPlaneData()
 ```
 
-### SetInitializeValue\(\)
+### <a id="VM_Managed_CAD_Track_ShoeProfileBase_SetInitializeValue"></a> SetInitializeValue\(\)
 
 Sets initail value.
 
@@ -137,12 +137,11 @@ Sets initail value.
 public virtual void SetInitializeValue()
 ```
 
-### Validation\(\)
+### <a id="VM_Managed_CAD_Track_ShoeProfileBase_Validation"></a> Validation\(\)
 
 Check validation for member variables.
 
 ```csharp
 public virtual void Validation()
 ```
-
 

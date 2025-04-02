@@ -1,4 +1,4 @@
-# Interface ITypedLink<T\>
+#  Interface ITypedLink<T\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -25,7 +25,7 @@ public interface ITypedLink<T> : ILink
 
 ## Properties
 
-### Object
+### <a id="VM_Managed_ITypedLink_1_Object"></a> Object
 
 ```csharp
 T Object { get; set; }
@@ -34,5 +34,4 @@ T Object { get; set; }
 #### Property Value
 
  T
-
 

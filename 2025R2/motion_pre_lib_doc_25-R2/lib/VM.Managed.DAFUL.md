@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL
+#  Namespace VM.Managed.DAFUL
 
 ### Namespaces
 
@@ -1013,5 +1013,4 @@ Specifies type for a surface smoothing.
  [ArgumentListGeneral.delGetArgument](VM.Managed.DAFUL.ArgumentListGeneral.delGetArgument.md)
 
 Get argument delegator
-
 

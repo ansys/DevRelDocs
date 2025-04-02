@@ -1,4 +1,4 @@
-# Enum RotationTypes
+#  Enum RotationTypes
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  

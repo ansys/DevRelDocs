@@ -1,4 +1,4 @@
-# Class PickerEntityVM
+#  Class PickerEntityVM
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -50,7 +50,7 @@ public class PickerEntityVM : PickerBase
 
 ## Constructors
 
-### PickerEntityVM\(Type\[\]\)
+### <a id="VM_Managed_Picker_Core_PickerEntityVM__ctor_System_Type___"></a> PickerEntityVM\(Type\[\]\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerEntityVM" data-throw-if-not-resolved="false"></xref> class
 
@@ -64,7 +64,7 @@ public PickerEntityVM(Type[] arTypes)
 
 The types of entitys for pick.
 
-### PickerEntityVM\(Type, bool\)
+### <a id="VM_Managed_Picker_Core_PickerEntityVM__ctor_System_Type_System_Boolean_"></a> PickerEntityVM\(Type, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerEntityVM" data-throw-if-not-resolved="false"></xref> class
 
@@ -84,7 +84,7 @@ Whether interface or not.
 
 ## Methods
 
-### Filtering\(UIntPtr\)
+### <a id="VM_Managed_Picker_Core_PickerEntityVM_Filtering_System_UIntPtr_"></a> Filtering\(UIntPtr\)
 
 Filtering to not proper object.
 
@@ -104,7 +104,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPickableType\(\)
+### <a id="VM_Managed_Picker_Core_PickerEntityVM_GetPickableType"></a> GetPickableType\(\)
 
 Get array of pickable type.
 
@@ -118,7 +118,7 @@ public Type[] GetPickableType()
 
 The array of pickable type.
 
-### GetPickerInfo\(\)
+### <a id="VM_Managed_Picker_Core_PickerEntityVM_GetPickerInfo"></a> GetPickerInfo\(\)
 
 Gets information of picking type.
 
@@ -130,7 +130,7 @@ public override string GetPickerInfo()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetResultXmlFromKey\(UIntPtr\)
+### <a id="VM_Managed_Picker_Core_PickerEntityVM_GetResultXmlFromKey_System_UIntPtr_"></a> GetResultXmlFromKey\(UIntPtr\)
 
 Get valid result xml according to picker key of core.
 
@@ -150,7 +150,7 @@ Picking destination key.
 
 The valid result xml.
 
-### Highlight\(bool\)
+### <a id="VM_Managed_Picker_Core_PickerEntityVM_Highlight_System_Boolean_"></a> Highlight\(bool\)
 
 Picking highlight to filtered target.
 
@@ -164,7 +164,7 @@ public override void Highlight(bool bHighlight)
 
 If set to <code>ture</code> is highlight; otherwise, <code>false</code> isn't highlight.
 
-### SetResultImpl\(ref string, bool\)
+### <a id="VM_Managed_Picker_Core_PickerEntityVM_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -187,5 +187,4 @@ If it is true, skip the result setting.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

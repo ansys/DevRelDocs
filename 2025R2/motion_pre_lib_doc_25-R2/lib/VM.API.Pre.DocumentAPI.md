@@ -1,4 +1,4 @@
-# Class DocumentAPI
+#  Class DocumentAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class DocumentAPI
 
 ## Methods
 
-### CloseDocument\(IDocument\)
+### <a id="VM_API_Pre_DocumentAPI_CloseDocument_VM_Models_Pre_IDocument_"></a> CloseDocument\(IDocument\)
 
 Close <xref href="VM.Models.Pre.IDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -43,7 +43,7 @@ The document to be saved.
 
 Will be thrown if 'document' argument is null.
 
-### CreateNewPartDocument\(string, string, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_DocumentAPI_CreateNewPartDocument_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewPartDocument\(string, string, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.PartDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -79,7 +79,7 @@ This parameter is unused.
 
 The new <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewSubsystemDocument\(string, string, Vector, Unit, double, bool, Plane, bool, LengthUnitType\)
+### <a id="VM_API_Pre_DocumentAPI_CreateNewSubsystemDocument_System_String_System_String_VM_Vector_VM_Unit_System_Double_System_Boolean_VM_Plane_System_Boolean_VM_API_Pre_LengthUnitType_"></a> CreateNewSubsystemDocument\(string, string, Vector, Unit, double, bool, Plane, bool, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -131,7 +131,7 @@ This parameter is unused.
 
 The new <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewSubsystemFromTemplateDocument\(string, string\)
+### <a id="VM_API_Pre_DocumentAPI_CreateNewSubsystemFromTemplateDocument_System_String_System_String_"></a> CreateNewSubsystemFromTemplateDocument\(string, string\)
 
 Create <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -155,7 +155,7 @@ The file path of existed subsystem template file path.
 
 The new <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewTemplateDocument\(string, string, Vector, Unit, double, bool, Plane, bool, LengthUnitType\)
+### <a id="VM_API_Pre_DocumentAPI_CreateNewTemplateDocument_System_String_System_String_VM_Vector_VM_Unit_System_Double_System_Boolean_VM_Plane_System_Boolean_VM_API_Pre_LengthUnitType_"></a> CreateNewTemplateDocument\(string, string, Vector, Unit, double, bool, Plane, bool, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -208,7 +208,7 @@ This parameter is unused.
 
 The new <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### ModifyScenario\(IDocument, Obj, bool\)
+### <a id="VM_API_Pre_DocumentAPI_ModifyScenario_VM_Models_Pre_IDocument_VM_API_Pre_Obj_System_Boolean_"></a> ModifyScenario\(IDocument, Obj, bool\)
 
 Modify <xref href="VM.Managed.Simulation.Scenario" data-throw-if-not-resolved="false"></xref>.
 
@@ -242,7 +242,7 @@ Will be thrown if 'document' argument is null.
 
 Will be thrown if the type of 'scenario' is not Scenario.
 
-### SaveDocument\(IDocument\)
+### <a id="VM_API_Pre_DocumentAPI_SaveDocument_VM_Models_Pre_IDocument_"></a> SaveDocument\(IDocument\)
 
 Save <xref href="VM.Models.Pre.IDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -263,7 +263,7 @@ The document to be saved.
 
 Will be thrown if 'document' argument is null.
 
-### SaveDocument\(IDocument, string\)
+### <a id="VM_API_Pre_DocumentAPI_SaveDocument_VM_Models_Pre_IDocument_System_String_"></a> SaveDocument\(IDocument, string\)
 
 Save <xref href="VM.Models.Pre.IDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -288,5 +288,4 @@ The document file path to be saved
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document' or 'filePath' arguments are null.
-
 

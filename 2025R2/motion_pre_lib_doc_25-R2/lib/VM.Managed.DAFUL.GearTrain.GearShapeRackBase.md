@@ -1,4 +1,4 @@
-# Class GearShapeRackBase
+#  Class GearShapeRackBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -133,7 +133,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearShapeRackBase\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeRackBase__ctor"></a> GearShapeRackBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearShapeRackBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -143,7 +143,7 @@ public GearShapeRackBase()
 
 ## Properties
 
-### AddToProperty
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeRackBase_AddToProperty"></a> AddToProperty
 
 Gets the flag whether this instance add to property or not.
 
@@ -155,7 +155,7 @@ public override bool AddToProperty { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LeftRack
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeRackBase_LeftRack"></a> LeftRack
 
 Gets or sets the left rack.
 
@@ -167,7 +167,7 @@ public GearShapeRackBase LeftRack { get; set; }
 
  [GearShapeRackBase](VM.Managed.DAFUL.GearTrain.GearShapeRackBase.md)
 
-### LeftSectionBody
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeRackBase_LeftSectionBody"></a> LeftSectionBody
 
 Gets or sets the left section body.
 
@@ -179,7 +179,7 @@ public SolidBody LeftSectionBody { get; set; }
 
  SolidBody
 
-### RightRack
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeRackBase_RightRack"></a> RightRack
 
 Gets or sets the right rack.
 
@@ -191,7 +191,7 @@ public GearShapeRackBase RightRack { get; set; }
 
  [GearShapeRackBase](VM.Managed.DAFUL.GearTrain.GearShapeRackBase.md)
 
-### RightSectionBody
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeRackBase_RightSectionBody"></a> RightSectionBody
 
 Gets or sets the right section body.
 
@@ -203,7 +203,7 @@ public SolidBody RightSectionBody { get; set; }
 
  SolidBody
 
-### SegmentIndex
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeRackBase_SegmentIndex"></a> SegmentIndex
 
 Gets or sets the index of the segment.
 
@@ -217,7 +217,7 @@ public int SegmentIndex { get; set; }
 
 ## Methods
 
-### GetRackLength\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeRackBase_GetRackLength"></a> GetRackLength\(\)
 
 Gets the length of the rack.
 
@@ -229,7 +229,7 @@ public double GetRackLength()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeRackBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -243,7 +243,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### Show2D\(Canvas\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeRackBase_Show2D_VM_CAD_Kernel_Render_Canvas_"></a> Show2D\(Canvas\)
 
 Show2D.
 
@@ -256,5 +256,4 @@ public override void Show2D(Canvas canvas)
 `canvas` Canvas
 
 The canvas.
-
 

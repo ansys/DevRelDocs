@@ -1,4 +1,4 @@
-# Class PropertyDamperDocument
+#  Class PropertyDamperDocument
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -309,12 +309,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyDamperDocument\(\)
+### <a id="VM_Managed_DAFUL_Car_Force_PropertyDamperDocument__ctor"></a> PropertyDamperDocument\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertyDamperDocument" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyDamperDocument()
 ```
-
 

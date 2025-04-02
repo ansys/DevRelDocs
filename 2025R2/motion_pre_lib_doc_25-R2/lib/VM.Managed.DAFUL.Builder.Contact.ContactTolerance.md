@@ -1,4 +1,4 @@
-# Class ContactTolerance
+#  Class ContactTolerance
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -24,7 +24,7 @@ IBuilder
 
 ## Constructors
 
-### ContactTolerance\(\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_ContactTolerance__ctor"></a> ContactTolerance\(\)
 
 ```csharp
 public ContactTolerance()
@@ -32,7 +32,7 @@ public ContactTolerance()
 
 ## Properties
 
-### GapInfoList
+### <a id="VM_Managed_DAFUL_Builder_Contact_ContactTolerance_GapInfoList"></a> GapInfoList
 
 ```csharp
 public ContactTolerance.GapInfo[] GapInfoList { get; set; }
@@ -44,7 +44,7 @@ public ContactTolerance.GapInfo[] GapInfoList { get; set; }
 
 ## Methods
 
-### Success\(\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_ContactTolerance_Success"></a> Success\(\)
 
 ```csharp
 public bool Success()
@@ -53,5 +53,4 @@ public bool Success()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

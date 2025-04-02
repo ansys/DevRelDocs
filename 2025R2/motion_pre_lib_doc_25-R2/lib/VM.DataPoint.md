@@ -1,4 +1,4 @@
-# Class DataPoint
+#  Class DataPoint
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -41,7 +41,7 @@ public class DataPoint : ObservableObject, IObservableObject, IDisposableObject,
 
 ## Constructors
 
-### DataPoint\(\)
+### <a id="VM_DataPoint__ctor"></a> DataPoint\(\)
 
 ```csharp
 public DataPoint()
@@ -49,7 +49,7 @@ public DataPoint()
 
 ## Properties
 
-### X
+### <a id="VM_DataPoint_X"></a> X
 
 ```csharp
 public double X { get; set; }
@@ -59,7 +59,7 @@ public double X { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_DataPoint_Y"></a> Y
 
 ```csharp
 public double Y { get; set; }
@@ -68,5 +68,4 @@ public double Y { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

@@ -1,4 +1,4 @@
-# Class SingleWheelTravelConfiguration
+#  Class SingleWheelTravelConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -191,7 +191,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SingleWheelTravelConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_SingleWheelTravelConfiguration__ctor"></a> SingleWheelTravelConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SingleWheelTravelConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -199,7 +199,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SingleWheelTr
 public SingleWheelTravelConfiguration()
 ```
 
-### SingleWheelTravelConfiguration\(AnalysisSingleTravel\)
+### <a id="VM_Managed_DAFUL_Car_SingleWheelTravelConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisSingleTravel_"></a> SingleWheelTravelConfiguration\(AnalysisSingleTravel\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SingleWheelTravelConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -215,7 +215,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_SingleWheelTravelConfiguration_Analysis"></a> Analysis
 
 Gets or sets the type of the analysis.
 
@@ -227,7 +227,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_SingleWheelTravelConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -239,7 +239,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_SingleWheelTravelConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -251,7 +251,7 @@ public override SuspensionAnalysisType AnalysisType { get; }
 
  [SuspensionAnalysisType](VM.Managed.DAFUL.Car.SuspensionAnalysisType.md)
 
-### SingleTravelParam
+### <a id="VM_Managed_DAFUL_Car_SingleWheelTravelConfiguration_SingleTravelParam"></a> SingleTravelParam
 
 Gets or sets the single travel parameter.
 
@@ -262,5 +262,4 @@ public AnalysisSingleTravel SingleTravelParam { get; set; }
 #### Property Value
 
  [AnalysisSingleTravel](VM.Managed.DAFUL.Car.AnalysisSingleTravel.md)
-
 

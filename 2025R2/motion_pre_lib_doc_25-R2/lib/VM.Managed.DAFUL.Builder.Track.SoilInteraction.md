@@ -1,4 +1,4 @@
-# Class SoilInteraction
+#  Class SoilInteraction
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -53,7 +53,7 @@ BuilderBase<SoilInteraction\>.ErrorMessage
 
 ## Constructors
 
-### SoilInteraction\(\)
+### <a id="VM_Managed_DAFUL_Builder_Track_SoilInteraction__ctor"></a> SoilInteraction\(\)
 
 ```csharp
 public SoilInteraction()
@@ -61,7 +61,7 @@ public SoilInteraction()
 
 ## Properties
 
-### ActionContactables
+### <a id="VM_Managed_DAFUL_Builder_Track_SoilInteraction_ActionContactables"></a> ActionContactables
 
 ```csharp
 public string[] ActionContactables { get; set; }
@@ -71,7 +71,7 @@ public string[] ActionContactables { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### BaseContactable
+### <a id="VM_Managed_DAFUL_Builder_Track_SoilInteraction_BaseContactable"></a> BaseContactable
 
 ```csharp
 public IContactableRigid3D BaseContactable { get; }
@@ -83,7 +83,7 @@ public IContactableRigid3D BaseContactable { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Track_SoilInteraction_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -98,5 +98,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Class BearingJournalBBPD
+#  Class BearingJournalBBPD
 
 Namespace: [VM.Managed.DAFUL.Builder.Bearing](VM.Managed.DAFUL.Builder.Bearing.md)  
 Assembly: VMBldBearing.dll  
@@ -61,7 +61,7 @@ BuilderBase<BearingJournal\>.ErrorMessage
 
 ## Constructors
 
-### BearingJournalBBPD\(\)
+### <a id="VM_Managed_DAFUL_Builder_Bearing_BearingJournalBBPD__ctor"></a> BearingJournalBBPD\(\)
 
 ```csharp
 public BearingJournalBBPD()
@@ -69,7 +69,7 @@ public BearingJournalBBPD()
 
 ## Properties
 
-### BearingRadius
+### <a id="VM_Managed_DAFUL_Builder_Bearing_BearingJournalBBPD_BearingRadius"></a> BearingRadius
 
 ```csharp
 public Variable BearingRadius { get; set; }
@@ -79,7 +79,7 @@ public Variable BearingRadius { get; set; }
 
  Variable
 
-### BearingWidth
+### <a id="VM_Managed_DAFUL_Builder_Bearing_BearingJournalBBPD_BearingWidth"></a> BearingWidth
 
 ```csharp
 public Variable BearingWidth { get; set; }
@@ -89,7 +89,7 @@ public Variable BearingWidth { get; set; }
 
  Variable
 
-### ShaftRadius
+### <a id="VM_Managed_DAFUL_Builder_Bearing_BearingJournalBBPD_ShaftRadius"></a> ShaftRadius
 
 ```csharp
 public Variable ShaftRadius { get; set; }
@@ -101,7 +101,7 @@ public Variable ShaftRadius { get; set; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Bearing_BearingJournalBBPD_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -116,5 +116,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

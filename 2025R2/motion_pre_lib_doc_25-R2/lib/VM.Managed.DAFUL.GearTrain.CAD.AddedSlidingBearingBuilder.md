@@ -1,4 +1,4 @@
-# Class AddedSlidingBearingBuilder
+#  Class AddedSlidingBearingBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -256,7 +256,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AddedSlidingBearingBuilder\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedSlidingBearingBuilder__ctor"></a> AddedSlidingBearingBuilder\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedSlidingBearingBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -264,7 +264,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Add
 public AddedSlidingBearingBuilder()
 ```
 
-### AddedSlidingBearingBuilder\(SlidingBearingGeom, SBGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedSlidingBearingBuilder__ctor_VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingGeom_VM_Managed_DAFUL_GearTrain_SBGeometryInfo_"></a> AddedSlidingBearingBuilder\(SlidingBearingGeom, SBGeometryInfo\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedSlidingBearingBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -284,7 +284,7 @@ The information.
 
 ## Methods
 
-### GetCenterPosition\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedSlidingBearingBuilder_GetCenterPosition"></a> GetCenterPosition\(\)
 
 Gets center position.
 
@@ -296,7 +296,7 @@ public override VectorBase GetCenterPosition()
 
  VectorBase
 
-### GetTransform\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedSlidingBearingBuilder_GetTransform"></a> GetTransform\(\)
 
 Gets the transform for the sliding bearing in subsystem.
 
@@ -308,7 +308,7 @@ public override TMatrix GetTransform()
 
  TMatrix
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedSlidingBearingBuilder_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -326,12 +326,11 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### UpdateGeometry\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedSlidingBearingBuilder_UpdateGeometry"></a> UpdateGeometry\(\)
 
 Updates the geometry.
 
 ```csharp
 public override void UpdateGeometry()
 ```
-
 

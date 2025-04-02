@@ -1,4 +1,4 @@
-# Struct RatingOutput
+#  Struct RatingOutput
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +11,7 @@ public struct RatingOutput
 
 ## Fields
 
-### ContactStress
+### <a id="VM_Managed_DAFUL_GearTrain_RatingOutput_ContactStress"></a> ContactStress
 
 Contact Stress
 
@@ -23,7 +23,7 @@ public double ContactStress
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### FlankSafety
+### <a id="VM_Managed_DAFUL_GearTrain_RatingOutput_FlankSafety"></a> FlankSafety
 
 Flank Safety
 
@@ -35,7 +35,7 @@ public double FlankSafety
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RootSafety
+### <a id="VM_Managed_DAFUL_GearTrain_RatingOutput_RootSafety"></a> RootSafety
 
 Root Safety
 
@@ -47,7 +47,7 @@ public double RootSafety
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RootStress
+### <a id="VM_Managed_DAFUL_GearTrain_RatingOutput_RootStress"></a> RootStress
 
 Root Stress
 
@@ -61,12 +61,11 @@ public double RootStress
 
 ## Methods
 
-### Initialize\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_RatingOutput_Initialize"></a> Initialize\(\)
 
 Initialize
 
 ```csharp
 public void Initialize()
 ```
-
 

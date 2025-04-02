@@ -1,4 +1,4 @@
-# Class SolidBodyTireSimple
+#  Class SolidBodyTireSimple
 
 Namespace: [VM.Managed.Symmetric.CAD.Tire](VM.Managed.Symmetric.CAD.Tire.md)  
 Assembly: VMSymTire.dll  
@@ -33,7 +33,7 @@ SolidBodyGeometry.UpdateBuild\(Builder, Builder, SymmetricType, Plane, Document\
 
 ## Constructors
 
-### SolidBodyTireSimple\(\)
+### <a id="VM_Managed_Symmetric_CAD_Tire_SolidBodyTireSimple__ctor"></a> SolidBodyTireSimple\(\)
 
 ```csharp
 public SolidBodyTireSimple()
@@ -41,7 +41,7 @@ public SolidBodyTireSimple()
 
 ## Methods
 
-### Initialize\(ISymmetricManager\)
+### <a id="VM_Managed_Symmetric_CAD_Tire_SolidBodyTireSimple_Initialize_VM_Managed_Symmetric_ISymmetricManager_"></a> Initialize\(ISymmetricManager\)
 
 Initialize the symmetric objects.
 
@@ -59,7 +59,7 @@ public override bool Initialize(ISymmetricManager Manager)
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_CAD_Tire_SolidBodyTireSimple_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -93,7 +93,7 @@ Plane of symmetric.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### UpdateBuild\(Builder, Builder, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_CAD_Tire_SolidBodyTireSimple_UpdateBuild_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateBuild\(Builder, Builder, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -126,5 +126,4 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

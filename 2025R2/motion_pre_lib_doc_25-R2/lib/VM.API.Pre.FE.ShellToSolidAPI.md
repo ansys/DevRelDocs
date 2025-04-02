@@ -1,4 +1,4 @@
-# Class ShellToSolidAPI
+#  Class ShellToSolidAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -22,7 +22,7 @@ public static class ShellToSolidAPI
 
 ## Methods
 
-### ConvertShellToSolid\(MeshDocument, ShellThicknessType, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_FE_ShellToSolidAPI_ConvertShellToSolid_VM_Managed_DAFUL_FE_MeshDocument_VM_Managed_DAFUL_FE_Mesh_ShellThicknessType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> ConvertShellToSolid\(MeshDocument, ShellThicknessType, ExpressionValueVariable?\)
 
 Convert shell to solid.
 
@@ -54,5 +54,4 @@ Will be thrown if 'document' argument is empty.
  [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
 
 Will be thrown if 'thickness' value equal to or less than 0.
-
 

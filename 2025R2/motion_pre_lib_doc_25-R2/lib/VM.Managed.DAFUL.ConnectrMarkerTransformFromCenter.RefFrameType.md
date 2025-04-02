@@ -1,4 +1,4 @@
-# Enum ConnectrMarkerTransformFromCenter.RefFrameType
+#  Enum ConnectrMarkerTransformFromCenter.RefFrameType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -20,7 +20,6 @@ The assembly reserence frame of an assembed body.
 `MassCenter = 0` 
 
 The mass center of a body
-
 
 
 

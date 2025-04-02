@@ -1,4 +1,4 @@
-# Enum PropertyGearSetBase.CreationMethodType
+#  Enum PropertyGearSetBase.CreationMethodType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ The advanced
 `Basic = 0` 
 
 The basic
-
 
 
 

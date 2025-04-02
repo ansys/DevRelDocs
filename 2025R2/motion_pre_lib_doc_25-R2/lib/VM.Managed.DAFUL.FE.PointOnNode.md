@@ -1,4 +1,4 @@
-# Class PointOnNode
+#  Class PointOnNode
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -107,7 +107,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PointOnNode\(UIntPtr, int\)
+### <a id="VM_Managed_DAFUL_FE_PointOnNode__ctor_System_UIntPtr_System_Int32_"></a> PointOnNode\(UIntPtr, int\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.PointOnNode" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ The owner key.
 
 The node index.
 
-### PointOnNode\(Mesh, int\)
+### <a id="VM_Managed_DAFUL_FE_PointOnNode__ctor_VM_Managed_DAFUL_FE_Mesh_System_Int32_"></a> PointOnNode\(Mesh, int\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.PointOnNode" data-throw-if-not-resolved="false"></xref> class.
 
@@ -143,7 +143,7 @@ The mesh.
 
 The node index.
 
-### PointOnNode\(\)
+### <a id="VM_Managed_DAFUL_FE_PointOnNode__ctor"></a> PointOnNode\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.PointOnNode" data-throw-if-not-resolved="false"></xref> class.
 
@@ -153,7 +153,7 @@ public PointOnNode()
 
 ## Properties
 
-### IsParameterized
+### <a id="VM_Managed_DAFUL_FE_PointOnNode_IsParameterized"></a> IsParameterized
 
 Get the parametric.
 
@@ -165,7 +165,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### NodeIndex
+### <a id="VM_Managed_DAFUL_FE_PointOnNode_NodeIndex"></a> NodeIndex
 
 Gets the index of node.
 
@@ -177,7 +177,7 @@ public int NodeIndex { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Value
+### <a id="VM_Managed_DAFUL_FE_PointOnNode_Value"></a> Value
 
 Gets the point position.
 
@@ -189,7 +189,7 @@ public override VectorBase Value { get; }
 
  VectorBase
 
-### X
+### <a id="VM_Managed_DAFUL_FE_PointOnNode_X"></a> X
 
 Gets the X coordinate of point position.
 
@@ -201,7 +201,7 @@ public override double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_Managed_DAFUL_FE_PointOnNode_Y"></a> Y
 
 Gets the Y coordinate of point position.
 
@@ -213,7 +213,7 @@ public override double Y { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Z
+### <a id="VM_Managed_DAFUL_FE_PointOnNode_Z"></a> Z
 
 Gets the Z coordinate of point position.
 
@@ -227,7 +227,7 @@ public override double Z { get; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_DAFUL_FE_PointOnNode_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <xref href="System.Xml.Serialization.XmlSchemaProviderAttribute" data-throw-if-not-resolved="false"></xref> to the class.
 
@@ -241,7 +241,7 @@ public override XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### IsParametric\(enRefType\)
+### <a id="VM_Managed_DAFUL_FE_PointOnNode_IsParametric_VM_Managed_Primitive_enRefType_"></a> IsParametric\(enRefType\)
 
 Gets parametric.
 
@@ -261,7 +261,7 @@ Point picking type.
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_FE_PointOnNode_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -275,7 +275,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_FE_PointOnNode_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -289,7 +289,7 @@ public override void ReadXml(XmlReader reader)
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_FE_PointOnNode_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -302,5 +302,4 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
-
 

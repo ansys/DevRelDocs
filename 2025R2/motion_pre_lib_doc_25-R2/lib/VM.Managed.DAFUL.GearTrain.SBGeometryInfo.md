@@ -1,4 +1,4 @@
-# Class SBGeometryInfo
+#  Class SBGeometryInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -174,7 +174,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SBGeometryInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SBGeometryInfo__ctor"></a> SBGeometryInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.SBGeometryInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -182,7 +182,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.SBGeome
 public SBGeometryInfo()
 ```
 
-### SBGeometryInfo\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_SBGeometryInfo__ctor_System_String_"></a> SBGeometryInfo\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.SBGeometryInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -198,7 +198,7 @@ Name of the sub entity.
 
 ## Properties
 
-### ArcAngle
+### <a id="VM_Managed_DAFUL_GearTrain_SBGeometryInfo_ArcAngle"></a> ArcAngle
 
 Gets or sets the arc angle.
 Use SetArcAngle() when this instance sets for undo/redo
@@ -211,7 +211,7 @@ public double ArcAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GeometryDepth
+### <a id="VM_Managed_DAFUL_GearTrain_SBGeometryInfo_GeometryDepth"></a> GeometryDepth
 
 Gets the geometry depth.
 
@@ -223,7 +223,7 @@ public override double GeometryDepth { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### InnerRadius
+### <a id="VM_Managed_DAFUL_GearTrain_SBGeometryInfo_InnerRadius"></a> InnerRadius
 
 Gets or sets the inner radius.
 Use SetInnerRadius() when this instance sets for undo/redo
@@ -236,7 +236,7 @@ public double InnerRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Length
+### <a id="VM_Managed_DAFUL_GearTrain_SBGeometryInfo_Length"></a> Length
 
 Gets or sets the length.
 Use SetLength() when this instance sets for undo/redo
@@ -249,7 +249,7 @@ public double Length { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Thickness
+### <a id="VM_Managed_DAFUL_GearTrain_SBGeometryInfo_Thickness"></a> Thickness
 
 Gets or sets the thickness.
 Use SetThickness() when this instance sets for undo/redo
@@ -262,7 +262,7 @@ public double Thickness { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TypeOfGeometry
+### <a id="VM_Managed_DAFUL_GearTrain_SBGeometryInfo_TypeOfGeometry"></a> TypeOfGeometry
 
 Gets the type of geometry.
 
@@ -276,7 +276,7 @@ public override GeometryInfoBase.GeometryType TypeOfGeometry { get; }
 
 ## Methods
 
-### SetArcAngle\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_SBGeometryInfo_SetArcAngle_System_Double_"></a> SetArcAngle\(double\)
 
 Set arc angle.
 
@@ -290,7 +290,7 @@ public void SetArcAngle(double dVal)
 
 The arc angle.
 
-### SetInnerRadius\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_SBGeometryInfo_SetInnerRadius_System_Double_"></a> SetInnerRadius\(double\)
 
 Set inner radius.
 
@@ -304,7 +304,7 @@ public void SetInnerRadius(double dVal)
 
 The inner radius.
 
-### SetLength\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_SBGeometryInfo_SetLength_System_Double_"></a> SetLength\(double\)
 
 Set length.
 
@@ -318,7 +318,7 @@ public void SetLength(double dVal)
 
 The length.
 
-### SetThickness\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_SBGeometryInfo_SetThickness_System_Double_"></a> SetThickness\(double\)
 
 Set thickness.
 
@@ -331,5 +331,4 @@ public void SetThickness(double dVal)
 `dVal` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 The thickness.
-
 

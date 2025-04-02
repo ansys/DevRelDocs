@@ -1,4 +1,4 @@
-# Enum PropertyPLoad.DirectionType
+#  Enum PropertyPLoad.DirectionType
 
 Namespace: [VM.Managed.DAFUL.FE.Force](VM.Managed.DAFUL.FE.Force.md)  
 Assembly: VMFE.dll  
@@ -20,7 +20,6 @@ down.
 `UP = 0` 
 
 up.
-
 
 
 

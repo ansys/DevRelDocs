@@ -1,4 +1,4 @@
-# Class MinorRoleImpl
+#  Class MinorRoleImpl
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -22,7 +22,7 @@ public class MinorRoleImpl
 
 ## Constructors
 
-### MinorRoleImpl\(\)
+### <a id="VM_Managed_DAFUL_Car_MinorRoleImpl__ctor"></a> MinorRoleImpl\(\)
 
 ```csharp
 public MinorRoleImpl()
@@ -30,7 +30,7 @@ public MinorRoleImpl()
 
 ## Methods
 
-### LoadTemplateForMinorRole\(XmlReader, ref MinorRole, InterfaceManagerForCar\)
+### <a id="VM_Managed_DAFUL_Car_MinorRoleImpl_LoadTemplateForMinorRole_System_Xml_XmlReader_VM_Managed_DAFUL_Car_MinorRole__VM_Managed_DAFUL_Car_InterfaceManagerForCar_"></a> LoadTemplateForMinorRole\(XmlReader, ref MinorRole, InterfaceManagerForCar\)
 
 Loads the template for minor role.
 
@@ -52,7 +52,7 @@ The type MR.
 
 The itf MGR.
 
-### SaveTemplateForMinorRole\(XmlWriter, MinorRole, InterfaceManagerForCar\)
+### <a id="VM_Managed_DAFUL_Car_MinorRoleImpl_SaveTemplateForMinorRole_System_Xml_XmlWriter_VM_Managed_DAFUL_Car_MinorRole_VM_Managed_DAFUL_Car_InterfaceManagerForCar_"></a> SaveTemplateForMinorRole\(XmlWriter, MinorRole, InterfaceManagerForCar\)
 
 Saves the template for minor role.
 
@@ -73,5 +73,4 @@ The type MR.
 `itfMgr` [InterfaceManagerForCar](VM.Managed.DAFUL.Car.InterfaceManagerForCar.md)
 
 The itf MGR.
-
 

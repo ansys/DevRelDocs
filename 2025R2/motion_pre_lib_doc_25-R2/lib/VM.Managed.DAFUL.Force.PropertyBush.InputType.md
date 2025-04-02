@@ -1,4 +1,4 @@
-# Enum PropertyBush.InputType
+#  Enum PropertyBush.InputType
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -20,7 +20,6 @@ the coefficient.
 `Spline = 1` 
 
 the spline.
-
 
 
 

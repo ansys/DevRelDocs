@@ -1,4 +1,4 @@
-# Class TScalar
+#  Class TScalar
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -251,7 +251,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### TScalar\(\)
+### <a id="VM_Managed_DAFUL_Force_TScalar__ctor"></a> TScalar\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.TScalar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -259,7 +259,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.TScalar" da
 public TScalar()
 ```
 
-### TScalar\(string\)
+### <a id="VM_Managed_DAFUL_Force_TScalar__ctor_System_String_"></a> TScalar\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.TScalar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -275,7 +275,7 @@ Name of the translational scalar force.
 
 ## Properties
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Force_TScalar_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -289,7 +289,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Force_TScalar_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -302,5 +302,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

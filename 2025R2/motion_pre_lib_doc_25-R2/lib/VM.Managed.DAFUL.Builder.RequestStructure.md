@@ -1,4 +1,4 @@
-# Class RequestStructure
+#  Class RequestStructure
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -57,7 +57,7 @@ public class RequestStructure : RequestBase<RequestStructure>, IBuilder
 
 ## Constructors
 
-### RequestStructure\(\)
+### <a id="VM_Managed_DAFUL_Builder_RequestStructure__ctor"></a> RequestStructure\(\)
 
 ```csharp
 public RequestStructure()
@@ -65,7 +65,7 @@ public RequestStructure()
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_RequestStructure_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -80,5 +80,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

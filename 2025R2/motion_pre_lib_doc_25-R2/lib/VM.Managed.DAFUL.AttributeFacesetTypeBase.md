@@ -1,4 +1,4 @@
-# Class AttributeFacesetTypeBase
+#  Class AttributeFacesetTypeBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -103,7 +103,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeFacesetTypeBase\(\)
+### <a id="VM_Managed_DAFUL_AttributeFacesetTypeBase__ctor"></a> AttributeFacesetTypeBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeFacesetTypeBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public AttributeFacesetTypeBase()
 
 ## Properties
 
-### Type
+### <a id="VM_Managed_DAFUL_AttributeFacesetTypeBase_Type"></a> Type
 
 Gets or sets the type.
 
@@ -124,5 +124,4 @@ public AttributeFacesetTypeBase.FacesetType Type { get; set; }
 #### Property Value
 
  [AttributeFacesetTypeBase](VM.Managed.DAFUL.AttributeFacesetTypeBase.md).[FacesetType](VM.Managed.DAFUL.AttributeFacesetTypeBase.FacesetType.md)
-
 

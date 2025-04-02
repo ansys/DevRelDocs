@@ -1,4 +1,4 @@
-# Class InterfaceParameterExtension
+#  Class InterfaceParameterExtension
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -20,7 +20,7 @@ public static class InterfaceParameterExtension
 
 ## Methods
 
-### GetArrayData<T\>\(UIntPtr, ulong\)
+### <a id="VM_CAD_Kernel_InterfaceParameterExtension_GetArrayData__1_System_UIntPtr_System_UInt64_"></a> GetArrayData<T\>\(UIntPtr, ulong\)
 
 ```csharp
 public static T[] GetArrayData<T>(this UIntPtr pArr, ulong nSize)
@@ -40,7 +40,7 @@ public static T[] GetArrayData<T>(this UIntPtr pArr, ulong nSize)
 
 `T` 
 
-### GetArrayData<T\>\(UIntPtr\)
+### <a id="VM_CAD_Kernel_InterfaceParameterExtension_GetArrayData__1_System_UIntPtr_"></a> GetArrayData<T\>\(UIntPtr\)
 
 ```csharp
 public static T[] GetArrayData<T>(this UIntPtr pArr)
@@ -58,7 +58,7 @@ public static T[] GetArrayData<T>(this UIntPtr pArr)
 
 `T` 
 
-### GetArrayElementCount\(UIntPtr\)
+### <a id="VM_CAD_Kernel_InterfaceParameterExtension_GetArrayElementCount_System_UIntPtr_"></a> GetArrayElementCount\(UIntPtr\)
 
 ```csharp
 public static ulong GetArrayElementCount(this UIntPtr pArr)
@@ -72,7 +72,7 @@ public static ulong GetArrayElementCount(this UIntPtr pArr)
 
  [ulong](https://learn.microsoft.com/dotnet/api/system.uint64)
 
-### SetArrayData<T\>\(UIntPtr, T\[\]\)
+### <a id="VM_CAD_Kernel_InterfaceParameterExtension_SetArrayData__1_System_UIntPtr___0___"></a> SetArrayData<T\>\(UIntPtr, T\[\]\)
 
 ```csharp
 public static void SetArrayData<T>(this UIntPtr pArr, T[] arr)
@@ -87,5 +87,4 @@ public static void SetArrayData<T>(this UIntPtr pArr, T[] arr)
 #### Type Parameters
 
 `T` 
-
 

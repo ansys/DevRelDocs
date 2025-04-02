@@ -1,4 +1,4 @@
-# Class PropertyBearingJournal
+#  Class PropertyBearingJournal
 
 Namespace: [VM.Managed.DAFUL.Bearing.Force](VM.Managed.DAFUL.Bearing.Force.md)  
 Assembly: VMDBearing.dll  
@@ -180,7 +180,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyBearingJournal\(\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingJournal__ctor"></a> PropertyBearingJournal\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.PropertyBearingJournal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -190,7 +190,7 @@ public PropertyBearingJournal()
 
 ## Properties
 
-### BearingRadius
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingJournal_BearingRadius"></a> BearingRadius
 
 Gets or sets the bearing radius.
 
@@ -202,7 +202,7 @@ public ExpressionValueVariable BearingRadius { get; set; }
 
  ExpressionValueVariable
 
-### BearingWidth
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingJournal_BearingWidth"></a> BearingWidth
 
 Gets or sets the width of the bearing.
 
@@ -214,7 +214,7 @@ public ExpressionValueVariable BearingWidth { get; set; }
 
  ExpressionValueVariable
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingJournal_ReferenceType"></a> ReferenceType
 
 Gets the type of the reference.
 
@@ -226,7 +226,7 @@ public override string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ShaftRadius
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingJournal_ShaftRadius"></a> ShaftRadius
 
 Gets or sets the shaft radius.
 
@@ -238,7 +238,7 @@ public ExpressionValueVariable ShaftRadius { get; set; }
 
  ExpressionValueVariable
 
-### TorqueWeigth
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingJournal_TorqueWeigth"></a> TorqueWeigth
 
 Gets or sets the bearing radius.
 
@@ -252,7 +252,7 @@ public ExpressionValueVariable TorqueWeigth { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingJournal_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -265,5 +265,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

@@ -1,4 +1,4 @@
-# Class BuilderNut
+#  Class BuilderNut
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -193,7 +193,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderNut\(\)
+### <a id="VM_Managed_DAFUL_BuilderNut__ctor"></a> BuilderNut\(\)
 
 ```csharp
 public BuilderNut()
@@ -201,7 +201,7 @@ public BuilderNut()
 
 ## Properties
 
-### BallDiameter
+### <a id="VM_Managed_DAFUL_BuilderNut_BallDiameter"></a> BallDiameter
 
 Gets and sets the ball diameter.
 
@@ -213,7 +213,7 @@ public Variable BallDiameter { get; set; }
 
  Variable
 
-### IsRight
+### <a id="VM_Managed_DAFUL_BuilderNut_IsRight"></a> IsRight
 
 Gets or sets a value indicating whether screw is right handed.
 
@@ -225,7 +225,7 @@ public bool IsRight { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Lead
+### <a id="VM_Managed_DAFUL_BuilderNut_Lead"></a> Lead
 
 Gets and sets the lead.
 
@@ -237,7 +237,7 @@ public Variable Lead { get; set; }
 
  Variable
 
-### NutChamperAngle
+### <a id="VM_Managed_DAFUL_BuilderNut_NutChamperAngle"></a> NutChamperAngle
 
 Gets and sets the nut champer angle.
 
@@ -249,7 +249,7 @@ public Variable NutChamperAngle { get; set; }
 
  Variable
 
-### NutConformity
+### <a id="VM_Managed_DAFUL_BuilderNut_NutConformity"></a> NutConformity
 
 Gets and sets the nut conformity.
 
@@ -261,7 +261,7 @@ public Variable NutConformity { get; set; }
 
  Variable
 
-### NutContactAngle
+### <a id="VM_Managed_DAFUL_BuilderNut_NutContactAngle"></a> NutContactAngle
 
 Gets and sets the nut contact angle.
 
@@ -273,7 +273,7 @@ public Variable NutContactAngle { get; set; }
 
  Variable
 
-### NutInnerRadius
+### <a id="VM_Managed_DAFUL_BuilderNut_NutInnerRadius"></a> NutInnerRadius
 
 Gets and sets the nut inner radius.
 
@@ -285,7 +285,7 @@ public Variable NutInnerRadius { get; set; }
 
  Variable
 
-### NutLength
+### <a id="VM_Managed_DAFUL_BuilderNut_NutLength"></a> NutLength
 
 Gets and sets the nut length.
 
@@ -297,7 +297,7 @@ public Variable NutLength { get; set; }
 
  Variable
 
-### NutOD
+### <a id="VM_Managed_DAFUL_BuilderNut_NutOD"></a> NutOD
 
 Gets and sets the nut OD.
 
@@ -309,7 +309,7 @@ public Variable NutOD { get; set; }
 
  Variable
 
-### NutPCD
+### <a id="VM_Managed_DAFUL_BuilderNut_NutPCD"></a> NutPCD
 
 Gets and sets the nut PCD.
 
@@ -321,7 +321,7 @@ public Variable NutPCD { get; set; }
 
  Variable
 
-### NutScrewEndLength
+### <a id="VM_Managed_DAFUL_BuilderNut_NutScrewEndLength"></a> NutScrewEndLength
 
 Gets and sets the nut screw end length.
 
@@ -333,7 +333,7 @@ public Variable NutScrewEndLength { get; set; }
 
  Variable
 
-### NutScrewStartLength
+### <a id="VM_Managed_DAFUL_BuilderNut_NutScrewStartLength"></a> NutScrewStartLength
 
 Gets and sets the nut screw start length.
 
@@ -345,7 +345,7 @@ public Variable NutScrewStartLength { get; set; }
 
  Variable
 
-### NutShoulderRadius
+### <a id="VM_Managed_DAFUL_BuilderNut_NutShoulderRadius"></a> NutShoulderRadius
 
 Gets and sets the nut shoulder radius.
 
@@ -357,7 +357,7 @@ public Variable NutShoulderRadius { get; set; }
 
  Variable
 
-### NutShoulderType
+### <a id="VM_Managed_DAFUL_BuilderNut_NutShoulderType"></a> NutShoulderType
 
 Gets and sets the nut shoulder type.
 
@@ -369,7 +369,7 @@ public ShoulderType NutShoulderType { get; set; }
 
  [ShoulderType](VM.Managed.DAFUL.ShoulderType.md)
 
-### NutStartArcAngle
+### <a id="VM_Managed_DAFUL_BuilderNut_NutStartArcAngle"></a> NutStartArcAngle
 
 Gets and sets the nut start arc angle.
 
@@ -381,7 +381,7 @@ public Variable NutStartArcAngle { get; set; }
 
  Variable
 
-### NutStartLength
+### <a id="VM_Managed_DAFUL_BuilderNut_NutStartLength"></a> NutStartLength
 
 Gets and sets the nut start length.
 
@@ -393,7 +393,7 @@ public Variable NutStartLength { get; set; }
 
  Variable
 
-### Position
+### <a id="VM_Managed_DAFUL_BuilderNut_Position"></a> Position
 
 Gets and sets the position.
 
@@ -405,7 +405,7 @@ public Vector Position { get; set; }
 
  Vector
 
-### ShaftLength
+### <a id="VM_Managed_DAFUL_BuilderNut_ShaftLength"></a> ShaftLength
 
 Gets and sets the shaft length.
 
@@ -417,7 +417,7 @@ public Variable ShaftLength { get; set; }
 
  Variable
 
-### ShaftScrewEndLength
+### <a id="VM_Managed_DAFUL_BuilderNut_ShaftScrewEndLength"></a> ShaftScrewEndLength
 
 Gets and sets the shaft screw end length.
 
@@ -429,7 +429,7 @@ public Variable ShaftScrewEndLength { get; set; }
 
  Variable
 
-### ShaftScrewStartAngle
+### <a id="VM_Managed_DAFUL_BuilderNut_ShaftScrewStartAngle"></a> ShaftScrewStartAngle
 
 Gets and sets the shaft screw start angle.
 
@@ -441,7 +441,7 @@ public Variable ShaftScrewStartAngle { get; set; }
 
  Variable
 
-### ShaftScrewStartLength
+### <a id="VM_Managed_DAFUL_BuilderNut_ShaftScrewStartLength"></a> ShaftScrewStartLength
 
 Gets and sets the shaft screw start length.
 
@@ -453,7 +453,7 @@ public Variable ShaftScrewStartLength { get; set; }
 
  Variable
 
-### XAxis
+### <a id="VM_Managed_DAFUL_BuilderNut_XAxis"></a> XAxis
 
 Gets and sets the x-axis.
 
@@ -465,7 +465,7 @@ public Vector XAxis { get; set; }
 
  Vector
 
-### ZAxis
+### <a id="VM_Managed_DAFUL_BuilderNut_ZAxis"></a> ZAxis
 
 Gets and sets the z-axis.
 
@@ -479,7 +479,7 @@ public Vector ZAxis { get; set; }
 
 ## Methods
 
-### CreateParameter\(\)
+### <a id="VM_Managed_DAFUL_BuilderNut_CreateParameter"></a> CreateParameter\(\)
 
 Create Parameter
 
@@ -491,7 +491,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_DAFUL_BuilderNut_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 Fill Parameter
 
@@ -502,5 +502,4 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
-
 

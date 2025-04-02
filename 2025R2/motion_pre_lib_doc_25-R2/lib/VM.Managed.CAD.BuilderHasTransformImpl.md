@@ -1,4 +1,4 @@
-# Class BuilderHasTransformImpl
+#  Class BuilderHasTransformImpl
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderHasTransformImpl\(\)
+### <a id="VM_Managed_CAD_BuilderHasTransformImpl__ctor"></a> BuilderHasTransformImpl\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderHasTransform" data-throw-if-not-resolved="false"></xref> class
 
@@ -207,7 +207,7 @@ public BuilderHasTransformImpl()
 
 ## Properties
 
-### Transform
+### <a id="VM_Managed_CAD_BuilderHasTransformImpl_Transform"></a> Transform
 
 Gets or sets the transformation of import body.
 
@@ -221,7 +221,7 @@ public override sealed TransformBase Transform { get; set; }
 
 ## Methods
 
-### SetTransform\(TMatrix\)
+### <a id="VM_Managed_CAD_BuilderHasTransformImpl_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -234,5 +234,4 @@ public override sealed void SetTransform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform info.
-
 

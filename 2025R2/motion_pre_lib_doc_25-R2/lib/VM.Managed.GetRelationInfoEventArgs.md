@@ -1,4 +1,4 @@
-# Class GetRelationInfoEventArgs
+#  Class GetRelationInfoEventArgs
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -37,7 +37,7 @@ public sealed class GetRelationInfoEventArgs : LinkEventArgs
 
 ## Constructors
 
-### GetRelationInfoEventArgs\(\)
+### <a id="VM_Managed_GetRelationInfoEventArgs__ctor"></a> GetRelationInfoEventArgs\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.GetRelationInfoEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -47,7 +47,7 @@ public GetRelationInfoEventArgs()
 
 ## Properties
 
-### RelationList
+### <a id="VM_Managed_GetRelationInfoEventArgs_RelationList"></a> RelationList
 
 Gets the list of relation.
 
@@ -59,7 +59,7 @@ public List<ObjectBase> RelationList { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ObjectBase](VM.Managed.ObjectBase.md)\>
 
-### SubEntityList
+### <a id="VM_Managed_GetRelationInfoEventArgs_SubEntityList"></a> SubEntityList
 
 Gets the list of sub-entity.
 
@@ -73,7 +73,7 @@ public List<ObjectBase> SubEntityList { get; }
 
 ## Methods
 
-### AddRelationList\(ObjectBase\)
+### <a id="VM_Managed_GetRelationInfoEventArgs_AddRelationList_VM_Managed_ObjectBase_"></a> AddRelationList\(ObjectBase\)
 
 Adds the relation information to list.
 
@@ -87,7 +87,7 @@ public void AddRelationList(ObjectBase relation)
 
 The added relation.
 
-### AddSubEntityList\(ObjectBase\)
+### <a id="VM_Managed_GetRelationInfoEventArgs_AddSubEntityList_VM_Managed_ObjectBase_"></a> AddSubEntityList\(ObjectBase\)
 
 Adds the sub-entity information to list.
 
@@ -100,5 +100,4 @@ public void AddSubEntityList(ObjectBase subentity)
 `subentity` [ObjectBase](VM.Managed.ObjectBase.md)
 
 The added sub-entity.
-
 

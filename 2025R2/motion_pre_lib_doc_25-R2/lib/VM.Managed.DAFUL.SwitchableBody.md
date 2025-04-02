@@ -1,4 +1,4 @@
-# Class SwitchableBody
+#  Class SwitchableBody
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -180,7 +180,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SwitchableBody\(\)
+### <a id="VM_Managed_DAFUL_SwitchableBody__ctor"></a> SwitchableBody\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SwitchableBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -188,7 +188,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.SwitchableBody" d
 public SwitchableBody()
 ```
 
-### SwitchableBody\(string\)
+### <a id="VM_Managed_DAFUL_SwitchableBody__ctor_System_String_"></a> SwitchableBody\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SwitchableBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -204,7 +204,7 @@ Name of the STR.
 
 ## Properties
 
-### ActiveConnectableObject
+### <a id="VM_Managed_DAFUL_SwitchableBody_ActiveConnectableObject"></a> ActiveConnectableObject
 
 Gets or sets the active connectable object.
 
@@ -216,7 +216,7 @@ public IConnectable ActiveConnectableObject { get; set; }
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)
 
-### ActiveConnectableObjectName
+### <a id="VM_Managed_DAFUL_SwitchableBody_ActiveConnectableObjectName"></a> ActiveConnectableObjectName
 
 Gets or sets the name of the active connectable object.
 
@@ -228,7 +228,7 @@ public string ActiveConnectableObjectName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_SwitchableBody_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -240,7 +240,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### Body
+### <a id="VM_Managed_DAFUL_SwitchableBody_Body"></a> Body
 
 Gets the body.
 
@@ -252,7 +252,7 @@ public IBody Body { get; }
 
  IBody
 
-### ConnectableBody
+### <a id="VM_Managed_DAFUL_SwitchableBody_ConnectableBody"></a> ConnectableBody
 
 Gets the connectable body.
 
@@ -264,7 +264,7 @@ public ObjectBase ConnectableBody { get; }
 
  ObjectBase
 
-### ConnectableFullName
+### <a id="VM_Managed_DAFUL_SwitchableBody_ConnectableFullName"></a> ConnectableFullName
 
 Gets the full name of the connectable.
 
@@ -276,7 +276,7 @@ public string ConnectableFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectableName
+### <a id="VM_Managed_DAFUL_SwitchableBody_ConnectableName"></a> ConnectableName
 
 Gets the name of the connectable.
 
@@ -288,7 +288,7 @@ public string ConnectableName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectableObjectNames
+### <a id="VM_Managed_DAFUL_SwitchableBody_ConnectableObjectNames"></a> ConnectableObjectNames
 
 Gets or sets the connectable object names.
 
@@ -300,7 +300,7 @@ public string[] ConnectableObjectNames { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### ConnectablePosition
+### <a id="VM_Managed_DAFUL_SwitchableBody_ConnectablePosition"></a> ConnectablePosition
 
 Sets the connectable position.
 
@@ -312,7 +312,7 @@ public Vector ConnectablePosition { set; }
 
  Vector
 
-### ConnectablePostfixName
+### <a id="VM_Managed_DAFUL_SwitchableBody_ConnectablePostfixName"></a> ConnectablePostfixName
 
 Sets the postfix name of the connectable.
 
@@ -324,7 +324,7 @@ public string ConnectablePostfixName { set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Connectors
+### <a id="VM_Managed_DAFUL_SwitchableBody_Connectors"></a> Connectors
 
 Gets or sets the connectors.
 
@@ -336,7 +336,7 @@ public IConnectable[] Connectors { get; set; }
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)\[\]
 
-### Markers
+### <a id="VM_Managed_DAFUL_SwitchableBody_Markers"></a> Markers
 
 Gets or sets marker dictionary.
 
@@ -348,7 +348,7 @@ public NamedObjectDictionary<Marker> Markers { get; set; }
 
  NamedObjectDictionary<[Marker](VM.Managed.DAFUL.Marker.md)\>
 
-### ParentType
+### <a id="VM_Managed_DAFUL_SwitchableBody_ParentType"></a> ParentType
 
 Gets the type of the marker's parent.
 
@@ -360,7 +360,7 @@ public MarkerParentType ParentType { get; }
 
  [MarkerParentType](VM.Managed.DAFUL.MarkerParentType.md)
 
-### ReferenceFrameType
+### <a id="VM_Managed_DAFUL_SwitchableBody_ReferenceFrameType"></a> ReferenceFrameType
 
 Gets the type of the marker's reference frame.
 
@@ -372,7 +372,7 @@ public MarkerReferenceFrameType ReferenceFrameType { get; }
 
  [MarkerReferenceFrameType](VM.Managed.DAFUL.MarkerReferenceFrameType.md)
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_SwitchableBody_ReferenceType"></a> ReferenceType
 
 Gets the type of the array for argument.
 
@@ -384,7 +384,7 @@ public string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SymmetricManagers
+### <a id="VM_Managed_DAFUL_SwitchableBody_SymmetricManagers"></a> SymmetricManagers
 
 Gets or sets the symmetric manager dictionary.
 
@@ -398,7 +398,7 @@ public NamedObjectDictionary<SymmetricManager> SymmetricManagers { get; set; }
 
 ## Methods
 
-### AddConnectableObject\(IConnectable\)
+### <a id="VM_Managed_DAFUL_SwitchableBody_AddConnectableObject_VM_Managed_DAFUL_IConnectable_"></a> AddConnectableObject\(IConnectable\)
 
 Adds the connectable object.
 
@@ -412,7 +412,7 @@ public void AddConnectableObject(IConnectable ic)
 
 The connectable object.
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_SwitchableBody_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -432,7 +432,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_SwitchableBody_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -460,7 +460,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_SwitchableBody_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -474,7 +474,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_SwitchableBody_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -492,7 +492,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_SwitchableBody_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -506,7 +506,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### RemoveConnectableObject\(IConnectable\)
+### <a id="VM_Managed_DAFUL_SwitchableBody_RemoveConnectableObject_VM_Managed_DAFUL_IConnectable_"></a> RemoveConnectableObject\(IConnectable\)
 
 Removes the connectable object.
 
@@ -523,5 +523,4 @@ The connectable object.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

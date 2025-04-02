@@ -1,4 +1,4 @@
-# Class SetPatch
+#  Class SetPatch
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -236,7 +236,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SetPatch\(\)
+### <a id="VM_Managed_DAFUL_FE_SetPatch__ctor"></a> SetPatch\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.SetPatch" data-throw-if-not-resolved="false"></xref> class.
 
@@ -246,7 +246,7 @@ public SetPatch()
 
 ## Properties
 
-### Color
+### <a id="VM_Managed_DAFUL_FE_SetPatch_Color"></a> Color
 
 Gets or sets the color.
 
@@ -258,7 +258,7 @@ public override Color Color { set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### PatchIndexCont
+### <a id="VM_Managed_DAFUL_FE_SetPatch_PatchIndexCont"></a> PatchIndexCont
 
 Gets the patch index container.
 
@@ -272,13 +272,13 @@ public SetPatch.PatchIndexContainer PatchIndexCont { get; set; }
 
 ## Methods
 
-### ConnectProxy\(\)
+### <a id="VM_Managed_DAFUL_FE_SetPatch_ConnectProxy"></a> ConnectProxy\(\)
 
 ```csharp
 public override void ConnectProxy()
 ```
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_FE_SetPatch_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -290,7 +290,7 @@ public override void Initialize(Unit.ConvertFactor A_0)
 
 `A_0` Unit.ConvertFactor
 
-### InstantiateImpl\(Reference, Canvas\)
+### <a id="VM_Managed_DAFUL_FE_SetPatch_InstantiateImpl_VM_Managed_Reference_VM_CAD_Kernel_Render_Canvas_"></a> InstantiateImpl\(Reference, Canvas\)
 
 ```csharp
 protected override void InstantiateImpl(Reference reference, Canvas canvas)
@@ -302,7 +302,7 @@ protected override void InstantiateImpl(Reference reference, Canvas canvas)
 
 `canvas` Canvas
 
-### MakeReferenceImpl\(LinkedList<Reference\>\)
+### <a id="VM_Managed_DAFUL_FE_SetPatch_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
 
 ```csharp
 protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
@@ -312,7 +312,7 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 `lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Reference\>
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_FE_SetPatch_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -326,13 +326,13 @@ public override void OnDeserialization(object sender)
 
 The sender.
 
-### PostOpenDocument\(\)
+### <a id="VM_Managed_DAFUL_FE_SetPatch_PostOpenDocument"></a> PostOpenDocument\(\)
 
 ```csharp
 protected override void PostOpenDocument()
 ```
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_FE_SetPatch_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -346,7 +346,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### ReadXmlCore\(XmlReader, ref bool\)
+### <a id="VM_Managed_DAFUL_FE_SetPatch_ReadXmlCore_System_Xml_XmlReader_System_Boolean__"></a> ReadXmlCore\(XmlReader, ref bool\)
 
 ```csharp
 protected override void ReadXmlCore(XmlReader reader, ref bool bNeedUpdate)
@@ -358,7 +358,7 @@ protected override void ReadXmlCore(XmlReader reader, ref bool bNeedUpdate)
 
 `bNeedUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetLayer\(Layer\)
+### <a id="VM_Managed_DAFUL_FE_SetPatch_SetLayer_VM_Managed_Layer_"></a> SetLayer\(Layer\)
 
 ```csharp
 protected override void SetLayer(Layer value)
@@ -368,7 +368,7 @@ protected override void SetLayer(Layer value)
 
 `value` Layer
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_FE_SetPatch_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -381,5 +381,4 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

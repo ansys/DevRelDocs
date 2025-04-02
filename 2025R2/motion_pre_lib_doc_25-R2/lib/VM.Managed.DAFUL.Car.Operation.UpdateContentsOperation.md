@@ -1,4 +1,4 @@
-# Class UpdateContentsOperation
+#  Class UpdateContentsOperation
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdateContentsOperation\(string, SymmetricManager, ObjectBase\)
+### <a id="VM_Managed_DAFUL_Car_Operation_UpdateContentsOperation__ctor_System_String_VM_Managed_SymmetricManager_VM_Managed_ObjectBase_"></a> UpdateContentsOperation\(string, SymmetricManager, ObjectBase\)
 
 ```csharp
 public UpdateContentsOperation(string strContents, SymmetricManager symMgr, ObjectBase obj)
@@ -91,7 +91,7 @@ public UpdateContentsOperation(string strContents, SymmetricManager symMgr, Obje
 
 `obj` ObjectBase
 
-### UpdateContentsOperation\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_UpdateContentsOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateContentsOperation\(JournalParameter\)
 
 ```csharp
 public UpdateContentsOperation(JournalParameter jp)
@@ -103,7 +103,7 @@ public UpdateContentsOperation(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_UpdateContentsOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -117,7 +117,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_UpdateContentsOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -125,7 +125,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_UpdateContentsOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -134,5 +134,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Builder.Beam
+#  Namespace VM.Managed.DAFUL.Builder.Beam
 
 ### Classes
 
@@ -15,5 +15,4 @@
  [BuilderBeamGroupMultiplePointsBase<T\>](VM.Managed.DAFUL.Builder.Beam.BuilderBeamGroupMultiplePointsBase\-1.md)
 
  [BuilderBeamGroupTwoPoints](VM.Managed.DAFUL.Builder.Beam.BuilderBeamGroupTwoPoints.md)
-
 

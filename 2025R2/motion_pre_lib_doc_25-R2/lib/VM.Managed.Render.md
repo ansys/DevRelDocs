@@ -1,4 +1,4 @@
-# Namespace VM.Managed.Render
+#  Namespace VM.Managed.Render
 
 ### Interfaces
 
@@ -19,5 +19,4 @@ This interface is to represent the draw icon.
  [enRenderType](VM.Managed.Render.enRenderType.md)
 
 Rendering Type.
-
 

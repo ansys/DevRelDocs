@@ -1,4 +1,4 @@
-# Class AddGearToRBEInFE
+#  Class AddGearToRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -85,7 +85,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### AddGearToRBEInFE\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AddGearToRBEInFE__ctor"></a> AddGearToRBEInFE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.AddGearToRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -93,7 +93,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operati
 public AddGearToRBEInFE()
 ```
 
-### AddGearToRBEInFE\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AddGearToRBEInFE__ctor_System_String_"></a> AddGearToRBEInFE\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.AddGearToRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ The STR initializer XML.
 
 ## Methods
 
-### ExecutePickOperation\(XmlDocument, string\[\], string\[\], int, int\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AddGearToRBEInFE_ExecutePickOperation_System_Xml_XmlDocument_System_String___System_String___System_Int32_System_Int32_"></a> ExecutePickOperation\(XmlDocument, string\[\], string\[\], int, int\)
 
 Executes the pick operation.
 
@@ -143,7 +143,7 @@ The end.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UpdateUI\(IUIUpdate, Document\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AddGearToRBEInFE_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -160,5 +160,4 @@ The updater.
 `doc` Document
 
 The document.
-
 

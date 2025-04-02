@@ -1,4 +1,4 @@
-# Class Backlash
+#  Class Backlash
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Backlash\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Backlash__ctor"></a> Backlash\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Backlash" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Backlash()
 
 ## Properties
 
-### FormulationType
+### <a id="VM_Managed_DAFUL_GearTrain_Backlash_FormulationType"></a> FormulationType
 
 Gets or sets the formulation type.
 
@@ -118,7 +118,7 @@ public BacklashFormulationType FormulationType { get; set; }
 
  [BacklashFormulationType](VM.Managed.DAFUL.GearTrain.BacklashFormulationType.md)
 
-### PairLower
+### <a id="VM_Managed_DAFUL_GearTrain_Backlash_PairLower"></a> PairLower
 
 Gets or sets the pair lower.
 
@@ -130,7 +130,7 @@ public GearPairValue PairLower { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairUpper
+### <a id="VM_Managed_DAFUL_GearTrain_Backlash_PairUpper"></a> PairUpper
 
 Gets or sets the pair upper.
 
@@ -144,7 +144,7 @@ public GearPairValue PairUpper { get; set; }
 
 ## Methods
 
-### InitChild\(int, ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_Backlash_InitChild_System_Int32_VM_Unit_ConvertFactor_"></a> InitChild\(int, ConvertFactor\)
 
 Initializes the child.
 
@@ -161,5 +161,4 @@ The n number.
 `factor` Unit.ConvertFactor
 
 The unit factor.
-
 

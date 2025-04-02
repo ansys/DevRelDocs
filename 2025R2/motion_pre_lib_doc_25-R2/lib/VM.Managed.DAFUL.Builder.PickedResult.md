@@ -1,4 +1,4 @@
-# Class PickedResult
+#  Class PickedResult
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -28,7 +28,7 @@ public abstract class PickedResult
 
 ## Constructors
 
-### PickedResult\(\)
+### <a id="VM_Managed_DAFUL_Builder_PickedResult__ctor"></a> PickedResult\(\)
 
 ```csharp
 protected PickedResult()
@@ -36,7 +36,7 @@ protected PickedResult()
 
 ## Properties
 
-### Type
+### <a id="VM_Managed_DAFUL_Builder_PickedResult_Type"></a> Type
 
 ```csharp
 public abstract PickedResult.PickedType Type { get; }
@@ -48,7 +48,7 @@ public abstract PickedResult.PickedType Type { get; }
 
 ## Operators
 
-### implicit operator PointBase\(PickedResult\)
+### <a id="VM_Managed_DAFUL_Builder_PickedResult_op_Implicit_VM_Managed_DAFUL_Builder_PickedResult__VM_Managed_PointBase"></a> implicit operator PointBase\(PickedResult\)
 
 ```csharp
 public static implicit operator PointBase(PickedResult obj)
@@ -62,7 +62,7 @@ public static implicit operator PointBase(PickedResult obj)
 
  PointBase
 
-### implicit operator DirectionBase\(PickedResult\)
+### <a id="VM_Managed_DAFUL_Builder_PickedResult_op_Implicit_VM_Managed_DAFUL_Builder_PickedResult__VM_Managed_DirectionBase"></a> implicit operator DirectionBase\(PickedResult\)
 
 ```csharp
 public static implicit operator DirectionBase(PickedResult obj)
@@ -76,7 +76,7 @@ public static implicit operator DirectionBase(PickedResult obj)
 
  DirectionBase
 
-### implicit operator TransformBase\(PickedResult\)
+### <a id="VM_Managed_DAFUL_Builder_PickedResult_op_Implicit_VM_Managed_DAFUL_Builder_PickedResult__VM_Managed_TransformBase"></a> implicit operator TransformBase\(PickedResult\)
 
 ```csharp
 public static implicit operator TransformBase(PickedResult obj)
@@ -89,5 +89,4 @@ public static implicit operator TransformBase(PickedResult obj)
 #### Returns
 
  TransformBase
-
 

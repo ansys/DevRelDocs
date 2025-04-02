@@ -1,4 +1,4 @@
-# Interface IVerifiable
+#  Interface IVerifiable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IVerifiable
 
 ## Methods
 
-### Verify\(VerifiedResult\)
+### <a id="VM_Managed_IVerifiable_Verify_VM_Managed_VerifiedResult_"></a> Verify\(VerifiedResult\)
 
 ```csharp
 void Verify(VerifiedResult vr)
@@ -26,5 +26,4 @@ void Verify(VerifiedResult vr)
 #### Parameters
 
 `vr` [VerifiedResult](VM.Managed.VerifiedResult.md)
-
 

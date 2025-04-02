@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Builder.MeshFree
+#  Namespace VM.Managed.DAFUL.Builder.MeshFree
 
 ### Namespaces
 
@@ -37,5 +37,4 @@
  [WeldNPoint](VM.Managed.DAFUL.Builder.MeshFree.WeldNPoint.md)
 
  [WeldTwoPoint](VM.Managed.DAFUL.Builder.MeshFree.WeldTwoPoint.md)
-
 

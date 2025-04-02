@@ -1,4 +1,4 @@
-# Class CreateGINFFile
+#  Class CreateGINFFile
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -22,7 +22,7 @@ public class CreateGINFFile
 
 ## Constructors
 
-### CreateGINFFile\(string, string, string\)
+### <a id="VM_Managed_DAFUL_MeshFree_Operation_CreateGINFFile__ctor_System_String_System_String_System_String_"></a> CreateGINFFile\(string, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Operation.CreateGINFFile" data-throw-if-not-resolved="false"></xref> class.
 
@@ -40,7 +40,7 @@ public CreateGINFFile(string strMeshFreePrePath, string strGInfFilePath, string 
 
 ## Methods
 
-### CreateGINF\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_Operation_CreateGINFFile_CreateGINF"></a> CreateGINF\(\)
 
 The run CreateGINF operation
 
@@ -51,5 +51,4 @@ public bool CreateGINF()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

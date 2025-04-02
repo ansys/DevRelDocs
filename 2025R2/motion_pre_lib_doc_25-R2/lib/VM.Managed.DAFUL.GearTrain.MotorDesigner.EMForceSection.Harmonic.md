@@ -1,4 +1,4 @@
-# Class MotorDesigner.EMForceSection.Harmonic
+#  Class MotorDesigner.EMForceSection.Harmonic
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Harmonic\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_Harmonic__ctor"></a> Harmonic\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.Harmonic" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Harmonic()
 
 ## Properties
 
-### Order
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_Harmonic_Order"></a> Order
 
 Gets or sets the order.
 
@@ -118,7 +118,7 @@ public ExpressionValueVariable Order { get; set; }
 
  ExpressionValueVariable
 
-### ScaleFactor
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_Harmonic_ScaleFactor"></a> ScaleFactor
 
 Gets or sets the scale factor.
 
@@ -132,7 +132,7 @@ public ExpressionValueVariable ScaleFactor { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_Harmonic_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -145,5 +145,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

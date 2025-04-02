@@ -1,4 +1,4 @@
-# Enum AssemblyDocInfo.AddDocTemplatePriorityType
+#  Enum AssemblyDocInfo.AddDocTemplatePriorityType
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -38,7 +38,6 @@ Lowest.
 `Normal = 2` 
 
 Normal.
-
 
 
 

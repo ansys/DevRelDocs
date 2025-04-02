@@ -1,4 +1,4 @@
-# Class PropertyHeatFlow
+#  Class PropertyHeatFlow
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMDThermal.dll  
@@ -170,7 +170,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyHeatFlow\(\)
+### <a id="VM_Managed_DAFUL_Thermal_PropertyHeatFlow__ctor"></a> PropertyHeatFlow\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.PropertyHeatFlow" data-throw-if-not-resolved="false"></xref> class.
 
@@ -180,7 +180,7 @@ public PropertyHeatFlow()
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Thermal_PropertyHeatFlow_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -193,5 +193,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

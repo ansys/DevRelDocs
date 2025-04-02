@@ -1,4 +1,4 @@
-# Class ClipInfo
+#  Class ClipInfo
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -20,7 +20,7 @@ public class ClipInfo
 
 ## Constructors
 
-### ClipInfo\(int, int, double, double\)
+### <a id="VM_Models_Pre_Force_ClipInfo__ctor_System_Int32_System_Int32_System_Double_System_Double_"></a> ClipInfo\(int, int, double, double\)
 
 ```csharp
 public ClipInfo(int LeafNumberOfTop, int LeafNumberofBottom, double DistanceFromCenter, double VerticalHeight)
@@ -38,7 +38,7 @@ public ClipInfo(int LeafNumberOfTop, int LeafNumberofBottom, double DistanceFrom
 
 ## Properties
 
-### FixedBodySeq
+### <a id="VM_Models_Pre_Force_ClipInfo_FixedBodySeq"></a> FixedBodySeq
 
 ```csharp
 public int FixedBodySeq { get; }
@@ -48,7 +48,7 @@ public int FixedBodySeq { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### ListContactSeq
+### <a id="VM_Models_Pre_Force_ClipInfo_ListContactSeq"></a> ListContactSeq
 
 ```csharp
 public List<(int body, int leaf)> ListContactSeq { get; }
@@ -58,7 +58,7 @@ public List<(int body, int leaf)> ListContactSeq { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<\([int](https://learn.microsoft.com/dotnet/api/system.int32) [body](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32\-.body), [int](https://learn.microsoft.com/dotnet/api/system.int32) [leaf](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.int32,system.int32\-.leaf)\)\>
 
-### Position
+### <a id="VM_Models_Pre_Force_ClipInfo_Position"></a> Position
 
 ```csharp
 public Point3D Position { get; }
@@ -68,7 +68,7 @@ public Point3D Position { get; }
 
  [Point3D](VM.Models.Pre.Force.Point3D.md)
 
-### UpperPosition
+### <a id="VM_Models_Pre_Force_ClipInfo_UpperPosition"></a> UpperPosition
 
 ```csharp
 public Point3D UpperPosition { get; }
@@ -77,5 +77,4 @@ public Point3D UpperPosition { get; }
 #### Property Value
 
  [Point3D](VM.Models.Pre.Force.Point3D.md)
-
 

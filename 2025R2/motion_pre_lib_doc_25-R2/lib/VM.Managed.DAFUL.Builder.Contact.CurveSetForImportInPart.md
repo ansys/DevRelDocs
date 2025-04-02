@@ -1,4 +1,4 @@
-# Class CurveSetForImportInPart
+#  Class CurveSetForImportInPart
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -61,7 +61,7 @@ BuilderBase<SetCurveBase\>.ErrorMessage
 
 ## Constructors
 
-### CurveSetForImportInPart\(\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetForImportInPart__ctor"></a> CurveSetForImportInPart\(\)
 
 ```csharp
 public CurveSetForImportInPart()
@@ -69,7 +69,7 @@ public CurveSetForImportInPart()
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetForImportInPart_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -84,5 +84,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

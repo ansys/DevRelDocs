@@ -1,4 +1,4 @@
-# Class BodyColorEvent
+#  Class BodyColorEvent
 
 Namespace: [VM.Managed.CAD.History](VM.Managed.CAD.History.md)  
 Assembly: VMAppCore.dll  
@@ -40,7 +40,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### BodyColorEvent\(object\)
+### <a id="VM_Managed_CAD_History_BodyColorEvent__ctor_System_Object_"></a> BodyColorEvent\(object\)
 
 ```csharp
 public BodyColorEvent(object obOriginal)
@@ -52,7 +52,7 @@ public BodyColorEvent(object obOriginal)
 
 ## Methods
 
-### GetColor\(\)
+### <a id="VM_Managed_CAD_History_BodyColorEvent_GetColor"></a> GetColor\(\)
 
 ```csharp
 protected virtual Color GetColor()
@@ -62,7 +62,7 @@ protected virtual Color GetColor()
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### Redo\(HistoryEventArgs\)
+### <a id="VM_Managed_CAD_History_BodyColorEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
 
 ```csharp
 public override void Redo(HistoryEventArgs args)
@@ -72,7 +72,7 @@ public override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### ReplaceColor\(Color\)
+### <a id="VM_Managed_CAD_History_BodyColorEvent_ReplaceColor_System_Drawing_Color_"></a> ReplaceColor\(Color\)
 
 ```csharp
 protected virtual void ReplaceColor(Color color)
@@ -82,7 +82,7 @@ protected virtual void ReplaceColor(Color color)
 
 `color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### Undo\(HistoryEventArgs\)
+### <a id="VM_Managed_CAD_History_BodyColorEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
 
 ```csharp
 public override void Undo(HistoryEventArgs args)
@@ -91,5 +91,4 @@ public override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
-
 

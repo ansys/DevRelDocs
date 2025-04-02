@@ -1,4 +1,4 @@
-# Class GearSetPlanetaryTS
+#  Class GearSetPlanetaryTS
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -264,7 +264,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearSetPlanetaryTS\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS__ctor"></a> GearSetPlanetaryTS\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetPlanetaryTS" data-throw-if-not-resolved="false"></xref> class.
 
@@ -272,7 +272,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSet
 public GearSetPlanetaryTS()
 ```
 
-### GearSetPlanetaryTS\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS__ctor_System_String_"></a> GearSetPlanetaryTS\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetPlanetaryTS" data-throw-if-not-resolved="false"></xref> class.
 
@@ -288,7 +288,7 @@ Name of the string.
 
 ## Properties
 
-### Extension
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_Extension"></a> Extension
 
 Gets the extension.
 
@@ -300,7 +300,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FirstStageSingle
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_FirstStageSingle"></a> FirstStageSingle
 
 FirstStageSingle
 
@@ -312,7 +312,7 @@ public PropertyGearSetPlanetary FirstStageSingle { get; set; }
 
  [PropertyGearSetPlanetary](VM.Managed.DAFUL.GearTrain.PropertyGearSetPlanetary.md)
 
-### InputTypeOfFirstStage
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_InputTypeOfFirstStage"></a> InputTypeOfFirstStage
 
 Gets or sets the type of first stage gear.
 
@@ -324,7 +324,7 @@ public GearSetPlanetaryTS.GearSetType InputTypeOfFirstStage { get; set; }
 
  [GearSetPlanetaryTS](VM.Managed.DAFUL.GearTrain.GearSetPlanetaryTS.md).[GearSetType](VM.Managed.DAFUL.GearTrain.GearSetPlanetaryTS.GearSetType.md)
 
-### InputTypeOfSecondStage
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_InputTypeOfSecondStage"></a> InputTypeOfSecondStage
 
 Gets or sets the type of second stage gear.
 
@@ -336,7 +336,7 @@ public GearSetPlanetaryTS.GearSetType InputTypeOfSecondStage { get; set; }
 
  [GearSetPlanetaryTS](VM.Managed.DAFUL.GearTrain.GearSetPlanetaryTS.md).[GearSetType](VM.Managed.DAFUL.GearTrain.GearSetPlanetaryTS.GearSetType.md)
 
-### IsShareFirstStageDoublePinionIn
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareFirstStageDoublePinionIn"></a> IsShareFirstStageDoublePinionIn
 
 Gets or sets a value indicating whether this instance is share.
 
@@ -348,7 +348,7 @@ public bool IsShareFirstStageDoublePinionIn { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsShareFirstStageDoublePinionOut
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareFirstStageDoublePinionOut"></a> IsShareFirstStageDoublePinionOut
 
 Gets or sets a value indicating whether this instance is share.
 
@@ -360,7 +360,7 @@ public bool IsShareFirstStageDoublePinionOut { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsShareFirstStageDoubleRing
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareFirstStageDoubleRing"></a> IsShareFirstStageDoubleRing
 
 Gets or sets a value indicating whether this instance is share.
 
@@ -372,7 +372,7 @@ public bool IsShareFirstStageDoubleRing { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsShareFirstStageDoubleSun
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareFirstStageDoubleSun"></a> IsShareFirstStageDoubleSun
 
 Gets or sets a value indicating whether this instance is share.
 
@@ -384,7 +384,7 @@ public bool IsShareFirstStageDoubleSun { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsShareFirstStageSinglePinion
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareFirstStageSinglePinion"></a> IsShareFirstStageSinglePinion
 
 Gets or sets a value indicating whether this instance is share.
 
@@ -396,7 +396,7 @@ public bool IsShareFirstStageSinglePinion { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsShareFirstStageSingleRing
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareFirstStageSingleRing"></a> IsShareFirstStageSingleRing
 
 Gets or sets a value indicating whether this instance is share.
 
@@ -408,7 +408,7 @@ public bool IsShareFirstStageSingleRing { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsShareFirstStageSingleSun
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareFirstStageSingleSun"></a> IsShareFirstStageSingleSun
 
 Gets or sets a value indicating whether this instance is share.
 
@@ -420,7 +420,7 @@ public bool IsShareFirstStageSingleSun { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsShareSecondStageDoublePinionIn
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareSecondStageDoublePinionIn"></a> IsShareSecondStageDoublePinionIn
 
 Gets or sets a value indicating whether this instance is share.
 
@@ -432,7 +432,7 @@ public bool IsShareSecondStageDoublePinionIn { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsShareSecondStageDoublePinionOut
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareSecondStageDoublePinionOut"></a> IsShareSecondStageDoublePinionOut
 
 Gets or sets a value indicating whether this instance is share.
 
@@ -444,7 +444,7 @@ public bool IsShareSecondStageDoublePinionOut { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsShareSecondStageDoubleRing
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareSecondStageDoubleRing"></a> IsShareSecondStageDoubleRing
 
 Gets or sets a value indicating whether this instance is share.
 
@@ -456,7 +456,7 @@ public bool IsShareSecondStageDoubleRing { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsShareSecondStageDoubleSun
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareSecondStageDoubleSun"></a> IsShareSecondStageDoubleSun
 
 Gets or sets a value indicating whether this instance is share.
 
@@ -468,7 +468,7 @@ public bool IsShareSecondStageDoubleSun { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsShareSecondStageSinglePinion
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareSecondStageSinglePinion"></a> IsShareSecondStageSinglePinion
 
 Gets or sets a value indicating whether this instance is share.
 
@@ -480,7 +480,7 @@ public bool IsShareSecondStageSinglePinion { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsShareSecondStageSingleRing
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareSecondStageSingleRing"></a> IsShareSecondStageSingleRing
 
 Gets or sets a value indicating whether this instance is share.
 
@@ -492,7 +492,7 @@ public bool IsShareSecondStageSingleRing { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsShareSecondStageSingleSun
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_IsShareSecondStageSingleSun"></a> IsShareSecondStageSingleSun
 
 Gets or sets a value indicating whether this instance is share.
 
@@ -504,7 +504,7 @@ public bool IsShareSecondStageSingleSun { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SecondStageDouble
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_SecondStageDouble"></a> SecondStageDouble
 
 SecondStageDouble
 
@@ -516,7 +516,7 @@ public PropertyGearSetPlanetaryDP SecondStageDouble { get; set; }
 
  [PropertyGearSetPlanetaryDP](VM.Managed.DAFUL.GearTrain.PropertyGearSetPlanetaryDP.md)
 
-### SecondStageSingle
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_SecondStageSingle"></a> SecondStageSingle
 
 SecondStageSingle
 
@@ -528,7 +528,7 @@ public PropertyGearSetPlanetary SecondStageSingle { get; set; }
 
  [PropertyGearSetPlanetary](VM.Managed.DAFUL.GearTrain.PropertyGearSetPlanetary.md)
 
-### TypeFileName
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_TypeFileName"></a> TypeFileName
 
 Gets the name of the type file.
 
@@ -542,7 +542,7 @@ public override string TypeFileName { get; }
 
 ## Methods
 
-### GeometryInfoBasesImpl\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_GeometryInfoBasesImpl"></a> GeometryInfoBasesImpl\(\)
 
 Get geometry infos
 
@@ -556,7 +556,7 @@ protected override GeometryInfoBase[] GeometryInfoBasesImpl()
 
 The geometry infos.
 
-### Meshing\(List<IGearBuilder\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_Meshing_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder__"></a> Meshing\(List<IGearBuilder\>\)
 
 Meshing the gears.
 
@@ -574,7 +574,7 @@ The gear builder list.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_OnPostBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Post build in Special
 
@@ -596,7 +596,7 @@ The document
 
 The input array
 
-### OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetaryTS_OnPreBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Pre build in Special
 
@@ -617,5 +617,4 @@ The document
 `InputArray` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The input array
-
 

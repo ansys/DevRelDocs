@@ -1,4 +1,4 @@
-# Class HiddenGearSetRackAndPinionDocument
+#  Class HiddenGearSetRackAndPinionDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -627,7 +627,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### HiddenGearSetRackAndPinionDocument\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetRackAndPinionDocument__ctor_System_UIntPtr_"></a> HiddenGearSetRackAndPinionDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HiddenGearSetRackAndPinionDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -643,7 +643,7 @@ The document handle.
 
 ## Properties
 
-### AddToPropertyAllGear
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetRackAndPinionDocument_AddToPropertyAllGear"></a> AddToPropertyAllGear
 
 Gets the flag whether this instance add to property or not.
 
@@ -655,7 +655,7 @@ public override bool AddToPropertyAllGear { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### HideLOA
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetRackAndPinionDocument_HideLOA"></a> HideLOA
 
 Gets the value whether loa is hidden or not
 
@@ -667,7 +667,7 @@ protected override bool HideLOA { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### InitialCategories
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetRackAndPinionDocument_InitialCategories"></a> InitialCategories
 
 Gets the initial categories.
 
@@ -681,7 +681,7 @@ protected override List<string> InitialCategories { get; }
 
 ## Methods
 
-### FindCategory\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetRackAndPinionDocument_FindCategory_System_String_"></a> FindCategory\(string\)
 
 Finds the category.
 
@@ -699,7 +699,7 @@ Type of the string.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### InitializeCategoryInfo\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetRackAndPinionDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
 
 Initializes the category information.
 
@@ -712,5 +712,4 @@ public static void InitializeCategoryInfo(string strCategoryName)
 `strCategoryName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 Name of the string category.
-
 

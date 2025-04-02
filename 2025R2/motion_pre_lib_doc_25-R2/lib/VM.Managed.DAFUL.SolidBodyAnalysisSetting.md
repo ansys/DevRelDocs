@@ -1,4 +1,4 @@
-# Class SolidBodyAnalysisSetting
+#  Class SolidBodyAnalysisSetting
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -112,7 +112,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SolidBodyAnalysisSetting\(\)
+### <a id="VM_Managed_DAFUL_SolidBodyAnalysisSetting__ctor"></a> SolidBodyAnalysisSetting\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SolidBodyAnalysisSetting" data-throw-if-not-resolved="false"></xref> class.
 
@@ -122,7 +122,7 @@ public SolidBodyAnalysisSetting()
 
 ## Properties
 
-### SolidBodyAnalysisArray
+### <a id="VM_Managed_DAFUL_SolidBodyAnalysisSetting_SolidBodyAnalysisArray"></a> SolidBodyAnalysisArray
 
 It must use to clone SimulationConfiguration.
 
@@ -136,7 +136,7 @@ public string[] SolidBodyAnalysisArray { get; set; }
 
 ## Methods
 
-### Add\(ObjectBase, SolidBodyAnalysisType\)
+### <a id="VM_Managed_DAFUL_SolidBodyAnalysisSetting_Add_VM_Managed_ObjectBase_VM_Managed_SolidBodyAnalysisType_"></a> Add\(ObjectBase, SolidBodyAnalysisType\)
 
 Adds the SolidBody object.
 
@@ -154,7 +154,7 @@ The SolidBody object to add.
 
 The SolidBodyAnalysisType of the SolidBody object.
 
-### Contains\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_SolidBodyAnalysisSetting_Contains_VM_Managed_ObjectBase_"></a> Contains\(ObjectBase\)
 
 Determines whether [contains] the SolidBody object.
 
@@ -174,7 +174,7 @@ The SolidBody object to find.
 
 Whether it contains the SolidBody object.
 
-### GetSelection\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_SolidBodyAnalysisSetting_GetSelection_VM_Managed_ObjectBase_"></a> GetSelection\(ObjectBase\)
 
 Gets the SolidBodyAnalysisType of the SolidBody object.
 
@@ -194,7 +194,7 @@ The SolidBody object to get SolidBodyAnalysisType.
 
 The SolidBodyAnalysisType of the SolidBody object.
 
-### PostDeserialize\(Configuration\)
+### <a id="VM_Managed_DAFUL_SolidBodyAnalysisSetting_PostDeserialize_VM_Managed_Simulation_Configuration_"></a> PostDeserialize\(Configuration\)
 
 Posts the deserialize.
 
@@ -208,7 +208,7 @@ public override void PostDeserialize(Configuration config)
 
 The config.
 
-### Remove\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_SolidBodyAnalysisSetting_Remove_VM_Managed_ObjectBase_"></a> Remove\(ObjectBase\)
 
 Removes the SolidBody object.
 
@@ -228,7 +228,7 @@ The SolidBody object to remove.
 
 Whether it is success to remove the SolidBody object.
 
-### SetAnalysisTypeForAllSolidBody\(SolidBodyAnalysisType\)
+### <a id="VM_Managed_DAFUL_SolidBodyAnalysisSetting_SetAnalysisTypeForAllSolidBody_VM_Managed_SolidBodyAnalysisType_"></a> SetAnalysisTypeForAllSolidBody\(SolidBodyAnalysisType\)
 
 Set analysis type for all SolidBodies
 
@@ -248,7 +248,7 @@ Analysis type to set
 
 Whether it's success.
 
-### SetSelection\(ObjectBase, SolidBodyAnalysisType\)
+### <a id="VM_Managed_DAFUL_SolidBodyAnalysisSetting_SetSelection_VM_Managed_ObjectBase_VM_Managed_SolidBodyAnalysisType_"></a> SetSelection\(ObjectBase, SolidBodyAnalysisType\)
 
 Sets the SolidBodyAnalysisType of the SolidBody object.
 
@@ -271,5 +271,4 @@ The SolidBodyAnalysisType of the SolidBody object.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 Whether it is success to set the SolidBodyAnalysisType.
-
 

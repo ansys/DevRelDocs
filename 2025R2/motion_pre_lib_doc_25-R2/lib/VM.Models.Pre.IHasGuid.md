@@ -1,4 +1,4 @@
-# Interface IHasGuid
+#  Interface IHasGuid
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,7 +15,7 @@ public interface IHasGuid
 
 ## Properties
 
-### Guid
+### <a id="VM_Models_Pre_IHasGuid_Guid"></a> Guid
 
 ```csharp
 Guid Guid { get; }
@@ -24,5 +24,4 @@ Guid Guid { get; }
 #### Property Value
 
  [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
-
 

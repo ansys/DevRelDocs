@@ -1,4 +1,4 @@
-# Class BuilderBase<T\>
+#  Class BuilderBase<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -28,7 +28,7 @@ public abstract class BuilderBase<T> : IBuilder where T : ObjectBase, new()
 
 ## Constructors
 
-### BuilderBase\(\)
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1__ctor"></a> BuilderBase\(\)
 
 ```csharp
 protected BuilderBase()
@@ -36,7 +36,7 @@ protected BuilderBase()
 
 ## Fields
 
-### m\_bSuccess
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_m_bSuccess"></a> m\_bSuccess
 
 ```csharp
 protected bool m_bSuccess
@@ -48,7 +48,7 @@ protected bool m_bSuccess
 
 ## Properties
 
-### AddToDoc
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_AddToDoc"></a> AddToDoc
 
 ```csharp
 protected virtual bool AddToDoc { get; }
@@ -58,7 +58,7 @@ protected virtual bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### BuildDocument
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_BuildDocument"></a> BuildDocument
 
 ```csharp
 protected Document BuildDocument { get; }
@@ -68,7 +68,7 @@ protected Document BuildDocument { get; }
 
  Document
 
-### BuildObject
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_BuildObject"></a> BuildObject
 
 ```csharp
 public virtual ObjectBase BuildObject { get; }
@@ -78,7 +78,7 @@ public virtual ObjectBase BuildObject { get; }
 
  ObjectBase
 
-### ErrorMessage
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_ErrorMessage"></a> ErrorMessage
 
 ```csharp
 protected string ErrorMessage { get; set; }
@@ -88,7 +88,7 @@ protected string ErrorMessage { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Parameters
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_Parameters"></a> Parameters
 
 ```csharp
 public PickedResult[] Parameters { get; set; }
@@ -98,7 +98,7 @@ public PickedResult[] Parameters { get; set; }
 
  [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md)\[\]
 
-### SetPointKey
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_SetPointKey"></a> SetPointKey
 
 ```csharp
 protected List<SetPoint> SetPointKey { get; }
@@ -108,7 +108,7 @@ protected List<SetPoint> SetPointKey { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<SetPoint\>
 
-### UseChangedObject
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_UseChangedObject"></a> UseChangedObject
 
 ```csharp
 protected virtual bool UseChangedObject { get; }
@@ -118,7 +118,7 @@ protected virtual bool UseChangedObject { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseInterface
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_UseInterface"></a> UseInterface
 
 ```csharp
 protected bool UseInterface { get; set; }
@@ -130,7 +130,7 @@ protected bool UseInterface { get; set; }
 
 ## Methods
 
-### Build\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_Build_VM_Managed_Document_"></a> Build\(Document\)
 
 ```csharp
 public virtual void Build(Document docToAdd)
@@ -140,7 +140,7 @@ public virtual void Build(Document docToAdd)
 
 `docToAdd` Document
 
-### Build\(Document, List<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_Build_VM_Managed_Document_System_Collections_Generic_List_System_String__"></a> Build\(Document, List<string\>\)
 
 ```csharp
 public virtual void Build(Document docToAdd, List<string> lstSetPointKeys)
@@ -152,7 +152,7 @@ public virtual void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### OnFinalBuild\(string, Document\)
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_OnFinalBuild_System_String_VM_Managed_Document_"></a> OnFinalBuild\(string, Document\)
 
 ```csharp
 protected virtual ObjectBase OnFinalBuild(string strObjName, Document doc)
@@ -168,7 +168,7 @@ protected virtual ObjectBase OnFinalBuild(string strObjName, Document doc)
 
  ObjectBase
 
-### OnObjectChangeBuild\(string, Document\)
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_OnObjectChangeBuild_System_String_VM_Managed_Document_"></a> OnObjectChangeBuild\(string, Document\)
 
 ```csharp
 protected virtual ObjectBase OnObjectChangeBuild(string strObjName, Document doc)
@@ -184,7 +184,7 @@ protected virtual ObjectBase OnObjectChangeBuild(string strObjName, Document doc
 
  ObjectBase
 
-### OnPostAddDoc\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected virtual void OnPostAddDoc(ObjectBase ob)
@@ -194,7 +194,7 @@ protected virtual void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected virtual bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -210,7 +210,7 @@ protected virtual bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Success\(\)
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_Success"></a> Success\(\)
 
 ```csharp
 public bool Success()
@@ -220,7 +220,7 @@ public bool Success()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public virtual bool Validate(IList<string> lstErrorMessage)
@@ -233,5 +233,4 @@ public virtual bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

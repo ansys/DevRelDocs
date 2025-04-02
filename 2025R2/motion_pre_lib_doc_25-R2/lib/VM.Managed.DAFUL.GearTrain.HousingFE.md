@@ -1,4 +1,4 @@
-# Class HousingFE
+#  Class HousingFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -242,7 +242,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### HousingFE\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_HousingFE__ctor"></a> HousingFE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HousingFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -250,7 +250,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Housing
 public HousingFE()
 ```
 
-### HousingFE\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_HousingFE__ctor_System_String_"></a> HousingFE\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HousingFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -266,7 +266,7 @@ Name of the string.
 
 ## Properties
 
-### Extension
+### <a id="VM_Managed_DAFUL_GearTrain_HousingFE_Extension"></a> Extension
 
 Gets the extension.
 
@@ -278,7 +278,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TypeFileName
+### <a id="VM_Managed_DAFUL_GearTrain_HousingFE_TypeFileName"></a> TypeFileName
 
 Gets the name of the type file.
 
@@ -290,7 +290,7 @@ public override string TypeFileName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TypeOfCreate
+### <a id="VM_Managed_DAFUL_GearTrain_HousingFE_TypeOfCreate"></a> TypeOfCreate
 
 Gets the type of create.
 
@@ -302,7 +302,7 @@ public override CreateType TypeOfCreate { get; }
 
  [CreateType](VM.Managed.DAFUL.GearTrain.CreateType.md)
 
-### TypeOfParent
+### <a id="VM_Managed_DAFUL_GearTrain_HousingFE_TypeOfParent"></a> TypeOfParent
 
 Gets the type of parent.
 
@@ -316,7 +316,7 @@ public override ParentType TypeOfParent { get; }
 
 ## Methods
 
-### SetDataToDesignDoc\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_HousingFE_SetDataToDesignDoc_System_Boolean_"></a> SetDataToDesignDoc\(bool\)
 
 Sets the data to design doc.
 
@@ -331,5 +331,4 @@ public override Document SetDataToDesignDoc(bool bRecord)
 #### Returns
 
  Document
-
 

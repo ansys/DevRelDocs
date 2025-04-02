@@ -1,4 +1,4 @@
-# Class Unit
+#  Class Unit
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -22,7 +22,7 @@ public sealed class Unit
 
 ## Constructors
 
-### Unit\(\)
+### <a id="VM_Unit__ctor"></a> Unit\(\)
 
 Initializes a new instance of the <xref href="VM.Unit" data-throw-if-not-resolved="false"></xref> class
 
@@ -30,7 +30,7 @@ Initializes a new instance of the <xref href="VM.Unit" data-throw-if-not-resolve
 public Unit()
 ```
 
-### Unit\(Unit\)
+### <a id="VM_Unit__ctor_VM_Unit_"></a> Unit\(Unit\)
 
 Initializes a new instance of the <xref href="VM.Unit" data-throw-if-not-resolved="false"></xref> class
 
@@ -44,7 +44,7 @@ public Unit(Unit unitValue)
 
 The unit
 
-### Unit\(UnitType\)
+### <a id="VM_Unit__ctor_VM_UnitType_"></a> Unit\(UnitType\)
 
 Initializes a new instance of the <xref href="VM.Unit" data-throw-if-not-resolved="false"></xref> class
 
@@ -58,7 +58,7 @@ public Unit(UnitType type)
 
 The type of unit
 
-### Unit\(SerializationInfo, StreamingContext\)
+### <a id="VM_Unit__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> Unit\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Unit" data-throw-if-not-resolved="false"></xref> class
 
@@ -78,7 +78,7 @@ The context
 
 ## Properties
 
-### Angle
+### <a id="VM_Unit_Angle"></a> Angle
 
 Gets or sets the angle.
 
@@ -90,7 +90,7 @@ public string Angle { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Force
+### <a id="VM_Unit_Force"></a> Force
 
 Gets or sets the force.
 
@@ -102,7 +102,7 @@ public string Force { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Handle
+### <a id="VM_Unit_Handle"></a> Handle
 
 Gets the handle.
 
@@ -114,7 +114,7 @@ public IntPtr Handle { get; }
 
  [IntPtr](https://learn.microsoft.com/dotnet/api/system.intptr)
 
-### Length
+### <a id="VM_Unit_Length"></a> Length
 
 Gets or sets the length.
 
@@ -126,7 +126,7 @@ public string Length { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Mass
+### <a id="VM_Unit_Mass"></a> Mass
 
 Gets or sets the mass.
 
@@ -138,7 +138,7 @@ public string Mass { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Power
+### <a id="VM_Unit_Power"></a> Power
 
 Gets or sets the power
 
@@ -150,7 +150,7 @@ public string Power { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Temperature
+### <a id="VM_Unit_Temperature"></a> Temperature
 
 Gets or sets the temperature
 
@@ -162,7 +162,7 @@ public string Temperature { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Time
+### <a id="VM_Unit_Time"></a> Time
 
 Gets or sets the time.
 
@@ -174,7 +174,7 @@ public string Time { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Work
+### <a id="VM_Unit_Work"></a> Work
 
 Gets or sets the work
 
@@ -186,7 +186,7 @@ public string Work { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### this\[string\]
+### <a id="VM_Unit_Item_System_String_"></a> this\[string\]
 
 Gets or sets the unit by indexer.
 
@@ -200,7 +200,7 @@ public string this[string type] { get; set; }
 
 ## Methods
 
-### ConvertTo\(Unit, string\)
+### <a id="VM_Unit_ConvertTo_VM_Unit_System_String_"></a> ConvertTo\(Unit, string\)
 
 Convert to.
 
@@ -224,13 +224,13 @@ The type
 
 The convert data
 
-### Dispose\(\)
+### <a id="VM_Unit_Dispose"></a> Dispose\(\)
 
 ```csharp
 public void Dispose()
 ```
 
-### Equals\(object\)
+### <a id="VM_Unit_Equals_System_Object_"></a> Equals\(object\)
 
 ```csharp
 public override bool Equals(object obj)
@@ -244,7 +244,7 @@ public override bool Equals(object obj)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetFactor\(string\)
+### <a id="VM_Unit_GetFactor_System_String_"></a> GetFactor\(string\)
 
 Get factor for unit type
 
@@ -264,7 +264,7 @@ The unit type
 
 The factor
 
-### GetHashCode\(\)
+### <a id="VM_Unit_GetHashCode"></a> GetHashCode\(\)
 
 ```csharp
 public override int GetHashCode()
@@ -274,7 +274,7 @@ public override int GetHashCode()
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Initialize\(string\)
+### <a id="VM_Unit_Initialize_System_String_"></a> Initialize\(string\)
 
 Initializes a instance.
 
@@ -288,7 +288,7 @@ public static void Initialize(string stringUnitPath)
 
 The path of unit.
 
-### IsContain\(string\)
+### <a id="VM_Unit_IsContain_System_String_"></a> IsContain\(string\)
 
 Contains unit.
 
@@ -310,7 +310,7 @@ true if contains unit type, otherwise false.
 
 ## Operators
 
-### operator ==\(Unit, Unit\)
+### <a id="VM_Unit_op_Equality_VM_Unit_VM_Unit_"></a> operator ==\(Unit, Unit\)
 
 Compare two units
 
@@ -334,7 +334,7 @@ The unit to compare
 
 true if two units are equal, otherwise false.
 
-### operator \!=\(Unit, Unit\)
+### <a id="VM_Unit_op_Inequality_VM_Unit_VM_Unit_"></a> operator \!=\(Unit, Unit\)
 
 Compare two units
 
@@ -357,5 +357,4 @@ The unit to compare
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 true if two units are not equal, otherwise false.
-
 

@@ -1,4 +1,4 @@
-# Class Work.ModelSerializer
+#  Class Work.ModelSerializer
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -22,7 +22,7 @@ public class Work.ModelSerializer
 
 ## Constructors
 
-### ModelSerializer\(\)
+### <a id="VM_Managed_DAFUL_Pre_Work_ModelSerializer__ctor"></a> ModelSerializer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.Work.ModelSerializer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -30,7 +30,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.Work.ModelSer
 public ModelSerializer()
 ```
 
-### ModelSerializer\(string\)
+### <a id="VM_Managed_DAFUL_Pre_Work_ModelSerializer__ctor_System_String_"></a> ModelSerializer\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.Work.ModelSerializer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,7 +46,7 @@ The relative path of model.
 
 ## Properties
 
-### Path
+### <a id="VM_Managed_DAFUL_Pre_Work_ModelSerializer_Path"></a> Path
 
 Gets or sets the path.
 
@@ -60,7 +60,7 @@ public string Path { get; set; }
 
 ## Operators
 
-### implicit operator Model\(ModelSerializer\)
+### <a id="VM_Managed_DAFUL_Pre_Work_ModelSerializer_op_Implicit_VM_Managed_DAFUL_Pre_Work_ModelSerializer__VM_Managed_DAFUL_Pre_Model"></a> implicit operator Model\(ModelSerializer\)
 
 Performs an implicit conversion from <xref href="VM.Managed.DAFUL.Pre.Work.ModelSerializer" data-throw-if-not-resolved="false"></xref> to <xref href="VM.Managed.DAFUL.Pre.Model" data-throw-if-not-resolved="false"></xref>.
 Open the model file in work.
@@ -81,7 +81,7 @@ The ModelSerializer.
 
 The result of the conversion.
 
-### implicit operator ModelSerializer\(Model\)
+### <a id="VM_Managed_DAFUL_Pre_Work_ModelSerializer_op_Implicit_VM_Managed_DAFUL_Pre_Model__VM_Managed_DAFUL_Pre_Work_ModelSerializer"></a> implicit operator ModelSerializer\(Model\)
 
 Performs an implicit conversion from <xref href="VM.Managed.DAFUL.Pre.Model" data-throw-if-not-resolved="false"></xref> to <xref href="VM.Managed.DAFUL.Pre.Work.ModelSerializer" data-throw-if-not-resolved="false"></xref>.
 
@@ -100,5 +100,4 @@ The model.
  [Work](VM.Managed.DAFUL.Pre.Work.md).[ModelSerializer](VM.Managed.DAFUL.Pre.Work.ModelSerializer.md)
 
 The result of the conversion.
-
 

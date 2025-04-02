@@ -1,4 +1,4 @@
-# Enum FourPostAnalysisType
+#  Enum FourPostAnalysisType
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -20,7 +20,6 @@ Ride
 `Vibration = 1` 
 
 Durability
-
 
 
 

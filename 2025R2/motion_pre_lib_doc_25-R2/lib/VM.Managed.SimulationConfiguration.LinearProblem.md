@@ -1,4 +1,4 @@
-# Enum SimulationConfiguration.LinearProblem
+#  Enum SimulationConfiguration.LinearProblem
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -20,7 +20,6 @@ EveryTime
 `OnlyOne = 1` 
 
 OnlyOne
-
 
 
 

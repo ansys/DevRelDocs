@@ -1,4 +1,4 @@
-# Class Settings
+#  Class Settings
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -32,7 +32,7 @@ SettingsBase<Settings\>.RootPath
 
 ## Constructors
 
-### Settings\(\)
+### <a id="VM_Managed_DAFUL_Pre_Settings__ctor"></a> Settings\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.Settings" data-throw-if-not-resolved="false"></xref> class.
 
@@ -42,7 +42,7 @@ public Settings()
 
 ## Properties
 
-### ANSYSRstReaderPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_ANSYSRstReaderPath"></a> ANSYSRstReaderPath
 
 Gets the ANSYSRstReader.dll path.
 
@@ -56,7 +56,7 @@ public string ANSYSRstReaderPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AccuracyForCADImportMassCalculate
+### <a id="VM_Managed_DAFUL_Pre_Settings_AccuracyForCADImportMassCalculate"></a> AccuracyForCADImportMassCalculate
 
 Gets or sets the accuracy for CAD import mass calculate.
 
@@ -71,7 +71,7 @@ public double AccuracyForCADImportMassCalculate { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### AccuracyForMassCalculate
+### <a id="VM_Managed_DAFUL_Pre_Settings_AccuracyForMassCalculate"></a> AccuracyForMassCalculate
 
 Gets or sets the accuracy for mass calculate.
 
@@ -86,7 +86,7 @@ public double AccuracyForMassCalculate { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### AdditionalPythonLibPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_AdditionalPythonLibPath"></a> AdditionalPythonLibPath
 
 Gets the additional libpath for the function expression editor
 
@@ -100,7 +100,7 @@ public IEnumerable<string> AdditionalPythonLibPath { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### AutoSaveInterval
+### <a id="VM_Managed_DAFUL_Pre_Settings_AutoSaveInterval"></a> AutoSaveInterval
 
 Gets or sets the auto save interval.
 
@@ -115,7 +115,7 @@ public int AutoSaveInterval { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### AxisLocation
+### <a id="VM_Managed_DAFUL_Pre_Settings_AxisLocation"></a> AxisLocation
 
 Gets or sets the Axis Location.
 
@@ -130,7 +130,7 @@ public AxisLocation AxisLocation { get; set; }
 
  AxisLocation
 
-### AxisUseRotate
+### <a id="VM_Managed_DAFUL_Pre_Settings_AxisUseRotate"></a> AxisUseRotate
 
 Gets or sets the whether user uses rotate in the axis area or not.
 
@@ -145,7 +145,7 @@ public bool AxisUseRotate { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CADConvertPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_CADConvertPath"></a> CADConvertPath
 
 Gets the CAD convert path.
 
@@ -158,7 +158,7 @@ public string CADConvertPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### CenterMainKey1
+### <a id="VM_Managed_DAFUL_Pre_Settings_CenterMainKey1"></a> CenterMainKey1
 
 Gets or sets the CenterMainKey1
 
@@ -173,7 +173,7 @@ public NavigationKeys CenterMainKey1 { get; set; }
 
  NavigationKeys
 
-### CenterMainKey2
+### <a id="VM_Managed_DAFUL_Pre_Settings_CenterMainKey2"></a> CenterMainKey2
 
 Gets or sets the CenterMainKey2
 
@@ -188,7 +188,7 @@ public NavigationKeys CenterMainKey2 { get; set; }
 
  NavigationKeys
 
-### CenterMainKey3
+### <a id="VM_Managed_DAFUL_Pre_Settings_CenterMainKey3"></a> CenterMainKey3
 
 Gets or sets the CenterMainKey3
 
@@ -203,7 +203,7 @@ public NavigationKeys CenterMainKey3 { get; set; }
 
  NavigationKeys
 
-### CenterMainKey4
+### <a id="VM_Managed_DAFUL_Pre_Settings_CenterMainKey4"></a> CenterMainKey4
 
 Gets or sets the CenterMainKey4
 
@@ -218,7 +218,7 @@ public NavigationKeys CenterMainKey4 { get; set; }
 
  NavigationKeys
 
-### CenterSubKey1
+### <a id="VM_Managed_DAFUL_Pre_Settings_CenterSubKey1"></a> CenterSubKey1
 
 Gets or sets the CenterSubKey1
 
@@ -233,7 +233,7 @@ public NavigationKeys CenterSubKey1 { get; set; }
 
  NavigationKeys
 
-### CenterSubKey2
+### <a id="VM_Managed_DAFUL_Pre_Settings_CenterSubKey2"></a> CenterSubKey2
 
 Gets or sets the CenterSubKey2
 
@@ -248,7 +248,7 @@ public NavigationKeys CenterSubKey2 { get; set; }
 
  NavigationKeys
 
-### CenterSubKey3
+### <a id="VM_Managed_DAFUL_Pre_Settings_CenterSubKey3"></a> CenterSubKey3
 
 Gets or sets the CenterSubKey3
 
@@ -263,7 +263,7 @@ public NavigationKeys CenterSubKey3 { get; set; }
 
  NavigationKeys
 
-### CenterSubKey4
+### <a id="VM_Managed_DAFUL_Pre_Settings_CenterSubKey4"></a> CenterSubKey4
 
 Gets or sets the CenterSubKey4
 
@@ -278,7 +278,7 @@ public NavigationKeys CenterSubKey4 { get; set; }
 
  NavigationKeys
 
-### CloseStartPageAfterOpenWork
+### <a id="VM_Managed_DAFUL_Pre_Settings_CloseStartPageAfterOpenWork"></a> CloseStartPageAfterOpenWork
 
 Gets or sets a value indicating whether close start page after opening work or not.
 
@@ -293,7 +293,7 @@ public bool CloseStartPageAfterOpenWork { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ConsoleSolverPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_ConsoleSolverPath"></a> ConsoleSolverPath
 
 Gets the console solver path.
 
@@ -307,7 +307,7 @@ public string ConsoleSolverPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ControlsPreset
+### <a id="VM_Managed_DAFUL_Pre_Settings_ControlsPreset"></a> ControlsPreset
 
 Gets or sets the Preset Value for Navigation Controls
 
@@ -321,7 +321,7 @@ public string ControlsPreset { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConversionMethod
+### <a id="VM_Managed_DAFUL_Pre_Settings_ConversionMethod"></a> ConversionMethod
 
 Kernel ACIS to Parasolid translator log message report level.
 
@@ -336,7 +336,7 @@ public ConversionMethod ConversionMethod { get; set; }
 
  ConversionMethod
 
-### CopyrightAndOSSLicenseInfoPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_CopyrightAndOSSLicenseInfoPath"></a> CopyrightAndOSSLicenseInfoPath
 
 Gets the Copyright and OSS License info file path.
 
@@ -349,7 +349,7 @@ public string CopyrightAndOSSLicenseInfoPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DbClickMode\_AssembledBody
+### <a id="VM_Managed_DAFUL_Pre_Settings_DbClickMode_AssembledBody"></a> DbClickMode\_AssembledBody
 
 Gets or sets the db click mode_ assembled body.
 
@@ -364,7 +364,7 @@ public int DbClickMode_AssembledBody { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### DbClickMode\_FlexibleBody
+### <a id="VM_Managed_DAFUL_Pre_Settings_DbClickMode_FlexibleBody"></a> DbClickMode\_FlexibleBody
 
 Gets or sets the db click mode_ flexible body.
 
@@ -379,7 +379,7 @@ public int DbClickMode_FlexibleBody { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### DbClickMode\_Subsystem
+### <a id="VM_Managed_DAFUL_Pre_Settings_DbClickMode_Subsystem"></a> DbClickMode\_Subsystem
 
 Gets or sets the db click mode_ subsystem.
 
@@ -394,7 +394,7 @@ public int DbClickMode_Subsystem { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### DebugMode
+### <a id="VM_Managed_DAFUL_Pre_Settings_DebugMode"></a> DebugMode
 
 Gets a value indicating whether [debug mode].
 
@@ -408,7 +408,7 @@ public bool DebugMode { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Decimals
+### <a id="VM_Managed_DAFUL_Pre_Settings_Decimals"></a> Decimals
 
 Gets or sets the decimals.
 
@@ -423,7 +423,7 @@ public int Decimals { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### DefaultMode\_Subsystem
+### <a id="VM_Managed_DAFUL_Pre_Settings_DefaultMode_Subsystem"></a> DefaultMode\_Subsystem
 
 Gets or sets the default mode of subsystem document.
 
@@ -437,7 +437,7 @@ public string DefaultMode_Subsystem { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DeveloperMode
+### <a id="VM_Managed_DAFUL_Pre_Settings_DeveloperMode"></a> DeveloperMode
 
 Gets or sets a value indicating whether is developer mode or not.
 
@@ -452,7 +452,7 @@ public bool DeveloperMode { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### DialogPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_DialogPath"></a> DialogPath
 
 Gets the dialog path.
 
@@ -466,7 +466,7 @@ public string DialogPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DocumentPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_DocumentPath"></a> DocumentPath
 
 Gets the document path.
 
@@ -479,7 +479,7 @@ public string DocumentPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DotNetMinVersion
+### <a id="VM_Managed_DAFUL_Pre_Settings_DotNetMinVersion"></a> DotNetMinVersion
 
 Gets the .NET Framework Minimum Version.
 
@@ -492,7 +492,7 @@ public Version DotNetMinVersion { get; }
 
  [Version](https://learn.microsoft.com/dotnet/api/system.version)
 
-### FrontViewPlane
+### <a id="VM_Managed_DAFUL_Pre_Settings_FrontViewPlane"></a> FrontViewPlane
 
 Gets or sets the front view plane.
 
@@ -507,7 +507,7 @@ public ViewPlane FrontViewPlane { get; set; }
 
  ViewPlane
 
-### FunctionExpressionScriptHeader
+### <a id="VM_Managed_DAFUL_Pre_Settings_FunctionExpressionScriptHeader"></a> FunctionExpressionScriptHeader
 
 Gets the function expression script header for the function expression editor
 
@@ -521,7 +521,7 @@ public string FunctionExpressionScriptHeader { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GUISolverPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_GUISolverPath"></a> GUISolverPath
 
 Gets the GUI solver path.
 
@@ -535,7 +535,7 @@ public string GUISolverPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### HelpURL
+### <a id="VM_Managed_DAFUL_Pre_Settings_HelpURL"></a> HelpURL
 
 Gets the url for help page
 
@@ -548,7 +548,7 @@ public string HelpURL { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### HighSpeedRotationReferenceValue
+### <a id="VM_Managed_DAFUL_Pre_Settings_HighSpeedRotationReferenceValue"></a> HighSpeedRotationReferenceValue
 
 Gets the high-speed rotation reference value
 
@@ -562,7 +562,7 @@ public double HighSpeedRotationReferenceValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### HoopsExchangeDirectory
+### <a id="VM_Managed_DAFUL_Pre_Settings_HoopsExchangeDirectory"></a> HoopsExchangeDirectory
 
 Gets the Hoops Exchange directory.
 
@@ -576,7 +576,7 @@ public string HoopsExchangeDirectory { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### InterfacePath
+### <a id="VM_Managed_DAFUL_Pre_Settings_InterfacePath"></a> InterfacePath
 
 Gets the interface path.
 
@@ -589,7 +589,7 @@ public string InterfacePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### KernelBinaryLocation
+### <a id="VM_Managed_DAFUL_Pre_Settings_KernelBinaryLocation"></a> KernelBinaryLocation
 
 Gets the kernel binary location
 
@@ -603,7 +603,7 @@ public string KernelBinaryLocation { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### KernelCoreModulePath
+### <a id="VM_Managed_DAFUL_Pre_Settings_KernelCoreModulePath"></a> KernelCoreModulePath
 
 Gets the kernel core module path.
 
@@ -617,7 +617,7 @@ public string KernelCoreModulePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### KernelLogMessageLevel
+### <a id="VM_Managed_DAFUL_Pre_Settings_KernelLogMessageLevel"></a> KernelLogMessageLevel
 
 Kernel log message report level.
 
@@ -632,7 +632,7 @@ public int KernelLogMessageLevel { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### KernelPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_KernelPath"></a> KernelPath
 
 Gets the kernel path.
 
@@ -646,7 +646,7 @@ public string KernelPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### KernelTranslatorLogMessageLevel
+### <a id="VM_Managed_DAFUL_Pre_Settings_KernelTranslatorLogMessageLevel"></a> KernelTranslatorLogMessageLevel
 
 Kernel ACIS to Parasolid translator log message report level.
 
@@ -661,7 +661,7 @@ public int KernelTranslatorLogMessageLevel { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Labs
+### <a id="VM_Managed_DAFUL_Pre_Settings_Labs"></a> Labs
 
 Gets or sets a value indicating which lab functionalty is used.
 
@@ -676,7 +676,7 @@ public string Labs { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### LastUsedWorkDirectory
+### <a id="VM_Managed_DAFUL_Pre_Settings_LastUsedWorkDirectory"></a> LastUsedWorkDirectory
 
 Gets or sets the last used work directory.
 
@@ -689,7 +689,7 @@ public string LastUsedWorkDirectory { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### LicenseManagerPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_LicenseManagerPath"></a> LicenseManagerPath
 
 Gets or sets the license manager path.
 
@@ -704,7 +704,7 @@ public string LicenseManagerPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### LoadPrior242Sp3Files
+### <a id="VM_Managed_DAFUL_Pre_Settings_LoadPrior242Sp3Files"></a> LoadPrior242Sp3Files
 
 Opening files saved from version prior to v242 SP3.
 
@@ -719,7 +719,7 @@ public bool LoadPrior242Sp3Files { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Locale
+### <a id="VM_Managed_DAFUL_Pre_Settings_Locale"></a> Locale
 
 Gets or sets a value indicating locale of user setting page.
 
@@ -734,7 +734,7 @@ public string Locale { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### LogLicenseEvent
+### <a id="VM_Managed_DAFUL_Pre_Settings_LogLicenseEvent"></a> LogLicenseEvent
 
 Gets or sets the License status event log flag.
 
@@ -749,7 +749,7 @@ public int LogLicenseEvent { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### MFInterfacePath
+### <a id="VM_Managed_DAFUL_Pre_Settings_MFInterfacePath"></a> MFInterfacePath
 
 Gets the MF_Interface.dll path.
 
@@ -763,7 +763,7 @@ public string MFInterfacePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### MaterialLibraryDirectory
+### <a id="VM_Managed_DAFUL_Pre_Settings_MaterialLibraryDirectory"></a> MaterialLibraryDirectory
 
 Gets the material library directory.
 
@@ -776,7 +776,7 @@ public string MaterialLibraryDirectory { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### MaximumOpenPropertyDialogCount
+### <a id="VM_Managed_DAFUL_Pre_Settings_MaximumOpenPropertyDialogCount"></a> MaximumOpenPropertyDialogCount
 
 Gets the maximum number of property dialogs that can be opened.
 
@@ -790,7 +790,7 @@ public int MaximumOpenPropertyDialogCount { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### MaxwellVersion
+### <a id="VM_Managed_DAFUL_Pre_Settings_MaxwellVersion"></a> MaxwellVersion
 
 Specify the Maxwell version to use for the Magnet forces.
 
@@ -805,7 +805,7 @@ public string MaxwellVersion { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### MesherCorePath
+### <a id="VM_Managed_DAFUL_Pre_Settings_MesherCorePath"></a> MesherCorePath
 
 Gets the VMMesherCore.dll path.
 
@@ -818,7 +818,7 @@ public string MesherCorePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### MeshfreePreprocessorPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_MeshfreePreprocessorPath"></a> MeshfreePreprocessorPath
 
 Gets the MeshfreePreprocessorPath.exe path.
 
@@ -831,7 +831,7 @@ public string MeshfreePreprocessorPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### MouseDownZoomIn1
+### <a id="VM_Managed_DAFUL_Pre_Settings_MouseDownZoomIn1"></a> MouseDownZoomIn1
 
 Gets or sets the MouseDownZoomIn1
 
@@ -846,7 +846,7 @@ public bool MouseDownZoomIn1 { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MouseDownZoomIn2
+### <a id="VM_Managed_DAFUL_Pre_Settings_MouseDownZoomIn2"></a> MouseDownZoomIn2
 
 Gets or sets the MouseDownZoomIn2
 
@@ -861,7 +861,7 @@ public bool MouseDownZoomIn2 { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MouseDownZoomIn3
+### <a id="VM_Managed_DAFUL_Pre_Settings_MouseDownZoomIn3"></a> MouseDownZoomIn3
 
 Gets or sets the MouseDownZoomIn3
 
@@ -876,7 +876,7 @@ public bool MouseDownZoomIn3 { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MouseDownZoomIn4
+### <a id="VM_Managed_DAFUL_Pre_Settings_MouseDownZoomIn4"></a> MouseDownZoomIn4
 
 Gets or sets the MouseDownZoomIn4
 
@@ -891,7 +891,7 @@ public bool MouseDownZoomIn4 { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### NFtoDAFULPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_NFtoDAFULPath"></a> NFtoDAFULPath
 
 Gets the NFtoDAFUL.dll path.
 
@@ -904,7 +904,7 @@ public string NFtoDAFULPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NastranOutReaderPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_NastranOutReaderPath"></a> NastranOutReaderPath
 
 Gets the NastranOutReader.dll path.
 
@@ -918,7 +918,7 @@ public string NastranOutReaderPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NumOfMRUFiles
+### <a id="VM_Managed_DAFUL_Pre_Settings_NumOfMRUFiles"></a> NumOfMRUFiles
 
 Gets or sets a value indicating how many files will be shown in recently used file list.
 
@@ -933,7 +933,7 @@ public int NumOfMRUFiles { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### OEMMode
+### <a id="VM_Managed_DAFUL_Pre_Settings_OEMMode"></a> OEMMode
 
 Gets a value indicating whether [OEMMode].
 
@@ -947,7 +947,7 @@ public bool OEMMode { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### OutputTextBoxInterval
+### <a id="VM_Managed_DAFUL_Pre_Settings_OutputTextBoxInterval"></a> OutputTextBoxInterval
 
 Gets a value indicating whether [output textbox interval].
 
@@ -960,7 +960,7 @@ public int OutputTextBoxInterval { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### PSBodyshopLocation
+### <a id="VM_Managed_DAFUL_Pre_Settings_PSBodyshopLocation"></a> PSBodyshopLocation
 
 Parasolid bodyshop (psbodyshop.dll) location
 
@@ -972,7 +972,7 @@ public string PSBodyshopLocation { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PSKernelLocation
+### <a id="VM_Managed_DAFUL_Pre_Settings_PSKernelLocation"></a> PSKernelLocation
 
 Parasolid Kernel (pskernel.dll) location
 
@@ -984,7 +984,7 @@ public string PSKernelLocation { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PSKernelSchemaLocation
+### <a id="VM_Managed_DAFUL_Pre_Settings_PSKernelSchemaLocation"></a> PSKernelSchemaLocation
 
 Parasolid schema location
 
@@ -996,7 +996,7 @@ public string PSKernelSchemaLocation { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PostPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_PostPath"></a> PostPath
 
 Gets or sets the post path.
 
@@ -1010,7 +1010,7 @@ public string PostPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PrePath
+### <a id="VM_Managed_DAFUL_Pre_Settings_PrePath"></a> PrePath
 
 Gets the pre path.
 
@@ -1024,7 +1024,7 @@ public string PrePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PythonExecutablePath
+### <a id="VM_Managed_DAFUL_Pre_Settings_PythonExecutablePath"></a> PythonExecutablePath
 
 Gets the function expression script header for the function expression editor
 
@@ -1038,7 +1038,7 @@ public string PythonExecutablePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RedrawKernel
+### <a id="VM_Managed_DAFUL_Pre_Settings_RedrawKernel"></a> RedrawKernel
 
 Gets a value indicating whether [redraw kernel].
 
@@ -1051,7 +1051,7 @@ public bool RedrawKernel { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Rendering
+### <a id="VM_Managed_DAFUL_Pre_Settings_Rendering"></a> Rendering
 
 Gets or sets the rendering.
 
@@ -1066,7 +1066,7 @@ public int Rendering { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### RotateMainKey1
+### <a id="VM_Managed_DAFUL_Pre_Settings_RotateMainKey1"></a> RotateMainKey1
 
 Gets or sets the RotateMainKey1
 
@@ -1081,7 +1081,7 @@ public NavigationKeys RotateMainKey1 { get; set; }
 
  NavigationKeys
 
-### RotateMainKey2
+### <a id="VM_Managed_DAFUL_Pre_Settings_RotateMainKey2"></a> RotateMainKey2
 
 Gets or sets the RotateMainKey2
 
@@ -1096,7 +1096,7 @@ public NavigationKeys RotateMainKey2 { get; set; }
 
  NavigationKeys
 
-### RotateMainKey3
+### <a id="VM_Managed_DAFUL_Pre_Settings_RotateMainKey3"></a> RotateMainKey3
 
 Gets or sets the RotateMainKey3
 
@@ -1111,7 +1111,7 @@ public NavigationKeys RotateMainKey3 { get; set; }
 
  NavigationKeys
 
-### RotateMainKey4
+### <a id="VM_Managed_DAFUL_Pre_Settings_RotateMainKey4"></a> RotateMainKey4
 
 Gets or sets the RotateMainKey4
 
@@ -1126,7 +1126,7 @@ public NavigationKeys RotateMainKey4 { get; set; }
 
  NavigationKeys
 
-### RotateSpeed
+### <a id="VM_Managed_DAFUL_Pre_Settings_RotateSpeed"></a> RotateSpeed
 
 Gets or sets the Rotate Speed
 
@@ -1141,7 +1141,7 @@ public int RotateSpeed { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### RotateSubKey1
+### <a id="VM_Managed_DAFUL_Pre_Settings_RotateSubKey1"></a> RotateSubKey1
 
 Gets or sets the RotateSubKey1
 
@@ -1156,7 +1156,7 @@ public NavigationKeys RotateSubKey1 { get; set; }
 
  NavigationKeys
 
-### RotateSubKey2
+### <a id="VM_Managed_DAFUL_Pre_Settings_RotateSubKey2"></a> RotateSubKey2
 
 Gets or sets the RotateSubKey2
 
@@ -1171,7 +1171,7 @@ public NavigationKeys RotateSubKey2 { get; set; }
 
  NavigationKeys
 
-### RotateSubKey3
+### <a id="VM_Managed_DAFUL_Pre_Settings_RotateSubKey3"></a> RotateSubKey3
 
 Gets or sets the RotateSubKey3
 
@@ -1186,7 +1186,7 @@ public NavigationKeys RotateSubKey3 { get; set; }
 
  NavigationKeys
 
-### RotateSubKey4
+### <a id="VM_Managed_DAFUL_Pre_Settings_RotateSubKey4"></a> RotateSubKey4
 
 Gets or sets the RotateSubKey4
 
@@ -1201,7 +1201,7 @@ public NavigationKeys RotateSubKey4 { get; set; }
 
  NavigationKeys
 
-### RotateTrackball
+### <a id="VM_Managed_DAFUL_Pre_Settings_RotateTrackball"></a> RotateTrackball
 
 Gets or sets the RotateTrackball
 
@@ -1216,7 +1216,7 @@ public bool RotateTrackball { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RunDllPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_RunDllPath"></a> RunDllPath
 
 Gets the RunDLL.exe path.
 
@@ -1229,7 +1229,7 @@ public string RunDllPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ShowFileCompatibilityNotice
+### <a id="VM_Managed_DAFUL_Pre_Settings_ShowFileCompatibilityNotice"></a> ShowFileCompatibilityNotice
 
 Show file compatibility notice at startup.
 
@@ -1244,7 +1244,7 @@ public bool ShowFileCompatibilityNotice { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ShowStartPageAtStartup
+### <a id="VM_Managed_DAFUL_Pre_Settings_ShowStartPageAtStartup"></a> ShowStartPageAtStartup
 
 Gets or sets a value indicating whether show start page at application startup or not.
 
@@ -1259,7 +1259,7 @@ public bool ShowStartPageAtStartup { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SolutionPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_SolutionPath"></a> SolutionPath
 
 Gets the solution path.
 
@@ -1272,7 +1272,7 @@ public string SolutionPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SolverDirectory
+### <a id="VM_Managed_DAFUL_Pre_Settings_SolverDirectory"></a> SolverDirectory
 
 Gets the solver directory.
 
@@ -1285,7 +1285,7 @@ public string SolverDirectory { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SplashPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_SplashPath"></a> SplashPath
 
 Gets the splash path.
 
@@ -1298,7 +1298,7 @@ public string SplashPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### StrideBinaryDirectory
+### <a id="VM_Managed_DAFUL_Pre_Settings_StrideBinaryDirectory"></a> StrideBinaryDirectory
 
 Gets the Stride binary location
 
@@ -1312,7 +1312,7 @@ public string StrideBinaryDirectory { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### StrideConvertPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_StrideConvertPath"></a> StrideConvertPath
 
 Stride Convert(Convert.exe) location
 
@@ -1324,7 +1324,7 @@ public string StrideConvertPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### StrideDependencies
+### <a id="VM_Managed_DAFUL_Pre_Settings_StrideDependencies"></a> StrideDependencies
 
 Gets the Stride dependencies
 
@@ -1338,7 +1338,7 @@ public string StrideDependencies { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TemplatePath
+### <a id="VM_Managed_DAFUL_Pre_Settings_TemplatePath"></a> TemplatePath
 
 Gets the template path.
 
@@ -1352,7 +1352,7 @@ public string TemplatePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TextEditor
+### <a id="VM_Managed_DAFUL_Pre_Settings_TextEditor"></a> TextEditor
 
 Gets or sets a text editor.
 
@@ -1367,7 +1367,7 @@ public string TextEditor { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TextEditorArgument
+### <a id="VM_Managed_DAFUL_Pre_Settings_TextEditorArgument"></a> TextEditorArgument
 
 Argument to launch text editor.
 
@@ -1382,7 +1382,7 @@ public string TextEditorArgument { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ToolkitInfoPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_ToolkitInfoPath"></a> ToolkitInfoPath
 
 Gets the toolkit info path.
 
@@ -1395,7 +1395,7 @@ public string ToolkitInfoPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TranslateMainKey1
+### <a id="VM_Managed_DAFUL_Pre_Settings_TranslateMainKey1"></a> TranslateMainKey1
 
 Gets or sets the TranslateMainKey1
 
@@ -1410,7 +1410,7 @@ public NavigationKeys TranslateMainKey1 { get; set; }
 
  NavigationKeys
 
-### TranslateMainKey2
+### <a id="VM_Managed_DAFUL_Pre_Settings_TranslateMainKey2"></a> TranslateMainKey2
 
 Gets or sets the TranslateMainKey2
 
@@ -1425,7 +1425,7 @@ public NavigationKeys TranslateMainKey2 { get; set; }
 
  NavigationKeys
 
-### TranslateMainKey3
+### <a id="VM_Managed_DAFUL_Pre_Settings_TranslateMainKey3"></a> TranslateMainKey3
 
 Gets or sets the TranslateMainKey3
 
@@ -1440,7 +1440,7 @@ public NavigationKeys TranslateMainKey3 { get; set; }
 
  NavigationKeys
 
-### TranslateMainKey4
+### <a id="VM_Managed_DAFUL_Pre_Settings_TranslateMainKey4"></a> TranslateMainKey4
 
 Gets or sets the TranslateMainKey4
 
@@ -1455,7 +1455,7 @@ public NavigationKeys TranslateMainKey4 { get; set; }
 
  NavigationKeys
 
-### TranslateSubKey1
+### <a id="VM_Managed_DAFUL_Pre_Settings_TranslateSubKey1"></a> TranslateSubKey1
 
 Gets or sets the TranslateSubKey1
 
@@ -1470,7 +1470,7 @@ public NavigationKeys TranslateSubKey1 { get; set; }
 
  NavigationKeys
 
-### TranslateSubKey2
+### <a id="VM_Managed_DAFUL_Pre_Settings_TranslateSubKey2"></a> TranslateSubKey2
 
 Gets or sets the TranslateSubKey2
 
@@ -1485,7 +1485,7 @@ public NavigationKeys TranslateSubKey2 { get; set; }
 
  NavigationKeys
 
-### TranslateSubKey3
+### <a id="VM_Managed_DAFUL_Pre_Settings_TranslateSubKey3"></a> TranslateSubKey3
 
 Gets or sets the TranslateSubKey3
 
@@ -1500,7 +1500,7 @@ public NavigationKeys TranslateSubKey3 { get; set; }
 
  NavigationKeys
 
-### TranslateSubKey4
+### <a id="VM_Managed_DAFUL_Pre_Settings_TranslateSubKey4"></a> TranslateSubKey4
 
 Gets or sets the TranslateSubKey4
 
@@ -1515,7 +1515,7 @@ public NavigationKeys TranslateSubKey4 { get; set; }
 
  NavigationKeys
 
-### TranslatorDirectory
+### <a id="VM_Managed_DAFUL_Pre_Settings_TranslatorDirectory"></a> TranslatorDirectory
 
 Gets the translator directory.
 
@@ -1529,7 +1529,7 @@ public string TranslatorDirectory { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UseAutoCheckDotNetVersion
+### <a id="VM_Managed_DAFUL_Pre_Settings_UseAutoCheckDotNetVersion"></a> UseAutoCheckDotNetVersion
 
 Gets or sets a value indicating whether [use auto check .NET Framework version].
 
@@ -1544,7 +1544,7 @@ public bool UseAutoCheckDotNetVersion { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseAutoCreateOK
+### <a id="VM_Managed_DAFUL_Pre_Settings_UseAutoCreateOK"></a> UseAutoCreateOK
 
 Gets or sets a value indicating whether [use auto ok].
 
@@ -1559,7 +1559,7 @@ public bool UseAutoCreateOK { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseAutoPickerOK
+### <a id="VM_Managed_DAFUL_Pre_Settings_UseAutoPickerOK"></a> UseAutoPickerOK
 
 ```csharp
 [UserScopedSetting]
@@ -1572,7 +1572,7 @@ public bool UseAutoPickerOK { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseAutoSave
+### <a id="VM_Managed_DAFUL_Pre_Settings_UseAutoSave"></a> UseAutoSave
 
 Gets or sets a value indicating whether [use auto save].
 
@@ -1587,7 +1587,7 @@ public bool UseAutoSave { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseConsoleSolver
+### <a id="VM_Managed_DAFUL_Pre_Settings_UseConsoleSolver"></a> UseConsoleSolver
 
 Argument to launch text editor.
 
@@ -1602,7 +1602,7 @@ public bool UseConsoleSolver { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseDefaultStartPage
+### <a id="VM_Managed_DAFUL_Pre_Settings_UseDefaultStartPage"></a> UseDefaultStartPage
 
 Gets or sets a value indicating whether show default start page or user defined start page.
 
@@ -1617,7 +1617,7 @@ public bool UseDefaultStartPage { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseDefaultTemp
+### <a id="VM_Managed_DAFUL_Pre_Settings_UseDefaultTemp"></a> UseDefaultTemp
 
 Gets or sets a value indicating whether [use default temp path].
 
@@ -1632,7 +1632,7 @@ public bool UseDefaultTemp { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseDockableCreateAndPickerWindows
+### <a id="VM_Managed_DAFUL_Pre_Settings_UseDockableCreateAndPickerWindows"></a> UseDockableCreateAndPickerWindows
 
 Gets or sets a value indicating whether [use dockable create and picker windows].
 
@@ -1647,7 +1647,7 @@ public bool UseDockableCreateAndPickerWindows { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UserRibbon
+### <a id="VM_Managed_DAFUL_Pre_Settings_UserRibbon"></a> UserRibbon
 
 Gets or sets the user ribbon directory.
 
@@ -1661,7 +1661,7 @@ public string UserRibbon { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UserStartPage
+### <a id="VM_Managed_DAFUL_Pre_Settings_UserStartPage"></a> UserStartPage
 
 Gets or sets a value indicating url of user setting page.
 
@@ -1676,7 +1676,7 @@ public string UserStartPage { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UserTempPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_UserTempPath"></a> UserTempPath
 
 Gets or sets the user temp path.
 
@@ -1690,7 +1690,7 @@ public string UserTempPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### VMMesherPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_VMMesherPath"></a> VMMesherPath
 
 Gets the VMMesher path.
 
@@ -1703,7 +1703,7 @@ public string VMMesherPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Verify
+### <a id="VM_Managed_DAFUL_Pre_Settings_Verify"></a> Verify
 
 Gets a value indicating whether [verify].
 
@@ -1716,7 +1716,7 @@ public bool Verify { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### VerifyLevel
+### <a id="VM_Managed_DAFUL_Pre_Settings_VerifyLevel"></a> VerifyLevel
 
 Gets or sets the verify level.
 
@@ -1731,7 +1731,7 @@ public int VerifyLevel { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### WheelDownZoomIn1
+### <a id="VM_Managed_DAFUL_Pre_Settings_WheelDownZoomIn1"></a> WheelDownZoomIn1
 
 Gets or sets the WheelDownZoomIn1
 
@@ -1746,7 +1746,7 @@ public bool WheelDownZoomIn1 { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### WheelDownZoomIn2
+### <a id="VM_Managed_DAFUL_Pre_Settings_WheelDownZoomIn2"></a> WheelDownZoomIn2
 
 Gets or sets the WheelDownZoomIn2
 
@@ -1761,7 +1761,7 @@ public bool WheelDownZoomIn2 { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### WheelDownZoomIn3
+### <a id="VM_Managed_DAFUL_Pre_Settings_WheelDownZoomIn3"></a> WheelDownZoomIn3
 
 Gets or sets the WheelDownZoomIn3
 
@@ -1776,7 +1776,7 @@ public bool WheelDownZoomIn3 { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### WheelDownZoomIn4
+### <a id="VM_Managed_DAFUL_Pre_Settings_WheelDownZoomIn4"></a> WheelDownZoomIn4
 
 Gets or sets the WheelDownZoomIn4
 
@@ -1791,7 +1791,7 @@ public bool WheelDownZoomIn4 { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### XmlSolverManagerPath
+### <a id="VM_Managed_DAFUL_Pre_Settings_XmlSolverManagerPath"></a> XmlSolverManagerPath
 
 Gets the XML solver manager path.
 
@@ -1804,7 +1804,7 @@ public string XmlSolverManagerPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ZoomMainKey1
+### <a id="VM_Managed_DAFUL_Pre_Settings_ZoomMainKey1"></a> ZoomMainKey1
 
 Gets or sets the ZoomMainKey1
 
@@ -1819,7 +1819,7 @@ public NavigationKeys ZoomMainKey1 { get; set; }
 
  NavigationKeys
 
-### ZoomMainKey2
+### <a id="VM_Managed_DAFUL_Pre_Settings_ZoomMainKey2"></a> ZoomMainKey2
 
 Gets or sets the ZoomMainKey2
 
@@ -1834,7 +1834,7 @@ public NavigationKeys ZoomMainKey2 { get; set; }
 
  NavigationKeys
 
-### ZoomMainKey3
+### <a id="VM_Managed_DAFUL_Pre_Settings_ZoomMainKey3"></a> ZoomMainKey3
 
 Gets or sets the ZoomMainKey3
 
@@ -1849,7 +1849,7 @@ public NavigationKeys ZoomMainKey3 { get; set; }
 
  NavigationKeys
 
-### ZoomMainKey4
+### <a id="VM_Managed_DAFUL_Pre_Settings_ZoomMainKey4"></a> ZoomMainKey4
 
 Gets or sets the ZoomMainKey4
 
@@ -1864,7 +1864,7 @@ public NavigationKeys ZoomMainKey4 { get; set; }
 
  NavigationKeys
 
-### ZoomSpeed
+### <a id="VM_Managed_DAFUL_Pre_Settings_ZoomSpeed"></a> ZoomSpeed
 
 Gets or sets the Zoom Speed
 
@@ -1879,7 +1879,7 @@ public int ZoomSpeed { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### ZoomSubKey1
+### <a id="VM_Managed_DAFUL_Pre_Settings_ZoomSubKey1"></a> ZoomSubKey1
 
 Gets or sets the ZoomSubKey1
 
@@ -1894,7 +1894,7 @@ public NavigationKeys ZoomSubKey1 { get; set; }
 
  NavigationKeys
 
-### ZoomSubKey2
+### <a id="VM_Managed_DAFUL_Pre_Settings_ZoomSubKey2"></a> ZoomSubKey2
 
 Gets or sets the ZoomSubKey2
 
@@ -1909,7 +1909,7 @@ public NavigationKeys ZoomSubKey2 { get; set; }
 
  NavigationKeys
 
-### ZoomSubKey3
+### <a id="VM_Managed_DAFUL_Pre_Settings_ZoomSubKey3"></a> ZoomSubKey3
 
 Gets or sets the ZoomSubKey3
 
@@ -1924,7 +1924,7 @@ public NavigationKeys ZoomSubKey3 { get; set; }
 
  NavigationKeys
 
-### ZoomSubKey4
+### <a id="VM_Managed_DAFUL_Pre_Settings_ZoomSubKey4"></a> ZoomSubKey4
 
 Gets or sets the ZoomSubKey4
 
@@ -1939,7 +1939,7 @@ public NavigationKeys ZoomSubKey4 { get; set; }
 
  NavigationKeys
 
-### this\[string\]
+### <a id="VM_Managed_DAFUL_Pre_Settings_Item_System_String_"></a> this\[string\]
 
 ```csharp
 public override object this[string propertyName] { get; set; }
@@ -1949,7 +1949,7 @@ public override object this[string propertyName] { get; set; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### v242Sp3Exists
+### <a id="VM_Managed_DAFUL_Pre_Settings_v242Sp3Exists"></a> v242Sp3Exists
 
 ```csharp
 public static bool v242Sp3Exists { get; }
@@ -1961,7 +1961,7 @@ public static bool v242Sp3Exists { get; }
 
 ## Methods
 
-### GetMappedVersionString\(string\)
+### <a id="VM_Managed_DAFUL_Pre_Settings_GetMappedVersionString_System_String_"></a> GetMappedVersionString\(string\)
 
 ```csharp
 public string GetMappedVersionString(string version)
@@ -1975,7 +1975,7 @@ public string GetMappedVersionString(string version)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsLabFeatureEnabled\(string\)
+### <a id="VM_Managed_DAFUL_Pre_Settings_IsLabFeatureEnabled_System_String_"></a> IsLabFeatureEnabled\(string\)
 
 ```csharp
 public bool IsLabFeatureEnabled(string featureName)
@@ -1989,7 +1989,7 @@ public bool IsLabFeatureEnabled(string featureName)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsValidMaxwellVersion\(string\)
+### <a id="VM_Managed_DAFUL_Pre_Settings_IsValidMaxwellVersion_System_String_"></a> IsValidMaxwellVersion\(string\)
 
 ```csharp
 public bool IsValidMaxwellVersion(string version)
@@ -2002,5 +2002,4 @@ public bool IsValidMaxwellVersion(string version)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

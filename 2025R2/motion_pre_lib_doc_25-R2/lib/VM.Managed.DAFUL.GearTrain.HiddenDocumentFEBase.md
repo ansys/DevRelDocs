@@ -1,4 +1,4 @@
-# Class HiddenDocumentFEBase
+#  Class HiddenDocumentFEBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -611,7 +611,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### HiddenDocumentFEBase\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentFEBase__ctor_System_UIntPtr_"></a> HiddenDocumentFEBase\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentFEBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -627,7 +627,7 @@ The document handle.
 
 ## Methods
 
-### ReAssemblyNodalBody\(NodalBody\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentFEBase_ReAssemblyNodalBody_VM_Managed_DAFUL_FE_NodalBody_"></a> ReAssemblyNodalBody\(NodalBody\)
 
 Res the assembly nodal body.
 
@@ -640,5 +640,4 @@ public void ReAssemblyNodalBody(NodalBody nb)
 `nb` NodalBody
 
 The nb.
-
 

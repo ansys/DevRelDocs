@@ -1,4 +1,4 @@
-# Enum PropertyContact3D.PointCheckType
+#  Enum PropertyContact3D.PointCheckType
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -26,7 +26,6 @@ ActionOnly
 `BaseOnly = 2` 
 
 BaseOnly
-
 
 
 

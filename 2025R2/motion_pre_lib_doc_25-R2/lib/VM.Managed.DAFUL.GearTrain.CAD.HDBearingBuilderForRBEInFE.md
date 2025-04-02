@@ -1,4 +1,4 @@
-# Class HDBearingBuilderForRBEInFE
+#  Class HDBearingBuilderForRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -230,7 +230,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### HDBearingBuilderForRBEInFE\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderForRBEInFE__ctor"></a> HDBearingBuilderForRBEInFE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.HDBearingBuilderForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -240,7 +240,7 @@ public HDBearingBuilderForRBEInFE()
 
 ## Properties
 
-### MatedAngle
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderForRBEInFE_MatedAngle"></a> MatedAngle
 
 Gets or sets the mate angle.
 
@@ -252,7 +252,7 @@ public double MatedAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ParentConnectable
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderForRBEInFE_ParentConnectable"></a> ParentConnectable
 
 Gets or sets the parent connectable.
 
@@ -264,7 +264,7 @@ public IConnectable ParentConnectable { get; set; }
 
  IConnectable
 
-### Position
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderForRBEInFE_Position"></a> Position
 
 Gets the position.
 
@@ -276,7 +276,7 @@ public VectorBase Position { get; }
 
  VectorBase
 
-### Rotation
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderForRBEInFE_Rotation"></a> Rotation
 
 Gets or sets the rotation.
 
@@ -288,7 +288,7 @@ public OMatrix Rotation { get; set; }
 
  OMatrix
 
-### StartPoint
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderForRBEInFE_StartPoint"></a> StartPoint
 
 Gets or sets the start point.
 
@@ -300,7 +300,7 @@ public PointBase StartPoint { get; set; }
 
  PointBase
 
-### UseDesigner
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderForRBEInFE_UseDesigner"></a> UseDesigner
 
 Gets or sets a value indicating whether [zero setting].
 
@@ -312,7 +312,7 @@ public bool UseDesigner { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ZAxis
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderForRBEInFE_ZAxis"></a> ZAxis
 
 Gets or sets the start axis.
 
@@ -324,7 +324,7 @@ public DirectionBase ZAxis { get; set; }
 
  DirectionBase
 
-### \_ParentConnectable
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_HDBearingBuilderForRBEInFE__ParentConnectable"></a> \_ParentConnectable
 
 Gets or sets the parent connectable.
 
@@ -335,5 +335,4 @@ public Linker<IConnectable> _ParentConnectable { get; set; }
 #### Property Value
 
  Linker<IConnectable\>
-
 

@@ -1,4 +1,4 @@
-# Class ExportDFGMeshFree
+#  Class ExportDFGMeshFree
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Operation](VM.Managed.DAFUL.MeshFree.Operation.md)  
 Assembly: VMOpMeshFree.dll  
@@ -104,7 +104,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ExportDFGMeshFree\(Document\)
+### <a id="VM_Managed_DAFUL_MeshFree_Operation_ExportDFGMeshFree__ctor_VM_Managed_Document_"></a> ExportDFGMeshFree\(Document\)
 
 ```csharp
 public ExportDFGMeshFree(Document doc)
@@ -114,7 +114,7 @@ public ExportDFGMeshFree(Document doc)
 
 `doc` Document
 
-### ExportDFGMeshFree\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_MeshFree_Operation_ExportDFGMeshFree__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportDFGMeshFree\(JournalParameter\)
 
 ```csharp
 public ExportDFGMeshFree(JournalParameter jp)
@@ -126,7 +126,7 @@ public ExportDFGMeshFree(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_MeshFree_Operation_ExportDFGMeshFree_Name"></a> Name
 
 Gets the name.
 
@@ -137,5 +137,4 @@ public override string Name { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

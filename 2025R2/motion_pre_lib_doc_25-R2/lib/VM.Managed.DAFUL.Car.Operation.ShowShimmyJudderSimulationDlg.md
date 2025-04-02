@@ -1,4 +1,4 @@
-# Class ShowShimmyJudderSimulationDlg
+#  Class ShowShimmyJudderSimulationDlg
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -106,7 +106,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ShowShimmyJudderSimulationDlg\(Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowShimmyJudderSimulationDlg__ctor_VM_Managed_Document_"></a> ShowShimmyJudderSimulationDlg\(Document\)
 
 ```csharp
 public ShowShimmyJudderSimulationDlg(Document doc)
@@ -116,7 +116,7 @@ public ShowShimmyJudderSimulationDlg(Document doc)
 
 `doc` Document
 
-### ShowShimmyJudderSimulationDlg\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowShimmyJudderSimulationDlg__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowShimmyJudderSimulationDlg\(JournalParameter\)
 
 ```csharp
 public ShowShimmyJudderSimulationDlg(JournalParameter jp)
@@ -128,7 +128,7 @@ public ShowShimmyJudderSimulationDlg(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowShimmyJudderSimulationDlg_Name"></a> Name
 
 Gets the operation name.
 
@@ -142,7 +142,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowShimmyJudderSimulationDlg_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -150,7 +150,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### ExecuteImpl\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowShimmyJudderSimulationDlg_ExecuteImpl"></a> ExecuteImpl\(\)
 
 Executes the impl.
 
@@ -158,7 +158,7 @@ Executes the impl.
 protected override void ExecuteImpl()
 ```
 
-### SimulationRunImpl\(bool\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowShimmyJudderSimulationDlg_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
 
 ```csharp
 protected override void SimulationRunImpl(bool bWriteDFG)
@@ -167,5 +167,4 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 #### Parameters
 
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

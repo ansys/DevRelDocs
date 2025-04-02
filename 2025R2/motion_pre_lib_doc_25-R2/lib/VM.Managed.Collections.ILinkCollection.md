@@ -1,4 +1,4 @@
-# Interface ILinkCollection
+#  Interface ILinkCollection
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -15,7 +15,7 @@ public interface ILinkCollection
 
 ## Properties
 
-### Container
+### <a id="VM_Managed_Collections_ILinkCollection_Container"></a> Container
 
 ```csharp
 ILinkContainer Container { get; }
@@ -25,7 +25,7 @@ ILinkContainer Container { get; }
 
  ILinkContainer
 
-### Count
+### <a id="VM_Managed_Collections_ILinkCollection_Count"></a> Count
 
 Get the item count in the collection
 
@@ -39,7 +39,7 @@ int Count { get; }
 
 ## Methods
 
-### Clear\(\)
+### <a id="VM_Managed_Collections_ILinkCollection_Clear"></a> Clear\(\)
 
 Clear collection.
 
@@ -47,7 +47,7 @@ Clear collection.
 void Clear()
 ```
 
-### Contains\(object\)
+### <a id="VM_Managed_Collections_ILinkCollection_Contains_System_Object_"></a> Contains\(object\)
 
 ```csharp
 bool Contains(object @object)
@@ -61,7 +61,7 @@ bool Contains(object @object)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### DestroyObject\(object, LinkEventArgs\)
+### <a id="VM_Managed_Collections_ILinkCollection_DestroyObject_System_Object_VM_Managed_LinkEventArgs_"></a> DestroyObject\(object, LinkEventArgs\)
 
 Destroy this link
 
@@ -79,7 +79,7 @@ void DestroyObject(object objNotifier, LinkEventArgs arg)
 
 <p>The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.</p>
 
-### DisposeCollection\(\)
+### <a id="VM_Managed_Collections_ILinkCollection_DisposeCollection"></a> DisposeCollection\(\)
 
 Dispose this collection
 
@@ -87,7 +87,7 @@ Dispose this collection
 void DisposeCollection()
 ```
 
-### GetAllLinks\(ICollection<ILink\>\)
+### <a id="VM_Managed_Collections_ILinkCollection_GetAllLinks_System_Collections_Generic_ICollection_VM_Managed_ILink__"></a> GetAllLinks\(ICollection<ILink\>\)
 
 ```csharp
 void GetAllLinks(ICollection<ILink> colLinks)
@@ -97,7 +97,7 @@ void GetAllLinks(ICollection<ILink> colLinks)
 
 `colLinks` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[ILink](VM.Managed.ILink.md)\>
 
-### MakeNullLink\(object\)
+### <a id="VM_Managed_Collections_ILinkCollection_MakeNullLink_System_Object_"></a> MakeNullLink\(object\)
 
 ```csharp
 bool MakeNullLink(object @object)
@@ -111,7 +111,7 @@ bool MakeNullLink(object @object)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RemoveLink\(ILink\)
+### <a id="VM_Managed_Collections_ILinkCollection_RemoveLink_VM_Managed_ILink_"></a> RemoveLink\(ILink\)
 
 Remove specific link from the collection.
 
@@ -125,7 +125,7 @@ void RemoveLink(ILink link)
 
 The link to remove
 
-### Reserve\(object, LinkEventArgs\)
+### <a id="VM_Managed_Collections_ILinkCollection_Reserve_System_Object_VM_Managed_LinkEventArgs_"></a> Reserve\(object, LinkEventArgs\)
 
 ```csharp
 bool Reserve(object objNotifier, LinkEventArgs arg)
@@ -140,5 +140,4 @@ bool Reserve(object objNotifier, LinkEventArgs arg)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

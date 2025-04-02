@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Flexible
+#  Namespace VM.Managed.DAFUL.Flexible
 
 ### Namespaces
 
@@ -66,5 +66,4 @@ This class is to represent the flexibleBase helper.
 
 <p>Specifies constrained type.</p>
 <p>경계조건을 명시합니다.</p>
-
 

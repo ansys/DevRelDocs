@@ -1,4 +1,4 @@
-# Struct MaterialAB
+#  Struct MaterialAB
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -9,7 +9,7 @@ public struct MaterialAB
 
 ## Properties
 
-### D
+### <a id="VM_Models_FE_Utilities_MaterialAB_D"></a> D
 
 ```csharp
 public double D { readonly get; set; }
@@ -19,7 +19,7 @@ public double D { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Density
+### <a id="VM_Models_FE_Utilities_MaterialAB_Density"></a> Density
 
 ```csharp
 public double Density { readonly get; set; }
@@ -29,7 +29,7 @@ public double Density { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ID
+### <a id="VM_Models_FE_Utilities_MaterialAB_ID"></a> ID
 
 ```csharp
 public uint ID { readonly get; set; }
@@ -39,7 +39,7 @@ public uint ID { readonly get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### Lambda
+### <a id="VM_Models_FE_Utilities_MaterialAB_Lambda"></a> Lambda
 
 ```csharp
 public double Lambda { readonly get; set; }
@@ -49,7 +49,7 @@ public double Lambda { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Mu
+### <a id="VM_Models_FE_Utilities_MaterialAB_Mu"></a> Mu
 
 ```csharp
 public double Mu { readonly get; set; }
@@ -58,5 +58,4 @@ public double Mu { readonly get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

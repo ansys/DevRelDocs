@@ -1,4 +1,4 @@
-# Class ImportMesh
+#  Class ImportMesh
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -63,7 +63,7 @@ BuilderBase<HousingNodalBody\>.ErrorMessage
 
 ## Constructors
 
-### ImportMesh\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportMesh__ctor"></a> ImportMesh\(\)
 
 ```csharp
 public ImportMesh()
@@ -71,7 +71,7 @@ public ImportMesh()
 
 ## Properties
 
-### AssemblyFileName
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportMesh_AssemblyFileName"></a> AssemblyFileName
 
 ```csharp
 protected override string AssemblyFileName { get; }
@@ -81,7 +81,7 @@ protected override string AssemblyFileName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DocumentName
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportMesh_DocumentName"></a> DocumentName
 
 ```csharp
 protected override string DocumentName { get; }
@@ -91,7 +91,7 @@ protected override string DocumentName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ExtensionName
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportMesh_ExtensionName"></a> ExtensionName
 
 ```csharp
 protected override string ExtensionName { get; }
@@ -101,7 +101,7 @@ protected override string ExtensionName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FileName
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportMesh_FileName"></a> FileName
 
 ```csharp
 public string[] FileName { get; set; }
@@ -111,7 +111,7 @@ public string[] FileName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### InputArray
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportMesh_InputArray"></a> InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -123,7 +123,7 @@ public string[] InputArray { get; set; }
 
 ## Methods
 
-### CreateAssembleCore\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportMesh_CreateAssembleCore_VM_Managed_Document_"></a> CreateAssembleCore\(Document\)
 
 ```csharp
 protected override void CreateAssembleCore(Document meshDoc)
@@ -133,7 +133,7 @@ protected override void CreateAssembleCore(Document meshDoc)
 
 `meshDoc` Document
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportMesh_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -149,7 +149,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_ImportMesh_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -162,5 +162,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

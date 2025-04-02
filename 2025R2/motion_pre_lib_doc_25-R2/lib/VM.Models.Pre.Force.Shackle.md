@@ -1,4 +1,4 @@
-# Class Shackle
+#  Class Shackle
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Shackle\(\)
+### <a id="VM_Models_Pre_Force_Shackle__ctor"></a> Shackle\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.Shackle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Shackle()
 
 ## Properties
 
-### ConnectionType
+### <a id="VM_Models_Pre_Force_Shackle_ConnectionType"></a> ConnectionType
 
 Gets or sets the connection type.
 
@@ -118,7 +118,7 @@ public ConnectionType ConnectionType { get; set; }
 
  [ConnectionType](VM.Models.Pre.Force.ConnectionType.md)
 
-### ConnectorProperty
+### <a id="VM_Models_Pre_Force_Shackle_ConnectorProperty"></a> ConnectorProperty
 
 Gets or sets the connector property.
 
@@ -130,7 +130,7 @@ public PropertyBush ConnectorProperty { get; set; }
 
  PropertyBush
 
-### Length
+### <a id="VM_Models_Pre_Force_Shackle_Length"></a> Length
 
 Gets the length.
 
@@ -142,7 +142,7 @@ public double Length { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Location
+### <a id="VM_Models_Pre_Force_Shackle_Location"></a> Location
 
 Gets the location.
 
@@ -154,7 +154,7 @@ public ShackleLocationType Location { get; set; }
 
  ShackleLocationType
 
-### MassProperty
+### <a id="VM_Models_Pre_Force_Shackle_MassProperty"></a> MassProperty
 
 Gets or sets the mass property.
 
@@ -166,7 +166,7 @@ public ShackleMass MassProperty { get; set; }
 
  [ShackleMass](VM.Models.Pre.Force.ShackleMass.md)
 
-### OffsetX
+### <a id="VM_Models_Pre_Force_Shackle_OffsetX"></a> OffsetX
 
 Gets the offset X to eye.
 
@@ -178,7 +178,7 @@ public double OffsetX { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### OuterRadius
+### <a id="VM_Models_Pre_Force_Shackle_OuterRadius"></a> OuterRadius
 
 Gets or sets the outer radius.
 
@@ -190,7 +190,7 @@ public ExpressionValueVariable OuterRadius { get; set; }
 
  ExpressionValueVariable
 
-### PinRadius
+### <a id="VM_Models_Pre_Force_Shackle_PinRadius"></a> PinRadius
 
 Gets or sets the pin radius.
 
@@ -202,7 +202,7 @@ public ExpressionValueVariable PinRadius { get; set; }
 
  ExpressionValueVariable
 
-### PositioningType
+### <a id="VM_Models_Pre_Force_Shackle_PositioningType"></a> PositioningType
 
 Gets the positioning type.
 
@@ -214,7 +214,7 @@ public ShacklePositonType PositioningType { get; set; }
 
  ShacklePositonType
 
-### ShackleToFramePosition
+### <a id="VM_Models_Pre_Force_Shackle_ShackleToFramePosition"></a> ShackleToFramePosition
 
 Gets the shackle to frame position.
 
@@ -228,7 +228,7 @@ public (double X, double Z) ShackleToFramePosition { get; set; }
 
 ## Methods
 
-### GetEyeHolePosition\(Eye, double, TMatrix?\)
+### <a id="VM_Models_Pre_Force_Shackle_GetEyeHolePosition_VM_Models_Pre_Force_Eye_System_Double_System_Nullable_VM_TMatrix__"></a> GetEyeHolePosition\(Eye, double, TMatrix?\)
 
 Get the top, bottom position of the cylindrical eye hole body.
 
@@ -256,7 +256,7 @@ The reposition matrix.
 
 The top, bottom position
 
-### GetShackleHolePosition\(Vector, double, TMatrix?\)
+### <a id="VM_Models_Pre_Force_Shackle_GetShackleHolePosition_VM_Vector_System_Double_System_Nullable_VM_TMatrix__"></a> GetShackleHolePosition\(Vector, double, TMatrix?\)
 
 Get the top, bottom position of the cylindrical shackle hole body.
 
@@ -284,7 +284,7 @@ The reposition matrix.
 
 The top, bottom position
 
-### GetShackleHolePosition\(double, TMatrix?\)
+### <a id="VM_Models_Pre_Force_Shackle_GetShackleHolePosition_System_Double_System_Nullable_VM_TMatrix__"></a> GetShackleHolePosition\(double, TMatrix?\)
 
 Get the top, bottom position of the cylindrical shackle hole body.
 
@@ -308,7 +308,7 @@ The reposition matrix.
 
 The top, bottom position
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Models_Pre_Force_Shackle_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 <p>Initializes member through unit convert factor.</p>
 
@@ -322,12 +322,11 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 <p>The unit convert factor.</p>
 
-### InitializeMassProperty\(\)
+### <a id="VM_Models_Pre_Force_Shackle_InitializeMassProperty"></a> InitializeMassProperty\(\)
 
 Initialize mass property.
 
 ```csharp
 public void InitializeMassProperty()
 ```
-
 

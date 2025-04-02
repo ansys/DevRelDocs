@@ -1,4 +1,4 @@
-# Class Vector
+#  Class Vector
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -251,7 +251,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Vector\(\)
+### <a id="VM_Managed_DAFUL_Force_Vector__ctor"></a> Vector\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.Vector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -259,7 +259,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.Vector" dat
 public Vector()
 ```
 
-### Vector\(string\)
+### <a id="VM_Managed_DAFUL_Force_Vector__ctor_System_String_"></a> Vector\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.Vector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -275,7 +275,7 @@ Name of the vector force.
 
 ## Properties
 
-### ConnectorReferenceMarker
+### <a id="VM_Managed_DAFUL_Force_Vector_ConnectorReferenceMarker"></a> ConnectorReferenceMarker
 
 Gets or sets the reference marker.
 
@@ -287,7 +287,7 @@ public override IMarker ConnectorReferenceMarker { get; }
 
  IMarker
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Force_Vector_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -301,7 +301,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Force_Vector_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -314,5 +314,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

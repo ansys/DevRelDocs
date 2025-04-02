@@ -1,4 +1,4 @@
-# Class ITemplateObjectImpl
+#  Class ITemplateObjectImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class ITemplateObjectImpl
 
 ## Constructors
 
-### ITemplateObjectImpl\(\)
+### <a id="VM_Managed_ITemplateObjectImpl__ctor"></a> ITemplateObjectImpl\(\)
 
 ```csharp
 public ITemplateObjectImpl()
@@ -30,7 +30,7 @@ public ITemplateObjectImpl()
 
 ## Methods
 
-### ReadVariable\(string, Variable, XmlReader, bool\)
+### <a id="VM_Managed_ITemplateObjectImpl_ReadVariable_System_String_VM_Managed_Variable_System_Xml_XmlReader_System_Boolean_"></a> ReadVariable\(string, Variable, XmlReader, bool\)
 
 Reads the variable.
 
@@ -62,7 +62,7 @@ if set to <code>true</code> parameterized.
 
 <code>true</code> if the specified value is change; otherwise, <code>false</code>.
 
-### WriteVariable\(string, Variable, XmlWriter, bool\)
+### <a id="VM_Managed_ITemplateObjectImpl_WriteVariable_System_String_VM_Managed_Variable_System_Xml_XmlWriter_System_Boolean_"></a> WriteVariable\(string, Variable, XmlWriter, bool\)
 
 Writes the variable.
 
@@ -87,5 +87,4 @@ The writer.
 `bParameterized` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> parameterized.
-
 

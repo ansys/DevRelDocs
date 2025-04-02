@@ -1,4 +1,4 @@
-# Class SymmetricManager
+#  Class SymmetricManager
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -135,7 +135,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SymmetricManager\(ObjectBase, Document3D\)
+### <a id="VM_Managed_SymmetricManager__ctor_VM_Managed_ObjectBase_VM_Managed_Document3D_"></a> SymmetricManager\(ObjectBase, Document3D\)
 
 Initializes a new instance of the <xref href="VM.Managed.SymmetricManager" data-throw-if-not-resolved="false"></xref> class.
 
@@ -155,7 +155,7 @@ The document.
 
 ## Fields
 
-### dgOnlyUpdateName
+### <a id="VM_Managed_SymmetricManager_dgOnlyUpdateName"></a> dgOnlyUpdateName
 
 delegate for update name
 
@@ -169,7 +169,7 @@ public SymmetricManager.OnlyUpdateName dgOnlyUpdateName
 
 ## Properties
 
-### Left
+### <a id="VM_Managed_SymmetricManager_Left"></a> Left
 
 Gets or sets the left object.
 
@@ -181,7 +181,7 @@ public ObjectBase Left { get; }
 
  ObjectBase
 
-### NonSymmetric
+### <a id="VM_Managed_SymmetricManager_NonSymmetric"></a> NonSymmetric
 
 Gets or sets a value indicating whether [non symmetric].
 
@@ -193,7 +193,7 @@ public bool NonSymmetric { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Original
+### <a id="VM_Managed_SymmetricManager_Original"></a> Original
 
 Gets the original object.
 
@@ -205,7 +205,7 @@ public ObjectBase Original { get; }
 
  ObjectBase
 
-### Right
+### <a id="VM_Managed_SymmetricManager_Right"></a> Right
 
 Gets or sets the right object.
 
@@ -217,7 +217,7 @@ public ObjectBase Right { get; }
 
  ObjectBase
 
-### SymType
+### <a id="VM_Managed_SymmetricManager_SymType"></a> SymType
 
 Gets or sets the type of the symmetric.
 
@@ -229,7 +229,7 @@ public SymmetricType SymType { get; set; }
 
  SymmetricType
 
-### SymmetricBuilder
+### <a id="VM_Managed_SymmetricManager_SymmetricBuilder"></a> SymmetricBuilder
 
 Gets the symmetric builder.
 
@@ -241,7 +241,7 @@ public static SymmetricManager.SymmetricFactory<ISymmetricBuilder> SymmetricBuil
 
  [SymmetricManager](VM.Managed.SymmetricManager.md).[SymmetricFactory](VM.Managed.SymmetricManager.SymmetricFactory\-1.md)<ISymmetricBuilder\>
 
-### SymmetricUpdater
+### <a id="VM_Managed_SymmetricManager_SymmetricUpdater"></a> SymmetricUpdater
 
 Gets the symmetric updater.
 
@@ -255,7 +255,7 @@ public static SymmetricManager.SymmetricFactory<ISymmetricUpdater> SymmetricUpda
 
 ## Methods
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_SymmetricManager_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -275,7 +275,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_SymmetricManager_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -303,7 +303,7 @@ if set to <code>true</code> [b has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetSchema\(\)
+### <a id="VM_Managed_SymmetricManager_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <xref href="System.Xml.Serialization.XmlSchemaProviderAttribute" data-throw-if-not-resolved="false"></xref> to the class.
 
@@ -317,7 +317,7 @@ public XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### LinkRequestDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_SymmetricManager_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -335,7 +335,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_SymmetricManager_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -353,7 +353,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_SymmetricManager_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -367,7 +367,7 @@ public void ReadXml(XmlReader reader)
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
-### SetDataAfterAddManager\(Document\)
+### <a id="VM_Managed_SymmetricManager_SetDataAfterAddManager_VM_Managed_Document_"></a> SetDataAfterAddManager\(Document\)
 
 Sets the data after add manager.
 
@@ -379,7 +379,7 @@ public void SetDataAfterAddManager(Document doc)
 
 `doc` Document
 
-### SetSymType\(SymmetricType\)
+### <a id="VM_Managed_SymmetricManager_SetSymType_VM_Managed_SymmetricType_"></a> SetSymType\(SymmetricType\)
 
 Set symmetric type.
 
@@ -393,7 +393,7 @@ public void SetSymType(SymmetricType type)
 
 The symmetric type.
 
-### SetSymmetricDictionary\(string\)
+### <a id="VM_Managed_SymmetricManager_SetSymmetricDictionary_System_String_"></a> SetSymmetricDictionary\(string\)
 
 Sets the symmetric dictionary.
 
@@ -413,7 +413,7 @@ The file directory.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### SkipUpdateObjectImpl\(\)
+### <a id="VM_Managed_SymmetricManager_SkipUpdateObjectImpl"></a> SkipUpdateObjectImpl\(\)
 
 Skip the object that updated.
 
@@ -425,7 +425,7 @@ public override bool SkipUpdateObjectImpl()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UpdateAssembly\(Document, ObjectBase\)
+### <a id="VM_Managed_SymmetricManager_UpdateAssembly_VM_Managed_Document_VM_Managed_ObjectBase_"></a> UpdateAssembly\(Document, ObjectBase\)
 
 Updates the assembly.
 
@@ -443,7 +443,7 @@ The document.
 
 The target object.
 
-### UpdateSymmetric\(\)
+### <a id="VM_Managed_SymmetricManager_UpdateSymmetric"></a> UpdateSymmetric\(\)
 
 Updates the symmetric objects.
 
@@ -451,7 +451,7 @@ Updates the symmetric objects.
 public void UpdateSymmetric()
 ```
 
-### UpdateSymmetric\(ObjectBase\)
+### <a id="VM_Managed_SymmetricManager_UpdateSymmetric_VM_Managed_ObjectBase_"></a> UpdateSymmetric\(ObjectBase\)
 
 Updates the symmetric objects.
 <param name="objTarget">The target.</param>
@@ -464,7 +464,7 @@ public void UpdateSymmetric(ObjectBase objTarget)
 
 `objTarget` ObjectBase
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_SymmetricManager_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -477,5 +477,4 @@ public void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
-
 

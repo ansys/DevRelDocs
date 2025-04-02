@@ -1,4 +1,4 @@
-# Class PropertySpringFile
+#  Class PropertySpringFile
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -177,7 +177,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertySpringFile\(\)
+### <a id="VM_Managed_DAFUL_Car_Force_PropertySpringFile__ctor"></a> PropertySpringFile\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertySpringFile" data-throw-if-not-resolved="false"></xref> class.
 
@@ -187,7 +187,7 @@ public PropertySpringFile()
 
 ## Methods
 
-### SetModified\(\)
+### <a id="VM_Managed_DAFUL_Car_Force_PropertySpringFile_SetModified"></a> SetModified\(\)
 
 Called when object modified.
 
@@ -195,7 +195,7 @@ Called when object modified.
 protected override void SetModified()
 ```
 
-### SetModified\(ModifiedType\)
+### <a id="VM_Managed_DAFUL_Car_Force_PropertySpringFile_SetModified_VM_Managed_ModifiedResult_ModifiedType_"></a> SetModified\(ModifiedType\)
 
 Called when object modified.
 
@@ -208,5 +208,4 @@ protected override void SetModified(ModifiedResult.ModifiedType type)
 `type` ModifiedResult.ModifiedType
 
 The modifed type.
-
 

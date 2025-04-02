@@ -1,4 +1,4 @@
-# Class AttributeGearDurability
+#  Class AttributeGearDurability
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeGearDurability\(\)
+### <a id="VM_Models_Pre_Durability_AttributeGearDurability__ctor"></a> AttributeGearDurability\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Durability.AttributeGearDurability" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeGearDurability()
 
 ## Properties
 
-### FlankStress
+### <a id="VM_Models_Pre_Durability_AttributeGearDurability_FlankStress"></a> FlankStress
 
 Gets or sets the flank stress.
 
@@ -121,7 +121,7 @@ public ExpressionValueVariable FlankStress { get; set; }
 
  ExpressionValueVariable
 
-### RootStress
+### <a id="VM_Models_Pre_Durability_AttributeGearDurability_RootStress"></a> RootStress
 
 Gets or sets the root stress.
 
@@ -133,7 +133,7 @@ public ExpressionValueVariable RootStress { get; set; }
 
  ExpressionValueVariable
 
-### TypeOfContourStress
+### <a id="VM_Models_Pre_Durability_AttributeGearDurability_TypeOfContourStress"></a> TypeOfContourStress
 
 Gets or sets the contour stress type.
 
@@ -145,7 +145,7 @@ public DurabilityData.ContourStressType TypeOfContourStress { get; set; }
 
  [DurabilityData](VM.Models.Pre.Durability.DurabilityData.md).[ContourStressType](VM.Models.Pre.Durability.DurabilityData.ContourStressType.md)
 
-### UseFlankStress
+### <a id="VM_Models_Pre_Durability_AttributeGearDurability_UseFlankStress"></a> UseFlankStress
 
 Gets or sets the flank stress use state.
 
@@ -157,7 +157,7 @@ public bool UseFlankStress { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseRootStress
+### <a id="VM_Models_Pre_Durability_AttributeGearDurability_UseRootStress"></a> UseRootStress
 
 Gets or sets the root stress use state.
 
@@ -168,5 +168,4 @@ public bool UseRootStress { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

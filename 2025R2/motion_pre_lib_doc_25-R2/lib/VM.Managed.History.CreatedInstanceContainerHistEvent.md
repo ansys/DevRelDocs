@@ -1,4 +1,4 @@
-# Class CreatedInstanceContainerHistEvent
+#  Class CreatedInstanceContainerHistEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -43,7 +43,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### CreatedInstanceContainerHistEvent\(string\)
+### <a id="VM_Managed_History_CreatedInstanceContainerHistEvent__ctor_System_String_"></a> CreatedInstanceContainerHistEvent\(string\)
 
 ```csharp
 public CreatedInstanceContainerHistEvent(string strPathName)
@@ -52,5 +52,4 @@ public CreatedInstanceContainerHistEvent(string strPathName)
 #### Parameters
 
 `strPathName` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

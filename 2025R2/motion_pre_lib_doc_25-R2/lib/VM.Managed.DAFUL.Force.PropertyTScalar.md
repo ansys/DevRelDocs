@@ -1,4 +1,4 @@
-# Class PropertyTScalar
+#  Class PropertyTScalar
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyTScalar\(\)
+### <a id="VM_Managed_DAFUL_Force_PropertyTScalar__ctor"></a> PropertyTScalar\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.PropertyTScalar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public PropertyTScalar()
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Force_PropertyTScalar_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -191,7 +191,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### Function
+### <a id="VM_Managed_DAFUL_Force_PropertyTScalar_Function"></a> Function
 
 Gets or sets the function.
 
@@ -203,7 +203,7 @@ public ForceFunction Function { get; set; }
 
  [ForceFunction](VM.Managed.DAFUL.Force.ForceFunction.md)
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Force_PropertyTScalar_ReferenceType"></a> ReferenceType
 
 Gets the type of the reference.
 
@@ -217,7 +217,7 @@ public override string ReferenceType { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Force_PropertyTScalar_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -230,5 +230,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

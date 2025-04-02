@@ -1,4 +1,4 @@
-# Struct Mesh.MetaInfo
+#  Struct Mesh.MetaInfo
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +11,7 @@ public struct Mesh.MetaInfo
 
 ## Constructors
 
-### MetaInfo\(string, uint, string, Type\)
+### <a id="VM_Managed_DAFUL_FE_Mesh_MetaInfo__ctor_System_String_System_UInt32_System_String_System_Type_"></a> MetaInfo\(string, uint, string, Type\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Mesh.MetaInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ The type.
 
 ## Fields
 
-### m\_csi
+### <a id="VM_Managed_DAFUL_FE_Mesh_MetaInfo_m_csi"></a> m\_csi
 
 The ConstructorInfo.
 
@@ -51,7 +51,7 @@ public ConstructorInfo m_csi
 
  [ConstructorInfo](https://learn.microsoft.com/dotnet/api/system.reflection.constructorinfo)
 
-### m\_nVersion
+### <a id="VM_Managed_DAFUL_FE_Mesh_MetaInfo_m_nVersion"></a> m\_nVersion
 
 The version.
 
@@ -63,7 +63,7 @@ public uint m_nVersion
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### m\_strName
+### <a id="VM_Managed_DAFUL_FE_Mesh_MetaInfo_m_strName"></a> m\_strName
 
 The name.
 
@@ -75,7 +75,7 @@ public string m_strName
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### m\_strNewNamePrefix
+### <a id="VM_Managed_DAFUL_FE_Mesh_MetaInfo_m_strNewNamePrefix"></a> m\_strNewNamePrefix
 
 The name prefix.
 
@@ -86,5 +86,4 @@ public string m_strNewNamePrefix
 #### Field Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

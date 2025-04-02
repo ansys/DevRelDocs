@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Pre
+#  Namespace VM.Managed.DAFUL.Pre
 
 ### Classes
 
@@ -256,5 +256,4 @@ SubEntity view type
  [NewModel.WorkCreateType](VM.Managed.DAFUL.Pre.NewModel.WorkCreateType.md)
 
 work create type
-
 

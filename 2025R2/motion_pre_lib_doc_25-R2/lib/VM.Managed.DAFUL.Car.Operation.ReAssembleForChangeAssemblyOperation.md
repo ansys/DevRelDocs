@@ -1,4 +1,4 @@
-# Class ReAssembleForChangeAssemblyOperation
+#  Class ReAssembleForChangeAssemblyOperation
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ReAssembleForChangeAssemblyOperation\(SubSystemDocument, string, string\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ReAssembleForChangeAssemblyOperation__ctor_VM_Managed_DAFUL_SubSystemDocument_System_String_System_String_"></a> ReAssembleForChangeAssemblyOperation\(SubSystemDocument, string, string\)
 
 ```csharp
 public ReAssembleForChangeAssemblyOperation(SubSystemDocument doc, string strOldMeshFile, string strNewMeshFile)
@@ -91,7 +91,7 @@ public ReAssembleForChangeAssemblyOperation(SubSystemDocument doc, string strOld
 
 `strNewMeshFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ReAssembleForChangeAssemblyOperation\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ReAssembleForChangeAssemblyOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ReAssembleForChangeAssemblyOperation\(JournalParameter\)
 
 ```csharp
 public ReAssembleForChangeAssemblyOperation(JournalParameter jp)
@@ -103,7 +103,7 @@ public ReAssembleForChangeAssemblyOperation(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_ReAssembleForChangeAssemblyOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -117,7 +117,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ReAssembleForChangeAssemblyOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -125,7 +125,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ReAssembleForChangeAssemblyOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -134,5 +134,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

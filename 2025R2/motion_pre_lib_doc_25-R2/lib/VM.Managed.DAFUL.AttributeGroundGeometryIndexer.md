@@ -1,4 +1,4 @@
-# Class AttributeGroundGeometryIndexer
+#  Class AttributeGroundGeometryIndexer
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeGroundGeometryIndexer\(\)
+### <a id="VM_Managed_DAFUL_AttributeGroundGeometryIndexer__ctor"></a> AttributeGroundGeometryIndexer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeGroundGeometryIndexer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeGroundGeometryIndexer()
 
 ## Properties
 
-### GeometryIndex
+### <a id="VM_Managed_DAFUL_AttributeGroundGeometryIndexer_GeometryIndex"></a> GeometryIndex
 
 Gets or sets the index of the geometry.
 
@@ -120,5 +120,4 @@ public int GeometryIndex { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 

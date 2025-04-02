@@ -1,4 +1,4 @@
-# Class PTCV
+#  Class PTCV
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -250,7 +250,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PTCV\(\)
+### <a id="VM_Managed_DAFUL_Contact_PTCV__ctor"></a> PTCV\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PTCV" data-throw-if-not-resolved="false"></xref> class.
 
@@ -258,7 +258,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PTCV" dat
 public PTCV()
 ```
 
-### PTCV\(string\)
+### <a id="VM_Managed_DAFUL_Contact_PTCV__ctor_System_String_"></a> PTCV\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PTCV" data-throw-if-not-resolved="false"></xref> class.
 
@@ -274,7 +274,7 @@ Name of the [point to cam] contact.
 
 ## Properties
 
-### BaseGeometry
+### <a id="VM_Managed_DAFUL_Contact_PTCV_BaseGeometry"></a> BaseGeometry
 
 Gets or sets the geometry.
 
@@ -286,7 +286,7 @@ public ContactGeom2D BaseGeometry { get; set; }
 
  [ContactGeom2D](VM.Managed.DAFUL.Contact.ContactGeom2D.md)
 
-### CanSwitchImpl
+### <a id="VM_Managed_DAFUL_Contact_PTCV_CanSwitchImpl"></a> CanSwitchImpl
 
 ```csharp
 protected override bool CanSwitchImpl { get; }
@@ -296,7 +296,7 @@ protected override bool CanSwitchImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### PreventDuplicatedRBE
+### <a id="VM_Managed_DAFUL_Contact_PTCV_PreventDuplicatedRBE"></a> PreventDuplicatedRBE
 
 Gets a value whether this instance prevent duplicated RBE.
 
@@ -308,7 +308,7 @@ public override bool PreventDuplicatedRBE { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Contact_PTCV_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -320,7 +320,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
  IReportable.ReportEntityType
 
-### TargetType
+### <a id="VM_Managed_DAFUL_Contact_PTCV_TargetType"></a> TargetType
 
 Gets the type of the target.
 
@@ -332,7 +332,7 @@ public override string TargetType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Use
+### <a id="VM_Managed_DAFUL_Contact_PTCV_Use"></a> Use
 
 Gets a value indicating whether use this instance.
 
@@ -346,7 +346,7 @@ public override bool Use { get; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Contact_PTCV_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -360,7 +360,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_Contact_PTCV_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -380,7 +380,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Contact_PTCV_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -408,7 +408,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Contact_PTCV_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -421,5 +421,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The factor.
-
 

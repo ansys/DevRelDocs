@@ -1,4 +1,4 @@
-# Class DesignArrayMaker
+#  Class DesignArrayMaker
 
 Namespace: [VM.Managed.DAFUL.DOE](VM.Managed.DAFUL.DOE.md)  
 Assembly: VMDDOE.dll  
@@ -20,7 +20,7 @@ public class DesignArrayMaker
 
 ## Constructors
 
-### DesignArrayMaker\(\)
+### <a id="VM_Managed_DAFUL_DOE_DesignArrayMaker__ctor"></a> DesignArrayMaker\(\)
 
 ```csharp
 public DesignArrayMaker()
@@ -28,7 +28,7 @@ public DesignArrayMaker()
 
 ## Methods
 
-### GenerateDesignArray\(int, int, int, ref int, ref ArrayList\)
+### <a id="VM_Managed_DAFUL_DOE_DesignArrayMaker_GenerateDesignArray_System_Int32_System_Int32_System_Int32_System_Int32__System_Collections_ArrayList__"></a> GenerateDesignArray\(int, int, int, ref int, ref ArrayList\)
 
 ```csharp
 public static bool GenerateDesignArray(int iMethod, int nLevels, int nDPS, ref int nRuns, ref ArrayList ArraryTable)
@@ -49,5 +49,4 @@ public static bool GenerateDesignArray(int iMethod, int nLevels, int nDPS, ref i
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

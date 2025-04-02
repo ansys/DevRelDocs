@@ -1,4 +1,4 @@
-# Class AttributeMassProperty
+#  Class AttributeMassProperty
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeMassProperty\(\)
+### <a id="VM_Managed_DAFUL_AttributeMassProperty__ctor"></a> AttributeMassProperty\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeMassProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeMassProp
 public AttributeMassProperty()
 ```
 
-### AttributeMassProperty\(double, double, double, double, double, double, double, Vector\)
+### <a id="VM_Managed_DAFUL_AttributeMassProperty__ctor_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_VM_Managed_Vector_"></a> AttributeMassProperty\(double, double, double, double, double, double, double, Vector\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeMassProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -151,7 +151,7 @@ The mass center.
 
 ## Properties
 
-### Ixx
+### <a id="VM_Managed_DAFUL_AttributeMassProperty_Ixx"></a> Ixx
 
 Gets or sets the ixx of moment of inertia.
 
@@ -163,7 +163,7 @@ public double Ixx { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Ixy
+### <a id="VM_Managed_DAFUL_AttributeMassProperty_Ixy"></a> Ixy
 
 Gets or sets the ixy of moment of inertia.
 
@@ -175,7 +175,7 @@ public double Ixy { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Ixz
+### <a id="VM_Managed_DAFUL_AttributeMassProperty_Ixz"></a> Ixz
 
 Gets or sets the ixz of moment of inertia.
 
@@ -187,7 +187,7 @@ public double Ixz { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Iyy
+### <a id="VM_Managed_DAFUL_AttributeMassProperty_Iyy"></a> Iyy
 
 Gets or sets the iyy of moment of inertia.
 
@@ -199,7 +199,7 @@ public double Iyy { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Iyz
+### <a id="VM_Managed_DAFUL_AttributeMassProperty_Iyz"></a> Iyz
 
 Gets or sets the iyz of moment of inertia.
 
@@ -211,7 +211,7 @@ public double Iyz { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Izz
+### <a id="VM_Managed_DAFUL_AttributeMassProperty_Izz"></a> Izz
 
 Gets or sets the izz of moment of inertia.
 
@@ -223,7 +223,7 @@ public double Izz { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Mass
+### <a id="VM_Managed_DAFUL_AttributeMassProperty_Mass"></a> Mass
 
 Gets or sets the mass.
 
@@ -235,7 +235,7 @@ public double Mass { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MassCenter
+### <a id="VM_Managed_DAFUL_AttributeMassProperty_MassCenter"></a> MassCenter
 
 Gets or sets the mass center.
 
@@ -246,5 +246,4 @@ public Vector MassCenter { get; set; }
 #### Property Value
 
  Vector
-
 

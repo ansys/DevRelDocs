@@ -1,4 +1,4 @@
-# Enum ActiveTirePropertyFile.TirePropertyType
+#  Enum ActiveTirePropertyFile.TirePropertyType
 
 Namespace: [VM.Managed.DAFUL.Tire.Force](VM.Managed.DAFUL.Tire.Force.md)  
 Assembly: VMDTire.dll  
@@ -56,7 +56,6 @@ The Swift
 `UA = 2` 
 
 The UA
-
 
 
 

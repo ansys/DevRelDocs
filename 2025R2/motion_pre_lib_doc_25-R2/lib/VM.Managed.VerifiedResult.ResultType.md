@@ -1,4 +1,4 @@
-# Enum VerifiedResult.ResultType
+#  Enum VerifiedResult.ResultType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -26,7 +26,6 @@ None.
 `Report = 1` 
 
 Report.
-
 
 
 

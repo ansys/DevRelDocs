@@ -1,4 +1,4 @@
-# Interface ITransformBase
+#  Interface ITransformBase
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface ITransformBase
 
 ## Properties
 
-### Orientation
+### <a id="VM_ITransformBase_Orientation"></a> Orientation
 
 ```csharp
 OMatrix Orientation { get; }
@@ -25,7 +25,7 @@ OMatrix Orientation { get; }
 
  [OMatrix](VM.OMatrix.md)
 
-### Position
+### <a id="VM_ITransformBase_Position"></a> Position
 
 ```csharp
 Vector Position { get; }
@@ -34,5 +34,4 @@ Vector Position { get; }
 #### Property Value
 
  [Vector](VM.Vector.md)
-
 

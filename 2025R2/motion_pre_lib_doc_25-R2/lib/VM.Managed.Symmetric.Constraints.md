@@ -1,4 +1,4 @@
-# Namespace VM.Managed.Symmetric.Constraints
+#  Namespace VM.Managed.Symmetric.Constraints
 
 ### Classes
 
@@ -61,5 +61,4 @@
  [Translational](VM.Managed.Symmetric.Constraints.Translational.md)
 
  [Universal](VM.Managed.Symmetric.Constraints.Universal.md)
-
 

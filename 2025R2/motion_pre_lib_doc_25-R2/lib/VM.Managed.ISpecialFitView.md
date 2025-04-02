@@ -1,4 +1,4 @@
-# Interface ISpecialFitView
+#  Interface ISpecialFitView
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,13 +17,13 @@ public interface ISpecialFitView
 
 ## Methods
 
-### raise\_OnPostFit\(\)
+### <a id="VM_Managed_ISpecialFitView_raise_OnPostFit"></a> raise\_OnPostFit\(\)
 
 ```csharp
 void raise_OnPostFit()
 ```
 
-### OnPostFit
+### <a id="VM_Managed_ISpecialFitView_OnPostFit"></a> OnPostFit
 
 Occurs when [on PostFit].
 
@@ -34,5 +34,4 @@ event ISpecialFitView.PostFit OnPostFit
 #### Event Type
 
  [ISpecialFitView](VM.Managed.ISpecialFitView.md).[PostFit](VM.Managed.ISpecialFitView.PostFit.md)
-
 

@@ -1,4 +1,4 @@
-# Class FileDrivenConfiguration
+#  Class FileDrivenConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### FileDrivenConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_FileDrivenConfiguration__ctor"></a> FileDrivenConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FileDrivenConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FileDrivenCon
 public FileDrivenConfiguration()
 ```
 
-### FileDrivenConfiguration\(AnalysisFileDriven\)
+### <a id="VM_Managed_DAFUL_Car_FileDrivenConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisFileDriven_"></a> FileDrivenConfiguration\(AnalysisFileDriven\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FileDrivenConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_FileDrivenConfiguration_Analysis"></a> Analysis
 
 Gets or sets the analysis.
 
@@ -239,7 +239,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_FileDrivenConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -251,7 +251,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_FileDrivenConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -263,7 +263,7 @@ public override FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### FileDrivenParam
+### <a id="VM_Managed_DAFUL_Car_FileDrivenConfiguration_FileDrivenParam"></a> FileDrivenParam
 
 Gets or sets the file driven parameter.
 
@@ -274,5 +274,4 @@ public AnalysisFileDriven FileDrivenParam { get; set; }
 #### Property Value
 
  [AnalysisFileDriven](VM.Managed.DAFUL.Car.AnalysisFileDriven.md)
-
 

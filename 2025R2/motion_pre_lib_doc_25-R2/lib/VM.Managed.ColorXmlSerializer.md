@@ -1,4 +1,4 @@
-# Class ColorXmlSerializer
+#  Class ColorXmlSerializer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class ColorXmlSerializer
 
 ## Constructors
 
-### ColorXmlSerializer\(Color\)
+### <a id="VM_Managed_ColorXmlSerializer__ctor_System_Drawing_Color_"></a> ColorXmlSerializer\(Color\)
 
 Initializes a new instance of the <xref href="VM.Managed.ColorXmlSerializer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,7 +36,7 @@ public ColorXmlSerializer(Color color)
 
 The color.
 
-### ColorXmlSerializer\(\)
+### <a id="VM_Managed_ColorXmlSerializer__ctor"></a> ColorXmlSerializer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.ColorXmlSerializer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,7 +46,7 @@ public ColorXmlSerializer()
 
 ## Properties
 
-### Data
+### <a id="VM_Managed_ColorXmlSerializer_Data"></a> Data
 
 Gets or sets the color.
 
@@ -60,7 +60,7 @@ public Color Data { get; set; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_ColorXmlSerializer_GetSchema"></a> GetSchema\(\)
 
 ```csharp
 public virtual XmlSchema GetSchema()
@@ -70,7 +70,7 @@ public virtual XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_ColorXmlSerializer_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 ```csharp
 public virtual void ReadXml(XmlReader reader)
@@ -80,7 +80,7 @@ public virtual void ReadXml(XmlReader reader)
 
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_ColorXmlSerializer_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 ```csharp
 public virtual void WriteXml(XmlWriter writer)
@@ -92,7 +92,7 @@ public virtual void WriteXml(XmlWriter writer)
 
 ## Operators
 
-### implicit operator Color\(ColorXmlSerializer\)
+### <a id="VM_Managed_ColorXmlSerializer_op_Implicit_VM_Managed_ColorXmlSerializer__System_Drawing_Color"></a> implicit operator Color\(ColorXmlSerializer\)
 
 Cast operator.
 
@@ -110,7 +110,7 @@ The color xmlserializer.
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### implicit operator ColorXmlSerializer\(Color\)
+### <a id="VM_Managed_ColorXmlSerializer_op_Implicit_System_Drawing_Color__VM_Managed_ColorXmlSerializer"></a> implicit operator ColorXmlSerializer\(Color\)
 
 Cast operator.
 
@@ -127,5 +127,4 @@ The color.
 #### Returns
 
  [ColorXmlSerializer](VM.Managed.ColorXmlSerializer.md)
-
 

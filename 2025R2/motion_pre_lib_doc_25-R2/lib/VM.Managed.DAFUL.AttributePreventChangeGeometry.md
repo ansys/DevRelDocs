@@ -1,4 +1,4 @@
-# Class AttributePreventChangeGeometry
+#  Class AttributePreventChangeGeometry
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -99,10 +99,9 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributePreventChangeGeometry\(\)
+### <a id="VM_Managed_DAFUL_AttributePreventChangeGeometry__ctor"></a> AttributePreventChangeGeometry\(\)
 
 ```csharp
 public AttributePreventChangeGeometry()
 ```
-
 

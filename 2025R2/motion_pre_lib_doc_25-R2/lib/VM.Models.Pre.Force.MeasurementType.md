@@ -1,4 +1,4 @@
-# Enum MeasurementType
+#  Enum MeasurementType
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -20,7 +20,6 @@ Force
 `Position = 0` 
 
 Position
-
 
 
 

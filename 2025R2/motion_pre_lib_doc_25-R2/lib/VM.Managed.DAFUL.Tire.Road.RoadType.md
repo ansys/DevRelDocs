@@ -1,4 +1,4 @@
-# Enum Road.RoadType
+#  Enum Road.RoadType
 
 Namespace: [VM.Managed.DAFUL.Tire](VM.Managed.DAFUL.Tire.md)  
 Assembly: VMDTire.dll  
@@ -20,7 +20,6 @@ ContactSurface
 `Profile = 0` 
 
 Profile
-
 
 
 

@@ -1,4 +1,4 @@
-# Class CalculateSegmentStiffness.UniteParam
+#  Class CalculateSegmentStiffness.UniteParam
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector.Operation](VM.Managed.DAFUL.CPlacingConnector.Operation.md)  
 Assembly: VMOpCPlacingConnector.dll  
@@ -22,7 +22,7 @@ public class CalculateSegmentStiffness.UniteParam
 
 ## Constructors
 
-### UniteParam\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculateSegmentStiffness_UniteParam__ctor"></a> UniteParam\(\)
 
 ```csharp
 public UniteParam()
@@ -30,7 +30,7 @@ public UniteParam()
 
 ## Properties
 
-### TargetKey
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculateSegmentStiffness_UniteParam_TargetKey"></a> TargetKey
 
 Gets and sets the body.
 
@@ -42,7 +42,7 @@ public KeyInfo TargetKey { get; set; }
 
  KeyInfo
 
-### Tools
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Operation_CalculateSegmentStiffness_UniteParam_Tools"></a> Tools
 
 Gets and sets the target body.
 
@@ -53,5 +53,4 @@ public CalculateSegmentStiffness.MultiKey Tools { get; set; }
 #### Property Value
 
  [CalculateSegmentStiffness](VM.Managed.DAFUL.CPlacingConnector.Operation.CalculateSegmentStiffness.md).[MultiKey](VM.Managed.DAFUL.CPlacingConnector.Operation.CalculateSegmentStiffness.MultiKey.md)
-
 

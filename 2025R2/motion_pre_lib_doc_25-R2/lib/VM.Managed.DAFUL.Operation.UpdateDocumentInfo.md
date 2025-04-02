@@ -1,4 +1,4 @@
-# Class UpdateDocumentInfo
+#  Class UpdateDocumentInfo
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdateDocumentInfo\(string\)
+### <a id="VM_Managed_DAFUL_Operation_UpdateDocumentInfo__ctor_System_String_"></a> UpdateDocumentInfo\(string\)
 
 ```csharp
 public UpdateDocumentInfo(string strResult)
@@ -89,7 +89,7 @@ public UpdateDocumentInfo(string strResult)
 
 ## Properties
 
-### IsHistoryMerge
+### <a id="VM_Managed_DAFUL_Operation_UpdateDocumentInfo_IsHistoryMerge"></a> IsHistoryMerge
 
 ```csharp
 public override bool IsHistoryMerge { get; }
@@ -99,7 +99,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_UpdateDocumentInfo_Name"></a> Name
 
 Gets the operation name.
 
@@ -113,12 +113,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_UpdateDocumentInfo_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

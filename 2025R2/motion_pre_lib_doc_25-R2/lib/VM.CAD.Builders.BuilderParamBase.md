@@ -1,4 +1,4 @@
-# Class BuilderParamBase
+#  Class BuilderParamBase
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -29,7 +29,7 @@ public abstract class BuilderParamBase
 
 ## Constructors
 
-### BuilderParamBase\(\)
+### <a id="VM_CAD_Builders_BuilderParamBase__ctor"></a> BuilderParamBase\(\)
 
 Initializes a new instance of the <xref href="VM.CAD.Builders.BuilderParamBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ protected BuilderParamBase()
 
 ## Properties
 
-### Key
+### <a id="VM_CAD_Builders_BuilderParamBase_Key"></a> Key
 
 Gets or sets the key.
 
@@ -51,7 +51,7 @@ public KeyInfo Key { get; set; }
 
  [KeyInfo](VM.CAD.Builders.KeyInfo.md)
 
-### Transparency
+### <a id="VM_CAD_Builders_BuilderParamBase_Transparency"></a> Transparency
 
 Gets or sets the transparency information.
 
@@ -63,7 +63,7 @@ public TransparencyInfo Transparency { get; set; }
 
  [TransparencyInfo](VM.CAD.Builders.TransparencyInfo.md)
 
-### TypeName
+### <a id="VM_CAD_Builders_BuilderParamBase_TypeName"></a> TypeName
 
 Gets or sets the type name.
 
@@ -77,7 +77,7 @@ public string TypeName { get; set; }
 
 ## Methods
 
-### FinalizeParameter\(\)
+### <a id="VM_CAD_Builders_BuilderParamBase_FinalizeParameter"></a> FinalizeParameter\(\)
 
 Finalize additional parameter setup.
 
@@ -85,7 +85,7 @@ Finalize additional parameter setup.
 public virtual void FinalizeParameter()
 ```
 
-### SetTypeName\(\)
+### <a id="VM_CAD_Builders_BuilderParamBase_SetTypeName"></a> SetTypeName\(\)
 
 Set type name based on type of builder parameter.
 
@@ -93,7 +93,7 @@ Set type name based on type of builder parameter.
 protected void SetTypeName()
 ```
 
-### ToXmlString\(\)
+### <a id="VM_CAD_Builders_BuilderParamBase_ToXmlString"></a> ToXmlString\(\)
 
 Generates xml string of the builder parameter.
 
@@ -106,5 +106,4 @@ public virtual string ToXmlString()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The builder parameter xml string.
-
 

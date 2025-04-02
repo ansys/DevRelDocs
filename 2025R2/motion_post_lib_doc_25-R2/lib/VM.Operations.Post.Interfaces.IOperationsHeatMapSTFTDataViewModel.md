@@ -1,4 +1,4 @@
-# Interface IOperationsHeatMapSTFTDataViewModel
+#  Interface IOperationsHeatMapSTFTDataViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -110,7 +110,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### End
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel_End"></a> End
 
 Gets or sets the end time for using FFT (Fast Fourier Transform) on the target data series.
 
@@ -131,7 +131,7 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 This property allows you to set the end time for applying FFT on the target data series.
 In the UI, this property is represented under the "Source" category with the property name "End".
 
-### LegendColorType
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel_LegendColorType"></a> LegendColorType
 
 Gets or sets the color scheme of the legend.
 
@@ -154,7 +154,7 @@ The available color schemes are:
 <ul><li><xref href="VM.Models.Post.ColorSchemeType.NORMAL" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.NORMAL_INVERTED" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.BLACK_TO_WHITE" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.WHITE_TO_BLACK" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.GREEN_TO_BROWN" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.WHITE_TO_BROWN" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.METAL_CASTING" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.THERMAL_1" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.THERMAL_2" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ColorSchemeType.THERMAL_3" data-throw-if-not-resolved="false"></xref></li></ul>
 In the UI, this property is represented under the "Legend" category with the property name "Color".
 
-### Overlap
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel_Overlap"></a> Overlap
 
 Gets or sets the percentage value for setting overlapped intervals.
 
@@ -175,7 +175,7 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 This property allows you to set the percentage value for overlapped intervals.
 In the UI, this property is represented under the "Source" category with the property name "Overlap".
 
-### ReferenceValue
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel_ReferenceValue"></a> ReferenceValue
 
 Gets or sets the reference value for decibel scaling.
 
@@ -196,7 +196,7 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 This property allows you to set the reference value for decibel scaling. It is applicable only when the <xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.SelectedScaleType" data-throw-if-not-resolved="false"></xref> property is set to Decibel.
 In the UI, this property is represented under the "Source" category with the property name "RefVal".
 
-### SamplingFrequency
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel_SamplingFrequency"></a> SamplingFrequency
 
 Gets or sets the sampling frequency, which is the number of intervals for dividing the Y direction grids on a color map.
 
@@ -217,7 +217,7 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 This property allows you to set the number of intervals for dividing the Y direction grids on a color map.
 In the UI, this property is represented under the "Source" category with the property name "Sampling Frequency".
 
-### ScaleFactor
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel_ScaleFactor"></a> ScaleFactor
 
 Gets or sets the scale factor for transforming from the time domain to another domain.
 
@@ -238,7 +238,7 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 This property allows you to set the scale factor for transforming data from the time domain to another domain.
 In the UI, this property is represented under the "Source" category with the property name "Scale Factor".
 
-### SelectedPoints
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel_SelectedPoints"></a> SelectedPoints
 
 Gets or sets the number of data points for FFT (Fast Fourier Transform).
 
@@ -259,7 +259,7 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 This property allows you to set the number of data points to be used for the FFT.
 In the UI, this property is represented under the "Source" category with the property name "nFFT".
 
-### SelectedScaleType
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel_SelectedScaleType"></a> SelectedScaleType
 
 Gets or sets the scale type for the Short-Time Fourier Transform (STFT).
 
@@ -282,7 +282,7 @@ The supported types are:
 <ul><li><xref href="VM.Models.Post.STFTScaleType.Original" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.STFTScaleType.Decibel" data-throw-if-not-resolved="false"></xref></li></ul>
 In the UI, this property is represented under the "Source" category with the property name "Scale".
 
-### Start
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel_Start"></a> Start
 
 Gets or sets the start time for using FFT (Fast Fourier Transform) on the target data series.
 
@@ -303,7 +303,7 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 This property allows you to set the start time for applying FFT on the target data series.
 In the UI, this property is represented under the "Source" category with the property name "Start".
 
-### TimeSlice
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel_TimeSlice"></a> TimeSlice
 
 Gets or sets the number of intervals for dividing the X direction grids on a color map.
 
@@ -326,7 +326,7 @@ In the UI, this property is represented under the "Source" category with the pro
 
 ## Methods
 
-### ExportOrderTrackingCurve\(string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel_ExportOrderTrackingCurve_System_String_"></a> ExportOrderTrackingCurve\(string\)
 
 Exports a curve to order tracking by creating a new chart and adding the exported curve to it.
 

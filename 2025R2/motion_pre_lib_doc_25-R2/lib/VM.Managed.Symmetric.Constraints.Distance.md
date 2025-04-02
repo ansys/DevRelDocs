@@ -1,4 +1,4 @@
-# Class Distance
+#  Class Distance
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCP.dll  
@@ -36,7 +36,7 @@ Named<Distance\>.SymmetricManager
 
 ## Constructors
 
-### Distance\(\)
+### <a id="VM_Managed_Symmetric_Constraints_Distance__ctor"></a> Distance\(\)
 
 ```csharp
 public Distance()
@@ -44,7 +44,7 @@ public Distance()
 
 ## Methods
 
-### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_Constraints_Distance_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -78,7 +78,7 @@ Plane of symmetric.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### UpdateProperty\(PropertyDistance, PropertyDistance, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_Constraints_Distance_UpdateProperty_VM_Managed_DAFUL_Constraints_PropertyDistance_VM_Managed_DAFUL_Constraints_PropertyDistance_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateProperty\(PropertyDistance, PropertyDistance, SymmetricType, Plane, Document\)
 
 ```csharp
 public static bool UpdateProperty(PropertyDistance toolProperty, PropertyDistance targetProperty, SymmetricType sym_type, Plane sym_plane, Document doc)
@@ -99,5 +99,4 @@ public static bool UpdateProperty(PropertyDistance toolProperty, PropertyDistanc
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

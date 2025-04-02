@@ -1,4 +1,4 @@
-# Class VectorForceFunction
+#  Class VectorForceFunction
 
 Namespace: [VM.Managed.Symmetric.Force](VM.Managed.Symmetric.Force.md)  
 Assembly: VMSymFP.dll  
@@ -25,7 +25,7 @@ public class VectorForceFunction
 
 ## Constructors
 
-### VectorForceFunction\(\)
+### <a id="VM_Managed_Symmetric_Force_VectorForceFunction__ctor"></a> VectorForceFunction\(\)
 
 ```csharp
 public VectorForceFunction()
@@ -33,7 +33,7 @@ public VectorForceFunction()
 
 ## Methods
 
-### FindObject\(string, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_Force_VectorForceFunction_FindObject_System_String_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> FindObject\(string, SymmetricType, Plane, Document\)
 
 ```csharp
 protected object FindObject(string strToolName, SymmetricType sym_type, Plane sym_plane, Document doc)
@@ -53,7 +53,7 @@ protected object FindObject(string strToolName, SymmetricType sym_type, Plane sy
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### SetRefereceMarker\(IMarker, Document\)
+### <a id="VM_Managed_Symmetric_Force_VectorForceFunction_SetRefereceMarker_VM_Managed_IMarker_VM_Managed_Document_"></a> SetRefereceMarker\(IMarker, Document\)
 
 ```csharp
 protected IMarker SetRefereceMarker(IMarker tool, Document doc)
@@ -68,5 +68,4 @@ protected IMarker SetRefereceMarker(IMarker tool, Document doc)
 #### Returns
 
  IMarker
-
 

@@ -1,4 +1,4 @@
-# Class MultiObjectContainer1ToN
+#  Class MultiObjectContainer1ToN
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -106,7 +106,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MultiObjectContainer1ToN\(ICollection, ObjectBase\)
+### <a id="VM_Managed_DAFUL_MultiObjectContainer1ToN__ctor_System_Collections_ICollection_VM_Managed_ObjectBase_"></a> MultiObjectContainer1ToN\(ICollection, ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiObjectContainer1ToN" data-throw-if-not-resolved="false"></xref> class.
 
@@ -126,7 +126,7 @@ The base object.
 
 ## Properties
 
-### BaseObject
+### <a id="VM_Managed_DAFUL_MultiObjectContainer1ToN_BaseObject"></a> BaseObject
 
 Gets or sets the base object.
 
@@ -138,7 +138,7 @@ public ObjectBase BaseObject { get; set; }
 
  ObjectBase
 
-### Count
+### <a id="VM_Managed_DAFUL_MultiObjectContainer1ToN_Count"></a> Count
 
 Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -152,7 +152,7 @@ protected override int Count { get; }
 
 ## Methods
 
-### GetEnumerator\(\)
+### <a id="VM_Managed_DAFUL_MultiObjectContainer1ToN_GetEnumerator"></a> GetEnumerator\(\)
 
 Returns an enumerator that iterates through a collection.
 
@@ -166,7 +166,7 @@ protected override IEnumerator<MultiObjectTarget> GetEnumerator()
 
 An <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> object that can be used to iterate through the collection.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_MultiObjectContainer1ToN_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -183,5 +183,4 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

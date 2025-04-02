@@ -1,4 +1,4 @@
-# Interface IModalBody
+#  Interface IModalBody
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -22,7 +22,7 @@ IBody
 
 ## Methods
 
-### SetBodyAnalysisType\(BodyAnalysisType\)
+### <a id="VM_Managed_DAFUL_FE_IModalBody_SetBodyAnalysisType_VM_Managed_DAFUL_BodyAnalysisType_"></a> SetBodyAnalysisType\(BodyAnalysisType\)
 
 ```csharp
 void SetBodyAnalysisType(BodyAnalysisType type)
@@ -31,5 +31,4 @@ void SetBodyAnalysisType(BodyAnalysisType type)
 #### Parameters
 
 `type` BodyAnalysisType
-
 

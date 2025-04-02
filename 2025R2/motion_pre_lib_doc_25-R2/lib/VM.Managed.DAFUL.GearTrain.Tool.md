@@ -1,4 +1,4 @@
-# Class Tool
+#  Class Tool
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Tool\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Tool__ctor"></a> Tool\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Tool" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ public Tool()
 
 ## Properties
 
-### AddendumInput
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_AddendumInput"></a> AddendumInput
 
 Gets or sets the addendum Input type.
 
@@ -120,7 +120,7 @@ public Tool.AddendumInputType AddendumInput { get; set; }
 
  [Tool](VM.Managed.DAFUL.GearTrain.Tool.md).[AddendumInputType](VM.Managed.DAFUL.GearTrain.Tool.AddendumInputType.md)
 
-### DataBaseGearArray
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_DataBaseGearArray"></a> DataBaseGearArray
 
 Gets or sets the data base gear1.
 
@@ -132,7 +132,7 @@ public Tool.ToolDataType[] DataBaseGearArray { get; set; }
 
  [Tool](VM.Managed.DAFUL.GearTrain.Tool.md).[ToolDataType](VM.Managed.DAFUL.GearTrain.Tool.ToolDataType.md)\[\]
 
-### DedendumInput
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_DedendumInput"></a> DedendumInput
 
 Gets or sets the dedendum Input type.
 
@@ -144,7 +144,7 @@ public Tool.DedendumInputType DedendumInput { get; set; }
 
  [Tool](VM.Managed.DAFUL.GearTrain.Tool.md).[DedendumInputType](VM.Managed.DAFUL.GearTrain.Tool.DedendumInputType.md)
 
-### PairActualTipDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_PairActualTipDiameter"></a> PairActualTipDiameter
 
 Gets or sets the pair actual tip diameter.
 
@@ -156,7 +156,7 @@ public GearPairValue PairActualTipDiameter { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairActualWholeDepth
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_PairActualWholeDepth"></a> PairActualWholeDepth
 
 Gets or sets the pair actual root diameter.
 
@@ -168,7 +168,7 @@ public GearPairValue PairActualWholeDepth { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairAddendum
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_PairAddendum"></a> PairAddendum
 
 Gets or sets the pair addendum.
 
@@ -180,7 +180,7 @@ public GearPairValue PairAddendum { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairAddendumCoefficient
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_PairAddendumCoefficient"></a> PairAddendumCoefficient
 
 Gets or sets the pair addendum coefficient.
 
@@ -192,7 +192,7 @@ public GearPairValue PairAddendumCoefficient { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairDedendum
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_PairDedendum"></a> PairDedendum
 
 Gets or sets the pair dedendum.
 
@@ -204,7 +204,7 @@ public GearPairValue PairDedendum { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairDedendumCoefficient
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_PairDedendumCoefficient"></a> PairDedendumCoefficient
 
 Gets or sets the pair dedendum coefficient.
 
@@ -216,7 +216,7 @@ public GearPairValue PairDedendumCoefficient { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairModifyStartingPoint
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_PairModifyStartingPoint"></a> PairModifyStartingPoint
 
 Gets or sets the pair modify starting point.
 
@@ -228,7 +228,7 @@ public GearPairValue PairModifyStartingPoint { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairProfileShiftCoefficient
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_PairProfileShiftCoefficient"></a> PairProfileShiftCoefficient
 
 Gets or sets the pair profile shift coefficient.
 
@@ -240,7 +240,7 @@ public GearPairValue PairProfileShiftCoefficient { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairRootDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_PairRootDiameter"></a> PairRootDiameter
 
 Gets or sets the pair root diameter.
 
@@ -252,7 +252,7 @@ public GearPairValue PairRootDiameter { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairRootRadiusCoefficient
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_PairRootRadiusCoefficient"></a> PairRootRadiusCoefficient
 
 Gets or sets the pair root radius coefficient.
 
@@ -264,7 +264,7 @@ public GearPairValue PairRootRadiusCoefficient { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairToolTipRadius
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_PairToolTipRadius"></a> PairToolTipRadius
 
 Gets or sets the pair tool tip radius.
 
@@ -276,7 +276,7 @@ public GearPairValue PairToolTipRadius { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### RootRadiusInput
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_RootRadiusInput"></a> RootRadiusInput
 
 Gets or sets the root radius Input type.
 
@@ -290,7 +290,7 @@ public Tool.RootRadiusInputType RootRadiusInput { get; set; }
 
 ## Methods
 
-### InitChild\(int\)
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_InitChild_System_Int32_"></a> InitChild\(int\)
 
 Initializes the child.
 
@@ -304,7 +304,7 @@ public override void InitChild(int nNum)
 
 The n number.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_Tool_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -317,5 +317,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

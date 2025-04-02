@@ -1,4 +1,4 @@
-# Class DocumentAnalysis
+#  Class DocumentAnalysis
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -478,7 +478,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DocumentAnalysis\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis__ctor_System_UIntPtr_"></a> DocumentAnalysis\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.DocumentAnalysis" data-throw-if-not-resolved="false"></xref> class.
 
@@ -494,7 +494,7 @@ The document handle.
 
 ## Fields
 
-### m\_bSkipGravity
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_m_bSkipGravity"></a> m\_bSkipGravity
 
 The flag to skip gravity
 
@@ -508,7 +508,7 @@ protected bool m_bSkipGravity
 
 ## Properties
 
-### ActiveSimulationConfiguration
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_ActiveSimulationConfiguration"></a> ActiveSimulationConfiguration
 
 Gets or sets the active simulation configuration.
 
@@ -520,7 +520,7 @@ public Configuration ActiveSimulationConfiguration { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md)
 
-### Configurations
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_Configurations"></a> Configurations
 
 Gets or sets the configurations.
 
@@ -532,7 +532,7 @@ public Configuration[] Configurations { get; set; }
 
  [Configuration](VM.Managed.Simulation.Configuration.md)\[\]
 
-### CountOfMFLinearStaticSimulationConfigurations
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_CountOfMFLinearStaticSimulationConfigurations"></a> CountOfMFLinearStaticSimulationConfigurations
 
 Gets the count of mf linear static simulation configurations.
 
@@ -544,7 +544,7 @@ public int CountOfMFLinearStaticSimulationConfigurations { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Gravity
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_Gravity"></a> Gravity
 
 Gets or sets the gravity.
 
@@ -556,7 +556,7 @@ public Gravity Gravity { get; set; }
 
  Gravity
 
-### IconSize
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_IconSize"></a> IconSize
 
 Sets the size of the icon.
 
@@ -568,7 +568,7 @@ public override double IconSize { set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IncrementTime
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_IncrementTime"></a> IncrementTime
 
 Gets or sets the increment time.
 
@@ -580,7 +580,7 @@ public double IncrementTime { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SimulationScenarioTypeName
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_SimulationScenarioTypeName"></a> SimulationScenarioTypeName
 
 Gets the name of the simulation scenario type.
 
@@ -592,7 +592,7 @@ public virtual string SimulationScenarioTypeName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UseIncrementTime
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_UseIncrementTime"></a> UseIncrementTime
 
 Gets or sets the use increment time.
 
@@ -604,7 +604,7 @@ public bool UseIncrementTime { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseToolkitSubsystem
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_UseToolkitSubsystem"></a> UseToolkitSubsystem
 
 Determines whether this used toolkit subsystem.
 
@@ -618,7 +618,7 @@ public virtual bool UseToolkitSubsystem { get; }
 
 ## Methods
 
-### AddConfiguration\(Configuration\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_AddConfiguration_VM_Managed_Simulation_Configuration_"></a> AddConfiguration\(Configuration\)
 
 Adds the configuration.
 
@@ -636,7 +636,7 @@ The configuration.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CheckBeforeSave\(\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_CheckBeforeSave"></a> CheckBeforeSave\(\)
 
 Check before save.
 
@@ -644,7 +644,7 @@ Check before save.
 protected override void CheckBeforeSave()
 ```
 
-### ClearConfiguration\(\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_ClearConfiguration"></a> ClearConfiguration\(\)
 
 Clears the configuration.
 
@@ -652,7 +652,7 @@ Clears the configuration.
 protected void ClearConfiguration()
 ```
 
-### ClearDocument\(\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_ClearDocument"></a> ClearDocument\(\)
 
 Clears the document.
 
@@ -660,7 +660,7 @@ Clears the document.
 protected override void ClearDocument()
 ```
 
-### GetAllArgumentList\(\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_GetAllArgumentList"></a> GetAllArgumentList\(\)
 
 Get all argument list
 
@@ -674,7 +674,7 @@ public override List<KeyValuePair<string, string>> GetAllArgumentList()
 
 The argument list
 
-### GetBodyAndTransformation\(ref List<ExportBodyInfo\>\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_GetBodyAndTransformation_System_Collections_Generic_List_VM_Managed_Document3D_ExportBodyInfo___"></a> GetBodyAndTransformation\(ref List<ExportBodyInfo\>\)
 
 Get body and transformation information.
 
@@ -688,7 +688,7 @@ public override void GetBodyAndTransformation(ref List<Document3D.ExportBodyInfo
 
 The body information.
 
-### GetData\(XmlNode\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_GetData_System_Xml_XmlNode_"></a> GetData\(XmlNode\)
 
 Gets the analysis document information data.
 
@@ -702,7 +702,7 @@ public override void GetData(XmlNode writer)
 
 The writer.
 
-### GetDefaultMaterial\(\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_GetDefaultMaterial"></a> GetDefaultMaterial\(\)
 
 Gets the default material.
 
@@ -714,7 +714,7 @@ public IMaterial GetDefaultMaterial()
 
  IMaterial
 
-### GetDefaultMaterial\(bool\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_GetDefaultMaterial_System_Boolean_"></a> GetDefaultMaterial\(bool\)
 
 Gets the default material.
 
@@ -732,7 +732,7 @@ The [add to document] flag.
 
  IMaterial
 
-### GetEntityRequest\(\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_GetEntityRequest"></a> GetEntityRequest\(\)
 
 Gets entity request
 
@@ -744,7 +744,7 @@ public Dictionary<IObjectBase, bool> GetEntityRequest()
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<IObjectBase, [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
-### GetSimulationConfigurationType\(\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_GetSimulationConfigurationType"></a> GetSimulationConfigurationType\(\)
 
 Gets the type of the simulation configuration.
 
@@ -758,7 +758,7 @@ public virtual string GetSimulationConfigurationType()
 
 The simulation configuration type.
 
-### GetStateFromActiveSimulationScenarioMap\(Scenario\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_GetStateFromActiveSimulationScenarioMap_VM_Managed_Simulation_Scenario_"></a> GetStateFromActiveSimulationScenarioMap\(Scenario\)
 
 Gets the state from active simulation scenario map.
 
@@ -776,7 +776,7 @@ The ss.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### InitializeSimParam\(\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_InitializeSimParam"></a> InitializeSimParam\(\)
 
 Initializes the simulation parameter.
 
@@ -784,7 +784,7 @@ Initializes the simulation parameter.
 protected abstract void InitializeSimParam()
 ```
 
-### IsContainSimulationScenarioInMap\(Scenario\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_IsContainSimulationScenarioInMap_VM_Managed_Simulation_Scenario_"></a> IsContainSimulationScenarioInMap\(Scenario\)
 
 Determines whether [is contain simulation scenario in map] [the specified ss].
 
@@ -802,7 +802,7 @@ The ss.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsEnabledImpl\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_IsEnabledImpl_VM_Managed_ObjectBase_"></a> IsEnabledImpl\(ObjectBase\)
 
 Determines whether is enabled [the specified object] [implementation].
 
@@ -822,7 +822,7 @@ The object.
 
 <code>true</code> if is enabled [the specified object]; otherwise, <code>false</code>.
 
-### IsExistDefaultMaterial\(\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_IsExistDefaultMaterial"></a> IsExistDefaultMaterial\(\)
 
 Determines whether [is exist default material].
 
@@ -834,7 +834,7 @@ public bool IsExistDefaultMaterial()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -852,7 +852,7 @@ The linked object.
 
 The update event information.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -866,7 +866,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnPostMakeDocument\(DocCreateInfo\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_OnPostMakeDocument_VM_Managed_DocCreateInfo_"></a> OnPostMakeDocument\(DocCreateInfo\)
 
 Called when [post make document].
 
@@ -880,7 +880,7 @@ protected override sealed void OnPostMakeDocument(DocCreateInfo info)
 
 The [document create information].
 
-### OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_OnPostMakeDocumentImpl_VM_Managed_DocCreateAnalysisInfo_"></a> OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
 
 Called when [post make document] [implementation].
 
@@ -894,7 +894,7 @@ protected virtual void OnPostMakeDocumentImpl(DocCreateAnalysisInfo info)
 
 The [analysis document create information].
 
-### PostCloseDocument\(\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_PostCloseDocument"></a> PostCloseDocument\(\)
 
 Called after close document
 
@@ -902,7 +902,7 @@ Called after close document
 public override void PostCloseDocument()
 ```
 
-### PostOpenDocument\(\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_PostOpenDocument"></a> PostOpenDocument\(\)
 
 Posts the open document.
 
@@ -910,7 +910,7 @@ Posts the open document.
 public override void PostOpenDocument()
 ```
 
-### PostOpenDocumentAfterErrCheckEvent\(\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_PostOpenDocumentAfterErrCheckEvent"></a> PostOpenDocumentAfterErrCheckEvent\(\)
 
 called after open document
 
@@ -918,7 +918,7 @@ called after open document
 public override void PostOpenDocumentAfterErrCheckEvent()
 ```
 
-### PostOpenDocumentAfterHookEvent\(\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_PostOpenDocumentAfterHookEvent"></a> PostOpenDocumentAfterHookEvent\(\)
 
 Call when post [open document] after hook event.
 
@@ -926,7 +926,7 @@ Call when post [open document] after hook event.
 public override void PostOpenDocumentAfterHookEvent()
 ```
 
-### ReAssemblyImpl\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_ReAssemblyImpl_VM_Managed_ObjectBase_"></a> ReAssemblyImpl\(ObjectBase\)
 
 Reassembly [implementation].
 
@@ -946,7 +946,7 @@ The object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### RegisterAddon\(\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_RegisterAddon"></a> RegisterAddon\(\)
 
 Register addon
 
@@ -954,7 +954,7 @@ Register addon
 protected override void RegisterAddon()
 ```
 
-### RemoveConfiguration\(Configuration\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_RemoveConfiguration_VM_Managed_Simulation_Configuration_"></a> RemoveConfiguration\(Configuration\)
 
 Removes the configuration.
 
@@ -972,7 +972,7 @@ The configuration.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetData\(XmlNode\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_SetData_System_Xml_XmlNode_"></a> SetData\(XmlNode\)
 
 Sets the analysis document information data.
 
@@ -986,7 +986,7 @@ public override void SetData(XmlNode reader)
 
 The reader.
 
-### SetEnableImpl\(ObjectBase, bool\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_SetEnableImpl_VM_Managed_ObjectBase_System_Boolean_"></a> SetEnableImpl\(ObjectBase, bool\)
 
 Sets the enable [implementation].
 
@@ -1004,7 +1004,7 @@ The object.
 
 if set to <code>true</code> enable.
 
-### SetStateFromActiveSimulationScenarioMap\(Scenario, bool\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_SetStateFromActiveSimulationScenarioMap_VM_Managed_Simulation_Scenario_System_Boolean_"></a> SetStateFromActiveSimulationScenarioMap\(Scenario, bool\)
 
 Sets the state from active simulation scenario map.
 
@@ -1020,7 +1020,7 @@ The ss.
 
 `bActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SkipDelete\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_SkipDelete_VM_Managed_ObjectBase_"></a> SkipDelete\(ObjectBase\)
 
 Skips the delete.
 
@@ -1038,7 +1038,7 @@ The obj.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SkipObjectInWriting\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_DocumentAnalysis_SkipObjectInWriting_VM_Managed_ObjectBase_"></a> SkipObjectInWriting\(ObjectBase\)
 
 Skips the object in writing.
 
@@ -1055,5 +1055,4 @@ The obj.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

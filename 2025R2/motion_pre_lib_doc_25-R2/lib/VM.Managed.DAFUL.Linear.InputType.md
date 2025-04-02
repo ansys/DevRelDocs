@@ -1,4 +1,4 @@
-# Enum InputType
+#  Enum InputType
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  
@@ -56,7 +56,6 @@ Moment
 `Velocity = 3` 
 
 Velocity
-
 
 
 

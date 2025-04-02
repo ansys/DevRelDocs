@@ -1,4 +1,4 @@
-# Interface IHasBody
+#  Interface IHasBody
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IHasBody
 
 ## Properties
 
-### Body
+### <a id="VM_Managed_IHasBody_Body"></a> Body
 
 Gets the body.
 
@@ -28,5 +28,4 @@ IBody Body { get; }
 #### Property Value
 
  [IBody](VM.Managed.IBody.md)
-
 

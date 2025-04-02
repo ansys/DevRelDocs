@@ -1,4 +1,4 @@
-# Class AssemblyManagerAPI
+#  Class AssemblyManagerAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -22,7 +22,7 @@ public static class AssemblyManagerAPI
 
 ## Methods
 
-### ApplyAssemblyBearing\(GearTrainDocument, Obj, IEnumerable<BearingInformationInAssemblyManager\>, IEnumerable<CycloidPinInformationInAssemblyManager\>\)
+### <a id="VM_API_Pre_GearTrain_AssemblyManagerAPI_ApplyAssemblyBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_GearTrain_BearingInformationInAssemblyManager__System_Collections_Generic_IEnumerable_VM_API_Pre_GearTrain_CycloidPinInformationInAssemblyManager__"></a> ApplyAssemblyBearing\(GearTrainDocument, Obj, IEnumerable<BearingInformationInAssemblyManager\>, IEnumerable<CycloidPinInformationInAssemblyManager\>\)
 
 Apply assembly bearing.
 
@@ -61,7 +61,7 @@ Will be thrown if 'document' or 'referenceBody' arguments are empty.
 
 Will be thrown if type of 'referenceBody' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### ApplyAssemblyIOShaft\(GearTrainDocument, Obj, Vector, IEnumerable<ShaftInformationInAssemblyManager\>, IEnumerable<ShaftInformationInAssemblyManager\>\)
+### <a id="VM_API_Pre_GearTrain_AssemblyManagerAPI_ApplyAssemblyIOShaft_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_VM_Vector_System_Collections_Generic_IEnumerable_VM_API_Pre_GearTrain_ShaftInformationInAssemblyManager__System_Collections_Generic_IEnumerable_VM_API_Pre_GearTrain_ShaftInformationInAssemblyManager__"></a> ApplyAssemblyIOShaft\(GearTrainDocument, Obj, Vector, IEnumerable<ShaftInformationInAssemblyManager\>, IEnumerable<ShaftInformationInAssemblyManager\>\)
 
 Apply assembly IO shaft.
 
@@ -117,7 +117,7 @@ Will be thrown if type of 'inputInfo' is not (<xref href="VM.Managed.DAFUL.GearT
 
 Will be thrown if type of 'outputInfo' is not (<xref href="VM.Managed.DAFUL.GearTrain.IPowerLoad" data-throw-if-not-resolved="false"></xref>, <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>).
 
-### ApplyPowerFlow\(GearTrainDocument, PowerFlowParameters?\)
+### <a id="VM_API_Pre_GearTrain_AssemblyManagerAPI_ApplyPowerFlow_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_Nullable_VM_API_Pre_GearTrain_PowerFlowParameters__"></a> ApplyPowerFlow\(GearTrainDocument, PowerFlowParameters?\)
 
 Apply power flow.
 
@@ -142,7 +142,7 @@ The power flow parameters. If it is not given, default values will be used.
 
 Will be thrown if 'document' or 'powerFlow' arguments are empty.
 
-### ApplyRequest\(GearTrainDocument, IEnumerable<bool\>, RequestParameters?\)
+### <a id="VM_API_Pre_GearTrain_AssemblyManagerAPI_ApplyRequest_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_Collections_Generic_IEnumerable_System_Boolean__System_Nullable_VM_API_Pre_GearTrain_RequestParameters__"></a> ApplyRequest\(GearTrainDocument, IEnumerable<bool\>, RequestParameters?\)
 
 Apply request.
 
@@ -171,7 +171,7 @@ The request parameters. If it is not given, default values will be used.
 
 Will be thrown if 'document' or 'request' arguments are empty.
 
-### SimulateInAssemblyManager\(GearTrainDocument\)
+### <a id="VM_API_Pre_GearTrain_AssemblyManagerAPI_SimulateInAssemblyManager_VM_Managed_DAFUL_GearTrain_GearTrainDocument_"></a> SimulateInAssemblyManager\(GearTrainDocument\)
 
 Simulate in assembly manager.
 
@@ -186,7 +186,7 @@ public static void SimulateInAssemblyManager(this GearTrainDocument doc)
 
 The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> for simulate. If null, the active document will be used.
 
-### UpdateAssemblyManager\(GearTrainDocument\)
+### <a id="VM_API_Pre_GearTrain_AssemblyManagerAPI_UpdateAssemblyManager_VM_Managed_DAFUL_GearTrain_GearTrainDocument_"></a> UpdateAssemblyManager\(GearTrainDocument\)
 
 Update assembly manager.
 
@@ -200,5 +200,4 @@ public static void UpdateAssemblyManager(this GearTrainDocument doc)
 `doc` GearTrainDocument
 
 The <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> for assembly manager update. If null, the active document will be used.
-
 

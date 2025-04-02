@@ -1,4 +1,4 @@
-# Interface IHasResult
+#  Interface IHasResult
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  
@@ -17,7 +17,7 @@ public interface IHasResult
 
 ## Methods
 
-### AddLargeAmountResult\(int\)
+### <a id="VM_Managed_DAFUL_IHasResult_AddLargeAmountResult_System_Int32_"></a> AddLargeAmountResult\(int\)
 
 Add large amount result information.
 
@@ -31,12 +31,11 @@ void AddLargeAmountResult(int nCount)
 
 The amount count.
 
-### ClearLargeAmountResult\(\)
+### <a id="VM_Managed_DAFUL_IHasResult_ClearLargeAmountResult"></a> ClearLargeAmountResult\(\)
 
 Clear large amount result information.
 
 ```csharp
 void ClearLargeAmountResult()
 ```
-
 

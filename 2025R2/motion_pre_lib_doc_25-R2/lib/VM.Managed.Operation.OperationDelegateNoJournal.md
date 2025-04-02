@@ -1,4 +1,4 @@
-# Class OperationDelegateNoJournal
+#  Class OperationDelegateNoJournal
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -81,7 +81,7 @@ IOperation
 
 ## Constructors
 
-### OperationDelegateNoJournal\(OpCore1, object, View\)
+### <a id="VM_Managed_Operation_OperationDelegateNoJournal__ctor_VM_Managed_Operation_OperationDelegate_OpCore1_System_Object_VM_Managed_View_"></a> OperationDelegateNoJournal\(OpCore1, object, View\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationDelegateNoJournal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -103,7 +103,7 @@ The operation parameter.
 
 The operation parameter that is to represent the view.
 
-### OperationDelegateNoJournal\(OpCore1, object, Document\)
+### <a id="VM_Managed_Operation_OperationDelegateNoJournal__ctor_VM_Managed_Operation_OperationDelegate_OpCore1_System_Object_VM_Managed_Document_"></a> OperationDelegateNoJournal\(OpCore1, object, Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationDelegateNoJournal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ The operation parameter.
 
 The operation parameter that is to represent the document.
 
-### OperationDelegateNoJournal\(OpCore1, object\)
+### <a id="VM_Managed_Operation_OperationDelegateNoJournal__ctor_VM_Managed_Operation_OperationDelegate_OpCore1_System_Object_"></a> OperationDelegateNoJournal\(OpCore1, object\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationDelegateNoJournal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -143,7 +143,7 @@ The operation.
 
 The operation parameter.
 
-### OperationDelegateNoJournal\(OpCore, View\)
+### <a id="VM_Managed_Operation_OperationDelegateNoJournal__ctor_VM_Managed_Operation_OperationDelegate_OpCore_VM_Managed_View_"></a> OperationDelegateNoJournal\(OpCore, View\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationDelegateNoJournal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -161,7 +161,7 @@ The operation.
 
 The operation parameter that is to represent the view.
 
-### OperationDelegateNoJournal\(OpCore, Document\)
+### <a id="VM_Managed_Operation_OperationDelegateNoJournal__ctor_VM_Managed_Operation_OperationDelegate_OpCore_VM_Managed_Document_"></a> OperationDelegateNoJournal\(OpCore, Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationDelegateNoJournal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ The operation.
 
 The operation parameter that is to represent the document.
 
-### OperationDelegateNoJournal\(OpCore, bool\)
+### <a id="VM_Managed_Operation_OperationDelegateNoJournal__ctor_VM_Managed_Operation_OperationDelegate_OpCore_System_Boolean_"></a> OperationDelegateNoJournal\(OpCore, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationDelegateNoJournal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -197,7 +197,7 @@ The operation.
 
 The history merge flag.
 
-### OperationDelegateNoJournal\(OpCore\)
+### <a id="VM_Managed_Operation_OperationDelegateNoJournal__ctor_VM_Managed_Operation_OperationDelegate_OpCore_"></a> OperationDelegateNoJournal\(OpCore\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationDelegateNoJournal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -210,5 +210,4 @@ public OperationDelegateNoJournal(OperationDelegate.OpCore op)
 `op` [OperationDelegate](VM.Managed.Operation.OperationDelegate.md).[OpCore](VM.Managed.Operation.OperationDelegate.OpCore.md)
 
 The operation.
-
 

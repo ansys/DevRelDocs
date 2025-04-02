@@ -1,4 +1,4 @@
-# Class AnalysisFourPostVibration
+#  Class AnalysisFourPostVibration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -39,7 +39,7 @@ AnalysisBase.IsSim
 
 ## Constructors
 
-### AnalysisFourPostVibration\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostVibration__ctor"></a> AnalysisFourPostVibration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSteadySingle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -47,7 +47,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisStead
 public AnalysisFourPostVibration()
 ```
 
-### AnalysisFourPostVibration\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostVibration__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisFourPostVibration\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSteadySingle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -63,7 +63,7 @@ The link container.
 
 ## Properties
 
-### VirationInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostVibration_VirationInfo"></a> VirationInfo
 
 Gets or sets the single.
 
@@ -74,5 +74,4 @@ public AnalysisFourPostVibrationInfo VirationInfo { get; set; }
 #### Property Value
 
  [AnalysisFourPostVibrationInfo](VM.Managed.DAFUL.Car.AnalysisFourPostVibrationInfo.md)
-
 

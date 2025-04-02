@@ -1,4 +1,4 @@
-# Class LinkAttribute
+#  Class LinkAttribute
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.Aspects.dll  
@@ -42,13 +42,13 @@ ILinkAttribute
 
 ## Constructors
 
-### LinkAttribute\(\)
+### <a id="VM_Models_Pre_LinkAttribute__ctor"></a> LinkAttribute\(\)
 
 ```csharp
 public LinkAttribute()
 ```
 
-### LinkAttribute\(bool\)
+### <a id="VM_Models_Pre_LinkAttribute__ctor_System_Boolean_"></a> LinkAttribute\(bool\)
 
 ```csharp
 public LinkAttribute(bool isChild = false)
@@ -60,7 +60,7 @@ public LinkAttribute(bool isChild = false)
 
 ## Fields
 
-### \_\_a$\_instance
+### <a id="VM_Models_Pre_LinkAttribute___a__instance"></a> \_\_a$\_instance
 
 ```csharp
 public static readonly LinkAttribute __a$_instance
@@ -72,7 +72,7 @@ public static readonly LinkAttribute __a$_instance
 
 ## Properties
 
-### IsChild
+### <a id="VM_Models_Pre_LinkAttribute_IsChild"></a> IsChild
 
 Indicates this property is child or not.
 
@@ -86,7 +86,7 @@ public bool? IsChild { get; }
 
 ## Methods
 
-### AfterSetter\(object, Type, string, object\[\], Attribute\[\]\)
+### <a id="VM_Models_Pre_LinkAttribute_AfterSetter_System_Object_System_Type_System_String_System_Object___System_Attribute___"></a> AfterSetter\(object, Type, string, object\[\], Attribute\[\]\)
 
 ```csharp
 [Advice(Kind.After, Targets = Target.AnyAccess|Target.Setter)]
@@ -105,7 +105,7 @@ public virtual void AfterSetter(object owner, Type declaringType, string propert
 
 `triggers` [Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\[\]
 
-### BeforeSetter\(object, Type, string, Attribute\[\]\)
+### <a id="VM_Models_Pre_LinkAttribute_BeforeSetter_System_Object_System_Type_System_String_System_Attribute___"></a> BeforeSetter\(object, Type, string, Attribute\[\]\)
 
 ```csharp
 [Advice(Kind.Before, Targets = Target.AnyAccess|Target.Setter)]
@@ -122,7 +122,7 @@ public virtual void BeforeSetter(object owner, Type declaringType, string proper
 
 `triggers` [Attribute](https://learn.microsoft.com/dotnet/api/system.attribute)\[\]
 
-### InitializeProperty\(object, IEnumerable<PropertyInfo\>\)
+### <a id="VM_Models_Pre_LinkAttribute_InitializeProperty_System_Object_System_Collections_Generic_IEnumerable_System_Reflection_PropertyInfo__"></a> InitializeProperty\(object, IEnumerable<PropertyInfo\>\)
 
 ```csharp
 protected override void InitializeProperty(object owner, IEnumerable<PropertyInfo> propertyInfos)
@@ -133,5 +133,4 @@ protected override void InitializeProperty(object owner, IEnumerable<PropertyInf
 `owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `propertyInfos` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[PropertyInfo](https://learn.microsoft.com/dotnet/api/system.reflection.propertyinfo)\>
-
 

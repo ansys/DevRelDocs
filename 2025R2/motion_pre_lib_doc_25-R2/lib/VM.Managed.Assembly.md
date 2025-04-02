@@ -1,4 +1,4 @@
-# Class Assembly
+#  Class Assembly
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -150,7 +150,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Assembly\(Document3D\)
+### <a id="VM_Managed_Assembly__ctor_VM_Managed_Document3D_"></a> Assembly\(Document3D\)
 
 Initializes a new instance of the <xref href="VM.Managed.Assembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -164,7 +164,7 @@ public Assembly(Document3D doc)
 
 The document.
 
-### Assembly\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_Assembly__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> Assembly\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.Assembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -184,7 +184,7 @@ The context.
 
 ## Properties
 
-### ClearChildInfoBeforeDeserialize
+### <a id="VM_Managed_Assembly_ClearChildInfoBeforeDeserialize"></a> ClearChildInfoBeforeDeserialize
 
 Gets a value indicating whether [clear child info before deserialize].
 
@@ -196,7 +196,7 @@ protected override bool ClearChildInfoBeforeDeserialize { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### OriginalDocument
+### <a id="VM_Managed_Assembly_OriginalDocument"></a> OriginalDocument
 
 Gets the original document.
 
@@ -210,7 +210,7 @@ public Document3D OriginalDocument { get; }
 
 ## Methods
 
-### AddReplacedFile\(string, string\)
+### <a id="VM_Managed_Assembly_AddReplacedFile_System_String_System_String_"></a> AddReplacedFile\(string, string\)
 
 ```csharp
 public static void AddReplacedFile(string strSourceFile, string strReplacingFile)
@@ -222,7 +222,7 @@ public static void AddReplacedFile(string strSourceFile, string strReplacingFile
 
 `strReplacingFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Instantiate\(string\)
+### <a id="VM_Managed_Assembly_Instantiate_System_String_"></a> Instantiate\(string\)
 
 Instantiate all objects.
 
@@ -240,7 +240,7 @@ The category name.
 
  [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<[Reference](VM.Managed.Reference.md)\>
 
-### Instantiate\(\)
+### <a id="VM_Managed_Assembly_Instantiate"></a> Instantiate\(\)
 
 Instantiate all objects.
 
@@ -252,7 +252,7 @@ public virtual LinkedList<Reference> Instantiate()
 
  [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<[Reference](VM.Managed.Reference.md)\>
 
-### LinkAddedToDocument\(object, AddToDocEventArgs\)
+### <a id="VM_Managed_Assembly_LinkAddedToDocument_System_Object_VM_Managed_AddToDocEventArgs_"></a> LinkAddedToDocument\(object, AddToDocEventArgs\)
 
 Add linked object to a document.
 
@@ -270,7 +270,7 @@ The linked object.
 
 The <xref href="VM.Managed.AddToDocEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_Assembly_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -288,7 +288,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_Assembly_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -306,7 +306,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### RemoveReplacedFile\(string\)
+### <a id="VM_Managed_Assembly_RemoveReplacedFile_System_String_"></a> RemoveReplacedFile\(string\)
 
 ```csharp
 public static void RemoveReplacedFile(string strFile)
@@ -315,5 +315,4 @@ public static void RemoveReplacedFile(string strFile)
 #### Parameters
 
 `strFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

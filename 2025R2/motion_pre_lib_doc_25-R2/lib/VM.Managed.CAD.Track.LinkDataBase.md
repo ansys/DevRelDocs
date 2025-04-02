@@ -1,4 +1,4 @@
-# Class LinkDataBase
+#  Class LinkDataBase
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### LinkDataBase\(\)
+### <a id="VM_Managed_CAD_Track_LinkDataBase__ctor"></a> LinkDataBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.LinkDataBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ Initializes a new instance of the <xref href="VM.Managed.CAD.Track.LinkDataBase"
 public LinkDataBase()
 ```
 
-### LinkDataBase\(IOwned\)
+### <a id="VM_Managed_CAD_Track_LinkDataBase__ctor_VM_Models_Pre_IOwned_"></a> LinkDataBase\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.LinkDataBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ The owner object.
 
 ## Properties
 
-### BushBooleanType
+### <a id="VM_Managed_CAD_Track_LinkDataBase_BushBooleanType"></a> BushBooleanType
 
 Gets and sets bush boolean type.
 
@@ -137,7 +137,7 @@ public BooleanType BushBooleanType { get; set; }
 
  [BooleanType](VM.Managed.CAD.Track.BooleanType.md)
 
-### BushTransformLeft
+### <a id="VM_Managed_CAD_Track_LinkDataBase_BushTransformLeft"></a> BushTransformLeft
 
 Gets or sets the bush transform.
 
@@ -149,7 +149,7 @@ public ObjectBase BushTransformLeft { get; set; }
 
  ObjectBase
 
-### BushTransformRight
+### <a id="VM_Managed_CAD_Track_LinkDataBase_BushTransformRight"></a> BushTransformRight
 
 Gets or sets the bush transform.
 
@@ -161,7 +161,7 @@ public ObjectBase BushTransformRight { get; set; }
 
  ObjectBase
 
-### GeometryReference
+### <a id="VM_Managed_CAD_Track_LinkDataBase_GeometryReference"></a> GeometryReference
 
 Gets or sets the geometry reference.
 
@@ -173,7 +173,7 @@ public ObjectBase GeometryReference { get; set; }
 
  ObjectBase
 
-### InnerGauge
+### <a id="VM_Managed_CAD_Track_LinkDataBase_InnerGauge"></a> InnerGauge
 
 Gets and sets inner gauge.
 
@@ -185,7 +185,7 @@ public ExpressionValueVariable InnerGauge { get; set; }
 
  ExpressionValueVariable
 
-### IsApplyToFileProperty
+### <a id="VM_Managed_CAD_Track_LinkDataBase_IsApplyToFileProperty"></a> IsApplyToFileProperty
 
 Gets and sets boolean
 
@@ -197,7 +197,7 @@ public bool IsApplyToFileProperty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LDForLinkCombination
+### <a id="VM_Managed_CAD_Track_LinkDataBase_LDForLinkCombination"></a> LDForLinkCombination
 
 Gets and sets longitudinal distance from reference position.
 
@@ -209,7 +209,7 @@ public Variable LDForLinkCombination { get; set; }
 
  Variable
 
-### LinkHeight1
+### <a id="VM_Managed_CAD_Track_LinkDataBase_LinkHeight1"></a> LinkHeight1
 
 Gets and sets link height1.
 
@@ -221,7 +221,7 @@ public ExpressionValueVariable LinkHeight1 { get; set; }
 
  ExpressionValueVariable
 
-### LinkHeight2
+### <a id="VM_Managed_CAD_Track_LinkDataBase_LinkHeight2"></a> LinkHeight2
 
 Gets and sets link height2.
 
@@ -233,7 +233,7 @@ public ExpressionValueVariable LinkHeight2 { get; set; }
 
  ExpressionValueVariable
 
-### LinkPitch
+### <a id="VM_Managed_CAD_Track_LinkDataBase_LinkPitch"></a> LinkPitch
 
 Gets and sets link pitch.
 
@@ -245,7 +245,7 @@ public ExpressionValueVariable LinkPitch { get; set; }
 
  ExpressionValueVariable
 
-### OuterGauge
+### <a id="VM_Managed_CAD_Track_LinkDataBase_OuterGauge"></a> OuterGauge
 
 Gets and sets outer gauge.
 
@@ -257,7 +257,7 @@ public ExpressionValueVariable OuterGauge { get; set; }
 
  ExpressionValueVariable
 
-### PinBooleanType
+### <a id="VM_Managed_CAD_Track_LinkDataBase_PinBooleanType"></a> PinBooleanType
 
 Gets and sets pin boolean type.
 
@@ -269,7 +269,7 @@ public BooleanType PinBooleanType { get; set; }
 
  [BooleanType](VM.Managed.CAD.Track.BooleanType.md)
 
-### PinDiameter
+### <a id="VM_Managed_CAD_Track_LinkDataBase_PinDiameter"></a> PinDiameter
 
 Gets and sets pin diameter.
 
@@ -281,7 +281,7 @@ public ExpressionValueVariable PinDiameter { get; set; }
 
  ExpressionValueVariable
 
-### PinTransformLeft
+### <a id="VM_Managed_CAD_Track_LinkDataBase_PinTransformLeft"></a> PinTransformLeft
 
 Gets or sets the pin transform.
 
@@ -293,7 +293,7 @@ public ObjectBase PinTransformLeft { get; set; }
 
  ObjectBase
 
-### PinTransformRight
+### <a id="VM_Managed_CAD_Track_LinkDataBase_PinTransformRight"></a> PinTransformRight
 
 Gets or sets the pin transform.
 
@@ -305,7 +305,7 @@ public ObjectBase PinTransformRight { get; set; }
 
  ObjectBase
 
-### PinWidth
+### <a id="VM_Managed_CAD_Track_LinkDataBase_PinWidth"></a> PinWidth
 
 Gets and sets pin width.
 
@@ -317,7 +317,7 @@ public ExpressionValueVariable PinWidth { get; set; }
 
  ExpressionValueVariable
 
-### PositionForLinkCombination
+### <a id="VM_Managed_CAD_Track_LinkDataBase_PositionForLinkCombination"></a> PositionForLinkCombination
 
 Gets and set position for link combination.
 
@@ -331,7 +331,7 @@ public ObjectBase PositionForLinkCombination { get; set; }
 
 ## Methods
 
-### Calculation\_Gradient\_Bewteen\_ArbitraryPoint\_and\_Circle\(VectorBase, VectorBase, double\)
+### <a id="VM_Managed_CAD_Track_LinkDataBase_Calculation_Gradient_Bewteen_ArbitraryPoint_and_Circle_VM_Managed_VectorBase_VM_Managed_VectorBase_System_Double_"></a> Calculation\_Gradient\_Bewteen\_ArbitraryPoint\_and\_Circle\(VectorBase, VectorBase, double\)
 
 Called when the gradient calculate between arbitrary point and circle.
 
@@ -359,7 +359,7 @@ The radius of circle.
 
 The array of gradient.
 
-### Calculation\_TangentPoint\_Through\_Line\_Circle\(double, VectorBase, VectorBase, double\)
+### <a id="VM_Managed_CAD_Track_LinkDataBase_Calculation_TangentPoint_Through_Line_Circle_System_Double_VM_Managed_VectorBase_VM_Managed_VectorBase_System_Double_"></a> Calculation\_TangentPoint\_Through\_Line\_Circle\(double, VectorBase, VectorBase, double\)
 
 Called when tangent points calculates through line to circle.
 
@@ -391,7 +391,7 @@ The radius of circle.
 
 The list of points
 
-### CheckValidation\(\)
+### <a id="VM_Managed_CAD_Track_LinkDataBase_CheckValidation"></a> CheckValidation\(\)
 
 Check validation for member variables.
 
@@ -399,7 +399,7 @@ Check validation for member variables.
 public virtual void CheckValidation()
 ```
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_Track_LinkDataBase_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected abstract BuilderParamBase CreateParameter()
@@ -409,7 +409,7 @@ protected abstract BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamLink\)
+### <a id="VM_Managed_CAD_Track_LinkDataBase_FillParameter_VM_CAD_Builders_Links_BuilderParamLink_"></a> FillParameter\(BuilderParamLink\)
 
 ```csharp
 protected virtual void FillParameter(BuilderParamLink builderParam)
@@ -419,7 +419,7 @@ protected virtual void FillParameter(BuilderParamLink builderParam)
 
 `builderParam` BuilderParamLink
 
-### GetFactorForLength\(\)
+### <a id="VM_Managed_CAD_Track_LinkDataBase_GetFactorForLength"></a> GetFactorForLength\(\)
 
 Gets the factor for length.
 
@@ -433,7 +433,7 @@ protected double GetFactorForLength()
 
 The factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_CAD_Track_LinkDataBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -451,7 +451,7 @@ The obj notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### Update\_DesignPointWhenUpdatedDV\(\)
+### <a id="VM_Managed_CAD_Track_LinkDataBase_Update_DesignPointWhenUpdatedDV"></a> Update\_DesignPointWhenUpdatedDV\(\)
 
 Call when "LDForLinkCombination" updated.
 
@@ -459,7 +459,7 @@ Call when "LDForLinkCombination" updated.
 public void Update_DesignPointWhenUpdatedDV()
 ```
 
-### Update\_IDesignPointDataBecauseOfObjectControl\(TMatrix\)
+### <a id="VM_Managed_CAD_Track_LinkDataBase_Update_IDesignPointDataBecauseOfObjectControl_VM_Managed_TMatrix_"></a> Update\_IDesignPointDataBecauseOfObjectControl\(TMatrix\)
 
 Update tranformation of design point or design frame.
 
@@ -473,12 +473,11 @@ public void Update_IDesignPointDataBecauseOfObjectControl(TMatrix matT)
 
 The tramsformation matrix.
 
-### Update\_Transforms\(\)
+### <a id="VM_Managed_CAD_Track_LinkDataBase_Update_Transforms"></a> Update\_Transforms\(\)
 
 Update tranformation when geomerty changed.
 
 ```csharp
 public void Update_Transforms()
 ```
-
 

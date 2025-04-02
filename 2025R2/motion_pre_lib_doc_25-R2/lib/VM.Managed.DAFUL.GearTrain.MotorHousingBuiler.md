@@ -1,4 +1,4 @@
-# Class MotorHousingBuiler
+#  Class MotorHousingBuiler
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -198,7 +198,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MotorHousingBuiler\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler__ctor"></a> MotorHousingBuiler\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorHousingBuiler" data-throw-if-not-resolved="false"></xref> class.
 
@@ -208,7 +208,7 @@ public MotorHousingBuiler()
 
 ## Properties
 
-### HousingType
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_HousingType"></a> HousingType
 
 ```csharp
 public string HousingType { get; set; }
@@ -218,7 +218,7 @@ public string HousingType { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Hr
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_Hr"></a> Hr
 
 ```csharp
 public double Hr { get; set; }
@@ -228,7 +228,7 @@ public double Hr { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsMeasureBottomSide
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_IsMeasureBottomSide"></a> IsMeasureBottomSide
 
 ```csharp
 public bool IsMeasureBottomSide { get; set; }
@@ -238,7 +238,7 @@ public bool IsMeasureBottomSide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsMeasureRearCoverCenter
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_IsMeasureRearCoverCenter"></a> IsMeasureRearCoverCenter
 
 ```csharp
 public bool IsMeasureRearCoverCenter { get; set; }
@@ -248,7 +248,7 @@ public bool IsMeasureRearCoverCenter { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsMeasureTopSide
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_IsMeasureTopSide"></a> IsMeasureTopSide
 
 ```csharp
 public bool IsMeasureTopSide { get; set; }
@@ -258,7 +258,7 @@ public bool IsMeasureTopSide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### L1
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L1"></a> L1
 
 ```csharp
 public double L1 { get; set; }
@@ -268,7 +268,7 @@ public double L1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### L10
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L10"></a> L10
 
 ```csharp
 public double L10 { get; set; }
@@ -278,7 +278,7 @@ public double L10 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### L11
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L11"></a> L11
 
 ```csharp
 public double L11 { get; set; }
@@ -288,7 +288,7 @@ public double L11 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### L2
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L2"></a> L2
 
 ```csharp
 public double L2 { get; set; }
@@ -298,7 +298,7 @@ public double L2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### L3
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L3"></a> L3
 
 ```csharp
 public double L3 { get; set; }
@@ -308,7 +308,7 @@ public double L3 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### L4
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L4"></a> L4
 
 ```csharp
 public double L4 { get; set; }
@@ -318,7 +318,7 @@ public double L4 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### L5
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L5"></a> L5
 
 ```csharp
 public double L5 { get; set; }
@@ -328,7 +328,7 @@ public double L5 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### L6
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L6"></a> L6
 
 ```csharp
 public double L6 { get; set; }
@@ -338,7 +338,7 @@ public double L6 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### L7
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L7"></a> L7
 
 ```csharp
 public double L7 { get; set; }
@@ -348,7 +348,7 @@ public double L7 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### L8
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L8"></a> L8
 
 ```csharp
 public double L8 { get; set; }
@@ -358,7 +358,7 @@ public double L8 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### L9
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_L9"></a> L9
 
 ```csharp
 public double L9 { get; set; }
@@ -368,7 +368,7 @@ public double L9 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MTGBoltDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_MTGBoltDiameter"></a> MTGBoltDiameter
 
 ```csharp
 public double MTGBoltDiameter { get; set; }
@@ -378,7 +378,7 @@ public double MTGBoltDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MeasureBottomSideLowerPosition
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_MeasureBottomSideLowerPosition"></a> MeasureBottomSideLowerPosition
 
 ```csharp
 public Vector MeasureBottomSideLowerPosition { get; set; }
@@ -388,7 +388,7 @@ public Vector MeasureBottomSideLowerPosition { get; set; }
 
  Vector
 
-### MeasureBottomSideUpperPosition
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_MeasureBottomSideUpperPosition"></a> MeasureBottomSideUpperPosition
 
 ```csharp
 public Vector MeasureBottomSideUpperPosition { get; set; }
@@ -398,7 +398,7 @@ public Vector MeasureBottomSideUpperPosition { get; set; }
 
  Vector
 
-### MeasureRBECircleRadius
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_MeasureRBECircleRadius"></a> MeasureRBECircleRadius
 
 ```csharp
 public double MeasureRBECircleRadius { get; set; }
@@ -408,7 +408,7 @@ public double MeasureRBECircleRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MeasureRearCoverCenterPosition
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_MeasureRearCoverCenterPosition"></a> MeasureRearCoverCenterPosition
 
 ```csharp
 public Vector MeasureRearCoverCenterPosition { get; set; }
@@ -418,7 +418,7 @@ public Vector MeasureRearCoverCenterPosition { get; set; }
 
  Vector
 
-### MeasureTopSideLowerPosition
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_MeasureTopSideLowerPosition"></a> MeasureTopSideLowerPosition
 
 ```csharp
 public Vector MeasureTopSideLowerPosition { get; set; }
@@ -428,7 +428,7 @@ public Vector MeasureTopSideLowerPosition { get; set; }
 
  Vector
 
-### MeasureTopSideUpperPosition
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_MeasureTopSideUpperPosition"></a> MeasureTopSideUpperPosition
 
 ```csharp
 public Vector MeasureTopSideUpperPosition { get; set; }
@@ -438,7 +438,7 @@ public Vector MeasureTopSideUpperPosition { get; set; }
 
  Vector
 
-### NumberOfMountingBolt
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_NumberOfMountingBolt"></a> NumberOfMountingBolt
 
 ```csharp
 public int NumberOfMountingBolt { get; set; }
@@ -448,7 +448,7 @@ public int NumberOfMountingBolt { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfRib
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_NumberOfRib"></a> NumberOfRib
 
 ```csharp
 public int NumberOfRib { get; set; }
@@ -458,7 +458,7 @@ public int NumberOfRib { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### RibType
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_RibType"></a> RibType
 
 ```csharp
 public string RibType { get; set; }
@@ -468,7 +468,7 @@ public string RibType { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### StatorDepth
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorDepth"></a> StatorDepth
 
 ```csharp
 public double StatorDepth { get; set; }
@@ -478,7 +478,7 @@ public double StatorDepth { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### StatorIsExistMounting
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorIsExistMounting"></a> StatorIsExistMounting
 
 ```csharp
 public bool StatorIsExistMounting { get; set; }
@@ -488,7 +488,7 @@ public bool StatorIsExistMounting { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### StatorMPCR
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorMPCR"></a> StatorMPCR
 
 ```csharp
 public double StatorMPCR { get; set; }
@@ -498,7 +498,7 @@ public double StatorMPCR { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### StatorMountingDirectionType
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorMountingDirectionType"></a> StatorMountingDirectionType
 
 ```csharp
 public string StatorMountingDirectionType { get; set; }
@@ -508,7 +508,7 @@ public string StatorMountingDirectionType { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### StatorNumberOfMounting
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorNumberOfMounting"></a> StatorNumberOfMounting
 
 ```csharp
 public int StatorNumberOfMounting { get; set; }
@@ -518,7 +518,7 @@ public int StatorNumberOfMounting { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### StatorRmo
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorRmo"></a> StatorRmo
 
 ```csharp
 public double StatorRmo { get; set; }
@@ -528,7 +528,7 @@ public double StatorRmo { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### StatorRotateAngle
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorRotateAngle"></a> StatorRotateAngle
 
 ```csharp
 public double StatorRotateAngle { get; set; }
@@ -538,7 +538,7 @@ public double StatorRotateAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### StatorStartPosition
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_StatorStartPosition"></a> StatorStartPosition
 
 ```csharp
 public Vector StatorStartPosition { get; set; }
@@ -548,7 +548,7 @@ public Vector StatorStartPosition { get; set; }
 
  Vector
 
-### T1
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_T1"></a> T1
 
 ```csharp
 public double T1 { get; set; }
@@ -558,7 +558,7 @@ public double T1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### T2
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_T2"></a> T2
 
 ```csharp
 public double T2 { get; set; }
@@ -568,7 +568,7 @@ public double T2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### T3
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_T3"></a> T3
 
 ```csharp
 public double T3 { get; set; }
@@ -578,7 +578,7 @@ public double T3 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### T4
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_T4"></a> T4
 
 ```csharp
 public double T4 { get; set; }
@@ -588,7 +588,7 @@ public double T4 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### T5
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_T5"></a> T5
 
 ```csharp
 public double T5 { get; set; }
@@ -598,7 +598,7 @@ public double T5 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Wr
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_Wr"></a> Wr
 
 ```csharp
 public double Wr { get; set; }
@@ -610,7 +610,7 @@ public double Wr { get; set; }
 
 ## Methods
 
-### CreateParameter\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_CreateParameter"></a> CreateParameter\(\)
 
 Create parameter
 
@@ -622,7 +622,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorHousingBuiler_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 Fill parameter
 
@@ -633,5 +633,4 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
-
 

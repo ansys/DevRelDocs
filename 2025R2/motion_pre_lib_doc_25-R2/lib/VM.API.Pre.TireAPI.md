@@ -1,4 +1,4 @@
-# Class TireAPI
+#  Class TireAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class TireAPI
 
 ## Methods
 
-### CreateTire\(SubSystemDocument, string, string, TMatrix, SideType, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?, SymmetricType, bool\)
+### <a id="VM_API_Pre_TireAPI_CreateTire_VM_Managed_DAFUL_SubSystemDocument_System_String_System_String_VM_TMatrix_VM_Managed_DAFUL_Tire_WheelBodyBase_SideType_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_System_Drawing_Color__VM_Managed_SymmetricType_System_Boolean_"></a> CreateTire\(SubSystemDocument, string, string, TMatrix, SideType, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?, SymmetricType, bool\)
 
 Create <xref href="VM.Managed.DAFUL.Tire.Force.Tire" data-throw-if-not-resolved="false"></xref>
 
@@ -122,7 +122,7 @@ Will be thrown if the extension of 'roadFile' is not 'rdf' or if the extension o
 
 Will be thrown if the magnitude of 'transform' X, Y, Z is equal to 0.
 
-### Reload\(Obj, string\)
+### <a id="VM_API_Pre_TireAPI_Reload_VM_API_Pre_Obj_System_String_"></a> Reload\(Obj, string\)
 
 Reload.
 
@@ -151,5 +151,4 @@ Will be thrown if 'wheelBodyBase' is null.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if the type of 'wheelBodyBase' is not <xref href="VM.Managed.DAFUL.Tire.WheelBodyBase" data-throw-if-not-resolved="false"></xref>.
-
 

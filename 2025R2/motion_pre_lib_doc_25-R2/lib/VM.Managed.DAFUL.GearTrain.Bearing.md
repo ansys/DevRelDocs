@@ -1,4 +1,4 @@
-# Class Bearing
+#  Class Bearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -232,7 +232,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Bearing\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing__ctor"></a> Bearing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -240,7 +240,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Bearing
 public Bearing()
 ```
 
-### Bearing\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing__ctor_System_String_"></a> Bearing\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -256,7 +256,7 @@ Name of the string.
 
 ## Properties
 
-### BearingBodies
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_BearingBodies"></a> BearingBodies
 
 Gets or sets the bearing bodies.
 
@@ -278,7 +278,7 @@ BearingBody list is null.
             or
             BearingBody is null.
 
-### Extension
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_Extension"></a> Extension
 
 Gets the extension.
 
@@ -290,7 +290,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Layer
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_Layer"></a> Layer
 
 Gets or sets the layer.
 
@@ -302,7 +302,7 @@ public override Layer Layer { get; set; }
 
  Layer
 
-### TargetBody
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_TargetBody"></a> TargetBody
 
 Gets the target body.
 
@@ -314,7 +314,7 @@ public override ObjectBase[] TargetBody { get; }
 
  ObjectBase\[\]
 
-### TypeFileName
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_TypeFileName"></a> TypeFileName
 
 Gets the name of the type file.
 
@@ -326,7 +326,7 @@ public override string TypeFileName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TypeOfParent
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_TypeOfParent"></a> TypeOfParent
 
 Gets the type of parent.
 
@@ -340,7 +340,7 @@ public override ParentType TypeOfParent { get; }
 
 ## Methods
 
-### AddBearingBody\(GeometryBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_AddBearingBody_VM_Managed_DAFUL_GearTrain_CAD_GeometryBase_"></a> AddBearingBody\(GeometryBase\)
 
 Adds the builder.
 
@@ -354,7 +354,7 @@ public void AddBearingBody(GeometryBase body)
 
 The body.
 
-### FillBearingData\(Document, string, string, string, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_FillBearingData_VM_Managed_Document_System_String_System_String_System_String_System_String___"></a> FillBearingData\(Document, string, string, string, string\[\]\)
 
 Fill bearing data
 
@@ -388,7 +388,7 @@ The input array
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### FindBearingBody\(GeometryInfoBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_FindBearingBody_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_"></a> FindBearingBody\(GeometryInfoBase\)
 
 Find bearing body.
 
@@ -406,7 +406,7 @@ The raceway information
 
  [GeometryBase](VM.Managed.DAFUL.GearTrain.CAD.GeometryBase.md)
 
-### FindBody\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_FindBody_VM_Managed_ObjectBase_"></a> FindBody\(ObjectBase\)
 
 Finds the body.
 
@@ -424,7 +424,7 @@ The object.
 
  ObjectBase
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds the local.
 
@@ -442,7 +442,7 @@ Name of the string.
 
  IObjectBase
 
-### GetBuilder\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_GetBuilder"></a> GetBuilder\(\)
 
 Gets the builders.
 
@@ -456,7 +456,7 @@ public ObjectBase[] GetBuilder()
 
 The builders.
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -476,7 +476,7 @@ The ob unnamed.
 
 The unnamed object name.
 
-### MakeReferenceImpl\(LinkedList<Reference\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -490,7 +490,7 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -504,7 +504,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnDeserializationForAttribute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_OnDeserializationForAttribute"></a> OnDeserializationForAttribute\(\)
 
 Called when [deserialization for attribute].
 
@@ -512,7 +512,7 @@ Called when [deserialization for attribute].
 public override void OnDeserializationForAttribute()
 ```
 
-### RemoveBearingBody\(GeometryInfoBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_RemoveBearingBody_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_"></a> RemoveBearingBody\(GeometryInfoBase\)
 
 Remove bearing body.
 
@@ -526,7 +526,7 @@ public void RemoveBearingBody(GeometryInfoBase info)
 
 The raceway information
 
-### RemoveBuilder\(Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_RemoveBuilder_VM_Managed_CAD_Builder_"></a> RemoveBuilder\(Builder\)
 
 Removes the builder.
 
@@ -540,7 +540,7 @@ public void RemoveBuilder(Builder bui)
 
 The bui.
 
-### RemoveRelatedGear\(RacewayGeometryInfo, HiddenDocument\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_RemoveRelatedGear_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_VM_Managed_DAFUL_HiddenDocument_"></a> RemoveRelatedGear\(RacewayGeometryInfo, HiddenDocument\)
 
 Removes the related gear.
 
@@ -558,7 +558,7 @@ The r information.
 
 The document hidden.
 
-### RemoveRelatedGear\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_RemoveRelatedGear"></a> RemoveRelatedGear\(\)
 
 Removes the related gear.
 
@@ -566,7 +566,7 @@ Removes the related gear.
 public void RemoveRelatedGear()
 ```
 
-### SetDataToDesignDoc\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_Bearing_SetDataToDesignDoc_System_Boolean_"></a> SetDataToDesignDoc\(bool\)
 
 Sets the data to design document.
 
@@ -581,5 +581,4 @@ public override Document SetDataToDesignDoc(bool bRecord)
 #### Returns
 
  Document
-
 

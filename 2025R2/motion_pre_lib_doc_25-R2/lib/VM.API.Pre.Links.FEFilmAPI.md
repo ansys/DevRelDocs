@@ -1,4 +1,4 @@
-# Class FEFilmAPI
+#  Class FEFilmAPI
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -22,7 +22,7 @@ public static class FEFilmAPI
 
 ## Methods
 
-### AddPath\(Obj, Obj, WindingDirection, ExpressionValueVariable\)
+### <a id="VM_API_Pre_Links_FEFilmAPI_AddPath_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Models_Pre_WindingDirection_VM_Models_Pre_ExpressionValueVariable_"></a> AddPath\(Obj, Obj, WindingDirection, ExpressionValueVariable\)
 
 Add path.
 
@@ -69,7 +69,7 @@ Will be thrown if item type of 'designSubentity' is not <xref href="VM.Models.Pr
 
 Will be thrown if the 'radius' value is equal to or less than 0.
 
-### ChangeName\(string, string\)
+### <a id="VM_API_Pre_Links_FEFilmAPI_ChangeName_System_String_System_String_"></a> ChangeName\(string, string\)
 
 Change name.
 
@@ -94,7 +94,7 @@ The new name.
 
 Will be thrown if 'oldName', 'newName' are null.
 
-### ClearPath\(Obj\)
+### <a id="VM_API_Pre_Links_FEFilmAPI_ClearPath_VM_API_Pre_Obj_"></a> ClearPath\(Obj\)
 
 Clear path.
 
@@ -120,7 +120,7 @@ Will be thrown if 'film' is null.
 
 Will be thrown if item type of 'film' is not <xref href="VM.Managed.DAFUL.FEFilm" data-throw-if-not-resolved="false"></xref>.
 
-### CreateFEFilm\(SubSystemDocument, IEnumerable<Obj\>, string\)
+### <a id="VM_API_Pre_Links_FEFilmAPI_CreateFEFilm_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_"></a> CreateFEFilm\(SubSystemDocument, IEnumerable<Obj\>, string\)
 
 Create fe film <xref href="VM.Managed.DAFUL.FEFilm" data-throw-if-not-resolved="false"></xref>.
 
@@ -154,5 +154,4 @@ The new <xref href="VM.Managed.DAFUL.FEFilm" data-throw-if-not-resolved="false">
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document', 'paths' are null.
-
 

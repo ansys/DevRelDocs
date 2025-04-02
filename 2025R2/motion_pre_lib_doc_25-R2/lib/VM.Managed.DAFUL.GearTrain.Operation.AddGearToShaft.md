@@ -1,4 +1,4 @@
-# Class AddGearToShaft
+#  Class AddGearToShaft
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -85,7 +85,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### AddGearToShaft\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AddGearToShaft__ctor"></a> AddGearToShaft\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.AddGearToShaft" data-throw-if-not-resolved="false"></xref> class.
 
@@ -93,7 +93,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operati
 public AddGearToShaft()
 ```
 
-### AddGearToShaft\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AddGearToShaft__ctor_System_String_"></a> AddGearToShaft\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.AddGearToShaft" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ The STR initializer XML.
 
 ## Methods
 
-### UpdateUI\(IUIUpdate, Document\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AddGearToShaft_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -126,5 +126,4 @@ The updater.
 `doc` Document
 
 The document.
-
 

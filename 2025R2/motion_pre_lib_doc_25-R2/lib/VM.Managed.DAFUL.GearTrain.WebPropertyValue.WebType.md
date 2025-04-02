@@ -1,4 +1,4 @@
-# Enum WebPropertyValue.WebType
+#  Enum WebPropertyValue.WebType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,7 +26,6 @@ The rigid
 `Variable = 2` 
 
 The variable
-
 
 
 

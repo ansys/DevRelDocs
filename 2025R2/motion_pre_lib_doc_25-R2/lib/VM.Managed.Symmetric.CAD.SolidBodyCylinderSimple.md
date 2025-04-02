@@ -1,4 +1,4 @@
-# Class SolidBodyCylinderSimple
+#  Class SolidBodyCylinderSimple
 
 Namespace: [VM.Managed.Symmetric.CAD](VM.Managed.Symmetric.CAD.md)  
 Assembly: VMSymBase.dll  
@@ -32,7 +32,7 @@ ISymmetricMultiBuilder
 
 ## Constructors
 
-### SolidBodyCylinderSimple\(\)
+### <a id="VM_Managed_Symmetric_CAD_SolidBodyCylinderSimple__ctor"></a> SolidBodyCylinderSimple\(\)
 
 ```csharp
 public SolidBodyCylinderSimple()
@@ -40,7 +40,7 @@ public SolidBodyCylinderSimple()
 
 ## Methods
 
-### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_CAD_SolidBodyCylinderSimple_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -74,7 +74,7 @@ Plane of symmetric.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### UpdateBuild\(Builder, Builder, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_CAD_SolidBodyCylinderSimple_UpdateBuild_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateBuild\(Builder, Builder, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -107,5 +107,4 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

@@ -1,4 +1,4 @@
-# Interface IOperationsFFTLineDataSeriesViewModel
+#  Interface IOperationsFFTLineDataSeriesViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -83,7 +83,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### End
+### <a id="VM_Operations_Post_Interfaces_IOperationsFFTLineDataSeriesViewModel_End"></a> End
 
 Gets or sets the end time for using FFT on the target data series.
 
@@ -103,7 +103,7 @@ For an example that includes this property, see the [Interface IOperationsFFTLin
 
 Use this property to specify or retrieve the end time for performing FFT on the target data series.
 
-### FFTScaleType
+### <a id="VM_Operations_Post_Interfaces_IOperationsFFTLineDataSeriesViewModel_FFTScaleType"></a> FFTScaleType
 
 Gets or sets the scale type of FFT.
 
@@ -125,7 +125,7 @@ Use this property to specify or retrieve the scale type for FFT.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.ScaleType.Decibel" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ScaleType.Logarithm" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ScaleType.Original" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### FFTType
+### <a id="VM_Operations_Post_Interfaces_IOperationsFFTLineDataSeriesViewModel_FFTType"></a> FFTType
 
 Gets or sets the type of FFT.
 
@@ -147,7 +147,7 @@ Use this property to specify or retrieve the type of FFT.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.FFTType.Magnitude" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FFTType.Phase" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### FFTWindowType
+### <a id="VM_Operations_Post_Interfaces_IOperationsFFTLineDataSeriesViewModel_FFTWindowType"></a> FFTWindowType
 
 Gets or sets the window type of FFT.
 
@@ -169,7 +169,7 @@ Use this property to specify or retrieve the window type for FFT.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.FFTWindowType.Bartlett" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FFTWindowType.BlackMan" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FFTWindowType.Hamming" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FFTWindowType.Hanning" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FFTWindowType.None" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FFTWindowType.Rectangular" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FFTWindowType.Triangular" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.FFTWindowType.Welch" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### SelectedPoints
+### <a id="VM_Operations_Post_Interfaces_IOperationsFFTLineDataSeriesViewModel_SelectedPoints"></a> SelectedPoints
 
 Gets or sets the number of data points for FFT.
 
@@ -189,7 +189,7 @@ For an example that includes this property, see the [Interface IOperationsFFTLin
 
 Use this property to specify or retrieve the number of data points to be used for FFT.
 
-### Start
+### <a id="VM_Operations_Post_Interfaces_IOperationsFFTLineDataSeriesViewModel_Start"></a> Start
 
 Gets or sets the start time for using FFT on the target data series.
 

@@ -1,4 +1,4 @@
-# Interface ILinkOwner
+#  Interface ILinkOwner
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,7 +15,7 @@ public interface ILinkOwner
 
 ## Properties
 
-### IsCacheEmpty
+### <a id="VM_Models_Pre_ILinkOwner_IsCacheEmpty"></a> IsCacheEmpty
 
 ```csharp
 bool IsCacheEmpty { get; }
@@ -27,7 +27,7 @@ bool IsCacheEmpty { get; }
 
 ## Methods
 
-### Initialize\(object\)
+### <a id="VM_Models_Pre_ILinkOwner_Initialize_System_Object_"></a> Initialize\(object\)
 
 ```csharp
 void Initialize(object owner)
@@ -36,5 +36,4 @@ void Initialize(object owner)
 #### Parameters
 
 `owner` [object](https://learn.microsoft.com/dotnet/api/system.object)
-
 

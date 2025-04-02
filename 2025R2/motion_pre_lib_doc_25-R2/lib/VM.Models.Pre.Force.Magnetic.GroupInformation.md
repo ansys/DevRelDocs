@@ -1,4 +1,4 @@
-# Class Magnetic.GroupInformation
+#  Class Magnetic.GroupInformation
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GroupInformation\(\)
+### <a id="VM_Models_Pre_Force_Magnetic_GroupInformation__ctor"></a> GroupInformation\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.Magnetic.GroupInformation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Models.Pre.Force.Magnetic.Group
 public GroupInformation()
 ```
 
-### GroupInformation\(Group\)
+### <a id="VM_Models_Pre_Force_Magnetic_GroupInformation__ctor_VM_Managed_DAFUL_Group_"></a> GroupInformation\(Group\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.Magnetic.GroupInformation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -118,7 +118,7 @@ public GroupInformation(Group group)
 
 The group.
 
-### GroupInformation\(Group, IMarker\)
+### <a id="VM_Models_Pre_Force_Magnetic_GroupInformation__ctor_VM_Managed_DAFUL_Group_VM_Managed_IMarker_"></a> GroupInformation\(Group, IMarker\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.Magnetic.GroupInformation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -138,7 +138,7 @@ The coordinate system.
 
 ## Properties
 
-### CoordinateSystem
+### <a id="VM_Models_Pre_Force_Magnetic_GroupInformation_CoordinateSystem"></a> CoordinateSystem
 
 Gets or sets the center marker.
 
@@ -150,7 +150,7 @@ public IMarker CoordinateSystem { get; set; }
 
  IMarker
 
-### Group
+### <a id="VM_Models_Pre_Force_Magnetic_GroupInformation_Group"></a> Group
 
 Gets or sets the group.
 
@@ -162,7 +162,7 @@ public Group Group { get; set; }
 
  Group
 
-### \_CoordinateSystem
+### <a id="VM_Models_Pre_Force_Magnetic_GroupInformation__CoordinateSystem"></a> \_CoordinateSystem
 
 Gets or sets the coordinate system.
 
@@ -176,7 +176,7 @@ public Linker<IMarker> _CoordinateSystem { get; set; }
 
 ## Methods
 
-### CheckCoordinateWithGroup\(\)
+### <a id="VM_Models_Pre_Force_Magnetic_GroupInformation_CheckCoordinateWithGroup"></a> CheckCoordinateWithGroup\(\)
 
 Check coordinate system with group.
 
@@ -189,5 +189,4 @@ public bool CheckCoordinateWithGroup()
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 The success flag
-
 

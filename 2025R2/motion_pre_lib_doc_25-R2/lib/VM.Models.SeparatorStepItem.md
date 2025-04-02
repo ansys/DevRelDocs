@@ -1,4 +1,4 @@
-# Struct SeparatorStepItem
+#  Struct SeparatorStepItem
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -11,5 +11,4 @@ public struct SeparatorStepItem : IStepItem, IHasParent<IStep>
 
 [IStepItem](VM.Models.IStepItem.md), 
 IHasParent<IStep\>
-
 

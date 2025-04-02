@@ -1,4 +1,4 @@
-# Enum PropertyGearSetPlanetaryDP.DogLegDirectionType
+#  Enum PropertyGearSetPlanetaryDP.DogLegDirectionType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ The left
 `Right = 0` 
 
 The right
-
 
 
 

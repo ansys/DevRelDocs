@@ -1,4 +1,4 @@
-# Class CycloidalReducerAPI
+#  Class CycloidalReducerAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -22,7 +22,7 @@ public static class CycloidalReducerAPI
 
 ## Methods
 
-### CreateCycloidalReducer\(GearTrainDocument, Vector, Vector, Obj, Obj, string\)
+### <a id="VM_API_Pre_GearTrain_CycloidalReducerAPI_CreateCycloidalReducer_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_Vector_VM_Vector_VM_API_Pre_Obj_VM_API_Pre_Obj_System_String_"></a> CreateCycloidalReducer\(GearTrainDocument, Vector, Vector, Obj, Obj, string\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.RVReducer" data-throw-if-not-resolved="false"></xref>.
 
@@ -78,5 +78,4 @@ Will be thrown if the type of 'housing' is not <xref href="VM.Managed.DAFUL.Gear
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if the type of 'outputSharft' is not <xref href="VM.Managed.DAFUL.GearTrain.IShaftSet" data-throw-if-not-resolved="false"></xref>.
-
 

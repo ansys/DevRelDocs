@@ -1,4 +1,4 @@
-# Struct MaterialNH
+#  Struct MaterialNH
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -9,7 +9,7 @@ public struct MaterialNH
 
 ## Properties
 
-### C10
+### <a id="VM_Models_FE_Utilities_MaterialNH_C10"></a> C10
 
 ```csharp
 public double C10 { readonly get; set; }
@@ -19,7 +19,7 @@ public double C10 { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### D
+### <a id="VM_Models_FE_Utilities_MaterialNH_D"></a> D
 
 ```csharp
 public double D { readonly get; set; }
@@ -29,7 +29,7 @@ public double D { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Density
+### <a id="VM_Models_FE_Utilities_MaterialNH_Density"></a> Density
 
 ```csharp
 public double Density { readonly get; set; }
@@ -39,7 +39,7 @@ public double Density { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ID
+### <a id="VM_Models_FE_Utilities_MaterialNH_ID"></a> ID
 
 ```csharp
 public uint ID { readonly get; set; }
@@ -48,5 +48,4 @@ public uint ID { readonly get; set; }
 #### Property Value
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
-
 

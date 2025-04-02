@@ -1,4 +1,4 @@
-# Class CoSimIOFunctionStandard
+#  Class CoSimIOFunctionStandard
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  
@@ -74,7 +74,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### CoSimIOFunctionStandard\(\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIOFunctionStandard__ctor"></a> CoSimIOFunctionStandard\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimIOFunctionStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -82,7 +82,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimIOFunc
 public CoSimIOFunctionStandard()
 ```
 
-### CoSimIOFunctionStandard\(CoSimIO\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIOFunctionStandard__ctor_VM_Managed_DAFUL_CoSim_CoSimIO_"></a> CoSimIOFunctionStandard\(CoSimIO\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimIOFunctionStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -98,7 +98,7 @@ The obj parent.
 
 ## Properties
 
-### Function
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIOFunctionStandard_Function"></a> Function
 
 Gets or sets the function.
 
@@ -109,5 +109,4 @@ public Function Function { get; set; }
 #### Property Value
 
  Function
-
 

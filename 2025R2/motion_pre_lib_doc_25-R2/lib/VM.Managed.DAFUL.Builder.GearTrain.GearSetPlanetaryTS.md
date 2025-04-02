@@ -1,4 +1,4 @@
-# Class GearSetPlanetaryTS
+#  Class GearSetPlanetaryTS
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -73,7 +73,7 @@ BuilderBase<GearSetPlanetaryTS\>.ErrorMessage
 
 ## Constructors
 
-### GearSetPlanetaryTS\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetPlanetaryTS__ctor"></a> GearSetPlanetaryTS\(\)
 
 ```csharp
 public GearSetPlanetaryTS()
@@ -81,7 +81,7 @@ public GearSetPlanetaryTS()
 
 ## Properties
 
-### GetName
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetPlanetaryTS_GetName"></a> GetName
 
 ```csharp
 protected override string GetName { get; }
@@ -91,7 +91,7 @@ protected override string GetName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NumberOfGearDouble
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetPlanetaryTS_NumberOfGearDouble"></a> NumberOfGearDouble
 
 ```csharp
 protected int NumberOfGearDouble { get; }
@@ -101,7 +101,7 @@ protected int NumberOfGearDouble { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfGearSingle
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetPlanetaryTS_NumberOfGearSingle"></a> NumberOfGearSingle
 
 ```csharp
 protected int NumberOfGearSingle { get; }
@@ -113,7 +113,7 @@ protected int NumberOfGearSingle { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetPlanetaryTS_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -129,7 +129,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetPlanetaryTS_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -142,5 +142,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

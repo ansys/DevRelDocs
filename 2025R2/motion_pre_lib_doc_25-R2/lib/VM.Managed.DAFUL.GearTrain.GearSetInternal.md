@@ -1,4 +1,4 @@
-# Class GearSetInternal
+#  Class GearSetInternal
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -264,7 +264,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearSetInternal\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetInternal__ctor"></a> GearSetInternal\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetInternal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -272,7 +272,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSet
 public GearSetInternal()
 ```
 
-### GearSetInternal\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetInternal__ctor_System_String_"></a> GearSetInternal\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetInternal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -288,7 +288,7 @@ Name of the string.
 
 ## Properties
 
-### Extension
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetInternal_Extension"></a> Extension
 
 Gets the extension.
 
@@ -300,7 +300,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TypeFileName
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetInternal_TypeFileName"></a> TypeFileName
 
 Gets the name of the type file.
 
@@ -314,7 +314,7 @@ public override string TypeFileName { get; }
 
 ## Methods
 
-### FillGearData\(Document, int, string, string\[\], string\[\], string\[\], string\[\], bool, bool, string, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetInternal_FillGearData_VM_Managed_Document_System_Int32_System_String_System_String___System_String___System_String___System_String___System_Boolean_System_Boolean_System_String_System_String___"></a> FillGearData\(Document, int, string, string\[\], string\[\], string\[\], string\[\], bool, bool, string, string\[\]\)
 
 Fill gear data
 
@@ -372,7 +372,7 @@ The input array for create
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MeshingCore\(int, double, ref List<IGearBuilder\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetInternal_MeshingCore_System_Int32_System_Double_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder___"></a> MeshingCore\(int, double, ref List<IGearBuilder\>\)
 
 Meshing
 
@@ -394,7 +394,7 @@ The initial angle
 
 The builder list
 
-### OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetInternal_OnPostBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Post build in Special
 
@@ -416,7 +416,7 @@ The document
 
 The input array
 
-### OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetInternal_OnPreBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Pre build in Special
 
@@ -437,5 +437,4 @@ The document
 `InputArray` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The input array
-
 

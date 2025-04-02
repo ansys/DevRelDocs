@@ -1,4 +1,4 @@
-# Class ExportXMLForShimmyJudder
+#  Class ExportXMLForShimmyJudder
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -113,7 +113,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ExportXMLForShimmyJudder\(Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ExportXMLForShimmyJudder__ctor_VM_Managed_Document_"></a> ExportXMLForShimmyJudder\(Document\)
 
 ```csharp
 public ExportXMLForShimmyJudder(Document doc)
@@ -123,7 +123,7 @@ public ExportXMLForShimmyJudder(Document doc)
 
 `doc` Document
 
-### ExportXMLForShimmyJudder\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ExportXMLForShimmyJudder__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportXMLForShimmyJudder\(JournalParameter\)
 
 ```csharp
 public ExportXMLForShimmyJudder(JournalParameter jp)
@@ -135,7 +135,7 @@ public ExportXMLForShimmyJudder(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_ExportXMLForShimmyJudder_Name"></a> Name
 
 Gets the operation name.
 
@@ -149,10 +149,9 @@ public override string Name { get; }
 
 ## Methods
 
-### ExportXMLImpl\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ExportXMLForShimmyJudder_ExportXMLImpl"></a> ExportXMLImpl\(\)
 
 ```csharp
 protected override void ExportXMLImpl()
 ```
-
 

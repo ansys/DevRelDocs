@@ -1,4 +1,4 @@
-# Enum AssembleType
+#  Enum AssembleType
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -20,7 +20,6 @@ General type.
 `UserDefined = 1` 
 
 User-defined type.
-
 
 
 

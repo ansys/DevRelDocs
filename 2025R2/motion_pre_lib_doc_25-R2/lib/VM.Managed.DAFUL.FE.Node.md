@@ -1,4 +1,4 @@
-# Struct Node
+#  Struct Node
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +11,7 @@ public struct Node
 
 ## Constructors
 
-### Node\(Mesh, uint\)
+### <a id="VM_Managed_DAFUL_FE_Node__ctor_VM_Managed_DAFUL_FE_Mesh_System_UInt32_"></a> Node\(Mesh, uint\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Node" data-throw-if-not-resolved="false"></xref> class.
 
@@ -31,7 +31,7 @@ The index.
 
 ## Fields
 
-### ID
+### <a id="VM_Managed_DAFUL_FE_Node_ID"></a> ID
 
 ID.
 
@@ -43,7 +43,7 @@ public uint ID
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### Index
+### <a id="VM_Managed_DAFUL_FE_Node_Index"></a> Index
 
 index.
 
@@ -55,7 +55,7 @@ public uint Index
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### Mass
+### <a id="VM_Managed_DAFUL_FE_Node_Mass"></a> Mass
 
 mass.
 
@@ -67,7 +67,7 @@ public double Mass
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MomentOfInertia
+### <a id="VM_Managed_DAFUL_FE_Node_MomentOfInertia"></a> MomentOfInertia
 
 moment of inertia.
 
@@ -79,7 +79,7 @@ public _MomentOfInertia MomentOfInertia
 
  [\_MomentOfInertia](VM.Managed.DAFUL.FE.\_MomentOfInertia.md)
 
-### Position
+### <a id="VM_Managed_DAFUL_FE_Node_Position"></a> Position
 
 position.
 
@@ -90,5 +90,4 @@ public VectorBase Position
 #### Field Value
 
  VectorBase
-
 

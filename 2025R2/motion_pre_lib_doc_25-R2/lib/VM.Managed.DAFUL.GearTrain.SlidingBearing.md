@@ -1,4 +1,4 @@
-# Class SlidingBearing
+#  Class SlidingBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -232,7 +232,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SlidingBearing\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing__ctor"></a> SlidingBearing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -240,7 +240,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Sliding
 public SlidingBearing()
 ```
 
-### SlidingBearing\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing__ctor_System_String_"></a> SlidingBearing\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -256,7 +256,7 @@ Name of the string.
 
 ## Properties
 
-### BearingBodies
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_BearingBodies"></a> BearingBodies
 
 Gets or sets the sliding bearing bodies.
 
@@ -278,7 +278,7 @@ Sliding Bearing Body list is null.
 or
 Raceway is null.
 
-### Extension
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_Extension"></a> Extension
 
 Gets the extension.
 
@@ -290,7 +290,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Layer
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_Layer"></a> Layer
 
 Gets or sets the layer.
 
@@ -302,7 +302,7 @@ public override Layer Layer { get; set; }
 
  Layer
 
-### TargetBody
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_TargetBody"></a> TargetBody
 
 Gets the target body.
 
@@ -314,7 +314,7 @@ public override ObjectBase[] TargetBody { get; }
 
  ObjectBase\[\]
 
-### TypeFileName
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_TypeFileName"></a> TypeFileName
 
 Gets the name of the type file.
 
@@ -326,7 +326,7 @@ public override string TypeFileName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TypeOfParent
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_TypeOfParent"></a> TypeOfParent
 
 Gets the type of parent.
 
@@ -340,7 +340,7 @@ public override ParentType TypeOfParent { get; }
 
 ## Methods
 
-### AddBearingBody\(GeometryBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_AddBearingBody_VM_Managed_DAFUL_GearTrain_CAD_GeometryBase_"></a> AddBearingBody\(GeometryBase\)
 
 Adds the builder.
 
@@ -354,7 +354,7 @@ public void AddBearingBody(GeometryBase body)
 
 The body.
 
-### FillBearingData\(Document, string, string, string, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_FillBearingData_VM_Managed_Document_System_String_System_String_System_String_System_String___"></a> FillBearingData\(Document, string, string, string, string\[\]\)
 
 Fill bearing data
 
@@ -388,7 +388,7 @@ The input array
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds the local.
 
@@ -406,7 +406,7 @@ Name of the string.
 
  IObjectBase
 
-### GetBuilder\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_GetBuilder"></a> GetBuilder\(\)
 
 Gets the builders.
 
@@ -420,7 +420,7 @@ public ObjectBase[] GetBuilder()
 
 The builders.
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -440,7 +440,7 @@ The ob unnamed.
 
 The unnamed object name.
 
-### MakeReferenceImpl\(LinkedList<Reference\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -454,7 +454,7 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -468,7 +468,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnDeserializationForAttribute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_OnDeserializationForAttribute"></a> OnDeserializationForAttribute\(\)
 
 Called when [deserialization for attribute].
 
@@ -476,7 +476,7 @@ Called when [deserialization for attribute].
 public override void OnDeserializationForAttribute()
 ```
 
-### RemoveBuilder\(Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_RemoveBuilder_VM_Managed_CAD_Builder_"></a> RemoveBuilder\(Builder\)
 
 Removes the builder.
 
@@ -490,7 +490,7 @@ public void RemoveBuilder(Builder bui)
 
 The bui.
 
-### SetDataToDesignDoc\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_SlidingBearing_SetDataToDesignDoc_System_Boolean_"></a> SetDataToDesignDoc\(bool\)
 
 Sets the data to design document.
 
@@ -505,5 +505,4 @@ public override Document SetDataToDesignDoc(bool bRecord)
 #### Returns
 
  Document
-
 

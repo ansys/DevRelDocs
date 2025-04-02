@@ -1,4 +1,4 @@
-# Class ReferenceEHDBearing
+#  Class ReferenceEHDBearing
 
 Namespace: [VM.Managed.DAFUL.Bearing](VM.Managed.DAFUL.Bearing.md)  
 Assembly: VMDEHDBearing.dll  
@@ -183,7 +183,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferenceEHDBearing\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_DAFUL_Bearing_ReferenceEHDBearing__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceEHDBearing\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.ReferenceEHDBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -201,7 +201,7 @@ The info.
 
 The context.
 
-### ReferenceEHDBearing\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Bearing_ReferenceEHDBearing__ctor_VM_Managed_ObjectBase_"></a> ReferenceEHDBearing\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.ReferenceEHDBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -214,5 +214,4 @@ public ReferenceEHDBearing(ObjectBase obj)
 `obj` ObjectBase
 
 The reference's object.
-
 

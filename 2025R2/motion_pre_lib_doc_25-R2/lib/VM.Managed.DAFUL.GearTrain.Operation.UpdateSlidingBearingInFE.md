@@ -1,4 +1,4 @@
-# Class UpdateSlidingBearingInFE
+#  Class UpdateSlidingBearingInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -81,7 +81,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdateSlidingBearingInFE\(string, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateSlidingBearingInFE__ctor_System_String_System_String_"></a> UpdateSlidingBearingInFE\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateSlidingBearingInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -99,7 +99,7 @@ Name of the string bearing geometry.
 
 Name of the string rbe.
 
-### UpdateSlidingBearingInFE\(Document3D, string, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateSlidingBearingInFE__ctor_VM_Managed_Document3D_System_String_System_String_"></a> UpdateSlidingBearingInFE\(Document3D, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateSlidingBearingInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ Name of the string bearing geometry.
 
 Name of the string rbe.
 
-### UpdateSlidingBearingInFE\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateSlidingBearingInFE__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateSlidingBearingInFE\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateSlidingBearingInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -137,7 +137,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateSlidingBearingInFE_Name"></a> Name
 
 Gets the name.
 
@@ -151,7 +151,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateSlidingBearingInFE_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -159,7 +159,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateSlidingBearingInFE_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -172,5 +172,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

@@ -1,4 +1,4 @@
-# Class PropertySurfaceWithCurvesets
+#  Class PropertySurfaceWithCurvesets
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -165,10 +165,9 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertySurfaceWithCurvesets\(\)
+### <a id="VM_Managed_DAFUL_PropertySurfaceWithCurvesets__ctor"></a> PropertySurfaceWithCurvesets\(\)
 
 ```csharp
 public PropertySurfaceWithCurvesets()
 ```
-
 

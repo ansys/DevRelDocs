@@ -1,4 +1,4 @@
-# Interface IOperationsCalculusLineDataSeriesViewModel
+#  Interface IOperationsCalculusLineDataSeriesViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -72,7 +72,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### CalculusType
+### <a id="VM_Operations_Post_Interfaces_IOperationsCalculusLineDataSeriesViewModel_CalculusType"></a> CalculusType
 
 Gets or sets the type of calculus operation.
 

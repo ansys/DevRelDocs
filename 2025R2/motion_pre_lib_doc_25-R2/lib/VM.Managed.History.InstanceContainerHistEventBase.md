@@ -1,4 +1,4 @@
-# Class InstanceContainerHistEventBase
+#  Class InstanceContainerHistEventBase
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -41,7 +41,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### InstanceContainerHistEventBase\(string\)
+### <a id="VM_Managed_History_InstanceContainerHistEventBase__ctor_System_String_"></a> InstanceContainerHistEventBase\(string\)
 
 ```csharp
 public InstanceContainerHistEventBase(string strPathName)
@@ -51,7 +51,7 @@ public InstanceContainerHistEventBase(string strPathName)
 
 `strPathName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### InstanceContainerHistEventBase\(\)
+### <a id="VM_Managed_History_InstanceContainerHistEventBase__ctor"></a> InstanceContainerHistEventBase\(\)
 
 ```csharp
 public InstanceContainerHistEventBase()
@@ -59,7 +59,7 @@ public InstanceContainerHistEventBase()
 
 ## Fields
 
-### m\_strPathName
+### <a id="VM_Managed_History_InstanceContainerHistEventBase_m_strPathName"></a> m\_strPathName
 
 ```csharp
 protected string m_strPathName
@@ -71,7 +71,7 @@ protected string m_strPathName
 
 ## Methods
 
-### AddEventCore\(Document, InstanceContainerHistEventBase\)
+### <a id="VM_Managed_History_InstanceContainerHistEventBase_AddEventCore_VM_Managed_Document_VM_Managed_History_InstanceContainerHistEventBase_"></a> AddEventCore\(Document, InstanceContainerHistEventBase\)
 
 ```csharp
 public static void AddEventCore(Document doc, InstanceContainerHistEventBase eventHist)
@@ -83,7 +83,7 @@ public static void AddEventCore(Document doc, InstanceContainerHistEventBase eve
 
 `eventHist` [InstanceContainerHistEventBase](VM.Managed.History.InstanceContainerHistEventBase.md)
 
-### AfterAdded\(HistoryEventArgs\)
+### <a id="VM_Managed_History_InstanceContainerHistEventBase_AfterAdded_VM_Managed_History_HistoryEventArgs_"></a> AfterAdded\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterAdded(HistoryEventArgs A_0)
@@ -93,7 +93,7 @@ protected override void AfterAdded(HistoryEventArgs A_0)
 
 `A_0` HistoryEventArgs
 
-### Clear\(bool\)
+### <a id="VM_Managed_History_InstanceContainerHistEventBase_Clear_System_Boolean_"></a> Clear\(bool\)
 
 ```csharp
 protected override void Clear(bool bReserveReferenceCount)
@@ -103,7 +103,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsAvailableEvent\(Document\)
+### <a id="VM_Managed_History_InstanceContainerHistEventBase_IsAvailableEvent_VM_Managed_Document_"></a> IsAvailableEvent\(Document\)
 
 ```csharp
 protected static bool IsAvailableEvent(Document doc)
@@ -117,7 +117,7 @@ protected static bool IsAvailableEvent(Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Redo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_InstanceContainerHistEventBase_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Redo(HistoryEventArgs A_0)
@@ -127,7 +127,7 @@ protected override void Redo(HistoryEventArgs A_0)
 
 `A_0` HistoryEventArgs
 
-### Undo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_InstanceContainerHistEventBase_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Undo(HistoryEventArgs A_0)
@@ -136,5 +136,4 @@ protected override void Undo(HistoryEventArgs A_0)
 #### Parameters
 
 `A_0` HistoryEventArgs
-
 

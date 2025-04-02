@@ -1,4 +1,4 @@
-# Class HeatFlux
+#  Class HeatFlux
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMDThermal.dll  
@@ -224,7 +224,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### HeatFlux\(\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatFlux__ctor"></a> HeatFlux\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatFlux" data-throw-if-not-resolved="false"></xref> class.
 
@@ -232,7 +232,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatFlux"
 public HeatFlux()
 ```
 
-### HeatFlux\(string\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatFlux__ctor_System_String_"></a> HeatFlux\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatFlux" data-throw-if-not-resolved="false"></xref> class.
 
@@ -248,7 +248,7 @@ Name of the STR.
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatFlux_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the specified canvas.
 
@@ -266,7 +266,7 @@ The canvas.
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatFlux_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -294,7 +294,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatFlux_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -307,5 +307,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

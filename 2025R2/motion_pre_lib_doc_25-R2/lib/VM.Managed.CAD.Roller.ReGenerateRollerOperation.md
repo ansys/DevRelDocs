@@ -1,4 +1,4 @@
-# Class ReGenerateRollerOperation
+#  Class ReGenerateRollerOperation
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ReGenerateRollerOperation\(XmlDocument, BuilderRollerBase, bool\)
+### <a id="VM_Managed_CAD_Roller_ReGenerateRollerOperation__ctor_System_Xml_XmlDocument_VM_Managed_CAD_Roller_BuilderRollerBase_System_Boolean_"></a> ReGenerateRollerOperation\(XmlDocument, BuilderRollerBase, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Roller.ReGenerateRollerOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -99,7 +99,7 @@ The roller body.
 
 if set to <code>true</code> [b builder].
 
-### ReGenerateRollerOperation\(JournalParameter\)
+### <a id="VM_Managed_CAD_Roller_ReGenerateRollerOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ReGenerateRollerOperation\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Roller.ReGenerateRollerOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_CAD_Roller_ReGenerateRollerOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -127,7 +127,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ResultBody
+### <a id="VM_Managed_CAD_Roller_ReGenerateRollerOperation_ResultBody"></a> ResultBody
 
 Gets the result body.
 
@@ -141,7 +141,7 @@ public ObjectBase ResultBody { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_CAD_Roller_ReGenerateRollerOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -149,7 +149,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_CAD_Roller_ReGenerateRollerOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -162,5 +162,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

@@ -1,4 +1,4 @@
-# Class AnalysisSteadyBatch
+#  Class AnalysisSteadyBatch
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -43,7 +43,7 @@ IHasInitialVel
 
 ## Constructors
 
-### AnalysisSteadyBatch\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch__ctor"></a> AnalysisSteadyBatch\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSteadyBatch" data-throw-if-not-resolved="false"></xref> class.
 
@@ -51,7 +51,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisStead
 public AnalysisSteadyBatch()
 ```
 
-### AnalysisSteadyBatch\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisSteadyBatch\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSteadyBatch" data-throw-if-not-resolved="false"></xref> class.
 
@@ -67,7 +67,7 @@ The link container.
 
 ## Properties
 
-### AngleUnitType
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_AngleUnitType"></a> AngleUnitType
 
 Gets or sets the angle unit.
 
@@ -79,7 +79,7 @@ public AngleUnitType AngleUnitType { get; set; }
 
  [AngleUnitType](VM.Managed.DAFUL.Car.Analysis.AngleUnitType.md)
 
-### CamberAngleInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_CamberAngleInfo"></a> CamberAngleInfo
 
 Gets or sets the camber angle.
 
@@ -91,7 +91,7 @@ public AnalysisInfo CamberAngleInfo { get; set; }
 
  [AnalysisInfo](VM.Managed.DAFUL.Car.AnalysisInfo.md)
 
-### InitialVelocity
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_InitialVelocity"></a> InitialVelocity
 
 Gets the initial velocity.
 
@@ -103,7 +103,7 @@ protected override double InitialVelocity { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsCamberAngle
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_IsCamberAngle"></a> IsCamberAngle
 
 Gets or sets a value indicating whether [use camber angle].
 
@@ -115,7 +115,7 @@ public bool IsCamberAngle { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsSlipAngle
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_IsSlipAngle"></a> IsSlipAngle
 
 Gets or sets a value indicating whether [use slip angle].
 
@@ -127,7 +127,7 @@ public bool IsSlipAngle { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsSlipRatio
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_IsSlipRatio"></a> IsSlipRatio
 
 Gets or sets a value indicating whether [use slip ratio].
 
@@ -139,7 +139,7 @@ public bool IsSlipRatio { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsVerticalLoad
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_IsVerticalLoad"></a> IsVerticalLoad
 
 Gets or sets a value indicating whether [use vertical load].
 
@@ -151,7 +151,7 @@ public bool IsVerticalLoad { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SlipAngleIncrement\_SlipRatio
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_SlipAngleIncrement_SlipRatio"></a> SlipAngleIncrement\_SlipRatio
 
 Gets or sets the slip angle increment for slip ratio.
 
@@ -163,7 +163,7 @@ public double SlipAngleIncrement_SlipRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SlipAngleIncrement\_VerticalLoad
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_SlipAngleIncrement_VerticalLoad"></a> SlipAngleIncrement\_VerticalLoad
 
 Gets or sets the slip angle increment for vertical load.
 
@@ -175,7 +175,7 @@ public double SlipAngleIncrement_VerticalLoad { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SlipAngleInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_SlipAngleInfo"></a> SlipAngleInfo
 
 Gets or sets the slip angle.
 
@@ -187,7 +187,7 @@ public AnalysisInfo SlipAngleInfo { get; set; }
 
  [AnalysisInfo](VM.Managed.DAFUL.Car.AnalysisInfo.md)
 
-### SlipRatioInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_SlipRatioInfo"></a> SlipRatioInfo
 
 Gets or sets the slip ratio.
 
@@ -199,7 +199,7 @@ public AnalysisInfo SlipRatioInfo { get; set; }
 
  [AnalysisInfo](VM.Managed.DAFUL.Car.AnalysisInfo.md)
 
-### TypeOfSimulation
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_TypeOfSimulation"></a> TypeOfSimulation
 
 Gets the type of simulation.
 
@@ -211,7 +211,7 @@ public override TireAnalysisBase.SimulationType TypeOfSimulation { get; }
 
  [TireAnalysisBase](VM.Managed.DAFUL.Car.TireAnalysisBase.md).[SimulationType](VM.Managed.DAFUL.Car.TireAnalysisBase.SimulationType.md)
 
-### VelocityUnitType
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_VelocityUnitType"></a> VelocityUnitType
 
 Gets or sets the velocity unit.
 
@@ -223,7 +223,7 @@ public VelocityUnitType VelocityUnitType { get; set; }
 
  [VelocityUnitType](VM.Managed.DAFUL.Car.Analysis.VelocityUnitType.md)
 
-### VerticalLoadIncrement\_CamberAngle
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_VerticalLoadIncrement_CamberAngle"></a> VerticalLoadIncrement\_CamberAngle
 
 Gets or sets the vertical load increment for camber angle.
 
@@ -235,7 +235,7 @@ public double VerticalLoadIncrement_CamberAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### VerticalLoadIncrement\_SlipAngle
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_VerticalLoadIncrement_SlipAngle"></a> VerticalLoadIncrement\_SlipAngle
 
 Gets or sets the vertical load increment for slip angle.
 
@@ -247,7 +247,7 @@ public double VerticalLoadIncrement_SlipAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### VerticalLoadInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_VerticalLoadInfo"></a> VerticalLoadInfo
 
 Gets or sets the vertical load.
 
@@ -261,7 +261,7 @@ public AnalysisInfo VerticalLoadInfo { get; set; }
 
 ## Methods
 
-### GetIncrement\(BatchType\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_GetIncrement_VM_Managed_DAFUL_Car_AnalysisSteadyBatch_BatchType_"></a> GetIncrement\(BatchType\)
 
 Gets the increment.
 
@@ -279,7 +279,7 @@ The type of batch.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -293,7 +293,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 The parameter array.
 
-### GetTestRigMotionUSUBArgument\(BatchType, string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisSteadyBatch_GetTestRigMotionUSUBArgument_VM_Managed_DAFUL_Car_AnalysisSteadyBatch_BatchType_System_String___"></a> GetTestRigMotionUSUBArgument\(BatchType, string\[\]\)
 
 Gets the test rig motion USUB argument.
 
@@ -310,5 +310,4 @@ The type.
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The ar parameter.
-
 

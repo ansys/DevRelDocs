@@ -1,4 +1,4 @@
-# Class PropertySpringDocument
+#  Class PropertySpringDocument
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -309,12 +309,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertySpringDocument\(\)
+### <a id="VM_Managed_DAFUL_Car_Force_PropertySpringDocument__ctor"></a> PropertySpringDocument\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertySpringDocument" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertySpringDocument()
 ```
-
 

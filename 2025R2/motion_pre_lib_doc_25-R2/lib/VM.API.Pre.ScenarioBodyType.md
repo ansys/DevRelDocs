@@ -1,4 +1,4 @@
-# Enum ScenarioBodyType
+#  Enum ScenarioBodyType
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -20,7 +20,6 @@ SetToFlexibleBody
 `SetToRigidBody = 0` 
 
 SetToRigidBody
-
 
 
 

@@ -1,4 +1,4 @@
-# Class ShowSimulationDlg
+#  Class ShowSimulationDlg
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -105,7 +105,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ShowSimulationDlg\(Document\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationDlg__ctor_VM_Managed_Document_"></a> ShowSimulationDlg\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ShowSimulationDlg" data-throw-if-not-resolved="false"></xref> class.
 
@@ -119,7 +119,7 @@ public ShowSimulationDlg(Document doc)
 
 The doc.
 
-### ShowSimulationDlg\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationDlg__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowSimulationDlg\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ShowSimulationDlg" data-throw-if-not-resolved="false"></xref> class.
 
@@ -135,7 +135,7 @@ The jp.
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationDlg_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -143,7 +143,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### SimulationRunImpl\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationDlg_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
 
 Simulations the run [implementation].
 
@@ -156,5 +156,4 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> [b write DFG].
-
 

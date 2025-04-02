@@ -1,4 +1,4 @@
-# Class DoubleClickOperation
+#  Class DoubleClickOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### DoubleClickOperation\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Operation_DoubleClickOperation__ctor_VM_Managed_ObjectBase_"></a> DoubleClickOperation\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Operation.DoubleClickOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -93,7 +93,7 @@ The object.
 
 ## Properties
 
-### ExecutableOnHold
+### <a id="VM_Managed_DAFUL_Operation_DoubleClickOperation_ExecutableOnHold"></a> ExecutableOnHold
 
 Gets a value indicating whether [executable on hold].
 
@@ -105,7 +105,7 @@ protected override bool ExecutableOnHold { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsHistoryMerge
+### <a id="VM_Managed_DAFUL_Operation_DoubleClickOperation_IsHistoryMerge"></a> IsHistoryMerge
 
 Gets the history merge flag.
 
@@ -117,7 +117,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_DoubleClickOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -131,12 +131,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_DoubleClickOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

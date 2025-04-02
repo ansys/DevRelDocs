@@ -1,4 +1,4 @@
-# Class HarmonicDrive.GetFacewithPointAndDirection
+#  Class HarmonicDrive.GetFacewithPointAndDirection
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBldHarmonicDrive.dll  
@@ -20,7 +20,7 @@ public class HarmonicDrive.GetFacewithPointAndDirection
 
 ## Constructors
 
-### GetFacewithPointAndDirection\(\)
+### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_GetFacewithPointAndDirection__ctor"></a> GetFacewithPointAndDirection\(\)
 
 ```csharp
 public GetFacewithPointAndDirection()
@@ -28,7 +28,7 @@ public GetFacewithPointAndDirection()
 
 ## Properties
 
-### CenterPoint
+### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_GetFacewithPointAndDirection_CenterPoint"></a> CenterPoint
 
 Gets and sets the point.
 
@@ -40,7 +40,7 @@ public Vector CenterPoint { get; set; }
 
  Vector
 
-### NormalDirection
+### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_GetFacewithPointAndDirection_NormalDirection"></a> NormalDirection
 
 Gets and sets the normal direction.
 
@@ -52,7 +52,7 @@ public Vector NormalDirection { get; set; }
 
  Vector
 
-### TargetKey
+### <a id="VM_Managed_DAFUL_Builder_HarmonicDrive_GetFacewithPointAndDirection_TargetKey"></a> TargetKey
 
 Gets and sets the body.
 
@@ -63,5 +63,4 @@ public KeyInfo TargetKey { get; set; }
 #### Property Value
 
  KeyInfo
-
 

@@ -1,4 +1,4 @@
-# Enum DFMFFileType
+#  Enum DFMFFileType
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -16,5 +16,4 @@ public enum DFMFFileType
 `FE = 1` 
 
 `ImportedCondensedPart = 4` 
-
 

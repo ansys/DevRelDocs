@@ -1,4 +1,4 @@
-# Class FourPostAnalysisConfigurationBase
+#  Class FourPostAnalysisConfigurationBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -194,7 +194,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### FourPostAnalysisConfigurationBase\(\)
+### <a id="VM_Managed_DAFUL_Car_FourPostAnalysisConfigurationBase__ctor"></a> FourPostAnalysisConfigurationBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TireAnalysisConfigurationBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -204,7 +204,7 @@ public FourPostAnalysisConfigurationBase()
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_FourPostAnalysisConfigurationBase_Analysis"></a> Analysis
 
 Gets or sets the analysis.
 
@@ -216,7 +216,7 @@ public abstract AnalysisBase Analysis { get; set; }
 
  AnalysisBase
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_FourPostAnalysisConfigurationBase_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -228,7 +228,7 @@ protected abstract string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_FourPostAnalysisConfigurationBase_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -240,7 +240,7 @@ public abstract FourPostAnalysisType AnalysisType { get; }
 
  [FourPostAnalysisType](VM.Managed.DAFUL.Car.FourPostAnalysisType.md)
 
-### RoadDataPath
+### <a id="VM_Managed_DAFUL_Car_FourPostAnalysisConfigurationBase_RoadDataPath"></a> RoadDataPath
 
 Gets or sets the road data file path.
 
@@ -252,7 +252,7 @@ public string RoadDataPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RoadRefFrameName
+### <a id="VM_Managed_DAFUL_Car_FourPostAnalysisConfigurationBase_RoadRefFrameName"></a> RoadRefFrameName
 
 Get Roadreference frame name
 
@@ -264,7 +264,7 @@ public string RoadRefFrameName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RoadReferencePosition
+### <a id="VM_Managed_DAFUL_Car_FourPostAnalysisConfigurationBase_RoadReferencePosition"></a> RoadReferencePosition
 
 Get reference position of the road
 
@@ -275,5 +275,4 @@ public Vector RoadReferencePosition { get; }
 #### Property Value
 
  Vector
-
 

@@ -1,4 +1,4 @@
-# Enum FilmThcknessType
+#  Enum FilmThcknessType
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -26,7 +26,6 @@ Thickness is defined differently for each element in the width direction.
 `Multi_Longitudinal = 1` 
 
 Thickness is defined differently for each element in the longitudinal direction.
-
 
 
 

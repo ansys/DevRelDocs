@@ -1,4 +1,4 @@
-# Interface ISymmetricMultiBuilder
+#  Interface ISymmetricMultiBuilder
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface ISymmetricMultiBuilder
 
 ## Methods
 
-### UpdateBuild\(Builder, Builder, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_ISymmetricMultiBuilder_UpdateBuild_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateBuild\(Builder, Builder, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -52,5 +52,4 @@ update document.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

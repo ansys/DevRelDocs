@@ -1,4 +1,4 @@
-# Class DocModifiedInfo
+#  Class DocModifiedInfo
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -27,7 +27,7 @@ public abstract class DocModifiedInfo
 
 ## Constructors
 
-### DocModifiedInfo\(\)
+### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfo__ctor"></a> DocModifiedInfo\(\)
 
 ```csharp
 protected DocModifiedInfo()
@@ -35,7 +35,7 @@ protected DocModifiedInfo()
 
 ## Properties
 
-### FilePath
+### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfo_FilePath"></a> FilePath
 
 Gets the file path.
 
@@ -47,7 +47,7 @@ public abstract string FilePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Status
+### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfo_Status"></a> Status
 
 Gets the status.
 
@@ -61,7 +61,7 @@ public DocModifiedInfo.FileStatus Status { get; }
 
 ## Methods
 
-### Cleanup\(\)
+### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfo_Cleanup"></a> Cleanup\(\)
 
 Cleanups this instance.
 
@@ -69,12 +69,11 @@ Cleanups this instance.
 public virtual void Cleanup()
 ```
 
-### DocumentSaved\(\)
+### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfo_DocumentSaved"></a> DocumentSaved\(\)
 
 Documents the saved.
 
 ```csharp
 public void DocumentSaved()
 ```
-
 

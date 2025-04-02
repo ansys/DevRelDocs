@@ -1,4 +1,4 @@
-# Class ToothStiffness
+#  Class ToothStiffness
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ToothStiffness\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness__ctor"></a> ToothStiffness\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ToothStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ public ToothStiffness()
 
 ## Properties
 
-### BeamToothSplineValues
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_BeamToothSplineValues"></a> BeamToothSplineValues
 
 Gets or sets the beam tooth spline values.
 
@@ -130,7 +130,7 @@ SplineValue list is null.
 or
 SplineValue is null.
 
-### FEToothSplineValues
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_FEToothSplineValues"></a> FEToothSplineValues
 
 Gets or sets the fe tooth spline values.
 
@@ -152,7 +152,7 @@ SplineValue list is null.
 or
 SplineValue is null.
 
-### ISO6336ToothSplineValues
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_ISO6336ToothSplineValues"></a> ISO6336ToothSplineValues
 
 Gets or sets the is o6336 tooth spline values.
 
@@ -174,7 +174,7 @@ SplineValue list is null.
 or
 SplineValue is null.
 
-### MethodTypes
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_MethodTypes"></a> MethodTypes
 
 Gets or sets the method types.
 
@@ -194,7 +194,7 @@ MethodType list is null.
 or
 MethodType list is null.
 
-### UserInputFilePaths
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_UserInputFilePaths"></a> UserInputFilePaths
 
 Gets or sets the user input file paths.
 
@@ -214,7 +214,7 @@ UserInputFilePath list is null.
 or
 UserInputFilePath list is null.
 
-### UserInputToothSplineValues
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_UserInputToothSplineValues"></a> UserInputToothSplineValues
 
 Gets or sets the user input tooth spline values.
 
@@ -238,7 +238,7 @@ SplineValue is null.
 
 ## Methods
 
-### GetAllSplineValue\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_GetAllSplineValue"></a> GetAllSplineValue\(\)
 
 Gets all spline value.
 
@@ -250,7 +250,7 @@ public SplineValue[] GetAllSplineValue()
 
  SplineValue\[\]
 
-### GetSplineValue\(MethodType, int\)
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_GetSplineValue_VM_Managed_DAFUL_GearTrain_ToothStiffness_MethodType_System_Int32_"></a> GetSplineValue\(MethodType, int\)
 
 Gets the spline value.
 
@@ -272,7 +272,7 @@ Index of the n.
 
  SplineValue
 
-### GetSplineValue\(int\)
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_GetSplineValue_System_Int32_"></a> GetSplineValue\(int\)
 
 Gets the spline value.
 
@@ -290,7 +290,7 @@ Index of the n.
 
  SplineValue
 
-### InitChild\(int\)
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_InitChild_System_Int32_"></a> InitChild\(int\)
 
 Initializes the child.
 
@@ -304,7 +304,7 @@ public override void InitChild(int nNum)
 
 The n number.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -318,7 +318,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### RemoveSplineValue\(MethodType, int\)
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_RemoveSplineValue_VM_Managed_DAFUL_GearTrain_ToothStiffness_MethodType_System_Int32_"></a> RemoveSplineValue\(MethodType, int\)
 
 Removes the spline value.
 
@@ -336,7 +336,7 @@ The type.
 
 Index of the n.
 
-### ReplaceSplineValue\(MethodType, int, SplineValue\)
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_ReplaceSplineValue_VM_Managed_DAFUL_GearTrain_ToothStiffness_MethodType_System_Int32_VM_Managed_DAFUL_SplineValue_"></a> ReplaceSplineValue\(MethodType, int, SplineValue\)
 
 Replaces the spline value.
 
@@ -358,7 +358,7 @@ Index of the n.
 
 The sv.
 
-### SetMethodType\(int, MethodType\)
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_SetMethodType_System_Int32_VM_Managed_DAFUL_GearTrain_ToothStiffness_MethodType_"></a> SetMethodType\(int, MethodType\)
 
 Sets the type of the method.
 
@@ -376,7 +376,7 @@ Index of the n.
 
 The type method.
 
-### SetUserInputFilePath\(int, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_ToothStiffness_SetUserInputFilePath_System_Int32_System_String_"></a> SetUserInputFilePath\(int, string\)
 
 Sets the user input file path.
 
@@ -393,5 +393,4 @@ Index of the n.
 `strUserInputFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The string user input file path.
-
 

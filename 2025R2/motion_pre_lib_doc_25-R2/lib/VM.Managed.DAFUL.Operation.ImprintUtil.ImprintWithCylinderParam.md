@@ -1,4 +1,4 @@
-# Class ImprintUtil.ImprintWithCylinderParam
+#  Class ImprintUtil.ImprintWithCylinderParam
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOP.dll  
@@ -22,7 +22,7 @@ public class ImprintUtil.ImprintWithCylinderParam
 
 ## Constructors
 
-### ImprintWithCylinderParam\(\)
+### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCylinderParam__ctor"></a> ImprintWithCylinderParam\(\)
 
 ```csharp
 public ImprintWithCylinderParam()
@@ -30,7 +30,7 @@ public ImprintWithCylinderParam()
 
 ## Properties
 
-### Bottom
+### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCylinderParam_Bottom"></a> Bottom
 
 Gets and sets the bottom.
 
@@ -42,7 +42,7 @@ public Vector Bottom { get; set; }
 
  Vector
 
-### Radius
+### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCylinderParam_Radius"></a> Radius
 
 Gets and sets the radius.
 
@@ -54,7 +54,7 @@ public double Radius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TargetKey
+### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCylinderParam_TargetKey"></a> TargetKey
 
 Gets and sets the body.
 
@@ -66,7 +66,7 @@ public KeyInfo TargetKey { get; set; }
 
  KeyInfo
 
-### Top
+### <a id="VM_Managed_DAFUL_Operation_ImprintUtil_ImprintWithCylinderParam_Top"></a> Top
 
 Gets and sets the top.
 
@@ -77,5 +77,4 @@ public Vector Top { get; set; }
 #### Property Value
 
  Vector
-
 

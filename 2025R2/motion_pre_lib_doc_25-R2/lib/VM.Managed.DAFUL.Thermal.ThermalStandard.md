@@ -1,4 +1,4 @@
-# Class ThermalStandard
+#  Class ThermalStandard
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -76,7 +76,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ThermalStandard\(\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalStandard__ctor"></a> ThermalStandard\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -84,7 +84,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalSt
 public ThermalStandard()
 ```
 
-### ThermalStandard\(PropertyThermalBase\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalStandard__ctor_VM_Managed_DAFUL_Thermal_PropertyThermalBase_"></a> ThermalStandard\(PropertyThermalBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -100,7 +100,7 @@ The owner thermal propery.
 
 ## Properties
 
-### ThermalFunctions
+### <a id="VM_Managed_DAFUL_Thermal_ThermalStandard_ThermalFunctions"></a> ThermalFunctions
 
 Get or set the thermal functions.
 
@@ -112,7 +112,7 @@ public FunctionAndUnit[] ThermalFunctions { get; set; }
 
  [FunctionAndUnit](VM.Managed.DAFUL.Thermal.FunctionAndUnit.md)\[\]
 
-### Type
+### <a id="VM_Managed_DAFUL_Thermal_ThermalStandard_Type"></a> Type
 
 Gets the function type.
 
@@ -126,7 +126,7 @@ public override ThermalFunction.FunctionType Type { get; }
 
 ## Methods
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalStandard_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 <p>Called when [deserialization].</p>
 
@@ -139,5 +139,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 <p>The sender.</p>
-
 

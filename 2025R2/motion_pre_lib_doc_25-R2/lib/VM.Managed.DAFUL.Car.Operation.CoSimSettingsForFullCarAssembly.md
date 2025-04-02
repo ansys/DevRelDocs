@@ -1,4 +1,4 @@
-# Class CoSimSettingsForFullCarAssembly
+#  Class CoSimSettingsForFullCarAssembly
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -112,7 +112,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### CoSimSettingsForFullCarAssembly\(Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_CoSimSettingsForFullCarAssembly__ctor_VM_Managed_Document_"></a> CoSimSettingsForFullCarAssembly\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.CoSimSettingsForFullCarAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -126,7 +126,7 @@ public CoSimSettingsForFullCarAssembly(Document doc)
 
 The doc.
 
-### CoSimSettingsForFullCarAssembly\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_CoSimSettingsForFullCarAssembly__ctor_VM_Managed_Operation_JournalParameter_"></a> CoSimSettingsForFullCarAssembly\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.CoSimSettingsForFullCarAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -140,7 +140,7 @@ public CoSimSettingsForFullCarAssembly(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_CoSimSettingsForFullCarAssembly_Name"></a> Name
 
 Gets the operation name.
 
@@ -152,7 +152,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UseCoSim
+### <a id="VM_Managed_DAFUL_Car_Operation_CoSimSettingsForFullCarAssembly_UseCoSim"></a> UseCoSim
 
 Gets a value indicating whether [use co sim].
 
@@ -166,7 +166,7 @@ protected override bool UseCoSim { get; }
 
 ## Methods
 
-### ExecuteImpl\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_CoSimSettingsForFullCarAssembly_ExecuteImpl"></a> ExecuteImpl\(\)
 
 Executes [implementation].
 
@@ -174,7 +174,7 @@ Executes [implementation].
 protected override void ExecuteImpl()
 ```
 
-### UpdateUI\(IUIUpdate, Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_CoSimSettingsForFullCarAssembly_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -191,5 +191,4 @@ The updater.
 `doc` Document
 
 The document.
-
 

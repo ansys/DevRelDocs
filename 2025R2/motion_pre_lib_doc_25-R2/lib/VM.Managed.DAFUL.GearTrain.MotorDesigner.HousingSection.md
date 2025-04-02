@@ -1,4 +1,4 @@
-# Class MotorDesigner.HousingSection
+#  Class MotorDesigner.HousingSection
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### HousingSection\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection__ctor"></a> HousingSection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.HousingSection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public HousingSection()
 
 ## Properties
 
-### BearingRBEs
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_BearingRBEs"></a> BearingRBEs
 
 Gets or sets the rbe for bearing.
 
@@ -118,7 +118,7 @@ public MotorDesigner.RBECreator[] BearingRBEs { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[RBECreator](VM.Managed.DAFUL.GearTrain.MotorDesigner.RBECreator.md)\[\]
 
-### Hr
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_Hr"></a> Hr
 
 Gets or sets the Hr.
 
@@ -130,7 +130,7 @@ public ExpressionValueVariable Hr { get; set; }
 
  ExpressionValueVariable
 
-### LengthSet
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_LengthSet"></a> LengthSet
 
 Gets or sets the length set.
 
@@ -142,7 +142,7 @@ public Variable[] LengthSet { get; set; }
 
  Variable\[\]
 
-### MTGBoltDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_MTGBoltDiameter"></a> MTGBoltDiameter
 
 Gets or sets the MTG bolt diameter.
 
@@ -154,7 +154,7 @@ public ExpressionValueVariable MTGBoltDiameter { get; set; }
 
  ExpressionValueVariable
 
-### Material
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_Material"></a> Material
 
 Gets or sets the material.
 
@@ -166,7 +166,7 @@ public IMaterial Material { get; set; }
 
  IMaterial
 
-### MountRBEs
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_MountRBEs"></a> MountRBEs
 
 Gets or sets the rbe for mount.
 
@@ -178,7 +178,7 @@ public MotorDesigner.RBECreator[] MountRBEs { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[RBECreator](VM.Managed.DAFUL.GearTrain.MotorDesigner.RBECreator.md)\[\]
 
-### NumberOfMountingBolt
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_NumberOfMountingBolt"></a> NumberOfMountingBolt
 
 Gets or sets the number of mounting bolt.
 
@@ -190,7 +190,7 @@ public ExpressionValueVariable NumberOfMountingBolt { get; set; }
 
  ExpressionValueVariable
 
-### NumberOfRib
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_NumberOfRib"></a> NumberOfRib
 
 Gets or sets the number of rib.
 
@@ -202,7 +202,7 @@ public ExpressionValueVariable NumberOfRib { get; set; }
 
  ExpressionValueVariable
 
-### RibType
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_RibType"></a> RibType
 
 Gets or sets the rib type
 
@@ -214,7 +214,7 @@ public MotorDesigner.HousingSection.Rib RibType { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[HousingSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.HousingSection.md).[Rib](VM.Managed.DAFUL.GearTrain.MotorDesigner.HousingSection.Rib.md)
 
-### StatorMountingDirectionType
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_StatorMountingDirectionType"></a> StatorMountingDirectionType
 
 Gets or sets the stator mounting direction type
 
@@ -226,7 +226,7 @@ public MotorDesigner.HousingSection.StatorMountingDirection StatorMountingDirect
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[HousingSection](VM.Managed.DAFUL.GearTrain.MotorDesigner.HousingSection.md).[StatorMountingDirection](VM.Managed.DAFUL.GearTrain.MotorDesigner.HousingSection.StatorMountingDirection.md)
 
-### StatorRBEs
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_StatorRBEs"></a> StatorRBEs
 
 Gets or sets the rbe for stator.
 
@@ -238,7 +238,7 @@ public MotorDesigner.RBECreator[] StatorRBEs { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[RBECreator](VM.Managed.DAFUL.GearTrain.MotorDesigner.RBECreator.md)\[\]
 
-### ThicknessSet
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_ThicknessSet"></a> ThicknessSet
 
 Gets or sets the thickness set.
 
@@ -250,7 +250,7 @@ public Variable[] ThicknessSet { get; set; }
 
  Variable\[\]
 
-### TieContact
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_TieContact"></a> TieContact
 
 Gets or sets the tie.
 
@@ -262,7 +262,7 @@ public Tie TieContact { get; set; }
 
  Tie
 
-### Wr
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_Wr"></a> Wr
 
 Gets or sets the Wr.
 
@@ -274,7 +274,7 @@ public ExpressionValueVariable Wr { get; set; }
 
  ExpressionValueVariable
 
-### \_Material
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection__Material"></a> \_Material
 
 Gets or sets the material.
 
@@ -288,7 +288,7 @@ public Linker<IMaterial> _Material { get; set; }
 
 ## Methods
 
-### CreateBuilder\(Document\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_CreateBuilder_VM_Managed_Document_"></a> CreateBuilder\(Document\)
 
 Create builder
 
@@ -306,7 +306,7 @@ The document
 
  [MotorHousingBuiler](VM.Managed.DAFUL.GearTrain.MotorHousingBuiler.md)
 
-### GetMeasureBottomSideLowerPoint\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_GetMeasureBottomSideLowerPoint"></a> GetMeasureBottomSideLowerPoint\(\)
 
 Gets measure bottom side point
 
@@ -318,7 +318,7 @@ public Vector GetMeasureBottomSideLowerPoint()
 
  Vector
 
-### GetMeasureBottomSidePoint\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_GetMeasureBottomSidePoint"></a> GetMeasureBottomSidePoint\(\)
 
 Gets measure bottom side point
 
@@ -330,7 +330,7 @@ public Vector GetMeasureBottomSidePoint()
 
  Vector
 
-### GetMeasureBottomSideUpperPoint\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_GetMeasureBottomSideUpperPoint"></a> GetMeasureBottomSideUpperPoint\(\)
 
 Gets measure bottom side upper point
 
@@ -342,7 +342,7 @@ public Vector GetMeasureBottomSideUpperPoint()
 
  Vector
 
-### GetMeasureRearCoverCenterPoint\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_GetMeasureRearCoverCenterPoint"></a> GetMeasureRearCoverCenterPoint\(\)
 
 Gets the measure rear cover center point
 
@@ -354,7 +354,7 @@ public Vector GetMeasureRearCoverCenterPoint()
 
  Vector
 
-### GetMeasureTopSideLowerPoint\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_GetMeasureTopSideLowerPoint"></a> GetMeasureTopSideLowerPoint\(\)
 
 Gets measure top side lower point
 
@@ -366,7 +366,7 @@ public Vector GetMeasureTopSideLowerPoint()
 
  Vector
 
-### GetMeasureTopSidePoint\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_GetMeasureTopSidePoint"></a> GetMeasureTopSidePoint\(\)
 
 Gets measure top side point
 
@@ -378,7 +378,7 @@ public Vector GetMeasureTopSidePoint()
 
  Vector
 
-### GetMeasureTopSideUpperPoint\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_GetMeasureTopSideUpperPoint"></a> GetMeasureTopSideUpperPoint\(\)
 
 Gets measure top side upper point
 
@@ -390,7 +390,7 @@ public Vector GetMeasureTopSideUpperPoint()
 
  Vector
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -404,7 +404,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_HousingSection_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -417,5 +417,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

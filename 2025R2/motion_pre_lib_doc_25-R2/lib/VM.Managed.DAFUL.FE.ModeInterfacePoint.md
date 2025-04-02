@@ -1,4 +1,4 @@
-# Class ModeInterfacePoint
+#  Class ModeInterfacePoint
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -179,7 +179,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ModeInterfacePoint\(string, Vector\)
+### <a id="VM_Managed_DAFUL_FE_ModeInterfacePoint__ctor_System_String_VM_Managed_Vector_"></a> ModeInterfacePoint\(string, Vector\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ModeInterfacePoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -197,7 +197,7 @@ The name of [mode interface point].
 
 The node position.
 
-### ModeInterfacePoint\(\)
+### <a id="VM_Managed_DAFUL_FE_ModeInterfacePoint__ctor"></a> ModeInterfacePoint\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ModeInterfacePoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -207,7 +207,7 @@ public ModeInterfacePoint()
 
 ## Properties
 
-### IsHide
+### <a id="VM_Managed_DAFUL_FE_ModeInterfacePoint_IsHide"></a> IsHide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -219,7 +219,7 @@ bool IsHide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsVisible
+### <a id="VM_Managed_DAFUL_FE_ModeInterfacePoint_IsVisible"></a> IsVisible
 
 Gets or sets a value indicating whether object is visible.
 
@@ -231,7 +231,7 @@ bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Layer
+### <a id="VM_Managed_DAFUL_FE_ModeInterfacePoint_Layer"></a> Layer
 
 Gets or sets the layer.
 
@@ -243,7 +243,7 @@ Layer Layer { get; set; }
 
  Layer
 
-### Position
+### <a id="VM_Managed_DAFUL_FE_ModeInterfacePoint_Position"></a> Position
 
 Gets or sets the position of interface node.
 
@@ -257,7 +257,7 @@ public Vector Position { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_FE_ModeInterfacePoint_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -271,7 +271,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_FE_ModeInterfacePoint_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -291,7 +291,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_FE_ModeInterfacePoint_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -319,7 +319,7 @@ if set to <code>true</code> [b has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### ReDraw\(\)
+### <a id="VM_Managed_DAFUL_FE_ModeInterfacePoint_ReDraw"></a> ReDraw\(\)
 
 Redraw.
 
@@ -327,12 +327,11 @@ Redraw.
 virtual void ReDraw()
 ```
 
-### ReDrawForHistory\(\)
+### <a id="VM_Managed_DAFUL_FE_ModeInterfacePoint_ReDrawForHistory"></a> ReDrawForHistory\(\)
 
 Redraw for undo/redo
 
 ```csharp
 void ReDrawForHistory()
 ```
-
 

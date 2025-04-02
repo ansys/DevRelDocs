@@ -1,4 +1,4 @@
-# Class SolidBodyRoller
+#  Class SolidBodyRoller
 
 Namespace: [VM.Managed.DAFUL.Builder.Roller](VM.Managed.DAFUL.Builder.Roller.md)  
 Assembly: VMBldRoller.dll  
@@ -61,7 +61,7 @@ BuilderBase<SolidBodyRoller\>.ErrorMessage
 
 ## Constructors
 
-### SolidBodyRoller\(\)
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidBodyRoller__ctor"></a> SolidBodyRoller\(\)
 
 ```csharp
 protected SolidBodyRoller()
@@ -69,7 +69,7 @@ protected SolidBodyRoller()
 
 ## Fields
 
-### m\_TreadRadius
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidBodyRoller_m_TreadRadius"></a> m\_TreadRadius
 
 ```csharp
 protected double m_TreadRadius
@@ -81,7 +81,7 @@ protected double m_TreadRadius
 
 ## Properties
 
-### AddToDoc
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidBodyRoller_AddToDoc"></a> AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -91,7 +91,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Color
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidBodyRoller_Color"></a> Color
 
 ```csharp
 public string Color { get; set; }
@@ -101,7 +101,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Interface
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidBodyRoller_Interface"></a> Interface
 
 ```csharp
 public bool Interface { get; set; }
@@ -113,7 +113,7 @@ public bool Interface { get; set; }
 
 ## Methods
 
-### GetCurrentSolidBuilder\(\)
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidBodyRoller_GetCurrentSolidBuilder"></a> GetCurrentSolidBuilder\(\)
 
 ```csharp
 protected virtual Builder GetCurrentSolidBuilder()
@@ -123,7 +123,7 @@ protected virtual Builder GetCurrentSolidBuilder()
 
  Builder
 
-### OnPostAddDoc\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidBodyRoller_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -133,7 +133,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidBodyRoller_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -148,5 +148,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Class LinkOwnerNullExeption
+#  Class LinkOwnerNullExeption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class LinkOwnerNullExeption : Exception
 
 ## Constructors
 
-### LinkOwnerNullExeption\(string\)
+### <a id="VM_Managed_LinkOwnerNullExeption__ctor_System_String_"></a> LinkOwnerNullExeption\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.LinkOwnerNullExeption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,5 +36,4 @@ public LinkOwnerNullExeption(string strMessage)
 `strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The error message.
-
 

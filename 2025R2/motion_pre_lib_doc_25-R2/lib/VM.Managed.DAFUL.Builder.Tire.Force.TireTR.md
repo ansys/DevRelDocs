@@ -1,4 +1,4 @@
-# Class TireTR
+#  Class TireTR
 
 Namespace: [VM.Managed.DAFUL.Builder.Tire.Force](VM.Managed.DAFUL.Builder.Tire.Force.md)  
 Assembly: VMBldTire.dll  
@@ -69,7 +69,7 @@ BuilderBase<Tire\>.ErrorMessage
 
 ## Constructors
 
-### TireTR\(\)
+### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTR__ctor"></a> TireTR\(\)
 
 ```csharp
 public TireTR()
@@ -77,7 +77,7 @@ public TireTR()
 
 ## Properties
 
-### LongitudinalVelocity
+### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTR_LongitudinalVelocity"></a> LongitudinalVelocity
 
 ```csharp
 public Variable LongitudinalVelocity { get; set; }
@@ -87,7 +87,7 @@ public Variable LongitudinalVelocity { get; set; }
 
  Variable
 
-### RoadFilePath
+### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTR_RoadFilePath"></a> RoadFilePath
 
 ```csharp
 public string RoadFilePath { get; set; }
@@ -97,7 +97,7 @@ public string RoadFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SpinVelocity
+### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTR_SpinVelocity"></a> SpinVelocity
 
 ```csharp
 public Variable SpinVelocity { get; set; }
@@ -109,7 +109,7 @@ public Variable SpinVelocity { get; set; }
 
 ## Methods
 
-### MakeWheelBody\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTR_MakeWheelBody_VM_Managed_Document_"></a> MakeWheelBody\(Document\)
 
 ```csharp
 protected override WheelBodyBase MakeWheelBody(Document doc)
@@ -123,7 +123,7 @@ protected override WheelBodyBase MakeWheelBody(Document doc)
 
  WheelBodyBase
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTR_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -139,7 +139,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetDataWheelBody\(WheelBodyBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Tire_Force_TireTR_SetDataWheelBody_VM_Managed_DAFUL_Tire_WheelBodyBase_VM_Managed_Document_"></a> SetDataWheelBody\(WheelBodyBase, Document\)
 
 ```csharp
 protected override void SetDataWheelBody(WheelBodyBase wheel, Document doc)
@@ -150,5 +150,4 @@ protected override void SetDataWheelBody(WheelBodyBase wheel, Document doc)
 `wheel` WheelBodyBase
 
 `doc` Document
-
 

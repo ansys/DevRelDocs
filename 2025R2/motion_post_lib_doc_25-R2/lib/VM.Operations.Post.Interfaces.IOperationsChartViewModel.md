@@ -1,4 +1,4 @@
-# Interface IOperationsChartViewModel
+#  Interface IOperationsChartViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -64,7 +64,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### Legend
+### <a id="VM_Operations_Post_Interfaces_IOperationsChartViewModel_Legend"></a> Legend
 
 Get or sets the legend for the chart.
 
@@ -88,7 +88,7 @@ specific requirements.
 
 ## Methods
 
-### ImportNumeric\(string, List<INumericParameter\>\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsChartViewModel_ImportNumeric_System_String_System_Collections_Generic_List_VM_ViewModels_Post_INumericParameter__"></a> ImportNumeric\(string, List<INumericParameter\>\)
 
 Imports curve data from an external file and adds the curves to the chart view.
 

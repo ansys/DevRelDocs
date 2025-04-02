@@ -1,4 +1,4 @@
-# Enum PartDocument.MassPropertyType
+#  Enum PartDocument.MassPropertyType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -26,7 +26,6 @@ The default mass.
 `User = 1` 
 
 User defined mass property
-
 
 
 

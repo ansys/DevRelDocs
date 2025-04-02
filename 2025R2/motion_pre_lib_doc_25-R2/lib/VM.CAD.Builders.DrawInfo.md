@@ -1,4 +1,4 @@
-# Class DrawInfo
+#  Class DrawInfo
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -27,10 +27,9 @@ public abstract class DrawInfo
 
 ## Constructors
 
-### DrawInfo\(\)
+### <a id="VM_CAD_Builders_DrawInfo__ctor"></a> DrawInfo\(\)
 
 ```csharp
 protected DrawInfo()
 ```
-
 

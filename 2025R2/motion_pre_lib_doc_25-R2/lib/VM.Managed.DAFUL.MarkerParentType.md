@@ -1,4 +1,4 @@
-# Enum MarkerParentType
+#  Enum MarkerParentType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -50,7 +50,6 @@ rigid body element
 `RBODY = 3` 
 
 rigid body
-
 
 
 

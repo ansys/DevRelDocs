@@ -1,4 +1,4 @@
-# Interface IFaceInformation
+#  Interface IFaceInformation
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IFaceInformation
 
 ## Methods
 
-### GetMinimumDistance\(IFaceInformation, TMatrix, TMatrix, double\)
+### <a id="VM_Managed_IFaceInformation_GetMinimumDistance_VM_Managed_IFaceInformation_VM_Managed_TMatrix_VM_Managed_TMatrix_System_Double_"></a> GetMinimumDistance\(IFaceInformation, TMatrix, TMatrix, double\)
 
 Gets the minimum distance.
 
@@ -49,7 +49,7 @@ The length factor.
 
 The minimum distance.
 
-### GetMinimumDistanceAndDirection\(IFaceInformation, TMatrix, TMatrix, ref VectorBase\[\], double\)
+### <a id="VM_Managed_IFaceInformation_GetMinimumDistanceAndDirection_VM_Managed_IFaceInformation_VM_Managed_TMatrix_VM_Managed_TMatrix_VM_Managed_VectorBase____System_Double_"></a> GetMinimumDistanceAndDirection\(IFaceInformation, TMatrix, TMatrix, ref VectorBase\[\], double\)
 
 Gets the minimum distance.
 
@@ -85,7 +85,7 @@ The length factor.
 
 The minimum distance and direction.
 
-### GetPointAndConnectivity\(FacetOption, ref VectorBase\[\], ref int\[\], ref int\[\], Reference, double\)
+### <a id="VM_Managed_IFaceInformation_GetPointAndConnectivity_VM_Models_Pre_FacetOption_VM_Managed_VectorBase____System_Int32____System_Int32____VM_Managed_Reference_System_Double_"></a> GetPointAndConnectivity\(FacetOption, ref VectorBase\[\], ref int\[\], ref int\[\], Reference, double\)
 
 Get points and connectivity about face.
 
@@ -118,5 +118,4 @@ The reference.
 `dLengthFactor` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 The length factor.
-
 

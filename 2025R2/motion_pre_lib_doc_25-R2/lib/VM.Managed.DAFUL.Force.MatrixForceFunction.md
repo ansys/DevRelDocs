@@ -1,4 +1,4 @@
-# Class MatrixForceFunction
+#  Class MatrixForceFunction
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MatrixForceFunction\(\)
+### <a id="VM_Managed_DAFUL_Force_MatrixForceFunction__ctor"></a> MatrixForceFunction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.MatrixForceFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.MatrixForce
 protected MatrixForceFunction()
 ```
 
-### MatrixForceFunction\(PropertyMatrix\)
+### <a id="VM_Managed_DAFUL_Force_MatrixForceFunction__ctor_VM_Managed_DAFUL_Force_PropertyMatrix_"></a> MatrixForceFunction\(PropertyMatrix\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.MatrixForceFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -125,7 +125,7 @@ The owner matrix force property.
 
 ## Properties
 
-### IsUseSynchro
+### <a id="VM_Managed_DAFUL_Force_MatrixForceFunction_IsUseSynchro"></a> IsUseSynchro
 
 Gets or sets a value indicating whether this instance use synchronize.
 
@@ -137,7 +137,7 @@ public bool IsUseSynchro { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RefAngle
+### <a id="VM_Managed_DAFUL_Force_MatrixForceFunction_RefAngle"></a> RefAngle
 
 Gets or sets the reference angle.
 
@@ -149,7 +149,7 @@ public double[] RefAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### RefLength
+### <a id="VM_Managed_DAFUL_Force_MatrixForceFunction_RefLength"></a> RefLength
 
 Gets or sets the reference length.
 
@@ -161,7 +161,7 @@ public double[] RefLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### Type
+### <a id="VM_Managed_DAFUL_Force_MatrixForceFunction_Type"></a> Type
 
 Gets the function type.
 
@@ -175,7 +175,7 @@ public abstract MatrixForceFunction.FunctionType Type { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Force_MatrixForceFunction_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -189,7 +189,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReadTemplate\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Force_MatrixForceFunction_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -203,7 +203,7 @@ public virtual void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### WriteTemplate\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Force_MatrixForceFunction_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -216,5 +216,4 @@ public virtual void WriteTemplate(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

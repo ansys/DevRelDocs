@@ -1,4 +1,4 @@
-# Enum ToothProfileType
+#  Enum ToothProfileType
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -20,7 +20,6 @@ American Standards Association type.
 `BS = 0` 
 
 British Standards type
-
 
 
 

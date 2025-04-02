@@ -1,4 +1,4 @@
-# Interface IStdDialog
+#  Interface IStdDialog
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  
@@ -15,7 +15,7 @@ public interface IStdDialog
 
 ## Properties
 
-### Document
+### <a id="VM_NX_Dialog_IStdDialog_Document"></a> Document
 
 ```csharp
 object Document { get; set; }
@@ -25,7 +25,7 @@ object Document { get; set; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### Result
+### <a id="VM_NX_Dialog_IStdDialog_Result"></a> Result
 
 ```csharp
 XmlDocument Result { get; }
@@ -37,7 +37,7 @@ XmlDocument Result { get; }
 
 ## Methods
 
-### Initialize\(string\)
+### <a id="VM_NX_Dialog_IStdDialog_Initialize_System_String_"></a> Initialize\(string\)
 
 ```csharp
 bool Initialize(string strInitInfo)
@@ -50,5 +50,4 @@ bool Initialize(string strInitInfo)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

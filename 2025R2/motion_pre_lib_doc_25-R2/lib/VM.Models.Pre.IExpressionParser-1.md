@@ -1,4 +1,4 @@
-# Interface IExpressionParser<T\>
+#  Interface IExpressionParser<T\>
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -19,7 +19,7 @@ public interface IExpressionParser<T>
 
 ## Methods
 
-### Parse\(string\)
+### <a id="VM_Models_Pre_IExpressionParser_1_Parse_System_String_"></a> Parse\(string\)
 
 ```csharp
 T Parse(string expression)
@@ -32,5 +32,4 @@ T Parse(string expression)
 #### Returns
 
  T
-
 

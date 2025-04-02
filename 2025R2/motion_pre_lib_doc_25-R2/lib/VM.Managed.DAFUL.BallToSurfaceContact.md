@@ -1,4 +1,4 @@
-# Class BallToSurfaceContact
+#  Class BallToSurfaceContact
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -243,7 +243,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BallToSurfaceContact\(\)
+### <a id="VM_Managed_DAFUL_BallToSurfaceContact__ctor"></a> BallToSurfaceContact\(\)
 
 ```csharp
 public BallToSurfaceContact()
@@ -251,7 +251,7 @@ public BallToSurfaceContact()
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_BallToSurfaceContact_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -264,5 +264,4 @@ public override void Draw(Canvas canvas)
 `canvas` Canvas
 
 The canvas has icon information.
-
 

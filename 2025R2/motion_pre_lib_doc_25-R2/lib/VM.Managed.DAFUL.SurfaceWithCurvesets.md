@@ -1,4 +1,4 @@
-# Class SurfaceWithCurvesets
+#  Class SurfaceWithCurvesets
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -208,7 +208,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SurfaceWithCurvesets\(\)
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets__ctor"></a> SurfaceWithCurvesets\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SurfaceWithCurvesets" data-throw-if-not-resolved="false"></xref> class.
 
@@ -218,7 +218,7 @@ public SurfaceWithCurvesets()
 
 ## Properties
 
-### CuttingPlaneRadius
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_CuttingPlaneRadius"></a> CuttingPlaneRadius
 
 Gets or sets the cutting plane radius.
 
@@ -230,7 +230,7 @@ public ExpressionValueVariable CuttingPlaneRadius { get; set; }
 
  ExpressionValueVariable
 
-### EndCurveset
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_EndCurveset"></a> EndCurveset
 
 Gets or sets the end curveset.
 
@@ -242,7 +242,7 @@ public SetCurveForEdges EndCurveset { get; set; }
 
  SetCurveForEdges
 
-### Faceset
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_Faceset"></a> Faceset
 
 Gets or sets the faceset.
 
@@ -254,7 +254,7 @@ public SetFace Faceset { get; set; }
 
  SetFace
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -266,7 +266,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Hide
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_Hide"></a> Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -278,7 +278,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsNormalDirectionUp
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_IsNormalDirectionUp"></a> IsNormalDirectionUp
 
 Gets or sets a value indicating whether normal direction is up.
 
@@ -290,7 +290,7 @@ public bool IsNormalDirectionUp { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MaxPen
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_MaxPen"></a> MaxPen
 
 Gets or sets the maximum penentration.
 
@@ -302,7 +302,7 @@ public ExpressionValueVariable MaxPen { get; set; }
 
  ExpressionValueVariable
 
-### NumberOfSlice
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_NumberOfSlice"></a> NumberOfSlice
 
 Gets or sets the number of slice.
 
@@ -314,7 +314,7 @@ public ExpressionValueVariable NumberOfSlice { get; set; }
 
  ExpressionValueVariable
 
-### NumberOfSliceBetweenCurve
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_NumberOfSliceBetweenCurve"></a> NumberOfSliceBetweenCurve
 
 Gets or sets the number of slice between curve.
 
@@ -326,7 +326,7 @@ public ExpressionValueVariable NumberOfSliceBetweenCurve { get; set; }
 
  ExpressionValueVariable
 
-### Offset
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_Offset"></a> Offset
 
 Gets or sets the offset.
 
@@ -338,7 +338,7 @@ public ExpressionValueVariable Offset { get; set; }
 
  ExpressionValueVariable
 
-### Path
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_Path"></a> Path
 
 Gets or sets the path.
 
@@ -350,7 +350,7 @@ public List<Vector> Path { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### SliceInfos
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_SliceInfos"></a> SliceInfos
 
 Gets or sets the slice infos.
 
@@ -362,7 +362,7 @@ public SliceInfo[] SliceInfos { get; set; }
 
  [SliceInfo](VM.Managed.DAFUL.SliceInfo.md)\[\]
 
-### StartCurveset
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_StartCurveset"></a> StartCurveset
 
 Gets or sets the start curveset.
 
@@ -376,7 +376,7 @@ public SetCurveForEdges StartCurveset { get; set; }
 
 ## Methods
 
-### GetCurvesetsPoint\(\)
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_GetCurvesetsPoint"></a> GetCurvesetsPoint\(\)
 
 Get curvesets points.
 
@@ -390,7 +390,7 @@ public List<VectorBase[]> GetCurvesetsPoint()
 
 The curveset point list.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_SurfaceWithCurvesets_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -403,5 +403,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

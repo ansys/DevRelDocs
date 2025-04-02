@@ -1,4 +1,4 @@
-# Class BuilderEllipseCylinderSimple
+#  Class BuilderEllipseCylinderSimple
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -206,7 +206,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderEllipseCylinderSimple\(Variable, Variable, PointBase, PointBase, DirectionBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_PointBase_VM_Managed_PointBase_VM_Managed_DirectionBase_"></a> BuilderEllipseCylinderSimple\(Variable, Variable, PointBase, PointBase, DirectionBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -236,7 +236,7 @@ The top position of cylinder.
 
 The axis of cylinder.
 
-### BuilderEllipseCylinderSimple\(double, double, PointBase, PointBase, DirectionBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple__ctor_System_Double_System_Double_VM_Managed_PointBase_VM_Managed_PointBase_VM_Managed_DirectionBase_"></a> BuilderEllipseCylinderSimple\(double, double, PointBase, PointBase, DirectionBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -266,7 +266,7 @@ The top position of cylinder.
 
 The axis of cylinder.
 
-### BuilderEllipseCylinderSimple\(Variable, Variable, PointBase, PointBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_PointBase_VM_Managed_PointBase_"></a> BuilderEllipseCylinderSimple\(Variable, Variable, PointBase, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -292,7 +292,7 @@ The bottom position of cylinder.
 
 The top position of cylinder.
 
-### BuilderEllipseCylinderSimple\(double, double, PointBase, PointBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple__ctor_System_Double_System_Double_VM_Managed_PointBase_VM_Managed_PointBase_"></a> BuilderEllipseCylinderSimple\(double, double, PointBase, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -318,7 +318,7 @@ The bottom position of cylinder.
 
 The top position of cylinder.
 
-### BuilderEllipseCylinderSimple\(Variable, Variable, PointBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_PointBase_"></a> BuilderEllipseCylinderSimple\(Variable, Variable, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -340,7 +340,7 @@ The minor radius of cylinder(variable).
 
 The top position of cylinder.
 
-### BuilderEllipseCylinderSimple\(double, double, PointBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple__ctor_System_Double_System_Double_VM_Managed_PointBase_"></a> BuilderEllipseCylinderSimple\(double, double, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -362,7 +362,7 @@ The minor radius of cylinder.
 
 The top position of cylinder.
 
-### BuilderEllipseCylinderSimple\(Variable, Variable, Variable\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_"></a> BuilderEllipseCylinderSimple\(Variable, Variable, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -384,7 +384,7 @@ The minor radius of cylinder(variable).
 
 The height of cylinder(variable).
 
-### BuilderEllipseCylinderSimple\(double, double, double\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple__ctor_System_Double_System_Double_System_Double_"></a> BuilderEllipseCylinderSimple\(double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -406,7 +406,7 @@ The minor radius of cylinder.
 
 The height of cylinder.
 
-### BuilderEllipseCylinderSimple\(\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple__ctor"></a> BuilderEllipseCylinderSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseCylinderSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -416,7 +416,7 @@ public BuilderEllipseCylinderSimple()
 
 ## Properties
 
-### BottomPosition
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple_BottomPosition"></a> BottomPosition
 
 Gets or sets the bottom position of cylinder.
 
@@ -428,7 +428,7 @@ public PointBase BottomPosition { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### IsParameterized
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -440,7 +440,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MajorAxis
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple_MajorAxis"></a> MajorAxis
 
 Gets or sets the major axis of cylinder.
 
@@ -452,7 +452,7 @@ public DirectionBase MajorAxis { get; set; }
 
  [DirectionBase](VM.Managed.DirectionBase.md)
 
-### RadiusMajor
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple_RadiusMajor"></a> RadiusMajor
 
 Gets or sets the major radius of cylinder(variable).
 
@@ -464,7 +464,7 @@ public Variable RadiusMajor { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### RadiusMinor
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple_RadiusMinor"></a> RadiusMinor
 
 Gets or sets the minor radius of cylinder(variable).
 
@@ -476,7 +476,7 @@ public Variable RadiusMinor { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### TopPosition
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple_TopPosition"></a> TopPosition
 
 Gets or sets the top position of cylinder.
 
@@ -488,7 +488,7 @@ public PointBase TopPosition { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### \_BottomPosition
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple__BottomPosition"></a> \_BottomPosition
 
 Gets the bottom position of cylinder.
 
@@ -500,7 +500,7 @@ public override VectorBase _BottomPosition { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### \_MajorAxis
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple__MajorAxis"></a> \_MajorAxis
 
 ```csharp
 public override VectorBase _MajorAxis { get; }
@@ -510,7 +510,7 @@ public override VectorBase _MajorAxis { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### \_RadiusMajor
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple__RadiusMajor"></a> \_RadiusMajor
 
 Gets the major radius of cylinder.
 
@@ -522,7 +522,7 @@ public override double _RadiusMajor { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### \_RadiusMinor
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple__RadiusMinor"></a> \_RadiusMinor
 
 Gets the minor radius of cylinder(variable).
 
@@ -534,7 +534,7 @@ public override double _RadiusMinor { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### \_TopPosition
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple__TopPosition"></a> \_TopPosition
 
 Gets the top position of cylinder.
 
@@ -548,7 +548,7 @@ public override VectorBase _TopPosition { get; }
 
 ## Methods
 
-### ChangeDataForCircularReference\(\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple_ChangeDataForCircularReference"></a> ChangeDataForCircularReference\(\)
 
 Change data for circular reference.
 
@@ -556,7 +556,7 @@ Change data for circular reference.
 public override void ChangeDataForCircularReference()
 ```
 
-### CheckCircularReference\(ObjectBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple_CheckCircularReference_VM_Managed_ObjectBase_"></a> CheckCircularReference\(ObjectBase\)
 
 Check data for circular reference.
 
@@ -570,7 +570,7 @@ public override void CheckCircularReference(ObjectBase objCM)
 
 The CM.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -584,7 +584,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### SetTransform\(TMatrix\)
+### <a id="VM_Managed_CAD_BuilderEllipseCylinderSimple_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -597,5 +597,4 @@ public override void SetTransform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform info.
-
 

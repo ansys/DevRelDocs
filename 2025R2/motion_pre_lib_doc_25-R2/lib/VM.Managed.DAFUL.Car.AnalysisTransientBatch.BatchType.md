@@ -1,4 +1,4 @@
-# Enum AnalysisTransientBatch.BatchType
+#  Enum AnalysisTransientBatch.BatchType
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -20,7 +20,6 @@ Lateral
 `Longitudinal = 1` 
 
 Longitudinal
-
 
 
 

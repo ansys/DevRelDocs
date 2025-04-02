@@ -1,4 +1,4 @@
-# Class AnalysisFourPostRideInfo
+#  Class AnalysisFourPostRideInfo
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -22,7 +22,7 @@ public class AnalysisFourPostRideInfo
 
 ## Constructors
 
-### AnalysisFourPostRideInfo\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo__ctor"></a> AnalysisFourPostRideInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -30,7 +30,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisInfo"
 public AnalysisFourPostRideInfo()
 ```
 
-### AnalysisFourPostRideInfo\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisFourPostRideInfo\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,7 +46,7 @@ The lnk container.
 
 ## Fields
 
-### m\_pLnkContainer
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_m_pLnkContainer"></a> m\_pLnkContainer
 
 ```csharp
 protected ILinkContainer m_pLnkContainer
@@ -58,7 +58,7 @@ protected ILinkContainer m_pLnkContainer
 
 ## Properties
 
-### AccUnit
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_AccUnit"></a> AccUnit
 
 Gets or sets the acc unit.
 
@@ -70,7 +70,7 @@ public SloverFunctionAccUnit AccUnit { get; set; }
 
  SloverFunctionAccUnit
 
-### Active\_Actuators
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Active_Actuators"></a> Active\_Actuators
 
 Gets or sets the active actuators.
 
@@ -82,7 +82,7 @@ public ActiveActuators Active_Actuators { get; set; }
 
  ActiveActuators
 
-### Actuation\_Type
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Actuation_Type"></a> Actuation\_Type
 
 Gets or sets the ActuationType.
 
@@ -94,7 +94,7 @@ public ActuationType Actuation_Type { get; set; }
 
  ActuationType
 
-### AmplitudeValue
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_AmplitudeValue"></a> AmplitudeValue
 
 Gets or sets the Amplitude.
 
@@ -106,7 +106,7 @@ public double AmplitudeValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### BasisForNumOfOutputSteps
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_BasisForNumOfOutputSteps"></a> BasisForNumOfOutputSteps
 
 Gets or sets the Basis For Number Of Output Steps.
 
@@ -118,7 +118,7 @@ public BasisForNumOfOutputSteps BasisForNumOfOutputSteps { get; set; }
 
  BasisForNumOfOutputSteps
 
-### Calculated\_TimeLag
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Calculated_TimeLag"></a> Calculated\_TimeLag
 
 Gets or sets the Time Lag.
 
@@ -130,7 +130,7 @@ public double Calculated_TimeLag { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Calculated\_Wheelbase
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Calculated_Wheelbase"></a> Calculated\_Wheelbase
 
 Gets or sets the Calculated Wheelbase.
 
@@ -142,7 +142,7 @@ public double Calculated_Wheelbase { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### DispUnit
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_DispUnit"></a> DispUnit
 
 Gets or sets the disp unit.
 
@@ -154,7 +154,7 @@ public SloverFunctionDispUnit DispUnit { get; set; }
 
  SloverFunctionDispUnit
 
-### End\_Frequency
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_End_Frequency"></a> End\_Frequency
 
 Gets or sets the end frequency.
 
@@ -166,7 +166,7 @@ public double End_Frequency { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Excitation\_Mode
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Excitation_Mode"></a> Excitation\_Mode
 
 Gets or sets the excitation mode.
 
@@ -178,7 +178,7 @@ public ExcitationMode Excitation_Mode { get; set; }
 
  ExcitationMode
 
-### ForceUnit
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_ForceUnit"></a> ForceUnit
 
 Gets or sets the force unit.
 
@@ -190,7 +190,7 @@ public SloverFunctionForceUnit ForceUnit { get; set; }
 
  SloverFunctionForceUnit
 
-### Input\_Location
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Input_Location"></a> Input\_Location
 
 Gets or sets the input location.
 
@@ -202,7 +202,7 @@ public InputLocation Input_Location { get; set; }
 
  InputLocation
 
-### Input\_Source
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Input_Source"></a> Input\_Source
 
 Gets or sets the input source.
 
@@ -214,7 +214,7 @@ public InputSource Input_Source { get; set; }
 
  InputSource
 
-### LFront
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_LFront"></a> LFront
 
 Gets or sets the left front.
 
@@ -226,7 +226,7 @@ public string LFront { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### LRear
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_LRear"></a> LRear
 
 Gets or sets the left rear.
 
@@ -238,7 +238,7 @@ public string LRear { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### MinNo\_OutputStepsPerInput
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_MinNo_OutputStepsPerInput"></a> MinNo\_OutputStepsPerInput
 
 Gets or sets the Min.No.OfOutputSteps Per Input
 
@@ -250,7 +250,7 @@ public double MinNo_OutputStepsPerInput { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NumOfOutputsSteps
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_NumOfOutputsSteps"></a> NumOfOutputsSteps
 
 Gets or sets the Number Of Output Steps
 
@@ -262,7 +262,7 @@ public double NumOfOutputsSteps { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Output\_Frequency
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Output_Frequency"></a> Output\_Frequency
 
 Gets or sets the OutputFrequency
 
@@ -274,7 +274,7 @@ public double Output_Frequency { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Output\_Interval
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Output_Interval"></a> Output\_Interval
 
 Gets or sets the Output Inverval
 
@@ -286,7 +286,7 @@ public double Output_Interval { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RFront
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_RFront"></a> RFront
 
 Gets or sets the right front.
 
@@ -298,7 +298,7 @@ public string RFront { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RRear
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_RRear"></a> RRear
 
 Gets or sets the right rear.
 
@@ -310,7 +310,7 @@ public string RRear { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Spline\_File
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Spline_File"></a> Spline\_File
 
 Gets or sets the spline file.
 
@@ -322,7 +322,7 @@ public string Spline_File { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Start\_Frequency
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Start_Frequency"></a> Start\_Frequency
 
 Gets or sets the start frequency.
 
@@ -334,7 +334,7 @@ public double Start_Frequency { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TargetValue\_Basis
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_TargetValue_Basis"></a> TargetValue\_Basis
 
 Gets or sets the Target Value For Basis.
 
@@ -346,7 +346,7 @@ public double TargetValue_Basis { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Vechile\_Speed
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_Vechile_Speed"></a> Vechile\_Speed
 
 Gets or sets the VechileSpeed.
 
@@ -358,7 +358,7 @@ public double Vechile_Speed { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### VelUnit
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_VelUnit"></a> VelUnit
 
 Gets or sets the vel unit.
 
@@ -372,12 +372,11 @@ public SloverFunctionVelUnit VelUnit { get; set; }
 
 ## Methods
 
-### SetModified\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisFourPostRideInfo_SetModified"></a> SetModified\(\)
 
 Set modified flag.
 
 ```csharp
 protected void SetModified()
 ```
-
 

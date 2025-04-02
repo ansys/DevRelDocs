@@ -1,4 +1,4 @@
-# Class FilterArgs
+#  Class FilterArgs
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class FilterArgs : EventArgs
 
 ## Constructors
 
-### FilterArgs\(FilteringTarget\)
+### <a id="VM_Managed_Picker_Core_FilterArgs__ctor_VM_Managed_Picker_Core_FilteringTarget_"></a> FilterArgs\(FilteringTarget\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.FilterArgs" data-throw-if-not-resolved="false"></xref> class
 
@@ -37,7 +37,7 @@ public FilterArgs(FilteringTarget target)
 
 ## Properties
 
-### OK
+### <a id="VM_Managed_Picker_Core_FilterArgs_OK"></a> OK
 
 Gets the result of filter.
 
@@ -49,7 +49,7 @@ public bool OK { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Target
+### <a id="VM_Managed_Picker_Core_FilterArgs_Target"></a> Target
 
 Gets the target for filtering.
 
@@ -63,12 +63,11 @@ public FilteringTarget Target { get; }
 
 ## Methods
 
-### SetReject\(\)
+### <a id="VM_Managed_Picker_Core_FilterArgs_SetReject"></a> SetReject\(\)
 
 Sets the result to reject.
 
 ```csharp
 public void SetReject()
 ```
-
 

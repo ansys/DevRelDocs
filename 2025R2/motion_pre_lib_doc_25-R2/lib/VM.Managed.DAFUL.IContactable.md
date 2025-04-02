@@ -1,4 +1,4 @@
-# Interface IContactable
+#  Interface IContactable
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -24,7 +24,7 @@ IHasBody
 
 ## Properties
 
-### GeometryFullName
+### <a id="VM_Managed_DAFUL_IContactable_GeometryFullName"></a> GeometryFullName
 
 Gets the geometry full name
 
@@ -36,7 +36,7 @@ string GeometryFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GeometryNameForMultiContact
+### <a id="VM_Managed_DAFUL_IContactable_GeometryNameForMultiContact"></a> GeometryNameForMultiContact
 
 Gets the name for multiple contact
 
@@ -48,7 +48,7 @@ string GeometryNameForMultiContact { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsActionGeometry
+### <a id="VM_Managed_DAFUL_IContactable_IsActionGeometry"></a> IsActionGeometry
 
 Gets or sets a value indicating whether this instance is action geometry.
 
@@ -60,7 +60,7 @@ bool IsActionGeometry { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsBaseGeometry
+### <a id="VM_Managed_DAFUL_IContactable_IsBaseGeometry"></a> IsBaseGeometry
 
 Gets or sets a value indicating whether this instance is base geometry.
 
@@ -74,7 +74,7 @@ bool IsBaseGeometry { get; set; }
 
 ## Methods
 
-### GetDefaultMaxPenetration\(ref double, IReferencable\)
+### <a id="VM_Managed_DAFUL_IContactable_GetDefaultMaxPenetration_System_Double__VM_Managed_IReferencable_"></a> GetDefaultMaxPenetration\(ref double, IReferencable\)
 
 Gets the default maximum penetration.
 
@@ -97,5 +97,4 @@ The reference.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

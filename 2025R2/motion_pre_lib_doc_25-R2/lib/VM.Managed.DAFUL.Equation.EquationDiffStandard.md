@@ -1,4 +1,4 @@
-# Class EquationDiffStandard
+#  Class EquationDiffStandard
 
 Namespace: [VM.Managed.DAFUL.Equation](VM.Managed.DAFUL.Equation.md)  
 Assembly: VMDEq.dll  
@@ -80,7 +80,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### EquationDiffStandard\(\)
+### <a id="VM_Managed_DAFUL_Equation_EquationDiffStandard__ctor"></a> EquationDiffStandard\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.EquationDiffStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -88,7 +88,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.Equation
 public EquationDiffStandard()
 ```
 
-### EquationDiffStandard\(Equation\)
+### <a id="VM_Managed_DAFUL_Equation_EquationDiffStandard__ctor_VM_Managed_DAFUL_Equation_Equation_"></a> EquationDiffStandard\(Equation\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Equation.EquationDiffStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ The owner equation.
 
 ## Properties
 
-### Function
+### <a id="VM_Managed_DAFUL_Equation_EquationDiffStandard_Function"></a> Function
 
 Gets or sets the function.
 
@@ -116,7 +116,7 @@ public Function Function { get; set; }
 
  Function
 
-### Type
+### <a id="VM_Managed_DAFUL_Equation_EquationDiffStandard_Type"></a> Type
 
 Gets the function type.
 
@@ -127,5 +127,4 @@ public override EquationFunction.FunctionType Type { get; }
 #### Property Value
 
  [EquationFunction](VM.Managed.DAFUL.Equation.EquationFunction.md).[FunctionType](VM.Managed.DAFUL.Equation.EquationFunction.FunctionType.md)
-
 

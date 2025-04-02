@@ -1,4 +1,4 @@
-# Interface IHousing
+#  Interface IHousing
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IHousing
 
 ## Properties
 
-### Property
+### <a id="VM_Managed_DAFUL_GearTrain_IHousing_Property"></a> Property
 
 Gets the property.
 
@@ -29,7 +29,7 @@ PropertyHousingBase Property { get; }
 
  [PropertyHousingBase](VM.Managed.DAFUL.GearTrain.PropertyHousingBase.md)
 
-### StartAxisValue
+### <a id="VM_Managed_DAFUL_GearTrain_IHousing_StartAxisValue"></a> StartAxisValue
 
 Gets the start axis value.
 
@@ -41,7 +41,7 @@ VectorBase StartAxisValue { get; }
 
  VectorBase
 
-### StartPointValue
+### <a id="VM_Managed_DAFUL_GearTrain_IHousing_StartPointValue"></a> StartPointValue
 
 Gets the start point value.
 
@@ -55,12 +55,11 @@ VectorBase StartPointValue { get; }
 
 ## Methods
 
-### RemoveRelatedEntity\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_IHousing_RemoveRelatedEntity"></a> RemoveRelatedEntity\(\)
 
 Removes the related entity.
 
 ```csharp
 void RemoveRelatedEntity()
 ```
-
 

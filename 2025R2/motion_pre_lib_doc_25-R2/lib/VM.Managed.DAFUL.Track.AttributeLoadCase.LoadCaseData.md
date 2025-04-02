@@ -1,4 +1,4 @@
-# Class AttributeLoadCase.LoadCaseData
+#  Class AttributeLoadCase.LoadCaseData
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### LoadCaseData\(\)
+### <a id="VM_Managed_DAFUL_Track_AttributeLoadCase_LoadCaseData__ctor"></a> LoadCaseData\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.AttributeLoadCase.LoadCaseData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public LoadCaseData()
 
 ## Properties
 
-### EndTime
+### <a id="VM_Managed_DAFUL_Track_AttributeLoadCase_LoadCaseData_EndTime"></a> EndTime
 
 Gets or sets the end time.
 
@@ -124,7 +124,7 @@ public ExpressionValueVariable EndTime { get; set; }
 
 The end time is null.
 
-### MaximumDisplacement
+### <a id="VM_Managed_DAFUL_Track_AttributeLoadCase_LoadCaseData_MaximumDisplacement"></a> MaximumDisplacement
 
 Gets or sets the maximum displacement.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable MaximumDisplacement { get; set; }
 
 The maximum displacement is null.
 
-### OutputStep
+### <a id="VM_Managed_DAFUL_Track_AttributeLoadCase_LoadCaseData_OutputStep"></a> OutputStep
 
 Gets or sets the output step.
 
@@ -160,7 +160,7 @@ public ExpressionValueVariable OutputStep { get; set; }
 
 The output step is null.
 
-### ScaleOfHydrodynamicForce
+### <a id="VM_Managed_DAFUL_Track_AttributeLoadCase_LoadCaseData_ScaleOfHydrodynamicForce"></a> ScaleOfHydrodynamicForce
 
 Gets or sets the scale of hydrodynamic force.
 
@@ -178,7 +178,7 @@ public ExpressionValueVariable ScaleOfHydrodynamicForce { get; set; }
 
 The scale of hydrodynamic force is null.
 
-### TimeToSteadyState
+### <a id="VM_Managed_DAFUL_Track_AttributeLoadCase_LoadCaseData_TimeToSteadyState"></a> TimeToSteadyState
 
 Gets or sets the time to steady state.
 
@@ -196,7 +196,7 @@ public ExpressionValueVariable TimeToSteadyState { get; set; }
 
 The time to steady state is null.
 
-### TypeOfLoadCase
+### <a id="VM_Managed_DAFUL_Track_AttributeLoadCase_LoadCaseData_TypeOfLoadCase"></a> TypeOfLoadCase
 
 Gets or sets the load case type.
 
@@ -210,7 +210,7 @@ public AttributeLoadCase.LoadCaseData.LoadCaseType TypeOfLoadCase { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Track_AttributeLoadCase_LoadCaseData_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -223,5 +223,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

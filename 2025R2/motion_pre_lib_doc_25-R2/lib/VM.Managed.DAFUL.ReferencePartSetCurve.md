@@ -1,4 +1,4 @@
-# Class ReferencePartSetCurve
+#  Class ReferencePartSetCurve
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -209,7 +209,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferencePartSetCurve\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_DAFUL_ReferencePartSetCurve__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferencePartSetCurve\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferencePartSetCurve" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The info.
 
 The context.
 
-### ReferencePartSetCurve\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_ReferencePartSetCurve__ctor_VM_Managed_ObjectBase_"></a> ReferencePartSetCurve\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferencePartSetCurve" data-throw-if-not-resolved="false"></xref> class.
 
@@ -243,7 +243,7 @@ The reference's object.
 
 ## Methods
 
-### GetConnectableImpl\(\)
+### <a id="VM_Managed_DAFUL_ReferencePartSetCurve_GetConnectableImpl"></a> GetConnectableImpl\(\)
 
 Gets the connectable [implementation].
 
@@ -254,5 +254,4 @@ protected override IConnectable GetConnectableImpl()
 #### Returns
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)
-
 

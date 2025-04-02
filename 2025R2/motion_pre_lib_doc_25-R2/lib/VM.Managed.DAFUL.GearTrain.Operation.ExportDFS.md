@@ -1,4 +1,4 @@
-# Class ExportDFS
+#  Class ExportDFS
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -104,7 +104,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ExportDFS\(Document\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ExportDFS__ctor_VM_Managed_Document_"></a> ExportDFS\(Document\)
 
 ```csharp
 public ExportDFS(Document doc)
@@ -114,7 +114,7 @@ public ExportDFS(Document doc)
 
 `doc` Document
 
-### ExportDFS\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ExportDFS__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportDFS\(JournalParameter\)
 
 ```csharp
 public ExportDFS(JournalParameter jp)
@@ -126,10 +126,9 @@ public ExportDFS(JournalParameter jp)
 
 ## Methods
 
-### ExportDFSImpl\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ExportDFS_ExportDFSImpl"></a> ExportDFSImpl\(\)
 
 ```csharp
 protected override void ExportDFSImpl()
 ```
-
 

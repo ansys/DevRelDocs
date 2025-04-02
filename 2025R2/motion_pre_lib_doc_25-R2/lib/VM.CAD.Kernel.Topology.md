@@ -1,4 +1,4 @@
-# Class Topology
+#  Class Topology
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -47,7 +47,7 @@ ISelected
 
 ## Constructors
 
-### Topology\(UIntPtr, bool\)
+### <a id="VM_CAD_Kernel_Topology__ctor_System_UIntPtr_System_Boolean_"></a> Topology\(UIntPtr, bool\)
 
 ```csharp
 protected Topology(UIntPtr key, bool isLock = true)
@@ -61,7 +61,7 @@ protected Topology(UIntPtr key, bool isLock = true)
 
 ## Properties
 
-### IsSelected
+### <a id="VM_CAD_Kernel_Topology_IsSelected"></a> IsSelected
 
 ```csharp
 public bool IsSelected { get; set; }
@@ -71,7 +71,7 @@ public bool IsSelected { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ParentBodyKey
+### <a id="VM_CAD_Kernel_Topology_ParentBodyKey"></a> ParentBodyKey
 
 ```csharp
 public UIntPtr ParentBodyKey { get; }
@@ -83,13 +83,13 @@ public UIntPtr ParentBodyKey { get; }
 
 ## Methods
 
-### DisposeManagedResource\(\)
+### <a id="VM_CAD_Kernel_Topology_DisposeManagedResource"></a> DisposeManagedResource\(\)
 
 ```csharp
 protected override void DisposeManagedResource()
 ```
 
-### GetDefaultPoint\(\)
+### <a id="VM_CAD_Kernel_Topology_GetDefaultPoint"></a> GetDefaultPoint\(\)
 
 ```csharp
 public abstract Vector GetDefaultPoint()
@@ -99,7 +99,7 @@ public abstract Vector GetDefaultPoint()
 
  Vector
 
-### GetTopologyType\(UIntPtr\)
+### <a id="VM_CAD_Kernel_Topology_GetTopologyType_System_UIntPtr_"></a> GetTopologyType\(UIntPtr\)
 
 ```csharp
 public static TopologyType GetTopologyType(UIntPtr key)
@@ -112,5 +112,4 @@ public static TopologyType GetTopologyType(UIntPtr key)
 #### Returns
 
  [TopologyType](VM.CAD.Kernel.TopologyType.md)
-
 

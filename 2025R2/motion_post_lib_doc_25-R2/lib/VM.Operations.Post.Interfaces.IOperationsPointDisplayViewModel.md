@@ -1,4 +1,4 @@
-# Interface IOperationsPointDisplayViewModel
+#  Interface IOperationsPointDisplayViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -70,7 +70,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### SymbolSize
+### <a id="VM_Operations_Post_Interfaces_IOperationsPointDisplayViewModel_SymbolSize"></a> SymbolSize
 
 Gets or sets the size of the symbols in the vector display.
 

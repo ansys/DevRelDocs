@@ -1,4 +1,4 @@
-# Class Spline
+#  Class Spline
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -173,7 +173,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Spline\(\)
+### <a id="VM_Managed_DAFUL_Spline__ctor"></a> Spline\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Spline" data-throw-if-not-resolved="false"></xref> class.
 
@@ -181,7 +181,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Spline" data-thro
 public Spline()
 ```
 
-### Spline\(string\)
+### <a id="VM_Managed_DAFUL_Spline__ctor_System_String_"></a> Spline\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Spline" data-throw-if-not-resolved="false"></xref> class.
 
@@ -197,7 +197,7 @@ Name of the spline.
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Spline_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -209,7 +209,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Spline_ReferenceType"></a> ReferenceType
 
 Gets the type of the spline for argument.
 
@@ -221,7 +221,7 @@ public string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SplineData
+### <a id="VM_Managed_DAFUL_Spline_SplineData"></a> SplineData
 
 Gets or sets the spline data.
 
@@ -233,7 +233,7 @@ public SplineData SplineData { get; set; }
 
  [SplineData](VM.Managed.DAFUL.SplineData.md)
 
-### XScale
+### <a id="VM_Managed_DAFUL_Spline_XScale"></a> XScale
 
 Gets or sets the X scale.
 
@@ -245,7 +245,7 @@ public ExpressionValueVariable XScale { get; set; }
 
  ExpressionValueVariable
 
-### YScale
+### <a id="VM_Managed_DAFUL_Spline_YScale"></a> YScale
 
 Gets or sets the Y scale.
 
@@ -259,7 +259,7 @@ public ExpressionValueVariable YScale { get; set; }
 
 ## Methods
 
-### CompareDouble\(string, string\)
+### <a id="VM_Managed_DAFUL_Spline_CompareDouble_System_String_System_String_"></a> CompareDouble\(string, string\)
 
 Compare mixed double and string value
 
@@ -281,7 +281,7 @@ The second value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Spline_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -295,7 +295,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Spline_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -313,7 +313,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Spline_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -327,7 +327,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Spline_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -341,7 +341,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### ReplaceData\(SplineData\)
+### <a id="VM_Managed_DAFUL_Spline_ReplaceData_VM_Managed_DAFUL_SplineData_"></a> ReplaceData\(SplineData\)
 
 Replaces the data.
 
@@ -355,7 +355,7 @@ public void ReplaceData(SplineData splDt)
 
 The SPL dt.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Spline_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -368,5 +368,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

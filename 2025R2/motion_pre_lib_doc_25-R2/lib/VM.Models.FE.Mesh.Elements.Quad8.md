@@ -1,4 +1,4 @@
-# Class Quad8
+#  Class Quad8
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -61,7 +61,7 @@ public class Quad8 : Element8Nodes, IEntity
 
 ## Constructors
 
-### Quad8\(\)
+### <a id="VM_Models_FE_Mesh_Elements_Quad8__ctor"></a> Quad8\(\)
 
 ```csharp
 public Quad8()
@@ -69,7 +69,7 @@ public Quad8()
 
 ## Properties
 
-### ElementType
+### <a id="VM_Models_FE_Mesh_Elements_Quad8_ElementType"></a> ElementType
 
 ```csharp
 public override ElementTypes ElementType { get; }
@@ -78,5 +78,4 @@ public override ElementTypes ElementType { get; }
 #### Property Value
 
  [ElementTypes](VM.Models.FE.Mesh.ElementTypes.md)
-
 

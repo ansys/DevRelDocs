@@ -1,4 +1,4 @@
-# Enum PlanetaryTypes
+#  Enum PlanetaryTypes
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -12,5 +12,4 @@ public enum PlanetaryTypes
 `DoublePinion = 1` 
 
 `SinglePinion = 0` 
-
 

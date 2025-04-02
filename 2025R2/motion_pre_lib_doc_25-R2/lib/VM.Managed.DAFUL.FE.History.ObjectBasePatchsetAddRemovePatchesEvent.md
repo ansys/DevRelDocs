@@ -1,4 +1,4 @@
-# Class ObjectBasePatchsetAddRemovePatchesEvent
+#  Class ObjectBasePatchsetAddRemovePatchesEvent
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  
@@ -42,7 +42,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### ObjectBasePatchsetAddRemovePatchesEvent\(object, ICollection<Patch\>\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBasePatchsetAddRemovePatchesEvent__ctor_System_Object_System_Collections_Generic_ICollection_VM_Managed_DAFUL_FE_Patch__"></a> ObjectBasePatchsetAddRemovePatchesEvent\(object, ICollection<Patch\>\)
 
 ```csharp
 public ObjectBasePatchsetAddRemovePatchesEvent(object obOriginal, ICollection<Patch> patches)
@@ -56,13 +56,13 @@ public ObjectBasePatchsetAddRemovePatchesEvent(object obOriginal, ICollection<Pa
 
 ## Methods
 
-### AddPatches\(\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBasePatchsetAddRemovePatchesEvent_AddPatches"></a> AddPatches\(\)
 
 ```csharp
 protected void AddPatches()
 ```
 
-### AfterRedo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBasePatchsetAddRemovePatchesEvent_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterRedo(HistoryEventArgs args)
@@ -72,7 +72,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### AfterUndo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBasePatchsetAddRemovePatchesEvent_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterUndo(HistoryEventArgs args)
@@ -82,7 +82,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### Clear\(bool\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBasePatchsetAddRemovePatchesEvent_Clear_System_Boolean_"></a> Clear\(bool\)
 
 ```csharp
 protected override void Clear(bool bReserveReferenceCount)
@@ -92,16 +92,15 @@ protected override void Clear(bool bReserveReferenceCount)
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RefreshNavigator\(\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBasePatchsetAddRemovePatchesEvent_RefreshNavigator"></a> RefreshNavigator\(\)
 
 ```csharp
 protected void RefreshNavigator()
 ```
 
-### RemovePatches\(\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBasePatchsetAddRemovePatchesEvent_RemovePatches"></a> RemovePatches\(\)
 
 ```csharp
 protected void RemovePatches()
 ```
-
 

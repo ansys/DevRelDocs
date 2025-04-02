@@ -1,4 +1,4 @@
-# Class ObservableObject
+#  Class ObservableObject
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -11,7 +11,7 @@ public abstract class ObservableObject : IObservableObject, IDisposableObject
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ObservableObject](VM.ObservableObject.md)
 
 #### Derived
@@ -27,7 +27,7 @@ public abstract class ObservableObject : IObservableObject, IDisposableObject
 
 ## Constructors
 
-### ObservableObject\(\)
+### <a id="VM_ObservableObject__ctor"></a> ObservableObject\(\)
 
 ```python
 protected ObservableObject()
@@ -35,7 +35,7 @@ protected ObservableObject()
 
 ## Properties
 
-### IsDisposed
+### <a id="VM_ObservableObject_IsDisposed"></a> IsDisposed
 
 ```python
 [Browsable(false)]
@@ -46,7 +46,7 @@ public bool IsDisposed { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TryDisposing
+### <a id="VM_ObservableObject_TryDisposing"></a> TryDisposing
 
 ```python
 [Browsable(false)]
@@ -59,13 +59,13 @@ public bool TryDisposing { get; }
 
 ## Methods
 
-### Dispose\(\)
+### <a id="VM_ObservableObject_Dispose"></a> Dispose\(\)
 
 ```python
 public void Dispose()
 ```
 
-### Dispose\(bool\)
+### <a id="VM_ObservableObject_Dispose_System_Boolean_"></a> Dispose\(bool\)
 
 ```python
 protected virtual void Dispose(bool disposing)
@@ -75,19 +75,19 @@ protected virtual void Dispose(bool disposing)
 
 `disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### DisposeManagedResources\(\)
+### <a id="VM_ObservableObject_DisposeManagedResources"></a> DisposeManagedResources\(\)
 
 ```python
 protected virtual void DisposeManagedResources()
 ```
 
-### DisposeUnmanagedResources\(\)
+### <a id="VM_ObservableObject_DisposeUnmanagedResources"></a> DisposeUnmanagedResources\(\)
 
 ```python
 protected virtual void DisposeUnmanagedResources()
 ```
 
-### RaisePropertyChanged\(string\)
+### <a id="VM_ObservableObject_RaisePropertyChanged_System_String_"></a> RaisePropertyChanged\(string\)
 
 ```python
 public virtual void RaisePropertyChanged(string propertyName)
@@ -97,7 +97,7 @@ public virtual void RaisePropertyChanged(string propertyName)
 
 `propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RaisePropertyChanged\(string, object, object\)
+### <a id="VM_ObservableObject_RaisePropertyChanged_System_String_System_Object_System_Object_"></a> RaisePropertyChanged\(string, object, object\)
 
 ```python
 public virtual void RaisePropertyChanged(string propertyName, object oldValue, object newValue)
@@ -111,7 +111,7 @@ public virtual void RaisePropertyChanged(string propertyName, object oldValue, o
 
 `newValue` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### Disposed
+### <a id="VM_ObservableObject_Disposed"></a> Disposed
 
 ```python
 public event EventHandler Disposed
@@ -121,7 +121,7 @@ public event EventHandler Disposed
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### Disposing
+### <a id="VM_ObservableObject_Disposing"></a> Disposing
 
 ```python
 public event EventHandler Disposing
@@ -131,7 +131,7 @@ public event EventHandler Disposing
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### PropertyChanged
+### <a id="VM_ObservableObject_PropertyChanged"></a> PropertyChanged
 
 ```python
 public event PropertyChangedEventHandler PropertyChanged

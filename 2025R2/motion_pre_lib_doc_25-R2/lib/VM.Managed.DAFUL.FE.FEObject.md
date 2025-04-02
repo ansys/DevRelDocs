@@ -1,4 +1,4 @@
-# Class FEObject
+#  Class FEObject
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -162,7 +162,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### FEObject\(string, string\)
+### <a id="VM_Managed_DAFUL_FE_FEObject__ctor_System_String_System_String_"></a> FEObject\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.FEObject" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,5 +179,4 @@ Name of the proxy.
 `strBuildInfo` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The build information.
-
 

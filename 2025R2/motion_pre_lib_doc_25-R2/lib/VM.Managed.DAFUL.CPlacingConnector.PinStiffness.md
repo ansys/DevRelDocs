@@ -1,4 +1,4 @@
-# Class PinStiffness
+#  Class PinStiffness
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PinStiffness\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PinStiffness__ctor"></a> PinStiffness\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.PinStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector
 public PinStiffness()
 ```
 
-### PinStiffness\(string\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PinStiffness__ctor_System_String_"></a> PinStiffness\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.PinStiffness" data-throw-if-not-resolved="false"></xref> class.
 <param name="strName">The name.</param>
@@ -123,7 +123,7 @@ public PinStiffness(string strName)
 
 ## Properties
 
-### Stiffness
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PinStiffness_Stiffness"></a> Stiffness
 
 Gets or sets the stiffness.
 
@@ -143,7 +143,7 @@ The stiffness is null.
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PinStiffness_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -157,7 +157,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### StiffnessText\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PinStiffness_StiffnessText"></a> StiffnessText\(\)
 
 Gets the stiffness text
 
@@ -168,5 +168,4 @@ public string StiffnessText()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

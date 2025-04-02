@@ -1,4 +1,4 @@
-# Enum EquationFunction.FunctionType
+#  Enum EquationFunction.FunctionType
 
 Namespace: [VM.Managed.DAFUL.Equation](VM.Managed.DAFUL.Equation.md)  
 Assembly: VMDEq.dll  
@@ -20,7 +20,6 @@ The standard function.
 `UserSubroutine = 1` 
 
 The user subroutine function.
-
 
 
 

@@ -1,4 +1,4 @@
-# Class SurfaceWithCurvesetsBuilder
+#  Class SurfaceWithCurvesetsBuilder
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBldBallPlacing.dll  
@@ -53,7 +53,7 @@ BuilderBase<SurfaceWithCurvesets\>.ErrorMessage
 
 ## Constructors
 
-### SurfaceWithCurvesetsBuilder\(\)
+### <a id="VM_Managed_DAFUL_Builder_SurfaceWithCurvesetsBuilder__ctor"></a> SurfaceWithCurvesetsBuilder\(\)
 
 ```csharp
 public SurfaceWithCurvesetsBuilder()
@@ -61,7 +61,7 @@ public SurfaceWithCurvesetsBuilder()
 
 ## Properties
 
-### CuttingPlaneRadius
+### <a id="VM_Managed_DAFUL_Builder_SurfaceWithCurvesetsBuilder_CuttingPlaneRadius"></a> CuttingPlaneRadius
 
 ```csharp
 public Variable CuttingPlaneRadius { get; set; }
@@ -71,7 +71,7 @@ public Variable CuttingPlaneRadius { get; set; }
 
  Variable
 
-### EndCurveset
+### <a id="VM_Managed_DAFUL_Builder_SurfaceWithCurvesetsBuilder_EndCurveset"></a> EndCurveset
 
 ```csharp
 public SetCurveForEdges EndCurveset { get; }
@@ -81,7 +81,7 @@ public SetCurveForEdges EndCurveset { get; }
 
  SetCurveForEdges
 
-### Faceset
+### <a id="VM_Managed_DAFUL_Builder_SurfaceWithCurvesetsBuilder_Faceset"></a> Faceset
 
 ```csharp
 public SetFace Faceset { get; }
@@ -91,7 +91,7 @@ public SetFace Faceset { get; }
 
  SetFace
 
-### NumberOfSlice
+### <a id="VM_Managed_DAFUL_Builder_SurfaceWithCurvesetsBuilder_NumberOfSlice"></a> NumberOfSlice
 
 ```csharp
 public Variable NumberOfSlice { get; set; }
@@ -101,7 +101,7 @@ public Variable NumberOfSlice { get; set; }
 
  Variable
 
-### Path
+### <a id="VM_Managed_DAFUL_Builder_SurfaceWithCurvesetsBuilder_Path"></a> Path
 
 ```csharp
 public string Path { get; set; }
@@ -111,7 +111,7 @@ public string Path { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### StartCurveset
+### <a id="VM_Managed_DAFUL_Builder_SurfaceWithCurvesetsBuilder_StartCurveset"></a> StartCurveset
 
 ```csharp
 public SetCurveForEdges StartCurveset { get; }
@@ -123,7 +123,7 @@ public SetCurveForEdges StartCurveset { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_SurfaceWithCurvesetsBuilder_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase created, Document doc)
@@ -138,5 +138,4 @@ protected override bool OnPostBuild(ObjectBase created, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Interface IFEFilm\_TabshapeHexagon
+#  Interface IFEFilm\_TabshapeHexagon
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,7 +15,7 @@ public interface IFEFilm_TabshapeHexagon
 
 ## Properties
 
-### ChamferOfLength
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_ChamferOfLength"></a> ChamferOfLength
 
 ```csharp
 ExpressionValueVariable ChamferOfLength { get; set; }
@@ -25,7 +25,7 @@ ExpressionValueVariable ChamferOfLength { get; set; }
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### ChamferOfLength\_Bottom
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_ChamferOfLength_Bottom"></a> ChamferOfLength\_Bottom
 
 ```csharp
 ExpressionValueVariable ChamferOfLength_Bottom { get; set; }
@@ -35,7 +35,7 @@ ExpressionValueVariable ChamferOfLength_Bottom { get; set; }
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### ChamferOfWidth
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_ChamferOfWidth"></a> ChamferOfWidth
 
 ```csharp
 ExpressionValueVariable ChamferOfWidth { get; set; }
@@ -45,7 +45,7 @@ ExpressionValueVariable ChamferOfWidth { get; set; }
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### ChamferOfWidth\_Bottom
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_ChamferOfWidth_Bottom"></a> ChamferOfWidth\_Bottom
 
 ```csharp
 ExpressionValueVariable ChamferOfWidth_Bottom { get; set; }
@@ -55,7 +55,7 @@ ExpressionValueVariable ChamferOfWidth_Bottom { get; set; }
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### EndOffset
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_EndOffset"></a> EndOffset
 
 ```csharp
 ExpressionValueVariable EndOffset { get; set; }
@@ -65,7 +65,7 @@ ExpressionValueVariable EndOffset { get; set; }
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### IntervalPole
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_IntervalPole"></a> IntervalPole
 
 ```csharp
 ExpressionValueVariable IntervalPole { get; set; }
@@ -75,7 +75,7 @@ ExpressionValueVariable IntervalPole { get; set; }
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### LengthPole
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_LengthPole"></a> LengthPole
 
 ```csharp
 ExpressionValueVariable LengthPole { get; set; }
@@ -85,7 +85,7 @@ ExpressionValueVariable LengthPole { get; set; }
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### MaxWidthElementPole
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_MaxWidthElementPole"></a> MaxWidthElementPole
 
 ```csharp
 ExpressionValueVariable MaxWidthElementPole { get; set; }
@@ -95,7 +95,7 @@ ExpressionValueVariable MaxWidthElementPole { get; set; }
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### NoOfElements
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_NoOfElements"></a> NoOfElements
 
 ```csharp
 int NoOfElements { get; set; }
@@ -105,7 +105,7 @@ int NoOfElements { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NoOfElementsPerPole
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_NoOfElementsPerPole"></a> NoOfElementsPerPole
 
 ```csharp
 int NoOfElementsPerPole { get; set; }
@@ -115,7 +115,7 @@ int NoOfElementsPerPole { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NoOfElementsPerPole\_Bottom
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_NoOfElementsPerPole_Bottom"></a> NoOfElementsPerPole\_Bottom
 
 ```csharp
 int NoOfElementsPerPole_Bottom { get; set; }
@@ -125,7 +125,7 @@ int NoOfElementsPerPole_Bottom { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NoOfNodes
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_NoOfNodes"></a> NoOfNodes
 
 ```csharp
 int NoOfNodes { get; set; }
@@ -135,7 +135,7 @@ int NoOfNodes { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NoOfNodesPerPole
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_NoOfNodesPerPole"></a> NoOfNodesPerPole
 
 ```csharp
 int NoOfNodesPerPole { get; set; }
@@ -145,7 +145,7 @@ int NoOfNodesPerPole { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NoOfNodesPerPole\_Bottom
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_NoOfNodesPerPole_Bottom"></a> NoOfNodesPerPole\_Bottom
 
 ```csharp
 int NoOfNodesPerPole_Bottom { get; set; }
@@ -155,7 +155,7 @@ int NoOfNodesPerPole_Bottom { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### StartOffset
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_StartOffset"></a> StartOffset
 
 ```csharp
 ExpressionValueVariable StartOffset { get; set; }
@@ -165,7 +165,7 @@ ExpressionValueVariable StartOffset { get; set; }
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### TabLocation
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_TabLocation"></a> TabLocation
 
 ```csharp
 TabLocationType TabLocation { get; set; }
@@ -175,7 +175,7 @@ TabLocationType TabLocation { get; set; }
 
  [TabLocationType](VM.Models.Pre.TabLocationType.md)
 
-### ThicknessPole
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_ThicknessPole"></a> ThicknessPole
 
 ```csharp
 ExpressionValueVariable ThicknessPole { get; set; }
@@ -185,7 +185,7 @@ ExpressionValueVariable ThicknessPole { get; set; }
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### ThicknessPole\_Bottom
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_ThicknessPole_Bottom"></a> ThicknessPole\_Bottom
 
 ```csharp
 ExpressionValueVariable ThicknessPole_Bottom { get; set; }
@@ -195,7 +195,7 @@ ExpressionValueVariable ThicknessPole_Bottom { get; set; }
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### WidthPole
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_WidthPole"></a> WidthPole
 
 ```csharp
 ExpressionValueVariable WidthPole { get; set; }
@@ -205,7 +205,7 @@ ExpressionValueVariable WidthPole { get; set; }
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### WidthPole\_Bottom
+### <a id="VM_Models_Pre_IFEFilm_TabshapeHexagon_WidthPole_Bottom"></a> WidthPole\_Bottom
 
 ```csharp
 ExpressionValueVariable WidthPole_Bottom { get; set; }
@@ -214,5 +214,4 @@ ExpressionValueVariable WidthPole_Bottom { get; set; }
 #### Property Value
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
-
 

@@ -1,4 +1,4 @@
-# Interface IEnableManager
+#  Interface IEnableManager
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IEnableManager
 
 ## Methods
 
-### IsEnabled\(ObjectBase\)
+### <a id="VM_Managed_IEnableManager_IsEnabled_VM_Managed_ObjectBase_"></a> IsEnabled\(ObjectBase\)
 
 Determines whether is enabled [the specified object].
 
@@ -37,7 +37,7 @@ The object.
 
 <code>true</code> if is enabled [the specified object]; otherwise, <code>false</code>.
 
-### SetEnable\(ObjectBase, bool\)
+### <a id="VM_Managed_IEnableManager_SetEnable_VM_Managed_ObjectBase_System_Boolean_"></a> SetEnable\(ObjectBase, bool\)
 
 Sets the enable.
 
@@ -54,5 +54,4 @@ The object.
 `bEnable` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> enable.
-
 

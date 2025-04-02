@@ -1,4 +1,4 @@
-# Class GearSetPlanetary
+#  Class GearSetPlanetary
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -264,7 +264,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearSetPlanetary\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetary__ctor"></a> GearSetPlanetary\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetPlanetary" data-throw-if-not-resolved="false"></xref> class.
 
@@ -272,7 +272,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSet
 public GearSetPlanetary()
 ```
 
-### GearSetPlanetary\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetary__ctor_System_String_"></a> GearSetPlanetary\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetPlanetary" data-throw-if-not-resolved="false"></xref> class.
 
@@ -288,7 +288,7 @@ Name of the string.
 
 ## Properties
 
-### Extension
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetary_Extension"></a> Extension
 
 Gets the extension.
 
@@ -300,7 +300,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TypeFileName
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetary_TypeFileName"></a> TypeFileName
 
 Gets the name of the type file.
 
@@ -314,7 +314,7 @@ public override string TypeFileName { get; }
 
 ## Methods
 
-### FillGearData\(Document, int, string, string\[\], string\[\], string\[\], string\[\], bool, bool, string, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetary_FillGearData_VM_Managed_Document_System_Int32_System_String_System_String___System_String___System_String___System_String___System_Boolean_System_Boolean_System_String_System_String___"></a> FillGearData\(Document, int, string, string\[\], string\[\], string\[\], string\[\], bool, bool, string, string\[\]\)
 
 Fill gear data
 
@@ -372,7 +372,7 @@ The input array for create
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Meshing\(List<IGearBuilder\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetary_Meshing_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder__"></a> Meshing\(List<IGearBuilder\>\)
 
 Meshing the gears.
 
@@ -390,7 +390,7 @@ The gear builder list.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetary_OnPostBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Post build in Special
 
@@ -412,7 +412,7 @@ The document
 
 The input array
 
-### OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetPlanetary_OnPreBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Pre build in Special
 
@@ -433,5 +433,4 @@ The document
 `InputArray` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The input array
-
 

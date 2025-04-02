@@ -1,4 +1,4 @@
-# Interface IHasComment
+#  Interface IHasComment
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IHasComment
 
 ## Properties
 
-### Comment
+### <a id="VM_IHasComment_Comment"></a> Comment
 
 ```python
 string Comment { get; set; }

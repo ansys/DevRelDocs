@@ -1,4 +1,4 @@
-# Class StaticLoadConfiguration
+#  Class StaticLoadConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -191,7 +191,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### StaticLoadConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_StaticLoadConfiguration__ctor"></a> StaticLoadConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.StaticLoadConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -199,7 +199,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.StaticLoadCon
 public StaticLoadConfiguration()
 ```
 
-### StaticLoadConfiguration\(AnalysisStaticLoad\)
+### <a id="VM_Managed_DAFUL_Car_StaticLoadConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisStaticLoad_"></a> StaticLoadConfiguration\(AnalysisStaticLoad\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.StaticLoadConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -215,7 +215,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_StaticLoadConfiguration_Analysis"></a> Analysis
 
 Gets or sets the type of the analysis.
 
@@ -227,7 +227,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_StaticLoadConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -239,7 +239,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_StaticLoadConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -251,7 +251,7 @@ public override SuspensionAnalysisType AnalysisType { get; }
 
  [SuspensionAnalysisType](VM.Managed.DAFUL.Car.SuspensionAnalysisType.md)
 
-### StaticLoadParam
+### <a id="VM_Managed_DAFUL_Car_StaticLoadConfiguration_StaticLoadParam"></a> StaticLoadParam
 
 Gets or sets the static load.
 
@@ -262,5 +262,4 @@ public AnalysisStaticLoad StaticLoadParam { get; set; }
 #### Property Value
 
  [AnalysisStaticLoad](VM.Managed.DAFUL.Car.AnalysisStaticLoad.md)
-
 

@@ -1,4 +1,4 @@
-# Namespace VM.NX.Dialog.Factory
+#  Namespace VM.NX.Dialog.Factory
 
 ### Classes
 
@@ -15,5 +15,4 @@
 ### Interfaces
 
  [IDlgFactory](VM.NX.Dialog.Factory.IDlgFactory.md)
-
 

@@ -1,4 +1,4 @@
-# Enum Document3D.CadImportColorType
+#  Enum Document3D.CadImportColorType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -14,5 +14,4 @@ public enum Document3D.CadImportColorType
 `Default = 0` 
 
 `User = 1` 
-
 

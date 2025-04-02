@@ -1,4 +1,4 @@
-# Class ObjectBaseEdgesetAddRemoveEdgesEvent
+#  Class ObjectBaseEdgesetAddRemoveEdgesEvent
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  
@@ -42,7 +42,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### ObjectBaseEdgesetAddRemoveEdgesEvent\(object, ICollection<Tuple<uint, uint\>\>\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseEdgesetAddRemoveEdgesEvent__ctor_System_Object_System_Collections_Generic_ICollection_System_Tuple_System_UInt32_System_UInt32___"></a> ObjectBaseEdgesetAddRemoveEdgesEvent\(object, ICollection<Tuple<uint, uint\>\>\)
 
 ```csharp
 public ObjectBaseEdgesetAddRemoveEdgesEvent(object obOriginal, ICollection<Tuple<uint, uint>> edges)
@@ -56,13 +56,13 @@ public ObjectBaseEdgesetAddRemoveEdgesEvent(object obOriginal, ICollection<Tuple
 
 ## Methods
 
-### AddEdges\(\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseEdgesetAddRemoveEdgesEvent_AddEdges"></a> AddEdges\(\)
 
 ```csharp
 protected void AddEdges()
 ```
 
-### AfterRedo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseEdgesetAddRemoveEdgesEvent_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterRedo(HistoryEventArgs args)
@@ -72,7 +72,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### AfterUndo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseEdgesetAddRemoveEdgesEvent_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterUndo(HistoryEventArgs args)
@@ -82,7 +82,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### Clear\(bool\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseEdgesetAddRemoveEdgesEvent_Clear_System_Boolean_"></a> Clear\(bool\)
 
 ```csharp
 protected override void Clear(bool bReserveReferenceCount)
@@ -92,16 +92,15 @@ protected override void Clear(bool bReserveReferenceCount)
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RefreshNavigator\(\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseEdgesetAddRemoveEdgesEvent_RefreshNavigator"></a> RefreshNavigator\(\)
 
 ```csharp
 protected void RefreshNavigator()
 ```
 
-### RemoveEdges\(\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseEdgesetAddRemoveEdgesEvent_RemoveEdges"></a> RemoveEdges\(\)
 
 ```csharp
 protected void RemoveEdges()
 ```
-
 

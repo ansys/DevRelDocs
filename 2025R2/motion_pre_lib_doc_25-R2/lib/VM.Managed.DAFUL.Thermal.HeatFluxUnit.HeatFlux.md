@@ -1,4 +1,4 @@
-# Enum HeatFluxUnit.HeatFlux
+#  Enum HeatFluxUnit.HeatFlux
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -98,7 +98,6 @@ kW/m^2.
 `kWPermm2 = 5` 
 
 kW/mm^2.
-
 
 
 

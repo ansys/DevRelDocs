@@ -1,4 +1,4 @@
-# Class AttributeInvisible
+#  Class AttributeInvisible
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -99,12 +99,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeInvisible\(\)
+### <a id="VM_Managed_AttributeInvisible__ctor"></a> AttributeInvisible\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeInvisible" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public AttributeInvisible()
 ```
-
 

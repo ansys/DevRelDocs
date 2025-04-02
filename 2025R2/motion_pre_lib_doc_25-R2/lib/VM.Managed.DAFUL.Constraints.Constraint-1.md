@@ -1,4 +1,4 @@
-# Class Constraint<TProperty\>
+#  Class Constraint<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -252,7 +252,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Constraint\(\)
+### <a id="VM_Managed_DAFUL_Constraints_Constraint_1__ctor"></a> Constraint\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Constraint%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -260,7 +260,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Const
 protected Constraint()
 ```
 
-### Constraint\(string\)
+### <a id="VM_Managed_DAFUL_Constraints_Constraint_1__ctor_System_String_"></a> Constraint\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Constraint%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -276,7 +276,7 @@ Name of the constraint.
 
 ## Properties
 
-### Generable
+### <a id="VM_Managed_DAFUL_Constraints_Constraint_1_Generable"></a> Generable
 
 <p> Gets a value indicating whether this instance is generable.</p>
 
@@ -290,7 +290,7 @@ public override bool Generable { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Constraints_Constraint_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -303,5 +303,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

@@ -1,4 +1,4 @@
-# Class SerializeUtil
+#  Class SerializeUtil
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -22,7 +22,7 @@ public class SerializeUtil
 
 ## Constructors
 
-### SerializeUtil\(\)
+### <a id="VM_Managed_SerializeUtil__ctor"></a> SerializeUtil\(\)
 
 ```csharp
 public SerializeUtil()
@@ -30,7 +30,7 @@ public SerializeUtil()
 
 ## Methods
 
-### Deserial<T\>\(string, Type\)
+### <a id="VM_Managed_SerializeUtil_Deserial__1_System_String_System_Type_"></a> Deserial<T\>\(string, Type\)
 
 Deserialize data
 
@@ -58,7 +58,7 @@ The deserialized explicit type
 
 The object type
 
-### Deserial<T\>\(string\)
+### <a id="VM_Managed_SerializeUtil_Deserial__1_System_String_"></a> Deserial<T\>\(string\)
 
 ```csharp
 public static T Deserial<T>(string xml)
@@ -80,7 +80,7 @@ The object xml
 
 The object type
 
-### Serial<T\>\(T\)
+### <a id="VM_Managed_SerializeUtil_Serial__1___0_"></a> Serial<T\>\(T\)
 
 Serialize data
 
@@ -106,7 +106,7 @@ The new <xref href="System.String" data-throw-if-not-resolved="false"></xref> ob
 
 The object type
 
-### Serial\(ObjectBase\)
+### <a id="VM_Managed_SerializeUtil_Serial_VM_Managed_ObjectBase_"></a> Serial\(ObjectBase\)
 
 ```csharp
 public static string Serial(ObjectBase obj)
@@ -120,7 +120,7 @@ public static string Serial(ObjectBase obj)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SerialXmlDoc<T\>\(T\)
+### <a id="VM_Managed_SerializeUtil_SerialXmlDoc__1___0_"></a> SerialXmlDoc<T\>\(T\)
 
 Serialize data
 
@@ -145,5 +145,4 @@ The new <xref href="System.Xml.XmlDocument" data-throw-if-not-resolved="false"><
 `T` 
 
 The object type
-
 

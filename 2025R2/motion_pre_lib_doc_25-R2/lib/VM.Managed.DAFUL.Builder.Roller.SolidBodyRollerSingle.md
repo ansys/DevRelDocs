@@ -1,4 +1,4 @@
-# Class SolidBodyRollerSingle
+#  Class SolidBodyRollerSingle
 
 Namespace: [VM.Managed.DAFUL.Builder.Roller](VM.Managed.DAFUL.Builder.Roller.md)  
 Assembly: VMBldRoller.dll  
@@ -61,7 +61,7 @@ BuilderBase<SolidBodyRoller\>.ErrorMessage
 
 ## Constructors
 
-### SolidBodyRollerSingle\(\)
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidBodyRollerSingle__ctor"></a> SolidBodyRollerSingle\(\)
 
 ```csharp
 public SolidBodyRollerSingle()
@@ -69,7 +69,7 @@ public SolidBodyRollerSingle()
 
 ## Methods
 
-### GetCurrentSolidBuilder\(\)
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidBodyRollerSingle_GetCurrentSolidBuilder"></a> GetCurrentSolidBuilder\(\)
 
 ```csharp
 protected override Builder GetCurrentSolidBuilder()
@@ -78,5 +78,4 @@ protected override Builder GetCurrentSolidBuilder()
 #### Returns
 
  Builder
-
 

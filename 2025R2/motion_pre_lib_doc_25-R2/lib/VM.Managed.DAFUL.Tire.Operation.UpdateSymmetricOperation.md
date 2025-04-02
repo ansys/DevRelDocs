@@ -1,4 +1,4 @@
-# Class UpdateSymmetricOperation
+#  Class UpdateSymmetricOperation
 
 Namespace: [VM.Managed.DAFUL.Tire.Operation](VM.Managed.DAFUL.Tire.Operation.md)  
 Assembly: VMOpTire.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdateSymmetricOperation\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Tire_Operation_UpdateSymmetricOperation__ctor_VM_Managed_ObjectBase_"></a> UpdateSymmetricOperation\(ObjectBase\)
 
 ```csharp
 public UpdateSymmetricOperation(ObjectBase obj)
@@ -87,7 +87,7 @@ public UpdateSymmetricOperation(ObjectBase obj)
 
 `obj` ObjectBase
 
-### UpdateSymmetricOperation\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Tire_Operation_UpdateSymmetricOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateSymmetricOperation\(JournalParameter\)
 
 ```csharp
 public UpdateSymmetricOperation(JournalParameter jp)
@@ -99,7 +99,7 @@ public UpdateSymmetricOperation(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Tire_Operation_UpdateSymmetricOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -113,7 +113,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Tire_Operation_UpdateSymmetricOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -121,7 +121,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Tire_Operation_UpdateSymmetricOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -130,5 +130,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

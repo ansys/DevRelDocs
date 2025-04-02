@@ -1,4 +1,4 @@
-# Enum CleatShapeType
+#  Enum CleatShapeType
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -32,7 +32,6 @@ Semicircle
 `Trapezoid = 1` 
 
 Trapezoid
-
 
 
 

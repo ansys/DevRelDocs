@@ -1,4 +1,4 @@
-# Enum ConversionMethod
+#  Enum ConversionMethod
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -70,5 +70,4 @@ Try Stride first, and then convert with other methods if InterOp fails.
 Use alternative converter if first conversion fails.
 
 This option is available when 2024 R2 Service Pack 3 is installed.
-
 

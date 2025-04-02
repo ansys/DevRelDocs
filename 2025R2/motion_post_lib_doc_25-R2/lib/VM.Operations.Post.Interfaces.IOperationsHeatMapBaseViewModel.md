@@ -1,4 +1,4 @@
-# Interface IOperationsHeatMapBaseViewModel
+#  Interface IOperationsHeatMapBaseViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -113,7 +113,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### IsAutoRange
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel_IsAutoRange"></a> IsAutoRange
 
 Gets or sets a value indicating whether the Min and Max values of the legend are set automatically.
 
@@ -135,7 +135,7 @@ This flag determines whether the Min and Max values of the legend are set automa
 If this property is set to <code>true</code>, the Min and Max values cannot be set manually.
 In the UI, this property is represented under the "Legend" category with the property name "AutoRange".
 
-### LegendFontColor
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel_LegendFontColor"></a> LegendFontColor
 
 Gets or sets the font color of the legend.
 
@@ -156,7 +156,7 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 This property allows you to set the font color of the legend.
 In the UI, this property is represented under the "Legend" category with the property name "Font Color".
 
-### LegendFontSize
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel_LegendFontSize"></a> LegendFontSize
 
 Gets or sets the font size of the legend.
 
@@ -177,7 +177,7 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 This property allows you to set the font size of the legend.
 In the UI, this property is represented under the "Legend" category with the property name "Font Size".
 
-### Max
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel_Max"></a> Max
 
 Gets or sets the maximum value of the legend.
 
@@ -199,7 +199,7 @@ This property allows you to set the maximum value of the legend manually if <xre
 If <xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.IsAutoRange" data-throw-if-not-resolved="false"></xref> is <code>true</code>, the maximum value is determined automatically.
 In the UI, this property is represented under the "Legend" category with the property name "Max".
 
-### Min
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel_Min"></a> Min
 
 Gets or sets the minimum value of the legend.
 
@@ -223,7 +223,7 @@ In the UI, this property is represented under the "Legend" category with the pro
 
 ## Methods
 
-### ExportAllCurves\(string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel_ExportAllCurves_System_String_"></a> ExportAllCurves\(string\)
 
 Exports all curves contained in the chart to the specified file path without displaying a file save dialog.
 
@@ -248,7 +248,7 @@ It accepts a file path as a parameter and saves the curves directly to that loca
 This method is recommended for use with the OperationAPI, especially for repetitive tasks or scenarios 
 requiring automation.
 
-### ExportAllDataSeries\(\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel_ExportAllDataSeries"></a> ExportAllDataSeries\(\)
 
 Exports all data series included in the chart.
 

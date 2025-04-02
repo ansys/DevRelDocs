@@ -1,4 +1,4 @@
-# Enum AnalysisStaticLoad.VerticalInputType
+#  Enum AnalysisStaticLoad.VerticalInputType
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -38,7 +38,6 @@ WheelDeltaVerticalForce
 `WheelVerticalForce = 2` 
 
 WheelVerticalForce
-
 
 
 

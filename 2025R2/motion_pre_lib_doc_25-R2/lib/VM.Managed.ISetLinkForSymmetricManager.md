@@ -1,4 +1,4 @@
-# Interface ISetLinkForSymmetricManager
+#  Interface ISetLinkForSymmetricManager
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -17,7 +17,7 @@ public interface ISetLinkForSymmetricManager
 
 ## Methods
 
-### SetLeftLink\(ObjectBase\)
+### <a id="VM_Managed_ISetLinkForSymmetricManager_SetLeftLink_VM_Managed_ObjectBase_"></a> SetLeftLink\(ObjectBase\)
 
 Sets the left object.
 
@@ -29,7 +29,7 @@ void SetLeftLink(ObjectBase objectBase)
 
 `objectBase` ObjectBase
 
-### SetRightLink\(ObjectBase\)
+### <a id="VM_Managed_ISetLinkForSymmetricManager_SetRightLink_VM_Managed_ObjectBase_"></a> SetRightLink\(ObjectBase\)
 
 Sets the right object.
 
@@ -40,5 +40,4 @@ void SetRightLink(ObjectBase objectBase)
 #### Parameters
 
 `objectBase` ObjectBase
-
 

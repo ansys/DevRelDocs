@@ -1,4 +1,4 @@
-# Class ShaftSet
+#  Class ShaftSet
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -248,7 +248,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ShaftSet\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSet__ctor"></a> ShaftSet\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -256,7 +256,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ShaftSe
 public ShaftSet()
 ```
 
-### ShaftSet\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSet__ctor_System_String_"></a> ShaftSet\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -272,7 +272,7 @@ Name of the string.
 
 ## Properties
 
-### TypeOfParent
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSet_TypeOfParent"></a> TypeOfParent
 
 Gets the type of parent.
 
@@ -286,7 +286,7 @@ public override ParentType TypeOfParent { get; }
 
 ## Methods
 
-### AddBuilder\(Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSet_AddBuilder_VM_Managed_CAD_Builder_"></a> AddBuilder\(Builder\)
 
 Adds the builder.
 
@@ -300,7 +300,7 @@ public void AddBuilder(Builder bui)
 
 The bui.
 
-### CreateSection\(string, Section, string, string\[\], string, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSet_CreateSection_System_String_VM_Managed_DAFUL_GearTrain_CAD_Section_System_String_System_String___System_String_System_String_"></a> CreateSection\(string, Section, string, string\[\], string, string\)
 
 Create Section
 
@@ -334,7 +334,7 @@ The length
 
 The eccentricity
 
-### OnDeserializationForAttribute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSet_OnDeserializationForAttribute"></a> OnDeserializationForAttribute\(\)
 
 Called when [deserialization for attribute].
 
@@ -342,7 +342,7 @@ Called when [deserialization for attribute].
 public override void OnDeserializationForAttribute()
 ```
 
-### PostOpenDocument\(Document\)
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSet_PostOpenDocument_VM_Managed_Document_"></a> PostOpenDocument\(Document\)
 
 Post open document.
 
@@ -356,7 +356,7 @@ protected override void PostOpenDocument(Document docHidden)
 
 The hidden document.
 
-### SetDataToDesignDoc\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSet_SetDataToDesignDoc_System_Boolean_"></a> SetDataToDesignDoc\(bool\)
 
 Sets the data to design document.
 
@@ -372,7 +372,7 @@ public override Document SetDataToDesignDoc(bool bRecord)
 
  Document
 
-### UpdateBuilder\(List<Builder\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_ShaftSet_UpdateBuilder_System_Collections_Generic_List_VM_Managed_CAD_Builder__"></a> UpdateBuilder\(List<Builder\>\)
 
 Updates the builder.
 
@@ -385,5 +385,4 @@ public void UpdateBuilder(List<Builder> lstUpdateBui)
 `lstUpdateBui` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Builder\>
 
 The LST update bui.
-
 

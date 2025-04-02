@@ -1,4 +1,4 @@
-# Class PickerMultiPatch
+#  Class PickerMultiPatch
 
 Namespace: [VM.Managed.Picker.Core.FE](VM.Managed.Picker.Core.FE.md)  
 Assembly: VMFE.dll  
@@ -59,7 +59,7 @@ PickerBase.CustomFilterEvent
 
 ## Constructors
 
-### PickerMultiPatch\(\)
+### <a id="VM_Managed_Picker_Core_FE_PickerMultiPatch__ctor"></a> PickerMultiPatch\(\)
 
 ```csharp
 public PickerMultiPatch()
@@ -67,7 +67,7 @@ public PickerMultiPatch()
 
 ## Fields
 
-### m\_Patch
+### <a id="VM_Managed_Picker_Core_FE_PickerMultiPatch_m_Patch"></a> m\_Patch
 
 ```csharp
 protected Patch m_Patch
@@ -77,7 +77,7 @@ protected Patch m_Patch
 
  [Patch](VM.Managed.DAFUL.FE.Patch.md)
 
-### m\_nPatchNodeIndex
+### <a id="VM_Managed_Picker_Core_FE_PickerMultiPatch_m_nPatchNodeIndex"></a> m\_nPatchNodeIndex
 
 ```csharp
 protected int m_nPatchNodeIndex
@@ -89,7 +89,7 @@ protected int m_nPatchNodeIndex
 
 ## Methods
 
-### GetAdjacentPatch\(double, List<int\>\)
+### <a id="VM_Managed_Picker_Core_FE_PickerMultiPatch_GetAdjacentPatch_System_Double_System_Collections_Generic_List_System_Int32__"></a> GetAdjacentPatch\(double, List<int\>\)
 
 ```csharp
 public override void GetAdjacentPatch(double dAngle, List<int> lstNode)
@@ -101,7 +101,7 @@ public override void GetAdjacentPatch(double dAngle, List<int> lstNode)
 
 `lstNode` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### GetPickerInfo\(\)
+### <a id="VM_Managed_Picker_Core_FE_PickerMultiPatch_GetPickerInfo"></a> GetPickerInfo\(\)
 
 Gets the picker information.
 
@@ -115,7 +115,7 @@ public override string GetPickerInfo()
 
 The picker information.
 
-### GetResultXmlFromKey\(UIntPtr\[\]\)
+### <a id="VM_Managed_Picker_Core_FE_PickerMultiPatch_GetResultXmlFromKey_System_UIntPtr___"></a> GetResultXmlFromKey\(UIntPtr\[\]\)
 
 Get valid result xml according to picker keys of core.
 
@@ -135,7 +135,7 @@ Picking destination keys.
 
 The valid result xml.
 
-### GetResultXmlFromKey\(UIntPtr\)
+### <a id="VM_Managed_Picker_Core_FE_PickerMultiPatch_GetResultXmlFromKey_System_UIntPtr_"></a> GetResultXmlFromKey\(UIntPtr\)
 
 Get valid result xml according to picker key of core.
 
@@ -155,7 +155,7 @@ Picking destination key.
 
 The valid result xml.
 
-### SetHighlight\(List<UIntPtr\>, bool, bool\)
+### <a id="VM_Managed_Picker_Core_FE_PickerMultiPatch_SetHighlight_System_Collections_Generic_List_System_UIntPtr__System_Boolean_System_Boolean_"></a> SetHighlight\(List<UIntPtr\>, bool, bool\)
 
 ```csharp
 public override void SetHighlight(List<UIntPtr> lstPatch, bool bHighlight, bool bUpdate)
@@ -169,7 +169,7 @@ public override void SetHighlight(List<UIntPtr> lstPatch, bool bHighlight, bool 
 
 `bUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetResultImpl\(ref string, bool\)
+### <a id="VM_Managed_Picker_Core_FE_PickerMultiPatch_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -192,5 +192,4 @@ Whether only xml or not.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

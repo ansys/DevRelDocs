@@ -1,4 +1,4 @@
-# Class CheckValidationAboutBuildOp
+#  Class CheckValidationAboutBuildOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### CheckValidationAboutBuildOp\(Body, string\)
+### <a id="VM_Managed_CAD_CheckValidationAboutBuildOp__ctor_VM_Managed_CAD_Body_System_String_"></a> CheckValidationAboutBuildOp\(Body, string\)
 
 ```csharp
 public CheckValidationAboutBuildOp(Body body, string strXml)
@@ -89,7 +89,7 @@ public CheckValidationAboutBuildOp(Body body, string strXml)
 
 `strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### CheckValidationAboutBuildOp\(\)
+### <a id="VM_Managed_CAD_CheckValidationAboutBuildOp__ctor"></a> CheckValidationAboutBuildOp\(\)
 
 ```csharp
 public CheckValidationAboutBuildOp()
@@ -97,7 +97,7 @@ public CheckValidationAboutBuildOp()
 
 ## Properties
 
-### IsHistoryMerge
+### <a id="VM_Managed_CAD_CheckValidationAboutBuildOp_IsHistoryMerge"></a> IsHistoryMerge
 
 Gets the merge of history.
 
@@ -109,7 +109,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_CAD_CheckValidationAboutBuildOp_Name"></a> Name
 
 Gets the name.
 
@@ -121,7 +121,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Result
+### <a id="VM_Managed_CAD_CheckValidationAboutBuildOp_Result"></a> Result
 
 Gets the result.
 
@@ -135,12 +135,11 @@ public bool Result { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_CAD_CheckValidationAboutBuildOp_Execute"></a> Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
-
 

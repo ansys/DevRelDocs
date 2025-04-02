@@ -1,4 +1,4 @@
-# Interface ITopologyNavigator
+#  Interface ITopologyNavigator
 
 Namespace: [VM.NX.App.Navigator](VM.NX.App.Navigator.md)  
 Assembly: VMDIDef.dll  
@@ -15,7 +15,7 @@ public interface ITopologyNavigator
 
 ## Methods
 
-### Add\(string\)
+### <a id="VM_NX_App_Navigator_ITopologyNavigator_Add_System_String_"></a> Add\(string\)
 
 ```csharp
 bool Add(string strAddInfo)
@@ -29,13 +29,13 @@ bool Add(string strAddInfo)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Clear\(\)
+### <a id="VM_NX_App_Navigator_ITopologyNavigator_Clear"></a> Clear\(\)
 
 ```csharp
 void Clear()
 ```
 
-### Update\(string\)
+### <a id="VM_NX_App_Navigator_ITopologyNavigator_Update_System_String_"></a> Update\(string\)
 
 ```csharp
 bool Update(string strUpdateInfo)
@@ -48,5 +48,4 @@ bool Update(string strUpdateInfo)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

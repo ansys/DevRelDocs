@@ -1,4 +1,4 @@
-# Class AttributeVolume
+#  Class AttributeVolume
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeVolume\(double\)
+### <a id="VM_Managed_AttributeVolume__ctor_System_Double_"></a> AttributeVolume\(double\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeVolume" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public AttributeVolume(double value)
 
 The value.
 
-### AttributeVolume\(\)
+### <a id="VM_Managed_AttributeVolume__ctor"></a> AttributeVolume\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeVolume" data-throw-if-not-resolved="false"></xref> class.
 
@@ -123,7 +123,7 @@ public AttributeVolume()
 
 ## Properties
 
-### Volume
+### <a id="VM_Managed_AttributeVolume_Volume"></a> Volume
 
 Gets or sets the volume.
 
@@ -134,5 +134,4 @@ public double Volume { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

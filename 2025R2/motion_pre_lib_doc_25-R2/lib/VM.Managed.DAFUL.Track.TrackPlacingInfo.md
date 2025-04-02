@@ -1,4 +1,4 @@
-# Class TrackPlacingInfo
+#  Class TrackPlacingInfo
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### TrackPlacingInfo\(\)
+### <a id="VM_Managed_DAFUL_Track_TrackPlacingInfo__ctor"></a> TrackPlacingInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.TrackPlacingInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ public TrackPlacingInfo()
 
 ## Properties
 
-### IderPosition
+### <a id="VM_Managed_DAFUL_Track_TrackPlacingInfo_IderPosition"></a> IderPosition
 
 Gets or sets ider position.
 
@@ -119,5 +119,4 @@ public PointBase IderPosition { get; set; }
 #### Property Value
 
  PointBase
-
 

@@ -1,4 +1,4 @@
-# Interface IApplyInitialVelocity
+#  Interface IApplyInitialVelocity
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -15,7 +15,7 @@ public interface IApplyInitialVelocity
 
 ## Properties
 
-### ApplyInitialVelocity
+### <a id="VM_Managed_DAFUL_IApplyInitialVelocity_ApplyInitialVelocity"></a> ApplyInitialVelocity
 
 Whether InitialVelocity is applicable or not.
 
@@ -27,7 +27,7 @@ bool ApplyInitialVelocity { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### InitialVelocity
+### <a id="VM_Managed_DAFUL_IApplyInitialVelocity_InitialVelocity"></a> InitialVelocity
 
 Gets the initial velocity.
 
@@ -38,5 +38,4 @@ double InitialVelocity { get; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

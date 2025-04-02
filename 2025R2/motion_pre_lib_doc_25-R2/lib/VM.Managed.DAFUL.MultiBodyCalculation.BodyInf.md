@@ -1,4 +1,4 @@
-# Struct MultiBodyCalculation.BodyInf
+#  Struct MultiBodyCalculation.BodyInf
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -11,7 +11,7 @@ public struct MultiBodyCalculation.BodyInf
 
 ## Constructors
 
-### BodyInf\(double\)
+### <a id="VM_Managed_DAFUL_MultiBodyCalculation_BodyInf__ctor_System_Double_"></a> BodyInf\(double\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MultiBodyCalculation.BodyInf" data-throw-if-not-resolved="false"></xref> struct.
 
@@ -27,7 +27,7 @@ The d mass.
 
 ## Fields
 
-### Inertia
+### <a id="VM_Managed_DAFUL_MultiBodyCalculation_BodyInf_Inertia"></a> Inertia
 
 inertia
 
@@ -39,7 +39,7 @@ public double[] Inertia
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### mass
+### <a id="VM_Managed_DAFUL_MultiBodyCalculation_BodyInf_mass"></a> mass
 
 mass
 
@@ -51,7 +51,7 @@ public double mass
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### position
+### <a id="VM_Managed_DAFUL_MultiBodyCalculation_BodyInf_position"></a> position
 
 position
 
@@ -62,5 +62,4 @@ public double[] position
 #### Field Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
-
 

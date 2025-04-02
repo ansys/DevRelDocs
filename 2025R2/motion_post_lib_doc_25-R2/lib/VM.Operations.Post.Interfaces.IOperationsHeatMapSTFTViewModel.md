@@ -1,4 +1,4 @@
-# Interface IOperationsHeatMapSTFTViewModel
+#  Interface IOperationsHeatMapSTFTViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -107,7 +107,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### IsWaterfallType
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTViewModel_IsWaterfallType"></a> IsWaterfallType
 
 Gets or sets a value indicating whether the view type is set to Waterfall, enabling 2D to 3D conversion.
 
@@ -127,7 +127,7 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 
 This flag determines whether the view type is set to Waterfall, which enables conversion between 2D and 3D views.
 
-### STFT2DViewModel
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTViewModel_STFT2DViewModel"></a> STFT2DViewModel
 
 Gets the 2D view model of the Short-Time Fourier Transform (STFT).
 
@@ -147,7 +147,7 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 
 This property provides access to the 2D view model of the Short-Time Fourier Transform (STFT).
 
-### STFT3DViewModel
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTViewModel_STFT3DViewModel"></a> STFT3DViewModel
 
 Gets the 3D view model of the Short-Time Fourier Transform (STFT).
 

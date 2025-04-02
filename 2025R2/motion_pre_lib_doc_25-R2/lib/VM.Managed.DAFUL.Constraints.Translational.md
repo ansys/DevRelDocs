@@ -1,4 +1,4 @@
-# Class Translational
+#  Class Translational
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -251,7 +251,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Translational\(\)
+### <a id="VM_Managed_DAFUL_Constraints_Translational__ctor"></a> Translational\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Translational" data-throw-if-not-resolved="false"></xref> class.
 
@@ -259,7 +259,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Trans
 public Translational()
 ```
 
-### Translational\(string\)
+### <a id="VM_Managed_DAFUL_Constraints_Translational__ctor_System_String_"></a> Translational\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Translational" data-throw-if-not-resolved="false"></xref> class.
 
@@ -275,7 +275,7 @@ Name of the translational constraint.
 
 ## Properties
 
-### PreventDuplicatedRBE
+### <a id="VM_Managed_DAFUL_Constraints_Translational_PreventDuplicatedRBE"></a> PreventDuplicatedRBE
 
 Gets a value whether this instance prevent duplicated RBE.
 
@@ -287,7 +287,7 @@ public override bool PreventDuplicatedRBE { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Constraints_Translational_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -301,7 +301,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Constraints_Translational_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -314,5 +314,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

@@ -1,4 +1,4 @@
-# Class RBEInfo
+#  Class RBEInfo
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### RBEInfo\(bool, bool, VectorBase\)
+### <a id="VM_Managed_DAFUL_FE_RBEInfo__ctor_System_Boolean_System_Boolean_VM_Managed_VectorBase_"></a> RBEInfo\(bool, bool, VectorBase\)
 
 ```csharp
 public RBEInfo(bool bTreatRBE, bool bUseStaticCorrectionMode, VectorBase vecMasterPoint)
@@ -113,7 +113,7 @@ public RBEInfo(bool bTreatRBE, bool bUseStaticCorrectionMode, VectorBase vecMast
 
 `vecMasterPoint` VectorBase
 
-### RBEInfo\(bool\)
+### <a id="VM_Managed_DAFUL_FE_RBEInfo__ctor_System_Boolean_"></a> RBEInfo\(bool\)
 
 ```csharp
 public RBEInfo(bool bUseStaticCorrectionMode)
@@ -123,7 +123,7 @@ public RBEInfo(bool bUseStaticCorrectionMode)
 
 `bUseStaticCorrectionMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RBEInfo\(\)
+### <a id="VM_Managed_DAFUL_FE_RBEInfo__ctor"></a> RBEInfo\(\)
 
 ```csharp
 public RBEInfo()
@@ -131,7 +131,7 @@ public RBEInfo()
 
 ## Properties
 
-### MasterNodePosition
+### <a id="VM_Managed_DAFUL_FE_RBEInfo_MasterNodePosition"></a> MasterNodePosition
 
 Gets or sets the position of master node.
 
@@ -143,7 +143,7 @@ public PointBase MasterNodePosition { get; set; }
 
  PointBase
 
-### TreatRBE
+### <a id="VM_Managed_DAFUL_FE_RBEInfo_TreatRBE"></a> TreatRBE
 
 Gets or sets a value indicating whether it treat like RBE or not.
 
@@ -155,7 +155,7 @@ public bool TreatRBE { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TypeOfRBE
+### <a id="VM_Managed_DAFUL_FE_RBEInfo_TypeOfRBE"></a> TypeOfRBE
 
 Gets or sets the rbe3 flag.
 
@@ -166,5 +166,4 @@ public EigenvalueInfo.RBEType TypeOfRBE { get; set; }
 #### Property Value
 
  [EigenvalueInfo](VM.Managed.DAFUL.FE.EigenvalueInfo.md).[RBEType](VM.Managed.DAFUL.FE.EigenvalueInfo.RBEType.md)
-
 

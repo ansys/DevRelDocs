@@ -1,4 +1,4 @@
-# Class DirectionOnCylinder
+#  Class DirectionOnCylinder
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -117,7 +117,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DirectionOnCylinder\(\)
+### <a id="VM_Managed_DirectionOnCylinder__ctor"></a> DirectionOnCylinder\(\)
 
 ```csharp
 public DirectionOnCylinder()
@@ -125,7 +125,7 @@ public DirectionOnCylinder()
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_DirectionOnCylinder_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -142,7 +142,7 @@ public override XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DirectionOnCylinder_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -156,7 +156,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DirectionOnCylinder_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -169,5 +169,4 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

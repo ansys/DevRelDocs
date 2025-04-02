@@ -1,4 +1,4 @@
-# Interface INXFormInit
+#  Interface INXFormInit
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  
@@ -15,7 +15,7 @@ public interface INXFormInit
 
 ## Methods
 
-### Initialize\(IAppHandle\)
+### <a id="VM_NX_Dialog_INXFormInit_Initialize_VM_NX_Dialog_IAppHandle_"></a> Initialize\(IAppHandle\)
 
 ```csharp
 void Initialize(IAppHandle handle)
@@ -24,5 +24,4 @@ void Initialize(IAppHandle handle)
 #### Parameters
 
 `handle` [IAppHandle](VM.NX.Dialog.IAppHandle.md)
-
 

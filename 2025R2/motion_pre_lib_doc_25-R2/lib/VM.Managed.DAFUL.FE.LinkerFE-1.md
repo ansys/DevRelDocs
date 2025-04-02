@@ -1,4 +1,4 @@
-# Struct LinkerFE<T\>
+#  Struct LinkerFE<T\>
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -15,7 +15,7 @@ public struct LinkerFE<T>
 
 ## Constructors
 
-### LinkerFE\(T\)
+### <a id="VM_Managed_DAFUL_FE_LinkerFE_1__ctor__0_"></a> LinkerFE\(T\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.LinkerFE%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -27,7 +27,7 @@ public LinkerFE(T t)
 
 `t` T
 
-### LinkerFE\(ILink\)
+### <a id="VM_Managed_DAFUL_FE_LinkerFE_1__ctor_VM_Managed_ILink_"></a> LinkerFE\(ILink\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.LinkerFE%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -43,7 +43,7 @@ The link.
 
 ## Properties
 
-### IsReference
+### <a id="VM_Managed_DAFUL_FE_LinkerFE_1_IsReference"></a> IsReference
 
 Gets a value indicating whether linked object is the reference.
 
@@ -55,7 +55,7 @@ public bool IsReference { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Key
+### <a id="VM_Managed_DAFUL_FE_LinkerFE_1_Key"></a> Key
 
 Gets or sets the linked object's key.
 
@@ -67,7 +67,7 @@ public UIntPtr Key { get; }
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### Object
+### <a id="VM_Managed_DAFUL_FE_LinkerFE_1_Object"></a> Object
 
 Gets or sets the linked object.
 
@@ -79,7 +79,7 @@ public T Object { get; set; }
 
  T
 
-### Prototype
+### <a id="VM_Managed_DAFUL_FE_LinkerFE_1_Prototype"></a> Prototype
 
 Gets the linked object's prototype.
 
@@ -93,7 +93,7 @@ public T Prototype { get; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_DAFUL_FE_LinkerFE_1_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface,
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic)
@@ -108,7 +108,7 @@ public XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_FE_LinkerFE_1_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -122,7 +122,7 @@ public void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_FE_LinkerFE_1_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -138,7 +138,7 @@ The XmlWriter stream to which the object is serialized.
 
 ## Operators
 
-### implicit operator LinkerFE<T\>\(T\)
+### <a id="VM_Managed_DAFUL_FE_LinkerFE_1_op_Implicit__0__VM_Managed_DAFUL_FE_LinkerFE__0_"></a> implicit operator LinkerFE<T\>\(T\)
 
 ```csharp
 public static implicit operator LinkerFE<T>(T t)
@@ -152,7 +152,7 @@ public static implicit operator LinkerFE<T>(T t)
 
  [LinkerFE](VM.Managed.DAFUL.FE.LinkerFE\-1.md)<T\>
 
-### implicit operator T\(LinkerFE<T\>\)
+### <a id="VM_Managed_DAFUL_FE_LinkerFE_1_op_Implicit_VM_Managed_DAFUL_FE_LinkerFE__0____0"></a> implicit operator T\(LinkerFE<T\>\)
 
 ```csharp
 public static implicit operator T(LinkerFE<T> linker)
@@ -165,5 +165,4 @@ public static implicit operator T(LinkerFE<T> linker)
 #### Returns
 
  T
-
 

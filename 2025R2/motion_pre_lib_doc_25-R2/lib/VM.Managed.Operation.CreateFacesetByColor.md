@@ -1,4 +1,4 @@
-# Class CreateFacesetByColor
+#  Class CreateFacesetByColor
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -85,7 +85,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### CreateFacesetByColor\(\)
+### <a id="VM_Managed_Operation_CreateFacesetByColor__ctor"></a> CreateFacesetByColor\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.CreateFacesetByColor" data-throw-if-not-resolved="false"></xref> class.
 
@@ -93,7 +93,7 @@ Initializes a new instance of the <xref href="VM.Managed.Operation.CreateFaceset
 public CreateFacesetByColor()
 ```
 
-### CreateFacesetByColor\(string\)
+### <a id="VM_Managed_Operation_CreateFacesetByColor__ctor_System_String_"></a> CreateFacesetByColor\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.CreateFacesetByColor" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,12 +109,11 @@ The STR initializer XML.
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_Operation_CreateFacesetByColor_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

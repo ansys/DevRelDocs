@@ -1,4 +1,4 @@
-# Enum WebPropertyValue.WebStiffnessMethodType
+#  Enum WebPropertyValue.WebStiffnessMethodType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,7 +26,6 @@ MeshFree
 `UserInput = 0` 
 
 UserInput
-
 
 
 

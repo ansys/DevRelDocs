@@ -1,4 +1,4 @@
-# Interface ITemplateObject
+#  Interface ITemplateObject
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface ITemplateObject
 
 ## Methods
 
-### AfterReadTemplate\(\)
+### <a id="VM_Managed_ITemplateObject_AfterReadTemplate"></a> AfterReadTemplate\(\)
 
 Called after reading template .
 
@@ -25,7 +25,7 @@ Called after reading template .
 void AfterReadTemplate()
 ```
 
-### BeforeReadTemplate\(\)
+### <a id="VM_Managed_ITemplateObject_BeforeReadTemplate"></a> BeforeReadTemplate\(\)
 
 Called before reading template .
 
@@ -33,7 +33,7 @@ Called before reading template .
 void BeforeReadTemplate()
 ```
 
-### IsReadAndWrite\(\)
+### <a id="VM_Managed_ITemplateObject_IsReadAndWrite"></a> IsReadAndWrite\(\)
 
 whether this template object is [read and write].
 
@@ -45,7 +45,7 @@ bool IsReadAndWrite()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReadTemplate\(XmlReader\)
+### <a id="VM_Managed_ITemplateObject_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
 
 Generates a template object from its XML representation.
 
@@ -59,7 +59,7 @@ void ReadTemplate(XmlReader reader)
 
 The XmlReader stream from which the template object is deserialized.
 
-### SkipToUpdateSymmetric\(\)
+### <a id="VM_Managed_ITemplateObject_SkipToUpdateSymmetric"></a> SkipToUpdateSymmetric\(\)
 
 whether this template object skip [Update Symmetric].
 
@@ -71,7 +71,7 @@ bool SkipToUpdateSymmetric()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### WriteTemplate\(XmlWriter\)
+### <a id="VM_Managed_ITemplateObject_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
 
 Converts a template object into its XML representation.
 
@@ -84,5 +84,4 @@ void WriteTemplate(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the template object is serialized.
-
 

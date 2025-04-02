@@ -1,4 +1,4 @@
-# Class Thrust
+#  Class Thrust
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -53,7 +53,7 @@ BuilderBase<Thrust\>.ErrorMessage
 
 ## Constructors
 
-### Thrust\(\)
+### <a id="VM_Managed_DAFUL_Builder_Track_Thrust__ctor"></a> Thrust\(\)
 
 ```csharp
 public Thrust()
@@ -61,7 +61,7 @@ public Thrust()
 
 ## Properties
 
-### ActionBody
+### <a id="VM_Managed_DAFUL_Builder_Track_Thrust_ActionBody"></a> ActionBody
 
 ```csharp
 public IConnectable ActionBody { get; }
@@ -71,7 +71,7 @@ public IConnectable ActionBody { get; }
 
  IConnectable
 
-### BaseWater
+### <a id="VM_Managed_DAFUL_Builder_Track_Thrust_BaseWater"></a> BaseWater
 
 ```csharp
 public IWater BaseWater { get; }
@@ -81,7 +81,7 @@ public IWater BaseWater { get; }
 
  IWater
 
-### Position
+### <a id="VM_Managed_DAFUL_Builder_Track_Thrust_Position"></a> Position
 
 ```csharp
 public PointBase Position { get; }
@@ -91,7 +91,7 @@ public PointBase Position { get; }
 
  PointBase
 
-### ThrustingAxis
+### <a id="VM_Managed_DAFUL_Builder_Track_Thrust_ThrustingAxis"></a> ThrustingAxis
 
 ```csharp
 public DirectionBase ThrustingAxis { get; }
@@ -103,7 +103,7 @@ public DirectionBase ThrustingAxis { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Track_Thrust_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -118,5 +118,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

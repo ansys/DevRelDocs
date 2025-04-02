@@ -1,4 +1,4 @@
-# Class MakeBearingStiffnessSpline
+#  Class MakeBearingStiffnessSpline
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -84,7 +84,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### MakeBearingStiffnessSpline\(List<double\[\]\>, List<double\[\]\>, List<double\[\]\>, string, string, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeBearingStiffnessSpline__ctor_System_Collections_Generic_List_System_Double____System_Collections_Generic_List_System_Double____System_Collections_Generic_List_System_Double____System_String_System_String_System_String_"></a> MakeBearingStiffnessSpline\(List<double\[\]\>, List<double\[\]\>, List<double\[\]\>, string, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.MakeBearingStiffnessSpline" data-throw-if-not-resolved="false"></xref> class.
 
@@ -118,7 +118,7 @@ The maximum axial stiffness value.
 
 The maximum tilt stiffness value.
 
-### MakeBearingStiffnessSpline\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeBearingStiffnessSpline__ctor_VM_Managed_Operation_JournalParameter_"></a> MakeBearingStiffnessSpline\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.MakeBearingStiffnessSpline" data-throw-if-not-resolved="false"></xref> class.
 
@@ -134,7 +134,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeBearingStiffnessSpline_Name"></a> Name
 
 Gets the name.
 
@@ -148,7 +148,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeBearingStiffnessSpline_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -156,7 +156,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeBearingStiffnessSpline_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -169,5 +169,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

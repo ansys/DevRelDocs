@@ -1,4 +1,4 @@
-# Interface IPseudoEntityOnRBE
+#  Interface IPseudoEntityOnRBE
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IPseudoEntityOnRBE
 
 ## Properties
 
-### GetInformation
+### <a id="VM_Managed_DAFUL_GearTrain_IPseudoEntityOnRBE_GetInformation"></a> GetInformation
 
 Gets the get information.
 
@@ -28,5 +28,4 @@ PointEntityOnRBE GetInformation { get; }
 #### Property Value
 
  [PointEntityOnRBE](VM.Managed.DAFUL.GearTrain.PointEntityOnRBE.md)
-
 

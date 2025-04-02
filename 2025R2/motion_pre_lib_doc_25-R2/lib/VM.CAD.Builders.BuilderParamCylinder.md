@@ -1,4 +1,4 @@
-# Class BuilderParamCylinder
+#  Class BuilderParamCylinder
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -37,7 +37,7 @@ public class BuilderParamCylinder : BuilderParamColorGeom
 
 ## Constructors
 
-### BuilderParamCylinder\(\)
+### <a id="VM_CAD_Builders_BuilderParamCylinder__ctor"></a> BuilderParamCylinder\(\)
 
 ```csharp
 public BuilderParamCylinder()
@@ -45,7 +45,7 @@ public BuilderParamCylinder()
 
 ## Properties
 
-### BottomPosition
+### <a id="VM_CAD_Builders_BuilderParamCylinder_BottomPosition"></a> BottomPosition
 
 ```csharp
 public Vector BottomPosition { get; set; }
@@ -55,7 +55,7 @@ public Vector BottomPosition { get; set; }
 
  Vector
 
-### RadiusMajor
+### <a id="VM_CAD_Builders_BuilderParamCylinder_RadiusMajor"></a> RadiusMajor
 
 ```csharp
 public double RadiusMajor { get; set; }
@@ -65,7 +65,7 @@ public double RadiusMajor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TopPosition
+### <a id="VM_CAD_Builders_BuilderParamCylinder_TopPosition"></a> TopPosition
 
 ```csharp
 public Vector TopPosition { get; set; }
@@ -74,5 +74,4 @@ public Vector TopPosition { get; set; }
 #### Property Value
 
  Vector
-
 

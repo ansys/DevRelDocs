@@ -1,4 +1,4 @@
-# Class MeshFreeAnalysisLevel
+#  Class MeshFreeAnalysisLevel
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -97,7 +97,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MeshFreeAnalysisLevel\(uint\)
+### <a id="VM_Managed_MeshFreeAnalysisLevel__ctor_System_UInt32_"></a> MeshFreeAnalysisLevel\(uint\)
 
 Initializes a new instance of the <xref href="VM.Managed.MeshFreeAnalysisLevel" data-throw-if-not-resolved="false"></xref> class width level number.
 
@@ -111,7 +111,7 @@ public MeshFreeAnalysisLevel(uint level)
 
 Level Number.
 
-### MeshFreeAnalysisLevel\(\)
+### <a id="VM_Managed_MeshFreeAnalysisLevel__ctor"></a> MeshFreeAnalysisLevel\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.MeshFreeAnalysisLevel" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ public MeshFreeAnalysisLevel()
 
 ## Properties
 
-### Level
+### <a id="VM_Managed_MeshFreeAnalysisLevel_Level"></a> Level
 
 Gets the level number.
 
@@ -133,7 +133,7 @@ public uint Level { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### LocalRefinementRatio
+### <a id="VM_Managed_MeshFreeAnalysisLevel_LocalRefinementRatio"></a> LocalRefinementRatio
 
 Gets or sets the ratio of local refinement.
 
@@ -145,7 +145,7 @@ public byte LocalRefinementRatio { get; set; }
 
  [byte](https://learn.microsoft.com/dotnet/api/system.byte)
 
-### NodeCount
+### <a id="VM_Managed_MeshFreeAnalysisLevel_NodeCount"></a> NodeCount
 
 Gets or sets the node count.
 
@@ -157,7 +157,7 @@ public uint NodeCount { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### NodeDistance
+### <a id="VM_Managed_MeshFreeAnalysisLevel_NodeDistance"></a> NodeDistance
 
 Gets or sets the node distance.
 
@@ -169,7 +169,7 @@ public double NodeDistance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UseThisLevel
+### <a id="VM_Managed_MeshFreeAnalysisLevel_UseThisLevel"></a> UseThisLevel
 
 Gets or sets a value indicating whether use [this level].
 
@@ -180,5 +180,4 @@ public bool UseThisLevel { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

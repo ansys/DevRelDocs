@@ -1,4 +1,4 @@
-# Class AutoContact
+#  Class AutoContact
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -223,7 +223,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AutoContact\(\)
+### <a id="VM_Managed_DAFUL_Contact_AutoContact__ctor"></a> AutoContact\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.AutoContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -231,7 +231,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.AutoConta
 public AutoContact()
 ```
 
-### AutoContact\(string\)
+### <a id="VM_Managed_DAFUL_Contact_AutoContact__ctor_System_String_"></a> AutoContact\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.AutoContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -247,7 +247,7 @@ Name of the contact.
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Contact_AutoContact_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -259,7 +259,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### MaximumDistance
+### <a id="VM_Managed_DAFUL_Contact_AutoContact_MaximumDistance"></a> MaximumDistance
 
 Gets or sets the maximum distance.
 
@@ -271,7 +271,7 @@ public Variable MaximumDistance { get; set; }
 
  Variable
 
-### MultiInformation
+### <a id="VM_Managed_DAFUL_Contact_AutoContact_MultiInformation"></a> MultiInformation
 
 Gets or sets the friction spline information.
 
@@ -283,7 +283,7 @@ public AutoContactInfo[] MultiInformation { get; set; }
 
  [AutoContactInfo](VM.Managed.DAFUL.Contact.AutoContactInfo.md)\[\]
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Contact_AutoContact_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -297,7 +297,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### AddInformation\(AutoContactInfo\)
+### <a id="VM_Managed_DAFUL_Contact_AutoContact_AddInformation_VM_Managed_DAFUL_Contact_AutoContactInfo_"></a> AddInformation\(AutoContactInfo\)
 
 Adds information of auto contact.
 
@@ -311,7 +311,7 @@ public void AddInformation(AutoContactInfo info)
 
 The information of auto contact.
 
-### AddInformation\(IContact\)
+### <a id="VM_Managed_DAFUL_Contact_AutoContact_AddInformation_VM_Managed_DAFUL_Contact_IContact_"></a> AddInformation\(IContact\)
 
 Adds information fo auto contact.
 
@@ -329,7 +329,7 @@ The contact.
 
  [AutoContactInfo](VM.Managed.DAFUL.Contact.AutoContactInfo.md)
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Contact_AutoContact_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -343,7 +343,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_Contact_AutoContact_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -363,7 +363,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Contact_AutoContact_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -391,7 +391,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Contact_AutoContact_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -405,7 +405,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnDeserializationForAttribute\(\)
+### <a id="VM_Managed_DAFUL_Contact_AutoContact_OnDeserializationForAttribute"></a> OnDeserializationForAttribute\(\)
 
 Called when [deserialization for attribute].
 
@@ -413,12 +413,11 @@ Called when [deserialization for attribute].
 public override void OnDeserializationForAttribute()
 ```
 
-### UpdateIcon\(\)
+### <a id="VM_Managed_DAFUL_Contact_AutoContact_UpdateIcon"></a> UpdateIcon\(\)
 
 Updates the icon [Not Implemented].
 
 ```csharp
 protected override void UpdateIcon()
 ```
-
 

@@ -1,4 +1,4 @@
-# Enum BooleanOperationType
+#  Enum BooleanOperationType
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -38,7 +38,6 @@ Subtract
 `Unite = 1` 
 
 Unite
-
 
 
 

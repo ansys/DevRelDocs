@@ -1,4 +1,4 @@
-# Class MotorEMForceForAM
+#  Class MotorEMForceForAM
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain.Force](VM.Managed.DAFUL.Builder.GearTrain.Force.md)  
 Assembly: VMBldGearTrain.dll  
@@ -62,7 +62,7 @@ BuilderBase<MotorEMForce\>.ErrorMessage
 
 ## Constructors
 
-### MotorEMForceForAM\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_Force_MotorEMForceForAM__ctor"></a> MotorEMForceForAM\(\)
 
 ```csharp
 public MotorEMForceForAM()
@@ -70,7 +70,7 @@ public MotorEMForceForAM()
 
 ## Properties
 
-### FileFormatType
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_Force_MotorEMForceForAM_FileFormatType"></a> FileFormatType
 
 ```csharp
 protected override PropertyMotorEMForce.FileFormatType FileFormatType { get; }
@@ -79,5 +79,4 @@ protected override PropertyMotorEMForce.FileFormatType FileFormatType { get; }
 #### Property Value
 
  PropertyMotorEMForce.FileFormatType
-
 

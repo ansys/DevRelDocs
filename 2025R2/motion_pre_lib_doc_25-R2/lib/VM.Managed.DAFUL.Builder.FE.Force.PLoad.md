@@ -1,4 +1,4 @@
-# Class PLoad
+#  Class PLoad
 
 Namespace: [VM.Managed.DAFUL.Builder.FE.Force](VM.Managed.DAFUL.Builder.FE.Force.md)  
 Assembly: VMBldFE.dll  
@@ -53,7 +53,7 @@ BuilderBase<PLoad\>.ErrorMessage
 
 ## Constructors
 
-### PLoad\(\)
+### <a id="VM_Managed_DAFUL_Builder_FE_Force_PLoad__ctor"></a> PLoad\(\)
 
 ```csharp
 public PLoad()
@@ -61,7 +61,7 @@ public PLoad()
 
 ## Properties
 
-### PLoadComponent
+### <a id="VM_Managed_DAFUL_Builder_FE_Force_PLoad_PLoadComponent"></a> PLoadComponent
 
 ```csharp
 public IPLoadComponent PLoadComponent { get; }
@@ -73,7 +73,7 @@ public IPLoadComponent PLoadComponent { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_FE_Force_PLoad_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -88,5 +88,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

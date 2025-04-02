@@ -1,4 +1,4 @@
-# Interface ILinkAttribute
+#  Interface ILinkAttribute
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface ILinkAttribute
 
 ## Properties
 
-### IsChild
+### <a id="VM_Models_Pre_ILinkAttribute_IsChild"></a> IsChild
 
 Indicates this property is child or not.
 
@@ -28,5 +28,4 @@ bool? IsChild { get; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)?
-
 

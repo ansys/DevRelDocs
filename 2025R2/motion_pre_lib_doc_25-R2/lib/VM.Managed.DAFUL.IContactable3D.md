@@ -1,4 +1,4 @@
-# Interface IContactable3D
+#  Interface IContactable3D
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -25,7 +25,7 @@ IHasBody
 
 ## Properties
 
-### HalfThickness
+### <a id="VM_Managed_DAFUL_IContactable3D_HalfThickness"></a> HalfThickness
 
 Gets or sets the half thickness.
 
@@ -37,7 +37,7 @@ ExpressionValueVariable HalfThickness { get; set; }
 
  ExpressionValueVariable
 
-### MaxPenetration
+### <a id="VM_Managed_DAFUL_IContactable3D_MaxPenetration"></a> MaxPenetration
 
 Gets the maximum penetration.
 
@@ -49,7 +49,7 @@ ExpressionValueVariable MaxPenetration { get; }
 
  ExpressionValueVariable
 
-### SurfaceSmoothingType
+### <a id="VM_Managed_DAFUL_IContactable3D_SurfaceSmoothingType"></a> SurfaceSmoothingType
 
 Gets or sets the type of the surface smoothing.
 
@@ -60,5 +60,4 @@ SurfaceSmoothing SurfaceSmoothingType { get; set; }
 #### Property Value
 
  [SurfaceSmoothing](VM.Managed.DAFUL.SurfaceSmoothing.md)
-
 

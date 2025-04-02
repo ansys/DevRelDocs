@@ -1,4 +1,4 @@
-# Class OperationNotFoundException
+#  Class OperationNotFoundException
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class OperationNotFoundException : Exception
 
 ## Constructors
 
-### OperationNotFoundException\(string, Exception\)
+### <a id="VM_Managed_Operation_OperationNotFoundException__ctor_System_String_System_Exception_"></a> OperationNotFoundException\(string, Exception\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationNotFoundException" data-throw-if-not-resolved="false"></xref> class.
 
@@ -41,7 +41,7 @@ The type of operation that does not founded.
 
 The inner exception.
 
-### OperationNotFoundException\(string\)
+### <a id="VM_Managed_Operation_OperationNotFoundException__ctor_System_String_"></a> OperationNotFoundException\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.OperationNotFoundException" data-throw-if-not-resolved="false"></xref> class.
 
@@ -57,7 +57,7 @@ The type of operation that does not founded.
 
 ## Properties
 
-### Message
+### <a id="VM_Managed_Operation_OperationNotFoundException_Message"></a> Message
 
 Gets the exception information.
 
@@ -68,5 +68,4 @@ public override string Message { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

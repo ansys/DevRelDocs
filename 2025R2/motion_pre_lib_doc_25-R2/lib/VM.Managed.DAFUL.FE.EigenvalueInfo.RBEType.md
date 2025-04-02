@@ -1,4 +1,4 @@
-# Enum EigenvalueInfo.RBEType
+#  Enum EigenvalueInfo.RBEType
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -26,7 +26,6 @@ RBE2.
 `RBE3 = 1` 
 
 RBE3.
-
 
 
 

@@ -1,4 +1,4 @@
-# Class DataPoint
+#  Class DataPoint
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,8 +9,8 @@ public class DataPoint : ObservableObject, IObservableObject, IDisposableObject,
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
-[ObservableObject](VM.ObservableObject.md) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[ObservableObject](VM.ObservableObject.md) ← 
 [DataPoint](VM.DataPoint.md)
 
 #### Implements
@@ -35,7 +35,7 @@ public class DataPoint : ObservableObject, IObservableObject, IDisposableObject,
 
 ## Constructors
 
-### DataPoint\(\)
+### <a id="VM_DataPoint__ctor"></a> DataPoint\(\)
 
 ```python
 public DataPoint()
@@ -43,7 +43,7 @@ public DataPoint()
 
 ## Properties
 
-### X
+### <a id="VM_DataPoint_X"></a> X
 
 ```python
 public double X { get; set; }
@@ -53,7 +53,7 @@ public double X { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_DataPoint_Y"></a> Y
 
 ```python
 public double Y { get; set; }

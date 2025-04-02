@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Car.Analysis.FourPost
+#  Namespace VM.Managed.DAFUL.Car.Analysis.FourPost
 
 ### Enums
 
@@ -49,5 +49,4 @@ Specifies type for vibration input.
  [VibrationInputLocation](VM.Managed.DAFUL.Car.Analysis.FourPost.VibrationInputLocation.md)
 
 Specifies type for a InputLocation input.
-
 

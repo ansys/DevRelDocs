@@ -1,4 +1,4 @@
-# Interface IContactableRigid3D
+#  Interface IContactableRigid3D
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -27,7 +27,7 @@ IHasBody
 
 ## Properties
 
-### IsRepresentedAsBSurface
+### <a id="VM_Managed_DAFUL_IContactableRigid3D_IsRepresentedAsBSurface"></a> IsRepresentedAsBSurface
 
 Gets or sets a value indicating whether this instance is represented as B-surface.
 
@@ -41,7 +41,7 @@ bool IsRepresentedAsBSurface { get; set; }
 
 ## Methods
 
-### GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase, IReferencable\)
+### <a id="VM_Managed_DAFUL_IContactableRigid3D_GetPointDirectionOnGeometry_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the point and direction.
 
@@ -68,5 +68,4 @@ The reference.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

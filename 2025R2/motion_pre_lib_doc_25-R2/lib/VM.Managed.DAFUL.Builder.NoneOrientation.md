@@ -1,4 +1,4 @@
-# Struct NoneOrientation
+#  Struct NoneOrientation
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -13,7 +13,7 @@ public struct NoneOrientation : IConnectorOrientation
 
 ## Properties
 
-### NumberOfOrientation
+### <a id="VM_Managed_DAFUL_Builder_NoneOrientation_NumberOfOrientation"></a> NumberOfOrientation
 
 ```csharp
 public int NumberOfOrientation { get; }
@@ -25,7 +25,7 @@ public int NumberOfOrientation { get; }
 
 ## Methods
 
-### SetOrientation\(Marker, Marker, PickedResult\[\], int, int\)
+### <a id="VM_Managed_DAFUL_Builder_NoneOrientation_SetOrientation_VM_Managed_DAFUL_Marker_VM_Managed_DAFUL_Marker_VM_Managed_DAFUL_Builder_PickedResult___System_Int32_System_Int32_"></a> SetOrientation\(Marker, Marker, PickedResult\[\], int, int\)
 
 ```csharp
 public void SetOrientation(Marker BM, Marker AM, PickedResult[] pickResult, int nNumOfPoint, int nNumOfDirection)
@@ -42,5 +42,4 @@ public void SetOrientation(Marker BM, Marker AM, PickedResult[] pickResult, int 
 `nNumOfPoint` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 `nNumOfDirection` [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 

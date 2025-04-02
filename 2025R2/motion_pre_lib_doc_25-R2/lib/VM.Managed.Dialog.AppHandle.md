@@ -1,4 +1,4 @@
-# Class AppHandle
+#  Class AppHandle
 
 Namespace: [VM.Managed.Dialog](VM.Managed.Dialog.md)  
 Assembly: VMAppCore.dll  
@@ -26,7 +26,7 @@ IAppHandle
 
 ## Constructors
 
-### AppHandle\(\)
+### <a id="VM_Managed_Dialog_AppHandle__ctor"></a> AppHandle\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Dialog.AppHandle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,7 +36,7 @@ public AppHandle()
 
 ## Methods
 
-### Activate\(List<UIntPtr\>, bool\)
+### <a id="VM_Managed_Dialog_AppHandle_Activate_System_Collections_Generic_List_System_UIntPtr__System_Boolean_"></a> Activate\(List<UIntPtr\>, bool\)
 
 ```csharp
 public virtual void Activate(List<UIntPtr> lstObj, bool isActive)
@@ -48,7 +48,7 @@ public virtual void Activate(List<UIntPtr> lstObj, bool isActive)
 
 `isActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Activate\(UIntPtr, bool\)
+### <a id="VM_Managed_Dialog_AppHandle_Activate_System_UIntPtr_System_Boolean_"></a> Activate\(UIntPtr, bool\)
 
 Activate.Usually, highlight.
 
@@ -66,7 +66,7 @@ The tag of activate
 
 The Activate flag
 
-### ActivateFromExtern\(UIntPtr, bool\)
+### <a id="VM_Managed_Dialog_AppHandle_ActivateFromExtern_System_UIntPtr_System_Boolean_"></a> ActivateFromExtern\(UIntPtr, bool\)
 
 Activate.Usually, highlight.
 
@@ -84,7 +84,7 @@ The tag of activate.
 
 The Activate flag.
 
-### ActivateFromExternWithoutReset\(UIntPtr, bool\)
+### <a id="VM_Managed_Dialog_AppHandle_ActivateFromExternWithoutReset_System_UIntPtr_System_Boolean_"></a> ActivateFromExternWithoutReset\(UIntPtr, bool\)
 
 Activate.Usually, highlight.
 
@@ -102,7 +102,7 @@ The tag of activate.
 
 The Activate flag.
 
-### ActivateWithoutReset\(List<UIntPtr\>, bool\)
+### <a id="VM_Managed_Dialog_AppHandle_ActivateWithoutReset_System_Collections_Generic_List_System_UIntPtr__System_Boolean_"></a> ActivateWithoutReset\(List<UIntPtr\>, bool\)
 
 ```csharp
 public virtual void ActivateWithoutReset(List<UIntPtr> lstObj, bool isActive)
@@ -114,7 +114,7 @@ public virtual void ActivateWithoutReset(List<UIntPtr> lstObj, bool isActive)
 
 `isActive` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ActivateWithoutReset\(UIntPtr, bool\)
+### <a id="VM_Managed_Dialog_AppHandle_ActivateWithoutReset_System_UIntPtr_System_Boolean_"></a> ActivateWithoutReset\(UIntPtr, bool\)
 
 Activate.Usually, highlight.
 
@@ -132,7 +132,7 @@ The tag of activate
 
 The Activate flag
 
-### CalcCoordSys\(string, XmlNode, XmlNode\)
+### <a id="VM_Managed_Dialog_AppHandle_CalcCoordSys_System_String_System_Xml_XmlNode_System_Xml_XmlNode_"></a> CalcCoordSys\(string, XmlNode, XmlNode\)
 
 Coordinate system is calculation to selected object.
 
@@ -160,7 +160,7 @@ The action coordinate system.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### DeleteObject\(UIntPtr, bool\)
+### <a id="VM_Managed_Dialog_AppHandle_DeleteObject_System_UIntPtr_System_Boolean_"></a> DeleteObject\(UIntPtr, bool\)
 
 Object is delete.
 
@@ -184,7 +184,7 @@ The deleted object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### DistanceBetween2Points\(UIntPtr, UIntPtr\)
+### <a id="VM_Managed_Dialog_AppHandle_DistanceBetween2Points_System_UIntPtr_System_UIntPtr_"></a> DistanceBetween2Points\(UIntPtr, UIntPtr\)
 
 Gets the distance about two objects. Usually, distance of start point.
 
@@ -208,7 +208,7 @@ Another tag of object.
 
 The distance about two objects.
 
-### FindInActiveModel\(string\)
+### <a id="VM_Managed_Dialog_AppHandle_FindInActiveModel_System_String_"></a> FindInActiveModel\(string\)
 
 Gets tag in activate model.
 
@@ -228,7 +228,7 @@ Find name of object.
 
 <code>tag</code> if success; otherwise, <code>zero</code>.
 
-### GetDefaultName\(string\)
+### <a id="VM_Managed_Dialog_AppHandle_GetDefaultName_System_String_"></a> GetDefaultName\(string\)
 
 Gets default name
 
@@ -248,7 +248,7 @@ prefix of name
 
 The name
 
-### IsValidName\(string, UIntPtr, UIntPtr\)
+### <a id="VM_Managed_Dialog_AppHandle_IsValidName_System_String_System_UIntPtr_System_UIntPtr_"></a> IsValidName\(string, UIntPtr, UIntPtr\)
 
 Duplicated Name Check for object int specific container
 
@@ -278,7 +278,7 @@ if IntPtr.Zero, strName must unique.
 
 if Duplicated then return false
 
-### RegisterStrDialogResult\(int, XmlDocument\)
+### <a id="VM_Managed_Dialog_AppHandle_RegisterStrDialogResult_System_Int32_System_Xml_XmlDocument_"></a> RegisterStrDialogResult\(int, XmlDocument\)
 
 Data of dialog
 
@@ -296,7 +296,7 @@ The ID of dialog.
 
 The data of dialog.
 
-### SetMultiDeleteObject\(bool\)
+### <a id="VM_Managed_Dialog_AppHandle_SetMultiDeleteObject_System_Boolean_"></a> SetMultiDeleteObject\(bool\)
 
 Sets the multi delete object.
 
@@ -310,7 +310,7 @@ public virtual void SetMultiDeleteObject(bool bMulti)
 
 <code>true</code> if multi delete object; otherwise, <code>false</code>.
 
-### StartOperation\(string, UIntPtr, string\)
+### <a id="VM_Managed_Dialog_AppHandle_StartOperation_System_String_System_UIntPtr_System_String_"></a> StartOperation\(string, UIntPtr, string\)
 
 Execute operation.
 
@@ -332,7 +332,7 @@ Document point.
 
 Additional information.
 
-### StartOperation\(string, string, bool\)
+### <a id="VM_Managed_Dialog_AppHandle_StartOperation_System_String_System_String_System_Boolean_"></a> StartOperation\(string, string, bool\)
 
 Execute operation.
 
@@ -354,7 +354,7 @@ Additional information.
 
 History merge flag.
 
-### StartOperation\(string, string\)
+### <a id="VM_Managed_Dialog_AppHandle_StartOperation_System_String_System_String_"></a> StartOperation\(string, string\)
 
 Execute operation.
 
@@ -372,7 +372,7 @@ The name of operation.
 
 Additional information.
 
-### StartOperation\(string\)
+### <a id="VM_Managed_Dialog_AppHandle_StartOperation_System_String_"></a> StartOperation\(string\)
 
 Execute operation.
 
@@ -386,12 +386,11 @@ public virtual void StartOperation(string strOpName)
 
 The name of operation.
 
-### UpdateDisplay\(\)
+### <a id="VM_Managed_Dialog_AppHandle_UpdateDisplay"></a> UpdateDisplay\(\)
 
 Update display.
 
 ```csharp
 public virtual void UpdateDisplay()
 ```
-
 

@@ -1,4 +1,4 @@
-# Class SoilInteraction.ActionGeometryData
+#  Class SoilInteraction.ActionGeometryData
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ActionGeometryData\(\)
+### <a id="VM_Managed_DAFUL_Track_SoilInteraction_ActionGeometryData__ctor"></a> ActionGeometryData\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.SoilInteraction.ActionGeometryData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.SoilInterac
 public ActionGeometryData()
 ```
 
-### ActionGeometryData\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Track_SoilInteraction_ActionGeometryData__ctor_VM_Managed_ObjectBase_"></a> ActionGeometryData\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.SoilInteraction.ActionGeometryData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The Action Geometry.
 
 ## Properties
 
-### ActionGeometry
+### <a id="VM_Managed_DAFUL_Track_SoilInteraction_ActionGeometryData_ActionGeometry"></a> ActionGeometry
 
 Gets or sets the Action geometry.
 
@@ -132,7 +132,7 @@ public ObjectBase ActionGeometry { get; set; }
 
  ObjectBase
 
-### ActionOrientation
+### <a id="VM_Managed_DAFUL_Track_SoilInteraction_ActionGeometryData_ActionOrientation"></a> ActionOrientation
 
 Gets the action orientation.
 
@@ -144,7 +144,7 @@ public OMatrix ActionOrientation { get; }
 
  OMatrix
 
-### ActionPosition
+### <a id="VM_Managed_DAFUL_Track_SoilInteraction_ActionGeometryData_ActionPosition"></a> ActionPosition
 
 Gets the action position.
 
@@ -156,7 +156,7 @@ public VectorBase ActionPosition { get; }
 
  VectorBase
 
-### ContactAreaLengthOrRadius
+### <a id="VM_Managed_DAFUL_Track_SoilInteraction_ActionGeometryData_ContactAreaLengthOrRadius"></a> ContactAreaLengthOrRadius
 
 Gets or sets the Contact Area Length or Radius.
 
@@ -168,7 +168,7 @@ public double ContactAreaLengthOrRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ContactAreaWidth
+### <a id="VM_Managed_DAFUL_Track_SoilInteraction_ActionGeometryData_ContactAreaWidth"></a> ContactAreaWidth
 
 Gets or sets the Contact Area Width.
 
@@ -180,7 +180,7 @@ public double ContactAreaWidth { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ContactPointOfLengthOrRadius
+### <a id="VM_Managed_DAFUL_Track_SoilInteraction_ActionGeometryData_ContactPointOfLengthOrRadius"></a> ContactPointOfLengthOrRadius
 
 Gets or sets the Contact Point of Length Or Radius.
 
@@ -192,7 +192,7 @@ public uint ContactPointOfLengthOrRadius { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### ContactPointOfWidth
+### <a id="VM_Managed_DAFUL_Track_SoilInteraction_ActionGeometryData_ContactPointOfWidth"></a> ContactPointOfWidth
 
 Gets or sets the Contact Point of Width.
 
@@ -204,7 +204,7 @@ public uint ContactPointOfWidth { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### TypeOfContactShape
+### <a id="VM_Managed_DAFUL_Track_SoilInteraction_ActionGeometryData_TypeOfContactShape"></a> TypeOfContactShape
 
 Gets or sets the Contact Shape Type.
 
@@ -215,5 +215,4 @@ public SoilInteraction.ActionGeometryData.ContactShapeType TypeOfContactShape { 
 #### Property Value
 
  [SoilInteraction](VM.Managed.DAFUL.Track.SoilInteraction.md).[ActionGeometryData](VM.Managed.DAFUL.Track.SoilInteraction.ActionGeometryData.md).[ContactShapeType](VM.Managed.DAFUL.Track.SoilInteraction.ActionGeometryData.ContactShapeType.md)
-
 

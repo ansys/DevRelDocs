@@ -1,4 +1,4 @@
-# Class RScalarBBPD
+#  Class RScalarBBPD
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFP.dll  
@@ -61,10 +61,9 @@ BuilderBase<RScalar\>.ErrorMessage
 
 ## Constructors
 
-### RScalarBBPD\(\)
+### <a id="VM_Managed_DAFUL_Builder_Force_RScalarBBPD__ctor"></a> RScalarBBPD\(\)
 
 ```csharp
 public RScalarBBPD()
 ```
-
 

@@ -1,4 +1,4 @@
-# Namespace VM.Managed.CAD.Sprocket
+#  Namespace VM.Managed.CAD.Sprocket
 
 ### Classes
 
@@ -53,5 +53,4 @@ Specifies type for sprocket
  [ToothProfileType](VM.Managed.CAD.Sprocket.ToothProfileType.md)
 
 Specifies creation type for sprocket profile
-
 

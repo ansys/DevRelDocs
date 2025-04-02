@@ -1,4 +1,4 @@
-# Class BearingDimensionBase
+#  Class BearingDimensionBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -102,7 +102,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BearingDimensionBase\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionBase__ctor"></a> BearingDimensionBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.BearingDimensionBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -112,7 +112,7 @@ public BearingDimensionBase()
 
 ## Properties
 
-### Bore
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionBase_Bore"></a> Bore
 
 Gets or sets the bore.
 
@@ -124,7 +124,7 @@ public ExpressionValueVariable Bore { get; set; }
 
  ExpressionValueVariable
 
-### EstimateDetails
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionBase_EstimateDetails"></a> EstimateDetails
 
 Gets or sets a value indicating whether use [Estimate Details].
 
@@ -136,7 +136,7 @@ public bool EstimateDetails { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### OuterDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionBase_OuterDiameter"></a> OuterDiameter
 
 Gets or sets the outer diameter.
 
@@ -148,7 +148,7 @@ public ExpressionValueVariable OuterDiameter { get; set; }
 
  ExpressionValueVariable
 
-### Width
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionBase_Width"></a> Width
 
 Gets or sets the width.
 
@@ -162,7 +162,7 @@ public ExpressionValueVariable Width { get; set; }
 
 ## Methods
 
-### GetBuilder\(Bearing, RacewayType, TMatrix, bool, bool, ref BuilderMultiSubtractSimple\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionBase_GetBuilder_VM_Managed_DAFUL_GearTrain_Bearing_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_VM_Managed_TMatrix_System_Boolean_System_Boolean_VM_Managed_CAD_BuilderMultiSubtractSimple__"></a> GetBuilder\(Bearing, RacewayType, TMatrix, bool, bool, ref BuilderMultiSubtractSimple\)
 
 Gets the builder.
 
@@ -196,7 +196,7 @@ The reverse direction falg.
 
 The builder.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -213,5 +213,4 @@ The linked object.
 `arg` LinkEventArgs
 
 The update event information.
-
 

@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Flexible.Contact
+#  Namespace VM.Managed.DAFUL.Flexible.Contact
 
 ### Classes
 
@@ -41,5 +41,4 @@ This class is to represent the tie properties.
         삭제시 Reservable한 Link 변수 : N/A
         Generic Collection에 담겨있는 Link 변수 : N/A
         </p>
-
 

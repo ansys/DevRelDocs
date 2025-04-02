@@ -1,4 +1,4 @@
-# Class OutputReader
+#  Class OutputReader
 
 Namespace: [VM.Post.API.OutputReader](VM.Post.API.OutputReader.md)  
 Assembly: VM.Post.API.OutputReader.dll  
@@ -11,7 +11,7 @@ public class OutputReader : IOutputReader
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OutputReader](VM.Post.API.OutputReader.OutputReader.md)
 
 #### Implements
@@ -54,7 +54,7 @@ This class provides methods to interact with and retrieve information from resul
 
 ## Constructors
 
-### OutputReader\(string\)
+### <a id="VM_Post_API_OutputReader_OutputReader__ctor_System_String_"></a> OutputReader\(string\)
 
 Initializes a new instance of the <xref href="VM.Post.API.OutputReader.OutputReader" data-throw-if-not-resolved="false"></xref> class, used to open the result file.
 
@@ -78,7 +78,7 @@ This constructor opens the specified result file.
 
 ## Properties
 
-### Path
+### <a id="VM_Post_API_OutputReader_OutputReader_Path"></a> Path
 
 Gets the file path to the Ansys Motion result file (.dfr).
 
@@ -98,7 +98,7 @@ For an example that includes this property, see the [OutputReader](#VM_Post_API_
 
 This property stores the file path to the Ansys Motion result file (.dfr).
 
-### Version
+### <a id="VM_Post_API_OutputReader_OutputReader_Version"></a> Version
 
 Gets the product version.
 
@@ -120,7 +120,7 @@ This property stores the version of the product.
 
 ## Methods
 
-### Close\(\)
+### <a id="VM_Post_API_OutputReader_OutputReader_Close"></a> Close\(\)
 
 Closes the result file.
 
@@ -136,7 +136,7 @@ For an example that includes this property, see the [OutputReader](#VM_Post_API_
 
 This method closes the result file.
 
-### CreateCoordinateSystem\(string, string\)
+### <a id="VM_Post_API_OutputReader_OutputReader_CreateCoordinateSystem_System_String_System_String_"></a> CreateCoordinateSystem\(string, string\)
 
 Creates a new coordinate system marker with the specified name and optional parent.
 
@@ -182,7 +182,7 @@ print(nodal_node_csys.FullName)
 This method creates a new coordinate system marker with the given name. If the parent full name is not provided,
 it defaults to the ground marker name as defined by <xref href="VM.Models.Post.NameService.GroundName" data-throw-if-not-resolved="false"></xref>.
 
-### CreateVector\(string, string, string\)
+### <a id="VM_Post_API_OutputReader_OutputReader_CreateVector_System_String_System_String_System_String_"></a> CreateVector\(string, string, string\)
 
 Creates a vector for a specified target entity and characteristic path.
 
@@ -228,7 +228,7 @@ for characteristic in characteristics:
 
 This method creates a new vector. The method returns the instance of the newly created vector.
 
-### ExportAcousticRawDataToFile\(string, string, BehaviorType, FFTParameters, uint\[\]\)
+### <a id="VM_Post_API_OutputReader_OutputReader_ExportAcousticRawDataToFile_System_String_System_String_VM_Models_Post_BehaviorType_VM_Models_Post_ChartMathLib_FFTParameters_System_UInt32___"></a> ExportAcousticRawDataToFile\(string, string, BehaviorType, FFTParameters, uint\[\]\)
 
 Exports acoustic raw data to a file.
 
@@ -285,7 +285,7 @@ outputReader.ExportAcousticRawDataToFile(accoustic_without_nodeids_result_path, 
 
 This method exports acoustic raw data to a specified file path.
 
-### ExportAcousticRawDataToFile\(string, string, BehaviorType, FFTParameters\)
+### <a id="VM_Post_API_OutputReader_OutputReader_ExportAcousticRawDataToFile_System_String_System_String_VM_Models_Post_BehaviorType_VM_Models_Post_ChartMathLib_FFTParameters_"></a> ExportAcousticRawDataToFile\(string, string, BehaviorType, FFTParameters\)
 
 Exports acoustic raw data to a file.
 
@@ -338,7 +338,7 @@ outputReader.ExportAcousticRawDataToFile(accoustic_without_nodeids_result_path, 
 
 This method exports acoustic raw data to a specified file path.
 
-### ExportContourResultToFile\(string, FileMode, IList<int\>, string, ContourMappingType, string, AnalysisResultType, FileFormatType\)
+### <a id="VM_Post_API_OutputReader_OutputReader_ExportContourResultToFile_System_String_System_IO_FileMode_System_Collections_Generic_IList_System_Int32__System_String_VM_Models_ContourMappingType_System_String_VM_Models_AnalysisResultType_VM_Models_FileFormatType_"></a> ExportContourResultToFile\(string, FileMode, IList<int\>, string, ContourMappingType, string, AnalysisResultType, FileFormatType\)
 
 Exports contour results to a file.
 
@@ -416,7 +416,7 @@ outputReader.ExportContourResultToFile(nodal_result_path, FileMode.Create, state
 
 This method exports contour results to a specified file path.
 
-### ExportContourResultToFile\(string, FileMode, IList<int\>, IList<string\>, ContourMappingType, string, AnalysisResultType, FileFormatType\)
+### <a id="VM_Post_API_OutputReader_OutputReader_ExportContourResultToFile_System_String_System_IO_FileMode_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_String__VM_Models_ContourMappingType_System_String_VM_Models_AnalysisResultType_VM_Models_FileFormatType_"></a> ExportContourResultToFile\(string, FileMode, IList<int\>, IList<string\>, ContourMappingType, string, AnalysisResultType, FileFormatType\)
 
 Exports contour results to a file.
 
@@ -494,7 +494,7 @@ outputReader.ExportContourResultToFile(nodal_result_path, FileMode.Create, state
 
 This method exports contour results to a specified file path.
 
-### ExportMarkerToFile\(string, int\[\], IResultMarker\[\]\)
+### <a id="VM_Post_API_OutputReader_OutputReader_ExportMarkerToFile_System_String_System_Int32___VM_Models_Post_IResultMarker___"></a> ExportMarkerToFile\(string, int\[\], IResultMarker\[\]\)
 
 Exports marker results to a file.
 
@@ -530,7 +530,7 @@ The following example demonstrates how to use the <code>ExportMarkerToFile</code
 
 This method exports marker results to a specified file path.
 
-### ExportModalBodyRawDataToFile\(string, string, bool, bool\)
+### <a id="VM_Post_API_OutputReader_OutputReader_ExportModalBodyRawDataToFile_System_String_System_String_System_Boolean_System_Boolean_"></a> ExportModalBodyRawDataToFile\(string, string, bool, bool\)
 
 Exports raw data about the FE modal body to a file.
 
@@ -571,7 +571,7 @@ outputReader.ExportModalBodyRawDataToFile(modal_result_path, "FEBody_01", True, 
 
 This method exports raw data about the FE modal body to a specified file path, including options to include geometry and mode shape data.
 
-### ExportVectorDisplayToFile\(string, int\[\], IEnumerable<object\>, bool, bool, bool, AnalysisResultType\)
+### <a id="VM_Post_API_OutputReader_OutputReader_ExportVectorDisplayToFile_System_String_System_Int32___System_Collections_Generic_IEnumerable_System_Object__System_Boolean_System_Boolean_System_Boolean_VM_Models_AnalysisResultType_"></a> ExportVectorDisplayToFile\(string, int\[\], IEnumerable<object\>, bool, bool, bool, AnalysisResultType\)
 
 Exports vector results to a file.
 
@@ -631,7 +631,7 @@ outputReader.ExportVectorDisplayToFile(vectors_result_path, stateids, target, "B
 
 This method exports vector results to a specified file path.
 
-### ExportVectorDisplayToFile\(string, int\[\], string, string, bool, bool, bool, AnalysisResultType\)
+### <a id="VM_Post_API_OutputReader_OutputReader_ExportVectorDisplayToFile_System_String_System_Int32___System_String_System_String_System_Boolean_System_Boolean_System_Boolean_VM_Models_AnalysisResultType_"></a> ExportVectorDisplayToFile\(string, int\[\], string, string, bool, bool, bool, AnalysisResultType\)
 
 Exports vector results to a file.
 
@@ -695,7 +695,7 @@ outputReader.ExportVectorDisplayToFile(vectors_result_path, stateids, target, "B
 
 This method exports vector results to a specified file path.
 
-### GetAssemblyInfo\(AssemblyType\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetAssemblyInfo_VM_Enums_Post_AssemblyType_"></a> GetAssemblyInfo\(AssemblyType\)
 
 Retrieves an array of state IDs representing sequential states.
 
@@ -723,7 +723,7 @@ for assembly in assemblyInfo:
     print(assembly.FullName)
 </code></pre>
 
-### GetBodies\(BodyType, bool\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetBodies_VM_Models_Post_BodyType_System_Boolean_"></a> GetBodies\(BodyType, bool\)
 
 Retrieves the types and names of bodies based on the specified type and optional inclusion of dummy bodies.
 
@@ -764,7 +764,7 @@ for body in bodiesList:
 This method retrieves information about bodies based on the specified type and includes optional dummy bodies if specified. 
 The returned collection contains tuples where each tuple represents a body type and its associated name.
 
-### GetBodiesNodeCount\(IList<string\>\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetBodiesNodeCount_System_Collections_Generic_IList_System_String__"></a> GetBodiesNodeCount\(IList<string\>\)
 
 Gets the count of nodes for the specified bodies.
 
@@ -798,7 +798,7 @@ print(nodecount)
 
 This method retrieves the count of nodes for the specified bodies.
 
-### GetConnectors\(string\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetConnectors_System_String_"></a> GetConnectors\(string\)
 
 Retrieves information about connectors associated with the specified body.
 
@@ -841,7 +841,7 @@ This method retrieves and returns information about connectors associated with t
 <code class="paramref">name</code> parameter. The returned list includes tuples where each tuple consists of the connector type,
 action type, and names of connectors such as joint, force, and contact.
 
-### GetContourResult\(IList<int\>, string, ContourMappingType, string, Action<int, IList<double\[\]\>\>, AnalysisResultType\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetContourResult_System_Collections_Generic_IList_System_Int32__System_String_VM_Models_ContourMappingType_System_String_System_Action_System_Int32_System_Collections_Generic_IList_System_Double_____VM_Models_AnalysisResultType_"></a> GetContourResult\(IList<int\>, string, ContourMappingType, string, Action<int, IList<double\[\]\>\>, AnalysisResultType\)
 
 Exports contour results to a file.
 
@@ -914,7 +914,7 @@ outputReader.GetContourResult(stateids, target, ContourMappingType.FENode, path,
 
 This method exports contour results to a specified file path.
 
-### GetContourResult\(IList<int\>, IList<string\>, ContourMappingType, string, Action<int, IList<double\[\]\>\>, AnalysisResultType\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetContourResult_System_Collections_Generic_IList_System_Int32__System_Collections_Generic_IList_System_String__VM_Models_ContourMappingType_System_String_System_Action_System_Int32_System_Collections_Generic_IList_System_Double_____VM_Models_AnalysisResultType_"></a> GetContourResult\(IList<int\>, IList<string\>, ContourMappingType, string, Action<int, IList<double\[\]\>\>, AnalysisResultType\)
 
 Exports contour results to a file.
 
@@ -987,7 +987,7 @@ outputReader.GetContourResult(stateids, target, ContourMappingType.FENode, path,
 
 This method exports contour results to a specified file path.
 
-### GetCurves\(PlotParameters\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetCurves_VM_Models_OutputReader_PlotParameters_"></a> GetCurves\(PlotParameters\)
 
 Retrieves plot data based on the specified plot parameters.
 
@@ -1037,7 +1037,7 @@ for curve in curves:
 This method retrieves and returns plot data based on the provided plot parameters.
 It generates x and y coordinates for each curve specified in the parameters.
 
-### GetEntities\(EntityType\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetEntities_VM_Models_Post_EntityType_"></a> GetEntities\(EntityType\)
 
 Retrieves all entities of the specified type.
 
@@ -1067,7 +1067,7 @@ This method retrieves all entities that match the specified entity type.
 The available options are:
 <ul><li><xref href="VM.Models.Post.EntityType.Unknown" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.Actuator" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.AssemblyInfo" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.AssemblyManager" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.BeamGroup" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.BearingSet" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.Body" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.ChainedSystem" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.Constraint" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.Contact" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.Contour" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.CSYS" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.EasyFlexEntity" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.DataElementSet" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.Expression" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.Element" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.ElementSet" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.FEProperty" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.FODEquation" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.Force" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.Frequency" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.FrequencySequence" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.FrequencyTime" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.GearSet" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.InputChannel" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.GearPair" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.Marker" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.Material" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.OutputChannel" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.Node" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.PythonExpression" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.Request" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.SeaLevel" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.ShaftSet" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.SInput" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.SODEquation" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.SOutput" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.Spline" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.UserSubroutine" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.VariableEquation" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.VehicleRoad" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.VectorDisplay" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.NamedSelection" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.EntityType.FatigueMaterial" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### GetFlexibleBodyReferenceFrame\(string, bool\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetFlexibleBodyReferenceFrame_System_String_System_Boolean_"></a> GetFlexibleBodyReferenceFrame\(string, bool\)
 
 Gets the reference frame of a flexible body.
 
@@ -1122,7 +1122,7 @@ for i in range(len(referenceframes)):
 
 This method retrieves the reference frame of the specified flexible body.
 
-### GetFrequenciesInfoArray\(\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetFrequenciesInfoArray"></a> GetFrequenciesInfoArray\(\)
 
 Retrieves information about all instances of frequencies.
 
@@ -1157,7 +1157,7 @@ for frequency in frequencyInfoArray:
 This method retrieves and returns information about all instances of frequencies,
 including their file paths, available sampling times, and corresponding frequency arrays.
 
-### GetGeometryInfo\(string\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetGeometryInfo_System_String_"></a> GetGeometryInfo\(string\)
 
 Gets the geometry information for a specified entity.
 
@@ -1193,7 +1193,7 @@ print(nodal.PartIndex)
 
 This method retrieves the geometry information for the specified entity.
 
-### GetGeometryInfoArray\(\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetGeometryInfoArray"></a> GetGeometryInfoArray\(\)
 
 Gets an array of geometry information.
 
@@ -1221,7 +1221,7 @@ for geometry in geometry_list:
 
 This method retrieves an array of geometry information for all entities.
 
-### GetGeometryNodes\(string\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetGeometryNodes_System_String_"></a> GetGeometryNodes\(string\)
 
 Gets the nodes of a specified geometry.
 
@@ -1254,7 +1254,7 @@ for geometry_value in geometries:
 
 This method retrieves the nodes of the specified geometry entity.
 
-### GetMarkerInfo\(string\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetMarkerInfo_System_String_"></a> GetMarkerInfo\(string\)
 
 Gets the marker information including position, orientation, velocity, angular velocity, acceleration, and angular acceleration.
 
@@ -1290,7 +1290,7 @@ for marker_values in marker:
 
 This method retrieves detailed information about the specified marker, including its position, orientation, velocity, angular velocity, acceleration, and angular acceleration.
 
-### GetMarkerPosition\(IList<string\>\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetMarkerPosition_System_Collections_Generic_IList_System_String__"></a> GetMarkerPosition\(IList<string\>\)
 
 Gets the marker positions for the specified list of marker names.
 
@@ -1329,7 +1329,7 @@ for marker_values in marker_position:
 
 This method retrieves the positions of markers identified by the provided list of names. Each entry in the dictionary corresponds to a marker name and contains its position values over time.
 
-### GetModalModeCount\(string\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetModalModeCount_System_String_"></a> GetModalModeCount\(string\)
 
 Retrieves the count of modes for the finite element modal body specified by its name.
 
@@ -1362,7 +1362,7 @@ print (modecount)
 This method retrieves and returns the count of modes available for the specified finite element modal body,
 identified by its name passed as the <code class="paramref">target</code> parameter.
 
-### GetNamedSelections\(\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetNamedSelections"></a> GetNamedSelections\(\)
 
 Gets the named selection information.
 
@@ -1389,7 +1389,7 @@ for namedselection in namedselections:
 
 This method retrieves the named selection information for the entities.
 
-### GetOuterface\(string\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetOuterface_System_String_"></a> GetOuterface\(string\)
 
 Gets the geometry connectivity of an outer face.
 
@@ -1423,7 +1423,7 @@ for outerface_value in outerface:
 This method retrieves the geometry connectivity information for the outer face of the specified entity.
 The connectivity is structured in a triangular patch form, allowing for efficient representation and manipulation of 3D surface geometries. Each set of three consecutive integers in the array represents a triangle in the patch.
 
-### GetPreviousBodiesNodeCount\(IList<string\>, string\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetPreviousBodiesNodeCount_System_Collections_Generic_IList_System_String__System_String_"></a> GetPreviousBodiesNodeCount\(IList<string\>, string\)
 
 Gets the count of nodes for the specified bodies before a certain entity.
 
@@ -1462,7 +1462,7 @@ print(nodeCount)
 
 This method retrieves the count of nodes for the specified bodies that are processed before the specified entity.
 
-### GetPrimaryAnalysisResultType\(\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetPrimaryAnalysisResultType"></a> GetPrimaryAnalysisResultType\(\)
 
 Retrieves the type of the primary analysis result.
 
@@ -1492,7 +1492,7 @@ print (analysistype)
 This method retrieves and returns the type of the primary analysis result from the source data.
 If the primary analysis result is not set or available, it returns <xref href="VM.Models.AnalysisResultType.Nothing" data-throw-if-not-resolved="false"></xref>.
 
-### GetReferenceTimeArray\(\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetReferenceTimeArray"></a> GetReferenceTimeArray\(\)
 
 Retrieves an array of reference times from the result report.
 
@@ -1520,7 +1520,7 @@ for referenceTime in referenceTimeArray:
 This method retrieves an array of time values that correspond to sequential states within the result report. The times
 are stored in a list in sequential order.
 
-### GetStateIDArray\(\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetStateIDArray"></a> GetStateIDArray\(\)
 
 Get id array of state
 
@@ -1548,7 +1548,7 @@ for ids in stateIDs:
 This method retrieves an array of state IDs that correspond to sequential states within the system. The IDs are
 stored in a list in sequential order.
 
-### GetUnits\(\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetUnits"></a> GetUnits\(\)
 
 Retrieves units of results including type, unit, and factor.
 
@@ -1582,7 +1582,7 @@ This method returns units associated with different types of results.
 The dictionary contains entries where each key represents a type of result,
 and each value is a key-value pair consisting of the unit and its corresponding factor.
 
-### GetUnitsFromModeShapeFile\(string\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetUnitsFromModeShapeFile_System_String_"></a> GetUnitsFromModeShapeFile\(string\)
 
 Retrieves unit information from a dfmf file for a specified target.
 
@@ -1622,7 +1622,7 @@ This method retrieves unit information from a dfmf file specifically for mode sh
 The dictionary contains entries where each key represents a dimension of the result (e.g., length, time),
 and each value is a key-value pair consisting of the unit string and its corresponding scale factor.
 
-### GetVector\(string, string\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetVector_System_String_System_String_"></a> GetVector\(string, string\)
 
 Retrieves vector results for a specified target entity and characteristic path.
 
@@ -1679,7 +1679,7 @@ The returned dictionary contains entries where each key represents a string iden
 and each value is an object that implements the <xref href="VM.Models.OutputReader.IVectorDisplayAnimationData" data-throw-if-not-resolved="false"></xref> interface,
 containing animation data specific to the vector display.
 
-### GetVector\(string, string, AnalysisResultType\)
+### <a id="VM_Post_API_OutputReader_OutputReader_GetVector_System_String_System_String_VM_Models_AnalysisResultType_"></a> GetVector\(string, string, AnalysisResultType\)
 
 Retrieves vector results for a specified target entity, characteristic path, and analysis result type.
 
@@ -1742,7 +1742,7 @@ The returned dictionary contains entries where each key represents a string iden
 and each value is an object that implements the <xref href="VM.Models.OutputReader.IVectorDisplayAnimationData" data-throw-if-not-resolved="false"></xref> interface,
 containing animation data specific to the vector display.
 
-### InterpolationAkimaSpline\(double\[\], double\[\], int, int, double, double\)
+### <a id="VM_Post_API_OutputReader_OutputReader_InterpolationAkimaSpline_System_Double___System_Double___System_Int32_System_Int32_System_Double_System_Double_"></a> InterpolationAkimaSpline\(double\[\], double\[\], int, int, double, double\)
 
 Interpolates data series using the Akima spline method.
 

@@ -1,4 +1,4 @@
-# Class SubEntity
+#  Class SubEntity
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -166,7 +166,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SubEntity\(\)
+### <a id="VM_Managed_SubEntity__ctor"></a> SubEntity\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.SubEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -174,7 +174,7 @@ Initializes a new instance of the <xref href="VM.Managed.SubEntity" data-throw-i
 protected SubEntity()
 ```
 
-### SubEntity\(string, string\)
+### <a id="VM_Managed_SubEntity__ctor_System_String_System_String_"></a> SubEntity\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.SubEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -192,7 +192,7 @@ Name of the proxy.
 
 The build information.
 
-### SubEntity\(string\)
+### <a id="VM_Managed_SubEntity__ctor_System_String_"></a> SubEntity\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.SubEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -208,7 +208,7 @@ Name of the sub entity.
 
 ## Properties
 
-### Comment
+### <a id="VM_Managed_SubEntity_Comment"></a> Comment
 
 Gets or sets the comment.
 
@@ -220,7 +220,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DisplayName
+### <a id="VM_Managed_SubEntity_DisplayName"></a> DisplayName
 
 DisplayName
 
@@ -232,7 +232,7 @@ public virtual string DisplayName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FullName
+### <a id="VM_Managed_SubEntity_FullName"></a> FullName
 
 Gets the full name.
 
@@ -244,7 +244,7 @@ public string FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsEnabled
+### <a id="VM_Managed_SubEntity_IsEnabled"></a> IsEnabled
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.SubEntity" data-throw-if-not-resolved="false"></xref> is enabled.
 
@@ -256,7 +256,7 @@ public virtual bool IsEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_SubEntity_Name"></a> Name
 
 Gets or sets the name.
 
@@ -268,7 +268,7 @@ public virtual string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NonSymmetricName
+### <a id="VM_Managed_SubEntity_NonSymmetricName"></a> NonSymmetricName
 
 Gets the name of the non symmetric.
 
@@ -282,7 +282,7 @@ public string NonSymmetricName { get; }
 
 ## Methods
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_SubEntity_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -302,7 +302,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_SubEntity_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -330,7 +330,7 @@ if set to <code>true</code> [b has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_SubEntity_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -344,7 +344,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_SubEntity_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -358,7 +358,7 @@ protected virtual void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_SubEntity_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -371,5 +371,4 @@ protected virtual void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

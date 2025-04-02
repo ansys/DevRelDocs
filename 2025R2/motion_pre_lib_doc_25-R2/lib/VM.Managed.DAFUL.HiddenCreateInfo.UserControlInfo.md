@@ -1,4 +1,4 @@
-# Class HiddenCreateInfo.UserControlInfo
+#  Class HiddenCreateInfo.UserControlInfo
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -22,7 +22,7 @@ public class HiddenCreateInfo.UserControlInfo
 
 ## Constructors
 
-### UserControlInfo\(\)
+### <a id="VM_Managed_DAFUL_HiddenCreateInfo_UserControlInfo__ctor"></a> UserControlInfo\(\)
 
 ```csharp
 public UserControlInfo()
@@ -30,7 +30,7 @@ public UserControlInfo()
 
 ## Fields
 
-### Pages
+### <a id="VM_Managed_DAFUL_HiddenCreateInfo_UserControlInfo_Pages"></a> Pages
 
 The pages
 
@@ -42,7 +42,7 @@ public List<HiddenCreateInfo.Page> Pages
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[HiddenCreateInfo](VM.Managed.DAFUL.HiddenCreateInfo.md).[Page](VM.Managed.DAFUL.HiddenCreateInfo.Page.md)\>
 
-### Type
+### <a id="VM_Managed_DAFUL_HiddenCreateInfo_UserControlInfo_Type"></a> Type
 
 The type
 
@@ -53,5 +53,4 @@ public string Type
 #### Field Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

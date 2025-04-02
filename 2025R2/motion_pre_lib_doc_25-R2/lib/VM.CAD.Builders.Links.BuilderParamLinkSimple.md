@@ -1,4 +1,4 @@
-# Class BuilderParamLinkSimple
+#  Class BuilderParamLinkSimple
 
 Namespace: [VM.CAD.Builders.Links](VM.CAD.Builders.Links.md)  
 Assembly: VM.CAD.Builders.Links.dll  
@@ -52,7 +52,7 @@ BuilderParamBase.Transparency
 
 ## Constructors
 
-### BuilderParamLinkSimple\(\)
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkSimple__ctor"></a> BuilderParamLinkSimple\(\)
 
 ```csharp
 public BuilderParamLinkSimple()
@@ -60,7 +60,7 @@ public BuilderParamLinkSimple()
 
 ## Properties
 
-### BushDiameter
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkSimple_BushDiameter"></a> BushDiameter
 
 ```csharp
 public double BushDiameter { get; set; }
@@ -72,12 +72,11 @@ public double BushDiameter { get; set; }
 
 ## Methods
 
-### FinalizeParameter\(\)
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkSimple_FinalizeParameter"></a> FinalizeParameter\(\)
 
 Finalize additional parameter setup.
 
 ```csharp
 public override void FinalizeParameter()
 ```
-
 

@@ -1,4 +1,4 @@
-# Class SharedModelingDataStep
+#  Class SharedModelingDataStep
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -74,7 +74,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SharedModelingDataStep\(IScenario\)
+### <a id="VM_Models_Project_Preset_SharedModelingDataStep__ctor_VM_Models_IScenario_"></a> SharedModelingDataStep\(IScenario\)
 
 ```csharp
 public SharedModelingDataStep(IScenario parent)
@@ -86,7 +86,7 @@ public SharedModelingDataStep(IScenario parent)
 
 ## Properties
 
-### Name
+### <a id="VM_Models_Project_Preset_SharedModelingDataStep_Name"></a> Name
 
 ```csharp
 public override string Name { get; }
@@ -96,7 +96,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TargetApplicationType
+### <a id="VM_Models_Project_Preset_SharedModelingDataStep_TargetApplicationType"></a> TargetApplicationType
 
 ```csharp
 public override ApplicationTypes TargetApplicationType { get; }
@@ -106,7 +106,7 @@ public override ApplicationTypes TargetApplicationType { get; }
 
  ApplicationTypes
 
-### Type
+### <a id="VM_Models_Project_Preset_SharedModelingDataStep_Type"></a> Type
 
 ```csharp
 public override StepType Type { get; }
@@ -118,7 +118,7 @@ public override StepType Type { get; }
 
 ## Methods
 
-### CanRelation\(IStep\)
+### <a id="VM_Models_Project_Preset_SharedModelingDataStep_CanRelation_VM_Models_IStep_"></a> CanRelation\(IStep\)
 
 ```csharp
 public override bool CanRelation(IStep source)
@@ -131,5 +131,4 @@ public override bool CanRelation(IStep source)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

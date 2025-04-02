@@ -1,4 +1,4 @@
-# Class Tire
+#  Class Tire
 
 Namespace: [VM.Managed.DAFUL.Tire.Force](VM.Managed.DAFUL.Tire.Force.md)  
 Assembly: VMDTire.dll  
@@ -264,7 +264,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Tire\(\)
+### <a id="VM_Managed_DAFUL_Tire_Force_Tire__ctor"></a> Tire\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Force.Tire" data-throw-if-not-resolved="false"></xref> class.
 
@@ -272,7 +272,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Force.Tire" 
 public Tire()
 ```
 
-### Tire\(string\)
+### <a id="VM_Managed_DAFUL_Tire_Force_Tire__ctor_System_String_"></a> Tire\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Force.Tire" data-throw-if-not-resolved="false"></xref> class.
 
@@ -288,7 +288,7 @@ Name of the bush force.
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Tire_Force_Tire_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -301,5 +301,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The factor.
-
 

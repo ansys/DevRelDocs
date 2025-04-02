@@ -1,4 +1,4 @@
-# Class ChainedSystemAPI
+#  Class ChainedSystemAPI
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -22,7 +22,7 @@ public static class ChainedSystemAPI
 
 ## Methods
 
-### AddObjectToActiveDocument\(Obj, int, int, IEnumerable<string\>, IEnumerable<TMatrix\>, IEnumerable<Document3D\>, bool\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_AddObjectToActiveDocument_VM_API_Pre_Obj_System_Int32_System_Int32_System_Collections_Generic_IEnumerable_System_String__System_Collections_Generic_IEnumerable_VM_TMatrix__System_Collections_Generic_IEnumerable_VM_Managed_Document3D__System_Boolean_"></a> AddObjectToActiveDocument\(Obj, int, int, IEnumerable<string\>, IEnumerable<TMatrix\>, IEnumerable<Document3D\>, bool\)
 
 Add object to active document.
 
@@ -99,7 +99,7 @@ Will be thrown if the length of 'segmentDocuments' is not equal 'numberOfSegment
 
 Will be thrown if the length of 'transforms' is not equal 'numberOfSegment' value.
 
-### ChangeObjectLayer\(Obj, IEnumerable<Obj\>, IEnumerable<bool\>\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_ChangeObjectLayer_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Collections_Generic_IEnumerable_System_Boolean__"></a> ChangeObjectLayer\(Obj, IEnumerable<Obj\>, IEnumerable<bool\>\)
 
 Change object layer.
 
@@ -138,7 +138,7 @@ Will be thrown if type of 'chainedPlacing' is not <xref href="VM.Managed.DAFUL.C
 
 Will be thrown if type of 'visibleObjects', 'visibleStates' argument is empty.
 
-### CreateCenter\(DocumentChainedPath, string, Color?, bool\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_CreateCenter_VM_Managed_DAFUL_Chained_DocumentChainedPath_System_String_System_Nullable_System_Drawing_Color__System_Boolean_"></a> CreateCenter\(DocumentChainedPath, string, Color?, bool\)
 
 Create center roller <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Roller.BuilderRollerCenterFlangeSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -176,7 +176,7 @@ The new <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-r
 
 Will be thrown if 'document' is null.
 
-### CreateCenter\(PartDocumentChainedPath, Color?\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_CreateCenter_VM_Managed_DAFUL_Chained_PartDocumentChainedPath_System_Nullable_System_Drawing_Color__"></a> CreateCenter\(PartDocumentChainedPath, Color?\)
 
 Create center roller <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Roller.BuilderRollerCenterFlangeSimple" data-throw-if-not-resolved="false"></xref> builder in part.
 
@@ -206,7 +206,7 @@ The new <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved
 
 Will be thrown if 'document' is null.
 
-### CreateChainedSystem\(SubSystemDocument, IEnumerable<Obj\>, string\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_CreateChainedSystem_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_"></a> CreateChainedSystem\(SubSystemDocument, IEnumerable<Obj\>, string\)
 
 Create chained system <xref href="VM.Managed.DAFUL.Chained.ChainedPlacing" data-throw-if-not-resolved="false"></xref>.
 
@@ -245,7 +245,7 @@ Will be thrown if 'document' , 'pathList' are null.
 
 Will be thrown if item type of 'pathList' is not <xref href="VM.Managed.InstanceContainer" data-throw-if-not-resolved="false"></xref>.
 
-### CreateDouble\(DocumentChainedPath, string, Color?, bool\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_CreateDouble_VM_Managed_DAFUL_Chained_DocumentChainedPath_System_String_System_Nullable_System_Drawing_Color__System_Boolean_"></a> CreateDouble\(DocumentChainedPath, string, Color?, bool\)
 
 Create double roller <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Roller.BuilderRollerDoubleFlangeSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -283,7 +283,7 @@ The new <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-r
 
 Will be thrown if 'document' is null.
 
-### CreateDouble\(PartDocumentChainedPath, Color?\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_CreateDouble_VM_Managed_DAFUL_Chained_PartDocumentChainedPath_System_Nullable_System_Drawing_Color__"></a> CreateDouble\(PartDocumentChainedPath, Color?\)
 
 Create double roller <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Roller.BuilderRollerDoubleFlangeSimple" data-throw-if-not-resolved="false"></xref> builder in part.
 
@@ -313,7 +313,7 @@ The new <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved
 
 Will be thrown if 'document' is null.
 
-### CreateFlat\(DocumentChainedPath, string, Color?, bool\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_CreateFlat_VM_Managed_DAFUL_Chained_DocumentChainedPath_System_String_System_Nullable_System_Drawing_Color__System_Boolean_"></a> CreateFlat\(DocumentChainedPath, string, Color?, bool\)
 
 Create flat roller <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Roller.BuilderRollerFlatSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -351,7 +351,7 @@ The new <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-r
 
 Will be thrown if 'document' is null.
 
-### CreateFlat\(PartDocumentChainedPath, Color?\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_CreateFlat_VM_Managed_DAFUL_Chained_PartDocumentChainedPath_System_Nullable_System_Drawing_Color__"></a> CreateFlat\(PartDocumentChainedPath, Color?\)
 
 Create flat roller <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Roller.BuilderRollerFlatSimple" data-throw-if-not-resolved="false"></xref> builder in part.
 
@@ -381,7 +381,7 @@ The new <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved
 
 Will be thrown if 'document' is null.
 
-### CreateGeneral\(DocumentChainedPath, string, Color?, bool\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_CreateGeneral_VM_Managed_DAFUL_Chained_DocumentChainedPath_System_String_System_Nullable_System_Drawing_Color__System_Boolean_"></a> CreateGeneral\(DocumentChainedPath, string, Color?, bool\)
 
 Create general roller <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Roller.BuilderRollerGeneralSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -419,7 +419,7 @@ The new <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-r
 
 Will be thrown if 'document' is null.
 
-### CreateGeneral\(PartDocumentChainedPath, Color?\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_CreateGeneral_VM_Managed_DAFUL_Chained_PartDocumentChainedPath_System_Nullable_System_Drawing_Color__"></a> CreateGeneral\(PartDocumentChainedPath, Color?\)
 
 Create general roller <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Roller.BuilderRollerGeneralSimple" data-throw-if-not-resolved="false"></xref> builder in part.
 
@@ -449,7 +449,7 @@ The new <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved
 
 Will be thrown if 'document' is null.
 
-### CreateSingle\(DocumentChainedPath, string, Color?, bool\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_CreateSingle_VM_Managed_DAFUL_Chained_DocumentChainedPath_System_String_System_Nullable_System_Drawing_Color__System_Boolean_"></a> CreateSingle\(DocumentChainedPath, string, Color?, bool\)
 
 Create single roller <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Roller.BuilderRollerSingleFlangeSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -487,7 +487,7 @@ The new <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-r
 
 Will be thrown if 'document' is null.
 
-### CreateSingle\(PartDocumentChainedPath, Color?\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_CreateSingle_VM_Managed_DAFUL_Chained_PartDocumentChainedPath_System_Nullable_System_Drawing_Color__"></a> CreateSingle\(PartDocumentChainedPath, Color?\)
 
 Create single roller <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Roller.BuilderRollerSingleFlangeSimple" data-throw-if-not-resolved="false"></xref> builder in part.
 
@@ -517,7 +517,7 @@ The new <xref href="VM.Managed.CAD.Roller.BodyRoller" data-throw-if-not-resolved
 
 Will be thrown if 'document' is null.
 
-### CreateSprocket\(DocumentChainedPath, string, Color?, bool\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_CreateSprocket_VM_Managed_DAFUL_Chained_DocumentChainedPath_System_String_System_Nullable_System_Drawing_Color__System_Boolean_"></a> CreateSprocket\(DocumentChainedPath, string, Color?, bool\)
 
 Create sprocket <xref href="VM.Managed.DAFUL.Sprocket.SolidBodySprocket" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Sprocket.BuilderSingleSprocketSimple" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -556,7 +556,7 @@ The new <xref href="VM.Managed.DAFUL.Sprocket.SolidBodySprocket" data-throw-if-n
 
 Will be thrown if 'document' is null.
 
-### CreateSprocket\(PartDocumentChainedPath, Color?\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_CreateSprocket_VM_Managed_DAFUL_Chained_PartDocumentChainedPath_System_Nullable_System_Drawing_Color__"></a> CreateSprocket\(PartDocumentChainedPath, Color?\)
 
 Create sprocket <xref href="VM.Managed.CAD.Sprocket.BodySprocket" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Sprocket.BuilderSingleSprocketSimple" data-throw-if-not-resolved="false"></xref> builder in part.
 
@@ -587,7 +587,7 @@ The new <xref href="VM.Managed.CAD.Sprocket.BodySprocket" data-throw-if-not-reso
 
 Will be thrown if 'document' is null.
 
-### DeleteObjectList\(Obj, IEnumerable<Obj\>\)
+### <a id="VM_API_Pre_Links_ChainedSystemAPI_DeleteObjectList_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__"></a> DeleteObjectList\(Obj, IEnumerable<Obj\>\)
 
 Add object to active document.
 
@@ -621,5 +621,4 @@ Will be thrown if type of 'chainedPlacing' is not <xref href="VM.Managed.DAFUL.C
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if type of 'deletedObjects' argument is empty.
-
 

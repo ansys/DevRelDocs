@@ -1,4 +1,4 @@
-# Class SolidBodyMulti
+#  Class SolidBodyMulti
 
 Namespace: [VM.Managed.Symmetric.CAD](VM.Managed.Symmetric.CAD.md)  
 Assembly: VMSymBase.dll  
@@ -30,7 +30,7 @@ ISymmetricMultiBuilder
 
 ## Constructors
 
-### SolidBodyMulti\(\)
+### <a id="VM_Managed_Symmetric_CAD_SolidBodyMulti__ctor"></a> SolidBodyMulti\(\)
 
 ```csharp
 public SolidBodyMulti()
@@ -38,7 +38,7 @@ public SolidBodyMulti()
 
 ## Methods
 
-### UpdateBuild\(Builder, Builder, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_CAD_SolidBodyMulti_UpdateBuild_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateBuild\(Builder, Builder, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -71,5 +71,4 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

@@ -1,4 +1,4 @@
-# Class UpdateMeshFreeNodePropertyAndMaxFacetSizeOp
+#  Class UpdateMeshFreeNodePropertyAndMaxFacetSizeOp
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdateMeshFreeNodePropertyAndMaxFacetSizeOp\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_UpdateMeshFreeNodePropertyAndMaxFacetSizeOp__ctor"></a> UpdateMeshFreeNodePropertyAndMaxFacetSizeOp\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.UpdateMeshFreeNodePropertyAndMaxFacetSizeOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.UpdateMe
 public UpdateMeshFreeNodePropertyAndMaxFacetSizeOp()
 ```
 
-### UpdateMeshFreeNodePropertyAndMaxFacetSizeOp\(IAttributeContainer\)
+### <a id="VM_Managed_DAFUL_MeshFree_UpdateMeshFreeNodePropertyAndMaxFacetSizeOp__ctor_VM_Managed_IAttributeContainer_"></a> UpdateMeshFreeNodePropertyAndMaxFacetSizeOp\(IAttributeContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.UpdateMeshFreeNodePropertyAndMaxFacetSizeOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -101,7 +101,7 @@ The container.
 
 ## Properties
 
-### IsHistoryMerge
+### <a id="VM_Managed_DAFUL_MeshFree_UpdateMeshFreeNodePropertyAndMaxFacetSizeOp_IsHistoryMerge"></a> IsHistoryMerge
 
 Gets the history merge flag.
 
@@ -113,7 +113,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_MeshFree_UpdateMeshFreeNodePropertyAndMaxFacetSizeOp_Name"></a> Name
 
 Gets the Name.
 
@@ -125,7 +125,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Success
+### <a id="VM_Managed_DAFUL_MeshFree_UpdateMeshFreeNodePropertyAndMaxFacetSizeOp_Success"></a> Success
 
 Gets the success flag.
 
@@ -139,12 +139,11 @@ public bool Success { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_UpdateMeshFreeNodePropertyAndMaxFacetSizeOp_Execute"></a> Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
-
 

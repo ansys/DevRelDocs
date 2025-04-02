@@ -1,4 +1,4 @@
-# Class Node
+#  Class Node
 
 Namespace: [VM.Models.FE.Mesh](VM.Models.FE.Mesh.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -35,7 +35,7 @@ public class Node : Entity, IEntity
 
 ## Constructors
 
-### Node\(\)
+### <a id="VM_Models_FE_Mesh_Node__ctor"></a> Node\(\)
 
 ```csharp
 public Node()
@@ -43,7 +43,7 @@ public Node()
 
 ## Properties
 
-### Position
+### <a id="VM_Models_FE_Mesh_Node_Position"></a> Position
 
 ```csharp
 public Vector Position { get; set; }
@@ -53,7 +53,7 @@ public Vector Position { get; set; }
 
  Vector
 
-### X
+### <a id="VM_Models_FE_Mesh_Node_X"></a> X
 
 ```csharp
 [Column]
@@ -64,7 +64,7 @@ public double X { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_Models_FE_Mesh_Node_Y"></a> Y
 
 ```csharp
 [Column]
@@ -75,7 +75,7 @@ public double Y { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Z
+### <a id="VM_Models_FE_Mesh_Node_Z"></a> Z
 
 ```csharp
 [Column]
@@ -88,7 +88,7 @@ public double Z { get; set; }
 
 ## Methods
 
-### Equals\(object\)
+### <a id="VM_Models_FE_Mesh_Node_Equals_System_Object_"></a> Equals\(object\)
 
 ```csharp
 public override bool Equals(object obj)
@@ -102,7 +102,7 @@ public override bool Equals(object obj)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetHashCode\(\)
+### <a id="VM_Models_FE_Mesh_Node_GetHashCode"></a> GetHashCode\(\)
 
 ```csharp
 public override int GetHashCode()
@@ -111,5 +111,4 @@ public override int GetHashCode()
 #### Returns
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 

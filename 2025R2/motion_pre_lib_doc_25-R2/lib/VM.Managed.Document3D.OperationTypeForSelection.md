@@ -1,4 +1,4 @@
-# Enum Document3D.OperationTypeForSelection
+#  Enum Document3D.OperationTypeForSelection
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -26,7 +26,6 @@ OpenProperty.
 `ShowHide = 2` 
 
 ShowHide.
-
 
 
 

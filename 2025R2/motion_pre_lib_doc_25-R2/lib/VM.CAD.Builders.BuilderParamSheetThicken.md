@@ -1,4 +1,4 @@
-# Class BuilderParamSheetThicken
+#  Class BuilderParamSheetThicken
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -32,7 +32,7 @@ public class BuilderParamSheetThicken : BuilderParamBase
 
 ## Constructors
 
-### BuilderParamSheetThicken\(\)
+### <a id="VM_CAD_Builders_BuilderParamSheetThicken__ctor"></a> BuilderParamSheetThicken\(\)
 
 ```csharp
 public BuilderParamSheetThicken()
@@ -40,7 +40,7 @@ public BuilderParamSheetThicken()
 
 ## Properties
 
-### Direction
+### <a id="VM_CAD_Builders_BuilderParamSheetThicken_Direction"></a> Direction
 
 Sheet thicken direction
 
@@ -52,7 +52,7 @@ public SheetThickenDirection Direction { get; set; }
 
  [SheetThickenDirection](VM.CAD.Builders.SheetThickenDirection.md)
 
-### Target
+### <a id="VM_CAD_Builders_BuilderParamSheetThicken_Target"></a> Target
 
 Target geometry to thicken
 
@@ -64,7 +64,7 @@ public BuilderParamBase Target { get; set; }
 
  [BuilderParamBase](VM.CAD.Builders.BuilderParamBase.md)
 
-### Thickness
+### <a id="VM_CAD_Builders_BuilderParamSheetThicken_Thickness"></a> Thickness
 
 Thickness of the sheet geometry
 
@@ -75,5 +75,4 @@ public double Thickness { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

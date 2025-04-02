@@ -1,4 +1,4 @@
-# Class BuilderIntersect
+#  Class BuilderIntersect
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -218,7 +218,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderIntersect\(Builder, Builder\)
+### <a id="VM_Managed_CAD_BuilderIntersect__ctor_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> BuilderIntersect\(Builder, Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderIntersect" data-throw-if-not-resolved="false"></xref> class
 
@@ -236,7 +236,7 @@ The target build.
 
 The tool build.
 
-### BuilderIntersect\(\)
+### <a id="VM_Managed_CAD_BuilderIntersect__ctor"></a> BuilderIntersect\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderIntersect" data-throw-if-not-resolved="false"></xref> class
 
@@ -246,7 +246,7 @@ public BuilderIntersect()
 
 ## Methods
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_BuilderIntersect_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -255,5 +255,4 @@ protected override BuilderParamBase CreateParameter()
 #### Returns
 
  BuilderParamBase
-
 

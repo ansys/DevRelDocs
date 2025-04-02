@@ -1,4 +1,4 @@
-# Class RackGeometryForRBEInMeshFree
+#  Class RackGeometryForRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -296,7 +296,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### RackGeometryForRBEInMeshFree\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackGeometryForRBEInMeshFree__ctor"></a> RackGeometryForRBEInMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RackGeometryForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -304,7 +304,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Rac
 public RackGeometryForRBEInMeshFree()
 ```
 
-### RackGeometryForRBEInMeshFree\(Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackGeometryForRBEInMeshFree__ctor_VM_Managed_CAD_Builder_"></a> RackGeometryForRBEInMeshFree\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RackGeometryForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -320,7 +320,7 @@ The builder.
 
 ## Methods
 
-### TemperaryRackGeometry\(GearGeometryInfo, IConnectable, IConnectable, HiddenDocumentMeshBase, DirectionBase, OMatrix\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RackGeometryForRBEInMeshFree_TemperaryRackGeometry_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_Managed_DirectionBase_VM_Managed_OMatrix_"></a> TemperaryRackGeometry\(GearGeometryInfo, IConnectable, IConnectable, HiddenDocumentMeshBase, DirectionBase, OMatrix\)
 
 Temperaries the rack geometry.
 
@@ -357,5 +357,4 @@ The mat o.
 #### Returns
 
  [RackGeometryForRBEInMeshFree](VM.Managed.DAFUL.GearTrain.CAD.RackGeometryForRBEInMeshFree.md)
-
 

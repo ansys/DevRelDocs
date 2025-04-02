@@ -1,4 +1,4 @@
-# Class SolidBodyCylinder<T\>
+#  Class SolidBodyCylinder<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -68,10 +68,9 @@ public abstract class SolidBodyCylinder<T> : SolidBody<T>, IBuilder where T : Bu
 
 ## Constructors
 
-### SolidBodyCylinder\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyCylinder_1__ctor"></a> SolidBodyCylinder\(\)
 
 ```csharp
 protected SolidBodyCylinder()
 ```
-
 

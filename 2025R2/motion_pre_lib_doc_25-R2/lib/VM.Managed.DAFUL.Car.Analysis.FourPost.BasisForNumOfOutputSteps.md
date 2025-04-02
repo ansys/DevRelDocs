@@ -1,4 +1,4 @@
-# Enum BasisForNumOfOutputSteps
+#  Enum BasisForNumOfOutputSteps
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.FourPost](VM.Managed.DAFUL.Car.Analysis.FourPost.md)  
 Assembly: VMDCar.dll  
@@ -32,7 +32,6 @@ OutputFrequency
 `OutputInterval = 1` 
 
 OutputInterval
-
 
 
 

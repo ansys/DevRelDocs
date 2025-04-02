@@ -1,4 +1,4 @@
-# Class RefreshSubentity
+#  Class RefreshSubentity
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,13 +77,13 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### RefreshSubentity\(\)
+### <a id="VM_Managed_DAFUL_Operation_RefreshSubentity__ctor"></a> RefreshSubentity\(\)
 
 ```csharp
 public RefreshSubentity()
 ```
 
-### RefreshSubentity\(string, string\)
+### <a id="VM_Managed_DAFUL_Operation_RefreshSubentity__ctor_System_String_System_String_"></a> RefreshSubentity\(string, string\)
 
 ```csharp
 public RefreshSubentity(string strSubentityName, string strSubentityViewName)
@@ -95,7 +95,7 @@ public RefreshSubentity(string strSubentityName, string strSubentityViewName)
 
 `strSubentityViewName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RefreshSubentity\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_RefreshSubentity__ctor_VM_Managed_Operation_JournalParameter_"></a> RefreshSubentity\(JournalParameter\)
 
 ```csharp
 public RefreshSubentity(JournalParameter jp)
@@ -107,7 +107,7 @@ public RefreshSubentity(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_RefreshSubentity_Name"></a> Name
 
 Gets the operation name.
 
@@ -121,7 +121,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_RefreshSubentity_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -129,7 +129,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Operation_RefreshSubentity_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -138,5 +138,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

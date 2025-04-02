@@ -1,4 +1,4 @@
-# Class LinkLinkedList<T, TLink\>
+#  Class LinkLinkedList<T, TLink\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -50,7 +50,7 @@ IPostDeserialized
 
 ## Constructors
 
-### LinkLinkedList\(ILinkContainer\)
+### <a id="VM_Managed_Collections_LinkLinkedList_2__ctor_VM_Models_Pre_ILinkContainer_"></a> LinkLinkedList\(ILinkContainer\)
 
 ```csharp
 public LinkLinkedList(ILinkContainer objParent)
@@ -60,7 +60,7 @@ public LinkLinkedList(ILinkContainer objParent)
 
 `objParent` ILinkContainer
 
-### LinkLinkedList\(ILinkContainer, LinkedList<TLink\>\)
+### <a id="VM_Managed_Collections_LinkLinkedList_2__ctor_VM_Models_Pre_ILinkContainer_System_Collections_Generic_LinkedList__1__"></a> LinkLinkedList\(ILinkContainer, LinkedList<TLink\>\)
 
 ```csharp
 public LinkLinkedList(ILinkContainer objParent, LinkedList<TLink> collection)
@@ -74,7 +74,7 @@ public LinkLinkedList(ILinkContainer objParent, LinkedList<TLink> collection)
 
 ## Properties
 
-### First
+### <a id="VM_Managed_Collections_LinkLinkedList_2_First"></a> First
 
 ```csharp
 public LinkedListNode<TLink> First { get; }
@@ -84,7 +84,7 @@ public LinkedListNode<TLink> First { get; }
 
  [LinkedListNode](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlistnode\-1)<TLink\>
 
-### Last
+### <a id="VM_Managed_Collections_LinkLinkedList_2_Last"></a> Last
 
 ```csharp
 public LinkedListNode<TLink> Last { get; }
@@ -94,7 +94,7 @@ public LinkedListNode<TLink> Last { get; }
 
  [LinkedListNode](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlistnode\-1)<TLink\>
 
-### UseSearchCache
+### <a id="VM_Managed_Collections_LinkLinkedList_2_UseSearchCache"></a> UseSearchCache
 
 ```csharp
 public bool UseSearchCache { get; set; }
@@ -106,7 +106,7 @@ public bool UseSearchCache { get; set; }
 
 ## Methods
 
-### Add\(T\)
+### <a id="VM_Managed_Collections_LinkLinkedList_2_Add__0_"></a> Add\(T\)
 
 ```csharp
 public override sealed void Add(T item)
@@ -116,7 +116,7 @@ public override sealed void Add(T item)
 
 `item` T
 
-### Add\(T, bool\)
+### <a id="VM_Managed_Collections_LinkLinkedList_2_Add__0_System_Boolean_"></a> Add\(T, bool\)
 
 ```csharp
 public override sealed void Add(T item, bool bContainsDocument)
@@ -128,7 +128,7 @@ public override sealed void Add(T item, bool bContainsDocument)
 
 `bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### AddAfter\(T, T\)
+### <a id="VM_Managed_Collections_LinkLinkedList_2_AddAfter__0__0_"></a> AddAfter\(T, T\)
 
 ```csharp
 public LinkedListNode<TLink> AddAfter(T item, T newItem)
@@ -144,7 +144,7 @@ public LinkedListNode<TLink> AddAfter(T item, T newItem)
 
  [LinkedListNode](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlistnode\-1)<TLink\>
 
-### AddBefore\(T, T\)
+### <a id="VM_Managed_Collections_LinkLinkedList_2_AddBefore__0__0_"></a> AddBefore\(T, T\)
 
 ```csharp
 public LinkedListNode<TLink> AddBefore(T item, T newItem)
@@ -160,7 +160,7 @@ public LinkedListNode<TLink> AddBefore(T item, T newItem)
 
  [LinkedListNode](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlistnode\-1)<TLink\>
 
-### AddFirst\(T\)
+### <a id="VM_Managed_Collections_LinkLinkedList_2_AddFirst__0_"></a> AddFirst\(T\)
 
 ```csharp
 public LinkedListNode<TLink> AddFirst(T item)
@@ -174,7 +174,7 @@ public LinkedListNode<TLink> AddFirst(T item)
 
  [LinkedListNode](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlistnode\-1)<TLink\>
 
-### AddLast\(T\)
+### <a id="VM_Managed_Collections_LinkLinkedList_2_AddLast__0_"></a> AddLast\(T\)
 
 ```csharp
 public LinkedListNode<TLink> AddLast(T item)
@@ -188,13 +188,13 @@ public LinkedListNode<TLink> AddLast(T item)
 
  [LinkedListNode](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlistnode\-1)<TLink\>
 
-### Clear\(\)
+### <a id="VM_Managed_Collections_LinkLinkedList_2_Clear"></a> Clear\(\)
 
 ```csharp
 public override sealed void Clear()
 ```
 
-### Clear\(bool\)
+### <a id="VM_Managed_Collections_LinkLinkedList_2_Clear_System_Boolean_"></a> Clear\(bool\)
 
 ```csharp
 public override sealed void Clear(bool bContainsDocument)
@@ -204,7 +204,7 @@ public override sealed void Clear(bool bContainsDocument)
 
 `bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Contains\(T\)
+### <a id="VM_Managed_Collections_LinkLinkedList_2_Contains__0_"></a> Contains\(T\)
 
 ```csharp
 public override sealed bool Contains(T item)
@@ -218,7 +218,7 @@ public override sealed bool Contains(T item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Remove\(T\)
+### <a id="VM_Managed_Collections_LinkLinkedList_2_Remove__0_"></a> Remove\(T\)
 
 ```csharp
 public override sealed bool Remove(T item)
@@ -232,7 +232,7 @@ public override sealed bool Remove(T item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Remove\(T, bool\)
+### <a id="VM_Managed_Collections_LinkLinkedList_2_Remove__0_System_Boolean_"></a> Remove\(T, bool\)
 
 ```csharp
 public override sealed bool Remove(T item, bool bContainsDocument)
@@ -247,5 +247,4 @@ public override sealed bool Remove(T item, bool bContainsDocument)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

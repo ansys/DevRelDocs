@@ -1,4 +1,4 @@
-# Class HighlightProperty
+#  Class HighlightProperty
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOpFEFilm.dll  
@@ -75,7 +75,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### HighlightProperty\(List<object\>\)
+### <a id="VM_Managed_Operation_HighlightProperty__ctor_System_Collections_Generic_List_System_Object__"></a> HighlightProperty\(List<object\>\)
 
 ```csharp
 public HighlightProperty(List<object> lstParam)
@@ -87,7 +87,7 @@ public HighlightProperty(List<object> lstParam)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_Operation_HighlightProperty_Name"></a> Name
 
 Gets the operation name.
 
@@ -101,12 +101,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_Operation_HighlightProperty_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

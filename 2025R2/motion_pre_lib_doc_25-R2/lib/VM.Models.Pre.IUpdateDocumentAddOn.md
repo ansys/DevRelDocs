@@ -1,4 +1,4 @@
-# Interface IUpdateDocumentAddOn
+#  Interface IUpdateDocumentAddOn
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,10 +15,9 @@ public interface IUpdateDocumentAddOn
 
 ## Methods
 
-### SetUpdatedFlag\(\)
+### <a id="VM_Models_Pre_IUpdateDocumentAddOn_SetUpdatedFlag"></a> SetUpdatedFlag\(\)
 
 ```csharp
 void SetUpdatedFlag()
 ```
-
 

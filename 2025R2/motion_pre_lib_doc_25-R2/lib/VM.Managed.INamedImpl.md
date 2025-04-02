@@ -1,4 +1,4 @@
-# Class INamedImpl
+#  Class INamedImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class INamedImpl
 
 ## Constructors
 
-### INamedImpl\(\)
+### <a id="VM_Managed_INamedImpl__ctor"></a> INamedImpl\(\)
 
 ```csharp
 public INamedImpl()
@@ -30,7 +30,7 @@ public INamedImpl()
 
 ## Properties
 
-### NameSeperator
+### <a id="VM_Managed_INamedImpl_NameSeperator"></a> NameSeperator
 
 Gets or sets the name seperator.
 
@@ -42,7 +42,7 @@ public static char NameSeperator { get; set; }
 
  [char](https://learn.microsoft.com/dotnet/api/system.char)
 
-### PredefinedFlag
+### <a id="VM_Managed_INamedImpl_PredefinedFlag"></a> PredefinedFlag
 
 Gets or sets the predefined flag.
 
@@ -56,7 +56,7 @@ public static char PredefinedFlag { get; set; }
 
 ## Methods
 
-### EnsureLocalName\(string\)
+### <a id="VM_Managed_INamedImpl_EnsureLocalName_System_String_"></a> EnsureLocalName\(string\)
 
 Ensure local name.
 
@@ -70,7 +70,7 @@ public static void EnsureLocalName(string strName)
 
 The name.
 
-### GetChildName\(string\)
+### <a id="VM_Managed_INamedImpl_GetChildName_System_String_"></a> GetChildName\(string\)
 
 Get child name.
 
@@ -90,7 +90,7 @@ The name.
 
 The child name
 
-### GetFullName\(IObject\)
+### <a id="VM_Managed_INamedImpl_GetFullName_VM_Models_Pre_IObject_"></a> GetFullName\(IObject\)
 
 Get full name.
 
@@ -110,7 +110,7 @@ The object.
 
 The name
 
-### GetFullName\(INamed\)
+### <a id="VM_Managed_INamedImpl_GetFullName_VM_Managed_INamed_"></a> GetFullName\(INamed\)
 
 Get full name.
 
@@ -130,7 +130,7 @@ The object has name.
 
 The name
 
-### GetImportedCADBodyDirectory\(string, string\)
+### <a id="VM_Managed_INamedImpl_GetImportedCADBodyDirectory_System_String_System_String_"></a> GetImportedCADBodyDirectory\(string, string\)
 
 Get imported cad body directory path.
 
@@ -152,7 +152,7 @@ The body name
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetImportedCADBodyFilePath\(string, string, string\)
+### <a id="VM_Managed_INamedImpl_GetImportedCADBodyFilePath_System_String_System_String_System_String_"></a> GetImportedCADBodyFilePath\(string, string, string\)
 
 Get imported cad body file path.
 
@@ -178,7 +178,7 @@ The extension name
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetImportedCADBodyName\(Document, string, bool\)
+### <a id="VM_Managed_INamedImpl_GetImportedCADBodyName_VM_Managed_Document_System_String_System_Boolean_"></a> GetImportedCADBodyName\(Document, string, bool\)
 
 Get imported cad body name.
 
@@ -204,7 +204,7 @@ Object Name
 
 The new name
 
-### GetNonSymmetricName\(string\)
+### <a id="VM_Managed_INamedImpl_GetNonSymmetricName_System_String_"></a> GetNonSymmetricName\(string\)
 
 Get non symmetric name.
 
@@ -224,7 +224,7 @@ The name.
 
 The name
 
-### GetOwnerFullName\(string\)
+### <a id="VM_Managed_INamedImpl_GetOwnerFullName_System_String_"></a> GetOwnerFullName\(string\)
 
 Get owner name from fullname.
 
@@ -244,7 +244,7 @@ The full name.
 
 The owner's full name
 
-### GetOwnerName\(string\)
+### <a id="VM_Managed_INamedImpl_GetOwnerName_System_String_"></a> GetOwnerName\(string\)
 
 Get owner name.
 
@@ -264,7 +264,7 @@ The name.
 
 The owner name
 
-### GetSymmetricTypeFromName\(string\)
+### <a id="VM_Managed_INamedImpl_GetSymmetricTypeFromName_System_String_"></a> GetSymmetricTypeFromName\(string\)
 
 Get symmetric type from name.
 
@@ -284,7 +284,7 @@ The name.
 
 The symmetric type
 
-### IsChildName\(string\)
+### <a id="VM_Managed_INamedImpl_IsChildName_System_String_"></a> IsChildName\(string\)
 
 whether this name is child name.
 
@@ -304,7 +304,7 @@ The object has name.
 
 The name
 
-### IsExistNameInDoc\(IDocument, string, string\)
+### <a id="VM_Managed_INamedImpl_IsExistNameInDoc_VM_Models_Pre_IDocument_System_String_System_String_"></a> IsExistNameInDoc\(IDocument, string, string\)
 
 whether this name is exist to document.
 
@@ -332,7 +332,7 @@ The name for message.
 
 The name
 
-### IsExistNameInDoc\(IDocument, string\)
+### <a id="VM_Managed_INamedImpl_IsExistNameInDoc_VM_Models_Pre_IDocument_System_String_"></a> IsExistNameInDoc\(IDocument, string\)
 
 whether this name is exist to document.
 
@@ -356,7 +356,7 @@ The name.
 
 The name
 
-### IsValidName\(string, bool\)
+### <a id="VM_Managed_INamedImpl_IsValidName_System_String_System_Boolean_"></a> IsValidName\(string, bool\)
 
 whether this name is valid.
 
@@ -380,7 +380,7 @@ Whether show error messages.
 
 <code>true</code> if the specified name is valid; otherwise, <code>false</code>.
 
-### IsValidName\(string\)
+### <a id="VM_Managed_INamedImpl_IsValidName_System_String_"></a> IsValidName\(string\)
 
 whether this name is valid.
 
@@ -400,7 +400,7 @@ Object Name
 
 <code>true</code> if the specified name is valid; otherwise, <code>false</code>.
 
-### MakeOppositeSymmetricName\(string\)
+### <a id="VM_Managed_INamedImpl_MakeOppositeSymmetricName_System_String_"></a> MakeOppositeSymmetricName\(string\)
 
 Make opposite symmetric name.
 
@@ -420,7 +420,7 @@ The name.
 
 The opposite symmetric name
 
-### MakeSymmetricName\(string, SymmetricType\)
+### <a id="VM_Managed_INamedImpl_MakeSymmetricName_System_String_VM_Managed_SymmetricType_"></a> MakeSymmetricName\(string, SymmetricType\)
 
 Make symmetric name.
 
@@ -443,5 +443,4 @@ The symmetric type.
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The name
-
 

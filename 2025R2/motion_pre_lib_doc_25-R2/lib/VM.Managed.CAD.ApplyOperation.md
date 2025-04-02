@@ -1,4 +1,4 @@
-# Class ApplyOperation
+#  Class ApplyOperation
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### ApplyOperation\(string\)
+### <a id="VM_Managed_CAD_ApplyOperation__ctor_System_String_"></a> ApplyOperation\(string\)
 
 ```csharp
 public ApplyOperation(string strName)
@@ -89,7 +89,7 @@ public ApplyOperation(string strName)
 
 ## Fields
 
-### OnApply
+### <a id="VM_Managed_CAD_ApplyOperation_OnApply"></a> OnApply
 
 Apply event
 
@@ -103,7 +103,7 @@ public ApplyOperation.ApplyCallback OnApply
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_CAD_ApplyOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -115,7 +115,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Success
+### <a id="VM_Managed_CAD_ApplyOperation_Success"></a> Success
 
 ```csharp
 public bool Success { get; }
@@ -127,12 +127,11 @@ public bool Success { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_CAD_ApplyOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

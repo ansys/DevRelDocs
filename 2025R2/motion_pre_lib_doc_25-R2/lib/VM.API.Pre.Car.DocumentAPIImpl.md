@@ -1,4 +1,4 @@
-# Class DocumentAPIImpl
+#  Class DocumentAPIImpl
 
 Namespace: [VM.API.Pre.Car](VM.API.Pre.Car.md)  
 Assembly: VM.API.Pre.Car.dll  
@@ -22,7 +22,7 @@ public static class DocumentAPIImpl
 
 ## Methods
 
-### CreateNewPropertyDocumentImpl<T\>\(string, string, Unit, LengthUnitType, string, string\)
+### <a id="VM_API_Pre_Car_DocumentAPIImpl_CreateNewPropertyDocumentImpl__1_System_String_System_String_VM_Unit_VM_API_Pre_LengthUnitType_System_String_System_String_"></a> CreateNewPropertyDocumentImpl<T\>\(string, string, Unit, LengthUnitType, string, string\)
 
 Create <xref href="VM.Managed.PropertyDocumentBase" data-throw-if-not-resolved="false"></xref>.
 
@@ -75,7 +75,7 @@ The document type
 
 Will be thrown if 'newPropertyFilePath' argument is null.
 
-### CreateNewSubsystemFromTemplateDocumentImpl<T\>\(string, string, MinorRole, string, string\)
+### <a id="VM_API_Pre_Car_DocumentAPIImpl_CreateNewSubsystemFromTemplateDocumentImpl__1_System_String_System_String_VM_Managed_DAFUL_Car_MinorRole_System_String_System_String_"></a> CreateNewSubsystemFromTemplateDocumentImpl<T\>\(string, string, MinorRole, string, string\)
 
 Create <xref href="VM.Managed.DAFUL.SubSystemDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -128,5 +128,4 @@ Will be thrown if 'newSubsystemFromTemplateFilePath' argument is null.
  [FileNotFoundException](https://learn.microsoft.com/dotnet/api/system.io.filenotfoundexception)
 
 Will be thrown if 'existedSubsystemTemplateFilePath' does not exist.
-
 

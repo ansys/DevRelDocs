@@ -1,4 +1,4 @@
-# Struct Obj
+#  Struct Obj
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -32,7 +32,7 @@ public struct Obj
 
 ## Constructors
 
-### Obj\(string\)
+### <a id="VM_API_Pre_Obj__ctor_System_String_"></a> Obj\(string\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.Obj" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,7 +46,7 @@ public Obj(string name)
 
 The name of object.
 
-### Obj\(string, IContainer\)
+### <a id="VM_API_Pre_Obj__ctor_System_String_VM_Models_Pre_IContainer_"></a> Obj\(string, IContainer\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.Obj" data-throw-if-not-resolved="false"></xref> class.
 
@@ -70,7 +70,7 @@ The container of the object.
 
 Will be thrown if 'name' or 'container' arguments are empty.
 
-### Obj\(UIntPtr\)
+### <a id="VM_API_Pre_Obj__ctor_System_UIntPtr_"></a> Obj\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.Obj" data-throw-if-not-resolved="false"></xref> class.
 
@@ -84,7 +84,7 @@ public Obj(UIntPtr key)
 
 The key of the object.
 
-### Obj\(ConvertKey\)
+### <a id="VM_API_Pre_Obj__ctor_VM_Managed_ObjectBase_ConvertKey_"></a> Obj\(ConvertKey\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.Obj" data-throw-if-not-resolved="false"></xref> class.
 
@@ -100,7 +100,7 @@ The key of the object.
 
 ## Properties
 
-### NullObj
+### <a id="VM_API_Pre_Obj_NullObj"></a> NullObj
 
 The null object.
 
@@ -112,7 +112,7 @@ public static Obj NullObj { get; }
 
  [Obj](VM.API.Pre.Obj.md)
 
-### Object
+### <a id="VM_API_Pre_Obj_Object"></a> Object
 
 The object.
 
@@ -126,7 +126,7 @@ public ObjectBase Object { get; }
 
 ## Methods
 
-### Destroy\(\)
+### <a id="VM_API_Pre_Obj_Destroy"></a> Destroy\(\)
 
 Destroy object and remove from document
 
@@ -136,7 +136,7 @@ public void Destroy()
 
 ## Operators
 
-### implicit operator Obj\(UIntPtr\)
+### <a id="VM_API_Pre_Obj_op_Implicit_System_UIntPtr__VM_API_Pre_Obj"></a> implicit operator Obj\(UIntPtr\)
 
 ```csharp
 public static implicit operator Obj(UIntPtr key)
@@ -150,7 +150,7 @@ public static implicit operator Obj(UIntPtr key)
 
  [Obj](VM.API.Pre.Obj.md)
 
-### implicit operator Obj\(ConvertKey\)
+### <a id="VM_API_Pre_Obj_op_Implicit_VM_Managed_ObjectBase_ConvertKey__VM_API_Pre_Obj"></a> implicit operator Obj\(ConvertKey\)
 
 ```csharp
 public static implicit operator Obj(ObjectBase.ConvertKey key)
@@ -164,7 +164,7 @@ public static implicit operator Obj(ObjectBase.ConvertKey key)
 
  [Obj](VM.API.Pre.Obj.md)
 
-### implicit operator Obj\(string\)
+### <a id="VM_API_Pre_Obj_op_Implicit_System_String__VM_API_Pre_Obj"></a> implicit operator Obj\(string\)
 
 ```csharp
 public static implicit operator Obj(string name)
@@ -177,5 +177,4 @@ public static implicit operator Obj(string name)
 #### Returns
 
  [Obj](VM.API.Pre.Obj.md)
-
 

@@ -1,4 +1,4 @@
-# Class BuilderParamRack
+#  Class BuilderParamRack
 
 Namespace: [VM.CAD.Builders.DriveTrain](VM.CAD.Builders.DriveTrain.md)  
 Assembly: VM.CAD.Builders.DriveTrain.dll  
@@ -42,7 +42,7 @@ BuilderParamBase.Transparency
 
 ## Constructors
 
-### BuilderParamRack\(\)
+### <a id="VM_CAD_Builders_DriveTrain_BuilderParamRack__ctor"></a> BuilderParamRack\(\)
 
 ```csharp
 public BuilderParamRack()
@@ -50,7 +50,7 @@ public BuilderParamRack()
 
 ## Properties
 
-### Diameter
+### <a id="VM_CAD_Builders_DriveTrain_BuilderParamRack_Diameter"></a> Diameter
 
 ```csharp
 public double Diameter { get; set; }
@@ -60,7 +60,7 @@ public double Diameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Height
+### <a id="VM_CAD_Builders_DriveTrain_BuilderParamRack_Height"></a> Height
 
 ```csharp
 public double Height { get; set; }
@@ -70,7 +70,7 @@ public double Height { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ModuleT
+### <a id="VM_CAD_Builders_DriveTrain_BuilderParamRack_ModuleT"></a> ModuleT
 
 ```csharp
 public double ModuleT { get; set; }
@@ -80,7 +80,7 @@ public double ModuleT { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SegmentIndex
+### <a id="VM_CAD_Builders_DriveTrain_BuilderParamRack_SegmentIndex"></a> SegmentIndex
 
 ```csharp
 public int SegmentIndex { get; set; }
@@ -90,7 +90,7 @@ public int SegmentIndex { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### SideLength
+### <a id="VM_CAD_Builders_DriveTrain_BuilderParamRack_SideLength"></a> SideLength
 
 ```csharp
 public double SideLength { get; set; }
@@ -99,5 +99,4 @@ public double SideLength { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

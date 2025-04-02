@@ -1,4 +1,4 @@
-# Class AnalysisStaticLoad.AligningTorque
+#  Class AnalysisStaticLoad.AligningTorque
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -31,7 +31,7 @@ public class AnalysisStaticLoad.AligningTorque : AnalysisStaticLoad.StaticRoadBa
 
 ## Constructors
 
-### AligningTorque\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_AligningTorque__ctor"></a> AligningTorque\(\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.AligningTorque" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.AligningTorq
 public AligningTorque()
 ```
 
-### AligningTorque\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_AligningTorque__ctor_VM_Models_Pre_ILinkContainer_"></a> AligningTorque\(ILinkContainer\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.AligningTorque" data-throw-if-not-resolved="false"></xref> class.
 
@@ -52,5 +52,4 @@ public AligningTorque(ILinkContainer lnkContainer)
 `lnkContainer` ILinkContainer
 
 The link container.
-
 

@@ -1,4 +1,4 @@
-# Class DocCreateCarAnalysisInfo
+#  Class DocCreateCarAnalysisInfo
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -39,7 +39,7 @@ DocCreateInfo.DocumentName
 
 ## Constructors
 
-### DocCreateCarAnalysisInfo\(\)
+### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo__ctor"></a> DocCreateCarAnalysisInfo\(\)
 
 ```csharp
 public DocCreateCarAnalysisInfo()
@@ -47,7 +47,7 @@ public DocCreateCarAnalysisInfo()
 
 ## Properties
 
-### GravityX
+### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_GravityX"></a> GravityX
 
 Gets or sets the X coordinate of gravity.
 
@@ -59,7 +59,7 @@ public double GravityX { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GravityY
+### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_GravityY"></a> GravityY
 
 Gets or sets the gravity Y coordinate of gravity.
 
@@ -71,7 +71,7 @@ public double GravityY { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GravityZ
+### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_GravityZ"></a> GravityZ
 
 Gets or sets the gravity Z coordinate of gravity.
 
@@ -83,7 +83,7 @@ public double GravityZ { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IconSize
+### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_IconSize"></a> IconSize
 
 Gets or sets the icon size.
 
@@ -95,7 +95,7 @@ public double IconSize { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IncrementTime
+### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_IncrementTime"></a> IncrementTime
 
 Gets or sets the increment time.
 
@@ -107,7 +107,7 @@ public double IncrementTime { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UseIncrementTime
+### <a id="VM_Managed_DAFUL_Car_DocCreateCarAnalysisInfo_UseIncrementTime"></a> UseIncrementTime
 
 Gets or sets the use increment time.
 
@@ -118,5 +118,4 @@ public bool UseIncrementTime { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

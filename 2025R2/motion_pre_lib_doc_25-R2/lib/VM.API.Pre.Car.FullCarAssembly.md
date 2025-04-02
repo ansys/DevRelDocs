@@ -1,4 +1,4 @@
-# Struct FullCarAssembly
+#  Struct FullCarAssembly
 
 Namespace: [VM.API.Pre.Car](VM.API.Pre.Car.md)  
 Assembly: VM.API.Pre.Car.dll  
@@ -11,7 +11,7 @@ public struct FullCarAssembly
 
 ## Constructors
 
-### FullCarAssembly\(string, string, string, string, string, string, string, string, string\)
+### <a id="VM_API_Pre_Car_FullCarAssembly__ctor_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_"></a> FullCarAssembly\(string, string, string, string, string, string, string, string, string\)
 
 Constructor
 
@@ -59,7 +59,7 @@ The other path.
 
 ## Properties
 
-### BodyPath
+### <a id="VM_API_Pre_Car_FullCarAssembly_BodyPath"></a> BodyPath
 
 Gets or sets the body path.
 
@@ -71,7 +71,7 @@ public string BodyPath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### BrakePath
+### <a id="VM_API_Pre_Car_FullCarAssembly_BrakePath"></a> BrakePath
 
 Gets or sets the brake path.
 
@@ -83,7 +83,7 @@ public string BrakePath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FrontSuspensionPath
+### <a id="VM_API_Pre_Car_FullCarAssembly_FrontSuspensionPath"></a> FrontSuspensionPath
 
 Gets or sets the front suspension path.
 
@@ -95,7 +95,7 @@ public string FrontSuspensionPath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FrontWheelPath
+### <a id="VM_API_Pre_Car_FullCarAssembly_FrontWheelPath"></a> FrontWheelPath
 
 Gets or sets the front wheel path.
 
@@ -107,7 +107,7 @@ public string FrontWheelPath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### OtherPath
+### <a id="VM_API_Pre_Car_FullCarAssembly_OtherPath"></a> OtherPath
 
 Gets or sets the other path.
 
@@ -119,7 +119,7 @@ public string OtherPath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PowerTrainPath
+### <a id="VM_API_Pre_Car_FullCarAssembly_PowerTrainPath"></a> PowerTrainPath
 
 Gets or sets the power train path.
 
@@ -131,7 +131,7 @@ public string PowerTrainPath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RearSuspensionPath
+### <a id="VM_API_Pre_Car_FullCarAssembly_RearSuspensionPath"></a> RearSuspensionPath
 
 Gets or sets the rear suspension path.
 
@@ -143,7 +143,7 @@ public string RearSuspensionPath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RearWheelPath
+### <a id="VM_API_Pre_Car_FullCarAssembly_RearWheelPath"></a> RearWheelPath
 
 Gets or sets the rear wheel path.
 
@@ -155,7 +155,7 @@ public string RearWheelPath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SteeringPath
+### <a id="VM_API_Pre_Car_FullCarAssembly_SteeringPath"></a> SteeringPath
 
 Gets or sets the steering path.
 
@@ -166,5 +166,4 @@ public string SteeringPath { readonly get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

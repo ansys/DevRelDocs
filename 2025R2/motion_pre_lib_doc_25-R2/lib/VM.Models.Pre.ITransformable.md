@@ -1,4 +1,4 @@
-# Interface ITransformable
+#  Interface ITransformable
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface ITransformable
 
 ## Methods
 
-### CanBeTransformed\(QueryTransform\)
+### <a id="VM_Models_Pre_ITransformable_CanBeTransformed_VM_Models_Pre_QueryTransform_"></a> CanBeTransformed\(QueryTransform\)
 
 Determines whether this instance [can be transformed] the specified query.
 
@@ -31,7 +31,7 @@ void CanBeTransformed(QueryTransform queryTransform)
 
 The trnasform query.
 
-### Transform\(TMatrix\)
+### <a id="VM_Models_Pre_ITransformable_Transform_VM_TMatrix_"></a> Transform\(TMatrix\)
 
 Transforms the geometry through specified matrix.
 
@@ -44,5 +44,4 @@ void Transform(TMatrix matrix)
 `matrix` TMatrix
 
 The matrix.
-
 

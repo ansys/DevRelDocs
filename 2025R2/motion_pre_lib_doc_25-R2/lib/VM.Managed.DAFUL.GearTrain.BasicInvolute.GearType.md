@@ -1,4 +1,4 @@
-# Enum BasicInvolute.GearType
+#  Enum BasicInvolute.GearType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ The helical
 `Spur = 0` 
 
 The spur
-
 
 
 

@@ -1,4 +1,4 @@
-# Interface IOrientationBase
+#  Interface IOrientationBase
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -23,7 +23,7 @@ IHasID,
 
 ## Properties
 
-### AngleType
+### <a id="VM_Models_Pre_IOrientationBase_AngleType"></a> AngleType
 
 ```csharp
 AngleTypes AngleType { get; }
@@ -33,7 +33,7 @@ AngleTypes AngleType { get; }
 
  AngleTypes
 
-### RotationAngles
+### <a id="VM_Models_Pre_IOrientationBase_RotationAngles"></a> RotationAngles
 
 ```csharp
 double[] RotationAngles { get; }
@@ -43,7 +43,7 @@ double[] RotationAngles { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### RotationAxis
+### <a id="VM_Models_Pre_IOrientationBase_RotationAxis"></a> RotationAxis
 
 ```csharp
 RotationAxes RotationAxis { get; }
@@ -53,7 +53,7 @@ RotationAxes RotationAxis { get; }
 
  RotationAxes
 
-### RotationType
+### <a id="VM_Models_Pre_IOrientationBase_RotationType"></a> RotationType
 
 ```csharp
 RotationTypes RotationType { get; }
@@ -63,7 +63,7 @@ RotationTypes RotationType { get; }
 
  RotationTypes
 
-### Value
+### <a id="VM_Models_Pre_IOrientationBase_Value"></a> Value
 
 ```csharp
 OMatrix Value { get; }
@@ -72,5 +72,4 @@ OMatrix Value { get; }
 #### Property Value
 
  OMatrix
-
 

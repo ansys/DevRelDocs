@@ -1,4 +1,4 @@
-# Enum Tolerance.ToleranceType
+#  Enum Tolerance.ToleranceType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -38,7 +38,6 @@ Generation Profile
 `ToothThickness = 2` 
 
 Tooth Thickness
-
 
 
 

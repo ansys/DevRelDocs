@@ -1,4 +1,4 @@
-# Class GearGeometry
+#  Class GearGeometry
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -300,7 +300,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearGeometry\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearGeometry__ctor"></a> GearGeometry\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.GearGeometry" data-throw-if-not-resolved="false"></xref> class.
 
@@ -308,7 +308,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Gea
 public GearGeometry()
 ```
 
-### GearGeometry\(Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearGeometry__ctor_VM_Managed_CAD_Builder_"></a> GearGeometry\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.GearGeometry" data-throw-if-not-resolved="false"></xref> class.
 
@@ -324,7 +324,7 @@ The builder.
 
 ## Methods
 
-### TemperaryGearGeometry<T\>\(GearGeometryInfo, HiddenShaftSetDocument, ReferencePointType, double, VectorBase, ParentType, VectorBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearGeometry_TemperaryGearGeometry__1_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_VM_Managed_DAFUL_GearTrain_CAD_ReferencePointType_System_Double_VM_Managed_VectorBase_VM_Managed_DAFUL_GearTrain_CAD_GearBuilder_ParentType_VM_Managed_VectorBase_"></a> TemperaryGearGeometry<T\>\(GearGeometryInfo, HiddenShaftSetDocument, ReferencePointType, double, VectorBase, ParentType, VectorBase\)
 
 Temperaries the gear geometry.
 
@@ -369,5 +369,4 @@ The vec bearing point.
 #### Type Parameters
 
 `T` 
-
 

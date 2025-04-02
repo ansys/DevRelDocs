@@ -1,4 +1,4 @@
-# Class GearShapeCustomBase.Profile
+#  Class GearShapeCustomBase.Profile
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -22,7 +22,7 @@ public class GearShapeCustomBase.Profile
 
 ## Constructors
 
-### Profile\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile__ctor"></a> Profile\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearShapeCustomBase.Profile" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public Profile()
 
 ## Properties
 
-### Distance
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile_Distance"></a> Distance
 
 The distance from the base profile
 
@@ -44,7 +44,7 @@ public double Distance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### PointCount
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile_PointCount"></a> PointCount
 
 The number of profile points.
 
@@ -56,7 +56,7 @@ public int PointCount { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### PointList
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile_PointList"></a> PointList
 
 The profile points.
 
@@ -70,7 +70,7 @@ public List<GearShapeCustomBase.Point2D> PointList { get; set; }
 
 ## Methods
 
-### Equals\(Profile\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile_Equals_VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile_"></a> Equals\(Profile\)
 
 <p>Check equality of two objects</p>
 
@@ -90,7 +90,7 @@ public bool Equals(GearShapeCustomBase.Profile other)
 
 <p>true if two objects are equal. Otherwise false.</p>
 
-### GetToothProfile\(Profile, uint\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile_GetToothProfile_VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile_System_UInt32_"></a> GetToothProfile\(Profile, uint\)
 
 Get the profile of a gear tooth.
 
@@ -114,7 +114,7 @@ The number of tooth.
 
 The profile of a gear tooth.
 
-### MaxDistance\(Point2D, ref Profile, ref double\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile_MaxDistance_VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Point2D_VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile__System_Double__"></a> MaxDistance\(Point2D, ref Profile, ref double\)
 
 Get the maximum distance from center point.
 
@@ -142,7 +142,7 @@ The angle of maximum distance point.
 
 The maximum distance.
 
-### MinDistance\(Point2D, ref Profile\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile_MinDistance_VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Point2D_VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile__"></a> MinDistance\(Point2D, ref Profile\)
 
 Get the minimum distance from center point.
 
@@ -166,7 +166,7 @@ The target profile.
 
 The minimum distance.
 
-### MinDistance\(Point2D, ref Profile, ref double\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile_MinDistance_VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Point2D_VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Profile__System_Double__"></a> MinDistance\(Point2D, ref Profile, ref double\)
 
 Get the minimum distance from center point.
 
@@ -193,5 +193,4 @@ The angle of maximum distance point.
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 The minimum distance.
-
 

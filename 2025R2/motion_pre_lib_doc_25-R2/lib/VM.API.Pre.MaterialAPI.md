@@ -1,4 +1,4 @@
-# Class MaterialAPI
+#  Class MaterialAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class MaterialAPI
 
 ## Methods
 
-### CreateArrudaBoyce\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
+### <a id="VM_API_Pre_MaterialAPI_CreateArrudaBoyce_VM_Models_Pre_IDocument_System_String_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Boolean_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> CreateArrudaBoyce\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
 
 Create <xref href="VM.Managed.Material.ArrudaBoyce" data-throw-if-not-resolved="false"></xref>.
 
@@ -81,7 +81,7 @@ Will be thrown if 'document' is null.
 
 Will be thrown if 'density', 'dampingRatio' values less than 0.
 
-### CreateArrudaBoyce\(IDocument, string\)
+### <a id="VM_API_Pre_MaterialAPI_CreateArrudaBoyce_VM_Models_Pre_IDocument_System_String_"></a> CreateArrudaBoyce\(IDocument, string\)
 
 Create <xref href="VM.Managed.Material.ArrudaBoyce" data-throw-if-not-resolved="false"></xref>.
 
@@ -105,7 +105,7 @@ The name of the arruda-boyce material.
 
 The new <xref href="VM.Managed.Material.ArrudaBoyce" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateFoam\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, Obj?\)
+### <a id="VM_API_Pre_MaterialAPI_CreateFoam_VM_Models_Pre_IDocument_System_String_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Boolean_VM_Models_Pre_ExpressionValueVariable_System_Nullable_VM_API_Pre_Obj__"></a> CreateFoam\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, Obj?\)
 
 Create <xref href="VM.Managed.Material.Foam" data-throw-if-not-resolved="false"></xref>.
 
@@ -164,7 +164,7 @@ Will be thrown if 'density', 'dampingRatio', 'youngsModulus' values less than 0.
 
 Will be thrown if the type of 'spline' is not <xref href="VM.Managed.DAFUL.Spline" data-throw-if-not-resolved="false"></xref>.
 
-### CreateFoam\(IDocument, string\)
+### <a id="VM_API_Pre_MaterialAPI_CreateFoam_VM_Models_Pre_IDocument_System_String_"></a> CreateFoam\(IDocument, string\)
 
 Create <xref href="VM.Managed.Material.Foam" data-throw-if-not-resolved="false"></xref>.
 
@@ -188,7 +188,7 @@ The name of the foam material.
 
 The new <xref href="VM.Managed.Material.Foam" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateISO\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
+### <a id="VM_API_Pre_MaterialAPI_CreateISO_VM_Models_Pre_IDocument_System_String_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Boolean_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> CreateISO\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
 
 Create <xref href="VM.Managed.Material.ISO" data-throw-if-not-resolved="false"></xref>.
 
@@ -269,7 +269,7 @@ Will be thrown if 'density', 'dampingRatio', 'youngsModulus', 'shearModulus', 'p
 
 Will be thrown if 'poissonRatio' value is less than 0 or equal to 0.5 or more than 0.5.
 
-### CreateISO\(IDocument, string\)
+### <a id="VM_API_Pre_MaterialAPI_CreateISO_VM_Models_Pre_IDocument_System_String_"></a> CreateISO\(IDocument, string\)
 
 Create <xref href="VM.Managed.Material.ISO" data-throw-if-not-resolved="false"></xref>.
 
@@ -293,7 +293,7 @@ The name of the iso material.
 
 The new <xref href="VM.Managed.Material.ISO" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateISONonlinearThermal\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, Obj, ExpressionValueVariable, Obj, Obj, Obj, ExpressionValueVariable\)
+### <a id="VM_API_Pre_MaterialAPI_CreateISONonlinearThermal_VM_Models_Pre_IDocument_System_String_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Boolean_VM_API_Pre_Obj_VM_Models_Pre_ExpressionValueVariable_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Models_Pre_ExpressionValueVariable_"></a> CreateISONonlinearThermal\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, Obj, ExpressionValueVariable, Obj, Obj, Obj, ExpressionValueVariable\)
 
 Create <xref href="VM.Managed.Material.ISONonlinearThermal" data-throw-if-not-resolved="false"></xref>.
 
@@ -370,7 +370,7 @@ Will be thrown if 'density', 'dampingRatio', 'poissonRatio' values less than 0.
 
 Will be thrown if 'poissonRatio' value is less than 0 or equal to 0.5 or more than 0.5.
 
-### CreateISONonlinearThermal\(IDocument, string, Obj, Obj, Obj, Obj\)
+### <a id="VM_API_Pre_MaterialAPI_CreateISONonlinearThermal_VM_Models_Pre_IDocument_System_String_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_API_Pre_Obj_"></a> CreateISONonlinearThermal\(IDocument, string, Obj, Obj, Obj, Obj\)
 
 Create <xref href="VM.Managed.Material.ISONonlinearThermal" data-throw-if-not-resolved="false"></xref>.
 
@@ -410,7 +410,7 @@ The specific heat spline of the iso nonlinear thermal material.
 
 The new <xref href="VM.Managed.Material.ISONonlinearThermal" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateMooneyRivlin\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
+### <a id="VM_API_Pre_MaterialAPI_CreateMooneyRivlin_VM_Models_Pre_IDocument_System_String_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Boolean_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> CreateMooneyRivlin\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
 
 Create <xref href="VM.Managed.Material.MooneyRivlin" data-throw-if-not-resolved="false"></xref>.
 
@@ -471,7 +471,7 @@ Will be thrown if 'density', 'dampingRatio', 'c10' 'c01' values less than 0.
             Will be thrown if 'd' value equal to or less than 0.
             Will be thrown if 'd' value greater than 1.
 
-### CreateMooneyRivlin\(IDocument, string\)
+### <a id="VM_API_Pre_MaterialAPI_CreateMooneyRivlin_VM_Models_Pre_IDocument_System_String_"></a> CreateMooneyRivlin\(IDocument, string\)
 
 Create <xref href="VM.Managed.Material.MooneyRivlin" data-throw-if-not-resolved="false"></xref>.
 
@@ -495,7 +495,7 @@ The name of the mooney-rivlin material.
 
 The new <xref href="VM.Managed.Material.MooneyRivlin" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNeoHookean\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, ExpressionValueVariable\)
+### <a id="VM_API_Pre_MaterialAPI_CreateNeoHookean_VM_Models_Pre_IDocument_System_String_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Boolean_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> CreateNeoHookean\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, ExpressionValueVariable\)
 
 Create <xref href="VM.Managed.Material.NeoHookean" data-throw-if-not-resolved="false"></xref>.
 
@@ -550,7 +550,7 @@ Will be thrown if 'document' is null.
 
 Will be thrown if 'density', 'dampingRatio', 'c10' values less than 0.
 
-### CreateNeoHookean\(IDocument, string\)
+### <a id="VM_API_Pre_MaterialAPI_CreateNeoHookean_VM_Models_Pre_IDocument_System_String_"></a> CreateNeoHookean\(IDocument, string\)
 
 Create <xref href="VM.Managed.Material.NeoHookean" data-throw-if-not-resolved="false"></xref>.
 
@@ -574,7 +574,7 @@ The name of the neo-hookean material.
 
 The new <xref href="VM.Managed.Material.NeoHookean" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateORTHO\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
+### <a id="VM_API_Pre_MaterialAPI_CreateORTHO_VM_Models_Pre_IDocument_System_String_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Boolean_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> CreateORTHO\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
 
 Create <xref href="VM.Managed.Material.Ortho" data-throw-if-not-resolved="false"></xref>.
 
@@ -664,7 +664,7 @@ Will be thrown if 'density', 'dampingRatio', 'youngsModulusX', 'youngsModulusY',
 
 Will be thrown if 'poissonRatioXY', 'poissonRatioYZ', 'poissonRatioXZ' value is less than 0 or equal to 0.5 or more than 0.5.
 
-### CreateORTHO\(IDocument, string\)
+### <a id="VM_API_Pre_MaterialAPI_CreateORTHO_VM_Models_Pre_IDocument_System_String_"></a> CreateORTHO\(IDocument, string\)
 
 Create <xref href="VM.Managed.Material.Ortho" data-throw-if-not-resolved="false"></xref>.
 
@@ -688,7 +688,7 @@ The name of the orthotropic material.
 
 The new <xref href="VM.Managed.Material.Ortho" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateOgden\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, IEnumerable<OgdenContents\>\)
+### <a id="VM_API_Pre_MaterialAPI_CreateOgden_VM_Models_Pre_IDocument_System_String_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Boolean_System_Collections_Generic_IEnumerable_VM_API_Pre_OgdenContents__"></a> CreateOgden\(IDocument, string, ExpressionValueVariable, ExpressionValueVariable, bool, IEnumerable<OgdenContents\>\)
 
 Create <xref href="VM.Managed.Material.Ogden" data-throw-if-not-resolved="false"></xref>.
 
@@ -739,7 +739,7 @@ Will be thrown if 'document' is null.
 
 Will be thrown if 'density', 'dampingRatio' values less than 0.
 
-### CreateOgden\(IDocument, string\)
+### <a id="VM_API_Pre_MaterialAPI_CreateOgden_VM_Models_Pre_IDocument_System_String_"></a> CreateOgden\(IDocument, string\)
 
 Create <xref href="VM.Managed.Material.Ogden" data-throw-if-not-resolved="false"></xref>.
 
@@ -763,7 +763,7 @@ The name of the ogden material.
 
 The new <xref href="VM.Managed.Material.Ogden" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreatePlasticBilinear\(IDocument, string, Obj, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
+### <a id="VM_API_Pre_MaterialAPI_CreatePlasticBilinear_VM_Models_Pre_IDocument_System_String_VM_API_Pre_Obj_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> CreatePlasticBilinear\(IDocument, string, Obj, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
 
 Create <xref href="VM.Managed.Material.PlasticBilinear" data-throw-if-not-resolved="false"></xref>.
 
@@ -816,7 +816,7 @@ Will be thrown if 'document' is null.
 
 Will be thrown if 'plasticHardeningModulus', 'initialYieldingStress', 'hardeningParameter' values less than 0.
 
-### CreatePlasticBilinear\(IDocument, string, Obj\)
+### <a id="VM_API_Pre_MaterialAPI_CreatePlasticBilinear_VM_Models_Pre_IDocument_System_String_VM_API_Pre_Obj_"></a> CreatePlasticBilinear\(IDocument, string, Obj\)
 
 Create <xref href="VM.Managed.Material.PlasticBilinear" data-throw-if-not-resolved="false"></xref>.
 
@@ -844,7 +844,7 @@ The linear elastic material.
 
 The new <xref href="VM.Managed.Material.PlasticBilinear" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreatePlasticMultilinear\(IDocument, string, Obj, ExpressionValueVariable, ExpressionValueVariable, Obj?\)
+### <a id="VM_API_Pre_MaterialAPI_CreatePlasticMultilinear_VM_Models_Pre_IDocument_System_String_VM_API_Pre_Obj_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Nullable_VM_API_Pre_Obj__"></a> CreatePlasticMultilinear\(IDocument, string, Obj, ExpressionValueVariable, ExpressionValueVariable, Obj?\)
 
 Create <xref href="VM.Managed.Material.PlasticMultilinear" data-throw-if-not-resolved="false"></xref>.
 
@@ -901,7 +901,7 @@ Will be thrown if 'plasticHardeningModulus', 'initialYieldingStress', 'hardening
 
 Will be thrown if the type of 'spline' is not <xref href="VM.Managed.DAFUL.Spline" data-throw-if-not-resolved="false"></xref>.
 
-### CreatePlasticMultilinear\(IDocument, string, Obj\)
+### <a id="VM_API_Pre_MaterialAPI_CreatePlasticMultilinear_VM_Models_Pre_IDocument_System_String_VM_API_Pre_Obj_"></a> CreatePlasticMultilinear\(IDocument, string, Obj\)
 
 Create <xref href="VM.Managed.Material.PlasticMultilinear" data-throw-if-not-resolved="false"></xref>.
 
@@ -929,7 +929,7 @@ The linear elastic material.
 
 The new <xref href="VM.Managed.Material.PlasticMultilinear" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateSplineForMaterial\(Obj, IEnumerable<Point\>\)
+### <a id="VM_API_Pre_MaterialAPI_CreateSplineForMaterial_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_Managed_DAFUL_SplineData_Point__"></a> CreateSplineForMaterial\(Obj, IEnumerable<Point\>\)
 
 Create spline for material.
 
@@ -971,5 +971,4 @@ Will be thrown if the type of 'material' is not <xref href="VM.Managed.Material.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if the document type of 'material' is not <xref href="VM.Managed.Document3D" data-throw-if-not-resolved="false"></xref>.
-
 

@@ -1,4 +1,4 @@
-# Interface IOperationsVectorDisplayViewModel
+#  Interface IOperationsVectorDisplayViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -72,7 +72,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### Color
+### <a id="VM_Operations_Post_Interfaces_IOperationsVectorDisplayViewModel_Color"></a> Color
 
 Gets or sets the color of the vector display.
 
@@ -92,7 +92,7 @@ For an example that includes this property, see the [Interface IOperationsVector
 
 Use this property to specify or retrieve the color of the vector display.
 
-### IsLog
+### <a id="VM_Operations_Post_Interfaces_IOperationsVectorDisplayViewModel_IsLog"></a> IsLog
 
 Gets or sets a value indicating whether the log scale option is enabled.
 
@@ -112,7 +112,7 @@ For an example that includes this property, see the [Interface IOperationsVector
 
 Use this property to specify or retrieve whether the log scale option is enabled.
 
-### Scale
+### <a id="VM_Operations_Post_Interfaces_IOperationsVectorDisplayViewModel_Scale"></a> Scale
 
 Gets or sets the scale of the vector display.
 

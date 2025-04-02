@@ -1,4 +1,4 @@
-# Class ShiftMapReader
+#  Class ShiftMapReader
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -20,7 +20,7 @@ public static class ShiftMapReader
 
 ## Fields
 
-### ShiftPatternExtension
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ShiftMapReader_ShiftPatternExtension"></a> ShiftPatternExtension
 
 ```csharp
 public const string ShiftPatternExtension = ".shift"
@@ -32,7 +32,7 @@ public const string ShiftPatternExtension = ".shift"
 
 ## Methods
 
-### Read\(string\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ShiftMapReader_Read_System_String_"></a> Read\(string\)
 
 ```csharp
 public static ShiftMap Read(string path)
@@ -45,5 +45,4 @@ public static ShiftMap Read(string path)
 #### Returns
 
  [ShiftMap](VM.Models.Pre.Drivetrain.VehicleSimulator.ShiftMap.md)
-
 

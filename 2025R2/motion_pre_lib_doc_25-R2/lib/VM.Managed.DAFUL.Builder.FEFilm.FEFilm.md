@@ -1,4 +1,4 @@
-# Class FEFilm
+#  Class FEFilm
 
 Namespace: [VM.Managed.DAFUL.Builder.FEFilm](VM.Managed.DAFUL.Builder.FEFilm.md)  
 Assembly: VMBldFEFilm.dll  
@@ -53,7 +53,7 @@ BuilderBase<FEFilm\>.ErrorMessage
 
 ## Constructors
 
-### FEFilm\(\)
+### <a id="VM_Managed_DAFUL_Builder_FEFilm_FEFilm__ctor"></a> FEFilm\(\)
 
 ```csharp
 public FEFilm()
@@ -61,7 +61,7 @@ public FEFilm()
 
 ## Properties
 
-### PathList
+### <a id="VM_Managed_DAFUL_Builder_FEFilm_FEFilm_PathList"></a> PathList
 
 ```csharp
 public string[] PathList { get; set; }
@@ -73,7 +73,7 @@ public string[] PathList { get; set; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_FEFilm_FEFilm_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -88,5 +88,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

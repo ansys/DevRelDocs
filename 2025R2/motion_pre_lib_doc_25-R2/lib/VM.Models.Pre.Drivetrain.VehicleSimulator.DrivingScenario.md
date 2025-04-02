@@ -1,4 +1,4 @@
-# Class DrivingScenario
+#  Class DrivingScenario
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -54,7 +54,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DrivingScenario\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_DrivingScenario__ctor"></a> DrivingScenario\(\)
 
 ```csharp
 public DrivingScenario()
@@ -62,7 +62,7 @@ public DrivingScenario()
 
 ## Properties
 
-### AccelerationPedalScenario
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_DrivingScenario_AccelerationPedalScenario"></a> AccelerationPedalScenario
 
 ```csharp
 public Signal AccelerationPedalScenario { get; set; }
@@ -72,7 +72,7 @@ public Signal AccelerationPedalScenario { get; set; }
 
  [Signal](VM.Models.Pre.Drivetrain.VehicleSimulator.Signal.md)
 
-### AccelerationPedalScenarioSignal
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_DrivingScenario_AccelerationPedalScenarioSignal"></a> AccelerationPedalScenarioSignal
 
 ```csharp
 [Obsolete]
@@ -83,7 +83,7 @@ public ObservableCollection<DataPoint> AccelerationPedalScenarioSignal { get; }
 
  [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<DataPoint\>
 
-### BrakePedalScenario
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_DrivingScenario_BrakePedalScenario"></a> BrakePedalScenario
 
 ```csharp
 public Signal BrakePedalScenario { get; set; }
@@ -93,7 +93,7 @@ public Signal BrakePedalScenario { get; set; }
 
  [Signal](VM.Models.Pre.Drivetrain.VehicleSimulator.Signal.md)
 
-### BrakePedalScenarioSignal
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_DrivingScenario_BrakePedalScenarioSignal"></a> BrakePedalScenarioSignal
 
 ```csharp
 [Obsolete]
@@ -104,7 +104,7 @@ public ObservableCollection<DataPoint> BrakePedalScenarioSignal { get; }
 
  [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<DataPoint\>
 
-### EndTime
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_DrivingScenario_EndTime"></a> EndTime
 
 ```csharp
 public double? EndTime { get; set; }
@@ -114,7 +114,7 @@ public double? EndTime { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)?
 
-### IsValid
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_DrivingScenario_IsValid"></a> IsValid
 
 ```csharp
 public override bool IsValid { get; }
@@ -123,5 +123,4 @@ public override bool IsValid { get; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

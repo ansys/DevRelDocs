@@ -1,4 +1,4 @@
-# Class MbyNContact
+#  Class MbyNContact
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -230,7 +230,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MbyNContact\(\)
+### <a id="VM_Managed_DAFUL_Contact_MbyNContact__ctor"></a> MbyNContact\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MbyNContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -238,7 +238,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MbyNConta
 public MbyNContact()
 ```
 
-### MbyNContact\(string\)
+### <a id="VM_Managed_DAFUL_Contact_MbyNContact__ctor_System_String_"></a> MbyNContact\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MbyNContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -254,7 +254,7 @@ Name of the contact.
 
 ## Properties
 
-### ActionGeometries
+### <a id="VM_Managed_DAFUL_Contact_MbyNContact_ActionGeometries"></a> ActionGeometries
 
 Gets or sets the action geometires.
 
@@ -266,7 +266,7 @@ public MultipleContactInfo[] ActionGeometries { get; set; }
 
  [MultipleContactInfo](VM.Managed.DAFUL.Contact.MultipleContactInfo.md)\[\]
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Contact_MbyNContact_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -278,7 +278,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### BaseGeometries
+### <a id="VM_Managed_DAFUL_Contact_MbyNContact_BaseGeometries"></a> BaseGeometries
 
 Gets or sets the base geometires.
 
@@ -292,7 +292,7 @@ public MultipleContactInfo[] BaseGeometries { get; set; }
 
 ## Methods
 
-### CheckAttributeMbyNContact\(MultipleContactInfo\[\], MultipleContactInfo\[\]\)
+### <a id="VM_Managed_DAFUL_Contact_MbyNContact_CheckAttributeMbyNContact_VM_Managed_DAFUL_Contact_MultipleContactInfo___VM_Managed_DAFUL_Contact_MultipleContactInfo___"></a> CheckAttributeMbyNContact\(MultipleContactInfo\[\], MultipleContactInfo\[\]\)
 
 Check attributeMbyNContact.
 
@@ -306,7 +306,7 @@ public void CheckAttributeMbyNContact(MultipleContactInfo[] attribute, MultipleC
 
 `target` [MultipleContactInfo](VM.Managed.DAFUL.Contact.MultipleContactInfo.md)\[\]
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Contact_MbyNContact_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -320,7 +320,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### GetActionEntities\(\)
+### <a id="VM_Managed_DAFUL_Contact_MbyNContact_GetActionEntities"></a> GetActionEntities\(\)
 
 Get action entities
 
@@ -334,7 +334,7 @@ public ObjectBase[] GetActionEntities()
 
 The action ObjectBase
 
-### GetBaseEntities\(\)
+### <a id="VM_Managed_DAFUL_Contact_MbyNContact_GetBaseEntities"></a> GetBaseEntities\(\)
 
 Get base entities
 
@@ -348,7 +348,7 @@ public ObjectBase[] GetBaseEntities()
 
 The base ObjectBase
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Contact_MbyNContact_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -376,7 +376,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### IsValidContact\(IContactable\[\], IContactable\[\], MultiContactType\)
+### <a id="VM_Managed_DAFUL_Contact_MbyNContact_IsValidContact_VM_Managed_DAFUL_IContactable___VM_Managed_DAFUL_IContactable___VM_Managed_DAFUL_Contact_MultiContactType_"></a> IsValidContact\(IContactable\[\], IContactable\[\], MultiContactType\)
 
 Determines whether the contact is valid.
 
@@ -404,7 +404,7 @@ The type.
 
 <code>true</code> if the specified object is interface; otherwise, <code>false</code>.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Contact_MbyNContact_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -422,7 +422,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Contact_MbyNContact_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -436,7 +436,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnLinkReserved\(ILink, object, EventArgs\)
+### <a id="VM_Managed_DAFUL_Contact_MbyNContact_OnLinkReserved_VM_Managed_ILink_System_Object_System_EventArgs_"></a> OnLinkReserved\(ILink, object, EventArgs\)
 
 ```csharp
 protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs args)
@@ -449,5 +449,4 @@ protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs
 `objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
-
 

@@ -1,4 +1,4 @@
-# Class DesignFrameAPI
+#  Class DesignFrameAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class DesignFrameAPI
 
 ## Methods
 
-### CreateDesignFrame\(IDocument, string, TMatrix\)
+### <a id="VM_API_Pre_DesignFrameAPI_CreateDesignFrame_VM_Models_Pre_IDocument_System_String_VM_TMatrix_"></a> CreateDesignFrame\(IDocument, string, TMatrix\)
 
 Create <xref href="VM.Managed.DesignFrame" data-throw-if-not-resolved="false"></xref>.
 
@@ -57,7 +57,7 @@ The new <xref href="VM.Managed.DesignFrame" data-throw-if-not-resolved="false"><
 
 Will be thrown if 'transform' argument is null.
 
-### CreateDesignFrame\(IDocument, string, TransformBase, SymmetricType\)
+### <a id="VM_API_Pre_DesignFrameAPI_CreateDesignFrame_VM_Models_Pre_IDocument_System_String_VM_Managed_TransformBase_VM_Managed_SymmetricType_"></a> CreateDesignFrame\(IDocument, string, TransformBase, SymmetricType\)
 
 Create <xref href="VM.Managed.DesignFrame" data-throw-if-not-resolved="false"></xref>.
 
@@ -95,5 +95,4 @@ The new <xref href="VM.Managed.DesignFrame" data-throw-if-not-resolved="false"><
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'transform' argument is null.
-
 

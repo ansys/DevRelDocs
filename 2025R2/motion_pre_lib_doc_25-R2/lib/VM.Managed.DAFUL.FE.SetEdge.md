@@ -1,4 +1,4 @@
-# Class SetEdge
+#  Class SetEdge
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -233,7 +233,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SetEdge\(\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge__ctor"></a> SetEdge\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.SetEdge" data-throw-if-not-resolved="false"></xref> class.
 
@@ -243,7 +243,7 @@ public SetEdge()
 
 ## Properties
 
-### Color
+### <a id="VM_Managed_DAFUL_FE_SetEdge_Color"></a> Color
 
 Gets or sets the color.
 
@@ -255,7 +255,7 @@ public override Color Color { set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### Count
+### <a id="VM_Managed_DAFUL_FE_SetEdge_Count"></a> Count
 
 Gets the patch count of this instance.
 
@@ -267,7 +267,7 @@ public override uint Count { get; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### EdgeCount
+### <a id="VM_Managed_DAFUL_FE_SetEdge_EdgeCount"></a> EdgeCount
 
 Gets the edge count of this instance.
 
@@ -279,7 +279,7 @@ public uint EdgeCount { get; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### EdgeIndexCont
+### <a id="VM_Managed_DAFUL_FE_SetEdge_EdgeIndexCont"></a> EdgeIndexCont
 
 Gets the node index container.
 
@@ -291,7 +291,7 @@ public SetEdge.EdgeIndexContainer EdgeIndexCont { get; set; }
 
  [SetEdge](VM.Managed.DAFUL.FE.SetEdge.md).[EdgeIndexContainer](VM.Managed.DAFUL.FE.SetEdge.EdgeIndexContainer.md)
 
-### Edges
+### <a id="VM_Managed_DAFUL_FE_SetEdge_Edges"></a> Edges
 
 ```csharp
 public IEnumerable<Tuple<uint, uint>> Edges { get; }
@@ -303,7 +303,7 @@ public IEnumerable<Tuple<uint, uint>> Edges { get; }
 
 ## Methods
 
-### AddEdges\(Tuple<uint, uint\>\[\]\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_AddEdges_System_Tuple_System_UInt32_System_UInt32____"></a> AddEdges\(Tuple<uint, uint\>\[\]\)
 
 ```csharp
 public void AddEdges(Tuple<uint, uint>[] edges)
@@ -313,7 +313,7 @@ public void AddEdges(Tuple<uint, uint>[] edges)
 
 `edges` [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32), [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>\[\]
 
-### AddEdges\(ICollection<Tuple<uint, uint\>\>\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_AddEdges_System_Collections_Generic_ICollection_System_Tuple_System_UInt32_System_UInt32___"></a> AddEdges\(ICollection<Tuple<uint, uint\>\>\)
 
 ```csharp
 public void AddEdges(ICollection<Tuple<uint, uint>> edges)
@@ -323,7 +323,7 @@ public void AddEdges(ICollection<Tuple<uint, uint>> edges)
 
 `edges` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32), [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>\>
 
-### AddPatches\(ICollection<Patch\>\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_AddPatches_System_Collections_Generic_ICollection_VM_Managed_DAFUL_FE_Patch__"></a> AddPatches\(ICollection<Patch\>\)
 
 ```csharp
 public override void AddPatches(ICollection<Patch> patches)
@@ -333,13 +333,13 @@ public override void AddPatches(ICollection<Patch> patches)
 
 `patches` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Patch](VM.Managed.DAFUL.FE.Patch.md)\>
 
-### ConnectProxy\(\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_ConnectProxy"></a> ConnectProxy\(\)
 
 ```csharp
 public override void ConnectProxy()
 ```
 
-### GetCenterPositionDirectionImpl\(uint, ref VectorBase, ref VectorBase, IReferencable\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_GetCenterPositionDirectionImpl_System_UInt32_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetCenterPositionDirectionImpl\(uint, ref VectorBase, ref VectorBase, IReferencable\)
 
 ```csharp
 protected override void GetCenterPositionDirectionImpl(uint index, ref VectorBase center, ref VectorBase direction, IReferencable reference)
@@ -355,7 +355,7 @@ protected override void GetCenterPositionDirectionImpl(uint index, ref VectorBas
 
 `reference` IReferencable
 
-### GetDefaultMaxPenetrationImpl\(ref double, IReferencable\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_GetDefaultMaxPenetrationImpl_System_Double__VM_Managed_IReferencable_"></a> GetDefaultMaxPenetrationImpl\(ref double, IReferencable\)
 
 ```csharp
 protected override bool GetDefaultMaxPenetrationImpl(ref double dMaxPenetration, IReferencable reference)
@@ -371,7 +371,7 @@ protected override bool GetDefaultMaxPenetrationImpl(ref double dMaxPenetration,
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetEdgesIncludeMiddleNode\(\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_GetEdgesIncludeMiddleNode"></a> GetEdgesIncludeMiddleNode\(\)
 
 ```csharp
 public IEnumerable<Tuple<uint, uint>> GetEdgesIncludeMiddleNode()
@@ -381,7 +381,7 @@ public IEnumerable<Tuple<uint, uint>> GetEdgesIncludeMiddleNode()
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32), [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>\>
 
-### GetNodeIndexFromID\(uint\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_GetNodeIndexFromID_System_UInt32_"></a> GetNodeIndexFromID\(uint\)
 
 ```csharp
 public uint GetNodeIndexFromID(uint nNodeID)
@@ -395,7 +395,7 @@ public uint GetNodeIndexFromID(uint nNodeID)
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### GetPatches\(\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_GetPatches"></a> GetPatches\(\)
 
 ```csharp
 public List<Patch> GetPatches()
@@ -405,7 +405,7 @@ public List<Patch> GetPatches()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Patch](VM.Managed.DAFUL.FE.Patch.md)\>
 
-### GetPointDirectionImpl\(ref VectorBase, ref VectorBase, IReferencable\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_GetPointDirectionImpl_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirectionImpl\(ref VectorBase, ref VectorBase, IReferencable\)
 
 ```csharp
 protected override bool GetPointDirectionImpl(ref VectorBase point, ref VectorBase direction, IReferencable reference)
@@ -423,7 +423,7 @@ protected override bool GetPointDirectionImpl(ref VectorBase point, ref VectorBa
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -435,7 +435,7 @@ public override void Initialize(Unit.ConvertFactor A_0)
 
 `A_0` Unit.ConvertFactor
 
-### InstantiateImpl\(Reference, Canvas\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_InstantiateImpl_VM_Managed_Reference_VM_CAD_Kernel_Render_Canvas_"></a> InstantiateImpl\(Reference, Canvas\)
 
 ```csharp
 protected override void InstantiateImpl(Reference reference, Canvas canvas)
@@ -447,7 +447,7 @@ protected override void InstantiateImpl(Reference reference, Canvas canvas)
 
 `canvas` Canvas
 
-### MakeReferenceImpl\(LinkedList<Reference\>\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
 
 ```csharp
 protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
@@ -457,7 +457,7 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 `lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Reference\>
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -471,13 +471,13 @@ public override void OnDeserialization(object sender)
 
 The sender.
 
-### PostOpenDocument\(\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_PostOpenDocument"></a> PostOpenDocument\(\)
 
 ```csharp
 protected override void PostOpenDocument()
 ```
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -491,7 +491,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### ReadXmlCore\(XmlReader, ref bool\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_ReadXmlCore_System_Xml_XmlReader_System_Boolean__"></a> ReadXmlCore\(XmlReader, ref bool\)
 
 ```csharp
 protected override void ReadXmlCore(XmlReader reader, ref bool bNeedUpdate)
@@ -503,7 +503,7 @@ protected override void ReadXmlCore(XmlReader reader, ref bool bNeedUpdate)
 
 `bNeedUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RemoveEdges\(ICollection<Tuple<uint, uint\>\>\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_RemoveEdges_System_Collections_Generic_ICollection_System_Tuple_System_UInt32_System_UInt32___"></a> RemoveEdges\(ICollection<Tuple<uint, uint\>\>\)
 
 ```csharp
 public void RemoveEdges(ICollection<Tuple<uint, uint>> edges)
@@ -513,7 +513,7 @@ public void RemoveEdges(ICollection<Tuple<uint, uint>> edges)
 
 `edges` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32), [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>\>
 
-### SetLayer\(Layer\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_SetLayer_VM_Managed_Layer_"></a> SetLayer\(Layer\)
 
 ```csharp
 protected override void SetLayer(Layer value)
@@ -523,7 +523,7 @@ protected override void SetLayer(Layer value)
 
 `value` Layer
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_FE_SetEdge_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -536,5 +536,4 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

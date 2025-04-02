@@ -1,4 +1,4 @@
-# Class BodySprocket
+#  Class BodySprocket
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -290,7 +290,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BodySprocket\(\)
+### <a id="VM_Managed_CAD_Sprocket_BodySprocket__ctor"></a> BodySprocket\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Sprocket.BodySprocket" data-throw-if-not-resolved="false"></xref> class.
 
@@ -298,7 +298,7 @@ Initializes a new instance of the <xref href="VM.Managed.CAD.Sprocket.BodySprock
 public BodySprocket()
 ```
 
-### BodySprocket\(Builder\)
+### <a id="VM_Managed_CAD_Sprocket_BodySprocket__ctor_VM_Managed_CAD_Builder_"></a> BodySprocket\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Sprocket.BodySprocket" data-throw-if-not-resolved="false"></xref> class.
 
@@ -314,7 +314,7 @@ The Sprocket builder
 
 ## Methods
 
-### CheckValidationAboutBuild\(string\)
+### <a id="VM_Managed_CAD_Sprocket_BodySprocket_CheckValidationAboutBuild_System_String_"></a> CheckValidationAboutBuild\(string\)
 
 ```csharp
 public override bool CheckValidationAboutBuild(string strXml)
@@ -328,7 +328,7 @@ public override bool CheckValidationAboutBuild(string strXml)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetFaceList\_Teeth\(\)
+### <a id="VM_Managed_CAD_Sprocket_BodySprocket_GetFaceList_Teeth"></a> GetFaceList\_Teeth\(\)
 
 Gets the teeth faces.
 
@@ -342,7 +342,7 @@ public List<Face> GetFaceList_Teeth()
 
 The list of face
 
-### ReGenerateBodyInformation\(XmlDocument\)
+### <a id="VM_Managed_CAD_Sprocket_BodySprocket_ReGenerateBodyInformation_System_Xml_XmlDocument_"></a> ReGenerateBodyInformation\(XmlDocument\)
 
 Sets body information
 
@@ -361,5 +361,4 @@ The data xml of sprocket
  [BodySprocket](VM.Managed.CAD.Sprocket.BodySprocket.md)
 
 Cad body of sprocket
-
 

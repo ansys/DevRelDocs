@@ -1,4 +1,4 @@
-# Class PseudoBearingStiffness
+#  Class PseudoBearingStiffness
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PseudoBearingStiffness\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoBearingStiffness__ctor"></a> PseudoBearingStiffness\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.PseudoBearingStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public PseudoBearingStiffness()
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoBearingStiffness_Name"></a> Name
 
 Gets or sets the name.
 
@@ -191,7 +191,7 @@ public override string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Stiffness
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoBearingStiffness_Stiffness"></a> Stiffness
 
 Gets or sets the stiffness.
 
@@ -203,7 +203,7 @@ public BearingStiffness Stiffness { get; set; }
 
  [BearingStiffness](VM.Managed.DAFUL.GearTrain.BearingStiffness.md)
 
-### Strength
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_PseudoBearingStiffness_Strength"></a> Strength
 
 Gets or sets the strength.
 
@@ -214,5 +214,4 @@ public BearingStrength Strength { get; set; }
 #### Property Value
 
  [BearingStrength](VM.Managed.DAFUL.GearTrain.BearingStrength.md)
-
 

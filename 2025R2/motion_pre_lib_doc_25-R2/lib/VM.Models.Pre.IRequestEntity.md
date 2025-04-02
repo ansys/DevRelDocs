@@ -1,4 +1,4 @@
-# Interface IRequestEntity
+#  Interface IRequestEntity
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface IRequestEntity
 
 ## Properties
 
-### ActionEntity
+### <a id="VM_Models_Pre_IRequestEntity_ActionEntity"></a> ActionEntity
 
 ```csharp
 IObjectBase ActionEntity { get; }
@@ -27,7 +27,7 @@ IObjectBase ActionEntity { get; }
 
  [IObjectBase](VM.Models.Pre.IObjectBase.md)
 
-### WriteToOutFile
+### <a id="VM_Models_Pre_IRequestEntity_WriteToOutFile"></a> WriteToOutFile
 
 ```csharp
 bool WriteToOutFile { get; }
@@ -36,5 +36,4 @@ bool WriteToOutFile { get; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

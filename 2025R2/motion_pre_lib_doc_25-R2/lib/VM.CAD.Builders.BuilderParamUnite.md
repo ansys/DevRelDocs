@@ -1,4 +1,4 @@
-# Class BuilderParamUnite
+#  Class BuilderParamUnite
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -35,10 +35,9 @@ public class BuilderParamUnite : BuilderParamPair
 
 ## Constructors
 
-### BuilderParamUnite\(\)
+### <a id="VM_CAD_Builders_BuilderParamUnite__ctor"></a> BuilderParamUnite\(\)
 
 ```csharp
 public BuilderParamUnite()
 ```
-
 

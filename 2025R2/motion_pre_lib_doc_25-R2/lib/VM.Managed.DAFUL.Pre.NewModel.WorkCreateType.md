@@ -1,4 +1,4 @@
-# Enum NewModel.WorkCreateType
+#  Enum NewModel.WorkCreateType
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -20,7 +20,6 @@ Add
 `New = 0` 
 
 New
-
 
 
 

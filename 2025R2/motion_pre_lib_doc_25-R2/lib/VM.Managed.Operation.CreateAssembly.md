@@ -1,4 +1,4 @@
-# Class CreateAssembly
+#  Class CreateAssembly
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -91,13 +91,13 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### CreateAssembly\(\)
+### <a id="VM_Managed_Operation_CreateAssembly__ctor"></a> CreateAssembly\(\)
 
 ```csharp
 public CreateAssembly()
 ```
 
-### CreateAssembly\(string\)
+### <a id="VM_Managed_Operation_CreateAssembly__ctor_System_String_"></a> CreateAssembly\(string\)
 
 ```csharp
 public CreateAssembly(string strXml)
@@ -109,7 +109,7 @@ public CreateAssembly(string strXml)
 
 ## Fields
 
-### g\_strMeshFilters
+### <a id="VM_Managed_Operation_CreateAssembly_g_strMeshFilters"></a> g\_strMeshFilters
 
 ```csharp
 protected static string g_strMeshFilters
@@ -119,7 +119,7 @@ protected static string g_strMeshFilters
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### g\_strPartFilters
+### <a id="VM_Managed_Operation_CreateAssembly_g_strPartFilters"></a> g\_strPartFilters
 
 ```csharp
 protected static string g_strPartFilters
@@ -129,7 +129,7 @@ protected static string g_strPartFilters
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### g\_strSubsystemFilters
+### <a id="VM_Managed_Operation_CreateAssembly_g_strSubsystemFilters"></a> g\_strSubsystemFilters
 
 ```csharp
 protected static string g_strSubsystemFilters
@@ -141,10 +141,9 @@ protected static string g_strSubsystemFilters
 
 ## Methods
 
-### IntializeFilters\(\)
+### <a id="VM_Managed_Operation_CreateAssembly_IntializeFilters"></a> IntializeFilters\(\)
 
 ```csharp
 protected void IntializeFilters()
 ```
-
 

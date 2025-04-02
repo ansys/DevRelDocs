@@ -1,4 +1,4 @@
-# Class GearBuilderForRBEInMeshFree
+#  Class GearBuilderForRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -231,12 +231,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearBuilderForRBEInMeshFree\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_GearBuilderForRBEInMeshFree__ctor"></a> GearBuilderForRBEInMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.GearBuilderForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public GearBuilderForRBEInMeshFree()
 ```
-
 

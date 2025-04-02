@@ -1,4 +1,4 @@
-# Struct GearShapeCustomBase.Point2D
+#  Struct GearShapeCustomBase.Point2D
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -11,7 +11,7 @@ public struct GearShapeCustomBase.Point2D
 
 ## Properties
 
-### X
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Point2D_X"></a> X
 
 x value
 
@@ -23,7 +23,7 @@ public double X { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeCustomBase_Point2D_Y"></a> Y
 
 y value
 
@@ -34,5 +34,4 @@ public double Y { readonly get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

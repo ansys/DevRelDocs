@@ -1,4 +1,4 @@
-# Class AttributeMeshFreeBody
+#  Class AttributeMeshFreeBody
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -161,7 +161,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeMeshFreeBody\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody__ctor"></a> AttributeMeshFreeBody\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.AttributeMeshFreeBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -171,7 +171,7 @@ public AttributeMeshFreeBody()
 
 ## Properties
 
-### AnalysisLevelGroup
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_AnalysisLevelGroup"></a> AnalysisLevelGroup
 
 Gets or sets analysis level group for MeshFree
 
@@ -184,7 +184,7 @@ public AnalysisLevelGroup AnalysisLevelGroup { get; set; }
 
  [AnalysisLevelGroup](VM.Managed.DAFUL.MeshFree.AnalysisLevelGroup.md)
 
-### AnalysisParameter
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_AnalysisParameter"></a> AnalysisParameter
 
 Gets or sets the analysis parameter
 
@@ -196,7 +196,7 @@ public AttributeEigenvalueAnalysisParameter AnalysisParameter { get; set; }
 
  AttributeEigenvalueAnalysisParameter
 
-### DrawGlobalBody
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_DrawGlobalBody"></a> DrawGlobalBody
 
 Gets or sets a value indicating whether draw global body.
 
@@ -208,7 +208,7 @@ public override bool DrawGlobalBody { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LevelGroupOfAnalysis
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_LevelGroupOfAnalysis"></a> LevelGroupOfAnalysis
 
 Gets or sets the analysis level group.
 
@@ -220,7 +220,7 @@ public AnalysisLevelGroup LevelGroupOfAnalysis { get; set; }
 
  [AnalysisLevelGroup](VM.Managed.DAFUL.MeshFree.AnalysisLevelGroup.md)
 
-### RecommendDistanceX
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_RecommendDistanceX"></a> RecommendDistanceX
 
 ```csharp
 public double RecommendDistanceX { get; }
@@ -230,7 +230,7 @@ public double RecommendDistanceX { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RecommendDistanceY
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_RecommendDistanceY"></a> RecommendDistanceY
 
 Gets the recommend distance Y.
 
@@ -242,7 +242,7 @@ public double RecommendDistanceY { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RecommendDistanceZ
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_RecommendDistanceZ"></a> RecommendDistanceZ
 
 Gets the recommend distance Z.
 
@@ -254,7 +254,7 @@ public double RecommendDistanceZ { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### XScale
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_XScale"></a> XScale
 
 Gets or sets scale of X
 
@@ -266,7 +266,7 @@ public double XScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### YScale
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_YScale"></a> YScale
 
 Gets or sets scale of Y
 
@@ -278,7 +278,7 @@ public double YScale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ZScale
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_ZScale"></a> ZScale
 
 Gets or sets scale of Z
 
@@ -292,7 +292,7 @@ public double ZScale { get; set; }
 
 ## Methods
 
-### InitUserDefinedDistance\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_InitUserDefinedDistance"></a> InitUserDefinedDistance\(\)
 
 Initialize User Defined Distance.
 
@@ -300,7 +300,7 @@ Initialize User Defined Distance.
 public void InitUserDefinedDistance()
 ```
 
-### Initialize\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_Initialize"></a> Initialize\(\)
 
 Initializes this instance.
 
@@ -308,7 +308,7 @@ Initializes this instance.
 public override void Initialize()
 ```
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -322,7 +322,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnDeserializationAttribute\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_OnDeserializationAttribute"></a> OnDeserializationAttribute\(\)
 
 Called when [deserialization attribute].
 
@@ -330,7 +330,7 @@ Called when [deserialization attribute].
 public override void OnDeserializationAttribute()
 ```
 
-### SetDefaultValue\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_SetDefaultValue_VM_Managed_ObjectBase_"></a> SetDefaultValue\(ObjectBase\)
 
 Set default value.
 
@@ -344,7 +344,7 @@ public override void SetDefaultValue(ObjectBase objContainer)
 
 The container.
 
-### SetDefaultValue\(ObjectBase, bool\)
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_SetDefaultValue_VM_Managed_ObjectBase_System_Boolean_"></a> SetDefaultValue\(ObjectBase, bool\)
 
 Set default value.
 
@@ -362,12 +362,11 @@ The container.
 
 The useDefault.
 
-### UpdateMeshFreeNode\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeMeshFreeBody_UpdateMeshFreeNode"></a> UpdateMeshFreeNode\(\)
 
 Updaete meshfree node.
 
 ```csharp
 public void UpdateMeshFreeNode()
 ```
-
 

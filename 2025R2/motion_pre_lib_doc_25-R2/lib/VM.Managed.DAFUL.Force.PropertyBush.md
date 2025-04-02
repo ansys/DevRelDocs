@@ -1,4 +1,4 @@
-# Class PropertyBush
+#  Class PropertyBush
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -173,7 +173,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyBush\(\)
+### <a id="VM_Managed_DAFUL_Force_PropertyBush__ctor"></a> PropertyBush\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.PropertyBush" data-throw-if-not-resolved="false"></xref> class.
 
@@ -181,7 +181,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.PropertyBus
 public PropertyBush()
 ```
 
-### PropertyBush\(string, string\)
+### <a id="VM_Managed_DAFUL_Force_PropertyBush__ctor_System_String_System_String_"></a> PropertyBush\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.PropertyBush" data-throw-if-not-resolved="false"></xref> class.
 
@@ -201,7 +201,7 @@ The build info.
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -213,7 +213,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### GraphicDiameter
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_GraphicDiameter"></a> GraphicDiameter
 
 ```csharp
 public double GraphicDiameter { get; set; }
@@ -223,7 +223,7 @@ public double GraphicDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GraphicLength
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_GraphicLength"></a> GraphicLength
 
 ```csharp
 public double GraphicLength { get; set; }
@@ -233,7 +233,7 @@ public double GraphicLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsUsePreTorque
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_IsUsePreTorque"></a> IsUsePreTorque
 
 Gets or sets a value indicating whether this instance use pre torque.
 
@@ -245,7 +245,7 @@ public bool IsUsePreTorque { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsUsePreload
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_IsUsePreload"></a> IsUsePreload
 
 Gets or sets a value indicating whether this instance use preload.
 
@@ -257,7 +257,7 @@ public bool IsUsePreload { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsUseStaticBushing
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_IsUseStaticBushing"></a> IsUseStaticBushing
 
 Gets or sets a value indicating whether this instance use static bushing.
 
@@ -269,7 +269,7 @@ public bool IsUseStaticBushing { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### PreTorqueX
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_PreTorqueX"></a> PreTorqueX
 
 Gets or sets the pre torque of x direction.
 
@@ -281,7 +281,7 @@ public ExpressionValueVariable PreTorqueX { get; set; }
 
  ExpressionValueVariable
 
-### PreTorqueY
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_PreTorqueY"></a> PreTorqueY
 
 Gets or sets the pre torque of y direction.
 
@@ -293,7 +293,7 @@ public ExpressionValueVariable PreTorqueY { get; set; }
 
  ExpressionValueVariable
 
-### PreTorqueZ
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_PreTorqueZ"></a> PreTorqueZ
 
 Gets or sets the pre torque of z direction.
 
@@ -305,7 +305,7 @@ public ExpressionValueVariable PreTorqueZ { get; set; }
 
  ExpressionValueVariable
 
-### PreloadX
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_PreloadX"></a> PreloadX
 
 Gets or sets the preload of x direction.
 
@@ -317,7 +317,7 @@ public ExpressionValueVariable PreloadX { get; set; }
 
  ExpressionValueVariable
 
-### PreloadY
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_PreloadY"></a> PreloadY
 
 Gets or sets the preload of y direction.
 
@@ -329,7 +329,7 @@ public ExpressionValueVariable PreloadY { get; set; }
 
  ExpressionValueVariable
 
-### PreloadZ
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_PreloadZ"></a> PreloadZ
 
 Gets or sets the preload of z direction.
 
@@ -341,7 +341,7 @@ public ExpressionValueVariable PreloadZ { get; set; }
 
  ExpressionValueVariable
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_ReferenceType"></a> ReferenceType
 
 Gets the type of the array for argument.
 
@@ -353,7 +353,7 @@ public override string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RotCType
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotCType"></a> RotCType
 
 Gets the input type of the rotational damping.
 
@@ -366,7 +366,7 @@ public PropertyBush.InputType RotCType { get; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### RotCX
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotCX"></a> RotCX
 
 Gets or sets the rotational damping coefficient of x direction.
 
@@ -378,7 +378,7 @@ public ExpressionValueVariable RotCX { get; set; }
 
  ExpressionValueVariable
 
-### RotCXSpline
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotCXSpline"></a> RotCXSpline
 
 Gets or sets the rotational damping spline of x direction.
 
@@ -390,7 +390,7 @@ public Spline RotCXSpline { get; set; }
 
  Spline
 
-### RotCY
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotCY"></a> RotCY
 
 Gets or sets the rotational damping coefficient of y direction.
 
@@ -402,7 +402,7 @@ public ExpressionValueVariable RotCY { get; set; }
 
  ExpressionValueVariable
 
-### RotCYSpline
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotCYSpline"></a> RotCYSpline
 
 Gets or sets the rotational damping spline of y direction.
 
@@ -414,7 +414,7 @@ public Spline RotCYSpline { get; set; }
 
  Spline
 
-### RotCZ
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotCZ"></a> RotCZ
 
 Gets or sets the rotational damping coefficient of z direction.
 
@@ -426,7 +426,7 @@ public ExpressionValueVariable RotCZ { get; set; }
 
  ExpressionValueVariable
 
-### RotCZSpline
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotCZSpline"></a> RotCZSpline
 
 Gets or sets the rotational damping spline of z direction.
 
@@ -438,7 +438,7 @@ public Spline RotCZSpline { get; set; }
 
  Spline
 
-### RotKType
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotKType"></a> RotKType
 
 Gets the input type of the rotational stiffness.
 
@@ -451,7 +451,7 @@ public PropertyBush.InputType RotKType { get; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### RotKX
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotKX"></a> RotKX
 
 Gets or sets the rotational stiffness coefficient of x direction.
 
@@ -463,7 +463,7 @@ public ExpressionValueVariable RotKX { get; set; }
 
  ExpressionValueVariable
 
-### RotKXSpline
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotKXSpline"></a> RotKXSpline
 
 Gets or sets the rotational stiffness spline of x direction.
 
@@ -475,7 +475,7 @@ public Spline RotKXSpline { get; set; }
 
  Spline
 
-### RotKY
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotKY"></a> RotKY
 
 Gets or sets the rotational stiffness coefficient of y direction.
 
@@ -487,7 +487,7 @@ public ExpressionValueVariable RotKY { get; set; }
 
  ExpressionValueVariable
 
-### RotKYSpline
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotKYSpline"></a> RotKYSpline
 
 Gets or sets the rotational stiffness spline of y direction.
 
@@ -499,7 +499,7 @@ public Spline RotKYSpline { get; set; }
 
  Spline
 
-### RotKZ
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotKZ"></a> RotKZ
 
 Gets or sets the rotational stiffness coefficient of z direction.
 
@@ -511,7 +511,7 @@ public ExpressionValueVariable RotKZ { get; set; }
 
  ExpressionValueVariable
 
-### RotKZSpline
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotKZSpline"></a> RotKZSpline
 
 Gets or sets the rotational stiffness spline of z direction.
 
@@ -523,7 +523,7 @@ public Spline RotKZSpline { get; set; }
 
  Spline
 
-### RotationalOneSideBushingX
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotationalOneSideBushingX"></a> RotationalOneSideBushingX
 
 Gets or sets the flag of rotational one side bushing X.
 
@@ -535,7 +535,7 @@ public bool RotationalOneSideBushingX { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RotationalOneSideBushingY
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotationalOneSideBushingY"></a> RotationalOneSideBushingY
 
 Gets or sets the flag of rotational one side bushing Y.
 
@@ -547,7 +547,7 @@ public bool RotationalOneSideBushingY { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RotationalOneSideBushingZ
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_RotationalOneSideBushingZ"></a> RotationalOneSideBushingZ
 
 Gets or sets the flag of rotational one side bushing Z.
 
@@ -559,7 +559,7 @@ public bool RotationalOneSideBushingZ { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TransCType
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransCType"></a> TransCType
 
 Gets the input type of the translational damping.
 
@@ -572,7 +572,7 @@ public PropertyBush.InputType TransCType { get; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### TransCX
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransCX"></a> TransCX
 
 Gets or sets the translational damping coefficient of x direction.
 
@@ -584,7 +584,7 @@ public ExpressionValueVariable TransCX { get; set; }
 
  ExpressionValueVariable
 
-### TransCXSpline
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransCXSpline"></a> TransCXSpline
 
 Gets or sets the translational damping spline of x direction.
 
@@ -596,7 +596,7 @@ public Spline TransCXSpline { get; set; }
 
  Spline
 
-### TransCY
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransCY"></a> TransCY
 
 Gets or sets the translational damping coefficient of y direction.
 
@@ -608,7 +608,7 @@ public ExpressionValueVariable TransCY { get; set; }
 
  ExpressionValueVariable
 
-### TransCYSpline
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransCYSpline"></a> TransCYSpline
 
 Gets or sets the translational damping spline of y direction.
 
@@ -620,7 +620,7 @@ public Spline TransCYSpline { get; set; }
 
  Spline
 
-### TransCZ
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransCZ"></a> TransCZ
 
 Gets or sets the translational damping coefficient of z direction.
 
@@ -632,7 +632,7 @@ public ExpressionValueVariable TransCZ { get; set; }
 
  ExpressionValueVariable
 
-### TransCZSpline
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransCZSpline"></a> TransCZSpline
 
 Gets or sets the translational damping spline of z direction.
 
@@ -644,7 +644,7 @@ public Spline TransCZSpline { get; set; }
 
  Spline
 
-### TransKType
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransKType"></a> TransKType
 
 Gets the input type of the translational stiffness.
 
@@ -657,7 +657,7 @@ public PropertyBush.InputType TransKType { get; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### TransKX
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransKX"></a> TransKX
 
 Gets or sets the translational stiffness coefficient of x direction.
 
@@ -669,7 +669,7 @@ public ExpressionValueVariable TransKX { get; set; }
 
  ExpressionValueVariable
 
-### TransKXSpline
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransKXSpline"></a> TransKXSpline
 
 Gets or sets the translational stiffness spline of x direction.
 
@@ -681,7 +681,7 @@ public Spline TransKXSpline { get; set; }
 
  Spline
 
-### TransKY
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransKY"></a> TransKY
 
 Gets or sets the translational stiffness coefficient of y direction.
 
@@ -693,7 +693,7 @@ public ExpressionValueVariable TransKY { get; set; }
 
  ExpressionValueVariable
 
-### TransKYSpline
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransKYSpline"></a> TransKYSpline
 
 Gets or sets the translational stiffness spline of y direction.
 
@@ -705,7 +705,7 @@ public Spline TransKYSpline { get; set; }
 
  Spline
 
-### TransKZ
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransKZ"></a> TransKZ
 
 Gets or sets the translational stiffness coefficient of z direction.
 
@@ -717,7 +717,7 @@ public ExpressionValueVariable TransKZ { get; set; }
 
  ExpressionValueVariable
 
-### TransKZSpline
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TransKZSpline"></a> TransKZSpline
 
 Gets or sets the translational stiffness spline of z direction.
 
@@ -729,7 +729,7 @@ public Spline TransKZSpline { get; set; }
 
  Spline
 
-### TranslationalOneSideBushingX
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TranslationalOneSideBushingX"></a> TranslationalOneSideBushingX
 
 Gets or sets the flag of translational one side bushing X.
 
@@ -741,7 +741,7 @@ public bool TranslationalOneSideBushingX { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TranslationalOneSideBushingY
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TranslationalOneSideBushingY"></a> TranslationalOneSideBushingY
 
 Gets or sets the flag of translational one side bushing Y.
 
@@ -753,7 +753,7 @@ public bool TranslationalOneSideBushingY { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TranslationalOneSideBushingZ
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TranslationalOneSideBushingZ"></a> TranslationalOneSideBushingZ
 
 Gets or sets the flag of translational one side bushing Z.
 
@@ -765,7 +765,7 @@ public bool TranslationalOneSideBushingZ { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TypeOfRotCX
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TypeOfRotCX"></a> TypeOfRotCX
 
 Gets or sets the type of the rot CX.
 Use SetRotCXType() when this instance sets for undo/redo
@@ -778,7 +778,7 @@ public PropertyBush.InputType TypeOfRotCX { get; set; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### TypeOfRotCY
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TypeOfRotCY"></a> TypeOfRotCY
 
 Gets or sets the type of the rot CY.
 Use SetRotCYType() when this instance sets for undo/redo
@@ -791,7 +791,7 @@ public PropertyBush.InputType TypeOfRotCY { get; set; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### TypeOfRotCZ
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TypeOfRotCZ"></a> TypeOfRotCZ
 
 Gets or sets the type of the rot CZ.
 Use SetRotCZType() when this instance sets for undo/redo
@@ -804,7 +804,7 @@ public PropertyBush.InputType TypeOfRotCZ { get; set; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### TypeOfRotKX
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TypeOfRotKX"></a> TypeOfRotKX
 
 Gets or sets the type of the rot KX.
 Use SetRotKXType() when this instance sets for undo/redo
@@ -817,7 +817,7 @@ public PropertyBush.InputType TypeOfRotKX { get; set; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### TypeOfRotKY
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TypeOfRotKY"></a> TypeOfRotKY
 
 Gets or sets the type of the rot KY.
 Use SetRotKYType() when this instance sets for undo/redo
@@ -830,7 +830,7 @@ public PropertyBush.InputType TypeOfRotKY { get; set; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### TypeOfRotKZ
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TypeOfRotKZ"></a> TypeOfRotKZ
 
 Gets or sets the type of the rot KZ.
 Use SetRotKZType() when this instance sets for undo/redo
@@ -843,7 +843,7 @@ public PropertyBush.InputType TypeOfRotKZ { get; set; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### TypeOfTransCX
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TypeOfTransCX"></a> TypeOfTransCX
 
 Gets or sets the type of the trans CX.
 Use SetTransCXType() when this instance sets for undo/redo
@@ -856,7 +856,7 @@ public PropertyBush.InputType TypeOfTransCX { get; set; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### TypeOfTransCY
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TypeOfTransCY"></a> TypeOfTransCY
 
 Gets or sets the type of the trans CY.
 Use SetTransCYType() when this instance sets for undo/redo
@@ -869,7 +869,7 @@ public PropertyBush.InputType TypeOfTransCY { get; set; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### TypeOfTransCZ
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TypeOfTransCZ"></a> TypeOfTransCZ
 
 Gets or sets the type of the trans CZ.
 Use SetTransCZType() when this instance sets for undo/redo
@@ -882,7 +882,7 @@ public PropertyBush.InputType TypeOfTransCZ { get; set; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### TypeOfTransKX
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TypeOfTransKX"></a> TypeOfTransKX
 
 Gets or sets the type of the trans KX.
 Use SetTransKXType() when this instance sets for undo/redo
@@ -895,7 +895,7 @@ public PropertyBush.InputType TypeOfTransKX { get; set; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### TypeOfTransKY
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TypeOfTransKY"></a> TypeOfTransKY
 
 Gets or sets the type of the trans KY.
 Use SetTransKYType() when this instance sets for undo/redo
@@ -908,7 +908,7 @@ public PropertyBush.InputType TypeOfTransKY { get; set; }
 
  [PropertyBush](VM.Managed.DAFUL.Force.PropertyBush.md).[InputType](VM.Managed.DAFUL.Force.PropertyBush.InputType.md)
 
-### TypeOfTransKZ
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_TypeOfTransKZ"></a> TypeOfTransKZ
 
 Gets or sets the type of the trans KZ.
 Use SetTransKZType() when this instance sets for undo/redo
@@ -923,7 +923,7 @@ public PropertyBush.InputType TypeOfTransKZ { get; set; }
 
 ## Methods
 
-### Draw\(Canvas, TMatrix, TMatrix, bool\)
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_Draw_VM_CAD_Kernel_Render_Canvas_VM_Managed_TMatrix_VM_Managed_TMatrix_System_Boolean_"></a> Draw\(Canvas, TMatrix, TMatrix, bool\)
 
 <p>Draws the icon.</p>
 
@@ -949,7 +949,7 @@ public override void Draw(Canvas canvas, TMatrix matTBase, TMatrix matTAct, bool
 
 <p>The hide flag.</p>
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -963,7 +963,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -977,7 +977,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnLinkReserved\(ILink, object, EventArgs\)
+### <a id="VM_Managed_DAFUL_Force_PropertyBush_OnLinkReserved_VM_Managed_ILink_System_Object_System_EventArgs_"></a> OnLinkReserved\(ILink, object, EventArgs\)
 
 ```csharp
 protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs args)
@@ -990,5 +990,4 @@ protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs
 `objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `args` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
-
 

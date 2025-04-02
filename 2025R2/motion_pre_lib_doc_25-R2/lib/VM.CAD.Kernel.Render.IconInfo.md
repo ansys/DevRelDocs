@@ -1,4 +1,4 @@
-# Class IconInfo
+#  Class IconInfo
 
 Namespace: [VM.CAD.Kernel.Render](VM.CAD.Kernel.Render.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -22,7 +22,7 @@ public class IconInfo
 
 ## Constructors
 
-### IconInfo\(\)
+### <a id="VM_CAD_Kernel_Render_IconInfo__ctor"></a> IconInfo\(\)
 
 ```csharp
 public IconInfo()
@@ -30,7 +30,7 @@ public IconInfo()
 
 ## Properties
 
-### Key
+### <a id="VM_CAD_Kernel_Render_IconInfo_Key"></a> Key
 
 Gets or sets the draw object's key.
 
@@ -42,7 +42,7 @@ public string Key { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Scale
+### <a id="VM_CAD_Kernel_Render_IconInfo_Scale"></a> Scale
 
 Gets or sets the draw sacle.
 
@@ -54,7 +54,7 @@ public double Scale { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Transforms
+### <a id="VM_CAD_Kernel_Render_IconInfo_Transforms"></a> Transforms
 
 Gets or sets the draw object's transformation.
 
@@ -66,7 +66,7 @@ public TMatrix[] Transforms { get; set; }
 
  TMatrix\[\]
 
-### Type
+### <a id="VM_CAD_Kernel_Render_IconInfo_Type"></a> Type
 
 Gets or sets the draw object's type.
 
@@ -77,5 +77,4 @@ public string Type { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

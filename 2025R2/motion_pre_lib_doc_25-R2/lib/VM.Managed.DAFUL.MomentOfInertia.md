@@ -1,4 +1,4 @@
-# Enum MomentOfInertia
+#  Enum MomentOfInertia
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -44,7 +44,6 @@ YZ
 `ZZ = 2` 
 
 ZZ
-
 
 
 

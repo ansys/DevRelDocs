@@ -1,4 +1,4 @@
-# Class GetVoidPointsOp
+#  Class GetVoidPointsOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### GetVoidPointsOp\(Body, double\[\]\)
+### <a id="VM_Managed_CAD_GetVoidPointsOp__ctor_VM_Managed_CAD_Body_System_Double___"></a> GetVoidPointsOp\(Body, double\[\]\)
 
 ```csharp
 public GetVoidPointsOp(Body body, double[] ardScale)
@@ -89,7 +89,7 @@ public GetVoidPointsOp(Body body, double[] ardScale)
 
 `ardScale` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### GetVoidPointsOp\(\)
+### <a id="VM_Managed_CAD_GetVoidPointsOp__ctor"></a> GetVoidPointsOp\(\)
 
 ```csharp
 public GetVoidPointsOp()
@@ -97,7 +97,7 @@ public GetVoidPointsOp()
 
 ## Properties
 
-### Count
+### <a id="VM_Managed_CAD_GetVoidPointsOp_Count"></a> Count
 
 Gets the count.
 
@@ -109,7 +109,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### IsHistoryMerge
+### <a id="VM_Managed_CAD_GetVoidPointsOp_IsHistoryMerge"></a> IsHistoryMerge
 
 Gets the merge of history.
 
@@ -121,7 +121,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_CAD_GetVoidPointsOp_Name"></a> Name
 
 Gets the name.
 
@@ -133,7 +133,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Points
+### <a id="VM_Managed_CAD_GetVoidPointsOp_Points"></a> Points
 
 Gets the points.
 
@@ -147,12 +147,11 @@ public VectorBase[] Points { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_CAD_GetVoidPointsOp_Execute"></a> Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
-
 

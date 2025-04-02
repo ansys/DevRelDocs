@@ -1,4 +1,4 @@
-# Class SuspensionSimulationConfiguration
+#  Class SuspensionSimulationConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -22,7 +22,7 @@ public class SuspensionSimulationConfiguration
 
 ## Constructors
 
-### SuspensionSimulationConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration__ctor"></a> SuspensionSimulationConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SuspensionSimulationConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public SuspensionSimulationConfiguration()
 
 ## Properties
 
-### EndTime
+### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_EndTime"></a> EndTime
 
 Gets or sets the end time.
 
@@ -44,7 +44,7 @@ public double EndTime { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ExternFiles
+### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_ExternFiles"></a> ExternFiles
 
 Gets or sets the extern files.
 
@@ -56,7 +56,7 @@ public AnalysisExternFiles ExternFiles { get; set; }
 
  [AnalysisExternFiles](VM.Managed.DAFUL.Car.AnalysisExternFiles.md)
 
-### NumofSteps
+### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_NumofSteps"></a> NumofSteps
 
 Gets or sets the number of steps.
 
@@ -68,7 +68,7 @@ public int NumofSteps { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### OppositeTravelParameter
+### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_OppositeTravelParameter"></a> OppositeTravelParameter
 
 Gets or sets the opposite travel parameter.
 
@@ -80,7 +80,7 @@ public AnalysisOppositeTravel OppositeTravelParameter { get; set; }
 
  [AnalysisOppositeTravel](VM.Managed.DAFUL.Car.AnalysisOppositeTravel.md)
 
-### ParallelTravelParameter
+### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_ParallelTravelParameter"></a> ParallelTravelParameter
 
 Gets or sets the parallel travel parameter.
 
@@ -92,7 +92,7 @@ public AnalysisParallelTravel ParallelTravelParameter { get; set; }
 
  [AnalysisParallelTravel](VM.Managed.DAFUL.Car.AnalysisParallelTravel.md)
 
-### RandomTravel
+### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_RandomTravel"></a> RandomTravel
 
 Gets or sets the random travel.
 
@@ -104,7 +104,7 @@ public AnalysisRandomMotion RandomTravel { get; set; }
 
  [AnalysisRandomMotion](VM.Managed.DAFUL.Car.AnalysisRandomMotion.md)
 
-### ResultFile
+### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_ResultFile"></a> ResultFile
 
 Gets or sets the result file.
 
@@ -116,7 +116,7 @@ public string ResultFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RollVerticalParameter
+### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_RollVerticalParameter"></a> RollVerticalParameter
 
 Gets or sets the roll vertical parameter.
 
@@ -128,7 +128,7 @@ public AnalysisRollVertical RollVerticalParameter { get; set; }
 
  [AnalysisRollVertical](VM.Managed.DAFUL.Car.AnalysisRollVertical.md)
 
-### SimulationType
+### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_SimulationType"></a> SimulationType
 
 Gets or sets the type of the simulation.
 
@@ -140,7 +140,7 @@ public int SimulationType { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### SingleTravelParameter
+### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_SingleTravelParameter"></a> SingleTravelParameter
 
 Gets or sets the single travel parameter.
 
@@ -152,7 +152,7 @@ public AnalysisSingleTravel SingleTravelParameter { get; set; }
 
  [AnalysisSingleTravel](VM.Managed.DAFUL.Car.AnalysisSingleTravel.md)
 
-### StaticLoad
+### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_StaticLoad"></a> StaticLoad
 
 Gets or sets the static load.
 
@@ -164,7 +164,7 @@ public AnalysisStaticLoad StaticLoad { get; set; }
 
  [AnalysisStaticLoad](VM.Managed.DAFUL.Car.AnalysisStaticLoad.md)
 
-### SteeringParameter
+### <a id="VM_Managed_DAFUL_Car_SuspensionSimulationConfiguration_SteeringParameter"></a> SteeringParameter
 
 Gets or sets the steering parameter.
 
@@ -175,5 +175,4 @@ public AnalysisSteering SteeringParameter { get; set; }
 #### Property Value
 
  [AnalysisSteering](VM.Managed.DAFUL.Car.AnalysisSteering.md)
-
 

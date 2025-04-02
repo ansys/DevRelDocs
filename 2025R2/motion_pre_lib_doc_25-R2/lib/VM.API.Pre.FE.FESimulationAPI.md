@@ -1,4 +1,4 @@
-# Class FESimulationAPI
+#  Class FESimulationAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -22,7 +22,7 @@ public static class FESimulationAPI
 
 ## Methods
 
-### ExportDFGForComponentEigenvalue\(IDocument, Obj, string\)
+### <a id="VM_API_Pre_FE_FESimulationAPI_ExportDFGForComponentEigenvalue_VM_Models_Pre_IDocument_VM_API_Pre_Obj_System_String_"></a> ExportDFGForComponentEigenvalue\(IDocument, Obj, string\)
 
 Export DFG for component eigenvalue.
 
@@ -52,7 +52,7 @@ The result path to export dfg for component eigenvalue.
 
 Will be thrown if 'document' or 'target' arguments are empty.
 
-### ExportDFSForComponentEigenvalue\(IDocument, Obj, string\)
+### <a id="VM_API_Pre_FE_FESimulationAPI_ExportDFSForComponentEigenvalue_VM_Models_Pre_IDocument_VM_API_Pre_Obj_System_String_"></a> ExportDFSForComponentEigenvalue\(IDocument, Obj, string\)
 
 Export DFS for component eigenvalue.
 
@@ -82,7 +82,7 @@ The result path to export dfs for component eigenvalue.
 
 Will be thrown if 'document' or 'target' arguments are empty.
 
-### ExportDFSXMLForComponentEigenvalue\(IDocument, Obj, string\)
+### <a id="VM_API_Pre_FE_FESimulationAPI_ExportDFSXMLForComponentEigenvalue_VM_Models_Pre_IDocument_VM_API_Pre_Obj_System_String_"></a> ExportDFSXMLForComponentEigenvalue\(IDocument, Obj, string\)
 
 Export XML for component eigenvalue.
 
@@ -112,7 +112,7 @@ The result path to export xml for component eigenvalue.
 
 Will be thrown if 'document' or 'target' arguments are empty.
 
-### RunSimulationForComponentEigenvalue\(IDocument, Obj, string, SimulationParameter\)
+### <a id="VM_API_Pre_FE_FESimulationAPI_RunSimulationForComponentEigenvalue_VM_Models_Pre_IDocument_VM_API_Pre_Obj_System_String_VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_"></a> RunSimulationForComponentEigenvalue\(IDocument, Obj, string, SimulationParameter\)
 
 Run simulation for component eigenvalue.
 
@@ -145,5 +145,4 @@ The simulation parameter.
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document' or 'target' arguments are empty.
-
 

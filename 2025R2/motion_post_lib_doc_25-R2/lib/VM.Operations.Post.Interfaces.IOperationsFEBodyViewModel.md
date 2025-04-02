@@ -1,4 +1,4 @@
-# Interface IOperationsFEBodyViewModel
+#  Interface IOperationsFEBodyViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -73,7 +73,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Methods
 
-### CreateElement\(int\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsFEBodyViewModel_CreateElement_System_Int32_"></a> CreateElement\(int\)
 
 Creates an element entity within an FEBody.
 
@@ -101,7 +101,7 @@ For an example that includes this property, see the [Interface IOperationsFEBody
 
 This method creates an element entity within an FEBody using the specified element ID.
 
-### CreateNode\(int, PlotDataType\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsFEBodyViewModel_CreateNode_System_Int32_VM_Models_PlotDataType_"></a> CreateNode\(int, PlotDataType\)
 
 Creates a node entity within an FEBody.
 

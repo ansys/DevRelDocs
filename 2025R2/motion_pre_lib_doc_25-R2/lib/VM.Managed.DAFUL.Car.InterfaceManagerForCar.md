@@ -1,4 +1,4 @@
-# Class InterfaceManagerForCar
+#  Class InterfaceManagerForCar
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### InterfaceManagerForCar\(\)
+### <a id="VM_Managed_DAFUL_Car_InterfaceManagerForCar__ctor"></a> InterfaceManagerForCar\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.InterfaceManagerForCar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -173,7 +173,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.InterfaceMana
 public InterfaceManagerForCar()
 ```
 
-### InterfaceManagerForCar\(InterfaceManager\)
+### <a id="VM_Managed_DAFUL_Car_InterfaceManagerForCar__ctor_VM_Managed_InterfaceManager_"></a> InterfaceManagerForCar\(InterfaceManager\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.InterfaceManagerForCar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -189,7 +189,7 @@ The itf MGR.
 
 ## Methods
 
-### Add\(IInterface\)
+### <a id="VM_Managed_DAFUL_Car_InterfaceManagerForCar_Add_VM_Managed_IInterface_"></a> Add\(IInterface\)
 
 Adds the specified itf.
 
@@ -203,7 +203,7 @@ protected override void Add(IInterface itf)
 
 The itf.
 
-### GetMinorRoleForInterface\(IInterface, ref MinorRole\)
+### <a id="VM_Managed_DAFUL_Car_InterfaceManagerForCar_GetMinorRoleForInterface_VM_Managed_IInterface_VM_Managed_DAFUL_Car_MinorRole__"></a> GetMinorRoleForInterface\(IInterface, ref MinorRole\)
 
 Gets the minor role for interface.
 
@@ -225,7 +225,7 @@ The role.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RemoveInterface\(IInterface\)
+### <a id="VM_Managed_DAFUL_Car_InterfaceManagerForCar_RemoveInterface_VM_Managed_IInterface_"></a> RemoveInterface\(IInterface\)
 
 Removes the interface to interface manager.
 
@@ -239,7 +239,7 @@ public override void RemoveInterface(IInterface itf)
 
 The interface.
 
-### SetMinorRoleForInterface\(IInterface, MinorRole\)
+### <a id="VM_Managed_DAFUL_Car_InterfaceManagerForCar_SetMinorRoleForInterface_VM_Managed_IInterface_VM_Managed_DAFUL_Car_MinorRole_"></a> SetMinorRoleForInterface\(IInterface, MinorRole\)
 
 Sets the minor role for interface.
 
@@ -260,5 +260,4 @@ The role.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

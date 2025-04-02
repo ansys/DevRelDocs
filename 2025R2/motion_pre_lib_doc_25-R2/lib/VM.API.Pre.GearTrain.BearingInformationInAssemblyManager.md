@@ -1,4 +1,4 @@
-# Struct BearingInformationInAssemblyManager
+#  Struct BearingInformationInAssemblyManager
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +11,7 @@ public struct BearingInformationInAssemblyManager
 
 ## Constructors
 
-### BearingInformationInAssemblyManager\(\)
+### <a id="VM_API_Pre_GearTrain_BearingInformationInAssemblyManager__ctor"></a> BearingInformationInAssemblyManager\(\)
 
 Default constructor
 
@@ -21,7 +21,7 @@ public BearingInformationInAssemblyManager()
 
 ## Properties
 
-### AddedRaceway
+### <a id="VM_API_Pre_GearTrain_BearingInformationInAssemblyManager_AddedRaceway"></a> AddedRaceway
 
 If inner raceway is added, the value is Inner. or outer raceway is added, the value is Outer.
 
@@ -33,7 +33,7 @@ public AddedRacewayType AddedRaceway { readonly get; set; }
 
  [AddedRacewayType](VM.API.Pre.GearTrain.AddedRacewayType.md)
 
-### AddedRacewayName
+### <a id="VM_API_Pre_GearTrain_BearingInformationInAssemblyManager_AddedRacewayName"></a> AddedRacewayName
 
 The parent connectable name of added inner/outer raceway.
 
@@ -45,7 +45,7 @@ public string AddedRacewayName { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### BearingName
+### <a id="VM_API_Pre_GearTrain_BearingInformationInAssemblyManager_BearingName"></a> BearingName
 
 The bearing name.
 
@@ -57,7 +57,7 @@ public string BearingName { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UseReferenceBody
+### <a id="VM_API_Pre_GearTrain_BearingInformationInAssemblyManager_UseReferenceBody"></a> UseReferenceBody
 
 The flag whether using reference body or not.
 
@@ -68,5 +68,4 @@ public bool UseReferenceBody { readonly get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

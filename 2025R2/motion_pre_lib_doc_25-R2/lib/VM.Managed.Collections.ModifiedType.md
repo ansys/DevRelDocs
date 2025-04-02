@@ -1,4 +1,4 @@
-# Enum ModifiedType
+#  Enum ModifiedType
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -14,5 +14,4 @@ public enum ModifiedType
 `Update = 0` 
 
 `UpdateOrDestroy = 1` 
-
 

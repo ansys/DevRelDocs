@@ -1,4 +1,4 @@
-# Class UniteConnector
+#  Class UniteConnector
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -81,13 +81,13 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UniteConnector\(\)
+### <a id="VM_Managed_DAFUL_Operation_UniteConnector__ctor"></a> UniteConnector\(\)
 
 ```csharp
 public UniteConnector()
 ```
 
-### UniteConnector\(Document\)
+### <a id="VM_Managed_DAFUL_Operation_UniteConnector__ctor_VM_Managed_Document_"></a> UniteConnector\(Document\)
 
 ```csharp
 public UniteConnector(Document doc)
@@ -97,7 +97,7 @@ public UniteConnector(Document doc)
 
 `doc` Document
 
-### UniteConnector\(IDocument, IEnumerable<IObject\>\)
+### <a id="VM_Managed_DAFUL_Operation_UniteConnector__ctor_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_Models_Pre_IObject__"></a> UniteConnector\(IDocument, IEnumerable<IObject\>\)
 
 ```csharp
 public UniteConnector(IDocument doc, IEnumerable<IObject> selectedBody)
@@ -109,7 +109,7 @@ public UniteConnector(IDocument doc, IEnumerable<IObject> selectedBody)
 
 `selectedBody` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IObject\>
 
-### UniteConnector\(IDocument, IEnumerable<IObject\>, double\)
+### <a id="VM_Managed_DAFUL_Operation_UniteConnector__ctor_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_Models_Pre_IObject__System_Double_"></a> UniteConnector\(IDocument, IEnumerable<IObject\>, double\)
 
 ```csharp
 public UniteConnector(IDocument doc, IEnumerable<IObject> selectedBody, double dTolerance)
@@ -123,7 +123,7 @@ public UniteConnector(IDocument doc, IEnumerable<IObject> selectedBody, double d
 
 `dTolerance` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UniteConnector\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_UniteConnector__ctor_VM_Managed_Operation_JournalParameter_"></a> UniteConnector\(JournalParameter\)
 
 ```csharp
 public UniteConnector(JournalParameter jp)
@@ -135,7 +135,7 @@ public UniteConnector(JournalParameter jp)
 
 ## Fields
 
-### m\_bSkipWriteJournal
+### <a id="VM_Managed_DAFUL_Operation_UniteConnector_m_bSkipWriteJournal"></a> m\_bSkipWriteJournal
 
 ```csharp
 protected bool m_bSkipWriteJournal
@@ -147,7 +147,7 @@ protected bool m_bSkipWriteJournal
 
 ## Properties
 
-### CreatedEntities
+### <a id="VM_Managed_DAFUL_Operation_UniteConnector_CreatedEntities"></a> CreatedEntities
 
 ```csharp
 public IEnumerable<IHasID> CreatedEntities { get; }
@@ -157,7 +157,7 @@ public IEnumerable<IHasID> CreatedEntities { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<IHasID\>
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_UniteConnector_Name"></a> Name
 
 Gets the operation name.
 
@@ -169,7 +169,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SelectedBody
+### <a id="VM_Managed_DAFUL_Operation_UniteConnector_SelectedBody"></a> SelectedBody
 
 ```csharp
 public IList<IObject> SelectedBody { get; set; }
@@ -179,7 +179,7 @@ public IList<IObject> SelectedBody { get; set; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<IObject\>
 
-### Tolerance
+### <a id="VM_Managed_DAFUL_Operation_UniteConnector_Tolerance"></a> Tolerance
 
 ```csharp
 public double Tolerance { get; set; }
@@ -191,7 +191,7 @@ public double Tolerance { get; set; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_UniteConnector_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -199,7 +199,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Operation_UniteConnector_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -209,16 +209,15 @@ public override void GetInformation(XmlWriter writer)
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
-### Unite\(\)
+### <a id="VM_Managed_DAFUL_Operation_UniteConnector_Unite"></a> Unite\(\)
 
 ```csharp
 protected void Unite()
 ```
 
-### UniteSameBase\(\)
+### <a id="VM_Managed_DAFUL_Operation_UniteConnector_UniteSameBase"></a> UniteSameBase\(\)
 
 ```csharp
 protected void UniteSameBase()
 ```
-
 

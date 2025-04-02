@@ -1,4 +1,4 @@
-# Class Ogden
+#  Class Ogden
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -190,7 +190,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Ogden\(\)
+### <a id="VM_Managed_Material_Ogden__ctor"></a> Ogden\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.Ogden" data-throw-if-not-resolved="false"></xref> class.
 
@@ -198,7 +198,7 @@ Initializes a new instance of the <xref href="VM.Managed.Material.Ogden" data-th
 public Ogden()
 ```
 
-### Ogden\(string\)
+### <a id="VM_Managed_Material_Ogden__ctor_System_String_"></a> Ogden\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.Ogden" data-throw-if-not-resolved="false"></xref> class.
 
@@ -214,7 +214,7 @@ Name of the ogden material.
 
 ## Properties
 
-### ArrayContent
+### <a id="VM_Managed_Material_Ogden_ArrayContent"></a> ArrayContent
 
 Gets or sets the ogden contents array.
 
@@ -226,7 +226,7 @@ public Ogden.Contents[] ArrayContent { get; set; }
 
  [Ogden](VM.Managed.Material.Ogden.md).[Contents](VM.Managed.Material.Ogden.Contents.md)\[\]
 
-### CountOfContents
+### <a id="VM_Managed_Material_Ogden_CountOfContents"></a> CountOfContents
 
 Gets the count of ogden contents.
 
@@ -238,7 +238,7 @@ public int CountOfContents { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### this\[int\]
+### <a id="VM_Managed_Material_Ogden_Item_System_Int32_"></a> this\[int\]
 
 Gets or sets the <xref href="VM.Managed.Material.Ogden.Contents" data-throw-if-not-resolved="false"></xref> with the specified i.
 
@@ -252,7 +252,7 @@ public Ogden.Contents this[int i] { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_Material_Ogden_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -266,7 +266,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_Material_Ogden_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -284,7 +284,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_Material_Ogden_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -298,7 +298,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_Material_Ogden_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -312,7 +312,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_Material_Ogden_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -325,5 +325,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

@@ -1,4 +1,4 @@
-# Class PropertyThrust
+#  Class PropertyThrust
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyThrust\(\)
+### <a id="VM_Managed_DAFUL_Track_PropertyThrust__ctor"></a> PropertyThrust\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.PropertyThrust" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertyThrust()
 
 ## Properties
 
-### AppliedOnlyUnderWater
+### <a id="VM_Managed_DAFUL_Track_PropertyThrust_AppliedOnlyUnderWater"></a> AppliedOnlyUnderWater
 
 Gets or sets the [applied only under water].
 
@@ -187,7 +187,7 @@ public bool AppliedOnlyUnderWater { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Derivative
+### <a id="VM_Managed_DAFUL_Track_PropertyThrust_Derivative"></a> Derivative
 
 Gets or sets the Derivative.
 
@@ -205,7 +205,7 @@ public ExpressionValueVariable Derivative { get; set; }
 
 Derivative is null.
 
-### Function
+### <a id="VM_Managed_DAFUL_Track_PropertyThrust_Function"></a> Function
 
 Gets or sets the function.
 
@@ -217,7 +217,7 @@ public Function Function { get; set; }
 
  Function
 
-### Integral
+### <a id="VM_Managed_DAFUL_Track_PropertyThrust_Integral"></a> Integral
 
 Gets or sets the Integral.
 
@@ -235,7 +235,7 @@ public ExpressionValueVariable Integral { get; set; }
 
 Integral is null.
 
-### PilotingProperty
+### <a id="VM_Managed_DAFUL_Track_PropertyThrust_PilotingProperty"></a> PilotingProperty
 
 Gets or sets the piloting.
 
@@ -253,7 +253,7 @@ public Piloting PilotingProperty { get; set; }
 
 Piloting is null.
 
-### Proportional
+### <a id="VM_Managed_DAFUL_Track_PropertyThrust_Proportional"></a> Proportional
 
 Gets or sets the Proportional.
 
@@ -271,7 +271,7 @@ public ExpressionValueVariable Proportional { get; set; }
 
 Proportional is null.
 
-### PumpCapacitySpline
+### <a id="VM_Managed_DAFUL_Track_PropertyThrust_PumpCapacitySpline"></a> PumpCapacitySpline
 
 Gets or sets the pump capacity spline.
 
@@ -283,7 +283,7 @@ public Spline PumpCapacitySpline { get; set; }
 
  Spline
 
-### TypeOfForce
+### <a id="VM_Managed_DAFUL_Track_PropertyThrust_TypeOfForce"></a> TypeOfForce
 
 Gets or sets the force type.
 
@@ -297,7 +297,7 @@ public PropertyThrust.ForceType TypeOfForce { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Track_PropertyThrust_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -310,5 +310,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

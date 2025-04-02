@@ -1,4 +1,4 @@
-# Class DictionaryCollectionEnumerator<T, TValue, TLink, TValueWrapper, TValueConverter\>
+#  Class DictionaryCollectionEnumerator<T, TValue, TLink, TValueWrapper, TValueConverter\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -32,7 +32,7 @@ public class DictionaryCollectionEnumerator<T, TValue, TLink, TValueWrapper, TVa
 
 ## Constructors
 
-### DictionaryCollectionEnumerator\(IEnumerator\)
+### <a id="VM_Managed_Collections_DictionaryCollectionEnumerator_5__ctor_System_Collections_IEnumerator_"></a> DictionaryCollectionEnumerator\(IEnumerator\)
 
 ```csharp
 public DictionaryCollectionEnumerator(IEnumerator enumerator)
@@ -44,7 +44,7 @@ public DictionaryCollectionEnumerator(IEnumerator enumerator)
 
 ## Properties
 
-### Current
+### <a id="VM_Managed_Collections_DictionaryCollectionEnumerator_5_Current"></a> Current
 
 ```csharp
 public virtual KeyValuePair<T, TValue> Current { get; }
@@ -54,7 +54,7 @@ public virtual KeyValuePair<T, TValue> Current { get; }
 
  [KeyValuePair](https://learn.microsoft.com/dotnet/api/system.collections.generic.keyvaluepair\-2)<T, TValue\>
 
-### CurrentImp
+### <a id="VM_Managed_Collections_DictionaryCollectionEnumerator_5_CurrentImp"></a> CurrentImp
 
 ```csharp
 override sealed object CurrentImp { get; }
@@ -66,7 +66,7 @@ override sealed object CurrentImp { get; }
 
 ## Methods
 
-### Dispose\(bool\)
+### <a id="VM_Managed_Collections_DictionaryCollectionEnumerator_5_Dispose_System_Boolean_"></a> Dispose\(bool\)
 
 ```csharp
 protected virtual void Dispose(bool A_0)
@@ -76,19 +76,19 @@ protected virtual void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Dispose\(\)
+### <a id="VM_Managed_Collections_DictionaryCollectionEnumerator_5_Dispose"></a> Dispose\(\)
 
 ```csharp
 public override sealed void Dispose()
 ```
 
-### \~DictionaryCollectionEnumerator\(\)
+### <a id="VM_Managed_Collections_DictionaryCollectionEnumerator_5_Finalize"></a> \~DictionaryCollectionEnumerator\(\)
 
 ```csharp
 protected ~DictionaryCollectionEnumerator()
 ```
 
-### MoveNext\(\)
+### <a id="VM_Managed_Collections_DictionaryCollectionEnumerator_5_MoveNext"></a> MoveNext\(\)
 
 ```csharp
 public virtual bool MoveNext()
@@ -98,10 +98,9 @@ public virtual bool MoveNext()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Reset\(\)
+### <a id="VM_Managed_Collections_DictionaryCollectionEnumerator_5_Reset"></a> Reset\(\)
 
 ```csharp
 public virtual void Reset()
 ```
-
 

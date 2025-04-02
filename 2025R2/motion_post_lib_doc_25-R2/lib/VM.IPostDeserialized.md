@@ -1,4 +1,4 @@
-# Interface IPostDeserialized
+#  Interface IPostDeserialized
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IPostDeserialized
 
 ## Methods
 
-### OnPostDeserialized\(StreamingContext\)
+### <a id="VM_IPostDeserialized_OnPostDeserialized_System_Runtime_Serialization_StreamingContext_"></a> OnPostDeserialized\(StreamingContext\)
 
 ```python
 void OnPostDeserialized(StreamingContext context)

@@ -1,4 +1,4 @@
-# Class PropertyConstraint
+#  Class PropertyConstraint
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -175,7 +175,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyConstraint\(\)
+### <a id="VM_Managed_DAFUL_Constraints_PropertyConstraint__ctor"></a> PropertyConstraint\(\)
 
 ```csharp
 protected PropertyConstraint()
@@ -183,7 +183,7 @@ protected PropertyConstraint()
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Constraints_PropertyConstraint_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -195,7 +195,7 @@ public abstract ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Constraints_PropertyConstraint_ReferenceType"></a> ReferenceType
 
 Gets the type of the reference.
 
@@ -206,5 +206,4 @@ public virtual string ReferenceType { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

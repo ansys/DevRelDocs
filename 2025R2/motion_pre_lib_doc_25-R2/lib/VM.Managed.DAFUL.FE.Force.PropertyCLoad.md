@@ -1,4 +1,4 @@
-# Class PropertyCLoad
+#  Class PropertyCLoad
 
 Namespace: [VM.Managed.DAFUL.FE.Force](VM.Managed.DAFUL.FE.Force.md)  
 Assembly: VMFE.dll  
@@ -168,7 +168,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyCLoad\(\)
+### <a id="VM_Managed_DAFUL_FE_Force_PropertyCLoad__ctor"></a> PropertyCLoad\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Force.PropertyCLoad" data-throw-if-not-resolved="false"></xref> class.
 
@@ -178,7 +178,7 @@ public PropertyCLoad()
 
 ## Properties
 
-### Function
+### <a id="VM_Managed_DAFUL_FE_Force_PropertyCLoad_Function"></a> Function
 
 Gets or sets the function of concentrated load.
 
@@ -192,7 +192,7 @@ public FEForceFunctionCLoad Function { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_FE_Force_PropertyCLoad_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -205,5 +205,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

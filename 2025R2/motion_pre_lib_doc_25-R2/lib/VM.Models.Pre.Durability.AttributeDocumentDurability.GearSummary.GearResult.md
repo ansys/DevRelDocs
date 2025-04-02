@@ -1,4 +1,4 @@
-# Struct AttributeDocumentDurability.GearSummary.GearResult
+#  Struct AttributeDocumentDurability.GearSummary.GearResult
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -9,7 +9,7 @@ public struct AttributeDocumentDurability.GearSummary.GearResult
 
 ## Fields
 
-### Acceleration
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_GearSummary_GearResult_Acceleration"></a> Acceleration
 
 ```csharp
 public Tuple<double, double, double> Acceleration
@@ -19,7 +19,7 @@ public Tuple<double, double, double> Acceleration
 
  [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-3)<[double](https://learn.microsoft.com/dotnet/api/system.double), [double](https://learn.microsoft.com/dotnet/api/system.double), [double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### Deceleration
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_GearSummary_GearResult_Deceleration"></a> Deceleration
 
 ```csharp
 public Tuple<double, double, double> Deceleration
@@ -29,7 +29,7 @@ public Tuple<double, double, double> Deceleration
 
  [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-3)<[double](https://learn.microsoft.com/dotnet/api/system.double), [double](https://learn.microsoft.com/dotnet/api/system.double), [double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### GearName
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_GearSummary_GearResult_GearName"></a> GearName
 
 ```csharp
 public string GearName
@@ -38,5 +38,4 @@ public string GearName
 #### Field Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

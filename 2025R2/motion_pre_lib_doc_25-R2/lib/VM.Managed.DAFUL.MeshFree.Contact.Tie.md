@@ -1,4 +1,4 @@
-# Class Tie
+#  Class Tie
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Contact](VM.Managed.DAFUL.MeshFree.Contact.md)  
 Assembly: VMDMeshFree.dll  
@@ -233,7 +233,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Tie\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_Contact_Tie__ctor"></a> Tie\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Contact.Tie" data-throw-if-not-resolved="false"></xref> class.
 
@@ -241,7 +241,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Contact.
 public Tie()
 ```
 
-### Tie\(string\)
+### <a id="VM_Managed_DAFUL_MeshFree_Contact_Tie__ctor_System_String_"></a> Tie\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Contact.Tie" data-throw-if-not-resolved="false"></xref> class.
 
@@ -257,7 +257,7 @@ Name of the STR.
 
 ## Properties
 
-### GenerableImpl
+### <a id="VM_Managed_DAFUL_MeshFree_Contact_Tie_GenerableImpl"></a> GenerableImpl
 
 Gets a value indicating whether this instance is generable.
 
@@ -271,7 +271,7 @@ protected override bool GenerableImpl { get; }
 
 ## Methods
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_MeshFree_Contact_Tie_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Tie for update the linked object.
 
@@ -289,7 +289,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### ReplaceEntityImpl\(Document, IGenerable\)
+### <a id="VM_Managed_DAFUL_MeshFree_Contact_Tie_ReplaceEntityImpl_VM_Managed_Document_VM_Managed_IGenerable_"></a> ReplaceEntityImpl\(Document, IGenerable\)
 
 Replace entity
 
@@ -306,5 +306,4 @@ The document.
 `generableNew` IGenerable
 
 The new generable entity.
-
 

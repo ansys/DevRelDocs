@@ -1,4 +1,4 @@
-# Class PerformanceIndex
+#  Class PerformanceIndex
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -27,7 +27,7 @@ public class PerformanceIndex : DOEInformationBase
 
 ## Constructors
 
-### PerformanceIndex\(\)
+### <a id="VM_Managed_DAFUL_DOE_Result_PerformanceIndex__ctor"></a> PerformanceIndex\(\)
 
 ```csharp
 public PerformanceIndex()
@@ -35,7 +35,7 @@ public PerformanceIndex()
 
 ## Properties
 
-### EndTime
+### <a id="VM_Managed_DAFUL_DOE_Result_PerformanceIndex_EndTime"></a> EndTime
 
 ```csharp
 public double EndTime { get; set; }
@@ -45,7 +45,7 @@ public double EndTime { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsDown
+### <a id="VM_Managed_DAFUL_DOE_Result_PerformanceIndex_IsDown"></a> IsDown
 
 ```csharp
 public bool IsDown { get; set; }
@@ -55,7 +55,7 @@ public bool IsDown { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ResultType
+### <a id="VM_Managed_DAFUL_DOE_Result_PerformanceIndex_ResultType"></a> ResultType
 
 ```csharp
 public ResultType ResultType { get; set; }
@@ -65,7 +65,7 @@ public ResultType ResultType { get; set; }
 
  [ResultType](VM.Managed.DAFUL.DOE.Result.ResultType.md)
 
-### StartTime
+### <a id="VM_Managed_DAFUL_DOE_Result_PerformanceIndex_StartTime"></a> StartTime
 
 ```csharp
 public double StartTime { get; set; }
@@ -75,7 +75,7 @@ public double StartTime { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### WeightFactor
+### <a id="VM_Managed_DAFUL_DOE_Result_PerformanceIndex_WeightFactor"></a> WeightFactor
 
 ```csharp
 public double WeightFactor { get; set; }
@@ -84,5 +84,4 @@ public double WeightFactor { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

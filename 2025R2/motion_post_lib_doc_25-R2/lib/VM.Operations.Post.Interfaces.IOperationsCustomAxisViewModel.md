@@ -1,4 +1,4 @@
-# Interface IOperationsCustomAxisViewModel
+#  Interface IOperationsCustomAxisViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -75,7 +75,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### AxisType
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_AxisType"></a> AxisType
 
 Gets or sets the scale type for the axis.
 
@@ -96,7 +96,7 @@ For an example that includes this property, see the [Interface IOperationsCustom
 Use this property to specify or retrieve the scale type for the axis. The available options are:
 <ul><li><xref href="VM.Models.Post.AxisType.Linear" data-throw-if-not-resolved="false"></xref> - Linear scale.</li><li><xref href="VM.Models.Post.AxisType.PositiveLogarithmic" data-throw-if-not-resolved="false"></xref> - Positive logarithmic scale.</li><li><xref href="VM.Models.Post.AxisType.NegativeLogarithmic" data-throw-if-not-resolved="false"></xref> - Negative logarithmic scale.</li></ul>
 
-### Decimal
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_Decimal"></a> Decimal
 
 Gets or sets the number of decimal places for the labels on the axis.
 
@@ -116,7 +116,7 @@ For an example that includes this property, see the [Interface IOperationsCustom
 
 Use this property to specify or retrieve the number of decimal places displayed in the labels on the axis.
 
-### Default
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_Default"></a> Default
 
 Gets or sets a value indicating whether the decimal value for the axis labels is set automatically or manually.
 
@@ -137,7 +137,7 @@ For an example that includes this property, see the [Interface IOperationsCustom
 Use this property to specify whether the decimal value for the axis labels should be set automatically or manually.
 If set to <code>false</code>, you can manually set the <xref href="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.Decimal" data-throw-if-not-resolved="false"></xref> property to determine the number of decimal places.
 
-### FontColor
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_FontColor"></a> FontColor
 
 Gets or sets the color of the labels on the axis.
 
@@ -157,7 +157,7 @@ For an example that includes this property, see the [Interface IOperationsCustom
 
 Use this property to specify or retrieve the color of the labels displayed on the axis.
 
-### FontFace
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_FontFace"></a> FontFace
 
 Gets or sets the font family for the axis labels.
 
@@ -177,7 +177,7 @@ For an example that includes this property, see the [Interface IOperationsCustom
 
 Use this property to specify or retrieve the font family used for the labels on the axis.
 
-### IsAuto
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_IsAuto"></a> IsAuto
 
 Gets or sets a value indicating whether the axis range intervals are set automatically or manually.
 
@@ -198,7 +198,7 @@ For an example that includes this property, see the [Interface IOperationsCustom
 Use this property to specify whether the axis range intervals should be set automatically or manually.
 If set to <code>false</code>, you can manually set the intervals for the axis range.
 
-### LabelFormatType
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_LabelFormatType"></a> LabelFormatType
 
 Gets or sets the format type for the labels on the axis.
 
@@ -220,7 +220,7 @@ Use this property to specify or retrieve the format type for the decimal values 
 The available options are:
 <ul><li><xref href="VM.Models.Post.LabelFormatType.Exponential" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.LabelFormatType.Number" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.LabelFormatType.General" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### LabelSize
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_LabelSize"></a> LabelSize
 
 Gets or sets the font size of the labels on the axis.
 
@@ -240,7 +240,7 @@ For an example that includes this property, see the [Interface IOperationsCustom
 
 Use this property to specify or retrieve the font size of the labels displayed on the axis.
 
-### LabelWeight
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_LabelWeight"></a> LabelWeight
 
 Gets or sets the font weight of the labels on the axis.
 
@@ -262,7 +262,7 @@ Use this property to specify or retrieve the font weight of the labels displayed
 The available options are:
 <ul><li><xref href="System.Windows.FontWeights.Bold" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.Windows.FontWeights.Normal" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### LogarithmicBase
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_LogarithmicBase"></a> LogarithmicBase
 
 Gets or sets the base for the logarithmic scale of the axis.
 
@@ -290,7 +290,7 @@ Supported values are:
 - "10"
 - "E"
 
-### ScaleInterval
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_ScaleInterval"></a> ScaleInterval
 
 Gets or sets the scale interval of the axis.
 
@@ -311,7 +311,7 @@ For an example that includes this property, see the [Interface IOperationsCustom
 This property is only applicable when <xref href="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.IsAuto" data-throw-if-not-resolved="false"></xref> is set to <code>false</code>. 
 Use this property to manually set the intervals for the axis range.
 
-### ScaleMax
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_ScaleMax"></a> ScaleMax
 
 Gets or sets the maximum value of the axis scale.
 
@@ -332,7 +332,7 @@ For an example that includes this property, see the [Interface IOperationsCustom
 This property is only applicable when <xref href="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.IsAuto" data-throw-if-not-resolved="false"></xref> is set to <code>false</code>. 
 Use this property to manually set the maximum value for the axis scale.
 
-### ScaleMin
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_ScaleMin"></a> ScaleMin
 
 Gets or sets the minimum value of the axis scale.
 
@@ -353,7 +353,7 @@ For an example that includes this property, see the [Interface IOperationsCustom
 This property is only applicable when <xref href="VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.IsAuto" data-throw-if-not-resolved="false"></xref> is set to <code>false</code>. 
 Use this property to manually set the minimum value for the axis scale.
 
-### Style
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_Style"></a> Style
 
 Gets or sets the font style for the axis.
 
@@ -375,7 +375,7 @@ Use this property to specify or retrieve the font style used for the axis.
 The available options are:
 <ul><li><xref href="System.Windows.FontStyles.Italic" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.Windows.FontStyles.Normal" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.Windows.FontStyles.Oblique" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### Unit
+### <a id="VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel_Unit"></a> Unit
 
 Gets the unit of the axis.
 

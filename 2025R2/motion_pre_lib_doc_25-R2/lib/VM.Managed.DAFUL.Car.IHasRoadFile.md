@@ -1,4 +1,4 @@
-# Interface IHasRoadFile
+#  Interface IHasRoadFile
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -17,7 +17,7 @@ public interface IHasRoadFile
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_IHasRoadFile_Name"></a> Name
 
 Get name of the road
 
@@ -29,7 +29,7 @@ string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Offset
+### <a id="VM_Managed_DAFUL_Car_IHasRoadFile_Offset"></a> Offset
 
 Get offset of the road
 
@@ -41,7 +41,7 @@ Vector Offset { get; }
 
  Vector
 
-### ReferenceBodyFullName
+### <a id="VM_Managed_DAFUL_Car_IHasRoadFile_ReferenceBodyFullName"></a> ReferenceBodyFullName
 
 Get full name of reference body
 
@@ -53,7 +53,7 @@ string ReferenceBodyFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RoadDataPath
+### <a id="VM_Managed_DAFUL_Car_IHasRoadFile_RoadDataPath"></a> RoadDataPath
 
 Gets or sets the road data file path.
 
@@ -65,7 +65,7 @@ string RoadDataPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RoadRefFrameName
+### <a id="VM_Managed_DAFUL_Car_IHasRoadFile_RoadRefFrameName"></a> RoadRefFrameName
 
 Get Roadreference frame name
 
@@ -77,7 +77,7 @@ string RoadRefFrameName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RoadReferencePosition
+### <a id="VM_Managed_DAFUL_Car_IHasRoadFile_RoadReferencePosition"></a> RoadReferencePosition
 
 Get reference position of the road
 
@@ -89,7 +89,7 @@ Vector RoadReferencePosition { get; }
 
  Vector
 
-### RotationAngle
+### <a id="VM_Managed_DAFUL_Car_IHasRoadFile_RotationAngle"></a> RotationAngle
 
 Get rotation angle of the road
 
@@ -100,5 +100,4 @@ double RotationAngle { get; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

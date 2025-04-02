@@ -1,4 +1,4 @@
-# Class CLoadStandard
+#  Class CLoadStandard
 
 Namespace: [VM.Managed.DAFUL.FE.Force](VM.Managed.DAFUL.FE.Force.md)  
 Assembly: VMFE.dll  
@@ -103,7 +103,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### CLoadStandard\(PropertyCLoad\)
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard__ctor_VM_Managed_DAFUL_FE_Force_PropertyCLoad_"></a> CLoadStandard\(PropertyCLoad\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Force.CLoadStandard" data-throw-if-not-resolved="false"></xref> class.
 
@@ -119,7 +119,7 @@ The owner propery.
 
 ## Properties
 
-### CLoadDirectionType
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_CLoadDirectionType"></a> CLoadDirectionType
 
 Gets or sets the type of direction.
 
@@ -131,7 +131,7 @@ public CLoadStandard.DirectionType CLoadDirectionType { get; set; }
 
  [CLoadStandard](VM.Managed.DAFUL.FE.Force.CLoadStandard.md).[DirectionType](VM.Managed.DAFUL.FE.Force.CLoadStandard.DirectionType.md)
 
-### CLoadFunctionFX
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_CLoadFunctionFX"></a> CLoadFunctionFX
 
 Gets or sets the translational X coordinate among the concentrated load functions.
 
@@ -143,7 +143,7 @@ public CLoadStandard.CLoadFunction CLoadFunctionFX { get; set; }
 
  [CLoadStandard](VM.Managed.DAFUL.FE.Force.CLoadStandard.md).[CLoadFunction](VM.Managed.DAFUL.FE.Force.CLoadStandard.CLoadFunction.md)
 
-### CLoadFunctionFY
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_CLoadFunctionFY"></a> CLoadFunctionFY
 
 Gets or sets the translational Y coordinate among the concentrated load functions.
 
@@ -155,7 +155,7 @@ public CLoadStandard.CLoadFunction CLoadFunctionFY { get; set; }
 
  [CLoadStandard](VM.Managed.DAFUL.FE.Force.CLoadStandard.md).[CLoadFunction](VM.Managed.DAFUL.FE.Force.CLoadStandard.CLoadFunction.md)
 
-### CLoadFunctionFZ
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_CLoadFunctionFZ"></a> CLoadFunctionFZ
 
 Gets or sets the translational Z coordinate among the concentrated load functions.
 
@@ -167,7 +167,7 @@ public CLoadStandard.CLoadFunction CLoadFunctionFZ { get; set; }
 
  [CLoadStandard](VM.Managed.DAFUL.FE.Force.CLoadStandard.md).[CLoadFunction](VM.Managed.DAFUL.FE.Force.CLoadStandard.CLoadFunction.md)
 
-### CLoadFunctionTX
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_CLoadFunctionTX"></a> CLoadFunctionTX
 
 Gets or sets the rotational X coordinate among the concentrated load functions.
 
@@ -179,7 +179,7 @@ public CLoadStandard.CLoadFunction CLoadFunctionTX { get; set; }
 
  [CLoadStandard](VM.Managed.DAFUL.FE.Force.CLoadStandard.md).[CLoadFunction](VM.Managed.DAFUL.FE.Force.CLoadStandard.CLoadFunction.md)
 
-### CLoadFunctionTY
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_CLoadFunctionTY"></a> CLoadFunctionTY
 
 Gets or sets the rotational Y coordinate among the concentrated load functions.
 
@@ -191,7 +191,7 @@ public CLoadStandard.CLoadFunction CLoadFunctionTY { get; set; }
 
  [CLoadStandard](VM.Managed.DAFUL.FE.Force.CLoadStandard.md).[CLoadFunction](VM.Managed.DAFUL.FE.Force.CLoadStandard.CLoadFunction.md)
 
-### CLoadFunctionTZ
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_CLoadFunctionTZ"></a> CLoadFunctionTZ
 
 Gets or sets the rotational Z coordinate among the concentrated load functions.
 
@@ -203,7 +203,7 @@ public CLoadStandard.CLoadFunction CLoadFunctionTZ { get; set; }
 
  [CLoadStandard](VM.Managed.DAFUL.FE.Force.CLoadStandard.md).[CLoadFunction](VM.Managed.DAFUL.FE.Force.CLoadStandard.CLoadFunction.md)
 
-### FunctionFX
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_FunctionFX"></a> FunctionFX
 
 Obsolete.
 
@@ -216,7 +216,7 @@ public CLoadStandard.CLoadFunction FunctionFX { get; set; }
 
  [CLoadStandard](VM.Managed.DAFUL.FE.Force.CLoadStandard.md).[CLoadFunction](VM.Managed.DAFUL.FE.Force.CLoadStandard.CLoadFunction.md)
 
-### FunctionFY
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_FunctionFY"></a> FunctionFY
 
 Obsolete.
 
@@ -229,7 +229,7 @@ public CLoadStandard.CLoadFunction FunctionFY { get; set; }
 
  [CLoadStandard](VM.Managed.DAFUL.FE.Force.CLoadStandard.md).[CLoadFunction](VM.Managed.DAFUL.FE.Force.CLoadStandard.CLoadFunction.md)
 
-### FunctionFZ
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_FunctionFZ"></a> FunctionFZ
 
 Obsolete.
 
@@ -242,7 +242,7 @@ public CLoadStandard.CLoadFunction FunctionFZ { get; set; }
 
  [CLoadStandard](VM.Managed.DAFUL.FE.Force.CLoadStandard.md).[CLoadFunction](VM.Managed.DAFUL.FE.Force.CLoadStandard.CLoadFunction.md)
 
-### FunctionTX
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_FunctionTX"></a> FunctionTX
 
 Obsolete.
 
@@ -255,7 +255,7 @@ public CLoadStandard.CLoadFunction FunctionTX { get; set; }
 
  [CLoadStandard](VM.Managed.DAFUL.FE.Force.CLoadStandard.md).[CLoadFunction](VM.Managed.DAFUL.FE.Force.CLoadStandard.CLoadFunction.md)
 
-### FunctionTY
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_FunctionTY"></a> FunctionTY
 
 Obsolete.
 
@@ -268,7 +268,7 @@ public CLoadStandard.CLoadFunction FunctionTY { get; set; }
 
  [CLoadStandard](VM.Managed.DAFUL.FE.Force.CLoadStandard.md).[CLoadFunction](VM.Managed.DAFUL.FE.Force.CLoadStandard.CLoadFunction.md)
 
-### FunctionTZ
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_FunctionTZ"></a> FunctionTZ
 
 Obsolete.
 
@@ -281,7 +281,7 @@ public CLoadStandard.CLoadFunction FunctionTZ { get; set; }
 
  [CLoadStandard](VM.Managed.DAFUL.FE.Force.CLoadStandard.md).[CLoadFunction](VM.Managed.DAFUL.FE.Force.CLoadStandard.CLoadFunction.md)
 
-### Type
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_Type"></a> Type
 
 Gets the type of function.
 
@@ -295,7 +295,7 @@ public override FEForceFunction.FunctionType Type { get; }
 
 ## Methods
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_FE_Force_CLoadStandard_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -308,5 +308,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

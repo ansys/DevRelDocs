@@ -1,4 +1,4 @@
-# Class CalculateToothStiffnessForRAP
+#  Class CalculateToothStiffnessForRAP
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -98,7 +98,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### CalculateToothStiffnessForRAP\(string, string, double, Vector\[\], uint, int, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffnessForRAP__ctor_System_String_System_String_System_Double_VM_Managed_Vector___System_UInt32_System_Int32_System_String_"></a> CalculateToothStiffnessForRAP\(string, string, double, Vector\[\], uint, int, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateToothStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -136,7 +136,7 @@ Index of the n gear.
 
 The gearset name.
 
-### CalculateToothStiffnessForRAP\(Document3D, string, string, double, Vector\[\], uint, int, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffnessForRAP__ctor_VM_Managed_Document3D_System_String_System_String_System_Double_VM_Managed_Vector___System_UInt32_System_Int32_System_String_"></a> CalculateToothStiffnessForRAP\(Document3D, string, string, double, Vector\[\], uint, int, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateToothStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -178,7 +178,7 @@ Index of the n gear.
 
 The gearset name.
 
-### CalculateToothStiffnessForRAP\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffnessForRAP__ctor_VM_Managed_Operation_JournalParameter_"></a> CalculateToothStiffnessForRAP\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.CalculateToothStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -194,7 +194,7 @@ The jp.
 
 ## Methods
 
-### CreateSetNode\(MeshDocument, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CalculateToothStiffnessForRAP_CreateSetNode_VM_Managed_DAFUL_FE_MeshDocument_System_String_"></a> CreateSetNode\(MeshDocument, string\)
 
 Create setNode.
 
@@ -215,5 +215,4 @@ The name.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

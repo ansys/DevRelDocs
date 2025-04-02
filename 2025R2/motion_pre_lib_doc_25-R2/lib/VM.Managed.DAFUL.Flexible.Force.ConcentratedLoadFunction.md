@@ -1,4 +1,4 @@
-# Class ConcentratedLoadFunction
+#  Class ConcentratedLoadFunction
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -109,7 +109,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ConcentratedLoadFunction\(\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadFunction__ctor"></a> ConcentratedLoadFunction\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -121,7 +121,7 @@ protected ConcentratedLoadFunction()
 
 ## Properties
 
-### ReferenceMarker
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadFunction_ReferenceMarker"></a> ReferenceMarker
 
 <p>Gets or sets the reference marker.</p>
 <p>참조마커를 가져오거나 넣어줍니다.</p>
@@ -152,7 +152,7 @@ public IMarker ReferenceMarker { get; set; }
 
  IMarker
 
-### Type
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadFunction_Type"></a> Type
 
 <p>Gets the function type.</p>
 <p>함수 타입을 가져옵니다.</p>
@@ -165,7 +165,7 @@ public abstract ConcentratedLoadFunction.FunctionType Type { get; }
 
  [ConcentratedLoadFunction](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction.md).[FunctionType](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction.FunctionType.md)
 
-### \_ReferenceMarker
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadFunction__ReferenceMarker"></a> \_ReferenceMarker
 
 <p>Gets or sets the reference marker.</p>
 <p>참조마커를 가져오거나 넣어줍니다.</p>
@@ -195,5 +195,4 @@ public Linker<IMarker> _ReferenceMarker { get; set; }
 #### Property Value
 
  Linker<IMarker\>
-
 

@@ -1,4 +1,4 @@
-# Interface IOrientationThreePoints
+#  Interface IOrientationThreePoints
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -24,7 +24,7 @@ IHasID,
 
 ## Properties
 
-### OriginPoint
+### <a id="VM_Models_Pre_IOrientationThreePoints_OriginPoint"></a> OriginPoint
 
 ```csharp
 IPointBase OriginPoint { get; set; }
@@ -34,7 +34,7 @@ IPointBase OriginPoint { get; set; }
 
  [IPointBase](VM.Models.Pre.IPointBase.md)
 
-### XPoint
+### <a id="VM_Models_Pre_IOrientationThreePoints_XPoint"></a> XPoint
 
 ```csharp
 IPointBase XPoint { get; set; }
@@ -44,7 +44,7 @@ IPointBase XPoint { get; set; }
 
  [IPointBase](VM.Models.Pre.IPointBase.md)
 
-### ZPoint
+### <a id="VM_Models_Pre_IOrientationThreePoints_ZPoint"></a> ZPoint
 
 ```csharp
 IPointBase ZPoint { get; set; }
@@ -53,5 +53,4 @@ IPointBase ZPoint { get; set; }
 #### Property Value
 
  [IPointBase](VM.Models.Pre.IPointBase.md)
-
 

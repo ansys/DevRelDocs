@@ -1,4 +1,4 @@
-# Enum CLoadStandard.DirectionType
+#  Enum CLoadStandard.DirectionType
 
 Namespace: [VM.Managed.DAFUL.FE.Force](VM.Managed.DAFUL.FE.Force.md)  
 Assembly: VMFE.dll  
@@ -20,7 +20,6 @@ radial.
 `RECTANGULAR = 0` 
 
 rectangular.
-
 
 
 

@@ -1,4 +1,4 @@
-# Enum BallAndPinDiameterFormulationType
+#  Enum BallAndPinDiameterFormulationType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ public enum BallAndPinDiameterFormulationType
 `TwoBallsPerPins = 0` 
 
 2 balls/pins
-
 
 
 

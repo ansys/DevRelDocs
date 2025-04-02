@@ -1,4 +1,4 @@
-# Class PlaneLink
+#  Class PlaneLink
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PlaneLink\(ITransform, Plane\)
+### <a id="VM_Managed_PlaneLink__ctor_VM_Managed_ITransform_VM_Plane_"></a> PlaneLink\(ITransform, Plane\)
 
 Initializes a new instance of the <xref href="VM.Managed.PlaneLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -117,7 +117,7 @@ The data of transform.
 
 The plane type.
 
-### PlaneLink\(ITransform\)
+### <a id="VM_Managed_PlaneLink__ctor_VM_Managed_ITransform_"></a> PlaneLink\(ITransform\)
 
 Initializes a new instance of the <xref href="VM.Managed.PlaneLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -131,7 +131,7 @@ public PlaneLink(ITransform pTransform)
 
 The data of transform.
 
-### PlaneLink\(\)
+### <a id="VM_Managed_PlaneLink__ctor"></a> PlaneLink\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.PlaneLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -141,7 +141,7 @@ public PlaneLink()
 
 ## Properties
 
-### LinkTransform
+### <a id="VM_Managed_PlaneLink_LinkTransform"></a> LinkTransform
 
 Gets or sets the object of design frame or design point.
 
@@ -153,7 +153,7 @@ public ITransform LinkTransform { get; set; }
 
  [ITransform](VM.Managed.ITransform.md)
 
-### PlaneType
+### <a id="VM_Managed_PlaneLink_PlaneType"></a> PlaneType
 
 Gets or sets the plane type
 
@@ -165,7 +165,7 @@ public Plane PlaneType { get; set; }
 
  Plane
 
-### TransformationMatrix
+### <a id="VM_Managed_PlaneLink_TransformationMatrix"></a> TransformationMatrix
 
 Gets the transform.
 
@@ -177,7 +177,7 @@ public override TMatrix TransformationMatrix { get; set; }
 
  [TMatrix](VM.Managed.TMatrix.md)
 
-### \_LinkTransform
+### <a id="VM_Managed_PlaneLink__LinkTransform"></a> \_LinkTransform
 
 Gets or sets the object of design frame or design point.
 
@@ -191,7 +191,7 @@ public Linker<ITransform> _LinkTransform { get; set; }
 
 ## Methods
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_PlaneLink_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -206,5 +206,4 @@ protected override void LinkRequestUpdate(object obNotifier, LinkEventArgs arg)
 `arg` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
 The update event information.
-
 

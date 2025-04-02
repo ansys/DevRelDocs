@@ -1,4 +1,4 @@
-# Interface IIdentifierResolver
+#  Interface IIdentifierResolver
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -17,7 +17,7 @@ public interface IIdentifierResolver
 
 ## Methods
 
-### TryResolve\(string, out object\)
+### <a id="VM_IIdentifierResolver_TryResolve_System_String_System_Object__"></a> TryResolve\(string, out object\)
 
 Finds and returns the destination object associated with the specified identifier.
 
@@ -40,9 +40,9 @@ When this method returns, it contains the target associated with the specified i
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-(true)[https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool] if the element with the specified identifier is found; otherwise, (false)[https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool].
+<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the element with the specified identifier is found; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 
-### TryResolve\(UIntPtr, out object\)
+### <a id="VM_IIdentifierResolver_TryResolve_System_UIntPtr_System_Object__"></a> TryResolve\(UIntPtr, out object\)
 
 Finds and returns the targets associated with the specified key.
 
@@ -65,6 +65,5 @@ When this method returns, it contains the target associated with the specified k
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-(true)[https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool] if the element with the specified key is found; otherwise, (false)[https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool].
-
+<a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">true</a> if the element with the specified key is found; otherwise, <a href="https://learn.microsoft.com/dotnet/csharp/language-reference/builtin-types/bool">false</a>.
 

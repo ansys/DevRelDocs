@@ -1,4 +1,4 @@
-# Enum ReferenceTypes
+#  Enum ReferenceTypes
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -24,7 +24,6 @@ Set parametric for Point Link.
 `NONE = 2` 
 
 Can not be parametric.
-
 
 
 

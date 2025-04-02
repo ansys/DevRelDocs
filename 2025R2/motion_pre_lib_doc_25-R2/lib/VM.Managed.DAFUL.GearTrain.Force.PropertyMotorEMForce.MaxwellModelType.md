@@ -1,4 +1,4 @@
-# Enum PropertyMotorEMForce.MaxwellModelType
+#  Enum PropertyMotorEMForce.MaxwellModelType
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ public enum PropertyMotorEMForce.MaxwellModelType
 `TwoDimension = 0` 
 
 2D
-
 
 
 

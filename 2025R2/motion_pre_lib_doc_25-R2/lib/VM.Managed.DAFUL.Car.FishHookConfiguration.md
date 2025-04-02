@@ -1,4 +1,4 @@
-# Class FishHookConfiguration
+#  Class FishHookConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### FishHookConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_FishHookConfiguration__ctor"></a> FishHookConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FishHookConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FishHookConfi
 public FishHookConfiguration()
 ```
 
-### FishHookConfiguration\(AnalysisFishHook\)
+### <a id="VM_Managed_DAFUL_Car_FishHookConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisFishHook_"></a> FishHookConfiguration\(AnalysisFishHook\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FishHookConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_FishHookConfiguration_Analysis"></a> Analysis
 
 Gets or sets the analysis.
 
@@ -239,7 +239,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_FishHookConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -251,7 +251,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_FishHookConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -263,7 +263,7 @@ public override FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### FishHookParam
+### <a id="VM_Managed_DAFUL_Car_FishHookConfiguration_FishHookParam"></a> FishHookParam
 
 Gets or sets the fish hook parameter.
 
@@ -274,5 +274,4 @@ public AnalysisFishHook FishHookParam { get; set; }
 #### Property Value
 
  [AnalysisFishHook](VM.Managed.DAFUL.Car.AnalysisFishHook.md)
-
 

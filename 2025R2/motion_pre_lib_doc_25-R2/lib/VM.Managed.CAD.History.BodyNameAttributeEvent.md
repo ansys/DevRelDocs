@@ -1,4 +1,4 @@
-# Class BodyNameAttributeEvent
+#  Class BodyNameAttributeEvent
 
 Namespace: [VM.Managed.CAD.History](VM.Managed.CAD.History.md)  
 Assembly: VMAppCore.dll  
@@ -40,7 +40,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### BodyNameAttributeEvent\(object, string\)
+### <a id="VM_Managed_CAD_History_BodyNameAttributeEvent__ctor_System_Object_System_String_"></a> BodyNameAttributeEvent\(object, string\)
 
 ```csharp
 public BodyNameAttributeEvent(object obOriginal, string strOldName)
@@ -54,7 +54,7 @@ public BodyNameAttributeEvent(object obOriginal, string strOldName)
 
 ## Methods
 
-### GetNameAttribute\(\)
+### <a id="VM_Managed_CAD_History_BodyNameAttributeEvent_GetNameAttribute"></a> GetNameAttribute\(\)
 
 ```csharp
 protected virtual string GetNameAttribute()
@@ -64,7 +64,7 @@ protected virtual string GetNameAttribute()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Redo\(HistoryEventArgs\)
+### <a id="VM_Managed_CAD_History_BodyNameAttributeEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
 
 ```csharp
 public override void Redo(HistoryEventArgs args)
@@ -74,7 +74,7 @@ public override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### ReplaceNameAttribute\(string\)
+### <a id="VM_Managed_CAD_History_BodyNameAttributeEvent_ReplaceNameAttribute_System_String_"></a> ReplaceNameAttribute\(string\)
 
 ```csharp
 protected virtual void ReplaceNameAttribute(string strNameAttr)
@@ -84,7 +84,7 @@ protected virtual void ReplaceNameAttribute(string strNameAttr)
 
 `strNameAttr` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Undo\(HistoryEventArgs\)
+### <a id="VM_Managed_CAD_History_BodyNameAttributeEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
 
 ```csharp
 public override void Undo(HistoryEventArgs args)
@@ -93,5 +93,4 @@ public override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
-
 

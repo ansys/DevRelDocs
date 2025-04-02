@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.DOE.Operation
+#  Namespace VM.Managed.DAFUL.DOE.Operation
 
 ### Classes
 
@@ -9,5 +9,4 @@
 The open simulation dialog operation
 
  [ShowSimulationModifyDlg](VM.Managed.DAFUL.DOE.Operation.ShowSimulationModifyDlg.md)
-
 

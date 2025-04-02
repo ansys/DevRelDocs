@@ -1,4 +1,4 @@
-# Enum InputLocation
+#  Enum InputLocation
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.FourPost](VM.Managed.DAFUL.Car.Analysis.FourPost.md)  
 Assembly: VMDCar.dll  
@@ -20,7 +20,6 @@ Beneath Tires
 `WheelSpindles = 0` 
 
 Wheel Spindles
-
 
 
 

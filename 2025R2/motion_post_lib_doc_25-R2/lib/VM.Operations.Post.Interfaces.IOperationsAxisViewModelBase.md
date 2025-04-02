@@ -1,4 +1,4 @@
-# Interface IOperationsAxisViewModelBase
+#  Interface IOperationsAxisViewModelBase
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -56,7 +56,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### Title
+### <a id="VM_Operations_Post_Interfaces_IOperationsAxisViewModelBase_Title"></a> Title
 
 Gets or sets the title of the axis.
 
@@ -76,7 +76,7 @@ For an example that includes this property, see the [Interface IOperationsAxisVi
 
 Use this property to specify or retrieve the title of the axis.
 
-### TitleSize
+### <a id="VM_Operations_Post_Interfaces_IOperationsAxisViewModelBase_TitleSize"></a> TitleSize
 
 Gets or sets the font size of the title.
 
@@ -96,7 +96,7 @@ For an example that includes this property, see the [Interface IOperationsAxisVi
 
 Use this property to specify or retrieve the font size of the title.
 
-### TitleWeight
+### <a id="VM_Operations_Post_Interfaces_IOperationsAxisViewModelBase_TitleWeight"></a> TitleWeight
 
 Gets or sets the font weight of the title.
 

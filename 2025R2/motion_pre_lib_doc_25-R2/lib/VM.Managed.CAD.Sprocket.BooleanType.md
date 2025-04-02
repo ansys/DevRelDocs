@@ -1,4 +1,4 @@
-# Enum BooleanType
+#  Enum BooleanType
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -20,7 +20,6 @@ Subtract shaft to sprocket
 `Unite = 0` 
 
 Unite shaft to sprocket
-
 
 
 

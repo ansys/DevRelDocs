@@ -1,4 +1,4 @@
-# Enum MeshDocument.MFInterfaceType
+#  Enum MeshDocument.MFInterfaceType
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -14,5 +14,4 @@ public enum MeshDocument.MFInterfaceType
 `ANSYS = 1` 
 
 `NASTRAN = 0` 
-
 

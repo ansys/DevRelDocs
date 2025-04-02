@@ -1,4 +1,4 @@
-# Class ChangeName
+#  Class ChangeName
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOpFEFilm.dll  
@@ -75,7 +75,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ChangeName\(List<object\>\)
+### <a id="VM_Managed_Operation_ChangeName__ctor_System_Collections_Generic_List_System_Object__"></a> ChangeName\(List<object\>\)
 
 ```csharp
 public ChangeName(List<object> lstInfo)
@@ -85,7 +85,7 @@ public ChangeName(List<object> lstInfo)
 
 `lstInfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
-### ChangeName\(JournalParameter\)
+### <a id="VM_Managed_Operation_ChangeName__ctor_VM_Managed_Operation_JournalParameter_"></a> ChangeName\(JournalParameter\)
 
 ```csharp
 public ChangeName(JournalParameter jp)
@@ -97,7 +97,7 @@ public ChangeName(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_Operation_ChangeName_Name"></a> Name
 
 Gets the operation name.
 
@@ -111,7 +111,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_Operation_ChangeName_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -119,7 +119,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_Operation_ChangeName_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -128,5 +128,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

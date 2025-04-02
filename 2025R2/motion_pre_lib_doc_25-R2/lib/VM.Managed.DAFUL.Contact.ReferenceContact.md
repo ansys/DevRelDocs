@@ -1,4 +1,4 @@
-# Class ReferenceContact
+#  Class ReferenceContact
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -184,7 +184,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferenceContact\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_DAFUL_Contact_ReferenceContact__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceContact\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ReferenceContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -202,7 +202,7 @@ The info.
 
 The context.
 
-### ReferenceContact\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Contact_ReferenceContact__ctor_VM_Managed_ObjectBase_"></a> ReferenceContact\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferenceConnectable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -215,5 +215,4 @@ public ReferenceContact(ObjectBase obj)
 `obj` ObjectBase
 
 The reference's object.
-
 

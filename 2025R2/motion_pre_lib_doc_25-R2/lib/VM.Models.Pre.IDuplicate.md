@@ -1,4 +1,4 @@
-# Interface IDuplicate
+#  Interface IDuplicate
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,12 +17,11 @@ public interface IDuplicate
 
 ## Methods
 
-### Copy\(\)
+### <a id="VM_Models_Pre_IDuplicate_Copy"></a> Copy\(\)
 
 Copy the entity.
 
 ```csharp
 void Copy()
 ```
-
 

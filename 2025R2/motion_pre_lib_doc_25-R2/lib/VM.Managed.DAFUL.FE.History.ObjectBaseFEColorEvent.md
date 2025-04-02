@@ -1,4 +1,4 @@
-# Class ObjectBaseFEColorEvent
+#  Class ObjectBaseFEColorEvent
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  
@@ -45,7 +45,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### ObjectBaseFEColorEvent\(object, Color\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseFEColorEvent__ctor_System_Object_System_Drawing_Color_"></a> ObjectBaseFEColorEvent\(object, Color\)
 
 ```csharp
 public ObjectBaseFEColorEvent(object obOriginal, Color color)
@@ -57,7 +57,7 @@ public ObjectBaseFEColorEvent(object obOriginal, Color color)
 
 `color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### ObjectBaseFEColorEvent\(object\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseFEColorEvent__ctor_System_Object_"></a> ObjectBaseFEColorEvent\(object\)
 
 ```csharp
 public ObjectBaseFEColorEvent(object obOriginal)
@@ -69,7 +69,7 @@ public ObjectBaseFEColorEvent(object obOriginal)
 
 ## Methods
 
-### GetColor\(\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseFEColorEvent_GetColor"></a> GetColor\(\)
 
 ```csharp
 protected override Color GetColor()
@@ -79,7 +79,7 @@ protected override Color GetColor()
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### ReplaceColor\(Color\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBaseFEColorEvent_ReplaceColor_System_Drawing_Color_"></a> ReplaceColor\(Color\)
 
 ```csharp
 protected override void ReplaceColor(Color color)
@@ -88,5 +88,4 @@ protected override void ReplaceColor(Color color)
 #### Parameters
 
 `color` [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
-
 

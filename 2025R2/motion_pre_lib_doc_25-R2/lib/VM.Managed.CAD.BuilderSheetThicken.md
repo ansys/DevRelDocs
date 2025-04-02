@@ -1,4 +1,4 @@
-# Class BuilderSheetThicken
+#  Class BuilderSheetThicken
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -193,7 +193,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderSheetThicken\(Builder\)
+### <a id="VM_Managed_CAD_BuilderSheetThicken__ctor_VM_Managed_CAD_Builder_"></a> BuilderSheetThicken\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderSheetThicken" data-throw-if-not-resolved="false"></xref> class
 
@@ -207,7 +207,7 @@ public BuilderSheetThicken(Builder builderTarget)
 
 The target.
 
-### BuilderSheetThicken\(\)
+### <a id="VM_Managed_CAD_BuilderSheetThicken__ctor"></a> BuilderSheetThicken\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderSheetThicken" data-throw-if-not-resolved="false"></xref> class
 
@@ -217,7 +217,7 @@ public BuilderSheetThicken()
 
 ## Properties
 
-### Direction
+### <a id="VM_Managed_CAD_BuilderSheetThicken_Direction"></a> Direction
 
 Gets or sets the direction.
 
@@ -229,7 +229,7 @@ public BuilderSheetThicken.DirectionType Direction { get; set; }
 
  [BuilderSheetThicken](VM.Managed.CAD.BuilderSheetThicken.md).[DirectionType](VM.Managed.CAD.BuilderSheetThicken.DirectionType.md)
 
-### Target
+### <a id="VM_Managed_CAD_BuilderSheetThicken_Target"></a> Target
 
 Gets or sets the target builder.
 
@@ -241,7 +241,7 @@ public Builder Target { get; set; }
 
  [Builder](VM.Managed.CAD.Builder.md)
 
-### Thickness
+### <a id="VM_Managed_CAD_BuilderSheetThicken_Thickness"></a> Thickness
 
 Gets or sets the thickness.
 
@@ -255,7 +255,7 @@ public Variable Thickness { get; set; }
 
 ## Methods
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_BuilderSheetThicken_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Checks validation about build.
 
@@ -263,7 +263,7 @@ Checks validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### Contains\(Type\)
+### <a id="VM_Managed_CAD_BuilderSheetThicken_Contains_System_Type_"></a> Contains\(Type\)
 
 ```csharp
 public override bool Contains(Type typeBuilder)
@@ -277,7 +277,7 @@ public override bool Contains(Type typeBuilder)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CopyFilePathWhenImportBuilder\(Builder\)
+### <a id="VM_Managed_CAD_BuilderSheetThicken_CopyFilePathWhenImportBuilder_VM_Managed_CAD_Builder_"></a> CopyFilePathWhenImportBuilder\(Builder\)
 
 ```csharp
 public override void CopyFilePathWhenImportBuilder(Builder buiOriginal)
@@ -287,7 +287,7 @@ public override void CopyFilePathWhenImportBuilder(Builder buiOriginal)
 
 `buiOriginal` [Builder](VM.Managed.CAD.Builder.md)
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_BuilderSheetThicken_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -297,7 +297,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_BuilderSheetThicken_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase A_0)
@@ -306,5 +306,4 @@ protected override void FillParameter(BuilderParamBase A_0)
 #### Parameters
 
 `A_0` BuilderParamBase
-
 

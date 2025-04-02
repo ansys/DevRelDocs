@@ -1,4 +1,4 @@
-# Class ReferenceGeneral
+#  Class ReferenceGeneral
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
@@ -188,7 +188,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferenceGeneral\(SerializationInfo, StreamingContext\)
+### <a id="VM_Models_Pre_Connections_ReferenceGeneral__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceGeneral\(SerializationInfo, StreamingContext\)
 
 <p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.ReferenceGeneral" data-throw-if-not-resolved="false"></xref> class.</p>
 
@@ -206,7 +206,7 @@ protected ReferenceGeneral(SerializationInfo info, StreamingContext context)
 
 <p>The context.</p>
 
-### ReferenceGeneral\(ObjectBase\)
+### <a id="VM_Models_Pre_Connections_ReferenceGeneral__ctor_VM_Managed_ObjectBase_"></a> ReferenceGeneral\(ObjectBase\)
 
 <p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.ReferenceGeneral" data-throw-if-not-resolved="false"></xref> class.</p>
 
@@ -222,7 +222,7 @@ public ReferenceGeneral(ObjectBase obj)
 
 ## Methods
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Models_Pre_Connections_ReferenceGeneral_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -249,5 +249,4 @@ if set to <code>true</code> [has child].
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

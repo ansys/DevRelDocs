@@ -1,4 +1,4 @@
-# Class HiddenGearSetDocumentBase
+#  Class HiddenGearSetDocumentBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -604,7 +604,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### HiddenGearSetDocumentBase\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase__ctor_System_UIntPtr_"></a> HiddenGearSetDocumentBase\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HiddenGearSetDocumentBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -620,7 +620,7 @@ The document handle.
 
 ## Fields
 
-### m\_bHideLOA
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_m_bHideLOA"></a> m\_bHideLOA
 
 The LOA hide flag
 
@@ -632,7 +632,7 @@ protected List<bool> m_bHideLOA
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
-### m\_bShow2D
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_m_bShow2D"></a> m\_bShow2D
 
 The show2d flag
 
@@ -646,7 +646,7 @@ protected bool m_bShow2D
 
 ## Properties
 
-### AddToPropertyAllGear
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_AddToPropertyAllGear"></a> AddToPropertyAllGear
 
 Gets the flag whether this instance add to property or not.
 
@@ -658,7 +658,7 @@ public virtual bool AddToPropertyAllGear { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### DoingContactAnalysis
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_DoingContactAnalysis"></a> DoingContactAnalysis
 
 Gets a value indicating contact analysis execute flag.
 
@@ -670,7 +670,7 @@ public static bool DoingContactAnalysis { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GearSet
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_GearSet"></a> GearSet
 
 Gets or sets the gear set.
 
@@ -682,7 +682,7 @@ public IGearSet GearSet { get; set; }
 
  [IGearSet](VM.Managed.DAFUL.GearTrain.IGearSet.md)
 
-### HideBCD
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_HideBCD"></a> HideBCD
 
 Gets the value whether bcd is hidden or not
 
@@ -694,7 +694,7 @@ protected virtual bool HideBCD { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### HideLOA
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_HideLOA"></a> HideLOA
 
 Gets the value whether loa is hidden or not
 
@@ -706,7 +706,7 @@ protected virtual bool HideLOA { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### NumberOfLOA
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_NumberOfLOA"></a> NumberOfLOA
 
 Gets number of LOA.
 
@@ -718,7 +718,7 @@ protected virtual int NumberOfLOA { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Show2D
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_Show2D"></a> Show2D
 
 Gets a value indicating whether [show2 d].
 
@@ -730,7 +730,7 @@ public bool Show2D { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TargetDesign
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_TargetDesign"></a> TargetDesign
 
 Gets the target design.
 
@@ -742,7 +742,7 @@ public override IOpenDesigner TargetDesign { get; }
 
  IOpenDesigner
 
-### \_GearSet
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase__GearSet"></a> \_GearSet
 
 Gets or sets the _ gear set.
 
@@ -756,7 +756,7 @@ public Linker<IGearSet> _GearSet { get; set; }
 
 ## Methods
 
-### CalculateToothStiffness\(IGearSet, List<\(bool, int, string, string\)\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_CalculateToothStiffness_VM_Managed_DAFUL_GearTrain_IGearSet_System_Collections_Generic_List_System_ValueTuple_System_Boolean_System_Int32_System_String_System_String___"></a> CalculateToothStiffness\(IGearSet, List<\(bool, int, string, string\)\>\)
 
 Calculate tooth stiffness
 
@@ -774,7 +774,7 @@ The gearset
 
 The tooth information
 
-### CalculateToothStiffness\(IGearSet\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_CalculateToothStiffness_VM_Managed_DAFUL_GearTrain_IGearSet_"></a> CalculateToothStiffness\(IGearSet\)
 
 Calculate tooth stiffness
 
@@ -788,7 +788,7 @@ public static void CalculateToothStiffness(IGearSet gearSet)
 
 The gearset
 
-### CalculateToothStiffnessInContactAnalysis\(HiddenGearSetDocumentBase, int\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_CalculateToothStiffnessInContactAnalysis_VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_System_Int32_"></a> CalculateToothStiffnessInContactAnalysis\(HiddenGearSetDocumentBase, int\)
 
 Calculate tooth stiffness in contact analysis
 
@@ -806,7 +806,7 @@ The gearset hidden document
 
 The gear index
 
-### CheckToothStiffness\(HiddenGearSetDocumentBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_CheckToothStiffness_VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_"></a> CheckToothStiffness\(HiddenGearSetDocumentBase\)
 
 Check tooth stiffness
 
@@ -820,7 +820,7 @@ public static void CheckToothStiffness(HiddenGearSetDocumentBase docGearset)
 
 The gearset hidden document
 
-### CreateAssemblyImpl\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_CreateAssemblyImpl"></a> CreateAssemblyImpl\(\)
 
 Creates the assembly implementation.
 
@@ -836,7 +836,7 @@ protected override Assembly CreateAssemblyImpl()
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### CreateStiffness\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_CreateStiffness"></a> CreateStiffness\(\)
 
 Creates the stiffness.
 
@@ -844,7 +844,7 @@ Creates the stiffness.
 public void CreateStiffness()
 ```
 
-### DeserializeResult\(PropertyGearSetBase, string\[\], List<InvolutePoint\>\[\], List<InvolutePoint\>\[\], List<Vector\>\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_DeserializeResult_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_System_String___System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_GearShapeBase_InvolutePoint____System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_GearShapeBase_InvolutePoint____System_Collections_Generic_List_VM_Managed_Vector____"></a> DeserializeResult\(PropertyGearSetBase, string\[\], List<InvolutePoint\>\[\], List<InvolutePoint\>\[\], List<Vector\>\[\]\)
 
 Deserialize result
 
@@ -874,7 +874,7 @@ The graphic involute points
 
 The MBCD
 
-### DrawCoordinate\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_DrawCoordinate_System_Double_"></a> DrawCoordinate\(double\)
 
 Draws the coordinate.
 
@@ -888,7 +888,7 @@ public override void DrawCoordinate(double dIconSize)
 
 Size of the d icon.
 
-### DrawLOAForExternal\(string, double, double, double, double, OMatrix\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_DrawLOAForExternal_System_String_System_Double_System_Double_System_Double_System_Double_VM_Managed_OMatrix_"></a> DrawLOAForExternal\(string, double, double, double, double, OMatrix\)
 
 draw loa for external gear.
 
@@ -922,7 +922,7 @@ previous conter.
 
 orientation of LOA.
 
-### DrawLOAForInternal\(string, double, double, double, OMatrix\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_DrawLOAForInternal_System_String_System_Double_System_Double_System_Double_VM_Managed_OMatrix_"></a> DrawLOAForInternal\(string, double, double, double, OMatrix\)
 
 draw loa for internal gear.
 
@@ -952,7 +952,7 @@ center Y.
 
 orientation of LOA.
 
-### GetCenterY\(double\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_GetCenterY_System_Double___"></a> GetCenterY\(double\[\]\)
 
 Get y coordinate of center.
 
@@ -966,7 +966,7 @@ protected virtual void GetCenterY(double[] ardCenterY)
 
 The y coordinate of center.
 
-### GetData\(XmlNode\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_GetData_System_Xml_XmlNode_"></a> GetData\(XmlNode\)
 
 Gets the analysis document information data.
 
@@ -984,7 +984,7 @@ The writer.
 
  [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
-### GetExternalState\(bool\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_GetExternalState_System_Boolean___"></a> GetExternalState\(bool\[\]\)
 
 Get external state.
 
@@ -998,7 +998,7 @@ protected virtual void GetExternalState(bool[] arbExternal)
 
 The exteranl array.
 
-### GetInfoFromDocumentPropertyGrid\(XmlDocument, XmlDocument\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_GetInfoFromDocumentPropertyGrid_System_Xml_XmlDocument_System_Xml_XmlDocument_"></a> GetInfoFromDocumentPropertyGrid\(XmlDocument, XmlDocument\)
 
 Gets the information from document property grid.
 
@@ -1016,7 +1016,7 @@ The XML target.
 
 The XML tool.
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -1034,7 +1034,7 @@ The linked object.
 
 The destroy event information.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -1052,7 +1052,7 @@ The linked object.
 
 The update event information.
 
-### MakeXmlForDocumentPropertyGrid\(XmlDocument, ref string\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_MakeXmlForDocumentPropertyGrid_System_Xml_XmlDocument_System_String__"></a> MakeXmlForDocumentPropertyGrid\(XmlDocument, ref string\)
 
 Makes the XML for document property grid.
 
@@ -1074,7 +1074,7 @@ Name of the string group.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### MakeXmlForDocumentPropertyGridForLOA\(XmlDocument, ref string, StringBuilder\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_MakeXmlForDocumentPropertyGridForLOA_System_Xml_XmlDocument_System_String__System_Text_StringBuilder_"></a> MakeXmlForDocumentPropertyGridForLOA\(XmlDocument, ref string, StringBuilder\)
 
 Makes the LOA XML for document property grid.
 
@@ -1096,7 +1096,7 @@ Name of the string group.
 
 The string builder.
 
-### ModifiedToothStiffness\(GearGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_ModifiedToothStiffness_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> ModifiedToothStiffness\(GearGeometryInfo\)
 
 Whether this instance is modified by tooth stiffness or not.
 
@@ -1114,7 +1114,7 @@ The gear geometry information
 
  \([bool](https://learn.microsoft.com/dotnet/api/system.boolean), [PseudoGearGeometry](VM.Managed.DAFUL.GearTrain.CAD.PseudoGearGeometry.md)\)
 
-### RefreshGearBodyInNav\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_RefreshGearBodyInNav"></a> RefreshGearBodyInNav\(\)
 
 Refreshes the gear body in nav.
 
@@ -1122,7 +1122,7 @@ Refreshes the gear body in nav.
 public void RefreshGearBodyInNav()
 ```
 
-### SerializeResult\(PropertyGearSetBase, ref string\[\], ref List<InvolutePoint\>\[\], ref List<InvolutePoint\>\[\], ref List<Vector\>\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_SerializeResult_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_System_String____System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_GearShapeBase_InvolutePoint_____System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_GearShapeBase_InvolutePoint_____System_Collections_Generic_List_VM_Managed_Vector_____"></a> SerializeResult\(PropertyGearSetBase, ref string\[\], ref List<InvolutePoint\>\[\], ref List<InvolutePoint\>\[\], ref List<Vector\>\[\]\)
 
 Serialize result
 
@@ -1152,7 +1152,7 @@ The graphic involute points
 
 The MBCD
 
-### SetData\(XmlNode\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_SetData_System_Xml_XmlNode_"></a> SetData\(XmlNode\)
 
 Sets the analysis document information data.
 
@@ -1170,7 +1170,7 @@ The reader.
 
  [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
-### Show2Dimension\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_Show2Dimension_System_Boolean_"></a> Show2Dimension\(bool\)
 
 Show2s the dimension.
 
@@ -1184,7 +1184,7 @@ public void Show2Dimension(bool isRefresh)
 
 if set to <code>true</code> [is refresh].
 
-### Show2DimensionCore\(int, bool\[\], double\[\], double\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenGearSetDocumentBase_Show2DimensionCore_System_Int32_System_Boolean___System_Double___System_Double___"></a> Show2DimensionCore\(int, bool\[\], double\[\], double\[\]\)
 
 Show2s the dimension core.
 
@@ -1209,5 +1209,4 @@ center array.
 `ardBCDR` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
 BCDR array.
-
 

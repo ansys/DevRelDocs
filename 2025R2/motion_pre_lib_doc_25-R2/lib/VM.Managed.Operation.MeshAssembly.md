@@ -1,4 +1,4 @@
-# Class MeshAssembly
+#  Class MeshAssembly
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -90,13 +90,13 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### MeshAssembly\(\)
+### <a id="VM_Managed_Operation_MeshAssembly__ctor"></a> MeshAssembly\(\)
 
 ```csharp
 public MeshAssembly()
 ```
 
-### MeshAssembly\(string\)
+### <a id="VM_Managed_Operation_MeshAssembly__ctor_System_String_"></a> MeshAssembly\(string\)
 
 ```csharp
 public MeshAssembly(string strXml)
@@ -108,10 +108,9 @@ public MeshAssembly(string strXml)
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_Operation_MeshAssembly_Execute"></a> Execute\(\)
 
 ```csharp
 public override void Execute()
 ```
-
 

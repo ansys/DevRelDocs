@@ -1,4 +1,4 @@
-# Class ReferenceRigidBodyElement
+#  Class ReferenceRigidBodyElement
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -195,7 +195,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferenceRigidBodyElement\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceRigidBodyElement\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.ReferenceRigidBodyElement" data-throw-if-not-resolved="false"></xref> class.
 
@@ -213,7 +213,7 @@ The info.
 
 The context.
 
-### ReferenceRigidBodyElement\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement__ctor_VM_Managed_ObjectBase_"></a> ReferenceRigidBodyElement\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.ReferenceRigidBodyElement" data-throw-if-not-resolved="false"></xref> class.
 
@@ -229,7 +229,7 @@ The reference's object.
 
 ## Properties
 
-### ActionConnectable
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_ActionConnectable"></a> ActionConnectable
 
 Gets the action connectable.
 
@@ -241,7 +241,7 @@ public IConnectable ActionConnectable { get; }
 
  IConnectable
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_AnalysisType"></a> AnalysisType
 
 Gets the analysis type.
 
@@ -253,7 +253,7 @@ public BodyAnalysisType AnalysisType { get; }
 
  BodyAnalysisType
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -265,7 +265,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### Body
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_Body"></a> Body
 
 Gets the body.
 
@@ -277,7 +277,7 @@ public IBody Body { get; }
 
  IBody
 
-### Center
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_Center"></a> Center
 
 Gets the center position of the object.
 
@@ -289,7 +289,7 @@ public TMatrix Center { get; }
 
  TMatrix
 
-### Connectable
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_Connectable"></a> Connectable
 
 Gets the connectable.
 
@@ -301,7 +301,7 @@ public IConnectable Connectable { get; }
 
  IConnectable
 
-### ConnectableBody
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_ConnectableBody"></a> ConnectableBody
 
 Gets the connectable body.
 
@@ -313,7 +313,7 @@ public ObjectBase ConnectableBody { get; }
 
  ObjectBase
 
-### ConnectableFullName
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_ConnectableFullName"></a> ConnectableFullName
 
 Gets the full name of the connectable.
 
@@ -325,7 +325,7 @@ public string ConnectableFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectableName
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_ConnectableName"></a> ConnectableName
 
 Gets the name of the connectable.
 
@@ -337,7 +337,7 @@ public string ConnectableName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectablePosition
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_ConnectablePosition"></a> ConnectablePosition
 
 Sets the connectable position.
 
@@ -349,7 +349,7 @@ public Vector ConnectablePosition { set; }
 
  Vector
 
-### ConnectablePostfixName
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_ConnectablePostfixName"></a> ConnectablePostfixName
 
 Sets the postfix name of the connectable.
 
@@ -361,7 +361,7 @@ public string ConnectablePostfixName { set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ParentType
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_ParentType"></a> ParentType
 
 Gets the type of the marker's parent.
 
@@ -373,7 +373,7 @@ public MarkerParentType ParentType { get; }
 
  MarkerParentType
 
-### ReferenceFrameType
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_ReferenceFrameType"></a> ReferenceFrameType
 
 Gets the type of the marker's reference frame.
 
@@ -385,7 +385,7 @@ public MarkerReferenceFrameType ReferenceFrameType { get; }
 
  MarkerReferenceFrameType
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_ReferenceType"></a> ReferenceType
 
 Gets the type of the reference.
 
@@ -399,7 +399,7 @@ public string ReferenceType { get; }
 
 ## Methods
 
-### GetConnectableImpl\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_GetConnectableImpl"></a> GetConnectableImpl\(\)
 
 Gets the connectable [implementation].
 
@@ -411,7 +411,7 @@ protected virtual IConnectable GetConnectableImpl()
 
  IConnectable
 
-### GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_GetGeometryNavigatorInformation_System_Xml_XmlDocument_System_Xml_XmlElement_"></a> GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
 
 Gets the geometry information for model navigator .
 
@@ -435,7 +435,7 @@ The XmlElement information.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_MeshFree_ReferenceRigidBodyElement_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -462,5 +462,4 @@ if set to <code>true</code> [has child].
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

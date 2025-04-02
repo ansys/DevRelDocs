@@ -1,4 +1,4 @@
-# Class ObservableConcurrentDictionary<TKey, TValue\>
+#  Class ObservableConcurrentDictionary<TKey, TValue\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -15,12 +15,12 @@ public class ObservableConcurrentDictionary<TKey, TValue>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ObservableConcurrentDictionary<TKey, TValue\>](VM.Collections.ObservableConcurrentDictionary\-2.md)
 
 ## Constructors
 
-### ObservableConcurrentDictionary\(\)
+### <a id="VM_Collections_ObservableConcurrentDictionary_2__ctor"></a> ObservableConcurrentDictionary\(\)
 
 ```python
 public ObservableConcurrentDictionary()
@@ -28,7 +28,7 @@ public ObservableConcurrentDictionary()
 
 ## Properties
 
-### Count
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_Count"></a> Count
 
 ```python
 public int Count { get; }
@@ -38,7 +38,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### IsReadOnly
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_IsReadOnly"></a> IsReadOnly
 
 ```python
 public bool IsReadOnly { get; }
@@ -48,7 +48,7 @@ public bool IsReadOnly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Keys
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_Keys"></a> Keys
 
 ```python
 public ICollection<TKey> Keys { get; }
@@ -58,7 +58,7 @@ public ICollection<TKey> Keys { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<TKey\>
 
-### Values
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_Values"></a> Values
 
 ```python
 public ICollection<TValue> Values { get; }
@@ -68,7 +68,7 @@ public ICollection<TValue> Values { get; }
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<TValue\>
 
-### this\[TKey\]
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_Item__0_"></a> this\[TKey\]
 
 ```python
 public TValue this[TKey key] { get; set; }
@@ -80,7 +80,7 @@ public TValue this[TKey key] { get; set; }
 
 ## Methods
 
-### <\>OnPropertyChanged\(PropertyChangedEventArgs\)
+### <a id="VM_Collections_ObservableConcurrentDictionary_2___OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_"></a> <\>OnPropertyChanged\(PropertyChangedEventArgs\)
 
 ```python
 protected void <>OnPropertyChanged(PropertyChangedEventArgs eventArgs)
@@ -90,7 +90,7 @@ protected void <>OnPropertyChanged(PropertyChangedEventArgs eventArgs)
 
 `eventArgs` [PropertyChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs)
 
-### Add\(TKey, TValue\)
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_Add__0__1_"></a> Add\(TKey, TValue\)
 
 ```python
 public void Add(TKey key, TValue value)
@@ -102,13 +102,13 @@ public void Add(TKey key, TValue value)
 
 `value` TValue
 
-### Clear\(\)
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_Clear"></a> Clear\(\)
 
 ```python
 public void Clear()
 ```
 
-### Contains\(KeyValuePair<TKey, TValue\>\)
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_Contains_System_Collections_Generic_KeyValuePair__0__1__"></a> Contains\(KeyValuePair<TKey, TValue\>\)
 
 ```python
 public bool Contains(KeyValuePair<TKey, TValue> item)
@@ -122,7 +122,7 @@ public bool Contains(KeyValuePair<TKey, TValue> item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ContainsKey\(TKey\)
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_ContainsKey__0_"></a> ContainsKey\(TKey\)
 
 ```python
 public bool ContainsKey(TKey key)
@@ -136,7 +136,7 @@ public bool ContainsKey(TKey key)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CopyTo\(KeyValuePair<TKey, TValue\>\[\], int\)
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_CopyTo_System_Collections_Generic_KeyValuePair__0__1____System_Int32_"></a> CopyTo\(KeyValuePair<TKey, TValue\>\[\], int\)
 
 ```python
 public void CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex)
@@ -148,7 +148,7 @@ public void CopyTo(KeyValuePair<TKey, TValue>[] array, int arrayIndex)
 
 `arrayIndex` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GetEnumerator\(\)
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_GetEnumerator"></a> GetEnumerator\(\)
 
 ```python
 public IEnumerator GetEnumerator()
@@ -158,7 +158,7 @@ public IEnumerator GetEnumerator()
 
  [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.ienumerator)
 
-### Remove\(TKey\)
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_Remove__0_"></a> Remove\(TKey\)
 
 ```python
 public bool Remove(TKey key)
@@ -172,7 +172,7 @@ public bool Remove(TKey key)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TryGetValue\(TKey, out TValue\)
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_TryGetValue__0__1__"></a> TryGetValue\(TKey, out TValue\)
 
 ```python
 public bool TryGetValue(TKey key, out TValue value)
@@ -188,7 +188,7 @@ public bool TryGetValue(TKey key, out TValue value)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CollectionChanged
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_CollectionChanged"></a> CollectionChanged
 
 ```python
 public event NotifyCollectionChangedEventHandler CollectionChanged
@@ -198,7 +198,7 @@ public event NotifyCollectionChangedEventHandler CollectionChanged
 
  [NotifyCollectionChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler)
 
-### PropertyChanged
+### <a id="VM_Collections_ObservableConcurrentDictionary_2_PropertyChanged"></a> PropertyChanged
 
 ```python
 public event PropertyChangedEventHandler PropertyChanged

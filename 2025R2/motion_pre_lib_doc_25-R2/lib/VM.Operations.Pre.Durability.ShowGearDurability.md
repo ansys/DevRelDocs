@@ -1,4 +1,4 @@
-# Class ShowGearDurability
+#  Class ShowGearDurability
 
 Namespace: [VM.Operations.Pre.Durability](VM.Operations.Pre.Durability.md)  
 Assembly: VM.Operations.Pre.Durability.dll  
@@ -89,7 +89,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ShowGearDurability\(Document\)
+### <a id="VM_Operations_Pre_Durability_ShowGearDurability__ctor_VM_Managed_Document_"></a> ShowGearDurability\(Document\)
 
 ```csharp
 public ShowGearDurability(Document doc)
@@ -101,10 +101,9 @@ public ShowGearDurability(Document doc)
 
 ## Methods
 
-### ShowDialog\(\)
+### <a id="VM_Operations_Pre_Durability_ShowGearDurability_ShowDialog"></a> ShowDialog\(\)
 
 ```csharp
 protected override void ShowDialog()
 ```
-
 

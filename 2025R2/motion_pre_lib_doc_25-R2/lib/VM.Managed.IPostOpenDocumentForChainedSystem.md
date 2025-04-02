@@ -1,4 +1,4 @@
-# Interface IPostOpenDocumentForChainedSystem
+#  Interface IPostOpenDocumentForChainedSystem
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IPostOpenDocumentForChainedSystem
 
 ## Methods
 
-### ChangeForCompatibility\(Dictionary<ObjectBase, bool\>\)
+### <a id="VM_Managed_IPostOpenDocumentForChainedSystem_ChangeForCompatibility_System_Collections_Generic_Dictionary_VM_Managed_ObjectBase_System_Boolean__"></a> ChangeForCompatibility\(Dictionary<ObjectBase, bool\>\)
 
 ```csharp
 void ChangeForCompatibility(Dictionary<ObjectBase, bool> facesets)
@@ -26,5 +26,4 @@ void ChangeForCompatibility(Dictionary<ObjectBase, bool> facesets)
 #### Parameters
 
 `facesets` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[ObjectBase](VM.Managed.ObjectBase.md), [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
-
 

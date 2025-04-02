@@ -1,4 +1,4 @@
-# Enum OverlapDeltaType
+#  Enum OverlapDeltaType
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -26,7 +26,6 @@ Decrease.
 `Increase = 1` 
 
 Increase.
-
 
 
 

@@ -1,4 +1,4 @@
-# Namespace VM.Managed.Operation
+#  Namespace VM.Managed.Operation
 
 ### Classes
 
@@ -139,5 +139,4 @@ After the operation, called the delegate prototype.
  [OperationBase.ShowVerifyResult](VM.Managed.Operation.OperationBase.ShowVerifyResult.md)
 
 delegate for showing to verified result .
-
 

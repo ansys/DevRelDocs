@@ -1,4 +1,4 @@
-# Interface IOperationsVectorDisplayBaseViewModel
+#  Interface IOperationsVectorDisplayBaseViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -71,7 +71,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### FullName
+### <a id="VM_Operations_Post_Interfaces_IOperationsVectorDisplayBaseViewModel_FullName"></a> FullName
 
 Gets or sets the full name of the vector display.
 
@@ -91,7 +91,7 @@ For an example that includes this property, see the [Interface IOperationsVector
 
 Use this property to specify or retrieve the full name of the vector display.
 
-### IsLabel
+### <a id="VM_Operations_Post_Interfaces_IOperationsVectorDisplayBaseViewModel_IsLabel"></a> IsLabel
 
 Gets or sets a value indicating whether to display or hide the object name, and force and position vectors in the animation view.
 
@@ -111,7 +111,7 @@ For an example that includes this property, see the [Interface IOperationsVector
 
 Use this property to specify or retrieve the visibility of the object name, and force and position vectors in the animation view.
 
-### IsVisible
+### <a id="VM_Operations_Post_Interfaces_IOperationsVectorDisplayBaseViewModel_IsVisible"></a> IsVisible
 
 Gets or sets a value indicating whether the vector display is visible in the animation view.
 
@@ -132,7 +132,7 @@ The following example demonstrates how to use the <code>IsVisible</code> propert
 
 Use this property to specify or retrieve the visibility of the vector display in the animation view.
 
-### LabelBackgroundColor
+### <a id="VM_Operations_Post_Interfaces_IOperationsVectorDisplayBaseViewModel_LabelBackgroundColor"></a> LabelBackgroundColor
 
 Gets or sets the background color of the label in the vector display.
 
@@ -153,7 +153,7 @@ The following example demonstrates how to use the <code>LabelBackGroundColor</co
 
 Use this property to specify or retrieve the background color of the label in the vector display.
 
-### LabelTextColor
+### <a id="VM_Operations_Post_Interfaces_IOperationsVectorDisplayBaseViewModel_LabelTextColor"></a> LabelTextColor
 
 Gets or sets the text color of the label in the vector display.
 
@@ -176,7 +176,7 @@ Use this property to specify or retrieve the text color of the label in the vect
 
 ## Methods
 
-### SetCharacteristic\(string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsVectorDisplayBaseViewModel_SetCharacteristic_System_String_"></a> SetCharacteristic\(string\)
 
 Sets the characteristic for the vector display.
 

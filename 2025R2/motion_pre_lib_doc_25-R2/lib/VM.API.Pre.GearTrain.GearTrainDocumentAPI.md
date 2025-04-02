@@ -1,4 +1,4 @@
-# Class GearTrainDocumentAPI
+#  Class GearTrainDocumentAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -22,7 +22,7 @@ public static class GearTrainDocumentAPI
 
 ## Methods
 
-### CreateNewGearTrainDocument\(string, string, Vector, Unit, double, bool, Plane, bool, LengthUnitType, double, double, double\)
+### <a id="VM_API_Pre_GearTrain_GearTrainDocumentAPI_CreateNewGearTrainDocument_System_String_System_String_VM_Vector_VM_Unit_System_Double_System_Boolean_VM_Plane_System_Boolean_VM_API_Pre_LengthUnitType_System_Double_System_Double_System_Double_"></a> CreateNewGearTrainDocument\(string, string, Vector, Unit, double, bool, Plane, bool, LengthUnitType, double, double, double\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -91,5 +91,4 @@ The new DocumentChainedPath object that is created by this API.
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'newLinkPathFilePath' argument is null.
-
 

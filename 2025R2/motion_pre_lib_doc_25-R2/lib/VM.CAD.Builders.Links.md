@@ -1,4 +1,4 @@
-# Namespace VM.CAD.Builders.Links
+#  Namespace VM.CAD.Builders.Links
 
 ### Classes
 
@@ -25,5 +25,4 @@ Specifies type for boolean
  [LinkType](VM.CAD.Builders.Links.LinkType.md)
 
 Specifies type for link type.
-
 

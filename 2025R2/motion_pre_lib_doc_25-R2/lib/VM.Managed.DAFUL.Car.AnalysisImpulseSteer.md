@@ -1,4 +1,4 @@
-# Class AnalysisImpulseSteer
+#  Class AnalysisImpulseSteer
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -55,7 +55,7 @@ IHasInitialVel
 
 ## Constructors
 
-### AnalysisImpulseSteer\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisImpulseSteer__ctor"></a> AnalysisImpulseSteer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisImpulseSteer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -63,7 +63,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisImpul
 public AnalysisImpulseSteer()
 ```
 
-### AnalysisImpulseSteer\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisImpulseSteer__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisImpulseSteer\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisImpulseSteer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -79,7 +79,7 @@ The link container.
 
 ## Properties
 
-### CycleLen
+### <a id="VM_Managed_DAFUL_Car_AnalysisImpulseSteer_CycleLen"></a> CycleLen
 
 Gets or sets the length of the cycle.
 
@@ -91,7 +91,7 @@ public double CycleLen { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MaximumSteer
+### <a id="VM_Managed_DAFUL_Car_AnalysisImpulseSteer_MaximumSteer"></a> MaximumSteer
 
 Gets or sets the maximum steer value.
 
@@ -103,7 +103,7 @@ public double MaximumSteer { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TireRadiusPosition
+### <a id="VM_Managed_DAFUL_Car_AnalysisImpulseSteer_TireRadiusPosition"></a> TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -117,7 +117,7 @@ public override int TireRadiusPosition { get; }
 
 ## Methods
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisImpulseSteer_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -130,5 +130,4 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
-
 

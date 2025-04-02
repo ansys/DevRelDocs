@@ -1,4 +1,4 @@
-# Enum ElementFunction.DisplayNumber
+#  Enum ElementFunction.DisplayNumber
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -23,7 +23,6 @@ public enum ElementFunction.DisplayNumber
 
 <p>The Three function.</p>
 <p>세개의 함수</p>
-
 
 
 

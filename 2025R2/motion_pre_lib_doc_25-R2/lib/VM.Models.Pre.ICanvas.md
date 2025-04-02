@@ -1,4 +1,4 @@
-# Interface ICanvas
+#  Interface ICanvas
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,7 +15,7 @@ public interface ICanvas
 
 ## Properties
 
-### Color
+### <a id="VM_Models_Pre_ICanvas_Color"></a> Color
 
 ```csharp
 Color Color { set; }
@@ -25,7 +25,7 @@ Color Color { set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### LineWeight
+### <a id="VM_Models_Pre_ICanvas_LineWeight"></a> LineWeight
 
 ```csharp
 double LineWeight { set; }
@@ -35,7 +35,7 @@ double LineWeight { set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TextSize
+### <a id="VM_Models_Pre_ICanvas_TextSize"></a> TextSize
 
 ```csharp
 double TextSize { set; }
@@ -45,7 +45,7 @@ double TextSize { set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### WireframeMode
+### <a id="VM_Models_Pre_ICanvas_WireframeMode"></a> WireframeMode
 
 ```csharp
 bool WireframeMode { set; }
@@ -57,19 +57,19 @@ bool WireframeMode { set; }
 
 ## Methods
 
-### Clear\(\)
+### <a id="VM_Models_Pre_ICanvas_Clear"></a> Clear\(\)
 
 ```csharp
 void Clear()
 ```
 
-### DisplayTheFront\(\)
+### <a id="VM_Models_Pre_ICanvas_DisplayTheFront"></a> DisplayTheFront\(\)
 
 ```csharp
 void DisplayTheFront()
 ```
 
-### DisplayTheFront\(double\)
+### <a id="VM_Models_Pre_ICanvas_DisplayTheFront_System_Double_"></a> DisplayTheFront\(double\)
 
 ```csharp
 void DisplayTheFront(double depthRange)
@@ -79,7 +79,7 @@ void DisplayTheFront(double depthRange)
 
 `depthRange` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### DrawLine\(Vector, Vector\)
+### <a id="VM_Models_Pre_ICanvas_DrawLine_VM_Vector_VM_Vector_"></a> DrawLine\(Vector, Vector\)
 
 ```csharp
 UIntPtr DrawLine(Vector start, Vector end)
@@ -95,7 +95,7 @@ UIntPtr DrawLine(Vector start, Vector end)
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawMarker\(Vector\)
+### <a id="VM_Models_Pre_ICanvas_DrawMarker_VM_Vector_"></a> DrawMarker\(Vector\)
 
 ```csharp
 UIntPtr DrawMarker(Vector vector)
@@ -109,7 +109,7 @@ UIntPtr DrawMarker(Vector vector)
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawText\(Vector, string\)
+### <a id="VM_Models_Pre_ICanvas_DrawText_VM_Vector_System_String_"></a> DrawText\(Vector, string\)
 
 ```csharp
 UIntPtr DrawText(Vector vector, string text)
@@ -125,7 +125,7 @@ UIntPtr DrawText(Vector vector, string text)
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### FastDrawLine\(UIntPtr, UIntPtr\)
+### <a id="VM_Models_Pre_ICanvas_FastDrawLine_System_UIntPtr_System_UIntPtr_"></a> FastDrawLine\(UIntPtr, UIntPtr\)
 
 ```csharp
 void FastDrawLine(UIntPtr start, UIntPtr end)
@@ -137,7 +137,7 @@ void FastDrawLine(UIntPtr start, UIntPtr end)
 
 `end` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### FastDrawShell\(UIntPtr, ulong, UIntPtr, ulong, double\)
+### <a id="VM_Models_Pre_ICanvas_FastDrawShell_System_UIntPtr_System_UInt64_System_UIntPtr_System_UInt64_System_Double_"></a> FastDrawShell\(UIntPtr, ulong, UIntPtr, ulong, double\)
 
 ```csharp
 void FastDrawShell(UIntPtr points, ulong nPoints, UIntPtr connectivities, ulong nConnectivities, double dScale)
@@ -155,7 +155,7 @@ void FastDrawShell(UIntPtr points, ulong nPoints, UIntPtr connectivities, ulong 
 
 `dScale` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetSubCanvas\(string\)
+### <a id="VM_Models_Pre_ICanvas_GetSubCanvas_System_String_"></a> GetSubCanvas\(string\)
 
 ```csharp
 ICanvas GetSubCanvas(string canvasName)
@@ -169,7 +169,7 @@ ICanvas GetSubCanvas(string canvasName)
 
  [ICanvas](VM.Models.Pre.ICanvas.md)
 
-### Instantiate\(IHasKeyObject, TMatrix\)
+### <a id="VM_Models_Pre_ICanvas_Instantiate_VM_Models_Pre_IHasKeyObject_VM_TMatrix_"></a> Instantiate\(IHasKeyObject, TMatrix\)
 
 ```csharp
 void Instantiate(IHasKeyObject @object, TMatrix matrix)
@@ -181,7 +181,7 @@ void Instantiate(IHasKeyObject @object, TMatrix matrix)
 
 `matrix` TMatrix
 
-### SetMarkerSymbol\(MarkerTypes, double\)
+### <a id="VM_Models_Pre_ICanvas_SetMarkerSymbol_VM_Models_MarkerTypes_System_Double_"></a> SetMarkerSymbol\(MarkerTypes, double\)
 
 ```csharp
 void SetMarkerSymbol(MarkerTypes markerType, double size)
@@ -192,5 +192,4 @@ void SetMarkerSymbol(MarkerTypes markerType, double size)
 `markerType` MarkerTypes
 
 `size` [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

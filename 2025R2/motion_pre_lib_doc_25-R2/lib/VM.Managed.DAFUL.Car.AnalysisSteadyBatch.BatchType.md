@@ -1,4 +1,4 @@
-# Enum AnalysisSteadyBatch.BatchType
+#  Enum AnalysisSteadyBatch.BatchType
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -32,7 +32,6 @@ Slip Ratio
 `VerticalLoad = 3` 
 
 Vertical Load
-
 
 
 

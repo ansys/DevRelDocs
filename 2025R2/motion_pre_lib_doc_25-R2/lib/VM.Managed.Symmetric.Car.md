@@ -1,4 +1,4 @@
-# Namespace VM.Managed.Symmetric.Car
+#  Namespace VM.Managed.Symmetric.Car
 
 ### Namespaces
 
@@ -7,5 +7,4 @@
 ### Classes
 
  [OrientationToeCamber](VM.Managed.Symmetric.Car.OrientationToeCamber.md)
-
 

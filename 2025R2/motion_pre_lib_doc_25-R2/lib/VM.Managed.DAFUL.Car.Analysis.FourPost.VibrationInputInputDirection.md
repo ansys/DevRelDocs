@@ -1,4 +1,4 @@
-# Enum VibrationInputInputDirection
+#  Enum VibrationInputInputDirection
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.FourPost](VM.Managed.DAFUL.Car.Analysis.FourPost.md)  
 Assembly: VMDCar.dll  
@@ -14,7 +14,6 @@ public enum VibrationInputInputDirection
 `Vertical = 0` 
 
 Vertical
-
 
 
 

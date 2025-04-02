@@ -1,4 +1,4 @@
-# Class RequestStructure
+#  Class RequestStructure
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -180,7 +180,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### RequestStructure\(\)
+### <a id="VM_Managed_DAFUL_RequestStructure__ctor"></a> RequestStructure\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestStructure" data-throw-if-not-resolved="false"></xref> class.
 
@@ -188,7 +188,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestStructure"
 public RequestStructure()
 ```
 
-### RequestStructure\(string\)
+### <a id="VM_Managed_DAFUL_RequestStructure__ctor_System_String_"></a> RequestStructure\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestStructure" data-throw-if-not-resolved="false"></xref> class.
 
@@ -204,7 +204,7 @@ Name of the sub entity.
 
 ## Properties
 
-### Output
+### <a id="VM_Managed_DAFUL_RequestStructure_Output"></a> Output
 
 Gets or sets the output.
 
@@ -216,7 +216,7 @@ public RequestStructure.OutputType Output { get; set; }
 
  [RequestStructure](VM.Managed.DAFUL.RequestStructure.md).[OutputType](VM.Managed.DAFUL.RequestStructure.OutputType.md)
 
-### TypeOfSideFilter
+### <a id="VM_Managed_DAFUL_RequestStructure_TypeOfSideFilter"></a> TypeOfSideFilter
 
 Gets or sets the type of the side filter.
 Use SetSideFilterType() when this instance sets for undo/redo
@@ -231,7 +231,7 @@ public RequestStructure.SideFilter TypeOfSideFilter { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_RequestStructure_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -244,5 +244,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

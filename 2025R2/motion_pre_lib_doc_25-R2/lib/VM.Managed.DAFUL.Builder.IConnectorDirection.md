@@ -1,4 +1,4 @@
-# Interface IConnectorDirection
+#  Interface IConnectorDirection
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -15,7 +15,7 @@ public interface IConnectorDirection
 
 ## Properties
 
-### NumberOfDirection
+### <a id="VM_Managed_DAFUL_Builder_IConnectorDirection_NumberOfDirection"></a> NumberOfDirection
 
 ```csharp
 int NumberOfDirection { get; }
@@ -27,7 +27,7 @@ int NumberOfDirection { get; }
 
 ## Methods
 
-### SetDirection\(Marker, Marker, PickedResult\[\], int\)
+### <a id="VM_Managed_DAFUL_Builder_IConnectorDirection_SetDirection_VM_Managed_DAFUL_Marker_VM_Managed_DAFUL_Marker_VM_Managed_DAFUL_Builder_PickedResult___System_Int32_"></a> SetDirection\(Marker, Marker, PickedResult\[\], int\)
 
 ```csharp
 void SetDirection(Marker BM, Marker AM, PickedResult[] pickresult, int numberofpoint)
@@ -42,5 +42,4 @@ void SetDirection(Marker BM, Marker AM, PickedResult[] pickresult, int numberofp
 `pickresult` [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md)\[\]
 
 `numberofpoint` [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 

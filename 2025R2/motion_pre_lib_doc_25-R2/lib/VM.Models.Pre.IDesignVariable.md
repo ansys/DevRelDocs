@@ -1,4 +1,4 @@
-# Interface IDesignVariable
+#  Interface IDesignVariable
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -32,7 +32,7 @@ IHasID,
 
 ## Properties
 
-### IsDesignParam
+### <a id="VM_Models_Pre_IDesignVariable_IsDesignParam"></a> IsDesignParam
 
 ```csharp
 bool IsDesignParam { get; set; }
@@ -42,7 +42,7 @@ bool IsDesignParam { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Variable
+### <a id="VM_Models_Pre_IDesignVariable_Variable"></a> Variable
 
 ```csharp
 ExpressionValueVariable Variable { get; set; }
@@ -51,5 +51,4 @@ ExpressionValueVariable Variable { get; set; }
 #### Property Value
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
-
 

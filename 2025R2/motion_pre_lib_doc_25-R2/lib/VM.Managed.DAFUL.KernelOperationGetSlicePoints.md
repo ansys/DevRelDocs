@@ -1,4 +1,4 @@
-# Class KernelOperationGetSlicePoints
+#  Class KernelOperationGetSlicePoints
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -22,7 +22,7 @@ public class KernelOperationGetSlicePoints
 
 ## Constructors
 
-### KernelOperationGetSlicePoints\(\)
+### <a id="VM_Managed_DAFUL_KernelOperationGetSlicePoints__ctor"></a> KernelOperationGetSlicePoints\(\)
 
 ```csharp
 public KernelOperationGetSlicePoints()
@@ -30,7 +30,7 @@ public KernelOperationGetSlicePoints()
 
 ## Properties
 
-### CuttingPlaneRadius
+### <a id="VM_Managed_DAFUL_KernelOperationGetSlicePoints_CuttingPlaneRadius"></a> CuttingPlaneRadius
 
 Gets and sets the cutting plane radius.
 
@@ -42,7 +42,7 @@ public double CuttingPlaneRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Points
+### <a id="VM_Managed_DAFUL_KernelOperationGetSlicePoints_Points"></a> Points
 
 Gets and sets the points.
 
@@ -54,7 +54,7 @@ public List<Vector> Points { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### SliceInfos
+### <a id="VM_Managed_DAFUL_KernelOperationGetSlicePoints_SliceInfos"></a> SliceInfos
 
 Gets and sets the slice infos.
 
@@ -66,7 +66,7 @@ public List<XmlSliceInfo> SliceInfos { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[XmlSliceInfo](VM.Managed.DAFUL.XmlSliceInfo.md)\>
 
-### TargetBody
+### <a id="VM_Managed_DAFUL_KernelOperationGetSlicePoints_TargetBody"></a> TargetBody
 
 Gets and sets the target body.
 
@@ -77,5 +77,4 @@ public BodyInfo TargetBody { get; set; }
 #### Property Value
 
  [BodyInfo](VM.Managed.DAFUL.BodyInfo.md)
-
 

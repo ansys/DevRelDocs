@@ -1,4 +1,4 @@
-# Enum ScenarioOutputType
+#  Enum ScenarioOutputType
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -32,7 +32,6 @@ Set Maximum Stepsize
 `SetOutputStep = 1` 
 
 Set Output Step
-
 
 
 

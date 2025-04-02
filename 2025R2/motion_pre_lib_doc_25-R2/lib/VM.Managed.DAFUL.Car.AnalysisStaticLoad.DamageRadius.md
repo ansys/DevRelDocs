@@ -1,4 +1,4 @@
-# Class AnalysisStaticLoad.DamageRadius
+#  Class AnalysisStaticLoad.DamageRadius
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -22,7 +22,7 @@ public class AnalysisStaticLoad.DamageRadius
 
 ## Constructors
 
-### DamageRadius\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_DamageRadius__ctor"></a> DamageRadius\(\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.DamageRadius" data-throw-if-not-resolved="false"></xref> class.
 
@@ -30,7 +30,7 @@ Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.DamageRadius
 public DamageRadius()
 ```
 
-### DamageRadius\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_DamageRadius__ctor_VM_Models_Pre_ILinkContainer_"></a> DamageRadius\(ILinkContainer\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.DamageRadius" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,7 +46,7 @@ The link container.
 
 ## Properties
 
-### L
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_DamageRadius_L"></a> L
 
 Gets or sets the left.
 
@@ -58,7 +58,7 @@ public double L { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### R
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_DamageRadius_R"></a> R
 
 Gets or sets the right.
 
@@ -72,12 +72,11 @@ public double R { get; set; }
 
 ## Methods
 
-### SetModified\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_DamageRadius_SetModified"></a> SetModified\(\)
 
 Set modified flag.
 
 ```csharp
 protected void SetModified()
 ```
-
 

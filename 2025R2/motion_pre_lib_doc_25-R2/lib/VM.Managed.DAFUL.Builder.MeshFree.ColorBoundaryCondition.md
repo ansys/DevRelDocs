@@ -1,4 +1,4 @@
-# Class ColorBoundaryCondition
+#  Class ColorBoundaryCondition
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree](VM.Managed.DAFUL.Builder.MeshFree.md)  
 Assembly: VMBldMeshFree.dll  
@@ -53,7 +53,7 @@ BuilderBase<BoundaryCondition\>.ErrorMessage
 
 ## Constructors
 
-### ColorBoundaryCondition\(\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_ColorBoundaryCondition__ctor"></a> ColorBoundaryCondition\(\)
 
 ```csharp
 public ColorBoundaryCondition()
@@ -61,7 +61,7 @@ public ColorBoundaryCondition()
 
 ## Properties
 
-### ColorArray
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_ColorBoundaryCondition_ColorArray"></a> ColorArray
 
 ```csharp
 public string[] ColorArray { get; set; }
@@ -71,7 +71,7 @@ public string[] ColorArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### Connectable
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_ColorBoundaryCondition_Connectable"></a> Connectable
 
 ```csharp
 public ObjectBase Connectable { get; }
@@ -81,7 +81,7 @@ public ObjectBase Connectable { get; }
 
  ObjectBase
 
-### InputArray
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_ColorBoundaryCondition_InputArray"></a> InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -93,7 +93,7 @@ public string[] InputArray { get; set; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_ColorBoundaryCondition_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -109,7 +109,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_ColorBoundaryCondition_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -122,5 +122,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

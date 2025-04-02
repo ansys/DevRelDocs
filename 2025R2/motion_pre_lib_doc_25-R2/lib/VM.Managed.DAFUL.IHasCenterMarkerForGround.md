@@ -1,4 +1,4 @@
-# Interface IHasCenterMarkerForGround
+#  Interface IHasCenterMarkerForGround
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface IHasCenterMarkerForGround
 
 ## Properties
 
-### IsZeroPosition
+### <a id="VM_Managed_DAFUL_IHasCenterMarkerForGround_IsZeroPosition"></a> IsZeroPosition
 
 ZeroPosition
 
@@ -28,5 +28,4 @@ bool IsZeroPosition { get; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

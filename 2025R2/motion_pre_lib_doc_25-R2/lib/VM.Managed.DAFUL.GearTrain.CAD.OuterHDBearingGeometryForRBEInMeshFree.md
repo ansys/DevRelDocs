@@ -1,4 +1,4 @@
-# Class OuterHDBearingGeometryForRBEInMeshFree
+#  Class OuterHDBearingGeometryForRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -297,7 +297,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### OuterHDBearingGeometryForRBEInMeshFree\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_OuterHDBearingGeometryForRBEInMeshFree__ctor"></a> OuterHDBearingGeometryForRBEInMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.OuterHDBearingGeometryForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -305,7 +305,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Out
 public OuterHDBearingGeometryForRBEInMeshFree()
 ```
 
-### OuterHDBearingGeometryForRBEInMeshFree\(Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_OuterHDBearingGeometryForRBEInMeshFree__ctor_VM_Managed_CAD_Builder_"></a> OuterHDBearingGeometryForRBEInMeshFree\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.OuterHDBearingGeometryForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -318,5 +318,4 @@ public OuterHDBearingGeometryForRBEInMeshFree(Builder builder)
 `builder` Builder
 
 The body's builder.
-
 

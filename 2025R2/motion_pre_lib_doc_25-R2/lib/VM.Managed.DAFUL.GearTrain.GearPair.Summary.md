@@ -1,4 +1,4 @@
-# Class GearPair.Summary
+#  Class GearPair.Summary
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -22,7 +22,7 @@ public class GearPair.Summary
 
 ## Constructors
 
-### Summary\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary__ctor"></a> Summary\(\)
 
 ```csharp
 public Summary()
@@ -30,7 +30,7 @@ public Summary()
 
 ## Properties
 
-### CenterDIstance
+### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_CenterDIstance"></a> CenterDIstance
 
 Gets or sets center distance.
 
@@ -42,7 +42,7 @@ public double CenterDIstance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### CenterDIstanceIdeal
+### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_CenterDIstanceIdeal"></a> CenterDIstanceIdeal
 
 Gets or sets input center distance.
 
@@ -54,7 +54,7 @@ public double CenterDIstanceIdeal { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### LengthOfContact
+### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_LengthOfContact"></a> LengthOfContact
 
 Gets or sets length of contact.
 
@@ -66,7 +66,7 @@ public double LengthOfContact { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### LengthOfContactIdeal
+### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_LengthOfContactIdeal"></a> LengthOfContactIdeal
 
 Gets or sets ideal length of contact.
 
@@ -78,7 +78,7 @@ public double LengthOfContactIdeal { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NormalContactRatio
+### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_NormalContactRatio"></a> NormalContactRatio
 
 Gets or sets normal contact ratio.
 
@@ -90,7 +90,7 @@ public double NormalContactRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NormalContactRatioIdeal
+### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_NormalContactRatioIdeal"></a> NormalContactRatioIdeal
 
 Gets or sets ideal normal contact ratio.
 
@@ -102,7 +102,7 @@ public double NormalContactRatioIdeal { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### OverlapContactRatio
+### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_OverlapContactRatio"></a> OverlapContactRatio
 
 Gets or sets overlap contact ratio.
 
@@ -114,7 +114,7 @@ public double OverlapContactRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### OverlapContactRatioIdeal
+### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_OverlapContactRatioIdeal"></a> OverlapContactRatioIdeal
 
 Gets or sets ideal overlap contact ratio.
 
@@ -126,7 +126,7 @@ public double OverlapContactRatioIdeal { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ToothSequence
+### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_ToothSequence"></a> ToothSequence
 
 Gets or sets tooth sequence.
 
@@ -138,7 +138,7 @@ public int ToothSequence { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### WholeContactRatio
+### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_WholeContactRatio"></a> WholeContactRatio
 
 Gets or sets whole contact ratio.
 
@@ -150,7 +150,7 @@ public double WholeContactRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### WholeContactRatioIdeal
+### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_WholeContactRatioIdeal"></a> WholeContactRatioIdeal
 
 Gets or sets ideal whole contact ratio.
 
@@ -162,7 +162,7 @@ public double WholeContactRatioIdeal { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### WorkingPressureAngle
+### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_WorkingPressureAngle"></a> WorkingPressureAngle
 
 Gets or sets working pressure angle.
 
@@ -174,7 +174,7 @@ public double WorkingPressureAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### WorkingPressureAngleIdeal
+### <a id="VM_Managed_DAFUL_GearTrain_GearPair_Summary_WorkingPressureAngleIdeal"></a> WorkingPressureAngleIdeal
 
 Gets or sets ideal working pressure angle.
 
@@ -185,5 +185,4 @@ public double WorkingPressureAngleIdeal { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

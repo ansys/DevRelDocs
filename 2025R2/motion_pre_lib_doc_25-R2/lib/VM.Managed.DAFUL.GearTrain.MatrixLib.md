@@ -1,4 +1,4 @@
-# Class MatrixLib
+#  Class MatrixLib
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,10 +20,9 @@ public class MatrixLib
 
 ## Constructors
 
-### MatrixLib\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MatrixLib__ctor"></a> MatrixLib\(\)
 
 ```csharp
 public MatrixLib()
 ```
-
 

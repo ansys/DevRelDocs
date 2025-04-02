@@ -1,4 +1,4 @@
-# Class RemoveBodyToDTAttribute
+#  Class RemoveBodyToDTAttribute
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -75,7 +75,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### RemoveBodyToDTAttribute\(ObjectBase\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_RemoveBodyToDTAttribute__ctor_VM_Managed_ObjectBase___"></a> RemoveBodyToDTAttribute\(ObjectBase\[\]\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.DeleteDTEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -87,7 +87,7 @@ public RemoveBodyToDTAttribute(ObjectBase[] obj)
 
 `obj` ObjectBase\[\]
 
-### RemoveBodyToDTAttribute\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_RemoveBodyToDTAttribute__ctor_VM_Managed_Operation_JournalParameter_"></a> RemoveBodyToDTAttribute\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.DeleteDTEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -103,7 +103,7 @@ The journal parameter
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_RemoveBodyToDTAttribute_Name"></a> Name
 
 Gets the name
 
@@ -117,7 +117,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_RemoveBodyToDTAttribute_Execute"></a> Execute\(\)
 
 Execute
 
@@ -125,7 +125,7 @@ Execute
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_RemoveBodyToDTAttribute_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets information
 
@@ -138,5 +138,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer
-
 
