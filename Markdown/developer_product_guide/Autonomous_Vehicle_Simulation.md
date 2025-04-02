@@ -2,11 +2,11 @@
 
 ## AVxcelerate Autonomy
 
-[AVxcelerate for developers](https://developer.ansys.com/docs/avxcelerate)
+[Ansys AVxcelerate for developers (Developer Portal documentation)](https://developer.ansys.com/docs/avxcelerate)
 
-AVxcelerate Autonomy APIs include several REST APIs and the Simulation Framework.
+AVxcelerate Autonomy APIs provide several REST APIs and the AVxcelerate Simulation Framework library.
 
-AVxcelerate Simulation Framework library is available for Linux in C++.
+The AVxcelerate Simulation Framework library runs on Linux in C++.
 
 * Explore & Analyze REST API
 * Scenario manager REST API
@@ -15,11 +15,11 @@ AVxcelerate Simulation Framework library is available for Linux in C++.
 
 ## AVxcelerate Sensors
 
-[AVxcelerate for developers](https://developer.ansys.com/docs/avxcelerate)
+[Ansys AVxcelerate for developers (Developer Portal documentation)](https://developer.ansys.com/docs/avxcelerate)
 
-AVxcellerate Sensors APIs consist of several REST and gRPC APIs.
+AVxcelerate Sensors APIs include several REST and gRPC APIs.
 
-AVxcelerate Sensors APIs and libraries are available for Windows and Linux in all languages compatible with the gRPC framework.
+AVxcelerate Sensors APIs and libraries run on Windows and Linux in all languages compatible with the gRPC framework.
 
 * Sensors REST API
 * Sensor Layouts REST API
@@ -29,5 +29,4 @@ AVxcelerate Sensors APIs and libraries are available for Windows and Linux in al
 
 ## AVxcelerate Headlamp
 
-AVxcelerate Headlamp measures are available through a C++ API, Ansys SCADE connector or MATLAB Simulink toolbox, to allow
-quantified detailed analysis on several lighting configurations and scenarios.
+AVxcelerate Headlamp measures are accessible through a C++ API, Ansys SCADE connector, or MATLAB Simulink toolbox. These tools enable detailed analysis of various lighting configurations and scenarios.

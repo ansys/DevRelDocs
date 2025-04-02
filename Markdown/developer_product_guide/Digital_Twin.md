@@ -1,12 +1,12 @@
 # Digital Twin
 
-## Twin Builder/Twin Deployer+
+## Twin Builder and Twin Deployer+
 
-Formerly known as "Simplorer." Includes journaling in the form of Python or Visual Basic scripting and a PyAnsys library, PyTwin.
+Twin Builder, formerly known as Simplorer, supports journaling through Python or Visual Basic scripting and includes the PyAnsys library, PyTwin.
 
-* [PyTwin Documentation (PyAnsys)](https://twin.docs.pyansys.com/)
+* [PyTwin documentation (PyAnsys)](https://twin.docs.pyansys.com/)
 
 ### Ansys Twin Builder training material
 
-* [Boost your Ansys Digital Twin with PyAnsys: Learn How](https://www.ansys.com/en-gb/webinars/boost-your-ansys-digital-twin-with-pyansys-learn-how)
+* [Boost your Ansys Digital Twin with PyAnsys: Learn How (ALH)](https://www.ansys.com/en-gb/webinars/boost-your-ansys-digital-twin-with-pyansys-learn-how)
 

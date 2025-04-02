@@ -1,12 +1,12 @@
 # Miscellaneous
 
-This page covers all Ansys products that don't neatly fit into a single product collection. Ansys System Coupling, for example, facilitates coupling of multiple solvers in a single solution and fits reasonably well into Structures, Electronics or Fluids, as a consequence.
+This page covers all Ansys products that don't fit neatly into a single product collection. For example, Ansys System Coupling couples multiple solvers in a single solution and fits reasonably well into structures, electronics, or fluids.
 
 ## Workbench 
 
-Ansys Workbench provides journaling capability in Python. The Python interpreter doubles up as a method of performing Python scripting within the application. There is also an interactive interpreter that can interactively interact with the application and a PyAnsys library: PyWorkbench.
+Ansys Workbench provides Python journaling capabilities. The Python interpreter enables Python scripting within the application. It also includes an interpreter that interacts with the application and PyWorkbench, an open-source PyAnsys library.
 
-[PyWorkbench Docs (PyAnsys)](https://workbench.docs.pyansys.com/)
+[PyWorkbench documentation (PyAnsys)](https://workbench.docs.pyansys.com/)
 
 ### Ansys Workbench training material 
 
@@ -18,30 +18,30 @@ Ansys Workbench provides journaling capability in Python. The Python interpreter
 
 ## Multi-physics examples 
 
-There are multi-physics examples being collated in a specific PyAnsys workflow repository.
+The PyAnsys workflow repository contains multi-physics examples.
 
-[PyAnsys workflows Documentation (PyAnsys)](https://workflows.docs.pyansys.com/)
+[PyAnsys workflows documentation (PyAnsys)](https://workflows.docs.pyansys.com/)
 
 ## System coupling
 
-Ansys System Coupling has two main developer tools associated with it: the participant libraries and PySystemCoupling. The former are closed-source libraries available in multiple languages and the latter is an OSS library that's part of PyAnsys.
+Ansys System Coupling provides two main developer tools: participant libraries and PySystemCoupling. The participant libraries are closed-source and available in multiple languages. PySystemCoupling is an open-source PyAnsys library.
 
-* [System Coupling Participant Libraries](https://developer.ansys.com/docs/system-coupling)
-* [PySystemCoupling (PyAnsys)](https://systemcoupling.docs.pyansys.com/)
+* [System coupling for developers (Developer portal documentation)](https://developer.ansys.com/docs/system-coupling)
+* [PySystemCoupling documentation (PyAnsys)](https://systemcoupling.docs.pyansys.com/)
 
 ## Data Processing Framework (DPF) 
 
-DPF is a Python library tool that's available within a lot of Ansys applications. DPF has multiple developer tools associated with it and includes a C++/C# client library, a Python Result Object accessed through ACT, and three PyAnsys libraries.
+DPF is a Python library tool available within many Ansys applications. DPF includes multiple developer tools, such as a C++/C# client library, a Python result object accessed through ACT, and three PyAnsys libraries.
 
-* [Data Processing Framework (DPF) for developers](https://developer.ansys.com/docs/dpf)
-* [PyDPF - Core Docs (PyAnsys)](https://dpf.docs.pyansys.com/version/stable/index.html)
-* [PyDPF - Post Docs (PyAnsys)](https://post.docs.pyansys.com/version/stable/index.html)
-* [PyDPF - Composites Docs (PyAnsys)](https://composites.dpf.docs.pyansys.com/version/stable/index.html)
+* [Data Processing Framework (DPF) for developers (Developer Portal documentation)](https://developer.ansys.com/docs/dpf)
+* [PyDPF-Core documentation (PyAnsys)](https://dpf.docs.pyansys.com/version/stable/index.html)
+* [PyDPF-Post documentation (PyAnsys)](https://post.docs.pyansys.com/version/stable/index.html)
+* [PyDPF Composites documentation (PyAnsys)](https://composites.dpf.docs.pyansys.com/version/stable/index.html)
 
 ### Ansys DPF training material 
 
 * [Introduction to Ansys Data Processing Framework (ALH)](https://www.ansys.com/training-center/course-catalog/structures/introduction-to-ansys-data-processing-framework)
-* [PyDPF: Contour Plots for Named Selections (Self-paced Learning Available) (ALH)](https://www.ansys.com/training-center/course-catalog/structures/pydpf-contour-plots-for-named-selections)
+* [PyDPF: Contour Plots for Named Selections (ALH)](https://www.ansys.com/training-center/course-catalog/structures/pydpf-contour-plots-for-named-selections)
 * [Reconstructing specific APDL results with DPF](https://medium.com/ansys-developer/reconstructing-specific-apdl-results-with-dpf-19627939a287)
 * [PyAnsys Training: PyDPF Examples and Use Cases](https://www.youtube.com/watch?v=PWjnQrLCfBk)
 
@@ -51,15 +51,15 @@ DPF is a Python library tool that's available within a lot of Ansys applications
 
 ## Dynamic Reporting 
 
-["Ansys Dynamic Reporting (ADR) is the report-generation, analytics, and data-storage framework integrated into the multiple Ansys products. It is a web-oriented collection of tools that allows you to bring all of your data together in one place, organize it, and create compelling reports for yourself, your engineers, your colleagues, and your customers."](https://nexusdemo.ensight.com/docs/en/html/Nexus.html)
+Ansys Dynamic Reporting (ADR) is the report-generation, analytics, and data-storage framework integrated into multiple Ansys products. It is a web-oriented collection of tools you use to bring all your data together in one place, organize it, and create compelling reports for yourself, your engineers, your colleagues, and your customers.
 
-There are two primary Ansys Dynamic Reporting Python interfaces and the PyAnsys OSS library PyDynamicReporting:
+There are two primary ADR Python interfaces and PyDynamicReporting, a PyAnsys OSS library.
 
 * [EnSight Python Ansys Dynamic Reporting API](https://nexusdemo.ensight.com/docs/en/html/EnSightPythonADRAPI.html)
-  * Integrated into Ensight Python interpreter
+  * This API integrates into the Ensight Python interpreter.
 * [External Python API](https://nexusdemo.ensight.com/docs/en/html/ExternalPythonAPI.html)
-  * Can be used inside and out of the internal intepreter
-* [PyDynamicReporting Docs (PyAnsys)](https://dynamicreporting.docs.pyansys.com/)
+  * This external Python API is provided by the Python interpreter included in the CEI/Ansys distributions. It can be used inside and outside the internal interpreter.
+* [PyDynamicReporting documentation (PyAnsys)](https://dynamicreporting.docs.pyansys.com/)
 
 ### Ansys Dynamic Reporting training material 
 
@@ -71,29 +71,29 @@ There are two primary Ansys Dynamic Reporting Python interfaces and the PyAnsys 
 
 ## Geometry 
 
-The Ansys Geometry Service has an OSS PyAnsys library named PyAnsys Geometry.
+The Ansys Geometry Service includes PyAnsys Geometry, an open-source PyAnsys library.
 
-[PyAnsys Geometry Docs (PyAnsys)](https://geometry.docs.pyansys.com/version/stable/getting_started/index.html#)
+[PyAnsys Geometry documentation (PyAnsys)](https://geometry.docs.pyansys.com/version/stable/index.html)
 
 ### Ansys Geometry training material 
 
 * [PyAnsys Training: PyGeometry and Workflow Examples](https://www.youtube.com/watch?v=FhyI-FfOvmE)
-* [Scripting in Ansys Discovery Modeling](https://innovationspace.ansys.com/product/scripting-in-ansys-discovery-modeling/)
-* [Advanced Scripting in Ansys Discovery](https://innovationspace.ansys.com/product/advanced-scripting-in-ansys-discovery/)
+* [Scripting in Ansys Discovery Modeling (AIS)](https://innovationspace.ansys.com/product/scripting-in-ansys-discovery-modeling/)
+* [Advanced Scripting in Ansys Discovery (AIS)](https://innovationspace.ansys.com/product/advanced-scripting-in-ansys-discovery/)
 
 ## Prime Mesh 
 
-Ansys Prime Mesh provides core Ansys meshing technology that can be used to build meshes of different types for various physics simulations.
+Ansys Prime Mesh provides core Ansys meshing technology for building meshes of different types for various physics simulations.
 
-* [Ansys Prime Mesh for developers](https://developer.ansys.com/docs/primemesh)
-* [PyPrimeMesh Docs (PyAnsys)](https://prime.docs.pyansys.com/version/stable/)
+* [Ansys Prime Mesh for developers (Developer Portal documentation)](https://developer.ansys.com/docs/primemesh)
+* [PyPrimeMesh documentation (PyAnsys)](https://prime.docs.pyansys.com/version/stable/)
 
 Developers can interface with Prime Mesh through two options using the Ansys Prime Server:
 
-1. The open source Ansys PyPrimeMesh Python client to access the meshing APIs
-2. The Ansys Prime Mesh Python client library available in the Ansys installation  
+* The open-source Ansys PyPrimeMesh Python client to access the meshing APIs
+* The Ansys Prime Mesh Python client library available in the Ansys installation  
 
-These two have feature parity.
+These two options have feature parity.
 
 ### Ansys Prime Mesh training material
 
@@ -105,31 +105,31 @@ See Ansys Discovery.
 
 ## Ansys Composite PrepPost (ACP)
 
-* [Ansys Composite PrepPost (ACP) for developers](https://developer.ansys.com/docs/acp)
-* [PyACP (PyAnsys)](https://acp.docs.pyansys.com/version/dev/)
+* [Ansys Composite PrepPost (ACP) for developers (Developer Portal documentation)](https://developer.ansys.com/docs/acp)
+* [PyACP documentation (PyAnsys)](https://acp.docs.pyansys.com/version/dev/)
 
 ## High Performance Computation (HPC) Platform Services
-HPS has REST APIs and the OSS PyAnsys library PyHPS.
+HPS has REST APIs and PyHPS, an open-source PyAnsys library.
 
-[PyHPS Docs (PyAnsys)](https://hps.docs.pyansys.com/)
+[PyHPS documentation (PyAnsys)](https://hps.docs.pyansys.com/)
 
 ## PyAnsys Math
 
-PyAnsys Math aims to gather all mathematical calculation tools present in Ansys software and uses the MAPDL solver in the background.
+PyAnsys Math gathers all mathematical calculation tools present in Ansys software and uses the MAPDL solver in the background.
 
-[PyAnsys Math (PyAnsys)](https://math.docs.pyansys.com/)
+[PyAnsys Math documentation (PyAnsys)](https://math.docs.pyansys.com/)
 
 ## Product Instance Management (PIM)
 
 PyPIM exposes a Pythonic interface to communicate with the Product Instance Management (PIM) API.
 
-[PyPIM Docs (PyAnsys)](https://pypim.docs.pyansys.com/version/stable/)
+[PyPIM documentation (PyAnsys)](https://pypim.docs.pyansys.com/version/stable/)
 
 ## SimAI 
 
-SimAI has an associated PyAnsys library in the form of PySimAI.
+SimAI has an associated PyAnsys library named PySimAI.
 
-[PySimAI Docs (PyAnsys)](https://simai.docs.pyansys.com/)
+[PySimAI documentation (PyAnsys)](https://simai.docs.pyansys.com/)
 
 ### Ansys SimAI Training 
 
@@ -137,12 +137,12 @@ SimAI has an associated PyAnsys library in the form of PySimAI.
 
 ## PyAnsys Shared Components 
 
-Collection of components shared across PyAnsys.
+This open-source PyAnsys library provides a collection of components shared across the PyAnsys ecosystem.
 
-[PyAnsys Shared Components Docs (PyAnsys)](https://shared.docs.pyansys.com/)
+[PyAnsys Shared Components documentation (PyAnsys)](https://shared.docs.pyansys.com/)
 
 ## Ansys Notebook 
 
-Ansys Notebook is a jupyter-like environment that provides access to Ansys solvers via the web and PyAnsys.
+Ansys Notebook is a Jupyter-like environment that provides access to Ansys solvers over the web using PyAnsys.
 
-[Ansys Notebook for Developers](https://developer.ansys.com/docs/notebook)
+[Ansys Notebook for developers (Developer Portal documentation)](https://developer.ansys.com/docs/notebook)
