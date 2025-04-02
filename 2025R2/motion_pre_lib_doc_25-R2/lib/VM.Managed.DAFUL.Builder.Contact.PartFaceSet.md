@@ -1,4 +1,4 @@
-# Class PartFaceSet
+#  Class PartFaceSet
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -53,7 +53,7 @@ BuilderBase<PartSetFace\>.ErrorMessage
 
 ## Constructors
 
-### PartFaceSet\(\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_PartFaceSet__ctor"></a> PartFaceSet\(\)
 
 ```csharp
 public PartFaceSet()
@@ -61,7 +61,7 @@ public PartFaceSet()
 
 ## Properties
 
-### AddToDoc
+### <a id="VM_Managed_DAFUL_Builder_Contact_PartFaceSet_AddToDoc"></a> AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -71,7 +71,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ObjectKey
+### <a id="VM_Managed_DAFUL_Builder_Contact_PartFaceSet_ObjectKey"></a> ObjectKey
 
 ```csharp
 public string[] ObjectKey { get; set; }
@@ -83,7 +83,7 @@ public string[] ObjectKey { get; set; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_PartFaceSet_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -98,5 +98,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

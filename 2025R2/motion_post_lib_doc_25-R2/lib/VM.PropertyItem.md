@@ -1,4 +1,4 @@
-# Class PropertyItem
+#  Class PropertyItem
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,8 +9,8 @@ public class PropertyItem : MemberItem<PropertyDescriptor>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
-[MemberItem<PropertyDescriptor\>](VM.MemberItem\-1.md) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[MemberItem<PropertyDescriptor\>](VM.MemberItem\-1.md) ← 
 [PropertyItem](VM.PropertyItem.md)
 
 #### Inherited Members
@@ -22,7 +22,7 @@ public class PropertyItem : MemberItem<PropertyDescriptor>
 
 ## Constructors
 
-### PropertyItem\(PropertyDescriptor\)
+### <a id="VM_PropertyItem__ctor_System_ComponentModel_PropertyDescriptor_"></a> PropertyItem\(PropertyDescriptor\)
 
 ```python
 public PropertyItem(PropertyDescriptor propertyDescriptor)
@@ -34,7 +34,7 @@ public PropertyItem(PropertyDescriptor propertyDescriptor)
 
 ## Properties
 
-### DisplayName
+### <a id="VM_PropertyItem_DisplayName"></a> DisplayName
 
 ```python
 public string DisplayName { get; }
@@ -44,7 +44,7 @@ public string DisplayName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsBrowsable
+### <a id="VM_PropertyItem_IsBrowsable"></a> IsBrowsable
 
 ```python
 public bool IsBrowsable { get; }
@@ -54,7 +54,7 @@ public bool IsBrowsable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsReadOnly
+### <a id="VM_PropertyItem_IsReadOnly"></a> IsReadOnly
 
 ```python
 public bool IsReadOnly { get; }
@@ -64,7 +64,7 @@ public bool IsReadOnly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_PropertyItem_Name"></a> Name
 
 ```python
 public string Name { get; }
@@ -74,7 +74,7 @@ public string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PropertyDescriptor
+### <a id="VM_PropertyItem_PropertyDescriptor"></a> PropertyDescriptor
 
 ```python
 public PropertyDescriptor PropertyDescriptor { get; }
@@ -84,7 +84,7 @@ public PropertyDescriptor PropertyDescriptor { get; }
 
  [PropertyDescriptor](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertydescriptor)
 
-### PropertyType
+### <a id="VM_PropertyItem_PropertyType"></a> PropertyType
 
 ```python
 public Type PropertyType { get; }
@@ -94,7 +94,7 @@ public Type PropertyType { get; }
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### TypeConverter
+### <a id="VM_PropertyItem_TypeConverter"></a> TypeConverter
 
 ```python
 public TypeConverter TypeConverter { get; }
@@ -106,7 +106,7 @@ public TypeConverter TypeConverter { get; }
 
 ## Methods
 
-### Is\(Type\)
+### <a id="VM_PropertyItem_Is_System_Type_"></a> Is\(Type\)
 
 ```python
 public bool Is(Type type)
@@ -120,7 +120,7 @@ public bool Is(Type type)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ToString\(\)
+### <a id="VM_PropertyItem_ToString"></a> ToString\(\)
 
 ```python
 public override string ToString()

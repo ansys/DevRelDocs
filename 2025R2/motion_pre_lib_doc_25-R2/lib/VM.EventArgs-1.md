@@ -1,4 +1,4 @@
-# Class EventArgs<T\>
+#  Class EventArgs<T\>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -25,7 +25,7 @@ public class EventArgs<T> : EventArgs
 
 ## Constructors
 
-### EventArgs\(T\)
+### <a id="VM_EventArgs_1__ctor__0_"></a> EventArgs\(T\)
 
 ```csharp
 public EventArgs(T data)
@@ -37,7 +37,7 @@ public EventArgs(T data)
 
 ## Properties
 
-### Data
+### <a id="VM_EventArgs_1_Data"></a> Data
 
 ```csharp
 public T Data { get; }
@@ -46,5 +46,4 @@ public T Data { get; }
 #### Property Value
 
  T
-
 

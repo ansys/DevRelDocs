@@ -1,4 +1,4 @@
-# Interface IHasComment
+#  Interface IHasComment
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IHasComment
 
 ## Properties
 
-### Comment
+### <a id="VM_IHasComment_Comment"></a> Comment
 
 ```csharp
 string Comment { get; set; }
@@ -24,5 +24,4 @@ string Comment { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

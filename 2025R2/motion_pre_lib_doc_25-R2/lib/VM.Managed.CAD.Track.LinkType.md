@@ -1,4 +1,4 @@
-# Enum LinkType
+#  Enum LinkType
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -20,7 +20,6 @@ Simple type.
 `Vtype = 1` 
 
 V type.
-
 
 
 

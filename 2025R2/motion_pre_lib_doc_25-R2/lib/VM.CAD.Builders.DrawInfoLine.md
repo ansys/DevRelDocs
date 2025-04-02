@@ -1,4 +1,4 @@
-# Class DrawInfoLine
+#  Class DrawInfoLine
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -29,10 +29,9 @@ public class DrawInfoLine : DrawInfoTwoPoint
 
 ## Constructors
 
-### DrawInfoLine\(\)
+### <a id="VM_CAD_Builders_DrawInfoLine__ctor"></a> DrawInfoLine\(\)
 
 ```csharp
 public DrawInfoLine()
 ```
-
 

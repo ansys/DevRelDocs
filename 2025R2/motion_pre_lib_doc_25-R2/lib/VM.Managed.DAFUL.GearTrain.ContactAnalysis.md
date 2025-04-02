@@ -1,4 +1,4 @@
-# Class ContactAnalysis
+#  Class ContactAnalysis
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ContactAnalysis\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis__ctor"></a> ContactAnalysis\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ContactAnalysis" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ public ContactAnalysis()
 
 ## Properties
 
-### IsUsePower
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_IsUsePower"></a> IsUsePower
 
 Gets or sets a value indicating whether [use power].
 
@@ -120,7 +120,7 @@ public bool IsUsePower { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Power
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_Power"></a> Power
 
 Gets or sets the power.
 
@@ -132,7 +132,7 @@ public ExpressionValueVariable Power { get; set; }
 
  ExpressionValueVariable
 
-### RatingAnalysis
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_RatingAnalysis"></a> RatingAnalysis
 
 Gets or sets the rating analysis.
 
@@ -144,7 +144,7 @@ public Rating RatingAnalysis { get; set; }
 
  [Rating](VM.Managed.DAFUL.GearTrain.Rating.md)
 
-### ResultFilePath
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_ResultFilePath"></a> ResultFilePath
 
 Gets or sets the result path.
 
@@ -156,7 +156,7 @@ public string ResultFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SamplingFrequency
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_SamplingFrequency"></a> SamplingFrequency
 
 Gets or sets the sampling frequency.
 
@@ -168,7 +168,7 @@ public ExpressionValueVariable SamplingFrequency { get; set; }
 
  ExpressionValueVariable
 
-### Speed
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_Speed"></a> Speed
 
 Gets or sets the speed.
 
@@ -180,7 +180,7 @@ public ExpressionValueVariable Speed { get; set; }
 
  ExpressionValueVariable
 
-### TransmissionErrors
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_TransmissionErrors"></a> TransmissionErrors
 
 Gets or sets the transmission errors.
 
@@ -202,7 +202,7 @@ SplineValue list is null.
 or
 SplineValue is null.
 
-### TypeOfAlign
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_TypeOfAlign"></a> TypeOfAlign
 
 Gets or sets the align type.
 
@@ -214,7 +214,7 @@ public ContactAnalysis.AlignType TypeOfAlign { get; set; }
 
  [ContactAnalysis](VM.Managed.DAFUL.GearTrain.ContactAnalysis.md).[AlignType](VM.Managed.DAFUL.GearTrain.ContactAnalysis.AlignType.md)
 
-### TypeOfAnalysis
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_TypeOfAnalysis"></a> TypeOfAnalysis
 
 Gets or sets the analysis type.
 
@@ -226,7 +226,7 @@ public ContactAnalysis.AnalysisType TypeOfAnalysis { get; set; }
 
  [ContactAnalysis](VM.Managed.DAFUL.GearTrain.ContactAnalysis.md).[AnalysisType](VM.Managed.DAFUL.GearTrain.ContactAnalysis.AnalysisType.md)
 
-### UseGearPairs
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_UseGearPairs"></a> UseGearPairs
 
 Gets or sets the gear pair usage.
 
@@ -240,7 +240,7 @@ public bool[] UseGearPairs { get; set; }
 
 ## Methods
 
-### InitChild\(int\)
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_InitChild_System_Int32_"></a> InitChild\(int\)
 
 Initializes the child.
 
@@ -254,7 +254,7 @@ public override void InitChild(int nNum)
 
 The n number.
 
-### InitChildForPair\(int\)
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_InitChildForPair_System_Int32_"></a> InitChildForPair\(int\)
 
 Initializes the child for pair.
 
@@ -268,7 +268,7 @@ public void InitChildForPair(int nNum)
 
 The n number.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -282,7 +282,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### RemoveSplineValue\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_RemoveSplineValue_System_String_"></a> RemoveSplineValue\(string\)
 
 Removes the spline value.
 
@@ -296,7 +296,7 @@ public void RemoveSplineValue(string strName)
 
 Name of the string.
 
-### ReplaceSplineValue\(int, TransmissionError\)
+### <a id="VM_Managed_DAFUL_GearTrain_ContactAnalysis_ReplaceSplineValue_System_Int32_VM_Managed_DAFUL_GearTrain_TransmissionError_"></a> ReplaceSplineValue\(int, TransmissionError\)
 
 Replaces the spline value.
 
@@ -313,5 +313,4 @@ Index of the n.
 `te` [TransmissionError](VM.Managed.DAFUL.GearTrain.TransmissionError.md)
 
 The te.
-
 

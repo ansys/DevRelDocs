@@ -1,4 +1,4 @@
-# Class BuilderBlockSimple
+#  Class BuilderBlockSimple
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -205,7 +205,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderBlockSimple\(Variable, Variable, Variable, TransformBase\)
+### <a id="VM_Managed_CAD_BuilderBlockSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_TransformBase_"></a> BuilderBlockSimple\(Variable, Variable, Variable, TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderBlockSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -231,7 +231,7 @@ The depth of block(valiable).
 
 The transform info. of block.
 
-### BuilderBlockSimple\(double, double, double, TransformBase\)
+### <a id="VM_Managed_CAD_BuilderBlockSimple__ctor_System_Double_System_Double_System_Double_VM_Managed_TransformBase_"></a> BuilderBlockSimple\(double, double, double, TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderBlockSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -257,7 +257,7 @@ The depth of block.
 
 The transform info. of block.
 
-### BuilderBlockSimple\(Variable, Variable, Variable\)
+### <a id="VM_Managed_CAD_BuilderBlockSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_"></a> BuilderBlockSimple\(Variable, Variable, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderBlockSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -279,7 +279,7 @@ The height of block(valiable).
 
 The depth of block(valiable).
 
-### BuilderBlockSimple\(double, double, double\)
+### <a id="VM_Managed_CAD_BuilderBlockSimple__ctor_System_Double_System_Double_System_Double_"></a> BuilderBlockSimple\(double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderBlockSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -301,7 +301,7 @@ The height of block.
 
 The depth of block.
 
-### BuilderBlockSimple\(\)
+### <a id="VM_Managed_CAD_BuilderBlockSimple__ctor"></a> BuilderBlockSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderBlockSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -311,7 +311,7 @@ public BuilderBlockSimple()
 
 ## Properties
 
-### Depth
+### <a id="VM_Managed_CAD_BuilderBlockSimple_Depth"></a> Depth
 
 Gets or sets the depth of block(variable).
 
@@ -323,7 +323,7 @@ public Variable Depth { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### Height
+### <a id="VM_Managed_CAD_BuilderBlockSimple_Height"></a> Height
 
 Gets or sets the height of block(variable).
 
@@ -335,7 +335,7 @@ public Variable Height { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### IsParameterized
+### <a id="VM_Managed_CAD_BuilderBlockSimple_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -347,7 +347,7 @@ public override sealed bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Transform
+### <a id="VM_Managed_CAD_BuilderBlockSimple_Transform"></a> Transform
 
 Gets or sets the transform info.
 
@@ -359,7 +359,7 @@ public TransformBase Transform { get; set; }
 
  [TransformBase](VM.Managed.TransformBase.md)
 
-### Width
+### <a id="VM_Managed_CAD_BuilderBlockSimple_Width"></a> Width
 
 Gets or sets the width of block(variable).
 
@@ -371,7 +371,7 @@ public Variable Width { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### \_Depth
+### <a id="VM_Managed_CAD_BuilderBlockSimple__Depth"></a> \_Depth
 
 Gets the depth of block.
 
@@ -383,7 +383,7 @@ public override double _Depth { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### \_Height
+### <a id="VM_Managed_CAD_BuilderBlockSimple__Height"></a> \_Height
 
 Gets the height of block.
 
@@ -395,7 +395,7 @@ public override double _Height { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### \_Transform
+### <a id="VM_Managed_CAD_BuilderBlockSimple__Transform"></a> \_Transform
 
 Gets the transform info. of block.
 
@@ -407,7 +407,7 @@ public override TMatrix _Transform { get; }
 
  [TMatrix](VM.Managed.TMatrix.md)
 
-### \_Width
+### <a id="VM_Managed_CAD_BuilderBlockSimple__Width"></a> \_Width
 
 Gets the width of block.
 
@@ -421,7 +421,7 @@ public override double _Width { get; }
 
 ## Methods
 
-### ChangeDataForCircularReference\(\)
+### <a id="VM_Managed_CAD_BuilderBlockSimple_ChangeDataForCircularReference"></a> ChangeDataForCircularReference\(\)
 
 Change data for circular reference.
 
@@ -429,7 +429,7 @@ Change data for circular reference.
 public override void ChangeDataForCircularReference()
 ```
 
-### CheckCircularReference\(ObjectBase\)
+### <a id="VM_Managed_CAD_BuilderBlockSimple_CheckCircularReference_VM_Managed_ObjectBase_"></a> CheckCircularReference\(ObjectBase\)
 
 Check data for circular reference.
 
@@ -443,7 +443,7 @@ public override void CheckCircularReference(ObjectBase objCM)
 
 The CM.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_CAD_BuilderBlockSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -457,7 +457,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### SetTransform\(TMatrix\)
+### <a id="VM_Managed_CAD_BuilderBlockSimple_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -470,5 +470,4 @@ public override sealed void SetTransform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform info.
-
 

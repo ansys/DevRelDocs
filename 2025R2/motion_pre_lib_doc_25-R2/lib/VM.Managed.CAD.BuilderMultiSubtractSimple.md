@@ -1,4 +1,4 @@
-# Class BuilderMultiSubtractSimple
+#  Class BuilderMultiSubtractSimple
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -215,7 +215,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderMultiSubtractSimple\(Builder, ICollection<Builder\>\)
+### <a id="VM_Managed_CAD_BuilderMultiSubtractSimple__ctor_VM_Managed_CAD_Builder_System_Collections_Generic_ICollection_VM_Managed_CAD_Builder__"></a> BuilderMultiSubtractSimple\(Builder, ICollection<Builder\>\)
 
 ```csharp
 public BuilderMultiSubtractSimple(Builder builderTarget, ICollection<Builder> builderTools)
@@ -227,7 +227,7 @@ public BuilderMultiSubtractSimple(Builder builderTarget, ICollection<Builder> bu
 
 `builderTools` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Builder](VM.Managed.CAD.Builder.md)\>
 
-### BuilderMultiSubtractSimple\(Builder, Builder\)
+### <a id="VM_Managed_CAD_BuilderMultiSubtractSimple__ctor_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> BuilderMultiSubtractSimple\(Builder, Builder\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderMultiSubtractSimple" data-throw-if-not-resolved="false"></xref> class</p>
 
@@ -245,7 +245,7 @@ public BuilderMultiSubtractSimple(Builder builderTarget, Builder builderTool)
 
 <p>The tool build.</p>
 
-### BuilderMultiSubtractSimple\(\)
+### <a id="VM_Managed_CAD_BuilderMultiSubtractSimple__ctor"></a> BuilderMultiSubtractSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderMultiSubtractSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -255,7 +255,7 @@ public BuilderMultiSubtractSimple()
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_CAD_BuilderMultiSubtractSimple_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -272,7 +272,7 @@ public virtual XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_CAD_BuilderMultiSubtractSimple_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -286,7 +286,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_CAD_BuilderMultiSubtractSimple_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -300,7 +300,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_CAD_BuilderMultiSubtractSimple_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -313,5 +313,4 @@ public virtual void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

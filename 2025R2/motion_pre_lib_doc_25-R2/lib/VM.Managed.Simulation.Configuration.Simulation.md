@@ -1,4 +1,4 @@
-# Enum Configuration.Simulation
+#  Enum Configuration.Simulation
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -50,7 +50,6 @@ Static
 `Thermal = 6` 
 
 Thermal
-
 
 
 

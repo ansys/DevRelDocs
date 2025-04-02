@@ -1,4 +1,4 @@
-# Interface IContactGeometry
+#  Interface IContactGeometry
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface IContactGeometry
 
 ## Properties
 
-### GeometryParentKey
+### <a id="VM_Managed_DAFUL_IContactGeometry_GeometryParentKey"></a> GeometryParentKey
 
 Get the key of geometry parent
 
@@ -29,7 +29,7 @@ ObjectBase.ConvertKey GeometryParentKey { get; }
 
  ObjectBase.ConvertKey
 
-### MaxPenetration
+### <a id="VM_Managed_DAFUL_IContactGeometry_MaxPenetration"></a> MaxPenetration
 
 Gets or sets the maximum penetration.
 
@@ -41,7 +41,7 @@ ExpressionValueVariable MaxPenetration { get; set; }
 
  ExpressionValueVariable
 
-### ReferenceMarker
+### <a id="VM_Managed_DAFUL_IContactGeometry_ReferenceMarker"></a> ReferenceMarker
 
 Gets the reference marker.
 
@@ -53,7 +53,7 @@ InvisibleMarker ReferenceMarker { get; }
 
  [InvisibleMarker](VM.Managed.DAFUL.InvisibleMarker.md)
 
-### \_Geometry
+### <a id="VM_Managed_DAFUL_IContactGeometry__Geometry"></a> \_Geometry
 
 Gets or sets the geometry.
 
@@ -67,7 +67,7 @@ Linker<IContactable> _Geometry { get; set; }
 
 ## Methods
 
-### GetPointDirection\(ref VectorBase, ref VectorBase\)
+### <a id="VM_Managed_DAFUL_IContactGeometry_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointDirection\(ref VectorBase, ref VectorBase\)
 
 Gets the point direction.
 
@@ -90,5 +90,4 @@ The direction.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

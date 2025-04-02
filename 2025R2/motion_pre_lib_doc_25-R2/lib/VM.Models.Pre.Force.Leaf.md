@@ -1,4 +1,4 @@
-# Class Leaf
+#  Class Leaf
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Leaf\(\)
+### <a id="VM_Models_Pre_Force_Leaf__ctor"></a> Leaf\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.Leaf" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Leaf()
 
 ## Properties
 
-### ContactStiffness
+### <a id="VM_Models_Pre_Force_Leaf_ContactStiffness"></a> ContactStiffness
 
 Gets or sets the contact stiffness.
 
@@ -118,7 +118,7 @@ public ExpressionValueVariable ContactStiffness { get; set; }
 
  ExpressionValueVariable
 
-### ContactStiffnessScale
+### <a id="VM_Models_Pre_Force_Leaf_ContactStiffnessScale"></a> ContactStiffnessScale
 
 Gets or sets the contact stiffness scale.
 
@@ -130,7 +130,7 @@ public ExpressionValueVariable ContactStiffnessScale { get; set; }
 
  ExpressionValueVariable
 
-### DampingCoefficient
+### <a id="VM_Models_Pre_Force_Leaf_DampingCoefficient"></a> DampingCoefficient
 
 Gets or sets the damping coefficient.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable DampingCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### FrontContactPointCount
+### <a id="VM_Models_Pre_Force_Leaf_FrontContactPointCount"></a> FrontContactPointCount
 
 Gets or sets the front contact point count.
 
@@ -154,7 +154,7 @@ public int FrontContactPointCount { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### FrontElementCount
+### <a id="VM_Models_Pre_Force_Leaf_FrontElementCount"></a> FrontElementCount
 
 Gets or sets the front element count.
 
@@ -166,7 +166,7 @@ public int FrontElementCount { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### FrontLength
+### <a id="VM_Models_Pre_Force_Leaf_FrontLength"></a> FrontLength
 
 Gets or sets the front length.
 
@@ -178,7 +178,7 @@ public double FrontLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### LinkMaterial
+### <a id="VM_Models_Pre_Force_Leaf_LinkMaterial"></a> LinkMaterial
 
 Gets or sets the material.
 
@@ -190,7 +190,7 @@ public Linker<IMaterial> LinkMaterial { get; set; }
 
  Linker<IMaterial\>
 
-### Material
+### <a id="VM_Models_Pre_Force_Leaf_Material"></a> Material
 
 Gets or sets the material.
 
@@ -202,7 +202,7 @@ public IMaterial Material { get; set; }
 
  IMaterial
 
-### MaterialName
+### <a id="VM_Models_Pre_Force_Leaf_MaterialName"></a> MaterialName
 
 Gets the material name.
 
@@ -214,7 +214,7 @@ public string MaterialName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### OffsetZ
+### <a id="VM_Models_Pre_Force_Leaf_OffsetZ"></a> OffsetZ
 
 Gets or sets the offset Z.
 
@@ -226,7 +226,7 @@ public ExpressionValueVariable OffsetZ { get; set; }
 
  ExpressionValueVariable
 
-### Profiles
+### <a id="VM_Models_Pre_Force_Leaf_Profiles"></a> Profiles
 
 Gets or sets the profiles.
 
@@ -238,7 +238,7 @@ public LeafSpringProfile[] Profiles { get; set; }
 
  [LeafSpringProfile](VM.Models.Pre.Force.LeafSpringProfile.md)\[\]
 
-### RearContactPointCount
+### <a id="VM_Models_Pre_Force_Leaf_RearContactPointCount"></a> RearContactPointCount
 
 Gets or sets the rear contact point count.
 
@@ -250,7 +250,7 @@ public int RearContactPointCount { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### RearElementCount
+### <a id="VM_Models_Pre_Force_Leaf_RearElementCount"></a> RearElementCount
 
 Gets or sets the rear element count.
 
@@ -262,7 +262,7 @@ public int RearElementCount { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### RearLength
+### <a id="VM_Models_Pre_Force_Leaf_RearLength"></a> RearLength
 
 Gets or sets the rear length.
 
@@ -274,7 +274,7 @@ public double RearLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Width
+### <a id="VM_Models_Pre_Force_Leaf_Width"></a> Width
 
 Gets or sets the width.
 
@@ -288,7 +288,7 @@ public ExpressionValueVariable Width { get; set; }
 
 ## Methods
 
-### GetLeafInfo\(\)
+### <a id="VM_Models_Pre_Force_Leaf_GetLeafInfo"></a> GetLeafInfo\(\)
 
 Convert to <xref href="VM.Models.Pre.Force.LeafInfo" data-throw-if-not-resolved="false"></xref> from current <xref href="VM.Models.Pre.Force.Leaf" data-throw-if-not-resolved="false"></xref>.
 
@@ -302,7 +302,7 @@ public LeafInfo GetLeafInfo()
 
 The LeafInfo instance.
 
-### OnDeserialization\(object\)
+### <a id="VM_Models_Pre_Force_Leaf_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -316,7 +316,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### RaisePropertyChanged\(string\)
+### <a id="VM_Models_Pre_Force_Leaf_RaisePropertyChanged_System_String_"></a> RaisePropertyChanged\(string\)
 
 ```csharp
 public override void RaisePropertyChanged(string propertyName)
@@ -325,5 +325,4 @@ public override void RaisePropertyChanged(string propertyName)
 #### Parameters
 
 `propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

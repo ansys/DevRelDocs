@@ -1,4 +1,4 @@
-# Class OpenDocumentWithFiles
+#  Class OpenDocumentWithFiles
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### OpenDocumentWithFiles\(List<string\>, Dictionary<string, Document\>, UCTrackPlacing\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentWithFiles__ctor_System_Collections_Generic_List_System_String__System_Collections_Generic_Dictionary_System_String_VM_Managed_Document__VM_Managed_DAFUL_Dialog_Track_UCTrackPlacing_"></a> OpenDocumentWithFiles\(List<string\>, Dictionary<string, Document\>, UCTrackPlacing\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.OpenDocumentWithFiles" data-throw-if-not-resolved="false"></xref> class.
 
@@ -101,7 +101,7 @@ The placing.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentWithFiles_Name"></a> Name
 
 Gets the operation name.
 
@@ -113,7 +113,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PathDocument\_Candidation
+### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentWithFiles_PathDocument_Candidation"></a> PathDocument\_Candidation
 
 Gets the path document_ candidation.
 
@@ -127,7 +127,7 @@ public Dictionary<string, Document> PathDocument_Candidation { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentWithFiles_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -135,7 +135,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_OpenDocumentWithFiles_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -148,5 +148,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

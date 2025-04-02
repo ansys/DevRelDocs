@@ -1,4 +1,4 @@
-# Enum MTL.PathData.PathType
+#  Enum MTL.PathData.PathType
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -32,7 +32,6 @@ Sprocket
 `Support = 3` 
 
 Support
-
 
 
 

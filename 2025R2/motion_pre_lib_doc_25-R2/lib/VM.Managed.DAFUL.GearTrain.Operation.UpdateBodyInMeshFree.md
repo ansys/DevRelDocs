@@ -1,4 +1,4 @@
-# Class UpdateBodyInMeshFree
+#  Class UpdateBodyInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -84,7 +84,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdateBodyInMeshFree\(AssembledBody, BodyAnalysisType, MassPropertyType, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBodyInMeshFree__ctor_VM_Managed_DAFUL_AssembledBody_VM_Managed_DAFUL_BodyAnalysisType_VM_Managed_DAFUL_SolidBodyProperty_MassPropertyType_System_String___"></a> UpdateBodyInMeshFree\(AssembledBody, BodyAnalysisType, MassPropertyType, string\[\]\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateBodyInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -110,7 +110,7 @@ The mass property type.
 
 The mass information.
 
-### UpdateBodyInMeshFree\(Document3D, AssembledBody, BodyAnalysisType, MassPropertyType, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBodyInMeshFree__ctor_VM_Managed_Document3D_VM_Managed_DAFUL_AssembledBody_VM_Managed_DAFUL_BodyAnalysisType_VM_Managed_DAFUL_SolidBodyProperty_MassPropertyType_System_String___"></a> UpdateBodyInMeshFree\(Document3D, AssembledBody, BodyAnalysisType, MassPropertyType, string\[\]\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateBodyInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -140,7 +140,7 @@ The mass property type.
 
 The mass information.
 
-### UpdateBodyInMeshFree\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBodyInMeshFree__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateBodyInMeshFree\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateBodyInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -156,7 +156,7 @@ The jp.
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBodyInMeshFree_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -164,7 +164,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBodyInMeshFree_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -177,5 +177,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

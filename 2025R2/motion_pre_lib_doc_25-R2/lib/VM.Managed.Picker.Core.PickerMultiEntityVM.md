@@ -1,4 +1,4 @@
-# Class PickerMultiEntityVM
+#  Class PickerMultiEntityVM
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -53,7 +53,7 @@ public class PickerMultiEntityVM : PickerMulti
 
 ## Constructors
 
-### PickerMultiEntityVM\(Type, bool, bool\)
+### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM__ctor_System_Type_System_Boolean_System_Boolean_"></a> PickerMultiEntityVM\(Type, bool, bool\)
 
 ```csharp
 public PickerMultiEntityVM(Type type, bool bIsInterface, bool bIsReference)
@@ -67,7 +67,7 @@ public PickerMultiEntityVM(Type type, bool bIsInterface, bool bIsReference)
 
 `bIsReference` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### PickerMultiEntityVM\(Type\[\]\)
+### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM__ctor_System_Type___"></a> PickerMultiEntityVM\(Type\[\]\)
 
 ```csharp
 public PickerMultiEntityVM(Type[] arTypes)
@@ -77,7 +77,7 @@ public PickerMultiEntityVM(Type[] arTypes)
 
 `arTypes` [Type](https://learn.microsoft.com/dotnet/api/system.type)\[\]
 
-### PickerMultiEntityVM\(Type, bool\)
+### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM__ctor_System_Type_System_Boolean_"></a> PickerMultiEntityVM\(Type, bool\)
 
 ```csharp
 public PickerMultiEntityVM(Type type, bool bIsInterface)
@@ -91,7 +91,7 @@ public PickerMultiEntityVM(Type type, bool bIsInterface)
 
 ## Properties
 
-### EntityTypes
+### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM_EntityTypes"></a> EntityTypes
 
 ```csharp
 public Type[] EntityTypes { get; }
@@ -103,7 +103,7 @@ public Type[] EntityTypes { get; }
 
 ## Methods
 
-### Filtering\(UIntPtr\)
+### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM_Filtering_System_UIntPtr_"></a> Filtering\(UIntPtr\)
 
 Filtering to not proper object.
 
@@ -123,7 +123,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### FilteringReference\(UIntPtr, UIntPtr\)
+### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM_FilteringReference_System_UIntPtr_System_UIntPtr_"></a> FilteringReference\(UIntPtr, UIntPtr\)
 
 Filtering to not proper object about special target into owner.
 
@@ -147,7 +147,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPickerInfo\(\)
+### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM_GetPickerInfo"></a> GetPickerInfo\(\)
 
 Gets information of picking type.
 
@@ -159,7 +159,7 @@ public override string GetPickerInfo()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetResultXmlFromKey\(UIntPtr\[\]\)
+### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM_GetResultXmlFromKey_System_UIntPtr___"></a> GetResultXmlFromKey\(UIntPtr\[\]\)
 
 Get valid result xml according to picker keys of core.
 
@@ -177,7 +177,7 @@ public override string GetResultXmlFromKey(UIntPtr[] arKey)
 
 The valid result xml.
 
-### GetResultXmlFromKey\(UIntPtr\)
+### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM_GetResultXmlFromKey_System_UIntPtr_"></a> GetResultXmlFromKey\(UIntPtr\)
 
 Get valid result xml according to picker key of core.
 
@@ -197,7 +197,7 @@ Picking destination key.
 
 The valid result xml.
 
-### SetHighlight\(List<UIntPtr\>, bool, bool\)
+### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM_SetHighlight_System_Collections_Generic_List_System_UIntPtr__System_Boolean_System_Boolean_"></a> SetHighlight\(List<UIntPtr\>, bool, bool\)
 
 ```csharp
 public override void SetHighlight(List<UIntPtr> lstEntity, bool bHighlight, bool bUpdate)
@@ -211,7 +211,7 @@ public override void SetHighlight(List<UIntPtr> lstEntity, bool bHighlight, bool
 
 `bUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetResultImpl\(ref string, bool\)
+### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -235,7 +235,7 @@ If it is true, skip the result setting.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### UseEntityFiltering\(\)
+### <a id="VM_Managed_Picker_Core_PickerMultiEntityVM_UseEntityFiltering"></a> UseEntityFiltering\(\)
 
 ```csharp
 public override bool UseEntityFiltering()
@@ -244,5 +244,4 @@ public override bool UseEntityFiltering()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Class SteeringConfiguration
+#  Class SteeringConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -191,7 +191,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SteeringConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_SteeringConfiguration__ctor"></a> SteeringConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SteeringConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -199,7 +199,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SteeringConfi
 public SteeringConfiguration()
 ```
 
-### SteeringConfiguration\(AnalysisSteering\)
+### <a id="VM_Managed_DAFUL_Car_SteeringConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisSteering_"></a> SteeringConfiguration\(AnalysisSteering\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SteeringConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -215,7 +215,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_SteeringConfiguration_Analysis"></a> Analysis
 
 Gets or sets the type of the analysis.
 
@@ -227,7 +227,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_SteeringConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -239,7 +239,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_SteeringConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -251,7 +251,7 @@ public override SuspensionAnalysisType AnalysisType { get; }
 
  [SuspensionAnalysisType](VM.Managed.DAFUL.Car.SuspensionAnalysisType.md)
 
-### SteeringParam
+### <a id="VM_Managed_DAFUL_Car_SteeringConfiguration_SteeringParam"></a> SteeringParam
 
 Gets or sets the steering parameter.
 
@@ -262,5 +262,4 @@ public AnalysisSteering SteeringParam { get; set; }
 #### Property Value
 
  [AnalysisSteering](VM.Managed.DAFUL.Car.AnalysisSteering.md)
-
 

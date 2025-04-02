@@ -1,4 +1,4 @@
-# Class GearShapeBase.InvolutePoint
+#  Class GearShapeBase.InvolutePoint
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -22,7 +22,7 @@ public class GearShapeBase.InvolutePoint
 
 ## Constructors
 
-### InvolutePoint\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_InvolutePoint__ctor"></a> InvolutePoint\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearShapeBase.InvolutePoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public InvolutePoint()
 
 ## Properties
 
-### Left
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_InvolutePoint_Left"></a> Left
 
 Gets or sets the left.
 
@@ -44,7 +44,7 @@ public List<Vector> Left { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### Right
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_InvolutePoint_Right"></a> Right
 
 Gets or sets the right.
 
@@ -55,5 +55,4 @@ public List<Vector> Right { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
-
 

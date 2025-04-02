@@ -1,4 +1,4 @@
-# Class ReferenceDesignSubEntity
+#  Class ReferenceDesignSubEntity
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -189,7 +189,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferenceDesignSubEntity\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_ReferenceDesignSubEntity__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceDesignSubEntity\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.ReferenceDesignSubEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -207,7 +207,7 @@ The info.
 
 The context.
 
-### ReferenceDesignSubEntity\(ObjectBase\)
+### <a id="VM_Managed_ReferenceDesignSubEntity__ctor_VM_Managed_ObjectBase_"></a> ReferenceDesignSubEntity\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.ReferenceDesignSubEntity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,5 +220,4 @@ public ReferenceDesignSubEntity(ObjectBase obj)
 `obj` ObjectBase
 
 The reference's object.
-
 

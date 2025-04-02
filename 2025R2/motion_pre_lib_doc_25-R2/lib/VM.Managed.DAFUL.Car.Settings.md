@@ -1,4 +1,4 @@
-# Class Settings
+#  Class Settings
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -33,7 +33,7 @@ SettingsBase<Settings\>.RootPath
 
 ## Constructors
 
-### Settings\(\)
+### <a id="VM_Managed_DAFUL_Car_Settings__ctor"></a> Settings\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Settings" data-throw-if-not-resolved="false"></xref> class.
 
@@ -43,7 +43,7 @@ public Settings()
 
 ## Properties
 
-### FourPostTestrigPath
+### <a id="VM_Managed_DAFUL_Car_Settings_FourPostTestrigPath"></a> FourPostTestrigPath
 
 Gets the four post testrig path.
 
@@ -56,7 +56,7 @@ public string FourPostTestrigPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FullTestrigPath
+### <a id="VM_Managed_DAFUL_Car_Settings_FullTestrigPath"></a> FullTestrigPath
 
 Gets the full testrig path.
 
@@ -69,7 +69,7 @@ public string FullTestrigPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### HalfTestrigPath
+### <a id="VM_Managed_DAFUL_Car_Settings_HalfTestrigPath"></a> HalfTestrigPath
 
 Gets the half testrig path.
 
@@ -82,7 +82,7 @@ public string HalfTestrigPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsoLaneChangePath
+### <a id="VM_Managed_DAFUL_Car_Settings_IsoLaneChangePath"></a> IsoLaneChangePath
 
 Gets the iso lane change path.
 
@@ -95,7 +95,7 @@ public string IsoLaneChangePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RoadPath
+### <a id="VM_Managed_DAFUL_Car_Settings_RoadPath"></a> RoadPath
 
 Gets or sets the road path.
 
@@ -110,7 +110,7 @@ public string RoadPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ShimmyJudderTestrigPath
+### <a id="VM_Managed_DAFUL_Car_Settings_ShimmyJudderTestrigPath"></a> ShimmyJudderTestrigPath
 
 Gets the shimmy judder testrig path.
 
@@ -123,7 +123,7 @@ public string ShimmyJudderTestrigPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### StandardWorkPath
+### <a id="VM_Managed_DAFUL_Car_Settings_StandardWorkPath"></a> StandardWorkPath
 
 Gets the standard work path.
 
@@ -136,7 +136,7 @@ public string StandardWorkPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TireTestrigPath
+### <a id="VM_Managed_DAFUL_Car_Settings_TireTestrigPath"></a> TireTestrigPath
 
 Gets the tire testrig path.
 
@@ -149,7 +149,7 @@ public string TireTestrigPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UsedFourPostTestRigName
+### <a id="VM_Managed_DAFUL_Car_Settings_UsedFourPostTestRigName"></a> UsedFourPostTestRigName
 
 Gets or sets the name of the used four post test rig.
 
@@ -163,7 +163,7 @@ public string UsedFourPostTestRigName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UsedFullTestRigName
+### <a id="VM_Managed_DAFUL_Car_Settings_UsedFullTestRigName"></a> UsedFullTestRigName
 
 Gets or sets the name of the used full test rig.
 
@@ -177,7 +177,7 @@ public string UsedFullTestRigName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UsedHalfTestRigName
+### <a id="VM_Managed_DAFUL_Car_Settings_UsedHalfTestRigName"></a> UsedHalfTestRigName
 
 Gets or sets the name of the used half test rig.
 
@@ -191,7 +191,7 @@ public string UsedHalfTestRigName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UsedShimmyJudderTestRigName
+### <a id="VM_Managed_DAFUL_Car_Settings_UsedShimmyJudderTestRigName"></a> UsedShimmyJudderTestRigName
 
 Gets or sets the name of the used shimmy judder test rig.
 
@@ -205,7 +205,7 @@ public string UsedShimmyJudderTestRigName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UsedTireTestRigName
+### <a id="VM_Managed_DAFUL_Car_Settings_UsedTireTestRigName"></a> UsedTireTestRigName
 
 Gets or sets the name of the used tire test rig.
 
@@ -218,5 +218,4 @@ public string UsedTireTestRigName { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

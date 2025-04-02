@@ -1,4 +1,4 @@
-# Enum enConnectionType
+#  Enum enConnectionType
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -140,7 +140,6 @@ The type is universal joint.
 `Vector = 21` 
 
 The type is vector force.
-
 
 
 

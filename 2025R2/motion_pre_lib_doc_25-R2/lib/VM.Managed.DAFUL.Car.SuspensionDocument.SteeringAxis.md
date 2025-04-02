@@ -1,4 +1,4 @@
-# Enum SuspensionDocument.SteeringAxis
+#  Enum SuspensionDocument.SteeringAxis
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -20,7 +20,6 @@ Geometry
 `InstanceAxis = 0` 
 
 InstanceAxis
-
 
 
 

@@ -1,4 +1,4 @@
-# Class EigenvalueInfo
+#  Class EigenvalueInfo
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### EigenvalueInfo\(bool\)
+### <a id="VM_Managed_DAFUL_FE_EigenvalueInfo__ctor_System_Boolean_"></a> EigenvalueInfo\(bool\)
 
 ```csharp
 public EigenvalueInfo(bool bUseStaticCorrectionMode)
@@ -110,7 +110,7 @@ public EigenvalueInfo(bool bUseStaticCorrectionMode)
 
 `bUseStaticCorrectionMode` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### EigenvalueInfo\(\)
+### <a id="VM_Managed_DAFUL_FE_EigenvalueInfo__ctor"></a> EigenvalueInfo\(\)
 
 ```csharp
 public EigenvalueInfo()
@@ -118,7 +118,7 @@ public EigenvalueInfo()
 
 ## Properties
 
-### ImposeRotationalUnitDisplacement
+### <a id="VM_Managed_DAFUL_FE_EigenvalueInfo_ImposeRotationalUnitDisplacement"></a> ImposeRotationalUnitDisplacement
 
 Gets or sets a value indicating whether [impose rotational unit displacement] use or not.
 
@@ -130,7 +130,7 @@ public bool ImposeRotationalUnitDisplacement { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseStaticCorrectionMode
+### <a id="VM_Managed_DAFUL_FE_EigenvalueInfo_UseStaticCorrectionMode"></a> UseStaticCorrectionMode
 
 Gets or sets a value indicating whether static correction mode use or not.
 
@@ -141,5 +141,4 @@ public bool UseStaticCorrectionMode { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

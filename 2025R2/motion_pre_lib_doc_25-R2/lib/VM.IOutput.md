@@ -1,4 +1,4 @@
-# Interface IOutput
+#  Interface IOutput
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -17,7 +17,7 @@ public interface IOutput
 
 ## Methods
 
-### Clear\(\)
+### <a id="VM_IOutput_Clear"></a> Clear\(\)
 
 Cleat output messages.
 
@@ -25,7 +25,7 @@ Cleat output messages.
 void Clear()
 ```
 
-### Write\(string, string\)
+### <a id="VM_IOutput_Write_System_String_System_String_"></a> Write\(string, string\)
 
 Output a specified message.
 
@@ -42,5 +42,4 @@ The category of the message.
 `message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The message to output.
-
 

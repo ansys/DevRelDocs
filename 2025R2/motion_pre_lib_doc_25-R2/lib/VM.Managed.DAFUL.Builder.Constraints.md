@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Builder.Constraints
+#  Namespace VM.Managed.DAFUL.Builder.Constraints
 
 ### Classes
 
@@ -49,5 +49,4 @@
  [UniversalBBPDD](VM.Managed.DAFUL.Builder.Constraints.UniversalBBPDD.md)
 
  [UniversalBBPDDDD](VM.Managed.DAFUL.Builder.Constraints.UniversalBBPDDDD.md)
-
 

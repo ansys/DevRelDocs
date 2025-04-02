@@ -1,4 +1,4 @@
-# Class SetPatch.PatchIndexContainer
+#  Class SetPatch.PatchIndexContainer
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -73,7 +73,7 @@ ObservableObject.PropertyChanged
 
 ## Properties
 
-### PatchIndexArray
+### <a id="VM_Managed_DAFUL_FE_SetPatch_PatchIndexContainer_PatchIndexArray"></a> PatchIndexArray
 
 Gets the index.
 
@@ -87,10 +87,9 @@ public uint[] PatchIndexArray { get; }
 
 ## Methods
 
-### Clear\(\)
+### <a id="VM_Managed_DAFUL_FE_SetPatch_PatchIndexContainer_Clear"></a> Clear\(\)
 
 ```csharp
 public void Clear()
 ```
-
 

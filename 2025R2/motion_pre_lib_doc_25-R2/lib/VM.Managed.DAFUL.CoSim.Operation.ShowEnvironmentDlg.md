@@ -1,4 +1,4 @@
-# Class ShowEnvironmentDlg
+#  Class ShowEnvironmentDlg
 
 Namespace: [VM.Managed.DAFUL.CoSim.Operation](VM.Managed.DAFUL.CoSim.Operation.md)  
 Assembly: VMOpCoSim.dll  
@@ -105,7 +105,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ShowEnvironmentDlg\(Document\)
+### <a id="VM_Managed_DAFUL_CoSim_Operation_ShowEnvironmentDlg__ctor_VM_Managed_Document_"></a> ShowEnvironmentDlg\(Document\)
 
 ```csharp
 public ShowEnvironmentDlg(Document doc)
@@ -115,7 +115,7 @@ public ShowEnvironmentDlg(Document doc)
 
 `doc` Document
 
-### ShowEnvironmentDlg\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_CoSim_Operation_ShowEnvironmentDlg__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowEnvironmentDlg\(JournalParameter\)
 
 ```csharp
 public ShowEnvironmentDlg(JournalParameter jp)
@@ -127,7 +127,7 @@ public ShowEnvironmentDlg(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_CoSim_Operation_ShowEnvironmentDlg_Name"></a> Name
 
 Gets the operation name.
 
@@ -141,7 +141,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_CoSim_Operation_ShowEnvironmentDlg_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -149,7 +149,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### PrepareForm\(SimulationFormBase\)
+### <a id="VM_Managed_DAFUL_CoSim_Operation_ShowEnvironmentDlg_PrepareForm_VM_Managed_DAFUL_Pre_Forms_SimulationFormBase_"></a> PrepareForm\(SimulationFormBase\)
 
 ```csharp
 protected override void PrepareForm(SimulationFormBase form)
@@ -159,13 +159,13 @@ protected override void PrepareForm(SimulationFormBase form)
 
 `form` SimulationFormBase
 
-### ShowDialog\(\)
+### <a id="VM_Managed_DAFUL_CoSim_Operation_ShowEnvironmentDlg_ShowDialog"></a> ShowDialog\(\)
 
 ```csharp
 protected override void ShowDialog()
 ```
 
-### SimulationRunImpl\(bool\)
+### <a id="VM_Managed_DAFUL_CoSim_Operation_ShowEnvironmentDlg_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
 
 Simulations the run [implementation].
 
@@ -179,7 +179,7 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 
 if set to <code>true</code> [write DFG].
 
-### UpdateUI\(IUIUpdate, Document\)
+### <a id="VM_Managed_DAFUL_CoSim_Operation_ShowEnvironmentDlg_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 
 ```csharp
 public static void UpdateUI(IUIUpdate updater, Document doc)
@@ -190,5 +190,4 @@ public static void UpdateUI(IUIUpdate updater, Document doc)
 `updater` IUIUpdate
 
 `doc` Document
-
 

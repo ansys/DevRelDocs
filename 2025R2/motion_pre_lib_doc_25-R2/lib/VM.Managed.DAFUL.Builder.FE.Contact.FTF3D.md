@@ -1,4 +1,4 @@
-# Class FTF3D
+#  Class FTF3D
 
 Namespace: [VM.Managed.DAFUL.Builder.FE.Contact](VM.Managed.DAFUL.Builder.FE.Contact.md)  
 Assembly: VMBldFECt.dll  
@@ -53,7 +53,7 @@ BuilderBase<FTF3D\>.ErrorMessage
 
 ## Constructors
 
-### FTF3D\(\)
+### <a id="VM_Managed_DAFUL_Builder_FE_Contact_FTF3D__ctor"></a> FTF3D\(\)
 
 ```csharp
 public FTF3D()
@@ -61,7 +61,7 @@ public FTF3D()
 
 ## Properties
 
-### ActionContactable
+### <a id="VM_Managed_DAFUL_Builder_FE_Contact_FTF3D_ActionContactable"></a> ActionContactable
 
 ```csharp
 public IContactableFlex3D ActionContactable { get; }
@@ -71,7 +71,7 @@ public IContactableFlex3D ActionContactable { get; }
 
  IContactableFlex3D
 
-### BaseContactable
+### <a id="VM_Managed_DAFUL_Builder_FE_Contact_FTF3D_BaseContactable"></a> BaseContactable
 
 ```csharp
 public IContactableFlex3D BaseContactable { get; }
@@ -83,7 +83,7 @@ public IContactableFlex3D BaseContactable { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_FE_Contact_FTF3D_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -98,5 +98,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Class Pin
+#  Class Pin
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -204,7 +204,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Pin\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pin__ctor"></a> Pin\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.Pin" data-throw-if-not-resolved="false"></xref> class.
 
@@ -212,7 +212,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector
 public Pin()
 ```
 
-### Pin\(string\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pin__ctor_System_String_"></a> Pin\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.Pulley" data-throw-if-not-resolved="false"></xref> class.
 
@@ -228,7 +228,7 @@ Name of the string.
 
 ## Properties
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pin_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -240,7 +240,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Hide
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pin_Hide"></a> Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -252,7 +252,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LeftTransformation
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pin_LeftTransformation"></a> LeftTransformation
 
 Gets or sets the left transformation.
 
@@ -264,7 +264,7 @@ public TransformBase LeftTransformation { get; set; }
 
  TransformBase
 
-### Parent
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pin_Parent"></a> Parent
 
 Gets or sets the parent.
 
@@ -276,7 +276,7 @@ public ObjectBase Parent { get; set; }
 
  ObjectBase
 
-### RightTransformation
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pin_RightTransformation"></a> RightTransformation
 
 Gets or sets the right transformation.
 
@@ -290,7 +290,7 @@ public TransformBase RightTransformation { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pin_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -304,7 +304,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pin_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -332,7 +332,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPinStiffness\(SegmentGroup\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pin_GetPinStiffness_VM_Managed_DAFUL_CPlacingConnector_SegmentGroup_"></a> GetPinStiffness\(SegmentGroup\)
 
 Gets the pin stiffness
 
@@ -350,7 +350,7 @@ The segment group
 
  [PinStiffness](VM.Managed.DAFUL.CPlacingConnector.PinStiffness.md)
 
-### GetSegmentInformation\(SegmentGroup\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pin_GetSegmentInformation_VM_Managed_DAFUL_CPlacingConnector_SegmentGroup_"></a> GetSegmentInformation\(SegmentGroup\)
 
 Gets the segment information.
 
@@ -368,7 +368,7 @@ The segment group
 
  [SegmentInformation](VM.Managed.DAFUL.CPlacingConnector.SegmentInformation.md)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pin_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -382,12 +382,11 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReDraw\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_Pin_ReDraw"></a> ReDraw\(\)
 
 Redraw.
 
 ```csharp
 public virtual void ReDraw()
 ```
-
 

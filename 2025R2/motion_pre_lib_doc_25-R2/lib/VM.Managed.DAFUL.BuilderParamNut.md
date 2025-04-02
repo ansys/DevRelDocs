@@ -1,4 +1,4 @@
-# Class BuilderParamNut
+#  Class BuilderParamNut
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -34,7 +34,7 @@ BuilderParamBase.Transparency
 
 ## Constructors
 
-### BuilderParamNut\(\)
+### <a id="VM_Managed_DAFUL_BuilderParamNut__ctor"></a> BuilderParamNut\(\)
 
 ```csharp
 public BuilderParamNut()
@@ -42,7 +42,7 @@ public BuilderParamNut()
 
 ## Properties
 
-### BallDiameter
+### <a id="VM_Managed_DAFUL_BuilderParamNut_BallDiameter"></a> BallDiameter
 
 Gets and sets the ball diameter.
 
@@ -54,7 +54,7 @@ public double BallDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsRight
+### <a id="VM_Managed_DAFUL_BuilderParamNut_IsRight"></a> IsRight
 
 Gets or sets a value indicating whether screw is right handed.
 
@@ -66,7 +66,7 @@ public bool IsRight { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Lead
+### <a id="VM_Managed_DAFUL_BuilderParamNut_Lead"></a> Lead
 
 Gets and sets the lead.
 
@@ -78,7 +78,7 @@ public double Lead { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NutChamperAngle
+### <a id="VM_Managed_DAFUL_BuilderParamNut_NutChamperAngle"></a> NutChamperAngle
 
 Gets and sets the nut champer angle.
 
@@ -90,7 +90,7 @@ public double NutChamperAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NutConformity
+### <a id="VM_Managed_DAFUL_BuilderParamNut_NutConformity"></a> NutConformity
 
 Gets and sets the nut conformity.
 
@@ -102,7 +102,7 @@ public double NutConformity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NutContactAngle
+### <a id="VM_Managed_DAFUL_BuilderParamNut_NutContactAngle"></a> NutContactAngle
 
 Gets and sets the nut contact angle.
 
@@ -114,7 +114,7 @@ public double NutContactAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NutInnerRadius
+### <a id="VM_Managed_DAFUL_BuilderParamNut_NutInnerRadius"></a> NutInnerRadius
 
 Gets and sets the nut inner radius.
 
@@ -126,7 +126,7 @@ public double NutInnerRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NutLength
+### <a id="VM_Managed_DAFUL_BuilderParamNut_NutLength"></a> NutLength
 
 Gets and sets the nut length.
 
@@ -138,7 +138,7 @@ public double NutLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NutOD
+### <a id="VM_Managed_DAFUL_BuilderParamNut_NutOD"></a> NutOD
 
 Gets and sets the nut OD.
 
@@ -150,7 +150,7 @@ public double NutOD { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NutPCD
+### <a id="VM_Managed_DAFUL_BuilderParamNut_NutPCD"></a> NutPCD
 
 Gets and sets the nut PCD.
 
@@ -162,7 +162,7 @@ public double NutPCD { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NutScrewEndLength
+### <a id="VM_Managed_DAFUL_BuilderParamNut_NutScrewEndLength"></a> NutScrewEndLength
 
 Gets and sets the nut screw end length.
 
@@ -174,7 +174,7 @@ public double NutScrewEndLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NutScrewStartLength
+### <a id="VM_Managed_DAFUL_BuilderParamNut_NutScrewStartLength"></a> NutScrewStartLength
 
 Gets and sets the nut screw start length.
 
@@ -186,7 +186,7 @@ public double NutScrewStartLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NutShoulderRadius
+### <a id="VM_Managed_DAFUL_BuilderParamNut_NutShoulderRadius"></a> NutShoulderRadius
 
 Gets and sets the nut shoulder radius.
 
@@ -198,7 +198,7 @@ public double NutShoulderRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NutShoulderType
+### <a id="VM_Managed_DAFUL_BuilderParamNut_NutShoulderType"></a> NutShoulderType
 
 Gets and sets the nut shoulder type.
 
@@ -210,7 +210,7 @@ public int NutShoulderType { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NutStartArcAngle
+### <a id="VM_Managed_DAFUL_BuilderParamNut_NutStartArcAngle"></a> NutStartArcAngle
 
 Gets and sets the nut start arc angle.
 
@@ -222,7 +222,7 @@ public double NutStartArcAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NutStartLength
+### <a id="VM_Managed_DAFUL_BuilderParamNut_NutStartLength"></a> NutStartLength
 
 Gets and sets the nut start length.
 
@@ -234,7 +234,7 @@ public double NutStartLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Position
+### <a id="VM_Managed_DAFUL_BuilderParamNut_Position"></a> Position
 
 Gets and sets the position.
 
@@ -246,7 +246,7 @@ public Vector Position { get; set; }
 
  Vector
 
-### ShaftLength
+### <a id="VM_Managed_DAFUL_BuilderParamNut_ShaftLength"></a> ShaftLength
 
 Gets and sets the shaft length.
 
@@ -258,7 +258,7 @@ public double ShaftLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ShaftScrewEndLength
+### <a id="VM_Managed_DAFUL_BuilderParamNut_ShaftScrewEndLength"></a> ShaftScrewEndLength
 
 Gets and sets the shaft screw end length.
 
@@ -270,7 +270,7 @@ public double ShaftScrewEndLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ShaftScrewStartAngle
+### <a id="VM_Managed_DAFUL_BuilderParamNut_ShaftScrewStartAngle"></a> ShaftScrewStartAngle
 
 Gets and sets the shaft screw start angle.
 
@@ -282,7 +282,7 @@ public double ShaftScrewStartAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ShaftScrewStartLength
+### <a id="VM_Managed_DAFUL_BuilderParamNut_ShaftScrewStartLength"></a> ShaftScrewStartLength
 
 Gets and sets the shaft screw start length.
 
@@ -294,7 +294,7 @@ public double ShaftScrewStartLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### XAxis
+### <a id="VM_Managed_DAFUL_BuilderParamNut_XAxis"></a> XAxis
 
 Gets and sets the x-axis.
 
@@ -306,7 +306,7 @@ public Vector XAxis { get; set; }
 
  Vector
 
-### ZAxis
+### <a id="VM_Managed_DAFUL_BuilderParamNut_ZAxis"></a> ZAxis
 
 Gets and sets the z-axis.
 
@@ -317,5 +317,4 @@ public Vector ZAxis { get; set; }
 #### Property Value
 
  Vector
-
 

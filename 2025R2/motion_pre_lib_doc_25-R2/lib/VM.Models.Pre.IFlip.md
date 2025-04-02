@@ -1,4 +1,4 @@
-# Interface IFlip
+#  Interface IFlip
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface IFlip
 
 ## Properties
 
-### CanSwitch
+### <a id="VM_Models_Pre_IFlip_CanSwitch"></a> CanSwitch
 
 Gets a value indication whether this instance can switch or not.
 
@@ -31,12 +31,11 @@ bool CanSwitch { get; }
 
 ## Methods
 
-### Switch\(\)
+### <a id="VM_Models_Pre_IFlip_Switch"></a> Switch\(\)
 
 Switch base and action.
 
 ```csharp
 void Switch()
 ```
-
 

@@ -1,4 +1,4 @@
-# Class PropertyActuator
+#  Class PropertyActuator
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  
@@ -172,7 +172,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyActuator\(\)
+### <a id="VM_Managed_DAFUL_Linear_PropertyActuator__ctor"></a> PropertyActuator\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.PropertyActuator" data-throw-if-not-resolved="false"></xref> class.
 
@@ -182,7 +182,7 @@ public PropertyActuator()
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Linear_PropertyActuator_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -195,5 +195,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

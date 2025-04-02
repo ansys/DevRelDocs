@@ -1,4 +1,4 @@
-# Enum LayerVisibility
+#  Enum LayerVisibility
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -14,5 +14,4 @@ public enum LayerVisibility
 `Transparent = 2` 
 
 `Visible = 1` 
-
 

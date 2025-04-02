@@ -1,4 +1,4 @@
-# Class GetBodyNameAttributeOp
+#  Class GetBodyNameAttributeOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### GetBodyNameAttributeOp\(Body\)
+### <a id="VM_Managed_CAD_GetBodyNameAttributeOp__ctor_VM_Managed_CAD_Body_"></a> GetBodyNameAttributeOp\(Body\)
 
 ```csharp
 public GetBodyNameAttributeOp(Body body)
@@ -89,7 +89,7 @@ public GetBodyNameAttributeOp(Body body)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_CAD_GetBodyNameAttributeOp_Name"></a> Name
 
 Gets the name.
 
@@ -101,7 +101,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Result
+### <a id="VM_Managed_CAD_GetBodyNameAttributeOp_Result"></a> Result
 
 Gets the result.
 
@@ -115,12 +115,11 @@ public string Result { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_CAD_GetBodyNameAttributeOp_Execute"></a> Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
-
 

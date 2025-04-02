@@ -1,4 +1,4 @@
-# Enum DirectionType
+#  Enum DirectionType
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -20,7 +20,6 @@ Backward
 `Forward = 0` 
 
 Forward
-
 
 
 

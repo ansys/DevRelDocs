@@ -1,4 +1,4 @@
-# Class PlanarBBPD
+#  Class PlanarBBPD
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCB.dll  
@@ -61,10 +61,9 @@ BuilderBase<Planar\>.ErrorMessage
 
 ## Constructors
 
-### PlanarBBPD\(\)
+### <a id="VM_Managed_DAFUL_Builder_Constraints_PlanarBBPD__ctor"></a> PlanarBBPD\(\)
 
 ```csharp
 public PlanarBBPD()
 ```
-
 

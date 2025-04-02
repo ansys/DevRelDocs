@@ -1,4 +1,4 @@
-# Class ItemsSourceConverter<TObject\>
+#  Class ItemsSourceConverter<TObject\>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -33,7 +33,7 @@ JsonConverter.CanWrite
 
 ## Constructors
 
-### ItemsSourceConverter\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsSourceConverter_1__ctor"></a> ItemsSourceConverter\(\)
 
 ```csharp
 public ItemsSourceConverter()
@@ -41,7 +41,7 @@ public ItemsSourceConverter()
 
 ## Methods
 
-### CanConvert\(Type\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsSourceConverter_1_CanConvert_System_Type_"></a> CanConvert\(Type\)
 
 Determines whether this instance can convert the specified object type.
 
@@ -61,7 +61,7 @@ Type of the object.
 
 <code>true</code> if this instance can convert the specified object type; otherwise, <code>false</code>.
 
-### ReadJson\(JsonReader, Type, object, JsonSerializer\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsSourceConverter_1_ReadJson_Newtonsoft_Json_JsonReader_System_Type_System_Object_Newtonsoft_Json_JsonSerializer_"></a> ReadJson\(JsonReader, Type, object, JsonSerializer\)
 
 Reads the JSON representation of the object.
 
@@ -93,7 +93,7 @@ The calling serializer.
 
 The object value.
 
-### WriteJson\(JsonWriter, object, JsonSerializer\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsSourceConverter_1_WriteJson_Newtonsoft_Json_JsonWriter_System_Object_Newtonsoft_Json_JsonSerializer_"></a> WriteJson\(JsonWriter, object, JsonSerializer\)
 
 Writes the JSON representation of the object.
 
@@ -114,5 +114,4 @@ The value.
 `serializer` JsonSerializer
 
 The calling serializer.
-
 

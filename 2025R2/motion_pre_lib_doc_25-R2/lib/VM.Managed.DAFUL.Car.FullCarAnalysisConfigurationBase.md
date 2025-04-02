@@ -1,4 +1,4 @@
-# Class FullCarAnalysisConfigurationBase
+#  Class FullCarAnalysisConfigurationBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -211,7 +211,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### FullCarAnalysisConfigurationBase\(\)
+### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisConfigurationBase__ctor"></a> FullCarAnalysisConfigurationBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.FullCarAnalysisConfigurationBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ public FullCarAnalysisConfigurationBase()
 
 ## Fields
 
-### \_\_a$\_a\_VM.Models.Pre.LinkAttribute
+### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisConfigurationBase___a__a_VM_Models_Pre_LinkAttribute"></a> \_\_a$\_a\_VM.Models.Pre.LinkAttribute
 
 ```csharp
 protected LinkAttribute __a$_a_VM.Models.Pre.LinkAttribute
@@ -231,7 +231,7 @@ protected LinkAttribute __a$_a_VM.Models.Pre.LinkAttribute
 
  LinkAttribute
 
-### \_\_a$\_a\_VM.Models.Pre.LinkUpdateAttribute
+### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisConfigurationBase___a__a_VM_Models_Pre_LinkUpdateAttribute"></a> \_\_a$\_a\_VM.Models.Pre.LinkUpdateAttribute
 
 ```csharp
 protected LinkUpdateAttribute __a$_a_VM.Models.Pre.LinkUpdateAttribute
@@ -243,7 +243,7 @@ protected LinkUpdateAttribute __a$_a_VM.Models.Pre.LinkUpdateAttribute
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisConfigurationBase_Analysis"></a> Analysis
 
 Gets or sets the analysis.
 
@@ -255,7 +255,7 @@ public abstract AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisConfigurationBase_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -267,7 +267,7 @@ protected abstract string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisConfigurationBase_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -279,7 +279,7 @@ public abstract FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### BaseBody
+### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisConfigurationBase_BaseBody"></a> BaseBody
 
 Get/Set the base body of the road
 
@@ -291,7 +291,7 @@ public ObjectBase BaseBody { get; set; }
 
  ObjectBase
 
-### RoadDataPath
+### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisConfigurationBase_RoadDataPath"></a> RoadDataPath
 
 Gets or sets the road data file path.
 
@@ -303,7 +303,7 @@ public string RoadDataPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RoadOffset
+### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisConfigurationBase_RoadOffset"></a> RoadOffset
 
 Get/Set offset of the road
 
@@ -315,7 +315,7 @@ public PointBase RoadOffset { get; set; }
 
  PointBase
 
-### RoadRefFrameName
+### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisConfigurationBase_RoadRefFrameName"></a> RoadRefFrameName
 
 Get Roadreference frame name
 
@@ -327,7 +327,7 @@ public string RoadRefFrameName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RoadReferencePosition
+### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisConfigurationBase_RoadReferencePosition"></a> RoadReferencePosition
 
 Get reference position of the road
 
@@ -339,7 +339,7 @@ public Vector RoadReferencePosition { get; }
 
  Vector
 
-### RoadRotationAngle
+### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisConfigurationBase_RoadRotationAngle"></a> RoadRotationAngle
 
 Get/Set rotation angle of the road
 
@@ -353,7 +353,7 @@ public ExpressionValueVariable RoadRotationAngle { get; set; }
 
 ## Methods
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Car_FullCarAnalysisConfigurationBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -366,5 +366,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

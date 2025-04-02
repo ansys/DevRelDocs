@@ -1,4 +1,4 @@
-# Struct SplineData.Point
+#  Struct SplineData.Point
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -15,7 +15,7 @@ IDataPoint
 
 ## Constructors
 
-### Point\(double, double\)
+### <a id="VM_Managed_DAFUL_SplineData_Point__ctor_System_Double_System_Double_"></a> Point\(double, double\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.SplineData.Point" data-throw-if-not-resolved="false"></xref> struct.</p>
 
@@ -35,7 +35,7 @@ public Point(double dx, double dy)
 
 ## Properties
 
-### X
+### <a id="VM_Managed_DAFUL_SplineData_Point_X"></a> X
 
 <p>Gets or sets the X value.</p>
 <p>
@@ -59,7 +59,7 @@ public double X { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_Managed_DAFUL_SplineData_Point_Y"></a> Y
 
 <p>Gets or sets the Y value.</p>
 <p>
@@ -85,7 +85,7 @@ public double Y { get; set; }
 
 ## Operators
 
-### implicit operator DataPoint\(Point\)
+### <a id="VM_Managed_DAFUL_SplineData_Point_op_Implicit_VM_Managed_DAFUL_SplineData_Point__VM_DataPoint"></a> implicit operator DataPoint\(Point\)
 
 ```csharp
 public static implicit operator DataPoint(SplineData.Point point)
@@ -99,7 +99,7 @@ public static implicit operator DataPoint(SplineData.Point point)
 
  DataPoint
 
-### implicit operator Point\(DataPoint\)
+### <a id="VM_Managed_DAFUL_SplineData_Point_op_Implicit_VM_DataPoint__VM_Managed_DAFUL_SplineData_Point"></a> implicit operator Point\(DataPoint\)
 
 ```csharp
 public static implicit operator SplineData.Point(DataPoint dataPoint)
@@ -113,7 +113,7 @@ public static implicit operator SplineData.Point(DataPoint dataPoint)
 
  [SplineData](VM.Managed.DAFUL.SplineData.md).[Point](VM.Managed.DAFUL.SplineData.Point.md)
 
-### implicit operator Point\(TwoPoint\)
+### <a id="VM_Managed_DAFUL_SplineData_Point_op_Implicit_VM_Managed_DAFUL_SplineValue_TwoPoint__VM_Managed_DAFUL_SplineData_Point"></a> implicit operator Point\(TwoPoint\)
 
 ```csharp
 public static implicit operator SplineData.Point(SplineValue.TwoPoint twoPoint)
@@ -126,5 +126,4 @@ public static implicit operator SplineData.Point(SplineValue.TwoPoint twoPoint)
 #### Returns
 
  [SplineData](VM.Managed.DAFUL.SplineData.md).[Point](VM.Managed.DAFUL.SplineData.Point.md)
-
 

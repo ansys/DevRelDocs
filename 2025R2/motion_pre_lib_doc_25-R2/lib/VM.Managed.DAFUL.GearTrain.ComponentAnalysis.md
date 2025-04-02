@@ -1,4 +1,4 @@
-# Class ComponentAnalysis
+#  Class ComponentAnalysis
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ComponentAnalysis\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis__ctor"></a> ComponentAnalysis\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ComponentAnalysis" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public ComponentAnalysis()
 
 ## Properties
 
-### EndConnectable
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_EndConnectable"></a> EndConnectable
 
 Gets or sets the end connectable.
 
@@ -118,7 +118,7 @@ public IConnectable EndConnectable { get; set; }
 
  IConnectable
 
-### EndPointInfo
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_EndPointInfo"></a> EndPointInfo
 
 Gets or sets the end point.
 
@@ -130,7 +130,7 @@ public ComponentAnalysis.BoundaryCondition EndPointInfo { get; set; }
 
  [ComponentAnalysis](VM.Managed.DAFUL.GearTrain.ComponentAnalysis.md).[BoundaryCondition](VM.Managed.DAFUL.GearTrain.ComponentAnalysis.BoundaryCondition.md)
 
-### InputTypeOfAnalysis
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_InputTypeOfAnalysis"></a> InputTypeOfAnalysis
 
 Gets or sets the type of analysis.
 
@@ -142,7 +142,7 @@ public ComponentAnalysis.AnalysisType InputTypeOfAnalysis { get; set; }
 
  [ComponentAnalysis](VM.Managed.DAFUL.GearTrain.ComponentAnalysis.md).[AnalysisType](VM.Managed.DAFUL.GearTrain.ComponentAnalysis.AnalysisType.md)
 
-### MaximumNumberOfNode
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_MaximumNumberOfNode"></a> MaximumNumberOfNode
 
 Gets or sets the maximum number of node.
 
@@ -154,7 +154,7 @@ public ExpressionValueVariable MaximumNumberOfNode { get; set; }
 
  ExpressionValueVariable
 
-### ResultFilePath
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_ResultFilePath"></a> ResultFilePath
 
 Gets or sets the result path.
 
@@ -166,7 +166,7 @@ public string ResultFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RotationalPenalty
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_RotationalPenalty"></a> RotationalPenalty
 
 Gets or sets the rotational penalty.
 
@@ -178,7 +178,7 @@ public ExpressionValueVariable RotationalPenalty { get; set; }
 
  ExpressionValueVariable
 
-### StartConnectable
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_StartConnectable"></a> StartConnectable
 
 Gets or sets the start connectable.
 
@@ -190,7 +190,7 @@ public IConnectable StartConnectable { get; set; }
 
  IConnectable
 
-### StartPointInfo
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_StartPointInfo"></a> StartPointInfo
 
 Gets or sets the start point.
 
@@ -202,7 +202,7 @@ public ComponentAnalysis.BoundaryCondition StartPointInfo { get; set; }
 
  [ComponentAnalysis](VM.Managed.DAFUL.GearTrain.ComponentAnalysis.md).[BoundaryCondition](VM.Managed.DAFUL.GearTrain.ComponentAnalysis.BoundaryCondition.md)
 
-### TranslationalPenalty
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_TranslationalPenalty"></a> TranslationalPenalty
 
 Gets or sets the translational penalty.
 
@@ -214,7 +214,7 @@ public ExpressionValueVariable TranslationalPenalty { get; set; }
 
  ExpressionValueVariable
 
-### \_EndConnectable
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis__EndConnectable"></a> \_EndConnectable
 
 Gets or sets the _ end connectable.
 
@@ -226,7 +226,7 @@ public Linker<IConnectable> _EndConnectable { get; set; }
 
  Linker<IConnectable\>
 
-### \_StartConnectable
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis__StartConnectable"></a> \_StartConnectable
 
 Gets or sets the _ start connectable.
 
@@ -240,7 +240,7 @@ public Linker<IConnectable> _StartConnectable { get; set; }
 
 ## Methods
 
-### InitChild\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_InitChild_VM_Unit_ConvertFactor_"></a> InitChild\(ConvertFactor\)
 
 Initializes the child.
 
@@ -253,5 +253,4 @@ public void InitChild(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

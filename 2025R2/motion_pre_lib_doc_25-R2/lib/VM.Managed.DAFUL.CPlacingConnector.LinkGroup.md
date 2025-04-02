@@ -1,4 +1,4 @@
-# Class LinkGroup
+#  Class LinkGroup
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### LinkGroup\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_LinkGroup__ctor"></a> LinkGroup\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.LinkGroup" data-throw-if-not-resolved="false"></xref> class.
 
@@ -111,7 +111,7 @@ public LinkGroup()
 
 ## Properties
 
-### Connectors
+### <a id="VM_Managed_DAFUL_CPlacingConnector_LinkGroup_Connectors"></a> Connectors
 
 Gets or sets the connectors.
 
@@ -123,7 +123,7 @@ public ConnectorGroup[] Connectors { get; set; }
 
  [ConnectorGroup](VM.Managed.DAFUL.CPlacingConnector.ConnectorGroup.md)\[\]
 
-### Contacts
+### <a id="VM_Managed_DAFUL_CPlacingConnector_LinkGroup_Contacts"></a> Contacts
 
 Gets or sets the contacts.
 
@@ -137,7 +137,7 @@ public ContactGroup[] Contacts { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_LinkGroup_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -150,5 +150,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

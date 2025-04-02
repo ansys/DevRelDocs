@@ -1,4 +1,4 @@
-# Class RefreshSubEntityAddonForDocument
+#  Class RefreshSubEntityAddonForDocument
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -57,7 +57,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### RefreshSubEntityAddonForDocument\(\)
+### <a id="VM_Managed_History_RefreshSubEntityAddonForDocument__ctor"></a> RefreshSubEntityAddonForDocument\(\)
 
 ```csharp
 public RefreshSubEntityAddonForDocument()
@@ -65,7 +65,7 @@ public RefreshSubEntityAddonForDocument()
 
 ## Methods
 
-### Process\(object, HistoryEventArgs\)
+### <a id="VM_Managed_History_RefreshSubEntityAddonForDocument_Process_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Process\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void Process(object o, HistoryEventArgs args)
@@ -77,7 +77,7 @@ protected override void Process(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### SetObject\(ObjectBase\)
+### <a id="VM_Managed_History_RefreshSubEntityAddonForDocument_SetObject_VM_Managed_ObjectBase_"></a> SetObject\(ObjectBase\)
 
 ```csharp
 public void SetObject(ObjectBase obj)
@@ -86,5 +86,4 @@ public void SetObject(ObjectBase obj)
 #### Parameters
 
 `obj` [ObjectBase](VM.Managed.ObjectBase.md)
-
 

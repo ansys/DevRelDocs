@@ -1,4 +1,4 @@
-# Interface IGeneralContact
+#  Interface IGeneralContact
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface IGeneralContact
 
 ## Methods
 
-### IsSphereTreatedAsSurface\(IContactable\)
+### <a id="VM_Managed_DAFUL_IGeneralContact_IsSphereTreatedAsSurface_VM_Managed_DAFUL_IContactable_"></a> IsSphereTreatedAsSurface\(IContactable\)
 
 Get flag whether the faceset's geometry type is sphere and it will be ignored or not.
 
@@ -36,5 +36,4 @@ The faceset.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if faceset's geometry type is sphere and it will be ignored; otherwise, <code>false</code>.
-
 

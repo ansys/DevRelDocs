@@ -1,4 +1,4 @@
-# Class BuilderParamTorus
+#  Class BuilderParamTorus
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -32,7 +32,7 @@ public class BuilderParamTorus : BuilderParamColorGeom
 
 ## Constructors
 
-### BuilderParamTorus\(\)
+### <a id="VM_CAD_Builders_BuilderParamTorus__ctor"></a> BuilderParamTorus\(\)
 
 ```csharp
 public BuilderParamTorus()
@@ -40,7 +40,7 @@ public BuilderParamTorus()
 
 ## Properties
 
-### CenterPosition
+### <a id="VM_CAD_Builders_BuilderParamTorus_CenterPosition"></a> CenterPosition
 
 ```csharp
 public Vector CenterPosition { get; set; }
@@ -50,7 +50,7 @@ public Vector CenterPosition { get; set; }
 
  Vector
 
-### RadiusMajor
+### <a id="VM_CAD_Builders_BuilderParamTorus_RadiusMajor"></a> RadiusMajor
 
 ```csharp
 public double RadiusMajor { get; set; }
@@ -60,7 +60,7 @@ public double RadiusMajor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RadiusMinor
+### <a id="VM_CAD_Builders_BuilderParamTorus_RadiusMinor"></a> RadiusMinor
 
 ```csharp
 public double RadiusMinor { get; set; }
@@ -70,7 +70,7 @@ public double RadiusMinor { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UpDirection
+### <a id="VM_CAD_Builders_BuilderParamTorus_UpDirection"></a> UpDirection
 
 ```csharp
 public Vector UpDirection { get; set; }
@@ -79,5 +79,4 @@ public Vector UpDirection { get; set; }
 #### Property Value
 
  Vector
-
 

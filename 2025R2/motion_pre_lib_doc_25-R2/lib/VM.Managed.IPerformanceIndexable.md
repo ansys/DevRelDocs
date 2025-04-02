@@ -1,4 +1,4 @@
-# Interface IPerformanceIndexable
+#  Interface IPerformanceIndexable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IPerformanceIndexable
 
 ## Properties
 
-### UsePerformanceIndex
+### <a id="VM_Managed_IPerformanceIndexable_UsePerformanceIndex"></a> UsePerformanceIndex
 
 Gets or sets a value indicating whether this instance will be used as the peformance index in DOE simulation.
 
@@ -28,5 +28,4 @@ bool UsePerformanceIndex { get; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

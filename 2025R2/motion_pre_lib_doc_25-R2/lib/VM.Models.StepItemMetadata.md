@@ -1,4 +1,4 @@
-# Class StepItemMetadata
+#  Class StepItemMetadata
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -24,7 +24,7 @@ public class StepItemMetadata : IStepItemMetadata
 
 ## Constructors
 
-### StepItemMetadata\(\)
+### <a id="VM_Models_StepItemMetadata__ctor"></a> StepItemMetadata\(\)
 
 ```csharp
 public StepItemMetadata()
@@ -32,7 +32,7 @@ public StepItemMetadata()
 
 ## Properties
 
-### StepType
+### <a id="VM_Models_StepItemMetadata_StepType"></a> StepType
 
 ```csharp
 public Type StepType { get; set; }
@@ -41,5 +41,4 @@ public Type StepType { get; set; }
 #### Property Value
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
-
 

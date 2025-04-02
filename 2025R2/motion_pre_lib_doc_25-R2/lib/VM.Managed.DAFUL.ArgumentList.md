@@ -1,4 +1,4 @@
-# Class ArgumentList
+#  Class ArgumentList
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -97,7 +97,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ArgumentList\(\)
+### <a id="VM_Managed_DAFUL_ArgumentList__ctor"></a> ArgumentList\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentList" data-throw-if-not-resolved="false"></xref> class.
 
@@ -105,7 +105,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentList" dat
 public ArgumentList()
 ```
 
-### ArgumentList\(SubEntity\)
+### <a id="VM_Managed_DAFUL_ArgumentList__ctor_VM_Managed_SubEntity_"></a> ArgumentList\(SubEntity\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ArgumentList" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ The owner subentity.
 
 ## Properties
 
-### Arguments
+### <a id="VM_Managed_DAFUL_ArgumentList_Arguments"></a> Arguments
 
 Gets or sets the argument's link list.
 
@@ -133,7 +133,7 @@ public List<Link<IArgument, LinkContainer.Update, LinkContainer.Destroy, LinkCon
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Link<IArgument, LinkContainer.Update, LinkContainer.Destroy, LinkContainer.None\>\>
 
-### Count
+### <a id="VM_Managed_DAFUL_ArgumentList_Count"></a> Count
 
 Gets the count of argument's link list.
 
@@ -145,7 +145,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### this\[int\]
+### <a id="VM_Managed_DAFUL_ArgumentList_Item_System_Int32_"></a> this\[int\]
 
 Gets or sets the <xref href="VM.Models.Pre.IArgument" data-throw-if-not-resolved="false"></xref> with the specified index.
 
@@ -159,7 +159,7 @@ public IArgument this[int nIndex] { get; set; }
 
 ## Methods
 
-### Contains\(IArgument\)
+### <a id="VM_Managed_DAFUL_ArgumentList_Contains_VM_Models_Pre_IArgument_"></a> Contains\(IArgument\)
 
 Determines whether [contains] [the specified arg].
 
@@ -179,7 +179,7 @@ The arg.
 
 <code>true</code> if [contains] [the specified arg]; otherwise, <code>false</code>.
 
-### GetSchema\(\)
+### <a id="VM_Managed_DAFUL_ArgumentList_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <xref href="System.Xml.Serialization.XmlSchemaProviderAttribute" data-throw-if-not-resolved="false"></xref> to the class.
 
@@ -193,7 +193,7 @@ public XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_ArgumentList_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -211,7 +211,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### ReadTemplate\(XmlReader\)
+### <a id="VM_Managed_DAFUL_ArgumentList_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -225,7 +225,7 @@ public void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_ArgumentList_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -239,7 +239,7 @@ public void ReadXml(XmlReader reader)
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
-### WriteTemplate\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_ArgumentList_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -253,7 +253,7 @@ public void WriteTemplate(XmlWriter writer)
 
 The writer.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_ArgumentList_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -266,5 +266,4 @@ public void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
-
 

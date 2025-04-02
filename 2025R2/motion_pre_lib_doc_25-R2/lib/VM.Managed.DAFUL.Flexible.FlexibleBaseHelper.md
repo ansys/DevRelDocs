@@ -1,4 +1,4 @@
-# Class FlexibleBaseHelper
+#  Class FlexibleBaseHelper
 
 Namespace: [VM.Managed.DAFUL.Flexible](VM.Managed.DAFUL.Flexible.md)  
 Assembly: VMFlexibleBase.dll  
@@ -22,7 +22,7 @@ public static class FlexibleBaseHelper
 
 ## Methods
 
-### GetFacetOptionFromContainer\(IAttributeContainer\)
+### <a id="VM_Managed_DAFUL_Flexible_FlexibleBaseHelper_GetFacetOptionFromContainer_VM_Managed_IAttributeContainer_"></a> GetFacetOptionFromContainer\(IAttributeContainer\)
 
 ```csharp
 public static FacetOption GetFacetOptionFromContainer(IAttributeContainer container)
@@ -35,5 +35,4 @@ public static FacetOption GetFacetOptionFromContainer(IAttributeContainer contai
 #### Returns
 
  FacetOption
-
 

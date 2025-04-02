@@ -1,4 +1,4 @@
-# Class AddUnbalanceMassToRBE
+#  Class AddUnbalanceMassToRBE
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -58,7 +58,7 @@ BuilderBase<PseudoUnbalanceMassOnRBE\>.ErrorMessage
 
 ## Constructors
 
-### AddUnbalanceMassToRBE\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddUnbalanceMassToRBE__ctor"></a> AddUnbalanceMassToRBE\(\)
 
 ```csharp
 public AddUnbalanceMassToRBE()
@@ -66,7 +66,7 @@ public AddUnbalanceMassToRBE()
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddUnbalanceMassToRBE_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -81,5 +81,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

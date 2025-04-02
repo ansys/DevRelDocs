@@ -1,4 +1,4 @@
-# Class AttributeNoFaceset
+#  Class AttributeNoFaceset
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -99,12 +99,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeNoFaceset\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeNoFaceset__ctor"></a> AttributeNoFaceset\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AttributeNoFaceset" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public AttributeNoFaceset()
 ```
-
 

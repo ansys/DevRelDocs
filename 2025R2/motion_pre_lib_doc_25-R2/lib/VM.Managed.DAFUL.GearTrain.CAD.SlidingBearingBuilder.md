@@ -1,4 +1,4 @@
-# Class SlidingBearingBuilder
+#  Class SlidingBearingBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -244,7 +244,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SlidingBearingBuilder\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder__ctor"></a> SlidingBearingBuilder\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.SlidingBearingBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -252,7 +252,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Sli
 public SlidingBearingBuilder()
 ```
 
-### SlidingBearingBuilder\(SBGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder__ctor_VM_Managed_DAFUL_GearTrain_SBGeometryInfo_"></a> SlidingBearingBuilder\(SBGeometryInfo\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.SlidingBearingBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -268,7 +268,7 @@ The information.
 
 ## Properties
 
-### ConnectableEntity
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder_ConnectableEntity"></a> ConnectableEntity
 
 Gets the ConnectableEntity.
 
@@ -280,7 +280,7 @@ public IConnectable ConnectableEntity { get; }
 
  IConnectable
 
-### OffsetToAxisDirection
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder_OffsetToAxisDirection"></a> OffsetToAxisDirection
 
 Gets the offset to axis direction.
 
@@ -292,7 +292,7 @@ public override double OffsetToAxisDirection { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ReferenceOffset
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder_ReferenceOffset"></a> ReferenceOffset
 
 Gets or sets the reference offset.
 Use SetReferenceOffset() when this instance sets for undo/redo
@@ -305,7 +305,7 @@ public double ReferenceOffset { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ReferencePoint
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder_ReferencePoint"></a> ReferencePoint
 
 Gets or sets the reference point.
 Use SetReferencePoint() when this instance sets for undo/redo
@@ -318,7 +318,7 @@ public ReferencePointType ReferencePoint { get; set; }
 
  [ReferencePointType](VM.Managed.DAFUL.GearTrain.CAD.ReferencePointType.md)
 
-### Rotation
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder_Rotation"></a> Rotation
 
 Gets the rotation.
 
@@ -330,7 +330,7 @@ public OMatrix Rotation { get; set; }
 
  OMatrix
 
-### StartAngle
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder_StartAngle"></a> StartAngle
 
 Gets or sets the start angle.
 Use SetStartAngle() when this instance sets for undo/redo
@@ -343,7 +343,7 @@ public double StartAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### StartPoint
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder_StartPoint"></a> StartPoint
 
 Gets the start point.
 
@@ -357,7 +357,7 @@ public PointBase StartPoint { get; set; }
 
 ## Methods
 
-### CalculateRotation\(Vector, Vector, double\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder_CalculateRotation_VM_Managed_Vector_VM_Managed_Vector_System_Double_"></a> CalculateRotation\(Vector, Vector, double\)
 
 Calculates rotation.
 
@@ -383,7 +383,7 @@ The angle.
 
  TMatrix
 
-### CreateGeometryInHiddenDoc\(HiddenDocument, SBGeometryInfo, double, ReferencePointType, double\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder_CreateGeometryInHiddenDoc_VM_Managed_DAFUL_HiddenDocument_VM_Managed_DAFUL_GearTrain_SBGeometryInfo_System_Double_VM_Managed_DAFUL_GearTrain_CAD_ReferencePointType_System_Double_"></a> CreateGeometryInHiddenDoc\(HiddenDocument, SBGeometryInfo, double, ReferencePointType, double\)
 
 Creates geometries in hidden document.
 
@@ -419,7 +419,7 @@ The start angle.
 
 Sliding bearing geometry.
 
-### GetTransform\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder_GetTransform"></a> GetTransform\(\)
 
 Gets the transform for sliding bearing in Designer.
 
@@ -431,7 +431,7 @@ public override TMatrix GetTransform()
 
  TMatrix
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -445,7 +445,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### SetReferenceOffset\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder_SetReferenceOffset_System_Double_"></a> SetReferenceOffset\(double\)
 
 Set reference offset.
 
@@ -459,7 +459,7 @@ public void SetReferenceOffset(double dOffset)
 
 The reference offset.
 
-### SetReferencePoint\(ReferencePointType\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder_SetReferencePoint_VM_Managed_DAFUL_GearTrain_CAD_ReferencePointType_"></a> SetReferencePoint\(ReferencePointType\)
 
 Set reference point.
 
@@ -473,7 +473,7 @@ public void SetReferencePoint(ReferencePointType type)
 
 The reference point.
 
-### SetStartAngle\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingBuilder_SetStartAngle_System_Double_"></a> SetStartAngle\(double\)
 
 Set start angle.
 
@@ -486,5 +486,4 @@ public void SetStartAngle(double dAngle)
 `dAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 The angle.
-
 

@@ -1,4 +1,4 @@
-# Class CreateInstanceContainerForJournal
+#  Class CreateInstanceContainerForJournal
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### CreateInstanceContainerForJournal\(string, string, string, TransformBase\)
+### <a id="VM_Managed_DAFUL_Operation_CreateInstanceContainerForJournal__ctor_System_String_System_String_System_String_VM_Managed_TransformBase_"></a> CreateInstanceContainerForJournal\(string, string, string, TransformBase\)
 
 ```csharp
 public CreateInstanceContainerForJournal(string strXML, string strType, string strSubFilePath, TransformBase trans)
@@ -93,7 +93,7 @@ public CreateInstanceContainerForJournal(string strXML, string strType, string s
 
 `trans` TransformBase
 
-### CreateInstanceContainerForJournal\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_CreateInstanceContainerForJournal__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateInstanceContainerForJournal\(JournalParameter\)
 
 ```csharp
 public CreateInstanceContainerForJournal(JournalParameter jp)
@@ -105,7 +105,7 @@ public CreateInstanceContainerForJournal(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_CreateInstanceContainerForJournal_Name"></a> Name
 
 Gets the operation name.
 
@@ -119,7 +119,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_CreateInstanceContainerForJournal_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -127,7 +127,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Operation_CreateInstanceContainerForJournal_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -136,5 +136,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

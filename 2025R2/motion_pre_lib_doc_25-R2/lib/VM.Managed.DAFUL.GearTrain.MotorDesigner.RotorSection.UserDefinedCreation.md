@@ -1,4 +1,4 @@
-# Class MotorDesigner.RotorSection.UserDefinedCreation
+#  Class MotorDesigner.RotorSection.UserDefinedCreation
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -104,7 +104,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### UserDefinedCreation\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_UserDefinedCreation__ctor"></a> UserDefinedCreation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.RotorSection.UserDefinedCreation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ public UserDefinedCreation()
 
 ## Properties
 
-### InnerDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_UserDefinedCreation_InnerDiameter"></a> InnerDiameter
 
 Gets or sets the inner diameter.
 
@@ -126,7 +126,7 @@ public ExpressionValueVariable InnerDiameter { get; set; }
 
  ExpressionValueVariable
 
-### OuterDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_UserDefinedCreation_OuterDiameter"></a> OuterDiameter
 
 Gets or sets the outer diameter.
 
@@ -138,7 +138,7 @@ public ExpressionValueVariable OuterDiameter { get; set; }
 
  ExpressionValueVariable
 
-### TypeOfGeometryCreation
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_UserDefinedCreation_TypeOfGeometryCreation"></a> TypeOfGeometryCreation
 
 Gets the geometry creation type.
 
@@ -152,7 +152,7 @@ public override MotorDesigner.GeometryCreationType TypeOfGeometryCreation { get;
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_RotorSection_UserDefinedCreation_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -165,5 +165,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

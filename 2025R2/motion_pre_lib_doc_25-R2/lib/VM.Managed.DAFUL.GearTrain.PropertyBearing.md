@@ -1,4 +1,4 @@
-# Class PropertyBearing
+#  Class PropertyBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyBearing\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing__ctor"></a> PropertyBearing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertyBearing()
 
 ## Properties
 
-### AxialClearance
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_AxialClearance"></a> AxialClearance
 
 Gets or sets the axial clearance.
 Use SetAxialClearance() when this instance sets for undo/redo
@@ -188,7 +188,7 @@ public double AxialClearance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### BallColor
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_BallColor"></a> BallColor
 
 Gets or sets the ball color.
 Use SetBallColor() when this instance sets for undo/redo
@@ -201,7 +201,7 @@ public string BallColor { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### BallDrawingColor
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_BallDrawingColor"></a> BallDrawingColor
 
 Gets the ball color of the drawing.
 
@@ -213,7 +213,7 @@ public Color BallDrawingColor { get; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### BearingStiffness
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_BearingStiffness"></a> BearingStiffness
 
 Gets or sets the bearing stiffness.
 
@@ -225,7 +225,7 @@ public BearingStiffness BearingStiffness { get; set; }
 
  [BearingStiffness](VM.Managed.DAFUL.GearTrain.BearingStiffness.md)
 
-### BearingStrength
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_BearingStrength"></a> BearingStrength
 
 Gets or sets the bearing strength.
 
@@ -237,7 +237,7 @@ public BearingStrength BearingStrength { get; set; }
 
  [BearingStrength](VM.Managed.DAFUL.GearTrain.BearingStrength.md)
 
-### Color
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_Color"></a> Color
 
 Gets or sets the color.
 Use SetColor() when this instance sets for undo/redo
@@ -250,7 +250,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DampingRatio
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_DampingRatio"></a> DampingRatio
 
 Gets or sets the damping ratio.
 Use SetDampingRatio() when this instance sets for undo/redo
@@ -263,7 +263,7 @@ public double DampingRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### DampingRatioVariable
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_DampingRatioVariable"></a> DampingRatioVariable
 
 Gets or sets the damping ratio variable.
 
@@ -275,7 +275,7 @@ public ExpressionValueVariable DampingRatioVariable { get; set; }
 
  ExpressionValueVariable
 
-### Dimension
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_Dimension"></a> Dimension
 
 Gets or sets the dimension.
 
@@ -287,7 +287,7 @@ public BearingDimensionBase Dimension { get; set; }
 
  [BearingDimensionBase](VM.Managed.DAFUL.GearTrain.BearingDimensionBase.md)
 
-### DrawingColor
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_DrawingColor"></a> DrawingColor
 
 Gets the color of the drawing.
 
@@ -299,7 +299,7 @@ public Color DrawingColor { get; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### InnerCurvatureCenter
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_InnerCurvatureCenter"></a> InnerCurvatureCenter
 
 Gets or sets the inner curvature center.
 Use SetInnerCurvatureCenter() when this instance sets for undo/redo
@@ -312,7 +312,7 @@ public double InnerCurvatureCenter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### InnerGeomInfo
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_InnerGeomInfo"></a> InnerGeomInfo
 
 Gets or sets the inner geom information.
 
@@ -324,7 +324,7 @@ public RacewayGeometryInfo InnerGeomInfo { get; set; }
 
  [RacewayGeometryInfo](VM.Managed.DAFUL.GearTrain.RacewayGeometryInfo.md)
 
-### InnerRacewayColor
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_InnerRacewayColor"></a> InnerRacewayColor
 
 Gets or sets the inner raceway color.
 Use SetInnerRacewayColor() when this instance sets for undo/redo
@@ -337,7 +337,7 @@ public string InnerRacewayColor { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### InnerRacewayDrawingColor
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_InnerRacewayDrawingColor"></a> InnerRacewayDrawingColor
 
 Gets the inner raceway color of the drawing.
 
@@ -349,7 +349,7 @@ public Color InnerRacewayDrawingColor { get; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### NumberOfBall
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_NumberOfBall"></a> NumberOfBall
 
 Gets or sets the number of ball.
 Use SetNumberOfBall() when this instance sets for undo/redo
@@ -362,7 +362,7 @@ public uint NumberOfBall { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### OuterCurvatureCenter
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_OuterCurvatureCenter"></a> OuterCurvatureCenter
 
 Gets or sets the outer curvature center.
 Use SetOuterCurvatureCenter() when this instance sets for undo/redo
@@ -375,7 +375,7 @@ public double OuterCurvatureCenter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### OuterGeomInfo
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_OuterGeomInfo"></a> OuterGeomInfo
 
 Gets or sets the outer raceway geom information.
 
@@ -387,7 +387,7 @@ public RacewayGeometryInfo OuterGeomInfo { get; set; }
 
  [RacewayGeometryInfo](VM.Managed.DAFUL.GearTrain.RacewayGeometryInfo.md)
 
-### OuterRacewayColor
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_OuterRacewayColor"></a> OuterRacewayColor
 
 Gets or sets the outer raceway color.
 Use SetOuterRacewayColor() when this instance sets for undo/redo
@@ -400,7 +400,7 @@ public string OuterRacewayColor { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### OuterRacewayDrawingColor
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_OuterRacewayDrawingColor"></a> OuterRacewayDrawingColor
 
 Gets the outer raceway color of the drawing.
 
@@ -412,7 +412,7 @@ public Color OuterRacewayDrawingColor { get; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### RadialClearance
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_RadialClearance"></a> RadialClearance
 
 Gets or sets the radial clearance.
 Use SetRadialClearance() when this instance sets for undo/redo
@@ -425,7 +425,7 @@ public double RadialClearance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RadiusOfBall
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_RadiusOfBall"></a> RadiusOfBall
 
 Gets or sets the radius of ball.
 Use SetRadiusOfBall() when this instance sets for undo/redo
@@ -438,7 +438,7 @@ public double RadiusOfBall { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### StiffnessMatrix
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_StiffnessMatrix"></a> StiffnessMatrix
 
 Gets or sets the stiffness matrix.
 
@@ -450,7 +450,7 @@ public VariableMatrix StiffnessMatrix { get; set; }
 
  VariableMatrix
 
-### StiffnessType
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_StiffnessType"></a> StiffnessType
 
 Gets or sets the type of the stiffness.
 Use SetStiffnessType() when this instance sets for undo/redo
@@ -463,7 +463,7 @@ public PropertyBearing.enStiffnessType StiffnessType { get; set; }
 
  [PropertyBearing](VM.Managed.DAFUL.GearTrain.PropertyBearing.md).[enStiffnessType](VM.Managed.DAFUL.GearTrain.PropertyBearing.enStiffnessType.md)
 
-### Type
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_Type"></a> Type
 
 Gets or sets the type.
 Use SetType() when this instance sets for undo/redo
@@ -476,7 +476,7 @@ public PropertyBearing.enBearingType Type { get; set; }
 
  [PropertyBearing](VM.Managed.DAFUL.GearTrain.PropertyBearing.md).[enBearingType](VM.Managed.DAFUL.GearTrain.PropertyBearing.enBearingType.md)
 
-### UnloadContactAngle
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_UnloadContactAngle"></a> UnloadContactAngle
 
 Gets or sets the unload contact angle.
 Use SetUnloadContactAngle() when this instance sets for undo/redo
@@ -491,7 +491,7 @@ public double UnloadContactAngle { get; set; }
 
 ## Methods
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds the local.
 
@@ -509,7 +509,7 @@ Name of the string.
 
  IObjectBase
 
-### GetEffectiveStiffness\(Document\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_GetEffectiveStiffness_VM_Managed_Document_"></a> GetEffectiveStiffness\(Document\)
 
 Gets the effective stiffness.
 
@@ -529,7 +529,7 @@ The document
 
 The effective stiffness.
 
-### GetRacewayPair\(RacewayGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_GetRacewayPair_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_"></a> GetRacewayPair\(RacewayGeometryInfo\)
 
 Gets the raceway pair.
 
@@ -547,7 +547,7 @@ The information.
 
  [RacewayGeometryInfo](VM.Managed.DAFUL.GearTrain.RacewayGeometryInfo.md)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -561,7 +561,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -575,7 +575,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### SetAxialClearance\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetAxialClearance_System_Double_"></a> SetAxialClearance\(double\)
 
 Set axial clearance.
 
@@ -589,7 +589,7 @@ public void SetAxialClearance(double dAxialClearance)
 
 The axial clearance.
 
-### SetBallColor\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetBallColor_System_String_"></a> SetBallColor\(string\)
 
 Set ball color.
 
@@ -603,7 +603,7 @@ public void SetBallColor(string strColor)
 
 The ball color.
 
-### SetColor\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetColor_System_String_"></a> SetColor\(string\)
 
 Set color.
 
@@ -617,7 +617,7 @@ public void SetColor(string strColor)
 
 The color.
 
-### SetDampingRatio\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetDampingRatio_System_Double_"></a> SetDampingRatio\(double\)
 
 Set damping ratio.
 
@@ -631,7 +631,7 @@ public void SetDampingRatio(double dDampingRatio)
 
 The damping ratio.
 
-### SetInnerCurvatureCenter\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetInnerCurvatureCenter_System_Double_"></a> SetInnerCurvatureCenter\(double\)
 
 Set ionner curvature center.
 
@@ -645,7 +645,7 @@ public void SetInnerCurvatureCenter(double dInnerCurvatureCenter)
 
 The ionner curvature center.
 
-### SetInnerRacewayColor\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetInnerRacewayColor_System_String_"></a> SetInnerRacewayColor\(string\)
 
 Set inner raceway color.
 
@@ -659,7 +659,7 @@ public void SetInnerRacewayColor(string strColor)
 
 The inner raceway color.
 
-### SetNumberOfBall\(uint\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetNumberOfBall_System_UInt32_"></a> SetNumberOfBall\(uint\)
 
 Set number of ball.
 
@@ -673,7 +673,7 @@ public void SetNumberOfBall(uint dNumberOfBall)
 
 The number of ball.
 
-### SetOuterCurvatureCenter\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetOuterCurvatureCenter_System_Double_"></a> SetOuterCurvatureCenter\(double\)
 
 Set outer curvature center.
 
@@ -687,7 +687,7 @@ public void SetOuterCurvatureCenter(double dOuterCurvatureCenter)
 
 The outer curvature center.
 
-### SetOuterRacewayColor\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetOuterRacewayColor_System_String_"></a> SetOuterRacewayColor\(string\)
 
 Set outer raceway color.
 
@@ -701,7 +701,7 @@ public void SetOuterRacewayColor(string strColor)
 
 The outer raceway color.
 
-### SetRadialClearance\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetRadialClearance_System_Double_"></a> SetRadialClearance\(double\)
 
 Set radial clearance.
 
@@ -715,7 +715,7 @@ public void SetRadialClearance(double dRadialClearance)
 
 The radial clearance.
 
-### SetRadiusOfBall\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetRadiusOfBall_System_Double_"></a> SetRadiusOfBall\(double\)
 
 Set radius of ball.
 
@@ -729,7 +729,7 @@ public void SetRadiusOfBall(double dRadiusOfBall)
 
 The radius of ball.
 
-### SetStiffness\(SplineValue, SplineValue, SplineValue, Variable, Variable, Variable\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetStiffness_VM_Managed_DAFUL_SplineValue_VM_Managed_DAFUL_SplineValue_VM_Managed_DAFUL_SplineValue_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_"></a> SetStiffness\(SplineValue, SplineValue, SplineValue, Variable, Variable, Variable\)
 
 Sets the stiffness.
 
@@ -767,7 +767,7 @@ The maximum tilt stiffness variable value.
 
  [BearingStiffness](VM.Managed.DAFUL.GearTrain.BearingStiffness.md)
 
-### SetStiffnessType\(enStiffnessType\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetStiffnessType_VM_Managed_DAFUL_GearTrain_PropertyBearing_enStiffnessType_"></a> SetStiffnessType\(enStiffnessType\)
 
 Set stiffness type.
 
@@ -781,7 +781,7 @@ public void SetStiffnessType(PropertyBearing.enStiffnessType type)
 
 The stiffness type.
 
-### SetStrength\(Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetStrength_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_"></a> SetStrength\(Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable, Variable\)
 
 Sets the strength.
 
@@ -843,7 +843,7 @@ The L10.
 
  [BearingStrength](VM.Managed.DAFUL.GearTrain.BearingStrength.md)
 
-### SetType\(enBearingType\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetType_VM_Managed_DAFUL_GearTrain_PropertyBearing_enBearingType_"></a> SetType\(enBearingType\)
 
 Set type.
 
@@ -857,7 +857,7 @@ public void SetType(PropertyBearing.enBearingType type)
 
 The type.
 
-### SetUnloadContactAngle\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyBearing_SetUnloadContactAngle_System_Double_"></a> SetUnloadContactAngle\(double\)
 
 Set unload contact angle.
 
@@ -870,5 +870,4 @@ public void SetUnloadContactAngle(double dUnloadContactAngle)
 `dUnloadContactAngle` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 The unload contact angle.
-
 

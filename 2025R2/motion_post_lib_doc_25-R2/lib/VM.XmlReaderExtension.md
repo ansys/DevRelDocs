@@ -1,4 +1,4 @@
-# Class XmlReaderExtension
+#  Class XmlReaderExtension
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -11,12 +11,12 @@ public static class XmlReaderExtension
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [XmlReaderExtension](VM.XmlReaderExtension.md)
 
 ## Methods
 
-### ReadEndElementSafely\(XmlReader\)
+### <a id="VM_XmlReaderExtension_ReadEndElementSafely_System_Xml_XmlReader_"></a> ReadEndElementSafely\(XmlReader\)
 
 Read end-element, safely.
 

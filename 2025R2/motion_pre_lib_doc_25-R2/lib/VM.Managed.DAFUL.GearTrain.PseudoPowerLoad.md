@@ -1,4 +1,4 @@
-# Class PseudoPowerLoad
+#  Class PseudoPowerLoad
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -163,7 +163,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PseudoPowerLoad\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PseudoPowerLoad__ctor"></a> PseudoPowerLoad\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoPowerLoad" data-throw-if-not-resolved="false"></xref> class.
 
@@ -173,7 +173,7 @@ public PseudoPowerLoad()
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_PseudoPowerLoad_Name"></a> Name
 
 Gets or sets the name.
 
@@ -185,7 +185,7 @@ public override string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PowerLoadInformation
+### <a id="VM_Managed_DAFUL_GearTrain_PseudoPowerLoad_PowerLoadInformation"></a> PowerLoadInformation
 
 Gets or sets the power load information.
 
@@ -199,7 +199,7 @@ public PowerLoad PowerLoadInformation { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_GearTrain_PseudoPowerLoad_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the specified canvas.
 
@@ -217,7 +217,7 @@ The canvas.
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_PseudoPowerLoad_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -234,5 +234,4 @@ The object notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

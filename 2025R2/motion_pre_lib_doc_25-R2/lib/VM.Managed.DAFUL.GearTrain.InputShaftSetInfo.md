@@ -1,4 +1,4 @@
-# Class InputShaftSetInfo
+#  Class InputShaftSetInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### InputShaftSetInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_InputShaftSetInfo__ctor"></a> InputShaftSetInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.InputShaftSetInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public InputShaftSetInfo()
 
 ## Properties
 
-### InputShaftSet
+### <a id="VM_Managed_DAFUL_GearTrain_InputShaftSetInfo_InputShaftSet"></a> InputShaftSet
 
 Gets or sets the input shaft set.
 
@@ -118,7 +118,7 @@ public IHasPowerLoad InputShaftSet { get; set; }
 
  [IHasPowerLoad](VM.Managed.DAFUL.GearTrain.IHasPowerLoad.md)
 
-### IsCW
+### <a id="VM_Managed_DAFUL_GearTrain_InputShaftSetInfo_IsCW"></a> IsCW
 
 Gets or sets a value indicating whether this instance is cw.
 
@@ -130,7 +130,7 @@ public bool IsCW { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsExternable
+### <a id="VM_Managed_DAFUL_GearTrain_InputShaftSetInfo_IsExternable"></a> IsExternable
 
 Gets a value indicating whether this instance is Externable.
 
@@ -142,7 +142,7 @@ public override bool IsExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### \_InputShaftSet
+### <a id="VM_Managed_DAFUL_GearTrain_InputShaftSetInfo__InputShaftSet"></a> \_InputShaftSet
 
 Gets or sets the input shaft set.
 
@@ -156,7 +156,7 @@ public Linker<IHasPowerLoad> _InputShaftSet { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_InputShaftSetInfo_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 <p>Initializes member through unit convert factor.</p>
 
@@ -169,5 +169,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 <p>The unit convert factor.</p>
-
 

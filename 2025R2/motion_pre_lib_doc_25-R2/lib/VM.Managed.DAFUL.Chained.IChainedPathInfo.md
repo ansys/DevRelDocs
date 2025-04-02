@@ -1,4 +1,4 @@
-# Interface IChainedPathInfo
+#  Interface IChainedPathInfo
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -17,7 +17,7 @@ public interface IChainedPathInfo
 
 ## Methods
 
-### GetAssembledRadius\(\)
+### <a id="VM_Managed_DAFUL_Chained_IChainedPathInfo_GetAssembledRadius"></a> GetAssembledRadius\(\)
 
 Gets the assemble radius
 
@@ -31,7 +31,7 @@ Variable GetAssembledRadius()
 
 The assemble radius
 
-### GetCenterPosition\(\)
+### <a id="VM_Managed_DAFUL_Chained_IChainedPathInfo_GetCenterPosition"></a> GetCenterPosition\(\)
 
 Gets the center position.
 
@@ -45,7 +45,7 @@ PointBase GetCenterPosition()
 
 The center position.
 
-### GetPathRotationAxis\(\)
+### <a id="VM_Managed_DAFUL_Chained_IChainedPathInfo_GetPathRotationAxis"></a> GetPathRotationAxis\(\)
 
 Gets the rotation axis of path.
 
@@ -59,7 +59,7 @@ DirectionBase GetPathRotationAxis()
 
 The rotation axis.
 
-### Get\_WorkPlane\(\)
+### <a id="VM_Managed_DAFUL_Chained_IChainedPathInfo_Get_WorkPlane"></a> Get\_WorkPlane\(\)
 
 Get work plane.
 
@@ -73,7 +73,7 @@ Plane Get_WorkPlane()
 
 The plane
 
-### SetAssembledRadius\(Variable\)
+### <a id="VM_Managed_DAFUL_Chained_IChainedPathInfo_SetAssembledRadius_VM_Managed_Variable_"></a> SetAssembledRadius\(Variable\)
 
 Sets the assemble radius.
 
@@ -87,7 +87,7 @@ void SetAssembledRadius(Variable _assembledradius)
 
 The assemble radius
 
-### SetCenterPosition\(PointBase\)
+### <a id="VM_Managed_DAFUL_Chained_IChainedPathInfo_SetCenterPosition_VM_Managed_PointBase_"></a> SetCenterPosition\(PointBase\)
 
 Sets the center position.
 
@@ -101,7 +101,7 @@ void SetCenterPosition(PointBase _centerposition)
 
 The center position.
 
-### SetPathRotationAxis\(DirectionBase\)
+### <a id="VM_Managed_DAFUL_Chained_IChainedPathInfo_SetPathRotationAxis_VM_Managed_DirectionBase_"></a> SetPathRotationAxis\(DirectionBase\)
 
 Sets the rotation axis of path.
 
@@ -114,5 +114,4 @@ void SetPathRotationAxis(DirectionBase _rotationaxis)
 `_rotationaxis` DirectionBase
 
 The boolean value.
-
 

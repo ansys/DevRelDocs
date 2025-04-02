@@ -1,4 +1,4 @@
-# Class HiddenCreateInfo.Page
+#  Class HiddenCreateInfo.Page
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -22,7 +22,7 @@ public class HiddenCreateInfo.Page
 
 ## Constructors
 
-### Page\(\)
+### <a id="VM_Managed_DAFUL_HiddenCreateInfo_Page__ctor"></a> Page\(\)
 
 ```csharp
 public Page()
@@ -30,7 +30,7 @@ public Page()
 
 ## Fields
 
-### Assembly
+### <a id="VM_Managed_DAFUL_HiddenCreateInfo_Page_Assembly"></a> Assembly
 
 The assembly
 
@@ -42,7 +42,7 @@ public string Assembly
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Text
+### <a id="VM_Managed_DAFUL_HiddenCreateInfo_Page_Text"></a> Text
 
 The text
 
@@ -54,7 +54,7 @@ public string Text
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UserControl
+### <a id="VM_Managed_DAFUL_HiddenCreateInfo_Page_UserControl"></a> UserControl
 
 The usercontrol
 
@@ -66,7 +66,7 @@ public string UserControl
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### XPath
+### <a id="VM_Managed_DAFUL_HiddenCreateInfo_Page_XPath"></a> XPath
 
 The x path
 
@@ -77,5 +77,4 @@ public string XPath
 #### Field Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

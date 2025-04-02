@@ -1,4 +1,4 @@
-# Enum PropertyMotorEMForce.FileFormatType
+#  Enum PropertyMotorEMForce.FileFormatType
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,7 +26,6 @@ JMAG UNV
 `UNV = 0` 
 
 UNV
-
 
 
 

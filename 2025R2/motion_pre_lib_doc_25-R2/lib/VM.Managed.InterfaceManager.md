@@ -1,4 +1,4 @@
-# Class InterfaceManager
+#  Class InterfaceManager
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -150,7 +150,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### InterfaceManager\(\)
+### <a id="VM_Managed_InterfaceManager__ctor"></a> InterfaceManager\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.InterfaceManager" data-throw-if-not-resolved="false"></xref> class.
 
@@ -158,7 +158,7 @@ Initializes a new instance of the <xref href="VM.Managed.InterfaceManager" data-
 public InterfaceManager()
 ```
 
-### InterfaceManager\(InterfaceManager\)
+### <a id="VM_Managed_InterfaceManager__ctor_VM_Managed_InterfaceManager_"></a> InterfaceManager\(InterfaceManager\)
 
 Initializes a new instance of the <xref href="VM.Managed.InterfaceManager" data-throw-if-not-resolved="false"></xref> class.
 
@@ -174,7 +174,7 @@ The itf MGR.
 
 ## Properties
 
-### InterfaceInfos
+### <a id="VM_Managed_InterfaceManager_InterfaceInfos"></a> InterfaceInfos
 
 Gets or sets the interface info.
 
@@ -186,7 +186,7 @@ protected List<InterfaceManager.InterfaceInfo> InterfaceInfos { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[InterfaceManager](VM.Managed.InterfaceManager.md).[InterfaceInfo](VM.Managed.InterfaceManager.InterfaceInfo.md)\>
 
-### Interfaces
+### <a id="VM_Managed_InterfaceManager_Interfaces"></a> Interfaces
 
 Gets or sets the interfaces.
 
@@ -198,7 +198,7 @@ public IInterface[] Interfaces { get; set; }
 
  [IInterface](VM.Managed.IInterface.md)\[\]
 
-### IsExternable
+### <a id="VM_Managed_InterfaceManager_IsExternable"></a> IsExternable
 
 Gets a value indicating whether this instance is externable.
 
@@ -212,7 +212,7 @@ public override bool IsExternable { get; }
 
 ## Methods
 
-### Add\(IInterface\)
+### <a id="VM_Managed_InterfaceManager_Add_VM_Managed_IInterface_"></a> Add\(IInterface\)
 
 Adds the specified itf.
 
@@ -226,7 +226,7 @@ protected virtual void Add(IInterface itf)
 
 The itf.
 
-### AddInterface\(IInterface\)
+### <a id="VM_Managed_InterfaceManager_AddInterface_VM_Managed_IInterface_"></a> AddInterface\(IInterface\)
 
 Adds the interface to interface manager.
 
@@ -240,7 +240,7 @@ public void AddInterface(IInterface itf)
 
 The interface.
 
-### GetInterfaceNames\(IInterface\)
+### <a id="VM_Managed_InterfaceManager_GetInterfaceNames_VM_Managed_IInterface_"></a> GetInterfaceNames\(IInterface\)
 
 Gets the interface names.
 
@@ -260,7 +260,7 @@ The interface.
 
 The name container
 
-### GetInterfaceNames\(string\)
+### <a id="VM_Managed_InterfaceManager_GetInterfaceNames_System_String_"></a> GetInterfaceNames\(string\)
 
 Gets the interface names.
 
@@ -280,7 +280,7 @@ The full name of the interface.
 
 The name container
 
-### GetNumInterfaceObject\(\)
+### <a id="VM_Managed_InterfaceManager_GetNumInterfaceObject"></a> GetNumInterfaceObject\(\)
 
 Gets the number of interface object.
 
@@ -294,7 +294,7 @@ public int GetNumInterfaceObject()
 
 number of interface object
 
-### IsInterface\(IInterface\)
+### <a id="VM_Managed_InterfaceManager_IsInterface_VM_Managed_IInterface_"></a> IsInterface\(IInterface\)
 
 Determines whether the specified interface is interface.
 
@@ -314,7 +314,7 @@ The interface.
 
 <code>true</code> if the specified interface is interface; otherwise, <code>false</code>.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_InterfaceManager_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -332,7 +332,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### MakeXml\(object\)
+### <a id="VM_Managed_InterfaceManager_MakeXml_System_Object_"></a> MakeXml\(object\)
 
 Makes the interface information.
 
@@ -352,7 +352,7 @@ The object.
 
 The interface information
 
-### RemoveInterface\(IInterface\)
+### <a id="VM_Managed_InterfaceManager_RemoveInterface_VM_Managed_IInterface_"></a> RemoveInterface\(IInterface\)
 
 Removes the interface to interface manager.
 
@@ -366,7 +366,7 @@ public virtual void RemoveInterface(IInterface itf)
 
 The interface.
 
-### SetInterfaceNames\(IInterface, ICollection<string\>\)
+### <a id="VM_Managed_InterfaceManager_SetInterfaceNames_VM_Managed_IInterface_System_Collections_Generic_ICollection_System_String__"></a> SetInterfaceNames\(IInterface, ICollection<string\>\)
 
 Sets the interface names.
 
@@ -384,7 +384,7 @@ The itf.
 
 The STR list.
 
-### SetInterfaceNames\(IInterface, ArraySegment<string\>\)
+### <a id="VM_Managed_InterfaceManager_SetInterfaceNames_VM_Managed_IInterface_System_ArraySegment_System_String__"></a> SetInterfaceNames\(IInterface, ArraySegment<string\>\)
 
 Sets the interface names.
 
@@ -401,5 +401,4 @@ The itf.
 `strList` [ArraySegment](https://learn.microsoft.com/dotnet/api/system.arraysegment\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 The STR list.
-
 

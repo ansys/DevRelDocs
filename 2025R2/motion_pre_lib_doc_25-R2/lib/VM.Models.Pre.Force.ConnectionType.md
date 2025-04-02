@@ -1,4 +1,4 @@
-# Enum ConnectionType
+#  Enum ConnectionType
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -20,7 +20,6 @@ Bushing
 `Revolute = 0` 
 
 Revolute
-
 
 
 

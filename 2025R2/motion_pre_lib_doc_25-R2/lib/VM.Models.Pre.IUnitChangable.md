@@ -1,4 +1,4 @@
-# Interface IUnitChangable
+#  Interface IUnitChangable
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface IUnitChangable
 
 ## Methods
 
-### ChangeUnit\(Unit\)
+### <a id="VM_Models_Pre_IUnitChangable_ChangeUnit_VM_Unit_"></a> ChangeUnit\(Unit\)
 
 Changes the unit.
 
@@ -30,5 +30,4 @@ void ChangeUnit(Unit unit)
 `unit` Unit
 
 The unit.
-
 

@@ -1,4 +1,4 @@
-# Enum MarkerReferenceFrameType
+#  Enum MarkerReferenceFrameType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -44,7 +44,6 @@ rigid body
 `SubSystem = 1` 
 
 subsystem
-
 
 
 

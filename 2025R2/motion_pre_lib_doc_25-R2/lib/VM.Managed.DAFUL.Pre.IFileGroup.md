@@ -1,4 +1,4 @@
-# Interface IFileGroup
+#  Interface IFileGroup
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -17,7 +17,7 @@ public interface IFileGroup
 
 ## Properties
 
-### Path
+### <a id="VM_Managed_DAFUL_Pre_IFileGroup_Path"></a> Path
 
 Gets or sets the path.
 
@@ -28,5 +28,4 @@ string Path { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

@@ -1,4 +1,4 @@
-# Enum AngleTypes
+#  Enum AngleTypes
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -20,7 +20,6 @@ public enum AngleTypes
 `Radian = 1` 
 
 <p>Radian</p>
-
 
 
 

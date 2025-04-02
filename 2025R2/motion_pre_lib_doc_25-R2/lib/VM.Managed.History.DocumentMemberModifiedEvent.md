@@ -1,4 +1,4 @@
-# Class DocumentMemberModifiedEvent
+#  Class DocumentMemberModifiedEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -40,7 +40,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### DocumentMemberModifiedEvent\(Document, object\)
+### <a id="VM_Managed_History_DocumentMemberModifiedEvent__ctor_VM_Managed_Document_System_Object_"></a> DocumentMemberModifiedEvent\(Document, object\)
 
 ```csharp
 protected DocumentMemberModifiedEvent(Document doc, object obj)
@@ -52,7 +52,7 @@ protected DocumentMemberModifiedEvent(Document doc, object obj)
 
 `obj` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### DocumentMemberModifiedEvent\(\)
+### <a id="VM_Managed_History_DocumentMemberModifiedEvent__ctor"></a> DocumentMemberModifiedEvent\(\)
 
 ```csharp
 protected DocumentMemberModifiedEvent()
@@ -60,7 +60,7 @@ protected DocumentMemberModifiedEvent()
 
 ## Fields
 
-### m\_doc
+### <a id="VM_Managed_History_DocumentMemberModifiedEvent_m_doc"></a> m\_doc
 
 ```csharp
 protected Document m_doc
@@ -70,7 +70,7 @@ protected Document m_doc
 
  [Document](VM.Managed.Document.md)
 
-### m\_obj
+### <a id="VM_Managed_History_DocumentMemberModifiedEvent_m_obj"></a> m\_obj
 
 ```csharp
 protected object m_obj
@@ -82,7 +82,7 @@ protected object m_obj
 
 ## Methods
 
-### Clear\(bool\)
+### <a id="VM_Managed_History_DocumentMemberModifiedEvent_Clear_System_Boolean_"></a> Clear\(bool\)
 
 ```csharp
 protected override void Clear(bool bReserveReferenceCount)
@@ -91,5 +91,4 @@ protected override void Clear(bool bReserveReferenceCount)
 #### Parameters
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

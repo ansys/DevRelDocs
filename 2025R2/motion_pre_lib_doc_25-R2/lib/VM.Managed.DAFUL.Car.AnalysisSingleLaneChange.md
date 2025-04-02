@@ -1,4 +1,4 @@
-# Class AnalysisSingleLaneChange
+#  Class AnalysisSingleLaneChange
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -56,7 +56,7 @@ IHasInitialVel
 
 ## Constructors
 
-### AnalysisSingleLaneChange\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisSingleLaneChange__ctor"></a> AnalysisSingleLaneChange\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSingleLaneChange" data-throw-if-not-resolved="false"></xref> class.
 
@@ -64,7 +64,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSingl
 public AnalysisSingleLaneChange()
 ```
 
-### AnalysisSingleLaneChange\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisSingleLaneChange__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisSingleLaneChange\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisSingleLaneChange" data-throw-if-not-resolved="false"></xref> class.
 
@@ -80,7 +80,7 @@ The link container.
 
 ## Properties
 
-### InitialSteer
+### <a id="VM_Managed_DAFUL_Car_AnalysisSingleLaneChange_InitialSteer"></a> InitialSteer
 
 Gets or sets the initial steer value.
 
@@ -92,7 +92,7 @@ public double InitialSteer { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TireRadiusPosition
+### <a id="VM_Managed_DAFUL_Car_AnalysisSingleLaneChange_TireRadiusPosition"></a> TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -106,7 +106,7 @@ public override int TireRadiusPosition { get; }
 
 ## Methods
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisSingleLaneChange_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -119,5 +119,4 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
-
 

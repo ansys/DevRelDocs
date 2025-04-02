@@ -1,4 +1,4 @@
-# Class CouplerBase<T, TProp\>
+#  Class CouplerBase<T, TProp\>
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCP.dll  
@@ -38,7 +38,7 @@ Named<T\>.SymmetricManager
 
 ## Constructors
 
-### CouplerBase\(\)
+### <a id="VM_Managed_Symmetric_Constraints_CouplerBase_2__ctor"></a> CouplerBase\(\)
 
 ```csharp
 public CouplerBase()
@@ -46,7 +46,7 @@ public CouplerBase()
 
 ## Methods
 
-### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_Constraints_CouplerBase_2_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -79,5 +79,4 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

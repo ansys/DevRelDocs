@@ -1,4 +1,4 @@
-# Class RacewayGeometryForRBEInFE
+#  Class RacewayGeometryForRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -301,7 +301,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### RacewayGeometryForRBEInFE\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometryForRBEInFE__ctor"></a> RacewayGeometryForRBEInFE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RacewayGeometryForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -309,7 +309,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Rac
 public RacewayGeometryForRBEInFE()
 ```
 
-### RacewayGeometryForRBEInFE\(Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometryForRBEInFE__ctor_VM_Managed_CAD_Builder_"></a> RacewayGeometryForRBEInFE\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RacewayGeometryForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -325,7 +325,7 @@ The builder.
 
 ## Methods
 
-### TemperaryRacewayGeometry\(RacewayGeometryInfo, IConnectable, HiddenDocumentMeshBase, DirectionBase, OMatrix, bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometryForRBEInFE_TemperaryRacewayGeometry_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_Managed_DirectionBase_VM_Managed_OMatrix_System_Boolean_"></a> TemperaryRacewayGeometry\(RacewayGeometryInfo, IConnectable, HiddenDocumentMeshBase, DirectionBase, OMatrix, bool\)
 
 Temperaries the raceway geometry.
 
@@ -362,5 +362,4 @@ The flag for adding to document.
 #### Returns
 
  [RacewayGeometryForRBEInFE](VM.Managed.DAFUL.GearTrain.CAD.RacewayGeometryForRBEInFE.md)
-
 

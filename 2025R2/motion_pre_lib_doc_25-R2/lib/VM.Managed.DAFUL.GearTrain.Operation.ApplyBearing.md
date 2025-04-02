@@ -1,4 +1,4 @@
-# Class ApplyBearing
+#  Class ApplyBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -95,7 +95,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ApplyBearing\(GearTrainDocument, BodyToDTData\[\], bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyBearing__ctor_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_Managed_DAFUL_Dialog_GearTrain_BodyToDTData___System_Boolean_"></a> ApplyBearing\(GearTrainDocument, BodyToDTData\[\], bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ApplyBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -117,7 +117,7 @@ The data.
 
 The refresh flag.
 
-### ApplyBearing\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyBearing__ctor_VM_Managed_Operation_JournalParameter_"></a> ApplyBearing\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ApplyBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -133,7 +133,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyBearing_Name"></a> Name
 
 Gets the name.
 
@@ -147,12 +147,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplyBearing_Execute"></a> Execute\(\)
 
 Execute
 
 ```csharp
 public override void Execute()
 ```
-
 

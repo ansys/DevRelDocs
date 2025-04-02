@@ -1,4 +1,4 @@
-# Namespace VM.CAD.Kernel
+#  Namespace VM.CAD.Kernel
 
 ### Namespaces
 
@@ -123,5 +123,4 @@ This enum represents options for <xref href="VM.CAD.Kernel.Body" data-throw-if-n
  [Body.WrtieMessage](VM.CAD.Kernel.Body.WrtieMessage.md)
 
  [KernelObject.delGetFrom<TResult\>](VM.CAD.Kernel.KernelObject.delGetFrom\-1.md)
-
 

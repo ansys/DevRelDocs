@@ -1,4 +1,4 @@
-# Interface IMainThread
+#  Interface IMainThread
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -17,7 +17,7 @@ public interface IMainThread
 
 ## Properties
 
-### InvokeRequired
+### <a id="VM_Managed_DAFUL_Pre_IMainThread_InvokeRequired"></a> InvokeRequired
 
 Gets the invoke required status
 
@@ -31,7 +31,7 @@ bool InvokeRequired { get; }
 
 ## Methods
 
-### InvokeMainThread\(Action\)
+### <a id="VM_Managed_DAFUL_Pre_IMainThread_InvokeMainThread_System_Action_"></a> InvokeMainThread\(Action\)
 
 Invoke <xref href="System.Action" data-throw-if-not-resolved="false"></xref> to the main <xref href="System.Threading.Thread" data-throw-if-not-resolved="false"></xref>
 
@@ -44,5 +44,4 @@ void InvokeMainThread(Action action)
 `action` [Action](https://learn.microsoft.com/dotnet/api/system.action)
 
 The <xref href="System.Action" data-throw-if-not-resolved="false"></xref> to invoke.
-
 

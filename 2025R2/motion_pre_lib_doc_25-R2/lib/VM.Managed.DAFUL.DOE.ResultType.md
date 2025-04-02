@@ -1,4 +1,4 @@
-# Enum ResultType
+#  Enum ResultType
 
 Namespace: [VM.Managed.DAFUL.DOE](VM.Managed.DAFUL.DOE.md)  
 Assembly: VMDDOE.dll  
@@ -24,5 +24,4 @@ public enum ResultType
 `Min = 3` 
 
 `RMS = 7` 
-
 

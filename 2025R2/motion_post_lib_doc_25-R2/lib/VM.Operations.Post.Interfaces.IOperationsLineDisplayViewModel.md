@@ -1,4 +1,4 @@
-# Interface IOperationsLineDisplayViewModel
+#  Interface IOperationsLineDisplayViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -71,7 +71,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### Color
+### <a id="VM_Operations_Post_Interfaces_IOperationsLineDisplayViewModel_Color"></a> Color
 
 Gets or sets the color of the arrows in the vector display.
 
@@ -91,7 +91,7 @@ For an example that includes this property, see the [Interface IOperationsLineDi
 
 Use this property to specify or retrieve the color of the arrows in the vector display.
 
-### Width
+### <a id="VM_Operations_Post_Interfaces_IOperationsLineDisplayViewModel_Width"></a> Width
 
 Gets or sets the width of the arrows in the vector display.
 

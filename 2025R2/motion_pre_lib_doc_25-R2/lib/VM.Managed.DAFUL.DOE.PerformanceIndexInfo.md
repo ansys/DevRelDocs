@@ -1,4 +1,4 @@
-# Class PerformanceIndexInfo
+#  Class PerformanceIndexInfo
 
 Namespace: [VM.Managed.DAFUL.DOE](VM.Managed.DAFUL.DOE.md)  
 Assembly: VMDDOE.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PerformanceIndexInfo\(\)
+### <a id="VM_Managed_DAFUL_DOE_PerformanceIndexInfo__ctor"></a> PerformanceIndexInfo\(\)
 
 ```csharp
 public PerformanceIndexInfo()
@@ -108,7 +108,7 @@ public PerformanceIndexInfo()
 
 ## Properties
 
-### MaximumTime
+### <a id="VM_Managed_DAFUL_DOE_PerformanceIndexInfo_MaximumTime"></a> MaximumTime
 
 ```csharp
 public double MaximumTime { get; set; }
@@ -118,7 +118,7 @@ public double MaximumTime { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MinimumTime
+### <a id="VM_Managed_DAFUL_DOE_PerformanceIndexInfo_MinimumTime"></a> MinimumTime
 
 ```csharp
 public double MinimumTime { get; set; }
@@ -128,7 +128,7 @@ public double MinimumTime { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TypeOfResult
+### <a id="VM_Managed_DAFUL_DOE_PerformanceIndexInfo_TypeOfResult"></a> TypeOfResult
 
 ```csharp
 public ResultType TypeOfResult { get; set; }
@@ -138,7 +138,7 @@ public ResultType TypeOfResult { get; set; }
 
  [ResultType](VM.Managed.DAFUL.DOE.ResultType.md)
 
-### UseDown
+### <a id="VM_Managed_DAFUL_DOE_PerformanceIndexInfo_UseDown"></a> UseDown
 
 ```csharp
 public bool UseDown { get; set; }
@@ -148,7 +148,7 @@ public bool UseDown { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Weight\_Factor
+### <a id="VM_Managed_DAFUL_DOE_PerformanceIndexInfo_Weight_Factor"></a> Weight\_Factor
 
 ```csharp
 public double Weight_Factor { get; set; }
@@ -160,7 +160,7 @@ public double Weight_Factor { get; set; }
 
 ## Methods
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_DOE_PerformanceIndexInfo_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -177,5 +177,4 @@ The linked object.
 `arg` LinkEventArgs
 
 The update event information.
-
 

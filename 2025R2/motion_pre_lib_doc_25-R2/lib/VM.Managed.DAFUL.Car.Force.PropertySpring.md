@@ -1,4 +1,4 @@
-# Class PropertySpring
+#  Class PropertySpring
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -174,7 +174,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertySpring\(\)
+### <a id="VM_Managed_DAFUL_Car_Force_PropertySpring__ctor"></a> PropertySpring\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertySpring" data-throw-if-not-resolved="false"></xref> class.
 
@@ -182,7 +182,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.Propert
 public PropertySpring()
 ```
 
-### PropertySpring\(string, string\)
+### <a id="VM_Managed_DAFUL_Car_Force_PropertySpring__ctor_System_String_System_String_"></a> PropertySpring\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertySpring" data-throw-if-not-resolved="false"></xref> class.
 
@@ -202,7 +202,7 @@ The build information.
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Car_Force_PropertySpring_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -214,7 +214,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### FreeLength
+### <a id="VM_Managed_DAFUL_Car_Force_PropertySpring_FreeLength"></a> FreeLength
 
 Gets or sets the length of the free.
 
@@ -226,7 +226,7 @@ public ExpressionValueVariable FreeLength { get; set; }
 
  ExpressionValueVariable
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Car_Force_PropertySpring_ReferenceType"></a> ReferenceType
 
 Gets the type of the reference.
 
@@ -238,7 +238,7 @@ public override string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SpringSpline
+### <a id="VM_Managed_DAFUL_Car_Force_PropertySpring_SpringSpline"></a> SpringSpline
 
 Gets or sets the spring spline.
 
@@ -252,7 +252,7 @@ public Spline SpringSpline { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Car_Force_PropertySpring_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -265,5 +265,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

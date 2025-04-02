@@ -1,4 +1,4 @@
-# Class Shell
+#  Class Shell
 
 Namespace: [VM.Models.FE.Mesh.Properties](VM.Models.FE.Mesh.Properties.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -39,7 +39,7 @@ public class Shell : Solid, IEntity
 
 ## Constructors
 
-### Shell\(\)
+### <a id="VM_Models_FE_Mesh_Properties_Shell__ctor"></a> Shell\(\)
 
 ```csharp
 public Shell()
@@ -47,7 +47,7 @@ public Shell()
 
 ## Properties
 
-### Thickness
+### <a id="VM_Models_FE_Mesh_Properties_Shell_Thickness"></a> Thickness
 
 ```csharp
 [Column]
@@ -60,7 +60,7 @@ public double Thickness { get; set; }
 
 ## Methods
 
-### Equals\(object\)
+### <a id="VM_Models_FE_Mesh_Properties_Shell_Equals_System_Object_"></a> Equals\(object\)
 
 ```csharp
 public override bool Equals(object obj)
@@ -73,5 +73,4 @@ public override bool Equals(object obj)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

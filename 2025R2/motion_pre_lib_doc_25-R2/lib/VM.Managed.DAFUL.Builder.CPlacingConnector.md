@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Builder.CPlacingConnector
+#  Namespace VM.Managed.DAFUL.Builder.CPlacingConnector
 
 ### Classes
 
@@ -9,5 +9,4 @@
  [Pin](VM.Managed.DAFUL.Builder.CPlacingConnector.Pin.md)
 
  [Pulley](VM.Managed.DAFUL.Builder.CPlacingConnector.Pulley.md)
-
 

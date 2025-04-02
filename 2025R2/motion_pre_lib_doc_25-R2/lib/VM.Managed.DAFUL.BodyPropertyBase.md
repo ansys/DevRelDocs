@@ -1,4 +1,4 @@
-# Class BodyPropertyBase
+#  Class BodyPropertyBase
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BodyPropertyBase\(\)
+### <a id="VM_Managed_DAFUL_BodyPropertyBase__ctor"></a> BodyPropertyBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.BodyPropertyBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public BodyPropertyBase()
 
 ## Properties
 
-### CenterMarker
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_CenterMarker"></a> CenterMarker
 
 Gets or sets the center marker.
 
@@ -191,7 +191,7 @@ public CenterMarker CenterMarker { get; set; }
 
  [CenterMarker](VM.Managed.DAFUL.CenterMarker.md)
 
-### InitVel
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitVel"></a> InitVel
 
 Gets or sets the initial velocity.
 
@@ -203,7 +203,7 @@ public BodyPropertyBase.InitialVelocity InitVel { get; set; }
 
  [BodyPropertyBase](VM.Managed.DAFUL.BodyPropertyBase.md).[InitialVelocity](VM.Managed.DAFUL.BodyPropertyBase.InitialVelocity.md)
 
-### IsExternable
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_IsExternable"></a> IsExternable
 
 Gets a value indicating whether this instance is externable.
 
@@ -215,7 +215,7 @@ public override bool IsExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Markers
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_Markers"></a> Markers
 
 Gets or sets marker dictionary.
 
@@ -227,7 +227,7 @@ public NamedObjectDictionary<Marker> Markers { get; set; }
 
  NamedObjectDictionary<[Marker](VM.Managed.DAFUL.Marker.md)\>
 
-### MassValue
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_MassValue"></a> MassValue
 
 Gets the mass.
 
@@ -239,7 +239,7 @@ public abstract double MassValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MomentOfInertiaValue
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_MomentOfInertiaValue"></a> MomentOfInertiaValue
 
 Gets the moment of inertia.
 
@@ -251,7 +251,7 @@ public abstract double[] MomentOfInertiaValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### SymmetricManagers
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_SymmetricManagers"></a> SymmetricManagers
 
 Gets or sets the symmetric manager dictionary.
 
@@ -265,7 +265,7 @@ public NamedObjectDictionary<SymmetricManager> SymmetricManagers { get; set; }
 
 ## Methods
 
-### AddMarker\(Marker\)
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_AddMarker_VM_Managed_DAFUL_Marker_"></a> AddMarker\(Marker\)
 
 Add marker
 
@@ -279,7 +279,7 @@ public void AddMarker(Marker marker)
 
 The marker
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -299,7 +299,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -313,7 +313,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -331,7 +331,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -344,5 +344,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

@@ -1,4 +1,4 @@
-# Class ConVelBBPDDD
+#  Class ConVelBBPDDD
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  
@@ -61,10 +61,9 @@ BuilderBase<Convel\>.ErrorMessage
 
 ## Constructors
 
-### ConVelBBPDDD\(\)
+### <a id="VM_Managed_DAFUL_Builder_Constraints_ConVelBBPDDD__ctor"></a> ConVelBBPDDD\(\)
 
 ```csharp
 public ConVelBBPDDD()
 ```
-
 

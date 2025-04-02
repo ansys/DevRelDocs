@@ -1,4 +1,4 @@
-# Enum PropertyConvectionBase.ConvectionMatrix
+#  Enum PropertyConvectionBase.ConvectionMatrix
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -20,7 +20,6 @@ Consistent
 `Diagonal = 1` 
 
 Diagonal
-
 
 
 

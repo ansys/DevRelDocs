@@ -1,4 +1,4 @@
-# Class FilteringTarget
+#  Class FilteringTarget
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class FilteringTarget
 
 ## Constructors
 
-### FilteringTarget\(ObjectBase\)
+### <a id="VM_Managed_Picker_Core_FilteringTarget__ctor_VM_Managed_ObjectBase_"></a> FilteringTarget\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.FilteringTarget" data-throw-if-not-resolved="false"></xref> class
 
@@ -36,7 +36,7 @@ public FilteringTarget(ObjectBase obj)
 
 ## Properties
 
-### IsReplace
+### <a id="VM_Managed_Picker_Core_FilteringTarget_IsReplace"></a> IsReplace
 
 Gets the flag indicating whether object is replaced.
 
@@ -48,7 +48,7 @@ public bool IsReplace { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### OriginalObject
+### <a id="VM_Managed_Picker_Core_FilteringTarget_OriginalObject"></a> OriginalObject
 
 Gets the original object for filtering.
 
@@ -60,7 +60,7 @@ public ObjectBase OriginalObject { get; }
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### ReplaceObject
+### <a id="VM_Managed_Picker_Core_FilteringTarget_ReplaceObject"></a> ReplaceObject
 
 Gets or sets the replaced object for filtering.
 
@@ -71,5 +71,4 @@ public ObjectBase ReplaceObject { get; set; }
 #### Property Value
 
  [ObjectBase](VM.Managed.ObjectBase.md)
-
 

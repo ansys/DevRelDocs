@@ -1,4 +1,4 @@
-# Class PropertyXmlSerializer<TProperty\>
+#  Class PropertyXmlSerializer<TProperty\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -27,7 +27,7 @@ AbstractXmlSerializer<TProperty\> ←
 
 ## Constructors
 
-### PropertyXmlSerializer\(\)
+### <a id="VM_Managed_PropertyXmlSerializer_1__ctor"></a> PropertyXmlSerializer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.PropertyXmlSerializer%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -35,7 +35,7 @@ Initializes a new instance of the <xref href="VM.Managed.PropertyXmlSerializer%6
 protected PropertyXmlSerializer()
 ```
 
-### PropertyXmlSerializer\(TProperty\)
+### <a id="VM_Managed_PropertyXmlSerializer_1__ctor__0_"></a> PropertyXmlSerializer\(TProperty\)
 
 Initializes a new instance of the <xref href="VM.Managed.PropertyXmlSerializer%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -51,7 +51,7 @@ The property.
 
 ## Methods
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_PropertyXmlSerializer_1_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Reads the XML.
 
@@ -65,7 +65,7 @@ public override void ReadXml(XmlReader reader)
 
 The reader.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_PropertyXmlSerializer_1_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Writes the XML.
 
@@ -81,7 +81,7 @@ The writer.
 
 ## Operators
 
-### implicit operator PropertyXmlSerializer<TProperty\>\(TProperty\)
+### <a id="VM_Managed_PropertyXmlSerializer_1_op_Implicit__0__VM_Managed_PropertyXmlSerializer__0_"></a> implicit operator PropertyXmlSerializer<TProperty\>\(TProperty\)
 
 Performs an implicit conversion from <xref href="VM.Managed.Property" data-throw-if-not-resolved="false"></xref> to <xref href="VM.Managed.PropertyXmlSerializer%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -100,5 +100,4 @@ The prop.
  [PropertyXmlSerializer](VM.Managed.PropertyXmlSerializer\-1.md)<TProperty\>
 
 The result of the conversion.
-
 

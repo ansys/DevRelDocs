@@ -1,4 +1,4 @@
-# Class BuilderParamSubtract
+#  Class BuilderParamSubtract
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -35,10 +35,9 @@ public class BuilderParamSubtract : BuilderParamPair
 
 ## Constructors
 
-### BuilderParamSubtract\(\)
+### <a id="VM_CAD_Builders_BuilderParamSubtract__ctor"></a> BuilderParamSubtract\(\)
 
 ```csharp
 public BuilderParamSubtract()
 ```
-
 

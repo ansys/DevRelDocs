@@ -1,4 +1,4 @@
-# Class Canvas
+#  Class Canvas
 
 Namespace: [VM.CAD.Kernel.Render](VM.CAD.Kernel.Render.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -30,7 +30,7 @@ public sealed class Canvas : KernelObject, IDrawReference
 
 ## Properties
 
-### BackplaneCull
+### <a id="VM_CAD_Kernel_Render_Canvas_BackplaneCull"></a> BackplaneCull
 
 Sets the back plane cull.
 
@@ -42,7 +42,7 @@ public bool BackplaneCull { set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Color
+### <a id="VM_CAD_Kernel_Render_Canvas_Color"></a> Color
 
 Sets the color.
 
@@ -54,7 +54,7 @@ public Color Color { set; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### Document
+### <a id="VM_CAD_Kernel_Render_Canvas_Document"></a> Document
 
 Gets the Document
 
@@ -66,7 +66,7 @@ public IDocument3D Document { get; }
 
  IDocument3D
 
-### LightInterpolationOption
+### <a id="VM_CAD_Kernel_Render_Canvas_LightInterpolationOption"></a> LightInterpolationOption
 
 Sets the light interpolation option.
 
@@ -78,7 +78,7 @@ public LightInterpolationOptionType LightInterpolationOption { set; }
 
  [LightInterpolationOptionType](VM.CAD.Kernel.Render.LightInterpolationOptionType.md)
 
-### LineShape
+### <a id="VM_CAD_Kernel_Render_Canvas_LineShape"></a> LineShape
 
 Sets the line shape.
 
@@ -90,7 +90,7 @@ public LineType LineShape { set; }
 
  [LineType](VM.CAD.Kernel.Render.LineType.md)
 
-### LineWeight
+### <a id="VM_CAD_Kernel_Render_Canvas_LineWeight"></a> LineWeight
 
 Sets the line weight.
 
@@ -102,7 +102,7 @@ public double LineWeight { set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TextSize
+### <a id="VM_CAD_Kernel_Render_Canvas_TextSize"></a> TextSize
 
 Set the text size.
 
@@ -114,7 +114,7 @@ public double TextSize { set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Transparency
+### <a id="VM_CAD_Kernel_Render_Canvas_Transparency"></a> Transparency
 
 Sets the transparency.
 
@@ -126,7 +126,7 @@ public double Transparency { set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### WireframeMode
+### <a id="VM_CAD_Kernel_Render_Canvas_WireframeMode"></a> WireframeMode
 
 Sets the wire frame mode.
 
@@ -140,7 +140,7 @@ public bool WireframeMode { set; }
 
 ## Methods
 
-### AppendModellingMatrix\(TMatrix\)
+### <a id="VM_CAD_Kernel_Render_Canvas_AppendModellingMatrix_VM_TMatrix_"></a> AppendModellingMatrix\(TMatrix\)
 
 Append modelling matrix.
 
@@ -154,7 +154,7 @@ public void AppendModellingMatrix(TMatrix mat)
 
 The transformation matrix
 
-### Clear\(\)
+### <a id="VM_CAD_Kernel_Render_Canvas_Clear"></a> Clear\(\)
 
 Clear canvas.
 
@@ -162,7 +162,7 @@ Clear canvas.
 public void Clear()
 ```
 
-### Create\(IDocument3D, bool\)
+### <a id="VM_CAD_Kernel_Render_Canvas_Create_VM_Models_Pre_IDocument3D_System_Boolean_"></a> Create\(IDocument3D, bool\)
 
 Create a new instance of the <xref href="VM.CAD.Kernel.Render.Canvas" data-throw-if-not-resolved="false"></xref> class
 
@@ -184,7 +184,7 @@ true if to create thread-safe canvas, otherwise false.
 
  [Canvas](VM.CAD.Kernel.Render.Canvas.md)
 
-### Create\(UIntPtr, IDocument3D, bool\)
+### <a id="VM_CAD_Kernel_Render_Canvas_Create_System_UIntPtr_VM_Models_Pre_IDocument3D_System_Boolean_"></a> Create\(UIntPtr, IDocument3D, bool\)
 
 Create a new instance of the <xref href="VM.CAD.Kernel.Render.Canvas" data-throw-if-not-resolved="false"></xref> class
 
@@ -210,7 +210,7 @@ true if to create thread-safe canvas, otherwise false.
 
  [Canvas](VM.CAD.Kernel.Render.Canvas.md)
 
-### DisplayTheFront\(double\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DisplayTheFront_System_Double_"></a> DisplayTheFront\(double\)
 
 Display front above all.
 
@@ -224,7 +224,7 @@ public void DisplayTheFront(double dDepthRange = -1)
 
 The depth range. If it is negative value, default value will be used.
 
-### DrawArc\(Vector, Vector, Vector\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawArc_VM_Vector_VM_Vector_VM_Vector_"></a> DrawArc\(Vector, Vector, Vector\)
 
 Draw arc.
 
@@ -250,7 +250,7 @@ The third point
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawArrow\(Vector, Vector, double\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawArrow_VM_Vector_VM_Vector_System_Double_"></a> DrawArrow\(Vector, Vector, double\)
 
 Draw arrow.
 
@@ -276,7 +276,7 @@ The arrow size. If dArrowSize is negative or zero value, default value will be u
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawCircle\(Vector, double, Vector, bool\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawCircle_VM_Vector_System_Double_VM_Vector_System_Boolean_"></a> DrawCircle\(Vector, double, Vector, bool\)
 
 Draw circle.
 
@@ -306,7 +306,7 @@ The fill flag
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawCylinder\(Vector, Vector, double, bool, bool\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawCylinder_VM_Vector_VM_Vector_System_Double_System_Boolean_System_Boolean_"></a> DrawCylinder\(Vector, Vector, double, bool, bool\)
 
 Draw cylinder.
 
@@ -346,7 +346,7 @@ if first cap and second cap is true, "both";
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawCylinder\(Vector, Vector, double, string\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawCylinder_VM_Vector_VM_Vector_System_Double_System_String_"></a> DrawCylinder\(Vector, Vector, double, string\)
 
 Draw cylinder.
 
@@ -376,7 +376,7 @@ String specifying which ends to cap, either "first", "second", "none", or "both"
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawDimension\(Vector, string\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawDimension_VM_Vector_System_String_"></a> DrawDimension\(Vector, string\)
 
 Draws the dimension.
 
@@ -398,7 +398,7 @@ The string text.
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawIcon\(IconInfo\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawIcon_VM_CAD_Kernel_Render_IconInfo_"></a> DrawIcon\(IconInfo\)
 
 Draw icon.
 
@@ -412,7 +412,7 @@ public void DrawIcon(IconInfo iconInfo)
 
 The icon information
 
-### DrawIcon\(IconInfo, double\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawIcon_VM_CAD_Kernel_Render_IconInfo_System_Double_"></a> DrawIcon\(IconInfo, double\)
 
 Draw icon.
 
@@ -430,7 +430,7 @@ The icon information
 
 The scale
 
-### DrawLine\(Vector, Vector\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawLine_VM_Vector_VM_Vector_"></a> DrawLine\(Vector, Vector\)
 
 Draw line.
 
@@ -452,7 +452,7 @@ The end point
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawMarker\(Vector\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawMarker_VM_Vector_"></a> DrawMarker\(Vector\)
 
 Draw marker.
 
@@ -470,7 +470,7 @@ The center point
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawMesh\(int, int, ICollection<Vector\>\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawMesh_System_Int32_System_Int32_System_Collections_Generic_ICollection_VM_Vector__"></a> DrawMesh\(int, int, ICollection<Vector\>\)
 
 Draw mesh.
 
@@ -496,7 +496,7 @@ The collection of points
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawMesh\(int, int, Vector\[\]\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawMesh_System_Int32_System_Int32_VM_Vector___"></a> DrawMesh\(int, int, Vector\[\]\)
 
 Draw mesh.
 
@@ -522,7 +522,7 @@ The array of points
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawNurbs\(int, int, int, int, ICollection<Vector\>, ICollection<float\>, ICollection<float\>, ICollection<float\>\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawNurbs_System_Int32_System_Int32_System_Int32_System_Int32_System_Collections_Generic_ICollection_VM_Vector__System_Collections_Generic_ICollection_System_Single__System_Collections_Generic_ICollection_System_Single__System_Collections_Generic_ICollection_System_Single__"></a> DrawNurbs\(int, int, int, int, ICollection<Vector\>, ICollection<float\>, ICollection<float\>, ICollection<float\>\)
 
 Draw nurbs.
 
@@ -568,7 +568,7 @@ Knot sequence in the v direction
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawNurbs\(int, int, int, int, Vector\[\], float\[\], float\[\], float\[\]\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawNurbs_System_Int32_System_Int32_System_Int32_System_Int32_VM_Vector___System_Single___System_Single___System_Single___"></a> DrawNurbs\(int, int, int, int, Vector\[\], float\[\], float\[\], float\[\]\)
 
 Draw nurbs.
 
@@ -614,7 +614,7 @@ Knot sequence in the v direction
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawPolygon\(ICollection<Vector\>\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawPolygon_System_Collections_Generic_ICollection_VM_Vector__"></a> DrawPolygon\(ICollection<Vector\>\)
 
 Draw polygon.
 
@@ -632,7 +632,7 @@ The collection of points
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawPolygon\(Vector\[\]\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawPolygon_VM_Vector___"></a> DrawPolygon\(Vector\[\]\)
 
 Draw polygon.
 
@@ -650,7 +650,7 @@ The array of points
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawPolyline\(ICollection<Vector\>\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawPolyline_System_Collections_Generic_ICollection_VM_Vector__"></a> DrawPolyline\(ICollection<Vector\>\)
 
 Draw polyline.
 
@@ -668,7 +668,7 @@ The collection of points
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawPolyline\(Vector\[\]\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawPolyline_VM_Vector___"></a> DrawPolyline\(Vector\[\]\)
 
 Draw polyline.
 
@@ -686,7 +686,7 @@ The array of points
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawShell\(ICollection<Vector\>, ICollection<int\>, double\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawShell_System_Collections_Generic_ICollection_VM_Vector__System_Collections_Generic_ICollection_System_Int32__System_Double_"></a> DrawShell\(ICollection<Vector\>, ICollection<int\>, double\)
 
 Draw shell.
 
@@ -712,7 +712,7 @@ The scale to draw.
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawShell\(Vector\[\], int\[\], double\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawShell_VM_Vector___System_Int32___System_Double_"></a> DrawShell\(Vector\[\], int\[\], double\)
 
 Draw shell.
 
@@ -738,7 +738,7 @@ The scale factor to draw.
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawShellWithFaceNormal\(ICollection<Vector\>, ICollection<int\>, ICollection<Vector\>\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawShellWithFaceNormal_System_Collections_Generic_ICollection_VM_Vector__System_Collections_Generic_ICollection_System_Int32__System_Collections_Generic_ICollection_VM_Vector__"></a> DrawShellWithFaceNormal\(ICollection<Vector\>, ICollection<int\>, ICollection<Vector\>\)
 
 Draw shell with face normal.
 
@@ -764,7 +764,7 @@ The collection of face normal vectors.
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawShellWithFaceNormal\(Vector\[\], int\[\], Vector\[\]\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawShellWithFaceNormal_VM_Vector___System_Int32___VM_Vector___"></a> DrawShellWithFaceNormal\(Vector\[\], int\[\], Vector\[\]\)
 
 Draw shell with face normal.
 
@@ -790,7 +790,7 @@ The array of face normal vectors.
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawShellWithVertexNormal\(ICollection<Vector\>, ICollection<int\>, ICollection<Vector\>\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawShellWithVertexNormal_System_Collections_Generic_ICollection_VM_Vector__System_Collections_Generic_ICollection_System_Int32__System_Collections_Generic_ICollection_VM_Vector__"></a> DrawShellWithVertexNormal\(ICollection<Vector\>, ICollection<int\>, ICollection<Vector\>\)
 
 Draw shell with vertex normal.
 
@@ -816,7 +816,7 @@ The collection of vertex normal vectors.
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawShellWithVertexNormal\(Vector\[\], int\[\], Vector\[\]\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawShellWithVertexNormal_VM_Vector___System_Int32___VM_Vector___"></a> DrawShellWithVertexNormal\(Vector\[\], int\[\], Vector\[\]\)
 
 Draw shell with vertex normal.
 
@@ -842,7 +842,7 @@ The array of vertex normal vectors.
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawSphere\(Vector, double\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawSphere_VM_Vector_System_Double_"></a> DrawSphere\(Vector, double\)
 
 Draw sphere.
 
@@ -864,7 +864,7 @@ The radius
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawSphere\(Vector, double, Vector, Vector\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawSphere_VM_Vector_System_Double_VM_Vector_VM_Vector_"></a> DrawSphere\(Vector, double, Vector, Vector\)
 
 Draw sphere.
 
@@ -894,7 +894,7 @@ The orthogonal vector
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawText\(Vector, string\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawText_VM_Vector_System_String_"></a> DrawText\(Vector, string\)
 
 Draw text.
 
@@ -916,7 +916,7 @@ The text
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawWireCylinder\(Vector, Vector, double\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawWireCylinder_VM_Vector_VM_Vector_System_Double_"></a> DrawWireCylinder\(Vector, Vector, double\)
 
 Draw cylinder with face.
 
@@ -942,7 +942,7 @@ The radius
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawWireSphere\(Vector, double\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawWireSphere_VM_Vector_System_Double_"></a> DrawWireSphere\(Vector, double\)
 
 Draw wire sphere.
 
@@ -964,7 +964,7 @@ The radius
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### DrawWireSphere\(Vector, double, Vector, Vector\)
+### <a id="VM_CAD_Kernel_Render_Canvas_DrawWireSphere_VM_Vector_System_Double_VM_Vector_VM_Vector_"></a> DrawWireSphere\(Vector, double, Vector, Vector\)
 
 Draw wire sphere.
 
@@ -994,7 +994,7 @@ The orthogonal vector
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### EndGeometryEdit\(\)
+### <a id="VM_CAD_Kernel_Render_Canvas_EndGeometryEdit"></a> EndGeometryEdit\(\)
 
 End geometry for edit.
 
@@ -1002,7 +1002,7 @@ End geometry for edit.
 public void EndGeometryEdit()
 ```
 
-### FastDrawShell\(UIntPtr, ulong, UIntPtr, ulong, double\)
+### <a id="VM_CAD_Kernel_Render_Canvas_FastDrawShell_System_UIntPtr_System_UInt64_System_UIntPtr_System_UInt64_System_Double_"></a> FastDrawShell\(UIntPtr, ulong, UIntPtr, ulong, double\)
 
 Draw shell (fast).
 
@@ -1032,7 +1032,7 @@ The number of connectivities
 
 The scale
 
-### FastDrawShellWithFaceNormal\(UIntPtr, ulong, UIntPtr, ulong\)
+### <a id="VM_CAD_Kernel_Render_Canvas_FastDrawShellWithFaceNormal_System_UIntPtr_System_UInt64_System_UIntPtr_System_UInt64_"></a> FastDrawShellWithFaceNormal\(UIntPtr, ulong, UIntPtr, ulong\)
 
 Draw shell with face normal (fast).
 
@@ -1058,7 +1058,7 @@ The connectivities array
 
 The number of connectivities
 
-### GetExtension<T\>\(\)
+### <a id="VM_CAD_Kernel_Render_Canvas_GetExtension__1"></a> GetExtension<T\>\(\)
 
 Get canvas extension
 
@@ -1078,7 +1078,7 @@ The canvas extension
 
 The type of the canvas extension
 
-### GetExtension<T\>\(string\)
+### <a id="VM_CAD_Kernel_Render_Canvas_GetExtension__1_System_String_"></a> GetExtension<T\>\(string\)
 
 Get canvas extension
 
@@ -1104,7 +1104,7 @@ The canvas extension
 
 The type of the canvas extension
 
-### GetSubCanvas\(string\)
+### <a id="VM_CAD_Kernel_Render_Canvas_GetSubCanvas_System_String_"></a> GetSubCanvas\(string\)
 
 Get sub canvas.
 
@@ -1122,7 +1122,7 @@ The canvas name
 
  [Canvas](VM.CAD.Kernel.Render.Canvas.md)
 
-### IgnoreDepthTest\(\)
+### <a id="VM_CAD_Kernel_Render_Canvas_IgnoreDepthTest"></a> IgnoreDepthTest\(\)
 
 Ignore depth test.
 
@@ -1130,7 +1130,7 @@ Ignore depth test.
 public void IgnoreDepthTest()
 ```
 
-### SetMarkerSymbol\(MarkerType, double\)
+### <a id="VM_CAD_Kernel_Render_Canvas_SetMarkerSymbol_VM_CAD_Kernel_Render_MarkerType_System_Double_"></a> SetMarkerSymbol\(MarkerType, double\)
 
 Set marker symbol.
 
@@ -1148,7 +1148,7 @@ The type of the marker to draw.
 
 The marker size. If it is negative value, default value will be used.
 
-### SetModellingMatrix\(TMatrix\)
+### <a id="VM_CAD_Kernel_Render_Canvas_SetModellingMatrix_VM_TMatrix_"></a> SetModellingMatrix\(TMatrix\)
 
 Set modelling matrix.
 
@@ -1162,7 +1162,7 @@ public void SetModellingMatrix(TMatrix mat)
 
 The transformation matrix
 
-### SetScale\(double, double, double\)
+### <a id="VM_CAD_Kernel_Render_Canvas_SetScale_System_Double_System_Double_System_Double_"></a> SetScale\(double, double, double\)
 
 Set scale.
 
@@ -1184,7 +1184,7 @@ The Y coordinate of scale
 
 The Z coordinate of scale
 
-### SetWireframeMode\(bool, bool\)
+### <a id="VM_CAD_Kernel_Render_Canvas_SetWireframeMode_System_Boolean_System_Boolean_"></a> SetWireframeMode\(bool, bool\)
 
 Set wireframe mode.
 
@@ -1202,7 +1202,7 @@ Whether use wire frame mode
 
 Whether visible edge
 
-### StartGeometryEdit\(UIntPtr\)
+### <a id="VM_CAD_Kernel_Render_Canvas_StartGeometryEdit_System_UIntPtr_"></a> StartGeometryEdit\(UIntPtr\)
 
 Start geometry for edit.
 
@@ -1216,7 +1216,7 @@ public void StartGeometryEdit(UIntPtr pKeyGeom)
 
 The geometry key
 
-### TrimNurbs\(int, int, ICollection<Vector\>, ICollection<float\>, ICollection<float\>, double, double\)
+### <a id="VM_CAD_Kernel_Render_Canvas_TrimNurbs_System_Int32_System_Int32_System_Collections_Generic_ICollection_VM_Vector__System_Collections_Generic_ICollection_System_Single__System_Collections_Generic_ICollection_System_Single__System_Double_System_Double_"></a> TrimNurbs\(int, int, ICollection<Vector\>, ICollection<float\>, ICollection<float\>, double, double\)
 
 Trim nurbs.
 
@@ -1254,7 +1254,7 @@ Start parameter
 
 End parameter
 
-### TrimNurbs\(int, int, Vector\[\], float\[\], float\[\], double, double\)
+### <a id="VM_CAD_Kernel_Render_Canvas_TrimNurbs_System_Int32_System_Int32_VM_Vector___System_Single___System_Single___System_Double_System_Double_"></a> TrimNurbs\(int, int, Vector\[\], float\[\], float\[\], double, double\)
 
 Trim nurbs.
 
@@ -1291,5 +1291,4 @@ Start parameter
 `end_u` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 End parameter
-
 

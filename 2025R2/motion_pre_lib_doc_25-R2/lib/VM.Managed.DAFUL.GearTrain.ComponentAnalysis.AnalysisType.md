@@ -1,4 +1,4 @@
-# Enum ComponentAnalysis.AnalysisType
+#  Enum ComponentAnalysis.AnalysisType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ The deformation
 `Mode = 1` 
 
 The mode
-
 
 
 

@@ -1,4 +1,4 @@
-# Interface IDFMFReader
+#  Interface IDFMFReader
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -15,7 +15,7 @@ public interface IDFMFReader
 
 ## Properties
 
-### AddedNodesForRBE
+### <a id="VM_Models_FE_Utilities_IDFMFReader_AddedNodesForRBE"></a> AddedNodesForRBE
 
 ```csharp
 ReadOnlyCollection<Vector> AddedNodesForRBE { get; }
@@ -25,7 +25,7 @@ ReadOnlyCollection<Vector> AddedNodesForRBE { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<Vector\>
 
-### ArrudaBoyceMaterials
+### <a id="VM_Models_FE_Utilities_IDFMFReader_ArrudaBoyceMaterials"></a> ArrudaBoyceMaterials
 
 ```csharp
 ReadOnlyCollection<MaterialAB> ArrudaBoyceMaterials { get; }
@@ -35,7 +35,7 @@ ReadOnlyCollection<MaterialAB> ArrudaBoyceMaterials { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[MaterialAB](VM.Models.FE.Utilities.MaterialAB.md)\>
 
-### AvailableAsNodal
+### <a id="VM_Models_FE_Utilities_IDFMFReader_AvailableAsNodal"></a> AvailableAsNodal
 
 ```csharp
 bool AvailableAsNodal { get; }
@@ -45,7 +45,7 @@ bool AvailableAsNodal { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Beam2Elements
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Beam2Elements"></a> Beam2Elements
 
 ```csharp
 ReadOnlyCollection<FEElement> Beam2Elements { get; }
@@ -55,7 +55,7 @@ ReadOnlyCollection<FEElement> Beam2Elements { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEElement](VM.Models.FE.Utilities.FEElement.md)\>
 
-### BeamLProperties
+### <a id="VM_Models_FE_Utilities_IDFMFReader_BeamLProperties"></a> BeamLProperties
 
 ```csharp
 ReadOnlyCollection<FEPropertyBeamL> BeamLProperties { get; }
@@ -65,7 +65,7 @@ ReadOnlyCollection<FEPropertyBeamL> BeamLProperties { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEPropertyBeamL](VM.Models.FE.Utilities.FEPropertyBeamL.md)\>
 
-### BeamProperties
+### <a id="VM_Models_FE_Utilities_IDFMFReader_BeamProperties"></a> BeamProperties
 
 ```csharp
 ReadOnlyCollection<FEPropertyBeam> BeamProperties { get; }
@@ -75,7 +75,7 @@ ReadOnlyCollection<FEPropertyBeam> BeamProperties { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEPropertyBeam](VM.Models.FE.Utilities.FEPropertyBeam.md)\>
 
-### DFMFFileType
+### <a id="VM_Models_FE_Utilities_IDFMFReader_DFMFFileType"></a> DFMFFileType
 
 ```csharp
 DFMFFileType DFMFFileType { get; }
@@ -85,7 +85,7 @@ DFMFFileType DFMFFileType { get; }
 
  [DFMFFileType](VM.Models.FE.Utilities.DFMFFileType.md)
 
-### EdgeSets
+### <a id="VM_Models_FE_Utilities_IDFMFReader_EdgeSets"></a> EdgeSets
 
 ```csharp
 ReadOnlyCollection<NamedSelection> EdgeSets { get; }
@@ -95,7 +95,7 @@ ReadOnlyCollection<NamedSelection> EdgeSets { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[NamedSelection](VM.Models.FE.Utilities.NamedSelection.md)\>
 
-### FactorForce
+### <a id="VM_Models_FE_Utilities_IDFMFReader_FactorForce"></a> FactorForce
 
 ```csharp
 double FactorForce { get; }
@@ -105,7 +105,7 @@ double FactorForce { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### FactorLength
+### <a id="VM_Models_FE_Utilities_IDFMFReader_FactorLength"></a> FactorLength
 
 ```csharp
 double FactorLength { get; }
@@ -115,7 +115,7 @@ double FactorLength { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### FactorMass
+### <a id="VM_Models_FE_Utilities_IDFMFReader_FactorMass"></a> FactorMass
 
 ```csharp
 double FactorMass { get; }
@@ -125,7 +125,7 @@ double FactorMass { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### FactorScale
+### <a id="VM_Models_FE_Utilities_IDFMFReader_FactorScale"></a> FactorScale
 
 ```csharp
 double FactorScale { get; }
@@ -135,7 +135,7 @@ double FactorScale { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### FactorTime
+### <a id="VM_Models_FE_Utilities_IDFMFReader_FactorTime"></a> FactorTime
 
 ```csharp
 double FactorTime { get; }
@@ -145,7 +145,7 @@ double FactorTime { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### FilePath
+### <a id="VM_Models_FE_Utilities_IDFMFReader_FilePath"></a> FilePath
 
 ```csharp
 string FilePath { get; }
@@ -155,7 +155,7 @@ string FilePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ISOMaterials
+### <a id="VM_Models_FE_Utilities_IDFMFReader_ISOMaterials"></a> ISOMaterials
 
 ```csharp
 ReadOnlyCollection<MaterialISO> ISOMaterials { get; }
@@ -165,7 +165,7 @@ ReadOnlyCollection<MaterialISO> ISOMaterials { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[MaterialISO](VM.Models.FE.Utilities.MaterialISO.md)\>
 
-### InterfacePoints
+### <a id="VM_Models_FE_Utilities_IDFMFReader_InterfacePoints"></a> InterfacePoints
 
 ```csharp
 ReadOnlyCollection<Vector> InterfacePoints { get; }
@@ -175,7 +175,7 @@ ReadOnlyCollection<Vector> InterfacePoints { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<Vector\>
 
-### InvariantFilePosition
+### <a id="VM_Models_FE_Utilities_IDFMFReader_InvariantFilePosition"></a> InvariantFilePosition
 
 ```csharp
 long InvariantFilePosition { get; }
@@ -185,7 +185,7 @@ long InvariantFilePosition { get; }
 
  [long](https://learn.microsoft.com/dotnet/api/system.int64)
 
-### Level
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Level"></a> Level
 
 ```csharp
 uint Level { get; }
@@ -195,7 +195,7 @@ uint Level { get; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### MarkerPositions
+### <a id="VM_Models_FE_Utilities_IDFMFReader_MarkerPositions"></a> MarkerPositions
 
 ```csharp
 ReadOnlyCollection<Vector> MarkerPositions { get; }
@@ -205,7 +205,7 @@ ReadOnlyCollection<Vector> MarkerPositions { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<Vector\>
 
-### Mass
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Mass"></a> Mass
 
 ```csharp
 double Mass { get; }
@@ -215,7 +215,7 @@ double Mass { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MassCenter
+### <a id="VM_Models_FE_Utilities_IDFMFReader_MassCenter"></a> MassCenter
 
 ```csharp
 Vector MassCenter { get; }
@@ -225,7 +225,7 @@ Vector MassCenter { get; }
 
  Vector
 
-### MassInfoForOldVerArray
+### <a id="VM_Models_FE_Utilities_IDFMFReader_MassInfoForOldVerArray"></a> MassInfoForOldVerArray
 
 ```csharp
 ReadOnlyCollection<MassInfoForOldVer> MassInfoForOldVerArray { get; }
@@ -235,7 +235,7 @@ ReadOnlyCollection<MassInfoForOldVer> MassInfoForOldVerArray { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[MassInfoForOldVer](VM.Models.FE.Utilities.MassInfoForOldVer.md)\>
 
-### MasterPoints
+### <a id="VM_Models_FE_Utilities_IDFMFReader_MasterPoints"></a> MasterPoints
 
 ```csharp
 ReadOnlyCollection<uint> MasterPoints { get; }
@@ -245,7 +245,7 @@ ReadOnlyCollection<uint> MasterPoints { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[uint](https://learn.microsoft.com/dotnet/api/system.uint32)\>
 
-### ModalType
+### <a id="VM_Models_FE_Utilities_IDFMFReader_ModalType"></a> ModalType
 
 ```csharp
 DFMFType ModalType { get; }
@@ -255,7 +255,7 @@ DFMFType ModalType { get; }
 
  [DFMFType](VM.Models.FE.Utilities.DFMFType.md)
 
-### Modes
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Modes"></a> Modes
 
 ```csharp
 ReadOnlyCollection<Mode> Modes { get; }
@@ -265,7 +265,7 @@ ReadOnlyCollection<Mode> Modes { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[Mode](VM.Models.FE.Utilities.Mode.md)\>
 
-### MomentOfInertia
+### <a id="VM_Models_FE_Utilities_IDFMFReader_MomentOfInertia"></a> MomentOfInertia
 
 ```csharp
 ReadOnlyCollection<double> MomentOfInertia { get; }
@@ -275,7 +275,7 @@ ReadOnlyCollection<double> MomentOfInertia { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### MooneyRivlinMaterials
+### <a id="VM_Models_FE_Utilities_IDFMFReader_MooneyRivlinMaterials"></a> MooneyRivlinMaterials
 
 ```csharp
 ReadOnlyCollection<MaterialMR> MooneyRivlinMaterials { get; }
@@ -285,7 +285,7 @@ ReadOnlyCollection<MaterialMR> MooneyRivlinMaterials { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[MaterialMR](VM.Models.FE.Utilities.MaterialMR.md)\>
 
-### NBodies
+### <a id="VM_Models_FE_Utilities_IDFMFReader_NBodies"></a> NBodies
 
 ```csharp
 ReadOnlyCollection<NBody> NBodies { get; }
@@ -295,7 +295,7 @@ ReadOnlyCollection<NBody> NBodies { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[NBody](VM.Models.FE.Utilities.NBody.md)\>
 
-### NeoHookeanMaterials
+### <a id="VM_Models_FE_Utilities_IDFMFReader_NeoHookeanMaterials"></a> NeoHookeanMaterials
 
 ```csharp
 ReadOnlyCollection<MaterialNH> NeoHookeanMaterials { get; }
@@ -305,7 +305,7 @@ ReadOnlyCollection<MaterialNH> NeoHookeanMaterials { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[MaterialNH](VM.Models.FE.Utilities.MaterialNH.md)\>
 
-### NodePositions
+### <a id="VM_Models_FE_Utilities_IDFMFReader_NodePositions"></a> NodePositions
 
 ```csharp
 ReadOnlyCollection<Vector> NodePositions { get; }
@@ -315,7 +315,7 @@ ReadOnlyCollection<Vector> NodePositions { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<Vector\>
 
-### NumberOfDummyNode
+### <a id="VM_Models_FE_Utilities_IDFMFReader_NumberOfDummyNode"></a> NumberOfDummyNode
 
 ```csharp
 int NumberOfDummyNode { get; }
@@ -325,7 +325,7 @@ int NumberOfDummyNode { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfInterfacePoints
+### <a id="VM_Models_FE_Utilities_IDFMFReader_NumberOfInterfacePoints"></a> NumberOfInterfacePoints
 
 ```csharp
 int NumberOfInterfacePoints { get; }
@@ -335,7 +335,7 @@ int NumberOfInterfacePoints { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfMarkerPositions
+### <a id="VM_Models_FE_Utilities_IDFMFReader_NumberOfMarkerPositions"></a> NumberOfMarkerPositions
 
 ```csharp
 int NumberOfMarkerPositions { get; }
@@ -345,7 +345,7 @@ int NumberOfMarkerPositions { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfMassInfosForOldVersion
+### <a id="VM_Models_FE_Utilities_IDFMFReader_NumberOfMassInfosForOldVersion"></a> NumberOfMassInfosForOldVersion
 
 ```csharp
 int NumberOfMassInfosForOldVersion { get; }
@@ -355,7 +355,7 @@ int NumberOfMassInfosForOldVersion { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfMasterPoints
+### <a id="VM_Models_FE_Utilities_IDFMFReader_NumberOfMasterPoints"></a> NumberOfMasterPoints
 
 ```csharp
 int NumberOfMasterPoints { get; }
@@ -365,7 +365,7 @@ int NumberOfMasterPoints { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfModes
+### <a id="VM_Models_FE_Utilities_IDFMFReader_NumberOfModes"></a> NumberOfModes
 
 ```csharp
 int NumberOfModes { get; }
@@ -375,7 +375,7 @@ int NumberOfModes { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfNodes
+### <a id="VM_Models_FE_Utilities_IDFMFReader_NumberOfNodes"></a> NumberOfNodes
 
 ```csharp
 int NumberOfNodes { get; }
@@ -385,7 +385,7 @@ int NumberOfNodes { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfTetraConnectivities
+### <a id="VM_Models_FE_Utilities_IDFMFReader_NumberOfTetraConnectivities"></a> NumberOfTetraConnectivities
 
 ```csharp
 int NumberOfTetraConnectivities { get; }
@@ -395,7 +395,7 @@ int NumberOfTetraConnectivities { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfTriaConnectivities
+### <a id="VM_Models_FE_Utilities_IDFMFReader_NumberOfTriaConnectivities"></a> NumberOfTriaConnectivities
 
 ```csharp
 int NumberOfTriaConnectivities { get; }
@@ -405,7 +405,7 @@ int NumberOfTriaConnectivities { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### ORTHOMaterials
+### <a id="VM_Models_FE_Utilities_IDFMFReader_ORTHOMaterials"></a> ORTHOMaterials
 
 ```csharp
 ReadOnlyCollection<MaterialORTHO> ORTHOMaterials { get; }
@@ -415,7 +415,7 @@ ReadOnlyCollection<MaterialORTHO> ORTHOMaterials { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[MaterialORTHO](VM.Models.FE.Utilities.MaterialORTHO.md)\>
 
-### OgdenMaterials
+### <a id="VM_Models_FE_Utilities_IDFMFReader_OgdenMaterials"></a> OgdenMaterials
 
 ```csharp
 ReadOnlyCollection<MaterialOG> OgdenMaterials { get; }
@@ -425,7 +425,7 @@ ReadOnlyCollection<MaterialOG> OgdenMaterials { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[MaterialOG](VM.Models.FE.Utilities.MaterialOG.md)\>
 
-### PatchSets
+### <a id="VM_Models_FE_Utilities_IDFMFReader_PatchSets"></a> PatchSets
 
 ```csharp
 ReadOnlyCollection<NamedSelection> PatchSets { get; }
@@ -435,7 +435,7 @@ ReadOnlyCollection<NamedSelection> PatchSets { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[NamedSelection](VM.Models.FE.Utilities.NamedSelection.md)\>
 
-### RBE2s
+### <a id="VM_Models_FE_Utilities_IDFMFReader_RBE2s"></a> RBE2s
 
 ```csharp
 ReadOnlyCollection<FEConstraintRBE> RBE2s { get; }
@@ -445,7 +445,7 @@ ReadOnlyCollection<FEConstraintRBE> RBE2s { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEConstraintRBE](VM.Models.FE.Utilities.FEConstraintRBE.md)\>
 
-### RBE3s
+### <a id="VM_Models_FE_Utilities_IDFMFReader_RBE3s"></a> RBE3s
 
 ```csharp
 ReadOnlyCollection<FEConstraintRBE> RBE3s { get; }
@@ -455,7 +455,7 @@ ReadOnlyCollection<FEConstraintRBE> RBE3s { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEConstraintRBE](VM.Models.FE.Utilities.FEConstraintRBE.md)\>
 
-### Shell3Elements
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Shell3Elements"></a> Shell3Elements
 
 ```csharp
 ReadOnlyCollection<FEElement> Shell3Elements { get; }
@@ -465,7 +465,7 @@ ReadOnlyCollection<FEElement> Shell3Elements { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEElement](VM.Models.FE.Utilities.FEElement.md)\>
 
-### Shell4Elements
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Shell4Elements"></a> Shell4Elements
 
 ```csharp
 ReadOnlyCollection<FEElement> Shell4Elements { get; }
@@ -475,7 +475,7 @@ ReadOnlyCollection<FEElement> Shell4Elements { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEElement](VM.Models.FE.Utilities.FEElement.md)\>
 
-### Shell6Elements
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Shell6Elements"></a> Shell6Elements
 
 ```csharp
 ReadOnlyCollection<FEElement> Shell6Elements { get; }
@@ -485,7 +485,7 @@ ReadOnlyCollection<FEElement> Shell6Elements { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEElement](VM.Models.FE.Utilities.FEElement.md)\>
 
-### Shell8Elements
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Shell8Elements"></a> Shell8Elements
 
 ```csharp
 ReadOnlyCollection<FEElement> Shell8Elements { get; }
@@ -495,7 +495,7 @@ ReadOnlyCollection<FEElement> Shell8Elements { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEElement](VM.Models.FE.Utilities.FEElement.md)\>
 
-### ShellProperties
+### <a id="VM_Models_FE_Utilities_IDFMFReader_ShellProperties"></a> ShellProperties
 
 ```csharp
 ReadOnlyCollection<FEPropertyShell> ShellProperties { get; }
@@ -505,7 +505,7 @@ ReadOnlyCollection<FEPropertyShell> ShellProperties { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEPropertyShell](VM.Models.FE.Utilities.FEPropertyShell.md)\>
 
-### Solid10Elements
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Solid10Elements"></a> Solid10Elements
 
 ```csharp
 ReadOnlyCollection<FEElement> Solid10Elements { get; }
@@ -515,7 +515,7 @@ ReadOnlyCollection<FEElement> Solid10Elements { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEElement](VM.Models.FE.Utilities.FEElement.md)\>
 
-### Solid13Elements
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Solid13Elements"></a> Solid13Elements
 
 ```csharp
 ReadOnlyCollection<FEElement> Solid13Elements { get; }
@@ -525,7 +525,7 @@ ReadOnlyCollection<FEElement> Solid13Elements { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEElement](VM.Models.FE.Utilities.FEElement.md)\>
 
-### Solid15Elements
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Solid15Elements"></a> Solid15Elements
 
 ```csharp
 ReadOnlyCollection<FEElement> Solid15Elements { get; }
@@ -535,7 +535,7 @@ ReadOnlyCollection<FEElement> Solid15Elements { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEElement](VM.Models.FE.Utilities.FEElement.md)\>
 
-### Solid20Elements
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Solid20Elements"></a> Solid20Elements
 
 ```csharp
 ReadOnlyCollection<FEElement> Solid20Elements { get; }
@@ -545,7 +545,7 @@ ReadOnlyCollection<FEElement> Solid20Elements { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEElement](VM.Models.FE.Utilities.FEElement.md)\>
 
-### Solid4Elements
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Solid4Elements"></a> Solid4Elements
 
 ```csharp
 ReadOnlyCollection<FEElement> Solid4Elements { get; }
@@ -555,7 +555,7 @@ ReadOnlyCollection<FEElement> Solid4Elements { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEElement](VM.Models.FE.Utilities.FEElement.md)\>
 
-### Solid5Elements
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Solid5Elements"></a> Solid5Elements
 
 ```csharp
 ReadOnlyCollection<FEElement> Solid5Elements { get; }
@@ -565,7 +565,7 @@ ReadOnlyCollection<FEElement> Solid5Elements { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEElement](VM.Models.FE.Utilities.FEElement.md)\>
 
-### Solid6Elements
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Solid6Elements"></a> Solid6Elements
 
 ```csharp
 ReadOnlyCollection<FEElement> Solid6Elements { get; }
@@ -575,7 +575,7 @@ ReadOnlyCollection<FEElement> Solid6Elements { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEElement](VM.Models.FE.Utilities.FEElement.md)\>
 
-### Solid8Elements
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Solid8Elements"></a> Solid8Elements
 
 ```csharp
 ReadOnlyCollection<FEElement> Solid8Elements { get; }
@@ -585,7 +585,7 @@ ReadOnlyCollection<FEElement> Solid8Elements { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEElement](VM.Models.FE.Utilities.FEElement.md)\>
 
-### SolidProperties
+### <a id="VM_Models_FE_Utilities_IDFMFReader_SolidProperties"></a> SolidProperties
 
 ```csharp
 ReadOnlyCollection<FEPropertySolid> SolidProperties { get; }
@@ -595,7 +595,7 @@ ReadOnlyCollection<FEPropertySolid> SolidProperties { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEPropertySolid](VM.Models.FE.Utilities.FEPropertySolid.md)\>
 
-### TetraConnectivities
+### <a id="VM_Models_FE_Utilities_IDFMFReader_TetraConnectivities"></a> TetraConnectivities
 
 ```csharp
 ReadOnlyCollection<int> TetraConnectivities { get; }
@@ -605,7 +605,7 @@ ReadOnlyCollection<int> TetraConnectivities { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### Ties
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Ties"></a> Ties
 
 ```csharp
 ReadOnlyCollection<FEConstraintTie> Ties { get; }
@@ -615,7 +615,7 @@ ReadOnlyCollection<FEConstraintTie> Ties { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[FEConstraintTie](VM.Models.FE.Utilities.FEConstraintTie.md)\>
 
-### TotalNodesForModal
+### <a id="VM_Models_FE_Utilities_IDFMFReader_TotalNodesForModal"></a> TotalNodesForModal
 
 ```csharp
 int TotalNodesForModal { get; }
@@ -625,7 +625,7 @@ int TotalNodesForModal { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### TriaConnectivities
+### <a id="VM_Models_FE_Utilities_IDFMFReader_TriaConnectivities"></a> TriaConnectivities
 
 ```csharp
 ReadOnlyCollection<int> TriaConnectivities { get; }
@@ -635,7 +635,7 @@ ReadOnlyCollection<int> TriaConnectivities { get; }
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### UnitForce
+### <a id="VM_Models_FE_Utilities_IDFMFReader_UnitForce"></a> UnitForce
 
 ```csharp
 double UnitForce { get; }
@@ -645,7 +645,7 @@ double UnitForce { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UnitLength
+### <a id="VM_Models_FE_Utilities_IDFMFReader_UnitLength"></a> UnitLength
 
 ```csharp
 double UnitLength { get; }
@@ -655,7 +655,7 @@ double UnitLength { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UnitMass
+### <a id="VM_Models_FE_Utilities_IDFMFReader_UnitMass"></a> UnitMass
 
 ```csharp
 double UnitMass { get; }
@@ -665,7 +665,7 @@ double UnitMass { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UnitTime
+### <a id="VM_Models_FE_Utilities_IDFMFReader_UnitTime"></a> UnitTime
 
 ```csharp
 double UnitTime { get; }
@@ -675,7 +675,7 @@ double UnitTime { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Version
+### <a id="VM_Models_FE_Utilities_IDFMFReader_Version"></a> Version
 
 ```csharp
 uint Version { get; }
@@ -687,7 +687,7 @@ uint Version { get; }
 
 ## Methods
 
-### EqualsPatch\(FEPatchInfo\[\], FEPatchInfo\[\]\)
+### <a id="VM_Models_FE_Utilities_IDFMFReader_EqualsPatch_VM_Models_FE_Utilities_FEPatchInfo___VM_Models_FE_Utilities_FEPatchInfo___"></a> EqualsPatch\(FEPatchInfo\[\], FEPatchInfo\[\]\)
 
 ```csharp
 bool EqualsPatch(FEPatchInfo[] infoTarget, FEPatchInfo[] infoTool)
@@ -703,7 +703,7 @@ bool EqualsPatch(FEPatchInfo[] infoTarget, FEPatchInfo[] infoTool)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetMarkerInformation\(Vector, int, out Vector, out Vector\)
+### <a id="VM_Models_FE_Utilities_IDFMFReader_GetMarkerInformation_VM_Vector_System_Int32_VM_Vector__VM_Vector__"></a> GetMarkerInformation\(Vector, int, out Vector, out Vector\)
 
 ```csharp
 bool GetMarkerInformation(Vector position, int modeSequence, out Vector trans, out Vector rot)
@@ -723,7 +723,7 @@ bool GetMarkerInformation(Vector position, int modeSequence, out Vector trans, o
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetModeInterPoint\(Vector, int, out Vector, out Vector\)
+### <a id="VM_Models_FE_Utilities_IDFMFReader_GetModeInterPoint_VM_Vector_System_Int32_VM_Vector__VM_Vector__"></a> GetModeInterPoint\(Vector, int, out Vector, out Vector\)
 
 ```csharp
 bool GetModeInterPoint(Vector position, int modeSequence, out Vector transMode, out Vector rotMode)
@@ -743,7 +743,7 @@ bool GetModeInterPoint(Vector position, int modeSequence, out Vector transMode, 
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetRotationalShape\(int, int, out Vector\)
+### <a id="VM_Models_FE_Utilities_IDFMFReader_GetRotationalShape_System_Int32_System_Int32_VM_Vector__"></a> GetRotationalShape\(int, int, out Vector\)
 
 ```csharp
 void GetRotationalShape(int modeSeq, int nodeSeq, out Vector mode)
@@ -757,7 +757,7 @@ void GetRotationalShape(int modeSeq, int nodeSeq, out Vector mode)
 
 `mode` Vector
 
-### GetRotationalShape\(ICollection<int\>, int, out Vector\[\]\)
+### <a id="VM_Models_FE_Utilities_IDFMFReader_GetRotationalShape_System_Collections_Generic_ICollection_System_Int32__System_Int32_VM_Vector____"></a> GetRotationalShape\(ICollection<int\>, int, out Vector\[\]\)
 
 ```csharp
 void GetRotationalShape(ICollection<int> colModeSeq, int nodeSeq, out Vector[] modes)
@@ -771,7 +771,7 @@ void GetRotationalShape(ICollection<int> colModeSeq, int nodeSeq, out Vector[] m
 
 `modes` Vector\[\]
 
-### GetStressShape\(int, int, out double\[\]\)
+### <a id="VM_Models_FE_Utilities_IDFMFReader_GetStressShape_System_Int32_System_Int32_System_Double____"></a> GetStressShape\(int, int, out double\[\]\)
 
 ```csharp
 void GetStressShape(int modeSeq, int nodeSeq, out double[] stress)
@@ -785,7 +785,7 @@ void GetStressShape(int modeSeq, int nodeSeq, out double[] stress)
 
 `stress` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### GetStressShape\(ICollection<int\>, int, out ICollection<double\[\]\>\)
+### <a id="VM_Models_FE_Utilities_IDFMFReader_GetStressShape_System_Collections_Generic_ICollection_System_Int32__System_Int32_System_Collections_Generic_ICollection_System_Double_____"></a> GetStressShape\(ICollection<int\>, int, out ICollection<double\[\]\>\)
 
 ```csharp
 void GetStressShape(ICollection<int> colModeSeq, int nodeSeq, out ICollection<double[]> stress)
@@ -799,7 +799,7 @@ void GetStressShape(ICollection<int> colModeSeq, int nodeSeq, out ICollection<do
 
 `stress` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\[\]\>
 
-### GetTranslationalShape\(int, int, out Vector\)
+### <a id="VM_Models_FE_Utilities_IDFMFReader_GetTranslationalShape_System_Int32_System_Int32_VM_Vector__"></a> GetTranslationalShape\(int, int, out Vector\)
 
 ```csharp
 void GetTranslationalShape(int modeSeq, int nodeSeq, out Vector mode)
@@ -813,7 +813,7 @@ void GetTranslationalShape(int modeSeq, int nodeSeq, out Vector mode)
 
 `mode` Vector
 
-### GetTranslationalShape\(ICollection<int\>, int, out Vector\[\]\)
+### <a id="VM_Models_FE_Utilities_IDFMFReader_GetTranslationalShape_System_Collections_Generic_ICollection_System_Int32__System_Int32_VM_Vector____"></a> GetTranslationalShape\(ICollection<int\>, int, out Vector\[\]\)
 
 ```csharp
 void GetTranslationalShape(ICollection<int> colModeSeq, int nodeSeq, out Vector[] modes)
@@ -827,7 +827,7 @@ void GetTranslationalShape(ICollection<int> colModeSeq, int nodeSeq, out Vector[
 
 `modes` Vector\[\]
 
-### GetUnusedModeIndexes\(\)
+### <a id="VM_Models_FE_Utilities_IDFMFReader_GetUnusedModeIndexes"></a> GetUnusedModeIndexes\(\)
 
 ```csharp
 ReadOnlyCollection<int> GetUnusedModeIndexes()
@@ -837,7 +837,7 @@ ReadOnlyCollection<int> GetUnusedModeIndexes()
 
  [ReadOnlyCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.readonlycollection\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### SetUnusedModeIndexes\(IEnumerable<int\>\)
+### <a id="VM_Models_FE_Utilities_IDFMFReader_SetUnusedModeIndexes_System_Collections_Generic_IEnumerable_System_Int32__"></a> SetUnusedModeIndexes\(IEnumerable<int\>\)
 
 ```csharp
 void SetUnusedModeIndexes(IEnumerable<int> collection)
@@ -846,5 +846,4 @@ void SetUnusedModeIndexes(IEnumerable<int> collection)
 #### Parameters
 
 `collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
-
 

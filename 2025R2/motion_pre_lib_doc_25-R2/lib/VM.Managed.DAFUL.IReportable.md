@@ -1,4 +1,4 @@
-# Interface IReportable
+#  Interface IReportable
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -15,7 +15,7 @@ public interface IReportable
 
 ## Properties
 
-### CanWriteToOutFile
+### <a id="VM_Managed_DAFUL_IReportable_CanWriteToOutFile"></a> CanWriteToOutFile
 
 ```csharp
 bool CanWriteToOutFile { get; }
@@ -25,7 +25,7 @@ bool CanWriteToOutFile { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MultiEntityName
+### <a id="VM_Managed_DAFUL_IReportable_MultiEntityName"></a> MultiEntityName
 
 ```csharp
 List<string> MultiEntityName { get; }
@@ -35,7 +35,7 @@ List<string> MultiEntityName { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### ReportType
+### <a id="VM_Managed_DAFUL_IReportable_ReportType"></a> ReportType
 
 ```csharp
 IReportable.ReportEntityType ReportType { get; }
@@ -44,5 +44,4 @@ IReportable.ReportEntityType ReportType { get; }
 #### Property Value
 
  [IReportable](VM.Managed.DAFUL.IReportable.md).[ReportEntityType](VM.Managed.DAFUL.IReportable.ReportEntityType.md)
-
 

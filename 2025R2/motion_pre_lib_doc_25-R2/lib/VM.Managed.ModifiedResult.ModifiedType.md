@@ -1,4 +1,4 @@
-# Enum ModifiedResult.ModifiedType
+#  Enum ModifiedResult.ModifiedType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -32,7 +32,6 @@ Modify.
 `Remove = 2` 
 
 Remove.
-
 
 
 

@@ -1,4 +1,4 @@
-# Class ClearanceRevolute
+#  Class ClearanceRevolute
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDCB.dll  
@@ -109,7 +109,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ClearanceRevolute\(\)
+### <a id="VM_Managed_DAFUL_ClearanceRevolute__ctor"></a> ClearanceRevolute\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ClearanceRevolute" data-throw-if-not-resolved="false"></xref> class.
 
@@ -119,7 +119,7 @@ public ClearanceRevolute()
 
 ## Properties
 
-### AxialClearance
+### <a id="VM_Managed_DAFUL_ClearanceRevolute_AxialClearance"></a> AxialClearance
 
 Gets or sets the axial clearance.
 
@@ -131,7 +131,7 @@ public ExpressionValueVariable AxialClearance { get; set; }
 
  ExpressionValueVariable
 
-### RadialClearance
+### <a id="VM_Managed_DAFUL_ClearanceRevolute_RadialClearance"></a> RadialClearance
 
 Gets or sets the radial clearance.
 
@@ -145,7 +145,7 @@ public ExpressionValueVariable RadialClearance { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_ClearanceRevolute_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -159,7 +159,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReadTemplate\(XmlReader\)
+### <a id="VM_Managed_DAFUL_ClearanceRevolute_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -173,7 +173,7 @@ public override void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### WriteTemplate\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_ClearanceRevolute_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -187,7 +187,7 @@ public override void WriteTemplate(XmlWriter writer)
 
 The writer.
 
-### WriteTemplate\(XmlWriter, string\)
+### <a id="VM_Managed_DAFUL_ClearanceRevolute_WriteTemplate_System_Xml_XmlWriter_System_String_"></a> WriteTemplate\(XmlWriter, string\)
 
 ```csharp
 protected virtual void WriteTemplate(XmlWriter writer, string frictionName)
@@ -198,5 +198,4 @@ protected virtual void WriteTemplate(XmlWriter writer, string frictionName)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 `frictionName` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

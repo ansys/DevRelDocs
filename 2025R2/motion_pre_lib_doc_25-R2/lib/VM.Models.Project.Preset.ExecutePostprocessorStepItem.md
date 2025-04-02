@@ -1,4 +1,4 @@
-# Class ExecutePostprocessorStepItem
+#  Class ExecutePostprocessorStepItem
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -56,7 +56,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ExecutePostprocessorStepItem\(\)
+### <a id="VM_Models_Project_Preset_ExecutePostprocessorStepItem__ctor"></a> ExecutePostprocessorStepItem\(\)
 
 ```csharp
 public ExecutePostprocessorStepItem()
@@ -64,7 +64,7 @@ public ExecutePostprocessorStepItem()
 
 ## Properties
 
-### Name
+### <a id="VM_Models_Project_Preset_ExecutePostprocessorStepItem_Name"></a> Name
 
 ```csharp
 public override string Name { get; }
@@ -76,10 +76,9 @@ public override string Name { get; }
 
 ## Methods
 
-### Initialize\(\)
+### <a id="VM_Models_Project_Preset_ExecutePostprocessorStepItem_Initialize"></a> Initialize\(\)
 
 ```csharp
 public override void Initialize()
 ```
-
 

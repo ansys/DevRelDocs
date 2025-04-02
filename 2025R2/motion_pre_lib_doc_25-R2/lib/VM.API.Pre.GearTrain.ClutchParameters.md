@@ -1,4 +1,4 @@
-# Struct ClutchParameters
+#  Struct ClutchParameters
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +11,7 @@ public struct ClutchParameters
 
 ## Constructors
 
-### ClutchParameters\(\)
+### <a id="VM_API_Pre_GearTrain_ClutchParameters__ctor"></a> ClutchParameters\(\)
 
 Default constructor
 
@@ -19,7 +19,7 @@ Default constructor
 public ClutchParameters()
 ```
 
-### ClutchParameters\(string, string, Vector, Vector\)
+### <a id="VM_API_Pre_GearTrain_ClutchParameters__ctor_System_String_System_String_VM_Vector_VM_Vector_"></a> ClutchParameters\(string, string, Vector, Vector\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.GearTrain.ClutchParameters" data-throw-if-not-resolved="false"></xref> class
 
@@ -47,7 +47,7 @@ The rotate axis of the clutch parameters.
 
 ## Properties
 
-### BodyName
+### <a id="VM_API_Pre_GearTrain_ClutchParameters_BodyName"></a> BodyName
 
 The value for the body name. The default value is "".
 
@@ -59,7 +59,7 @@ public string BodyName { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ClutchName
+### <a id="VM_API_Pre_GearTrain_ClutchParameters_ClutchName"></a> ClutchName
 
 The value for the clutch name. The default value is "".
 
@@ -71,7 +71,7 @@ public string ClutchName { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Position
+### <a id="VM_API_Pre_GearTrain_ClutchParameters_Position"></a> Position
 
 The value for the position. The default value is (5, 5, 5).
 
@@ -83,7 +83,7 @@ public Vector Position { readonly get; set; }
 
  Vector
 
-### RotateAxis
+### <a id="VM_API_Pre_GearTrain_ClutchParameters_RotateAxis"></a> RotateAxis
 
 The value for the rotate axis. The default value is (0, 0, 1).
 
@@ -94,5 +94,4 @@ public Vector RotateAxis { readonly get; set; }
 #### Property Value
 
  Vector
-
 

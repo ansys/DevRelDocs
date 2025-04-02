@@ -1,4 +1,4 @@
-# Class CreateNodalBody
+#  Class CreateNodalBody
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -75,7 +75,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### CreateNodalBody\(List<object\>\)
+### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodalBody__ctor_System_Collections_Generic_List_System_Object__"></a> CreateNodalBody\(List<object\>\)
 
 ```csharp
 public CreateNodalBody(List<object> lstInfo)
@@ -85,7 +85,7 @@ public CreateNodalBody(List<object> lstInfo)
 
 `lstInfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
-### CreateNodalBody\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodalBody__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateNodalBody\(JournalParameter\)
 
 ```csharp
 public CreateNodalBody(JournalParameter jp)
@@ -97,7 +97,7 @@ public CreateNodalBody(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodalBody_Name"></a> Name
 
 Gets the operation name.
 
@@ -111,7 +111,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodalBody_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -119,7 +119,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_FE_Operation_CreateNodalBody_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -128,5 +128,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

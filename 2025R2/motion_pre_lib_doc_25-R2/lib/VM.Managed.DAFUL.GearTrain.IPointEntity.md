@@ -1,4 +1,4 @@
-# Interface IPointEntity
+#  Interface IPointEntity
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IPointEntity
 
 ## Properties
 
-### Position
+### <a id="VM_Managed_DAFUL_GearTrain_IPointEntity_Position"></a> Position
 
 Gets the position.
 
@@ -28,5 +28,4 @@ VectorBase Position { get; }
 #### Property Value
 
  VectorBase
-
 

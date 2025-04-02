@@ -1,4 +1,4 @@
-# Class DocCreateInfo
+#  Class DocCreateInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -28,7 +28,7 @@ public abstract class DocCreateInfo
 
 ## Constructors
 
-### DocCreateInfo\(\)
+### <a id="VM_Managed_DocCreateInfo__ctor"></a> DocCreateInfo\(\)
 
 ```csharp
 public DocCreateInfo()
@@ -36,7 +36,7 @@ public DocCreateInfo()
 
 ## Properties
 
-### ActiveMode
+### <a id="VM_Managed_DocCreateInfo_ActiveMode"></a> ActiveMode
 
 Gets or sets the active mode.
 
@@ -48,7 +48,7 @@ public string ActiveMode { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DocumentName
+### <a id="VM_Managed_DocCreateInfo_DocumentName"></a> DocumentName
 
 Gets or sets the document name.
 
@@ -60,7 +60,7 @@ public virtual string DocumentName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### KernelLengthUnit
+### <a id="VM_Managed_DocCreateInfo_KernelLengthUnit"></a> KernelLengthUnit
 
 Gets or sets the kernel length unit.
 
@@ -72,7 +72,7 @@ public string KernelLengthUnit { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ModeChangeOperation
+### <a id="VM_Managed_DocCreateInfo_ModeChangeOperation"></a> ModeChangeOperation
 
 Gets or sets the operation type name for mode changing.
 
@@ -84,7 +84,7 @@ public string ModeChangeOperation { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Unit
+### <a id="VM_Managed_DocCreateInfo_Unit"></a> Unit
 
 Gets or sets the document unit.
 
@@ -95,5 +95,4 @@ public Unit Unit { get; set; }
 #### Property Value
 
  Unit
-
 

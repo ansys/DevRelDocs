@@ -1,4 +1,4 @@
-# Class PickerPoint
+#  Class PickerPoint
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -50,7 +50,7 @@ public class PickerPoint : PickerBase
 
 ## Constructors
 
-### PickerPoint\(\)
+### <a id="VM_Managed_Picker_Core_PickerPoint__ctor"></a> PickerPoint\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerPoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -60,7 +60,7 @@ public PickerPoint()
 
 ## Properties
 
-### Result
+### <a id="VM_Managed_Picker_Core_PickerPoint_Result"></a> Result
 
 Gets or sets the object of picking result.
 
@@ -74,7 +74,7 @@ public override object Result { get; }
 
 ## Methods
 
-### Filtering\(UIntPtr\)
+### <a id="VM_Managed_Picker_Core_PickerPoint_Filtering_System_UIntPtr_"></a> Filtering\(UIntPtr\)
 
 Filtering to not proper object.
 
@@ -94,7 +94,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### FilteringReference\(UIntPtr, UIntPtr\)
+### <a id="VM_Managed_Picker_Core_PickerPoint_FilteringReference_System_UIntPtr_System_UIntPtr_"></a> FilteringReference\(UIntPtr, UIntPtr\)
 
 Filtering to not proper object about special target into owner.
 
@@ -118,7 +118,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPickerInfo\(\)
+### <a id="VM_Managed_Picker_Core_PickerPoint_GetPickerInfo"></a> GetPickerInfo\(\)
 
 Gets information of picking type.
 
@@ -130,7 +130,7 @@ public override string GetPickerInfo()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetResultXmlFromKey\(UIntPtr\)
+### <a id="VM_Managed_Picker_Core_PickerPoint_GetResultXmlFromKey_System_UIntPtr_"></a> GetResultXmlFromKey\(UIntPtr\)
 
 Get valid result xml according to picker key of core.
 
@@ -150,7 +150,7 @@ Picking destination key.
 
 The valid result xml.
 
-### GetVaildNPointsCenterXml\(string\)
+### <a id="VM_Managed_Picker_Core_PickerPoint_GetVaildNPointsCenterXml_System_String_"></a> GetVaildNPointsCenterXml\(string\)
 
 Get valid result xml of point data for center of N points.
 
@@ -170,7 +170,7 @@ Invalid result xml.
 
 The valid result xml.
 
-### GetVaildPointOnNodeXml\(string, VectorBase\)
+### <a id="VM_Managed_Picker_Core_PickerPoint_GetVaildPointOnNodeXml_System_String_VM_Managed_VectorBase_"></a> GetVaildPointOnNodeXml\(string, VectorBase\)
 
 Get valid result xml of point data for node of mesh.
 
@@ -194,7 +194,7 @@ The position of node.
 
 The valid result xml.
 
-### GetVaildPointsRatedXml\(string\)
+### <a id="VM_Managed_Picker_Core_PickerPoint_GetVaildPointsRatedXml_System_String_"></a> GetVaildPointsRatedXml\(string\)
 
 Get valid result xml of point data for two points, N: M ratios obtained to calculate the position.
 
@@ -214,7 +214,7 @@ Invalid result xml.
 
 The valid result xml.
 
-### GetVaildThreePointsCircleCenterXml\(string\)
+### <a id="VM_Managed_Picker_Core_PickerPoint_GetVaildThreePointsCircleCenterXml_System_String_"></a> GetVaildThreePointsCircleCenterXml\(string\)
 
 Get valid result xml of point data for circle center of 3-points.
 
@@ -234,7 +234,7 @@ Invalid result xml.
 
 The valid result xml.
 
-### GetValidResultXml\(string\)
+### <a id="VM_Managed_Picker_Core_PickerPoint_GetValidResultXml_System_String_"></a> GetValidResultXml\(string\)
 
 Get valid result xml according to picker type of core.
 
@@ -254,7 +254,7 @@ Invalid result xml.
 
 The valid result xml.
 
-### Highlight\(bool\)
+### <a id="VM_Managed_Picker_Core_PickerPoint_Highlight_System_Boolean_"></a> Highlight\(bool\)
 
 Picking highlight to filtered target.
 
@@ -268,7 +268,7 @@ public override void Highlight(bool bHighlight)
 
 If set to <code>ture</code> is highlight; otherwise, <code>false</code> isn't highlight.
 
-### SetResultImpl\(ref string, bool\)
+### <a id="VM_Managed_Picker_Core_PickerPoint_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -291,5 +291,4 @@ If it is true, skip the result setting.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

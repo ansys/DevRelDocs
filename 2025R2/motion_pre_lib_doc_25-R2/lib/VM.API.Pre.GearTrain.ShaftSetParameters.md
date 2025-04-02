@@ -1,4 +1,4 @@
-# Struct ShaftSetParameters
+#  Struct ShaftSetParameters
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +11,7 @@ public struct ShaftSetParameters
 
 ## Constructors
 
-### ShaftSetParameters\(\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetParameters__ctor"></a> ShaftSetParameters\(\)
 
 Default constructor
 
@@ -19,7 +19,7 @@ Default constructor
 public ShaftSetParameters()
 ```
 
-### ShaftSetParameters\(string, string, Vector, Vector, bool, PowerLoadType, ExpressionValueVariable, ExpressionValueVariable\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetParameters__ctor_System_String_System_String_VM_Vector_VM_Vector_System_Boolean_VM_Managed_DAFUL_GearTrain_PowerLoad_PowerLoadType_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> ShaftSetParameters\(string, string, Vector, Vector, bool, PowerLoadType, ExpressionValueVariable, ExpressionValueVariable\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.GearTrain.ShaftSetParameters" data-throw-if-not-resolved="false"></xref> class
 
@@ -63,7 +63,7 @@ The of the shaftset parameters..
 
 ## Properties
 
-### BodyName
+### <a id="VM_API_Pre_GearTrain_ShaftSetParameters_BodyName"></a> BodyName
 
 The value for the body name. The default value is "".
 
@@ -75,7 +75,7 @@ public string BodyName { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Offset
+### <a id="VM_API_Pre_GearTrain_ShaftSetParameters_Offset"></a> Offset
 
 The value for the offset. The default value is 0.0.
 
@@ -87,7 +87,7 @@ public ExpressionValueVariable Offset { readonly get; set; }
 
  ExpressionValueVariable
 
-### Position
+### <a id="VM_API_Pre_GearTrain_ShaftSetParameters_Position"></a> Position
 
 The value for the position. The default value is (0, 0, 0).
 
@@ -99,7 +99,7 @@ public Vector Position { readonly get; set; }
 
  Vector
 
-### PowerLoad
+### <a id="VM_API_Pre_GearTrain_ShaftSetParameters_PowerLoad"></a> PowerLoad
 
 The value for the power load. The default value is 'false'.
 
@@ -111,7 +111,7 @@ public bool PowerLoad { readonly get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Role
+### <a id="VM_API_Pre_GearTrain_ShaftSetParameters_Role"></a> Role
 
 The value for the role. The default value is 'Input'.
 
@@ -123,7 +123,7 @@ public PowerLoad.PowerLoadType Role { readonly get; set; }
 
  PowerLoad.PowerLoadType
 
-### RotateAxis
+### <a id="VM_API_Pre_GearTrain_ShaftSetParameters_RotateAxis"></a> RotateAxis
 
 The value for the rotate axis. The default value is (0, 1, 0).
 
@@ -135,7 +135,7 @@ public Vector RotateAxis { readonly get; set; }
 
  Vector
 
-### ShaftSetName
+### <a id="VM_API_Pre_GearTrain_ShaftSetParameters_ShaftSetName"></a> ShaftSetName
 
 The value for the shaftset name. The default value is "".
 
@@ -147,7 +147,7 @@ public string ShaftSetName { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Width
+### <a id="VM_API_Pre_GearTrain_ShaftSetParameters_Width"></a> Width
 
 The value for the width. The default value is 1.
 
@@ -158,5 +158,4 @@ public ExpressionValueVariable Width { readonly get; set; }
 #### Property Value
 
  ExpressionValueVariable
-
 

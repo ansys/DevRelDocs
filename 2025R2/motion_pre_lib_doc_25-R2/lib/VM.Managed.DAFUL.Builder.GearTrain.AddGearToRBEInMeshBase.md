@@ -1,4 +1,4 @@
-# Class AddGearToRBEInMeshBase
+#  Class AddGearToRBEInMeshBase
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -55,7 +55,7 @@ IBuilder
 
 ## Constructors
 
-### AddGearToRBEInMeshBase\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToRBEInMeshBase__ctor"></a> AddGearToRBEInMeshBase\(\)
 
 ```csharp
 protected AddGearToRBEInMeshBase()
@@ -63,7 +63,7 @@ protected AddGearToRBEInMeshBase()
 
 ## Methods
 
-### Build\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToRBEInMeshBase_Build_VM_Managed_Document_"></a> Build\(Document\)
 
 ```csharp
 public override void Build(Document docToAdd)
@@ -73,7 +73,7 @@ public override void Build(Document docToAdd)
 
 `docToAdd` Document
 
-### GetGearBuilder\(GeometryBase\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToRBEInMeshBase_GetGearBuilder_VM_Managed_DAFUL_GearTrain_CAD_GeometryBase_"></a> GetGearBuilder\(GeometryBase\)
 
 ```csharp
 protected virtual GearBuilderForRBEInFE GetGearBuilder(GeometryBase gearGeom)
@@ -87,7 +87,7 @@ protected virtual GearBuilderForRBEInFE GetGearBuilder(GeometryBase gearGeom)
 
  GearBuilderForRBEInFE
 
-### GetTmpGearGeometry\(GearGeometryInfo, IConnectable, HiddenDocumentMeshBase, DirectionBase, ParentType, ReferencePointType, double, Vector, OMatrix\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToRBEInMeshBase_GetTmpGearGeometry_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_Managed_DirectionBase_VM_Managed_DAFUL_GearTrain_CAD_GearBuilder_ParentType_VM_Managed_DAFUL_GearTrain_CAD_ReferencePointType_System_Double_VM_Managed_Vector_VM_Managed_OMatrix_"></a> GetTmpGearGeometry\(GearGeometryInfo, IConnectable, HiddenDocumentMeshBase, DirectionBase, ParentType, ReferencePointType, double, Vector, OMatrix\)
 
 ```csharp
 protected virtual GeometryBase GetTmpGearGeometry(GearGeometryInfo ggInfo, IConnectable con, HiddenDocumentMeshBase hiddenDoc, DirectionBase zAxis, GearBuilder.ParentType typeParent, ReferencePointType typeRP, double dOffset, Vector vecBearingOffset, OMatrix matO)
@@ -117,7 +117,7 @@ protected virtual GeometryBase GetTmpGearGeometry(GearGeometryInfo ggInfo, IConn
 
  GeometryBase
 
-### RBEName\(IConnectable\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToRBEInMeshBase_RBEName_VM_Managed_DAFUL_IConnectable_"></a> RBEName\(IConnectable\)
 
 ```csharp
 protected virtual string RBEName(IConnectable con)
@@ -131,7 +131,7 @@ protected virtual string RBEName(IConnectable con)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearToRBEInMeshBase_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -144,5 +144,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

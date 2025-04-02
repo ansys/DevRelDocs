@@ -1,4 +1,4 @@
-# Class PressureLoadFunction
+#  Class PressureLoadFunction
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -109,7 +109,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PressureLoadFunction\(\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadFunction__ctor"></a> PressureLoadFunction\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoadFunction" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -121,7 +121,7 @@ protected PressureLoadFunction()
 
 ## Properties
 
-### Type
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadFunction_Type"></a> Type
 
 <p>Gets the function type.</p>
 <p>함수 타입을 가져옵니다.</p>
@@ -133,5 +133,4 @@ public abstract PressureLoadFunction.FunctionType Type { get; }
 #### Property Value
 
  [PressureLoadFunction](VM.Managed.DAFUL.Flexible.Force.PressureLoadFunction.md).[FunctionType](VM.Managed.DAFUL.Flexible.Force.PressureLoadFunction.FunctionType.md)
-
 

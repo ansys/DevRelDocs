@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Tire.Car
+#  Namespace VM.Managed.DAFUL.Tire.Car
 
 ### Namespaces
 
@@ -9,5 +9,4 @@
  [WheelBodyCar](VM.Managed.DAFUL.Tire.Car.WheelBodyCar.md)
 
 This class is to represent the wheel body for car.
-
 

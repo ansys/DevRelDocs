@@ -1,4 +1,4 @@
-# Class AddGearEntityBase
+#  Class AddGearEntityBase
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -52,7 +52,7 @@ IBuilder
 
 ## Constructors
 
-### AddGearEntityBase\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearEntityBase__ctor"></a> AddGearEntityBase\(\)
 
 ```csharp
 protected AddGearEntityBase()
@@ -60,7 +60,7 @@ protected AddGearEntityBase()
 
 ## Methods
 
-### AddPairGeneralGear\(List<IGearBuilder\>, IGearSet, Body, IGearBuilder\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearEntityBase_AddPairGeneralGear_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder__VM_Managed_DAFUL_GearTrain_IGearSet_VM_Managed_CAD_Body_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder_"></a> AddPairGeneralGear\(List<IGearBuilder\>, IGearSet, Body, IGearBuilder\)
 
 ```csharp
 protected void AddPairGeneralGear(List<IGearBuilder> lstRes, IGearSet gearSet, Body addedBody, IGearBuilder gearsetBuilder)
@@ -76,7 +76,7 @@ protected void AddPairGeneralGear(List<IGearBuilder> lstRes, IGearSet gearSet, B
 
 `gearsetBuilder` IGearBuilder
 
-### AddPairPlanertaryGear\(IGearSet, IGearBuilder\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddGearEntityBase_AddPairPlanertaryGear_VM_Managed_DAFUL_GearTrain_IGearSet_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder_"></a> AddPairPlanertaryGear\(IGearSet, IGearBuilder\)
 
 ```csharp
 protected void AddPairPlanertaryGear(IGearSet gearSet, IGearBuilder gearsetBuilder)
@@ -87,5 +87,4 @@ protected void AddPairPlanertaryGear(IGearSet gearSet, IGearBuilder gearsetBuild
 `gearSet` IGearSet
 
 `gearsetBuilder` IGearBuilder
-
 

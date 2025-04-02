@@ -1,4 +1,4 @@
-# Class CustomDataTableConverter
+#  Class CustomDataTableConverter
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -29,7 +29,7 @@ JsonConverter.CanWrite
 
 ## Constructors
 
-### CustomDataTableConverter\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_CustomDataTableConverter__ctor"></a> CustomDataTableConverter\(\)
 
 ```csharp
 public CustomDataTableConverter()
@@ -37,7 +37,7 @@ public CustomDataTableConverter()
 
 ## Methods
 
-### CanConvert\(Type\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_CustomDataTableConverter_CanConvert_System_Type_"></a> CanConvert\(Type\)
 
 Determines whether this instance can convert the specified object type.
 
@@ -57,7 +57,7 @@ Type of the object.
 
 <code>true</code> if this instance can convert the specified object type; otherwise, <code>false</code>.
 
-### ReadJson\(JsonReader, Type, object, JsonSerializer\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_CustomDataTableConverter_ReadJson_Newtonsoft_Json_JsonReader_System_Type_System_Object_Newtonsoft_Json_JsonSerializer_"></a> ReadJson\(JsonReader, Type, object, JsonSerializer\)
 
 Reads the JSON representation of the object.
 
@@ -89,7 +89,7 @@ The calling serializer.
 
 The object value.
 
-### WriteJson\(JsonWriter, object, JsonSerializer\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_CustomDataTableConverter_WriteJson_Newtonsoft_Json_JsonWriter_System_Object_Newtonsoft_Json_JsonSerializer_"></a> WriteJson\(JsonWriter, object, JsonSerializer\)
 
 Writes the JSON representation of the object.
 
@@ -110,5 +110,4 @@ The value.
 `serializer` JsonSerializer
 
 The calling serializer.
-
 

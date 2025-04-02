@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Tire.Operation
+#  Namespace VM.Managed.DAFUL.Tire.Operation
 
 ### Classes
 
@@ -13,5 +13,4 @@ The reload operation
  [UpdateSymmetricOperation](VM.Managed.DAFUL.Tire.Operation.UpdateSymmetricOperation.md)
 
 The update symmetric operation
-
 

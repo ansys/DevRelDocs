@@ -1,4 +1,4 @@
-# Class FrictionCylindrical
+#  Class FrictionCylindrical
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -111,7 +111,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### FrictionCylindrical\(\)
+### <a id="VM_Managed_DAFUL_Constraints_FrictionCylindrical__ctor"></a> FrictionCylindrical\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.FrictionCylindrical" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ public FrictionCylindrical()
 
 ## Properties
 
-### InitialOverlap
+### <a id="VM_Managed_DAFUL_Constraints_FrictionCylindrical_InitialOverlap"></a> InitialOverlap
 
 Gets or sets the initial overlap.
 
@@ -133,7 +133,7 @@ public ExpressionValueVariable InitialOverlap { get; set; }
 
  ExpressionValueVariable
 
-### OverlapDelta
+### <a id="VM_Managed_DAFUL_Constraints_FrictionCylindrical_OverlapDelta"></a> OverlapDelta
 
 Gets or sets the overlap delta.
 
@@ -145,7 +145,7 @@ public OverlapDeltaType OverlapDelta { get; set; }
 
  [OverlapDeltaType](VM.Managed.DAFUL.Constraints.OverlapDeltaType.md)
 
-### PreForce
+### <a id="VM_Managed_DAFUL_Constraints_FrictionCylindrical_PreForce"></a> PreForce
 
 Gets or sets the pre force.
 
@@ -157,7 +157,7 @@ public ExpressionValueVariable PreForce { get; set; }
 
  ExpressionValueVariable
 
-### PreTorque
+### <a id="VM_Managed_DAFUL_Constraints_FrictionCylindrical_PreTorque"></a> PreTorque
 
 Gets or sets the pre torque.
 
@@ -169,7 +169,7 @@ public ExpressionValueVariable PreTorque { get; set; }
 
  ExpressionValueVariable
 
-### ReactionArm
+### <a id="VM_Managed_DAFUL_Constraints_FrictionCylindrical_ReactionArm"></a> ReactionArm
 
 Gets or sets the reaction arm.
 
@@ -181,7 +181,7 @@ public ExpressionValueVariable ReactionArm { get; set; }
 
  ExpressionValueVariable
 
-### TorsionalMoment
+### <a id="VM_Managed_DAFUL_Constraints_FrictionCylindrical_TorsionalMoment"></a> TorsionalMoment
 
 Gets or sets a value indicating whether [torsional moment].
 
@@ -195,7 +195,7 @@ public bool TorsionalMoment { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Constraints_FrictionCylindrical_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -209,7 +209,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReadTemplate\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Constraints_FrictionCylindrical_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -223,7 +223,7 @@ public override void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### WriteTemplate\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Constraints_FrictionCylindrical_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -236,5 +236,4 @@ public override void WriteTemplate(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

@@ -1,4 +1,4 @@
-# Class BearingBase<TProperty\>
+#  Class BearingBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -63,7 +63,7 @@ BuilderBase<TProperty\>.ErrorMessage
 
 ## Constructors
 
-### BearingBase\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_BearingBase_1__ctor"></a> BearingBase\(\)
 
 ```csharp
 protected BearingBase()
@@ -71,7 +71,7 @@ protected BearingBase()
 
 ## Properties
 
-### Color
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_BearingBase_1_Color"></a> Color
 
 ```csharp
 public string Color { get; set; }
@@ -81,7 +81,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### InputArray
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_BearingBase_1_InputArray"></a> InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -93,7 +93,7 @@ public string[] InputArray { get; set; }
 
 ## Methods
 
-### OnPostAddDoc\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_BearingBase_1_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -102,5 +102,4 @@ protected override void OnPostAddDoc(ObjectBase ob)
 #### Parameters
 
 `ob` ObjectBase
-
 

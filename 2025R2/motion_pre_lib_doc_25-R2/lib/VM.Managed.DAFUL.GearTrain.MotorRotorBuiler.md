@@ -1,4 +1,4 @@
-# Class MotorRotorBuiler
+#  Class MotorRotorBuiler
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -198,7 +198,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MotorRotorBuiler\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorRotorBuiler__ctor"></a> MotorRotorBuiler\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorRotorBuiler" data-throw-if-not-resolved="false"></xref> class.
 
@@ -208,7 +208,7 @@ public MotorRotorBuiler()
 
 ## Properties
 
-### InnerDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_MotorRotorBuiler_InnerDiameter"></a> InnerDiameter
 
 ```csharp
 public double InnerDiameter { get; set; }
@@ -218,7 +218,7 @@ public double InnerDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### OuterDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_MotorRotorBuiler_OuterDiameter"></a> OuterDiameter
 
 ```csharp
 public double OuterDiameter { get; set; }
@@ -230,7 +230,7 @@ public double OuterDiameter { get; set; }
 
 ## Methods
 
-### CreateParameter\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorRotorBuiler_CreateParameter"></a> CreateParameter\(\)
 
 Create parameter
 
@@ -242,7 +242,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorRotorBuiler_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 Fill parameter
 
@@ -253,5 +253,4 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
-
 

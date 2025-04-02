@@ -1,4 +1,4 @@
-# Class DOEInformationBase
+#  Class DOEInformationBase
 
 Namespace: [VM.Managed.DAFUL.DOE](VM.Managed.DAFUL.DOE.md)  
 Assembly: VMDDOE.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DOEInformationBase\(\)
+### <a id="VM_Managed_DAFUL_DOE_DOEInformationBase__ctor"></a> DOEInformationBase\(\)
 
 ```csharp
 public DOEInformationBase()
@@ -107,7 +107,7 @@ public DOEInformationBase()
 
 ## Properties
 
-### FullPath
+### <a id="VM_Managed_DAFUL_DOE_DOEInformationBase_FullPath"></a> FullPath
 
 ```csharp
 public string FullPath { get; }
@@ -117,7 +117,7 @@ public string FullPath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Index
+### <a id="VM_Managed_DAFUL_DOE_DOEInformationBase_Index"></a> Index
 
 ```csharp
 public int Index { get; set; }
@@ -127,7 +127,7 @@ public int Index { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Path
+### <a id="VM_Managed_DAFUL_DOE_DOEInformationBase_Path"></a> Path
 
 ```csharp
 public string Path { get; }
@@ -137,7 +137,7 @@ public string Path { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Target
+### <a id="VM_Managed_DAFUL_DOE_DOEInformationBase_Target"></a> Target
 
 ```csharp
 public ObjectBase Target { get; set; }
@@ -147,7 +147,7 @@ public ObjectBase Target { get; set; }
 
  ObjectBase
 
-### UseRun
+### <a id="VM_Managed_DAFUL_DOE_DOEInformationBase_UseRun"></a> UseRun
 
 ```csharp
 public bool UseRun { get; set; }
@@ -156,5 +156,4 @@ public bool UseRun { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

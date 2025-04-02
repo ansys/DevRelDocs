@@ -1,4 +1,4 @@
-# Interface IExpanded
+#  Interface IExpanded
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IExpanded
 
 ## Properties
 
-### IsExpanded
+### <a id="VM_IExpanded_IsExpanded"></a> IsExpanded
 
 ```csharp
 bool IsExpanded { get; set; }
@@ -24,5 +24,4 @@ bool IsExpanded { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

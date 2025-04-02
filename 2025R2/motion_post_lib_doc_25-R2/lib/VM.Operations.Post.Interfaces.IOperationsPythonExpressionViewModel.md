@@ -1,4 +1,4 @@
-# Interface IOperationsPythonExpressionViewModel
+#  Interface IOperationsPythonExpressionViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -65,7 +65,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### Expression
+### <a id="VM_Operations_Post_Interfaces_IOperationsPythonExpressionViewModel_Expression"></a> Expression
 
 Gets or sets the formula in the expression properties.
 
@@ -86,7 +86,7 @@ For an example that includes this property, see the [Interface IOperationsPython
 Use this property to specify or retrieve the formula in the expression properties.
 The formula should result in a single real value.
 
-### FullName
+### <a id="VM_Operations_Post_Interfaces_IOperationsPythonExpressionViewModel_FullName"></a> FullName
 
 Gets or sets the full name of the expression.
 

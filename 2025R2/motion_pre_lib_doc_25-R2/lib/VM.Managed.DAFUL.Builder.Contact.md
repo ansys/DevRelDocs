@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Builder.Contact
+#  Namespace VM.Managed.DAFUL.Builder.Contact
 
 ### Classes
 
@@ -65,5 +65,4 @@
 ### Structs
 
  [ContactTolerance.GapInfo](VM.Managed.DAFUL.Builder.Contact.ContactTolerance.GapInfo.md)
-
 

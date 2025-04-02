@@ -1,4 +1,4 @@
-# Class AttributeLocalObject<TObject, TUpdate\>
+#  Class AttributeLocalObject<TObject, TUpdate\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -106,7 +106,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeLocalObject\(\)
+### <a id="VM_Managed_AttributeLocalObject_2__ctor"></a> AttributeLocalObject\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeLocalObject%602" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ Initializes a new instance of the <xref href="VM.Managed.AttributeLocalObject%60
 public AttributeLocalObject()
 ```
 
-### AttributeLocalObject\(TObject\)
+### <a id="VM_Managed_AttributeLocalObject_2__ctor__0_"></a> AttributeLocalObject\(TObject\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeLocalObject%602" data-throw-if-not-resolved="false"></xref> class.
 
@@ -130,7 +130,7 @@ The local object.
 
 ## Properties
 
-### Object
+### <a id="VM_Managed_AttributeLocalObject_2_Object"></a> Object
 
 Gets or sets the local object.
 
@@ -141,5 +141,4 @@ public TObject Object { get; set; }
 #### Property Value
 
  TObject
-
 

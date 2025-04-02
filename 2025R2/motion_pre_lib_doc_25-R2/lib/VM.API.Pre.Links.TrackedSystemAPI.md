@@ -1,4 +1,4 @@
-# Class TrackedSystemAPI
+#  Class TrackedSystemAPI
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -22,7 +22,7 @@ public static class TrackedSystemAPI
 
 ## Methods
 
-### AddPathObjectToDocument\(Obj, IEnumerable<Obj\>, IEnumerable<Document3D\>\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_AddPathObjectToDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Collections_Generic_IEnumerable_VM_Managed_Document3D__"></a> AddPathObjectToDocument\(Obj, IEnumerable<Obj\>, IEnumerable<Document3D\>\)
 
 Add path to active document.
 
@@ -71,7 +71,7 @@ Will be thrown if 'paths', 'pathDocuments' arguments are empty.
 
 Will be thrown if length of 'paths' and length of 'pathDocuments' are not equal.
 
-### CreateDouble\(DocumentChainedSegment, string, Color?, bool\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_CreateDouble_VM_Managed_DAFUL_Chained_DocumentChainedSegment_System_String_System_Nullable_System_Drawing_Color__System_Boolean_"></a> CreateDouble\(DocumentChainedSegment, string, Color?, bool\)
 
 Create double shoe <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Track.BuilderShoeUserDefined" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -109,7 +109,7 @@ The new <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-reso
 
 Will be thrown if 'document' is null.
 
-### CreateDouble\(PartDocumentChainedSegment, Color?\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_CreateDouble_VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_System_Nullable_System_Drawing_Color__"></a> CreateDouble\(PartDocumentChainedSegment, Color?\)
 
 Create double shoe <xref href="VM.Managed.CAD.Track.BodyShoe" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Track.BuilderShoeUserDefined" data-throw-if-not-resolved="false"></xref> builder in part.
 
@@ -139,7 +139,7 @@ The new <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="f
 
 Will be thrown if 'document' is null.
 
-### CreateSimple\(DocumentChainedSegment, string, Color?, bool\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_CreateSimple_VM_Managed_DAFUL_Chained_DocumentChainedSegment_System_String_System_Nullable_System_Drawing_Color__System_Boolean_"></a> CreateSimple\(DocumentChainedSegment, string, Color?, bool\)
 
 Create simple link <xref href="VM.Managed.DAFUL.Track.SolidBodyLink" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Track.BuilderLinkUserDefined" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -177,7 +177,7 @@ The new <xref href="VM.Managed.DAFUL.Track.SolidBodyLink" data-throw-if-not-reso
 
 Will be thrown if 'document' is null.
 
-### CreateSimple\(PartDocumentChainedSegment, Color?\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_CreateSimple_VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_System_Nullable_System_Drawing_Color__"></a> CreateSimple\(PartDocumentChainedSegment, Color?\)
 
 Create simple link <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Track.BuilderLinkUserDefined" data-throw-if-not-resolved="false"></xref> builder in part.
 
@@ -207,7 +207,7 @@ The new <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="f
 
 Will be thrown if 'document' is null.
 
-### CreateSingle\(DocumentChainedSegment, string, Color?, bool\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_CreateSingle_VM_Managed_DAFUL_Chained_DocumentChainedSegment_System_String_System_Nullable_System_Drawing_Color__System_Boolean_"></a> CreateSingle\(DocumentChainedSegment, string, Color?, bool\)
 
 Create single shoe <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Track.BuilderShoeUserDefined" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -245,7 +245,7 @@ The new <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-reso
 
 Will be thrown if 'document' is null.
 
-### CreateSingle\(PartDocumentChainedSegment, Color?\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_CreateSingle_VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_System_Nullable_System_Drawing_Color__"></a> CreateSingle\(PartDocumentChainedSegment, Color?\)
 
 Create single shoe <xref href="VM.Managed.CAD.Track.BodyShoe" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Track.BuilderShoeUserDefined" data-throw-if-not-resolved="false"></xref> builder in part.
 
@@ -275,7 +275,7 @@ The new <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="f
 
 Will be thrown if 'document' is null.
 
-### CreateTrackedSystem\(SubSystemDocument, string\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_CreateTrackedSystem_VM_Managed_DAFUL_SubSystemDocument_System_String_"></a> CreateTrackedSystem\(SubSystemDocument, string\)
 
 Create tracked system <xref href="VM.Managed.DAFUL.Track.TrackPlacing" data-throw-if-not-resolved="false"></xref>.
 
@@ -306,7 +306,7 @@ The new <xref href="VM.Managed.DAFUL.Track.TrackPlacing" data-throw-if-not-resol
 
 Will be thrown if 'document' is null.
 
-### CreateTriple\(DocumentChainedSegment, string, Color?, bool\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_CreateTriple_VM_Managed_DAFUL_Chained_DocumentChainedSegment_System_String_System_Nullable_System_Drawing_Color__System_Boolean_"></a> CreateTriple\(DocumentChainedSegment, string, Color?, bool\)
 
 Create triple shoe <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Track.BuilderShoeUserDefined" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -344,7 +344,7 @@ The new <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-reso
 
 Will be thrown if 'document' is null.
 
-### CreateTriple\(PartDocumentChainedSegment, Color?\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_CreateTriple_VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_System_Nullable_System_Drawing_Color__"></a> CreateTriple\(PartDocumentChainedSegment, Color?\)
 
 Create triple shoe <xref href="VM.Managed.CAD.Track.BodyShoe" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Track.BuilderShoeUserDefined" data-throw-if-not-resolved="false"></xref> builder in part.
 
@@ -374,7 +374,7 @@ The new <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="f
 
 Will be thrown if 'document' is null.
 
-### CreateUserDefined\(DocumentChainedSegment, string, Color?, bool\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_CreateUserDefined_VM_Managed_DAFUL_Chained_DocumentChainedSegment_System_String_System_Nullable_System_Drawing_Color__System_Boolean_"></a> CreateUserDefined\(DocumentChainedSegment, string, Color?, bool\)
 
 Create user-defined shoe <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Track.BuilderShoeUserDefined" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -412,7 +412,7 @@ The new <xref href="VM.Managed.DAFUL.Track.SolidBodyShoe" data-throw-if-not-reso
 
 Will be thrown if 'document' is null.
 
-### CreateUserDefined\(PartDocumentChainedSegment, Color?\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_CreateUserDefined_VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_System_Nullable_System_Drawing_Color__"></a> CreateUserDefined\(PartDocumentChainedSegment, Color?\)
 
 Create user-defined shoe <xref href="VM.Managed.CAD.Track.BodyShoe" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Track.BuilderShoeUserDefined" data-throw-if-not-resolved="false"></xref> builder in part.
 
@@ -442,7 +442,7 @@ The new <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="f
 
 Will be thrown if 'document' is null.
 
-### CreateVType\(DocumentChainedSegment, string, Color?, bool\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_CreateVType_VM_Managed_DAFUL_Chained_DocumentChainedSegment_System_String_System_Nullable_System_Drawing_Color__System_Boolean_"></a> CreateVType\(DocumentChainedSegment, string, Color?, bool\)
 
 Create V-type link <xref href="VM.Managed.DAFUL.Track.SolidBodyLink" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Track.BuilderLinkUserDefined" data-throw-if-not-resolved="false"></xref> builder.
 
@@ -480,7 +480,7 @@ The new <xref href="VM.Managed.DAFUL.Track.SolidBodyLink" data-throw-if-not-reso
 
 Will be thrown if 'document' is null.
 
-### CreateVType\(PartDocumentChainedSegment, Color?\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_CreateVType_VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_System_Nullable_System_Drawing_Color__"></a> CreateVType\(PartDocumentChainedSegment, Color?\)
 
 Create V-type link <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="false"></xref> with <xref href="VM.Managed.CAD.Track.BuilderLinkUserDefined" data-throw-if-not-resolved="false"></xref> builder in part.
 
@@ -510,7 +510,7 @@ The new <xref href="VM.Managed.CAD.Track.BodyLink" data-throw-if-not-resolved="f
 
 Will be thrown if 'document' is null.
 
-### ReplaceDesignPosition\(Obj, Obj, ExpressionValueVariable, TMatrix\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_ReplaceDesignPosition_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Models_Pre_ExpressionValueVariable_VM_TMatrix_"></a> ReplaceDesignPosition\(Obj, Obj, ExpressionValueVariable, TMatrix\)
 
 Replace design position.
 
@@ -552,7 +552,7 @@ Will be thrown if type of 'segmentBody' is not <xref href="VM.Managed.CAD.Track.
 
 Will be thrown if type of 'designPoint' is not <xref href="VM.Managed.DesignPoint" data-throw-if-not-resolved="false"></xref>.
 
-### RestorePathToOriginPositionAndOrientation\(Obj, IEnumerable<Obj\>, IEnumerable<TMatrix\>\)
+### <a id="VM_API_Pre_Links_TrackedSystemAPI_RestorePathToOriginPositionAndOrientation_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Collections_Generic_IEnumerable_VM_TMatrix__"></a> RestorePathToOriginPositionAndOrientation\(Obj, IEnumerable<Obj\>, IEnumerable<TMatrix\>\)
 
 ```csharp
 [NotNullObj(new string[] { "trackPlacing" })]
@@ -568,5 +568,4 @@ public static void RestorePathToOriginPositionAndOrientation(this Obj trackPlaci
 `paths` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
 
 `transforms` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<TMatrix\>
-
 

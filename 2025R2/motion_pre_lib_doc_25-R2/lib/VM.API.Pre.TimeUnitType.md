@@ -1,4 +1,4 @@
-# Enum TimeUnitType
+#  Enum TimeUnitType
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -32,7 +32,6 @@ ms
 `SEC = 0` 
 
 sec
-
 
 
 

@@ -1,4 +1,4 @@
-# Enum ActiveActuators
+#  Enum ActiveActuators
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.FourPost](VM.Managed.DAFUL.Car.Analysis.FourPost.md)  
 Assembly: VMDCar.dll  
@@ -62,7 +62,6 @@ rightfront
 `Rightrear = 8` 
 
 rightrear
-
 
 
 

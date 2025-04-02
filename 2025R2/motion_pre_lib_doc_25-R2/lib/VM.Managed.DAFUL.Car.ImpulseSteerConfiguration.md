@@ -1,4 +1,4 @@
-# Class ImpulseSteerConfiguration
+#  Class ImpulseSteerConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ImpulseSteerConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_ImpulseSteerConfiguration__ctor"></a> ImpulseSteerConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ImpulseSteerConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ImpulseSteerC
 public ImpulseSteerConfiguration()
 ```
 
-### ImpulseSteerConfiguration\(AnalysisImpulseSteer\)
+### <a id="VM_Managed_DAFUL_Car_ImpulseSteerConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisImpulseSteer_"></a> ImpulseSteerConfiguration\(AnalysisImpulseSteer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ImpulseSteerConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_ImpulseSteerConfiguration_Analysis"></a> Analysis
 
 Gets or sets the analysis.
 
@@ -239,7 +239,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_ImpulseSteerConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -251,7 +251,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_ImpulseSteerConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -263,7 +263,7 @@ public override FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### ImpulseSteerParam
+### <a id="VM_Managed_DAFUL_Car_ImpulseSteerConfiguration_ImpulseSteerParam"></a> ImpulseSteerParam
 
 Gets or sets the impulse steer parameter.
 
@@ -274,5 +274,4 @@ public AnalysisImpulseSteer ImpulseSteerParam { get; set; }
 #### Property Value
 
  [AnalysisImpulseSteer](VM.Managed.DAFUL.Car.AnalysisImpulseSteer.md)
-
 

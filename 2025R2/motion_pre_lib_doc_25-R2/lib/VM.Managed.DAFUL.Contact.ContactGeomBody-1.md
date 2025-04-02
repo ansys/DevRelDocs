@@ -1,4 +1,4 @@
-# Class ContactGeomBody<TProperty\>
+#  Class ContactGeomBody<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -221,7 +221,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ContactGeomBody\(\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBody_1__ctor"></a> ContactGeomBody\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeomBody%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -229,7 +229,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGe
 protected ContactGeomBody()
 ```
 
-### ContactGeomBody\(string\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBody_1__ctor_System_String_"></a> ContactGeomBody\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeomBody%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -245,7 +245,7 @@ Name of the 2D contact geometry .
 
 ## Properties
 
-### Geometry
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBody_1_Geometry"></a> Geometry
 
 Gets or sets the geometry.
 
@@ -257,7 +257,7 @@ public ObjectBase Geometry { get; set; }
 
  ObjectBase
 
-### GeometryFullName
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBody_1_GeometryFullName"></a> GeometryFullName
 
 Gets the full name of the geometry.
 
@@ -269,7 +269,7 @@ public override string GeometryFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GeometryParentKey
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBody_1_GeometryParentKey"></a> GeometryParentKey
 
 Get geometry parent key
 
@@ -281,7 +281,7 @@ public override ObjectBase.ConvertKey GeometryParentKey { get; }
 
  ObjectBase.ConvertKey
 
-### TargetGeometry
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBody_1_TargetGeometry"></a> TargetGeometry
 
 Gets or sets the target geometry.
 
@@ -295,7 +295,7 @@ public override ObjectBase TargetGeometry { get; }
 
 ## Methods
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBody_1_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [base].
 
@@ -323,7 +323,7 @@ if set to <code>true</code> [b has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPointDirection\(ref VectorBase, ref VectorBase\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBody_1_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointDirection\(ref VectorBase, ref VectorBase\)
 
 Gets the point direction.
 
@@ -347,7 +347,7 @@ The direction.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBody_1_GetPointDirectionOnGeometry_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase\)
 
 Gets the normal origin point and direction.
 
@@ -371,7 +371,7 @@ The normal direction.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBody_1_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -389,7 +389,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBody_1_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -406,5 +406,4 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

@@ -1,4 +1,4 @@
-# Class PinionGeometry
+#  Class PinionGeometry
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -298,7 +298,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PinionGeometry\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_PinionGeometry__ctor"></a> PinionGeometry\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.PinionGeometry" data-throw-if-not-resolved="false"></xref> class.
 
@@ -306,7 +306,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Pin
 public PinionGeometry()
 ```
 
-### PinionGeometry\(Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_PinionGeometry__ctor_VM_Managed_CAD_Builder_"></a> PinionGeometry\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.PinionGeometry" data-throw-if-not-resolved="false"></xref> class.
 
@@ -319,5 +319,4 @@ public PinionGeometry(Builder builder)
 `builder` Builder
 
 The builder.
-
 

@@ -1,4 +1,4 @@
-# Enum SurfaceSmoothing
+#  Enum SurfaceSmoothing
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -26,7 +26,6 @@ no_smoothing
 `SMOOTHING = 2` 
 
 smoothing
-
 
 
 

@@ -1,4 +1,4 @@
-# Class Hexa8
+#  Class Hexa8
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -61,7 +61,7 @@ public class Hexa8 : Element8Nodes, IEntity
 
 ## Constructors
 
-### Hexa8\(\)
+### <a id="VM_Models_FE_Mesh_Elements_Hexa8__ctor"></a> Hexa8\(\)
 
 ```csharp
 public Hexa8()
@@ -69,7 +69,7 @@ public Hexa8()
 
 ## Properties
 
-### ElementType
+### <a id="VM_Models_FE_Mesh_Elements_Hexa8_ElementType"></a> ElementType
 
 ```csharp
 public override ElementTypes ElementType { get; }
@@ -78,5 +78,4 @@ public override ElementTypes ElementType { get; }
 #### Property Value
 
  [ElementTypes](VM.Models.FE.Mesh.ElementTypes.md)
-
 

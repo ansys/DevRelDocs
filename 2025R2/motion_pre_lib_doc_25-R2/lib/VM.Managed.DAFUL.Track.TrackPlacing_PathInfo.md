@@ -1,4 +1,4 @@
-# Class TrackPlacing\_PathInfo
+#  Class TrackPlacing\_PathInfo
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### TrackPlacing\_PathInfo\(\)
+### <a id="VM_Managed_DAFUL_Track_TrackPlacing_PathInfo__ctor"></a> TrackPlacing\_PathInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.TrackPlacing_PathInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ public TrackPlacing_PathInfo()
 
 ## Properties
 
-### Assembly
+### <a id="VM_Managed_DAFUL_Track_TrackPlacing_PathInfo_Assembly"></a> Assembly
 
 Gets or sets a value indicating whether this instance use assembly option.
 
@@ -120,7 +120,7 @@ public bool Assembly { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Contact
+### <a id="VM_Managed_DAFUL_Track_TrackPlacing_PathInfo_Contact"></a> Contact
 
 Gets or sets a value indicating whether this instance use contact option.
 
@@ -132,7 +132,7 @@ public bool Contact { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Distance
+### <a id="VM_Managed_DAFUL_Track_TrackPlacing_PathInfo_Distance"></a> Distance
 
 Gets and sets the distance.
 
@@ -144,7 +144,7 @@ public ExpressionValueVariable Distance { get; set; }
 
  ExpressionValueVariable
 
-### Engagement
+### <a id="VM_Managed_DAFUL_Track_TrackPlacing_PathInfo_Engagement"></a> Engagement
 
 Gets or sets the type of the engagement.
 
@@ -156,7 +156,7 @@ public EngageType Engagement { get; set; }
 
  EngageType
 
-### GapExpression
+### <a id="VM_Managed_DAFUL_Track_TrackPlacing_PathInfo_GapExpression"></a> GapExpression
 
 Gets ans sets the type of gap expression.
 
@@ -168,7 +168,7 @@ public GapExpressionType GapExpression { get; set; }
 
  GapExpressionType
 
-### Height
+### <a id="VM_Managed_DAFUL_Track_TrackPlacing_PathInfo_Height"></a> Height
 
 Gets and sets the height.
 
@@ -179,5 +179,4 @@ public ExpressionValueVariable Height { get; set; }
 #### Property Value
 
  ExpressionValueVariable
-
 

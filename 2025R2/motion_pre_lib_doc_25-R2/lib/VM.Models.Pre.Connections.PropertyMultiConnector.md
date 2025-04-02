@@ -1,4 +1,4 @@
-# Class PropertyMultiConnector
+#  Class PropertyMultiConnector
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyMultiConnector\(\)
+### <a id="VM_Models_Pre_Connections_PropertyMultiConnector__ctor"></a> PropertyMultiConnector\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Connections.PropertyMultiConnector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertyMultiConnector()
 
 ## Properties
 
-### Characteristic
+### <a id="VM_Models_Pre_Connections_PropertyMultiConnector_Characteristic"></a> Characteristic
 
 Gets or sets the characteristic.
 
@@ -189,7 +189,7 @@ public Property Characteristic { get; set; }
 
 ## Methods
 
-### FindLocal\(string\)
+### <a id="VM_Models_Pre_Connections_PropertyMultiConnector_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -209,7 +209,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Models_Pre_Connections_PropertyMultiConnector_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -226,5 +226,4 @@ The ob unnamed.
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

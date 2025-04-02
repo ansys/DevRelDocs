@@ -1,4 +1,4 @@
-# Enum Configuration.SkipAnalysis
+#  Enum Configuration.SkipAnalysis
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -32,7 +32,6 @@ Position, Velocity, Acceleration
 `VelAcc = 2` 
 
 Velocity, Acceleration
-
 
 
 

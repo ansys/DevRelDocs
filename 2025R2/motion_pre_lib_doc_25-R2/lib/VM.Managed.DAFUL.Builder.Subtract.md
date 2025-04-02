@@ -1,4 +1,4 @@
-# Class Subtract
+#  Class Subtract
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -64,7 +64,7 @@ public class Subtract : Boolean<BuilderSubtract>, IBuilder
 
 ## Constructors
 
-### Subtract\(\)
+### <a id="VM_Managed_DAFUL_Builder_Subtract__ctor"></a> Subtract\(\)
 
 ```csharp
 public Subtract()
@@ -72,7 +72,7 @@ public Subtract()
 
 ## Properties
 
-### Type
+### <a id="VM_Managed_DAFUL_Builder_Subtract_Type"></a> Type
 
 ```csharp
 protected override string Type { get; }
@@ -84,7 +84,7 @@ protected override string Type { get; }
 
 ## Methods
 
-### BuildTargetTool\(Builder, Builder\[\]\)
+### <a id="VM_Managed_DAFUL_Builder_Subtract_BuildTargetTool_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder___"></a> BuildTargetTool\(Builder, Builder\[\]\)
 
 ```csharp
 protected override void BuildTargetTool(Builder buiTarget, Builder[] buiTools)
@@ -96,7 +96,7 @@ protected override void BuildTargetTool(Builder buiTarget, Builder[] buiTools)
 
 `buiTools` Builder\[\]
 
-### CheckValid\(Document, List<Body\>\)
+### <a id="VM_Managed_DAFUL_Builder_Subtract_CheckValid_VM_Managed_Document_System_Collections_Generic_List_VM_Managed_CAD_Body__"></a> CheckValid\(Document, List<Body\>\)
 
 ```csharp
 protected override bool CheckValid(Document doc, List<Body> lstBodies)
@@ -111,5 +111,4 @@ protected override bool CheckValid(Document doc, List<Body> lstBodies)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Class Rating
+#  Class Rating
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Rating\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Rating__ctor"></a> Rating\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Rating" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Rating()
 
 ## Properties
 
-### ApplicationFactor
+### <a id="VM_Managed_DAFUL_GearTrain_Rating_ApplicationFactor"></a> ApplicationFactor
 
 Gets or sets the application factor.
 
@@ -118,7 +118,7 @@ public ExpressionValueVariable ApplicationFactor { get; set; }
 
  ExpressionValueVariable
 
-### DynamicFactorCalculateType
+### <a id="VM_Managed_DAFUL_GearTrain_Rating_DynamicFactorCalculateType"></a> DynamicFactorCalculateType
 
 Gets or sets the dynamic factor calculate type.
 
@@ -130,7 +130,7 @@ public Rating.CalculateType DynamicFactorCalculateType { get; set; }
 
  [Rating](VM.Managed.DAFUL.GearTrain.Rating.md).[CalculateType](VM.Managed.DAFUL.GearTrain.Rating.CalculateType.md)
 
-### GearRatingMethod
+### <a id="VM_Managed_DAFUL_GearTrain_Rating_GearRatingMethod"></a> GearRatingMethod
 
 Gets or sets the gear rating method.
 
@@ -142,7 +142,7 @@ public Rating.GearRatingMethodType GearRatingMethod { get; set; }
 
  [Rating](VM.Managed.DAFUL.GearTrain.Rating.md).[GearRatingMethodType](VM.Managed.DAFUL.GearTrain.Rating.GearRatingMethodType.md)
 
-### Outputs
+### <a id="VM_Managed_DAFUL_GearTrain_Rating_Outputs"></a> Outputs
 
 Gets or sets the outputs.
 
@@ -154,7 +154,7 @@ public RatingOutput[] Outputs { get; set; }
 
  [RatingOutput](VM.Managed.DAFUL.GearTrain.RatingOutput.md)\[\]
 
-### PairDynamicFactor
+### <a id="VM_Managed_DAFUL_GearTrain_Rating_PairDynamicFactor"></a> PairDynamicFactor
 
 Gets or sets the pair dynamic factor.
 
@@ -166,7 +166,7 @@ public GearPairValue PairDynamicFactor { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairFaceLoadFactor
+### <a id="VM_Managed_DAFUL_GearTrain_Rating_PairFaceLoadFactor"></a> PairFaceLoadFactor
 
 Gets or sets the pair face load factor.
 
@@ -178,7 +178,7 @@ public GearPairValue PairFaceLoadFactor { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### RequiredServiceLife
+### <a id="VM_Managed_DAFUL_GearTrain_Rating_RequiredServiceLife"></a> RequiredServiceLife
 
 Gets or sets the required service life.
 
@@ -192,7 +192,7 @@ public ExpressionValueVariable RequiredServiceLife { get; set; }
 
 ## Methods
 
-### InitChild\(int\)
+### <a id="VM_Managed_DAFUL_GearTrain_Rating_InitChild_System_Int32_"></a> InitChild\(int\)
 
 Initializes the child.
 
@@ -206,7 +206,7 @@ public void InitChild(int nNum)
 
 The n number.
 
-### InitChildForPair\(int\)
+### <a id="VM_Managed_DAFUL_GearTrain_Rating_InitChildForPair_System_Int32_"></a> InitChildForPair\(int\)
 
 Initializes the child for pair.
 
@@ -219,5 +219,4 @@ public void InitChildForPair(int nNum)
 `nNum` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 The n number.
-
 

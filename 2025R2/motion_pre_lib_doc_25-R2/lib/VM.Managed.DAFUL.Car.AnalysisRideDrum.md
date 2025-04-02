@@ -1,4 +1,4 @@
-# Class AnalysisRideDrum
+#  Class AnalysisRideDrum
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -43,7 +43,7 @@ IHasInitialVel
 
 ## Constructors
 
-### AnalysisRideDrum\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisRideDrum__ctor"></a> AnalysisRideDrum\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisRideDrum" data-throw-if-not-resolved="false"></xref> class.
 
@@ -51,7 +51,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisRideD
 public AnalysisRideDrum()
 ```
 
-### AnalysisRideDrum\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisRideDrum__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisRideDrum\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisRideDrum" data-throw-if-not-resolved="false"></xref> class.
 
@@ -67,7 +67,7 @@ The link container.
 
 ## Properties
 
-### CleatShape
+### <a id="VM_Managed_DAFUL_Car_AnalysisRideDrum_CleatShape"></a> CleatShape
 
 Gets or sets the cleat shape.
 
@@ -79,7 +79,7 @@ public CleatShape CleatShape { get; set; }
 
  [CleatShape](VM.Managed.DAFUL.Car.CleatShape.md)
 
-### Cleat\_StartingAngle
+### <a id="VM_Managed_DAFUL_Car_AnalysisRideDrum_Cleat_StartingAngle"></a> Cleat\_StartingAngle
 
 Gets or sets the cleat starting angle.
 
@@ -91,7 +91,7 @@ public double Cleat_StartingAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### DiameterValue
+### <a id="VM_Managed_DAFUL_Car_AnalysisRideDrum_DiameterValue"></a> DiameterValue
 
 Gets or sets the diameter.
 
@@ -103,7 +103,7 @@ public double DiameterValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### DrumInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisRideDrum_DrumInfo"></a> DrumInfo
 
 Gets or sets the drum.
 
@@ -115,7 +115,7 @@ public AnalysisInfo DrumInfo { get; set; }
 
  [AnalysisInfo](VM.Managed.DAFUL.Car.AnalysisInfo.md)
 
-### InitialVelocity
+### <a id="VM_Managed_DAFUL_Car_AnalysisRideDrum_InitialVelocity"></a> InitialVelocity
 
 Gets the initial velocity.
 
@@ -127,7 +127,7 @@ protected override double InitialVelocity { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Number\_Cleats
+### <a id="VM_Managed_DAFUL_Car_AnalysisRideDrum_Number_Cleats"></a> Number\_Cleats
 
 Gets or sets the number of cleats.
 
@@ -141,7 +141,7 @@ public uint Number_Cleats { get; set; }
 
 ## Methods
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisRideDrum_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -154,5 +154,4 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
-
 

@@ -1,4 +1,4 @@
-# Class PropertyTireFile
+#  Class PropertyTireFile
 
 Namespace: [VM.Managed.DAFUL.Tire.Force](VM.Managed.DAFUL.Tire.Force.md)  
 Assembly: VMDTire.dll  
@@ -173,7 +173,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyTireFile\(\)
+### <a id="VM_Managed_DAFUL_Tire_Force_PropertyTireFile__ctor"></a> PropertyTireFile\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Force.PropertyTireFile" data-throw-if-not-resolved="false"></xref> class.
 
@@ -183,7 +183,7 @@ public PropertyTireFile()
 
 ## Methods
 
-### SetModified\(\)
+### <a id="VM_Managed_DAFUL_Tire_Force_PropertyTireFile_SetModified"></a> SetModified\(\)
 
 Called when object modified.
 
@@ -191,7 +191,7 @@ Called when object modified.
 protected override void SetModified()
 ```
 
-### SetModified\(ModifiedType\)
+### <a id="VM_Managed_DAFUL_Tire_Force_PropertyTireFile_SetModified_VM_Managed_ModifiedResult_ModifiedType_"></a> SetModified\(ModifiedType\)
 
 Called when object modified.
 
@@ -204,5 +204,4 @@ protected override void SetModified(ModifiedResult.ModifiedType type)
 `type` ModifiedResult.ModifiedType
 
 The modifed type.
-
 

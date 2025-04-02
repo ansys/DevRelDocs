@@ -1,4 +1,4 @@
-# Class SplineAPI
+#  Class SplineAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class SplineAPI
 
 ## Methods
 
-### CreateSpline\(IDocument, string, IEnumerable<Point\>, ExpressionValueVariable?, ExpressionValueVariable?, SymmetricType\)
+### <a id="VM_API_Pre_SplineAPI_CreateSpline_VM_Models_Pre_IDocument_System_String_System_Collections_Generic_IEnumerable_VM_Managed_DAFUL_SplineData_Point__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_Managed_SymmetricType_"></a> CreateSpline\(IDocument, string, IEnumerable<Point\>, ExpressionValueVariable?, ExpressionValueVariable?, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Spline" data-throw-if-not-resolved="false"></xref>.
 
@@ -69,7 +69,7 @@ The new <xref href="VM.Managed.DAFUL.Spline" data-throw-if-not-resolved="false">
 
 Will be thrown if 'document', 'splineData' is null.
 
-### CreateSpline3D\(IDocument, string, ExpressionValueVariable\[,\], ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, SymmetricType\)
+### <a id="VM_API_Pre_SplineAPI_CreateSpline3D_VM_Models_Pre_IDocument_System_String_VM_Models_Pre_ExpressionValueVariable_0__0___System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_Managed_SymmetricType_"></a> CreateSpline3D\(IDocument, string, ExpressionValueVariable\[,\], ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Spline3D" data-throw-if-not-resolved="false"></xref>.
 
@@ -124,7 +124,7 @@ Will be thrown if 'document', 'points' is null.
 
 Will be thrown if the count of the 'points' is less than 4.
 
-### CreateSplineWithFile\(IDocument, string, string, string, ExpressionValueVariable?, ExpressionValueVariable?, SymmetricType\)
+### <a id="VM_API_Pre_SplineAPI_CreateSplineWithFile_VM_Models_Pre_IDocument_System_String_System_String_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_Managed_SymmetricType_"></a> CreateSplineWithFile\(IDocument, string, string, string, ExpressionValueVariable?, ExpressionValueVariable?, SymmetricType\)
 
 Create <xref href="VM.Managed.DAFUL.Spline" data-throw-if-not-resolved="false"></xref>.
 
@@ -176,5 +176,4 @@ The new <xref href="VM.Managed.DAFUL.Spline" data-throw-if-not-resolved="false">
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document', 'selectedSplineName' is null.
-
 

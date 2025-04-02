@@ -1,4 +1,4 @@
-# Class ObservableKeyedCollection<TKey, TItem\>
+#  Class ObservableKeyedCollection<TKey, TItem\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -15,10 +15,10 @@ public class ObservableKeyedCollection<TKey, TItem> : ObservableKeyedCollectionB
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
-[Collection<TItem\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection\-1) ??
-[KeyedCollection<TKey, TItem\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.keyedcollection\-2) ??
-[ObservableKeyedCollectionBase<TKey, TItem\>](VM.Collections.ObservableKeyedCollectionBase\-2.md) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[Collection<TItem\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection\-1) ← 
+[KeyedCollection<TKey, TItem\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.keyedcollection\-2) ← 
+[ObservableKeyedCollectionBase<TKey, TItem\>](VM.Collections.ObservableKeyedCollectionBase\-2.md) ← 
 [ObservableKeyedCollection<TKey, TItem\>](VM.Collections.ObservableKeyedCollection\-2.md)
 
 #### Inherited Members
@@ -36,7 +36,7 @@ public class ObservableKeyedCollection<TKey, TItem> : ObservableKeyedCollectionB
 
 ## Constructors
 
-### ObservableKeyedCollection\(Func<TItem, TKey\>\)
+### <a id="VM_Collections_ObservableKeyedCollection_2__ctor_System_Func__1__0__"></a> ObservableKeyedCollection\(Func<TItem, TKey\>\)
 
 ```python
 public ObservableKeyedCollection(Func<TItem, TKey> getKeyForItem)
@@ -48,7 +48,7 @@ public ObservableKeyedCollection(Func<TItem, TKey> getKeyForItem)
 
 ## Methods
 
-### GetKeyForItem\(TItem\)
+### <a id="VM_Collections_ObservableKeyedCollection_2_GetKeyForItem__1_"></a> GetKeyForItem\(TItem\)
 
 ```python
 protected override TKey GetKeyForItem(TItem item)

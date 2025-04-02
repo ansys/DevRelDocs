@@ -1,4 +1,4 @@
-# Class FullCarAssemblyConfigModify
+#  Class FullCarAssemblyConfigModify
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -100,7 +100,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### FullCarAssemblyConfigModify\(Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_FullCarAssemblyConfigModify__ctor_VM_Managed_Document_"></a> FullCarAssemblyConfigModify\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.FullCarAssemblyConfigModify" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ public FullCarAssemblyConfigModify(Document doc)
 
 The doc.
 
-### FullCarAssemblyConfigModify\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_FullCarAssemblyConfigModify__ctor_VM_Managed_Operation_JournalParameter_"></a> FullCarAssemblyConfigModify\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.FullCarAssemblyConfigModify" data-throw-if-not-resolved="false"></xref> class.
 
@@ -130,7 +130,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_FullCarAssemblyConfigModify_Name"></a> Name
 
 Gets the name.
 
@@ -144,7 +144,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_FullCarAssemblyConfigModify_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -152,12 +152,11 @@ Executes this instance.
 public override void Execute()
 ```
 
-### ShowDialog\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_FullCarAssemblyConfigModify_ShowDialog"></a> ShowDialog\(\)
 
 Shows the dialog.
 
 ```csharp
 protected override void ShowDialog()
 ```
-
 

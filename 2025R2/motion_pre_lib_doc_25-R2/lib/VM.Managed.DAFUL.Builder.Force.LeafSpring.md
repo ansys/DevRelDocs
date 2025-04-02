@@ -1,4 +1,4 @@
-# Class LeafSpring
+#  Class LeafSpring
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFP.dll  
@@ -53,7 +53,7 @@ BuilderBase<LeafSpring\>.ErrorMessage
 
 ## Constructors
 
-### LeafSpring\(\)
+### <a id="VM_Managed_DAFUL_Builder_Force_LeafSpring__ctor"></a> LeafSpring\(\)
 
 ```csharp
 public LeafSpring()
@@ -61,7 +61,7 @@ public LeafSpring()
 
 ## Properties
 
-### Axle
+### <a id="VM_Managed_DAFUL_Builder_Force_LeafSpring_Axle"></a> Axle
 
 ```csharp
 public IConnectable Axle { get; }
@@ -71,7 +71,7 @@ public IConnectable Axle { get; }
 
  IConnectable
 
-### EyePosition
+### <a id="VM_Managed_DAFUL_Builder_Force_LeafSpring_EyePosition"></a> EyePosition
 
 ```csharp
 public PointBase EyePosition { get; }
@@ -81,7 +81,7 @@ public PointBase EyePosition { get; }
 
  PointBase
 
-### FrontFrame
+### <a id="VM_Managed_DAFUL_Builder_Force_LeafSpring_FrontFrame"></a> FrontFrame
 
 ```csharp
 public IConnectable FrontFrame { get; }
@@ -91,7 +91,7 @@ public IConnectable FrontFrame { get; }
 
  IConnectable
 
-### RearFrame
+### <a id="VM_Managed_DAFUL_Builder_Force_LeafSpring_RearFrame"></a> RearFrame
 
 ```csharp
 public IConnectable RearFrame { get; }
@@ -101,7 +101,7 @@ public IConnectable RearFrame { get; }
 
  IConnectable
 
-### ReferenceFrame
+### <a id="VM_Managed_DAFUL_Builder_Force_LeafSpring_ReferenceFrame"></a> ReferenceFrame
 
 ```csharp
 public TransformBase ReferenceFrame { get; }
@@ -111,7 +111,7 @@ public TransformBase ReferenceFrame { get; }
 
  TransformBase
 
-### ShacklePosition
+### <a id="VM_Managed_DAFUL_Builder_Force_LeafSpring_ShacklePosition"></a> ShacklePosition
 
 ```csharp
 public PointBase ShacklePosition { get; }
@@ -123,7 +123,7 @@ public PointBase ShacklePosition { get; }
 
 ## Methods
 
-### OnPostAddDoc\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Builder_Force_LeafSpring_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -133,7 +133,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Force_LeafSpring_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -148,5 +148,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

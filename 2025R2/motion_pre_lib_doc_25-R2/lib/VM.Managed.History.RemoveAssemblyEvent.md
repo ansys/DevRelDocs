@@ -1,4 +1,4 @@
-# Class RemoveAssemblyEvent
+#  Class RemoveAssemblyEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -35,7 +35,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### RemoveAssemblyEvent\(object, Document3D\)
+### <a id="VM_Managed_History_RemoveAssemblyEvent__ctor_System_Object_VM_Managed_Document3D_"></a> RemoveAssemblyEvent\(object, Document3D\)
 
 ```csharp
 public RemoveAssemblyEvent(object obOriginal, Document3D doc)
@@ -49,7 +49,7 @@ public RemoveAssemblyEvent(object obOriginal, Document3D doc)
 
 ## Methods
 
-### Clear\(bool\)
+### <a id="VM_Managed_History_RemoveAssemblyEvent_Clear_System_Boolean_"></a> Clear\(bool\)
 
 ```csharp
 public override void Clear(bool bReserveReferenceCount)
@@ -59,7 +59,7 @@ public override void Clear(bool bReserveReferenceCount)
 
 `bReserveReferenceCount` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Redo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_RemoveAssemblyEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
 
 ```csharp
 public override void Redo(HistoryEventArgs args)
@@ -69,7 +69,7 @@ public override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### Undo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_RemoveAssemblyEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
 
 ```csharp
 public override void Undo(HistoryEventArgs args)
@@ -78,5 +78,4 @@ public override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
-
 

@@ -1,4 +1,4 @@
-# Class BooleanAPI.CheckClash
+#  Class BooleanAPI.CheckClash
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public class BooleanAPI.CheckClash
 
 ## Constructors
 
-### CheckClash\(\)
+### <a id="VM_API_Pre_BooleanAPI_CheckClash__ctor"></a> CheckClash\(\)
 
 ```csharp
 public CheckClash()
@@ -30,7 +30,7 @@ public CheckClash()
 
 ## Properties
 
-### TargetKey
+### <a id="VM_API_Pre_BooleanAPI_CheckClash_TargetKey"></a> TargetKey
 
 Gets and sets the body.
 
@@ -42,7 +42,7 @@ public KeyInfo TargetKey { get; set; }
 
  KeyInfo
 
-### ToolKey
+### <a id="VM_API_Pre_BooleanAPI_CheckClash_ToolKey"></a> ToolKey
 
 Gets and sets the body.
 
@@ -53,5 +53,4 @@ public KeyInfo ToolKey { get; set; }
 #### Property Value
 
  KeyInfo
-
 

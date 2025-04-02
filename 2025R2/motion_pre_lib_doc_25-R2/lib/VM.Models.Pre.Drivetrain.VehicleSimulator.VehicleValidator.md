@@ -1,4 +1,4 @@
-# Class VehicleValidator
+#  Class VehicleValidator
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -58,10 +58,9 @@ AbstractValidator<Vehicle\>.RuleLevelCascadeMode
 
 ## Constructors
 
-### VehicleValidator\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_VehicleValidator__ctor"></a> VehicleValidator\(\)
 
 ```csharp
 public VehicleValidator()
 ```
-
 

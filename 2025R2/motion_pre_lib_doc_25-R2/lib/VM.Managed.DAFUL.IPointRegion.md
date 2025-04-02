@@ -1,4 +1,4 @@
-# Interface IPointRegion
+#  Interface IPointRegion
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -21,7 +21,7 @@ public interface IPointRegion : IRegion
 
 ## Methods
 
-### GetPoints\(\)
+### <a id="VM_Managed_DAFUL_IPointRegion_GetPoints"></a> GetPoints\(\)
 
 Gets the circle patch point on face.
 
@@ -32,5 +32,4 @@ Vector[] GetPoints()
 #### Returns
 
  Vector\[\]
-
 

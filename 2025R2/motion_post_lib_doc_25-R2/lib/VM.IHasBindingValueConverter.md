@@ -1,4 +1,4 @@
-# Interface IHasBindingValueConverter
+#  Interface IHasBindingValueConverter
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -11,7 +11,7 @@ public interface IHasBindingValueConverter
 
 ## Methods
 
-### Convert\(\)
+### <a id="VM_IHasBindingValueConverter_Convert"></a> Convert\(\)
 
 Convert a value bount to a symbol.
 

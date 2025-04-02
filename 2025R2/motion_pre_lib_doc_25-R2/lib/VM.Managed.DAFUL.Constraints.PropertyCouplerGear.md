@@ -1,4 +1,4 @@
-# Class PropertyCouplerGear
+#  Class PropertyCouplerGear
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -171,12 +171,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyCouplerGear\(\)
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCouplerGear__ctor"></a> PropertyCouplerGear\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.PropertyCouplerGear" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyCouplerGear()
 ```
-
 

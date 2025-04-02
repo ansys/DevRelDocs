@@ -1,4 +1,4 @@
-# Class CurveSetBase
+#  Class CurveSetBase
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -58,7 +58,7 @@ BuilderBase<SetCurveBase\>.ErrorMessage
 
 ## Constructors
 
-### CurveSetBase\(\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetBase__ctor"></a> CurveSetBase\(\)
 
 ```csharp
 public CurveSetBase()
@@ -66,7 +66,7 @@ public CurveSetBase()
 
 ## Properties
 
-### AddToDoc
+### <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetBase_AddToDoc"></a> AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -75,5 +75,4 @@ protected override bool AddToDoc { get; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

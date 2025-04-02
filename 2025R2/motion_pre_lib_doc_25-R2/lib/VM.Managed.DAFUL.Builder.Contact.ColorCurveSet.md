@@ -1,4 +1,4 @@
-# Class ColorCurveSet
+#  Class ColorCurveSet
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -53,7 +53,7 @@ BuilderBase<SetCurveForEdges\>.ErrorMessage
 
 ## Constructors
 
-### ColorCurveSet\(\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_ColorCurveSet__ctor"></a> ColorCurveSet\(\)
 
 ```csharp
 public ColorCurveSet()
@@ -61,7 +61,7 @@ public ColorCurveSet()
 
 ## Properties
 
-### AddToDoc
+### <a id="VM_Managed_DAFUL_Builder_Contact_ColorCurveSet_AddToDoc"></a> AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -71,7 +71,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ColorArray
+### <a id="VM_Managed_DAFUL_Builder_Contact_ColorCurveSet_ColorArray"></a> ColorArray
 
 ```csharp
 public string[] ColorArray { get; set; }
@@ -81,7 +81,7 @@ public string[] ColorArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### Connectable
+### <a id="VM_Managed_DAFUL_Builder_Contact_ColorCurveSet_Connectable"></a> Connectable
 
 ```csharp
 public ObjectBase Connectable { get; }
@@ -93,7 +93,7 @@ public ObjectBase Connectable { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_ColorCurveSet_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -108,5 +108,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

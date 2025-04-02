@@ -1,4 +1,4 @@
-# Namespace VM.Models.Pre.Drivetrain.VehicleSimulator
+#  Namespace VM.Models.Pre.Drivetrain.VehicleSimulator
 
 ### Classes
 
@@ -65,5 +65,4 @@
  [PlanetaryTypes](VM.Models.Pre.Drivetrain.VehicleSimulator.PlanetaryTypes.md)
 
  [PowerRoles](VM.Models.Pre.Drivetrain.VehicleSimulator.PowerRoles.md)
-
 

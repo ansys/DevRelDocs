@@ -1,4 +1,4 @@
-# Class Ball\_Bearing\_Data
+#  Class Ball\_Bearing\_Data
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,7 @@ public class Ball_Bearing_Data
 
 ## Constructors
 
-### Ball\_Bearing\_Data\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data__ctor"></a> Ball\_Bearing\_Data\(\)
 
 ```csharp
 public Ball_Bearing_Data()
@@ -28,7 +28,7 @@ public Ball_Bearing_Data()
 
 ## Fields
 
-### D
+### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_D"></a> D
 
 ```csharp
 public double D
@@ -38,7 +38,7 @@ public double D
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Ki
+### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_Ki"></a> Ki
 
 ```csharp
 public double Ki
@@ -48,7 +48,7 @@ public double Ki
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Kn
+### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_Kn"></a> Kn
 
 ```csharp
 public double Kn
@@ -58,7 +58,7 @@ public double Kn
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Ko
+### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_Ko"></a> Ko
 
 ```csharp
 public double Ko
@@ -68,7 +68,7 @@ public double Ko
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Ri
+### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_Ri"></a> Ri
 
 ```csharp
 public double Ri
@@ -78,7 +78,7 @@ public double Ri
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Z
+### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_Z"></a> Z
 
 ```csharp
 public int Z
@@ -88,7 +88,7 @@ public int Z
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### d\_i
+### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_d_i"></a> d\_i
 
 ```csharp
 public double d_i
@@ -98,7 +98,7 @@ public double d_i
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### d\_o
+### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_d_o"></a> d\_o
 
 ```csharp
 public double d_o
@@ -108,7 +108,7 @@ public double d_o
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ri
+### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_ri"></a> ri
 
 ```csharp
 public double ri
@@ -118,7 +118,7 @@ public double ri
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ro
+### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_ro"></a> ro
 
 ```csharp
 public double ro
@@ -130,10 +130,9 @@ public double ro
 
 ## Methods
 
-### Recover\_Aux\_SPEC\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Ball_Bearing_Data_Recover_Aux_SPEC"></a> Recover\_Aux\_SPEC\(\)
 
 ```csharp
 public void Recover_Aux_SPEC()
 ```
-
 

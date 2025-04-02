@@ -1,4 +1,4 @@
-# Class CouplerGearJJ
+#  Class CouplerGearJJ
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  
@@ -57,10 +57,9 @@ BuilderBase<CouplerGear\>.ErrorMessage
 
 ## Constructors
 
-### CouplerGearJJ\(\)
+### <a id="VM_Managed_DAFUL_Builder_Constraints_CouplerGearJJ__ctor"></a> CouplerGearJJ\(\)
 
 ```csharp
 public CouplerGearJJ()
 ```
-
 

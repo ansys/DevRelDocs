@@ -1,4 +1,4 @@
-# Class EHDBearingAPI
+#  Class EHDBearingAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -22,7 +22,7 @@ public static class EHDBearingAPI
 
 ## Methods
 
-### CreateEHDBearing\(GearTrainDocument, Obj, Obj, Vector, Vector, Vector, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, string\)
+### <a id="VM_API_Pre_GearTrain_EHDBearingAPI_CreateEHDBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_VM_Vector_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_String_"></a> CreateEHDBearing\(GearTrainDocument, Obj, Obj, Vector, Vector, Vector, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, string\)
 
 Create <xref href="VM.Managed.DAFUL.Bearing.EHDBearing" data-throw-if-not-resolved="false"></xref>.
 
@@ -108,7 +108,7 @@ Will be thrown if type of 'baseGeometry' is not <xref href="VM.Managed.ObjectBas
 
 Will be thrown if type of 'actionGeometry' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
 
-### CreateEHDBearing\(GearTrainDocument, Obj, Obj, Vector, Vector, Vector, Vector, Vector, Vector, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, string\)
+### <a id="VM_API_Pre_GearTrain_EHDBearingAPI_CreateEHDBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_VM_Vector_VM_Vector_VM_Vector_VM_Vector_VM_Vector_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_String_"></a> CreateEHDBearing\(GearTrainDocument, Obj, Obj, Vector, Vector, Vector, Vector, Vector, Vector, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, string\)
 
 Create <xref href="VM.Managed.DAFUL.Bearing.EHDBearing" data-throw-if-not-resolved="false"></xref>.
 
@@ -209,5 +209,4 @@ Will be thrown if type of 'baseGeometry' is not <xref href="VM.Managed.ObjectBas
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if type of 'actionGeometry' is not <xref href="VM.Managed.ObjectBase" data-throw-if-not-resolved="false"></xref>.
-
 

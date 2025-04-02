@@ -1,4 +1,4 @@
-# Class CommandBase
+#  Class CommandBase
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,8 +9,8 @@ public abstract class CommandBase : ObservableObject, IObservableObject, IDispos
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
-[ObservableObject](VM.ObservableObject.md) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[ObservableObject](VM.ObservableObject.md) ← 
 [CommandBase](VM.CommandBase.md)
 
 #### Implements
@@ -34,7 +34,7 @@ public abstract class CommandBase : ObservableObject, IObservableObject, IDispos
 
 ## Constructors
 
-### CommandBase\(Func<object, bool\>\)
+### <a id="VM_CommandBase__ctor_System_Func_System_Object_System_Boolean__"></a> CommandBase\(Func<object, bool\>\)
 
 ```python
 public CommandBase(Func<object, bool> canExecute)
@@ -46,7 +46,7 @@ public CommandBase(Func<object, bool> canExecute)
 
 ## Properties
 
-### Description
+### <a id="VM_CommandBase_Description"></a> Description
 
 ```python
 public string Description { get; set; }
@@ -56,7 +56,7 @@ public string Description { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsExecuting
+### <a id="VM_CommandBase_IsExecuting"></a> IsExecuting
 
 ```python
 protected bool IsExecuting { get; set; }
@@ -68,7 +68,7 @@ protected bool IsExecuting { get; set; }
 
 ## Methods
 
-### CanExecute\(object\)
+### <a id="VM_CommandBase_CanExecute_System_Object_"></a> CanExecute\(object\)
 
 ```python
 public bool CanExecute(object parameter)
@@ -82,19 +82,19 @@ public bool CanExecute(object parameter)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### OnCanExecuteChanged\(\)
+### <a id="VM_CommandBase_OnCanExecuteChanged"></a> OnCanExecuteChanged\(\)
 
 ```python
 protected void OnCanExecuteChanged()
 ```
 
-### OnShouldExecute\(\)
+### <a id="VM_CommandBase_OnShouldExecute"></a> OnShouldExecute\(\)
 
 ```python
 protected void OnShouldExecute()
 ```
 
-### CanExecuteChanged
+### <a id="VM_CommandBase_CanExecuteChanged"></a> CanExecuteChanged
 
 ```python
 public virtual event EventHandler CanExecuteChanged
@@ -104,7 +104,7 @@ public virtual event EventHandler CanExecuteChanged
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### ShouldExecute
+### <a id="VM_CommandBase_ShouldExecute"></a> ShouldExecute
 
 ```python
 public event EventHandler ShouldExecute

@@ -1,4 +1,4 @@
-# Class NamedObjectDictionary<T\>
+#  Class NamedObjectDictionary<T\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMObjBase.dll  
@@ -113,7 +113,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### NamedObjectDictionary\(\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1__ctor"></a> NamedObjectDictionary\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Collections.NamedObjectDictionary%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ Initializes a new instance of the <xref href="VM.Managed.Collections.NamedObject
 public NamedObjectDictionary()
 ```
 
-### NamedObjectDictionary\(IOwned\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1__ctor_VM_Models_Pre_IOwned_"></a> NamedObjectDictionary\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.Collections.NamedObjectDictionary%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -137,7 +137,7 @@ The parent object.
 
 ## Properties
 
-### Count
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_Count"></a> Count
 
 Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -149,7 +149,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### IsExternable
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_IsExternable"></a> IsExternable
 
 Gets a value indicating whether this instance is externable.
 
@@ -161,7 +161,7 @@ public override bool IsExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsReadOnly
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_IsReadOnly"></a> IsReadOnly
 
 Gets a value indicating whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
@@ -173,7 +173,7 @@ public bool IsReadOnly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### this\[string\]
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_Item_System_String_"></a> this\[string\]
 
 Gets the T with the specified name.
 
@@ -187,7 +187,7 @@ public T this[string strName] { get; }
 
 ## Methods
 
-### Add\(T\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_Add__0_"></a> Add\(T\)
 
 Adds an item to the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -207,7 +207,7 @@ The object to add to the <xref href="System.Collections.Generic.ICollection%601"
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### ChangeName\(string, T\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_ChangeName_System_String__0_"></a> ChangeName\(string, T\)
 
 Changes the name.
 
@@ -225,7 +225,7 @@ The old name.
 
 The new object.
 
-### Clear\(\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_Clear"></a> Clear\(\)
 
 Removes all items from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -239,7 +239,7 @@ public void Clear()
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### Contains\(T\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_Contains__0_"></a> Contains\(T\)
 
 Determines whether the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> contains a specific value.
 
@@ -259,7 +259,7 @@ The object to locate in the <xref href="System.Collections.Generic.ICollection%6
 
 true if <code class="paramref">item</code> is found in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>; otherwise, false.
 
-### CopyTo\(T\[\], int\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_CopyTo__0___System_Int32_"></a> CopyTo\(T\[\], int\)
 
 Copies the elements of the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> to an <xref href="System.Array" data-throw-if-not-resolved="false"></xref>, starting at a particular <xref href="System.Array" data-throw-if-not-resolved="false"></xref> index.
 
@@ -277,7 +277,7 @@ The one-dimensional <xref href="System.Array" data-throw-if-not-resolved="false"
 
 The zero-based index in <code class="paramref">array</code> at which copying begins.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -297,7 +297,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetEnumerator\(\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_GetEnumerator"></a> GetEnumerator\(\)
 
 Returns an enumerator that iterates through the collection.
 
@@ -311,7 +311,7 @@ public IEnumerator<T> GetEnumerator()
 
 A <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> that can be used to iterate through the collection.
 
-### GetSchema\(\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <xref href="System.Xml.Serialization.XmlSchemaProviderAttribute" data-throw-if-not-resolved="false"></xref> to the class.
 
@@ -325,7 +325,7 @@ public XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### GetSortedEntity\(\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_GetSortedEntity"></a> GetSortedEntity\(\)
 
 Gets the sorted entity.
 
@@ -337,7 +337,7 @@ public SortedList<string, T> GetSortedEntity()
 
  [SortedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.sortedlist\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), T\>
 
-### IsSerializableEvent\(Delegate\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_IsSerializableEvent_System_Delegate_"></a> IsSerializableEvent\(Delegate\)
 
 Determines whether [is serializable event] [the specified del].
 
@@ -357,7 +357,7 @@ The del.
 
 <code>true</code> if [is serializable event] [the specified del]; otherwise, <code>false</code>.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -375,7 +375,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnChildUpdated\(object, LinkEventArgs\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_OnChildUpdated_System_Object_VM_Managed_LinkEventArgs_"></a> OnChildUpdated\(object, LinkEventArgs\)
 
 Called when [child updated].
 
@@ -393,7 +393,7 @@ The object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -407,7 +407,7 @@ public void ReadXml(XmlReader reader)
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
-### Remove\(string\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_Remove_System_String_"></a> Remove\(string\)
 
 Removes the specified name.
 
@@ -427,7 +427,7 @@ The Name.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### Remove\(T\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_Remove__0_"></a> Remove\(T\)
 
 Removes the first occurrence of a specific object from the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -453,7 +453,7 @@ true if <code class="paramref">item</code> was successfully removed from the <xr
 
 The <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref> is read-only.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_Collections_NamedObjectDictionary_1_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -466,5 +466,4 @@ public void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
-
 

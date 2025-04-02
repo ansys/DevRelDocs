@@ -1,4 +1,4 @@
-# Class AddedHDBearingBuilder
+#  Class AddedHDBearingBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -233,7 +233,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AddedHDBearingBuilder\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedHDBearingBuilder__ctor"></a> AddedHDBearingBuilder\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedHDBearingBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -241,7 +241,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Add
 public AddedHDBearingBuilder()
 ```
 
-### AddedHDBearingBuilder\(HDBearingGeom\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedHDBearingBuilder__ctor_VM_Managed_DAFUL_GearTrain_CAD_HDBearingGeom_"></a> AddedHDBearingBuilder\(HDBearingGeom\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedHDBearingBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -254,5 +254,4 @@ public AddedHDBearingBuilder(HDBearingGeom bearing)
 `bearing` [HDBearingGeom](VM.Managed.DAFUL.GearTrain.CAD.HDBearingGeom.md)
 
 The bearing.
-
 

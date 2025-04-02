@@ -1,4 +1,4 @@
-# Class ReferenceRevolute
+#  Class ReferenceRevolute
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -189,7 +189,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferenceRevolute\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_DAFUL_Constraints_ReferenceRevolute__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceRevolute\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.ReferenceRevolute" data-throw-if-not-resolved="false"></xref> class.
 
@@ -207,7 +207,7 @@ The info.
 
 The context.
 
-### ReferenceRevolute\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Constraints_ReferenceRevolute__ctor_VM_Managed_ObjectBase_"></a> ReferenceRevolute\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.ReferenceRevolute" data-throw-if-not-resolved="false"></xref> class.
 
@@ -223,7 +223,7 @@ The reference's object.
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Constraints_ReferenceRevolute_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -235,7 +235,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Constraints_ReferenceRevolute_ReferenceType"></a> ReferenceType
 
 Gets the type of the array for argument.
 
@@ -249,7 +249,7 @@ public string ReferenceType { get; }
 
 ## Methods
 
-### GetActionMarker\(\)
+### <a id="VM_Managed_DAFUL_Constraints_ReferenceRevolute_GetActionMarker"></a> GetActionMarker\(\)
 
 Gets the action marker.
 
@@ -263,7 +263,7 @@ public Marker GetActionMarker()
 
 The action marker.
 
-### GetActionParentConnectable\(\)
+### <a id="VM_Managed_DAFUL_Constraints_ReferenceRevolute_GetActionParentConnectable"></a> GetActionParentConnectable\(\)
 
 Gets the action parent connectable.
 
@@ -277,7 +277,7 @@ public IConnectable GetActionParentConnectable()
 
 The action parent connectable.
 
-### GetActionTransform\(\)
+### <a id="VM_Managed_DAFUL_Constraints_ReferenceRevolute_GetActionTransform"></a> GetActionTransform\(\)
 
 Gets the action transform.
 
@@ -291,7 +291,7 @@ public TransformBase GetActionTransform()
 
 The action transformation.
 
-### GetBaseMarker\(\)
+### <a id="VM_Managed_DAFUL_Constraints_ReferenceRevolute_GetBaseMarker"></a> GetBaseMarker\(\)
 
 Gets the base marker.
 
@@ -305,7 +305,7 @@ public Marker GetBaseMarker()
 
 The base marker.
 
-### GetBaseParentConnectable\(\)
+### <a id="VM_Managed_DAFUL_Constraints_ReferenceRevolute_GetBaseParentConnectable"></a> GetBaseParentConnectable\(\)
 
 Gets the base parent connectable.
 
@@ -319,7 +319,7 @@ public IConnectable GetBaseParentConnectable()
 
 The base parent connectable.
 
-### GetBaseTransform\(\)
+### <a id="VM_Managed_DAFUL_Constraints_ReferenceRevolute_GetBaseTransform"></a> GetBaseTransform\(\)
 
 Gets the base transform.
 
@@ -333,7 +333,7 @@ public TransformBase GetBaseTransform()
 
 The base transformation.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Constraints_ReferenceRevolute_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -360,5 +360,4 @@ if set to <code>true</code> [has child].
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

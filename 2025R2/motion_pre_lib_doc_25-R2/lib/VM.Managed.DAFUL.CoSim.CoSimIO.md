@@ -1,4 +1,4 @@
-# Class CoSimIO
+#  Class CoSimIO
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  
@@ -176,7 +176,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### CoSimIO\(\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIO__ctor"></a> CoSimIO\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimIO" data-throw-if-not-resolved="false"></xref> class.
 
@@ -184,7 +184,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimIO" da
 protected CoSimIO()
 ```
 
-### CoSimIO\(string\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIO__ctor_System_String_"></a> CoSimIO\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimIO" data-throw-if-not-resolved="false"></xref> class.
 
@@ -200,7 +200,7 @@ Name of the <xref href="VM.Managed.DAFUL.CoSim.CoSimIO" data-throw-if-not-resolv
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIO_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -212,7 +212,7 @@ public abstract ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIO_ReferenceType"></a> ReferenceType
 
 Gets the type of the reference.
 
@@ -224,7 +224,7 @@ public virtual string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIO_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -236,7 +236,7 @@ protected abstract IReportable.ReportEntityType ReportTypeImpl { get; }
 
  IReportable.ReportEntityType
 
-### UnitName
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIO_UnitName"></a> UnitName
 
 Gets or sets the UnitName.
 
@@ -250,7 +250,7 @@ public UnitName UnitName { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimIO_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -263,5 +263,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

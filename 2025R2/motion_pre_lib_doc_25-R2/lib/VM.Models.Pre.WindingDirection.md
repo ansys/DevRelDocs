@@ -1,4 +1,4 @@
-# Enum WindingDirection
+#  Enum WindingDirection
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -26,7 +26,6 @@ Minus
 `Plus = 1` 
 
 Plus
-
 
 
 

@@ -1,4 +1,4 @@
-# Class ExtendedTypeInfo
+#  Class ExtendedTypeInfo
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,8 +9,8 @@ public class ExtendedTypeInfo : ExtendedMemberInfo<TypeInfo>
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
-[ExtendedMemberInfo<TypeInfo\>](VM.ExtendedMemberInfo\-1.md) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[ExtendedMemberInfo<TypeInfo\>](VM.ExtendedMemberInfo\-1.md) ← 
 [ExtendedTypeInfo](VM.ExtendedTypeInfo.md)
 
 #### Inherited Members
@@ -21,7 +21,7 @@ public class ExtendedTypeInfo : ExtendedMemberInfo<TypeInfo>
 
 ## Constructors
 
-### ExtendedTypeInfo\(TypeInfo\)
+### <a id="VM_ExtendedTypeInfo__ctor_System_Reflection_TypeInfo_"></a> ExtendedTypeInfo\(TypeInfo\)
 
 ```python
 public ExtendedTypeInfo(TypeInfo type)
@@ -33,7 +33,7 @@ public ExtendedTypeInfo(TypeInfo type)
 
 ## Properties
 
-### Type
+### <a id="VM_ExtendedTypeInfo_Type"></a> Type
 
 ```python
 public Type Type { get; }
@@ -43,7 +43,7 @@ public Type Type { get; }
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### TypeInfo
+### <a id="VM_ExtendedTypeInfo_TypeInfo"></a> TypeInfo
 
 ```python
 public TypeInfo TypeInfo { get; }
@@ -55,7 +55,7 @@ public TypeInfo TypeInfo { get; }
 
 ## Methods
 
-### AddOnChangedMethod\(string, Action<object\>\)
+### <a id="VM_ExtendedTypeInfo_AddOnChangedMethod_System_String_System_Action_System_Object__"></a> AddOnChangedMethod\(string, Action<object\>\)
 
 ```python
 public void AddOnChangedMethod(string propertyName, Action<object> onChanged)
@@ -67,7 +67,7 @@ public void AddOnChangedMethod(string propertyName, Action<object> onChanged)
 
 `onChanged` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[object](https://learn.microsoft.com/dotnet/api/system.object)\>
 
-### TryGetOnChangedMethod\(string, out Action<object\>\)
+### <a id="VM_ExtendedTypeInfo_TryGetOnChangedMethod_System_String_System_Action_System_Object___"></a> TryGetOnChangedMethod\(string, out Action<object\>\)
 
 ```python
 public bool TryGetOnChangedMethod(string propertyName, out Action<object> onChanged)

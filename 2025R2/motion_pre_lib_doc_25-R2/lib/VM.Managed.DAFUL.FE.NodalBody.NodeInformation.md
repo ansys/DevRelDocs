@@ -1,4 +1,4 @@
-# Struct NodalBody.NodeInformation
+#  Struct NodalBody.NodeInformation
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +11,7 @@ public struct NodalBody.NodeInformation
 
 ## Fields
 
-### Orientation
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeInformation_Orientation"></a> Orientation
 
 The currnet node orientation.
 
@@ -23,7 +23,7 @@ public NodalBody.NodeCurrentOrientation Orientation
 
  [NodalBody](VM.Managed.DAFUL.FE.NodalBody.md).[NodeCurrentOrientation](VM.Managed.DAFUL.FE.NodalBody.NodeCurrentOrientation.md)
 
-### Position
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeInformation_Position"></a> Position
 
 The currnet node position.
 
@@ -35,7 +35,7 @@ public NodalBody.NodeCurrentPosition Position
 
  [NodalBody](VM.Managed.DAFUL.FE.NodalBody.md).[NodeCurrentPosition](VM.Managed.DAFUL.FE.NodalBody.NodeCurrentPosition.md)
 
-### Temperature
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeInformation_Temperature"></a> Temperature
 
 The current node temperature.
 
@@ -46,5 +46,4 @@ public double Temperature
 #### Field Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

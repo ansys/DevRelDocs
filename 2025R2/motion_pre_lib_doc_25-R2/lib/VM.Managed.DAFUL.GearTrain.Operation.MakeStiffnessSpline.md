@@ -1,4 +1,4 @@
-# Class MakeStiffnessSpline
+#  Class MakeStiffnessSpline
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### MakeStiffnessSpline\(List<double\[\]\>, List<string\>, List<string\>, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeStiffnessSpline__ctor_System_Collections_Generic_List_System_Double____System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__System_String_"></a> MakeStiffnessSpline\(List<double\[\]\>, List<string\>, List<string\>, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.MakeStiffnessSpline" data-throw-if-not-resolved="false"></xref> class.
 
@@ -103,7 +103,7 @@ Type of the name.
 
 The gearset name.
 
-### MakeStiffnessSpline\(Document3D, List<double\[\]\>, List<string\>, List<string\>, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeStiffnessSpline__ctor_VM_Managed_Document3D_System_Collections_Generic_List_System_Double____System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__System_String_"></a> MakeStiffnessSpline\(Document3D, List<double\[\]\>, List<string\>, List<string\>, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.MakeStiffnessSpline" data-throw-if-not-resolved="false"></xref> class.
 
@@ -133,7 +133,7 @@ Type of the name.
 
 The gearset name.
 
-### MakeStiffnessSpline\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeStiffnessSpline__ctor_VM_Managed_Operation_JournalParameter_"></a> MakeStiffnessSpline\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.MakeStiffnessSpline" data-throw-if-not-resolved="false"></xref> class.
 
@@ -149,7 +149,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeStiffnessSpline_Name"></a> Name
 
 Gets the name.
 
@@ -163,7 +163,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeStiffnessSpline_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -171,7 +171,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_MakeStiffnessSpline_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -184,5 +184,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

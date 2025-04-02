@@ -1,4 +1,4 @@
-# Class LinkDictionaryCollection<T, TValue\>
+#  Class LinkDictionaryCollection<T, TValue\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -121,13 +121,13 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### LinkDictionaryCollection\(\)
+### <a id="VM_Managed_Collections_LinkDictionaryCollection_2__ctor"></a> LinkDictionaryCollection\(\)
 
 ```csharp
 public LinkDictionaryCollection()
 ```
 
-### LinkDictionaryCollection\(IOwned\)
+### <a id="VM_Managed_Collections_LinkDictionaryCollection_2__ctor_VM_Models_Pre_IOwned_"></a> LinkDictionaryCollection\(IOwned\)
 
 ```csharp
 public LinkDictionaryCollection(IOwned owner)
@@ -137,7 +137,7 @@ public LinkDictionaryCollection(IOwned owner)
 
 `owner` IOwned
 
-### LinkDictionaryCollection\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_Collections_LinkDictionaryCollection_2__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> LinkDictionaryCollection\(SerializationInfo, StreamingContext\)
 
 ```csharp
 protected LinkDictionaryCollection(SerializationInfo info, StreamingContext context)
@@ -148,5 +148,4 @@ protected LinkDictionaryCollection(SerializationInfo info, StreamingContext cont
 `info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
 
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
-
 

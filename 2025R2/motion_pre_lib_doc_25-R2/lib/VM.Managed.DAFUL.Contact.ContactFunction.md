@@ -1,4 +1,4 @@
-# Class ContactFunction
+#  Class ContactFunction
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -106,7 +106,7 @@ The class represents contact charactoristic properties such as flag of 'Function
 
 ## Constructors
 
-### ContactFunction\(\)
+### <a id="VM_Managed_DAFUL_Contact_ContactFunction__ctor"></a> ContactFunction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactFu
 protected ContactFunction()
 ```
 
-### ContactFunction\(PropertyContact\)
+### <a id="VM_Managed_DAFUL_Contact_ContactFunction__ctor_VM_Managed_DAFUL_Contact_PropertyContact_"></a> ContactFunction\(PropertyContact\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -130,7 +130,7 @@ Owner contact property.
 
 ## Properties
 
-### BufferRangeFactor
+### <a id="VM_Managed_DAFUL_Contact_ContactFunction_BufferRangeFactor"></a> BufferRangeFactor
 
 Gets or sets the buffer range factor.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable BufferRangeFactor { get; set; }
 
  ExpressionValueVariable
 
-### MaxStepFactor
+### <a id="VM_Managed_DAFUL_Contact_ContactFunction_MaxStepFactor"></a> MaxStepFactor
 
 Gets or sets the maximum step factor.
 
@@ -154,7 +154,7 @@ public ExpressionValueVariable MaxStepFactor { get; set; }
 
  ExpressionValueVariable
 
-### Type
+### <a id="VM_Managed_DAFUL_Contact_ContactFunction_Type"></a> Type
 
 Get function type of itself.
 
@@ -168,7 +168,7 @@ public abstract ContactFunction.FunctionType Type { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Contact_ContactFunction_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -182,7 +182,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Contact_ContactFunction_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -196,7 +196,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### ReadTemplate\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Contact_ContactFunction_ReadTemplate_System_Xml_XmlReader_"></a> ReadTemplate\(XmlReader\)
 
 Reads the template.
 
@@ -210,7 +210,7 @@ public virtual void ReadTemplate(XmlReader reader)
 
 The reader.
 
-### WriteTemplate\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Contact_ContactFunction_WriteTemplate_System_Xml_XmlWriter_"></a> WriteTemplate\(XmlWriter\)
 
 Writes the template.
 
@@ -223,5 +223,4 @@ public virtual void WriteTemplate(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

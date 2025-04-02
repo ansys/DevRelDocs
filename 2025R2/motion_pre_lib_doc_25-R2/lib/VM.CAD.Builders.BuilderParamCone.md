@@ -1,4 +1,4 @@
-# Class BuilderParamCone
+#  Class BuilderParamCone
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -40,7 +40,7 @@ public class BuilderParamCone : BuilderParamCylinder
 
 ## Constructors
 
-### BuilderParamCone\(\)
+### <a id="VM_CAD_Builders_BuilderParamCone__ctor"></a> BuilderParamCone\(\)
 
 ```csharp
 public BuilderParamCone()
@@ -48,7 +48,7 @@ public BuilderParamCone()
 
 ## Properties
 
-### TopRadius
+### <a id="VM_CAD_Builders_BuilderParamCone_TopRadius"></a> TopRadius
 
 ```csharp
 public double TopRadius { get; set; }
@@ -57,5 +57,4 @@ public double TopRadius { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

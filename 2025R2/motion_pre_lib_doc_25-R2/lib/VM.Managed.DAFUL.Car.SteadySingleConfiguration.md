@@ -1,4 +1,4 @@
-# Class SteadySingleConfiguration
+#  Class SteadySingleConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SteadySingleConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_SteadySingleConfiguration__ctor"></a> SteadySingleConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SteadySingleConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SteadySingleC
 public SteadySingleConfiguration()
 ```
 
-### SteadySingleConfiguration\(AnalysisSteadySingle\)
+### <a id="VM_Managed_DAFUL_Car_SteadySingleConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisSteadySingle_"></a> SteadySingleConfiguration\(AnalysisSteadySingle\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SteadySingleConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_SteadySingleConfiguration_Analysis"></a> Analysis
 
 Gets or sets the type of the analysis.
 
@@ -233,7 +233,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_SteadySingleConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -245,7 +245,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_SteadySingleConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -257,7 +257,7 @@ public override TireAnalysisType AnalysisType { get; }
 
  [TireAnalysisType](VM.Managed.DAFUL.Car.TireAnalysisType.md)
 
-### SteadySingleParam
+### <a id="VM_Managed_DAFUL_Car_SteadySingleConfiguration_SteadySingleParam"></a> SteadySingleParam
 
 Gets or sets the steady single parameter.
 
@@ -268,5 +268,4 @@ public AnalysisSteadySingle SteadySingleParam { get; set; }
 #### Property Value
 
  [AnalysisSteadySingle](VM.Managed.DAFUL.Car.AnalysisSteadySingle.md)
-
 

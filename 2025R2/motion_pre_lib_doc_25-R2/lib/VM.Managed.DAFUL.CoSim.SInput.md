@@ -1,4 +1,4 @@
-# Class SInput
+#  Class SInput
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  
@@ -177,7 +177,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SInput\(\)
+### <a id="VM_Managed_DAFUL_CoSim_SInput__ctor"></a> SInput\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.SInput" data-throw-if-not-resolved="false"></xref> class.
 
@@ -185,7 +185,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.SInput" dat
 protected SInput()
 ```
 
-### SInput\(string\)
+### <a id="VM_Managed_DAFUL_CoSim_SInput__ctor_System_String_"></a> SInput\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.SInput" data-throw-if-not-resolved="false"></xref> class.
 
@@ -201,7 +201,7 @@ Name of the <xref href="VM.Managed.DAFUL.CoSim.SInput" data-throw-if-not-resolve
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_CoSim_SInput_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -213,7 +213,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_CoSim_SInput_ReferenceType"></a> ReferenceType
 
 Gets the type of the reference.
 
@@ -225,7 +225,7 @@ public override string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_CoSim_SInput_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -236,5 +236,4 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 #### Property Value
 
  IReportable.ReportEntityType
-
 

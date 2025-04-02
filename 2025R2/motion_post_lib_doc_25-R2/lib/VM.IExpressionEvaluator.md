@@ -1,4 +1,4 @@
-# Interface IExpressionEvaluator
+#  Interface IExpressionEvaluator
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IExpressionEvaluator
 
 ## Methods
 
-### Evaluate\(string\)
+### <a id="VM_IExpressionEvaluator_Evaluate_System_String_"></a> Evaluate\(string\)
 
 ```python
 object Evaluate(string expression)
@@ -23,7 +23,7 @@ object Evaluate(string expression)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### TryEvaluate<T\>\(string, out T\)
+### <a id="VM_IExpressionEvaluator_TryEvaluate__1_System_String___0__"></a> TryEvaluate<T\>\(string, out T\)
 
 ```python
 bool TryEvaluate<T>(string expression, out T result)

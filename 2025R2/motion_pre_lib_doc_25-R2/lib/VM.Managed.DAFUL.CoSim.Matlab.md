@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.CoSim.Matlab
+#  Namespace VM.Managed.DAFUL.CoSim.Matlab
 
 ### Namespaces
 
@@ -13,5 +13,4 @@ The Matlab Co-Simulation configuration class
  [MFileGen](VM.Managed.DAFUL.CoSim.Matlab.MFileGen.md)
 
 The M file generation setting class
-
 

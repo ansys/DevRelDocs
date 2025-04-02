@@ -1,4 +1,4 @@
-# Class Function
+#  Class Function
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymSB.dll  
@@ -34,7 +34,7 @@ Named<SubEntity\>.SymmetricManager
 
 ## Constructors
 
-### Function\(\)
+### <a id="VM_Managed_Symmetric_Function__ctor"></a> Function\(\)
 
 ```csharp
 public Function()
@@ -42,7 +42,7 @@ public Function()
 
 ## Methods
 
-### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_Function_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -75,5 +75,4 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

@@ -1,4 +1,4 @@
-# Class AnalysisParameterThermal
+#  Class AnalysisParameterThermal
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -45,7 +45,7 @@ public class AnalysisParameterThermal : AnalysisParameterDynamic
 
 ## Constructors
 
-### AnalysisParameterThermal\(\)
+### <a id="VM_Managed_AnalysisParameterThermal__ctor"></a> AnalysisParameterThermal\(\)
 
 ```csharp
 public AnalysisParameterThermal()
@@ -53,7 +53,7 @@ public AnalysisParameterThermal()
 
 ## Properties
 
-### UseSteadyStateAnalysis
+### <a id="VM_Managed_AnalysisParameterThermal_UseSteadyStateAnalysis"></a> UseSteadyStateAnalysis
 
 Gets or sets a value indicating whether [steady state analysis].
 
@@ -64,5 +64,4 @@ public bool UseSteadyStateAnalysis { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

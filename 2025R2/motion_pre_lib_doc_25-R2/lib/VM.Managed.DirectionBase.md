@@ -1,4 +1,4 @@
-# Class DirectionBase
+#  Class DirectionBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -107,7 +107,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DirectionBase\(\)
+### <a id="VM_Managed_DirectionBase__ctor"></a> DirectionBase\(\)
 
 ```csharp
 public DirectionBase()
@@ -115,7 +115,7 @@ public DirectionBase()
 
 ## Fields
 
-### m\_bReverse
+### <a id="VM_Managed_DirectionBase_m_bReverse"></a> m\_bReverse
 
 The flag of reverse.
 
@@ -129,7 +129,7 @@ protected bool m_bReverse
 
 ## Properties
 
-### IsParameterized
+### <a id="VM_Managed_DirectionBase_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -141,7 +141,7 @@ public abstract bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Reverse
+### <a id="VM_Managed_DirectionBase_Reverse"></a> Reverse
 
 Gets the reverse direction.
 
@@ -153,7 +153,7 @@ public bool Reverse { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Value
+### <a id="VM_Managed_DirectionBase_Value"></a> Value
 
 Gets the VectorBase(x, y, z).
 
@@ -167,7 +167,7 @@ public abstract VectorBase Value { get; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_DirectionBase_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -184,7 +184,7 @@ public abstract XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### IsParametric\(enRefType\)
+### <a id="VM_Managed_DirectionBase_IsParametric_VM_Managed_Primitive_enRefType_"></a> IsParametric\(enRefType\)
 
 Gets parametric.
 
@@ -204,7 +204,7 @@ Point picking type.
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
-### IsParametric\(string\)
+### <a id="VM_Managed_DirectionBase_IsParametric_System_String_"></a> IsParametric\(string\)
 
 Gets parametric.
 
@@ -224,7 +224,7 @@ Point picking type.
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DirectionBase_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -238,7 +238,7 @@ public abstract void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DirectionBase_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -251,5 +251,4 @@ public abstract void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

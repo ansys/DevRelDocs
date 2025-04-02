@@ -1,4 +1,4 @@
-# Namespace VM.Managed.Material
+#  Namespace VM.Managed.Material
 
 ### Classes
 
@@ -91,5 +91,4 @@ This interface is to represent the material.
  [ISO.CapacityMatrix](VM.Managed.Material.ISO.CapacityMatrix.md)
 
 Specifies type for a capacity matrix.
-
 

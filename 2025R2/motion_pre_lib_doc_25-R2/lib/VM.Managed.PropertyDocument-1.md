@@ -1,4 +1,4 @@
-# Class PropertyDocument<TProp\>
+#  Class PropertyDocument<TProp\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -297,7 +297,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyDocument\(\)
+### <a id="VM_Managed_PropertyDocument_1__ctor"></a> PropertyDocument\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.PropertyDocument%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -307,7 +307,7 @@ protected PropertyDocument()
 
 ## Properties
 
-### FilePropertyOwner
+### <a id="VM_Managed_PropertyDocument_1_FilePropertyOwner"></a> FilePropertyOwner
 
 Gets the file property owner.
 
@@ -319,7 +319,7 @@ public FilePropertyOwner<TProp> FilePropertyOwner { get; }
 
  [FilePropertyOwner](VM.Managed.FilePropertyOwner\-1.md)<TProp\>
 
-### Property
+### <a id="VM_Managed_PropertyDocument_1_Property"></a> Property
 
 Gets the property.
 
@@ -331,7 +331,7 @@ public TProp Property { get; }
 
  TProp
 
-### PropertyType
+### <a id="VM_Managed_PropertyDocument_1_PropertyType"></a> PropertyType
 
 Gets the type of the property.
 
@@ -343,7 +343,7 @@ protected override Type PropertyType { get; }
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### UntypedProperty
+### <a id="VM_Managed_PropertyDocument_1_UntypedProperty"></a> UntypedProperty
 
 Gets or sets the untyped property.
 
@@ -355,7 +355,7 @@ protected override Property UntypedProperty { get; set; }
 
  [Property](VM.Managed.Property.md)
 
-### UntypedPropertyOwner
+### <a id="VM_Managed_PropertyDocument_1_UntypedPropertyOwner"></a> UntypedPropertyOwner
 
 Gets the untyped property owner.
 
@@ -369,7 +369,7 @@ protected override ObjectBase UntypedPropertyOwner { get; }
 
 ## Methods
 
-### Load\(TextReader\)
+### <a id="VM_Managed_PropertyDocument_1_Load_System_IO_TextReader_"></a> Load\(TextReader\)
 
 Loads the from specified reader.
 
@@ -383,7 +383,7 @@ public override void Load(TextReader reader)
 
 The reader.
 
-### OnPostMakeDocument\(DocCreateInfo\)
+### <a id="VM_Managed_PropertyDocument_1_OnPostMakeDocument_VM_Managed_DocCreateInfo_"></a> OnPostMakeDocument\(DocCreateInfo\)
 
 Called when [post make document].
 
@@ -397,7 +397,7 @@ protected override void OnPostMakeDocument(DocCreateInfo docCreateInfo)
 
 The [document create] information.
 
-### Save\(TextWriter\)
+### <a id="VM_Managed_PropertyDocument_1_Save_System_IO_TextWriter_"></a> Save\(TextWriter\)
 
 Saves the from specified writer.
 
@@ -410,5 +410,4 @@ public override void Save(TextWriter writer)
 `writer` [TextWriter](https://learn.microsoft.com/dotnet/api/system.io.textwriter)
 
 The writer.
-
 

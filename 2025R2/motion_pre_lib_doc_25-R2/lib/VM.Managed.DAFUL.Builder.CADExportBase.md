@@ -1,4 +1,4 @@
-# Class CADExportBase
+#  Class CADExportBase
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -29,7 +29,7 @@ public class CADExportBase : IBuilder
 
 ## Constructors
 
-### CADExportBase\(\)
+### <a id="VM_Managed_DAFUL_Builder_CADExportBase__ctor"></a> CADExportBase\(\)
 
 ```csharp
 public CADExportBase()
@@ -37,7 +37,7 @@ public CADExportBase()
 
 ## Fields
 
-### m\_bSuccess
+### <a id="VM_Managed_DAFUL_Builder_CADExportBase_m_bSuccess"></a> m\_bSuccess
 
 ```csharp
 protected bool m_bSuccess
@@ -49,7 +49,7 @@ protected bool m_bSuccess
 
 ## Properties
 
-### BuildObject
+### <a id="VM_Managed_DAFUL_Builder_CADExportBase_BuildObject"></a> BuildObject
 
 ```csharp
 public ObjectBase BuildObject { get; }
@@ -59,7 +59,7 @@ public ObjectBase BuildObject { get; }
 
  ObjectBase
 
-### PropertyFilePath
+### <a id="VM_Managed_DAFUL_Builder_CADExportBase_PropertyFilePath"></a> PropertyFilePath
 
 ```csharp
 public string PropertyFilePath { get; set; }
@@ -71,7 +71,7 @@ public string PropertyFilePath { get; set; }
 
 ## Methods
 
-### Build\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_CADExportBase_Build_VM_Managed_Document_"></a> Build\(Document\)
 
 ```csharp
 public void Build(Document docToAdd)
@@ -81,7 +81,7 @@ public void Build(Document docToAdd)
 
 `docToAdd` Document
 
-### Build\(Document, List<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_CADExportBase_Build_VM_Managed_Document_System_Collections_Generic_List_System_String__"></a> Build\(Document, List<string\>\)
 
 ```csharp
 public void Build(Document docToAdd, List<string> lstSetPointKeys)
@@ -93,7 +93,7 @@ public void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### BuildImpl\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_CADExportBase_BuildImpl_VM_Managed_Document_"></a> BuildImpl\(Document\)
 
 ```csharp
 public virtual void BuildImpl(Document docToAdd)
@@ -103,7 +103,7 @@ public virtual void BuildImpl(Document docToAdd)
 
 `docToAdd` Document
 
-### Success\(\)
+### <a id="VM_Managed_DAFUL_Builder_CADExportBase_Success"></a> Success\(\)
 
 ```csharp
 public bool Success()
@@ -113,7 +113,7 @@ public bool Success()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_CADExportBase_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public bool Validate(IList<string> lstErrorMessage)
@@ -126,5 +126,4 @@ public bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

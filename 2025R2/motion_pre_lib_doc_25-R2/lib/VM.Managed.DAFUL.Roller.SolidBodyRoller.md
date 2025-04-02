@@ -1,4 +1,4 @@
-# Class SolidBodyRoller
+#  Class SolidBodyRoller
 
 Namespace: [VM.Managed.DAFUL.Roller](VM.Managed.DAFUL.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -310,7 +310,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SolidBodyRoller\(\)
+### <a id="VM_Managed_DAFUL_Roller_SolidBodyRoller__ctor"></a> SolidBodyRoller\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref> class.
 
@@ -318,7 +318,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Roller.SolidBodyR
 public SolidBodyRoller()
 ```
 
-### SolidBodyRoller\(string\)
+### <a id="VM_Managed_DAFUL_Roller_SolidBodyRoller__ctor_System_String_"></a> SolidBodyRoller\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref> class.
 
@@ -332,7 +332,7 @@ public SolidBodyRoller(string strName)
 
 Name of the solid roller body.
 
-### SolidBodyRoller\(string, Builder\)
+### <a id="VM_Managed_DAFUL_Roller_SolidBodyRoller__ctor_System_String_VM_Managed_CAD_Builder_"></a> SolidBodyRoller\(string, Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Roller.SolidBodyRoller" data-throw-if-not-resolved="false"></xref> class.
 
@@ -352,7 +352,7 @@ The builder.
 
 ## Methods
 
-### ReGenerateBodyInformation\(XmlDocument\)
+### <a id="VM_Managed_DAFUL_Roller_SolidBodyRoller_ReGenerateBodyInformation_System_Xml_XmlDocument_"></a> ReGenerateBodyInformation\(XmlDocument\)
 
 Sets body information
 
@@ -371,5 +371,4 @@ The data xml of roller
  [SolidBodyRoller](VM.Managed.DAFUL.Roller.SolidBodyRoller.md)
 
 The body of roller
-
 

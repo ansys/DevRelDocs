@@ -1,4 +1,4 @@
-# Class BuilderLink
+#  Class BuilderLink
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -201,7 +201,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderLink\(\)
+### <a id="VM_Managed_CAD_Track_BuilderLink__ctor"></a> BuilderLink\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.BuilderLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ public BuilderLink()
 
 ## Fields
 
-### m\_enLinkType
+### <a id="VM_Managed_CAD_Track_BuilderLink_m_enLinkType"></a> m\_enLinkType
 
 The enum for link type.
 
@@ -225,7 +225,7 @@ protected LinkType m_enLinkType
 
 ## Properties
 
-### LinkType
+### <a id="VM_Managed_CAD_Track_BuilderLink_LinkType"></a> LinkType
 
 Gets and sets link type.
 
@@ -237,7 +237,7 @@ public LinkType LinkType { get; set; }
 
  [LinkType](VM.Managed.CAD.Track.LinkType.md)
 
-### Transform
+### <a id="VM_Managed_CAD_Track_BuilderLink_Transform"></a> Transform
 
 Gets and sets Transformation.
 
@@ -249,7 +249,7 @@ public override sealed TransformBase Transform { get; set; }
 
  TransformBase
 
-### TypeOfBuilder
+### <a id="VM_Managed_CAD_Track_BuilderLink_TypeOfBuilder"></a> TypeOfBuilder
 
 ```csharp
 public override string TypeOfBuilder { get; set; }
@@ -259,7 +259,7 @@ public override string TypeOfBuilder { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Uneditable
+### <a id="VM_Managed_CAD_Track_BuilderLink_Uneditable"></a> Uneditable
 
 Gets or sets Uneditable value..
 
@@ -273,7 +273,7 @@ public override bool Uneditable { get; }
 
 ## Methods
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_Track_BuilderLink_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Check validation for member variables.
 
@@ -281,7 +281,7 @@ Check validation for member variables.
 public override void CheckValidationAboutBuild()
 ```
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_Track_BuilderLink_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -291,7 +291,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### SetTransform\(TMatrix\)
+### <a id="VM_Managed_CAD_Track_BuilderLink_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
 
 Sets the transform information.
 
@@ -304,5 +304,4 @@ public override void SetTransform(TMatrix matT)
 `matT` TMatrix
 
 The transform information.
-
 

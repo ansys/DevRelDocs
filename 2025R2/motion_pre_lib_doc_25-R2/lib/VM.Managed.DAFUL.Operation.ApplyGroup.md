@@ -1,4 +1,4 @@
-# Class ApplyGroup
+#  Class ApplyGroup
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ApplyGroup\(SubSystemDocument, string, string\[\]\)
+### <a id="VM_Managed_DAFUL_Operation_ApplyGroup__ctor_VM_Managed_DAFUL_SubSystemDocument_System_String_System_String___"></a> ApplyGroup\(SubSystemDocument, string, string\[\]\)
 
 ```csharp
 public ApplyGroup(SubSystemDocument doc, string strName, string[] arObjectName)
@@ -91,7 +91,7 @@ public ApplyGroup(SubSystemDocument doc, string strName, string[] arObjectName)
 
 `arObjectName` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### ApplyGroup\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_ApplyGroup__ctor_VM_Managed_Operation_JournalParameter_"></a> ApplyGroup\(JournalParameter\)
 
 ```csharp
 public ApplyGroup(JournalParameter jp)
@@ -103,7 +103,7 @@ public ApplyGroup(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_ApplyGroup_Name"></a> Name
 
 Gets the operation name.
 
@@ -117,7 +117,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_ApplyGroup_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -125,7 +125,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Operation_ApplyGroup_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -134,5 +134,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

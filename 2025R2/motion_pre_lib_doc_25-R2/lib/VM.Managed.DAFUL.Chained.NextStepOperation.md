@@ -1,4 +1,4 @@
-# Class NextStepOperation
+#  Class NextStepOperation
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### NextStepOperation\(Document\)
+### <a id="VM_Managed_DAFUL_Chained_NextStepOperation__ctor_VM_Managed_Document_"></a> NextStepOperation\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.NextStepOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -91,7 +91,7 @@ public NextStepOperation(Document doc)
 
 ## Fields
 
-### NextStep
+### <a id="VM_Managed_DAFUL_Chained_NextStepOperation_NextStep"></a> NextStep
 
 Next step event
 
@@ -105,7 +105,7 @@ public NextStepOperation.NextStepCallback NextStep
 
 ## Properties
 
-### ExistEvent
+### <a id="VM_Managed_DAFUL_Chained_NextStepOperation_ExistEvent"></a> ExistEvent
 
 Gets the existing event flag.
 
@@ -117,7 +117,7 @@ public bool ExistEvent { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_Chained_NextStepOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -131,12 +131,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Chained_NextStepOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

@@ -1,4 +1,4 @@
-# Class BuilderConeSimple
+#  Class BuilderConeSimple
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -205,7 +205,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderConeSimple\(Variable, Variable, PointBase, PointBase\)
+### <a id="VM_Managed_CAD_BuilderConeSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_PointBase_VM_Managed_PointBase_"></a> BuilderConeSimple\(Variable, Variable, PointBase, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -231,7 +231,7 @@ The bottom position of cone.
 
 The top position of cone.
 
-### BuilderConeSimple\(double, double, PointBase, PointBase\)
+### <a id="VM_Managed_CAD_BuilderConeSimple__ctor_System_Double_System_Double_VM_Managed_PointBase_VM_Managed_PointBase_"></a> BuilderConeSimple\(double, double, PointBase, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -257,7 +257,7 @@ The bottom position of cone.
 
 The top position of cone.
 
-### BuilderConeSimple\(Variable, Variable, PointBase\)
+### <a id="VM_Managed_CAD_BuilderConeSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_PointBase_"></a> BuilderConeSimple\(Variable, Variable, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -279,7 +279,7 @@ The top radius of cone.(variable)
 
 The top position of cone.
 
-### BuilderConeSimple\(double, double, PointBase\)
+### <a id="VM_Managed_CAD_BuilderConeSimple__ctor_System_Double_System_Double_VM_Managed_PointBase_"></a> BuilderConeSimple\(double, double, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -301,7 +301,7 @@ The top radius of cone.
 
 The top position of cone.
 
-### BuilderConeSimple\(Variable, Variable, Variable\)
+### <a id="VM_Managed_CAD_BuilderConeSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_"></a> BuilderConeSimple\(Variable, Variable, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -323,7 +323,7 @@ The top radius of cone.(variable)
 
 The height of cone.(variable)
 
-### BuilderConeSimple\(double, double, double\)
+### <a id="VM_Managed_CAD_BuilderConeSimple__ctor_System_Double_System_Double_System_Double_"></a> BuilderConeSimple\(double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -345,7 +345,7 @@ The top radius of cone.
 
 The height of cone.
 
-### BuilderConeSimple\(\)
+### <a id="VM_Managed_CAD_BuilderConeSimple__ctor"></a> BuilderConeSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -355,7 +355,7 @@ public BuilderConeSimple()
 
 ## Properties
 
-### BottomPosition
+### <a id="VM_Managed_CAD_BuilderConeSimple_BottomPosition"></a> BottomPosition
 
 Gets or sets the bottom position of cone.
 
@@ -367,7 +367,7 @@ public PointBase BottomPosition { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### IsParameterized
+### <a id="VM_Managed_CAD_BuilderConeSimple_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -379,7 +379,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RadiusMajor
+### <a id="VM_Managed_CAD_BuilderConeSimple_RadiusMajor"></a> RadiusMajor
 
 Gets or sets the major radius of cone(variable).
 
@@ -391,7 +391,7 @@ public Variable RadiusMajor { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### TopPosition
+### <a id="VM_Managed_CAD_BuilderConeSimple_TopPosition"></a> TopPosition
 
 Gets or sets the top position of cone.
 
@@ -403,7 +403,7 @@ public PointBase TopPosition { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### TopRadius
+### <a id="VM_Managed_CAD_BuilderConeSimple_TopRadius"></a> TopRadius
 
 Gets or sets the top radius of cone(variable).
 
@@ -415,7 +415,7 @@ public Variable TopRadius { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### \_BottomPosition
+### <a id="VM_Managed_CAD_BuilderConeSimple__BottomPosition"></a> \_BottomPosition
 
 Gets the bottom position of cylinder.
 
@@ -427,7 +427,7 @@ public override VectorBase _BottomPosition { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### \_RadiusMajor
+### <a id="VM_Managed_CAD_BuilderConeSimple__RadiusMajor"></a> \_RadiusMajor
 
 Gets the major radius of cylinder.
 
@@ -439,7 +439,7 @@ public override double _RadiusMajor { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### \_TopPosition
+### <a id="VM_Managed_CAD_BuilderConeSimple__TopPosition"></a> \_TopPosition
 
 Gets the top position of cylinder.
 
@@ -451,7 +451,7 @@ public override VectorBase _TopPosition { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### \_TopRadius
+### <a id="VM_Managed_CAD_BuilderConeSimple__TopRadius"></a> \_TopRadius
 
 Gets the top radius of block.
 
@@ -465,7 +465,7 @@ public override double _TopRadius { get; }
 
 ## Methods
 
-### ChangeDataForCircularReference\(\)
+### <a id="VM_Managed_CAD_BuilderConeSimple_ChangeDataForCircularReference"></a> ChangeDataForCircularReference\(\)
 
 Change data for circular reference.
 
@@ -473,7 +473,7 @@ Change data for circular reference.
 public override void ChangeDataForCircularReference()
 ```
 
-### CheckCircularReference\(ObjectBase\)
+### <a id="VM_Managed_CAD_BuilderConeSimple_CheckCircularReference_VM_Managed_ObjectBase_"></a> CheckCircularReference\(ObjectBase\)
 
 Check data for circular reference.
 
@@ -487,7 +487,7 @@ public override void CheckCircularReference(ObjectBase objCM)
 
 The CM.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_CAD_BuilderConeSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -501,7 +501,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### SetTransform\(TMatrix\)
+### <a id="VM_Managed_CAD_BuilderConeSimple_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -514,5 +514,4 @@ public override void SetTransform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform info.
-
 

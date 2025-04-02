@@ -1,4 +1,4 @@
-# Enum ContactAnalysis.AlignType
+#  Enum ContactAnalysis.AlignType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,7 +26,6 @@ Left
 `Right = 2` 
 
 Right
-
 
 
 

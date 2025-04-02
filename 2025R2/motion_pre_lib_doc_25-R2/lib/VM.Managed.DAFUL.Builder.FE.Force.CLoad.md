@@ -1,4 +1,4 @@
-# Class CLoad
+#  Class CLoad
 
 Namespace: [VM.Managed.DAFUL.Builder.FE.Force](VM.Managed.DAFUL.Builder.FE.Force.md)  
 Assembly: VMBldFE.dll  
@@ -53,7 +53,7 @@ BuilderBase<CLoad\>.ErrorMessage
 
 ## Constructors
 
-### CLoad\(\)
+### <a id="VM_Managed_DAFUL_Builder_FE_Force_CLoad__ctor"></a> CLoad\(\)
 
 ```csharp
 public CLoad()
@@ -61,7 +61,7 @@ public CLoad()
 
 ## Properties
 
-### CLoadComponent
+### <a id="VM_Managed_DAFUL_Builder_FE_Force_CLoad_CLoadComponent"></a> CLoadComponent
 
 ```csharp
 public ICLoadComponent CLoadComponent { get; }
@@ -73,7 +73,7 @@ public ICLoadComponent CLoadComponent { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_FE_Force_CLoad_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -88,5 +88,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

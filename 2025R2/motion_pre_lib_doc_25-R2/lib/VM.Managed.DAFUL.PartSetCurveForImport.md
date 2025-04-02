@@ -1,4 +1,4 @@
-# Class PartSetCurveForImport
+#  Class PartSetCurveForImport
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -220,7 +220,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PartSetCurveForImport\(\)
+### <a id="VM_Managed_DAFUL_PartSetCurveForImport__ctor"></a> PartSetCurveForImport\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.PartSetCurveForImport" data-throw-if-not-resolved="false"></xref> class.
 
@@ -228,7 +228,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.PartSetCurveForIm
 public PartSetCurveForImport()
 ```
 
-### PartSetCurveForImport\(string\)
+### <a id="VM_Managed_DAFUL_PartSetCurveForImport__ctor_System_String_"></a> PartSetCurveForImport\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.PartSetCurveForImport" data-throw-if-not-resolved="false"></xref> class.
 
@@ -244,7 +244,7 @@ Name of the face set.
 
 ## Methods
 
-### MakeReferenceImpl\(LinkedList<Reference\>\)
+### <a id="VM_Managed_DAFUL_PartSetCurveForImport_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -257,5 +257,4 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 `lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Reference\>
 
 The container.
-
 

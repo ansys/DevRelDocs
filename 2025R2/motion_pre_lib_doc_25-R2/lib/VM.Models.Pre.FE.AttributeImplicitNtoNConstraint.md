@@ -1,4 +1,4 @@
-# Class AttributeImplicitNtoNConstraint
+#  Class AttributeImplicitNtoNConstraint
 
 Namespace: [VM.Models.Pre.FE](VM.Models.Pre.FE.md)  
 Assembly: VM.Models.Pre.FE.dll  
@@ -97,13 +97,13 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeImplicitNtoNConstraint\(\)
+### <a id="VM_Models_Pre_FE_AttributeImplicitNtoNConstraint__ctor"></a> AttributeImplicitNtoNConstraint\(\)
 
 ```csharp
 public AttributeImplicitNtoNConstraint()
 ```
 
-### AttributeImplicitNtoNConstraint\(RBE2\[\]\)
+### <a id="VM_Models_Pre_FE_AttributeImplicitNtoNConstraint__ctor_VM_Models_FE_Mesh_Elements_RBE2___"></a> AttributeImplicitNtoNConstraint\(RBE2\[\]\)
 
 ```csharp
 public AttributeImplicitNtoNConstraint(RBE2[] rbes)
@@ -115,7 +115,7 @@ public AttributeImplicitNtoNConstraint(RBE2[] rbes)
 
 ## Properties
 
-### RBEs
+### <a id="VM_Models_Pre_FE_AttributeImplicitNtoNConstraint_RBEs"></a> RBEs
 
 ```csharp
 public RBE2[] RBEs { get; set; }
@@ -124,5 +124,4 @@ public RBE2[] RBEs { get; set; }
 #### Property Value
 
  RBE2\[\]
-
 

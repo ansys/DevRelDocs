@@ -1,4 +1,4 @@
-# Class BeamFile
+#  Class BeamFile
 
 Namespace: [VM.Models.FE.Mesh.Generator](VM.Models.FE.Mesh.Generator.md)  
 Assembly: VM.Models.FE.Mesh.Generator.dll  
@@ -20,7 +20,7 @@ public sealed class BeamFile
 
 ## Constructors
 
-### BeamFile\(double, int, int, Vector, Vector, Vector\)
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile__ctor_System_Double_System_Int32_System_Int32_VM_Vector_VM_Vector_VM_Vector_"></a> BeamFile\(double, int, int, Vector, Vector, Vector\)
 
 ```csharp
 public BeamFile(double radius, int numberOfCircularNodes, int numberOfBeamNodes, Vector startPoint, Vector endPoint, Vector yDirection)
@@ -40,7 +40,7 @@ public BeamFile(double radius, int numberOfCircularNodes, int numberOfBeamNodes,
 
 `yDirection` Vector
 
-### BeamFile\(BeamFileParams\)
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile__ctor_VM_Models_FE_Mesh_Generator_BeamFileParams_"></a> BeamFile\(BeamFileParams\)
 
 ```csharp
 public BeamFile(BeamFileParams param)
@@ -52,7 +52,7 @@ public BeamFile(BeamFileParams param)
 
 ## Properties
 
-### BeamMaterialDampingRatio
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile_BeamMaterialDampingRatio"></a> BeamMaterialDampingRatio
 
 ```csharp
 public double BeamMaterialDampingRatio { get; set; }
@@ -62,7 +62,7 @@ public double BeamMaterialDampingRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### BeamMaterialDensity
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile_BeamMaterialDensity"></a> BeamMaterialDensity
 
 ```csharp
 public double BeamMaterialDensity { get; set; }
@@ -72,7 +72,7 @@ public double BeamMaterialDensity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### BeamMaterialPoissonsRatio
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile_BeamMaterialPoissonsRatio"></a> BeamMaterialPoissonsRatio
 
 ```csharp
 public double BeamMaterialPoissonsRatio { get; set; }
@@ -82,7 +82,7 @@ public double BeamMaterialPoissonsRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### BeamMaterialShearModulus
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile_BeamMaterialShearModulus"></a> BeamMaterialShearModulus
 
 ```csharp
 public double BeamMaterialShearModulus { get; set; }
@@ -92,7 +92,7 @@ public double BeamMaterialShearModulus { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### BeamMaterialYoungsModulus
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile_BeamMaterialYoungsModulus"></a> BeamMaterialYoungsModulus
 
 ```csharp
 public double BeamMaterialYoungsModulus { get; set; }
@@ -102,7 +102,7 @@ public double BeamMaterialYoungsModulus { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### BufferCount
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile_BufferCount"></a> BufferCount
 
 ```csharp
 public int BufferCount { get; set; }
@@ -112,7 +112,7 @@ public int BufferCount { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GenerateInnerRBE
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile_GenerateInnerRBE"></a> GenerateInnerRBE
 
 ```csharp
 public bool GenerateInnerRBE { get; set; }
@@ -122,7 +122,7 @@ public bool GenerateInnerRBE { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### InnerRBEs
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile_InnerRBEs"></a> InnerRBEs
 
 ```csharp
 public IEnumerable<RBE2> InnerRBEs { get; }
@@ -132,7 +132,7 @@ public IEnumerable<RBE2> InnerRBEs { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<RBE2\>
 
-### NumberOfBeamNodes
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile_NumberOfBeamNodes"></a> NumberOfBeamNodes
 
 ```csharp
 public int NumberOfBeamNodes { get; }
@@ -142,7 +142,7 @@ public int NumberOfBeamNodes { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfCircularNodes
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile_NumberOfCircularNodes"></a> NumberOfCircularNodes
 
 ```csharp
 public int NumberOfCircularNodes { get; }
@@ -152,7 +152,7 @@ public int NumberOfCircularNodes { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Radius
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile_Radius"></a> Radius
 
 ```csharp
 public double Radius { get; }
@@ -162,7 +162,7 @@ public double Radius { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### WriteMessage
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile_WriteMessage"></a> WriteMessage
 
 ```csharp
 public Action<string> WriteMessage { get; set; }
@@ -172,7 +172,7 @@ public Action<string> WriteMessage { get; set; }
 
  [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### YDirection
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile_YDirection"></a> YDirection
 
 ```csharp
 public Vector YDirection { get; }
@@ -184,7 +184,7 @@ public Vector YDirection { get; }
 
 ## Methods
 
-### Generate\(string\)
+### <a id="VM_Models_FE_Mesh_Generator_BeamFile_Generate_System_String_"></a> Generate\(string\)
 
 ```csharp
 public void Generate(string bdfFilePath)
@@ -193,5 +193,4 @@ public void Generate(string bdfFilePath)
 #### Parameters
 
 `bdfFilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

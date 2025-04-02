@@ -1,4 +1,4 @@
-# Class SymmetricUpdateOperation
+#  Class SymmetricUpdateOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### SymmetricUpdateOperation\(SymmetricManager, bool\)
+### <a id="VM_Managed_DAFUL_Operation_SymmetricUpdateOperation__ctor_VM_Managed_SymmetricManager_System_Boolean_"></a> SymmetricUpdateOperation\(SymmetricManager, bool\)
 
 ```csharp
 public SymmetricUpdateOperation(SymmetricManager symMgr, bool bNonSymmetic)
@@ -89,7 +89,7 @@ public SymmetricUpdateOperation(SymmetricManager symMgr, bool bNonSymmetic)
 
 `bNonSymmetic` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SymmetricUpdateOperation\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_SymmetricUpdateOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> SymmetricUpdateOperation\(JournalParameter\)
 
 ```csharp
 public SymmetricUpdateOperation(JournalParameter jp)
@@ -101,7 +101,7 @@ public SymmetricUpdateOperation(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_SymmetricUpdateOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -115,7 +115,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_SymmetricUpdateOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -123,7 +123,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Operation_SymmetricUpdateOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -132,5 +132,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

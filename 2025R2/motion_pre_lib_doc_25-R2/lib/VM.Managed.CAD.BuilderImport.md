@@ -1,4 +1,4 @@
-# Class BuilderImport
+#  Class BuilderImport
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderImport\(string, Color\)
+### <a id="VM_Managed_CAD_BuilderImport__ctor_System_String_System_Drawing_Color_"></a> BuilderImport\(string, Color\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderImport" data-throw-if-not-resolved="false"></xref> class
 
@@ -215,7 +215,7 @@ File name to import.
 
 The color to import.
 
-### BuilderImport\(string\)
+### <a id="VM_Managed_CAD_BuilderImport__ctor_System_String_"></a> BuilderImport\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderImport" data-throw-if-not-resolved="false"></xref> class
 
@@ -229,7 +229,7 @@ public BuilderImport(string strFilePath)
 
 File name to import.
 
-### BuilderImport\(\)
+### <a id="VM_Managed_CAD_BuilderImport__ctor"></a> BuilderImport\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderImport" data-throw-if-not-resolved="false"></xref> class
 
@@ -239,7 +239,7 @@ public BuilderImport()
 
 ## Properties
 
-### ImportBodyFile
+### <a id="VM_Managed_CAD_BuilderImport_ImportBodyFile"></a> ImportBodyFile
 
 Gets the file path of import body.
 
@@ -251,7 +251,7 @@ public string ImportBodyFile { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ImportCore
+### <a id="VM_Managed_CAD_BuilderImport_ImportCore"></a> ImportCore
 
 Gets or sets the import core.
 
@@ -263,7 +263,7 @@ public BuilderImportCore ImportCore { get; set; }
 
  [BuilderImportCore](VM.Managed.CAD.BuilderImportCore.md)
 
-### IsParameterized
+### <a id="VM_Managed_CAD_BuilderImport_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -275,7 +275,7 @@ public override sealed bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### NameAttribute
+### <a id="VM_Managed_CAD_BuilderImport_NameAttribute"></a> NameAttribute
 
 Gets or sets the name attribute.
 
@@ -287,7 +287,7 @@ public string NameAttribute { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Transform
+### <a id="VM_Managed_CAD_BuilderImport_Transform"></a> Transform
 
 Gets or sets the transformation of import body.
 
@@ -301,7 +301,7 @@ public override sealed TransformBase Transform { get; set; }
 
 ## Methods
 
-### CopyFilePathWhenImportBuilder\(Builder\)
+### <a id="VM_Managed_CAD_BuilderImport_CopyFilePathWhenImportBuilder_VM_Managed_CAD_Builder_"></a> CopyFilePathWhenImportBuilder\(Builder\)
 
 ```csharp
 public override void CopyFilePathWhenImportBuilder(Builder buiOriginal)
@@ -311,7 +311,7 @@ public override void CopyFilePathWhenImportBuilder(Builder buiOriginal)
 
 `buiOriginal` [Builder](VM.Managed.CAD.Builder.md)
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_BuilderImport_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -321,7 +321,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_BuilderImport_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -331,7 +331,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### FindLocal\(string\)
+### <a id="VM_Managed_CAD_BuilderImport_FindLocal_System_String_"></a> FindLocal\(string\)
 
 ```csharp
 public override ObjectBase FindLocal(string strName)
@@ -345,7 +345,7 @@ public override ObjectBase FindLocal(string strName)
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### GetBodyType\(\)
+### <a id="VM_Managed_CAD_BuilderImport_GetBodyType"></a> GetBodyType\(\)
 
 Gets the type of body.
 
@@ -357,7 +357,7 @@ public override BodyCreateType GetBodyType()
 
  [BodyCreateType](VM.Managed.CAD.BodyCreateType.md)
 
-### GetNameAttribute\(string, ref List<string\>\)
+### <a id="VM_Managed_CAD_BuilderImport_GetNameAttribute_System_String_System_Collections_Generic_List_System_String___"></a> GetNameAttribute\(string, ref List<string\>\)
 
 ```csharp
 public override void GetNameAttribute(string strPrefix, ref List<string> lstName)
@@ -369,7 +369,7 @@ public override void GetNameAttribute(string strPrefix, ref List<string> lstName
 
 `lstName` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_CAD_BuilderImport_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 ```csharp
 public override string GetUnnamedObjectName(object obUnnamed)
@@ -383,7 +383,7 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_CAD_BuilderImport_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -397,7 +397,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkAddedToDocument\(object, AddToDocEventArgs\)
+### <a id="VM_Managed_CAD_BuilderImport_LinkAddedToDocument_System_Object_VM_Managed_AddToDocEventArgs_"></a> LinkAddedToDocument\(object, AddToDocEventArgs\)
 
 Add linked object to a document.
 
@@ -415,7 +415,7 @@ The linked object.
 
 The <xref href="VM.Managed.AddToDocEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRemovedFromDocument\(object, RemoveFromDocEventArgs\)
+### <a id="VM_Managed_CAD_BuilderImport_LinkRemovedFromDocument_System_Object_VM_Managed_RemoveFromDocEventArgs_"></a> LinkRemovedFromDocument\(object, RemoveFromDocEventArgs\)
 
 Remove linked object to a document.
 
@@ -433,7 +433,7 @@ The linked object.
 
 The <xref href="VM.Managed.AddToDocEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_CAD_BuilderImport_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -447,13 +447,13 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### PostWorkWhenFailedToGetXmlString\(\)
+### <a id="VM_Managed_CAD_BuilderImport_PostWorkWhenFailedToGetXmlString"></a> PostWorkWhenFailedToGetXmlString\(\)
 
 ```csharp
 protected override void PostWorkWhenFailedToGetXmlString()
 ```
 
-### ReplaceData\(string, object\)
+### <a id="VM_Managed_CAD_BuilderImport_ReplaceData_System_String_System_Object_"></a> ReplaceData\(string, object\)
 
 Replace data
 
@@ -475,7 +475,7 @@ The data for replacing.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetImportBodyFile\(string\)
+### <a id="VM_Managed_CAD_BuilderImport_SetImportBodyFile_System_String_"></a> SetImportBodyFile\(string\)
 
 Sets the file path of import body.
 
@@ -489,7 +489,7 @@ public void SetImportBodyFile(string strFilePath)
 
 The file path of import body.
 
-### SetTransform\(TMatrix\)
+### <a id="VM_Managed_CAD_BuilderImport_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -502,5 +502,4 @@ public override void SetTransform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform info.
-
 

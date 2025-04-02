@@ -1,4 +1,4 @@
-# Enum PropertyPressureLoadBase.DirectionType
+#  Enum PropertyPressureLoadBase.DirectionType
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -23,7 +23,6 @@ public enum PropertyPressureLoadBase.DirectionType
 
 <p>pressure direction is up.</p>
 <p>압력이 윗방향입니다.</p>
-
 
 
 

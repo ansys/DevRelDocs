@@ -1,4 +1,4 @@
-# Enum PropertyRVReducer.BearingInfo.EquipType
+#  Enum PropertyRVReducer.BearingInfo.EquipType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ Auto
 `User = 1` 
 
 User
-
 
 
 

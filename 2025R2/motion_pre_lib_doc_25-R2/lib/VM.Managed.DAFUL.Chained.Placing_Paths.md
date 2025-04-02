@@ -1,4 +1,4 @@
-# Class Placing\_Paths
+#  Class Placing\_Paths
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Placing\_Paths\(\)
+### <a id="VM_Managed_DAFUL_Chained_Placing_Paths__ctor"></a> Placing\_Paths\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Placing_Paths" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Placing_Paths()
 
 ## Properties
 
-### CenterPosition
+### <a id="VM_Managed_DAFUL_Chained_Placing_Paths_CenterPosition"></a> CenterPosition
 
 Gets or sets center position for construction chained system.
 
@@ -118,7 +118,7 @@ public PointBase CenterPosition { get; set; }
 
  PointBase
 
-### IncludeCPInPathObject
+### <a id="VM_Managed_DAFUL_Chained_Placing_Paths_IncludeCPInPathObject"></a> IncludeCPInPathObject
 
 if center position is any postion in document where include object, this is true. Otherwise, this is false.
 
@@ -130,7 +130,7 @@ public bool IncludeCPInPathObject { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsCCWDirection
+### <a id="VM_Managed_DAFUL_Chained_Placing_Paths_IsCCWDirection"></a> IsCCWDirection
 
 Gets or sets tightening direction.
 
@@ -142,7 +142,7 @@ public bool IsCCWDirection { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Path
+### <a id="VM_Managed_DAFUL_Chained_Placing_Paths_Path"></a> Path
 
 Gets or sets ChainedPath object.
 
@@ -154,7 +154,7 @@ public InstanceContainer Path { get; set; }
 
  InstanceContainer
 
-### PathAdditionalInfo
+### <a id="VM_Managed_DAFUL_Chained_Placing_Paths_PathAdditionalInfo"></a> PathAdditionalInfo
 
 Gets and sets additional information for path.
 
@@ -166,7 +166,7 @@ public PlacingPathInfoBase PathAdditionalInfo { get; set; }
 
  [PlacingPathInfoBase](VM.Managed.DAFUL.Chained.PlacingPathInfoBase.md)
 
-### Radius
+### <a id="VM_Managed_DAFUL_Chained_Placing_Paths_Radius"></a> Radius
 
 Gets or sets radius for construction chained system.
 
@@ -178,7 +178,7 @@ public ExpressionValueVariable Radius { get; set; }
 
  ExpressionValueVariable
 
-### ReferenceCenterPosition
+### <a id="VM_Managed_DAFUL_Chained_Placing_Paths_ReferenceCenterPosition"></a> ReferenceCenterPosition
 
 Gets and sets the reference center position
 This is internal value.
@@ -191,7 +191,7 @@ public PointBase ReferenceCenterPosition { get; set; }
 
  PointBase
 
-### UsedRCP
+### <a id="VM_Managed_DAFUL_Chained_Placing_Paths_UsedRCP"></a> UsedRCP
 
 if reference center position is used, this is true. Otherwise, this is false.
 
@@ -205,7 +205,7 @@ public bool UsedRCP { get; set; }
 
 ## Methods
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Chained_Placing_Paths_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -219,12 +219,11 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### Reset\_Path\(\)
+### <a id="VM_Managed_DAFUL_Chained_Placing_Paths_Reset_Path"></a> Reset\_Path\(\)
 
 Initiailize ChainedPath onject.
 
 ```csharp
 public void Reset_Path()
 ```
-
 

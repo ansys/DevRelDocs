@@ -1,4 +1,4 @@
-# Class ContactAPI
+#  Class ContactAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class ContactAPI
 
 ## Methods
 
-### CreateAutoContact\(SubSystemDocument, IEnumerable<Obj\>, ExpressionValueVariable?, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateAutoContact_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateAutoContact\(SubSystemDocument, IEnumerable<Obj\>, ExpressionValueVariable?, string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument", "objectList" })]
@@ -43,7 +43,7 @@ public static Obj CreateAutoContact(this SubSystemDocument subSystemDocument, IE
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateCVCV\(SubSystemDocument, Obj, Obj, string, FrictionContact, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_ContactAPI_CreateCVCV_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_String_VM_API_Pre_FrictionContact_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> CreateCVCV\(SubSystemDocument, Obj, Obj, string, FrictionContact, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument" })]
@@ -74,7 +74,7 @@ public static Obj CreateCVCV(this SubSystemDocument subSystemDocument, Obj baseC
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateColorCurveSet\(SubSystemDocument, Obj, IEnumerable<Color\>, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateColorCurveSet_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__System_String_"></a> CreateColorCurveSet\(SubSystemDocument, Obj, IEnumerable<Color\>, string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument", "colors" })]
@@ -96,7 +96,7 @@ public static Obj CreateColorCurveSet(this SubSystemDocument subSystemDocument, 
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateColorCurveSet\(PartDocument, Obj, IEnumerable<Color\>, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateColorCurveSet_VM_Managed_DAFUL_PartDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__System_String_"></a> CreateColorCurveSet\(PartDocument, Obj, IEnumerable<Color\>, string\)
 
 Create <xref href="VM.Managed.DAFUL.PartSetCurveForEdges" data-throw-if-not-resolved="false"></xref> by color.
 
@@ -140,7 +140,7 @@ Will be thrown if 'document', 'colors', 'body' argument is null.
 
 Will be thrown if the type of 'body' is not equal to <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
-### CreateColorFaceSet\(SubSystemDocument, Obj, IEnumerable<Color\>, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateColorFaceSet_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__System_String_"></a> CreateColorFaceSet\(SubSystemDocument, Obj, IEnumerable<Color\>, string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument", "colors" })]
@@ -162,7 +162,7 @@ public static Obj CreateColorFaceSet(this SubSystemDocument subSystemDocument, O
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateColorFaceSet\(PartDocument, Obj, IEnumerable<Color\>, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateColorFaceSet_VM_Managed_DAFUL_PartDocument_VM_API_Pre_Obj_System_Collections_Generic_IEnumerable_System_Drawing_Color__System_String_"></a> CreateColorFaceSet\(PartDocument, Obj, IEnumerable<Color\>, string\)
 
 Create <xref href="VM.Managed.DAFUL.PartSetFace" data-throw-if-not-resolved="false"></xref> by color.
 
@@ -206,7 +206,7 @@ Will be thrown if 'document', 'colors', 'body' argument is null.
 
 Will be thrown if the type of 'body' is not equal to <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
-### CreateContactTolerance\(SubSystemDocument, IEnumerable<Obj\>\)
+### <a id="VM_API_Pre_ContactAPI_CreateContactTolerance_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__"></a> CreateContactTolerance\(SubSystemDocument, IEnumerable<Obj\>\)
 
 Create contact tolerance.
 
@@ -235,7 +235,7 @@ Will be thrown if 'subSystemDocument', 'objectList' argument is null.
 
 Will be thrown if the type of 'objectList' is not equal to <xref href="VM.Managed.DAFUL.IGapSupport" data-throw-if-not-resolved="false"></xref>.
 
-### CreateCurveSet\(SubSystemDocument, IEnumerable<Obj\>, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateCurveSet_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_"></a> CreateCurveSet\(SubSystemDocument, IEnumerable<Obj\>, string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument", "edges" })]
@@ -254,7 +254,7 @@ public static Obj CreateCurveSet(this SubSystemDocument subSystemDocument, IEnum
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateCurveSet\(SubSystemDocument, string, Obj, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateCurveSet_VM_Managed_DAFUL_SubSystemDocument_System_String_VM_API_Pre_Obj_System_String_"></a> CreateCurveSet\(SubSystemDocument, string, Obj, string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument" })]
@@ -277,7 +277,7 @@ public static Obj CreateCurveSet(this SubSystemDocument subSystemDocument, strin
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateCurveSet\(PartDocument, IEnumerable<Obj\>, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateCurveSet_VM_Managed_DAFUL_PartDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_"></a> CreateCurveSet\(PartDocument, IEnumerable<Obj\>, string\)
 
 Create <xref href="VM.Managed.DAFUL.PartSetCurveForEdges" data-throw-if-not-resolved="false"></xref>
 
@@ -316,7 +316,7 @@ Will be thrown if 'document', 'edges' argument is null.
 
 Will be thrown if the type of 'edges' is not equal to <xref href="VM.Managed.CAD.Edge" data-throw-if-not-resolved="false"></xref>.
 
-### CreateCurveSet\(PartDocument, string, Obj, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateCurveSet_VM_Managed_DAFUL_PartDocument_System_String_VM_API_Pre_Obj_System_String_"></a> CreateCurveSet\(PartDocument, string, Obj, string\)
 
 Create <xref href="VM.Managed.DAFUL.PartSetCurveForImport" data-throw-if-not-resolved="false"></xref>
 
@@ -361,7 +361,7 @@ Will be thrown if 'document', 'body' argument is null.
 
 Will be thrown if the type of 'body' is not equal to <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
-### CreateCylinderToMultiCurveContact\(SubSystemDocument, IEnumerable<Obj\>, Obj, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateCylinderToMultiCurveContact_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_API_Pre_Obj_System_String_"></a> CreateCylinderToMultiCurveContact\(SubSystemDocument, IEnumerable<Obj\>, Obj, string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument", "baseGeomerty" })]
@@ -383,7 +383,7 @@ public static Obj CreateCylinderToMultiCurveContact(this SubSystemDocument subSy
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateCylinderToMultiCurveContact\(SubSystemDocument, IEnumerable<Obj\>, Obj, Vector, Vector, ExpressionValueVariable?, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateCylinderToMultiCurveContact_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_API_Pre_Obj_VM_Vector_VM_Vector_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateCylinderToMultiCurveContact\(SubSystemDocument, IEnumerable<Obj\>, Obj, Vector, Vector, ExpressionValueVariable?, string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument", "baseGeomerty" })]
@@ -411,7 +411,7 @@ public static Obj CreateCylinderToMultiCurveContact(this SubSystemDocument subSy
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateExtractFaceSet\(SubSystemDocument, Obj, Obj, ExpressionValueVariable?, string, bool, string, bool\)
+### <a id="VM_API_Pre_ContactAPI_CreateExtractFaceSet_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_System_Boolean_System_String_System_Boolean_"></a> CreateExtractFaceSet\(SubSystemDocument, Obj, Obj, ExpressionValueVariable?, string, bool, string, bool\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument" })]
@@ -437,7 +437,7 @@ public static void CreateExtractFaceSet(this SubSystemDocument subSystemDocument
 
 `splitSecondBody` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CreateExtractFaceSet\(SubSystemDocument, IEnumerable<Obj\>, Obj, ExpressionValueVariable?, string, bool, string, bool\)
+### <a id="VM_API_Pre_ContactAPI_CreateExtractFaceSet_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_API_Pre_Obj_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_System_Boolean_System_String_System_Boolean_"></a> CreateExtractFaceSet\(SubSystemDocument, IEnumerable<Obj\>, Obj, ExpressionValueVariable?, string, bool, string, bool\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument", "faces" })]
@@ -463,7 +463,7 @@ public static void CreateExtractFaceSet(this SubSystemDocument subSystemDocument
 
 `splitSecondBody` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CreateFaceSet\(SubSystemDocument, IEnumerable<Obj\>, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateFaceSet_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_"></a> CreateFaceSet\(SubSystemDocument, IEnumerable<Obj\>, string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument", "faces" })]
@@ -482,7 +482,7 @@ public static Obj CreateFaceSet(this SubSystemDocument subSystemDocument, IEnume
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateFaceSet\(PartDocument, IEnumerable<Obj\>, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateFaceSet_VM_Managed_DAFUL_PartDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_"></a> CreateFaceSet\(PartDocument, IEnumerable<Obj\>, string\)
 
 Create <xref href="VM.Managed.DAFUL.PartSetFace" data-throw-if-not-resolved="false"></xref>
 
@@ -521,7 +521,7 @@ Will be thrown if 'document', 'faces' argument is null.
 
 Will be thrown if the type of 'faces' is not equal to <xref href="VM.Managed.CAD.Face" data-throw-if-not-resolved="false"></xref>.
 
-### CreateGeneralContact\(IDocument, Obj, Obj, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateGeneralContact_VM_Models_Pre_IDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_String_"></a> CreateGeneralContact\(IDocument, Obj, Obj, string\)
 
 ```csharp
 [NotNull(new string[] { "document" })]
@@ -543,7 +543,7 @@ public static Obj CreateGeneralContact(this IDocument document, Obj baseEntity, 
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateGeneralContactWithFaces\(IDocument, IEnumerable<Obj\>, IEnumerable<Obj\>, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateGeneralContactWithFaces_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_"></a> CreateGeneralContactWithFaces\(IDocument, IEnumerable<Obj\>, IEnumerable<Obj\>, string\)
 
 ```csharp
 [NotNull(new string[] { "document", "baseFaces", "actionFaces" })]
@@ -564,7 +564,7 @@ public static Obj CreateGeneralContactWithFaces(this IDocument document, IEnumer
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateMbyNContact\(SubSystemDocument, IEnumerable<Obj\>, IEnumerable<Obj\>, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateMbyNContact_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_"></a> CreateMbyNContact\(SubSystemDocument, IEnumerable<Obj\>, IEnumerable<Obj\>, string\)
 
 Create <xref href="VM.Managed.DAFUL.Contact.MbyNContact" data-throw-if-not-resolved="false"></xref>
 
@@ -607,7 +607,7 @@ Will be thrown if 'subSystemDocument', 'baseGeomerty', 'actionGeomerty' argument
 
 Will be thrown if the type of 'baseGeomerty', 'actionGeomerty' is not equal to <xref href="VM.Managed.DAFUL.IContactable3D" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
-### CreateMultiCurveToMultiCurveContact\(SubSystemDocument, IEnumerable<Obj\>, IEnumerable<Obj\>, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateMultiCurveToMultiCurveContact_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_"></a> CreateMultiCurveToMultiCurveContact\(SubSystemDocument, IEnumerable<Obj\>, IEnumerable<Obj\>, string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument", "baseGeomerty", "actionGeomerty" })]
@@ -628,7 +628,7 @@ public static Obj CreateMultiCurveToMultiCurveContact(this SubSystemDocument sub
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateNCombinationContact\(SubSystemDocument, IEnumerable<Obj\>, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateNCombinationContact_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_"></a> CreateNCombinationContact\(SubSystemDocument, IEnumerable<Obj\>, string\)
 
 Create <xref href="VM.Managed.DAFUL.Contact.NCombinationContact" data-throw-if-not-resolved="false"></xref>
 
@@ -667,7 +667,7 @@ Will be thrown if 'subSystemDocument', 'geomerty' argument is null.
 
 Will be thrown if the type of 'geomerty' is not equal to <xref href="VM.Managed.DAFUL.IContactable3D" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref>.
 
-### CreatePTCV\(SubSystemDocument, Obj, Obj, Vector, string, Relative, FrictionContact, ExpressionValueVariable?, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_ContactAPI_CreatePTCV_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Vector_System_String_VM_API_Pre_Relative_VM_API_Pre_FrictionContact_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> CreatePTCV\(SubSystemDocument, Obj, Obj, Vector, string, Relative, FrictionContact, ExpressionValueVariable?, ExpressionValueVariable?\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument" })]
@@ -700,7 +700,7 @@ public static Obj CreatePTCV(this SubSystemDocument subSystemDocument, Obj baseC
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateSphereToMultiCurveContact\(SubSystemDocument, IEnumerable<Obj\>, Obj, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateSphereToMultiCurveContact_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_API_Pre_Obj_System_String_"></a> CreateSphereToMultiCurveContact\(SubSystemDocument, IEnumerable<Obj\>, Obj, string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument", "baseGeomerty" })]
@@ -722,7 +722,7 @@ public static Obj CreateSphereToMultiCurveContact(this SubSystemDocument subSyst
 
  [Obj](VM.API.Pre.Obj.md)
 
-### CreateSphereToMultiCurveContact\(SubSystemDocument, IEnumerable<Obj\>, Obj, Vector, ExpressionValueVariable?, string\)
+### <a id="VM_API_Pre_ContactAPI_CreateSphereToMultiCurveContact_VM_Managed_DAFUL_SubSystemDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__VM_API_Pre_Obj_VM_Vector_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> CreateSphereToMultiCurveContact\(SubSystemDocument, IEnumerable<Obj\>, Obj, Vector, ExpressionValueVariable?, string\)
 
 ```csharp
 [NotNull(new string[] { "subSystemDocument", "baseGeomerty" })]
@@ -747,5 +747,4 @@ public static Obj CreateSphereToMultiCurveContact(this SubSystemDocument subSyst
 #### Returns
 
  [Obj](VM.API.Pre.Obj.md)
-
 

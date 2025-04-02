@@ -1,4 +1,4 @@
-# Class PropertyPressureLoadBase
+#  Class PropertyPressureLoadBase
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -171,7 +171,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyPressureLoadBase\(\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PropertyPressureLoadBase__ctor"></a> PropertyPressureLoadBase\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PropertyPressureLoadBase" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -183,7 +183,7 @@ public PropertyPressureLoadBase()
 
 ## Properties
 
-### Function
+### <a id="VM_Managed_DAFUL_Flexible_Force_PropertyPressureLoadBase_Function"></a> Function
 
 <p>Gets or sets the function of pressure load.</p>
 <p>압력하중의 함수를 가져오거나 넣어줍니다.</p>
@@ -208,7 +208,7 @@ public PressureLoadFunction Function { get; set; }
 
  [PressureLoadFunction](VM.Managed.DAFUL.Flexible.Force.PressureLoadFunction.md)
 
-### PressureDirection
+### <a id="VM_Managed_DAFUL_Flexible_Force_PropertyPressureLoadBase_PressureDirection"></a> PressureDirection
 
 <p>Gets or sets the pressure direction.</p>
 <p>압력 방향을 가져오거나 넣어줍니다.</p>
@@ -241,7 +241,7 @@ public PropertyPressureLoadBase.DirectionType PressureDirection { get; set; }
 
 ## Methods
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PropertyPressureLoadBase_FindLocal_System_String_"></a> FindLocal\(string\)
 
 <p>Finds the local.</p>
 <p>특정한 오브젝트로부터 이름을 가지고 원하는 오브젝트를 가져오는 함수입니다.</p>
@@ -261,7 +261,7 @@ public override IObjectBase FindLocal(string strName)
 
  IObjectBase
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PropertyPressureLoadBase_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 <p>Gets the name of the unnamed object.</p>
 <p>이름이 없는 오브젝트에 정의된 이름을 가져오는 함수입니다.</p>
@@ -281,7 +281,7 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PropertyPressureLoadBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 <p>Initializes member through unit convert factor.</p>
 <p>단위 변화 팩터를 이용하여 필드를 초기화 해줍니다.</p>
@@ -296,5 +296,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 <p>The unit convert factor.</p>
 <p>단위 변환 팩터.</p>
-
 

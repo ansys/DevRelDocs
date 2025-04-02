@@ -1,4 +1,4 @@
-# Class BodyBase<TProperty\>
+#  Class BodyBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -218,7 +218,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BodyBase\(\)
+### <a id="VM_Managed_DAFUL_BodyBase_1__ctor"></a> BodyBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.BodyBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -226,7 +226,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.BodyBase%601" dat
 protected BodyBase()
 ```
 
-### BodyBase\(string\)
+### <a id="VM_Managed_DAFUL_BodyBase_1__ctor_System_String_"></a> BodyBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.BodyBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -242,7 +242,7 @@ Name of the body base.
 
 ## Properties
 
-### Body
+### <a id="VM_Managed_DAFUL_BodyBase_1_Body"></a> Body
 
 Gets the body.
 
@@ -254,7 +254,7 @@ public IBody Body { get; }
 
  IBody
 
-### ConnectableBody
+### <a id="VM_Managed_DAFUL_BodyBase_1_ConnectableBody"></a> ConnectableBody
 
 Gets the connectable body.
 
@@ -266,7 +266,7 @@ public ObjectBase ConnectableBody { get; }
 
  ObjectBase
 
-### ConnectableFullName
+### <a id="VM_Managed_DAFUL_BodyBase_1_ConnectableFullName"></a> ConnectableFullName
 
 Gets the full name of the connectable.
 
@@ -278,7 +278,7 @@ public string ConnectableFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectableName
+### <a id="VM_Managed_DAFUL_BodyBase_1_ConnectableName"></a> ConnectableName
 
 Gets the name of the connectable.
 
@@ -290,7 +290,7 @@ public string ConnectableName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectablePosition
+### <a id="VM_Managed_DAFUL_BodyBase_1_ConnectablePosition"></a> ConnectablePosition
 
 Sets the connectable position.
 
@@ -302,7 +302,7 @@ public Vector ConnectablePosition { set; }
 
  Vector
 
-### ConnectablePostfixName
+### <a id="VM_Managed_DAFUL_BodyBase_1_ConnectablePostfixName"></a> ConnectablePostfixName
 
 Sets the postfix name of the connectable.
 
@@ -314,7 +314,7 @@ public string ConnectablePostfixName { set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Geometry
+### <a id="VM_Managed_DAFUL_BodyBase_1_Geometry"></a> Geometry
 
 Gets the geometry.
 
@@ -326,7 +326,7 @@ public virtual List<Body> Geometry { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Body\>
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_BodyBase_1_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -338,7 +338,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsVisible
+### <a id="VM_Managed_DAFUL_BodyBase_1_IsVisible"></a> IsVisible
 
 Gets or sets the visible state.
 
@@ -350,7 +350,7 @@ public override bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Layer
+### <a id="VM_Managed_DAFUL_BodyBase_1_Layer"></a> Layer
 
 Gets or sets the layer.
 
@@ -362,7 +362,7 @@ public override Layer Layer { get; set; }
 
  Layer
 
-### ParentType
+### <a id="VM_Managed_DAFUL_BodyBase_1_ParentType"></a> ParentType
 
 Gets the type of the marker's parent.
 
@@ -374,7 +374,7 @@ public MarkerParentType ParentType { get; }
 
  [MarkerParentType](VM.Managed.DAFUL.MarkerParentType.md)
 
-### ParentTypeImpl
+### <a id="VM_Managed_DAFUL_BodyBase_1_ParentTypeImpl"></a> ParentTypeImpl
 
 Gets the parent type [implementation].
 
@@ -386,7 +386,7 @@ protected virtual MarkerParentType ParentTypeImpl { get; }
 
  [MarkerParentType](VM.Managed.DAFUL.MarkerParentType.md)
 
-### ReferencableImpl
+### <a id="VM_Managed_DAFUL_BodyBase_1_ReferencableImpl"></a> ReferencableImpl
 
 Gets a value indicating whether this <xref href="VM.Managed.DAFUL.BodyBase%601" data-throw-if-not-resolved="false"></xref> is referencable [implementation].
 
@@ -398,7 +398,7 @@ protected virtual bool ReferencableImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReferenceFrameType
+### <a id="VM_Managed_DAFUL_BodyBase_1_ReferenceFrameType"></a> ReferenceFrameType
 
 Gets the type of the marker's reference frame.
 
@@ -412,7 +412,7 @@ public MarkerReferenceFrameType ReferenceFrameType { get; }
 
 ## Methods
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_BodyBase_1_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -432,7 +432,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetArgumentList\(LinkedList<ObjectBase\>\)
+### <a id="VM_Managed_DAFUL_BodyBase_1_GetArgumentList_System_Collections_Generic_LinkedList_VM_Managed_ObjectBase__"></a> GetArgumentList\(LinkedList<ObjectBase\>\)
 
 Get argument object list.
 
@@ -446,7 +446,7 @@ public override void GetArgumentList(LinkedList<ObjectBase> lstObj)
 
 The argument object list.
 
-### GetGeneralMarkerInfo\(XmlDocument, XmlElement, Marker\)
+### <a id="VM_Managed_DAFUL_BodyBase_1_GetGeneralMarkerInfo_System_Xml_XmlDocument_System_Xml_XmlElement_VM_Managed_DAFUL_Marker_"></a> GetGeneralMarkerInfo\(XmlDocument, XmlElement, Marker\)
 
 Gets the marker information for model navigator.
 
@@ -474,7 +474,7 @@ The marker.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetGeomModelNavigatorInfo\(XmlDocument, XmlElement, BodyProperty, Body\)
+### <a id="VM_Managed_DAFUL_BodyBase_1_GetGeomModelNavigatorInfo_System_Xml_XmlDocument_System_Xml_XmlElement_VM_Managed_DAFUL_BodyProperty_VM_Managed_CAD_Body_"></a> GetGeomModelNavigatorInfo\(XmlDocument, XmlElement, BodyProperty, Body\)
 
 Gets the geometry information for model navigator.
 
@@ -506,7 +506,7 @@ The geometry.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetLayerImpl\(\)
+### <a id="VM_Managed_DAFUL_BodyBase_1_GetLayerImpl"></a> GetLayerImpl\(\)
 
 Gets the layer [implementation].
 
@@ -520,7 +520,7 @@ protected virtual Layer GetLayerImpl()
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetTargetListForUpdate\(\)
+### <a id="VM_Managed_DAFUL_BodyBase_1_GetTargetListForUpdate"></a> GetTargetListForUpdate\(\)
 
 Gets the update objects.
 
@@ -532,7 +532,7 @@ public override List<IEventProvider> GetTargetListForUpdate()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IEventProvider\>
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_BodyBase_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -546,7 +546,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### MakeReferenceImpl\(LinkedList<Reference\>\)
+### <a id="VM_Managed_DAFUL_BodyBase_1_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -560,7 +560,7 @@ protected virtual void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### OnUpdatePropertyImpl\(Property, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_BodyBase_1_OnUpdatePropertyImpl_VM_Managed_Property_VM_Managed_LinkEventArgs_"></a> OnUpdatePropertyImpl\(Property, LinkEventArgs\)
 
 Called when [update property].
 
@@ -578,7 +578,7 @@ The property.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### SetLayerImpl\(Layer\)
+### <a id="VM_Managed_DAFUL_BodyBase_1_SetLayerImpl_VM_Managed_Layer_"></a> SetLayerImpl\(Layer\)
 
 Sets the layer [implementation].
 
@@ -591,5 +591,4 @@ protected virtual void SetLayerImpl(Layer layer)
 `layer` Layer
 
 The layer.
-
 

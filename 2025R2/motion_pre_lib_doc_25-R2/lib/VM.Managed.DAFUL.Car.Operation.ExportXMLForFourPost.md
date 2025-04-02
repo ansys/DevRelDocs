@@ -1,4 +1,4 @@
-# Class ExportXMLForFourPost
+#  Class ExportXMLForFourPost
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -113,7 +113,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ExportXMLForFourPost\(Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ExportXMLForFourPost__ctor_VM_Managed_Document_"></a> ExportXMLForFourPost\(Document\)
 
 ```csharp
 public ExportXMLForFourPost(Document doc)
@@ -123,7 +123,7 @@ public ExportXMLForFourPost(Document doc)
 
 `doc` Document
 
-### ExportXMLForFourPost\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ExportXMLForFourPost__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportXMLForFourPost\(JournalParameter\)
 
 ```csharp
 public ExportXMLForFourPost(JournalParameter jp)
@@ -135,7 +135,7 @@ public ExportXMLForFourPost(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_ExportXMLForFourPost_Name"></a> Name
 
 Gets the operation name.
 
@@ -149,10 +149,9 @@ public override string Name { get; }
 
 ## Methods
 
-### ExportXMLImpl\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ExportXMLForFourPost_ExportXMLImpl"></a> ExportXMLImpl\(\)
 
 ```csharp
 protected override void ExportXMLImpl()
 ```
-
 

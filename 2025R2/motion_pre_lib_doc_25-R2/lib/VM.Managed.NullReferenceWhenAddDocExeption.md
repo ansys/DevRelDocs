@@ -1,4 +1,4 @@
-# Class NullReferenceWhenAddDocExeption
+#  Class NullReferenceWhenAddDocExeption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class NullReferenceWhenAddDocExeption : Exception
 
 ## Constructors
 
-### NullReferenceWhenAddDocExeption\(string\)
+### <a id="VM_Managed_NullReferenceWhenAddDocExeption__ctor_System_String_"></a> NullReferenceWhenAddDocExeption\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.NullReferenceWhenAddDocExeption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,5 +36,4 @@ public NullReferenceWhenAddDocExeption(string strMessage)
 `strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The error message.
-
 

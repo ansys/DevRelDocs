@@ -1,4 +1,4 @@
-# Class BuilderSymmetric<T\>
+#  Class BuilderSymmetric<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -49,7 +49,7 @@ public abstract class BuilderSymmetric<T> : BuilderBase<T>, IBuilder where T : O
 
 ## Constructors
 
-### BuilderSymmetric\(\)
+### <a id="VM_Managed_DAFUL_Builder_BuilderSymmetric_1__ctor"></a> BuilderSymmetric\(\)
 
 ```csharp
 protected BuilderSymmetric()
@@ -57,7 +57,7 @@ protected BuilderSymmetric()
 
 ## Properties
 
-### CurrentSymmetric
+### <a id="VM_Managed_DAFUL_Builder_BuilderSymmetric_1_CurrentSymmetric"></a> CurrentSymmetric
 
 ```csharp
 protected SymmetricType CurrentSymmetric { get; set; }
@@ -67,7 +67,7 @@ protected SymmetricType CurrentSymmetric { get; set; }
 
  SymmetricType
 
-### Symmetric
+### <a id="VM_Managed_DAFUL_Builder_BuilderSymmetric_1_Symmetric"></a> Symmetric
 
 ```csharp
 public SymmetricType Symmetric { get; set; }
@@ -79,7 +79,7 @@ public SymmetricType Symmetric { get; set; }
 
 ## Methods
 
-### Build\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_BuilderSymmetric_1_Build_VM_Managed_Document_"></a> Build\(Document\)
 
 ```csharp
 public override sealed void Build(Document docToAdd)
@@ -88,5 +88,4 @@ public override sealed void Build(Document docToAdd)
 #### Parameters
 
 `docToAdd` Document
-
 

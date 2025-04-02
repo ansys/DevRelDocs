@@ -1,4 +1,4 @@
-# Class Vertex
+#  Class Vertex
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -166,7 +166,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Vertex\(\)
+### <a id="VM_Managed_CAD_Vertex__ctor"></a> Vertex\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Vertex" data-throw-if-not-resolved="false"></xref> class.
 
@@ -176,7 +176,7 @@ public Vertex()
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_CAD_Vertex_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 for Test
 
@@ -188,7 +188,7 @@ public void Draw(Canvas canvas)
 
 `canvas` Canvas
 
-### GetTypeName\(\)
+### <a id="VM_Managed_CAD_Vertex_GetTypeName"></a> GetTypeName\(\)
 
 Gets the name of topology(edge, face, vertex).
 
@@ -201,5 +201,4 @@ public override string GetTypeName()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The name of topology
-
 

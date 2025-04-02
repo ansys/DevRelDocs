@@ -1,4 +1,4 @@
-# Class PropertyGeneral
+#  Class PropertyGeneral
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
@@ -177,7 +177,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyGeneral\(\)
+### <a id="VM_Models_Pre_Connections_PropertyGeneral__ctor"></a> PropertyGeneral\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.PropertyGeneral" data-throw-if-not-resolved="false"></xref> class.</p>
 
@@ -187,7 +187,7 @@ public PropertyGeneral()
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -199,7 +199,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### BallProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_BallProperty"></a> BallProperty
 
 <p>ball joint property</p>
 
@@ -211,7 +211,7 @@ public PropertyBall BallProperty { get; set; }
 
  PropertyBall
 
-### BushProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_BushProperty"></a> BushProperty
 
 <p>bush joint property</p>
 
@@ -223,7 +223,7 @@ public PropertyBush BushProperty { get; set; }
 
  PropertyBush
 
-### ConnectorFullType
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_ConnectorFullType"></a> ConnectorFullType
 
 Gets or sets the connector full type
 
@@ -235,7 +235,7 @@ public string ConnectorFullType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectorProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_ConnectorProperty"></a> ConnectorProperty
 
 <p>Gets the property of connector</p>
 <p>
@@ -266,7 +266,7 @@ public Property ConnectorProperty { get; set; }
 
  Property
 
-### ConvelProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_ConvelProperty"></a> ConvelProperty
 
 <p>convel joint property</p>
 
@@ -278,7 +278,7 @@ public PropertyConvel ConvelProperty { get; set; }
 
  PropertyConvel
 
-### CylindricalProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_CylindricalProperty"></a> CylindricalProperty
 
 <p>cylindrical joint property</p>
 
@@ -290,7 +290,7 @@ public PropertyCylindrical CylindricalProperty { get; set; }
 
  PropertyCylindrical
 
-### DistanceProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_DistanceProperty"></a> DistanceProperty
 
 <p>distance joint property</p>
 
@@ -302,7 +302,7 @@ public PropertyDistance DistanceProperty { get; set; }
 
  PropertyDistance
 
-### FixedProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_FixedProperty"></a> FixedProperty
 
 <p>fixed joint property</p>
 
@@ -314,7 +314,7 @@ public PropertyFixed FixedProperty { get; set; }
 
  PropertyFixed
 
-### InlineProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_InlineProperty"></a> InlineProperty
 
 <p>inline joint property</p>
 
@@ -326,7 +326,7 @@ public PropertyInline InlineProperty { get; set; }
 
  PropertyInline
 
-### InplaneProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_InplaneProperty"></a> InplaneProperty
 
 <p>inplane joint property</p>
 
@@ -338,7 +338,7 @@ public PropertyInplane InplaneProperty { get; set; }
 
  PropertyInplane
 
-### MatrixProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_MatrixProperty"></a> MatrixProperty
 
 <p>matrix joint property</p>
 
@@ -350,7 +350,7 @@ public PropertyMatrix MatrixProperty { get; set; }
 
  PropertyMatrix
 
-### OrientationProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_OrientationProperty"></a> OrientationProperty
 
 <p>orientation joint property</p>
 
@@ -362,7 +362,7 @@ public PropertyOrientation OrientationProperty { get; set; }
 
  PropertyOrientation
 
-### ParallelProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_ParallelProperty"></a> ParallelProperty
 
 <p>parallel joint property</p>
 
@@ -374,7 +374,7 @@ public PropertyParallel ParallelProperty { get; set; }
 
  PropertyParallel
 
-### PerpendicularProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_PerpendicularProperty"></a> PerpendicularProperty
 
 <p>perpendicular joint property</p>
 
@@ -386,7 +386,7 @@ public PropertyPerpendicular PerpendicularProperty { get; set; }
 
  PropertyPerpendicular
 
-### PlanarProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_PlanarProperty"></a> PlanarProperty
 
 <p>planar joint property</p>
 
@@ -398,7 +398,7 @@ public PropertyPlanar PlanarProperty { get; set; }
 
  PropertyPlanar
 
-### ReferenceType
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_ReferenceType"></a> ReferenceType
 
 Gets the type of the reference.
 
@@ -410,7 +410,7 @@ public override string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RevoluteProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_RevoluteProperty"></a> RevoluteProperty
 
 <p>revolute joint property</p>
 
@@ -422,7 +422,7 @@ public PropertyRevolute RevoluteProperty { get; set; }
 
  PropertyRevolute
 
-### ScrewProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_ScrewProperty"></a> ScrewProperty
 
 <p>screw joint property</p>
 
@@ -434,7 +434,7 @@ public PropertyScrew ScrewProperty { get; set; }
 
  PropertyScrew
 
-### SixMotionProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_SixMotionProperty"></a> SixMotionProperty
 
 <p>six motion joint property</p>
 
@@ -446,7 +446,7 @@ public PropertySixMotion SixMotionProperty { get; set; }
 
  [PropertySixMotion](VM.Models.Pre.Connections.PropertySixMotion.md)
 
-### TranslationalProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_TranslationalProperty"></a> TranslationalProperty
 
 <p>translational joint property</p>
 
@@ -458,7 +458,7 @@ public PropertyTranslational TranslationalProperty { get; set; }
 
  PropertyTranslational
 
-### TypeOfConnector
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_TypeOfConnector"></a> TypeOfConnector
 
 <p>Gets the type of connector.</p>
 <p>
@@ -489,7 +489,7 @@ public PropertyGeneral.ConnectorType TypeOfConnector { get; set; }
 
  [PropertyGeneral](VM.Models.Pre.Connections.PropertyGeneral.md).[ConnectorType](VM.Models.Pre.Connections.PropertyGeneral.ConnectorType.md)
 
-### UniversalProperty
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_UniversalProperty"></a> UniversalProperty
 
 <p>universal joint property</p>
 
@@ -503,7 +503,7 @@ public PropertyUniversal UniversalProperty { get; set; }
 
 ## Methods
 
-### FindLocal\(string\)
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -523,7 +523,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -543,7 +543,7 @@ The unnamed object.
 
 The unnamed object name.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Models_Pre_Connections_PropertyGeneral_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 <p>Initializes property.</p>
 
@@ -556,5 +556,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 <p>initialization factor</p>
-
 

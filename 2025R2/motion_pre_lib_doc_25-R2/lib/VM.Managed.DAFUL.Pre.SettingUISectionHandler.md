@@ -1,4 +1,4 @@
-# Class SettingUISectionHandler
+#  Class SettingUISectionHandler
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -22,12 +22,11 @@ public class SettingUISectionHandler
 
 ## Constructors
 
-### SettingUISectionHandler\(\)
+### <a id="VM_Managed_DAFUL_Pre_SettingUISectionHandler__ctor"></a> SettingUISectionHandler\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.SettingUISectionHandler" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public SettingUISectionHandler()
 ```
-
 

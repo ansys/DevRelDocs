@@ -1,4 +1,4 @@
-# Class IReferencableImpl
+#  Class IReferencableImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class IReferencableImpl
 
 ## Constructors
 
-### IReferencableImpl\(\)
+### <a id="VM_Managed_IReferencableImpl__ctor"></a> IReferencableImpl\(\)
 
 ```csharp
 public IReferencableImpl()
@@ -30,7 +30,7 @@ public IReferencableImpl()
 
 ## Methods
 
-### Instantiate\(ObjectBase, Reference, Canvas\)
+### <a id="VM_Managed_IReferencableImpl_Instantiate_VM_Managed_ObjectBase_VM_Managed_Reference_VM_CAD_Kernel_Render_Canvas_"></a> Instantiate\(ObjectBase, Reference, Canvas\)
 
 Instantiates the specified reference.
 
@@ -49,5 +49,4 @@ The reference.
 `canvas` Canvas
 
 The canvas.
-
 

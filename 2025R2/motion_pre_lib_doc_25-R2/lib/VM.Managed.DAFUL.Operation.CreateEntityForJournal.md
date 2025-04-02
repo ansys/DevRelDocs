@@ -1,4 +1,4 @@
-# Class CreateEntityForJournal
+#  Class CreateEntityForJournal
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### CreateEntityForJournal\(string, string\)
+### <a id="VM_Managed_DAFUL_Operation_CreateEntityForJournal__ctor_System_String_System_String_"></a> CreateEntityForJournal\(string, string\)
 
 ```csharp
 public CreateEntityForJournal(string strXML, string strType)
@@ -89,7 +89,7 @@ public CreateEntityForJournal(string strXML, string strType)
 
 `strType` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### CreateEntityForJournal\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_CreateEntityForJournal__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateEntityForJournal\(JournalParameter\)
 
 ```csharp
 public CreateEntityForJournal(JournalParameter jp)
@@ -101,7 +101,7 @@ public CreateEntityForJournal(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_CreateEntityForJournal_Name"></a> Name
 
 Gets the operation name.
 
@@ -115,7 +115,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_CreateEntityForJournal_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -123,7 +123,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Operation_CreateEntityForJournal_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -132,5 +132,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

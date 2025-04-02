@@ -1,4 +1,4 @@
-# Class ApplySlidingBearing
+#  Class ApplySlidingBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ApplySlidingBearing\(HiddenSlidingBearingDocument, SlidingBearing\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplySlidingBearing__ctor_VM_Managed_DAFUL_GearTrain_HiddenSlidingBearingDocument_VM_Managed_DAFUL_GearTrain_SlidingBearing_"></a> ApplySlidingBearing\(HiddenSlidingBearingDocument, SlidingBearing\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ApplySlidingBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -95,7 +95,7 @@ The hidden sliding bearing document
 
 The sliding bearing
 
-### ApplySlidingBearing\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplySlidingBearing__ctor_VM_Managed_Operation_JournalParameter_"></a> ApplySlidingBearing\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ApplySlidingBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -111,7 +111,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplySlidingBearing_Name"></a> Name
 
 Gets the name.
 
@@ -129,7 +129,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplySlidingBearing_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -141,7 +141,7 @@ public override void Execute()
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ApplySlidingBearing_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -154,5 +154,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

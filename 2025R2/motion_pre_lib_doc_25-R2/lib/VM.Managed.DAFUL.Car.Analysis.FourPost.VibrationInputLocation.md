@@ -1,4 +1,4 @@
-# Enum VibrationInputLocation
+#  Enum VibrationInputLocation
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.FourPost](VM.Managed.DAFUL.Car.Analysis.FourPost.md)  
 Assembly: VMDCar.dll  
@@ -20,7 +20,6 @@ Wheel Spindles
 `WheelCenter = 1` 
 
 Beneath Tires
-
 
 
 

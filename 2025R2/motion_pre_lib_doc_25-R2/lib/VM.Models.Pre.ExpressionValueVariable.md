@@ -1,4 +1,4 @@
-# Struct ExpressionValueVariable
+#  Struct ExpressionValueVariable
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -21,7 +21,7 @@ IExpression
 
 ## Constructors
 
-### ExpressionValueVariable\(double\)
+### <a id="VM_Models_Pre_ExpressionValueVariable__ctor_System_Double_"></a> ExpressionValueVariable\(double\)
 
 ```csharp
 public ExpressionValueVariable(double value)
@@ -31,7 +31,7 @@ public ExpressionValueVariable(double value)
 
 `value` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ExpressionValueVariable\(double, string\)
+### <a id="VM_Models_Pre_ExpressionValueVariable__ctor_System_Double_System_String_"></a> ExpressionValueVariable\(double, string\)
 
 ```csharp
 public ExpressionValueVariable(double value, string expression)
@@ -45,7 +45,7 @@ public ExpressionValueVariable(double value, string expression)
 
 ## Properties
 
-### Expression
+### <a id="VM_Models_Pre_ExpressionValueVariable_Expression"></a> Expression
 
 ```csharp
 public string Expression { get; set; }
@@ -55,7 +55,7 @@ public string Expression { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsSimpleValue
+### <a id="VM_Models_Pre_ExpressionValueVariable_IsSimpleValue"></a> IsSimpleValue
 
 ```csharp
 public bool IsSimpleValue { get; }
@@ -65,7 +65,7 @@ public bool IsSimpleValue { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Parser
+### <a id="VM_Models_Pre_ExpressionValueVariable_Parser"></a> Parser
 
 ```csharp
 public static IExpressionParser<double> Parser { get; }
@@ -75,7 +75,7 @@ public static IExpressionParser<double> Parser { get; }
 
  [IExpressionParser](VM.Models.Pre.IExpressionParser\-1.md)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### Value
+### <a id="VM_Models_Pre_ExpressionValueVariable_Value"></a> Value
 
 ```csharp
 public double Value { get; set; }
@@ -87,7 +87,7 @@ public double Value { get; set; }
 
 ## Methods
 
-### Equals\(ExpressionValueVariable\)
+### <a id="VM_Models_Pre_ExpressionValueVariable_Equals_VM_Models_Pre_ExpressionValueVariable_"></a> Equals\(ExpressionValueVariable\)
 
 ```csharp
 public bool Equals(ExpressionValueVariable other)
@@ -101,7 +101,7 @@ public bool Equals(ExpressionValueVariable other)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Equals\(object\)
+### <a id="VM_Models_Pre_ExpressionValueVariable_Equals_System_Object_"></a> Equals\(object\)
 
 ```csharp
 public override bool Equals(object obj)
@@ -115,7 +115,7 @@ public override bool Equals(object obj)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetSchema\(\)
+### <a id="VM_Models_Pre_ExpressionValueVariable_GetSchema"></a> GetSchema\(\)
 
 ```csharp
 public XmlSchema GetSchema()
@@ -125,7 +125,7 @@ public XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### GetValue\(string\)
+### <a id="VM_Models_Pre_ExpressionValueVariable_GetValue_System_String_"></a> GetValue\(string\)
 
 ```csharp
 public static object GetValue(string expression)
@@ -139,7 +139,7 @@ public static object GetValue(string expression)
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Models_Pre_ExpressionValueVariable_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 ```csharp
 public void ReadXml(XmlReader reader)
@@ -149,7 +149,7 @@ public void ReadXml(XmlReader reader)
 
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
-### SetParser\(IExpressionParser<double\>\)
+### <a id="VM_Models_Pre_ExpressionValueVariable_SetParser_VM_Models_Pre_IExpressionParser_System_Double__"></a> SetParser\(IExpressionParser<double\>\)
 
 ```csharp
 public static void SetParser(IExpressionParser<double> parser)
@@ -159,7 +159,7 @@ public static void SetParser(IExpressionParser<double> parser)
 
 `parser` [IExpressionParser](VM.Models.Pre.IExpressionParser\-1.md)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Models_Pre_ExpressionValueVariable_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 ```csharp
 public void WriteXml(XmlWriter writer)
@@ -171,7 +171,7 @@ public void WriteXml(XmlWriter writer)
 
 ## Operators
 
-### operator ==\(ExpressionValueVariable, ExpressionValueVariable\)
+### <a id="VM_Models_Pre_ExpressionValueVariable_op_Equality_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> operator ==\(ExpressionValueVariable, ExpressionValueVariable\)
 
 ```csharp
 public static bool operator ==(ExpressionValueVariable expressionValue1, ExpressionValueVariable expressionValue2)
@@ -187,7 +187,7 @@ public static bool operator ==(ExpressionValueVariable expressionValue1, Express
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### implicit operator ExpressionValueVariable\(double\)
+### <a id="VM_Models_Pre_ExpressionValueVariable_op_Implicit_System_Double__VM_Models_Pre_ExpressionValueVariable"></a> implicit operator ExpressionValueVariable\(double\)
 
 ```csharp
 public static implicit operator ExpressionValueVariable(double value)
@@ -201,7 +201,7 @@ public static implicit operator ExpressionValueVariable(double value)
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### implicit operator double\(ExpressionValueVariable\)
+### <a id="VM_Models_Pre_ExpressionValueVariable_op_Implicit_VM_Models_Pre_ExpressionValueVariable__System_Double"></a> implicit operator double\(ExpressionValueVariable\)
 
 ```csharp
 public static implicit operator double(ExpressionValueVariable expressionValue)
@@ -215,7 +215,7 @@ public static implicit operator double(ExpressionValueVariable expressionValue)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### implicit operator ExpressionValueVariable\(string\)
+### <a id="VM_Models_Pre_ExpressionValueVariable_op_Implicit_System_String__VM_Models_Pre_ExpressionValueVariable"></a> implicit operator ExpressionValueVariable\(string\)
 
 ```csharp
 public static implicit operator ExpressionValueVariable(string expression)
@@ -229,7 +229,7 @@ public static implicit operator ExpressionValueVariable(string expression)
 
  [ExpressionValueVariable](VM.Models.Pre.ExpressionValueVariable.md)
 
-### implicit operator string\(ExpressionValueVariable\)
+### <a id="VM_Models_Pre_ExpressionValueVariable_op_Implicit_VM_Models_Pre_ExpressionValueVariable__System_String"></a> implicit operator string\(ExpressionValueVariable\)
 
 ```csharp
 public static implicit operator string(ExpressionValueVariable expressionValue)
@@ -243,7 +243,7 @@ public static implicit operator string(ExpressionValueVariable expressionValue)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### operator \!=\(ExpressionValueVariable, ExpressionValueVariable\)
+### <a id="VM_Models_Pre_ExpressionValueVariable_op_Inequality_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> operator \!=\(ExpressionValueVariable, ExpressionValueVariable\)
 
 ```csharp
 public static bool operator !=(ExpressionValueVariable expressionValue1, ExpressionValueVariable expressionValue2)
@@ -258,5 +258,4 @@ public static bool operator !=(ExpressionValueVariable expressionValue1, Express
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

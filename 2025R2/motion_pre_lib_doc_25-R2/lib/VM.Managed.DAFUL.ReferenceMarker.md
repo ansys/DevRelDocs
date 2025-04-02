@@ -1,4 +1,4 @@
-# Class ReferenceMarker
+#  Class ReferenceMarker
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -207,7 +207,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferenceMarker\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_DAFUL_ReferenceMarker__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceMarker\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferenceMarker" data-throw-if-not-resolved="false"></xref> class.
 
@@ -225,7 +225,7 @@ The info.
 
 The context.
 
-### ReferenceMarker\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_ReferenceMarker__ctor_VM_Managed_ObjectBase_"></a> ReferenceMarker\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferenceMarker" data-throw-if-not-resolved="false"></xref> class.
 
@@ -241,7 +241,7 @@ The reference's object.
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_ReferenceMarker_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -253,7 +253,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### ParentConnectable
+### <a id="VM_Managed_DAFUL_ReferenceMarker_ParentConnectable"></a> ParentConnectable
 
 Get the parent connectable
 
@@ -267,7 +267,7 @@ protected virtual IConnectable ParentConnectable { get; }
 
 ## Methods
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_ReferenceMarker_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the model navigator information implementation.
 
@@ -292,5 +292,4 @@ if set to <code>true</code> [b has child].
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Class DrawInfoArc
+#  Class DrawInfoArc
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -29,7 +29,7 @@ public class DrawInfoArc : DrawInfoTwoPoint
 
 ## Constructors
 
-### DrawInfoArc\(\)
+### <a id="VM_CAD_Builders_DrawInfoArc__ctor"></a> DrawInfoArc\(\)
 
 ```csharp
 public DrawInfoArc()
@@ -37,7 +37,7 @@ public DrawInfoArc()
 
 ## Properties
 
-### CenterPoint
+### <a id="VM_CAD_Builders_DrawInfoArc_CenterPoint"></a> CenterPoint
 
 Center point of thr arc
 
@@ -48,5 +48,4 @@ public Vector CenterPoint { get; set; }
 #### Property Value
 
  Vector
-
 

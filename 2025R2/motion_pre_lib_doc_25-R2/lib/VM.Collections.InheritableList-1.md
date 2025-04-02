@@ -1,4 +1,4 @@
-# Class InheritableList<T\>
+#  Class InheritableList<T\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -25,13 +25,13 @@ public abstract class InheritableList<T> : List<T>
 
 ## Constructors
 
-### InheritableList\(\)
+### <a id="VM_Collections_InheritableList_1__ctor"></a> InheritableList\(\)
 
 ```csharp
 public InheritableList()
 ```
 
-### InheritableList\(int\)
+### <a id="VM_Collections_InheritableList_1__ctor_System_Int32_"></a> InheritableList\(int\)
 
 ```csharp
 public InheritableList(int capacity)
@@ -41,7 +41,7 @@ public InheritableList(int capacity)
 
 `capacity` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### InheritableList\(IEnumerable<T\>\)
+### <a id="VM_Collections_InheritableList_1__ctor_System_Collections_Generic_IEnumerable__0__"></a> InheritableList\(IEnumerable<T\>\)
 
 ```csharp
 public InheritableList(IEnumerable<T> collection)
@@ -53,7 +53,7 @@ public InheritableList(IEnumerable<T> collection)
 
 ## Properties
 
-### this\[int\]
+### <a id="VM_Collections_InheritableList_1_Item_System_Int32_"></a> this\[int\]
 
 ```csharp
 public T this[int index] { get; set; }
@@ -65,7 +65,7 @@ public T this[int index] { get; set; }
 
 ## Methods
 
-### Add\(T\)
+### <a id="VM_Collections_InheritableList_1_Add__0_"></a> Add\(T\)
 
 ```csharp
 public void Add(T item)
@@ -75,7 +75,7 @@ public void Add(T item)
 
 `item` T
 
-### AddRange\(IEnumerable<T\>\)
+### <a id="VM_Collections_InheritableList_1_AddRange_System_Collections_Generic_IEnumerable__0__"></a> AddRange\(IEnumerable<T\>\)
 
 ```csharp
 public void AddRange(IEnumerable<T> collection)
@@ -85,19 +85,19 @@ public void AddRange(IEnumerable<T> collection)
 
 `collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
 
-### Clear\(\)
+### <a id="VM_Collections_InheritableList_1_Clear"></a> Clear\(\)
 
 ```csharp
 public void Clear()
 ```
 
-### ClearItems\(\)
+### <a id="VM_Collections_InheritableList_1_ClearItems"></a> ClearItems\(\)
 
 ```csharp
 protected virtual void ClearItems()
 ```
 
-### Insert\(int, T\)
+### <a id="VM_Collections_InheritableList_1_Insert_System_Int32__0_"></a> Insert\(int, T\)
 
 ```csharp
 public void Insert(int index, T item)
@@ -109,7 +109,7 @@ public void Insert(int index, T item)
 
 `item` T
 
-### InsertItem\(int, T\)
+### <a id="VM_Collections_InheritableList_1_InsertItem_System_Int32__0_"></a> InsertItem\(int, T\)
 
 ```csharp
 protected virtual void InsertItem(int index, T item)
@@ -121,7 +121,7 @@ protected virtual void InsertItem(int index, T item)
 
 `item` T
 
-### InsertRange\(int, IEnumerable<T\>\)
+### <a id="VM_Collections_InheritableList_1_InsertRange_System_Int32_System_Collections_Generic_IEnumerable__0__"></a> InsertRange\(int, IEnumerable<T\>\)
 
 ```csharp
 public void InsertRange(int index, IEnumerable<T> collection)
@@ -133,7 +133,7 @@ public void InsertRange(int index, IEnumerable<T> collection)
 
 `collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
 
-### Remove\(T\)
+### <a id="VM_Collections_InheritableList_1_Remove__0_"></a> Remove\(T\)
 
 ```csharp
 public bool Remove(T item)
@@ -147,7 +147,7 @@ public bool Remove(T item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RemoveAll\(Predicate<T\>\)
+### <a id="VM_Collections_InheritableList_1_RemoveAll_System_Predicate__0__"></a> RemoveAll\(Predicate<T\>\)
 
 ```csharp
 public int RemoveAll(Predicate<T> match)
@@ -161,7 +161,7 @@ public int RemoveAll(Predicate<T> match)
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### RemoveAt\(int\)
+### <a id="VM_Collections_InheritableList_1_RemoveAt_System_Int32_"></a> RemoveAt\(int\)
 
 ```csharp
 public void RemoveAt(int index)
@@ -171,7 +171,7 @@ public void RemoveAt(int index)
 
 `index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### RemoveItem\(int\)
+### <a id="VM_Collections_InheritableList_1_RemoveItem_System_Int32_"></a> RemoveItem\(int\)
 
 ```csharp
 protected virtual void RemoveItem(int index)
@@ -181,7 +181,7 @@ protected virtual void RemoveItem(int index)
 
 `index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### RemoveRange\(int, int\)
+### <a id="VM_Collections_InheritableList_1_RemoveRange_System_Int32_System_Int32_"></a> RemoveRange\(int, int\)
 
 ```csharp
 public void RemoveRange(int index, int count)
@@ -193,7 +193,7 @@ public void RemoveRange(int index, int count)
 
 `count` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### SetItem\(int, T\)
+### <a id="VM_Collections_InheritableList_1_SetItem_System_Int32__0_"></a> SetItem\(int, T\)
 
 ```csharp
 protected virtual void SetItem(int index, T item)
@@ -204,5 +204,4 @@ protected virtual void SetItem(int index, T item)
 `index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 `item` T
-
 

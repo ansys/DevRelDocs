@@ -1,4 +1,4 @@
-# Class TSpringDamper
+#  Class TSpringDamper
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -251,7 +251,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### TSpringDamper\(\)
+### <a id="VM_Managed_DAFUL_Force_TSpringDamper__ctor"></a> TSpringDamper\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.TSpringDamper" data-throw-if-not-resolved="false"></xref> class.
 
@@ -259,7 +259,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.TSpringDamp
 public TSpringDamper()
 ```
 
-### TSpringDamper\(string\)
+### <a id="VM_Managed_DAFUL_Force_TSpringDamper__ctor_System_String_"></a> TSpringDamper\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.TSpringDamper" data-throw-if-not-resolved="false"></xref> class.
 
@@ -275,7 +275,7 @@ Name of the spring damper force.
 
 ## Properties
 
-### FreeLength
+### <a id="VM_Managed_DAFUL_Force_TSpringDamper_FreeLength"></a> FreeLength
 
 Gets or sets the free length.
 
@@ -287,7 +287,7 @@ public ExpressionValueVariable FreeLength { get; set; }
 
  ExpressionValueVariable
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Force_TSpringDamper_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -299,7 +299,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
  IReportable.ReportEntityType
 
-### SpringCoilCount
+### <a id="VM_Managed_DAFUL_Force_TSpringDamper_SpringCoilCount"></a> SpringCoilCount
 
 Gets or sets the spring coil count.
 
@@ -311,7 +311,7 @@ public int SpringCoilCount { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### SpringCoilLength1
+### <a id="VM_Managed_DAFUL_Force_TSpringDamper_SpringCoilLength1"></a> SpringCoilLength1
 
 Gets or sets the distance between base marker and damper.
 
@@ -323,7 +323,7 @@ public double SpringCoilLength1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SpringCoilLength2
+### <a id="VM_Managed_DAFUL_Force_TSpringDamper_SpringCoilLength2"></a> SpringCoilLength2
 
 Gets or sets distance between action marker and damper.
 
@@ -335,7 +335,7 @@ public double SpringCoilLength2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SpringDiameter
+### <a id="VM_Managed_DAFUL_Force_TSpringDamper_SpringDiameter"></a> SpringDiameter
 
 Gets or sets the spring diameter.
 
@@ -349,7 +349,7 @@ public double SpringDiameter { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Force_TSpringDamper_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -363,7 +363,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Force_TSpringDamper_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -377,7 +377,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Force_TSpringDamper_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -395,12 +395,11 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### UpdateFreeLength\(\)
+### <a id="VM_Managed_DAFUL_Force_TSpringDamper_UpdateFreeLength"></a> UpdateFreeLength\(\)
 
 Updates the free length.
 
 ```csharp
 public void UpdateFreeLength()
 ```
-
 

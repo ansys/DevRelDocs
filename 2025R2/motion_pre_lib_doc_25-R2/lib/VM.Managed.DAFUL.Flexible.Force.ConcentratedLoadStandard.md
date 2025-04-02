@@ -1,4 +1,4 @@
-# Class ConcentratedLoadStandard
+#  Class ConcentratedLoadStandard
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -78,7 +78,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ConcentratedLoadStandard\(\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard__ctor"></a> ConcentratedLoadStandard\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -90,7 +90,7 @@ public ConcentratedLoadStandard()
 
 ## Properties
 
-### ForceFunction
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_ForceFunction"></a> ForceFunction
 
 <p>Gets or sets the force function.</p>
 <p>힘 함수를 가져오거나 넣어줍니다.</p>
@@ -115,7 +115,7 @@ public ElementFunction ForceFunction { get; set; }
 
  [ElementFunction](VM.Managed.DAFUL.Flexible.Force.ElementFunction.md)
 
-### FunctionDirectionType
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_FunctionDirectionType"></a> FunctionDirectionType
 
 <p>Gets or sets the type of the direction.</p>
 <p>방향의 타입을 가져오거나 넣어줍니다.</p>
@@ -146,7 +146,7 @@ public ConcentratedLoadStandard.DirectionType FunctionDirectionType { get; set; 
 
  [ConcentratedLoadStandard](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.md).[DirectionType](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.DirectionType.md)
 
-### TorqueFunction
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_TorqueFunction"></a> TorqueFunction
 
 <p>Gets or sets the torque function.</p>
 <p>회전력 함수를 가져오거나 넣어줍니다.</p>
@@ -171,7 +171,7 @@ public ElementFunction TorqueFunction { get; set; }
 
  [ElementFunction](VM.Managed.DAFUL.Flexible.Force.ElementFunction.md)
 
-### Type
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_Type"></a> Type
 
 <p>Gets the function type.</p>
 <p>함수 타입을 가져오거나 넣어줍니다.</p>
@@ -184,7 +184,7 @@ public override ConcentratedLoadFunction.FunctionType Type { get; }
 
  [ConcentratedLoadFunction](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction.md).[FunctionType](VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadFunction.FunctionType.md)
 
-### UseForceFunction
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_UseForceFunction"></a> UseForceFunction
 
 <p>Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.ForceFunction" data-throw-if-not-resolved="false"></xref> is use.</p>
 <p>이 <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.ForceFunction" data-throw-if-not-resolved="false"></xref> 사용 여부를 가져오거나 넣어줍니다.</p>
@@ -209,7 +209,7 @@ public bool UseForceFunction { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseTorqueFunction
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_UseTorqueFunction"></a> UseTorqueFunction
 
 <p>Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.TorqueFunction" data-throw-if-not-resolved="false"></xref> is use.</p>
 <p>이 <xref href="VM.Managed.DAFUL.Flexible.Force.ConcentratedLoadStandard.TorqueFunction" data-throw-if-not-resolved="false"></xref> 사용 여부를 가져오거나 넣어줍니다.</p>
@@ -236,7 +236,7 @@ public bool UseTorqueFunction { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_ConcentratedLoadStandard_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 <p>Initializes member through unit convert factor.</p>
 <p>단위 변화 팩터를 이용하여 필드를 초기화 해줍니다.</p>
@@ -251,5 +251,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 <p>The unit convert factor.</p>
 <p>단위 변환 팩터.</p>
-
 

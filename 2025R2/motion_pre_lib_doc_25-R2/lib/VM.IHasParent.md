@@ -1,4 +1,4 @@
-# Interface IHasParent
+#  Interface IHasParent
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IHasParent
 
 ## Properties
 
-### Parent
+### <a id="VM_IHasParent_Parent"></a> Parent
 
 ```csharp
 object Parent { get; }
@@ -24,5 +24,4 @@ object Parent { get; }
 #### Property Value
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
-
 

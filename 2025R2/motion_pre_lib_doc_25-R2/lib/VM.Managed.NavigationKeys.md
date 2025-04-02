@@ -1,4 +1,4 @@
-# Enum NavigationKeys
+#  Enum NavigationKeys
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -86,5 +86,4 @@ public enum NavigationKeys
 `T = 84` 
 
 `Z = 90` 
-
 

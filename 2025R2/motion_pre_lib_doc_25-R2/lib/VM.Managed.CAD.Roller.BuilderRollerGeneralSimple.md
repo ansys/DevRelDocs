@@ -1,4 +1,4 @@
-# Class BuilderRollerGeneralSimple
+#  Class BuilderRollerGeneralSimple
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -207,7 +207,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderRollerGeneralSimple\(\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple__ctor"></a> BuilderRollerGeneralSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Roller.BuilderRollerGeneralSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -217,7 +217,7 @@ public BuilderRollerGeneralSimple()
 
 ## Fields
 
-### lstBottom
+### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_lstBottom"></a> lstBottom
 
 The list of cylinder bottom position.
 
@@ -229,7 +229,7 @@ protected List<VectorBase> lstBottom
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
 
-### lstRadius
+### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_lstRadius"></a> lstRadius
 
 The list of cylinder radius.
 
@@ -241,7 +241,7 @@ protected List<double> lstRadius
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### lstTop
+### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_lstTop"></a> lstTop
 
 The list of cylinder top position.
 
@@ -255,7 +255,7 @@ protected List<VectorBase> lstTop
 
 ## Properties
 
-### RollerType
+### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_RollerType"></a> RollerType
 
 Gets roller type.
 
@@ -267,7 +267,7 @@ public RollerType RollerType { get; set; }
 
  [RollerType](VM.Managed.CAD.Roller.RollerType.md)
 
-### Rollers
+### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_Rollers"></a> Rollers
 
 ```csharp
 public List<BuilderRollerGeneralSimple.RollerWidthDiameter> Rollers { get; set; }
@@ -277,7 +277,7 @@ public List<BuilderRollerGeneralSimple.RollerWidthDiameter> Rollers { get; set; 
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[BuilderRollerGeneralSimple](VM.Managed.CAD.Roller.BuilderRollerGeneralSimple.md).[RollerWidthDiameter](VM.Managed.CAD.Roller.BuilderRollerGeneralSimple.RollerWidthDiameter.md)\>
 
-### TypeOfBuilder
+### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_TypeOfBuilder"></a> TypeOfBuilder
 
 ```csharp
 public override string TypeOfBuilder { get; set; }
@@ -289,7 +289,7 @@ public override string TypeOfBuilder { get; set; }
 
 ## Methods
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -297,7 +297,7 @@ Checks the validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -307,7 +307,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### GetGeneralRollerInfo\(List<double\>, List<double\>\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_GetGeneralRollerInfo_System_Collections_Generic_List_System_Double__System_Collections_Generic_List_System_Double__"></a> GetGeneralRollerInfo\(List<double\>, List<double\>\)
 
 ```csharp
 public void GetGeneralRollerInfo(List<double> lstWidth, List<double> lstDiameter)
@@ -319,7 +319,7 @@ public void GetGeneralRollerInfo(List<double> lstWidth, List<double> lstDiameter
 
 `lstDiameter` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### SetGeneralRollerInfo\(List<double\>, List<double\>\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerGeneralSimple_SetGeneralRollerInfo_System_Collections_Generic_List_System_Double__System_Collections_Generic_List_System_Double__"></a> SetGeneralRollerInfo\(List<double\>, List<double\>\)
 
 ```csharp
 public void SetGeneralRollerInfo(List<double> lstWidth, List<double> lstDiameter)
@@ -330,5 +330,4 @@ public void SetGeneralRollerInfo(List<double> lstWidth, List<double> lstDiameter
 `lstWidth` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
 `lstDiameter` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
-
 

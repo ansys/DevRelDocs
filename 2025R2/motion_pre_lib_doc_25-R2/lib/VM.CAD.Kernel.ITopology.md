@@ -1,4 +1,4 @@
-# Interface ITopology
+#  Interface ITopology
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -20,7 +20,7 @@ ISelected
 
 ## Properties
 
-### ParentBodyKey
+### <a id="VM_CAD_Kernel_ITopology_ParentBodyKey"></a> ParentBodyKey
 
 ```csharp
 UIntPtr ParentBodyKey { get; }
@@ -29,5 +29,4 @@ UIntPtr ParentBodyKey { get; }
 #### Property Value
 
  [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
-
 

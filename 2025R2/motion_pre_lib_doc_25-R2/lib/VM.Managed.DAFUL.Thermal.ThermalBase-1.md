@@ -1,4 +1,4 @@
-# Class ThermalBase<TProperty\>
+#  Class ThermalBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -210,7 +210,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ThermalBase\(\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalBase_1__ctor"></a> ThermalBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -218,7 +218,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalBa
 protected ThermalBase()
 ```
 
-### ThermalBase\(string\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalBase_1__ctor_System_String_"></a> ThermalBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.ThermalBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -234,7 +234,7 @@ Name of the mesh free force.
 
 ## Properties
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_Thermal_ThermalBase_1_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -246,7 +246,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Hide
+### <a id="VM_Managed_DAFUL_Thermal_ThermalBase_1_Hide"></a> Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -258,7 +258,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TargetObject
+### <a id="VM_Managed_DAFUL_Thermal_ThermalBase_1_TargetObject"></a> TargetObject
 
 Gets the target object.
 
@@ -272,7 +272,7 @@ protected abstract ObjectBase TargetObject { get; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalBase_1_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -286,7 +286,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalBase_1_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -306,7 +306,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalBase_1_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -324,7 +324,7 @@ The ob unnamed.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### HeatGenerationFiltering\(object, FilterArgs\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalBase_1_HeatGenerationFiltering_System_Object_VM_Managed_Picker_Core_FilterArgs_"></a> HeatGenerationFiltering\(object, FilterArgs\)
 
 Heat generation filtering function
 
@@ -342,7 +342,7 @@ The sender
 
 The argument
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalBase_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -356,7 +356,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReDraw\(\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalBase_1_ReDraw"></a> ReDraw\(\)
 
 Redraw.
 
@@ -364,7 +364,7 @@ Redraw.
 public virtual void ReDraw()
 ```
 
-### ReplaceEntityImpl\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalBase_1_ReplaceEntityImpl_VM_Managed_ObjectBase_"></a> ReplaceEntityImpl\(ObjectBase\)
 
 Replace entity
 
@@ -378,7 +378,7 @@ protected virtual void ReplaceEntityImpl(ObjectBase newObject)
 
 The new object
 
-### TemperatureFiltering\(object, FilterArgs\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalBase_1_TemperatureFiltering_System_Object_VM_Managed_Picker_Core_FilterArgs_"></a> TemperatureFiltering\(object, FilterArgs\)
 
 Temperature filtering function
 
@@ -396,7 +396,7 @@ The sender
 
 The argument
 
-### ThermalContactFiltering\(object, FilterArgs\)
+### <a id="VM_Managed_DAFUL_Thermal_ThermalBase_1_ThermalContactFiltering_System_Object_VM_Managed_Picker_Core_FilterArgs_"></a> ThermalContactFiltering\(object, FilterArgs\)
 
 Thermal contact filtering function
 
@@ -413,5 +413,4 @@ The sender
 `args` FilterArgs
 
 The argument
-
 

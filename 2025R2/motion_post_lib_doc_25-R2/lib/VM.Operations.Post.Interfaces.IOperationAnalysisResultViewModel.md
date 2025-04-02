@@ -1,4 +1,4 @@
-# Interface IOperationAnalysisResultViewModel
+#  Interface IOperationAnalysisResultViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -103,7 +103,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Methods
 
-### CreateContour\(IList<string\>, ContourMappingType, string, string, string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationAnalysisResultViewModel_CreateContour_System_Collections_Generic_IList_System_String__VM_Models_ContourMappingType_System_String_System_String_System_String_"></a> CreateContour\(IList<string\>, ContourMappingType, string, string, string\)
 
 Creates a contour for displaying various simulation results. Please refer to this [here](../getting_started_operation_api_using_py.md#how-to-input-the-value-of-the-target-into-the-function-parameter) link.
 
@@ -154,7 +154,7 @@ including nodes, elements, and specialized groups. The <code class="paramref">ch
 parameters specify the characteristic and component for the contour, respectively. Optionally, a new name for 
 the contour can be provided using the <code class="paramref">newName</code> parameter. If not specified, a default name will be used.
 
-### GetContourables\(ContourMappingType\)
+### <a id="VM_Operations_Post_Interfaces_IOperationAnalysisResultViewModel_GetContourables_VM_Models_ContourMappingType_"></a> GetContourables\(ContourMappingType\)
 
 Retrieves the entities that are applicable for the specified contour mapping type.
 
@@ -185,7 +185,7 @@ For an example that includes this property, see the [Interface IOperationAnalysi
 This method returns the entities that correspond to the given <code class="paramref">contourMappingType</code>. 
 If there are applicable entities, they are returned as an array of strings.
 
-### GetReferenceTimeArray\(\)
+### <a id="VM_Operations_Post_Interfaces_IOperationAnalysisResultViewModel_GetReferenceTimeArray"></a> GetReferenceTimeArray\(\)
 
 Retrieves an array of time values from the result file.
 
@@ -208,7 +208,7 @@ For an example that includes this property, see the [Interface IOperationAnalysi
 This method extracts and returns the array of time values from the result file. The returned array 
 contains the time points relevant to the simulation or analysis.
 
-### GetStateIDArray\(\)
+### <a id="VM_Operations_Post_Interfaces_IOperationAnalysisResultViewModel_GetStateIDArray"></a> GetStateIDArray\(\)
 
 Retrieves an array of state IDs from the result file.
 
@@ -231,7 +231,7 @@ For an example that includes this property, see the [Interface IOperationAnalysi
 This method extracts and returns the array of state IDs from the result file. 
 The returned array contains the IDs of all states relevant to the simulation or analysis.
 
-### MoveToAnimationFrame\(int\)
+### <a id="VM_Operations_Post_Interfaces_IOperationAnalysisResultViewModel_MoveToAnimationFrame_System_Int32_"></a> MoveToAnimationFrame\(int\)
 
 Moves the animation to the specified frame.
 

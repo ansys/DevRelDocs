@@ -1,4 +1,4 @@
-# Enum DurabilityAnalysis.ActionType
+#  Enum DurabilityAnalysis.ActionType
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -14,5 +14,4 @@ public enum DurabilityAnalysis.ActionType
 `ExportDFS = 2` 
 
 `Simulation = 0` 
-
 

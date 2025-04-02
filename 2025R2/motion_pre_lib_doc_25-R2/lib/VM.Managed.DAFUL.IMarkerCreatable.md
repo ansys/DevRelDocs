@@ -1,4 +1,4 @@
-# Interface IMarkerCreatable
+#  Interface IMarkerCreatable
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -24,7 +24,7 @@ IHasBody
 
 ## Methods
 
-### AddMarker\(Marker\)
+### <a id="VM_Managed_DAFUL_IMarkerCreatable_AddMarker_VM_Managed_DAFUL_Marker_"></a> AddMarker\(Marker\)
 
 Add Marker
 
@@ -37,5 +37,4 @@ void AddMarker(Marker marker)
 `marker` [Marker](VM.Managed.DAFUL.Marker.md)
 
 The marker
-
 

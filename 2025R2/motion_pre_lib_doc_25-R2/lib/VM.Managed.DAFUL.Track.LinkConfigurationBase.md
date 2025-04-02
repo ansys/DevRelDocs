@@ -1,4 +1,4 @@
-# Class LinkConfigurationBase
+#  Class LinkConfigurationBase
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -196,7 +196,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### LinkConfigurationBase\(\)
+### <a id="VM_Managed_DAFUL_Track_LinkConfigurationBase__ctor"></a> LinkConfigurationBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.LinkConfigurationBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -206,7 +206,7 @@ public LinkConfigurationBase()
 
 ## Properties
 
-### ConfigurationName
+### <a id="VM_Managed_DAFUL_Track_LinkConfigurationBase_ConfigurationName"></a> ConfigurationName
 
 Gets the configuration name
 
@@ -218,7 +218,7 @@ public abstract string ConfigurationName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### MaximumDisplacement
+### <a id="VM_Managed_DAFUL_Track_LinkConfigurationBase_MaximumDisplacement"></a> MaximumDisplacement
 
 Gets the maximum displacement
 
@@ -230,7 +230,7 @@ public double MaximumDisplacement { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ScaleOfHydrodanamicForce
+### <a id="VM_Managed_DAFUL_Track_LinkConfigurationBase_ScaleOfHydrodanamicForce"></a> ScaleOfHydrodanamicForce
 
 Gets the scale of hydrodynamic force
 
@@ -242,7 +242,7 @@ public double ScaleOfHydrodanamicForce { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TimeToSteadyState
+### <a id="VM_Managed_DAFUL_Track_LinkConfigurationBase_TimeToSteadyState"></a> TimeToSteadyState
 
 Gets the time to steady state
 
@@ -256,7 +256,7 @@ public double TimeToSteadyState { get; set; }
 
 ## Methods
 
-### CreateLinkConfiguration\(LoadCaseType, Configuration\)
+### <a id="VM_Managed_DAFUL_Track_LinkConfigurationBase_CreateLinkConfiguration_VM_Managed_DAFUL_Track_AttributeLoadCase_LoadCaseData_LoadCaseType_VM_Managed_Simulation_Configuration_"></a> CreateLinkConfiguration\(LoadCaseType, Configuration\)
 
 Create link configuration
 
@@ -277,5 +277,4 @@ The refer configuration
 #### Returns
 
  [LinkConfigurationBase](VM.Managed.DAFUL.Track.LinkConfigurationBase.md)
-
 

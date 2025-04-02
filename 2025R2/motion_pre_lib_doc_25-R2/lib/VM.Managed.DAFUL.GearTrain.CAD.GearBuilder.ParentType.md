@@ -1,4 +1,4 @@
-# Enum GearBuilder.ParentType
+#  Enum GearBuilder.ParentType
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ The bearing
 `Shaft = 0` 
 
 The shaft
-
 
 
 

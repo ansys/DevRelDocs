@@ -1,4 +1,4 @@
-# Class GearShapeBase.BuilderInfo
+#  Class GearShapeBase.BuilderInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -22,7 +22,7 @@ public class GearShapeBase.BuilderInfo
 
 ## Constructors
 
-### BuilderInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_BuilderInfo__ctor"></a> BuilderInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearShapeBase.BuilderInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public BuilderInfo()
 
 ## Properties
 
-### Color
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_BuilderInfo_Color"></a> Color
 
 Gets or sets the color.
 
@@ -44,7 +44,7 @@ public BuilderColor Color { get; set; }
 
  BuilderColor
 
-### IsDesigner
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_BuilderInfo_IsDesigner"></a> IsDesigner
 
 Gets or sets a value indicating whether this instance is designer.
 
@@ -56,7 +56,7 @@ public bool IsDesigner { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsInternal
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_BuilderInfo_IsInternal"></a> IsInternal
 
 Gets or sets a value indicating whether this instance is internal.
 
@@ -68,7 +68,7 @@ public bool IsInternal { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MateAngle
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_BuilderInfo_MateAngle"></a> MateAngle
 
 Gets or sets the mate angle.
 
@@ -80,7 +80,7 @@ public double MateAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Offset
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_BuilderInfo_Offset"></a> Offset
 
 Gets or sets the offset.
 
@@ -92,7 +92,7 @@ public double Offset { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Orientation
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_BuilderInfo_Orientation"></a> Orientation
 
 Gets or sets the orientation.
 
@@ -104,7 +104,7 @@ public OMatrix Orientation { get; set; }
 
  OMatrix
 
-### StartPoint
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_BuilderInfo_StartPoint"></a> StartPoint
 
 Gets or sets the start point.
 
@@ -116,7 +116,7 @@ public VectorBase StartPoint { get; set; }
 
  VectorBase
 
-### Transparency
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_BuilderInfo_Transparency"></a> Transparency
 
 Gets or sets the transparency.
 
@@ -127,5 +127,4 @@ public double Transparency { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

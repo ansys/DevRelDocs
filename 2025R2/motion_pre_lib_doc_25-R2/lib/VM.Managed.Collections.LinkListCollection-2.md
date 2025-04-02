@@ -1,4 +1,4 @@
-# Class LinkListCollection<T, TLink\>
+#  Class LinkListCollection<T, TLink\>
 
 Namespace: [VM.Managed.Collections](VM.Managed.Collections.md)  
 Assembly: VMAppCore.dll  
@@ -57,7 +57,7 @@ IPostDeserialized
 
 ## Constructors
 
-### LinkListCollection\(ILinkContainer\)
+### <a id="VM_Managed_Collections_LinkListCollection_2__ctor_VM_Models_Pre_ILinkContainer_"></a> LinkListCollection\(ILinkContainer\)
 
 ```csharp
 public LinkListCollection(ILinkContainer objParent)
@@ -67,7 +67,7 @@ public LinkListCollection(ILinkContainer objParent)
 
 `objParent` ILinkContainer
 
-### LinkListCollection\(ILinkContainer, List<TLink\>\)
+### <a id="VM_Managed_Collections_LinkListCollection_2__ctor_VM_Models_Pre_ILinkContainer_System_Collections_Generic_List__1__"></a> LinkListCollection\(ILinkContainer, List<TLink\>\)
 
 ```csharp
 public LinkListCollection(ILinkContainer objParent, List<TLink> collection)
@@ -81,7 +81,7 @@ public LinkListCollection(ILinkContainer objParent, List<TLink> collection)
 
 ## Properties
 
-### this\[int\]
+### <a id="VM_Managed_Collections_LinkListCollection_2_Item_System_Int32_"></a> this\[int\]
 
 ```csharp
 public virtual T this[int nIdx] { get; set; }
@@ -93,13 +93,13 @@ public virtual T this[int nIdx] { get; set; }
 
 ## Methods
 
-### ClearForLargeAmount\(\)
+### <a id="VM_Managed_Collections_LinkListCollection_2_ClearForLargeAmount"></a> ClearForLargeAmount\(\)
 
 ```csharp
 public virtual void ClearForLargeAmount()
 ```
 
-### IndexOf\(T\)
+### <a id="VM_Managed_Collections_LinkListCollection_2_IndexOf__0_"></a> IndexOf\(T\)
 
 ```csharp
 public virtual int IndexOf(T item)
@@ -113,7 +113,7 @@ public virtual int IndexOf(T item)
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Insert\(int, T\)
+### <a id="VM_Managed_Collections_LinkListCollection_2_Insert_System_Int32__0_"></a> Insert\(int, T\)
 
 ```csharp
 public virtual void Insert(int index, T item)
@@ -125,7 +125,7 @@ public virtual void Insert(int index, T item)
 
 `item` T
 
-### Remove\(T\)
+### <a id="VM_Managed_Collections_LinkListCollection_2_Remove__0_"></a> Remove\(T\)
 
 ```csharp
 public override bool Remove(T item)
@@ -139,7 +139,7 @@ public override bool Remove(T item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Remove\(T, bool\)
+### <a id="VM_Managed_Collections_LinkListCollection_2_Remove__0_System_Boolean_"></a> Remove\(T, bool\)
 
 ```csharp
 public override bool Remove(T item, bool bContainsDocument)
@@ -155,7 +155,7 @@ public override bool Remove(T item, bool bContainsDocument)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RemoveAt\(int\)
+### <a id="VM_Managed_Collections_LinkListCollection_2_RemoveAt_System_Int32_"></a> RemoveAt\(int\)
 
 ```csharp
 public virtual void RemoveAt(int index)
@@ -165,7 +165,7 @@ public virtual void RemoveAt(int index)
 
 `index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### RemoveAt\(int, bool\)
+### <a id="VM_Managed_Collections_LinkListCollection_2_RemoveAt_System_Int32_System_Boolean_"></a> RemoveAt\(int, bool\)
 
 ```csharp
 public virtual void RemoveAt(int index, bool bContainsDocument)
@@ -177,7 +177,7 @@ public virtual void RemoveAt(int index, bool bContainsDocument)
 
 `bContainsDocument` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Replace\(T, T\)
+### <a id="VM_Managed_Collections_LinkListCollection_2_Replace__0__0_"></a> Replace\(T, T\)
 
 ```csharp
 public virtual void Replace(T oldItem, T newItem)
@@ -189,7 +189,7 @@ public virtual void Replace(T oldItem, T newItem)
 
 `newItem` T
 
-### Set\(T\[\]\)
+### <a id="VM_Managed_Collections_LinkListCollection_2_Set__0___"></a> Set\(T\[\]\)
 
 ```csharp
 public virtual void Set(T[] items)
@@ -198,5 +198,4 @@ public virtual void Set(T[] items)
 #### Parameters
 
 `items` T\[\]
-
 

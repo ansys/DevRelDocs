@@ -1,4 +1,4 @@
-# Class SolidBodyProperty
+#  Class SolidBodyProperty
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -187,7 +187,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SolidBodyProperty\(\)
+### <a id="VM_Managed_DAFUL_SolidBodyProperty__ctor"></a> SolidBodyProperty\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SolidBodyProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -195,7 +195,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.SolidBodyProperty
 public SolidBodyProperty()
 ```
 
-### SolidBodyProperty\(Body\)
+### <a id="VM_Managed_DAFUL_SolidBodyProperty__ctor_VM_Managed_CAD_Body_"></a> SolidBodyProperty\(Body\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SolidBodyProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ The geometry.
 
 ## Fields
 
-### GeometryName
+### <a id="VM_Managed_DAFUL_SolidBodyProperty_GeometryName"></a> GeometryName
 
 Default geometry name
 
@@ -225,7 +225,7 @@ public static string GeometryName
 
 ## Properties
 
-### Density
+### <a id="VM_Managed_DAFUL_SolidBodyProperty_Density"></a> Density
 
 Gets or sets the density.
 
@@ -237,7 +237,7 @@ public ExpressionValueVariable Density { get; set; }
 
  ExpressionValueVariable
 
-### Geometry
+### <a id="VM_Managed_DAFUL_SolidBodyProperty_Geometry"></a> Geometry
 
 Gets or sets the geometry.
 
@@ -249,7 +249,7 @@ public Body Geometry { get; set; }
 
  Body
 
-### SolidPropertyType
+### <a id="VM_Managed_DAFUL_SolidBodyProperty_SolidPropertyType"></a> SolidPropertyType
 
 Gets or sets the type of the solid property.
 
@@ -261,7 +261,7 @@ public SolidBodyProperty.MassPropertyType SolidPropertyType { get; set; }
 
  [SolidBodyProperty](VM.Managed.DAFUL.SolidBodyProperty.md).[MassPropertyType](VM.Managed.DAFUL.SolidBodyProperty.MassPropertyType.md)
 
-### Volume
+### <a id="VM_Managed_DAFUL_SolidBodyProperty_Volume"></a> Volume
 
 Gets or sets the volume.
 
@@ -275,7 +275,7 @@ public double Volume { get; set; }
 
 ## Methods
 
-### GeomUpdate\(GetRelationInfoEventArgs\)
+### <a id="VM_Managed_DAFUL_SolidBodyProperty_GeomUpdate_VM_Managed_GetRelationInfoEventArgs_"></a> GeomUpdate\(GetRelationInfoEventArgs\)
 
 Geoms the update.
 
@@ -289,7 +289,7 @@ public override void GeomUpdate(GetRelationInfoEventArgs arg)
 
 The <xref href="VM.Managed.GetRelationInfoEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_SolidBodyProperty_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -303,7 +303,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkAddedToDocument\(object, AddToDocEventArgs\)
+### <a id="VM_Managed_DAFUL_SolidBodyProperty_LinkAddedToDocument_System_Object_VM_Managed_AddToDocEventArgs_"></a> LinkAddedToDocument\(object, AddToDocEventArgs\)
 
 Add linked object to a document.
 
@@ -321,7 +321,7 @@ The linked object.
 
 The <xref href="VM.Managed.AddToDocEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_SolidBodyProperty_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -339,7 +339,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_SolidBodyProperty_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -352,5 +352,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

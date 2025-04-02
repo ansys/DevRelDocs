@@ -1,4 +1,4 @@
-# Class SimulateForComponentEigenvalue
+#  Class SimulateForComponentEigenvalue
 
 Namespace: [VM.Managed.DAFUL.Linear.Operation](VM.Managed.DAFUL.Linear.Operation.md)  
 Assembly: VMOpLinear.dll  
@@ -107,7 +107,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### SimulateForComponentEigenvalue\(Document\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue__ctor_VM_Managed_Document_"></a> SimulateForComponentEigenvalue\(Document\)
 
 ```csharp
 public SimulateForComponentEigenvalue(Document doc)
@@ -117,7 +117,7 @@ public SimulateForComponentEigenvalue(Document doc)
 
 `doc` Document
 
-### SimulateForComponentEigenvalue\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue__ctor_VM_Managed_ObjectBase_"></a> SimulateForComponentEigenvalue\(ObjectBase\)
 
 ```csharp
 public SimulateForComponentEigenvalue(ObjectBase objSingle)
@@ -127,7 +127,7 @@ public SimulateForComponentEigenvalue(ObjectBase objSingle)
 
 `objSingle` ObjectBase
 
-### SimulateForComponentEigenvalue\(Document, ObjectBase\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue__ctor_VM_Managed_Document_VM_Managed_ObjectBase_"></a> SimulateForComponentEigenvalue\(Document, ObjectBase\)
 
 ```csharp
 public SimulateForComponentEigenvalue(Document doc, ObjectBase objSingle)
@@ -139,7 +139,7 @@ public SimulateForComponentEigenvalue(Document doc, ObjectBase objSingle)
 
 `objSingle` ObjectBase
 
-### SimulateForComponentEigenvalue\(Document, ObjectBase, SimulationParameter\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue__ctor_VM_Managed_Document_VM_Managed_ObjectBase_VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_"></a> SimulateForComponentEigenvalue\(Document, ObjectBase, SimulationParameter\)
 
 ```csharp
 public SimulateForComponentEigenvalue(Document doc, ObjectBase objSingle, SimulationRun.SimulationParameter simulationParameter)
@@ -153,7 +153,7 @@ public SimulateForComponentEigenvalue(Document doc, ObjectBase objSingle, Simula
 
 `simulationParameter` SimulationRun.SimulationParameter
 
-### SimulateForComponentEigenvalue\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue__ctor_VM_Managed_Operation_JournalParameter_"></a> SimulateForComponentEigenvalue\(JournalParameter\)
 
 ```csharp
 public SimulateForComponentEigenvalue(JournalParameter jp)
@@ -165,7 +165,7 @@ public SimulateForComponentEigenvalue(JournalParameter jp)
 
 ## Fields
 
-### m\_lstObjEigen
+### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_m_lstObjEigen"></a> m\_lstObjEigen
 
 ```csharp
 protected List<ObjectBase> m_lstObjEigen
@@ -175,7 +175,7 @@ protected List<ObjectBase> m_lstObjEigen
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
 
-### m\_param
+### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_m_param"></a> m\_param
 
 ```csharp
 protected SimulationScenarioEigenvalue.SolvingParam m_param
@@ -187,7 +187,7 @@ protected SimulationScenarioEigenvalue.SolvingParam m_param
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_Name"></a> Name
 
 Gets the operation name.
 
@@ -199,7 +199,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Success
+### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_Success"></a> Success
 
 ```csharp
 public bool Success { get; }
@@ -211,7 +211,7 @@ public bool Success { get; }
 
 ## Methods
 
-### AutoSetEigenvalueObject\(\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_AutoSetEigenvalueObject"></a> AutoSetEigenvalueObject\(\)
 
 ```csharp
 protected bool AutoSetEigenvalueObject()
@@ -221,7 +221,7 @@ protected bool AutoSetEigenvalueObject()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -229,7 +229,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### ReadExtraJournal\(XmlElement\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_ReadExtraJournal_System_Xml_XmlElement_"></a> ReadExtraJournal\(XmlElement\)
 
 ```csharp
 public override void ReadExtraJournal(XmlElement nodeArg)
@@ -239,7 +239,7 @@ public override void ReadExtraJournal(XmlElement nodeArg)
 
 `nodeArg` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
 
-### SimulationRunImpl\(bool\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
 
 ```csharp
 protected override void SimulationRunImpl(bool bWriteDFG)
@@ -249,7 +249,7 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### WriteExtraJournal\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_SimulateForComponentEigenvalue_WriteExtraJournal_System_Xml_XmlWriter_"></a> WriteExtraJournal\(XmlWriter\)
 
 ```csharp
 public override void WriteExtraJournal(XmlWriter writer)
@@ -258,5 +258,4 @@ public override void WriteExtraJournal(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

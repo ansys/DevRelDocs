@@ -1,4 +1,4 @@
-# Class PropertyPin
+#  Class PropertyPin
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyPin\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyPin__ctor"></a> PropertyPin\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.PropertyPin" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertyPin()
 
 ## Properties
 
-### PinRoundRadius
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyPin_PinRoundRadius"></a> PinRoundRadius
 
 Gets or sets the pin round radius.
 
@@ -193,7 +193,7 @@ public ExpressionValueVariable PinRoundRadius { get; set; }
 
 The pin round radius is null.
 
-### ShapeOfPin
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyPin_ShapeOfPin"></a> ShapeOfPin
 
 Gets or sets the shape of pin.
 
@@ -207,7 +207,7 @@ public PinShape ShapeOfPin { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PropertyPin_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -220,5 +220,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

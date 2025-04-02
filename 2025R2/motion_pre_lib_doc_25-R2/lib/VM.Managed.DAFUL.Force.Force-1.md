@@ -1,4 +1,4 @@
-# Class Force<TProperty\>
+#  Class Force<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -252,7 +252,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Force\(\)
+### <a id="VM_Managed_DAFUL_Force_Force_1__ctor"></a> Force\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.Force%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -260,7 +260,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.Force%601" 
 protected Force()
 ```
 
-### Force\(string\)
+### <a id="VM_Managed_DAFUL_Force_Force_1__ctor_System_String_"></a> Force\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.Force%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -276,7 +276,7 @@ Name of the force.
 
 ## Properties
 
-### UseForSimulationScenario
+### <a id="VM_Managed_DAFUL_Force_Force_1_UseForSimulationScenario"></a> UseForSimulationScenario
 
 Use for simulation scenario.
 
@@ -290,7 +290,7 @@ protected virtual bool UseForSimulationScenario { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Force_Force_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -304,7 +304,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReadMarker\(XmlReader, Marker, string\)
+### <a id="VM_Managed_DAFUL_Force_Force_1_ReadMarker_System_Xml_XmlReader_VM_Managed_DAFUL_Marker_System_String_"></a> ReadMarker\(XmlReader, Marker, string\)
 
 Reads the marker.
 
@@ -332,7 +332,7 @@ Name of the STR.
 
 <code>true</code> if the specified value is change; otherwise, <code>false</code>.
 
-### WriteMarker\(XmlWriter, Marker, string\)
+### <a id="VM_Managed_DAFUL_Force_Force_1_WriteMarker_System_Xml_XmlWriter_VM_Managed_DAFUL_Marker_System_String_"></a> WriteMarker\(XmlWriter, Marker, string\)
 
 Writes the marker.
 
@@ -357,5 +357,4 @@ Name of the STR.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

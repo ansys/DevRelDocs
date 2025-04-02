@@ -1,4 +1,4 @@
-# Enum Friction.EffectType
+#  Enum Friction.EffectType
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -26,7 +26,6 @@ Sliding &amp; Stiction.
 `Stiction = 2` 
 
 Stiction.
-
 
 
 

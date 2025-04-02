@@ -1,4 +1,4 @@
-# Enum Application.PriorityType
+#  Enum Application.PriorityType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -38,7 +38,6 @@ Lowest.
 `Normal = 2` 
 
 Normal.
-
 
 
 

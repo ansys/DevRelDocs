@@ -1,4 +1,4 @@
-# Interface IHasGeometryInfo
+#  Interface IHasGeometryInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IHasGeometryInfo
 
 ## Properties
 
-### GeometryInfoBases
+### <a id="VM_Managed_DAFUL_GearTrain_IHasGeometryInfo_GeometryInfoBases"></a> GeometryInfoBases
 
 Gets the geometry information bases.
 
@@ -28,5 +28,4 @@ GeometryInfoBase[] GeometryInfoBases { get; }
 #### Property Value
 
  [GeometryInfoBase](VM.Managed.DAFUL.GearTrain.GeometryInfoBase.md)\[\]
-
 

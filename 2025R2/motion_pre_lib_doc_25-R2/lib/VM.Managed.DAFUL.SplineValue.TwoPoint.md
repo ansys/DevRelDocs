@@ -1,4 +1,4 @@
-# Struct SplineValue.TwoPoint
+#  Struct SplineValue.TwoPoint
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -11,7 +11,7 @@ public struct SplineValue.TwoPoint
 
 ## Constructors
 
-### TwoPoint\(double, double\)
+### <a id="VM_Managed_DAFUL_SplineValue_TwoPoint__ctor_System_Double_System_Double_"></a> TwoPoint\(double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SplineValue.TwoPoint" data-throw-if-not-resolved="false"></xref> struct.
 
@@ -31,7 +31,7 @@ The dy.
 
 ## Fields
 
-### m\_dX
+### <a id="VM_Managed_DAFUL_SplineValue_TwoPoint_m_dX"></a> m\_dX
 
 x value
 
@@ -43,7 +43,7 @@ public double m_dX
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dY
+### <a id="VM_Managed_DAFUL_SplineValue_TwoPoint_m_dY"></a> m\_dY
 
 y value
 
@@ -54,5 +54,4 @@ public double m_dY
 #### Field Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

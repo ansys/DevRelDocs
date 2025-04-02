@@ -1,4 +1,4 @@
-# Class SegmentPlacingInfo
+#  Class SegmentPlacingInfo
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -22,7 +22,7 @@ public class SegmentPlacingInfo
 
 ## Constructors
 
-### SegmentPlacingInfo\(\)
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo__ctor"></a> SegmentPlacingInfo\(\)
 
 ```csharp
 public SegmentPlacingInfo()
@@ -30,7 +30,7 @@ public SegmentPlacingInfo()
 
 ## Fields
 
-### m\_arOrientation
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_arOrientation"></a> m\_arOrientation
 
 The segment orientation.
 
@@ -42,7 +42,7 @@ public double[] m_arOrientation
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### m\_bEffectSprocketOn
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_bEffectSprocketOn"></a> m\_bEffectSprocketOn
 
 The calculated value internally.
 
@@ -54,7 +54,7 @@ public bool m_bEffectSprocketOn
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_bSprocketOn
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_bSprocketOn"></a> m\_bSprocketOn
 
 The calculated value internally.
 
@@ -66,7 +66,7 @@ public bool m_bSprocketOn
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_dAngleHalfSegment
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_dAngleHalfSegment"></a> m\_dAngleHalfSegment
 
 The calculated value internally.
 
@@ -78,7 +78,7 @@ public double m_dAngleHalfSegment
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dSegement\_AssembleLength
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_dSegement_AssembleLength"></a> m\_dSegement\_AssembleLength
 
 The chaned length od segment.
 
@@ -90,7 +90,7 @@ public double m_dSegement_AssembleLength
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dSegement\_OriginalLength
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_dSegement_OriginalLength"></a> m\_dSegement\_OriginalLength
 
 The original length of segment.
 
@@ -102,7 +102,7 @@ public double m_dSegement_OriginalLength
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_dTheta
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_dTheta"></a> m\_dTheta
 
 The calculated value internally.
 
@@ -114,7 +114,7 @@ public double m_dTheta
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_nInvolvedPath
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_nInvolvedPath"></a> m\_nInvolvedPath
 
 The index of path.
 
@@ -126,7 +126,7 @@ public int m_nInvolvedPath
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### m\_nNoOfSegment
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_nNoOfSegment"></a> m\_nNoOfSegment
 
 The number of segment.
 
@@ -138,7 +138,7 @@ public int m_nNoOfSegment
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### m\_nStage
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_nStage"></a> m\_nStage
 
 The stage.
 
@@ -150,7 +150,7 @@ public int m_nStage
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### m\_ptLengthMEnd
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_ptLengthMEnd"></a> m\_ptLengthMEnd
 
 The position of segment end to assembled reverse direction.
 
@@ -162,7 +162,7 @@ public double[] m_ptLengthMEnd
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### m\_ptLengthPEnd
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_ptLengthPEnd"></a> m\_ptLengthPEnd
 
 The position of segment end to assembled direction.
 
@@ -174,7 +174,7 @@ public double[] m_ptLengthPEnd
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### m\_ptPosi
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_ptPosi"></a> m\_ptPosi
 
 The segment position.
 
@@ -186,7 +186,7 @@ public double[] m_ptPosi
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### m\_ptTangent
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_ptTangent"></a> m\_ptTangent
 
 The calculated value internally.
 
@@ -198,7 +198,7 @@ public VectorBase m_ptTangent
 
  VectorBase
 
-### m\_vecTangent
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_m_vecTangent"></a> m\_vecTangent
 
 The calculated value internally.
 
@@ -212,12 +212,11 @@ public VectorBase m_vecTangent
 
 ## Methods
 
-### initialize\(\)
+### <a id="VM_Managed_DAFUL_Chained_SegmentPlacingInfo_initialize"></a> initialize\(\)
 
 Initialize member variables.
 
 ```csharp
 public void initialize()
 ```
-
 

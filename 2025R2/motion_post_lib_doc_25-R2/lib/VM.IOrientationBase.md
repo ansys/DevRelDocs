@@ -1,4 +1,4 @@
-# Interface IOrientationBase
+#  Interface IOrientationBase
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IOrientationBase
 
 ## Properties
 
-### AngleType
+### <a id="VM_IOrientationBase_AngleType"></a> AngleType
 
 ```python
 AngleTypes AngleType { get; }
@@ -19,7 +19,7 @@ AngleTypes AngleType { get; }
 
  [AngleTypes](VM.AngleTypes.md)
 
-### RotationAngles
+### <a id="VM_IOrientationBase_RotationAngles"></a> RotationAngles
 
 ```python
 IList<double> RotationAngles { get; }
@@ -29,7 +29,7 @@ IList<double> RotationAngles { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[double](https://learn.microsoft.com/dotnet/api/system.double)\>
 
-### RotationAxes
+### <a id="VM_IOrientationBase_RotationAxes"></a> RotationAxes
 
 ```python
 RotationAxes RotationAxes { get; }
@@ -39,7 +39,7 @@ RotationAxes RotationAxes { get; }
 
  [RotationAxes](VM.RotationAxes.md)
 
-### RotationType
+### <a id="VM_IOrientationBase_RotationType"></a> RotationType
 
 ```python
 RotationTypes RotationType { get; }
@@ -49,7 +49,7 @@ RotationTypes RotationType { get; }
 
  [RotationTypes](VM.RotationTypes.md)
 
-### Value
+### <a id="VM_IOrientationBase_Value"></a> Value
 
 ```python
 OMatrix Value { get; }

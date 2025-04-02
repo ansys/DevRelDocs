@@ -1,4 +1,4 @@
-# Class MotorDesigner.EMForceSection.MethodBase
+#  Class MotorDesigner.EMForceSection.MethodBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MethodBase\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MethodBase__ctor"></a> MethodBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection.MethodBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -111,7 +111,7 @@ public MethodBase()
 
 ## Properties
 
-### RadialSpline
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MethodBase_RadialSpline"></a> RadialSpline
 
 Gets or sets the radial spline.
 
@@ -123,7 +123,7 @@ public Spline RadialSpline { get; set; }
 
  Spline
 
-### Scale
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MethodBase_Scale"></a> Scale
 
 Gets or sets the scale.
 
@@ -135,7 +135,7 @@ public Scale Scale { get; set; }
 
  [Scale](VM.Managed.DAFUL.GearTrain.Force.MoterEM.Scale.md)
 
-### TangentialSpline
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MethodBase_TangentialSpline"></a> TangentialSpline
 
 Gets or sets the tangential spline.
 
@@ -147,7 +147,7 @@ public Spline TangentialSpline { get; set; }
 
  Spline
 
-### TypeOfGeometryCreation
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MethodBase_TypeOfGeometryCreation"></a> TypeOfGeometryCreation
 
 Gets the geometry creation type.
 
@@ -161,7 +161,7 @@ public abstract MotorDesigner.GeometryCreationType TypeOfGeometryCreation { get;
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_MethodBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -174,5 +174,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

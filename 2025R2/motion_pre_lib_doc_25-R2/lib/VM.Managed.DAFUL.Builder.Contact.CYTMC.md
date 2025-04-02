@@ -1,4 +1,4 @@
-# Class CYTMC
+#  Class CYTMC
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -53,7 +53,7 @@ BuilderBase<CYTMC\>.ErrorMessage
 
 ## Constructors
 
-### CYTMC\(\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_CYTMC__ctor"></a> CYTMC\(\)
 
 ```csharp
 public CYTMC()
@@ -61,7 +61,7 @@ public CYTMC()
 
 ## Properties
 
-### ActionGeometry
+### <a id="VM_Managed_DAFUL_Builder_Contact_CYTMC_ActionGeometry"></a> ActionGeometry
 
 ```csharp
 public ObjectBase ActionGeometry { get; }
@@ -71,7 +71,7 @@ public ObjectBase ActionGeometry { get; }
 
  ObjectBase
 
-### BaseCurveset
+### <a id="VM_Managed_DAFUL_Builder_Contact_CYTMC_BaseCurveset"></a> BaseCurveset
 
 ```csharp
 public string[] BaseCurveset { get; set; }
@@ -81,7 +81,7 @@ public string[] BaseCurveset { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### BottomPosition
+### <a id="VM_Managed_DAFUL_Builder_Contact_CYTMC_BottomPosition"></a> BottomPosition
 
 ```csharp
 public PointBase BottomPosition { get; }
@@ -91,7 +91,7 @@ public PointBase BottomPosition { get; }
 
  PointBase
 
-### Radius
+### <a id="VM_Managed_DAFUL_Builder_Contact_CYTMC_Radius"></a> Radius
 
 ```csharp
 public Variable Radius { get; set; }
@@ -101,7 +101,7 @@ public Variable Radius { get; set; }
 
  Variable
 
-### TopPosition
+### <a id="VM_Managed_DAFUL_Builder_Contact_CYTMC_TopPosition"></a> TopPosition
 
 ```csharp
 public PointBase TopPosition { get; }
@@ -113,7 +113,7 @@ public PointBase TopPosition { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_CYTMC_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -128,5 +128,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

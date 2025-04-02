@@ -1,4 +1,4 @@
-# Class GetPointAndDirectionFromFacetOp
+#  Class GetPointAndDirectionFromFacetOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### GetPointAndDirectionFromFacetOp\(Face, FacetOption, VectorBase, VectorBase\)
+### <a id="VM_Managed_CAD_GetPointAndDirectionFromFacetOp__ctor_VM_Managed_CAD_Face_VM_Models_Pre_FacetOption_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> GetPointAndDirectionFromFacetOp\(Face, FacetOption, VectorBase, VectorBase\)
 
 ```csharp
 public GetPointAndDirectionFromFacetOp(Face face, FacetOption options, VectorBase vecPoint, VectorBase vecDirection)
@@ -95,7 +95,7 @@ public GetPointAndDirectionFromFacetOp(Face face, FacetOption options, VectorBas
 
 ## Properties
 
-### Direction
+### <a id="VM_Managed_CAD_GetPointAndDirectionFromFacetOp_Direction"></a> Direction
 
 Gets the direction.
 
@@ -107,7 +107,7 @@ public VectorBase Direction { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### Name
+### <a id="VM_Managed_CAD_GetPointAndDirectionFromFacetOp_Name"></a> Name
 
 Gets the name.
 
@@ -119,7 +119,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Point
+### <a id="VM_Managed_CAD_GetPointAndDirectionFromFacetOp_Point"></a> Point
 
 Gets the point.
 
@@ -131,7 +131,7 @@ public VectorBase Point { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### Result
+### <a id="VM_Managed_CAD_GetPointAndDirectionFromFacetOp_Result"></a> Result
 
 Gets the result.
 
@@ -145,12 +145,11 @@ public bool Result { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_CAD_GetPointAndDirectionFromFacetOp_Execute"></a> Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
-
 

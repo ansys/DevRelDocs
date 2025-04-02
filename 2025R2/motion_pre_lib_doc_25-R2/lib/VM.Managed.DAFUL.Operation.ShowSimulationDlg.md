@@ -1,4 +1,4 @@
-# Class ShowSimulationDlg
+#  Class ShowSimulationDlg
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -100,7 +100,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ShowSimulationDlg\(Document\)
+### <a id="VM_Managed_DAFUL_Operation_ShowSimulationDlg__ctor_VM_Managed_Document_"></a> ShowSimulationDlg\(Document\)
 
 ```csharp
 public ShowSimulationDlg(Document doc)
@@ -110,7 +110,7 @@ public ShowSimulationDlg(Document doc)
 
 `doc` Document
 
-### ShowSimulationDlg\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_ShowSimulationDlg__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowSimulationDlg\(JournalParameter\)
 
 ```csharp
 public ShowSimulationDlg(JournalParameter jp)
@@ -122,7 +122,7 @@ public ShowSimulationDlg(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_ShowSimulationDlg_Name"></a> Name
 
 Gets the operation name.
 
@@ -136,7 +136,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_ShowSimulationDlg_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -144,7 +144,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### ExecuteImpl\(\)
+### <a id="VM_Managed_DAFUL_Operation_ShowSimulationDlg_ExecuteImpl"></a> ExecuteImpl\(\)
 
 Executes [implementation].
 
@@ -152,7 +152,7 @@ Executes [implementation].
 protected override void ExecuteImpl()
 ```
 
-### SimulationRunImpl\(bool\)
+### <a id="VM_Managed_DAFUL_Operation_ShowSimulationDlg_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
 
 Simulations the run [implementation].
 
@@ -165,5 +165,4 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> [write DFG].
-
 

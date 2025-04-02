@@ -1,4 +1,4 @@
-# Interface IHasPlacing
+#  Interface IHasPlacing
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface IHasPlacing
 
 ## Properties
 
-### Paths
+### <a id="VM_Managed_DAFUL_IHasPlacing_Paths"></a> Paths
 
 Gets the paths.
 
@@ -29,7 +29,7 @@ InstanceContainer[] Paths { get; }
 
  InstanceContainer\[\]
 
-### Placing
+### <a id="VM_Managed_DAFUL_IHasPlacing_Placing"></a> Placing
 
 Gets the placing.
 
@@ -40,5 +40,4 @@ ObjectBase Placing { get; }
 #### Property Value
 
  ObjectBase
-
 

@@ -1,4 +1,4 @@
-# Enum StepState
+#  Enum StepState
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -16,5 +16,4 @@ public enum StepState
 `NeedToUpdate = 2` 
 
 `Unknown = 0` 
-
 

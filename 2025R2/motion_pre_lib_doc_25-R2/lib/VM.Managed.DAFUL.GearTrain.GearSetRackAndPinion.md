@@ -1,4 +1,4 @@
-# Class GearSetRackAndPinion
+#  Class GearSetRackAndPinion
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -264,7 +264,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearSetRackAndPinion\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetRackAndPinion__ctor"></a> GearSetRackAndPinion\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetRackAndPinion" data-throw-if-not-resolved="false"></xref> class.
 
@@ -272,7 +272,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSet
 public GearSetRackAndPinion()
 ```
 
-### GearSetRackAndPinion\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetRackAndPinion__ctor_System_String_"></a> GearSetRackAndPinion\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearSetRackAndPinion" data-throw-if-not-resolved="false"></xref> class.
 
@@ -288,7 +288,7 @@ Name of the string.
 
 ## Properties
 
-### AddToShaft
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetRackAndPinion_AddToShaft"></a> AddToShaft
 
 Gets the flag whether this instance add to shaft or not.
 
@@ -300,7 +300,7 @@ public override bool AddToShaft { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Extension
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetRackAndPinion_Extension"></a> Extension
 
 Gets the extension.
 
@@ -312,7 +312,7 @@ protected override string Extension { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TypeFileName
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetRackAndPinion_TypeFileName"></a> TypeFileName
 
 Gets the name of the type file.
 
@@ -326,7 +326,7 @@ public override string TypeFileName { get; }
 
 ## Methods
 
-### CreateGearGeometry\(string, int, GearShapeBase\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetRackAndPinion_CreateGearGeometry_System_String_System_Int32_VM_Managed_DAFUL_GearTrain_GearShapeBase___"></a> CreateGearGeometry\(string, int, GearShapeBase\[\]\)
 
 Create Gear Geometry.
 
@@ -348,7 +348,7 @@ The No. of gear
 
 The gear shape geometry
 
-### GetResultAfterCalculateBeamStiffness\(string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetRackAndPinion_GetResultAfterCalculateBeamStiffness_System_String___"></a> GetResultAfterCalculateBeamStiffness\(string\[\]\)
 
 Get result after beam stiffness calculate.
 
@@ -366,7 +366,7 @@ The calculated results
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### Meshing\(List<IGearBuilder\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetRackAndPinion_Meshing_System_Collections_Generic_List_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder__"></a> Meshing\(List<IGearBuilder\>\)
 
 Meshing the gears.
 
@@ -384,7 +384,7 @@ The gear builder list.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetRackAndPinion_OnPostBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPostBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Post build in Special
 
@@ -406,7 +406,7 @@ The document
 
 The input array
 
-### OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearSetRackAndPinion_OnPreBuildSpecial_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_VM_Managed_Document_System_String___"></a> OnPreBuildSpecial\(PropertyGearSetBase, Document, string\[\]\)
 
 Pre build in Special
 
@@ -427,5 +427,4 @@ The document
 `InputArray` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The input array
-
 

@@ -1,4 +1,4 @@
-# Class BuilderParamLinkV
+#  Class BuilderParamLinkV
 
 Namespace: [VM.CAD.Builders.Links](VM.CAD.Builders.Links.md)  
 Assembly: VM.CAD.Builders.Links.dll  
@@ -52,7 +52,7 @@ BuilderParamBase.Transparency
 
 ## Constructors
 
-### BuilderParamLinkV\(\)
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV__ctor"></a> BuilderParamLinkV\(\)
 
 ```csharp
 public BuilderParamLinkV()
@@ -60,7 +60,7 @@ public BuilderParamLinkV()
 
 ## Properties
 
-### BushBossRadius
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV_BushBossRadius"></a> BushBossRadius
 
 ```csharp
 public double BushBossRadius { get; set; }
@@ -70,7 +70,7 @@ public double BushBossRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### BushInnerDiameter
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV_BushInnerDiameter"></a> BushInnerDiameter
 
 ```csharp
 public double BushInnerDiameter { get; set; }
@@ -80,7 +80,7 @@ public double BushInnerDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### BushOuterDiameter
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV_BushOuterDiameter"></a> BushOuterDiameter
 
 ```csharp
 public double BushOuterDiameter { get; set; }
@@ -90,7 +90,7 @@ public double BushOuterDiameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### BushWidth
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV_BushWidth"></a> BushWidth
 
 ```csharp
 public double BushWidth { get; set; }
@@ -100,7 +100,7 @@ public double BushWidth { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ChamferLength1
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV_ChamferLength1"></a> ChamferLength1
 
 ```csharp
 public double ChamferLength1 { get; set; }
@@ -110,7 +110,7 @@ public double ChamferLength1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ChamferLength2
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV_ChamferLength2"></a> ChamferLength2
 
 ```csharp
 public double ChamferLength2 { get; set; }
@@ -120,7 +120,7 @@ public double ChamferLength2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### LinkDepth1
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV_LinkDepth1"></a> LinkDepth1
 
 ```csharp
 public double LinkDepth1 { get; set; }
@@ -130,7 +130,7 @@ public double LinkDepth1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### LinkDepth2
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV_LinkDepth2"></a> LinkDepth2
 
 ```csharp
 public double LinkDepth2 { get; set; }
@@ -140,7 +140,7 @@ public double LinkDepth2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### LinkDistance1
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV_LinkDistance1"></a> LinkDistance1
 
 ```csharp
 public double LinkDistance1 { get; set; }
@@ -150,7 +150,7 @@ public double LinkDistance1 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### LinkDistance2
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV_LinkDistance2"></a> LinkDistance2
 
 ```csharp
 public double LinkDistance2 { get; set; }
@@ -160,7 +160,7 @@ public double LinkDistance2 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### LinkDistance3
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV_LinkDistance3"></a> LinkDistance3
 
 ```csharp
 public double LinkDistance3 { get; set; }
@@ -170,7 +170,7 @@ public double LinkDistance3 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### LinkDistance4
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV_LinkDistance4"></a> LinkDistance4
 
 ```csharp
 public double LinkDistance4 { get; set; }
@@ -180,7 +180,7 @@ public double LinkDistance4 { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### PinBossRadius
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV_PinBossRadius"></a> PinBossRadius
 
 ```csharp
 public double PinBossRadius { get; set; }
@@ -192,12 +192,11 @@ public double PinBossRadius { get; set; }
 
 ## Methods
 
-### FinalizeParameter\(\)
+### <a id="VM_CAD_Builders_Links_BuilderParamLinkV_FinalizeParameter"></a> FinalizeParameter\(\)
 
 Finalize additional parameter setup.
 
 ```csharp
 public override void FinalizeParameter()
 ```
-
 

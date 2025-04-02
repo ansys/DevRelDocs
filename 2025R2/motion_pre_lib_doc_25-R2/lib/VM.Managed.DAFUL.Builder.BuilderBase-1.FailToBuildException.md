@@ -1,4 +1,4 @@
-# Class BuilderBase<T\>.FailToBuildException
+#  Class BuilderBase<T\>.FailToBuildException
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -21,7 +21,7 @@ public class BuilderBase<T>.FailToBuildException : Exception
 
 ## Constructors
 
-### FailToBuildException\(Type, Exception\)
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_FailToBuildException__ctor_System_Type_System_Exception_"></a> FailToBuildException\(Type, Exception\)
 
 ```csharp
 public FailToBuildException(Type obType, Exception inner)
@@ -33,7 +33,7 @@ public FailToBuildException(Type obType, Exception inner)
 
 `inner` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
-### FailToBuildException\(Type\)
+### <a id="VM_Managed_DAFUL_Builder_BuilderBase_1_FailToBuildException__ctor_System_Type_"></a> FailToBuildException\(Type\)
 
 ```csharp
 public FailToBuildException(Type obType)
@@ -42,5 +42,4 @@ public FailToBuildException(Type obType)
 #### Parameters
 
 `obType` [Type](https://learn.microsoft.com/dotnet/api/system.type)
-
 

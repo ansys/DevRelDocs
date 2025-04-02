@@ -1,4 +1,4 @@
-# Class Group<TGroup, TItem\>
+#  Class Group<TGroup, TItem\>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -32,7 +32,7 @@ The type of the item.
 
 ## Constructors
 
-### Group\(\)
+### <a id="VM_Managed_DAFUL_Pre_Group_2__ctor"></a> Group\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.Group%602" data-throw-if-not-resolved="false"></xref> class.
 
@@ -40,7 +40,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.Group%602" da
 public Group()
 ```
 
-### Group\(string\)
+### <a id="VM_Managed_DAFUL_Pre_Group_2__ctor_System_String_"></a> Group\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.Group%602" data-throw-if-not-resolved="false"></xref> class.
 
@@ -56,7 +56,7 @@ Name of group.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Pre_Group_2_Name"></a> Name
 
 Gets or sets the name.
 
@@ -68,7 +68,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SubGroups
+### <a id="VM_Managed_DAFUL_Pre_Group_2_SubGroups"></a> SubGroups
 
 Gets or sets the sub groups.
 
@@ -80,7 +80,7 @@ public List<TGroup> SubGroups { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<TGroup\>
 
-### SubItems
+### <a id="VM_Managed_DAFUL_Pre_Group_2_SubItems"></a> SubItems
 
 Gets or sets the sub items.
 
@@ -94,12 +94,11 @@ public List<TItem> SubItems { get; set; }
 
 ## Methods
 
-### Initialize\(\)
+### <a id="VM_Managed_DAFUL_Pre_Group_2_Initialize"></a> Initialize\(\)
 
 Initializes this instance.
 
 ```csharp
 public virtual void Initialize()
 ```
-
 

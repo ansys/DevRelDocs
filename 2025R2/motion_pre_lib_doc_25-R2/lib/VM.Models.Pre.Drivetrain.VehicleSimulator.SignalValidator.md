@@ -1,4 +1,4 @@
-# Class SignalValidator
+#  Class SignalValidator
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -58,10 +58,9 @@ AbstractValidator<Signal\>.RuleLevelCascadeMode
 
 ## Constructors
 
-### SignalValidator\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SignalValidator__ctor"></a> SignalValidator\(\)
 
 ```csharp
 public SignalValidator()
 ```
-
 

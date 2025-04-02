@@ -1,4 +1,4 @@
-# Class NodalMassCalculationException
+#  Class NodalMassCalculationException
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -23,7 +23,7 @@ public class NodalMassCalculationException : Exception
 
 ## Constructors
 
-### NodalMassCalculationException\(string\)
+### <a id="VM_Managed_DAFUL_FE_NodalMassCalculationException__ctor_System_String_"></a> NodalMassCalculationException\(string\)
 
 ```csharp
 public NodalMassCalculationException(string strMessage)
@@ -32,5 +32,4 @@ public NodalMassCalculationException(string strMessage)
 #### Parameters
 
 `strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

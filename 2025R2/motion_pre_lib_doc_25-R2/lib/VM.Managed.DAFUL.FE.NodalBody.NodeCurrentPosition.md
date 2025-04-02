@@ -1,4 +1,4 @@
-# Struct NodalBody.NodeCurrentPosition
+#  Struct NodalBody.NodeCurrentPosition
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +11,7 @@ public struct NodalBody.NodeCurrentPosition
 
 ## Fields
 
-### X
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentPosition_X"></a> X
 
 The X coordinate.
 
@@ -23,7 +23,7 @@ public double X
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentPosition_Y"></a> Y
 
 The Y coordinate.
 
@@ -35,7 +35,7 @@ public double Y
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Z
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentPosition_Z"></a> Z
 
 The Z coordinate.
 
@@ -46,5 +46,4 @@ public double Z
 #### Field Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

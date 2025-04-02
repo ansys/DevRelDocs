@@ -1,4 +1,4 @@
-# Class Damper
+#  Class Damper
 
 Namespace: [VM.Managed.Symmetric.Car.Force](VM.Managed.Symmetric.Car.Force.md)  
 Assembly: VMSymCar.dll  
@@ -34,7 +34,7 @@ Named<Damper\>.SymmetricManager
 
 ## Constructors
 
-### Damper\(\)
+### <a id="VM_Managed_Symmetric_Car_Force_Damper__ctor"></a> Damper\(\)
 
 ```csharp
 public Damper()
@@ -42,7 +42,7 @@ public Damper()
 
 ## Methods
 
-### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_Car_Force_Damper_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -75,5 +75,4 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

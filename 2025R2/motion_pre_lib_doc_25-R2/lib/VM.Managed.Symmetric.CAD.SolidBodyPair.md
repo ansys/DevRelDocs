@@ -1,4 +1,4 @@
-# Class SolidBodyPair
+#  Class SolidBodyPair
 
 Namespace: [VM.Managed.Symmetric.CAD](VM.Managed.Symmetric.CAD.md)  
 Assembly: VMSymBase.dll  
@@ -35,7 +35,7 @@ ISymmetricUpdater
 
 ## Constructors
 
-### SolidBodyPair\(\)
+### <a id="VM_Managed_Symmetric_CAD_SolidBodyPair__ctor"></a> SolidBodyPair\(\)
 
 ```csharp
 public SolidBodyPair()
@@ -43,7 +43,7 @@ public SolidBodyPair()
 
 ## Methods
 
-### Initialize\(ISymmetricManager\)
+### <a id="VM_Managed_Symmetric_CAD_SolidBodyPair_Initialize_VM_Managed_Symmetric_ISymmetricManager_"></a> Initialize\(ISymmetricManager\)
 
 Initialize the symmetric objects.
 
@@ -63,7 +63,7 @@ The Symmetric Manager.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_CAD_SolidBodyPair_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -99,7 +99,7 @@ update document.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### UpdateBuild\(Builder, Builder, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_CAD_SolidBodyPair_UpdateBuild_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateBuild\(Builder, Builder, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -132,5 +132,4 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

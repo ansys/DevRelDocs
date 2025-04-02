@@ -1,4 +1,4 @@
-# Enum AssemblyDocInfo.AssemblyType
+#  Enum AssemblyDocInfo.AssemblyType
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -32,7 +32,6 @@ Use part.
 `Subsystem = 0` 
 
 Use Subsystem.
-
 
 
 

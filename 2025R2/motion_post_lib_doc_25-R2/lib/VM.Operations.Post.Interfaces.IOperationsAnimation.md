@@ -1,4 +1,4 @@
-# Interface IOperationsAnimation
+#  Interface IOperationsAnimation
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -156,7 +156,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### AnalysisResultType
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_AnalysisResultType"></a> AnalysisResultType
 
 Gets the type of analysis result for the currently created animation view.
 
@@ -178,7 +178,7 @@ The AnalysisResultType property is used to determine the type of analysis result
 The available options are:
 <ul><li><xref href="VM.Models.AnalysisResultType.Dynamics" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.AnalysisResultType.Eigenvalue" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.AnalysisResultType.Initial" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.AnalysisResultType.LinearStatics" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.AnalysisResultType.Statics" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.AnalysisResultType.Thermal" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.AnalysisResultType.ModeContribution" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.AnalysisResultType.Nothing" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### BottomColor
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_BottomColor"></a> BottomColor
 
 Gets or sets the bottom color of the view's background.
 
@@ -199,7 +199,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 The <xref href="VM.Operations.Post.Interfaces.IOperationsAnimation.BottomColor" data-throw-if-not-resolved="false"></xref> property allows you to set the bottom color of the view's background.
 In the UI, this property is represented under the "Background" category with the property name "Bottom Color".
 
-### DocumentFilePath
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_DocumentFilePath"></a> DocumentFilePath
 
 Gets the file path that contains the information of the simulation results.
 
@@ -220,7 +220,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 Use this property to retrieve the location of the file containing the simulation results.
 The file path is read-only and is determined by the simulation process.
 
-### IsFollowingCameraActive
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_IsFollowingCameraActive"></a> IsFollowingCameraActive
 
 Gets or sets a value that activates the following camera.
 
@@ -242,7 +242,7 @@ This property enables or disables the camera's tracking behavior. When set to <c
 the camera's viewpoint will follow the position and orientation of the target body during animation.
 If set to <code>false</code>, the camera will remain stationary and will not track the target.
 
-### IsFollowingRotXAxis
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_IsFollowingRotXAxis"></a> IsFollowingRotXAxis
 
 Gets or sets a value that determines whether the component follows the orientation of the target along the X-axis.
 
@@ -264,7 +264,7 @@ This property controls whether the component tracks the target's orientation on 
 When set to <code>true</code>, the component will adjust its orientation to match the target's X-axis rotation.
 When set to <code>false</code>, the component will not follow the X-axis rotation of the target.
 
-### IsFollowingRotYAxis
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_IsFollowingRotYAxis"></a> IsFollowingRotYAxis
 
 Gets or sets a value that determines whether the component follows the orientation of the target along the Y-axis.
 
@@ -286,7 +286,7 @@ This property controls whether the component tracks the target's orientation on 
 When set to <code>true</code>, the component will adjust its orientation to match the target's Y-axis rotation.
 When set to <code>false</code>, the component will not follow the Y-axis rotation of the target.
 
-### IsFollowingRotZAxis
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_IsFollowingRotZAxis"></a> IsFollowingRotZAxis
 
 Gets or sets a value that determines whether the component follows the orientation of the target along the Z-axis.
 
@@ -308,7 +308,7 @@ This property controls whether the component tracks the target's orientation on 
 When set to <code>true</code>, the component will adjust its orientation to match the target's Z-axis rotation.
 When set to <code>false</code>, the component will not follow the Z-axis rotation of the target.
 
-### IsFollowingXAxis
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_IsFollowingXAxis"></a> IsFollowingXAxis
 
 Gets or sets a value that determines whether the component follows the position of the target along the X-axis.
 
@@ -330,7 +330,7 @@ This property controls whether the component tracks the target's position specif
 When set to <code>true</code>, the component will move to match the target's X position.
 When set to <code>false</code>, the component will not follow the X position of the target.
 
-### IsFollowingYAxis
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_IsFollowingYAxis"></a> IsFollowingYAxis
 
 Gets or sets a value that determines whether the component follows the position of the target along the Y-axis.
 
@@ -352,7 +352,7 @@ This property controls whether the component tracks the target's position specif
 When set to <code>true</code>, the component will move to match the target's Y position.
 When set to <code>false</code>, the component will not follow the Y position of the target.
 
-### IsFollowingZAxis
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_IsFollowingZAxis"></a> IsFollowingZAxis
 
 Gets or sets a value that determines whether the component follows the position of the target along the Z-axis.
 
@@ -374,7 +374,7 @@ This property controls whether the component tracks the target's position specif
 When set to <code>true</code>, the component will move to match the target's Z position.
 When set to <code>false</code>, the component will not follow the Z position of the target.
 
-### IsVisibleLogo
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_IsVisibleLogo"></a> IsVisibleLogo
 
 Gets or sets a value indicating whether the logo is visible.
 
@@ -395,7 +395,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 This flag determines whether the logo is shown or hidden.
 In the UI, this property is represented under the "Logo" category with the property name "Visible".
 
-### IsVisibleNavigationCube
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_IsVisibleNavigationCube"></a> IsVisibleNavigationCube
 
 Gets or sets a value indicating whether the navigation cube is visible.
 
@@ -416,7 +416,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 This flag determines whether the navigation cube is shown or hidden.
 In the UI, this property is represented under the "Navigation Cube" category with the property name "Visible".
 
-### IsVisibleStateInfo
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_IsVisibleStateInfo"></a> IsVisibleStateInfo
 
 Gets or sets a value indicating whether the state information is visible.
 
@@ -437,7 +437,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 This flag determines whether the state information is shown or hidden.
 In the UI, this property is represented under the "StateInfo" category with the property name "Visible".
 
-### LogoHeight
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_LogoHeight"></a> LogoHeight
 
 Gets or sets the height of the logo image.
 
@@ -458,7 +458,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 This property allows you to set the height of the logo image.
 In the UI, this property is represented under the "Logo" category with the property name "Height".
 
-### LogoPath
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_LogoPath"></a> LogoPath
 
 Gets or sets the file path of the logo image.
 
@@ -479,7 +479,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 This property allows you to set the file path of the logo image.
 In the UI, this property is represented under the "Logo" category with the property name "File Path".
 
-### LogoPosition
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_LogoPosition"></a> LogoPosition
 
 Gets or sets the position of the logo.
 
@@ -501,7 +501,7 @@ This property allows you to set the position of the logo. The available options 
 <ul><li><xref href="VM.Models.Post.Layout.TOP_LEFT" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.Layout.TOP_RIGHT" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.Layout.BOTTOM_LEFT" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.Layout.BOTTOM_RIGHT" data-throw-if-not-resolved="false"></xref></li></ul>
 In the UI, this property is represented under the "Logo" category with the property name "Layout".
 
-### LogoWidth
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_LogoWidth"></a> LogoWidth
 
 Gets or sets the width of the logo image.
 
@@ -522,7 +522,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 This property allows you to set the width of the logo image.
 In the UI, this property is represented under the "Logo" category with the property name "Width".
 
-### NavigationCubePosition
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_NavigationCubePosition"></a> NavigationCubePosition
 
 Gets or sets the position of the navigation cube.
 
@@ -544,7 +544,7 @@ This property allows you to set the position of the navigation cube. The availab
 <ul><li><xref href="VM.Models.Post.Layout.TOP_LEFT" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.Layout.TOP_RIGHT" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.Layout.BOTTOM_LEFT" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.Layout.BOTTOM_RIGHT" data-throw-if-not-resolved="false"></xref></li></ul>
 In the UI, this property is represented under the "Navigation Cube" category with the property name "Layout".
 
-### Opacity
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_Opacity"></a> Opacity
 
 Gets or sets the opacity of the logo.
 
@@ -565,7 +565,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 This property allows you to set the opacity of the logo. Only values between 0 and 100 are valid.
 In the UI, this property is represented under the "Logo" category with the property name "Transparency".
 
-### StateInfoPosition
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_StateInfoPosition"></a> StateInfoPosition
 
 Gets or sets the position of the state information.
 
@@ -587,7 +587,7 @@ This property allows you to set the position of the state information. The avail
 <ul><li><xref href="VM.Models.Post.Layout.TOP_LEFT" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.Layout.TOP_RIGHT" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.Layout.BOTTOM_LEFT" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.Layout.BOTTOM_RIGHT" data-throw-if-not-resolved="false"></xref></li></ul>
 In the UI, this property is represented under the "StateInfo" category with the property name "Layout".
 
-### TextColorStateInfo
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_TextColorStateInfo"></a> TextColorStateInfo
 
 Gets or sets the font color of the state information.
 
@@ -608,7 +608,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 This property allows you to set the font color of the state information.
 In the UI, this property is represented under the "StateInfo" category with the property name "Font Color".
 
-### TopColor
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_TopColor"></a> TopColor
 
 Gets or sets the top color of the view's background.
 
@@ -629,7 +629,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 The <xref href="VM.Operations.Post.Interfaces.IOperationsAnimation.TopColor" data-throw-if-not-resolved="false"></xref> property allows you to set the top color of the view's background.
 In the UI, this property is represented under the "Background" category with the property name "Top Color".
 
-### TransformationType
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_TransformationType"></a> TransformationType
 
 Gets or sets the transformation type that determines the following directions of the camera.
 
@@ -653,7 +653,7 @@ The <xref href="VM.Operations.Post.Interfaces.IOperationsAnimation.Transformatio
 
 ## Methods
 
-### CreateCoordinateSystem\(string, string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_CreateCoordinateSystem_System_String_System_String_"></a> CreateCoordinateSystem\(string, string\)
 
 Creates a coordinate system for analyzing a position on a body.
 
@@ -688,7 +688,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 This method creates a coordinate system with the specified name and assigns it to the given parent entity.
 If the parent entity is not specified, the coordinate system is assigned to the default ground entity.
 
-### CreateSoundPressure\(IList<string\>, IList<string\>, double, double, double, double, double, double, int, int, bool\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_CreateSoundPressure_System_Collections_Generic_IList_System_String__System_Collections_Generic_IList_System_String__System_Double_System_Double_System_Double_System_Double_System_Double_System_Double_System_Int32_System_Int32_System_Boolean_"></a> CreateSoundPressure\(IList<string\>, IList<string\>, double, double, double, double, double, double, int, int, bool\)
 
 Creates sound pressure data based on the Rayleigh Integral for analyzing sound pressure generated by vibrations on the system surface.
 
@@ -756,7 +756,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 
 This method uses the Rayleigh Integral to analyze the sound pressure generated by the vibrations on the system surface.
 
-### GetViewModelByName\(string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_GetViewModelByName_System_String_"></a> GetViewModelByName\(string\)
 
 Retrieves an instance of an entity based on the provided name.
 
@@ -786,7 +786,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 This method searches for an entity with the given name and returns the corresponding instance.
 If no entity with the specified name is found, the method returns <code>null</code>.
 
-### GetViewSpecs\(\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_GetViewSpecs"></a> GetViewSpecs\(\)
 
 Retrieves an array of view specifications corresponding to the number of loaded animation frames.
 
@@ -811,7 +811,7 @@ This method returns an array where each element corresponds to a specific frame 
 allowing for the configuration of the animation camera's position for each frame. If no frames are loaded,
 the method returns <code>null</code>.
 
-### PlayAnimation\(\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_PlayAnimation"></a> PlayAnimation\(\)
 
 Plays the loaded animation frames.
 
@@ -828,7 +828,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 This method starts the playback of the animation frames that have been loaded. If no frames are loaded,
 the method should handle this scenario appropriately, such as by displaying an error message or logging the issue.
 
-### RecordingAnimation\(string, RecordingType, RecordingRangeType, int, IViewSpec\[\]\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_RecordingAnimation_System_String_VM_Models_Post_RecordingType_VM_Models_Post_RecordingRangeType_System_Int32_VM_Operations_Post_Interfaces_IViewSpec___"></a> RecordingAnimation\(string, RecordingType, RecordingRangeType, int, IViewSpec\[\]\)
 
 Records the loaded animation frames to a file.
 
@@ -871,7 +871,7 @@ This method records the loaded animation frames to a specified file format.
 It supports different recording types and range options. The frame rate can be adjusted,
 and custom camera positions for each frame can be set through the <code class="paramref">viewSpecs</code> parameter.
 
-### SetFollowingCameraTarget\(string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_SetFollowingCameraTarget_System_String_"></a> SetFollowingCameraTarget\(string\)
 
 Sets the target body for the camera. The camera's position and orientation will follow those of the target body.
 
@@ -895,7 +895,7 @@ This function allows the camera to track and maintain the same position and orie
 It is useful for situations where the camera needs to follow an object, such as in a third-person perspective or object tracking scenario.
 If the target body is a ResultMarker and its <code>IsVisible</code> property is <code>false</code>, it will automatically be set to <code>true</code> to ensure visibility when being tracked by the camera.
 
-### SetViewSpec\(IViewSpec\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_SetViewSpec_VM_Operations_Post_Interfaces_IViewSpec_"></a> SetViewSpec\(IViewSpec\)
 
 Updates the camera information for the current animation frame position.
 
@@ -917,7 +917,7 @@ For an example that includes this property, see the [Interface IOperationsAnimat
 
 This method updates the camera information for the current position in the animation frames using the provided <code class="paramref">viewSpec</code>.
 
-### StopAnimation\(\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsAnimation_StopAnimation"></a> StopAnimation\(\)
 
 Stops the currently playing animation.
 

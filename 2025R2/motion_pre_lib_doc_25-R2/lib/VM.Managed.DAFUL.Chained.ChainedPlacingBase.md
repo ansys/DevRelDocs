@@ -1,4 +1,4 @@
-# Class ChainedPlacingBase
+#  Class ChainedPlacingBase
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -159,7 +159,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ChainedPlacingBase\(\)
+### <a id="VM_Managed_DAFUL_Chained_ChainedPlacingBase__ctor"></a> ChainedPlacingBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedPlacingBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -167,7 +167,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedPl
 protected ChainedPlacingBase()
 ```
 
-### ChainedPlacingBase\(string, string\)
+### <a id="VM_Managed_DAFUL_Chained_ChainedPlacingBase__ctor_System_String_System_String_"></a> ChainedPlacingBase\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedPlacingBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -185,7 +185,7 @@ Name of the STR proxy.
 
 The STR build info.
 
-### ChainedPlacingBase\(string\)
+### <a id="VM_Managed_DAFUL_Chained_ChainedPlacingBase__ctor_System_String_"></a> ChainedPlacingBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedPlacingBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -201,7 +201,7 @@ Name of the STR.
 
 ## Properties
 
-### Comment
+### <a id="VM_Managed_DAFUL_Chained_ChainedPlacingBase_Comment"></a> Comment
 
 Gets or sets the comment.
 
@@ -213,7 +213,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FullName
+### <a id="VM_Managed_DAFUL_Chained_ChainedPlacingBase_FullName"></a> FullName
 
 Gets the object full name.
 
@@ -225,7 +225,7 @@ public string FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsEnabled
+### <a id="VM_Managed_DAFUL_Chained_ChainedPlacingBase_IsEnabled"></a> IsEnabled
 
 Gets or sets a value indicating whether this is enabled.
 
@@ -237,7 +237,7 @@ public bool IsEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_Chained_ChainedPlacingBase_Name"></a> Name
 
 Gets or sets the object name.
 
@@ -249,7 +249,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NonSymmetricName
+### <a id="VM_Managed_DAFUL_Chained_ChainedPlacingBase_NonSymmetricName"></a> NonSymmetricName
 
 Gets the non-symmetric object name.
 
@@ -261,7 +261,7 @@ public string NonSymmetricName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Paths
+### <a id="VM_Managed_DAFUL_Chained_ChainedPlacingBase_Paths"></a> Paths
 
 Gets the paths.
 
@@ -275,7 +275,7 @@ protected virtual InstanceContainer[] Paths { get; }
 
 ## Methods
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Chained_ChainedPlacingBase_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -295,7 +295,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Chained_ChainedPlacingBase_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the model navigator information impl.
 
@@ -321,7 +321,7 @@ if set to <code>true</code> [b has child].
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)
+### <a id="VM_Managed_DAFUL_Chained_ChainedPlacingBase_SetOldNameWithNewEntity_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)
 
 Change for the new name.
 
@@ -338,5 +338,4 @@ The new object.
 `obOld` ObjectBase
 
 The old object.
-
 

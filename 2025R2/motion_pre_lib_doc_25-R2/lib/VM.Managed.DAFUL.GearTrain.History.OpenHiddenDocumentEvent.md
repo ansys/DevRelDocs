@@ -1,4 +1,4 @@
-# Class OpenHiddenDocumentEvent
+#  Class OpenHiddenDocumentEvent
 
 Namespace: [VM.Managed.DAFUL.GearTrain.History](VM.Managed.DAFUL.GearTrain.History.md)  
 Assembly: VMDGearTrain.dll  
@@ -41,7 +41,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### OpenHiddenDocumentEvent\(object, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_History_OpenHiddenDocumentEvent__ctor_System_Object_System_String_"></a> OpenHiddenDocumentEvent\(object, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.History.OpenHiddenDocumentEvent" data-throw-if-not-resolved="false"></xref> class.
 
@@ -61,7 +61,7 @@ The file path.
 
 ## Methods
 
-### BeforeRedo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_History_OpenHiddenDocumentEvent_BeforeRedo_VM_Managed_History_HistoryEventArgs_"></a> BeforeRedo\(HistoryEventArgs\)
 
 Called before redo by HistoryManager.
 
@@ -75,7 +75,7 @@ protected override void BeforeRedo(HistoryEventArgs args)
 
 The event argument for call this method.
 
-### BeforeUndo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_History_OpenHiddenDocumentEvent_BeforeUndo_VM_Managed_History_HistoryEventArgs_"></a> BeforeUndo\(HistoryEventArgs\)
 
 Called before undo by HistoryManager.
 
@@ -89,7 +89,7 @@ protected override void BeforeUndo(HistoryEventArgs args)
 
 The event argument for call this method.
 
-### OpenHiddenDocument\(object, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_History_OpenHiddenDocumentEvent_OpenHiddenDocument_System_Object_System_String_"></a> OpenHiddenDocument\(object, string\)
 
 Open hidden document.
 
@@ -107,7 +107,7 @@ The object.
 
 The file path.
 
-### Redo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_History_OpenHiddenDocumentEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
 
 Redo this event.
 
@@ -121,7 +121,7 @@ protected override void Redo(HistoryEventArgs args)
 
 The event argument for redo.
 
-### Undo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_History_OpenHiddenDocumentEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
 
 Undo this event.
 
@@ -134,5 +134,4 @@ protected override void Undo(HistoryEventArgs args)
 `args` HistoryEventArgs
 
 The event argument for undo.
-
 

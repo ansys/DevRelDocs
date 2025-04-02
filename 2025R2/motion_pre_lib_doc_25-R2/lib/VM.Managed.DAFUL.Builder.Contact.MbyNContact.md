@@ -1,4 +1,4 @@
-# Class MbyNContact
+#  Class MbyNContact
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -58,7 +58,7 @@ BuilderBase<MbyNContact\>.ErrorMessage
 
 ## Constructors
 
-### MbyNContact\(\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_MbyNContact__ctor"></a> MbyNContact\(\)
 
 ```csharp
 public MbyNContact()
@@ -66,7 +66,7 @@ public MbyNContact()
 
 ## Properties
 
-### ActionList
+### <a id="VM_Managed_DAFUL_Builder_Contact_MbyNContact_ActionList"></a> ActionList
 
 ```csharp
 public string[] ActionList { get; set; }
@@ -76,7 +76,7 @@ public string[] ActionList { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### BaseList
+### <a id="VM_Managed_DAFUL_Builder_Contact_MbyNContact_BaseList"></a> BaseList
 
 ```csharp
 public string[] BaseList { get; set; }
@@ -86,7 +86,7 @@ public string[] BaseList { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### IsAllowSwitch
+### <a id="VM_Managed_DAFUL_Builder_Contact_MbyNContact_IsAllowSwitch"></a> IsAllowSwitch
 
 ```csharp
 protected override bool IsAllowSwitch { get; }
@@ -98,7 +98,7 @@ protected override bool IsAllowSwitch { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_MbyNContact_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -113,5 +113,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

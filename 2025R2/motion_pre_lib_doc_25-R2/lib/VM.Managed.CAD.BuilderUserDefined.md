@@ -1,4 +1,4 @@
-# Class BuilderUserDefined
+#  Class BuilderUserDefined
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -183,7 +183,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderUserDefined\(string\)
+### <a id="VM_Managed_CAD_BuilderUserDefined__ctor_System_String_"></a> BuilderUserDefined\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderUserDefined" data-throw-if-not-resolved="false"></xref> class
 
@@ -197,7 +197,7 @@ public BuilderUserDefined(string strBuildXml)
 
 The build xml.
 
-### BuilderUserDefined\(\)
+### <a id="VM_Managed_CAD_BuilderUserDefined__ctor"></a> BuilderUserDefined\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderUserDefined" data-throw-if-not-resolved="false"></xref> class
 
@@ -207,7 +207,7 @@ public BuilderUserDefined()
 
 ## Properties
 
-### BuildXml
+### <a id="VM_Managed_CAD_BuilderUserDefined_BuildXml"></a> BuildXml
 
 Gets or sets the build xml.
 
@@ -221,7 +221,7 @@ public string BuildXml { get; set; }
 
 ## Methods
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_BuilderUserDefined_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -231,7 +231,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_BuilderUserDefined_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -240,5 +240,4 @@ protected override void FillParameter(BuilderParamBase parameter)
 #### Parameters
 
 `parameter` BuilderParamBase
-
 

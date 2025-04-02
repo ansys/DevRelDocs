@@ -1,4 +1,4 @@
-# Class ArrudaBoyce
+#  Class ArrudaBoyce
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -190,7 +190,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ArrudaBoyce\(\)
+### <a id="VM_Managed_Material_ArrudaBoyce__ctor"></a> ArrudaBoyce\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.ArrudaBoyce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -198,7 +198,7 @@ Initializes a new instance of the <xref href="VM.Managed.Material.ArrudaBoyce" d
 public ArrudaBoyce()
 ```
 
-### ArrudaBoyce\(string\)
+### <a id="VM_Managed_Material_ArrudaBoyce__ctor_System_String_"></a> ArrudaBoyce\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.ArrudaBoyce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -214,7 +214,7 @@ Name of the arruda-boyce material.
 
 ## Properties
 
-### D
+### <a id="VM_Managed_Material_ArrudaBoyce_D"></a> D
 
 Gets or sets the D.
 
@@ -226,7 +226,7 @@ public ExpressionValueVariable D { get; set; }
 
  ExpressionValueVariable
 
-### Lamda
+### <a id="VM_Managed_Material_ArrudaBoyce_Lamda"></a> Lamda
 
 Gets or sets the lamda.
 
@@ -238,7 +238,7 @@ public ExpressionValueVariable Lamda { get; set; }
 
  ExpressionValueVariable
 
-### Mu
+### <a id="VM_Managed_Material_ArrudaBoyce_Mu"></a> Mu
 
 Gets or sets the mu.
 
@@ -252,7 +252,7 @@ public ExpressionValueVariable Mu { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_Material_ArrudaBoyce_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -266,7 +266,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_Material_ArrudaBoyce_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -280,7 +280,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_Material_ArrudaBoyce_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -293,5 +293,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

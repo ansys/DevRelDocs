@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.CPlacingConnector
+#  Namespace VM.Managed.DAFUL.CPlacingConnector
 
 ### Namespaces
 
@@ -115,5 +115,4 @@ This class is to represent the segment to segment.
  [ICPlacingEntity](VM.Managed.DAFUL.CPlacingConnector.ICPlacingEntity.md)
 
 cplacing entity interface
-
 

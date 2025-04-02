@@ -1,4 +1,4 @@
-# Class MultipleContactBase
+#  Class MultipleContactBase
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -227,7 +227,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MultipleContactBase\(\)
+### <a id="VM_Managed_DAFUL_Contact_MultipleContactBase__ctor"></a> MultipleContactBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MultipleContactBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -235,7 +235,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MultipleC
 public MultipleContactBase()
 ```
 
-### MultipleContactBase\(string\)
+### <a id="VM_Managed_DAFUL_Contact_MultipleContactBase__ctor_System_String_"></a> MultipleContactBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.MultipleContactBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -251,7 +251,7 @@ Name of the contact.
 
 ## Properties
 
-### MultiContactType
+### <a id="VM_Managed_DAFUL_Contact_MultipleContactBase_MultiContactType"></a> MultiContactType
 
 Gets or sets the contact type.
 
@@ -263,7 +263,7 @@ public MultiContactType MultiContactType { get; set; }
 
  [MultiContactType](VM.Managed.DAFUL.Contact.MultiContactType.md)
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Contact_MultipleContactBase_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -277,7 +277,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### IsUseContactType\(IContactable, IContactable, MultiContactType\)
+### <a id="VM_Managed_DAFUL_Contact_MultipleContactBase_IsUseContactType_VM_Managed_DAFUL_IContactable_VM_Managed_DAFUL_IContactable_VM_Managed_DAFUL_Contact_MultiContactType_"></a> IsUseContactType\(IContactable, IContactable, MultiContactType\)
 
 Determines whether the specified object is contact.
 
@@ -305,7 +305,7 @@ The type.
 
 <code>true</code> if the specified object is contact; otherwise, <code>false</code>.
 
-### IsUseContactType\(IContactable, IContactable, MultiContactType, ref bool\)
+### <a id="VM_Managed_DAFUL_Contact_MultipleContactBase_IsUseContactType_VM_Managed_DAFUL_IContactable_VM_Managed_DAFUL_IContactable_VM_Managed_DAFUL_Contact_MultiContactType_System_Boolean__"></a> IsUseContactType\(IContactable, IContactable, MultiContactType, ref bool\)
 
 Determines whether the specified object is contact.
 
@@ -337,12 +337,11 @@ The switch.
 
 <code>true</code> if the specified object is contact; otherwise, <code>false</code>.
 
-### UpdateIcon\(\)
+### <a id="VM_Managed_DAFUL_Contact_MultipleContactBase_UpdateIcon"></a> UpdateIcon\(\)
 
 Update the icon.
 
 ```csharp
 protected override void UpdateIcon()
 ```
-
 

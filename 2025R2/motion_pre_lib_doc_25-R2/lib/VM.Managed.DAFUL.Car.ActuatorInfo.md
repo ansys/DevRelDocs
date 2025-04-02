@@ -1,4 +1,4 @@
-# Struct ActuatorInfo
+#  Struct ActuatorInfo
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -11,7 +11,7 @@ public struct ActuatorInfo
 
 ## Constructors
 
-### ActuatorInfo\(Type, string\)
+### <a id="VM_Managed_DAFUL_Car_ActuatorInfo__ctor_System_Type_System_String_"></a> ActuatorInfo\(Type, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ActuatorInfo" data-throw-if-not-resolved="false"></xref> struct.
 
@@ -31,7 +31,7 @@ The actuator.
 
 ## Fields
 
-### Actuator
+### <a id="VM_Managed_DAFUL_Car_ActuatorInfo_Actuator"></a> Actuator
 
 Actuator info xml
 
@@ -43,7 +43,7 @@ public string Actuator
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ActuatorType
+### <a id="VM_Managed_DAFUL_Car_ActuatorInfo_ActuatorType"></a> ActuatorType
 
 Actuator type
 
@@ -57,7 +57,7 @@ public Type ActuatorType
 
 ## Methods
 
-### XmlDeSerialize\(\)
+### <a id="VM_Managed_DAFUL_Car_ActuatorInfo_XmlDeSerialize"></a> XmlDeSerialize\(\)
 
 XMLs the de serialize.
 
@@ -69,7 +69,7 @@ public ObjectBase XmlDeSerialize()
 
  ObjectBase
 
-### XmlSerialize\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Car_ActuatorInfo_XmlSerialize_VM_Managed_ObjectBase_"></a> XmlSerialize\(ObjectBase\)
 
 XMLs the serialize.
 
@@ -86,5 +86,4 @@ The obj.
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

@@ -1,4 +1,4 @@
-# Class ApplyProperty
+#  Class ApplyProperty
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ApplyProperty\(string\)
+### <a id="VM_Managed_Operation_ApplyProperty__ctor_System_String_"></a> ApplyProperty\(string\)
 
 ```csharp
 public ApplyProperty(string strXml)
@@ -89,7 +89,7 @@ public ApplyProperty(string strXml)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_Operation_ApplyProperty_Name"></a> Name
 
 Gets the operation name.
 
@@ -103,12 +103,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_Operation_ApplyProperty_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

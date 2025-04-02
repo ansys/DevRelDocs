@@ -1,4 +1,4 @@
-# Class OrientationEulerAngle
+#  Class OrientationEulerAngle
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -135,7 +135,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### OrientationEulerAngle\(RotationAxes, AngleTypes, Variable, Variable, Variable\)
+### <a id="VM_Managed_OrientationEulerAngle__ctor_VM_RotationAxes_VM_AngleTypes_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_"></a> OrientationEulerAngle\(RotationAxes, AngleTypes, Variable, Variable, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationEulerAngle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -165,7 +165,7 @@ The value of beta.
 
 The value of gamma.
 
-### OrientationEulerAngle\(\)
+### <a id="VM_Managed_OrientationEulerAngle__ctor"></a> OrientationEulerAngle\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationEulerAngle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public OrientationEulerAngle()
 
 ## Properties
 
-### Alpha
+### <a id="VM_Managed_OrientationEulerAngle_Alpha"></a> Alpha
 
 Gets or sets the value of alpha.
 
@@ -187,7 +187,7 @@ public Variable Alpha { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### AngleType
+### <a id="VM_Managed_OrientationEulerAngle_AngleType"></a> AngleType
 
 Gets the specifies angle type.
 
@@ -199,7 +199,7 @@ public override AngleTypes AngleType { get; set; }
 
  AngleTypes
 
-### Beta
+### <a id="VM_Managed_OrientationEulerAngle_Beta"></a> Beta
 
 Gets or sets the value of beta.
 
@@ -211,7 +211,7 @@ public Variable Beta { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### Gamma
+### <a id="VM_Managed_OrientationEulerAngle_Gamma"></a> Gamma
 
 Gets or sets the value of gamma.
 
@@ -223,7 +223,7 @@ public Variable Gamma { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### IsParameterized
+### <a id="VM_Managed_OrientationEulerAngle_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -235,7 +235,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RotationAngles
+### <a id="VM_Managed_OrientationEulerAngle_RotationAngles"></a> RotationAngles
 
 Gets the list of ration angles.
 
@@ -247,7 +247,7 @@ public override double[] RotationAngles { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### RotationAxis
+### <a id="VM_Managed_OrientationEulerAngle_RotationAxis"></a> RotationAxis
 
 Gets the rotation axes type.
 
@@ -259,7 +259,7 @@ public override RotationAxes RotationAxis { get; set; }
 
  RotationAxes
 
-### Value
+### <a id="VM_Managed_OrientationEulerAngle_Value"></a> Value
 
 Gets the information of orientation(OMatrix type).
 
@@ -273,7 +273,7 @@ public override OMatrix Value { get; set; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_OrientationEulerAngle_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -288,7 +288,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_OrientationEulerAngle_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -302,7 +302,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_OrientationEulerAngle_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -316,7 +316,7 @@ public override void WriteXml(XmlWriter writer)
 
 The XmlWriter stream to which the object is serialized.
 
-### get\_AngleType\(\)
+### <a id="VM_Managed_OrientationEulerAngle_get_AngleType"></a> get\_AngleType\(\)
 
 ```csharp
 public override AngleTypes get_AngleType()
@@ -326,7 +326,7 @@ public override AngleTypes get_AngleType()
 
  AngleTypes
 
-### get\_RotationAxis\(\)
+### <a id="VM_Managed_OrientationEulerAngle_get_RotationAxis"></a> get\_RotationAxis\(\)
 
 ```csharp
 public override RotationAxes get_RotationAxis()
@@ -336,7 +336,7 @@ public override RotationAxes get_RotationAxis()
 
  RotationAxes
 
-### set\_AngleType\(AngleTypes\)
+### <a id="VM_Managed_OrientationEulerAngle_set_AngleType_VM_AngleTypes_"></a> set\_AngleType\(AngleTypes\)
 
 ```csharp
 public virtual void set_AngleType(AngleTypes type)
@@ -346,7 +346,7 @@ public virtual void set_AngleType(AngleTypes type)
 
 `type` AngleTypes
 
-### set\_RotationAxis\(RotationAxes\)
+### <a id="VM_Managed_OrientationEulerAngle_set_RotationAxis_VM_RotationAxes_"></a> set\_RotationAxis\(RotationAxes\)
 
 ```csharp
 public virtual void set_RotationAxis(RotationAxes ax)
@@ -355,5 +355,4 @@ public virtual void set_RotationAxis(RotationAxes ax)
 #### Parameters
 
 `ax` RotationAxes
-
 

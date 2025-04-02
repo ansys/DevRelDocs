@@ -1,4 +1,4 @@
-# Namespace VM.Managed
+#  Namespace VM.Managed
 
 ### Namespaces
 
@@ -1535,5 +1535,4 @@ delegate for select single object.
  [Application.StartOption.WriteMessage](VM.Managed.Application.StartOption.WriteMessage.md)
 
 Callback delegate for kernel message
-
 

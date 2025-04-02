@@ -1,4 +1,4 @@
-# Namespace VM.Models.Pre.Connections
+#  Namespace VM.Models.Pre.Connections
 
 ### Classes
 
@@ -73,5 +73,4 @@ This class is to represent the property of multiple connector.
  [MultiConnectorType](VM.Models.Pre.Connections.MultiConnectorType.md)
 
 Indicates whether type of multiple connector.
-
 

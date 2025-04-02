@@ -1,4 +1,4 @@
-# Class ClearanceInfo
+#  Class ClearanceInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ClearanceInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_ClearanceInfo__ctor"></a> ClearanceInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ClearanceInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Clearan
 public ClearanceInfo()
 ```
 
-### ClearanceInfo\(IOwned\)
+### <a id="VM_Managed_DAFUL_GearTrain_ClearanceInfo__ctor_VM_Models_Pre_IOwned_"></a> ClearanceInfo\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ClearanceInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner.
 
 ## Properties
 
-### AxialLeft
+### <a id="VM_Managed_DAFUL_GearTrain_ClearanceInfo_AxialLeft"></a> AxialLeft
 
 Gets or sets the axial left.
 
@@ -132,7 +132,7 @@ public ExpressionValueVariable AxialLeft { get; set; }
 
  ExpressionValueVariable
 
-### AxialPreload
+### <a id="VM_Managed_DAFUL_GearTrain_ClearanceInfo_AxialPreload"></a> AxialPreload
 
 Gets or sets the axial preload.
 
@@ -144,7 +144,7 @@ public ExpressionValueVariable AxialPreload { get; set; }
 
  ExpressionValueVariable
 
-### AxialRight
+### <a id="VM_Managed_DAFUL_GearTrain_ClearanceInfo_AxialRight"></a> AxialRight
 
 Gets or sets the axial right.
 
@@ -156,7 +156,7 @@ public ExpressionValueVariable AxialRight { get; set; }
 
  ExpressionValueVariable
 
-### DampingRatio
+### <a id="VM_Managed_DAFUL_GearTrain_ClearanceInfo_DampingRatio"></a> DampingRatio
 
 Gets or sets the damping ratio.
 
@@ -168,7 +168,7 @@ public ExpressionValueVariable DampingRatio { get; set; }
 
  ExpressionValueVariable
 
-### InputTypeOfAxial
+### <a id="VM_Managed_DAFUL_GearTrain_ClearanceInfo_InputTypeOfAxial"></a> InputTypeOfAxial
 
 Gets or sets the type of axial.
 
@@ -180,7 +180,7 @@ public ClearanceInfo.AxialType InputTypeOfAxial { get; set; }
 
  [ClearanceInfo](VM.Managed.DAFUL.GearTrain.ClearanceInfo.md).[AxialType](VM.Managed.DAFUL.GearTrain.ClearanceInfo.AxialType.md)
 
-### InputTypeOfRadial
+### <a id="VM_Managed_DAFUL_GearTrain_ClearanceInfo_InputTypeOfRadial"></a> InputTypeOfRadial
 
 Gets or sets the type of radial.
 
@@ -192,7 +192,7 @@ public ClearanceInfo.RadialType InputTypeOfRadial { get; set; }
 
  [ClearanceInfo](VM.Managed.DAFUL.GearTrain.ClearanceInfo.md).[RadialType](VM.Managed.DAFUL.GearTrain.ClearanceInfo.RadialType.md)
 
-### Penalty
+### <a id="VM_Managed_DAFUL_GearTrain_ClearanceInfo_Penalty"></a> Penalty
 
 Gets or sets the penalty.
 
@@ -204,7 +204,7 @@ public ExpressionValueVariable Penalty { get; set; }
 
  ExpressionValueVariable
 
-### Radial
+### <a id="VM_Managed_DAFUL_GearTrain_ClearanceInfo_Radial"></a> Radial
 
 Gets or sets the radial.
 
@@ -216,7 +216,7 @@ public ExpressionValueVariable Radial { get; set; }
 
  ExpressionValueVariable
 
-### RadialPreload
+### <a id="VM_Managed_DAFUL_GearTrain_ClearanceInfo_RadialPreload"></a> RadialPreload
 
 Gets or sets the radial preload.
 
@@ -230,7 +230,7 @@ public ExpressionValueVariable RadialPreload { get; set; }
 
 ## Methods
 
-### InitChild\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_ClearanceInfo_InitChild"></a> InitChild\(\)
 
 Initializes the child.
 
@@ -238,7 +238,7 @@ Initializes the child.
 public void InitChild()
 ```
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_ClearanceInfo_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -251,5 +251,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

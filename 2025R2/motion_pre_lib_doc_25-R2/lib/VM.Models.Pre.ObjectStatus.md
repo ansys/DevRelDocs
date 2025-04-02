@@ -1,4 +1,4 @@
-# Class ObjectStatus
+#  Class ObjectStatus
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -20,7 +20,7 @@ public static class ObjectStatus
 
 ## Properties
 
-### IsBuildingObject
+### <a id="VM_Models_Pre_ObjectStatus_IsBuildingObject"></a> IsBuildingObject
 
 ```csharp
 public static bool IsBuildingObject { get; set; }
@@ -30,7 +30,7 @@ public static bool IsBuildingObject { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsBuildingObjectForCircularError
+### <a id="VM_Models_Pre_ObjectStatus_IsBuildingObjectForCircularError"></a> IsBuildingObjectForCircularError
 
 ```csharp
 public static bool IsBuildingObjectForCircularError { get; set; }
@@ -39,5 +39,4 @@ public static bool IsBuildingObjectForCircularError { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

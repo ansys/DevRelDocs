@@ -1,4 +1,4 @@
-# Class SimulationDataSet
+#  Class SimulationDataSet
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -62,7 +62,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SimulationDataSet\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet__ctor"></a> SimulationDataSet\(\)
 
 ```csharp
 public SimulationDataSet()
@@ -70,7 +70,7 @@ public SimulationDataSet()
 
 ## Properties
 
-### Brake
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_Brake"></a> Brake
 
 ```csharp
 public Brake Brake { get; }
@@ -80,7 +80,7 @@ public Brake Brake { get; }
 
  [Brake](VM.Models.Pre.Drivetrain.VehicleSimulator.Brake.md)
 
-### DocumentPath
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_DocumentPath"></a> DocumentPath
 
 ```csharp
 [JsonIgnore]
@@ -91,7 +91,7 @@ public string DocumentPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DrivingScenario
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_DrivingScenario"></a> DrivingScenario
 
 ```csharp
 public DrivingScenario DrivingScenario { get; }
@@ -101,7 +101,7 @@ public DrivingScenario DrivingScenario { get; }
 
  [DrivingScenario](VM.Models.Pre.Drivetrain.VehicleSimulator.DrivingScenario.md)
 
-### Flows
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_Flows"></a> Flows
 
 ```csharp
 public IObservableCollection<Flow> Flows { get; }
@@ -111,7 +111,7 @@ public IObservableCollection<Flow> Flows { get; }
 
  IObservableCollection<[Flow](VM.Models.Pre.Drivetrain.VehicleSimulator.Flow.md)\>
 
-### IsAllValid
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_IsAllValid"></a> IsAllValid
 
 ```csharp
 [JsonIgnore]
@@ -122,7 +122,7 @@ public bool IsAllValid { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsValid
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_IsValid"></a> IsValid
 
 ```csharp
 public override bool IsValid { get; }
@@ -132,7 +132,7 @@ public override bool IsValid { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ResultPath
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_ResultPath"></a> ResultPath
 
 ```csharp
 public string ResultPath { get; set; }
@@ -142,7 +142,7 @@ public string ResultPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Transmission
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_Transmission"></a> Transmission
 
 ```csharp
 public Transmission Transmission { get; }
@@ -152,7 +152,7 @@ public Transmission Transmission { get; }
 
  [Transmission](VM.Models.Pre.Drivetrain.VehicleSimulator.Transmission.md)
 
-### Vehicle
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_Vehicle"></a> Vehicle
 
 ```csharp
 public Vehicle Vehicle { get; }
@@ -164,7 +164,7 @@ public Vehicle Vehicle { get; }
 
 ## Methods
 
-### GetFlowCount\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_GetFlowCount"></a> GetFlowCount\(\)
 
 ```csharp
 public int GetFlowCount()
@@ -174,7 +174,7 @@ public int GetFlowCount()
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GetFlows\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_GetFlows"></a> GetFlows\(\)
 
 ```csharp
 public IEnumerable<Flow> GetFlows()
@@ -184,7 +184,7 @@ public IEnumerable<Flow> GetFlows()
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[Flow](VM.Models.Pre.Drivetrain.VehicleSimulator.Flow.md)\>
 
-### LoadFromFile\(string\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_LoadFromFile_System_String_"></a> LoadFromFile\(string\)
 
 ```csharp
 public static SimulationDataSet LoadFromFile(string path)
@@ -198,7 +198,7 @@ public static SimulationDataSet LoadFromFile(string path)
 
  [SimulationDataSet](VM.Models.Pre.Drivetrain.VehicleSimulator.SimulationDataSet.md)
 
-### LoadFromJSON\(string\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_SimulationDataSet_LoadFromJSON_System_String_"></a> LoadFromJSON\(string\)
 
 ```csharp
 public static SimulationDataSet LoadFromJSON(string json)
@@ -211,5 +211,4 @@ public static SimulationDataSet LoadFromJSON(string json)
 #### Returns
 
  [SimulationDataSet](VM.Models.Pre.Drivetrain.VehicleSimulator.SimulationDataSet.md)
-
 

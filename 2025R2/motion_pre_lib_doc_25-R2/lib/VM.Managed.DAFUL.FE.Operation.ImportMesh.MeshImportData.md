@@ -1,4 +1,4 @@
-# Struct ImportMesh.MeshImportData
+#  Struct ImportMesh.MeshImportData
 
 Namespace: [VM.Managed.DAFUL.FE.Operation](VM.Managed.DAFUL.FE.Operation.md)  
 Assembly: VMOpMesh.dll  
@@ -11,7 +11,7 @@ public struct ImportMesh.MeshImportData
 
 ## Fields
 
-### Color
+### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_Color"></a> Color
 
 ```csharp
 public Color Color
@@ -21,7 +21,7 @@ public Color Color
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### DegenerateElement
+### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_DegenerateElement"></a> DegenerateElement
 
 ```csharp
 public bool DegenerateElement
@@ -31,7 +31,7 @@ public bool DegenerateElement
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ImportOnlyRBEIncludingStaticCorrectionMode
+### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_ImportOnlyRBEIncludingStaticCorrectionMode"></a> ImportOnlyRBEIncludingStaticCorrectionMode
 
 ```csharp
 public bool ImportOnlyRBEIncludingStaticCorrectionMode
@@ -41,7 +41,7 @@ public bool ImportOnlyRBEIncludingStaticCorrectionMode
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsDeleteOldModal
+### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_IsDeleteOldModal"></a> IsDeleteOldModal
 
 ```csharp
 public bool IsDeleteOldModal
@@ -51,7 +51,7 @@ public bool IsDeleteOldModal
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ModalFilePath
+### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_ModalFilePath"></a> ModalFilePath
 
 ```csharp
 public string ModalFilePath
@@ -61,7 +61,7 @@ public string ModalFilePath
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NodalFilePath
+### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_NodalFilePath"></a> NodalFilePath
 
 ```csharp
 public string NodalFilePath
@@ -71,7 +71,7 @@ public string NodalFilePath
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TypeOfImport
+### <a id="VM_Managed_DAFUL_FE_Operation_ImportMesh_MeshImportData_TypeOfImport"></a> TypeOfImport
 
 ```csharp
 public ImportMesh.MeshImportData.ImportType TypeOfImport
@@ -80,5 +80,4 @@ public ImportMesh.MeshImportData.ImportType TypeOfImport
 #### Field Value
 
  [ImportMesh](VM.Managed.DAFUL.FE.Operation.ImportMesh.md).[MeshImportData](VM.Managed.DAFUL.FE.Operation.ImportMesh.MeshImportData.md).[ImportType](VM.Managed.DAFUL.FE.Operation.ImportMesh.MeshImportData.ImportType.md)
-
 

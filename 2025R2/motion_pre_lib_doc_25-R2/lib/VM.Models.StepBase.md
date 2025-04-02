@@ -1,4 +1,4 @@
-# Class StepBase
+#  Class StepBase
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -52,7 +52,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### StepBase\(IScenario\)
+### <a id="VM_Models_StepBase__ctor_VM_Models_IScenario_"></a> StepBase\(IScenario\)
 
 ```csharp
 public StepBase(IScenario parent)
@@ -64,7 +64,7 @@ public StepBase(IScenario parent)
 
 ## Properties
 
-### DefaultCommand
+### <a id="VM_Models_StepBase_DefaultCommand"></a> DefaultCommand
 
 ```csharp
 [Browsable(false)]
@@ -75,7 +75,7 @@ public ICommand DefaultCommand { get; protected set; }
 
  [ICommand](https://learn.microsoft.com/dotnet/api/system.windows.input.icommand)
 
-### FilePath
+### <a id="VM_Models_StepBase_FilePath"></a> FilePath
 
 ```csharp
 public string FilePath { get; set; }
@@ -85,7 +85,7 @@ public string FilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsSelected
+### <a id="VM_Models_StepBase_IsSelected"></a> IsSelected
 
 ```csharp
 [Browsable(false)]
@@ -96,7 +96,7 @@ public bool IsSelected { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Items
+### <a id="VM_Models_StepBase_Items"></a> Items
 
 ```csharp
 public IEnumerable<IStepItem> Items { get; }
@@ -106,7 +106,7 @@ public IEnumerable<IStepItem> Items { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IStepItem](VM.Models.IStepItem.md)\>
 
-### Parent
+### <a id="VM_Models_StepBase_Parent"></a> Parent
 
 ```csharp
 [Browsable(false)]
@@ -117,7 +117,7 @@ public IScenario Parent { get; }
 
  [IScenario](VM.Models.IScenario.md)
 
-### ParentDocument
+### <a id="VM_Models_StepBase_ParentDocument"></a> ParentDocument
 
 ```csharp
 [Browsable(false)]
@@ -128,7 +128,7 @@ public IProjectDocument ParentDocument { get; }
 
  [IProjectDocument](VM.Models.IProjectDocument.md)
 
-### Source
+### <a id="VM_Models_StepBase_Source"></a> Source
 
 ```csharp
 [Browsable(false)]
@@ -139,7 +139,7 @@ public IStep Source { get; }
 
  [IStep](VM.Models.IStep.md)
 
-### State
+### <a id="VM_Models_StepBase_State"></a> State
 
 ```csharp
 public StepState State { get; protected set; }
@@ -149,7 +149,7 @@ public StepState State { get; protected set; }
 
  [StepState](VM.Models.StepState.md)
 
-### StepItemService
+### <a id="VM_Models_StepBase_StepItemService"></a> StepItemService
 
 ```csharp
 protected IStepItemService StepItemService { get; }
@@ -159,7 +159,7 @@ protected IStepItemService StepItemService { get; }
 
  [IStepItemService](VM.Models.IStepItemService.md)
 
-### TargetApplicationType
+### <a id="VM_Models_StepBase_TargetApplicationType"></a> TargetApplicationType
 
 ```csharp
 public abstract ApplicationTypes TargetApplicationType { get; }
@@ -169,7 +169,7 @@ public abstract ApplicationTypes TargetApplicationType { get; }
 
  ApplicationTypes
 
-### Type
+### <a id="VM_Models_StepBase_Type"></a> Type
 
 ```csharp
 [Browsable(false)]
@@ -180,7 +180,7 @@ public abstract StepType Type { get; }
 
  [StepType](VM.Models.StepType.md)
 
-### this\[int\]
+### <a id="VM_Models_StepBase_Item_System_Int32_"></a> this\[int\]
 
 ```csharp
 public IStepItem this[int index] { get; }
@@ -192,7 +192,7 @@ public IStepItem this[int index] { get; }
 
 ## Methods
 
-### Add\(IStepItem\)
+### <a id="VM_Models_StepBase_Add_VM_Models_IStepItem_"></a> Add\(IStepItem\)
 
 ```csharp
 public void Add(IStepItem item)
@@ -202,7 +202,7 @@ public void Add(IStepItem item)
 
 `item` [IStepItem](VM.Models.IStepItem.md)
 
-### AddTarget\(IStep\)
+### <a id="VM_Models_StepBase_AddTarget_VM_Models_IStep_"></a> AddTarget\(IStep\)
 
 ```csharp
 public void AddTarget(IStep item)
@@ -212,7 +212,7 @@ public void AddTarget(IStep item)
 
 `item` [IStep](VM.Models.IStep.md)
 
-### CanRelation\(IStep\)
+### <a id="VM_Models_StepBase_CanRelation_VM_Models_IStep_"></a> CanRelation\(IStep\)
 
 ```csharp
 public virtual bool CanRelation(IStep source)
@@ -226,7 +226,7 @@ public virtual bool CanRelation(IStep source)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ContainsTarget\(IStep\)
+### <a id="VM_Models_StepBase_ContainsTarget_VM_Models_IStep_"></a> ContainsTarget\(IStep\)
 
 ```csharp
 public bool ContainsTarget(IStep item)
@@ -240,13 +240,13 @@ public bool ContainsTarget(IStep item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### DisposeManagedResources\(\)
+### <a id="VM_Models_StepBase_DisposeManagedResources"></a> DisposeManagedResources\(\)
 
 ```csharp
 protected override void DisposeManagedResources()
 ```
 
-### OnDeserialization\(object\)
+### <a id="VM_Models_StepBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 ```csharp
 public override void OnDeserialization(object sender)
@@ -256,7 +256,7 @@ public override void OnDeserialization(object sender)
 
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### RemoveTarget\(IStep\)
+### <a id="VM_Models_StepBase_RemoveTarget_VM_Models_IStep_"></a> RemoveTarget\(IStep\)
 
 ```csharp
 public void RemoveTarget(IStep item)
@@ -266,13 +266,13 @@ public void RemoveTarget(IStep item)
 
 `item` [IStep](VM.Models.IStep.md)
 
-### ResetSource\(\)
+### <a id="VM_Models_StepBase_ResetSource"></a> ResetSource\(\)
 
 ```csharp
 public virtual void ResetSource()
 ```
 
-### SetSource\(IStep\)
+### <a id="VM_Models_StepBase_SetSource_VM_Models_IStep_"></a> SetSource\(IStep\)
 
 ```csharp
 public virtual void SetSource(IStep source)
@@ -281,5 +281,4 @@ public virtual void SetSource(IStep source)
 #### Parameters
 
 `source` [IStep](VM.Models.IStep.md)
-
 

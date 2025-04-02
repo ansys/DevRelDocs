@@ -1,4 +1,4 @@
-# Class MeshDocument
+#  Class MeshDocument
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -517,7 +517,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MeshDocument\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument__ctor_System_UIntPtr_"></a> MeshDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -533,7 +533,7 @@ The document handle.
 
 ## Fields
 
-### g\_bSkipDisplayModeShape
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_g_bSkipDisplayModeShape"></a> g\_bSkipDisplayModeShape
 
 ```csharp
 public static bool g_bSkipDisplayModeShape
@@ -543,7 +543,7 @@ public static bool g_bSkipDisplayModeShape
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_pDocMesh
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_m_pDocMesh"></a> m\_pDocMesh
 
 The mesh document pointer of kernel.
 
@@ -557,7 +557,7 @@ protected IDocumentMesh* m_pDocMesh
 
 ## Properties
 
-### InitialCategories
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_InitialCategories"></a> InitialCategories
 
 Gets the initialize categories.
 
@@ -569,7 +569,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### Interfaces
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_Interfaces"></a> Interfaces
 
 Gets the interface manager.
 
@@ -581,7 +581,7 @@ public virtual InterfaceManager Interfaces { get; set; }
 
  InterfaceManager
 
-### KeepOldKernelUnit
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_KeepOldKernelUnit"></a> KeepOldKernelUnit
 
 Keep old kernel unit during convert ACIS to Parasolid
 
@@ -593,7 +593,7 @@ protected override sealed bool KeepOldKernelUnit { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### NodalFilePath
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_NodalFilePath"></a> NodalFilePath
 
 Gets the file path for nodal.
 
@@ -605,7 +605,7 @@ public string NodalFilePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UseDFMFForNodal
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_UseDFMFForNodal"></a> UseDFMFForNodal
 
 Gets the flag about whether to use dfmf for nodal.
 
@@ -619,13 +619,13 @@ public bool UseDFMFForNodal { get; }
 
 ## Methods
 
-### AfterDelete\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_AfterDelete"></a> AfterDelete\(\)
 
 ```csharp
 public override void AfterDelete()
 ```
 
-### BeforeDelete\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_BeforeDelete_VM_Managed_ObjectBase_"></a> BeforeDelete\(ObjectBase\)
 
 ```csharp
 public override void BeforeDelete(ObjectBase obj)
@@ -635,13 +635,13 @@ public override void BeforeDelete(ObjectBase obj)
 
 `obj` ObjectBase
 
-### BeforePostDeserialized\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_BeforePostDeserialized"></a> BeforePostDeserialized\(\)
 
 ```csharp
 public override void BeforePostDeserialized()
 ```
 
-### ClearDocument\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_ClearDocument"></a> ClearDocument\(\)
 
 Clears the document.
 
@@ -649,7 +649,7 @@ Clears the document.
 protected override void ClearDocument()
 ```
 
-### CreateAssemblyImpl\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_CreateAssemblyImpl"></a> CreateAssemblyImpl\(\)
 
 Creates the assembly [implementation].
 
@@ -663,7 +663,7 @@ protected override Assembly CreateAssemblyImpl()
 
 The assembly.
 
-### CreateEdgeset\(Tuple<uint, uint\>\[\], string\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_CreateEdgeset_System_Tuple_System_UInt32_System_UInt32____System_String_"></a> CreateEdgeset\(Tuple<uint, uint\>\[\], string\)
 
 ```csharp
 public SetEdge CreateEdgeset(Tuple<uint, uint>[] edges, string strName)
@@ -679,7 +679,7 @@ public SetEdge CreateEdgeset(Tuple<uint, uint>[] edges, string strName)
 
  [SetEdge](VM.Managed.DAFUL.FE.SetEdge.md)
 
-### CreateEdgeset\(Tuple<uint, uint\>\[\]\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_CreateEdgeset_System_Tuple_System_UInt32_System_UInt32____"></a> CreateEdgeset\(Tuple<uint, uint\>\[\]\)
 
 ```csharp
 public SetEdge CreateEdgeset(Tuple<uint, uint>[] edges)
@@ -693,7 +693,7 @@ public SetEdge CreateEdgeset(Tuple<uint, uint>[] edges)
 
  [SetEdge](VM.Managed.DAFUL.FE.SetEdge.md)
 
-### CreateEdgeset\(uint\[\]\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_CreateEdgeset_System_UInt32___"></a> CreateEdgeset\(uint\[\]\)
 
 Create edgeset.
 
@@ -713,7 +713,7 @@ node index.
 
 The edgeset.
 
-### CreateInterfaceManager\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_CreateInterfaceManager"></a> CreateInterfaceManager\(\)
 
 Create interface manager.
 
@@ -721,7 +721,7 @@ Create interface manager.
 virtual void CreateInterfaceManager()
 ```
 
-### CreateMarkerOnNode\(PointOnNode, OrientationBase\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_CreateMarkerOnNode_VM_Managed_DAFUL_FE_PointOnNode_VM_Managed_OrientationBase_"></a> CreateMarkerOnNode\(PointOnNode, OrientationBase\)
 
 Create marker on node.
 
@@ -745,7 +745,7 @@ orientation.
 
 The marker on node.
 
-### CreateNodeset\(uint\[\], string\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_CreateNodeset_System_UInt32___System_String_"></a> CreateNodeset\(uint\[\], string\)
 
 Create nodeset.
 
@@ -769,7 +769,7 @@ Name.
 
 The nodeset.
 
-### CreateNodeset\(uint\[\]\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_CreateNodeset_System_UInt32___"></a> CreateNodeset\(uint\[\]\)
 
 Create nodeset.
 
@@ -789,7 +789,7 @@ node indexes.
 
 The nodeset.
 
-### CreatePatchset\(Patch\[\], string\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_CreatePatchset_VM_Managed_DAFUL_FE_Patch___System_String_"></a> CreatePatchset\(Patch\[\], string\)
 
 Create patchset.
 
@@ -813,7 +813,7 @@ Name.
 
 The patchset.
 
-### CreatePatchset\(Patch\[\]\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_CreatePatchset_VM_Managed_DAFUL_FE_Patch___"></a> CreatePatchset\(Patch\[\]\)
 
 Create patchset.
 
@@ -833,7 +833,7 @@ patch informations.
 
 The patchset.
 
-### DisplayModeShape\(int, double\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_DisplayModeShape_System_Int32_System_Double_"></a> DisplayModeShape\(int, double\)
 
 Display mode shape with scale factor.
 
@@ -851,7 +851,7 @@ The sequence of mode.
 
 The scale factor.
 
-### EnableModeShape\(bool\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_EnableModeShape_System_Boolean_"></a> EnableModeShape\(bool\)
 
 Disable the mode shape displaying.
 
@@ -865,7 +865,7 @@ public override void EnableModeShape(bool bEnable)
 
 The enable flag.
 
-### FindCategory\(string\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_FindCategory_System_String_"></a> FindCategory\(string\)
 
 Finds the category.
 
@@ -885,7 +885,7 @@ The fullname of type.
 
 The category.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -905,7 +905,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetActiveMesh\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_GetActiveMesh"></a> GetActiveMesh\(\)
 
 Gets the active mesh.
 
@@ -919,7 +919,7 @@ public Mesh GetActiveMesh()
 
 The active mesh.
 
-### GetData\(XmlNode\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_GetData_System_Xml_XmlNode_"></a> GetData\(XmlNode\)
 
 Gets the analysis document information data.
 
@@ -933,7 +933,7 @@ public override void GetData(XmlNode writer)
 
 The writer.
 
-### GetMeshFileType\(string\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_GetMeshFileType_System_String_"></a> GetMeshFileType\(string\)
 
 Gets the mesh file type.
 
@@ -953,7 +953,7 @@ The mesh file path.
 
 BDF, DAT(Nastran) = 1, DAT(ANSYS), INP, CDB = 2, UDFF = 4, DFMF = 5
 
-### GetObjectsForChangeAssembly\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_GetObjectsForChangeAssembly"></a> GetObjectsForChangeAssembly\(\)
 
 Gets objects for assembly changing.
 
@@ -965,7 +965,7 @@ public override List<ObjectBase> GetObjectsForChangeAssembly()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<ObjectBase\>
 
-### GetUsedNodes\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_GetUsedNodes"></a> GetUsedNodes\(\)
 
 Get used nodes.
 
@@ -979,7 +979,7 @@ public uint[] GetUsedNodes()
 
 used node indexes.
 
-### ImportMesh\(string, Color, string, Unit, bool, bool\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_ImportMesh_System_String_System_Drawing_Color_System_String_VM_Unit_System_Boolean_System_Boolean_"></a> ImportMesh\(string, Color, string, Unit, bool, bool\)
 
 Import mesh.
 
@@ -1013,7 +1013,7 @@ The drop off high order flag.
 
 The modal only flag.
 
-### ImportMesh\(string, Color, string, Unit\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_ImportMesh_System_String_System_Drawing_Color_System_String_VM_Unit_"></a> ImportMesh\(string, Color, string, Unit\)
 
 Import mesh.
 
@@ -1039,7 +1039,7 @@ The modal file path.
 
 The unit convert factor.
 
-### ImportMesh\(string, string, Unit\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_ImportMesh_System_String_System_String_VM_Unit_"></a> ImportMesh\(string, string, Unit\)
 
 Import mesh.
 
@@ -1061,7 +1061,7 @@ The modal file path.
 
 The unit convert factor.
 
-### ImportMesh\(string, Color, Unit, bool, bool, CreateSetData, string, string\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_ImportMesh_System_String_System_Drawing_Color_VM_Unit_System_Boolean_System_Boolean_VM_Models_Pre_FE_CreateSetData_System_String_System_String_"></a> ImportMesh\(string, Color, Unit, bool, bool, CreateSetData, string, string\)
 
 Import mesh.
 
@@ -1107,7 +1107,7 @@ The nfedf dll path.
 
  [Mesh](VM.Managed.DAFUL.FE.Mesh.md)
 
-### ImportMesh\(string, Color, Unit, bool, bool, CreateSetData\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_ImportMesh_System_String_System_Drawing_Color_VM_Unit_System_Boolean_System_Boolean_VM_Models_Pre_FE_CreateSetData_"></a> ImportMesh\(string, Color, Unit, bool, bool, CreateSetData\)
 
 Import mesh.
 
@@ -1145,7 +1145,7 @@ Create set.
 
  [Mesh](VM.Managed.DAFUL.FE.Mesh.md)
 
-### ImportMesh\(string, Color, Unit, bool, bool\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_ImportMesh_System_String_System_Drawing_Color_VM_Unit_System_Boolean_System_Boolean_"></a> ImportMesh\(string, Color, Unit, bool, bool\)
 
 Import mesh.
 
@@ -1179,7 +1179,7 @@ The modal only flag.
 
  [Mesh](VM.Managed.DAFUL.FE.Mesh.md)
 
-### ImportMesh\(string, Color, Unit\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_ImportMesh_System_String_System_Drawing_Color_VM_Unit_"></a> ImportMesh\(string, Color, Unit\)
 
 Import mesh.
 
@@ -1205,7 +1205,7 @@ The unit convert factor.
 
  [Mesh](VM.Managed.DAFUL.FE.Mesh.md)
 
-### ImportMesh\(string, Unit, string, string\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_ImportMesh_System_String_VM_Unit_System_String_System_String_"></a> ImportMesh\(string, Unit, string, string\)
 
 Import mesh.
 
@@ -1235,7 +1235,7 @@ The nfedf dll path.
 
  [Mesh](VM.Managed.DAFUL.FE.Mesh.md)
 
-### ImportMesh\(string, Unit\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_ImportMesh_System_String_VM_Unit_"></a> ImportMesh\(string, Unit\)
 
 Import mesh.
 
@@ -1257,7 +1257,7 @@ The unit convert factor.
 
  [Mesh](VM.Managed.DAFUL.FE.Mesh.md)
 
-### InitializeCategoryInfo\(string\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
 
 Initializes the category information.
 
@@ -1271,7 +1271,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 The category name.
 
-### InitializeSimParam\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_InitializeSimParam"></a> InitializeSimParam\(\)
 
 Initializes the simulation parameter.
 
@@ -1279,7 +1279,7 @@ Initializes the simulation parameter.
 protected override void InitializeSimParam()
 ```
 
-### IsExistMesh\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_IsExistMesh"></a> IsExistMesh\(\)
 
 Determines whether is [exist mesh].
 
@@ -1293,7 +1293,7 @@ public bool IsExistMesh()
 
 <code>true</code> if is [exist mesh]; otherwise, <code>false</code>.
 
-### IsPatchsetMakeable\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_IsPatchsetMakeable"></a> IsPatchsetMakeable\(\)
 
 Determines whether is [makeable patchset].
 
@@ -1307,7 +1307,7 @@ public bool IsPatchsetMakeable()
 
 <code>true</code> if is [makeable patchset]; otherwise, <code>false</code>.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -1325,7 +1325,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### ModifyModal\(string, Unit, bool\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_ModifyModal_System_String_VM_Unit_System_Boolean_"></a> ModifyModal\(string, Unit, bool\)
 
 modify modal.
 
@@ -1345,7 +1345,7 @@ The unit convert factor.
 
 `bOnlyDelete` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -1359,7 +1359,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_OnPostMakeDocumentImpl_VM_Managed_DocCreateAnalysisInfo_"></a> OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
 
 Called when [post make document] [implementation].
 
@@ -1371,7 +1371,7 @@ public override void OnPostMakeDocumentImpl(DocCreateAnalysisInfo docCreateAnaly
 
 `docCreateAnalysisInfo` DocCreateAnalysisInfo
 
-### PostOpenDocument\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_PostOpenDocument"></a> PostOpenDocument\(\)
 
 Call when post [open document].
 
@@ -1379,7 +1379,7 @@ Call when post [open document].
 public override void PostOpenDocument()
 ```
 
-### PostOpenDocumentAfterErrCheckEvent\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_PostOpenDocumentAfterErrCheckEvent"></a> PostOpenDocumentAfterErrCheckEvent\(\)
 
 Posts the open document after err check event.
 
@@ -1387,7 +1387,7 @@ Posts the open document after err check event.
 public override void PostOpenDocumentAfterErrCheckEvent()
 ```
 
-### RegisterAddon\(\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_RegisterAddon"></a> RegisterAddon\(\)
 
 Register addon
 
@@ -1395,7 +1395,7 @@ Register addon
 protected override void RegisterAddon()
 ```
 
-### SetAcitveMesh\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_SetAcitveMesh_System_UIntPtr_"></a> SetAcitveMesh\(UIntPtr\)
 
 Sets the acitve mesh.
 
@@ -1409,7 +1409,7 @@ public void SetAcitveMesh(UIntPtr pProxyMesh)
 
 The mesh proxy.
 
-### SetData\(XmlNode\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_SetData_System_Xml_XmlNode_"></a> SetData\(XmlNode\)
 
 Sets the analysis document information data.
 
@@ -1423,7 +1423,7 @@ public override void SetData(XmlNode reader)
 
 The reader.
 
-### SetHandle\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_SetHandle_System_UIntPtr_"></a> SetHandle\(UIntPtr\)
 
 Sets the document handle.
 
@@ -1437,7 +1437,7 @@ protected override void SetHandle(UIntPtr pDocHandle)
 
 The document handle.
 
-### SkipDelete\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_SkipDelete_VM_Managed_ObjectBase_"></a> SkipDelete\(ObjectBase\)
 
 Skips the delete.
 
@@ -1455,7 +1455,7 @@ The obj.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UpdateNavigatorForReference\(Mesh, bool\)
+### <a id="VM_Managed_DAFUL_FE_MeshDocument_UpdateNavigatorForReference_VM_Managed_DAFUL_FE_Mesh_System_Boolean_"></a> UpdateNavigatorForReference\(Mesh, bool\)
 
 Updates the navigator for reference.
 
@@ -1472,5 +1472,4 @@ The mesh.
 `bRemove` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> [b remove].
-
 

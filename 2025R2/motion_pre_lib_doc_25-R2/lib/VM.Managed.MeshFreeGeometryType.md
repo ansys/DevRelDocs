@@ -1,4 +1,4 @@
-# Enum MeshFreeGeometryType
+#  Enum MeshFreeGeometryType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -27,7 +27,6 @@ Solid
 `UserTetra = 2` 
 
 UserTetra
-
 
 
 

@@ -1,4 +1,4 @@
-# Interface IDirectionBase
+#  Interface IDirectionBase
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IDirectionBase
 
 ## Properties
 
-### Value
+### <a id="VM_IDirectionBase_Value"></a> Value
 
 ```python
 Vector Value { get; }
@@ -21,7 +21,7 @@ Vector Value { get; }
 
 ## Methods
 
-### Reverse\(\)
+### <a id="VM_IDirectionBase_Reverse"></a> Reverse\(\)
 
 ```python
 void Reverse()

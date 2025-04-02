@@ -1,4 +1,4 @@
-# Enum PickedResult.PickedType
+#  Enum PickedResult.PickedType
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -18,5 +18,4 @@ public enum PickedResult.PickedType
 `Point = 0` 
 
 `Transform = 3` 
-
 

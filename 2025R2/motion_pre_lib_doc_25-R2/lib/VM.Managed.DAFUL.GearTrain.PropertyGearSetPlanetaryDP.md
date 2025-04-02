@@ -1,4 +1,4 @@
-# Class PropertyGearSetPlanetaryDP
+#  Class PropertyGearSetPlanetaryDP
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -210,7 +210,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyGearSetPlanetaryDP\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP__ctor"></a> PropertyGearSetPlanetaryDP\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyGearSetPlanetaryDP" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,7 +220,7 @@ public PropertyGearSetPlanetaryDP()
 
 ## Properties
 
-### Input
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_Input"></a> Input
 
 Gets or sets the input type of the contact analysis.
 Use SetInput() when this instance sets for undo/redo
@@ -233,7 +233,7 @@ public PropertyGearSetPlanetaryDP.ContactAnalysisInputType Input { get; set; }
 
  [PropertyGearSetPlanetaryDP](VM.Managed.DAFUL.GearTrain.PropertyGearSetPlanetaryDP.md).[ContactAnalysisInputType](VM.Managed.DAFUL.GearTrain.PropertyGearSetPlanetaryDP.ContactAnalysisInputType.md)
 
-### InputTypeOfDogLegDirection
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_InputTypeOfDogLegDirection"></a> InputTypeOfDogLegDirection
 
 Gets or sets the type of dog leg direction.
 
@@ -245,7 +245,7 @@ public PropertyGearSetPlanetaryDP.DogLegDirectionType InputTypeOfDogLegDirection
 
  [PropertyGearSetPlanetaryDP](VM.Managed.DAFUL.GearTrain.PropertyGearSetPlanetaryDP.md).[DogLegDirectionType](VM.Managed.DAFUL.GearTrain.PropertyGearSetPlanetaryDP.DogLegDirectionType.md)
 
-### NumberOfPinion
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_NumberOfPinion"></a> NumberOfPinion
 
 Gets or sets the number of pinion.
 Use SetNumberOfPinion() when this instance sets for undo/redo
@@ -258,7 +258,7 @@ public int NumberOfPinion { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Output
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_Output"></a> Output
 
 Gets or sets the output type of the contact analysis.
 Use SetOutput() when this instance sets for undo/redo
@@ -273,7 +273,7 @@ public PropertyGearSetPlanetaryDP.ContactAnalysisInputType Output { get; set; }
 
 ## Methods
 
-### GetGRFAndTRFOrientation\(int, double, double, double, double, VectorBase, VectorBase, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_GetGRFAndTRFOrientation_System_Int32_System_Double_System_Double_System_Double_System_Double_VM_Managed_VectorBase_VM_Managed_VectorBase_System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_VM_Managed_OMatrix__System_Collections_Generic_List_VM_Managed_OMatrix__System_Boolean_"></a> GetGRFAndTRFOrientation\(int, double, double, double, double, VectorBase, VectorBase, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, List<OMatrix\>, bool\)
 
 Get GRF and TRF orientation
 
@@ -363,7 +363,7 @@ The internal pinion gear TRF array.
 
 The flag of contact analysis.
 
-### GetSelectedGearInfo\(string, GearGeometryInfo\[\]\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_GetSelectedGearInfo_System_String_VM_Managed_DAFUL_GearTrain_GearGeometryInfo___"></a> GetSelectedGearInfo\(string, GearGeometryInfo\[\]\)
 
 Gets the selected gear Information
 
@@ -385,7 +385,7 @@ The geometry information
 
  [GearGeometryInfo](VM.Managed.DAFUL.GearTrain.GearGeometryInfo.md)
 
-### PostBuildGear\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_PostBuildGear"></a> PostBuildGear\(\)
 
 post builder gear.
 
@@ -393,7 +393,7 @@ post builder gear.
 protected override void PostBuildGear()
 ```
 
-### ReadResultCore\(XmlDocument\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_ReadResultCore_System_Xml_XmlDocument_"></a> ReadResultCore\(XmlDocument\)
 
 Reads the result core.
 
@@ -407,7 +407,7 @@ protected override void ReadResultCore(XmlDocument xmlDoc)
 
 The XML document.
 
-### SetInput\(ContactAnalysisInputType\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_SetInput_VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_ContactAnalysisInputType_"></a> SetInput\(ContactAnalysisInputType\)
 
 Set input.
 
@@ -421,7 +421,7 @@ public void SetInput(PropertyGearSetPlanetaryDP.ContactAnalysisInputType type)
 
 The type.
 
-### SetNumberOfPinion\(int\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_SetNumberOfPinion_System_Int32_"></a> SetNumberOfPinion\(int\)
 
 Set number of pinion.
 
@@ -435,7 +435,7 @@ public void SetNumberOfPinion(int nNum)
 
 The number of pinion.
 
-### SetOutput\(ContactAnalysisInputType\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_SetOutput_VM_Managed_DAFUL_GearTrain_PropertyGearSetPlanetaryDP_ContactAnalysisInputType_"></a> SetOutput\(ContactAnalysisInputType\)
 
 Set output.
 
@@ -448,5 +448,4 @@ public void SetOutput(PropertyGearSetPlanetaryDP.ContactAnalysisInputType type)
 `type` [PropertyGearSetPlanetaryDP](VM.Managed.DAFUL.GearTrain.PropertyGearSetPlanetaryDP.md).[ContactAnalysisInputType](VM.Managed.DAFUL.GearTrain.PropertyGearSetPlanetaryDP.ContactAnalysisInputType.md)
 
 The type.
-
 

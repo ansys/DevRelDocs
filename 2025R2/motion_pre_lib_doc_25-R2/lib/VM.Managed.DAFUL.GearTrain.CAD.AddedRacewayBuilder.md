@@ -1,4 +1,4 @@
-# Class AddedRacewayBuilder
+#  Class AddedRacewayBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -246,7 +246,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AddedRacewayBuilder\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilder__ctor"></a> AddedRacewayBuilder\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedRacewayBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -254,7 +254,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Add
 public AddedRacewayBuilder()
 ```
 
-### AddedRacewayBuilder\(RacewayGeometry\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilder__ctor_VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometry_"></a> AddedRacewayBuilder\(RacewayGeometry\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedRacewayBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -270,7 +270,7 @@ The bearing.
 
 ## Methods
 
-### GetCenterPosition\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilder_GetCenterPosition"></a> GetCenterPosition\(\)
 
 Gets center position.
 
@@ -282,7 +282,7 @@ public VectorBase GetCenterPosition()
 
  VectorBase
 
-### GetTransform\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilder_GetTransform"></a> GetTransform\(\)
 
 Gets the transform for the added raceway.
 
@@ -294,7 +294,7 @@ public override TMatrix GetTransform()
 
  TMatrix
 
-### GetTransformImpl\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilder_GetTransformImpl_System_Boolean_"></a> GetTransformImpl\(bool\)
 
 Gets the transform for the added raceway.
 
@@ -312,7 +312,7 @@ The simulate.
 
  TMatrix
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilder_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -330,12 +330,11 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### UpdateGeometry\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilder_UpdateGeometry"></a> UpdateGeometry\(\)
 
 Sets the shaft radius.
 
 ```csharp
 public override void UpdateGeometry()
 ```
-
 

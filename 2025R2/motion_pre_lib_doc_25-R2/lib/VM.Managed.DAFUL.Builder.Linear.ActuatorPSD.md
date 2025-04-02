@@ -1,4 +1,4 @@
-# Class ActuatorPSD
+#  Class ActuatorPSD
 
 Namespace: [VM.Managed.DAFUL.Builder.Linear](VM.Managed.DAFUL.Builder.Linear.md)  
 Assembly: VMBldLinear.dll  
@@ -54,7 +54,7 @@ BuilderBase<ActuatorPSD\>.ErrorMessage
 
 ## Constructors
 
-### ActuatorPSD\(\)
+### <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorPSD__ctor"></a> ActuatorPSD\(\)
 
 ```csharp
 public ActuatorPSD()
@@ -62,7 +62,7 @@ public ActuatorPSD()
 
 ## Properties
 
-### InputArray
+### <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorPSD_InputArray"></a> InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -74,7 +74,7 @@ public string[] InputArray { get; set; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorPSD_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -90,7 +90,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_Linear_ActuatorPSD_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -103,5 +103,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

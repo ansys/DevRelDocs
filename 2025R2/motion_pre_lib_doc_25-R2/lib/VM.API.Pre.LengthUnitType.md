@@ -1,4 +1,4 @@
-# Enum LengthUnitType
+#  Enum LengthUnitType
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -56,7 +56,6 @@ mm
 `UM = 3` 
 
 um
-
 
 
 

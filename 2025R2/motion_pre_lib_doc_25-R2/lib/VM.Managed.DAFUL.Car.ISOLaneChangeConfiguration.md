@@ -1,4 +1,4 @@
-# Class ISOLaneChangeConfiguration
+#  Class ISOLaneChangeConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ISOLaneChangeConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_ISOLaneChangeConfiguration__ctor"></a> ISOLaneChangeConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ISOLaneChangeConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ISOLaneChange
 public ISOLaneChangeConfiguration()
 ```
 
-### ISOLaneChangeConfiguration\(AnalysisISOLaneChange\)
+### <a id="VM_Managed_DAFUL_Car_ISOLaneChangeConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisISOLaneChange_"></a> ISOLaneChangeConfiguration\(AnalysisISOLaneChange\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ISOLaneChangeConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_ISOLaneChangeConfiguration_Analysis"></a> Analysis
 
 Gets or sets the analysis.
 
@@ -239,7 +239,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_ISOLaneChangeConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -251,7 +251,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_ISOLaneChangeConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -263,7 +263,7 @@ public override FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### ISOLaneChangeParam
+### <a id="VM_Managed_DAFUL_Car_ISOLaneChangeConfiguration_ISOLaneChangeParam"></a> ISOLaneChangeParam
 
 Gets or sets the ISO lane change parameter.
 
@@ -274,5 +274,4 @@ public AnalysisISOLaneChange ISOLaneChangeParam { get; set; }
 #### Property Value
 
  [AnalysisISOLaneChange](VM.Managed.DAFUL.Car.AnalysisISOLaneChange.md)
-
 

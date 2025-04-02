@@ -1,4 +1,4 @@
-# Class ChangeGroupKinematicAndComplianceOperation
+#  Class ChangeGroupKinematicAndComplianceOperation
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ChangeGroupKinematicAndComplianceOperation\(Document3D, bool\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ChangeGroupKinematicAndComplianceOperation__ctor_VM_Managed_Document3D_System_Boolean_"></a> ChangeGroupKinematicAndComplianceOperation\(Document3D, bool\)
 
 ```csharp
 public ChangeGroupKinematicAndComplianceOperation(Document3D doc, bool bKinematic)
@@ -89,7 +89,7 @@ public ChangeGroupKinematicAndComplianceOperation(Document3D doc, bool bKinemati
 
 `bKinematic` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ChangeGroupKinematicAndComplianceOperation\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ChangeGroupKinematicAndComplianceOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ChangeGroupKinematicAndComplianceOperation\(JournalParameter\)
 
 ```csharp
 public ChangeGroupKinematicAndComplianceOperation(JournalParameter jp)
@@ -101,7 +101,7 @@ public ChangeGroupKinematicAndComplianceOperation(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_ChangeGroupKinematicAndComplianceOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -115,7 +115,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ChangeGroupKinematicAndComplianceOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -123,7 +123,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ChangeGroupKinematicAndComplianceOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -132,5 +132,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

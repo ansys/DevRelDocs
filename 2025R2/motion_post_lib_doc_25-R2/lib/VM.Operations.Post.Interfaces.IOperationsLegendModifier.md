@@ -1,4 +1,4 @@
-# Interface IOperationsLegendModifier
+#  Interface IOperationsLegendModifier
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -58,7 +58,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### Background
+### <a id="VM_Operations_Post_Interfaces_IOperationsLegendModifier_Background"></a> Background
 
 Gets or sets the background color of the legend.
 
@@ -79,7 +79,7 @@ For an example that includes this property, see the [Interface IOperationsLegend
 This property allows you to set the background color of the legend.
 In the UI, this property is represented under the "Font" category with the property name "Background".
 
-### FontColor
+### <a id="VM_Operations_Post_Interfaces_IOperationsLegendModifier_FontColor"></a> FontColor
 
 Gets or sets the font color of the legend.
 
@@ -100,7 +100,7 @@ For an example that includes this property, see the [Interface IOperationsLegend
 This property allows you to set the font color of the legend.
 In the UI, this property is represented under the "Font" category with the property name "Color".
 
-### FontFace
+### <a id="VM_Operations_Post_Interfaces_IOperationsLegendModifier_FontFace"></a> FontFace
 
 Gets or sets the font face of the chart title.
 
@@ -121,7 +121,7 @@ For an example that includes this property, see the [Interface IOperationsLegend
 This property allows you to set the font face of the chart title.
 In the UI, this property is represented under the "Font" category with the property name "Face".
 
-### FontSize
+### <a id="VM_Operations_Post_Interfaces_IOperationsLegendModifier_FontSize"></a> FontSize
 
 Gets or sets the font size of the chart title.
 
@@ -142,7 +142,7 @@ For an example that includes this property, see the [Interface IOperationsLegend
 This property allows you to set the font size of the chart title.
 In the UI, this property is represented under the "Font" category with the property name "Size".
 
-### FontStyle
+### <a id="VM_Operations_Post_Interfaces_IOperationsLegendModifier_FontStyle"></a> FontStyle
 
 Gets or sets the font style of the chart title.
 
@@ -165,7 +165,7 @@ In the UI, this property is represented under the "Font" category with the prope
 The supported types are:
 <ul><li><xref href="System.Windows.FontStyles.Italic" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.Windows.FontStyles.Normal" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.Windows.FontStyles.Oblique" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### FontWeight
+### <a id="VM_Operations_Post_Interfaces_IOperationsLegendModifier_FontWeight"></a> FontWeight
 
 Gets or sets the font weight of the chart title.
 
@@ -188,7 +188,7 @@ In the UI, this property is represented under the "Font" category with the prope
 The available options are:
 <ul><li><xref href="System.Windows.FontWeights.Bold" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.Windows.FontWeights.Normal" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### ItemsInFilter
+### <a id="VM_Operations_Post_Interfaces_IOperationsLegendModifier_ItemsInFilter"></a> ItemsInFilter
 
 Gets or sets the filter option for displaying curves in the chart.
 
@@ -211,7 +211,7 @@ By specifying either AllSeries or AllVisibleSeries, you can choose to display al
 The available options are:
 <ul><li>"All Curves"</li><li>"Visible Curves"</li></ul>
 
-### LegendPlacement
+### <a id="VM_Operations_Post_Interfaces_IOperationsLegendModifier_LegendPlacement"></a> LegendPlacement
 
 Gets or sets the position of the legend in the chart.
 

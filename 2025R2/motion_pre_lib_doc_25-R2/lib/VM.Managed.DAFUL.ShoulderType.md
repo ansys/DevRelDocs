@@ -1,4 +1,4 @@
-# Enum ShoulderType
+#  Enum ShoulderType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -20,7 +20,6 @@ Champer
 `Round = 0` 
 
 Round
-
 
 
 

@@ -1,4 +1,4 @@
-# Class BaseActionPair
+#  Class BaseActionPair
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BaseActionPair\(\)
+### <a id="VM_Models_Pre_Connections_BaseActionPair__ctor"></a> BaseActionPair\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Connections.BaseActionPair" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public BaseActionPair()
 
 ## Properties
 
-### ActionInformation
+### <a id="VM_Models_Pre_Connections_BaseActionPair_ActionInformation"></a> ActionInformation
 
 Gets or sets the action information list.
 
@@ -118,7 +118,7 @@ public MultipleConnectorInfo ActionInformation { get; set; }
 
  [MultipleConnectorInfo](VM.Models.Pre.Connections.MultipleConnectorInfo.md)
 
-### BaseInformation
+### <a id="VM_Models_Pre_Connections_BaseActionPair_BaseInformation"></a> BaseInformation
 
 Gets or sets the base information list.
 
@@ -132,7 +132,7 @@ public MultipleConnectorInfo BaseInformation { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Models_Pre_Connections_BaseActionPair_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -145,5 +145,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

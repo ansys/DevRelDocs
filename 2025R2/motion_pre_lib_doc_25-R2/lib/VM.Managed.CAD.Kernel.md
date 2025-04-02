@@ -1,4 +1,4 @@
-# Class Kernel
+#  Class Kernel
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public abstract class Kernel
 
 ## Constructors
 
-### Kernel\(IKernel\*\)
+### <a id="VM_Managed_CAD_Kernel__ctor_VM_CAD_IKernel__"></a> Kernel\(IKernel\*\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Kernel" data-throw-if-not-resolved="false"></xref> class
 
@@ -38,7 +38,7 @@ The kernal interface
 
 ## Properties
 
-### IsLoading
+### <a id="VM_Managed_CAD_Kernel_IsLoading"></a> IsLoading
 
 Gets or sets a value indicating whether this instance is loading.
 
@@ -50,7 +50,7 @@ public bool IsLoading { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Key
+### <a id="VM_Managed_CAD_Kernel_Key"></a> Key
 
 ```csharp
 public UIntPtr Key { get; }
@@ -62,7 +62,7 @@ public UIntPtr Key { get; }
 
 ## Methods
 
-### ClearSession\(\)
+### <a id="VM_Managed_CAD_Kernel_ClearSession"></a> ClearSession\(\)
 
 Clear session.
 
@@ -70,7 +70,7 @@ Clear session.
 public static void ClearSession()
 ```
 
-### ClearTemporaryEntity\(\)
+### <a id="VM_Managed_CAD_Kernel_ClearTemporaryEntity"></a> ClearTemporaryEntity\(\)
 
 Clear temporary entity.
 
@@ -78,7 +78,7 @@ Clear temporary entity.
 public static void ClearTemporaryEntity()
 ```
 
-### Dispose\(bool\)
+### <a id="VM_Managed_CAD_Kernel_Dispose_System_Boolean_"></a> Dispose\(bool\)
 
 ```csharp
 [HandleProcessCorruptedStateExceptions]
@@ -89,7 +89,7 @@ protected virtual void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Dispose\(\)
+### <a id="VM_Managed_CAD_Kernel_Dispose"></a> Dispose\(\)
 
 destroy a instance of the <xref href="VM.Managed.CAD.Kernel" data-throw-if-not-resolved="false"></xref> class.
 
@@ -97,7 +97,7 @@ destroy a instance of the <xref href="VM.Managed.CAD.Kernel" data-throw-if-not-r
 public override sealed void Dispose()
 ```
 
-### DoingSession\(\)
+### <a id="VM_Managed_CAD_Kernel_DoingSession"></a> DoingSession\(\)
 
 Whether session is processing.
 
@@ -109,7 +109,7 @@ public static bool DoingSession()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ExecuteOperation\(string, string, Document3D, ref string\)
+### <a id="VM_Managed_CAD_Kernel_ExecuteOperation_System_String_System_String_VM_Managed_Document3D_System_String__"></a> ExecuteOperation\(string, string, Document3D, ref string\)
 
 ```csharp
 public bool ExecuteOperation(string strType, string strArgument, Document3D doc, ref string strResult)
@@ -129,7 +129,7 @@ public bool ExecuteOperation(string strType, string strArgument, Document3D doc,
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### \~Kernel\(\)
+### <a id="VM_Managed_CAD_Kernel_Finalize"></a> \~Kernel\(\)
 
 Releases unmanaged resources and performs other cleanup operations before the
 <xref href="VM.Managed.CAD.Kernel" data-throw-if-not-resolved="false"></xref> is reclaimed by garbage collection.
@@ -138,13 +138,13 @@ Releases unmanaged resources and performs other cleanup operations before the
 protected ~Kernel()
 ```
 
-### Initialize\(\)
+### <a id="VM_Managed_CAD_Kernel_Initialize"></a> Initialize\(\)
 
 ```csharp
 public void Initialize()
 ```
 
-### SetIgnoreThreadID\(bool\)
+### <a id="VM_Managed_CAD_Kernel_SetIgnoreThreadID_System_Boolean_"></a> SetIgnoreThreadID\(bool\)
 
 ```csharp
 public void SetIgnoreThreadID(bool bIgnore)
@@ -154,18 +154,17 @@ public void SetIgnoreThreadID(bool bIgnore)
 
 `bIgnore` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Terminate\(\)
+### <a id="VM_Managed_CAD_Kernel_Terminate"></a> Terminate\(\)
 
 ```csharp
 public void Terminate()
 ```
 
-### UpdateSession\(\)
+### <a id="VM_Managed_CAD_Kernel_UpdateSession"></a> UpdateSession\(\)
 
 Update session.
 
 ```csharp
 public static void UpdateSession()
 ```
-
 

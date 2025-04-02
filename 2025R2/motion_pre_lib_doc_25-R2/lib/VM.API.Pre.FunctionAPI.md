@@ -1,4 +1,4 @@
-# Class FunctionAPI
+#  Class FunctionAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class FunctionAPI
 
 ## Methods
 
-### CreateFunction\(SubSystemDocument, string, IEnumerable<\(string, Obj\)\>, string, SymmetricType, bool\)
+### <a id="VM_API_Pre_FunctionAPI_CreateFunction_VM_Managed_DAFUL_SubSystemDocument_System_String_System_Collections_Generic_IEnumerable_System_ValueTuple_System_String_VM_API_Pre_Obj___System_String_VM_Managed_SymmetricType_System_Boolean_"></a> CreateFunction\(SubSystemDocument, string, IEnumerable<\(string, Obj\)\>, string, SymmetricType, bool\)
 
 Create <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
@@ -73,5 +73,4 @@ Will be thrown if 'document', 'expression' argument is null.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if the second element of 'arguments' is not <xref href="VM.Models.Pre.IArgument" data-throw-if-not-resolved="false"></xref>.
-
 

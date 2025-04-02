@@ -1,4 +1,4 @@
-# Class BeamInfo
+#  Class BeamInfo
 
 Namespace: [VM.Managed.DAFUL.Builder.Beam](VM.Managed.DAFUL.Builder.Beam.md)  
 Assembly: VMBldBeamGroup.dll  
@@ -20,7 +20,7 @@ public class BeamInfo
 
 ## Constructors
 
-### BeamInfo\(\)
+### <a id="VM_Managed_DAFUL_Builder_Beam_BeamInfo__ctor"></a> BeamInfo\(\)
 
 ```csharp
 public BeamInfo()
@@ -28,7 +28,7 @@ public BeamInfo()
 
 ## Fields
 
-### Color
+### <a id="VM_Managed_DAFUL_Builder_Beam_BeamInfo_Color"></a> Color
 
 ```csharp
 public string Color
@@ -38,7 +38,7 @@ public string Color
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### MaterialProperty
+### <a id="VM_Managed_DAFUL_Builder_Beam_BeamInfo_MaterialProperty"></a> MaterialProperty
 
 ```csharp
 public string MaterialProperty
@@ -48,7 +48,7 @@ public string MaterialProperty
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NoOfElements
+### <a id="VM_Managed_DAFUL_Builder_Beam_BeamInfo_NoOfElements"></a> NoOfElements
 
 ```csharp
 public int NoOfElements
@@ -60,7 +60,7 @@ public int NoOfElements
 
 ## Properties
 
-### CrossSection
+### <a id="VM_Managed_DAFUL_Builder_Beam_BeamInfo_CrossSection"></a> CrossSection
 
 ```csharp
 public CrossSectionType CrossSection { get; set; }
@@ -70,7 +70,7 @@ public CrossSectionType CrossSection { get; set; }
 
  CrossSectionType
 
-### CrossSectionValueInfo
+### <a id="VM_Managed_DAFUL_Builder_Beam_BeamInfo_CrossSectionValueInfo"></a> CrossSectionValueInfo
 
 ```csharp
 public string[] CrossSectionValueInfo { get; set; }
@@ -80,7 +80,7 @@ public string[] CrossSectionValueInfo { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### Direction
+### <a id="VM_Managed_DAFUL_Builder_Beam_BeamInfo_Direction"></a> Direction
 
 ```csharp
 public string Direction { get; set; }
@@ -90,7 +90,7 @@ public string Direction { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Point
+### <a id="VM_Managed_DAFUL_Builder_Beam_BeamInfo_Point"></a> Point
 
 ```csharp
 public string Point { get; set; }
@@ -99,5 +99,4 @@ public string Point { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

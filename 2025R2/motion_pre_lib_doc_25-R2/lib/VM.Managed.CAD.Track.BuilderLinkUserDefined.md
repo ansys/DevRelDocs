@@ -1,4 +1,4 @@
-# Class BuilderLinkUserDefined
+#  Class BuilderLinkUserDefined
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -206,7 +206,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderLinkUserDefined\(\)
+### <a id="VM_Managed_CAD_Track_BuilderLinkUserDefined__ctor"></a> BuilderLinkUserDefined\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.BuilderLinkUserDefined" data-throw-if-not-resolved="false"></xref> class.
 
@@ -216,7 +216,7 @@ public BuilderLinkUserDefined()
 
 ## Properties
 
-### Link
+### <a id="VM_Managed_CAD_Track_BuilderLinkUserDefined_Link"></a> Link
 
 Gets and sets Link Data.
 
@@ -228,7 +228,7 @@ public LinkDataBase Link { get; set; }
 
  [LinkDataBase](VM.Managed.CAD.Track.LinkDataBase.md)
 
-### TypeOfBuilder
+### <a id="VM_Managed_CAD_Track_BuilderLinkUserDefined_TypeOfBuilder"></a> TypeOfBuilder
 
 ```csharp
 public override string TypeOfBuilder { get; set; }
@@ -240,7 +240,7 @@ public override string TypeOfBuilder { get; set; }
 
 ## Methods
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_Track_BuilderLinkUserDefined_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Check validation for member variables.
 
@@ -248,7 +248,7 @@ Check validation for member variables.
 public override void CheckValidationAboutBuild()
 ```
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_Track_BuilderLinkUserDefined_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -258,7 +258,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_Track_BuilderLinkUserDefined_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -268,7 +268,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_CAD_Track_BuilderLinkUserDefined_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -288,7 +288,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_CAD_Track_BuilderLinkUserDefined_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -306,7 +306,7 @@ The obj notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### SetTransform\(TMatrix\)
+### <a id="VM_Managed_CAD_Track_BuilderLinkUserDefined_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
 
 Sets the transform information.
 
@@ -319,5 +319,4 @@ public override void SetTransform(TMatrix matT)
 `matT` TMatrix
 
 The transform information.
-
 

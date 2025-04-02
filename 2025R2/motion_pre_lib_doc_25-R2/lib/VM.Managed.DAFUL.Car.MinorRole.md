@@ -1,4 +1,4 @@
-# Enum MinorRole
+#  Enum MinorRole
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -32,7 +32,6 @@ Rear
 `Trailer = 3` 
 
 Trailer
-
 
 
 

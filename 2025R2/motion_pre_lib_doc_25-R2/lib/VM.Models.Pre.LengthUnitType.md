@@ -1,4 +1,4 @@
-# Enum LengthUnitType
+#  Enum LengthUnitType
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -44,7 +44,6 @@ mile
 `Model = 0` 
 
 Model
-
 
 
 

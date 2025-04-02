@@ -1,4 +1,4 @@
-# Class DropConfiguration
+#  Class DropConfiguration
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -193,7 +193,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DropConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Track_DropConfiguration__ctor"></a> DropConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.DropConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -203,7 +203,7 @@ public DropConfiguration()
 
 ## Properties
 
-### ConfigurationName
+### <a id="VM_Managed_DAFUL_Track_DropConfiguration_ConfigurationName"></a> ConfigurationName
 
 Gets the configuration name
 
@@ -214,5 +214,4 @@ public override string ConfigurationName { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

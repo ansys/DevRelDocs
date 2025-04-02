@@ -1,4 +1,4 @@
-# Interface IFileSupport
+#  Interface IFileSupport
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IFileSupport
 
 ## Properties
 
-### FileName
+### <a id="VM_IFileSupport_FileName"></a> FileName
 
 ```csharp
 string FileName { get; set; }
@@ -25,7 +25,7 @@ string FileName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Filter
+### <a id="VM_IFileSupport_Filter"></a> Filter
 
 ```csharp
 string Filter { get; set; }
@@ -34,5 +34,4 @@ string Filter { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

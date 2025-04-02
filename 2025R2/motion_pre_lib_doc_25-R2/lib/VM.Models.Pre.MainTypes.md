@@ -1,4 +1,4 @@
-# Enum MainTypes
+#  Enum MainTypes
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -22,5 +22,4 @@ public enum MainTypes
 `DesignSubEntity = 3` 
 
 `Unknown = 0` 
-
 

@@ -1,4 +1,4 @@
-# Class PlotParameters
+#  Class PlotParameters
 
 Namespace: [VM.Models.OutputReader](VM.Models.OutputReader.md)  
 Assembly: VM.Models.OutputReader.dll  
@@ -24,7 +24,7 @@ public class PlotParameters
 
 ## Constructors
 
-### PlotParameters\(\)
+### <a id="VM_Models_OutputReader_PlotParameters__ctor"></a> PlotParameters\(\)
 
 ```csharp
 public PlotParameters()
@@ -32,7 +32,7 @@ public PlotParameters()
 
 ## Properties
 
-### CSYS
+### <a id="VM_Models_OutputReader_PlotParameters_CSYS"></a> CSYS
 
 ```csharp
 public object CSYS { get; set; }
@@ -42,7 +42,7 @@ public object CSYS { get; set; }
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### Paths
+### <a id="VM_Models_OutputReader_PlotParameters_Paths"></a> Paths
 
 ```csharp
 public IEnumerable<string> Paths { get; set; }
@@ -52,7 +52,7 @@ public IEnumerable<string> Paths { get; set; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### PlotDataType
+### <a id="VM_Models_OutputReader_PlotParameters_PlotDataType"></a> PlotDataType
 
 ```csharp
 public PlotDataType PlotDataType { get; set; }
@@ -62,7 +62,7 @@ public PlotDataType PlotDataType { get; set; }
 
  PlotDataType
 
-### Target
+### <a id="VM_Models_OutputReader_PlotParameters_Target"></a> Target
 
 ```csharp
 public string Target { get; set; }
@@ -71,5 +71,4 @@ public string Target { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

@@ -1,4 +1,4 @@
-# Interface IDlgFactory
+#  Interface IDlgFactory
 
 Namespace: [VM.NX.Dialog.Factory](VM.NX.Dialog.Factory.md)  
 Assembly: VMDIDef.dll  
@@ -15,7 +15,7 @@ public interface IDlgFactory
 
 ## Methods
 
-### GetObject\(string, Form\)
+### <a id="VM_NX_Dialog_Factory_IDlgFactory_GetObject_System_String_System_Windows_Forms_Form_"></a> GetObject\(string, Form\)
 
 ```csharp
 Form GetObject(string strCommand, Form formOwner)
@@ -31,7 +31,7 @@ Form GetObject(string strCommand, Form formOwner)
 
  [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form)
 
-### GetObjectWithMultiDialog\(MultiDialogInfo\[\], Form\)
+### <a id="VM_NX_Dialog_Factory_IDlgFactory_GetObjectWithMultiDialog_VM_NX_Dialog_Factory_MultiDialogInfo___System_Windows_Forms_Form_"></a> GetObjectWithMultiDialog\(MultiDialogInfo\[\], Form\)
 
 ```csharp
 Form GetObjectWithMultiDialog(MultiDialogInfo[] arInfo, Form formOwner)
@@ -47,7 +47,7 @@ Form GetObjectWithMultiDialog(MultiDialogInfo[] arInfo, Form formOwner)
 
  [Form](https://learn.microsoft.com/dotnet/api/system.windows.forms.form)
 
-### IsUseDialog\(string\)
+### <a id="VM_NX_Dialog_Factory_IDlgFactory_IsUseDialog_System_String_"></a> IsUseDialog\(string\)
 
 ```csharp
 bool IsUseDialog(string strTypeName)
@@ -60,5 +60,4 @@ bool IsUseDialog(string strTypeName)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

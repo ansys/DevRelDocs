@@ -1,4 +1,4 @@
-# Class PTSF
+#  Class PTSF
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -55,7 +55,7 @@ BuilderBase<PTSF\>.ErrorMessage
 
 ## Constructors
 
-### PTSF\(\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_PTSF__ctor"></a> PTSF\(\)
 
 ```csharp
 public PTSF()
@@ -63,7 +63,7 @@ public PTSF()
 
 ## Properties
 
-### ActionContactable
+### <a id="VM_Managed_DAFUL_Builder_Contact_PTSF_ActionContactable"></a> ActionContactable
 
 ```csharp
 public IConnectable ActionContactable { get; }
@@ -73,7 +73,7 @@ public IConnectable ActionContactable { get; }
 
  IConnectable
 
-### ActionPoint
+### <a id="VM_Managed_DAFUL_Builder_Contact_PTSF_ActionPoint"></a> ActionPoint
 
 ```csharp
 public PointBase ActionPoint { get; }
@@ -83,7 +83,7 @@ public PointBase ActionPoint { get; }
 
  PointBase
 
-### BaseContactable
+### <a id="VM_Managed_DAFUL_Builder_Contact_PTSF_BaseContactable"></a> BaseContactable
 
 ```csharp
 public IContactableRigid3D BaseContactable { get; }
@@ -95,7 +95,7 @@ public IContactableRigid3D BaseContactable { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_PTSF_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -110,5 +110,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

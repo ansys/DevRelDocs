@@ -1,4 +1,4 @@
-# Class HiddenDocumentMeshFreeBase
+#  Class HiddenDocumentMeshFreeBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -611,7 +611,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### HiddenDocumentMeshFreeBase\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshFreeBase__ctor_System_UIntPtr_"></a> HiddenDocumentMeshFreeBase\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.HiddenDocumentMeshFreeBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -627,7 +627,7 @@ The document handle.
 
 ## Methods
 
-### ReAssemblyAssembledBody\(AssembledBody\)
+### <a id="VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshFreeBase_ReAssemblyAssembledBody_VM_Managed_DAFUL_AssembledBody_"></a> ReAssemblyAssembledBody\(AssembledBody\)
 
 Res the assembly assembled body.
 
@@ -640,5 +640,4 @@ public void ReAssemblyAssembledBody(AssembledBody ab)
 `ab` AssembledBody
 
 The assembled body.
-
 

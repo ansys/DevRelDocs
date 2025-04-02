@@ -1,4 +1,4 @@
-# Class AnalysisJudder
+#  Class AnalysisJudder
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -40,7 +40,7 @@ AnalysisBase.IsSim
 
 ## Constructors
 
-### AnalysisJudder\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisJudder__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisJudder\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisJudder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -54,7 +54,7 @@ public AnalysisJudder(ILinkContainer lnkContainer)
 
 The link container.
 
-### AnalysisJudder\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisJudder__ctor"></a> AnalysisJudder\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisJudder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -64,7 +64,7 @@ public AnalysisJudder()
 
 ## Properties
 
-### PatchActuatorInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisJudder_PatchActuatorInfo"></a> PatchActuatorInfo
 
 Gets or sets the patch actuator.
 
@@ -76,7 +76,7 @@ public ActuatorInfo PatchActuatorInfo { get; set; }
 
  [ActuatorInfo](VM.Managed.DAFUL.Car.ActuatorInfo.md)
 
-### TorqueActuatorInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisJudder_TorqueActuatorInfo"></a> TorqueActuatorInfo
 
 Gets or sets the torque actuator.
 
@@ -87,5 +87,4 @@ public ActuatorInfo TorqueActuatorInfo { get; set; }
 #### Property Value
 
  [ActuatorInfo](VM.Managed.DAFUL.Car.ActuatorInfo.md)
-
 

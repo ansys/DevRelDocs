@@ -1,4 +1,4 @@
-# Class BushPropertyXmlSerializer
+#  Class BushPropertyXmlSerializer
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -29,7 +29,7 @@ PropertyXmlSerializer<PropertyBush\>.WriteXml\(XmlWriter\)
 
 ## Constructors
 
-### BushPropertyXmlSerializer\(\)
+### <a id="VM_Managed_DAFUL_Force_BushPropertyXmlSerializer__ctor"></a> BushPropertyXmlSerializer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.BushPropertyXmlSerializer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -37,7 +37,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.BushPropert
 public BushPropertyXmlSerializer()
 ```
 
-### BushPropertyXmlSerializer\(PropertyBush\)
+### <a id="VM_Managed_DAFUL_Force_BushPropertyXmlSerializer__ctor_VM_Managed_DAFUL_Force_PropertyBush_"></a> BushPropertyXmlSerializer\(PropertyBush\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.BushPropertyXmlSerializer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -53,7 +53,7 @@ The property.
 
 ## Methods
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Force_BushPropertyXmlSerializer_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Reads the XML.
 
@@ -67,7 +67,7 @@ public override sealed void ReadXml(XmlReader reader)
 
 The reader.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Force_BushPropertyXmlSerializer_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Writes the XML.
 
@@ -83,7 +83,7 @@ The writer.
 
 ## Operators
 
-### implicit operator BushPropertyXmlSerializer\(PropertyBush\)
+### <a id="VM_Managed_DAFUL_Force_BushPropertyXmlSerializer_op_Implicit_VM_Managed_DAFUL_Force_PropertyBush__VM_Managed_DAFUL_Force_BushPropertyXmlSerializer"></a> implicit operator BushPropertyXmlSerializer\(PropertyBush\)
 
 Performs an implicit conversion from <xref href="VM.Managed.Property" data-throw-if-not-resolved="false"></xref> to <xref href="VM.Managed.DAFUL.Force.BushPropertyXmlSerializer" data-throw-if-not-resolved="false"></xref>.
 
@@ -102,5 +102,4 @@ The prop.
  [BushPropertyXmlSerializer](VM.Managed.DAFUL.Force.BushPropertyXmlSerializer.md)
 
 The result of the conversion.
-
 

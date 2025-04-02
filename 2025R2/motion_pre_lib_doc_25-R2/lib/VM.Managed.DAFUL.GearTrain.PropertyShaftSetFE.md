@@ -1,4 +1,4 @@
-# Class PropertyShaftSetFE
+#  Class PropertyShaftSetFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -203,12 +203,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyShaftSetFE\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyShaftSetFE__ctor"></a> PropertyShaftSetFE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyShaftSetFE" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyShaftSetFE()
 ```
-
 

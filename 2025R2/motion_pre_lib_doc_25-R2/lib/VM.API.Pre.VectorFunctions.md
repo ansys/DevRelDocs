@@ -1,4 +1,4 @@
-# Struct VectorFunctions
+#  Struct VectorFunctions
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +11,7 @@ public struct VectorFunctions
 
 ## Constructors
 
-### VectorFunctions\(\)
+### <a id="VM_API_Pre_VectorFunctions__ctor"></a> VectorFunctions\(\)
 
 Default constructor
 
@@ -21,7 +21,7 @@ public VectorFunctions()
 
 ## Properties
 
-### FunctionFX
+### <a id="VM_API_Pre_VectorFunctions_FunctionFX"></a> FunctionFX
 
 The value for the Function Fx of the vector functions.
 
@@ -33,7 +33,7 @@ public Function FunctionFX { readonly get; set; }
 
  Function
 
-### FunctionFY
+### <a id="VM_API_Pre_VectorFunctions_FunctionFY"></a> FunctionFY
 
 The value for the Function Fy of the vector functions.
 
@@ -45,7 +45,7 @@ public Function FunctionFY { readonly get; set; }
 
  Function
 
-### FunctionFZ
+### <a id="VM_API_Pre_VectorFunctions_FunctionFZ"></a> FunctionFZ
 
 The value for the Function Fz of the vector functions.
 
@@ -57,7 +57,7 @@ public Function FunctionFZ { readonly get; set; }
 
  Function
 
-### FunctionTX
+### <a id="VM_API_Pre_VectorFunctions_FunctionTX"></a> FunctionTX
 
 The value for the Function Tx of the vector functions.
 
@@ -69,7 +69,7 @@ public Function FunctionTX { readonly get; set; }
 
  Function
 
-### FunctionTY
+### <a id="VM_API_Pre_VectorFunctions_FunctionTY"></a> FunctionTY
 
 The value for the Function Ty of the vector functions.
 
@@ -81,7 +81,7 @@ public Function FunctionTY { readonly get; set; }
 
  Function
 
-### FunctionTZ
+### <a id="VM_API_Pre_VectorFunctions_FunctionTZ"></a> FunctionTZ
 
 The value for the Function Tz of the vector functions.
 
@@ -92,5 +92,4 @@ public Function FunctionTZ { readonly get; set; }
 #### Property Value
 
  Function
-
 

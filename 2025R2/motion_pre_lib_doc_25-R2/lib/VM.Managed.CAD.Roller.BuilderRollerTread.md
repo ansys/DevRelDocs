@@ -1,4 +1,4 @@
-# Class BuilderRollerTread
+#  Class BuilderRollerTread
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -212,7 +212,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderRollerTread\(\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerTread__ctor"></a> BuilderRollerTread\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Roller.BuilderRollerTread" data-throw-if-not-resolved="false"></xref> class.
 
@@ -222,7 +222,7 @@ public BuilderRollerTread()
 
 ## Properties
 
-### TreadDiameter
+### <a id="VM_Managed_CAD_Roller_BuilderRollerTread_TreadDiameter"></a> TreadDiameter
 
 Gets and sets tread diameter.
 
@@ -234,7 +234,7 @@ public Variable TreadDiameter { get; set; }
 
  Variable
 
-### TreadWidth
+### <a id="VM_Managed_CAD_Roller_BuilderRollerTread_TreadWidth"></a> TreadWidth
 
 Gets and sets tread width.
 
@@ -248,7 +248,7 @@ public Variable TreadWidth { get; set; }
 
 ## Methods
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerTread_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -256,7 +256,7 @@ Checks the validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerTread_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -273,5 +273,4 @@ The obj notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

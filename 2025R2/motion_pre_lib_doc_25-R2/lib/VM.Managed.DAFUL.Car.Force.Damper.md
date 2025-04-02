@@ -1,4 +1,4 @@
-# Class Damper
+#  Class Damper
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -257,7 +257,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Damper\(\)
+### <a id="VM_Managed_DAFUL_Car_Force_Damper__ctor"></a> Damper\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.Damper" data-throw-if-not-resolved="false"></xref> class.
 
@@ -265,7 +265,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.Damper"
 public Damper()
 ```
 
-### Damper\(string\)
+### <a id="VM_Managed_DAFUL_Car_Force_Damper__ctor_System_String_"></a> Damper\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.Damper" data-throw-if-not-resolved="false"></xref> class.
 
@@ -281,7 +281,7 @@ Name of the STR.
 
 ## Properties
 
-### Diameter
+### <a id="VM_Managed_DAFUL_Car_Force_Damper_Diameter"></a> Diameter
 
 Gets or sets the diameter.
 
@@ -293,7 +293,7 @@ public double Diameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### FreeLength
+### <a id="VM_Managed_DAFUL_Car_Force_Damper_FreeLength"></a> FreeLength
 
 Gets the length of the free.
 
@@ -305,7 +305,7 @@ public ExpressionValueVariable FreeLength { get; }
 
  ExpressionValueVariable
 
-### GeomColor
+### <a id="VM_Managed_DAFUL_Car_Force_Damper_GeomColor"></a> GeomColor
 
 Gets or sets the color of the geometry.
 
@@ -317,7 +317,7 @@ public string GeomColor { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Car_Force_Damper_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -331,7 +331,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Car_Force_Damper_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -345,7 +345,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Car_Force_Damper_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -359,7 +359,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Car_Force_Damper_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -377,7 +377,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Car_Force_Damper_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -391,7 +391,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Car_Force_Damper_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -404,5 +404,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

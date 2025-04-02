@@ -1,4 +1,4 @@
-# Class ColorInfo
+#  Class ColorInfo
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -20,7 +20,7 @@ public class ColorInfo
 
 ## Constructors
 
-### ColorInfo\(\)
+### <a id="VM_CAD_Builders_ColorInfo__ctor"></a> ColorInfo\(\)
 
 ```csharp
 public ColorInfo()
@@ -28,7 +28,7 @@ public ColorInfo()
 
 ## Properties
 
-### A
+### <a id="VM_CAD_Builders_ColorInfo_A"></a> A
 
 ```csharp
 public int A { get; set; }
@@ -38,7 +38,7 @@ public int A { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### B
+### <a id="VM_CAD_Builders_ColorInfo_B"></a> B
 
 ```csharp
 public int B { get; set; }
@@ -48,7 +48,7 @@ public int B { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### EdgeInfo
+### <a id="VM_CAD_Builders_ColorInfo_EdgeInfo"></a> EdgeInfo
 
 ```csharp
 public List<TopologyInfo> EdgeInfo { get; set; }
@@ -58,7 +58,7 @@ public List<TopologyInfo> EdgeInfo { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[TopologyInfo](VM.CAD.Builders.TopologyInfo.md)\>
 
-### FaceInfo
+### <a id="VM_CAD_Builders_ColorInfo_FaceInfo"></a> FaceInfo
 
 ```csharp
 public List<TopologyInfo> FaceInfo { get; set; }
@@ -68,7 +68,7 @@ public List<TopologyInfo> FaceInfo { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[TopologyInfo](VM.CAD.Builders.TopologyInfo.md)\>
 
-### G
+### <a id="VM_CAD_Builders_ColorInfo_G"></a> G
 
 ```csharp
 public int G { get; set; }
@@ -78,7 +78,7 @@ public int G { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### R
+### <a id="VM_CAD_Builders_ColorInfo_R"></a> R
 
 ```csharp
 public int R { get; set; }
@@ -87,5 +87,4 @@ public int R { get; set; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 

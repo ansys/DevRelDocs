@@ -1,4 +1,4 @@
-# Class CreateDTEntityUtil.GearSetWormAndWormWheelCreateInfo
+#  Class CreateDTEntityUtil.GearSetWormAndWormWheelCreateInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -52,7 +52,7 @@ public class CreateDTEntityUtil.GearSetWormAndWormWheelCreateInfo : CreateDTEnti
 
 ## Constructors
 
-### GearSetWormAndWormWheelCreateInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetWormAndWormWheelCreateInfo__ctor"></a> GearSetWormAndWormWheelCreateInfo\(\)
 
 ```csharp
 public GearSetWormAndWormWheelCreateInfo()
@@ -60,7 +60,7 @@ public GearSetWormAndWormWheelCreateInfo()
 
 ## Fields
 
-### AddendumCoefficient
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetWormAndWormWheelCreateInfo_AddendumCoefficient"></a> AddendumCoefficient
 
 ```csharp
 public double[] AddendumCoefficient
@@ -70,7 +70,7 @@ public double[] AddendumCoefficient
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### DedendumCoefficient
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetWormAndWormWheelCreateInfo_DedendumCoefficient"></a> DedendumCoefficient
 
 ```csharp
 public double[] DedendumCoefficient
@@ -80,7 +80,7 @@ public double[] DedendumCoefficient
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### ToolTipRadius
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetWormAndWormWheelCreateInfo_ToolTipRadius"></a> ToolTipRadius
 
 ```csharp
 public double[] ToolTipRadius
@@ -92,7 +92,7 @@ public double[] ToolTipRadius
 
 ## Properties
 
-### InputArrayForWormAndWormWheel
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetWormAndWormWheelCreateInfo_InputArrayForWormAndWormWheel"></a> InputArrayForWormAndWormWheel
 
 ```csharp
 public string[] InputArrayForWormAndWormWheel { get; }
@@ -104,10 +104,9 @@ public string[] InputArrayForWormAndWormWheel { get; }
 
 ## Methods
 
-### InitializeWormAndWormWheel\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetWormAndWormWheelCreateInfo_InitializeWormAndWormWheel"></a> InitializeWormAndWormWheel\(\)
 
 ```csharp
 public void InitializeWormAndWormWheel()
 ```
-
 

@@ -1,4 +1,4 @@
-# Enum ControlType
+#  Enum ControlType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.Full](VM.Managed.DAFUL.Car.Analysis.Full.md)  
 Assembly: VMDCar.dll  
@@ -20,7 +20,6 @@ LateralAcceleration
 `Velocity = 0` 
 
 Velocity
-
 
 
 

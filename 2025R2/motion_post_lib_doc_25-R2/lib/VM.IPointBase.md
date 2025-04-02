@@ -1,4 +1,4 @@
-# Interface IPointBase
+#  Interface IPointBase
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IPointBase
 
 ## Properties
 
-### IsParameterized
+### <a id="VM_IPointBase_IsParameterized"></a> IsParameterized
 
 ```python
 bool IsParameterized { get; }
@@ -19,7 +19,7 @@ bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Value
+### <a id="VM_IPointBase_Value"></a> Value
 
 ```python
 Vector Value { get; }
@@ -29,7 +29,7 @@ Vector Value { get; }
 
  [Vector](VM.Vector.md)
 
-### X
+### <a id="VM_IPointBase_X"></a> X
 
 <p>Gets the X point.</p>
 
@@ -41,7 +41,7 @@ double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_IPointBase_Y"></a> Y
 
 <p>Gets the Y point.</p>
 
@@ -53,7 +53,7 @@ double Y { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Z
+### <a id="VM_IPointBase_Z"></a> Z
 
 <p>Gets the Z point.</p>
 
@@ -67,7 +67,7 @@ double Z { get; }
 
 ## Methods
 
-### IsParametric\(ReferenceTypes\)
+### <a id="VM_IPointBase_IsParametric_VM_ReferenceTypes_"></a> IsParametric\(ReferenceTypes\)
 
 ```python
 bool IsParametric(ReferenceTypes type)

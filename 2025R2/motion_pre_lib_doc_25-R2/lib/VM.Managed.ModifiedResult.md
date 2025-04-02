@@ -1,4 +1,4 @@
-# Class ModifiedResult
+#  Class ModifiedResult
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,12 +22,11 @@ public class ModifiedResult
 
 ## Constructors
 
-### ModifiedResult\(\)
+### <a id="VM_Managed_ModifiedResult__ctor"></a> ModifiedResult\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.ModifiedResult" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public ModifiedResult()
 ```
-
 

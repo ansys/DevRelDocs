@@ -1,4 +1,4 @@
-# Class PTSF
+#  Class PTSF
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -249,7 +249,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PTSF\(\)
+### <a id="VM_Managed_DAFUL_Contact_PTSF__ctor"></a> PTSF\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PTSF" data-throw-if-not-resolved="false"></xref> class.
 
@@ -257,7 +257,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PTSF" dat
 public PTSF()
 ```
 
-### PTSF\(string\)
+### <a id="VM_Managed_DAFUL_Contact_PTSF__ctor_System_String_"></a> PTSF\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PTSF" data-throw-if-not-resolved="false"></xref> class.
 
@@ -273,7 +273,7 @@ Name of the [point to surface] contact.
 
 ## Properties
 
-### CanSwitchImpl
+### <a id="VM_Managed_DAFUL_Contact_PTSF_CanSwitchImpl"></a> CanSwitchImpl
 
 ```csharp
 protected override bool CanSwitchImpl { get; }
@@ -283,7 +283,7 @@ protected override bool CanSwitchImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Geometry
+### <a id="VM_Managed_DAFUL_Contact_PTSF_Geometry"></a> Geometry
 
 Gets or sets the geometry.
 
@@ -295,7 +295,7 @@ public ContactGeom3D Geometry { get; set; }
 
  [ContactGeom3D](VM.Managed.DAFUL.Contact.ContactGeom3D.md)
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Contact_PTSF_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -307,7 +307,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
  IReportable.ReportEntityType
 
-### TargetType
+### <a id="VM_Managed_DAFUL_Contact_PTSF_TargetType"></a> TargetType
 
 Gets the type of the target.
 
@@ -319,7 +319,7 @@ public override string TargetType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Use
+### <a id="VM_Managed_DAFUL_Contact_PTSF_Use"></a> Use
 
 Gets a value indicating whether use this instance.
 
@@ -333,7 +333,7 @@ public override bool Use { get; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Contact_PTSF_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -347,7 +347,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_Contact_PTSF_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -367,7 +367,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Contact_PTSF_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -380,5 +380,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The factor.
-
 

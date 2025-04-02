@@ -1,4 +1,4 @@
-# Class Child<T, TUpdate\>
+#  Class Child<T, TUpdate\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -39,7 +39,7 @@ IPostDeserialized
 
 ## Constructors
 
-### Child\(ILinkContainer\)
+### <a id="VM_Managed_Child_2__ctor_VM_Models_Pre_ILinkContainer_"></a> Child\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.Child%602" data-throw-if-not-resolved="false"></xref> class.
 
@@ -53,7 +53,7 @@ public Child(ILinkContainer objParent)
 
 The linked object's container object.
 
-### Child\(ILinkContainer, T\)
+### <a id="VM_Managed_Child_2__ctor_VM_Models_Pre_ILinkContainer__0_"></a> Child\(ILinkContainer, T\)
 
 Initializes a new instance of the <xref href="VM.Managed.Child%602" data-throw-if-not-resolved="false"></xref> class.
 
@@ -71,7 +71,7 @@ The linked object's container object.
 
 The linked object.
 
-### Child\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_Child_2__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> Child\(SerializationInfo, StreamingContext\)
 
 ```csharp
 protected Child(SerializationInfo info, StreamingContext context)
@@ -85,7 +85,7 @@ protected Child(SerializationInfo info, StreamingContext context)
 
 ## Properties
 
-### Object
+### <a id="VM_Managed_Child_2_Object"></a> Object
 
 Gets or sets the linked object.
 
@@ -99,7 +99,7 @@ public virtual T Object { get; set; }
 
 ## Methods
 
-### Dispose\(bool\)
+### <a id="VM_Managed_Child_2_Dispose_System_Boolean_"></a> Dispose\(bool\)
 
 ```csharp
 protected void Dispose(bool A_0)
@@ -109,7 +109,7 @@ protected void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Dispose\(\)
+### <a id="VM_Managed_Child_2_Dispose"></a> Dispose\(\)
 
 destroy a instance of the <xref href="VM.Managed.Child%602" data-throw-if-not-resolved="false"></xref> class.
 
@@ -117,7 +117,7 @@ destroy a instance of the <xref href="VM.Managed.Child%602" data-throw-if-not-re
 public override sealed void Dispose()
 ```
 
-### GetObjectData\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_Child_2_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> GetObjectData\(SerializationInfo, StreamingContext\)
 
 Serialization function for restore.
 
@@ -133,7 +133,7 @@ The info.
 
 `__unnamed001` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-### OnDeserialized\(StreamingContext\)
+### <a id="VM_Managed_Child_2_OnDeserialized_System_Runtime_Serialization_StreamingContext_"></a> OnDeserialized\(StreamingContext\)
 
 ```csharp
 [OnDeserialized]
@@ -144,7 +144,7 @@ public void OnDeserialized(StreamingContext context)
 
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-### OnPostDeserialized\(StreamingContext\)
+### <a id="VM_Managed_Child_2_OnPostDeserialized_System_Runtime_Serialization_StreamingContext_"></a> OnPostDeserialized\(StreamingContext\)
 
 ```csharp
 public void OnPostDeserialized(StreamingContext context)
@@ -154,7 +154,7 @@ public void OnPostDeserialized(StreamingContext context)
 
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-### OnResetLink\(\)
+### <a id="VM_Managed_Child_2_OnResetLink"></a> OnResetLink\(\)
 
 ```csharp
 protected void OnResetLink()
@@ -162,7 +162,7 @@ protected void OnResetLink()
 
 ## Operators
 
-### implicit operator T\(Child<T, TUpdate\>\)
+### <a id="VM_Managed_Child_2_op_Implicit_VM_Managed_Child__0__1____0"></a> implicit operator T\(Child<T, TUpdate\>\)
 
 ```csharp
 public static implicit operator T(Child<T, TUpdate> child)
@@ -175,5 +175,4 @@ public static implicit operator T(Child<T, TUpdate> child)
 #### Returns
 
  T
-
 

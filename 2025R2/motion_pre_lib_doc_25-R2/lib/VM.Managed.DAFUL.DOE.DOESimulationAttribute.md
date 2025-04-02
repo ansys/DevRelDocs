@@ -1,4 +1,4 @@
-# Class DOESimulationAttribute
+#  Class DOESimulationAttribute
 
 Namespace: [VM.Managed.DAFUL.DOE](VM.Managed.DAFUL.DOE.md)  
 Assembly: VMDDOE.dll  
@@ -97,7 +97,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DOESimulationAttribute\(\)
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute__ctor"></a> DOESimulationAttribute\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.DOE.DOESimulationAttribute" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ public DOESimulationAttribute()
 
 ## Properties
 
-### DesignParameters
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_DesignParameters"></a> DesignParameters
 
 ```csharp
 public DesignParameterInfo[] DesignParameters { get; set; }
@@ -117,7 +117,7 @@ public DesignParameterInfo[] DesignParameters { get; set; }
 
  [DesignParameterInfo](VM.Managed.DAFUL.DOE.DesignParameterInfo.md)\[\]
 
-### PerformanceIndexs
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_PerformanceIndexs"></a> PerformanceIndexs
 
 ```csharp
 public PerformanceIndexInfo[] PerformanceIndexs { get; set; }
@@ -127,7 +127,7 @@ public PerformanceIndexInfo[] PerformanceIndexs { get; set; }
 
  [PerformanceIndexInfo](VM.Managed.DAFUL.DOE.PerformanceIndexInfo.md)\[\]
 
-### RunIndexs
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_RunIndexs"></a> RunIndexs
 
 ```csharp
 public int[] RunIndexs { get; }
@@ -137,7 +137,7 @@ public int[] RunIndexs { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
 
-### TypeOfDOE
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_TypeOfDOE"></a> TypeOfDOE
 
 ```csharp
 public DOEType TypeOfDOE { get; set; }
@@ -147,7 +147,7 @@ public DOEType TypeOfDOE { get; set; }
 
  [DOEType](VM.Managed.DAFUL.DOE.DOEType.md)
 
-### UseAppendDateAndTime
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_UseAppendDateAndTime"></a> UseAppendDateAndTime
 
 ```csharp
 public bool UseAppendDateAndTime { get; set; }
@@ -157,7 +157,7 @@ public bool UseAppendDateAndTime { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseCreateGraphicFile
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_UseCreateGraphicFile"></a> UseCreateGraphicFile
 
 ```csharp
 public bool UseCreateGraphicFile { get; set; }
@@ -167,7 +167,7 @@ public bool UseCreateGraphicFile { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseCreateModel
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_UseCreateModel"></a> UseCreateModel
 
 ```csharp
 public bool UseCreateModel { get; set; }
@@ -177,7 +177,7 @@ public bool UseCreateModel { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseSimResultPath
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_UseSimResultPath"></a> UseSimResultPath
 
 ```csharp
 public bool UseSimResultPath { get; set; }
@@ -187,7 +187,7 @@ public bool UseSimResultPath { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### \_Level
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute__Level"></a> \_Level
 
 ```csharp
 public uint _Level { get; set; }
@@ -197,7 +197,7 @@ public uint _Level { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### \_ResultPath
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute__ResultPath"></a> \_ResultPath
 
 ```csharp
 public string _ResultPath { get; set; }
@@ -207,7 +207,7 @@ public string _ResultPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### \_Run
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute__Run"></a> \_Run
 
 ```csharp
 public double _Run { get; set; }
@@ -219,7 +219,7 @@ public double _Run { get; set; }
 
 ## Methods
 
-### FindDP\(ObjectBase, ValueType\)
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_FindDP_VM_Managed_ObjectBase_VM_Managed_DAFUL_DOE_DesignParameterInfo_ValueType_"></a> FindDP\(ObjectBase, ValueType\)
 
 ```csharp
 public DesignParameterInfo FindDP(ObjectBase target, DesignParameterInfo.ValueType type)
@@ -235,7 +235,7 @@ public DesignParameterInfo FindDP(ObjectBase target, DesignParameterInfo.ValueTy
 
  [DesignParameterInfo](VM.Managed.DAFUL.DOE.DesignParameterInfo.md)
 
-### FindPI\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_FindPI_VM_Managed_ObjectBase_"></a> FindPI\(ObjectBase\)
 
 ```csharp
 public PerformanceIndexInfo FindPI(ObjectBase target)
@@ -249,7 +249,7 @@ public PerformanceIndexInfo FindPI(ObjectBase target)
 
  [PerformanceIndexInfo](VM.Managed.DAFUL.DOE.PerformanceIndexInfo.md)
 
-### GetAbsoluteResultPath\(Document\)
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_GetAbsoluteResultPath_VM_Managed_Document_"></a> GetAbsoluteResultPath\(Document\)
 
 ```csharp
 public string GetAbsoluteResultPath(Document document)
@@ -263,7 +263,7 @@ public string GetAbsoluteResultPath(Document document)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetAllFiles\(\)
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_GetAllFiles"></a> GetAllFiles\(\)
 
 ```csharp
 public List<string> GetAllFiles()
@@ -273,7 +273,7 @@ public List<string> GetAllFiles()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### GetCaseCount\(\)
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_GetCaseCount"></a> GetCaseCount\(\)
 
 ```csharp
 public int GetCaseCount()
@@ -283,7 +283,7 @@ public int GetCaseCount()
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -299,7 +299,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_DOE_DOESimulationAttribute_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -312,5 +312,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

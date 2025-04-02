@@ -1,4 +1,4 @@
-# Class StraightLineBase
+#  Class StraightLineBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -49,7 +49,7 @@ IHasInitialVel
 
 ## Constructors
 
-### StraightLineBase\(\)
+### <a id="VM_Managed_DAFUL_Car_StraightLineBase__ctor"></a> StraightLineBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.StraightLineBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -57,7 +57,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.StraightLineB
 public StraightLineBase()
 ```
 
-### StraightLineBase\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_StraightLineBase__ctor_VM_Models_Pre_ILinkContainer_"></a> StraightLineBase\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.StraightLineBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -73,7 +73,7 @@ The link container.
 
 ## Properties
 
-### InitialVelocity
+### <a id="VM_Managed_DAFUL_Car_StraightLineBase_InitialVelocity"></a> InitialVelocity
 
 Gets or sets the initial velocity.
 
@@ -85,7 +85,7 @@ public double InitialVelocity { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TimeOfStart
+### <a id="VM_Managed_DAFUL_Car_StraightLineBase_TimeOfStart"></a> TimeOfStart
 
 Gets or sets the start time.
 
@@ -97,7 +97,7 @@ public double TimeOfStart { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### VelocityUnitType
+### <a id="VM_Managed_DAFUL_Car_StraightLineBase_VelocityUnitType"></a> VelocityUnitType
 
 Gets or sets the type of the velocity unit.
 
@@ -111,7 +111,7 @@ public VelocityUnitType VelocityUnitType { get; set; }
 
 ## Methods
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_StraightLineBase_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -124,5 +124,4 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
-
 

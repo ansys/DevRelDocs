@@ -1,4 +1,4 @@
-# Enum Reboundstop.MethodType
+#  Enum Reboundstop.MethodType
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -20,7 +20,6 @@ Clearance
 `ImpactLength = 1` 
 
 ImpactLength
-
 
 
 

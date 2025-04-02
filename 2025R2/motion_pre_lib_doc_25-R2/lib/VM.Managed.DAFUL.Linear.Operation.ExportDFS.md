@@ -1,4 +1,4 @@
-# Class ExportDFS
+#  Class ExportDFS
 
 Namespace: [VM.Managed.DAFUL.Linear.Operation](VM.Managed.DAFUL.Linear.Operation.md)  
 Assembly: VMOpLinear.dll  
@@ -110,7 +110,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ExportDFS\(Document\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ExportDFS__ctor_VM_Managed_Document_"></a> ExportDFS\(Document\)
 
 ```csharp
 public ExportDFS(Document doc)
@@ -120,7 +120,7 @@ public ExportDFS(Document doc)
 
 `doc` Document
 
-### ExportDFS\(Document, ObjectBase\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ExportDFS__ctor_VM_Managed_Document_VM_Managed_ObjectBase_"></a> ExportDFS\(Document, ObjectBase\)
 
 ```csharp
 public ExportDFS(Document doc, ObjectBase objSingle)
@@ -132,7 +132,7 @@ public ExportDFS(Document doc, ObjectBase objSingle)
 
 `objSingle` ObjectBase
 
-### ExportDFS\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ExportDFS__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportDFS\(JournalParameter\)
 
 ```csharp
 public ExportDFS(JournalParameter jp)
@@ -144,7 +144,7 @@ public ExportDFS(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Linear_Operation_ExportDFS_Name"></a> Name
 
 Gets the operation name.
 
@@ -158,7 +158,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ExportDFS_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -166,7 +166,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### SimulationRunImpl\(bool\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ExportDFS_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
 
 ```csharp
 protected override void SimulationRunImpl(bool bWriteDFG)
@@ -175,5 +175,4 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 #### Parameters
 
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

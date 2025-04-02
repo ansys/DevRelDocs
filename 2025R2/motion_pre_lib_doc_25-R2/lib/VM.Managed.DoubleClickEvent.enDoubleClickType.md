@@ -1,4 +1,4 @@
-# Enum enDoubleClickType
+#  Enum enDoubleClickType
 
 Namespace: [VM.Managed.DoubleClickEvent](VM.Managed.DoubleClickEvent.md)  
 Assembly: VMAppCore.dll  
@@ -20,7 +20,6 @@ The open assembly file
 `ShowProperty = 0` 
 
 The show property
-
 
 
 

@@ -1,4 +1,4 @@
-# Class LayerManager
+#  Class LayerManager
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -117,7 +117,7 @@ ObservableObject.PropertyChanged
 
 ## Properties
 
-### ActiveLayer
+### <a id="VM_Managed_LayerManager_ActiveLayer"></a> ActiveLayer
 
 Gets or sets the active layer.
 
@@ -129,7 +129,7 @@ public Layer ActiveLayer { get; set; }
 
  [Layer](VM.Managed.Layer.md)
 
-### HiddenLayer
+### <a id="VM_Managed_LayerManager_HiddenLayer"></a> HiddenLayer
 
 Gets or sets the hidden layer.
 
@@ -141,7 +141,7 @@ public Layer HiddenLayer { get; }
 
  [Layer](VM.Managed.Layer.md)
 
-### Layers
+### <a id="VM_Managed_LayerManager_Layers"></a> Layers
 
 Gets or sets the layer container.
 
@@ -155,7 +155,7 @@ public ICollection<Layer> Layers { get; }
 
 ## Methods
 
-### CreateNewLayer\(\)
+### <a id="VM_Managed_LayerManager_CreateNewLayer"></a> CreateNewLayer\(\)
 
 Create new layer.
 
@@ -167,7 +167,7 @@ public Layer CreateNewLayer()
 
  [Layer](VM.Managed.Layer.md)
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_LayerManager_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 <p>Called when [deserialization].</p>
 
@@ -180,5 +180,4 @@ protected override sealed void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 <p>The sender.</p>
-
 

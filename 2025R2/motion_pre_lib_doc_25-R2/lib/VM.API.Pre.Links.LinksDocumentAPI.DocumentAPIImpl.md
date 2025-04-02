@@ -1,4 +1,4 @@
-# Class LinksDocumentAPI.DocumentAPIImpl
+#  Class LinksDocumentAPI.DocumentAPIImpl
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -22,7 +22,7 @@ public static class LinksDocumentAPI.DocumentAPIImpl
 
 ## Methods
 
-### CreateNewLinksDocumentImpl<T\>\(string, string, Unit, Plane, LengthUnitType, string, string\)
+### <a id="VM_API_Pre_Links_LinksDocumentAPI_DocumentAPIImpl_CreateNewLinksDocumentImpl__1_System_String_System_String_VM_Unit_VM_Plane_VM_API_Pre_LengthUnitType_System_String_System_String_"></a> CreateNewLinksDocumentImpl<T\>\(string, string, Unit, Plane, LengthUnitType, string, string\)
 
 Create <xref href="VM.Managed.DAFUL.DocumentAnalysis" data-throw-if-not-resolved="false"></xref>.
 
@@ -78,5 +78,4 @@ The document type
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'newLinksSubsystemFilePath' argument is null.
-
 

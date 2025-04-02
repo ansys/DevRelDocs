@@ -1,4 +1,4 @@
-# Class Object<TEventCore\>.EventCoreSerializeHelper
+#  Class Object<TEventCore\>.EventCoreSerializeHelper
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class Object<TEventCore>.EventCoreSerializeHelper
 
 ## Constructors
 
-### EventCoreSerializeHelper\(ObjectEventCore\)
+### <a id="VM_Managed_Object_1_EventCoreSerializeHelper__ctor_VM_Managed_ObjectEventCore_"></a> EventCoreSerializeHelper\(ObjectEventCore\)
 
 ```csharp
 public EventCoreSerializeHelper(ObjectEventCore core)
@@ -34,7 +34,7 @@ public EventCoreSerializeHelper(ObjectEventCore core)
 
 ## Properties
 
-### EventCore
+### <a id="VM_Managed_Object_1_EventCoreSerializeHelper_EventCore"></a> EventCore
 
 ```csharp
 public ObjectEventCore EventCore { get; }
@@ -43,5 +43,4 @@ public ObjectEventCore EventCore { get; }
 #### Property Value
 
  [ObjectEventCore](VM.Managed.ObjectEventCore.md)
-
 

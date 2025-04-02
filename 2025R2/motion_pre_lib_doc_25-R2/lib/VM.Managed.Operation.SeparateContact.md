@@ -1,4 +1,4 @@
-# Class SeparateContact
+#  Class SeparateContact
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### SeparateContact\(\)
+### <a id="VM_Managed_Operation_SeparateContact__ctor"></a> SeparateContact\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.SeparateContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.Operation.SeparateConta
 public SeparateContact()
 ```
 
-### SeparateContact\(string\)
+### <a id="VM_Managed_Operation_SeparateContact__ctor_System_String_"></a> SeparateContact\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.SeparateContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -101,7 +101,7 @@ The XML.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_Operation_SeparateContact_Name"></a> Name
 
 Gets the operation name.
 
@@ -115,12 +115,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_Operation_SeparateContact_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

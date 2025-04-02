@@ -1,4 +1,4 @@
-# Enum Configuration.MemoryOptimization
+#  Enum Configuration.MemoryOptimization
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -20,7 +20,6 @@ CAL
 `SV = 0` 
 
 SV
-
 
 
 

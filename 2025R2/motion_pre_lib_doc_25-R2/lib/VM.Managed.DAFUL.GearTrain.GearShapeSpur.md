@@ -1,4 +1,4 @@
-# Class GearShapeSpur
+#  Class GearShapeSpur
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -128,12 +128,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearShapeSpur\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeSpur__ctor"></a> GearShapeSpur\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearShapeSpur" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public GearShapeSpur()
 ```
-
 

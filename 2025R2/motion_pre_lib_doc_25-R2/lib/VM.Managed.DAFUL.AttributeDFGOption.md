@@ -1,4 +1,4 @@
-# Class AttributeDFGOption
+#  Class AttributeDFGOption
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeDFGOption\(\)
+### <a id="VM_Managed_DAFUL_AttributeDFGOption__ctor"></a> AttributeDFGOption\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeDFGOption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeDFGOptio
 public AttributeDFGOption()
 ```
 
-### AttributeDFGOption\(bool\)
+### <a id="VM_Managed_DAFUL_AttributeDFGOption__ctor_System_Boolean_"></a> AttributeDFGOption\(bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeDFGOption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -122,7 +122,7 @@ public AttributeDFGOption(bool bUseDefault)
 
 if set to <code>true</code> [use default parameters].
 
-### AttributeDFGOption\(Variable, Variable, Variable, Variable, bool, bool, bool, bool, bool, bool\)
+### <a id="VM_Managed_DAFUL_AttributeDFGOption__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> AttributeDFGOption\(Variable, Variable, Variable, Variable, bool, bool, bool, bool, bool, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeDFGOption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -174,7 +174,7 @@ if set to <code>true</code> [unuse approximated evaluation].
 
 ## Properties
 
-### FacetAspectRatio
+### <a id="VM_Managed_DAFUL_AttributeDFGOption_FacetAspectRatio"></a> FacetAspectRatio
 
 Gets or sets the facet aspect ratio.
 
@@ -186,7 +186,7 @@ public ExpressionValueVariable FacetAspectRatio { get; set; }
 
  ExpressionValueVariable
 
-### MaximumFacetSize
+### <a id="VM_Managed_DAFUL_AttributeDFGOption_MaximumFacetSize"></a> MaximumFacetSize
 
 Gets or sets the maximum size of the facet.
 
@@ -198,7 +198,7 @@ public ExpressionValueVariable MaximumFacetSize { get; set; }
 
  ExpressionValueVariable
 
-### MaximumGridLine
+### <a id="VM_Managed_DAFUL_AttributeDFGOption_MaximumGridLine"></a> MaximumGridLine
 
 Gets or sets the maximum grid line.
 
@@ -210,7 +210,7 @@ public ExpressionValueVariable MaximumGridLine { get; set; }
 
  ExpressionValueVariable
 
-### SurfaceAngularTolerance
+### <a id="VM_Managed_DAFUL_AttributeDFGOption_SurfaceAngularTolerance"></a> SurfaceAngularTolerance
 
 Gets or sets the surface angular tolerance.
 
@@ -222,7 +222,7 @@ public ExpressionValueVariable SurfaceAngularTolerance { get; set; }
 
  ExpressionValueVariable
 
-### UseApprox\_eval
+### <a id="VM_Managed_DAFUL_AttributeDFGOption_UseApprox_eval"></a> UseApprox\_eval
 
 Gets or sets a value indicating whether use [approximated evaluation].
 
@@ -234,7 +234,7 @@ public bool UseApprox_eval { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseDefault
+### <a id="VM_Managed_DAFUL_AttributeDFGOption_UseDefault"></a> UseDefault
 
 Gets or sets a value indicating whether use [default option].
 
@@ -246,7 +246,7 @@ public bool UseDefault { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseFacetAspectRatio
+### <a id="VM_Managed_DAFUL_AttributeDFGOption_UseFacetAspectRatio"></a> UseFacetAspectRatio
 
 Gets or sets a value indicating whether use [facet aspect ratio].
 
@@ -258,7 +258,7 @@ public bool UseFacetAspectRatio { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseMaximumFacetSize
+### <a id="VM_Managed_DAFUL_AttributeDFGOption_UseMaximumFacetSize"></a> UseMaximumFacetSize
 
 Gets or sets a value indicating whether use [maximum facet size].
 
@@ -270,7 +270,7 @@ public bool UseMaximumFacetSize { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseMaximumGridLine
+### <a id="VM_Managed_DAFUL_AttributeDFGOption_UseMaximumGridLine"></a> UseMaximumGridLine
 
 Gets or sets a value indicating whether use [maximum grid line].
 
@@ -282,7 +282,7 @@ public bool UseMaximumGridLine { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseSurfaceAngularTolerance
+### <a id="VM_Managed_DAFUL_AttributeDFGOption_UseSurfaceAngularTolerance"></a> UseSurfaceAngularTolerance
 
 Gets or sets a value indicating whether use [surface angular tolerance].
 
@@ -296,7 +296,7 @@ public bool UseSurfaceAngularTolerance { get; set; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_DAFUL_AttributeDFGOption_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <xref href="System.Xml.Serialization.XmlSchemaProviderAttribute" data-throw-if-not-resolved="false"></xref> to the class.
 
@@ -310,7 +310,7 @@ public virtual XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### Initialize\(\)
+### <a id="VM_Managed_DAFUL_AttributeDFGOption_Initialize"></a> Initialize\(\)
 
 Initializes this instance.
 
@@ -318,7 +318,7 @@ Initializes this instance.
 protected void Initialize()
 ```
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_AttributeDFGOption_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -332,7 +332,7 @@ public virtual void ReadXml(XmlReader reader)
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_AttributeDFGOption_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -345,5 +345,4 @@ public virtual void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
-
 

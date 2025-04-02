@@ -1,4 +1,4 @@
-# Class BeamBodyAPI
+#  Class BeamBodyAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -22,7 +22,7 @@ public static class BeamBodyAPI
 
 ## Methods
 
-### CreateBeamNodalBody\(SubSystemDocument, string, string, Vector, Vector, Vector, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
+### <a id="VM_API_Pre_FE_BeamBodyAPI_CreateBeamNodalBody_VM_Managed_DAFUL_SubSystemDocument_System_String_System_String_VM_Vector_VM_Vector_VM_Vector_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_"></a> CreateBeamNodalBody\(SubSystemDocument, string, string, Vector, Vector, Vector, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable\)
 
 Create Beam FE Body for Beam Contact
 
@@ -107,5 +107,4 @@ Will be thrown if vector of 'endPoint' - 'startPoint' parallel with 'yDirection'
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if 'numberOfHexElementPerSegment' is less than 8 or an odd number.
-
 

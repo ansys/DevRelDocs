@@ -1,4 +1,4 @@
-# Class OrientationToeCamber
+#  Class OrientationToeCamber
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -131,7 +131,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### OrientationToeCamber\(\)
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber__ctor"></a> OrientationToeCamber\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.OrientationToeCamber" data-throw-if-not-resolved="false"></xref> class.
 
@@ -139,7 +139,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.OrientationTo
 public OrientationToeCamber()
 ```
 
-### OrientationToeCamber\(double, double, AngleTypes, SymmetricType\)
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber__ctor_System_Double_System_Double_VM_AngleTypes_VM_Managed_SymmetricType_"></a> OrientationToeCamber\(double, double, AngleTypes, SymmetricType\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.OrientationToeCamber" data-throw-if-not-resolved="false"></xref> class.
 
@@ -165,7 +165,7 @@ Type of the angle.
 
 The symmetric type.
 
-### OrientationToeCamber\(string, string, AngleTypes, SymmetricType\)
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber__ctor_System_String_System_String_VM_AngleTypes_VM_Managed_SymmetricType_"></a> OrientationToeCamber\(string, string, AngleTypes, SymmetricType\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.OrientationToeCamber" data-throw-if-not-resolved="false"></xref> class.
 
@@ -191,7 +191,7 @@ Type of the angle.
 
 The symmetric type.
 
-### OrientationToeCamber\(Variable, Variable, AngleTypes, SymmetricType\)
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_AngleTypes_VM_Managed_SymmetricType_"></a> OrientationToeCamber\(Variable, Variable, AngleTypes, SymmetricType\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.OrientationToeCamber" data-throw-if-not-resolved="false"></xref> class.
 
@@ -217,7 +217,7 @@ Type of the angle.
 
 The symmetric type.
 
-### OrientationToeCamber\(DesignVariable, DesignVariable, AngleTypes, SymmetricType\)
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber__ctor_VM_Managed_DesignVariable_VM_Managed_DesignVariable_VM_AngleTypes_VM_Managed_SymmetricType_"></a> OrientationToeCamber\(DesignVariable, DesignVariable, AngleTypes, SymmetricType\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.OrientationToeCamber" data-throw-if-not-resolved="false"></xref> class.
 
@@ -245,7 +245,7 @@ The symmetric type.
 
 ## Properties
 
-### Camber
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber_Camber"></a> Camber
 
 Gets or sets the camber angle.
 
@@ -257,7 +257,7 @@ public ExpressionValueVariable Camber { get; set; }
 
  ExpressionValueVariable
 
-### IsParameterized
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -269,7 +269,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SymmetricType
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber_SymmetricType"></a> SymmetricType
 
 Gets or sets the symmetric type.
 
@@ -281,7 +281,7 @@ public SymmetricType SymmetricType { get; set; }
 
  SymmetricType
 
-### Toe
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber_Toe"></a> Toe
 
 Gets or sets the toe angle.
 
@@ -293,7 +293,7 @@ public ExpressionValueVariable Toe { get; set; }
 
  ExpressionValueVariable
 
-### ToeCamberAngle
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber_ToeCamberAngle"></a> ToeCamberAngle
 
 Gets or sets the type of the toe camber angle.
 
@@ -305,7 +305,7 @@ public AngleTypes ToeCamberAngle { get; set; }
 
  AngleTypes
 
-### Value
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber_Value"></a> Value
 
 Gets the information of orientation(OMatrix type).
 
@@ -319,7 +319,7 @@ public override OMatrix Value { get; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -334,7 +334,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -352,7 +352,7 @@ The linked object.
 
 The update event information.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -366,7 +366,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Car_OrientationToeCamber_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -379,5 +379,4 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

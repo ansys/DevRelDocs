@@ -1,4 +1,4 @@
-# Class UserSubroutine.UserDefinedDisplay
+#  Class UserSubroutine.UserDefinedDisplay
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSP.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### UserDefinedDisplay\(\)
+### <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay__ctor"></a> UserDefinedDisplay\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.UserSubroutine.UserDefinedDisplay" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public UserDefinedDisplay()
 
 ## Properties
 
-### DisplaySets
+### <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_DisplaySets"></a> DisplaySets
 
 Gets or sets the display sets.
 
@@ -118,7 +118,7 @@ public UserSubroutine.UserDefinedDisplay.DisplaySet[] DisplaySets { get; set; }
 
  [UserSubroutine](VM.Managed.DAFUL.UserSubroutine.md).[UserDefinedDisplay](VM.Managed.DAFUL.UserSubroutine.UserDefinedDisplay.md).[DisplaySet](VM.Managed.DAFUL.UserSubroutine.UserDefinedDisplay.DisplaySet.md)\[\]
 
-### Name
+### <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_Name"></a> Name
 
 Gets or sets the name.
 
@@ -130,7 +130,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TypeOfDisplay
+### <a id="VM_Managed_DAFUL_UserSubroutine_UserDefinedDisplay_TypeOfDisplay"></a> TypeOfDisplay
 
 Gets or sets the type of display.
 
@@ -141,5 +141,4 @@ public UserSubroutine.UserDefinedDisplay.DisplayType TypeOfDisplay { get; set; }
 #### Property Value
 
  [UserSubroutine](VM.Managed.DAFUL.UserSubroutine.md).[UserDefinedDisplay](VM.Managed.DAFUL.UserSubroutine.UserDefinedDisplay.md).[DisplayType](VM.Managed.DAFUL.UserSubroutine.UserDefinedDisplay.DisplayType.md)
-
 

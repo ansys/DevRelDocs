@@ -1,4 +1,4 @@
-# Class ModelTemplate
+#  Class ModelTemplate
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -36,7 +36,7 @@ public class ModelTemplate : FileGroup<Model.ModelItemGroup, GroupItem>, IFileGr
 
 ## Constructors
 
-### ModelTemplate\(\)
+### <a id="VM_Managed_DAFUL_Pre_ModelTemplate__ctor"></a> ModelTemplate\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.ModelTemplate" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,7 +46,7 @@ public ModelTemplate()
 
 ## Properties
 
-### DefaultName
+### <a id="VM_Managed_DAFUL_Pre_ModelTemplate_DefaultName"></a> DefaultName
 
 Gets or sets the default name.
 
@@ -58,7 +58,7 @@ public string DefaultName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Description
+### <a id="VM_Managed_DAFUL_Pre_ModelTemplate_Description"></a> Description
 
 Gets or sets the description.
 
@@ -70,7 +70,7 @@ public string Description { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Extension
+### <a id="VM_Managed_DAFUL_Pre_ModelTemplate_Extension"></a> Extension
 
 Gets or sets the extension.
 
@@ -82,7 +82,7 @@ public string Extension { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Folders
+### <a id="VM_Managed_DAFUL_Pre_ModelTemplate_Folders"></a> Folders
 
 Gets or sets the folders.
 
@@ -94,7 +94,7 @@ public List<string> Folders { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### IconPath
+### <a id="VM_Managed_DAFUL_Pre_ModelTemplate_IconPath"></a> IconPath
 
 Gets or sets the icon path.
 
@@ -106,7 +106,7 @@ public string IconPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ToolKit
+### <a id="VM_Managed_DAFUL_Pre_ModelTemplate_ToolKit"></a> ToolKit
 
 Gets or sets the tool kit.
 
@@ -118,7 +118,7 @@ public string ToolKit { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Type
+### <a id="VM_Managed_DAFUL_Pre_ModelTemplate_Type"></a> Type
 
 Gets or sets the type.
 
@@ -132,7 +132,7 @@ public string Type { get; set; }
 
 ## Methods
 
-### CreateModel\(string\)
+### <a id="VM_Managed_DAFUL_Pre_ModelTemplate_CreateModel_System_String_"></a> CreateModel\(string\)
 
 Creates the model.
 
@@ -151,5 +151,4 @@ Name of the model.
  [Model](VM.Managed.DAFUL.Pre.Model.md)
 
 The new model.
-
 

@@ -1,4 +1,4 @@
-# Class ScenarioBase
+#  Class ScenarioBase
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -52,7 +52,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ScenarioBase\(IProjectDocument, string\)
+### <a id="VM_Models_ScenarioBase__ctor_VM_Models_IProjectDocument_System_String_"></a> ScenarioBase\(IProjectDocument, string\)
 
 ```csharp
 public ScenarioBase(IProjectDocument parent, string name)
@@ -66,7 +66,7 @@ public ScenarioBase(IProjectDocument parent, string name)
 
 ## Properties
 
-### CategoryName
+### <a id="VM_Models_ScenarioBase_CategoryName"></a> CategoryName
 
 ```csharp
 [Browsable(false)]
@@ -77,7 +77,7 @@ public abstract string CategoryName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsSelected
+### <a id="VM_Models_ScenarioBase_IsSelected"></a> IsSelected
 
 ```csharp
 [Browsable(false)]
@@ -88,7 +88,7 @@ public bool IsSelected { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Items
+### <a id="VM_Models_ScenarioBase_Items"></a> Items
 
 ```csharp
 public IEnumerable<IStep> Items { get; }
@@ -98,7 +98,7 @@ public IEnumerable<IStep> Items { get; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IStep](VM.Models.IStep.md)\>
 
-### Left
+### <a id="VM_Models_ScenarioBase_Left"></a> Left
 
 ```csharp
 [Browsable(false)]
@@ -109,7 +109,7 @@ public double Left { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Name
+### <a id="VM_Models_ScenarioBase_Name"></a> Name
 
 ```csharp
 public override string Name { get; set; }
@@ -119,7 +119,7 @@ public override string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Parent
+### <a id="VM_Models_ScenarioBase_Parent"></a> Parent
 
 ```csharp
 [Browsable(false)]
@@ -130,7 +130,7 @@ public IProjectDocument Parent { get; }
 
  [IProjectDocument](VM.Models.IProjectDocument.md)
 
-### ParentDocument
+### <a id="VM_Models_ScenarioBase_ParentDocument"></a> ParentDocument
 
 ```csharp
 [Browsable(false)]
@@ -141,7 +141,7 @@ public IProjectDocument ParentDocument { get; }
 
  [IProjectDocument](VM.Models.IProjectDocument.md)
 
-### Top
+### <a id="VM_Models_ScenarioBase_Top"></a> Top
 
 ```csharp
 [Browsable(false)]
@@ -152,7 +152,7 @@ public double Top { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### this\[Identifier\]
+### <a id="VM_Models_ScenarioBase_Item_VM_Identifier_"></a> this\[Identifier\]
 
 ```csharp
 public IStep this[Identifier identifier] { get; }
@@ -162,7 +162,7 @@ public IStep this[Identifier identifier] { get; }
 
  [IStep](VM.Models.IStep.md)
 
-### this\[int\]
+### <a id="VM_Models_ScenarioBase_Item_System_Int32_"></a> this\[int\]
 
 ```csharp
 public IStep this[int index] { get; }
@@ -174,7 +174,7 @@ public IStep this[int index] { get; }
 
 ## Methods
 
-### Add\(IStep\)
+### <a id="VM_Models_ScenarioBase_Add_VM_Models_IStep_"></a> Add\(IStep\)
 
 ```csharp
 public void Add(IStep item)
@@ -184,19 +184,19 @@ public void Add(IStep item)
 
 `item` [IStep](VM.Models.IStep.md)
 
-### Clear\(\)
+### <a id="VM_Models_ScenarioBase_Clear"></a> Clear\(\)
 
 ```csharp
 public void Clear()
 ```
 
-### DisposeManagedResources\(\)
+### <a id="VM_Models_ScenarioBase_DisposeManagedResources"></a> DisposeManagedResources\(\)
 
 ```csharp
 protected override void DisposeManagedResources()
 ```
 
-### Remove\(IStep\)
+### <a id="VM_Models_ScenarioBase_Remove_VM_Models_IStep_"></a> Remove\(IStep\)
 
 ```csharp
 public void Remove(IStep item)
@@ -206,7 +206,7 @@ public void Remove(IStep item)
 
 `item` [IStep](VM.Models.IStep.md)
 
-### TryGetItem\(Identifier, out IStep\)
+### <a id="VM_Models_ScenarioBase_TryGetItem_VM_Identifier_VM_Models_IStep__"></a> TryGetItem\(Identifier, out IStep\)
 
 ```csharp
 public bool TryGetItem(Identifier identifier, out IStep item)
@@ -221,5 +221,4 @@ public bool TryGetItem(Identifier identifier, out IStep item)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

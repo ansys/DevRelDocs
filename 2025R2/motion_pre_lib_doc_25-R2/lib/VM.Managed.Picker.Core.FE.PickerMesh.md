@@ -1,4 +1,4 @@
-# Class PickerMesh
+#  Class PickerMesh
 
 Namespace: [VM.Managed.Picker.Core.FE](VM.Managed.Picker.Core.FE.md)  
 Assembly: VMAppCore.dll  
@@ -50,7 +50,7 @@ public class PickerMesh : PickerBase
 
 ## Constructors
 
-### PickerMesh\(\)
+### <a id="VM_Managed_Picker_Core_FE_PickerMesh__ctor"></a> PickerMesh\(\)
 
 ```csharp
 public PickerMesh()
@@ -58,7 +58,7 @@ public PickerMesh()
 
 ## Methods
 
-### GetPickerInfo\(\)
+### <a id="VM_Managed_Picker_Core_FE_PickerMesh_GetPickerInfo"></a> GetPickerInfo\(\)
 
 Gets information of picking type.
 
@@ -70,7 +70,7 @@ public override string GetPickerInfo()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SetResultImpl\(ref string, bool\)
+### <a id="VM_Managed_Picker_Core_FE_PickerMesh_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -93,5 +93,4 @@ If it is true, skip the result setting.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

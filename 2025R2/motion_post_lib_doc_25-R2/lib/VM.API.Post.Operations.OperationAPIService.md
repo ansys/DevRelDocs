@@ -1,4 +1,4 @@
-# Class OperationAPIService
+#  Class OperationAPIService
 
 Namespace: [VM.API.Post.Operations](VM.API.Post.Operations.md)  
 Assembly: VM.API.Post.Operations.dll  
@@ -11,7 +11,7 @@ public static class OperationAPIService
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [OperationAPIService](VM.API.Post.Operations.OperationAPIService.md)
 
 ## Examples
@@ -62,7 +62,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Methods
 
-### GetColorFrameRGB\(int, int, int\)
+### <a id="VM_API_Post_Operations_OperationAPIService_GetColorFrameRGB_System_Int32_System_Int32_System_Int32_"></a> GetColorFrameRGB\(int, int, int\)
 
 Converts the specified RGB values into a <xref href="System.Windows.Media.Color" data-throw-if-not-resolved="false"></xref> object.
 
@@ -98,7 +98,7 @@ For an example that includes this property, see the [OperationAPIService](#VM_AP
 
 This method takes integer values for the red, green, and blue components and converts them into a <xref href="System.Windows.Media.Color" data-throw-if-not-resolved="false"></xref>. Each parameter should be within the range of 0 to 255 to ensure valid color representation.
 
-### GetColorFromHexCode\(string\)
+### <a id="VM_API_Post_Operations_OperationAPIService_GetColorFromHexCode_System_String_"></a> GetColorFromHexCode\(string\)
 
 Converts a hex color code to a <xref href="System.Windows.Media.Color" data-throw-if-not-resolved="false"></xref>.
 
@@ -126,7 +126,7 @@ For an example that includes this property, see the [OperationAPIService](#VM_AP
 
 This method converts a hex color code (e.g., "#FF5733") to a <xref href="System.Windows.Media.Color" data-throw-if-not-resolved="false"></xref>.
 
-### GetFontFaceFromString\(string\)
+### <a id="VM_API_Post_Operations_OperationAPIService_GetFontFaceFromString_System_String_"></a> GetFontFaceFromString\(string\)
 
 Converts a font face string to a <xref href="System.Windows.Media.FontFamily" data-throw-if-not-resolved="false"></xref>.
 
@@ -154,7 +154,7 @@ For an example that includes this property, see the [OperationAPIService](#VM_AP
 
 This method converts a font face string (e.g., "Arial") to a <xref href="System.Windows.Media.FontFamily" data-throw-if-not-resolved="false"></xref>.
 
-### GetFontStyleFromString\(string\)
+### <a id="VM_API_Post_Operations_OperationAPIService_GetFontStyleFromString_System_String_"></a> GetFontStyleFromString\(string\)
 
 Converts a font style string to a <xref href="System.Windows.FontStyle" data-throw-if-not-resolved="false"></xref>.
 
@@ -182,7 +182,7 @@ For an example that includes this property, see the [OperationAPIService](#VM_AP
 
 This method converts a font style string (e.g., "Normal", "Italic", "Oblique") to a <xref href="System.Windows.FontStyle" data-throw-if-not-resolved="false"></xref>.
 
-### GetFontWeightFromString\(string\)
+### <a id="VM_API_Post_Operations_OperationAPIService_GetFontWeightFromString_System_String_"></a> GetFontWeightFromString\(string\)
 
 Converts a font weight string to a <xref href="System.Windows.FontWeight" data-throw-if-not-resolved="false"></xref>.
 

@@ -1,4 +1,4 @@
-# Class PickerFaceset
+#  Class PickerFaceset
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -61,7 +61,7 @@ public class PickerFaceset : PickerFace
 
 ## Constructors
 
-### PickerFaceset\(\)
+### <a id="VM_Managed_Picker_Core_PickerFaceset__ctor"></a> PickerFaceset\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerFaceset" data-throw-if-not-resolved="false"></xref> class
 
@@ -71,7 +71,7 @@ public PickerFaceset()
 
 ## Methods
 
-### Filtering\(UIntPtr\)
+### <a id="VM_Managed_Picker_Core_PickerFaceset_Filtering_System_UIntPtr_"></a> Filtering\(UIntPtr\)
 
 Filtering to not proper object.
 
@@ -91,7 +91,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### FilteringAnother\(UIntPtr\)
+### <a id="VM_Managed_Picker_Core_PickerFaceset_FilteringAnother_System_UIntPtr_"></a> FilteringAnother\(UIntPtr\)
 
 Filtering to not proper object about special target.
 
@@ -111,7 +111,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### FilteringReference\(UIntPtr, UIntPtr\)
+### <a id="VM_Managed_Picker_Core_PickerFaceset_FilteringReference_System_UIntPtr_System_UIntPtr_"></a> FilteringReference\(UIntPtr, UIntPtr\)
 
 Filtering to not proper object about special target into owner.
 
@@ -135,7 +135,7 @@ Filtering target.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPickerInfo\(\)
+### <a id="VM_Managed_Picker_Core_PickerFaceset_GetPickerInfo"></a> GetPickerInfo\(\)
 
 Gets information of picking type.
 
@@ -147,7 +147,7 @@ public override string GetPickerInfo()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetResultXmlFromKey\(UIntPtr\)
+### <a id="VM_Managed_Picker_Core_PickerFaceset_GetResultXmlFromKey_System_UIntPtr_"></a> GetResultXmlFromKey\(UIntPtr\)
 
 Get valid result xml according to picker key of core.
 
@@ -167,7 +167,7 @@ Picking destination key.
 
 The valid result xml.
 
-### Highlight\(bool\)
+### <a id="VM_Managed_Picker_Core_PickerFaceset_Highlight_System_Boolean_"></a> Highlight\(bool\)
 
 Picking highlight to filtered target.
 
@@ -181,7 +181,7 @@ public override void Highlight(bool bHighlight)
 
 If set to <code>ture</code> is highlight; otherwise, <code>false</code> isn't highlight.
 
-### SetResultImpl\(ref string, bool\)
+### <a id="VM_Managed_Picker_Core_PickerFaceset_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -204,5 +204,4 @@ If it is true, skip the result setting.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

@@ -1,4 +1,4 @@
-# Class ReferenceDesignVariable
+#  Class ReferenceDesignVariable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -192,7 +192,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferenceDesignVariable\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_ReferenceDesignVariable__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceDesignVariable\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.ReferenceDesignVariable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -210,7 +210,7 @@ The info.
 
 The context.
 
-### ReferenceDesignVariable\(ObjectBase\)
+### <a id="VM_Managed_ReferenceDesignVariable__ctor_VM_Managed_ObjectBase_"></a> ReferenceDesignVariable\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.ReferenceDesignVariable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -223,5 +223,4 @@ public ReferenceDesignVariable(ObjectBase obj)
 `obj` ObjectBase
 
 The reference's object.
-
 

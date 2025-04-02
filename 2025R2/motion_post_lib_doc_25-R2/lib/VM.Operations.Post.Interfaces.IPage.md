@@ -1,4 +1,4 @@
-# Interface IPage
+#  Interface IPage
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -70,7 +70,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### FullName
+### <a id="VM_Operations_Post_Interfaces_IPage_FullName"></a> FullName
 
 Gets or sets the name of the page.
 
@@ -92,7 +92,7 @@ The <xref href="VM.Operations.Post.Interfaces.IPage.FullName" data-throw-if-not-
 It is a read-write property, meaning it can be both retrieved and modified.
 This property is typically used in scenarios where the page's name is needed for display, logging, or processing purposes.
 
-### ID
+### <a id="VM_Operations_Post_Interfaces_IPage_ID"></a> ID
 
 Gets the unique identifier of the page.
 
@@ -116,7 +116,7 @@ This unique identifier is typically used in scenarios where a distinct and consi
 
 ## Methods
 
-### Activate\(\)
+### <a id="VM_Operations_Post_Interfaces_IPage_Activate"></a> Activate\(\)
 
 Activates the page.
 
@@ -134,7 +134,7 @@ The Activate method activates the page, ensuring that it is the only active page
 When this method is called on a page, all other pages that are currently active will be deactivated, and only the selected page will remain active.
 Only one page can be active at any given time.
 
-### Close\(\)
+### <a id="VM_Operations_Post_Interfaces_IPage_Close"></a> Close\(\)
 
 Closes the current page.
 
@@ -151,7 +151,7 @@ For an example that includes this property, see the [Interface IPage](#VM_Operat
 The Close method is used to close the current page.
 When this method is called, the page will be removed from view and any resources associated with it will be released.
 
-### CloseView\(IView\)
+### <a id="VM_Operations_Post_Interfaces_IPage_CloseView_VM_Operations_Post_Interfaces_IView_"></a> CloseView\(IView\)
 
 Closes a view within the current page.
 
@@ -175,7 +175,7 @@ The CloseView method is used to close a specific view within the current page.
 When this method is called with the specified view, the view will be removed from the page.
 The view parameter represents either an Animation View or a Chart View that is to be closed.
 
-### CloseView\(int\)
+### <a id="VM_Operations_Post_Interfaces_IPage_CloseView_System_Int32_"></a> CloseView\(int\)
 
 Closes a view within the current page.
 
@@ -199,7 +199,7 @@ The CloseView method is used to close a specific view within the current page.
 When this method is called with the specified view's ID, the view will be located and removed from the page.
 The viewID parameter represents the unique identifier of either an Animation View or a Chart View that is to be closed.
 
-### CloseView\(string\)
+### <a id="VM_Operations_Post_Interfaces_IPage_CloseView_System_String_"></a> CloseView\(string\)
 
 Closes a view within the current page.
 
@@ -223,7 +223,7 @@ The CloseView method is used to close a specific view within the current page.
 When this method is called with the specified view's name, the view will be located and removed from the page.
 The name parameter represents the name of either an Animation View or a Chart View that is to be closed.
 
-### CreateAnimation\(IAnalysisResultViewModel, string\)
+### <a id="VM_Operations_Post_Interfaces_IPage_CreateAnimation_VM_ViewModels_Post_IAnalysisResultViewModel_System_String_"></a> CreateAnimation\(IAnalysisResultViewModel, string\)
 
 Creates an animation view to display the analyzed results on the current page.
 The CreateAnimation method is used to create an animation view that displays the analyzed results on the current page.
@@ -257,7 +257,7 @@ For an example that includes this property, see the [Interface IPage](#VM_Operat
 The CreateAnimation method facilitates the visualization of analyzed results by creating an animation view.
 The analysis parameter specifies the particular result to be visualized, while the optional name parameter allows for naming the animation view during its creation.
 
-### CreateChart\(string\)
+### <a id="VM_Operations_Post_Interfaces_IPage_CreateChart_System_String_"></a> CreateChart\(string\)
 
 Creates a chart view to draw a 2D curve.
 The CreateChart method is used to create a chart view for drawing 2D curves.
@@ -287,7 +287,7 @@ For an example that includes this property, see the [Interface IPage](#VM_Operat
 The CreateChartView method facilitates the creation of a chart view specifically for plotting 2D curves.
 The optional name parameter allows for naming the chart view during its creation.
 
-### GetActiveView\(\)
+### <a id="VM_Operations_Post_Interfaces_IPage_GetActiveView"></a> GetActiveView\(\)
 
 Retrieves the currently active view within the page.
 
@@ -310,7 +310,7 @@ For an example that includes this property, see the [Interface IPage](#VM_Operat
 The <xref href="VM.Operations.Post.Interfaces.IPage.GetActiveView" data-throw-if-not-resolved="false"></xref> method is used to locate and return the view that is currently active within the current page.
 If no view is currently active, the method returns null.
 
-### GetView\(int\)
+### <a id="VM_Operations_Post_Interfaces_IPage_GetView_System_Int32_"></a> GetView\(int\)
 
 Finds and returns a view within the current page.
 The GetView method is used to retrieve a specific view within the page by its ID.
@@ -340,7 +340,7 @@ For an example that includes this property, see the [Interface IPage](#VM_Operat
 The GetView method is used to locate and return a specific view within the current page using its unique identifier.
 If the view with the specified ID is not found, the method returns null.
 
-### GetView\(string\)
+### <a id="VM_Operations_Post_Interfaces_IPage_GetView_System_String_"></a> GetView\(string\)
 
 Finds and returns a view within the current page.
 The GetView method is used to retrieve a specific view within the page by its name.
@@ -370,7 +370,7 @@ For an example that includes this property, see the [Interface IPage](#VM_Operat
 The GetView method is used to locate and return a specific view within the current page using its name.
 If the view with the specified name is not found, the method returns null.
 
-### GetViews\(\)
+### <a id="VM_Operations_Post_Interfaces_IPage_GetViews"></a> GetViews\(\)
 
 Retrieves all views within the current page.
 

@@ -1,4 +1,4 @@
-# Interface IChangeData
+#  Interface IChangeData
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -17,12 +17,11 @@ public interface IChangeData
 
 ## Methods
 
-### ChangeData\(\)
+### <a id="VM_Managed_IChangeData_ChangeData"></a> ChangeData\(\)
 
 Changes the data.
 
 ```csharp
 void ChangeData()
 ```
-
 

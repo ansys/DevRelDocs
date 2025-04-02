@@ -1,4 +1,4 @@
-# Class HandledDocument
+#  Class HandledDocument
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -259,7 +259,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### HandledDocument\(UIntPtr\)
+### <a id="VM_Managed_HandledDocument__ctor_System_UIntPtr_"></a> HandledDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.HandledDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -275,7 +275,7 @@ The document handle.
 
 ## Properties
 
-### DoNotCheckHandleWhenCreate
+### <a id="VM_Managed_HandledDocument_DoNotCheckHandleWhenCreate"></a> DoNotCheckHandleWhenCreate
 
 ```csharp
 public static bool DoNotCheckHandleWhenCreate { get; set; }
@@ -285,7 +285,7 @@ public static bool DoNotCheckHandleWhenCreate { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Handle
+### <a id="VM_Managed_HandledDocument_Handle"></a> Handle
 
 Gets the document handle.
 
@@ -299,7 +299,7 @@ public virtual UIntPtr Handle { get; }
 
 ## Methods
 
-### AddToSelectionList\(ObjectBase\)
+### <a id="VM_Managed_HandledDocument_AddToSelectionList_VM_Managed_ObjectBase_"></a> AddToSelectionList\(ObjectBase\)
 
 Add to selection list.
 
@@ -313,7 +313,7 @@ public override void AddToSelectionList(ObjectBase obj)
 
 The selected object.
 
-### CancelSelectedFaceset\(bool\)
+### <a id="VM_Managed_HandledDocument_CancelSelectedFaceset_System_Boolean_"></a> CancelSelectedFaceset\(bool\)
 
 ```csharp
 protected void CancelSelectedFaceset(bool bLock)
@@ -323,7 +323,7 @@ protected void CancelSelectedFaceset(bool bLock)
 
 `bLock` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CancelSelection\(bool, bool\)
+### <a id="VM_Managed_HandledDocument_CancelSelection_System_Boolean_System_Boolean_"></a> CancelSelection\(bool, bool\)
 
 Cancel selection.
 
@@ -339,7 +339,7 @@ Thread lock flag.
 
 `bUnHighlight` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Dispose\(bool\)
+### <a id="VM_Managed_HandledDocument_Dispose_System_Boolean_"></a> Dispose\(bool\)
 
 ```csharp
 [HandleProcessCorruptedStateExceptions]
@@ -350,7 +350,7 @@ protected override void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ExitCommandMode\(\)
+### <a id="VM_Managed_HandledDocument_ExitCommandMode"></a> ExitCommandMode\(\)
 
 Exit kernel command mode.
 
@@ -358,7 +358,7 @@ Exit kernel command mode.
 public override void ExitCommandMode()
 ```
 
-### FromHandle\(UIntPtr\)
+### <a id="VM_Managed_HandledDocument_FromHandle_System_UIntPtr_"></a> FromHandle\(UIntPtr\)
 
 Get document from handle.
 
@@ -376,7 +376,7 @@ The document handle.
 
  [HandledDocument](VM.Managed.HandledDocument.md)
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_HandledDocument_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -390,7 +390,7 @@ protected override void OnDeserialization(object obSender)
 
 The sender.
 
-### PostOpenDocument\(\)
+### <a id="VM_Managed_HandledDocument_PostOpenDocument"></a> PostOpenDocument\(\)
 
 Call when post [open document].
 
@@ -398,7 +398,7 @@ Call when post [open document].
 public override void PostOpenDocument()
 ```
 
-### SetHandle\(UIntPtr\)
+### <a id="VM_Managed_HandledDocument_SetHandle_System_UIntPtr_"></a> SetHandle\(UIntPtr\)
 
 Set document handle.
 
@@ -411,5 +411,4 @@ protected virtual void SetHandle(UIntPtr pDocHandle)
 `pDocHandle` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
 The document handle.
-
 

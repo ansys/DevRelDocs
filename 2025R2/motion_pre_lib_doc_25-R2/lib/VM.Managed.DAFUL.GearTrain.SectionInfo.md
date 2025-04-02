@@ -1,4 +1,4 @@
-# Class SectionInfo
+#  Class SectionInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SectionInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionInfo__ctor"></a> SectionInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.SectionInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -177,7 +177,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Section
 public SectionInfo()
 ```
 
-### SectionInfo\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionInfo__ctor_System_String_"></a> SectionInfo\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.SectionInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -193,7 +193,7 @@ Name of the sub entity.
 
 ## Properties
 
-### SectionGeometry
+### <a id="VM_Managed_DAFUL_GearTrain_SectionInfo_SectionGeometry"></a> SectionGeometry
 
 Gets or sets the section geometry.
 
@@ -207,7 +207,7 @@ public SectionGeometryBase SectionGeometry { get; set; }
 
 ## Methods
 
-### GetLengthAndHeight\(ref double, ref double\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionInfo_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
 
 Gets the start and end point.
 
@@ -225,7 +225,7 @@ Length of the d.
 
 Height of the d.
 
-### GetNameFromSectionPoint\(Vector\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionInfo_GetNameFromSectionPoint_VM_Managed_Vector_"></a> GetNameFromSectionPoint\(Vector\)
 
 Gets the name from section point.
 
@@ -243,7 +243,7 @@ The vec point.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetSectionBuilder\(List<Vector\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionInfo_GetSectionBuilder_System_Collections_Generic_List_VM_Managed_Vector__"></a> GetSectionBuilder\(List<Vector\>\)
 
 Gets the section builder.
 
@@ -261,7 +261,7 @@ The LST gear section.
 
  Builder\[\]
 
-### GetSectionPoint\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionInfo_GetSectionPoint"></a> GetSectionPoint\(\)
 
 Gets the section point.
 
@@ -273,7 +273,7 @@ public Vector[] GetSectionPoint()
 
  Vector\[\]
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionInfo_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -287,7 +287,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionInfo_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -304,5 +304,4 @@ The object notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

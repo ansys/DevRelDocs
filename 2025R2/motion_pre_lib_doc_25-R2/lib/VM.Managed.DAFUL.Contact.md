@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Contact
+#  Namespace VM.Managed.DAFUL.Contact
 
 ### Classes
 
@@ -303,5 +303,4 @@ Specifies type for a point check.
  [ContactStandard.StiffnessCoefficientType](VM.Managed.DAFUL.Contact.ContactStandard.StiffnessCoefficientType.md)
 
 Indicates whether contact property's stiffness is a coefficient type or a user spline type.
-
 

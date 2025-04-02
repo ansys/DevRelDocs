@@ -1,4 +1,4 @@
-# Class PropertyConvel
+#  Class PropertyConvel
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyConvel\(\)
+### <a id="VM_Managed_DAFUL_Constraints_PropertyConvel__ctor"></a> PropertyConvel\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.PropertyConvel" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public PropertyConvel()
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Constraints_PropertyConvel_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -191,7 +191,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Constraints_PropertyConvel_ReferenceType"></a> ReferenceType
 
 Gets the type of the reference.
 
@@ -205,7 +205,7 @@ public override string ReferenceType { get; }
 
 ## Methods
 
-### Draw\(Canvas, TMatrix, TMatrix, bool\)
+### <a id="VM_Managed_DAFUL_Constraints_PropertyConvel_Draw_VM_CAD_Kernel_Render_Canvas_VM_Managed_TMatrix_VM_Managed_TMatrix_System_Boolean_"></a> Draw\(Canvas, TMatrix, TMatrix, bool\)
 
 <p>Draws the icon.</p>
 
@@ -230,5 +230,4 @@ public override void Draw(Canvas canvas, TMatrix matTBase, TMatrix matTAct, bool
 `bHide` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <p>The hide flag.</p>
-
 

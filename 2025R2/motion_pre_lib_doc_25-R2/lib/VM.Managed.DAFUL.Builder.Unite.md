@@ -1,4 +1,4 @@
-# Class Unite
+#  Class Unite
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -64,7 +64,7 @@ public class Unite : Boolean<BuilderMultiUniteSimple>, IBuilder
 
 ## Constructors
 
-### Unite\(\)
+### <a id="VM_Managed_DAFUL_Builder_Unite__ctor"></a> Unite\(\)
 
 ```csharp
 public Unite()
@@ -72,7 +72,7 @@ public Unite()
 
 ## Properties
 
-### Type
+### <a id="VM_Managed_DAFUL_Builder_Unite_Type"></a> Type
 
 ```csharp
 protected override string Type { get; }
@@ -84,7 +84,7 @@ protected override string Type { get; }
 
 ## Methods
 
-### BuildTargetTool\(Builder, Builder\[\]\)
+### <a id="VM_Managed_DAFUL_Builder_Unite_BuildTargetTool_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder___"></a> BuildTargetTool\(Builder, Builder\[\]\)
 
 ```csharp
 protected override void BuildTargetTool(Builder buiTarget, Builder[] buiTool)
@@ -95,5 +95,4 @@ protected override void BuildTargetTool(Builder buiTarget, Builder[] buiTool)
 `buiTarget` Builder
 
 `buiTool` Builder\[\]
-
 

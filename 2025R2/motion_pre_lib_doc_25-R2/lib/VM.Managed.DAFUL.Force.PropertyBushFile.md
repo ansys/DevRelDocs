@@ -1,4 +1,4 @@
-# Class PropertyBushFile
+#  Class PropertyBushFile
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -234,7 +234,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyBushFile\(\)
+### <a id="VM_Managed_DAFUL_Force_PropertyBushFile__ctor"></a> PropertyBushFile\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.PropertyBushFile" data-throw-if-not-resolved="false"></xref> class.
 
@@ -244,7 +244,7 @@ public PropertyBushFile()
 
 ## Methods
 
-### SetModified\(\)
+### <a id="VM_Managed_DAFUL_Force_PropertyBushFile_SetModified"></a> SetModified\(\)
 
 Called when object modified.
 
@@ -252,7 +252,7 @@ Called when object modified.
 protected override void SetModified()
 ```
 
-### SetModified\(ModifiedType\)
+### <a id="VM_Managed_DAFUL_Force_PropertyBushFile_SetModified_VM_Managed_ModifiedResult_ModifiedType_"></a> SetModified\(ModifiedType\)
 
 Called when object modified.
 
@@ -265,5 +265,4 @@ protected override void SetModified(ModifiedResult.ModifiedType type)
 `type` ModifiedResult.ModifiedType
 
 The modifed type.
-
 

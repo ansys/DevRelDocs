@@ -1,4 +1,4 @@
-# Class SolidBodyBlockSimple
+#  Class SolidBodyBlockSimple
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -65,7 +65,7 @@ public class SolidBodyBlockSimple : SolidBodyBlock<BuilderBlockSimple>, IBuilder
 
 ## Constructors
 
-### SolidBodyBlockSimple\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyBlockSimple__ctor"></a> SolidBodyBlockSimple\(\)
 
 ```csharp
 public SolidBodyBlockSimple()
@@ -73,7 +73,7 @@ public SolidBodyBlockSimple()
 
 ## Properties
 
-### Depth
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyBlockSimple_Depth"></a> Depth
 
 ```csharp
 public Variable Depth { get; set; }
@@ -83,7 +83,7 @@ public Variable Depth { get; set; }
 
  Variable
 
-### Height
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyBlockSimple_Height"></a> Height
 
 ```csharp
 public Variable Height { get; set; }
@@ -93,7 +93,7 @@ public Variable Height { get; set; }
 
  Variable
 
-### StartPosition
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyBlockSimple_StartPosition"></a> StartPosition
 
 ```csharp
 public PointBase StartPosition { get; }
@@ -103,7 +103,7 @@ public PointBase StartPosition { get; }
 
  PointBase
 
-### Width
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyBlockSimple_Width"></a> Width
 
 ```csharp
 public Variable Width { get; set; }
@@ -115,7 +115,7 @@ public Variable Width { get; set; }
 
 ## Methods
 
-### MakeSymmetricSolidBuilder\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyBlockSimple_MakeSymmetricSolidBuilder"></a> MakeSymmetricSolidBuilder\(\)
 
 ```csharp
 protected override Builder MakeSymmetricSolidBuilder()
@@ -125,7 +125,7 @@ protected override Builder MakeSymmetricSolidBuilder()
 
  Builder
 
-### SetSolidBuilderProperty\(BuilderBlockSimple\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyBlockSimple_SetSolidBuilderProperty_VM_Managed_CAD_BuilderBlockSimple_"></a> SetSolidBuilderProperty\(BuilderBlockSimple\)
 
 ```csharp
 protected override void SetSolidBuilderProperty(BuilderBlockSimple solidBuilder)
@@ -134,5 +134,4 @@ protected override void SetSolidBuilderProperty(BuilderBlockSimple solidBuilder)
 #### Parameters
 
 `solidBuilder` BuilderBlockSimple
-
 

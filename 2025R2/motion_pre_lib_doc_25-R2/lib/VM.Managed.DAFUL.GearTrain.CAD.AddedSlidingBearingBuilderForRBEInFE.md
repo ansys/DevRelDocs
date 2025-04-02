@@ -1,4 +1,4 @@
-# Class AddedSlidingBearingBuilderForRBEInFE
+#  Class AddedSlidingBearingBuilderForRBEInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -254,7 +254,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AddedSlidingBearingBuilderForRBEInFE\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedSlidingBearingBuilderForRBEInFE__ctor"></a> AddedSlidingBearingBuilderForRBEInFE\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedSlidingBearingBuilderForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -262,7 +262,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Add
 public AddedSlidingBearingBuilderForRBEInFE()
 ```
 
-### AddedSlidingBearingBuilderForRBEInFE\(SlidingBearingGeom, SBGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedSlidingBearingBuilderForRBEInFE__ctor_VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingGeom_VM_Managed_DAFUL_GearTrain_SBGeometryInfo_"></a> AddedSlidingBearingBuilderForRBEInFE\(SlidingBearingGeom, SBGeometryInfo\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedSlidingBearingBuilderForRBEInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -282,7 +282,7 @@ The information.
 
 ## Methods
 
-### GetTransform\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedSlidingBearingBuilderForRBEInFE_GetTransform"></a> GetTransform\(\)
 
 Gets the transform.
 
@@ -294,7 +294,7 @@ public override TMatrix GetTransform()
 
  TMatrix
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedSlidingBearingBuilderForRBEInFE_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -312,12 +312,11 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### UpdateGeometry\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedSlidingBearingBuilderForRBEInFE_UpdateGeometry"></a> UpdateGeometry\(\)
 
 Updates the geometry.
 
 ```csharp
 public override void UpdateGeometry()
 ```
-
 

@@ -1,4 +1,4 @@
-# Class AnalysisStaticLoad.RollResTorque
+#  Class AnalysisStaticLoad.RollResTorque
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -31,7 +31,7 @@ public class AnalysisStaticLoad.RollResTorque : AnalysisStaticLoad.StaticRoadBas
 
 ## Constructors
 
-### RollResTorque\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_RollResTorque__ctor"></a> RollResTorque\(\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.RollResTorque" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.RollResTorqu
 public RollResTorque()
 ```
 
-### RollResTorque\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_RollResTorque__ctor_VM_Models_Pre_ILinkContainer_"></a> RollResTorque\(ILinkContainer\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.RollResTorque" data-throw-if-not-resolved="false"></xref> class.
 
@@ -52,5 +52,4 @@ public RollResTorque(ILinkContainer lnkContainer)
 `lnkContainer` ILinkContainer
 
 The link container.
-
 

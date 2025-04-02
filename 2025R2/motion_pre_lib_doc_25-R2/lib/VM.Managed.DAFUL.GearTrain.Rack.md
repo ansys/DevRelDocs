@@ -1,4 +1,4 @@
-# Class Rack
+#  Class Rack
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Rack\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Rack__ctor"></a> Rack\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Rack" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ public Rack()
 
 ## Properties
 
-### ContactProperty
+### <a id="VM_Managed_DAFUL_GearTrain_Rack_ContactProperty"></a> ContactProperty
 
 Gets or sets the contact property.
 
@@ -120,7 +120,7 @@ public PropertyContact3D ContactProperty { get; set; }
 
  PropertyContact3D
 
-### Diameter
+### <a id="VM_Managed_DAFUL_GearTrain_Rack_Diameter"></a> Diameter
 
 Gets or sets the diameter.
 
@@ -132,7 +132,7 @@ public ExpressionValueVariable Diameter { get; set; }
 
  ExpressionValueVariable
 
-### Height
+### <a id="VM_Managed_DAFUL_GearTrain_Rack_Height"></a> Height
 
 Gets or sets the height.
 
@@ -144,7 +144,7 @@ public ExpressionValueVariable Height { get; set; }
 
  ExpressionValueVariable
 
-### HelixAngle
+### <a id="VM_Managed_DAFUL_GearTrain_Rack_HelixAngle"></a> HelixAngle
 
 Gets or sets the helix angle.
 
@@ -156,7 +156,7 @@ public ExpressionValueVariable HelixAngle { get; set; }
 
  ExpressionValueVariable
 
-### InputTypeOfBar
+### <a id="VM_Managed_DAFUL_GearTrain_Rack_InputTypeOfBar"></a> InputTypeOfBar
 
 Gets or sets the type of bar.
 
@@ -168,7 +168,7 @@ public Rack.BarType InputTypeOfBar { get; set; }
 
  [Rack](VM.Managed.DAFUL.GearTrain.Rack.md).[BarType](VM.Managed.DAFUL.GearTrain.Rack.BarType.md)
 
-### InputTypeOfSimulation
+### <a id="VM_Managed_DAFUL_GearTrain_Rack_InputTypeOfSimulation"></a> InputTypeOfSimulation
 
 Gets or sets the type of the simulation.
 
@@ -180,7 +180,7 @@ public Rack.SimulationType InputTypeOfSimulation { get; set; }
 
  [Rack](VM.Managed.DAFUL.GearTrain.Rack.md).[SimulationType](VM.Managed.DAFUL.GearTrain.Rack.SimulationType.md)
 
-### IsUseDifferentHelixAngle
+### <a id="VM_Managed_DAFUL_GearTrain_Rack_IsUseDifferentHelixAngle"></a> IsUseDifferentHelixAngle
 
 Gets or sets a value indicating whether [use different helix angle].
 
@@ -192,7 +192,7 @@ public bool IsUseDifferentHelixAngle { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SideLength
+### <a id="VM_Managed_DAFUL_GearTrain_Rack_SideLength"></a> SideLength
 
 Gets or sets the length of the side.
 
@@ -204,7 +204,7 @@ public ExpressionValueVariable SideLength { get; set; }
 
  ExpressionValueVariable
 
-### ToothThickness
+### <a id="VM_Managed_DAFUL_GearTrain_Rack_ToothThickness"></a> ToothThickness
 
 Gets or sets the tooth thickness.
 
@@ -218,7 +218,7 @@ public ExpressionValueVariable ToothThickness { get; set; }
 
 ## Methods
 
-### InitChild\(int, ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_Rack_InitChild_System_Int32_VM_Unit_ConvertFactor_"></a> InitChild\(int, ConvertFactor\)
 
 Initializes the child.
 
@@ -235,5 +235,4 @@ The n number.
 `factor` Unit.ConvertFactor
 
 The factor.
-
 

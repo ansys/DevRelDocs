@@ -1,4 +1,4 @@
-# Class THIN\_TUBE
+#  Class THIN\_TUBE
 
 Namespace: [VM.Managed.DAFUL.Beam](VM.Managed.DAFUL.Beam.md)  
 Assembly: VM.Models.FE.BeamCrossSection.dll  
@@ -67,7 +67,7 @@ public class THIN_TUBE : CrossSectionBase
 
 ## Constructors
 
-### THIN\_TUBE\(\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE__ctor"></a> THIN\_TUBE\(\)
 
 ```csharp
 public THIN_TUBE()
@@ -75,7 +75,7 @@ public THIN_TUBE()
 
 ## Methods
 
-### GenerateMultiSection\(double\[\], int\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GenerateMultiSection_System_Double___System_Int32_"></a> GenerateMultiSection\(double\[\], int\)
 
 ```csharp
 public override double[] GenerateMultiSection(double[] dSInfo, int ElementCount)
@@ -91,7 +91,7 @@ public override double[] GenerateMultiSection(double[] dSInfo, int ElementCount)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### GenerateOneSection\(double\[\]\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GenerateOneSection_System_Double___"></a> GenerateOneSection\(double\[\]\)
 
 ```csharp
 public override double[] GenerateOneSection(double[] dSInfo)
@@ -105,7 +105,7 @@ public override double[] GenerateOneSection(double[] dSInfo)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### GeneratePostConnectivities\(int, ref int\[\], ref int\[\]\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GeneratePostConnectivities_System_Int32_System_Int32____System_Int32____"></a> GeneratePostConnectivities\(int, ref int\[\], ref int\[\]\)
 
 ```csharp
 public override int GeneratePostConnectivities(int RenderingType, ref int[] iENodes, ref int[] iStartENodes)
@@ -123,7 +123,7 @@ public override int GeneratePostConnectivities(int RenderingType, ref int[] iENo
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GeneratePostOneSection\(double\[\], int\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GeneratePostOneSection_System_Double___System_Int32_"></a> GeneratePostOneSection\(double\[\], int\)
 
 ```csharp
 public override double[] GeneratePostOneSection(double[] dSInfo, int RenderingType = 1)
@@ -139,7 +139,7 @@ public override double[] GeneratePostOneSection(double[] dSInfo, int RenderingTy
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### GetArea\(double\[\]\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GetArea_System_Double___"></a> GetArea\(double\[\]\)
 
 ```csharp
 public override double GetArea(double[] dSInfo)
@@ -153,7 +153,7 @@ public override double GetArea(double[] dSInfo)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetAsy\(double\[\], double\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GetAsy_System_Double___System_Double_"></a> GetAsy\(double\[\], double\)
 
 ```csharp
 public override double GetAsy(double[] dSInfo, double dPoissonRatio)
@@ -169,7 +169,7 @@ public override double GetAsy(double[] dSInfo, double dPoissonRatio)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetAsz\(double\[\], double\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GetAsz_System_Double___System_Double_"></a> GetAsz\(double\[\], double\)
 
 ```csharp
 public override double GetAsz(double[] dSInfo, double dPoissonRatio)
@@ -185,7 +185,7 @@ public override double GetAsz(double[] dSInfo, double dPoissonRatio)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetIyy\(double\[\]\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GetIyy_System_Double___"></a> GetIyy\(double\[\]\)
 
 ```csharp
 public override double GetIyy(double[] dSInfo)
@@ -199,7 +199,7 @@ public override double GetIyy(double[] dSInfo)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetIzz\(double\[\]\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GetIzz_System_Double___"></a> GetIzz\(double\[\]\)
 
 ```csharp
 public override double GetIzz(double[] dSInfo)
@@ -213,7 +213,7 @@ public override double GetIzz(double[] dSInfo)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetJyy\(double, double\[\], double, double\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GetJyy_System_Double_System_Double___System_Double_System_Double_"></a> GetJyy\(double, double\[\], double, double\)
 
 ```csharp
 public override double GetJyy(double dMass, double[] dSInfo, double dDensity, double dLength)
@@ -233,7 +233,7 @@ public override double GetJyy(double dMass, double[] dSInfo, double dDensity, do
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetJyy\(double\[\], double, double\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GetJyy_System_Double___System_Double_System_Double_"></a> GetJyy\(double\[\], double, double\)
 
 ```csharp
 public override double GetJyy(double[] dSInfo, double dDensity, double dLength)
@@ -251,7 +251,7 @@ public override double GetJyy(double[] dSInfo, double dDensity, double dLength)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetJzz\(double, double\[\], double, double\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GetJzz_System_Double_System_Double___System_Double_System_Double_"></a> GetJzz\(double, double\[\], double, double\)
 
 ```csharp
 public override double GetJzz(double dMass, double[] dSInfo, double dDensity, double dLength)
@@ -271,7 +271,7 @@ public override double GetJzz(double dMass, double[] dSInfo, double dDensity, do
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetJzz\(double\[\], double, double\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GetJzz_System_Double___System_Double_System_Double_"></a> GetJzz\(double\[\], double, double\)
 
 ```csharp
 public override double GetJzz(double[] dSInfo, double dDensity, double dLength)
@@ -289,7 +289,7 @@ public override double GetJzz(double[] dSInfo, double dDensity, double dLength)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetNumSideEdges\(int\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GetNumSideEdges_System_Int32_"></a> GetNumSideEdges\(int\)
 
 ```csharp
 public override int GetNumSideEdges(int RenderingType = 1)
@@ -303,7 +303,7 @@ public override int GetNumSideEdges(int RenderingType = 1)
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GetNumTotalElements\(int\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GetNumTotalElements_System_Int32_"></a> GetNumTotalElements\(int\)
 
 ```csharp
 public override int GetNumTotalElements(int RenderingType = 1)
@@ -317,7 +317,7 @@ public override int GetNumTotalElements(int RenderingType = 1)
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GetNumTotalNodes\(int\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GetNumTotalNodes_System_Int32_"></a> GetNumTotalNodes\(int\)
 
 ```csharp
 public override int GetNumTotalNodes(int RenderingType = 1)
@@ -331,7 +331,7 @@ public override int GetNumTotalNodes(int RenderingType = 1)
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GetSphereBodyRadius\(double\[\]\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_GetSphereBodyRadius_System_Double___"></a> GetSphereBodyRadius\(double\[\]\)
 
 ```csharp
 public override double GetSphereBodyRadius(double[] dSInfo)
@@ -345,7 +345,7 @@ public override double GetSphereBodyRadius(double[] dSInfo)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SetVariablesFromArray2Local\(double\[\]\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_SetVariablesFromArray2Local_System_Double___"></a> SetVariablesFromArray2Local\(double\[\]\)
 
 ```csharp
 protected override void SetVariablesFromArray2Local(double[] dSInfo)
@@ -355,7 +355,7 @@ protected override void SetVariablesFromArray2Local(double[] dSInfo)
 
 `dSInfo` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### TranslateNastran2DAFUL\(double\[\]\)
+### <a id="VM_Managed_DAFUL_Beam_THIN_TUBE_TranslateNastran2DAFUL_System_Double___"></a> TranslateNastran2DAFUL\(double\[\]\)
 
 ```csharp
 public override double[] TranslateNastran2DAFUL(double[] dNastran)
@@ -368,5 +368,4 @@ public override double[] TranslateNastran2DAFUL(double[] dNastran)
 #### Returns
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
-
 

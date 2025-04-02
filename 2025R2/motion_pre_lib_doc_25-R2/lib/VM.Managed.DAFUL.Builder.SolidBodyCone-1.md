@@ -1,4 +1,4 @@
-# Class SolidBodyCone<T\>
+#  Class SolidBodyCone<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -68,10 +68,9 @@ public abstract class SolidBodyCone<T> : SolidBody<T>, IBuilder where T : Builde
 
 ## Constructors
 
-### SolidBodyCone\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyCone_1__ctor"></a> SolidBodyCone\(\)
 
 ```csharp
 protected SolidBodyCone()
 ```
-
 

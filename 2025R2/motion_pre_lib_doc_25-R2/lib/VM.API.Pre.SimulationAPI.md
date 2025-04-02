@@ -1,4 +1,4 @@
-# Class SimulationAPI
+#  Class SimulationAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class SimulationAPI
 
 ## Methods
 
-### ExportDFG\(DocumentAnalysis, string\)
+### <a id="VM_API_Pre_SimulationAPI_ExportDFG_VM_Managed_DAFUL_DocumentAnalysis_System_String_"></a> ExportDFG\(DocumentAnalysis, string\)
 
 Export DFG file
 
@@ -42,7 +42,7 @@ The <xref href="VM.Managed.DAFUL.DocumentAnalysis" data-throw-if-not-resolved="f
 
 The file path to export DFG file exclude file extension.
 
-### ExportDFS\(DocumentAnalysis, string\)
+### <a id="VM_API_Pre_SimulationAPI_ExportDFS_VM_Managed_DAFUL_DocumentAnalysis_System_String_"></a> ExportDFS\(DocumentAnalysis, string\)
 
 Export DFS file
 
@@ -62,7 +62,7 @@ The <xref href="VM.Managed.DAFUL.DocumentAnalysis" data-throw-if-not-resolved="f
 
 The file path to export DFS file exclude file extension.
 
-### ExportDFSXML\(DocumentAnalysis, string\)
+### <a id="VM_API_Pre_SimulationAPI_ExportDFSXML_VM_Managed_DAFUL_DocumentAnalysis_System_String_"></a> ExportDFSXML\(DocumentAnalysis, string\)
 
 Export DFSXML file
 
@@ -82,7 +82,7 @@ The <xref href="VM.Managed.DAFUL.DocumentAnalysis" data-throw-if-not-resolved="f
 
 The file path to export DFSXML file exclude file extension.
 
-### RunSimulation\(DocumentAnalysis, SimulationParameter\)
+### <a id="VM_API_Pre_SimulationAPI_RunSimulation_VM_Managed_DAFUL_DocumentAnalysis_VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_"></a> RunSimulation\(DocumentAnalysis, SimulationParameter\)
 
 Run simulation.
 
@@ -101,7 +101,7 @@ The <xref href="VM.Managed.DAFUL.DocumentAnalysis" data-throw-if-not-resolved="f
 
 The simulation parameter.
 
-### SetDynamicNumericalDamping\(SubSystemDocument, double\)
+### <a id="VM_API_Pre_SimulationAPI_SetDynamicNumericalDamping_VM_Managed_DAFUL_SubSystemDocument_System_Double_"></a> SetDynamicNumericalDamping\(SubSystemDocument, double\)
 
 Sets the dynamic numerical damping.
 
@@ -119,7 +119,7 @@ The document to set the dynamic numerical damping.
 
 The value of numerical damping.
 
-### SetStaticNumericalDamping\(SubSystemDocument, double\)
+### <a id="VM_API_Pre_SimulationAPI_SetStaticNumericalDamping_VM_Managed_DAFUL_SubSystemDocument_System_Double_"></a> SetStaticNumericalDamping\(SubSystemDocument, double\)
 
 Sets the static numerical damping.
 
@@ -137,7 +137,7 @@ The document to set the static numerical damping.
 
 The value of numerical damping.
 
-### SetThermalNumericalDamping\(SubSystemDocument, double\)
+### <a id="VM_API_Pre_SimulationAPI_SetThermalNumericalDamping_VM_Managed_DAFUL_SubSystemDocument_System_Double_"></a> SetThermalNumericalDamping\(SubSystemDocument, double\)
 
 Sets the thermal numerical damping.
 
@@ -154,5 +154,4 @@ The document to set the thermal numerical damping.
 `numericalDamping` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 The value of numerical damping.
-
 

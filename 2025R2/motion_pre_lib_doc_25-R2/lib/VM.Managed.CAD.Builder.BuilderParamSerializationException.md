@@ -1,4 +1,4 @@
-# Class Builder.BuilderParamSerializationException
+#  Class Builder.BuilderParamSerializationException
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -21,7 +21,7 @@ protected class Builder.BuilderParamSerializationException : Exception
 
 ## Constructors
 
-### BuilderParamSerializationException\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_CAD_Builder_BuilderParamSerializationException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> BuilderParamSerializationException\(SerializationInfo, StreamingContext\)
 
 Create New BuilderParamSerializationException
 
@@ -35,7 +35,7 @@ protected BuilderParamSerializationException(SerializationInfo info, StreamingCo
 
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-### BuilderParamSerializationException\(string, Exception\)
+### <a id="VM_Managed_CAD_Builder_BuilderParamSerializationException__ctor_System_String_System_Exception_"></a> BuilderParamSerializationException\(string, Exception\)
 
 Create New BuilderParamSerializationException
 
@@ -49,7 +49,7 @@ public BuilderParamSerializationException(string message, Exception innerExcepti
 
 `innerException` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
-### BuilderParamSerializationException\(string\)
+### <a id="VM_Managed_CAD_Builder_BuilderParamSerializationException__ctor_System_String_"></a> BuilderParamSerializationException\(string\)
 
 Create New BuilderParamSerializationException
 
@@ -61,12 +61,11 @@ public BuilderParamSerializationException(string message)
 
 `message` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### BuilderParamSerializationException\(\)
+### <a id="VM_Managed_CAD_Builder_BuilderParamSerializationException__ctor"></a> BuilderParamSerializationException\(\)
 
 Create New BuilderParamSerializationException
 
 ```csharp
 public BuilderParamSerializationException()
 ```
-
 

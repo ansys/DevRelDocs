@@ -1,4 +1,4 @@
-# Class BodyPropertyBase.InitialVelocity
+#  Class BodyPropertyBase.InitialVelocity
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### InitialVelocity\(\)
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity__ctor"></a> InitialVelocity\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.BodyPropertyBase.InitialVelocity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.BodyPropertyBase.
 public InitialVelocity()
 ```
 
-### InitialVelocity\(BodyPropertyBase\)
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity__ctor_VM_Managed_DAFUL_BodyPropertyBase_"></a> InitialVelocity\(BodyPropertyBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.BodyPropertyBase.InitialVelocity" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner body property base.
 
 ## Properties
 
-### IsUseRotRM
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_IsUseRotRM"></a> IsUseRotRM
 
 Gets or sets a value indicating whether this instance use rotational reference marker.
 
@@ -132,7 +132,7 @@ public bool IsUseRotRM { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsUseRotVelocity
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_IsUseRotVelocity"></a> IsUseRotVelocity
 
 Gets or sets a value indicating whether this instance use rotational velocity.
 
@@ -144,7 +144,7 @@ public bool IsUseRotVelocity { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsUseTraRM
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_IsUseTraRM"></a> IsUseTraRM
 
 Gets or sets a value indicating whether this instance use translational reference marker.
 
@@ -156,7 +156,7 @@ public bool IsUseTraRM { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsUseTraVelocity
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_IsUseTraVelocity"></a> IsUseTraVelocity
 
 Gets or sets a value indicating whether this instance use translational velocity.
 
@@ -168,7 +168,7 @@ public bool IsUseTraVelocity { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RotReferenceMarker
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_RotReferenceMarker"></a> RotReferenceMarker
 
 Obsolete
 
@@ -181,7 +181,7 @@ public Marker RotReferenceMarker { get; set; }
 
  [Marker](VM.Managed.DAFUL.Marker.md)
 
-### RotX
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_RotX"></a> RotX
 
 Gets or sets the rotational x direction.
 
@@ -193,7 +193,7 @@ public ExpressionValueVariable RotX { get; set; }
 
  ExpressionValueVariable
 
-### RotY
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_RotY"></a> RotY
 
 Gets or sets the rotational y direction.
 
@@ -205,7 +205,7 @@ public ExpressionValueVariable RotY { get; set; }
 
  ExpressionValueVariable
 
-### RotZ
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_RotZ"></a> RotZ
 
 Gets or sets the rotational z direction.
 
@@ -217,7 +217,7 @@ public ExpressionValueVariable RotZ { get; set; }
 
  ExpressionValueVariable
 
-### RotationnalReferenceMarker
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_RotationnalReferenceMarker"></a> RotationnalReferenceMarker
 
 Gets or sets the rotational reference marker.
 
@@ -229,7 +229,7 @@ public IMarker RotationnalReferenceMarker { get; set; }
 
  IMarker
 
-### TraReferenceMarker
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_TraReferenceMarker"></a> TraReferenceMarker
 
 Obsolete
 
@@ -242,7 +242,7 @@ public Marker TraReferenceMarker { get; set; }
 
  [Marker](VM.Managed.DAFUL.Marker.md)
 
-### TraX
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_TraX"></a> TraX
 
 Gets or sets the translational x direction.
 
@@ -254,7 +254,7 @@ public ExpressionValueVariable TraX { get; set; }
 
  ExpressionValueVariable
 
-### TraY
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_TraY"></a> TraY
 
 Gets or sets the translational y direction.
 
@@ -266,7 +266,7 @@ public ExpressionValueVariable TraY { get; set; }
 
  ExpressionValueVariable
 
-### TraZ
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_TraZ"></a> TraZ
 
 Gets or sets the translational z direction.
 
@@ -278,7 +278,7 @@ public ExpressionValueVariable TraZ { get; set; }
 
  ExpressionValueVariable
 
-### TranslationalReferenceMarker
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_TranslationalReferenceMarker"></a> TranslationalReferenceMarker
 
 Gets or sets the translational reference marker.
 
@@ -290,7 +290,7 @@ public IMarker TranslationalReferenceMarker { get; set; }
 
  IMarker
 
-### \_RotationnalReferenceMarker
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity__RotationnalReferenceMarker"></a> \_RotationnalReferenceMarker
 
 Gets or sets the rotational reference marker.
 
@@ -302,7 +302,7 @@ public Linker<IMarker> _RotationnalReferenceMarker { get; set; }
 
  Linker<IMarker\>
 
-### \_TranslationalReferenceMarker
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity__TranslationalReferenceMarker"></a> \_TranslationalReferenceMarker
 
 Gets or sets the translational reference marker.
 
@@ -316,7 +316,7 @@ public Linker<IMarker> _TranslationalReferenceMarker { get; set; }
 
 ## Methods
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_BodyPropertyBase_InitialVelocity_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -329,5 +329,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

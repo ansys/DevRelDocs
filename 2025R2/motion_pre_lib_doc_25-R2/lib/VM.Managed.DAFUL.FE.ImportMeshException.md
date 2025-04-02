@@ -1,4 +1,4 @@
-# Class ImportMeshException
+#  Class ImportMeshException
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -23,7 +23,7 @@ public class ImportMeshException : Exception
 
 ## Constructors
 
-### ImportMeshException\(string\)
+### <a id="VM_Managed_DAFUL_FE_ImportMeshException__ctor_System_String_"></a> ImportMeshException\(string\)
 
 ```csharp
 public ImportMeshException(string strMessage)
@@ -32,5 +32,4 @@ public ImportMeshException(string strMessage)
 #### Parameters
 
 `strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

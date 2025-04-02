@@ -1,4 +1,4 @@
-# Interface IHydroForce
+#  Interface IHydroForce
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -17,7 +17,7 @@ public interface IHydroForce
 
 ## Properties
 
-### HullBody
+### <a id="VM_Managed_DAFUL_Track_IHydroForce_HullBody"></a> HullBody
 
 Gets the hull body
 
@@ -29,7 +29,7 @@ IConnectable HullBody { get; }
 
  IConnectable
 
-### HullReferenceFrame
+### <a id="VM_Managed_DAFUL_Track_IHydroForce_HullReferenceFrame"></a> HullReferenceFrame
 
 Gets the hull reference frame
 
@@ -41,7 +41,7 @@ IMarker HullReferenceFrame { get; }
 
  IMarker
 
-### HydroForceProperty
+### <a id="VM_Managed_DAFUL_Track_IHydroForce_HydroForceProperty"></a> HydroForceProperty
 
 Gets the hydro force property.
 
@@ -53,7 +53,7 @@ PropertyHydroForce HydroForceProperty { get; }
 
  [PropertyHydroForce](VM.Managed.DAFUL.Track.PropertyHydroForce.md)
 
-### Water
+### <a id="VM_Managed_DAFUL_Track_IHydroForce_Water"></a> Water
 
 Gets the water
 
@@ -64,5 +64,4 @@ IWater Water { get; }
 #### Property Value
 
  [IWater](VM.Managed.DAFUL.Track.IWater.md)
-
 

@@ -1,4 +1,4 @@
-# Class Range
+#  Class Range
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -179,7 +179,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Range\(\)
+### <a id="VM_Managed_DAFUL_Range__ctor"></a> Range\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Range" data-throw-if-not-resolved="false"></xref> class.
 
@@ -187,7 +187,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Range" data-throw
 public Range()
 ```
 
-### Range\(string\)
+### <a id="VM_Managed_DAFUL_Range__ctor_System_String_"></a> Range\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Range" data-throw-if-not-resolved="false"></xref> class.
 
@@ -203,7 +203,7 @@ Name of the sub entity.
 
 ## Properties
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Range_AnalysisType"></a> AnalysisType
 
 Gets the analysis type of the parent body.
 
@@ -215,7 +215,7 @@ public BodyAnalysisType AnalysisType { get; }
 
  [BodyAnalysisType](VM.Managed.DAFUL.BodyAnalysisType.md)
 
-### Body
+### <a id="VM_Managed_DAFUL_Range_Body"></a> Body
 
 Gets the body.
 
@@ -227,7 +227,7 @@ public IBody Body { get; }
 
  IBody
 
-### Center
+### <a id="VM_Managed_DAFUL_Range_Center"></a> Center
 
 Gets the center position of the object.
 
@@ -239,7 +239,7 @@ public TMatrix Center { get; }
 
  TMatrix
 
-### Connectable
+### <a id="VM_Managed_DAFUL_Range_Connectable"></a> Connectable
 
 Gets the connectable.
 
@@ -251,7 +251,7 @@ public IConnectable Connectable { get; }
 
  [IConnectable](VM.Managed.DAFUL.IConnectable.md)
 
-### ConnectableBody
+### <a id="VM_Managed_DAFUL_Range_ConnectableBody"></a> ConnectableBody
 
 Gets the connectable body.
 
@@ -263,7 +263,7 @@ public ObjectBase ConnectableBody { get; }
 
  ObjectBase
 
-### ConnectableFullName
+### <a id="VM_Managed_DAFUL_Range_ConnectableFullName"></a> ConnectableFullName
 
 Gets the full name of the connectable.
 
@@ -275,7 +275,7 @@ public string ConnectableFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectableName
+### <a id="VM_Managed_DAFUL_Range_ConnectableName"></a> ConnectableName
 
 Gets the name of the connectable.
 
@@ -287,7 +287,7 @@ public string ConnectableName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectablePosition
+### <a id="VM_Managed_DAFUL_Range_ConnectablePosition"></a> ConnectablePosition
 
 Sets the connectable position.
 
@@ -299,7 +299,7 @@ public Vector ConnectablePosition { set; }
 
  Vector
 
-### ConnectablePostfixName
+### <a id="VM_Managed_DAFUL_Range_ConnectablePostfixName"></a> ConnectablePostfixName
 
 Sets the postfix name of the connectable.
 
@@ -311,7 +311,7 @@ public string ConnectablePostfixName { set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Hide
+### <a id="VM_Managed_DAFUL_Range_Hide"></a> Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -323,7 +323,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ParentBody
+### <a id="VM_Managed_DAFUL_Range_ParentBody"></a> ParentBody
 
 Gets or sets the parent body.
 
@@ -335,7 +335,7 @@ public ObjectBase ParentBody { get; set; }
 
  ObjectBase
 
-### ParentType
+### <a id="VM_Managed_DAFUL_Range_ParentType"></a> ParentType
 
 Gets the type of the marker's parent.
 
@@ -347,7 +347,7 @@ public MarkerParentType ParentType { get; }
 
  [MarkerParentType](VM.Managed.DAFUL.MarkerParentType.md)
 
-### ReferenceFrameType
+### <a id="VM_Managed_DAFUL_Range_ReferenceFrameType"></a> ReferenceFrameType
 
 Gets the type of the marker's reference frame.
 
@@ -359,7 +359,7 @@ public MarkerReferenceFrameType ReferenceFrameType { get; }
 
  [MarkerReferenceFrameType](VM.Managed.DAFUL.MarkerReferenceFrameType.md)
 
-### Shape
+### <a id="VM_Managed_DAFUL_Range_Shape"></a> Shape
 
 Gets or sets the Shape.
 
@@ -371,7 +371,7 @@ public RangeShape Shape { get; set; }
 
  [RangeShape](VM.Managed.DAFUL.RangeShape.md)
 
-### Type
+### <a id="VM_Managed_DAFUL_Range_Type"></a> Type
 
 Gets the type.
 
@@ -389,7 +389,7 @@ public RegionType Type { get; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Range_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 draw
 
@@ -403,7 +403,7 @@ public void Draw(Canvas canvas)
 
 The canvas.
 
-### GetCirclePatchPointOnFace\(VectorBase, VectorBase, double, VectorBase\[\]\)
+### <a id="VM_Managed_DAFUL_Range_GetCirclePatchPointOnFace_VM_Managed_VectorBase_VM_Managed_VectorBase_System_Double_VM_Managed_VectorBase___"></a> GetCirclePatchPointOnFace\(VectorBase, VectorBase, double, VectorBase\[\]\)
 
 Gets the circle patch point on face.
 
@@ -429,7 +429,7 @@ The d range.
 
 The ar patch point.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Range_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -457,7 +457,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPoints\(\)
+### <a id="VM_Managed_DAFUL_Range_GetPoints"></a> GetPoints\(\)
 
 Gets the circle patch point on face.
 
@@ -469,7 +469,7 @@ public Vector[] GetPoints()
 
  Vector\[\]
 
-### GetTargetListForUpdate\(\)
+### <a id="VM_Managed_DAFUL_Range_GetTargetListForUpdate"></a> GetTargetListForUpdate\(\)
 
 Gets the target list for update.
 
@@ -481,7 +481,7 @@ public override List<IEventProvider> GetTargetListForUpdate()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IEventProvider\>
 
-### LinkAddedToDocument\(object, AddToDocEventArgs\)
+### <a id="VM_Managed_DAFUL_Range_LinkAddedToDocument_System_Object_VM_Managed_AddToDocEventArgs_"></a> LinkAddedToDocument\(object, AddToDocEventArgs\)
 
 Add linked object to a document.
 
@@ -499,7 +499,7 @@ The linked object.
 
 The <xref href="VM.Managed.AddToDocEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Range_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request Update.
 
@@ -513,7 +513,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 
 `arg` LinkEventArgs
 
-### SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)
+### <a id="VM_Managed_DAFUL_Range_SetOldNameWithNewEntity_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)
 
 Change for the new name.
 
@@ -530,5 +530,4 @@ The new object.
 `obOld` ObjectBase
 
 The old object.
-
 

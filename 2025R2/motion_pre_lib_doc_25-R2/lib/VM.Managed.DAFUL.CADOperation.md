@@ -1,4 +1,4 @@
-# Class CADOperation
+#  Class CADOperation
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -22,7 +22,7 @@ public class CADOperation
 
 ## Constructors
 
-### CADOperation\(\)
+### <a id="VM_Managed_DAFUL_CADOperation__ctor"></a> CADOperation\(\)
 
 ```csharp
 public CADOperation()
@@ -30,7 +30,7 @@ public CADOperation()
 
 ## Methods
 
-### CalcBoundingBox\(PartDocument, IDesignFrame\)
+### <a id="VM_Managed_DAFUL_CADOperation_CalcBoundingBox_VM_Managed_DAFUL_PartDocument_VM_Managed_IDesignFrame_"></a> CalcBoundingBox\(PartDocument, IDesignFrame\)
 
 calculate bounding box.
 
@@ -54,7 +54,7 @@ The design frame.
 
 The bounding box.
 
-### GetProfilePointOfCurveset\(IContactableRigid2D, ref bool, ref List<VectorBase\>\)
+### <a id="VM_Managed_DAFUL_CADOperation_GetProfilePointOfCurveset_VM_Managed_DAFUL_IContactableRigid2D_System_Boolean__System_Collections_Generic_List_VM_Managed_VectorBase___"></a> GetProfilePointOfCurveset\(IContactableRigid2D, ref bool, ref List<VectorBase\>\)
 
 Get profile point of curveset
 
@@ -82,7 +82,7 @@ The profile point list.
 
 The number of profile point.
 
-### RecalcMassProp\(MassProperty\)
+### <a id="VM_Managed_DAFUL_CADOperation_RecalcMassProp_VM_Managed_DAFUL_PartDocument_MassProperty_"></a> RecalcMassProp\(MassProperty\)
 
 Re-calculation mass property.
 
@@ -95,5 +95,4 @@ public static void RecalcMassProp(PartDocument.MassProperty mp)
 `mp` [PartDocument](VM.Managed.DAFUL.PartDocument.md).[MassProperty](VM.Managed.DAFUL.PartDocument.MassProperty.md)
 
 The material property.
-
 

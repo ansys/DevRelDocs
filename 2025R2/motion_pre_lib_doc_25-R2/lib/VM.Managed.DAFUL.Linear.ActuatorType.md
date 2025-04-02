@@ -1,4 +1,4 @@
-# Enum ActuatorType
+#  Enum ActuatorType
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  
@@ -32,7 +32,6 @@ SweptSine
 `User = 3` 
 
 User
-
 
 
 

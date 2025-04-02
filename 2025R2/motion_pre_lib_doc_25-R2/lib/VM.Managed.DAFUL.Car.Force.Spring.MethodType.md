@@ -1,4 +1,4 @@
-# Enum Spring.MethodType
+#  Enum Spring.MethodType
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -26,7 +26,6 @@ PreLoad
 `UseHardPoints = 2` 
 
 UseHardPoints
-
 
 
 

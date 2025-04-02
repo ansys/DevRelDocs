@@ -1,4 +1,4 @@
-# Class CoSimBase
+#  Class CoSimBase
 
 Namespace: [VM.Managed.DAFUL.CoSim](VM.Managed.DAFUL.CoSim.md)  
 Assembly: VMDCoSimCore.dll  
@@ -158,7 +158,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### CoSimBase\(\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimBase__ctor"></a> CoSimBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -166,7 +166,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimBase" 
 protected CoSimBase()
 ```
 
-### CoSimBase\(string, string\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimBase__ctor_System_String_System_String_"></a> CoSimBase\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -184,7 +184,7 @@ Name of the STR proxy.
 
 The STR build info.
 
-### CoSimBase\(string\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimBase__ctor_System_String_"></a> CoSimBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.CoSimBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -200,7 +200,7 @@ Name of the STR.
 
 ## Properties
 
-### Comment
+### <a id="VM_Managed_DAFUL_CoSim_CoSimBase_Comment"></a> Comment
 
 Gets or sets the comment.
 
@@ -212,7 +212,7 @@ public string Comment { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FullName
+### <a id="VM_Managed_DAFUL_CoSim_CoSimBase_FullName"></a> FullName
 
 Gets the object full name.
 
@@ -224,7 +224,7 @@ public string FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsEnabled
+### <a id="VM_Managed_DAFUL_CoSim_CoSimBase_IsEnabled"></a> IsEnabled
 
 Gets or sets a value indicating whether this is enabled.
 
@@ -236,7 +236,7 @@ public bool IsEnabled { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_CoSim_CoSimBase_Name"></a> Name
 
 Gets or sets the object name.
 
@@ -248,7 +248,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NonSymmetricName
+### <a id="VM_Managed_DAFUL_CoSim_CoSimBase_NonSymmetricName"></a> NonSymmetricName
 
 Gets the non-symmetric object name.
 
@@ -262,7 +262,7 @@ public string NonSymmetricName { get; }
 
 ## Methods
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimBase_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -282,7 +282,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimBase_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the model navigator information impl.
 
@@ -308,7 +308,7 @@ if set to <code>true</code> [b has child].
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)
+### <a id="VM_Managed_DAFUL_CoSim_CoSimBase_SetOldNameWithNewEntity_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> SetOldNameWithNewEntity\(ObjectBase, ObjectBase\)
 
 Change for the new name.
 
@@ -325,5 +325,4 @@ The new object.
 `obOld` ObjectBase
 
 The old object.
-
 

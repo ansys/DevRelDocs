@@ -1,4 +1,4 @@
-# Class KernelExtension
+#  Class KernelExtension
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -37,7 +37,7 @@ public class KernelExtension : KernelObject
 
 ## Constructors
 
-### KernelExtension\(UIntPtr, bool\)
+### <a id="VM_CAD_Kernel_KernelExtension__ctor_System_UIntPtr_System_Boolean_"></a> KernelExtension\(UIntPtr, bool\)
 
 ```csharp
 public KernelExtension(UIntPtr key, bool isLock = true)
@@ -51,7 +51,7 @@ public KernelExtension(UIntPtr key, bool isLock = true)
 
 ## Methods
 
-### Create<T\>\(UIntPtr, bool\)
+### <a id="VM_CAD_Kernel_KernelExtension_Create__1_System_UIntPtr_System_Boolean_"></a> Create<T\>\(UIntPtr, bool\)
 
 ```csharp
 public static T Create<T>(UIntPtr key, bool bLock = true) where T : KernelExtension
@@ -70,5 +70,4 @@ public static T Create<T>(UIntPtr key, bool bLock = true) where T : KernelExtens
 #### Type Parameters
 
 `T` 
-
 

@@ -1,4 +1,4 @@
-# Class AnalysisPowerOffCornering
+#  Class AnalysisPowerOffCornering
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -51,7 +51,7 @@ IHasLengthUnitType
 
 ## Constructors
 
-### AnalysisPowerOffCornering\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffCornering__ctor"></a> AnalysisPowerOffCornering\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisPowerOffCornering" data-throw-if-not-resolved="false"></xref> class.
 
@@ -59,7 +59,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisPower
 public AnalysisPowerOffCornering()
 ```
 
-### AnalysisPowerOffCornering\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffCornering__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisPowerOffCornering\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisPowerOffCornering" data-throw-if-not-resolved="false"></xref> class.
 
@@ -75,7 +75,7 @@ The link container.
 
 ## Properties
 
-### DelayOfClutch
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffCornering_DelayOfClutch"></a> DelayOfClutch
 
 Gets or sets the clutch delay.
 
@@ -87,7 +87,7 @@ public double DelayOfClutch { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### DelayOfThrottle
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffCornering_DelayOfThrottle"></a> DelayOfThrottle
 
 Gets or sets the throttle delay.
 
@@ -99,7 +99,7 @@ public double DelayOfThrottle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### InitialVelocityCornering
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffCornering_InitialVelocityCornering"></a> InitialVelocityCornering
 
 Gets or sets the initial velocity.
 
@@ -111,7 +111,7 @@ public override double InitialVelocityCornering { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsDisengageClutchDuringPowerOff
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffCornering_IsDisengageClutchDuringPowerOff"></a> IsDisengageClutchDuringPowerOff
 
 Gets or sets a value indicating whether [disengage clutch during power off].
 
@@ -123,7 +123,7 @@ public bool IsDisengageClutchDuringPowerOff { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LateralAcc
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffCornering_LateralAcc"></a> LateralAcc
 
 Gets or sets the lateral acceleration.
 
@@ -135,7 +135,7 @@ public double LateralAcc { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SteeringInputType
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffCornering_SteeringInputType"></a> SteeringInputType
 
 Gets or sets the steering input.
 
@@ -147,7 +147,7 @@ public CorneringSteeringInputType SteeringInputType { get; set; }
 
  [CorneringSteeringInputType](VM.Managed.DAFUL.Car.Analysis.Full.CorneringSteeringInputType.md)
 
-### StepDurationOfClutch
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffCornering_StepDurationOfClutch"></a> StepDurationOfClutch
 
 Gets or sets the duration of the clutch step.
 
@@ -159,7 +159,7 @@ public double StepDurationOfClutch { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### StepDurationOfThrottle
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffCornering_StepDurationOfThrottle"></a> StepDurationOfThrottle
 
 Gets or sets the duration of the throttle step.
 
@@ -171,7 +171,7 @@ public double StepDurationOfThrottle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TireRadiusPosition
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffCornering_TireRadiusPosition"></a> TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -183,7 +183,7 @@ public override int TireRadiusPosition { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### TurnRadius
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffCornering_TurnRadius"></a> TurnRadius
 
 Gets or sets the turn radius.
 
@@ -195,7 +195,7 @@ public double TurnRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UnitOfLength
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffCornering_UnitOfLength"></a> UnitOfLength
 
 Gets or sets the length unit.
 
@@ -209,7 +209,7 @@ public LengthUnitType UnitOfLength { get; set; }
 
 ## Methods
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffCornering_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -222,5 +222,4 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
-
 

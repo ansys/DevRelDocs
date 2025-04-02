@@ -1,4 +1,4 @@
-# Class RectangleCleat
+#  Class RectangleCleat
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -29,7 +29,7 @@ public class RectangleCleat : CleatShape
 
 ## Constructors
 
-### RectangleCleat\(\)
+### <a id="VM_Managed_DAFUL_Car_RectangleCleat__ctor"></a> RectangleCleat\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RectangleCleat" data-throw-if-not-resolved="false"></xref> class.
 
@@ -37,7 +37,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RectangleClea
 public RectangleCleat()
 ```
 
-### RectangleCleat\(AnalysisRideDrum\)
+### <a id="VM_Managed_DAFUL_Car_RectangleCleat__ctor_VM_Managed_DAFUL_Car_AnalysisRideDrum_"></a> RectangleCleat\(AnalysisRideDrum\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.RectangleCleat" data-throw-if-not-resolved="false"></xref> class.
 
@@ -53,7 +53,7 @@ The ride drum.
 
 ## Properties
 
-### Height
+### <a id="VM_Managed_DAFUL_Car_RectangleCleat_Height"></a> Height
 
 Gets or sets the height.
 
@@ -65,7 +65,7 @@ public double Height { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Length
+### <a id="VM_Managed_DAFUL_Car_RectangleCleat_Length"></a> Length
 
 Gets or sets the length.
 
@@ -77,7 +77,7 @@ public double Length { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TypeOfCleatShape
+### <a id="VM_Managed_DAFUL_Car_RectangleCleat_TypeOfCleatShape"></a> TypeOfCleatShape
 
 Gets the type of cleat shape.
 
@@ -91,7 +91,7 @@ public override CleatShapeType TypeOfCleatShape { get; }
 
 ## Methods
 
-### GetXZData\(double\)
+### <a id="VM_Managed_DAFUL_Car_RectangleCleat_GetXZData_System_Double_"></a> GetXZData\(double\)
 
 Gets the XZ data.
 
@@ -108,5 +108,4 @@ The d end time.
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

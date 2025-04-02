@@ -1,4 +1,4 @@
-# Class MultiObjectContainer1ToNConnector
+#  Class MultiObjectContainer1ToNConnector
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -106,7 +106,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MultiObjectContainer1ToNConnector\(ICollection\)
+### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainer1ToNConnector__ctor_System_Collections_ICollection_"></a> MultiObjectContainer1ToNConnector\(ICollection\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.MultiObjectContainer1ToNConnector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ public MultiObjectContainer1ToNConnector(ICollection collection)
 
 The collection of objects.
 
-### MultiObjectContainer1ToNConnector\(ICollection, bool\)
+### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainer1ToNConnector__ctor_System_Collections_ICollection_System_Boolean_"></a> MultiObjectContainer1ToNConnector\(ICollection, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.MultiObjectContainer1ToNConnector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -140,7 +140,7 @@ The collection of objects.
 
 ## Properties
 
-### ClosedState
+### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainer1ToNConnector_ClosedState"></a> ClosedState
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.Chained.MultiObjectContainer1ToNConnector" data-throw-if-not-resolved="false"></xref> is closed.
 
@@ -152,7 +152,7 @@ public bool ClosedState { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Count
+### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainer1ToNConnector_Count"></a> Count
 
 Gets the number of elements contained in the <xref href="System.Collections.Generic.ICollection%601" data-throw-if-not-resolved="false"></xref>.
 
@@ -166,7 +166,7 @@ protected override int Count { get; }
 
 ## Methods
 
-### GetEnumerator\(\)
+### <a id="VM_Managed_DAFUL_Chained_MultiObjectContainer1ToNConnector_GetEnumerator"></a> GetEnumerator\(\)
 
 Returns an enumerator that iterates through a collection.
 
@@ -179,5 +179,4 @@ protected override IEnumerator<MultiObjectTarget> GetEnumerator()
  [IEnumerator](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerator\-1)<MultiObjectTarget\>
 
 An <xref href="System.Collections.Generic.IEnumerator%601" data-throw-if-not-resolved="false"></xref> object that can be used to iterate through the collection.
-
 

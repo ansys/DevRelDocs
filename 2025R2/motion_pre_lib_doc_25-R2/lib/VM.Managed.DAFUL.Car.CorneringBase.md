@@ -1,4 +1,4 @@
-# Class CorneringBase
+#  Class CorneringBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -51,7 +51,7 @@ IHasInitialVel
 
 ## Constructors
 
-### CorneringBase\(\)
+### <a id="VM_Managed_DAFUL_Car_CorneringBase__ctor"></a> CorneringBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CorneringBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -59,7 +59,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CorneringBase
 public CorneringBase()
 ```
 
-### CorneringBase\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_CorneringBase__ctor_VM_Models_Pre_ILinkContainer_"></a> CorneringBase\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CorneringBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -75,7 +75,7 @@ The link container.
 
 ## Properties
 
-### DistanceUnitType
+### <a id="VM_Managed_DAFUL_Car_CorneringBase_DistanceUnitType"></a> DistanceUnitType
 
 Gets or sets the distance unit.
 
@@ -87,7 +87,7 @@ public LengthUnitType DistanceUnitType { get; set; }
 
  LengthUnitType
 
-### EntityDistance
+### <a id="VM_Managed_DAFUL_Car_CorneringBase_EntityDistance"></a> EntityDistance
 
 Gets or sets the entity distance.
 
@@ -99,7 +99,7 @@ public double EntityDistance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### InitialVelocityCornering
+### <a id="VM_Managed_DAFUL_Car_CorneringBase_InitialVelocityCornering"></a> InitialVelocityCornering
 
 Gets or sets the initial velocity.
 
@@ -111,7 +111,7 @@ public virtual double InitialVelocityCornering { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TimeOfSettle
+### <a id="VM_Managed_DAFUL_Car_CorneringBase_TimeOfSettle"></a> TimeOfSettle
 
 Gets or sets the settle time.
 
@@ -123,7 +123,7 @@ public double TimeOfSettle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TurnDirectionType
+### <a id="VM_Managed_DAFUL_Car_CorneringBase_TurnDirectionType"></a> TurnDirectionType
 
 Gets or sets the turn direction.
 
@@ -137,7 +137,7 @@ public TurnDirectionType TurnDirectionType { get; set; }
 
 ## Methods
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_CorneringBase_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -150,5 +150,4 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
-
 

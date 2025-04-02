@@ -1,4 +1,4 @@
-# Class AttributeFacetRefinementBase
+#  Class AttributeFacetRefinementBase
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -103,7 +103,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeFacetRefinementBase\(Variable, Variable, Variable, Variable, bool, bool, bool, bool, bool, bool\)
+### <a id="VM_Managed_AttributeFacetRefinementBase__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> AttributeFacetRefinementBase\(Variable, Variable, Variable, Variable, bool, bool, bool, bool, bool, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeFacetRefinementBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -153,7 +153,7 @@ if set to <code>true</code> [unuse GRID_TO_EDGE.
 
 if set to <code>true</code> [unuse approximated evaluation].
 
-### AttributeFacetRefinementBase\(Variable, Variable, Variable, bool, bool, bool, bool, bool\)
+### <a id="VM_Managed_AttributeFacetRefinementBase__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> AttributeFacetRefinementBase\(Variable, Variable, Variable, bool, bool, bool, bool, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeFacetRefinementBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -195,7 +195,7 @@ if set to <code>true</code> [unuse GRID_TO_EDGE.
 
 if set to <code>true</code> [unuse approximated evaluation].
 
-### AttributeFacetRefinementBase\(\)
+### <a id="VM_Managed_AttributeFacetRefinementBase__ctor"></a> AttributeFacetRefinementBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeFacetRefinementBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ public AttributeFacetRefinementBase()
 
 ## Fields
 
-### m\_bDoNotUseApprox\_eval
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_bDoNotUseApprox_eval"></a> m\_bDoNotUseApprox\_eval
 
 Use approx evaluation.
 
@@ -217,7 +217,7 @@ protected bool m_bDoNotUseApprox_eval
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_bDoNotUseGRID\_TO\_EDGES
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_bDoNotUseGRID_TO_EDGES"></a> m\_bDoNotUseGRID\_TO\_EDGES
 
 Use grid to edge.
 
@@ -229,7 +229,7 @@ protected bool m_bDoNotUseGRID_TO_EDGES
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_bUseDefaultValues
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseDefaultValues"></a> m\_bUseDefaultValues
 
 Use default values.
 
@@ -241,7 +241,7 @@ protected bool m_bUseDefaultValues
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_bUseFaceOption
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseFaceOption"></a> m\_bUseFaceOption
 
 Use face option.
 
@@ -253,7 +253,7 @@ protected bool m_bUseFaceOption
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_bUseFacetAspectRatio
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseFacetAspectRatio"></a> m\_bUseFacetAspectRatio
 
 Use facet aspect ratio.
 
@@ -265,7 +265,7 @@ protected bool m_bUseFacetAspectRatio
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_bUseMaximumFacetSize
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseMaximumFacetSize"></a> m\_bUseMaximumFacetSize
 
 Use maximum facet size.
 
@@ -277,7 +277,7 @@ protected bool m_bUseMaximumFacetSize
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_bUseMaximumGridLine
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseMaximumGridLine"></a> m\_bUseMaximumGridLine
 
 Use maximum grid line.
 
@@ -289,7 +289,7 @@ protected bool m_bUseMaximumGridLine
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_bUseMinimumUGridLine
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseMinimumUGridLine"></a> m\_bUseMinimumUGridLine
 
 Use minimum u grid line.
 
@@ -301,7 +301,7 @@ protected bool m_bUseMinimumUGridLine
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_bUseMinimumVGridLine
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseMinimumVGridLine"></a> m\_bUseMinimumVGridLine
 
 Use minimum v grid line.
 
@@ -313,7 +313,7 @@ protected bool m_bUseMinimumVGridLine
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_bUseRepairPatch
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseRepairPatch"></a> m\_bUseRepairPatch
 
 Use repair patch.
 
@@ -325,7 +325,7 @@ protected bool m_bUseRepairPatch
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_bUseSurfaceAngularTolerance
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseSurfaceAngularTolerance"></a> m\_bUseSurfaceAngularTolerance
 
 Use surface angular tolerance.
 
@@ -337,7 +337,7 @@ protected bool m_bUseSurfaceAngularTolerance
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_bUseSurfaceTolerance
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_bUseSurfaceTolerance"></a> m\_bUseSurfaceTolerance
 
 Use surface tolerance.
 
@@ -349,7 +349,7 @@ protected bool m_bUseSurfaceTolerance
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_childAngularTolerance
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_childAngularTolerance"></a> m\_childAngularTolerance
 
 angular tolerance.
 
@@ -361,7 +361,7 @@ protected Child<Variable, LinkContainer.Update> m_childAngularTolerance
 
  [Child](VM.Managed.Child\-2.md)<[Variable](VM.Managed.Variable.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>
 
-### m\_childFacetAspectRatio
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_childFacetAspectRatio"></a> m\_childFacetAspectRatio
 
 facet aspect ratio.
 
@@ -373,7 +373,7 @@ protected Child<Variable, LinkContainer.Update> m_childFacetAspectRatio
 
  [Child](VM.Managed.Child\-2.md)<[Variable](VM.Managed.Variable.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>
 
-### m\_childMaxFacetSize
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_childMaxFacetSize"></a> m\_childMaxFacetSize
 
 max facet size.
 
@@ -385,7 +385,7 @@ protected Child<Variable, LinkContainer.Update> m_childMaxFacetSize
 
  [Child](VM.Managed.Child\-2.md)<[Variable](VM.Managed.Variable.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>
 
-### m\_childMaxGridLine
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_childMaxGridLine"></a> m\_childMaxGridLine
 
 max grid line.
 
@@ -397,7 +397,7 @@ protected Child<Variable, LinkContainer.Update> m_childMaxGridLine
 
  [Child](VM.Managed.Child\-2.md)<[Variable](VM.Managed.Variable.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>
 
-### m\_childMinUGridLine
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_childMinUGridLine"></a> m\_childMinUGridLine
 
 minimum u grid line.
 
@@ -409,7 +409,7 @@ protected Child<Variable, LinkContainer.Update> m_childMinUGridLine
 
  [Child](VM.Managed.Child\-2.md)<[Variable](VM.Managed.Variable.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>
 
-### m\_childMinVGridLine
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_childMinVGridLine"></a> m\_childMinVGridLine
 
 minimum v grid line.
 
@@ -421,7 +421,7 @@ protected Child<Variable, LinkContainer.Update> m_childMinVGridLine
 
  [Child](VM.Managed.Child\-2.md)<[Variable](VM.Managed.Variable.md), [LinkContainer](VM.Managed.LinkContainer.md).[Update](VM.Managed.LinkContainer.Update.md)\>
 
-### m\_childSurfaceTolerance
+### <a id="VM_Managed_AttributeFacetRefinementBase_m_childSurfaceTolerance"></a> m\_childSurfaceTolerance
 
 surface tolerence.
 
@@ -435,7 +435,7 @@ protected Child<Variable, LinkContainer.Update> m_childSurfaceTolerance
 
 ## Properties
 
-### DrawGlobalBody
+### <a id="VM_Managed_AttributeFacetRefinementBase_DrawGlobalBody"></a> DrawGlobalBody
 
 Gets or sets a value indicating whether draw global body.
 
@@ -447,7 +447,7 @@ public virtual bool DrawGlobalBody { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### FacetAspectRatio
+### <a id="VM_Managed_AttributeFacetRefinementBase_FacetAspectRatio"></a> FacetAspectRatio
 
 Gets or sets the facet aspect ratio.
 
@@ -459,7 +459,7 @@ public ExpressionValueVariable FacetAspectRatio { get; set; }
 
  ExpressionValueVariable
 
-### MaximumFacetSize
+### <a id="VM_Managed_AttributeFacetRefinementBase_MaximumFacetSize"></a> MaximumFacetSize
 
 Gets or sets the maximum size of the facet.
 
@@ -471,7 +471,7 @@ public ExpressionValueVariable MaximumFacetSize { get; set; }
 
  ExpressionValueVariable
 
-### MaximumGridLine
+### <a id="VM_Managed_AttributeFacetRefinementBase_MaximumGridLine"></a> MaximumGridLine
 
 Gets or sets the maximum grid line.
 
@@ -483,7 +483,7 @@ public ExpressionValueVariable MaximumGridLine { get; set; }
 
  ExpressionValueVariable
 
-### MinimumUGridLine
+### <a id="VM_Managed_AttributeFacetRefinementBase_MinimumUGridLine"></a> MinimumUGridLine
 
 Gets or sets the minimum U grid line.
 
@@ -495,7 +495,7 @@ public ExpressionValueVariable MinimumUGridLine { get; set; }
 
  ExpressionValueVariable
 
-### MinimumVGridLine
+### <a id="VM_Managed_AttributeFacetRefinementBase_MinimumVGridLine"></a> MinimumVGridLine
 
 Gets or sets the minimum V grid line.
 
@@ -507,7 +507,7 @@ public ExpressionValueVariable MinimumVGridLine { get; set; }
 
  ExpressionValueVariable
 
-### SurfaceAngularTolerance
+### <a id="VM_Managed_AttributeFacetRefinementBase_SurfaceAngularTolerance"></a> SurfaceAngularTolerance
 
 Gets or sets the surface angular tolerance.
 
@@ -519,7 +519,7 @@ public ExpressionValueVariable SurfaceAngularTolerance { get; set; }
 
  ExpressionValueVariable
 
-### SurfaceTolerance
+### <a id="VM_Managed_AttributeFacetRefinementBase_SurfaceTolerance"></a> SurfaceTolerance
 
 Gets or sets the surface tolerance.
 
@@ -531,7 +531,7 @@ public ExpressionValueVariable SurfaceTolerance { get; set; }
 
  ExpressionValueVariable
 
-### UseApprox\_eval
+### <a id="VM_Managed_AttributeFacetRefinementBase_UseApprox_eval"></a> UseApprox\_eval
 
 Gets or sets a value indicating whether use [approximated evaluation].
 
@@ -543,7 +543,7 @@ public bool UseApprox_eval { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseDefaultValues
+### <a id="VM_Managed_AttributeFacetRefinementBase_UseDefaultValues"></a> UseDefaultValues
 
 Gets or sets a value indicating whether use [default values].
 
@@ -555,7 +555,7 @@ public bool UseDefaultValues { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseFaceOption
+### <a id="VM_Managed_AttributeFacetRefinementBase_UseFaceOption"></a> UseFaceOption
 
 Gets or sets a value indicating whether use [face option].
 
@@ -567,7 +567,7 @@ public bool UseFaceOption { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseFacetAspectRatio
+### <a id="VM_Managed_AttributeFacetRefinementBase_UseFacetAspectRatio"></a> UseFacetAspectRatio
 
 Gets or sets a value indicating whether use [facet aspect ratio].
 
@@ -579,7 +579,7 @@ public bool UseFacetAspectRatio { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseGRID\_TO\_EDGES
+### <a id="VM_Managed_AttributeFacetRefinementBase_UseGRID_TO_EDGES"></a> UseGRID\_TO\_EDGES
 
 Gets or sets a value indicating whether use [GRID_TO_EDGE].
 
@@ -591,7 +591,7 @@ public bool UseGRID_TO_EDGES { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseMaximumFacetSize
+### <a id="VM_Managed_AttributeFacetRefinementBase_UseMaximumFacetSize"></a> UseMaximumFacetSize
 
 Gets or sets a value indicating whether use [maximum facet size].
 
@@ -603,7 +603,7 @@ public bool UseMaximumFacetSize { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseMaximumGridLine
+### <a id="VM_Managed_AttributeFacetRefinementBase_UseMaximumGridLine"></a> UseMaximumGridLine
 
 Gets or sets a value indicating whether use [maximum grid line].
 
@@ -615,7 +615,7 @@ public bool UseMaximumGridLine { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseMinimumUGridLine
+### <a id="VM_Managed_AttributeFacetRefinementBase_UseMinimumUGridLine"></a> UseMinimumUGridLine
 
 Gets or sets a value indicating whether use [minimum U grid line].
 
@@ -627,7 +627,7 @@ public bool UseMinimumUGridLine { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseMinimumVGridLine
+### <a id="VM_Managed_AttributeFacetRefinementBase_UseMinimumVGridLine"></a> UseMinimumVGridLine
 
 Gets or sets a value indicating whether use [minimum V grid line].
 
@@ -639,7 +639,7 @@ public bool UseMinimumVGridLine { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseRepairPatch
+### <a id="VM_Managed_AttributeFacetRefinementBase_UseRepairPatch"></a> UseRepairPatch
 
 Gets or sets a value indicating whether use [repair patch].
 
@@ -651,7 +651,7 @@ public bool UseRepairPatch { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseSurfaceAngularTolerance
+### <a id="VM_Managed_AttributeFacetRefinementBase_UseSurfaceAngularTolerance"></a> UseSurfaceAngularTolerance
 
 Gets or sets a value indicating whether use [surface angular tolerance].
 
@@ -663,7 +663,7 @@ public bool UseSurfaceAngularTolerance { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseSurfaceTolerance
+### <a id="VM_Managed_AttributeFacetRefinementBase_UseSurfaceTolerance"></a> UseSurfaceTolerance
 
 Gets or sets a value indicating whether use [surface tolerance].
 
@@ -677,7 +677,7 @@ public bool UseSurfaceTolerance { get; set; }
 
 ## Methods
 
-### Copy\(AttributeFacetRefinementBase, ref AttributeFacetRefinementBase\)
+### <a id="VM_Managed_AttributeFacetRefinementBase_Copy_VM_Managed_AttributeFacetRefinementBase_VM_Managed_AttributeFacetRefinementBase__"></a> Copy\(AttributeFacetRefinementBase, ref AttributeFacetRefinementBase\)
 
 Copy attribute.
 
@@ -695,7 +695,7 @@ The old attribute.
 
 The new attribute.
 
-### Copy\(\)
+### <a id="VM_Managed_AttributeFacetRefinementBase_Copy"></a> Copy\(\)
 
 ```csharp
 public AttributeFacetRefinementBase Copy()
@@ -705,7 +705,7 @@ public AttributeFacetRefinementBase Copy()
 
  [AttributeFacetRefinementBase](VM.Managed.AttributeFacetRefinementBase.md)
 
-### GetFacetOption\(\)
+### <a id="VM_Managed_AttributeFacetRefinementBase_GetFacetOption"></a> GetFacetOption\(\)
 
 ```csharp
 public FacetOption GetFacetOption()
@@ -715,7 +715,7 @@ public FacetOption GetFacetOption()
 
  FacetOption
 
-### GetXml\(AttributeFacetRefinementBase\)
+### <a id="VM_Managed_AttributeFacetRefinementBase_GetXml_VM_Managed_AttributeFacetRefinementBase_"></a> GetXml\(AttributeFacetRefinementBase\)
 
 Get xml information of this instance.
 
@@ -733,7 +733,7 @@ The old attribute.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetXml\(\)
+### <a id="VM_Managed_AttributeFacetRefinementBase_GetXml"></a> GetXml\(\)
 
 ```csharp
 public string GetXml()
@@ -743,7 +743,7 @@ public string GetXml()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Initialize\(\)
+### <a id="VM_Managed_AttributeFacetRefinementBase_Initialize"></a> Initialize\(\)
 
 Initializes this instance.
 
@@ -751,7 +751,7 @@ Initializes this instance.
 public virtual void Initialize()
 ```
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_AttributeFacetRefinementBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -769,7 +769,7 @@ The linked object.
 
 The update event information.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_AttributeFacetRefinementBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -783,7 +783,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### SetDefaultValue\(ObjectBase\)
+### <a id="VM_Managed_AttributeFacetRefinementBase_SetDefaultValue_VM_Managed_ObjectBase_"></a> SetDefaultValue\(ObjectBase\)
 
 Set default values.
 
@@ -796,5 +796,4 @@ public virtual void SetDefaultValue(ObjectBase objContainer)
 `objContainer` [ObjectBase](VM.Managed.ObjectBase.md)
 
 The container.
-
 

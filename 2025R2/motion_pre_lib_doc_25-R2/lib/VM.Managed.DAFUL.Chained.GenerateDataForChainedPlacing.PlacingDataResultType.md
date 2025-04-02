@@ -1,4 +1,4 @@
-# Enum GenerateDataForChainedPlacing.PlacingDataResultType
+#  Enum GenerateDataForChainedPlacing.PlacingDataResultType
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -50,7 +50,6 @@ Fail to set variable
 `Success = 0` 
 
 Success
-
 
 
 

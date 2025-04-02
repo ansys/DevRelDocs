@@ -1,4 +1,4 @@
-# Class LinkContainer
+#  Class LinkContainer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -71,7 +71,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### LinkContainer\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_LinkContainer__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> LinkContainer\(SerializationInfo, StreamingContext\)
 
 ```csharp
 protected LinkContainer(SerializationInfo info, StreamingContext context)
@@ -83,7 +83,7 @@ protected LinkContainer(SerializationInfo info, StreamingContext context)
 
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-### LinkContainer\(IOwned\)
+### <a id="VM_Managed_LinkContainer__ctor_VM_Models_Pre_IOwned_"></a> LinkContainer\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.LinkContainer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -97,7 +97,7 @@ public LinkContainer(IOwned owner)
 
 The owner object.
 
-### LinkContainer\(\)
+### <a id="VM_Managed_LinkContainer__ctor"></a> LinkContainer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.LinkContainer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ public LinkContainer()
 
 ## Properties
 
-### ClearChildInfoBeforeDeserialize
+### <a id="VM_Managed_LinkContainer_ClearChildInfoBeforeDeserialize"></a> ClearChildInfoBeforeDeserialize
 
 Gets a value indicating whether [clear child info before deserialize].
 
@@ -119,7 +119,7 @@ virtual bool ClearChildInfoBeforeDeserialize { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Container
+### <a id="VM_Managed_LinkContainer_Container"></a> Container
 
 Gets or sets the owner object.
 
@@ -131,7 +131,7 @@ public IOwned Container { get; }
 
  IOwned
 
-### Document
+### <a id="VM_Managed_LinkContainer_Document"></a> Document
 
 Gets the document that contains the object.
 
@@ -143,7 +143,7 @@ public virtual Document Document { get; }
 
  [Document](VM.Managed.Document.md)
 
-### ID
+### <a id="VM_Managed_LinkContainer_ID"></a> ID
 
 Gets or sets the id.
 
@@ -155,7 +155,7 @@ virtual Identifier ID { get; }
 
  Identifier
 
-### IsChildExternable
+### <a id="VM_Managed_LinkContainer_IsChildExternable"></a> IsChildExternable
 
 Gets a value indicating whether this instance's child is Externable.
 
@@ -167,7 +167,7 @@ virtual bool IsChildExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsExternable
+### <a id="VM_Managed_LinkContainer_IsExternable"></a> IsExternable
 
 Gets a value indicating whether this instance is Externable.
 
@@ -179,7 +179,7 @@ virtual bool IsExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Owner
+### <a id="VM_Managed_LinkContainer_Owner"></a> Owner
 
 Gets the owner object.
 
@@ -193,7 +193,7 @@ public virtual ObjectBase Owner { get; }
 
 ## Methods
 
-### CanBeDestroy\(object\)
+### <a id="VM_Managed_LinkContainer_CanBeDestroy_System_Object_"></a> CanBeDestroy\(object\)
 
 ```csharp
 protected virtual bool CanBeDestroy(object A_0)
@@ -207,7 +207,7 @@ protected virtual bool CanBeDestroy(object A_0)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CustomGetObjectData\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_LinkContainer_CustomGetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> CustomGetObjectData\(SerializationInfo, StreamingContext\)
 
 <p>Customize the GetObjectData function.</p>
 
@@ -225,7 +225,7 @@ protected virtual void CustomGetObjectData(SerializationInfo info, StreamingCont
 
 <p>The context.</p>
 
-### Dispose\(bool\)
+### <a id="VM_Managed_LinkContainer_Dispose_System_Boolean_"></a> Dispose\(bool\)
 
 ```csharp
 [HandleProcessCorruptedStateExceptions]
@@ -236,7 +236,7 @@ protected override void Dispose(bool A_0)
 
 `A_0` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### DisposeManagedResources\(\)
+### <a id="VM_Managed_LinkContainer_DisposeManagedResources"></a> DisposeManagedResources\(\)
 
 Dispose managed resources
 
@@ -244,7 +244,7 @@ Dispose managed resources
 protected override void DisposeManagedResources()
 ```
 
-### GetCopy\(object\)
+### <a id="VM_Managed_LinkContainer_GetCopy_System_Object_"></a> GetCopy\(object\)
 
 Gets the copied object.
 
@@ -264,7 +264,7 @@ The original object.
 
 The copied object.
 
-### GetSerializedData\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_LinkContainer_GetSerializedData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> GetSerializedData\(SerializationInfo, StreamingContext\)
 
 <p>Load Customized Data function.</p>
 
@@ -282,7 +282,7 @@ protected void GetSerializedData(SerializationInfo info, StreamingContext contex
 
 <p>The context.</p>
 
-### GetTargetListForUpdate\(\)
+### <a id="VM_Managed_LinkContainer_GetTargetListForUpdate"></a> GetTargetListForUpdate\(\)
 
 Gets a updated objects.
 
@@ -294,7 +294,7 @@ virtual List<IEventProvider> GetTargetListForUpdate()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IEventProvider\>
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_LinkContainer_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 <p>Initializes member through unit convert factor.</p>
 
@@ -308,7 +308,7 @@ public virtual void Initialize(Unit.ConvertFactor factor)
 
 <p>The unit convert factor.</p>
 
-### IsSerializableEvent\(Delegate\)
+### <a id="VM_Managed_LinkContainer_IsSerializableEvent_System_Delegate_"></a> IsSerializableEvent\(Delegate\)
 
 Determines whether is [serializable event] [the specified delegate].
 
@@ -328,7 +328,7 @@ The delegate.
 
 <code>true</code> if is [serializable event] [the specified delegate]; otherwise, <code>false</code>.
 
-### LinkAddedToDocument\(object, AddToDocEventArgs\)
+### <a id="VM_Managed_LinkContainer_LinkAddedToDocument_System_Object_VM_Managed_AddToDocEventArgs_"></a> LinkAddedToDocument\(object, AddToDocEventArgs\)
 
 The event that added to document occured from the linked object.
 
@@ -346,7 +346,7 @@ The added object.
 
 The event information that added to document.
 
-### LinkRemovedFromDocument\(object, RemoveFromDocEventArgs\)
+### <a id="VM_Managed_LinkContainer_LinkRemovedFromDocument_System_Object_VM_Managed_RemoveFromDocEventArgs_"></a> LinkRemovedFromDocument\(object, RemoveFromDocEventArgs\)
 
 The event that removed from document occured from the linked object.
 
@@ -364,7 +364,7 @@ The removed object.
 
 The event information that removed to document.
 
-### LinkRequestDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_LinkContainer_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
 The destroy event occured from the linked object.
 
@@ -382,7 +382,7 @@ The linked object.
 
 The destroy event information.
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_LinkContainer_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -400,7 +400,7 @@ The linked object.
 
 The destroy event information.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_LinkContainer_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -418,7 +418,7 @@ The linked object.
 
 The update event information.
 
-### LinkRequestUpdating\(object, LinkEventArgs\)
+### <a id="VM_Managed_LinkContainer_LinkRequestUpdating_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdating\(object, LinkEventArgs\)
 
 The updating event occured from the linked object.
 
@@ -436,7 +436,7 @@ The linked object.
 
 The update event information.
 
-### OnChildUpdated\(object, LinkEventArgs\)
+### <a id="VM_Managed_LinkContainer_OnChildUpdated_System_Object_VM_Managed_LinkEventArgs_"></a> OnChildUpdated\(object, LinkEventArgs\)
 
 Called when [child updated].
 
@@ -454,7 +454,7 @@ The object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnContainerDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_LinkContainer_OnContainerDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> OnContainerDestroy\(object, LinkEventArgs\)
 
 Called when [container destroy].
 
@@ -472,7 +472,7 @@ The object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_LinkContainer_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -486,7 +486,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnLinkReserved\(ILink, object, EventArgs\)
+### <a id="VM_Managed_LinkContainer_OnLinkReserved_VM_Managed_ILink_System_Object_System_EventArgs_"></a> OnLinkReserved\(ILink, object, EventArgs\)
 
 ```csharp
 protected virtual void OnLinkReserved(ILink A_0, object A_1, EventArgs A_2)
@@ -500,7 +500,7 @@ protected virtual void OnLinkReserved(ILink A_0, object A_1, EventArgs A_2)
 
 `A_2` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
 
-### SetContainer\(IOwned, bool\)
+### <a id="VM_Managed_LinkContainer_SetContainer_VM_Models_Pre_IOwned_System_Boolean_"></a> SetContainer\(IOwned, bool\)
 
 ```csharp
 public virtual void SetContainer(IOwned owner, bool bBackup)
@@ -512,7 +512,7 @@ public virtual void SetContainer(IOwned owner, bool bBackup)
 
 `bBackup` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetFlagWhenXMLFile\(string, bool\)
+### <a id="VM_Managed_LinkContainer_SetFlagWhenXMLFile_System_String_System_Boolean_"></a> SetFlagWhenXMLFile\(string, bool\)
 
 Set flag when xml file open
 
@@ -530,7 +530,7 @@ The file path.
 
 The flag.
 
-### SetModified\(\)
+### <a id="VM_Managed_LinkContainer_SetModified"></a> SetModified\(\)
 
 Called when object modified.
 
@@ -538,7 +538,7 @@ Called when object modified.
 public virtual void SetModified()
 ```
 
-### SkipUpdateObjectImpl\(\)
+### <a id="VM_Managed_LinkContainer_SkipUpdateObjectImpl"></a> SkipUpdateObjectImpl\(\)
 
 Skip the object that updated.
 
@@ -550,7 +550,7 @@ virtual bool SkipUpdateObjectImpl()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Verify\(VerifiedResult\)
+### <a id="VM_Managed_LinkContainer_Verify_VM_Managed_VerifiedResult_"></a> Verify\(VerifiedResult\)
 
 Verify.
 
@@ -564,7 +564,7 @@ protected virtual void Verify(VerifiedResult vr)
 
 The Verified result.
 
-### raise\_OnAdded\(object, AddToDocEventArgs\)
+### <a id="VM_Managed_LinkContainer_raise_OnAdded_System_Object_VM_Managed_AddToDocEventArgs_"></a> raise\_OnAdded\(object, AddToDocEventArgs\)
 
 ```csharp
 public void raise_OnAdded(object objNotifier, AddToDocEventArgs args)
@@ -576,7 +576,7 @@ public void raise_OnAdded(object objNotifier, AddToDocEventArgs args)
 
 `args` [AddToDocEventArgs](VM.Managed.AddToDocEventArgs.md)
 
-### raise\_OnDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_LinkContainer_raise_OnDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> raise\_OnDestroy\(object, LinkEventArgs\)
 
 ```csharp
 public void raise_OnDestroy(object objNotifier, LinkEventArgs args)
@@ -588,7 +588,7 @@ public void raise_OnDestroy(object objNotifier, LinkEventArgs args)
 
 `args` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
-### raise\_OnDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_LinkContainer_raise_OnDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> raise\_OnDestroying\(object, LinkEventArgs\)
 
 ```csharp
 public void raise_OnDestroying(object objNotifier, LinkEventArgs args)
@@ -600,7 +600,7 @@ public void raise_OnDestroying(object objNotifier, LinkEventArgs args)
 
 `args` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
-### raise\_OnRemoved\(object, RemoveFromDocEventArgs\)
+### <a id="VM_Managed_LinkContainer_raise_OnRemoved_System_Object_VM_Managed_RemoveFromDocEventArgs_"></a> raise\_OnRemoved\(object, RemoveFromDocEventArgs\)
 
 ```csharp
 public void raise_OnRemoved(object obj, RemoveFromDocEventArgs args)
@@ -612,7 +612,7 @@ public void raise_OnRemoved(object obj, RemoveFromDocEventArgs args)
 
 `args` [RemoveFromDocEventArgs](VM.Managed.RemoveFromDocEventArgs.md)
 
-### raise\_OnUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_LinkContainer_raise_OnUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> raise\_OnUpdate\(object, LinkEventArgs\)
 
 ```csharp
 public void raise_OnUpdate(object objNotifier, LinkEventArgs args)
@@ -624,7 +624,7 @@ public void raise_OnUpdate(object objNotifier, LinkEventArgs args)
 
 `args` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
-### raise\_OnUpdating\(object, LinkEventArgs\)
+### <a id="VM_Managed_LinkContainer_raise_OnUpdating_System_Object_VM_Managed_LinkEventArgs_"></a> raise\_OnUpdating\(object, LinkEventArgs\)
 
 ```csharp
 public void raise_OnUpdating(object objNotifier, LinkEventArgs args)
@@ -636,7 +636,7 @@ public void raise_OnUpdating(object objNotifier, LinkEventArgs args)
 
 `args` [LinkEventArgs](VM.Managed.LinkEventArgs.md)
 
-### OnAdded
+### <a id="VM_Managed_LinkContainer_OnAdded"></a> OnAdded
 
 Occurs when [on add].
 
@@ -648,7 +648,7 @@ public event EventHandler<AddToDocEventArgs> OnAdded
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[AddToDocEventArgs](VM.Managed.AddToDocEventArgs.md)\>
 
-### OnDestroy
+### <a id="VM_Managed_LinkContainer_OnDestroy"></a> OnDestroy
 
 Occurs when [on destroy].
 
@@ -660,7 +660,7 @@ public event EventHandler<LinkEventArgs> OnDestroy
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
-### OnDestroying
+### <a id="VM_Managed_LinkContainer_OnDestroying"></a> OnDestroying
 
 Occurs when [on destroy].
 
@@ -672,7 +672,7 @@ public event EventHandler<LinkEventArgs> OnDestroying
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
-### OnRemoved
+### <a id="VM_Managed_LinkContainer_OnRemoved"></a> OnRemoved
 
 Occurs when [on remove].
 
@@ -684,7 +684,7 @@ public event EventHandler<RemoveFromDocEventArgs> OnRemoved
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[RemoveFromDocEventArgs](VM.Managed.RemoveFromDocEventArgs.md)\>
 
-### OnUpdate
+### <a id="VM_Managed_LinkContainer_OnUpdate"></a> OnUpdate
 
 Occurs when [on update].
 
@@ -696,7 +696,7 @@ public event EventHandler<LinkEventArgs> OnUpdate
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
 
-### OnUpdating
+### <a id="VM_Managed_LinkContainer_OnUpdating"></a> OnUpdating
 
 Occurs when [on update].
 
@@ -707,5 +707,4 @@ public event EventHandler<LinkEventArgs> OnUpdating
 #### Event Type
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[LinkEventArgs](VM.Managed.LinkEventArgs.md)\>
-
 

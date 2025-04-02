@@ -1,4 +1,4 @@
-# Interface IHasFilter
+#  Interface IHasFilter
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IHasFilter
 
 ## Properties
 
-### Filter
+### <a id="VM_IHasFilter_Filter"></a> Filter
 
 ```python
 Predicate<object> Filter { get; }

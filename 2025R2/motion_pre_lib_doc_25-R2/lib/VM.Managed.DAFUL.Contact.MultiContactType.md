@@ -1,4 +1,4 @@
-# Enum MultiContactType
+#  Enum MultiContactType
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -32,7 +32,6 @@ GeneralContact
 `RTR3D = 1` 
 
 RTR
-
 
 
 

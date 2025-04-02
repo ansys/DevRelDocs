@@ -1,4 +1,4 @@
-# Struct UpdateParameterOperation.ParamInfo
+#  Struct UpdateParameterOperation.ParamInfo
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -9,7 +9,7 @@ public struct UpdateParameterOperation.ParamInfo
 
 ## Fields
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_Name"></a> Name
 
 ```csharp
 public string Name
@@ -19,7 +19,7 @@ public string Name
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SymState
+### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_SymState"></a> SymState
 
 ```csharp
 public bool SymState
@@ -29,7 +29,7 @@ public bool SymState
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Type
+### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_Type"></a> Type
 
 ```csharp
 public string Type
@@ -39,7 +39,7 @@ public string Type
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UseSym
+### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_UseSym"></a> UseSym
 
 ```csharp
 public bool UseSym
@@ -49,7 +49,7 @@ public bool UseSym
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Value
+### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_Value"></a> Value
 
 ```csharp
 public string Value
@@ -59,7 +59,7 @@ public string Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### X
+### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_X"></a> X
 
 ```csharp
 public string X
@@ -69,7 +69,7 @@ public string X
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Y
+### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_Y"></a> Y
 
 ```csharp
 public string Y
@@ -79,7 +79,7 @@ public string Y
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Z
+### <a id="VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo_Z"></a> Z
 
 ```csharp
 public string Z
@@ -88,5 +88,4 @@ public string Z
 #### Field Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

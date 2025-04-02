@@ -1,4 +1,4 @@
-# Class Property
+#  Class Property
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -158,7 +158,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Property\(\)
+### <a id="VM_Managed_Property__ctor"></a> Property\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Property" data-throw-if-not-resolved="false"></xref> class.
 
@@ -166,7 +166,7 @@ Initializes a new instance of the <xref href="VM.Managed.Property" data-throw-if
 public Property()
 ```
 
-### Property\(string, string\)
+### <a id="VM_Managed_Property__ctor_System_String_System_String_"></a> Property\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Property" data-throw-if-not-resolved="false"></xref> class.
 
@@ -186,7 +186,7 @@ The build information.
 
 ## Methods
 
-### Draw\(Canvas, TMatrix, TMatrix, bool\)
+### <a id="VM_Managed_Property_Draw_VM_CAD_Kernel_Render_Canvas_VM_Managed_TMatrix_VM_Managed_TMatrix_System_Boolean_"></a> Draw\(Canvas, TMatrix, TMatrix, bool\)
 
 <p>Draws the icon.</p>
 
@@ -212,7 +212,7 @@ public virtual void Draw(Canvas canvas, TMatrix matTBase, TMatrix matTAct, bool 
 
 <p>The hide flag.</p>
 
-### FindLocal\(string\)
+### <a id="VM_Managed_Property_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -232,7 +232,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_Property_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -250,7 +250,7 @@ The ob unnamed.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_Property_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -264,7 +264,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### OnUpdatePropertyImpl\(Property, LinkEventArgs\)
+### <a id="VM_Managed_Property_OnUpdatePropertyImpl_VM_Managed_Property_VM_Managed_LinkEventArgs_"></a> OnUpdatePropertyImpl\(Property, LinkEventArgs\)
 
 Called when [update property].
 
@@ -282,7 +282,7 @@ The property.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### PropertyRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_Property_PropertyRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> PropertyRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the property.
 
@@ -299,5 +299,4 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

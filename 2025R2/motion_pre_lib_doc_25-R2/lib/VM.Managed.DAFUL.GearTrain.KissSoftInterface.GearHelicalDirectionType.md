@@ -1,4 +1,4 @@
-# Enum KissSoftInterface.GearHelicalDirectionType
+#  Enum KissSoftInterface.GearHelicalDirectionType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ Left
 `Right = 1` 
 
 Right
-
 
 
 

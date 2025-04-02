@@ -1,4 +1,4 @@
-# Class SetCurveForEdges
+#  Class SetCurveForEdges
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -213,7 +213,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SetCurveForEdges\(\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges__ctor"></a> SetCurveForEdges\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetCurveForEdges" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetCurveForEdges"
 public SetCurveForEdges()
 ```
 
-### SetCurveForEdges\(string\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges__ctor_System_String_"></a> SetCurveForEdges\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.SetCurveForEdges" data-throw-if-not-resolved="false"></xref> class.
 
@@ -237,7 +237,7 @@ Name of the face set.
 
 ## Properties
 
-### EdgeList
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_EdgeList"></a> EdgeList
 
 Gets the edge link list.
 
@@ -249,7 +249,7 @@ public IList<Edge> EdgeList { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<Edge\>
 
-### IsReverseCurveDirection
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_IsReverseCurveDirection"></a> IsReverseCurveDirection
 
 The flag that indicate reserve curve direction
 
@@ -261,7 +261,7 @@ public bool IsReverseCurveDirection { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MaximumAngle
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_MaximumAngle"></a> MaximumAngle
 
 The maximum angle
 
@@ -273,7 +273,7 @@ public ExpressionValueVariable MaximumAngle { get; set; }
 
  ExpressionValueVariable
 
-### MaximumLength
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_MaximumLength"></a> MaximumLength
 
 The maximum length
 
@@ -285,7 +285,7 @@ public ExpressionValueVariable MaximumLength { get; set; }
 
  ExpressionValueVariable
 
-### MaximumTolerance
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_MaximumTolerance"></a> MaximumTolerance
 
 The maximum tolerance
 
@@ -297,7 +297,7 @@ public ExpressionValueVariable MaximumTolerance { get; set; }
 
  ExpressionValueVariable
 
-### TopologyList
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_TopologyList"></a> TopologyList
 
 Gets or sets the topology list.
 
@@ -311,7 +311,7 @@ public TopologyList<Edge> TopologyList { get; set; }
 
 ## Methods
 
-### AddEdge\(Edge\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_AddEdge_VM_Managed_CAD_Edge_"></a> AddEdge\(Edge\)
 
 Adds the edge to topology list.
 
@@ -325,7 +325,7 @@ public virtual void AddEdge(Edge edge)
 
 The edge.
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Fix up object after update contents
 
@@ -345,7 +345,7 @@ The old object
 
 true if success, otherwise false.
 
-### GetCount\(\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_GetCount"></a> GetCount\(\)
 
 Gets the edge's count.
 
@@ -359,7 +359,7 @@ public int GetCount()
 
 The edge's count.
 
-### GetElementKey\(int\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_GetElementKey_System_Int32_"></a> GetElementKey\(int\)
 
 Gets the element(edge) key.
 
@@ -379,7 +379,7 @@ The Index.
 
 The element(edge) key.
 
-### GetElementType\(\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_GetElementType"></a> GetElementType\(\)
 
 Gets the type of the element(edge).
 
@@ -393,7 +393,7 @@ public Type GetElementType()
 
 The type of the element(edge).
 
-### GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets point direction
 
@@ -419,7 +419,7 @@ The reference entity
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetPoints\(\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_GetPoints"></a> GetPoints\(\)
 
 Get points
 
@@ -433,7 +433,7 @@ public override VectorBase[] GetPoints()
 
 The array of points
 
-### GetProfilePoint\(ref bool, ref List<VectorBase\>\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_GetProfilePoint_System_Boolean__System_Collections_Generic_List_VM_Managed_VectorBase___"></a> GetProfilePoint\(ref bool, ref List<VectorBase\>\)
 
 Gets the profile point
 
@@ -455,7 +455,7 @@ The position list
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initialize the <xref href="VM.Managed.DAFUL.SetCurveForEdges" data-throw-if-not-resolved="false"></xref>
 
@@ -469,7 +469,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The convert factor
 
-### LinkRequestDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -487,7 +487,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Link request update
 
@@ -505,7 +505,7 @@ The notifier
 
 The event argument
 
-### MakeReferenceImpl\(LinkedList<Reference\>\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -519,7 +519,7 @@ protected virtual void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### PostAddToDocument\(\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_PostAddToDocument"></a> PostAddToDocument\(\)
 
 Called after added to document.
 
@@ -527,7 +527,7 @@ Called after added to document.
 public override void PostAddToDocument()
 ```
 
-### PostRemoveFromDocument\(Document\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_PostRemoveFromDocument_VM_Managed_Document_"></a> PostRemoveFromDocument\(Document\)
 
 Called after removed from document
 <param name="document">The document</param>
@@ -540,7 +540,7 @@ public override void PostRemoveFromDocument(Document document)
 
 `document` Document
 
-### RemoveAllEdge\(\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_RemoveAllEdge"></a> RemoveAllEdge\(\)
 
 Removes all face from topology list.
 
@@ -548,7 +548,7 @@ Removes all face from topology list.
 public void RemoveAllEdge()
 ```
 
-### RemoveEdge\(Edge\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_RemoveEdge_VM_Managed_CAD_Edge_"></a> RemoveEdge\(Edge\)
 
 Removes the edge from topology list.
 
@@ -562,12 +562,11 @@ public void RemoveEdge(Edge edge)
 
 The edge.
 
-### ResetInvalidEntity\(\)
+### <a id="VM_Managed_DAFUL_SetCurveForEdges_ResetInvalidEntity"></a> ResetInvalidEntity\(\)
 
 Reset invalid entity.
 
 ```csharp
 public override void ResetInvalidEntity()
 ```
-
 

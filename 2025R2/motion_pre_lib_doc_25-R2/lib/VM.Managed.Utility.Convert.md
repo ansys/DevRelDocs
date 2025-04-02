@@ -1,4 +1,4 @@
-# Class Convert
+#  Class Convert
 
 Namespace: [VM.Managed.Utility](VM.Managed.Utility.md)  
 Assembly: VM.dll  
@@ -22,7 +22,7 @@ public static class Convert
 
 ## Properties
 
-### DToR
+### <a id="VM_Managed_Utility_Convert_DToR"></a> DToR
 
 Gets the Degree to Radius.
 
@@ -34,7 +34,7 @@ public static double DToR { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RToD
+### <a id="VM_Managed_Utility_Convert_RToD"></a> RToD
 
 Gets the Radius to Degree.
 
@@ -46,7 +46,7 @@ public static double RToD { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SignificantFigure
+### <a id="VM_Managed_Utility_Convert_SignificantFigure"></a> SignificantFigure
 
 Gets the significant figure.
 
@@ -60,7 +60,7 @@ public static int SignificantFigure { get; set; }
 
 ## Methods
 
-### GetContrastColor\(Color\)
+### <a id="VM_Managed_Utility_Convert_GetContrastColor_System_Drawing_Color_"></a> GetContrastColor\(Color\)
 
 ```csharp
 public static Color GetContrastColor(Color baseColor)
@@ -74,7 +74,7 @@ public static Color GetContrastColor(Color baseColor)
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### ToString\(double\)
+### <a id="VM_Managed_Utility_Convert_ToString_System_Double_"></a> ToString\(double\)
 
 Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
 
@@ -94,7 +94,7 @@ The val.
 
 A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
 
-### ToString\(Vector\)
+### <a id="VM_Managed_Utility_Convert_ToString_VM_Vector_"></a> ToString\(Vector\)
 
 Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
 
@@ -112,7 +112,7 @@ public static string ToString(Vector vec)
 
 A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
 
-### ToString\(double, double\)
+### <a id="VM_Managed_Utility_Convert_ToString_System_Double_System_Double_"></a> ToString\(double, double\)
 
 Returns a <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
 
@@ -135,5 +135,4 @@ The convert factor.
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 A <xref href="System.String" data-throw-if-not-resolved="false"></xref> that represents this instance.
-
 

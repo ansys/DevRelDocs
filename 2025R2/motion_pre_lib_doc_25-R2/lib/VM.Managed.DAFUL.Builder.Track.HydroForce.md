@@ -1,4 +1,4 @@
-# Class HydroForce
+#  Class HydroForce
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -53,7 +53,7 @@ BuilderBase<HydroForce\>.ErrorMessage
 
 ## Constructors
 
-### HydroForce\(\)
+### <a id="VM_Managed_DAFUL_Builder_Track_HydroForce__ctor"></a> HydroForce\(\)
 
 ```csharp
 public HydroForce()
@@ -61,7 +61,7 @@ public HydroForce()
 
 ## Properties
 
-### ActionBodies
+### <a id="VM_Managed_DAFUL_Builder_Track_HydroForce_ActionBodies"></a> ActionBodies
 
 ```csharp
 public HydroForce.CheckedMultiBody ActionBodies { get; set; }
@@ -71,7 +71,7 @@ public HydroForce.CheckedMultiBody ActionBodies { get; set; }
 
  [HydroForce](VM.Managed.DAFUL.Builder.Track.HydroForce.md).[CheckedMultiBody](VM.Managed.DAFUL.Builder.Track.HydroForce.CheckedMultiBody.md)
 
-### BaseWater
+### <a id="VM_Managed_DAFUL_Builder_Track_HydroForce_BaseWater"></a> BaseWater
 
 ```csharp
 public IWater BaseWater { get; }
@@ -81,7 +81,7 @@ public IWater BaseWater { get; }
 
  IWater
 
-### HullBody
+### <a id="VM_Managed_DAFUL_Builder_Track_HydroForce_HullBody"></a> HullBody
 
 ```csharp
 public IConnectable HullBody { get; }
@@ -93,7 +93,7 @@ public IConnectable HullBody { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Track_HydroForce_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -108,5 +108,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

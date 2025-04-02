@@ -1,4 +1,4 @@
-# Namespace VM.Managed.Symmetric.CAD
+#  Namespace VM.Managed.Symmetric.CAD
 
 ### Namespaces
 
@@ -27,5 +27,4 @@
  [SolidBodySubtract](VM.Managed.Symmetric.CAD.SolidBodySubtract.md)
 
  [SolidBodyTriPlateSimple](VM.Managed.Symmetric.CAD.SolidBodyTriPlateSimple.md)
-
 

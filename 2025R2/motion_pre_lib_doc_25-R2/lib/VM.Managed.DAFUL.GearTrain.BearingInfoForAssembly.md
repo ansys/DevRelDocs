@@ -1,4 +1,4 @@
-# Class BearingInfoForAssembly
+#  Class BearingInfoForAssembly
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BearingInfoForAssembly\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingInfoForAssembly__ctor"></a> BearingInfoForAssembly\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.BearingInfoForAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Bearing
 public BearingInfoForAssembly()
 ```
 
-### BearingInfoForAssembly\(IOwned\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingInfoForAssembly__ctor_VM_Models_Pre_IOwned_"></a> BearingInfoForAssembly\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.BearingInfoForAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner.
 
 ## Properties
 
-### HDBGInfo
+### <a id="VM_Managed_DAFUL_GearTrain_BearingInfoForAssembly_HDBGInfo"></a> HDBGInfo
 
 Gets or sets the hydro dynamic bearing geometry information.
 
@@ -132,7 +132,7 @@ public HDBGeometryInfo HDBGInfo { get; set; }
 
  [HDBGeometryInfo](VM.Managed.DAFUL.GearTrain.HDBGeometryInfo.md)
 
-### ParentBody
+### <a id="VM_Managed_DAFUL_GearTrain_BearingInfoForAssembly_ParentBody"></a> ParentBody
 
 Gets or sets the parent body.
 
@@ -144,7 +144,7 @@ public IConnectable ParentBody { get; set; }
 
  IConnectable
 
-### RacewayInfo
+### <a id="VM_Managed_DAFUL_GearTrain_BearingInfoForAssembly_RacewayInfo"></a> RacewayInfo
 
 Gets or sets the raceway information.
 
@@ -156,7 +156,7 @@ public RacewayGeometryInfo RacewayInfo { get; set; }
 
  [RacewayGeometryInfo](VM.Managed.DAFUL.GearTrain.RacewayGeometryInfo.md)
 
-### UseReferenceBody
+### <a id="VM_Managed_DAFUL_GearTrain_BearingInfoForAssembly_UseReferenceBody"></a> UseReferenceBody
 
 Gets or sets a value indicating whether this instance is use reference body.
 
@@ -168,7 +168,7 @@ public bool UseReferenceBody { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### \_ParentBody
+### <a id="VM_Managed_DAFUL_GearTrain_BearingInfoForAssembly__ParentBody"></a> \_ParentBody
 
 Gets or sets the parent body.
 
@@ -179,5 +179,4 @@ public Linker<IConnectable> _ParentBody { get; set; }
 #### Property Value
 
  Linker<IConnectable\>
-
 

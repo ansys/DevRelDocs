@@ -1,4 +1,4 @@
-# Enum Document3D.CadImportResultType
+#  Enum Document3D.CadImportResultType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -32,7 +32,6 @@ not healing combine.
 `NotHealingNotCombine = 0` 
 
 not healing not combine.
-
 
 
 

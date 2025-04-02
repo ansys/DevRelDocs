@@ -1,4 +1,4 @@
-# Interface IHasParent<T\>
+#  Interface IHasParent<T\>
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -13,7 +13,7 @@ public interface IHasParent<T>
 
 ## Properties
 
-### Parent
+### <a id="VM_IHasParent_1_Parent"></a> Parent
 
 ```python
 T Parent { get; }

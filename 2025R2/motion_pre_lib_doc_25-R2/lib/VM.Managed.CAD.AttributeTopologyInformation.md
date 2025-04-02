@@ -1,4 +1,4 @@
-# Class AttributeTopologyInformation
+#  Class AttributeTopologyInformation
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeTopologyInformation\(string, string\)
+### <a id="VM_Managed_CAD_AttributeTopologyInformation__ctor_System_String_System_String_"></a> AttributeTopologyInformation\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.AttributeTopologyInformation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -117,7 +117,7 @@ The name.
 
 The type.
 
-### AttributeTopologyInformation\(\)
+### <a id="VM_Managed_CAD_AttributeTopologyInformation__ctor"></a> AttributeTopologyInformation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.AttributeTopologyInformation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -127,7 +127,7 @@ public AttributeTopologyInformation()
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_CAD_AttributeTopologyInformation_Name"></a> Name
 
 Gets or sets the name.
 
@@ -139,7 +139,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Type
+### <a id="VM_Managed_CAD_AttributeTopologyInformation_Type"></a> Type
 
 Gets or sets the type.
 
@@ -150,5 +150,4 @@ public string Type { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

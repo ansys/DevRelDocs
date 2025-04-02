@@ -1,4 +1,4 @@
-# Interface IOperationsHeatmapLineDataSeriesViewModel
+#  Interface IOperationsHeatmapLineDataSeriesViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -118,7 +118,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### Harmonic
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatmapLineDataSeriesViewModel_Harmonic"></a> Harmonic
 
 Gets or sets the slope of the curve at the start point.
 
@@ -138,7 +138,7 @@ For an example that includes this property, see the [Interface IOperationsHeatma
 
 Use this property to specify or retrieve the slope of the curve at the start point.
 
-### Interval
+### <a id="VM_Operations_Post_Interfaces_IOperationsHeatmapLineDataSeriesViewModel_Interval"></a> Interval
 
 Gets or sets the value of the interval.
 

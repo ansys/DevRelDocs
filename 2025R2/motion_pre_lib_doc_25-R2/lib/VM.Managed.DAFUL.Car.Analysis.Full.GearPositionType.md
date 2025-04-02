@@ -1,4 +1,4 @@
-# Enum GearPositionType
+#  Enum GearPositionType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.Full](VM.Managed.DAFUL.Car.Analysis.Full.md)  
 Assembly: VMDCar.dll  
@@ -44,7 +44,6 @@ Three
 `Two = 2` 
 
 Two
-
 
 
 

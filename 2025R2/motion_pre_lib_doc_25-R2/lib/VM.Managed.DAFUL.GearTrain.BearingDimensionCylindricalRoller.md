@@ -1,4 +1,4 @@
-# Class BearingDimensionCylindricalRoller
+#  Class BearingDimensionCylindricalRoller
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -103,7 +103,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BearingDimensionCylindricalRoller\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionCylindricalRoller__ctor"></a> BearingDimensionCylindricalRoller\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.BearingDimensionCylindricalRoller" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public BearingDimensionCylindricalRoller()
 
 ## Properties
 
-### InnerRacewayShoulderDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionCylindricalRoller_InnerRacewayShoulderDiameter"></a> InnerRacewayShoulderDiameter
 
 Gets or sets the inner raceway shoulder diameter.
 
@@ -125,7 +125,7 @@ public ExpressionValueVariable InnerRacewayShoulderDiameter { get; set; }
 
  ExpressionValueVariable
 
-### NumberOfRoller
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionCylindricalRoller_NumberOfRoller"></a> NumberOfRoller
 
 Gets or sets the number of roller.
 
@@ -137,7 +137,7 @@ public ExpressionValueVariable NumberOfRoller { get; set; }
 
  ExpressionValueVariable
 
-### OuterRacewayShoulderBore
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionCylindricalRoller_OuterRacewayShoulderBore"></a> OuterRacewayShoulderBore
 
 Gets or sets the outer raceway shoulder bore.
 
@@ -149,7 +149,7 @@ public ExpressionValueVariable OuterRacewayShoulderBore { get; set; }
 
  ExpressionValueVariable
 
-### RollerDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionCylindricalRoller_RollerDiameter"></a> RollerDiameter
 
 Gets or sets the roller diameter.
 
@@ -161,7 +161,7 @@ public ExpressionValueVariable RollerDiameter { get; set; }
 
  ExpressionValueVariable
 
-### RollerLength
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionCylindricalRoller_RollerLength"></a> RollerLength
 
 Gets or sets the roller length.
 
@@ -173,7 +173,7 @@ public ExpressionValueVariable RollerLength { get; set; }
 
  ExpressionValueVariable
 
-### RollerPitchDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionCylindricalRoller_RollerPitchDiameter"></a> RollerPitchDiameter
 
 Gets or sets the roller pitch diameter.
 
@@ -185,7 +185,7 @@ public ExpressionValueVariable RollerPitchDiameter { get; set; }
 
  ExpressionValueVariable
 
-### RoundingRadius
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionCylindricalRoller_RoundingRadius"></a> RoundingRadius
 
 Gets or sets the rounding radius.
 
@@ -199,7 +199,7 @@ public ExpressionValueVariable RoundingRadius { get; set; }
 
 ## Methods
 
-### GetBuilder\(Bearing, RacewayType, TMatrix, bool, bool, ref BuilderMultiSubtractSimple\)
+### <a id="VM_Managed_DAFUL_GearTrain_BearingDimensionCylindricalRoller_GetBuilder_VM_Managed_DAFUL_GearTrain_Bearing_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_VM_Managed_TMatrix_System_Boolean_System_Boolean_VM_Managed_CAD_BuilderMultiSubtractSimple__"></a> GetBuilder\(Bearing, RacewayType, TMatrix, bool, bool, ref BuilderMultiSubtractSimple\)
 
 Gets the builder.
 
@@ -232,5 +232,4 @@ The reverse direction falg.
 `builder` BuilderMultiSubtractSimple
 
 The builder.
-
 

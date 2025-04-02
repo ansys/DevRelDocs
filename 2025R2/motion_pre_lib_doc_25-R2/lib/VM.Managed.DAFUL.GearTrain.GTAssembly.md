@@ -1,4 +1,4 @@
-# Class GTAssembly
+#  Class GTAssembly
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GTAssembly\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly__ctor"></a> GTAssembly\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Assembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Managed.Assembly" data-throw-if
 public GTAssembly()
 ```
 
-### GTAssembly\(IOwned\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly__ctor_VM_Models_Pre_IOwned_"></a> GTAssembly\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GTAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner object.
 
 ## Properties
 
-### BearingInfos
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_BearingInfos"></a> BearingInfos
 
 Gets or sets the bearing infos.
 
@@ -132,7 +132,7 @@ public BearingInfoForAssembly[] BearingInfos { get; set; }
 
  [BearingInfoForAssembly](VM.Managed.DAFUL.GearTrain.BearingInfoForAssembly.md)\[\]
 
-### ConnectorProp
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_ConnectorProp"></a> ConnectorProp
 
 Gets or sets the connector property.
 
@@ -144,7 +144,7 @@ public PropertyBush ConnectorProp { get; set; }
 
  PropertyBush
 
-### CycloidPinInformation
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_CycloidPinInformation"></a> CycloidPinInformation
 
 Gets or sets the cycloid pin information.
 
@@ -156,7 +156,7 @@ public CycloidPinInfoForAssembly[] CycloidPinInformation { get; set; }
 
  [CycloidPinInfoForAssembly](VM.Managed.DAFUL.GearTrain.CycloidPinInfoForAssembly.md)\[\]
 
-### InputShaftSetInfos
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_InputShaftSetInfos"></a> InputShaftSetInfos
 
 Gets or sets the input shaft set infos.
 
@@ -168,7 +168,7 @@ public GTAssemblyInfo[] InputShaftSetInfos { get; set; }
 
  [GTAssemblyInfo](VM.Managed.DAFUL.GearTrain.GTAssemblyInfo.md)\[\]
 
-### InputShaftSetList
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_InputShaftSetList"></a> InputShaftSetList
 
 Gets the input shaft set list.
 
@@ -180,7 +180,7 @@ public IList<GTAssemblyInfo> InputShaftSetList { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[GTAssemblyInfo](VM.Managed.DAFUL.GearTrain.GTAssemblyInfo.md)\>
 
-### OutputShaftSetInfos
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_OutputShaftSetInfos"></a> OutputShaftSetInfos
 
 Gets or sets the output shaft set infos.
 
@@ -192,7 +192,7 @@ public GTAssemblyInfo[] OutputShaftSetInfos { get; set; }
 
  [GTAssemblyInfo](VM.Managed.DAFUL.GearTrain.GTAssemblyInfo.md)\[\]
 
-### OutputShaftSetList
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_OutputShaftSetList"></a> OutputShaftSetList
 
 Gets the output shaft set list.
 
@@ -204,7 +204,7 @@ public IList<GTAssemblyInfo> OutputShaftSetList { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[GTAssemblyInfo](VM.Managed.DAFUL.GearTrain.GTAssemblyInfo.md)\>
 
-### ReferenceBody
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_ReferenceBody"></a> ReferenceBody
 
 Gets or sets the reference body.
 
@@ -216,7 +216,7 @@ public IConnectable ReferenceBody { get; set; }
 
  IConnectable
 
-### ReferenceVector
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_ReferenceVector"></a> ReferenceVector
 
 Gets or sets the reference vector.
 
@@ -228,7 +228,7 @@ public DirectionBase ReferenceVector { get; set; }
 
  DirectionBase
 
-### RevoluteProperty
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_RevoluteProperty"></a> RevoluteProperty
 
 Gets or sets the revolute property.
 
@@ -240,7 +240,7 @@ public PropertyRevolute RevoluteProperty { get; set; }
 
  PropertyRevolute
 
-### \_ReferenceBody
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly__ReferenceBody"></a> \_ReferenceBody
 
 Gets or sets the reference body.
 
@@ -254,7 +254,7 @@ public Linker<IConnectable> _ReferenceBody { get; set; }
 
 ## Methods
 
-### AddBearingInfo\(BearingInfoForAssembly\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_AddBearingInfo_VM_Managed_DAFUL_GearTrain_BearingInfoForAssembly_"></a> AddBearingInfo\(BearingInfoForAssembly\)
 
 Adds the bearing information.
 
@@ -268,7 +268,7 @@ public void AddBearingInfo(BearingInfoForAssembly info)
 
 The information.
 
-### AddCycloidPinInformation\(CycloidPinInfoForAssembly\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_AddCycloidPinInformation_VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_"></a> AddCycloidPinInformation\(CycloidPinInfoForAssembly\)
 
 Adds the cycloid pin information.
 
@@ -282,7 +282,7 @@ public void AddCycloidPinInformation(CycloidPinInfoForAssembly info)
 
 The information.
 
-### CanBeDestroy\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_CanBeDestroy_System_Object_"></a> CanBeDestroy\(object\)
 
 Whether can be destroy or not.
 
@@ -300,7 +300,7 @@ The destroy object.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ClearBearingInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_ClearBearingInfo"></a> ClearBearingInfo\(\)
 
 Clear the bearing information.
 
@@ -308,7 +308,7 @@ Clear the bearing information.
 public void ClearBearingInfo()
 ```
 
-### ClearCycloidPinInformation\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_ClearCycloidPinInformation"></a> ClearCycloidPinInformation\(\)
 
 Clear the cycloid pin information.
 
@@ -316,7 +316,7 @@ Clear the cycloid pin information.
 public void ClearCycloidPinInformation()
 ```
 
-### ClearIOShaftSetInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_ClearIOShaftSetInfo"></a> ClearIOShaftSetInfo\(\)
 
 Clears the connector information.
 
@@ -324,7 +324,7 @@ Clears the connector information.
 public void ClearIOShaftSetInfo()
 ```
 
-### FindBearingInfo\(RacewayGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_FindBearingInfo_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_"></a> FindBearingInfo\(RacewayGeometryInfo\)
 
 Finds the bearing information.
 
@@ -342,7 +342,7 @@ The race_info.
 
  [BearingInfoForAssembly](VM.Managed.DAFUL.GearTrain.BearingInfoForAssembly.md)
 
-### FindBearingInfo\(HDBGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_FindBearingInfo_VM_Managed_DAFUL_GearTrain_HDBGeometryInfo_"></a> FindBearingInfo\(HDBGeometryInfo\)
 
 Finds the bearing information.
 
@@ -360,7 +360,7 @@ The hdbg_info.
 
  [BearingInfoForAssembly](VM.Managed.DAFUL.GearTrain.BearingInfoForAssembly.md)
 
-### FindGearInfo\(GearGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_FindGearInfo_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> FindGearInfo\(GearGeometryInfo\)
 
 Finds the bearing information.
 
@@ -378,7 +378,7 @@ The race_info.
 
  [CycloidPinInfoForAssembly](VM.Managed.DAFUL.GearTrain.CycloidPinInfoForAssembly.md)
 
-### InputShaftSetAdd\(GTAssemblyInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_InputShaftSetAdd_VM_Managed_DAFUL_GearTrain_GTAssemblyInfo_"></a> InputShaftSetAdd\(GTAssemblyInfo\)
 
 Adds the specified information.
 
@@ -392,7 +392,7 @@ public void InputShaftSetAdd(GTAssemblyInfo info)
 
 The information.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -406,7 +406,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OutputShaftSetAdd\(GTAssemblyInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_OutputShaftSetAdd_VM_Managed_DAFUL_GearTrain_GTAssemblyInfo_"></a> OutputShaftSetAdd\(GTAssemblyInfo\)
 
 Outputs the shaft set add.
 
@@ -420,7 +420,7 @@ public void OutputShaftSetAdd(GTAssemblyInfo info)
 
 The information.
 
-### Remove\(GTAssemblyInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_Remove_VM_Managed_DAFUL_GearTrain_GTAssemblyInfo_"></a> Remove\(GTAssemblyInfo\)
 
 Removes the specified information.
 
@@ -438,7 +438,7 @@ The information.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Remove\(BearingInfoForAssembly\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_Remove_VM_Managed_DAFUL_GearTrain_BearingInfoForAssembly_"></a> Remove\(BearingInfoForAssembly\)
 
 Removes the specified information.
 
@@ -456,7 +456,7 @@ The information.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Remove\(CycloidPinInfoForAssembly\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_Remove_VM_Managed_DAFUL_GearTrain_CycloidPinInfoForAssembly_"></a> Remove\(CycloidPinInfoForAssembly\)
 
 Removes the specified information.
 
@@ -474,7 +474,7 @@ The information.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Remove\(RacewayGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_Remove_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_"></a> Remove\(RacewayGeometryInfo\)
 
 Removes the specified race_info.
 
@@ -492,7 +492,7 @@ The race_info.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Remove\(GearGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_Remove_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> Remove\(GearGeometryInfo\)
 
 Removes the specified gear information.
 
@@ -510,7 +510,7 @@ The gear information.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### initChild\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssembly_initChild_VM_Unit_ConvertFactor_"></a> initChild\(ConvertFactor\)
 
 Initializes the child.
 
@@ -523,5 +523,4 @@ public void initChild(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The factor.
-
 

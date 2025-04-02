@@ -1,4 +1,4 @@
-# Class PropertyCylindrical
+#  Class PropertyCylindrical
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyCylindrical\(\)
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCylindrical__ctor"></a> PropertyCylindrical\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.PropertyCylindrical" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public PropertyCylindrical()
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCylindrical_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -191,7 +191,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### RDriver
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCylindrical_RDriver"></a> RDriver
 
 Gets or sets the Rotate driver.
 
@@ -203,7 +203,7 @@ public Driver RDriver { get; set; }
 
  [Driver](VM.Managed.DAFUL.Constraints.Driver.md)
 
-### RFriction
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCylindrical_RFriction"></a> RFriction
 
 Gets or sets the T-Friction.
 
@@ -215,7 +215,7 @@ public FrictionRevolute RFriction { get; set; }
 
  [FrictionRevolute](VM.Managed.DAFUL.Constraints.FrictionRevolute.md)
 
-### RRestriction
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCylindrical_RRestriction"></a> RRestriction
 
 Gets or sets the rotational angle restriction.
 
@@ -227,7 +227,7 @@ public RestrictionRotationalAngle RRestriction { get; set; }
 
  [RestrictionRotationalAngle](VM.Managed.DAFUL.Constraints.RestrictionRotationalAngle.md)
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCylindrical_ReferenceType"></a> ReferenceType
 
 Gets the type of the array for argument.
 
@@ -239,7 +239,7 @@ public override string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TDriver
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCylindrical_TDriver"></a> TDriver
 
 Gets or sets the Translate driver.
 
@@ -251,7 +251,7 @@ public Driver TDriver { get; set; }
 
  [Driver](VM.Managed.DAFUL.Constraints.Driver.md)
 
-### TFriction
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCylindrical_TFriction"></a> TFriction
 
 Gets or sets the T-Friction.
 
@@ -263,7 +263,7 @@ public FrictionTranslational TFriction { get; set; }
 
  [FrictionTranslational](VM.Managed.DAFUL.Constraints.FrictionTranslational.md)
 
-### TRestriction
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCylindrical_TRestriction"></a> TRestriction
 
 Gets or sets the displacement restriction.
 
@@ -277,7 +277,7 @@ public RestrictionDisplacement TRestriction { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCylindrical_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -291,7 +291,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCylindrical_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -304,5 +304,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

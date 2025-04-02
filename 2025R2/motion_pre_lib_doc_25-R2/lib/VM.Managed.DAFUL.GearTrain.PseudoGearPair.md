@@ -1,4 +1,4 @@
-# Class PseudoGearPair
+#  Class PseudoGearPair
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PseudoGearPair\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PseudoGearPair__ctor"></a> PseudoGearPair\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoGearPair" data-throw-if-not-resolved="false"></xref> class.
 
@@ -177,7 +177,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoG
 public PseudoGearPair()
 ```
 
-### PseudoGearPair\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PseudoGearPair__ctor_System_String_"></a> PseudoGearPair\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PseudoGearPair" data-throw-if-not-resolved="false"></xref> class.
 
@@ -193,7 +193,7 @@ Name of the sub entity.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_PseudoGearPair_Name"></a> Name
 
 Gets or sets the name.
 
@@ -205,7 +205,7 @@ public override string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PairedGear
+### <a id="VM_Managed_DAFUL_GearTrain_PseudoGearPair_PairedGear"></a> PairedGear
 
 Gets or sets the paired gear.
 
@@ -216,5 +216,4 @@ public GearPair PairedGear { get; set; }
 #### Property Value
 
  [GearPair](VM.Managed.DAFUL.GearTrain.GearPair.md)
-
 

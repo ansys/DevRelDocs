@@ -1,4 +1,4 @@
-# Class ApplicationHandler
+#  Class ApplicationHandler
 
 Namespace: [VM.API.Post.Operations](VM.API.Post.Operations.md)  
 Assembly: VM.API.Post.Operations.dll  
@@ -11,7 +11,7 @@ public class ApplicationHandler
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md)
 
 ## Examples
@@ -102,7 +102,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Constructors
 
-### ApplicationHandler\(\)
+### <a id="VM_API_Post_Operations_ApplicationHandler__ctor"></a> ApplicationHandler\(\)
 
 Initializes a new instance of the <xref href="VM.API.Post.Operations.ApplicationHandler" data-throw-if-not-resolved="false"></xref> class, enabling the OperationAPI to function.
 
@@ -120,7 +120,7 @@ This constructor sets up the necessary configurations to allow the OperationAPI 
 
 ## Properties
 
-### IsShowMessageBox
+### <a id="VM_API_Post_Operations_ApplicationHandler_IsShowMessageBox"></a> IsShowMessageBox
 
 Gets or sets a flag that determines whether a message box should be displayed or skipped when the API is executed
 
@@ -143,7 +143,7 @@ When set to false, the message box will be skipped, and the process will continu
 
 ## Methods
 
-### AddDocument\(IList<string\>\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_AddDocument_System_Collections_Generic_IList_System_String__"></a> AddDocument\(IList<string\>\)
 
 Imports results by adding documents to the UI.
 
@@ -165,7 +165,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 
 This method takes a list of file paths as input parameters and imports the corresponding results into the UI.
 
-### AddPage\(string\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_AddPage_System_String_"></a> AddPage\(string\)
 
 Adds a new page with the specified name.
 
@@ -193,7 +193,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 
 This method adds a new page with the given name. If no name is provided, the page is created with a default name.
 
-### AddPlotView\(\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_AddPlotView"></a> AddPlotView\(\)
 
 Adds a new plot view by creating a chart.
 
@@ -217,7 +217,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 This method creates a new chart. However, this method is deprecated and should no longer be used.
 Instead, use the <xref href="VM.Operations.Post.Interfaces.IPage.CreateChart(System.String)" data-throw-if-not-resolved="false"></xref> method to create a chart.
 
-### Close\(\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_Close"></a> Close\(\)
 
 Closes an open application.
 
@@ -233,7 +233,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 
 This method closes an open application.
 
-### CloseDocument\(string\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_CloseDocument_System_String_"></a> CloseDocument\(string\)
 
 Closes an open document by its file path.
 
@@ -255,7 +255,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 
 This method closes an open document by its file path.
 
-### ClosePage\(Guid\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_ClosePage_System_Guid_"></a> ClosePage\(Guid\)
 
 Closes an open page by its ID.
 
@@ -277,7 +277,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 
 This method closes an open page by its ID.
 
-### ClosePage\(string\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_ClosePage_System_String_"></a> ClosePage\(string\)
 
 Closes an open page by its name.
 
@@ -299,7 +299,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 
 This method closes an open page by its name.
 
-### ExportImage\(IView, string, ImageFormat, double?, double?\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_ExportImage_VM_Operations_Post_Interfaces_IView_System_String_VM_Models_Post_ImageFormat_System_Nullable_System_Double__System_Nullable_System_Double__"></a> ExportImage\(IView, string, ImageFormat, double?, double?\)
 
 Exports the current image to a specified file format. This function saves the image to the given file path.
 
@@ -341,7 +341,7 @@ This method allows you to export an image to a desired file path in a specified 
 Png, Jpeg, and Bmp. You can also specify the desired dimensions for the exported image. If width or height is 
 not provided, the original dimensions of the image will be used.
 
-### ExportImage\(IView, string, ExportType, double?, double?\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_ExportImage_VM_Operations_Post_Interfaces_IView_System_String_SciChart_Core_ExportType_System_Nullable_System_Double__System_Nullable_System_Double__"></a> ExportImage\(IView, string, ExportType, double?, double?\)
 
 Exports the current image to a specified file format. This function saves the image to the given file path.
 
@@ -380,7 +380,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 
 This method exports the current view to an image file. However, this method is deprecated and should no longer be used.
 
-### GetActiveAnimationView\(\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_GetActiveAnimationView"></a> GetActiveAnimationView\(\)
 
 Retrieves the active animation view from the current page.
 
@@ -404,7 +404,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 This method retrieves the active animation view from the current page if it exists. However, this method is deprecated and should no longer be used.
 Instead, use the new method provided in the <xref href="VM.Operations.Post.Interfaces.IPage" data-throw-if-not-resolved="false"></xref> interface.
 
-### GetActivePage\(\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_GetActivePage"></a> GetActivePage\(\)
 
 Retrieves the active page.
 
@@ -426,7 +426,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 
 This method searches for the currently active page among all pages. If no active page is found, the method returns <code>null</code>.
 
-### GetActivePlotView\(\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_GetActivePlotView"></a> GetActivePlotView\(\)
 
 Retrieves the active chart view from the current page.
 
@@ -450,7 +450,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 This method retrieves the active chart view from the current page if it exists. However, this method is deprecated and should no longer be used.
 Instead, use the new method provided in the <xref href="VM.Operations.Post.Interfaces.IPage" data-throw-if-not-resolved="false"></xref> interface.
 
-### GetDocument\(string\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_GetDocument_System_String_"></a> GetDocument\(string\)
 
 Retrieves an open document by its file path.
 
@@ -478,7 +478,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 
 This method searches for an open document with the specified file path. If no such document is found, the method returns <code>null</code>.
 
-### GetPage\(string\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_GetPage_System_String_"></a> GetPage\(string\)
 
 Retrieves a page by its name.
 
@@ -506,7 +506,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 
 This method searches for a page with the specified name. If no such page is found, the method returns <code>null</code>.
 
-### GetPage\(Guid\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_GetPage_System_Guid_"></a> GetPage\(Guid\)
 
 Retrieves a page by its ID.
 
@@ -534,7 +534,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 
 This method searches for a page with the specified ID. If no such page is found, the method returns <code>null</code>.
 
-### GetPages\(\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_GetPages"></a> GetPages\(\)
 
 Retrieves all currently created pages.
 
@@ -556,7 +556,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 
 This method retrieves all currently created pages.
 
-### GetView\(int\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_GetView_System_Int32_"></a> GetView\(int\)
 
 Retrieves a view by its ID.
 
@@ -586,7 +586,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 This method retrieves a view by its ID. However, this method is deprecated and should no longer be used.
 The functionality has been moved to the <xref href="VM.Operations.Post.Interfaces.IPage.GetView(System.Int32)" data-throw-if-not-resolved="false"></xref> method.
 
-### GetView\(string\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_GetView_System_String_"></a> GetView\(string\)
 
 Retrieves a view by its name.
 
@@ -616,9 +616,9 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 This method retrieves a view by its name. However, this method is deprecated and should no longer be used.
 The functionality has been moved to the <xref href="VM.Operations.Post.Interfaces.IPage.GetView(System.String)" data-throw-if-not-resolved="false"></xref> method.
 
-### ImportNumeric\(IOperationsLine2DViewModelBase, string, List<INumericParameter\>\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_ImportNumeric_VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_System_String_System_Collections_Generic_List_VM_ViewModels_Post_INumericParameter__"></a> ImportNumeric\(IOperationsLine2DViewModelBase, string, List<INumericParameter\>\)
 
-Import the numeric data from the file.??
+Import the numeric data from the file.​
 
 ```python
 [Obsolete("This method is considered outdated and its use is discouraged. It may be removed in future versions, so it is advisable to use the ImportNumeric function of the Chart class instead.", true)]
@@ -629,7 +629,7 @@ public void ImportNumeric(IOperationsLine2DViewModelBase lineViewModel, string f
 
 `lineViewModel` IOperationsLine2DViewModelBase
 
-The target plot view of the curve to import a numeric data??
+The target plot view of the curve to import a numeric data​.
 
 `filepath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
@@ -649,7 +649,7 @@ This method reads curve data from the specified file and adds the corresponding 
 Each <xref href="VM.ViewModels.Post.INumericParameter" data-throw-if-not-resolved="false"></xref> in the <code class="paramref">targets</code> list contains the following properties:
 <ul><li><span class="term">Name</span>The name of the curve to be created.</li><li><span class="term">TargetX</span>The path to the data for the X-axis.</li><li><span class="term">TargetY</span>The path to the data for the Y-axis.</li></ul>
 
-### RemoveDocument\(string\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_RemoveDocument_System_String_"></a> RemoveDocument\(string\)
 
 Closes an open document by its file path.
 
@@ -673,7 +673,7 @@ For an example that includes this property, see the [ApplicationHandler](#VM_API
 This method closes an open document by its file path. However, this method is deprecated and should no longer be used.
 Instead, use the <xref href="VM.API.Post.Operations.ApplicationHandler.CloseDocument(System.String)" data-throw-if-not-resolved="false"></xref> method to close documents.
 
-### RemoveView\(string\)
+### <a id="VM_API_Post_Operations_ApplicationHandler_RemoveView_System_String_"></a> RemoveView\(string\)
 
 Removes a view by its name.
 

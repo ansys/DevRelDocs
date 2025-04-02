@@ -1,4 +1,4 @@
-# Class BodyHelper
+#  Class BodyHelper
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -22,7 +22,7 @@ public static class BodyHelper
 
 ## Methods
 
-### CreateGINFFileV3\_2\(Body, string, string, AttributeFacetRefinementBase, ConvertFactor, uint, string, GeometryType, OutputType, ref MeshFreeMeshType\)
+### <a id="VM_Managed_DAFUL_MeshFree_BodyHelper_CreateGINFFileV3_2_VM_Managed_CAD_Body_System_String_System_String_VM_Managed_AttributeFacetRefinementBase_VM_Unit_ConvertFactor_System_UInt32_System_String_VM_Managed_DAFUL_MeshFree_GeometryType_VM_Managed_DAFUL_MeshFree_OutputType_VM_Managed_MeshFreeMeshType__"></a> CreateGINFFileV3\_2\(Body, string, string, AttributeFacetRefinementBase, ConvertFactor, uint, string, GeometryType, OutputType, ref MeshFreeMeshType\)
 
 Creates the GINF file V3_2.
 
@@ -76,7 +76,7 @@ Type of the res mesh.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CreateGINFFileV3\_2\(Body, string, string, AttributeFacetRefinementBase, ConvertFactor, uint, bool, VectorBase, string, GeometryType, OutputType, ref MeshFreeMeshType, ref VectorBase\[\], ref uint\[\], ref VectorBase\[\], ref uint\[\]\)
+### <a id="VM_Managed_DAFUL_MeshFree_BodyHelper_CreateGINFFileV3_2_VM_Managed_CAD_Body_System_String_System_String_VM_Managed_AttributeFacetRefinementBase_VM_Unit_ConvertFactor_System_UInt32_System_Boolean_VM_Managed_VectorBase_System_String_VM_Managed_DAFUL_MeshFree_GeometryType_VM_Managed_DAFUL_MeshFree_OutputType_VM_Managed_MeshFreeMeshType__VM_Managed_VectorBase____System_UInt32____VM_Managed_VectorBase____System_UInt32____"></a> CreateGINFFileV3\_2\(Body, string, string, AttributeFacetRefinementBase, ConvertFactor, uint, bool, VectorBase, string, GeometryType, OutputType, ref MeshFreeMeshType, ref VectorBase\[\], ref uint\[\], ref VectorBase\[\], ref uint\[\]\)
 
 Creates the GINF file V3_2.
 
@@ -154,7 +154,7 @@ The ary con tetra.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CreateGINFFileV3\_2\(IAttributeContainer\)
+### <a id="VM_Managed_DAFUL_MeshFree_BodyHelper_CreateGINFFileV3_2_VM_Managed_IAttributeContainer_"></a> CreateGINFFileV3\_2\(IAttributeContainer\)
 
 Generate GINF File for Solid Body
 
@@ -172,7 +172,7 @@ public static bool CreateGINFFileV3_2(this IAttributeContainer container)
 
 Whether it's successful.
 
-### CreateGINFFileV3\_2\(IAttributeContainer, string\)
+### <a id="VM_Managed_DAFUL_MeshFree_BodyHelper_CreateGINFFileV3_2_VM_Managed_IAttributeContainer_System_String_"></a> CreateGINFFileV3\_2\(IAttributeContainer, string\)
 
 Creates the GINF file V3_2.
 
@@ -194,7 +194,7 @@ The STR GINF path.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CreateGINFFileV3\_2\(IAttributeContainer, string, VectorBase\[\], uint\[\], VectorBase\[\], uint\[\]\)
+### <a id="VM_Managed_DAFUL_MeshFree_BodyHelper_CreateGINFFileV3_2_VM_Managed_IAttributeContainer_System_String_VM_Managed_VectorBase___System_UInt32___VM_Managed_VectorBase___System_UInt32___"></a> CreateGINFFileV3\_2\(IAttributeContainer, string, VectorBase\[\], uint\[\], VectorBase\[\], uint\[\]\)
 
 Creates the GINF file V3_2.
 
@@ -232,7 +232,7 @@ The predefined tetra connection.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GenerateMeshInfo\(IAttributeContainer, ref MeshFreeMeshType, ref VectorBase\[\], ref uint\[\], ref VectorBase\[\], ref uint\[\], bool\)
+### <a id="VM_Managed_DAFUL_MeshFree_BodyHelper_GenerateMeshInfo_VM_Managed_IAttributeContainer_VM_Managed_MeshFreeMeshType__VM_Managed_VectorBase____System_UInt32____VM_Managed_VectorBase____System_UInt32____System_Boolean_"></a> GenerateMeshInfo\(IAttributeContainer, ref MeshFreeMeshType, ref VectorBase\[\], ref uint\[\], ref VectorBase\[\], ref uint\[\], bool\)
 
 Generates the mesh info.
 
@@ -270,7 +270,7 @@ The ary con tetra.
 
 if set to <code>true</code> [b use DSDL].
 
-### GetDefaultGINFPath\(string, ObjectBase\)
+### <a id="VM_Managed_DAFUL_MeshFree_BodyHelper_GetDefaultGINFPath_System_String_VM_Managed_ObjectBase_"></a> GetDefaultGINFPath\(string, ObjectBase\)
 
 Get default GINF name.
 
@@ -294,7 +294,7 @@ The body.
 
 Default GINF name.
 
-### GetMeshFreeDefaultMaxFacetSize\(IAttributeContainer\)
+### <a id="VM_Managed_DAFUL_MeshFree_BodyHelper_GetMeshFreeDefaultMaxFacetSize_VM_Managed_IAttributeContainer_"></a> GetMeshFreeDefaultMaxFacetSize\(IAttributeContainer\)
 
 Get a default maximum facet size for MeshFree
 
@@ -312,7 +312,7 @@ public static double GetMeshFreeDefaultMaxFacetSize(this IAttributeContainer con
 
 A default maximum facet size
 
-### UpdateMeshFreeNodePropertyAndMaxFacetSize\(IAttributeContainer\)
+### <a id="VM_Managed_DAFUL_MeshFree_BodyHelper_UpdateMeshFreeNodePropertyAndMaxFacetSize_VM_Managed_IAttributeContainer_"></a> UpdateMeshFreeNodePropertyAndMaxFacetSize\(IAttributeContainer\)
 
 Updates the size of the mesh free node property and maximum facet.
 
@@ -335,5 +335,4 @@ The container.
  [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
 The meshfree property is null.
-
 

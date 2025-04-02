@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Constraints
+#  Namespace VM.Managed.DAFUL.Constraints
 
 ### Classes
 
@@ -263,5 +263,4 @@ Specifies type for a motion.
  [OverlapDeltaType](VM.Managed.DAFUL.Constraints.OverlapDeltaType.md)
 
 Specifies type for a overlap-delta.
-
 

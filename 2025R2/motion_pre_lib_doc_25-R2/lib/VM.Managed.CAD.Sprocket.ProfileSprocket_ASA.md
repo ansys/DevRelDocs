@@ -1,4 +1,4 @@
-# Class ProfileSprocket\_ASA
+#  Class ProfileSprocket\_ASA
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -45,7 +45,7 @@ public class ProfileSprocket_ASA : ProfileSprocketBase
 
 ## Constructors
 
-### ProfileSprocket\_ASA\(ProfileDataSprocket\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocket_ASA__ctor_VM_Managed_CAD_Sprocket_ProfileDataSprocket_"></a> ProfileSprocket\_ASA\(ProfileDataSprocket\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Sprocket.ProfileSprocket_BS" data-throw-if-not-resolved="false"></xref> class.
 
@@ -61,7 +61,7 @@ The info is data for creation profile.
 
 ## Methods
 
-### CreateProfile\(\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocket_ASA_CreateProfile"></a> CreateProfile\(\)
 
 Create profile data.
 
@@ -72,5 +72,4 @@ protected override bool CreateProfile()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

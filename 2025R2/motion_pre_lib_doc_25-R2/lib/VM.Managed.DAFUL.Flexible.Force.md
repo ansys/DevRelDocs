@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Flexible.Force
+#  Namespace VM.Managed.DAFUL.Flexible.Force
 
 ### Classes
 
@@ -165,5 +165,4 @@ This base class is to represent the interface for ConConcentratedLoadStandard ow
 
 <p>Indicates whether this is a standard type or a user sub-routine type.</p>
 <p>함수 타입을 나타냅니다.</p>
-
 

@@ -1,4 +1,4 @@
-# Class AttributeMotorAssembly.MountInfo
+#  Class AttributeMotorAssembly.MountInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -94,7 +94,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MountInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_MountInfo__ctor"></a> MountInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.AttributeMotorAssembly.MountInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ public MountInfo()
 
 ## Properties
 
-### Base
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_MountInfo_Base"></a> Base
 
 Gets or sets the base connectable.
 
@@ -116,7 +116,7 @@ public IConnectable Base { get; set; }
 
  IConnectable
 
-### Fixed
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_MountInfo_Fixed"></a> Fixed
 
 Gets or sets the general connector.
 
@@ -128,7 +128,7 @@ public General Fixed { get; set; }
 
  General
 
-### Position
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_MountInfo_Position"></a> Position
 
 Gets or sets the position.
 
@@ -140,7 +140,7 @@ public Vector Position { get; set; }
 
  Vector
 
-### \_Base
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_MountInfo__Base"></a> \_Base
 
 Gets or sets the base connectable.
 
@@ -154,7 +154,7 @@ public Linker<IConnectable> _Base { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_AttributeMotorAssembly_MountInfo_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -167,5 +167,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

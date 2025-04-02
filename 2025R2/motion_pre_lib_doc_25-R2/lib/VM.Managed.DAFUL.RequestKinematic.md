@@ -1,4 +1,4 @@
-# Class RequestKinematic
+#  Class RequestKinematic
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -180,7 +180,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### RequestKinematic\(\)
+### <a id="VM_Managed_DAFUL_RequestKinematic__ctor"></a> RequestKinematic\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestKinematic" data-throw-if-not-resolved="false"></xref> class.
 
@@ -188,7 +188,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestKinematic"
 public RequestKinematic()
 ```
 
-### RequestKinematic\(string\)
+### <a id="VM_Managed_DAFUL_RequestKinematic__ctor_System_String_"></a> RequestKinematic\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestKinematic" data-throw-if-not-resolved="false"></xref> class.
 
@@ -204,7 +204,7 @@ Name of the sub entity.
 
 ## Properties
 
-### BaseEntity
+### <a id="VM_Managed_DAFUL_RequestKinematic_BaseEntity"></a> BaseEntity
 
 Gets or sets the base entity.
 
@@ -216,7 +216,7 @@ public ObjectBase BaseEntity { get; set; }
 
  ObjectBase
 
-### IsUseOfBaseEntity
+### <a id="VM_Managed_DAFUL_RequestKinematic_IsUseOfBaseEntity"></a> IsUseOfBaseEntity
 
 Gets or sets a value indicating whether this instance is use base entity.
 Use SetUseBaseEntity() when this instance sets for undo/redo
@@ -229,7 +229,7 @@ public bool IsUseOfBaseEntity { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsUseOfReferenceMarker
+### <a id="VM_Managed_DAFUL_RequestKinematic_IsUseOfReferenceMarker"></a> IsUseOfReferenceMarker
 
 Gets or sets a value indicating whether this instance is use reference marker.
 Use SetUseReferenceMarker() when this instance sets for undo/redo
@@ -242,7 +242,7 @@ public bool IsUseOfReferenceMarker { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Output
+### <a id="VM_Managed_DAFUL_RequestKinematic_Output"></a> Output
 
 Gets or sets the output.
 
@@ -254,7 +254,7 @@ public RequestKinematic.OutputType Output { get; set; }
 
  [RequestKinematic](VM.Managed.DAFUL.RequestKinematic.md).[OutputType](VM.Managed.DAFUL.RequestKinematic.OutputType.md)
 
-### ReferenceMarker
+### <a id="VM_Managed_DAFUL_RequestKinematic_ReferenceMarker"></a> ReferenceMarker
 
 Gets or sets the reference marker.
 
@@ -266,7 +266,7 @@ public IMarker ReferenceMarker { get; set; }
 
  IMarker
 
-### \_ReferenceMarker
+### <a id="VM_Managed_DAFUL_RequestKinematic__ReferenceMarker"></a> \_ReferenceMarker
 
 Gets or sets the _ reference marker.
 
@@ -280,7 +280,7 @@ public Linker<IMarker> _ReferenceMarker { get; set; }
 
 ## Methods
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_RequestKinematic_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -308,7 +308,7 @@ if set to <code>true</code> [b has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_RequestKinematic_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -322,7 +322,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### OnLinkReserved\(ILink, object, EventArgs\)
+### <a id="VM_Managed_DAFUL_RequestKinematic_OnLinkReserved_VM_Managed_ILink_System_Object_System_EventArgs_"></a> OnLinkReserved\(ILink, object, EventArgs\)
 
 ```csharp
 protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs arg)
@@ -335,5 +335,4 @@ protected override void OnLinkReserved(ILink link, object objNotifier, EventArgs
 `objNotifier` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `arg` [EventArgs](https://learn.microsoft.com/dotnet/api/system.eventargs)
-
 

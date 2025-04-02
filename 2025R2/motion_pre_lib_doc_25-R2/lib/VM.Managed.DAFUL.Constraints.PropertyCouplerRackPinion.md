@@ -1,4 +1,4 @@
-# Class PropertyCouplerRackPinion
+#  Class PropertyCouplerRackPinion
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -171,12 +171,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyCouplerRackPinion\(\)
+### <a id="VM_Managed_DAFUL_Constraints_PropertyCouplerRackPinion__ctor"></a> PropertyCouplerRackPinion\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.PropertyCouplerRackPinion" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyCouplerRackPinion()
 ```
-
 

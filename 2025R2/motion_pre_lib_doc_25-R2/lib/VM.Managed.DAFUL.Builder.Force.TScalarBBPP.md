@@ -1,4 +1,4 @@
-# Class TScalarBBPP
+#  Class TScalarBBPP
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFP.dll  
@@ -61,10 +61,9 @@ BuilderBase<TScalar\>.ErrorMessage
 
 ## Constructors
 
-### TScalarBBPP\(\)
+### <a id="VM_Managed_DAFUL_Builder_Force_TScalarBBPP__ctor"></a> TScalarBBPP\(\)
 
 ```csharp
 public TScalarBBPP()
 ```
-
 

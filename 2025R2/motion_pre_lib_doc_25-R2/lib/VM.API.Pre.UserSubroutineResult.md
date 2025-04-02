@@ -1,4 +1,4 @@
-# Struct UserSubroutineResult
+#  Struct UserSubroutineResult
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -11,7 +11,7 @@ public struct UserSubroutineResult
 
 ## Constructors
 
-### UserSubroutineResult\(\)
+### <a id="VM_API_Pre_UserSubroutineResult__ctor"></a> UserSubroutineResult\(\)
 
 Default constructor
 
@@ -19,7 +19,7 @@ Default constructor
 public UserSubroutineResult()
 ```
 
-### UserSubroutineResult\(string, bool\)
+### <a id="VM_API_Pre_UserSubroutineResult__ctor_System_String_System_Boolean_"></a> UserSubroutineResult\(string, bool\)
 
 Initializes a new instance of the UserSubroutineResult.
 
@@ -39,7 +39,7 @@ The use performanceIndex.
 
 ## Properties
 
-### Name
+### <a id="VM_API_Pre_UserSubroutineResult_Name"></a> Name
 
 The value for the name. The default value is "".
 
@@ -51,7 +51,7 @@ public string Name { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UsePerformanceIndex
+### <a id="VM_API_Pre_UserSubroutineResult_UsePerformanceIndex"></a> UsePerformanceIndex
 
 The value for the use performanceIndex. The default value is 'false'.
 
@@ -62,5 +62,4 @@ public bool UsePerformanceIndex { readonly get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

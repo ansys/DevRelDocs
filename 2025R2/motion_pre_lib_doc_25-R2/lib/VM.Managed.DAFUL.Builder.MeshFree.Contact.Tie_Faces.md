@@ -1,4 +1,4 @@
-# Class Tie\_Faces
+#  Class Tie\_Faces
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree.Contact](VM.Managed.DAFUL.Builder.MeshFree.Contact.md)  
 Assembly: VMBldMeshFree.dll  
@@ -53,7 +53,7 @@ BuilderBase<Tie\>.ErrorMessage
 
 ## Constructors
 
-### Tie\_Faces\(\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_Tie_Faces__ctor"></a> Tie\_Faces\(\)
 
 ```csharp
 public Tie_Faces()
@@ -61,7 +61,7 @@ public Tie_Faces()
 
 ## Properties
 
-### ActionGeometry
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_Tie_Faces_ActionGeometry"></a> ActionGeometry
 
 ```csharp
 public PickedFace ActionGeometry { get; set; }
@@ -71,7 +71,7 @@ public PickedFace ActionGeometry { get; set; }
 
  PickedFace
 
-### BaseGeometry
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_Tie_Faces_BaseGeometry"></a> BaseGeometry
 
 ```csharp
 public PickedFace BaseGeometry { get; set; }
@@ -83,7 +83,7 @@ public PickedFace BaseGeometry { get; set; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_Tie_Faces_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -99,7 +99,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_Contact_Tie_Faces_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -112,5 +112,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

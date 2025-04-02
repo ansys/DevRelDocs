@@ -1,4 +1,4 @@
-# Interface IPostDeserialized
+#  Interface IPostDeserialized
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IPostDeserialized
 
 ## Methods
 
-### OnPostDeserialized\(StreamingContext\)
+### <a id="VM_IPostDeserialized_OnPostDeserialized_System_Runtime_Serialization_StreamingContext_"></a> OnPostDeserialized\(StreamingContext\)
 
 ```csharp
 void OnPostDeserialized(StreamingContext context)
@@ -24,5 +24,4 @@ void OnPostDeserialized(StreamingContext context)
 #### Parameters
 
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
-
 

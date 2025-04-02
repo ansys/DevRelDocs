@@ -1,4 +1,4 @@
-# Struct PowerFlowParameters
+#  Struct PowerFlowParameters
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +11,7 @@ public struct PowerFlowParameters
 
 ## Constructors
 
-### PowerFlowParameters\(\)
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters__ctor"></a> PowerFlowParameters\(\)
 
 Default constructor
 
@@ -21,7 +21,7 @@ public PowerFlowParameters()
 
 ## Properties
 
-### Duration
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_Duration"></a> Duration
 
 The duration. The default value is 0.
 
@@ -33,7 +33,7 @@ public ExpressionValueVariable Duration { readonly get; set; }
 
  ExpressionValueVariable
 
-### EndTime
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_EndTime"></a> EndTime
 
 The end time. The default value is 1.
 
@@ -45,7 +45,7 @@ public ExpressionValueVariable EndTime { readonly get; set; }
 
  ExpressionValueVariable
 
-### GearPairs
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_GearPairs"></a> GearPairs
 
 The gear pairs.
 
@@ -57,7 +57,7 @@ public IEnumerable<Obj> GearPairs { readonly get; set; }
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Obj\>
 
-### InputEndSpeed
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_InputEndSpeed"></a> InputEndSpeed
 
 The input end speed. The default value is 100.
 
@@ -69,7 +69,7 @@ public ExpressionValueVariable InputEndSpeed { readonly get; set; }
 
  ExpressionValueVariable
 
-### InputPower
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_InputPower"></a> InputPower
 
 The input power. The default value is 1.
 
@@ -81,7 +81,7 @@ public ExpressionValueVariable InputPower { readonly get; set; }
 
  ExpressionValueVariable
 
-### InputPowerFilePath
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_InputPowerFilePath"></a> InputPowerFilePath
 
 The input power file path. The default value is "".
 
@@ -93,7 +93,7 @@ public string InputPowerFilePath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### InputShaftSet
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_InputShaftSet"></a> InputShaftSet
 
 The input shaft set.
 
@@ -105,7 +105,7 @@ public Obj InputShaftSet { readonly get; set; }
 
  Obj
 
-### InputShaftSetInfos
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_InputShaftSetInfos"></a> InputShaftSetInfos
 
 The input shaft set information.
 
@@ -117,7 +117,7 @@ public IEnumerable<InputShaftSetParameters> InputShaftSetInfos { readonly get; s
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[InputShaftSetParameters](VM.API.Pre.GearTrain.InputShaftSetParameters.md)\>
 
-### InputSpeedFilePath
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_InputSpeedFilePath"></a> InputSpeedFilePath
 
 The input speed file path. The default value is "".
 
@@ -129,7 +129,7 @@ public string InputSpeedFilePath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### InputStartSpeed
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_InputStartSpeed"></a> InputStartSpeed
 
 The input start speed. The default value is 100.
 
@@ -141,7 +141,7 @@ public ExpressionValueVariable InputStartSpeed { readonly get; set; }
 
  ExpressionValueVariable
 
-### IsUseCW
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_IsUseCW"></a> IsUseCW
 
 The flag whether using cw or not. The default value is false.
 
@@ -153,7 +153,7 @@ public bool IsUseCW { readonly get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MaxTorque
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_MaxTorque"></a> MaxTorque
 
 The maximum torque. The default value is 100.
 
@@ -165,7 +165,7 @@ public ExpressionValueVariable MaxTorque { readonly get; set; }
 
  ExpressionValueVariable
 
-### NameOfResult
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_NameOfResult"></a> NameOfResult
 
 The name of result. The default value is "".
 
@@ -177,7 +177,7 @@ public string NameOfResult { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NumberOfInterpolation
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_NumberOfInterpolation"></a> NumberOfInterpolation
 
 The number of interpolation. The default value is 100.
 
@@ -189,7 +189,7 @@ public ExpressionValueVariable NumberOfInterpolation { readonly get; set; }
 
  ExpressionValueVariable
 
-### OutputShaftSetInfos
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_OutputShaftSetInfos"></a> OutputShaftSetInfos
 
 The output shaft set information.
 
@@ -201,7 +201,7 @@ public IEnumerable<OutputShaftSetParameters> OutputShaftSetInfos { readonly get;
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[OutputShaftSetParameters](VM.API.Pre.GearTrain.OutputShaftSetParameters.md)\>
 
-### SamplingFrequency
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_SamplingFrequency"></a> SamplingFrequency
 
 The sampling frequency. The default value is 1000.
 
@@ -213,7 +213,7 @@ public ExpressionValueVariable SamplingFrequency { readonly get; set; }
 
  ExpressionValueVariable
 
-### TMScenarioFile
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_TMScenarioFile"></a> TMScenarioFile
 
 The TM scenario file. The default value is "".
 
@@ -225,7 +225,7 @@ public string TMScenarioFile { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TypeOfSimulation
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_TypeOfSimulation"></a> TypeOfSimulation
 
 The simulation type. The default value is Acceleration.
 
@@ -237,7 +237,7 @@ public PowerFlow.SimulationType TypeOfSimulation { readonly get; set; }
 
  PowerFlow.SimulationType
 
-### VehicleSimulatorResultFile
+### <a id="VM_API_Pre_GearTrain_PowerFlowParameters_VehicleSimulatorResultFile"></a> VehicleSimulatorResultFile
 
 The vehicle simulator result file. The default value is "".
 
@@ -248,5 +248,4 @@ public string VehicleSimulatorResultFile { readonly get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

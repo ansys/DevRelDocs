@@ -1,4 +1,4 @@
-# Enum ContactFunction.FunctionType
+#  Enum ContactFunction.FunctionType
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -20,7 +20,6 @@ standard
 `UserSubroutine = 1` 
 
 usersubroutine
-
 
 
 

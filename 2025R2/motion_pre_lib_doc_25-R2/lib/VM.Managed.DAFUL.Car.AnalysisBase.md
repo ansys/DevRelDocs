@@ -1,4 +1,4 @@
-# Class AnalysisBase
+#  Class AnalysisBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -30,7 +30,7 @@ public abstract class AnalysisBase
 
 ## Constructors
 
-### AnalysisBase\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisBase__ctor"></a> AnalysisBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -38,7 +38,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisBase"
 public AnalysisBase()
 ```
 
-### AnalysisBase\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisBase__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisBase\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -54,7 +54,7 @@ The link container.
 
 ## Fields
 
-### m\_pLnkContainer
+### <a id="VM_Managed_DAFUL_Car_AnalysisBase_m_pLnkContainer"></a> m\_pLnkContainer
 
 ```csharp
 protected ILinkContainer m_pLnkContainer
@@ -66,7 +66,7 @@ protected ILinkContainer m_pLnkContainer
 
 ## Properties
 
-### IsSim
+### <a id="VM_Managed_DAFUL_Car_AnalysisBase_IsSim"></a> IsSim
 
 Gets or sets a value indicating whether this instance is simulation.
 
@@ -80,7 +80,7 @@ public bool IsSim { get; set; }
 
 ## Methods
 
-### GetConvertUnit\(LengthUnitType\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisBase_GetConvertUnit_VM_Models_Pre_LengthUnitType_"></a> GetConvertUnit\(LengthUnitType\)
 
 Gets the convert unit for length.
 
@@ -98,7 +98,7 @@ The type.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetConvertUnit\(VelocityUnitType\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisBase_GetConvertUnit_VM_Managed_DAFUL_Car_Analysis_VelocityUnitType_"></a> GetConvertUnit\(VelocityUnitType\)
 
 Gets the convert unit for velocity.
 
@@ -116,7 +116,7 @@ The type.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetConvertUnit\(AccelerationUnitType\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisBase_GetConvertUnit_VM_Managed_DAFUL_Car_Analysis_AccelerationUnitType_"></a> GetConvertUnit\(AccelerationUnitType\)
 
 Gets the convert unit for acceleration.
 
@@ -134,7 +134,7 @@ The type.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetGravity\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisBase_GetGravity"></a> GetGravity\(\)
 
 ```csharp
 protected double GetGravity()
@@ -144,7 +144,7 @@ protected double GetGravity()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisBase_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -158,12 +158,11 @@ public virtual void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 The parameter array.
 
-### SetModified\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisBase_SetModified"></a> SetModified\(\)
 
 Set modified flag.
 
 ```csharp
 protected void SetModified()
 ```
-
 

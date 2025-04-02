@@ -1,4 +1,4 @@
-# Class ActiveTirePropertyFile
+#  Class ActiveTirePropertyFile
 
 Namespace: [VM.Managed.DAFUL.Tire.Force](VM.Managed.DAFUL.Tire.Force.md)  
 Assembly: VMDTire.dll  
@@ -150,7 +150,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ActiveTirePropertyFile\(\)
+### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile__ctor"></a> ActiveTirePropertyFile\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Force.ActiveTirePropertyFile" data-throw-if-not-resolved="false"></xref> class.
 
@@ -158,7 +158,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Force.Active
 public ActiveTirePropertyFile()
 ```
 
-### ActiveTirePropertyFile\(string\)
+### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile__ctor_System_String_"></a> ActiveTirePropertyFile\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Force.ActiveTirePropertyFile" data-throw-if-not-resolved="false"></xref> class.
 
@@ -174,7 +174,7 @@ The file path.
 
 ## Properties
 
-### FilePath
+### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_FilePath"></a> FilePath
 
 Gets or sets the file path.
 Use SetFilePath() when this instance sets for undo/redo
@@ -187,7 +187,7 @@ public string FilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### LastModifyTime
+### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_LastModifyTime"></a> LastModifyTime
 
 Gets or sets the last modify time.
 
@@ -199,7 +199,7 @@ public DateTime LastModifyTime { get; set; }
 
  [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
 
-### TireType
+### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_TireType"></a> TireType
 
 Gets the tire type.
 Use SetTireType() when this instance sets for undo/redo
@@ -214,7 +214,7 @@ public ActiveTirePropertyFile.TirePropertyType TireType { get; set; }
 
 ## Methods
 
-### ConvertXmlAfterReadTIRFile\(Document\)
+### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_ConvertXmlAfterReadTIRFile_VM_Managed_Document_"></a> ConvertXmlAfterReadTIRFile\(Document\)
 
 Converts the XML after read TIR file.
 
@@ -232,7 +232,7 @@ The doc.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConvertXmlAfterReadTIRFile\(\)
+### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_ConvertXmlAfterReadTIRFile"></a> ConvertXmlAfterReadTIRFile\(\)
 
 Converts the XML after read TIR file.
 
@@ -244,7 +244,7 @@ public string ConvertXmlAfterReadTIRFile()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetTireType\(string\)
+### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_GetTireType_System_String_"></a> GetTireType\(string\)
 
 Gets the type of the tire.
 
@@ -262,7 +262,7 @@ The STR tire file.
 
  [ActiveTirePropertyFile](VM.Managed.DAFUL.Tire.Force.ActiveTirePropertyFile.md).[TirePropertyType](VM.Managed.DAFUL.Tire.Force.ActiveTirePropertyFile.TirePropertyType.md)
 
-### GetTireType\(string, Document\)
+### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_GetTireType_System_String_VM_Managed_Document_"></a> GetTireType\(string, Document\)
 
 Gets the type of the tire.
 
@@ -284,7 +284,7 @@ The Document.
 
  [ActiveTirePropertyFile](VM.Managed.DAFUL.Tire.Force.ActiveTirePropertyFile.md).[TirePropertyType](VM.Managed.DAFUL.Tire.Force.ActiveTirePropertyFile.TirePropertyType.md)
 
-### GetTypeFromFile\(Document\)
+### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_GetTypeFromFile_VM_Managed_Document_"></a> GetTypeFromFile\(Document\)
 
 Gets the type from file.
 
@@ -302,7 +302,7 @@ The doc.
 
  [ActiveTirePropertyFile](VM.Managed.DAFUL.Tire.Force.ActiveTirePropertyFile.md).[TirePropertyType](VM.Managed.DAFUL.Tire.Force.ActiveTirePropertyFile.TirePropertyType.md)
 
-### SetFilePath\(string\)
+### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_SetFilePath_System_String_"></a> SetFilePath\(string\)
 
 Set file path.
 
@@ -316,7 +316,7 @@ public void SetFilePath(string strFile)
 
 The file path.
 
-### SetLastModifyTime\(DateTime\)
+### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_SetLastModifyTime_System_DateTime_"></a> SetLastModifyTime\(DateTime\)
 
 Set last modified time.
 
@@ -330,7 +330,7 @@ public void SetLastModifyTime(DateTime dt)
 
 The time.
 
-### SetTireType\(TirePropertyType\)
+### <a id="VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_SetTireType_VM_Managed_DAFUL_Tire_Force_ActiveTirePropertyFile_TirePropertyType_"></a> SetTireType\(TirePropertyType\)
 
 Set tire type.
 
@@ -343,5 +343,4 @@ public void SetTireType(ActiveTirePropertyFile.TirePropertyType type)
 `type` [ActiveTirePropertyFile](VM.Managed.DAFUL.Tire.Force.ActiveTirePropertyFile.md).[TirePropertyType](VM.Managed.DAFUL.Tire.Force.ActiveTirePropertyFile.TirePropertyType.md)
 
 The tire type.
-
 

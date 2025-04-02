@@ -1,4 +1,4 @@
-# Class MatrixBBPP
+#  Class MatrixBBPP
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFP.dll  
@@ -61,7 +61,7 @@ BuilderBase<Matrix\>.ErrorMessage
 
 ## Constructors
 
-### MatrixBBPP\(\)
+### <a id="VM_Managed_DAFUL_Builder_Force_MatrixBBPP__ctor"></a> MatrixBBPP\(\)
 
 ```csharp
 public MatrixBBPP()
@@ -69,7 +69,7 @@ public MatrixBBPP()
 
 ## Methods
 
-### OnPostAddDoc\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Builder_Force_MatrixBBPP_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -78,5 +78,4 @@ protected override void OnPostAddDoc(ObjectBase ob)
 #### Parameters
 
 `ob` ObjectBase
-
 

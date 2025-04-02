@@ -1,4 +1,4 @@
-# Interface IOpenDesigner
+#  Interface IOpenDesigner
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IOpenDesigner
 
 ## Properties
 
-### FilePath
+### <a id="VM_Managed_IOpenDesigner_FilePath"></a> FilePath
 
 Gets the file path.
 
@@ -29,7 +29,7 @@ string FilePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TargetBody
+### <a id="VM_Managed_IOpenDesigner_TargetBody"></a> TargetBody
 
 Gets the target body.
 
@@ -41,7 +41,7 @@ ObjectBase[] TargetBody { get; }
 
  [ObjectBase](VM.Managed.ObjectBase.md)\[\]
 
-### TemplateFilePath
+### <a id="VM_Managed_IOpenDesigner_TemplateFilePath"></a> TemplateFilePath
 
 Gets the template file path.
 
@@ -53,7 +53,7 @@ string TemplateFilePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TypeFileName
+### <a id="VM_Managed_IOpenDesigner_TypeFileName"></a> TypeFileName
 
 Gets the name of the type file.
 
@@ -67,7 +67,7 @@ string TypeFileName { get; }
 
 ## Methods
 
-### FindBody\(ObjectBase\)
+### <a id="VM_Managed_IOpenDesigner_FindBody_VM_Managed_ObjectBase_"></a> FindBody\(ObjectBase\)
 
 Finds the body form CAD body.
 
@@ -87,7 +87,7 @@ The CAD body.
 
 The body such as solid body, assembled body.
 
-### PostOpenDoc\(Document\)
+### <a id="VM_Managed_IOpenDesigner_PostOpenDoc_VM_Managed_Document_"></a> PostOpenDoc\(Document\)
 
 Post open document.
 
@@ -101,7 +101,7 @@ void PostOpenDoc(Document doc)
 
 The hidden document.
 
-### SetCustomFilterEvent\(object\)
+### <a id="VM_Managed_IOpenDesigner_SetCustomFilterEvent_System_Object_"></a> SetCustomFilterEvent\(object\)
 
 Set Custom Filtering Event.
 
@@ -115,7 +115,7 @@ void SetCustomFilterEvent(object picker)
 
 The picker.
 
-### SetDataToDesignDoc\(bool\)
+### <a id="VM_Managed_IOpenDesigner_SetDataToDesignDoc_System_Boolean_"></a> SetDataToDesignDoc\(bool\)
 
 Sets the data to design document.
 
@@ -134,5 +134,4 @@ Is recording for journal.
  [Document](VM.Managed.Document.md)
 
 The Hidden Document
-
 

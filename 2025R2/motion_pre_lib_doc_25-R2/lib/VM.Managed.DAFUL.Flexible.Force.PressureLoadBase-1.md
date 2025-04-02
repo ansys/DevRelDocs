@@ -1,4 +1,4 @@
-# Class PressureLoadBase<TProperty\>
+#  Class PressureLoadBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -216,7 +216,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PressureLoadBase\(\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1__ctor"></a> PressureLoadBase\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoadBase%601" data-throw-if-not-resolved="false"></xref></p> class.
         <p><xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoadBase%601" data-throw-if-not-resolved="false"></xref> 클래스의 새로운 객체를 초기화 해줍니다.</p>
@@ -225,7 +225,7 @@ ObservableObject.PropertyChanged
 public PressureLoadBase()
 ```
 
-### PressureLoadBase\(string\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1__ctor_System_String_"></a> PressureLoadBase\(string\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.PressureLoadBase%601" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -244,7 +244,7 @@ public PressureLoadBase(string strName)
 
 ## Properties
 
-### Area
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_Area"></a> Area
 
 <p>Gets the area through faceset or range.</p>
 <p>면집합이나 범위에서 면적을 가져옵니다.</p>
@@ -257,7 +257,7 @@ public double Area { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -269,7 +269,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### GenerableImpl
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_GenerableImpl"></a> GenerableImpl
 
 <p>Gets a value indicating whether this instance is generable.</p>
 <p>이 객체가 일반적으로 변환 가능한지 여부를 가져옵니다.</p>
@@ -282,7 +282,7 @@ protected virtual bool GenerableImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -294,7 +294,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Hide
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_Hide"></a> Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -306,7 +306,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### NameOfBody
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_NameOfBody"></a> NameOfBody
 
 <p>Gets the name of body referenced PLoadComponent.</p>
 <p>Pressure Load의 타겟요소가 참조하는 바디의 이름을 가져옵니다.</p>
@@ -331,7 +331,7 @@ public string NameOfBody { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PLoadComponent
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_PLoadComponent"></a> PLoadComponent
 
 <p>Gets or sets the pressure load component.</p>
 <p>압력하중 타겟요소를 가져오거나 넣어줍니다.</p>
@@ -362,7 +362,7 @@ public IGeometricalComponent PLoadComponent { get; set; }
 
  IGeometricalComponent
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_ReferenceType"></a> ReferenceType
 
 <p>Gets the type of the array for argument.</p>
 <p>인자에 쓰일 타입을 가져옵니다.</p>
@@ -375,7 +375,7 @@ public virtual string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### \_PLoadComponent
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1__PLoadComponent"></a> \_PLoadComponent
 
 <p>Gets or sets the pressure load component.</p>
 <p>압력하중 타겟요소를 가져오거나 넣어줍니다.</p>
@@ -408,7 +408,7 @@ public Linker<IGeometricalComponent> _PLoadComponent { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 <p>Draws the icon.</p>
 <p>아이콘을 그려줍니다.</p>
@@ -424,7 +424,7 @@ public void Draw(Canvas canvas)
 <p>The canvas has icon information.</p>
 <p>아이콘 정보를 가지는 캔버스</p>
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_FindLocal_System_String_"></a> FindLocal\(string\)
 
 <p>Finds the local.</p>
 <p>특정한 오브젝트로부터 이름을 가지고 원하는 오브젝트를 가져오는 함수입니다.</p>
@@ -444,7 +444,7 @@ public override IObjectBase FindLocal(string strName)
 
  IObjectBase
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 <p>Gets the name of the unnamed object.</p>
 <p>이름이 없는 오브젝트에 정의된 이름을 가져오는 함수입니다.</p>
@@ -464,7 +464,7 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 <p>Request for update the linked object.</p>
 <p>참조된 객체가 갱신될 때 호출되는 이벤트.</p>
@@ -485,7 +485,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 <p>instance containing the event data.</p>
 <p>갱신 이벤트 정보입니다..</p>
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 <p>Called when [deserialization].</p>
 <p>이 클래스의 data가 Load되고 나서 호출되는 함수입니다.</p>
@@ -501,7 +501,7 @@ protected override void OnDeserialization(object sender)
 <p>The sender.</p>
 <p>Load 관련 객체정보입니다.</p>
 
-### ReDraw\(\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_ReDraw"></a> ReDraw\(\)
 
 <p> Redraw.</p>
 <p> 다시 그려줍니다.</p>
@@ -510,7 +510,7 @@ protected override void OnDeserialization(object sender)
 public void ReDraw()
 ```
 
-### ReplaceEntityImpl\(Document, IGenerable\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_PressureLoadBase_1_ReplaceEntityImpl_VM_Managed_Document_VM_Managed_IGenerable_"></a> ReplaceEntityImpl\(Document, IGenerable\)
 
 <p>Replace entity.</p>
 <p>엔티티를 대체합니다.</p>
@@ -530,5 +530,4 @@ protected virtual void ReplaceEntityImpl(Document doc, IGenerable generableNew)
 
 <p>The new generable entity.</p>
 <p>새로운 엔티티</p>
-
 

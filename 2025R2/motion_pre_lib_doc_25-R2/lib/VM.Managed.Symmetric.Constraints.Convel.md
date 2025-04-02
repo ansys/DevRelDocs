@@ -1,4 +1,4 @@
-# Class Convel
+#  Class Convel
 
 Namespace: [VM.Managed.Symmetric.Constraints](VM.Managed.Symmetric.Constraints.md)  
 Assembly: VMSymCP.dll  
@@ -36,7 +36,7 @@ Named<Convel\>.SymmetricManager
 
 ## Constructors
 
-### Convel\(\)
+### <a id="VM_Managed_Symmetric_Constraints_Convel__ctor"></a> Convel\(\)
 
 ```csharp
 public Convel()
@@ -44,7 +44,7 @@ public Convel()
 
 ## Methods
 
-### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_Constraints_Convel_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -77,5 +77,4 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

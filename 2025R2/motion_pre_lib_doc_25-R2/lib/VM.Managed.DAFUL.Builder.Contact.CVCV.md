@@ -1,4 +1,4 @@
-# Class CVCV
+#  Class CVCV
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -55,7 +55,7 @@ BuilderBase<CVCV\>.ErrorMessage
 
 ## Constructors
 
-### CVCV\(\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_CVCV__ctor"></a> CVCV\(\)
 
 ```csharp
 public CVCV()
@@ -63,7 +63,7 @@ public CVCV()
 
 ## Properties
 
-### ActionContactable
+### <a id="VM_Managed_DAFUL_Builder_Contact_CVCV_ActionContactable"></a> ActionContactable
 
 ```csharp
 public IContactableRigid2D ActionContactable { get; }
@@ -73,7 +73,7 @@ public IContactableRigid2D ActionContactable { get; }
 
  IContactableRigid2D
 
-### BaseContactable
+### <a id="VM_Managed_DAFUL_Builder_Contact_CVCV_BaseContactable"></a> BaseContactable
 
 ```csharp
 public IContactableRigid2D BaseContactable { get; }
@@ -85,7 +85,7 @@ public IContactableRigid2D BaseContactable { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_CVCV_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -100,5 +100,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

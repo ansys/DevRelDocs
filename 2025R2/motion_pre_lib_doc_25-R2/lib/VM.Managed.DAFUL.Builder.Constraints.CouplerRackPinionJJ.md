@@ -1,4 +1,4 @@
-# Class CouplerRackPinionJJ
+#  Class CouplerRackPinionJJ
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  
@@ -57,10 +57,9 @@ BuilderBase<CouplerRackPinion\>.ErrorMessage
 
 ## Constructors
 
-### CouplerRackPinionJJ\(\)
+### <a id="VM_Managed_DAFUL_Builder_Constraints_CouplerRackPinionJJ__ctor"></a> CouplerRackPinionJJ\(\)
 
 ```csharp
 public CouplerRackPinionJJ()
 ```
-
 

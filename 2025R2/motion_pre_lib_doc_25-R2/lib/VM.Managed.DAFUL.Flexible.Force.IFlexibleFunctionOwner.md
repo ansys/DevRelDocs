@@ -1,4 +1,4 @@
-# Interface IFlexibleFunctionOwner
+#  Interface IFlexibleFunctionOwner
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -17,12 +17,11 @@ public interface IFlexibleFunctionOwner
 
 ## Methods
 
-### Initialize\(\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_IFlexibleFunctionOwner_Initialize"></a> Initialize\(\)
 
 Initialize the ConcentratedLoadStandard object
 
 ```csharp
 void Initialize()
 ```
-
 

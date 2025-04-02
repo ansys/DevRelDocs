@@ -1,4 +1,4 @@
-# Class ModeMasterPoint
+#  Class ModeMasterPoint
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -179,7 +179,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ModeMasterPoint\(string, uint\)
+### <a id="VM_Managed_DAFUL_FE_ModeMasterPoint__ctor_System_String_System_UInt32_"></a> ModeMasterPoint\(string, uint\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ModeMasterPoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -195,7 +195,7 @@ The name of [mode master point].
 
 `nodeIndex` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### ModeMasterPoint\(\)
+### <a id="VM_Managed_DAFUL_FE_ModeMasterPoint__ctor"></a> ModeMasterPoint\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.ModeMasterPoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ public ModeMasterPoint()
 
 ## Properties
 
-### IsHide
+### <a id="VM_Managed_DAFUL_FE_ModeMasterPoint_IsHide"></a> IsHide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -217,7 +217,7 @@ bool IsHide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsVisible
+### <a id="VM_Managed_DAFUL_FE_ModeMasterPoint_IsVisible"></a> IsVisible
 
 Gets or sets a value indicating whether object is visible.
 
@@ -229,7 +229,7 @@ bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Layer
+### <a id="VM_Managed_DAFUL_FE_ModeMasterPoint_Layer"></a> Layer
 
 Gets or sets the layer.
 
@@ -241,7 +241,7 @@ Layer Layer { get; set; }
 
  Layer
 
-### MasterNodeID
+### <a id="VM_Managed_DAFUL_FE_ModeMasterPoint_MasterNodeID"></a> MasterNodeID
 
 Gets or sets the id of master node.
 
@@ -253,7 +253,7 @@ public uint MasterNodeID { get; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### MasterNodeIndex
+### <a id="VM_Managed_DAFUL_FE_ModeMasterPoint_MasterNodeIndex"></a> MasterNodeIndex
 
 Gets or sets the index of master node.
 
@@ -267,7 +267,7 @@ public uint MasterNodeIndex { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_FE_ModeMasterPoint_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -281,7 +281,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_FE_ModeMasterPoint_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -301,7 +301,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_FE_ModeMasterPoint_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -329,7 +329,7 @@ if set to <code>true</code> [b has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### ReDraw\(\)
+### <a id="VM_Managed_DAFUL_FE_ModeMasterPoint_ReDraw"></a> ReDraw\(\)
 
 Redraw.
 
@@ -337,12 +337,11 @@ Redraw.
 virtual void ReDraw()
 ```
 
-### ReDrawForHistory\(\)
+### <a id="VM_Managed_DAFUL_FE_ModeMasterPoint_ReDrawForHistory"></a> ReDrawForHistory\(\)
 
 Redraw for undo/redo
 
 ```csharp
 void ReDrawForHistory()
 ```
-
 

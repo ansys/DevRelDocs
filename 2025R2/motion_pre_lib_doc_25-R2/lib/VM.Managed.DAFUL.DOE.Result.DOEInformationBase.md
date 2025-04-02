@@ -1,4 +1,4 @@
-# Class DOEInformationBase
+#  Class DOEInformationBase
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -25,7 +25,7 @@ public class DOEInformationBase
 
 ## Constructors
 
-### DOEInformationBase\(\)
+### <a id="VM_Managed_DAFUL_DOE_Result_DOEInformationBase__ctor"></a> DOEInformationBase\(\)
 
 ```csharp
 public DOEInformationBase()
@@ -33,7 +33,7 @@ public DOEInformationBase()
 
 ## Properties
 
-### Index
+### <a id="VM_Managed_DAFUL_DOE_Result_DOEInformationBase_Index"></a> Index
 
 ```csharp
 public int Index { get; set; }
@@ -43,7 +43,7 @@ public int Index { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Name
+### <a id="VM_Managed_DAFUL_DOE_Result_DOEInformationBase_Name"></a> Name
 
 ```csharp
 public string Name { get; set; }
@@ -53,7 +53,7 @@ public string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Path
+### <a id="VM_Managed_DAFUL_DOE_Result_DOEInformationBase_Path"></a> Path
 
 ```csharp
 public string Path { get; set; }
@@ -62,5 +62,4 @@ public string Path { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

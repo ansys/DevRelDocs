@@ -1,4 +1,4 @@
-# Class PropertyMotorEMForce.PositionArray
+#  Class PropertyMotorEMForce.PositionArray
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,7 @@ public class PropertyMotorEMForce.PositionArray
 
 ## Constructors
 
-### PositionArray\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_PositionArray__ctor"></a> PositionArray\(\)
 
 ```csharp
 public PositionArray()
@@ -28,7 +28,7 @@ public PositionArray()
 
 ## Fields
 
-### Positions
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_PositionArray_Positions"></a> Positions
 
 ```csharp
 public LinkedList<Vector> Positions
@@ -37,5 +37,4 @@ public LinkedList<Vector> Positions
 #### Field Value
 
  [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<Vector\>
-
 

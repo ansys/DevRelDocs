@@ -1,4 +1,4 @@
-# Class ReferenceDesignFrame
+#  Class ReferenceDesignFrame
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -190,7 +190,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferenceDesignFrame\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_ReferenceDesignFrame__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceDesignFrame\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.ReferenceDesignFrame" data-throw-if-not-resolved="false"></xref> class.
 
@@ -208,7 +208,7 @@ The info.
 
 The context.
 
-### ReferenceDesignFrame\(ObjectBase\)
+### <a id="VM_Managed_ReferenceDesignFrame__ctor_VM_Managed_ObjectBase_"></a> ReferenceDesignFrame\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.ReferenceDesignFrame" data-throw-if-not-resolved="false"></xref> class.
 
@@ -224,7 +224,7 @@ The reference's object.
 
 ## Properties
 
-### Orientation
+### <a id="VM_Managed_ReferenceDesignFrame_Orientation"></a> Orientation
 
 Gets the orientation.
 
@@ -236,7 +236,7 @@ public OMatrix Orientation { get; }
 
  OMatrix
 
-### OriginalPosition
+### <a id="VM_Managed_ReferenceDesignFrame_OriginalPosition"></a> OriginalPosition
 
 Gets the original position and the flag indication whether transform is applied or not.
 
@@ -248,7 +248,7 @@ protected virtual Tuple<VectorBase, bool> OriginalPosition { get; }
 
  [Tuple](https://learn.microsoft.com/dotnet/api/system.tuple\-2)<VectorBase, [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\>
 
-### Position
+### <a id="VM_Managed_ReferenceDesignFrame_Position"></a> Position
 
 Gets the position.
 
@@ -260,7 +260,7 @@ public VectorBase Position { get; }
 
  VectorBase
 
-### TransformationMatrix
+### <a id="VM_Managed_ReferenceDesignFrame_TransformationMatrix"></a> TransformationMatrix
 
 Gets or sets the transformation matrix.
 
@@ -272,7 +272,7 @@ public TMatrix TransformationMatrix { get; set; }
 
  TMatrix
 
-### Value
+### <a id="VM_Managed_ReferenceDesignFrame_Value"></a> Value
 
 Gets the position.
 
@@ -284,7 +284,7 @@ public VectorBase Value { get; }
 
  VectorBase
 
-### X
+### <a id="VM_Managed_ReferenceDesignFrame_X"></a> X
 
 Gets the X coordinate of position.
 
@@ -296,7 +296,7 @@ public double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_Managed_ReferenceDesignFrame_Y"></a> Y
 
 Gets the Y coordinate of position.
 
@@ -308,7 +308,7 @@ public double Y { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Z
+### <a id="VM_Managed_ReferenceDesignFrame_Z"></a> Z
 
 Gets the Z coordinate of position.
 
@@ -322,7 +322,7 @@ public double Z { get; }
 
 ## Methods
 
-### GetDirection\(Coordinate\)
+### <a id="VM_Managed_ReferenceDesignFrame_GetDirection_VM_Coordinate_"></a> GetDirection\(Coordinate\)
 
 Gets the direction.
 
@@ -342,7 +342,7 @@ Type of the direction.
 
 The direction
 
-### GetFullName\(\)
+### <a id="VM_Managed_ReferenceDesignFrame_GetFullName"></a> GetFullName\(\)
 
 Gets the full name.
 
@@ -355,5 +355,4 @@ public string GetFullName()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The full name.
-
 

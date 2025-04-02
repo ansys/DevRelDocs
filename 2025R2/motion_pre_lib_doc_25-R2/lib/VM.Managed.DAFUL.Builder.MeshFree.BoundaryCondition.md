@@ -1,4 +1,4 @@
-# Class BoundaryCondition
+#  Class BoundaryCondition
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree](VM.Managed.DAFUL.Builder.MeshFree.md)  
 Assembly: VMBldMeshFree.dll  
@@ -53,7 +53,7 @@ BuilderBase<BoundaryCondition\>.ErrorMessage
 
 ## Constructors
 
-### BoundaryCondition\(\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_BoundaryCondition__ctor"></a> BoundaryCondition\(\)
 
 ```csharp
 public BoundaryCondition()
@@ -61,7 +61,7 @@ public BoundaryCondition()
 
 ## Properties
 
-### BaseGeometry
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_BoundaryCondition_BaseGeometry"></a> BaseGeometry
 
 ```csharp
 public IGeometricalComponent BaseGeometry { get; }
@@ -71,7 +71,7 @@ public IGeometricalComponent BaseGeometry { get; }
 
  IGeometricalComponent
 
-### InputArray
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_BoundaryCondition_InputArray"></a> InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -83,7 +83,7 @@ public string[] InputArray { get; set; }
 
 ## Methods
 
-### CheckGroundBody\(IGeometricalComponent, string\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_BoundaryCondition_CheckGroundBody_VM_Managed_DAFUL_IGeometricalComponent_System_String_"></a> CheckGroundBody\(IGeometricalComponent, string\)
 
 ```csharp
 public static bool CheckGroundBody(IGeometricalComponent faceset, string strErrMsg)
@@ -99,7 +99,7 @@ public static bool CheckGroundBody(IGeometricalComponent faceset, string strErrM
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CheckGroundBody\(List<IGeometricalComponent\>, string\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_BoundaryCondition_CheckGroundBody_System_Collections_Generic_List_VM_Managed_DAFUL_IGeometricalComponent__System_String_"></a> CheckGroundBody\(List<IGeometricalComponent\>, string\)
 
 ```csharp
 public static bool CheckGroundBody(List<IGeometricalComponent> aryFaceset, string strErrMsg)
@@ -115,7 +115,7 @@ public static bool CheckGroundBody(List<IGeometricalComponent> aryFaceset, strin
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_BoundaryCondition_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -131,7 +131,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_BoundaryCondition_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -144,5 +144,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

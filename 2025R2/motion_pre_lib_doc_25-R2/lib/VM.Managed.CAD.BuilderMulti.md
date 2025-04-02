@@ -1,4 +1,4 @@
-# Class BuilderMulti
+#  Class BuilderMulti
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -201,7 +201,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderMulti\(\)
+### <a id="VM_Managed_CAD_BuilderMulti__ctor"></a> BuilderMulti\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderMulti" data-throw-if-not-resolved="false"></xref> class
 
@@ -211,7 +211,7 @@ public BuilderMulti()
 
 ## Properties
 
-### Builders
+### <a id="VM_Managed_CAD_BuilderMulti_Builders"></a> Builders
 
     <p>Gets or sets the builders.</p>
     <p>
@@ -241,7 +241,7 @@ public Builder[] Builders { get; set; }
 
  [Builder](VM.Managed.CAD.Builder.md)\[\]
 
-### MultiType
+### <a id="VM_Managed_CAD_BuilderMulti_MultiType"></a> MultiType
 
 Gets or sets the type.
 ex) BuilderMultiUnite : "BuilderMultiUnite"
@@ -257,7 +257,7 @@ protected string MultiType { get; set; }
 
 ## Methods
 
-### AddBuilder\(ICollection<Builder\>\)
+### <a id="VM_Managed_CAD_BuilderMulti_AddBuilder_System_Collections_Generic_ICollection_VM_Managed_CAD_Builder__"></a> AddBuilder\(ICollection<Builder\>\)
 
 ```csharp
 public void AddBuilder(ICollection<Builder> lstBuilder)
@@ -267,7 +267,7 @@ public void AddBuilder(ICollection<Builder> lstBuilder)
 
 `lstBuilder` [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[Builder](VM.Managed.CAD.Builder.md)\>
 
-### AddBuilder\(Builder\)
+### <a id="VM_Managed_CAD_BuilderMulti_AddBuilder_VM_Managed_CAD_Builder_"></a> AddBuilder\(Builder\)
 
 Builder add.
 
@@ -281,7 +281,7 @@ public void AddBuilder(Builder builder)
 
 The builder.
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_BuilderMulti_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Checks validation about build.
 
@@ -289,7 +289,7 @@ Checks validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### Clear\(\)
+### <a id="VM_Managed_CAD_BuilderMulti_Clear"></a> Clear\(\)
 
 Clear build.
 
@@ -297,7 +297,7 @@ Clear build.
 public void Clear()
 ```
 
-### Contains\(Type\)
+### <a id="VM_Managed_CAD_BuilderMulti_Contains_System_Type_"></a> Contains\(Type\)
 
 ```csharp
 public override bool Contains(Type typeBuilder)
@@ -311,7 +311,7 @@ public override bool Contains(Type typeBuilder)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CopyFilePathWhenImportBuilder\(Builder\)
+### <a id="VM_Managed_CAD_BuilderMulti_CopyFilePathWhenImportBuilder_VM_Managed_CAD_Builder_"></a> CopyFilePathWhenImportBuilder\(Builder\)
 
 ```csharp
 public override void CopyFilePathWhenImportBuilder(Builder buiOriginal)
@@ -321,7 +321,7 @@ public override void CopyFilePathWhenImportBuilder(Builder buiOriginal)
 
 `buiOriginal` [Builder](VM.Managed.CAD.Builder.md)
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_BuilderMulti_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -331,7 +331,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### FindLocal\(string\)
+### <a id="VM_Managed_CAD_BuilderMulti_FindLocal_System_String_"></a> FindLocal\(string\)
 
 ```csharp
 public override ObjectBase FindLocal(string strName)
@@ -345,7 +345,7 @@ public override ObjectBase FindLocal(string strName)
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### GetBodyType\(\)
+### <a id="VM_Managed_CAD_BuilderMulti_GetBodyType"></a> GetBodyType\(\)
 
 Gets the type of body.
 
@@ -357,7 +357,7 @@ public override BodyCreateType GetBodyType()
 
  [BodyCreateType](VM.Managed.CAD.BodyCreateType.md)
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_CAD_BuilderMulti_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 ```csharp
 public override string GetUnnamedObjectName(object obUnnamed)
@@ -371,7 +371,7 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### OnDeserializationImpl\(ref List<Child<Builder, Update\>\>\)
+### <a id="VM_Managed_CAD_BuilderMulti_OnDeserializationImpl_System_Collections_Generic_List_VM_Managed_Child_VM_Managed_CAD_Builder_VM_Managed_ObjectBase_Update____"></a> OnDeserializationImpl\(ref List<Child<Builder, Update\>\>\)
 
 ```csharp
 protected void OnDeserializationImpl(ref List<Child<Builder, ObjectBase.Update>> lstBuilder)
@@ -381,7 +381,7 @@ protected void OnDeserializationImpl(ref List<Child<Builder, ObjectBase.Update>>
 
 `lstBuilder` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Child](VM.Managed.Child\-2.md)<[Builder](VM.Managed.CAD.Builder.md), [ObjectBase](VM.Managed.ObjectBase.md).[Update](VM.Managed.ObjectBase.Update.md)\>\>
 
-### ReadXmlImpl\(XmlReader\)
+### <a id="VM_Managed_CAD_BuilderMulti_ReadXmlImpl_System_Xml_XmlReader_"></a> ReadXmlImpl\(XmlReader\)
 
 ```csharp
 protected void ReadXmlImpl(XmlReader reader)
@@ -391,7 +391,7 @@ protected void ReadXmlImpl(XmlReader reader)
 
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
-### SetTransform\(TMatrix\)
+### <a id="VM_Managed_CAD_BuilderMulti_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -405,7 +405,7 @@ public override void SetTransform(TMatrix matT)
 
 The transform info.
 
-### WriteXmlImpl\(XmlWriter\)
+### <a id="VM_Managed_CAD_BuilderMulti_WriteXmlImpl_System_Xml_XmlWriter_"></a> WriteXmlImpl\(XmlWriter\)
 
 ```csharp
 protected void WriteXmlImpl(XmlWriter writer)
@@ -414,5 +414,4 @@ protected void WriteXmlImpl(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

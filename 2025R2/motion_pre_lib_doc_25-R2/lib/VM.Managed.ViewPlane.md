@@ -1,4 +1,4 @@
-# Enum ViewPlane
+#  Enum ViewPlane
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -158,7 +158,6 @@ The projection of model on the ZY plane, The camera up direction is plus Y.
 `ZY_PlusZ = 10` 
 
 The projection of model on the ZY plane, The camera up direction is plus Z. (for car)
-
 
 
 

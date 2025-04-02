@@ -1,4 +1,4 @@
-# Enum InterfaceManager.StateType
+#  Enum InterfaceManager.StateType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -26,7 +26,6 @@ Remove
 `Rename = 1` 
 
 Rename
-
 
 
 

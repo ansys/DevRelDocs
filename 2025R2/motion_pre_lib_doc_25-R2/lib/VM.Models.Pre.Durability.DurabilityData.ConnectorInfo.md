@@ -1,4 +1,4 @@
-# Class DurabilityData.ConnectorInfo
+#  Class DurabilityData.ConnectorInfo
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -20,7 +20,7 @@ public class DurabilityData.ConnectorInfo
 
 ## Constructors
 
-### ConnectorInfo\(\)
+### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo__ctor"></a> ConnectorInfo\(\)
 
 ```csharp
 public ConnectorInfo()
@@ -28,7 +28,7 @@ public ConnectorInfo()
 
 ## Fields
 
-### ConnectorName
+### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_ConnectorName"></a> ConnectorName
 
 ```csharp
 public string ConnectorName
@@ -38,7 +38,7 @@ public string ConnectorName
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ForceX
+### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_ForceX"></a> ForceX
 
 ```csharp
 public SplineValue.TwoPoint[] ForceX
@@ -48,7 +48,7 @@ public SplineValue.TwoPoint[] ForceX
 
  SplineValue.TwoPoint\[\]
 
-### ForceY
+### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_ForceY"></a> ForceY
 
 ```csharp
 public SplineValue.TwoPoint[] ForceY
@@ -58,7 +58,7 @@ public SplineValue.TwoPoint[] ForceY
 
  SplineValue.TwoPoint\[\]
 
-### ForceZ
+### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_ForceZ"></a> ForceZ
 
 ```csharp
 public SplineValue.TwoPoint[] ForceZ
@@ -68,7 +68,7 @@ public SplineValue.TwoPoint[] ForceZ
 
  SplineValue.TwoPoint\[\]
 
-### IndexOfCADBody
+### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_IndexOfCADBody"></a> IndexOfCADBody
 
 ```csharp
 public int IndexOfCADBody
@@ -78,7 +78,7 @@ public int IndexOfCADBody
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### PIDs
+### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_PIDs"></a> PIDs
 
 ```csharp
 public int[] PIDs
@@ -88,7 +88,7 @@ public int[] PIDs
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)\[\]
 
-### Position
+### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_Position"></a> Position
 
 ```csharp
 public Vector Position
@@ -98,7 +98,7 @@ public Vector Position
 
  Vector
 
-### RBEName
+### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_RBEName"></a> RBEName
 
 ```csharp
 public string RBEName
@@ -108,7 +108,7 @@ public string RBEName
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RBEPosition
+### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_RBEPosition"></a> RBEPosition
 
 ```csharp
 public Vector RBEPosition
@@ -118,7 +118,7 @@ public Vector RBEPosition
 
  Vector
 
-### TorqueX
+### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_TorqueX"></a> TorqueX
 
 ```csharp
 public SplineValue.TwoPoint[] TorqueX
@@ -128,7 +128,7 @@ public SplineValue.TwoPoint[] TorqueX
 
  SplineValue.TwoPoint\[\]
 
-### TorqueY
+### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_TorqueY"></a> TorqueY
 
 ```csharp
 public SplineValue.TwoPoint[] TorqueY
@@ -138,7 +138,7 @@ public SplineValue.TwoPoint[] TorqueY
 
  SplineValue.TwoPoint\[\]
 
-### TorqueZ
+### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_TorqueZ"></a> TorqueZ
 
 ```csharp
 public SplineValue.TwoPoint[] TorqueZ
@@ -148,7 +148,7 @@ public SplineValue.TwoPoint[] TorqueZ
 
  SplineValue.TwoPoint\[\]
 
-### UsePID
+### <a id="VM_Models_Pre_Durability_DurabilityData_ConnectorInfo_UsePID"></a> UsePID
 
 ```csharp
 public bool UsePID
@@ -157,5 +157,4 @@ public bool UsePID
 #### Field Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

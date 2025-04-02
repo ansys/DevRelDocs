@@ -1,4 +1,4 @@
-# Class SetNodePositionsOperation
+#  Class SetNodePositionsOperation
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### SetNodePositionsOperation\(NodalBody, string\)
+### <a id="VM_Managed_DAFUL_FE_SetNodePositionsOperation__ctor_VM_Managed_DAFUL_FE_NodalBody_System_String_"></a> SetNodePositionsOperation\(NodalBody, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.SetNodePositionsOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -97,7 +97,7 @@ The dfn path.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_FE_SetNodePositionsOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -111,12 +111,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_FE_SetNodePositionsOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

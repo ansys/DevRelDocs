@@ -1,4 +1,4 @@
-# Enum PropertyBearing.enBearingType
+#  Enum PropertyBearing.enBearingType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -68,7 +68,6 @@ The thrust radial ball
 `Thrust_Spherical_Roller = 9` 
 
 The thrust spherical roller
-
 
 
 

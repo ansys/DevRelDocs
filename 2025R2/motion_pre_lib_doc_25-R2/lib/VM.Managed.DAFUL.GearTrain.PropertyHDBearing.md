@@ -1,4 +1,4 @@
-# Class PropertyHDBearing
+#  Class PropertyHDBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyHDBearing\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHDBearing__ctor"></a> PropertyHDBearing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyHDBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertyHDBearing()
 
 ## Properties
 
-### AnalysisMethod
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHDBearing_AnalysisMethod"></a> AnalysisMethod
 
 Gets or sets the type of the analysis method.
 Use SetAnalysisMethod() when this instance sets for undo/redo
@@ -188,7 +188,7 @@ public PropertyHDBearing.AnalysisMethodType AnalysisMethod { get; set; }
 
  [PropertyHDBearing](VM.Managed.DAFUL.GearTrain.PropertyHDBearing.md).[AnalysisMethodType](VM.Managed.DAFUL.GearTrain.PropertyHDBearing.AnalysisMethodType.md)
 
-### Color
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHDBearing_Color"></a> Color
 
 Gets or sets the color.
 Use SetColor() when this instance sets for undo/redo
@@ -201,7 +201,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ContactInfo
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHDBearing_ContactInfo"></a> ContactInfo
 
 Gets or sets the the contact info.
 
@@ -213,7 +213,7 @@ public HDBContact ContactInfo { get; set; }
 
  [HDBContact](VM.Managed.DAFUL.GearTrain.HDBContact.md)
 
-### DrawingColor
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHDBearing_DrawingColor"></a> DrawingColor
 
 Gets the color of the drawing.
 
@@ -225,7 +225,7 @@ public Color DrawingColor { get; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### HDBearingFilePath
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHDBearing_HDBearingFilePath"></a> HDBearingFilePath
 
 HDBearingFilePath
 
@@ -237,7 +237,7 @@ public string HDBearingFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### InnerGeomInfo
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHDBearing_InnerGeomInfo"></a> InnerGeomInfo
 
 Gets or sets the inner geom information.
 
@@ -249,7 +249,7 @@ public HDBGeometryInfo InnerGeomInfo { get; set; }
 
  [HDBGeometryInfo](VM.Managed.DAFUL.GearTrain.HDBGeometryInfo.md)
 
-### OuterGeomInfo
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHDBearing_OuterGeomInfo"></a> OuterGeomInfo
 
 Gets or sets the outer geom information.
 
@@ -260,5 +260,4 @@ public HDBGeometryInfo OuterGeomInfo { get; set; }
 #### Property Value
 
  [HDBGeometryInfo](VM.Managed.DAFUL.GearTrain.HDBGeometryInfo.md)
-
 

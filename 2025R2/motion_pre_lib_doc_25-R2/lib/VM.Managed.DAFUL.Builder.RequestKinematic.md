@@ -1,4 +1,4 @@
-# Class RequestKinematic
+#  Class RequestKinematic
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -57,7 +57,7 @@ public class RequestKinematic : RequestBase<RequestKinematic>, IBuilder
 
 ## Constructors
 
-### RequestKinematic\(\)
+### <a id="VM_Managed_DAFUL_Builder_RequestKinematic__ctor"></a> RequestKinematic\(\)
 
 ```csharp
 public RequestKinematic()
@@ -65,7 +65,7 @@ public RequestKinematic()
 
 ## Properties
 
-### InputArray
+### <a id="VM_Managed_DAFUL_Builder_RequestKinematic_InputArray"></a> InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -75,7 +75,7 @@ public string[] InputArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### ReferenceMarker
+### <a id="VM_Managed_DAFUL_Builder_RequestKinematic_ReferenceMarker"></a> ReferenceMarker
 
 ```csharp
 public RequestKinematic.CheckedMarker ReferenceMarker { get; set; }
@@ -87,7 +87,7 @@ public RequestKinematic.CheckedMarker ReferenceMarker { get; set; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_RequestKinematic_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -102,5 +102,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

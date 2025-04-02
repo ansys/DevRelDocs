@@ -1,4 +1,4 @@
-# Class CreateSubEntityOperation
+#  Class CreateSubEntityOperation
 
 Namespace: [VM.Managed.Dialog](VM.Managed.Dialog.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### CreateSubEntityOperation\(JournalParameter\)
+### <a id="VM_Managed_Dialog_CreateSubEntityOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> CreateSubEntityOperation\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.Dialog.CreateSubEntityOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -91,7 +91,7 @@ public CreateSubEntityOperation(JournalParameter jp)
 
 The journal parameter.
 
-### CreateSubEntityOperation\(Document, string, string, Type\)
+### <a id="VM_Managed_Dialog_CreateSubEntityOperation__ctor_VM_Managed_Document_System_String_System_String_System_Type_"></a> CreateSubEntityOperation\(Document, string, string, Type\)
 
 Initializes a new instance of the <xref href="VM.Managed.Dialog.CreateSubEntityOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -119,7 +119,7 @@ The type.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_Dialog_CreateSubEntityOperation_Name"></a> Name
 
 Gets the name.
 
@@ -133,7 +133,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_Dialog_CreateSubEntityOperation_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -141,7 +141,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_Dialog_CreateSubEntityOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -154,5 +154,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

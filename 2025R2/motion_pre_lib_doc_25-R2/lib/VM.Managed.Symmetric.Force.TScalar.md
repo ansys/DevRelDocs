@@ -1,4 +1,4 @@
-# Class TScalar
+#  Class TScalar
 
 Namespace: [VM.Managed.Symmetric.Force](VM.Managed.Symmetric.Force.md)  
 Assembly: VMSymFP.dll  
@@ -36,7 +36,7 @@ Named<TScalar\>.SymmetricManager
 
 ## Constructors
 
-### TScalar\(\)
+### <a id="VM_Managed_Symmetric_Force_TScalar__ctor"></a> TScalar\(\)
 
 ```csharp
 public TScalar()
@@ -44,7 +44,7 @@ public TScalar()
 
 ## Methods
 
-### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_Force_TScalar_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -77,5 +77,4 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

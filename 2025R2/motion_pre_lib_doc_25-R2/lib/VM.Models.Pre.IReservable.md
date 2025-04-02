@@ -1,4 +1,4 @@
-# Interface IReservable
+#  Interface IReservable
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface IReservable
 
 ## Methods
 
-### CreateReservedObject\(object\)
+### <a id="VM_Models_Pre_IReservable_CreateReservedObject_System_Object_"></a> CreateReservedObject\(object\)
 
 Create reserved object of this object.
 
@@ -36,5 +36,4 @@ The extra data to create reserved object.
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The reserved object.
-
 

@@ -1,4 +1,4 @@
-# Class GeneralJointSetting
+#  Class GeneralJointSetting
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
@@ -111,7 +111,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GeneralJointSetting\(\)
+### <a id="VM_Models_Pre_Connections_GeneralJointSetting__ctor"></a> GeneralJointSetting\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Connections.GeneralJointSetting" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ public GeneralJointSetting()
 
 ## Methods
 
-### Add\(ObjectBase, ConnectorType\)
+### <a id="VM_Models_Pre_Connections_GeneralJointSetting_Add_VM_Managed_ObjectBase_VM_Models_Pre_Connections_PropertyGeneral_ConnectorType_"></a> Add\(ObjectBase, ConnectorType\)
 
 Adds the connector object.
 
@@ -139,7 +139,7 @@ The connector object to add.
 
 The ConnectorType of the Body object.
 
-### CheckData\(\)
+### <a id="VM_Models_Pre_Connections_GeneralJointSetting_CheckData"></a> CheckData\(\)
 
 Check data
 
@@ -151,7 +151,7 @@ public bool CheckData()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Clear\(\)
+### <a id="VM_Models_Pre_Connections_GeneralJointSetting_Clear"></a> Clear\(\)
 
 Clear
 
@@ -159,7 +159,7 @@ Clear
 public override void Clear()
 ```
 
-### Contains\(ObjectBase\)
+### <a id="VM_Models_Pre_Connections_GeneralJointSetting_Contains_VM_Managed_ObjectBase_"></a> Contains\(ObjectBase\)
 
 Determines whether [contains] the connector object.
 
@@ -179,7 +179,7 @@ The connector object to find.
 
 Whether it contains the connector object.
 
-### ContainsKey\(UIntPtr\)
+### <a id="VM_Models_Pre_Connections_GeneralJointSetting_ContainsKey_System_UIntPtr_"></a> ContainsKey\(UIntPtr\)
 
 ```csharp
 public bool ContainsKey(UIntPtr keyObject)
@@ -193,7 +193,7 @@ public bool ContainsKey(UIntPtr keyObject)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetSelection\(ObjectBase\)
+### <a id="VM_Models_Pre_Connections_GeneralJointSetting_GetSelection_VM_Managed_ObjectBase_"></a> GetSelection\(ObjectBase\)
 
 Gets the ConnectorType of the connector object.
 
@@ -213,7 +213,7 @@ The connector object to get ConnectorType.
 
 The ConnectorType of the connector object.
 
-### Remove\(ObjectBase\)
+### <a id="VM_Models_Pre_Connections_GeneralJointSetting_Remove_VM_Managed_ObjectBase_"></a> Remove\(ObjectBase\)
 
 Removes the connector object.
 
@@ -233,7 +233,7 @@ The connector object to remove.
 
 Whether it is success to remove the connector object.
 
-### SetSelection\(ObjectBase, ConnectorType\)
+### <a id="VM_Models_Pre_Connections_GeneralJointSetting_SetSelection_VM_Managed_ObjectBase_VM_Models_Pre_Connections_PropertyGeneral_ConnectorType_"></a> SetSelection\(ObjectBase, ConnectorType\)
 
 Sets the ConnectorType of the connector object.
 
@@ -256,5 +256,4 @@ The ConnectorType of the connector object.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 Whether it is success to set the ConnectorType.
-
 

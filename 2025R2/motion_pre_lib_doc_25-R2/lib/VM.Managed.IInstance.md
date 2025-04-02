@@ -1,4 +1,4 @@
-# Interface IInstance
+#  Interface IInstance
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IInstance
 
 ## Methods
 
-### AddNewReference\(ObjectBase\)
+### <a id="VM_Managed_IInstance_AddNewReference_VM_Managed_ObjectBase_"></a> AddNewReference\(ObjectBase\)
 
 Add object for new reference.
 
@@ -31,7 +31,7 @@ void AddNewReference(ObjectBase obNew)
 
 The object.
 
-### AddNewReferences\(ObjectBase\[\], string\)
+### <a id="VM_Managed_IInstance_AddNewReferences_VM_Managed_ObjectBase___System_String_"></a> AddNewReferences\(ObjectBase\[\], string\)
 
 Add object for new references.
 
@@ -48,5 +48,4 @@ The object array.
 `strCetegory` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The category name.
-
 

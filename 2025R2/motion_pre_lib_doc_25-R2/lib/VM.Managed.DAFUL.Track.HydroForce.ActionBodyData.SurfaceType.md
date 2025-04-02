@@ -1,4 +1,4 @@
-# Enum HydroForce.ActionBodyData.SurfaceType
+#  Enum HydroForce.ActionBodyData.SurfaceType
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -20,7 +20,6 @@ Bounding Box
 `MultiTriangularPatch = 0` 
 
 Multi Triangular Patch
-
 
 
 

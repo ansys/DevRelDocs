@@ -1,4 +1,4 @@
-# Class SolidCylinderSimple
+#  Class SolidCylinderSimple
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -52,7 +52,7 @@ public class SolidCylinderSimple : Solid<BuilderCylinderSimple>, IBuilder
 
 ## Constructors
 
-### SolidCylinderSimple\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidCylinderSimple__ctor"></a> SolidCylinderSimple\(\)
 
 ```csharp
 public SolidCylinderSimple()
@@ -60,7 +60,7 @@ public SolidCylinderSimple()
 
 ## Properties
 
-### BottomPosition
+### <a id="VM_Managed_DAFUL_Builder_SolidCylinderSimple_BottomPosition"></a> BottomPosition
 
 ```csharp
 public PointBase BottomPosition { get; }
@@ -70,7 +70,7 @@ public PointBase BottomPosition { get; }
 
  PointBase
 
-### RadiusMajor
+### <a id="VM_Managed_DAFUL_Builder_SolidCylinderSimple_RadiusMajor"></a> RadiusMajor
 
 ```csharp
 public Variable RadiusMajor { get; set; }
@@ -80,7 +80,7 @@ public Variable RadiusMajor { get; set; }
 
  Variable
 
-### TopPosition
+### <a id="VM_Managed_DAFUL_Builder_SolidCylinderSimple_TopPosition"></a> TopPosition
 
 ```csharp
 public PointBase TopPosition { get; }
@@ -92,7 +92,7 @@ public PointBase TopPosition { get; }
 
 ## Methods
 
-### SetSolidBuilderProperty\(BuilderCylinderSimple\)
+### <a id="VM_Managed_DAFUL_Builder_SolidCylinderSimple_SetSolidBuilderProperty_VM_Managed_CAD_BuilderCylinderSimple_"></a> SetSolidBuilderProperty\(BuilderCylinderSimple\)
 
 ```csharp
 protected override void SetSolidBuilderProperty(BuilderCylinderSimple solidBuilder)
@@ -101,5 +101,4 @@ protected override void SetSolidBuilderProperty(BuilderCylinderSimple solidBuild
 #### Parameters
 
 `solidBuilder` BuilderCylinderSimple
-
 

@@ -1,4 +1,4 @@
-# Interface IPropertyGrid
+#  Interface IPropertyGrid
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -17,7 +17,7 @@ public interface IPropertyGrid
 
 ## Methods
 
-### Initialize\(string, string, bool, Type\)
+### <a id="VM_Managed_DAFUL_Pre_IPropertyGrid_Initialize_System_String_System_String_System_Boolean_System_Type_"></a> Initialize\(string, string, bool, Type\)
 
 Initializes the specified property grid XML.
 
@@ -49,7 +49,7 @@ The opeartion type.
 
 The result informations.
 
-### IsDoingOperation\(bool\)
+### <a id="VM_Managed_DAFUL_Pre_IPropertyGrid_IsDoingOperation_System_Boolean_"></a> IsDoingOperation\(bool\)
 
 Determines whether [is doing operation] [the specified doing operation].
 
@@ -63,7 +63,7 @@ void IsDoingOperation(bool bDoingOp)
 
 if set to <code>true</code> [doing operation].
 
-### IsPGEnableWindow\(bool, int\)
+### <a id="VM_Managed_DAFUL_Pre_IPropertyGrid_IsPGEnableWindow_System_Boolean_System_Int32_"></a> IsPGEnableWindow\(bool, int\)
 
 Determines whether [is PG enable window] [the specified b_ enable].
 
@@ -81,7 +81,7 @@ if set to <code>true</code> [b_ enable].
 
 The pick break position.
 
-### PropertyApply\(bool\)
+### <a id="VM_Managed_DAFUL_Pre_IPropertyGrid_PropertyApply_System_Boolean_"></a> PropertyApply\(bool\)
 
 Properties the apply.
 
@@ -101,7 +101,7 @@ if set to <code>true</code> [b restart].
 
 The sucess state.
 
-### SetBuilderData\(string\)
+### <a id="VM_Managed_DAFUL_Pre_IPropertyGrid_SetBuilderData_System_String_"></a> SetBuilderData\(string\)
 
 Sets the builder data.
 
@@ -115,7 +115,7 @@ void SetBuilderData(string strBuilder)
 
 The builder.
 
-### SetGridData\(string\)
+### <a id="VM_Managed_DAFUL_Pre_IPropertyGrid_SetGridData_System_String_"></a> SetGridData\(string\)
 
 Sets the Grid data.
 
@@ -127,7 +127,7 @@ void SetGridData(string strBuilder)
 
 `strBuilder` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SetValue\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Pre_IPropertyGrid_SetValue_System_String___"></a> SetValue\(string\[\]\)
 
 Sets the value.
 
@@ -141,7 +141,7 @@ void SetValue(string[] strArResult)
 
 The result.
 
-### SetValue\(string, string\)
+### <a id="VM_Managed_DAFUL_Pre_IPropertyGrid_SetValue_System_String_System_String_"></a> SetValue\(string, string\)
 
 Sets the Value.
 
@@ -159,7 +159,7 @@ Name of the prop.
 
 The value.
 
-### SetValue\(string, string, string\)
+### <a id="VM_Managed_DAFUL_Pre_IPropertyGrid_SetValue_System_String_System_String_System_String_"></a> SetValue\(string, string, string\)
 
 Sets the value.
 
@@ -181,7 +181,7 @@ Content of the prop.
 
 The result.
 
-### UpdateDocumentGridInfo\(\)
+### <a id="VM_Managed_DAFUL_Pre_IPropertyGrid_UpdateDocumentGridInfo"></a> UpdateDocumentGridInfo\(\)
 
 Uddates the document grid information.
 
@@ -189,7 +189,7 @@ Uddates the document grid information.
 void UpdateDocumentGridInfo()
 ```
 
-### UpdateDocumentInfo\(string\)
+### <a id="VM_Managed_DAFUL_Pre_IPropertyGrid_UpdateDocumentInfo_System_String_"></a> UpdateDocumentInfo\(string\)
 
 Updates the document information.
 
@@ -202,5 +202,4 @@ void UpdateDocumentInfo(string strXml)
 `strXml` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The XML.
-
 

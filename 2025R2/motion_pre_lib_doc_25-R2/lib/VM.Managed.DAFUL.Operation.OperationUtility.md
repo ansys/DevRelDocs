@@ -1,4 +1,4 @@
-# Class OperationUtility
+#  Class OperationUtility
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -22,7 +22,7 @@ public class OperationUtility
 
 ## Constructors
 
-### OperationUtility\(\)
+### <a id="VM_Managed_DAFUL_Operation_OperationUtility__ctor"></a> OperationUtility\(\)
 
 ```csharp
 public OperationUtility()
@@ -30,7 +30,7 @@ public OperationUtility()
 
 ## Methods
 
-### CreateDirectoryInTemporaryPath\(\)
+### <a id="VM_Managed_DAFUL_Operation_OperationUtility_CreateDirectoryInTemporaryPath"></a> CreateDirectoryInTemporaryPath\(\)
 
 Create directory in temporary path
 
@@ -41,5 +41,4 @@ public static string CreateDirectoryInTemporaryPath()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

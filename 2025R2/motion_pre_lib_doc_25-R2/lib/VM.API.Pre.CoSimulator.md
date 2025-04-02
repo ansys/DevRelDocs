@@ -1,4 +1,4 @@
-# Namespace VM.API.Pre.CoSimulator
+#  Namespace VM.API.Pre.CoSimulator
 
 ### Classes
 
@@ -11,5 +11,4 @@ This class implements APIs for <xref href="VM.Managed.DAFUL.CoSim.FileGen" data-
  [FMIVersionType](VM.API.Pre.CoSimulator.FMIVersionType.md)
 
 This is the enum for the FIM version type.
-
 

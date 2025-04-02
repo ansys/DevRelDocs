@@ -1,4 +1,4 @@
-# Struct InputShaftSetParameters
+#  Struct InputShaftSetParameters
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -11,7 +11,7 @@ public struct InputShaftSetParameters
 
 ## Constructors
 
-### InputShaftSetParameters\(\)
+### <a id="VM_API_Pre_GearTrain_InputShaftSetParameters__ctor"></a> InputShaftSetParameters\(\)
 
 Default constructor
 
@@ -21,7 +21,7 @@ public InputShaftSetParameters()
 
 ## Properties
 
-### InputShaftSet
+### <a id="VM_API_Pre_GearTrain_InputShaftSetParameters_InputShaftSet"></a> InputShaftSet
 
 The input shaftset and the type is <xref href="VM.Managed.DAFUL.GearTrain.IHasPowerLoad" data-throw-if-not-resolved="false"></xref>.
 
@@ -33,7 +33,7 @@ public Obj InputShaftSet { readonly get; set; }
 
  Obj
 
-### IsCW
+### <a id="VM_API_Pre_GearTrain_InputShaftSetParameters_IsCW"></a> IsCW
 
 The flag whether using CW.
 
@@ -44,5 +44,4 @@ public bool IsCW { readonly get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

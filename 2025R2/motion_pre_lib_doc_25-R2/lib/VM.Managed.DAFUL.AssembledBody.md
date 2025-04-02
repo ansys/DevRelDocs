@@ -1,4 +1,4 @@
-# Class AssembledBody
+#  Class AssembledBody
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -231,7 +231,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AssembledBody\(\)
+### <a id="VM_Managed_DAFUL_AssembledBody__ctor"></a> AssembledBody\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AssembledBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -239,7 +239,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.AssembledBody" da
 public AssembledBody()
 ```
 
-### AssembledBody\(string, Instance\)
+### <a id="VM_Managed_DAFUL_AssembledBody__ctor_System_String_VM_Managed_Instance_"></a> AssembledBody\(string, Instance\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AssembledBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -259,7 +259,7 @@ The instance.
 
 ## Properties
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_AssembledBody_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -271,7 +271,7 @@ public BodyAnalysisType AnalysisType { get; set; }
 
  [BodyAnalysisType](VM.Managed.DAFUL.BodyAnalysisType.md)
 
-### Body
+### <a id="VM_Managed_DAFUL_AssembledBody_Body"></a> Body
 
 Gets the body.
 
@@ -283,7 +283,7 @@ public IBody Body { get; }
 
  IBody
 
-### ConnectableBody
+### <a id="VM_Managed_DAFUL_AssembledBody_ConnectableBody"></a> ConnectableBody
 
 Gets the connectable body.
 
@@ -295,7 +295,7 @@ public ObjectBase ConnectableBody { get; }
 
  ObjectBase
 
-### ConnectableFullName
+### <a id="VM_Managed_DAFUL_AssembledBody_ConnectableFullName"></a> ConnectableFullName
 
 Gets the full name of the connectable.
 
@@ -307,7 +307,7 @@ public string ConnectableFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectableName
+### <a id="VM_Managed_DAFUL_AssembledBody_ConnectableName"></a> ConnectableName
 
 Gets the name of the connectable.
 
@@ -319,7 +319,7 @@ public string ConnectableName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectablePosition
+### <a id="VM_Managed_DAFUL_AssembledBody_ConnectablePosition"></a> ConnectablePosition
 
 Sets the connectable position.
 
@@ -331,7 +331,7 @@ public Vector ConnectablePosition { set; }
 
  Vector
 
-### ConnectablePostfixName
+### <a id="VM_Managed_DAFUL_AssembledBody_ConnectablePostfixName"></a> ConnectablePostfixName
 
 Sets the postfix name of the connectable.
 
@@ -343,7 +343,7 @@ public string ConnectablePostfixName { set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DFMFPath
+### <a id="VM_Managed_DAFUL_AssembledBody_DFMFPath"></a> DFMFPath
 
 Gets or sets the DFMF file path.
 
@@ -355,7 +355,7 @@ public string DFMFPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Geometry
+### <a id="VM_Managed_DAFUL_AssembledBody_Geometry"></a> Geometry
 
 Gets the geometry.
 
@@ -367,7 +367,7 @@ public virtual List<Body> Geometry { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Body\>
 
-### LastModifiedTimeToDFMFFile
+### <a id="VM_Managed_DAFUL_AssembledBody_LastModifiedTimeToDFMFFile"></a> LastModifiedTimeToDFMFFile
 
 Gets or sets the last modified time to DFMF file.
 
@@ -379,7 +379,7 @@ public string LastModifiedTimeToDFMFFile { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ModalReferencePosition
+### <a id="VM_Managed_DAFUL_AssembledBody_ModalReferencePosition"></a> ModalReferencePosition
 
 Gets or sets the modal reference modal.
 
@@ -391,7 +391,7 @@ public PointBase ModalReferencePosition { get; set; }
 
  PointBase
 
-### ModeArray
+### <a id="VM_Managed_DAFUL_AssembledBody_ModeArray"></a> ModeArray
 
 Gets or sets the modes.
 
@@ -403,7 +403,7 @@ public ModeForMFModal[] ModeArray { get; set; }
 
  [ModeForMFModal](VM.Managed.DAFUL.ModeForMFModal.md)\[\]
 
-### MovingReferenceFrame
+### <a id="VM_Managed_DAFUL_AssembledBody_MovingReferenceFrame"></a> MovingReferenceFrame
 
 Gets or sets the moving reference frame.
 
@@ -415,7 +415,7 @@ public IMarker MovingReferenceFrame { get; set; }
 
  IMarker
 
-### ParentType
+### <a id="VM_Managed_DAFUL_AssembledBody_ParentType"></a> ParentType
 
 Gets the type of the parent.
 
@@ -427,7 +427,7 @@ public MarkerParentType ParentType { get; }
 
  [MarkerParentType](VM.Managed.DAFUL.MarkerParentType.md)
 
-### PropertyOfAssembledBody
+### <a id="VM_Managed_DAFUL_AssembledBody_PropertyOfAssembledBody"></a> PropertyOfAssembledBody
 
 Gets or sets the property of assembled body.
 
@@ -439,7 +439,7 @@ public AssembledBodyProperty PropertyOfAssembledBody { get; set; }
 
  [AssembledBodyProperty](VM.Managed.DAFUL.AssembledBodyProperty.md)
 
-### ReferenceFrameType
+### <a id="VM_Managed_DAFUL_AssembledBody_ReferenceFrameType"></a> ReferenceFrameType
 
 Gets the type of the reference frame.
 
@@ -451,7 +451,7 @@ public MarkerReferenceFrameType ReferenceFrameType { get; }
 
  [MarkerReferenceFrameType](VM.Managed.DAFUL.MarkerReferenceFrameType.md)
 
-### TopologyEntityTypeName
+### <a id="VM_Managed_DAFUL_AssembledBody_TopologyEntityTypeName"></a> TopologyEntityTypeName
 
 Gets the topology entity type name
 
@@ -463,7 +463,7 @@ public override string TopologyEntityTypeName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UseAdvancedOption
+### <a id="VM_Managed_DAFUL_AssembledBody_UseAdvancedOption"></a> UseAdvancedOption
 
 Gets or sets use advanced option.
 
@@ -475,7 +475,7 @@ public bool UseAdvancedOption { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseModalReferencePosition
+### <a id="VM_Managed_DAFUL_AssembledBody_UseModalReferencePosition"></a> UseModalReferencePosition
 
 Gets or sets use modal reference modal.
 
@@ -487,7 +487,7 @@ public bool UseModalReferencePosition { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseRMovingReferenceFrame
+### <a id="VM_Managed_DAFUL_AssembledBody_UseRMovingReferenceFrame"></a> UseRMovingReferenceFrame
 
 Gets or sets use rotational modal reference modal.
 
@@ -499,7 +499,7 @@ public bool UseRMovingReferenceFrame { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseTMovingReferenceFrame
+### <a id="VM_Managed_DAFUL_AssembledBody_UseTMovingReferenceFrame"></a> UseTMovingReferenceFrame
 
 Gets or sets use translational modal reference modal.
 
@@ -511,7 +511,7 @@ public bool UseTMovingReferenceFrame { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### \_MovingReferenceFrame
+### <a id="VM_Managed_DAFUL_AssembledBody__MovingReferenceFrame"></a> \_MovingReferenceFrame
 
 Gets or sets the moving reference frame.
 
@@ -525,7 +525,7 @@ public Linker<IMarker> _MovingReferenceFrame { get; set; }
 
 ## Methods
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_AssembledBody_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -545,7 +545,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_AssembledBody_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -565,7 +565,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetArgumentList\(LinkedList<ObjectBase\>\)
+### <a id="VM_Managed_DAFUL_AssembledBody_GetArgumentList_System_Collections_Generic_LinkedList_VM_Managed_ObjectBase__"></a> GetArgumentList\(LinkedList<ObjectBase\>\)
 
 Get argument object list.
 
@@ -579,7 +579,7 @@ public override void GetArgumentList(LinkedList<ObjectBase> lstObj)
 
 The argument object list.
 
-### GetBuilder\(\)
+### <a id="VM_Managed_DAFUL_AssembledBody_GetBuilder"></a> GetBuilder\(\)
 
 Gets the geometry.
 
@@ -593,7 +593,7 @@ public ObjectBase[] GetBuilder()
 
 geometry container
 
-### GetChildListImpl\(\)
+### <a id="VM_Managed_DAFUL_AssembledBody_GetChildListImpl"></a> GetChildListImpl\(\)
 
 Get all children of the object
 
@@ -607,7 +607,7 @@ protected override IEnumerable<ObjectBase> GetChildListImpl()
 
 All children
 
-### GetGeneralMarkerInfo\(XmlDocument, XmlElement, Marker\)
+### <a id="VM_Managed_DAFUL_AssembledBody_GetGeneralMarkerInfo_System_Xml_XmlDocument_System_Xml_XmlElement_VM_Managed_DAFUL_Marker_"></a> GetGeneralMarkerInfo\(XmlDocument, XmlElement, Marker\)
 
 Gets the marker information for model navigator.
 
@@ -635,7 +635,7 @@ The marker.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
+### <a id="VM_Managed_DAFUL_AssembledBody_GetGeometryNavigatorInformation_System_Xml_XmlDocument_System_Xml_XmlElement_"></a> GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
 
 Gets the geometry information for model navigator.
 
@@ -659,7 +659,7 @@ The XmlElement for geometry.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetLayerImpl\(\)
+### <a id="VM_Managed_DAFUL_AssembledBody_GetLayerImpl"></a> GetLayerImpl\(\)
 
 Gets the layer [implementation].
 
@@ -673,7 +673,7 @@ protected override Layer GetLayerImpl()
 
 The layer
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_AssembledBody_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -701,7 +701,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetNewEntityName\(string\)
+### <a id="VM_Managed_DAFUL_AssembledBody_GetNewEntityName_System_String_"></a> GetNewEntityName\(string\)
 
 Gets the new name of the entity [Not Implemented].
 
@@ -721,7 +721,7 @@ The prefix.
 
 The new name
 
-### GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
+### <a id="VM_Managed_DAFUL_AssembledBody_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the geometry's point and direction.
 
@@ -749,7 +749,7 @@ The reference [no use].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPredefinedMarkerInfo\(XmlDocument, XmlElement, ReferencePartMarker\)
+### <a id="VM_Managed_DAFUL_AssembledBody_GetPredefinedMarkerInfo_System_Xml_XmlDocument_System_Xml_XmlElement_VM_Managed_DAFUL_ReferencePartMarker_"></a> GetPredefinedMarkerInfo\(XmlDocument, XmlElement, ReferencePartMarker\)
 
 Gets the marker information for model navigator.
 
@@ -777,7 +777,7 @@ The marker.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetTargetListForUpdate\(\)
+### <a id="VM_Managed_DAFUL_AssembledBody_GetTargetListForUpdate"></a> GetTargetListForUpdate\(\)
 
 Gets the update objects.
 
@@ -789,7 +789,7 @@ public override List<IEventProvider> GetTargetListForUpdate()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<IEventProvider\>
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_AssembledBody_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -809,7 +809,7 @@ The ob unnamed.
 
 The unnamed object name.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_AssembledBody_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -823,7 +823,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_AssembledBody_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -841,7 +841,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_AssembledBody_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -859,7 +859,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### MakeReferenceImpl\(LinkedList<Reference\>\)
+### <a id="VM_Managed_DAFUL_AssembledBody_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
 
 Makes the reference [implementation].
 
@@ -873,7 +873,7 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 The container.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_AssembledBody_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -887,7 +887,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### Redraw\(\)
+### <a id="VM_Managed_DAFUL_AssembledBody_Redraw"></a> Redraw\(\)
 
 Redraw.
 
@@ -895,7 +895,7 @@ Redraw.
 public override void Redraw()
 ```
 
-### SetLayerImpl\(Layer\)
+### <a id="VM_Managed_DAFUL_AssembledBody_SetLayerImpl_VM_Managed_Layer_"></a> SetLayerImpl\(Layer\)
 
 Sets the layer [implementation].
 
@@ -909,7 +909,7 @@ protected override void SetLayerImpl(Layer layer)
 
 The layer.
 
-### TransformImpl\(TMatrix\)
+### <a id="VM_Managed_DAFUL_AssembledBody_TransformImpl_VM_Managed_TMatrix_"></a> TransformImpl\(TMatrix\)
 
 Transforms [implementation].
 
@@ -922,5 +922,4 @@ protected override void TransformImpl(TMatrix matT)
 `matT` TMatrix
 
 The mat T.
-
 

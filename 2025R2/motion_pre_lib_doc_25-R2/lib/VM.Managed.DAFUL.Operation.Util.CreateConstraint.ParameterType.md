@@ -1,4 +1,4 @@
-# Enum CreateConstraint.ParameterType
+#  Enum CreateConstraint.ParameterType
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -32,7 +32,6 @@ Point Orientation
 `PointPoint = 2` 
 
 Point Point
-
 
 
 

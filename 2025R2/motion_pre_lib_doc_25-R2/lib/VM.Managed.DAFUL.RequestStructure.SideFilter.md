@@ -1,4 +1,4 @@
-# Enum RequestStructure.SideFilter
+#  Enum RequestStructure.SideFilter
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -20,7 +20,6 @@ The average
 `Maximum = 0` 
 
 The maximum
-
 
 
 

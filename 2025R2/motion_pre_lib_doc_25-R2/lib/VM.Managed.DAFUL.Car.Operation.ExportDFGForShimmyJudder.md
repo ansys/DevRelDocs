@@ -1,4 +1,4 @@
-# Class ExportDFGForShimmyJudder
+#  Class ExportDFGForShimmyJudder
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -104,7 +104,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ExportDFGForShimmyJudder\(Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFGForShimmyJudder__ctor_VM_Managed_Document_"></a> ExportDFGForShimmyJudder\(Document\)
 
 ```csharp
 public ExportDFGForShimmyJudder(Document doc)
@@ -114,7 +114,7 @@ public ExportDFGForShimmyJudder(Document doc)
 
 `doc` Document
 
-### ExportDFGForShimmyJudder\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFGForShimmyJudder__ctor_VM_Managed_Operation_JournalParameter_"></a> ExportDFGForShimmyJudder\(JournalParameter\)
 
 ```csharp
 public ExportDFGForShimmyJudder(JournalParameter jp)
@@ -126,7 +126,7 @@ public ExportDFGForShimmyJudder(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFGForShimmyJudder_Name"></a> Name
 
 Gets the operation name.
 
@@ -140,10 +140,9 @@ public override string Name { get; }
 
 ## Methods
 
-### ExportDFGImpl\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ExportDFGForShimmyJudder_ExportDFGImpl"></a> ExportDFGImpl\(\)
 
 ```csharp
 protected override void ExportDFGImpl()
 ```
-
 

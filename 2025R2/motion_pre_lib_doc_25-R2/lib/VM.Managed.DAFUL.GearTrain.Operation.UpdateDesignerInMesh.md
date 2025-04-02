@@ -1,4 +1,4 @@
-# Class UpdateDesignerInMesh
+#  Class UpdateDesignerInMesh
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -84,7 +84,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdateDesignerInMesh\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateDesignerInMesh__ctor"></a> UpdateDesignerInMesh\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateDesignerInMesh" data-throw-if-not-resolved="false"></xref> class.
 
@@ -92,7 +92,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operati
 public UpdateDesignerInMesh()
 ```
 
-### UpdateDesignerInMesh\(Document3D\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateDesignerInMesh__ctor_VM_Managed_Document3D_"></a> UpdateDesignerInMesh\(Document3D\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateDesignerInMesh" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public UpdateDesignerInMesh(Document3D document3D)
 
 The document.
 
-### UpdateDesignerInMesh\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateDesignerInMesh__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateDesignerInMesh\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateDesignerInMesh" data-throw-if-not-resolved="false"></xref> class.
 
@@ -122,7 +122,7 @@ The jp.
 
 ## Fields
 
-### m\_MeshEntity
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateDesignerInMesh_m_MeshEntity"></a> m\_MeshEntity
 
 The mesh entity
 
@@ -134,7 +134,7 @@ protected object m_MeshEntity
 
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### m\_hiddenDoc
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateDesignerInMesh_m_hiddenDoc"></a> m\_hiddenDoc
 
 The hidden document
 
@@ -148,7 +148,7 @@ protected HiddenDocumentMeshBase m_hiddenDoc
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateDesignerInMesh_Name"></a> Name
 
 Gets the operation name.
 
@@ -162,7 +162,7 @@ public override string Name { get; }
 
 ## Methods
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateDesignerInMesh_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -175,5 +175,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

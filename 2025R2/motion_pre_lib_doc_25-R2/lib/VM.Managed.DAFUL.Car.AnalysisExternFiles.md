@@ -1,4 +1,4 @@
-# Class AnalysisExternFiles
+#  Class AnalysisExternFiles
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -34,7 +34,7 @@ public class AnalysisExternFiles : AnalysisBase
 
 ## Constructors
 
-### AnalysisExternFiles\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisExternFiles__ctor"></a> AnalysisExternFiles\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisExternFiles" data-throw-if-not-resolved="false"></xref> class.
 
@@ -42,7 +42,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisExter
 public AnalysisExternFiles()
 ```
 
-### AnalysisExternFiles\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisExternFiles__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisExternFiles\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisExternFiles" data-throw-if-not-resolved="false"></xref> class.
 
@@ -58,7 +58,7 @@ The link container.
 
 ## Properties
 
-### FileTypeOfExtern
+### <a id="VM_Managed_DAFUL_Car_AnalysisExternFiles_FileTypeOfExtern"></a> FileTypeOfExtern
 
 Gets or sets the type of the file.
 
@@ -70,7 +70,7 @@ public AnalysisExternFiles.ExternFileType FileTypeOfExtern { get; set; }
 
  [AnalysisExternFiles](VM.Managed.DAFUL.Car.AnalysisExternFiles.md).[ExternFileType](VM.Managed.DAFUL.Car.AnalysisExternFiles.ExternFileType.md)
 
-### Files
+### <a id="VM_Managed_DAFUL_Car_AnalysisExternFiles_Files"></a> Files
 
 Gets or sets the file contents.
 
@@ -82,7 +82,7 @@ public string[] Files { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### LoadAnalyResults
+### <a id="VM_Managed_DAFUL_Car_AnalysisExternFiles_LoadAnalyResults"></a> LoadAnalyResults
 
 Gets or sets a value indicating whether load analysis results.
 
@@ -93,5 +93,4 @@ public bool LoadAnalyResults { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

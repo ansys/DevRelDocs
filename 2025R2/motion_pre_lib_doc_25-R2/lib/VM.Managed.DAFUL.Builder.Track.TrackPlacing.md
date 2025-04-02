@@ -1,4 +1,4 @@
-# Class TrackPlacing
+#  Class TrackPlacing
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -53,7 +53,7 @@ BuilderBase<TrackPlacing\>.ErrorMessage
 
 ## Constructors
 
-### TrackPlacing\(\)
+### <a id="VM_Managed_DAFUL_Builder_Track_TrackPlacing__ctor"></a> TrackPlacing\(\)
 
 ```csharp
 public TrackPlacing()
@@ -61,7 +61,7 @@ public TrackPlacing()
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Track_TrackPlacing_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -76,5 +76,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

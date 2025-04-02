@@ -1,4 +1,4 @@
-# Class AnalysisStaticLoad.CorneringForce
+#  Class AnalysisStaticLoad.CorneringForce
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -31,7 +31,7 @@ public class AnalysisStaticLoad.CorneringForce : AnalysisStaticLoad.StaticRoadBa
 
 ## Constructors
 
-### CorneringForce\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_CorneringForce__ctor"></a> CorneringForce\(\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.CorneringForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.CorneringFor
 public CorneringForce()
 ```
 
-### CorneringForce\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_CorneringForce__ctor_VM_Models_Pre_ILinkContainer_"></a> CorneringForce\(ILinkContainer\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.CorneringForce" data-throw-if-not-resolved="false"></xref> class.
 
@@ -52,5 +52,4 @@ public CorneringForce(ILinkContainer lnkContainer)
 `lnkContainer` ILinkContainer
 
 The link container.
-
 

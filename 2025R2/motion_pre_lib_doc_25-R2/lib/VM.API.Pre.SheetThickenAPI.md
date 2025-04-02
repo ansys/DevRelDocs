@@ -1,4 +1,4 @@
-# Class SheetThickenAPI
+#  Class SheetThickenAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class SheetThickenAPI
 
 ## Methods
 
-### GenerateSolidFromSheet\(IDocument, IEnumerable<Obj\>, ExpressionValueVariable?, DirectionType\)
+### <a id="VM_API_Pre_SheetThickenAPI_GenerateSolidFromSheet_VM_Models_Pre_IDocument_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_Managed_CAD_BuilderSheetThicken_DirectionType_"></a> GenerateSolidFromSheet\(IDocument, IEnumerable<Obj\>, ExpressionValueVariable?, DirectionType\)
 
 ```csharp
 [NotNull(new string[] { "document", "sheets" })]
@@ -38,5 +38,4 @@ public static void GenerateSolidFromSheet(this IDocument document, IEnumerable<O
 `thickness` ExpressionValueVariable?
 
 `direction` BuilderSheetThicken.DirectionType
-
 

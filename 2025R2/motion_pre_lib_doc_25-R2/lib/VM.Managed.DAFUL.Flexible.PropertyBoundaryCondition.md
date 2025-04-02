@@ -1,4 +1,4 @@
-# Class PropertyBoundaryCondition
+#  Class PropertyBoundaryCondition
 
 Namespace: [VM.Managed.DAFUL.Flexible](VM.Managed.DAFUL.Flexible.md)  
 Assembly: VMFlexibleBase.dll  
@@ -183,7 +183,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyBoundaryCondition\(\)
+### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryCondition__ctor"></a> PropertyBoundaryCondition\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.PropertyBoundaryCondition" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -192,5 +192,4 @@ ObservableObject.PropertyChanged
 ```csharp
 public PropertyBoundaryCondition()
 ```
-
 

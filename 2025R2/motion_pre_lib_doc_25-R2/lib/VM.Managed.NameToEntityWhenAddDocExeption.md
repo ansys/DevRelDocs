@@ -1,4 +1,4 @@
-# Class NameToEntityWhenAddDocExeption
+#  Class NameToEntityWhenAddDocExeption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class NameToEntityWhenAddDocExeption : Exception
 
 ## Constructors
 
-### NameToEntityWhenAddDocExeption\(string\)
+### <a id="VM_Managed_NameToEntityWhenAddDocExeption__ctor_System_String_"></a> NameToEntityWhenAddDocExeption\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.NameToEntityWhenAddDocExeption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,5 +36,4 @@ public NameToEntityWhenAddDocExeption(string strMessage)
 `strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The error message.
-
 

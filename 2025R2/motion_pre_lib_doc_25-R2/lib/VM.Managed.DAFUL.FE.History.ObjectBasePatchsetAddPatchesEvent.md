@@ -1,4 +1,4 @@
-# Class ObjectBasePatchsetAddPatchesEvent
+#  Class ObjectBasePatchsetAddPatchesEvent
 
 Namespace: [VM.Managed.DAFUL.FE.History](VM.Managed.DAFUL.FE.History.md)  
 Assembly: VMFE.dll  
@@ -44,7 +44,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### ObjectBasePatchsetAddPatchesEvent\(object, ICollection<Patch\>\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBasePatchsetAddPatchesEvent__ctor_System_Object_System_Collections_Generic_ICollection_VM_Managed_DAFUL_FE_Patch__"></a> ObjectBasePatchsetAddPatchesEvent\(object, ICollection<Patch\>\)
 
 ```csharp
 public ObjectBasePatchsetAddPatchesEvent(object obOriginal, ICollection<Patch> patches)
@@ -58,7 +58,7 @@ public ObjectBasePatchsetAddPatchesEvent(object obOriginal, ICollection<Patch> p
 
 ## Methods
 
-### Redo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBasePatchsetAddPatchesEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
 
 ```csharp
 public override void Redo(HistoryEventArgs args)
@@ -68,7 +68,7 @@ public override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### Undo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_FE_History_ObjectBasePatchsetAddPatchesEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
 
 ```csharp
 public override void Undo(HistoryEventArgs args)
@@ -77,5 +77,4 @@ public override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
-
 

@@ -1,4 +1,4 @@
-# Class Clearance
+#  Class Clearance
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -27,7 +27,7 @@ public class Clearance
 
 ## Constructors
 
-### Clearance\(\)
+### <a id="VM_API_Pre_Clearance__ctor"></a> Clearance\(\)
 
 Default constructor
 
@@ -35,7 +35,7 @@ Default constructor
 public Clearance()
 ```
 
-### Clearance\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, bool\)
+### <a id="VM_API_Pre_Clearance__ctor_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_Boolean_"></a> Clearance\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, bool\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.Clearance" data-throw-if-not-resolved="false"></xref> class.
 
@@ -63,7 +63,7 @@ The use damping effect in void.
 
 ## Properties
 
-### ExponentOfPenetration
+### <a id="VM_API_Pre_Clearance_ExponentOfPenetration"></a> ExponentOfPenetration
 
 The value for the exponent of penetration. The default value is 1.5.
 
@@ -75,7 +75,7 @@ public ExpressionValueVariable ExponentOfPenetration { get; set; }
 
  ExpressionValueVariable
 
-### MaxDampingCoefficient
+### <a id="VM_API_Pre_Clearance_MaxDampingCoefficient"></a> MaxDampingCoefficient
 
 The value for the max damping coefficient. The default value is 10.
 
@@ -87,7 +87,7 @@ public ExpressionValueVariable MaxDampingCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### StiffnessCoefficient
+### <a id="VM_API_Pre_Clearance_StiffnessCoefficient"></a> StiffnessCoefficient
 
 The value for the stiffness coefficient. The default value is 350000.
 
@@ -99,7 +99,7 @@ public ExpressionValueVariable StiffnessCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### UseDampingEffectInVoid
+### <a id="VM_API_Pre_Clearance_UseDampingEffectInVoid"></a> UseDampingEffectInVoid
 
 The value for the use damping effect in void. The default value is 'true'.
 
@@ -110,5 +110,4 @@ public bool UseDampingEffectInVoid { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

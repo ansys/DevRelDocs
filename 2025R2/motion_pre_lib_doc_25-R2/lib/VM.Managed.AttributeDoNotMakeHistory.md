@@ -1,4 +1,4 @@
-# Class AttributeDoNotMakeHistory
+#  Class AttributeDoNotMakeHistory
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -99,12 +99,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeDoNotMakeHistory\(\)
+### <a id="VM_Managed_AttributeDoNotMakeHistory__ctor"></a> AttributeDoNotMakeHistory\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeDoNotMakeHistory" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public AttributeDoNotMakeHistory()
 ```
-
 

@@ -1,4 +1,4 @@
-# Interface IEventProvider
+#  Interface IEventProvider
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface IEventProvider
 
 ## Properties
 
-### IsChildExternable
+### <a id="VM_Models_Pre_IEventProvider_IsChildExternable"></a> IsChildExternable
 
 Gets a value indicating whether this instance's child is Externable.
 
@@ -29,7 +29,7 @@ bool IsChildExternable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsExternable
+### <a id="VM_Models_Pre_IEventProvider_IsExternable"></a> IsExternable
 
 Gets a value indicating whether this instance is Externable.
 
@@ -43,7 +43,7 @@ bool IsExternable { get; }
 
 ## Methods
 
-### GetTargetListForUpdate\(\)
+### <a id="VM_Models_Pre_IEventProvider_GetTargetListForUpdate"></a> GetTargetListForUpdate\(\)
 
 Gets a updated objects.
 
@@ -55,7 +55,7 @@ List<IEventProvider> GetTargetListForUpdate()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[IEventProvider](VM.Models.Pre.IEventProvider.md)\>
 
-### IsSerializable\(Delegate\)
+### <a id="VM_Models_Pre_IEventProvider_IsSerializable_System_Delegate_"></a> IsSerializable\(Delegate\)
 
 Gets a value indicating whether this instance's event is serializable.
 
@@ -73,7 +73,7 @@ The delegate.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SkipUpdateObject\(\)
+### <a id="VM_Models_Pre_IEventProvider_SkipUpdateObject"></a> SkipUpdateObject\(\)
 
 Skip the object that updated.
 
@@ -84,5 +84,4 @@ bool SkipUpdateObject()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

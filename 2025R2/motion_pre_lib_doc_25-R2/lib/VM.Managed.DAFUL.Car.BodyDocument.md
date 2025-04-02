@@ -1,4 +1,4 @@
-# Class BodyDocument
+#  Class BodyDocument
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -574,7 +574,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BodyDocument\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_Car_BodyDocument__ctor_System_UIntPtr_"></a> BodyDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.BodyDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -590,7 +590,7 @@ The document handle.
 
 ## Properties
 
-### InitialCategories
+### <a id="VM_Managed_DAFUL_Car_BodyDocument_InitialCategories"></a> InitialCategories
 
 Gets the initial categories.
 
@@ -602,7 +602,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### Interfaces
+### <a id="VM_Managed_DAFUL_Car_BodyDocument_Interfaces"></a> Interfaces
 
 Gets the interfaces.
 
@@ -614,7 +614,7 @@ protected override InterfaceManager Interfaces { get; }
 
  InterfaceManager
 
-### MinorRoleType
+### <a id="VM_Managed_DAFUL_Car_BodyDocument_MinorRoleType"></a> MinorRoleType
 
 Gets or sets the type of the minor role.
 
@@ -628,7 +628,7 @@ public MinorRole MinorRoleType { get; set; }
 
 ## Methods
 
-### ClearDocument\(\)
+### <a id="VM_Managed_DAFUL_Car_BodyDocument_ClearDocument"></a> ClearDocument\(\)
 
 Clears the document.
 
@@ -636,7 +636,7 @@ Clears the document.
 protected override void ClearDocument()
 ```
 
-### FindCategory\(string\)
+### <a id="VM_Managed_DAFUL_Car_BodyDocument_FindCategory_System_String_"></a> FindCategory\(string\)
 
 Finds the category.
 
@@ -656,7 +656,7 @@ The fullname of type.
 
 The category.
 
-### InitializeCategoryInfo\(string\)
+### <a id="VM_Managed_DAFUL_Car_BodyDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
 
 Initializes the category info.
 
@@ -670,7 +670,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the STR category.
 
-### InitializeInterface\(\)
+### <a id="VM_Managed_DAFUL_Car_BodyDocument_InitializeInterface"></a> InitializeInterface\(\)
 
 Initializes the interface.
 
@@ -678,7 +678,7 @@ Initializes the interface.
 protected override void InitializeInterface()
 ```
 
-### InitializeSimParam\(\)
+### <a id="VM_Managed_DAFUL_Car_BodyDocument_InitializeSimParam"></a> InitializeSimParam\(\)
 
 Initializes the simulation parameter.
 
@@ -686,7 +686,7 @@ Initializes the simulation parameter.
 protected override void InitializeSimParam()
 ```
 
-### LoadTemplateBasedXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Car_BodyDocument_LoadTemplateBasedXml_System_Xml_XmlReader_"></a> LoadTemplateBasedXml\(XmlReader\)
 
 Loads the XML for template based document.
 
@@ -700,7 +700,7 @@ protected override void LoadTemplateBasedXml(XmlReader reader)
 
 The reader.
 
-### SaveTemplateBasedXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Car_BodyDocument_SaveTemplateBasedXml_System_Xml_XmlWriter_"></a> SaveTemplateBasedXml\(XmlWriter\)
 
 Saves the XML for template based document.
 
@@ -713,5 +713,4 @@ protected override void SaveTemplateBasedXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

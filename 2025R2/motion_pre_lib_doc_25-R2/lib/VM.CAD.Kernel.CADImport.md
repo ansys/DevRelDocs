@@ -1,4 +1,4 @@
-# Class CADImport
+#  Class CADImport
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -22,7 +22,7 @@ public static class CADImport
 
 ## Methods
 
-### GetTranslateFilter\(\)
+### <a id="VM_CAD_Kernel_CADImport_GetTranslateFilter"></a> GetTranslateFilter\(\)
 
 Gets the Translate filter for CADImport.
 
@@ -35,5 +35,4 @@ public static string GetTranslateFilter()
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The filter for CADImport
-
 

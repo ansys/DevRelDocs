@@ -1,4 +1,4 @@
-# Class SetMassPropertyOperation
+#  Class SetMassPropertyOperation
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -77,13 +77,13 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### SetMassPropertyOperation\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_SetMassPropertyOperation__ctor"></a> SetMassPropertyOperation\(\)
 
 ```csharp
 public SetMassPropertyOperation()
 ```
 
-### SetMassPropertyOperation\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_SetMassPropertyOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> SetMassPropertyOperation\(JournalParameter\)
 
 ```csharp
 public SetMassPropertyOperation(JournalParameter jp)
@@ -95,7 +95,7 @@ public SetMassPropertyOperation(JournalParameter jp)
 
 ## Fields
 
-### m\_arAdjustTensor
+### <a id="VM_Managed_DAFUL_Car_Operation_SetMassPropertyOperation_m_arAdjustTensor"></a> m\_arAdjustTensor
 
 ```csharp
 public double[] m_arAdjustTensor
@@ -105,7 +105,7 @@ public double[] m_arAdjustTensor
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### m\_dAdjustMass
+### <a id="VM_Managed_DAFUL_Car_Operation_SetMassPropertyOperation_m_dAdjustMass"></a> m\_dAdjustMass
 
 ```csharp
 public double m_dAdjustMass
@@ -115,7 +115,7 @@ public double m_dAdjustMass
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_iMassProp
+### <a id="VM_Managed_DAFUL_Car_Operation_SetMassPropertyOperation_m_iMassProp"></a> m\_iMassProp
 
 ```csharp
 public IMassProp m_iMassProp
@@ -125,7 +125,7 @@ public IMassProp m_iMassProp
 
  IMassProp
 
-### m\_matOrientation
+### <a id="VM_Managed_DAFUL_Car_Operation_SetMassPropertyOperation_m_matOrientation"></a> m\_matOrientation
 
 ```csharp
 public OMatrix m_matOrientation
@@ -135,7 +135,7 @@ public OMatrix m_matOrientation
 
  OMatrix
 
-### m\_vecAdjustPos
+### <a id="VM_Managed_DAFUL_Car_Operation_SetMassPropertyOperation_m_vecAdjustPos"></a> m\_vecAdjustPos
 
 ```csharp
 public VectorBase m_vecAdjustPos
@@ -147,7 +147,7 @@ public VectorBase m_vecAdjustPos
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_SetMassPropertyOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -161,7 +161,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_SetMassPropertyOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -169,7 +169,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_SetMassPropertyOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -178,5 +178,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

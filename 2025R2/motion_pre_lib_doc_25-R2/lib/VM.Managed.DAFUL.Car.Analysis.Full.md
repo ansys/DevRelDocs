@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Car.Analysis.Full
+#  Namespace VM.Managed.DAFUL.Car.Analysis.Full
 
 ### Enums
 
@@ -41,5 +41,4 @@ Specifies type for a loop.
  [TurnDirectionType](VM.Managed.DAFUL.Car.Analysis.Full.TurnDirectionType.md)
 
 Specifies type for a [turn direction].
-
 

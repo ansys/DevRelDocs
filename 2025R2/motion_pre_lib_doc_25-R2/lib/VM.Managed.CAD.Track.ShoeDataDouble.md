@@ -1,4 +1,4 @@
-# Class ShoeDataDouble
+#  Class ShoeDataDouble
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -128,7 +128,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ShoeDataDouble\(\)
+### <a id="VM_Managed_CAD_Track_ShoeDataDouble__ctor"></a> ShoeDataDouble\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataDouble" data-throw-if-not-resolved="false"></xref> class.
 
@@ -136,7 +136,7 @@ Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataDoubl
 public ShoeDataDouble()
 ```
 
-### ShoeDataDouble\(IOwned\)
+### <a id="VM_Managed_CAD_Track_ShoeDataDouble__ctor_VM_Models_Pre_IOwned_"></a> ShoeDataDouble\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.ShoeDataDouble" data-throw-if-not-resolved="false"></xref> class.
 
@@ -152,7 +152,7 @@ The owner object.
 
 ## Properties
 
-### SecondGH
+### <a id="VM_Managed_CAD_Track_ShoeDataDouble_SecondGH"></a> SecondGH
 
 Gets and sets height of second grouser .
 
@@ -164,7 +164,7 @@ public ExpressionValueVariable SecondGH { get; set; }
 
  ExpressionValueVariable
 
-### SecondGLW
+### <a id="VM_Managed_CAD_Track_ShoeDataDouble_SecondGLW"></a> SecondGLW
 
 Gets and sets lower width of second grouser.
 
@@ -176,7 +176,7 @@ public ExpressionValueVariable SecondGLW { get; set; }
 
  ExpressionValueVariable
 
-### SecondGUW
+### <a id="VM_Managed_CAD_Track_ShoeDataDouble_SecondGUW"></a> SecondGUW
 
 Gets and sets upper width of second grouser
 
@@ -188,7 +188,7 @@ public ExpressionValueVariable SecondGUW { get; set; }
 
  ExpressionValueVariable
 
-### ShoeDistance2
+### <a id="VM_Managed_CAD_Track_ShoeDataDouble_ShoeDistance2"></a> ShoeDistance2
 
 Gets and sets longitudinal distance from reference position to second grouser center.
 
@@ -200,7 +200,7 @@ public ExpressionValueVariable ShoeDistance2 { get; set; }
 
  ExpressionValueVariable
 
-### TailHeight
+### <a id="VM_Managed_CAD_Track_ShoeDataDouble_TailHeight"></a> TailHeight
 
 Gets and sets height of tail.
 
@@ -214,7 +214,7 @@ public ExpressionValueVariable TailHeight { get; set; }
 
 ## Methods
 
-### GetPoints\_XYPlane\(\)
+### <a id="VM_Managed_CAD_Track_ShoeDataDouble_GetPoints_XYPlane"></a> GetPoints\_XYPlane\(\)
 
 Gets the profile data of shoe.
 
@@ -228,12 +228,11 @@ public override List<VectorBase> GetPoints_XYPlane()
 
 The Points
 
-### Validation\(\)
+### <a id="VM_Managed_CAD_Track_ShoeDataDouble_Validation"></a> Validation\(\)
 
 Checks the validation .
 
 ```csharp
 public override void Validation()
 ```
-
 

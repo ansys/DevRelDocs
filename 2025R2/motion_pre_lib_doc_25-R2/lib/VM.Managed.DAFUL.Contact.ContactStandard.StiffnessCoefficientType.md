@@ -1,4 +1,4 @@
-# Enum ContactStandard.StiffnessCoefficientType
+#  Enum ContactStandard.StiffnessCoefficientType
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -44,7 +44,6 @@ None
 `Spline = 3` 
 
 spline
-
 
 
 

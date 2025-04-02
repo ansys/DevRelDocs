@@ -1,4 +1,4 @@
-# Class CleatShape
+#  Class CleatShape
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -29,7 +29,7 @@ public abstract class CleatShape
 
 ## Constructors
 
-### CleatShape\(\)
+### <a id="VM_Managed_DAFUL_Car_CleatShape__ctor"></a> CleatShape\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CleatShape" data-throw-if-not-resolved="false"></xref> class.
 
@@ -37,7 +37,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CleatShape" d
 public CleatShape()
 ```
 
-### CleatShape\(AnalysisRideDrum\)
+### <a id="VM_Managed_DAFUL_Car_CleatShape__ctor_VM_Managed_DAFUL_Car_AnalysisRideDrum_"></a> CleatShape\(AnalysisRideDrum\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CleatShape" data-throw-if-not-resolved="false"></xref> class.
 
@@ -53,7 +53,7 @@ The ride drum.
 
 ## Properties
 
-### RideDrum
+### <a id="VM_Managed_DAFUL_Car_CleatShape_RideDrum"></a> RideDrum
 
 Gets the ride drum.
 
@@ -65,7 +65,7 @@ public AnalysisRideDrum RideDrum { get; }
 
  [AnalysisRideDrum](VM.Managed.DAFUL.Car.AnalysisRideDrum.md)
 
-### TypeOfCleatShape
+### <a id="VM_Managed_DAFUL_Car_CleatShape_TypeOfCleatShape"></a> TypeOfCleatShape
 
 Gets the type of cleat shape.
 
@@ -79,7 +79,7 @@ public abstract CleatShapeType TypeOfCleatShape { get; }
 
 ## Methods
 
-### GetXZData\(double\)
+### <a id="VM_Managed_DAFUL_Car_CleatShape_GetXZData_System_Double_"></a> GetXZData\(double\)
 
 Gets the XZ data.
 
@@ -96,5 +96,4 @@ The d end time.
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

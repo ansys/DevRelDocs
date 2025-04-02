@@ -1,4 +1,4 @@
-# Enum HighSpeedRotationOption
+#  Enum HighSpeedRotationOption
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -16,5 +16,4 @@ public enum HighSpeedRotationOption
 `ProgramControlled = -1` 
 
 `Yes = 1` 
-
 
