@@ -1,4 +1,4 @@
-# Class IInterfaceImpl
+#  Class IInterfaceImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -22,7 +22,7 @@ public class IInterfaceImpl
 
 ## Constructors
 
-### IInterfaceImpl\(\)
+### <a id="VM_Managed_IInterfaceImpl__ctor"></a> IInterfaceImpl\(\)
 
 ```csharp
 public IInterfaceImpl()
@@ -30,7 +30,7 @@ public IInterfaceImpl()
 
 ## Methods
 
-### IsInterface\(IInterface\)
+### <a id="VM_Managed_IInterfaceImpl_IsInterface_VM_Managed_IInterface_"></a> IsInterface\(IInterface\)
 
 Determines whether the specified object is interface.
 
@@ -50,7 +50,7 @@ The object.
 
 <code>true</code> if the specified object is interface; otherwise, <code>false</code>.
 
-### SetInterface\(IInterface, bool\)
+### <a id="VM_Managed_IInterfaceImpl_SetInterface_VM_Managed_IInterface_System_Boolean_"></a> SetInterface\(IInterface, bool\)
 
 Sets the interface.
 
@@ -67,5 +67,4 @@ The object.
 `bSet` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> interface.
-
 

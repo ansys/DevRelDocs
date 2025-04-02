@@ -1,4 +1,4 @@
-# Class PropertyTieBase
+#  Class PropertyTieBase
 
 Namespace: [VM.Managed.DAFUL.Flexible.Contact](VM.Managed.DAFUL.Flexible.Contact.md)  
 Assembly: VMFlexibleBase.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyTieBase\(\)
+### <a id="VM_Managed_DAFUL_Flexible_Contact_PropertyTieBase__ctor"></a> PropertyTieBase\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.PropertyTieBase" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -181,7 +181,7 @@ public PropertyTieBase()
 
 ## Properties
 
-### PenaltyScale
+### <a id="VM_Managed_DAFUL_Flexible_Contact_PropertyTieBase_PenaltyScale"></a> PenaltyScale
 
 <p>Gets or sets the penalty scale.</p>
 <p>페날티 스케일을 가져오거나 넣어줍니다.</p>
@@ -212,7 +212,7 @@ public ExpressionValueVariable PenaltyScale { get; set; }
 
  ExpressionValueVariable
 
-### UseGap
+### <a id="VM_Managed_DAFUL_Flexible_Contact_PropertyTieBase_UseGap"></a> UseGap
 
 <p>Gets or sets a value indicating whether [use gap].</p>
 <p>갭의 사용여부를 가져오거나 넣어줍니다.</p>
@@ -243,7 +243,7 @@ public bool UseGap { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseSlidingTie
+### <a id="VM_Managed_DAFUL_Flexible_Contact_PropertyTieBase_UseSlidingTie"></a> UseSlidingTie
 
 <p>Gets or sets a value indicating whether [use sliding tie].</p>
 <p>슬라이딩 타이의 사용여부를 가져오거나 넣어줍니다.</p>
@@ -276,7 +276,7 @@ public bool UseSlidingTie { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Flexible_Contact_PropertyTieBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 <p>Initializes member through unit convert factor.</p>
 <p>단위 변화 팩터를 이용하여 필드를 초기화 해줍니다.</p>
@@ -291,5 +291,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 <p>The unit convert factor.</p>
 <p>단위 변환 팩터.</p>
-
 

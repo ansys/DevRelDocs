@@ -1,4 +1,4 @@
-# Interface IEnableForSimulationScenario
+#  Interface IEnableForSimulationScenario
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -17,7 +17,7 @@ public interface IEnableForSimulationScenario
 
 ## Properties
 
-### TargetType
+### <a id="VM_Managed_IEnableForSimulationScenario_TargetType"></a> TargetType
 
 Gets the type of the target.
 
@@ -29,7 +29,7 @@ string TargetType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Use
+### <a id="VM_Managed_IEnableForSimulationScenario_Use"></a> Use
 
 Gets a value indicating whether use this instance.
 
@@ -40,5 +40,4 @@ bool Use { get; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

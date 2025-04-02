@@ -1,4 +1,4 @@
-# Class AttributeAccuracyForMassCalculate
+#  Class AttributeAccuracyForMassCalculate
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeAccuracyForMassCalculate\(double\)
+### <a id="VM_Managed_CAD_AttributeAccuracyForMassCalculate__ctor_System_Double_"></a> AttributeAccuracyForMassCalculate\(double\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.AttributeAccuracyForMassCalculate" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public AttributeAccuracyForMassCalculate(double dAccuracy)
 
 The accuracy.
 
-### AttributeAccuracyForMassCalculate\(\)
+### <a id="VM_Managed_CAD_AttributeAccuracyForMassCalculate__ctor"></a> AttributeAccuracyForMassCalculate\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.AttributeAccuracyForMassCalculate" data-throw-if-not-resolved="false"></xref> class.
 
@@ -123,7 +123,7 @@ public AttributeAccuracyForMassCalculate()
 
 ## Properties
 
-### Accuracy
+### <a id="VM_Managed_CAD_AttributeAccuracyForMassCalculate_Accuracy"></a> Accuracy
 
 Gets or sets the accuracy.
 
@@ -134,5 +134,4 @@ public double Accuracy { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

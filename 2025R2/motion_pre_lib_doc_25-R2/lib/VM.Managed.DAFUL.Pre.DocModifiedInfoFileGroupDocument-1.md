@@ -1,4 +1,4 @@
-# Class DocModifiedInfoFileGroupDocument<T\>
+#  Class DocModifiedInfoFileGroupDocument<T\>
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -34,7 +34,7 @@ public abstract class DocModifiedInfoFileGroupDocument<T> : DocModifiedInfo wher
 
 ## Constructors
 
-### DocModifiedInfoFileGroupDocument\(T\)
+### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoFileGroupDocument_1__ctor__0_"></a> DocModifiedInfoFileGroupDocument\(T\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.DocModifiedInfoFileGroupDocument%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -50,7 +50,7 @@ The group.
 
 ## Properties
 
-### FilePath
+### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoFileGroupDocument_1_FilePath"></a> FilePath
 
 Gets the file path.
 
@@ -62,7 +62,7 @@ public override sealed string FilePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Group
+### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoFileGroupDocument_1_Group"></a> Group
 
 Gets or sets the group.
 
@@ -73,5 +73,4 @@ protected T Group { get; set; }
 #### Property Value
 
  T
-
 

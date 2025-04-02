@@ -1,4 +1,4 @@
-# Struct SuspensionAssembly
+#  Struct SuspensionAssembly
 
 Namespace: [VM.API.Pre.Car](VM.API.Pre.Car.md)  
 Assembly: VM.API.Pre.Car.dll  
@@ -11,7 +11,7 @@ public struct SuspensionAssembly
 
 ## Constructors
 
-### SuspensionAssembly\(string, string, string\)
+### <a id="VM_API_Pre_Car_SuspensionAssembly__ctor_System_String_System_String_System_String_"></a> SuspensionAssembly\(string, string, string\)
 
 Constructor
 
@@ -35,7 +35,7 @@ The other path.
 
 ## Properties
 
-### OtherPath
+### <a id="VM_API_Pre_Car_SuspensionAssembly_OtherPath"></a> OtherPath
 
 Gets or sets the other path.
 
@@ -47,7 +47,7 @@ public string OtherPath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SteeringPath
+### <a id="VM_API_Pre_Car_SuspensionAssembly_SteeringPath"></a> SteeringPath
 
 Gets or sets the steering path.
 
@@ -59,7 +59,7 @@ public string SteeringPath { readonly get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SuspensionPath
+### <a id="VM_API_Pre_Car_SuspensionAssembly_SuspensionPath"></a> SuspensionPath
 
 Gets or sets the suspension path.
 
@@ -70,5 +70,4 @@ public string SuspensionPath { readonly get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

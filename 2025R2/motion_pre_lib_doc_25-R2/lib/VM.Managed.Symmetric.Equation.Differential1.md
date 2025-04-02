@@ -1,4 +1,4 @@
-# Class Differential1
+#  Class Differential1
 
 Namespace: [VM.Managed.Symmetric.Equation](VM.Managed.Symmetric.Equation.md)  
 Assembly: VMSymEq.dll  
@@ -38,7 +38,7 @@ Named<SubEntity\>.SymmetricManager
 
 ## Constructors
 
-### Differential1\(\)
+### <a id="VM_Managed_Symmetric_Equation_Differential1__ctor"></a> Differential1\(\)
 
 ```csharp
 public Differential1()
@@ -46,7 +46,7 @@ public Differential1()
 
 ## Methods
 
-### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_Equation_Differential1_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -79,5 +79,4 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

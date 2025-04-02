@@ -1,4 +1,4 @@
-# Class PropertyTSpringDamper
+#  Class PropertyTSpringDamper
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFB.dll  
@@ -169,7 +169,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyTSpringDamper\(\)
+### <a id="VM_Managed_DAFUL_Force_PropertyTSpringDamper__ctor"></a> PropertyTSpringDamper\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Force.PropertyTSpringDamper" data-throw-if-not-resolved="false"></xref> class.
 
@@ -179,7 +179,7 @@ public PropertyTSpringDamper()
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Force_PropertyTSpringDamper_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -191,7 +191,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### DampingCoef
+### <a id="VM_Managed_DAFUL_Force_PropertyTSpringDamper_DampingCoef"></a> DampingCoef
 
 Gets or sets the damping coefficient.
 
@@ -203,7 +203,7 @@ public ExpressionValueVariable DampingCoef { get; set; }
 
  ExpressionValueVariable
 
-### DampingSpline
+### <a id="VM_Managed_DAFUL_Force_PropertyTSpringDamper_DampingSpline"></a> DampingSpline
 
 Gets or sets the damping spline.
 
@@ -215,7 +215,7 @@ public Spline DampingSpline { get; set; }
 
  Spline
 
-### DampingType
+### <a id="VM_Managed_DAFUL_Force_PropertyTSpringDamper_DampingType"></a> DampingType
 
 Gets the input type of the damping.
 
@@ -227,7 +227,7 @@ public PropertyTSpringDamper.InputType DampingType { get; }
 
  [PropertyTSpringDamper](VM.Managed.DAFUL.Force.PropertyTSpringDamper.md).[InputType](VM.Managed.DAFUL.Force.PropertyTSpringDamper.InputType.md)
 
-### IsUseSynchro
+### <a id="VM_Managed_DAFUL_Force_PropertyTSpringDamper_IsUseSynchro"></a> IsUseSynchro
 
 Gets or sets a value indicating whether this instance use synchronize.
 
@@ -239,7 +239,7 @@ public bool IsUseSynchro { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### PreLoad
+### <a id="VM_Managed_DAFUL_Force_PropertyTSpringDamper_PreLoad"></a> PreLoad
 
 Gets or sets the pre load.
 
@@ -251,7 +251,7 @@ public ExpressionValueVariable PreLoad { get; set; }
 
  ExpressionValueVariable
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Force_PropertyTSpringDamper_ReferenceType"></a> ReferenceType
 
 Gets the type of the reference.
 
@@ -263,7 +263,7 @@ public override string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SpringCoef
+### <a id="VM_Managed_DAFUL_Force_PropertyTSpringDamper_SpringCoef"></a> SpringCoef
 
 Gets or sets the spring stiffness coefficient.
 
@@ -275,7 +275,7 @@ public ExpressionValueVariable SpringCoef { get; set; }
 
  ExpressionValueVariable
 
-### SpringSpline
+### <a id="VM_Managed_DAFUL_Force_PropertyTSpringDamper_SpringSpline"></a> SpringSpline
 
 Gets or sets the spring stiffness spline.
 
@@ -287,7 +287,7 @@ public Spline SpringSpline { get; set; }
 
  Spline
 
-### SpringType
+### <a id="VM_Managed_DAFUL_Force_PropertyTSpringDamper_SpringType"></a> SpringType
 
 Gets the input type of the spring stiffness.
 
@@ -301,7 +301,7 @@ public PropertyTSpringDamper.InputType SpringType { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Force_PropertyTSpringDamper_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -314,5 +314,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

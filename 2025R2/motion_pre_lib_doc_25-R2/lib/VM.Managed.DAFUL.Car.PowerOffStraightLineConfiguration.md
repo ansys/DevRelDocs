@@ -1,4 +1,4 @@
-# Class PowerOffStraightLineConfiguration
+#  Class PowerOffStraightLineConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PowerOffStraightLineConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_PowerOffStraightLineConfiguration__ctor"></a> PowerOffStraightLineConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.PowerOffStraightLineConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.PowerOffStrai
 public PowerOffStraightLineConfiguration()
 ```
 
-### PowerOffStraightLineConfiguration\(AnalysisPowerOffStraightLine\)
+### <a id="VM_Managed_DAFUL_Car_PowerOffStraightLineConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_"></a> PowerOffStraightLineConfiguration\(AnalysisPowerOffStraightLine\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.PowerOffStraightLineConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_PowerOffStraightLineConfiguration_Analysis"></a> Analysis
 
 Gets or sets the analysis.
 
@@ -239,7 +239,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_PowerOffStraightLineConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -251,7 +251,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_PowerOffStraightLineConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -263,7 +263,7 @@ public override FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### PowerOffStraightLineParam
+### <a id="VM_Managed_DAFUL_Car_PowerOffStraightLineConfiguration_PowerOffStraightLineParam"></a> PowerOffStraightLineParam
 
 Gets or sets the power off straight line parameter.
 
@@ -274,5 +274,4 @@ public AnalysisPowerOffStraightLine PowerOffStraightLineParam { get; set; }
 #### Property Value
 
  [AnalysisPowerOffStraightLine](VM.Managed.DAFUL.Car.AnalysisPowerOffStraightLine.md)
-
 

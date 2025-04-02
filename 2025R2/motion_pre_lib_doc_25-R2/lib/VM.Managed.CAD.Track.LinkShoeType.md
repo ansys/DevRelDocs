@@ -1,4 +1,4 @@
-# Enum LinkShoeType
+#  Enum LinkShoeType
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -26,7 +26,6 @@ Link and Shoe.
 `Shoe = 2` 
 
 Shoe
-
 
 
 

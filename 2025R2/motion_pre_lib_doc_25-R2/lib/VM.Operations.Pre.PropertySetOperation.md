@@ -1,4 +1,4 @@
-# Class PropertySetOperation
+#  Class PropertySetOperation
 
 Namespace: [VM.Operations.Pre](VM.Operations.Pre.md)  
 Assembly: VM.Operations.Pre.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### PropertySetOperation\(string, string, object\)
+### <a id="VM_Operations_Pre_PropertySetOperation__ctor_System_String_System_String_System_Object_"></a> PropertySetOperation\(string, string, object\)
 
 ```csharp
 public PropertySetOperation(string targetName, string propertyName, object value)
@@ -91,7 +91,7 @@ public PropertySetOperation(string targetName, string propertyName, object value
 
 `value` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
-### PropertySetOperation\(JournalParameter\)
+### <a id="VM_Operations_Pre_PropertySetOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> PropertySetOperation\(JournalParameter\)
 
 ```csharp
 public PropertySetOperation(JournalParameter journalParameter)
@@ -103,7 +103,7 @@ public PropertySetOperation(JournalParameter journalParameter)
 
 ## Properties
 
-### Name
+### <a id="VM_Operations_Pre_PropertySetOperation_Name"></a> Name
 
 ```csharp
 public override string Name { get; }
@@ -113,7 +113,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PropertyName
+### <a id="VM_Operations_Pre_PropertySetOperation_PropertyName"></a> PropertyName
 
 ```csharp
 public string PropertyName { get; }
@@ -123,7 +123,7 @@ public string PropertyName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TargetName
+### <a id="VM_Operations_Pre_PropertySetOperation_TargetName"></a> TargetName
 
 ```csharp
 public string TargetName { get; }
@@ -133,7 +133,7 @@ public string TargetName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Value
+### <a id="VM_Operations_Pre_PropertySetOperation_Value"></a> Value
 
 ```csharp
 public object Value { get; }
@@ -145,13 +145,13 @@ public object Value { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Operations_Pre_PropertySetOperation_Execute"></a> Execute\(\)
 
 ```csharp
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Operations_Pre_PropertySetOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -160,5 +160,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

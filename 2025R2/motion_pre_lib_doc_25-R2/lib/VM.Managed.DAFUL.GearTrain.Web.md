@@ -1,4 +1,4 @@
-# Class Web
+#  Class Web
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Web\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Web__ctor"></a> Web\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Web" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ public Web()
 
 ## Properties
 
-### WebProperties
+### <a id="VM_Managed_DAFUL_GearTrain_Web_WebProperties"></a> WebProperties
 
 Gets or sets the web properties.
 
@@ -132,7 +132,7 @@ WebPropertyValue is null.
 
 ## Methods
 
-### InitChild\(int, ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_Web_InitChild_System_Int32_VM_Unit_ConvertFactor_"></a> InitChild\(int, ConvertFactor\)
 
 Initializes the child.
 
@@ -150,7 +150,7 @@ The n number.
 
 The factor.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_Web_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -163,5 +163,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

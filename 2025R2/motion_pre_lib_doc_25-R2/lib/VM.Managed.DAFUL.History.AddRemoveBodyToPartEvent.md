@@ -1,4 +1,4 @@
-# Class AddRemoveBodyToPartEvent
+#  Class AddRemoveBodyToPartEvent
 
 Namespace: [VM.Managed.DAFUL.History](VM.Managed.DAFUL.History.md)  
 Assembly: VMDFBase.dll  
@@ -37,7 +37,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### AddRemoveBodyToPartEvent\(Document, UIntPtr\)
+### <a id="VM_Managed_DAFUL_History_AddRemoveBodyToPartEvent__ctor_VM_Managed_Document_System_UIntPtr_"></a> AddRemoveBodyToPartEvent\(Document, UIntPtr\)
 
 Construct new AddRemoveBodyToPartEvent
 
@@ -53,7 +53,7 @@ public AddRemoveBodyToPartEvent(Document doc, UIntPtr key)
 
 ## Methods
 
-### AfterRedo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_History_AddRemoveBodyToPartEvent_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
 
 Called after redo this event
 
@@ -67,7 +67,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 The event argument
 
-### AfterUndo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_History_AddRemoveBodyToPartEvent_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
 
 Called after undo this event
 
@@ -81,7 +81,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 The event argument
 
-### Clear\(bool\)
+### <a id="VM_Managed_DAFUL_History_AddRemoveBodyToPartEvent_Clear_System_Boolean_"></a> Clear\(bool\)
 
 Clear event
 
@@ -95,7 +95,7 @@ protected override void Clear(bool bReserveReferenceCount)
 
 true to reserve reference count, otherwise false.
 
-### Redo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_History_AddRemoveBodyToPartEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
 
 Redo event
 
@@ -109,7 +109,7 @@ protected override void Redo(HistoryEventArgs args)
 
 The event argument
 
-### Undo\(HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_History_AddRemoveBodyToPartEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
 
 Undo event
 
@@ -122,5 +122,4 @@ protected override void Undo(HistoryEventArgs args)
 `args` HistoryEventArgs
 
 The event argument
-
 

@@ -1,4 +1,4 @@
-# Class LeafExtensions
+#  Class LeafExtensions
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -20,7 +20,7 @@ public class LeafExtensions
 
 ## Constructors
 
-### LeafExtensions\(\)
+### <a id="VM_Models_Pre_Force_LeafExtensions__ctor"></a> LeafExtensions\(\)
 
 ```csharp
 public LeafExtensions()
@@ -28,7 +28,7 @@ public LeafExtensions()
 
 ## Methods
 
-### leafpointsgeneration\(List<LeafInfo\>, List<ClipInfo\>, double, double, out List<ContactLeafToLeaf\>\)
+### <a id="VM_Models_Pre_Force_LeafExtensions_leafpointsgeneration_System_Collections_Generic_List_VM_Models_Pre_Force_LeafInfo__System_Collections_Generic_List_VM_Models_Pre_Force_ClipInfo__System_Double_System_Double_System_Collections_Generic_List_VM_Models_Pre_Force_ContactLeafToLeaf___"></a> leafpointsgeneration\(List<LeafInfo\>, List<ClipInfo\>, double, double, out List<ContactLeafToLeaf\>\)
 
 ```csharp
 public static void leafpointsgeneration(List<LeafInfo> lstleafdata, List<ClipInfo> clips, double axleLengthFront, double axleLengthRear, out List<ContactLeafToLeaf> listcontactinfo)
@@ -45,5 +45,4 @@ public static void leafpointsgeneration(List<LeafInfo> lstleafdata, List<ClipInf
 `axleLengthRear` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
 `listcontactinfo` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[ContactLeafToLeaf](VM.Models.Pre.Force.ContactLeafToLeaf.md)\>
-
 

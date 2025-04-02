@@ -1,4 +1,4 @@
-# Class GTAssemblyInfo
+#  Class GTAssemblyInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -97,7 +97,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GTAssemblyInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssemblyInfo__ctor"></a> GTAssemblyInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GTAssemblyInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -105,7 +105,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GTAssem
 public GTAssemblyInfo()
 ```
 
-### GTAssemblyInfo\(IOwned\)
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssemblyInfo__ctor_VM_Models_Pre_IOwned_"></a> GTAssemblyInfo\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GTAssemblyInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -121,7 +121,7 @@ The owner object.
 
 ## Properties
 
-### ActionBody
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssemblyInfo_ActionBody"></a> ActionBody
 
 Gets or sets the action body.
 
@@ -133,7 +133,7 @@ public IConnectable ActionBody { get; set; }
 
  IConnectable
 
-### BaseBody
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssemblyInfo_BaseBody"></a> BaseBody
 
 Gets or sets the base body.
 
@@ -145,7 +145,7 @@ public IConnectable BaseBody { get; set; }
 
  IConnectable
 
-### Position
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssemblyInfo_Position"></a> Position
 
 Gets the position.
 
@@ -157,7 +157,7 @@ public VectorBase Position { get; }
 
  VectorBase
 
-### ReferencePoint
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssemblyInfo_ReferencePoint"></a> ReferencePoint
 
 Gets or sets the reference point.
 
@@ -169,7 +169,7 @@ public IPowerLoad ReferencePoint { get; set; }
 
  [IPowerLoad](VM.Managed.DAFUL.GearTrain.IPowerLoad.md)
 
-### User
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssemblyInfo_User"></a> User
 
 Gets or sets a value indicating whether this instance is user.
 
@@ -181,7 +181,7 @@ public bool User { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### \_ActionBody
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssemblyInfo__ActionBody"></a> \_ActionBody
 
 Gets or sets the action body.
 
@@ -193,7 +193,7 @@ public Linker<IConnectable> _ActionBody { get; set; }
 
  Linker<IConnectable\>
 
-### \_BaseBody
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssemblyInfo__BaseBody"></a> \_BaseBody
 
 Gets or sets the base body.
 
@@ -205,7 +205,7 @@ public Linker<IConnectable> _BaseBody { get; set; }
 
  Linker<IConnectable\>
 
-### \_ReferencePoint
+### <a id="VM_Managed_DAFUL_GearTrain_GTAssemblyInfo__ReferencePoint"></a> \_ReferencePoint
 
 Gets or sets the reference point.
 
@@ -216,5 +216,4 @@ public Linker<IPowerLoad> _ReferencePoint { get; set; }
 #### Property Value
 
  Linker<[IPowerLoad](VM.Managed.DAFUL.GearTrain.IPowerLoad.md)\>
-
 

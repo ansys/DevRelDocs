@@ -1,4 +1,4 @@
-# Class UpdateBallOperation
+#  Class UpdateBallOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOPBallPlacing.dll  
@@ -75,7 +75,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdateBallOperation\(string, BallInfo\)
+### <a id="VM_Managed_DAFUL_Operation_UpdateBallOperation__ctor_System_String_VM_Managed_DAFUL_Operation_BallInfo_"></a> UpdateBallOperation\(string, BallInfo\)
 
 ```csharp
 public UpdateBallOperation(string key, BallInfo ballInfo)
@@ -87,7 +87,7 @@ public UpdateBallOperation(string key, BallInfo ballInfo)
 
 `ballInfo` [BallInfo](VM.Managed.DAFUL.Operation.BallInfo.md)
 
-### UpdateBallOperation\(UIntPtr, BallInfo\)
+### <a id="VM_Managed_DAFUL_Operation_UpdateBallOperation__ctor_System_UIntPtr_VM_Managed_DAFUL_Operation_BallInfo_"></a> UpdateBallOperation\(UIntPtr, BallInfo\)
 
 ```csharp
 public UpdateBallOperation(UIntPtr key, BallInfo ballInfo)
@@ -101,7 +101,7 @@ public UpdateBallOperation(UIntPtr key, BallInfo ballInfo)
 
 ## Properties
 
-### IsHistoryMerge
+### <a id="VM_Managed_DAFUL_Operation_UpdateBallOperation_IsHistoryMerge"></a> IsHistoryMerge
 
 ```csharp
 public override bool IsHistoryMerge { get; }
@@ -111,7 +111,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_UpdateBallOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -125,12 +125,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_UpdateBallOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

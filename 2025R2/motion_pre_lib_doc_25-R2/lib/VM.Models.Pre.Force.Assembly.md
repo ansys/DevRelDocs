@@ -1,4 +1,4 @@
-# Class Assembly
+#  Class Assembly
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Assembly\(\)
+### <a id="VM_Models_Pre_Force_Assembly__ctor"></a> Assembly\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.Assembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public Assembly()
 
 ## Properties
 
-### DesignHeight
+### <a id="VM_Models_Pre_Force_Assembly_DesignHeight"></a> DesignHeight
 
 Gets or sets the design height.
 
@@ -118,7 +118,7 @@ public double DesignHeight { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### DesignLoad
+### <a id="VM_Models_Pre_Force_Assembly_DesignLoad"></a> DesignLoad
 
 Gets or sets the design load.
 
@@ -130,7 +130,7 @@ public ExpressionValueVariable DesignLoad { get; set; }
 
  ExpressionValueVariable
 
-### ForceTest
+### <a id="VM_Models_Pre_Force_Assembly_ForceTest"></a> ForceTest
 
 Gets or sets the force test.
 
@@ -142,7 +142,7 @@ public ForceTest ForceTest { get; set; }
 
  [ForceTest](VM.Models.Pre.Force.ForceTest.md)
 
-### TorqueTest
+### <a id="VM_Models_Pre_Force_Assembly_TorqueTest"></a> TorqueTest
 
 Gets or sets the torque test.
 
@@ -153,5 +153,4 @@ public TorqueTest TorqueTest { get; set; }
 #### Property Value
 
  [TorqueTest](VM.Models.Pre.Force.TorqueTest.md)
-
 

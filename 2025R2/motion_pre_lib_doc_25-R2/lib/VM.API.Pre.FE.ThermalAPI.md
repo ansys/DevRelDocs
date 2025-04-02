@@ -1,4 +1,4 @@
-# Class ThermalAPI
+#  Class ThermalAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -22,7 +22,7 @@ public static class ThermalAPI
 
 ## Methods
 
-### CreateConvectionWithFunction\(SubSystemDocument, Obj, string, Obj?, Obj?, ConvectionCoefficient, Temperature\)
+### <a id="VM_API_Pre_FE_ThermalAPI_CreateConvectionWithFunction_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_System_Nullable_VM_API_Pre_Obj__System_Nullable_VM_API_Pre_Obj__VM_Managed_DAFUL_Thermal_ConvectionCoefficientUnit_ConvectionCoefficient_VM_Managed_DAFUL_Thermal_TemperatureUnit_Temperature_"></a> CreateConvectionWithFunction\(SubSystemDocument, Obj, string, Obj?, Obj?, ConvectionCoefficient, Temperature\)
 
 Create <xref href="VM.Managed.DAFUL.Thermal.Convection" data-throw-if-not-resolved="false"></xref> with functions.
 
@@ -81,7 +81,7 @@ Will be thrown if 'convectionCoefficientFunction' argument is not empty and type
 
 Will be thrown if 'ambientTemperatureFunction' argument is not empty and type of 'ambientTemperatureFunction' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
-### CreateConvectionWithUserSubroutine\(SubSystemDocument, Obj, Obj, string\)
+### <a id="VM_API_Pre_FE_ThermalAPI_CreateConvectionWithUserSubroutine_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_String_"></a> CreateConvectionWithUserSubroutine\(SubSystemDocument, Obj, Obj, string\)
 
 Create <xref href="VM.Managed.DAFUL.Thermal.Convection" data-throw-if-not-resolved="false"></xref> with user-subrooutine.
 
@@ -124,7 +124,7 @@ Will be thrown if 'document' or 'convectionComponent' arguments are empty.
 
 Will be thrown if 'usub' argument is not empty and type of 'usub' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
-### CreateHeatFlowWithFunction\(SubSystemDocument, Obj, string, Obj?, HeatFlow\)
+### <a id="VM_API_Pre_FE_ThermalAPI_CreateHeatFlowWithFunction_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_System_Nullable_VM_API_Pre_Obj__VM_Managed_DAFUL_Thermal_HeatFlowUnit_HeatFlow_"></a> CreateHeatFlowWithFunction\(SubSystemDocument, Obj, string, Obj?, HeatFlow\)
 
 Create <xref href="VM.Managed.DAFUL.Thermal.HeatFlow" data-throw-if-not-resolved="false"></xref> with functions.
 
@@ -171,7 +171,7 @@ Will be thrown if 'document' or 'heatFlowComponent' arguments are empty.
 
 Will be thrown if 'heatFlowFunction' argument is not empty and type of 'heatFlowFunction' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
-### CreateHeatFlowWithUserSubroutine\(SubSystemDocument, Obj, Obj, string\)
+### <a id="VM_API_Pre_FE_ThermalAPI_CreateHeatFlowWithUserSubroutine_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_String_"></a> CreateHeatFlowWithUserSubroutine\(SubSystemDocument, Obj, Obj, string\)
 
 Create <xref href="VM.Managed.DAFUL.Thermal.HeatFlow" data-throw-if-not-resolved="false"></xref> with user-subrooutine.
 
@@ -214,7 +214,7 @@ Will be thrown if 'document' or 'heatFlowComponent' arguments are empty.
 
 Will be thrown if 'usub' argument is not empty and type of 'usub' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
-### CreateHeatFluxWithFunction\(SubSystemDocument, Obj, string, Obj?, HeatFlux\)
+### <a id="VM_API_Pre_FE_ThermalAPI_CreateHeatFluxWithFunction_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_System_Nullable_VM_API_Pre_Obj__VM_Managed_DAFUL_Thermal_HeatFluxUnit_HeatFlux_"></a> CreateHeatFluxWithFunction\(SubSystemDocument, Obj, string, Obj?, HeatFlux\)
 
 Create <xref href="VM.Managed.DAFUL.Thermal.HeatFlux" data-throw-if-not-resolved="false"></xref> with functions.
 
@@ -261,7 +261,7 @@ Will be thrown if 'document' or 'heatFluxComponent' arguments are empty.
 
 Will be thrown if 'heatFluxFunction' argument is not empty and type of 'heatFluxFunction' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
-### CreateHeatFluxWithUserSubroutine\(SubSystemDocument, Obj, Obj, string\)
+### <a id="VM_API_Pre_FE_ThermalAPI_CreateHeatFluxWithUserSubroutine_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_String_"></a> CreateHeatFluxWithUserSubroutine\(SubSystemDocument, Obj, Obj, string\)
 
 Create <xref href="VM.Managed.DAFUL.Thermal.HeatFlux" data-throw-if-not-resolved="false"></xref> with user-subrooutine.
 
@@ -304,7 +304,7 @@ Will be thrown if 'document' or 'heatFluxComponent' arguments are empty.
 
 Will be thrown if 'usub' argument is not empty and type of 'usub' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
-### CreateHeatGenerationWithFunction\(SubSystemDocument, Obj, string, Obj?, HeatGeneration\)
+### <a id="VM_API_Pre_FE_ThermalAPI_CreateHeatGenerationWithFunction_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_System_Nullable_VM_API_Pre_Obj__VM_Managed_DAFUL_Thermal_HeatGenerationUnit_HeatGeneration_"></a> CreateHeatGenerationWithFunction\(SubSystemDocument, Obj, string, Obj?, HeatGeneration\)
 
 Create <xref href="VM.Managed.DAFUL.Thermal.HeatGeneration" data-throw-if-not-resolved="false"></xref> with functions.
 
@@ -351,7 +351,7 @@ Will be thrown if 'document' or 'heatGenerationComponent' arguments are empty.
 
 Will be thrown if 'heatGenerationFunction' argument is not empty and type of 'heatGenerationFunction' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
-### CreateHeatGenerationWithUserSubroutine\(SubSystemDocument, Obj, Obj, string\)
+### <a id="VM_API_Pre_FE_ThermalAPI_CreateHeatGenerationWithUserSubroutine_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_String_"></a> CreateHeatGenerationWithUserSubroutine\(SubSystemDocument, Obj, Obj, string\)
 
 Create <xref href="VM.Managed.DAFUL.Thermal.HeatGeneration" data-throw-if-not-resolved="false"></xref> with user-subrooutine.
 
@@ -394,7 +394,7 @@ Will be thrown if 'document' or 'heatGenerationComponent' arguments are empty.
 
 Will be thrown if 'usub' argument is not empty and type of 'usub' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
-### CreateTemperatureWithDFTHFile\(SubSystemDocument, Obj, string, Temperature, string\)
+### <a id="VM_API_Pre_FE_ThermalAPI_CreateTemperatureWithDFTHFile_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_VM_Managed_DAFUL_Thermal_TemperatureUnit_Temperature_System_String_"></a> CreateTemperatureWithDFTHFile\(SubSystemDocument, Obj, string, Temperature, string\)
 
 Create <xref href="VM.Managed.DAFUL.Thermal.Temperature" data-throw-if-not-resolved="false"></xref> with .dfth file.
 
@@ -445,7 +445,7 @@ Will be thrown if type of 'temperatureFunction' is not <xref href="VM.Managed.DA
 
 Will be thrown if dfthFilePath file is not exist.
 
-### CreateTemperatureWithFunction\(SubSystemDocument, Obj, string, Obj?, Temperature\)
+### <a id="VM_API_Pre_FE_ThermalAPI_CreateTemperatureWithFunction_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_System_Nullable_VM_API_Pre_Obj__VM_Managed_DAFUL_Thermal_TemperatureUnit_Temperature_"></a> CreateTemperatureWithFunction\(SubSystemDocument, Obj, string, Obj?, Temperature\)
 
 Create <xref href="VM.Managed.DAFUL.Thermal.Temperature" data-throw-if-not-resolved="false"></xref> with functions.
 
@@ -496,7 +496,7 @@ Will be thrown if type of 'temperatureFunction' is not <xref href="VM.Managed.DA
 
 Will be thrown if 'temperatureFunction' argument is not empty and type of 'temperatureFunction' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
-### CreateTemperatureWithUserSubroutine\(SubSystemDocument, Obj, Obj, string\)
+### <a id="VM_API_Pre_FE_ThermalAPI_CreateTemperatureWithUserSubroutine_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_String_"></a> CreateTemperatureWithUserSubroutine\(SubSystemDocument, Obj, Obj, string\)
 
 Create <xref href="VM.Managed.DAFUL.Thermal.Temperature" data-throw-if-not-resolved="false"></xref> with user-subrooutine.
 
@@ -543,7 +543,7 @@ Will be thrown if type of 'temperatureFunction' is not <xref href="VM.Managed.DA
 
 Will be thrown if 'usub' argument is not empty and type of 'usub' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
 
-### CreateThermalContactWithFunction\(SubSystemDocument, Obj, string, Obj?, ConvectionCoefficient\)
+### <a id="VM_API_Pre_FE_ThermalAPI_CreateThermalContactWithFunction_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_System_Nullable_VM_API_Pre_Obj__VM_Managed_DAFUL_Thermal_ConvectionCoefficientUnit_ConvectionCoefficient_"></a> CreateThermalContactWithFunction\(SubSystemDocument, Obj, string, Obj?, ConvectionCoefficient\)
 
 Create <xref href="VM.Managed.DAFUL.Thermal.ThermalContact" data-throw-if-not-resolved="false"></xref> with functions.
 
@@ -590,7 +590,7 @@ Will be thrown if 'document' or 'thermalContactComponent' arguments are empty.
 
 Will be thrown if 'thermalContactFunction' argument is not empty and type of 'thermalContactFunction' is not <xref href="VM.Managed.DAFUL.Function" data-throw-if-not-resolved="false"></xref>.
 
-### CreateThermalContactWithUserSubroutine\(SubSystemDocument, Obj, Obj, string\)
+### <a id="VM_API_Pre_FE_ThermalAPI_CreateThermalContactWithUserSubroutine_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_VM_API_Pre_Obj_System_String_"></a> CreateThermalContactWithUserSubroutine\(SubSystemDocument, Obj, Obj, string\)
 
 Create <xref href="VM.Managed.DAFUL.Thermal.ThermalContact" data-throw-if-not-resolved="false"></xref> with user-subrooutine.
 
@@ -632,5 +632,4 @@ Will be thrown if 'document' or 'thermalContactComponent' arguments are empty.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if 'usub' argument is not empty and type of 'usub' is not <xref href="VM.Managed.DAFUL.UserSubroutine" data-throw-if-not-resolved="false"></xref>.
-
 

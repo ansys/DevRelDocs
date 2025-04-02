@@ -1,4 +1,4 @@
-# Class RacewayBuilder
+#  Class RacewayBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -231,7 +231,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### RacewayBuilder\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder__ctor"></a> RacewayBuilder\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RacewayBuilder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -241,7 +241,7 @@ public RacewayBuilder()
 
 ## Properties
 
-### ConnectableEntity
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_ConnectableEntity"></a> ConnectableEntity
 
 Gets the ConnectableEntity.
 
@@ -253,7 +253,7 @@ public IConnectable ConnectableEntity { get; }
 
  IConnectable
 
-### IsReverse
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_IsReverse"></a> IsReverse
 
 Gets or sets a value indicating whether this is reverse.
 Use SetReverse() when this instance sets for undo/redo
@@ -266,7 +266,7 @@ public bool IsReverse { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### OffsetToAxisDirection
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_OffsetToAxisDirection"></a> OffsetToAxisDirection
 
 Gets the offset to axis direction.
 
@@ -278,7 +278,7 @@ public override double OffsetToAxisDirection { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ReferenceOffset
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_ReferenceOffset"></a> ReferenceOffset
 
 Gets or sets the reference offset.
 Use SetReferenceOffset() when this instance sets for undo/redo
@@ -291,7 +291,7 @@ public double ReferenceOffset { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ReferencePoint
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_ReferencePoint"></a> ReferencePoint
 
 Gets or sets the reference point.
 Use SetReferencePoint() when this instance sets for undo/redo
@@ -304,7 +304,7 @@ public ReferencePointType ReferencePoint { get; set; }
 
  [ReferencePointType](VM.Managed.DAFUL.GearTrain.CAD.ReferencePointType.md)
 
-### Rotation
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_Rotation"></a> Rotation
 
 Gets or sets the rotation.
 Use SetRotation() when this instance sets for undo/redo
@@ -317,7 +317,7 @@ public OMatrix Rotation { get; set; }
 
  OMatrix
 
-### StartPoint
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_StartPoint"></a> StartPoint
 
 Gets or sets the start point.
 
@@ -331,7 +331,7 @@ public PointBase StartPoint { get; set; }
 
 ## Methods
 
-### GetTransform\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_GetTransform"></a> GetTransform\(\)
 
 Gets the transform for the raceway in designer.
 
@@ -343,7 +343,7 @@ public override TMatrix GetTransform()
 
  TMatrix
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -357,7 +357,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -375,7 +375,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -393,7 +393,7 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### SetReferenceOffset\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_SetReferenceOffset_System_Double_"></a> SetReferenceOffset\(double\)
 
 Set reference offset.
 
@@ -407,7 +407,7 @@ public void SetReferenceOffset(double dOffset)
 
 The reference offset.
 
-### SetReferencePoint\(ReferencePointType\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_SetReferencePoint_VM_Managed_DAFUL_GearTrain_CAD_ReferencePointType_"></a> SetReferencePoint\(ReferencePointType\)
 
 Set reference point.
 
@@ -421,7 +421,7 @@ public void SetReferencePoint(ReferencePointType type)
 
 The reference point.
 
-### SetReverse\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_SetReverse_System_Boolean_"></a> SetReverse\(bool\)
 
 Set reverse flag.
 
@@ -435,7 +435,7 @@ public void SetReverse(bool bReverse)
 
 The reverse flag.
 
-### SetRotation\(OMatrix\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_SetRotation_VM_Managed_OMatrix_"></a> SetRotation\(OMatrix\)
 
 Set rotation.
 
@@ -449,12 +449,11 @@ public void SetRotation(OMatrix mat)
 
 The matrixt.
 
-### UpdateGeometry\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilder_UpdateGeometry"></a> UpdateGeometry\(\)
 
 Updates the geometry.
 
 ```csharp
 public virtual void UpdateGeometry()
 ```
-
 

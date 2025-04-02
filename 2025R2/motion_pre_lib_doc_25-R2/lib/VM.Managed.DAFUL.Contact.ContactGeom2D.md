@@ -1,4 +1,4 @@
-# Class ContactGeom2D
+#  Class ContactGeom2D
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -209,7 +209,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ContactGeom2D\(\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom2D__ctor"></a> ContactGeom2D\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeom2D" data-throw-if-not-resolved="false"></xref> class.
 
@@ -217,7 +217,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGe
 protected ContactGeom2D()
 ```
 
-### ContactGeom2D\(string\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom2D__ctor_System_String_"></a> ContactGeom2D\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeom2D" data-throw-if-not-resolved="false"></xref> class.
 
@@ -233,7 +233,7 @@ Name of the 2D contact geometry .
 
 ## Properties
 
-### Geometry
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom2D_Geometry"></a> Geometry
 
 Gets or sets the geometry.
 
@@ -245,7 +245,7 @@ public IContactable Geometry { get; set; }
 
  IContactable
 
-### GeometryFullName
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom2D_GeometryFullName"></a> GeometryFullName
 
 Gets the full name of the geometry.
 
@@ -257,7 +257,7 @@ public override string GeometryFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### MaxPenetration
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom2D_MaxPenetration"></a> MaxPenetration
 
 Gets or sets the maximum penetration.
 
@@ -269,7 +269,7 @@ public ExpressionValueVariable MaxPenetration { get; set; }
 
  ExpressionValueVariable
 
-### ParentBody
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom2D_ParentBody"></a> ParentBody
 
 Gets or sets the geometry.
 
@@ -281,7 +281,7 @@ public ObjectBase ParentBody { get; }
 
  ObjectBase
 
-### \_Geometry
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom2D__Geometry"></a> \_Geometry
 
 Gets or sets the geometry.
 
@@ -295,7 +295,7 @@ public Linker<IContactable> _Geometry { get; set; }
 
 ## Methods
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom2D_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -323,7 +323,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPointDirection\(ref VectorBase, ref VectorBase\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom2D_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointDirection\(ref VectorBase, ref VectorBase\)
 
 Gets the point direction.
 
@@ -347,7 +347,7 @@ The direction.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom2D_GetPointDirectionOnGeometry_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetPointDirectionOnGeometry\(ref VectorBase, ref VectorBase\)
 
 Gets the point direction.
 
@@ -371,7 +371,7 @@ The normal direction.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom2D_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -389,7 +389,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeom2D_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -406,5 +406,4 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

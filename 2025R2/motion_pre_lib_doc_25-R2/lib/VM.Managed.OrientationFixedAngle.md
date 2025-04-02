@@ -1,4 +1,4 @@
-# Class OrientationFixedAngle
+#  Class OrientationFixedAngle
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -147,7 +147,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### OrientationFixedAngle\(RotationAxes, AngleTypes, Variable, Variable, Variable\)
+### <a id="VM_Managed_OrientationFixedAngle__ctor_VM_RotationAxes_VM_AngleTypes_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_"></a> OrientationFixedAngle\(RotationAxes, AngleTypes, Variable, Variable, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationFixedAngle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -177,7 +177,7 @@ The value of beta.
 
 The value of gamma.
 
-### OrientationFixedAngle\(\)
+### <a id="VM_Managed_OrientationFixedAngle__ctor"></a> OrientationFixedAngle\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationFixedAngle" data-throw-if-not-resolved="false"></xref> class.
 
@@ -187,7 +187,7 @@ public OrientationFixedAngle()
 
 ## Properties
 
-### RotationType
+### <a id="VM_Managed_OrientationFixedAngle_RotationType"></a> RotationType
 
 Gets the specifies rotation type.
 
@@ -199,7 +199,7 @@ public override RotationTypes RotationType { get; }
 
  RotationTypes
 
-### Value
+### <a id="VM_Managed_OrientationFixedAngle_Value"></a> Value
 
 Gets the information of orientation(OMatrix type).
 
@@ -210,5 +210,4 @@ public override OMatrix Value { get; set; }
 #### Property Value
 
  [OMatrix](VM.Managed.OMatrix.md)
-
 

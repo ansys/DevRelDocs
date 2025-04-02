@@ -1,4 +1,4 @@
-# Class BaseTangentLength
+#  Class BaseTangentLength
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BaseTangentLength\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_BaseTangentLength__ctor"></a> BaseTangentLength\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.BaseTangentLength" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public BaseTangentLength()
 
 ## Properties
 
-### PairFixState
+### <a id="VM_Managed_DAFUL_GearTrain_BaseTangentLength_PairFixState"></a> PairFixState
 
 Gets or sets the pair fix state.
 
@@ -118,7 +118,7 @@ public bool[] PairFixState { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)\[\]
 
-### PairLowerLengthOfSpan
+### <a id="VM_Managed_DAFUL_GearTrain_BaseTangentLength_PairLowerLengthOfSpan"></a> PairLowerLengthOfSpan
 
 Gets or sets the pair lower length of span.
 
@@ -130,7 +130,7 @@ public GearPairValue PairLowerLengthOfSpan { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairNumberOfTeethSpanned
+### <a id="VM_Managed_DAFUL_GearTrain_BaseTangentLength_PairNumberOfTeethSpanned"></a> PairNumberOfTeethSpanned
 
 Gets or sets the pair number of teeth spanned.
 
@@ -142,7 +142,7 @@ public GearPairValue PairNumberOfTeethSpanned { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairUpperLengthOfSpan
+### <a id="VM_Managed_DAFUL_GearTrain_BaseTangentLength_PairUpperLengthOfSpan"></a> PairUpperLengthOfSpan
 
 Gets or sets the pair upper length of span.
 
@@ -156,7 +156,7 @@ public GearPairValue PairUpperLengthOfSpan { get; set; }
 
 ## Methods
 
-### InitChild\(int, ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_BaseTangentLength_InitChild_System_Int32_VM_Unit_ConvertFactor_"></a> InitChild\(int, ConvertFactor\)
 
 Initializes the child.
 
@@ -173,5 +173,4 @@ The n number.
 `factor` Unit.ConvertFactor
 
 The unit factor.
-
 

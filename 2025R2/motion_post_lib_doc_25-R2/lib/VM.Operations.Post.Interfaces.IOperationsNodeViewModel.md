@@ -1,4 +1,4 @@
-# Interface IOperationsNodeViewModel
+#  Interface IOperationsNodeViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -69,7 +69,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Methods
 
-### ChangeID\(int\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsNodeViewModel_ChangeID_System_Int32_"></a> ChangeID\(int\)
 
 Changes the ID of a node belonging to an FEBody.
 

@@ -1,4 +1,4 @@
-# Class SectionGeometryBase
+#  Class SectionGeometryBase
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -104,7 +104,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SectionGeometryBase\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase__ctor"></a> SectionGeometryBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.SectionGeometryBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ public SectionGeometryBase()
 
 ## Properties
 
-### Eccentricity
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_Eccentricity"></a> Eccentricity
 
 Gets or sets the eccentricity.
 
@@ -126,7 +126,7 @@ public virtual Variable Eccentricity { get; set; }
 
  Variable
 
-### Length
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_Length"></a> Length
 
 Gets or sets the length.
 
@@ -138,7 +138,7 @@ public virtual Variable Length { get; set; }
 
  Variable
 
-### TypeOfGeometry
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_TypeOfGeometry"></a> TypeOfGeometry
 
 Gets the type of geometry.
 
@@ -152,7 +152,7 @@ public abstract SectionGeometryBase.GeometryType TypeOfGeometry { get; }
 
 ## Methods
 
-### GetBottomAndTopPosition\(VectorBase, ref VectorBase, ref VectorBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetBottomAndTopPosition_VM_Managed_VectorBase_VM_Managed_VectorBase__VM_Managed_VectorBase__"></a> GetBottomAndTopPosition\(VectorBase, ref VectorBase, ref VectorBase\)
 
 Gets the bottom and top position.
 
@@ -174,7 +174,7 @@ The vec top.
 
 The vec bottom.
 
-### GetBuilder\(BuilderColor, VectorBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetBuilder_VM_Managed_CAD_BuilderColor_VM_Managed_VectorBase_"></a> GetBuilder\(BuilderColor, VectorBase\)
 
 Gets the builder.
 
@@ -196,7 +196,7 @@ The offset direction.
 
  Builder
 
-### GetFactorForLength\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetFactorForLength"></a> GetFactorForLength\(\)
 
 ```csharp
 protected double GetFactorForLength()
@@ -206,7 +206,7 @@ protected double GetFactorForLength()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetGeomInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetGeomInfo"></a> GetGeomInfo\(\)
 
 Gets the geom information.
 
@@ -218,7 +218,7 @@ public abstract double[] GetGeomInfo()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### GetLengthAndHeight\(ref double, ref double\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
 
 Gets the start and end point.
 
@@ -236,7 +236,7 @@ Length of the d.
 
 Height of the d.
 
-### GetNewStartPointWithEccentricity\(PointBase, VectorBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetNewStartPointWithEccentricity_VM_Managed_PointBase_VM_Managed_VectorBase_"></a> GetNewStartPointWithEccentricity\(PointBase, VectorBase\)
 
 Get new start point with eccentricity
 
@@ -258,7 +258,7 @@ The eccentric direction
 
  PointBase
 
-### GetNewStartPointWithEccentricity\(VectorBase, VectorBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetNewStartPointWithEccentricity_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> GetNewStartPointWithEccentricity\(VectorBase, VectorBase\)
 
 Get new start point with eccentricity
 
@@ -280,7 +280,7 @@ The eccentric direction
 
  VectorBase
 
-### GetSectionBuilder\(double, List<Vector\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetSectionBuilder_System_Double_System_Collections_Generic_List_VM_Managed_Vector__"></a> GetSectionBuilder\(double, List<Vector\>\)
 
 Gets the section builder.
 
@@ -302,7 +302,7 @@ The LST gear section.
 
  Builder\[\]
 
-### GetSectionBuilderCore\(double, List<Vector\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetSectionBuilderCore_System_Double_System_Collections_Generic_List_VM_Managed_Vector__"></a> GetSectionBuilderCore\(double, List<Vector\>\)
 
 Gets the section builder core.
 
@@ -324,7 +324,7 @@ The LST section.
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
 
-### GetSectionName\(HiddenShaftSetDocument, string, int\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetSectionName_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_Int32_"></a> GetSectionName\(HiddenShaftSetDocument, string, int\)
 
 Gets the name of the section.
 
@@ -350,7 +350,7 @@ The n number.
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### GetSectionPoint\(double, List<Vector\>, List<Vector\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_GetSectionPoint_System_Double_System_Collections_Generic_List_VM_Managed_Vector__System_Collections_Generic_List_VM_Managed_Vector__"></a> GetSectionPoint\(double, List<Vector\>, List<Vector\>\)
 
 Gets the section point.
 
@@ -376,7 +376,7 @@ The LST single section.
 
  Vector\[\]
 
-### InitChild\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_InitChild"></a> InitChild\(\)
 
 Initializes the child.
 
@@ -384,7 +384,7 @@ Initializes the child.
 public virtual void InitChild()
 ```
 
-### InnerCreateParameter\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_InnerCreateParameter"></a> InnerCreateParameter\(\)
 
 ```csharp
 protected abstract BuilderParamBase InnerCreateParameter()
@@ -394,7 +394,7 @@ protected abstract BuilderParamBase InnerCreateParameter()
 
  BuilderParamBase
 
-### InnerFillParameter\(BuilderParamBase, BuilderColor, VectorBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_InnerFillParameter_VM_CAD_Builders_BuilderParamBase_VM_Managed_CAD_BuilderColor_VM_Managed_VectorBase_"></a> InnerFillParameter\(BuilderParamBase, BuilderColor, VectorBase\)
 
 ```csharp
 protected abstract void InnerFillParameter(BuilderParamBase parameter, BuilderColor color, VectorBase vecOffsetDirection)
@@ -408,7 +408,7 @@ protected abstract void InnerFillParameter(BuilderParamBase parameter, BuilderCo
 
 `vecOffsetDirection` VectorBase
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -422,7 +422,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### SamePositionVector\(VectorBase, VectorBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_SamePositionVector_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> SamePositionVector\(VectorBase, VectorBase\)
 
 Whether vectors is same
 
@@ -444,7 +444,7 @@ second vector.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SplitSectionInfo\(HiddenShaftSetDocument, string, int\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryBase_SplitSectionInfo_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_Int32_"></a> SplitSectionInfo\(HiddenShaftSetDocument, string, int\)
 
 Splits the section information.
 
@@ -469,5 +469,4 @@ The n number.
 #### Returns
 
  [SectionInfo](VM.Managed.DAFUL.GearTrain.SectionInfo.md)\[\]
-
 

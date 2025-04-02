@@ -1,4 +1,4 @@
-# Class BuilderParamEllipseCone
+#  Class BuilderParamEllipseCone
 
 Namespace: [VM.CAD.Builders](VM.CAD.Builders.md)  
 Assembly: VM.CAD.Builders.dll  
@@ -38,7 +38,7 @@ public class BuilderParamEllipseCone : BuilderParamCone
 
 ## Constructors
 
-### BuilderParamEllipseCone\(\)
+### <a id="VM_CAD_Builders_BuilderParamEllipseCone__ctor"></a> BuilderParamEllipseCone\(\)
 
 ```csharp
 public BuilderParamEllipseCone()
@@ -46,7 +46,7 @@ public BuilderParamEllipseCone()
 
 ## Properties
 
-### RadiusMinor
+### <a id="VM_CAD_Builders_BuilderParamEllipseCone_RadiusMinor"></a> RadiusMinor
 
 ```csharp
 public double RadiusMinor { get; set; }
@@ -55,5 +55,4 @@ public double RadiusMinor { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

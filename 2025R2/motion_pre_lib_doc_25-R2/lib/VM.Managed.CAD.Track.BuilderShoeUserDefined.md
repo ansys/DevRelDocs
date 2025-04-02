@@ -1,4 +1,4 @@
-# Class BuilderShoeUserDefined
+#  Class BuilderShoeUserDefined
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -204,7 +204,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderShoeUserDefined\(\)
+### <a id="VM_Managed_CAD_Track_BuilderShoeUserDefined__ctor"></a> BuilderShoeUserDefined\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.BuilderShoeUserDefined" data-throw-if-not-resolved="false"></xref> class.
 
@@ -214,7 +214,7 @@ public BuilderShoeUserDefined()
 
 ## Properties
 
-### Shoe
+### <a id="VM_Managed_CAD_Track_BuilderShoeUserDefined_Shoe"></a> Shoe
 
 Gets and sets Transformation.
 
@@ -226,7 +226,7 @@ public ShoeDataBase Shoe { get; set; }
 
  [ShoeDataBase](VM.Managed.CAD.Track.ShoeDataBase.md)
 
-### TypeOfBuilder
+### <a id="VM_Managed_CAD_Track_BuilderShoeUserDefined_TypeOfBuilder"></a> TypeOfBuilder
 
 ```csharp
 public override string TypeOfBuilder { get; set; }
@@ -238,7 +238,7 @@ public override string TypeOfBuilder { get; set; }
 
 ## Methods
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_Track_BuilderShoeUserDefined_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Check validation for member variables.
 
@@ -246,7 +246,7 @@ Check validation for member variables.
 public override void CheckValidationAboutBuild()
 ```
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_Track_BuilderShoeUserDefined_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -256,7 +256,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_Track_BuilderShoeUserDefined_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase parameter)
@@ -266,7 +266,7 @@ protected override void FillParameter(BuilderParamBase parameter)
 
 `parameter` BuilderParamBase
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_CAD_Track_BuilderShoeUserDefined_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -286,7 +286,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_CAD_Track_BuilderShoeUserDefined_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -304,7 +304,7 @@ The obj notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### SetTransform\(TMatrix\)
+### <a id="VM_Managed_CAD_Track_BuilderShoeUserDefined_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
 
 Sets the transform information.
 
@@ -317,5 +317,4 @@ public override void SetTransform(TMatrix matT)
 `matT` TMatrix
 
 The transform information.
-
 

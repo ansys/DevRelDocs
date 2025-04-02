@@ -1,4 +1,4 @@
-# Class PulleyStiffness
+#  Class PulleyStiffness
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PulleyStiffness\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyStiffness__ctor"></a> PulleyStiffness\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.PulleyStiffness" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector
 public PulleyStiffness()
 ```
 
-### PulleyStiffness\(string\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyStiffness__ctor_System_String_"></a> PulleyStiffness\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.PulleyStiffness" data-throw-if-not-resolved="false"></xref> class.
 <param name="strName">The name.</param>
@@ -123,7 +123,7 @@ public PulleyStiffness(string strName)
 
 ## Properties
 
-### RadialDeformationRatio
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyStiffness_RadialDeformationRatio"></a> RadialDeformationRatio
 
 Gets or sets the radial deformation ratio.
 
@@ -141,7 +141,7 @@ public Spline RadialDeformationRatio { get; set; }
 
 The radial deformation ratio is null.
 
-### Stiffness
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyStiffness_Stiffness"></a> Stiffness
 
 Gets or sets the stiffness.
 
@@ -159,7 +159,7 @@ public Spline Stiffness { get; set; }
 
 The stiffness is null.
 
-### TangentialDeformationRatio
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyStiffness_TangentialDeformationRatio"></a> TangentialDeformationRatio
 
 Gets or sets the tangential deformation ratio.
 
@@ -173,7 +173,7 @@ public Spline[] TangentialDeformationRatio { get; set; }
 
 ## Methods
 
-### GetPulley\(Document\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyStiffness_GetPulley_VM_Managed_Document_"></a> GetPulley\(Document\)
 
 Gets pulley
 
@@ -191,7 +191,7 @@ The document
 
  [Pulley](VM.Managed.DAFUL.CPlacingConnector.Pulley.md)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyStiffness_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -205,7 +205,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### TangentialStiffnessText\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PulleyStiffness_TangentialStiffnessText"></a> TangentialStiffnessText\(\)
 
 Gets the tangential stiffness text
 
@@ -216,5 +216,4 @@ public string TangentialStiffnessText()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

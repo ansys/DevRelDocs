@@ -1,4 +1,4 @@
-# Class BuilderUnite
+#  Class BuilderUnite
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -218,7 +218,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderUnite\(Builder, Builder\)
+### <a id="VM_Managed_CAD_BuilderUnite__ctor_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> BuilderUnite\(Builder, Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderUnite" data-throw-if-not-resolved="false"></xref> class
 
@@ -236,7 +236,7 @@ The target build.
 
 The tool build.
 
-### BuilderUnite\(\)
+### <a id="VM_Managed_CAD_BuilderUnite__ctor"></a> BuilderUnite\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderUnite" data-throw-if-not-resolved="false"></xref> class
 
@@ -246,7 +246,7 @@ public BuilderUnite()
 
 ## Methods
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_BuilderUnite_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -255,5 +255,4 @@ protected override BuilderParamBase CreateParameter()
 #### Returns
 
  BuilderParamBase
-
 

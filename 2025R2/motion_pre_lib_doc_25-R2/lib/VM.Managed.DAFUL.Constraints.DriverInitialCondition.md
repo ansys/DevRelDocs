@@ -1,4 +1,4 @@
-# Class DriverInitialCondition
+#  Class DriverInitialCondition
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -76,7 +76,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DriverInitialCondition\(\)
+### <a id="VM_Managed_DAFUL_Constraints_DriverInitialCondition__ctor"></a> DriverInitialCondition\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.DriverInitialCondition" data-throw-if-not-resolved="false"></xref> class.
 
@@ -84,7 +84,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Drive
 public DriverInitialCondition()
 ```
 
-### DriverInitialCondition\(PropertyConstraint\)
+### <a id="VM_Managed_DAFUL_Constraints_DriverInitialCondition__ctor_VM_Managed_DAFUL_Constraints_PropertyConstraint_"></a> DriverInitialCondition\(PropertyConstraint\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.DriverInitialCondition" data-throw-if-not-resolved="false"></xref> class.
 
@@ -100,7 +100,7 @@ owner constraint property.
 
 ## Properties
 
-### InitialCondition
+### <a id="VM_Managed_DAFUL_Constraints_DriverInitialCondition_InitialCondition"></a> InitialCondition
 
 Gets or sets the initial condition.
 
@@ -112,7 +112,7 @@ public InitialCondition InitialCondition { get; set; }
 
  [InitialCondition](VM.Managed.DAFUL.Constraints.InitialCondition.md)
 
-### Type
+### <a id="VM_Managed_DAFUL_Constraints_DriverInitialCondition_Type"></a> Type
 
 Gets or sets the driver type.
 
@@ -123,5 +123,4 @@ public override Driver.DriverType Type { get; protected set; }
 #### Property Value
 
  [Driver](VM.Managed.DAFUL.Constraints.Driver.md).[DriverType](VM.Managed.DAFUL.Constraints.Driver.DriverType.md)
-
 

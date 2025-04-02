@@ -1,4 +1,4 @@
-# Interface IMeshEntity
+#  Interface IMeshEntity
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IMeshEntity
 
 ## Properties
 
-### Body
+### <a id="VM_Managed_DAFUL_GearTrain_IMeshEntity_Body"></a> Body
 
 Gets or sets the body.
 
@@ -29,7 +29,7 @@ InstanceContainer Body { get; set; }
 
  InstanceContainer
 
-### PropertyOfEntity
+### <a id="VM_Managed_DAFUL_GearTrain_IMeshEntity_PropertyOfEntity"></a> PropertyOfEntity
 
 Gets the property of entity.
 
@@ -41,7 +41,7 @@ Property PropertyOfEntity { get; }
 
  Property
 
-### Transformation
+### <a id="VM_Managed_DAFUL_GearTrain_IMeshEntity_Transformation"></a> Transformation
 
 Gets or sets the transformation.
 
@@ -53,7 +53,7 @@ TransformBase Transformation { get; set; }
 
  TransformBase
 
-### TypeOfCreate
+### <a id="VM_Managed_DAFUL_GearTrain_IMeshEntity_TypeOfCreate"></a> TypeOfCreate
 
 Gets the type of create.
 
@@ -64,5 +64,4 @@ CreateType TypeOfCreate { get; }
 #### Property Value
 
  [CreateType](VM.Managed.DAFUL.GearTrain.CreateType.md)
-
 

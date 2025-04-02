@@ -1,4 +1,4 @@
-# Class ShaftSetAPI
+#  Class ShaftSetAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -22,7 +22,7 @@ public static class ShaftSetAPI
 
 ## Methods
 
-### AddBearingToRBEInEFEntity\(HiddenDocumentMeshFreeBase, string, string, Vector, Obj, ClearanceParameters?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddBearingToRBEInEFEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshFreeBase_System_String_System_String_VM_Vector_VM_API_Pre_Obj_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> AddBearingToRBEInEFEntity\(HiddenDocumentMeshFreeBase, string, string, Vector, Obj, ClearanceParameters?\)
 
 Add bearing to rbe in EF entity.
 
@@ -71,7 +71,7 @@ Will be thrown if magnitude of 'direction' is zero.
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddBearingToRBEInEFEntity\(HiddenDocumentMeshFreeBase, Obj, RacewayType, Vector, Obj, ClearanceParameters?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddBearingToRBEInEFEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshFreeBase_VM_API_Pre_Obj_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_VM_Vector_VM_API_Pre_Obj_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> AddBearingToRBEInEFEntity\(HiddenDocumentMeshFreeBase, Obj, RacewayType, Vector, Obj, ClearanceParameters?\)
 
 Add bearing to rbe in EF entity.
 
@@ -125,7 +125,7 @@ Will be thrown if type of 'bearing' is not <xref href="VM.Managed.DAFUL.GearTrai
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddBearingToRBEInFEEntity\(HiddenDocumentFEBase, string, string, Vector, Obj, ClearanceParameters?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddBearingToRBEInFEEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentFEBase_System_String_System_String_VM_Vector_VM_API_Pre_Obj_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> AddBearingToRBEInFEEntity\(HiddenDocumentFEBase, string, string, Vector, Obj, ClearanceParameters?\)
 
 Add bearing to rbe in FE entity.
 
@@ -174,7 +174,7 @@ Will be thrown if magnitude of 'direction' is zero.
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddBearingToRBEInFEEntity\(HiddenDocumentFEBase, Obj, RacewayType, Vector, Obj, ClearanceParameters?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddBearingToRBEInFEEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentFEBase_VM_API_Pre_Obj_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_VM_Vector_VM_API_Pre_Obj_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> AddBearingToRBEInFEEntity\(HiddenDocumentFEBase, Obj, RacewayType, Vector, Obj, ClearanceParameters?\)
 
 Add bearing to rbe in FE entity.
 
@@ -228,7 +228,7 @@ Will be thrown if type of 'bearing' is not <xref href="VM.Managed.DAFUL.GearTrai
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddBearingToShaftset\(HiddenShaftSetDocument, string, string, ExpressionValueVariable?, AttachLocationType, DirectionType, ClearanceParameters?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddBearingToShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_VM_API_Pre_GearTrain_DirectionType_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> AddBearingToShaftset\(HiddenShaftSetDocument, string, string, ExpressionValueVariable?, AttachLocationType, DirectionType, ClearanceParameters?\)
 
 Add bearing to shaftset.
 
@@ -274,7 +274,7 @@ The clearance parameter. If it is not given, default values will be used.
 
 Will be thrown if 'document' or 'bearingName' or 'racewayName' arguments are empty.
 
-### AddBearingToShaftset\(HiddenShaftSetDocument, Obj, RacewayType, ExpressionValueVariable?, AttachLocationType, DirectionType, ClearanceParameters?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddBearingToShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_VM_API_Pre_Obj_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_VM_API_Pre_GearTrain_DirectionType_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> AddBearingToShaftset\(HiddenShaftSetDocument, Obj, RacewayType, ExpressionValueVariable?, AttachLocationType, DirectionType, ClearanceParameters?\)
 
 Add bearing to shaftset.
 
@@ -325,7 +325,7 @@ Will be thrown if 'document' or 'bearing' arguments are empty.
 
 Will be thrown if type of 'bearing' is not <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
-### AddGearToRBEInEFEntity\(HiddenDocumentMeshFreeBase, string, string, Vector, Obj, ShaftAttachType, ExpressionValueVariable?, AttachLocationType, Obj?, RacewayType, ExpressionValueVariable?, AttachLocationType, ClearanceParameters?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddGearToRBEInEFEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshFreeBase_System_String_System_String_VM_Vector_VM_API_Pre_Obj_VM_API_Pre_GearTrain_ShaftAttachType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_System_Nullable_VM_API_Pre_Obj__VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> AddGearToRBEInEFEntity\(HiddenDocumentMeshFreeBase, string, string, Vector, Obj, ShaftAttachType, ExpressionValueVariable?, AttachLocationType, Obj?, RacewayType, ExpressionValueVariable?, AttachLocationType, ClearanceParameters?\)
 
 Add gear to rbe in EF entity.
 
@@ -401,7 +401,7 @@ Will be thrown if magnitude of 'direction' is zero.
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddGearToRBEInEFEntity\(HiddenDocumentMeshFreeBase, Obj, int, Vector, Obj, ShaftAttachType, ExpressionValueVariable?, AttachLocationType, Obj?, RacewayType, ExpressionValueVariable?, AttachLocationType, ClearanceParameters?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddGearToRBEInEFEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshFreeBase_VM_API_Pre_Obj_System_Int32_VM_Vector_VM_API_Pre_Obj_VM_API_Pre_GearTrain_ShaftAttachType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_System_Nullable_VM_API_Pre_Obj__VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> AddGearToRBEInEFEntity\(HiddenDocumentMeshFreeBase, Obj, int, Vector, Obj, ShaftAttachType, ExpressionValueVariable?, AttachLocationType, Obj?, RacewayType, ExpressionValueVariable?, AttachLocationType, ClearanceParameters?\)
 
 Add gear to rbe in EF entity.
 
@@ -491,7 +491,7 @@ Will be thrown if type of 'gearset' is not <xref href="VM.Managed.DAFUL.GearTrai
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddGearToRBEInFEEntity\(HiddenDocumentFEBase, string, string, Vector, Obj, ShaftAttachType, ExpressionValueVariable?, AttachLocationType, Obj?, RacewayType, ExpressionValueVariable?, AttachLocationType, ClearanceParameters?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddGearToRBEInFEEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentFEBase_System_String_System_String_VM_Vector_VM_API_Pre_Obj_VM_API_Pre_GearTrain_ShaftAttachType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_System_Nullable_VM_API_Pre_Obj__VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> AddGearToRBEInFEEntity\(HiddenDocumentFEBase, string, string, Vector, Obj, ShaftAttachType, ExpressionValueVariable?, AttachLocationType, Obj?, RacewayType, ExpressionValueVariable?, AttachLocationType, ClearanceParameters?\)
 
 Add gear to rbe in FE entity.
 
@@ -567,7 +567,7 @@ Will be thrown if magnitude of 'direction' is zero.
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddGearToRBEInFEEntity\(HiddenDocumentFEBase, Obj, int, Vector, Obj, ShaftAttachType, ExpressionValueVariable?, AttachLocationType, Obj?, RacewayType, ExpressionValueVariable?, AttachLocationType, ClearanceParameters?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddGearToRBEInFEEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentFEBase_VM_API_Pre_Obj_System_Int32_VM_Vector_VM_API_Pre_Obj_VM_API_Pre_GearTrain_ShaftAttachType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_System_Nullable_VM_API_Pre_Obj__VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> AddGearToRBEInFEEntity\(HiddenDocumentFEBase, Obj, int, Vector, Obj, ShaftAttachType, ExpressionValueVariable?, AttachLocationType, Obj?, RacewayType, ExpressionValueVariable?, AttachLocationType, ClearanceParameters?\)
 
 Add gear to rbe in FE entity.
 
@@ -657,7 +657,7 @@ Will be thrown if type of 'gearset' is not <xref href="VM.Managed.DAFUL.GearTrai
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddGearToShaftset\(HiddenShaftSetDocument, string, string, ShaftAttachType, ExpressionValueVariable?, AttachLocationType, Obj?, RacewayType, ExpressionValueVariable?, AttachLocationType, ClearanceParameters?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddGearToShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_String_VM_API_Pre_GearTrain_ShaftAttachType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_System_Nullable_VM_API_Pre_Obj__VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> AddGearToShaftset\(HiddenShaftSetDocument, string, string, ShaftAttachType, ExpressionValueVariable?, AttachLocationType, Obj?, RacewayType, ExpressionValueVariable?, AttachLocationType, ClearanceParameters?\)
 
 Add gear to shaftset.
 
@@ -719,7 +719,7 @@ The clearance parameter. If it is not given, default values will be used.
 
 Will be thrown if 'document' or 'gearSetName' or 'gearName' arguments are empty.
 
-### AddGearToShaftset\(HiddenShaftSetDocument, Obj, int, ShaftAttachType, ExpressionValueVariable?, AttachLocationType, Obj?, RacewayType, ExpressionValueVariable?, AttachLocationType, ClearanceParameters?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddGearToShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_VM_API_Pre_Obj_System_Int32_VM_API_Pre_GearTrain_ShaftAttachType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_System_Nullable_VM_API_Pre_Obj__VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> AddGearToShaftset\(HiddenShaftSetDocument, Obj, int, ShaftAttachType, ExpressionValueVariable?, AttachLocationType, Obj?, RacewayType, ExpressionValueVariable?, AttachLocationType, ClearanceParameters?\)
 
 Add gear to shaftset.
 
@@ -795,7 +795,7 @@ Will be thrown if 'gearIndex' is greater than or equal to gear's count.
 
 Will be thrown if type of 'gearset' is not <xref href="VM.Managed.DAFUL.GearTrain.IGearSet" data-throw-if-not-resolved="false"></xref>.
 
-### AddRackToRBEInEFEntity\(HiddenDocumentMeshFreeBase, string, string, Vector, Obj, Obj, bool, bool, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddRackToRBEInEFEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshFreeBase_System_String_System_String_VM_Vector_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Boolean_System_Boolean_System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> AddRackToRBEInEFEntity\(HiddenDocumentMeshFreeBase, string, string, Vector, Obj, Obj, bool, bool, ExpressionValueVariable?\)
 
 Add rack to rbe in EF entity.
 
@@ -859,7 +859,7 @@ Will be thrown if type of 'connectableStart' is not <xref href="VM.Managed.DAFUL
 
 Will be thrown if type of 'connectableEnd' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddRackToRBEInEFEntity\(HiddenDocumentMeshFreeBase, Obj, int, Vector, Obj, Obj, bool, bool, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddRackToRBEInEFEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshFreeBase_VM_API_Pre_Obj_System_Int32_VM_Vector_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Boolean_System_Boolean_System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> AddRackToRBEInEFEntity\(HiddenDocumentMeshFreeBase, Obj, int, Vector, Obj, Obj, bool, bool, ExpressionValueVariable?\)
 
 Add rack to rbe in EF entity.
 
@@ -937,7 +937,7 @@ Will be thrown if type of 'connectableStart' is not <xref href="VM.Managed.DAFUL
 
 Will be thrown if type of 'connectableEnd' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddRackToRBEInFEEntity\(HiddenDocumentFEBase, string, string, Vector, Obj, Obj, bool, bool, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddRackToRBEInFEEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentFEBase_System_String_System_String_VM_Vector_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Boolean_System_Boolean_System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> AddRackToRBEInFEEntity\(HiddenDocumentFEBase, string, string, Vector, Obj, Obj, bool, bool, ExpressionValueVariable?\)
 
 Add gear to rack in FE entity.
 
@@ -1001,7 +1001,7 @@ Will be thrown if type of 'connectableStart' is not <xref href="VM.Managed.DAFUL
 
 Will be thrown if type of 'connectableEnd' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddRackToRBEInFEEntity\(HiddenDocumentFEBase, Obj, int, Vector, Obj, Obj, bool, bool, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddRackToRBEInFEEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentFEBase_VM_API_Pre_Obj_System_Int32_VM_Vector_VM_API_Pre_Obj_VM_API_Pre_Obj_System_Boolean_System_Boolean_System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> AddRackToRBEInFEEntity\(HiddenDocumentFEBase, Obj, int, Vector, Obj, Obj, bool, bool, ExpressionValueVariable?\)
 
 Add gear to rack in FE entity.
 
@@ -1079,7 +1079,7 @@ Will be thrown if type of 'connectableStart' is not <xref href="VM.Managed.DAFUL
 
 Will be thrown if type of 'connectableEnd' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddRackToShaftset\(HiddenShaftSetDocument, string, string, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddRackToShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> AddRackToShaftset\(HiddenShaftSetDocument, string, string, ExpressionValueVariable?\)
 
 Add rack to shaftset.
 
@@ -1113,7 +1113,7 @@ The initial angle. The default value is 0.0.
 
 Will be thrown if 'document' or 'gearSetName' or 'gearName' arguments are empty.
 
-### AddRackToShaftset\(HiddenShaftSetDocument, Obj, int, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddRackToShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_VM_API_Pre_Obj_System_Int32_System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> AddRackToShaftset\(HiddenShaftSetDocument, Obj, int, ExpressionValueVariable?\)
 
 Add rack to shaftset.
 
@@ -1161,7 +1161,7 @@ Will be thrown if 'gearIndex' is greater than or equal to gear's count.
 
 Will be thrown if type of 'gearSetRackAndPinion' is not <xref href="VM.Managed.DAFUL.GearTrain.GearSetRackAndPinion" data-throw-if-not-resolved="false"></xref>.
 
-### AddSectionInSimpleShaftset\(HiddenShaftSetDocument, ExpressionValueVariable?, CrossSectionType, IEnumerable<ExpressionValueVariable\>, string\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddSectionInSimpleShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_CrossSectionType_System_Collections_Generic_IEnumerable_VM_Models_Pre_ExpressionValueVariable__System_String_"></a> AddSectionInSimpleShaftset\(HiddenShaftSetDocument, ExpressionValueVariable?, CrossSectionType, IEnumerable<ExpressionValueVariable\>, string\)
 
 Add section in simple shaftset.
 
@@ -1202,7 +1202,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'crossSection' and 'diameters' argument do not match.
 
-### AddSlidingBearingToRBEInEFEntity\(HiddenDocumentMeshFreeBase, string, Obj, enSBContactType\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddSlidingBearingToRBEInEFEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshFreeBase_System_String_VM_API_Pre_Obj_VM_Managed_DAFUL_GearTrain_enSBContactType_"></a> AddSlidingBearingToRBEInEFEntity\(HiddenDocumentMeshFreeBase, string, Obj, enSBContactType\)
 
 Add sliding bearing to rbe in EF entity.
 
@@ -1239,7 +1239,7 @@ Will be thrown if 'document' or 'slidingBearingName' or 'connectable' arguments 
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddSlidingBearingToRBEInEFEntity\(HiddenDocumentMeshFreeBase, Obj, Obj, enSBContactType\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddSlidingBearingToRBEInEFEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshFreeBase_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Managed_DAFUL_GearTrain_enSBContactType_"></a> AddSlidingBearingToRBEInEFEntity\(HiddenDocumentMeshFreeBase, Obj, Obj, enSBContactType\)
 
 Add sliding bearing to rbe in EF entity.
 
@@ -1281,7 +1281,7 @@ Will be thrown if type of 'slidingBearing' is not <xref href="VM.Managed.DAFUL.G
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddSlidingBearingToRBEInFEEntity\(HiddenDocumentFEBase, string, Obj, enSBContactType\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddSlidingBearingToRBEInFEEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentFEBase_System_String_VM_API_Pre_Obj_VM_Managed_DAFUL_GearTrain_enSBContactType_"></a> AddSlidingBearingToRBEInFEEntity\(HiddenDocumentFEBase, string, Obj, enSBContactType\)
 
 Add sliding bearing to rbe in FE entity.
 
@@ -1318,7 +1318,7 @@ Will be thrown if 'document' or 'slidingBearingName' or 'connectable' arguments 
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddSlidingBearingToRBEInFEEntity\(HiddenDocumentFEBase, Obj, Obj, enSBContactType\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddSlidingBearingToRBEInFEEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentFEBase_VM_API_Pre_Obj_VM_API_Pre_Obj_VM_Managed_DAFUL_GearTrain_enSBContactType_"></a> AddSlidingBearingToRBEInFEEntity\(HiddenDocumentFEBase, Obj, Obj, enSBContactType\)
 
 Add sliding bearing to rbe in FE entity.
 
@@ -1360,7 +1360,7 @@ Will be thrown if type of 'slidingBearing' is not <xref href="VM.Managed.DAFUL.G
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### AddSlidingBearingToShaftset\(HiddenShaftSetDocument, string, enSBContactType, ExpressionValueVariable?, AttachLocationType, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddSlidingBearingToShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_VM_Managed_DAFUL_GearTrain_enSBContactType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> AddSlidingBearingToShaftset\(HiddenShaftSetDocument, string, enSBContactType, ExpressionValueVariable?, AttachLocationType, ExpressionValueVariable?\)
 
 Add sliding bearing to shaftset.
 
@@ -1402,7 +1402,7 @@ The start angle. The default value is 0.0.
 
 Will be thrown if 'document' or 'slidingBearingName' arguments are empty.
 
-### AddSlidingBearingToShaftset\(HiddenShaftSetDocument, Obj, enSBContactType, ExpressionValueVariable?, AttachLocationType, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_AddSlidingBearingToShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_VM_API_Pre_Obj_VM_Managed_DAFUL_GearTrain_enSBContactType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_AttachLocationType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> AddSlidingBearingToShaftset\(HiddenShaftSetDocument, Obj, enSBContactType, ExpressionValueVariable?, AttachLocationType, ExpressionValueVariable?\)
 
 Add sliding bearing to shaftset.
 
@@ -1449,7 +1449,7 @@ Will be thrown if 'document' or 'slidingBearing' arguments are empty.
 
 Will be thrown if type of 'slidingBearing' is not <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref>.
 
-### ComponentAnalysisInShaftSet\(HiddenShaftSetDocument, bool\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_ComponentAnalysisInShaftSet_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_Boolean_"></a> ComponentAnalysisInShaftSet\(HiddenShaftSetDocument, bool\)
 
 Component analysis In simple shaftset designer.
 
@@ -1474,7 +1474,7 @@ The flag for whether opening post processor. The default value is false.
 
 Will be thrown if 'document' argument is empty.
 
-### ComponentAnalysisInShaftSet\(HiddenDocumentMeshBase, bool\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_ComponentAnalysisInShaftSet_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_System_Boolean_"></a> ComponentAnalysisInShaftSet\(HiddenDocumentMeshBase, bool\)
 
 Component analysis In simple shaftset designer.
 
@@ -1499,7 +1499,7 @@ The flag for whether opening post processor. The default value is false.
 
 Will be thrown if 'document' argument is empty.
 
-### CreateConceptCarrier\(GearTrainDocument, Obj, Vector?, Vector?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, PinionInstallMethodType, Obj?, Color?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_CreateConceptCarrier_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_Nullable_VM_Vector__System_Nullable_VM_Vector__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_API_Pre_GearTrain_PinionInstallMethodType_System_Nullable_VM_API_Pre_Obj__System_Nullable_System_Drawing_Color__"></a> CreateConceptCarrier\(GearTrainDocument, Obj, Vector?, Vector?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, PinionInstallMethodType, Obj?, Color?\)
 
 Create concept carrier.
 
@@ -1579,7 +1579,7 @@ Will be thrown if type of 'gearSet' is not IGearSet gearSet.
 
 Will be thrown if type of 'bearing' is not <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
-### CreateEFShaftset\(GearTrainDocument, string\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_CreateEFShaftset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_"></a> CreateEFShaftset\(GearTrainDocument, string\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.ShaftSetMeshFree" data-throw-if-not-resolved="false"></xref>.
 
@@ -1610,7 +1610,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.ShaftSetMeshFree" data-throw-if-n
 
 Will be thrown if 'document' argument is empty.
 
-### CreateFEShaftset\(GearTrainDocument, string\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_CreateFEShaftset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_"></a> CreateFEShaftset\(GearTrainDocument, string\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.ShaftSetFE" data-throw-if-not-resolved="false"></xref>.
 
@@ -1641,7 +1641,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.ShaftSetFE" data-throw-if-not-res
 
 Will be thrown if 'document' argument is empty.
 
-### CreateMeasurePointToShaftset\(HiddenShaftSetDocument, string, ExpressionValueVariable?, ReferenceType\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_CreateMeasurePointToShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_ReferenceType_"></a> CreateMeasurePointToShaftset\(HiddenShaftSetDocument, string, ExpressionValueVariable?, ReferenceType\)
 
 Create measure point in simple shaftset <xref href="VM.Managed.DAFUL.GearTrain.MeasurePoint" data-throw-if-not-resolved="false"></xref>.
 
@@ -1680,7 +1680,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.MeasurePoint" data-throw-if-not-r
 
 Will be thrown if 'document' argument is empty.
 
-### CreatePointLoadToRBE\(HiddenDocumentMeshBase, Obj, Vector, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_CreatePointLoadToRBE_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_API_Pre_Obj_VM_Vector_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> CreatePointLoadToRBE\(HiddenDocumentMeshBase, Obj, Vector, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?\)
 
 Create point load in FE/EF shaftset <xref href="VM.Managed.DAFUL.GearTrain.PointLoadOnRBE" data-throw-if-not-resolved="false"></xref>.
 
@@ -1750,7 +1750,7 @@ Will be thrown if magnitude of 'direction' is zero.
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### CreatePointLoadToShaftset\(HiddenShaftSetDocument, string, ExpressionValueVariable?, ReferenceType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_CreatePointLoadToShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_ReferenceType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> CreatePointLoadToShaftset\(HiddenShaftSetDocument, string, ExpressionValueVariable?, ReferenceType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?\)
 
 Create point load in simple shaftset <xref href="VM.Managed.DAFUL.GearTrain.PointLoad" data-throw-if-not-resolved="false"></xref>.
 
@@ -1813,7 +1813,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.PointLoad" data-throw-if-not-reso
 
 Will be thrown if 'document' argument is empty.
 
-### CreatePowerLoadToRBE\(HiddenDocumentMeshBase, Obj, Vector, string, PowerLoadType\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_CreatePowerLoadToRBE_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_API_Pre_Obj_VM_Vector_System_String_VM_Managed_DAFUL_GearTrain_PowerLoad_PowerLoadType_"></a> CreatePowerLoadToRBE\(HiddenDocumentMeshBase, Obj, Vector, string, PowerLoadType\)
 
 Create power load in FE/EF shaftset <xref href="VM.Managed.DAFUL.GearTrain.PowerLoadOnRBE" data-throw-if-not-resolved="false"></xref>.
 
@@ -1871,7 +1871,7 @@ Will be thrown if magnitude of 'direction' is zero.
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### CreatePowerloadToShaftset\(HiddenShaftSetDocument, string, ExpressionValueVariable?, ReferenceType, ExpressionValueVariable?, PowerLoadType\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_CreatePowerloadToShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_ReferenceType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_Managed_DAFUL_GearTrain_PowerLoad_PowerLoadType_"></a> CreatePowerloadToShaftset\(HiddenShaftSetDocument, string, ExpressionValueVariable?, ReferenceType, ExpressionValueVariable?, PowerLoadType\)
 
 Create power load in simple shaftset <xref href="VM.Managed.DAFUL.GearTrain.PowerLoad" data-throw-if-not-resolved="false"></xref>.
 
@@ -1918,7 +1918,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.PowerLoad" data-throw-if-not-reso
 
 Will be thrown if 'document' argument is empty.
 
-### CreateSimpleShaftset\(GearTrainDocument, Vector, Vector, ExpressionValueVariable, ExpressionValueVariable, string, int, Color?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_CreateSimpleShaftset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_Vector_VM_Vector_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_System_String_System_Int32_System_Nullable_System_Drawing_Color__"></a> CreateSimpleShaftset\(GearTrainDocument, Vector, Vector, ExpressionValueVariable, ExpressionValueVariable, string, int, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.ShaftSet" data-throw-if-not-resolved="false"></xref>.
 
@@ -1983,7 +1983,7 @@ Will be thrown if the magnitude of 'rotateAxis' is 0.
 
 Will be thrown if 'length' or 'diameter' or 'numSection' value equal to or less than 0.
 
-### CreateSimpleShaftset\(GearTrainDocument, Vector\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_CreateSimpleShaftset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_Vector_"></a> CreateSimpleShaftset\(GearTrainDocument, Vector\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.ShaftSet" data-throw-if-not-resolved="false"></xref>.
 
@@ -2013,7 +2013,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.ShaftSet" data-throw-if-not-resol
 
 Will be thrown if 'document' argument is empty.
 
-### CreateSimpleShaftset\(GearTrainDocument\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_CreateSimpleShaftset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_"></a> CreateSimpleShaftset\(GearTrainDocument\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.ShaftSet" data-throw-if-not-resolved="false"></xref>.
 
@@ -2039,7 +2039,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.ShaftSet" data-throw-if-not-resol
 
 Will be thrown if 'document' argument is empty.
 
-### CreateUnbalanceMassToRBE\(HiddenDocumentMeshBase, Obj, Vector, string, ExpressionValueVariable?, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_CreateUnbalanceMassToRBE_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_API_Pre_Obj_VM_Vector_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> CreateUnbalanceMassToRBE\(HiddenDocumentMeshBase, Obj, Vector, string, ExpressionValueVariable?, ExpressionValueVariable?\)
 
 Create unbalance mass in FE/EF shaftset <xref href="VM.Managed.DAFUL.GearTrain.UnbalanceMassOnRBE" data-throw-if-not-resolved="false"></xref>.
 
@@ -2097,7 +2097,7 @@ Will be thrown if magnitude of 'direction' is zero.
 
 Will be thrown if type of 'connectable' is not <xref href="VM.Managed.DAFUL.IConnectable" data-throw-if-not-resolved="false"></xref>.
 
-### CreateUnbalanceMassToShaftset\(HiddenShaftSetDocument, string, ExpressionValueVariable?, ReferenceType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_CreateUnbalanceMassToShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__VM_Managed_DAFUL_GearTrain_PointEntityOnShaftSet_ReferenceType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__"></a> CreateUnbalanceMassToShaftset\(HiddenShaftSetDocument, string, ExpressionValueVariable?, ReferenceType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?\)
 
 Create unbalance mass in simple shaftset <xref href="VM.Managed.DAFUL.GearTrain.UnbalanceMass" data-throw-if-not-resolved="false"></xref>.
 
@@ -2148,7 +2148,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.UnbalanceMass" data-throw-if-not-
 
 Will be thrown if 'document' argument is empty.
 
-### ImportMeshIntoFEEntity\(HiddenDocumentFEBase, TMatrix, string, Color?, string, bool, LengthUnitType, MassUnitType, TimeUnitType, string\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_ImportMeshIntoFEEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentFEBase_VM_TMatrix_System_String_System_Nullable_System_Drawing_Color__System_String_System_Boolean_VM_API_Pre_LengthUnitType_VM_API_Pre_MassUnitType_VM_API_Pre_TimeUnitType_System_String_"></a> ImportMeshIntoFEEntity\(HiddenDocumentFEBase, TMatrix, string, Color?, string, bool, LengthUnitType, MassUnitType, TimeUnitType, string\)
 
 Import mesh into FE Entity.
 
@@ -2210,7 +2210,7 @@ Will be thrown if 'document' arguments are empty.
 
 Will be thrown if 'feDataFilePath' does not exist.
 
-### ImportPartIntoEFEntity\(HiddenDocumentMeshFreeBase, TMatrix, string, CADImportResultType, CadImportUnitType, bool, CadImportColorType, Color?, string\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_ImportPartIntoEFEntity_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshFreeBase_VM_TMatrix_System_String_VM_API_Pre_CADImportResultType_VM_Managed_Document3D_CadImportUnitType_System_Boolean_VM_Managed_Document3D_CadImportColorType_System_Nullable_System_Drawing_Color__System_String_"></a> ImportPartIntoEFEntity\(HiddenDocumentMeshFreeBase, TMatrix, string, CADImportResultType, CadImportUnitType, bool, CadImportColorType, Color?, string\)
 
 Import part into EF Entity.
 
@@ -2268,7 +2268,7 @@ Will be thrown if 'document' arguments are empty.
 
 Will be thrown if 'cadFilePath' does not exist.
 
-### SplitSectionInSimpleShaftset\(HiddenShaftSetDocument, Obj\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_SplitSectionInSimpleShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_VM_API_Pre_Obj_"></a> SplitSectionInSimpleShaftset\(HiddenShaftSetDocument, Obj\)
 
 Split section in simple shaftset.
 
@@ -2295,7 +2295,7 @@ The section to be splitted. The type is CAD.Section.
 
 Will be thrown if 'document' or 'section' arguments are empty.
 
-### SplitSectionInSimpleShaftset\(HiddenShaftSetDocument, int\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_SplitSectionInSimpleShaftset_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_Int32_"></a> SplitSectionInSimpleShaftset\(HiddenShaftSetDocument, int\)
 
 Split section in simple shaftset.
 
@@ -2325,7 +2325,7 @@ Will be thrown if 'document' or 'section' arguments are empty.
 
 Will be thrown if 'sectionIndex' is less than zero or greater than length of section -1.
 
-### UpdatePointEntity\(HiddenShaftSetDocument, Obj\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_UpdatePointEntity_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_VM_API_Pre_Obj_"></a> UpdatePointEntity\(HiddenShaftSetDocument, Obj\)
 
 Update point entity in shaftset designer.
 
@@ -2356,7 +2356,7 @@ Will be thrown if 'document' 'pointEntityOnShaftSet' arguments are empty.
 
 Will be thrown if type of 'pointEntityOnShaftSet' is not <xref href="VM.Managed.DAFUL.GearTrain.PointEntityOnShaftSet" data-throw-if-not-resolved="false"></xref>.
 
-### UpdatePointEntityOnRBE\(HiddenDocumentMeshBase, Obj\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_UpdatePointEntityOnRBE_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_API_Pre_Obj_"></a> UpdatePointEntityOnRBE\(HiddenDocumentMeshBase, Obj\)
 
 Update point entity in FE/EF shaftset/housing designer.
 
@@ -2387,7 +2387,7 @@ Will be thrown if 'document' 'pointEntityOnRBE' arguments are empty.
 
 Will be thrown if type of 'pointEntityOnRBE' is not <xref href="VM.Managed.DAFUL.GearTrain.PointEntityOnRBE" data-throw-if-not-resolved="false"></xref>.
 
-### UpdateShaftSet\(HiddenShaftSetDocument\)
+### <a id="VM_API_Pre_GearTrain_ShaftSetAPI_UpdateShaftSet_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_"></a> UpdateShaftSet\(HiddenShaftSetDocument\)
 
 Update simple shaftset in shaftset designer.
 
@@ -2407,5 +2407,4 @@ The <xref href="VM.Managed.DAFUL.GearTrain.HiddenShaftSetDocument" data-throw-if
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'document' argument is empty.
-
 

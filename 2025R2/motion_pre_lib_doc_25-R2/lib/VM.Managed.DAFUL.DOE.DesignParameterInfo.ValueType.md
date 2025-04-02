@@ -1,4 +1,4 @@
-# Enum DesignParameterInfo.ValueType
+#  Enum DesignParameterInfo.ValueType
 
 Namespace: [VM.Managed.DAFUL.DOE](VM.Managed.DAFUL.DOE.md)  
 Assembly: VMDDOE.dll  
@@ -16,5 +16,4 @@ public enum DesignParameterInfo.ValueType
 `Y = 1` 
 
 `Z = 2` 
-
 

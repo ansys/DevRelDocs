@@ -1,4 +1,4 @@
-# Class SweptSineSteerConfiguration
+#  Class SweptSineSteerConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SweptSineSteerConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_SweptSineSteerConfiguration__ctor"></a> SweptSineSteerConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SweptSineSteerConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SweptSineStee
 public SweptSineSteerConfiguration()
 ```
 
-### SweptSineSteerConfiguration\(AnalysisSweptSineSteer\)
+### <a id="VM_Managed_DAFUL_Car_SweptSineSteerConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisSweptSineSteer_"></a> SweptSineSteerConfiguration\(AnalysisSweptSineSteer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SweptSineSteerConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_SweptSineSteerConfiguration_Analysis"></a> Analysis
 
 Gets or sets the analysis.
 
@@ -239,7 +239,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_SweptSineSteerConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -251,7 +251,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_SweptSineSteerConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -263,7 +263,7 @@ public override FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### SweptSineSteerParam
+### <a id="VM_Managed_DAFUL_Car_SweptSineSteerConfiguration_SweptSineSteerParam"></a> SweptSineSteerParam
 
 Gets or sets the swept sine steer parameter.
 
@@ -274,5 +274,4 @@ public AnalysisSweptSineSteer SweptSineSteerParam { get; set; }
 #### Property Value
 
  [AnalysisSweptSineSteer](VM.Managed.DAFUL.Car.AnalysisSweptSineSteer.md)
-
 

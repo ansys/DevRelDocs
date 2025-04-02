@@ -1,4 +1,4 @@
-# Class AddedRacewayBuilderForRBEInMeshFree
+#  Class AddedRacewayBuilderForRBEInMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -247,7 +247,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AddedRacewayBuilderForRBEInMeshFree\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilderForRBEInMeshFree__ctor"></a> AddedRacewayBuilderForRBEInMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedRacewayBuilderForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -255,7 +255,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Add
 public AddedRacewayBuilderForRBEInMeshFree()
 ```
 
-### AddedRacewayBuilderForRBEInMeshFree\(RacewayGeometryForRBEInMeshFree\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilderForRBEInMeshFree__ctor_VM_Managed_DAFUL_GearTrain_CAD_RacewayGeometryForRBEInMeshFree_"></a> AddedRacewayBuilderForRBEInMeshFree\(RacewayGeometryForRBEInMeshFree\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.AddedRacewayBuilderForRBEInMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
@@ -271,7 +271,7 @@ The geometry.
 
 ## Methods
 
-### GetTransform\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilderForRBEInMeshFree_GetTransform"></a> GetTransform\(\)
 
 Gets the transform for the added raceway in MF designer.
 
@@ -285,7 +285,7 @@ public override TMatrix GetTransform()
 
 The transform.
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilderForRBEInMeshFree_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request destroying.
 
@@ -303,12 +303,11 @@ The object notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### UpdateGeometry\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_AddedRacewayBuilderForRBEInMeshFree_UpdateGeometry"></a> UpdateGeometry\(\)
 
 Updates the geometry.
 
 ```csharp
 public override void UpdateGeometry()
 ```
-
 

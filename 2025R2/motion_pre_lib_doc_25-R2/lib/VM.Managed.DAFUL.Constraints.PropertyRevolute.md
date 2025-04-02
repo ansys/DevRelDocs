@@ -1,4 +1,4 @@
-# Class PropertyRevolute
+#  Class PropertyRevolute
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCB.dll  
@@ -171,7 +171,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyRevolute\(\)
+### <a id="VM_Managed_DAFUL_Constraints_PropertyRevolute__ctor"></a> PropertyRevolute\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.PropertyRevolute" data-throw-if-not-resolved="false"></xref> class.
 
@@ -181,7 +181,7 @@ public PropertyRevolute()
 
 ## Fields
 
-### \_\_a$\_a\_VM.Models.Pre.LinkAttribute
+### <a id="VM_Managed_DAFUL_Constraints_PropertyRevolute___a__a_VM_Models_Pre_LinkAttribute"></a> \_\_a$\_a\_VM.Models.Pre.LinkAttribute
 
 ```csharp
 protected LinkAttribute __a$_a_VM.Models.Pre.LinkAttribute
@@ -191,7 +191,7 @@ protected LinkAttribute __a$_a_VM.Models.Pre.LinkAttribute
 
  LinkAttribute
 
-### \_\_a$\_a\_VM.Models.Pre.LinkUpdateAttribute
+### <a id="VM_Managed_DAFUL_Constraints_PropertyRevolute___a__a_VM_Models_Pre_LinkUpdateAttribute"></a> \_\_a$\_a\_VM.Models.Pre.LinkUpdateAttribute
 
 ```csharp
 protected LinkUpdateAttribute __a$_a_VM.Models.Pre.LinkUpdateAttribute
@@ -203,7 +203,7 @@ protected LinkUpdateAttribute __a$_a_VM.Models.Pre.LinkUpdateAttribute
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Constraints_PropertyRevolute_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -215,7 +215,7 @@ public override ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### Clearance
+### <a id="VM_Managed_DAFUL_Constraints_PropertyRevolute_Clearance"></a> Clearance
 
 Gets or sets the clearance.
 
@@ -227,7 +227,7 @@ public ClearanceRevolute Clearance { get; set; }
 
  [ClearanceRevolute](VM.Managed.DAFUL.ClearanceRevolute.md)
 
-### Driver
+### <a id="VM_Managed_DAFUL_Constraints_PropertyRevolute_Driver"></a> Driver
 
 Gets or sets the driver.
 
@@ -239,7 +239,7 @@ public Driver Driver { get; set; }
 
  [Driver](VM.Managed.DAFUL.Constraints.Driver.md)
 
-### Friction
+### <a id="VM_Managed_DAFUL_Constraints_PropertyRevolute_Friction"></a> Friction
 
 Gets or sets the friction.
 
@@ -251,7 +251,7 @@ public FrictionRevolute Friction { get; set; }
 
  [FrictionRevolute](VM.Managed.DAFUL.Constraints.FrictionRevolute.md)
 
-### Restriction
+### <a id="VM_Managed_DAFUL_Constraints_PropertyRevolute_Restriction"></a> Restriction
 
 Gets or sets the restriction.
 
@@ -265,7 +265,7 @@ public RestrictionRotationalAngle Restriction { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Constraints_PropertyRevolute_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -279,7 +279,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Constraints_PropertyRevolute_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -292,5 +292,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

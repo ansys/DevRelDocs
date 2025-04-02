@@ -1,4 +1,4 @@
-# Class NodalBody
+#  Class NodalBody
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -228,7 +228,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### NodalBody\(string, string, TransformBase\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody__ctor_System_String_System_String_VM_Managed_TransformBase_"></a> NodalBody\(string, string, TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -250,7 +250,7 @@ The nodal body file path.
 
 The transformation.
 
-### NodalBody\(string, Instance\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody__ctor_System_String_VM_Managed_Instance_"></a> NodalBody\(string, Instance\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -268,7 +268,7 @@ Name of the nodal body.
 
 The instance nodal body.
 
-### NodalBody\(\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody__ctor"></a> NodalBody\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref> class.
 
@@ -278,7 +278,7 @@ public NodalBody()
 
 ## Properties
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_FE_NodalBody_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of body.
 
@@ -290,7 +290,7 @@ BodyAnalysisType AnalysisType { get; set; }
 
  BodyAnalysisType
 
-### BodyType
+### <a id="VM_Managed_DAFUL_FE_NodalBody_BodyType"></a> BodyType
 
 Gets or sets the type of body.
 
@@ -303,7 +303,7 @@ public virtual FlexibleBodyType BodyType { get; set; }
 
  [FlexibleBodyType](VM.Managed.DAFUL.FE.FlexibleBodyType.md)
 
-### ChangedDocument
+### <a id="VM_Managed_DAFUL_FE_NodalBody_ChangedDocument"></a> ChangedDocument
 
 Gets the document.
 
@@ -315,7 +315,7 @@ Document ChangedDocument { get; }
 
  Document
 
-### FilePath
+### <a id="VM_Managed_DAFUL_FE_NodalBody_FilePath"></a> FilePath
 
 Gets or sets the file path.
 
@@ -327,7 +327,7 @@ string FilePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### InitVel
+### <a id="VM_Managed_DAFUL_FE_NodalBody_InitVel"></a> InitVel
 
 Gets or sets the initial velocity.
 
@@ -339,7 +339,7 @@ public BodyPropertyBase.InitialVelocity InitVel { get; set; }
 
  BodyPropertyBase.InitialVelocity
 
-### IsModalBody
+### <a id="VM_Managed_DAFUL_FE_NodalBody_IsModalBody"></a> IsModalBody
 
 Gets a value indicating whether is modal body.
 
@@ -351,7 +351,7 @@ public bool IsModalBody { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LargeDeformation
+### <a id="VM_Managed_DAFUL_FE_NodalBody_LargeDeformation"></a> LargeDeformation
 
 Gets or sets the flag of large deformation.
 
@@ -363,7 +363,7 @@ public bool LargeDeformation { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MassCenter
+### <a id="VM_Managed_DAFUL_FE_NodalBody_MassCenter"></a> MassCenter
 
 Gets the mass center.
 
@@ -375,7 +375,7 @@ public Vector MassCenter { get; }
 
  Vector
 
-### MassCenterImpl
+### <a id="VM_Managed_DAFUL_FE_NodalBody_MassCenterImpl"></a> MassCenterImpl
 
 Gets the massCenter.
 
@@ -387,7 +387,7 @@ Vector MassCenterImpl { get; }
 
  Vector
 
-### MassValue
+### <a id="VM_Managed_DAFUL_FE_NodalBody_MassValue"></a> MassValue
 
 Gets the mass value.
 
@@ -399,7 +399,7 @@ public double MassValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MeshList
+### <a id="VM_Managed_DAFUL_FE_NodalBody_MeshList"></a> MeshList
 
 Gets the mesh container.
 
@@ -411,7 +411,7 @@ public List<Mesh> MeshList { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[Mesh](VM.Managed.DAFUL.FE.Mesh.md)\>
 
-### ModalMassCenter
+### <a id="VM_Managed_DAFUL_FE_NodalBody_ModalMassCenter"></a> ModalMassCenter
 
 Gets the mass center for modal.
 
@@ -423,7 +423,7 @@ public Vector ModalMassCenter { get; }
 
  Vector
 
-### ModalMassValue
+### <a id="VM_Managed_DAFUL_FE_NodalBody_ModalMassValue"></a> ModalMassValue
 
 Gets the mass for modal.
 
@@ -435,7 +435,7 @@ public double ModalMassValue { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ModalMomentOfInertiaValue
+### <a id="VM_Managed_DAFUL_FE_NodalBody_ModalMomentOfInertiaValue"></a> ModalMomentOfInertiaValue
 
 Gets the inertial for modal.
 
@@ -447,7 +447,7 @@ public _MomentOfInertia ModalMomentOfInertiaValue { get; }
 
  [\_MomentOfInertia](VM.Managed.DAFUL.FE.\_MomentOfInertia.md)
 
-### MomentOfInertiaValue
+### <a id="VM_Managed_DAFUL_FE_NodalBody_MomentOfInertiaValue"></a> MomentOfInertiaValue
 
 Gets the moment of inertia value.
 
@@ -459,7 +459,7 @@ public _MomentOfInertia MomentOfInertiaValue { get; }
 
  [\_MomentOfInertia](VM.Managed.DAFUL.FE.\_MomentOfInertia.md)
 
-### MovingReferenceFrame
+### <a id="VM_Managed_DAFUL_FE_NodalBody_MovingReferenceFrame"></a> MovingReferenceFrame
 
 Gets or sets the moving reference frame.
 
@@ -471,7 +471,7 @@ public IMarker MovingReferenceFrame { get; set; }
 
  IMarker
 
-### NumberOfEdgeset
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfEdgeset"></a> NumberOfEdgeset
 
 Gets the number of edgeset.
 
@@ -483,7 +483,7 @@ public int NumberOfEdgeset { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfElement
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfElement"></a> NumberOfElement
 
 Gets the number of element.
 
@@ -495,7 +495,7 @@ public int NumberOfElement { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfElementset
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfElementset"></a> NumberOfElementset
 
 Gets the number of elementset.
 
@@ -507,7 +507,7 @@ public int NumberOfElementset { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfFrequency
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfFrequency"></a> NumberOfFrequency
 
 Gets the number of frequency.
 
@@ -519,7 +519,7 @@ public int NumberOfFrequency { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfNode
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfNode"></a> NumberOfNode
 
 Gets the number of node.
 
@@ -531,7 +531,7 @@ public int NumberOfNode { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfNodeset
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfNodeset"></a> NumberOfNodeset
 
 Gets the number of nodeset.
 
@@ -543,7 +543,7 @@ public int NumberOfNodeset { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfPatchset
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfPatchset"></a> NumberOfPatchset
 
 Gets the number of patchset.
 
@@ -555,7 +555,7 @@ public int NumberOfPatchset { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfProperty
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NumberOfProperty"></a> NumberOfProperty
 
 Gets the number of property.
 
@@ -567,7 +567,7 @@ public int NumberOfProperty { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### ParentType
+### <a id="VM_Managed_DAFUL_FE_NodalBody_ParentType"></a> ParentType
 
 Gets the type of the parent.
 
@@ -579,7 +579,7 @@ MarkerParentType ParentType { get; }
 
  MarkerParentType
 
-### ReferenceFrameType
+### <a id="VM_Managed_DAFUL_FE_NodalBody_ReferenceFrameType"></a> ReferenceFrameType
 
 Gets the type of the reference frame.
 
@@ -591,7 +591,7 @@ MarkerReferenceFrameType ReferenceFrameType { get; }
 
  MarkerReferenceFrameType
 
-### ReferenceMarker
+### <a id="VM_Managed_DAFUL_FE_NodalBody_ReferenceMarker"></a> ReferenceMarker
 
 Gets or sets the reference marker.
 
@@ -603,7 +603,7 @@ public InvisibleMarker ReferenceMarker { get; set; }
 
  InvisibleMarker
 
-### TopologyEntityTypeName
+### <a id="VM_Managed_DAFUL_FE_NodalBody_TopologyEntityTypeName"></a> TopologyEntityTypeName
 
 Get the object type name
 
@@ -615,7 +615,7 @@ public override string TopologyEntityTypeName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UseAdvancedOption
+### <a id="VM_Managed_DAFUL_FE_NodalBody_UseAdvancedOption"></a> UseAdvancedOption
 
 ```csharp
 public bool UseAdvancedOption { get; set; }
@@ -625,7 +625,7 @@ public bool UseAdvancedOption { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseRMovingReferenceFrame
+### <a id="VM_Managed_DAFUL_FE_NodalBody_UseRMovingReferenceFrame"></a> UseRMovingReferenceFrame
 
 ```csharp
 public bool UseRMovingReferenceFrame { get; set; }
@@ -635,7 +635,7 @@ public bool UseRMovingReferenceFrame { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseTMovingReferenceFrame
+### <a id="VM_Managed_DAFUL_FE_NodalBody_UseTMovingReferenceFrame"></a> UseTMovingReferenceFrame
 
 ```csharp
 public bool UseTMovingReferenceFrame { get; set; }
@@ -645,7 +645,7 @@ public bool UseTMovingReferenceFrame { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### \_MovingReferenceFrame
+### <a id="VM_Managed_DAFUL_FE_NodalBody__MovingReferenceFrame"></a> \_MovingReferenceFrame
 
 Gets or sets the moving reference frame.
 
@@ -659,7 +659,7 @@ public Linker<IMarker> _MovingReferenceFrame { get; set; }
 
 ## Methods
 
-### ChangeNodalModal\(BodyAnalysisType\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_ChangeNodalModal_VM_Managed_DAFUL_BodyAnalysisType_"></a> ChangeNodalModal\(BodyAnalysisType\)
 
 Change Nodal or Modal.
 
@@ -673,7 +673,7 @@ public void ChangeNodalModal(BodyAnalysisType type)
 
 The flexible body type.
 
-### Create\(SubSystemDocument, string, MeshDocument, TransformBase\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_Create_VM_Managed_DAFUL_SubSystemDocument_System_String_VM_Managed_DAFUL_FE_MeshDocument_VM_Managed_TransformBase_"></a> Create\(SubSystemDocument, string, MeshDocument, TransformBase\)
 
 Create New <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref> class with given <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.TransformBase?text=Transformation" data-throw-if-not-resolved="false"></xref>.
 
@@ -705,7 +705,7 @@ The <xref href="VM.Managed.TransformBase?text=Transformation" data-throw-if-not-
 
 The new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
-### Create\(SubSystemDocument, string, MeshDocument\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_Create_VM_Managed_DAFUL_SubSystemDocument_System_String_VM_Managed_DAFUL_FE_MeshDocument_"></a> Create\(SubSystemDocument, string, MeshDocument\)
 
 Create New <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref> class with given <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved="false"></xref> with identity transformation.
 
@@ -733,7 +733,7 @@ The <xref href="VM.Managed.DAFUL.FE.MeshDocument" data-throw-if-not-resolved="fa
 
 The new <xref href="VM.Managed.DAFUL.FE.NodalBody" data-throw-if-not-resolved="false"></xref>.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -753,7 +753,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -773,7 +773,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetContactables\(\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_GetContactables"></a> GetContactables\(\)
 
 Gets  the contactable list.
 
@@ -787,7 +787,7 @@ public virtual ObjectBase[] GetContactables()
 
 the contactable list.
 
-### GetElementInformation\(\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_GetElementInformation"></a> GetElementInformation\(\)
 
 Get element information.
 
@@ -799,7 +799,7 @@ public NodalBody.ElementInformation[] GetElementInformation()
 
  [NodalBody](VM.Managed.DAFUL.FE.NodalBody.md).[ElementInformation](VM.Managed.DAFUL.FE.NodalBody.ElementInformation.md)\[\]
 
-### GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_GetGeometryNavigatorInformation_System_Xml_XmlDocument_System_Xml_XmlElement_"></a> GetGeometryNavigatorInformation\(XmlDocument, XmlElement\)
 
 Gets the geometry information for model navigator .
 
@@ -823,7 +823,7 @@ The XmlElement information.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetMassPropImpl\(ref double, VectorBase, OMatrix, double\[\], bool\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_GetMassPropImpl_System_Double__VM_Managed_VectorBase_VM_Managed_OMatrix_System_Double___System_Boolean_"></a> GetMassPropImpl\(ref double, VectorBase, OMatrix, double\[\], bool\)
 
 Gets the mass property.
 
@@ -851,7 +851,7 @@ The tensor.
 
 `bGlobal` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetMeshesImpl\(\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_GetMeshesImpl"></a> GetMeshesImpl\(\)
 
 Gets the meshes.
 
@@ -865,7 +865,7 @@ virtual ObjectBase[] GetMeshesImpl()
 
 The builders.
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -893,7 +893,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetNodePositions\(\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_GetNodePositions"></a> GetNodePositions\(\)
 
 Get node position.
 
@@ -905,7 +905,7 @@ public NodalBody.NodeInformation[] GetNodePositions()
 
  [NodalBody](VM.Managed.DAFUL.FE.NodalBody.md).[NodeInformation](VM.Managed.DAFUL.FE.NodalBody.NodeInformation.md)\[\]
 
-### GetNodePositionsForMesh\(Mesh, int\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_GetNodePositionsForMesh_VM_Managed_DAFUL_FE_Mesh_System_Int32_"></a> GetNodePositionsForMesh\(Mesh, int\)
 
 ```csharp
 public VectorBase GetNodePositionsForMesh(Mesh mesh, int nIndex)
@@ -921,7 +921,7 @@ public VectorBase GetNodePositionsForMesh(Mesh mesh, int nIndex)
 
  VectorBase
 
-### GetNodePositionsForMesh\(Mesh\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_GetNodePositionsForMesh_VM_Managed_DAFUL_FE_Mesh_"></a> GetNodePositionsForMesh\(Mesh\)
 
 Get node position for mesh.
 
@@ -939,7 +939,7 @@ The owner mesh.
 
  VectorBase\[\]
 
-### GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the point direction.
 
@@ -967,7 +967,7 @@ The reference.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### InitBodyType\(BodyAnalysisType, bool\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_InitBodyType_VM_Managed_DAFUL_BodyAnalysisType_System_Boolean_"></a> InitBodyType\(BodyAnalysisType, bool\)
 
 Initialize body type.
 
@@ -985,7 +985,7 @@ The flexible body type.
 
 The Update Navigator.
 
-### InitBodyType\(BodyAnalysisType\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_InitBodyType_VM_Managed_DAFUL_BodyAnalysisType_"></a> InitBodyType\(BodyAnalysisType\)
 
 Initialize body type.
 
@@ -999,7 +999,7 @@ public void InitBodyType(BodyAnalysisType type)
 
 The flexible body type.
 
-### InitInterfaceTable\(\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_InitInterfaceTable"></a> InitInterfaceTable\(\)
 
 Initialize the interface table.
 
@@ -1007,7 +1007,7 @@ Initialize the interface table.
 public override void InitInterfaceTable()
 ```
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -1021,7 +1021,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### IsAutoContactable\(\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_IsAutoContactable"></a> IsAutoContactable\(\)
 
 Determines whether the specified auto contactable.
 
@@ -1035,7 +1035,7 @@ public virtual bool IsAutoContactable()
 
 <code>true</code> if the specified auto contactable; otherwise, <code>false</code>.
 
-### IsDestroyContainer\(\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_IsDestroyContainer"></a> IsDestroyContainer\(\)
 
 Determines whether is [destroy container].
 
@@ -1049,7 +1049,7 @@ public override bool IsDestroyContainer()
 
 <code>true</code> if is [destroy container]; otherwise, <code>false</code>.
 
-### IsOnlyLinearMaterial\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_IsOnlyLinearMaterial_VM_Managed_ObjectBase_"></a> IsOnlyLinearMaterial\(ObjectBase\)
 
 Determines whether refer linear material only.
 
@@ -1067,7 +1067,7 @@ public static bool IsOnlyLinearMaterial(ObjectBase obNodalBody)
 
 <code>true</code> if this instance refer only linear material; otherwise, <code>false</code>.
 
-### IsReadDFN\(\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_IsReadDFN"></a> IsReadDFN\(\)
 
 Get indicates dfn file has been read.
 
@@ -1081,7 +1081,7 @@ public bool IsReadDFN()
 
 <code>true</code> if read; otherwise, <code>false</code>.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -1099,7 +1099,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -1113,7 +1113,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### PostOpenDocumentAfterHookEvent\(\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_PostOpenDocumentAfterHookEvent"></a> PostOpenDocumentAfterHookEvent\(\)
 
 Call when post [open document] after hook event.
 
@@ -1121,7 +1121,7 @@ Call when post [open document] after hook event.
 public override void PostOpenDocumentAfterHookEvent()
 ```
 
-### ProcessDuplicateReferenceImpl\(Reference\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_ProcessDuplicateReferenceImpl_VM_Managed_Reference_"></a> ProcessDuplicateReferenceImpl\(Reference\)
 
 Process for duplicated reference
 
@@ -1135,13 +1135,13 @@ protected override void ProcessDuplicateReferenceImpl(Reference refer)
 
 The reference.
 
-### ReAssembly\(\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_ReAssembly"></a> ReAssembly\(\)
 
 ```csharp
 public virtual void ReAssembly()
 ```
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -1155,7 +1155,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### Redraw\(\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_Redraw"></a> Redraw\(\)
 
 Redraw.
 
@@ -1163,7 +1163,7 @@ Redraw.
 public override void Redraw()
 ```
 
-### RemoveDuplicatedReference\(\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_RemoveDuplicatedReference"></a> RemoveDuplicatedReference\(\)
 
 Remove duplicated reference
 
@@ -1171,7 +1171,7 @@ Remove duplicated reference
 void RemoveDuplicatedReference()
 ```
 
-### SetBodyAnalysisType\(BodyAnalysisType\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_SetBodyAnalysisType_VM_Managed_DAFUL_BodyAnalysisType_"></a> SetBodyAnalysisType\(BodyAnalysisType\)
 
 ```csharp
 public void SetBodyAnalysisType(BodyAnalysisType type)
@@ -1181,7 +1181,7 @@ public void SetBodyAnalysisType(BodyAnalysisType type)
 
 `type` BodyAnalysisType
 
-### SetMassPropImpl\(double, VectorBase, OMatrix, double\[\], bool\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_SetMassPropImpl_System_Double_VM_Managed_VectorBase_VM_Managed_OMatrix_System_Double___System_Boolean_"></a> SetMassPropImpl\(double, VectorBase, OMatrix, double\[\], bool\)
 
 Sets the mass property.
 
@@ -1209,7 +1209,7 @@ The tensor.
 
 `bGlobal` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetNodeElementInformation\(NodeInformation\[\], ElementInformation\[\]\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_SetNodeElementInformation_VM_Managed_DAFUL_FE_NodalBody_NodeInformation___VM_Managed_DAFUL_FE_NodalBody_ElementInformation___"></a> SetNodeElementInformation\(NodeInformation\[\], ElementInformation\[\]\)
 
 Set node and element information.
 
@@ -1233,7 +1233,7 @@ The element information.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### SetNodePositions\(Vector\[\], OMatrix\[\]\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_SetNodePositions_VM_Managed_Vector___VM_Managed_OMatrix___"></a> SetNodePositions\(Vector\[\], OMatrix\[\]\)
 
 Set node position for mesh.
 
@@ -1257,7 +1257,7 @@ The orientation.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### SetNodePositions\(string\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_SetNodePositions_System_String_"></a> SetNodePositions\(string\)
 
 Set node position for mesh.
 
@@ -1277,7 +1277,7 @@ The dfn file path.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### TransformImpl\(TMatrix\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_TransformImpl_VM_Managed_TMatrix_"></a> TransformImpl\(TMatrix\)
 
 Transforms [implementation].
 
@@ -1291,7 +1291,7 @@ protected override void TransformImpl(TMatrix matT)
 
 The mat T.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_FE_NodalBody_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -1304,5 +1304,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

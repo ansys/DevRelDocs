@@ -1,4 +1,4 @@
-# Class ChangeGroupDrivelineOperation
+#  Class ChangeGroupDrivelineOperation
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ChangeGroupDrivelineOperation\(Document3D, bool, bool\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ChangeGroupDrivelineOperation__ctor_VM_Managed_Document3D_System_Boolean_System_Boolean_"></a> ChangeGroupDrivelineOperation\(Document3D, bool, bool\)
 
 ```csharp
 public ChangeGroupDrivelineOperation(Document3D doc, bool bActiveFront, bool bActiveRear)
@@ -91,7 +91,7 @@ public ChangeGroupDrivelineOperation(Document3D doc, bool bActiveFront, bool bAc
 
 `bActiveRear` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ChangeGroupDrivelineOperation\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ChangeGroupDrivelineOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ChangeGroupDrivelineOperation\(JournalParameter\)
 
 ```csharp
 public ChangeGroupDrivelineOperation(JournalParameter jp)
@@ -103,7 +103,7 @@ public ChangeGroupDrivelineOperation(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_ChangeGroupDrivelineOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -117,7 +117,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ChangeGroupDrivelineOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -125,7 +125,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ChangeGroupDrivelineOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -134,5 +134,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

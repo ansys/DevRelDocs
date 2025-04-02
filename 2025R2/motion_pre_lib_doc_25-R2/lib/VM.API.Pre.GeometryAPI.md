@@ -1,4 +1,4 @@
-# Class GeometryAPI
+#  Class GeometryAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class GeometryAPI
 
 ## Methods
 
-### ExportCAD\(IDocument, string, IEnumerable<Obj\>, string\)
+### <a id="VM_API_Pre_GeometryAPI_ExportCAD_VM_Models_Pre_IDocument_System_String_System_Collections_Generic_IEnumerable_VM_API_Pre_Obj__System_String_"></a> ExportCAD\(IDocument, string, IEnumerable<Obj\>, string\)
 
 Export the geometry.
 
@@ -68,7 +68,7 @@ Will be thrown if the exetension of 'filePath' is not 'sab', '.sat', 'CATPart', 
 
 Will be thrown if the type of 'objectList' is not <xref href="VM.Managed.DAFUL.SolidBody" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.CAD.Body" data-throw-if-not-resolved="false"></xref>.
 
-### ImportCAD\(IDocument, string, ResultType, CadImportUnitType, bool, CadImportColorType, Color?\)
+### <a id="VM_API_Pre_GeometryAPI_ImportCAD_VM_Models_Pre_IDocument_System_String_VM_API_Pre_ResultType_VM_Managed_Document3D_CadImportUnitType_System_Boolean_VM_Managed_Document3D_CadImportColorType_System_Nullable_System_Drawing_Color__"></a> ImportCAD\(IDocument, string, ResultType, CadImportUnitType, bool, CadImportColorType, Color?\)
 
 Import the geometry.
 
@@ -126,7 +126,7 @@ Will be thrown if the type of 'document' is not <xref href="VM.Managed.DAFUL.Sub
 
 Will be thrown if the exetension of 'filePath' is not 'sab', '.sat', 'CATPart', 'CATProduct', 'x_t', 'x_b', 'stp', 'step'.
 
-### ReplaceCAD\(IDocument, string, ResultType, CadImportUnitType, bool, CadImportColorType, Color?, bool, string\[\]\)
+### <a id="VM_API_Pre_GeometryAPI_ReplaceCAD_VM_Models_Pre_IDocument_System_String_VM_API_Pre_ResultType_VM_Managed_Document3D_CadImportUnitType_System_Boolean_VM_Managed_Document3D_CadImportColorType_System_Nullable_System_Drawing_Color__System_Boolean_System_String___"></a> ReplaceCAD\(IDocument, string, ResultType, CadImportUnitType, bool, CadImportColorType, Color?, bool, string\[\]\)
 
 Replace the geometry.
 
@@ -191,5 +191,4 @@ Will be thrown if the type of 'document' is not <xref href="VM.Managed.DAFUL.Sub
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if the exetension of 'filePath' is not 'sab', '.sat', 'CATPart', 'CATProduct', 'x_t', 'x_b', 'stp', 'step'.
-
 

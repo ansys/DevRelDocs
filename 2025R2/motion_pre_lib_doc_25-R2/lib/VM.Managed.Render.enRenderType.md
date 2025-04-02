@@ -1,4 +1,4 @@
-# Enum enRenderType
+#  Enum enRenderType
 
 Namespace: [VM.Managed.Render](VM.Managed.Render.md)  
 Assembly: VMAppCore.dll  
@@ -32,7 +32,6 @@ msw.
 `opengl = 0` 
 
 opengl.
-
 
 
 

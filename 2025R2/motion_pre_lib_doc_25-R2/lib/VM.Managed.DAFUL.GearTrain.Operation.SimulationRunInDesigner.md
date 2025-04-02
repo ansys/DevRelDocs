@@ -1,4 +1,4 @@
-# Class SimulationRunInDesigner
+#  Class SimulationRunInDesigner
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -100,7 +100,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### SimulationRunInDesigner\(Document\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_SimulationRunInDesigner__ctor_VM_Managed_Document_"></a> SimulationRunInDesigner\(Document\)
 
 ```csharp
 public SimulationRunInDesigner(Document doc)
@@ -110,7 +110,7 @@ public SimulationRunInDesigner(Document doc)
 
 `doc` Document
 
-### SimulationRunInDesigner\(Document, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_SimulationRunInDesigner__ctor_VM_Managed_Document_System_String_"></a> SimulationRunInDesigner\(Document, string\)
 
 ```csharp
 public SimulationRunInDesigner(Document doc, string strSimPar)
@@ -122,7 +122,7 @@ public SimulationRunInDesigner(Document doc, string strSimPar)
 
 `strSimPar` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SimulationRunInDesigner\(Document, string, DFSInfo, OutputInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_SimulationRunInDesigner__ctor_VM_Managed_Document_System_String_VM_Managed_DFSInfo_VM_Managed_DSDL_DAFUL_GearTrain_SimulationScenarioGearTrainInDesigner_OutputInfo_"></a> SimulationRunInDesigner\(Document, string, DFSInfo, OutputInfo\)
 
 ```csharp
 public SimulationRunInDesigner(Document doc, string strSimPar, DFSInfo pInfo, SimulationScenarioGearTrainInDesigner.OutputInfo oInfo)
@@ -138,7 +138,7 @@ public SimulationRunInDesigner(Document doc, string strSimPar, DFSInfo pInfo, Si
 
 `oInfo` SimulationScenarioGearTrainInDesigner.OutputInfo
 
-### SimulationRunInDesigner\(Document, SimulationParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_SimulationRunInDesigner__ctor_VM_Managed_Document_VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_"></a> SimulationRunInDesigner\(Document, SimulationParameter\)
 
 ```csharp
 public SimulationRunInDesigner(Document doc, SimulationRun.SimulationParameter param)
@@ -150,7 +150,7 @@ public SimulationRunInDesigner(Document doc, SimulationRun.SimulationParameter p
 
 `param` SimulationRun.SimulationParameter
 
-### SimulationRunInDesigner\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_SimulationRunInDesigner__ctor_VM_Managed_Operation_JournalParameter_"></a> SimulationRunInDesigner\(JournalParameter\)
 
 ```csharp
 public SimulationRunInDesigner(JournalParameter jp)
@@ -162,7 +162,7 @@ public SimulationRunInDesigner(JournalParameter jp)
 
 ## Fields
 
-### OnAddEntity
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_SimulationRunInDesigner_OnAddEntity"></a> OnAddEntity
 
 ```csharp
 public SimulationRunInDesigner.AddEntityCalback OnAddEntity
@@ -174,7 +174,7 @@ public SimulationRunInDesigner.AddEntityCalback OnAddEntity
 
 ## Methods
 
-### SimulationRunImpl\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_SimulationRunInDesigner_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
 
 Simulations the run implementation.
 
@@ -187,5 +187,4 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> [b write DFG].
-
 

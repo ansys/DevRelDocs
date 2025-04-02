@@ -1,4 +1,4 @@
-# Class BearingGeneralBBPD
+#  Class BearingGeneralBBPD
 
 Namespace: [VM.Managed.DAFUL.Builder.Bearing](VM.Managed.DAFUL.Builder.Bearing.md)  
 Assembly: VMBldBearing.dll  
@@ -61,10 +61,9 @@ BuilderBase<BearingGeneral\>.ErrorMessage
 
 ## Constructors
 
-### BearingGeneralBBPD\(\)
+### <a id="VM_Managed_DAFUL_Builder_Bearing_BearingGeneralBBPD__ctor"></a> BearingGeneralBBPD\(\)
 
 ```csharp
 public BearingGeneralBBPD()
 ```
-
 

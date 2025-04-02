@@ -1,4 +1,4 @@
-# Class AttributeMeshFreeGeometryOutputProperty
+#  Class AttributeMeshFreeGeometryOutputProperty
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -149,7 +149,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeMeshFreeGeometryOutputProperty\(Variable, Variable, Variable, Variable, bool, bool, bool, bool, bool, bool, bool, MeshFreeOutputType\)
+### <a id="VM_Managed_AttributeMeshFreeGeometryOutputProperty__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_VM_Managed_MeshFreeOutputType_"></a> AttributeMeshFreeGeometryOutputProperty\(Variable, Variable, Variable, Variable, bool, bool, bool, bool, bool, bool, bool, MeshFreeOutputType\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeMeshFreeGeometryOutputProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -207,7 +207,7 @@ if set to <code>true</code> [use default setting values].
 
 The mesh free output type.
 
-### AttributeMeshFreeGeometryOutputProperty\(Variable, Variable, Variable, bool, bool, bool, bool, bool, bool, MeshFreeOutputType\)
+### <a id="VM_Managed_AttributeMeshFreeGeometryOutputProperty__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_VM_Managed_MeshFreeOutputType_"></a> AttributeMeshFreeGeometryOutputProperty\(Variable, Variable, Variable, bool, bool, bool, bool, bool, bool, MeshFreeOutputType\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeMeshFreeGeometryOutputProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -257,7 +257,7 @@ if set to <code>true</code> [use default setting values].
 
 The mesh free output type.
 
-### AttributeMeshFreeGeometryOutputProperty\(\)
+### <a id="VM_Managed_AttributeMeshFreeGeometryOutputProperty__ctor"></a> AttributeMeshFreeGeometryOutputProperty\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeMeshFreeGeometryOutputProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -267,7 +267,7 @@ public AttributeMeshFreeGeometryOutputProperty()
 
 ## Fields
 
-### m\_bUseDefaultSetting
+### <a id="VM_Managed_AttributeMeshFreeGeometryOutputProperty_m_bUseDefaultSetting"></a> m\_bUseDefaultSetting
 
 ```csharp
 protected bool m_bUseDefaultSetting
@@ -277,7 +277,7 @@ protected bool m_bUseDefaultSetting
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_eOutputType
+### <a id="VM_Managed_AttributeMeshFreeGeometryOutputProperty_m_eOutputType"></a> m\_eOutputType
 
 ```csharp
 protected MeshFreeOutputType m_eOutputType
@@ -289,7 +289,7 @@ protected MeshFreeOutputType m_eOutputType
 
 ## Properties
 
-### OutputType
+### <a id="VM_Managed_AttributeMeshFreeGeometryOutputProperty_OutputType"></a> OutputType
 
 Gets or sets a value indicating which [output type].
 
@@ -301,7 +301,7 @@ public MeshFreeOutputType OutputType { get; set; }
 
  [MeshFreeOutputType](VM.Managed.MeshFreeOutputType.md)
 
-### UseDefaultSetting
+### <a id="VM_Managed_AttributeMeshFreeGeometryOutputProperty_UseDefaultSetting"></a> UseDefaultSetting
 
 Gets or sets a value indicating whether use [default setting].
 
@@ -312,5 +312,4 @@ public bool UseDefaultSetting { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

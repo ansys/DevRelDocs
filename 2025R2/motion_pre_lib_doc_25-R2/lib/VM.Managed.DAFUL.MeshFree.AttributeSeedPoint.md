@@ -1,4 +1,4 @@
-# Class AttributeSeedPoint
+#  Class AttributeSeedPoint
 
 Namespace: [VM.Managed.DAFUL.MeshFree](VM.Managed.DAFUL.MeshFree.md)  
 Assembly: VMDMeshFree.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeSeedPoint\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeSeedPoint__ctor"></a> AttributeSeedPoint\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.AttributeSeedPoint" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeSeedPoint()
 
 ## Properties
 
-### IsUse
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeSeedPoint_IsUse"></a> IsUse
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.MeshFree.AttributeSeedPoint" data-throw-if-not-resolved="false"></xref> is use.
 
@@ -121,7 +121,7 @@ public bool IsUse { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SeedPointList
+### <a id="VM_Managed_DAFUL_MeshFree_AttributeSeedPoint_SeedPointList"></a> SeedPointList
 
 Gets or sets the seed points.
 
@@ -132,5 +132,4 @@ public List<Vector> SeedPointList { get; set; }
 #### Property Value
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<Vector\>
-
 

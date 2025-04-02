@@ -1,4 +1,4 @@
-# Class AnalysisLiftOffTurnIn
+#  Class AnalysisLiftOffTurnIn
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -51,7 +51,7 @@ IHasLengthUnitType
 
 ## Constructors
 
-### AnalysisLiftOffTurnIn\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn__ctor"></a> AnalysisLiftOffTurnIn\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisLiftOffTurnIn" data-throw-if-not-resolved="false"></xref> class.
 
@@ -59,7 +59,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisLiftO
 public AnalysisLiftOffTurnIn()
 ```
 
-### AnalysisLiftOffTurnIn\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisLiftOffTurnIn\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisLiftOffTurnIn" data-throw-if-not-resolved="false"></xref> class.
 
@@ -75,7 +75,7 @@ The link container.
 
 ## Properties
 
-### DelayOfClutch
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_DelayOfClutch"></a> DelayOfClutch
 
 Gets or sets the clutch delay.
 
@@ -87,7 +87,7 @@ public double DelayOfClutch { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### DelayOfSteering
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_DelayOfSteering"></a> DelayOfSteering
 
 Gets or sets the steering delay.
 
@@ -99,7 +99,7 @@ public double DelayOfSteering { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### DelayOfThrottle
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_DelayOfThrottle"></a> DelayOfThrottle
 
 Gets or sets the throttle delay.
 
@@ -111,7 +111,7 @@ public double DelayOfThrottle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### InitialVelocityCornering
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_InitialVelocityCornering"></a> InitialVelocityCornering
 
 Gets or sets the initial velocity.
 
@@ -123,7 +123,7 @@ public override double InitialVelocityCornering { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsDisengageClutchDuringLiftOff
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_IsDisengageClutchDuringLiftOff"></a> IsDisengageClutchDuringLiftOff
 
 Gets or sets a value indicating whether [disengage clutch during lift off].
 
@@ -135,7 +135,7 @@ public bool IsDisengageClutchDuringLiftOff { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LateralAcc
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_LateralAcc"></a> LateralAcc
 
 Gets or sets the lateral acceleration.
 
@@ -147,7 +147,7 @@ public double LateralAcc { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RampOfSteering
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_RampOfSteering"></a> RampOfSteering
 
 Gets or sets the steering ramp.
 
@@ -159,7 +159,7 @@ public double RampOfSteering { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### StepDurationOfClutch
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_StepDurationOfClutch"></a> StepDurationOfClutch
 
 Gets or sets the duration of the clutch step.
 
@@ -171,7 +171,7 @@ public double StepDurationOfClutch { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### StepDurationOfThrottle
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_StepDurationOfThrottle"></a> StepDurationOfThrottle
 
 Gets or sets the duration of the throttle step.
 
@@ -183,7 +183,7 @@ public double StepDurationOfThrottle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TireRadiusPosition
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_TireRadiusPosition"></a> TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -195,7 +195,7 @@ public override int TireRadiusPosition { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### TurnRadius
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_TurnRadius"></a> TurnRadius
 
 Gets or sets the turn radius.
 
@@ -207,7 +207,7 @@ public double TurnRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UnitOfLength
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_UnitOfLength"></a> UnitOfLength
 
 Gets or sets the length unit.
 
@@ -221,7 +221,7 @@ public LengthUnitType UnitOfLength { get; set; }
 
 ## Methods
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisLiftOffTurnIn_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -234,5 +234,4 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
-
 

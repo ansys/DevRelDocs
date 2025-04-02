@@ -1,4 +1,4 @@
-# Interface ICouplerComponent
+#  Interface ICouplerComponent
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface ICouplerComponent
 
 ## Methods
 
-### GetJointType\(\)
+### <a id="VM_Managed_DAFUL_ICouplerComponent_GetJointType"></a> GetJointType\(\)
 
 Gets the type of the joint.
 
@@ -31,7 +31,7 @@ JointType GetJointType()
 
 The type of the joint.
 
-### GetTransformationMatrix\(\)
+### <a id="VM_Managed_DAFUL_ICouplerComponent_GetTransformationMatrix"></a> GetTransformationMatrix\(\)
 
 Gets the transformation matrix.
 
@@ -44,5 +44,4 @@ TMatrix GetTransformationMatrix()
  TMatrix
 
 The transformation matrix.
-
 

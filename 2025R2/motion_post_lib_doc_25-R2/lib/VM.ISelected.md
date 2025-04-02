@@ -1,4 +1,4 @@
-# Interface ISelected
+#  Interface ISelected
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface ISelected
 
 ## Properties
 
-### IsSelected
+### <a id="VM_ISelected_IsSelected"></a> IsSelected
 
 ```python
 bool IsSelected { get; set; }

@@ -1,4 +1,4 @@
-# Class Hole
+#  Class Hole
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -121,7 +121,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Hole\(TransformBase\)
+### <a id="VM_Managed_Hole__ctor_VM_Managed_TransformBase_"></a> Hole\(TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.Hole" data-throw-if-not-resolved="false"></xref> class.
 
@@ -135,7 +135,7 @@ public Hole(TransformBase transform)
 
 The transform.
 
-### Hole\(\)
+### <a id="VM_Managed_Hole__ctor"></a> Hole\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Hole" data-throw-if-not-resolved="false"></xref> class.
 
@@ -145,7 +145,7 @@ public Hole()
 
 ## Methods
 
-### GetOriginPoint\(\)
+### <a id="VM_Managed_Hole_GetOriginPoint"></a> GetOriginPoint\(\)
 
 Gets the origin point.
 
@@ -158,5 +158,4 @@ public PointBase GetOriginPoint()
  [PointBase](VM.Managed.PointBase.md)
 
 The origin point.
-
 

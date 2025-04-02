@@ -1,4 +1,4 @@
-# Interface ISelected
+#  Interface ISelected
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface ISelected
 
 ## Properties
 
-### IsSelected
+### <a id="VM_ISelected_IsSelected"></a> IsSelected
 
 ```csharp
 bool IsSelected { get; set; }
@@ -24,5 +24,4 @@ bool IsSelected { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

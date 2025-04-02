@@ -1,4 +1,4 @@
-# Enum AngleUnitType
+#  Enum AngleUnitType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis](VM.Managed.DAFUL.Car.Analysis.md)  
 Assembly: VMDCar.dll  
@@ -20,7 +20,6 @@ deg
 `rad = 1` 
 
 rad
-
 
 
 

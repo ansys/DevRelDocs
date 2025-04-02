@@ -1,4 +1,4 @@
-# Interface IOperationsFrequencyViewModel
+#  Interface IOperationsFrequencyViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -77,7 +77,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### Enable
+### <a id="VM_Operations_Post_Interfaces_IOperationsFrequencyViewModel_Enable"></a> Enable
 
 Gets or sets a value indicating whether the frequency entity is enabled.
 

@@ -1,4 +1,4 @@
-# Class TieBase<TProperty\>
+#  Class TieBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Flexible.Contact](VM.Managed.DAFUL.Flexible.Contact.md)  
 Assembly: VMFlexibleBase.dll  
@@ -224,7 +224,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### TieBase\(\)
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1__ctor"></a> TieBase\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.TieBase%601" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -234,7 +234,7 @@ ObservableObject.PropertyChanged
 public TieBase()
 ```
 
-### TieBase\(string\)
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1__ctor_System_String_"></a> TieBase\(string\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.TieBase%601" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -253,7 +253,7 @@ public TieBase(string strName)
 
 ## Properties
 
-### ActionGeom
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_ActionGeom"></a> ActionGeom
 
 Gets or sets the action 3D contact geometry.
 
@@ -265,7 +265,7 @@ public ContactGeom3D ActionGeom { get; set; }
 
  ContactGeom3D
 
-### BaseGeom
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_BaseGeom"></a> BaseGeom
 
 <p>Gets or sets the base 3D contact geometry.</p>
 <p>베이스 3D 접촉 요소를 가져오거나 넣어줍니다.</p>
@@ -296,7 +296,7 @@ public ContactGeom3D BaseGeom { get; set; }
 
  ContactGeom3D
 
-### CanSwitchImpl
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_CanSwitchImpl"></a> CanSwitchImpl
 
 ```csharp
 protected virtual bool CanSwitchImpl { get; }
@@ -306,7 +306,7 @@ protected virtual bool CanSwitchImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GenerableImpl
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_GenerableImpl"></a> GenerableImpl
 
 <p>Gets a value indicating whether this instance is generable.</p>
 <p>이 객체가 일반적으로 변환 가능한지 여부를 가져옵니다.</p>
@@ -319,7 +319,7 @@ protected virtual bool GenerableImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -331,7 +331,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Hide
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_Hide"></a> Hide
 
 <p>Gets or sets a value indicating whether this instance is hide.</p>
 <p>아이콘을 숨길지 여부를 가져오거나 넣어줍니다.</p>
@@ -356,7 +356,7 @@ public bool Hide { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### NameOfActionBody
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_NameOfActionBody"></a> NameOfActionBody
 
 <p>Gets the name of body referenced tie action geometry.</p>
 <p>Tie의 Action의 타겟요소가 참조하는 바디의 이름을 가져옵니다.</p>
@@ -381,7 +381,7 @@ public string NameOfActionBody { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NameOfBaseBody
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_NameOfBaseBody"></a> NameOfBaseBody
 
 <p>Gets the name of body referenced tie base geometry.</p>
 <p>Tie의 Base 타겟요소가 참조하는 바디의 이름을 가져옵니다.</p>
@@ -408,7 +408,7 @@ public string NameOfBaseBody { get; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 <p>Draws the icon.</p>
 <p>아이콘을 그립니다.</p>
@@ -424,7 +424,7 @@ public void Draw(Canvas canvas)
 <p>The canvas has icon information.</p>
 <p>아이콘 정보를 가지는 캔버스</p>
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_FindLocal_System_String_"></a> FindLocal\(string\)
 
 <p>Finds the local.</p>
 <p>특정한 오브젝트로부터 이름을 가지고 원하는 오브젝트를 가져오는 함수입니다.</p>
@@ -444,7 +444,7 @@ public override IObjectBase FindLocal(string strName)
 
  IObjectBase
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 <p>Gets the name of the unnamed object.</p>
 <p>이름이 없는 오브젝트에 정의된 이름을 가져오는 함수입니다.</p>
@@ -464,7 +464,7 @@ public override string GetUnnamedObjectName(object obUnnamed)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 <p>Initializes member through unit convert factor.</p>
 <p>단위 변화 팩터를 이용하여 필드를 초기화 해줍니다.</p>
@@ -480,7 +480,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 <p>The unit convert factor.</p>
 <p>단위 변환 팩터.</p>
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 <p>Request for update the linked object.</p>
 <p>참조된 객체가 갱신될 때 호출되는 이벤트.</p>
@@ -501,7 +501,7 @@ protected override void LinkRequestUpdate(object objNotifier, LinkEventArgs arg)
 <p>instance containing the event data.</p>
 <p>갱신 이벤트 정보입니다..</p>
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 <p>Called when [deserialization].</p>
 <p>이 클래스의 data가 Load되고 나서 호출되는 함수입니다.</p>
@@ -517,7 +517,7 @@ protected override void OnDeserialization(object sender)
 <p>The sender.</p>
 <p>Load 관련 객체정보입니다.</p>
 
-### ReDraw\(\)
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_ReDraw"></a> ReDraw\(\)
 
 <p> Redraw.</p>
 <p> 다시 그려줍니다.</p>
@@ -526,7 +526,7 @@ protected override void OnDeserialization(object sender)
 public void ReDraw()
 ```
 
-### ReplaceEntityImpl\(Document, IGenerable\)
+### <a id="VM_Managed_DAFUL_Flexible_Contact_TieBase_1_ReplaceEntityImpl_VM_Managed_Document_VM_Managed_IGenerable_"></a> ReplaceEntityImpl\(Document, IGenerable\)
 
 <p>Replace entity.</p>
 <p>엔티티를 대체합니다.</p>
@@ -546,5 +546,4 @@ protected virtual void ReplaceEntityImpl(Document doc, IGenerable generableNew)
 
 <p>The new generable entity.</p>
 <p>새로운 엔티티</p>
-
 

@@ -1,4 +1,4 @@
-# Class MeshAssembly
+#  Class MeshAssembly
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -160,7 +160,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MeshAssembly\(MeshDocument\)
+### <a id="VM_Managed_DAFUL_FE_MeshAssembly__ctor_VM_Managed_DAFUL_FE_MeshDocument_"></a> MeshAssembly\(MeshDocument\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.MeshAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -174,7 +174,7 @@ public MeshAssembly(MeshDocument doc)
 
 The document.
 
-### MeshAssembly\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_DAFUL_FE_MeshAssembly__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> MeshAssembly\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.MeshAssembly" data-throw-if-not-resolved="false"></xref> class.
 
@@ -191,5 +191,4 @@ The info.
 `context` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
 The context.
-
 

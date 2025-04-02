@@ -1,4 +1,4 @@
-# Class Mesh.NodeContainer
+#  Class Mesh.NodeContainer
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -22,7 +22,7 @@ public sealed class Mesh.NodeContainer
 
 ## Constructors
 
-### NodeContainer\(Mesh\)
+### <a id="VM_Managed_DAFUL_FE_Mesh_NodeContainer__ctor_VM_Managed_DAFUL_FE_Mesh_"></a> NodeContainer\(Mesh\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Mesh.NodeContainer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -38,7 +38,7 @@ The owner mesh.
 
 ## Properties
 
-### Count
+### <a id="VM_Managed_DAFUL_FE_Mesh_NodeContainer_Count"></a> Count
 
 Gets the count.
 
@@ -50,7 +50,7 @@ public uint Count { get; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### Mesh
+### <a id="VM_Managed_DAFUL_FE_Mesh_NodeContainer_Mesh"></a> Mesh
 
 Gets the mesh.
 
@@ -62,7 +62,7 @@ public Mesh Mesh { get; }
 
  [Mesh](VM.Managed.DAFUL.FE.Mesh.md)
 
-### this\[uint\]
+### <a id="VM_Managed_DAFUL_FE_Mesh_NodeContainer_Item_System_UInt32_"></a> this\[uint\]
 
 ```csharp
 public Node this[uint nIndex] { get; set; }
@@ -71,5 +71,4 @@ public Node this[uint nIndex] { get; set; }
 #### Property Value
 
  [Node](VM.Managed.DAFUL.FE.Node.md)
-
 

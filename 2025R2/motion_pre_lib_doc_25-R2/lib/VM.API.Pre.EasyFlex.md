@@ -1,4 +1,4 @@
-# Namespace VM.API.Pre.EasyFlex
+#  Namespace VM.API.Pre.EasyFlex
 
 ### Classes
 
@@ -13,5 +13,4 @@ This class implements APIs for <xref href="VM.Managed.DAFUL.Flexible.Force.Conce
  [GlueAPI](VM.API.Pre.EasyFlex.GlueAPI.md)
 
 This class implements APIs for <xref href="VM.Managed.DAFUL.Builder.FE.Contact.Tie" data-throw-if-not-resolved="false"></xref> and <xref href="VM.Managed.DAFUL.MeshFree.Weld" data-throw-if-not-resolved="false"></xref>class.
-
 

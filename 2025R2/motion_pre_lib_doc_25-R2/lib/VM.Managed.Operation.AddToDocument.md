@@ -1,4 +1,4 @@
-# Class AddToDocument
+#  Class AddToDocument
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### AddToDocument\(\)
+### <a id="VM_Managed_Operation_AddToDocument__ctor"></a> AddToDocument\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.AddToDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.Operation.AddToDocument
 public AddToDocument()
 ```
 
-### AddToDocument\(Document, ObjectBase\)
+### <a id="VM_Managed_Operation_AddToDocument__ctor_VM_Managed_Document_VM_Managed_ObjectBase_"></a> AddToDocument\(Document, ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.AddToDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -105,7 +105,7 @@ The target.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_Operation_AddToDocument_Name"></a> Name
 
 Gets the operation name.
 
@@ -119,12 +119,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_Operation_AddToDocument_Execute"></a> Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
-
 

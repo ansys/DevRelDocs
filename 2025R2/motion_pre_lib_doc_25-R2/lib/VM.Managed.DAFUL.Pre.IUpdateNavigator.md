@@ -1,4 +1,4 @@
-# Interface IUpdateNavigator
+#  Interface IUpdateNavigator
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -17,7 +17,7 @@ public interface IUpdateNavigator
 
 ## Methods
 
-### ClearNavigatorSelection\(\)
+### <a id="VM_Managed_DAFUL_Pre_IUpdateNavigator_ClearNavigatorSelection"></a> ClearNavigatorSelection\(\)
 
 Clear the navigator selection.
 
@@ -25,7 +25,7 @@ Clear the navigator selection.
 void ClearNavigatorSelection()
 ```
 
-### RefreshNavigator\(\)
+### <a id="VM_Managed_DAFUL_Pre_IUpdateNavigator_RefreshNavigator"></a> RefreshNavigator\(\)
 
 Refreshes the navigator.
 
@@ -33,7 +33,7 @@ Refreshes the navigator.
 void RefreshNavigator()
 ```
 
-### UpdateNavigator\(\)
+### <a id="VM_Managed_DAFUL_Pre_IUpdateNavigator_UpdateNavigator"></a> UpdateNavigator\(\)
 
 Updates the navigator.
 
@@ -41,12 +41,11 @@ Updates the navigator.
 void UpdateNavigator()
 ```
 
-### UpdateNavigatorSelection\(\)
+### <a id="VM_Managed_DAFUL_Pre_IUpdateNavigator_UpdateNavigatorSelection"></a> UpdateNavigatorSelection\(\)
 
 Updates the navigator selection.
 
 ```csharp
 void UpdateNavigatorSelection()
 ```
-
 

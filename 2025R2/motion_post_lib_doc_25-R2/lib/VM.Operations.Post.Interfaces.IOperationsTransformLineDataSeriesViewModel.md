@@ -1,4 +1,4 @@
-# Interface IOperationsTransformLineDataSeriesViewModel
+#  Interface IOperationsTransformLineDataSeriesViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -100,7 +100,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### Align
+### <a id="VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel_Align"></a> Align
 
 Gets or sets the type of alignment.
 
@@ -122,7 +122,7 @@ Use this property to specify or retrieve the type of alignment.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.AlignType.Zero" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.AlignType.Curve" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### Base
+### <a id="VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel_Base"></a> Base
 
 Gets or sets the base of the logarithm.
 
@@ -149,7 +149,7 @@ Supported values are:
 - "10"
 - "E"
 
-### Coefficient
+### <a id="VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel_Coefficient"></a> Coefficient
 
 Gets or sets the coefficient of the logarithm.
 
@@ -169,7 +169,7 @@ For an example that includes this property, see the [Interface IOperationsTransf
 
 Use this property to specify or retrieve the coefficient value for the logarithm.
 
-### IsDecibel
+### <a id="VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel_IsDecibel"></a> IsDecibel
 
 Gets or sets a value indicating whether the decibel scale is used.
 
@@ -189,7 +189,7 @@ For an example that includes this property, see the [Interface IOperationsTransf
 
 Use this property to specify or retrieve whether the decibel scale is used.
 
-### OffsetX
+### <a id="VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel_OffsetX"></a> OffsetX
 
 Gets or sets the value for the X offset.
 
@@ -209,7 +209,7 @@ For an example that includes this property, see the [Interface IOperationsTransf
 
 Use this property to specify or retrieve the value for the X offset.
 
-### OffsetY
+### <a id="VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel_OffsetY"></a> OffsetY
 
 Gets or sets the value for the Y offset.
 
@@ -229,7 +229,7 @@ For an example that includes this property, see the [Interface IOperationsTransf
 
 Use this property to specify or retrieve the value for the Y offset.
 
-### ScaleX
+### <a id="VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel_ScaleX"></a> ScaleX
 
 Gets or sets the value for the X scale.
 
@@ -249,7 +249,7 @@ For an example that includes this property, see the [Interface IOperationsTransf
 
 Use this property to specify or retrieve the value for the X scale.
 
-### ScaleY
+### <a id="VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel_ScaleY"></a> ScaleY
 
 Gets or sets the value for the Y scale.
 
@@ -269,7 +269,7 @@ For an example that includes this property, see the [Interface IOperationsTransf
 
 Use this property to specify or retrieve the value for the Y scale.
 
-### SelectedTransformType
+### <a id="VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel_SelectedTransformType"></a> SelectedTransformType
 
 Gets or sets the type of transform.
 
@@ -291,7 +291,7 @@ Use this property to specify or retrieve the type of transform.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.TransformType.Translate" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.TransformType.LinearScale" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.TransformType.Absolute" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.TransformType.Align" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.TransformType.LogScale" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### Sign
+### <a id="VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel_Sign"></a> Sign
 
 Gets or sets the type of sign.
 

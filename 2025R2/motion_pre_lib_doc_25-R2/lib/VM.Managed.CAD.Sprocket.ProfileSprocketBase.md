@@ -1,4 +1,4 @@
-# Class ProfileSprocketBase
+#  Class ProfileSprocketBase
 
 Namespace: [VM.Managed.CAD.Sprocket](VM.Managed.CAD.Sprocket.md)  
 Assembly: VMDSprocket.dll  
@@ -27,7 +27,7 @@ public abstract class ProfileSprocketBase
 
 ## Constructors
 
-### ProfileSprocketBase\(ProfileDataSprocket\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase__ctor_VM_Managed_CAD_Sprocket_ProfileDataSprocket_"></a> ProfileSprocketBase\(ProfileDataSprocket\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Sprocket.ProfileSprocketBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -43,7 +43,7 @@ The info is data for creation profile.
 
 ## Fields
 
-### m\_Info
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_m_Info"></a> m\_Info
 
 The info is data for creation profile
 
@@ -55,7 +55,7 @@ protected ProfileDataSprocket m_Info
 
  [ProfileDataSprocket](VM.Managed.CAD.Sprocket.ProfileDataSprocket.md)
 
-### m\_dRadius\_shift
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_m_dRadius_shift"></a> m\_dRadius\_shift
 
 Shift radius value.
 
@@ -67,7 +67,7 @@ protected double m_dRadius_shift
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### m\_lstPtOrigin
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_m_lstPtOrigin"></a> m\_lstPtOrigin
 
 The original point data.
 
@@ -79,7 +79,7 @@ protected List<VectorBase> m_lstPtOrigin
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
 
-### m\_lstPtWorkPlane
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_m_lstPtWorkPlane"></a> m\_lstPtWorkPlane
 
 The transformed point data to work plane.
 
@@ -91,7 +91,7 @@ protected List<VectorBase> m_lstPtWorkPlane
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
 
-### m\_strError
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_m_strError"></a> m\_strError
 
 Set error message when can not calculate profile.
 
@@ -105,7 +105,7 @@ protected string m_strError
 
 ## Properties
 
-### Radius\_Shift
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_Radius_Shift"></a> Radius\_Shift
 
 Gets shift radius value.
 
@@ -119,7 +119,7 @@ public double Radius_Shift { get; }
 
 ## Methods
 
-### Calculation\_Gradient\(VectorBase, VectorBase\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_Calculation_Gradient_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> Calculation\_Gradient\(VectorBase, VectorBase\)
 
 Find the gradient of line equation
 
@@ -143,7 +143,7 @@ The arbitrary point.
 
 The gradient
 
-### Calculation\_Gradient\_Bewteen\_ArbitraryPoint\_and\_Circle\(VectorBase, VectorBase, double\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_Calculation_Gradient_Bewteen_ArbitraryPoint_and_Circle_VM_Managed_VectorBase_VM_Managed_VectorBase_System_Double_"></a> Calculation\_Gradient\_Bewteen\_ArbitraryPoint\_and\_Circle\(VectorBase, VectorBase, double\)
 
 Called when the gradient calculate between arbitrary point and circle.
 
@@ -171,7 +171,7 @@ The radius of circle.
 
 The array of gradient.
 
-### Calculation\_TangentPoint\_Through\_Line\_Circle\(double, VectorBase, VectorBase, double\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_Calculation_TangentPoint_Through_Line_Circle_System_Double_VM_Managed_VectorBase_VM_Managed_VectorBase_System_Double_"></a> Calculation\_TangentPoint\_Through\_Line\_Circle\(double, VectorBase, VectorBase, double\)
 
 Called when tangent points calculates through line to circle.
 
@@ -203,7 +203,7 @@ The radius of circle.
 
 The list of points
 
-### Calculation\_TangentPosition\(double, VectorBase, VectorBase, double\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_Calculation_TangentPosition_System_Double_VM_Managed_VectorBase_VM_Managed_VectorBase_System_Double_"></a> Calculation\_TangentPosition\(double, VectorBase, VectorBase, double\)
 
 Called when tangent points calculates bewteen arbitrary point and circle.
 
@@ -235,7 +235,7 @@ The radius of circle.
 
 The tangent point.
 
-### Calculation\_line\_Equation\(VectorBase, double, ref double\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_Calculation_line_Equation_VM_Managed_VectorBase_System_Double_System_Double__"></a> Calculation\_line\_Equation\(VectorBase, double, ref double\)
 
 Find line equation
 
@@ -257,7 +257,7 @@ y=mx+n<code>m</code>
 
 y=mx+n<code>n</code>
 
-### Claculation\_TangentPoint\_Between\_Two\_Circle\(VectorBase, double, VectorBase, double\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_Claculation_TangentPoint_Between_Two_Circle_VM_Managed_VectorBase_System_Double_VM_Managed_VectorBase_System_Double_"></a> Claculation\_TangentPoint\_Between\_Two\_Circle\(VectorBase, double, VectorBase, double\)
 
 Called when tangent points calculates bewteen two circles.
 
@@ -289,7 +289,7 @@ The radius.
 
 The list of points
 
-### CreateProfile\(\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_CreateProfile"></a> CreateProfile\(\)
 
 Create profile data.
 
@@ -301,7 +301,7 @@ protected virtual bool CreateProfile()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetPointData\_For\_WorkPlane\(\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_GetPointData_For_WorkPlane"></a> GetPointData\_For\_WorkPlane\(\)
 
 Gets points data on work plane.
 
@@ -313,7 +313,7 @@ public List<VectorBase> GetPointData_For_WorkPlane()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
 
-### GetPointData\_For\_XYPlane\(\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_GetPointData_For_XYPlane"></a> GetPointData\_For\_XYPlane\(\)
 
 Gets points data on XY plane.
 
@@ -325,7 +325,7 @@ public List<VectorBase> GetPointData_For_XYPlane()
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<VectorBase\>
 
-### Validation\(\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_Validation"></a> Validation\(\)
 
 Check validation of member variables
 
@@ -337,7 +337,7 @@ protected virtual bool Validation()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### matvec\(double\[\], VectorBase\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_matvec_System_Double___VM_Managed_VectorBase_"></a> matvec\(double\[\], VectorBase\)
 
 ```csharp
 protected VectorBase matvec(double[] mat, VectorBase vecA)
@@ -353,7 +353,7 @@ protected VectorBase matvec(double[] mat, VectorBase vecA)
 
  VectorBase
 
-### vectlvec\(VectorBase, VectorBase\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_vectlvec_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> vectlvec\(VectorBase, VectorBase\)
 
 ```csharp
 protected VectorBase vectlvec(VectorBase vecA, VectorBase vecB)
@@ -369,7 +369,7 @@ protected VectorBase vectlvec(VectorBase vecA, VectorBase vecB)
 
  VectorBase
 
-### vectranspose\_vectieldvec\(VectorBase, VectorBase, VectorBase\)
+### <a id="VM_Managed_CAD_Sprocket_ProfileSprocketBase_vectranspose_vectieldvec_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_VectorBase_"></a> vectranspose\_vectieldvec\(VectorBase, VectorBase, VectorBase\)
 
 ```csharp
 protected double vectranspose_vectieldvec(VectorBase vecDepth, VectorBase vecA, VectorBase vecB)
@@ -386,5 +386,4 @@ protected double vectranspose_vectieldvec(VectorBase vecDepth, VectorBase vecA, 
 #### Returns
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

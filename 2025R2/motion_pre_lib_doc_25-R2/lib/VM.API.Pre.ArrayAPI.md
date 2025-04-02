@@ -1,4 +1,4 @@
-# Class ArrayAPI
+#  Class ArrayAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class ArrayAPI
 
 ## Methods
 
-### CreateArray\(SubSystemDocument, ExpressionValueVariable, string, SymmetricType, bool\)
+### <a id="VM_API_Pre_ArrayAPI_CreateArray_VM_Managed_DAFUL_SubSystemDocument_VM_Models_Pre_ExpressionValueVariable_System_String_VM_Managed_SymmetricType_System_Boolean_"></a> CreateArray\(SubSystemDocument, ExpressionValueVariable, string, SymmetricType, bool\)
 
 Create <xref href="VM.Managed.DAFUL.Array" data-throw-if-not-resolved="false"></xref>.
 
@@ -69,5 +69,4 @@ Will be thrown if 'document' is null.
  [ArgumentOutOfRangeException](https://learn.microsoft.com/dotnet/api/system.argumentoutofrangeexception)
 
 Will be thrown if 'size' values less than 0.
-
 

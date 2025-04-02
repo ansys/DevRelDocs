@@ -1,4 +1,4 @@
-# Class PropertySlidingBearing
+#  Class PropertySlidingBearing
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertySlidingBearing\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertySlidingBearing__ctor"></a> PropertySlidingBearing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertySlidingBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertySlidingBearing()
 
 ## Properties
 
-### Color
+### <a id="VM_Managed_DAFUL_GearTrain_PropertySlidingBearing_Color"></a> Color
 
 Gets or sets the color.
 Use SetColor() when this instance sets for undo/redo
@@ -188,7 +188,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ContactInfo
+### <a id="VM_Managed_DAFUL_GearTrain_PropertySlidingBearing_ContactInfo"></a> ContactInfo
 
 Gets or sets the the contact info.
 
@@ -200,7 +200,7 @@ public SBContact ContactInfo { get; set; }
 
  [SBContact](VM.Managed.DAFUL.GearTrain.SBContact.md)
 
-### ContactType
+### <a id="VM_Managed_DAFUL_GearTrain_PropertySlidingBearing_ContactType"></a> ContactType
 
 Gets or sets the type of the contact.
 Use SetContactType() when this instance sets for undo/redo
@@ -213,7 +213,7 @@ public enSBContactType ContactType { get; set; }
 
  [enSBContactType](VM.Managed.DAFUL.GearTrain.enSBContactType.md)
 
-### DrawingColor
+### <a id="VM_Managed_DAFUL_GearTrain_PropertySlidingBearing_DrawingColor"></a> DrawingColor
 
 Gets the color of the drawing.
 
@@ -225,7 +225,7 @@ public Color DrawingColor { get; }
 
  [Color](https://learn.microsoft.com/dotnet/api/system.drawing.color)
 
-### GeomInfo
+### <a id="VM_Managed_DAFUL_GearTrain_PropertySlidingBearing_GeomInfo"></a> GeomInfo
 
 Gets or sets the geom information.
 
@@ -237,7 +237,7 @@ public SBGeometryInfo GeomInfo { get; set; }
 
  [SBGeometryInfo](VM.Managed.DAFUL.GearTrain.SBGeometryInfo.md)
 
-### Type
+### <a id="VM_Managed_DAFUL_GearTrain_PropertySlidingBearing_Type"></a> Type
 
 Gets or sets the type.
 Use SetType() when this instance sets for undo/redo
@@ -252,7 +252,7 @@ public enSlidingBearingType Type { get; set; }
 
 ## Methods
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertySlidingBearing_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -272,7 +272,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertySlidingBearing_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -286,7 +286,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### SetColor\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertySlidingBearing_SetColor_System_String_"></a> SetColor\(string\)
 
 Set color.
 
@@ -300,7 +300,7 @@ public void SetColor(string color)
 
 The color.
 
-### SetContactType\(enSBContactType\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertySlidingBearing_SetContactType_VM_Managed_DAFUL_GearTrain_enSBContactType_"></a> SetContactType\(enSBContactType\)
 
 Set type of the contact.
 
@@ -314,7 +314,7 @@ public void SetContactType(enSBContactType type)
 
 The type of the contact.
 
-### SetType\(enSlidingBearingType\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertySlidingBearing_SetType_VM_Managed_DAFUL_GearTrain_enSlidingBearingType_"></a> SetType\(enSlidingBearingType\)
 
 Set type.
 
@@ -327,5 +327,4 @@ public void SetType(enSlidingBearingType type)
 `type` [enSlidingBearingType](VM.Managed.DAFUL.GearTrain.enSlidingBearingType.md)
 
 The type.
-
 

@@ -1,4 +1,4 @@
-# Class AttributeUneditable
+#  Class AttributeUneditable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -99,12 +99,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeUneditable\(\)
+### <a id="VM_Managed_AttributeUneditable__ctor"></a> AttributeUneditable\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeUneditable" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public AttributeUneditable()
 ```
-
 

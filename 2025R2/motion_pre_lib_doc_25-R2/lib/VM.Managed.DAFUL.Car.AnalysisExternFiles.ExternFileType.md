@@ -1,4 +1,4 @@
-# Enum AnalysisExternFiles.ExternFileType
+#  Enum AnalysisExternFiles.ExternFileType
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -20,7 +20,6 @@ Loadcase
 `WheelEnvelope = 1` 
 
 WheelEnvelope
-
 
 
 

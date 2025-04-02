@@ -1,4 +1,4 @@
-# Interface IOperationsLine2DViewModel
+#  Interface IOperationsLine2DViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -63,7 +63,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### AxisX
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_AxisX"></a> AxisX
 
 Gets or sets a value indicating whether the X-axis is visible.
 
@@ -84,7 +84,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 This property determines whether the X-axis is visible in the chart.
 In the UI, this property is represented under the "Chart" category with the property name "Axis X".
 
-### AxisY
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_AxisY"></a> AxisY
 
 Gets or sets a value indicating whether the Y-axis is visible.
 
@@ -105,7 +105,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 This property determines whether the Y-axis is visible in the chart.
 In the UI, this property is represented under the "Chart" category with the property name "Axis Y".
 
-### ShowAnimationBar
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_ShowAnimationBar"></a> ShowAnimationBar
 
 Gets or sets a value indicating whether the Animation Bar is visible.
 
@@ -126,7 +126,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 Use this property to control the visibility of the Animation Bar in the user interface.
 In the UI, this property is represented under the "Data Tracking" category with the property name "Animation Bar".
 
-### ShowLegend
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_ShowLegend"></a> ShowLegend
 
 Gets or sets a value indicating whether the legend of the 2D chart is visible.
 
@@ -147,7 +147,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 Use this property to control the visibility of the legend in a 2D chart.
 In the UI, this property is represented under the "Chart" category with the property name "Legend".
 
-### TrackingCurve
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_TrackingCurve"></a> TrackingCurve
 
 Gets or sets a value indicating whether the Tracking Curve is visible.
 
@@ -168,7 +168,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 This property determines whether the Tracking Curve is visible in the chart.
 In the UI, this property is represented under the "Data Tracking" category with the property name "Tracking Data".
 
-### TrackingOption
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_TrackingOption"></a> TrackingOption
 
 Gets or sets the tracking option for displaying data points on the chart.
 
@@ -194,7 +194,7 @@ The supported types are:
 
 ## Methods
 
-### CreateAbsolute\(IEnumerable<string\>, SignType\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateAbsolute_System_Collections_Generic_IEnumerable_System_String__VM_Models_Post_SignType_"></a> CreateAbsolute\(IEnumerable<string\>, SignType\)
 
 Transforms data series into absolute values for the Y-Axis as part of the chart tab's Transform functionality.
 
@@ -231,7 +231,7 @@ to their absolute values based on the provided <code class="paramref">signType</
 the Y values are converted to their positive absolute values. If <code class="paramref">signType</code> is <xref href="VM.Models.Post.SignType.Negative" data-throw-if-not-resolved="false"></xref>, the Y values 
 are converted to their negative absolute values.
 
-### CreateAbsolute\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, SignType\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateAbsolute_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__VM_Models_Post_SignType_"></a> CreateAbsolute\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, SignType\)
 
 Transforms data series into absolute values for the Y-Axis as part of the chart tab's Transform functionality.
 
@@ -268,7 +268,7 @@ to their absolute values based on the provided <code class="paramref">signType</
 the Y values are converted to their positive absolute values. If <code class="paramref">signType</code> is <xref href="VM.Models.Post.SignType.Negative" data-throw-if-not-resolved="false"></xref>, the Y values 
 are converted to their negative absolute values.
 
-### CreateAlign\(IEnumerable<string\>, AlignType\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateAlign_System_Collections_Generic_IEnumerable_System_String__VM_Models_Post_AlignType_"></a> CreateAlign\(IEnumerable<string\>, AlignType\)
 
 Aligns data series to zero or the first point of the target curve as part of the chart tab's Transform functionality.
 
@@ -305,7 +305,7 @@ based on the provided <code class="paramref">alignType</code>. If <code class="p
 the Y values are aligned to zero. If <code class="paramref">alignType</code> is <xref href="VM.Models.Post.AlignType.Curve" data-throw-if-not-resolved="false"></xref>, 
 the Y values are aligned to the first point of the target curve.
 
-### CreateAlign\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, AlignType\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateAlign_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__VM_Models_Post_AlignType_"></a> CreateAlign\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, AlignType\)
 
 Aligns data series to zero or the first point of the target curve as part of the chart tab's Transform functionality.
 
@@ -342,7 +342,7 @@ based on the provided <code class="paramref">alignType</code>. If <code class="p
 the Y values are aligned to zero. If <code class="paramref">alignType</code> is <xref href="VM.Models.Post.AlignType.Curve" data-throw-if-not-resolved="false"></xref>, 
 the Y values are aligned to the first point of the target curve.
 
-### CreateDifferentiatedCurve\(IEnumerable<string\>\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateDifferentiatedCurve_System_Collections_Generic_IEnumerable_System_String__"></a> CreateDifferentiatedCurve\(IEnumerable<string\>\)
 
 Differentiates data series as part of the chart tab's Calculus functionality.
 
@@ -371,7 +371,7 @@ For an example that includes this property, see the [Interface IOperationsCalcul
 This function iterates over each series specified in <code class="paramref">lstSeriesName</code> and applies differentiation to the Y values 
 of each point in the series. The differentiation calculates the difference between consecutive points.
 
-### CreateDifferentiatedCurve\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateDifferentiatedCurve_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__"></a> CreateDifferentiatedCurve\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>\)
 
 Differentiates data series as part of the chart tab's Calculus functionality.
 
@@ -400,7 +400,7 @@ For an example that includes this property, see the [Interface IOperationsCalcul
 This function iterates over each series in <code class="paramref">seriesViewModels</code> and applies differentiation to the Y values 
 of each point in the series. The differentiation calculates the difference between consecutive points.
 
-### CreateFFT\(IEnumerable<string\>, FFTType, FFTWindowType, ScaleType, int, double, double\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateFFT_System_Collections_Generic_IEnumerable_System_String__VM_Models_Post_FFTType_VM_Models_Post_FFTWindowType_VM_Models_Post_ScaleType_System_Int32_System_Double_System_Double_"></a> CreateFFT\(IEnumerable<string\>, FFTType, FFTWindowType, ScaleType, int, double, double\)
 
 Applies FFT (Fast Fourier Transform) to data series as part of the chart tab's functionality.
 
@@ -459,7 +459,7 @@ For an example that includes this property, see the [Interface IOperationsFFTLin
 This function performs FFT on each series specified in <code class="paramref">lstSeriesName</code> within the provided start and end time range,
 using the specified FFT type, window type, scale type, and number of points.
 
-### CreateFFT\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, FFTType, FFTWindowType, ScaleType, int, double, double\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateFFT_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__VM_Models_Post_FFTType_VM_Models_Post_FFTWindowType_VM_Models_Post_ScaleType_System_Int32_System_Double_System_Double_"></a> CreateFFT\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, FFTType, FFTWindowType, ScaleType, int, double, double\)
 
 Applies FFT (Fast Fourier Transform) to data series as part of the chart tab's functionality.
 
@@ -518,7 +518,7 @@ For an example that includes this property, see the [Interface IOperationsFFTLin
 This function performs FFT on each series specified in <code class="paramref">seriesViewModels</code> within the provided start and end time range,
 using the specified FFT type, window type, scale type, and number of points.
 
-### CreateFiltering\(IEnumerable<string\>, FilteringType, int, double, double\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateFiltering_System_Collections_Generic_IEnumerable_System_String__VM_Models_Post_FilteringType_System_Int32_System_Double_System_Double_"></a> CreateFiltering\(IEnumerable<string\>, FilteringType, int, double, double\)
 
 Applies data filtering and smoothing to data series as part of the chart tab's Signal Processing functionality.
 
@@ -565,7 +565,7 @@ For an example that includes this property, see the [Interface IOperationsSignal
 This function performs filtering on each series specified in <code class="paramref">lstSeriesName</code> using the specified filtering type,
 filter order, and frequency values. The filtering operation can smooth the data series based on the parameters provided.
 
-### CreateFiltering\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, FilteringType, int, double, double\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateFiltering_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__VM_Models_Post_FilteringType_System_Int32_System_Double_System_Double_"></a> CreateFiltering\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, FilteringType, int, double, double\)
 
 Applies data filtering and smoothing to data series as part of the chart tab's Signal Processing functionality.
 
@@ -612,7 +612,7 @@ For an example that includes this property, see the [Interface IOperationsSignal
 This function performs filtering on each series specified in <code class="paramref">seriesViewModels</code> using the specified filtering type,
 filter order, and frequency values. The filtering operation can smooth the data series based on the parameters provided.
 
-### CreateFrequencyWeighting\(IEnumerable<string\>, WeightingType, FrequencyAxisType\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateFrequencyWeighting_System_Collections_Generic_IEnumerable_System_String__VM_Models_Post_WeightingType_VM_Models_Post_FrequencyAxisType_"></a> CreateFrequencyWeighting\(IEnumerable<string\>, WeightingType, FrequencyAxisType\)
 
 Applies frequency weighting to data series as part of the chart tab's Signal Processing functionality.
 
@@ -653,7 +653,7 @@ For an example that includes this property, see the [Interface IOperationsSignal
 This function performs frequency weighting on each series specified in <code class="paramref">lstSeriesName</code> using the specified weighting type
 and axis type. A-weighting is the most commonly used to measure the sound pressure level, while B-weighting and C-weighting are alternative weighting functions.
 
-### CreateFrequencyWeighting\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, WeightingType, FrequencyAxisType\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateFrequencyWeighting_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__VM_Models_Post_WeightingType_VM_Models_Post_FrequencyAxisType_"></a> CreateFrequencyWeighting\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, WeightingType, FrequencyAxisType\)
 
 Applies frequency weighting to data series as part of the chart tab's Signal Processing functionality.
 
@@ -694,7 +694,7 @@ For an example that includes this property, see the [Interface IOperationsSignal
 This function performs frequency weighting on each series specified in <code class="paramref">seriesViewModels</code> using the specified weighting type
 and axis type. A-weighting is the most commonly used to measure the sound pressure level, while B-weighting and C-weighting are alternative weighting functions.
 
-### CreateIntegratedCurve\(IEnumerable<string\>\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateIntegratedCurve_System_Collections_Generic_IEnumerable_System_String__"></a> CreateIntegratedCurve\(IEnumerable<string\>\)
 
 Integrates data series as part of the chart tab's Calculus functionality.
 
@@ -723,7 +723,7 @@ For an example that includes this property, see the [Interface IOperationsCalcul
 This function performs integration on each series specified in <code class="paramref">lstSeriesName</code> by calculating the cumulative sum of the Y values
 of each point in the series.
 
-### CreateIntegratedCurve\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateIntegratedCurve_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__"></a> CreateIntegratedCurve\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>\)
 
 Integrates data series as part of the chart tab's Calculus functionality.
 
@@ -752,7 +752,7 @@ For an example that includes this property, see the [Interface IOperationsCalcul
 This function performs integration on each series specified in <code class="paramref">seriesViewModels</code> by calculating the cumulative sum of the Y values
 of each point in the series.
 
-### CreateInterpolation\(IEnumerable<string\>, int\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateInterpolation_System_Collections_Generic_IEnumerable_System_String__System_Int32_"></a> CreateInterpolation\(IEnumerable<string\>, int\)
 
 Applies interpolation to data series as part of the chart tab's Interpolation functionality.
 
@@ -785,7 +785,7 @@ For an example that includes this property, see the [Interface IOperationsInterp
 This function performs interpolation on each series specified in <code class="paramref">lstSeriesName</code> by calculating the interpolated values
 based on the specified number of points.
 
-### CreateInterpolation\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, int\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateInterpolation_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__System_Int32_"></a> CreateInterpolation\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, int\)
 
 Applies interpolation to data series as part of the chart tab's Interpolation functionality.
 
@@ -818,7 +818,7 @@ For an example that includes this property, see the [Interface IOperationsInterp
 This function performs interpolation on each series specified in <code class="paramref">seriesViewModels</code> by calculating the interpolated values
 based on the specified number of points.
 
-### CreateLogScale\(IEnumerable<string\>, double, double, bool\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateLogScale_System_Collections_Generic_IEnumerable_System_String__System_Double_System_Double_System_Boolean_"></a> CreateLogScale\(IEnumerable<string\>, double, double, bool\)
 
 Applies a logarithmic scale to data series as part of the chart tab's Transform functionality.
 
@@ -859,7 +859,7 @@ For an example that includes this property, see the [Interface IOperationsTransf
 This function performs a logarithmic transformation on each series specified in <code class="paramref">lstSeriesName</code> using the specified coefficient,
 base value, and whether to use the decibel scale.
 
-### CreateLogScale\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, double, double, bool\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateLogScale_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__System_Double_System_Double_System_Boolean_"></a> CreateLogScale\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, double, double, bool\)
 
 Applies a logarithmic scale to data series as part of the chart tab's Transform functionality.
 
@@ -900,7 +900,7 @@ For an example that includes this property, see the [Interface IOperationsTransf
 This function performs a logarithmic transformation on each series specified in <code class="paramref">seriesViewModels</code> using the specified coefficient,
 base value, and whether to use the decibel scale.
 
-### CreateSTFT\(IHeatMapSTFTDataViewModel, IList<string\>\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateSTFT_VM_Models_Post_IHeatMapSTFTDataViewModel_System_Collections_Generic_IList_System_String__"></a> CreateSTFT\(IHeatMapSTFTDataViewModel, IList<string\>\)
 
 Creates a Short Time Fourier Transform (STFT) for data series and updates the heatmap data.
 
@@ -934,7 +934,7 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 This function performs the STFT on each series specified in <code class="paramref">lstSeriesName</code> and updates the heatmap data
 model with the results. The heatmap data model is defined by the <xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel" data-throw-if-not-resolved="false"></xref> interface.
 
-### CreateSTFT\(IHeatMapSTFTDataViewModel, IEnumerable<IOperationsLineDataSeriesViewModelBase\>\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateSTFT_VM_Models_Post_IHeatMapSTFTDataViewModel_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__"></a> CreateSTFT\(IHeatMapSTFTDataViewModel, IEnumerable<IOperationsLineDataSeriesViewModelBase\>\)
 
 Creates a Short Time Fourier Transform (STFT) for data series and updates the heatmap data.
 
@@ -968,7 +968,7 @@ For an example that includes this property, see the [Interface IOperationsHeatMa
 This function performs the STFT on each series specified in <code class="paramref">seriesViewModels</code> and updates the heatmap data
 model with the results. The heatmap data model is defined by the <xref href="VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel" data-throw-if-not-resolved="false"></xref> interface.
 
-### CreateScale\(IEnumerable<string\>, double, double\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateScale_System_Collections_Generic_IEnumerable_System_String__System_Double_System_Double_"></a> CreateScale\(IEnumerable<string\>, double, double\)
 
 Scales data series by the specified scale values as part of the chart tab's Transform functionality.
 
@@ -1005,7 +1005,7 @@ For an example that includes this property, see the [Interface IOperationsTransf
 This function scales each series specified in <code class="paramref">lstSeriesName</code> by multiplying the X and Y values
 of each point in the series by the specified scale values.
 
-### CreateScale\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, double, double\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateScale_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__System_Double_System_Double_"></a> CreateScale\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, double, double\)
 
 Scales data series by the specified scale values as part of the chart tab's Transform functionality.
 
@@ -1042,7 +1042,7 @@ For an example that includes this property, see the [Interface IOperationsTransf
 This function scales each series specified in <code class="paramref">seriesViewModels</code> by multiplying the X and Y values
 of each point in the series by the specified scale values.
 
-### CreateSimpleMath\(IEnumerable<string\>, SimpleMathType, int\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateSimpleMath_System_Collections_Generic_IEnumerable_System_String__VM_Models_Post_SimpleMathType_System_Int32_"></a> CreateSimpleMath\(IEnumerable<string\>, SimpleMathType, int\)
 
 Performs simple mathematical operations (+, -, *) on data series as part of the chart tab's Simple Math functionality.
 
@@ -1081,7 +1081,7 @@ For an example that includes this property, see the [Interface IOperationsSimple
 This function performs the specified mathematical operation on each series in <code class="paramref">lstSeriesName</code> and combines the results
 into a single series. The function supports addition, subtraction, and multiplication of the Y values of the data points in the series.
 
-### CreateSimpleMath\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, SimpleMathType, int\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateSimpleMath_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__VM_Models_Post_SimpleMathType_System_Int32_"></a> CreateSimpleMath\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, SimpleMathType, int\)
 
 Performs simple mathematical operations (+, -, *) on data series as part of the chart tab's Simple Math functionality.
 
@@ -1120,7 +1120,7 @@ For an example that includes this property, see the [Interface IOperationsSimple
 This function performs the specified mathematical operation on each series in <code class="paramref">seriesViewModels</code> and combines the results
 into a single series. The function supports addition, subtraction, and multiplication of the Y values of the data points in the series.
 
-### CreateSmoothing\(IEnumerable<string\>, SmoothingType, int, int\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateSmoothing_System_Collections_Generic_IEnumerable_System_String__VM_Models_Post_SmoothingType_System_Int32_System_Int32_"></a> CreateSmoothing\(IEnumerable<string\>, SmoothingType, int, int\)
 
 Applies data filtering and smoothing to data series as part of the chart tab's Signal Processing functionality.
 
@@ -1163,7 +1163,7 @@ For an example that includes this property, see the [Interface IOperationsSignal
 This function performs smoothing on each series specified in <code class="paramref">lstSeriesName</code> using the specified smoothing type,
 window size, and polynomial order. The function supports moving average and Savitzky-Golay smoothing methods.
 
-### CreateSmoothing\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, SmoothingType, int, int\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateSmoothing_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__VM_Models_Post_SmoothingType_System_Int32_System_Int32_"></a> CreateSmoothing\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, SmoothingType, int, int\)
 
 Applies data filtering and smoothing to data series as part of the chart tab's Signal Processing functionality.
 
@@ -1206,7 +1206,7 @@ For an example that includes this property, see the [Interface IOperationsSignal
 This function performs smoothing on each series specified in <code class="paramref">seriesViewModels</code> using the specified smoothing type,
 window size, and polynomial order. The function supports moving average and Savitzky-Golay smoothing methods.
 
-### CreateTranslate\(IEnumerable<string\>, double, double\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateTranslate_System_Collections_Generic_IEnumerable_System_String__System_Double_System_Double_"></a> CreateTranslate\(IEnumerable<string\>, double, double\)
 
 Translates data series by the specified offsets as part of the chart tab's Transform functionality.
 
@@ -1243,7 +1243,7 @@ For an example that includes this property, see the [Interface IOperationsTransf
 This function translates each series specified in <code class="paramref">lstSeriesName</code> by adding the specified offsets to the X and Y values
 of each point in the series.
 
-### CreateTranslate\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, double, double\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModel_CreateTranslate_System_Collections_Generic_IEnumerable_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase__System_Double_System_Double_"></a> CreateTranslate\(IEnumerable<IOperationsLineDataSeriesViewModelBase\>, double, double\)
 
 Translates data series by the specified offsets as part of the chart tab's Transform functionality.
 

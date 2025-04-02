@@ -1,4 +1,4 @@
-# Class RegisterCurveSetEvent
+#  Class RegisterCurveSetEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -42,7 +42,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### RegisterCurveSetEvent\(UIntPtr, UIntPtr\[\], UIntPtr\[\]\)
+### <a id="VM_Managed_History_RegisterCurveSetEvent__ctor_System_UIntPtr_System_UIntPtr___System_UIntPtr___"></a> RegisterCurveSetEvent\(UIntPtr, UIntPtr\[\], UIntPtr\[\]\)
 
 ```csharp
 public RegisterCurveSetEvent(UIntPtr ptrSet, UIntPtr[] arKeyTopology, UIntPtr[] arKeyRedoTopology)
@@ -58,7 +58,7 @@ public RegisterCurveSetEvent(UIntPtr ptrSet, UIntPtr[] arKeyTopology, UIntPtr[] 
 
 ## Methods
 
-### Redo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_RegisterCurveSetEvent_Redo_VM_Managed_History_HistoryEventArgs_"></a> Redo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Redo(HistoryEventArgs args)
@@ -68,7 +68,7 @@ protected override void Redo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### RegisterCurveSetModified\(UIntPtr, UIntPtr\[\], UIntPtr\[\]\)
+### <a id="VM_Managed_History_RegisterCurveSetEvent_RegisterCurveSetModified_System_UIntPtr_System_UIntPtr___System_UIntPtr___"></a> RegisterCurveSetModified\(UIntPtr, UIntPtr\[\], UIntPtr\[\]\)
 
 ```csharp
 public static void RegisterCurveSetModified(UIntPtr ptrSet, UIntPtr[] arKeyTopology, UIntPtr[] arKeyRedoTopology)
@@ -82,7 +82,7 @@ public static void RegisterCurveSetModified(UIntPtr ptrSet, UIntPtr[] arKeyTopol
 
 `arKeyRedoTopology` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)\[\]
 
-### Undo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_RegisterCurveSetEvent_Undo_VM_Managed_History_HistoryEventArgs_"></a> Undo\(HistoryEventArgs\)
 
 ```csharp
 protected override void Undo(HistoryEventArgs args)
@@ -91,5 +91,4 @@ protected override void Undo(HistoryEventArgs args)
 #### Parameters
 
 `args` HistoryEventArgs
-
 

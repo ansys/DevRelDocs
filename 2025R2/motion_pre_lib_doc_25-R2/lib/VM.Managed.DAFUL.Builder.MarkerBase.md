@@ -1,4 +1,4 @@
-# Class MarkerBase
+#  Class MarkerBase
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -53,7 +53,7 @@ public class MarkerBase : BuilderNamed<Marker>, IBuilder
 
 ## Constructors
 
-### MarkerBase\(\)
+### <a id="VM_Managed_DAFUL_Builder_MarkerBase__ctor"></a> MarkerBase\(\)
 
 ```csharp
 public MarkerBase()
@@ -61,7 +61,7 @@ public MarkerBase()
 
 ## Properties
 
-### AddToDoc
+### <a id="VM_Managed_DAFUL_Builder_MarkerBase_AddToDoc"></a> AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -71,7 +71,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Connectable
+### <a id="VM_Managed_DAFUL_Builder_MarkerBase_Connectable"></a> Connectable
 
 ```csharp
 public IConnectable Connectable { get; }
@@ -83,7 +83,7 @@ public IConnectable Connectable { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_MarkerBase_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -98,5 +98,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Interface ITransformBase
+#  Interface ITransformBase
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -23,7 +23,7 @@ IHasID,
 
 ## Properties
 
-### AngleType
+### <a id="VM_Models_Pre_ITransformBase_AngleType"></a> AngleType
 
 ```csharp
 AngleTypes AngleType { get; }
@@ -33,7 +33,7 @@ AngleTypes AngleType { get; }
 
  AngleTypes
 
-### Orientation
+### <a id="VM_Models_Pre_ITransformBase_Orientation"></a> Orientation
 
 ```csharp
 OMatrix Orientation { get; }
@@ -43,7 +43,7 @@ OMatrix Orientation { get; }
 
  OMatrix
 
-### Position
+### <a id="VM_Models_Pre_ITransformBase_Position"></a> Position
 
 ```csharp
 Vector Position { get; }
@@ -53,7 +53,7 @@ Vector Position { get; }
 
  Vector
 
-### RotationAngles
+### <a id="VM_Models_Pre_ITransformBase_RotationAngles"></a> RotationAngles
 
 ```csharp
 double[] RotationAngles { get; }
@@ -63,7 +63,7 @@ double[] RotationAngles { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### RotationAxis
+### <a id="VM_Models_Pre_ITransformBase_RotationAxis"></a> RotationAxis
 
 ```csharp
 RotationAxes RotationAxis { get; }
@@ -73,7 +73,7 @@ RotationAxes RotationAxis { get; }
 
  RotationAxes
 
-### RotationType
+### <a id="VM_Models_Pre_ITransformBase_RotationType"></a> RotationType
 
 ```csharp
 RotationTypes RotationType { get; }
@@ -83,7 +83,7 @@ RotationTypes RotationType { get; }
 
  RotationTypes
 
-### TransformationMatrix
+### <a id="VM_Models_Pre_ITransformBase_TransformationMatrix"></a> TransformationMatrix
 
 ```csharp
 TMatrix TransformationMatrix { get; }
@@ -92,5 +92,4 @@ TMatrix TransformationMatrix { get; }
 #### Property Value
 
  TMatrix
-
 

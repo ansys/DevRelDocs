@@ -1,4 +1,4 @@
-# Class ComponentAnalysis.BoundaryCondition
+#  Class ComponentAnalysis.BoundaryCondition
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -22,7 +22,7 @@ public class ComponentAnalysis.BoundaryCondition
 
 ## Constructors
 
-### BoundaryCondition\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_BoundaryCondition__ctor"></a> BoundaryCondition\(\)
 
 ```csharp
 public BoundaryCondition()
@@ -30,7 +30,7 @@ public BoundaryCondition()
 
 ## Properties
 
-### RX
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_BoundaryCondition_RX"></a> RX
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.GearTrain.ComponentAnalysis.BoundaryCondition" data-throw-if-not-resolved="false"></xref> is rx.
 
@@ -42,7 +42,7 @@ public bool RX { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RY
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_BoundaryCondition_RY"></a> RY
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.GearTrain.ComponentAnalysis.BoundaryCondition" data-throw-if-not-resolved="false"></xref> is ry.
 
@@ -54,7 +54,7 @@ public bool RY { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RZ
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_BoundaryCondition_RZ"></a> RZ
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.GearTrain.ComponentAnalysis.BoundaryCondition" data-throw-if-not-resolved="false"></xref> is rz.
 
@@ -66,7 +66,7 @@ public bool RZ { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### X
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_BoundaryCondition_X"></a> X
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.GearTrain.ComponentAnalysis.BoundaryCondition" data-throw-if-not-resolved="false"></xref> is x.
 
@@ -78,7 +78,7 @@ public bool X { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Y
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_BoundaryCondition_Y"></a> Y
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.GearTrain.ComponentAnalysis.BoundaryCondition" data-throw-if-not-resolved="false"></xref> is y.
 
@@ -90,7 +90,7 @@ public bool Y { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Z
+### <a id="VM_Managed_DAFUL_GearTrain_ComponentAnalysis_BoundaryCondition_Z"></a> Z
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.GearTrain.ComponentAnalysis.BoundaryCondition" data-throw-if-not-resolved="false"></xref> is z.
 
@@ -101,5 +101,4 @@ public bool Z { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

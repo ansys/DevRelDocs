@@ -1,4 +1,4 @@
-# Class Create
+#  Class Create
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -83,7 +83,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### Create\(\)
+### <a id="VM_Managed_Operation_Create__ctor"></a> Create\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.Create" data-throw-if-not-resolved="false"></xref> class.
 
@@ -91,7 +91,7 @@ Initializes a new instance of the <xref href="VM.Managed.Operation.Create" data-
 public Create()
 ```
 
-### Create\(string\)
+### <a id="VM_Managed_Operation_Create__ctor_System_String_"></a> Create\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.Create" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ The STR initializer XML.
 
 ## Fields
 
-### m\_strInitializerXml
+### <a id="VM_Managed_Operation_Create_m_strInitializerXml"></a> m\_strInitializerXml
 
 ```csharp
 protected string m_strInitializerXml
@@ -119,7 +119,7 @@ protected string m_strInitializerXml
 
 ## Properties
 
-### IsHistoryMerge
+### <a id="VM_Managed_Operation_Create_IsHistoryMerge"></a> IsHistoryMerge
 
 Gets the history merge flag.
 
@@ -131,7 +131,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_Operation_Create_Name"></a> Name
 
 Gets the operation name.
 
@@ -143,7 +143,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UseMacro
+### <a id="VM_Managed_Operation_Create_UseMacro"></a> UseMacro
 
 Gets a value indicating whether [use macro].
 
@@ -157,7 +157,7 @@ public override bool UseMacro { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_Operation_Create_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -165,7 +165,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### ExecutePickOperation\(XmlDocument, string\[\], string\[\], int, int\)
+### <a id="VM_Managed_Operation_Create_ExecutePickOperation_System_Xml_XmlDocument_System_String___System_String___System_Int32_System_Int32_"></a> ExecutePickOperation\(XmlDocument, string\[\], string\[\], int, int\)
 
 Executes the pick operation.
 
@@ -199,12 +199,11 @@ The end.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### PostExecute\(\)
+### <a id="VM_Managed_Operation_Create_PostExecute"></a> PostExecute\(\)
 
 PostExecute the operation.
 
 ```csharp
 public override void PostExecute()
 ```
-
 

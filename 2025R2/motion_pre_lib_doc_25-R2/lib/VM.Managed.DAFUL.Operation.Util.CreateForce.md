@@ -1,4 +1,4 @@
-# Class CreateForce
+#  Class CreateForce
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -22,7 +22,7 @@ public class CreateForce
 
 ## Constructors
 
-### CreateForce\(\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce__ctor"></a> CreateForce\(\)
 
 ```csharp
 public CreateForce()
@@ -30,7 +30,7 @@ public CreateForce()
 
 ## Methods
 
-### CreateRScalar\(Document3D, IConnectable, IConnectable, PointBase, PointBase, string\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateRScalar_VM_Managed_Document3D_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_PointBase_System_String_"></a> CreateRScalar\(Document3D, IConnectable, IConnectable, PointBase, PointBase, string\)
 
 Creates the r scalar.
 
@@ -72,7 +72,7 @@ Name of the string prefix.
 
  [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
-### CreateRScalar\(Document3D, IConnectable, IConnectable, PointBase, DirectionBase, string\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateRScalar_VM_Managed_Document3D_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_DirectionBase_System_String_"></a> CreateRScalar\(Document3D, IConnectable, IConnectable, PointBase, DirectionBase, string\)
 
 Creates the r scalar.
 
@@ -114,7 +114,7 @@ Name of the string prefix.
 
  [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
-### CreateRScalar\(Document3D, IObjectBase, IObjectBase, PointBase, DirectionBase, string, Function, bool\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateRScalar_VM_Managed_Document3D_VM_Models_Pre_IObjectBase_VM_Models_Pre_IObjectBase_VM_Managed_PointBase_VM_Managed_DirectionBase_System_String_VM_Managed_DAFUL_Function_System_Boolean_"></a> CreateRScalar\(Document3D, IObjectBase, IObjectBase, PointBase, DirectionBase, string, Function, bool\)
 
 Creates the r scalar.
 
@@ -162,7 +162,7 @@ Flag for creating a new entity if there is already an entity with the same name
 
  [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
-### CreateRSpringDamper\(Document3D, ObjectBase, string\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateRSpringDamper_VM_Managed_Document3D_VM_Managed_ObjectBase_System_String_"></a> CreateRSpringDamper\(Document3D, ObjectBase, string\)
 
 Create the rotational spring damper force.
 
@@ -190,7 +190,7 @@ The spring force prefix name.
 
 The new rotational spring damper force.
 
-### CreateTScalar\(Document3D, IConnectable, IConnectable, PointBase, PointBase, string\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateTScalar_VM_Managed_Document3D_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_PointBase_System_String_"></a> CreateTScalar\(Document3D, IConnectable, IConnectable, PointBase, PointBase, string\)
 
 Create the translational scalar damper force.
 
@@ -230,7 +230,7 @@ The scalar force prefix name.
 
 The new translational sclar force.
 
-### CreateTScalar\(Document3D, IConnectable, IConnectable, PointBase, DirectionBase, string\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateTScalar_VM_Managed_Document3D_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_DirectionBase_System_String_"></a> CreateTScalar\(Document3D, IConnectable, IConnectable, PointBase, DirectionBase, string\)
 
 Create the translational scalar damper force.
 
@@ -270,7 +270,7 @@ The scalar force prefix name.
 
 The new translational sclar force.
 
-### CreateTSpringDamper\(Document3D, IConnectable, IConnectable, PointBase, PointBase, string\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateTSpringDamper_VM_Managed_Document3D_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_PointBase_System_String_"></a> CreateTSpringDamper\(Document3D, IConnectable, IConnectable, PointBase, PointBase, string\)
 
 Create the translational spring damper force.
 
@@ -310,7 +310,7 @@ The spring force prefix name.
 
 The new translational spring damper force.
 
-### CreateVector\(Document, string, IConnectable, IConnectable, PointBase, PointBase\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateVector_VM_Managed_Document_System_String_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_PointBase_"></a> CreateVector\(Document, string, IConnectable, IConnectable, PointBase, PointBase\)
 
 Creates the vector.
 
@@ -348,7 +348,7 @@ The action posi.
 
  Vector
 
-### CreateVector\(Document, string, IConnectable, IConnectable, TMatrix, TMatrix, bool\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateVector_VM_Managed_Document_System_String_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_TMatrix_VM_TMatrix_System_Boolean_"></a> CreateVector\(Document, string, IConnectable, IConnectable, TMatrix, TMatrix, bool\)
 
 Creates the vector.
 
@@ -390,7 +390,7 @@ Flag for add created element to document.
 
  Vector
 
-### CreateVector\(Document, string, IConnectable, IConnectable, PointBase, PointBase, OrientationBase, OrientationBase, IMarker\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateForce_CreateVector_VM_Managed_Document_System_String_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_PointBase_VM_Managed_OrientationBase_VM_Managed_OrientationBase_VM_Managed_IMarker_"></a> CreateVector\(Document, string, IConnectable, IConnectable, PointBase, PointBase, OrientationBase, OrientationBase, IMarker\)
 
 Creates the vector.
 
@@ -439,5 +439,4 @@ The reference marekr.
 #### Returns
 
  Vector
-
 

@@ -1,4 +1,4 @@
-# Class PropertyGearSetRackAndPinion
+#  Class PropertyGearSetRackAndPinion
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -210,7 +210,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyGearSetRackAndPinion\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetRackAndPinion__ctor"></a> PropertyGearSetRackAndPinion\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyGearSetRackAndPinion" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,7 +220,7 @@ public PropertyGearSetRackAndPinion()
 
 ## Properties
 
-### DatFileForWeb
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetRackAndPinion_DatFileForWeb"></a> DatFileForWeb
 
 Gets or sets the dat file.
 Use SetDatFileForWeb() when this instance sets for undo/redo
@@ -233,7 +233,7 @@ public string DatFileForWeb { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### RackProperty
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetRackAndPinion_RackProperty"></a> RackProperty
 
 Gets or sets the rack property.
 
@@ -247,7 +247,7 @@ public Rack RackProperty { get; set; }
 
 ## Methods
 
-### BuildGear\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetRackAndPinion_BuildGear_System_Boolean_"></a> BuildGear\(bool\)
 
 Builds the gear.
 
@@ -263,7 +263,7 @@ public override bool BuildGear(bool bCreate)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetRackAndPinion_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds the local.
 
@@ -281,7 +281,7 @@ Name of the string.
 
  IObjectBase
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetRackAndPinion_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -301,7 +301,7 @@ The ob unnamed.
 
 The unnamed object name.
 
-### InitChild\(int, string\[\], ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetRackAndPinion_InitChild_System_Int32_System_String___VM_Unit_ConvertFactor_"></a> InitChild\(int, string\[\], ConvertFactor\)
 
 Initializes the child.
 
@@ -323,7 +323,7 @@ Name of the ar.
 
 The factor.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetRackAndPinion_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -337,7 +337,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReadResultCore\(XmlDocument\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetRackAndPinion_ReadResultCore_System_Xml_XmlDocument_"></a> ReadResultCore\(XmlDocument\)
 
 Reads the result core.
 
@@ -351,7 +351,7 @@ protected override void ReadResultCore(XmlDocument xmlDoc)
 
 The XML document.
 
-### ReadResultForDatFile\(string\[\], int\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetRackAndPinion_ReadResultForDatFile_System_String___System_Int32_"></a> ReadResultForDatFile\(string\[\], int\)
 
 Read result for dat file.
 
@@ -369,7 +369,7 @@ The dat path array.
 
 The index.
 
-### SetDatFileForWeb\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyGearSetRackAndPinion_SetDatFileForWeb_System_String_"></a> SetDatFileForWeb\(string\)
 
 Set dat file for web.
 
@@ -382,5 +382,4 @@ public void SetDatFileForWeb(string strFile)
 `strFile` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The  dat file for web.
-
 

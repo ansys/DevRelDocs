@@ -1,4 +1,4 @@
-# Interface IRepairable
+#  Interface IRepairable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,10 +17,9 @@ public interface IRepairable
 
 ## Methods
 
-### Repair\(\)
+### <a id="VM_Managed_IRepairable_Repair"></a> Repair\(\)
 
 ```csharp
 void Repair()
 ```
-
 

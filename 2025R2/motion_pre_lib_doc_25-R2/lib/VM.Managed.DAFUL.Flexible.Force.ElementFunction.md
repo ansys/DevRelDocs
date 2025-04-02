@@ -1,4 +1,4 @@
-# Class ElementFunction
+#  Class ElementFunction
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -104,7 +104,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ElementFunction\(\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction__ctor"></a> ElementFunction\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ElementFunction" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -114,7 +114,7 @@ ObservableObject.PropertyChanged
 public ElementFunction()
 ```
 
-### ElementFunction\(string\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction__ctor_System_String_"></a> ElementFunction\(string\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Force.ElementFunction" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -130,7 +130,7 @@ public ElementFunction(string strUniqueName)
 
 ## Properties
 
-### DisplayFunctionNumber
+### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_DisplayFunctionNumber"></a> DisplayFunctionNumber
 
 <p>Gets or set the diaplay function number.</p>
 <p>UI에 보여주는 함수 갯수를 가져오거나 넣어줍니다.</p>
@@ -143,7 +143,7 @@ public ElementFunction.DisplayNumber DisplayFunctionNumber { get; set; }
 
  [ElementFunction](VM.Managed.DAFUL.Flexible.Force.ElementFunction.md).[DisplayNumber](VM.Managed.DAFUL.Flexible.Force.ElementFunction.DisplayNumber.md)
 
-### FunctionX
+### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_FunctionX"></a> FunctionX
 
 <p>Gets or sets the X function.</p>
 <p>x 방향의 함수를 가져오거나 넣어줍니다.</p>
@@ -156,7 +156,7 @@ public CompositeFieldUsable FunctionX { get; set; }
 
  CompositeFieldUsable
 
-### FunctionY
+### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_FunctionY"></a> FunctionY
 
 <p>Gets or sets the Y function.</p>
 <p>y 방향의 함수를 가져오거나 넣어줍니다.</p>
@@ -169,7 +169,7 @@ public CompositeFieldUsable FunctionY { get; set; }
 
  CompositeFieldUsable
 
-### FunctionZ
+### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_FunctionZ"></a> FunctionZ
 
 <p>Gets or sets the Z function.</p>
 <p>z 방향의 함수를 가져오거나 넣어줍니다.</p>
@@ -182,7 +182,7 @@ public CompositeFieldUsable FunctionZ { get; set; }
 
  CompositeFieldUsable
 
-### Orientation
+### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_Orientation"></a> Orientation
 
 <p>Gets or sets the orientation.</p>
 <p>자세를 가져오거나 넣어줍니다.</p>
@@ -197,7 +197,7 @@ public OrientationBase Orientation { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Flexible_Force_ElementFunction_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 <p>Initializes member through unit convert factor.</p>
 <p>단위 변화 팩터를 이용하여 필드를 초기화 해줍니다.</p>
@@ -212,5 +212,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 <p>The unit convert factor.</p>
 <p>단위 변환 팩터.</p>
-
 

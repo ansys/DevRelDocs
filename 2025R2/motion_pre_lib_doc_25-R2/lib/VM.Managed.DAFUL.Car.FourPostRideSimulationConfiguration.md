@@ -1,4 +1,4 @@
-# Class FourPostRideSimulationConfiguration
+#  Class FourPostRideSimulationConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -196,7 +196,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### FourPostRideSimulationConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_FourPostRideSimulationConfiguration__ctor"></a> FourPostRideSimulationConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SteadySingleConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -204,7 +204,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SteadySingleC
 public FourPostRideSimulationConfiguration()
 ```
 
-### FourPostRideSimulationConfiguration\(AnalysisFourPostRide\)
+### <a id="VM_Managed_DAFUL_Car_FourPostRideSimulationConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisFourPostRide_"></a> FourPostRideSimulationConfiguration\(AnalysisFourPostRide\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.SteadySingleConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -220,7 +220,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_FourPostRideSimulationConfiguration_Analysis"></a> Analysis
 
 Gets or sets the type of the analysis.
 
@@ -232,7 +232,7 @@ public override AnalysisBase Analysis { get; set; }
 
  AnalysisBase
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_FourPostRideSimulationConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -244,7 +244,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_FourPostRideSimulationConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the AnalysisType.
 
@@ -256,7 +256,7 @@ public override FourPostAnalysisType AnalysisType { get; }
 
  [FourPostAnalysisType](VM.Managed.DAFUL.Car.FourPostAnalysisType.md)
 
-### FourPostRideParam
+### <a id="VM_Managed_DAFUL_Car_FourPostRideSimulationConfiguration_FourPostRideParam"></a> FourPostRideParam
 
 Gets or sets the 4-Post Test Rig parameter.
 
@@ -267,5 +267,4 @@ public AnalysisFourPostRide FourPostRideParam { get; set; }
 #### Property Value
 
  [AnalysisFourPostRide](VM.Managed.DAFUL.Car.AnalysisFourPostRide.md)
-
 

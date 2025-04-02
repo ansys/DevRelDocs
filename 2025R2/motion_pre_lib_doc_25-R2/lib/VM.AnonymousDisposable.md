@@ -1,4 +1,4 @@
-# Class AnonymousDisposable
+#  Class AnonymousDisposable
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -20,7 +20,7 @@ public sealed class AnonymousDisposable
 
 ## Constructors
 
-### AnonymousDisposable\(Action\)
+### <a id="VM_AnonymousDisposable__ctor_System_Action_"></a> AnonymousDisposable\(Action\)
 
 ```csharp
 public AnonymousDisposable(Action dispose)
@@ -32,7 +32,7 @@ public AnonymousDisposable(Action dispose)
 
 ## Properties
 
-### IsDisposed
+### <a id="VM_AnonymousDisposable_IsDisposed"></a> IsDisposed
 
 ```csharp
 public bool IsDisposed { get; }
@@ -44,7 +44,7 @@ public bool IsDisposed { get; }
 
 ## Methods
 
-### Create\(Action\)
+### <a id="VM_AnonymousDisposable_Create_System_Action_"></a> Create\(Action\)
 
 ```csharp
 public static IDisposable Create(Action dispose)
@@ -58,10 +58,9 @@ public static IDisposable Create(Action dispose)
 
  [IDisposable](https://learn.microsoft.com/dotnet/api/system.idisposable)
 
-### Dispose\(\)
+### <a id="VM_AnonymousDisposable_Dispose"></a> Dispose\(\)
 
 ```csharp
 public void Dispose()
 ```
-
 

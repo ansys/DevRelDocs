@@ -1,4 +1,4 @@
-# Class CurveSetForImport
+#  Class CurveSetForImport
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -59,7 +59,7 @@ BuilderBase<SetCurveBase\>.ErrorMessage
 
 ## Constructors
 
-### CurveSetForImport\(\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetForImport__ctor"></a> CurveSetForImport\(\)
 
 ```csharp
 public CurveSetForImport()
@@ -67,7 +67,7 @@ public CurveSetForImport()
 
 ## Properties
 
-### Connectable
+### <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetForImport_Connectable"></a> Connectable
 
 ```csharp
 public ObjectBase Connectable { get; }
@@ -77,7 +77,7 @@ public ObjectBase Connectable { get; }
 
  ObjectBase
 
-### Path
+### <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetForImport_Path"></a> Path
 
 ```csharp
 public string Path { get; set; }
@@ -89,7 +89,7 @@ public string Path { get; set; }
 
 ## Methods
 
-### LoadPointDataFile\(string, string\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetForImport_LoadPointDataFile_System_String_System_String_"></a> LoadPointDataFile\(string, string\)
 
 ```csharp
 protected List<string[]> LoadPointDataFile(string loadStr, string extStr)
@@ -105,7 +105,7 @@ protected List<string[]> LoadPointDataFile(string loadStr, string extStr)
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\[\]\>
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetForImport_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -121,7 +121,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReadPointDataFile\(string\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_CurveSetForImport_ReadPointDataFile_System_String_"></a> ReadPointDataFile\(string\)
 
 ```csharp
 protected string ReadPointDataFile(string fileName)
@@ -134,5 +134,4 @@ protected string ReadPointDataFile(string fileName)
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

@@ -1,4 +1,4 @@
-# Namespace VM.Managed.Symmetric.Tire
+#  Namespace VM.Managed.Symmetric.Tire
 
 ### Namespaces
 
@@ -7,5 +7,4 @@
 ### Classes
 
  [TireBase<T\>](VM.Managed.Symmetric.Tire.TireBase\-1.md)
-
 

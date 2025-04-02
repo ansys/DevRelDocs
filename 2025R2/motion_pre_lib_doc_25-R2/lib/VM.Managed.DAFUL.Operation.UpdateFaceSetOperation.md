@@ -1,4 +1,4 @@
-# Class UpdateFaceSetOperation
+#  Class UpdateFaceSetOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOPBallPlacing.dll  
@@ -75,7 +75,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdateFaceSetOperation\(SetFace, double, double\)
+### <a id="VM_Managed_DAFUL_Operation_UpdateFaceSetOperation__ctor_VM_Managed_DAFUL_SetFace_System_Double_System_Double_"></a> UpdateFaceSetOperation\(SetFace, double, double\)
 
 ```csharp
 public UpdateFaceSetOperation(SetFace faceset, double dMaxPen, double dOffset)
@@ -91,7 +91,7 @@ public UpdateFaceSetOperation(SetFace faceset, double dMaxPen, double dOffset)
 
 ## Properties
 
-### IsHistoryMerge
+### <a id="VM_Managed_DAFUL_Operation_UpdateFaceSetOperation_IsHistoryMerge"></a> IsHistoryMerge
 
 ```csharp
 public override bool IsHistoryMerge { get; }
@@ -101,7 +101,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_UpdateFaceSetOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -115,12 +115,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_UpdateFaceSetOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

@@ -1,4 +1,4 @@
-# Enum SimulationConfiguration.MeshDataForOutput
+#  Enum SimulationConfiguration.MeshDataForOutput
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -26,7 +26,6 @@ SOLID
 `UserTETRA = 2` 
 
 UserTETRA
-
 
 
 

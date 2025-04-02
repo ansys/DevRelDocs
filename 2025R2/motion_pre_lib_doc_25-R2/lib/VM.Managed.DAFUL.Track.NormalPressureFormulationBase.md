@@ -1,4 +1,4 @@
-# Class NormalPressureFormulationBase
+#  Class NormalPressureFormulationBase
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -101,7 +101,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### NormalPressureFormulationBase\(\)
+### <a id="VM_Managed_DAFUL_Track_NormalPressureFormulationBase__ctor"></a> NormalPressureFormulationBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.NormalPressureFormulationBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -111,7 +111,7 @@ public NormalPressureFormulationBase()
 
 ## Properties
 
-### BoundarySinkage
+### <a id="VM_Managed_DAFUL_Track_NormalPressureFormulationBase_BoundarySinkage"></a> BoundarySinkage
 
 Gets or sets the boundary sinkage.
 
@@ -129,7 +129,7 @@ public ExpressionValueVariable BoundarySinkage { get; set; }
 
 The boundary sinkage is null.
 
-### CohesiveCoefficient
+### <a id="VM_Managed_DAFUL_Track_NormalPressureFormulationBase_CohesiveCoefficient"></a> CohesiveCoefficient
 
 Gets or sets the Cohesive Coefficient.
 
@@ -147,7 +147,7 @@ public ExpressionValueVariable CohesiveCoefficient { get; set; }
 
 Cohesive Coefficient is null.
 
-### DampRatio
+### <a id="VM_Managed_DAFUL_Track_NormalPressureFormulationBase_DampRatio"></a> DampRatio
 
 Gets or sets the Damp ratio.
 
@@ -165,7 +165,7 @@ public ExpressionValueVariable DampRatio { get; set; }
 
 The damp ratio is null.
 
-### TypeOfNormalPressureFormulation
+### <a id="VM_Managed_DAFUL_Track_NormalPressureFormulationBase_TypeOfNormalPressureFormulation"></a> TypeOfNormalPressureFormulation
 
 Gets the normal pressure formulation type.
 
@@ -179,7 +179,7 @@ public abstract NormalPressureFormulationType TypeOfNormalPressureFormulation { 
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Track_NormalPressureFormulationBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -193,7 +193,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Track_NormalPressureFormulationBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -206,5 +206,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

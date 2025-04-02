@@ -1,4 +1,4 @@
-# Enum RollerType
+#  Enum RollerType
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -38,7 +38,6 @@ user defiend roller.
 `SingleFlange = 2` 
 
 Single flange type roller.
-
 
 
 

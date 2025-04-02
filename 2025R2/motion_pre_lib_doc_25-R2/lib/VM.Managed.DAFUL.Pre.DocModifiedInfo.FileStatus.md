@@ -1,4 +1,4 @@
-# Enum DocModifiedInfo.FileStatus
+#  Enum DocModifiedInfo.FileStatus
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -32,7 +32,6 @@ None.
 `NotSaved = 1` 
 
 Not saved.
-
 
 
 

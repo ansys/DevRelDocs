@@ -1,4 +1,4 @@
-# Enum AccelerationUnitType
+#  Enum AccelerationUnitType
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis](VM.Managed.DAFUL.Car.Analysis.md)  
 Assembly: VMDCar.dll  
@@ -26,7 +26,6 @@ m/s^2
 `mm_s_s = 2` 
 
 mm/s^2
-
 
 
 

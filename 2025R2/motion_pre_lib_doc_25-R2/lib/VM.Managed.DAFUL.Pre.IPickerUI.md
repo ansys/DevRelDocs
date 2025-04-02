@@ -1,4 +1,4 @@
-# Interface IPickerUI
+#  Interface IPickerUI
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -17,7 +17,7 @@ public interface IPickerUI
 
 ## Methods
 
-### CloseWindow\(\)
+### <a id="VM_Managed_DAFUL_Pre_IPickerUI_CloseWindow"></a> CloseWindow\(\)
 
 Closes this window.
 
@@ -25,7 +25,7 @@ Closes this window.
 void CloseWindow()
 ```
 
-### GetPickerUI\(string, bool\)
+### <a id="VM_Managed_DAFUL_Pre_IPickerUI_GetPickerUI_System_String_System_Boolean_"></a> GetPickerUI\(string, bool\)
 
 Gets the picker UI.
 
@@ -47,7 +47,7 @@ if set to <code>true</code> [b use auto pick].
 
  [UserControl](https://learn.microsoft.com/dotnet/api/system.windows.forms.usercontrol)
 
-### OnCancel\(\)
+### <a id="VM_Managed_DAFUL_Pre_IPickerUI_OnCancel"></a> OnCancel\(\)
 
 Called when [cancel].
 
@@ -55,7 +55,7 @@ Called when [cancel].
 void OnCancel()
 ```
 
-### OnViewHide\(\)
+### <a id="VM_Managed_DAFUL_Pre_IPickerUI_OnViewHide"></a> OnViewHide\(\)
 
 Called when [view hide].
 
@@ -63,7 +63,7 @@ Called when [view hide].
 void OnViewHide()
 ```
 
-### OnViewShow\(\)
+### <a id="VM_Managed_DAFUL_Pre_IPickerUI_OnViewShow"></a> OnViewShow\(\)
 
 Called when [view show].
 
@@ -71,7 +71,7 @@ Called when [view show].
 void OnViewShow()
 ```
 
-### SetTitleName\(string\)
+### <a id="VM_Managed_DAFUL_Pre_IPickerUI_SetTitleName_System_String_"></a> SetTitleName\(string\)
 
 Sets the name of the title.
 
@@ -85,12 +85,11 @@ void SetTitleName(string strName)
 
 The name.
 
-### UpdateWindow\(\)
+### <a id="VM_Managed_DAFUL_Pre_IPickerUI_UpdateWindow"></a> UpdateWindow\(\)
 
 Updates the window.
 
 ```csharp
 void UpdateWindow()
 ```
-
 

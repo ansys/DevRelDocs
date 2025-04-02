@@ -1,4 +1,4 @@
-# Class TemperatureUnit
+#  Class TemperatureUnit
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -31,7 +31,7 @@ FunctionUnitBase.Factor
 
 ## Constructors
 
-### TemperatureUnit\(\)
+### <a id="VM_Managed_DAFUL_Thermal_TemperatureUnit__ctor"></a> TemperatureUnit\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.TemperatureUnit" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.Temperatu
 public TemperatureUnit()
 ```
 
-### TemperatureUnit\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Thermal_TemperatureUnit__ctor_VM_Models_Pre_ILinkContainer_"></a> TemperatureUnit\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.TemperatureUnit" data-throw-if-not-resolved="false"></xref> class.
 
@@ -55,7 +55,7 @@ The owner.
 
 ## Properties
 
-### Factor
+### <a id="VM_Managed_DAFUL_Thermal_TemperatureUnit_Factor"></a> Factor
 
 Gets the factor.
 
@@ -67,7 +67,7 @@ public override string Factor { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Scale
+### <a id="VM_Managed_DAFUL_Thermal_TemperatureUnit_Scale"></a> Scale
 
 Gets the scale.
 
@@ -79,7 +79,7 @@ public override double Scale { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Shift
+### <a id="VM_Managed_DAFUL_Thermal_TemperatureUnit_Shift"></a> Shift
 
 Gets the shift.
 
@@ -91,7 +91,7 @@ public override double Shift { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UnitOfTemperature
+### <a id="VM_Managed_DAFUL_Thermal_TemperatureUnit_UnitOfTemperature"></a> UnitOfTemperature
 
 Gets or sets the unit.
 
@@ -102,5 +102,4 @@ public TemperatureUnit.Temperature UnitOfTemperature { get; set; }
 #### Property Value
 
  [TemperatureUnit](VM.Managed.DAFUL.Thermal.TemperatureUnit.md).[Temperature](VM.Managed.DAFUL.Thermal.TemperatureUnit.Temperature.md)
-
 

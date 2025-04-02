@@ -1,4 +1,4 @@
-# Class StiffnessAnalysis
+#  Class StiffnessAnalysis
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -73,7 +73,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### StiffnessAnalysis\(IProjectDocument, string\)
+### <a id="VM_Models_Project_Preset_StiffnessAnalysis__ctor_VM_Models_IProjectDocument_System_String_"></a> StiffnessAnalysis\(IProjectDocument, string\)
 
 ```csharp
 public StiffnessAnalysis(IProjectDocument parent, string name)
@@ -87,7 +87,7 @@ public StiffnessAnalysis(IProjectDocument parent, string name)
 
 ## Properties
 
-### CategoryName
+### <a id="VM_Models_Project_Preset_StiffnessAnalysis_CategoryName"></a> CategoryName
 
 ```csharp
 public override string CategoryName { get; }
@@ -97,7 +97,7 @@ public override string CategoryName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DisplayName
+### <a id="VM_Models_Project_Preset_StiffnessAnalysis_DisplayName"></a> DisplayName
 
 ```csharp
 public override string DisplayName { get; }
@@ -109,7 +109,7 @@ public override string DisplayName { get; }
 
 ## Methods
 
-### SaveScenarioData\(IScenarioDocument\)
+### <a id="VM_Models_Project_Preset_StiffnessAnalysis_SaveScenarioData_VM_IScenarioDocument_"></a> SaveScenarioData\(IScenarioDocument\)
 
 ```csharp
 public override void SaveScenarioData(IScenarioDocument scenarioDocument)
@@ -118,5 +118,4 @@ public override void SaveScenarioData(IScenarioDocument scenarioDocument)
 #### Parameters
 
 `scenarioDocument` IScenarioDocument
-
 

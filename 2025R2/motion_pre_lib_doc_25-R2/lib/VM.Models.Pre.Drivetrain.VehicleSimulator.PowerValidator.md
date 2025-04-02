@@ -1,4 +1,4 @@
-# Class PowerValidator
+#  Class PowerValidator
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -58,10 +58,9 @@ AbstractValidator<Power\>.RuleLevelCascadeMode
 
 ## Constructors
 
-### PowerValidator\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_PowerValidator__ctor"></a> PowerValidator\(\)
 
 ```csharp
 public PowerValidator()
 ```
-
 

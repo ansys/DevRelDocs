@@ -1,4 +1,4 @@
-# Enum ContactStandard.DampingCoefficientType
+#  Enum ContactStandard.DampingCoefficientType
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -32,7 +32,6 @@ None
 `Spline = 3` 
 
 spline
-
 
 
 

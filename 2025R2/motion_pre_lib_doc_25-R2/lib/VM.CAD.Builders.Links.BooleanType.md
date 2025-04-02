@@ -1,4 +1,4 @@
-# Enum BooleanType
+#  Enum BooleanType
 
 Namespace: [VM.CAD.Builders.Links](VM.CAD.Builders.Links.md)  
 Assembly: VM.CAD.Builders.Links.dll  
@@ -20,7 +20,6 @@ Subtract
 `Unite = 0` 
 
 Unite
-
 
 
 

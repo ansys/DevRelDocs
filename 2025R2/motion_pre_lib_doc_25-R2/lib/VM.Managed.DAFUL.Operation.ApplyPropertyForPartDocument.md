@@ -1,4 +1,4 @@
-# Class ApplyPropertyForPartDocument
+#  Class ApplyPropertyForPartDocument
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ApplyPropertyForPartDocument\(PartDocument, string, string, string\)
+### <a id="VM_Managed_DAFUL_Operation_ApplyPropertyForPartDocument__ctor_VM_Managed_DAFUL_PartDocument_System_String_System_String_System_String_"></a> ApplyPropertyForPartDocument\(PartDocument, string, string, string\)
 
 ```csharp
 public ApplyPropertyForPartDocument(PartDocument doc, string strDFMFFilePath, string strLastModifiedTimeToDFMFFile, string strModesXML)
@@ -93,7 +93,7 @@ public ApplyPropertyForPartDocument(PartDocument doc, string strDFMFFilePath, st
 
 `strModesXML` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ApplyPropertyForPartDocument\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_ApplyPropertyForPartDocument__ctor_VM_Managed_Operation_JournalParameter_"></a> ApplyPropertyForPartDocument\(JournalParameter\)
 
 ```csharp
 public ApplyPropertyForPartDocument(JournalParameter jp)
@@ -105,7 +105,7 @@ public ApplyPropertyForPartDocument(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_ApplyPropertyForPartDocument_Name"></a> Name
 
 Gets the operation name.
 
@@ -119,7 +119,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_ApplyPropertyForPartDocument_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -127,7 +127,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Operation_ApplyPropertyForPartDocument_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -136,5 +136,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

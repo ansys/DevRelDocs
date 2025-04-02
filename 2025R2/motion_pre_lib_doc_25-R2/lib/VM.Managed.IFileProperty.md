@@ -1,4 +1,4 @@
-# Interface IFileProperty
+#  Interface IFileProperty
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -17,7 +17,7 @@ public interface IFileProperty
 
 ## Properties
 
-### AbsolutePath
+### <a id="VM_Managed_IFileProperty_AbsolutePath"></a> AbsolutePath
 
 Gets the absolute path.
 
@@ -29,7 +29,7 @@ string AbsolutePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PropertyDocument
+### <a id="VM_Managed_IFileProperty_PropertyDocument"></a> PropertyDocument
 
 Gets the property document.
 
@@ -41,7 +41,7 @@ PropertyDocumentBase PropertyDocument { get; }
 
  [PropertyDocumentBase](VM.Managed.PropertyDocumentBase.md)
 
-### Unit
+### <a id="VM_Managed_IFileProperty_Unit"></a> Unit
 
 Gets the unit.
 
@@ -55,7 +55,7 @@ Unit Unit { get; }
 
 ## Methods
 
-### GetRelativePath\(string\)
+### <a id="VM_Managed_IFileProperty_GetRelativePath_System_String_"></a> GetRelativePath\(string\)
 
 Gets the relative path.
 
@@ -75,7 +75,7 @@ The reference directory.
 
 The relative path.
 
-### LoadExtraData\(SerializationInfo\)
+### <a id="VM_Managed_IFileProperty_LoadExtraData_System_Runtime_Serialization_SerializationInfo_"></a> LoadExtraData\(SerializationInfo\)
 
 Load extra data
 
@@ -87,7 +87,7 @@ void LoadExtraData(SerializationInfo info)
 
 `info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
 
-### SaveExtraData\(SerializationInfo\)
+### <a id="VM_Managed_IFileProperty_SaveExtraData_System_Runtime_Serialization_SerializationInfo_"></a> SaveExtraData\(SerializationInfo\)
 
 Save extra data
 
@@ -98,5 +98,4 @@ void SaveExtraData(SerializationInfo info)
 #### Parameters
 
 `info` [SerializationInfo](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.serializationinfo)
-
 

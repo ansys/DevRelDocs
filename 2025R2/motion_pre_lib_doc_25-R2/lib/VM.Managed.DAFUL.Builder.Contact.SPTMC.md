@@ -1,4 +1,4 @@
-# Class SPTMC
+#  Class SPTMC
 
 Namespace: [VM.Managed.DAFUL.Builder.Contact](VM.Managed.DAFUL.Builder.Contact.md)  
 Assembly: VMBldCt.dll  
@@ -53,7 +53,7 @@ BuilderBase<SPTMC\>.ErrorMessage
 
 ## Constructors
 
-### SPTMC\(\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_SPTMC__ctor"></a> SPTMC\(\)
 
 ```csharp
 public SPTMC()
@@ -61,7 +61,7 @@ public SPTMC()
 
 ## Properties
 
-### ActionGeometry
+### <a id="VM_Managed_DAFUL_Builder_Contact_SPTMC_ActionGeometry"></a> ActionGeometry
 
 ```csharp
 public ObjectBase ActionGeometry { get; }
@@ -71,7 +71,7 @@ public ObjectBase ActionGeometry { get; }
 
  ObjectBase
 
-### BaseCurveset
+### <a id="VM_Managed_DAFUL_Builder_Contact_SPTMC_BaseCurveset"></a> BaseCurveset
 
 ```csharp
 public string[] BaseCurveset { get; set; }
@@ -81,7 +81,7 @@ public string[] BaseCurveset { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### Position
+### <a id="VM_Managed_DAFUL_Builder_Contact_SPTMC_Position"></a> Position
 
 ```csharp
 public PointBase Position { get; }
@@ -91,7 +91,7 @@ public PointBase Position { get; }
 
  PointBase
 
-### Radius
+### <a id="VM_Managed_DAFUL_Builder_Contact_SPTMC_Radius"></a> Radius
 
 ```csharp
 public Variable Radius { get; set; }
@@ -103,7 +103,7 @@ public Variable Radius { get; set; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Contact_SPTMC_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -118,5 +118,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Class RoadFileCanvas
+#  Class RoadFileCanvas
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -35,7 +35,7 @@ public class RoadFileCanvas : KernelExtension
 
 ## Constructors
 
-### RoadFileCanvas\(UIntPtr, bool\)
+### <a id="VM_CAD_Kernel_RoadFileCanvas__ctor_System_UIntPtr_System_Boolean_"></a> RoadFileCanvas\(UIntPtr, bool\)
 
 ```csharp
 public RoadFileCanvas(UIntPtr key, bool isLock = true)
@@ -49,7 +49,7 @@ public RoadFileCanvas(UIntPtr key, bool isLock = true)
 
 ## Properties
 
-### MessageCallback
+### <a id="VM_CAD_Kernel_RoadFileCanvas_MessageCallback"></a> MessageCallback
 
 ```csharp
 public RoadFileCanvas.MessageFn MessageCallback { get; set; }
@@ -59,7 +59,7 @@ public RoadFileCanvas.MessageFn MessageCallback { get; set; }
 
  [RoadFileCanvas](VM.CAD.Kernel.RoadFileCanvas.md).[MessageFn](VM.CAD.Kernel.RoadFileCanvas.MessageFn.md)
 
-### Segments
+### <a id="VM_CAD_Kernel_RoadFileCanvas_Segments"></a> Segments
 
 ```csharp
 public int Segments { get; }
@@ -71,7 +71,7 @@ public int Segments { get; }
 
 ## Methods
 
-### Create\(UIntPtr, bool\)
+### <a id="VM_CAD_Kernel_RoadFileCanvas_Create_System_UIntPtr_System_Boolean_"></a> Create\(UIntPtr, bool\)
 
 ```csharp
 public static RoadFileCanvas Create(UIntPtr key, bool bLock = true)
@@ -87,7 +87,7 @@ public static RoadFileCanvas Create(UIntPtr key, bool bLock = true)
 
  [RoadFileCanvas](VM.CAD.Kernel.RoadFileCanvas.md)
 
-### Open\(string, double\)
+### <a id="VM_CAD_Kernel_RoadFileCanvas_Open_System_String_System_Double_"></a> Open\(string, double\)
 
 ```csharp
 public void Open(string strRoadFile, double dFactorFromMeter)
@@ -99,7 +99,7 @@ public void Open(string strRoadFile, double dFactorFromMeter)
 
 `dFactorFromMeter` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SetDetailedSegment\(int\)
+### <a id="VM_CAD_Kernel_RoadFileCanvas_SetDetailedSegment_System_Int32_"></a> SetDetailedSegment\(int\)
 
 ```csharp
 public void SetDetailedSegment(int nSeg)
@@ -109,7 +109,7 @@ public void SetDetailedSegment(int nSeg)
 
 `nSeg` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### SetTransformation\(Vector, double\)
+### <a id="VM_CAD_Kernel_RoadFileCanvas_SetTransformation_VM_Vector_System_Double_"></a> SetTransformation\(Vector, double\)
 
 ```csharp
 public void SetTransformation(Vector offset, double rotateAngleDeg)
@@ -120,5 +120,4 @@ public void SetTransformation(Vector offset, double rotateAngleDeg)
 `offset` Vector
 
 `rotateAngleDeg` [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

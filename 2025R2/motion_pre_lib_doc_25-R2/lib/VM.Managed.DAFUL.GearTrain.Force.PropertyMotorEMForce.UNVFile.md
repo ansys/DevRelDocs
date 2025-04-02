@@ -1,4 +1,4 @@
-# Class PropertyMotorEMForce.UNVFile
+#  Class PropertyMotorEMForce.UNVFile
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,7 +26,7 @@ public class PropertyMotorEMForce.UNVFile
 
 ## Constructors
 
-### UNVFile\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_UNVFile__ctor"></a> UNVFile\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.UNVFile" data-throw-if-not-resolved="false"></xref> class.
 
@@ -34,7 +34,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Force.P
 public UNVFile()
 ```
 
-### UNVFile\(string, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_UNVFile__ctor_System_String_System_String_"></a> UNVFile\(string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.UNVFile" data-throw-if-not-resolved="false"></xref> class.
 
@@ -54,7 +54,7 @@ The rotor path.
 
 ## Properties
 
-### RotorPath
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_UNVFile_RotorPath"></a> RotorPath
 
 Gets or sets the rotor path.
 
@@ -66,7 +66,7 @@ public string RotorPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### StatorPath
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_UNVFile_StatorPath"></a> StatorPath
 
 Gets or sets the stator path.
 
@@ -77,5 +77,4 @@ public string StatorPath { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

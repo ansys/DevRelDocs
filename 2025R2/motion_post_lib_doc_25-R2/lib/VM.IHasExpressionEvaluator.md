@@ -1,4 +1,4 @@
-# Interface IHasExpressionEvaluator
+#  Interface IHasExpressionEvaluator
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IHasExpressionEvaluator
 
 ## Properties
 
-### ExpressionEvaluator
+### <a id="VM_IHasExpressionEvaluator_ExpressionEvaluator"></a> ExpressionEvaluator
 
 ```python
 IExpressionEvaluator ExpressionEvaluator { get; }

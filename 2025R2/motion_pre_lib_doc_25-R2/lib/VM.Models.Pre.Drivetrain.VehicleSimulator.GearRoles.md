@@ -1,4 +1,4 @@
-# Enum GearRoles
+#  Enum GearRoles
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -16,5 +16,4 @@ public enum GearRoles
 `None = 0` 
 
 `Output = 2` 
-
 

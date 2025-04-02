@@ -1,4 +1,4 @@
-# Class GearGeometryInfo
+#  Class GearGeometryInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -174,7 +174,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearGeometryInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo__ctor"></a> GearGeometryInfo\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearGeometryInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -182,7 +182,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearGeo
 public GearGeometryInfo()
 ```
 
-### GearGeometryInfo\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo__ctor_System_String_"></a> GearGeometryInfo\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearGeometryInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -198,7 +198,7 @@ Name of the sub entity.
 
 ## Properties
 
-### GearShape
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo_GearShape"></a> GearShape
 
 Gets or sets the gear geometry.
 
@@ -210,7 +210,7 @@ public GearShapeBase GearShape { get; set; }
 
  [GearShapeBase](VM.Managed.DAFUL.GearTrain.GearShapeBase.md)
 
-### GeometryDepth
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo_GeometryDepth"></a> GeometryDepth
 
 Gets the geometry depth.
 
@@ -222,7 +222,7 @@ public override double GeometryDepth { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsInternal
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo_IsInternal"></a> IsInternal
 
 Gets or sets a value indicating whether this instance is designer.
 Use SetInternal() when this instance sets for undo/redo
@@ -235,7 +235,7 @@ public bool IsInternal { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ModifiedParam
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo_ModifiedParam"></a> ModifiedParam
 
 Gets or sets the whether this instance's parameter is modified or not.
 
@@ -247,7 +247,7 @@ public bool ModifiedParam { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### PredefinedPIs
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo_PredefinedPIs"></a> PredefinedPIs
 
 Gets the array of predefined performance index.
 
@@ -259,7 +259,7 @@ public PerformanceIndexInformation[] PredefinedPIs { get; }
 
  [PerformanceIndexInformation](VM.Managed.DAFUL.GearTrain.PerformanceIndexInformation.md)\[\]
 
-### TypeOfGeometry
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo_TypeOfGeometry"></a> TypeOfGeometry
 
 Gets the type of geometry.
 
@@ -273,7 +273,7 @@ public override GeometryInfoBase.GeometryType TypeOfGeometry { get; }
 
 ## Methods
 
-### GetCenterPosition\(IGearBuilder\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo_GetCenterPosition_VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder_"></a> GetCenterPosition\(IGearBuilder\)
 
 Gets the center position
 
@@ -291,7 +291,7 @@ The Gear builder
 
  VectorBase\[\]
 
-### GetLengthAndHeight\(ref double, ref double\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
 
 Gets the height of the length and.
 
@@ -309,7 +309,7 @@ Length of the d.
 
 Height of the d.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -323,7 +323,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 Request for destroying the linked object.
 
@@ -341,7 +341,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -355,7 +355,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### SetInternal\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo_SetInternal_System_Boolean_"></a> SetInternal\(bool\)
 
 Set internal flag.
 
@@ -369,12 +369,11 @@ public void SetInternal(bool bFlag)
 
 The internal flag.
 
-### SetModified\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearGeometryInfo_SetModified"></a> SetModified\(\)
 
 Sets modified flag.
 
 ```csharp
 protected override void SetModified()
 ```
-
 

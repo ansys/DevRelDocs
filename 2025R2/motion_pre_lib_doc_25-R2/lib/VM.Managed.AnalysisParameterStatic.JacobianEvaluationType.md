@@ -1,4 +1,4 @@
-# Enum AnalysisParameterStatic.JacobianEvaluationType
+#  Enum AnalysisParameterStatic.JacobianEvaluationType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -20,7 +20,6 @@ Auto
 `EveryTime = 2` 
 
 EveryTime
-
 
 
 

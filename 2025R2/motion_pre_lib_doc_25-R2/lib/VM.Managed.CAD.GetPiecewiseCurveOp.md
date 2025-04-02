@@ -1,4 +1,4 @@
-# Class GetPiecewiseCurveOp
+#  Class GetPiecewiseCurveOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### GetPiecewiseCurveOp\(List<Edge\>, double, double, double, ref bool\)
+### <a id="VM_Managed_CAD_GetPiecewiseCurveOp__ctor_System_Collections_Generic_List_VM_Managed_CAD_Edge__System_Double_System_Double_System_Double_System_Boolean__"></a> GetPiecewiseCurveOp\(List<Edge\>, double, double, double, ref bool\)
 
 ```csharp
 public GetPiecewiseCurveOp(List<Edge> lstEdges, double dTol, double dLen, double dAngle, ref bool bCloseLoop)
@@ -95,7 +95,7 @@ public GetPiecewiseCurveOp(List<Edge> lstEdges, double dTol, double dLen, double
 
 `bCloseLoop` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetPiecewiseCurveOp\(\)
+### <a id="VM_Managed_CAD_GetPiecewiseCurveOp__ctor"></a> GetPiecewiseCurveOp\(\)
 
 ```csharp
 public GetPiecewiseCurveOp()
@@ -103,7 +103,7 @@ public GetPiecewiseCurveOp()
 
 ## Properties
 
-### IsCloseLoop
+### <a id="VM_Managed_CAD_GetPiecewiseCurveOp_IsCloseLoop"></a> IsCloseLoop
 
 Gets the close loop.
 
@@ -115,7 +115,7 @@ public bool IsCloseLoop { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_CAD_GetPiecewiseCurveOp_Name"></a> Name
 
 Gets the name.
 
@@ -127,7 +127,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Result
+### <a id="VM_Managed_CAD_GetPiecewiseCurveOp_Result"></a> Result
 
 Gets the result.
 
@@ -141,12 +141,11 @@ public List<VectorBase> Result { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_CAD_GetPiecewiseCurveOp_Execute"></a> Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
-
 

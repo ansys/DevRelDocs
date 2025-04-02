@@ -1,4 +1,4 @@
-# Class General
+#  Class General
 
 Namespace: [VM.Models.Pre.Connections](VM.Models.Pre.Connections.md)  
 Assembly: VM.Models.Pre.Connections.dll  
@@ -254,7 +254,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### General\(\)
+### <a id="VM_Models_Pre_Connections_General__ctor"></a> General\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref> class.</p>
 
@@ -262,7 +262,7 @@ ObservableObject.PropertyChanged
 public General()
 ```
 
-### General\(string\)
+### <a id="VM_Models_Pre_Connections_General__ctor_System_String_"></a> General\(string\)
 
 <p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref> class.</p>
 
@@ -276,7 +276,7 @@ public General(string strName)
 
 <p>Name of the general constraint.</p>
 
-### General\(string, ConnectorType\)
+### <a id="VM_Models_Pre_Connections_General__ctor_System_String_VM_Models_Pre_Connections_PropertyGeneral_ConnectorType_"></a> General\(string, ConnectorType\)
 
 <p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref> class.</p>
 
@@ -294,7 +294,7 @@ public General(string strName, PropertyGeneral.ConnectorType type)
 
 <p>Type of the general constraint.</p>
 
-### General\(string, Property\)
+### <a id="VM_Models_Pre_Connections_General__ctor_System_String_VM_Managed_Property_"></a> General\(string, Property\)
 
 <p>Initializes a new instance of the <xref href="VM.Models.Pre.Connections.General" data-throw-if-not-resolved="false"></xref> class.</p>
 
@@ -314,7 +314,7 @@ public General(string strName, Property property)
 
 ## Properties
 
-### PreventDuplicatedRBE
+### <a id="VM_Models_Pre_Connections_General_PreventDuplicatedRBE"></a> PreventDuplicatedRBE
 
 Gets a value whether this instance prevent duplicated RBE.
 
@@ -326,7 +326,7 @@ public override bool PreventDuplicatedRBE { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReportTypeImpl
+### <a id="VM_Models_Pre_Connections_General_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -338,7 +338,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
  IReportable.ReportEntityType
 
-### TopologyEntityTypeName
+### <a id="VM_Models_Pre_Connections_General_TopologyEntityTypeName"></a> TopologyEntityTypeName
 
 <p>Get the object type name</p>
 <p>
@@ -364,7 +364,7 @@ public override string TopologyEntityTypeName { get; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Models_Pre_Connections_General_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 <p>Draws the icon.</p>
 
@@ -378,7 +378,7 @@ public override void Draw(Canvas canvas)
 
 <p>The canvas has icon information.</p>
 
-### InitializeEvent\(Document3D\)
+### <a id="VM_Models_Pre_Connections_General_InitializeEvent_VM_Managed_Document3D_"></a> InitializeEvent\(Document3D\)
 
 <p>Initializes event.</p>
 
@@ -390,7 +390,7 @@ public static void InitializeEvent(Document3D doc)
 
 `doc` Document3D
 
-### MakeReferenceImpl\(LinkedList<Reference\>\)
+### <a id="VM_Models_Pre_Connections_General_MakeReferenceImpl_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReferenceImpl\(LinkedList<Reference\>\)
 
 <p>Makes the reference [implementation].</p>
 
@@ -404,7 +404,7 @@ protected override void MakeReferenceImpl(LinkedList<Reference> lstRef)
 
 <p>The container.</p>
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Models_Pre_Connections_General_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -418,7 +418,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Models_Pre_Connections_General_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -431,5 +431,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

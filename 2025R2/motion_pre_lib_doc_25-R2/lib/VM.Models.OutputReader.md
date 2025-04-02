@@ -1,4 +1,4 @@
-# Namespace VM.Models.OutputReader
+#  Namespace VM.Models.OutputReader
 
 ### Classes
 
@@ -11,5 +11,4 @@
  [IOutputReader](VM.Models.OutputReader.IOutputReader.md)
 
  [IVectorDisplayAnimationData](VM.Models.OutputReader.IVectorDisplayAnimationData.md)
-
 

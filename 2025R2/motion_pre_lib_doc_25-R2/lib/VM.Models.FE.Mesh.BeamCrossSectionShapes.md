@@ -1,4 +1,4 @@
-# Enum BeamCrossSectionShapes
+#  Enum BeamCrossSectionShapes
 
 Namespace: [VM.Models.FE.Mesh](VM.Models.FE.Mesh.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -11,5 +11,4 @@ public enum BeamCrossSectionShapes
 ## Fields
 
 `ROD = 0` 
-
 

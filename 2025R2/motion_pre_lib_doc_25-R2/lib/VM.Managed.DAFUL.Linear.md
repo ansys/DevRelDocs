@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Linear
+#  Namespace VM.Managed.DAFUL.Linear
 
 ### Namespaces
 
@@ -73,5 +73,4 @@ Specifies type for the input mode.
  [InputType](VM.Managed.DAFUL.Linear.InputType.md)
 
 Specifies type for the input.
-
 

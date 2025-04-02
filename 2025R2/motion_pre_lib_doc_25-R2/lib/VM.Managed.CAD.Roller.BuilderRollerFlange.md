@@ -1,4 +1,4 @@
-# Class BuilderRollerFlange
+#  Class BuilderRollerFlange
 
 Namespace: [VM.Managed.CAD.Roller](VM.Managed.CAD.Roller.md)  
 Assembly: VMDRoller.dll  
@@ -232,7 +232,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderRollerFlange\(\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlange__ctor"></a> BuilderRollerFlange\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Roller.BuilderRollerFlange" data-throw-if-not-resolved="false"></xref> class.
 
@@ -242,7 +242,7 @@ public BuilderRollerFlange()
 
 ## Fields
 
-### m\_FlangeAngle
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlange_m_FlangeAngle"></a> m\_FlangeAngle
 
 The flange angle
 
@@ -254,7 +254,7 @@ protected Child<Variable, ObjectBase.Update> m_FlangeAngle
 
  Child<Variable, ObjectBase.Update\>
 
-### m\_FlangeDistance
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlange_m_FlangeDistance"></a> m\_FlangeDistance
 
 The flange distance.
 
@@ -268,7 +268,7 @@ protected Child<Variable, ObjectBase.Update> m_FlangeDistance
 
 ## Properties
 
-### FlangeAngle
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlange_FlangeAngle"></a> FlangeAngle
 
 Gets and sets flange angle.
 
@@ -280,7 +280,7 @@ public ExpressionValueVariable FlangeAngle { get; set; }
 
  ExpressionValueVariable
 
-### FlangeDistance
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlange_FlangeDistance"></a> FlangeDistance
 
 Gets and sets flange distance.
 
@@ -294,7 +294,7 @@ public Variable FlangeDistance { get; set; }
 
 ## Methods
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlange_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Checks the validation about build.
 
@@ -302,7 +302,7 @@ Checks the validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### GetLinkEventArg\(\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlange_GetLinkEventArg"></a> GetLinkEventArg\(\)
 
 Gets the event reason.
 This function use internally.
@@ -317,7 +317,7 @@ public NotifyReason GetLinkEventArg()
 
 The reason.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlange_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -335,7 +335,7 @@ The obj notifier.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### SetLinkEventArg\(NotifyReason\)
+### <a id="VM_Managed_CAD_Roller_BuilderRollerFlange_SetLinkEventArg_VM_Managed_NotifyReason_"></a> SetLinkEventArg\(NotifyReason\)
 
 Sets the event reason
 This function use internally.
@@ -349,5 +349,4 @@ public void SetLinkEventArg(NotifyReason reason)
 `reason` NotifyReason
 
 The reason
-
 

@@ -1,4 +1,4 @@
-# Class SimulationRun
+#  Class SimulationRun
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -104,7 +104,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### SimulationRun\(Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_SimulationRun__ctor_VM_Managed_Document_"></a> SimulationRun\(Document\)
 
 ```csharp
 public SimulationRun(Document doc)
@@ -114,7 +114,7 @@ public SimulationRun(Document doc)
 
 `doc` Document
 
-### SimulationRun\(Document, string\)
+### <a id="VM_Managed_DAFUL_Car_Operation_SimulationRun__ctor_VM_Managed_Document_System_String_"></a> SimulationRun\(Document, string\)
 
 ```csharp
 public SimulationRun(Document doc, string strSimPar)
@@ -126,7 +126,7 @@ public SimulationRun(Document doc, string strSimPar)
 
 `strSimPar` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SimulationRun\(Document, SimulationParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_SimulationRun__ctor_VM_Managed_Document_VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_"></a> SimulationRun\(Document, SimulationParameter\)
 
 ```csharp
 public SimulationRun(Document doc, SimulationRun.SimulationParameter param)
@@ -138,7 +138,7 @@ public SimulationRun(Document doc, SimulationRun.SimulationParameter param)
 
 `param` SimulationRun.SimulationParameter
 
-### SimulationRun\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_SimulationRun__ctor_VM_Managed_Operation_JournalParameter_"></a> SimulationRun\(JournalParameter\)
 
 ```csharp
 public SimulationRun(JournalParameter jp)
@@ -150,7 +150,7 @@ public SimulationRun(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_SimulationRun_Name"></a> Name
 
 Gets the operation name.
 
@@ -164,7 +164,7 @@ public override string Name { get; }
 
 ## Methods
 
-### ApplySimulation\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_SimulationRun_ApplySimulation"></a> ApplySimulation\(\)
 
 ```csharp
 protected bool ApplySimulation()
@@ -174,7 +174,7 @@ protected bool ApplySimulation()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_SimulationRun_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -182,7 +182,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### UpdateUI\(IUIUpdate, Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_SimulationRun_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 
 ```csharp
 public static void UpdateUI(IUIUpdate updater, Document doc)
@@ -193,5 +193,4 @@ public static void UpdateUI(IUIUpdate updater, Document doc)
 `updater` IUIUpdate
 
 `doc` Document
-
 

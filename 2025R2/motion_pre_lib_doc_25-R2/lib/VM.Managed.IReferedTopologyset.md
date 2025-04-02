@@ -1,4 +1,4 @@
-# Interface IReferedTopologyset
+#  Interface IReferedTopologyset
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -21,7 +21,7 @@ public interface IReferedTopologyset : ITopologyset
 
 ## Methods
 
-### GetParentBody\(\)
+### <a id="VM_Managed_IReferedTopologyset_GetParentBody"></a> GetParentBody\(\)
 
 Gets the refered topologies's parent body.
 
@@ -34,5 +34,4 @@ ReferenceBody GetParentBody()
  [ReferenceBody](VM.Managed.CAD.ReferenceBody.md)
 
 The refered topologies's parent body.
-
 

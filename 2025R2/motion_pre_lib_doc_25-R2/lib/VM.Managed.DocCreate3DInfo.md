@@ -1,4 +1,4 @@
-# Class DocCreate3DInfo
+#  Class DocCreate3DInfo
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -31,7 +31,7 @@ public class DocCreate3DInfo : DocCreateInfo
 
 ## Constructors
 
-### DocCreate3DInfo\(\)
+### <a id="VM_Managed_DocCreate3DInfo__ctor"></a> DocCreate3DInfo\(\)
 
 ```csharp
 public DocCreate3DInfo()
@@ -39,7 +39,7 @@ public DocCreate3DInfo()
 
 ## Properties
 
-### IconSize
+### <a id="VM_Managed_DocCreate3DInfo_IconSize"></a> IconSize
 
 Gets or sets the icon size.
 
@@ -51,7 +51,7 @@ public virtual double IconSize { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsAdvancedMode
+### <a id="VM_Managed_DocCreate3DInfo_IsAdvancedMode"></a> IsAdvancedMode
 
 Gets or sets a value indicating whether this instance is advanced mode.
 
@@ -63,7 +63,7 @@ public bool IsAdvancedMode { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SymmetricPlane
+### <a id="VM_Managed_DocCreate3DInfo_SymmetricPlane"></a> SymmetricPlane
 
 Gets or sets the symmetric plane.
 
@@ -75,7 +75,7 @@ public Plane SymmetricPlane { get; set; }
 
  Plane
 
-### UseSymmetric
+### <a id="VM_Managed_DocCreate3DInfo_UseSymmetric"></a> UseSymmetric
 
 Gets or sets a value indicating whether use symmetric option.
 
@@ -86,5 +86,4 @@ public bool UseSymmetric { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

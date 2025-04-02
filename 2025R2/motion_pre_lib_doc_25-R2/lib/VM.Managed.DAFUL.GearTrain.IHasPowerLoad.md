@@ -1,4 +1,4 @@
-# Interface IHasPowerLoad
+#  Interface IHasPowerLoad
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IHasPowerLoad
 
 ## Properties
 
-### GearGeometryInfos
+### <a id="VM_Managed_DAFUL_GearTrain_IHasPowerLoad_GearGeometryInfos"></a> GearGeometryInfos
 
 Gets the gear geometry infos.
 
@@ -29,7 +29,7 @@ GeometryInfoBase[] GearGeometryInfos { get; }
 
  [GeometryInfoBase](VM.Managed.DAFUL.GearTrain.GeometryInfoBase.md)\[\]
 
-### InputPowerLoadDirection
+### <a id="VM_Managed_DAFUL_GearTrain_IHasPowerLoad_InputPowerLoadDirection"></a> InputPowerLoadDirection
 
 Gets the input power load direction.
 
@@ -41,7 +41,7 @@ VectorBase InputPowerLoadDirection { get; }
 
  VectorBase
 
-### InputPowerLoadPosition
+### <a id="VM_Managed_DAFUL_GearTrain_IHasPowerLoad_InputPowerLoadPosition"></a> InputPowerLoadPosition
 
 Gets the input power load position.
 
@@ -53,7 +53,7 @@ VectorBase InputPowerLoadPosition { get; }
 
  VectorBase
 
-### OutputPowerLoadDirection
+### <a id="VM_Managed_DAFUL_GearTrain_IHasPowerLoad_OutputPowerLoadDirection"></a> OutputPowerLoadDirection
 
 Gets the output power load direction.
 
@@ -65,7 +65,7 @@ VectorBase OutputPowerLoadDirection { get; }
 
  VectorBase
 
-### OutputPowerLoadPosition
+### <a id="VM_Managed_DAFUL_GearTrain_IHasPowerLoad_OutputPowerLoadPosition"></a> OutputPowerLoadPosition
 
 Gets the output power load position.
 
@@ -77,7 +77,7 @@ VectorBase OutputPowerLoadPosition { get; }
 
  VectorBase
 
-### ParentOfInputPowerLoad
+### <a id="VM_Managed_DAFUL_GearTrain_IHasPowerLoad_ParentOfInputPowerLoad"></a> ParentOfInputPowerLoad
 
 Gets the parent of input power load.
 
@@ -89,7 +89,7 @@ IConnectable ParentOfInputPowerLoad { get; }
 
  IConnectable
 
-### ParentOfOutputPowerLoad
+### <a id="VM_Managed_DAFUL_GearTrain_IHasPowerLoad_ParentOfOutputPowerLoad"></a> ParentOfOutputPowerLoad
 
 Gets the parent of output power load.
 
@@ -101,7 +101,7 @@ IConnectable ParentOfOutputPowerLoad { get; }
 
  IConnectable
 
-### PowerLoads
+### <a id="VM_Managed_DAFUL_GearTrain_IHasPowerLoad_PowerLoads"></a> PowerLoads
 
 Gets the power loads.
 
@@ -112,5 +112,4 @@ IPowerLoad[] PowerLoads { get; }
 #### Property Value
 
  [IPowerLoad](VM.Managed.DAFUL.GearTrain.IPowerLoad.md)\[\]
-
 

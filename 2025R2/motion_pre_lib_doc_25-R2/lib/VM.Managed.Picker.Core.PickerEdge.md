@@ -1,4 +1,4 @@
-# Class PickerEdge
+#  Class PickerEdge
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -52,7 +52,7 @@ public class PickerEdge : PickerTopol
 
 ## Constructors
 
-### PickerEdge\(\)
+### <a id="VM_Managed_Picker_Core_PickerEdge__ctor"></a> PickerEdge\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerEdge" data-throw-if-not-resolved="false"></xref> class
 
@@ -62,7 +62,7 @@ public PickerEdge()
 
 ## Methods
 
-### GetPickerInfo\(\)
+### <a id="VM_Managed_Picker_Core_PickerEdge_GetPickerInfo"></a> GetPickerInfo\(\)
 
 Gets information of picking type.
 
@@ -74,7 +74,7 @@ public override string GetPickerInfo()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SetResultImpl\(ref string, bool\)
+### <a id="VM_Managed_Picker_Core_PickerEdge_SetResultImpl_System_String__System_Boolean_"></a> SetResultImpl\(ref string, bool\)
 
 Sets the result for picking.
 
@@ -97,5 +97,4 @@ If it is true, skip the result setting.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

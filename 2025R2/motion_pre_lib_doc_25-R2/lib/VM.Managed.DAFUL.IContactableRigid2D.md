@@ -1,4 +1,4 @@
-# Interface IContactableRigid2D
+#  Interface IContactableRigid2D
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -26,7 +26,7 @@ IHasBody
 
 ## Properties
 
-### IsCloseLoop
+### <a id="VM_Managed_DAFUL_IContactableRigid2D_IsCloseLoop"></a> IsCloseLoop
 
 Gets value indicating whether this instance is close loop.
 
@@ -38,7 +38,7 @@ bool IsCloseLoop { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ParentBody
+### <a id="VM_Managed_DAFUL_IContactableRigid2D_ParentBody"></a> ParentBody
 
 Gets the parent body.
 
@@ -52,7 +52,7 @@ ObjectBase ParentBody { get; }
 
 ## Methods
 
-### GetPoints\(\)
+### <a id="VM_Managed_DAFUL_IContactableRigid2D_GetPoints"></a> GetPoints\(\)
 
 Gets the points.
 
@@ -66,7 +66,7 @@ VectorBase[] GetPoints()
 
 the points.
 
-### GetPointsAboutOrigin\(\)
+### <a id="VM_Managed_DAFUL_IContactableRigid2D_GetPointsAboutOrigin"></a> GetPointsAboutOrigin\(\)
 
 Gets the points.
 
@@ -80,7 +80,7 @@ VectorBase[] GetPointsAboutOrigin()
 
 the points.
 
-### GetProfilePoint\(ref bool, ref List<VectorBase\>\)
+### <a id="VM_Managed_DAFUL_IContactableRigid2D_GetProfilePoint_System_Boolean__System_Collections_Generic_List_VM_Managed_VectorBase___"></a> GetProfilePoint\(ref bool, ref List<VectorBase\>\)
 
 Gets the profile point.
 
@@ -103,5 +103,4 @@ The points.
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
 the profile point.
-
 

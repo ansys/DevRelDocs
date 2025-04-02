@@ -1,4 +1,4 @@
-# Class FileGen
+#  Class FileGen
 
 Namespace: [VM.Managed.DAFUL.Builder.CoSim](VM.Managed.DAFUL.Builder.CoSim.md)  
 Assembly: VMBldCoSim.dll  
@@ -53,7 +53,7 @@ BuilderBase<FileGen\>.ErrorMessage
 
 ## Constructors
 
-### FileGen\(\)
+### <a id="VM_Managed_DAFUL_Builder_CoSim_FileGen__ctor"></a> FileGen\(\)
 
 ```csharp
 public FileGen()
@@ -61,7 +61,7 @@ public FileGen()
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_CoSim_FileGen_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -76,5 +76,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

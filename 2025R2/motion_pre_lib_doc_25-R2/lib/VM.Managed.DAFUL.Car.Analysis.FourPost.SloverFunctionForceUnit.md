@@ -1,4 +1,4 @@
-# Enum SloverFunctionForceUnit
+#  Enum SloverFunctionForceUnit
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.FourPost](VM.Managed.DAFUL.Car.Analysis.FourPost.md)  
 Assembly: VMDCar.dll  
@@ -20,7 +20,6 @@ N
 `lbf2 = 1` 
 
 lbf
-
 
 
 

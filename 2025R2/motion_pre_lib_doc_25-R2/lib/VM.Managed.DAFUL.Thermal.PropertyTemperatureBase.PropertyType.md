@@ -1,4 +1,4 @@
-# Enum PropertyTemperatureBase.PropertyType
+#  Enum PropertyTemperatureBase.PropertyType
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -20,7 +20,6 @@ The File.
 `Value = 0` 
 
 The Value.
-
 
 
 

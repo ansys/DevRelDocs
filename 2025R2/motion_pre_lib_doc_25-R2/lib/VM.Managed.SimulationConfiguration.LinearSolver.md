@@ -1,4 +1,4 @@
-# Enum SimulationConfiguration.LinearSolver
+#  Enum SimulationConfiguration.LinearSolver
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -38,7 +38,6 @@ SLU
 `SUPER = 5` 
 
 SUPER
-
 
 
 

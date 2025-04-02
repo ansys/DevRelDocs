@@ -1,4 +1,4 @@
-# Class UpdatePointEntityOnRBE
+#  Class UpdatePointEntityOnRBE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -84,7 +84,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdatePointEntityOnRBE\(PointEntityOnRBE\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdatePointEntityOnRBE__ctor_VM_Managed_DAFUL_GearTrain_PointEntityOnRBE_"></a> UpdatePointEntityOnRBE\(PointEntityOnRBE\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdatePointEntityOnRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -98,7 +98,7 @@ public UpdatePointEntityOnRBE(PointEntityOnRBE pl)
 
 The pl.
 
-### UpdatePointEntityOnRBE\(Document3D, PointEntityOnRBE\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdatePointEntityOnRBE__ctor_VM_Managed_Document3D_VM_Managed_DAFUL_GearTrain_PointEntityOnRBE_"></a> UpdatePointEntityOnRBE\(Document3D, PointEntityOnRBE\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdatePointEntityOnRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -116,7 +116,7 @@ The document.
 
 The pl.
 
-### UpdatePointEntityOnRBE\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdatePointEntityOnRBE__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdatePointEntityOnRBE\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdatePointEntityOnRBE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -132,7 +132,7 @@ The jp.
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdatePointEntityOnRBE_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -140,7 +140,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdatePointEntityOnRBE_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -153,5 +153,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

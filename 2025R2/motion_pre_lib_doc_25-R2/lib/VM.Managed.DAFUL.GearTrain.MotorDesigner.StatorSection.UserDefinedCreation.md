@@ -1,4 +1,4 @@
-# Class MotorDesigner.StatorSection.UserDefinedCreation
+#  Class MotorDesigner.StatorSection.UserDefinedCreation
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -104,7 +104,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### UserDefinedCreation\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation__ctor"></a> UserDefinedCreation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.StatorSection.UserDefinedCreation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -114,7 +114,7 @@ public UserDefinedCreation()
 
 ## Properties
 
-### Height1
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_Height1"></a> Height1
 
 Gets or sets the height1.
 
@@ -126,7 +126,7 @@ public ExpressionValueVariable Height1 { get; set; }
 
  ExpressionValueVariable
 
-### Height2
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_Height2"></a> Height2
 
 Gets or sets the height2.
 
@@ -138,7 +138,7 @@ public ExpressionValueVariable Height2 { get; set; }
 
  ExpressionValueVariable
 
-### Height3
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_Height3"></a> Height3
 
 Gets or sets the height3.
 
@@ -150,7 +150,7 @@ public ExpressionValueVariable Height3 { get; set; }
 
  ExpressionValueVariable
 
-### InnerDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_InnerDiameter"></a> InnerDiameter
 
 Gets or sets the inner diameter.
 
@@ -162,7 +162,7 @@ public ExpressionValueVariable InnerDiameter { get; set; }
 
  ExpressionValueVariable
 
-### MountingFilletRound
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_MountingFilletRound"></a> MountingFilletRound
 
 Gets or sets the mounting fillet round.
 
@@ -174,7 +174,7 @@ public ExpressionValueVariable MountingFilletRound { get; set; }
 
  ExpressionValueVariable
 
-### MountingInnerRound
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_MountingInnerRound"></a> MountingInnerRound
 
 Gets or sets the mounting inner round.
 
@@ -186,7 +186,7 @@ public ExpressionValueVariable MountingInnerRound { get; set; }
 
  ExpressionValueVariable
 
-### MountingOuterRound
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_MountingOuterRound"></a> MountingOuterRound
 
 Gets or sets the mounting outer round.
 
@@ -198,7 +198,7 @@ public ExpressionValueVariable MountingOuterRound { get; set; }
 
  ExpressionValueVariable
 
-### MountingRadius
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_MountingRadius"></a> MountingRadius
 
 Gets or sets the mounting radius.
 
@@ -210,7 +210,7 @@ public ExpressionValueVariable MountingRadius { get; set; }
 
  ExpressionValueVariable
 
-### NumberOfMounting
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_NumberOfMounting"></a> NumberOfMounting
 
 Gets or sets the number of mounting.
 
@@ -222,7 +222,7 @@ public ExpressionValueVariable NumberOfMounting { get; set; }
 
  ExpressionValueVariable
 
-### NumberOfSlot
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_NumberOfSlot"></a> NumberOfSlot
 
 Gets or sets the number of slot.
 
@@ -234,7 +234,7 @@ public ExpressionValueVariable NumberOfSlot { get; set; }
 
  ExpressionValueVariable
 
-### OuterDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_OuterDiameter"></a> OuterDiameter
 
 Gets or sets the outer diameter.
 
@@ -246,7 +246,7 @@ public ExpressionValueVariable OuterDiameter { get; set; }
 
  ExpressionValueVariable
 
-### RoundS
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_RoundS"></a> RoundS
 
 Gets or sets the round S.
 
@@ -258,7 +258,7 @@ public ExpressionValueVariable RoundS { get; set; }
 
  ExpressionValueVariable
 
-### TypeOfGeometryCreation
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_TypeOfGeometryCreation"></a> TypeOfGeometryCreation
 
 Gets the geometry creation type.
 
@@ -270,7 +270,7 @@ public override MotorDesigner.GeometryCreationType TypeOfGeometryCreation { get;
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[GeometryCreationType](VM.Managed.DAFUL.GearTrain.MotorDesigner.GeometryCreationType.md)
 
-### Width1
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_Width1"></a> Width1
 
 Gets or sets the width1.
 
@@ -282,7 +282,7 @@ public ExpressionValueVariable Width1 { get; set; }
 
  ExpressionValueVariable
 
-### Width2
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_Width2"></a> Width2
 
 Gets or sets the width2.
 
@@ -294,7 +294,7 @@ public ExpressionValueVariable Width2 { get; set; }
 
  ExpressionValueVariable
 
-### Width3
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_Width3"></a> Width3
 
 Gets or sets the width3.
 
@@ -308,7 +308,7 @@ public ExpressionValueVariable Width3 { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -322,7 +322,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### InitializeWithMountingType\(StatorMountingType, ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_UserDefinedCreation_InitializeWithMountingType_VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorMountingType_VM_Unit_ConvertFactor_"></a> InitializeWithMountingType\(StatorMountingType, ConvertFactor\)
 
 ```csharp
 public void InitializeWithMountingType(MotorDesigner.StatorMountingType statorMountingType, Unit.ConvertFactor factor)
@@ -333,5 +333,4 @@ public void InitializeWithMountingType(MotorDesigner.StatorMountingType statorMo
 `statorMountingType` [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[StatorMountingType](VM.Managed.DAFUL.GearTrain.MotorDesigner.StatorMountingType.md)
 
 `factor` Unit.ConvertFactor
-
 

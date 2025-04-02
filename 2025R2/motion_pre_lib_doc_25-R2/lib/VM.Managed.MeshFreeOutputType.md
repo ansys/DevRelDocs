@@ -1,4 +1,4 @@
-# Enum MeshFreeOutputType
+#  Enum MeshFreeOutputType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -21,7 +21,6 @@ Surface (Triangle)
 `Volume = 1` 
 
 Volume (Tetrahedron)
-
 
 
 

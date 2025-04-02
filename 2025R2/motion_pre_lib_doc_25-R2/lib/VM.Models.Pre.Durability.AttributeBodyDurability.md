@@ -1,4 +1,4 @@
-# Class AttributeBodyDurability
+#  Class AttributeBodyDurability
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeBodyDurability\(\)
+### <a id="VM_Models_Pre_Durability_AttributeBodyDurability__ctor"></a> AttributeBodyDurability\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Durability.AttributeBodyDurability" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeBodyDurability()
 
 ## Properties
 
-### EasyFlexLevel
+### <a id="VM_Models_Pre_Durability_AttributeBodyDurability_EasyFlexLevel"></a> EasyFlexLevel
 
 Gets or sets the easyflex level.
 
@@ -121,7 +121,7 @@ public uint EasyFlexLevel { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### TypeOfFatigueStress
+### <a id="VM_Models_Pre_Durability_AttributeBodyDurability_TypeOfFatigueStress"></a> TypeOfFatigueStress
 
 Gets or sets the fatigue stress type.
 
@@ -133,7 +133,7 @@ public DurabilityData.FatigueStressType TypeOfFatigueStress { get; set; }
 
  [DurabilityData](VM.Models.Pre.Durability.DurabilityData.md).[FatigueStressType](VM.Models.Pre.Durability.DurabilityData.FatigueStressType.md)
 
-### Use
+### <a id="VM_Models_Pre_Durability_AttributeBodyDurability_Use"></a> Use
 
 Gets or sets the use flag
 
@@ -145,7 +145,7 @@ public bool Use { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseFatigue
+### <a id="VM_Models_Pre_Durability_AttributeBodyDurability_UseFatigue"></a> UseFatigue
 
 Gets or sets the fatigue use flag.
 
@@ -156,5 +156,4 @@ public bool UseFatigue { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

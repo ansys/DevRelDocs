@@ -1,4 +1,4 @@
-# Class PointSymmetric
+#  Class PointSymmetric
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMSymBase.dll  
@@ -105,13 +105,13 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PointSymmetric\(\)
+### <a id="VM_Managed_Symmetric_PointSymmetric__ctor"></a> PointSymmetric\(\)
 
 ```csharp
 public PointSymmetric()
 ```
 
-### PointSymmetric\(PointBase, Plane\)
+### <a id="VM_Managed_Symmetric_PointSymmetric__ctor_VM_Managed_PointBase_VM_Plane_"></a> PointSymmetric\(PointBase, Plane\)
 
 ```csharp
 public PointSymmetric(PointBase tool, Plane sym_plane)
@@ -125,7 +125,7 @@ public PointSymmetric(PointBase tool, Plane sym_plane)
 
 ## Properties
 
-### IsParameterized
+### <a id="VM_Managed_Symmetric_PointSymmetric_IsParameterized"></a> IsParameterized
 
 Get the parametric.
 
@@ -137,7 +137,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Value
+### <a id="VM_Managed_Symmetric_PointSymmetric_Value"></a> Value
 
 Get the VectorBase(x, y, z).
 
@@ -149,7 +149,7 @@ public override VectorBase Value { get; }
 
  VectorBase
 
-### X
+### <a id="VM_Managed_Symmetric_PointSymmetric_X"></a> X
 
 Get the X point.
 
@@ -161,7 +161,7 @@ public override double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_Managed_Symmetric_PointSymmetric_Y"></a> Y
 
 Get the Y point.
 
@@ -173,7 +173,7 @@ public override double Y { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Z
+### <a id="VM_Managed_Symmetric_PointSymmetric_Z"></a> Z
 
 Get the Z point.
 
@@ -187,13 +187,13 @@ public override double Z { get; }
 
 ## Methods
 
-### \~PointSymmetric\(\)
+### <a id="VM_Managed_Symmetric_PointSymmetric_Finalize"></a> \~PointSymmetric\(\)
 
 ```csharp
 protected ~PointSymmetric()
 ```
 
-### GetSchema\(\)
+### <a id="VM_Managed_Symmetric_PointSymmetric_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -208,7 +208,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### IsParametric\(enRefType\)
+### <a id="VM_Managed_Symmetric_PointSymmetric_IsParametric_VM_Managed_Primitive_enRefType_"></a> IsParametric\(enRefType\)
 
 Gets parametric.
 
@@ -228,7 +228,7 @@ Point picking type.
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_Symmetric_PointSymmetric_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -242,7 +242,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_Symmetric_PointSymmetric_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -255,5 +255,4 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

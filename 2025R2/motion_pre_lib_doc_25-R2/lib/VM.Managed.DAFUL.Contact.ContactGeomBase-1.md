@@ -1,4 +1,4 @@
-# Class ContactGeomBase<TProperty\>
+#  Class ContactGeomBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -207,7 +207,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ContactGeomBase\(\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBase_1__ctor"></a> ContactGeomBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeomBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -215,7 +215,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGe
 protected ContactGeomBase()
 ```
 
-### ContactGeomBase\(string\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBase_1__ctor_System_String_"></a> ContactGeomBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeomBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -231,7 +231,7 @@ Name of the contact geometry
 
 ## Properties
 
-### GeometryFullName
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBase_1_GeometryFullName"></a> GeometryFullName
 
 Gets the full name of the geometry.
 
@@ -243,7 +243,7 @@ public virtual string GeometryFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBase_1_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -255,7 +255,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReferenceMarker
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBase_1_ReferenceMarker"></a> ReferenceMarker
 
 Gets or sets the reference marker.
 
@@ -269,7 +269,7 @@ public InvisibleMarker ReferenceMarker { get; set; }
 
 ## Methods
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBase_1_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -289,7 +289,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomBase_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -302,5 +302,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

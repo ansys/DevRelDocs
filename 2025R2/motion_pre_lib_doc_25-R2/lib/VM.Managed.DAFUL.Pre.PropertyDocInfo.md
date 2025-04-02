@@ -1,4 +1,4 @@
-# Class PropertyDocInfo
+#  Class PropertyDocInfo
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -52,7 +52,7 @@ public class PropertyDocInfo : DocInfo
 
 ## Constructors
 
-### PropertyDocInfo\(\)
+### <a id="VM_Managed_DAFUL_Pre_PropertyDocInfo__ctor"></a> PropertyDocInfo\(\)
 
 ```csharp
 public PropertyDocInfo()
@@ -60,7 +60,7 @@ public PropertyDocInfo()
 
 ## Properties
 
-### PropertyCreateInfo
+### <a id="VM_Managed_DAFUL_Pre_PropertyDocInfo_PropertyCreateInfo"></a> PropertyCreateInfo
 
 Gets and sets the creation information for property.
 
@@ -71,5 +71,4 @@ public PropertyCreateInfo PropertyCreateInfo { get; set; }
 #### Property Value
 
  PropertyCreateInfo
-
 

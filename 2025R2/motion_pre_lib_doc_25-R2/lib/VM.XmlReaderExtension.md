@@ -1,4 +1,4 @@
-# Class XmlReaderExtension
+#  Class XmlReaderExtension
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -22,7 +22,7 @@ public static class XmlReaderExtension
 
 ## Methods
 
-### ReadEndElementSafely\(XmlReader\)
+### <a id="VM_XmlReaderExtension_ReadEndElementSafely_System_Xml_XmlReader_"></a> ReadEndElementSafely\(XmlReader\)
 
 Read end-element, safely.
 
@@ -35,5 +35,4 @@ public static void ReadEndElementSafely(this XmlReader reader)
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
 The XmlReader stream
-
 

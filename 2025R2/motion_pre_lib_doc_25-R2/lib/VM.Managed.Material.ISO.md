@@ -1,4 +1,4 @@
-# Class ISO
+#  Class ISO
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMObjBase.dll  
@@ -183,7 +183,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ISO\(\)
+### <a id="VM_Managed_Material_ISO__ctor"></a> ISO\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.ISO" data-throw-if-not-resolved="false"></xref> class.
 
@@ -191,7 +191,7 @@ Initializes a new instance of the <xref href="VM.Managed.Material.ISO" data-thro
 public ISO()
 ```
 
-### ISO\(string\)
+### <a id="VM_Managed_Material_ISO__ctor_System_String_"></a> ISO\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Material.ISO" data-throw-if-not-resolved="false"></xref> class.
 
@@ -207,7 +207,7 @@ Name of the isotropic material.
 
 ## Properties
 
-### DampingRatio
+### <a id="VM_Managed_Material_ISO_DampingRatio"></a> DampingRatio
 
 Gets or sets the damping ratio.
 
@@ -219,7 +219,7 @@ public ExpressionValueVariable DampingRatio { get; set; }
 
  ExpressionValueVariable
 
-### DisableHScaleFactor
+### <a id="VM_Managed_Material_ISO_DisableHScaleFactor"></a> DisableHScaleFactor
 
 Gets or sets a value indicating whether [disable H scale factor].
 Use SetDisableHScaleFactor() when this instance sets for undo/redo
@@ -232,7 +232,7 @@ public bool DisableHScaleFactor { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### HeatCapacityMatrix
+### <a id="VM_Managed_Material_ISO_HeatCapacityMatrix"></a> HeatCapacityMatrix
 
 Gets or sets the heat capacity matrix.
 
@@ -244,7 +244,7 @@ public ISO.CapacityMatrix HeatCapacityMatrix { get; set; }
 
  [ISO](VM.Managed.Material.ISO.md).[CapacityMatrix](VM.Managed.Material.ISO.CapacityMatrix.md)
 
-### PoissonRatio
+### <a id="VM_Managed_Material_ISO_PoissonRatio"></a> PoissonRatio
 
 Gets or sets the poisson ratio.
 
@@ -256,7 +256,7 @@ public ExpressionValueVariable PoissonRatio { get; set; }
 
  ExpressionValueVariable
 
-### ReferenceTemperature
+### <a id="VM_Managed_Material_ISO_ReferenceTemperature"></a> ReferenceTemperature
 
 Gets or sets the reference temperature.
 
@@ -268,7 +268,7 @@ public ExpressionValueVariable ReferenceTemperature { get; set; }
 
  ExpressionValueVariable
 
-### ShearModulus
+### <a id="VM_Managed_Material_ISO_ShearModulus"></a> ShearModulus
 
 Gets or sets the shear modulus.
 
@@ -280,7 +280,7 @@ public ExpressionValueVariable ShearModulus { get; set; }
 
  ExpressionValueVariable
 
-### SpecificHeat
+### <a id="VM_Managed_Material_ISO_SpecificHeat"></a> SpecificHeat
 
 Gets or sets the specific heat.
 
@@ -292,7 +292,7 @@ public ExpressionValueVariable SpecificHeat { get; set; }
 
  ExpressionValueVariable
 
-### ThermalConductivity
+### <a id="VM_Managed_Material_ISO_ThermalConductivity"></a> ThermalConductivity
 
 Gets or sets the thermal conductivity.
 
@@ -304,7 +304,7 @@ public ExpressionValueVariable ThermalConductivity { get; set; }
 
  ExpressionValueVariable
 
-### ThermalExpansionCoefficient
+### <a id="VM_Managed_Material_ISO_ThermalExpansionCoefficient"></a> ThermalExpansionCoefficient
 
 Gets or sets the thermal expansion coefficient.
 
@@ -316,7 +316,7 @@ public ExpressionValueVariable ThermalExpansionCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### UseShearModulusWithUserInput
+### <a id="VM_Managed_Material_ISO_UseShearModulusWithUserInput"></a> UseShearModulusWithUserInput
 
 Gets or sets a value indicating whether [use shear modulus with user input].
 Use SetUseShearModulusWithUserInput() when this instance sets for undo/redo
@@ -329,7 +329,7 @@ public bool UseShearModulusWithUserInput { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### YoungsModulus
+### <a id="VM_Managed_Material_ISO_YoungsModulus"></a> YoungsModulus
 
 Gets or sets the youngs modulus.
 
@@ -343,7 +343,7 @@ public ExpressionValueVariable YoungsModulus { get; set; }
 
 ## Methods
 
-### GetShearModulus\(double, double\)
+### <a id="VM_Managed_Material_ISO_GetShearModulus_System_Double_System_Double_"></a> GetShearModulus\(double, double\)
 
 ```csharp
 public static double GetShearModulus(double youngsModulus, double poissonsRatio)
@@ -359,7 +359,7 @@ public static double GetShearModulus(double youngsModulus, double poissonsRatio)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetShearModulusString\(double, double\)
+### <a id="VM_Managed_Material_ISO_GetShearModulusString_System_Double_System_Double_"></a> GetShearModulusString\(double, double\)
 
 ```csharp
 public static string GetShearModulusString(double youngsModulus, double poissonsRatio)
@@ -375,7 +375,7 @@ public static string GetShearModulusString(double youngsModulus, double poissons
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_Material_ISO_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -389,7 +389,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_Material_ISO_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -407,7 +407,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_Material_ISO_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -421,7 +421,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_Material_ISO_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -435,7 +435,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### SetDisableHScaleFactor\(bool\)
+### <a id="VM_Managed_Material_ISO_SetDisableHScaleFactor_System_Boolean_"></a> SetDisableHScaleFactor\(bool\)
 
 Set [disable Hscale] factor.
 
@@ -449,7 +449,7 @@ public void SetDisableHScaleFactor(bool bFactor)
 
 The [disable Hscale] factor.
 
-### SetUseShearModulusWithUserInput\(bool\)
+### <a id="VM_Managed_Material_ISO_SetUseShearModulusWithUserInput_System_Boolean_"></a> SetUseShearModulusWithUserInput\(bool\)
 
 Set [use shear modulus with user input].
 
@@ -463,7 +463,7 @@ public void SetUseShearModulusWithUserInput(bool bInput)
 
 The [use shear modulus with user input].
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_Material_ISO_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -476,5 +476,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

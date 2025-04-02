@@ -1,4 +1,4 @@
-# Class BallPlacingContactBuilder
+#  Class BallPlacingContactBuilder
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBldBallPlacing.dll  
@@ -53,7 +53,7 @@ BuilderBase<BallPlacingContact\>.ErrorMessage
 
 ## Constructors
 
-### BallPlacingContactBuilder\(\)
+### <a id="VM_Managed_DAFUL_Builder_BallPlacingContactBuilder__ctor"></a> BallPlacingContactBuilder\(\)
 
 ```csharp
 public BallPlacingContactBuilder()
@@ -61,7 +61,7 @@ public BallPlacingContactBuilder()
 
 ## Properties
 
-### BallPlacing
+### <a id="VM_Managed_DAFUL_Builder_BallPlacingContactBuilder_BallPlacing"></a> BallPlacing
 
 ```csharp
 public BallPlacing BallPlacing { get; }
@@ -71,7 +71,7 @@ public BallPlacing BallPlacing { get; }
 
  BallPlacing
 
-### BaseList
+### <a id="VM_Managed_DAFUL_Builder_BallPlacingContactBuilder_BaseList"></a> BaseList
 
 ```csharp
 public string[] BaseList { get; set; }
@@ -83,7 +83,7 @@ public string[] BaseList { get; set; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_BallPlacingContactBuilder_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase created, Document doc)
@@ -98,5 +98,4 @@ protected override bool OnPostBuild(ObjectBase created, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

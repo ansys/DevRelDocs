@@ -1,4 +1,4 @@
-# Interface IOpenDesignerForGearTrain
+#  Interface IOpenDesignerForGearTrain
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -21,7 +21,7 @@ IOpenDesigner
 
 ## Properties
 
-### TypeOfParent
+### <a id="VM_Managed_DAFUL_GearTrain_IOpenDesignerForGearTrain_TypeOfParent"></a> TypeOfParent
 
 Gets the type of parent.
 
@@ -32,5 +32,4 @@ ParentType TypeOfParent { get; }
 #### Property Value
 
  [ParentType](VM.Managed.DAFUL.GearTrain.ParentType.md)
-
 

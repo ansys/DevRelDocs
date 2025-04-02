@@ -1,4 +1,4 @@
-# Class Leaf3D
+#  Class Leaf3D
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -20,7 +20,7 @@ public class Leaf3D
 
 ## Constructors
 
-### Leaf3D\(double, double, double\)
+### <a id="VM_Models_Pre_Force_Leaf3D__ctor_System_Double_System_Double_System_Double_"></a> Leaf3D\(double, double, double\)
 
 ```csharp
 public Leaf3D(double dx, double dz, double thickness)
@@ -36,7 +36,7 @@ public Leaf3D(double dx, double dz, double thickness)
 
 ## Properties
 
-### Thickness
+### <a id="VM_Models_Pre_Force_Leaf3D_Thickness"></a> Thickness
 
 ```csharp
 public double Thickness { get; }
@@ -46,7 +46,7 @@ public double Thickness { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### X
+### <a id="VM_Models_Pre_Force_Leaf3D_X"></a> X
 
 ```csharp
 public double X { get; }
@@ -56,7 +56,7 @@ public double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Z
+### <a id="VM_Models_Pre_Force_Leaf3D_Z"></a> Z
 
 ```csharp
 public double Z { get; }
@@ -65,5 +65,4 @@ public double Z { get; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

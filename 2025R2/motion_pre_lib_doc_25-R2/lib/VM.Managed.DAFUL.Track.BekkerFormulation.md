@@ -1,4 +1,4 @@
-# Class BekkerFormulation
+#  Class BekkerFormulation
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -103,7 +103,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BekkerFormulation\(\)
+### <a id="VM_Managed_DAFUL_Track_BekkerFormulation__ctor"></a> BekkerFormulation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.BekkerFormulation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public BekkerFormulation()
 
 ## Properties
 
-### FrictionCoefficient
+### <a id="VM_Managed_DAFUL_Track_BekkerFormulation_FrictionCoefficient"></a> FrictionCoefficient
 
 Gets or sets the Friction Coefficient.
 
@@ -131,7 +131,7 @@ public ExpressionValueVariable FrictionCoefficient { get; set; }
 
 Friction Coefficient is null.
 
-### SinkageExponent
+### <a id="VM_Managed_DAFUL_Track_BekkerFormulation_SinkageExponent"></a> SinkageExponent
 
 Gets or sets the Sinkage Exponent.
 
@@ -149,7 +149,7 @@ public ExpressionValueVariable SinkageExponent { get; set; }
 
 Sinkage Exponent is null.
 
-### TypeOfNormalPressureFormulation
+### <a id="VM_Managed_DAFUL_Track_BekkerFormulation_TypeOfNormalPressureFormulation"></a> TypeOfNormalPressureFormulation
 
 Gets the normal pressure formulation type.
 
@@ -161,7 +161,7 @@ public override NormalPressureFormulationType TypeOfNormalPressureFormulation { 
 
  [NormalPressureFormulationType](VM.Managed.DAFUL.Track.NormalPressureFormulationType.md)
 
-### Width
+### <a id="VM_Managed_DAFUL_Track_BekkerFormulation_Width"></a> Width
 
 Gets or sets the Width.
 
@@ -181,7 +181,7 @@ Width is null.
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Track_BekkerFormulation_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -194,5 +194,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

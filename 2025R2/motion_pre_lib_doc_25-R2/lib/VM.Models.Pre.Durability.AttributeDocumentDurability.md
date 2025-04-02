@@ -1,4 +1,4 @@
-# Class AttributeDocumentDurability
+#  Class AttributeDocumentDurability
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeDocumentDurability\(\)
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability__ctor"></a> AttributeDocumentDurability\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Durability.AttributeDocumentDurability" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeDocumentDurability()
 
 ## Properties
 
-### PowerFlow
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_PowerFlow"></a> PowerFlow
 
 Gets or sets the dynamic result.
 
@@ -121,7 +121,7 @@ public AttributeDocumentDurability.GearPowerFlow PowerFlow { get; set; }
 
  [AttributeDocumentDurability](VM.Models.Pre.Durability.AttributeDocumentDurability.md).[GearPowerFlow](VM.Models.Pre.Durability.AttributeDocumentDurability.GearPowerFlow.md)
 
-### ResultOfDynamic
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_ResultOfDynamic"></a> ResultOfDynamic
 
 Gets or sets the dynamic result.
 
@@ -133,7 +133,7 @@ public AttributeDocumentDurability.DynamicResult ResultOfDynamic { get; set; }
 
  [AttributeDocumentDurability](VM.Models.Pre.Durability.AttributeDocumentDurability.md).[DynamicResult](VM.Models.Pre.Durability.AttributeDocumentDurability.DynamicResult.md)
 
-### Summary
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_Summary"></a> Summary
 
 Gets or sets the dynamic result.
 
@@ -147,7 +147,7 @@ public AttributeDocumentDurability.GearSummary Summary { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 <p>Initializes member through unit convert factor.</p>
 
@@ -160,5 +160,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 <p>The unit convert factor.</p>
-
 

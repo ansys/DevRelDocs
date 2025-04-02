@@ -1,4 +1,4 @@
-# Interface INodalBody
+#  Interface INodalBody
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -17,7 +17,7 @@ public interface INodalBody
 
 ## Properties
 
-### MassCenter
+### <a id="VM_Models_Pre_INodalBody_MassCenter"></a> MassCenter
 
 Gets the massCenter.
 
@@ -31,7 +31,7 @@ Vector MassCenter { get; }
 
 ## Methods
 
-### GetUpdatedPosition\(IObjectBase, out Vector\)
+### <a id="VM_Models_Pre_INodalBody_GetUpdatedPosition_VM_Models_Pre_IObjectBase_VM_Vector__"></a> GetUpdatedPosition\(IObjectBase, out Vector\)
 
 Gets updated position.
 
@@ -55,7 +55,7 @@ The updated position.
 
 The success flag
 
-### InstantiateForDesignEntity\(IDesignSubEntity, IObjectBase, out TMatrix, out double\)
+### <a id="VM_Models_Pre_INodalBody_InstantiateForDesignEntity_VM_Models_Pre_IDesignSubEntity_VM_Models_Pre_IObjectBase_VM_TMatrix__System_Double__"></a> InstantiateForDesignEntity\(IDesignSubEntity, IObjectBase, out TMatrix, out double\)
 
 Instantiate for design entity.
 
@@ -86,5 +86,4 @@ The scale
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 The success flag
-
 

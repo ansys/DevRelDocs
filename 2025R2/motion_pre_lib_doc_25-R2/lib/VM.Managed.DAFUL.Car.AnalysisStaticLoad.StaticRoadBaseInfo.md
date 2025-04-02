@@ -1,4 +1,4 @@
-# Class AnalysisStaticLoad.StaticRoadBaseInfo
+#  Class AnalysisStaticLoad.StaticRoadBaseInfo
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -33,7 +33,7 @@ public class AnalysisStaticLoad.StaticRoadBaseInfo
 
 ## Constructors
 
-### StaticRoadBaseInfo\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_StaticRoadBaseInfo__ctor"></a> StaticRoadBaseInfo\(\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.StaticRoadBaseInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -41,7 +41,7 @@ Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.StaticRoadBa
 public StaticRoadBaseInfo()
 ```
 
-### StaticRoadBaseInfo\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_StaticRoadBaseInfo__ctor_VM_Models_Pre_ILinkContainer_"></a> StaticRoadBaseInfo\(ILinkContainer\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.StaticRoadBaseInfo" data-throw-if-not-resolved="false"></xref> class.
 
@@ -57,7 +57,7 @@ The link container.
 
 ## Properties
 
-### LWRL
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_StaticRoadBaseInfo_LWRL"></a> LWRL
 
 Gets or sets the LWR left.
 
@@ -69,7 +69,7 @@ public double LWRL { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### LWRR
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_StaticRoadBaseInfo_LWRR"></a> LWRR
 
 Gets or sets the LWR right.
 
@@ -81,7 +81,7 @@ public double LWRR { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UPRL
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_StaticRoadBaseInfo_UPRL"></a> UPRL
 
 Gets or sets the UPR left.
 
@@ -93,7 +93,7 @@ public double UPRL { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UPRR
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_StaticRoadBaseInfo_UPRR"></a> UPRR
 
 Gets or sets the UPR right.
 
@@ -107,12 +107,11 @@ public double UPRR { get; set; }
 
 ## Methods
 
-### SetModified\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_StaticRoadBaseInfo_SetModified"></a> SetModified\(\)
 
 Set modified flag.
 
 ```csharp
 protected void SetModified()
 ```
-
 

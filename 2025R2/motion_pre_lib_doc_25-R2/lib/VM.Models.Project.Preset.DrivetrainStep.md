@@ -1,4 +1,4 @@
-# Class DrivetrainStep
+#  Class DrivetrainStep
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -74,7 +74,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DrivetrainStep\(IScenario\)
+### <a id="VM_Models_Project_Preset_DrivetrainStep__ctor_VM_Models_IScenario_"></a> DrivetrainStep\(IScenario\)
 
 ```csharp
 public DrivetrainStep(IScenario parent)
@@ -86,7 +86,7 @@ public DrivetrainStep(IScenario parent)
 
 ## Properties
 
-### Name
+### <a id="VM_Models_Project_Preset_DrivetrainStep_Name"></a> Name
 
 ```csharp
 public override string Name { get; }
@@ -96,7 +96,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TargetApplicationType
+### <a id="VM_Models_Project_Preset_DrivetrainStep_TargetApplicationType"></a> TargetApplicationType
 
 ```csharp
 public override ApplicationTypes TargetApplicationType { get; }
@@ -106,7 +106,7 @@ public override ApplicationTypes TargetApplicationType { get; }
 
  ApplicationTypes
 
-### Type
+### <a id="VM_Models_Project_Preset_DrivetrainStep_Type"></a> Type
 
 ```csharp
 public override StepType Type { get; }
@@ -115,5 +115,4 @@ public override StepType Type { get; }
 #### Property Value
 
  StepType
-
 

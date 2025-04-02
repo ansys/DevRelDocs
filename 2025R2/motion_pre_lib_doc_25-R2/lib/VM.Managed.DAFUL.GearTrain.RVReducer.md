@@ -1,4 +1,4 @@
-# Class RVReducer
+#  Class RVReducer
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -201,7 +201,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### RVReducer\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_RVReducer__ctor"></a> RVReducer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.RVReducer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ public RVReducer()
 
 ## Properties
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_GearTrain_RVReducer_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -223,7 +223,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Housing
+### <a id="VM_Managed_DAFUL_GearTrain_RVReducer_Housing"></a> Housing
 
 Gets or sets the housing.
 
@@ -235,7 +235,7 @@ public IHousing Housing { get; set; }
 
  [IHousing](VM.Managed.DAFUL.GearTrain.IHousing.md)
 
-### OutputShaft
+### <a id="VM_Managed_DAFUL_GearTrain_RVReducer_OutputShaft"></a> OutputShaft
 
 Gets or sets the output shaft.
 
@@ -247,7 +247,7 @@ public IShaftSet OutputShaft { get; set; }
 
  [IShaftSet](VM.Managed.DAFUL.GearTrain.IShaftSet.md)
 
-### \_Housing
+### <a id="VM_Managed_DAFUL_GearTrain_RVReducer__Housing"></a> \_Housing
 
 Gets or sets the housing.
 
@@ -259,7 +259,7 @@ public Linker<IHousing> _Housing { get; set; }
 
  Linker<[IHousing](VM.Managed.DAFUL.GearTrain.IHousing.md)\>
 
-### \_OutputShaft
+### <a id="VM_Managed_DAFUL_GearTrain_RVReducer__OutputShaft"></a> \_OutputShaft
 
 Gets or sets the output shaft.
 
@@ -273,7 +273,7 @@ public Linker<IShaftSet> _OutputShaft { get; set; }
 
 ## Methods
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_RVReducer_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -300,5 +300,4 @@ if set to <code>true</code> [has child].
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

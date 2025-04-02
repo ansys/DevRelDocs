@@ -1,4 +1,4 @@
-# Class NullReferenceWhenRemoveDocExeption
+#  Class NullReferenceWhenRemoveDocExeption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class NullReferenceWhenRemoveDocExeption : Exception
 
 ## Constructors
 
-### NullReferenceWhenRemoveDocExeption\(string\)
+### <a id="VM_Managed_NullReferenceWhenRemoveDocExeption__ctor_System_String_"></a> NullReferenceWhenRemoveDocExeption\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.NullReferenceWhenRemoveDocExeption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,5 +36,4 @@ public NullReferenceWhenRemoveDocExeption(string strMessage)
 `strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The error message.
-
 

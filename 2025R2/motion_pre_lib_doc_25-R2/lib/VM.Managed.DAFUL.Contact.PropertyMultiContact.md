@@ -1,4 +1,4 @@
-# Class PropertyMultiContact
+#  Class PropertyMultiContact
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyMultiContact\(\)
+### <a id="VM_Managed_DAFUL_Contact_PropertyMultiContact__ctor"></a> PropertyMultiContact\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyMultiContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertyMultiContact()
 
 ## Properties
 
-### Characteristic
+### <a id="VM_Managed_DAFUL_Contact_PropertyMultiContact_Characteristic"></a> Characteristic
 
 Gets or sets the characteristic.
 
@@ -189,7 +189,7 @@ public PropertyContact Characteristic { get; set; }
 
 ## Methods
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_Contact_PropertyMultiContact_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -209,7 +209,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_Contact_PropertyMultiContact_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -226,5 +226,4 @@ The ob unnamed.
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

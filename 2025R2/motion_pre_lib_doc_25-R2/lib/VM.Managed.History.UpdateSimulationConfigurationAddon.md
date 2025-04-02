@@ -1,4 +1,4 @@
-# Class UpdateSimulationConfigurationAddon
+#  Class UpdateSimulationConfigurationAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -54,7 +54,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### UpdateSimulationConfigurationAddon\(Document\)
+### <a id="VM_Managed_History_UpdateSimulationConfigurationAddon__ctor_VM_Managed_Document_"></a> UpdateSimulationConfigurationAddon\(Document\)
 
 ```csharp
 public UpdateSimulationConfigurationAddon(Document doc)
@@ -66,7 +66,7 @@ public UpdateSimulationConfigurationAddon(Document doc)
 
 ## Methods
 
-### Process\(object, HistoryEventArgs\)
+### <a id="VM_Managed_History_UpdateSimulationConfigurationAddon_Process_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Process\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void Process(object o, HistoryEventArgs args)
@@ -78,7 +78,7 @@ protected override void Process(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### UpdateSimulationConfiguration\(Document\)
+### <a id="VM_Managed_History_UpdateSimulationConfigurationAddon_UpdateSimulationConfiguration_VM_Managed_Document_"></a> UpdateSimulationConfiguration\(Document\)
 
 ```csharp
 public static void UpdateSimulationConfiguration(Document doc)
@@ -87,5 +87,4 @@ public static void UpdateSimulationConfiguration(Document doc)
 #### Parameters
 
 `doc` [Document](VM.Managed.Document.md)
-
 

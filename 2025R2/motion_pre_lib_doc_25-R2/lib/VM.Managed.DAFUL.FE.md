@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.FE
+#  Namespace VM.Managed.DAFUL.FE
 
 ### Namespaces
 
@@ -347,5 +347,4 @@ Specifies type for a thickness of shell.
  [MeshPropertyApplyOperation.GetResultCallback](VM.Managed.DAFUL.FE.MeshPropertyApplyOperation.GetResultCallback.md)
 
 Get result delegate
-
 

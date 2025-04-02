@@ -1,4 +1,4 @@
-# Class SolidBodyShoe
+#  Class SolidBodyShoe
 
 Namespace: [VM.Managed.DAFUL.Builder.Track](VM.Managed.DAFUL.Builder.Track.md)  
 Assembly: VMBldTrack.dll  
@@ -60,7 +60,7 @@ BuilderBase<SolidBodyShoe\>.ErrorMessage
 
 ## Constructors
 
-### SolidBodyShoe\(\)
+### <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyShoe__ctor"></a> SolidBodyShoe\(\)
 
 ```csharp
 protected SolidBodyShoe()
@@ -68,7 +68,7 @@ protected SolidBodyShoe()
 
 ## Properties
 
-### AddToDoc
+### <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyShoe_AddToDoc"></a> AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -78,7 +78,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Color
+### <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyShoe_Color"></a> Color
 
 ```csharp
 public string Color { get; set; }
@@ -88,7 +88,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Interface
+### <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyShoe_Interface"></a> Interface
 
 ```csharp
 public bool Interface { get; set; }
@@ -98,7 +98,7 @@ public bool Interface { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LDForShoeSombination
+### <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyShoe_LDForShoeSombination"></a> LDForShoeSombination
 
 ```csharp
 protected double LDForShoeSombination { get; set; }
@@ -110,7 +110,7 @@ protected double LDForShoeSombination { get; set; }
 
 ## Methods
 
-### GetCurrentBuilder\(\)
+### <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyShoe_GetCurrentBuilder"></a> GetCurrentBuilder\(\)
 
 ```csharp
 protected virtual Builder GetCurrentBuilder()
@@ -120,7 +120,7 @@ protected virtual Builder GetCurrentBuilder()
 
  Builder
 
-### OnPostAddDoc\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyShoe_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -130,7 +130,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Track_SolidBodyShoe_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -145,5 +145,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

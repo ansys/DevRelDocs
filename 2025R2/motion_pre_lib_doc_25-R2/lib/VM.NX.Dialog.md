@@ -1,4 +1,4 @@
-# Namespace VM.NX.Dialog
+#  Namespace VM.NX.Dialog
 
 ### Namespaces
 
@@ -29,5 +29,4 @@
  [IStdDialog](VM.NX.Dialog.IStdDialog.md)
 
  [IStdModelessDialog](VM.NX.Dialog.IStdModelessDialog.md)
-
 

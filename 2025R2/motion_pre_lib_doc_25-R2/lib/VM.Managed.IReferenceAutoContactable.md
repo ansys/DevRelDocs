@@ -1,4 +1,4 @@
-# Interface IReferenceAutoContactable
+#  Interface IReferenceAutoContactable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -21,7 +21,7 @@ public interface IReferenceAutoContactable : IAutoContactable
 
 ## Methods
 
-### IsOwner\(Reference\)
+### <a id="VM_Managed_IReferenceAutoContactable_IsOwner_VM_Managed_Reference_"></a> IsOwner\(Reference\)
 
 Determines whether the specified owner.
 
@@ -38,5 +38,4 @@ bool IsOwner(Reference owner)
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if the specified owner; otherwise, <code>false</code>.
-
 

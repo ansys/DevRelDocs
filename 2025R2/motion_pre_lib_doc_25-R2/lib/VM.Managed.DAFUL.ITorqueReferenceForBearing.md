@@ -1,4 +1,4 @@
-# Interface ITorqueReferenceForBearing
+#  Interface ITorqueReferenceForBearing
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface ITorqueReferenceForBearing
 
 ## Properties
 
-### TorqueReferenceType
+### <a id="VM_Managed_DAFUL_ITorqueReferenceForBearing_TorqueReferenceType"></a> TorqueReferenceType
 
 Gets the type of the torque reference.
 
@@ -28,5 +28,4 @@ string TorqueReferenceType { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

@@ -1,4 +1,4 @@
-# Class MatchTypeObjAttribute
+#  Class MatchTypeObjAttribute
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -34,7 +34,7 @@ ValidationAttribute.Names
 
 ## Constructors
 
-### MatchTypeObjAttribute\(\)
+### <a id="VM_API_Pre_MatchTypeObjAttribute__ctor"></a> MatchTypeObjAttribute\(\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.MatchTypeObjAttribute" data-throw-if-not-resolved="false"></xref> class.
 
@@ -42,7 +42,7 @@ Initializes a new instance of the <xref href="VM.API.Pre.MatchTypeObjAttribute" 
 public MatchTypeObjAttribute()
 ```
 
-### MatchTypeObjAttribute\(params object\[\]\)
+### <a id="VM_API_Pre_MatchTypeObjAttribute__ctor_System_Object___"></a> MatchTypeObjAttribute\(params object\[\]\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.MatchTypeObjAttribute" data-throw-if-not-resolved="false"></xref> class.
 
@@ -58,7 +58,7 @@ The target objects.
 
 ## Fields
 
-### \_\_a$\_instance
+### <a id="VM_API_Pre_MatchTypeObjAttribute___a__instance"></a> \_\_a$\_instance
 
 ```csharp
 public static readonly MatchTypeObjAttribute __a$_instance
@@ -70,7 +70,7 @@ public static readonly MatchTypeObjAttribute __a$_instance
 
 ## Methods
 
-### CheckValidation\(MethodBase, object\[\], Attribute\[\]\)
+### <a id="VM_API_Pre_MatchTypeObjAttribute_CheckValidation_System_Reflection_MethodBase_System_Object___System_Attribute___"></a> CheckValidation\(MethodBase, object\[\], Attribute\[\]\)
 
 Check validation.
 
@@ -93,7 +93,7 @@ The argument.
 
 The triggers
 
-### ExecuteException\(string\)
+### <a id="VM_API_Pre_MatchTypeObjAttribute_ExecuteException_System_String_"></a> ExecuteException\(string\)
 
 Execute exception.
 
@@ -107,7 +107,7 @@ protected override void ExecuteException(string name)
 
 The argument name.
 
-### ValidationCondition\(ValidationAttribute, string, object\)
+### <a id="VM_API_Pre_MatchTypeObjAttribute_ValidationCondition_VM_Models_ValidationAttribute_System_String_System_Object_"></a> ValidationCondition\(ValidationAttribute, string, object\)
 
 validation condition.
 
@@ -134,5 +134,4 @@ The argument.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 The flag for success.
-
 

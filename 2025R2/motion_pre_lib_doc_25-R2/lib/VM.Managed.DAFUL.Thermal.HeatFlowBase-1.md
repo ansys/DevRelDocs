@@ -1,4 +1,4 @@
-# Class HeatFlowBase<TProperty\>
+#  Class HeatFlowBase<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -221,7 +221,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### HeatFlowBase\(\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatFlowBase_1__ctor"></a> HeatFlowBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatFlowBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -229,7 +229,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatFlowB
 public HeatFlowBase()
 ```
 
-### HeatFlowBase\(string\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatFlowBase_1__ctor_System_String_"></a> HeatFlowBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatFlowBase%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -245,7 +245,7 @@ Name of the STR.
 
 ## Properties
 
-### HeatFlowComponent
+### <a id="VM_Managed_DAFUL_Thermal_HeatFlowBase_1_HeatFlowComponent"></a> HeatFlowComponent
 
 Gets or sets the heat flow component.
 
@@ -257,7 +257,7 @@ public IHeatFlowComponent HeatFlowComponent { get; set; }
 
  IHeatFlowComponent
 
-### TargetObject
+### <a id="VM_Managed_DAFUL_Thermal_HeatFlowBase_1_TargetObject"></a> TargetObject
 
 Gets the target object.
 
@@ -269,7 +269,7 @@ protected override ObjectBase TargetObject { get; }
 
  ObjectBase
 
-### \_HeatFlowComponent
+### <a id="VM_Managed_DAFUL_Thermal_HeatFlowBase_1__HeatFlowComponent"></a> \_HeatFlowComponent
 
 Gets or sets the heat flow component.
 
@@ -283,7 +283,7 @@ public Linker<IHeatFlowComponent> _HeatFlowComponent { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatFlowBase_1_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -297,7 +297,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReplaceEntityImpl\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatFlowBase_1_ReplaceEntityImpl_VM_Managed_ObjectBase_"></a> ReplaceEntityImpl\(ObjectBase\)
 
 Replace entity
 
@@ -310,5 +310,4 @@ protected override void ReplaceEntityImpl(ObjectBase newObject)
 `newObject` ObjectBase
 
 The new object
-
 

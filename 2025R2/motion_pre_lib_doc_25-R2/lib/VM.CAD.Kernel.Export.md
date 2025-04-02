@@ -1,4 +1,4 @@
-# Class Export
+#  Class Export
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -22,7 +22,7 @@ public class Export
 
 ## Constructors
 
-### Export\(\)
+### <a id="VM_CAD_Kernel_Export__ctor"></a> Export\(\)
 
 ```csharp
 public Export()
@@ -30,7 +30,7 @@ public Export()
 
 ## Properties
 
-### Options
+### <a id="VM_CAD_Kernel_Export_Options"></a> Options
 
 ```csharp
 public Options Options { get; set; }
@@ -39,5 +39,4 @@ public Options Options { get; set; }
 #### Property Value
 
  [Options](VM.CAD.Kernel.Options.md)
-
 

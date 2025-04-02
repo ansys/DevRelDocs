@@ -1,4 +1,4 @@
-# Class PointLink
+#  Class PointLink
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -112,7 +112,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PointLink\(IPoint\)
+### <a id="VM_Managed_PointLink__ctor_VM_Managed_IPoint_"></a> PointLink\(IPoint\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -126,7 +126,7 @@ public PointLink(IPoint pPoint)
 
 Value of position of Design Point or Design Frame.
 
-### PointLink\(\)
+### <a id="VM_Managed_PointLink__ctor"></a> PointLink\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.PointLink" data-throw-if-not-resolved="false"></xref> class.
 
@@ -136,7 +136,7 @@ public PointLink()
 
 ## Fields
 
-### m\_linkPoint
+### <a id="VM_Managed_PointLink_m_linkPoint"></a> m\_linkPoint
 
 ```csharp
 protected Link<IPoint, LinkContainer.Update, LinkContainer.Destroy, LinkContainer.None> m_linkPoint
@@ -148,7 +148,7 @@ protected Link<IPoint, LinkContainer.Update, LinkContainer.Destroy, LinkContaine
 
 ## Properties
 
-### IsParameterized
+### <a id="VM_Managed_PointLink_IsParameterized"></a> IsParameterized
 
 Get the parametric.
 
@@ -160,7 +160,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LinkPoint
+### <a id="VM_Managed_PointLink_LinkPoint"></a> LinkPoint
 
 Gets or sets the object of point.
 
@@ -172,7 +172,7 @@ public IPoint LinkPoint { get; set; }
 
  [IPoint](VM.Managed.IPoint.md)
 
-### Value
+### <a id="VM_Managed_PointLink_Value"></a> Value
 
 Get the VectorBase(x, y, z).
 
@@ -184,7 +184,7 @@ public override VectorBase Value { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### X
+### <a id="VM_Managed_PointLink_X"></a> X
 
 Get the X point.
 
@@ -196,7 +196,7 @@ public override double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_Managed_PointLink_Y"></a> Y
 
 Get the Y point.
 
@@ -208,7 +208,7 @@ public override double Y { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Z
+### <a id="VM_Managed_PointLink_Z"></a> Z
 
 Get the Z point.
 
@@ -220,7 +220,7 @@ public override double Z { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### \_LinkPoint
+### <a id="VM_Managed_PointLink__LinkPoint"></a> \_LinkPoint
 
 Gets or sets the object of point.
 
@@ -234,7 +234,7 @@ public Linker<IPoint> _LinkPoint { get; set; }
 
 ## Methods
 
-### GetFullName\(\)
+### <a id="VM_Managed_PointLink_GetFullName"></a> GetFullName\(\)
 
 Gets full Name of Design parameters.
 
@@ -246,7 +246,7 @@ public string GetFullName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetSchema\(\)
+### <a id="VM_Managed_PointLink_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -261,7 +261,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### IsParametric\(enRefType\)
+### <a id="VM_Managed_PointLink_IsParametric_VM_Managed_Primitive_enRefType_"></a> IsParametric\(enRefType\)
 
 Gets parametric.
 
@@ -281,7 +281,7 @@ Point picking type.
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_PointLink_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -299,7 +299,7 @@ The linked object.
 
 The update event information.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_PointLink_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -313,7 +313,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_PointLink_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -326,5 +326,4 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

@@ -1,4 +1,4 @@
-# Class OrientationOneDirection
+#  Class OrientationOneDirection
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -131,7 +131,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### OrientationOneDirection\(DirectionBase\)
+### <a id="VM_Managed_OrientationOneDirection__ctor_VM_Managed_DirectionBase_"></a> OrientationOneDirection\(DirectionBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationOneDirection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -145,7 +145,7 @@ public OrientationOneDirection(DirectionBase dirZ)
 
 The z-direction.
 
-### OrientationOneDirection\(\)
+### <a id="VM_Managed_OrientationOneDirection__ctor"></a> OrientationOneDirection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.OrientationOneDirection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -155,7 +155,7 @@ public OrientationOneDirection()
 
 ## Properties
 
-### IsParameterized
+### <a id="VM_Managed_OrientationOneDirection_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -167,7 +167,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Value
+### <a id="VM_Managed_OrientationOneDirection_Value"></a> Value
 
 Gets the information of orientation(OMatrix type).
 
@@ -179,7 +179,7 @@ public override OMatrix Value { get; set; }
 
  [OMatrix](VM.Managed.OMatrix.md)
 
-### ZDirection
+### <a id="VM_Managed_OrientationOneDirection_ZDirection"></a> ZDirection
 
 Gets or sets z-direction.
 
@@ -193,7 +193,7 @@ public DirectionBase ZDirection { get; set; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_OrientationOneDirection_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -208,7 +208,7 @@ public override XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_OrientationOneDirection_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -226,7 +226,7 @@ The linked object.
 
 The update event information.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_OrientationOneDirection_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -240,7 +240,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_OrientationOneDirection_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -253,5 +253,4 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

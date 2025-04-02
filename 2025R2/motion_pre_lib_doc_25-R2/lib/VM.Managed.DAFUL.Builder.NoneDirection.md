@@ -1,4 +1,4 @@
-# Struct NoneDirection
+#  Struct NoneDirection
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -13,7 +13,7 @@ public struct NoneDirection : IConnectorDirection
 
 ## Properties
 
-### NumberOfDirection
+### <a id="VM_Managed_DAFUL_Builder_NoneDirection_NumberOfDirection"></a> NumberOfDirection
 
 ```csharp
 public int NumberOfDirection { get; }
@@ -25,7 +25,7 @@ public int NumberOfDirection { get; }
 
 ## Methods
 
-### SetDirection\(Marker, Marker, PickedResult\[\], int\)
+### <a id="VM_Managed_DAFUL_Builder_NoneDirection_SetDirection_VM_Managed_DAFUL_Marker_VM_Managed_DAFUL_Marker_VM_Managed_DAFUL_Builder_PickedResult___System_Int32_"></a> SetDirection\(Marker, Marker, PickedResult\[\], int\)
 
 ```csharp
 public void SetDirection(Marker BM, Marker AM, PickedResult[] pickresult, int numberofpoint)
@@ -40,5 +40,4 @@ public void SetDirection(Marker BM, Marker AM, PickedResult[] pickresult, int nu
 `pickresult` [PickedResult](VM.Managed.DAFUL.Builder.PickedResult.md)\[\]
 
 `numberofpoint` [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 

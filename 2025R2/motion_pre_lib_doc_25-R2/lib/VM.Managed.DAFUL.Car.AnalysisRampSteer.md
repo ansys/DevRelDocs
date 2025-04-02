@@ -1,4 +1,4 @@
-# Class AnalysisRampSteer
+#  Class AnalysisRampSteer
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -51,7 +51,7 @@ IHasInitialVel
 
 ## Constructors
 
-### AnalysisRampSteer\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisRampSteer__ctor"></a> AnalysisRampSteer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisRampSteer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -59,7 +59,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisRampS
 public AnalysisRampSteer()
 ```
 
-### AnalysisRampSteer\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisRampSteer__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisRampSteer\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisRampSteer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -75,7 +75,7 @@ The link container.
 
 ## Properties
 
-### InitialSteer
+### <a id="VM_Managed_DAFUL_Car_AnalysisRampSteer_InitialSteer"></a> InitialSteer
 
 Gets or sets the initial steer value.
 
@@ -87,7 +87,7 @@ public double InitialSteer { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RampValue
+### <a id="VM_Managed_DAFUL_Car_AnalysisRampSteer_RampValue"></a> RampValue
 
 Gets or sets the ramp.
 
@@ -99,7 +99,7 @@ public double RampValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TireRadiusPosition
+### <a id="VM_Managed_DAFUL_Car_AnalysisRampSteer_TireRadiusPosition"></a> TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -113,7 +113,7 @@ public override int TireRadiusPosition { get; }
 
 ## Methods
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisRampSteer_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -126,5 +126,4 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
-
 

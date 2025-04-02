@@ -1,4 +1,4 @@
-# Class SolidRoller
+#  Class SolidRoller
 
 Namespace: [VM.Managed.DAFUL.Builder.Roller](VM.Managed.DAFUL.Builder.Roller.md)  
 Assembly: VMBldRoller.dll  
@@ -53,7 +53,7 @@ BuilderBase<BodyRoller\>.ErrorMessage
 
 ## Constructors
 
-### SolidRoller\(\)
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidRoller__ctor"></a> SolidRoller\(\)
 
 ```csharp
 protected SolidRoller()
@@ -61,7 +61,7 @@ protected SolidRoller()
 
 ## Fields
 
-### m\_TreadRadius
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidRoller_m_TreadRadius"></a> m\_TreadRadius
 
 ```csharp
 protected double m_TreadRadius
@@ -73,7 +73,7 @@ protected double m_TreadRadius
 
 ## Properties
 
-### AddToDoc
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidRoller_AddToDoc"></a> AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -83,7 +83,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Color
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidRoller_Color"></a> Color
 
 ```csharp
 public string Color { get; set; }
@@ -95,7 +95,7 @@ public string Color { get; set; }
 
 ## Methods
 
-### GetCurrentBuilder\(\)
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidRoller_GetCurrentBuilder"></a> GetCurrentBuilder\(\)
 
 ```csharp
 protected virtual Builder GetCurrentBuilder()
@@ -105,7 +105,7 @@ protected virtual Builder GetCurrentBuilder()
 
  Builder
 
-### OnPostAddDoc\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidRoller_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -115,7 +115,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidRoller_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override sealed bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -130,5 +130,4 @@ protected override sealed bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

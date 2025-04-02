@@ -1,4 +1,4 @@
-# Class Body.BuildCADException
+#  Class Body.BuildCADException
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -24,7 +24,7 @@ public class Body.BuildCADException : DFException
 
 ## Constructors
 
-### BuildCADException\(string\)
+### <a id="VM_Managed_CAD_Body_BuildCADException__ctor_System_String_"></a> BuildCADException\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Body.BuildCADException" data-throw-if-not-resolved="false"></xref> class.
 
@@ -38,7 +38,7 @@ public BuildCADException(string strMessage)
 
 The exception message.
 
-### BuildCADException\(Type\)
+### <a id="VM_Managed_CAD_Body_BuildCADException__ctor_System_Type_"></a> BuildCADException\(Type\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Body.BuildCADException" data-throw-if-not-resolved="false"></xref> class.
 
@@ -52,7 +52,7 @@ public BuildCADException(Type obType)
 
 The exception type.
 
-### BuildCADException\(Type, Exception\)
+### <a id="VM_Managed_CAD_Body_BuildCADException__ctor_System_Type_System_Exception_"></a> BuildCADException\(Type, Exception\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Body.BuildCADException" data-throw-if-not-resolved="false"></xref> class.
 
@@ -69,5 +69,4 @@ The exception type.
 `inner` [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
 The inner exception.
-
 

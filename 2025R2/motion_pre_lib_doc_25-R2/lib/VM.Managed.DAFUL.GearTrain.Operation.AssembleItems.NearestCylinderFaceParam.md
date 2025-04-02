@@ -1,4 +1,4 @@
-# Class AssembleItems.NearestCylinderFaceParam
+#  Class AssembleItems.NearestCylinderFaceParam
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -22,7 +22,7 @@ public class AssembleItems.NearestCylinderFaceParam
 
 ## Constructors
 
-### NearestCylinderFaceParam\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssembleItems_NearestCylinderFaceParam__ctor"></a> NearestCylinderFaceParam\(\)
 
 ```csharp
 public NearestCylinderFaceParam()
@@ -30,7 +30,7 @@ public NearestCylinderFaceParam()
 
 ## Properties
 
-### TargetBody
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssembleItems_NearestCylinderFaceParam_TargetBody"></a> TargetBody
 
 Gets or sets the target body.
 
@@ -42,7 +42,7 @@ public KeyInfo TargetBody { get; set; }
 
  KeyInfo
 
-### Tolerance
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssembleItems_NearestCylinderFaceParam_Tolerance"></a> Tolerance
 
 Gets or sets the tolerance.
 
@@ -54,7 +54,7 @@ public double Tolerance { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ToolBody
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_AssembleItems_NearestCylinderFaceParam_ToolBody"></a> ToolBody
 
 Gets or sets the tool body.
 
@@ -65,5 +65,4 @@ public KeyInfo ToolBody { get; set; }
 #### Property Value
 
  KeyInfo
-
 

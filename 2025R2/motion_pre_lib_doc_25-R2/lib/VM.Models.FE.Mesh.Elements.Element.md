@@ -1,4 +1,4 @@
-# Class Element
+#  Class Element
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -38,7 +38,7 @@ public abstract class Element : Entity, IEntity
 
 ## Constructors
 
-### Element\(\)
+### <a id="VM_Models_FE_Mesh_Elements_Element__ctor"></a> Element\(\)
 
 ```csharp
 public Element()
@@ -46,7 +46,7 @@ public Element()
 
 ## Properties
 
-### ElementType
+### <a id="VM_Models_FE_Mesh_Elements_Element_ElementType"></a> ElementType
 
 ```csharp
 public abstract ElementTypes ElementType { get; }
@@ -56,7 +56,7 @@ public abstract ElementTypes ElementType { get; }
 
  [ElementTypes](VM.Models.FE.Mesh.ElementTypes.md)
 
-### Node1Id
+### <a id="VM_Models_FE_Mesh_Elements_Element_Node1Id"></a> Node1Id
 
 ```csharp
 [Column]
@@ -67,7 +67,7 @@ public int Node1Id { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NodeIds
+### <a id="VM_Models_FE_Mesh_Elements_Element_NodeIds"></a> NodeIds
 
 ```csharp
 public IList<int> NodeIds { get; }
@@ -77,7 +77,7 @@ public IList<int> NodeIds { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<[int](https://learn.microsoft.com/dotnet/api/system.int32)\>
 
-### NumberOfNodes
+### <a id="VM_Models_FE_Mesh_Elements_Element_NumberOfNodes"></a> NumberOfNodes
 
 ```csharp
 protected abstract int NumberOfNodes { get; }
@@ -87,7 +87,7 @@ protected abstract int NumberOfNodes { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### PropertyId
+### <a id="VM_Models_FE_Mesh_Elements_Element_PropertyId"></a> PropertyId
 
 ```csharp
 [Column]
@@ -100,7 +100,7 @@ public int PropertyId { get; set; }
 
 ## Methods
 
-### Equals\(object\)
+### <a id="VM_Models_FE_Mesh_Elements_Element_Equals_System_Object_"></a> Equals\(object\)
 
 ```csharp
 public override sealed bool Equals(object obj)
@@ -113,5 +113,4 @@ public override sealed bool Equals(object obj)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Interface IDocument
+#  Interface IDocument
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -27,7 +27,7 @@ IHasID
 
 ## Properties
 
-### DoingClose
+### <a id="VM_Models_Pre_IDocument_DoingClose"></a> DoingClose
 
 ```csharp
 bool DoingClose { get; }
@@ -37,7 +37,7 @@ bool DoingClose { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### DoingOpen
+### <a id="VM_Models_Pre_IDocument_DoingOpen"></a> DoingOpen
 
 ```csharp
 bool DoingOpen { get; }
@@ -47,7 +47,7 @@ bool DoingOpen { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### FilePath
+### <a id="VM_Models_Pre_IDocument_FilePath"></a> FilePath
 
 ```csharp
 string FilePath { get; }
@@ -57,7 +57,7 @@ string FilePath { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### InitialConvertFactor
+### <a id="VM_Models_Pre_IDocument_InitialConvertFactor"></a> InitialConvertFactor
 
 ```csharp
 Unit.ConvertFactor InitialConvertFactor { get; }
@@ -67,7 +67,7 @@ Unit.ConvertFactor InitialConvertFactor { get; }
 
  Unit.ConvertFactor
 
-### Modified
+### <a id="VM_Models_Pre_IDocument_Modified"></a> Modified
 
 ```csharp
 bool Modified { get; set; }
@@ -77,7 +77,7 @@ bool Modified { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Models_Pre_IDocument_Name"></a> Name
 
 ```csharp
 string Name { get; set; }
@@ -89,7 +89,7 @@ string Name { get; set; }
 
 ## Methods
 
-### DisplayModeShape\(int, double\)
+### <a id="VM_Models_Pre_IDocument_DisplayModeShape_System_Int32_System_Double_"></a> DisplayModeShape\(int, double\)
 
 ```csharp
 void DisplayModeShape(int modeSequence, double scale)
@@ -101,7 +101,7 @@ void DisplayModeShape(int modeSequence, double scale)
 
 `scale` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### FastToConvertUnitLength\(bool\)
+### <a id="VM_Models_Pre_IDocument_FastToConvertUnitLength_System_Boolean_"></a> FastToConvertUnitLength\(bool\)
 
 ```csharp
 double FastToConvertUnitLength(bool reverse)
@@ -115,7 +115,7 @@ double FastToConvertUnitLength(bool reverse)
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### FindObjectFromID\(Identifier\)
+### <a id="VM_Models_Pre_IDocument_FindObjectFromID_VM_Identifier_"></a> FindObjectFromID\(Identifier\)
 
 ```csharp
 IObject FindObjectFromID(Identifier identifier)
@@ -129,7 +129,7 @@ IObject FindObjectFromID(Identifier identifier)
 
  [IObject](VM.Models.Pre.IObject.md)
 
-### FindObjectFromKey\(UIntPtr\)
+### <a id="VM_Models_Pre_IDocument_FindObjectFromKey_System_UIntPtr_"></a> FindObjectFromKey\(UIntPtr\)
 
 Find object from key.
 
@@ -149,7 +149,7 @@ The key.
 
 Find object
 
-### GetChildren\(\)
+### <a id="VM_Models_Pre_IDocument_GetChildren"></a> GetChildren\(\)
 
 ```csharp
 IEnumerable<IObject> GetChildren()
@@ -159,7 +159,7 @@ IEnumerable<IObject> GetChildren()
 
  [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<[IObject](VM.Models.Pre.IObject.md)\>
 
-### GetCopyOfKernelUnit\(\)
+### <a id="VM_Models_Pre_IDocument_GetCopyOfKernelUnit"></a> GetCopyOfKernelUnit\(\)
 
 ```csharp
 Unit GetCopyOfKernelUnit()
@@ -169,7 +169,7 @@ Unit GetCopyOfKernelUnit()
 
  Unit
 
-### GetCopyOfUnit\(\)
+### <a id="VM_Models_Pre_IDocument_GetCopyOfUnit"></a> GetCopyOfUnit\(\)
 
 ```csharp
 Unit GetCopyOfUnit()
@@ -179,7 +179,7 @@ Unit GetCopyOfUnit()
 
  Unit
 
-### GetNextIdentifier\(\)
+### <a id="VM_Models_Pre_IDocument_GetNextIdentifier"></a> GetNextIdentifier\(\)
 
 ```csharp
 Identifier GetNextIdentifier()
@@ -189,7 +189,7 @@ Identifier GetNextIdentifier()
 
  Identifier
 
-### Save\(string\)
+### <a id="VM_Models_Pre_IDocument_Save_System_String_"></a> Save\(string\)
 
 ```csharp
 void Save(string path)
@@ -199,7 +199,7 @@ void Save(string path)
 
 `path` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ChildAdded
+### <a id="VM_Models_Pre_IDocument_ChildAdded"></a> ChildAdded
 
 Raised when a child object is added
 
@@ -211,7 +211,7 @@ event EventHandler<Identifier> ChildAdded
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
 
-### ChildRemoved
+### <a id="VM_Models_Pre_IDocument_ChildRemoved"></a> ChildRemoved
 
 Raised when a child object is removed
 
@@ -223,7 +223,7 @@ event EventHandler<Identifier> ChildRemoved
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
 
-### ChildReplaced
+### <a id="VM_Models_Pre_IDocument_ChildReplaced"></a> ChildReplaced
 
 Raised when child is replaced by another object
 
@@ -235,7 +235,7 @@ event EventHandler<Identifier> ChildReplaced
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
 
-### ChildReplacing
+### <a id="VM_Models_Pre_IDocument_ChildReplacing"></a> ChildReplacing
 
 Raised when child is about to be replaced with another object
 
@@ -247,7 +247,7 @@ event EventHandler<Identifier> ChildReplacing
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<Identifier\>
 
-### Destroying
+### <a id="VM_Models_Pre_IDocument_Destroying"></a> Destroying
 
 Raised when document is about to close
 
@@ -259,7 +259,7 @@ event EventHandler Destroying
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### SelectionChanged
+### <a id="VM_Models_Pre_IDocument_SelectionChanged"></a> SelectionChanged
 
 ```csharp
 event EventHandler<IEnumerable<Identifier>> SelectionChanged
@@ -268,5 +268,4 @@ event EventHandler<IEnumerable<Identifier>> SelectionChanged
 #### Event Type
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler\-1)<[IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<Identifier\>\>
-
 

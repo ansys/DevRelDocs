@@ -1,4 +1,4 @@
-# Class Body
+#  Class Body
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -34,7 +34,7 @@ IHasID,
 
 ## Constructors
 
-### Body\(UIntPtr\)
+### <a id="VM_CAD_Kernel_Body__ctor_System_UIntPtr_"></a> Body\(UIntPtr\)
 
 ```csharp
 public Body(UIntPtr key)
@@ -46,13 +46,13 @@ public Body(UIntPtr key)
 
 ## Methods
 
-### ClearFacetDictionary\(\)
+### <a id="VM_CAD_Kernel_Body_ClearFacetDictionary"></a> ClearFacetDictionary\(\)
 
 ```csharp
 public void ClearFacetDictionary()
 ```
 
-### GetEdgeKernelProxy\(Identifier, out UIntPtr\)
+### <a id="VM_CAD_Kernel_Body_GetEdgeKernelProxy_VM_Identifier_System_UIntPtr__"></a> GetEdgeKernelProxy\(Identifier, out UIntPtr\)
 
 ```csharp
 public void GetEdgeKernelProxy(Identifier pid, out UIntPtr edgeProxy)
@@ -64,7 +64,7 @@ public void GetEdgeKernelProxy(Identifier pid, out UIntPtr edgeProxy)
 
 `edgeProxy` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### GetFaceKernelProxy\(Identifier, out UIntPtr\)
+### <a id="VM_CAD_Kernel_Body_GetFaceKernelProxy_VM_Identifier_System_UIntPtr__"></a> GetFaceKernelProxy\(Identifier, out UIntPtr\)
 
 ```csharp
 public void GetFaceKernelProxy(Identifier nPID, out UIntPtr faceProxy)
@@ -76,7 +76,7 @@ public void GetFaceKernelProxy(Identifier nPID, out UIntPtr faceProxy)
 
 `faceProxy` [UIntPtr](https://learn.microsoft.com/dotnet/api/system.uintptr)
 
-### GetGeomInfo\(double, out Vector\[\], out uint\[\], bool\)
+### <a id="VM_CAD_Kernel_Body_GetGeomInfo_System_Double_VM_Vector____System_UInt32____System_Boolean_"></a> GetGeomInfo\(double, out Vector\[\], out uint\[\], bool\)
 
 ```csharp
 public bool GetGeomInfo(double lengthFactor, out Vector[] position, out uint[] connectivities, bool bCreateFacetDictionary)
@@ -96,7 +96,7 @@ public bool GetGeomInfo(double lengthFactor, out Vector[] position, out uint[] c
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetVoidCount\(\)
+### <a id="VM_CAD_Kernel_Body_GetVoidCount"></a> GetVoidCount\(\)
 
 ```csharp
 public uint GetVoidCount()
@@ -106,7 +106,7 @@ public uint GetVoidCount()
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### GetVoidPoints\(double, out uint\)
+### <a id="VM_CAD_Kernel_Body_GetVoidPoints_System_Double_System_UInt32__"></a> GetVoidPoints\(double, out uint\)
 
 ```csharp
 public Vector[] GetVoidPoints(double offset, out uint countFailed)
@@ -122,7 +122,7 @@ public Vector[] GetVoidPoints(double offset, out uint countFailed)
 
  Vector\[\]
 
-### HasDefect\(Action<string\>, bool\)
+### <a id="VM_CAD_Kernel_Body_HasDefect_System_Action_System_String__System_Boolean_"></a> HasDefect\(Action<string\>, bool\)
 
 ```csharp
 public int HasDefect(Action<string> actWriteMessage, bool bDetailedInformation = false)
@@ -138,7 +138,7 @@ public int HasDefect(Action<string> actWriteMessage, bool bDetailedInformation =
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### RemoveUnusedPoints\(Vector\[\], uint\[\]\)
+### <a id="VM_CAD_Kernel_Body_RemoveUnusedPoints_VM_Vector___System_UInt32___"></a> RemoveUnusedPoints\(Vector\[\], uint\[\]\)
 
 ```csharp
 public void RemoveUnusedPoints(Vector[] aryPosTria, uint[] aryConTria)
@@ -150,7 +150,7 @@ public void RemoveUnusedPoints(Vector[] aryPosTria, uint[] aryConTria)
 
 `aryConTria` [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
 
-### Repair\(SimplifyOption, SimplifyOption, double, Action<string\>, bool\)
+### <a id="VM_CAD_Kernel_Body_Repair_VM_CAD_Kernel_SimplifyOption_VM_CAD_Kernel_SimplifyOption_System_Double_System_Action_System_String__System_Boolean_"></a> Repair\(SimplifyOption, SimplifyOption, double, Action<string\>, bool\)
 
 ```csharp
 public int Repair(SimplifyOption simplifySurface = SimplifyOption.ForceSimplify, SimplifyOption simplifyCurve = SimplifyOption.ForceSimplify, double dDesiredGap = -1, Action<string> actWriteMessage = null, bool bDetailedInformation = false)
@@ -172,10 +172,9 @@ public int Repair(SimplifyOption simplifySurface = SimplifyOption.ForceSimplify,
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### UpdateDisplay\(\)
+### <a id="VM_CAD_Kernel_Body_UpdateDisplay"></a> UpdateDisplay\(\)
 
 ```csharp
 public void UpdateDisplay()
 ```
-
 

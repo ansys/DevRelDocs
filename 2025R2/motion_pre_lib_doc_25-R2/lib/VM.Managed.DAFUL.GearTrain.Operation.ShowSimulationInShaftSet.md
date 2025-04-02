@@ -1,4 +1,4 @@
-# Class ShowSimulationInShaftSet
+#  Class ShowSimulationInShaftSet
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -108,7 +108,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ShowSimulationInShaftSet\(Document, string, string, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationInShaftSet__ctor_VM_Managed_Document_System_String_System_String_System_String_"></a> ShowSimulationInShaftSet\(Document, string, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ShowSimulationInShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -134,7 +134,7 @@ The string maximum number of node.
 
 The string file name.
 
-### ShowSimulationInShaftSet\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationInShaftSet__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowSimulationInShaftSet\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.ShowSimulationInShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -150,7 +150,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationInShaftSet_Name"></a> Name
 
 Gets the name.
 
@@ -164,7 +164,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationInShaftSet_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -172,7 +172,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### PrepareForm\(SimulationFormBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationInShaftSet_PrepareForm_VM_Managed_DAFUL_Pre_Forms_SimulationFormBase_"></a> PrepareForm\(SimulationFormBase\)
 
 Prepares the form.
 
@@ -186,7 +186,7 @@ protected override void PrepareForm(SimulationFormBase form)
 
 The form.
 
-### ReadExtraJournal\(XmlElement\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationInShaftSet_ReadExtraJournal_System_Xml_XmlElement_"></a> ReadExtraJournal\(XmlElement\)
 
 ```csharp
 public override void ReadExtraJournal(XmlElement nodeArg)
@@ -196,7 +196,7 @@ public override void ReadExtraJournal(XmlElement nodeArg)
 
 `nodeArg` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
 
-### SimulationRunImpl\(bool\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationInShaftSet_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
 
 Simulations the run [implementation].
 
@@ -210,7 +210,7 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 
 if set to <code>true</code> [write DFG].
 
-### WriteExtraJournal\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_ShowSimulationInShaftSet_WriteExtraJournal_System_Xml_XmlWriter_"></a> WriteExtraJournal\(XmlWriter\)
 
 ```csharp
 public override void WriteExtraJournal(XmlWriter writer)
@@ -219,5 +219,4 @@ public override void WriteExtraJournal(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

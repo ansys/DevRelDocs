@@ -1,4 +1,4 @@
-# Namespace VM.Managed.Picker.Core.FE
+#  Namespace VM.Managed.Picker.Core.FE
 
 ### Classes
 
@@ -21,5 +21,4 @@ This class is to represent the multi picker of patches.
  [PickerNode](VM.Managed.Picker.Core.FE.PickerNode.md)
 
 This class is to represent the picker node.
-
 

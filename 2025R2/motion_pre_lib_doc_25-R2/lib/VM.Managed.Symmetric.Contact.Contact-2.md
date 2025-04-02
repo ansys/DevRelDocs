@@ -1,4 +1,4 @@
-# Class Contact<T, TProp\>
+#  Class Contact<T, TProp\>
 
 Namespace: [VM.Managed.Symmetric.Contact](VM.Managed.Symmetric.Contact.md)  
 Assembly: VMSymCt.dll  
@@ -38,7 +38,7 @@ Named<T\>.SymmetricManager
 
 ## Constructors
 
-### Contact\(\)
+### <a id="VM_Managed_Symmetric_Contact_Contact_2__ctor"></a> Contact\(\)
 
 ```csharp
 public Contact()
@@ -46,7 +46,7 @@ public Contact()
 
 ## Methods
 
-### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_Contact_Contact_2_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -79,5 +79,4 @@ Plane of symmetric.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

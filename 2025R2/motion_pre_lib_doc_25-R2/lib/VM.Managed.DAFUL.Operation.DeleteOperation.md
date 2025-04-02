@@ -1,4 +1,4 @@
-# Class DeleteOperation
+#  Class DeleteOperation
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### DeleteOperation\(Document3D\)
+### <a id="VM_Managed_DAFUL_Operation_DeleteOperation__ctor_VM_Managed_Document3D_"></a> DeleteOperation\(Document3D\)
 
 ```csharp
 public DeleteOperation(Document3D doc3D)
@@ -87,7 +87,7 @@ public DeleteOperation(Document3D doc3D)
 
 `doc3D` Document3D
 
-### DeleteOperation\(Document3D, bool\)
+### <a id="VM_Managed_DAFUL_Operation_DeleteOperation__ctor_VM_Managed_Document3D_System_Boolean_"></a> DeleteOperation\(Document3D, bool\)
 
 ```csharp
 public DeleteOperation(Document3D doc3D, bool bNotDelMsg)
@@ -99,7 +99,7 @@ public DeleteOperation(Document3D doc3D, bool bNotDelMsg)
 
 `bNotDelMsg` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### DeleteOperation\(Document3D, IEnumerable<ObjectBase\>\)
+### <a id="VM_Managed_DAFUL_Operation_DeleteOperation__ctor_VM_Managed_Document3D_System_Collections_Generic_IEnumerable_VM_Managed_ObjectBase__"></a> DeleteOperation\(Document3D, IEnumerable<ObjectBase\>\)
 
 ```csharp
 public DeleteOperation(Document3D document3D, IEnumerable<ObjectBase> objectBases)
@@ -111,7 +111,7 @@ public DeleteOperation(Document3D document3D, IEnumerable<ObjectBase> objectBase
 
 `objectBases` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<ObjectBase\>
 
-### DeleteOperation\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_DeleteOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> DeleteOperation\(JournalParameter\)
 
 ```csharp
 public DeleteOperation(JournalParameter jp)
@@ -123,7 +123,7 @@ public DeleteOperation(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_DeleteOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -135,7 +135,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Result
+### <a id="VM_Managed_DAFUL_Operation_DeleteOperation_Result"></a> Result
 
 ```csharp
 public bool Result { get; }
@@ -147,7 +147,7 @@ public bool Result { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_DeleteOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -155,7 +155,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Operation_DeleteOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -164,5 +164,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

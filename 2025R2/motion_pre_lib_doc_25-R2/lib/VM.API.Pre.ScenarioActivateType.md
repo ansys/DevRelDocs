@@ -1,4 +1,4 @@
-# Enum ScenarioActivateType
+#  Enum ScenarioActivateType
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -20,7 +20,6 @@ Activate
 `Deactivate = 1` 
 
 Deactivate
-
 
 
 

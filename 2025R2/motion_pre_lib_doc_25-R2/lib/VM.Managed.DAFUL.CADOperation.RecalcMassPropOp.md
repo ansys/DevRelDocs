@@ -1,4 +1,4 @@
-# Class CADOperation.RecalcMassPropOp
+#  Class CADOperation.RecalcMassPropOp
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### RecalcMassPropOp\(\)
+### <a id="VM_Managed_DAFUL_CADOperation_RecalcMassPropOp__ctor"></a> RecalcMassPropOp\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CADOperation.RecalcMassPropOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CADOperation.Reca
 public RecalcMassPropOp()
 ```
 
-### RecalcMassPropOp\(MassProperty\)
+### <a id="VM_Managed_DAFUL_CADOperation_RecalcMassPropOp__ctor_VM_Managed_DAFUL_PartDocument_MassProperty_"></a> RecalcMassPropOp\(MassProperty\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CADOperation.RecalcMassPropOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -101,7 +101,7 @@ The material property.
 
 ## Properties
 
-### IsHistoryMerge
+### <a id="VM_Managed_DAFUL_CADOperation_RecalcMassPropOp_IsHistoryMerge"></a> IsHistoryMerge
 
 Gets the history merge flag.
 
@@ -113,7 +113,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_CADOperation_RecalcMassPropOp_Name"></a> Name
 
 Gets the Name.
 
@@ -127,12 +127,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_CADOperation_RecalcMassPropOp_Execute"></a> Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
-
 

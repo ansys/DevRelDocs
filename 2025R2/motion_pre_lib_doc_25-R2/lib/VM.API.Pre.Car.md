@@ -1,4 +1,4 @@
-# Namespace VM.API.Pre.Car
+#  Namespace VM.API.Pre.Car
 
 ### Classes
 
@@ -31,5 +31,4 @@ This struct represents the suspension assembly
  [TireAssembly](VM.API.Pre.Car.TireAssembly.md)
 
 This struct represents the tire assembly
-
 

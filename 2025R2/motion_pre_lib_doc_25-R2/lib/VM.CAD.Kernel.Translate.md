@@ -1,4 +1,4 @@
-# Class Translate
+#  Class Translate
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -22,7 +22,7 @@ public class Translate
 
 ## Constructors
 
-### Translate\(\)
+### <a id="VM_CAD_Kernel_Translate__ctor"></a> Translate\(\)
 
 ```csharp
 public Translate()
@@ -30,7 +30,7 @@ public Translate()
 
 ## Properties
 
-### Environments
+### <a id="VM_CAD_Kernel_Translate_Environments"></a> Environments
 
 ```csharp
 public Environments Environments { get; set; }
@@ -40,7 +40,7 @@ public Environments Environments { get; set; }
 
  [Environments](VM.CAD.Kernel.Environments.md)
 
-### Export
+### <a id="VM_CAD_Kernel_Translate_Export"></a> Export
 
 ```csharp
 public Export Export { get; set; }
@@ -50,7 +50,7 @@ public Export Export { get; set; }
 
  [Export](VM.CAD.Kernel.Export.md)
 
-### Filter
+### <a id="VM_CAD_Kernel_Translate_Filter"></a> Filter
 
 ```csharp
 public Filter Filter { get; set; }
@@ -60,7 +60,7 @@ public Filter Filter { get; set; }
 
  [Filter](VM.CAD.Kernel.Filter.md)
 
-### name
+### <a id="VM_CAD_Kernel_Translate_name"></a> name
 
 ```csharp
 public string name { get; set; }
@@ -70,7 +70,7 @@ public string name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### target
+### <a id="VM_CAD_Kernel_Translate_target"></a> target
 
 ```csharp
 public string target { get; set; }
@@ -79,5 +79,4 @@ public string target { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

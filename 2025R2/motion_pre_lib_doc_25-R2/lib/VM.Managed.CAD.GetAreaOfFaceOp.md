@@ -1,4 +1,4 @@
-# Class GetAreaOfFaceOp
+#  Class GetAreaOfFaceOp
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -77,7 +77,7 @@ IOperation
 
 ## Constructors
 
-### GetAreaOfFaceOp\(Face\)
+### <a id="VM_Managed_CAD_GetAreaOfFaceOp__ctor_VM_Managed_CAD_Face_"></a> GetAreaOfFaceOp\(Face\)
 
 ```csharp
 public GetAreaOfFaceOp(Face face)
@@ -87,7 +87,7 @@ public GetAreaOfFaceOp(Face face)
 
 `face` [Face](VM.Managed.CAD.Face.md)
 
-### GetAreaOfFaceOp\(\)
+### <a id="VM_Managed_CAD_GetAreaOfFaceOp__ctor"></a> GetAreaOfFaceOp\(\)
 
 ```csharp
 public GetAreaOfFaceOp()
@@ -95,7 +95,7 @@ public GetAreaOfFaceOp()
 
 ## Properties
 
-### Area
+### <a id="VM_Managed_CAD_GetAreaOfFaceOp_Area"></a> Area
 
 Gets the area.
 
@@ -107,7 +107,7 @@ public double Area { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsHistoryMerge
+### <a id="VM_Managed_CAD_GetAreaOfFaceOp_IsHistoryMerge"></a> IsHistoryMerge
 
 Gets the merge of history.
 
@@ -119,7 +119,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_CAD_GetAreaOfFaceOp_Name"></a> Name
 
 Gets the name.
 
@@ -133,12 +133,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_CAD_GetAreaOfFaceOp_Execute"></a> Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
-
 

@@ -1,4 +1,4 @@
-# Class RadialInternalClearance
+#  Class RadialInternalClearance
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -22,7 +22,7 @@ public class RadialInternalClearance
 
 ## Methods
 
-### GetC2\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_RadialInternalClearance_GetC2_System_Double_"></a> GetC2\(double\)
 
 Gets a C2.
 
@@ -40,7 +40,7 @@ The bore value.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetC3\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_RadialInternalClearance_GetC3_System_Double_"></a> GetC3\(double\)
 
 Gets a C3.
 
@@ -58,7 +58,7 @@ The bore value.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetC4\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_RadialInternalClearance_GetC4_System_Double_"></a> GetC4\(double\)
 
 Gets a C4.
 
@@ -76,7 +76,7 @@ The bore value.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetC5\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_RadialInternalClearance_GetC5_System_Double_"></a> GetC5\(double\)
 
 Gets a C5.
 
@@ -94,7 +94,7 @@ The bore value.
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GetCN\(double\)
+### <a id="VM_Managed_DAFUL_GearTrain_RadialInternalClearance_GetCN_System_Double_"></a> GetCN\(double\)
 
 Gets a CN.
 
@@ -111,5 +111,4 @@ The bore value.
 #### Returns
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

@@ -1,4 +1,4 @@
-# Class AddBearingToRBEInFE
+#  Class AddBearingToRBEInFE
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -56,7 +56,7 @@ IBuilder
 
 ## Constructors
 
-### AddBearingToRBEInFE\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInFE__ctor"></a> AddBearingToRBEInFE\(\)
 
 ```csharp
 public AddBearingToRBEInFE()
@@ -64,7 +64,7 @@ public AddBearingToRBEInFE()
 
 ## Methods
 
-### GetRacewayBuilder\(GeometryBase\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInFE_GetRacewayBuilder_VM_Managed_DAFUL_GearTrain_CAD_GeometryBase_"></a> GetRacewayBuilder\(GeometryBase\)
 
 ```csharp
 protected override RacewayBuilderForRBEInFE GetRacewayBuilder(GeometryBase bearing_geom)
@@ -78,7 +78,7 @@ protected override RacewayBuilderForRBEInFE GetRacewayBuilder(GeometryBase beari
 
  RacewayBuilderForRBEInFE
 
-### GetRacewayGeometry\(RacewayBuilderForRBEInFE\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInFE_GetRacewayGeometry_VM_Managed_DAFUL_GearTrain_CAD_RacewayBuilderForRBEInFE_"></a> GetRacewayGeometry\(RacewayBuilderForRBEInFE\)
 
 ```csharp
 protected override GeometryBase GetRacewayGeometry(RacewayBuilderForRBEInFE bearingBuilder)
@@ -92,7 +92,7 @@ protected override GeometryBase GetRacewayGeometry(RacewayBuilderForRBEInFE bear
 
  GeometryBase
 
-### GetTmpRacewayGeometry\(RacewayGeometryInfo, HiddenDocumentMeshBase, DirectionBase, OMatrix, bool\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddBearingToRBEInFE_GetTmpRacewayGeometry_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_Managed_DirectionBase_VM_Managed_OMatrix_System_Boolean_"></a> GetTmpRacewayGeometry\(RacewayGeometryInfo, HiddenDocumentMeshBase, DirectionBase, OMatrix, bool\)
 
 ```csharp
 protected override GeometryBase GetTmpRacewayGeometry(RacewayGeometryInfo rgInfo, HiddenDocumentMeshBase hiddenDoc, DirectionBase zAxis, OMatrix matO, bool bAddDoc)
@@ -113,5 +113,4 @@ protected override GeometryBase GetTmpRacewayGeometry(RacewayGeometryInfo rgInfo
 #### Returns
 
  GeometryBase
-
 

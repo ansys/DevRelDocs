@@ -1,4 +1,4 @@
-# Class MacroHelper
+#  Class MacroHelper
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMAppCore.dll  
@@ -22,7 +22,7 @@ public class MacroHelper
 
 ## Constructors
 
-### MacroHelper\(\)
+### <a id="VM_Managed_Operation_MacroHelper__ctor"></a> MacroHelper\(\)
 
 ```csharp
 public MacroHelper()
@@ -30,7 +30,7 @@ public MacroHelper()
 
 ## Fields
 
-### g\_dicKeyToFullNameForDeleting
+### <a id="VM_Managed_Operation_MacroHelper_g_dicKeyToFullNameForDeleting"></a> g\_dicKeyToFullNameForDeleting
 
 ```csharp
 public static Dictionary<string, string> g_dicKeyToFullNameForDeleting
@@ -42,7 +42,7 @@ public static Dictionary<string, string> g_dicKeyToFullNameForDeleting
 
 ## Methods
 
-### ChangeFullNameToKey\(string, Document\)
+### <a id="VM_Managed_Operation_MacroHelper_ChangeFullNameToKey_System_String_VM_Managed_Document_"></a> ChangeFullNameToKey\(string, Document\)
 
 ```csharp
 public static string ChangeFullNameToKey(string strXml, Document doc)
@@ -58,7 +58,7 @@ public static string ChangeFullNameToKey(string strXml, Document doc)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ChangeFullNameToKey\(string\)
+### <a id="VM_Managed_Operation_MacroHelper_ChangeFullNameToKey_System_String_"></a> ChangeFullNameToKey\(string\)
 
 ```csharp
 public static string ChangeFullNameToKey(string strXml)
@@ -72,7 +72,7 @@ public static string ChangeFullNameToKey(string strXml)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ChangeKeyToFullName\(string, Document\)
+### <a id="VM_Managed_Operation_MacroHelper_ChangeKeyToFullName_System_String_VM_Managed_Document_"></a> ChangeKeyToFullName\(string, Document\)
 
 ```csharp
 public static string ChangeKeyToFullName(string strXml, Document doc)
@@ -88,7 +88,7 @@ public static string ChangeKeyToFullName(string strXml, Document doc)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ChangeKeyToFullName\(string\)
+### <a id="VM_Managed_Operation_MacroHelper_ChangeKeyToFullName_System_String_"></a> ChangeKeyToFullName\(string\)
 
 ```csharp
 public static string ChangeKeyToFullName(string strXml)
@@ -102,7 +102,7 @@ public static string ChangeKeyToFullName(string strXml)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ChangeKeyToFullNameCore\(XmlNode, bool, IDocument\)
+### <a id="VM_Managed_Operation_MacroHelper_ChangeKeyToFullNameCore_System_Xml_XmlNode_System_Boolean_VM_Models_Pre_IDocument_"></a> ChangeKeyToFullNameCore\(XmlNode, bool, IDocument\)
 
 ```csharp
 public static void ChangeKeyToFullNameCore(XmlNode nodeXml, bool bReverse, IDocument doc)
@@ -116,7 +116,7 @@ public static void ChangeKeyToFullNameCore(XmlNode nodeXml, bool bReverse, IDocu
 
 `doc` IDocument
 
-### CreateEntityDictionary\(ObjectBase\)
+### <a id="VM_Managed_Operation_MacroHelper_CreateEntityDictionary_VM_Managed_ObjectBase_"></a> CreateEntityDictionary\(ObjectBase\)
 
 ```csharp
 public static Dictionary<string, string> CreateEntityDictionary(ObjectBase entity)
@@ -130,7 +130,7 @@ public static Dictionary<string, string> CreateEntityDictionary(ObjectBase entit
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### GetFullNameFromKey\(ObjectBase\)
+### <a id="VM_Managed_Operation_MacroHelper_GetFullNameFromKey_VM_Managed_ObjectBase_"></a> GetFullNameFromKey\(ObjectBase\)
 
 ```csharp
 public static string GetFullNameFromKey(ObjectBase obj)
@@ -144,7 +144,7 @@ public static string GetFullNameFromKey(ObjectBase obj)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ModifyEntityDictionary\(ObjectBase\)
+### <a id="VM_Managed_Operation_MacroHelper_ModifyEntityDictionary_VM_Managed_ObjectBase_"></a> ModifyEntityDictionary\(ObjectBase\)
 
 ```csharp
 public static Dictionary<string, string> ModifyEntityDictionary(ObjectBase entity)
@@ -157,5 +157,4 @@ public static Dictionary<string, string> ModifyEntityDictionary(ObjectBase entit
 #### Returns
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [string](https://learn.microsoft.com/dotnet/api/system.string)\>
-
 

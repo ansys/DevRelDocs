@@ -1,4 +1,4 @@
-# Class TireCar
+#  Class TireCar
 
 Namespace: [VM.Managed.DAFUL.Tire.Car.Force](VM.Managed.DAFUL.Tire.Car.Force.md)  
 Assembly: VMDTireCar.dll  
@@ -264,7 +264,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### TireCar\(\)
+### <a id="VM_Managed_DAFUL_Tire_Car_Force_TireCar__ctor"></a> TireCar\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Car.Force.TireCar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -272,7 +272,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Car.Force.Ti
 public TireCar()
 ```
 
-### TireCar\(string\)
+### <a id="VM_Managed_DAFUL_Tire_Car_Force_TireCar__ctor_System_String_"></a> TireCar\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.Car.Force.TireCar" data-throw-if-not-resolved="false"></xref> class.
 
@@ -288,7 +288,7 @@ Name of the bush force.
 
 ## Properties
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Tire_Car_Force_TireCar_ReferenceType"></a> ReferenceType
 
 Gets the type of the array for argument.
 
@@ -302,7 +302,7 @@ public override string ReferenceType { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Tire_Car_Force_TireCar_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -315,5 +315,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The factor.
-
 

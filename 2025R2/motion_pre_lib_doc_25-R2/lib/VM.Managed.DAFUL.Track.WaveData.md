@@ -1,4 +1,4 @@
-# Class WaveData
+#  Class WaveData
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### WaveData\(\)
+### <a id="VM_Managed_DAFUL_Track_WaveData__ctor"></a> WaveData\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.WaveData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public WaveData()
 
 ## Properties
 
-### Height
+### <a id="VM_Managed_DAFUL_Track_WaveData_Height"></a> Height
 
 Gets or sets the Height.
 
@@ -124,7 +124,7 @@ public ExpressionValueVariable Height { get; set; }
 
 Height is null.
 
-### Period
+### <a id="VM_Managed_DAFUL_Track_WaveData_Period"></a> Period
 
 Gets or sets the Period.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable Period { get; set; }
 
 Period is null.
 
-### Use
+### <a id="VM_Managed_DAFUL_Track_WaveData_Use"></a> Use
 
 Gets or sets the Period.
 
@@ -162,7 +162,7 @@ Period is null.
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Track_WaveData_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -175,5 +175,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

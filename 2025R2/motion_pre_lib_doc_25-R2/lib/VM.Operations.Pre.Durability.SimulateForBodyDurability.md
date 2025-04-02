@@ -1,4 +1,4 @@
-# Class SimulateForBodyDurability
+#  Class SimulateForBodyDurability
 
 Namespace: [VM.Operations.Pre.Durability](VM.Operations.Pre.Durability.md)  
 Assembly: VM.Operations.Pre.Durability.dll  
@@ -100,7 +100,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### SimulateForBodyDurability\(Document\)
+### <a id="VM_Operations_Pre_Durability_SimulateForBodyDurability__ctor_VM_Managed_Document_"></a> SimulateForBodyDurability\(Document\)
 
 ```csharp
 public SimulateForBodyDurability(Document doc)
@@ -110,7 +110,7 @@ public SimulateForBodyDurability(Document doc)
 
 `doc` Document
 
-### SimulateForBodyDurability\(object\[\]\)
+### <a id="VM_Operations_Pre_Durability_SimulateForBodyDurability__ctor_System_Object___"></a> SimulateForBodyDurability\(object\[\]\)
 
 ```csharp
 public SimulateForBodyDurability(object[] arParam)
@@ -120,7 +120,7 @@ public SimulateForBodyDurability(object[] arParam)
 
 `arParam` [object](https://learn.microsoft.com/dotnet/api/system.object)\[\]
 
-### SimulateForBodyDurability\(JournalParameter\)
+### <a id="VM_Operations_Pre_Durability_SimulateForBodyDurability__ctor_VM_Managed_Operation_JournalParameter_"></a> SimulateForBodyDurability\(JournalParameter\)
 
 ```csharp
 public SimulateForBodyDurability(JournalParameter jp)
@@ -132,7 +132,7 @@ public SimulateForBodyDurability(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Operations_Pre_Durability_SimulateForBodyDurability_Name"></a> Name
 
 Gets the operation name.
 
@@ -146,7 +146,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Operations_Pre_Durability_SimulateForBodyDurability_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -154,7 +154,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### ReadExtraJournal\(XmlElement\)
+### <a id="VM_Operations_Pre_Durability_SimulateForBodyDurability_ReadExtraJournal_System_Xml_XmlElement_"></a> ReadExtraJournal\(XmlElement\)
 
 ```csharp
 public override void ReadExtraJournal(XmlElement nodeArg)
@@ -164,7 +164,7 @@ public override void ReadExtraJournal(XmlElement nodeArg)
 
 `nodeArg` [XmlElement](https://learn.microsoft.com/dotnet/api/system.xml.xmlelement)
 
-### WriteExtraJournal\(XmlWriter\)
+### <a id="VM_Operations_Pre_Durability_SimulateForBodyDurability_WriteExtraJournal_System_Xml_XmlWriter_"></a> WriteExtraJournal\(XmlWriter\)
 
 ```csharp
 public override void WriteExtraJournal(XmlWriter writer)
@@ -173,5 +173,4 @@ public override void WriteExtraJournal(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

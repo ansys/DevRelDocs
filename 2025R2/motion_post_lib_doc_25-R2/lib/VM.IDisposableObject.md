@@ -1,4 +1,4 @@
-# Interface IDisposableObject
+#  Interface IDisposableObject
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IDisposableObject
 
 ## Properties
 
-### IsDisposed
+### <a id="VM_IDisposableObject_IsDisposed"></a> IsDisposed
 
 ```python
 bool IsDisposed { get; }
@@ -19,7 +19,7 @@ bool IsDisposed { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### TryDisposing
+### <a id="VM_IDisposableObject_TryDisposing"></a> TryDisposing
 
 ```python
 bool TryDisposing { get; }
@@ -29,7 +29,7 @@ bool TryDisposing { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Disposed
+### <a id="VM_IDisposableObject_Disposed"></a> Disposed
 
 ```python
 event EventHandler Disposed
@@ -39,7 +39,7 @@ event EventHandler Disposed
 
  [EventHandler](https://learn.microsoft.com/dotnet/api/system.eventhandler)
 
-### Disposing
+### <a id="VM_IDisposableObject_Disposing"></a> Disposing
 
 ```python
 event EventHandler Disposing

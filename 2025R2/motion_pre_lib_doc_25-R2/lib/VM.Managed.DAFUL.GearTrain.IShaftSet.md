@@ -1,4 +1,4 @@
-# Interface IShaftSet
+#  Interface IShaftSet
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -21,7 +21,7 @@ public interface IShaftSet : IHousing
 
 ## Properties
 
-### PICandidates
+### <a id="VM_Managed_DAFUL_GearTrain_IShaftSet_PICandidates"></a> PICandidates
 
 Gets the array of performance index candidate.
 
@@ -33,7 +33,7 @@ PerformanceIndexInformation[] PICandidates { get; }
 
  [PerformanceIndexInformation](VM.Managed.DAFUL.GearTrain.PerformanceIndexInformation.md)\[\]
 
-### TotalSectionLength
+### <a id="VM_Managed_DAFUL_GearTrain_IShaftSet_TotalSectionLength"></a> TotalSectionLength
 
 Gets the total length of the section.
 
@@ -44,5 +44,4 @@ double TotalSectionLength { get; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

@@ -1,4 +1,4 @@
-# Class SettingUISection
+#  Class SettingUISection
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -22,7 +22,7 @@ public class SettingUISection
 
 ## Constructors
 
-### SettingUISection\(\)
+### <a id="VM_Managed_DAFUL_Pre_SettingUISection__ctor"></a> SettingUISection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.SettingUISection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public SettingUISection()
 
 ## Properties
 
-### Page
+### <a id="VM_Managed_DAFUL_Pre_SettingUISection_Page"></a> Page
 
 Gets or sets the page.
 
@@ -44,7 +44,7 @@ public string Page { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### PageType
+### <a id="VM_Managed_DAFUL_Pre_SettingUISection_PageType"></a> PageType
 
 Gets the type of the page.
 
@@ -56,7 +56,7 @@ public Type PageType { get; }
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### SettingType
+### <a id="VM_Managed_DAFUL_Pre_SettingUISection_SettingType"></a> SettingType
 
 Gets or sets the type of the setting.
 
@@ -68,7 +68,7 @@ public Type SettingType { get; set; }
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
 
-### SubSections
+### <a id="VM_Managed_DAFUL_Pre_SettingUISection_SubSections"></a> SubSections
 
 Gets or sets the sub sections.
 
@@ -79,5 +79,4 @@ public SettingUISection[] SubSections { get; set; }
 #### Property Value
 
  [SettingUISection](VM.Managed.DAFUL.Pre.SettingUISection.md)\[\]
-
 

@@ -1,4 +1,4 @@
-# Interface IStepItemMetadata
+#  Interface IStepItemMetadata
 
 Namespace: [VM.Models](VM.Models.md)  
 Assembly: VM.Models.Project.dll  
@@ -15,7 +15,7 @@ public interface IStepItemMetadata
 
 ## Properties
 
-### StepType
+### <a id="VM_Models_IStepItemMetadata_StepType"></a> StepType
 
 ```csharp
 Type StepType { get; }
@@ -24,5 +24,4 @@ Type StepType { get; }
 #### Property Value
 
  [Type](https://learn.microsoft.com/dotnet/api/system.type)
-
 

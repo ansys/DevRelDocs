@@ -1,4 +1,4 @@
-# Class DynamicAnalysis
+#  Class DynamicAnalysis
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -73,7 +73,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DynamicAnalysis\(IProjectDocument, string\)
+### <a id="VM_Models_Project_Preset_DynamicAnalysis__ctor_VM_Models_IProjectDocument_System_String_"></a> DynamicAnalysis\(IProjectDocument, string\)
 
 ```csharp
 public DynamicAnalysis(IProjectDocument parent, string name)
@@ -87,7 +87,7 @@ public DynamicAnalysis(IProjectDocument parent, string name)
 
 ## Properties
 
-### DisplayName
+### <a id="VM_Models_Project_Preset_DynamicAnalysis_DisplayName"></a> DisplayName
 
 ```csharp
 public override string DisplayName { get; }
@@ -99,7 +99,7 @@ public override string DisplayName { get; }
 
 ## Methods
 
-### SaveScenarioData\(IScenarioDocument\)
+### <a id="VM_Models_Project_Preset_DynamicAnalysis_SaveScenarioData_VM_IScenarioDocument_"></a> SaveScenarioData\(IScenarioDocument\)
 
 ```csharp
 public override void SaveScenarioData(IScenarioDocument scenarioDocument)
@@ -108,5 +108,4 @@ public override void SaveScenarioData(IScenarioDocument scenarioDocument)
 #### Parameters
 
 `scenarioDocument` IScenarioDocument
-
 

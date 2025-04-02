@@ -1,4 +1,4 @@
-# Class WrapperNodalMass
+#  Class WrapperNodalMass
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -22,7 +22,7 @@ public class WrapperNodalMass
 
 ## Constructors
 
-### WrapperNodalMass\(\)
+### <a id="VM_Managed_DAFUL_FE_WrapperNodalMass__ctor"></a> WrapperNodalMass\(\)
 
 ```csharp
 public WrapperNodalMass()
@@ -30,7 +30,7 @@ public WrapperNodalMass()
 
 ## Methods
 
-### GetGaussPoints\(ElementType\)
+### <a id="VM_Managed_DAFUL_FE_WrapperNodalMass_GetGaussPoints_VM_Managed_DAFUL_FE_ElementType_"></a> GetGaussPoints\(ElementType\)
 
 ```csharp
 public _VM_VECTOR* GetGaussPoints(ElementType type)
@@ -44,7 +44,7 @@ public _VM_VECTOR* GetGaussPoints(ElementType type)
 
  [\_VM\_VECTOR](\_VM\_VECTOR.md)\*
 
-### GetJacobian\(ElementType, double, double, double, double\*, double\*\)
+### <a id="VM_Managed_DAFUL_FE_WrapperNodalMass_GetJacobian_VM_Managed_DAFUL_FE_ElementType_System_Double_System_Double_System_Double_System_Double__System_Double__"></a> GetJacobian\(ElementType, double, double, double, double\*, double\*\)
 
 ```csharp
 public void GetJacobian(ElementType type, double dR, double dS, double dT, double* arJacobian, double* dDeterminent)
@@ -64,7 +64,7 @@ public void GetJacobian(ElementType type, double dR, double dS, double dT, doubl
 
 `dDeterminent` [double](https://learn.microsoft.com/dotnet/api/system.double)\*
 
-### GetJacobian\(ElementType, double, double, double\*, double\*\)
+### <a id="VM_Managed_DAFUL_FE_WrapperNodalMass_GetJacobian_VM_Managed_DAFUL_FE_ElementType_System_Double_System_Double_System_Double__System_Double__"></a> GetJacobian\(ElementType, double, double, double\*, double\*\)
 
 ```csharp
 public void GetJacobian(ElementType type, double dR, double dS, double* arJacobian, double* dDeterminent)
@@ -82,7 +82,7 @@ public void GetJacobian(ElementType type, double dR, double dS, double* arJacobi
 
 `dDeterminent` [double](https://learn.microsoft.com/dotnet/api/system.double)\*
 
-### GetNumberOfGaussPoints\(ElementType\)
+### <a id="VM_Managed_DAFUL_FE_WrapperNodalMass_GetNumberOfGaussPoints_VM_Managed_DAFUL_FE_ElementType_"></a> GetNumberOfGaussPoints\(ElementType\)
 
 ```csharp
 public int GetNumberOfGaussPoints(ElementType type)
@@ -96,7 +96,7 @@ public int GetNumberOfGaussPoints(ElementType type)
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### GetShapeFn\(ElementType, double, double, double, double\*\)
+### <a id="VM_Managed_DAFUL_FE_WrapperNodalMass_GetShapeFn_VM_Managed_DAFUL_FE_ElementType_System_Double_System_Double_System_Double_System_Double__"></a> GetShapeFn\(ElementType, double, double, double, double\*\)
 
 ```csharp
 public void GetShapeFn(ElementType type, double dR, double dS, double dT, double* arShape)
@@ -114,7 +114,7 @@ public void GetShapeFn(ElementType type, double dR, double dS, double dT, double
 
 `arShape` [double](https://learn.microsoft.com/dotnet/api/system.double)\*
 
-### GetShapeFn\(ElementType, double, double, double\*\)
+### <a id="VM_Managed_DAFUL_FE_WrapperNodalMass_GetShapeFn_VM_Managed_DAFUL_FE_ElementType_System_Double_System_Double_System_Double__"></a> GetShapeFn\(ElementType, double, double, double\*\)
 
 ```csharp
 public void GetShapeFn(ElementType type, double dR, double dS, double* arShape)
@@ -130,7 +130,7 @@ public void GetShapeFn(ElementType type, double dR, double dS, double* arShape)
 
 `arShape` [double](https://learn.microsoft.com/dotnet/api/system.double)\*
 
-### GetWeights\(ElementType\)
+### <a id="VM_Managed_DAFUL_FE_WrapperNodalMass_GetWeights_VM_Managed_DAFUL_FE_ElementType_"></a> GetWeights\(ElementType\)
 
 ```csharp
 public _VM_VECTOR* GetWeights(ElementType type)
@@ -143,5 +143,4 @@ public _VM_VECTOR* GetWeights(ElementType type)
 #### Returns
 
  [\_VM\_VECTOR](\_VM\_VECTOR.md)\*
-
 

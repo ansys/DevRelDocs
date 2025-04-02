@@ -1,4 +1,4 @@
-# Class WongFormulation
+#  Class WongFormulation
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### WongFormulation\(\)
+### <a id="VM_Managed_DAFUL_Track_WongFormulation__ctor"></a> WongFormulation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.WongFormulation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ public WongFormulation()
 
 ## Properties
 
-### Cohesion
+### <a id="VM_Managed_DAFUL_Track_WongFormulation_Cohesion"></a> Cohesion
 
 Gets or sets the Cohesion.
 
@@ -126,7 +126,7 @@ public ExpressionValueVariable Cohesion { get; set; }
 
 Cohesion is null.
 
-### FrictionAngle
+### <a id="VM_Managed_DAFUL_Track_WongFormulation_FrictionAngle"></a> FrictionAngle
 
 Gets or sets the Friction Angle.
 
@@ -144,7 +144,7 @@ public ExpressionValueVariable FrictionAngle { get; set; }
 
 Friction Angle is null.
 
-### MaxShearDisplacement
+### <a id="VM_Managed_DAFUL_Track_WongFormulation_MaxShearDisplacement"></a> MaxShearDisplacement
 
 Gets or sets the Max. Shear Displacement.
 
@@ -162,7 +162,7 @@ public ExpressionValueVariable MaxShearDisplacement { get; set; }
 
 Max. Shear Displacement is null.
 
-### Sensitivity
+### <a id="VM_Managed_DAFUL_Track_WongFormulation_Sensitivity"></a> Sensitivity
 
 Gets or sets the Sensitivity.
 
@@ -180,7 +180,7 @@ public ExpressionValueVariable Sensitivity { get; set; }
 
 Sensitivity is null.
 
-### TypeOfShearPressureFormulation
+### <a id="VM_Managed_DAFUL_Track_WongFormulation_TypeOfShearPressureFormulation"></a> TypeOfShearPressureFormulation
 
 Gets the normal pressure formulation type.
 
@@ -194,7 +194,7 @@ public override ShearPressureFormulationType TypeOfShearPressureFormulation { ge
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Track_WongFormulation_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -207,5 +207,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

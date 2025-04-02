@@ -1,4 +1,4 @@
-# Class SetNode.NodeIndexContainer
+#  Class SetNode.NodeIndexContainer
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -73,7 +73,7 @@ ObservableObject.PropertyChanged
 
 ## Properties
 
-### NodeIndexArray
+### <a id="VM_Managed_DAFUL_FE_SetNode_NodeIndexContainer_NodeIndexArray"></a> NodeIndexArray
 
 Gets the index.
 
@@ -87,10 +87,9 @@ public uint[] NodeIndexArray { get; }
 
 ## Methods
 
-### Clear\(\)
+### <a id="VM_Managed_DAFUL_FE_SetNode_NodeIndexContainer_Clear"></a> Clear\(\)
 
 ```csharp
 public void Clear()
 ```
-
 

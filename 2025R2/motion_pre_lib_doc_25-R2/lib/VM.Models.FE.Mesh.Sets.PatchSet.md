@@ -1,4 +1,4 @@
-# Class PatchSet
+#  Class PatchSet
 
 Namespace: [VM.Models.FE.Mesh.Sets](VM.Models.FE.Mesh.Sets.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -41,7 +41,7 @@ public class PatchSet : Set, IEntity, ISet
 
 ## Constructors
 
-### PatchSet\(\)
+### <a id="VM_Models_FE_Mesh_Sets_PatchSet__ctor"></a> PatchSet\(\)
 
 ```csharp
 public PatchSet()
@@ -49,7 +49,7 @@ public PatchSet()
 
 ## Properties
 
-### ItemCount
+### <a id="VM_Models_FE_Mesh_Sets_PatchSet_ItemCount"></a> ItemCount
 
 ```csharp
 public override int ItemCount { get; }
@@ -58,5 +58,4 @@ public override int ItemCount { get; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 

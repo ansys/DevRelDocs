@@ -1,4 +1,4 @@
-# Enum MotorDesigner.GeometryCreationType
+#  Enum MotorDesigner.GeometryCreationType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,7 +26,6 @@ Maxwell
 `UserDefined = 0` 
 
 UserDefined
-
 
 
 

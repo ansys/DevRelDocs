@@ -1,4 +1,4 @@
-# Class SectionModificationAdd
+#  Class SectionModificationAdd
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -53,7 +53,7 @@ BuilderBase<Section\>.ErrorMessage
 
 ## Constructors
 
-### SectionModificationAdd\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationAdd__ctor"></a> SectionModificationAdd\(\)
 
 ```csharp
 public SectionModificationAdd()
@@ -61,7 +61,7 @@ public SectionModificationAdd()
 
 ## Properties
 
-### GearTrainCrossSection
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationAdd_GearTrainCrossSection"></a> GearTrainCrossSection
 
 ```csharp
 public SectionInfo[] GearTrainCrossSection { get; set; }
@@ -71,7 +71,7 @@ public SectionInfo[] GearTrainCrossSection { get; set; }
 
  [SectionInfo](VM.Managed.DAFUL.Builder.GearTrain.SectionInfo.md)\[\]
 
-### Length
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationAdd_Length"></a> Length
 
 ```csharp
 public string Length { get; set; }
@@ -83,7 +83,7 @@ public string Length { get; set; }
 
 ## Methods
 
-### CreateSection\(Section, ShaftSet\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationAdd_CreateSection_VM_Managed_DAFUL_GearTrain_CAD_Section_VM_Managed_DAFUL_GearTrain_ShaftSet_"></a> CreateSection\(Section, ShaftSet\)
 
 ```csharp
 public void CreateSection(Section section, ShaftSet shaftset)
@@ -95,7 +95,7 @@ public void CreateSection(Section section, ShaftSet shaftset)
 
 `shaftset` ShaftSet
 
-### OnPostAddDoc\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationAdd_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -105,7 +105,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationAdd_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -121,7 +121,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_SectionModificationAdd_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -134,5 +134,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

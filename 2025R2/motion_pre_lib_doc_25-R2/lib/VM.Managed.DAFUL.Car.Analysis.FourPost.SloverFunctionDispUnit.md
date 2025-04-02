@@ -1,4 +1,4 @@
-# Enum SloverFunctionDispUnit
+#  Enum SloverFunctionDispUnit
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.FourPost](VM.Managed.DAFUL.Car.Analysis.FourPost.md)  
 Assembly: VMDCar.dll  
@@ -32,7 +32,6 @@ m
 `mm = 0` 
 
 mm
-
 
 
 

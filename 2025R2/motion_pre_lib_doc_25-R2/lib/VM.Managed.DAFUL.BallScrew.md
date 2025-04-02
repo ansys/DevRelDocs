@@ -1,4 +1,4 @@
-# Class BallScrew
+#  Class BallScrew
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -201,7 +201,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BallScrew\(\)
+### <a id="VM_Managed_DAFUL_BallScrew__ctor"></a> BallScrew\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.BallScrew" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ public BallScrew()
 
 ## Properties
 
-### BallDiameter
+### <a id="VM_Managed_DAFUL_BallScrew_BallDiameter"></a> BallDiameter
 
 Gets or sets the ball diameter.
 
@@ -223,7 +223,7 @@ public ExpressionValueVariable BallDiameter { get; set; }
 
  ExpressionValueVariable
 
-### DirectionX
+### <a id="VM_Managed_DAFUL_BallScrew_DirectionX"></a> DirectionX
 
 Gets or sets the directionX.
 
@@ -235,7 +235,7 @@ public Vector DirectionX { get; set; }
 
  Vector
 
-### DirectionZ
+### <a id="VM_Managed_DAFUL_BallScrew_DirectionZ"></a> DirectionZ
 
 Gets or sets the directionZ.
 
@@ -247,7 +247,7 @@ public Vector DirectionZ { get; set; }
 
  Vector
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_BallScrew_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -259,7 +259,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsRight
+### <a id="VM_Managed_DAFUL_BallScrew_IsRight"></a> IsRight
 
 Gets or sets a value indicating whether screw is right handed.
 
@@ -271,7 +271,7 @@ public bool IsRight { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Lead
+### <a id="VM_Managed_DAFUL_BallScrew_Lead"></a> Lead
 
 Gets or sets the lead.
 
@@ -283,7 +283,7 @@ public ExpressionValueVariable Lead { get; set; }
 
  ExpressionValueVariable
 
-### Nut
+### <a id="VM_Managed_DAFUL_BallScrew_Nut"></a> Nut
 
 Gets or sets the nut.
 
@@ -295,7 +295,7 @@ public SolidBody Nut { get; set; }
 
  SolidBody
 
-### NutChamperAngle
+### <a id="VM_Managed_DAFUL_BallScrew_NutChamperAngle"></a> NutChamperAngle
 
 Gets or sets the nut champer angle.
 
@@ -307,7 +307,7 @@ public ExpressionValueVariable NutChamperAngle { get; set; }
 
  ExpressionValueVariable
 
-### NutConformity
+### <a id="VM_Managed_DAFUL_BallScrew_NutConformity"></a> NutConformity
 
 Gets or sets the nut conformity.
 
@@ -319,7 +319,7 @@ public ExpressionValueVariable NutConformity { get; set; }
 
  ExpressionValueVariable
 
-### NutContactAngle
+### <a id="VM_Managed_DAFUL_BallScrew_NutContactAngle"></a> NutContactAngle
 
 Gets or sets the nut contact angle.
 
@@ -331,7 +331,7 @@ public ExpressionValueVariable NutContactAngle { get; set; }
 
  ExpressionValueVariable
 
-### NutInnerRadius
+### <a id="VM_Managed_DAFUL_BallScrew_NutInnerRadius"></a> NutInnerRadius
 
 Gets or sets the nut inner radius.
 
@@ -343,7 +343,7 @@ public ExpressionValueVariable NutInnerRadius { get; set; }
 
  ExpressionValueVariable
 
-### NutLength
+### <a id="VM_Managed_DAFUL_BallScrew_NutLength"></a> NutLength
 
 Gets or sets the nut length.
 
@@ -355,7 +355,7 @@ public ExpressionValueVariable NutLength { get; set; }
 
  ExpressionValueVariable
 
-### NutOD
+### <a id="VM_Managed_DAFUL_BallScrew_NutOD"></a> NutOD
 
 Gets or sets the nut OD.
 
@@ -367,7 +367,7 @@ public ExpressionValueVariable NutOD { get; set; }
 
  ExpressionValueVariable
 
-### NutPCD
+### <a id="VM_Managed_DAFUL_BallScrew_NutPCD"></a> NutPCD
 
 Gets or sets the nut PCD.
 
@@ -379,7 +379,7 @@ public ExpressionValueVariable NutPCD { get; set; }
 
  ExpressionValueVariable
 
-### NutScrewEndLength
+### <a id="VM_Managed_DAFUL_BallScrew_NutScrewEndLength"></a> NutScrewEndLength
 
 Gets or sets the nut screw end length.
 
@@ -391,7 +391,7 @@ public ExpressionValueVariable NutScrewEndLength { get; set; }
 
  ExpressionValueVariable
 
-### NutScrewStartLength
+### <a id="VM_Managed_DAFUL_BallScrew_NutScrewStartLength"></a> NutScrewStartLength
 
 Gets or sets the nut screw start length.
 
@@ -403,7 +403,7 @@ public ExpressionValueVariable NutScrewStartLength { get; set; }
 
  ExpressionValueVariable
 
-### NutShoulderRadius
+### <a id="VM_Managed_DAFUL_BallScrew_NutShoulderRadius"></a> NutShoulderRadius
 
 Gets or sets the nut shoulder radius.
 
@@ -415,7 +415,7 @@ public ExpressionValueVariable NutShoulderRadius { get; set; }
 
  ExpressionValueVariable
 
-### NutShoulderType
+### <a id="VM_Managed_DAFUL_BallScrew_NutShoulderType"></a> NutShoulderType
 
 Gets or sets the nut shoulder type.
 
@@ -427,7 +427,7 @@ public ShoulderType NutShoulderType { get; set; }
 
  [ShoulderType](VM.Managed.DAFUL.ShoulderType.md)
 
-### NutStartArcAngle
+### <a id="VM_Managed_DAFUL_BallScrew_NutStartArcAngle"></a> NutStartArcAngle
 
 Gets or sets the nut start arc angle.
 
@@ -439,7 +439,7 @@ public ExpressionValueVariable NutStartArcAngle { get; set; }
 
  ExpressionValueVariable
 
-### NutStartLength
+### <a id="VM_Managed_DAFUL_BallScrew_NutStartLength"></a> NutStartLength
 
 Gets or sets the nut start length.
 
@@ -451,7 +451,7 @@ public ExpressionValueVariable NutStartLength { get; set; }
 
  ExpressionValueVariable
 
-### Shaft
+### <a id="VM_Managed_DAFUL_BallScrew_Shaft"></a> Shaft
 
 Gets or sets the shaft.
 
@@ -463,7 +463,7 @@ public SolidBody Shaft { get; set; }
 
  SolidBody
 
-### ShaftChamperAngle
+### <a id="VM_Managed_DAFUL_BallScrew_ShaftChamperAngle"></a> ShaftChamperAngle
 
 Gets or sets the shaft champer angle.
 
@@ -475,7 +475,7 @@ public ExpressionValueVariable ShaftChamperAngle { get; set; }
 
  ExpressionValueVariable
 
-### ShaftConformity
+### <a id="VM_Managed_DAFUL_BallScrew_ShaftConformity"></a> ShaftConformity
 
 Gets or sets the shaft conformity.
 
@@ -487,7 +487,7 @@ public ExpressionValueVariable ShaftConformity { get; set; }
 
  ExpressionValueVariable
 
-### ShaftContactAngle
+### <a id="VM_Managed_DAFUL_BallScrew_ShaftContactAngle"></a> ShaftContactAngle
 
 Gets or sets the shaft contact angle.
 
@@ -499,7 +499,7 @@ public ExpressionValueVariable ShaftContactAngle { get; set; }
 
  ExpressionValueVariable
 
-### ShaftLength
+### <a id="VM_Managed_DAFUL_BallScrew_ShaftLength"></a> ShaftLength
 
 Gets or sets the shaft length.
 
@@ -511,7 +511,7 @@ public ExpressionValueVariable ShaftLength { get; set; }
 
  ExpressionValueVariable
 
-### ShaftOuterRadius
+### <a id="VM_Managed_DAFUL_BallScrew_ShaftOuterRadius"></a> ShaftOuterRadius
 
 Gets or sets the shaft outer radius.
 
@@ -523,7 +523,7 @@ public ExpressionValueVariable ShaftOuterRadius { get; set; }
 
  ExpressionValueVariable
 
-### ShaftPCD
+### <a id="VM_Managed_DAFUL_BallScrew_ShaftPCD"></a> ShaftPCD
 
 Gets or sets the shaft PCD.
 
@@ -535,7 +535,7 @@ public ExpressionValueVariable ShaftPCD { get; set; }
 
  ExpressionValueVariable
 
-### ShaftReferencePosition
+### <a id="VM_Managed_DAFUL_BallScrew_ShaftReferencePosition"></a> ShaftReferencePosition
 
 Gets or sets the shaft reference position.
 
@@ -547,7 +547,7 @@ public PointBase ShaftReferencePosition { get; set; }
 
  PointBase
 
-### ShaftScrewEndLength
+### <a id="VM_Managed_DAFUL_BallScrew_ShaftScrewEndLength"></a> ShaftScrewEndLength
 
 Gets or sets the shaft screw end length.
 
@@ -559,7 +559,7 @@ public ExpressionValueVariable ShaftScrewEndLength { get; set; }
 
  ExpressionValueVariable
 
-### ShaftScrewStartAngle
+### <a id="VM_Managed_DAFUL_BallScrew_ShaftScrewStartAngle"></a> ShaftScrewStartAngle
 
 Gets or sets the shaft screw start angle.
 
@@ -571,7 +571,7 @@ public ExpressionValueVariable ShaftScrewStartAngle { get; set; }
 
  ExpressionValueVariable
 
-### ShaftScrewStartLength
+### <a id="VM_Managed_DAFUL_BallScrew_ShaftScrewStartLength"></a> ShaftScrewStartLength
 
 Gets or sets the shaft screw start length.
 
@@ -583,7 +583,7 @@ public ExpressionValueVariable ShaftScrewStartLength { get; set; }
 
  ExpressionValueVariable
 
-### ShaftShoulderRadius
+### <a id="VM_Managed_DAFUL_BallScrew_ShaftShoulderRadius"></a> ShaftShoulderRadius
 
 Gets or sets the shaft shoulder radius.
 
@@ -595,7 +595,7 @@ public ExpressionValueVariable ShaftShoulderRadius { get; set; }
 
  ExpressionValueVariable
 
-### ShaftShoulderType
+### <a id="VM_Managed_DAFUL_BallScrew_ShaftShoulderType"></a> ShaftShoulderType
 
 Gets or sets the shaft shoulder type.
 
@@ -607,7 +607,7 @@ public ShoulderType ShaftShoulderType { get; set; }
 
  [ShoulderType](VM.Managed.DAFUL.ShoulderType.md)
 
-### ShaftStartArcAngle
+### <a id="VM_Managed_DAFUL_BallScrew_ShaftStartArcAngle"></a> ShaftStartArcAngle
 
 Gets or sets the shaft start arc angle.
 
@@ -621,7 +621,7 @@ public ExpressionValueVariable ShaftStartArcAngle { get; set; }
 
 ## Methods
 
-### Create\(Document3D\)
+### <a id="VM_Managed_DAFUL_BallScrew_Create_VM_Managed_Document3D_"></a> Create\(Document3D\)
 
 Create Shaft and Nut
 
@@ -635,7 +635,7 @@ public void Create(Document3D document3D)
 
 The document.
 
-### FixUp\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_BallScrew_FixUp_VM_Managed_ObjectBase_"></a> FixUp\(ObjectBase\)
 
 Before destroy the old object, perform a work.
 
@@ -655,7 +655,7 @@ The old object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### LinkRequestDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_BallScrew_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -672,5 +672,4 @@ The linked object.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

@@ -1,4 +1,4 @@
-# Class CPlacingConnectorAPI
+#  Class CPlacingConnectorAPI
 
 Namespace: [VM.API.Pre.Links](VM.API.Pre.Links.md)  
 Assembly: VM.API.Pre.Links.dll  
@@ -22,7 +22,7 @@ public static class CPlacingConnectorAPI
 
 ## Methods
 
-### CalculatePinStiffness\(string, string\)
+### <a id="VM_API_Pre_Links_CPlacingConnectorAPI_CalculatePinStiffness_System_String_System_String_"></a> CalculatePinStiffness\(string, string\)
 
 Calculate pin stiffness.
 
@@ -58,7 +58,7 @@ Will be thrown if 'pinFilePath' file path does not exist.
 
 Will be thrown if type of 'pinName' argument is empty.
 
-### CalculatePulleyStiffness\(string, string, string\)
+### <a id="VM_API_Pre_Links_CPlacingConnectorAPI_CalculatePulleyStiffness_System_String_System_String_System_String_"></a> CalculatePulleyStiffness\(string, string, string\)
 
 Calculate pulley stiffness.
 
@@ -102,7 +102,7 @@ Will be thrown if type of 'pulleyName' argument is empty.
 
 Will be thrown if 'pinFilePath' file path does not exist.
 
-### CalculateSegmentStiffness\(string\)
+### <a id="VM_API_Pre_Links_CPlacingConnectorAPI_CalculateSegmentStiffness_System_String_"></a> CalculateSegmentStiffness\(string\)
 
 Calculate segment stiffness.
 
@@ -129,7 +129,7 @@ The stiffness information that is calculated by this API.
 
 Will be thrown if 'segmentFilePath' file path does not exist.
 
-### CreateCPlacingConnector\(SubSystemDocument, Obj, string\)
+### <a id="VM_API_Pre_Links_CPlacingConnectorAPI_CreateCPlacingConnector_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_"></a> CreateCPlacingConnector\(SubSystemDocument, Obj, string\)
 
 Create Chained placing connector <xref href="VM.Managed.DAFUL.CPlacingConnector.CPlacingConnector" data-throw-if-not-resolved="false"></xref>.
 
@@ -169,7 +169,7 @@ Will be thrown if 'document', 'chainedPlacing' are null.
 
 Will be thrown if item type of 'chainedPlacing' is not <xref href="VM.Managed.DAFUL.Chained.ChainedPlacing" data-throw-if-not-resolved="false"></xref>.
 
-### CreatePin\(IChainedSegmentInfo, Obj, Vector, Vector, string\)
+### <a id="VM_API_Pre_Links_CPlacingConnectorAPI_CreatePin_VM_Managed_DAFUL_Chained_IChainedSegmentInfo_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_"></a> CreatePin\(IChainedSegmentInfo, Obj, Vector, Vector, string\)
 
 Create pin <xref href="VM.Managed.DAFUL.CPlacingConnector.Pin" data-throw-if-not-resolved="false"></xref>.
 
@@ -218,7 +218,7 @@ Will be thrown if 'document', 'body' are null.
 
 Will be thrown if the magnitude of 'direction' is 0.
 
-### CreatePulley\(IChainedPathInfo, Obj, Vector, Vector, string\)
+### <a id="VM_API_Pre_Links_CPlacingConnectorAPI_CreatePulley_VM_Managed_DAFUL_Chained_IChainedPathInfo_VM_API_Pre_Obj_VM_Vector_VM_Vector_System_String_"></a> CreatePulley\(IChainedPathInfo, Obj, Vector, Vector, string\)
 
 Create pulley <xref href="VM.Managed.DAFUL.CPlacingConnector.Pulley" data-throw-if-not-resolved="false"></xref>.
 
@@ -266,5 +266,4 @@ Will be thrown if 'document', 'body' are null.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if the magnitude of 'axisZ' is 0.
-
 

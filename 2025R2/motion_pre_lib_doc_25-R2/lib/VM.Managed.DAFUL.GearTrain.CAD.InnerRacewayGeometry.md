@@ -1,4 +1,4 @@
-# Class InnerRacewayGeometry
+#  Class InnerRacewayGeometry
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -301,7 +301,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### InnerRacewayGeometry\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_InnerRacewayGeometry__ctor"></a> InnerRacewayGeometry\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RacewayGeometry" data-throw-if-not-resolved="false"></xref> class.
 
@@ -309,7 +309,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Rac
 public InnerRacewayGeometry()
 ```
 
-### InnerRacewayGeometry\(Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_InnerRacewayGeometry__ctor_VM_Managed_CAD_Builder_"></a> InnerRacewayGeometry\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.RacewayGeometry" data-throw-if-not-resolved="false"></xref> class.
 
@@ -322,5 +322,4 @@ public InnerRacewayGeometry(Builder builder)
 `builder` Builder
 
 The body's builder.
-
 

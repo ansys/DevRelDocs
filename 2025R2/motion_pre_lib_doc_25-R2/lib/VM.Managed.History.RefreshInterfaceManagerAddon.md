@@ -1,4 +1,4 @@
-# Class RefreshInterfaceManagerAddon
+#  Class RefreshInterfaceManagerAddon
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMObjBase.dll  
@@ -40,7 +40,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### RefreshInterfaceManagerAddon\(\)
+### <a id="VM_Managed_History_RefreshInterfaceManagerAddon__ctor"></a> RefreshInterfaceManagerAddon\(\)
 
 Construct new RefreshInterfaceManagerAddon
 
@@ -50,7 +50,7 @@ public RefreshInterfaceManagerAddon()
 
 ## Methods
 
-### AddDocument\(Document3D\)
+### <a id="VM_Managed_History_RefreshInterfaceManagerAddon_AddDocument_VM_Managed_Document3D_"></a> AddDocument\(Document3D\)
 
 ```csharp
 public void AddDocument(Document3D document3D)
@@ -60,7 +60,7 @@ public void AddDocument(Document3D document3D)
 
 `document3D` Document3D
 
-### AfterRedo\(object, HistoryEventArgs\)
+### <a id="VM_Managed_History_RefreshInterfaceManagerAddon_AfterRedo_System_Object_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void AfterRedo(object o, HistoryEventArgs args)
@@ -72,7 +72,7 @@ protected override void AfterRedo(object o, HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### AfterUndo\(object, HistoryEventArgs\)
+### <a id="VM_Managed_History_RefreshInterfaceManagerAddon_AfterUndo_System_Object_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(object, HistoryEventArgs\)
 
 ```csharp
 protected override void AfterUndo(object o, HistoryEventArgs args)
@@ -83,5 +83,4 @@ protected override void AfterUndo(object o, HistoryEventArgs args)
 `o` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 `args` HistoryEventArgs
-
 

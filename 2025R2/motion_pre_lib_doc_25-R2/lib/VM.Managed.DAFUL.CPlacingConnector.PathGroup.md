@@ -1,4 +1,4 @@
-# Class PathGroup
+#  Class PathGroup
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PathGroup\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PathGroup__ctor"></a> PathGroup\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.PathGroup" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public PathGroup()
 
 ## Properties
 
-### Information
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PathGroup_Information"></a> Information
 
 Gets or sets the path list.
 
@@ -118,7 +118,7 @@ public PathInformation[] Information { get; set; }
 
  [PathInformation](VM.Managed.DAFUL.CPlacingConnector.PathInformation.md)\[\]
 
-### Items
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PathGroup_Items"></a> Items
 
 Gets or sets the segment list.
 
@@ -132,7 +132,7 @@ public ObjectBase[] Items { get; set; }
 
 ## Methods
 
-### AddInformation\(PathInformation\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PathGroup_AddInformation_VM_Managed_DAFUL_CPlacingConnector_PathInformation_"></a> AddInformation\(PathInformation\)
 
 Add information
 
@@ -146,7 +146,7 @@ public void AddInformation(PathInformation pathInformation)
 
 The path information
 
-### AddItem\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PathGroup_AddItem_VM_Managed_ObjectBase_"></a> AddItem\(ObjectBase\)
 
 Add segment
 
@@ -160,7 +160,7 @@ public void AddItem(ObjectBase item)
 
 The segment
 
-### FindInformation\(string\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PathGroup_FindInformation_System_String_"></a> FindInformation\(string\)
 
 Find information
 
@@ -178,7 +178,7 @@ The path name
 
  [PathInformation](VM.Managed.DAFUL.CPlacingConnector.PathInformation.md)
 
-### FindItemWithInformation\(PathInformation, Document\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PathGroup_FindItemWithInformation_VM_Managed_DAFUL_CPlacingConnector_PathInformation_VM_Managed_Document_"></a> FindItemWithInformation\(PathInformation, Document\)
 
 Find item with information
 
@@ -200,7 +200,7 @@ The document
 
  InstanceContainer
 
-### FindPathWithInformation\(PathInformation, Document\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PathGroup_FindPathWithInformation_VM_Managed_DAFUL_CPlacingConnector_PathInformation_VM_Managed_Document_"></a> FindPathWithInformation\(PathInformation, Document\)
 
 Find path with information
 
@@ -222,7 +222,7 @@ The document
 
  Document3D
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PathGroup_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -236,7 +236,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### RemoveInformation\(PathInformation\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PathGroup_RemoveInformation_VM_Managed_DAFUL_CPlacingConnector_PathInformation_"></a> RemoveInformation\(PathInformation\)
 
 Remove information
 
@@ -250,7 +250,7 @@ public void RemoveInformation(PathInformation pathInformation)
 
 The path information
 
-### RemoveItem\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_PathGroup_RemoveItem_VM_Managed_ObjectBase_"></a> RemoveItem\(ObjectBase\)
 
 Remove segment
 
@@ -263,5 +263,4 @@ public void RemoveItem(ObjectBase item)
 `item` ObjectBase
 
 The segment
-
 

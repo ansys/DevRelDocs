@@ -1,4 +1,4 @@
-# Interface IHasMaterial
+#  Interface IHasMaterial
 
 Namespace: [VM.Managed.Material](VM.Managed.Material.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IHasMaterial
 
 ## Properties
 
-### Material
+### <a id="VM_Managed_Material_IHasMaterial_Material"></a> Material
 
 Gets the material.
 
@@ -28,5 +28,4 @@ IMaterial Material { get; }
 #### Property Value
 
  [IMaterial](VM.Managed.Material.IMaterial.md)
-
 

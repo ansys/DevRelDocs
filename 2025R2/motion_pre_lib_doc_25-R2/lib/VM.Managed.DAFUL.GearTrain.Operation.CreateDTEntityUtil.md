@@ -1,4 +1,4 @@
-# Class CreateDTEntityUtil
+#  Class CreateDTEntityUtil
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -20,7 +20,7 @@ public static class CreateDTEntityUtil
 
 ## Methods
 
-### CreateBearing\(GearTrainDocument, string, BearingCreateInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_BearingCreateInfo_"></a> CreateBearing\(GearTrainDocument, string, BearingCreateInfo\)
 
 ```csharp
 public static Bearing CreateBearing(this GearTrainDocument gearTrainDocument, string strName, CreateDTEntityUtil.BearingCreateInfo info)
@@ -38,7 +38,7 @@ public static Bearing CreateBearing(this GearTrainDocument gearTrainDocument, st
 
  Bearing
 
-### CreateCrossHelicalGearset\(GearTrainDocument, string, GearSetCrossHelicalCreateInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateCrossHelicalGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCrossHelicalCreateInfo_"></a> CreateCrossHelicalGearset\(GearTrainDocument, string, GearSetCrossHelicalCreateInfo\)
 
 ```csharp
 public static GearSetCrossHelical CreateCrossHelicalGearset(this GearTrainDocument gearTrainDocument, string strName, CreateDTEntityUtil.GearSetCrossHelicalCreateInfo info)
@@ -56,7 +56,7 @@ public static GearSetCrossHelical CreateCrossHelicalGearset(this GearTrainDocume
 
  GearSetCrossHelical
 
-### CreateCustomGearset\(GearTrainDocument, string, GearSetCreateInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateCustomGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_"></a> CreateCustomGearset\(GearTrainDocument, string, GearSetCreateInfo\)
 
 ```csharp
 public static GearSetCustom CreateCustomGearset(this GearTrainDocument gearTrainDocument, string strName, CreateDTEntityUtil.GearSetCreateInfo info)
@@ -74,7 +74,7 @@ public static GearSetCustom CreateCustomGearset(this GearTrainDocument gearTrain
 
  GearSetCustom
 
-### CreateCycloidPinGearset\(GearTrainDocument, string, GearSetCycloidPinCreateInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateCycloidPinGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCycloidPinCreateInfo_"></a> CreateCycloidPinGearset\(GearTrainDocument, string, GearSetCycloidPinCreateInfo\)
 
 ```csharp
 public static GearSetCycloidPin CreateCycloidPinGearset(this GearTrainDocument gearTrainDocument, string strName, CreateDTEntityUtil.GearSetCycloidPinCreateInfo info)
@@ -92,7 +92,7 @@ public static GearSetCycloidPin CreateCycloidPinGearset(this GearTrainDocument g
 
  GearSetCycloidPin
 
-### CreateGearset\(GearTrainDocument, string, int, GearSetCreateInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_Int32_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_"></a> CreateGearset\(GearTrainDocument, string, int, GearSetCreateInfo\)
 
 ```csharp
 public static GearSet CreateGearset(this GearTrainDocument gearTrainDocument, string strName, int nNumGear, CreateDTEntityUtil.GearSetCreateInfo info)
@@ -112,7 +112,7 @@ public static GearSet CreateGearset(this GearTrainDocument gearTrainDocument, st
 
  GearSet
 
-### CreateInternalGearset\(GearTrainDocument, string, GearSetCreateInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateInternalGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_"></a> CreateInternalGearset\(GearTrainDocument, string, GearSetCreateInfo\)
 
 ```csharp
 public static GearSetInternal CreateInternalGearset(this GearTrainDocument gearTrainDocument, string strName, CreateDTEntityUtil.GearSetCreateInfo info)
@@ -130,7 +130,7 @@ public static GearSetInternal CreateInternalGearset(this GearTrainDocument gearT
 
  GearSetInternal
 
-### CreatePlanetaryDPGearset\(GearTrainDocument, string, int, GearSetPlanetaryDPCreateInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreatePlanetaryDPGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_Int32_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetPlanetaryDPCreateInfo_"></a> CreatePlanetaryDPGearset\(GearTrainDocument, string, int, GearSetPlanetaryDPCreateInfo\)
 
 ```csharp
 public static GearSetPlanetaryDP CreatePlanetaryDPGearset(this GearTrainDocument gearTrainDocument, string strName, int nNumPinionGear, CreateDTEntityUtil.GearSetPlanetaryDPCreateInfo info)
@@ -150,7 +150,7 @@ public static GearSetPlanetaryDP CreatePlanetaryDPGearset(this GearTrainDocument
 
  GearSetPlanetaryDP
 
-### CreatePlanetaryGearset\(GearTrainDocument, string, int, GearSetCreateInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreatePlanetaryGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_Int32_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCreateInfo_"></a> CreatePlanetaryGearset\(GearTrainDocument, string, int, GearSetCreateInfo\)
 
 ```csharp
 public static GearSetPlanetary CreatePlanetaryGearset(this GearTrainDocument gearTrainDocument, string strName, int nNumPinionGear, CreateDTEntityUtil.GearSetCreateInfo info)
@@ -170,7 +170,7 @@ public static GearSetPlanetary CreatePlanetaryGearset(this GearTrainDocument gea
 
  GearSetPlanetary
 
-### CreateRackAndPinionGearset\(GearTrainDocument, string, GearSetRackAndPinionCreateInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateRackAndPinionGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetRackAndPinionCreateInfo_"></a> CreateRackAndPinionGearset\(GearTrainDocument, string, GearSetRackAndPinionCreateInfo\)
 
 ```csharp
 public static GearSetRackAndPinion CreateRackAndPinionGearset(this GearTrainDocument gearTrainDocument, string strName, CreateDTEntityUtil.GearSetRackAndPinionCreateInfo info)
@@ -188,7 +188,7 @@ public static GearSetRackAndPinion CreateRackAndPinionGearset(this GearTrainDocu
 
  GearSetRackAndPinion
 
-### CreateSimpleShaftset\(GearTrainDocument, string, Vector, Vector, double, double, int\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateSimpleShaftset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Vector_VM_Vector_System_Double_System_Double_System_Int32_"></a> CreateSimpleShaftset\(GearTrainDocument, string, Vector, Vector, double, double, int\)
 
 ```csharp
 public static ShaftSet CreateSimpleShaftset(this GearTrainDocument gearTrainDocument, string strName, Vector position, Vector rotateAxis, double dLength, double dDiameter, int nNumSection)
@@ -214,7 +214,7 @@ public static ShaftSet CreateSimpleShaftset(this GearTrainDocument gearTrainDocu
 
  ShaftSet
 
-### CreateSlidingBearing\(GearTrainDocument, string, SlidingBearingCreateInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateSlidingBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo_"></a> CreateSlidingBearing\(GearTrainDocument, string, SlidingBearingCreateInfo\)
 
 ```csharp
 public static SlidingBearing CreateSlidingBearing(this GearTrainDocument gearTrainDocument, string strName, CreateDTEntityUtil.SlidingBearingCreateInfo info)
@@ -232,7 +232,7 @@ public static SlidingBearing CreateSlidingBearing(this GearTrainDocument gearTra
 
  SlidingBearing
 
-### CreateStiffnessBearing\(GearTrainDocument, string, StiffnessBearingCreateInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateStiffnessBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_StiffnessBearingCreateInfo_"></a> CreateStiffnessBearing\(GearTrainDocument, string, StiffnessBearingCreateInfo\)
 
 ```csharp
 public static Bearing CreateStiffnessBearing(this GearTrainDocument gearTrainDocument, string strName, CreateDTEntityUtil.StiffnessBearingCreateInfo info)
@@ -250,7 +250,7 @@ public static Bearing CreateStiffnessBearing(this GearTrainDocument gearTrainDoc
 
  Bearing
 
-### CreateWormAndWormWheelGearset\(GearTrainDocument, string, GearSetWormAndWormWheelCreateInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_CreateWormAndWormWheelGearset_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetWormAndWormWheelCreateInfo_"></a> CreateWormAndWormWheelGearset\(GearTrainDocument, string, GearSetWormAndWormWheelCreateInfo\)
 
 ```csharp
 public static GearSetWormAndWormWheel CreateWormAndWormWheelGearset(this GearTrainDocument gearTrainDocument, string strName, CreateDTEntityUtil.GearSetWormAndWormWheelCreateInfo info)
@@ -268,7 +268,7 @@ public static GearSetWormAndWormWheel CreateWormAndWormWheelGearset(this GearTra
 
  GearSetWormAndWormWheel
 
-### OpenHiddenDocument\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_OpenHiddenDocument_System_Object_"></a> OpenHiddenDocument\(object\)
 
 ```csharp
 public static Document3D OpenHiddenDocument(object obj)
@@ -281,5 +281,4 @@ public static Document3D OpenHiddenDocument(object obj)
 #### Returns
 
  Document3D
-
 

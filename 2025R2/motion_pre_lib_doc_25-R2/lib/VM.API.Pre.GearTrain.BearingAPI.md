@@ -1,4 +1,4 @@
-# Class BearingAPI
+#  Class BearingAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -22,7 +22,7 @@ public static class BearingAPI
 
 ## Methods
 
-### ApplyRollingBearing\(HiddenBearingDocument\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_ApplyRollingBearing_VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_"></a> ApplyRollingBearing\(HiddenBearingDocument\)
 
 Apply bearing in bearing designer.
 
@@ -43,7 +43,7 @@ The <xref href="VM.Managed.DAFUL.GearTrain.HiddenBearingDocument" data-throw-if-
 
 Will be thrown if 'document' or 'bearing' arguments are empty.
 
-### ApplySlidingBearing\(HiddenSlidingBearingDocument\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_ApplySlidingBearing_VM_Managed_DAFUL_GearTrain_HiddenSlidingBearingDocument_"></a> ApplySlidingBearing\(HiddenSlidingBearingDocument\)
 
 Apply sliding bearing in sliding bearing designer.
 
@@ -64,7 +64,7 @@ The <xref href="VM.Managed.DAFUL.GearTrain.HiddenSlidingBearingDocument" data-th
 
 Will be thrown if 'document' or 'slidingBearing' arguments are empty.
 
-### CreateBearingForAngularContactBall\(GearTrainDocument, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?, Color?\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_CreateBearingForAngularContactBall_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Int32_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__"></a> CreateBearingForAngularContactBall\(GearTrainDocument, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref> for angular contact ball.
 
@@ -171,7 +171,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolv
 
 Will be thrown if 'document' argument is empty.
 
-### CreateBearingForCylindricalRoller\(GearTrainDocument, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?, Color?\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_CreateBearingForCylindricalRoller_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Int32_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__"></a> CreateBearingForCylindricalRoller\(GearTrainDocument, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref> for cylindrical roller.
 
@@ -258,7 +258,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolv
 
 Will be thrown if 'document' argument is empty.
 
-### CreateBearingForRadialBall\(GearTrainDocument, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?, Color?\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_CreateBearingForRadialBall_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Int32_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__"></a> CreateBearingForRadialBall\(GearTrainDocument, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref> for radial ball.
 
@@ -353,7 +353,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolv
 
 Will be thrown if 'document' argument is empty.
 
-### CreateBearingForTaperedRoller\(GearTrainDocument, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?, Color?\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_CreateBearingForTaperedRoller_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Int32_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__"></a> CreateBearingForTaperedRoller\(GearTrainDocument, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref> for tapered roller.
 
@@ -472,7 +472,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolv
 
 Will be thrown if 'document' argument is empty.
 
-### CreateSlidingBearing\(GearTrainDocument, string, enSlidingBearingType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_CreateSlidingBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_VM_Managed_DAFUL_GearTrain_enSlidingBearingType_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_System_Drawing_Color__"></a> CreateSlidingBearing\(GearTrainDocument, string, enSlidingBearingType, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref>.
 
@@ -527,7 +527,7 @@ The new <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolv
 
 Will be thrown if 'document' argument is empty.
 
-### CreateSlidingBearing\(GearTrainDocument, Obj, string, Color?\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_CreateSlidingBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_String_System_Nullable_System_Drawing_Color__"></a> CreateSlidingBearing\(GearTrainDocument, Obj, string, Color?\)
 
 Create <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref>.
 
@@ -571,7 +571,7 @@ Will be thrown if 'document' or 'slidingBearingCopy' arguments are empty.
 
 Will be thrown if type of 'slidingBearingCopy' is not <xref href="VM.Managed.DAFUL.GearTrain.SlidingBearing" data-throw-if-not-resolved="false"></xref>.
 
-### CreateStiffnessBearing\(GearTrainDocument, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<double\>, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?, Color?\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_CreateStiffnessBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_System_String_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Collections_Generic_IEnumerable_System_Double__System_Int32_System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_VM_Models_Pre_ExpressionValueVariable__System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__"></a> CreateStiffnessBearing\(GearTrainDocument, string, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, IEnumerable<double\>, int, ExpressionValueVariable?, ExpressionValueVariable?, ExpressionValueVariable?, Color?, Color?\)
 
 Create StiffnessBearing <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
@@ -662,7 +662,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'stiffness' argument is not null and the length of 'stiffness' is not 25.
 
-### CreateStiffnessBearing\(GearTrainDocument, Obj, string, Color?, Color?\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_CreateStiffnessBearing_VM_Managed_DAFUL_GearTrain_GearTrainDocument_VM_API_Pre_Obj_System_String_System_Nullable_System_Drawing_Color__System_Nullable_System_Drawing_Color__"></a> CreateStiffnessBearing\(GearTrainDocument, Obj, string, Color?, Color?\)
 
 Create StiffnessBearing <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
@@ -710,7 +710,7 @@ Will be thrown if 'document' or 'bearingStiffnessCopy' arguments are empty.
 
 Will be thrown if type of 'bearingStiffnessCopy' is not <xref href="VM.Managed.DAFUL.GearTrain.Bearing" data-throw-if-not-resolved="false"></xref>.
 
-### UpdateBearing\(HiddenBearingDocument\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_UpdateBearing_VM_Managed_DAFUL_GearTrain_HiddenBearingDocument_"></a> UpdateBearing\(HiddenBearingDocument\)
 
 Update bearing in bearing designer.
 
@@ -731,7 +731,7 @@ The <xref href="VM.Managed.DAFUL.GearTrain.HiddenBearingDocument" data-throw-if-
 
 Will be thrown if 'document' argument is empty.
 
-### UpdateBearingInEF\(HiddenDocumentMeshBase, string, string, Vector\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_UpdateBearingInEF_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_System_String_System_String_VM_Vector_"></a> UpdateBearingInEF\(HiddenDocumentMeshBase, string, string, Vector\)
 
 Update bearing in EF shaftset/housing designer.
 
@@ -770,7 +770,7 @@ Will be thrown if 'document' or 'racewayName' or 'rbeName' arguments are empty.
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 
-### UpdateBearingInEF\(HiddenDocumentMeshBase, Obj, RacewayType, Obj, Vector\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_UpdateBearingInEF_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_API_Pre_Obj_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_VM_API_Pre_Obj_VM_Vector_"></a> UpdateBearingInEF\(HiddenDocumentMeshBase, Obj, RacewayType, Obj, Vector\)
 
 Update bearing in EF shaftset/housing designer.
 
@@ -813,7 +813,7 @@ Will be thrown if 'document' or 'racewayName' or 'rbe' arguments are empty.
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 
-### UpdateBearingInFE\(HiddenDocumentMeshBase, string, string, Vector\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_UpdateBearingInFE_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_System_String_System_String_VM_Vector_"></a> UpdateBearingInFE\(HiddenDocumentMeshBase, string, string, Vector\)
 
 Update bearing in FE shaftset/housing designer.
 
@@ -852,7 +852,7 @@ Will be thrown if 'document' or 'racewayName' or 'rbeName' arguments are empty.
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 
-### UpdateBearingInFE\(HiddenDocumentMeshBase, Obj, RacewayType, Obj, Vector\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_UpdateBearingInFE_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_API_Pre_Obj_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_VM_API_Pre_Obj_VM_Vector_"></a> UpdateBearingInFE\(HiddenDocumentMeshBase, Obj, RacewayType, Obj, Vector\)
 
 Update bearing in FE shaftset/housing designer.
 
@@ -895,7 +895,7 @@ Will be thrown if 'document' or 'racewayName' or 'rbe' arguments are empty.
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 
-### UpdateBearingInShaftSet\(HiddenShaftSetDocument, string, ExpressionValueVariable, AttachLocationType, DirectionType, ClearanceParameters?\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_UpdateBearingInShaftSet_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_VM_Models_Pre_ExpressionValueVariable_VM_API_Pre_GearTrain_AttachLocationType_VM_API_Pre_GearTrain_DirectionType_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> UpdateBearingInShaftSet\(HiddenShaftSetDocument, string, ExpressionValueVariable, AttachLocationType, DirectionType, ClearanceParameters?\)
 
 Update bearing in simple shaftset designer.
 
@@ -941,7 +941,7 @@ Will be thrown if 'document' or 'racewayName' or 'clearanceInfo' arguments are e
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 
-### UpdateBearingInShaftSet\(HiddenShaftSetDocument, Obj?, RacewayType, ExpressionValueVariable, AttachLocationType, DirectionType, ClearanceParameters?\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_UpdateBearingInShaftSet_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_Nullable_VM_API_Pre_Obj__VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_RacewayType_VM_Models_Pre_ExpressionValueVariable_VM_API_Pre_GearTrain_AttachLocationType_VM_API_Pre_GearTrain_DirectionType_System_Nullable_VM_API_Pre_GearTrain_ClearanceParameters__"></a> UpdateBearingInShaftSet\(HiddenShaftSetDocument, Obj?, RacewayType, ExpressionValueVariable, AttachLocationType, DirectionType, ClearanceParameters?\)
 
 Update bearing in simple shaftset designer.
 
@@ -991,7 +991,7 @@ Will be thrown if 'document' or 'racewayName' or 'clearanceInfo' arguments are e
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 
-### UpdateSlidingBearing\(HiddenSlidingBearingDocument\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_UpdateSlidingBearing_VM_Managed_DAFUL_GearTrain_HiddenSlidingBearingDocument_"></a> UpdateSlidingBearing\(HiddenSlidingBearingDocument\)
 
 Update sliding bearing in sliding bearing designer.
 
@@ -1012,7 +1012,7 @@ The <xref href="VM.Managed.DAFUL.GearTrain.HiddenSlidingBearingDocument" data-th
 
 Will be thrown if 'document' argument is empty.
 
-### UpdateSlidingBearingInEF\(HiddenDocumentMeshBase, string, string\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_UpdateSlidingBearingInEF_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_System_String_System_String_"></a> UpdateSlidingBearingInEF\(HiddenDocumentMeshBase, string, string\)
 
 Update sliding bearing in EF shaftset/housing designer.
 
@@ -1042,7 +1042,7 @@ The rbe name.
 
 Will be thrown if 'document' or 'slidingName' or 'rbeName' arguments are empty.
 
-### UpdateSlidingBearingInEF\(HiddenDocumentMeshBase, Obj, string\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_UpdateSlidingBearingInEF_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_API_Pre_Obj_System_String_"></a> UpdateSlidingBearingInEF\(HiddenDocumentMeshBase, Obj, string\)
 
 Update sliding bearing in EF shaftset/housing designer.
 
@@ -1073,7 +1073,7 @@ The rbe name.
 
 Will be thrown if 'document' or 'slidingName' or 'rbeName' arguments are empty.
 
-### UpdateSlidingBearingInFE\(HiddenDocumentMeshBase, string, string\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_UpdateSlidingBearingInFE_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_System_String_System_String_"></a> UpdateSlidingBearingInFE\(HiddenDocumentMeshBase, string, string\)
 
 Update sliding bearing in FE shaftset/housing designer.
 
@@ -1103,7 +1103,7 @@ The rbe name.
 
 Will be thrown if 'document' or 'slidingName' or 'rbeName' arguments are empty.
 
-### UpdateSlidingBearingInFE\(HiddenDocumentMeshBase, Obj, string\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_UpdateSlidingBearingInFE_VM_Managed_DAFUL_GearTrain_HiddenDocumentMeshBase_VM_API_Pre_Obj_System_String_"></a> UpdateSlidingBearingInFE\(HiddenDocumentMeshBase, Obj, string\)
 
 Update sliding bearing in FE shaftset/housing designer.
 
@@ -1133,7 +1133,7 @@ The rbe name.
 
 Will be thrown if 'document' or 'slidingName' or 'rbeName' arguments are empty.
 
-### UpdateSlidingBearingInShaftSet\(HiddenShaftSetDocument, string, ExpressionValueVariable, AttachLocationType, ExpressionValueVariable\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_UpdateSlidingBearingInShaftSet_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_VM_Models_Pre_ExpressionValueVariable_VM_API_Pre_GearTrain_AttachLocationType_VM_Models_Pre_ExpressionValueVariable_"></a> UpdateSlidingBearingInShaftSet\(HiddenShaftSetDocument, string, ExpressionValueVariable, AttachLocationType, ExpressionValueVariable\)
 
 Update sliding bearing in simple shaftset designer.
 
@@ -1175,7 +1175,7 @@ Will be thrown if 'document' or 'slidingName' or 'clearanceInfo' arguments are e
 
 Will be thrown if the magnitude of 'zAxis' is 0.
 
-### UpdateSlidingBearingInShaftSet\(HiddenShaftSetDocument, Obj, ExpressionValueVariable, AttachLocationType, ExpressionValueVariable\)
+### <a id="VM_API_Pre_GearTrain_BearingAPI_UpdateSlidingBearingInShaftSet_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_VM_API_Pre_Obj_VM_Models_Pre_ExpressionValueVariable_VM_API_Pre_GearTrain_AttachLocationType_VM_Models_Pre_ExpressionValueVariable_"></a> UpdateSlidingBearingInShaftSet\(HiddenShaftSetDocument, Obj, ExpressionValueVariable, AttachLocationType, ExpressionValueVariable\)
 
 Update sliding bearing in simple shaftset designer.
 
@@ -1216,5 +1216,4 @@ Will be thrown if 'document' or 'slidingName' or 'clearanceInfo' arguments are e
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if the magnitude of 'zAxis' is 0.
-
 

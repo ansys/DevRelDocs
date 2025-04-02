@@ -1,4 +1,4 @@
-# Class AttributeCADBodyNameProperty
+#  Class AttributeCADBodyNameProperty
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -75,7 +75,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeCADBodyNameProperty\(string\)
+### <a id="VM_Managed_AttributeCADBodyNameProperty__ctor_System_String_"></a> AttributeCADBodyNameProperty\(string\)
 
 ```csharp
 public AttributeCADBodyNameProperty(string strName)
@@ -85,7 +85,7 @@ public AttributeCADBodyNameProperty(string strName)
 
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AttributeCADBodyNameProperty\(\)
+### <a id="VM_Managed_AttributeCADBodyNameProperty__ctor"></a> AttributeCADBodyNameProperty\(\)
 
 ```csharp
 public AttributeCADBodyNameProperty()
@@ -93,7 +93,7 @@ public AttributeCADBodyNameProperty()
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_AttributeCADBodyNameProperty_Name"></a> Name
 
 ```csharp
 public virtual string Name { get; set; }
@@ -102,5 +102,4 @@ public virtual string Name { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

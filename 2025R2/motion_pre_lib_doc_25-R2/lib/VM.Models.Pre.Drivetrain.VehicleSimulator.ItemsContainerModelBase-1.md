@@ -1,4 +1,4 @@
-# Class ItemsContainerModelBase<TObject\>
+#  Class ItemsContainerModelBase<TObject\>
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -58,7 +58,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ItemsContainerModelBase\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1__ctor"></a> ItemsContainerModelBase\(\)
 
 ```csharp
 [JsonConstructor]
@@ -67,7 +67,7 @@ public ItemsContainerModelBase()
 
 ## Fields
 
-### cleanUpTarget
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_cleanUpTarget"></a> cleanUpTarget
 
 ```csharp
 protected readonly CompositeDisposable cleanUpTarget
@@ -79,7 +79,7 @@ protected readonly CompositeDisposable cleanUpTarget
 
 ## Properties
 
-### All
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_All"></a> All
 
 ```csharp
 [JsonIgnore]
@@ -90,7 +90,7 @@ public IConnectableObservable<IChangeSet<TObject, Guid>> All { get; }
 
  IConnectableObservable<IChangeSet<TObject, [Guid](https://learn.microsoft.com/dotnet/api/system.guid)\>\>
 
-### Items
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_Items"></a> Items
 
 ```csharp
 [JsonIgnore]
@@ -101,7 +101,7 @@ protected IObservableCollection<TObject> Items { get; }
 
  IObservableCollection<TObject\>
 
-### ItemsCount
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_ItemsCount"></a> ItemsCount
 
 ```csharp
 [JsonIgnore]
@@ -112,7 +112,7 @@ public int ItemsCount { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### ObservableItems
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_ObservableItems"></a> ObservableItems
 
 ```csharp
 [JsonIgnore]
@@ -123,7 +123,7 @@ public IObservable<IChangeSet<TObject, Guid>> ObservableItems { get; }
 
  [IObservable](https://learn.microsoft.com/dotnet/api/system.iobservable\-1)<IChangeSet<TObject, [Guid](https://learn.microsoft.com/dotnet/api/system.guid)\>\>
 
-### this\[int\]
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_Item_System_Int32_"></a> this\[int\]
 
 ```csharp
 public TObject this[int index] { get; }
@@ -135,7 +135,7 @@ public TObject this[int index] { get; }
 
 ## Methods
 
-### AddItem\(TObject\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_AddItem__0_"></a> AddItem\(TObject\)
 
 ```csharp
 public virtual void AddItem(TObject item)
@@ -145,7 +145,7 @@ public virtual void AddItem(TObject item)
 
 `item` TObject
 
-### Contains\(Guid\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_Contains_System_Guid_"></a> Contains\(Guid\)
 
 ```csharp
 public bool Contains(Guid key)
@@ -159,7 +159,7 @@ public bool Contains(Guid key)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Contains\(TObject\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_Contains__0_"></a> Contains\(TObject\)
 
 ```csharp
 public bool Contains(TObject item)
@@ -173,13 +173,13 @@ public bool Contains(TObject item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### DisposeManagedResources\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_DisposeManagedResources"></a> DisposeManagedResources\(\)
 
 ```csharp
 protected override void DisposeManagedResources()
 ```
 
-### RemoveItem\(Guid\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_RemoveItem_System_Guid_"></a> RemoveItem\(Guid\)
 
 ```csharp
 public void RemoveItem(Guid key)
@@ -189,7 +189,7 @@ public void RemoveItem(Guid key)
 
 `key` [Guid](https://learn.microsoft.com/dotnet/api/system.guid)
 
-### TryGetItem\(Guid, out TObject\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_ItemsContainerModelBase_1_TryGetItem_System_Guid__0__"></a> TryGetItem\(Guid, out TObject\)
 
 ```csharp
 public bool TryGetItem(Guid key, out TObject item)
@@ -204,5 +204,4 @@ public bool TryGetItem(Guid key, out TObject item)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

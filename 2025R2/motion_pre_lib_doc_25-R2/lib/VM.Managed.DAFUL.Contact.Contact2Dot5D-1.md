@@ -1,4 +1,4 @@
-# Class Contact2Dot5D<TProperty\>
+#  Class Contact2Dot5D<TProperty\>
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -230,7 +230,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Contact2Dot5D\(\)
+### <a id="VM_Managed_DAFUL_Contact_Contact2Dot5D_1__ctor"></a> Contact2Dot5D\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.Contact2Dot5D%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -238,7 +238,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.Contact2D
 protected Contact2Dot5D()
 ```
 
-### Contact2Dot5D\(string\)
+### <a id="VM_Managed_DAFUL_Contact_Contact2Dot5D_1__ctor_System_String_"></a> Contact2Dot5D\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.Contact2Dot5D%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -254,7 +254,7 @@ Name of the 2.5D contact.
 
 ## Properties
 
-### BaseGeom
+### <a id="VM_Managed_DAFUL_Contact_Contact2Dot5D_1_BaseGeom"></a> BaseGeom
 
 Gets or sets the base geom.
 
@@ -266,7 +266,7 @@ public ContactGeomCurveset BaseGeom { get; set; }
 
  [ContactGeomCurveset](VM.Managed.DAFUL.Contact.ContactGeomCurveset.md)
 
-### \_ActionGeom
+### <a id="VM_Managed_DAFUL_Contact_Contact2Dot5D_1__ActionGeom"></a> \_ActionGeom
 
 Gets or sets the action geom.
 
@@ -280,7 +280,7 @@ protected virtual IContactGeometry2Dot5D _ActionGeom { get; set; }
 
 ## Methods
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_Contact_Contact2Dot5D_1_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -300,7 +300,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetChildList\(\)
+### <a id="VM_Managed_DAFUL_Contact_Contact2Dot5D_1_GetChildList"></a> GetChildList\(\)
 
 Get child list
 
@@ -314,7 +314,7 @@ public virtual IEnumerable<ObjectBase> GetChildList()
 
 Child list
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Contact_Contact2Dot5D_1_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -341,5 +341,4 @@ if set to <code>true</code> [has child].
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

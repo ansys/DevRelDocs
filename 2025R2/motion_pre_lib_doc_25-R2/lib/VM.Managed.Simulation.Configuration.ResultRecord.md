@@ -1,4 +1,4 @@
-# Struct Configuration.ResultRecord
+#  Struct Configuration.ResultRecord
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -11,7 +11,7 @@ public struct Configuration.ResultRecord
 
 ## Properties
 
-### Constraints
+### <a id="VM_Managed_Simulation_Configuration_ResultRecord_Constraints"></a> Constraints
 
 Gets or sets the constraints flag
 
@@ -23,7 +23,7 @@ public bool Constraints { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Contacts
+### <a id="VM_Managed_Simulation_Configuration_ResultRecord_Contacts"></a> Contacts
 
 Gets or sets the contacts flag
 
@@ -35,7 +35,7 @@ public bool Contacts { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### EHDBearing
+### <a id="VM_Managed_Simulation_Configuration_ResultRecord_EHDBearing"></a> EHDBearing
 
 Gets or sets the EHD Bearing flag
 
@@ -47,7 +47,7 @@ public bool EHDBearing { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ExternalLoad
+### <a id="VM_Managed_Simulation_Configuration_ResultRecord_ExternalLoad"></a> ExternalLoad
 
 ```csharp
 public bool ExternalLoad { get; set; }
@@ -57,7 +57,7 @@ public bool ExternalLoad { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Forces
+### <a id="VM_Managed_Simulation_Configuration_ResultRecord_Forces"></a> Forces
 
 Gets or sets the forces flag
 
@@ -69,7 +69,7 @@ public bool Forces { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MotorEMForce
+### <a id="VM_Managed_Simulation_Configuration_ResultRecord_MotorEMForce"></a> MotorEMForce
 
 Gets or sets the Motor EM Force flag
 
@@ -81,7 +81,7 @@ public bool MotorEMForce { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SubEntities
+### <a id="VM_Managed_Simulation_Configuration_ResultRecord_SubEntities"></a> SubEntities
 
 Gets or sets the subentities flag
 
@@ -93,7 +93,7 @@ public bool SubEntities { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### WriteToOutFile
+### <a id="VM_Managed_Simulation_Configuration_ResultRecord_WriteToOutFile"></a> WriteToOutFile
 
 Gets or sets the [write to out file] flag
 
@@ -107,7 +107,7 @@ public bool WriteToOutFile { get; set; }
 
 ## Methods
 
-### Equals\(object\)
+### <a id="VM_Managed_Simulation_Configuration_ResultRecord_Equals_System_Object_"></a> Equals\(object\)
 
 <p>Check equality of two objects</p>
 
@@ -127,7 +127,7 @@ public override bool Equals(object obj)
 
 <p>true if two objects are equal. Otherwise false.</p>
 
-### Equals\(ResultRecord\)
+### <a id="VM_Managed_Simulation_Configuration_ResultRecord_Equals_VM_Managed_Simulation_Configuration_ResultRecord_"></a> Equals\(ResultRecord\)
 
 <p>Check equality of two objects</p>
 
@@ -147,7 +147,7 @@ public bool Equals(Configuration.ResultRecord other)
 
 <p>true if two objects are equal. Otherwise false.</p>
 
-### GetHashCode\(\)
+### <a id="VM_Managed_Simulation_Configuration_ResultRecord_GetHashCode"></a> GetHashCode\(\)
 
 <p>Get hash code of ResultRecord</p>
 
@@ -161,7 +161,7 @@ public override int GetHashCode()
 
 <p>The hash code</p>
 
-### Initialize\(\)
+### <a id="VM_Managed_Simulation_Configuration_ResultRecord_Initialize"></a> Initialize\(\)
 
 Initialize
 
@@ -171,7 +171,7 @@ public void Initialize()
 
 ## Operators
 
-### operator ==\(ResultRecord, ResultRecord\)
+### <a id="VM_Managed_Simulation_Configuration_ResultRecord_op_Equality_VM_Managed_Simulation_Configuration_ResultRecord_VM_Managed_Simulation_Configuration_ResultRecord_"></a> operator ==\(ResultRecord, ResultRecord\)
 
 <p>Compare two ResultRecord and return equality</p>
 
@@ -195,7 +195,7 @@ public static bool operator ==(Configuration.ResultRecord left, Configuration.Re
 
 <p>true if two arguments are same. Otherwise false.</p>
 
-### operator \!=\(ResultRecord, ResultRecord\)
+### <a id="VM_Managed_Simulation_Configuration_ResultRecord_op_Inequality_VM_Managed_Simulation_Configuration_ResultRecord_VM_Managed_Simulation_Configuration_ResultRecord_"></a> operator \!=\(ResultRecord, ResultRecord\)
 
 <p>Compare two ResultRecord and return equality</p>
 
@@ -218,5 +218,4 @@ public static bool operator !=(Configuration.ResultRecord left, Configuration.Re
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <p>true if two arguments are not same. Otherwise false.</p>
-
 

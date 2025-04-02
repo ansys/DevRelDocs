@@ -1,4 +1,4 @@
-# Class BuilderBeamGroupMultiplePointsBase<T\>
+#  Class BuilderBeamGroupMultiplePointsBase<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder.Beam](VM.Managed.DAFUL.Builder.Beam.md)  
 Assembly: VMBldBeamGroup.dll  
@@ -57,7 +57,7 @@ BuilderBase<T\>.ErrorMessage
 
 ## Constructors
 
-### BuilderBeamGroupMultiplePointsBase\(\)
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1__ctor"></a> BuilderBeamGroupMultiplePointsBase\(\)
 
 ```csharp
 public BuilderBeamGroupMultiplePointsBase()
@@ -65,7 +65,7 @@ public BuilderBeamGroupMultiplePointsBase()
 
 ## Properties
 
-### AddToDoc
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1_AddToDoc"></a> AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -75,7 +75,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### BeamCrossSection
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1_BeamCrossSection"></a> BeamCrossSection
 
 ```csharp
 public BeamSectionInfo[] BeamCrossSection { get; set; }
@@ -85,7 +85,7 @@ public BeamSectionInfo[] BeamCrossSection { get; set; }
 
  [BeamSectionInfo](VM.Managed.DAFUL.Builder.Beam.BeamSectionInfo.md)\[\]
 
-### BeamGroupInfo
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1_BeamGroupInfo"></a> BeamGroupInfo
 
 ```csharp
 public BeamInfo[] BeamGroupInfo { get; set; }
@@ -95,7 +95,7 @@ public BeamInfo[] BeamGroupInfo { get; set; }
 
  [BeamInfo](VM.Managed.DAFUL.Builder.Beam.BeamInfo.md)\[\]
 
-### Color
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1_Color"></a> Color
 
 ```csharp
 public string Color { get; set; }
@@ -105,7 +105,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### MaterialProperty
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1_MaterialProperty"></a> MaterialProperty
 
 ```csharp
 public string MaterialProperty { get; set; }
@@ -115,7 +115,7 @@ public string MaterialProperty { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NoOfElements
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1_NoOfElements"></a> NoOfElements
 
 ```csharp
 public int NoOfElements { get; set; }
@@ -125,7 +125,7 @@ public int NoOfElements { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### ResultBeamGroup
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1_ResultBeamGroup"></a> ResultBeamGroup
 
 ```csharp
 public BeamGroup ResultBeamGroup { get; set; }
@@ -135,7 +135,7 @@ public BeamGroup ResultBeamGroup { get; set; }
 
  BeamGroup
 
-### ResultSolidBodies
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1_ResultSolidBodies"></a> ResultSolidBodies
 
 ```csharp
 public List<SolidBody> ResultSolidBodies { get; set; }
@@ -145,7 +145,7 @@ public List<SolidBody> ResultSolidBodies { get; set; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<SolidBody\>
 
-### UseCustomize
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1_UseCustomize"></a> UseCustomize
 
 ```csharp
 public bool UseCustomize { get; set; }
@@ -155,7 +155,7 @@ public bool UseCustomize { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_bldrBeamInfoAry
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1_m_bldrBeamInfoAry"></a> m\_bldrBeamInfoAry
 
 ```csharp
 protected BuilderBeamGroupInfo[] m_bldrBeamInfoAry { get; set; }
@@ -167,7 +167,7 @@ protected BuilderBeamGroupInfo[] m_bldrBeamInfoAry { get; set; }
 
 ## Methods
 
-### GetBeamGroupBodyName\(Document, string, int\)
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1_GetBeamGroupBodyName_VM_Managed_Document_System_String_System_Int32_"></a> GetBeamGroupBodyName\(Document, string, int\)
 
 ```csharp
 protected virtual string GetBeamGroupBodyName(Document document, string beamGroupName, int index)
@@ -185,7 +185,7 @@ protected virtual string GetBeamGroupBodyName(Document document, string beamGrou
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -201,7 +201,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetInputResultData\(\)
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1_SetInputResultData"></a> SetInputResultData\(\)
 
 ```csharp
 protected virtual bool SetInputResultData()
@@ -211,7 +211,7 @@ protected virtual bool SetInputResultData()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePointsBase_1_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -224,5 +224,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

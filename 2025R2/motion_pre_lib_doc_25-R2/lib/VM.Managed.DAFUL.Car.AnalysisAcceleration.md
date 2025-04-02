@@ -1,4 +1,4 @@
-# Class AnalysisAcceleration
+#  Class AnalysisAcceleration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -48,7 +48,7 @@ IHasInitialVel
 
 ## Constructors
 
-### AnalysisAcceleration\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisAcceleration__ctor"></a> AnalysisAcceleration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisAcceleration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -56,7 +56,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisAccel
 public AnalysisAcceleration()
 ```
 
-### AnalysisAcceleration\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisAcceleration__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisAcceleration\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisAcceleration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -72,7 +72,7 @@ The link container.
 
 ## Properties
 
-### AccelerationValue
+### <a id="VM_Managed_DAFUL_Car_AnalysisAcceleration_AccelerationValue"></a> AccelerationValue
 
 Gets or sets the acceleration.
 
@@ -84,7 +84,7 @@ public double AccelerationValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### FinalThrottleValue
+### <a id="VM_Managed_DAFUL_Car_AnalysisAcceleration_FinalThrottleValue"></a> FinalThrottleValue
 
 Gets or sets the final throttle.
 
@@ -96,7 +96,7 @@ public double FinalThrottleValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsShiftGears
+### <a id="VM_Managed_DAFUL_Car_AnalysisAcceleration_IsShiftGears"></a> IsShiftGears
 
 Gets or sets a value indicating whether [shift gears].
 
@@ -108,7 +108,7 @@ public bool IsShiftGears { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SteeringInputType
+### <a id="VM_Managed_DAFUL_Car_AnalysisAcceleration_SteeringInputType"></a> SteeringInputType
 
 Gets or sets the steering input.
 
@@ -120,7 +120,7 @@ public StraightLineSteeringInputType SteeringInputType { get; set; }
 
  [StraightLineSteeringInputType](VM.Managed.DAFUL.Car.Analysis.Full.StraightLineSteeringInputType.md)
 
-### StepDuration
+### <a id="VM_Managed_DAFUL_Car_AnalysisAcceleration_StepDuration"></a> StepDuration
 
 Gets or sets the duration of step.
 
@@ -132,7 +132,7 @@ public double StepDuration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### StraightLoopType
+### <a id="VM_Managed_DAFUL_Car_AnalysisAcceleration_StraightLoopType"></a> StraightLoopType
 
 Gets or sets the loop of throttle.
 
@@ -144,7 +144,7 @@ public StraightLoopType StraightLoopType { get; set; }
 
  [StraightLoopType](VM.Managed.DAFUL.Car.Analysis.Full.StraightLoopType.md)
 
-### TireRadiusPosition
+### <a id="VM_Managed_DAFUL_Car_AnalysisAcceleration_TireRadiusPosition"></a> TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -158,7 +158,7 @@ public override int TireRadiusPosition { get; }
 
 ## Methods
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisAcceleration_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -171,5 +171,4 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
-
 

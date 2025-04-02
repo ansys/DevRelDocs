@@ -1,4 +1,4 @@
-# Enum Shell.PlaneType
+#  Enum Shell.PlaneType
 
 Namespace: [VM.Managed.DAFUL.FE.Property](VM.Managed.DAFUL.FE.Property.md)  
 Assembly: VMFE.dll  
@@ -20,7 +20,6 @@ strain.
 `Stress = 0` 
 
 stress.
-
 
 
 

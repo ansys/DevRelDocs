@@ -1,4 +1,4 @@
-# Class HiddenCreateInfo
+#  Class HiddenCreateInfo
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -42,7 +42,7 @@ DocCreateInfo.DocumentName
 
 ## Constructors
 
-### HiddenCreateInfo\(\)
+### <a id="VM_Managed_DAFUL_HiddenCreateInfo__ctor"></a> HiddenCreateInfo\(\)
 
 ```csharp
 public HiddenCreateInfo()
@@ -50,7 +50,7 @@ public HiddenCreateInfo()
 
 ## Fields
 
-### Assembly
+### <a id="VM_Managed_DAFUL_HiddenCreateInfo_Assembly"></a> Assembly
 
 The assembly
 
@@ -62,7 +62,7 @@ public string Assembly
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsRotation
+### <a id="VM_Managed_DAFUL_HiddenCreateInfo_IsRotation"></a> IsRotation
 
 The is rotation
 
@@ -74,7 +74,7 @@ public bool IsRotation
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UserControls
+### <a id="VM_Managed_DAFUL_HiddenCreateInfo_UserControls"></a> UserControls
 
 The usercontrols
 
@@ -86,7 +86,7 @@ public List<HiddenCreateInfo.UserControlInfo> UserControls
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[HiddenCreateInfo](VM.Managed.DAFUL.HiddenCreateInfo.md).[UserControlInfo](VM.Managed.DAFUL.HiddenCreateInfo.UserControlInfo.md)\>
 
-### ViewPlane
+### <a id="VM_Managed_DAFUL_HiddenCreateInfo_ViewPlane"></a> ViewPlane
 
 The view plane
 
@@ -97,5 +97,4 @@ public string ViewPlane
 #### Field Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

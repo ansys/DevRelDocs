@@ -1,4 +1,4 @@
-# Enum AnalysisParameterStatic.SolvingType
+#  Enum AnalysisParameterStatic.SolvingType
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -20,7 +20,6 @@ NonSimultaneous
 `Simultaneous = 1` 
 
 Simultaneous
-
 
 
 

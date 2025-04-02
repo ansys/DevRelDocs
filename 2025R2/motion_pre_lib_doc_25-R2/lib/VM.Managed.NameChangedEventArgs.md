@@ -1,4 +1,4 @@
-# Class NameChangedEventArgs
+#  Class NameChangedEventArgs
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -37,7 +37,7 @@ public sealed class NameChangedEventArgs : LinkEventArgs
 
 ## Constructors
 
-### NameChangedEventArgs\(string, LinkEventArgs, object\)
+### <a id="VM_Managed_NameChangedEventArgs__ctor_System_String_VM_Managed_LinkEventArgs_System_Object_"></a> NameChangedEventArgs\(string, LinkEventArgs, object\)
 
 Initializes a new instance of the <xref href="VM.Managed.NameChangedEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -59,7 +59,7 @@ The inner event.
 
 The previous linked object.
 
-### NameChangedEventArgs\(string\)
+### <a id="VM_Managed_NameChangedEventArgs__ctor_System_String_"></a> NameChangedEventArgs\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.NameChangedEventArgs" data-throw-if-not-resolved="false"></xref> class.
 
@@ -75,7 +75,7 @@ The previous name information.
 
 ## Properties
 
-### OldName
+### <a id="VM_Managed_NameChangedEventArgs_OldName"></a> OldName
 
 Gets the previous name information.
 
@@ -86,5 +86,4 @@ public string OldName { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

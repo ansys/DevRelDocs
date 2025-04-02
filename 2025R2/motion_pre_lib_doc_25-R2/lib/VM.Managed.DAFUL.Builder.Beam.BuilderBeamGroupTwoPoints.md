@@ -1,4 +1,4 @@
-# Class BuilderBeamGroupTwoPoints
+#  Class BuilderBeamGroupTwoPoints
 
 Namespace: [VM.Managed.DAFUL.Builder.Beam](VM.Managed.DAFUL.Builder.Beam.md)  
 Assembly: VMBldBeamGroup.dll  
@@ -69,7 +69,7 @@ BuilderBase<BeamGroup\>.ErrorMessage
 
 ## Constructors
 
-### BuilderBeamGroupTwoPoints\(\)
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupTwoPoints__ctor"></a> BuilderBeamGroupTwoPoints\(\)
 
 ```csharp
 public BuilderBeamGroupTwoPoints()
@@ -77,7 +77,7 @@ public BuilderBeamGroupTwoPoints()
 
 ## Properties
 
-### AddToDoc
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupTwoPoints_AddToDoc"></a> AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -87,7 +87,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### EndPosition
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupTwoPoints_EndPosition"></a> EndPosition
 
 ```csharp
 public PointBase EndPosition { get; }
@@ -97,7 +97,7 @@ public PointBase EndPosition { get; }
 
  PointBase
 
-### StartPosition
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupTwoPoints_StartPosition"></a> StartPosition
 
 ```csharp
 public PointBase StartPosition { get; }
@@ -107,7 +107,7 @@ public PointBase StartPosition { get; }
 
  PointBase
 
-### YDirection
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupTwoPoints_YDirection"></a> YDirection
 
 ```csharp
 public DirectionBase YDirection { get; }
@@ -116,5 +116,4 @@ public DirectionBase YDirection { get; }
 #### Property Value
 
  DirectionBase
-
 

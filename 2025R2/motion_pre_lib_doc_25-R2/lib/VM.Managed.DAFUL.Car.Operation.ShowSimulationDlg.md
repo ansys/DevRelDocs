@@ -1,4 +1,4 @@
-# Class ShowSimulationDlg
+#  Class ShowSimulationDlg
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -110,7 +110,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ShowSimulationDlg\(Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowSimulationDlg__ctor_VM_Managed_Document_"></a> ShowSimulationDlg\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.ShowSimulationDlg" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ public ShowSimulationDlg(Document doc)
 
 The doc.
 
-### ShowSimulationDlg\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowSimulationDlg__ctor_VM_Managed_Operation_JournalParameter_"></a> ShowSimulationDlg\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.ShowSimulationDlg" data-throw-if-not-resolved="false"></xref> class.
 
@@ -140,7 +140,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowSimulationDlg_Name"></a> Name
 
 Gets the name.
 
@@ -152,7 +152,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UseCoSim
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowSimulationDlg_UseCoSim"></a> UseCoSim
 
 Gets a value indicating whether [use co sim].
 
@@ -166,7 +166,7 @@ protected virtual bool UseCoSim { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowSimulationDlg_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -174,7 +174,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### ExecuteImpl\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowSimulationDlg_ExecuteImpl"></a> ExecuteImpl\(\)
 
 Executes [implementation].
 
@@ -182,7 +182,7 @@ Executes [implementation].
 protected override void ExecuteImpl()
 ```
 
-### SimulationRunImpl\(bool\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ShowSimulationDlg_SimulationRunImpl_System_Boolean_"></a> SimulationRunImpl\(bool\)
 
 Simulations the run [implementation].
 
@@ -195,5 +195,4 @@ protected override void SimulationRunImpl(bool bWriteDFG)
 `bWriteDFG` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 if set to <code>true</code> [b write DFG].
-
 

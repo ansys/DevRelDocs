@@ -1,4 +1,4 @@
-# Namespace VM.Models.FE.Utilities
+#  Namespace VM.Models.FE.Utilities
 
 ### Classes
 
@@ -59,5 +59,4 @@
  [DFMFReader.ModeMeta](VM.Models.FE.Utilities.DFMFReader.ModeMeta.md)
 
  [RBEType](VM.Models.FE.Utilities.RBEType.md)
-
 

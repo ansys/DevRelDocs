@@ -1,4 +1,4 @@
-# Class AnalysisTransientBatch
+#  Class AnalysisTransientBatch
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -43,7 +43,7 @@ IHasInitialVel
 
 ## Constructors
 
-### AnalysisTransientBatch\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch__ctor"></a> AnalysisTransientBatch\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisTransientBatch" data-throw-if-not-resolved="false"></xref> class.
 
@@ -51,7 +51,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisTrans
 public AnalysisTransientBatch()
 ```
 
-### AnalysisTransientBatch\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisTransientBatch\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisTransientBatch" data-throw-if-not-resolved="false"></xref> class.
 
@@ -67,7 +67,7 @@ The link container.
 
 ## Properties
 
-### AngleUnitType
+### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch_AngleUnitType"></a> AngleUnitType
 
 Gets or sets the angle unit.
 
@@ -79,7 +79,7 @@ public AngleUnitType AngleUnitType { get; set; }
 
  [AngleUnitType](VM.Managed.DAFUL.Car.Analysis.AngleUnitType.md)
 
-### InitialVelocity
+### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch_InitialVelocity"></a> InitialVelocity
 
 Gets the initial velocity.
 
@@ -91,7 +91,7 @@ protected override double InitialVelocity { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsLateral
+### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch_IsLateral"></a> IsLateral
 
 Gets or sets a value indicating whether [use lateral].
 
@@ -103,7 +103,7 @@ public bool IsLateral { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsLongitudinal
+### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch_IsLongitudinal"></a> IsLongitudinal
 
 Gets or sets a value indicating whether [use longitudinal].
 
@@ -115,7 +115,7 @@ public bool IsLongitudinal { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LateralInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch_LateralInfo"></a> LateralInfo
 
 Gets or sets the lateral.
 
@@ -127,7 +127,7 @@ public AnalysisInfo LateralInfo { get; set; }
 
  [AnalysisInfo](VM.Managed.DAFUL.Car.AnalysisInfo.md)
 
-### LongitudinalInfo
+### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch_LongitudinalInfo"></a> LongitudinalInfo
 
 Gets or sets the longitudinal.
 
@@ -139,7 +139,7 @@ public AnalysisInfo LongitudinalInfo { get; set; }
 
  [AnalysisInfo](VM.Managed.DAFUL.Car.AnalysisInfo.md)
 
-### TypeOfSimulation
+### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch_TypeOfSimulation"></a> TypeOfSimulation
 
 Gets the type of simulation.
 
@@ -151,7 +151,7 @@ public override TireAnalysisBase.SimulationType TypeOfSimulation { get; }
 
  [TireAnalysisBase](VM.Managed.DAFUL.Car.TireAnalysisBase.md).[SimulationType](VM.Managed.DAFUL.Car.TireAnalysisBase.SimulationType.md)
 
-### VelocityUnitType
+### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch_VelocityUnitType"></a> VelocityUnitType
 
 Gets or sets the velocity unit.
 
@@ -165,7 +165,7 @@ public VelocityUnitType VelocityUnitType { get; set; }
 
 ## Methods
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -179,7 +179,7 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 
 The parameter array.
 
-### GetTestRigMotionUSUBArgument\(BatchType, string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisTransientBatch_GetTestRigMotionUSUBArgument_VM_Managed_DAFUL_Car_AnalysisTransientBatch_BatchType_System_String___"></a> GetTestRigMotionUSUBArgument\(BatchType, string\[\]\)
 
 Gets the test rig motion USUB argument.
 
@@ -196,5 +196,4 @@ The type.
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The ar parameter.
-
 

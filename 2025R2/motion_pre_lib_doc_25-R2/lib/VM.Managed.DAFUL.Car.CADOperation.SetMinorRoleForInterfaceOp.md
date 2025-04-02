@@ -1,4 +1,4 @@
-# Class CADOperation.SetMinorRoleForInterfaceOp
+#  Class CADOperation.SetMinorRoleForInterfaceOp
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### SetMinorRoleForInterfaceOp\(\)
+### <a id="VM_Managed_DAFUL_Car_CADOperation_SetMinorRoleForInterfaceOp__ctor"></a> SetMinorRoleForInterfaceOp\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CADOperation.SetMinorRoleForInterfaceOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CADOperation.
 public SetMinorRoleForInterfaceOp()
 ```
 
-### SetMinorRoleForInterfaceOp\(Dictionary<string, MinorRole\>\)
+### <a id="VM_Managed_DAFUL_Car_CADOperation_SetMinorRoleForInterfaceOp__ctor_System_Collections_Generic_Dictionary_System_String_VM_Managed_DAFUL_Car_MinorRole__"></a> SetMinorRoleForInterfaceOp\(Dictionary<string, MinorRole\>\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.CADOperation.SetMinorRoleForInterfaceOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -101,7 +101,7 @@ The objectbase and minor role.
 
 ## Properties
 
-### IsHistoryMerge
+### <a id="VM_Managed_DAFUL_Car_CADOperation_SetMinorRoleForInterfaceOp_IsHistoryMerge"></a> IsHistoryMerge
 
 Gets the history merge flag.
 
@@ -113,7 +113,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_CADOperation_SetMinorRoleForInterfaceOp_Name"></a> Name
 
 Gets the Name.
 
@@ -127,12 +127,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_CADOperation_SetMinorRoleForInterfaceOp_Execute"></a> Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
-
 

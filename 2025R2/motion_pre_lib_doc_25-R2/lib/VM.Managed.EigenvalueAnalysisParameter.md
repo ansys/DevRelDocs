@@ -1,4 +1,4 @@
-# Class EigenvalueAnalysisParameter
+#  Class EigenvalueAnalysisParameter
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -22,7 +22,7 @@ public class EigenvalueAnalysisParameter
 
 ## Constructors
 
-### EigenvalueAnalysisParameter\(\)
+### <a id="VM_Managed_EigenvalueAnalysisParameter__ctor"></a> EigenvalueAnalysisParameter\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.EigenvalueAnalysisParameter" data-throw-if-not-resolved="false"></xref> class.
 
@@ -30,7 +30,7 @@ Initializes a new instance of the <xref href="VM.Managed.EigenvalueAnalysisParam
 public EigenvalueAnalysisParameter()
 ```
 
-### EigenvalueAnalysisParameter\(uint, bool, double, double, double, double\)
+### <a id="VM_Managed_EigenvalueAnalysisParameter__ctor_System_UInt32_System_Boolean_System_Double_System_Double_System_Double_System_Double_"></a> EigenvalueAnalysisParameter\(uint, bool, double, double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.EigenvalueAnalysisParameter" data-throw-if-not-resolved="false"></xref> class.
 
@@ -66,7 +66,7 @@ The penalty value.
 
 ## Properties
 
-### IsUseAutoPenalty
+### <a id="VM_Managed_EigenvalueAnalysisParameter_IsUseAutoPenalty"></a> IsUseAutoPenalty
 
 Gets or sets a value indicating whether [auto penalty].
 
@@ -78,7 +78,7 @@ public bool IsUseAutoPenalty { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsUseAutoShift
+### <a id="VM_Managed_EigenvalueAnalysisParameter_IsUseAutoShift"></a> IsUseAutoShift
 
 Gets or sets a value indicating whether [auto shift].
 
@@ -90,7 +90,7 @@ public bool IsUseAutoShift { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsUseBound
+### <a id="VM_Managed_EigenvalueAnalysisParameter_IsUseBound"></a> IsUseBound
 
 Gets or sets a value indicating whether [use bound].
 
@@ -102,7 +102,7 @@ public bool IsUseBound { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsUseFullMethod
+### <a id="VM_Managed_EigenvalueAnalysisParameter_IsUseFullMethod"></a> IsUseFullMethod
 
 Gets or sets a value indicating whether [use full method].
 
@@ -114,7 +114,7 @@ public bool IsUseFullMethod { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsUseLocalRefinement
+### <a id="VM_Managed_EigenvalueAnalysisParameter_IsUseLocalRefinement"></a> IsUseLocalRefinement
 
 Gets or sets a value indicating whether [use local refinement].
 
@@ -126,7 +126,7 @@ public bool IsUseLocalRefinement { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsUseNumberOfDomain
+### <a id="VM_Managed_EigenvalueAnalysisParameter_IsUseNumberOfDomain"></a> IsUseNumberOfDomain
 
 Gets or sets a value indicating whether [use number of domain].
 
@@ -138,7 +138,7 @@ public bool IsUseNumberOfDomain { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LowerBoundGlobal
+### <a id="VM_Managed_EigenvalueAnalysisParameter_LowerBoundGlobal"></a> LowerBoundGlobal
 
 Gets or sets the lower bound global.
 
@@ -150,7 +150,7 @@ public static double LowerBoundGlobal { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### LowerBoundValue
+### <a id="VM_Managed_EigenvalueAnalysisParameter_LowerBoundValue"></a> LowerBoundValue
 
 Gets or sets the lower bound.
 
@@ -162,7 +162,7 @@ public double LowerBoundValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MaxNumberOfMode
+### <a id="VM_Managed_EigenvalueAnalysisParameter_MaxNumberOfMode"></a> MaxNumberOfMode
 
 Gets or sets the maximum number of mode.
 
@@ -174,7 +174,7 @@ public uint MaxNumberOfMode { get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### MaximumNumberOfModeGlobal
+### <a id="VM_Managed_EigenvalueAnalysisParameter_MaximumNumberOfModeGlobal"></a> MaximumNumberOfModeGlobal
 
 Gets or sets the maximum number of mode global.
 
@@ -186,7 +186,7 @@ public static uint MaximumNumberOfModeGlobal { get; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### MinMassRatio
+### <a id="VM_Managed_EigenvalueAnalysisParameter_MinMassRatio"></a> MinMassRatio
 
 Gets or sets the minimum mass ratio.
 
@@ -198,7 +198,7 @@ public double MinMassRatio { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### NumOfCluster
+### <a id="VM_Managed_EigenvalueAnalysisParameter_NumOfCluster"></a> NumOfCluster
 
 Gets or sets the number of cluster.
 
@@ -210,7 +210,7 @@ public int NumOfCluster { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumOfDomain
+### <a id="VM_Managed_EigenvalueAnalysisParameter_NumOfDomain"></a> NumOfDomain
 
 Gets or sets the number of domain.
 
@@ -222,7 +222,7 @@ public int NumOfDomain { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumOfParentDomain
+### <a id="VM_Managed_EigenvalueAnalysisParameter_NumOfParentDomain"></a> NumOfParentDomain
 
 Gets or sets the number of parent domain.
 
@@ -234,7 +234,7 @@ public int NumOfParentDomain { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### OrderValue
+### <a id="VM_Managed_EigenvalueAnalysisParameter_OrderValue"></a> OrderValue
 
 Gets or sets the order.
 
@@ -246,7 +246,7 @@ public int OrderValue { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### OwnerLinkContainer
+### <a id="VM_Managed_EigenvalueAnalysisParameter_OwnerLinkContainer"></a> OwnerLinkContainer
 
 Gets the owner.
 
@@ -258,7 +258,7 @@ public LinkContainer OwnerLinkContainer { set; }
 
  LinkContainer
 
-### ParameterArray
+### <a id="VM_Managed_EigenvalueAnalysisParameter_ParameterArray"></a> ParameterArray
 
 Gets or sets the parameters.
 
@@ -270,7 +270,7 @@ public double[] ParameterArray { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### PenaltyVal
+### <a id="VM_Managed_EigenvalueAnalysisParameter_PenaltyVal"></a> PenaltyVal
 
 Gets or sets the penalty value.
 
@@ -282,7 +282,7 @@ public double PenaltyVal { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### PenaltyValueGlobal
+### <a id="VM_Managed_EigenvalueAnalysisParameter_PenaltyValueGlobal"></a> PenaltyValueGlobal
 
 Gets the penalty value global.
 
@@ -294,7 +294,7 @@ public static double PenaltyValueGlobal { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RatioVal
+### <a id="VM_Managed_EigenvalueAnalysisParameter_RatioVal"></a> RatioVal
 
 Gets or sets the ratio.
 
@@ -306,7 +306,7 @@ public double RatioVal { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ReferenceStressVal
+### <a id="VM_Managed_EigenvalueAnalysisParameter_ReferenceStressVal"></a> ReferenceStressVal
 
 Gets or sets the reference stress.
 
@@ -318,7 +318,7 @@ public double ReferenceStressVal { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RefinedDomainLevel
+### <a id="VM_Managed_EigenvalueAnalysisParameter_RefinedDomainLevel"></a> RefinedDomainLevel
 
 Gets or sets the level of refined domain.
 
@@ -330,7 +330,7 @@ public int RefinedDomainLevel { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### ShiftVal
+### <a id="VM_Managed_EigenvalueAnalysisParameter_ShiftVal"></a> ShiftVal
 
 Gets or sets the shift value.
 
@@ -342,7 +342,7 @@ public double ShiftVal { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ShiftValueGlobal
+### <a id="VM_Managed_EigenvalueAnalysisParameter_ShiftValueGlobal"></a> ShiftValueGlobal
 
 Gets the shift value global.
 
@@ -354,7 +354,7 @@ public static double ShiftValueGlobal { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TypeOfMode
+### <a id="VM_Managed_EigenvalueAnalysisParameter_TypeOfMode"></a> TypeOfMode
 
 Gets or sets the analysis mode.
 
@@ -366,7 +366,7 @@ public EigenvalueAnalysisParameter.ModeType TypeOfMode { get; set; }
 
  [EigenvalueAnalysisParameter](VM.Managed.EigenvalueAnalysisParameter.md).[ModeType](VM.Managed.EigenvalueAnalysisParameter.ModeType.md)
 
-### UpperBoundGlobal
+### <a id="VM_Managed_EigenvalueAnalysisParameter_UpperBoundGlobal"></a> UpperBoundGlobal
 
 Gets or sets the upper bound global.
 
@@ -378,7 +378,7 @@ public static double UpperBoundGlobal { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UpperBoundValue
+### <a id="VM_Managed_EigenvalueAnalysisParameter_UpperBoundValue"></a> UpperBoundValue
 
 Gets or sets the upper bound.
 
@@ -390,7 +390,7 @@ public double UpperBoundValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UseAutoPenaltyGlobal
+### <a id="VM_Managed_EigenvalueAnalysisParameter_UseAutoPenaltyGlobal"></a> UseAutoPenaltyGlobal
 
 Gets or sets a value indicating whether [use auto penalty].
 
@@ -402,7 +402,7 @@ public static bool UseAutoPenaltyGlobal { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseAutoShiftGlobal
+### <a id="VM_Managed_EigenvalueAnalysisParameter_UseAutoShiftGlobal"></a> UseAutoShiftGlobal
 
 Gets or sets a value indicating whether [use auto shift].
 
@@ -414,7 +414,7 @@ public static bool UseAutoShiftGlobal { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseBoundGlobal
+### <a id="VM_Managed_EigenvalueAnalysisParameter_UseBoundGlobal"></a> UseBoundGlobal
 
 Gets or sets a value indicating whether [use bound global].
 
@@ -428,7 +428,7 @@ public static bool UseBoundGlobal { get; }
 
 ## Methods
 
-### Initialize\(uint, bool, double, double, double, bool, double, bool\)
+### <a id="VM_Managed_EigenvalueAnalysisParameter_Initialize_System_UInt32_System_Boolean_System_Double_System_Double_System_Double_System_Boolean_System_Double_System_Boolean_"></a> Initialize\(uint, bool, double, double, double, bool, double, bool\)
 
 Initializes parameter.
 
@@ -470,7 +470,7 @@ The penalty value.
 
 if set to <code>true</code> [auto penalty value].
 
-### OnDeserializationAttribute\(\)
+### <a id="VM_Managed_EigenvalueAnalysisParameter_OnDeserializationAttribute"></a> OnDeserializationAttribute\(\)
 
 Called when [deserialization attribute].
 
@@ -478,7 +478,7 @@ Called when [deserialization attribute].
 public void OnDeserializationAttribute()
 ```
 
-### Replace\(EigenvalueAnalysisParameter\)
+### <a id="VM_Managed_EigenvalueAnalysisParameter_Replace_VM_Managed_EigenvalueAnalysisParameter_"></a> Replace\(EigenvalueAnalysisParameter\)
 
 Replaces the specified parameter.
 
@@ -491,5 +491,4 @@ public void Replace(EigenvalueAnalysisParameter parameter)
 `parameter` [EigenvalueAnalysisParameter](VM.Managed.EigenvalueAnalysisParameter.md)
 
 The parameter.
-
 

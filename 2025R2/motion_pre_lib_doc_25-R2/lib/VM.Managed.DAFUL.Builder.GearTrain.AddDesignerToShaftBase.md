@@ -1,4 +1,4 @@
-# Class AddDesignerToShaftBase
+#  Class AddDesignerToShaftBase
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -52,7 +52,7 @@ IBuilder
 
 ## Constructors
 
-### AddDesignerToShaftBase\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddDesignerToShaftBase__ctor"></a> AddDesignerToShaftBase\(\)
 
 ```csharp
 public AddDesignerToShaftBase()
@@ -60,7 +60,7 @@ public AddDesignerToShaftBase()
 
 ## Fields
 
-### m\_docGT
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddDesignerToShaftBase_m_docGT"></a> m\_docGT
 
 ```csharp
 protected GearTrainDocument m_docGT
@@ -70,7 +70,7 @@ protected GearTrainDocument m_docGT
 
  GearTrainDocument
 
-### m\_docShaftSet
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddDesignerToShaftBase_m_docShaftSet"></a> m\_docShaftSet
 
 ```csharp
 protected HiddenShaftSetDocument m_docShaftSet
@@ -82,7 +82,7 @@ protected HiddenShaftSetDocument m_docShaftSet
 
 ## Methods
 
-### Build\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_AddDesignerToShaftBase_Build_VM_Managed_Document_"></a> Build\(Document\)
 
 ```csharp
 public override void Build(Document docToAdd)
@@ -91,5 +91,4 @@ public override void Build(Document docToAdd)
 #### Parameters
 
 `docToAdd` Document
-
 

@@ -1,4 +1,4 @@
-# Class DesignVariableAPI
+#  Class DesignVariableAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class DesignVariableAPI
 
 ## Methods
 
-### CreateDesignVariable\(IDocument, string, ExpressionValueVariable, SymmetricType\)
+### <a id="VM_API_Pre_DesignVariableAPI_CreateDesignVariable_VM_Models_Pre_IDocument_System_String_VM_Models_Pre_ExpressionValueVariable_VM_Managed_SymmetricType_"></a> CreateDesignVariable\(IDocument, string, ExpressionValueVariable, SymmetricType\)
 
 Create <xref href="VM.Managed.DesignVariable" data-throw-if-not-resolved="false"></xref>.
 
@@ -60,5 +60,4 @@ The new <xref href="VM.Managed.DesignVariable" data-throw-if-not-resolved="false
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'value' argument is null.
-
 

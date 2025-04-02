@@ -1,4 +1,4 @@
-# Class NodalBody
+#  Class NodalBody
 
 Namespace: [VM.Managed.DAFUL.Builder.FE](VM.Managed.DAFUL.Builder.FE.md)  
 Assembly: VMBldFE.dll  
@@ -53,7 +53,7 @@ BuilderBase<NodalBody\>.ErrorMessage
 
 ## Constructors
 
-### NodalBody\(\)
+### <a id="VM_Managed_DAFUL_Builder_FE_NodalBody__ctor"></a> NodalBody\(\)
 
 ```csharp
 public NodalBody()
@@ -61,7 +61,7 @@ public NodalBody()
 
 ## Properties
 
-### PropertyFilePath
+### <a id="VM_Managed_DAFUL_Builder_FE_NodalBody_PropertyFilePath"></a> PropertyFilePath
 
 ```csharp
 public string PropertyFilePath { get; set; }
@@ -73,7 +73,7 @@ public string PropertyFilePath { get; set; }
 
 ## Methods
 
-### OnPostAddDoc\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Builder_FE_NodalBody_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -83,7 +83,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_FE_NodalBody_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -98,5 +98,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Class Face
+#  Class Face
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -47,7 +47,7 @@ ISelected
 
 ## Constructors
 
-### Face\(UIntPtr, bool\)
+### <a id="VM_CAD_Kernel_Face__ctor_System_UIntPtr_System_Boolean_"></a> Face\(UIntPtr, bool\)
 
 ```csharp
 public Face(UIntPtr key, bool isLock = true)
@@ -61,7 +61,7 @@ public Face(UIntPtr key, bool isLock = true)
 
 ## Properties
 
-### IsCylinder
+### <a id="VM_CAD_Kernel_Face_IsCylinder"></a> IsCylinder
 
 ```csharp
 public bool IsCylinder { get; }
@@ -71,7 +71,7 @@ public bool IsCylinder { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsPlane
+### <a id="VM_CAD_Kernel_Face_IsPlane"></a> IsPlane
 
 ```csharp
 public bool IsPlane { get; }
@@ -81,7 +81,7 @@ public bool IsPlane { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsSphere
+### <a id="VM_CAD_Kernel_Face_IsSphere"></a> IsSphere
 
 ```csharp
 public bool IsSphere { get; }
@@ -93,7 +93,7 @@ public bool IsSphere { get; }
 
 ## Methods
 
-### GetCylinderCenterPoint\(\)
+### <a id="VM_CAD_Kernel_Face_GetCylinderCenterPoint"></a> GetCylinderCenterPoint\(\)
 
 ```csharp
 public Vector GetCylinderCenterPoint()
@@ -103,7 +103,7 @@ public Vector GetCylinderCenterPoint()
 
  Vector
 
-### GetCylinderDirection\(\)
+### <a id="VM_CAD_Kernel_Face_GetCylinderDirection"></a> GetCylinderDirection\(\)
 
 ```csharp
 public Vector GetCylinderDirection()
@@ -113,7 +113,7 @@ public Vector GetCylinderDirection()
 
  Vector
 
-### GetDefaultPoint\(\)
+### <a id="VM_CAD_Kernel_Face_GetDefaultPoint"></a> GetDefaultPoint\(\)
 
 ```csharp
 public override Vector GetDefaultPoint()
@@ -123,7 +123,7 @@ public override Vector GetDefaultPoint()
 
  Vector
 
-### GetNormalDirection\(double, double\)
+### <a id="VM_CAD_Kernel_Face_GetNormalDirection_System_Double_System_Double_"></a> GetNormalDirection\(double, double\)
 
 ```csharp
 public Vector GetNormalDirection(double u, double v)
@@ -139,7 +139,7 @@ public Vector GetNormalDirection(double u, double v)
 
  Vector
 
-### GetPointOnFace\(double, double\)
+### <a id="VM_CAD_Kernel_Face_GetPointOnFace_System_Double_System_Double_"></a> GetPointOnFace\(double, double\)
 
 ```csharp
 public Vector GetPointOnFace(double u, double v)
@@ -155,7 +155,7 @@ public Vector GetPointOnFace(double u, double v)
 
  Vector
 
-### GetSphereCenterPoint\(\)
+### <a id="VM_CAD_Kernel_Face_GetSphereCenterPoint"></a> GetSphereCenterPoint\(\)
 
 ```csharp
 public Vector GetSphereCenterPoint()
@@ -165,7 +165,7 @@ public Vector GetSphereCenterPoint()
 
  Vector
 
-### IsFace\(UIntPtr\)
+### <a id="VM_CAD_Kernel_Face_IsFace_System_UIntPtr_"></a> IsFace\(UIntPtr\)
 
 ```csharp
 public static bool IsFace(UIntPtr key)
@@ -178,5 +178,4 @@ public static bool IsFace(UIntPtr key)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

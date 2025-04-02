@@ -1,4 +1,4 @@
-# Class Reboundstop
+#  Class Reboundstop
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -257,7 +257,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Reboundstop\(\)
+### <a id="VM_Managed_DAFUL_Car_Force_Reboundstop__ctor"></a> Reboundstop\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.Reboundstop" data-throw-if-not-resolved="false"></xref> class.
 
@@ -265,7 +265,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.Rebound
 public Reboundstop()
 ```
 
-### Reboundstop\(string\)
+### <a id="VM_Managed_DAFUL_Car_Force_Reboundstop__ctor_System_String_"></a> Reboundstop\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.Reboundstop" data-throw-if-not-resolved="false"></xref> class.
 
@@ -281,7 +281,7 @@ Name of the STR.
 
 ## Properties
 
-### CanWriteToOutFileImpl
+### <a id="VM_Managed_DAFUL_Car_Force_Reboundstop_CanWriteToOutFileImpl"></a> CanWriteToOutFileImpl
 
 ```csharp
 protected override bool CanWriteToOutFileImpl { get; }
@@ -291,7 +291,7 @@ protected override bool CanWriteToOutFileImpl { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Diameter
+### <a id="VM_Managed_DAFUL_Car_Force_Reboundstop_Diameter"></a> Diameter
 
 Gets or sets the diameter.
 
@@ -303,7 +303,7 @@ public double Diameter { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### GeomColor
+### <a id="VM_Managed_DAFUL_Car_Force_Reboundstop_GeomColor"></a> GeomColor
 
 Gets or sets the color of the geom.
 
@@ -315,7 +315,7 @@ public string GeomColor { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### MethodCoef
+### <a id="VM_Managed_DAFUL_Car_Force_Reboundstop_MethodCoef"></a> MethodCoef
 
 Gets or sets the method coef.
 
@@ -327,7 +327,7 @@ public ExpressionValueVariable MethodCoef { get; set; }
 
  ExpressionValueVariable
 
-### MethodTypes
+### <a id="VM_Managed_DAFUL_Car_Force_Reboundstop_MethodTypes"></a> MethodTypes
 
 Gets or sets the method types.
 
@@ -339,7 +339,7 @@ public Reboundstop.MethodType MethodTypes { get; set; }
 
  [Reboundstop](VM.Managed.DAFUL.Car.Force.Reboundstop.md).[MethodType](VM.Managed.DAFUL.Car.Force.Reboundstop.MethodType.md)
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Car_Force_Reboundstop_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -353,7 +353,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Car_Force_Reboundstop_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -367,7 +367,7 @@ public override void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Car_Force_Reboundstop_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -381,7 +381,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The factor.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Car_Force_Reboundstop_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -395,7 +395,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Car_Force_Reboundstop_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -408,5 +408,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

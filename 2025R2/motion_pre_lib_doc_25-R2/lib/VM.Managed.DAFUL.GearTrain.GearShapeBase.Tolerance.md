@@ -1,4 +1,4 @@
-# Class GearShapeBase.Tolerance
+#  Class GearShapeBase.Tolerance
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -22,7 +22,7 @@ public class GearShapeBase.Tolerance
 
 ## Constructors
 
-### Tolerance\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Tolerance__ctor"></a> Tolerance\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearShapeBase.Tolerance" data-throw-if-not-resolved="false"></xref> class.
 
@@ -32,7 +32,7 @@ public Tolerance()
 
 ## Properties
 
-### LeftPitchError
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Tolerance_LeftPitchError"></a> LeftPitchError
 
 Gets or sets the left pitch error.
 
@@ -44,7 +44,7 @@ public double LeftPitchError { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RightPitchError
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Tolerance_RightPitchError"></a> RightPitchError
 
 Gets or sets the right pitch error.
 
@@ -56,7 +56,7 @@ public double RightPitchError { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RunoutError
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapeBase_Tolerance_RunoutError"></a> RunoutError
 
 Gets or sets the runout error.
 
@@ -67,5 +67,4 @@ public double RunoutError { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

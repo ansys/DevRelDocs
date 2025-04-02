@@ -1,4 +1,4 @@
-# Class UpdateBodyInFE
+#  Class UpdateBodyInFE
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -84,7 +84,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdateBodyInFE\(NodalBody, BodyAnalysisType\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBodyInFE__ctor_VM_Managed_DAFUL_FE_NodalBody_VM_Managed_DAFUL_BodyAnalysisType_"></a> UpdateBodyInFE\(NodalBody, BodyAnalysisType\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateBodyInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -102,7 +102,7 @@ The nodal.
 
 The body analysis type.
 
-### UpdateBodyInFE\(Document3D, NodalBody, BodyAnalysisType\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBodyInFE__ctor_VM_Managed_Document3D_VM_Managed_DAFUL_FE_NodalBody_VM_Managed_DAFUL_BodyAnalysisType_"></a> UpdateBodyInFE\(Document3D, NodalBody, BodyAnalysisType\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateBodyInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ The nodal.
 
 The body analysis type.
 
-### UpdateBodyInFE\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBodyInFE__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateBodyInFE\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateBodyInFE" data-throw-if-not-resolved="false"></xref> class.
 
@@ -140,7 +140,7 @@ The jp.
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBodyInFE_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -148,7 +148,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBodyInFE_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -161,5 +161,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

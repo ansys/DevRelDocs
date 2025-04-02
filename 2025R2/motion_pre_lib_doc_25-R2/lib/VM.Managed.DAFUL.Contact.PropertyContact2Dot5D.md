@@ -1,4 +1,4 @@
-# Class PropertyContact2Dot5D
+#  Class PropertyContact2Dot5D
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -178,7 +178,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyContact2Dot5D\(\)
+### <a id="VM_Managed_DAFUL_Contact_PropertyContact2Dot5D__ctor"></a> PropertyContact2Dot5D\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyContact2Dot5D" data-throw-if-not-resolved="false"></xref> class.
 
@@ -188,7 +188,7 @@ public PropertyContact2Dot5D()
 
 ## Properties
 
-### IncrementTime
+### <a id="VM_Managed_DAFUL_Contact_PropertyContact2Dot5D_IncrementTime"></a> IncrementTime
 
 Gets or sets the value of increment time.
 
@@ -200,7 +200,7 @@ public ExpressionValueVariable IncrementTime { get; set; }
 
  ExpressionValueVariable
 
-### LimitIncrementInNR
+### <a id="VM_Managed_DAFUL_Contact_PropertyContact2Dot5D_LimitIncrementInNR"></a> LimitIncrementInNR
 
 Gets or sets the value of limit increment in NR.
 
@@ -212,7 +212,7 @@ public ExpressionValueVariable LimitIncrementInNR { get; set; }
 
  ExpressionValueVariable
 
-### UseIncrementTime
+### <a id="VM_Managed_DAFUL_Contact_PropertyContact2Dot5D_UseIncrementTime"></a> UseIncrementTime
 
 Gets or sets a value indicating whether [use value of increment time].
 
@@ -224,7 +224,7 @@ public bool UseIncrementTime { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseLimitIncrementInNR
+### <a id="VM_Managed_DAFUL_Contact_PropertyContact2Dot5D_UseLimitIncrementInNR"></a> UseLimitIncrementInNR
 
 Gets or sets a value indicating whether [use value of limit increment in NR].
 
@@ -238,7 +238,7 @@ public bool UseLimitIncrementInNR { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Contact_PropertyContact2Dot5D_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -252,7 +252,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Contact_PropertyContact2Dot5D_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -265,5 +265,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

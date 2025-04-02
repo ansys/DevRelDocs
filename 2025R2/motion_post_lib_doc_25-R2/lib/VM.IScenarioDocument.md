@@ -1,4 +1,4 @@
-# Interface IScenarioDocument
+#  Interface IScenarioDocument
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IScenarioDocument
 
 ## Methods
 
-### GetGravity\(\)
+### <a id="VM_IScenarioDocument_GetGravity"></a> GetGravity\(\)
 
 ```python
 Vector GetGravity()
@@ -19,7 +19,7 @@ Vector GetGravity()
 
  [Vector](VM.Vector.md)
 
-### GetName\(\)
+### <a id="VM_IScenarioDocument_GetName"></a> GetName\(\)
 
 ```python
 string GetName()
@@ -29,7 +29,7 @@ string GetName()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetPath\(\)
+### <a id="VM_IScenarioDocument_GetPath"></a> GetPath\(\)
 
 ```python
 string GetPath()
@@ -39,7 +39,7 @@ string GetPath()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetScenarioValue\(\)
+### <a id="VM_IScenarioDocument_GetScenarioValue"></a> GetScenarioValue\(\)
 
 ```python
 Array GetScenarioValue()

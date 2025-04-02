@@ -1,4 +1,4 @@
-# Class ModifyScenarioOp
+#  Class ModifyScenarioOp
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ModifyScenarioOp\(\)
+### <a id="VM_Managed_DAFUL_Operation_ModifyScenarioOp__ctor"></a> ModifyScenarioOp\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Operation.ModifyScenarioOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Operation.ModifyS
 public ModifyScenarioOp()
 ```
 
-### ModifyScenarioOp\(DocumentAnalysis, Scenario, bool\)
+### <a id="VM_Managed_DAFUL_Operation_ModifyScenarioOp__ctor_VM_Managed_DAFUL_DocumentAnalysis_VM_Managed_Simulation_Scenario_System_Boolean_"></a> ModifyScenarioOp\(DocumentAnalysis, Scenario, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Operation.ModifyScenarioOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ The scenario.
 
 The use.
 
-### ModifyScenarioOp\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Operation_ModifyScenarioOp__ctor_VM_Managed_Operation_JournalParameter_"></a> ModifyScenarioOp\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Operation.ModifyScenarioOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -123,7 +123,7 @@ The journal parameter
 
 ## Properties
 
-### IsHistoryMerge
+### <a id="VM_Managed_DAFUL_Operation_ModifyScenarioOp_IsHistoryMerge"></a> IsHistoryMerge
 
 Gets the history merge flag.
 
@@ -135,7 +135,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_ModifyScenarioOp_Name"></a> Name
 
 Gets the Name.
 
@@ -149,7 +149,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_ModifyScenarioOp_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -157,7 +157,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Operation_ModifyScenarioOp_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Get Information for journal
 
@@ -170,5 +170,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer
-
 

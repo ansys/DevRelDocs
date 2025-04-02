@@ -1,4 +1,4 @@
-# Class Solid<T\>
+#  Class Solid<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -49,7 +49,7 @@ public abstract class Solid<T> : BuilderBase<Body>, IBuilder where T : Builder, 
 
 ## Constructors
 
-### Solid\(\)
+### <a id="VM_Managed_DAFUL_Builder_Solid_1__ctor"></a> Solid\(\)
 
 ```csharp
 protected Solid()
@@ -57,7 +57,7 @@ protected Solid()
 
 ## Properties
 
-### AddToDoc
+### <a id="VM_Managed_DAFUL_Builder_Solid_1_AddToDoc"></a> AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -67,7 +67,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Color
+### <a id="VM_Managed_DAFUL_Builder_Solid_1_Color"></a> Color
 
 ```csharp
 public string Color { get; set; }
@@ -77,7 +77,7 @@ public string Color { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SolidBuilder
+### <a id="VM_Managed_DAFUL_Builder_Solid_1_SolidBuilder"></a> SolidBuilder
 
 ```csharp
 protected T SolidBuilder { get; }
@@ -89,7 +89,7 @@ protected T SolidBuilder { get; }
 
 ## Methods
 
-### OnPostAddDoc\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Builder_Solid_1_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -99,7 +99,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Solid_1_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override sealed bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -115,7 +115,7 @@ protected override sealed bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetSolidBuilderProperty\(T\)
+### <a id="VM_Managed_DAFUL_Builder_Solid_1_SetSolidBuilderProperty__0_"></a> SetSolidBuilderProperty\(T\)
 
 ```csharp
 protected abstract void SetSolidBuilderProperty(T solidBuilder)
@@ -124,5 +124,4 @@ protected abstract void SetSolidBuilderProperty(T solidBuilder)
 #### Parameters
 
 `solidBuilder` T
-
 

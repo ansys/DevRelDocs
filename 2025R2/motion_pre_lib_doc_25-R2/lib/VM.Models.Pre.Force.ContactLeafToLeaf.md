@@ -1,4 +1,4 @@
-# Class ContactLeafToLeaf
+#  Class ContactLeafToLeaf
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.LeafSpring.dll  
@@ -20,7 +20,7 @@ public class ContactLeafToLeaf
 
 ## Properties
 
-### seqCotactBodyAction
+### <a id="VM_Models_Pre_Force_ContactLeafToLeaf_seqCotactBodyAction"></a> seqCotactBodyAction
 
 ```csharp
 public int seqCotactBodyAction { get; }
@@ -30,7 +30,7 @@ public int seqCotactBodyAction { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### seqCotactBodyBase
+### <a id="VM_Models_Pre_Force_ContactLeafToLeaf_seqCotactBodyBase"></a> seqCotactBodyBase
 
 ```csharp
 public int seqCotactBodyBase { get; }
@@ -40,7 +40,7 @@ public int seqCotactBodyBase { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### seqLeafPointAtAction
+### <a id="VM_Models_Pre_Force_ContactLeafToLeaf_seqLeafPointAtAction"></a> seqLeafPointAtAction
 
 ```csharp
 public int seqLeafPointAtAction { get; }
@@ -50,7 +50,7 @@ public int seqLeafPointAtAction { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### seqLeafPointAtBase
+### <a id="VM_Models_Pre_Force_ContactLeafToLeaf_seqLeafPointAtBase"></a> seqLeafPointAtBase
 
 ```csharp
 public int seqLeafPointAtBase { get; }
@@ -59,5 +59,4 @@ public int seqLeafPointAtBase { get; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 

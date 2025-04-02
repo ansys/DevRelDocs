@@ -1,4 +1,4 @@
-# Class ContactGeomSphere
+#  Class ContactGeomSphere
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -227,7 +227,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ContactGeomSphere\(\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomSphere__ctor"></a> ContactGeomSphere\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeomSphere" data-throw-if-not-resolved="false"></xref> class.
 
@@ -235,7 +235,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGe
 protected ContactGeomSphere()
 ```
 
-### ContactGeomSphere\(string\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomSphere__ctor_System_String_"></a> ContactGeomSphere\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeomSphere" data-throw-if-not-resolved="false"></xref> class.
 
@@ -248,5 +248,4 @@ public ContactGeomSphere(string strName)
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 Name of the 2D contact geometry .
-
 

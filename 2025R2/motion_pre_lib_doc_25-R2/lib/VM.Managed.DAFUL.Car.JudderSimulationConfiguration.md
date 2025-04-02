@@ -1,4 +1,4 @@
-# Class JudderSimulationConfiguration
+#  Class JudderSimulationConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -197,7 +197,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### JudderSimulationConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_JudderSimulationConfiguration__ctor"></a> JudderSimulationConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.JudderSimulationConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -205,7 +205,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.JudderSimulat
 public JudderSimulationConfiguration()
 ```
 
-### JudderSimulationConfiguration\(AnalysisJudder\)
+### <a id="VM_Managed_DAFUL_Car_JudderSimulationConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisJudder_"></a> JudderSimulationConfiguration\(AnalysisJudder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.JudderSimulationConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -221,7 +221,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_JudderSimulationConfiguration_Analysis"></a> Analysis
 
 Gets or sets the analysis.
 
@@ -233,7 +233,7 @@ public override AnalysisBase Analysis { get; set; }
 
  AnalysisBase
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_JudderSimulationConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -245,7 +245,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_JudderSimulationConfiguration_AnalysisType"></a> AnalysisType
 
 Gets the type of the analysis.
 
@@ -257,7 +257,7 @@ public override ShimmyJudderAnalysisType AnalysisType { get; }
 
  [ShimmyJudderAnalysisType](VM.Managed.DAFUL.Car.ShimmyJudderAnalysisType.md)
 
-### JudderParameter
+### <a id="VM_Managed_DAFUL_Car_JudderSimulationConfiguration_JudderParameter"></a> JudderParameter
 
 Gets or sets the judder parameter.
 
@@ -268,5 +268,4 @@ public AnalysisJudder JudderParameter { get; set; }
 #### Property Value
 
  [AnalysisJudder](VM.Managed.DAFUL.Car.AnalysisJudder.md)
-
 

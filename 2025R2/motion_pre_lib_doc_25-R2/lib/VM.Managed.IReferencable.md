@@ -1,4 +1,4 @@
-# Interface IReferencable
+#  Interface IReferencable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IReferencable
 
 ## Properties
 
-### Referencable
+### <a id="VM_Managed_IReferencable_Referencable"></a> Referencable
 
 Gets the referencable data.
 
@@ -29,7 +29,7 @@ bool Referencable { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Visible
+### <a id="VM_Managed_IReferencable_Visible"></a> Visible
 
 Gets the visible data.
 
@@ -43,7 +43,7 @@ bool Visible { get; }
 
 ## Methods
 
-### Instantiate\(Reference, Canvas\)
+### <a id="VM_Managed_IReferencable_Instantiate_VM_Managed_Reference_VM_CAD_Kernel_Render_Canvas_"></a> Instantiate\(Reference, Canvas\)
 
 Instantiates the specified reference.
 
@@ -61,7 +61,7 @@ The reference.
 
 The canvas.
 
-### MakeReference\(LinkedList<Reference\>\)
+### <a id="VM_Managed_IReferencable_MakeReference_System_Collections_Generic_LinkedList_VM_Managed_Reference__"></a> MakeReference\(LinkedList<Reference\>\)
 
 ```csharp
 void MakeReference(LinkedList<Reference> lstRef)
@@ -70,5 +70,4 @@ void MakeReference(LinkedList<Reference> lstRef)
 #### Parameters
 
 `lstRef` [LinkedList](https://learn.microsoft.com/dotnet/api/system.collections.generic.linkedlist\-1)<[Reference](VM.Managed.Reference.md)\>
-
 

@@ -1,4 +1,4 @@
-# Enum PropertyConcentratedLoadBase.DirectionType
+#  Enum PropertyConcentratedLoadBase.DirectionType
 
 Namespace: [VM.Managed.DAFUL.Flexible.Force](VM.Managed.DAFUL.Flexible.Force.md)  
 Assembly: VMFlexibleBase.dll  
@@ -35,5 +35,4 @@ public enum PropertyConcentratedLoadBase.DirectionType
 
 <p>1 function. normal direction.</p>
 <p>하나의 함수, 수직 방향.</p>
-
 

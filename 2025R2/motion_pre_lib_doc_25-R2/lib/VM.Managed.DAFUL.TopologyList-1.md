@@ -1,4 +1,4 @@
-# Class TopologyList<T\>
+#  Class TopologyList<T\>
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### TopologyList\(\)
+### <a id="VM_Managed_DAFUL_TopologyList_1__ctor"></a> TopologyList\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.TopologyList%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.TopologyList%601"
 public TopologyList()
 ```
 
-### TopologyList\(SubEntity\)
+### <a id="VM_Managed_DAFUL_TopologyList_1__ctor_VM_Managed_SubEntity_"></a> TopologyList\(SubEntity\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.TopologyList%601" data-throw-if-not-resolved="false"></xref> class.
 
@@ -124,7 +124,7 @@ The parent object.
 
 ## Properties
 
-### Count
+### <a id="VM_Managed_DAFUL_TopologyList_1_Count"></a> Count
 
 Gets the count.
 
@@ -136,7 +136,7 @@ public int Count { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### LstLnkTopology
+### <a id="VM_Managed_DAFUL_TopologyList_1_LstLnkTopology"></a> LstLnkTopology
 
 Gets or sets the topology link container.
 
@@ -148,7 +148,7 @@ public IList<T> LstLnkTopology { get; }
 
  [IList](https://learn.microsoft.com/dotnet/api/system.collections.generic.ilist\-1)<T\>
 
-### this\[int\]
+### <a id="VM_Managed_DAFUL_TopologyList_1_Item_System_Int32_"></a> this\[int\]
 
 Gets or sets the T with the specified index.
 
@@ -162,7 +162,7 @@ public T this[int nIndex] { get; set; }
 
 ## Methods
 
-### Add\(T\)
+### <a id="VM_Managed_DAFUL_TopologyList_1_Add__0_"></a> Add\(T\)
 
 Adds the specified toplology.
 
@@ -176,7 +176,7 @@ public void Add(T toplology)
 
 The toplology.
 
-### Clear\(\)
+### <a id="VM_Managed_DAFUL_TopologyList_1_Clear"></a> Clear\(\)
 
 Clears this instance.
 
@@ -184,7 +184,7 @@ Clears this instance.
 public void Clear()
 ```
 
-### GetSchema\(\)
+### <a id="VM_Managed_DAFUL_TopologyList_1_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <xref href="System.Xml.Serialization.XmlSchemaProviderAttribute" data-throw-if-not-resolved="false"></xref> to the class.
 
@@ -198,7 +198,7 @@ public XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_TopologyList_1_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -216,7 +216,7 @@ The linked object.
 
 The destroy event information.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_TopologyList_1_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -234,7 +234,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_TopologyList_1_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -248,7 +248,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_TopologyList_1_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -262,7 +262,7 @@ public void ReadXml(XmlReader reader)
 
 The <xref href="System.Xml.XmlReader" data-throw-if-not-resolved="false"></xref> stream from which the object is deserialized.
 
-### Remove\(T, bool\)
+### <a id="VM_Managed_DAFUL_TopologyList_1_Remove__0_System_Boolean_"></a> Remove\(T, bool\)
 
 Removes the specified toplology.
 
@@ -280,7 +280,7 @@ The toplology.
 
 The topology flag.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_TopologyList_1_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -293,5 +293,4 @@ public void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The <xref href="System.Xml.XmlWriter" data-throw-if-not-resolved="false"></xref> stream to which the object is serialized.
-
 

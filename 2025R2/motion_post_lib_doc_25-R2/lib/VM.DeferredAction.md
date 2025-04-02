@@ -1,4 +1,4 @@
-# Class DeferredAction
+#  Class DeferredAction
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,18 +9,18 @@ public class DeferredAction
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
 [DeferredAction](VM.DeferredAction.md)
 
 ## Methods
 
-### Cancel\(\)
+### <a id="VM_DeferredAction_Cancel"></a> Cancel\(\)
 
 ```python
 public void Cancel()
 ```
 
-### Create\(Action\)
+### <a id="VM_DeferredAction_Create_System_Action_"></a> Create\(Action\)
 
 ```python
 public static DeferredAction Create(Action action)
@@ -34,7 +34,7 @@ public static DeferredAction Create(Action action)
 
  [DeferredAction](VM.DeferredAction.md)
 
-### Defer\(TimeSpan\)
+### <a id="VM_DeferredAction_Defer_System_TimeSpan_"></a> Defer\(TimeSpan\)
 
 ```python
 public void Defer(TimeSpan delay)
@@ -44,13 +44,13 @@ public void Defer(TimeSpan delay)
 
 `delay` [TimeSpan](https://learn.microsoft.com/dotnet/api/system.timespan)
 
-### Dispose\(\)
+### <a id="VM_DeferredAction_Dispose"></a> Dispose\(\)
 
 ```python
 public void Dispose()
 ```
 
-### Dispose\(bool\)
+### <a id="VM_DeferredAction_Dispose_System_Boolean_"></a> Dispose\(bool\)
 
 ```python
 protected virtual void Dispose(bool disposing)
@@ -60,7 +60,7 @@ protected virtual void Dispose(bool disposing)
 
 `disposing` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### \~DeferredAction\(\)
+### <a id="VM_DeferredAction_Finalize"></a> \~DeferredAction\(\)
 
 ```python
 protected ~DeferredAction()

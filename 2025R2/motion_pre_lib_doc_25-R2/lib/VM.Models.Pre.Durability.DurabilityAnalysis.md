@@ -1,4 +1,4 @@
-# Class DurabilityAnalysis
+#  Class DurabilityAnalysis
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -20,7 +20,7 @@ public class DurabilityAnalysis
 
 ## Constructors
 
-### DurabilityAnalysis\(ActionType, DurabilityData\[\]\)
+### <a id="VM_Models_Pre_Durability_DurabilityAnalysis__ctor_VM_Models_Pre_Durability_DurabilityAnalysis_ActionType_VM_Models_Pre_Durability_DurabilityData___"></a> DurabilityAnalysis\(ActionType, DurabilityData\[\]\)
 
 ```csharp
 public DurabilityAnalysis(DurabilityAnalysis.ActionType typeOfAction, DurabilityData[] durabilityDataSet)
@@ -34,7 +34,7 @@ public DurabilityAnalysis(DurabilityAnalysis.ActionType typeOfAction, Durability
 
 ## Properties
 
-### DurabilityDataSet
+### <a id="VM_Models_Pre_Durability_DurabilityAnalysis_DurabilityDataSet"></a> DurabilityDataSet
 
 ```csharp
 public DurabilityData[] DurabilityDataSet { get; set; }
@@ -44,7 +44,7 @@ public DurabilityData[] DurabilityDataSet { get; set; }
 
  [DurabilityData](VM.Models.Pre.Durability.DurabilityData.md)\[\]
 
-### TypeOfAction
+### <a id="VM_Models_Pre_Durability_DurabilityAnalysis_TypeOfAction"></a> TypeOfAction
 
 ```csharp
 public DurabilityAnalysis.ActionType TypeOfAction { get; set; }
@@ -53,5 +53,4 @@ public DurabilityAnalysis.ActionType TypeOfAction { get; set; }
 #### Property Value
 
  [DurabilityAnalysis](VM.Models.Pre.Durability.DurabilityAnalysis.md).[ActionType](VM.Models.Pre.Durability.DurabilityAnalysis.ActionType.md)
-
 

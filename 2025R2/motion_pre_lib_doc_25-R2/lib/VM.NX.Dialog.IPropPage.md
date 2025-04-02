@@ -1,4 +1,4 @@
-# Interface IPropPage
+#  Interface IPropPage
 
 Namespace: [VM.NX.Dialog](VM.NX.Dialog.md)  
 Assembly: VMDIDef.dll  
@@ -15,7 +15,7 @@ public interface IPropPage
 
 ## Methods
 
-### CheckFileProperty\(\)
+### <a id="VM_NX_Dialog_IPropPage_CheckFileProperty"></a> CheckFileProperty\(\)
 
 ```csharp
 bool CheckFileProperty()
@@ -25,7 +25,7 @@ bool CheckFileProperty()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetResult\(XmlDocument\)
+### <a id="VM_NX_Dialog_IPropPage_GetResult_System_Xml_XmlDocument_"></a> GetResult\(XmlDocument\)
 
 ```csharp
 bool GetResult(XmlDocument dom)
@@ -39,7 +39,7 @@ bool GetResult(XmlDocument dom)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetResultForMulti\(XmlDocument\)
+### <a id="VM_NX_Dialog_IPropPage_GetResultForMulti_System_Xml_XmlDocument_"></a> GetResultForMulti\(XmlDocument\)
 
 ```csharp
 bool GetResultForMulti(XmlDocument dom)
@@ -53,7 +53,7 @@ bool GetResultForMulti(XmlDocument dom)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Redraw\(double\)
+### <a id="VM_NX_Dialog_IPropPage_Redraw_System_Double_"></a> Redraw\(double\)
 
 ```csharp
 void Redraw(double dIconSize)
@@ -63,7 +63,7 @@ void Redraw(double dIconSize)
 
 `dIconSize` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SetInputData\(XmlDocument\)
+### <a id="VM_NX_Dialog_IPropPage_SetInputData_System_Xml_XmlDocument_"></a> SetInputData\(XmlDocument\)
 
 ```csharp
 bool SetInputData(XmlDocument dom)
@@ -77,7 +77,7 @@ bool SetInputData(XmlDocument dom)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetInputDataForMulti\(XmlDocument\)
+### <a id="VM_NX_Dialog_IPropPage_SetInputDataForMulti_System_Xml_XmlDocument_"></a> SetInputDataForMulti\(XmlDocument\)
 
 ```csharp
 bool SetInputDataForMulti(XmlDocument dom)
@@ -91,7 +91,7 @@ bool SetInputDataForMulti(XmlDocument dom)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetPropertyXPath\(string\)
+### <a id="VM_NX_Dialog_IPropPage_SetPropertyXPath_System_String_"></a> SetPropertyXPath\(string\)
 
 ```csharp
 void SetPropertyXPath(string strPath)
@@ -101,7 +101,7 @@ void SetPropertyXPath(string strPath)
 
 `strPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SetPropertyXPathPosition\(string\)
+### <a id="VM_NX_Dialog_IPropPage_SetPropertyXPathPosition_System_String_"></a> SetPropertyXPathPosition\(string\)
 
 ```csharp
 void SetPropertyXPathPosition(string strPosition)
@@ -111,10 +111,9 @@ void SetPropertyXPathPosition(string strPosition)
 
 `strPosition` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### UpdatePage\(\)
+### <a id="VM_NX_Dialog_IPropPage_UpdatePage"></a> UpdatePage\(\)
 
 ```csharp
 void UpdatePage()
 ```
-
 

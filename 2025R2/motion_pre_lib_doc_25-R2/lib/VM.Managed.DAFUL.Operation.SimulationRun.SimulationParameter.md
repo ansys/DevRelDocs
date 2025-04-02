@@ -1,4 +1,4 @@
-# Class SimulationRun.SimulationParameter
+#  Class SimulationRun.SimulationParameter
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -22,7 +22,7 @@ public class SimulationRun.SimulationParameter
 
 ## Constructors
 
-### SimulationParameter\(\)
+### <a id="VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter__ctor"></a> SimulationParameter\(\)
 
 ```csharp
 public SimulationParameter()
@@ -30,7 +30,7 @@ public SimulationParameter()
 
 ## Properties
 
-### Configuration
+### <a id="VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_Configuration"></a> Configuration
 
 ```csharp
 public string Configuration { get; set; }
@@ -40,7 +40,7 @@ public string Configuration { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### EndTime
+### <a id="VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_EndTime"></a> EndTime
 
 ```csharp
 public double EndTime { get; set; }
@@ -50,7 +50,7 @@ public double EndTime { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ShowResultAfterSimulation
+### <a id="VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_ShowResultAfterSimulation"></a> ShowResultAfterSimulation
 
 ```csharp
 public bool ShowResultAfterSimulation { get; set; }
@@ -60,7 +60,7 @@ public bool ShowResultAfterSimulation { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Step
+### <a id="VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_Step"></a> Step
 
 ```csharp
 public int Step { get; set; }
@@ -70,7 +70,7 @@ public int Step { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### WaitForEndSimulation
+### <a id="VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_WaitForEndSimulation"></a> WaitForEndSimulation
 
 ```csharp
 public bool WaitForEndSimulation { get; set; }
@@ -79,5 +79,4 @@ public bool WaitForEndSimulation { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

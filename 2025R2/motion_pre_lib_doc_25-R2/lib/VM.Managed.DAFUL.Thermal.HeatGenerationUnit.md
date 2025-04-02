@@ -1,4 +1,4 @@
-# Class HeatGenerationUnit
+#  Class HeatGenerationUnit
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMThermalBase.dll  
@@ -31,7 +31,7 @@ FunctionUnitBase.Factor
 
 ## Constructors
 
-### HeatGenerationUnit\(\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatGenerationUnit__ctor"></a> HeatGenerationUnit\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatGenerationUnit" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatGener
 public HeatGenerationUnit()
 ```
 
-### HeatGenerationUnit\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatGenerationUnit__ctor_VM_Models_Pre_ILinkContainer_"></a> HeatGenerationUnit\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatGenerationUnit" data-throw-if-not-resolved="false"></xref> class.
 
@@ -55,7 +55,7 @@ The owner.
 
 ## Properties
 
-### Factor
+### <a id="VM_Managed_DAFUL_Thermal_HeatGenerationUnit_Factor"></a> Factor
 
 Gets the factor.
 
@@ -67,7 +67,7 @@ public override string Factor { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Scale
+### <a id="VM_Managed_DAFUL_Thermal_HeatGenerationUnit_Scale"></a> Scale
 
 Gets the scale.
 
@@ -79,7 +79,7 @@ public override double Scale { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UnitOfHeatGeneration
+### <a id="VM_Managed_DAFUL_Thermal_HeatGenerationUnit_UnitOfHeatGeneration"></a> UnitOfHeatGeneration
 
 Gets or sets the unit.
 
@@ -90,5 +90,4 @@ public HeatGenerationUnit.HeatGeneration UnitOfHeatGeneration { get; set; }
 #### Property Value
 
  [HeatGenerationUnit](VM.Managed.DAFUL.Thermal.HeatGenerationUnit.md).[HeatGeneration](VM.Managed.DAFUL.Thermal.HeatGenerationUnit.HeatGeneration.md)
-
 

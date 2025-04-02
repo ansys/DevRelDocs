@@ -1,4 +1,4 @@
-# Class SerializableFEDisplayObjectModifiedEvent
+#  Class SerializableFEDisplayObjectModifiedEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -66,7 +66,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### SerializableFEDisplayObjectModifiedEvent\(object\)
+### <a id="VM_Managed_History_SerializableFEDisplayObjectModifiedEvent__ctor_System_Object_"></a> SerializableFEDisplayObjectModifiedEvent\(object\)
 
 ```csharp
 public SerializableFEDisplayObjectModifiedEvent(object obOriginal)
@@ -75,5 +75,4 @@ public SerializableFEDisplayObjectModifiedEvent(object obOriginal)
 #### Parameters
 
 `obOriginal` [object](https://learn.microsoft.com/dotnet/api/system.object)
-
 

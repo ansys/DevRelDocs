@@ -1,4 +1,4 @@
-# Class HeatGeneration
+#  Class HeatGeneration
 
 Namespace: [VM.Managed.DAFUL.Thermal](VM.Managed.DAFUL.Thermal.md)  
 Assembly: VMDThermal.dll  
@@ -222,7 +222,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### HeatGeneration\(\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatGeneration__ctor"></a> HeatGeneration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatGeneration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -230,7 +230,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatGener
 public HeatGeneration()
 ```
 
-### HeatGeneration\(string\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatGeneration__ctor_System_String_"></a> HeatGeneration\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Thermal.HeatGeneration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -246,7 +246,7 @@ Name of the STR.
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatGeneration_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the specified canvas.
 
@@ -264,7 +264,7 @@ The canvas.
 
  [NotImplementedException](https://learn.microsoft.com/dotnet/api/system.notimplementedexception)
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatGeneration_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -292,7 +292,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Thermal_HeatGeneration_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -305,5 +305,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

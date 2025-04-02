@@ -1,4 +1,4 @@
-# Class ConstantRadiusCorneringConfiguration
+#  Class ConstantRadiusCorneringConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ConstantRadiusCorneringConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_ConstantRadiusCorneringConfiguration__ctor"></a> ConstantRadiusCorneringConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ConstantRadiusCorneringConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ConstantRadiu
 public ConstantRadiusCorneringConfiguration()
 ```
 
-### ConstantRadiusCorneringConfiguration\(AnalysisConstantRadiusCornering\)
+### <a id="VM_Managed_DAFUL_Car_ConstantRadiusCorneringConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisConstantRadiusCornering_"></a> ConstantRadiusCorneringConfiguration\(AnalysisConstantRadiusCornering\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ConstantRadiusCorneringConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_ConstantRadiusCorneringConfiguration_Analysis"></a> Analysis
 
 Gets or sets the analysis.
 
@@ -239,7 +239,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_ConstantRadiusCorneringConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -251,7 +251,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_ConstantRadiusCorneringConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -263,7 +263,7 @@ public override FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### ConstantRadiusCorneringParam
+### <a id="VM_Managed_DAFUL_Car_ConstantRadiusCorneringConfiguration_ConstantRadiusCorneringParam"></a> ConstantRadiusCorneringParam
 
 Gets or sets the constant radius cornering parameter.
 
@@ -274,5 +274,4 @@ public AnalysisConstantRadiusCornering ConstantRadiusCorneringParam { get; set; 
 #### Property Value
 
  [AnalysisConstantRadiusCornering](VM.Managed.DAFUL.Car.AnalysisConstantRadiusCornering.md)
-
 

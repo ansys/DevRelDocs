@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Bearing.Force
+#  Namespace VM.Managed.DAFUL.Bearing.Force
 
 ### Classes
 
@@ -43,5 +43,4 @@ This class is to represent the bearing journal force property.
  [PropertyBearingGeneral.FormulationType](VM.Managed.DAFUL.Bearing.Force.PropertyBearingGeneral.FormulationType.md)
 
 Specifies formulation type.
-
 

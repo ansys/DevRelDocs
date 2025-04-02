@@ -1,4 +1,4 @@
-# Class AnalysisBrakingInTurn
+#  Class AnalysisBrakingInTurn
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -51,7 +51,7 @@ IHasLengthUnitType
 
 ## Constructors
 
-### AnalysisBrakingInTurn\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn__ctor"></a> AnalysisBrakingInTurn\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisBrakingInTurn" data-throw-if-not-resolved="false"></xref> class.
 
@@ -59,7 +59,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisBraki
 public AnalysisBrakingInTurn()
 ```
 
-### AnalysisBrakingInTurn\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisBrakingInTurn\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisBrakingInTurn" data-throw-if-not-resolved="false"></xref> class.
 
@@ -75,7 +75,7 @@ The link container.
 
 ## Properties
 
-### BrakeDeceler
+### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_BrakeDeceler"></a> BrakeDeceler
 
 Gets or sets the brake deceleration.
 
@@ -87,7 +87,7 @@ public double BrakeDeceler { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### InitialVelocityCornering
+### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_InitialVelocityCornering"></a> InitialVelocityCornering
 
 Gets or sets the initial velocity.
 
@@ -99,7 +99,7 @@ public override double InitialVelocityCornering { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### LateralAcc
+### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_LateralAcc"></a> LateralAcc
 
 Gets or sets the lateral acceleration.
 
@@ -111,7 +111,7 @@ public double LateralAcc { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### MaxBrakeDuration
+### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_MaxBrakeDuration"></a> MaxBrakeDuration
 
 Gets or sets the maximum duration of the brake.
 
@@ -123,7 +123,7 @@ public double MaxBrakeDuration { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### SteeringInputType
+### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_SteeringInputType"></a> SteeringInputType
 
 Gets or sets the steering input.
 
@@ -135,7 +135,7 @@ public CorneringSteeringInputType SteeringInputType { get; set; }
 
  [CorneringSteeringInputType](VM.Managed.DAFUL.Car.Analysis.Full.CorneringSteeringInputType.md)
 
-### TireRadiusPosition
+### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_TireRadiusPosition"></a> TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -147,7 +147,7 @@ public override int TireRadiusPosition { get; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### TurnRadius
+### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_TurnRadius"></a> TurnRadius
 
 Gets or sets the turn radius.
 
@@ -159,7 +159,7 @@ public double TurnRadius { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### UnitOfLength
+### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_UnitOfLength"></a> UnitOfLength
 
 Gets or sets the length unit.
 
@@ -173,7 +173,7 @@ public LengthUnitType UnitOfLength { get; set; }
 
 ## Methods
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -186,5 +186,4 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
-
 

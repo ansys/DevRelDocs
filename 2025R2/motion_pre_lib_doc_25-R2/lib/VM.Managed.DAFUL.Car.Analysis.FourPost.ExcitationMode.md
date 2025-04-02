@@ -1,4 +1,4 @@
-# Enum ExcitationMode
+#  Enum ExcitationMode
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.FourPost](VM.Managed.DAFUL.Car.Analysis.FourPost.md)  
 Assembly: VMDCar.dll  
@@ -32,7 +32,6 @@ roll
 `Warp = 3` 
 
 warp
-
 
 
 

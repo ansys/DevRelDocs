@@ -1,4 +1,4 @@
-# Enum MatrixForceStandard.ViscousDampingType
+#  Enum MatrixForceStandard.ViscousDampingType
 
 Namespace: [VM.Managed.DAFUL.Force](VM.Managed.DAFUL.Force.md)  
 Assembly: VMDFP.dll  
@@ -20,7 +20,6 @@ Use the damping matrix.
 `Ratio = 0` 
 
 Use the multiplication of the stiffness matrix and the ratio.
-
 
 
 

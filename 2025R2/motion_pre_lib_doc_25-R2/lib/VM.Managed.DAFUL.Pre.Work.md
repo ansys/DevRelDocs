@@ -1,4 +1,4 @@
-# Class Work
+#  Class Work
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -37,7 +37,7 @@ public class Work : FileGroup<Work.WorkGroup, GroupItem>, IFileGroup, IWorkGroup
 
 ## Constructors
 
-### Work\(\)
+### <a id="VM_Managed_DAFUL_Pre_Work__ctor"></a> Work\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.Work" data-throw-if-not-resolved="false"></xref> class.
 
@@ -45,7 +45,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.Work" data-th
 public Work()
 ```
 
-### Work\(string\)
+### <a id="VM_Managed_DAFUL_Pre_Work__ctor_System_String_"></a> Work\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.Work" data-throw-if-not-resolved="false"></xref> class.
 
@@ -59,7 +59,7 @@ public Work(string strFileName)
 
 Name of the file.
 
-### Work\(string, bool\)
+### <a id="VM_Managed_DAFUL_Pre_Work__ctor_System_String_System_Boolean_"></a> Work\(string, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.Work" data-throw-if-not-resolved="false"></xref> class.
 
@@ -79,7 +79,7 @@ if set to <code>true</code> [is setting current].
 
 ## Properties
 
-### CurrentWork
+### <a id="VM_Managed_DAFUL_Pre_Work_CurrentWork"></a> CurrentWork
 
 Gets or sets the current work.
 
@@ -91,7 +91,7 @@ public static Work CurrentWork { get; }
 
  [Work](VM.Managed.DAFUL.Pre.Work.md)
 
-### CurrentWorkPath
+### <a id="VM_Managed_DAFUL_Pre_Work_CurrentWorkPath"></a> CurrentWorkPath
 
 Gets or sets the current work path.
 
@@ -103,7 +103,7 @@ public static string CurrentWorkPath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SubModels
+### <a id="VM_Managed_DAFUL_Pre_Work_SubModels"></a> SubModels
 
 Gets or sets the sub models.
 
@@ -117,7 +117,7 @@ public List<Model> SubModels { get; set; }
 
 ## Methods
 
-### AddModel\(Model\)
+### <a id="VM_Managed_DAFUL_Pre_Work_AddModel_VM_Managed_DAFUL_Pre_Model_"></a> AddModel\(Model\)
 
 Adds the model in work.
 
@@ -137,7 +137,7 @@ The new model.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### ClearCurrentWork\(\)
+### <a id="VM_Managed_DAFUL_Pre_Work_ClearCurrentWork"></a> ClearCurrentWork\(\)
 
 Clear the current work.
 
@@ -145,7 +145,7 @@ Clear the current work.
 public static void ClearCurrentWork()
 ```
 
-### GetActiveModel\(string\)
+### <a id="VM_Managed_DAFUL_Pre_Work_GetActiveModel_System_String_"></a> GetActiveModel\(string\)
 
 Gets the active model.
 If model has active item, it is active.
@@ -166,7 +166,7 @@ The item path.
 
 The active model.
 
-### GetActiveModelFromDirectory\(string\)
+### <a id="VM_Managed_DAFUL_Pre_Work_GetActiveModelFromDirectory_System_String_"></a> GetActiveModelFromDirectory\(string\)
 
 Gets the active model from directory.
 
@@ -184,7 +184,7 @@ The STR item directory.
 
  [Model](VM.Managed.DAFUL.Pre.Model.md)
 
-### GetAllModels\(\)
+### <a id="VM_Managed_DAFUL_Pre_Work_GetAllModels"></a> GetAllModels\(\)
 
 Gets all models.
 
@@ -198,7 +198,7 @@ public List<Model> GetAllModels()
 
 The Models
 
-### GetModel\(string\)
+### <a id="VM_Managed_DAFUL_Pre_Work_GetModel_System_String_"></a> GetModel\(string\)
 
 Gets the model.
 
@@ -216,7 +216,7 @@ Name of the model.
 
  [Model](VM.Managed.DAFUL.Pre.Model.md)
 
-### GetModelNameList\(\)
+### <a id="VM_Managed_DAFUL_Pre_Work_GetModelNameList"></a> GetModelNameList\(\)
 
 Gets the model name list.
 
@@ -230,12 +230,11 @@ public List<string> GetModelNameList()
 
 The name of models.
 
-### Initialize\(\)
+### <a id="VM_Managed_DAFUL_Pre_Work_Initialize"></a> Initialize\(\)
 
 Initializes this instance.
 
 ```csharp
 public override void Initialize()
 ```
-
 

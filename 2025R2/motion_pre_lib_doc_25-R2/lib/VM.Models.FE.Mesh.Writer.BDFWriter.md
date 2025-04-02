@@ -1,4 +1,4 @@
-# Class BDFWriter
+#  Class BDFWriter
 
 Namespace: [VM.Models.FE.Mesh.Writer](VM.Models.FE.Mesh.Writer.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -20,7 +20,7 @@ public static class BDFWriter
 
 ## Properties
 
-### WriteMessage
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_WriteMessage"></a> WriteMessage
 
 ```csharp
 public static Action<string> WriteMessage { get; set; }
@@ -32,7 +32,7 @@ public static Action<string> WriteMessage { get; set; }
 
 ## Methods
 
-### FormatDoubleForBDF\(double\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_FormatDoubleForBDF_System_Double_"></a> FormatDoubleForBDF\(double\)
 
 ```csharp
 public static string FormatDoubleForBDF(double dValue)
@@ -46,7 +46,7 @@ public static string FormatDoubleForBDF(double dValue)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetElementTypeName\(ElementTypes\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_GetElementTypeName_VM_Models_FE_Mesh_ElementTypes_"></a> GetElementTypeName\(ElementTypes\)
 
 ```csharp
 public static string GetElementTypeName(ElementTypes elementType)
@@ -60,7 +60,7 @@ public static string GetElementTypeName(ElementTypes elementType)
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### WriteBDFFile\(MeshFile, string, Action<TextWriter\>, Action<TextWriter\>\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_WriteBDFFile_VM_Models_FE_Mesh_MeshFile_System_String_System_Action_System_IO_TextWriter__System_Action_System_IO_TextWriter__"></a> WriteBDFFile\(MeshFile, string, Action<TextWriter\>, Action<TextWriter\>\)
 
 ```csharp
 public static void WriteBDFFile(this MeshFile file, string pathToWrite, Action<TextWriter> actWriteBeforeBulk = null, Action<TextWriter> actWriteExtra = null)
@@ -76,7 +76,7 @@ public static void WriteBDFFile(this MeshFile file, string pathToWrite, Action<T
 
 `actWriteExtra` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[TextWriter](https://learn.microsoft.com/dotnet/api/system.io.textwriter)\>
 
-### WriteBDFFile\(MeshFile, Stream, Action<TextWriter\>, Action<TextWriter\>\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_WriteBDFFile_VM_Models_FE_Mesh_MeshFile_System_IO_Stream_System_Action_System_IO_TextWriter__System_Action_System_IO_TextWriter__"></a> WriteBDFFile\(MeshFile, Stream, Action<TextWriter\>, Action<TextWriter\>\)
 
 ```csharp
 public static void WriteBDFFile(this MeshFile file, Stream stream, Action<TextWriter> actWriteBeforeBulk = null, Action<TextWriter> actWriteExtra = null)
@@ -92,7 +92,7 @@ public static void WriteBDFFile(this MeshFile file, Stream stream, Action<TextWr
 
 `actWriteExtra` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[TextWriter](https://learn.microsoft.com/dotnet/api/system.io.textwriter)\>
 
-### WriteBDFFile\(MeshFile, TextWriter, Action<TextWriter\>, Action<TextWriter\>\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_WriteBDFFile_VM_Models_FE_Mesh_MeshFile_System_IO_TextWriter_System_Action_System_IO_TextWriter__System_Action_System_IO_TextWriter__"></a> WriteBDFFile\(MeshFile, TextWriter, Action<TextWriter\>, Action<TextWriter\>\)
 
 ```csharp
 public static void WriteBDFFile(this MeshFile file, TextWriter writer, Action<TextWriter> actWriteBeforeBulk = null, Action<TextWriter> actWriteExtra = null)
@@ -108,7 +108,7 @@ public static void WriteBDFFile(this MeshFile file, TextWriter writer, Action<Te
 
 `actWriteExtra` [Action](https://learn.microsoft.com/dotnet/api/system.action\-1)<[TextWriter](https://learn.microsoft.com/dotnet/api/system.io.textwriter)\>
 
-### WriteSingleBDFElement\(TextWriter, ref int, string\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_WriteSingleBDFElement_System_IO_TextWriter_System_Int32__System_String_"></a> WriteSingleBDFElement\(TextWriter, ref int, string\)
 
 ```csharp
 public static void WriteSingleBDFElement(this TextWriter writer, ref int index, string strElement)
@@ -122,7 +122,7 @@ public static void WriteSingleBDFElement(this TextWriter writer, ref int index, 
 
 `strElement` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### WriteSingleBDFElement\(TextWriter, ref int, int\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_WriteSingleBDFElement_System_IO_TextWriter_System_Int32__System_Int32_"></a> WriteSingleBDFElement\(TextWriter, ref int, int\)
 
 ```csharp
 public static void WriteSingleBDFElement(this TextWriter writer, ref int index, int nElement)
@@ -136,7 +136,7 @@ public static void WriteSingleBDFElement(this TextWriter writer, ref int index, 
 
 `nElement` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### WriteSingleBDFElement\(TextWriter, ref int, double\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_WriteSingleBDFElement_System_IO_TextWriter_System_Int32__System_Double_"></a> WriteSingleBDFElement\(TextWriter, ref int, double\)
 
 ```csharp
 public static void WriteSingleBDFElement(this TextWriter writer, ref int index, double dElement)
@@ -150,7 +150,7 @@ public static void WriteSingleBDFElement(this TextWriter writer, ref int index, 
 
 `dElement` [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### WriteToBDF\(Node, TextWriter\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_WriteToBDF_VM_Models_FE_Mesh_Node_System_IO_TextWriter_"></a> WriteToBDF\(Node, TextWriter\)
 
 ```csharp
 public static void WriteToBDF(this Node node, TextWriter writer)
@@ -162,7 +162,7 @@ public static void WriteToBDF(this Node node, TextWriter writer)
 
 `writer` [TextWriter](https://learn.microsoft.com/dotnet/api/system.io.textwriter)
 
-### WriteToBDF\(ISO, TextWriter\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_WriteToBDF_VM_Models_FE_Mesh_Materials_ISO_System_IO_TextWriter_"></a> WriteToBDF\(ISO, TextWriter\)
 
 ```csharp
 public static void WriteToBDF(this ISO material, TextWriter writer)
@@ -174,7 +174,7 @@ public static void WriteToBDF(this ISO material, TextWriter writer)
 
 `writer` [TextWriter](https://learn.microsoft.com/dotnet/api/system.io.textwriter)
 
-### WriteToBDF\(BeamL, TextWriter\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_WriteToBDF_VM_Models_FE_Mesh_Properties_BeamL_System_IO_TextWriter_"></a> WriteToBDF\(BeamL, TextWriter\)
 
 ```csharp
 public static void WriteToBDF(this BeamL property, TextWriter writer)
@@ -186,7 +186,7 @@ public static void WriteToBDF(this BeamL property, TextWriter writer)
 
 `writer` [TextWriter](https://learn.microsoft.com/dotnet/api/system.io.textwriter)
 
-### WriteToBDF\(Solid, TextWriter\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_WriteToBDF_VM_Models_FE_Mesh_Properties_Solid_System_IO_TextWriter_"></a> WriteToBDF\(Solid, TextWriter\)
 
 ```csharp
 public static void WriteToBDF(this Solid property, TextWriter writer)
@@ -198,7 +198,7 @@ public static void WriteToBDF(this Solid property, TextWriter writer)
 
 `writer` [TextWriter](https://learn.microsoft.com/dotnet/api/system.io.textwriter)
 
-### WriteToBDF\(Beam2, TextWriter, MeshFile\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_WriteToBDF_VM_Models_FE_Mesh_Elements_Beam2_System_IO_TextWriter_VM_Models_FE_Mesh_MeshFile_"></a> WriteToBDF\(Beam2, TextWriter, MeshFile\)
 
 ```csharp
 public static void WriteToBDF(this Beam2 beam, TextWriter writer, MeshFile file)
@@ -212,7 +212,7 @@ public static void WriteToBDF(this Beam2 beam, TextWriter writer, MeshFile file)
 
 `file` [MeshFile](VM.Models.FE.Mesh.MeshFile.md)
 
-### WriteToBDF\(Element, TextWriter\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_WriteToBDF_VM_Models_FE_Mesh_Elements_Element_System_IO_TextWriter_"></a> WriteToBDF\(Element, TextWriter\)
 
 ```csharp
 public static void WriteToBDF(this Element element, TextWriter writer)
@@ -224,7 +224,7 @@ public static void WriteToBDF(this Element element, TextWriter writer)
 
 `writer` [TextWriter](https://learn.microsoft.com/dotnet/api/system.io.textwriter)
 
-### WriteToBDF\(RBE2, TextWriter\)
+### <a id="VM_Models_FE_Mesh_Writer_BDFWriter_WriteToBDF_VM_Models_FE_Mesh_Elements_RBE2_System_IO_TextWriter_"></a> WriteToBDF\(RBE2, TextWriter\)
 
 ```csharp
 public static void WriteToBDF(this RBE2 rbe, TextWriter writer)
@@ -235,5 +235,4 @@ public static void WriteToBDF(this RBE2 rbe, TextWriter writer)
 `rbe` [RBE2](VM.Models.FE.Mesh.Elements.RBE2.md)
 
 `writer` [TextWriter](https://learn.microsoft.com/dotnet/api/system.io.textwriter)
-
 

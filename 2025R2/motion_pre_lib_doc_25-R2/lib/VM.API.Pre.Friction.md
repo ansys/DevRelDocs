@@ -1,4 +1,4 @@
-# Class Friction
+#  Class Friction
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -29,7 +29,7 @@ public class Friction
 
 ## Constructors
 
-### Friction\(\)
+### <a id="VM_API_Pre_Friction__ctor"></a> Friction\(\)
 
 Default constructor
 
@@ -37,7 +37,7 @@ Default constructor
 public Friction()
 ```
 
-### Friction\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, EffectType\)
+### <a id="VM_API_Pre_Friction__ctor_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Managed_DAFUL_Constraints_Friction_EffectType_"></a> Friction\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, EffectType\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.Friction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -71,7 +71,7 @@ The max stiction deformation.
 
 The friction effect.
 
-### Friction\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, EffectType, bool, bool\)
+### <a id="VM_API_Pre_Friction__ctor_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Managed_DAFUL_Constraints_Friction_EffectType_System_Boolean_System_Boolean_"></a> Friction\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, EffectType, bool, bool\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.Friction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ The bending moment.
 
 ## Properties
 
-### BendingMoment
+### <a id="VM_API_Pre_Friction_BendingMoment"></a> BendingMoment
 
 The value for the bending moment. The default value is 'true'.
 
@@ -127,7 +127,7 @@ public bool BendingMoment { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### DynamicsThreshold
+### <a id="VM_API_Pre_Friction_DynamicsThreshold"></a> DynamicsThreshold
 
 The value for the dynamics threshold. The default value is 0.15.
 
@@ -139,7 +139,7 @@ public ExpressionValueVariable DynamicsThreshold { get; set; }
 
  ExpressionValueVariable
 
-### FrictionCoefficient
+### <a id="VM_API_Pre_Friction_FrictionCoefficient"></a> FrictionCoefficient
 
 The value for the friction coefficient. The default value is 0.3.
 
@@ -151,7 +151,7 @@ public ExpressionValueVariable FrictionCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### FrictionEffect
+### <a id="VM_API_Pre_Friction_FrictionEffect"></a> FrictionEffect
 
 The value for the friction effect. The default value is <xref href="VM.Managed.DAFUL.Constraints.Friction.EffectType.SlidingAndStiction" data-throw-if-not-resolved="false"></xref>.
 
@@ -163,7 +163,7 @@ public Friction.EffectType FrictionEffect { get; set; }
 
  Friction.EffectType
 
-### MaxStictionDeformation
+### <a id="VM_API_Pre_Friction_MaxStictionDeformation"></a> MaxStictionDeformation
 
 The value for the max stiction deformation. The default value is 0.01.
 
@@ -175,7 +175,7 @@ public ExpressionValueVariable MaxStictionDeformation { get; set; }
 
  ExpressionValueVariable
 
-### ReactionForce
+### <a id="VM_API_Pre_Friction_ReactionForce"></a> ReactionForce
 
 The value for the reaction force. The default value is 'true'.
 
@@ -187,7 +187,7 @@ public bool ReactionForce { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### StaticFrictionCoefficient
+### <a id="VM_API_Pre_Friction_StaticFrictionCoefficient"></a> StaticFrictionCoefficient
 
 The value for the static friction coefficient. The default value is 0.5.
 
@@ -199,7 +199,7 @@ public ExpressionValueVariable StaticFrictionCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### StictionVelocity
+### <a id="VM_API_Pre_Friction_StictionVelocity"></a> StictionVelocity
 
 The value for the stiction velocity. The default value is 0.1.
 
@@ -210,5 +210,4 @@ public ExpressionValueVariable StictionVelocity { get; set; }
 #### Property Value
 
  ExpressionValueVariable
-
 

@@ -1,4 +1,4 @@
-# Class TrapezoidCleat
+#  Class TrapezoidCleat
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -29,7 +29,7 @@ public class TrapezoidCleat : CleatShape
 
 ## Constructors
 
-### TrapezoidCleat\(\)
+### <a id="VM_Managed_DAFUL_Car_TrapezoidCleat__ctor"></a> TrapezoidCleat\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TrapezoidCleat" data-throw-if-not-resolved="false"></xref> class.
 
@@ -37,7 +37,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TrapezoidClea
 public TrapezoidCleat()
 ```
 
-### TrapezoidCleat\(AnalysisRideDrum\)
+### <a id="VM_Managed_DAFUL_Car_TrapezoidCleat__ctor_VM_Managed_DAFUL_Car_AnalysisRideDrum_"></a> TrapezoidCleat\(AnalysisRideDrum\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TrapezoidCleat" data-throw-if-not-resolved="false"></xref> class.
 
@@ -53,7 +53,7 @@ The ride drum.
 
 ## Properties
 
-### BottomLength
+### <a id="VM_Managed_DAFUL_Car_TrapezoidCleat_BottomLength"></a> BottomLength
 
 Gets or sets the length of the bottom.
 
@@ -65,7 +65,7 @@ public double BottomLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Height
+### <a id="VM_Managed_DAFUL_Car_TrapezoidCleat_Height"></a> Height
 
 Gets or sets the height.
 
@@ -77,7 +77,7 @@ public double Height { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TopLength
+### <a id="VM_Managed_DAFUL_Car_TrapezoidCleat_TopLength"></a> TopLength
 
 Gets or sets the length of the top.
 
@@ -89,7 +89,7 @@ public double TopLength { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TypeOfCleatShape
+### <a id="VM_Managed_DAFUL_Car_TrapezoidCleat_TypeOfCleatShape"></a> TypeOfCleatShape
 
 Gets the type of cleat shape.
 
@@ -103,7 +103,7 @@ public override CleatShapeType TypeOfCleatShape { get; }
 
 ## Methods
 
-### GetXZData\(double\)
+### <a id="VM_Managed_DAFUL_Car_TrapezoidCleat_GetXZData_System_Double_"></a> GetXZData\(double\)
 
 Gets the XZ data.
 
@@ -120,5 +120,4 @@ The d end time.
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

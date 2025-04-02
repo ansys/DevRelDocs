@@ -1,4 +1,4 @@
-# Interface IPointBase
+#  Interface IPointBase
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -26,7 +26,7 @@ IHasID,
 
 ## Properties
 
-### Value
+### <a id="VM_Models_Pre_IPointBase_Value"></a> Value
 
 <p>Gets the value.</p>
 
@@ -38,7 +38,7 @@ Vector Value { get; }
 
  Vector
 
-### X
+### <a id="VM_Models_Pre_IPointBase_X"></a> X
 
 <p>Gets the X point.</p>
 
@@ -50,7 +50,7 @@ double X { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_Models_Pre_IPointBase_Y"></a> Y
 
 <p>Gets the Y point.</p>
 
@@ -62,7 +62,7 @@ double Y { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Z
+### <a id="VM_Models_Pre_IPointBase_Z"></a> Z
 
 <p>Gets the Z point.</p>
 
@@ -73,5 +73,4 @@ double Z { get; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

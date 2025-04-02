@@ -1,4 +1,4 @@
-# Enum Configuration.BodyOrientation
+#  Enum Configuration.BodyOrientation
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -20,7 +20,6 @@ Euler Angles
 `EulerParameters = 1` 
 
 Euler Parameters
-
 
 
 

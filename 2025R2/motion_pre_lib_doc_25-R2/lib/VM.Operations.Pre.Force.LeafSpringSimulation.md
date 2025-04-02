@@ -1,4 +1,4 @@
-# Class LeafSpringSimulation
+#  Class LeafSpringSimulation
 
 Namespace: [VM.Operations.Pre.Force](VM.Operations.Pre.Force.md)  
 Assembly: VM.Operations.Pre.Force.dll  
@@ -75,7 +75,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### LeafSpringSimulation\(Func<LeafSpring\>, bool\)
+### <a id="VM_Operations_Pre_Force_LeafSpringSimulation__ctor_System_Func_VM_Models_Pre_Force_LeafSpring__System_Boolean_"></a> LeafSpringSimulation\(Func<LeafSpring\>, bool\)
 
 ```csharp
 public LeafSpringSimulation(Func<LeafSpring> getLeafSpring, bool isForceTest)
@@ -87,7 +87,7 @@ public LeafSpringSimulation(Func<LeafSpring> getLeafSpring, bool isForceTest)
 
 `isForceTest` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LeafSpringSimulation\(LeafSpring, bool\)
+### <a id="VM_Operations_Pre_Force_LeafSpringSimulation__ctor_VM_Models_Pre_Force_LeafSpring_System_Boolean_"></a> LeafSpringSimulation\(LeafSpring, bool\)
 
 ```csharp
 public LeafSpringSimulation(LeafSpring leafSpring, bool isForceTest)
@@ -99,7 +99,7 @@ public LeafSpringSimulation(LeafSpring leafSpring, bool isForceTest)
 
 `isForceTest` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LeafSpringSimulation\(JournalParameter\)
+### <a id="VM_Operations_Pre_Force_LeafSpringSimulation__ctor_VM_Managed_Operation_JournalParameter_"></a> LeafSpringSimulation\(JournalParameter\)
 
 ```csharp
 public LeafSpringSimulation(JournalParameter jp)
@@ -111,7 +111,7 @@ public LeafSpringSimulation(JournalParameter jp)
 
 ## Properties
 
-### GetLeafSpring
+### <a id="VM_Operations_Pre_Force_LeafSpringSimulation_GetLeafSpring"></a> GetLeafSpring
 
 ```csharp
 public Func<LeafSpring> GetLeafSpring { get; }
@@ -121,7 +121,7 @@ public Func<LeafSpring> GetLeafSpring { get; }
 
  [Func](https://learn.microsoft.com/dotnet/api/system.func\-1)<LeafSpring\>
 
-### IsForceTest
+### <a id="VM_Operations_Pre_Force_LeafSpringSimulation_IsForceTest"></a> IsForceTest
 
 ```csharp
 public bool IsForceTest { get; }
@@ -131,7 +131,7 @@ public bool IsForceTest { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Operations_Pre_Force_LeafSpringSimulation_Name"></a> Name
 
 Gets the operation name.
 
@@ -143,7 +143,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ResultFolderPath
+### <a id="VM_Operations_Pre_Force_LeafSpringSimulation_ResultFolderPath"></a> ResultFolderPath
 
 ```csharp
 public string ResultFolderPath { get; }
@@ -155,7 +155,7 @@ public string ResultFolderPath { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Operations_Pre_Force_LeafSpringSimulation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -163,7 +163,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Operations_Pre_Force_LeafSpringSimulation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -176,5 +176,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

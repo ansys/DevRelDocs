@@ -1,4 +1,4 @@
-# Class SlidingBearingGeom
+#  Class SlidingBearingGeom
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -296,7 +296,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SlidingBearingGeom\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingGeom__ctor"></a> SlidingBearingGeom\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.SlidingBearingGeom" data-throw-if-not-resolved="false"></xref> class.
 
@@ -304,7 +304,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.Sli
 public SlidingBearingGeom()
 ```
 
-### SlidingBearingGeom\(Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingGeom__ctor_VM_Managed_CAD_Builder_"></a> SlidingBearingGeom\(Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.CAD.SlidingBearingGeom" data-throw-if-not-resolved="false"></xref> class.
 
@@ -320,7 +320,7 @@ The builder.
 
 ## Methods
 
-### GetLengthAndHeight\(ref double, ref double\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingGeom_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
 
 Gets the start and end point.
 
@@ -338,7 +338,7 @@ Length of the d.
 
 Height of the d.
 
-### GetNameWhenDelete\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingGeom_GetNameWhenDelete"></a> GetNameWhenDelete\(\)
 
 Gets the name when delete.
 
@@ -350,7 +350,7 @@ protected override string GetNameWhenDelete()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### LinkRequestDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_SlidingBearingGeom_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
 Links the request destroy.
 
@@ -367,5 +367,4 @@ The object notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

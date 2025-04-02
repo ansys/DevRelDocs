@@ -1,4 +1,4 @@
-# Class EHDBearing
+#  Class EHDBearing
 
 Namespace: [VM.Managed.DAFUL.Bearing](VM.Managed.DAFUL.Bearing.md)  
 Assembly: VMDEHDBearing.dll  
@@ -207,7 +207,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### EHDBearing\(\)
+### <a id="VM_Managed_DAFUL_Bearing_EHDBearing__ctor"></a> EHDBearing\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.EHDBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -215,7 +215,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.EHDBearin
 public EHDBearing()
 ```
 
-### EHDBearing\(string\)
+### <a id="VM_Managed_DAFUL_Bearing_EHDBearing__ctor_System_String_"></a> EHDBearing\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.EHDBearing" data-throw-if-not-resolved="false"></xref> class.
 
@@ -231,7 +231,7 @@ Name of the STR.
 
 ## Properties
 
-### ActionGeometry
+### <a id="VM_Managed_DAFUL_Bearing_EHDBearing_ActionGeometry"></a> ActionGeometry
 
 Gets or sets the action geometry.
 
@@ -243,7 +243,7 @@ public ObjectBase ActionGeometry { get; set; }
 
  ObjectBase
 
-### BaseGeometry
+### <a id="VM_Managed_DAFUL_Bearing_EHDBearing_BaseGeometry"></a> BaseGeometry
 
 Gets or sets the base geometry.
 
@@ -255,7 +255,7 @@ public ObjectBase BaseGeometry { get; set; }
 
  ObjectBase
 
-### HasLayerExplicitly
+### <a id="VM_Managed_DAFUL_Bearing_EHDBearing_HasLayerExplicitly"></a> HasLayerExplicitly
 
 Gets a value indicating whether object has a layer explicitly.
 
@@ -267,7 +267,7 @@ protected override bool HasLayerExplicitly { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Hide
+### <a id="VM_Managed_DAFUL_Bearing_EHDBearing_Hide"></a> Hide
 
 Gets or sets a value indicating whether this instance is hide.
 
@@ -281,7 +281,7 @@ public bool Hide { get; set; }
 
 ## Methods
 
-### Draw\(Canvas\)
+### <a id="VM_Managed_DAFUL_Bearing_EHDBearing_Draw_VM_CAD_Kernel_Render_Canvas_"></a> Draw\(Canvas\)
 
 Draws the icon.
 
@@ -295,7 +295,7 @@ public virtual void Draw(Canvas canvas)
 
 The canvas has icon information.
 
-### GetCylinderMesh\(ref int\[\], ref Vector\[\], ref Vector\[\]\)
+### <a id="VM_Managed_DAFUL_Bearing_EHDBearing_GetCylinderMesh_System_Int32____VM_Vector____VM_Vector____"></a> GetCylinderMesh\(ref int\[\], ref Vector\[\], ref Vector\[\]\)
 
 Get cylinder mesh information
 
@@ -317,7 +317,7 @@ The base node positions as result
 
 The action node positions as result
 
-### GetCylinderMeshForPreview\(int, int, Vector, OMatrix, Vector, OMatrix, double, double, double, ref Vector\[\], ref Vector\[\]\)
+### <a id="VM_Managed_DAFUL_Bearing_EHDBearing_GetCylinderMeshForPreview_System_Int32_System_Int32_VM_Vector_VM_OMatrix_VM_Vector_VM_OMatrix_System_Double_System_Double_System_Double_VM_Vector____VM_Vector____"></a> GetCylinderMeshForPreview\(int, int, Vector, OMatrix, Vector, OMatrix, double, double, double, ref Vector\[\], ref Vector\[\]\)
 
 Get cylinder mesh information
 
@@ -371,7 +371,7 @@ The base node positions as result
 
 The action node positions as result
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_Bearing_EHDBearing_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -399,12 +399,11 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### ReDraw\(\)
+### <a id="VM_Managed_DAFUL_Bearing_EHDBearing_ReDraw"></a> ReDraw\(\)
 
 Redraw.
 
 ```csharp
 public virtual void ReDraw()
 ```
-
 

@@ -1,4 +1,4 @@
-# Enum PropertyMotorEMForce.MaxwellSkewModelType
+#  Enum PropertyMotorEMForce.MaxwellSkewModelType
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,7 +26,6 @@ Rotor skew
 `Stator = 1` 
 
 Stator skew
-
 
 
 

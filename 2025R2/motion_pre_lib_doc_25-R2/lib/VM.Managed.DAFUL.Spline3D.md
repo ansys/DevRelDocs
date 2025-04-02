@@ -1,4 +1,4 @@
-# Class Spline3D
+#  Class Spline3D
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -172,7 +172,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Spline3D\(\)
+### <a id="VM_Managed_DAFUL_Spline3D__ctor"></a> Spline3D\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Spline3D" data-throw-if-not-resolved="false"></xref> class.
 
@@ -180,7 +180,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Spline3D" data-th
 public Spline3D()
 ```
 
-### Spline3D\(string\)
+### <a id="VM_Managed_DAFUL_Spline3D__ctor_System_String_"></a> Spline3D\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Spline3D" data-throw-if-not-resolved="false"></xref> class.
 
@@ -196,7 +196,7 @@ Name of the spline.
 
 ## Properties
 
-### ArgumentType
+### <a id="VM_Managed_DAFUL_Spline3D_ArgumentType"></a> ArgumentType
 
 Gets the type of the argument
 
@@ -208,7 +208,7 @@ public ArgumentTypes ArgumentType { get; }
 
  ArgumentTypes
 
-### Points
+### <a id="VM_Managed_DAFUL_Spline3D_Points"></a> Points
 
 Gets or sets the Points.
 
@@ -220,7 +220,7 @@ public string[] Points { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### PointsMatrix
+### <a id="VM_Managed_DAFUL_Spline3D_PointsMatrix"></a> PointsMatrix
 
 Gets or sets the Points.
 
@@ -232,7 +232,7 @@ public double[,] PointsMatrix { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[,\]
 
-### ReferenceType
+### <a id="VM_Managed_DAFUL_Spline3D_ReferenceType"></a> ReferenceType
 
 Gets the type of the string for argument.
 
@@ -244,7 +244,7 @@ public string ReferenceType { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### XScale
+### <a id="VM_Managed_DAFUL_Spline3D_XScale"></a> XScale
 
 Gets or sets the X scale.
 
@@ -256,7 +256,7 @@ public ExpressionValueVariable XScale { get; set; }
 
  ExpressionValueVariable
 
-### YScale
+### <a id="VM_Managed_DAFUL_Spline3D_YScale"></a> YScale
 
 Gets or sets the Y scale.
 
@@ -268,7 +268,7 @@ public ExpressionValueVariable YScale { get; set; }
 
  ExpressionValueVariable
 
-### ZScale
+### <a id="VM_Managed_DAFUL_Spline3D_ZScale"></a> ZScale
 
 Gets or sets the Z scale.
 
@@ -282,7 +282,7 @@ public ExpressionValueVariable ZScale { get; set; }
 
 ## Methods
 
-### GetDataX\(\)
+### <a id="VM_Managed_DAFUL_Spline3D_GetDataX"></a> GetDataX\(\)
 
 ```csharp
 public double[] GetDataX()
@@ -292,7 +292,7 @@ public double[] GetDataX()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### GetDataY\(\)
+### <a id="VM_Managed_DAFUL_Spline3D_GetDataY"></a> GetDataY\(\)
 
 ```csharp
 public double[] GetDataY()
@@ -302,7 +302,7 @@ public double[] GetDataY()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### GetDataZ\(\)
+### <a id="VM_Managed_DAFUL_Spline3D_GetDataZ"></a> GetDataZ\(\)
 
 ```csharp
 public double[] GetDataZ()
@@ -312,7 +312,7 @@ public double[] GetDataZ()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Spline3D_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -326,7 +326,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Spline3D_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -344,7 +344,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Spline3D_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -358,7 +358,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Spline3D_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -371,5 +371,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

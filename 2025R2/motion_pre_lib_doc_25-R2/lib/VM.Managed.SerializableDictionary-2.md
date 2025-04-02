@@ -1,4 +1,4 @@
-# Class SerializableDictionary<TKey, TValue\>
+#  Class SerializableDictionary<TKey, TValue\>
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -29,7 +29,7 @@ public class SerializableDictionary<TKey, TValue> : Dictionary<TKey, TValue>
 
 ## Constructors
 
-### SerializableDictionary\(\)
+### <a id="VM_Managed_SerializableDictionary_2__ctor"></a> SerializableDictionary\(\)
 
 SerializableDictionary Constructor
 
@@ -37,7 +37,7 @@ SerializableDictionary Constructor
 public SerializableDictionary()
 ```
 
-### SerializableDictionary\(Dictionary<TKey, TValue\>\)
+### <a id="VM_Managed_SerializableDictionary_2__ctor_System_Collections_Generic_Dictionary__0__1__"></a> SerializableDictionary\(Dictionary<TKey, TValue\>\)
 
 SerializableDictionary Constructor
 
@@ -51,7 +51,7 @@ public SerializableDictionary(Dictionary<TKey, TValue> dic)
 
 ## Methods
 
-### CopyTo\(ref Dictionary<TKey, TValue\>\)
+### <a id="VM_Managed_SerializableDictionary_2_CopyTo_System_Collections_Generic_Dictionary__0__1___"></a> CopyTo\(ref Dictionary<TKey, TValue\>\)
 
 CopyTo
 
@@ -63,7 +63,7 @@ public void CopyTo(ref Dictionary<TKey, TValue> dic)
 
 `dic` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<TKey, TValue\>
 
-### GetSchema\(\)
+### <a id="VM_Managed_SerializableDictionary_2_GetSchema"></a> GetSchema\(\)
 
 GetSchema
 
@@ -75,7 +75,7 @@ public XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_SerializableDictionary_2_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 ReadXml
 
@@ -87,7 +87,7 @@ public void ReadXml(XmlReader reader)
 
 `reader` [XmlReader](https://learn.microsoft.com/dotnet/api/system.xml.xmlreader)
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_SerializableDictionary_2_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 WriteXml
 
@@ -98,5 +98,4 @@ public void WriteXml(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

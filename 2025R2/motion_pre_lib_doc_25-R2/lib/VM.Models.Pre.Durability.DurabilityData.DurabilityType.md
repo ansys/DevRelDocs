@@ -1,4 +1,4 @@
-# Enum DurabilityData.DurabilityType
+#  Enum DurabilityData.DurabilityType
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -12,5 +12,4 @@ public enum DurabilityData.DurabilityType
 `Body = 0` 
 
 `Gear = 1` 
-
 

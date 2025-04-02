@@ -1,4 +1,4 @@
-# Enum BoltingType
+#  Enum BoltingType
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -20,7 +20,6 @@ Bushing
 `Fixed = 0` 
 
 Fixed
-
 
 
 

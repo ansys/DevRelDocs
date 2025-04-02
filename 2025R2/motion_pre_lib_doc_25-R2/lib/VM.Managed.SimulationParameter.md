@@ -1,4 +1,4 @@
-# Class SimulationParameter
+#  Class SimulationParameter
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -22,7 +22,7 @@ public class SimulationParameter
 
 ## Constructors
 
-### SimulationParameter\(\)
+### <a id="VM_Managed_SimulationParameter__ctor"></a> SimulationParameter\(\)
 
 ```csharp
 public SimulationParameter()
@@ -30,7 +30,7 @@ public SimulationParameter()
 
 ## Properties
 
-### OwnerLinkContainer
+### <a id="VM_Managed_SimulationParameter_OwnerLinkContainer"></a> OwnerLinkContainer
 
 Gets the owner.
 
@@ -42,7 +42,7 @@ public LinkContainer OwnerLinkContainer { set; }
 
  LinkContainer
 
-### RelativeErrorValue
+### <a id="VM_Managed_SimulationParameter_RelativeErrorValue"></a> RelativeErrorValue
 
 Gets or sets the relative error.
 
@@ -54,7 +54,7 @@ public double RelativeErrorValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### RoundErrorOfRedundant
+### <a id="VM_Managed_SimulationParameter_RoundErrorOfRedundant"></a> RoundErrorOfRedundant
 
 Gets or sets the round error of redundant.
 
@@ -66,7 +66,7 @@ public double RoundErrorOfRedundant { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TimeOfDynamicSimulation
+### <a id="VM_Managed_SimulationParameter_TimeOfDynamicSimulation"></a> TimeOfDynamicSimulation
 
 Gets or sets the dynamic simulation time.
 
@@ -78,7 +78,7 @@ public double TimeOfDynamicSimulation { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TimeOfStaticSimulation
+### <a id="VM_Managed_SimulationParameter_TimeOfStaticSimulation"></a> TimeOfStaticSimulation
 
 Gets or sets the static simulation time.
 
@@ -92,12 +92,11 @@ public double TimeOfStaticSimulation { get; set; }
 
 ## Methods
 
-### SetModified\(\)
+### <a id="VM_Managed_SimulationParameter_SetModified"></a> SetModified\(\)
 
 Set modified flag.
 
 ```csharp
 protected void SetModified()
 ```
-
 

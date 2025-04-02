@@ -1,4 +1,4 @@
-# Class OrientationBBP
+#  Class OrientationBBP
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  
@@ -61,10 +61,9 @@ BuilderBase<Orientation\>.ErrorMessage
 
 ## Constructors
 
-### OrientationBBP\(\)
+### <a id="VM_Managed_DAFUL_Builder_Constraints_OrientationBBP__ctor"></a> OrientationBBP\(\)
 
 ```csharp
 public OrientationBBP()
 ```
-
 

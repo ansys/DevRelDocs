@@ -1,4 +1,4 @@
-# Class CADOperation.SetMarkerTramsformOp
+#  Class CADOperation.SetMarkerTramsformOp
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### SetMarkerTramsformOp\(\)
+### <a id="VM_Managed_CADOperation_SetMarkerTramsformOp__ctor"></a> SetMarkerTramsformOp\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CADOperation.SetMarkerTramsformOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.CADOperation.SetMarkerT
 public SetMarkerTramsformOp()
 ```
 
-### SetMarkerTramsformOp\(DesignFrame, TransformBase\)
+### <a id="VM_Managed_CADOperation_SetMarkerTramsformOp__ctor_VM_Managed_DesignFrame_VM_Managed_TransformBase_"></a> SetMarkerTramsformOp\(DesignFrame, TransformBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CADOperation.SetMarkerTramsformOp" data-throw-if-not-resolved="false"></xref> class.
 
@@ -105,7 +105,7 @@ The transform.
 
 ## Properties
 
-### IsHistoryMerge
+### <a id="VM_Managed_CADOperation_SetMarkerTramsformOp_IsHistoryMerge"></a> IsHistoryMerge
 
 Gets the history merge flag.
 
@@ -117,7 +117,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_CADOperation_SetMarkerTramsformOp_Name"></a> Name
 
 Gets the Name.
 
@@ -131,12 +131,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_CADOperation_SetMarkerTramsformOp_Execute"></a> Execute\(\)
 
 Executes this instance.
 
 ```csharp
 public override void Execute()
 ```
-
 

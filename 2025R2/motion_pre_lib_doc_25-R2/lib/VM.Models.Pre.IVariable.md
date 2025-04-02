@@ -1,4 +1,4 @@
-# Interface IVariable
+#  Interface IVariable
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -26,7 +26,7 @@ IHasID,
 
 ## Properties
 
-### IsSimpleValue
+### <a id="VM_Models_Pre_IVariable_IsSimpleValue"></a> IsSimpleValue
 
 <p>Gets the isSimpleValue.</p>
 
@@ -38,7 +38,7 @@ bool IsSimpleValue { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Value
+### <a id="VM_Models_Pre_IVariable_Value"></a> Value
 
 <p>Gets the variable.</p>
 
@@ -49,5 +49,4 @@ double Value { get; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

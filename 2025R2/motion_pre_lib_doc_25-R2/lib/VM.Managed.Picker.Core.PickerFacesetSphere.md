@@ -1,4 +1,4 @@
-# Class PickerFacesetSphere
+#  Class PickerFacesetSphere
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -65,7 +65,7 @@ public class PickerFacesetSphere : PickerFaceset
 
 ## Constructors
 
-### PickerFacesetSphere\(\)
+### <a id="VM_Managed_Picker_Core_PickerFacesetSphere__ctor"></a> PickerFacesetSphere\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerFacesetSphere" data-throw-if-not-resolved="false"></xref> class
 
@@ -75,7 +75,7 @@ public PickerFacesetSphere()
 
 ## Methods
 
-### GetPickerInfo\(\)
+### <a id="VM_Managed_Picker_Core_PickerFacesetSphere_GetPickerInfo"></a> GetPickerInfo\(\)
 
 Gets information of picking type.
 
@@ -86,5 +86,4 @@ public override string GetPickerInfo()
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

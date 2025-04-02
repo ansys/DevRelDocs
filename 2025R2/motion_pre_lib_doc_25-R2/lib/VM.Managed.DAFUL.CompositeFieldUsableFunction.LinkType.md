@@ -1,4 +1,4 @@
-# Enum CompositeFieldUsableFunction.LinkType
+#  Enum CompositeFieldUsableFunction.LinkType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -20,7 +20,6 @@ The external
 `Internal = 0` 
 
 The internal
-
 
 
 

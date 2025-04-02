@@ -1,4 +1,4 @@
-# Class ExternalLoadAPI
+#  Class ExternalLoadAPI
 
 Namespace: [VM.API.Pre.FE](VM.API.Pre.FE.md)  
 Assembly: VM.API.Pre.FE.dll  
@@ -22,7 +22,7 @@ public static class ExternalLoadAPI
 
 ## Methods
 
-### CreateExternalLoad\(SubSystemDocument, Obj, string\)
+### <a id="VM_API_Pre_FE_ExternalLoadAPI_CreateExternalLoad_VM_Managed_DAFUL_SubSystemDocument_VM_API_Pre_Obj_System_String_"></a> CreateExternalLoad\(SubSystemDocument, Obj, string\)
 
 Create <xref href="VM.Models.Pre.Force.ExternalLoad" data-throw-if-not-resolved="false"></xref>
 
@@ -57,5 +57,4 @@ the new <xref href="VM.Models.Pre.Force.ExternalLoad" data-throw-if-not-resolved
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'subSystemDocument', 'body' argument is null.
-
 

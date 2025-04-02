@@ -1,4 +1,4 @@
-# Class ReferenceConnectable
+#  Class ReferenceConnectable
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -191,7 +191,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ReferenceConnectable\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_DAFUL_ReferenceConnectable__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> ReferenceConnectable\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferenceConnectable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -209,7 +209,7 @@ The info.
 
 The context.
 
-### ReferenceConnectable\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_ReferenceConnectable__ctor_VM_Managed_ObjectBase_"></a> ReferenceConnectable\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.ReferenceConnectable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -225,7 +225,7 @@ The reference's object.
 
 ## Properties
 
-### Body
+### <a id="VM_Managed_DAFUL_ReferenceConnectable_Body"></a> Body
 
 Gets the body.
 
@@ -237,7 +237,7 @@ public IBody Body { get; }
 
  IBody
 
-### ConnectableBody
+### <a id="VM_Managed_DAFUL_ReferenceConnectable_ConnectableBody"></a> ConnectableBody
 
 Gets the connectable body.
 
@@ -249,7 +249,7 @@ public ObjectBase ConnectableBody { get; }
 
  ObjectBase
 
-### ConnectableFullName
+### <a id="VM_Managed_DAFUL_ReferenceConnectable_ConnectableFullName"></a> ConnectableFullName
 
 Gets the full name of the connectable.
 
@@ -261,7 +261,7 @@ public virtual string ConnectableFullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectableName
+### <a id="VM_Managed_DAFUL_ReferenceConnectable_ConnectableName"></a> ConnectableName
 
 Gets the name of the connectable.
 
@@ -273,7 +273,7 @@ public virtual string ConnectableName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ConnectablePosition
+### <a id="VM_Managed_DAFUL_ReferenceConnectable_ConnectablePosition"></a> ConnectablePosition
 
 Sets the connectable position.
 
@@ -285,7 +285,7 @@ public Vector ConnectablePosition { set; }
 
  Vector
 
-### ConnectablePostfixName
+### <a id="VM_Managed_DAFUL_ReferenceConnectable_ConnectablePostfixName"></a> ConnectablePostfixName
 
 Sets the postfix name of the connectable.
 
@@ -297,7 +297,7 @@ public virtual string ConnectablePostfixName { set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ParentType
+### <a id="VM_Managed_DAFUL_ReferenceConnectable_ParentType"></a> ParentType
 
 Gets the type of the parent.
 
@@ -309,7 +309,7 @@ public virtual MarkerParentType ParentType { get; }
 
  [MarkerParentType](VM.Managed.DAFUL.MarkerParentType.md)
 
-### ReferenceFrameType
+### <a id="VM_Managed_DAFUL_ReferenceConnectable_ReferenceFrameType"></a> ReferenceFrameType
 
 Gets the type of the reference frame.
 
@@ -321,7 +321,7 @@ public MarkerReferenceFrameType ReferenceFrameType { get; }
 
  [MarkerReferenceFrameType](VM.Managed.DAFUL.MarkerReferenceFrameType.md)
 
-### TopologyEntityTypeName
+### <a id="VM_Managed_DAFUL_ReferenceConnectable_TopologyEntityTypeName"></a> TopologyEntityTypeName
 
 The type name of topology entity.
 
@@ -335,7 +335,7 @@ public override string TopologyEntityTypeName { get; }
 
 ## Methods
 
-### GetContactables\(\)
+### <a id="VM_Managed_DAFUL_ReferenceConnectable_GetContactables"></a> GetContactables\(\)
 
 Get connectables
 
@@ -349,7 +349,7 @@ public override ObjectBase[] GetContactables()
 
 The array of connectables
 
-### GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
+### <a id="VM_Managed_DAFUL_ReferenceConnectable_GetModelNavigatorInformationImpl_System_Xml_XmlDocument_System_Xml_XmlElement_System_Boolean_"></a> GetModelNavigatorInformationImpl\(XmlDocument, XmlElement, bool\)
 
 Gets the object information for model navigator [implementation].
 
@@ -377,7 +377,7 @@ if set to <code>true</code> [has child].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
+### <a id="VM_Managed_DAFUL_ReferenceConnectable_GetPointDirection_VM_Managed_VectorBase__VM_Managed_VectorBase__VM_Managed_IReferencable_"></a> GetPointDirection\(ref VectorBase, ref VectorBase, IReferencable\)
 
 Gets the geometry's point and direction.
 
@@ -405,7 +405,7 @@ The reference [no use].
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### IsAutoContactable\(\)
+### <a id="VM_Managed_DAFUL_ReferenceConnectable_IsAutoContactable"></a> IsAutoContactable\(\)
 
 Check this is auto connectable
 
@@ -418,5 +418,4 @@ public override bool IsAutoContactable()
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 true if auto connectable, otherwise false.
-
 

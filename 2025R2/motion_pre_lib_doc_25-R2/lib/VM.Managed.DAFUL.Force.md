@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Force
+#  Namespace VM.Managed.DAFUL.Force
 
 ### Classes
 
@@ -169,5 +169,4 @@ UserType
  [MatrixForceStandard.ViscousDampingType](VM.Managed.DAFUL.Force.MatrixForceStandard.ViscousDampingType.md)
 
 Specifies type for a viscous damping.
-
 

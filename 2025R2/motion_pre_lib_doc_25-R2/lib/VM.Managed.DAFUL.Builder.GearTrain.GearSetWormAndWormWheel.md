@@ -1,4 +1,4 @@
-# Class GearSetWormAndWormWheel
+#  Class GearSetWormAndWormWheel
 
 Namespace: [VM.Managed.DAFUL.Builder.GearTrain](VM.Managed.DAFUL.Builder.GearTrain.md)  
 Assembly: VMBldGearTrain.dll  
@@ -73,7 +73,7 @@ BuilderBase<GearSetWormAndWormWheel\>.ErrorMessage
 
 ## Constructors
 
-### GearSetWormAndWormWheel\(\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetWormAndWormWheel__ctor"></a> GearSetWormAndWormWheel\(\)
 
 ```csharp
 public GearSetWormAndWormWheel()
@@ -81,7 +81,7 @@ public GearSetWormAndWormWheel()
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetWormAndWormWheel_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -97,7 +97,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_GearTrain_GearSetWormAndWormWheel_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public override bool Validate(IList<string> lstErrorMessage)
@@ -110,5 +110,4 @@ public override bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

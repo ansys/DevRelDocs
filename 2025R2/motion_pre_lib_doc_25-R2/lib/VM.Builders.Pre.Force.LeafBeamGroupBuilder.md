@@ -1,4 +1,4 @@
-# Class LeafBeamGroupBuilder
+#  Class LeafBeamGroupBuilder
 
 Namespace: [VM.Builders.Pre.Force](VM.Builders.Pre.Force.md)  
 Assembly: VM.Operations.Pre.Force.dll  
@@ -69,7 +69,7 @@ BuilderBase<BeamGroup\>.ErrorMessage
 
 ## Constructors
 
-### LeafBeamGroupBuilder\(Leaf, LeafInfo, Vector\[\], TMatrix, bool\)
+### <a id="VM_Builders_Pre_Force_LeafBeamGroupBuilder__ctor_VM_Models_Pre_Force_Leaf_VM_Models_Pre_Force_LeafInfo_VM_Vector___VM_TMatrix_System_Boolean_"></a> LeafBeamGroupBuilder\(Leaf, LeafInfo, Vector\[\], TMatrix, bool\)
 
 ```csharp
 public LeafBeamGroupBuilder(Leaf leaf, LeafInfo leafInfo, Vector[] positions = null, TMatrix repositionMatrix = default, bool useCustomize = false)
@@ -89,7 +89,7 @@ public LeafBeamGroupBuilder(Leaf leaf, LeafInfo leafInfo, Vector[] positions = n
 
 ## Properties
 
-### Leaf
+### <a id="VM_Builders_Pre_Force_LeafBeamGroupBuilder_Leaf"></a> Leaf
 
 ```csharp
 public Leaf Leaf { get; }
@@ -99,7 +99,7 @@ public Leaf Leaf { get; }
 
  Leaf
 
-### LeafInfo
+### <a id="VM_Builders_Pre_Force_LeafBeamGroupBuilder_LeafInfo"></a> LeafInfo
 
 ```csharp
 public LeafInfo LeafInfo { get; }
@@ -109,7 +109,7 @@ public LeafInfo LeafInfo { get; }
 
  LeafInfo
 
-### Positions
+### <a id="VM_Builders_Pre_Force_LeafBeamGroupBuilder_Positions"></a> Positions
 
 ```csharp
 public Vector[] Positions { get; }
@@ -119,7 +119,7 @@ public Vector[] Positions { get; }
 
  Vector\[\]
 
-### RepositionMatrix
+### <a id="VM_Builders_Pre_Force_LeafBeamGroupBuilder_RepositionMatrix"></a> RepositionMatrix
 
 ```csharp
 public TMatrix RepositionMatrix { get; }
@@ -131,7 +131,7 @@ public TMatrix RepositionMatrix { get; }
 
 ## Methods
 
-### GetBeamGroupBodyName\(Document, string, int\)
+### <a id="VM_Builders_Pre_Force_LeafBeamGroupBuilder_GetBeamGroupBodyName_VM_Managed_Document_System_String_System_Int32_"></a> GetBeamGroupBodyName\(Document, string, int\)
 
 ```csharp
 protected override string GetBeamGroupBodyName(Document document, string beamGroupName, int index)
@@ -149,7 +149,7 @@ protected override string GetBeamGroupBodyName(Document document, string beamGro
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SetInputResultData\(\)
+### <a id="VM_Builders_Pre_Force_LeafBeamGroupBuilder_SetInputResultData"></a> SetInputResultData\(\)
 
 ```csharp
 protected override bool SetInputResultData()
@@ -158,5 +158,4 @@ protected override bool SetInputResultData()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

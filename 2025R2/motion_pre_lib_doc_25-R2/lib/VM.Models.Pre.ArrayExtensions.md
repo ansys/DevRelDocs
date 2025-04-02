@@ -1,4 +1,4 @@
-# Class ArrayExtensions
+#  Class ArrayExtensions
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -20,7 +20,7 @@ public static class ArrayExtensions
 
 ## Methods
 
-### ContentEquals<T\>\(T\[,\], T\[,\]\)
+### <a id="VM_Models_Pre_ArrayExtensions_ContentEquals__1___0_0__0_____0_0__0___"></a> ContentEquals<T\>\(T\[,\], T\[,\]\)
 
 ```csharp
 public static bool ContentEquals<T>(this T[,] array, T[,] other) where T : IComparable
@@ -39,5 +39,4 @@ public static bool ContentEquals<T>(this T[,] array, T[,] other) where T : IComp
 #### Type Parameters
 
 `T` 
-
 

@@ -1,4 +1,4 @@
-# Class NullReferenceWhenRenameExeption
+#  Class NullReferenceWhenRenameExeption
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public class NullReferenceWhenRenameExeption : Exception
 
 ## Constructors
 
-### NullReferenceWhenRenameExeption\(string\)
+### <a id="VM_Managed_NullReferenceWhenRenameExeption__ctor_System_String_"></a> NullReferenceWhenRenameExeption\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.NullReferenceWhenRenameExeption" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,5 +36,4 @@ public NullReferenceWhenRenameExeption(string strMessage)
 `strMessage` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The error message.
-
 

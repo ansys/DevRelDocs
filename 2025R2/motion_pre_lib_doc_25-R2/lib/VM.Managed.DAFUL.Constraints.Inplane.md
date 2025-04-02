@@ -1,4 +1,4 @@
-# Class Inplane
+#  Class Inplane
 
 Namespace: [VM.Managed.DAFUL.Constraints](VM.Managed.DAFUL.Constraints.md)  
 Assembly: VMDCP.dll  
@@ -249,7 +249,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Inplane\(\)
+### <a id="VM_Managed_DAFUL_Constraints_Inplane__ctor"></a> Inplane\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Inplane" data-throw-if-not-resolved="false"></xref> class.
 
@@ -257,7 +257,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Inpla
 public Inplane()
 ```
 
-### Inplane\(string\)
+### <a id="VM_Managed_DAFUL_Constraints_Inplane__ctor_System_String_"></a> Inplane\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Constraints.Inplane" data-throw-if-not-resolved="false"></xref> class.
 
@@ -273,7 +273,7 @@ Name of the inplane constraint.
 
 ## Properties
 
-### PreventDuplicatedRBE
+### <a id="VM_Managed_DAFUL_Constraints_Inplane_PreventDuplicatedRBE"></a> PreventDuplicatedRBE
 
 Gets a value whether this instance prevent duplicated RBE.
 
@@ -285,7 +285,7 @@ public override bool PreventDuplicatedRBE { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ReportTypeImpl
+### <a id="VM_Managed_DAFUL_Constraints_Inplane_ReportTypeImpl"></a> ReportTypeImpl
 
 Gets the report type.
 
@@ -299,7 +299,7 @@ protected override IReportable.ReportEntityType ReportTypeImpl { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Constraints_Inplane_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -313,7 +313,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Constraints_Inplane_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -327,7 +327,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Constraints_Inplane_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -340,5 +340,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

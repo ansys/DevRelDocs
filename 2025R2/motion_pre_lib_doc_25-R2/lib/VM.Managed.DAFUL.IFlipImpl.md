@@ -1,4 +1,4 @@
-# Class IFlipImpl
+#  Class IFlipImpl
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -20,7 +20,7 @@ public class IFlipImpl
 
 ## Constructors
 
-### IFlipImpl\(\)
+### <a id="VM_Managed_DAFUL_IFlipImpl__ctor"></a> IFlipImpl\(\)
 
 ```csharp
 public IFlipImpl()
@@ -28,7 +28,7 @@ public IFlipImpl()
 
 ## Methods
 
-### SwitchImpl<T\>\(ObjectBase, Child<T, Update\>, Child<T, Update\>\)
+### <a id="VM_Managed_DAFUL_IFlipImpl_SwitchImpl__1_VM_Managed_ObjectBase_VM_Managed_Child___0_VM_Managed_ObjectBase_Update__VM_Managed_Child___0_VM_Managed_ObjectBase_Update__"></a> SwitchImpl<T\>\(ObjectBase, Child<T, Update\>, Child<T, Update\>\)
 
 ```csharp
 public static void SwitchImpl<T>(ObjectBase target, Child<T, ObjectBase.Update> objBase, Child<T, ObjectBase.Update> objAction) where T : ObjectBase
@@ -45,5 +45,4 @@ public static void SwitchImpl<T>(ObjectBase target, Child<T, ObjectBase.Update> 
 #### Type Parameters
 
 `T` 
-
 

@@ -1,4 +1,4 @@
-# Class Model.ModelItemGroup
+#  Class Model.ModelItemGroup
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -30,7 +30,7 @@ public class Model.ModelItemGroup : Group<Model.ModelItemGroup, GroupItem>
 
 ## Constructors
 
-### ModelItemGroup\(\)
+### <a id="VM_Managed_DAFUL_Pre_Model_ModelItemGroup__ctor"></a> ModelItemGroup\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.Model.ModelItemGroup" data-throw-if-not-resolved="false"></xref> class.
 
@@ -40,7 +40,7 @@ public ModelItemGroup()
 
 ## Properties
 
-### Filter
+### <a id="VM_Managed_DAFUL_Pre_Model_ModelItemGroup_Filter"></a> Filter
 
 Gets or sets the filter.
 
@@ -54,7 +54,7 @@ public string Filter { get; set; }
 
 ## Methods
 
-### GetFilterList\(\)
+### <a id="VM_Managed_DAFUL_Pre_Model_ModelItemGroup_GetFilterList"></a> GetFilterList\(\)
 
 Gets the filter list.
 
@@ -67,5 +67,4 @@ public List<string> GetFilterList()
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
 The filters.
-
 

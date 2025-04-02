@@ -1,4 +1,4 @@
-# Enum PropertyBearing.enStiffnessType
+#  Enum PropertyBearing.enStiffnessType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ The analytic
 `UserInput = 1` 
 
 The user input
-
 
 
 

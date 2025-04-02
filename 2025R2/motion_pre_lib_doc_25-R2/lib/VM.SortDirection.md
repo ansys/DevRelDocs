@@ -1,4 +1,4 @@
-# Enum SortDirection
+#  Enum SortDirection
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -20,7 +20,6 @@ Ascending
 `Descending = 1` 
 
 Descending
-
 
 
 

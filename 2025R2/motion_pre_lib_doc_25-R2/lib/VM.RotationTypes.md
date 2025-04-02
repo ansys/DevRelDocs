@@ -1,4 +1,4 @@
-# Enum RotationTypes
+#  Enum RotationTypes
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -20,7 +20,6 @@ public enum RotationTypes
 `FixedAngle = 1` 
 
 <p>FixedAngle</p>
-
 
 
 

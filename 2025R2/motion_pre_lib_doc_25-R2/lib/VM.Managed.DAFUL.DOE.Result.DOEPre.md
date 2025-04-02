@@ -1,4 +1,4 @@
-# Class DOEPre
+#  Class DOEPre
 
 Namespace: [VM.Managed.DAFUL.DOE.Result](VM.Managed.DAFUL.DOE.Result.md)  
 Assembly: VMDDOEResult.dll  
@@ -20,13 +20,13 @@ public class DOEPre
 
 ## Constructors
 
-### DOEPre\(\)
+### <a id="VM_Managed_DAFUL_DOE_Result_DOEPre__ctor"></a> DOEPre\(\)
 
 ```csharp
 public DOEPre()
 ```
 
-### DOEPre\(ConfiguraionInfo\)
+### <a id="VM_Managed_DAFUL_DOE_Result_DOEPre__ctor_VM_Managed_DAFUL_DOE_Result_ConfiguraionInfo_"></a> DOEPre\(ConfiguraionInfo\)
 
 ```csharp
 public DOEPre(ConfiguraionInfo info)
@@ -38,7 +38,7 @@ public DOEPre(ConfiguraionInfo info)
 
 ## Properties
 
-### ConfiguraionInfo
+### <a id="VM_Managed_DAFUL_DOE_Result_DOEPre_ConfiguraionInfo"></a> ConfiguraionInfo
 
 ```csharp
 public ConfiguraionInfo ConfiguraionInfo { get; set; }
@@ -48,7 +48,7 @@ public ConfiguraionInfo ConfiguraionInfo { get; set; }
 
  [ConfiguraionInfo](VM.Managed.DAFUL.DOE.Result.ConfiguraionInfo.md)
 
-### DesignParameterMap
+### <a id="VM_Managed_DAFUL_DOE_Result_DOEPre_DesignParameterMap"></a> DesignParameterMap
 
 ```csharp
 public Dictionary<string, List<DesignParameter>> DesignParameterMap { get; }
@@ -58,7 +58,7 @@ public Dictionary<string, List<DesignParameter>> DesignParameterMap { get; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[DesignParameter](VM.Managed.DAFUL.DOE.Result.DesignParameter.md)\>\>
 
-### PerformanceIndexMap
+### <a id="VM_Managed_DAFUL_DOE_Result_DOEPre_PerformanceIndexMap"></a> PerformanceIndexMap
 
 ```csharp
 public Dictionary<string, List<PerformanceIndex>> PerformanceIndexMap { get; }
@@ -68,7 +68,7 @@ public Dictionary<string, List<PerformanceIndex>> PerformanceIndexMap { get; }
 
  [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[PerformanceIndex](VM.Managed.DAFUL.DOE.Result.PerformanceIndex.md)\>\>
 
-### RunSequence
+### <a id="VM_Managed_DAFUL_DOE_Result_DOEPre_RunSequence"></a> RunSequence
 
 ```csharp
 public int RunSequence { get; }
@@ -77,5 +77,4 @@ public int RunSequence { get; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 

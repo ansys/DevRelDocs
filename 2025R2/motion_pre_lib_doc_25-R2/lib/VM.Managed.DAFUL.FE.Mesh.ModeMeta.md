@@ -1,4 +1,4 @@
-# Enum Mesh.ModeMeta
+#  Enum Mesh.ModeMeta
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -56,5 +56,4 @@ public enum Mesh.ModeMeta
 `TranslationalShape = 4` 
 
 `Unit = 1` 
-
 

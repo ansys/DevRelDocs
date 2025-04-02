@@ -1,4 +1,4 @@
-# Interface IHasGeometry
+#  Interface IHasGeometry
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,7 +15,7 @@ public interface IHasGeometry
 
 ## Properties
 
-### Geometries
+### <a id="VM_Models_Pre_IHasGeometry_Geometries"></a> Geometries
 
 ```csharp
 ICollection<IGeometry> Geometries { get; }
@@ -24,5 +24,4 @@ ICollection<IGeometry> Geometries { get; }
 #### Property Value
 
  [ICollection](https://learn.microsoft.com/dotnet/api/system.collections.generic.icollection\-1)<[IGeometry](VM.Models.Pre.IGeometry.md)\>
-
 

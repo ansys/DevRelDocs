@@ -1,4 +1,4 @@
-# Class BuilderPlaneCircle
+#  Class BuilderPlaneCircle
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -202,7 +202,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderPlaneCircle\(PlaneBase, Variable\)
+### <a id="VM_Managed_CAD_BuilderPlaneCircle__ctor_VM_Managed_PlaneBase_VM_Managed_Variable_"></a> BuilderPlaneCircle\(PlaneBase, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderPlaneCircle" data-throw-if-not-resolved="false"></xref> class
 
@@ -220,7 +220,7 @@ The plane info.
 
 The radius that expressed variable.
 
-### BuilderPlaneCircle\(PlaneBase, double\)
+### <a id="VM_Managed_CAD_BuilderPlaneCircle__ctor_VM_Managed_PlaneBase_System_Double_"></a> BuilderPlaneCircle\(PlaneBase, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderPlaneCircle" data-throw-if-not-resolved="false"></xref> class
 
@@ -238,7 +238,7 @@ The plane info.
 
 The radius.
 
-### BuilderPlaneCircle\(Variable\)
+### <a id="VM_Managed_CAD_BuilderPlaneCircle__ctor_VM_Managed_Variable_"></a> BuilderPlaneCircle\(Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderPlaneCircle" data-throw-if-not-resolved="false"></xref> class
 
@@ -252,7 +252,7 @@ public BuilderPlaneCircle(Variable Radius)
 
 The radius that expressed variable.
 
-### BuilderPlaneCircle\(double\)
+### <a id="VM_Managed_CAD_BuilderPlaneCircle__ctor_System_Double_"></a> BuilderPlaneCircle\(double\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderPlaneCircle" data-throw-if-not-resolved="false"></xref> class
 
@@ -266,7 +266,7 @@ public BuilderPlaneCircle(double dRadius)
 
 The radius.
 
-### BuilderPlaneCircle\(\)
+### <a id="VM_Managed_CAD_BuilderPlaneCircle__ctor"></a> BuilderPlaneCircle\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderPlaneCircle" data-throw-if-not-resolved="false"></xref> class
 
@@ -276,7 +276,7 @@ public BuilderPlaneCircle()
 
 ## Properties
 
-### Radius
+### <a id="VM_Managed_CAD_BuilderPlaneCircle_Radius"></a> Radius
 
 Gets or sets the radius.
 
@@ -290,7 +290,7 @@ public Variable Radius { get; set; }
 
 ## Methods
 
-### CheckValidationAboutBuild\(\)
+### <a id="VM_Managed_CAD_BuilderPlaneCircle_CheckValidationAboutBuild"></a> CheckValidationAboutBuild\(\)
 
 Checks validation about build.
 
@@ -298,7 +298,7 @@ Checks validation about build.
 public override void CheckValidationAboutBuild()
 ```
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_BuilderPlaneCircle_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -308,7 +308,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamBase\)
+### <a id="VM_Managed_CAD_BuilderPlaneCircle_FillParameter_VM_CAD_Builders_BuilderParamBase_"></a> FillParameter\(BuilderParamBase\)
 
 ```csharp
 protected override void FillParameter(BuilderParamBase A_0)
@@ -318,7 +318,7 @@ protected override void FillParameter(BuilderParamBase A_0)
 
 `A_0` BuilderParamBase
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_CAD_BuilderPlaneCircle_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -331,5 +331,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

@@ -1,4 +1,4 @@
-# Interface IHasID
+#  Interface IHasID
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IHasID
 
 ## Properties
 
-### ID
+### <a id="VM_IHasID_ID"></a> ID
 
 ```csharp
 Identifier ID { get; }
@@ -24,5 +24,4 @@ Identifier ID { get; }
 #### Property Value
 
  [Identifier](VM.Identifier.md)
-
 

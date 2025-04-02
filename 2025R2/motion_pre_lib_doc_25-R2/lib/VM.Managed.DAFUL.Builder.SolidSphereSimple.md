@@ -1,4 +1,4 @@
-# Class SolidSphereSimple
+#  Class SolidSphereSimple
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -52,7 +52,7 @@ public class SolidSphereSimple : Solid<BuilderSphereSimple>, IBuilder
 
 ## Constructors
 
-### SolidSphereSimple\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidSphereSimple__ctor"></a> SolidSphereSimple\(\)
 
 ```csharp
 public SolidSphereSimple()
@@ -60,7 +60,7 @@ public SolidSphereSimple()
 
 ## Properties
 
-### CenterPosition
+### <a id="VM_Managed_DAFUL_Builder_SolidSphereSimple_CenterPosition"></a> CenterPosition
 
 ```csharp
 public PointBase CenterPosition { get; }
@@ -70,7 +70,7 @@ public PointBase CenterPosition { get; }
 
  PointBase
 
-### Radius
+### <a id="VM_Managed_DAFUL_Builder_SolidSphereSimple_Radius"></a> Radius
 
 ```csharp
 public Variable Radius { get; set; }
@@ -82,7 +82,7 @@ public Variable Radius { get; set; }
 
 ## Methods
 
-### SetSolidBuilderProperty\(BuilderSphereSimple\)
+### <a id="VM_Managed_DAFUL_Builder_SolidSphereSimple_SetSolidBuilderProperty_VM_Managed_CAD_BuilderSphereSimple_"></a> SetSolidBuilderProperty\(BuilderSphereSimple\)
 
 ```csharp
 protected override void SetSolidBuilderProperty(BuilderSphereSimple solidBuilder)
@@ -91,5 +91,4 @@ protected override void SetSolidBuilderProperty(BuilderSphereSimple solidBuilder
 #### Parameters
 
 `solidBuilder` BuilderSphereSimple
-
 

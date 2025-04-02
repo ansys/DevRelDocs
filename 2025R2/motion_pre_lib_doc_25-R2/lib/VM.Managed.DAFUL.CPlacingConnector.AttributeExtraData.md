@@ -1,4 +1,4 @@
-# Class AttributeExtraData
+#  Class AttributeExtraData
 
 Namespace: [VM.Managed.DAFUL.CPlacingConnector](VM.Managed.DAFUL.CPlacingConnector.md)  
 Assembly: VMDCPlacingConnector.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeExtraData\(\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeExtraData__ctor"></a> AttributeExtraData\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CPlacingConnector.AttributeExtraData" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeExtraData()
 
 ## Properties
 
-### ContourFileExportTime
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeExtraData_ContourFileExportTime"></a> ContourFileExportTime
 
 Gets or sets the contour file export time.
 
@@ -121,7 +121,7 @@ public ExpressionValueVariable ContourFileExportTime { get; set; }
 
  ExpressionValueVariable
 
-### CrossCheck
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeExtraData_CrossCheck"></a> CrossCheck
 
 Gets or sets the cross check flag.
 
@@ -135,7 +135,7 @@ public bool CrossCheck { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CPlacingConnector_AttributeExtraData_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes the specified factor.
 
@@ -148,5 +148,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The factor.
-
 

@@ -1,4 +1,4 @@
-# Struct NodalBody.NodeCurrentOrientation
+#  Struct NodalBody.NodeCurrentOrientation
 
 Namespace: [VM.Managed.DAFUL.FE](VM.Managed.DAFUL.FE.md)  
 Assembly: VMFE.dll  
@@ -11,7 +11,7 @@ public struct NodalBody.NodeCurrentOrientation
 
 ## Fields
 
-### XX
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_XX"></a> XX
 
 The XX portion of orientation.
 
@@ -23,7 +23,7 @@ public double XX
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### XY
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_XY"></a> XY
 
 The XY portion of orientation.
 
@@ -35,7 +35,7 @@ public double XY
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### XZ
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_XZ"></a> XZ
 
 The XZ portion of orientation.
 
@@ -47,7 +47,7 @@ public double XZ
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### YX
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_YX"></a> YX
 
 The YX portion of orientation.
 
@@ -59,7 +59,7 @@ public double YX
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### YY
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_YY"></a> YY
 
 The YY portion of orientation.
 
@@ -71,7 +71,7 @@ public double YY
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### YZ
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_YZ"></a> YZ
 
 The YZ portion of orientation.
 
@@ -83,7 +83,7 @@ public double YZ
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ZX
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_ZX"></a> ZX
 
 The ZX portion of orientation.
 
@@ -95,7 +95,7 @@ public double ZX
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ZY
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_ZY"></a> ZY
 
 The ZY portion of orientation.
 
@@ -107,7 +107,7 @@ public double ZY
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ZZ
+### <a id="VM_Managed_DAFUL_FE_NodalBody_NodeCurrentOrientation_ZZ"></a> ZZ
 
 The ZZ portion of orientation.
 
@@ -118,5 +118,4 @@ public double ZZ
 #### Field Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

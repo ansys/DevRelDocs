@@ -1,4 +1,4 @@
-# Enum ShaftAttachType
+#  Enum ShaftAttachType
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -20,7 +20,6 @@ Bearing
 `Shaft = 0` 
 
 Shaft
-
 
 
 

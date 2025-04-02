@@ -1,4 +1,4 @@
-# Class Coupler<T, TProp\>
+#  Class Coupler<T, TProp\>
 
 Namespace: [VM.Managed.DAFUL.Builder.Constraints](VM.Managed.DAFUL.Builder.Constraints.md)  
 Assembly: VMBldCP.dll  
@@ -59,7 +59,7 @@ BuilderBase<T\>.ErrorMessage
 
 ## Constructors
 
-### Coupler\(\)
+### <a id="VM_Managed_DAFUL_Builder_Constraints_Coupler_2__ctor"></a> Coupler\(\)
 
 ```csharp
 public Coupler()
@@ -67,7 +67,7 @@ public Coupler()
 
 ## Properties
 
-### CurrentJoint1
+### <a id="VM_Managed_DAFUL_Builder_Constraints_Coupler_2_CurrentJoint1"></a> CurrentJoint1
 
 ```csharp
 protected ObjectBase CurrentJoint1 { get; }
@@ -77,7 +77,7 @@ protected ObjectBase CurrentJoint1 { get; }
 
  ObjectBase
 
-### CurrentJoint2
+### <a id="VM_Managed_DAFUL_Builder_Constraints_Coupler_2_CurrentJoint2"></a> CurrentJoint2
 
 ```csharp
 protected ObjectBase CurrentJoint2 { get; }
@@ -89,7 +89,7 @@ protected ObjectBase CurrentJoint2 { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Constraints_Coupler_2_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -104,5 +104,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

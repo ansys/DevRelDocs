@@ -1,4 +1,4 @@
-# Class ShearPressureFormulationBase
+#  Class ShearPressureFormulationBase
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -100,7 +100,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ShearPressureFormulationBase\(\)
+### <a id="VM_Managed_DAFUL_Track_ShearPressureFormulationBase__ctor"></a> ShearPressureFormulationBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.ShearPressureFormulationBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -110,7 +110,7 @@ public ShearPressureFormulationBase()
 
 ## Properties
 
-### TypeOfShearPressureFormulation
+### <a id="VM_Managed_DAFUL_Track_ShearPressureFormulationBase_TypeOfShearPressureFormulation"></a> TypeOfShearPressureFormulation
 
 Gets the normal pressure formulation type.
 
@@ -121,5 +121,4 @@ public abstract ShearPressureFormulationType TypeOfShearPressureFormulation { ge
 #### Property Value
 
  [ShearPressureFormulationType](VM.Managed.DAFUL.Track.ShearPressureFormulationType.md)
-
 

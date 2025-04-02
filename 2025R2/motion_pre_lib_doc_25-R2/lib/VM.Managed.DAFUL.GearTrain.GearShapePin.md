@@ -1,4 +1,4 @@
-# Class GearShapePin
+#  Class GearShapePin
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -128,7 +128,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearShapePin\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapePin__ctor"></a> GearShapePin\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearShapeCycloidPin" data-throw-if-not-resolved="false"></xref> class.
 
@@ -138,7 +138,7 @@ public GearShapePin()
 
 ## Properties
 
-### AddToProperty
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapePin_AddToProperty"></a> AddToProperty
 
 Gets the flag whether this instance add to property or not.
 
@@ -150,7 +150,7 @@ public override bool AddToProperty { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### AddToShaft
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapePin_AddToShaft"></a> AddToShaft
 
 Gets the flag whether this instance add to shaft or not.
 
@@ -162,7 +162,7 @@ public override bool AddToShaft { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ToleranceValue
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapePin_ToleranceValue"></a> ToleranceValue
 
 The tolerance
 
@@ -176,7 +176,7 @@ public ExpressionValueVariable ToleranceValue { get; set; }
 
 ## Methods
 
-### Show2D\(Canvas\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearShapePin_Show2D_VM_CAD_Kernel_Render_Canvas_"></a> Show2D\(Canvas\)
 
 Show2D.
 
@@ -189,5 +189,4 @@ public override void Show2D(Canvas canvas)
 `canvas` Canvas
 
 The canvas.
-
 

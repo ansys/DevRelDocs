@@ -1,4 +1,4 @@
-# Class Signal
+#  Class Signal
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -54,7 +54,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Signal\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Signal__ctor"></a> Signal\(\)
 
 ```csharp
 public Signal()
@@ -62,7 +62,7 @@ public Signal()
 
 ## Properties
 
-### Signals
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Signal_Signals"></a> Signals
 
 ```csharp
 public ObservableCollection<DataPoint> Signals { get; }
@@ -71,5 +71,4 @@ public ObservableCollection<DataPoint> Signals { get; }
 #### Property Value
 
  [ObservableCollection](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection\-1)<DataPoint\>
-
 

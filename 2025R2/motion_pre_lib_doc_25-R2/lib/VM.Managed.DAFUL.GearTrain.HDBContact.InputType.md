@@ -1,4 +1,4 @@
-# Enum HDBContact.InputType
+#  Enum HDBContact.InputType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ coefficient
 `Spline = 1` 
 
 spline
-
 
 
 

@@ -1,4 +1,4 @@
-# Interface IHasFilterPropertyName
+#  Interface IHasFilterPropertyName
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -15,7 +15,7 @@ public interface IHasFilterPropertyName
 
 ## Properties
 
-### FilterPropertyName
+### <a id="VM_IHasFilterPropertyName_FilterPropertyName"></a> FilterPropertyName
 
 ```csharp
 string FilterPropertyName { get; }
@@ -24,5 +24,4 @@ string FilterPropertyName { get; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

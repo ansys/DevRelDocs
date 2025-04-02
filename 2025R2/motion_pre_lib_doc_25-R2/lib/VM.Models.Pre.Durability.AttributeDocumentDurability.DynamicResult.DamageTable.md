@@ -1,4 +1,4 @@
-# Class AttributeDocumentDurability.DynamicResult.DamageTable
+#  Class AttributeDocumentDurability.DynamicResult.DamageTable
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DamageTable\(\)
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult_DamageTable__ctor"></a> DamageTable\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Durability.AttributeDocumentDurability.DynamicResult.DamageTable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Models.Pre.Durability.Attribute
 public DamageTable()
 ```
 
-### DamageTable\(string, double, int\)
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult_DamageTable__ctor_System_String_System_Double_System_Int32_"></a> DamageTable\(string, double, int\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Durability.AttributeDocumentDurability.DynamicResult.DamageTable" data-throw-if-not-resolved="false"></xref> class.
 
@@ -128,7 +128,7 @@ The number of pattern.
 
 ## Properties
 
-### NumberOfPattern
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult_DamageTable_NumberOfPattern"></a> NumberOfPattern
 
 Gets or sets the number of pattern.
 
@@ -140,7 +140,7 @@ public ExpressionValueVariable NumberOfPattern { get; set; }
 
  ExpressionValueVariable
 
-### ResultRelativeFilePath
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult_DamageTable_ResultRelativeFilePath"></a> ResultRelativeFilePath
 
 Gets or sets the result relative file path.
 
@@ -152,7 +152,7 @@ public string ResultRelativeFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TimeScale
+### <a id="VM_Models_Pre_Durability_AttributeDocumentDurability_DynamicResult_DamageTable_TimeScale"></a> TimeScale
 
 Gets or sets the time scale.
 
@@ -163,5 +163,4 @@ public ExpressionValueVariable TimeScale { get; set; }
 #### Property Value
 
  ExpressionValueVariable
-
 

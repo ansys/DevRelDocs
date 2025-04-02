@@ -1,4 +1,4 @@
-# Class UpdateBearingInShaftSet
+#  Class UpdateBearingInShaftSet
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdateBearingInShaftSet\(string, string, string, bool, ClearanceInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearingInShaftSet__ctor_System_String_System_String_System_String_System_Boolean_VM_Managed_DAFUL_GearTrain_ClearanceInfo_"></a> UpdateBearingInShaftSet\(string, string, string, bool, ClearanceInfo\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateGearInShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -107,7 +107,7 @@ The reverse state.
 
 The clearance Information.
 
-### UpdateBearingInShaftSet\(Document3D, string, string, string, bool, ClearanceInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearingInShaftSet__ctor_VM_Managed_Document3D_System_String_System_String_System_String_System_Boolean_VM_Managed_DAFUL_GearTrain_ClearanceInfo_"></a> UpdateBearingInShaftSet\(Document3D, string, string, string, bool, ClearanceInfo\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateGearInShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -141,7 +141,7 @@ The reverse state.
 
 The clearance Information.
 
-### UpdateBearingInShaftSet\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearingInShaftSet__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateBearingInShaftSet\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateGearInShaftSet" data-throw-if-not-resolved="false"></xref> class.
 
@@ -157,7 +157,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearingInShaftSet_Name"></a> Name
 
 Gets the name.
 
@@ -171,7 +171,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearingInShaftSet_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -179,7 +179,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateBearingInShaftSet_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -192,5 +192,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

@@ -1,4 +1,4 @@
-# Interface IHasComponent
+#  Interface IHasComponent
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -17,7 +17,7 @@ public interface IHasComponent
 
 ## Methods
 
-### GetAllGears\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_IHasComponent_GetAllGears"></a> GetAllGears\(\)
 
 Gets all gears.
 
@@ -28,5 +28,4 @@ ObjectBase[] GetAllGears()
 #### Returns
 
  ObjectBase\[\]
-
 

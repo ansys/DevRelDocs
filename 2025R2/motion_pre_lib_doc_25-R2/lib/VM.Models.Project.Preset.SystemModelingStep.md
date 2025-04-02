@@ -1,4 +1,4 @@
-# Class SystemModelingStep
+#  Class SystemModelingStep
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -74,7 +74,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SystemModelingStep\(IScenario\)
+### <a id="VM_Models_Project_Preset_SystemModelingStep__ctor_VM_Models_IScenario_"></a> SystemModelingStep\(IScenario\)
 
 ```csharp
 public SystemModelingStep(IScenario parent)
@@ -86,7 +86,7 @@ public SystemModelingStep(IScenario parent)
 
 ## Properties
 
-### Name
+### <a id="VM_Models_Project_Preset_SystemModelingStep_Name"></a> Name
 
 ```csharp
 public override string Name { get; }
@@ -96,7 +96,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TargetApplicationType
+### <a id="VM_Models_Project_Preset_SystemModelingStep_TargetApplicationType"></a> TargetApplicationType
 
 ```csharp
 public override ApplicationTypes TargetApplicationType { get; }
@@ -106,7 +106,7 @@ public override ApplicationTypes TargetApplicationType { get; }
 
  ApplicationTypes
 
-### Type
+### <a id="VM_Models_Project_Preset_SystemModelingStep_Type"></a> Type
 
 ```csharp
 public override StepType Type { get; }
@@ -118,7 +118,7 @@ public override StepType Type { get; }
 
 ## Methods
 
-### CanRelation\(IStep\)
+### <a id="VM_Models_Project_Preset_SystemModelingStep_CanRelation_VM_Models_IStep_"></a> CanRelation\(IStep\)
 
 ```csharp
 public override bool CanRelation(IStep source)
@@ -132,7 +132,7 @@ public override bool CanRelation(IStep source)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### FileChanged\(string\)
+### <a id="VM_Models_Project_Preset_SystemModelingStep_FileChanged_System_String_"></a> FileChanged\(string\)
 
 ```csharp
 public void FileChanged(string fullPath)
@@ -142,7 +142,7 @@ public void FileChanged(string fullPath)
 
 `fullPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FileCreated\(string\)
+### <a id="VM_Models_Project_Preset_SystemModelingStep_FileCreated_System_String_"></a> FileCreated\(string\)
 
 ```csharp
 public void FileCreated(string fullPath)
@@ -152,7 +152,7 @@ public void FileCreated(string fullPath)
 
 `fullPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FileDeleted\(string\)
+### <a id="VM_Models_Project_Preset_SystemModelingStep_FileDeleted_System_String_"></a> FileDeleted\(string\)
 
 ```csharp
 public void FileDeleted(string fullPath)
@@ -162,7 +162,7 @@ public void FileDeleted(string fullPath)
 
 `fullPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FileRenamed\(string\)
+### <a id="VM_Models_Project_Preset_SystemModelingStep_FileRenamed_System_String_"></a> FileRenamed\(string\)
 
 ```csharp
 public void FileRenamed(string fullPath)
@@ -172,7 +172,7 @@ public void FileRenamed(string fullPath)
 
 `fullPath` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GetExtension\(\)
+### <a id="VM_Models_Project_Preset_SystemModelingStep_GetExtension"></a> GetExtension\(\)
 
 ```csharp
 public string GetExtension()
@@ -182,10 +182,9 @@ public string GetExtension()
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SetFilePath\(\)
+### <a id="VM_Models_Project_Preset_SystemModelingStep_SetFilePath"></a> SetFilePath\(\)
 
 ```csharp
 public void SetFilePath()
 ```
-
 

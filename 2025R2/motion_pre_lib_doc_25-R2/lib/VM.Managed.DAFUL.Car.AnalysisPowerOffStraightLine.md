@@ -1,4 +1,4 @@
-# Class AnalysisPowerOffStraightLine
+#  Class AnalysisPowerOffStraightLine
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -48,7 +48,7 @@ IHasInitialVel
 
 ## Constructors
 
-### AnalysisPowerOffStraightLine\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine__ctor"></a> AnalysisPowerOffStraightLine\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisPowerOffStraightLine" data-throw-if-not-resolved="false"></xref> class.
 
@@ -56,7 +56,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisPower
 public AnalysisPowerOffStraightLine()
 ```
 
-### AnalysisPowerOffStraightLine\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine__ctor_VM_Models_Pre_ILinkContainer_"></a> AnalysisPowerOffStraightLine\(ILinkContainer\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.AnalysisPowerOffStraightLine" data-throw-if-not-resolved="false"></xref> class.
 
@@ -72,7 +72,7 @@ The link container.
 
 ## Properties
 
-### DelayOfClutch
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_DelayOfClutch"></a> DelayOfClutch
 
 Gets or sets the clutch delay.
 
@@ -84,7 +84,7 @@ public double DelayOfClutch { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### DeleyOfThrottle
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_DeleyOfThrottle"></a> DeleyOfThrottle
 
 Gets or sets the throttle deley.
 
@@ -96,7 +96,7 @@ public double DeleyOfThrottle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### IsDisengageClutchDuringPowerOff
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_IsDisengageClutchDuringPowerOff"></a> IsDisengageClutchDuringPowerOff
 
 Gets or sets a value indicating whether [disengage clutch during power off].
 
@@ -108,7 +108,7 @@ public bool IsDisengageClutchDuringPowerOff { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsStraightLineControl
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_IsStraightLineControl"></a> IsStraightLineControl
 
 Gets or sets a value indicating whether [straight line control].
 
@@ -120,7 +120,7 @@ public bool IsStraightLineControl { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SWAValue
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_SWAValue"></a> SWAValue
 
 Gets or sets the SWA.
 
@@ -132,7 +132,7 @@ public double SWAValue { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### StepDurationOfClutch
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_StepDurationOfClutch"></a> StepDurationOfClutch
 
 Gets or sets the duration of the clutch step.
 
@@ -144,7 +144,7 @@ public double StepDurationOfClutch { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### StepDurationOfThrottle
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_StepDurationOfThrottle"></a> StepDurationOfThrottle
 
 Gets or sets the duration of the throttle step.
 
@@ -156,7 +156,7 @@ public double StepDurationOfThrottle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### TireRadiusPosition
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_TireRadiusPosition"></a> TireRadiusPosition
 
 Gets the tire radius position.
 
@@ -170,7 +170,7 @@ public override int TireRadiusPosition { get; }
 
 ## Methods
 
-### GetTestRigMotionUSUBArgument\(string\[\]\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisPowerOffStraightLine_GetTestRigMotionUSUBArgument_System_String___"></a> GetTestRigMotionUSUBArgument\(string\[\]\)
 
 Gets the test-rig motion USUB argument.
 
@@ -183,5 +183,4 @@ public override void GetTestRigMotionUSUBArgument(string[] arParameter)
 `arParameter` [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
 The parameter array.
-
 

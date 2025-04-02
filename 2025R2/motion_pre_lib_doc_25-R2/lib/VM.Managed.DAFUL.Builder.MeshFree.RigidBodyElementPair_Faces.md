@@ -1,4 +1,4 @@
-# Class RigidBodyElementPair\_Faces
+#  Class RigidBodyElementPair\_Faces
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree](VM.Managed.DAFUL.Builder.MeshFree.md)  
 Assembly: VMBldMeshFree.dll  
@@ -53,7 +53,7 @@ BuilderBase<RigidBodyElementPair\>.ErrorMessage
 
 ## Constructors
 
-### RigidBodyElementPair\_Faces\(\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_RigidBodyElementPair_Faces__ctor"></a> RigidBodyElementPair\_Faces\(\)
 
 ```csharp
 public RigidBodyElementPair_Faces()
@@ -61,7 +61,7 @@ public RigidBodyElementPair_Faces()
 
 ## Properties
 
-### ActionGeometry
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_RigidBodyElementPair_Faces_ActionGeometry"></a> ActionGeometry
 
 ```csharp
 public PickedFace ActionGeometry { get; set; }
@@ -71,7 +71,7 @@ public PickedFace ActionGeometry { get; set; }
 
  PickedFace
 
-### BaseGeometry
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_RigidBodyElementPair_Faces_BaseGeometry"></a> BaseGeometry
 
 ```csharp
 public PickedFace BaseGeometry { get; set; }
@@ -83,7 +83,7 @@ public PickedFace BaseGeometry { get; set; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_RigidBodyElementPair_Faces_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -98,5 +98,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

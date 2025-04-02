@@ -1,4 +1,4 @@
-# Class RSpringDamperJ
+#  Class RSpringDamperJ
 
 Namespace: [VM.Managed.DAFUL.Builder.Force](VM.Managed.DAFUL.Builder.Force.md)  
 Assembly: VMBldFB.dll  
@@ -57,7 +57,7 @@ BuilderBase<RSpringDamper\>.ErrorMessage
 
 ## Constructors
 
-### RSpringDamperJ\(\)
+### <a id="VM_Managed_DAFUL_Builder_Force_RSpringDamperJ__ctor"></a> RSpringDamperJ\(\)
 
 ```csharp
 public RSpringDamperJ()
@@ -65,7 +65,7 @@ public RSpringDamperJ()
 
 ## Properties
 
-### Joints
+### <a id="VM_Managed_DAFUL_Builder_Force_RSpringDamperJ_Joints"></a> Joints
 
 ```csharp
 public ObjectBase Joints { get; }
@@ -77,7 +77,7 @@ public ObjectBase Joints { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Force_RSpringDamperJ_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -92,5 +92,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

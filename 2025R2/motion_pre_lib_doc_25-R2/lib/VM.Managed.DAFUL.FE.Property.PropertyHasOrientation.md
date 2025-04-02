@@ -1,4 +1,4 @@
-# Class PropertyHasOrientation
+#  Class PropertyHasOrientation
 
 Namespace: [VM.Managed.DAFUL.FE.Property](VM.Managed.DAFUL.FE.Property.md)  
 Assembly: VMFE.dll  
@@ -188,7 +188,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyHasOrientation\(string\)
+### <a id="VM_Managed_DAFUL_FE_Property_PropertyHasOrientation__ctor_System_String_"></a> PropertyHasOrientation\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Property.PropertyHasOrientation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -202,7 +202,7 @@ public PropertyHasOrientation(string strName)
 
 Name of the property has orientation.
 
-### PropertyHasOrientation\(\)
+### <a id="VM_Managed_DAFUL_FE_Property_PropertyHasOrientation__ctor"></a> PropertyHasOrientation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Property.PropertyHasOrientation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -212,7 +212,7 @@ public PropertyHasOrientation()
 
 ## Fields
 
-### markerID
+### <a id="VM_Managed_DAFUL_FE_Property_PropertyHasOrientation_markerID"></a> markerID
 
 ```csharp
 protected uint markerID
@@ -224,7 +224,7 @@ protected uint markerID
 
 ## Properties
 
-### Orientation
+### <a id="VM_Managed_DAFUL_FE_Property_PropertyHasOrientation_Orientation"></a> Orientation
 
 Gets orientation.
 
@@ -238,7 +238,7 @@ public OrientationBase Orientation { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_FE_Property_PropertyHasOrientation_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -252,7 +252,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestDestroy\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_FE_Property_PropertyHasOrientation_LinkRequestDestroy_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroy\(object, LinkEventArgs\)
 
 Request for destroy the linked object.
 
@@ -268,7 +268,7 @@ public override void LinkRequestDestroy(object obNotifier, LinkEventArgs arg)
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### SetOrientation\(OrientationBase\)
+### <a id="VM_Managed_DAFUL_FE_Property_PropertyHasOrientation_SetOrientation_VM_Managed_OrientationBase_"></a> SetOrientation\(OrientationBase\)
 
 ```csharp
 protected void SetOrientation(OrientationBase value)
@@ -278,7 +278,7 @@ protected void SetOrientation(OrientationBase value)
 
 `value` OrientationBase
 
-### SetOrientation\(double\[\]\)
+### <a id="VM_Managed_DAFUL_FE_Property_PropertyHasOrientation_SetOrientation_System_Double___"></a> SetOrientation\(double\[\]\)
 
 ```csharp
 protected void SetOrientation(double[] ardValue)
@@ -287,5 +287,4 @@ protected void SetOrientation(double[] ardValue)
 #### Parameters
 
 `ardValue` [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
-
 

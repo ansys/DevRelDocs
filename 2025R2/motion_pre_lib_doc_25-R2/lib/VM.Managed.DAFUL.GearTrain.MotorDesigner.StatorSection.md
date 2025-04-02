@@ -1,4 +1,4 @@
-# Class MotorDesigner.StatorSection
+#  Class MotorDesigner.StatorSection
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### StatorSection\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection__ctor"></a> StatorSection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.StatorSection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public StatorSection()
 
 ## Properties
 
-### GeometryCreation
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_GeometryCreation"></a> GeometryCreation
 
 Gets or sets the geometry creation.
 
@@ -118,7 +118,7 @@ public MotorDesigner.CreationBase GeometryCreation { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[CreationBase](VM.Managed.DAFUL.GearTrain.MotorDesigner.CreationBase.md)
 
-### MountRBEs
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_MountRBEs"></a> MountRBEs
 
 Gets or sets the rbe for mount.
 
@@ -130,7 +130,7 @@ public MotorDesigner.RBECreator[] MountRBEs { get; set; }
 
  [MotorDesigner](VM.Managed.DAFUL.GearTrain.MotorDesigner.md).[RBECreator](VM.Managed.DAFUL.GearTrain.MotorDesigner.RBECreator.md)\[\]
 
-### ToothRBEs
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_ToothRBEs"></a> ToothRBEs
 
 Gets or sets the rbe for tooth.
 
@@ -144,7 +144,7 @@ public MotorDesigner.RBECreator[] ToothRBEs { get; set; }
 
 ## Methods
 
-### ApplyLocationForCADImport\(Body, Builder\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_ApplyLocationForCADImport_VM_Managed_CAD_Body_VM_Managed_CAD_Builder_"></a> ApplyLocationForCADImport\(Body, Builder\)
 
 Apply location for CAD Import.
 
@@ -162,7 +162,7 @@ The body
 
 The builder
 
-### ChangeGeometryCreation\(GeometryCreationType\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_ChangeGeometryCreation_VM_Managed_DAFUL_GearTrain_MotorDesigner_GeometryCreationType_"></a> ChangeGeometryCreation\(GeometryCreationType\)
 
 Change geometry creation
 
@@ -176,7 +176,7 @@ public void ChangeGeometryCreation(MotorDesigner.GeometryCreationType geometryCr
 
 The geometry creation type
 
-### CreateBuilder\(Document\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CreateBuilder_VM_Managed_Document_"></a> CreateBuilder\(Document\)
 
 Create builder
 
@@ -192,7 +192,7 @@ public MotorStatorBuiler CreateBuilder(Document doc)
 
  [MotorStatorBuiler](VM.Managed.DAFUL.GearTrain.MotorStatorBuiler.md)
 
-### GetRelatedHousingBuilderInfo\(out Vector, out double, out bool, out int, out int, out double, out double, out double\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_GetRelatedHousingBuilderInfo_VM_Vector__System_Double__System_Boolean__System_Int32__System_Int32__System_Double__System_Double__System_Double__"></a> GetRelatedHousingBuilderInfo\(out Vector, out double, out bool, out int, out int, out double, out double, out double\)
 
 Gets the related housing builder information.
 
@@ -234,7 +234,7 @@ The Rmo
 
 The Rotate angle
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -247,5 +247,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

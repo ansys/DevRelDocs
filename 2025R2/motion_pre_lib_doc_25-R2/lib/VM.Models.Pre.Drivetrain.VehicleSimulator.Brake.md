@@ -1,4 +1,4 @@
-# Class Brake
+#  Class Brake
 
 Namespace: [VM.Models.Pre.Drivetrain.VehicleSimulator](VM.Models.Pre.Drivetrain.VehicleSimulator.md)  
 Assembly: VM.Models.Pre.Drivetrain.VehicleSimulator.dll  
@@ -54,7 +54,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Brake\(\)
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Brake__ctor"></a> Brake\(\)
 
 ```csharp
 public Brake()
@@ -62,7 +62,7 @@ public Brake()
 
 ## Properties
 
-### MaxBrakingTorque
+### <a id="VM_Models_Pre_Drivetrain_VehicleSimulator_Brake_MaxBrakingTorque"></a> MaxBrakingTorque
 
 ```csharp
 public double MaxBrakingTorque { get; set; }
@@ -71,5 +71,4 @@ public double MaxBrakingTorque { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

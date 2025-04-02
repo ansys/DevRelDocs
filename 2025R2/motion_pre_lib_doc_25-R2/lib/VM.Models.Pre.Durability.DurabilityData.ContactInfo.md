@@ -1,4 +1,4 @@
-# Class DurabilityData.ContactInfo
+#  Class DurabilityData.ContactInfo
 
 Namespace: [VM.Models.Pre.Durability](VM.Models.Pre.Durability.md)  
 Assembly: VM.Models.Pre.Durability.dll  
@@ -20,7 +20,7 @@ public class DurabilityData.ContactInfo
 
 ## Constructors
 
-### ContactInfo\(\)
+### <a id="VM_Models_Pre_Durability_DurabilityData_ContactInfo__ctor"></a> ContactInfo\(\)
 
 ```csharp
 public ContactInfo()
@@ -28,7 +28,7 @@ public ContactInfo()
 
 ## Fields
 
-### ContactName
+### <a id="VM_Models_Pre_Durability_DurabilityData_ContactInfo_ContactName"></a> ContactName
 
 ```csharp
 public string ContactName
@@ -38,7 +38,7 @@ public string ContactName
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### FrameInformation
+### <a id="VM_Models_Pre_Durability_DurabilityData_ContactInfo_FrameInformation"></a> FrameInformation
 
 ```csharp
 public DurabilityData.ContactInfo.FrameInfo[] FrameInformation
@@ -47,5 +47,4 @@ public DurabilityData.ContactInfo.FrameInfo[] FrameInformation
 #### Field Value
 
  [DurabilityData](VM.Models.Pre.Durability.DurabilityData.md).[ContactInfo](VM.Models.Pre.Durability.DurabilityData.ContactInfo.md).[FrameInfo](VM.Models.Pre.Durability.DurabilityData.ContactInfo.FrameInfo.md)\[\]
-
 

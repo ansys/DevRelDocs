@@ -1,4 +1,4 @@
-# Class LinkDataSimple
+#  Class LinkDataSimple
 
 Namespace: [VM.Managed.CAD.Track](VM.Managed.CAD.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -124,7 +124,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### LinkDataSimple\(\)
+### <a id="VM_Managed_CAD_Track_LinkDataSimple__ctor"></a> LinkDataSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.LinkDataSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -132,7 +132,7 @@ Initializes a new instance of the <xref href="VM.Managed.CAD.Track.LinkDataSimpl
 public LinkDataSimple()
 ```
 
-### LinkDataSimple\(IOwned\)
+### <a id="VM_Managed_CAD_Track_LinkDataSimple__ctor_VM_Models_Pre_IOwned_"></a> LinkDataSimple\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.Track.LinkDataSimple" data-throw-if-not-resolved="false"></xref> class.
 
@@ -148,7 +148,7 @@ The owner object.
 
 ## Properties
 
-### BushDiameter
+### <a id="VM_Managed_CAD_Track_LinkDataSimple_BushDiameter"></a> BushDiameter
 
 Gets and sets bush diameter.
 
@@ -162,7 +162,7 @@ public ExpressionValueVariable BushDiameter { get; set; }
 
 ## Methods
 
-### CheckValidation\(\)
+### <a id="VM_Managed_CAD_Track_LinkDataSimple_CheckValidation"></a> CheckValidation\(\)
 
 Check validation for member variables.
 
@@ -170,7 +170,7 @@ Check validation for member variables.
 public override void CheckValidation()
 ```
 
-### CreateParameter\(\)
+### <a id="VM_Managed_CAD_Track_LinkDataSimple_CreateParameter"></a> CreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase CreateParameter()
@@ -180,7 +180,7 @@ protected override BuilderParamBase CreateParameter()
 
  BuilderParamBase
 
-### FillParameter\(BuilderParamLink\)
+### <a id="VM_Managed_CAD_Track_LinkDataSimple_FillParameter_VM_CAD_Builders_Links_BuilderParamLink_"></a> FillParameter\(BuilderParamLink\)
 
 ```csharp
 protected override void FillParameter(BuilderParamLink builderParam)
@@ -189,5 +189,4 @@ protected override void FillParameter(BuilderParamLink builderParam)
 #### Parameters
 
 `builderParam` BuilderParamLink
-
 

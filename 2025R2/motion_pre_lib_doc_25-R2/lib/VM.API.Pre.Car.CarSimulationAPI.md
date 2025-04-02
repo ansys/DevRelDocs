@@ -1,4 +1,4 @@
-# Class CarSimulationAPI
+#  Class CarSimulationAPI
 
 Namespace: [VM.API.Pre.Car](VM.API.Pre.Car.md)  
 Assembly: VM.API.Pre.Car.dll  
@@ -22,7 +22,7 @@ public static class CarSimulationAPI
 
 ## Methods
 
-### ExportDFG\(TestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFG_VM_Managed_DAFUL_Car_TestRigDocument_System_String_"></a> ExportDFG\(TestRigDocument, string\)
 
 Export DFG file
 
@@ -48,7 +48,7 @@ The file path to export DFG file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFG\(VehicleTestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFG_VM_Managed_DAFUL_Car_VehicleTestRigDocument_System_String_"></a> ExportDFG\(VehicleTestRigDocument, string\)
 
 Export DFG file
 
@@ -74,7 +74,7 @@ The file path to export DFG file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFG\(TireTestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFG_VM_Managed_DAFUL_Car_TireTestRigDocument_System_String_"></a> ExportDFG\(TireTestRigDocument, string\)
 
 Export DFG file
 
@@ -100,7 +100,7 @@ The file path to export DFG file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFG\(FourPostTestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFG_VM_Managed_DAFUL_Car_FourPostTestRigDocument_System_String_"></a> ExportDFG\(FourPostTestRigDocument, string\)
 
 Export DFG file
 
@@ -126,7 +126,7 @@ The file path to export DFG file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFG\(ShimmyJudderTestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFG_VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_System_String_"></a> ExportDFG\(ShimmyJudderTestRigDocument, string\)
 
 Export DFG file
 
@@ -152,7 +152,7 @@ The file path to export DFG file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFS\(TestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFS_VM_Managed_DAFUL_Car_TestRigDocument_System_String_"></a> ExportDFS\(TestRigDocument, string\)
 
 Export DFS file
 
@@ -178,7 +178,7 @@ The file path to export DFS file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFS\(VehicleTestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFS_VM_Managed_DAFUL_Car_VehicleTestRigDocument_System_String_"></a> ExportDFS\(VehicleTestRigDocument, string\)
 
 Export DFS file
 
@@ -204,7 +204,7 @@ The file path to export DFS file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFS\(TireTestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFS_VM_Managed_DAFUL_Car_TireTestRigDocument_System_String_"></a> ExportDFS\(TireTestRigDocument, string\)
 
 Export DFS file
 
@@ -230,7 +230,7 @@ The file path to export DFS file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFS\(FourPostTestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFS_VM_Managed_DAFUL_Car_FourPostTestRigDocument_System_String_"></a> ExportDFS\(FourPostTestRigDocument, string\)
 
 Export DFS file
 
@@ -256,7 +256,7 @@ The file path to export DFS file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFS\(ShimmyJudderTestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFS_VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_System_String_"></a> ExportDFS\(ShimmyJudderTestRigDocument, string\)
 
 Export DFS file
 
@@ -282,7 +282,7 @@ The file path to export DFS file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFSXML\(TestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFSXML_VM_Managed_DAFUL_Car_TestRigDocument_System_String_"></a> ExportDFSXML\(TestRigDocument, string\)
 
 Export DFSXML file
 
@@ -308,7 +308,7 @@ The file path to export DFSXML file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFSXML\(VehicleTestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFSXML_VM_Managed_DAFUL_Car_VehicleTestRigDocument_System_String_"></a> ExportDFSXML\(VehicleTestRigDocument, string\)
 
 Export DFSXML file
 
@@ -334,7 +334,7 @@ The file path to export DFSXML file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFSXML\(TireTestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFSXML_VM_Managed_DAFUL_Car_TireTestRigDocument_System_String_"></a> ExportDFSXML\(TireTestRigDocument, string\)
 
 Export DFSXML file
 
@@ -360,7 +360,7 @@ The file path to export DFSXML file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFSXML\(FourPostTestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFSXML_VM_Managed_DAFUL_Car_FourPostTestRigDocument_System_String_"></a> ExportDFSXML\(FourPostTestRigDocument, string\)
 
 Export DFSXML file
 
@@ -386,7 +386,7 @@ The file path to export DFSXML file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### ExportDFSXML\(ShimmyJudderTestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_ExportDFSXML_VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_System_String_"></a> ExportDFSXML\(ShimmyJudderTestRigDocument, string\)
 
 Export DFSXML file
 
@@ -412,7 +412,7 @@ The file path to export DFSXML file exclude file extension.
 
 Will be thrown if 'document' or 'targetPath' arguments are empty.
 
-### RunSimulation\(TestRigDocument, SimulationParameter\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_RunSimulation_VM_Managed_DAFUL_Car_TestRigDocument_VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_"></a> RunSimulation\(TestRigDocument, SimulationParameter\)
 
 Run simulation.
 
@@ -441,7 +441,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'document' argument is not assembly.
 
-### RunSimulation\(VehicleTestRigDocument, SimulationParameter\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_RunSimulation_VM_Managed_DAFUL_Car_VehicleTestRigDocument_VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_"></a> RunSimulation\(VehicleTestRigDocument, SimulationParameter\)
 
 Run simulation.
 
@@ -470,7 +470,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'document' argument is not assembly.
 
-### RunSimulation\(TireTestRigDocument, SimulationParameter\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_RunSimulation_VM_Managed_DAFUL_Car_TireTestRigDocument_VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_"></a> RunSimulation\(TireTestRigDocument, SimulationParameter\)
 
 Run simulation.
 
@@ -499,7 +499,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'document' argument is not assembly.
 
-### RunSimulation\(FourPostTestRigDocument, SimulationParameter\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_RunSimulation_VM_Managed_DAFUL_Car_FourPostTestRigDocument_VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_"></a> RunSimulation\(FourPostTestRigDocument, SimulationParameter\)
 
 Run simulation.
 
@@ -528,7 +528,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'document' argument is not assembly.
 
-### RunSimulation\(ShimmyJudderTestRigDocument, SimulationParameter\)
+### <a id="VM_API_Pre_Car_CarSimulationAPI_RunSimulation_VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_VM_Managed_DAFUL_Operation_SimulationRun_SimulationParameter_"></a> RunSimulation\(ShimmyJudderTestRigDocument, SimulationParameter\)
 
 Run simulation.
 
@@ -556,5 +556,4 @@ Will be thrown if 'document' argument is empty.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if 'document' argument is not assembly.
-
 

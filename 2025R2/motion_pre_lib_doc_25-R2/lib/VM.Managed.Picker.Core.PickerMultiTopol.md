@@ -1,4 +1,4 @@
-# Class PickerMultiTopol
+#  Class PickerMultiTopol
 
 Namespace: [VM.Managed.Picker.Core](VM.Managed.Picker.Core.md)  
 Assembly: VMAppCore.dll  
@@ -58,7 +58,7 @@ public abstract class PickerMultiTopol : PickerMulti
 
 ## Constructors
 
-### PickerMultiTopol\(ObjectBase\)
+### <a id="VM_Managed_Picker_Core_PickerMultiTopol__ctor_VM_Managed_ObjectBase_"></a> PickerMultiTopol\(ObjectBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerMultiTopol" data-throw-if-not-resolved="false"></xref> class
 
@@ -72,7 +72,7 @@ public PickerMultiTopol(ObjectBase pParentObject)
 
 The parent of topol.
 
-### PickerMultiTopol\(\)
+### <a id="VM_Managed_Picker_Core_PickerMultiTopol__ctor"></a> PickerMultiTopol\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Picker.Core.PickerMultiTopol" data-throw-if-not-resolved="false"></xref> class
 
@@ -82,7 +82,7 @@ public PickerMultiTopol()
 
 ## Fields
 
-### m\_bAllBeloinging
+### <a id="VM_Managed_Picker_Core_PickerMultiTopol_m_bAllBeloinging"></a> m\_bAllBeloinging
 
 ```csharp
 protected bool m_bAllBeloinging
@@ -92,7 +92,7 @@ protected bool m_bAllBeloinging
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_bDecidedParent
+### <a id="VM_Managed_Picker_Core_PickerMultiTopol_m_bDecidedParent"></a> m\_bDecidedParent
 
 ```csharp
 protected bool m_bDecidedParent
@@ -102,7 +102,7 @@ protected bool m_bDecidedParent
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### m\_pParentObject
+### <a id="VM_Managed_Picker_Core_PickerMultiTopol_m_pParentObject"></a> m\_pParentObject
 
 ```csharp
 protected ObjectBase m_pParentObject
@@ -114,7 +114,7 @@ protected ObjectBase m_pParentObject
 
 ## Methods
 
-### CheckResultWhenCreateTopology\(Topology\)
+### <a id="VM_Managed_Picker_Core_PickerMultiTopol_CheckResultWhenCreateTopology_VM_Managed_CAD_Topology_"></a> CheckResultWhenCreateTopology\(Topology\)
 
 ```csharp
 protected bool CheckResultWhenCreateTopology(Topology topology)
@@ -128,7 +128,7 @@ protected bool CheckResultWhenCreateTopology(Topology topology)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetParentObject\(\)
+### <a id="VM_Managed_Picker_Core_PickerMultiTopol_GetParentObject"></a> GetParentObject\(\)
 
 ```csharp
 public ObjectBase GetParentObject()
@@ -138,7 +138,7 @@ public ObjectBase GetParentObject()
 
  [ObjectBase](VM.Managed.ObjectBase.md)
 
-### SetHighlight\(List<UIntPtr\>, bool, bool\)
+### <a id="VM_Managed_Picker_Core_PickerMultiTopol_SetHighlight_System_Collections_Generic_List_System_UIntPtr__System_Boolean_System_Boolean_"></a> SetHighlight\(List<UIntPtr\>, bool, bool\)
 
 ```csharp
 public override void SetHighlight(List<UIntPtr> lstTopologyProxy, bool bHighlight, bool bUpdate)
@@ -152,7 +152,7 @@ public override void SetHighlight(List<UIntPtr> lstTopologyProxy, bool bHighligh
 
 `bUpdate` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetParentObject\(ObjectBase\)
+### <a id="VM_Managed_Picker_Core_PickerMultiTopol_SetParentObject_VM_Managed_ObjectBase_"></a> SetParentObject\(ObjectBase\)
 
 ```csharp
 public void SetParentObject(ObjectBase pParentObject)
@@ -161,5 +161,4 @@ public void SetParentObject(ObjectBase pParentObject)
 #### Parameters
 
 `pParentObject` [ObjectBase](VM.Managed.ObjectBase.md)
-
 

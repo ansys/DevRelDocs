@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.MeshFree
+#  Namespace VM.Managed.DAFUL.MeshFree
 
 ### Namespaces
 
@@ -91,5 +91,4 @@ Specifies geometry type for MeshFree
  [OutputType](VM.Managed.DAFUL.MeshFree.OutputType.md)
 
 Specifies output type for MeshFree
-
 

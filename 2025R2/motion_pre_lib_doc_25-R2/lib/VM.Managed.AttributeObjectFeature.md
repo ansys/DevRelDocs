@@ -1,4 +1,4 @@
-# Class AttributeObjectFeature
+#  Class AttributeObjectFeature
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeObjectFeature\(bool\)
+### <a id="VM_Managed_AttributeObjectFeature__ctor_System_Boolean_"></a> AttributeObjectFeature\(bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeObjectFeature" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public AttributeObjectFeature(bool bCanDelete)
 
 if set to <code>true</code> [can delete].
 
-### AttributeObjectFeature\(\)
+### <a id="VM_Managed_AttributeObjectFeature__ctor"></a> AttributeObjectFeature\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeObjectFeature" data-throw-if-not-resolved="false"></xref> class.
 
@@ -123,7 +123,7 @@ public AttributeObjectFeature()
 
 ## Properties
 
-### CanDelete
+### <a id="VM_Managed_AttributeObjectFeature_CanDelete"></a> CanDelete
 
 Gets or sets a value indicating whether this instance can delete.
 
@@ -134,5 +134,4 @@ public bool CanDelete { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

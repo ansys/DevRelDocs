@@ -1,4 +1,4 @@
-# Interface IEnabled
+#  Interface IEnabled
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IEnabled
 
 ## Properties
 
-### IsEnabled
+### <a id="VM_IEnabled_IsEnabled"></a> IsEnabled
 
 ```python
 bool IsEnabled { get; set; }

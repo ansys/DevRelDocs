@@ -1,4 +1,4 @@
-# Class Layer
+#  Class Layer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -152,7 +152,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Layer\(string\)
+### <a id="VM_Managed_Layer__ctor_System_String_"></a> Layer\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Layer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -166,7 +166,7 @@ public Layer(string strLayerName)
 
 The layer name.
 
-### Layer\(\)
+### <a id="VM_Managed_Layer__ctor"></a> Layer\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Layer" data-throw-if-not-resolved="false"></xref> class.
 
@@ -176,7 +176,7 @@ public Layer()
 
 ## Properties
 
-### FullName
+### <a id="VM_Managed_Layer_FullName"></a> FullName
 
 Gets the object full name.
 
@@ -188,7 +188,7 @@ public virtual string FullName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### IsVisible
+### <a id="VM_Managed_Layer_IsVisible"></a> IsVisible
 
 Gets or sets a value indicating whether this instance is visible.
 
@@ -200,7 +200,7 @@ public bool IsVisible { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_Layer_Name"></a> Name
 
 Gets or sets the object name.
 
@@ -212,7 +212,7 @@ public virtual string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NonSymmetricName
+### <a id="VM_Managed_Layer_NonSymmetricName"></a> NonSymmetricName
 
 Gets the non-symmetric object name.
 
@@ -224,7 +224,7 @@ public virtual string NonSymmetricName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Visibility
+### <a id="VM_Managed_Layer_Visibility"></a> Visibility
 
 ```csharp
 public virtual LayerVisibility Visibility { get; set; }
@@ -234,7 +234,7 @@ public virtual LayerVisibility Visibility { get; set; }
 
  [LayerVisibility](VM.Managed.LayerVisibility.md)
 
-### VisibleObjects
+### <a id="VM_Managed_Layer_VisibleObjects"></a> VisibleObjects
 
 Gets or sets the visible objects.
 
@@ -248,7 +248,7 @@ public LinkedList<IVisible> VisibleObjects { get; set; }
 
 ## Methods
 
-### Add\(IVisible\)
+### <a id="VM_Managed_Layer_Add_VM_Managed_IVisible_"></a> Add\(IVisible\)
 
 Add object to visible object container.
 
@@ -262,7 +262,7 @@ public virtual void Add(IVisible visibleOb)
 
 The visible object.
 
-### Contain\(IVisible\)
+### <a id="VM_Managed_Layer_Contain_VM_Managed_IVisible_"></a> Contain\(IVisible\)
 
 Whether visible object container contains this value.
 
@@ -282,7 +282,7 @@ The visible object.
 
 <code>true</code> if contain; otherwise, <code>false</code>.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_Layer_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -300,7 +300,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_Layer_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -314,7 +314,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### Remove\(IVisible\)
+### <a id="VM_Managed_Layer_Remove_VM_Managed_IVisible_"></a> Remove\(IVisible\)
 
 Remove object from visible object container.
 
@@ -334,7 +334,7 @@ The visible object.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### SkipModifiedEvent\(\)
+### <a id="VM_Managed_Layer_SkipModifiedEvent"></a> SkipModifiedEvent\(\)
 
 layer modified event.
 
@@ -346,7 +346,7 @@ public override bool SkipModifiedEvent()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SkipUpdateObjectImpl\(\)
+### <a id="VM_Managed_Layer_SkipUpdateObjectImpl"></a> SkipUpdateObjectImpl\(\)
 
 Skip the object that updated.
 
@@ -357,5 +357,4 @@ public override bool SkipUpdateObjectImpl()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

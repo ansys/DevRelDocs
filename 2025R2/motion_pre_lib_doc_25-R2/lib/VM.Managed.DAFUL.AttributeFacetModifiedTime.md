@@ -1,4 +1,4 @@
-# Class AttributeFacetModifiedTime
+#  Class AttributeFacetModifiedTime
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeFacetModifiedTime\(\)
+### <a id="VM_Managed_DAFUL_AttributeFacetModifiedTime__ctor"></a> AttributeFacetModifiedTime\(\)
 
 ```csharp
 public AttributeFacetModifiedTime()
@@ -107,7 +107,7 @@ public AttributeFacetModifiedTime()
 
 ## Fields
 
-### Name
+### <a id="VM_Managed_DAFUL_AttributeFacetModifiedTime_Name"></a> Name
 
 ```csharp
 public const string Name = "FacetModifiedTime"
@@ -119,7 +119,7 @@ public const string Name = "FacetModifiedTime"
 
 ## Properties
 
-### FacetModifiedTime
+### <a id="VM_Managed_DAFUL_AttributeFacetModifiedTime_FacetModifiedTime"></a> FacetModifiedTime
 
 Gets or sets the last time of a facet.
 
@@ -131,7 +131,7 @@ public DateTime FacetModifiedTime { get; set; }
 
  [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)
 
-### FacetModifiedTimeString
+### <a id="VM_Managed_DAFUL_AttributeFacetModifiedTime_FacetModifiedTimeString"></a> FacetModifiedTimeString
 
 ```csharp
 public string FacetModifiedTimeString { get; set; }
@@ -141,7 +141,7 @@ public string FacetModifiedTimeString { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Guid
+### <a id="VM_Managed_DAFUL_AttributeFacetModifiedTime_Guid"></a> Guid
 
 Gets or sets the guid.
 
@@ -155,7 +155,7 @@ public Guid Guid { get; set; }
 
 ## Methods
 
-### GetPath\(string\)
+### <a id="VM_Managed_DAFUL_AttributeFacetModifiedTime_GetPath_System_String_"></a> GetPath\(string\)
 
 ```csharp
 public string GetPath(string documentFilePath)
@@ -168,5 +168,4 @@ public string GetPath(string documentFilePath)
 #### Returns
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

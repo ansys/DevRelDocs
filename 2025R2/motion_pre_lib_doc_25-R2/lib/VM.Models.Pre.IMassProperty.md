@@ -1,4 +1,4 @@
-# Interface IMassProperty
+#  Interface IMassProperty
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,7 +15,7 @@ public interface IMassProperty
 
 ## Methods
 
-### GetMassProperty\(ref double, Vector, OMatrix, double\[\], bool\)
+### <a id="VM_Models_Pre_IMassProperty_GetMassProperty_System_Double__VM_Vector_VM_OMatrix_System_Double___System_Boolean_"></a> GetMassProperty\(ref double, Vector, OMatrix, double\[\], bool\)
 
 Gets the mass property.
 
@@ -45,7 +45,7 @@ The tensor.
 
 Global.
 
-### SetMassProperty\(double, Vector, OMatrix, double\[\], bool\)
+### <a id="VM_Models_Pre_IMassProperty_SetMassProperty_System_Double_VM_Vector_VM_OMatrix_System_Double___System_Boolean_"></a> SetMassProperty\(double, Vector, OMatrix, double\[\], bool\)
 
 Sets the mass property.
 
@@ -74,5 +74,4 @@ The tensor.
 `global` [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 Global.
-
 

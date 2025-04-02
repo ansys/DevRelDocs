@@ -1,4 +1,4 @@
-# Class ConnectorStep
+#  Class ConnectorStep
 
 Namespace: [VM.Models.Project.Preset](VM.Models.Project.Preset.md)  
 Assembly: VM.Models.Project.Preset.dll  
@@ -74,7 +74,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ConnectorStep\(IScenario\)
+### <a id="VM_Models_Project_Preset_ConnectorStep__ctor_VM_Models_IScenario_"></a> ConnectorStep\(IScenario\)
 
 ```csharp
 public ConnectorStep(IScenario parent)
@@ -86,7 +86,7 @@ public ConnectorStep(IScenario parent)
 
 ## Properties
 
-### Name
+### <a id="VM_Models_Project_Preset_ConnectorStep_Name"></a> Name
 
 ```csharp
 public override string Name { get; }
@@ -96,7 +96,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TargetApplicationType
+### <a id="VM_Models_Project_Preset_ConnectorStep_TargetApplicationType"></a> TargetApplicationType
 
 ```csharp
 public override ApplicationTypes TargetApplicationType { get; }
@@ -106,7 +106,7 @@ public override ApplicationTypes TargetApplicationType { get; }
 
  ApplicationTypes
 
-### Type
+### <a id="VM_Models_Project_Preset_ConnectorStep_Type"></a> Type
 
 ```csharp
 public override StepType Type { get; }
@@ -115,5 +115,4 @@ public override StepType Type { get; }
 #### Property Value
 
  StepType
-
 

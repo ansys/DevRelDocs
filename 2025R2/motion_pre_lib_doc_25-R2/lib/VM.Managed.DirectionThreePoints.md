@@ -1,4 +1,4 @@
-# Class DirectionThreePoints
+#  Class DirectionThreePoints
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -106,7 +106,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### DirectionThreePoints\(PointBase, PointBase, PointBase\)
+### <a id="VM_Managed_DirectionThreePoints__ctor_VM_Managed_PointBase_VM_Managed_PointBase_VM_Managed_PointBase_"></a> DirectionThreePoints\(PointBase, PointBase, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.DirectionThreePoints" data-throw-if-not-resolved="false"></xref> class.
 
@@ -128,7 +128,7 @@ Middle point.
 
 End point.
 
-### DirectionThreePoints\(\)
+### <a id="VM_Managed_DirectionThreePoints__ctor"></a> DirectionThreePoints\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DirectionThreePoints" data-throw-if-not-resolved="false"></xref> class.
 
@@ -138,7 +138,7 @@ public DirectionThreePoints()
 
 ## Properties
 
-### EndPoint
+### <a id="VM_Managed_DirectionThreePoints_EndPoint"></a> EndPoint
 
 Gets or sets end point.
 
@@ -150,7 +150,7 @@ public PointBase EndPoint { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### IsParameterized
+### <a id="VM_Managed_DirectionThreePoints_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -162,7 +162,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MiddlePoint
+### <a id="VM_Managed_DirectionThreePoints_MiddlePoint"></a> MiddlePoint
 
 Gets or sets middle point.
 
@@ -174,7 +174,7 @@ public PointBase MiddlePoint { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### StartPoint
+### <a id="VM_Managed_DirectionThreePoints_StartPoint"></a> StartPoint
 
 Gets or sets start point.
 
@@ -186,7 +186,7 @@ public PointBase StartPoint { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### Value
+### <a id="VM_Managed_DirectionThreePoints_Value"></a> Value
 
 Gets the VectorBase(x, y, z).
 
@@ -200,7 +200,7 @@ public override VectorBase Value { get; }
 
 ## Methods
 
-### GetSchema\(\)
+### <a id="VM_Managed_DirectionThreePoints_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -217,7 +217,7 @@ public override XmlSchema GetSchema()
 
 An <xref href="System.Xml.Schema.XmlSchema" data-throw-if-not-resolved="false"></xref> that describes the XML representation of the object that is produced by the <xref href="System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)" data-throw-if-not-resolved="false"></xref> method and consumed by the <xref href="System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)" data-throw-if-not-resolved="false"></xref> method.
 
-### IsParametric\(enRefType\)
+### <a id="VM_Managed_DirectionThreePoints_IsParametric_VM_Managed_Primitive_enRefType_"></a> IsParametric\(enRefType\)
 
 Gets parametric.
 
@@ -237,7 +237,7 @@ Point picking type.
 
 If set to <code>true</code> is parametric; otherwise, <code>false</code> is none parametric.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DirectionThreePoints_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -255,7 +255,7 @@ The linked object.
 
 The update event information.
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_DirectionThreePoints_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -269,7 +269,7 @@ public override void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_DirectionThreePoints_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -282,5 +282,4 @@ public override void WriteXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The XmlWriter stream to which the object is serialized.
-
 

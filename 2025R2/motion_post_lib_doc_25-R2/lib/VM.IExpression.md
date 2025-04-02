@@ -1,4 +1,4 @@
-# Interface IExpression
+#  Interface IExpression
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IExpression
 
 ## Properties
 
-### String
+### <a id="VM_IExpression_String"></a> String
 
 ```python
 string String { get; set; }

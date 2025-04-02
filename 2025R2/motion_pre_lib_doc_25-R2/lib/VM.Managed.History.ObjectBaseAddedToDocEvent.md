@@ -1,4 +1,4 @@
-# Class ObjectBaseAddedToDocEvent
+#  Class ObjectBaseAddedToDocEvent
 
 Namespace: [VM.Managed.History](VM.Managed.History.md)  
 Assembly: VMAppCore.dll  
@@ -68,7 +68,7 @@ HistoryEvent.IsValid
 
 ## Constructors
 
-### ObjectBaseAddedToDocEvent\(object\)
+### <a id="VM_Managed_History_ObjectBaseAddedToDocEvent__ctor_System_Object_"></a> ObjectBaseAddedToDocEvent\(object\)
 
 ```csharp
 public ObjectBaseAddedToDocEvent(object obOriginal)
@@ -80,7 +80,7 @@ public ObjectBaseAddedToDocEvent(object obOriginal)
 
 ## Methods
 
-### AfterRedo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_ObjectBaseAddedToDocEvent_AfterRedo_VM_Managed_History_HistoryEventArgs_"></a> AfterRedo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterRedo(HistoryEventArgs args)
@@ -90,7 +90,7 @@ protected override void AfterRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### AfterUndo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_ObjectBaseAddedToDocEvent_AfterUndo_VM_Managed_History_HistoryEventArgs_"></a> AfterUndo\(HistoryEventArgs\)
 
 ```csharp
 protected override void AfterUndo(HistoryEventArgs args)
@@ -100,7 +100,7 @@ protected override void AfterUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### BeforeRedo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_ObjectBaseAddedToDocEvent_BeforeRedo_VM_Managed_History_HistoryEventArgs_"></a> BeforeRedo\(HistoryEventArgs\)
 
 ```csharp
 protected override void BeforeRedo(HistoryEventArgs args)
@@ -110,7 +110,7 @@ protected override void BeforeRedo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### BeforeUndo\(HistoryEventArgs\)
+### <a id="VM_Managed_History_ObjectBaseAddedToDocEvent_BeforeUndo_VM_Managed_History_HistoryEventArgs_"></a> BeforeUndo\(HistoryEventArgs\)
 
 ```csharp
 protected override void BeforeUndo(HistoryEventArgs args)
@@ -120,7 +120,7 @@ protected override void BeforeUndo(HistoryEventArgs args)
 
 `args` HistoryEventArgs
 
-### MergeImpl\(SerializableObjectBaseModifiedEventBase\)
+### <a id="VM_Managed_History_ObjectBaseAddedToDocEvent_MergeImpl_VM_Managed_History_SerializableObjectBaseModifiedEventBase_"></a> MergeImpl\(SerializableObjectBaseModifiedEventBase\)
 
 ```csharp
 protected override SerializableObjectBaseModifiedEventBase.MergeTo MergeImpl(SerializableObjectBaseModifiedEventBase evtNext)
@@ -133,5 +133,4 @@ protected override SerializableObjectBaseModifiedEventBase.MergeTo MergeImpl(Ser
 #### Returns
 
  [SerializableObjectBaseModifiedEventBase](VM.Managed.History.SerializableObjectBaseModifiedEventBase.md).[MergeTo](VM.Managed.History.SerializableObjectBaseModifiedEventBase.MergeTo.md)
-
 

@@ -1,4 +1,4 @@
-# Interface ISession
+#  Interface ISession
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -17,12 +17,11 @@ public interface ISession
 
 ## Methods
 
-### SetFailed\(\)
+### <a id="VM_CAD_Kernel_ISession_SetFailed"></a> SetFailed\(\)
 
 Mark session is failed
 
 ```csharp
 void SetFailed()
 ```
-
 

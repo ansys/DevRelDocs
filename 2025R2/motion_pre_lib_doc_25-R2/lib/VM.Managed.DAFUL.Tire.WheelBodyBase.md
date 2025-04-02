@@ -1,4 +1,4 @@
-# Class WheelBodyBase
+#  Class WheelBodyBase
 
 Namespace: [VM.Managed.DAFUL.Tire](VM.Managed.DAFUL.Tire.md)  
 Assembly: VMDTire.dll  
@@ -314,7 +314,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### WheelBodyBase\(\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase__ctor"></a> WheelBodyBase\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.WheelBodyBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -322,7 +322,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.WheelBodyBas
 public WheelBodyBase()
 ```
 
-### WheelBodyBase\(string\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase__ctor_System_String_"></a> WheelBodyBase\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.WheelBodyBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -336,7 +336,7 @@ public WheelBodyBase(string strName)
 
 Name of the STR.
 
-### WheelBodyBase\(string, Builder\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase__ctor_System_String_VM_Managed_CAD_Builder_"></a> WheelBodyBase\(string, Builder\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Tire.WheelBodyBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -356,7 +356,7 @@ The builder.
 
 ## Properties
 
-### ActiveTirePropertyFile
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_ActiveTirePropertyFile"></a> ActiveTirePropertyFile
 
 Gets or sets the active tire property file.
 
@@ -368,7 +368,7 @@ public ActiveTirePropertyFile ActiveTirePropertyFile { get; set; }
 
  [ActiveTirePropertyFile](VM.Managed.DAFUL.Tire.Force.ActiveTirePropertyFile.md)
 
-### CenterOffset
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_CenterOffset"></a> CenterOffset
 
 Gets or sets the center offset.
 
@@ -380,7 +380,7 @@ public ExpressionValueVariable CenterOffset { get; set; }
 
  ExpressionValueVariable
 
-### IsEditCM
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_IsEditCM"></a> IsEditCM
 
 Gets a value indicating whether this instance is edit CM.
 
@@ -392,7 +392,7 @@ public override bool IsEditCM { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Scale
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_Scale"></a> Scale
 
 Gets or sets the scale.
 
@@ -404,7 +404,7 @@ public Scale Scale { get; set; }
 
  [Scale](VM.Managed.DAFUL.Tire.Scale.md)
 
-### TypeOfSide
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_TypeOfSide"></a> TypeOfSide
 
 Gets or sets the type of side.
 Use SetTypeOfSide() when this instance sets for undo/redo
@@ -417,7 +417,7 @@ public WheelBodyBase.SideType TypeOfSide { get; set; }
 
  [WheelBodyBase](VM.Managed.DAFUL.Tire.WheelBodyBase.md).[SideType](VM.Managed.DAFUL.Tire.WheelBodyBase.SideType.md)
 
-### WheelCenterOffset
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_WheelCenterOffset"></a> WheelCenterOffset
 
 Gets or sets the wheel center offset.
 
@@ -431,7 +431,7 @@ public ExpressionValueVariable WheelCenterOffset { get; set; }
 
 ## Methods
 
-### CreateOrUpdateBuilder\(string, bool, CreateInfo, Document\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_CreateOrUpdateBuilder_System_String_System_Boolean_VM_Managed_DAFUL_Tire_WheelBodyBase_CreateInfo_VM_Managed_Document_"></a> CreateOrUpdateBuilder\(string, bool, CreateInfo, Document\)
 
 Creates the or update builder.
 
@@ -457,7 +457,7 @@ The info create.
 
 The doc.
 
-### CreateOrUpdateBuilder\(string, bool, CreateInfo\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_CreateOrUpdateBuilder_System_String_System_Boolean_VM_Managed_DAFUL_Tire_WheelBodyBase_CreateInfo_"></a> CreateOrUpdateBuilder\(string, bool, CreateInfo\)
 
 Creates the or update builder.
 
@@ -479,7 +479,7 @@ if set to <code>true</code> create.
 
 The create information.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -499,7 +499,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GetOrientation\(OMatrix\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_GetOrientation_VM_Managed_OMatrix_"></a> GetOrientation\(OMatrix\)
 
 Gets the orientation.
 
@@ -517,7 +517,7 @@ The mat input.
 
  OMatrix
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -537,7 +537,7 @@ The ob unnamed.
 
 The unnamed object name.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -551,7 +551,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -569,7 +569,7 @@ The linked object.
 
 The destroying event information.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -587,7 +587,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -601,7 +601,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### ReadTemplateImpl\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_ReadTemplateImpl_System_Xml_XmlReader_"></a> ReadTemplateImpl\(XmlReader\)
 
 Reads the template document [implementation].
 
@@ -615,7 +615,7 @@ protected override void ReadTemplateImpl(XmlReader reader)
 
 The reader.
 
-### SetModifiedImpl\(ModifiedType\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_SetModifiedImpl_VM_Managed_ModifiedResult_ModifiedType_"></a> SetModifiedImpl\(ModifiedType\)
 
 Set modified type.
 
@@ -629,7 +629,7 @@ public void SetModifiedImpl(ModifiedResult.ModifiedType type)
 
 The modified type.
 
-### SetTypeOfSide\(SideType\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_SetTypeOfSide_VM_Managed_DAFUL_Tire_WheelBodyBase_SideType_"></a> SetTypeOfSide\(SideType\)
 
 Set side type.
 
@@ -643,7 +643,7 @@ public void SetTypeOfSide(WheelBodyBase.SideType type)
 
 The side type.
 
-### WriteTemplateImpl\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Tire_WheelBodyBase_WriteTemplateImpl_System_Xml_XmlWriter_"></a> WriteTemplateImpl\(XmlWriter\)
 
 Writes the template document [implementation].
 
@@ -656,5 +656,4 @@ protected override void WriteTemplateImpl(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

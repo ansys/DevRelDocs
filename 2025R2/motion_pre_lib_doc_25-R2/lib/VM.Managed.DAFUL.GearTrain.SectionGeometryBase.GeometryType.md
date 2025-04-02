@@ -1,4 +1,4 @@
-# Enum SectionGeometryBase.GeometryType
+#  Enum SectionGeometryBase.GeometryType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -32,7 +32,6 @@ The hollow tapered
 `Tapered = 2` 
 
 The tapered
-
 
 
 

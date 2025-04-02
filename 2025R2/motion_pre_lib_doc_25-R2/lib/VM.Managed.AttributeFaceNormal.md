@@ -1,4 +1,4 @@
-# Class AttributeFaceNormal
+#  Class AttributeFaceNormal
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeFaceNormal\(bool\)
+### <a id="VM_Managed_AttributeFaceNormal__ctor_System_Boolean_"></a> AttributeFaceNormal\(bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeFaceNormal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -113,7 +113,7 @@ public AttributeFaceNormal(bool bOpposite)
 
 The opposite state.
 
-### AttributeFaceNormal\(\)
+### <a id="VM_Managed_AttributeFaceNormal__ctor"></a> AttributeFaceNormal\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeFaceNormal" data-throw-if-not-resolved="false"></xref> class.
 
@@ -123,7 +123,7 @@ public AttributeFaceNormal()
 
 ## Properties
 
-### IsOpposite
+### <a id="VM_Managed_AttributeFaceNormal_IsOpposite"></a> IsOpposite
 
 Gets or sets a value indicating whether this instance is opposite.
 
@@ -134,5 +134,4 @@ public bool IsOpposite { get; set; }
 #### Property Value
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

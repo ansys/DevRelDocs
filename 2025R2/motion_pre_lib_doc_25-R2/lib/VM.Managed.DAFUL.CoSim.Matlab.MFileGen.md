@@ -1,4 +1,4 @@
-# Class MFileGen
+#  Class MFileGen
 
 Namespace: [VM.Managed.DAFUL.CoSim.Matlab](VM.Managed.DAFUL.CoSim.Matlab.md)  
 Assembly: VMDCoSimMatlab.dll  
@@ -179,7 +179,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### MFileGen\(\)
+### <a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen__ctor"></a> MFileGen\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.Matlab.MFileGen" data-throw-if-not-resolved="false"></xref> class.
 
@@ -187,7 +187,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.Matlab.MFil
 public MFileGen()
 ```
 
-### MFileGen\(string\)
+### <a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen__ctor_System_String_"></a> MFileGen\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.CoSim.Matlab.MFileGen" data-throw-if-not-resolved="false"></xref> class.
 
@@ -203,7 +203,7 @@ Name of the <xref href="VM.Managed.DAFUL.CoSim.Matlab.MFileGen" data-throw-if-no
 
 ## Properties
 
-### IOList
+### <a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen_IOList"></a> IOList
 
 Obsolete
 
@@ -216,7 +216,7 @@ public CoSimIOList IOList { get; set; }
 
  CoSimIOList
 
-### InterfaceProgramType
+### <a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen_InterfaceProgramType"></a> InterfaceProgramType
 
 Gets the type of the interface program.
 
@@ -228,7 +228,7 @@ public override InterfaceType InterfaceProgramType { get; set; }
 
  InterfaceType
 
-### InterfaceTimeStep
+### <a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen_InterfaceTimeStep"></a> InterfaceTimeStep
 
 Obsolete
 
@@ -241,7 +241,7 @@ public Variable InterfaceTimeStep { get; set; }
 
  Variable
 
-### MFileName
+### <a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen_MFileName"></a> MFileName
 
 Gets or sets the name of the M file.
 
@@ -253,7 +253,7 @@ public string MFileName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SimulinkFileName
+### <a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen_SimulinkFileName"></a> SimulinkFileName
 
 Gets or sets the name of the simulink file.
 
@@ -267,7 +267,7 @@ public string SimulinkFileName { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -281,7 +281,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -299,7 +299,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -313,7 +313,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### SetMFileName\(string\)
+### <a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen_SetMFileName_System_String_"></a> SetMFileName\(string\)
 
 Set M file name.
 
@@ -327,7 +327,7 @@ public void SetMFileName(string strName)
 
 The M file name.
 
-### SetSimulinkFileName\(string\)
+### <a id="VM_Managed_DAFUL_CoSim_Matlab_MFileGen_SetSimulinkFileName_System_String_"></a> SetSimulinkFileName\(string\)
 
 Set simulink file name.
 
@@ -340,5 +340,4 @@ public void SetSimulinkFileName(string strName)
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 The simulink file name.
-
 

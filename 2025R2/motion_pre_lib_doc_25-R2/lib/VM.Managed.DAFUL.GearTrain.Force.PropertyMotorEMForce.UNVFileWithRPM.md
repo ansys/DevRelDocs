@@ -1,4 +1,4 @@
-# Class PropertyMotorEMForce.UNVFileWithRPM
+#  Class PropertyMotorEMForce.UNVFileWithRPM
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Force](VM.Managed.DAFUL.GearTrain.Force.md)  
 Assembly: VMDGearTrain.dll  
@@ -28,7 +28,7 @@ public class PropertyMotorEMForce.UNVFileWithRPM : PropertyMotorEMForce.UNVFile
 
 ## Constructors
 
-### UNVFileWithRPM\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_UNVFileWithRPM__ctor"></a> UNVFileWithRPM\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.UNVFileWithRPM" data-throw-if-not-resolved="false"></xref> class.
 
@@ -36,7 +36,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Force.P
 public UNVFileWithRPM()
 ```
 
-### UNVFileWithRPM\(double, string, string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_UNVFileWithRPM__ctor_System_Double_System_String_System_String_"></a> UNVFileWithRPM\(double, string, string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Force.PropertyMotorEMForce.UNVFileWithRPM" data-throw-if-not-resolved="false"></xref> class.
 
@@ -60,7 +60,7 @@ The rotor path.
 
 ## Properties
 
-### RPM
+### <a id="VM_Managed_DAFUL_GearTrain_Force_PropertyMotorEMForce_UNVFileWithRPM_RPM"></a> RPM
 
 Gets or sets the rpm.
 
@@ -71,5 +71,4 @@ public double RPM { get; set; }
 #### Property Value
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
-
 

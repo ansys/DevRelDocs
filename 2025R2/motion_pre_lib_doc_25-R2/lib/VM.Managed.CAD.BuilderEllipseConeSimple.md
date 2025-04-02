@@ -1,4 +1,4 @@
-# Class BuilderEllipseConeSimple
+#  Class BuilderEllipseConeSimple
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -211,7 +211,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BuilderEllipseConeSimple\(Variable, Variable, Variable, PointBase, PointBase, DirectionBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_PointBase_VM_Managed_PointBase_VM_Managed_DirectionBase_"></a> BuilderEllipseConeSimple\(Variable, Variable, Variable, PointBase, PointBase, DirectionBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -245,7 +245,7 @@ The top position of cone.
 
 The axis of cone.
 
-### BuilderEllipseConeSimple\(double, double, double, PointBase, PointBase, DirectionBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__ctor_System_Double_System_Double_System_Double_VM_Managed_PointBase_VM_Managed_PointBase_VM_Managed_DirectionBase_"></a> BuilderEllipseConeSimple\(double, double, double, PointBase, PointBase, DirectionBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -277,7 +277,7 @@ The top position of cone.
 
 The axis of cone.
 
-### BuilderEllipseConeSimple\(Variable, Variable, Variable, PointBase, PointBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_PointBase_VM_Managed_PointBase_"></a> BuilderEllipseConeSimple\(Variable, Variable, Variable, PointBase, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -307,7 +307,7 @@ The botton position of cone.
 
 The top position of cone.
 
-### BuilderEllipseConeSimple\(double, double, double, PointBase, PointBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__ctor_System_Double_System_Double_System_Double_VM_Managed_PointBase_VM_Managed_PointBase_"></a> BuilderEllipseConeSimple\(double, double, double, PointBase, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -335,7 +335,7 @@ The botton position of cone.
 
 The top position of cone.
 
-### BuilderEllipseConeSimple\(Variable, Variable, Variable, PointBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_PointBase_"></a> BuilderEllipseConeSimple\(Variable, Variable, Variable, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -361,7 +361,7 @@ The top radius of cone.(variable)
 
 The top position of cone.
 
-### BuilderEllipseConeSimple\(double, double, double, PointBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__ctor_System_Double_System_Double_System_Double_VM_Managed_PointBase_"></a> BuilderEllipseConeSimple\(double, double, double, PointBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -387,7 +387,7 @@ The top radius of cone.
 
 The top position of cone.
 
-### BuilderEllipseConeSimple\(Variable, Variable, Variable, Variable\)
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_"></a> BuilderEllipseConeSimple\(Variable, Variable, Variable, Variable\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -413,7 +413,7 @@ The top radius of cone.(variable)
 
 The height of cone.(variable)
 
-### BuilderEllipseConeSimple\(double, double, double, double\)
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__ctor_System_Double_System_Double_System_Double_System_Double_"></a> BuilderEllipseConeSimple\(double, double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -439,7 +439,7 @@ The top radius of cone.
 
 The height of cone.
 
-### BuilderEllipseConeSimple\(\)
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__ctor"></a> BuilderEllipseConeSimple\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.BuilderEllipseConeSimple" data-throw-if-not-resolved="false"></xref> class
 
@@ -449,7 +449,7 @@ public BuilderEllipseConeSimple()
 
 ## Properties
 
-### BottomPosition
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple_BottomPosition"></a> BottomPosition
 
 Gets or sets the bottom position.
 
@@ -461,7 +461,7 @@ public PointBase BottomPosition { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### IsParameterized
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple_IsParameterized"></a> IsParameterized
 
 Gets the parametric.
 
@@ -473,7 +473,7 @@ public override bool IsParameterized { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### MajorAxis
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple_MajorAxis"></a> MajorAxis
 
 Gets or sets the major axis.
 
@@ -485,7 +485,7 @@ public DirectionBase MajorAxis { get; set; }
 
  [DirectionBase](VM.Managed.DirectionBase.md)
 
-### RadiusMajor
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple_RadiusMajor"></a> RadiusMajor
 
 Gets or sets the major radius of cone(variable).
 
@@ -497,7 +497,7 @@ public Variable RadiusMajor { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### RadiusMinor
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple_RadiusMinor"></a> RadiusMinor
 
 Gets or sets the minor radius of cone(variable).
 
@@ -509,7 +509,7 @@ public Variable RadiusMinor { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### TopPosition
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple_TopPosition"></a> TopPosition
 
 Gets or sets the top position.
 
@@ -521,7 +521,7 @@ public PointBase TopPosition { get; set; }
 
  [PointBase](VM.Managed.PointBase.md)
 
-### TopRadius
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple_TopRadius"></a> TopRadius
 
 Gets or sets the topradius of cone(variable).
 
@@ -533,7 +533,7 @@ public Variable TopRadius { get; set; }
 
  [Variable](VM.Managed.Variable.md)
 
-### \_BottomPosition
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__BottomPosition"></a> \_BottomPosition
 
 Gets the bottom position of cylinder.
 
@@ -545,7 +545,7 @@ public override VectorBase _BottomPosition { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### \_MajorAxis
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__MajorAxis"></a> \_MajorAxis
 
 Gets the major axis of cone.
 
@@ -557,7 +557,7 @@ public override VectorBase _MajorAxis { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### \_RadiusMajor
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__RadiusMajor"></a> \_RadiusMajor
 
 Gets the major radius of cylinder.
 
@@ -569,7 +569,7 @@ public override double _RadiusMajor { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### \_RadiusMinor
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__RadiusMinor"></a> \_RadiusMinor
 
 Gets the minor radius of cone.
 
@@ -581,7 +581,7 @@ public override double _RadiusMinor { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### \_TopPosition
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__TopPosition"></a> \_TopPosition
 
 Gets the top position of cylinder.
 
@@ -593,7 +593,7 @@ public override VectorBase _TopPosition { get; }
 
  [VectorBase](VM.Managed.VectorBase.md)
 
-### \_TopRadius
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple__TopRadius"></a> \_TopRadius
 
 Gets the top radius of block.
 
@@ -607,7 +607,7 @@ public override double _TopRadius { get; }
 
 ## Methods
 
-### ChangeDataForCircularReference\(\)
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple_ChangeDataForCircularReference"></a> ChangeDataForCircularReference\(\)
 
 Change data for circular reference.
 
@@ -615,7 +615,7 @@ Change data for circular reference.
 public override void ChangeDataForCircularReference()
 ```
 
-### CheckCircularReference\(ObjectBase\)
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple_CheckCircularReference_VM_Managed_ObjectBase_"></a> CheckCircularReference\(ObjectBase\)
 
 Check data for circular reference.
 
@@ -629,7 +629,7 @@ public override void CheckCircularReference(ObjectBase objCM)
 
 The CM.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -643,7 +643,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### SetTransform\(TMatrix\)
+### <a id="VM_Managed_CAD_BuilderEllipseConeSimple_SetTransform_VM_Managed_TMatrix_"></a> SetTransform\(TMatrix\)
 
 Sets the transform info.
 
@@ -656,5 +656,4 @@ public override void SetTransform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The transform info.
-
 

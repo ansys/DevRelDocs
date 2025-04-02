@@ -1,4 +1,4 @@
-# Enum BasicInvolute.ProfilMethodType
+#  Enum BasicInvolute.ProfilMethodType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ The Cycloid
 `Involute = 0` 
 
 The Involute
-
 
 
 

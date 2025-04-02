@@ -1,4 +1,4 @@
-# Class PropertyActuatorUser
+#  Class PropertyActuatorUser
 
 Namespace: [VM.Managed.DAFUL.Linear](VM.Managed.DAFUL.Linear.md)  
 Assembly: VMDLinear.dll  
@@ -167,7 +167,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyActuatorUser\(\)
+### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorUser__ctor"></a> PropertyActuatorUser\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Linear.PropertyActuatorUser" data-throw-if-not-resolved="false"></xref> class.
 
@@ -177,7 +177,7 @@ public PropertyActuatorUser()
 
 ## Properties
 
-### F
+### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorUser_F"></a> F
 
 Gets or sets the F.
 
@@ -189,7 +189,7 @@ public ExpressionValueVariable F { get; set; }
 
  ExpressionValueVariable
 
-### PhaseAngle
+### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorUser_PhaseAngle"></a> PhaseAngle
 
 Gets or sets the phase angle.
 
@@ -203,7 +203,7 @@ public ExpressionValueVariable PhaseAngle { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Linear_PropertyActuatorUser_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -216,5 +216,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

@@ -1,4 +1,4 @@
-# Class MFileGen
+#  Class MFileGen
 
 Namespace: [VM.Managed.DAFUL.Builder.CoSim.Matlab](VM.Managed.DAFUL.Builder.CoSim.Matlab.md)  
 Assembly: VMBldCoSimMatlab.dll  
@@ -53,7 +53,7 @@ BuilderBase<MFileGen\>.ErrorMessage
 
 ## Constructors
 
-### MFileGen\(\)
+### <a id="VM_Managed_DAFUL_Builder_CoSim_Matlab_MFileGen__ctor"></a> MFileGen\(\)
 
 ```csharp
 public MFileGen()
@@ -61,7 +61,7 @@ public MFileGen()
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_CoSim_Matlab_MFileGen_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -76,5 +76,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

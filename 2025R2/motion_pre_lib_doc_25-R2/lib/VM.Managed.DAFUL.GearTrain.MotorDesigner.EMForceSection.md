@@ -1,4 +1,4 @@
-# Class MotorDesigner.EMForceSection
+#  Class MotorDesigner.EMForceSection
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### EMForceSection\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection__ctor"></a> EMForceSection\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.MotorDesigner.EMForceSection" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public EMForceSection()
 
 ## Properties
 
-### Method
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_Method"></a> Method
 
 Gets or sets the method.
 
@@ -120,7 +120,7 @@ public MotorDesigner.EMForceSection.MethodBase Method { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_EMForceSection_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -133,5 +133,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

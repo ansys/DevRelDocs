@@ -1,4 +1,4 @@
-# Class CADOperation
+#  Class CADOperation
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -22,7 +22,7 @@ public class CADOperation
 
 ## Constructors
 
-### CADOperation\(\)
+### <a id="VM_Managed_DAFUL_Car_CADOperation__ctor"></a> CADOperation\(\)
 
 ```csharp
 public CADOperation()
@@ -30,7 +30,7 @@ public CADOperation()
 
 ## Methods
 
-### SetMinorRoleForInterface\(Dictionary<string, MinorRole\>\)
+### <a id="VM_Managed_DAFUL_Car_CADOperation_SetMinorRoleForInterface_System_Collections_Generic_Dictionary_System_String_VM_Managed_DAFUL_Car_MinorRole__"></a> SetMinorRoleForInterface\(Dictionary<string, MinorRole\>\)
 
 Set interface names.
 
@@ -43,5 +43,4 @@ public static void SetMinorRoleForInterface(Dictionary<string, MinorRole> dic)
 `dic` [Dictionary](https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary\-2)<[string](https://learn.microsoft.com/dotnet/api/system.string), [MinorRole](VM.Managed.DAFUL.Car.MinorRole.md)\>
 
 The objectbase and interface names.
-
 

@@ -1,4 +1,4 @@
-# Class SectionGeometryCircular
+#  Class SectionGeometryCircular
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -117,7 +117,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### SectionGeometryCircular\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryCircular__ctor"></a> SectionGeometryCircular\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.SectionGeometryCircular" data-throw-if-not-resolved="false"></xref> class.
 
@@ -127,7 +127,7 @@ public SectionGeometryCircular()
 
 ## Properties
 
-### Radius
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryCircular_Radius"></a> Radius
 
 Gets or sets the radius.
 
@@ -139,7 +139,7 @@ public ExpressionValueVariable Radius { get; set; }
 
  ExpressionValueVariable
 
-### TypeOfGeometry
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryCircular_TypeOfGeometry"></a> TypeOfGeometry
 
 Gets the type of geometry.
 
@@ -153,7 +153,7 @@ public override SectionGeometryBase.GeometryType TypeOfGeometry { get; }
 
 ## Methods
 
-### GetBuilder\(BuilderColor, VectorBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryCircular_GetBuilder_VM_Managed_CAD_BuilderColor_VM_Managed_VectorBase_"></a> GetBuilder\(BuilderColor, VectorBase\)
 
 Gets the builder.
 
@@ -175,7 +175,7 @@ The offset direction.
 
  Builder
 
-### GetGeomInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryCircular_GetGeomInfo"></a> GetGeomInfo\(\)
 
 Gets the geom information.
 
@@ -187,7 +187,7 @@ public override double[] GetGeomInfo()
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### GetLengthAndHeight\(ref double, ref double\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryCircular_GetLengthAndHeight_System_Double__System_Double__"></a> GetLengthAndHeight\(ref double, ref double\)
 
 Gets the start and end point.
 
@@ -205,7 +205,7 @@ Length of the d.
 
 Height of the d.
 
-### GetSectionBuilder\(double, List<Vector\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryCircular_GetSectionBuilder_System_Double_System_Collections_Generic_List_VM_Managed_Vector__"></a> GetSectionBuilder\(double, List<Vector\>\)
 
 Gets the section builder.
 
@@ -227,7 +227,7 @@ The LST gear section.
 
  Builder\[\]
 
-### InitChild\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryCircular_InitChild"></a> InitChild\(\)
 
 Initializes the child.
 
@@ -235,7 +235,7 @@ Initializes the child.
 public override void InitChild()
 ```
 
-### InnerCreateParameter\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryCircular_InnerCreateParameter"></a> InnerCreateParameter\(\)
 
 ```csharp
 protected override BuilderParamBase InnerCreateParameter()
@@ -245,7 +245,7 @@ protected override BuilderParamBase InnerCreateParameter()
 
  BuilderParamBase
 
-### InnerFillParameter\(BuilderParamBase, BuilderColor, VectorBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryCircular_InnerFillParameter_VM_CAD_Builders_BuilderParamBase_VM_Managed_CAD_BuilderColor_VM_Managed_VectorBase_"></a> InnerFillParameter\(BuilderParamBase, BuilderColor, VectorBase\)
 
 ```csharp
 protected override void InnerFillParameter(BuilderParamBase parameter, BuilderColor color, VectorBase vecOffsetDirection)
@@ -259,7 +259,7 @@ protected override void InnerFillParameter(BuilderParamBase parameter, BuilderCo
 
 `vecOffsetDirection` VectorBase
 
-### SplitSectionInfo\(HiddenShaftSetDocument, string, int\)
+### <a id="VM_Managed_DAFUL_GearTrain_SectionGeometryCircular_SplitSectionInfo_VM_Managed_DAFUL_GearTrain_HiddenShaftSetDocument_System_String_System_Int32_"></a> SplitSectionInfo\(HiddenShaftSetDocument, string, int\)
 
 Splits the section information.
 
@@ -284,5 +284,4 @@ The n number.
 #### Returns
 
  [SectionInfo](VM.Managed.DAFUL.GearTrain.SectionInfo.md)\[\]
-
 

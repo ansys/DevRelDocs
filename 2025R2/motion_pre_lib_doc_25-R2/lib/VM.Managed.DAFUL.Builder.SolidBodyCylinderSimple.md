@@ -1,4 +1,4 @@
-# Class SolidBodyCylinderSimple
+#  Class SolidBodyCylinderSimple
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -65,7 +65,7 @@ public class SolidBodyCylinderSimple : SolidBodyCylinder<BuilderCylinderSimple>,
 
 ## Constructors
 
-### SolidBodyCylinderSimple\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyCylinderSimple__ctor"></a> SolidBodyCylinderSimple\(\)
 
 ```csharp
 public SolidBodyCylinderSimple()
@@ -73,7 +73,7 @@ public SolidBodyCylinderSimple()
 
 ## Properties
 
-### BottomPosition
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyCylinderSimple_BottomPosition"></a> BottomPosition
 
 ```csharp
 public PointBase BottomPosition { get; }
@@ -83,7 +83,7 @@ public PointBase BottomPosition { get; }
 
  PointBase
 
-### RadiusMajor
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyCylinderSimple_RadiusMajor"></a> RadiusMajor
 
 ```csharp
 public Variable RadiusMajor { get; set; }
@@ -93,7 +93,7 @@ public Variable RadiusMajor { get; set; }
 
  Variable
 
-### TopPosition
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyCylinderSimple_TopPosition"></a> TopPosition
 
 ```csharp
 public PointBase TopPosition { get; }
@@ -105,7 +105,7 @@ public PointBase TopPosition { get; }
 
 ## Methods
 
-### MakeSymmetricSolidBuilder\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyCylinderSimple_MakeSymmetricSolidBuilder"></a> MakeSymmetricSolidBuilder\(\)
 
 ```csharp
 protected override Builder MakeSymmetricSolidBuilder()
@@ -115,7 +115,7 @@ protected override Builder MakeSymmetricSolidBuilder()
 
  Builder
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyCylinderSimple_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -131,7 +131,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetSolidBuilderProperty\(BuilderCylinderSimple\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBodyCylinderSimple_SetSolidBuilderProperty_VM_Managed_CAD_BuilderCylinderSimple_"></a> SetSolidBuilderProperty\(BuilderCylinderSimple\)
 
 ```csharp
 protected override void SetSolidBuilderProperty(BuilderCylinderSimple solidBuilder)
@@ -140,5 +140,4 @@ protected override void SetSolidBuilderProperty(BuilderCylinderSimple solidBuild
 #### Parameters
 
 `solidBuilder` BuilderCylinderSimple
-
 

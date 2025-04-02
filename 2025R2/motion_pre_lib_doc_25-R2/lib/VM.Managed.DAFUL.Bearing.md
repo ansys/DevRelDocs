@@ -1,4 +1,4 @@
-# Namespace VM.Managed.DAFUL.Bearing
+#  Namespace VM.Managed.DAFUL.Bearing
 
 ### Namespaces
 
@@ -17,5 +17,4 @@ This class is to represent the Elasto-hydrodynamic bearing properties.
  [ReferenceEHDBearing](VM.Managed.DAFUL.Bearing.ReferenceEHDBearing.md)
 
 This class is to represent the reference for EHD bearing object.
-
 

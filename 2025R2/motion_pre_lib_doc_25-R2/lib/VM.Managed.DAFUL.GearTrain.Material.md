@@ -1,4 +1,4 @@
-# Class Material
+#  Class Material
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Material\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Material__ctor"></a> Material\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Material" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ public Material()
 
 ## Properties
 
-### MaterialNames
+### <a id="VM_Managed_DAFUL_GearTrain_Material_MaterialNames"></a> MaterialNames
 
 Gets or sets the material names.
 
@@ -120,7 +120,7 @@ public string[] MaterialNames { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### Materials
+### <a id="VM_Managed_DAFUL_GearTrain_Material_Materials"></a> Materials
 
 Gets or sets the materials.
 
@@ -132,7 +132,7 @@ public IMaterial[] Materials { get; set; }
 
  IMaterial\[\]
 
-### PairSigmaFlim
+### <a id="VM_Managed_DAFUL_GearTrain_Material_PairSigmaFlim"></a> PairSigmaFlim
 
 Gets or sets the pair σ Flim.
 
@@ -144,7 +144,7 @@ public GearPairValue PairSigmaFlim { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairSigmaHlim
+### <a id="VM_Managed_DAFUL_GearTrain_Material_PairSigmaHlim"></a> PairSigmaHlim
 
 Gets or sets the pair σ Hlim.
 
@@ -158,7 +158,7 @@ public GearPairValue PairSigmaHlim { get; set; }
 
 ## Methods
 
-### InitChild\(int, ConvertFactor, PropertyGearSetBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_Material_InitChild_System_Int32_VM_Unit_ConvertFactor_VM_Managed_DAFUL_GearTrain_PropertyGearSetBase_"></a> InitChild\(int, ConvertFactor, PropertyGearSetBase\)
 
 Initializes the child.
 
@@ -180,7 +180,7 @@ The factor.
 
 The property gear set.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_Material_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -193,5 +193,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

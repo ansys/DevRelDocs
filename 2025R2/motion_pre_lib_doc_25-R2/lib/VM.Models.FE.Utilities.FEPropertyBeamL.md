@@ -1,4 +1,4 @@
-# Struct FEPropertyBeamL
+#  Struct FEPropertyBeamL
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -9,7 +9,7 @@ public struct FEPropertyBeamL
 
 ## Properties
 
-### DirectionVector
+### <a id="VM_Models_FE_Utilities_FEPropertyBeamL_DirectionVector"></a> DirectionVector
 
 ```csharp
 public Vector DirectionVector { readonly get; set; }
@@ -19,7 +19,7 @@ public Vector DirectionVector { readonly get; set; }
 
  Vector
 
-### ID
+### <a id="VM_Models_FE_Utilities_FEPropertyBeamL_ID"></a> ID
 
 ```csharp
 public uint ID { readonly get; set; }
@@ -29,7 +29,7 @@ public uint ID { readonly get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### MaterialSequence
+### <a id="VM_Models_FE_Utilities_FEPropertyBeamL_MaterialSequence"></a> MaterialSequence
 
 ```csharp
 public uint MaterialSequence { readonly get; set; }
@@ -39,7 +39,7 @@ public uint MaterialSequence { readonly get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### NumberOfSection
+### <a id="VM_Models_FE_Utilities_FEPropertyBeamL_NumberOfSection"></a> NumberOfSection
 
 ```csharp
 public uint NumberOfSection { readonly get; set; }
@@ -49,7 +49,7 @@ public uint NumberOfSection { readonly get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
 
-### SectionDimension
+### <a id="VM_Models_FE_Utilities_FEPropertyBeamL_SectionDimension"></a> SectionDimension
 
 ```csharp
 public double[] SectionDimension { readonly get; set; }
@@ -59,7 +59,7 @@ public double[] SectionDimension { readonly get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)\[\]
 
-### SectionTypeID
+### <a id="VM_Models_FE_Utilities_FEPropertyBeamL_SectionTypeID"></a> SectionTypeID
 
 ```csharp
 public uint SectionTypeID { readonly get; set; }
@@ -68,5 +68,4 @@ public uint SectionTypeID { readonly get; set; }
 #### Property Value
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
-
 

@@ -1,4 +1,4 @@
-# Class CreateDTEntityUtil.SlidingBearingCreateInfo
+#  Class CreateDTEntityUtil.SlidingBearingCreateInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -20,7 +20,7 @@ public class CreateDTEntityUtil.SlidingBearingCreateInfo
 
 ## Constructors
 
-### SlidingBearingCreateInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo__ctor"></a> SlidingBearingCreateInfo\(\)
 
 ```csharp
 public SlidingBearingCreateInfo()
@@ -28,7 +28,7 @@ public SlidingBearingCreateInfo()
 
 ## Fields
 
-### ArcAngle
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo_ArcAngle"></a> ArcAngle
 
 ```csharp
 public double ArcAngle
@@ -38,7 +38,7 @@ public double ArcAngle
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### InnerDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo_InnerDiameter"></a> InnerDiameter
 
 ```csharp
 public double InnerDiameter
@@ -48,7 +48,7 @@ public double InnerDiameter
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Length
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo_Length"></a> Length
 
 ```csharp
 public double Length
@@ -58,7 +58,7 @@ public double Length
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Thickness
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo_Thickness"></a> Thickness
 
 ```csharp
 public double Thickness
@@ -68,7 +68,7 @@ public double Thickness
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Type
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo_Type"></a> Type
 
 ```csharp
 public enSlidingBearingType Type
@@ -80,7 +80,7 @@ public enSlidingBearingType Type
 
 ## Properties
 
-### InputArray
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo_InputArray"></a> InputArray
 
 ```csharp
 public string[] InputArray { get; }
@@ -92,10 +92,9 @@ public string[] InputArray { get; }
 
 ## Methods
 
-### Initialize\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_SlidingBearingCreateInfo_Initialize"></a> Initialize\(\)
 
 ```csharp
 public void Initialize()
 ```
-
 

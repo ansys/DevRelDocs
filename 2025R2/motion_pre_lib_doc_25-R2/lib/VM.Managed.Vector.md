@@ -1,4 +1,4 @@
-# Class Vector
+#  Class Vector
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -51,7 +51,7 @@ public sealed class Vector : VectorBase
 
 ## Constructors
 
-### Vector\(double\[\]\)
+### <a id="VM_Managed_Vector__ctor_System_Double___"></a> Vector\(double\[\]\)
 
 Initializes a new instance of the <xref href="VM.Managed.Vector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -65,7 +65,7 @@ public Vector(double[] arVec)
 
 The arVec.
 
-### Vector\(double, double, double\)
+### <a id="VM_Managed_Vector__ctor_System_Double_System_Double_System_Double_"></a> Vector\(double, double, double\)
 
 Initializes a new instance of the <xref href="VM.Managed.Vector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -87,7 +87,7 @@ The Y.
 
 The Z.
 
-### Vector\(VectorBase\)
+### <a id="VM_Managed_Vector__ctor_VM_Managed_VectorBase_"></a> Vector\(VectorBase\)
 
 Initializes a new instance of the <xref href="VM.Managed.Vector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -101,7 +101,7 @@ public Vector(VectorBase vec)
 
 The vec.
 
-### Vector\(\)
+### <a id="VM_Managed_Vector__ctor"></a> Vector\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Vector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ Initializes a new instance of the <xref href="VM.Managed.Vector" data-throw-if-n
 public Vector()
 ```
 
-### Vector\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_Vector__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> Vector\(SerializationInfo, StreamingContext\)
 
 Initializes a new instance of the <xref href="VM.Managed.Vector" data-throw-if-not-resolved="false"></xref> class.
 
@@ -129,7 +129,7 @@ The context.
 
 ## Properties
 
-### Magnitude
+### <a id="VM_Managed_Vector_Magnitude"></a> Magnitude
 
 Gets the magnitude of vector(UInt32).
 
@@ -141,7 +141,7 @@ public override double Magnitude { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### X
+### <a id="VM_Managed_Vector_X"></a> X
 
 Gets or sets the X of vector.
 
@@ -153,7 +153,7 @@ public override double X { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_Managed_Vector_Y"></a> Y
 
 Gets or sets the Y of vector.
 
@@ -165,7 +165,7 @@ public override double Y { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Z
+### <a id="VM_Managed_Vector_Z"></a> Z
 
 Gets or sets the Z of vector.
 
@@ -177,7 +177,7 @@ public override double Z { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### this\[uint\]
+### <a id="VM_Managed_Vector_Item_System_UInt32_"></a> this\[uint\]
 
 ```csharp
 public override double this[uint n] { get; set; }
@@ -187,7 +187,7 @@ public override double this[uint n] { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### this\[Coordinate\]
+### <a id="VM_Managed_Vector_Item_VM_Coordinate_"></a> this\[Coordinate\]
 
 ```csharp
 public override double this[Coordinate n] { get; set; }
@@ -199,7 +199,7 @@ public override double this[Coordinate n] { get; set; }
 
 ## Methods
 
-### Clone\(\)
+### <a id="VM_Managed_Vector_Clone"></a> Clone\(\)
 
 clone.
 
@@ -213,7 +213,7 @@ public override sealed object Clone()
 
 The clone.
 
-### CrossProduct\(VectorBase\)
+### <a id="VM_Managed_Vector_CrossProduct_VM_Managed_VectorBase_"></a> CrossProduct\(VectorBase\)
 
 Cross product.
 
@@ -233,7 +233,7 @@ The vec.
 
 Result of product
 
-### DotProduct\(VectorBase\)
+### <a id="VM_Managed_Vector_DotProduct_VM_Managed_VectorBase_"></a> DotProduct\(VectorBase\)
 
 Dot product.
 
@@ -253,7 +253,7 @@ The vec.
 
 Result of product
 
-### GetArray\(\)
+### <a id="VM_Managed_Vector_GetArray"></a> GetArray\(\)
 
 Gets the array.
 
@@ -267,7 +267,7 @@ public override sealed double[] GetArray()
 
 The array.
 
-### GetDistance\(VectorBase\)
+### <a id="VM_Managed_Vector_GetDistance_VM_Managed_VectorBase_"></a> GetDistance\(VectorBase\)
 
 Gets the distance.
 
@@ -287,7 +287,7 @@ The vec.
 
 The distance
 
-### GetObjectData\(SerializationInfo, StreamingContext\)
+### <a id="VM_Managed_Vector_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_"></a> GetObjectData\(SerializationInfo, StreamingContext\)
 
 Customize the GetObjectData function.
 
@@ -303,7 +303,7 @@ The info.
 
 `__unnamed001` [StreamingContext](https://learn.microsoft.com/dotnet/api/system.runtime.serialization.streamingcontext)
 
-### GetOrthoVector\(VectorBase\)
+### <a id="VM_Managed_Vector_GetOrthoVector_VM_Managed_VectorBase_"></a> GetOrthoVector\(VectorBase\)
 
 Gets the ortho vector.
 
@@ -323,7 +323,7 @@ The candidate.
 
 The ortho vector.
 
-### GetOrthoVector\(\)
+### <a id="VM_Managed_Vector_GetOrthoVector"></a> GetOrthoVector\(\)
 
 Gets the ortho vector.
 
@@ -337,7 +337,7 @@ public override sealed Vector GetOrthoVector()
 
 The ortho vector.
 
-### GetSchema\(\)
+### <a id="VM_Managed_Vector_GetSchema"></a> GetSchema\(\)
 
 This method is reserved and should not be used. When implementing the IXmlSerializable interface, 
 you should return nullNothingnullptra null reference (Nothing in Visual Basic) (Nothing in Visual Basic) 
@@ -352,7 +352,7 @@ public XmlSchema GetSchema()
 
  [XmlSchema](https://learn.microsoft.com/dotnet/api/system.xml.schema.xmlschema)
 
-### MakeUnitVector\(\)
+### <a id="VM_Managed_Vector_MakeUnitVector"></a> MakeUnitVector\(\)
 
 Mate unit vector.
 
@@ -360,7 +360,7 @@ Mate unit vector.
 public override sealed void MakeUnitVector()
 ```
 
-### ReadXml\(XmlReader\)
+### <a id="VM_Managed_Vector_ReadXml_System_Xml_XmlReader_"></a> ReadXml\(XmlReader\)
 
 Generates an object from its XML representation.
 
@@ -374,7 +374,7 @@ public void ReadXml(XmlReader reader)
 
 The XmlReader stream from which the object is deserialized.
 
-### Set\(double, double, double\)
+### <a id="VM_Managed_Vector_Set_System_Double_System_Double_System_Double_"></a> Set\(double, double, double\)
 
 Sets the value of vector.
 
@@ -396,7 +396,7 @@ The Y.
 
 The Z.
 
-### Set\(double\[\]\)
+### <a id="VM_Managed_Vector_Set_System_Double___"></a> Set\(double\[\]\)
 
 Sets the value of vector.
 
@@ -410,7 +410,7 @@ public override sealed void Set(double[] arr)
 
 The arr.
 
-### Set\(VectorBase\)
+### <a id="VM_Managed_Vector_Set_VM_Managed_VectorBase_"></a> Set\(VectorBase\)
 
 Sets the value of vector.
 
@@ -424,7 +424,7 @@ public override sealed void Set(VectorBase vec)
 
 The vec.
 
-### WriteXml\(XmlWriter\)
+### <a id="VM_Managed_Vector_WriteXml_System_Xml_XmlWriter_"></a> WriteXml\(XmlWriter\)
 
 Converts an object into its XML representation.
 
@@ -440,7 +440,7 @@ The XmlWriter stream to which the object is serialized.
 
 ## Operators
 
-### implicit operator Vector\(Vector\)
+### <a id="VM_Managed_Vector_op_Implicit_VM_Vector__VM_Managed_Vector"></a> implicit operator Vector\(Vector\)
 
 ```csharp
 public static implicit operator Vector(Vector vec)
@@ -454,7 +454,7 @@ public static implicit operator Vector(Vector vec)
 
  [Vector](VM.Managed.Vector.md)
 
-### implicit operator Vector\(Vector\)
+### <a id="VM_Managed_Vector_op_Implicit_VM_Managed_Vector__VM_Vector"></a> implicit operator Vector\(Vector\)
 
 ```csharp
 public static implicit operator Vector(Vector vec)
@@ -467,5 +467,4 @@ public static implicit operator Vector(Vector vec)
 #### Returns
 
  Vector
-
 

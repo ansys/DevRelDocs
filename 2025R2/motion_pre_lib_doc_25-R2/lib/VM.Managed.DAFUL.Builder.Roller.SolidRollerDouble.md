@@ -1,4 +1,4 @@
-# Class SolidRollerDouble
+#  Class SolidRollerDouble
 
 Namespace: [VM.Managed.DAFUL.Builder.Roller](VM.Managed.DAFUL.Builder.Roller.md)  
 Assembly: VMBldRoller.dll  
@@ -52,7 +52,7 @@ BuilderBase<BodyRoller\>.ErrorMessage
 
 ## Constructors
 
-### SolidRollerDouble\(\)
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidRollerDouble__ctor"></a> SolidRollerDouble\(\)
 
 ```csharp
 public SolidRollerDouble()
@@ -60,7 +60,7 @@ public SolidRollerDouble()
 
 ## Methods
 
-### GetCurrentBuilder\(\)
+### <a id="VM_Managed_DAFUL_Builder_Roller_SolidRollerDouble_GetCurrentBuilder"></a> GetCurrentBuilder\(\)
 
 ```csharp
 protected override Builder GetCurrentBuilder()
@@ -69,5 +69,4 @@ protected override Builder GetCurrentBuilder()
 #### Returns
 
  Builder
-
 

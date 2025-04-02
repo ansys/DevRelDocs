@@ -1,4 +1,4 @@
-# Struct ObjectBase.None
+#  Struct ObjectBase.None
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -12,5 +12,4 @@ public struct ObjectBase.None : ILinkContainerEvent.ILinkEventBuilder
 #### Implements
 
 [ILinkContainerEvent.ILinkEventBuilder](VM.Managed.ILinkContainerEvent.ILinkEventBuilder.md)
-
 

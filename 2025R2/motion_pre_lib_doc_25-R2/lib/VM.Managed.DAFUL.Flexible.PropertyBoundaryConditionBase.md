@@ -1,4 +1,4 @@
-# Class PropertyBoundaryConditionBase
+#  Class PropertyBoundaryConditionBase
 
 Namespace: [VM.Managed.DAFUL.Flexible](VM.Managed.DAFUL.Flexible.md)  
 Assembly: VMFlexibleBase.dll  
@@ -177,7 +177,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyBoundaryConditionBase\(\)
+### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase__ctor"></a> PropertyBoundaryConditionBase\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.PropertyBoundaryConditionBase" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -189,7 +189,7 @@ public PropertyBoundaryConditionBase()
 
 ## Properties
 
-### ConstrainedType
+### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ConstrainedType"></a> ConstrainedType
 
 <p>Gets or sets the constrained type.</p>
 <p>경계 조건을 가져오거나 넣어줍니다.</p>
@@ -220,7 +220,7 @@ public PropertyBoundaryConditionBase.BCConstrainedType ConstrainedType { get; se
 
  [PropertyBoundaryConditionBase](VM.Managed.DAFUL.Flexible.PropertyBoundaryConditionBase.md).[BCConstrainedType](VM.Managed.DAFUL.Flexible.PropertyBoundaryConditionBase.BCConstrainedType.md)
 
-### ElementRX
+### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementRX"></a> ElementRX
 
 <p>Gets or sets the element RX.</p>
 <p>회전 x방향의 값을 가져오거나 넣어줍니다.</p>
@@ -251,7 +251,7 @@ public CompositeFieldUsable ElementRX { get; set; }
 
  CompositeFieldUsable
 
-### ElementRY
+### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementRY"></a> ElementRY
 
 <p>Gets or sets the element RY.</p>
 <p>회전 y방향의 값을 가져오거나 넣어줍니다.</p>
@@ -282,7 +282,7 @@ public CompositeFieldUsable ElementRY { get; set; }
 
  CompositeFieldUsable
 
-### ElementRZ
+### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementRZ"></a> ElementRZ
 
 <p>Gets or sets the element RZ.</p>
 <p>회전 z방향의 값을 가져오거나 넣어줍니다.</p>
@@ -313,7 +313,7 @@ public CompositeFieldUsable ElementRZ { get; set; }
 
  CompositeFieldUsable
 
-### ElementTX
+### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementTX"></a> ElementTX
 
 <p>Gets or sets the element TX.</p>
 <p>병진 x방향의 값을 가져오거나 넣어줍니다.</p>
@@ -344,7 +344,7 @@ public CompositeFieldUsable ElementTX { get; set; }
 
  CompositeFieldUsable
 
-### ElementTY
+### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementTY"></a> ElementTY
 
 <p>Gets or sets the element TY.</p>
 <p>병진 y방향의 값을 가져오거나 넣어줍니다.</p>
@@ -375,7 +375,7 @@ public CompositeFieldUsable ElementTY { get; set; }
 
  CompositeFieldUsable
 
-### ElementTZ
+### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_ElementTZ"></a> ElementTZ
 
 <p>Gets or sets the element TZ.</p>
 <p>병진 z방향의 값을 가져오거나 넣어줍니다.</p>
@@ -406,7 +406,7 @@ public CompositeFieldUsable ElementTZ { get; set; }
 
  CompositeFieldUsable
 
-### PenaltyScale
+### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_PenaltyScale"></a> PenaltyScale
 
 <p>Gets or sets the penalty scale.</p>
 <p>페날티 스케일을 가져오거나 넣어줍니다.</p>
@@ -439,7 +439,7 @@ public ExpressionValueVariable PenaltyScale { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Flexible_PropertyBoundaryConditionBase_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 <p>Initializes member through unit convert factor.</p>
 <p>단위 변화 팩터를 이용하여 필드를 초기화 해줍니다.</p>
@@ -454,5 +454,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 <p>The unit convert factor.</p>
 <p>단위 변환 팩터.</p>
-
 

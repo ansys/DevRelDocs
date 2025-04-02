@@ -1,4 +1,4 @@
-# Class PropertyBallPlacing
+#  Class PropertyBallPlacing
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDBallPlacing.dll  
@@ -165,10 +165,9 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyBallPlacing\(\)
+### <a id="VM_Managed_DAFUL_PropertyBallPlacing__ctor"></a> PropertyBallPlacing\(\)
 
 ```csharp
 public PropertyBallPlacing()
 ```
-
 

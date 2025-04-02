@@ -1,4 +1,4 @@
-# Enum Plane
+#  Enum Plane
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -44,7 +44,6 @@ ZX.
 `ZY = 3` 
 
 ZY.
-
 
 
 

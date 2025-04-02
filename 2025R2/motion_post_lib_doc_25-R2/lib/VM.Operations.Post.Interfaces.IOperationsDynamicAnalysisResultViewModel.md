@@ -1,4 +1,4 @@
-# Interface IOperationsDynamicAnalysisResultViewModel
+#  Interface IOperationsDynamicAnalysisResultViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -100,7 +100,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Methods
 
-### CreateExpression\(string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsDynamicAnalysisResultViewModel_CreateExpression_System_String_"></a> CreateExpression\(string\)
 
 Creates a new function expression in the Motion Postprocessor.
 
@@ -129,7 +129,7 @@ For an example that includes this property, see the [Interface IOperationsDynami
 This method allows the creation of a new function expression within the Motion Postprocessor.
 The <code class="paramref">newName</code> parameter specifies the name of the new function expression instance.
 
-### CreateVectorDisplay\(string, string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsDynamicAnalysisResultViewModel_CreateVectorDisplay_System_String_System_String_"></a> CreateVectorDisplay\(string, string\)
 
 Creates a vector display for the specified entity and characteristic. Please refer to this [here](../getting_started_operation_api_using_py.md#how-to-input-the-value-of-the-target-into-the-function-parameter) link.
 
@@ -163,7 +163,7 @@ This method allows the creation of a vector display based on the specified entit
 The <code class="paramref">entityName</code> parameter specifies the target entity for the vector display.
 The <code class="paramref">characteristic</code> parameter specifies the characteristic to be displayed, which can be referred to in the UI for Vector Display.
 
-### SetAnimationFrame\(int\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsDynamicAnalysisResultViewModel_SetAnimationFrame_System_Int32_"></a> SetAnimationFrame\(int\)
 
 Sets a specified number of animation frames.
 
@@ -186,7 +186,7 @@ For an example that includes this property, see the [Interface IOperationsDynami
 This method sets the specified number of frames for the animation.
 The number of frames to load is specified by the <code class="paramref">nFrames</code> parameter.
 
-### SetAnimationFrame\(IEnumerable<int\>\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsDynamicAnalysisResultViewModel_SetAnimationFrame_System_Collections_Generic_IEnumerable_System_Int32__"></a> SetAnimationFrame\(IEnumerable<int\>\)
 
 Sets the specified animation frames based on the provided state IDs.
 

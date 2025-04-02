@@ -1,4 +1,4 @@
-# Interface IOperationsLine2DViewModelBase
+#  Interface IOperationsLine2DViewModelBase
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -117,7 +117,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### Background
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_Background"></a> Background
 
 Gets or sets the background color of the chart view.
 
@@ -138,7 +138,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 This property allows you to set the background color of the chart view.
 In the UI, this property is represented under the "Color" category with the property name "Back Ground".
 
-### BorderColor
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_BorderColor"></a> BorderColor
 
 Gets or sets the border color of the chart view.
 
@@ -159,7 +159,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 This property allows you to set the border color of the chart view.
 In the UI, this property is represented under the "Color" category with the property name "Border Color".
 
-### ChartAxisType
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_ChartAxisType"></a> ChartAxisType
 
 Gets or sets the axis type of the chart, indicating whether to display the chart's axis as single or multiple.
 
@@ -182,7 +182,7 @@ In the UI, this property is represented under the "Axis" category with the prope
 The available options are:
 <ul><li><xref href="VM.Models.Post.ChartAxisType.Single" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.ChartAxisType.Multiple" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### ChartTitle
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_ChartTitle"></a> ChartTitle
 
 Gets or sets the title of the chart view.
 
@@ -203,7 +203,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 This property allows you to set the title of the chart view.
 In the UI, this property is represented under the "Chart" category with the property name "Title".
 
-### FontColor
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_FontColor"></a> FontColor
 
 Gets or sets the font color of the chart view's title.
 
@@ -224,7 +224,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 This property allows you to set the font color of the chart view's title.
 In the UI, this property is represented under the "Chart" category with the property name "Font Color".
 
-### FontFace
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_FontFace"></a> FontFace
 
 Gets or sets the font face of the chart title.
 
@@ -245,7 +245,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 This property allows you to set the font face of the chart title.
 In the UI, this property is represented under the "Font" category with the property name "Face".
 
-### FontSize
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_FontSize"></a> FontSize
 
 Gets or sets the font size of the chart title.
 
@@ -266,7 +266,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 This property allows you to set the font size of the chart title.
 In the UI, this property is represented under the "Font" category with the property name "Size".
 
-### FontStyle
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_FontStyle"></a> FontStyle
 
 Gets or sets the font style of the chart title.
 
@@ -289,7 +289,7 @@ In the UI, this property is represented under the "Font" category with the prope
 The supported types are:
 <ul><li><xref href="System.Windows.FontStyles.Italic" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.Windows.FontStyles.Normal" data-throw-if-not-resolved="false"></xref></li><li><xref href="System.Windows.FontStyles.Oblique" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### FontWeight
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_FontWeight"></a> FontWeight
 
 Gets or sets the font weight of the chart title.
 
@@ -314,7 +314,7 @@ The available options are:
 
 ## Methods
 
-### AddCurves\(string, PlotParameters\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_AddCurves_System_String_VM_Models_OutputReader_PlotParameters_"></a> AddCurves\(string, PlotParameters\)
 
 Adds curves to the chart by reading data from the specified file path and using the given plot parameters. Please refer to this [here](../getting_started_operation_api_using_py.md#how-to-input-the-value-of-the-target-into-the-function-parameter) link.
 
@@ -347,7 +347,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 
 This method reads data from the specified file path and adds curves to the chart using the provided plot parameters.
 
-### ExportAllCurves\(string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_ExportAllCurves_System_String_"></a> ExportAllCurves\(string\)
 
 Exports all curves contained in the chart to the specified file path without displaying a file save dialog.
 
@@ -372,7 +372,7 @@ It accepts a file path as a parameter and saves the curves directly to that loca
 This method is recommended for use with the OperationAPI, especially for repetitive tasks or scenarios 
 requiring automation.
 
-### ExportAllDataSeries\(\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_ExportAllDataSeries"></a> ExportAllDataSeries\(\)
 
 Exports all data series included in the chart.
 
@@ -391,7 +391,7 @@ on the screen to specify the file save location. Therefore, it is not recommende
 scenarios requiring automation. Instead, it is recommended to use the <xref href="VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.ExportAllCurves(System.String)" data-throw-if-not-resolved="false"></xref> method, 
 which does not display a file save dialog.
 
-### GetAxis\(string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_GetAxis_System_String_"></a> GetAxis\(string\)
 
 Retrieves an axis by its name.
 
@@ -421,7 +421,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 This method searches for an axis with the given name and returns the corresponding instance.
 If no axis with the specified name is found, the method returns <code>null</code>.
 
-### GetCurve\(string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_GetCurve_System_String_"></a> GetCurve\(string\)
 
 Gets a curve from the chart by its name.
 
@@ -449,7 +449,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 
 This method searches for and returns the curve with the given name from the chart. If no curve with the specified name is found, it returns <code>null</code>.
 
-### GetCurveByID\(string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_GetCurveByID_System_String_"></a> GetCurveByID\(string\)
 
 Gets a curve from the chart by its ID.
 
@@ -477,7 +477,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 
 This method searches for and returns the curve with the given ID from the chart. If no curve with the specified ID is found, it returns <code>null</code>.
 
-### GetCurveNameList\(\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_GetCurveNameList"></a> GetCurveNameList\(\)
 
 Gets a list of names of all curves in the chart view.
 
@@ -499,7 +499,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 
 This method retrieves the names of all the curves that are currently displayed in the chart view.
 
-### GetCurves\(\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_GetCurves"></a> GetCurves\(\)
 
 Gets all the curves currently included in the chart view.
 
@@ -521,7 +521,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 
 This method retrieves all the curves that are currently displayed in the chart view.
 
-### GetCurves\(string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_GetCurves_System_String_"></a> GetCurves\(string\)
 
 Gets all curves from the chart view that contain the specified substring in their names.
 
@@ -550,7 +550,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 This method searches for and returns all curves whose names contain the specified substring.
 If no such curves are found, an empty collection is returned.
 
-### GetLastCurve\(\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_GetLastCurve"></a> GetLastCurve\(\)
 
 Gets the most recently added curve from the chart view.
 
@@ -572,7 +572,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 
 This method retrieves the curve that was added last to the chart view. If no curves have been added, it returns <code>null</code>.
 
-### Remove\(string\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_Remove_System_String_"></a> Remove\(string\)
 
 Removes a curve from the chart by its id.
 
@@ -594,7 +594,7 @@ For an example that includes this property, see the [Interface IOperationsLine2D
 
 This method deletes the curve with the specified id from the chart. If no curve with the given id exists, no action is taken.
 
-### Remove\(IOperationsLineDataSeriesViewModelBase\)
+### <a id="VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase_Remove_VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase_"></a> Remove\(IOperationsLineDataSeriesViewModelBase\)
 
 Removes a curve from the chart by its instance.
 

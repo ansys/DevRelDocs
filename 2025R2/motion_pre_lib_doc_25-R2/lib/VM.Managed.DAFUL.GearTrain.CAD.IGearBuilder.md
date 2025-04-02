@@ -1,4 +1,4 @@
-# Interface IGearBuilder
+#  Interface IGearBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -21,7 +21,7 @@ public interface IGearBuilder : IGTBuilder
 
 ## Properties
 
-### MateAngle
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder_MateAngle"></a> MateAngle
 
 Gets or sets the mate angle.
 
@@ -33,7 +33,7 @@ double MateAngle { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Position
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_IGearBuilder_Position"></a> Position
 
 Gets the position.
 
@@ -44,5 +44,4 @@ VectorBase Position { get; }
 #### Property Value
 
  VectorBase
-
 

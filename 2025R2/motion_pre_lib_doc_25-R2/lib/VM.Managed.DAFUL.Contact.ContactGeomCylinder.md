@@ -1,4 +1,4 @@
-# Class ContactGeomCylinder
+#  Class ContactGeomCylinder
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -227,7 +227,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ContactGeomCylinder\(\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCylinder__ctor"></a> ContactGeomCylinder\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeomCylinder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -235,7 +235,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGe
 protected ContactGeomCylinder()
 ```
 
-### ContactGeomCylinder\(string\)
+### <a id="VM_Managed_DAFUL_Contact_ContactGeomCylinder__ctor_System_String_"></a> ContactGeomCylinder\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.ContactGeomCylinder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -248,5 +248,4 @@ public ContactGeomCylinder(string strName)
 `strName` [string](https://learn.microsoft.com/dotnet/api/system.string)
 
 Name of the 2D contact geometry .
-
 

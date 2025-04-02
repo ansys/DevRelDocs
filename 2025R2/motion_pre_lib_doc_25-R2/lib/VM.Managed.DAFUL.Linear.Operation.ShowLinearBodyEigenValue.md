@@ -1,4 +1,4 @@
-# Class ShowLinearBodyEigenValue
+#  Class ShowLinearBodyEigenValue
 
 Namespace: [VM.Managed.DAFUL.Linear.Operation](VM.Managed.DAFUL.Linear.Operation.md)  
 Assembly: VMOpLinear.dll  
@@ -83,7 +83,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ShowLinearBodyEigenValue\(Document\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ShowLinearBodyEigenValue__ctor_VM_Managed_Document_"></a> ShowLinearBodyEigenValue\(Document\)
 
 ```csharp
 public ShowLinearBodyEigenValue(Document doc)
@@ -95,7 +95,7 @@ public ShowLinearBodyEigenValue(Document doc)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Linear_Operation_ShowLinearBodyEigenValue_Name"></a> Name
 
 Gets the operation name.
 
@@ -109,7 +109,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ShowLinearBodyEigenValue_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -117,7 +117,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### OnApply\(object, CancelEventArgs\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ShowLinearBodyEigenValue_OnApply_System_Object_System_ComponentModel_CancelEventArgs_"></a> OnApply\(object, CancelEventArgs\)
 
 Called when [apply].
 
@@ -135,13 +135,13 @@ The sender.
 
 The <xref href="System.ComponentModel.CancelEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### ShowDialog\(\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ShowLinearBodyEigenValue_ShowDialog"></a> ShowDialog\(\)
 
 ```csharp
 protected virtual void ShowDialog()
 ```
 
-### UpdateUI\(IUIUpdate, Document\)
+### <a id="VM_Managed_DAFUL_Linear_Operation_ShowLinearBodyEigenValue_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -158,5 +158,4 @@ The updater.
 `doc` Document
 
 The doc.
-
 

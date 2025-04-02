@@ -1,4 +1,4 @@
-# Class AttributeGeometryRepresentation
+#  Class AttributeGeometryRepresentation
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -148,7 +148,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeGeometryRepresentation\(\)
+### <a id="VM_Managed_DAFUL_AttributeGeometryRepresentation__ctor"></a> AttributeGeometryRepresentation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeGeometryRepresentation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -156,7 +156,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeGeometry
 public AttributeGeometryRepresentation()
 ```
 
-### AttributeGeometryRepresentation\(Variable, Variable, Variable, bool, bool, bool, bool, bool\)
+### <a id="VM_Managed_DAFUL_AttributeGeometryRepresentation__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> AttributeGeometryRepresentation\(Variable, Variable, Variable, bool, bool, bool, bool, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeGeometryRepresentation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -198,7 +198,7 @@ if set to <code>true</code> [unuse GRID_TO_EDGE.
 
 if set to <code>true</code> [unuse approximated evaluation].
 
-### AttributeGeometryRepresentation\(Variable, Variable, Variable, Variable, bool, bool, bool, bool, bool, bool\)
+### <a id="VM_Managed_DAFUL_AttributeGeometryRepresentation__ctor_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_VM_Managed_Variable_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_System_Boolean_"></a> AttributeGeometryRepresentation\(Variable, Variable, Variable, Variable, bool, bool, bool, bool, bool, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.AttributeGeometryRepresentation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -250,7 +250,7 @@ if set to <code>true</code> [unuse approximated evaluation].
 
 ## Properties
 
-### DrawGlobalBody
+### <a id="VM_Managed_DAFUL_AttributeGeometryRepresentation_DrawGlobalBody"></a> DrawGlobalBody
 
 Gets or sets a value indicating whether draw global body.
 
@@ -264,7 +264,7 @@ public override bool DrawGlobalBody { get; }
 
 ## Methods
 
-### Initialize\(\)
+### <a id="VM_Managed_DAFUL_AttributeGeometryRepresentation_Initialize"></a> Initialize\(\)
 
 Initializes this instance.
 
@@ -272,7 +272,7 @@ Initializes this instance.
 public override void Initialize()
 ```
 
-### SetDefaultValue\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_AttributeGeometryRepresentation_SetDefaultValue_VM_Managed_ObjectBase_"></a> SetDefaultValue\(ObjectBase\)
 
 Set default value.
 
@@ -285,5 +285,4 @@ public override void SetDefaultValue(ObjectBase objContainer)
 `objContainer` ObjectBase
 
 The container.
-
 

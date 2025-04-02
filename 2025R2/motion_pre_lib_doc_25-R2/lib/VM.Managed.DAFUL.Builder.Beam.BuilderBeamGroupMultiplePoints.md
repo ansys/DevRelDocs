@@ -1,4 +1,4 @@
-# Class BuilderBeamGroupMultiplePoints
+#  Class BuilderBeamGroupMultiplePoints
 
 Namespace: [VM.Managed.DAFUL.Builder.Beam](VM.Managed.DAFUL.Builder.Beam.md)  
 Assembly: VMBldBeamGroup.dll  
@@ -73,10 +73,9 @@ BuilderBase<BeamGroup\>.ErrorMessage
 
 ## Constructors
 
-### BuilderBeamGroupMultiplePoints\(\)
+### <a id="VM_Managed_DAFUL_Builder_Beam_BuilderBeamGroupMultiplePoints__ctor"></a> BuilderBeamGroupMultiplePoints\(\)
 
 ```csharp
 public BuilderBeamGroupMultiplePoints()
 ```
-
 

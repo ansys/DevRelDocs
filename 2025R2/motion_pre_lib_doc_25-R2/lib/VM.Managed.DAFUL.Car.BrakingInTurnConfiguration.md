@@ -1,4 +1,4 @@
-# Class BrakingInTurnConfiguration
+#  Class BrakingInTurnConfiguration
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -203,7 +203,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BrakingInTurnConfiguration\(\)
+### <a id="VM_Managed_DAFUL_Car_BrakingInTurnConfiguration__ctor"></a> BrakingInTurnConfiguration\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.BrakingInTurnConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -211,7 +211,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.BrakingInTurn
 public BrakingInTurnConfiguration()
 ```
 
-### BrakingInTurnConfiguration\(AnalysisBrakingInTurn\)
+### <a id="VM_Managed_DAFUL_Car_BrakingInTurnConfiguration__ctor_VM_Managed_DAFUL_Car_AnalysisBrakingInTurn_"></a> BrakingInTurnConfiguration\(AnalysisBrakingInTurn\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.BrakingInTurnConfiguration" data-throw-if-not-resolved="false"></xref> class.
 
@@ -227,7 +227,7 @@ The analysis.
 
 ## Properties
 
-### Analysis
+### <a id="VM_Managed_DAFUL_Car_BrakingInTurnConfiguration_Analysis"></a> Analysis
 
 Gets or sets the analysis.
 
@@ -239,7 +239,7 @@ public override AnalysisBase Analysis { get; set; }
 
  [AnalysisBase](VM.Managed.DAFUL.Car.AnalysisBase.md)
 
-### AnalysisName
+### <a id="VM_Managed_DAFUL_Car_BrakingInTurnConfiguration_AnalysisName"></a> AnalysisName
 
 Gets the name of the analysis.
 
@@ -251,7 +251,7 @@ protected override string AnalysisName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_Car_BrakingInTurnConfiguration_AnalysisType"></a> AnalysisType
 
 Gets or sets the type of the analysis.
 
@@ -263,7 +263,7 @@ public override FullCarAnalysisType AnalysisType { get; }
 
  [FullCarAnalysisType](VM.Managed.DAFUL.Car.FullCarAnalysisType.md)
 
-### BrakingInTurnParam
+### <a id="VM_Managed_DAFUL_Car_BrakingInTurnConfiguration_BrakingInTurnParam"></a> BrakingInTurnParam
 
 Gets or sets the braking in turn parameter.
 
@@ -274,5 +274,4 @@ public AnalysisBrakingInTurn BrakingInTurnParam { get; set; }
 #### Property Value
 
  [AnalysisBrakingInTurn](VM.Managed.DAFUL.Car.AnalysisBrakingInTurn.md)
-
 

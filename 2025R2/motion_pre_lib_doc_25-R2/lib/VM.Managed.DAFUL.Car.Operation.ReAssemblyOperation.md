@@ -1,4 +1,4 @@
-# Class ReAssemblyOperation
+#  Class ReAssemblyOperation
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpCar.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ReAssemblyOperation\(TestRigDocumentBase, XmlDocument\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ReAssemblyOperation__ctor_VM_Managed_DAFUL_Car_TestRigDocumentBase_System_Xml_XmlDocument_"></a> ReAssemblyOperation\(TestRigDocumentBase, XmlDocument\)
 
 ```csharp
 public ReAssemblyOperation(TestRigDocumentBase trDoc, XmlDocument xmlDoc)
@@ -89,7 +89,7 @@ public ReAssemblyOperation(TestRigDocumentBase trDoc, XmlDocument xmlDoc)
 
 `xmlDoc` [XmlDocument](https://learn.microsoft.com/dotnet/api/system.xml.xmldocument)
 
-### ReAssemblyOperation\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ReAssemblyOperation__ctor_VM_Managed_Operation_JournalParameter_"></a> ReAssemblyOperation\(JournalParameter\)
 
 ```csharp
 public ReAssemblyOperation(JournalParameter jp)
@@ -101,7 +101,7 @@ public ReAssemblyOperation(JournalParameter jp)
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_ReAssemblyOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -115,7 +115,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ReAssemblyOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -123,7 +123,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_ReAssemblyOperation_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 ```csharp
 public override void GetInformation(XmlWriter writer)
@@ -132,5 +132,4 @@ public override void GetInformation(XmlWriter writer)
 #### Parameters
 
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
-
 

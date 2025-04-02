@@ -1,4 +1,4 @@
-# Class RequestEntityWithOutFlag
+#  Class RequestEntityWithOutFlag
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDSB.dll  
@@ -186,7 +186,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### RequestEntityWithOutFlag\(\)
+### <a id="VM_Managed_DAFUL_RequestEntityWithOutFlag__ctor"></a> RequestEntityWithOutFlag\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestEntityWithOutFlag" data-throw-if-not-resolved="false"></xref> class.
 
@@ -194,7 +194,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestEntityWith
 public RequestEntityWithOutFlag()
 ```
 
-### RequestEntityWithOutFlag\(string\)
+### <a id="VM_Managed_DAFUL_RequestEntityWithOutFlag__ctor_System_String_"></a> RequestEntityWithOutFlag\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.RequestEntityWithOutFlag" data-throw-if-not-resolved="false"></xref> class.
 
@@ -210,7 +210,7 @@ Name of the sub entity.
 
 ## Properties
 
-### WriteToOutFile
+### <a id="VM_Managed_DAFUL_RequestEntityWithOutFlag_WriteToOutFile"></a> WriteToOutFile
 
 Gets or sets the [Write to out file] flag.
 
@@ -222,7 +222,7 @@ public bool WriteToOutFile { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### WriteToOutFileImpl
+### <a id="VM_Managed_DAFUL_RequestEntityWithOutFlag_WriteToOutFileImpl"></a> WriteToOutFileImpl
 
 ```csharp
 protected override bool WriteToOutFileImpl { get; }
@@ -234,7 +234,7 @@ protected override bool WriteToOutFileImpl { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_RequestEntityWithOutFlag_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -247,5 +247,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

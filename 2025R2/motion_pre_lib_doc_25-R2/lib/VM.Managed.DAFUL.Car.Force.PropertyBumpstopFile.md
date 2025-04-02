@@ -1,4 +1,4 @@
-# Class PropertyBumpstopFile
+#  Class PropertyBumpstopFile
 
 Namespace: [VM.Managed.DAFUL.Car.Force](VM.Managed.DAFUL.Car.Force.md)  
 Assembly: VMDCar.dll  
@@ -176,7 +176,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyBumpstopFile\(\)
+### <a id="VM_Managed_DAFUL_Car_Force_PropertyBumpstopFile__ctor"></a> PropertyBumpstopFile\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Force.PropertyBumpstopFile" data-throw-if-not-resolved="false"></xref> class.
 
@@ -186,7 +186,7 @@ public PropertyBumpstopFile()
 
 ## Methods
 
-### SetModified\(\)
+### <a id="VM_Managed_DAFUL_Car_Force_PropertyBumpstopFile_SetModified"></a> SetModified\(\)
 
 Called when object modified.
 
@@ -194,7 +194,7 @@ Called when object modified.
 protected override void SetModified()
 ```
 
-### SetModified\(ModifiedType\)
+### <a id="VM_Managed_DAFUL_Car_Force_PropertyBumpstopFile_SetModified_VM_Managed_ModifiedResult_ModifiedType_"></a> SetModified\(ModifiedType\)
 
 Called when object modified.
 
@@ -207,5 +207,4 @@ protected override void SetModified(ModifiedResult.ModifiedType type)
 `type` ModifiedResult.ModifiedType
 
 The modifed type.
-
 

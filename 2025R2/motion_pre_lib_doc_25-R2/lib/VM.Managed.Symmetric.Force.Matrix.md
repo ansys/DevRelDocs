@@ -1,4 +1,4 @@
-# Class Matrix
+#  Class Matrix
 
 Namespace: [VM.Managed.Symmetric.Force](VM.Managed.Symmetric.Force.md)  
 Assembly: VMSymFP.dll  
@@ -36,7 +36,7 @@ Named<Matrix\>.SymmetricManager
 
 ## Constructors
 
-### Matrix\(\)
+### <a id="VM_Managed_Symmetric_Force_Matrix__ctor"></a> Matrix\(\)
 
 ```csharp
 public Matrix()
@@ -44,7 +44,7 @@ public Matrix()
 
 ## Methods
 
-### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_Force_Matrix_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -78,7 +78,7 @@ Plane of symmetric.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### UpdateProperty\(PropertyMatrix, PropertyMatrix, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_Force_Matrix_UpdateProperty_VM_Managed_DAFUL_Force_PropertyMatrix_VM_Managed_DAFUL_Force_PropertyMatrix_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> UpdateProperty\(PropertyMatrix, PropertyMatrix, SymmetricType, Plane, Document\)
 
 ```csharp
 public static bool UpdateProperty(PropertyMatrix toolProperty, PropertyMatrix targetProperty, SymmetricType sym_type, Plane sym_plane, Document doc)
@@ -99,5 +99,4 @@ public static bool UpdateProperty(PropertyMatrix toolProperty, PropertyMatrix ta
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

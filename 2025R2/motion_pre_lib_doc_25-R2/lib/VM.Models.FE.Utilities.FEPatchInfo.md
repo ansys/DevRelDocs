@@ -1,4 +1,4 @@
-# Struct FEPatchInfo
+#  Struct FEPatchInfo
 
 Namespace: [VM.Models.FE.Utilities](VM.Models.FE.Utilities.md)  
 Assembly: VM.Models.FE.Utilities.dll  
@@ -9,7 +9,7 @@ public struct FEPatchInfo
 
 ## Properties
 
-### NodeSequences
+### <a id="VM_Models_FE_Utilities_FEPatchInfo_NodeSequences"></a> NodeSequences
 
 ```csharp
 public uint[] NodeSequences { readonly get; set; }
@@ -19,7 +19,7 @@ public uint[] NodeSequences { readonly get; set; }
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)\[\]
 
-### NumberOfNode
+### <a id="VM_Models_FE_Utilities_FEPatchInfo_NumberOfNode"></a> NumberOfNode
 
 ```csharp
 public uint NumberOfNode { readonly get; set; }
@@ -28,5 +28,4 @@ public uint NumberOfNode { readonly get; set; }
 #### Property Value
 
  [uint](https://learn.microsoft.com/dotnet/api/system.uint32)
-
 

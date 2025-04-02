@@ -1,4 +1,4 @@
-# Interface IAttributeContainer
+#  Interface IAttributeContainer
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface IAttributeContainer
 
 ## Properties
 
-### Attributes
+### <a id="VM_Managed_IAttributeContainer_Attributes"></a> Attributes
 
 Gets or sets the Attribute to collection.
 
@@ -28,5 +28,4 @@ AttributeCollection Attributes { get; set; }
 #### Property Value
 
  [AttributeCollection](VM.Managed.AttributeCollection.md)
-
 

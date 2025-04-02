@@ -1,4 +1,4 @@
-# Class EHDBearingOne
+#  Class EHDBearingOne
 
 Namespace: [VM.Managed.DAFUL.Builder.Bearing](VM.Managed.DAFUL.Builder.Bearing.md)  
 Assembly: VMBldEHDBearing.dll  
@@ -67,10 +67,9 @@ BuilderBase<EHDBearing\>.ErrorMessage
 
 ## Constructors
 
-### EHDBearingOne\(\)
+### <a id="VM_Managed_DAFUL_Builder_Bearing_EHDBearingOne__ctor"></a> EHDBearingOne\(\)
 
 ```csharp
 public EHDBearingOne()
 ```
-
 

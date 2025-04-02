@@ -1,4 +1,4 @@
-# Class SubsystemAPI
+#  Class SubsystemAPI
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -22,7 +22,7 @@ public static class SubsystemAPI
 
 ## Methods
 
-### CreateSubSystem\(Document, string, TMatrix, string\)
+### <a id="VM_API_Pre_SubsystemAPI_CreateSubSystem_VM_Managed_Document_System_String_VM_Managed_TMatrix_System_String_"></a> CreateSubSystem\(Document, string, TMatrix, string\)
 
 Create <xref href="VM.Managed.DAFUL.Builder.SubSystem" data-throw-if-not-resolved="false"></xref>.
 
@@ -66,7 +66,7 @@ Will be thrown if 'document' or 'subsystemFilePath' arguments are empty.
 
 Will be thrown if 'subsystemFilePath' does not exist.
 
-### CreateSubSystem\(Document, string\)
+### <a id="VM_API_Pre_SubsystemAPI_CreateSubSystem_VM_Managed_Document_System_String_"></a> CreateSubSystem\(Document, string\)
 
 Create <xref href="VM.Managed.DAFUL.Builder.AssembledBody" data-throw-if-not-resolved="false"></xref>.
 
@@ -89,5 +89,4 @@ The file path of imported subsystem document
  [Obj](VM.API.Pre.Obj.md)
 
 The new <xref href="VM.Managed.DAFUL.Builder.SubSystem" data-throw-if-not-resolved="false"></xref> object that is created by this API.
-
 

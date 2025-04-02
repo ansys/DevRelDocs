@@ -1,4 +1,4 @@
-# Class DocCreateShimmyJudderTestRigAnalysisInfo
+#  Class DocCreateShimmyJudderTestRigAnalysisInfo
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -53,10 +53,9 @@ DocCreateInfo.DocumentName
 
 ## Constructors
 
-### DocCreateShimmyJudderTestRigAnalysisInfo\(\)
+### <a id="VM_Managed_DAFUL_Car_DocCreateShimmyJudderTestRigAnalysisInfo__ctor"></a> DocCreateShimmyJudderTestRigAnalysisInfo\(\)
 
 ```csharp
 public DocCreateShimmyJudderTestRigAnalysisInfo()
 ```
-
 

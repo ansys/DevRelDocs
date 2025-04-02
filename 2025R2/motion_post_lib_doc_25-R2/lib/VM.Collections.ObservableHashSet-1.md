@@ -1,4 +1,4 @@
-# Class ObservableHashSet<T\>
+#  Class ObservableHashSet<T\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -17,19 +17,19 @@ The type of elements in the hash set.
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
-[HashSet<T\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[HashSet<T\>](https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset\-1) ← 
 [ObservableHashSet<T\>](VM.Collections.ObservableHashSet\-1.md)
 
 ## Constructors
 
-### ObservableHashSet\(\)
+### <a id="VM_Collections_ObservableHashSet_1__ctor"></a> ObservableHashSet\(\)
 
 ```python
 public ObservableHashSet()
 ```
 
-### ObservableHashSet\(IEnumerable<T\>\)
+### <a id="VM_Collections_ObservableHashSet_1__ctor_System_Collections_Generic_IEnumerable__0__"></a> ObservableHashSet\(IEnumerable<T\>\)
 
 ```python
 public ObservableHashSet(IEnumerable<T> collection)
@@ -39,7 +39,7 @@ public ObservableHashSet(IEnumerable<T> collection)
 
 `collection` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<T\>
 
-### ObservableHashSet\(IEqualityComparer<T\>\)
+### <a id="VM_Collections_ObservableHashSet_1__ctor_System_Collections_Generic_IEqualityComparer__0__"></a> ObservableHashSet\(IEqualityComparer<T\>\)
 
 ```python
 public ObservableHashSet(IEqualityComparer<T> comparer)
@@ -49,7 +49,7 @@ public ObservableHashSet(IEqualityComparer<T> comparer)
 
 `comparer` [IEqualityComparer](https://learn.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer\-1)<T\>
 
-### ObservableHashSet\(IEnumerable<T\>, IEqualityComparer<T\>\)
+### <a id="VM_Collections_ObservableHashSet_1__ctor_System_Collections_Generic_IEnumerable__0__System_Collections_Generic_IEqualityComparer__0__"></a> ObservableHashSet\(IEnumerable<T\>, IEqualityComparer<T\>\)
 
 ```python
 public ObservableHashSet(IEnumerable<T> collection, IEqualityComparer<T> comparer)
@@ -63,7 +63,7 @@ public ObservableHashSet(IEnumerable<T> collection, IEqualityComparer<T> compare
 
 ## Methods
 
-### Add\(T\)
+### <a id="VM_Collections_ObservableHashSet_1_Add__0_"></a> Add\(T\)
 
 Adds the specified element to a set.
 
@@ -83,7 +83,7 @@ The element to add to the set.
 
 true if the element is added to the <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object; false if the element is already present.
 
-### Clear\(\)
+### <a id="VM_Collections_ObservableHashSet_1_Clear"></a> Clear\(\)
 
 Removes all elements from a <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
@@ -91,13 +91,13 @@ Removes all elements from a <xref href="VM.Collections.ObservableHashSet%601" da
 public void Clear()
 ```
 
-### Dispose\(\)
+### <a id="VM_Collections_ObservableHashSet_1_Dispose"></a> Dispose\(\)
 
 ```python
 public void Dispose()
 ```
 
-### ExceptWith\(IEnumerable<T\>\)
+### <a id="VM_Collections_ObservableHashSet_1_ExceptWith_System_Collections_Generic_IEnumerable__0__"></a> ExceptWith\(IEnumerable<T\>\)
 
 Removes all elements in the specified collection from the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
@@ -111,7 +111,7 @@ public void ExceptWith(IEnumerable<T> other)
 
 The collection of items to remove from the <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
-### IntersectWith\(IEnumerable<T\>\)
+### <a id="VM_Collections_ObservableHashSet_1_IntersectWith_System_Collections_Generic_IEnumerable__0__"></a> IntersectWith\(IEnumerable<T\>\)
 
 Modifies the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object to contain only elements that are present in that object and in the specified collection.
 
@@ -125,7 +125,7 @@ public void IntersectWith(IEnumerable<T> other)
 
 The collection to compare to the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
-### Remove\(T\)
+### <a id="VM_Collections_ObservableHashSet_1_Remove__0_"></a> Remove\(T\)
 
 Removes the specified element from a <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
@@ -145,13 +145,13 @@ The element to remove.
 
 true if the element is successfully found and removed; otherwise, false. This method returns false if item is not found in the <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
-### Reset\(\)
+### <a id="VM_Collections_ObservableHashSet_1_Reset"></a> Reset\(\)
 
 ```python
 public void Reset()
 ```
 
-### SymmetricExceptWith\(IEnumerable<T\>\)
+### <a id="VM_Collections_ObservableHashSet_1_SymmetricExceptWith_System_Collections_Generic_IEnumerable__0__"></a> SymmetricExceptWith\(IEnumerable<T\>\)
 
 Modifies the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object to contain only elements that are present either in that object or in the specified collection, but not both.
 
@@ -165,7 +165,7 @@ public void SymmetricExceptWith(IEnumerable<T> other)
 
 The collection to compare to the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
-### UnionWith\(IEnumerable<T\>\)
+### <a id="VM_Collections_ObservableHashSet_1_UnionWith_System_Collections_Generic_IEnumerable__0__"></a> UnionWith\(IEnumerable<T\>\)
 
 Modifies the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object to contain all elements that are present in itself, the specified collection, or both.
 
@@ -179,7 +179,7 @@ public void UnionWith(IEnumerable<T> other)
 
 The collection to compare to the current <xref href="VM.Collections.ObservableHashSet%601" data-throw-if-not-resolved="false"></xref> object.
 
-### CollectionChanged
+### <a id="VM_Collections_ObservableHashSet_1_CollectionChanged"></a> CollectionChanged
 
 ```python
 public event NotifyCollectionChangedEventHandler CollectionChanged

@@ -1,4 +1,4 @@
-# Class MeshGenerator
+#  Class MeshGenerator
 
 Namespace: [VM.Managed.DAFUL.Builder.Mesher](VM.Managed.DAFUL.Builder.Mesher.md)  
 Assembly: VMBldMesher.dll  
@@ -24,7 +24,7 @@ IBuilder
 
 ## Constructors
 
-### MeshGenerator\(\)
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator__ctor"></a> MeshGenerator\(\)
 
 ```csharp
 public MeshGenerator()
@@ -32,7 +32,7 @@ public MeshGenerator()
 
 ## Properties
 
-### AddToModelFlag
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator_AddToModelFlag"></a> AddToModelFlag
 
 ```csharp
 public bool AddToModelFlag { get; set; }
@@ -42,7 +42,7 @@ public bool AddToModelFlag { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### BuildObject
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator_BuildObject"></a> BuildObject
 
 ```csharp
 public ObjectBase BuildObject { get; }
@@ -52,7 +52,7 @@ public ObjectBase BuildObject { get; }
 
  ObjectBase
 
-### Connectable
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator_Connectable"></a> Connectable
 
 ```csharp
 public IHasBuilder Connectable { get; }
@@ -62,7 +62,7 @@ public IHasBuilder Connectable { get; }
 
  IHasBuilder
 
-### CreateGroupFlag
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator_CreateGroupFlag"></a> CreateGroupFlag
 
 ```csharp
 public bool CreateGroupFlag { get; set; }
@@ -72,7 +72,7 @@ public bool CreateGroupFlag { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GroupName
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator_GroupName"></a> GroupName
 
 ```csharp
 public string GroupName { get; set; }
@@ -82,7 +82,7 @@ public string GroupName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### ImportMeshFlag
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator_ImportMeshFlag"></a> ImportMeshFlag
 
 ```csharp
 public bool ImportMeshFlag { get; set; }
@@ -92,7 +92,7 @@ public bool ImportMeshFlag { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### InputArray
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator_InputArray"></a> InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -102,7 +102,7 @@ public string[] InputArray { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)\[\]
 
-### MeshFilePath
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator_MeshFilePath"></a> MeshFilePath
 
 ```csharp
 public string MeshFilePath { get; set; }
@@ -112,7 +112,7 @@ public string MeshFilePath { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### NodalBodyName
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator_NodalBodyName"></a> NodalBodyName
 
 ```csharp
 public string NodalBodyName { get; set; }
@@ -122,7 +122,7 @@ public string NodalBodyName { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Parameters
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator_Parameters"></a> Parameters
 
 ```csharp
 public PickedResult[] Parameters { get; set; }
@@ -134,7 +134,7 @@ public PickedResult[] Parameters { get; set; }
 
 ## Methods
 
-### Build\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator_Build_VM_Managed_Document_"></a> Build\(Document\)
 
 ```csharp
 public void Build(Document docToAdd)
@@ -144,7 +144,7 @@ public void Build(Document docToAdd)
 
 `docToAdd` Document
 
-### Build\(Document, List<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator_Build_VM_Managed_Document_System_Collections_Generic_List_System_String__"></a> Build\(Document, List<string\>\)
 
 ```csharp
 public void Build(Document docToAdd, List<string> lstSetPointKeys)
@@ -156,7 +156,7 @@ public void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### Success\(\)
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator_Success"></a> Success\(\)
 
 ```csharp
 public bool Success()
@@ -166,7 +166,7 @@ public bool Success()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_Mesher_MeshGenerator_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public bool Validate(IList<string> lstErrorMessage)
@@ -179,5 +179,4 @@ public bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

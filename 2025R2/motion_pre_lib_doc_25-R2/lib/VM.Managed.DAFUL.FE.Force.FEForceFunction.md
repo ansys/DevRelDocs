@@ -1,4 +1,4 @@
-# Class FEForceFunction
+#  Class FEForceFunction
 
 Namespace: [VM.Managed.DAFUL.FE.Force](VM.Managed.DAFUL.FE.Force.md)  
 Assembly: VMFE.dll  
@@ -102,7 +102,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### FEForceFunction\(PropertyFEForce\)
+### <a id="VM_Managed_DAFUL_FE_Force_FEForceFunction__ctor_VM_Managed_DAFUL_FE_Force_PropertyFEForce_"></a> FEForceFunction\(PropertyFEForce\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Force.FEForceFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -116,7 +116,7 @@ protected FEForceFunction(PropertyFEForce owner)
 
 The owner property.
 
-### FEForceFunction\(\)
+### <a id="VM_Managed_DAFUL_FE_Force_FEForceFunction__ctor"></a> FEForceFunction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.FE.Force.FEForceFunction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -126,7 +126,7 @@ protected FEForceFunction()
 
 ## Properties
 
-### Type
+### <a id="VM_Managed_DAFUL_FE_Force_FEForceFunction_Type"></a> Type
 
 Gets the type of function.
 
@@ -137,5 +137,4 @@ public abstract FEForceFunction.FunctionType Type { get; }
 #### Property Value
 
  [FEForceFunction](VM.Managed.DAFUL.FE.Force.FEForceFunction.md).[FunctionType](VM.Managed.DAFUL.FE.Force.FEForceFunction.FunctionType.md)
-
 

@@ -1,4 +1,4 @@
-# Class AttributeHideFromNavigator
+#  Class AttributeHideFromNavigator
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -99,12 +99,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeHideFromNavigator\(\)
+### <a id="VM_Managed_AttributeHideFromNavigator__ctor"></a> AttributeHideFromNavigator\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.AttributeHideFromNavigator" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public AttributeHideFromNavigator()
 ```
-
 

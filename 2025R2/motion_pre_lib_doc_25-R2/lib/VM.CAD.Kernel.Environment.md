@@ -1,4 +1,4 @@
-# Class Environment
+#  Class Environment
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -22,7 +22,7 @@ public class Environment
 
 ## Constructors
 
-### Environment\(\)
+### <a id="VM_CAD_Kernel_Environment__ctor"></a> Environment\(\)
 
 ```csharp
 public Environment()
@@ -30,7 +30,7 @@ public Environment()
 
 ## Properties
 
-### isMerge
+### <a id="VM_CAD_Kernel_Environment_isMerge"></a> isMerge
 
 ```csharp
 public bool isMerge { get; set; }
@@ -40,7 +40,7 @@ public bool isMerge { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### isRelatePath
+### <a id="VM_CAD_Kernel_Environment_isRelatePath"></a> isRelatePath
 
 ```csharp
 public bool isRelatePath { get; set; }
@@ -50,7 +50,7 @@ public bool isRelatePath { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### mergeSeparator
+### <a id="VM_CAD_Kernel_Environment_mergeSeparator"></a> mergeSeparator
 
 ```csharp
 public string mergeSeparator { get; set; }
@@ -60,7 +60,7 @@ public string mergeSeparator { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### name
+### <a id="VM_CAD_Kernel_Environment_name"></a> name
 
 ```csharp
 public string name { get; set; }
@@ -70,7 +70,7 @@ public string name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### value
+### <a id="VM_CAD_Kernel_Environment_value"></a> value
 
 ```csharp
 public string value { get; set; }
@@ -79,5 +79,4 @@ public string value { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

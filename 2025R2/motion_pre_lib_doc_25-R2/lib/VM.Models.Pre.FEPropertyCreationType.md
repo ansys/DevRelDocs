@@ -1,4 +1,4 @@
-# Enum FEPropertyCreationType
+#  Enum FEPropertyCreationType
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -26,7 +26,6 @@ Construction of different properties for each sequence for FE film.
 `SameThickness = 0` 
 
 Construction of the same property for the same thickness for FE film.
-
 
 
 

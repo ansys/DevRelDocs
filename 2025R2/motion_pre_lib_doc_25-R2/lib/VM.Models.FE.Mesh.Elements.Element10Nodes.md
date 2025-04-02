@@ -1,4 +1,4 @@
-# Class Element10Nodes
+#  Class Element10Nodes
 
 Namespace: [VM.Models.FE.Mesh.Elements](VM.Models.FE.Mesh.Elements.md)  
 Assembly: VM.Models.FE.Mesh.dll  
@@ -64,7 +64,7 @@ public abstract class Element10Nodes : Element8Nodes, IEntity
 
 ## Constructors
 
-### Element10Nodes\(\)
+### <a id="VM_Models_FE_Mesh_Elements_Element10Nodes__ctor"></a> Element10Nodes\(\)
 
 ```csharp
 protected Element10Nodes()
@@ -72,7 +72,7 @@ protected Element10Nodes()
 
 ## Properties
 
-### Node10Id
+### <a id="VM_Models_FE_Mesh_Elements_Element10Nodes_Node10Id"></a> Node10Id
 
 ```csharp
 [Column]
@@ -83,7 +83,7 @@ public int Node10Id { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### Node9Id
+### <a id="VM_Models_FE_Mesh_Elements_Element10Nodes_Node9Id"></a> Node9Id
 
 ```csharp
 [Column]
@@ -94,7 +94,7 @@ public int Node9Id { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfNodes
+### <a id="VM_Models_FE_Mesh_Elements_Element10Nodes_NumberOfNodes"></a> NumberOfNodes
 
 ```csharp
 protected override int NumberOfNodes { get; }
@@ -103,5 +103,4 @@ protected override int NumberOfNodes { get; }
 #### Property Value
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
-
 

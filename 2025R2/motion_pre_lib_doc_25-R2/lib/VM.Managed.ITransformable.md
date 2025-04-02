@@ -1,4 +1,4 @@
-# Interface ITransformable
+#  Interface ITransformable
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface ITransformable
 
 ## Methods
 
-### CanBeTransformed\(QueryTransform\)
+### <a id="VM_Managed_ITransformable_CanBeTransformed_VM_Managed_QueryTransform_"></a> CanBeTransformed\(QueryTransform\)
 
 Determines whether this instance [can be transformed] the specified query.
 
@@ -31,7 +31,7 @@ void CanBeTransformed(QueryTransform query)
 
 The trnasform query.
 
-### Transform\(TMatrix\)
+### <a id="VM_Managed_ITransformable_Transform_VM_Managed_TMatrix_"></a> Transform\(TMatrix\)
 
 Transforms the geometry through specified matrix.
 
@@ -44,5 +44,4 @@ void Transform(TMatrix matT)
 `matT` [TMatrix](VM.Managed.TMatrix.md)
 
 The matrix.
-
 

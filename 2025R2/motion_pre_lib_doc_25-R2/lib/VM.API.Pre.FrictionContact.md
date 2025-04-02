@@ -1,4 +1,4 @@
-# Class FrictionContact
+#  Class FrictionContact
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -34,7 +34,7 @@ public class FrictionContact : Friction
 
 ## Constructors
 
-### FrictionContact\(\)
+### <a id="VM_API_Pre_FrictionContact__ctor"></a> FrictionContact\(\)
 
 Default constructor
 
@@ -42,7 +42,7 @@ Default constructor
 public FrictionContact()
 ```
 
-### FrictionContact\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, EffectType\)
+### <a id="VM_API_Pre_FrictionContact__ctor_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Models_Pre_ExpressionValueVariable_VM_Managed_DAFUL_Constraints_Friction_EffectType_"></a> FrictionContact\(ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, ExpressionValueVariable, EffectType\)
 
 Initializes a new instance of the <xref href="VM.API.Pre.FrictionContact" data-throw-if-not-resolved="false"></xref> class.
 
@@ -75,5 +75,4 @@ The max stiction deformation.
 `frictionEffect` Friction.EffectType
 
 The friction effect.
-
 

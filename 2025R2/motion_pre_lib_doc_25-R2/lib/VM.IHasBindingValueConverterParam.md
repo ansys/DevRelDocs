@@ -1,4 +1,4 @@
-# Interface IHasBindingValueConverterParam
+#  Interface IHasBindingValueConverterParam
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -17,7 +17,7 @@ public interface IHasBindingValueConverterParam
 
 ## Methods
 
-### Convert\(params object\[\]\)
+### <a id="VM_IHasBindingValueConverterParam_Convert_System_Object___"></a> Convert\(params object\[\]\)
 
 Convert a value bount to a symbol.
 
@@ -36,5 +36,4 @@ Parameters to convert.
  [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The converted value.
-
 

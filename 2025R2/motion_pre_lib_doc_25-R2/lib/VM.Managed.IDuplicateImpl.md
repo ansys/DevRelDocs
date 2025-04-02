@@ -1,4 +1,4 @@
-# Class IDuplicateImpl
+#  Class IDuplicateImpl
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMObjBase.dll  
@@ -20,7 +20,7 @@ public class IDuplicateImpl
 
 ## Constructors
 
-### IDuplicateImpl\(\)
+### <a id="VM_Managed_IDuplicateImpl__ctor"></a> IDuplicateImpl\(\)
 
 ```csharp
 public IDuplicateImpl()
@@ -28,7 +28,7 @@ public IDuplicateImpl()
 
 ## Methods
 
-### CopyImpl<T\>\(ObjectBase\)
+### <a id="VM_Managed_IDuplicateImpl_CopyImpl__1_VM_Managed_ObjectBase_"></a> CopyImpl<T\>\(ObjectBase\)
 
 ```csharp
 public static void CopyImpl<T>(ObjectBase objectBaseTarget) where T : ObjectBase
@@ -41,5 +41,4 @@ public static void CopyImpl<T>(ObjectBase objectBaseTarget) where T : ObjectBase
 #### Type Parameters
 
 `T` 
-
 

@@ -1,4 +1,4 @@
-# Class CarDocumentAPI
+#  Class CarDocumentAPI
 
 Namespace: [VM.API.Pre.Car](VM.API.Pre.Car.md)  
 Assembly: VM.API.Pre.Car.dll  
@@ -22,7 +22,7 @@ public static class CarDocumentAPI
 
 ## Methods
 
-### ChangeGroupDriveline\(TestRigDocumentBase, bool, bool\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_ChangeGroupDriveline_VM_Managed_DAFUL_Car_TestRigDocumentBase_System_Boolean_System_Boolean_"></a> ChangeGroupDriveline\(TestRigDocumentBase, bool, bool\)
 
 Change group driveline.
 
@@ -55,7 +55,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'document' argument is not assembly.
 
-### ChangeGroupKinematicAndCompliance\(TestRigDocumentBase, bool\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_ChangeGroupKinematicAndCompliance_VM_Managed_DAFUL_Car_TestRigDocumentBase_System_Boolean_"></a> ChangeGroupKinematicAndCompliance\(TestRigDocumentBase, bool\)
 
 Change group kinematic and compliance.
 
@@ -84,7 +84,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'document' argument is not assembly.
 
-### CreateNewAntiRollBarFromTemplateDocument\(string, string, MinorRole\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewAntiRollBarFromTemplateDocument_System_String_System_String_VM_Managed_DAFUL_Car_MinorRole_"></a> CreateNewAntiRollBarFromTemplateDocument\(string, string, MinorRole\)
 
 Create <xref href="VM.Managed.DAFUL.Car.AntiRollBarDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -112,7 +112,7 @@ The minor role type. The default value is Any.
 
 The new <xref href="VM.Managed.DAFUL.Car.AntiRollBarDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewAntiRollBarTemplateDocument\(string, string, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewAntiRollBarTemplateDocument_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewAntiRollBarTemplateDocument\(string, string, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.AntiRollBarDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -154,7 +154,7 @@ The new <xref href="VM.Managed.DAFUL.Car.AntiRollBarDocument" data-throw-if-not-
 
 Will be thrown if 'newAntiRollBarFilePath' argument is null.
 
-### CreateNewBodyFromTemplateDocument\(string, string, MinorRole\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewBodyFromTemplateDocument_System_String_System_String_VM_Managed_DAFUL_Car_MinorRole_"></a> CreateNewBodyFromTemplateDocument\(string, string, MinorRole\)
 
 Create <xref href="VM.Managed.DAFUL.Car.BodyDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -182,7 +182,7 @@ The minor role type. The default value is Any.
 
 The new <xref href="VM.Managed.DAFUL.Car.BodyDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewBodyTemplateDocument\(string, string, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewBodyTemplateDocument_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewBodyTemplateDocument\(string, string, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.BodyDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -224,7 +224,7 @@ The new <xref href="VM.Managed.DAFUL.Car.BodyDocument" data-throw-if-not-resolve
 
 Will be thrown if 'newBodyFilePath' argument is null.
 
-### CreateNewBrakeSystemFromTemplateDocument\(string, string, MinorRole\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewBrakeSystemFromTemplateDocument_System_String_System_String_VM_Managed_DAFUL_Car_MinorRole_"></a> CreateNewBrakeSystemFromTemplateDocument\(string, string, MinorRole\)
 
 Create <xref href="VM.Managed.DAFUL.Car.BrakeSystemDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -252,7 +252,7 @@ The minor role type. The default value is Any.
 
 The new <xref href="VM.Managed.DAFUL.Car.BrakeSystemDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewBrakeSystemTemplateDocument\(string, string, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewBrakeSystemTemplateDocument_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewBrakeSystemTemplateDocument\(string, string, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.BrakeSystemDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -294,7 +294,7 @@ The new <xref href="VM.Managed.DAFUL.Car.BrakeSystemDocument" data-throw-if-not-
 
 Will be thrown if 'newBrakeSystemFilePath' argument is null.
 
-### CreateNewBumpStopPropertyDocument\(string, string, Unit, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewBumpStopPropertyDocument_System_String_System_String_VM_Unit_VM_API_Pre_LengthUnitType_"></a> CreateNewBumpStopPropertyDocument\(string, string, Unit, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.Force.PropertyBumpstopDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -326,7 +326,7 @@ The length unit of kernel.
 
 The new <xref href="VM.Managed.DAFUL.Car.Force.PropertyBumpstopDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewBushPropertyDocument\(string, string, Unit, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewBushPropertyDocument_System_String_System_String_VM_Unit_VM_API_Pre_LengthUnitType_"></a> CreateNewBushPropertyDocument\(string, string, Unit, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Force.PropertyBushDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -358,7 +358,7 @@ The length unit of kernel.
 
 The new <xref href="VM.Managed.DAFUL.Force.PropertyBushDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewDamperPropertyDocument\(string, string, Unit, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewDamperPropertyDocument_System_String_System_String_VM_Unit_VM_API_Pre_LengthUnitType_"></a> CreateNewDamperPropertyDocument\(string, string, Unit, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.Force.PropertyDamperDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -390,7 +390,7 @@ The length unit of kernel.
 
 The new <xref href="VM.Managed.DAFUL.Car.Force.PropertyDamperDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewDriveLineFromTemplateDocument\(string, string, MinorRole\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewDriveLineFromTemplateDocument_System_String_System_String_VM_Managed_DAFUL_Car_MinorRole_"></a> CreateNewDriveLineFromTemplateDocument\(string, string, MinorRole\)
 
 Create <xref href="VM.Managed.DAFUL.Car.DriveLineDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -418,7 +418,7 @@ The minor role type. The default value is Any.
 
 The new <xref href="VM.Managed.DAFUL.Car.DriveLineDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewDriveLineTemplateDocument\(string, string, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewDriveLineTemplateDocument_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewDriveLineTemplateDocument\(string, string, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.DriveLineDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -460,7 +460,7 @@ The new <xref href="VM.Managed.DAFUL.Car.DriveLineDocument" data-throw-if-not-re
 
 Will be thrown if 'newDriveLineFilePath' argument is null.
 
-### CreateNewFourPostTestRigFromTemplateDocument\(string, string, string, string, string, string, string, string, string, string, string\[\], Vector, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewFourPostTestRigFromTemplateDocument_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String___VM_Vector_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewFourPostTestRigFromTemplateDocument\(string, string, string, string, string, string, string, string, string, string, string\[\], Vector, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.FourPostTestRigDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -548,7 +548,7 @@ Will be thrown if 'newTestRigFromTemplateFilePath' argument is null.
 
 Will be thrown if 'testRigTemplateFilePath', 'frontSuspensionFromTemplateFilePath', 'rearSuspensionFromTemplateFilePath', 'steeringFromTemplateFilePath', 'frontWheelFromTemplateFilePath', 'rearWheelFromTemplateFilePath', 'bodyFromTemplateFilePath' files are not exist.
 
-### CreateNewFourPostTestRigTemplateDocument\(string, string, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewFourPostTestRigTemplateDocument_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewFourPostTestRigTemplateDocument\(string, string, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.FourPostTestRigDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -590,7 +590,7 @@ The new <xref href="VM.Managed.DAFUL.Car.FourPostTestRigDocument" data-throw-if-
 
 Will be thrown if 'newTestRigFilePath' argument is null.
 
-### CreateNewFullCarTestRigFromTemplateDocument\(string, string, string, string, string, string, string, string, string, string, string\[\], Vector, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewFullCarTestRigFromTemplateDocument_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String___VM_Vector_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewFullCarTestRigFromTemplateDocument\(string, string, string, string, string, string, string, string, string, string, string\[\], Vector, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.VehicleTestRigDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -678,7 +678,7 @@ Will be thrown if 'newTestRigFromTemplateFilePath' argument is null.
 
 Will be thrown if 'testRigTemplateFilePath', 'frontSuspensionFromTemplateFilePath', 'rearSuspensionFromTemplateFilePath', 'steeringFromTemplateFilePath', 'frontWheelFromTemplateFilePath', 'rearWheelFromTemplateFilePath', 'bodyFromTemplateFilePath' files are not exist.
 
-### CreateNewFullCarTestRigTemplateDocument\(string, string, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewFullCarTestRigTemplateDocument_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewFullCarTestRigTemplateDocument\(string, string, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.VehicleTestRigDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -720,7 +720,7 @@ The new <xref href="VM.Managed.DAFUL.Car.VehicleTestRigDocument" data-throw-if-n
 
 Will be thrown if 'newTestRigFilePath' argument is null.
 
-### CreateNewHalfCarTestRigFromTemplateDocument\(string, string, string, string, string\[\], Vector, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewHalfCarTestRigFromTemplateDocument_System_String_System_String_System_String_System_String_System_String___VM_Vector_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewHalfCarTestRigFromTemplateDocument\(string, string, string, string, string\[\], Vector, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.TestRigDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -784,7 +784,7 @@ Will be thrown if 'newTestRigFromTemplateFilePath' argument is null.
 
 Will be thrown if 'testRigTemplateFilePath', 'suspensionFromTemplateFilePath' files are not exist.
 
-### CreateNewHalfCarTestRigTemplateDocument\(string, string, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewHalfCarTestRigTemplateDocument_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewHalfCarTestRigTemplateDocument\(string, string, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.TestRigDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -826,7 +826,7 @@ The new <xref href="VM.Managed.DAFUL.Car.TestRigDocument" data-throw-if-not-reso
 
 Will be thrown if 'newTestRigFilePath' argument is null.
 
-### CreateNewPowerTrainFromTemplateDocument\(string, string, MinorRole\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewPowerTrainFromTemplateDocument_System_String_System_String_VM_Managed_DAFUL_Car_MinorRole_"></a> CreateNewPowerTrainFromTemplateDocument\(string, string, MinorRole\)
 
 Create <xref href="VM.Managed.DAFUL.Car.PowerTrainDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -854,7 +854,7 @@ The minor role type. The default value is Any.
 
 The new <xref href="VM.Managed.DAFUL.Car.PowerTrainDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewPowerTrainTemplateDocument\(string, string, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewPowerTrainTemplateDocument_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewPowerTrainTemplateDocument\(string, string, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.PowerTrainDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -896,7 +896,7 @@ The new <xref href="VM.Managed.DAFUL.Car.PowerTrainDocument" data-throw-if-not-r
 
 Will be thrown if 'newPowerTrainFilePath' argument is null.
 
-### CreateNewReboundStopPropertyDocument\(string, string, Unit, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewReboundStopPropertyDocument_System_String_System_String_VM_Unit_VM_API_Pre_LengthUnitType_"></a> CreateNewReboundStopPropertyDocument\(string, string, Unit, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.Force.PropertyReboundstopDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -928,7 +928,7 @@ The length unit of kernel.
 
 The new <xref href="VM.Managed.DAFUL.Car.Force.PropertyReboundstopDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewShimmyAndJudderTestRigFromTemplateDocument\(string, string, string, string, string, string, string, string, string\[\], Vector, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewShimmyAndJudderTestRigFromTemplateDocument_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String___VM_Vector_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewShimmyAndJudderTestRigFromTemplateDocument\(string, string, string, string, string, string, string, string, string\[\], Vector, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.ShimmyJudderTestRigDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -1008,7 +1008,7 @@ Will be thrown if 'newTestRigFromTemplateFilePath' argument is null.
 
 Will be thrown if 'testRigTemplateFilePath', 'frontSuspensionFromTemplateFilePath', 'rearSuspensionFromTemplateFilePath', 'steeringFromTemplateFilePath', 'bodyFromTemplateFilePath' files are not exist.
 
-### CreateNewShimmyAndJudderTestRigTemplateDocument\(string, string, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewShimmyAndJudderTestRigTemplateDocument_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewShimmyAndJudderTestRigTemplateDocument\(string, string, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.ShimmyJudderTestRigDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -1050,7 +1050,7 @@ The new <xref href="VM.Managed.DAFUL.Car.ShimmyJudderTestRigDocument" data-throw
 
 Will be thrown if 'newTestRigFilePath' argument is null.
 
-### CreateNewSpringPropertyDocument\(string, string, Unit, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewSpringPropertyDocument_System_String_System_String_VM_Unit_VM_API_Pre_LengthUnitType_"></a> CreateNewSpringPropertyDocument\(string, string, Unit, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.Force.PropertySpringDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -1082,7 +1082,7 @@ The length unit of kernel.
 
 The new <xref href="VM.Managed.DAFUL.Car.Force.PropertySpringDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewSteeringFromTemplateDocument\(string, string, MinorRole\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewSteeringFromTemplateDocument_System_String_System_String_VM_Managed_DAFUL_Car_MinorRole_"></a> CreateNewSteeringFromTemplateDocument\(string, string, MinorRole\)
 
 Create <xref href="VM.Managed.DAFUL.Car.SteeringDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -1110,7 +1110,7 @@ The minor role type. The default value is Front.
 
 The new <xref href="VM.Managed.DAFUL.Car.SteeringDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewSteeringTemplateDocument\(string, string, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewSteeringTemplateDocument_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewSteeringTemplateDocument\(string, string, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.SteeringDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -1152,7 +1152,7 @@ The new <xref href="VM.Managed.DAFUL.Car.SteeringDocument" data-throw-if-not-res
 
 Will be thrown if 'newSteeringFilePath' argument is null.
 
-### CreateNewSuspensionFromTemplateDocument\(string, string, MinorRole\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewSuspensionFromTemplateDocument_System_String_System_String_VM_Managed_DAFUL_Car_MinorRole_"></a> CreateNewSuspensionFromTemplateDocument\(string, string, MinorRole\)
 
 Create <xref href="VM.Managed.DAFUL.Car.SuspensionDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -1180,7 +1180,7 @@ The minor role type. The default value is Front.
 
 The new <xref href="VM.Managed.DAFUL.Car.SuspensionDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewSuspensionTemplateDocument\(string, string, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewSuspensionTemplateDocument_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewSuspensionTemplateDocument\(string, string, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.SuspensionDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -1222,7 +1222,7 @@ The new <xref href="VM.Managed.DAFUL.Car.SuspensionDocument" data-throw-if-not-r
 
 Will be thrown if 'newSuspensionFilePath' argument is null.
 
-### CreateNewTireTestRigFromTemplateDocument\(string, string, string, Vector, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewTireTestRigFromTemplateDocument_System_String_System_String_System_String_VM_Vector_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewTireTestRigFromTemplateDocument\(string, string, string, Vector, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.TireTestRigDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -1278,7 +1278,7 @@ Will be thrown if 'newTestRigFromTemplateFilePath' argument is null.
 
 Will be thrown if 'testRigTemplateFilePath', 'wheelFromTemplateFilePath' files are not exist.
 
-### CreateNewTireTestRigTemplateDocument\(string, string, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewTireTestRigTemplateDocument_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewTireTestRigTemplateDocument\(string, string, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.TireTestRigDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -1320,7 +1320,7 @@ The new <xref href="VM.Managed.DAFUL.Car.TireTestRigDocument" data-throw-if-not-
 
 Will be thrown if 'newTestRigFilePath' argument is null.
 
-### CreateNewWheelFromTemplateDocument\(string, string, MinorRole\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewWheelFromTemplateDocument_System_String_System_String_VM_Managed_DAFUL_Car_MinorRole_"></a> CreateNewWheelFromTemplateDocument\(string, string, MinorRole\)
 
 Create <xref href="VM.Managed.DAFUL.Car.WheelDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -1348,7 +1348,7 @@ The minor role type. The default value is Front.
 
 The new <xref href="VM.Managed.DAFUL.Car.WheelDocument" data-throw-if-not-resolved="false"></xref> object that is created by this API.
 
-### CreateNewWheelTemplateDocument\(string, string, Unit, double, LengthUnitType\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_CreateNewWheelTemplateDocument_System_String_System_String_VM_Unit_System_Double_VM_API_Pre_LengthUnitType_"></a> CreateNewWheelTemplateDocument\(string, string, Unit, double, LengthUnitType\)
 
 Create <xref href="VM.Managed.DAFUL.Car.WheelDocument" data-throw-if-not-resolved="false"></xref>.
 
@@ -1390,7 +1390,7 @@ The new <xref href="VM.Managed.DAFUL.Car.WheelDocument" data-throw-if-not-resolv
 
 Will be thrown if 'newWheelFilePath' argument is null.
 
-### FourPostReplaceAssembly\(FourPostTestRigDocument, string, string, string, string, string, string, string, string, IEnumerable<string\>\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_FourPostReplaceAssembly_VM_Managed_DAFUL_Car_FourPostTestRigDocument_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__"></a> FourPostReplaceAssembly\(FourPostTestRigDocument, string, string, string, string, string, string, string, string, IEnumerable<string\>\)
 
 Replace 4-Post assembly.
 
@@ -1450,7 +1450,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'document' argument is not assembly.
 
-### FullCarReplaceAssembly\(VehicleTestRigDocument, string, string, string, string, string, string, string, string, IEnumerable<string\>\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_FullCarReplaceAssembly_VM_Managed_DAFUL_Car_VehicleTestRigDocument_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__"></a> FullCarReplaceAssembly\(VehicleTestRigDocument, string, string, string, string, string, string, string, string, IEnumerable<string\>\)
 
 Replace full car assembly.
 
@@ -1510,7 +1510,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'document' argument is not assembly.
 
-### ModifyDesignParameter\(TestRigDocumentBase, Dictionary<string, List<ParamInfo\>\>\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_ModifyDesignParameter_VM_Managed_DAFUL_Car_TestRigDocumentBase_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_List_VM_Managed_DAFUL_Car_Operation_UpdateParameterOperation_ParamInfo___"></a> ModifyDesignParameter\(TestRigDocumentBase, Dictionary<string, List<ParamInfo\>\>\)
 
 Modify design parameter.
 
@@ -1539,7 +1539,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'document' argument is not assembly.
 
-### ModifyModelingParameter\(TestRigDocumentBase, ObjectBase\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_ModifyModelingParameter_VM_Managed_DAFUL_Car_TestRigDocumentBase_VM_Managed_ObjectBase_"></a> ModifyModelingParameter\(TestRigDocumentBase, ObjectBase\)
 
 Modify modeling parameter.
 
@@ -1568,7 +1568,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'document' argument is not assembly.
 
-### ShimmyJudderReplaceAssembly\(ShimmyJudderTestRigDocument, string, string, string, string, string, string, IEnumerable<string\>\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_ShimmyJudderReplaceAssembly_VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_System_String_System_String_System_String_System_String_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__"></a> ShimmyJudderReplaceAssembly\(ShimmyJudderTestRigDocument, string, string, string, string, string, string, IEnumerable<string\>\)
 
 Replace full car assembly.
 
@@ -1620,7 +1620,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'document' argument is not assembly.
 
-### SuspensionReplaceAssembly\(TestRigDocument, string, string, IEnumerable<string\>\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_SuspensionReplaceAssembly_VM_Managed_DAFUL_Car_TestRigDocument_System_String_System_String_System_Collections_Generic_IEnumerable_System_String__"></a> SuspensionReplaceAssembly\(TestRigDocument, string, string, IEnumerable<string\>\)
 
 Replace suspension assembly.
 
@@ -1656,7 +1656,7 @@ Will be thrown if 'document' argument is empty.
 
 Will be thrown if 'document' argument is not assembly.
 
-### TireReplaceAssembly\(TireTestRigDocument, string\)
+### <a id="VM_API_Pre_Car_CarDocumentAPI_TireReplaceAssembly_VM_Managed_DAFUL_Car_TireTestRigDocument_System_String_"></a> TireReplaceAssembly\(TireTestRigDocument, string\)
 
 Replace tire assembly.
 
@@ -1683,5 +1683,4 @@ Will be thrown if 'document' argument is empty.
  [ArgumentException](https://learn.microsoft.com/dotnet/api/system.argumentexception)
 
 Will be thrown if 'document' argument is not assembly.
-
 

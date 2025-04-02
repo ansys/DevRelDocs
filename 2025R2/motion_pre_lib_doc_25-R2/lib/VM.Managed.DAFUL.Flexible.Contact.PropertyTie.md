@@ -1,4 +1,4 @@
-# Class PropertyTie
+#  Class PropertyTie
 
 Namespace: [VM.Managed.DAFUL.Flexible.Contact](VM.Managed.DAFUL.Flexible.Contact.md)  
 Assembly: VMFlexibleBase.dll  
@@ -178,7 +178,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyTie\(\)
+### <a id="VM_Managed_DAFUL_Flexible_Contact_PropertyTie__ctor"></a> PropertyTie\(\)
 
 <p>Initializes a new instance of the <xref href="VM.Managed.DAFUL.Flexible.Contact.PropertyTie" data-throw-if-not-resolved="false"></xref> class.</p>
 <p>
@@ -187,5 +187,4 @@ ObservableObject.PropertyChanged
 ```csharp
 public PropertyTie()
 ```
-
 

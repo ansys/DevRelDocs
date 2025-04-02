@@ -1,4 +1,4 @@
-# Class SolidBody<T\>
+#  Class SolidBody<T\>
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -57,7 +57,7 @@ public abstract class SolidBody<T> : BuilderNamed<SolidBody>, IBuilder where T :
 
 ## Constructors
 
-### SolidBody\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1__ctor"></a> SolidBody\(\)
 
 ```csharp
 public SolidBody()
@@ -65,7 +65,7 @@ public SolidBody()
 
 ## Properties
 
-### AddToDoc
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_AddToDoc"></a> AddToDoc
 
 ```csharp
 protected override bool AddToDoc { get; }
@@ -75,7 +75,7 @@ protected override bool AddToDoc { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### BodyName
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_BodyName"></a> BodyName
 
 ```csharp
 public SolidBody<T>.BodyNameInfo BodyName { get; set; }
@@ -85,7 +85,7 @@ public SolidBody<T>.BodyNameInfo BodyName { get; set; }
 
  [SolidBody](VM.Managed.DAFUL.Builder.SolidBody\-1.md)<T\>.[BodyNameInfo](VM.Managed.DAFUL.Builder.SolidBody\-1.BodyNameInfo.md)
 
-### Interface
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_Interface"></a> Interface
 
 ```csharp
 public bool Interface { get; set; }
@@ -95,7 +95,7 @@ public bool Interface { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_Name"></a> Name
 
 ```csharp
 public override string Name { get; set; }
@@ -105,7 +105,7 @@ public override string Name { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SolidBuilder
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_SolidBuilder"></a> SolidBuilder
 
 ```csharp
 protected T SolidBuilder { get; }
@@ -117,7 +117,7 @@ protected T SolidBuilder { get; }
 
 ## Methods
 
-### MakeSymmetricSolidBuilder\(\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_MakeSymmetricSolidBuilder"></a> MakeSymmetricSolidBuilder\(\)
 
 ```csharp
 protected abstract Builder MakeSymmetricSolidBuilder()
@@ -127,7 +127,7 @@ protected abstract Builder MakeSymmetricSolidBuilder()
 
  Builder
 
-### OnFinalBuild\(string, Document\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_OnFinalBuild_System_String_VM_Managed_Document_"></a> OnFinalBuild\(string, Document\)
 
 ```csharp
 protected override ObjectBase OnFinalBuild(string strObjName, Document doc)
@@ -143,7 +143,7 @@ protected override ObjectBase OnFinalBuild(string strObjName, Document doc)
 
  ObjectBase
 
-### OnPostAddDoc\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_OnPostAddDoc_VM_Managed_ObjectBase_"></a> OnPostAddDoc\(ObjectBase\)
 
 ```csharp
 protected override void OnPostAddDoc(ObjectBase ob)
@@ -153,7 +153,7 @@ protected override void OnPostAddDoc(ObjectBase ob)
 
 `ob` ObjectBase
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -169,7 +169,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetSolidBuilderProperty\(T\)
+### <a id="VM_Managed_DAFUL_Builder_SolidBody_1_SetSolidBuilderProperty__0_"></a> SetSolidBuilderProperty\(T\)
 
 ```csharp
 protected abstract void SetSolidBuilderProperty(T solidBuilder)
@@ -178,5 +178,4 @@ protected abstract void SetSolidBuilderProperty(T solidBuilder)
 #### Parameters
 
 `solidBuilder` T
-
 

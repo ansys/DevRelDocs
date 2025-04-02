@@ -1,4 +1,4 @@
-# Class PropertySoilInteraction
+#  Class PropertySoilInteraction
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -165,7 +165,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertySoilInteraction\(\)
+### <a id="VM_Managed_DAFUL_Track_PropertySoilInteraction__ctor"></a> PropertySoilInteraction\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Track.PropertySoilInteraction" data-throw-if-not-resolved="false"></xref> class.
 
@@ -175,7 +175,7 @@ public PropertySoilInteraction()
 
 ## Properties
 
-### DynamicSinkage
+### <a id="VM_Managed_DAFUL_Track_PropertySoilInteraction_DynamicSinkage"></a> DynamicSinkage
 
 Gets or sets the Dynamic Sinkage.
 
@@ -193,7 +193,7 @@ public DynamicSinkageDefinition DynamicSinkage { get; set; }
 
 Dynamic Sinkage is null.
 
-### NormalPressureFormulation
+### <a id="VM_Managed_DAFUL_Track_PropertySoilInteraction_NormalPressureFormulation"></a> NormalPressureFormulation
 
 Gets or sets the Normal Pressure Formulation.
 
@@ -211,7 +211,7 @@ public NormalPressureFormulationBase NormalPressureFormulation { get; set; }
 
 Normal Pressure Formulation is null.
 
-### ShearPressureFormulation
+### <a id="VM_Managed_DAFUL_Track_PropertySoilInteraction_ShearPressureFormulation"></a> ShearPressureFormulation
 
 Gets or sets the Shear Pressure Formulation.
 
@@ -229,7 +229,7 @@ public ShearPressureFormulationBase ShearPressureFormulation { get; set; }
 
 Shear Pressure Formulation is null.
 
-### TypeOfSoil
+### <a id="VM_Managed_DAFUL_Track_PropertySoilInteraction_TypeOfSoil"></a> TypeOfSoil
 
 Gets or sets the soil type.
 
@@ -243,7 +243,7 @@ public string TypeOfSoil { get; set; }
 
 ## Methods
 
-### GenerateRDFFile\(IDocument, string\)
+### <a id="VM_Managed_DAFUL_Track_PropertySoilInteraction_GenerateRDFFile_VM_Models_Pre_IDocument_System_String_"></a> GenerateRDFFile\(IDocument, string\)
 
 Generate rdf file.
 
@@ -265,7 +265,7 @@ The file path.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GenerateRDFFile\(IDocument, IDocument, string, string, Dictionary<string, List<double\>\>, IContactableRigid3D, DirectionBase\)
+### <a id="VM_Managed_DAFUL_Track_PropertySoilInteraction_GenerateRDFFile_VM_Models_Pre_IDocument_VM_Models_Pre_IDocument_System_String_System_String_System_Collections_Generic_Dictionary_System_String_System_Collections_Generic_List_System_Double___VM_Managed_DAFUL_IContactableRigid3D_VM_Managed_DirectionBase_"></a> GenerateRDFFile\(IDocument, IDocument, string, string, Dictionary<string, List<double\>\>, IContactableRigid3D, DirectionBase\)
 
 Generate rdf file.
 
@@ -307,7 +307,7 @@ The vertical direction.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetSoilTypesFromInteractionFile\(ref List<string\>\)
+### <a id="VM_Managed_DAFUL_Track_PropertySoilInteraction_GetSoilTypesFromInteractionFile_System_Collections_Generic_List_System_String___"></a> GetSoilTypesFromInteractionFile\(ref List<string\>\)
 
 Get soil types from interaction file.
 
@@ -325,7 +325,7 @@ The solid types
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Track_PropertySoilInteraction_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -339,7 +339,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 The unit convert factor.
 
-### ReadInteractionFile\(IDocument, ref string, ref XmlNode, ref double, ref double, ref double, ref double\)
+### <a id="VM_Managed_DAFUL_Track_PropertySoilInteraction_ReadInteractionFile_VM_Models_Pre_IDocument_System_String__System_Xml_XmlNode__System_Double__System_Double__System_Double__System_Double__"></a> ReadInteractionFile\(IDocument, ref string, ref XmlNode, ref double, ref double, ref double, ref double\)
 
 Read interaction file
 
@@ -380,5 +380,4 @@ The force factor
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

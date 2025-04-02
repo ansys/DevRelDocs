@@ -1,4 +1,4 @@
-# Enum SloverFunctionAccUnit
+#  Enum SloverFunctionAccUnit
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.FourPost](VM.Managed.DAFUL.Car.Analysis.FourPost.md)  
 Assembly: VMDCar.dll  
@@ -38,7 +38,6 @@ m/s^2
 `mm_s_s = 1` 
 
 mm/s^2
-
 
 
 

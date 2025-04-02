@@ -1,4 +1,4 @@
-# Enum SloverFunctionVelUnit
+#  Enum SloverFunctionVelUnit
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.FourPost](VM.Managed.DAFUL.Car.Analysis.FourPost.md)  
 Assembly: VMDCar.dll  
@@ -32,7 +32,6 @@ m/s
 `mm_s = 0` 
 
 mm/s
-
 
 
 

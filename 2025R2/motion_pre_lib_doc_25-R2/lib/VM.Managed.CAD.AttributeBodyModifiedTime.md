@@ -1,4 +1,4 @@
-# Class AttributeBodyModifiedTime
+#  Class AttributeBodyModifiedTime
 
 Namespace: [VM.Managed.CAD](VM.Managed.CAD.md)  
 Assembly: VMAppCore.dll  
@@ -99,7 +99,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### AttributeBodyModifiedTime\(\)
+### <a id="VM_Managed_CAD_AttributeBodyModifiedTime__ctor"></a> AttributeBodyModifiedTime\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.CAD.AttributeBodyModifiedTime" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,7 +109,7 @@ public AttributeBodyModifiedTime()
 
 ## Properties
 
-### GINFTimeModified
+### <a id="VM_Managed_CAD_AttributeBodyModifiedTime_GINFTimeModified"></a> GINFTimeModified
 
 Gets or sets the last written time of a GINF file.
 
@@ -121,7 +121,7 @@ public string GINFTimeModified { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### GeomTimeModified
+### <a id="VM_Managed_CAD_AttributeBodyModifiedTime_GeomTimeModified"></a> GeomTimeModified
 
 Gets or sets the last time of a geometry.
 
@@ -132,5 +132,4 @@ public string GeomTimeModified { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

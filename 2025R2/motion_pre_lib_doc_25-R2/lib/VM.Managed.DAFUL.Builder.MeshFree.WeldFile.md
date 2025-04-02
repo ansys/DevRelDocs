@@ -1,4 +1,4 @@
-# Class WeldFile
+#  Class WeldFile
 
 Namespace: [VM.Managed.DAFUL.Builder.MeshFree](VM.Managed.DAFUL.Builder.MeshFree.md)  
 Assembly: VMBldMeshFree.dll  
@@ -66,7 +66,7 @@ BuilderBase<Weld\>.ErrorMessage
 
 ## Constructors
 
-### WeldFile\(\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_WeldFile__ctor"></a> WeldFile\(\)
 
 ```csharp
 public WeldFile()
@@ -74,7 +74,7 @@ public WeldFile()
 
 ## Properties
 
-### PropertyFilePath
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_WeldFile_PropertyFilePath"></a> PropertyFilePath
 
 ```csharp
 public string PropertyFilePath { get; set; }
@@ -86,7 +86,7 @@ public string PropertyFilePath { get; set; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_WeldFile_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -102,7 +102,7 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SetInputResultData\(\)
+### <a id="VM_Managed_DAFUL_Builder_MeshFree_WeldFile_SetInputResultData"></a> SetInputResultData\(\)
 
 ```csharp
 protected override bool SetInputResultData()
@@ -111,5 +111,4 @@ protected override bool SetInputResultData()
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

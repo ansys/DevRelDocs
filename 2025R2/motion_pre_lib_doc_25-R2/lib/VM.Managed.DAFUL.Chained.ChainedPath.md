@@ -1,4 +1,4 @@
-# Class ChainedPath
+#  Class ChainedPath
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ChainedPath\(\)
+### <a id="VM_Managed_DAFUL_Chained_ChainedPath__ctor"></a> ChainedPath\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.ChainedPath" data-throw-if-not-resolved="false"></xref> class.
 
@@ -106,7 +106,7 @@ public ChainedPath()
 
 ## Properties
 
-### AssembledRadius
+### <a id="VM_Managed_DAFUL_Chained_ChainedPath_AssembledRadius"></a> AssembledRadius
 
 Gets or stes the Assembled Radius
 
@@ -118,7 +118,7 @@ public ExpressionValueVariable AssembledRadius { get; set; }
 
  ExpressionValueVariable
 
-### CenterPosition
+### <a id="VM_Managed_DAFUL_Chained_ChainedPath_CenterPosition"></a> CenterPosition
 
 Gets or sets the center position
 
@@ -130,7 +130,7 @@ public PointBase CenterPosition { get; set; }
 
  PointBase
 
-### RotationAxis
+### <a id="VM_Managed_DAFUL_Chained_ChainedPath_RotationAxis"></a> RotationAxis
 
 Gets or sets the depth direction.
 
@@ -144,7 +144,7 @@ public DirectionBase RotationAxis { get; set; }
 
 ## Methods
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Chained_ChainedPath_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 Links the request update.
 
@@ -161,5 +161,4 @@ The obj notifier.
 `arg` LinkEventArgs
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
-
 

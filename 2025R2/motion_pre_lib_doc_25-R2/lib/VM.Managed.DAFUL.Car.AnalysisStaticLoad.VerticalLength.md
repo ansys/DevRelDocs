@@ -1,4 +1,4 @@
-# Class AnalysisStaticLoad.VerticalLength
+#  Class AnalysisStaticLoad.VerticalLength
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -31,7 +31,7 @@ public class AnalysisStaticLoad.VerticalLength : AnalysisStaticLoad.StaticRoadBa
 
 ## Constructors
 
-### VerticalLength\(\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_VerticalLength__ctor"></a> VerticalLength\(\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.VerticalLength" data-throw-if-not-resolved="false"></xref> class.
 
@@ -39,7 +39,7 @@ Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.VerticalLeng
 public VerticalLength()
 ```
 
-### VerticalLength\(ILinkContainer\)
+### <a id="VM_Managed_DAFUL_Car_AnalysisStaticLoad_VerticalLength__ctor_VM_Models_Pre_ILinkContainer_"></a> VerticalLength\(ILinkContainer\)
 
 Initializes the <xref href="VM.Managed.DAFUL.Car.AnalysisStaticLoad.VerticalLength" data-throw-if-not-resolved="false"></xref> class.
 
@@ -52,5 +52,4 @@ public VerticalLength(ILinkContainer lnkContainer)
 `lnkContainer` ILinkContainer
 
 The link container.
-
 

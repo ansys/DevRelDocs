@@ -1,4 +1,4 @@
-# Interface ISlidingBuilder
+#  Interface ISlidingBuilder
 
 Namespace: [VM.Managed.DAFUL.GearTrain.CAD](VM.Managed.DAFUL.GearTrain.CAD.md)  
 Assembly: VMDGearTrain.dll  
@@ -21,7 +21,7 @@ public interface ISlidingBuilder : IGTBuilder
 
 ## Methods
 
-### GetCenterPosition\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_ISlidingBuilder_GetCenterPosition"></a> GetCenterPosition\(\)
 
 Gets center position.
 
@@ -33,7 +33,7 @@ VectorBase GetCenterPosition()
 
  VectorBase
 
-### GetTransform\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_CAD_ISlidingBuilder_GetTransform"></a> GetTransform\(\)
 
 Gets the transform.
 
@@ -46,5 +46,4 @@ TMatrix GetTransform()
  TMatrix
 
 The transform.
-
 

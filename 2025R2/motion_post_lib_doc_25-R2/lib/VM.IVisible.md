@@ -1,4 +1,4 @@
-# Interface IVisible
+#  Interface IVisible
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IVisible
 
 ## Properties
 
-### IsVisible
+### <a id="VM_IVisible_IsVisible"></a> IsVisible
 
 ```python
 bool IsVisible { get; set; }

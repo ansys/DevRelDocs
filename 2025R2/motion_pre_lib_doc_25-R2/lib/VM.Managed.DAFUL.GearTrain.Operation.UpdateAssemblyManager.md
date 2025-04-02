@@ -1,4 +1,4 @@
-# Class UpdateAssemblyManager
+#  Class UpdateAssemblyManager
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### UpdateAssemblyManager\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateAssemblyManager__ctor"></a> UpdateAssemblyManager\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateAssemblyManager" data-throw-if-not-resolved="false"></xref> class.
 
@@ -85,7 +85,7 @@ Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operati
 public UpdateAssemblyManager()
 ```
 
-### UpdateAssemblyManager\(Document3D\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateAssemblyManager__ctor_VM_Managed_Document3D_"></a> UpdateAssemblyManager\(Document3D\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateAssemblyManager" data-throw-if-not-resolved="false"></xref> class.
 
@@ -99,7 +99,7 @@ public UpdateAssemblyManager(Document3D document3D)
 
 The document.
 
-### UpdateAssemblyManager\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateAssemblyManager__ctor_VM_Managed_Operation_JournalParameter_"></a> UpdateAssemblyManager\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.Operation.UpdateAssemblyManager" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateAssemblyManager_Name"></a> Name
 
 Gets the name.
 
@@ -129,7 +129,7 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateAssemblyManager_Execute"></a> Execute\(\)
 
 Executes this instance.
 
@@ -137,7 +137,7 @@ Executes this instance.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_UpdateAssemblyManager_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -150,5 +150,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

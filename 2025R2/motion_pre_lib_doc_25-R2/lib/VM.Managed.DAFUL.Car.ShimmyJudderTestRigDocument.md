@@ -1,4 +1,4 @@
-# Class ShimmyJudderTestRigDocument
+#  Class ShimmyJudderTestRigDocument
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDFullCar.dll  
@@ -628,7 +628,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### ShimmyJudderTestRigDocument\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument__ctor_System_UIntPtr_"></a> ShimmyJudderTestRigDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.ShimmyJudderTestRigDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -644,7 +644,7 @@ The document handle.
 
 ## Properties
 
-### InitialCategories
+### <a id="VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_InitialCategories"></a> InitialCategories
 
 Gets the initial categories.
 
@@ -656,7 +656,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### SimulationScenarioTypeName
+### <a id="VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_SimulationScenarioTypeName"></a> SimulationScenarioTypeName
 
 Gets the name of the simulation scenario type.
 
@@ -670,7 +670,7 @@ public override string SimulationScenarioTypeName { get; }
 
 ## Methods
 
-### FindCategory\(string\)
+### <a id="VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_FindCategory_System_String_"></a> FindCategory\(string\)
 
 Finds the category.
 
@@ -690,7 +690,7 @@ The fullname of type.
 
 The category.
 
-### GetAnalysisFromSimulationConfigurations\(ShimmyJudderAnalysisType\)
+### <a id="VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_GetAnalysisFromSimulationConfigurations_VM_Managed_DAFUL_Car_ShimmyJudderAnalysisType_"></a> GetAnalysisFromSimulationConfigurations\(ShimmyJudderAnalysisType\)
 
 Gets the analysis from simulation configurations.
 
@@ -708,7 +708,7 @@ The type.
 
  AnalysisBase
 
-### GetShimmyJudderConfigurationFromSimulationConfigurations\(ShimmyJudderAnalysisType\)
+### <a id="VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_GetShimmyJudderConfigurationFromSimulationConfigurations_VM_Managed_DAFUL_Car_ShimmyJudderAnalysisType_"></a> GetShimmyJudderConfigurationFromSimulationConfigurations\(ShimmyJudderAnalysisType\)
 
 Gets the shimmy judder configuration from simulation configurations.
 
@@ -726,7 +726,7 @@ The type.
 
  [ShimmyJudderAnalysisConfigurationBase](VM.Managed.DAFUL.Car.ShimmyJudderAnalysisConfigurationBase.md)
 
-### InitializeCategoryInfo\(string\)
+### <a id="VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
 
 Initializes the category info.
 
@@ -740,7 +740,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the STR category.
 
-### InitializeSimParam\(\)
+### <a id="VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_InitializeSimParam"></a> InitializeSimParam\(\)
 
 Initializes the simulation parameter.
 
@@ -748,7 +748,7 @@ Initializes the simulation parameter.
 protected override void InitializeSimParam()
 ```
 
-### LoadTemplateBasedXml\(XmlReader\)
+### <a id="VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_LoadTemplateBasedXml_System_Xml_XmlReader_"></a> LoadTemplateBasedXml\(XmlReader\)
 
 Loads the XML for template based document.
 
@@ -762,7 +762,7 @@ protected override void LoadTemplateBasedXml(XmlReader reader)
 
 The reader.
 
-### ReplaceAssembly\(string\)
+### <a id="VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_ReplaceAssembly_System_String_"></a> ReplaceAssembly\(string\)
 
 Replaces the assembly.
 
@@ -776,7 +776,7 @@ public override void ReplaceAssembly(string strAssemblyInfo)
 
 The assembly info.
 
-### SaveTemplateBasedXml\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Car_ShimmyJudderTestRigDocument_SaveTemplateBasedXml_System_Xml_XmlWriter_"></a> SaveTemplateBasedXml\(XmlWriter\)
 
 Saves the XML for template based document.
 
@@ -789,5 +789,4 @@ protected override void SaveTemplateBasedXml(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

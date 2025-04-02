@@ -1,4 +1,4 @@
-# Class ApplyAssemblyOperation
+#  Class ApplyAssemblyOperation
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ApplyAssemblyOperation\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_ApplyAssemblyOperation__ctor"></a> ApplyAssemblyOperation\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.ApplyAssemblyOperation" data-throw-if-not-resolved="false"></xref> class.
 
@@ -87,7 +87,7 @@ public ApplyAssemblyOperation()
 
 ## Fields
 
-### OnApply
+### <a id="VM_Managed_DAFUL_GearTrain_ApplyAssemblyOperation_OnApply"></a> OnApply
 
 On Apply event
 
@@ -101,7 +101,7 @@ public ApplyAssemblyOperation.ApplyCallback OnApply
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_GearTrain_ApplyAssemblyOperation_Name"></a> Name
 
 Gets the operation name.
 
@@ -113,7 +113,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Success
+### <a id="VM_Managed_DAFUL_GearTrain_ApplyAssemblyOperation_Success"></a> Success
 
 Gets the success flag.
 
@@ -127,12 +127,11 @@ public bool Success { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_ApplyAssemblyOperation_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

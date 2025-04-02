@@ -1,4 +1,4 @@
-# Enum KissSoftInterface.GearType
+#  Enum KissSoftInterface.GearType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -57,7 +57,6 @@ Z14
 
 WormAndWormWheel
 Z80
-
 
 
 

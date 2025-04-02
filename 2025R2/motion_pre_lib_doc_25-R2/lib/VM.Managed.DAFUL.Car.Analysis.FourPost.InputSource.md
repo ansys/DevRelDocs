@@ -1,4 +1,4 @@
-# Enum InputSource
+#  Enum InputSource
 
 Namespace: [VM.Managed.DAFUL.Car.Analysis.FourPost](VM.Managed.DAFUL.Car.Analysis.FourPost.md)  
 Assembly: VMDCar.dll  
@@ -32,7 +32,6 @@ Spline
 `SweptSine = 2` 
 
 Swept Sine
-
 
 
 

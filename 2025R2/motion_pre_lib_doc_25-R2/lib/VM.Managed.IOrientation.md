@@ -1,4 +1,4 @@
-# Interface IOrientation
+#  Interface IOrientation
 
 Namespace: [VM.Managed](VM.Managed.md)  
 Assembly: VMAppCore.dll  
@@ -23,7 +23,7 @@ public interface IOrientation : IDirectionContainer, IDesignParameter
 
 ## Properties
 
-### Orientation
+### <a id="VM_Managed_IOrientation_Orientation"></a> Orientation
 
 Gets the orientation for design frame.
 
@@ -34,5 +34,4 @@ OMatrix Orientation { get; }
 #### Property Value
 
  [OMatrix](VM.Managed.OMatrix.md)
-
 

@@ -1,4 +1,4 @@
-# Interface IDataPoint
+#  Interface IDataPoint
 
 Namespace: [VM](VM.md)  
 Assembly: VM.dll  
@@ -9,7 +9,7 @@ public interface IDataPoint
 
 ## Properties
 
-### X
+### <a id="VM_IDataPoint_X"></a> X
 
 ```python
 double X { get; set; }
@@ -19,7 +19,7 @@ double X { get; set; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### Y
+### <a id="VM_IDataPoint_Y"></a> Y
 
 ```python
 double Y { get; set; }

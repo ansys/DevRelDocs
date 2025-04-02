@@ -1,4 +1,4 @@
-# Class CreateConstraint
+#  Class CreateConstraint
 
 Namespace: [VM.Managed.DAFUL.Operation.Util](VM.Managed.DAFUL.Operation.Util.md)  
 Assembly: VMOpCore.dll  
@@ -22,7 +22,7 @@ public class CreateConstraint
 
 ## Constructors
 
-### CreateConstraint\(\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint__ctor"></a> CreateConstraint\(\)
 
 ```csharp
 public CreateConstraint()
@@ -30,7 +30,7 @@ public CreateConstraint()
 
 ## Methods
 
-### CreateBush\(Document, IConnectable, IConnectable, PointBase, OMatrix, string\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateBush_VM_Managed_Document_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_OMatrix_System_String_"></a> CreateBush\(Document, IConnectable, IConnectable, PointBase, OMatrix, string\)
 
 Create the bushing.
 
@@ -56,7 +56,7 @@ public static General CreateBush(Document document, IConnectable baseConnectable
 
  General
 
-### CreateBush\(Document, IConnectable, IConnectable, PointBase, DirectionBase, string, bool\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateBush_VM_Managed_Document_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_DirectionBase_System_String_System_Boolean_"></a> CreateBush\(Document, IConnectable, IConnectable, PointBase, DirectionBase, string, bool\)
 
 Create the bushing.
 
@@ -86,7 +86,7 @@ Flag for creating a new entity if there is already an entity with the same name
 
  General
 
-### CreateBush\(Document, IConnectable, IConnectable, TMatrix, TMatrix, string, bool, bool\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateBush_VM_Managed_Document_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_TMatrix_VM_TMatrix_System_String_System_Boolean_System_Boolean_"></a> CreateBush\(Document, IConnectable, IConnectable, TMatrix, TMatrix, string, bool, bool\)
 
 Create the bushing.
 
@@ -124,7 +124,7 @@ Flag for add created element to document.
 
  General
 
-### CreateFixed\(Document3D, IConnectable, IConnectable, PointBase, string\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateFixed_VM_Managed_Document3D_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_System_String_"></a> CreateFixed\(Document3D, IConnectable, IConnectable, PointBase, string\)
 
 Create the fixed joint.
 
@@ -160,7 +160,7 @@ The fixed joint prefix name.
 
 The new fixed joint.
 
-### CreateFixed\(Document, IConnectable, IConnectable, PointBase, OMatrix, string, bool, bool\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateFixed_VM_Managed_Document_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_OMatrix_System_String_System_Boolean_System_Boolean_"></a> CreateFixed\(Document, IConnectable, IConnectable, PointBase, OMatrix, string, bool, bool\)
 
 Create the fixed joint.
 
@@ -206,7 +206,7 @@ Flag for add created element to document.
 
 The new fixed joint.
 
-### CreateFixed\(Document, IConnectable, IConnectable, TMatrix, TMatrix, string, bool, bool\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateFixed_VM_Managed_Document_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_TMatrix_VM_TMatrix_System_String_System_Boolean_System_Boolean_"></a> CreateFixed\(Document, IConnectable, IConnectable, TMatrix, TMatrix, string, bool, bool\)
 
 Create the fixed joint.
 
@@ -252,7 +252,7 @@ Flag for add created element to document.
 
 The new fixed joint.
 
-### CreateFixedToGround\(Document3D, IConnectable, PointBase, string\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateFixedToGround_VM_Managed_Document3D_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_System_String_"></a> CreateFixedToGround\(Document3D, IConnectable, PointBase, string\)
 
 Create the fixed joint to ground.
 
@@ -284,7 +284,7 @@ The fixed joint prefix name.
 
 The new fixed joint.
 
-### CreateGeneralConnector\(Document3D, string, IConnectable, IConnectable, ConnectorType, bool, double\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateGeneralConnector_VM_Managed_Document3D_System_String_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Models_Pre_Connections_PropertyGeneral_ConnectorType_System_Boolean_System_Double_"></a> CreateGeneralConnector\(Document3D, string, IConnectable, IConnectable, ConnectorType, bool, double\)
 
 Create general connector
 
@@ -326,7 +326,7 @@ The tolerance
 
  General
 
-### CreateGeneralConnector\(Document3D, string, Body, Body, ConnectorType, bool, double\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateGeneralConnector_VM_Managed_Document3D_System_String_VM_Managed_CAD_Body_VM_Managed_CAD_Body_VM_Models_Pre_Connections_PropertyGeneral_ConnectorType_System_Boolean_System_Double_"></a> CreateGeneralConnector\(Document3D, string, Body, Body, ConnectorType, bool, double\)
 
 Create general connector
 
@@ -368,7 +368,7 @@ The tolerance
 
  General
 
-### CreateGeneralConnector\(Document3D, IConnectable, IConnectable, PointBase, DirectionBase, string, ConnectorType, bool\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateGeneralConnector_VM_Managed_Document3D_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_DirectionBase_System_String_VM_Models_Pre_Connections_PropertyGeneral_ConnectorType_System_Boolean_"></a> CreateGeneralConnector\(Document3D, IConnectable, IConnectable, PointBase, DirectionBase, string, ConnectorType, bool\)
 
 Create the general connector.
 
@@ -416,7 +416,7 @@ Flag for creating a new entity if there is already an entity with the same name
 
 The new revolute joint.
 
-### CreateGeneralFixedToGround\(Document3D, IConnectable, PointBase, string, bool\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateGeneralFixedToGround_VM_Managed_Document3D_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_System_String_System_Boolean_"></a> CreateGeneralFixedToGround\(Document3D, IConnectable, PointBase, string, bool\)
 
 Create the fixed joint to ground.
 
@@ -450,7 +450,7 @@ The fixed joint prefix name.
 
 The new fixed joint.
 
-### CreateGeneralRevolute\(Document, IConnectable, IConnectable, PointBase, DirectionBase, string, DriverFunction, bool\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateGeneralRevolute_VM_Managed_Document_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_DirectionBase_System_String_VM_Managed_DAFUL_Constraints_DriverFunction_System_Boolean_"></a> CreateGeneralRevolute\(Document, IConnectable, IConnectable, PointBase, DirectionBase, string, DriverFunction, bool\)
 
 Create the revolute joint.
 
@@ -496,7 +496,7 @@ Flag for creating a new entity if there is already an entity with the same name
 
 The new revolute joint.
 
-### CreateGeneralRevolute\(Document, IConnectable, IConnectable, TMatrix, TMatrix, string, DriverFunction, bool, bool\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateGeneralRevolute_VM_Managed_Document_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_TMatrix_VM_TMatrix_System_String_VM_Managed_DAFUL_Constraints_DriverFunction_System_Boolean_System_Boolean_"></a> CreateGeneralRevolute\(Document, IConnectable, IConnectable, TMatrix, TMatrix, string, DriverFunction, bool, bool\)
 
 Create the revolute joint.
 
@@ -544,7 +544,7 @@ Flag for add created element to document.
 
 The new revolute joint.
 
-### CreateGeneralRevolute\(SubSystemDocument, IObjectBase, IObjectBase, PointBase, DirectionBase, string, bool, Function, MotionType\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateGeneralRevolute_VM_Managed_DAFUL_SubSystemDocument_VM_Models_Pre_IObjectBase_VM_Models_Pre_IObjectBase_VM_Managed_PointBase_VM_Managed_DirectionBase_System_String_System_Boolean_VM_Managed_DAFUL_Function_VM_Managed_DAFUL_Constraints_DriverFunction_MotionType_"></a> CreateGeneralRevolute\(SubSystemDocument, IObjectBase, IObjectBase, PointBase, DirectionBase, string, bool, Function, MotionType\)
 
 Create the revolute joint.
 
@@ -578,7 +578,7 @@ Flag for creating a new entity if there is already an entity with the same name
 
  General
 
-### CreateGeneralTranslational\(Document3D, IConnectable, IConnectable, PointBase, DirectionBase, string, bool\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateGeneralTranslational_VM_Managed_Document3D_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_DirectionBase_System_String_System_Boolean_"></a> CreateGeneralTranslational\(Document3D, IConnectable, IConnectable, PointBase, DirectionBase, string, bool\)
 
 Create the translational joint.
 
@@ -622,7 +622,7 @@ Flag for creating a new entity if there is already an entity with the same name
 
 The new translational joint.
 
-### CreateRevolute\(Document3D, IConnectable, IConnectable, PointBase, DirectionBase, string\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateRevolute_VM_Managed_Document3D_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_DirectionBase_System_String_"></a> CreateRevolute\(Document3D, IConnectable, IConnectable, PointBase, DirectionBase, string\)
 
 Create the revolute joint.
 
@@ -662,7 +662,7 @@ The revolute joint prefix name.
 
 The new revolute joint.
 
-### CreateTranslational\(Document3D, IConnectable, IConnectable, PointBase, DirectionBase, string\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateTranslational_VM_Managed_Document3D_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_PointBase_VM_Managed_DirectionBase_System_String_"></a> CreateTranslational\(Document3D, IConnectable, IConnectable, PointBase, DirectionBase, string\)
 
 Create the translational joint.
 
@@ -702,7 +702,7 @@ The translational joint prefix name.
 
 The new translational joint.
 
-### CreateTranslational\(SubSystemDocument, IObjectBase, IObjectBase, PointBase, DirectionBase, string, DesignVariable, Function, DesignVariable, DesignVariable, bool, bool\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_CreateTranslational_VM_Managed_DAFUL_SubSystemDocument_VM_Models_Pre_IObjectBase_VM_Models_Pre_IObjectBase_VM_Managed_PointBase_VM_Managed_DirectionBase_System_String_VM_Managed_DesignVariable_VM_Managed_DAFUL_Function_VM_Managed_DesignVariable_VM_Managed_DesignVariable_System_Boolean_System_Boolean_"></a> CreateTranslational\(SubSystemDocument, IObjectBase, IObjectBase, PointBase, DirectionBase, string, DesignVariable, Function, DesignVariable, DesignVariable, bool, bool\)
 
 Create the translational joint.
 
@@ -742,7 +742,7 @@ Flag for creating a new entity if there is already an entity with the same name
 
  General
 
-### GetConnectorParameter\(IDocument, string, IConnectable, IConnectable, ParameterType, double, ref object\[\]\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_GetConnectorParameter_VM_Models_Pre_IDocument_System_String_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_IConnectable_VM_Managed_DAFUL_Operation_Util_CreateConstraint_ParameterType_System_Double_System_Object____"></a> GetConnectorParameter\(IDocument, string, IConnectable, IConnectable, ParameterType, double, ref object\[\]\)
 
 Gets connector parameter.
 
@@ -770,7 +770,7 @@ public static bool GetConnectorParameter(IDocument doc, string strName, IConnect
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### GetConnectorParameter\(IDocument, string, Body, Body, ParameterType, double, ref object\[\]\)
+### <a id="VM_Managed_DAFUL_Operation_Util_CreateConstraint_GetConnectorParameter_VM_Models_Pre_IDocument_System_String_VM_Managed_CAD_Body_VM_Managed_CAD_Body_VM_Managed_DAFUL_Operation_Util_CreateConstraint_ParameterType_System_Double_System_Object____"></a> GetConnectorParameter\(IDocument, string, Body, Body, ParameterType, double, ref object\[\]\)
 
 Gets connector parameter.
 
@@ -797,5 +797,4 @@ public static bool GetConnectorParameter(IDocument doc, string strName, Body bod
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

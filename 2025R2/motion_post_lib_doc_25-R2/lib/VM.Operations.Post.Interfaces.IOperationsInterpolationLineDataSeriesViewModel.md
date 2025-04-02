@@ -1,4 +1,4 @@
-# Interface IOperationsInterpolationLineDataSeriesViewModel
+#  Interface IOperationsInterpolationLineDataSeriesViewModel
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -70,7 +70,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### Points
+### <a id="VM_Operations_Post_Interfaces_IOperationsInterpolationLineDataSeriesViewModel_Points"></a> Points
 
 Gets or sets the number of data points for interpolation.
 

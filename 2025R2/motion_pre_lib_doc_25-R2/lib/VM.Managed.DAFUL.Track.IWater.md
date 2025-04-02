@@ -1,4 +1,4 @@
-# Interface IWater
+#  Interface IWater
 
 Namespace: [VM.Managed.DAFUL.Track](VM.Managed.DAFUL.Track.md)  
 Assembly: VMDTrackBase.dll  
@@ -17,7 +17,7 @@ public interface IWater
 
 ## Properties
 
-### Density
+### <a id="VM_Managed_DAFUL_Track_IWater_Density"></a> Density
 
 Gets the density
 
@@ -29,7 +29,7 @@ double Density { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### ReferenceFrame
+### <a id="VM_Managed_DAFUL_Track_IWater_ReferenceFrame"></a> ReferenceFrame
 
 Gets the reference frame
 
@@ -41,7 +41,7 @@ Marker ReferenceFrame { get; }
 
  Marker
 
-### WaterContainerBody
+### <a id="VM_Managed_DAFUL_Track_IWater_WaterContainerBody"></a> WaterContainerBody
 
 Gets the water body
 
@@ -53,7 +53,7 @@ IConnectable WaterContainerBody { get; }
 
  IConnectable
 
-### ZDirection
+### <a id="VM_Managed_DAFUL_Track_IWater_ZDirection"></a> ZDirection
 
 Gets the z direction
 
@@ -64,5 +64,4 @@ VectorBase ZDirection { get; }
 #### Property Value
 
  VectorBase
-
 

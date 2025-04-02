@@ -1,4 +1,4 @@
-# Class GearTrainDocument
+#  Class GearTrainDocument
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -573,7 +573,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GearTrainDocument\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument__ctor_System_UIntPtr_"></a> GearTrainDocument\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.GearTrainDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -589,7 +589,7 @@ The document handle.
 
 ## Properties
 
-### AssembledBodyList
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_AssembledBodyList"></a> AssembledBodyList
 
 Gets or sets the assembled body list.
 
@@ -601,7 +601,7 @@ public override ObjectBase[] AssembledBodyList { get; }
 
  ObjectBase\[\]
 
-### AssemblyManager
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_AssemblyManager"></a> AssemblyManager
 
 Gets or sets the assembly manager.
 
@@ -613,7 +613,7 @@ public AssemblyManager AssemblyManager { get; set; }
 
  [AssemblyManager](VM.Managed.DAFUL.GearTrain.AssemblyManager.md)
 
-### CustomDesignParameterList
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_CustomDesignParameterList"></a> CustomDesignParameterList
 
 Gets or sets the custom design parameter list.
 
@@ -625,7 +625,7 @@ public override ObjectBase[] CustomDesignParameterList { get; }
 
  ObjectBase\[\]
 
-### CustomPerformanceIndexList
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_CustomPerformanceIndexList"></a> CustomPerformanceIndexList
 
 Gets or sets the custom performance index list.
 
@@ -637,7 +637,7 @@ public override ObjectBase[] CustomPerformanceIndexList { get; }
 
  ObjectBase\[\]
 
-### DirectionOfShaft
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_DirectionOfShaft"></a> DirectionOfShaft
 
 Gets or sets the direction of shaft.
 
@@ -649,7 +649,7 @@ public DirectionBase DirectionOfShaft { get; set; }
 
  DirectionBase
 
-### InitialCategories
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_InitialCategories"></a> InitialCategories
 
 Gets the initial categories.
 
@@ -661,7 +661,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### NodalBodyList
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_NodalBodyList"></a> NodalBodyList
 
 Gets the nodal body list.
 
@@ -673,7 +673,7 @@ public override ObjectBase[] NodalBodyList { get; }
 
  ObjectBase\[\]
 
-### SimulationScenarioTypeName
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_SimulationScenarioTypeName"></a> SimulationScenarioTypeName
 
 Gets the name of the simulation scenario type.
 
@@ -685,7 +685,7 @@ public override string SimulationScenarioTypeName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SkipUI
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_SkipUI"></a> SkipUI
 
 Gets or sets the skip UI.
 
@@ -697,7 +697,7 @@ public static bool SkipUI { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseToolkitSubsystem
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_UseToolkitSubsystem"></a> UseToolkitSubsystem
 
 Determines whether this used toolkit subsystem.
 
@@ -709,7 +709,7 @@ public override bool UseToolkitSubsystem { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### VehicleSimulationDataSet
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_VehicleSimulationDataSet"></a> VehicleSimulationDataSet
 
 Vehicle Simulation DataSet
 
@@ -721,7 +721,7 @@ public string VehicleSimulationDataSet { get; set; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### VehicleSimulatorProcessId
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_VehicleSimulatorProcessId"></a> VehicleSimulatorProcessId
 
 Vehicle simulator process id
 
@@ -733,7 +733,7 @@ public int VehicleSimulatorProcessId { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### VisibleTarget
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_VisibleTarget"></a> VisibleTarget
 
 Gets or sets the visible target.
 
@@ -747,7 +747,7 @@ public override ObjectBase[] VisibleTarget { get; }
 
 ## Methods
 
-### AddParentToDictionary\(GeometryInfoBase, IOpenDesignerForGearTrain\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_AddParentToDictionary_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_VM_Managed_DAFUL_GearTrain_IOpenDesignerForGearTrain_"></a> AddParentToDictionary\(GeometryInfoBase, IOpenDesignerForGearTrain\)
 
 Adds the parent to dictionary.
 
@@ -769,7 +769,7 @@ The open DES.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### AddParentToDictionary\(GeometryInfoBase, IOpenDesignerForGearTrain, GeometryInfoBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_AddParentToDictionary_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_VM_Managed_DAFUL_GearTrain_IOpenDesignerForGearTrain_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_"></a> AddParentToDictionary\(GeometryInfoBase, IOpenDesignerForGearTrain, GeometryInfoBase\)
 
 Adds the parent to dictionary.
 
@@ -795,7 +795,7 @@ The bearing information.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### ClearDocument\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_ClearDocument"></a> ClearDocument\(\)
 
 Clears the document.
 
@@ -803,7 +803,7 @@ Clears the document.
 protected override void ClearDocument()
 ```
 
-### DeleteWithSelectionObjects\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_DeleteWithSelectionObjects"></a> DeleteWithSelectionObjects\(\)
 
 Deletes the with selection objects.
 
@@ -815,7 +815,7 @@ public override bool DeleteWithSelectionObjects()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Find\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_Find_System_String_"></a> Find\(string\)
 
 Finds the specified string name.
 
@@ -833,7 +833,7 @@ Name of the string.
 
  IObjectBase
 
-### FindBodyFromCADBody\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_FindBodyFromCADBody_VM_Managed_ObjectBase_"></a> FindBodyFromCADBody\(ObjectBase\)
 
 Finds the body form CAD body.
 
@@ -853,7 +853,7 @@ The CAD body.
 
 The body such as solid body, assembled body.
 
-### FindCategory\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_FindCategory_System_String_"></a> FindCategory\(string\)
 
 Finds the category.
 
@@ -873,7 +873,7 @@ The fullname of type.
 
 The category.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds the local.
 
@@ -891,7 +891,7 @@ Name of the string.
 
  IObjectBase
 
-### FindObjectForSelection\(ObjectBase, OperationTypeForSelection\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_FindObjectForSelection_VM_Managed_ObjectBase_VM_Managed_Document3D_OperationTypeForSelection_"></a> FindObjectForSelection\(ObjectBase, OperationTypeForSelection\)
 
 Finds the object for selecion.
 
@@ -913,7 +913,7 @@ Type of the operation for selection.
 
  ObjectBase
 
-### GetAllGear\(string, GearGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_GetAllGear_System_String_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> GetAllGear\(string, GearGeometryInfo\)
 
 Gets all gear.
 
@@ -935,7 +935,7 @@ The added gear information.
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[IGearBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGearBuilder.md)\>
 
-### GetAssemblyInfoForOutputUsub\(ref IConnectable\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_GetAssemblyInfoForOutputUsub_VM_Managed_DAFUL_IConnectable__"></a> GetAssemblyInfoForOutputUsub\(ref IConnectable\)
 
 Gets the assembly information for output usub.
 
@@ -949,7 +949,7 @@ public void GetAssemblyInfoForOutputUsub(ref IConnectable con)
 
 The con.
 
-### GetBodies\(ref List<ObjectBase\>\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_GetBodies_System_Collections_Generic_List_VM_Managed_ObjectBase___"></a> GetBodies\(ref List<ObjectBase\>\)
 
 Get Bodies.
 
@@ -963,7 +963,7 @@ protected override void GetBodies(ref List<ObjectBase> lstBody)
 
 The body container.
 
-### GetData\(XmlNode\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_GetData_System_Xml_XmlNode_"></a> GetData\(XmlNode\)
 
 Gets the analysis document information data.
 
@@ -981,7 +981,7 @@ The writer.
 
  [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
-### GetExtraInfoInDictionary\(GeometryInfoBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_GetExtraInfoInDictionary_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_"></a> GetExtraInfoInDictionary\(GeometryInfoBase\)
 
 Gets the extra information in dictionary.
 
@@ -999,7 +999,7 @@ The geom information.
 
  [GeometryInfoBase](VM.Managed.DAFUL.GearTrain.GeometryInfoBase.md)
 
-### GetGearsWithSameAxis\(string, VectorBase, VectorBase, GearGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_GetGearsWithSameAxis_System_String_VM_Managed_VectorBase_VM_Managed_VectorBase_VM_Managed_DAFUL_GearTrain_GearGeometryInfo_"></a> GetGearsWithSameAxis\(string, VectorBase, VectorBase, GearGeometryInfo\)
 
 Gets the gears with same axis.
 
@@ -1029,7 +1029,7 @@ The added gear information.
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[IGearBuilder](VM.Managed.DAFUL.GearTrain.CAD.IGearBuilder.md)\>
 
-### GetGeometryInfo\(IOpenDesignerForGearTrain, GeometryType\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_GetGeometryInfo_VM_Managed_DAFUL_GearTrain_IOpenDesignerForGearTrain_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_GeometryType_"></a> GetGeometryInfo\(IOpenDesignerForGearTrain, GeometryType\)
 
 Gets the geometry information.
 
@@ -1051,7 +1051,7 @@ The type geom.
 
  [GeometryInfoBase](VM.Managed.DAFUL.GearTrain.GeometryInfoBase.md)\[\]
 
-### GetOMatrixWithReferenceDir\(VectorBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_GetOMatrixWithReferenceDir_VM_Managed_VectorBase_"></a> GetOMatrixWithReferenceDir\(VectorBase\)
 
 Gets the o matrix with reference dir.
 
@@ -1069,7 +1069,7 @@ The vec z.
 
  OMatrix
 
-### GetParentInDictionary\(GeometryInfoBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_GetParentInDictionary_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_"></a> GetParentInDictionary\(GeometryInfoBase\)
 
 Gets the parent in dictionary.
 
@@ -1087,7 +1087,7 @@ The geom information.
 
  [IOpenDesignerForGearTrain](VM.Managed.DAFUL.GearTrain.IOpenDesignerForGearTrain.md)
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -1107,7 +1107,7 @@ The ob unnamed.
 
 The unnamed object name.
 
-### InitializeCategoryInfo\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
 
 Initializes the category information.
 
@@ -1121,7 +1121,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the string category.
 
-### InitializeSimParam\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_InitializeSimParam"></a> InitializeSimParam\(\)
 
 Initializes the simulation parameter.
 
@@ -1129,7 +1129,7 @@ Initializes the simulation parameter.
 protected override void InitializeSimParam()
 ```
 
-### IsAssmbldPairForBearing\(RacewayGeometryInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_IsAssmbldPairForBearing_VM_Managed_DAFUL_GearTrain_RacewayGeometryInfo_"></a> IsAssmbldPairForBearing\(RacewayGeometryInfo\)
 
 Determines whether [is assmbld pair for bearing] [the specified information].
 
@@ -1147,7 +1147,7 @@ The information.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsPairForBearing\(GeometryInfoBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_IsPairForBearing_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_"></a> IsPairForBearing\(GeometryInfoBase\)
 
 Determines whether [is pair for bearing] [the specified od].
 
@@ -1165,7 +1165,7 @@ The information.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 The update event occured from the linked object.
 
@@ -1183,7 +1183,7 @@ The linked object.
 
 The update event information.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -1197,7 +1197,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_OnPostMakeDocumentImpl_VM_Managed_DocCreateAnalysisInfo_"></a> OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
 
 Called when [post make document] [implementation].
 
@@ -1211,7 +1211,7 @@ protected override void OnPostMakeDocumentImpl(DocCreateAnalysisInfo info)
 
 The [analysis document create information].
 
-### PossibleToImport\(SubSystemDocument, out string, out string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_PossibleToImport_VM_Managed_DAFUL_SubSystemDocument_System_String__System_String__"></a> PossibleToImport\(SubSystemDocument, out string, out string\)
 
 Possible to import subsystem.
 
@@ -1237,7 +1237,7 @@ The new document type name.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### PostCloseDocument\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_PostCloseDocument"></a> PostCloseDocument\(\)
 
 Called after close document
 
@@ -1245,7 +1245,7 @@ Called after close document
 public override void PostCloseDocument()
 ```
 
-### PostOpenDocument\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_PostOpenDocument"></a> PostOpenDocument\(\)
 
 Posts the open document.
 
@@ -1253,7 +1253,7 @@ Posts the open document.
 public override void PostOpenDocument()
 ```
 
-### PostOpenDocumentAfterSetFilePath\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_PostOpenDocumentAfterSetFilePath"></a> PostOpenDocumentAfterSetFilePath\(\)
 
 Call when post [open document] after set file path.
 
@@ -1261,7 +1261,7 @@ Call when post [open document] after set file path.
 public override void PostOpenDocumentAfterSetFilePath()
 ```
 
-### ReAssemblyCore\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_ReAssemblyCore"></a> ReAssemblyCore\(\)
 
 Reassembly
 
@@ -1275,7 +1275,7 @@ protected override bool ReAssemblyCore()
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### ReAssemblyHousing\(IMeshEntity\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_ReAssemblyHousing_VM_Managed_DAFUL_GearTrain_IMeshEntity_"></a> ReAssemblyHousing\(IMeshEntity\)
 
 Re-assembly housing.
 
@@ -1287,7 +1287,7 @@ public void ReAssemblyHousing(IMeshEntity housing)
 
 `housing` [IMeshEntity](VM.Managed.DAFUL.GearTrain.IMeshEntity.md)
 
-### RemoveParentFromDictionary\(GeometryInfoBase, HiddenDocument\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_RemoveParentFromDictionary_VM_Managed_DAFUL_GearTrain_GeometryInfoBase_VM_Managed_DAFUL_HiddenDocument_"></a> RemoveParentFromDictionary\(GeometryInfoBase, HiddenDocument\)
 
 Removes the parent from dictionary.
 
@@ -1309,7 +1309,7 @@ The document hidden.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### RemoveParentFromDictionary\(IOpenDesignerForGearTrain\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_RemoveParentFromDictionary_VM_Managed_DAFUL_GearTrain_IOpenDesignerForGearTrain_"></a> RemoveParentFromDictionary\(IOpenDesignerForGearTrain\)
 
 Removes the parent from dictionary.
 
@@ -1323,7 +1323,7 @@ public void RemoveParentFromDictionary(IOpenDesignerForGearTrain openDes)
 
 The open DES.
 
-### SetData\(XmlNode\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_SetData_System_Xml_XmlNode_"></a> SetData\(XmlNode\)
 
 Sets the analysis document information data.
 
@@ -1341,7 +1341,7 @@ The reader.
 
  [Exception](https://learn.microsoft.com/dotnet/api/system.exception)
 
-### SkipAddToDSDLWithCategory\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_SkipAddToDSDLWithCategory_System_String_"></a> SkipAddToDSDLWithCategory\(string\)
 
 Skip [add to DSDL] with category.
 
@@ -1359,7 +1359,7 @@ The category name.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### SkipAddToDSDLWithEntity\(ObjectBase\)
+### <a id="VM_Managed_DAFUL_GearTrain_GearTrainDocument_SkipAddToDSDLWithEntity_VM_Managed_ObjectBase_"></a> SkipAddToDSDLWithEntity\(ObjectBase\)
 
 Skip [add to DSDL] with entity.
 
@@ -1376,5 +1376,4 @@ The entity.
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Class IObjectExtensions
+#  Class IObjectExtensions
 
 Namespace: [VM](VM.md)  
 Assembly: VM.Operations.Pre.dll  
@@ -22,7 +22,7 @@ public static class IObjectExtensions
 
 ## Methods
 
-### OperationSetValue\(IObject, string, object\)
+### <a id="VM_IObjectExtensions_OperationSetValue_VM_Models_Pre_IObject_System_String_System_Object_"></a> OperationSetValue\(IObject, string, object\)
 
 Operation set value
 
@@ -44,7 +44,7 @@ Member name
 
 Value
 
-### TryOperationSetValue\(IObject, string, object\)
+### <a id="VM_IObjectExtensions_TryOperationSetValue_VM_Models_Pre_IObject_System_String_System_Object_"></a> TryOperationSetValue\(IObject, string, object\)
 
 Operation set value
 
@@ -71,5 +71,4 @@ Value
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 Result
-
 

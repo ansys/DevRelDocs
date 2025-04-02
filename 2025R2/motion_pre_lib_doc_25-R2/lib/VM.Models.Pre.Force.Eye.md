@@ -1,4 +1,4 @@
-# Class Eye
+#  Class Eye
 
 Namespace: [VM.Models.Pre.Force](VM.Models.Pre.Force.md)  
 Assembly: VM.Models.Pre.Force.dll  
@@ -96,7 +96,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### Eye\(\)
+### <a id="VM_Models_Pre_Force_Eye__ctor"></a> Eye\(\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.Eye" data-throw-if-not-resolved="false"></xref> class.
 
@@ -104,7 +104,7 @@ Initializes a new instance of the <xref href="VM.Models.Pre.Force.Eye" data-thro
 public Eye()
 ```
 
-### Eye\(IOwned\)
+### <a id="VM_Models_Pre_Force_Eye__ctor_VM_Models_Pre_IOwned_"></a> Eye\(IOwned\)
 
 Initializes a new instance of the <xref href="VM.Models.Pre.Force.Eye" data-throw-if-not-resolved="false"></xref> class.
 
@@ -120,7 +120,7 @@ The owner.
 
 ## Properties
 
-### ConnectionType
+### <a id="VM_Models_Pre_Force_Eye_ConnectionType"></a> ConnectionType
 
 Gets or sets the connection type.
 
@@ -132,7 +132,7 @@ public ConnectionType ConnectionType { get; set; }
 
  [ConnectionType](VM.Models.Pre.Force.ConnectionType.md)
 
-### ConnectorProperty
+### <a id="VM_Models_Pre_Force_Eye_ConnectorProperty"></a> ConnectorProperty
 
 Gets or sets the connector property.
 
@@ -144,7 +144,7 @@ public PropertyBush ConnectorProperty { get; set; }
 
  PropertyBush
 
-### InnerDiameter
+### <a id="VM_Models_Pre_Force_Eye_InnerDiameter"></a> InnerDiameter
 
 Gets or sets the inner diameter.
 
@@ -156,7 +156,7 @@ public ExpressionValueVariable InnerDiameter { get; set; }
 
  ExpressionValueVariable
 
-### Location
+### <a id="VM_Models_Pre_Force_Eye_Location"></a> Location
 
 Gets the location.
 
@@ -168,7 +168,7 @@ public (double X, double Z) Location { get; set; }
 
  \([double](https://learn.microsoft.com/dotnet/api/system.double) [X](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.x), [double](https://learn.microsoft.com/dotnet/api/system.double) [Z](https://learn.microsoft.com/dotnet/api/system.valuetuple\-system.double,system.double\-.z)\)
 
-### PositionType
+### <a id="VM_Models_Pre_Force_Eye_PositionType"></a> PositionType
 
 Gets or sets the position type.
 
@@ -180,7 +180,7 @@ public EyePositionType PositionType { get; set; }
 
  EyePositionType
 
-### ShapeType
+### <a id="VM_Models_Pre_Force_Eye_ShapeType"></a> ShapeType
 
 Gets or sets the shape type.
 
@@ -194,7 +194,7 @@ public EyeShapeType ShapeType { get; set; }
 
 ## Methods
 
-### GetEyeBodyPosition\(Vector, double, TMatrix\)
+### <a id="VM_Models_Pre_Force_Eye_GetEyeBodyPosition_VM_Vector_System_Double_VM_TMatrix_"></a> GetEyeBodyPosition\(Vector, double, TMatrix\)
 
 Gets the top, bottom position.
 
@@ -222,7 +222,7 @@ the reposition matrix.
 
 The top, bottom position.
 
-### GetEyeBodyPosition\(double, TMatrix?\)
+### <a id="VM_Models_Pre_Force_Eye_GetEyeBodyPosition_System_Double_System_Nullable_VM_TMatrix__"></a> GetEyeBodyPosition\(double, TMatrix?\)
 
 Get the top, bottom position of the cylindrical eye body.
 
@@ -246,7 +246,7 @@ The reposition matrix.
 
 The top, bottom position
 
-### GetEyeBodyRadius\(Leaf\)
+### <a id="VM_Models_Pre_Force_Eye_GetEyeBodyRadius_VM_Models_Pre_Force_Leaf_"></a> GetEyeBodyRadius\(Leaf\)
 
 Get the outer, inner radius of the cylindrical eye body.
 
@@ -266,7 +266,7 @@ The main leaf.
 
 The outer, inner radius
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Models_Pre_Force_Eye_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 <p>Initializes member through unit convert factor.</p>
 
@@ -280,7 +280,7 @@ public override void Initialize(Unit.ConvertFactor factor)
 
 <p>The unit convert factor.</p>
 
-### RaisePropertyChanged\(string\)
+### <a id="VM_Models_Pre_Force_Eye_RaisePropertyChanged_System_String_"></a> RaisePropertyChanged\(string\)
 
 ```csharp
 public override void RaisePropertyChanged(string propertyName)
@@ -289,5 +289,4 @@ public override void RaisePropertyChanged(string propertyName)
 #### Parameters
 
 `propertyName` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

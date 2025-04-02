@@ -1,4 +1,4 @@
-# Enum Rack.SimulationType
+#  Enum Rack.SimulationType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -20,7 +20,6 @@ The tooth
 `Web = 1` 
 
 The web
-
 
 
 

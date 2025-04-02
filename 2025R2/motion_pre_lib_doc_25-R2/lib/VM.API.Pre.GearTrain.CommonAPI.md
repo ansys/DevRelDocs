@@ -1,4 +1,4 @@
-# Class CommonAPI
+#  Class CommonAPI
 
 Namespace: [VM.API.Pre.GearTrain](VM.API.Pre.GearTrain.md)  
 Assembly: VM.API.Pre.GearTrain.dll  
@@ -22,7 +22,7 @@ public static class CommonAPI
 
 ## Methods
 
-### OpenHiddenDocument\(IOpenDesignerForGearTrain\)
+### <a id="VM_API_Pre_GearTrain_CommonAPI_OpenHiddenDocument_VM_Managed_DAFUL_GearTrain_IOpenDesignerForGearTrain_"></a> OpenHiddenDocument\(IOpenDesignerForGearTrain\)
 
 Open designer.
 
@@ -49,7 +49,7 @@ The opened document <xref href="VM.Managed.DAFUL.HiddenDocument" data-throw-if-n
 
 Will be thrown if 'entity' argument is empty.
 
-### OpenHiddenDocument\(Obj\)
+### <a id="VM_API_Pre_GearTrain_CommonAPI_OpenHiddenDocument_VM_API_Pre_Obj_"></a> OpenHiddenDocument\(Obj\)
 
 Open designer.
 
@@ -75,5 +75,4 @@ The opened document <xref href="VM.Managed.DAFUL.HiddenDocument" data-throw-if-n
  [ArgumentNullException](https://learn.microsoft.com/dotnet/api/system.argumentnullexception)
 
 Will be thrown if 'entity' argument is empty.
-
 

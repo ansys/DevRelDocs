@@ -1,4 +1,4 @@
-# Class DocModifiedInfoWork
+#  Class DocModifiedInfoWork
 
 Namespace: [VM.Managed.DAFUL.Pre](VM.Managed.DAFUL.Pre.md)  
 Assembly: dfpredat.dll  
@@ -33,7 +33,7 @@ public class DocModifiedInfoWork : DocModifiedInfoFileGroupDocument<Work>
 
 ## Constructors
 
-### DocModifiedInfoWork\(Work\)
+### <a id="VM_Managed_DAFUL_Pre_DocModifiedInfoWork__ctor_VM_Managed_DAFUL_Pre_Work_"></a> DocModifiedInfoWork\(Work\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Pre.DocModifiedInfoWork" data-throw-if-not-resolved="false"></xref> class.
 
@@ -46,5 +46,4 @@ public DocModifiedInfoWork(Work work)
 `work` [Work](VM.Managed.DAFUL.Pre.Work.md)
 
 The work.
-
 

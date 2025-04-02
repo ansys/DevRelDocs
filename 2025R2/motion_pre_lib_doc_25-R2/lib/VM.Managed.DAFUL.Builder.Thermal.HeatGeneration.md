@@ -1,4 +1,4 @@
-# Class HeatGeneration
+#  Class HeatGeneration
 
 Namespace: [VM.Managed.DAFUL.Builder.Thermal](VM.Managed.DAFUL.Builder.Thermal.md)  
 Assembly: VMBldThermal.dll  
@@ -53,7 +53,7 @@ BuilderBase<HeatGeneration\>.ErrorMessage
 
 ## Constructors
 
-### HeatGeneration\(\)
+### <a id="VM_Managed_DAFUL_Builder_Thermal_HeatGeneration__ctor"></a> HeatGeneration\(\)
 
 ```csharp
 public HeatGeneration()
@@ -61,7 +61,7 @@ public HeatGeneration()
 
 ## Properties
 
-### Target
+### <a id="VM_Managed_DAFUL_Builder_Thermal_HeatGeneration_Target"></a> Target
 
 ```csharp
 public ObjectBase Target { get; }
@@ -73,7 +73,7 @@ public ObjectBase Target { get; }
 
 ## Methods
 
-### OnPostBuild\(ObjectBase, Document\)
+### <a id="VM_Managed_DAFUL_Builder_Thermal_HeatGeneration_OnPostBuild_VM_Managed_ObjectBase_VM_Managed_Document_"></a> OnPostBuild\(ObjectBase, Document\)
 
 ```csharp
 protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
@@ -88,5 +88,4 @@ protected override bool OnPostBuild(ObjectBase obCreated, Document doc)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

@@ -1,4 +1,4 @@
-# Class PartDocumentChainedSegment
+#  Class PartDocumentChainedSegment
 
 Namespace: [VM.Managed.DAFUL.Chained](VM.Managed.DAFUL.Chained.md)  
 Assembly: VMDChainedBase.dll  
@@ -552,7 +552,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PartDocumentChainedSegment\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_Chained_PartDocumentChainedSegment__ctor_System_UIntPtr_"></a> PartDocumentChainedSegment\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.PartDocumentChainedSegment" data-throw-if-not-resolved="false"></xref> class.
 
@@ -568,7 +568,7 @@ The document handle.
 
 ## Properties
 
-### InitialCategories
+### <a id="VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_InitialCategories"></a> InitialCategories
 
 Gets the initialize categories.
 
@@ -580,7 +580,7 @@ protected override List<string> InitialCategories { get; }
 
  [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### WorkingPlane
+### <a id="VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_WorkingPlane"></a> WorkingPlane
 
 Gets or sets the working plane.
 
@@ -594,7 +594,7 @@ public Plane WorkingPlane { get; set; }
 
 ## Methods
 
-### CreateAssemblyImpl\(\)
+### <a id="VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_CreateAssemblyImpl"></a> CreateAssemblyImpl\(\)
 
 Creates the assembly [implementation].
 
@@ -608,7 +608,7 @@ protected override Assembly CreateAssemblyImpl()
 
 The assembly.
 
-### FindCategory\(string\)
+### <a id="VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_FindCategory_System_String_"></a> FindCategory\(string\)
 
 Finds the category.
 
@@ -628,7 +628,7 @@ The fullname of type.
 
 The category.
 
-### GetData\(XmlNode\)
+### <a id="VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_GetData_System_Xml_XmlNode_"></a> GetData\(XmlNode\)
 
 Gets the ChainedSegment part document information data.
 
@@ -642,7 +642,7 @@ public override void GetData(XmlNode writer)
 
 The writer.
 
-### InitializeCategoryInfo\(string\)
+### <a id="VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_InitializeCategoryInfo_System_String_"></a> InitializeCategoryInfo\(string\)
 
 Initializes the category info.
 
@@ -656,7 +656,7 @@ public static void InitializeCategoryInfo(string strCategoryName)
 
 Name of the STR category.
 
-### LinkRequestDestroying\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_LinkRequestDestroying_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestDestroying\(object, LinkEventArgs\)
 
 The destroying event occured from the linked object.
 
@@ -674,7 +674,7 @@ The linked object.
 
 The destroy event information.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -688,7 +688,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
+### <a id="VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_OnPostMakeDocumentImpl_VM_Managed_DocCreateAnalysisInfo_"></a> OnPostMakeDocumentImpl\(DocCreateAnalysisInfo\)
 
 Called when [post make document] [implementation].
 
@@ -702,7 +702,7 @@ protected override void OnPostMakeDocumentImpl(DocCreateAnalysisInfo info)
 
 The [analysis document create information].
 
-### SetData\(XmlNode\)
+### <a id="VM_Managed_DAFUL_Chained_PartDocumentChainedSegment_SetData_System_Xml_XmlNode_"></a> SetData\(XmlNode\)
 
 Sets the ChainedSegment part document information data.
 
@@ -715,5 +715,4 @@ public override void SetData(XmlNode reader)
 `reader` [XmlNode](https://learn.microsoft.com/dotnet/api/system.xml.xmlnode)
 
 The reader.
-
 

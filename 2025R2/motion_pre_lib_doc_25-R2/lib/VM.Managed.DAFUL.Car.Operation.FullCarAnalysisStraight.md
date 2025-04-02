@@ -1,4 +1,4 @@
-# Class FullCarAnalysisStraight
+#  Class FullCarAnalysisStraight
 
 Namespace: [VM.Managed.DAFUL.Car.Operation](VM.Managed.DAFUL.Car.Operation.md)  
 Assembly: VMOpFullCar.dll  
@@ -112,7 +112,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### FullCarAnalysisStraight\(Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_FullCarAnalysisStraight__ctor_VM_Managed_Document_"></a> FullCarAnalysisStraight\(Document\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.FullCarAnalysisStraight" data-throw-if-not-resolved="false"></xref> class.
 
@@ -126,7 +126,7 @@ public FullCarAnalysisStraight(Document doc)
 
 The doc.
 
-### FullCarAnalysisStraight\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Car_Operation_FullCarAnalysisStraight__ctor_VM_Managed_Operation_JournalParameter_"></a> FullCarAnalysisStraight\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.Operation.FullCarAnalysisStraight" data-throw-if-not-resolved="false"></xref> class.
 
@@ -142,7 +142,7 @@ The jp.
 
 ## Properties
 
-### ExecuteName
+### <a id="VM_Managed_DAFUL_Car_Operation_FullCarAnalysisStraight_ExecuteName"></a> ExecuteName
 
 Gets the name of the execute.
 
@@ -154,7 +154,7 @@ protected override string ExecuteName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Name
+### <a id="VM_Managed_DAFUL_Car_Operation_FullCarAnalysisStraight_Name"></a> Name
 
 Gets the operation name.
 
@@ -168,7 +168,7 @@ public override string Name { get; }
 
 ## Methods
 
-### ExecuteCore\(int, FullCarTestRigDocument, ref FullCarAnalysisConfigurationBase\)
+### <a id="VM_Managed_DAFUL_Car_Operation_FullCarAnalysisStraight_ExecuteCore_System_Int32_VM_Managed_DAFUL_Car_FullCarTestRigDocument_VM_Managed_DAFUL_Car_FullCarAnalysisConfigurationBase__"></a> ExecuteCore\(int, FullCarTestRigDocument, ref FullCarAnalysisConfigurationBase\)
 
 Executes [core].
 
@@ -190,7 +190,7 @@ The document.
 
 The configuration.
 
-### UpdateUI\(IUIUpdate, Document\)
+### <a id="VM_Managed_DAFUL_Car_Operation_FullCarAnalysisStraight_UpdateUI_VM_Managed_UI_IUIUpdate_VM_Managed_Document_"></a> UpdateUI\(IUIUpdate, Document\)
 
 Updates the UI.
 
@@ -207,5 +207,4 @@ The updater.
 `doc` Document
 
 The document.
-
 

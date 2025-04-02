@@ -1,4 +1,4 @@
-# Enum Tool.ToolDataType
+#  Enum Tool.ToolDataType
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -26,7 +26,6 @@ The profile b
 `UserInput = 0` 
 
 The user input
-
 
 
 

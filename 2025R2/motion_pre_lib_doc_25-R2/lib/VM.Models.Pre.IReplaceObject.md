@@ -1,4 +1,4 @@
-# Interface IReplaceObject
+#  Interface IReplaceObject
 
 Namespace: [VM.Models.Pre](VM.Models.Pre.md)  
 Assembly: VM.Models.Pre.dll  
@@ -15,7 +15,7 @@ public interface IReplaceObject
 
 ## Methods
 
-### ReplaceObject\(IDocument\)
+### <a id="VM_Models_Pre_IReplaceObject_ReplaceObject_VM_Models_Pre_IDocument_"></a> ReplaceObject\(IDocument\)
 
 ```csharp
 bool ReplaceObject(IDocument document)
@@ -28,5 +28,4 @@ bool ReplaceObject(IDocument document)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

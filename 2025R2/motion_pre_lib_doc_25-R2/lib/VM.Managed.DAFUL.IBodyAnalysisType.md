@@ -1,4 +1,4 @@
-# Interface IBodyAnalysisType
+#  Interface IBodyAnalysisType
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -17,7 +17,7 @@ public interface IBodyAnalysisType
 
 ## Properties
 
-### AnalysisType
+### <a id="VM_Managed_DAFUL_IBodyAnalysisType_AnalysisType"></a> AnalysisType
 
 Gets the parent body analysis type.
 
@@ -28,5 +28,4 @@ BodyAnalysisType AnalysisType { get; }
 #### Property Value
 
  [BodyAnalysisType](VM.Managed.DAFUL.BodyAnalysisType.md)
-
 

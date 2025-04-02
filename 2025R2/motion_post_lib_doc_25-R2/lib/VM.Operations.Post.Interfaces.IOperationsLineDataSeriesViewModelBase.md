@@ -1,4 +1,4 @@
-# Interface IOperationsLineDataSeriesViewModelBase
+#  Interface IOperationsLineDataSeriesViewModelBase
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -87,7 +87,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### Color
+### <a id="VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase_Color"></a> Color
 
 Gets or sets the color of the line in the series.
 
@@ -107,7 +107,7 @@ For an example that includes this property, see the [Interface IOperationsLineDa
 
 Use this property to specify or retrieve the color of the line in the series.
 
-### LineStyle
+### <a id="VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase_LineStyle"></a> LineStyle
 
 Gets or sets the style of the line.
 
@@ -129,7 +129,7 @@ Use this property to specify or retrieve the style of the line.
 The available options are:
 <ul><li><xref href="VM.Models.Post.LineStyleType.Solid" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.LineStyleType.Dot" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.LineStyleType.Dash" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.LineStyleType.DashDot" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.LineStyleType.DashDotDot" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### PointSize
+### <a id="VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase_PointSize"></a> PointSize
 
 Gets or sets the size of the points in the series.
 
@@ -149,7 +149,7 @@ For an example that includes this property, see the [Interface IOperationsLineDa
 
 Use this property to specify or retrieve the size of the points in the series.
 
-### PointType
+### <a id="VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase_PointType"></a> PointType
 
 Gets or sets the type of the points in the series.
 
@@ -171,7 +171,7 @@ Use this property to specify or retrieve the type of the points in the series.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.PointType.Square" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.PointType.Triangle" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.PointType.Ellipse" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### SeriesName
+### <a id="VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase_SeriesName"></a> SeriesName
 
 Gets or sets the name of the series.
 
@@ -191,7 +191,7 @@ For an example that includes this property, see the [Interface IOperationsLineDa
 
 Use this property to specify or retrieve the name of the series.
 
-### SeriesType
+### <a id="VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase_SeriesType"></a> SeriesType
 
 Gets or sets the type of the series.
 
@@ -213,7 +213,7 @@ Use this property to specify or retrieve the type of the series.
 The supported types are:
 <ul><li><xref href="VM.Models.Post.SeriesType.Line" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SeriesType.Bar" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SeriesType.Point" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SeriesType.StackedColumn100" data-throw-if-not-resolved="false"></xref></li><li><xref href="VM.Models.Post.SeriesType.StackedColumn" data-throw-if-not-resolved="false"></xref></li></ul>
 
-### Thickness
+### <a id="VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase_Thickness"></a> Thickness
 
 Gets or sets the thickness of the series.
 

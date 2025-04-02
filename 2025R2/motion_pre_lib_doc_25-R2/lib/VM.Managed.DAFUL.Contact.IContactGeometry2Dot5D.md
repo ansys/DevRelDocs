@@ -1,4 +1,4 @@
-# Interface IContactGeometry2Dot5D
+#  Interface IContactGeometry2Dot5D
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -22,7 +22,7 @@ IContactGeometry
 
 ## Properties
 
-### Property
+### <a id="VM_Managed_DAFUL_Contact_IContactGeometry2Dot5D_Property"></a> Property
 
 Gets or sets the property.
 
@@ -34,7 +34,7 @@ PropertyContactGeom2Dot5D Property { get; }
 
  [PropertyContactGeom2Dot5D](VM.Managed.DAFUL.Contact.PropertyContactGeom2Dot5D.md)
 
-### TargetGeometry
+### <a id="VM_Managed_DAFUL_Contact_IContactGeometry2Dot5D_TargetGeometry"></a> TargetGeometry
 
 Gets or sets the target geometry.
 
@@ -45,5 +45,4 @@ ObjectBase TargetGeometry { get; }
 #### Property Value
 
  ObjectBase
-
 

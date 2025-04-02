@@ -1,4 +1,4 @@
-# Class MotorDesigner.StatorSection.CADImportCreation.StatorCADParam
+#  Class MotorDesigner.StatorSection.CADImportCreation.StatorCADParam
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -22,7 +22,7 @@ public class MotorDesigner.StatorSection.CADImportCreation.StatorCADParam
 
 ## Constructors
 
-### StatorCADParam\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CADImportCreation_StatorCADParam__ctor"></a> StatorCADParam\(\)
 
 ```csharp
 public StatorCADParam()
@@ -30,7 +30,7 @@ public StatorCADParam()
 
 ## Properties
 
-### FilePath
+### <a id="VM_Managed_DAFUL_GearTrain_MotorDesigner_StatorSection_CADImportCreation_StatorCADParam_FilePath"></a> FilePath
 
 Gets or sets the file path
 
@@ -41,5 +41,4 @@ public string FilePath { get; set; }
 #### Property Value
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

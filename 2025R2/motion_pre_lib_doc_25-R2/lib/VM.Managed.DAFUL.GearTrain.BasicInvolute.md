@@ -1,4 +1,4 @@
-# Class BasicInvolute
+#  Class BasicInvolute
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -98,7 +98,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### BasicInvolute\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute__ctor"></a> BasicInvolute\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.BasicInvolute" data-throw-if-not-resolved="false"></xref> class.
 
@@ -108,7 +108,7 @@ public BasicInvolute()
 
 ## Properties
 
-### CenterDistances
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_CenterDistances"></a> CenterDistances
 
 Gets or sets the center distances.
 
@@ -130,7 +130,7 @@ Variable list is null.
 or
 Variable is null.
 
-### ForceForToothStiffness
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_ForceForToothStiffness"></a> ForceForToothStiffness
 
 Gets or sets the force for tooth stiffness.
 
@@ -142,7 +142,7 @@ public ExpressionValueVariable ForceForToothStiffness { get; set; }
 
  ExpressionValueVariable
 
-### HelixAngle
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_HelixAngle"></a> HelixAngle
 
 Gets or sets the helix angle.
 
@@ -154,7 +154,7 @@ public ExpressionValueVariable HelixAngle { get; set; }
 
  ExpressionValueVariable
 
-### InputProfilMethod
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_InputProfilMethod"></a> InputProfilMethod
 
 Gets or sets the profile method type of gear.
 
@@ -166,7 +166,7 @@ public BasicInvolute.ProfilMethodType InputProfilMethod { get; set; }
 
  [BasicInvolute](VM.Managed.DAFUL.GearTrain.BasicInvolute.md).[ProfilMethodType](VM.Managed.DAFUL.GearTrain.BasicInvolute.ProfilMethodType.md)
 
-### InputTypeOfGear
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_InputTypeOfGear"></a> InputTypeOfGear
 
 Gets or sets the type of gear.
 
@@ -178,7 +178,7 @@ public BasicInvolute.GearType InputTypeOfGear { get; set; }
 
  [BasicInvolute](VM.Managed.DAFUL.GearTrain.BasicInvolute.md).[GearType](VM.Managed.DAFUL.GearTrain.BasicInvolute.GearType.md)
 
-### InputTypeOfHelicalAngle
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_InputTypeOfHelicalAngle"></a> InputTypeOfHelicalAngle
 
 Gets or sets the type of helical angle.
 
@@ -190,7 +190,7 @@ public BasicInvolute.HelicalAngleType InputTypeOfHelicalAngle { get; set; }
 
  [BasicInvolute](VM.Managed.DAFUL.GearTrain.BasicInvolute.md).[HelicalAngleType](VM.Managed.DAFUL.GearTrain.BasicInvolute.HelicalAngleType.md)
 
-### IsUseModule
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_IsUseModule"></a> IsUseModule
 
 Gets or sets a value indicating whether [use module].
 
@@ -202,7 +202,7 @@ public bool IsUseModule { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Module
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_Module"></a> Module
 
 Gets or sets the module.
 
@@ -214,7 +214,7 @@ public ExpressionValueVariable Module { get; set; }
 
  ExpressionValueVariable
 
-### NumOfInvolutePoint
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_NumOfInvolutePoint"></a> NumOfInvolutePoint
 
 Gets or sets a number of involute point.
 
@@ -226,7 +226,7 @@ public int NumOfInvolutePoint { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumOfTrochoidPoint
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_NumOfTrochoidPoint"></a> NumOfTrochoidPoint
 
 Gets or sets a number of trochoid point.
 
@@ -238,7 +238,7 @@ public int NumOfTrochoidPoint { get; set; }
 
  [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### NumberOfThinSlice
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_NumberOfThinSlice"></a> NumberOfThinSlice
 
 Gets or sets the number of thin slice.
 
@@ -250,7 +250,7 @@ public ExpressionValueVariable NumberOfThinSlice { get; set; }
 
  ExpressionValueVariable
 
-### OBD
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_OBD"></a> OBD
 
 Gets or sets the obd.
 
@@ -262,7 +262,7 @@ public ExpressionValueVariable OBD { get; set; }
 
  ExpressionValueVariable
 
-### OverBallRadius
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_OverBallRadius"></a> OverBallRadius
 
 Gets or sets the over ball radius.
 
@@ -274,7 +274,7 @@ public ExpressionValueVariable OverBallRadius { get; set; }
 
  ExpressionValueVariable
 
-### PairFaceWidth
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_PairFaceWidth"></a> PairFaceWidth
 
 Gets or sets the width of the pair face.
 
@@ -286,7 +286,7 @@ public GearPairValue PairFaceWidth { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PairNumberOfTeeth
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_PairNumberOfTeeth"></a> PairNumberOfTeeth
 
 Gets or sets the pair number of teeth.
 
@@ -298,7 +298,7 @@ public GearPairValue PairNumberOfTeeth { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### PasternAngle
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_PasternAngle"></a> PasternAngle
 
 Gets or sets the pastern angle.
 
@@ -310,7 +310,7 @@ public ExpressionValueVariable PasternAngle { get; set; }
 
  ExpressionValueVariable
 
-### PitchDiameter
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_PitchDiameter"></a> PitchDiameter
 
 Gets or sets the pitch diameter.
 
@@ -322,7 +322,7 @@ public ExpressionValueVariable PitchDiameter { get; set; }
 
  ExpressionValueVariable
 
-### PressureAngle
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_PressureAngle"></a> PressureAngle
 
 Gets or sets the pressure angle.
 
@@ -334,7 +334,7 @@ public ExpressionValueVariable PressureAngle { get; set; }
 
  ExpressionValueVariable
 
-### Quality
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_Quality"></a> Quality
 
 Gets or sets the quality.
 
@@ -346,7 +346,7 @@ public GearPairValue Quality { get; set; }
 
  [GearPairValue](VM.Managed.DAFUL.GearTrain.GearPairValue.md)
 
-### ToothThicknessInToleranceField
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_ToothThicknessInToleranceField"></a> ToothThicknessInToleranceField
 
 Gets or sets the tooth thickness in tolerance field.
 
@@ -360,7 +360,7 @@ public BasicInvolute.ToothThicknessInToleranceFieldType ToothThicknessInToleranc
 
 ## Methods
 
-### InitChild\(int\)
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_InitChild_System_Int32_"></a> InitChild\(int\)
 
 Initializes the child.
 
@@ -374,7 +374,7 @@ public override void InitChild(int nNum)
 
 The n number.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GearTrain_BasicInvolute_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -387,5 +387,4 @@ protected override void OnDeserialization(object sender)
 `sender` [object](https://learn.microsoft.com/dotnet/api/system.object)
 
 The sender.
-
 

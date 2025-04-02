@@ -1,4 +1,4 @@
-# Class CreateCurvesetByColor
+#  Class CreateCurvesetByColor
 
 Namespace: [VM.Managed.Operation](VM.Managed.Operation.md)  
 Assembly: VMOP.dll  
@@ -85,7 +85,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### CreateCurvesetByColor\(\)
+### <a id="VM_Managed_Operation_CreateCurvesetByColor__ctor"></a> CreateCurvesetByColor\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.CreateCurvesetByColor" data-throw-if-not-resolved="false"></xref> class.
 
@@ -93,7 +93,7 @@ Initializes a new instance of the <xref href="VM.Managed.Operation.CreateCurvese
 public CreateCurvesetByColor()
 ```
 
-### CreateCurvesetByColor\(string\)
+### <a id="VM_Managed_Operation_CreateCurvesetByColor__ctor_System_String_"></a> CreateCurvesetByColor\(string\)
 
 Initializes a new instance of the <xref href="VM.Managed.Operation.CreateCurvesetByColor" data-throw-if-not-resolved="false"></xref> class.
 
@@ -109,12 +109,11 @@ The STR initializer XML.
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_Operation_CreateCurvesetByColor_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

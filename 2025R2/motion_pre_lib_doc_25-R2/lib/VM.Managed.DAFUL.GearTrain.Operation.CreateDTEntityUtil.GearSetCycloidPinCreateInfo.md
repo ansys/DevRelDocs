@@ -1,4 +1,4 @@
-# Class CreateDTEntityUtil.GearSetCycloidPinCreateInfo
+#  Class CreateDTEntityUtil.GearSetCycloidPinCreateInfo
 
 Namespace: [VM.Managed.DAFUL.GearTrain.Operation](VM.Managed.DAFUL.GearTrain.Operation.md)  
 Assembly: VMOpGearTrain.dll  
@@ -52,7 +52,7 @@ public class CreateDTEntityUtil.GearSetCycloidPinCreateInfo : CreateDTEntityUtil
 
 ## Constructors
 
-### GearSetCycloidPinCreateInfo\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCycloidPinCreateInfo__ctor"></a> GearSetCycloidPinCreateInfo\(\)
 
 ```csharp
 public GearSetCycloidPinCreateInfo()
@@ -60,7 +60,7 @@ public GearSetCycloidPinCreateInfo()
 
 ## Fields
 
-### CycloidProfile
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCycloidPinCreateInfo_CycloidProfile"></a> CycloidProfile
 
 ```csharp
 public string CycloidProfile
@@ -70,7 +70,7 @@ public string CycloidProfile
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### EccentricityOfGear
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCycloidPinCreateInfo_EccentricityOfGear"></a> EccentricityOfGear
 
 ```csharp
 public double EccentricityOfGear
@@ -80,7 +80,7 @@ public double EccentricityOfGear
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### PinDiameterOfGear
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCycloidPinCreateInfo_PinDiameterOfGear"></a> PinDiameterOfGear
 
 ```csharp
 public double PinDiameterOfGear
@@ -90,7 +90,7 @@ public double PinDiameterOfGear
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### PinPitchOfGear
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCycloidPinCreateInfo_PinPitchOfGear"></a> PinPitchOfGear
 
 ```csharp
 public double PinPitchOfGear
@@ -102,7 +102,7 @@ public double PinPitchOfGear
 
 ## Properties
 
-### InputArrayForCycloidPin
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCycloidPinCreateInfo_InputArrayForCycloidPin"></a> InputArrayForCycloidPin
 
 ```csharp
 public string[] InputArrayForCycloidPin { get; }
@@ -114,7 +114,7 @@ public string[] InputArrayForCycloidPin { get; }
 
 ## Methods
 
-### InitializeCycloidPin\(string\)
+### <a id="VM_Managed_DAFUL_GearTrain_Operation_CreateDTEntityUtil_GearSetCycloidPinCreateInfo_InitializeCycloidPin_System_String_"></a> InitializeCycloidPin\(string\)
 
 ```csharp
 public void InitializeCycloidPin(string strProfilePath)
@@ -123,5 +123,4 @@ public void InitializeCycloidPin(string strProfilePath)
 #### Parameters
 
 `strProfilePath` [string](https://learn.microsoft.com/dotnet/api/system.string)
-
 

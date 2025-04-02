@@ -1,4 +1,4 @@
-# Class ConversionMessage
+#  Class ConversionMessage
 
 Namespace: [VM.Managed.DAFUL.Operation](VM.Managed.DAFUL.Operation.md)  
 Assembly: VMOpCore.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### ConversionMessage\(string\)
+### <a id="VM_Managed_DAFUL_Operation_ConversionMessage__ctor_System_String_"></a> ConversionMessage\(string\)
 
 ```csharp
 public ConversionMessage(string strMessage)
@@ -89,7 +89,7 @@ public ConversionMessage(string strMessage)
 
 ## Properties
 
-### IsHistoryMerge
+### <a id="VM_Managed_DAFUL_Operation_ConversionMessage_IsHistoryMerge"></a> IsHistoryMerge
 
 ```csharp
 public override bool IsHistoryMerge { get; }
@@ -99,7 +99,7 @@ public override bool IsHistoryMerge { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Name
+### <a id="VM_Managed_DAFUL_Operation_ConversionMessage_Name"></a> Name
 
 Gets the operation name.
 
@@ -113,12 +113,11 @@ public override string Name { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Operation_ConversionMessage_Execute"></a> Execute\(\)
 
 Execute the operation.
 
 ```csharp
 public override void Execute()
 ```
-
 

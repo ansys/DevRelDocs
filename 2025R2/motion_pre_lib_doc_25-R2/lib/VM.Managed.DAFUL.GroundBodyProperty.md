@@ -1,4 +1,4 @@
-# Class GroundBodyProperty
+#  Class GroundBodyProperty
 
 Namespace: [VM.Managed.DAFUL](VM.Managed.DAFUL.md)  
 Assembly: VMDFBase.dll  
@@ -187,7 +187,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### GroundBodyProperty\(\)
+### <a id="VM_Managed_DAFUL_GroundBodyProperty__ctor"></a> GroundBodyProperty\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GroundBodyProperty" data-throw-if-not-resolved="false"></xref> class.
 
@@ -197,7 +197,7 @@ public GroundBodyProperty()
 
 ## Properties
 
-### Geom
+### <a id="VM_Managed_DAFUL_GroundBodyProperty_Geom"></a> Geom
 
 Gets or sets the geometry array.
 
@@ -211,7 +211,7 @@ public Body[] Geom { get; set; }
 
 ## Methods
 
-### AddGeom\(Body\)
+### <a id="VM_Managed_DAFUL_GroundBodyProperty_AddGeom_VM_Managed_CAD_Body_"></a> AddGeom\(Body\)
 
 Adds the geometry.
 
@@ -225,7 +225,7 @@ public void AddGeom(Body body)
 
 The body.
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_GroundBodyProperty_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -245,7 +245,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### GeomUpdate\(GetRelationInfoEventArgs\)
+### <a id="VM_Managed_DAFUL_GroundBodyProperty_GeomUpdate_VM_Managed_GetRelationInfoEventArgs_"></a> GeomUpdate\(GetRelationInfoEventArgs\)
 
 Geoms the update.
 
@@ -259,7 +259,7 @@ public override void GeomUpdate(GetRelationInfoEventArgs arg)
 
 The <xref href="VM.Managed.GetRelationInfoEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### GetUnnamedObjectName\(object\)
+### <a id="VM_Managed_DAFUL_GroundBodyProperty_GetUnnamedObjectName_System_Object_"></a> GetUnnamedObjectName\(object\)
 
 Gets the name of the unnamed object.
 
@@ -279,7 +279,7 @@ The unnamed object.
 
 The unnamed object name.
 
-### LinkRequestUpdate\(object, LinkEventArgs\)
+### <a id="VM_Managed_DAFUL_GroundBodyProperty_LinkRequestUpdate_System_Object_VM_Managed_LinkEventArgs_"></a> LinkRequestUpdate\(object, LinkEventArgs\)
 
 Request for update the linked object.
 
@@ -297,7 +297,7 @@ The linked object.
 
 The <xref href="VM.Managed.LinkEventArgs" data-throw-if-not-resolved="false"></xref> instance containing the event data.
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_GroundBodyProperty_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -311,7 +311,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### RemoveGeom\(Body\)
+### <a id="VM_Managed_DAFUL_GroundBodyProperty_RemoveGeom_VM_Managed_CAD_Body_"></a> RemoveGeom\(Body\)
 
 Removes the geometry.
 
@@ -330,5 +330,4 @@ The body.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 Indicates whether this is a success or a fail.
-
 

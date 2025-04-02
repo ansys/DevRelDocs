@@ -1,4 +1,4 @@
-# Class ImprintFB
+#  Class ImprintFB
 
 Namespace: [VM.Managed.DAFUL.Builder](VM.Managed.DAFUL.Builder.md)  
 Assembly: VMBld.dll  
@@ -62,7 +62,7 @@ public class ImprintFB : ImprintBody, IBuilder
 
 ## Constructors
 
-### ImprintFB\(\)
+### <a id="VM_Managed_DAFUL_Builder_ImprintFB__ctor"></a> ImprintFB\(\)
 
 ```csharp
 public ImprintFB()
@@ -70,7 +70,7 @@ public ImprintFB()
 
 ## Properties
 
-### ExtraArgument
+### <a id="VM_Managed_DAFUL_Builder_ImprintFB_ExtraArgument"></a> ExtraArgument
 
 ```csharp
 protected override string ExtraArgument { get; }
@@ -80,7 +80,7 @@ protected override string ExtraArgument { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### TargetConnectable
+### <a id="VM_Managed_DAFUL_Builder_ImprintFB_TargetConnectable"></a> TargetConnectable
 
 ```csharp
 public override Body TargetConnectable { get; }
@@ -90,7 +90,7 @@ public override Body TargetConnectable { get; }
 
  Body
 
-### TargetList
+### <a id="VM_Managed_DAFUL_Builder_ImprintFB_TargetList"></a> TargetList
 
 ```csharp
 public PickedFace TargetList { get; set; }
@@ -100,7 +100,7 @@ public PickedFace TargetList { get; set; }
 
  [PickedFace](VM.Managed.DAFUL.Builder.PickedFace.md)
 
-### ToolConnectable
+### <a id="VM_Managed_DAFUL_Builder_ImprintFB_ToolConnectable"></a> ToolConnectable
 
 ```csharp
 public override Body ToolConnectable { get; }
@@ -112,7 +112,7 @@ public override Body ToolConnectable { get; }
 
 ## Methods
 
-### Build\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_ImprintFB_Build_VM_Managed_Document_"></a> Build\(Document\)
 
 ```csharp
 public override void Build(Document doc)
@@ -122,7 +122,7 @@ public override void Build(Document doc)
 
 `doc` Document
 
-### BuildTargetTool\(Builder, Builder\)
+### <a id="VM_Managed_DAFUL_Builder_ImprintFB_BuildTargetTool_VM_Managed_CAD_Builder_VM_Managed_CAD_Builder_"></a> BuildTargetTool\(Builder, Builder\)
 
 ```csharp
 protected override void BuildTargetTool(Builder buiTarget, Builder buiTool)
@@ -133,5 +133,4 @@ protected override void BuildTargetTool(Builder buiTarget, Builder buiTool)
 `buiTarget` Builder
 
 `buiTool` Builder
-
 

@@ -1,4 +1,4 @@
-# Enum OutputChannelInputType
+#  Enum OutputChannelInputType
 
 Namespace: [VM.API.Pre](VM.API.Pre.md)  
 Assembly: VM.API.Pre.dll  
@@ -44,7 +44,6 @@ Displacement
 `Velocity = 1` 
 
 Velocity
-
 
 
 

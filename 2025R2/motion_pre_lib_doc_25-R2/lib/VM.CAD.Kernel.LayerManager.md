@@ -1,4 +1,4 @@
-# Class LayerManager
+#  Class LayerManager
 
 Namespace: [VM.CAD.Kernel](VM.CAD.Kernel.md)  
 Assembly: VM.CAD.Kernel.dll  
@@ -33,7 +33,7 @@ public class LayerManager : KernelObject
 
 ## Constructors
 
-### LayerManager\(UIntPtr, bool\)
+### <a id="VM_CAD_Kernel_LayerManager__ctor_System_UIntPtr_System_Boolean_"></a> LayerManager\(UIntPtr, bool\)
 
 ```csharp
 public LayerManager(UIntPtr key, bool isLock = true)
@@ -47,7 +47,7 @@ public LayerManager(UIntPtr key, bool isLock = true)
 
 ## Methods
 
-### Activate\(Layer\)
+### <a id="VM_CAD_Kernel_LayerManager_Activate_VM_CAD_Kernel_Layer_"></a> Activate\(Layer\)
 
 ```csharp
 public void Activate(Layer layer)
@@ -56,5 +56,4 @@ public void Activate(Layer layer)
 #### Parameters
 
 `layer` [Layer](VM.CAD.Kernel.Layer.md)
-
 

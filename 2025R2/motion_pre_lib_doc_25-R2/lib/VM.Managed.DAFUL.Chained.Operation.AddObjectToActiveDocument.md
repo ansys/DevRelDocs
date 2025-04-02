@@ -1,4 +1,4 @@
-# Class AddObjectToActiveDocument
+#  Class AddObjectToActiveDocument
 
 Namespace: [VM.Managed.DAFUL.Chained.Operation](VM.Managed.DAFUL.Chained.Operation.md)  
 Assembly: VMOpChained.dll  
@@ -77,7 +77,7 @@ OperationBase.OnOperationStatusChanged
 
 ## Constructors
 
-### AddObjectToActiveDocument\(int, int, string\[\], List<TransformBase\>, List<Document3D\>, Document, bool\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddObjectToActiveDocument__ctor_System_Int32_System_Int32_System_String___System_Collections_Generic_List_VM_Managed_TransformBase__System_Collections_Generic_List_VM_Managed_Document3D__VM_Managed_Document_System_Boolean_"></a> AddObjectToActiveDocument\(int, int, string\[\], List<TransformBase\>, List<Document3D\>, Document, bool\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.AddObjectToActiveDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -115,7 +115,7 @@ The activedoc.
 
 The create flag.
 
-### AddObjectToActiveDocument\(JournalParameter\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddObjectToActiveDocument__ctor_VM_Managed_Operation_JournalParameter_"></a> AddObjectToActiveDocument\(JournalParameter\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Chained.Operation.AddObjectToActiveDocument" data-throw-if-not-resolved="false"></xref> class.
 
@@ -131,7 +131,7 @@ The jp.
 
 ## Properties
 
-### Name
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddObjectToActiveDocument_Name"></a> Name
 
 Gets the operation name.
 
@@ -143,7 +143,7 @@ public override string Name { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### Segment
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddObjectToActiveDocument_Segment"></a> Segment
 
 Gets the segment.
 
@@ -157,7 +157,7 @@ public List<ObjectBase> Segment { get; }
 
 ## Methods
 
-### Execute\(\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddObjectToActiveDocument_Execute"></a> Execute\(\)
 
 Execute the operation.
 
@@ -165,7 +165,7 @@ Execute the operation.
 public override void Execute()
 ```
 
-### GetInformation\(XmlWriter\)
+### <a id="VM_Managed_DAFUL_Chained_Operation_AddObjectToActiveDocument_GetInformation_System_Xml_XmlWriter_"></a> GetInformation\(XmlWriter\)
 
 Gets the information.
 
@@ -178,5 +178,4 @@ public override void GetInformation(XmlWriter writer)
 `writer` [XmlWriter](https://learn.microsoft.com/dotnet/api/system.xml.xmlwriter)
 
 The writer.
-
 

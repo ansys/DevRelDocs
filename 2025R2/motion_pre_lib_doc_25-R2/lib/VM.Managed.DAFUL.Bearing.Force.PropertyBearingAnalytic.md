@@ -1,4 +1,4 @@
-# Class PropertyBearingAnalytic
+#  Class PropertyBearingAnalytic
 
 Namespace: [VM.Managed.DAFUL.Bearing.Force](VM.Managed.DAFUL.Bearing.Force.md)  
 Assembly: VMDBearing.dll  
@@ -175,7 +175,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyBearingAnalytic\(\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic__ctor"></a> PropertyBearingAnalytic\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Bearing.Force.PropertyBearingAnalytic" data-throw-if-not-resolved="false"></xref> class.
 
@@ -185,7 +185,7 @@ public PropertyBearingAnalytic()
 
 ## Properties
 
-### DampingRatio
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic_DampingRatio"></a> DampingRatio
 
 Gets or sets the damping ratio.
 
@@ -197,7 +197,7 @@ public ExpressionValueVariable DampingRatio { get; set; }
 
  ExpressionValueVariable
 
-### FrictionCoefficient
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic_FrictionCoefficient"></a> FrictionCoefficient
 
 Gets or sets the friction coefficient.
 
@@ -209,7 +209,7 @@ public ExpressionValueVariable FrictionCoefficient { get; set; }
 
  ExpressionValueVariable
 
-### GapInAxialDirection
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic_GapInAxialDirection"></a> GapInAxialDirection
 
 Gets or sets the gap in axial direction.
 
@@ -221,7 +221,7 @@ public ExpressionValueVariable GapInAxialDirection { get; set; }
 
  ExpressionValueVariable
 
-### IsAxial
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic_IsAxial"></a> IsAxial
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.Bearing.Force.PropertyBearingAnalytic" data-throw-if-not-resolved="false"></xref> is axial.
 
@@ -233,7 +233,7 @@ public bool IsAxial { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### IsRadial
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic_IsRadial"></a> IsRadial
 
 Gets or sets a value indicating whether this <xref href="VM.Managed.DAFUL.Bearing.Force.PropertyBearingAnalytic" data-throw-if-not-resolved="false"></xref> is radial.
 
@@ -245,7 +245,7 @@ public bool IsRadial { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Viscosity
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic_Viscosity"></a> Viscosity
 
 Gets or sets the viscosity.
 
@@ -257,7 +257,7 @@ public ExpressionValueVariable Viscosity { get; set; }
 
  ExpressionValueVariable
 
-### YoungsModulus
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic_YoungsModulus"></a> YoungsModulus
 
 Gets or sets the youngs modulus.
 
@@ -271,7 +271,7 @@ public ExpressionValueVariable YoungsModulus { get; set; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Bearing_Force_PropertyBearingAnalytic_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -284,5 +284,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

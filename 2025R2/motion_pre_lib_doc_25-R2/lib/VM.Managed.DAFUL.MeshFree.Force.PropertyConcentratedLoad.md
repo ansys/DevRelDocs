@@ -1,4 +1,4 @@
-# Class PropertyConcentratedLoad
+#  Class PropertyConcentratedLoad
 
 Namespace: [VM.Managed.DAFUL.MeshFree.Force](VM.Managed.DAFUL.MeshFree.Force.md)  
 Assembly: VMDMeshFree.dll  
@@ -179,7 +179,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyConcentratedLoad\(\)
+### <a id="VM_Managed_DAFUL_MeshFree_Force_PropertyConcentratedLoad__ctor"></a> PropertyConcentratedLoad\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.MeshFree.Force.PropertyConcentratedLoad" data-throw-if-not-resolved="false"></xref> class.
 
@@ -189,7 +189,7 @@ public PropertyConcentratedLoad()
 
 ## Properties
 
-### Force
+### <a id="VM_Managed_DAFUL_MeshFree_Force_PropertyConcentratedLoad_Force"></a> Force
 
 Gets or sets the force.
 
@@ -201,7 +201,7 @@ public CompositeFieldUsable Force { get; set; }
 
  CompositeFieldUsable
 
-### Orientation
+### <a id="VM_Managed_DAFUL_MeshFree_Force_PropertyConcentratedLoad_Orientation"></a> Orientation
 
 Gets or sets the orientation.
 
@@ -215,7 +215,7 @@ public OrientationBase Orientation { get; set; }
 
 ## Methods
 
-### FindLocal\(string\)
+### <a id="VM_Managed_DAFUL_MeshFree_Force_PropertyConcentratedLoad_FindLocal_System_String_"></a> FindLocal\(string\)
 
 Finds an object that matches a specified name in local.
 
@@ -235,7 +235,7 @@ Name to search for.
 
 An object that matches a specified name.
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_MeshFree_Force_PropertyConcentratedLoad_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -248,5 +248,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

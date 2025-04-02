@@ -1,4 +1,4 @@
-# Class TestRigDocumentBase
+#  Class TestRigDocumentBase
 
 Namespace: [VM.Managed.DAFUL.Car](VM.Managed.DAFUL.Car.md)  
 Assembly: VMDCar.dll  
@@ -580,7 +580,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### TestRigDocumentBase\(UIntPtr\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase__ctor_System_UIntPtr_"></a> TestRigDocumentBase\(UIntPtr\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Car.TestRigDocumentBase" data-throw-if-not-resolved="false"></xref> class.
 
@@ -596,7 +596,7 @@ The document handle.
 
 ## Properties
 
-### ComplianceGroupName
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_ComplianceGroupName"></a> ComplianceGroupName
 
 Gets the name of the compliance group.
 
@@ -608,7 +608,7 @@ public static string ComplianceGroupName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DrivelineActiveGroupName
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_DrivelineActiveGroupName"></a> DrivelineActiveGroupName
 
 Gets the name of the driveline active group.
 
@@ -620,7 +620,7 @@ public static string DrivelineActiveGroupName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### DrivelineInactiveGroupName
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_DrivelineInactiveGroupName"></a> DrivelineInactiveGroupName
 
 Gets the name of the driveline inactive group.
 
@@ -632,7 +632,7 @@ public static string DrivelineInactiveGroupName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### KinematicGroupName
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_KinematicGroupName"></a> KinematicGroupName
 
 Gets the name of the kinematic group.
 
@@ -644,7 +644,7 @@ public static string KinematicGroupName { get; }
 
  [string](https://learn.microsoft.com/dotnet/api/system.string)
 
-### SkipBindInterfaceWhenOpen
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_SkipBindInterfaceWhenOpen"></a> SkipBindInterfaceWhenOpen
 
 Gets the [skip binding interface when open].
 
@@ -656,7 +656,7 @@ protected override bool SkipBindInterfaceWhenOpen { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UpdateReInterface
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_UpdateReInterface"></a> UpdateReInterface
 
 Sets a value indicating whether [update re interface].
 
@@ -668,7 +668,7 @@ public static bool UpdateReInterface { set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseAssembly
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_UseAssembly"></a> UseAssembly
 
 Gets or sets a value indicating whether this instance is assembly.
 
@@ -680,7 +680,7 @@ protected bool UseAssembly { get; set; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseCompliance
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_UseCompliance"></a> UseCompliance
 
 Gets a value indicating whether [use compliance].
 
@@ -692,7 +692,7 @@ public bool UseCompliance { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseDriveLineActiveFront
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_UseDriveLineActiveFront"></a> UseDriveLineActiveFront
 
 Gets a value indicating whether [use driveline active front].
 
@@ -704,7 +704,7 @@ public bool UseDriveLineActiveFront { get; }
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### UseDriveLineActiveRear
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_UseDriveLineActiveRear"></a> UseDriveLineActiveRear
 
 Gets a value indicating whether [use driveline active rear].
 
@@ -718,7 +718,7 @@ public bool UseDriveLineActiveRear { get; }
 
 ## Methods
 
-### AddErrorMessageToOutputWindow\(string\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_AddErrorMessageToOutputWindow_System_String_"></a> AddErrorMessageToOutputWindow\(string\)
 
 Adds the error message to output window.
 
@@ -732,7 +732,7 @@ protected void AddErrorMessageToOutputWindow(string strError)
 
 The STR error.
 
-### AddSubSystem\(string\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_AddSubSystem_System_String_"></a> AddSubSystem\(string\)
 
 Adds the sub system.
 
@@ -750,7 +750,7 @@ Name of the STR file.
 
  Document3D
 
-### AddSubSystemForOther\(string\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_AddSubSystemForOther_System_String_"></a> AddSubSystemForOther\(string\)
 
 Adds the sub system for other.
 
@@ -764,7 +764,7 @@ protected void AddSubSystemForOther(string strFileNames)
 
 The STR file names.
 
-### BindInterfaces\(ObjectBase, ObjectBase\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_BindInterfaces_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> BindInterfaces\(ObjectBase, ObjectBase\)
 
 Binds the interfaces.
 
@@ -786,7 +786,7 @@ The ob to.
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### InitializeInterfaceTable\(\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_InitializeInterfaceTable"></a> InitializeInterfaceTable\(\)
 
 Initializes the interface table.
 
@@ -794,7 +794,7 @@ Initializes the interface table.
 protected void InitializeInterfaceTable()
 ```
 
-### OnDeserialization\(object\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_OnDeserialization_System_Object_"></a> OnDeserialization\(object\)
 
 Called when [deserialization].
 
@@ -808,7 +808,7 @@ protected override void OnDeserialization(object sender)
 
 The sender.
 
-### PostOpenDocument\(\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_PostOpenDocument"></a> PostOpenDocument\(\)
 
 Call when post [open document].
 
@@ -816,7 +816,7 @@ Call when post [open document].
 public override void PostOpenDocument()
 ```
 
-### ReSetInterfacetable\(ObjectBase, ObjectBase\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_ReSetInterfacetable_VM_Managed_ObjectBase_VM_Managed_ObjectBase_"></a> ReSetInterfacetable\(ObjectBase, ObjectBase\)
 
 Re-set interfacetable.
 
@@ -834,7 +834,7 @@ The target.
 
 The tool.
 
-### ReplaceAssembly\(string\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_ReplaceAssembly_System_String_"></a> ReplaceAssembly\(string\)
 
 Replaces the assembly.
 
@@ -848,7 +848,7 @@ public virtual void ReplaceAssembly(string strAssemblyInfo)
 
 The assembly info.
 
-### SetTemplateInfoImpl\(DocFromTemplateInfo\)
+### <a id="VM_Managed_DAFUL_Car_TestRigDocumentBase_SetTemplateInfoImpl_VM_Managed_DocFromTemplateInfo_"></a> SetTemplateInfoImpl\(DocFromTemplateInfo\)
 
 Sets the template info. [Implemetation]
 
@@ -861,5 +861,4 @@ protected virtual void SetTemplateInfoImpl(DocFromTemplateInfo docTemplateInfo)
 `docTemplateInfo` DocFromTemplateInfo
 
 The doc template info.
-
 

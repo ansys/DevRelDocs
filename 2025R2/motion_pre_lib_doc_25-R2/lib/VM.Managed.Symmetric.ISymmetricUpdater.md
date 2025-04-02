@@ -1,4 +1,4 @@
-# Interface ISymmetricUpdater
+#  Interface ISymmetricUpdater
 
 Namespace: [VM.Managed.Symmetric](VM.Managed.Symmetric.md)  
 Assembly: VMAppCore.dll  
@@ -17,7 +17,7 @@ public interface ISymmetricUpdater
 
 ## Methods
 
-### Initialize\(ISymmetricManager\)
+### <a id="VM_Managed_Symmetric_ISymmetricUpdater_Initialize_VM_Managed_Symmetric_ISymmetricManager_"></a> Initialize\(ISymmetricManager\)
 
 Initialize the symmetric objects.
 
@@ -37,7 +37,7 @@ The Symmetric Manager.
 
 <code>true</code> if success; otherwise, <code>false</code>.
 
-### Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
+### <a id="VM_Managed_Symmetric_ISymmetricUpdater_Update_VM_Managed_ObjectBase_VM_Managed_ObjectBase_VM_Managed_SymmetricType_VM_Plane_VM_Managed_Document_"></a> Update\(ObjectBase, ObjectBase, SymmetricType, Plane, Document\)
 
 Updates the symmetric objects.
 
@@ -72,5 +72,4 @@ update document.
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
 <code>true</code> if success; otherwise, <code>false</code>.
-
 

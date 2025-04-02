@@ -1,4 +1,4 @@
-# Enum Configuration.LinearSolver
+#  Enum Configuration.LinearSolver
 
 Namespace: [VM.Managed.Simulation](VM.Managed.Simulation.md)  
 Assembly: VMDFBase.dll  
@@ -56,7 +56,6 @@ SPARSE
 `SUPER = 5` 
 
 SUPER
-
 
 
 

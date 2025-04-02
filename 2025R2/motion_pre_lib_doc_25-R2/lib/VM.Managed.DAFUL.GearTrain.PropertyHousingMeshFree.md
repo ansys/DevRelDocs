@@ -1,4 +1,4 @@
-# Class PropertyHousingMeshFree
+#  Class PropertyHousingMeshFree
 
 Namespace: [VM.Managed.DAFUL.GearTrain](VM.Managed.DAFUL.GearTrain.md)  
 Assembly: VMDGearTrain.dll  
@@ -194,12 +194,11 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyHousingMeshFree\(\)
+### <a id="VM_Managed_DAFUL_GearTrain_PropertyHousingMeshFree__ctor"></a> PropertyHousingMeshFree\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.GearTrain.PropertyHousingMeshFree" data-throw-if-not-resolved="false"></xref> class.
 
 ```csharp
 public PropertyHousingMeshFree()
 ```
-
 

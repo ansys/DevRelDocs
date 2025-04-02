@@ -1,4 +1,4 @@
-# Class ShellToSolid
+#  Class ShellToSolid
 
 Namespace: [VM.Managed.DAFUL.Builder.FE](VM.Managed.DAFUL.Builder.FE.md)  
 Assembly: VMBldFE.dll  
@@ -24,7 +24,7 @@ IBuilder
 
 ## Constructors
 
-### ShellToSolid\(\)
+### <a id="VM_Managed_DAFUL_Builder_FE_ShellToSolid__ctor"></a> ShellToSolid\(\)
 
 ```csharp
 public ShellToSolid()
@@ -32,7 +32,7 @@ public ShellToSolid()
 
 ## Fields
 
-### m\_bSuccess
+### <a id="VM_Managed_DAFUL_Builder_FE_ShellToSolid_m_bSuccess"></a> m\_bSuccess
 
 ```csharp
 protected bool m_bSuccess
@@ -44,7 +44,7 @@ protected bool m_bSuccess
 
 ## Properties
 
-### BuildObject
+### <a id="VM_Managed_DAFUL_Builder_FE_ShellToSolid_BuildObject"></a> BuildObject
 
 ```csharp
 public ObjectBase BuildObject { get; }
@@ -54,7 +54,7 @@ public ObjectBase BuildObject { get; }
 
  ObjectBase
 
-### InputArray
+### <a id="VM_Managed_DAFUL_Builder_FE_ShellToSolid_InputArray"></a> InputArray
 
 ```csharp
 public string[] InputArray { get; set; }
@@ -66,7 +66,7 @@ public string[] InputArray { get; set; }
 
 ## Methods
 
-### Build\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_FE_ShellToSolid_Build_VM_Managed_Document_"></a> Build\(Document\)
 
 ```csharp
 public void Build(Document docToAdd)
@@ -76,7 +76,7 @@ public void Build(Document docToAdd)
 
 `docToAdd` Document
 
-### Build\(Document, List<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_FE_ShellToSolid_Build_VM_Managed_Document_System_Collections_Generic_List_System_String__"></a> Build\(Document, List<string\>\)
 
 ```csharp
 public void Build(Document docToAdd, List<string> lstSetPointKeys)
@@ -88,7 +88,7 @@ public void Build(Document docToAdd, List<string> lstSetPointKeys)
 
 `lstSetPointKeys` [List](https://learn.microsoft.com/dotnet/api/system.collections.generic.list\-1)<[string](https://learn.microsoft.com/dotnet/api/system.string)\>
 
-### BuildImpl\(Document\)
+### <a id="VM_Managed_DAFUL_Builder_FE_ShellToSolid_BuildImpl_VM_Managed_Document_"></a> BuildImpl\(Document\)
 
 ```csharp
 public virtual void BuildImpl(Document docToAdd)
@@ -98,7 +98,7 @@ public virtual void BuildImpl(Document docToAdd)
 
 `docToAdd` Document
 
-### Success\(\)
+### <a id="VM_Managed_DAFUL_Builder_FE_ShellToSolid_Success"></a> Success\(\)
 
 ```csharp
 public bool Success()
@@ -108,7 +108,7 @@ public bool Success()
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### Validate\(IList<string\>\)
+### <a id="VM_Managed_DAFUL_Builder_FE_ShellToSolid_Validate_System_Collections_Generic_IList_System_String__"></a> Validate\(IList<string\>\)
 
 ```csharp
 public bool Validate(IList<string> lstErrorMessage)
@@ -121,5 +121,4 @@ public bool Validate(IList<string> lstErrorMessage)
 #### Returns
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
-
 

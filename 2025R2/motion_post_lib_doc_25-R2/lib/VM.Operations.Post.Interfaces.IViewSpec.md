@@ -1,4 +1,4 @@
-# Interface IViewSpec
+#  Interface IViewSpec
 
 Namespace: [VM.Operations.Post.Interfaces](VM.Operations.Post.Interfaces.md)  
 Assembly: VM.Operations.Post.dll  
@@ -66,7 +66,7 @@ applicationHandler.CloseDocument(result_file_path)
 
 ## Properties
 
-### Eye
+### <a id="VM_Operations_Post_Interfaces_IViewSpec_Eye"></a> Eye
 
 Gets or sets the position of the camera in a 3D space.
 
@@ -87,7 +87,7 @@ For an example that includes this property, see the [Interface IViewSpec](#VM_Op
 The <xref href="VM.Operations.Post.Interfaces.IViewSpec.Eye" data-throw-if-not-resolved="false"></xref> property allows you to get or set the position of the camera in a 3D space.
 This property is essential for controlling the viewpoint from which the 3D scene is rendered.
 
-### Target
+### <a id="VM_Operations_Post_Interfaces_IViewSpec_Target"></a> Target
 
 Gets or sets the position of the target that the camera is looking at.
 
@@ -159,7 +159,7 @@ applicationHandler.CloseDocument(result_file_path)
 The <xref href="VM.Operations.Post.Interfaces.IViewSpec.Target" data-throw-if-not-resolved="false"></xref> property allows you to get or set the position of the target that the camera is focused on in a 3D space.
 This property is essential for defining the direction the camera is pointed towards.
 
-### UpVector
+### <a id="VM_Operations_Post_Interfaces_IViewSpec_UpVector"></a> UpVector
 
 Gets or sets the up direction vector of the camera in a 3D space.
 

@@ -1,4 +1,4 @@
-# Class ObservableKeyedCollectionBase<TKey, TItem\>
+#  Class ObservableKeyedCollectionBase<TKey, TItem\>
 
 Namespace: [VM.Collections](VM.Collections.md)  
 Assembly: VM.dll  
@@ -15,14 +15,14 @@ public abstract class ObservableKeyedCollectionBase<TKey, TItem> : KeyedCollecti
 
 #### Inheritance
 
-[object](https://learn.microsoft.com/dotnet/api/system.object) ??
-[Collection<TItem\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection\-1) ??
-[KeyedCollection<TKey, TItem\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.keyedcollection\-2) ??
+[object](https://learn.microsoft.com/dotnet/api/system.object) ← 
+[Collection<TItem\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.collection\-1) ← 
+[KeyedCollection<TKey, TItem\>](https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.keyedcollection\-2) ← 
 [ObservableKeyedCollectionBase<TKey, TItem\>](VM.Collections.ObservableKeyedCollectionBase\-2.md)
 
 ## Constructors
 
-### ObservableKeyedCollectionBase\(\)
+### <a id="VM_Collections_ObservableKeyedCollectionBase_2__ctor"></a> ObservableKeyedCollectionBase\(\)
 
 ```python
 protected ObservableKeyedCollectionBase()
@@ -30,7 +30,7 @@ protected ObservableKeyedCollectionBase()
 
 ## Methods
 
-### <\>OnPropertyChanged\(PropertyChangedEventArgs\)
+### <a id="VM_Collections_ObservableKeyedCollectionBase_2___OnPropertyChanged_System_ComponentModel_PropertyChangedEventArgs_"></a> <\>OnPropertyChanged\(PropertyChangedEventArgs\)
 
 ```python
 protected void <>OnPropertyChanged(PropertyChangedEventArgs eventArgs)
@@ -40,7 +40,7 @@ protected void <>OnPropertyChanged(PropertyChangedEventArgs eventArgs)
 
 `eventArgs` [PropertyChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventargs)
 
-### AddRange\(IEnumerable<TItem\>\)
+### <a id="VM_Collections_ObservableKeyedCollectionBase_2_AddRange_System_Collections_Generic_IEnumerable__1__"></a> AddRange\(IEnumerable<TItem\>\)
 
 ```python
 public void AddRange(IEnumerable<TItem> items)
@@ -50,13 +50,13 @@ public void AddRange(IEnumerable<TItem> items)
 
 `items` [IEnumerable](https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable\-1)<TItem\>
 
-### ClearItems\(\)
+### <a id="VM_Collections_ObservableKeyedCollectionBase_2_ClearItems"></a> ClearItems\(\)
 
 ```python
 protected override void ClearItems()
 ```
 
-### InsertItem\(int, TItem\)
+### <a id="VM_Collections_ObservableKeyedCollectionBase_2_InsertItem_System_Int32__1_"></a> InsertItem\(int, TItem\)
 
 ```python
 protected override void InsertItem(int index, TItem item)
@@ -68,7 +68,7 @@ protected override void InsertItem(int index, TItem item)
 
 `item` TItem
 
-### OnCollectionChanged\(NotifyCollectionChangedEventArgs\)
+### <a id="VM_Collections_ObservableKeyedCollectionBase_2_OnCollectionChanged_System_Collections_Specialized_NotifyCollectionChangedEventArgs_"></a> OnCollectionChanged\(NotifyCollectionChangedEventArgs\)
 
 ```python
 protected virtual void OnCollectionChanged(NotifyCollectionChangedEventArgs e)
@@ -78,7 +78,7 @@ protected virtual void OnCollectionChanged(NotifyCollectionChangedEventArgs e)
 
 `e` [NotifyCollectionChangedEventArgs](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventargs)
 
-### RemoveItem\(int\)
+### <a id="VM_Collections_ObservableKeyedCollectionBase_2_RemoveItem_System_Int32_"></a> RemoveItem\(int\)
 
 ```python
 protected override void RemoveItem(int index)
@@ -88,7 +88,7 @@ protected override void RemoveItem(int index)
 
 `index` [int](https://learn.microsoft.com/dotnet/api/system.int32)
 
-### SetItem\(int, TItem\)
+### <a id="VM_Collections_ObservableKeyedCollectionBase_2_SetItem_System_Int32__1_"></a> SetItem\(int, TItem\)
 
 ```python
 protected override void SetItem(int index, TItem newitem)
@@ -100,7 +100,7 @@ protected override void SetItem(int index, TItem newitem)
 
 `newitem` TItem
 
-### TryGetValue\(TKey, out TItem\)
+### <a id="VM_Collections_ObservableKeyedCollectionBase_2_TryGetValue__0__1__"></a> TryGetValue\(TKey, out TItem\)
 
 ```python
 public bool TryGetValue(TKey key, out TItem item)
@@ -116,7 +116,7 @@ public bool TryGetValue(TKey key, out TItem item)
 
  [bool](https://learn.microsoft.com/dotnet/api/system.boolean)
 
-### CollectionChanged
+### <a id="VM_Collections_ObservableKeyedCollectionBase_2_CollectionChanged"></a> CollectionChanged
 
 ```python
 public event NotifyCollectionChangedEventHandler CollectionChanged
@@ -126,7 +126,7 @@ public event NotifyCollectionChangedEventHandler CollectionChanged
 
  [NotifyCollectionChangedEventHandler](https://learn.microsoft.com/dotnet/api/system.collections.specialized.notifycollectionchangedeventhandler)
 
-### PropertyChanged
+### <a id="VM_Collections_ObservableKeyedCollectionBase_2_PropertyChanged"></a> PropertyChanged
 
 ```python
 public event PropertyChangedEventHandler PropertyChanged

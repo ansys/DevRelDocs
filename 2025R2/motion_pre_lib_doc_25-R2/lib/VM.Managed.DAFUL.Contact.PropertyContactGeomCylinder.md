@@ -1,4 +1,4 @@
-# Class PropertyContactGeomCylinder
+#  Class PropertyContactGeomCylinder
 
 Namespace: [VM.Managed.DAFUL.Contact](VM.Managed.DAFUL.Contact.md)  
 Assembly: VMDCt.dll  
@@ -173,7 +173,7 @@ ObservableObject.PropertyChanged
 
 ## Constructors
 
-### PropertyContactGeomCylinder\(\)
+### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomCylinder__ctor"></a> PropertyContactGeomCylinder\(\)
 
 Initializes a new instance of the <xref href="VM.Managed.DAFUL.Contact.PropertyContactGeomCylinder" data-throw-if-not-resolved="false"></xref> class.
 
@@ -183,7 +183,7 @@ public PropertyContactGeomCylinder()
 
 ## Properties
 
-### BottomPosition
+### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomCylinder_BottomPosition"></a> BottomPosition
 
 Gets or sets the bottom position.
 
@@ -195,7 +195,7 @@ public PointBase BottomPosition { get; set; }
 
  PointBase
 
-### Radius
+### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomCylinder_Radius"></a> Radius
 
 Gets or sets the radius.
 
@@ -207,7 +207,7 @@ public ExpressionValueVariable Radius { get; set; }
 
  ExpressionValueVariable
 
-### TopPosition
+### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomCylinder_TopPosition"></a> TopPosition
 
 Gets or sets the top position.
 
@@ -219,7 +219,7 @@ public PointBase TopPosition { get; set; }
 
  PointBase
 
-### \_BottomPosition
+### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomCylinder__BottomPosition"></a> \_BottomPosition
 
 Gets or sets the bottom position.
 
@@ -231,7 +231,7 @@ public VectorBase _BottomPosition { get; }
 
  VectorBase
 
-### \_Radius
+### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomCylinder__Radius"></a> \_Radius
 
 Gets or sets the radius.
 
@@ -243,7 +243,7 @@ public double _Radius { get; }
 
  [double](https://learn.microsoft.com/dotnet/api/system.double)
 
-### \_TopPosition
+### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomCylinder__TopPosition"></a> \_TopPosition
 
 Gets or sets the top position.
 
@@ -257,7 +257,7 @@ public VectorBase _TopPosition { get; }
 
 ## Methods
 
-### Initialize\(ConvertFactor\)
+### <a id="VM_Managed_DAFUL_Contact_PropertyContactGeomCylinder_Initialize_VM_Unit_ConvertFactor_"></a> Initialize\(ConvertFactor\)
 
 Initializes member through unit convert factor.
 
@@ -270,5 +270,4 @@ public override void Initialize(Unit.ConvertFactor factor)
 `factor` Unit.ConvertFactor
 
 The unit convert factor.
-
 

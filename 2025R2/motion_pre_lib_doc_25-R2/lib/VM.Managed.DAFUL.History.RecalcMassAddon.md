@@ -1,4 +1,4 @@
-# Class RecalcMassAddon
+#  Class RecalcMassAddon
 
 Namespace: [VM.Managed.DAFUL.History](VM.Managed.DAFUL.History.md)  
 Assembly: VMDFBase.dll  
@@ -52,7 +52,7 @@ HistoryManagerAddon.UndoneList
 
 ## Constructors
 
-### RecalcMassAddon\(\)
+### <a id="VM_Managed_DAFUL_History_RecalcMassAddon__ctor"></a> RecalcMassAddon\(\)
 
 Construct new RecalcMassAddon
 
@@ -62,7 +62,7 @@ public RecalcMassAddon()
 
 ## Methods
 
-### Process\(object, HistoryEventArgs\)
+### <a id="VM_Managed_DAFUL_History_RecalcMassAddon_Process_System_Object_VM_Managed_History_HistoryEventArgs_"></a> Process\(object, HistoryEventArgs\)
 
 Process addon logic.
 
@@ -79,5 +79,4 @@ The object
 `args` HistoryEventArgs
 
 The <xref href="VM.Managed.History.HistoryEventArgs?text=HistoryEventArgs" data-throw-if-not-resolved="false"></xref>
-
 
