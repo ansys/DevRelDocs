@@ -30,7 +30,8 @@
   href: troubleshooting.md
 - name: Reference
   href: lib/VM.Operations.Post.Interfaces.md
-  items:  - name: VM
+  items:  
+  - name: VM
     href: lib/VM.md
     items:
     - name: Classes
