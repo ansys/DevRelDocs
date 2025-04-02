@@ -4,7 +4,7 @@
 
 ### **API** (Application Program Interface)
 
-An API is any programmatic interface between an application and something else. In software, API usually refers to a text-based web API like a REST API or gRPC API.
+An API is any programmatic interface between an application and something else. In software, however, API usually refers to a text-based web API like a REST API or gRPC API.
 
 ### **Back end**
 
@@ -12,7 +12,7 @@ The back end of a software application is the part a user does not interact with
 
 ### **CLI** (Command-Line Interface)
 
-A CLI is a text-based user interface used to interact with software or an operating system. Users type commands into a terminal or shell, which the system executes. CLIs provide a powerful way to control systems or applications with precise, scriptable inputs, but they require knowledge of the command syntax.
+A CLI is a text-based user interface used to interact with software or an operating system. Users type commands into a terminal or shell, which the system executes. CLIs provide a powerful way to control systems or applications with precise, scriptable inputs, but their use requires knowledge of the command syntax.
 
 ### **Front end**
 
@@ -40,7 +40,7 @@ SOAP is a protocol for exchanging structured information in web services, relyin
 
 ### **TUI** (Text User Interface)
 
-A TUI is a user interface that displays text, symbols, and ASCII characters for interaction instead of graphical elements. TUIs are typically used in command-line environments. They provide a more user-friendly, menu-driven experience than a pure CLI, though they remain keyboard-driven. An example of a TUI application is the text editor Vim. Ansys Fluent has both a GUI and a TUI. Its textual command-line interface uses a dialect of Lisp called Scheme. Users familiar with Scheme can use the interface's interpretive capabilities to create customized commands.
+A TUI is a user interface that displays text, symbols, and ASCII characters for interaction instead of graphical elements. TUIs are typically used in command-line environments. They provide a more user-friendly, menu-driven experience than a pure CLI, though they remain keyboard-driven. An example of a TUI application is the text editor Vim. Ansys Fluent has both a GUI and a TUI. Its textual command-line interface uses a dialect of Lisp named Scheme. Users familiar with Scheme can use the interface's interpretive capabilities to create customized commands.
 
 ### **UX** (User Experience)
 
@@ -50,7 +50,7 @@ UX describes the experience of a user operating a system, product, or service. I
 
 ### **Library**
 
-A library in Python refers to a collection of pre-written functions, classes, and variables that perform specific tasks. This term and "package" are often used interchangeably. Although there are many asserted distinctions between the two terms, there is no general consensus. For example, the Python Standard Library has its own specific definition that is not interchangeable with "package."
+A library in Python refers to a collection of pre-written functions, classes, and variables that perform specific tasks. This term and "package" are often used interchangeably. Although there are many asserted distinctions between the two terms, there is no general consensus. For example, The Python Standard Library has its own specific definition that is not interchangeable with "package."
 
 ### **Module**
 
@@ -60,7 +60,7 @@ A Python module is a Python file intended to be imported into other Python modul
 
 A Python package is a collection of modules that work together to provide certain functionality. A single directory contains the modules, and nested directories may also contain them. PyMAPDL and PyFluent are examples of packages, as are most members of the PyAnsys ecosystem.
 
-### **The Python Standard Library**
+### **Python Standard Library**
 
 [The Python Standard Library](https://docs.python.org/3/library/index.html) is a collection of modules and packages that come pre-installed with any Python installation. They are not pre-imported but must be explicitly imported to use them. Examples of modules in the Python Standard Library include `pathlib`, `getpass`, and `dataclasses`.
 
@@ -98,7 +98,7 @@ A framework is a pre-built, structured collection of code that provides a founda
 
 ### **Transient dependencies**
 
-Transient dependencies are indirect dependencies. These are the packages, modules, and libraries that a project's dependencies rely on. They are typically not declared by the package that they are needed for. For example, [PyMAPDL dependencies](https://github.com/ansys/pymapdl/blob/main/pyproject.toml) include [Matplotlib](https://matplotlib.org/stable/), but Matplotlib depends on [Pillow](https://pillow.readthedocs.io/en/latest/), which is not listed in PyMAPDL's dependencies. This means Pillow is a transient dependency.
+Transient dependencies are indirect dependencies. These are the packages, modules, and libraries that a project's dependencies rely on. They are typically not declared by the package that they are needed for. For example, [PyMAPDL dependencies](https://github.com/ansys/pymapdl/blob/main/pyproject.toml) include the [`matplotlib`](https://matplotlib.org/stable/), but `matplotlib` depends on [`Pillow`](https://pillow.readthedocs.io/en/latest/), which is not listed in PyMAPDL's dependencies. This means `Pillow` is a transient dependency.
 
 ## Ansys acronyms and abbreviations
 

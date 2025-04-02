@@ -1,6 +1,6 @@
 # Introduction
 
-This page provides links to general information useful for all Ansys developers. Use the left pane to access a glossary or explore the tools and training materials for the Ansys software within a given product collection.
+This page provides links to general information useful for all Ansys developers. Use the left pane to access a glossary or explore the tools and training materials for the Ansys software within aany given product collection.
 
 * [Ansys Developer Portal (main page)](https://developer.ansys.com/)
 * [Ansys Store](https://catalog.ansys.com/)
