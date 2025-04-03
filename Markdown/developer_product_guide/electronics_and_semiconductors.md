@@ -1,10 +1,10 @@
 # Electronics and Semiconductors
 
-Unlike other Ansys products, Ansys exposes many of its electronics and semiconductor products through Ansys Electronics Desktop (AEDT). The list below marks products accessible through AEDT with `*`. Products available both through AEDT and as standalone applications are marked with `+`.
+Ansys provides access to many electronics and semiconductor products through Ansys Electronics Desktop (AEDT). Subheadings include a `*` for products accessible through AEDT and a `+` for products available through AEDT and as standalone applications.
 
-## Electronics Desktop
+## AEDT
 
-The AEDT platform includes ACT Python scripting (including journaling) as well as the PyAEDT and PyEDB (Ansys Electronics Database) PyAnsys libraries. There has also been Visual Basic Scripting available alongside IronPython and CPython historically.
+AEDT supports ACT Python scripting (including journaling) and the PyAEDT and PyEDB (Ansys Electronics Database) PyAnsys libraries. It also supports Visual Basic scripting alongside IronPython and CPython.
 
 * [PyAEDT (PyAnsys)](https://aedt.docs.pyansys.com/)
   * HFSS and HFSS 3D Layout
@@ -20,37 +20,37 @@ The AEDT platform includes ACT Python scripting (including journaling) as well a
   * HFSS 3D Layout
   * Icepak
 
-There is also the Magnet Segmentation Toolkit which operates alongside PyAEDT to provide automation of the segmentation and skew of inner rotor interior permanent magnet and surface permanent magnet motors.
+The Magnet Segmentation Toolkit integrates with PyAEDT to automate the segmentation and skew of inner rotor interior permanent magnet and surface permanent magnet motors.
 
-* [Magnet Segmentation Toolkit (PyAnsys)](https://magnet.segmentation.toolkit.docs.pyansys.com/version/stable/index.html)
+* [Magnet Segmentation Toolkit documentation (PyAnsys)](https://magnet.segmentation.toolkit.docs.pyansys.com/version/stable/index.html)
 
 ### AEDT training material
 
-* [Ansys Electronics Desktop Automation with PyAEDT Getting Started (ALH)](https://www.ansys.com/training-center/course-catalog/electronics/ansys-electronics-desktop-automation-with-pyeadt-getting-started)
+* [Ansys Electronics Desktop Automation with PyAEDT getting started (ALH)](https://www.ansys.com/training-center/course-catalog/electronics/ansys-electronics-desktop-automation-with-pyeadt-getting-started)
 * [Introduction to PyAEDT](https://developer.ansys.com/blog/introduction-pyaedt)
-* [PyAnsys Training: Overview of PyAEDT](https://www.youtube.com/watch?v=yFUboNyJeGk)
-* [PyAnsys Training: PyAEDT Examples and Use Cases](https://www.youtube.com/watch?v=MnACOZ1Axd4)
+* [Overview of PyAEDT: Drive innovation in virtual prototyping with PyAEDT](https://www.youtube.com/watch?v=yFUboNyJeGk)
+* [PyAEDT examples and use cases: Virtual compliance framework](https://www.youtube.com/watch?v=MnACOZ1Axd4)
 
 ### Non-Ansys AEDT training material
 
 * [PyAEDT: Introduction to the Ansys Electronics Desktop API (Ozen)](https://blog.ozeninc.com/resources/pyansys-introduction-to-the-electronics-desktop-api)
 
-## MotorCAD 
+## MotorCAD
 
-* [PyMotorCAD (PyAnsys)](https://motorcad.docs.pyansys.com/)
+* [PyMotorCAD documentation (PyAnsys)](https://motorcad.docs.pyansys.com/)
 
-## ConceptEV 
+## ConceptEV
 
 * [ConceptEV REST API](https://conceptev.ansys.com/api/docs)
-* [PyConceptEV (PyAnsys)](https://conceptev.docs.pyansys.com/)
+* [PyConceptEV documentation (PyAnsys)](https://conceptev.docs.pyansys.com/)
 
-## NuHertz Filter Solutions+
+## Nuhertz Filter Solutions+
 
-See Electronics Desktop.
+There are no developer tools available at this time.
 
 ## Perceive EM
 
-Ansys Perceive EM simulation software is a real-time, dynamic electromagnetic wave simulation solver API that supports many applications, including large-scale radar and wireless systems, with seamless digital twin integration. The Perceive EM API comes with C++ and Python bindings.
+Ansys Perceive EM simulation software provides a real-time, dynamic electromagnetic wave simulation solver API. It supports applications such as large-scale radar and wireless systems, with seamless digital twin integration. The Perceive EM API includes C++ and Python bindings.
 
 ## EMC Plus
 
@@ -62,13 +62,11 @@ There are no developer tools available at this time.
 
 ## Redhawk-SC
 
-RedHawkSC and TotemSC have a pythonic library known as PySeascape that's available as part of PyAnsys which provides a remotable interface to these two products.
-
-[PySeascape (PyAnsys)](https://seascape.docs.pyansys.com/version/stable/)
+RedHawkSC and TotemSC include a Pythonic library called PySeascape, available as part of PyAnsys. PySeascape provides a remotable interface to both RedHawkSC and TotemSC. For more information, see the [PySeascape documentation (PyAnsys)](https://seascape.docs.pyansys.com/version/stable/).
 
 ## Totem
 
-See [Redhawk-SC](#Redhawk-SC) and PySeascape.
+See Redhawk-SC and PySeascape.
 
 ## VeloceRF
 
@@ -96,17 +94,17 @@ There are no developer tools available at this time.
 
 ## Q3D Extractor*
 
-See Electronics Desktop.
+See AEDT.
 
 ## Icepak*
 
-See Electronics Desktop.
+See AEDT.
 
 ## HFSS*/HFSS-IC*
 
 IC stands for "Integrated Circuit."
 
-See Electronics Desktop.
+See AEDT.
 
 ## RaptorQu
 
@@ -114,20 +112,20 @@ There are no developer tools available at this time.
 
 ## SIwave+
 
-See Electronics Desktop. Otherwise contains IronPython scripting.
+See AEDT. SIwave includes IronPython scripting.
 
 ## Maxwell*
 
-See Electronics Desktop.
+See AEDT.
 
 ## ParagonX
 
-Has a GUI mode and a batch mode that uses Python scripting. Script with Python in an internal (CPython) interpreter that comes with multiple pre-installed libraries for interfacing with the product.
+ParagonX includes a GUI mode and a batch mode that uses Python scripting. You script with Python in an internal (CPython) interpreter that comes with multiple pre-installed libraries for interfacing with the product.
 
 ## PEmag+
 
-See Electronics Desktop.
+See AEDT.
 
 ## PExprt+
 
-See Electronics Desktop.
+See AEDT.
