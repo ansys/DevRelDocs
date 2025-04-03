@@ -8,7 +8,7 @@ An API is a programmatic interface between an application and something else. In
 
 ### **Back end**
 
-The back end of a software application is the part a user does not interact with directly. For example, the back end of a car includes the engine, electrics, and other parts that the driver cannot interact with without taking the car apart.
+The back end of a software application is the part a user does not interact with directly. For example, the back end of a car includes the engine, electrics, and other parts that the driver cannot interact with without taking the car apart. In a software context the "back end" is everything you *don't* see as a user. The bit behind-the-scenes where the number-crunching goes on for Ansys solvers.
 
 ### **CLI** (Command-Line Interface)
 

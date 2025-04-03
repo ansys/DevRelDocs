@@ -46,7 +46,7 @@ The Magnet Segmentation Toolkit integrates with PyAEDT to automate the segmentat
 
 ## Nuhertz Filter Solutions+
 
-See AEDT.
+There are no developer tools available at this time.
 
 ## Perceive EM
 
