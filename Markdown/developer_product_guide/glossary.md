@@ -16,7 +16,7 @@ A CLI is a text-based user interface used to interact with software or an operat
 
 ### **Front end**
 
-The front end of a software application is the part the user interacts with. This is often a GUI or CLI but can also be an API. For example, the front end of a car includes the dashboard, steering wheel, pedals, and anything else the driver uses.
+The front end of a software application is the part the user interacts with. This is often a GUI or CLI but can also be an API. For example, in a car "the front end" would include the dashboard, steering wheel, pedals, and anything else the driver uses. In a software context the "front end" is everything you see on the screen when operating that software.
 
 ### **gRPC** (Google Remote Procedure Call)
 

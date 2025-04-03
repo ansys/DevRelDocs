@@ -4,7 +4,7 @@ The Ansys Common Fluids Format SDK provides APIs, data models, and example progr
 
 ## Fluent
 
-Ansys Fluent includes both a GUI and a TUI, which is a user interface that displays text, symbols, and ASCII characters for interaction instead of graphical elements. The TUI uses a dialect of Lisp named [Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language)). For more information about the Fluent TUI, see [Text user interface](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_ug/tgd_tcl_tui.html) in the Fluent product documentation.
+Ansys Fluent includes both a GUI and a Text User Interface (TUI), which is a user interface that displays text, symbols, and ASCII characters for interaction instead of graphical elements. The TUI uses a dialect of Lisp named [Scheme](https://en.wikipedia.org/wiki/Scheme_(programming_language)). For more information about the Fluent TUI, see [Text user interface](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v242/en/flu_ug/tgd_tcl_tui.html) in the Fluent product documentation.
 
 Fluent provides an open-source Python interface named PyFluent, which is part of PyAnsys. It also includes two complementary PyAnsys libraries: PyFluent-Parametric for parametric studies and PyFluent-Visualization for visualizing results.
 
