@@ -7,7 +7,7 @@ Ansys provides access to many electronics and semiconductor products through Ans
 AEDT supports ACT Python scripting (including journaling) and the PyAEDT and PyEDB (Ansys Electronics Database) PyAnsys libraries. It also supports Visual Basic scripting alongside IronPython and CPython.
 
 * [PyAEDT (PyAnsys)](https://aedt.docs.pyansys.com/)
-  * HFSS and HFSS 3D layout
+  * HFSS and HFSS 3D Layout
   * Icepak
   * Maxwell 2D, Maxwell 3D, and RMXprt
   * 2D Extractor and Q3D Extractor
@@ -17,7 +17,7 @@ AEDT supports ACT Python scripting (including journaling) and the PyAEDT and PyE
   * Twin Builder
 * [PyEDB (PyAnsys)](https://edb.docs.pyansys.com/)
   * EDB
-  * HFSS 3D layout
+  * HFSS 3D Layout
   * Icepak
 
 The Magnet Segmentation Toolkit integrates with PyAEDT to automate the segmentation and skew of inner rotor interior permanent magnet and surface permanent magnet motors.
@@ -66,7 +66,7 @@ RedHawkSC and TotemSC include a Pythonic library called PySeascape, available as
 
 ## Totem
 
-See [Redhawk-SC](#redhawk-sc) and PySeascape.
+See Redhawk-SC and PySeascape.
 
 ## VeloceRF
 
@@ -102,7 +102,7 @@ See AEDT.
 
 ## HFSS*/HFSS-IC*
 
-IC stands for "integrated circuit."
+IC stands for "Integrated Circuit."
 
 See AEDT.
 
