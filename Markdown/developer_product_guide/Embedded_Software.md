@@ -1,25 +1,24 @@
 # Embedded Software
 
-##  Scade One
+## Scade One
 
-Scade One is the new generation of SCADE (see below). In the Scade One environment you use the swan language. Scade One also has a PyAnsys OSS Python library called PyScadeOne and a developer portal landing page as well.
+Scade One is the new generation of SCADE. In the Scade One environment, you use the Swan language. Scade One also includes PyScadeOne, an open-source Python library.
 
-- [Scade One for Developers](https://developer.ansys.com/docs/scade-one)
-- [PyScadeOne](https://github.com/ansys/pyscadeone)
-- [PyScadeOne docs](https://scadeone.docs.pyansys.com/)
+- [Scade One for developers (Developer portal documentation)](https://developer.ansys.com/docs/scade-one)
+- [PyScadeOne repository (PyAnsys)](https://github.com/ansys/pyscadeone)
+- [PyScadeOne documentation (PyAnsys)](https://scadeone.docs.pyansys.com/)
 
 ## SCADE
 
-[SCADE for developers](https://developer.ansys.com/docs/scade)
+The SCADE environment includes an API, a native language, and operator libraries. It also includes an assortment of SCADE projects to assist in your SCADE work and supports many SCADE tools provided as OSS PyAnsys libraries.
 
-The SCADE environment includes an API, a native language, and operator libraries. In addition there is an assortment of SCADE projects available to assist in your SCADE work. This includes SCADE API Tools which is an OSS PyAnsys library.
-
-- [Ansys SCADE API Tools (PyAnsys)](https://apitools.scade.docs.pyansys.com/)
-- [scade-guitools](https://github.com/ansys/scade-guitools)
-- [scade-wux](https://github.com/ansys/scade-wux)
-- [scade-python-wrapper](https://github.com/ansys/scade-python-wrapper)
-- [scade-pyhg](https://github.com/ansys/scade-pyhg)
-- [scade-actions](https://github.com/ansys/scade-actions)
+- [SCADE for developers (Developer portal documentation)](https://developer.ansys.com/docs/scade)
+- [Ansys SCADE API Tools documentation (PyAnsys)](https://apitools.scade.docs.pyansys.com/)
+- [Ansys SCADE GUI Tools documentation (PyAnsys](https://guitools.scade.docs.pyansys.com/)
+- [Ansys SCADE Wrapper Tools documentation (PyAnsys)](https://wux.scade.docs.pyansys.com/)
+- [Ansys SCADE Python Wrapper documentation (PyAnsys)](https://python-wrapper.scade.docs.pyansys.com/)
+- [Ansys SCADE Test Harness Generator for Python documentation (PyAnsys)](https://pyhg.scade.docs.pyansys.com/)
+- [Ansys SCADE Actions documentation (PyAnsys)](https://actions.scade.docs.pyansys.com/)
 
 ### Ansys SCADE training material
 
@@ -30,4 +29,3 @@ The SCADE environment includes an API, a native language, and operator libraries
 ### Non-Ansys SCADE training material
 
 * [Developing Safety-Critical Embedded Software Using Ansys SCADE (CADFEM)](https://www.cadfem.net/en/shop/professional-development/training-elearning/trending-topics/developing-safety-critical-embedded-software-using-ansys-scade-14440.html)
-
