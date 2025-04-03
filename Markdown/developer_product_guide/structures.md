@@ -7,7 +7,7 @@ The Ansys Mechanical product consists of two aspects: Mechanical and Mechanical 
 Ansys Mechanical and MAPDL are essentially two sides of the same coin, being two ways to access the same solver. There are four principal developer tools associated with them plus a fifth that's only available as part of the Mechanical Premium and Enterprise products.
 
 * **Mechanical scripting interface:** Available within Mechanical, this is a Python scripting interface used for programmatically interacting with the Mechanical UI. For more information, see [Mechanical scripting interface (Developer Portal documentation)](https://developer.ansys.com/docs/mechanical-scripting-interface/index.md).
-* **APDL:** A FORTRAN-like scripting language that directly interacts with the underlying solver of both APDL and Mechanical.
+* **APDL:** A FORTRAN-like scripting language that directly interacts with the underlying solver of both MAPDL and Mechanical.
 * **PyMAPDL:** An open-source Python wrapper for APDL that can call APDL commands from within Python scripts when installed alongside a compatible installation of MAPDL. For more information, see [PyMAPDL documentation (PyAnsys)](https://mapdl.docs.pyansys.com/).
 * **PyMechanical:** An open-source Python interface with the Mechanical UI. This interface has access to the .NET objects available in ACT. For more information, see [PyMechanical documentation (PyAnsys)](https://mechanical.docs.pyansys.com/).
 * **Ansys Rigid Body Dynamics:** An analysis system within the Ansys Mechanical Premium and Enterprise products that allows you to study the kinematics of mechanical systems. This system takes the form of an IronPython library within ACT. For more information, see [Ansys Rigid Body Dynamics for developers (Developer Portal documentation)](https://developer.ansys.com/docs/rigid-body-dynamics).
@@ -30,7 +30,6 @@ Ansys Mechanical and MAPDL are essentially two sides of the same coin, being two
 
 ### Non-Ansys Mechanical and MAPDL training material
 
-* [PADT Blog (PADT)](https://www.padtinc.com/blog-home/)
 * Using Ansys Scripting with pyMAPDL, pyDPF-Post, and More
   * [PART 1: Running and Post-Processing an Ansys Model Outside Ansys (PADT)](https://www.padtinc.com/2022/07/18/ansys-scripting-python-p1-solve-post/)
   * [PART 2: Solving and post-processing ANSYS models in Python (PADT)](https://www.padtinc.com/2022/10/06/ansys-scripting-python-p2-solve-post/)
@@ -55,8 +54,8 @@ Ansys Sherlock has an open-source Python interface named PySherlock.
 
 ### Ansys Sherlock training material
 
-* [PySherlocI Installation anU UsagD Demo | Step-bS-Step foB Beginners](https://www.youtube.com/watch?v=ugiueYuNEKk)
-* [PySherlocI Installation anU UsagD Demo | AdvanceS SetuG Gui)de)](https://www.youtube.com/watch?v=06s_tNvlOTM)
+* [PySherlock Installation and Usage Demo | Step-by-Step for Beginners](https://www.youtube.com/watch?v=ugiueYuNEKk)
+* [PySherlock Installation and Usage Demo | Advanced Setup Guide](https://www.youtube.com/watch?v=06s_tNvlOTM)
 
 ## Forming
 
