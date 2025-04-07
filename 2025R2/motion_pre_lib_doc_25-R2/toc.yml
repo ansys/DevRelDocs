@@ -1,10 +1,10 @@
 - name: Introduction
   href: index.md
-- name: Getting Started
+- name: Getting started
   items:
-  - name: Getting Started with the C# language
+  - name: Getting started with the C# language
     href: getting_started_cs.md
-  - name: Getting Started with the Python language
+  - name: Getting started with the Python language
     href: getting_started_py.md
 - name: Reference
   href: lib/VM.md
