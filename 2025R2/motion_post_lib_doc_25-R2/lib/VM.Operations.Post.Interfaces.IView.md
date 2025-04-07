@@ -88,7 +88,7 @@ string FullName { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IView](#VM_Operations_Post_Interfaces_IView).
+For an example that includes this property, see the [Interface IView](VM.Operations.Post.Interfaces.IView.md).
 
 #### Remarks
 
@@ -110,7 +110,7 @@ Guid GroupID { get; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IView](#VM_Operations_Post_Interfaces_IView).
+For an example that includes this property, see the [Interface IView](VM.Operations.Post.Interfaces.IView.md).
 
 #### Remarks
 
@@ -131,7 +131,7 @@ string GroupName { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IView](#VM_Operations_Post_Interfaces_IView).
+For an example that includes this property, see the [Interface IView](VM.Operations.Post.Interfaces.IView.md).
 
 #### Remarks
 
@@ -152,7 +152,7 @@ int ID { get; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IView](#VM_Operations_Post_Interfaces_IView).
+For an example that includes this property, see the [Interface IView](VM.Operations.Post.Interfaces.IView.md).
 
 #### Remarks
 
@@ -176,7 +176,7 @@ ViewType ViewType { get; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IView](#VM_Operations_Post_Interfaces_IView).
+For an example that includes this property, see the [Interface IView](VM.Operations.Post.Interfaces.IView.md).
 
 #### Remarks
 
@@ -198,7 +198,7 @@ void Activate()
 
 #### Examples
 
-For an example that includes this property, see the [Interface IView](#VM_Operations_Post_Interfaces_IView).
+For an example that includes this property, see the [Interface IView](VM.Operations.Post.Interfaces.IView.md).
 
 #### Remarks
 
@@ -228,7 +228,7 @@ The view relative to which the current view will be docked.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IView](#VM_Operations_Post_Interfaces_IView).
+For an example that includes this property, see the [Interface IView](VM.Operations.Post.Interfaces.IView.md).
 
 #### Remarks
 
@@ -266,7 +266,7 @@ The optional height for the exported image. If not specified, the original heigh
 
 #### Examples
 
-For an example that includes this property, see the [Interface IView](#VM_Operations_Post_Interfaces_IView).
+For an example that includes this property, see the [Interface IView](VM.Operations.Post.Interfaces.IView.md).
 
 #### Remarks
 

@@ -78,7 +78,7 @@ IOperationsLegendModifier Legend { get; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsChartViewModel](#VM_Operations_Post_Interfaces_IOperationsChartViewModel).
+For an example that includes this property, see the [Interface IOperationsChartViewModel](VM.Operations.Post.Interfaces.IOperationsChartViewModel.md).
 
 #### Remarks
 

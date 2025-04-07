@@ -119,7 +119,7 @@ double CutOffFrequency { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -139,7 +139,7 @@ FilteringType FilteringType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -161,7 +161,7 @@ FrequencyAxisType FrequencyAxisType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -183,7 +183,7 @@ double HighCutOffFrequency { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -203,7 +203,7 @@ double LowCutOffFrequency { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -223,7 +223,7 @@ int Order { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -243,7 +243,7 @@ int PointsOfWindow { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -263,7 +263,7 @@ int PolynomialOrder { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -283,7 +283,7 @@ SignalProcessingType SignalProcessingType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -305,7 +305,7 @@ SmoothingType SmoothingType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -327,7 +327,7 @@ WeightingType WeightingType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsSignalProcessingLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsSignalProcessingLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSignalProcessingLineDataSeriesViewModel.md).
 
 #### Remarks
 

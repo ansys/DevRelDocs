@@ -128,7 +128,7 @@ int Digit { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatmapNumericAxis2DViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.md).
 
 #### Remarks
 
@@ -148,7 +148,7 @@ Color FontColor { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatmapNumericAxis2DViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.md).
 
 #### Remarks
 
@@ -169,7 +169,7 @@ FontFamily FontFace { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatmapNumericAxis2DViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.md).
 
 #### Remarks
 
@@ -189,7 +189,7 @@ double FontSize { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatmapNumericAxis2DViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.md).
 
 #### Remarks
 
@@ -209,7 +209,7 @@ FontStyle FontStyle { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatmapNumericAxis2DViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.md).
 
 #### Remarks
 
@@ -231,7 +231,7 @@ FontWeight FontWeight { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatmapNumericAxis2DViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.md).
 
 #### Remarks
 
@@ -253,7 +253,7 @@ bool General { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatmapNumericAxis2DViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.md).
 
 #### Remarks
 
@@ -274,7 +274,7 @@ LabelFormatType LabelFormatType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatmapNumericAxis2DViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.md).
 
 #### Remarks
 
@@ -296,7 +296,7 @@ double ScaleInterval { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatmapNumericAxis2DViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.md).
 
 #### Remarks
 
@@ -316,7 +316,7 @@ double ScaleMax { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatmapNumericAxis2DViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.md).
 
 #### Remarks
 
@@ -336,7 +336,7 @@ double ScaleMin { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatmapNumericAxis2DViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatmapNumericAxis2DViewModel](VM.Operations.Post.Interfaces.IOperationsHeatmapNumericAxis2DViewModel.md).
 
 #### Remarks
 

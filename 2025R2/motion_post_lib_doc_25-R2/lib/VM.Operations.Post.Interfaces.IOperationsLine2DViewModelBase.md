@@ -131,7 +131,7 @@ Color Background { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -152,7 +152,7 @@ Color BorderColor { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -173,7 +173,7 @@ ChartAxisType ChartAxisType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -196,7 +196,7 @@ string ChartTitle { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -217,7 +217,7 @@ Color FontColor { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -238,7 +238,7 @@ FontFamily FontFace { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -259,7 +259,7 @@ double FontSize { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -280,7 +280,7 @@ FontStyle FontStyle { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -303,7 +303,7 @@ FontWeight FontWeight { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -341,7 +341,7 @@ An array of <xref href="VM.Operations.Post.Interfaces.IOperationsLineDataSeriesV
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -363,7 +363,7 @@ The file path where the curves will be saved.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -382,7 +382,7 @@ void ExportAllDataSeries()
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -414,7 +414,7 @@ or <code>null</code> if no such axis exists.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -443,7 +443,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsLineDataSeri
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -471,7 +471,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsLineDataSeri
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -493,7 +493,7 @@ A collection of the names of all curves currently displayed in the chart view.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -515,7 +515,7 @@ A collection of all the curves currently displayed in the chart view.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -543,7 +543,7 @@ A collection of all curves whose names contain the specified substring.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -566,7 +566,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsLineDataSeri
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -588,7 +588,7 @@ The id of the curve to be removed.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 
@@ -610,7 +610,7 @@ The instance of the curve to be removed.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModelBase](VM.Operations.Post.Interfaces.IOperationsLine2DViewModelBase.md).
 
 #### Remarks
 

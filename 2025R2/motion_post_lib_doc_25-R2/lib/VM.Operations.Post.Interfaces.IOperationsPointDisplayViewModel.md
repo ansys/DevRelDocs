@@ -84,7 +84,7 @@ int SymbolSize { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsPointDisplayViewModel](#VM_Operations_Post_Interfaces_IOperationsPointDisplayViewModel).
+For an example that includes this property, see the [Interface IOperationsPointDisplayViewModel](VM.Operations.Post.Interfaces.IOperationsPointDisplayViewModel.md).
 
 #### Remarks
 

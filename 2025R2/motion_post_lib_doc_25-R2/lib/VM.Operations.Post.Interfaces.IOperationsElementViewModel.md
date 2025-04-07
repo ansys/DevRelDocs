@@ -85,7 +85,7 @@ The new unique ID for the element. If the specified ID does not exist, the chang
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsElementViewModel](#VM_Operations_Post_Interfaces_IOperationsElementViewModel).
+For an example that includes this property, see the [Interface IOperationsElementViewModel](VM.Operations.Post.Interfaces.IOperationsElementViewModel.md).
 
 #### Remarks
 

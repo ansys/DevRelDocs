@@ -170,7 +170,7 @@ AnalysisResultType AnalysisResultType { get; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -192,7 +192,7 @@ Color BottomColor { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -213,7 +213,7 @@ string DocumentFilePath { get; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -234,7 +234,7 @@ bool IsFollowingCameraActive { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -256,7 +256,7 @@ bool IsFollowingRotXAxis { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -278,7 +278,7 @@ bool IsFollowingRotYAxis { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -300,7 +300,7 @@ bool IsFollowingRotZAxis { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -322,7 +322,7 @@ bool IsFollowingXAxis { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -344,7 +344,7 @@ bool IsFollowingYAxis { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -366,7 +366,7 @@ bool IsFollowingZAxis { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -388,7 +388,7 @@ bool IsVisibleLogo { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -409,7 +409,7 @@ bool IsVisibleNavigationCube { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -430,7 +430,7 @@ bool IsVisibleStateInfo { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -451,7 +451,7 @@ uint LogoHeight { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -472,7 +472,7 @@ string LogoPath { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -493,7 +493,7 @@ Layout LogoPosition { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -515,7 +515,7 @@ uint LogoWidth { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -536,7 +536,7 @@ Layout NavigationCubePosition { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -558,7 +558,7 @@ double Opacity { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -579,7 +579,7 @@ Layout StateInfoPosition { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -601,7 +601,7 @@ Color TextColorStateInfo { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -622,7 +622,7 @@ Color TopColor { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -643,7 +643,7 @@ TransformationType TransformationType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -681,7 +681,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsCSYSViewMode
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -750,7 +750,7 @@ A collection of sound pressure data series.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -779,7 +779,7 @@ or <code>null</code> if no such entity exists.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -803,7 +803,7 @@ or <code>null</code> if no frames are loaded.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -821,7 +821,7 @@ void PlayAnimation()
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -863,7 +863,7 @@ If <code>null</code>, the camera position will not change and will remain at the
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -887,7 +887,7 @@ The names of the target entity. The target entities are Body, Marker, Node.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -911,7 +911,7 @@ The <xref href="VM.Operations.Post.Interfaces.IViewSpec" data-throw-if-not-resol
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 
@@ -927,7 +927,7 @@ void StopAnimation()
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAnimation](#VM_Operations_Post_Interfaces_IOperationsAnimation).
+For an example that includes this property, see the [Interface IOperationsAnimation](VM.Operations.Post.Interfaces.IOperationsAnimation.md).
 
 #### Remarks
 

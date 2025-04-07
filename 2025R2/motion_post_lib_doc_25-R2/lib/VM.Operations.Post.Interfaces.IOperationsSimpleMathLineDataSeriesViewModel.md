@@ -90,7 +90,7 @@ SimpleMathType MathType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsSimpleMathLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsSimpleMathLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsSimpleMathLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSimpleMathLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -112,7 +112,7 @@ int Points { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsSimpleMathLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsSimpleMathLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsSimpleMathLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsSimpleMathLineDataSeriesViewModel.md).
 
 #### Remarks
 

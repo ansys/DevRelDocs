@@ -96,7 +96,7 @@ bool AutoRange { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsContourViewModel](#VM_Operations_Post_Interfaces_IOperationsContourViewModel).
+For an example that includes this property, see the [Interface IOperationsContourViewModel](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md).
 
 #### Remarks
 
@@ -116,7 +116,7 @@ string Component { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsContourViewModel](#VM_Operations_Post_Interfaces_IOperationsContourViewModel).
+For an example that includes this property, see the [Interface IOperationsContourViewModel](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md).
 
 #### Remarks
 
@@ -136,7 +136,7 @@ IEnumerable<string> ComponentList { get; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsContourViewModel](#VM_Operations_Post_Interfaces_IOperationsContourViewModel).
+For an example that includes this property, see the [Interface IOperationsContourViewModel](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md).
 
 #### Remarks
 
@@ -156,7 +156,7 @@ bool Continuous { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsContourViewModel](#VM_Operations_Post_Interfaces_IOperationsContourViewModel).
+For an example that includes this property, see the [Interface IOperationsContourViewModel](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md).
 
 #### Remarks
 
@@ -176,7 +176,7 @@ string FullName { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsContourViewModel](#VM_Operations_Post_Interfaces_IOperationsContourViewModel).
+For an example that includes this property, see the [Interface IOperationsContourViewModel](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md).
 
 #### Remarks
 
@@ -196,7 +196,7 @@ bool IsEnabled { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsContourViewModel](#VM_Operations_Post_Interfaces_IOperationsContourViewModel).
+For an example that includes this property, see the [Interface IOperationsContourViewModel](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md).
 
 #### Remarks
 
@@ -216,7 +216,7 @@ ColorSchemeType LegendColorScheme { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsContourViewModel](#VM_Operations_Post_Interfaces_IOperationsContourViewModel).
+For an example that includes this property, see the [Interface IOperationsContourViewModel](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md).
 
 #### Remarks
 
@@ -242,7 +242,7 @@ Color LegendFontColor { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsContourViewModel](#VM_Operations_Post_Interfaces_IOperationsContourViewModel).
+For an example that includes this property, see the [Interface IOperationsContourViewModel](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md).
 
 #### Remarks
 
@@ -262,7 +262,7 @@ bool LegendVisibility { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsContourViewModel](#VM_Operations_Post_Interfaces_IOperationsContourViewModel).
+For an example that includes this property, see the [Interface IOperationsContourViewModel](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md).
 
 #### Remarks
 
@@ -282,7 +282,7 @@ bool LogScale { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsContourViewModel](#VM_Operations_Post_Interfaces_IOperationsContourViewModel).
+For an example that includes this property, see the [Interface IOperationsContourViewModel](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md).
 
 #### Remarks
 
@@ -302,7 +302,7 @@ double Max { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsContourViewModel](#VM_Operations_Post_Interfaces_IOperationsContourViewModel).
+For an example that includes this property, see the [Interface IOperationsContourViewModel](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md).
 
 #### Remarks
 
@@ -322,7 +322,7 @@ double Min { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsContourViewModel](#VM_Operations_Post_Interfaces_IOperationsContourViewModel).
+For an example that includes this property, see the [Interface IOperationsContourViewModel](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md).
 
 #### Remarks
 
@@ -342,7 +342,7 @@ ExtremalValueType MinMaxTargetType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsContourViewModel](#VM_Operations_Post_Interfaces_IOperationsContourViewModel).
+For an example that includes this property, see the [Interface IOperationsContourViewModel](VM.Operations.Post.Interfaces.IOperationsContourViewModel.md).
 
 #### Remarks
 

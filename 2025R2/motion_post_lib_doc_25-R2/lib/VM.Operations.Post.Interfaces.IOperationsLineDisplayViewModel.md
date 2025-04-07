@@ -85,7 +85,7 @@ Color Color { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLineDisplayViewModel](#VM_Operations_Post_Interfaces_IOperationsLineDisplayViewModel).
+For an example that includes this property, see the [Interface IOperationsLineDisplayViewModel](VM.Operations.Post.Interfaces.IOperationsLineDisplayViewModel.md).
 
 #### Remarks
 
@@ -105,7 +105,7 @@ int Width { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLineDisplayViewModel](#VM_Operations_Post_Interfaces_IOperationsLineDisplayViewModel).
+For an example that includes this property, see the [Interface IOperationsLineDisplayViewModel](VM.Operations.Post.Interfaces.IOperationsLineDisplayViewModel.md).
 
 #### Remarks
 
