@@ -122,7 +122,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsPythonExpres
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsDynamicAnalysisResultViewModel](#VM_Operations_Post_Interfaces_IOperationsDynamicAnalysisResultViewModel).
+For an example that includes this property, see the [Interface IOperationsDynamicAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.md).
 
 #### Remarks
 
@@ -155,7 +155,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsVectorDispla
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsDynamicAnalysisResultViewModel](#VM_Operations_Post_Interfaces_IOperationsDynamicAnalysisResultViewModel).
+For an example that includes this property, see the [Interface IOperationsDynamicAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.md).
 
 #### Remarks
 
@@ -179,7 +179,7 @@ The number of frames to load. This parameter should be within the range of 0 to 
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsDynamicAnalysisResultViewModel](#VM_Operations_Post_Interfaces_IOperationsDynamicAnalysisResultViewModel).
+For an example that includes this property, see the [Interface IOperationsDynamicAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.md).
 
 #### Remarks
 
@@ -202,7 +202,7 @@ An enumerable collection of state IDs representing the frames to load.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsDynamicAnalysisResultViewModel](#VM_Operations_Post_Interfaces_IOperationsDynamicAnalysisResultViewModel).
+For an example that includes this property, see the [Interface IOperationsDynamicAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationsDynamicAnalysisResultViewModel.md).
 
 #### Remarks
 

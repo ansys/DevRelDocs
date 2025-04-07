@@ -97,7 +97,7 @@ double End { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsFFTLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsFFTLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsFFTLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -117,7 +117,7 @@ ScaleType FFTScaleType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsFFTLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsFFTLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsFFTLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -139,7 +139,7 @@ FFTType FFTType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsFFTLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsFFTLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsFFTLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -161,7 +161,7 @@ FFTWindowType FFTWindowType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsFFTLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsFFTLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsFFTLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -183,7 +183,7 @@ int SelectedPoints { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsFFTLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsFFTLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsFFTLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -203,7 +203,7 @@ double Start { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsFFTLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsFFTLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsFFTLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsFFTLineDataSeriesViewModel.md).
 
 #### Remarks
 

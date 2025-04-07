@@ -132,7 +132,7 @@ double Harmonic { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatmapLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatmapLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatmapLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsHeatmapLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -152,7 +152,7 @@ double Interval { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatmapLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatmapLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatmapLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsHeatmapLineDataSeriesViewModel.md).
 
 #### Remarks
 

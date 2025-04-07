@@ -85,7 +85,7 @@ string FullName { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](#VM_Operations_Post_Interfaces_IOperationsVectorDisplayBaseViewModel).
+For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md).
 
 #### Remarks
 
@@ -105,7 +105,7 @@ bool IsLabel { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](#VM_Operations_Post_Interfaces_IOperationsVectorDisplayBaseViewModel).
+For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md).
 
 #### Remarks
 
@@ -126,7 +126,7 @@ bool IsVisible { get; set; }
 #### Examples
 
 The following example demonstrates how to use the <code>IsVisible</code> property:
-<pre><code class="lang-python">For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](#VM_Operations_Post_Interfaces_IOperationsVectorDisplayBaseViewModel).</code></pre>
+<pre><code class="lang-python">For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md).</code></pre>
 
 #### Remarks
 
@@ -147,7 +147,7 @@ Color LabelBackgroundColor { get; set; }
 #### Examples
 
 The following example demonstrates how to use the <code>LabelBackGroundColor</code> property:
-<pre><code class="lang-python">For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](#VM_Operations_Post_Interfaces_IOperationsVectorDisplayBaseViewModel).</code></pre>
+<pre><code class="lang-python">For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md).</code></pre>
 
 #### Remarks
 
@@ -168,7 +168,7 @@ Color LabelTextColor { get; set; }
 #### Examples
 
 The following example demonstrates how to use the <code>LabelTextColor</code> property:
-<pre><code class="lang-python">For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](#VM_Operations_Post_Interfaces_IOperationsVectorDisplayBaseViewModel).</code></pre>
+<pre><code class="lang-python">For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md).</code></pre>
 
 #### Remarks
 
@@ -193,7 +193,7 @@ The characteristic to be set.
 #### Examples
 
 The following example demonstrates how to use the <code>SetCharacteristic</code> method:
-<pre><code class="lang-python">For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](#VM_Operations_Post_Interfaces_IOperationsVectorDisplayBaseViewModel).</code></pre>
+<pre><code class="lang-python">For an example that includes this property, see the [Interface IOperationsVectorDisplayBaseViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayBaseViewModel.md).</code></pre>
 
 #### Remarks
 

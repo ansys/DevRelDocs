@@ -112,7 +112,7 @@ public ApplicationHandler()
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -134,7 +134,7 @@ public bool IsShowMessageBox { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -159,7 +159,7 @@ A list of file paths representing the results to be imported.
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -187,7 +187,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IPage" data-throw-if-no
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -210,7 +210,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsLine2DViewMo
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -227,7 +227,7 @@ public void Close()
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -249,7 +249,7 @@ The file path of the document to be closed.
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -271,7 +271,7 @@ The ID of the page to be closed.
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -293,7 +293,7 @@ The name of the page to be closed.
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -333,7 +333,7 @@ The optional height for the exported image. If not specified, the original heigh
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -374,7 +374,7 @@ The optional height of the exported image. If not specified, the default height 
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -397,7 +397,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsAnimation" d
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -420,7 +420,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IPage" data-throw-if-no
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -443,7 +443,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsLine2DViewMo
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -472,7 +472,7 @@ An instance of <xref href="VM.ViewModels.Post.Interfaces.IOperationDocument" dat
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -500,7 +500,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IPage" data-throw-if-no
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -528,7 +528,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IPage" data-throw-if-no
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -550,7 +550,7 @@ An array of <xref href="VM.Operations.Post.Interfaces.IPage" data-throw-if-not-r
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -579,7 +579,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IView" data-throw-if-no
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -609,7 +609,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IView" data-throw-if-no
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -641,7 +641,7 @@ A list of <xref href="VM.ViewModels.Post.INumericParameter" data-throw-if-not-re
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -666,7 +666,7 @@ The file path of the document to be closed.
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 
@@ -690,7 +690,7 @@ The name of the view to be removed.
 
 #### Examples
 
-For an example that includes this property, see the [ApplicationHandler](#VM_API_Post_Operations_ApplicationHandler).
+For an example that includes this property, see the [ApplicationHandler](VM.API.Post.Operations.ApplicationHandler.md).
 
 #### Remarks
 

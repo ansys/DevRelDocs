@@ -92,7 +92,7 @@ A <xref href="System.Windows.Media.Color" data-throw-if-not-resolved="false"></x
 
 #### Examples
 
-For an example that includes this property, see the [OperationAPIService](#VM_API_Post_Operations_OperationAPIService).
+For an example that includes this property, see the [OperationAPIService](VM.API.Post.Operations.OperationAPIService.md).
 
 #### Remarks
 
@@ -120,7 +120,7 @@ A <xref href="System.Windows.Media.Color" data-throw-if-not-resolved="false"></x
 
 #### Examples
 
-For an example that includes this property, see the [OperationAPIService](#VM_API_Post_Operations_OperationAPIService).
+For an example that includes this property, see the [OperationAPIService](VM.API.Post.Operations.OperationAPIService.md).
 
 #### Remarks
 
@@ -148,7 +148,7 @@ A <xref href="System.Windows.Media.FontFamily" data-throw-if-not-resolved="false
 
 #### Examples
 
-For an example that includes this property, see the [OperationAPIService](#VM_API_Post_Operations_OperationAPIService).
+For an example that includes this property, see the [OperationAPIService](VM.API.Post.Operations.OperationAPIService.md).
 
 #### Remarks
 
@@ -176,7 +176,7 @@ A <xref href="System.Windows.FontStyle" data-throw-if-not-resolved="false"></xre
 
 #### Examples
 
-For an example that includes this property, see the [OperationAPIService](#VM_API_Post_Operations_OperationAPIService).
+For an example that includes this property, see the [OperationAPIService](VM.API.Post.Operations.OperationAPIService.md).
 
 #### Remarks
 
@@ -204,7 +204,7 @@ A <xref href="System.Windows.FontWeight" data-throw-if-not-resolved="false"></xr
 
 #### Examples
 
-For an example that includes this property, see the [OperationAPIService](#VM_API_Post_Operations_OperationAPIService).
+For an example that includes this property, see the [OperationAPIService](VM.API.Post.Operations.OperationAPIService.md).
 
 #### Remarks
 

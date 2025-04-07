@@ -124,7 +124,7 @@ double End { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.md).
 
 #### Remarks
 
@@ -145,7 +145,7 @@ ColorSchemeType LegendColorType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.md).
 
 #### Remarks
 
@@ -168,7 +168,7 @@ double Overlap { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.md).
 
 #### Remarks
 
@@ -189,7 +189,7 @@ double ReferenceValue { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.md).
 
 #### Remarks
 
@@ -210,7 +210,7 @@ int SamplingFrequency { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.md).
 
 #### Remarks
 
@@ -231,7 +231,7 @@ double ScaleFactor { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.md).
 
 #### Remarks
 
@@ -252,7 +252,7 @@ int SelectedPoints { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.md).
 
 #### Remarks
 
@@ -273,7 +273,7 @@ STFTScaleType SelectedScaleType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.md).
 
 #### Remarks
 
@@ -296,7 +296,7 @@ double Start { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.md).
 
 #### Remarks
 
@@ -317,7 +317,7 @@ double TimeSlice { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.md).
 
 #### Remarks
 
@@ -342,7 +342,7 @@ The name of the curve to be exported.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTDataViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTDataViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTDataViewModel.md).
 
 #### Remarks
 

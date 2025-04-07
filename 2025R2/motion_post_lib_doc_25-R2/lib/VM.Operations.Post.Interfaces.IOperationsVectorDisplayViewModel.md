@@ -86,7 +86,7 @@ Color Color { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsVectorDisplayViewModel](#VM_Operations_Post_Interfaces_IOperationsVectorDisplayViewModel).
+For an example that includes this property, see the [Interface IOperationsVectorDisplayViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.md).
 
 #### Remarks
 
@@ -106,7 +106,7 @@ bool IsLog { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsVectorDisplayViewModel](#VM_Operations_Post_Interfaces_IOperationsVectorDisplayViewModel).
+For an example that includes this property, see the [Interface IOperationsVectorDisplayViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.md).
 
 #### Remarks
 
@@ -126,7 +126,7 @@ double Scale { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsVectorDisplayViewModel](#VM_Operations_Post_Interfaces_IOperationsVectorDisplayViewModel).
+For an example that includes this property, see the [Interface IOperationsVectorDisplayViewModel](VM.Operations.Post.Interfaces.IOperationsVectorDisplayViewModel.md).
 
 #### Remarks
 
