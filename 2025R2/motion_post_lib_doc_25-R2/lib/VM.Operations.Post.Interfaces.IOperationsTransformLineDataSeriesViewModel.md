@@ -114,7 +114,7 @@ AlignType Align { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -136,7 +136,7 @@ string Base { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -163,7 +163,7 @@ double Coefficient { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -183,7 +183,7 @@ bool IsDecibel { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -203,7 +203,7 @@ double OffsetX { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -223,7 +223,7 @@ double OffsetY { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -243,7 +243,7 @@ double ScaleX { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -263,7 +263,7 @@ double ScaleY { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -283,7 +283,7 @@ string SelectedTransformType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -305,7 +305,7 @@ SignType Sign { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsTransformLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsTransformLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsTransformLineDataSeriesViewModel.md).
 
 #### Remarks
 

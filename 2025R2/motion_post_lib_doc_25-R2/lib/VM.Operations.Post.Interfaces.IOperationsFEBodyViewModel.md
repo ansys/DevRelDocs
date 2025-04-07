@@ -95,7 +95,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsNodeViewMode
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsFEBodyViewModel](#VM_Operations_Post_Interfaces_IOperationsFEBodyViewModel).
+For an example that includes this property, see the [Interface IOperationsFEBodyViewModel](VM.Operations.Post.Interfaces.IOperationsFEBodyViewModel.md).
 
 #### Remarks
 
@@ -127,7 +127,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsNodeViewMode
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsFEBodyViewModel](#VM_Operations_Post_Interfaces_IOperationsFEBodyViewModel).
+For an example that includes this property, see the [Interface IOperationsFEBodyViewModel](VM.Operations.Post.Interfaces.IOperationsFEBodyViewModel.md).
 
 #### Remarks
 

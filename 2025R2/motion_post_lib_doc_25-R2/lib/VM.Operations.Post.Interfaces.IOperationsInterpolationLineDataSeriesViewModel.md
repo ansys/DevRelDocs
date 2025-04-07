@@ -84,7 +84,7 @@ int Points { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsInterpolationLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsInterpolationLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsInterpolationLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsInterpolationLineDataSeriesViewModel.md).
 
 #### Remarks
 

@@ -101,7 +101,7 @@ Color Color { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md).
 
 #### Remarks
 
@@ -121,7 +121,7 @@ LineStyleType LineStyle { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md).
 
 #### Remarks
 
@@ -143,7 +143,7 @@ double PointSize { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md).
 
 #### Remarks
 
@@ -163,7 +163,7 @@ PointType PointType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md).
 
 #### Remarks
 
@@ -185,7 +185,7 @@ string SeriesName { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md).
 
 #### Remarks
 
@@ -205,7 +205,7 @@ SeriesType SeriesType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md).
 
 #### Remarks
 
@@ -227,7 +227,7 @@ int Thickness { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModelBase](#VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModelBase).
+For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModelBase](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModelBase.md).
 
 #### Remarks
 

@@ -85,7 +85,7 @@ The new unique ID for the node. If the specified ID does not exist, the change w
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsNodeViewModel](#VM_Operations_Post_Interfaces_IOperationsNodeViewModel).
+For an example that includes this property, see the [Interface IOperationsNodeViewModel](VM.Operations.Post.Interfaces.IOperationsNodeViewModel.md).
 
 #### Remarks
 

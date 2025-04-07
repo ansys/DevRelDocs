@@ -70,7 +70,7 @@ string Title { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAxisViewModelBase](#VM_Operations_Post_Interfaces_IOperationsAxisViewModelBase).
+For an example that includes this property, see the [Interface IOperationsAxisViewModelBase](VM.Operations.Post.Interfaces.IOperationsAxisViewModelBase.md).
 
 #### Remarks
 
@@ -90,7 +90,7 @@ double TitleSize { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAxisViewModelBase](#VM_Operations_Post_Interfaces_IOperationsAxisViewModelBase).
+For an example that includes this property, see the [Interface IOperationsAxisViewModelBase](VM.Operations.Post.Interfaces.IOperationsAxisViewModelBase.md).
 
 #### Remarks
 
@@ -110,7 +110,7 @@ FontWeight TitleWeight { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsAxisViewModelBase](#VM_Operations_Post_Interfaces_IOperationsAxisViewModelBase).
+For an example that includes this property, see the [Interface IOperationsAxisViewModelBase](VM.Operations.Post.Interfaces.IOperationsAxisViewModelBase.md).
 
 #### Remarks
 

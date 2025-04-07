@@ -86,7 +86,7 @@ CalculusType CalculusType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCalculusLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsCalculusLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsCalculusLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsCalculusLineDataSeriesViewModel.md).
 
 #### Remarks
 

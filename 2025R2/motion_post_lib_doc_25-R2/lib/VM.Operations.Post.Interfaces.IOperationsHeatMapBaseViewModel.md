@@ -127,7 +127,7 @@ bool IsAutoRange { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapBaseViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapBaseViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md).
 
 #### Remarks
 
@@ -149,7 +149,7 @@ Color LegendFontColor { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapBaseViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapBaseViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md).
 
 #### Remarks
 
@@ -170,7 +170,7 @@ double LegendFontSize { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapBaseViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapBaseViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md).
 
 #### Remarks
 
@@ -191,7 +191,7 @@ double Max { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapBaseViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapBaseViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md).
 
 #### Remarks
 
@@ -213,7 +213,7 @@ double Min { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapBaseViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapBaseViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md).
 
 #### Remarks
 
@@ -239,7 +239,7 @@ The file path where the curves will be saved.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapBaseViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapBaseViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md).
 
 #### Remarks
 
@@ -258,7 +258,7 @@ void ExportAllDataSeries()
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapBaseViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapBaseViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapBaseViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapBaseViewModel.md).
 
 #### Remarks
 

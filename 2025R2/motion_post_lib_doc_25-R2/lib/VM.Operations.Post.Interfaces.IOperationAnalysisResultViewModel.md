@@ -143,7 +143,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsContourViewM
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationAnalysisResultViewModel](#VM_Operations_Post_Interfaces_IOperationAnalysisResultViewModel).
+For an example that includes this property, see the [Interface IOperationAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationAnalysisResultViewModel.md).
 
 #### Remarks
 
@@ -178,7 +178,7 @@ An array of strings representing the entities applicable for the specified conto
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationAnalysisResultViewModel](#VM_Operations_Post_Interfaces_IOperationAnalysisResultViewModel).
+For an example that includes this property, see the [Interface IOperationAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationAnalysisResultViewModel.md).
 
 #### Remarks
 
@@ -201,7 +201,7 @@ An array of doubles representing the time values.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationAnalysisResultViewModel](#VM_Operations_Post_Interfaces_IOperationAnalysisResultViewModel).
+For an example that includes this property, see the [Interface IOperationAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationAnalysisResultViewModel.md).
 
 #### Remarks
 
@@ -224,7 +224,7 @@ An array of integers representing the state IDs included in the result file.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationAnalysisResultViewModel](#VM_Operations_Post_Interfaces_IOperationAnalysisResultViewModel).
+For an example that includes this property, see the [Interface IOperationAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationAnalysisResultViewModel.md).
 
 #### Remarks
 
@@ -247,7 +247,7 @@ The frame number to move to.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationAnalysisResultViewModel](#VM_Operations_Post_Interfaces_IOperationAnalysisResultViewModel).
+For an example that includes this property, see the [Interface IOperationAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationAnalysisResultViewModel.md).
 
 #### Remarks
 

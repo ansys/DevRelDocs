@@ -70,7 +70,7 @@ The path of the result file.
 
 #### Examples
 
-For an example that includes this property, see the [OutputReader](#VM_Post_API_OutputReader_OutputReader).
+For an example that includes this property, see the [OutputReader](VM.Post.API.OutputReader.OutputReader.md).
 
 #### Remarks
 
@@ -92,7 +92,7 @@ public string Path { get; }
 
 #### Examples
 
-For an example that includes this property, see the [OutputReader](#VM_Post_API_OutputReader_OutputReader).
+For an example that includes this property, see the [OutputReader](VM.Post.API.OutputReader.OutputReader.md).
 
 #### Remarks
 
@@ -112,7 +112,7 @@ public string Version { get; }
 
 #### Examples
 
-For an example that includes this property, see the [OutputReader](#VM_Post_API_OutputReader_OutputReader).
+For an example that includes this property, see the [OutputReader](VM.Post.API.OutputReader.OutputReader.md).
 
 #### Remarks
 
@@ -130,7 +130,7 @@ public void Close()
 
 #### Examples
 
-For an example that includes this property, see the [OutputReader](#VM_Post_API_OutputReader_OutputReader).
+For an example that includes this property, see the [OutputReader](VM.Post.API.OutputReader.OutputReader.md).
 
 #### Remarks
 
@@ -1059,7 +1059,7 @@ An <xref href="System.Collections.Generic.IEnumerable%601" data-throw-if-not-res
 
 #### Examples
 
-For an example that includes this property, see the [OutputReader](#VM_Post_API_OutputReader_OutputReader).
+For an example that includes this property, see the [OutputReader](VM.Post.API.OutputReader.OutputReader.md).
 
 #### Remarks
 

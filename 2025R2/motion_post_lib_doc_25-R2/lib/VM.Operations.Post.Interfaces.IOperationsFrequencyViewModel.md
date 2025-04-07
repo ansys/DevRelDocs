@@ -91,7 +91,7 @@ bool Enable { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsFrequencyViewModel](#VM_Operations_Post_Interfaces_IOperationsFrequencyViewModel).
+For an example that includes this property, see the [Interface IOperationsFrequencyViewModel](VM.Operations.Post.Interfaces.IOperationsFrequencyViewModel.md).
 
 #### Remarks
 

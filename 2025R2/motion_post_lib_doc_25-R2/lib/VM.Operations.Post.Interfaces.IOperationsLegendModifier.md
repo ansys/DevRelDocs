@@ -72,7 +72,7 @@ Color Background { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLegendModifier](#VM_Operations_Post_Interfaces_IOperationsLegendModifier).
+For an example that includes this property, see the [Interface IOperationsLegendModifier](VM.Operations.Post.Interfaces.IOperationsLegendModifier.md).
 
 #### Remarks
 
@@ -93,7 +93,7 @@ Color FontColor { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLegendModifier](#VM_Operations_Post_Interfaces_IOperationsLegendModifier).
+For an example that includes this property, see the [Interface IOperationsLegendModifier](VM.Operations.Post.Interfaces.IOperationsLegendModifier.md).
 
 #### Remarks
 
@@ -114,7 +114,7 @@ FontFamily FontFace { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLegendModifier](#VM_Operations_Post_Interfaces_IOperationsLegendModifier).
+For an example that includes this property, see the [Interface IOperationsLegendModifier](VM.Operations.Post.Interfaces.IOperationsLegendModifier.md).
 
 #### Remarks
 
@@ -135,7 +135,7 @@ double FontSize { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLegendModifier](#VM_Operations_Post_Interfaces_IOperationsLegendModifier).
+For an example that includes this property, see the [Interface IOperationsLegendModifier](VM.Operations.Post.Interfaces.IOperationsLegendModifier.md).
 
 #### Remarks
 
@@ -156,7 +156,7 @@ FontStyle FontStyle { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLegendModifier](#VM_Operations_Post_Interfaces_IOperationsLegendModifier).
+For an example that includes this property, see the [Interface IOperationsLegendModifier](VM.Operations.Post.Interfaces.IOperationsLegendModifier.md).
 
 #### Remarks
 
@@ -179,7 +179,7 @@ FontWeight FontWeight { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLegendModifier](#VM_Operations_Post_Interfaces_IOperationsLegendModifier).
+For an example that includes this property, see the [Interface IOperationsLegendModifier](VM.Operations.Post.Interfaces.IOperationsLegendModifier.md).
 
 #### Remarks
 
@@ -202,7 +202,7 @@ string ItemsInFilter { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLegendModifier](#VM_Operations_Post_Interfaces_IOperationsLegendModifier).
+For an example that includes this property, see the [Interface IOperationsLegendModifier](VM.Operations.Post.Interfaces.IOperationsLegendModifier.md).
 
 #### Remarks
 
@@ -225,7 +225,7 @@ LegendPlacementType LegendPlacement { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLegendModifier](#VM_Operations_Post_Interfaces_IOperationsLegendModifier).
+For an example that includes this property, see the [Interface IOperationsLegendModifier](VM.Operations.Post.Interfaces.IOperationsLegendModifier.md).
 
 #### Remarks
 
