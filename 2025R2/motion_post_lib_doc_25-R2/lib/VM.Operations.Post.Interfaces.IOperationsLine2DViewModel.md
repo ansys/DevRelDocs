@@ -77,7 +77,7 @@ bool AxisX { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModel](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModel).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModel](VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.md).
 
 #### Remarks
 
@@ -98,7 +98,7 @@ bool AxisY { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModel](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModel).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModel](VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.md).
 
 #### Remarks
 
@@ -119,7 +119,7 @@ bool ShowAnimationBar { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModel](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModel).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModel](VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.md).
 
 #### Remarks
 
@@ -140,7 +140,7 @@ bool ShowLegend { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModel](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModel).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModel](VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.md).
 
 #### Remarks
 
@@ -161,7 +161,7 @@ bool TrackingCurve { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModel](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModel).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModel](VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.md).
 
 #### Remarks
 
@@ -182,7 +182,7 @@ ChartAxisType TrackingOption { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLine2DViewModel](#VM_Operations_Post_Interfaces_IOperationsLine2DViewModel).
+For an example that includes this property, see the [Interface IOperationsLine2DViewModel](VM.Operations.Post.Interfaces.IOperationsLine2DViewModel.md).
 
 #### Remarks
 

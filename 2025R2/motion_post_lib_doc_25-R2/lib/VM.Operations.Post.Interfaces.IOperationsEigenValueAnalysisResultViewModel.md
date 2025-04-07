@@ -97,7 +97,7 @@ uint Frame { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsEigenValueAnalysisResultViewModel](#VM_Operations_Post_Interfaces_IOperationsEigenValueAnalysisResultViewModel).
+For an example that includes this property, see the [Interface IOperationsEigenValueAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.md).
 
 #### Remarks
 
@@ -117,7 +117,7 @@ double TargetSamplingTime { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsEigenValueAnalysisResultViewModel](#VM_Operations_Post_Interfaces_IOperationsEigenValueAnalysisResultViewModel).
+For an example that includes this property, see the [Interface IOperationsEigenValueAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.md).
 
 #### Remarks
 
@@ -141,7 +141,7 @@ An enumerable collection of <xref href="VM.Operations.Post.Interfaces.IOperation
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsEigenValueAnalysisResultViewModel](#VM_Operations_Post_Interfaces_IOperationsEigenValueAnalysisResultViewModel).
+For an example that includes this property, see the [Interface IOperationsEigenValueAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.md).
 
 #### Remarks
 
@@ -169,7 +169,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsFrequencyVie
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsEigenValueAnalysisResultViewModel](#VM_Operations_Post_Interfaces_IOperationsEigenValueAnalysisResultViewModel).
+For an example that includes this property, see the [Interface IOperationsEigenValueAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.md).
 
 #### Remarks
 
@@ -191,7 +191,7 @@ An array of doubles representing the available sampling times.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsEigenValueAnalysisResultViewModel](#VM_Operations_Post_Interfaces_IOperationsEigenValueAnalysisResultViewModel).
+For an example that includes this property, see the [Interface IOperationsEigenValueAnalysisResultViewModel](VM.Operations.Post.Interfaces.IOperationsEigenValueAnalysisResultViewModel.md).
 
 #### Remarks
 

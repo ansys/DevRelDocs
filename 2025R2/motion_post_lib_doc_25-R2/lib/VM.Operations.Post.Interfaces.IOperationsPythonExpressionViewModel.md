@@ -79,7 +79,7 @@ string Expression { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsPythonExpressionViewModel](#VM_Operations_Post_Interfaces_IOperationsPythonExpressionViewModel).
+For an example that includes this property, see the [Interface IOperationsPythonExpressionViewModel](VM.Operations.Post.Interfaces.IOperationsPythonExpressionViewModel.md).
 
 #### Remarks
 
@@ -100,7 +100,7 @@ string FullName { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsPythonExpressionViewModel](#VM_Operations_Post_Interfaces_IOperationsPythonExpressionViewModel).
+For an example that includes this property, see the [Interface IOperationsPythonExpressionViewModel](VM.Operations.Post.Interfaces.IOperationsPythonExpressionViewModel.md).
 
 #### Remarks
 

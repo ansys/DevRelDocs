@@ -121,7 +121,7 @@ bool IsWaterfallType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapSTFTViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.md).
 
 #### Remarks
 
@@ -141,7 +141,7 @@ IHeatMapSTFTView2DViewModel STFT2DViewModel { get; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapSTFTViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.md).
 
 #### Remarks
 
@@ -161,7 +161,7 @@ IHeatMapSTFTView3DViewModel STFT3DViewModel { get; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsHeatMapSTFTViewModel](#VM_Operations_Post_Interfaces_IOperationsHeatMapSTFTViewModel).
+For an example that includes this property, see the [Interface IOperationsHeatMapSTFTViewModel](VM.Operations.Post.Interfaces.IOperationsHeatMapSTFTViewModel.md).
 
 #### Remarks
 

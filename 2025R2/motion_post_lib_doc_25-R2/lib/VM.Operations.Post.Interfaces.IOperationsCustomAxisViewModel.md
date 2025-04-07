@@ -89,7 +89,7 @@ AxisType AxisType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 
@@ -110,7 +110,7 @@ int Decimal { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 
@@ -130,7 +130,7 @@ bool Default { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 
@@ -151,7 +151,7 @@ Color FontColor { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 
@@ -171,7 +171,7 @@ FontFamily FontFace { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 
@@ -191,7 +191,7 @@ bool IsAuto { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 
@@ -212,7 +212,7 @@ LabelFormatType LabelFormatType { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 
@@ -234,7 +234,7 @@ double LabelSize { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 
@@ -254,7 +254,7 @@ FontWeight LabelWeight { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 
@@ -276,7 +276,7 @@ string LogarithmicBase { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 
@@ -304,7 +304,7 @@ double ScaleInterval { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 
@@ -325,7 +325,7 @@ double ScaleMax { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 
@@ -346,7 +346,7 @@ double ScaleMin { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 
@@ -367,7 +367,7 @@ FontStyle Style { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 
@@ -389,7 +389,7 @@ string Unit { get; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](#VM_Operations_Post_Interfaces_IOperationsCustomAxisViewModel).
+For an example that includes this property, see the [Interface IOperationsCustomAxisViewModel](VM.Operations.Post.Interfaces.IOperationsCustomAxisViewModel.md).
 
 #### Remarks
 

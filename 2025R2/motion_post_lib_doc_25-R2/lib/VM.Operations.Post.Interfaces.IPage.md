@@ -84,7 +84,7 @@ string FullName { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IPage](#VM_Operations_Post_Interfaces_IPage).
+For an example that includes this property, see the [Interface IPage](VM.Operations.Post.Interfaces.IPage.md).
 
 #### Remarks
 
@@ -106,7 +106,7 @@ Guid ID { get; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IPage](#VM_Operations_Post_Interfaces_IPage).
+For an example that includes this property, see the [Interface IPage](VM.Operations.Post.Interfaces.IPage.md).
 
 #### Remarks
 
@@ -126,7 +126,7 @@ void Activate()
 
 #### Examples
 
-For an example that includes this property, see the [Interface IPage](#VM_Operations_Post_Interfaces_IPage).
+For an example that includes this property, see the [Interface IPage](VM.Operations.Post.Interfaces.IPage.md).
 
 #### Remarks
 
@@ -144,7 +144,7 @@ void Close()
 
 #### Examples
 
-For an example that includes this property, see the [Interface IPage](#VM_Operations_Post_Interfaces_IPage).
+For an example that includes this property, see the [Interface IPage](VM.Operations.Post.Interfaces.IPage.md).
 
 #### Remarks
 
@@ -167,7 +167,7 @@ The view to be closed. This can be an Animation View or a Chart View.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IPage](#VM_Operations_Post_Interfaces_IPage).
+For an example that includes this property, see the [Interface IPage](VM.Operations.Post.Interfaces.IPage.md).
 
 #### Remarks
 
@@ -191,7 +191,7 @@ The unique identifier of the view to be closed. This can represent an Animation 
 
 #### Examples
 
-For an example that includes this property, see the [Interface IPage](#VM_Operations_Post_Interfaces_IPage).
+For an example that includes this property, see the [Interface IPage](VM.Operations.Post.Interfaces.IPage.md).
 
 #### Remarks
 
@@ -215,7 +215,7 @@ The name of the view to be closed. This can represent an Animation View or a Cha
 
 #### Examples
 
-For an example that includes this property, see the [Interface IPage](#VM_Operations_Post_Interfaces_IPage).
+For an example that includes this property, see the [Interface IPage](VM.Operations.Post.Interfaces.IPage.md).
 
 #### Remarks
 
@@ -250,7 +250,7 @@ An instance of IOperationsAnimation representing the created animation view.
 
 #### Examples
 
-For an example that includes this property, see the [Interface IPage](#VM_Operations_Post_Interfaces_IPage).
+For an example that includes this property, see the [Interface IPage](VM.Operations.Post.Interfaces.IPage.md).
 
 #### Remarks
 
@@ -280,7 +280,7 @@ An instance of IOperationsLine2DViewModelBase representing the created chart vie
 
 #### Examples
 
-For an example that includes this property, see the [Interface IPage](#VM_Operations_Post_Interfaces_IPage).
+For an example that includes this property, see the [Interface IPage](VM.Operations.Post.Interfaces.IPage.md).
 
 #### Remarks
 
@@ -303,7 +303,7 @@ The currently active view within the page. If no view is active, the method retu
 
 #### Examples
 
-For an example that includes this property, see the [Interface IPage](#VM_Operations_Post_Interfaces_IPage).
+For an example that includes this property, see the [Interface IPage](VM.Operations.Post.Interfaces.IPage.md).
 
 #### Remarks
 
@@ -333,7 +333,7 @@ The view corresponding to the specified ID. If the view is not found, the method
 
 #### Examples
 
-For an example that includes this property, see the [Interface IPage](#VM_Operations_Post_Interfaces_IPage).
+For an example that includes this property, see the [Interface IPage](VM.Operations.Post.Interfaces.IPage.md).
 
 #### Remarks
 
@@ -363,7 +363,7 @@ The view corresponding to the specified name. If the view is not found, the meth
 
 #### Examples
 
-For an example that includes this property, see the [Interface IPage](#VM_Operations_Post_Interfaces_IPage).
+For an example that includes this property, see the [Interface IPage](VM.Operations.Post.Interfaces.IPage.md).
 
 #### Remarks
 
@@ -386,7 +386,7 @@ An array of views within the current page. If no views exist, the method returns
 
 #### Examples
 
-For an example that includes this property, see the [Interface IPage](#VM_Operations_Post_Interfaces_IPage).
+For an example that includes this property, see the [Interface IPage](VM.Operations.Post.Interfaces.IPage.md).
 
 #### Remarks
 

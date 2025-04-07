@@ -80,7 +80,7 @@ Vector Eye { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IViewSpec](#VM_Operations_Post_Interfaces_IViewSpec).
+For an example that includes this property, see the [Interface IViewSpec](VM.Operations.Post.Interfaces.IViewSpec.md).
 
 #### Remarks
 
@@ -102,57 +102,7 @@ Vector Target { get; set; }
 #### Examples
 
 The following example demonstrates how to use the <code>Target</code> property:
-<pre><code class="lang-python"># IViewSpec.py
-import sys
-
-current_dir = __file__.rsplit('\\', 1)[0]
-external_modules_path = current_dir + '\\..\\..\\Modules'
-sys.path.append(external_modules_path)
-
-from OperationAPI import *
-
-# Start the headless application interface
-applicationHandler = ApplicationHandler()
-
-# Import result file
-result_file_path = get_result_file_path()
-
-# Set array about result file
-filepaths = List[str]()
-filepaths.Add(result_file_path)
-
-# Open about result files
-applicationHandler.AddDocument(filepaths)
-
-# Find Page
-pages = applicationHandler.GetPages()
-
-findViews = list()
-for page in pages :
-    views = page.GetViews()
-    animationViews = [view for view in views if view.ViewType == ViewType.Animation]
-    for animationView in animationViews :
-        if animationView.DocumentFilePath == result_file_path and animationView.AnalysisResultType == AnalysisResultType.Dynamics :
-            findViews.append(animationView)
-
-viewCount = len(findViews)
-if viewCount > 0 :
-    animationview = findViews[0]
-    
-    viewSpec = ViewSpec()
-    viewSpec.Eye = Vector(10,20,30)
-    viewSpec.Target = Vector(5, 10, 15)
-    viewSpec.UpVector = Vector(1, 0, 0)
-    animationview.SetViewSpec(viewSpec)
-
-# Close the Pages
-pages = applicationHandler.GetPages()
-for page in pages :
-    page.Close()
-
-# Close the Document
-applicationHandler.CloseDocument(result_file_path)
-</code></pre>
+<pre><code class="lang-python">For an example that includes this property, see the [Interface IViewSpec](VM.Operations.Post.Interfaces.IViewSpec.md).</code></pre>
 
 #### Remarks
 
@@ -173,7 +123,7 @@ Vector UpVector { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IViewSpec](#VM_Operations_Post_Interfaces_IViewSpec).
+For an example that includes this property, see the [Interface IViewSpec](VM.Operations.Post.Interfaces.IViewSpec.md).
 
 #### Remarks
 

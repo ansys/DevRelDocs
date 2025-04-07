@@ -97,7 +97,7 @@ ILineDataSeriesAxisViewModel SourceX { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -117,7 +117,7 @@ ILineDataSeriesAxisViewModel SourceY { get; set; }
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -163,7 +163,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsLineDataSeri
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.md).
 
 #### Remarks
 
@@ -216,7 +216,7 @@ An instance of <xref href="VM.Operations.Post.Interfaces.IOperationsLineDataSeri
 
 #### Examples
 
-For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModel](#VM_Operations_Post_Interfaces_IOperationsLineDataSeriesViewModel).
+For an example that includes this property, see the [Interface IOperationsLineDataSeriesViewModel](VM.Operations.Post.Interfaces.IOperationsLineDataSeriesViewModel.md).
 
 #### Remarks
 
