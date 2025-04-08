@@ -10,7 +10,7 @@ We will now introduce OpenTD concepts and syntax in a series of example programs
 
 ## Authors
 
-OpenTD was developed and is maintained by a dedicated team of engineers:
+A dedicated team of engineers developed and maintains OpenTD:
 
 - Matthew D. Garrett
 - Timothy D. Panczak
