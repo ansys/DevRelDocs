@@ -11,7 +11,7 @@
 - · added case set group name parameter to TDSF\_CoSolver constructors
 - · added Message member to CompareSuite; just returns Log member
 - · twin lump ids are now automatically sequenced if lump.TwinId == 0
-- · added auto start of OpenTD servers on \_SAVEAS for all versions of OpenTD
+- · added auto start of OpenTD servers on \_SAVEAS for all versions of OpenTD API
 
 ## Release Notes: OpenTD 2024 R1
 
@@ -1294,7 +1294,7 @@ When you try to run your program, it throws an exception like the above, referri
 
 If that does not work, download and reinstall Thermal Desktop.
 
-## SINDA/FLUINT throws an error when I try to run a case using OpenTD
+## SINDA/FLUINT throws an error when I try to run a case using OpenTD API
 
 You have tried to run a case using CaseSet.Run but it does not work, even though you can normally run cases using the GUI. Are you running your client program from within Visual Studio using the debugger or the "Start Without Debugging" command? Try building your client and launching it by double-clicking on the exe file in Windows Explorer instead. Sometimes Visual Studio introduces environment variables into child processes that interfere with SINDA/FLUINT and cause it to fail.
 
