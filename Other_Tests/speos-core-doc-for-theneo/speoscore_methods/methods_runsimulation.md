@@ -30,3 +30,5 @@ retval = SPEOSCore.OpenFile(fileName)
 #Runs simulation
 retval = SPEOSCore.RunSimulation(0, commandline)
 ```
+
+![svg image](images/acp-graph.svg)
