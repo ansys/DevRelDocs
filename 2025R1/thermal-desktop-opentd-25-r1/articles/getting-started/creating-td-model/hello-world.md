@@ -2,7 +2,7 @@
 
 Let’s create a simple OpenTD program. Start by creating a `C\#` console application in Visual Studio. Look for the template called “Console App (.NET Framework)”, not “.NET Core” or “.NET Standard”. It should look something like this:
 
-![A screenshot of a computer screen Description automatically generated with low confidence](../media/d47e44c0a654c0607631af3cacc32f6a.png)
+![A screenshot of a computer screen Description automatically generated with low confidence](./../media/d47e44c0a654c0607631af3cacc32f6a.png)
 
 Next, add a reference to the `OpenTDv242.dll` assembly, which you can find in the GAC. (Try looking under C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\OpenTDv242.) If there are multiple directories, use the one with the highest Assembly Version, which you will see in the directory name, for example “…_24.2.0.0__...”.
 
@@ -26,11 +26,11 @@ namespace OpenTDv242GettingStarted
 }
 ```
 
-When you run the program, an instance of TD should open and a node should be created at (0, 0, 0). When you edit the node, the comment should be “Hello World!”. If any of these things are not true, check the [Troubleshooting](../troubleshooting.md) section at the end of this guide.
+When you run the program, an instance of TD should open and a node should be created at (0, 0, 0). When you edit the node, the comment should be “Hello World!”. If any of these things are not true, check the [Troubleshooting](./../troubleshooting.md) section at the end of this guide.
 
 Assuming it worked, let’s examine how. First, we created a `_ThermalDesktop_` object called `td`. This object represents one instance of TD. It has hundreds of methods for interacting with TD models. A single OpenTD client program can create an arbitrary number of ThermalDesktop instances, allowing you to manipulate several models and communicate between them.
 
-Next, we called the `ThermalDesktop._Connect()_` method. By default, this will start a new instance of TD using the latest version of AutoCAD installed. You can control how it works using the `ThermalDesktop*.ConnectConfig*` property ([Control how OpenTD connects to Thermal Desktop section](../extras.md#control-how-opentd-connects-to-thermal-desktop)).
+Next, we called the `ThermalDesktop._Connect()_` method. By default, this will start a new instance of TD using the latest version of AutoCAD installed. You can control how it works using the `ThermalDesktop*.ConnectConfig*` property ([Control how OpenTD connects to Thermal Desktop section](./../extras.md#control-how-opentd-connects-to-thermal-desktop)).
 
 `Connect()`, like most ThermalDesktop commands, is called synchronously, so it will only return control to your program once it finishes. If there is a problem, it will throw an exception. All OpenTD methods throw exceptions if there is a problem; you do not need to check return values for success.
 

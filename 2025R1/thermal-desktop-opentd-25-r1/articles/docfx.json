@@ -1,7 +1,7 @@
 {
     "build": {
         "globalMetadata": {
-            "title": "Thermal Desktop OpenTD 92.0.0.0",
+            "title": "OpenTD 92.0.0.0",
             "summary": "",
             "version": "92.0.0.0",
             "product": "Thermal Desktop",

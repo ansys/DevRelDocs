@@ -84,4 +84,4 @@ namespace OpenTDv242GettingStarted
 }
 ```
 
-If you create a mesh using the FEMeshImporter class (the preferred approach), it is important to note that the *FEMesh* definition provided during creation is only used at that time. After creation, the client-side FEMesh object is not connected to the TD model and if you want to edit the mesh, you will have to get the editable objects to modify. This is discussed in section [Query and edit finite elements](../modifying-td-models.md#query-and-edit-finite-elements).
+If you create a mesh using the FEMeshImporter class (the preferred approach), it is important to note that the *FEMesh* definition provided during creation is only used at that time. After creation, the client-side FEMesh object is not connected to the TD model and if you want to edit the mesh, you will have to get the editable objects to modify. This is discussed in section [Query and edit finite elements](./../modifying-td-models.md#query-and-edit-finite-elements).

@@ -94,6 +94,6 @@ namespace OpenTDv242GettingStarted
 
 After running the program, the kz conductivity for Material A will show that the three lists of doubles we input are now expressed as a bivariate array:
 
-![Bivariate array](../media/b81c03156e87978bef43d64eefb85d01.png)
+![Bivariate array](./../media/b81c03156e87978bef43d64eefb85d01.png)
 
 The dwg units default to SI so the pressures are shown in Pa, even though we set the OpenTD WorkingUnits to kPa. Remember that WorkingUnits are independent of dwg units (See the [Work with units, symbols, and expressions](units-symbols-expressions.md) section).

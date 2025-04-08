@@ -2,7 +2,7 @@
 
 As discussed in [Create and position finite-difference surfaces and solids](finite-difference-surfaces-and-solids.md), many OpenTD classes contain the members BaseTrans and LocalTrans, which both can be used to position entities. BaseTrans is equivalent to using AutoCAD commands like MOVE or ROTATE3D to position the entity, while LocalTrans is equivalent to using the Trans/Rot tab that can be found when editing an entity:
 
-![A screenshot of a computer Description automatically generated with medium confidence](../media/3c770a52859919ecb6e3a152a4c38b0d.png)
+![A screenshot of a computer Description automatically generated with medium confidence](./../media/3c770a52859919ecb6e3a152a4c38b0d.png)
 
 These particular Trans/Rot parameters would result in the following transformations:
 
@@ -23,7 +23,7 @@ a.Update();
 
 BaseTrans is an instance of the *Matrix3d* class, that is, it is a 4x4 matrix representing a geometric transformation:
 
-![A picture containing screenshot, text, number, font Description automatically generated](../media/24e388913334338e77b9c87f790b9e76.png)
+![A picture containing screenshot, text, number, font Description automatically generated](./../media/24e388913334338e77b9c87f790b9e76.png)
 
 The upper-left 3x3 submatrix represents a rotation. (In general it could represent many other operations, but when positioning entities using OpenTD, you should stick to rotations.) The 3x1 column vector on the right represents a translation. The bottom row should always be 0 0 0 1.
 
