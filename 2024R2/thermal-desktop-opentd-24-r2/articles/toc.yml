@@ -1,0 +1,61 @@
+- name: Introduction
+  href: index.md
+- name: Getting started
+  items:
+  - name: Prerequisites
+    href: getting-started/prerequisites.md
+  - name: Creating TD models
+    href: getting-started/creating-td-model/overview.md
+    items:
+    - name: Hello World
+      href: getting-started/creating-td-model/hello-world.md
+    - name: Create nodes and a conductor
+      href: getting-started/creating-td-model/nodes-and-conductor.md
+    - name: Use a loop to create many layers-nodes-conductors
+      href: getting-started/creating-td-model/use-a-loop.md
+    - name: Create and position finite-difference surfaces and solids
+      href: getting-started/creating-td-model/finite-difference-surfaces-and-solids.md
+    - name: Additional information on using BaseTrans and LocalTrans
+      href: getting-started/creating-td-model/basetrans-and-localtrans.md
+    - name: Create finite elements
+      href: getting-started/creating-td-model/finite-elements.md
+    - name: Work with connections
+      href: getting-started/creating-td-model/connections-handles-markers-domains.md
+    - name: Work with units
+      href: getting-started/creating-td-model/units-symbols-expressions.md
+    - name: Create thermophysical properties
+      href: getting-started/creating-td-model/bivariate-arrays.md 
+    - name: Create optical properties
+      href: getting-started/creating-td-model/optical-properties.md
+    - name: Create fluid entities
+      href: getting-started/creating-td-model/fluid-entities.md
+  - name: Modifying TD models
+    href: getting-started/modifying-td-models.md
+  - name: Interacting with end users
+    href: getting-started/interacting-with-end-users.md
+  - name: Working with case sets
+    href: getting-started/working-with-case-sets.md
+  - name: Communicating with SINDA/FLUINT
+    href: getting-started/communicating-with-sinda-fluint.md
+  - name: Reading results
+    href: getting-started/reading-results.md
+  - name: Launching programs in the Thermal Desktop Process using add-ins
+    href: getting-started/launching-programs-td-process-using-add-ins.md
+  - name: Extras
+    href: getting-started/extras.md
+  - name: Further reading
+    href: getting-started/further-reading.md
+  - name: Troubleshooting
+    href: getting-started/troubleshooting.md
+  - name: Using TD models with other languages
+    items: 
+    - name: Appendix A - Using OpenTD with MATLAB
+      href: getting-started/appendix-A-using-opentd-with-MATLAB.md
+    - name: Appendix B - Using OpenTD with Python
+      href: getting-started/appendix-B-using-opentd-with-python.md
+    - name: Appendix C - Using OpenTD with Powershell
+      href: getting-started/appendix-C-using-opentd-with-powershell.md
+    - name: Appendix D - Using OpenTD Interactively with the C# Interactive Compiler
+      href: getting-started/appendix-D-using-opentd-with-csharp-compiler.md
+- name: Changelog
+  href: changelog.md
