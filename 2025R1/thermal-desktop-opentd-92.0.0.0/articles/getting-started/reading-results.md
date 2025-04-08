@@ -7,33 +7,27 @@ OpenTD offers two ways to work with solution results:
 
     The following examples will show how to use both methods.
 
-## Work directly with results using OpenTDv242.Results
+## Work directly with results using OpenTD.Results
 
-The classes for working directly with save files, CSR’s or other solution results are found within the *OpenTDv242.Results* namespace, packaged within the OpenTDv242.Results.dll assembly. The following section describes how to set up a .NET project to access this assembly.
+The classes for working directly with save files, CSR’s or other solution results are found within the *OpenTD.Results* namespace, packaged within the OpenTD.Results.dll assembly. The following section describes how to set up a .NET project to access this assembly.
 
-### Before using OpenTDv242.Results
+### Before using OpenTD.Results
 
-To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTDv242.esults.dll assembly. You can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.ET\\assembly\\GAC_64\\OpenTDv242.Results.) You will also probably need to add a reference to OpenTDv242.dll, as usual. [See the Hello World](creating-td-model/hello-world.md)
-Since OpenTDv242.Results is a 64-bit assembly, your project will also have to be 64-bit. In Visual Studio, use the Configuration manager to create a 64-bit solution and a 64-bit project. When set up correctly, your Configuration Manager dialog should look something like this:
+To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTD.esults.dll assembly. You can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.ET\\assembly\\GAC_64\\OpenTD.Results.) You will also probably need to add a reference to OpenTD.dll, as usual. [See the Hello World](creating-td-model/hello-world.md)
+Since OpenTD.Results is a 64-bit assembly, your project will also have to be 64-bit. In Visual Studio, use the Configuration manager to create a 64-bit solution and a 64-bit project. When set up correctly, your Configuration Manager dialog should look something like this:
 ![Configuration Manager dialog](media/19913b5a9a51f4926a07426227c010fa.png)
 
 ### The basics
 
-OpenTD offers powerful tools for manipulating solution results, but it is a lot to learn all at once. This section shows how to imply get some data out of a save file or CSR.
-First, reference the OpenTDv242.Results dll as discussed above. Next, add a using statement for convenience:
+OpenTD offers powerful tools for manipulating solution results, but it is a lot to learn all at once. This section shows how to imply get some data out of a dataset (a save file, CSR, or CSR.saveX file).
+First, reference the OpenTD.Results dll as discussed above. Next, add a using statement for convenience:
 
-using OpenTDv242.Results.Dataset;
+using OpenTD.Results.Dataset;
 
-Now you can connect to a save file:
-
-```c#
-var myData = new SaveFile(@”path\\to\\sav”);
-```
-
-Or connect to a CSR:
+Now you can connect to a dataset:
 
 ```c#
-var myData = new CSR(@”path\\to\\CSR”);
+var myData = new DatasetFactory.Load(@”path\to\dataset”);
 ```
 
 To get, for example, all temperatures from a couple of nodes, pass their SINDA/FLUINT names to the *IDataset*.*GetData* method and call *GetValues(UnitsData u)* on the result:
@@ -137,15 +131,15 @@ Compared to previous methods for extracting and plotting SINDA/FLUINT data, Open
 
 In this program, we will make use of the “torchNom.sav” and “torchCold.sav” files created in the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section, so please run that program and locate the two save files.
 
-Once Visual Studio is set up with a 64-bit solution and project ( Section [Before using OpenTDv242.Results](#before-using-opentdv242results)), and you have added references to OpenTDv242.dll and OpenTDv242.Results.dll, you will be ready to try the following program.
+Once Visual Studio is set up with a 64-bit solution and project ( Section [Before using OpenTD.Results](#before-using-OpenTDresults)), and you have added references to OpenTD.dll and OpenTD.Results.dll, you will be ready to try the following program.
 
 ```c#
 using System;
-using OpenTDv242;
-using OpenTDv242.Results.Dataset;
-using OpenTDv242.Results.Plot;
+using OpenTD;
+using OpenTD.Results.Dataset;
+using OpenTD.Results.Plot;
 
-Namespace OpenTDv242GettingStarted
+Namespace OpenTDGettingStarted
 {
     class ExploreAndPlotResults
     {
@@ -158,8 +152,8 @@ Namespace OpenTDv242GettingStarted
             // in the "Create and Run a Case" example.
             // You may have to change the paths to your copies of
             // torchNom.sav and torchCold.sav.
-            var torchNom = new SaveFile(@"c:\\temp\\OpenTDCreateAndRunCase\\torchNom.sav");
-            var torchCold = new SaveFile(@"c:\\temp\\OpenTDCreateAndRunCase\\torchCold.sav");
+            var torchNom = DatasetFactory.Load(@"c:\\temp\\OpenTDCreateAndRunCase\\torchNom.sav");
+            var torchCold = DatasetFactory.Load(@"c:\\temp\\OpenTDCreateAndRunCase\\torchCold.sav");
 
             // Data is returned as DataArrays or DataArrayCollections,
             // which know their physical dimension, their source, and
@@ -253,17 +247,17 @@ If it runs correctly, you should see several *SimplePlot*-generated dialogs like
 
 The previous example provided an overview of using OpenTD to read and plot SINDA/FLUINT results. In the following example we will discuss ItemIdentifiers and DataItemIdentifiers, which allow you to specify groups of items, whether by submodel, domain, or arbitrary list.
 
-Once again, we are using the OpenTDv242.Results dll, so create a 64-bit project as discussed in [Work directly with results using OpenTDv242.Results](#work-directly-with-results-using-opentdv242results).
+Once again, we are using the OpenTD.Results dll, so create a 64-bit project as discussed in [Work directly with results using OpenTD.Results](#work-directly-with-results-using-OpenTDresults).
 
 ```C#
 using System;
 using System.IO;
 using System.Collections.Generic;
-using OpenTDv242;
-using OpenTDv242.Results.Dataset;
-using OpenTDv242.Results.Plot;
+using OpenTD;
+using OpenTD.Results.Dataset;
+using OpenTD.Results.Plot;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class WorkingWithGroups
     {
@@ -274,7 +268,7 @@ namespace OpenTDv242GettingStarted
             // You may need to change the workingDir string to the
             // dir containing torchNom.sav.
             string workingDir = @"c:\\temp\\OpenTDCreateAndRunCase";
-            var data = new SaveFile(Path.Combine(workingDir, "torchNom.sav"));
+            var data = DatasetFactory.Load(Path.Combine(workingDir, "torchNom.sav"));
 
             #region ItemIdentifiers
             // Use ItemIdentifiers to identify SINDA/FLUINT entities
@@ -497,10 +491,10 @@ The following program will read model topology from a PCS file and print out all
 using System;
 using System.Collections.Generic;
 using System.IO;
-using OpenTDv242.Results.Dataset;
-using OpenTDv242.Results.Dataset.Topology;
+using OpenTD.Results.Dataset;
+using OpenTD.Results.Dataset.Topology;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class GettingModelTopology
     {
@@ -511,7 +505,7 @@ namespace OpenTDv242GettingStarted
             // You may need to change the workingDir string to the
             // dir containing torchNom.sav.
             string workingDir = @"c:\\temp\\OpenTDCreateAndRunCase";
-            var data = new SaveFile(Path.Combine(workingDir, "torchNom.sav"));
+            var data = DatasetFactory.Load(Path.Combine(workingDir, "torchNom.sav"));
 
             // Now we'll read the PCS file, which contains topology and other
             // extra information. Topology can change with each record, so we
@@ -547,11 +541,11 @@ We will create two IBrowsers, one early in the solution and one at the final rec
 using System;
 using System.Collections.Generic;
 using System.IO;
-using OpenTDv242.Results.Dataset;
-using OpenTDv242.Results.Dataset.Topology;
-using OpenTDv242.Results.Plot;
+using OpenTD.Results.Dataset;
+using OpenTD.Results.Dataset.Topology;
+using OpenTD.Results.Plot;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class CalculatingHeatRates
     {
@@ -561,7 +555,7 @@ namespace OpenTDv242GettingStarted
             // early record: (using torchCold because we set SaveAll = 1 to
             // make sure all data req'd for Browser available)
             string workingDir = @"c:\\temp\\OpenTDCreateAndRunCase";
-            var data = new SaveFile(Path.Combine(workingDir, "torchCold.sav"));
+            var data = DatasetFactory.Load(Path.Combine(workingDir, "torchCold.sav"));
             List<long> recordNums = data.GetRecordNumbers();
             List<double> timesSec = data.GetTimes().GetValues();
             string pcsPath = Path.Combine(workingDir, "torchCold.savPCS");
@@ -613,16 +607,16 @@ SpreadsheetDataFile, for reading columns of comma-delimited data
 
 TextTransientFile, for reading the TD-specific Text Transient Dataset file, as defined in the TD manual.
 
-All of them implement the OpenTDv242.Dataset.IDataset interface, so they can be used interchangeably. The following program demonstrates treating a csv file as a Dataset using OpenTDv242.Results:
+All of them implement the OpenTD.Dataset.IDataset interface, so they can be used interchangeably. The following program demonstrates treating a csv file as a Dataset using OpenTD.Results:
 
 ```c#
 using System;
 using System.IO;
-using OpenTDv242;
-using OpenTDv242.Results.Dataset;
-using OpenTDv242.Results.Plot;
+using OpenTD;
+using OpenTD.Results.Dataset;
+using OpenTD.Results.Plot;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class ReadSpreadsheetFile
     {
@@ -719,11 +713,11 @@ The following program treats a TD Text Transient Data file as a Dataset:
 ```c#
 using System;
 using System.IO;
-using OpenTDv242;
-using OpenTDv242.Results.Dataset;
-using OpenTDv242.Results.Plot;
+using OpenTD;
+using OpenTD.Results.Dataset;
+using OpenTD.Results.Plot;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class ReadTextTransientFile
     {
@@ -848,7 +842,7 @@ Any of the above can be excluded, and the following can be added to the comparis
 - IFace names
 - Any of the hundreds of StandardDataSubtypes or FullStandardDataSubtypes (by adding them to the *DataToCompare* member) for the relevant common entities.
 
-All floating point data is compared in SI units with a default tolerance of 1%. The tolerance can be adjusted by changing the *PercentTol* member. Any items that exceed tolerance will be saved in the *Exceedances* member and can be plotted using the *PlotExceedances* method.
+All floating point data is compared in SI units with a default tolerance of 1%. The tolerance can be adjusted by changing the *DefaultComparisonMethod.PercentTol* member. Any items that exceed tolerance will be saved in the *Exceedances* member and can be plotted using the *PlotExceedances* method.
 
 *CompareAssertions* can be used to store a Comparer along with an assertion about whether the two Datasets should be identical.
 
@@ -857,8 +851,8 @@ All floating point data is compared in SI units with a default tolerance of 1%. 
 ```csharp
 using System;
 using System.IO;
-using OpenTDv242.Results.Dataset;
-namespace OpenTDv242GettingStarted
+using OpenTD.Results.Dataset;
+namespace OpenTDGettingStarted
 {
     class CompareDatasets
     {
@@ -963,22 +957,50 @@ namespace OpenTDv242GettingStarted
 }
 ```
 
-## Work with datasets in TD using OpenTDv242.PostProcessing
+### Use different comparison algorithms
 
-To work with solution results within Thermal Desktop, use the OpenTDv242.PostProcessing namespace, specifically the ThermalDesktop.*DatasetManager*. This gives you the same functionality as the “Postprocessing Datasets” dialog in the GUI.
+The Comparer class allows you to control how different types of data will be compared. By default, all data is compared by calculating the percent difference between dataset values for each common-named entity (MAIN.1, etc.) at each record, with a tolerance of 1%.
+The default comparison algorithm is contained within the `Comparer.DeafultComparisonMethod` member, which is an object that implements the ICompareData interface.
+When you create a new Comparer, DefaultComparisonMethod is set to a new PercentDifferenceCompareData, that is, an object that implements the ICompareData interface and will calculate the percent difference between record values as discussed above.
+To change the comparison algorithm used for specific data types (T, PL, etc.), you can use the `Comparer.ComparisonMethods` dictionary. Its keys are StandardDataSubtypes and its values are objects that implement the ICompareData interface. For example, to change the tolerance for PL and to use a custom method to compare FR, you could do something like this:
+
+```csharp
+Var c = new Comparer(…)
+c.ComparisonMethods = new Dictionary<StandardDataSubtypes, ICompareData>
+{
+ {
+  StandardDataSubtypes.PL, new PercentDifferenceCompareData(c, c)
+  {
+   PercentTol = 2.5,
+  }
+ },
+ {
+  StandardDataSubtypes.FR, new CustomCompareData(c, c)
+ },
+}
+```
+
+We passed the Comparer object c to the PercentDifferenceCompareData constructor because it needs to know where to get input and send output. This is accomplished using the ICompareInput and ICompareOutput members of the ICompareData interface. The Comparer implements these input/output interfaces, so we can pass it to the PercentDifferenceCompareData constructor to connect it.
+Details of the ICompareData, ICompareInput, and ICompareOutput interfaces can be found in the “OpenTD Class Reference” document. (See Section 10.)
+The source code for the PercentDifferenceCompareData class can be found at <https://www.crtech.com/forum/topic/percentdifferencecomparedata-source-code-see-getting-started-guide-explanation> , to use as an example for creating custom ICompareData algorithms.
+
+
+## Work with datasets in TD using OpenTD.PostProcessing
+
+To work with solution results within Thermal Desktop, use the OpenTD.PostProcessing namespace, specifically the ThermalDesktop.*DatasetManager*. This gives you the same functionality as the “Postprocessing Datasets” dialog in the GUI.
 
 ### Create contour plots
 
-The following program will create and run a simple model, use the OpenTDv242.Results namespace to find when the max mCp-weighted temperature of a component occurs, then use the DatasetManager to create a temperature contour at that time with TD. It will also display an XY plot of the mCp-weighted temperature, to confirm that the correct time was selected. This barely scratches the surface of what you can do with the DatasetManager!
+The following program will create and run a simple model, use the OpenTD.Results namespace to find when the max mCp-weighted temperature of a component occurs, then use the DatasetManager to create a temperature contour at that time with TD. It will also display an XY plot of the mCp-weighted temperature, to confirm that the correct time was selected. This barely scratches the surface of what you can do with the DatasetManager!
 
 ```c#
 using System.IO;
 using System.Linq;
-using OpenTDv242;
-using OpenTDv242.Dimension;
-using OpenTDv242.Results.Dataset;
-using OpenTDv242.Results.Plot;
-namespace OpenTDv242GettingStarted
+using OpenTD;
+using OpenTD.Dimension;
+using OpenTD.Results.Dataset;
+using OpenTD.Results.Plot;
+namespace OpenTDGettingStarted
 {
     class CreateContourPlots
     {
@@ -1037,7 +1059,7 @@ namespace OpenTDv242GettingStarted
             // Let's find the record for which the disk's mCp-weighted average temp
             // is highest:
             var savPath = Path.Combine(workingDir, "myCase.sav");
-            var data = new SaveFile(savPath);
+            var data = DatasetFactory.Load(savPath);
             var nodes = new ItemIdentifierCollection(
                 DataTypes.NODE, "MYDISK", data);
             var CapAvgTemp = new WeightedAverageDataArray(
@@ -1054,7 +1076,7 @@ namespace OpenTDv242GettingStarted
             var tdDataset = td.DatasetManager.CreateDataset(
                 "myCase Dataset",
                 savPath,
-                OpenTDv242.PostProcessing.Dataset.DataSourceTypes.SF);
+                OpenTD.PostProcessing.Dataset.DataSourceTypes.SF);
             tdDataset.CurrentTimeIndex = maxTindex;
             tdDataset.ShowContourPlot();
 

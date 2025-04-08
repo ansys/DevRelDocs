@@ -5,9 +5,9 @@ It is easy to create two nodes and a conductor using the GUI. The real usefulnes
 ```c#
 using System;
 using System.Collections.Generic;
-using OpenTDv242;
+using OpenTD;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class UseLoop
     {

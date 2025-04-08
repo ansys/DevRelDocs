@@ -6,9 +6,9 @@ Creating a finite element mesh using the *FEMeshImporter* class is demonstrated 
 
 ```c#
 using System;
-using OpenTDv242;
+using OpenTD;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class CreateFiniteElements
     {
@@ -32,7 +32,7 @@ namespace OpenTDv242GettingStarted
             // The FEMesh object is a lightweight description of the mesh, with
             // lightweight nodes and elements that are only used as input to
             // the SetMesh command.
-            var feMesh = new OpenTDv242.RadCAD.FEModel.FEMesh();
+            var feMesh = new OpenTD.RadCAD.FEModel.FEMesh();
             int uDiv = 10;
             int vDiv = 10;
             double height = 0.5;
@@ -50,7 +50,7 @@ namespace OpenTDv242GettingStarted
                     double x = i * xLen / uDiv;
                     double z = height * Math.Cos(x / xLen * xPeriods * 2.0 * Math.PI) * Math.Cos(y / yLen * yPeriods * 2.0 * Math.PI);
                     // lightweight node description:
-                    var node = new OpenTDv242.RadCAD.FEModel.Node();
+                    var node = new OpenTD.RadCAD.FEModel.Node();
                     node.x = x;
                     node.y = y;
                     node.z = z;
@@ -62,7 +62,7 @@ namespace OpenTDv242GettingStarted
                     if (i < uDiv && j < vDiv)
                     {
                         // lightweight surface description:
-                        var face = new OpenTDv242.RadCAD.FEModel.SurfaceElement();
+                        var face = new OpenTD.RadCAD.FEModel.SurfaceElement();
                         face.id = ++elemId;
                         face.order = 1;
                         face.numNodes = 4;

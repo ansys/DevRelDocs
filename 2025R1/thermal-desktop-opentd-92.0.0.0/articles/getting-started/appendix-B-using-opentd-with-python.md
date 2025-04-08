@@ -3,7 +3,7 @@
 While it is not feasible for us to maintain separate "Getting Started with OpenTD" guides for every programming language, we would still like to help you get started with OpenTD, even if you are not using C\#. The following .py script is a MATLAB port of the program in the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section. This can be used as a sort of "Rosetta Stone" to help you translate other C\# examples to Python. It uses the pythonnet module, found at: [http://pythonnet.github.io/](http://pythonnet.github.io/).
 
 ```python
-\#\#\#\# Using OpenTDv242 with Python \#\#\#\#
+\#\#\#\# Using OpenTD with Python \#\#\#\#
 \# CRTech
 \# Feb, 2022
 \# Created with Python 2.7.15 and pythonnet 2.3.0
@@ -21,13 +21,13 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 \# compelling reasons for you to connect to OpenTD via Python. It is
 \# possible using the pythonnet module:
 \# http://pythonnet.github.io/
-\# To get started with OpenTD, read "Getting Started with OpenTDv242.pdf",
+\# To get started with OpenTD, read "Getting Started with OpenTD.pdf",
 \# which can be found in your TD v241 installation directory under "Manual".
 \# The Getting Started guide explains the fundamental concepts of OpenTD,
 \# using several C\# examples. We've ported one of those examples to Python
 \# below.
 \#\#\#\# The "Create and Run a Case" example ported to Python \#\#\#\#
-\# See "Getting Started with OpenTDv242.pdf" in your TD v241 installation
+\# See "Getting Started with OpenTD.pdf" in your TD v241 installation
 \# directory under "Manual" for an explanation of this script.
 \# Note: Please contact us at crtech.support@ansys.com if you think there are
 \# better ways to use OpenTD with Python, especially with regard to setting
@@ -36,18 +36,18 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 import sys
 import clr
 \# Need to add explicit GAC path to sys.path so clr.AddReference
-\# can find OpenTDv242.dll. Note the use of forward slashes in the path:
-sys.path.append("C:/Windows/Microsoft.NET/assembly/GAC_MSIL/OpenTDv242/ReplaceMe")
-clr.AddReference("OpenTDv242")
-from OpenTDv242 import \*
+\# can find OpenTD.dll. Note the use of forward slashes in the path:
+sys.path.append("C:/Windows/Microsoft.NET/assembly/GAC_MSIL/OpenTD/ReplaceMe")
+clr.AddReference("OpenTD")
+from OpenTD import \*
 \# We'll want to use .NET System types and generic Lists:
 from System import \*
 from System.Collections.Generic import List
 \# To access dimensional quantities in OpenTD, we need to use Dimensionals.
 \# These are cast to/from doubles implicitly in C\#, but here we'll need to
 \# refer to them explicitly. (See setting InitialTemp, below.)
-from OpenTDv242 import Dimension
-from OpenTDv242.Dimension import \*
+from OpenTD import Dimension
+from OpenTD.Dimension import \*
 td = ThermalDesktop()
 td.Connect()
 \# \*\*\* Create a simple model of a heated bar \*\*\*

@@ -10,9 +10,9 @@ The following program shows how to use WorkingUnits, symbols, and expressions:
 using System;
 using System.Collections.Generic;
 using System.Linq; // for the Select method, below
-using OpenTDv242;
+using OpenTD;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class WorkWithUnitsSymbolsExpressions
     {

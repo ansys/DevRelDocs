@@ -12,9 +12,9 @@ If that does not work, download and reinstall Thermal Desktop.
 
 You have tried to run a case using CaseSet.Run but it does not work, even though you can normally run cases using the GUI. Are you running your client program from within Visual Studio using the debugger or the “Start Without Debugging” command? Try building your client and launching it by double-clicking on the exe file in Windows Explorer instead. Sometimes Visual Studio introduces environment variables into child processes that interfere with SINDA/FLUINT and cause it to fail.
 
-## Unhandled Exception: System.BadImageFormatException: Could not load file or assembly 'OpenTDv242.Results […]’ or one of its dependencies. An attempt was made to load a program with an incorrect format.
+## Unhandled Exception: System.BadImageFormatException: Could not load file or assembly 'OpenTD.Results […]’ or one of its dependencies. An attempt was made to load a program with an incorrect format.
 
-When you try to run a program that references OpenTDv242.Results.dll, you might get this exception. We had to compile OpenTDv242.Results.dll for x64 platforms, not “Any CPU” like many .NET assemblies. This means that if you reference it, your program also needs to compile for x64 platforms. See the [Work directly with results using OpenTDv242.Results](reading-results.md#work-directly-with-results-using-opentdv242results) section for more information on how to set up your program correctly.
+When you try to run a program that references OpenTD.Results.dll, you might get this exception. We had to compile OpenTD.Results.dll for x64 platforms, not “Any CPU” like many .NET assemblies. This means that if you reference it, your program also needs to compile for x64 platforms. See the [Work directly with results using OpenTD.Results](reading-results.md#work-directly-with-results-using-OpenTDresults) section for more information on how to set up your program correctly.
 
 ## My problem is not listed here
 

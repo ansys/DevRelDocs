@@ -4,9 +4,9 @@ If you have a RadCAD license, you can create optical properties with OpenTD. The
 
 ```c#
 using System.Collections.Generic;
-using OpenTDv242;
+using OpenTD;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class CreateOpticalProperties
     {
