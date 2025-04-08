@@ -9,9 +9,9 @@ OpenTD can be used to interact with the Case Set Manager to create and run cases
 ```c#
 using System.Collections.Generic;
 using System.IO;
-using OpenTDv242;
+using OpenTD;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class CreateAndRunCase
     {
@@ -107,10 +107,10 @@ Solution files, including “torchNom.sav” and “torchCold.sav”, will be wr
 Orbits are created using the ThermalDesktop.*CreateOrbit* method. Once created, they are applied to case sets by adding a new item to the *CaseSet.RadiationTasks* list. This can also be used to add other types of radiation tasks, such as RADK calculations, as shown in the following program:
 
 ```c#
-using OpenTDv242;
-using OpenTDv242.RadCAD;
+using OpenTD;
+using OpenTD.RadCAD;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class CreateOrbit
     {

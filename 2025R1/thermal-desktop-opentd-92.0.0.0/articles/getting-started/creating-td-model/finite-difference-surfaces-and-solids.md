@@ -11,8 +11,8 @@ You can use OpenTD to create Finite Difference (FD) surfaces and solids, and oth
  Here is a program that demonstrates creating FD entities and positioning them using BaseTrans and LocalTrans:
 
 ```c#
-using OpenTDv242;
-namespace OpenTDv242GettingStarted
+using OpenTD;
+namespace OpenTDGettingStarted
 {
     class PositionFiniteDifference
     {

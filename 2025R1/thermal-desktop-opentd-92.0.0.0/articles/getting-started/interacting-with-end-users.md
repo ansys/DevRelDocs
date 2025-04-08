@@ -34,7 +34,7 @@ System.Drawing.Bitmap ThermalDesktop.CaptureGraphicsArea()
 
 The Bitmap object it returns can be saved to a file, or further processed within your program.
 
-Caution: Internally, this method uses the Windows clipboard to get the bitmap out of TD. Unfortunately, it deletes anything that was on the clipboard before.
+Known issue: if AutoCAD is in fast-shaded mode then this command will return an all-black image if the visual style is set to SHADED, SHADED_W_EDGES, or WIRE.
 
 ## Working with the selection set
 
@@ -49,9 +49,9 @@ The following program demonstrates working with selection sets. It also uses the
 ```c#
 using System;
 using System.Linq;
-using OpenTDv242;
+using OpenTD;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class Selections
     {
@@ -105,7 +105,7 @@ namespace OpenTDv242GettingStarted
                                       where entity.RawType == "RcLump"
                                       select entity.Connection.Handle;
             Console.WriteLine($"User selected {selectedNodeHandles.Count()}" +
-            $" nodes and {LumpHandles.Count()} lumps.");
+            $" nodes and {selectedLumpHandles.Count()} lumps.");
         }
     }
 }
@@ -115,7 +115,7 @@ namespace OpenTDv242GettingStarted
 
 Using log files to record program operations and errors can be a helpful technique, especially when debugging problems. OpenTD offers access to a powerful logging framework, the same one used by us within TD.
 
-To use the logging framework, you will create an OpenTDv242.*Logging.Logger* object, then call various methods on it to send messages to log files. The messages have one of the following levels assigned to them, from most to least important: Error, Warning, Information, and Verbose.
+To use the logging framework, you will create an OpenTD.*Logging.Logger* object, then call various methods on it to send messages to log files. The messages have one of the following levels assigned to them, from most to least important: Error, Warning, Information, and Verbose.
 
 Loggers are created using the *LoggerFactory* class, usually as a static member of a class. For example, here is the one we use internally for the ThermalDesktop class:
 
@@ -124,7 +124,7 @@ private static readonly Logger log =
 LoggerFactory.GetLogger(typeof(ThermalDesktop).ToString());
 ```
 
-The LoggerFactory.*GetLogger* method accepts a string representing the name of the logger. This name will be used to route messages from the logger to files. Conventionally, this is the full name of the class that it is defined in, to make it obvious where messages originated. In the above line, we used “typeof(ThermalDesktop).ToString()” instead of the literal string “OpenTDv242.ThermalDesktop” to ensure that the name is correct with no typos. Did you notice the typo in that literal string?
+The LoggerFactory.*GetLogger* method accepts a string representing the name of the logger. This name will be used to route messages from the logger to files. Conventionally, this is the full name of the class that it is defined in, to make it obvious where messages originated. In the above line, we used “typeof(ThermalDesktop).ToString()” instead of the literal string “OpenTD.ThermalDesktop” to ensure that the name is correct with no typos. Did you notice the typo in that literal string?
 
 After calling GetLogger, your log is ready to use. Interestingly, you don’t define a log file location within your program. Instead, this is controlled at runtime using the configuration file located at %localappdata%\\ThermalDesktop\\OpenTDLogConfig.xml. This makes logging more flexible. During debugging on an end-user’s computer, you can adjust this configuration file to concentrate on the problem areas in your program.
 
@@ -173,26 +173,26 @@ Two types of objects are defined in the configuration file: loggers and listener
 You’ll note that in the default configuration file, we have defined several loggers for various versions of OpenTD. For example:
 
 ```lua
-\<Logger name="OpenTDv242" level="Information" listeners="Log, ErrorLog"/\>
+\<Logger name="OpenTD" level="Information" listeners="Log, ErrorLog"/\>
 ```
 
-This means that any logger in an OpenTD client program whose name starts with OpenTDv242 will activate this logger, as long as it is sending a message at the Information level or above. It will send its messages to the listeners called *Log* and *ErrorLog*.
+This means that any logger in an OpenTD client program whose name starts with OpenTD will activate this logger, as long as it is sending a message at the Information level or above. It will send its messages to the listeners called *Log* and *ErrorLog*.
 
 There is also a *RootLogger* defined. This is activated by any loggers whose names do not match the named loggers defined in the \<Loggers\> block.
 
-There are three listeners defined, corresponding to three output files. Listener Log will write any-level messages to `%localappdata%\\ThermalDesktop\\log\\OpenTD.Client.log`, while listener ErrorLog will only write Error-level messages to `OpenTD.Client.Error.log`. And the OpenTDDemos listener will write any-level messages to `OpenTDv242Demos.log`.
+There are three listeners defined, corresponding to three output files. Listener Log will write any-level messages to `%localappdata%\\ThermalDesktop\\log\\OpenTD.Client.log`, while listener ErrorLog will only write Error-level messages to `OpenTD.Client.Error.log`. And the OpenTDDemos listener will write any-level messages to `OpenTDDemos.log`.
 
 Using the default configuration file, let’s look at some examples of how messages are routed to files.
 
 ### Example 1
 
-The Logger called “OpenTDv242.ThermalDesktop” sends an Error-level message:
+The Logger called “OpenTD.ThermalDesktop” sends an Error-level message:
 
 ```
 log.LogError(“Component A is not working”);
 ```
 
-Logger “OpenTDv242” defined in the configuration file recognizes this logger because its name starts with “OpenTDv242”, and it routes messages at Information-level and above, so it routes this message to listeners Log and ErrorLog.
+Logger “OpenTD” defined in the configuration file recognizes this logger because its name starts with “OpenTD”, and it routes messages at Information-level and above, so it routes this message to listeners Log and ErrorLog.
 
 Listener Log writes messages at any level, so it writes this message to file OpenTD.Client.log.
 
@@ -200,13 +200,13 @@ Listener ErrorLog writes messages at Error-level, so it writes this message to O
 
 ### Example 2
 
-The Logger called “OpenTDv242.ThermalDesktop” sends a Verbose-level message:
+The Logger called “OpenTD.ThermalDesktop” sends a Verbose-level message:
 
 ```
 log.LogVerbose(“Component A is starting”);
 ```
 
-Logger “OpenTDv242” defined in the configuration file recognizes this logger because its name starts with “OpenTDv242”, but it only routes messages at Information-level and above, so it does not route this message.
+Logger “OpenTD” defined in the configuration file recognizes this logger because its name starts with “OpenTD”, but it only routes messages at Information-level and above, so it does not route this message.
 
 ### Example 3
 

@@ -20,9 +20,9 @@ The following program demonstrates these concepts:
 
 ```c#
 using System.Collections.Generic;
-using OpenTDv242;
+using OpenTD;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class WorkWithConnections
     {

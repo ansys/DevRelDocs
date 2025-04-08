@@ -7,8 +7,8 @@ The Extras section covers advanced topics and additional functionalities in Open
 In this guide, we mostly call ThermalDesktop.Connect() with default options, which means it starts a new instance of TD with the latest version of AutoCAD available, then creates a new, blank drawing. To change this behavior, set the ThermalDesktop.*ConnectConfig* member before calling Connect(), as shown in the following program, which hides the AutoCAD window while it’s running:
 
 ```c#
-using OpenTDv242;
-namespace OpenTDv242GettingStarted
+using OpenTD;
+namespace OpenTDGettingStarted
 {
     class ControlHowOpenTDConnects
     {
@@ -50,10 +50,10 @@ A client program communicates with TD via an OpenTD server launched within the a
 
 There are commands you can use at the AutoCAD command line to query and start OpenTD servers:
 
-- **RCOPENTDV242**: This command will ask you for a pipe endpoint name and start a server with that name.
-- **RCOPENTDV242RANDOM**: This command will start a server with a random name.
-- **RCOPENTDV242DWG**: This command will start a server with a name based on the dwg pathname. It is included for completeness, but there should never be a reason to call it, since it is called automatically by TD.
-- **RCOPENTDV242LISTSERVERS**: This command will list the pipe endpoint names of the active OpenTDv242 servers.
+- **RCOpenTD**: This command will ask you for a pipe endpoint name and start a server with that name.
+- **RCOpenTDRANDOM**: This command will start a server with a random name.
+- **RCOpenTDDWG**: This command will start a server with a name based on the dwg pathname. It is included for completeness, but there should never be a reason to call it, since it is called automatically by TD.
+- **RCOpenTDLISTSERVERS**: This command will list the pipe endpoint names of the active OpenTD servers.
 
 To connect a client program to a server based on endpoint name, set ThermalDesktop.ConnectConfig.PipeEndpointName before calling Connect() – (See the [Control how OpenTD connects to Thermal Desktop](#control-how-opentd-connects-to-thermal-desktop) section).
 
@@ -70,8 +70,8 @@ In addition to the string containing the command, there are two optional paramet
 The following program demonstrates using SendCommand:
 
 ```c#
-using OpenTDv242;
-namespace OpenTDv242GettingStarted
+using OpenTD;
+namespace OpenTDGettingStarted
 {
     class ExecuteAutocadCommands
     {
@@ -105,7 +105,7 @@ Before OpenTD, there was a Windows Component Object Model (COM) interface to TD.
 
 In OpenTD, the ThermalDesktop.*SendLegacyComCommand* method emulates the TD COM parser without actually using a COM connection.
 
-Most TD COM functionality can be accomplished using native OpenTD methods. The SendLegacyComCommand method is included for completeness, and to ease the process of migrating an existing TD COM application to OpenTD. SendLegacyComCommand is not recommended to be used by new OpenTD applications.
+Most TD COM functionality can be accomplished using native OpenTD methods. The SendLegacyComCommand method is included for completeness, and to ease the process of migrating an existing TD COM application to OpenTD. SendLegacyComCommand is not recommended to be used for new OpenTD applications.
 
 Since the underlying RadCAD functions used by the COM server report success/failure via the AutoCAD console and not via a return value, SendLegacyComCommand may appear to succeed when it did not. It will only throw exceptions if it doesn't recognize a command or if the command crashes AutoCAD, and not if the command fails in some non-catastrophic way.
 
@@ -235,6 +235,9 @@ OpenTD uses implicit casting in many places. For example, to cast StandardDataSu
 
 ## A note on OpenTD versioning
 
-OpenTDv242 is included with TD as the OpenTDv242.dll, OpenTDv242.CoSolver.dll, and OpenTDv242.Results.dll assemblies installed in the Global Assembly Cache (GAC). All OpenTDv242 types are contained within the "OpenTDv242" namespace. Any changes we make to this interface will be additive. That is, we will not remove classes or methods. Therefore, you can write software referencing OpenTDv242 knowing that it will not be broken by updates or new releases of TD.
+OpenTD is included with TD as the OpenTD.dll, OpenTD.CoSolver.dll, and OpenTD.Results.dll assemblies installed in the Global Assembly Cache (GAC). All OpenTD types are contained within the "OpenTD" namespace. Any changes we make to this interface will be additive. That is, we will not remove classes or methods. Therefore, you can write software referencing OpenTD knowing that it will not be broken by updates or new releases of TD.
 
-Each subsequent release of OpenTD will be contained in its own family of dll’s (OpenTDv64.dll, OpenTDv64.Results.dll, etc.) and use its own namespace. When we develop each subsequent release, we will start with a complete copy of the previous release, then make changes only as required. Most commands should remain unchanged from release to release, and you should be able to take advantage of new features in new versions of OpenTD with a minimum of changes to your old programs.
+Previously we changed the dll filenames and namespaces to reflect the current version, and released a new version of OpenTD with each version of TD. Starting with assembly version 92.0.0.0 released with TD 2025 R1, we will no longer do either of those things. That is, from this point forward versioning will be accomplished entirely using .NET version numbers.
+
+Each time the dll’s are built, we will update the File Versions. For interface-breaking changes, we will also update the Assembly Version of the affected dll(s).
+

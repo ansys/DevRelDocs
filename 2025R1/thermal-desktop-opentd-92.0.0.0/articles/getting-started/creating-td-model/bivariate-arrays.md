@@ -4,9 +4,9 @@ The following program demonstrates how to create or open a thermophysical proper
 
 ```c#
 using System.Collections.Generic;
-using OpenTDv242;
+using OpenTD;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class CreateThermophysicalProps
     {

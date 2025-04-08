@@ -3,7 +3,7 @@
 While it is not feasible for us to maintain separate "Getting Started with OpenTD" guides for every programming language, we would still like to help you get started with OpenTD, even if you are not using C\#. The following .m script is a MATLAB port of the program in the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section. This can be used as a sort of "Rosetta Stone" to help you translate other C\# examples to MATLAB.
 
 ```MATLAB
-%% Using OpenTDv242 with MATLAB
+%% Using OpenTD with MATLAB
 % CRTech
 % Tested with MATLAB R2023b
 % OpenTD is an Application Programming Interface (API) for Thermal Desktop
@@ -20,25 +20,25 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 % compelling reasons for you to connect to OpenTD via MATLAB. It is
 % possible, although the way MATLAB handles .NET enums is awkward and
 % MATLAB does not support implicit constructors.
-% To get started with OpenTD, read "Getting Started with OpenTDv242.pdf",
+% To get started with OpenTD, read "Getting Started with OpenTD.pdf",
 % which can be found in your TD v241 installation directory under "Manual".
 % The Getting Started guide explains the fundamental concepts of OpenTD,
 % using several C\# examples. We've ported one of those examples to MATLAB
 % below.
 %% The "Create and Run a Case" example ported to MATLAB
-% See "Getting Started with OpenTDv242.pdf" in your TD v241 installation
+% See "Getting Started with OpenTD.pdf" in your TD v241 installation
 % directory under "Manual" for an explanation of this script.
 % Note: Please contact us at crtech.support@ansys.com if you think there are
 % better ways to use OpenTD with MATLAB, especially with regard to .NET
 % enums and implicit constructors. For examples of awkward code, see how a
 % node is set to be a boundary node and how the InitialTemp of a node is
 % set -- in the script below vs. in the original C\#.
-openTD = NET.addAssembly('OpenTDv242');
-import OpenTDv242.\*;
+openTD = NET.addAssembly('OpenTD');
+import OpenTD.\*;
 td = ThermalDesktop;
 td.Connect();
 % \*\*\* Create a simple model of a heated bar \*\*\*
-barNodes = NET.createArray('OpenTDv242.Node', 10);
+barNodes = NET.createArray('OpenTD.Node', 10);
 for i = 1:10
 n = td.CreateNode();
 n.Submodel = SubmodelNameData('bar');
@@ -58,12 +58,12 @@ c.Update();
 end
 roomAir = td.CreateNode();
 roomAir.Submodel = SubmodelNameData('room');
-roomAir.NodeType = OpenTDv242.('RcNodeData+NodeTypes').BOUNDARY;
+roomAir.NodeType = OpenTD.('RcNodeData+NodeTypes').BOUNDARY;
 roomAir.Origin = Point3d(0.055, 1.1, 0);
 roomAir.InitialTemp = Dimensional(roomAir.InitialTemp, 300);
 roomAir.Update();
 barConnections = NET.createGeneric(...
-'System.Collections.Generic.List', {'OpenTDv242.Connection'},10);
+'System.Collections.Generic.List', {'OpenTD.Connection'},10);
 for i = 1:10
 barConnections.Add(Connection(barNodes(i).Handle));
 end
@@ -74,7 +74,7 @@ convection.Submodel = SubmodelNameData('room');
 convection.Update();
 qTorch = td.CreateSymbol('qTorch', '80');
 heatLoadConnections = NET.createGeneric(...
-'System.Collections.Generic.List', {'OpenTDv242.Connection'},1);
+'System.Collections.Generic.List', {'OpenTD.Connection'},1);
 heatLoadConnections.Add(Connection(barNodes(1).Handle));
 torch = td.CreateHeatLoad(heatLoadConnections);
 torch.ValueExp.Value = qTorch.Name;

@@ -9,7 +9,7 @@ PowerShell is likely already installed on your Windows machine. If not, or you'd
 Here’s a simple PowerShell script that loads OpenTD, creates a ThermalDesktop instance and opens it:
 
 ```powershell
-Add-Type -Path "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\OpenTDv242\\v4.0_23.2.0.0__65e6d95ed5c2e178\\OpenTDv242.dll"
-\$td = New-Object -TypeName 'OpenTDv232.ThermalDesktop'
-\$td.Connect()
+Add-Type -Path "ReplaceWithPathTo\OpenTD.dll"
+$td = New-Object -TypeName 'OpenTD.ThermalDesktop'
+$td.Connect()
 ```

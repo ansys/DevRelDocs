@@ -30,9 +30,9 @@ Here is a program that demonstrates how to query a model and make simple edits. 
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using OpenTDv242;
+using OpenTD;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class QueryModel
     {
@@ -136,9 +136,9 @@ As mentioned previously in the [Additional information on positioning entities u
 ```c#
 using System;
 using System.Linq;
-using OpenTDv242;
-using OpenTDv242.RadCAD.FEM;
-namespace OpenTDv242GettingStarted
+using OpenTD;
+using OpenTD.RadCAD.FEM;
+namespace OpenTDGettingStarted
 {
     class QueryAndEditFiniteElements
     {
@@ -148,7 +148,7 @@ namespace OpenTDv242GettingStarted
             td.Connect();
             // First we'll create a mesh using an FEMeshImporter:
             var meshImporter = td.CreateFEMeshImporter("a mesh importer", false);
-            var feMesh = new OpenTDv242.RadCAD.FEModel.FEMesh();
+            var feMesh = new OpenTD.RadCAD.FEModel.FEMesh();
             int uDiv = 3;
             int vDiv = 3;
             double height = 0.5;
@@ -167,7 +167,7 @@ namespace OpenTDv242GettingStarted
                     double z = height \*
                     Math.Cos(x / xLen \*xPeriods \*2.0 \*Math.PI) \*
                     Math.Cos(y / yLen \*yPeriods \*2.0 \*Math.PI);
-                    var node = new OpenTDv242.RadCAD.FEModel.Node();
+                    var node = new OpenTD.RadCAD.FEModel.Node();
                     node.x = x;
                     node.y = y;
                     node.z = z;
@@ -178,7 +178,7 @@ namespace OpenTDv242GettingStarted
                     feMesh.nodes.Add(node);
                     if (i \< uDiv && j \< vDiv)
                     {
-                        var face = new OpenTDv242.RadCAD.FEModel.SurfaceElement();
+                        var face = new OpenTD.RadCAD.FEModel.SurfaceElement();
                         face.id = ++elemId;
                         face.order = 1;
                         face.numNodes = 4;

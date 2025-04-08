@@ -3,8 +3,8 @@
 This program demonstrates how to create two nodes and connect them with a conductor. To try it, create a .NET Framework C\# console application that references OpenTD, add the following code, then compile and run it.
 
 ```c#
-using OpenTDv242;
-namespace OpenTDv242GettingStarted
+using OpenTD;
+namespace OpenTDGettingStarted
 {
     class CreateNodesAndConductors
     {

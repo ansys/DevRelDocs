@@ -4,13 +4,13 @@ Let’s create a simple OpenTD program. Start by creating a `C\#` console applic
 
 ![A screenshot of a computer screen Description automatically generated with low confidence](../media/d47e44c0a654c0607631af3cacc32f6a.png)
 
-Next, add a reference to the `OpenTDv242.dll` assembly, which you can find in the GAC. (Try looking under C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\OpenTDv242.) If there are multiple directories, use the one with the highest Assembly Version, which you will see in the directory name, for example “…_24.2.0.0__...”.
+Next, add a reference to the `OpenTD.dll` assembly, which you can find in the GAC. (Try looking under C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\OpenTD.) If there are multiple directories, use the one with the highest Assembly Version, which you will see in the directory name, for example “…_92.0.0.0__...”.
 
 Add the following code, then compile and run the program:
 
 ```csharp
-using OpenTDv242;
-namespace OpenTDv242GettingStarted
+using OpenTD;
+namespace OpenTDGettingStarted
 {
     class HelloWorld
     {

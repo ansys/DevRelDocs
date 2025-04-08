@@ -4,10 +4,10 @@ With a FloCAD license, you can use OpenTD to work with FloCAD entities, using me
 
 ```c#
 using System.Collections.Generic;
-using OpenTDv242;
-using OpenTDv242.FloCAD;
+using OpenTD;
+using OpenTD.FloCAD;
 
-namespace OpenTDv242GettingStarted
+namespace OpenTDGettingStarted
 {
     class CreateFluidEntities
     {
