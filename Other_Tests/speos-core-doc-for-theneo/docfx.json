@@ -1,13 +1,13 @@
 {
     "build": {
       "globalMetadata": {
-        "title": "Speos Core methods 2025 R1 test 2",
+        "title": "Speos Core methods 2025 R1",
         "summary": "",
-        "version": "2025 R2",
-        "product": "Test product name for MD",
+        "version": "2025 R1",
+        "product": "Speos",
         "programming language": "IronPython",
-        "product collection": "Prod collection test 1",
-        "physics": "Physics test 2"
+        "product collection": "Optics",
+        "physics": "Optics"
       }
     }
  }
