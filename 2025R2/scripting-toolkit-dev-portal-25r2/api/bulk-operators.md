@@ -1,6 +1,6 @@
-<a id="bulk-operators"></a>
-
 # Bulk operators
+
+<a id="bulk-operators"></a>
 
 <a id="GRANTA_MIScriptingToolkit.granta.mi_bulk_utilities.AttributeFetcher"></a>
 

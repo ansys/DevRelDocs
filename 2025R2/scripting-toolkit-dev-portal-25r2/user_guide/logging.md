@@ -1,6 +1,6 @@
-<a id="logging"></a>
-
 # Logging
+
+<a id="logging"></a>
 
 Scripting Toolkit logs internal operations using the Python logging module. Scripting Toolkit defines a hierarchy of
 loggers which log the following information:

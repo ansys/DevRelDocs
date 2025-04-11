@@ -1,8 +1,8 @@
+# Attribute definitions
+
 <a id="attribute-defs"></a>
 
 <a id="attribute-definitions"></a>
-
-# Attribute definitions
 
 <a id="pseudo-attribute-def"></a>
 

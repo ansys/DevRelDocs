@@ -1,6 +1,6 @@
-<a id="user-guide"></a>
-
 # User guide
+
+<a id="user-guide"></a>
 
 ![|project| communicates to Granta MI via a SOAP API](_static/architecture.png)
 

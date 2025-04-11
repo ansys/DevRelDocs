@@ -1,6 +1,6 @@
-<a id="streamlined-api-structure"></a>
-
 # Streamlined API structure
+
+<a id="streamlined-api-structure"></a>
 
 The Streamlined [Streamlined API reference](../api/index.md) documents all the classes and functions that make up the
 interface, and is split up into sections which represent the different logical components of the Streamlined API. These

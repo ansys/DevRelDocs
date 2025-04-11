@@ -1,6 +1,6 @@
-<a id="granta-project-version"></a>
-
 # Granta MI Scripting Toolkit 4.2
+
+<a id="granta-project-version"></a>
 
 * [Getting started](getting_started/index.md): Learn how to install MI Scripting Toolkit and run some simple commands.
 * [User guide](user_guide/index.md): Learn more about MI Scripting Toolkit.

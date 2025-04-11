@@ -1,8 +1,8 @@
+# Changelog
+
 <a id="release-notes"></a>
 
 <a id="changelog"></a>
-
-# Changelog
 
 <a id="id1"></a>
 

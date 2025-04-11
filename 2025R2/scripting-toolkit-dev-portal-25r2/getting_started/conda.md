@@ -1,6 +1,6 @@
-<a id="installation-with-conda"></a>
-
 # Installation with conda
+
+<a id="installation-with-conda"></a>
 
 <a id="server-software-requirements"></a>
 

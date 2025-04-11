@@ -1,8 +1,8 @@
+# Schema and supporting items
+
 <a id="sub-attribute-level"></a>
 
 <a id="schema-and-supporting-items"></a>
-
-# Schema and supporting items
 
 <a id="GRANTA_MIScriptingToolkit.granta.mi_meta_classes.LinkGroupDetails"></a>
 

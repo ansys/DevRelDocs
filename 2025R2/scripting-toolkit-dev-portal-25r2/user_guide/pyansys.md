@@ -1,6 +1,6 @@
-<a id="project-and-pyansys"></a>
-
 # MI Scripting Toolkit and PyAnsys
+
+<a id="project-and-pyansys"></a>
 
 <a id="new-pyansys-packages-for-granta-mi"></a>
 

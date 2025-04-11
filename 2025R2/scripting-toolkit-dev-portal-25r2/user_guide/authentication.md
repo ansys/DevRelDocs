@@ -1,21 +1,6 @@
-<!-- import getpass
-import GRANTA_MIScriptingToolkit.granta as mpy -->
-<!-- def new_getpass():
-    return "password"
-
-getpass.getpass = new_getpass -->
-<!-- def new_Session_ctor(self: mpy.Session, *args, **kwargs) -> None:
-    pass
-
-mpy.Session.__init__ = new_Session_ctor -->
-<!-- def noop(self: mpy.Session):
-    pass
-
-mpy.Session.persist_oidc_token = noop -->
+# Authentication
 
 <a id="authentication"></a>
-
-# Authentication
 
 <a id="introduction"></a>
 

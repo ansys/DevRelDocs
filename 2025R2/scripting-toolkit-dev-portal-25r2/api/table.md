@@ -1,8 +1,8 @@
+# Table
+
 <a id="table-level"></a>
 
 <a id="table"></a>
-
-# Table
 
 <a id="GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table"></a>
 
