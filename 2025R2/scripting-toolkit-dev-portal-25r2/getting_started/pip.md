@@ -1,5 +1,4 @@
-
-# Installation with pip - recommended
+# Installation with pip (recommended)
 
 <a id="installation-with-pip-recommended"></a>
 
