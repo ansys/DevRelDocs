@@ -47,15 +47,15 @@ report, to avoid breaching organizational data confidentiality policies.
 
 1. Create a new ``Python Script`` Source in Power BI via the ``Get Data`` button.
 
-   ![The list of data providers is filtered to show only Python, and "Python script" is selected.](assets/12_power-bi-python.PNG 'Power BI "Get Data" selection')
+   ![The list of data providers is filtered to show only Python, and "Python script" is selected.](assets/12_power-bi-python.PNG)
 2. Copy the content of the script cell below into the ``Script`` input.
 
-   ![The "Script" input containing MI Scripting Toolkit Python code.](assets/12_power-bi-python-setup.PNG 'Power BI "Python script" input')
+   ![The "Script" input containing MI Scripting Toolkit Python code.](assets/12_power-bi-python-setup.PNG)
 3. Update the connection URL and authentication method appropriately.
 4. Click `OK` to validate the script definition. Power BI will execute the script and report errors, if any.
 5. Select which DataFrames to import as datasets. Click the `Load` button to confirm.
 
-   ![A list of Pandas DataFrame objects are shown on the left, and a preview of the "tables" DataFrame is shown on the right.](assets/12_power-bi-dataframes-loading.PNG 'Power BI DataFrame navigator')
+   ![A list of Pandas DataFrame objects are shown on the left, and a preview of the "tables" DataFrame is shown on the right.](assets/12_power-bi-dataframes-loading.PNG)
 6. Verify that column types and dataset relationships are correctly defined.
 7. Build your report visualizations.
 
