@@ -229,7 +229,7 @@ Open the `presentation_title_only.pptx` file to see the presentation template po
 the `PRESENTATION_TITLE_ATTRIBUTE` attribute value. A screenshot of the presentation title
 slide is shown below:
 
-![A PowerPoint title slide showing the name of the material.](assets/11_presentation-screenshot-title-slide.png 'Presentation title slide')
+![A PowerPoint title slide showing the name of the material.](assets/11_presentation-screenshot-title-slide.png)
 
 The presentation will not be saved to disk again until the report is complete. If you want to see
 the effects of individual operations on the presentation, use the ``prs.save`` method to save the
@@ -348,7 +348,7 @@ for idx, (attribute_name, label) in enumerate(DESCRIPTION_ATTRIBUTES.items()):
 
 A screenshot of the generated slide is shown below.
 
-![A PowerPoint slide titled "Material details" with a bulleted list of material properties.](assets/11_presentation-screenshot-material-details.png 'Presentation material details slide')
+![A PowerPoint slide titled "Material details" with a bulleted list of material properties.](assets/11_presentation-screenshot-material-details.png)
 
 ## Room temperature properties slide
 
@@ -429,7 +429,7 @@ for (attribute_name, label), row in zip(SINGLE_VALUED_PROPERTIES.items(), proper
 
 A screenshot of the generated slide is shown below.
 
-![A PowerPoint slide titled "Room temperature properties" with a tabulated list of material properties.](assets/11_presentation-screenshot-room-temperature.png 'Room temperature properties')
+![A PowerPoint slide titled "Room temperature properties" with a tabulated list of material properties.](assets/11_presentation-screenshot-room-temperature.png)
 
 ## 5. Add functional data to the presentation
 
@@ -591,7 +591,7 @@ for attribute_name, (title, y_label, x_label, constraint_info) in GRAPHS.items()
 
 A screenshot of the stress-strain slide is shown below.
 
-![A PowerPoint slide titled "Stress vs Strain and Temperature" with a graph showing a stress-strain response at multiple temperatures.](assets/11_presentation-screenshot-stress-strain.png 'Presentation material stress-strain')
+![A PowerPoint slide titled "Stress vs Strain and Temperature" with a graph showing a stress-strain response at multiple temperatures.](assets/11_presentation-screenshot-stress-strain.png)
 
 ## 6. Save the presentation
 
