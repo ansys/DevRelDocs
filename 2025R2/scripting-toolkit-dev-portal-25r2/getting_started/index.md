@@ -1,6 +1,6 @@
-<a id="getting-started"></a>
-
 # Getting started
+
+<a id="getting-started"></a>
 
 <a id="introduction"></a>
 

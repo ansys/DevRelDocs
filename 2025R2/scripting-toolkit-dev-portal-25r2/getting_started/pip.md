@@ -1,6 +1,7 @@
-<a id="installation-with-pip-recommended"></a>
 
 # Installation with pip (recommended)
+
+<a id="installation-with-pip-recommended"></a>
 
 <a id="server-software-requirements"></a>
 

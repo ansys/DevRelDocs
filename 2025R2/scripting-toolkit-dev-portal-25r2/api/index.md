@@ -1,6 +1,6 @@
-<a id="api-reference"></a>
-
 # API reference
+
+<a id="api-reference"></a>
 
 Reference documentation for the Scripting Toolkit API.
 

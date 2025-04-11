@@ -1,8 +1,8 @@
+# Database
+
 <a id="db-level"></a>
 
 <a id="database"></a>
-
-# Database
 
 <a id="GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Database"></a>
 

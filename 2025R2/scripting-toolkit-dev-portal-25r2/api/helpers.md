@@ -1,8 +1,8 @@
+# Helper functions
+
 <a id="functions"></a>
 
 <a id="helper-functions"></a>
-
-# Helper functions
 
 <a id="GRANTA_MIScriptingToolkit.granta.mi.connect"></a>
 

@@ -1,67 +1,6 @@
-<!-- import datetime
-from unittest.mock import Mock
-
-import GRANTA_MIScriptingToolkit.granta as mpy
-
-# Record mocks
-mocked_record = Mock(spec_set=mpy.Record)
-
-name_attribute = Mock(spec_set=mpy.AttributeShortText)
-name_attribute.value = "Aluminum, 7075, wrought, T6"
-
-density_attribute = Mock(spec_set=mpy.AttributeRange)
-density_attribute.value = {"low": 10, "high": 11}
-density_attribute.unit = "kg/m^3"
-
-mocked_record.attributes = {
-    "Material name": name_attribute,
-    "Density": density_attribute,
-}
-mocked_record.children = [Mock(spec_set=mpy.Record)]
-mocked_record.links = {
-    "Tensile Statistical Data": [Mock(spec_set=mpy.Record) for x in range(6)],
-}
-mocked_record.release_state = "Released"
-mocked_record.delete_or_withdraw_record_on_server = Mock(
-    spec_set=mpy.Record.delete_or_withdraw_record_on_server,
-    return_value=None,
-)
-mocked_record.set_attributes = Mock(spec_set=mpy.Record.set_attributes, return_value=None)
-
-# Table mocks
-table_mock = Mock(spec_set=mpy.Table)
-table_mock.create_record = Mock(spec_set=mpy.Table.create_record, return_value=mocked_record)
-table_mock.all_records = Mock(spec_set=mpy.Table.all_records, return_value=[mocked_record for x in range(1000)])
-
-first_leaf = Mock(mpy.Record)
-first_leaf.name = "path"
-first_leaf.color = mpy.RecordColor.Fuchsia
-first_leaf.path = ["our", "new"]
-second_leaf = Mock(mpy.Record)
-second_leaf.name = "route"
-new = Mock(mpy.Record)
-new.color = mpy.RecordColor.Fuchsia
-second_leaf.parent = new
-second_leaf.color = mpy.RecordColor.Silver
-second_leaf.path = ["our", "new"]
-table_mock.path_from = Mock(spec_set=mpy.Table.path_from, side_effect=[first_leaf, second_leaf])
-table_mock.bulk_fetch = Mock(spec_set=mpy.Table.bulk_fetch, return_value=None)
-table_mock.bulk_link_fetch = Mock(spec_set=mpy.Table.bulk_link_fetch, return_value=None)
-
-# Database mocks
-db_mock = Mock(spec_set=mpy.Database)
-db_mock.get_table = Mock(spec_set=mpy.Database.get_table, return_value=table_mock)
-
-# Session mocks
-mi = Mock(mpy.Session)
-mi.update = Mock(spec_set=mpy.Session.update, return_value=[Mock(mpy.Record)])
-mi.get_db = Mock(spec_set=mpy.Session.get_db, return_value=db_mock)
-mi.bulk_fetch_release_states = Mock(spec_set=mpy.Session.bulk_fetch_release_states, return_value=None)
-mi.bulk_delete_or_withdraw_records = Mock(spec_set=mpy.Session.bulk_delete_or_withdraw_records, return_value=None) -->
+# Performance optimization
 
 <a id="performance-optimization"></a>
-
-# Performance optimization
 
 <a id="introduction"></a>
 

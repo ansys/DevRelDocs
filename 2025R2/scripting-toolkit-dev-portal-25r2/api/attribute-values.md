@@ -1,8 +1,8 @@
+# Attribute values
+
 <a id="attribute-vals"></a>
 
 <a id="attribute-values"></a>
-
-# Attribute values
 
 <a id="GRANTA_MIScriptingToolkit.granta.mi_attribute_value_classes.AttributeValue"></a>
 

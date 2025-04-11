@@ -1,6 +1,6 @@
-<a id="versioning"></a>
-
 # Versioning
+
+<a id="versioning"></a>
 
 The Streamlined API has a stable interface and changes follow [Semantic Versioning](https://semver.org/) where-ever
 possible. Outside of major releases, only backwards-compatible changes will be made. It is sometimes necessary to make

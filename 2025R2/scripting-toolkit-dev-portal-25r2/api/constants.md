@@ -1,6 +1,6 @@
-<a id="constants"></a>
-
 # Constants
+
+<a id="constants"></a>
 
 <a id="GRANTA_MIScriptingToolkit.granta.mi_attribute_classes.RecordProperties"></a>
 

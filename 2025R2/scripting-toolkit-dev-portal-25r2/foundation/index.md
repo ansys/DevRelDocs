@@ -1,6 +1,6 @@
-<a id="foundation-api"></a>
-
 # Foundation API
+
+<a id="foundation-api"></a>
 
 The Foundation API provides a low-level wrapper around the base functionality provided by the Server Layer SOAP API. As
 a result, a detailed knowledge of the Service Layer SOAP API is required, and care is needed around managing request

@@ -1,6 +1,6 @@
-<a id="exceptions"></a>
-
 # Exceptions
+
+<a id="exceptions"></a>
 
 <a id="GRANTA_MIScriptingToolkit.granta.mi_meta_classes.UnsupportedLinkGroupError"></a>
 

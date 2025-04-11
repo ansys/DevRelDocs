@@ -1,6 +1,6 @@
-<a id="copyright-and-trademark-information"></a>
-
 # Copyright and trademark information
+
+<a id="copyright-and-trademark-information"></a>
 
 © 2025 ANSYS, Inc. or its affiliated companies. All rights reserved
 
