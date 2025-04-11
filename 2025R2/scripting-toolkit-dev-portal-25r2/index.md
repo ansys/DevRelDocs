@@ -1,4 +1,4 @@
-# Granta MI Scripting Toolkit 4.2
+# Introduction
 
 <a id="granta-project-version"></a>
 

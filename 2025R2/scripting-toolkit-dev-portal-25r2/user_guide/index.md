@@ -12,7 +12,7 @@ MI Scripting Toolkit is a Python package that connects to your Granta MI applica
 the SOAP API. The package consists of the Streamlined API, the Foundation API, and C++ libraries, as shown in the
 diagram below.
 
-This user guide focuses on the [Streamlined API](). It provides guidance and best practice on how to develop scripts and
+This user guide focuses on the Streamlined API. It provides guidance and best practice on how to develop scripts and
 applications that interact with Granta MI during their operation.
 
 <a id="streamlined-api"></a>
