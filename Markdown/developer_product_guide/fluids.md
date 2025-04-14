@@ -114,7 +114,8 @@ There are no developer tools available at this time.
 
 Thermal Desktop includes a .NET API named OpenTD.
 
-[Application Programming Interface (API) for Thermal Desktop](https://www.crtech.com/opentd-thermal-desktop-api)
+* [Thermal Desktop for developers (Developer Portal documentation)](https://developer.ansys.com/docs/thermal-desktop)
+* [Application Programming Interface (API) for Thermal Desktop](https://www.crtech.com/opentd-thermal-desktop-api)
 
 ### Ansys Thermal Desktop training material
 
