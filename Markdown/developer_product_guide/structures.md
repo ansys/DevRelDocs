@@ -50,7 +50,8 @@ LS-DYNA has an open-source Python interface named PyDYNA.
 
 Ansys Sherlock has an open-source Python interface named PySherlock.
 
-[PySherlock documentation (PyAnsys)](https://sherlock.docs.pyansys.com/)
+* [Sherlock for developers (Developer Portal documentation)](https://developer.ansys.com/docs/sherlock)
+* [PySherlock documentation (PyAnsys)](https://sherlock.docs.pyansys.com/)
 
 ### Ansys Sherlock training material
 
@@ -67,7 +68,7 @@ However, Ansys Forming runs on the LS-DYNA solver. For more information, see LS-
 
 Ansys Motion provides both a preprocessor C# library and a postprocessor C# library.
 
-[Motion for developers (Developer Portal documentation](https://developer.ansys.com/docs/motion)
+[Motion for developers (Developer Portal documentation)](https://developer.ansys.com/docs/motion)
 
 * [Motion Standalone Preprocessor C# library 2024 R2](https://developer.ansys.com/docs/motion-standalone-preprocessor-c-sharp-library-2024-r2/index.md)
 * [Motion Standalone Postprocessor C# library 2024 R2](https://developer.ansys.com/docs/motion-standalone-postprocessor-c-sharp-library-2024-r2/index.md)
