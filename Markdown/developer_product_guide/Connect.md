@@ -31,7 +31,8 @@ Minerva provides the Minerva Transfer Client, which gives access to the Minerva 
 
 ## ModelCenter
 
-[Ansys ModelCenter Workflow documentation (PyAnsys)](https://modelcenter.docs.pyansys.com/version/stable/)
+* [ModelCenter for developers (Developer Portal documentation)](https://developer.ansys.com/docs/model-center)
+* [Ansys ModelCenter Workflow documentation (PyAnsys)](https://modelcenter.docs.pyansys.com/version/stable/)
 
 ### Ansys ModelCenter training material
 

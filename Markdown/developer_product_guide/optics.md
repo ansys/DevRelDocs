@@ -20,12 +20,19 @@ The Lumerical Automation API let's you interact with Lumerical’s solvers and p
 
 ## Speos
 
+Speos has a variety of developer tools available.
+
+* [Speos for developers (Developer Portal documentation)](https://developer.ansys.com/docs/speos)
+* [PySpeos documentation (PyAnsys)](https://speos.docs.pyansys.com/version/stable/index.html)
+
+The following is a summary of what is available.
+
 * Speos Client APIs are available for Windows in IronPython.
 * Speos for NX library is available for Windows in Python.
 * Speos Labs automation APIs are available for Windows in VB Script and C++.
 * Speos core methods are available for Windows in COM.
-* Speos has a gRPC API. For more information, see [Speos for developers (Developer Portal documentation](https://developer.ansys.com/docs/speos).
-* Speos has a PyAnsys library, PySpeos, based on the gRPC API. For more information, see[PySpeos documentation (PyAnsys)](https://speos.docs.pyansys.com/version/stable/index.html).
+* Speos has a gRPC API.
+* Speos has a PyAnsys library, PySpeos, based on the gRPC API.
 
 ### Ansys Speos Training
 
@@ -43,9 +50,9 @@ This API is a COM-enabled .NET library available for Windows, with templates and
 * MATLAB
 * Mathematica
 
-For more information, see [Ansys Zemax OpticStudio for developers (Developer Portal documentation](https://developer.ansys.com/docs/zemax)
+For more information, see [Ansys Zemax OpticStudio for developers (Developer Portal documentation)](https://developer.ansys.com/docs/zemax)
 
-### Ansys Zemax training material 
+### Ansys Zemax training material
 
 * [Getting Started with ZOS-API](https://support.zemax.com/hc/en-us/articles/23511411341331-Getting-Started-with-ZOS-API)
 * [Programming for All: How to Enhance Simulation with OpticStudio and ZOS-API](https://www.ansys.com/en-gb/blog/programming-for-all)
