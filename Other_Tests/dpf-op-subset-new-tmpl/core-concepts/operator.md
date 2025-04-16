@@ -1,4 +1,4 @@
-# Operator
+# Operator fundamentals
 
 The Operator is the only object used to create and transform the data. It can be seen as an integrated circuit in electronics with a range of pins in input and in output. When the operator is evaluated, it will process the input information to compute its output with respect to its description. The operator is made of:
 

@@ -2,21 +2,21 @@
   href: index.md
 - name: Core concepts
   items:
-  - name: DPF overview
-    href: core-concepts/dpf.md
-  - name: Data containers
+  - name: Overview of DPF
+    href: core-concepts/dpf-overview.md
+  - name: Understanding data containers
     href: core-concepts/data-containers.md
-  - name: Operator
+  - name: Operator fundamentals
     href: core-concepts/operator.md
 - name: Getting started
   items:
-  - name: Using data containers
+  - name: How to use data containers
     href: getting-started/using-data-containers.md
-  - name: Using operators
+  - name: How to use operators
     href: getting-started/using-operators.md
-  - name: Workflow examples
+  - name: Workflow examples for beginners
     href: getting-started/workflow-examples.md
-- name: Operator specification
+- name: Operator specifications
   items:
   - name: averaging
     items:
