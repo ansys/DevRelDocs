@@ -1,10 +1,10 @@
-# Example of workflows and their scripts
+# Example of workflows for beginners
 
 ## Total deformation
 
 This elementary workflow allows the user to simply read a displacement vector from an analysis and compute its norm.
 
-Python script
+Example of usage
 
 - Cpp
 
@@ -29,7 +29,7 @@ ansys::dpf::FieldsContainer my_u_norm = norm_op.getOutputFieldsContainer(0);
 
 This workflow allows the user to read the stress tensors for a range of time steps from an analysis, to implicitly average those elemental nodal tensors to a nodal location, to compute it's Von Mises equivalent and finally, to compute the minimum and the maximum over time for each component of the nodal equivalent tensors. This workflow is an example of use of the time scoping pin. This pin expects a scoping in input and allows the user to choose the time or frequency sets of his results.
 
-Python script
+Example of usage
 
 - Cpp
 
@@ -60,7 +60,7 @@ ansys::dpf::Field my_max = min_max_op.getOutputField(1);
 
 This workflow is an example of use of the mesh scoping in input of a result reader. Here, the user can extract a mesh scoping (a set of spatial entities: node or elements for example) from a named selection created in mechanical or mapdl. This mesh scoping is then used as an input of a strain tensors reader. The output of this workflow is the strain tensors scoped only on the named selection. Two different versions of this workflow is available: the first one extracts the elements of the named selection and returns an elemental nodal field, the second extracts the nodes of the named selection, the strain reader will consequently average the tensors on the node to take into account the nodal mesh scoping in input.
 
-Python script
+Example of usage
 
 - Cpp
 
@@ -90,7 +90,7 @@ ansys::dpf::FieldsContainer my_nodal_strains = strain_op.getOutputFieldsContaine
 
 This workflow is another example of use of the mesh scoping in input of a result reader. Here, the user requests a mesh scoping including all the elements of mapdl element type 186. This mesh scoping is then used as an input of a stress tensors reader. The output of this workflow is the stress tensors on all the elements of element type 186.
 
-Python script
+Example of usage
 
 - Cpp
 
@@ -120,7 +120,7 @@ ansys::dpf::FieldsContainer my_elemental_nodal_stress = stress_op.getOutputField
 
 This advanced workflow computes the normal ZZ stress averaged on elements and apply a high pass filter keeping all the stress values higher than 0.5*maximum stress.
 
-Python script
+Example of usage
 
 - Cpp
 
@@ -161,7 +161,7 @@ ansys::dpf::FieldsContainer fields = high_pass.getOutputFieldsContainer(0);
 
 This workflow shows the computation of stresses in a multibody simulation without doing averaging across the different bodies.
 
-Python script
+Example of usage
 
 - Cpp
 

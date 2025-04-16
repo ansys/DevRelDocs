@@ -23,7 +23,7 @@ Transforms Elemental Nodal fields into Nodal fields using an averaging process. 
 | Input | Name| Expected type(s) | Required | Description |
 |-------|-----|------|----------|-------------|
 | **Pin 0** | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | Yes |  |
-| **Pin 1** | weights |[`class dataProcessing::DpfTypeCollection<class dataProcessing::CPropertyField>`](../../getting-started/using-data-containers.md#class-dataProcessing::DpfTypeCollection<class-dataProcessing::CPropertyField>) | Yes | Gives for each node, the number of times it was found in the Elemental Nodal field. Can be used to average later. |
+| **Pin 1** | weights |[`class dataProcessing::DpfTypeCollection<class dataProcessing::CPropertyField>`](../../getting-started/using-data-containers.md#class-dataprocessing::dpftypecollection<class-dataprocessing::cpropertyfield>) | Yes | Gives for each node, the number of times it was found in the Elemental Nodal field. Can be used to average later. |
 
 ## Configurations
 

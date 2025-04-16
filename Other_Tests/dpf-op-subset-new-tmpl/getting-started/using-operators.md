@@ -1,4 +1,4 @@
-# How to use operators in C++ code
+# How to use operators
 
 ## Operator types
 

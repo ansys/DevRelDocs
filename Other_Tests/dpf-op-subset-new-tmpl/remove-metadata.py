@@ -29,5 +29,5 @@ def remove_metadata_and_blank_lines_from_folder(folder_path):
                 remove_metadata_and_blank_lines_from_file(file_path)
 
 # Replace 'your_folder_path' with the path to your folder
-folder_path = '.'
+folder_path = r'c:\Users\mguyot\Documents\ansys\DevRelDocs\Other_Tests\dpf-op-subset-new-tmpl'
 remove_metadata_and_blank_lines_from_folder(folder_path)

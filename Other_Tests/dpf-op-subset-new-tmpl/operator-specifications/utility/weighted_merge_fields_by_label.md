@@ -13,7 +13,7 @@ Performs a weighted merge on fields of a fields container that share the same la
 | **Pin 1** | label |[`string`](../../getting-started/using-data-containers.md#string) | Yes | Label identifier that should be merged. |
 | **Pin 2** | merged_field_support |[`abstract_field_support`](../../getting-started/using-data-containers.md#abstract-field-support) | No | The FieldsContainer's support that has already been merged. |
 | **Pin 3** | sum_merge |[`bool`](../../getting-started/using-data-containers.md#bool) | No | Default is false. If true, redundant quantities are summed instead of being ignored. |
-| **Pin 1000** | weights |[`vector<shared_ptr<class dataProcessing::DpfTypeCollection<class dataProcessing::CPropertyField>>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<class-dataProcessing::DpfTypeCollection<class-dataProcessing::CPropertyField>>>), [`property_field`](../../getting-started/using-data-containers.md#property-field) | Yes | Weights to apply to each field from pin 1000 to ... |
+| **Pin 1000** | weights |[`vector<shared_ptr<class dataProcessing::DpfTypeCollection<class dataProcessing::CPropertyField>>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<class-dataprocessing::dpftypecollection<class-dataprocessing::cpropertyfield>>>), [`property_field`](../../getting-started/using-data-containers.md#property-field) | Yes | Weights to apply to each field from pin 1000 to ... |
 
 ## Outputs
 

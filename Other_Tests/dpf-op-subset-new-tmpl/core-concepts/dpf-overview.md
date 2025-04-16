@@ -1,4 +1,4 @@
-# DPF overview
+# Overview of DPF
 
 The Data Processing Framework (DPF) is designed to provide numerical simulation users/engineers with a toolbox for accessing and transforming simulation data. DPF can access data from solver result files as well as several neutral formats (csv, hdf5, vtk, etc.). Various operators are available allowing the manipulation and the transformation of this data. DPF is a workflow-based framework which allows simple and/or complex evaluations by chaining operators. The data in DPF is defined based on physics agnostic mathematical quantities described in a self-sufficient entity called field. This allows DPF to be a modular and easy to use tool with a large range of capabilities. It's a product designed to handle large amount of data.
 

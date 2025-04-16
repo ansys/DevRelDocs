@@ -18,7 +18,7 @@ Read/compute elemental summable miscellaneous data by calling the readers define
 | **Pin 7** | mesh |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region), [`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) | No | prevents from reading the mesh in the result files |
 | **Pin 10** | item_index |[`int32`](../../getting-started/using-data-containers.md#int32) | No | Index of requested item. |
 | **Pin 11** | num_components |[`int32`](../../getting-started/using-data-containers.md#int32) | No | Number of components for the requested item. |
-| **Pin 14** | read_cyclic |[`enum dataProcessing::ECyclicReading`](../../getting-started/using-data-containers.md#enum-dataProcessing::ECyclicReading), [`int32`](../../getting-started/using-data-containers.md#int32) | No | if 0 cyclic symmetry is ignored, if 1 cyclic sector is read, if 2 cyclic expansion is done, if 3 cyclic expansion is done and stages are merged (default is 1) |
+| **Pin 14** | read_cyclic |[`enum dataProcessing::ECyclicReading`](../../getting-started/using-data-containers.md#enum-dataprocessing::ecyclicreading), [`int32`](../../getting-started/using-data-containers.md#int32) | No | if 0 cyclic symmetry is ignored, if 1 cyclic sector is read, if 2 cyclic expansion is done, if 3 cyclic expansion is done and stages are merged (default is 1) |
 
 ## Outputs
 

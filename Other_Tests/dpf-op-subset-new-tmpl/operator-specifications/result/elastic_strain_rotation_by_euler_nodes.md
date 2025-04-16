@@ -10,7 +10,7 @@ read Euler angles on elements from the rst file and rotate the fields in the fie
 | Input | Name| Expected type(s) | Required | Description |
 |-------|-----|------|----------|-------------|
 | **Pin 2** | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | No |  |
-| **Pin 3** | streams_container |[`streams_container`](../../getting-started/using-data-containers.md#streams-container), [`stream`](../../getting-started/using-data-containers.md#stream), [`class dataProcessing::CRstFileWrapper`](../../getting-started/using-data-containers.md#class-dataProcessing::CRstFileWrapper) | No |  |
+| **Pin 3** | streams_container |[`streams_container`](../../getting-started/using-data-containers.md#streams-container), [`stream`](../../getting-started/using-data-containers.md#stream), [`class dataProcessing::CRstFileWrapper`](../../getting-started/using-data-containers.md#class-dataprocessing::crstfilewrapper) | No |  |
 | **Pin 4** | data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | Yes |  |
 
 ## Outputs

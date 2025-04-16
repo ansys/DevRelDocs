@@ -10,7 +10,7 @@ Extract the expected shell layers from the input fields. If the fields contain o
 | Input | Name| Expected type(s) | Required | Description |
 |-------|-----|------|----------|-------------|
 | **Pin 0** | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container), [`field`](../../getting-started/using-data-containers.md#field) | Yes |  |
-| **Pin 1** | e_shell_layer |[`int32`](../../getting-started/using-data-containers.md#int32), [`enum dataProcessing::EShellLayers`](../../getting-started/using-data-containers.md#enum-dataProcessing::EShellLayers) | Yes | 0:Top, 1: Bottom, 2: BottomTop, 3:Mid, 4:BottomTopMid |
+| **Pin 1** | e_shell_layer |[`int32`](../../getting-started/using-data-containers.md#int32), [`enum dataProcessing::EShellLayers`](../../getting-started/using-data-containers.md#enum-dataprocessing::eshelllayers) | Yes | 0:Top, 1: Bottom, 2: BottomTop, 3:Mid, 4:BottomTopMid |
 | **Pin 2** | mesh |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region), [`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) | No | Mesh support of the input fields_container, in case it does not have one defined. If the fields_container contains mixed shell/solid results, the mesh is required (either by connecting this pin or in the support). |
 | **Pin 26** | merge |[`bool`](../../getting-started/using-data-containers.md#bool) | No | If set to true, merge shells and solids regarding the shell layer set in s_shell_layer pin (false by default). |
 

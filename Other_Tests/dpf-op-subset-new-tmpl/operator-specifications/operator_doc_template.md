@@ -12,7 +12,7 @@
 {%- for input in inputs %}
 | **Pin {{ input.pin_number }}** | {{ input.name }} |
 {%- for t in input.types -%}
-[`{{ t }}`](../../getting-started/using-data-containers.md#{{ t | replace("_", "-") | replace(" ", "-")}}){% if not loop.last %}, {% endif %}
+[`{{ t }}`](../../getting-started/using-data-containers.md#{{ t | replace("_", "-") | replace(" ", "-") | lower}}){% if not loop.last %}, {% endif %}
 {%- endfor %} | {% if input.optional %}No{% else %}Yes{% endif %} | {{ input.document }} |
 {%- endfor %}
 
@@ -23,7 +23,7 @@
 {%- for output in outputs %}
 | **Pin {{ output.pin_number }}** | {{ output.name }} |
 {%- for t in output.types -%}
-[`{{ t }}`](../../getting-started/using-data-containers.md#{{ t | replace("_", "-") | replace(" ", "-")}}){% if not loop.last %}, {% endif %}
+[`{{ t }}`](../../getting-started/using-data-containers.md#{{ t | replace("_", "-") | replace(" ", "-") | lower}}){% if not loop.last %}, {% endif %}
 {%- endfor %} | {% if output.optional %}No{% else %}Yes{% endif %} | {{ output.document }} |
 {%- endfor %}
 
@@ -34,7 +34,7 @@
 {%- for configuration in configurations %}
 | **Pin {{ configuration.name }}** |
 {%- for t in configuration.types -%}
-[`{{ t }}`](../../getting-started/using-data-containers.md#{{ t | replace("_", "-") | replace(" ", "-")}}){% if not loop.last %}, {% endif %}
+[`{{ t }}`](../../getting-started/using-data-containers.md#{{ t | replace("_", "-") | replace(" ", "-") | lower}}){% if not loop.last %}, {% endif %}
 {%- endfor %} | {{ configuration.default_value }} | {{ configuration.document }} |
 {%- endfor %}
 

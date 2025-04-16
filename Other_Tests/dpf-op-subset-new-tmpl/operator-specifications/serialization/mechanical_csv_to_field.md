@@ -9,7 +9,7 @@ Reads mechanical exported csv file
 
 | Input | Name| Expected type(s) | Required | Description |
 |-------|-----|------|----------|-------------|
-| **Pin 0** | unit |[`class dataProcessing::unit::CUnit`](../../getting-started/using-data-containers.md#class-dataProcessing::unit::CUnit) | Yes |  |
+| **Pin 0** | unit |[`class dataProcessing::unit::CUnit`](../../getting-started/using-data-containers.md#class-dataprocessing::unit::cunit) | Yes |  |
 | **Pin 1** | mesh |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) | No |  |
 | **Pin 4** | data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | Yes |  |
 | **Pin 9** | requested_location |[`string`](../../getting-started/using-data-containers.md#string), [`field_definition`](../../getting-started/using-data-containers.md#field-definition) | Yes |  |

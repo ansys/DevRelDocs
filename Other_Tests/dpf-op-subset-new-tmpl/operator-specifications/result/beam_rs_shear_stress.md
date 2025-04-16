@@ -14,7 +14,7 @@ Read Beam RS Shear Stress (LSDyna) by calling the readers defined by the datasou
 | **Pin 3** | streams_container |[`streams_container`](../../getting-started/using-data-containers.md#streams-container) | No | result file container allowed to be kept open to cache data |
 | **Pin 4** | data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | Yes | result file path container, used if no streams are set |
 | **Pin 6** | integration_point |[`int32`](../../getting-started/using-data-containers.md#int32) | No | integration point where the result will be read from. Default value: 0 (first integration point). |
-| **Pin 50** | unit_system |[`int32`](../../getting-started/using-data-containers.md#int32), [`string`](../../getting-started/using-data-containers.md#string), [`class dataProcessing::unit::CUnitSystem`](../../getting-started/using-data-containers.md#class-dataProcessing::unit::CUnitSystem) | No | Unit System ID (int), semicolon-separated list of base unit strings (str) or UnitSystem instance |
+| **Pin 50** | unit_system |[`int32`](../../getting-started/using-data-containers.md#int32), [`string`](../../getting-started/using-data-containers.md#string), [`class dataProcessing::unit::CUnitSystem`](../../getting-started/using-data-containers.md#class-dataprocessing::unit::cunitsystem) | No | Unit System ID (int), semicolon-separated list of base unit strings (str) or UnitSystem instance |
 
 ## Outputs
 

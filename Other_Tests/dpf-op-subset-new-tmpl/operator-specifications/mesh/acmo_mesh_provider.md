@@ -9,7 +9,7 @@ Converts an Assembly Mesh into a DPF Meshes container
 
 | Input | Name| Expected type(s) | Required | Description |
 |-------|-----|------|----------|-------------|
-| **Pin 0** | assembly_mesh |[`ans_dispatch_holder`](../../getting-started/using-data-containers.md#ans-dispatch-holder), [`struct IAnsDispatch`](../../getting-started/using-data-containers.md#struct-IAnsDispatch) | Yes |  |
+| **Pin 0** | assembly_mesh |[`ans_dispatch_holder`](../../getting-started/using-data-containers.md#ans-dispatch-holder), [`struct IAnsDispatch`](../../getting-started/using-data-containers.md#struct-iansdispatch) | Yes |  |
 | **Pin 1** | unit |[`string`](../../getting-started/using-data-containers.md#string) | No |  |
 
 ## Outputs
