@@ -131,40 +131,40 @@ After calling GetLogger, your log is ready to use. Interestingly, you don’t de
 This is a recent configuration file installed with TD:
 
 ```lua
-\<?xml version="1.0" encoding="utf-8"?\>
-\<CRLogging\>
-\<!-- Use this file to configure where OpenTD will send logging messages.
+<?xml version="1.0" encoding="utf-8"?>
+<CRLogging>
+<!-- Use this file to configure where OpenTD will send logging messages.
 To make OpenTD use it, copy it to %localappdata%\\ThermalDesktop
-and restart OpenTD. --\>
-\<Loggers\>
-\<!-- Loggers dispatch messages to their listeners. Logger names correspond to names used
+and restart OpenTD. -->
+<Loggers>
+<!-- Loggers dispatch messages to their listeners. Logger names correspond to names used
 within OpenTD to categorize messages. Use the RootLogger (below) to configure all loggers
 not listed in this Logger section. Loggers only dispatch messages at and above a
-specified level. --\>
-\<!-- Levels: Error, Warning, Information, Verbose --\>
-\<Logger name="OpenTDv61" level="Information" listeners="Log, ErrorLog"/\>
-\<Logger name="OpenTDv62" level="Information" listeners="Log, ErrorLog"/\>
-\<Logger name="OpenTDv232" level="Information" listeners="Log, ErrorLog"/\>
-\<Logger name="OpenTDv232Demos" level="Verbose" listeners="OpenTDv232Demos"/\>
-\<Logger name="OpenTDMixedInterface" level="Information" listeners="Log, ErrorLog"/\>
-\</Loggers\>
-\<!-- The root logger configures all loggers not listed by name in the Loggers section. --\>
-\<!-- Levels: Error, Warning, Information, Verbose --\>
-\<RootLogger name="Root" level="Information" listeners="Log, ErrorLog"/\>
-\<Listeners\>
-\<!-- Listeners listen for messages from loggers and direct them to a destination,
-typically a file. They only listen for messages at and above a specified level. --\>
-\<!-- Levels: Error, Warning, Information, Verbose --\>
-\<!-- Note regarding filenames: the directories above the filename must already exist when
-OpenTD starts, otherwise, the listener will not be used. --\>
-\<Listener name="Log" type="File" level="Verbose"
-filename="%localappdata%\\ThermalDesktop\\log\\OpenTD.Client.log"/\>
-\<Listener name="ErrorLog" type="File" level="Error"
-filename="%localappdata%\\ThermalDesktop\\log\\OpenTD.Client.Error.log"/\>
-\<Listener name="OpenTDv232Demos" type="File" level="Verbose"
-filename="%localappdata%\\ThermalDesktop\\log\\OpenTDv232Demos.log"/\>
-\</Listeners\>
-\</CRLogging\>
+specified level. -->
+<!-- Levels: Error, Warning, Information, Verbose -->
+<Logger name="OpenTDv61" level="Information" listeners="Log, ErrorLog"/>
+<Logger name="OpenTDv62" level="Information" listeners="Log, ErrorLog"/>
+<Logger name="OpenTDv232" level="Information" listeners="Log, ErrorLog"/>
+<Logger name="OpenTDv232Demos" level="Verbose" listeners="OpenTDv232Demos"/>
+<Logger name="OpenTDMixedInterface" level="Information" listeners="Log, ErrorLog"/>
+</Loggers>
+<!-- The root logger configures all loggers not listed by name in the Loggers section. -->
+<!-- Levels: Error, Warning, Information, Verbose -->
+<RootLogger name="Root" level="Information" listeners="Log, ErrorLog"/>
+<Listeners>
+<!-- Listeners listen for messages from loggers and direct them to a destination,
+typically a file. They only listen for messages at and above a specified level. -->
+<!-- Levels: Error, Warning, Information, Verbose -->
+<!-- Note regarding filenames: the directories above the filename must already exist when
+OpenTD starts, otherwise, the listener will not be used. -->
+<Listener name="Log" type="File" level="Verbose"
+filename="%localappdata%\\ThermalDesktop\\log\\OpenTD.Client.log"/>
+<Listener name="ErrorLog" type="File" level="Error"
+filename="%localappdata%\\ThermalDesktop\\log\\OpenTD.Client.Error.log"/>
+<Listener name="OpenTDv232Demos" type="File" level="Verbose"
+filename="%localappdata%\\ThermalDesktop\\log\\OpenTDv232Demos.log"/>
+</Listeners>
+</CRLogging>
 ```
 **Note**: Subject to change. You may find this file in the TD installation directory. If you’d like to use it, copy it to the `%localappdata%\\ThermalDesktop` directory.
 
@@ -173,12 +173,12 @@ Two types of objects are defined in the configuration file: loggers and listener
 You’ll note that in the default configuration file, we have defined several loggers for various versions of OpenTD. For example:
 
 ```lua
-\<Logger name="OpenTD" level="Information" listeners="Log, ErrorLog"/\>
+<Logger name="OpenTD" level="Information" listeners="Log, ErrorLog"/>
 ```
 
 This means that any logger in an OpenTD client program whose name starts with OpenTD will activate this logger, as long as it is sending a message at the Information level or above. It will send its messages to the listeners called *Log* and *ErrorLog*.
 
-There is also a *RootLogger* defined. This is activated by any loggers whose names do not match the named loggers defined in the \<Loggers\> block.
+There is also a *RootLogger* defined. This is activated by any loggers whose names do not match the named loggers defined in the <Loggers> block.
 
 There are three listeners defined, corresponding to three output files. Listener Log will write any-level messages to `%localappdata%\\ThermalDesktop\\log\\OpenTD.Client.log`, while listener ErrorLog will only write Error-level messages to `OpenTD.Client.Error.log`. And the OpenTDDemos listener will write any-level messages to `OpenTDDemos.log`.
 

@@ -67,7 +67,7 @@ You can construct an array of strings to pass to GetData. For example, to get te
 
 ```c#
 string[] someNames = new string[100];
-for (int i = 0; i \< 100; ++i)
+for (int i = 0; i < 100; ++i)
 someNames[i] = "MAIN.T" + (i + 1);
 var someTs = myData.GetData(someNames).GetValues(Units.SI);
 ```

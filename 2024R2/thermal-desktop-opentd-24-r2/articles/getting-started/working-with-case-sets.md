@@ -28,8 +28,8 @@ namespace OpenTDv242GettingStarted
             td.Connect();
 
             // \*\*\* Create a simple model of a heated bar \*\*\*
-            var barNodes = new List\< Node\> ();
-            for (int i = 0; i \< 10; ++i)
+            var barNodes = new List< Node> ();
+            for (int i = 0; i < 10; ++i)
             {
                 var n = td.CreateNode();
                 n.Submodel = "bar";
@@ -154,7 +154,7 @@ When you call CaseSet.Run(), it is the same as selecting and running a single ca
 To run multiple cases – just like selecting them all in the GUI and running – use the following CaseSetManager.Run overload:
 
 ```c#
-void Run(IEnumerable\<int\> caseIndices)
+void Run(IEnumerable<int> caseIndices)
 ```
 
-In other words, you provide a List\<int\> or other IEnumerable\<int\> containing the indices of the cases you would like to run. These indices correspond to the list indices returned by CaseSetManager.*GetCaseSets()* or the equivalent ThermalDesktop.*GetCaseSets()* method.
+In other words, you provide a List<int> or other IEnumerable<int> containing the indices of the cases you would like to run. These indices correspond to the list indices returned by CaseSetManager.*GetCaseSets()* or the equivalent ThermalDesktop.*GetCaseSets()* method.

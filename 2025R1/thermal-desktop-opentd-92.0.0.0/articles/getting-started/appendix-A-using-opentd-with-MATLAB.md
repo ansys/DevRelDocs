@@ -106,7 +106,7 @@ cold.Update();
 cold.Run();
 %% Working with Dimensionals
 % All dimensional quanitities in the API are stored using a custom .NET
-% generic type called a Dimensional. For example, a Dimensional\<Temp\>
+% generic type called a Dimensional. For example, a Dimensional<Temp>
 % stores temperatures. Using C\#, Dimensionals are implicitly cast to and
 % from doubles as required, but this does not appear to work in MATLAB.
 % Instead, we've overloaded the double function and created a Dimensional
