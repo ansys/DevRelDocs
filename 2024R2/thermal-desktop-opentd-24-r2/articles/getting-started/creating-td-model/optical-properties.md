@@ -37,7 +37,7 @@ namespace OpenTDv242GettingStarted
             catalac.UseVarWaveLengthEmiss = 1;
 
             // wavelength always in micrometers, regardless of WorkingUnits:
-            catalac.emissVarWaveLengthum = new List\< double\> {
+            catalac.emissVarWaveLengthum = new List< double> {
 
                 0.100, 8.000, 10.000, 13.000, 19.000, 20.000,
                 30.000, 40.000, 60.000, 110.000, 1000.000,

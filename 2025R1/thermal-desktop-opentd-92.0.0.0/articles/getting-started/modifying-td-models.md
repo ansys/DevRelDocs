@@ -4,18 +4,18 @@ So far, you have seen how to create new entities in TD, but OpenTD can also be u
 
 ```c#
 var arithmeticNodes = td.GetNodes().Where
-(x =\> x.NodeType == RcNodeData.NodeTypes.ARITHMETIC
+(x => x.NodeType == RcNodeData.NodeTypes.ARITHMETIC
 && x.Layer == “sheet”);
 ```
 
-The variable `arithmeticNodes` would now be an `*IEnumerable\<Node\>*` containing all of the arithmetic nodes on layer “sheet”.
+The variable `arithmeticNodes` would now be an `*IEnumerable<Node>*` containing all of the arithmetic nodes on layer “sheet”.
 
 **Note**: You can use foreach to iterate over the elements of an `IEnumerable`, just like a List. Or you can convert the `IEnumerable` to a List using the `ToList()` method.
 
-Another useful LINQ technique is to use the `*Select*` method to extract a related list from an input list. For example, the following line creates an `IEnumerable\<string\>` containing the handles of all of the nodes returned by `GetNodes()`:
+Another useful LINQ technique is to use the `*Select*` method to extract a related list from an input list. For example, the following line creates an `IEnumerable<string>` containing the handles of all of the nodes returned by `GetNodes()`:
 
 ```c#
-var nodeHandles = td.GetNodes().Select(x =\> x.Handle);
+var nodeHandles = td.GetNodes().Select(x => x.Handle);
 ```
 
 To delete any item with an AutoCAD handle, use the `*ThermalDesktop.DeleteEntity*` method. For items without handles, there are specialized delete methods such as `ThermalDesktop.DeleteSymbol*`, which accepts the name of the symbol to delete.
@@ -158,10 +158,10 @@ namespace OpenTDGettingStarted
             double yLen = 3.0;
             int id = 0;
             int elemId = 0;
-            for (int j = 0; j \< vDiv + 1; ++j)
+            for (int j = 0; j < vDiv + 1; ++j)
             {
                 double y = j \*yLen / vDiv;
-                for (int i = 0; i \< uDiv + 1; ++i)
+                for (int i = 0; i < uDiv + 1; ++i)
                 {
                     double x = i \*xLen / uDiv;
                     double z = height \*
@@ -176,7 +176,7 @@ namespace OpenTDGettingStarted
                     node.Nz = 1.0;
                     node.id = ++id;
                     feMesh.nodes.Add(node);
-                    if (i \< uDiv && j \< vDiv)
+                    if (i < uDiv && j < vDiv)
                     {
                         var face = new OpenTD.RadCAD.FEModel.SurfaceElement();
                         face.id = ++elemId;
@@ -208,7 +208,7 @@ namespace OpenTDGettingStarted
                 q.TopThickness = 0.01;
                 q.Update();
                 var quadNodes
-                = allNodes.Where(n =\> q.AttachedNodeHandles.Contains(n.Handle));
+                = allNodes.Where(n => q.AttachedNodeHandles.Contains(n.Handle));
                 foreach (Node n in quadNodes)
                 {
                     n.Submodel = submodel;
