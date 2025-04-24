@@ -1,5 +1,25 @@
 # Structures
 
+## Autodyn
+
+There are no developer tools available at this time.
+
+## Forming
+
+There are no developer tools available at this time.
+
+However, Ansys Forming runs on the LS-DYNA solver. For more information, see LS-DYNA.
+
+## LS-DYNA
+
+LS-DYNA has an open-source Python interface named PyDYNA.
+
+[PyDYNA documentation (PyAnsys)](https://dyna.docs.pyansys.com/version/stable/index.html)
+
+## MCalibration
+
+There are no developer tools available at this time.
+
 ## Ansys Mechanical and MAPDL
 
 The Ansys Mechanical product consists of two aspects: Mechanical and Mechanical APDL (MAPDL). MAPDL further consists of two constituent parts: the user interface that lets you call and run APDL code, and APDL itself. APDL stands for "Ansys Parametric Design Language."
@@ -40,11 +60,22 @@ Ansys Mechanical and MAPDL are essentially two sides of the same coin, being two
 * [Developing Ansys ACT Apps for Ansys Mechanical Programming using the Application Customization Toolkit (ACT) (CADFEM)](https://www.cadfem.net/gb/en/shop/professional-development/training-elearning/trending-topics/developing-ansys-act-apps-for-ansys-mechanical-17601.html)
 * [How to Install Ansys ACT Extensions in Mechanical (Rand Sim)](https://resources.randsim.com/rand-simulation-solutions-blog/how-to-install-ansys-act-extensions-in-mechanical)
 
-## LS-DYNA
+## Motion
 
-LS-DYNA has an open-source Python interface named PyDYNA.
+Ansys Motion provides both a preprocessor C# library and a postprocessor C# library.
 
-[PyDYNA documentation (PyAnsys)](https://dyna.docs.pyansys.com/version/stable/index.html)
+[Motion for developers (Developer Portal documentation)](https://developer.ansys.com/docs/motion)
+
+* [Motion Standalone Preprocessor C# library 2024 R2](https://developer.ansys.com/docs/motion-standalone-preprocessor-c-sharp-library-2024-r2/index.md)
+* [Motion Standalone Postprocessor C# library 2024 R2](https://developer.ansys.com/docs/motion-standalone-postprocessor-c-sharp-library-2024-r2/index.md)
+
+## nCode DesignLife
+
+There are no developer tools available at this time.
+
+## PolyUMod
+
+There are no developer tools available at this time.
 
 ## Sherlock
 
@@ -57,34 +88,3 @@ Ansys Sherlock has an open-source Python interface named PySherlock.
 
 * [PySherlock Installation and Usage Demo | Step-by-Step for Beginners](https://www.youtube.com/watch?v=ugiueYuNEKk)
 * [PySherlock Installation and Usage Demo | Advanced Setup Guide](https://www.youtube.com/watch?v=06s_tNvlOTM)
-
-## Forming
-
-There are no developer tools available at this time.
-
-However, Ansys Forming runs on the LS-DYNA solver. For more information, see LS-DYNA.
-
-## Motion
-
-Ansys Motion provides both a preprocessor C# library and a postprocessor C# library.
-
-[Motion for developers (Developer Portal documentation)](https://developer.ansys.com/docs/motion)
-
-* [Motion Standalone Preprocessor C# library 2024 R2](https://developer.ansys.com/docs/motion-standalone-preprocessor-c-sharp-library-2024-r2/index.md)
-* [Motion Standalone Postprocessor C# library 2024 R2](https://developer.ansys.com/docs/motion-standalone-postprocessor-c-sharp-library-2024-r2/index.md)
-
-## PolyUMod
-
-There are no developer tools available at this time.
-
-## MCalibration
-
-There are no developer tools available at this time.
-
-## Autodyn
-
-There are no developer tools available at this time.
-
-## nCode DesignLife
-
-There are no developer tools available at this time.

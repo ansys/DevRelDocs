@@ -13,6 +13,10 @@ The AVxcelerate Simulation Framework library runs on Linux in C++.
 * SUT Configuration Service REST API
 * Simulation Framework
 
+## AVxcelerate Headlamp
+
+AVxcelerate Headlamp measures are accessible through a C++ API, Ansys SCADE connector, or MATLAB Simulink toolbox. These tools enable detailed analysis of various lighting configurations and scenarios.
+
 ## AVxcelerate Sensors
 
 [Ansys AVxcelerate for developers (Developer Portal documentation)](https://developer.ansys.com/docs/avxcelerate)
@@ -26,7 +30,3 @@ AVxcelerate Sensors APIs and libraries run on Windows and Linux in all languages
 * Lighting Systems REST API
 * Sensors Simulator API
 * Asset Preparation API
-
-## AVxcelerate Headlamp
-
-AVxcelerate Headlamp measures are accessible through a C++ API, Ansys SCADE connector, or MATLAB Simulink toolbox. These tools enable detailed analysis of various lighting configurations and scenarios.
