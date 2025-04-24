@@ -91,5 +91,5 @@ for record in exported_data:
 *Previous cell output:*
 ```output
 "Ansys Granta 1" imported the record on 2023-09-20T12:11:05.873
-The record was last modified on 2025-04-09T10:49:22.64 by "ANSYS\mi-sw-admin"
+The record was last modified on 2025-04-24T22:58:49.89 by "ANSYS\mi-sw-admin"
 ```

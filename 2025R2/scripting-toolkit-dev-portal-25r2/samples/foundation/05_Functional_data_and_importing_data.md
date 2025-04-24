@@ -181,7 +181,7 @@ ax.legend()
 
 *Previous cell output:*
 ```output
-<matplotlib.legend.Legend at 0x7fe7e3a47a10>
+<matplotlib.legend.Legend at 0x7f391e6ac380>
 ```
 
 
@@ -276,5 +276,5 @@ for record in setRecordAttributesResponse.recordsImported:
 ```
 *Previous cell output:*
 ```output
-Imported record Scripting toolkit foundation layer example 05:Wed Apr  9 10:48:16 2025 to Granta MI database
+Imported record Scripting toolkit foundation layer example 05:Thu Apr 24 22:57:51 2025 to Granta MI database
 ```

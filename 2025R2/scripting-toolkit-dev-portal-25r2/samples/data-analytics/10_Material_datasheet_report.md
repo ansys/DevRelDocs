@@ -516,7 +516,8 @@ report.save("output/10_report.docx")
 
 A screenshot in Word is shown below (only the first page is shown):
 
-![The first page of a populated Word document showing a company logo, populated data tables, and a plot of thermal conductivity vs temperature.](assets/10_report-screenshot.png)
+![The first page of a populated Word document showing a company logo, populated data tables, and a plot of thermal
+conductivity vs temperature.](assets/10_report-screenshot.png)
 
 ## Optional: Convert the file to PDF (not available in HTML documentation)
 

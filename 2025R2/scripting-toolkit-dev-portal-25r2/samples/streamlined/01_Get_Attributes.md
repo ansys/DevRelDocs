@@ -59,12 +59,8 @@ for name, att in tab.attributes.items():
 ```output
 Name                           -    Type    -    Unit    -   Meta?   
 ----------------------------------------------------------------------
-```*Previous cell output:*
-```output
 Base                           -    DISC    -            -   False   
-Composition                    -    STXT    -            -   False
-```*Previous cell output:*
-```output
+Composition                    -    STXT    -            -   False   
 Density                        -    POIN    -   kg/m^3   -   False   
 Description                    -    LTXT    -            -   False   
 Document                       -    FILE    -            -   False   
