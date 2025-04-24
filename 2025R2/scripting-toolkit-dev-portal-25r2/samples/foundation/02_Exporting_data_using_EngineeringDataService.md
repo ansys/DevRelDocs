@@ -37,8 +37,6 @@ for exporter in response.exporters:
 *Previous cell output:*
 ```output
 Output of available Exporters for Ansys Workbench
-```*Previous cell output:*
-```output
 458E9A7E-C268-4ED0-9CC1-FF7438521B4F (ANSYS Workbench) - Exports linear, temperature-independent, isotropic data to the Ansys Workbench format
 CE8DCFA2-B3EE-4545-8D3E-82810FA92AFC (ANSYS Workbench) - Exports linear, temperature-dependent, isotropic data to the Ansys Workbench format
 4B0B1EA3-8760-43DF-8060-2C79CA471D4C (ANSYS Workbench) - Exports linear, temperature-independent, isotropic with simple failure data to the Ansys Workbench format

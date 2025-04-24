@@ -44,20 +44,17 @@ To use autologon with MI Scripting Toolkit your Granta MI server must be configu
 When scheduling scripts to run periodically in a Windows environment, the Task Scheduler is commonly used. It can be
 configured to set both the timing of the execution and the identity that the script runs as.
 
-The screenshot below shows a typical Scheduled Task configuration, which has been set to run as a specified identity. In
-this case, the script runs as `python_user`. Clicking **OK** displays a password prompt to enter the password for that
-user, which is then stored securely as part of the configuration. When the task is executed, the script is run as
-`python_user`, and so that identity is used to authenticate with Granta MI securely.
+A Scheduled Task is typically configured to run as a stored identity. The password for the identity is stored as part of
+the configuration, and when the task is executed, the script is run as that identity. This allows the Python script to
+authenticate securely with Granta MI.
 
-!["Create Task" options, with the task configured to run as "python_user", and "Run whether user is logged on or
-not" selected.](_static/create_task.png)
+Additional configuration is available in the *Triggers* and *Actions* tabs.
 
-The *Triggers* tab is used to configure when the script executes. Generally this is specified in terms of the day of
-the week and the time.
+*Triggers* define when the script executes. Generally this is specified in terms of the day of the week and the time.
 
-The *Actions* tab is used to describe the task itself, which in this case is the execution of a specific executable. In
-Windows, the executable is typically available either with `py` or `python`. If these are not available, specify the
-full path to the executable (accessible in Python by running `sys.executable`).
+*Actions* define the task itself, which for Python scripts is the execution of a specific executable. In Windows, the
+Python executable is typically available either with `py` or `python`. If these are not available, specify the full
+path to the executable (accessible in Python by running `sys.executable`).
 
 Some additional recommendations:
 

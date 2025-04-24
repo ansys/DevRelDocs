@@ -1,7 +1,5 @@
 # Attribute definitions
 
-<a id="attribute-defs"></a>
-
 <a id="attribute-definitions"></a>
 
 <a id="pseudo-attribute-def"></a>
@@ -334,6 +332,15 @@ Extended [`AttributeDefinition`](#GRANTA_MIScriptingToolkit.granta.mi_attribute_
 
 Provides properties to view the table-wide minimum and maximum values for this attribute.
 
+<a id="GRANTA_MIScriptingToolkit.granta.mi_attribute_classes.AttributeDefinitionInteger.is_unique"></a>
+
+#### *property* is_unique
+
+Whether this attribute is defined as unique.
+
+* **Returns:**
+  bool
+
 <a id="GRANTA_MIScriptingToolkit.granta.mi_attribute_classes.AttributeDefinitionInteger.max"></a>
 
 #### *property* max
@@ -419,6 +426,15 @@ Unit symbol.
 ### *class* AttributeDefinitionShortText
 
 Extended [`AttributeDefinition`](#GRANTA_MIScriptingToolkit.granta.mi_attribute_classes.AttributeDefinition) class for short text attributes.
+
+<a id="GRANTA_MIScriptingToolkit.granta.mi_attribute_classes.AttributeDefinitionShortText.is_unique"></a>
+
+#### *property* is_unique
+
+Whether this attribute is defined as unique.
+
+* **Returns:**
+  bool
 
 <a id="GRANTA_MIScriptingToolkit.granta.mi_attribute_classes.AttributeDefinitionTabular"></a>
 

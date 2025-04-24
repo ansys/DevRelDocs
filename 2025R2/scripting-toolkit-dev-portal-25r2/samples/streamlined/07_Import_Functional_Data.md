@@ -39,7 +39,7 @@ rec
 
 *Previous cell output:*
 ```output
-<Record long name: Scripting Toolkit Example 7:Wed Apr  9 10:42:05 2025>
+<Record long name: Scripting Toolkit Example 7:Thu Apr 24 22:51:31 2025>
 ```
 
 
@@ -253,6 +253,6 @@ mi.update([rec])
 
 *Previous cell output:*
 ```output
-[<Record long name: Scripting Toolkit Example 7:Wed Apr  9 10:42:05 2025>]
+[<Record long name: Scripting Toolkit Example 7:Thu Apr 24 22:51:31 2025>]
 ```
 

@@ -389,13 +389,9 @@ for r in created_records[:5]:
                       Record Name                       |                      Created Date                      
 -----------------------------------------------------------------------------------------------------------------
                       MTS-615775                        |                   2023/09/20 12:11:05                  
-                      MTS-615744                        |                   2023/09/20 12:11:05
-```*Previous cell output:*
-```output
+                      MTS-615744                        |                   2023/09/20 12:11:05                  
                       MTS-615723                        |                   2023/09/20 12:11:05                  
-                      MTS-615772                        |                   2023/09/20 12:11:05
-```*Previous cell output:*
-```output
+                      MTS-615772                        |                   2023/09/20 12:11:05                  
                       MTS-615741                        |                   2023/09/20 12:11:05
 ```
 Pseudo-attributes are not table specific and can be used in database criteria searches via

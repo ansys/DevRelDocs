@@ -60,12 +60,10 @@
       href: samples/streamlined/16_Link_Records.md
     - name: Layouts
       href: samples/streamlined/17_Layouts.md
-    - name: Logging
-      href: samples/streamlined/18_Logging.md
     - name: RecordLists and MI Scripting Toolkit
-      href: samples/streamlined/19_Record_Lists_Interoperability.md
+      href: samples/streamlined/18_Record_Lists_Interoperability.md
     - name: JobQueue and MI Scripting Toolkit
-      href: samples/streamlined/20_Job_Queue_Interoperability.md
+      href: samples/streamlined/19_Job_Queue_Interoperability.md
   - name: Data analytics notebooks
     items:
     - name: Create scatter plots

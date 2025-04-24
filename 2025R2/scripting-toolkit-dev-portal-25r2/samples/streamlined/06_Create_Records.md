@@ -35,11 +35,11 @@ new_records
 
 *Previous cell output:*
 ```output
-[<Record long name: Scripting Toolkit Example 6:Wed Apr  9 10:41:34 2025 - 0>,
- <Record long name: Scripting Toolkit Example 6:Wed Apr  9 10:41:34 2025 - 1>,
- <Record long name: Scripting Toolkit Example 6:Wed Apr  9 10:41:34 2025 - 2>,
- <Record long name: Scripting Toolkit Example 6:Wed Apr  9 10:41:34 2025 - 3>,
- <Record long name: Scripting Toolkit Example 6:Wed Apr  9 10:41:34 2025 - 4>]
+[<Record long name: Scripting Toolkit Example 6:Thu Apr 24 22:50:59 2025 - 0>,
+ <Record long name: Scripting Toolkit Example 6:Thu Apr 24 22:50:59 2025 - 1>,
+ <Record long name: Scripting Toolkit Example 6:Thu Apr 24 22:50:59 2025 - 2>,
+ <Record long name: Scripting Toolkit Example 6:Thu Apr 24 22:50:59 2025 - 3>,
+ <Record long name: Scripting Toolkit Example 6:Thu Apr 24 22:50:59 2025 - 4>]
 ```
 
 
@@ -57,11 +57,11 @@ for rec in recs:
 *Previous cell output:*
 ```output
 New records:
-http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=988141cb-d8e2-40cf-84e5-981b9eeb2caa
-http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=32457131-2131-4010-bbb3-ecd09d04a305
-http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=0a681486-1d44-4e53-8531-623106fa3398
-http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=fdc06c10-6d95-43a9-b613-65daf9453ed7
-http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=20c11e64-7ffd-43a3-927f-f7ecaf069456
+http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=a5d09746-e913-461e-95ed-c1e99dd47417
+http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=568f97ec-7a71-4930-bc4f-d93a88f5628c
+http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=90302b6b-cdff-4dbe-b02e-eeb0fcfd5757
+http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=439e3fb4-e63e-46da-b2df-956f90321c4c
+http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=5d991280-8654-4c2a-9326-d9a6ac01458e
 ```
 ## Delete the records
 ``Session.bulk_delete_or_withdraw_records`` accepts any list of records (e.g. results of a search,
