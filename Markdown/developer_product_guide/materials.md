@@ -2,7 +2,11 @@
 
 Granta MI is the central product in Ansys' materials collection.
 
-## Granta MI 
+## Granta EduPack
+
+There are no developer tools available at this time.
+
+## Granta MI
 
 Granta MI has several developer tools. For more information, see [Granta MI for developers](https://developer.ansys.com/docs/granta-mi).
 
@@ -21,14 +25,10 @@ Granta MI also has closed-source developer tools:
 
 * [Getting Started with the Ansys Granta MI Scripting Toolkit for Python (ALH)](https://www.ansys.com/training-center/course-catalog/materials/getting-started-with-the-ansys-granta-mi-scripting-toolkit-for-python)
 
-## Granta Selector
-
-There are no developer tools available at this time.
-
 ## Granta MI Pro
 
 There are no developer tools available at this time.
 
-## Granta EduPack
+## Granta Selector
 
 There are no developer tools available at this time.

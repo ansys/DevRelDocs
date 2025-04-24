@@ -4,23 +4,11 @@ DME is part of Ansys Government Initiatives (AGI).
 
 * [Ansys Government Initiatives (AGI) GitHub](https://github.com/AnalyticalGraphicsInc)
 
-## Systems Tool Kit (STK)
-
-* [Digital Mission Engieering Products](https://www.agi.com/new-stk)
-* [STK Python Programmer's Guide](https://help.agi.com/stkdevkit/index.htm#python/pythonProgrammingGuide.htm?TocPath=Development%2520Environments%257CSTK%2520Python%2520API%257CProgrammer%25E2%2580%2599s%2520Guide%257C_____0)
-* [STK Java API](https://help.agi.com/stkdevkit/index.htm#java/jdkOverview.htm?TocPath=Development%2520Environments%257CSTK%2520Java%2520API%257C_____0)
-
-### Ansys STK training material
-
-* [Ansys AGI Training and Certification (AGI)](https://www.agi.com/Training-and-Certification)
-* [Python and SssssssTK! (AGI)](https://www.agi.com/tech-tips/Python-and-SssssssTK)
-* [Lesson 16-2 Integrating STK With Python Using Jupyter Notebooks (AGI)](https://www.youtube.com/watch?v=uaVVzpRDg3s)
-
 ## DME Component Libraries
 
 You can use Ansys DME Component Libraries with Python through [Pythonnet](https://pythonnet.github.io/) or with MATLAB.
 
-## Ansys DME Component Libraries training material
+### Ansys DME Component Libraries training material
 
 * [Use DME Component Libraries with Python](https://help.agi.com/STKComponents/html/Python.htm)
 * [Use DME Component Libraries with MATLAB](https://help.agi.com/STKComponents/html/Matlab.htm)
@@ -39,3 +27,15 @@ RF Channel Modeler provides a client library with bindings for .NET (C#), Python
 RF Channel Modeler has a client library that is available with bindings for .NET (C#), Python, and Native C++.
 
 [STK RF Channel Modeler](https://help.agi.com/stkdevkit/index.htm#DocX/AgStkRfcmObjectsLib_P.html?TocPath=Library%2520Reference%257CSTK%2520Object%2520Model%257CSTK%2520RF%2520Channel%2520Modeler%257C_____0)
+
+## Systems Tool Kit (STK)
+
+* [Digital Mission Engieering Products](https://www.agi.com/new-stk)
+* [STK Python Programmer's Guide](https://help.agi.com/stkdevkit/index.htm#python/pythonProgrammingGuide.htm?TocPath=Development%2520Environments%257CSTK%2520Python%2520API%257CProgrammer%25E2%2580%2599s%2520Guide%257C_____0)
+* [STK Java API](https://help.agi.com/stkdevkit/index.htm#java/jdkOverview.htm?TocPath=Development%2520Environments%257CSTK%2520Java%2520API%257C_____0)
+
+### Ansys STK training material
+
+* [Ansys AGI Training and Certification (AGI)](https://www.agi.com/Training-and-Certification)
+* [Python and SssssssTK! (AGI)](https://www.agi.com/tech-tips/Python-and-SssssssTK)
+* [Lesson 16-2 Integrating STK With Python Using Jupyter Notebooks (AGI)](https://www.youtube.com/watch?v=uaVVzpRDg3s)
