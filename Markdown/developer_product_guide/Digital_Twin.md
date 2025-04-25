@@ -9,4 +9,3 @@ Twin Builder, formerly known as Simplorer, supports journaling through Python or
 ### Ansys Twin Builder training material
 
 * [Boost your Ansys Digital Twin with PyAnsys: Learn How](https://www.ansys.com/en-gb/webinars/boost-your-ansys-digital-twin-with-pyansys-learn-how)
-
