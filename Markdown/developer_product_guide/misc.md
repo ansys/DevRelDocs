@@ -2,32 +2,14 @@
 
 This page covers all Ansys products that don't fit neatly into a single product collection. For example, Ansys System Coupling couples multiple solvers in a single solution and fits reasonably well into structures, electronics, or fluids.
 
-## Workbench 
+## Charge Plus
 
-Ansys Workbench provides Python journaling capabilities. The Python interpreter enables Python scripting within the application. It also includes an interpreter that interacts with the application and PyWorkbench, an open-source PyAnsys library.
+See Ansys Discovery.
 
-[PyWorkbench documentation (PyAnsys)](https://workbench.docs.pyansys.com/)
+## Ansys Composite PrepPost (ACP)
 
-### Ansys Workbench training material 
-
-* [Scripting for Mechanical Engineers](https://developer.ansys.com/blog/scripting-mechanical-engineers)
-
-### Non-Ansys Workbench training material 
-
-* [Webinar: Scripting with Ansys Workbench: 2011 (PADT)](https://www.youtube.com/watch?v=61DQdMMUuH4)
-
-## Multi-physics examples 
-
-The PyAnsys workflow repository contains multi-physics examples.
-
-[PyAnsys workflows documentation (PyAnsys)](https://workflows.docs.pyansys.com/)
-
-## System coupling
-
-Ansys System Coupling provides two main developer tools: participant libraries and PySystemCoupling. The participant libraries are closed-source and available in multiple languages. PySystemCoupling is an open-source PyAnsys library.
-
-* [System coupling for developers (Developer portal documentation)](https://developer.ansys.com/docs/system-coupling)
-* [PySystemCoupling documentation (PyAnsys)](https://systemcoupling.docs.pyansys.com/)
+* [Ansys Composite PrepPost (ACP) for developers (Developer Portal documentation)](https://developer.ansys.com/docs/acp)
+* [PyACP documentation (PyAnsys)](https://acp.docs.pyansys.com/version/dev/)
 
 ## Data Processing Framework (DPF)
 
@@ -81,6 +63,18 @@ The Ansys Geometry Service includes PyAnsys Geometry, an open-source PyAnsys lib
 * [Scripting in Ansys Discovery Modeling (AIS)](https://innovationspace.ansys.com/product/scripting-in-ansys-discovery-modeling/)
 * [Advanced Scripting in Ansys Discovery (AIS)](https://innovationspace.ansys.com/product/advanced-scripting-in-ansys-discovery/)
 
+## High Performance Computation (HPC) Platform Services
+
+HPS has REST APIs and PyHPS, an open-source PyAnsys library.
+
+[PyHPS documentation (PyAnsys)](https://hps.docs.pyansys.com/)
+
+## Multi-physics examples
+
+The PyAnsys workflow repository contains multi-physics examples.
+
+[PyAnsys workflows documentation (PyAnsys)](https://workflows.docs.pyansys.com/)
+
 ## Prime Mesh
 
 Ansys Prime Mesh provides core Ansys meshing technology for building meshes of different types for various physics simulations.
@@ -99,20 +93,17 @@ These two options have feature parity.
 
 * [PyAnsys Training: Overview of PyPrimeMesh](https://www.youtube.com/watch?v=uBQkw8JoO-A)
 
-## Charge Plus
+## Ansys Notebook
 
-See Ansys Discovery.
+Ansys Notebook is a Jupyter-like environment that provides access to Ansys solvers over the web using PyAnsys.
 
-## Ansys Composite PrepPost (ACP)
+[Ansys Notebook for developers (Developer Portal documentation)](https://developer.ansys.com/docs/notebook)
 
-* [Ansys Composite PrepPost (ACP) for developers (Developer Portal documentation)](https://developer.ansys.com/docs/acp)
-* [PyACP documentation (PyAnsys)](https://acp.docs.pyansys.com/version/dev/)
+## Product Instance Management (PIM)
 
-## High Performance Computation (HPC) Platform Services
+PyPIM exposes a Pythonic interface to communicate with the Product Instance Management (PIM) API.
 
-HPS has REST APIs and PyHPS, an open-source PyAnsys library.
-
-[PyHPS documentation (PyAnsys)](https://hps.docs.pyansys.com/)
+[PyPIM documentation (PyAnsys)](https://pypim.docs.pyansys.com/version/stable/)
 
 ## PyAnsys Math
 
@@ -120,11 +111,11 @@ PyAnsys Math gathers all mathematical calculation tools present in Ansys softwar
 
 [PyAnsys Math documentation (PyAnsys)](https://math.docs.pyansys.com/)
 
-## Product Instance Management (PIM)
+## PyAnsys Shared Components
 
-PyPIM exposes a Pythonic interface to communicate with the Product Instance Management (PIM) API.
+This open-source PyAnsys library provides a collection of components shared across the PyAnsys ecosystem.
 
-[PyPIM documentation (PyAnsys)](https://pypim.docs.pyansys.com/version/stable/)
+[PyAnsys Shared Components documentation (PyAnsys)](https://shared.docs.pyansys.com/)
 
 ## SimAI
 
@@ -137,14 +128,23 @@ SimAI has an associated PyAnsys library named PySimAI.
 
 * [PyAnsys Training: Overview of PySimAI](https://www.youtube.com/watch?v=AeTL76GyMRI)
 
-## PyAnsys Shared Components
+## System coupling
 
-This open-source PyAnsys library provides a collection of components shared across the PyAnsys ecosystem.
+Ansys System Coupling provides two main developer tools: participant libraries and PySystemCoupling. The participant libraries are closed-source and available in multiple languages. PySystemCoupling is an open-source PyAnsys library.
 
-[PyAnsys Shared Components documentation (PyAnsys)](https://shared.docs.pyansys.com/)
+* [System coupling for developers (Developer portal documentation)](https://developer.ansys.com/docs/system-coupling)
+* [PySystemCoupling documentation (PyAnsys)](https://systemcoupling.docs.pyansys.com/)
 
-## Ansys Notebook
+## Workbench
 
-Ansys Notebook is a Jupyter-like environment that provides access to Ansys solvers over the web using PyAnsys.
+Ansys Workbench provides Python journaling capabilities. The Python interpreter enables Python scripting within the application. It also includes an interpreter that interacts with the application and PyWorkbench, an open-source PyAnsys library.
 
-[Ansys Notebook for developers (Developer Portal documentation)](https://developer.ansys.com/docs/notebook)
+[PyWorkbench documentation (PyAnsys)](https://workbench.docs.pyansys.com/)
+
+### Ansys Workbench training material
+
+* [Scripting for Mechanical Engineers](https://developer.ansys.com/blog/scripting-mechanical-engineers)
+
+### Non-Ansys Workbench training material
+
+* [Webinar: Scripting with Ansys Workbench: 2011 (PADT)](https://www.youtube.com/watch?v=61DQdMMUuH4)
