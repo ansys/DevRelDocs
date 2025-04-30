@@ -1,7 +1,5 @@
 # Record
 
-<a id="record-level"></a>
-
 <a id="record"></a>
 
 <a id="id1"></a>
@@ -407,12 +405,25 @@ data representation is required.
 * **Returns:**
   None
 
+<a id="GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudo_attributes"></a>
+
+#### refetch_pseudo_attributes()
+
+Fetches pseudo-attribute data for this record, and updates subsets for the record if not set.
+Makes a Service Layer call.
+
+* **Returns:**
+  None
+
 <a id="GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudos"></a>
 
 #### refetch_pseudos()
 
 Fetches pseudo-attribute data for this record, and updates subsets for the record if not set.
 Makes a Service Layer call.
+
+#### Deprecated
+Deprecated since version 4.2: This method has been renamed to `refetch_pseudo_attributes`.
 
 * **Returns:**
   None
@@ -429,7 +440,7 @@ Attributes associated with the record, indexed by attribute name.
 
 <a id="GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.get_attributes"></a>
 
-#### get_attributes(names=None, types=None, include_attributes=True, include_metas=False, include_pseudos=False, empty=None)
+#### get_attributes(names=None, types=None, include_attributes=True, include_meta_attributes=False, include_pseudo_attributes=False, empty=None, \*\*kwargs)
 
 Retrieve a list of attributes from the `record.attributes` dictionary. You can narrow the results by
 specifying the attribute names or data types, or the required attribute categories (attribute,
@@ -442,7 +453,7 @@ This operation performs no subset filtering, so all tabular rows will be include
 regardless of the subset membership of the linked records.
 
 * **Example:**
-  `r.get_attributes(names=['Density', 'Stress-Strain'], types=['POIN', 'FUNC'], include_metas=True)`
+  `r.get_attributes(names=['Density', 'Stress-Strain'], types=['POIN', 'FUNC'], include_meta_attributes=True)`
   will return all point or functional series attributes or meta-attributes named Density or Stress-Strain
   from the record.
 * **Parameters:**
@@ -451,9 +462,18 @@ regardless of the subset membership of the linked records.
     LTXT, PICT, POIN, RNGE, STXT, TABL)
   * **include_attributes** – bool (whether to retrieve attributes that are not meta-attributes or
     pseudo-attributes; `True` by default)
-  * **include_metas** – bool (whether to retrieve meta-attributes; `False` by default)
-  * **include_pseudos** – bool (whether to retrieve pseudo-attributes; `False` by default)
+  * **include_meta_attributes** – bool (whether to retrieve meta-attributes; `False` by default)
+  * **include_pseudo_attributes** – bool (whether to retrieve pseudo-attributes; `False` by default)
   * **empty** – bool (whether to check if the returned attributes are populated)
+
+#### Versionchanged
+Changed in version 4.2: Argument `include_metas` was renamed to `include_meta_attributes`. `include_metas` may still be used,
+but is deprecated.
+
+#### Versionchanged
+Changed in version 4.2: Argument `include_pseudos` was renamed to `include_pseudo_attributes`. `include_pseudos` may still be
+used, but is deprecated.
+
 * **Returns:**
   List[Union[[`PseudoAttributeValue`](attribute-values.md#GRANTA_MIScriptingToolkit.granta.mi_attribute_value_classes.PseudoAttributeValue),
   [`AttributeValue`](attribute-values.md#GRANTA_MIScriptingToolkit.granta.mi_attribute_value_classes.AttributeValue)]]
@@ -703,7 +723,7 @@ Some cached properties are cleared after the record has been moved, as they woul
 They will be dynamically retrieved from the server on property access, or can be manually refreshed via the
 following methods:
 
-* [`Record.refetch_pseudos()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudos)
+* [`Record.refetch_pseudo_attributes()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudo_attributes)
 * [`Record.refresh_path()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refresh_path)
 * [`Record.find_parent()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.find_parent)
 * [`Record.refresh_properties()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refresh_properties)
@@ -752,7 +772,7 @@ Data validation rules, such as attribute value uniqueness, might prevent record 
 Record version number. This is set to None if the record is in a non version-controlled table.
 
 Read-only property. This is only available for records that exist on the server.
-This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudos()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudos).
+This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudo_attributes()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudo_attributes).
 
 * **Return type:**
   [int](https://docs.python.org/3/library/functions.html#int) | None
@@ -764,7 +784,7 @@ This property is populated from a pseudo-attribute value and can be refreshed vi
 Whether the current user has write permissions on the record.
 
 Read-only property. This is only available for records that exist on the server.
-This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudos()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudos).
+This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudo_attributes()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudo_attributes).
 
 * **Return type:**
   [bool](https://docs.python.org/3/library/functions.html#bool)
@@ -778,7 +798,7 @@ Short name of the parent record.
 If the record is at the root of the table, returns the name of the table.
 
 Read-only property. This is only available for records that exist on the server.
-This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudos()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudos).
+This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudo_attributes()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudo_attributes).
 
 * **Return type:**
   [str](https://docs.python.org/3/library/stdtypes.html#str)
@@ -792,7 +812,7 @@ Name of the parent record.
 If the record is at the root of the table, returns the name of the table.
 
 Read-only property. This is only available for records that exist on the server.
-This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudos()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudos).
+This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudo_attributes()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudo_attributes).
 
 * **Return type:**
   [str](https://docs.python.org/3/library/stdtypes.html#str)
@@ -806,7 +826,7 @@ History identity of the parent record.
 If the record is at the root of the table, returns the history identity of the table root node.
 
 Read-only property. This is only available for records that exist on the server.
-This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudos()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudos).
+This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudo_attributes()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudo_attributes).
 
 * **Return type:**
   [int](https://docs.python.org/3/library/functions.html#int)
@@ -818,7 +838,7 @@ This property is populated from a pseudo-attribute value and can be refreshed vi
 Datetime of the last modification.
 
 Read-only property. This is only available for records that exist on the server.
-This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudos()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudos).
+This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudo_attributes()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudo_attributes).
 
 * **Return type:**
   [datetime.datetime](https://docs.python.org/3/library/datetime.html#datetime.datetime)
@@ -830,7 +850,7 @@ This property is populated from a pseudo-attribute value and can be refreshed vi
 User who last modified the record.
 
 Read-only property. This is only available for records that exist on the server.
-This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudos()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudos).
+This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudo_attributes()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudo_attributes).
 
 * **Return type:**
   [str](https://docs.python.org/3/library/stdtypes.html#str)
@@ -842,7 +862,7 @@ This property is populated from a pseudo-attribute value and can be refreshed vi
 Datetime of the record creation.
 
 Read-only property. This is only available for records that exist on the server.
-This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudos()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudos).
+This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudo_attributes()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudo_attributes).
 
 * **Return type:**
   [datetime.datetime](https://docs.python.org/3/library/datetime.html#datetime.datetime)
@@ -854,7 +874,7 @@ This property is populated from a pseudo-attribute value and can be refreshed vi
 User who created the record.
 
 Read-only property. This is only available for records that exist on the server.
-This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudos()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudos).
+This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudo_attributes()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudo_attributes).
 
 * **Return type:**
   [str](https://docs.python.org/3/library/stdtypes.html#str)
@@ -866,7 +886,7 @@ This property is populated from a pseudo-attribute value and can be refreshed vi
 Datetime of the record release.
 
 Read-only property. This is only available for records that exist on the server.
-This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudos()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudos).
+This property is populated from a pseudo-attribute value and can be refreshed via [`refetch_pseudo_attributes()`](#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.refetch_pseudo_attributes).
 
 * **Return type:**
   [datetime.datetime](https://docs.python.org/3/library/datetime.html#datetime.datetime)

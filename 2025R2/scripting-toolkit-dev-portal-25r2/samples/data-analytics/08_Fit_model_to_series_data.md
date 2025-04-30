@@ -84,20 +84,10 @@ for test_group in temperature_test_groups:
 *Previous cell output:*
 ```output
 Fetched attributes for 6 records at 810.9K
-```*Previous cell output:*
-```output
 Fetched attributes for 6 records at 194.3K
-```*Previous cell output:*
-```output
 Fetched attributes for 6 records at 422.0K
-```*Previous cell output:*
-```output
 Fetched attributes for 6 records at 588.7K
-```*Previous cell output:*
-```output
 Fetched attributes for 6 records at 699.8K
-```*Previous cell output:*
-```output
 Fetched attributes for 6 records at 296.1K
 ```
 ## Define the Ramberg-Osgood model
@@ -105,7 +95,7 @@ Fetched attributes for 6 records at 296.1K
 The Ramberg-Osgood model expresses the total stress as a function of the strain, the Elastic Modulus and two model
 parameters, conventionally `K` and `n`:
 
-![Strain = Stress/Elastic Modulus + K\*(Stress/Elastic Modulus)\^n](assets/08_RambergOsgood.svg 'Ramberg-Osgood equation')
+![Strain = Stress/Elastic Modulus + K\*(Stress/Elastic Modulus)\^n](assets/08_RambergOsgood.svg)
 
 
 ```python

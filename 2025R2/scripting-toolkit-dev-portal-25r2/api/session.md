@@ -1,7 +1,5 @@
 # Session
 
-<a id="session-level"></a>
-
 <a id="session"></a>
 
 <a id="GRANTA_MIScriptingToolkit.granta.mi.Session"></a>

@@ -51,7 +51,7 @@ for link_group, records in rec.links.items():
 Link group "MaterialUniverse" contains links to the following records:
 
 Link group "Smart Link to MaterialUniverse" contains links to the following records:
-Alumino silicate - 1720, Lithium aluminosilicate, Barium silicate, Soda barium glass, Alumino silicate - 1723
+Lithium aluminosilicate, Alumino silicate - 1723, Barium silicate, Soda barium glass, Alumino silicate - 1720
 ```
 ## Static links
 A static link can be created between two existing records, including cross-database.
@@ -92,7 +92,7 @@ for link_group, records in rec.links.items():
 Link group "MaterialUniverse" contains links to the following records:
 Soda barium glass
 Link group "Smart Link to MaterialUniverse" contains links to the following records:
-Alumino silicate - 1720, Alumino silicate - 1723, Barium silicate, Soda barium glass, Lithium aluminosilicate
+Alumino silicate - 1720, Barium silicate, Lithium aluminosilicate, Alumino silicate - 1723, Soda barium glass
 ```
 ## Associated Records
 Associated Records are a way of traversing tabular links multiple steps at a time. This example finds all materials
