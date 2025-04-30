@@ -1,6 +1,6 @@
 # Appendix A: Using OpenTD with MATLAB
 
-While it is not feasible for us to maintain separate "Getting Started with OpenTD" guides for every programming language, we would still like to help you get started with OpenTD, even if you are not using C\#. The following .m script is a MATLAB port of the program in the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section. This can be used as a sort of "Rosetta Stone" to help you translate other C\# examples to MATLAB.
+While it is not feasible for us to maintain separate "Getting Started with OpenTD" guides for every programming language, we would still like to help you get started with OpenTD, even if you are not using C#. The following .m script is a MATLAB port of the program in the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section. This can be used as a sort of "Rosetta Stone" to help you translate other C# examples to MATLAB.
 
 ```MATLAB
 %% Using OpenTDv242 with MATLAB
@@ -10,12 +10,12 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 % (TD) that allows you to automate many of the tasks currently performed
 % interactively using TD’s Graphical User Interface (GUI). OpenTD gives you
 % the tools to programmatically create, query, edit, delete, and run
-% models. You can use any .NET language to interact with OpenTD (C\#,
+% models. You can use any .NET language to interact with OpenTD (C#,
 % VB.NET, F\#, etc.) or any system that can load .NET assemblies such as
 % MATLAB or Python.
 % Regardless of how you interact with OpenTD, you’ll need to have at least
 % an intermediate understanding of .NET object-oriented programming. If you
-% are starting from scratch, we recommend learning C\#, since it is the
+% are starting from scratch, we recommend learning C#, since it is the
 % language that we support. However, we understand that there might be
 % compelling reasons for you to connect to OpenTD via MATLAB. It is
 % possible, although the way MATLAB handles .NET enums is awkward and
@@ -23,7 +23,7 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 % To get started with OpenTD, read "Getting Started with OpenTDv242.pdf",
 % which can be found in your TD v241 installation directory under "Manual".
 % The Getting Started guide explains the fundamental concepts of OpenTD,
-% using several C\# examples. We've ported one of those examples to MATLAB
+% using several C# examples. We've ported one of those examples to MATLAB
 % below.
 %% The "Create and Run a Case" example ported to MATLAB
 % See "Getting Started with OpenTDv242.pdf" in your TD v241 installation
@@ -32,7 +32,7 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 % better ways to use OpenTD with MATLAB, especially with regard to .NET
 % enums and implicit constructors. For examples of awkward code, see how a
 % node is set to be a boundary node and how the InitialTemp of a node is
-% set -- in the script below vs. in the original C\#.
+% set -- in the script below vs. in the original C#.
 openTD = NET.addAssembly('OpenTDv242');
 import OpenTDv242.\*;
 td = ThermalDesktop;
@@ -107,7 +107,7 @@ cold.Run();
 %% Working with Dimensionals
 % All dimensional quanitities in the API are stored using a custom .NET
 % generic type called a Dimensional. For example, a Dimensional<Temp>
-% stores temperatures. Using C\#, Dimensionals are implicitly cast to and
+% stores temperatures. Using C#, Dimensionals are implicitly cast to and
 % from doubles as required, but this does not appear to work in MATLAB.
 % Instead, we've overloaded the double function and created a Dimensional
 % function to explicitly cast doubles to Dimensionals.
