@@ -10,9 +10,9 @@ logical components are described in the sections below:
 
 ## Session object
 
-The [Session](../api/session.md#session-level) section primarily documents the [`Session`](../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session) class. The [`Session`](../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session) class is
-instantiated by specifying Granta MI connection information, and the returned object represents a connection to the
-server. It acts as the root object from which most other Streamlined API objects are spawned, and is typically used to:
+The [Session](../api/session.md) section documents the [`Session`](../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session) class. The [`Session`](../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session) class is instantiated by
+specifying Granta MI connection information, and the returned object represents a connection to the server. It acts as
+the root object from which most other Streamlined API objects are spawned, and is typically used to:
 
 * Get [`Database`](../api/database.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Database) objects, which can be used to access [`Table`](../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table) and [`Record`](../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record) objects.
 * Perform text searches across all records on the server with the [`Session.search_for_records_by_text()`](../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session.search_for_records_by_text) and
@@ -26,10 +26,10 @@ and tables.
 
 ## Database and table classes
 
-The [Database](../api/database.md#db-level) section documents the [`Database`](../api/database.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Database) class, which represents Granta MI databases.
+The [Database](../api/database.md) section documents the [`Database`](../api/database.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Database) class, which represents Granta MI databases.
 [`Database`](../api/database.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Database) objects are typically obtained by using the [`Session.get_db()`](../api/session.md#GRANTA_MIScriptingToolkit.granta.mi.Session.get_db) method.
 
-The [Table](../api/table.md#table-level) section documents [`Table`](../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table) class, which represents tables on the Granta MI server.
+The [Table](../api/table.md) section documents [`Table`](../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table) class, which represents tables on the Granta MI server.
 [`Table`](../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table) objects are typically obtained by using the [`Database.get_table()`](../api/database.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Database.get_table) method.
 
 [`Database`](../api/database.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Database) and [`Table`](../api/table.md#GRANTA_MIScriptingToolkit.granta.mi_tree_classes.Table) objects are used to:
@@ -44,7 +44,7 @@ The [Table](../api/table.md#table-level) section documents [`Table`](../api/tabl
 
 ## Record classes
 
-The [Record](../api/record.md#record-level) section documents the [`Record`](../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record) class, which represents a record on the Granta MI server.
+The [Record](../api/record.md) section documents the [`Record`](../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record) class, which represents a record on the Granta MI server.
 [`Record`](../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record) objects are used to:
 
 * Access and modify data stored in attributes via the [`Record.attributes`](../api/record.md#GRANTA_MIScriptingToolkit.granta.mi_record_classes.Record.attributes) dictionary.
@@ -56,11 +56,11 @@ The [Record](../api/record.md#record-level) section documents the [`Record`](../
 
 ## Attribute definition classes
 
-The [Attribute definitions](../api/attribute-definitions.md#attribute-defs) section documents the [`AttributeDefinition`](../api/attribute-definitions.md#GRANTA_MIScriptingToolkit.granta.mi_attribute_classes.AttributeDefinition) class and all sub-classes. These classes
-represent the *definition* of an attribute on a Granta MI server, as opposed to an instance of an attribute which
-contains data. They are not associated with a particular record, only with the table that they are defined in.
-[`AttributeDefinition`](../api/attribute-definitions.md#GRANTA_MIScriptingToolkit.granta.mi_attribute_classes.AttributeDefinition) classes can be used to access the attribute name, attribute unit, and additional
-schema-level configuration based on the type of the attribute.
+The [Attribute definitions](../api/attribute-definitions.md) section documents the [`AttributeDefinition`](../api/attribute-definitions.md#GRANTA_MIScriptingToolkit.granta.mi_attribute_classes.AttributeDefinition) class and all sub-classes.
+These classes represent the *definition* of an attribute on a Granta MI server, as opposed to an instance of an
+attribute which contains data. They are not associated with a particular record, only with the table that they are
+defined in. [`AttributeDefinition`](../api/attribute-definitions.md#GRANTA_MIScriptingToolkit.granta.mi_attribute_classes.AttributeDefinition) classes can be used to access the attribute name, attribute unit, and
+additional schema-level configuration based on the type of the attribute.
 
 The [`AttributeDefinition`](../api/attribute-definitions.md#GRANTA_MIScriptingToolkit.granta.mi_attribute_classes.AttributeDefinition) class is subclassed according to the hierarchy described below:
 
@@ -89,7 +89,7 @@ place of [`AttributeDefinition`](../api/attribute-definitions.md#GRANTA_MIScript
 
 ## Attribute classes
 
-The [Attribute values](../api/attribute-values.md#attribute-vals) section documents the
+The [Attribute values](../api/attribute-values.md) section documents the
 [`AttributeValue`](../api/attribute-values.md#GRANTA_MIScriptingToolkit.granta.mi_attribute_value_classes.AttributeValue) class and all sub-classes. These
 classes are analogous to the attribute definition classes, but represent attribute *values*. They are associated with
 both the table and record that they relate to. In addition to being able to access the attribute name and attribute
@@ -122,7 +122,7 @@ the hierarchy described below:
 
 ## Sub-attribute classes
 
-The [Schema and supporting items](../api/supporting.md#sub-attribute-level) section documents classes that are used by attribute objects but are not attributes
+The [Schema and supporting items](../api/supporting.md) section documents classes that are used by attribute objects but are not attributes
 themselves. This includes:
 
 * The [`ParameterDefinition`](../api/supporting.md#GRANTA_MIScriptingToolkit.granta.mi_attribute_classes.ParameterDefinition) section, which documents the classes used to describe parameters.

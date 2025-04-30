@@ -1,6 +1,6 @@
 # Introduction
 
-<a id="granta-project-version"></a>
+<a id="introduction"></a>
 
 * [Getting started](getting_started/index.md): Learn how to install MI Scripting Toolkit and run some simple commands.
 * [User guide](user_guide/index.md): Learn more about MI Scripting Toolkit.

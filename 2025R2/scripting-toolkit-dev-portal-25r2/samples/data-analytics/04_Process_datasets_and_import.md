@@ -896,6 +896,6 @@ mi.update([record])
 
 *Previous cell output:*
 ```output
-[<Record long name: Tensile analysis Wed Apr  9 10:37:17 2025>]
+[<Record long name: Tensile analysis Thu Apr 24 22:46:30 2025>]
 ```
 

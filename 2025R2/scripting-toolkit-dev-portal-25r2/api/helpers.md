@@ -1,7 +1,5 @@
 # Helper functions
 
-<a id="functions"></a>
-
 <a id="helper-functions"></a>
 
 <a id="GRANTA_MIScriptingToolkit.granta.mi.connect"></a>

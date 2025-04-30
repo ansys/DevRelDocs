@@ -24,6 +24,8 @@ MI Scripting Toolkit for pip is supported on the following platforms:
 | RHEL 8.8+, 9.3+ <sup>[5](#id11)</sup>                   | Supported                         | Supported     | Certified     | Supported     |
 | Rocky Linux<br/>8.9+, 9.3+ <sup>[6](#id12)</sup>        | Supported                         | Supported     | Certified     | Supported     |
 
+Test platform details:
+
 * <a id='id7'>**[1]**</a> Automated testing performed on Windows Server 2022. Manual testing performed on Windows Server 2019 and Windows 11.
 * <a id='id8'>**[2]**</a> Automated testing performed on Ubuntu 22.04 development release. Manual testing performed on Ubuntu 22.04.4.
 * <a id='id9'>**[3]**</a> Automated testing performed on Ubuntu 24.04 development release. Manual testing performed on Ubuntu 24.04.2.
@@ -77,9 +79,9 @@ The list above include only the direct dependencies of the MI Scripting Toolkit 
 (dependencies of dependencies) are not given here, since in general they depend on the specific version of the
 dependency that is selected, and as a result will change over time.
 
-The recommended way to determine the full requirements at a particular point in time is to install the Scripting
-[https://docs.python.org/3/library/venv.html](https://docs.python.org/3/library/venv.html), and then use `pip list` or `pip freeze` to display the installed
-packages.
+To determine the full requirements at a particular point in time, install the Scripting Toolkit into an empty virtual
+environment (see [https://docs.python.org/3/library/venv.html](https://docs.python.org/3/library/venv.html) for details), and then use `pip list` or `pip
+freeze` to display the installed packages.
 
 <a id="installing-and-upgrading-project"></a>
 
