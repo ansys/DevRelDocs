@@ -1,6 +1,6 @@
 # Appendix B: Using OpenTD with Python
 
-While it is not feasible for us to maintain separate "Getting Started with OpenTD" guides for every programming language, we would still like to help you get started with OpenTD, even if you are not using C\#. The following .py script is a MATLAB port of the program in the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section. This can be used as a sort of "Rosetta Stone" to help you translate other C\# examples to Python. It uses the pythonnet module, found at: [http://pythonnet.github.io/](http://pythonnet.github.io/).
+While it is not feasible for us to maintain separate "Getting Started with OpenTD" guides for every programming language, we would still like to help you get started with OpenTD, even if you are not using C#. The following .py script is a MATLAB port of the program in the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section. This can be used as a sort of "Rosetta Stone" to help you translate other C# examples to Python. It uses the pythonnet module, found at: [http://pythonnet.github.io/](http://pythonnet.github.io/).
 
 ```python
 \#\#\#\# Using OpenTDv242 with Python \#\#\#\#
@@ -11,12 +11,12 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 \# (TD) that allows you to automate many of the tasks currently performed
 \# interactively using TD's Graphical User Interface (GUI). OpenTD gives you
 \# the tools to programmatically create, query, edit, delete, and run
-\# models. You can use any .NET language to interact with OpenTD (C\#,
-\# VB.NET, F\#, etc.) or any system that can load .NET assemblies such as
+\# models. You can use any .NET language to interact with OpenTD (C#,
+\# VB.NET, F#, etc.) or any system that can load .NET assemblies such as
 \# MATLAB or Python.
 \# Regardless of how you interact with OpenTD, you'll need to have at least
 \# an intermediate understanding of .NET object-oriented programming. If you
-\# are starting from scratch, we recommend learning C\#, since it is the
+\# are starting from scratch, we recommend learning C#, since it is the
 \# language that we support. However, we understand that there might be
 \# compelling reasons for you to connect to OpenTD via Python. It is
 \# possible using the pythonnet module:
@@ -24,7 +24,7 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 \# To get started with OpenTD, read "Getting Started with OpenTDv242.pdf",
 \# which can be found in your TD v241 installation directory under "Manual".
 \# The Getting Started guide explains the fundamental concepts of OpenTD,
-\# using several C\# examples. We've ported one of those examples to Python
+\# using several C# examples. We've ported one of those examples to Python
 \# below.
 \#\#\#\# The "Create and Run a Case" example ported to Python \#\#\#\#
 \# See "Getting Started with OpenTDv242.pdf" in your TD v241 installation
@@ -44,7 +44,7 @@ from OpenTDv242 import \*
 from System import \*
 from System.Collections.Generic import List
 \# To access dimensional quantities in OpenTD, we need to use Dimensionals.
-\# These are cast to/from doubles implicitly in C\#, but here we'll need to
+\# These are cast to/from doubles implicitly in C#, but here we'll need to
 \# refer to them explicitly. (See setting InitialTemp, below.)
 from OpenTDv242 import Dimension
 from OpenTDv242.Dimension import \*

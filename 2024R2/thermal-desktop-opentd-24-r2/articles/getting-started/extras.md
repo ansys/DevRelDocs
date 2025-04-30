@@ -225,7 +225,7 @@ where n1 and n2 were existing Node objects. CreateConductor has several overload
 Conductor CreateConductor(Connection from, Connection to)
 ```
 
-We took advantage of the fact that OpenTD will implicitly cast a *DbObject* (like a Node) to a new Connection. Explicitly, the C\# compiler constructed Connections from our Nodes like this:
+We took advantage of the fact that OpenTD will implicitly cast a *DbObject* (like a Node) to a new Connection. Explicitly, the C# compiler constructed Connections from our Nodes like this:
 
 ```c#
 var c = td.CreateConductor(new Connection(n1, 1), new Connection(n2, 1));

@@ -1,9 +1,9 @@
 
 # Appendix D: Using OpenTD Interactively with the C# Interactive Compiler
 
-Normally C\# is compiled before running, but you can open an interactive C\# Read-eval-print loop (REPL) in Visual Studio using the following command: View->Other Windows->C\# Interactive
+Normally C# is compiled before running, but you can open an interactive C# Read-eval-print loop (REPL) in Visual Studio using the following command: View->Other Windows->C# Interactive
 
-Once open, you can use it to interactively execute C\# code, including OpenTD. For example:
+Once open, you can use it to interactively execute C# code, including OpenTD. For example:
 
 ```csharp
 > \#r "OpenTDv242" // loads the dll as a reference

@@ -1,6 +1,6 @@
 # Use a loop to create many layers, nodes, and conductors
 
-It is easy to create two nodes and a conductor using the GUI. The real usefulness of an API like OpenTD is in automating things that are tedious and/or time-consuming. For example, the following program creates 101 nodes in a sinusoid pattern connected by conductors and puts them on 101 randomly colored layers. This program only uses a few new OpenTD concepts, but it demonstrates how OpenTD types can be combined with C\# statements to quickly accomplish things that would take much longer using the GUI.
+It is easy to create two nodes and a conductor using the GUI. The real usefulness of an API like OpenTD is in automating things that are tedious and/or time-consuming. For example, the following program creates 101 nodes in a sinusoid pattern connected by conductors and puts them on 101 randomly colored layers. This program only uses a few new OpenTD concepts, but it demonstrates how OpenTD types can be combined with C# statements to quickly accomplish things that would take much longer using the GUI.
 
 ```c#
 using System;
