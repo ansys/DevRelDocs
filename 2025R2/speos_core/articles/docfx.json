@@ -1,9 +1,9 @@
 {
     "build": {
       "globalMetadata": {
-        "title": "Speos Core methods 2025 R1",
+        "title": "Speos Core methods 2025 R2",
         "summary": "",
-        "version": "2025 R1",
+        "version": "2025 R2",
         "product": "Speos",
         "programming language": "IronPython",
         "product collection": "Optics",
