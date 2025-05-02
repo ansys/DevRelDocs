@@ -1,0 +1,11 @@
+[Aa]nsys
+Speos
+dValue
+APIs
+boolean
+Enum
+SpeosSim
+SpeosDes
+SpeosAsm
+CAD
+bool
