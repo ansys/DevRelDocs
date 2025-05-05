@@ -1,0 +1,13 @@
+{
+    "build": {
+        "globalMetadata": {
+            "title": "DPF operator specifications subset 2025 R2 with frontmatters",
+            "summary": "",
+            "version": "2025 R2",
+            "product": "DPF",
+            "programming language": "C++",
+            "product collection": "Shared technology",
+            "physics": "Shared technology"
+        }
+    }
+}
