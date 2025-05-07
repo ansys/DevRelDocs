@@ -40,18 +40,18 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 % set -- in the script below vs. in the original C#.
 
 openTD = NET.addAssembly('OpenTDv242');
-import OpenTDv242.\*;
+import OpenTDv242.*;
 td = ThermalDesktop;
 td.Connect();
 
-% \*\*\* Create a simple model of a heated bar \*\*\*
+% *** Create a simple model of a heated bar ***
 barNodes = NET.createArray('OpenTDv242.Node', 10);
 for i = 1:10
     n = td.CreateNode();
     n.Submodel = SubmodelNameData('bar');
     n.Id = i;
     n.MassVol = 10;
-    n.Origin = Point3d(0.01 \* (i - 1), 1, 0);
+    n.Origin = Point3d(0.01 * (i - 1), 1, 0);
     n.InitialTemp = Dimensional(n.InitialTemp, 300);
     n.Update();
     barNodes(i) = n;
@@ -92,7 +92,7 @@ torch.Submodel = SubmodelNameData('torch');
 torch.Update();
 
 td.ZoomExtents();
-% \*\*\* End simple model creation \*\*\*
+% *** End simple model creation ***
 
 % Create a transient case and run it:
 nominal = td.CreateCaseSet(...
