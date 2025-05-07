@@ -2,7 +2,7 @@
 
 To connect objects in TD, you will use a Connection. A Connection contains a handle and a marker. As discussed in [Create nodes and a conductor](nodes-and-conductor.md) section, a handle is a string that TD uses to uniquely identify each object in a drawing. You have probably seen them listed in the Model Browser:
 
-![Model Browser Example](../media/model-browser-example.png)
+![Model Browser Example](../media/2f2bcdeb872649910f747dfa5b80c4fa.png)
 
 In addition to Connections, OpenTD uses handles to find objects when, for example, you call the Update() method on an object. Internally, OpenTD keeps track of which dwg contains the object, and finds it in the dwg using the Handle property of the object.
 

@@ -1,26 +1,26 @@
 # Modifying TD models
 
-So far, you have seen how to create new entities in TD, but OpenTD can also be used to query existing models and modify their contents. For most entity types, there is a ThermalDesktop method to get all items of that type in the model, and a method to get a specific item. For example, *GetNodes()* returns a list of all Nodes, and *GetNode(string handle)* returns a specific node if you know its AutoCAD handle. (See the [Work with connections, handles, markers, and domains section](creating-td-model/connections-handles-markers-domains.md)) It is often convenient to use the *LINQ Single* or *Where* methods to search a returned list of entities to find the items that meet some criteria. For example, to find all the arithmetic nodes on layer “sheet”, you could do something like this:
+So far, you have seen how to create new entities in TD, but OpenTD can also be used to query existing models and modify their contents. For most entity types, there is a ThermalDesktop method to get all items of that type in the model, and a method to get a specific item. For example, *GetNodes()* returns a list of all Nodes, and *GetNode(string handle)* returns a specific node if you know its AutoCAD handle. (See the [Work with connections, handles, markers, and domains](creating-td-model/connections-handles-markers-domains.md) section) It is often convenient to use the *LINQ Single* or *Where* methods to search a returned list of entities to find the items that meet some criteria. For example, to find all the arithmetic nodes on layer “sheet”, you could do something like this:
 
 ```c#
 var arithmeticNodes = td.GetNodes().Where
-(x => x.NodeType == RcNodeData.NodeTypes.ARITHMETIC
-&& x.Layer == “sheet”);
+    (x => x.NodeType == RcNodeData.NodeTypes.ARITHMETIC
+        && x.Layer == “sheet”);
 ```
 
-The variable `arithmeticNodes` would now be an `*IEnumerable<Node>*` containing all of the arithmetic nodes on layer “sheet”.
+The variable `arithmeticNodes` would now be an `IEnumerable<Node>` containing all of the arithmetic nodes on layer “sheet”.
 
 **Note**: You can use foreach to iterate over the elements of an `IEnumerable`, just like a List. Or you can convert the `IEnumerable` to a List using the `ToList()` method.
 
-Another useful LINQ technique is to use the `*Select*` method to extract a related list from an input list. For example, the following line creates an `IEnumerable<string>` containing the handles of all of the nodes returned by `GetNodes()`:
+Another useful LINQ technique is to use the `Select` method to extract a related list from an input list. For example, the following line creates an `IEnumerable<string>` containing the handles of all of the nodes returned by `GetNodes()`:
 
 ```c#
 var nodeHandles = td.GetNodes().Select(x => x.Handle);
 ```
 
-To delete any item with an AutoCAD handle, use the `*ThermalDesktop.DeleteEntity*` method. For items without handles, there are specialized delete methods such as `ThermalDesktop.DeleteSymbol*`, which accepts the name of the symbol to delete.
+To delete any item with an AutoCAD handle, use the `ThermalDesktop.DeleteEntity` method. For items without handles, there are specialized delete methods such as `ThermalDesktop.DeleteSymbol`, which accepts the name of the symbol to delete.
 
-The following examples demonstrate querying, modifying and deleting entities in a model.
+The following examples demonstrate querying, modifying, and deleting entities in a model.
 
 ## Query and edit a model
 

@@ -13,7 +13,7 @@ The classes for working directly with save files, CSR’s or other solution resu
 
 ### Before using OpenTDv242.Results
 
-To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTDv242.esults.dll assembly. You can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.ET\\assembly\\GAC_64\\OpenTDv242.Results.) You will also probably need to add a reference to OpenTDv242.dll, as usual. [See the Hello World](creating-td-model/hello-world.md)
+To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTDv242.Results.dll assembly. You can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.ET\\assembly\\GAC_64\\OpenTDv242.Results.) You will also probably need to add a reference to OpenTDv242.dll, as usual. [See the Hello World](creating-td-model/hello-world.md)
 Since OpenTDv242.Results is a 64-bit assembly, your project will also have to be 64-bit. In Visual Studio, use the Configuration manager to create a 64-bit solution and a 64-bit project. When set up correctly, your Configuration Manager dialog should look something like this:
 ![Configuration Manager dialog](media/19913b5a9a51f4926a07426227c010fa.png)
 
@@ -22,7 +22,9 @@ Since OpenTDv242.Results is a 64-bit assembly, your project will also have to be
 OpenTD offers powerful tools for manipulating solution results, but it is a lot to learn all at once. This section shows how to imply get some data out of a save file or CSR.
 First, reference the OpenTDv242.Results dll as discussed above. Next, add a using statement for convenience:
 
+```c#
 using OpenTDv242.Results.Dataset;
+```
 
 Now you can connect to a save file:
 
@@ -68,7 +70,7 @@ You can construct an array of strings to pass to GetData. For example, to get te
 ```c#
 string[] someNames = new string[100];
 for (int i = 0; i < 100; ++i)
-someNames[i] = "MAIN.T" + (i + 1);
+    someNames[i] = "MAIN.T" + (i + 1);
 var someTs = myData.GetData(someNames).GetValues(Units.SI);
 ```
 
@@ -84,7 +86,7 @@ var times = myData.GetTimes().GetValues();
 
 This returns a list of times in the current WorkingUnits.
 
-### Advanced Results Manipulation and XY Plots
+### Advanced results manipulation and XY plots
 
 The previous section showed how to easily get data out of save files or CSR’s. In this and the following sections we will show how to manipulate that data, work with groups and multiple datasets, combine data in arbitrarily complex ways, and create simple XY plots.
 
@@ -137,7 +139,7 @@ Compared to previous methods for extracting and plotting SINDA/FLUINT data, Open
 
 In this program, we will make use of the “torchNom.sav” and “torchCold.sav” files created in the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section, so please run that program and locate the two save files.
 
-Once Visual Studio is set up with a 64-bit solution and project ( Section [Before using OpenTDv242.Results](#before-using-opentdv242results)), and you have added references to OpenTDv242.dll and OpenTDv242.Results.dll, you will be ready to try the following program.
+Once Visual Studio is set up with a 64-bit solution and project ([Before using OpenTDv242.Results](#before-using-opentdv242results) section), and you have added references to OpenTDv242.dll and OpenTDv242.Results.dll, you will be ready to try the following program.
 
 ```c#
 using System;
@@ -460,11 +462,11 @@ namespace OpenTDv242GettingStarted
 
 As shown in the preceding sections, the DataSubtype class is used to describe types of data found in solution results such as “node temperature T” or “lump pressure PL”. There are several methods that require a DataSubtype as a parameter. When using those methods, you can create your own DataSubtype, but it is usually easier to allow OpenTD to do it for you by making use of the StandardDataSubtypes enum and/or the FullStandardDataSubtype struct.
 
-Through the magic of implicit casting (See the [Execute TD COM commands section](extras.md#execute-td-com-commands)) any method that accepts a DataSubtype will accept either a StandardDataSubtypes or FullStandardDataSubtype instead. For example, one of the GetData overloads has the following signature:
+Through the magic of implicit casting (See the [Execute TD COM commands](extras.md#execute-td-com-commands) section) any method that accepts a DataSubtype will accept either a StandardDataSubtypes or FullStandardDataSubtype instead. For example, one of the GetData overloads has the following signature:
 
 ```c#
 DataArrayCollection GetData(
-ItemIdentifierCollection itemIds, DataSubtype subtype, UnitsData units = null)
+    ItemIdentifierCollection itemIds, DataSubtype subtype, UnitsData units = null)
 ```
 
 It expects a list of entity names (the ItemIdentifierCollection), the type of data to get (the DataSubtype), and you can optionally specify the units for any registers in the ItemIdentifierCollection. To get node temperatures for all the nodes in the “PANEL” domain from TD instance “td”, you could do this:
@@ -539,9 +541,9 @@ You may notice that each of the conductors is listed twice, once from node A to 
 
 Model topology along with solution results can be used to determine heat rates between groups of entities. This is done using an *IBrowser*.
 
-The following program uses the solution results from section [Create and run a case](working-with-case-sets.md#create-and-run-a-case) . Make sure to run that program first before trying this one. As you may recall, that program creates a model of a bar heated on one end, convecting to a room along its length. We will be using results from a transient case, starting with a cold bar.
+The following program uses the solution results from the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section. Make sure to run that program first before trying this one. As you may recall, that program creates a model of a bar heated on one end, convecting to a room along its length. We will be using results from a transient case, starting with a cold bar.
 
-We will create two IBrowsers, one early in the solution and one at the final record, using them to find the total heat rate from the bar to the room at the two times. We will also use a SumDataArray (section [Advanced results manipulation and XY plots](#advanced-results-manipulation-and-xy-plots)) to plot the constant total external heat into the bar over the whole solution. We expect the heat rate from the bar to the room to approach the external heat rate as the system approaches steady-state.
+We will create two IBrowsers, one early in the solution and one at the final record, using them to find the total heat rate from the bar to the room at the two times. We will also use a SumDataArray ([Advanced results manipulation and XY plots](#advanced-results-manipulation-and-xy-plots) section) to plot the constant total external heat into the bar over the whole solution. We expect the heat rate from the bar to the room to approach the external heat rate as the system approaches steady-state.
 
 ```c#
 using System;
