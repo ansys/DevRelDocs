@@ -100,7 +100,7 @@ namespace OpenTDGettingStarted
 }
 ```
 
-Solution files, including “torchNom.sav” and “torchCold.sav”, will be written to the working directory, which we created and then set with ThermalDesktop*.ConnectConfig.StartDirectory*. (See the [Control how OpenTD connects to Thermal Desktop](extras.md#control-how-opentd-connects-to-thermal-desktop) section for more information about controlling how OpenTD connects to TD.) Otherwise, the working directory would have probably been the directory containing your exe. You can also use the ThermalDesktop.*SaveAs* method before running to save the dwg and set the working directory.
+Solution files, including “torchNom.sav” and “torchCold.sav”, will be written to the working directory, which we created and then set with ThermalDesktop.*ConnectConfig.StartDirectory*. (See the [Control how OpenTD connects to Thermal Desktop](extras.md#control-how-opentd-connects-to-thermal-desktop) section for more information about controlling how OpenTD connects to TD.) Otherwise, the working directory would have probably been the directory containing your exe. You can also use the ThermalDesktop.*SaveAs* method before running to save the dwg and set the working directory.
 
 ## Create an orbit and apply it to a case set
 
@@ -151,7 +151,7 @@ namespace OpenTDGettingStarted
 
 When you call CaseSet.Run(), it is the same as selecting and running a single case in the GUI. If you would like to select multiple cases and run, either in Demand or Batch mode, you can use ThermalDesktop.*CaseSetManager*. It provides all the functionality of the Case Set Manager, including the ability to adjust Manager-level options, using the CaseSetManager.*Options* member.
 
-To run multiple cases – just like selecting them all in the GUI and running – use the following CaseSetManager.Run overload:
+To run multiple cases–just like selecting them all in the GUI and running–use the following CaseSetManager.Run overload:
 
 ```c#
 void Run(IEnumerable<int> caseIndices)

@@ -62,7 +62,7 @@ You can construct an array of strings to pass to GetData. For example, to get te
 ```c#
 string[] someNames = new string[100];
 for (int i = 0; i < 100; ++i)
-someNames[i] = "MAIN.T" + (i + 1);
+    someNames[i] = "MAIN.T" + (i + 1);
 var someTs = myData.GetData(someNames).GetValues(Units.SI);
 ```
 
@@ -78,7 +78,7 @@ var times = myData.GetTimes().GetValues();
 
 This returns a list of times in the current WorkingUnits.
 
-### Advanced Results Manipulation and XY Plots
+### Advanced results manipulation and XY plots
 
 The previous section showed how to easily get data out of save files or CSR’s. In this and the following sections we will show how to manipulate that data, work with groups and multiple datasets, combine data in arbitrarily complex ways, and create simple XY plots.
 
@@ -131,7 +131,7 @@ Compared to previous methods for extracting and plotting SINDA/FLUINT data, Open
 
 In this program, we will make use of the “torchNom.sav” and “torchCold.sav” files created in the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section, so please run that program and locate the two save files.
 
-Once Visual Studio is set up with a 64-bit solution and project ( Section [Before using OpenTD.Results](#before-using-OpenTDresults)), and you have added references to OpenTD.dll and OpenTD.Results.dll, you will be ready to try the following program.
+Once Visual Studio is set up with a 64-bit solution and project ([Before using OpenTD.Results](#before-using-OpenTDresults) section), and you have added references to OpenTD.dll and OpenTD.Results.dll, you will be ready to try the following program.
 
 ```c#
 using System;
@@ -454,11 +454,11 @@ namespace OpenTDGettingStarted
 
 As shown in the preceding sections, the DataSubtype class is used to describe types of data found in solution results such as “node temperature T” or “lump pressure PL”. There are several methods that require a DataSubtype as a parameter. When using those methods, you can create your own DataSubtype, but it is usually easier to allow OpenTD to do it for you by making use of the StandardDataSubtypes enum and/or the FullStandardDataSubtype struct.
 
-Through the magic of implicit casting (See the [Execute TD COM commands section](extras.md#execute-td-com-commands)) any method that accepts a DataSubtype will accept either a StandardDataSubtypes or FullStandardDataSubtype instead. For example, one of the GetData overloads has the following signature:
+Through the magic of implicit casting (See the [Execute TD COM commands](extras.md#execute-td-com-commands) section) any method that accepts a DataSubtype will accept either a StandardDataSubtypes or FullStandardDataSubtype instead. For example, one of the GetData overloads has the following signature:
 
 ```c#
 DataArrayCollection GetData(
-ItemIdentifierCollection itemIds, DataSubtype subtype, UnitsData units = null)
+    ItemIdentifierCollection itemIds, DataSubtype subtype, UnitsData units = null)
 ```
 
 It expects a list of entity names (the ItemIdentifierCollection), the type of data to get (the DataSubtype), and you can optionally specify the units for any registers in the ItemIdentifierCollection. To get node temperatures for all the nodes in the “PANEL” domain from TD instance “td”, you could do this:
@@ -533,9 +533,9 @@ You may notice that each of the conductors is listed twice, once from node A to 
 
 Model topology along with solution results can be used to determine heat rates between groups of entities. This is done using an *IBrowser*.
 
-The following program uses the solution results from section [Create and run a case](working-with-case-sets.md#create-and-run-a-case) . Make sure to run that program first before trying this one. As you may recall, that program creates a model of a bar heated on one end, convecting to a room along its length. We will be using results from a transient case, starting with a cold bar.
+The following program uses the solution results from the [Create and run a case](working-with-case-sets.md#create-and-run-a-case) section. Make sure to run that program first before trying this one. As you may recall, that program creates a model of a bar heated on one end, convecting to a room along its length. We will be using results from a transient case, starting with a cold bar.
 
-We will create two IBrowsers, one early in the solution and one at the final record, using them to find the total heat rate from the bar to the room at the two times. We will also use a SumDataArray (section [Advanced results manipulation and XY plots](#advanced-results-manipulation-and-xy-plots)) to plot the constant total external heat into the bar over the whole solution. We expect the heat rate from the bar to the room to approach the external heat rate as the system approaches steady-state.
+We will create two IBrowsers, one early in the solution and one at the final record, using them to find the total heat rate from the bar to the room at the two times. We will also use a SumDataArray ([Advanced results manipulation and XY plots](#advanced-results-manipulation-and-xy-plots) section) to plot the constant total external heat into the bar over the whole solution. We expect the heat rate from the bar to the room to approach the external heat rate as the system approaches steady-state.
 
 ```c#
 using System;
