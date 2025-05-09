@@ -83,25 +83,40 @@ To determine the full requirements at a particular point in time, install the Sc
 environment (see [https://docs.python.org/3/library/venv.html](https://docs.python.org/3/library/venv.html) for details), and then use `pip list` or `pip
 freeze` to display the installed packages.
 
+These third-party packages are not provided with MI Scripting Toolkit, but **must** be installed before use. Follow the
+installation instructions in [Installing and upgrading MI Scripting Toolkit](#installing-and-upgrading-pip) to automatically download compatible versions of these
+packages from [PyPI](https://pypi.org/) and install them alongside MI Scripting Toolkit. To install MI Scripting Toolkit without access to PyPI, see
+[Offline installation](#offline-installation-pip).
+
+<a id="installation-preparation"></a>
+
+### Installation preparation
+
+MI Scripting Toolkit is provided as a zip file, and is available from the Downloads page on the Ansys Customer Portal. All
+instructions on this page assume a Windows environment, and that the zip file has been downloaded and unzipped to the
+location `C:\Users\user\scripting_toolkit`. Replace this path as required for your environment.
+
+To install MI Scripting Toolkit in a Linux environment, replace the example Windows path with the appropriate Linux path. For
+example, the path `C:\Users\user\scripting_toolkit\pip` in Windows would be equivalent to
+`/home/user/scripting_toolkit/pip` on Linux.
+
+<a id="installing-and-upgrading-pip"></a>
+
 <a id="installing-and-upgrading-project"></a>
 
 ## Installing and upgrading MI Scripting Toolkit
 
-MI Scripting Toolkit is provided as a zip file, and is available from the Downloads page on the Ansys Customer Portal. This section
-assumes that the zip file has been downloaded and the contents have been unzipped to the location
-`/home/user/scripting_toolkit` on Linux, or `C:\Users\user\scripting_toolkit` on Windows.
-
-It is recommended to install MI Scripting Toolkit in a virtual environment. If you are installing MI Scripting Toolkit in an activated virtual
-environment, enter the following (on Windows, replace the file path with `C:\Users\user\scripting_toolkit\pip`):
+Install MI Scripting Toolkit in a virtual environment. If you are installing MI Scripting Toolkit in an activated virtual environment, enter
+the following:
 
 ```default
-$ pip install --upgrade granta_miscriptingtoolkit --find-links=/home/user/scripting_toolkit/pip
+$ pip install --upgrade granta_miscriptingtoolkit --find-links="C:\Users\user\scripting_toolkit\pip"
 ```
 
 If you are installing MI Scripting Toolkit in a Python environment which is not available on the path, enter the following:
 
 ```default
-$ path/to/python -m pip install --upgrade granta_miscriptingtoolkit --find-links=/home/user/scripting_toolkit/pip
+$ path/to/python -m pip install --upgrade granta_miscriptingtoolkit --find-links="C:\Users\user\scripting_toolkit\pip"
 ```
 
 When installation is complete, the MI Scripting Toolkit files are installed into the Python site-packages location.
@@ -121,13 +136,13 @@ To install an extra, include the extra name after the package name when installi
 MI Scripting Toolkit with the additional notebook dependencies:
 
 ```default
-$ pip install --upgrade granta_miscriptingtoolkit[notebooks] --find-links=/home/user/scripting_toolkit/pip
+$ pip install --upgrade granta_miscriptingtoolkit[notebooks] --find-links="C:\Users\user\scripting_toolkit\pip"
 ```
 
 Or to install both the notebook and OIDC dependencies:
 
 ```default
-$ pip install --upgrade granta_miscriptingtoolkit[notebooks,oidc] --find-links=/home/user/scripting_toolkit/pip
+$ pip install --upgrade granta_miscriptingtoolkit[notebooks,oidc] --find-links="C:\Users\user\scripting_toolkit\pip"
 ```
 
 The `[notebooks]` extra includes the following additional dependencies:
@@ -178,3 +193,28 @@ Or if you are using a Python environment which is not available on the path:
 ```default
 $ path/to/python -m pip uninstall miscriptingtoolkit
 ```
+
+<a id="offline-installation-pip"></a>
+
+<a id="offline-installation"></a>
+
+## Offline installation
+
+To install MI Scripting Toolkit without access to PyPI, first download the required third-party dependencies using a Python
+environment with PyPI access. Enter the following into the command line to download the wheels into the
+`C:\Users\user\all_wheels` directory:
+
+```default
+$ pip download GRANTA_MIScriptingToolkit --find-links=pip --dest="C:\Users\user\all_wheels"
+```
+
+Copy the `all_wheels` directory to the machine without access to PyPI, and enter the following into the command line
+to install MI Scripting Toolkit using the packages in the `all_wheels` directory:
+
+```default
+$ pip install GRANTA_MIScriptingToolkit --find-links="C:\Users\user\all_wheels"
+```
+
+These instructions describe how to download the required packages for the current platform only. To download packages
+for a different platform, for example to download Linux wheels in a Windows environment, see the
+[pip download](https://pip.pypa.io/en/stable/cli/pip_download/) documentation.

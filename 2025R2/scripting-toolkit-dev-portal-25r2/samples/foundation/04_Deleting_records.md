@@ -43,7 +43,7 @@ print(f'Imported record "{imported_records[0].longName}" to table "{table_name}"
 ```
 *Previous cell output:*
 ```output
-Imported record "Scripting toolkit foundation layer example 04:Thu Apr 24 22:57:24 2025" to table "Tensile Test Data"
+Imported record "Scripting toolkit foundation layer example 04:Thu May  8 23:40:02 2025" to table "Tensile Test Data"
 ```
 Now let's delete it!
 
@@ -58,5 +58,5 @@ print(f"Record {imported_records[0].longName} was deleted")
 ```
 *Previous cell output:*
 ```output
-Record Scripting toolkit foundation layer example 04:Thu Apr 24 22:57:24 2025 was deleted
+Record Scripting toolkit foundation layer example 04:Thu May  8 23:40:02 2025 was deleted
 ```
