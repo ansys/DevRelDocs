@@ -414,11 +414,11 @@ yield_stress = y_0 + (-x_0) * (y_1 - y_0) / (x_1 - x_0)
 strain_at_yield = yield_stress / youngs_modulus + STRAIN_OFFSET
 
 yield_stress_MPa = yield_stress / 1e6
-print(f"0.2% offset yield stress: {yield_stress:.2f} MPa")
+print(f"0.2% offset yield stress: {yield_stress_MPa:.2f} MPa")
 ```
 *Previous cell output:*
 ```output
-0.2% offset yield stress: 335555698.60 MPa
+0.2% offset yield stress: 335.56 MPa
 ```
 Plot the *0.2% offset yield stress* on the Stress-Strain plot. This time, plot the marker on both the full and inset
 axes, and annotate the inset.
@@ -896,6 +896,6 @@ mi.update([record])
 
 *Previous cell output:*
 ```output
-[<Record long name: Tensile analysis Thu Apr 24 22:46:30 2025>]
+[<Record long name: Tensile analysis Thu May  8 23:29:28 2025>]
 ```
 
