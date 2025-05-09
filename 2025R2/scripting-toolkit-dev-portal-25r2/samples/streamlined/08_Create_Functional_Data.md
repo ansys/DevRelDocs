@@ -421,6 +421,6 @@ mi.update([record])
 
 *Previous cell output:*
 ```output
-[<Record long name: Scripting Toolkit Example 8:Thu Apr 24 22:52:00 2025>]
+[<Record long name: Scripting Toolkit Example 8:Thu May  8 23:34:48 2025>]
 ```
 
