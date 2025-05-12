@@ -206,7 +206,7 @@ print(recName)
 ```
 *Previous cell output:*
 ```output
-Scripting toolkit foundation layer example 06:Thu May  8 23:40:57 2025
+Scripting toolkit foundation layer example 06:Mon May 12 16:20:48 2025
 ```
 Import the record to a Granta MI database.
 
@@ -287,5 +287,5 @@ print(
 ```
 *Previous cell output:*
 ```output
-Use MI Viewer to view Scripting toolkit foundation layer example 06:Thu May  8 23:40:57 2025 and check that the Order in 'Characterization of this material' is 1000
+Use MI Viewer to view Scripting toolkit foundation layer example 06:Mon May 12 16:20:48 2025 and check that the Order in 'Characterization of this material' is 1000
 ```

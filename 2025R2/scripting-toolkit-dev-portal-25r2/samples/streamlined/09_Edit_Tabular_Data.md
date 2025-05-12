@@ -167,6 +167,6 @@ mi.update_links([new_rec])
 
 *Previous cell output:*
 ```output
-[<Record long name: Scripting Toolkit Example 9:Thu May  8 23:35:25 2025>]
+[<Record long name: Scripting Toolkit Example 9:Mon May 12 16:13:51 2025>]
 ```
 
