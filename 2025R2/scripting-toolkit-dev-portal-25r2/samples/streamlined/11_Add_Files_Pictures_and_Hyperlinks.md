@@ -33,7 +33,7 @@ record, folder
 
 *Previous cell output:*
 ```output
-(<Record long name: Scripting Toolkit Example 11:Thu May  8 23:36:25 2025>,
+(<Record long name: Scripting Toolkit Example 11:Mon May 12 16:14:51 2025>,
  <Record long name: 300°F>)
 ```
 
