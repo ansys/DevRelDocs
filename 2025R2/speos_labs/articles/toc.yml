@@ -1,5 +1,10 @@
 - name: Introduction
   href: lab_api_home.md
+- name: Changelogs 
+  href: changelogs\speos_changelogs_lab.md
+  items:
+  - name: Speos Labs Changelog 2025 R2
+    href: changelogs\speos_changelogs_lab_252.md
 - name: Virtual Photometric Lab 
   href: virtual_photometric_lab\labvp_virtual_photometric_lab.md
   items:
