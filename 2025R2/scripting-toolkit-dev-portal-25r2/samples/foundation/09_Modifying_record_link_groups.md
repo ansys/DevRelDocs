@@ -120,5 +120,5 @@ print(f"{source_guid} ({source_name}) -> {target_guid} ({target_name})")
 *Previous cell output:*
 ```output
 Created 1 link(s)
-000016f6-000e-4fff-8fff-dd92ffff0000 (Cast sheet) -> 2fb527ec-9389-431c-9d34-cc3a71bef19f (Scripting toolkit foundation layer example 09:Thu Apr 24 22:59:30 2025)
+000016f6-000e-4fff-8fff-dd92ffff0000 (Cast sheet) -> f630996a-c1f6-4840-8afe-a011f60c0d49 (Scripting toolkit foundation layer example 09:Mon May 12 16:21:51 2025)
 ```

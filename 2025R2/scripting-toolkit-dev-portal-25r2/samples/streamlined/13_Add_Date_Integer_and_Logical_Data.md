@@ -36,7 +36,7 @@ record, folder
 
 *Previous cell output:*
 ```output
-(<Record long name: Scripting Toolkit Example 13:Thu Apr 24 22:54:44 2025>,
+(<Record long name: Scripting Toolkit Example 13:Mon May 12 16:15:50 2025>,
  <Record long name: Ti-6Al-4V>)
 ```
 
@@ -109,7 +109,7 @@ print(f"Built in Closed Chamber?: {'Yes' if closed_chamber.value else 'No'}")
 *Previous cell output:*
 ```output
 Date of Beam Profile Diagnostic: Jul 12 2020
-Date of Build: Apr 24 2025
+Date of Build: May 12 2025
 Maximum Number of Layers: 5
 Built in Closed Chamber?: Yes
 ```
