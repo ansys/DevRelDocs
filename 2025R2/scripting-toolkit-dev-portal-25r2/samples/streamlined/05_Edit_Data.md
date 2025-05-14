@@ -44,7 +44,7 @@ record, folder
 
 *Previous cell output:*
 ```output
-(<Record long name: Scripting Toolkit Example 5:Thu Apr 24 22:50:31 2025>,
+(<Record long name: Scripting Toolkit Example 5:Mon May 12 16:11:34 2025>,
  <Record long name: AMS 6520>)
 ```
 
@@ -119,7 +119,7 @@ print(f"Record Name: {record.name}, State: {record.release_state}")
 ```
 *Previous cell output:*
 ```output
-Record Name: Scripting Toolkit Example 5:Thu Apr 24 22:50:31 2025, State: Unreleased
+Record Name: Scripting Toolkit Example 5:Mon May 12 16:11:34 2025, State: Unreleased
 ```
 ## 'Not Applicable' flag
 Further edits can be made to the same **Record** object. In this case, the *Condition* attribute is not relevant,
@@ -143,7 +143,7 @@ print(f'Record Name: "{record.name}", State: "{record.release_state}"')
 ```
 *Previous cell output:*
 ```output
-Record Name: "Scripting Toolkit Example 5:Thu Apr 24 22:50:31 2025", State: "Released"
+Record Name: "Scripting Toolkit Example 5:Mon May 12 16:11:34 2025", State: "Released"
 ```
 Check the `Record.all_versions` property for a dictionary of all versions of the record. The dictionary
 contains a single version, confirming that only a single version was created in Granta MI.
@@ -157,7 +157,7 @@ record.all_versions
 
 *Previous cell output:*
 ```output
-{'v1': <Record long name: Scripting Toolkit Example 5:Thu Apr 24 22:50:31 2025>}
+{'v1': <Record long name: Scripting Toolkit Example 5:Mon May 12 16:11:34 2025>}
 ```
 
 
@@ -200,7 +200,7 @@ print(f'"Record Name: {record.name}", State: "{record.release_state}"')
 ```
 *Previous cell output:*
 ```output
-"Record Name: Scripting Toolkit Example 5:Thu Apr 24 22:50:31 2025", State: "Released"
+"Record Name: Scripting Toolkit Example 5:Mon May 12 16:11:34 2025", State: "Released"
 ```
 Check the `Record.all_versions` property again. The dictionary contains two versions, confirming that updating the
 Mooney-Rivlin attribute has created and released a second version of the record.
@@ -214,8 +214,8 @@ record.all_versions
 
 *Previous cell output:*
 ```output
-{'v1': <Record long name: Scripting Toolkit Example 5:Thu Apr 24 22:50:31 2025>,
- 'v2': <Record long name: Scripting Toolkit Example 5:Thu Apr 24 22:50:31 2025>}
+{'v1': <Record long name: Scripting Toolkit Example 5:Mon May 12 16:11:34 2025>,
+ 'v2': <Record long name: Scripting Toolkit Example 5:Mon May 12 16:11:34 2025>}
 ```
 
 
