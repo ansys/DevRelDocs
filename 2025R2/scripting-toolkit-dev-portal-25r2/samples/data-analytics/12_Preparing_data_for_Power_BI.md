@@ -15,6 +15,7 @@ The data provided in these datasets can be used to determine:
 The second snippet is detailed further down the example.
 
 ## Basic usage
+
 ### Pre-requisites
 
 * A valid Python interpreter as defined by the
@@ -23,12 +24,14 @@ The second snippet is detailed further down the example.
   Scripting options.
 
 ### Security
+
 When adding a Python script to Power BI, the script is persisted in the Power BI project. When using Power BI in a
 production environment, do not store credentials in plain text within the script. If possible, use methods of
 authentication that do not require storing sensitive information (such as using Windows Authentication via
 `autologon=True`) or refer to the `Authentication` section of the user guide.
 
 ### Dataset relationships
+
 Power BI automatically attempts to define relationships between datasets based on the column names. For example, both
 the DataFrames ``databases`` and ``tables`` include a column ``Database.Key``, which is automatically recognized as a
 relationship.
@@ -39,6 +42,7 @@ duplicated. As a result, it is sometimes necessary to build a new unique identif
 for dataset relationship to be successfully established.
 
 ### Access control
+
 Granta MI schema definition and data held in Granta MI might be subject to access control rules. Be aware of the
 access control rules applicable within your organization before exporting data and publishing it through a Power BI
 report, to avoid breaching organizational data confidentiality policies.
@@ -47,17 +51,17 @@ report, to avoid breaching organizational data confidentiality policies.
 
 1. Create a new ``Python Script`` Source in Power BI via the ``Get Data`` button.
 
-    ![The list of data providers is filtered to show only Python, and "Python script" is selected.](assets/12_power-bi-python.png)
+  ![The list of data providers is filtered to show only Python, and "Python script" is selected.](assets/12_power-bi-python.png)
 
 2. Copy the content of the script cell below into the ``Script`` input.
 
-    ![The "Script" input containing MI Scripting Toolkit Python code.](assets/12_power-bi-python-setup.png)
+  ![The "Script" input containing MI Scripting Toolkit Python code.](assets/12_power-bi-python-setup.png)
 
 3. Update the connection URL and authentication method appropriately.
 4. Click `OK` to validate the script definition. Power BI will execute the script and report errors, if any.
 5. Select which DataFrames to import as datasets. Click the `Load` button to confirm.
 
-    ![A list of Pandas DataFrame objects are shown on the left, and a preview of the "tables" DataFrame is shown on the right.](assets/12_power-bi-dataframes-loading.png)
+  ![A list of Pandas DataFrame objects are shown on the left, and a preview of the "tables" DataFrame is shown on the right.](assets/12_power-bi-dataframes-loading.png)
 
 6. Verify that column types and dataset relationships are correctly defined.
 7. Build your report visualizations.
