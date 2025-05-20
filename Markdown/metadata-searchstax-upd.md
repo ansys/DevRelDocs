@@ -22,7 +22,7 @@ Note that Version can be as follows:
 | Config file: docfx.json | Admin UI: Migration process | Admin UI: File edited |  Metadata name | Available to SearchStax
 |-------------------------|-----------------------------|-----------------------|------|------|
 | `title`: read. Example: "System Coupling Participant Library" | Not visible | **Product:** set. Example: "System Coupling Participant Library". | **Product** | No
-| `version:` read. Example: "2025 R1" | Not visible | visible |**Version** | Yes
+| `version:` read. Example: "2025 R1" | Not visible | **Version:** set. Example: 2025 R1 |**Version** | Yes
 | `physics`: read. Example: "Multiphysics" | Not visible | **Physics:** set. Example: "Multiphysics"| **Physics** | Yes
 
 ### Expected for Q2
@@ -30,7 +30,7 @@ Note that Version can be as follows:
 | Config file: docfx.json | Admin UI: Migration process | Admin UI: File edited |  Action |  Metadata name | Available to SearchStax
 |-------------------------|-----------------------------|-----------------------|------| ------|------|
 | `title`: read. Example: "System Coupling Participant Library" | Not visible | **Doc title:** set. Example: "System Coupling Participant Library" | Manage as metadata and rename to **Doc title**. | **Doc title** | No
-| `version`: read. Example: "2025 R1" | Not visible | visible | Work as expected | **Version** | Yes
+| `version`: read. Example: "2025 R1" | Not visible | **Version:** set. Example: 2025 R1 | Work as expected | **Version** | Yes
 | `physics`: read. Example: "Multiphysics" | Not visible | **Physics:** set. Example: "Multiphysics"| Work as expected  |**Physics** | Yes
 | `product collection`: read. Example: "Shared Technology" | Not visible | **Product collection:** set. Example: "Shared Technology"| Manage as metadata and make it available for SearchStax |**Product collection** | Yes
 
@@ -44,7 +44,7 @@ Note that Version can be as follows:
 | No file | **Product Name:** to be set. Example: "System Coupling Participant Library 2025 R1" | **Product:** set. Example: "System Coupling Participant Library 2025 R1"| No
 | No file | **Physics:** to be set. Example: "Multiphysics" | **Physics:** set. Example: "Multiphysics" | Yes
 | No file | **Version:** to be set. Example: "2025 R1" | **Version:** set. Example: "2025 R1" | Yes
-| No file | **Access Control:** to be set. Example: "Public" | **Published:** flagged or not | No
+| No file | **Access Control:** to be set. Example: "Public" | **Internal:** flagged or not | No
 
 ### Expected for Q2
 
@@ -80,5 +80,5 @@ Remove **API category** that we are not using or at least do not provide to Sear
 | Not defined | **Physics:** to be set. Example: "Multiphysics"  | **Physics:** set. Example: "Multiphysics"| Work as expected| **Physics**| Yes
 | Not defined  | **Access Control:** to be set. Example: "Public" | **Internal:** flagged or not | Work as expected | **Access Control**| No
 | Not defined  | **Status:** to be set. Example: "Published" | **Published:** flagged or not | Work as expected | **Status**| No
-| Not defined  | **Product collection:** to be set. Example: "Optics" | **Product collection:** set. Example: "Optics" | Manage as metadata and make it available for SearchStax | Yes
+| Not defined  | **Product collection:** to be set. Example: "Optics" | **Product collection:** set. Example: "Optics" | Manage as metadata and make it available for SearchStax | **Product collection** |  Yes
 
