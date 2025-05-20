@@ -13,7 +13,7 @@ In addition to managing this metadata, there is a need for a bulk action to upda
 - Version
 - Physics (less urgent)
 
-Another less urgent request, but one that would facilitate working in a more consistent environment, is to standardize the document title across all content types. Currently, as described in the tables below, this is not the case. The term "Product/Product name" is not used correctly. It actually represents the document title (e.g., "AVxcelerate Simulation Framework 2025 R1"). Renaming this metadata to "Doc title" or "Documentation title" universally would be more logical. Subsequently, we could potentially create a "Product" metadata that accurately represents the product (e.g., "Ansys AVxcelerate").
+Another less urgent request, but one that would facilitate working in a more consistent environment, is to standardize the document title metadata across all content types. Currently, as described in the tables below, this is not the case. The term "Product/Product name" is used and actually represents the document title (e.g., "AVxcelerate Simulation Framework 2025 R1"). Renaming this metadata to "Doc title" or "Documentation title" universally would be more logical. Subsequently, we could potentially create a "Product" metadata that accurately represents the product (e.g., "Ansys AVxcelerate").
 
 
 ## MD Documentation
@@ -30,7 +30,7 @@ Another less urgent request, but one that would facilitate working in a more con
 
 | Config file: docfx.json | Admin UI: Migration process | Admin UI: File edited |  Action |  Metadata name | Available to SearchStax
 |-------------------------|-----------------------------|-----------------------|------| ------|------|
-| `title`: read. Example: "System Coupling Participant Library" | Not visible | **Product:** set. Example: "System Coupling Participant Library" | Manage as metadata and rename to **Documentation title**. | **Documentation title** | No
+| `title`: read. Example: "System Coupling Participant Library" | Not visible | **Doc title:** set. Example: "System Coupling Participant Library" | Manage as metadata and rename to **Doc title**. | **Doc title** | No
 | `version`: read. Example: "2025 R1" | Not visible | visible | Work as expected | **Version** | Yes
 | `physics`: read. Example: "Multiphysics" | Not visible | **Physics:** set. Example: "Multiphysics"| Work as expected  |**Physics** | Yes
 | `product collection`: read. Example: "Shared Technology" | Not visible | **Product collection:** set. Example: "Shared Technology"| Manage as metadata and make it available for SearchStax |**Product collection** | Yes
@@ -51,7 +51,7 @@ Another less urgent request, but one that would facilitate working in a more con
 
 | Config file | Admin UI: Migration process | Admin UI: File edited | Action |Metadata name| Available to SearchStax
 |-------------|-----------------------------|-----------------------|--------|--------|--------|
-| No file | **Product Name:** to be set. Example: "System Coupling Participant Library" | **Product:** set. Example: "System Coupling Participant Library" | Manage as metadata and rename to **Documentation title**.  | **Documentation title**| No
+| No file | **Doc title:** to be set. Example: "System Coupling Participant Library" | **Doc title:** set. Example: "System Coupling Participant Library" | Manage as metadata and rename to **DDoc title**.  | **Doc title**| No
 | No file | **Version:** to be set. Example: "2025 R1" | **Version:** set. Example: "2025 R1" | Work as expected| **Version** |Yes
 | No file | **Physics:** to be set. Example: "Multiphysics" | **Physics:** set. Example: "Multiphysics" | Work as expected | **Physics** | Yes
 | No file | **Access Control:** to be set. Example: "Public" | **Published:** flagged or not |No change | | No
