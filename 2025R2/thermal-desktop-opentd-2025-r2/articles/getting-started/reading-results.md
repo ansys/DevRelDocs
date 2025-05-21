@@ -13,7 +13,7 @@ The classes for working directly with save files, CSR’s or other solution resu
 
 ### Before using OpenTD.Results
 
-To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTD.esults.dll assembly. You can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.ET\\assembly\\GAC_64\\OpenTD.Results.) You will also probably need to add a reference to OpenTD.dll, as usual. [See the Hello World](creating-td-model/hello-world.md)
+To use OpenTD to explore results directly (rather than via an instance of TD), you will need to add a reference to the OpenTD.Results.dll assembly. For .NET 4.8, you can find it in the GAC in the 64-bit directory. (Try looking under C:\\Windows\\Microsoft.ET\\assembly\\GAC_64\\OpenTD.Results.) For .NET 8, you can find it in the Thermal Desktop installation directory. You will also probably need to add a reference to OpenTD.dll, as usual. [See the Hello World](creating-td-model/hello-world.md)
 Since OpenTD.Results is a 64-bit assembly, your project will also have to be 64-bit. In Visual Studio, use the Configuration manager to create a 64-bit solution and a 64-bit project. When set up correctly, your Configuration Manager dialog should look something like this:
 ![Configuration Manager dialog](media/19913b5a9a51f4926a07426227c010fa.png)
 
