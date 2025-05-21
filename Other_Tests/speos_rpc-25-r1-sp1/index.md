@@ -255,7 +255,7 @@ The Scene is the main Speos feature.
 It is a way to gather all features that are needed to have an optical scene.  
 Just below can be found the SpeosRPC data preparation big picture:
 
-![ClassDiagram](./classDiagram.svg)
+![ClassDiagram](./classDiagram.webp)
 
 #### Job
 
