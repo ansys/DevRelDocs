@@ -1,9 +1,9 @@
 {
     "build": {
         "globalMetadata": {
-            "title": "OpenTD 93.0.0.0",
+            "title": "OpenTD 25.2.0.0",
             "summary": "",
-            "version": "93.0.0.0",
+            "version": "25.2.0.0",
             "product": "Thermal Desktop",
             "programming language": "C#",
             "product collection": "Fluids",

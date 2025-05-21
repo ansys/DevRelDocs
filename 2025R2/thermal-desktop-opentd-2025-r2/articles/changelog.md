@@ -1,8 +1,18 @@
 # Changelog
 
+## Version 2025 R2
+
+### Notes
+
+- For this release and all subsequent releases, Assembly versions will correspond to TD versions (25.2.0.0, etc.). We reconsidered the previous decision to decouple the two versioning schemes.
+- For this release, there are two versions of OpenTD dll's: one for use with .NET 4.8 and AutoCAD 2024, and one for very limited use with .NET 8 and AutoCAD 2025.
+- The .NET 4 versions of the dll's will have assembly version 25.2.4.x and will be installed to the GAC, as usual.
+- The .NET 8 versions of the dll's will have assembly version 25.2.8.y and will be installed in the TD installation directory. .NET 8 does not use the GAC.
+- At release, for .NET 8 / AutoCAD 2025 only OpenTD add-ins are supported. Client/server OpenTD programs are not supported. We are working to fix this.
+
 ## Assembly version 92.0.0.0
 
-**Notes**
+### Notes
 
 - For this release and all subsequent releases, OpenTD assemblies will no longer include the version in their filenames. The filenames will not change with each version.
 - Assembly versions will no longer correspond to TD versions (24.2.0.0, etc.).
