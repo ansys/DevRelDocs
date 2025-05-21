@@ -28,7 +28,7 @@ Note that Version can be as follows:
 | `version:` read. Example: "2025 R1" | Not visible | **Version:** set. Example: 2025 R1 |**Version** | Yes
 | `physics`: read. Example: "Multiphysics" | Not visible | **Physics:** set. Example: "Multiphysics"| **Physics** | Yes
 
-### Expected for Q2
+### Expected behavior
 
 | Config file: docfx.json | Admin UI: Migration process | Admin UI: File edited |  Action |  Metadata name | Available to SearchStax
 |-------------------------|-----------------------------|-----------------------|------| ------|------|
@@ -51,7 +51,7 @@ Note that Version can be as follows:
 | No file | **Version:** to be set. Example: "2025 R1" | **Version:** set. Example: "2025 R1" | Yes
 | No file | **Access Control:** to be set. Example: "Public" | **Internal:** flagged or not | No
 
-### Expected for Q2
+### Expected behavior
 
 | Config file | Admin UI: Migration process | Admin UI: File edited | Action |Metadata name| Available to SearchStax
 |-------------|-----------------------------|-----------------------|--------|--------|--------|
@@ -81,7 +81,7 @@ Remove **API category** that we are not using or at least do not provide to Sear
 | Not defined or read | **Access Control:** to be set. Example: "Public" | **Internal:** flagged or not |
 | Not defined or read | **Status:** to be set. Example: "Published" | **Published:** flagged or not |
 
-### Expected for Q2
+### Expected behavior
 
 | Config file: JSON/YAML | Admin UI: Migration process | Admin UI: File edited | Action |  Metadata name| Available to SearchStax
 |------------------------|-----------------------------|-----------------------|--------|----------|----------|
