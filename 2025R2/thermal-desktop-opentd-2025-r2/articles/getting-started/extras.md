@@ -235,9 +235,9 @@ OpenTD uses implicit casting in many places. For example, to cast StandardDataSu
 
 ## A note on OpenTD versioning
 
-OpenTD is included with TD as the OpenTD.dll, OpenTD.CoSolver.dll, and OpenTD.Results.dll assemblies installed in the Global Assembly Cache (GAC). All OpenTD types are contained within the "OpenTD" namespace. Any changes we make to this interface will be additive. That is, we will not remove classes or methods. Therefore, you can write software referencing OpenTD knowing that it will not be broken by updates or new releases of TD.
+OpenTD is included with TD as the OpenTD.dll, OpenTD.CoSolver.dll, and OpenTD.Results.dll assemblies. .NET 4.8 versions of these assemblies are installed in the Global Assembly Cache (GAC) and have assembly versions of the form 25.2.4.x. .NET 8 versions of these assemblies are installed in the Thermal Desktop installation directory and have assembly versions of the form 25.2.8.y. (.NET 8 does not use the GAC.) All OpenTD types are contained within the "OpenTD" namespace. Any changes we make to this interface will be additive. That is, we will not remove classes or methods. Therefore, you can write software referencing OpenTD knowing that it will not be broken by updates or new releases of TD.
 
-Previously we changed the dll filenames and namespaces to reflect the current version, and released a new version of OpenTD with each version of TD. Starting with assembly version 92.0.0.0 released with TD 2025 R1, we will no longer do either of those things. That is, from this point forward versioning will be accomplished entirely using .NET version numbers.
+Previously we changed the dll filenames and namespaces to reflect the current version, and released a new version of OpenTD with each version of TD. Starting with the version released with TD 2025 R1, we stopped doing these things.
 
 Each time the dll’s are built, we will update the File Versions. For interface-breaking changes, we will also update the Assembly Version of the affected dll(s).
 
