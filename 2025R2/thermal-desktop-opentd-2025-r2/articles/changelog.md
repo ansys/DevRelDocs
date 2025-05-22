@@ -99,3 +99,134 @@ This was an administrative release. There is only one new feature: added `Compar
 - `GetPipe` no longer returns pipes with blank signatures.
 - Pipe ties now handle domains correctly.
 - `CaseSet.Run` and `CaseSetManager.Run` now handle casesets with drive symbols from Excel.
+
+## Version 6.3
+
+### Major New Features
+
+- added Addin capability
+- added support for Measures
+- added full support for global dwg preferences
+- added support for Post Processing Data Mappers
+- added support for legacy TD COM interface via ThermalDesktop.SendLegacyComCommand method
+- added SF_Launcher for running text-based input models in SINDA/FLUINT
+- added SF_CoSolver for running and controlling text-based input models in SINDA/FLUINT
+- added access to Logging namespace, allowing client programs to use our rich logging features
+- added OpenTDMixedInterface.dll, providing access to some OpenTD features via C/C++/Fortran
+
+### Other New Features
+
+- added GetSymbolValue method to return an evaluated symbol value from TD
+- added Show/HideModelBrowser methods
+- added support for getting and setting the UCS
+- added ProgressBar class to control RadCAD progress bar
+- added IUserBreak interface to allow end users to cancel an Addin operation
+- added several AutoCAD commands for controlling OpenTD servers
+- updated all public methods that accept List to accept IEnumerable instead, for LINQ and general flexibility
+- updated LogicObjectRoutineTypes values for clarity
+- ThermalDesktop.Quit() now defaults to a gentle quit, but can be forced to kill the acad process
+- added DomainManager.GetDomain method for getting the entities in any type of domain
+- added DataArray constructor that just accepts a list of doubles
+- added Enable/Disable Undo methods -- disabling undo can speed up operations
+- added overloaded ThermalDesktop.SetView methods, which wrap the Restore*View methods
+- added ThermalDesktop.ClearSelection method
+- added ThermalDesktop.GetMainWindow method to get the AutoCAD window to use as the owner of OpenTD dialogs
+- added Notes.HasPassword list to identify notes that are password-protected
+- added Comparer.SaveExceedancePlots method
+- Comparer now works with registers
+- added Comparer.CompareJustFinalRecord member
+- added Get/SetInstanceData methods to allow storage of general data with a TD instance
+
+### 6.3 New Features Included in 6.2
+
+- added support for 3d polylines
+- added ThermalDesktop.Get- and SetNodeCorrespondenceMap methods
+- added GetSelection method to prompt the user to select entities manually in TD
+- added SetSelection method to highlight objects in the TD graphics window
+- added GetEntityTypes method to get entity types from handles
+- test applied to objects for consistency before creating or updating heatload
+- added GetXREFpathnames method
+- added DomainManager.GetAnysetDomain method for getting the entities in an ANYSET domain
+- added SS_CONSTANT_TEMP_APPLIED_NODES as an allowable value for Heater.SSMethod
+
+### 6.3 Performance Improvements Included in 6.2
+
+- sped up most operations by eliminating calls to CheckIfConnected()
+- only allow one node in From list in CreateConductor
+- use a single instance of CaseSetManager per ThermalDesktop to avoid confusion
+- LocalTrans no longer deletes rotation expressions
+- GetSubmodels and GetFluidSubmodels now scan database for submodel names before returning
+- WeightedAverageDataArray no longer allows negative weights
+- Getter speed improved by handling expression units more efficiently
+
+## Version 6.2
+
+### Major New Features
+
+- added FD Solids
+- greater support for FEM's
+- OpenTDv62.CoSolver to connect SINDA/FLUINT to other analysis codes
+- added support for TD Datasets and contour plotting
+- added FloCAD Compartments and Acceleration
+- added Trackers
+- added Pressure loads
+- added logic objects: ArrayInterpolation, PID, UDFA
+- added AutoCAD arcs, circles, ellipses, splines, helices, and polylines
+- added CaseSetManager class to set Case Set Manager options and run in batch mode
+- added UserPreferences class for manipulating some global preferences
+- added support for reading PCS files to determine model topology from results
+- added Results.Dataset.Browser class to determine heat flows between groups of entities
+- added support for reading UDFA results
+- overhauled OpenTDv62.Results to emphasize groups of data: submodels, domains, arbitrary groups
+- OpenTDv62.Results now outputs NaN for missing data, and uses NaN in plots and DerivedDataArrays
+- added support for Text Transient files
+- added SpreadsheetDataFile method for reading csv or similar files
+- added support for custom DataSubtypes (you're not restricted to T, PL, etc. -- can make your own)
+- added FormulaDataArray for combining DataArrays with arbitrary formulae
+- added WeightedAverageDataArray class
+- added MaxDataArray and MinDataArray types (to return loci of extreme values across input arrays)
+- added SumDataArray
+
+### Other New Features
+
+- added CompareSuite and CompareAssertion classes, to compare multiple pairs of Datasets
+- added Exceedances member, and PlotExceedances and GetExceedancePlots to Comparer
+- added EllipticCylinder class (accidentally left out of 6.1)
+- added methods to get all rectangles, cones, etc. (all FD Surface types)
+- added TdConnectConfig.ShowAcadSplashScreen and .AdditionalAcadCommandline members
+- added CreateIn(ThermalDesktop) methods to all entities
+- added UpdateIn(ThermalDesktop) methods to all entities
+- added Connection.IsEmpty() method
+- added AttachedNodeHandles member to all FD surfaces (already included for FD solids and finite elements)
+- added DataArrayCollection.Dimension and DataItemCount members
+- added ThermalDesktop.GetOpticalPropDBPathname and .GetThermoPropDBPathname methods
+- added RadiationAnalysisGroupManager.GetDefault method
+- added DataArrayCollection.GetTranspose method
+- superceded SubmodelDataArrayCollection and DomainNodeDataArrayCollection with new methods for specifying groups
+- added CreatePipe(DbObject centerline) convenience method
+- added convenient Write and WriteLine methods to StandardOutput
+- updated Contactor/TEC with new features for 6.2
+- added ThermalDesktop.GetViewNames method
+- now allow CreatePort to create ports with no connections by passing an empty Connection (Handle == "")
+- update Plot2d.AddSeries(DataArrayCollection) to allow using first array as x data
+- added DataArray copy constructor
+- added DataTypeFamilies enum (thermal, fluid, other) and methods to determine from DataTypes or DataSubtypes
+- added ThermalDesktop.GetLayerByName method
+- added ThermalDesktop.GetCurrentLayer() and .SetCurrentLayer(string name)
+- added SaveFile.Close() method and made SaveFile IDisposable
+- added CaseSet.ReplaceFilenames method
+- added UnitsData constructor that accepts a units expression string
+- added read-only members to Node class to help navigate FD/FEM networks (AttachedObjectHandles, etc.)
+- added Matrix3d.ToString method
+- ExportNodeInfo now defaults to returning a List<string> with the same strings that would otherwise be written to screen or file
+- use RcEntityData.AnalysisGroups dictionary to simplify specifying FD Surface radiation analysis groups
+- added ThermalDesktop.CreateNode(Point3d origin) method
+
+### Performance Improvements
+
+- speed increase for DataArrayCollection Dataset.GetData(...)
+- initialize RadCAD members in constructors to reduce errors with CreateIn methods
+- fixed NodeBreakdownData to default to a blank Boundaries list
+- fixed bug where Assembly.AxisSize wasn't scaling with WorkingUnits
+- make SaveFile's threadsafe
+
