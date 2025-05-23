@@ -10,6 +10,20 @@
 - The .NET 8 versions of the dll's will have assembly version 25.2.8.y and will be installed in the TD installation directory. .NET 8 does not use the GAC.
 - At release, for .NET 8 / AutoCAD 2025 only OpenTD add-ins are supported. Client/server OpenTD programs are not supported. We are working to fix this.
 
+### New Features
+
+- Added ability to override TdConnect settings with end-user config file (see TdConnectUserOverrides)
+- Added Domains.*XREF members to find domains from XREF'd dwgs
+- added DomainManager.Rename method
+- Added RadiationAnalysisGroupManager.PurgeUnused, .Remove, .Merge, and .Copy methods
+
+### Performance Improvements
+
+- CoSolver communication to Sinda now works on machines using number formats other than "en-US"
+- Improved error checking in CaseSetManager.Run
+- Fixed bug with Orbit.DiffuseSkyIRArray units
+- Fixed user preferences bug
+
 ## Assembly version 92.0.0.0
 
 ### Notes
