@@ -12,7 +12,7 @@ Before a service can be instantiated, it must first be reserved.  The reservatio
 process  marks the service as having been allocated, usually for use in a single web 
 page.  The reservation process associates a "token" with the potential service instance.
 Tokens are generally GUIDs, but should be treated as short strings that do not include 
-any whitespace.  A reservation may be requested via the [REST API](#rest-api) interface.
+any whitespace.  A reservation may be requested via the [REST API](./rest-api.md) interface.
 An allocated token is returned as the result of a successful reservation.
 Normally, an application would embed this token into the HTML/JavaScript 
 of a web page.  When an incoming ws/wss request is make with the aforementioned 
@@ -21,7 +21,7 @@ listening socket created during the launching process to the incoming ws/wss
 connection.  When the w/wss connection is lost, websocketserver will arrange for the 
 launched application to be stopped.
 
-In the [Basic Operation](#webcomponentviewer_api) example where the socket being forwarded had 
+In the [Basic operation](./basic-operation.md) example where the socket being forwarded had 
 previously been established, only the hostname and port of the websocketserver web socket 
 service are included in the URL.  For an external web service to be started by 
 websocketserver, the allocated token must be passed in the URL that is used to begin 

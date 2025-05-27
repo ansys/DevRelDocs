@@ -2,8 +2,8 @@
   href: index.md
 - name: Command line options
   href: command-line-options.md
-- name: Basic usage example
-  href: basic-usage-example.md
+- name: Basic operation
+  href: basic-operation.md
 - name: Builtin service
   href: builtin-service.md
 - name: External services
