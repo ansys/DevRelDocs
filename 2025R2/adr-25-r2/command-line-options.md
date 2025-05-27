@@ -74,15 +74,15 @@ requests.
 Websocketserver includes a reservation and launching mechanism that can support
 local, preconfigured services such as EnSight and EnVision or more complex,
 scripted operations via custom service configurations.  A specific example of
-local services is illustrated in the [Builtin Service Operation](#builtin-service-operation) section.
+local services is illustrated in the [Builtin service operation](./builtin-service.md) section.
 More complex operations can be configured using the --remote_session_config
-mechanism outlined in the [External Services](#external-services) section.
+mechanism outlined in the [External services](./external-services.md) section.
 
 The server can also provide HTTP based services if the --http_directory option
 is specified.  If it is, the files in the directory specified by that option
 will be served up via HTTP on the port specified by --http_port.  Enabling the
-HTTP server also enables a [REST API](#rest-api) that can be used to interact
-with the server via HTTP GET requests and a /ansys redirect [HTTP Server](#http-server)
+HTTP server also enables a [REST API](./rest-api.md) that can be used to interact
+with the server via HTTP GET requests and a /ansys redirect [HTTP Server](./http-server.md)
 which simplifies the deployment of tools that leverage the Ansys ADR 3D viewer
 web component.  
 

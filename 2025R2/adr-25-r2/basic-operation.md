@@ -1,4 +1,4 @@
-# Basic usage example
+# Basic operation
 
 Websocketserver will route a TCP/IP stream from a listening socket to a
 client via the ws or wss protocol.  Usually the client is a JavaScript application 
