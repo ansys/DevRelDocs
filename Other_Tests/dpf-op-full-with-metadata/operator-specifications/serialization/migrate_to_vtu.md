@@ -20,8 +20,8 @@ vtk
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong>|  time_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping), [`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>) | time sets to export, default is all |
 | <strong>Pin 3</strong>|  streams_container |[`streams_container`](../../getting-started/using-data-containers.md#streams-container) | result file container allowed to be kept open to cache data |
-| <strong>Pin 4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | result file path container, used if no streams are set |
-| <strong>Pin 20</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  directory |[`string`](../../getting-started/using-data-containers.md#string) | directory path |
+| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | result file path container, used if no streams are set |
+| <strong>Pin 20</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  directory |[`string`](../../getting-started/using-data-containers.md#string) | directory path |
 | <strong>Pin 21</strong>|  base_name |[`string`](../../getting-started/using-data-containers.md#string) | vtu base file name, (default is file) |
 | <strong>Pin 30</strong>|  result |[`string`](../../getting-started/using-data-containers.md#string) | if Operator's names are connected to this Pin, only these results are exported (else all available results are exported) |
 | <strong>Pin 100</strong>|  write_mode |[`string`](../../getting-started/using-data-containers.md#string) | Available are rawbinarycompressed, rawbinary, base64appended, base64inline, ascii, default is (rawbinarycompressed) |
@@ -31,7 +31,7 @@ vtk
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | path |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | list of output vtu file path |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | path |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | list of output vtu file path |
 
 ## Configurations
 

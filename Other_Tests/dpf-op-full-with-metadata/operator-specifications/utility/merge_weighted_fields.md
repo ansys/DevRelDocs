@@ -20,15 +20,15 @@ core
 |-------|-------|------------------|-------------|
 | <strong>Pin -2</strong>|  sum_merge |[`bool`](../../getting-started/using-data-containers.md#bool) | Default is false. If true, redundant quantities are summed instead of being ignored. |
 | <strong>Pin -1</strong>|  merged_support |[`abstract_field_support`](../../getting-started/using-data-containers.md#abstract-field-support) | Already merged field support. |
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields |[`vector<shared_ptr<field>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<field>>), [`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | Either a fields container, a vector of fields to merge, or fields from pin 0 to ... |
-| <strong>Pin 1000</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  weights |[`vector<shared_ptr<property_field>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<property-field>>), [`property_field`](../../getting-started/using-data-containers.md#property-field) | Weights to apply to each field from pin 1000 to ... |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields |[`vector<shared_ptr<field>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<field>>), [`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | Either a fields container, a vector of fields to merge, or fields from pin 0 to ... |
+| <strong>Pin 1000</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  weights |[`vector<shared_ptr<property_field>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<property-field>>), [`property_field`](../../getting-started/using-data-containers.md#property-field) | Weights to apply to each field from pin 1000 to ... |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 

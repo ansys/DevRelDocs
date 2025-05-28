@@ -19,15 +19,15 @@ core
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 1</strong>|  element_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) | If provided, only the centroids of the elements in the scoping are computed. |
-| <strong>Pin 7</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) | Mesh to compute centroids |
+| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) | Mesh to compute centroids |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | centroids |[`field`](../../getting-started/using-data-containers.md#field) | element centroids. |
-| <strong>Pin 1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | measure |[`field`](../../getting-started/using-data-containers.md#field) | element measure (length, surface or volume depending on the dimension of the element). |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | centroids |[`field`](../../getting-started/using-data-containers.md#field) | element centroids. |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | measure |[`field`](../../getting-started/using-data-containers.md#field) | element measure (length, surface or volume depending on the dimension of the element). |
 
 ## Configurations
 

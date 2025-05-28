@@ -18,10 +18,10 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  file_path |[`string`](../../getting-started/using-data-containers.md#string) | output file path with .h5 extension |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  file_path |[`string`](../../getting-started/using-data-containers.md#string) | output file path with .h5 extension |
 | <strong>Pin 1</strong>|  export_floats |[`bool`](../../getting-started/using-data-containers.md#bool) | converts double to float to reduce file size (default is true) |
 | <strong>Pin 2</strong>|  export_flat_vectors |[`bool`](../../getting-started/using-data-containers.md#bool) | if true, vectors and matrices data are exported flat (x1,y1,z1,x2,y2,z2..) (default is false) |
-| <strong>Pin 3</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data | | only the data set explicitly to export is exported |
+| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data | | only the data set explicitly to export is exported |
 
 
 ## Outputs

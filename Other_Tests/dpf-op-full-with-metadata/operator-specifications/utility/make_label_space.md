@@ -19,15 +19,15 @@ core
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong>|  base_label |[`label_space`](../../getting-started/using-data-containers.md#label-space), [`fields_container`](../../getting-started/using-data-containers.md#fields-container), [`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | Used as a base label (extracted from Fields/Scoping Container, or directly from Label Space) that is concatenated with provided values. |
-| <strong>Pin 1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  label_name |[`string`](../../getting-started/using-data-containers.md#string) |  |
-| <strong>Pin 2</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  label_value |[`int32`](../../getting-started/using-data-containers.md#int32) |  |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  label_name |[`string`](../../getting-started/using-data-containers.md#string) |  |
+| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  label_value |[`int32`](../../getting-started/using-data-containers.md#int32) |  |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | label |[`label_space`](../../getting-started/using-data-containers.md#label-space) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | label |[`label_space`](../../getting-started/using-data-containers.md#label-space) |  |
 
 ## Configurations
 

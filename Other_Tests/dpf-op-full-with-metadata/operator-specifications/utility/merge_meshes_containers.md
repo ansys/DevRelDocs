@@ -18,14 +18,14 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  meshes_containers |[`vector<shared_ptr<meshes_container>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<meshes-container>>), [`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) | a vector of meshes containers to merge or meshes containers from pin 0 to ... |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  meshes_containers |[`vector<shared_ptr<meshes_container>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<meshes-container>>), [`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) | a vector of meshes containers to merge or meshes containers from pin 0 to ... |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_meshes_container |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_meshes_container |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
 
 ## Configurations
 

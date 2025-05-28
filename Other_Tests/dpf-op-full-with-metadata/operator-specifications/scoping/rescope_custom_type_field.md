@@ -18,7 +18,7 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields |[`custom_type_fields_container`](../../getting-started/using-data-containers.md#custom-type-fields-container), [`custom_type_field`](../../getting-started/using-data-containers.md#custom-type-field) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields |[`custom_type_fields_container`](../../getting-started/using-data-containers.md#custom-type-fields-container), [`custom_type_field`](../../getting-started/using-data-containers.md#custom-type-field) |  |
 | <strong>Pin 1</strong>|  mesh_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping), [`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>) |  |
 | <strong>Pin 2</strong>|  default_value |[`custom_type_field`](../../getting-started/using-data-containers.md#custom-type-field), [`custom_type_field`](../../getting-started/using-data-containers.md#custom-type-field) | If pin 2 is used, the IDs not found in the custom type field are added with this default value. |
 
@@ -27,7 +27,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields |[`custom_type_fields_container`](../../getting-started/using-data-containers.md#custom-type-fields-container), [`custom_type_field`](../../getting-started/using-data-containers.md#custom-type-field) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields |[`custom_type_fields_container`](../../getting-started/using-data-containers.md#custom-type-fields-container), [`custom_type_field`](../../getting-started/using-data-containers.md#custom-type-field) |  |
 
 ## Configurations
 

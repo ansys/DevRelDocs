@@ -18,18 +18,18 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  operator_to_send |[`int32`](../../getting-started/using-data-containers.md#int32) | local workflow to push to a remote or id of a remote workflow |
-| <strong>Pin 1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  output_pin |[`int32`](../../getting-started/using-data-containers.md#int32) | pin number of the output to name |
-| <strong>Pin 3</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  streams_to_remote |[`streams_container`](../../getting-started/using-data-containers.md#streams-container) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  operator_to_send |[`int32`](../../getting-started/using-data-containers.md#int32) | local workflow to push to a remote or id of a remote workflow |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  output_pin |[`int32`](../../getting-started/using-data-containers.md#int32) | pin number of the output to name |
+| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  streams_to_remote |[`streams_container`](../../getting-started/using-data-containers.md#streams-container) |  |
 | <strong>Pin 4</strong>|  data_sources_to_remote |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) |  |
-| <strong>Pin 5</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  output_name |[`string`](../../getting-started/using-data-containers.md#string) | output's name of the workflow to return |
+| <strong>Pin 5</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  output_name |[`string`](../../getting-started/using-data-containers.md#string) | output's name of the workflow to return |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | remote_workflow |[`workflow`](../../getting-started/using-data-containers.md#workflow) | remote workflow containing an image of the remote workflow and the protocols streams |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | remote_workflow |[`workflow`](../../getting-started/using-data-containers.md#workflow) | remote workflow containing an image of the remote workflow and the protocols streams |
 
 ## Configurations
 

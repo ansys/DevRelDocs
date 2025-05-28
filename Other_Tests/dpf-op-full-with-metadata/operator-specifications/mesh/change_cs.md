@@ -18,15 +18,15 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  meshes |[`meshed_region`](../../getting-started/using-data-containers.md#meshed-region), [`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
-| <strong>Pin 1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  coordinate_system |[`field`](../../getting-started/using-data-containers.md#field) | 3-3 rotation matrix + 3 translations (X, Y, Z) |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  meshes |[`meshed_region`](../../getting-started/using-data-containers.md#meshed-region), [`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  coordinate_system |[`field`](../../getting-started/using-data-containers.md#field) | 3-3 rotation matrix + 3 translations (X, Y, Z) |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | meshed_region |[`meshed_region`](../../getting-started/using-data-containers.md#meshed-region), [`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | meshed_region |[`meshed_region`](../../getting-started/using-data-containers.md#meshed-region), [`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
 
 ## Configurations
 

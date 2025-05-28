@@ -20,13 +20,13 @@ core
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong>|  time_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping), [`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>) |  |
 | <strong>Pin 1</strong>|  mesh_scoping |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container), [`scoping`](../../getting-started/using-data-containers.md#scoping), [`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>) |  |
-| <strong>Pin 2</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | field container with the base and duplicate sectors |
+| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | field container with the base and duplicate sectors |
 | <strong>Pin 3</strong>|  harmonic_index |[`int32`](../../getting-started/using-data-containers.md#int32) |  |
 | <strong>Pin 5</strong>|  bool_rotate_to_global |[`bool`](../../getting-started/using-data-containers.md#bool) | default is true |
 | <strong>Pin 6</strong>|  map_size_scoping_out |[`umap<int32,int32>`](../../getting-started/using-data-containers.md#umap<int32,int32>) | map provider by scoping adapter |
 | <strong>Pin 7</strong>|  normalization_factor |[`double`](../../getting-started/using-data-containers.md#double) |  |
 | <strong>Pin 14</strong>|  merge_stages |[`bool`](../../getting-started/using-data-containers.md#bool) |  |
-| <strong>Pin 16</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  cyclic_support |[`cyclic_support`](../../getting-started/using-data-containers.md#cyclic-support) |  |
+| <strong>Pin 16</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  cyclic_support |[`cyclic_support`](../../getting-started/using-data-containers.md#cyclic-support) |  |
 | <strong>Pin 18</strong>|  sectors_to_expand |[`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>), [`scoping`](../../getting-started/using-data-containers.md#scoping), [`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | sectors to expand (start at 0), for multistage: use scopings container with 'stage' label. |
 | <strong>Pin 19</strong>|  phi |[`double`](../../getting-started/using-data-containers.md#double) | angle phi in degrees (default value 0.0) |
 
@@ -35,7 +35,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | FieldsContainer filled in |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | FieldsContainer filled in |
 
 ## Configurations
 
