@@ -32,7 +32,7 @@ Note that Version can be as follows:
 
 | Config file: docfx.json | Admin UI: Migration process | Admin UI: File edited |  Action |  Metadata name | Available to SearchStax | Note
 |-------------------------|-----------------------------|-----------------------|------| ------|------|---|
-| `title`: read. Example: "System Coupling Participant Library" | Not visible | **Doc title:** set. Example: "System Coupling Participant Library" | Manage as metadata and rename to **Doc title**. | **Doc title** | Yes | The UI should display the document title followed by its version **Doc title** + **Version**, mirroring the format used for REST API documentation.
+| `title`: read. Example: "System Coupling Participant Library" | Not visible | **Doc title:** set. Example: "System Coupling Participant Library" | Manage as metadata and rename to **Doc title**. | **Doc title** | Yes | The UI should display the document title followed by its version **Doc title** + **Version**, mirroring the format used for REST API documentation. ![doctitle+version](title.png)
 | `version`: read. Example: "2025 R1" | Not visible | **Version:** set. Example: 2025 R1 | Work as expected | **Version** | Yes |
 | `physics`: read. Example: "Multiphysics" | Not visible | **Physics:** set. Example: "Multiphysics"| Work as expected  |**Physics** | Yes |
 | `product collection`: read. Example: "Shared Technology" | Not visible | **Product collection:** set. Example: "Shared Technology"| Manage as metadata and make it available for SearchStax |**Product collection** | Yes |
@@ -55,7 +55,7 @@ Note that Version can be as follows:
 
 | Config file | Admin UI: Migration process | Admin UI: File edited | Action |Metadata name| Available to SearchStax | Note
 |-------------|-----------------------------|-----------------------|--------|--------|--------|---|
-| No file | **Doc title:** to be set. Example: "System Coupling Participant Library" | **Doc title:** set. Example: "System Coupling Participant Library" | Manage as metadata and rename to **Doc title**.  | **Doc title**| Yes | The UI should display the document title followed by its version **Doc title** + **Version**, mirroring the format used for REST API documentation.
+| No file | **Doc title:** to be set. Example: "System Coupling Participant Library" | **Doc title:** set. Example: "System Coupling Participant Library" | Manage as metadata and rename to **Doc title**.  | **Doc title**| Yes | The UI should display the document title followed by its version **Doc title** + **Version**, mirroring the format used for REST API documentation. ![doctitle+version](title.png)
 | No file | **Version:** to be set. Example: "2025 R1" | **Version:** set. Example: "2025 R1" | Work as expected| **Version** |Yes |
 | No file | **Physics:** to be set. Example: "Multiphysics" | **Physics:** set. Example: "Multiphysics" | Work as expected | **Physics** | Yes |
 | No file | **Access Control:** to be set. Example: "Public" | **Internal:** flagged or not |Work as expected | **Access Control**| No |
@@ -73,22 +73,22 @@ Remove **API category** that we are not using or at least do not provide to Sear
 
 ### Current behavior
 
-| Config file: JSON/YAML | Admin UI: Migration process | Admin UI: File edited | 
-|------------------------|-----------------------------|-----------------------|
-| `title`: | Not visible | Not visible |
-| `version`: | Not visible |Not visible |
-| Not defined or read | **Physics:** to be set. Example: "Multiphysics"  | **Physics:** set. Example: "Multiphysics"|
-| Not defined or read | **Access Control:** to be set. Example: "Public" | **Internal:** flagged or not |
-| Not defined or read | **Status:** to be set. Example: "Published" | **Published:** flagged or not |
+| Config file: JSON/YAML | Admin UI: Migration process | Admin UI: File edited | Note
+|------------------------|-----------------------------|-----------------------|--|
+| `title`: | Not visible | Not visible | Already correct ![doctitle+version](title.png)
+| `version`: | Not visible |Not visible | |
+| Not defined or read | **Physics:** to be set. Example: "Multiphysics"  | **Physics:** set. Example: "Multiphysics"| |
+| Not defined or read | **Access Control:** to be set. Example: "Public" | **Internal:** flagged or not | |
+| Not defined or read | **Status:** to be set. Example: "Published" | **Published:** flagged or not | |
 
 ### Expected behavior
 
-| Config file: JSON/YAML | Admin UI: Migration process | Admin UI: File edited | Action |  Metadata name| Available to SearchStax
-|------------------------|-----------------------------|-----------------------|--------|----------|----------|
-| `title`: | Not visible | Not visible | Manage as metadata | | Yes
-| `version`: | Not visible | Not visible | Manage as metadata | **Version** | Yes
-| Not defined | **Physics:** to be set. Example: "Multiphysics"  | **Physics:** set. Example: "Multiphysics"| Work as expected| **Physics**| Yes
-| Not defined  | **Access Control:** to be set. Example: "Public" | **Internal:** flagged or not | Work as expected | **Access Control**| No
-| Not defined  | **Status:** to be set. Example: "Published" | **Published:** flagged or not | Work as expected | **Status**| No
-| Not defined  | **Product collection:** to be set. Example: "Optics" | **Product collection:** set. Example: "Optics" | Manage as metadata and make it available for SearchStax | **Product collection** |  Yes
+| Config file: JSON/YAML | Admin UI: Migration process | Admin UI: File edited | Action |  Metadata name| Available to SearchStax | Note
+|------------------------|-----------------------------|-----------------------|--------|----------|----------|--|
+| `title`: | Not visible | Not visible | Manage as metadata | | Yes | Already correct ![doctitle+version](title.png)
+| `version`: | Not visible | Not visible | Manage as metadata | **Version** | Yes |
+| Not defined | **Physics:** to be set. Example: "Multiphysics"  | **Physics:** set. Example: "Multiphysics"| Work as expected| **Physics**| Yes |
+| Not defined  | **Access Control:** to be set. Example: "Public" | **Internal:** flagged or not | Work as expected | **Access Control**| No |
+| Not defined  | **Status:** to be set. Example: "Published" | **Published:** flagged or not | Work as expected | **Status**| No |
+| Not defined  | **Product collection:** to be set. Example: "Optics" | **Product collection:** set. Example: "Optics" | Manage as metadata and make it available for SearchStax | **Product collection** |  Yes |
 
