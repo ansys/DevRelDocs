@@ -10,9 +10,6 @@ license: None
 
 export a mesh into a stl file.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) |  |
+|  **Pin 0**| data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: mesh
-- Plugin: core
-- Scripting name: stl_export
-- Full name: mesh.stl_export
-- Internal name: stl_export
-- License: None
-  
+ **Category**: mesh
+
+ **Plugin**: core
+
+ **Scripting name**: stl_export
+
+ **Full name**: mesh.stl_export
+
+ **Internal name**: stl_export
+
+ **License**: None

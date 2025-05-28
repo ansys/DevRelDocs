@@ -10,9 +10,6 @@ license: None
 
 Retrieves the nodal scoping of a given input mesh, which contains the node IDs.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mesh_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) |  |
+|  **Pin 0**| mesh_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) |  |
 
 ## Configurations
 
@@ -35,10 +32,14 @@ core
 
 ## Scripting
 
-- Category: scoping
-- Plugin: core
-- Scripting name: nodal_from_mesh
-- Full name: scoping.nodal_from_mesh
-- Internal name: GetNodeScopingFromMesh
-- License: None
-  
+ **Category**: scoping
+
+ **Plugin**: core
+
+ **Scripting name**: nodal_from_mesh
+
+ **Full name**: scoping.nodal_from_mesh
+
+ **Internal name**: GetNodeScopingFromMesh
+
+ **License**: None

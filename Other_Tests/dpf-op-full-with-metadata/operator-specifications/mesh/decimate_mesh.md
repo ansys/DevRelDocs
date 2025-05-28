@@ -10,9 +10,6 @@ license: None
 
 Decimate a meshed region
 
-### Plugin
-
-mesh
 
 ## Inputs
 
@@ -27,7 +24,7 @@ mesh
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mesh |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) | Decimated mesh with triangle elements |
+|  **Pin 0**| mesh |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) | Decimated mesh with triangle elements |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ mesh
 
 ## Scripting
 
-- Category: mesh
-- Plugin: mesh
-- Scripting name: None
-- Full name: None
-- Internal name: decimate_mesh
-- License: None
-  
+ **Category**: mesh
+
+ **Plugin**: mesh
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: decimate_mesh
+
+ **License**: None

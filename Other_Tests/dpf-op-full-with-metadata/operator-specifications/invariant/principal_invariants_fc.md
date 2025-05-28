@@ -10,9 +10,6 @@ license: None
 
 Computes the element-wise Eigen values of all the tensor fields of a fields container.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,9 +22,9 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_eig_1 |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | first eigen value fields |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_eig_2 |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | second eigen value fields |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_eig_3 |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | third eigen value fields |
+|  **Pin 0**| fields_eig_1 |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | first eigen value fields |
+|  **Pin 1**| fields_eig_2 |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | second eigen value fields |
+|  **Pin 2**| fields_eig_3 |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | third eigen value fields |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: invariant
-- Plugin: core
-- Scripting name: principal_invariants_fc
-- Full name: invariant.principal_invariants_fc
-- Internal name: invariants_fc
-- License: None
-  
+ **Category**: invariant
+
+ **Plugin**: core
+
+ **Scripting name**: principal_invariants_fc
+
+ **Full name**: invariant.principal_invariants_fc
+
+ **Internal name**: invariants_fc
+
+ **License**: None

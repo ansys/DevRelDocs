@@ -10,9 +10,6 @@ license: None
 
 Generate a range that can be consumed by the for_each operator
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -31,7 +28,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | output | |  |
+|  **Pin 0**| output | |  |
 
 ## Configurations
 
@@ -41,10 +38,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: make_for_each_range
-- Full name: utility.make_for_each_range
-- Internal name: make_for_each_range
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: make_for_each_range
+
+ **Full name**: utility.make_for_each_range
+
+ **Internal name**: make_for_each_range
+
+ **License**: None

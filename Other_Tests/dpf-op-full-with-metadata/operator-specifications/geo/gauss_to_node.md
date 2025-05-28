@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Extrapolating results available at Gauss or quadrature points to nodal points for one field. The available elements are: Linear quadrangle, parabolic quadrangle, linear hexagonal, quadratic hexagonal, linear tetrahedral, and quadratic tetrahedral 
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: geo
-- Plugin: core
-- Scripting name: gauss_to_node
-- Full name: geo.gauss_to_node
-- Internal name: gauss_to_node
-- License: any_dpf_supported_increments
-  
+ **Category**: geo
+
+ **Plugin**: core
+
+ **Scripting name**: gauss_to_node
+
+ **Full name**: geo.gauss_to_node
+
+ **Internal name**: gauss_to_node
+
+ **License**: any_dpf_supported_increments

@@ -10,9 +10,6 @@ license: None
 
 This will retain the already existing labels from the input FC and will change the facet label to now mean ACMO facet indices.Each Field in the input will be split/merged into several Fields, redistributing the data to the appropriate entity.
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -26,7 +23,7 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | Output splitted fields containter |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | Output splitted fields containter |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ mapdl
 
 ## Scripting
 
-- Category: result
-- Plugin: mapdl
-- Scripting name: mapdl_split_to_acmo_facet_indices
-- Full name: result.mapdl_split_to_acmo_facet_indices
-- Internal name: mapdl::split_to_acmo_facet_indices
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: mapdl_split_to_acmo_facet_indices
+
+ **Full name**: result.mapdl_split_to_acmo_facet_indices
+
+ **Internal name**: mapdl::split_to_acmo_facet_indices
+
+ **License**: None

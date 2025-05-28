@@ -10,9 +10,6 @@ license: None
 
 Expand the mesh.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,8 +24,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | meshed_region |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) | expanded meshed region. |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | cyclic_support |[`cyclic_support`](../../getting-started/using-data-containers.md#cyclic-support) | input cyclic support modified in place containing the new expanded meshed regions. |
+|  **Pin 0**| meshed_region |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) | expanded meshed region. |
+|  **Pin 1**| cyclic_support |[`cyclic_support`](../../getting-started/using-data-containers.md#cyclic-support) | input cyclic support modified in place containing the new expanded meshed regions. |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: metadata
-- Plugin: core
-- Scripting name: cyclic_mesh_expansion
-- Full name: metadata.cyclic_mesh_expansion
-- Internal name: cyclic_expansion_mesh
-- License: None
-  
+ **Category**: metadata
+
+ **Plugin**: core
+
+ **Scripting name**: cyclic_mesh_expansion
+
+ **Full name**: metadata.cyclic_mesh_expansion
+
+ **Internal name**: cyclic_expansion_mesh
+
+ **License**: None

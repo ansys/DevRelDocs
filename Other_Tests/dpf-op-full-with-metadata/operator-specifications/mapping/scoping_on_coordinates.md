@@ -10,9 +10,6 @@ license: None
 
 Finds the Elemental scoping of a set of coordinates.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) |  |
+|  **Pin 0**| scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: mapping
-- Plugin: core
-- Scripting name: scoping_on_coordinates
-- Full name: mapping.scoping_on_coordinates
-- Internal name: scoping::on_coordinates
-- License: None
-  
+ **Category**: mapping
+
+ **Plugin**: core
+
+ **Scripting name**: scoping_on_coordinates
+
+ **Full name**: mapping.scoping_on_coordinates
+
+ **Internal name**: scoping::on_coordinates
+
+ **License**: None

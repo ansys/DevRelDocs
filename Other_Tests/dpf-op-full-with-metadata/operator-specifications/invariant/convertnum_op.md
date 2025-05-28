@@ -10,9 +10,6 @@ license: None
 
 Converts a fields container from one mapdl ordering to another mapdl ordering. Supported mapdl ordering are BCS=0, FUL=1, NOD=2.
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -28,7 +25,7 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ mapdl
 
 ## Scripting
 
-- Category: invariant
-- Plugin: mapdl
-- Scripting name: convertnum_op
-- Full name: invariant.convertnum_op
-- Internal name: convertnum_op
-- License: None
-  
+ **Category**: invariant
+
+ **Plugin**: mapdl
+
+ **Scripting name**: convertnum_op
+
+ **Full name**: invariant.convertnum_op
+
+ **Internal name**: convertnum_op
+
+ **License**: None

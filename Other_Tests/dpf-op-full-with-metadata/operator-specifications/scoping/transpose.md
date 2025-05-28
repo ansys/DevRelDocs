@@ -10,9 +10,6 @@ license: None
 
 Transposes the input scoping or scopings container (Elemental/Faces --> Nodal, or Nodal ---> Elemental/Faces), based on the input mesh region.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,7 +25,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mesh_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping), [`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | Scoping or scopings container (the input type is the output type) |
+|  **Pin 0**| mesh_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping), [`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | Scoping or scopings container (the input type is the output type) |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: scoping
-- Plugin: core
-- Scripting name: transpose
-- Full name: scoping.transpose
-- Internal name: transpose_scoping
-- License: None
-  
+ **Category**: scoping
+
+ **Plugin**: core
+
+ **Scripting name**: transpose
+
+ **Full name**: scoping.transpose
+
+ **Internal name**: transpose_scoping
+
+ **License**: None

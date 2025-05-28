@@ -10,9 +10,6 @@ license: None
 
 Splits a given scoping or the mesh scoping (nodal or elemental) on given properties (elshape and/or material) and returns a scopings container with those split scopings.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -29,7 +26,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mesh_scoping |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | Scoping |
+|  **Pin 0**| mesh_scoping |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | Scoping |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: scoping
-- Plugin: core
-- Scripting name: split_on_property_type
-- Full name: scoping.split_on_property_type
-- Internal name: scoping::by_property
-- License: None
-  
+ **Category**: scoping
+
+ **Plugin**: core
+
+ **Scripting name**: split_on_property_type
+
+ **Full name**: scoping.split_on_property_type
+
+ **Internal name**: scoping::by_property
+
+ **License**: None

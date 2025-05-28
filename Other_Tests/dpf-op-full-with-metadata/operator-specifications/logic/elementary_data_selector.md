@@ -10,9 +10,6 @@ license: None
 
 Creates a scalar/vector field based on the selected elementary data.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,7 +25,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: logic
-- Plugin: core
-- Scripting name: elementary_data_selector
-- Full name: logic.elementary_data_selector
-- Internal name: elementary_data_selector
-- License: None
-  
+ **Category**: logic
+
+ **Plugin**: core
+
+ **Scripting name**: elementary_data_selector
+
+ **Full name**: logic.elementary_data_selector
+
+ **Internal name**: elementary_data_selector
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 Removes rigid body mode from a total displacement field by minimization. Use a reference point in order to subtract its displacement to the result displacement field.
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -27,10 +24,10 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | translation_field |[`field`](../../getting-started/using-data-containers.md#field) | Global rigid translation vector |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | rotation_field |[`field`](../../getting-started/using-data-containers.md#field) | Global rigid rotation angles |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | center_field |[`field`](../../getting-started/using-data-containers.md#field) | Center of the rigid rotation |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 1**| translation_field |[`field`](../../getting-started/using-data-containers.md#field) | Global rigid translation vector |
+|  **Pin 2**| rotation_field |[`field`](../../getting-started/using-data-containers.md#field) | Global rigid rotation angles |
+|  **Pin 3**| center_field |[`field`](../../getting-started/using-data-containers.md#field) | Center of the rigid rotation |
 
 ## Configurations
 
@@ -40,10 +37,14 @@ mapdl
 
 ## Scripting
 
-- Category: result
-- Plugin: mapdl
-- Scripting name: remove_rigid_body_motion
-- Full name: result.remove_rigid_body_motion
-- Internal name: ExtractRigidBodyMotion
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: remove_rigid_body_motion
+
+ **Full name**: result.remove_rigid_body_motion
+
+ **Internal name**: ExtractRigidBodyMotion
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 Computes the sum of two fields. If one field's scoping has 'overall' location, then these field's values are applied on the entire other field. If one of the input field is empty, the remaining is forwarded to the output. When using a constant or 'work_by_index', it's possible to use 'inplace' to reuse one of the fields.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -43,10 +40,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: None
-- Full name: None
-- Internal name: add
-- License: None
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: add
+
+ **License**: None

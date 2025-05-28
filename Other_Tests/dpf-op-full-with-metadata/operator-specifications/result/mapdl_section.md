@@ -10,9 +10,6 @@ license: None
 
 Read the values of the section properties for a given section property field (property field that contains section information for each element of a mesh). The following keys can be used: Thickness, NumLayers. For layered elements, the following keys can be used: Thickness, MatID, Orientation, NumIntPoints.
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -30,8 +27,8 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | properties_value |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | layers_per_section |[`property_field`](../../getting-started/using-data-containers.md#property-field) | Only available if layer_property option is set to True. |
+|  **Pin 0**| properties_value |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 1**| layers_per_section |[`property_field`](../../getting-started/using-data-containers.md#property-field) | Only available if layer_property option is set to True. |
 
 ## Configurations
 
@@ -41,10 +38,14 @@ mapdl
 
 ## Scripting
 
-- Category: result
-- Plugin: mapdl
-- Scripting name: mapdl_section
-- Full name: result.mapdl_section
-- Internal name: mapdl_section_properties
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: mapdl_section
+
+ **Full name**: result.mapdl_section
+
+ **Internal name**: mapdl_section_properties
+
+ **License**: None

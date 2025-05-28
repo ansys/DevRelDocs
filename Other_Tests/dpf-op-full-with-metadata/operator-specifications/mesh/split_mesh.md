@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Split the input mesh into several meshes based on a given property (material property be default)
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | meshes |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
+|  **Pin 0**| meshes |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: mesh
-- Plugin: core
-- Scripting name: split_mesh
-- Full name: mesh.split_mesh
-- Internal name: split_mesh
-- License: any_dpf_supported_increments
-  
+ **Category**: mesh
+
+ **Plugin**: core
+
+ **Scripting name**: split_mesh
+
+ **Full name**: mesh.split_mesh
+
+ **Internal name**: split_mesh
+
+ **License**: any_dpf_supported_increments

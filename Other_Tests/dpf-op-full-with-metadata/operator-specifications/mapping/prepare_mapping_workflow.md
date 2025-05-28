@@ -10,9 +10,6 @@ license: None
 
 Generates a workflow that can map results from a support to another one.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,7 +25,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mapping_workflow |[`workflow`](../../getting-started/using-data-containers.md#workflow) |  |
+|  **Pin 0**| mapping_workflow |[`workflow`](../../getting-started/using-data-containers.md#workflow) |  |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: mapping
-- Plugin: core
-- Scripting name: prepare_mapping_workflow
-- Full name: mapping.prepare_mapping_workflow
-- Internal name: prepare_mapping_workflow
-- License: None
-  
+ **Category**: mapping
+
+ **Plugin**: core
+
+ **Scripting name**: prepare_mapping_workflow
+
+ **Full name**: mapping.prepare_mapping_workflow
+
+ **Internal name**: prepare_mapping_workflow
+
+ **License**: None

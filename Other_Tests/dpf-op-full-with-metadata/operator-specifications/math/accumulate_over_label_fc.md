@@ -10,9 +10,6 @@ license: None
 
 Compute the component-wise sum over all the fields that have the same ID as the label set as input in the fields container. This computation can be incremental. If the input fields container is connected and the operator is run multiple times, the output field will be on all the connected inputs.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: None
-- Full name: None
-- Internal name: accumulate_over_label_fc
-- License: None
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: accumulate_over_label_fc
+
+ **License**: None

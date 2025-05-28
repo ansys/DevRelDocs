@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Takes a MaterialContainer and a stream and enriches the MaterialContainer using stream data.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | MaterialContainer |[`bool`](../../getting-started/using-data-containers.md#bool) |  |
+|  **Pin 0**| MaterialContainer |[`bool`](../../getting-started/using-data-containers.md#bool) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: logic
-- Plugin: core
-- Scripting name: enrich_materials
-- Full name: logic.enrich_materials
-- Internal name: enrich_materials
-- License: any_dpf_supported_increments
-  
+ **Category**: logic
+
+ **Plugin**: core
+
+ **Scripting name**: enrich_materials
+
+ **Full name**: logic.enrich_materials
+
+ **Internal name**: enrich_materials
+
+ **License**: any_dpf_supported_increments

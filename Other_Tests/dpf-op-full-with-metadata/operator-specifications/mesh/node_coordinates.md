@@ -10,9 +10,6 @@ license: None
 
 Returns the node coordinates of the mesh(es) in input.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | coordinates |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | if the input is a meshed region, a field of coordinates is the output, else if the input is a  meshes container, a fields container (one field by mesh) is the output |
+|  **Pin 0**| coordinates |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | if the input is a meshed region, a field of coordinates is the output, else if the input is a  meshes container, a fields container (one field by mesh) is the output |
 
 ## Configurations
 
@@ -35,10 +32,14 @@ core
 
 ## Scripting
 
-- Category: mesh
-- Plugin: core
-- Scripting name: node_coordinates
-- Full name: mesh.node_coordinates
-- Internal name: mesh::node_coordinates
-- License: None
-  
+ **Category**: mesh
+
+ **Plugin**: core
+
+ **Scripting name**: node_coordinates
+
+ **Full name**: mesh.node_coordinates
+
+ **Internal name**: mesh::node_coordinates
+
+ **License**: None

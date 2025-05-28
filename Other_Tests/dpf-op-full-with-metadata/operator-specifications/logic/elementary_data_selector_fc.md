@@ -10,9 +10,6 @@ license: None
 
 Creates a scalar fields container based on the selected elementary data for each field.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: logic
-- Plugin: core
-- Scripting name: elementary_data_selector_fc
-- Full name: logic.elementary_data_selector_fc
-- Internal name: elementary_data_selector_fc
-- License: None
-  
+ **Category**: logic
+
+ **Plugin**: core
+
+ **Scripting name**: elementary_data_selector_fc
+
+ **Full name**: logic.elementary_data_selector_fc
+
+ **Internal name**: elementary_data_selector_fc
+
+ **License**: None

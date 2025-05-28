@@ -10,9 +10,6 @@ license: None
 
 Extract a custom result from an hdf5dpf file as an executable workflow.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -30,7 +27,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_or_fields_container |[`workflow`](../../getting-started/using-data-containers.md#workflow) |  |
+|  **Pin 0**| field_or_fields_container |[`workflow`](../../getting-started/using-data-containers.md#workflow) |  |
 
 ## Configurations
 
@@ -40,10 +37,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: hdf5dpf_workglow_provider
-- Full name: utility.hdf5dpf_workglow_provider
-- Internal name: hdf5::h5dpf::workflow_provider
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: hdf5dpf_workglow_provider
+
+ **Full name**: utility.hdf5dpf_workglow_provider
+
+ **Internal name**: hdf5::h5dpf::workflow_provider
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 Provides a scoping at a given location based on a given property name and a property number.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -30,7 +27,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mesh_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) | Scoping |
+|  **Pin 0**| mesh_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) | Scoping |
 
 ## Configurations
 
@@ -40,10 +37,14 @@ core
 
 ## Scripting
 
-- Category: scoping
-- Plugin: core
-- Scripting name: on_property
-- Full name: scoping.on_property
-- Internal name: scoping_provider_by_prop
-- License: None
-  
+ **Category**: scoping
+
+ **Plugin**: core
+
+ **Scripting name**: on_property
+
+ **Full name**: scoping.on_property
+
+ **Internal name**: scoping_provider_by_prop
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 Computes a general notion of inner product between two fields of possibly different dimensionality.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -42,10 +39,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: None
-- Full name: None
-- Internal name: generalized_inner_product_fc
-- License: None
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: generalized_inner_product_fc
+
+ **License**: None

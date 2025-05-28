@@ -11,9 +11,6 @@ license: None
 Computes the fitting curve using FFT filtering and cubic fitting in space (node i: x=time, y=data), with the possibility to compute the first and the second derivatives of the curve.
 
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -33,9 +30,9 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fitted_entity_y |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | The fitted entity is fitted using FFT along the space scoping (node i: x=time, y=data). Fitted Y is expected to be close to the input data. |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | first_der_dy |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | The first derivative (dY) from the fitted Y. |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | second_der_d2y |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | The second derivative (d2Y) from the fitted Y. |
+|  **Pin 0**| fitted_entity_y |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | The fitted entity is fitted using FFT along the space scoping (node i: x=time, y=data). Fitted Y is expected to be close to the input data. |
+|  **Pin 1**| first_der_dy |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | The first derivative (dY) from the fitted Y. |
+|  **Pin 2**| second_der_d2y |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | The second derivative (d2Y) from the fitted Y. |
 
 ## Configurations
 
@@ -47,10 +44,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: fft_approx
-- Full name: math.fft_approx
-- Internal name: fft_approx
-- License: None
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: fft_approx
+
+ **Full name**: math.fft_approx
+
+ **Internal name**: fft_approx
+
+ **License**: None

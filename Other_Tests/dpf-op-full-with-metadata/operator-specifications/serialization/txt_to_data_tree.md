@@ -10,9 +10,6 @@ license: None
 
 Reads a txt file or string to a DataTree
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | data_tree |[`abstract_data_tree`](../../getting-started/using-data-containers.md#abstract-data-tree) |  |
+|  **Pin 0**| data_tree |[`abstract_data_tree`](../../getting-started/using-data-containers.md#abstract-data-tree) |  |
 
 ## Configurations
 
@@ -35,10 +32,14 @@ core
 
 ## Scripting
 
-- Category: serialization
-- Plugin: core
-- Scripting name: None
-- Full name: None
-- Internal name: txt_to_data_tree
-- License: None
-  
+ **Category**: serialization
+
+ **Plugin**: core
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: txt_to_data_tree
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 Assembles a set of fields into a field matrix.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_field_matrix |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| merged_field_matrix |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -35,10 +32,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: merge_to_field_matrix
-- Full name: utility.merge_to_field_matrix
-- Internal name: merge::to_field_matrix
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: merge_to_field_matrix
+
+ **Full name**: utility.merge_to_field_matrix
+
+ **Internal name**: merge::to_field_matrix
+
+ **License**: None

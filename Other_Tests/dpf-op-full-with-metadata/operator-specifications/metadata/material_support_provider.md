@@ -10,9 +10,6 @@ license: None
 
 Reads the material support.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | abstract_field_support |[`abstract_field_support`](../../getting-started/using-data-containers.md#abstract-field-support) |  |
+|  **Pin 0**| abstract_field_support |[`abstract_field_support`](../../getting-started/using-data-containers.md#abstract-field-support) |  |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: metadata
-- Plugin: core
-- Scripting name: material_support_provider
-- Full name: metadata.material_support_provider
-- Internal name: mat_support_provider
-- License: None
-  
+ **Category**: metadata
+
+ **Plugin**: core
+
+ **Scripting name**: material_support_provider
+
+ **Full name**: metadata.material_support_provider
+
+ **Internal name**: mat_support_provider
+
+ **License**: None

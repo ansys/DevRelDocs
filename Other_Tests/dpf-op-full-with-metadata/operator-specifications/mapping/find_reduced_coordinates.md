@@ -10,9 +10,6 @@ license: None
 
 Finds the elements corresponding to the given coordinates in input and computes their reduced coordinates in those elements.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,8 +24,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | reduced_coordinates |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | coordinates in the reference elements |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | element_ids |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | Ids of the elements where each set of reduced coordinates is found |
+|  **Pin 0**| reduced_coordinates |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | coordinates in the reference elements |
+|  **Pin 1**| element_ids |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | Ids of the elements where each set of reduced coordinates is found |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: mapping
-- Plugin: core
-- Scripting name: find_reduced_coordinates
-- Full name: mapping.find_reduced_coordinates
-- Internal name: find_reduced_coordinates
-- License: None
-  
+ **Category**: mapping
+
+ **Plugin**: core
+
+ **Scripting name**: find_reduced_coordinates
+
+ **Full name**: mapping.find_reduced_coordinates
+
+ **Internal name**: find_reduced_coordinates
+
+ **License**: None

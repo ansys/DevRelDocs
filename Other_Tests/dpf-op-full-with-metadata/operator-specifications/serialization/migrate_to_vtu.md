@@ -10,9 +10,6 @@ license: None
 
 Extract all results from a datasources and exports them into vtu format. All the connected inputs are forwarded to the result providers operators.
 
-### Plugin
-
-vtk
 
 ## Inputs
 
@@ -31,7 +28,7 @@ vtk
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | path |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | list of output vtu file path |
+|  **Pin 0**| path |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | list of output vtu file path |
 
 ## Configurations
 
@@ -42,10 +39,14 @@ vtk
 
 ## Scripting
 
-- Category: serialization
-- Plugin: vtk
-- Scripting name: None
-- Full name: None
-- Internal name: migrate_to_vtu
-- License: None
-  
+ **Category**: serialization
+
+ **Plugin**: vtk
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: migrate_to_vtu
+
+ **License**: None

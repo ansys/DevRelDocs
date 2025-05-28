@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Exports a field or a fields container into a csv file
 
-### Plugin
-
-csv
 
 ## Inputs
 
@@ -36,10 +33,14 @@ csv
 
 ## Scripting
 
-- Category: serialization
-- Plugin: csv
-- Scripting name: None
-- Full name: None
-- Internal name: field_to_csv
-- License: any_dpf_supported_increments
-  
+ **Category**: serialization
+
+ **Plugin**: csv
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: field_to_csv
+
+ **License**: any_dpf_supported_increments

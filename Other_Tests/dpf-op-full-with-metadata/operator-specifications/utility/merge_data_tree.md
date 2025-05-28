@@ -10,9 +10,6 @@ license: None
 
 Merges a list of data trees. Attributes names shouldn't be shared accross data tree instances.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | any |[`any`](../../getting-started/using-data-containers.md#any) |  |
+|  **Pin 0**| any |[`any`](../../getting-started/using-data-containers.md#any) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: merge_data_tree
-- Full name: utility.merge_data_tree
-- Internal name: merge::data_tree
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: merge_data_tree
+
+ **Full name**: utility.merge_data_tree
+
+ **Internal name**: merge::data_tree
+
+ **License**: None

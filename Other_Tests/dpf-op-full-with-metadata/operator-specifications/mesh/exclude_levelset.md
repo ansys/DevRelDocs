@@ -10,9 +10,6 @@ license: None
 
 Takes two level sets and excludes the second one from the first.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: mesh
-- Plugin: core
-- Scripting name: exclude_levelset
-- Full name: mesh.exclude_levelset
-- Internal name: levelset::exclude
-- License: None
-  
+ **Category**: mesh
+
+ **Plugin**: core
+
+ **Scripting name**: exclude_levelset
+
+ **Full name**: mesh.exclude_levelset
+
+ **Internal name**: levelset::exclude
+
+ **License**: None

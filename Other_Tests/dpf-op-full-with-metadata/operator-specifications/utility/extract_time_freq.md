@@ -10,9 +10,6 @@ license: None
 
 Extract timefreqs with sets scoping from a time freq support
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: extract_time_freq
-- Full name: utility.extract_time_freq
-- Internal name: extract_time_freq
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: extract_time_freq
+
+ **Full name**: utility.extract_time_freq
+
+ **Internal name**: extract_time_freq
+
+ **License**: None

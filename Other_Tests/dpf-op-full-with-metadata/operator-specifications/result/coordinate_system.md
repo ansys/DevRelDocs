@@ -10,9 +10,6 @@ license: None
 
 Extracts the Rotation Matrix and Origin of a specific coordinate system
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -27,7 +24,7 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) | the first 9 double are the rotation (3x3 matrix) and the last 3 is the translation vector |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) | the first 9 double are the rotation (3x3 matrix) and the last 3 is the translation vector |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ mapdl
 
 ## Scripting
 
-- Category: result
-- Plugin: mapdl
-- Scripting name: coordinate_system
-- Full name: result.coordinate_system
-- Internal name: mapdl::rst::CS
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: coordinate_system
+
+ **Full name**: result.coordinate_system
+
+ **Internal name**: mapdl::rst::CS
+
+ **License**: None

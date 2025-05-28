@@ -10,9 +10,6 @@ license: None
 
 Computes the equivalent (Von Mises) stresses and averages it to the nodes (by default). For multibody simulations, averaging across bodies can either be activated or deactivated.
 
-### Plugin
-
-mechanical_results
 
 ## Inputs
 
@@ -32,8 +29,8 @@ mechanical_results
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | meshes_container |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 1**| meshes_container |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
 
 ## Configurations
 
@@ -43,10 +40,14 @@ mechanical_results
 
 ## Scripting
 
-- Category: result
-- Plugin: mechanical_results
-- Scripting name: None
-- Full name: None
-- Internal name: stress_eqv_as_mechanical
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mechanical_results
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: stress_eqv_as_mechanical
+
+ **License**: None

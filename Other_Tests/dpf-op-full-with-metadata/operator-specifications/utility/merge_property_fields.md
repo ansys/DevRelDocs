@@ -10,9 +10,6 @@ license: None
 
 Assembles a set of property fields into a unique one.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | property_field |[`property_field`](../../getting-started/using-data-containers.md#property-field) |  |
+|  **Pin 0**| property_field |[`property_field`](../../getting-started/using-data-containers.md#property-field) |  |
 
 ## Configurations
 
@@ -35,10 +32,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: merge_property_fields
-- Full name: utility.merge_property_fields
-- Internal name: merge::property_field
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: merge_property_fields
+
+ **Full name**: utility.merge_property_fields
+
+ **Internal name**: merge::property_field
+
+ **License**: None

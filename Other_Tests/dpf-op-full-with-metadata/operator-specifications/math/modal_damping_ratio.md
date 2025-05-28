@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Computes damping ratio for each mode shape as X_i = const + ratio_i + m_coefficient / (2*omega_i) + k_coefficient * omega_i/2.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -29,7 +26,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) | field of modal damping ratio. |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) | field of modal damping ratio. |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: modal_damping_ratio
-- Full name: math.modal_damping_ratio
-- Internal name: modal_damping_ratio
-- License: any_dpf_supported_increments
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: modal_damping_ratio
+
+ **Full name**: math.modal_damping_ratio
+
+ **Internal name**: modal_damping_ratio
+
+ **License**: any_dpf_supported_increments

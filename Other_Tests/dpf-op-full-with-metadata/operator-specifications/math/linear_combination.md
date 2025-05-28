@@ -10,9 +10,6 @@ license: None
 
 Computes aXY + bZ where a,b (in 0, in 3) are scalar and X,Y,Z (in 1,2,4) are complex numbers.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -29,7 +26,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: linear_combination
-- Full name: math.linear_combination
-- Internal name: CplxOp
-- License: None
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: linear_combination
+
+ **Full name**: math.linear_combination
+
+ **Internal name**: CplxOp
+
+ **License**: None

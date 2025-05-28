@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Evaluate min max fields on multi harmonic solution. min and max fields are calculated based on evaluating a fourier series sum wrt rpms and using the gradient method for adaptive time steping
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -33,9 +30,9 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_min |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_max |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | all_fields |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| field_min |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 1**| field_max |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 2**| all_fields |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -45,10 +42,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: fft_multi_harmonic_minmax
-- Full name: math.fft_multi_harmonic_minmax
-- Internal name: fft_multi_harmonic_minmax
-- License: any_dpf_supported_increments
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: fft_multi_harmonic_minmax
+
+ **Full name**: math.fft_multi_harmonic_minmax
+
+ **Internal name**: fft_multi_harmonic_minmax
+
+ **License**: any_dpf_supported_increments

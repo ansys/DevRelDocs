@@ -10,9 +10,6 @@ license: None
 
 zfp decompression using the information about compression written into the properties of the field(s)
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,8 +22,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | dataOut |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | the output entity is a field or a fields container; it contains decompressed data |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | decompress_speed |[`double`](../../getting-started/using-data-containers.md#double) | the output entity is a double, containing decompression speed (mb/sec) |
+|  **Pin 0**| dataOut |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | the output entity is a field or a fields container; it contains decompressed data |
+|  **Pin 1**| decompress_speed |[`double`](../../getting-started/using-data-containers.md#double) | the output entity is a double, containing decompression speed (mb/sec) |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: compression
-- Plugin: core
-- Scripting name: zfp_decompress
-- Full name: compression.zfp_decompress
-- Internal name: zfp_decompress
-- License: None
-  
+ **Category**: compression
+
+ **Plugin**: core
+
+ **Scripting name**: zfp_decompress
+
+ **Full name**: compression.zfp_decompress
+
+ **Internal name**: zfp_decompress
+
+ **License**: None

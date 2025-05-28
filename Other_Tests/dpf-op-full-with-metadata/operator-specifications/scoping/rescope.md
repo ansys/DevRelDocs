@@ -10,9 +10,6 @@ license: None
 
 Rescopes a field on the given scoping. If an ID does not exist in the original field, the default value (in 2) is used when defined.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields |[`fields_container`](../../getting-started/using-data-containers.md#fields-container), [`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| fields |[`fields_container`](../../getting-started/using-data-containers.md#fields-container), [`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: scoping
-- Plugin: core
-- Scripting name: rescope
-- Full name: scoping.rescope
-- Internal name: Rescope
-- License: None
-  
+ **Category**: scoping
+
+ **Plugin**: core
+
+ **Scripting name**: rescope
+
+ **Full name**: scoping.rescope
+
+ **Internal name**: Rescope
+
+ **License**: None

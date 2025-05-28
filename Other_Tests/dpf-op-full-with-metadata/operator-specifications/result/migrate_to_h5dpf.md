@@ -10,9 +10,6 @@ license: None
 
 Read mesh properties from the results files contained in the streams or data sources and make those properties available through a mesh selection manager in output.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -34,7 +31,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | migrated_file |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) |  |
+|  **Pin 0**| migrated_file |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) |  |
 
 ## Configurations
 
@@ -44,10 +41,14 @@ core
 
 ## Scripting
 
-- Category: result
-- Plugin: core
-- Scripting name: migrate_to_h5dpf
-- Full name: result.migrate_to_h5dpf
-- Internal name: hdf5::h5dpf::migrate_file
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: core
+
+ **Scripting name**: migrate_to_h5dpf
+
+ **Full name**: result.migrate_to_h5dpf
+
+ **Internal name**: hdf5::h5dpf::migrate_file
+
+ **License**: None

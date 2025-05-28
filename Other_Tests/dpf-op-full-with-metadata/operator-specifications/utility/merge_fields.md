@@ -10,9 +10,6 @@ license: None
 
 Assembles a set of fields into a unique one.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| merged_field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: merge_fields
-- Full name: utility.merge_fields
-- Internal name: merge::field
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: merge_fields
+
+ **Full name**: utility.merge_fields
+
+ **Internal name**: merge::field
+
+ **License**: None

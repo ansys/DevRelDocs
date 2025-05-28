@@ -10,9 +10,6 @@ license: None
 
 Reads the time/frequency support from the results files contained in the streams or data sources.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | time_freq_support |[`time_freq_support`](../../getting-started/using-data-containers.md#time-freq-support) |  |
+|  **Pin 0**| time_freq_support |[`time_freq_support`](../../getting-started/using-data-containers.md#time-freq-support) |  |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: metadata
-- Plugin: core
-- Scripting name: time_freq_provider
-- Full name: metadata.time_freq_provider
-- Internal name: time_freq_support_provider
-- License: None
-  
+ **Category**: metadata
+
+ **Plugin**: core
+
+ **Scripting name**: time_freq_provider
+
+ **Full name**: metadata.time_freq_provider
+
+ **Internal name**: time_freq_support_provider
+
+ **License**: None

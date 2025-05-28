@@ -10,9 +10,6 @@ license: None
 
 Export DPF data into vtu format.
 
-### Plugin
-
-vtk
 
 ## Inputs
 
@@ -32,7 +29,7 @@ vtk
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | path |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | list of output vtu file path |
+|  **Pin 0**| path |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | list of output vtu file path |
 
 ## Configurations
 
@@ -43,10 +40,14 @@ vtk
 
 ## Scripting
 
-- Category: serialization
-- Plugin: vtk
-- Scripting name: None
-- Full name: None
-- Internal name: vtu_export
-- License: None
-  
+ **Category**: serialization
+
+ **Plugin**: vtk
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: vtu_export
+
+ **License**: None

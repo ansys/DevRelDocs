@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 transform csv file to a field or fields container
 
-### Plugin
-
-csv
 
 ## Inputs
 
@@ -26,7 +23,7 @@ csv
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ csv
 
 ## Scripting
 
-- Category: serialization
-- Plugin: csv
-- Scripting name: None
-- Full name: None
-- Internal name: csv_to_field
-- License: any_dpf_supported_increments
-  
+ **Category**: serialization
+
+ **Plugin**: csv
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: csv_to_field
+
+ **License**: any_dpf_supported_increments

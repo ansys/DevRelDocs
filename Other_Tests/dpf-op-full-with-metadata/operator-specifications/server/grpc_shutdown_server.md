@@ -10,9 +10,6 @@ license: None
 
 Shutdowns dpf's grpc server
 
-### Plugin
-
-grpc
 
 ## Inputs
 
@@ -34,10 +31,14 @@ grpc
 
 ## Scripting
 
-- Category: server
-- Plugin: grpc
-- Scripting name: grpc_shutdown_server
-- Full name: server.grpc_shutdown_server
-- Internal name: grpc_server_shutdown
-- License: None
-  
+ **Category**: server
+
+ **Plugin**: grpc
+
+ **Scripting name**: grpc_shutdown_server
+
+ **Full name**: server.grpc_shutdown_server
+
+ **Internal name**: grpc_server_shutdown
+
+ **License**: None

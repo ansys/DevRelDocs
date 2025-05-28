@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Compute the measure of the Faces (surface for 2D faces of a 3D model or length for 1D faces of a 2D model) using default shape functions, except for polygons.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: geo
-- Plugin: core
-- Scripting name: faces_area
-- Full name: geo.faces_area
-- Internal name: face::area
-- License: any_dpf_supported_increments
-  
+ **Category**: geo
+
+ **Plugin**: core
+
+ **Scripting name**: faces_area
+
+ **Full name**: geo.faces_area
+
+ **Internal name**: face::area
+
+ **License**: any_dpf_supported_increments

@@ -10,9 +10,6 @@ license: None
 
 Creates a new scopings container with all the scopings corresponding to the label space in input 1. If pin 1 is not defined, pin 0 input will be copied to the output.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | scopings_container |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | scopings_container |
+|  **Pin 0**| scopings_container |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | scopings_container |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: extract_sub_sc
-- Full name: utility.extract_sub_sc
-- Internal name: extract_sub_sc
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: extract_sub_sc
+
+ **Full name**: utility.extract_sub_sc
+
+ **Internal name**: extract_sub_sc
+
+ **License**: None

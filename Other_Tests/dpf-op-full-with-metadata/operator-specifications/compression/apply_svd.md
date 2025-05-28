@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Computes the coefficients (=U*Sigma) and VT components from SVD.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,9 +25,9 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | us_svd |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | the output entity is a field container (time dependant); it contains the multiplication of two matrices, U and S, where A=U.S.Vt |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | vt_svd |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | the output entity is a field container (space dependant), containing the Vt, where A=U.S.Vt |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | sigma |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | the output entity is a field (or a field container if input fc contains several labels, where field contains results per label), containing singular (S) values of the input data, where A=U.S.Vt |
+|  **Pin 0**| us_svd |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | the output entity is a field container (time dependant); it contains the multiplication of two matrices, U and S, where A=U.S.Vt |
+|  **Pin 1**| vt_svd |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | the output entity is a field container (space dependant), containing the Vt, where A=U.S.Vt |
+|  **Pin 2**| sigma |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | the output entity is a field (or a field container if input fc contains several labels, where field contains results per label), containing singular (S) values of the input data, where A=U.S.Vt |
 
 ## Configurations
 
@@ -42,10 +39,14 @@ core
 
 ## Scripting
 
-- Category: compression
-- Plugin: core
-- Scripting name: apply_svd
-- Full name: compression.apply_svd
-- Internal name: svd_operator
-- License: any_dpf_supported_increments
-  
+ **Category**: compression
+
+ **Plugin**: core
+
+ **Scripting name**: apply_svd
+
+ **Full name**: compression.apply_svd
+
+ **Internal name**: svd_operator
+
+ **License**: any_dpf_supported_increments

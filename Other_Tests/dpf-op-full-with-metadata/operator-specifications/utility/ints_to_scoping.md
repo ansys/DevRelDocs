@@ -10,9 +10,6 @@ license: None
 
 take a int or a vector of int and transform it in a one entity field of location "numeric".
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) |  |
+|  **Pin 0**| scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: ints_to_scoping
-- Full name: utility.ints_to_scoping
-- Internal name: scopingify
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: ints_to_scoping
+
+ **Full name**: utility.ints_to_scoping
+
+ **Internal name**: scopingify
+
+ **License**: None

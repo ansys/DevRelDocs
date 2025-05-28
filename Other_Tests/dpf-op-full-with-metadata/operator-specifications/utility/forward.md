@@ -10,9 +10,6 @@ license: None
 
 Return all the inputs as outputs.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | any |[`any`](../../getting-started/using-data-containers.md#any) | same types as inputs |
+|  **Pin 0**| any |[`any`](../../getting-started/using-data-containers.md#any) | same types as inputs |
 
 ## Configurations
 
@@ -35,10 +32,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: forward
-- Full name: utility.forward
-- Internal name: forward
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: forward
+
+ **Full name**: utility.forward
+
+ **Internal name**: forward
+
+ **License**: None

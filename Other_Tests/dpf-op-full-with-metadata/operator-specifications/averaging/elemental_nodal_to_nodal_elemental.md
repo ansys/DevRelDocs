@@ -10,9 +10,6 @@ license: None
 
 Transforms an Elemental Nodal field to Nodal Elemental. The result is computed on a given node's scoping.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: averaging
-- Plugin: core
-- Scripting name: elemental_nodal_to_nodal_elemental
-- Full name: averaging.elemental_nodal_to_nodal_elemental
-- Internal name: ElementalNodal_To_NodalElemental
-- License: None
-  
+ **Category**: averaging
+
+ **Plugin**: core
+
+ **Scripting name**: elemental_nodal_to_nodal_elemental
+
+ **Full name**: averaging.elemental_nodal_to_nodal_elemental
+
+ **Internal name**: ElementalNodal_To_NodalElemental
+
+ **License**: None

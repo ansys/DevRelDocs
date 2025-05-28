@@ -10,9 +10,6 @@ license: None
 
 Reads total mass from mode file.
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -25,7 +22,7 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mass |[`double`](../../getting-started/using-data-containers.md#double) | the unit should be grabbed from the rst file |
+|  **Pin 0**| mass |[`double`](../../getting-started/using-data-containers.md#double) | the unit should be grabbed from the rst file |
 
 ## Configurations
 
@@ -35,10 +32,14 @@ mapdl
 
 ## Scripting
 
-- Category: result
-- Plugin: mapdl
-- Scripting name: total_mass
-- Full name: result.total_mass
-- Internal name: mapdl::mode::total_mass
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: total_mass
+
+ **Full name**: result.total_mass
+
+ **Internal name**: mapdl::mode::total_mass
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 This operator is deprecated: use 'hdf5::h5dpf::make_result_file' instead. Serialize the inputs in an hdf5 format.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: serialization
-- Plugin: core
-- Scripting name: serialize_to_hdf5
-- Full name: serialization.serialize_to_hdf5
-- Internal name: serialize_to_hdf5
-- License: None
-  
+ **Category**: serialization
+
+ **Plugin**: core
+
+ **Scripting name**: serialize_to_hdf5
+
+ **Full name**: serialization.serialize_to_hdf5
+
+ **Internal name**: serialize_to_hdf5
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 Prepare time sampling optimum for FFT computation and expected frequencies in output.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,8 +24,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | time_tfs_sampled |[`time_freq_support`](../../getting-started/using-data-containers.md#time-freq-support) | Optimum sampled time domain TimeFreqSupport. |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | freq_tfs_fft |[`time_freq_support`](../../getting-started/using-data-containers.md#time-freq-support) | Frequency domain TimeFreqSupport expected in output of FFT. |
+|  **Pin 0**| time_tfs_sampled |[`time_freq_support`](../../getting-started/using-data-containers.md#time-freq-support) | Optimum sampled time domain TimeFreqSupport. |
+|  **Pin 1**| freq_tfs_fft |[`time_freq_support`](../../getting-started/using-data-containers.md#time-freq-support) | Frequency domain TimeFreqSupport expected in output of FFT. |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: mapping
-- Plugin: core
-- Scripting name: prep_sampling_fft
-- Full name: mapping.prep_sampling_fft
-- Internal name: prepare_sampling_fft
-- License: None
-  
+ **Category**: mapping
+
+ **Plugin**: core
+
+ **Scripting name**: prep_sampling_fft
+
+ **Full name**: mapping.prep_sampling_fft
+
+ **Internal name**: prepare_sampling_fft
+
+ **License**: None

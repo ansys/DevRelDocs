@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Computing Euler's Critical Load. Formula: Ncr = n*E*I*pi*pi /(L*L) 
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,9 +25,9 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_euler_critical_load |[`field`](../../getting-started/using-data-containers.md#field) | This field contains Euler's Critical Load about the principle axis of the cross section having the least moment of inertia. |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_euler_critical_load_yy |[`field`](../../getting-started/using-data-containers.md#field) | This field contains Euler's Critical Load on axis y. |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_euler_critical_load_zz |[`field`](../../getting-started/using-data-containers.md#field) | This field contains Euler's Critical Load on axis z. |
+|  **Pin 0**| field_euler_critical_load |[`field`](../../getting-started/using-data-containers.md#field) | This field contains Euler's Critical Load about the principle axis of the cross section having the least moment of inertia. |
+|  **Pin 1**| field_euler_critical_load_yy |[`field`](../../getting-started/using-data-containers.md#field) | This field contains Euler's Critical Load on axis y. |
+|  **Pin 2**| field_euler_critical_load_zz |[`field`](../../getting-started/using-data-containers.md#field) | This field contains Euler's Critical Load on axis z. |
 
 ## Configurations
 
@@ -40,10 +37,14 @@ core
 
 ## Scripting
 
-- Category: result
-- Plugin: core
-- Scripting name: euler_load_buckling
-- Full name: result.euler_load_buckling
-- Internal name: euler_load_buckling
-- License: any_dpf_supported_increments
-  
+ **Category**: result
+
+ **Plugin**: core
+
+ **Scripting name**: euler_load_buckling
+
+ **Full name**: result.euler_load_buckling
+
+ **Internal name**: euler_load_buckling
+
+ **License**: any_dpf_supported_increments

@@ -10,9 +10,6 @@ license: None
 
 Computes element-wise dot product between two vector fields. If one field's scoping has an 'overall' location, then this field's values are applied on the other field entirely.When using a constant or 'work_by_index', you can use 'inplace' to reuse one of the fields, but only in the case where both fields are scalar.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -43,10 +40,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: None
-- Full name: None
-- Internal name: dot
-- License: None
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: dot
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 Assembles a set of result information into a unique one.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_result_infos |[`result_info`](../../getting-started/using-data-containers.md#result-info) |  |
+|  **Pin 0**| merged_result_infos |[`result_info`](../../getting-started/using-data-containers.md#result-info) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: merge_result_infos
-- Full name: utility.merge_result_infos
-- Internal name: merge::result_info
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: merge_result_infos
+
+ **Full name**: utility.merge_result_infos
+
+ **Internal name**: merge::result_info
+
+ **License**: None

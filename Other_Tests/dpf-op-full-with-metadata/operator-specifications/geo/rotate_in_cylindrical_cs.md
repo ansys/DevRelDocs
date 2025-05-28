@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Rotates a field to its corresponding values into the specified cylindrical coordinate system (corresponding to the field position). If a coordinate system is not set in the coordinate_system pin, the field is rotated on each node following the local polar coordinate system.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: geo
-- Plugin: core
-- Scripting name: rotate_in_cylindrical_cs
-- Full name: geo.rotate_in_cylindrical_cs
-- Internal name: transform_cylindricalCS
-- License: any_dpf_supported_increments
-  
+ **Category**: geo
+
+ **Plugin**: core
+
+ **Scripting name**: rotate_in_cylindrical_cs
+
+ **Full name**: geo.rotate_in_cylindrical_cs
+
+ **Internal name**: transform_cylindricalCS
+
+ **License**: any_dpf_supported_increments

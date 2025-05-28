@@ -10,9 +10,6 @@ license: None
 
 Incrementaly merge the input.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | incremented_result | |  |
+|  **Pin 0**| incremented_result | |  |
 
 ## Configurations
 
@@ -35,10 +32,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: incremental::merge::meshes_container
-- Full name: utility.incremental::merge::meshes_container
-- Internal name: incremental::merge::meshes_container
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: incremental::merge::meshes_container
+
+ **Full name**: utility.incremental::merge::meshes_container
+
+ **Internal name**: incremental::merge::meshes_container
+
+ **License**: None

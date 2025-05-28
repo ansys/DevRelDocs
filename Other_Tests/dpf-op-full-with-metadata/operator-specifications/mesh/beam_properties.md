@@ -10,9 +10,6 @@ license: None
 
 Reads the beam's properties from the result files contained in the streams or data sources.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,20 +23,20 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mesh_out |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) | This mesh updates a new map containing a field of the beam's properties if there is at least one beam in mesh. |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_type_section_id |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the section ID of beams. 1:REC; 3:CSOLID, 4:CTUBE, 5:CHAN, 6:Z, 7:L, 8:I, 9:T, 11:HATS, 12:HREC. |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_area |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the area of beams. |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_moment_inertia |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the inertia moment of beams. Iyy, Iyz, Izz. |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_geometry |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the geometry of beams. REC:b,h. CSOLID:Ri. CTUBE:Ri, Re. CHAN:w1,w2,w3,t1,t2,t3. Z:w1,w2,w3,t1,t2,t3. L:w1,w2,t1,t2. I:w1,w2,w3,t1,t2,t3. T:w1,w2,t1,t2. HATS: w1,w2,w3,w4,t1,t2,t3,t4. HREC:w1,w2,t1,t2,t3,t4. |
-| <strong>Pin 5</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_young_modulus |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the Young's modulus of beams. |
-| <strong>Pin 6</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_poisson_ratio |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the Poisson's ratio of beams. |
-| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_shear_modulus |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the Shear Modulus of beams. |
-| <strong>Pin 8</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_beam_length |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the length of beams. |
-| <strong>Pin 9</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_torsion_constant |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the Torsion Constant of beams. |
-| <strong>Pin 10</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_warping_constant |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the Warping Constant of beams. |
-| <strong>Pin 11</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_offset_type |[`field`](../../getting-started/using-data-containers.md#field) | This field contains offset type of beams. |
-| <strong>Pin 12</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_offset_y |[`field`](../../getting-started/using-data-containers.md#field) | This field contains offset y of beams. |
-| <strong>Pin 13</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_offset_z |[`field`](../../getting-started/using-data-containers.md#field) | This field contains offset z of beams. |
+|  **Pin 0**| mesh_out |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) | This mesh updates a new map containing a field of the beam's properties if there is at least one beam in mesh. |
+|  **Pin 1**| field_type_section_id |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the section ID of beams. 1:REC; 3:CSOLID, 4:CTUBE, 5:CHAN, 6:Z, 7:L, 8:I, 9:T, 11:HATS, 12:HREC. |
+|  **Pin 2**| field_area |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the area of beams. |
+|  **Pin 3**| field_moment_inertia |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the inertia moment of beams. Iyy, Iyz, Izz. |
+|  **Pin 4**| field_geometry |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the geometry of beams. REC:b,h. CSOLID:Ri. CTUBE:Ri, Re. CHAN:w1,w2,w3,t1,t2,t3. Z:w1,w2,w3,t1,t2,t3. L:w1,w2,t1,t2. I:w1,w2,w3,t1,t2,t3. T:w1,w2,t1,t2. HATS: w1,w2,w3,w4,t1,t2,t3,t4. HREC:w1,w2,t1,t2,t3,t4. |
+|  **Pin 5**| field_young_modulus |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the Young's modulus of beams. |
+|  **Pin 6**| field_poisson_ratio |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the Poisson's ratio of beams. |
+|  **Pin 7**| field_shear_modulus |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the Shear Modulus of beams. |
+|  **Pin 8**| field_beam_length |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the length of beams. |
+|  **Pin 9**| field_torsion_constant |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the Torsion Constant of beams. |
+|  **Pin 10**| field_warping_constant |[`field`](../../getting-started/using-data-containers.md#field) | This field contains the Warping Constant of beams. |
+|  **Pin 11**| field_offset_type |[`field`](../../getting-started/using-data-containers.md#field) | This field contains offset type of beams. |
+|  **Pin 12**| field_offset_y |[`field`](../../getting-started/using-data-containers.md#field) | This field contains offset y of beams. |
+|  **Pin 13**| field_offset_z |[`field`](../../getting-started/using-data-containers.md#field) | This field contains offset z of beams. |
 
 ## Configurations
 
@@ -51,10 +48,14 @@ core
 
 ## Scripting
 
-- Category: mesh
-- Plugin: core
-- Scripting name: beam_properties
-- Full name: mesh.beam_properties
-- Internal name: beam_properties
-- License: None
-  
+ **Category**: mesh
+
+ **Plugin**: core
+
+ **Scripting name**: beam_properties
+
+ **Full name**: mesh.beam_properties
+
+ **Internal name**: beam_properties
+
+ **License**: None

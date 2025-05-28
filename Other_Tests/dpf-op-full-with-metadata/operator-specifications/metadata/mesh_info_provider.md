@@ -10,9 +10,6 @@ license: None
 
 Reads the mesh information, such as number of elements (common property), number of faces (Cff plugins) or scoping of parts (LSDYNA plugins) on files contained in the streams or data sources.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mesh_info |[`generic_data_container`](../../getting-started/using-data-containers.md#generic-data-container) |  |
+|  **Pin 0**| mesh_info |[`generic_data_container`](../../getting-started/using-data-containers.md#generic-data-container) |  |
 
 ## Configurations
 
@@ -40,10 +37,14 @@ core
 
 ## Scripting
 
-- Category: metadata
-- Plugin: core
-- Scripting name: mesh_info_provider
-- Full name: metadata.mesh_info_provider
-- Internal name: mesh_info_provider
-- License: None
-  
+ **Category**: metadata
+
+ **Plugin**: core
+
+ **Scripting name**: mesh_info_provider
+
+ **Full name**: metadata.mesh_info_provider
+
+ **Internal name**: mesh_info_provider
+
+ **License**: None

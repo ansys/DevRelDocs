@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Sort a field (in 0) in descending order, with an optional component priority table or a boolean to enable sort by scoping (in 1). This operator doesn't support multiple elementary data per entity.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: logic
-- Plugin: core
-- Scripting name: descending_sort
-- Full name: logic.descending_sort
-- Internal name: descending_sort
-- License: any_dpf_supported_increments
-  
+ **Category**: logic
+
+ **Plugin**: core
+
+ **Scripting name**: descending_sort
+
+ **Full name**: logic.descending_sort
+
+ **Internal name**: descending_sort
+
+ **License**: any_dpf_supported_increments

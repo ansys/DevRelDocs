@@ -10,9 +10,6 @@ license: None
 
 Reads boundary conditions from the results files contained in the streams or data sources.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | results_info |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | results info |
+|  **Pin 0**| results_info |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | results info |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: metadata
-- Plugin: core
-- Scripting name: boundary_condition_provider
-- Full name: metadata.boundary_condition_provider
-- Internal name: boundary_conditions
-- License: None
-  
+ **Category**: metadata
+
+ **Plugin**: core
+
+ **Scripting name**: boundary_condition_provider
+
+ **Full name**: metadata.boundary_condition_provider
+
+ **Internal name**: boundary_conditions
+
+ **License**: None

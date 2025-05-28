@@ -10,9 +10,6 @@ license: None
 
 Compressing input data using one of zfp compression algorithm modes.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -31,9 +28,9 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | compress_speed |[`double`](../../getting-started/using-data-containers.md#double) | the output entity is a double, containing compression speed of the input data: for ElementalNodal location - [elements/sec], for Nodal location - [nodes/sec] |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | compress_ratio |[`double`](../../getting-started/using-data-containers.md#double) | the output entity is a double, containing compression rate = initial/compressed |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | dataOut |[`custom_type_fields_container`](../../getting-started/using-data-containers.md#custom-type-fields-container) | the output entity is a 'custom type field container';                     each output field containing compressed results corresponding to one component data (ie. input vector field/fc contains 3 components will give 3 output fields), this is not the case when input pin3 is set to 3, all components will be compressed into one field. |
+|  **Pin 0**| compress_speed |[`double`](../../getting-started/using-data-containers.md#double) | the output entity is a double, containing compression speed of the input data: for ElementalNodal location - [elements/sec], for Nodal location - [nodes/sec] |
+|  **Pin 1**| compress_ratio |[`double`](../../getting-started/using-data-containers.md#double) | the output entity is a double, containing compression rate = initial/compressed |
+|  **Pin 2**| dataOut |[`custom_type_fields_container`](../../getting-started/using-data-containers.md#custom-type-fields-container) | the output entity is a 'custom type field container';                     each output field containing compressed results corresponding to one component data (ie. input vector field/fc contains 3 components will give 3 output fields), this is not the case when input pin3 is set to 3, all components will be compressed into one field. |
 
 ## Configurations
 
@@ -46,10 +43,14 @@ core
 
 ## Scripting
 
-- Category: compression
-- Plugin: core
-- Scripting name: apply_zfp
-- Full name: compression.apply_zfp
-- Internal name: zfp
-- License: None
-  
+ **Category**: compression
+
+ **Plugin**: core
+
+ **Scripting name**: apply_zfp
+
+ **Full name**: compression.apply_zfp
+
+ **Internal name**: zfp
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 Uses the FieldsContainer APIs to modify it.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | Returns the modified FieldsContainer. |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | Returns the modified FieldsContainer. |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: set_attribute
-- Full name: utility.set_attribute
-- Internal name: fieldscontainer::set_attribute
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: set_attribute
+
+ **Full name**: utility.set_attribute
+
+ **Internal name**: fieldscontainer::set_attribute
+
+ **License**: None

@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 This operator is a non-certified example of buckling resistance verification for the compression and bending members for Class I, 2 and 3 cross-sections. It is only provided as an example if you want to develop your own compute norm operator. This norm is linear summation of the utilization ratios of compression members and bending members. The results computed by this beta operator have not been certified by ANSYS. ANSYS declines all responsibility for the use of this operator.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -37,7 +34,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | buckling_resistance_linear_summation_utilization_ratios |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | Linear summation of the utilization ratios in all members submitted under a combination of both bending and compression. These factors should be less than 1 and positive. |
+|  **Pin 0**| buckling_resistance_linear_summation_utilization_ratios |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | Linear summation of the utilization ratios in all members submitted under a combination of both bending and compression. These factors should be less than 1 and positive. |
 
 ## Configurations
 
@@ -47,10 +44,14 @@ core
 
 ## Scripting
 
-- Category: result
-- Plugin: core
-- Scripting name: members_in_linear_compression_bending_not_certified
-- Full name: result.members_in_linear_compression_bending_not_certified
-- Internal name: members_in_linear_compression_bending_not_certified
-- License: any_dpf_supported_increments
-  
+ **Category**: result
+
+ **Plugin**: core
+
+ **Scripting name**: members_in_linear_compression_bending_not_certified
+
+ **Full name**: result.members_in_linear_compression_bending_not_certified
+
+ **Internal name**: members_in_linear_compression_bending_not_certified
+
+ **License**: any_dpf_supported_increments

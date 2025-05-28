@@ -10,9 +10,6 @@ license: {{ scripting_info.license }}
 
 {{ operator_description }}
 
-### Plugin
-
-{{ scripting_info.plugin }}
 
 ## Inputs
 
@@ -31,7 +28,7 @@ license: {{ scripting_info.license }}
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
 {%- for output in outputs %}
-| {% if not output.optional %}<strong>Pin {{ output.pin_number }}</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>{% else %}<strong>Pin {{ output.pin_number }}</strong>{% endif %} | {{ output.name }} |
+|  **Pin {{ output.pin_number }}**| {{ output.name }} |
 {%- for t in output.types -%}
 [`{{ t }}`](../../getting-started/using-data-containers.md#{{ t | replace("_", "-") | replace(" ", "-") | lower }}){% if not loop.last %}, {% endif %}
 {%- endfor %} | {{ output.document }} |
@@ -50,10 +47,15 @@ license: {{ scripting_info.license }}
 
 ## Scripting
 
-- Category: {{ scripting_info.category }}
-- Plugin: {{ scripting_info.plugin }}
-- Scripting name: {{ scripting_info.scripting_name }}
-- Full name: {{ scripting_info.full_name }}
-- Internal name: {{ scripting_info.internal_name }}
-- License: {{ scripting_info.license }}
-  
+ **Category**: {{ scripting_info.category }}
+
+ **Plugin**: {{ scripting_info.plugin }}
+
+ **Scripting name**: {{ scripting_info.scripting_name }}
+
+ **Full name**: {{ scripting_info.full_name }}
+
+ **Internal name**: {{ scripting_info.internal_name }}
+
+ **License**: {{ scripting_info.license }}
+

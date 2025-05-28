@@ -10,9 +10,6 @@ license: None
 
 Create dpf's html documentation. Only on Windows.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -35,10 +32,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: html_doc
-- Full name: utility.html_doc
-- Internal name: html_doc
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: html_doc
+
+ **Full name**: utility.html_doc
+
+ **Internal name**: html_doc
+
+ **License**: None

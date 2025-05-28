@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Transforms Elemental Nodal fields into Elemental fields. Each elemental value is the fraction between the elemental difference and the entity average. The result is computed on a given element's scoping.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -29,7 +26,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -41,10 +38,14 @@ core
 
 ## Scripting
 
-- Category: averaging
-- Plugin: core
-- Scripting name: elemental_fraction_fc
-- Full name: averaging.elemental_fraction_fc
-- Internal name: elemental_fraction_fc
-- License: any_dpf_supported_increments
-  
+ **Category**: averaging
+
+ **Plugin**: core
+
+ **Scripting name**: elemental_fraction_fc
+
+ **Full name**: averaging.elemental_fraction_fc
+
+ **Internal name**: elemental_fraction_fc
+
+ **License**: any_dpf_supported_increments

@@ -10,9 +10,6 @@ license: None
 
 Assembles a set of fields containers into a unique one, applying a weight on the sum of the fields.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -29,7 +26,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| merged_fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -40,10 +37,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: merge_weighted_fields_containers
-- Full name: utility.merge_weighted_fields_containers
-- Internal name: merge::weighted_fields_container
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: merge_weighted_fields_containers
+
+ **Full name**: utility.merge_weighted_fields_containers
+
+ **Internal name**: merge::weighted_fields_container
+
+ **License**: None

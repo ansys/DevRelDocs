@@ -10,9 +10,6 @@ license: None
 
 Checks if two fields containers are identical.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,8 +25,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | boolean |[`bool`](../../getting-started/using-data-containers.md#bool) | bool (true if identical...) |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | message |[`string`](../../getting-started/using-data-containers.md#string) |  |
+|  **Pin 0**| boolean |[`bool`](../../getting-started/using-data-containers.md#bool) | bool (true if identical...) |
+|  **Pin 1**| message |[`string`](../../getting-started/using-data-containers.md#string) |  |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: logic
-- Plugin: core
-- Scripting name: identical_fc
-- Full name: logic.identical_fc
-- Internal name: AreFieldsIdentical_fc
-- License: None
-  
+ **Category**: logic
+
+ **Plugin**: core
+
+ **Scripting name**: identical_fc
+
+ **Full name**: logic.identical_fc
+
+ **Internal name**: AreFieldsIdentical_fc
+
+ **License**: None

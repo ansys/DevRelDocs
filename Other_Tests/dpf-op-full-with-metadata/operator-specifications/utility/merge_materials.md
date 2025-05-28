@@ -10,9 +10,6 @@ license: None
 
 Assembles a set of materials into a unique one.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_materials |[`materials`](../../getting-started/using-data-containers.md#materials) |  |
+|  **Pin 0**| merged_materials |[`materials`](../../getting-started/using-data-containers.md#materials) |  |
 
 ## Configurations
 
@@ -35,10 +32,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: merge_materials
-- Full name: utility.merge_materials
-- Internal name: merge::materials
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: merge_materials
+
+ **Full name**: utility.merge_materials
+
+ **Internal name**: merge::materials
+
+ **License**: None
