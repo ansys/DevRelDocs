@@ -1,0 +1,44 @@
+---
+category: utility
+plugin: core
+license: None
+---
+
+# utility:unitary field
+
+## Description
+
+Takes a field and returns another field of scalars in the same location and scoping as the input field.
+
+### Plugin
+
+core
+
+## Inputs
+
+| Input | Name | Expected type(s) | Description |
+|-------|-------|------------------|-------------|
+| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | field or fields container with only one field is expected |
+
+
+## Outputs
+
+| Output |  Name | Expected type(s) | Description |
+|-------|------|------------------|-------------|
+| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+
+## Configurations
+
+| Name| Expected type(s) | Default value | Description |
+|-----|------|----------|-------------|
+| **mutex** |[`bool`](../../getting-started/using-data-containers.md#bool) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
+## Scripting
+
+- Category: utility
+- Plugin: core
+- Scripting name: unitary_field
+- Full name: utility.unitary_field
+- Internal name: make_unit
+- License: None
+  
