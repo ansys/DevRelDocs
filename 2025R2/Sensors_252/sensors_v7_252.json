@@ -1,0 +1,2918 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Sensors",
+    "description":"The Sensors REST API allows you to manage your Sensors Library, create new sensor assets or update existing ones, and download sensor assets as files.",
+    "version": "v7"
+  },
+  "paths": {
+    "/avx-sensorlabs/v7/sensors/{id}": {
+      "delete": {
+        "tags": [
+          "Sensors"
+        ],
+        "summary": "Delete a sensor from the library.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identifier of the sensor in the library.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SensorRead.SensorId"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Sensors"
+        ],
+        "summary": "Read the sensor with the given id.",
+        "description": "The existing identifiers in the library can be seen in ```SensorLibrary -> GET: /sensors```.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identifier of the sensor in the library.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Pre.Sensors.v7.Data.SensorEditorResponse.SensorEditorResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Sensors"
+        ],
+        "summary": "Update the sensor given by its id with the information in the body",
+        "description": "<br>\r\n                    Some properties of the sensor are mutually exclusive, so they should be set to null and only set the desired one.\r\n                \r\n<br>To get the correct json structure, use the ```GET: /sensoreditor/{id}``` service.\r\n<br>Example: At the highest level of the json, there can be either a camera or a lidar or a radar, so if a camera is updated, lidar and radar should be set to null.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identifier of sensor in the library.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "Json containing all properties of the sensor.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.SensorData"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.SensorData"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.SensorData"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Pre.Sensors.v7.Data.SensorEditorResponse.SensorEditorResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/avx-sensorlabs/v7/sensors/externalfiles/{id}": {
+      "delete": {
+        "tags": [
+          "Sensors"
+        ],
+        "summary": "Update the sensor definition by deleting an external file.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identifier of sensor in the library.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "externalFileInfo": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "externalFileInfo": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "204": {
+            "description": "No Content"
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/avx-sensorlabs/v7/sensors": {
+      "delete": {
+        "tags": [
+          "Sensors"
+        ],
+        "summary": "Delete all the sensors from the library.",
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Sensors"
+        ],
+        "summary": "List all sensors available in the library.",
+        "description": "<br>Valid sensors will be displayed under validSensors, with their id, type and name.\r\n<br>\r\n                    If there are any corrupted sensors, they are deleted from the library and their names will appear in corruptedSensorNames,\r\n                    or if the name cannot be retrieved, the flag anyDeleted will be set to true.\r\n                ",
+        "parameters": [
+          {
+            "name": "offset",
+            "in": "query",
+            "description": "Number of initial sensors to skip.",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "description": "Number of sensors to retrieve.",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "sortByType",
+            "in": "query",
+            "description": "Should sensors be sorted by type.",
+            "schema": {
+              "type": "boolean",
+              "default": true
+            }
+          },
+          {
+            "name": "sortByName",
+            "in": "query",
+            "description": "Should sensors be sorted by name.",
+            "schema": {
+              "type": "boolean",
+              "default": true
+            }
+          },
+          {
+            "name": "Pattern",
+            "in": "query",
+            "description": "Filters sensors by sensor name, Accepted formats are:\r\n<br>\r\n    for exact match: ```name```.\r\n<br>\r\n    for match containing text: ```_name_```.\r\n",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "SensorType",
+            "in": "query",
+            "description": "Filters sensors by type: Camera, FisheyeCamera, ThermalCamera, RotatingLidar, FlashingLidar, Radar.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "ModelName",
+            "in": "query",
+            "description": "Filters sensors by model name.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "Manufacturer",
+            "in": "query",
+            "description": "Filters sensors by manufacturer.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "Version",
+            "in": "query",
+            "description": "Filters sensors by version.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "Compatibility",
+            "in": "query",
+            "description": "Filters sensors by compatibility : Avx, Speos, AvxAndSpeos, None (for Radar only).",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "Status",
+            "in": "query",
+            "description": "Filters sensors by protection or waveform validation status: Protected, Unprotected, Correct, Violating, Wrong.",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Pre.Sensors.v7.Data.ListSensorResult"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Sensors"
+        ],
+        "summary": "Create a new sensor with default values for each of its properties.",
+        "parameters": [
+          {
+            "name": "copyOf",
+            "in": "query",
+            "description": "Create a copy of the sensor with the given id. In this case the POST body should contain the desired name.",
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "<br>\r\n                    Information needed for sensor creation: type of sensor to create and its name.\r\n                \r\n<remarks>\r\n  <br>\r\n                        Accepted types: Camera, FishEyeCamera, ThermalCamera, RotatingLidar, FlashingLidar, Radar.\r\n                        Example: {\"type\":\"FlashingLidar\", \"name\": \"my_lidar\"}\r\n                    \r\n</remarks>",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SensorCreate.SensorInfo"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SensorCreate.SensorInfo"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SensorCreate.SensorInfo"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SensorCreate.SensorId"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/avx-sensorlabs/v7/sensors/{id}/packed": {
+      "get": {
+        "tags": [
+          "Sensors"
+        ],
+        "summary": "Download the sensor to a file with the specified name.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identifier of sensor in the library.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "packedSensorName",
+            "in": "query",
+            "description": "Desired name for the packed sensor file.",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/avx-sensorlabs/v7/sensors/{id}/externalfiles/{externalFileInfo}": {
+      "get": {
+        "tags": [
+          "Sensors"
+        ],
+        "summary": "Download the external file.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identifier of sensor in the library.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          },
+          {
+            "name": "externalFileInfo",
+            "in": "path",
+            "description": "<br>Additional information needed for the file download.\r\n<br>Example:\r\n<br>\r\n                    => for files defined in a radar mode: ``` { \"radarInfo\": {\"id\" : \"0\", \"RadarExternalsEnum\":\"PulseSequence\", \"radarItemType\": \"Mode\"}, \"lidarInfo\": null, \"cameraInfo\": null } ```\r\n<br>\r\n                    => for files defined in a radar antenna: ``` { \"radarInfo\": {\"id\" : \"0\", \"RadarExternalsEnum\":\"PatternTableFile\", \"radarItemType\": \"Rx\"}, \"lidarInfo\": null, \"cameraInfo\": null } ```\r\n<remarks>\r\n  <br>\r\n                        For the files defined in a radar, the possible RadarExternalsEnum values are: ``` TransmitterWeightingSequence, ChirpSequence, PulseSequence, PiecewiseLinearModelSequence, PatternTableFile```\r\n</remarks>\r\n<br>\r\n                    => for files defined in a lidar: ``` { \"radarInfo\": null, \"lidarInfo\": { \"LidarExternalsEnum\": \"FiringSequenceFilePath\" }, \"cameraInfo\": null } ```\r\n<remarks>\r\n  <br>\r\n                        For the files defined in a lidar, the possible LidarExternalsEnum values are: ```FiringSequenceFilePath, LidarLensDistortion, IntensityFilePath```\r\n</remarks>\r\n<br>\r\n                    => for files defined in a camera: ``` { \"radarInfo\": null, \"lidarInfo\": null, \"cameraInfo\": {\"CameraExternalsEnum\": \"CfaTransmissionR\"} } ```\r\n<remarks>\r\n  <br>\r\n                        For the files defined in a camera, the possible CameraExternalsEnum values are: ```CfaTransmissionR, CfaTransmissionG, CfaTransmissionB, QuantumEfficiency, LensTransmission, CameraLensDistortion, FragmentShader```\r\n</remarks>",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/avx-sensorlabs/v7/packedsensors": {
+      "get": {
+        "tags": [
+          "Sensors"
+        ],
+        "summary": "Download all the sensors in a zip file.",
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "204": {
+            "description": "No Content"
+          }
+        }
+      }
+    },
+    "/avx-sensorlabs/v7/sensors/packed": {
+      "post": {
+        "tags": [
+          "Sensors"
+        ],
+        "summary": "Upload multiple packed sensors and add them to the library",
+        "description": "Conflicts might appear if a sensor with the same name already exists in the library.",
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "files": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "format": "binary"
+                    }
+                  },
+                  "sensorUpdatesJson": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "files": {
+                  "style": "form"
+                },
+                "sensorUpdatesJson": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/avx-sensorlabs/v7/sensors/{id}/externalfiles": {
+      "put": {
+        "tags": [
+          "Sensors"
+        ],
+        "summary": "Update the sensor definition by uploading an external file.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identifier of sensor in the library.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "externalFileInfo": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "file": {
+                  "style": "form"
+                },
+                "externalFileInfo": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SensorEdit.Identifier"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/avx-sensorlabs/v7/{id}/protect": {
+      "put": {
+        "tags": [
+          "Sensors"
+        ],
+        "summary": "Protect a section of a sensor with a password.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identifier of sensor in the library.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "password",
+                  "section"
+                ],
+                "type": "object",
+                "properties": {
+                  "password": {
+                    "type": "string"
+                  },
+                  "section": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "password": {
+                  "style": "form"
+                },
+                "section": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/avx-sensorlabs/v7/{id}/unprotect": {
+      "put": {
+        "tags": [
+          "Sensors"
+        ],
+        "summary": "Unprotect a section for a given sensor using its password.",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Unique identifier of sensor in the library.",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "password",
+                  "section"
+                ],
+                "type": "object",
+                "properties": {
+                  "password": {
+                    "type": "string"
+                  },
+                  "section": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "password": {
+                  "style": "form"
+                },
+                "section": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Not Found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response.ProblemDetails"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Pre.Sensors.v7.Data.CopyParameters": {
+        "type": "object",
+        "properties": {
+          "radarItemType": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.RadarItemType"
+          },
+          "sourceId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "destinationId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.ListSensorResult": {
+        "type": "object",
+        "properties": {
+          "sensorsInformation": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.SensorsInformation"
+          },
+          "relaxedWaveforms": {
+            "type": "object",
+            "additionalProperties": {
+              "$ref": "#/components/schemas/SensorRead.WaveformStatus"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.RadarItemType": {
+        "enum": [
+          "Tx",
+          "Rx",
+          "Mode"
+        ],
+        "type": "string"
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Camera": {
+        "type": "object",
+        "properties": {
+          "thermalCameraModel": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Components.ThermalCamera"
+          },
+          "physicsBasedCameraModel": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Components.PhysicsBasedCamera"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Components.PhysicsBasedCamera": {
+        "type": "object",
+        "properties": {
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "lensPhysicsBased": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Lens.LensPhysicsBased"
+          },
+          "lensCommon": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Lens.LensCommon"
+          },
+          "imagerPhysicsBased": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Imager.ImagerPhysicsBased"
+          },
+          "protectedImagerPhysicsBased": {
+            "type": "string",
+            "nullable": true
+          },
+          "imagerCommon": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Imager.ImagerCommon"
+          },
+          "electronics": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Electronics.ElectronicsPhysicsBased"
+          },
+          "sensorOutput": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.SensorOutput.SensorOutput"
+          },
+          "customPostProcessing": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.CustomPostProcessing.CustomPostProcessing"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Represents physics based camera."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Components.ThermalCamera": {
+        "type": "object",
+        "additionalProperties": false,
+        "description": "Represents thermal camera."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.CustomPostProcessing.CustomPostProcessing": {
+        "type": "object",
+        "properties": {
+          "fragmentShader": {
+            "type": "string",
+            "nullable": true
+          },
+          "outputEncodingFormat": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.CustomPostProcessing.OutputEncodingFormat"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.CustomPostProcessing.OutputEncodingFormat": {
+        "enum": [
+          "Gray8",
+          "RGB24",
+          "RGBA32",
+          "Float32",
+          "Float64",
+          "Float128"
+        ],
+        "type": "string",
+        "description": "Define the level of output for the camera simulation."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Electronics.ElectronicsPhysicsBased": {
+        "required": [
+          "demosaicingConversion"
+        ],
+        "type": "object",
+        "properties": {
+          "gain": {
+            "type": "number",
+            "description": "Gain to amplify the whole signal (decibel - dB).",
+            "format": "double"
+          },
+          "frameRate": {
+            "type": "integer",
+            "description": "Frame rate (FPS).",
+            "format": "int32"
+          },
+          "diffractionSpike": {
+            "type": "boolean",
+            "description": "Activation of diffraction spike."
+          },
+          "demosaicingConversion": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Electronics.PhysicsBased.Demosaicing"
+          },
+          "injectionConversion": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Electronics.PhysicsBased.Injection"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Electronics.PhysicsBased.Demosaicing": {
+        "type": "object",
+        "properties": {
+          "bitDepthReduction": {
+            "type": "integer",
+            "description": "Bit depth reduction.",
+            "format": "int32"
+          },
+          "gammaCorrection": {
+            "type": "number",
+            "description": "Gamma correction for output image.",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Demosaicing."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Electronics.PhysicsBased.Injection": {
+        "type": "object",
+        "properties": {
+          "timeEncoding": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Electronics.PhysicsBased.InjectionTimeEncoding"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Electronics.PhysicsBased.InjectionTimeEncoding": {
+        "type": "object",
+        "properties": {
+          "row": {
+            "type": "integer",
+            "description": "Row index of the pixel.",
+            "format": "int32"
+          },
+          "column": {
+            "type": "integer",
+            "description": "Column index of the pixel.",
+            "format": "int32"
+          },
+          "injectionTime": {
+            "type": "integer",
+            "description": "Injection time.",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Time encoding."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Imager.Common.Resolution": {
+        "type": "object",
+        "properties": {
+          "width": {
+            "type": "integer",
+            "description": "Horizontal.",
+            "format": "int32"
+          },
+          "height": {
+            "type": "integer",
+            "description": "Vertical.",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Native resolution (pixels)."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Imager.Common.Size": {
+        "type": "object",
+        "properties": {
+          "width": {
+            "type": "number",
+            "description": "Horizontal imager (mm).",
+            "format": "double"
+          },
+          "height": {
+            "type": "number",
+            "description": "Vertical imager (mm).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Imager dimensions."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Imager.ImagerCommon": {
+        "type": "object",
+        "properties": {
+          "size": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Imager.Common.Size"
+          },
+          "resolution": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Imager.Common.Resolution"
+          },
+          "protectedSize": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Imager.ImagerPhysicsBased": {
+        "type": "object",
+        "properties": {
+          "quantumEfficiencyDistribution": {
+            "type": "string",
+            "description": "Quantum efficiency (.spectrum).",
+            "nullable": true
+          },
+          "bits": {
+            "type": "integer",
+            "description": "Native bit depth.",
+            "format": "int32"
+          },
+          "exposureTime": {
+            "type": "number",
+            "description": "Exposure time (ms).",
+            "format": "double"
+          },
+          "fullWellCapacity": {
+            "type": "number",
+            "description": "Full well capacity.",
+            "format": "double"
+          },
+          "capacitance": {
+            "type": "number",
+            "description": "Capacitance (µF).",
+            "format": "double"
+          },
+          "antiBloomingEfficiency": {
+            "type": "number",
+            "description": "Anti-blooming efficiency (%).",
+            "format": "double"
+          },
+          "cfaTransmittance": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Imager.PhysicsBased.CfaTransmittance"
+          },
+          "readoutNoise": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Imager.PhysicsBased.ReadoutNoise"
+          },
+          "overallPixelFillFactor": {
+            "type": "number",
+            "description": "Overall pixel fill factor (%).",
+            "format": "double"
+          },
+          "thermalNoiseSimple": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Imager.PhysicsBased.ThermalNoiseSimpleModel"
+          },
+          "thermalNoiseAdvanced": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Imager.PhysicsBased.ThermalNoiseAdvancedModel"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Imager physics based."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Imager.PhysicsBased.CfaTransmittance": {
+        "type": "object",
+        "properties": {
+          "redPixelTransmission": {
+            "type": "string",
+            "nullable": true
+          },
+          "greenPixelTransmission": {
+            "type": "string",
+            "nullable": true
+          },
+          "bluePixelTransmission": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Color filter array - CFA (.spectrum)."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Imager.PhysicsBased.ReadoutNoise": {
+        "type": "object",
+        "properties": {
+          "readoutNoiseAverage": {
+            "type": "integer",
+            "description": "Readout noise - Average (e-).",
+            "format": "int32"
+          },
+          "readoutNoiseStandard": {
+            "type": "integer",
+            "description": "Readout noise - Standard (e-).",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Average electronic noise within the imager."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Imager.PhysicsBased.ThermalNoiseAdvancedModel": {
+        "type": "object",
+        "properties": {
+          "darkCurrentReferenceValue": {
+            "type": "number",
+            "description": "Dark current reference value (e-/s).",
+            "format": "double"
+          },
+          "darkCurrentReferenceTemperature": {
+            "type": "number",
+            "description": "Dark current reference temperature (Kelvin - °K).",
+            "format": "double"
+          },
+          "imagerTemperature": {
+            "type": "number",
+            "description": "Temperature of imager (Kelvin - °K).",
+            "format": "double"
+          },
+          "darkCurrentCoefficient": {
+            "type": "number",
+            "description": "Dark current temperature coefficient (Kelvin - °K).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Thermal noise advance model."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Imager.PhysicsBased.ThermalNoiseSimpleModel": {
+        "type": "object",
+        "properties": {
+          "darkCurrentAverageValue": {
+            "type": "number",
+            "description": "Average dark current (e-/s).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Thermal noise simple model."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Lens.Common.BrownDistortion": {
+        "type": "object",
+        "properties": {
+          "k1": {
+            "type": "number",
+            "description": "Radial distortion K1 value.",
+            "format": "double"
+          },
+          "k2": {
+            "type": "number",
+            "description": "Radial distortion K2 value.",
+            "format": "double"
+          },
+          "k3": {
+            "type": "number",
+            "description": "Radial distortion K3 value.",
+            "format": "double"
+          },
+          "p1": {
+            "type": "number",
+            "description": "Tangential distortion P1 value.",
+            "format": "double"
+          },
+          "p2": {
+            "type": "number",
+            "description": "Tangential distortion P2 value.",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Lens distortion coefficients."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Lens.Common.FisheyePolynomialDistortion": {
+        "type": "object",
+        "properties": {
+          "a1": {
+            "type": "number",
+            "description": "Fisheye distortion coefficient A1 value.",
+            "format": "double"
+          },
+          "a2": {
+            "type": "number",
+            "description": "Fisheye distortion coefficient A2 value.",
+            "format": "double"
+          },
+          "a3": {
+            "type": "number",
+            "description": "Fisheye distortion coefficient A3 value.",
+            "format": "double"
+          },
+          "a4": {
+            "type": "number",
+            "description": "Fisheye distortion coefficient A4 value.",
+            "format": "double"
+          },
+          "a5": {
+            "type": "number",
+            "description": "Fisheye distortion coefficient A5 value.",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Fisheye distortion coefficient."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Lens.Common.Windshield": {
+        "type": "object",
+        "properties": {
+          "upDownCurvature": {
+            "type": "number",
+            "description": "Vertical curvature of the windshield (rad/m).",
+            "format": "double"
+          },
+          "rightLeftCurvature": {
+            "type": "number",
+            "description": "Horizontal curvature of the windshield (rad/m).",
+            "format": "double"
+          },
+          "distanceFromCamera": {
+            "type": "number",
+            "description": "Distance from camera (mm).",
+            "format": "double"
+          },
+          "thickness": {
+            "type": "number",
+            "description": "Windshield thickness (mm).",
+            "format": "double"
+          },
+          "inclination": {
+            "type": "number",
+            "description": "Windshield Inclination (deg).",
+            "format": "double"
+          },
+          "spectralTransmissionDistribution": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/System.Tuple`2[System.Decimal,System.Double]"
+            },
+            "description": "Spectral transmission (%).",
+            "nullable": true
+          },
+          "refractiveIndexDistribution": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/System.Tuple`2[System.Decimal,System.Double]"
+            },
+            "description": "Refractive index.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Windshield model."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Lens.LensCommon": {
+        "type": "object",
+        "properties": {
+          "fisheyeDistortion": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Lens.Common.FisheyePolynomialDistortion"
+          },
+          "brownDistortion": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Lens.Common.BrownDistortion"
+          },
+          "lensTransmission": {
+            "type": "string",
+            "description": "Total transmission of a light ray file(.spectrum).",
+            "nullable": true
+          },
+          "lensDistortionPath": {
+            "type": "string",
+            "description": "Lens distortion file (.OPTDistortion).",
+            "nullable": true
+          },
+          "windshield": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Lens.Common.Windshield"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Lens.LensPhysicsBased": {
+        "type": "object",
+        "properties": {
+          "coatingTransmissionDistribution": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/System.Tuple`2[System.Decimal,System.Double]"
+            },
+            "description": "Coating transmission (%).",
+            "nullable": true
+          },
+          "simpleChromaticAberration": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Lens.PhysicsBased.SimpleChromaticAberration"
+          },
+          "advancedChromaticAberration": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Lens.PhysicsBased.AdvancedChromaticAberration"
+          },
+          "circularAperture": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Lens.PhysicsBased.CircularAperture"
+          },
+          "regularConvexPolygonAperture": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Lens.PhysicsBased.RegularConvexPolygonAperture"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Lens.PhysicsBased.AdvancedChromaticAberration": {
+        "type": "object",
+        "properties": {
+          "spectralFocalLengthDistribution": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Lens.PhysicsBased.SpectralFocalLengthDistribution"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Advanced chromatic aberration configuration"
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Lens.PhysicsBased.ChromaticDispersion": {
+        "enum": [
+          "None",
+          "Low",
+          "Medium",
+          "High",
+          "Custom"
+        ],
+        "type": "string",
+        "description": "Chromatic dispersion"
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Lens.PhysicsBased.CircularAperture": {
+        "type": "object",
+        "properties": {
+          "apertureArea": {
+            "type": "number",
+            "description": "Area of the diaphragm (mm²).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Circular aperture."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Lens.PhysicsBased.RegularConvexPolygonAperture": {
+        "type": "object",
+        "properties": {
+          "apertureArea": {
+            "type": "number",
+            "description": "Area of the diaphragm (mm²).",
+            "format": "double"
+          },
+          "offsetAngle": {
+            "type": "number",
+            "description": "Angle between the diaphragm and the optical axis of the camera (rad).",
+            "format": "double"
+          },
+          "edgeNumber": {
+            "type": "integer",
+            "description": "F-number or Effective Aperture (F = Focal length / diameter of the aperture area).",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Regular Convex Polygon aperture."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Lens.PhysicsBased.SimpleChromaticAberration": {
+        "type": "object",
+        "properties": {
+          "focalLength": {
+            "type": "number",
+            "description": "Focal length of the lens system (mm).",
+            "format": "double"
+          },
+          "wavelengthOfFocalLength": {
+            "type": "number",
+            "description": "Wavelength of focal length of the lens system (mm).",
+            "format": "double"
+          },
+          "chromaticDispersion": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Lens.PhysicsBased.ChromaticDispersion"
+          },
+          "focalShift": {
+            "type": "number",
+            "description": "Maximum amplitude for the focal dispersion. (micro meter)",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Simple chromatic aberration configuration"
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.Lens.PhysicsBased.SpectralFocalLengthDistribution": {
+        "type": "object",
+        "properties": {
+          "wavelength": {
+            "type": "number",
+            "description": "Wavelength (micro meter).",
+            "format": "double"
+          },
+          "focalLength": {
+            "type": "number",
+            "description": "Focal length of the lens system (mm).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Camera.SensorOutput.SensorOutput": {
+        "enum": [
+          "CameraOutput",
+          "ImagerOutput",
+          "LensOutput"
+        ],
+        "type": "string",
+        "description": "Define the level of output for the camera simulation."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Compatibility": {
+        "enum": [
+          "None",
+          "Speos",
+          "Avx",
+          "AvxAndSpeos"
+        ],
+        "type": "string",
+        "description": "Compatibility range of the sensor."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Common.AnalogToDigitalConverter": {
+        "type": "object",
+        "properties": {
+          "samplingFrequency": {
+            "type": "number",
+            "description": "Sampling frequency (GHz).",
+            "format": "double"
+          },
+          "bitResolution": {
+            "type": "integer",
+            "description": "Number of bits used for the waveform.",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Analog to digital converter."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Common.GaussianBeamShape": {
+        "type": "object",
+        "properties": {
+          "divergence": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Emitter.BeamDivergence"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Common.Photodetector": {
+        "type": "object",
+        "properties": {
+          "responsivity": {
+            "type": "number",
+            "description": "Responsivity (A/W).",
+            "format": "double"
+          },
+          "maxCurrent": {
+            "type": "number",
+            "description": "Max current (mA).",
+            "format": "double"
+          },
+          "noiseStandardDeviation": {
+            "type": "number",
+            "description": "Noise standard deviation (nA).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Photodetector."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Common.Processor": {
+        "type": "object",
+        "properties": {
+          "analogToDigitalConverter": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Common.AnalogToDigitalConverter"
+          },
+          "maxReturns": {
+            "type": "integer",
+            "description": "Max returns.",
+            "format": "int32"
+          },
+          "maxRange": {
+            "type": "number",
+            "description": "Maximum range of the LiDAR (m).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Processor."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Common.SensorOutput": {
+        "enum": [
+          "LidarOutput",
+          "ADCOutput",
+          "LensOutput"
+        ],
+        "type": "string",
+        "description": "Define the level of output for the LiDAR simulation."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Emitter.BeamDivergence": {
+        "type": "object",
+        "properties": {
+          "horizontal": {
+            "type": "number",
+            "description": "Horizontal divergence (deg).",
+            "format": "double"
+          },
+          "vertical": {
+            "type": "number",
+            "description": "Vertical divergence (deg).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Beam divergence."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Emitter.BeamShapeIdentity": {
+        "type": "object",
+        "properties": {
+          "intensityFilePath": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Intensity file path (.ies, .xmp, .intensity)."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Emitter.FlashLidarEmitter": {
+        "type": "object",
+        "properties": {
+          "frequency": {
+            "type": "number",
+            "description": "Firing frequency (Hz).",
+            "format": "double"
+          },
+          "laserPulse": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Pulse"
+          },
+          "wavelength": {
+            "type": "number",
+            "description": "Wavelength of laser beam (nm).",
+            "format": "double"
+          },
+          "extinctionCoefficient": {
+            "type": "number",
+            "description": "Atmospheric extinction (m⁻¹).",
+            "format": "double"
+          },
+          "gaussianBeamShape": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Common.GaussianBeamShape"
+          },
+          "beamShapeIdentity": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Emitter.BeamShapeIdentity"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.FlashLidar": {
+        "type": "object",
+        "properties": {
+          "emitter": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Emitter.FlashLidarEmitter"
+          },
+          "receiver": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Receiver.FlashLidarReceiver"
+          },
+          "sensorOutput": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Common.SensorOutput"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Pulse": {
+        "type": "object",
+        "properties": {
+          "shape": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.PulseShape"
+          },
+          "peakPower": {
+            "type": "number",
+            "description": "Maximum power emitted by laser pulse (W).",
+            "format": "double"
+          },
+          "duration": {
+            "type": "number",
+            "description": "Pulse duration (ns).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Laser pulse."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.PulseShape": {
+        "enum": [
+          "Gaussian",
+          "Rectangle",
+          "Triangle"
+        ],
+        "type": "string",
+        "description": "Pulse shapes."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Receiver.BrownRadialDistortion": {
+        "type": "object",
+        "properties": {
+          "k1": {
+            "type": "number",
+            "description": "K1 value.",
+            "format": "double"
+          },
+          "k2": {
+            "type": "number",
+            "description": "K2 value.",
+            "format": "double"
+          },
+          "k3": {
+            "type": "number",
+            "description": "K3 value.",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Radial distortion."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Receiver.BrownTangentialDistortion": {
+        "type": "object",
+        "properties": {
+          "p1": {
+            "type": "number",
+            "description": "P1 value.",
+            "format": "double"
+          },
+          "p2": {
+            "type": "number",
+            "description": "P2 value.",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Tangential distortion"
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Receiver.FieldOfView": {
+        "type": "object",
+        "properties": {
+          "horizontal": {
+            "type": "number",
+            "description": "Horizontal FOV of the receiver (deg).",
+            "format": "double"
+          },
+          "vertical": {
+            "type": "number",
+            "description": "Vertical FOV of the receiver (deg).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Field of view (FOV)."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Receiver.FlashLidarReceiver": {
+        "type": "object",
+        "properties": {
+          "lensSystem": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Receiver.LensSystem"
+          },
+          "lidarResolutionInPixels": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Receiver.LidarResolution"
+          },
+          "photodetector": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Common.Photodetector"
+          },
+          "processor": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Common.Processor"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Receiver.LensSystem": {
+        "type": "object",
+        "properties": {
+          "apertureArea": {
+            "type": "number",
+            "description": "Aperture are of the receiver (mm²).",
+            "format": "double"
+          },
+          "fieldOfView": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Receiver.FieldOfView"
+          },
+          "lensDistortion": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Receiver.LidarBrownDistortion"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Lens system."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Receiver.LidarBrownDistortion": {
+        "type": "object",
+        "properties": {
+          "radialDistortion": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Receiver.BrownRadialDistortion"
+          },
+          "tangentialDistortion": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Receiver.BrownTangentialDistortion"
+          },
+          "lensDistortionPath": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.Receiver.LidarResolution": {
+        "type": "object",
+        "properties": {
+          "horizontal": {
+            "type": "integer",
+            "description": "Horizontal resolution (pixels).",
+            "format": "int32"
+          },
+          "vertical": {
+            "type": "integer",
+            "description": "Vertical resolution (pixels).",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Lidar resolution."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Lidar": {
+        "type": "object",
+        "properties": {
+          "rotatingLidar": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Rotating.RotatingLidar"
+          },
+          "flashLidar": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Flashing.FlashLidar"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Rotating.Emitter.RotatingLidarEmitter": {
+        "type": "object",
+        "properties": {
+          "frequency": {
+            "type": "number",
+            "description": "Firing frequency (Hz).",
+            "format": "double"
+          },
+          "wavelength": {
+            "type": "number",
+            "description": "Wavelength of the laser beam (nm).",
+            "format": "double"
+          },
+          "extinctionCoefficient": {
+            "type": "number",
+            "description": "Atmospheric extinction (m⁻¹).",
+            "format": "double"
+          },
+          "beamShape": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Common.GaussianBeamShape"
+          },
+          "firingSequenceFilePath": {
+            "type": "string",
+            "description": "Firing sequence file path (.txt).",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Rotating lidar emitter."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Rotating.Receiver.RotatingLidarReceiver": {
+        "type": "object",
+        "properties": {
+          "apertureArea": {
+            "type": "number",
+            "description": "Aperture area (mm²).",
+            "format": "double"
+          },
+          "photodetector": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Common.Photodetector"
+          },
+          "processor": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Common.Processor"
+          },
+          "lensDistortionPath": {
+            "type": "string",
+            "description": "Lens distortion path (.OPTDistortion).",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Rotating lidar receiver."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Lidar.Rotating.RotatingLidar": {
+        "type": "object",
+        "properties": {
+          "rotationSpeed": {
+            "type": "number",
+            "description": "Rotation per second (Hz).",
+            "format": "double"
+          },
+          "emitter": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Rotating.Emitter.RotatingLidarEmitter"
+          },
+          "receiver": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Rotating.Receiver.RotatingLidarReceiver"
+          },
+          "sensorOutput": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Common.SensorOutput"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Rotating Lidar."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Metadata": {
+        "type": "object",
+        "properties": {
+          "modelName": {
+            "type": "string",
+            "nullable": true
+          },
+          "manufacturer": {
+            "type": "string",
+            "nullable": true
+          },
+          "version": {
+            "type": "string",
+            "nullable": true
+          },
+          "comment": {
+            "type": "string",
+            "nullable": true
+          },
+          "sensorType": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.SensorTypeEnum"
+          },
+          "compatibility": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Compatibility"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Antennas.Antenna": {
+        "type": "object",
+        "properties": {
+          "beam": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Antennas.Beam"
+          },
+          "patternIdentity": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Antennas.PatternIdentity"
+          },
+          "realizedPeakGain": {
+            "type": "number",
+            "description": "Activate Realized peak gain.",
+            "format": "double",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Antennas.Beam": {
+        "type": "object",
+        "properties": {
+          "polarization": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Antennas.Polarization"
+          },
+          "halfPowerHorizontalWidth": {
+            "type": "number",
+            "description": "Horizontal half power beam width (deg).",
+            "format": "double"
+          },
+          "halfPowerVerticalWidth": {
+            "type": "number",
+            "description": "Vertical half power beam width (deg).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Parametric Beam."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Antennas.DeviceAntenna": {
+        "type": "object",
+        "properties": {
+          "antenna": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Antennas.Antenna"
+          },
+          "position": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Antennas.Position"
+          },
+          "orientation": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Antennas.Orientation"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Antennas.Orientation": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "number",
+            "description": "X value (deg).",
+            "format": "double"
+          },
+          "y": {
+            "type": "number",
+            "description": "Y value (deg).",
+            "format": "double"
+          },
+          "z": {
+            "type": "number",
+            "description": "Z value (deg).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Orientation of antenna."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Antennas.PatternIdentity": {
+        "type": "object",
+        "properties": {
+          "antennaPatternFilePath": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false,
+        "description": "Pattern table file path."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Antennas.Polarization": {
+        "enum": [
+          "Vertical",
+          "Horizontal",
+          "LeftHandedCircular",
+          "RightHandedCircular"
+        ],
+        "type": "string",
+        "description": "Polarization."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Antennas.Position": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "number",
+            "description": "X value (m).",
+            "format": "double"
+          },
+          "y": {
+            "type": "number",
+            "description": "Y value (m).",
+            "format": "double"
+          },
+          "z": {
+            "type": "number",
+            "description": "Z value (m).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Position of antenna."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Modes.GainType": {
+        "enum": [
+          "Auto",
+          "Manual"
+        ],
+        "type": "string",
+        "description": "Gain type(Manual, Auto)."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Modes.Mode": {
+        "type": "object",
+        "properties": {
+          "txAntennas": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "description": "TxAntennas.",
+            "nullable": true
+          },
+          "rxAntennas": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "description": "RxAntennas.",
+            "nullable": true
+          },
+          "startDelay": {
+            "type": "number",
+            "description": "Start delay (ms).",
+            "format": "double"
+          },
+          "waveform": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.Waveform"
+          },
+          "transmissionPower": {
+            "type": "number",
+            "description": "Input power of the transmitting antenna (W).",
+            "format": "double"
+          },
+          "gainType": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Modes.GainType"
+          },
+          "gain": {
+            "type": "number",
+            "description": "Gain value applied on the model level.",
+            "format": "double",
+            "nullable": true
+          },
+          "rangeFilters": {
+            "maxItems": 2,
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.RangeFilters.RangeFilter"
+            },
+            "description": "Range Filters.",
+            "nullable": true
+          },
+          "noiseStandardDeviation": {
+            "type": "number",
+            "description": "Thermal noise standard deviation (dBW).",
+            "format": "double",
+            "nullable": true
+          },
+          "phaseNoise": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.PhaseNoises.PhaseNoise"
+          },
+          "rangeDopplerProcessor": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.RadarProcessor"
+          },
+          "multiplexingType": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Modes.MultiplexingType"
+          },
+          "transmitterWeightingSequenceFile": {
+            "type": "string",
+            "description": "Transmitter Weighting Sequence File.",
+            "nullable": true
+          },
+          "propagation": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Propagations.Propagation"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Mode"
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Modes.MultiplexingType": {
+        "enum": [
+          "Interleaved",
+          "Simultaneous"
+        ],
+        "type": "string",
+        "description": "Multiplexing type(Interleaved, Simultaneous)."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Modes.ProtectedMode": {
+        "type": "object",
+        "properties": {
+          "rangeDopplerProcessor": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.RadarProcessor"
+          },
+          "protectModel": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.PhaseNoises.PedestalParametricModel": {
+        "type": "object",
+        "properties": {
+          "phaseNoisePower": {
+            "maximum": 0,
+            "type": "number",
+            "format": "double"
+          },
+          "pedestalWidth": {
+            "type": "number",
+            "format": "double"
+          },
+          "rollOffOrder": {
+            "minimum": 1,
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.PhaseNoises.PhaseNoise": {
+        "type": "object",
+        "properties": {
+          "preset": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.PhaseNoises.Preset"
+          },
+          "pedestalParametricModel": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.PhaseNoises.PedestalParametricModel"
+          },
+          "piecewiseLinearModelFile": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.PhaseNoises.Preset": {
+        "enum": [
+          "Low",
+          "Medium",
+          "High"
+        ],
+        "type": "string"
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Propagations.Propagation": {
+        "type": "object",
+        "properties": {
+          "coherentProcessingInterval": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Radar": {
+        "type": "object",
+        "properties": {
+          "txAntennas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/System.Tuple`2[System.Int32,Pre.Sensors.v7.Data.Sensor.Radar.Antennas.DeviceAntenna]"
+            },
+            "nullable": true
+          },
+          "rxAntennas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/System.Tuple`2[System.Int32,Pre.Sensors.v7.Data.Sensor.Radar.Antennas.DeviceAntenna]"
+            },
+            "nullable": true
+          },
+          "protectedTxAntennas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/System.Tuple`2[System.Int32,System.String]"
+            },
+            "nullable": true
+          },
+          "protectedRxAntennas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/System.Tuple`2[System.Int32,System.String]"
+            },
+            "nullable": true
+          },
+          "modes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/System.Tuple`2[System.Int32,Pre.Sensors.v7.Data.Sensor.Radar.Modes.Mode]"
+            },
+            "nullable": true
+          },
+          "protectedModes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/System.Tuple`2[System.Int32,Pre.Sensors.v7.Data.Sensor.Radar.Modes.ProtectedMode]"
+            },
+            "nullable": true
+          },
+          "copyParameters": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.CopyParameters"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.FlatWindow": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.HammingWindow": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.HannWindow": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.RadarProcessor": {
+        "type": "object",
+        "properties": {
+          "rangePixels": {
+            "type": "integer",
+            "description": "Range resolution.",
+            "format": "int32"
+          },
+          "velocityPixels": {
+            "type": "integer",
+            "description": "Velocity resolution.",
+            "format": "int32"
+          },
+          "rangeWindow": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.Window"
+          },
+          "velocityWindow": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.Window"
+          },
+          "centerVelocity": {
+            "type": "number",
+            "description": "Center value of the velocity range (m/s).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Range doppler map."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.SideLobeLevel": {
+        "type": "object",
+        "properties": {
+          "value": {
+            "type": "number",
+            "description": "lobe level value (dB).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Side lobe level."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.TaylorWindow": {
+        "type": "object",
+        "properties": {
+          "sideLobeLevel": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.SideLobeLevel"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.Window": {
+        "type": "object",
+        "properties": {
+          "flatWindow": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.FlatWindow"
+          },
+          "hammingWindow": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.HammingWindow"
+          },
+          "hannWindow": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.HannWindow"
+          },
+          "taylorWindow": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.RangeDopplerProcessors.TaylorWindow"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.RangeFilters.ByOrderRollOff": {
+        "type": "object",
+        "properties": {
+          "order": {
+            "maximum": 50,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.RangeFilters.ByPointRollOff": {
+        "type": "object",
+        "properties": {
+          "rangeStop": {
+            "type": "number",
+            "format": "double"
+          },
+          "stopLevel": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.RangeFilters.FilterPassType": {
+        "enum": [
+          "LowPass",
+          "HighPass"
+        ],
+        "type": "string"
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.RangeFilters.IdealRollOf": {
+        "type": "object",
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.RangeFilters.RangeFilter": {
+        "type": "object",
+        "properties": {
+          "filterPassType": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.RangeFilters.FilterPassType"
+          },
+          "rangeCutOff": {
+            "type": "number",
+            "format": "double"
+          },
+          "idealRollOff": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.RangeFilters.IdealRollOf"
+          },
+          "byOrderRollOff": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.RangeFilters.ByOrderRollOff"
+          },
+          "byPointRollOff": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.RangeFilters.ByPointRollOff"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.ArbitraryFrequencyModulatedContinuousWaveform": {
+        "type": "object",
+        "properties": {
+          "chirpFile": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.ArbitraryPulseDopplerWaveform": {
+        "type": "object",
+        "properties": {
+          "pulseFile": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.FrequencyModulatedContinuousWaveform": {
+        "type": "object",
+        "properties": {
+          "systemFrequencyModulatedContinuousWaveform": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.SystemFrequencyModulatedContinuousWaveform"
+          },
+          "performanceFrequencyModulatedContinuousWaveform": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.PerformanceFrequencyModulatedContinuousWaveform"
+          },
+          "arbitraryFrequencyModulatedContinuousWaveform": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.ArbitraryFrequencyModulatedContinuousWaveform"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.FrequencySlope": {
+        "enum": [
+          "Positive",
+          "Negative"
+        ],
+        "type": "string",
+        "description": "Frequency slope."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.Performance": {
+        "type": "object",
+        "properties": {
+          "rangeResolution": {
+            "type": "number",
+            "description": "Range resolution of the range doppler map image (m).",
+            "format": "double"
+          },
+          "velocityResolution": {
+            "type": "number",
+            "description": "Velocity resolution of the range doppler map image (m/s).",
+            "format": "double"
+          },
+          "rangeAmbiguity": {
+            "type": "number",
+            "description": "Range ambiguity (m).",
+            "format": "double"
+          },
+          "velocityAmbiguity": {
+            "type": "number",
+            "description": "Velocity ambiguity (m/s).",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Performance."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.PerformanceFrequencyModulatedContinuousWaveform": {
+        "type": "object",
+        "properties": {
+          "centerFrequency": {
+            "type": "number",
+            "description": "Center frequency in the waveform (GHz).",
+            "format": "double"
+          },
+          "samplingRate": {
+            "type": "number",
+            "description": "Sampling frequency of the analog to digital converter (MHz).",
+            "format": "double"
+          },
+          "frequencySlope": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.FrequencySlope"
+          },
+          "performance": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.Performance"
+          },
+          "rxComponents": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.RxComponents"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Performance frequency modulated continuous waveform."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.PerformancePulseDopplerWaveform": {
+        "type": "object",
+        "properties": {
+          "centerFrequency": {
+            "type": "number",
+            "description": "Center frequency in the waveform spectrum (GHz).",
+            "format": "double"
+          },
+          "performance": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.Performance"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Performance pulse doppler waveform."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.PulseDopplerWaveform": {
+        "type": "object",
+        "properties": {
+          "systemPulseDopplerWaveform": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.SystemPulseDopplerWaveform"
+          },
+          "performancePulseDopplerWaveform": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.PerformancePulseDopplerWaveform"
+          },
+          "arbitraryPulseDopplerWaveform": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.ArbitraryPulseDopplerWaveform"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.RxComponents": {
+        "enum": [
+          "InPhase",
+          "InPhaseAndQuadrature"
+        ],
+        "type": "string",
+        "description": "RxComponents."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.SystemFrequencyModulatedContinuousWaveform": {
+        "type": "object",
+        "properties": {
+          "centerFrequency": {
+            "type": "number",
+            "description": "Center frequency in the waveform spectrum (GHz).",
+            "format": "double"
+          },
+          "bandwidth": {
+            "type": "number",
+            "description": "Radar bandwidth (MHz).",
+            "format": "double"
+          },
+          "samplingRate": {
+            "type": "number",
+            "description": "Sampling frequency of the analog to digital converter (MHz).",
+            "format": "double"
+          },
+          "frequencySlope": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.FrequencySlope"
+          },
+          "numberOfSamplesPerChirp": {
+            "type": "integer",
+            "description": "Number of samples per Chirp.",
+            "format": "int32"
+          },
+          "chirpInterval": {
+            "type": "number",
+            "description": "Chirp interval (µs).",
+            "format": "double"
+          },
+          "numberOfChirpsInCoherentProcessingInterval": {
+            "type": "integer",
+            "description": "Number of Chirps in Coherent Processing Interval.",
+            "format": "int32"
+          },
+          "rxComponents": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.RxComponents"
+          }
+        },
+        "additionalProperties": false,
+        "description": "System frequency modulated continuous waveform."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.SystemPulseDopplerWaveform": {
+        "type": "object",
+        "properties": {
+          "centerFrequency": {
+            "type": "number",
+            "description": "Center frequency in the waveform spectrum (GHz).",
+            "format": "double"
+          },
+          "bandwidth": {
+            "type": "number",
+            "description": "Radar bandwidth (MHz).",
+            "format": "double"
+          },
+          "numberOfFrequencySamples": {
+            "type": "integer",
+            "description": "Number of frequency samples.",
+            "format": "int32"
+          },
+          "pulseInterval": {
+            "type": "number",
+            "description": "Pulse interval (µs).",
+            "format": "double"
+          },
+          "numberOfPulsesInCoherentProcessingInterval": {
+            "type": "integer",
+            "description": "Number of Chirps in Coherent Processing Interval.",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false,
+        "description": "System pulse doppler waveform."
+      },
+      "Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.Waveform": {
+        "type": "object",
+        "properties": {
+          "pulseDopplerWaveform": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.PulseDopplerWaveform"
+          },
+          "frequencyModulatedContinuousWaveform": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Waveforms.FrequencyModulatedContinuousWaveform"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.Sensor.SensorData": {
+        "type": "object",
+        "properties": {
+          "metadata": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Metadata"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "cameraModel": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Camera.Camera"
+          },
+          "lidarModel": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Lidar.Lidar"
+          },
+          "radarModel": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Radar"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.SensorEditorResponse.AdditionalInfo": {
+        "type": "object",
+        "properties": {
+          "waveformWarnings": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Pre.Sensors.v7.Data.SensorEditorResponse.RadarWaveformWarning"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.SensorEditorResponse.RadarWaveformWarning": {
+        "type": "object",
+        "properties": {
+          "modeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "waveformStatus": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.SensorEditorResponse.WaveformStatus"
+          },
+          "message": {
+            "type": "string",
+            "nullable": true
+          },
+          "warningCode": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.SensorEditorResponse.SensorEditorResponse": {
+        "type": "object",
+        "properties": {
+          "sensorData": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.SensorData"
+          },
+          "additionalInfo": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.SensorEditorResponse.AdditionalInfo"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.SensorEditorResponse.WaveformStatus": {
+        "enum": [
+          "Correct",
+          "Violating",
+          "Wrong"
+        ],
+        "type": "string",
+        "description": "Radar waveform validation status."
+      },
+      "Pre.Sensors.v7.Data.SensorInfo": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "type": {
+            "$ref": "#/components/schemas/SensorRead.SensorType"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "modelName": {
+            "type": "string",
+            "nullable": true
+          },
+          "manufacturer": {
+            "type": "string",
+            "nullable": true
+          },
+          "version": {
+            "type": "string",
+            "nullable": true
+          },
+          "comment": {
+            "type": "string",
+            "nullable": true
+          },
+          "compatibility": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Compatibility"
+          },
+          "isProtected": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Pre.Sensors.v7.Data.SensorTypeEnum": {
+        "enum": [
+          "Camera",
+          "FishEyeCamera",
+          "ThermalCamera",
+          "RotatingLidar",
+          "FlashingLidar",
+          "Radar"
+        ],
+        "type": "string"
+      },
+      "Pre.Sensors.v7.Data.SensorsInformation": {
+        "type": "object",
+        "properties": {
+          "totalSensorCount": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "validSensors": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Pre.Sensors.v7.Data.SensorInfo"
+            },
+            "nullable": true
+          },
+          "anyDeleted": {
+            "type": "boolean"
+          },
+          "corruptedSensorNames": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Response.ProblemDetails": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "detail": {
+            "type": "string",
+            "nullable": true
+          },
+          "instance": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": { }
+      },
+      "SensorCreate.SensorId": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SensorCreate.SensorInfo": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SensorEdit.Identifier": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SensorRead.SensorId": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          }
+        },
+        "additionalProperties": false
+      },
+      "SensorRead.SensorType": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SensorRead.WaveformStatus": {
+        "enum": [
+          "Correct",
+          "Violating",
+          "Wrong"
+        ],
+        "type": "string",
+        "description": "Radar waveform validation status."
+      },
+      "System.Tuple`2[System.Decimal,System.Double]": {
+        "type": "object",
+        "properties": {
+          "item1": {
+            "type": "number",
+            "format": "double"
+          },
+          "item2": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "System.Tuple`2[System.Int32,Pre.Sensors.v7.Data.Sensor.Radar.Antennas.DeviceAntenna]": {
+        "type": "object",
+        "properties": {
+          "item1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "item2": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Antennas.DeviceAntenna"
+          }
+        },
+        "additionalProperties": false
+      },
+      "System.Tuple`2[System.Int32,Pre.Sensors.v7.Data.Sensor.Radar.Modes.Mode]": {
+        "type": "object",
+        "properties": {
+          "item1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "item2": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Modes.Mode"
+          }
+        },
+        "additionalProperties": false
+      },
+      "System.Tuple`2[System.Int32,Pre.Sensors.v7.Data.Sensor.Radar.Modes.ProtectedMode]": {
+        "type": "object",
+        "properties": {
+          "item1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "item2": {
+            "$ref": "#/components/schemas/Pre.Sensors.v7.Data.Sensor.Radar.Modes.ProtectedMode"
+          }
+        },
+        "additionalProperties": false
+      },
+      "System.Tuple`2[System.Int32,System.String]": {
+        "type": "object",
+        "properties": {
+          "item1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "item2": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
