@@ -18,14 +18,14 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  collections |[`vector<shared_ptr<any_collection>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<any-collection>>), [`any_collection`](../../getting-started/using-data-containers.md#any-collection) | a vector of collections to merge or collections from pin 0 to ... |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  collections |[`vector<shared_ptr<any_collection>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<any-collection>>), [`any_collection`](../../getting-started/using-data-containers.md#any-collection) | a vector of collections to merge or collections from pin 0 to ... |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_collections |[`any_collection`](../../getting-started/using-data-containers.md#any-collection) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_collections |[`any_collection`](../../getting-started/using-data-containers.md#any-collection) |  |
 
 ## Configurations
 

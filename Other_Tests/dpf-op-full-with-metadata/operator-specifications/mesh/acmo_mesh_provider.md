@@ -18,7 +18,7 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  assembly_mesh |[`ans_dispatch_holder`](../../getting-started/using-data-containers.md#ans-dispatch-holder), [`struct IAnsDispatch`](../../getting-started/using-data-containers.md#struct-iansdispatch) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  assembly_mesh |[`ans_dispatch_holder`](../../getting-started/using-data-containers.md#ans-dispatch-holder), [`struct IAnsDispatch`](../../getting-started/using-data-containers.md#struct-iansdispatch) |  |
 | <strong>Pin 1</strong>|  unit |[`string`](../../getting-started/using-data-containers.md#string) |  |
 
 
@@ -26,7 +26,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | meshes_container |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | meshes_container |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
 
 ## Configurations
 

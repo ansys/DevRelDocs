@@ -18,15 +18,15 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dataIn |[`custom_type_fields_container`](../../getting-started/using-data-containers.md#custom-type-fields-container) | custom type field container from zfp_compression operator to decompress |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  dataIn |[`custom_type_fields_container`](../../getting-started/using-data-containers.md#custom-type-fields-container) | custom type field container from zfp_compression operator to decompress |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | dataOut |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | the output entity is a field or a fields container; it contains decompressed data |
-| <strong>Pin 1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | decompress_speed |[`double`](../../getting-started/using-data-containers.md#double) | the output entity is a double, containing decompression speed (mb/sec) |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | dataOut |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | the output entity is a field or a fields container; it contains decompressed data |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | decompress_speed |[`double`](../../getting-started/using-data-containers.md#double) | the output entity is a double, containing decompression speed (mb/sec) |
 
 ## Configurations
 

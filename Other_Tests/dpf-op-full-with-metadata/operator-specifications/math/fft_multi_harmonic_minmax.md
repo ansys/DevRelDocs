@@ -18,7 +18,7 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 | <strong>Pin 1</strong>|  rpm_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) | rpm scoping, by default the fourier series sum is evaluated using all the rpms |
 | <strong>Pin 2</strong>|  fs_ratio |[`int32`](../../getting-started/using-data-containers.md#int32) | field or fields container with only one field is expected |
 | <strong>Pin 3</strong>|  num_subdivisions |[`int32`](../../getting-started/using-data-containers.md#int32) | connect number subdivisions, used for uniform discretization |
@@ -33,9 +33,9 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_min |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_max |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 2</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | all_fields |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_min |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_max |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | all_fields |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 

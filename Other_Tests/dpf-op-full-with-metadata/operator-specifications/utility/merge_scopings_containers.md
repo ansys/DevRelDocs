@@ -18,14 +18,14 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  scopings_containers |[`vector<shared_ptr<scopings_container>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<scopings-container>>), [`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | A vector of scopings containers to merge or scopings containers from pin 0 to ... |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  scopings_containers |[`vector<shared_ptr<scopings_container>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<scopings-container>>), [`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | A vector of scopings containers to merge or scopings containers from pin 0 to ... |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_scopings_container |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_scopings_container |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) |  |
 
 ## Configurations
 

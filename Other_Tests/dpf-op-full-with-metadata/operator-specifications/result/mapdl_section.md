@@ -18,10 +18,10 @@ mapdl
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  properties_name |[`string`](../../getting-started/using-data-containers.md#string), [`vector<string>`](../../getting-started/using-data-containers.md#vector<string>) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  properties_name |[`string`](../../getting-started/using-data-containers.md#string), [`vector<string>`](../../getting-started/using-data-containers.md#vector<string>) |  |
 | <strong>Pin 1</strong>|  section |[`property_field`](../../getting-started/using-data-containers.md#property-field) | Property field that contains a section id per element.(optional) |
-| <strong>Pin 3</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  streams_container |[`streams_container`](../../getting-started/using-data-containers.md#streams-container) |  |
-| <strong>Pin 4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) |  |
+| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  streams_container |[`streams_container`](../../getting-started/using-data-containers.md#streams-container) |  |
+| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) |  |
 | <strong>Pin 5</strong>|  layer_property |[`bool`](../../getting-started/using-data-containers.md#bool) | Property requested is layered. Default = False. |
 | <strong>Pin 6</strong>|  layers_requested |[`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>) | Array with layers requested for the section. Default = AllLayers. |
 
@@ -30,8 +30,8 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | properties_value |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | layers_per_section |[`property_field`](../../getting-started/using-data-containers.md#property-field) | Only available if layer_property option is set to True. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | properties_value |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | layers_per_section |[`property_field`](../../getting-started/using-data-containers.md#property-field) | Only available if layer_property option is set to True. |
 
 ## Configurations
 

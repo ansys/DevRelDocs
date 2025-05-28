@@ -18,18 +18,18 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  meshA |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
-| <strong>Pin 1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  meshB |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
-| <strong>Pin 2</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  small_value |[`double`](../../getting-started/using-data-containers.md#double) | define what is a small value for numeric comparison. |
-| <strong>Pin 3</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  tolerance |[`double`](../../getting-started/using-data-containers.md#double) | define the relative tolerance ceil for numeric comparison. |
-| <strong>Pin 4</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  compare_auxiliary |[`bool`](../../getting-started/using-data-containers.md#bool) | compare auxiliary data (i.e property fields, scopings...). Default value is 'false'. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  meshA |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  meshB |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
+| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  small_value |[`double`](../../getting-started/using-data-containers.md#double) | define what is a small value for numeric comparison. |
+| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  tolerance |[`double`](../../getting-started/using-data-containers.md#double) | define the relative tolerance ceil for numeric comparison. |
+| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  compare_auxiliary |[`bool`](../../getting-started/using-data-containers.md#bool) | compare auxiliary data (i.e property fields, scopings...). Default value is 'false'. |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | are_identical |[`bool`](../../getting-started/using-data-containers.md#bool) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | are_identical |[`bool`](../../getting-started/using-data-containers.md#bool) |  |
 
 ## Configurations
 

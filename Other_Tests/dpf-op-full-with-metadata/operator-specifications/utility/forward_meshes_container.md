@@ -18,7 +18,7 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  meshes |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container), [`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  meshes |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container), [`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
 | <strong>Pin 1</strong>|  default_label |[`string`](../../getting-started/using-data-containers.md#string) | this default label is used if a new meshes container needs to be created (default is unknown) |
 
 
@@ -26,7 +26,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | meshes_container |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | meshes_container |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
 
 ## Configurations
 

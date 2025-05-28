@@ -22,14 +22,14 @@ core
 | <strong>Pin -3</strong>|  sum_merge |[`bool`](../../getting-started/using-data-containers.md#bool) | Default is false. If true, redundant quantities are summed instead of being ignored. |
 | <strong>Pin -2</strong>|  merged_fields_support |[`abstract_field_support`](../../getting-started/using-data-containers.md#abstract-field-support) | Already merged field support. |
 | <strong>Pin -1</strong>|  merged_fields_containers_support |[`abstract_field_support`](../../getting-started/using-data-containers.md#abstract-field-support), [`umap<string,shared_ptr<abstract_field_support>>`](../../getting-started/using-data-containers.md#umap<string,shared-ptr<abstract-field-support>>) | Already merged fields containers support. |
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_containers |[`vector<shared_ptr<fields_container>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<fields-container>>), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | A vector of fields containers to merge or fields containers from pin 0 to ... |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_containers |[`vector<shared_ptr<fields_container>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<fields-container>>), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | A vector of fields containers to merge or fields containers from pin 0 to ... |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 

@@ -18,7 +18,7 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  scopings_container |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | scopings_container |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  scopings_container |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | scopings_container |
 | <strong>Pin 1</strong>|  label_space |[`label_space`](../../getting-started/using-data-containers.md#label-space), [`scoping`](../../getting-started/using-data-containers.md#scoping) | Label space, or scoping defining the label space (scoping location), values to keep (scoping IDs) |
 | <strong>Pin 2</strong>|  collapse_labels |[`bool`](../../getting-started/using-data-containers.md#bool) | If set to true (default) the input label space (scoping location) is suppressed from the output scopings container, otherwise, label space is kept. |
 
@@ -27,7 +27,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | scopings_container |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | scopings_container |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | scopings_container |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | scopings_container |
 
 ## Configurations
 

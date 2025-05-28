@@ -27,7 +27,7 @@ vtk
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | Generated output vtk file |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | Generated output vtk file |
 
 ## Configurations
 

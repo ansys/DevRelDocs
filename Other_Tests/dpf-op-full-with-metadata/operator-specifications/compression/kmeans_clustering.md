@@ -20,7 +20,7 @@ core
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong>|  clusters_number |[`int32`](../../getting-started/using-data-containers.md#int32) | number of the clusters (dafault is 3) |
 | <strong>Pin 1</strong>|  formula |[`string`](../../getting-started/using-data-containers.md#string) | formula ('dist'/'dotprod'), default is 'dist' |
-| <strong>Pin 2</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | an iunput fields container containing the data which will be used for the clustering |
+| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | an iunput fields container containing the data which will be used for the clustering |
 | <strong>Pin 3</strong>|  component_number |[`int32`](../../getting-started/using-data-containers.md#int32) | component number as an int (default is 0), ex '0' for X-displacement, '1' for Y-displacement,... |
 
 
@@ -28,7 +28,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | scoping_clusters |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | Scopings container with the space scoping (entities' ids) corresponding to each of k-clusters |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | scoping_clusters |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | Scopings container with the space scoping (entities' ids) corresponding to each of k-clusters |
 
 ## Configurations
 

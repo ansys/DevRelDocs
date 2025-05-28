@@ -18,14 +18,14 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  string_or_path |[`string`](../../getting-started/using-data-containers.md#string), [`data_sources`](../../getting-started/using-data-containers.md#data-sources) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  string_or_path |[`string`](../../getting-started/using-data-containers.md#string), [`data_sources`](../../getting-started/using-data-containers.md#data-sources) |  |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | data_tree |[`abstract_data_tree`](../../getting-started/using-data-containers.md#abstract-data-tree) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | data_tree |[`abstract_data_tree`](../../getting-started/using-data-containers.md#abstract-data-tree) |  |
 
 ## Configurations
 

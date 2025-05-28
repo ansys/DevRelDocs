@@ -18,7 +18,7 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | field or fields container with only one field is expected |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | field or fields container with only one field is expected |
 | <strong>Pin 1</strong>|  mesh_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) | average only on these entities |
 | <strong>Pin 2</strong>|  should_average |[`bool`](../../getting-started/using-data-containers.md#bool) | Each nodal value is divided by the number of elements linked to this node (default is true for discrete quantities). |
 | <strong>Pin 4</strong>|  extend_to_mid_nodes |[`bool`](../../getting-started/using-data-containers.md#bool) | Compute mid nodes (when available) by averaging the neighbour primary nodes. |
@@ -30,8 +30,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
-| <strong>Pin 1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | weight |[`property_field`](../../getting-started/using-data-containers.md#property-field) | Provides the number of times it was found in the elemental nodal field, for each node. Can be used to average later. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | weight |[`property_field`](../../getting-started/using-data-containers.md#property-field) | Provides the number of times it was found in the elemental nodal field, for each node. Can be used to average later. |
 
 ## Configurations
 

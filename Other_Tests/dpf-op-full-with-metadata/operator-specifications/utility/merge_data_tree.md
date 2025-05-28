@@ -18,14 +18,14 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_tree |[`data_tree`](../../getting-started/using-data-containers.md#data-tree), [`vector<shared_ptr<data_tree>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<data-tree>>) | Either a vector of data trees or data trees from pin 0 to ... to merge. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_tree |[`data_tree`](../../getting-started/using-data-containers.md#data-tree), [`vector<shared_ptr<data_tree>>`](../../getting-started/using-data-containers.md#vector<shared-ptr<data-tree>>) | Either a vector of data trees or data trees from pin 0 to ... to merge. |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | any |[`any`](../../getting-started/using-data-containers.md#any) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | any |[`any`](../../getting-started/using-data-containers.md#any) |  |
 
 ## Configurations
 

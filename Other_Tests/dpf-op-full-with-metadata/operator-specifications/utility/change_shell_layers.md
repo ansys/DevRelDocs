@@ -18,8 +18,8 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container), [`field`](../../getting-started/using-data-containers.md#field) |  |
-| <strong>Pin 1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  e_shell_layer |[`int32`](../../getting-started/using-data-containers.md#int32), [`enum dataProcessing::EShellLayers`](../../getting-started/using-data-containers.md#enum-dataprocessing::eshelllayers) | 0:Top, 1: Bottom, 2: BottomTop, 3:Mid, 4:BottomTopMid |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container), [`field`](../../getting-started/using-data-containers.md#field) |  |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  e_shell_layer |[`int32`](../../getting-started/using-data-containers.md#int32), [`enum dataProcessing::EShellLayers`](../../getting-started/using-data-containers.md#enum-dataprocessing::eshelllayers) | 0:Top, 1: Bottom, 2: BottomTop, 3:Mid, 4:BottomTopMid |
 | <strong>Pin 2</strong>|  mesh |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region), [`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) | Mesh support of the input fields_container, in case it does not have one defined. If the fields_container contains mixed shell/solid results, the mesh is required (either by connecting this pin or in the support). |
 | <strong>Pin 26</strong>|  merge |[`bool`](../../getting-started/using-data-containers.md#bool) | If set to true, merge shells and solids regarding the shell layer set in s_shell_layer pin (false by default). |
 
@@ -28,7 +28,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container), [`field`](../../getting-started/using-data-containers.md#field) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container), [`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 

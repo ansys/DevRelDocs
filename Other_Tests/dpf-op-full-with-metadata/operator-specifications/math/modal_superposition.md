@@ -18,8 +18,8 @@ core
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  modal_basis |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | One field by mode with each field representing a mode shape on nodes or elements. |
-| <strong>Pin 1</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  solution_in_modal_space |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | One field by time/frequency with each field having a ponderating coefficient for each mode of the modal_basis pin. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  modal_basis |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | One field by mode with each field representing a mode shape on nodes or elements. |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  solution_in_modal_space |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | One field by time/frequency with each field having a ponderating coefficient for each mode of the modal_basis pin. |
 | <strong>Pin 3</strong>|  time_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping), [`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>) | Compute the result on a subset of the time frequency domain defined in the solution_in_modal_space fields container. |
 | <strong>Pin 4</strong>|  mesh_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping), [`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | Compute the result on a subset of the space domain defined in the modal_basis fields container. |
 
@@ -28,7 +28,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
