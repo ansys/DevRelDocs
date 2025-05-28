@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Reads a file or string holding a Symbolic Workflow and instantiate a WorkFlow with its data.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | workflow |[`workflow`](../../getting-started/using-data-containers.md#workflow) |  |
+|  **Pin 0**| workflow |[`workflow`](../../getting-started/using-data-containers.md#workflow) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: serialization
-- Plugin: core
-- Scripting name: None
-- Full name: None
-- Internal name: import_symbolic_workflow
-- License: any_dpf_supported_increments
-  
+ **Category**: serialization
+
+ **Plugin**: core
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: import_symbolic_workflow
+
+ **License**: any_dpf_supported_increments

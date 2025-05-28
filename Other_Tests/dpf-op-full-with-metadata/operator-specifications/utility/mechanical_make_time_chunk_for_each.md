@@ -10,9 +10,6 @@ license: None
 
 Splits a list of time/freq values into chunks depending on evaluated result properties,mesh size and max number of bytes accepted and calls "make_for_each_range" to generate a range that can be consumed by the for_each operator
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -33,7 +30,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | chunks | | To connect to "producer_consumer_for_each" Operator on pin 0 |
+|  **Pin 0**| chunks | | To connect to "producer_consumer_for_each" Operator on pin 0 |
 
 ## Configurations
 
@@ -43,10 +40,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: None
-- Full name: None
-- Internal name: mechanical::make_time_chunk_for_each
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: mechanical::make_time_chunk_for_each
+
+ **License**: None

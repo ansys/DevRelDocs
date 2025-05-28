@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Evaluate min max based on the fast fourier transform at a given field, using gradient method for adaptative time step.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | coefficients |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| coefficients |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: fft_gradient_eval
-- Full name: math.fft_gradient_eval
-- Internal name: fft_eval_gr
-- License: any_dpf_supported_increments
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: fft_gradient_eval
+
+ **Full name**: math.fft_gradient_eval
+
+ **Internal name**: fft_eval_gr
+
+ **License**: any_dpf_supported_increments

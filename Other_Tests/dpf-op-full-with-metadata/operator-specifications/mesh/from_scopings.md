@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Extracts multiple meshed region base on a scoping and saved in a MeshesContainer
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,7 +25,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | meshes |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
+|  **Pin 0**| meshes |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: mesh
-- Plugin: core
-- Scripting name: from_scopings
-- Full name: mesh.from_scopings
-- Internal name: meshes::by_scopings
-- License: any_dpf_supported_increments
-  
+ **Category**: mesh
+
+ **Plugin**: core
+
+ **Scripting name**: from_scopings
+
+ **Full name**: mesh.from_scopings
+
+ **Internal name**: meshes::by_scopings
+
+ **License**: any_dpf_supported_increments

@@ -10,9 +10,6 @@ license: None
 
 Creates a new meshes container with all the meshed regions corresponding to the label space in input 1. If pin 1 is not defined, pin 0 input will be copied to the output.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | meshes_container |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) | meshes |
+|  **Pin 0**| meshes_container |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) | meshes |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: extract_sub_mc
-- Full name: utility.extract_sub_mc
-- Internal name: extract_sub_mc
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: extract_sub_mc
+
+ **Full name**: utility.extract_sub_mc
+
+ **Internal name**: extract_sub_mc
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 Extract a custom result from an hdf5dpf file.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -30,7 +27,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_or_fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container), [`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field_or_fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container), [`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -40,10 +37,14 @@ core
 
 ## Scripting
 
-- Category: serialization
-- Plugin: core
-- Scripting name: hdf5dpf_custom_read
-- Full name: serialization.hdf5dpf_custom_read
-- Internal name: hdf5::h5dpf::custom
-- License: None
-  
+ **Category**: serialization
+
+ **Plugin**: core
+
+ **Scripting name**: hdf5dpf_custom_read
+
+ **Full name**: serialization.hdf5dpf_custom_read
+
+ **Internal name**: hdf5::h5dpf::custom
+
+ **License**: None

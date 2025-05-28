@@ -10,9 +10,6 @@ license: None
 
 Read the cyclic support (DPF entity containing necessary information for expansions) and expands the mesh.
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -29,8 +26,8 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | cyclic_support |[`cyclic_support`](../../getting-started/using-data-containers.md#cyclic-support) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | sector_meshes |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
+|  **Pin 0**| cyclic_support |[`cyclic_support`](../../getting-started/using-data-containers.md#cyclic-support) |  |
+|  **Pin 1**| sector_meshes |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
 
 ## Configurations
 
@@ -41,10 +38,14 @@ mapdl
 
 ## Scripting
 
-- Category: metadata
-- Plugin: mapdl
-- Scripting name: cyclic_support_provider
-- Full name: metadata.cyclic_support_provider
-- Internal name: mapdl::rst::support_provider_cyclic
-- License: None
-  
+ **Category**: metadata
+
+ **Plugin**: mapdl
+
+ **Scripting name**: cyclic_support_provider
+
+ **Full name**: metadata.cyclic_support_provider
+
+ **Internal name**: mapdl::rst::support_provider_cyclic
+
+ **License**: None

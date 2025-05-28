@@ -10,9 +10,6 @@ license: None
 
 Transforms fields into Elemental Nodal fields using an averaging process. The result is computed on a given element's scoping.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: averaging
-- Plugin: core
-- Scripting name: to_elemental_nodal_fc
-- Full name: averaging.to_elemental_nodal_fc
-- Internal name: to_elemental_nodal_fc
-- License: None
-  
+ **Category**: averaging
+
+ **Plugin**: core
+
+ **Scripting name**: to_elemental_nodal_fc
+
+ **Full name**: averaging.to_elemental_nodal_fc
+
+ **Internal name**: to_elemental_nodal_fc
+
+ **License**: None

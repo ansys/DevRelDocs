@@ -10,9 +10,6 @@ license: None
 
 Assemble strings and integers to make a label space.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | label |[`label_space`](../../getting-started/using-data-containers.md#label-space) |  |
+|  **Pin 0**| label |[`label_space`](../../getting-started/using-data-containers.md#label-space) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: make_label_space
-- Full name: utility.make_label_space
-- Internal name: make_label_space
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: make_label_space
+
+ **Full name**: utility.make_label_space
+
+ **Internal name**: make_label_space
+
+ **License**: None

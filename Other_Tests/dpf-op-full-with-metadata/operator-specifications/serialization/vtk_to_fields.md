@@ -10,9 +10,6 @@ license: None
 
 Write a field based on a vtk file.
 
-### Plugin
-
-vtk
 
 ## Inputs
 
@@ -27,7 +24,7 @@ vtk
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | fields_container |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | fields_container |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ vtk
 
 ## Scripting
 
-- Category: serialization
-- Plugin: vtk
-- Scripting name: vtk_to_fields
-- Full name: serialization.vtk_to_fields
-- Internal name: vtk::vtk::FieldProvider
-- License: None
-  
+ **Category**: serialization
+
+ **Plugin**: vtk
+
+ **Scripting name**: vtk_to_fields
+
+ **Full name**: serialization.vtk_to_fields
+
+ **Internal name**: vtk::vtk::FieldProvider
+
+ **License**: None

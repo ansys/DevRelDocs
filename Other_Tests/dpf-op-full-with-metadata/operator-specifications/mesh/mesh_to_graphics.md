@@ -10,9 +10,6 @@ license: None
 
 Generate tessellation for input mesh
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,9 +24,9 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | nodes |[`field`](../../getting-started/using-data-containers.md#field) | node coordinates |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | normals |[`field`](../../getting-started/using-data-containers.md#field) | node normals |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | connectivity |[`property_field`](../../getting-started/using-data-containers.md#property-field) |  |
+|  **Pin 0**| nodes |[`field`](../../getting-started/using-data-containers.md#field) | node coordinates |
+|  **Pin 1**| normals |[`field`](../../getting-started/using-data-containers.md#field) | node normals |
+|  **Pin 2**| connectivity |[`property_field`](../../getting-started/using-data-containers.md#property-field) |  |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: mesh
-- Plugin: core
-- Scripting name: mesh_to_graphics
-- Full name: mesh.mesh_to_graphics
-- Internal name: mesh_to_graphics
-- License: None
-  
+ **Category**: mesh
+
+ **Plugin**: core
+
+ **Scripting name**: mesh_to_graphics
+
+ **Full name**: mesh.mesh_to_graphics
+
+ **Internal name**: mesh_to_graphics
+
+ **License**: None

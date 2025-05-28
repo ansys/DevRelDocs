@@ -10,9 +10,6 @@ license: None
 
 Write the input field and fields container into a given vtk path
 
-### Plugin
-
-vtk
 
 ## Inputs
 
@@ -37,10 +34,14 @@ vtk
 
 ## Scripting
 
-- Category: serialization
-- Plugin: vtk
-- Scripting name: vtk_export
-- Full name: serialization.vtk_export
-- Internal name: vtk_export
-- License: None
-  
+ **Category**: serialization
+
+ **Plugin**: vtk
+
+ **Scripting name**: vtk_export
+
+ **Full name**: serialization.vtk_export
+
+ **Internal name**: vtk_export
+
+ **License**: None

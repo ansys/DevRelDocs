@@ -18,9 +18,6 @@ All coordinates are global coordinates.
 Euler Angles need to be included in the database.
  Get the 1st principal component.
 
-### Plugin
-
-live post
 
 ## Inputs
 
@@ -41,7 +38,7 @@ live post
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | The computed result fields container (elemental nodal). |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | The computed result fields container (elemental nodal). |
 
 ## Configurations
 
@@ -52,10 +49,14 @@ live post
 
 ## Scripting
 
-- Category: result
-- Plugin: live post
-- Scripting name: compute_total_strain_1
-- Full name: result.compute_total_strain_1
-- Internal name: compute_total_strain_1
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: live post
+
+ **Scripting name**: compute_total_strain_1
+
+ **Full name**: result.compute_total_strain_1
+
+ **Internal name**: compute_total_strain_1
+
+ **License**: None

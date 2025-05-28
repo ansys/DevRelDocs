@@ -19,9 +19,6 @@ Transforms an Elemental field to a Nodal field. The result is computed on a give
 	- If the clipping produces a large overshoot, inverse volume weighted average is used..
 3. For a face finite volume mesh inverse distance weighted average is used.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -37,7 +34,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -48,10 +45,14 @@ core
 
 ## Scripting
 
-- Category: averaging
-- Plugin: core
-- Scripting name: elemental_to_nodal
-- Full name: averaging.elemental_to_nodal
-- Internal name: elemental_to_nodal
-- License: None
-  
+ **Category**: averaging
+
+ **Plugin**: core
+
+ **Scripting name**: elemental_to_nodal
+
+ **Full name**: averaging.elemental_to_nodal
+
+ **Internal name**: elemental_to_nodal
+
+ **License**: None

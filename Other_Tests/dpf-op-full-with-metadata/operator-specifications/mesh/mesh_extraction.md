@@ -10,9 +10,6 @@ license: None
 
 Take a mesh and a scoping (elemental or nodal) and create a new mesh that contains this selection only.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | abstract_meshed_region |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
+|  **Pin 0**| abstract_meshed_region |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: mesh
-- Plugin: core
-- Scripting name: mesh_extraction
-- Full name: mesh.mesh_extraction
-- Internal name: mesh_extraction
-- License: None
-  
+ **Category**: mesh
+
+ **Plugin**: core
+
+ **Scripting name**: mesh_extraction
+
+ **Full name**: mesh.mesh_extraction
+
+ **Internal name**: mesh_extraction
+
+ **License**: None

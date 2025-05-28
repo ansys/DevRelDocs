@@ -10,9 +10,6 @@ license: None
 
 Starts a dpf's grpc server (if local) or connect to one and keep it waiting for requests in a streams.
 
-### Plugin
-
-grpc
 
 ## Inputs
 
@@ -30,7 +27,7 @@ grpc
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> | grpc_streams |[`streams_container`](../../getting-started/using-data-containers.md#streams-container) | dpf streams handling the server, if the server is started in this thread, then nothing is added in output |
+|  **Pin 0**| grpc_streams |[`streams_container`](../../getting-started/using-data-containers.md#streams-container) | dpf streams handling the server, if the server is started in this thread, then nothing is added in output |
 
 ## Configurations
 
@@ -40,10 +37,14 @@ grpc
 
 ## Scripting
 
-- Category: server
-- Plugin: grpc
-- Scripting name: grpc_start_server
-- Full name: server.grpc_start_server
-- Internal name: grpc::stream_provider
-- License: None
-  
+ **Category**: server
+
+ **Plugin**: grpc
+
+ **Scripting name**: grpc_start_server
+
+ **Full name**: server.grpc_start_server
+
+ **Internal name**: grpc::stream_provider
+
+ **License**: None

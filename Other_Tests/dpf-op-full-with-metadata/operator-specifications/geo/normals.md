@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 compute the normals at the given nodes or element scoping based on the given mesh (first version, the element normal is only handled on the shell elements)
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: geo
-- Plugin: core
-- Scripting name: normals
-- Full name: geo.normals
-- Internal name: normals_provider
-- License: any_dpf_supported_increments
-  
+ **Category**: geo
+
+ **Plugin**: core
+
+ **Scripting name**: normals
+
+ **Full name**: geo.normals
+
+ **Internal name**: normals_provider
+
+ **License**: any_dpf_supported_increments

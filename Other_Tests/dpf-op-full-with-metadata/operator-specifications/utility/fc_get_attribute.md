@@ -10,9 +10,6 @@ license: None
 
 Uses the FieldsContainer APIs to return a given attribute of the mesh in input.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | property |[`scoping`](../../getting-started/using-data-containers.md#scoping), [`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>), [`time_freq_support`](../../getting-started/using-data-containers.md#time-freq-support), [`vector<string>`](../../getting-started/using-data-containers.md#vector<string>), [`label_space`](../../getting-started/using-data-containers.md#label-space) | Returns a Scoping for property: "label_scoping", a vector of int for "label_values", a time freq support for "time_freq_support", a vector of string for "labels", a LabelSpace for "field_scoping". |
+|  **Pin 0**| property |[`scoping`](../../getting-started/using-data-containers.md#scoping), [`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>), [`time_freq_support`](../../getting-started/using-data-containers.md#time-freq-support), [`vector<string>`](../../getting-started/using-data-containers.md#vector<string>), [`label_space`](../../getting-started/using-data-containers.md#label-space) | Returns a Scoping for property: "label_scoping", a vector of int for "label_values", a time freq support for "time_freq_support", a vector of string for "labels", a LabelSpace for "field_scoping". |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: fc_get_attribute
-- Full name: utility.fc_get_attribute
-- Internal name: fieldscontainer::get_attribute
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: fc_get_attribute
+
+ **Full name**: utility.fc_get_attribute
+
+ **Internal name**: fieldscontainer::get_attribute
+
+ **License**: None

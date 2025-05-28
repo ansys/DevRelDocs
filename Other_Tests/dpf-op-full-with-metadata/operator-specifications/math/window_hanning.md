@@ -10,9 +10,6 @@ license: None
 
 Apply hanning windowing on a given FieldsContainer having time label or a Field located on time. Assume that time sampling is evenly spaced (use time_freq_interpolation before otherwise).
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -35,10 +32,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: window_hanning
-- Full name: math.window_hanning
-- Internal name: window::hanning
-- License: None
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: window_hanning
+
+ **Full name**: math.window_hanning
+
+ **Internal name**: window::hanning
+
+ **License**: None

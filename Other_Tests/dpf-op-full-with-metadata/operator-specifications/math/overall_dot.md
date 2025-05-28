@@ -10,9 +10,6 @@ license: None
 
 Computes a dot product between two fields (fields are seen like a single large vector) and returns a scalar.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) | Field defined on over-all location, contains a unique scalar value |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) | Field defined on over-all location, contains a unique scalar value |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: overall_dot
-- Full name: math.overall_dot
-- Internal name: native::overall_dot
-- License: None
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: overall_dot
+
+ **Full name**: math.overall_dot
+
+ **Internal name**: native::overall_dot
+
+ **License**: None

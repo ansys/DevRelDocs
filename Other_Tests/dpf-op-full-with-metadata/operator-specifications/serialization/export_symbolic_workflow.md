@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Transforms a Workflow into a symbolic Workflow and writes it to a file (if a path is set in input) or string
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,7 +25,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources), [`string`](../../getting-started/using-data-containers.md#string) |  |
+|  **Pin 0**| data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources), [`string`](../../getting-started/using-data-containers.md#string) |  |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: serialization
-- Plugin: core
-- Scripting name: None
-- Full name: None
-- Internal name: export_symbolic_workflow
-- License: any_dpf_supported_increments
-  
+ **Category**: serialization
+
+ **Plugin**: core
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: export_symbolic_workflow
+
+ **License**: any_dpf_supported_increments

@@ -10,9 +10,6 @@ license: None
 
 Reads mesh properties from the results files contained in the streams or data sources, and makes those properties available through a mesh selection manager in output.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mesh_selection_manager |[`mesh_selection_manager`](../../getting-started/using-data-containers.md#mesh-selection-manager) |  |
+|  **Pin 0**| mesh_selection_manager |[`mesh_selection_manager`](../../getting-started/using-data-containers.md#mesh-selection-manager) |  |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: metadata
-- Plugin: core
-- Scripting name: mesh_selection_manager_provider
-- Full name: metadata.mesh_selection_manager_provider
-- Internal name: MeshSelectionManagerProvider
-- License: None
-  
+ **Category**: metadata
+
+ **Plugin**: core
+
+ **Scripting name**: mesh_selection_manager_provider
+
+ **Full name**: metadata.mesh_selection_manager_provider
+
+ **Internal name**: MeshSelectionManagerProvider
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 Extracts rigid body transformation from dsub file.
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -26,7 +23,7 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ mapdl
 
 ## Scripting
 
-- Category: result
-- Plugin: mapdl
-- Scripting name: rigid_transformation_provider
-- Full name: result.rigid_transformation_provider
-- Internal name: mapdl::dsub::rigid_transformation_provider
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: rigid_transformation_provider
+
+ **Full name**: result.rigid_transformation_provider
+
+ **Internal name**: mapdl::dsub::rigid_transformation_provider
+
+ **License**: None

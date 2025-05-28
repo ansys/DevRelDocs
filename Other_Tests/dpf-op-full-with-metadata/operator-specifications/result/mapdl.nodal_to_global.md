@@ -10,9 +10,6 @@ license: None
 
 Rotates nodal elemental results to global coordinate system
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -26,7 +23,7 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) | Rotated field |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) | Rotated field |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ mapdl
 
 ## Scripting
 
-- Category: result
-- Plugin: mapdl
-- Scripting name: mapdl.nodal_to_global
-- Full name: result.mapdl.nodal_to_global
-- Internal name: NodalElementalResultsRotation
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: mapdl.nodal_to_global
+
+ **Full name**: result.mapdl.nodal_to_global
+
+ **Internal name**: NodalElementalResultsRotation
+
+ **License**: None

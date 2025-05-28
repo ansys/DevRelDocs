@@ -10,9 +10,6 @@ license: None
 
 Rotate results from global coordinate system to local coordinate system.
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -26,7 +23,7 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) | Rotated field |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) | Rotated field |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ mapdl
 
 ## Scripting
 
-- Category: result
-- Plugin: mapdl
-- Scripting name: mapdl.global_to_nodal
-- Full name: result.mapdl.global_to_nodal
-- Internal name: GlobalToNodal
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: mapdl.global_to_nodal
+
+ **Full name**: result.mapdl.global_to_nodal
+
+ **Internal name**: GlobalToNodal
+
+ **License**: None

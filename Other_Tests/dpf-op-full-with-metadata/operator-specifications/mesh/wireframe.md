@@ -10,9 +10,6 @@ license: None
 
 Take a mesh and extracts its sharp edges, using pin 1 value as a threshold angle.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | wireframe |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
+|  **Pin 0**| wireframe |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: mesh
-- Plugin: core
-- Scripting name: wireframe
-- Full name: mesh.wireframe
-- Internal name: wireframe
-- License: None
-  
+ **Category**: mesh
+
+ **Plugin**: core
+
+ **Scripting name**: wireframe
+
+ **Full name**: mesh.wireframe
+
+ **Internal name**: wireframe
+
+ **License**: None

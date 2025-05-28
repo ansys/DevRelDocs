@@ -10,9 +10,6 @@ license: None
 
 Transforms an Elemental Nodal field into a Nodal field using an averaging process. The result is computed on a given node's scoping.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -30,8 +27,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | weight |[`property_field`](../../getting-started/using-data-containers.md#property-field) | Provides the number of times it was found in the elemental nodal field, for each node. Can be used to average later. |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 1**| weight |[`property_field`](../../getting-started/using-data-containers.md#property-field) | Provides the number of times it was found in the elemental nodal field, for each node. Can be used to average later. |
 
 ## Configurations
 
@@ -41,10 +38,14 @@ core
 
 ## Scripting
 
-- Category: averaging
-- Plugin: core
-- Scripting name: elemental_nodal_to_nodal
-- Full name: averaging.elemental_nodal_to_nodal
-- Internal name: elemental_nodal_To_nodal
-- License: None
-  
+ **Category**: averaging
+
+ **Plugin**: core
+
+ **Scripting name**: elemental_nodal_to_nodal
+
+ **Full name**: averaging.elemental_nodal_to_nodal
+
+ **Internal name**: elemental_nodal_To_nodal
+
+ **License**: None

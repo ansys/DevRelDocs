@@ -10,9 +10,6 @@ license: None
 
 Assembles a set of supports into a unique one.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_support |[`abstract_field_support`](../../getting-started/using-data-containers.md#abstract-field-support) |  |
+|  **Pin 0**| merged_support |[`abstract_field_support`](../../getting-started/using-data-containers.md#abstract-field-support) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: merge_supports
-- Full name: utility.merge_supports
-- Internal name: merge::abstract_support
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: merge_supports
+
+ **Full name**: utility.merge_supports
+
+ **Internal name**: merge::abstract_support
+
+ **License**: None

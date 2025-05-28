@@ -10,9 +10,6 @@ license: None
 
 Computes the element-wise Von-Mises criteria on all the tensor fields of a fields container.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: invariant
-- Plugin: core
-- Scripting name: von_mises_eqv_fc
-- Full name: invariant.von_mises_eqv_fc
-- Internal name: eqv_fc
-- License: None
-  
+ **Category**: invariant
+
+ **Plugin**: core
+
+ **Scripting name**: von_mises_eqv_fc
+
+ **Full name**: invariant.von_mises_eqv_fc
+
+ **Internal name**: eqv_fc
+
+ **License**: None

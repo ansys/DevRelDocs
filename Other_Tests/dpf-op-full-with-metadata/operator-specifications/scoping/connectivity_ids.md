@@ -10,9 +10,6 @@ license: None
 
 Returns the ordered node ids corresponding to the element ids scoping in input. For each element the node ids are its connectivity.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,8 +24,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mesh_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | elemental_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) | same as the input scoping but with ids duplicated to have the same size as nodal output scoping |
+|  **Pin 0**| mesh_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) |  |
+|  **Pin 1**| elemental_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) | same as the input scoping but with ids duplicated to have the same size as nodal output scoping |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: scoping
-- Plugin: core
-- Scripting name: connectivity_ids
-- Full name: scoping.connectivity_ids
-- Internal name: scoping::connectivity_ids
-- License: None
-  
+ **Category**: scoping
+
+ **Plugin**: core
+
+ **Scripting name**: connectivity_ids
+
+ **Full name**: scoping.connectivity_ids
+
+ **Internal name**: scoping::connectivity_ids
+
+ **License**: None

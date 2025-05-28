@@ -10,9 +10,6 @@ license: None
 
 Computes the element-wise invariants of all the tensor fields of a fields container.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,9 +22,9 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_int |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | stress intensity field |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_eqv |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | stress equivalent intensity |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_max_shear |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | max shear stress field |
+|  **Pin 0**| fields_int |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | stress intensity field |
+|  **Pin 1**| fields_eqv |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | stress equivalent intensity |
+|  **Pin 2**| fields_max_shear |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | max shear stress field |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: invariant
-- Plugin: core
-- Scripting name: invariants_fc
-- Full name: invariant.invariants_fc
-- Internal name: invariants_deriv_fc
-- License: None
-  
+ **Category**: invariant
+
+ **Plugin**: core
+
+ **Scripting name**: invariants_fc
+
+ **Full name**: invariant.invariants_fc
+
+ **Internal name**: invariants_deriv_fc
+
+ **License**: None

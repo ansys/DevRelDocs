@@ -10,9 +10,6 @@ license: None
 
 Reads if the model is cyclic from the result file.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | file_path |[`string`](../../getting-started/using-data-containers.md#string) | returns 'single_stage' or 'multi_stage' or an empty string for non cyclic model |
+|  **Pin 0**| file_path |[`string`](../../getting-started/using-data-containers.md#string) | returns 'single_stage' or 'multi_stage' or an empty string for non cyclic model |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: metadata
-- Plugin: core
-- Scripting name: is_cyclic
-- Full name: metadata.is_cyclic
-- Internal name: is_cyclic
-- License: None
-  
+ **Category**: metadata
+
+ **Plugin**: core
+
+ **Scripting name**: is_cyclic
+
+ **Full name**: metadata.is_cyclic
+
+ **Internal name**: is_cyclic
+
+ **License**: None

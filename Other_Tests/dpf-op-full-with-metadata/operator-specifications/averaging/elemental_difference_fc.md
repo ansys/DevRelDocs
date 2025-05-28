@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Transforms an Elemental Nodal or Nodal field into an Elemental field. Each elemental value is the maximum difference between the unaveraged or averaged (depending on the input fields) computed result for all nodes in this element. The result is computed on a given element scoping. If the input fields are mixed shell/solid, and the shell's layers are not specified as collapsed, then the fields are split by element shape and the output fields container has an elshape label.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,7 +25,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -40,10 +37,14 @@ core
 
 ## Scripting
 
-- Category: averaging
-- Plugin: core
-- Scripting name: elemental_difference_fc
-- Full name: averaging.elemental_difference_fc
-- Internal name: elemental_difference_fc
-- License: any_dpf_supported_increments
-  
+ **Category**: averaging
+
+ **Plugin**: core
+
+ **Scripting name**: elemental_difference_fc
+
+ **Full name**: averaging.elemental_difference_fc
+
+ **Internal name**: elemental_difference_fc
+
+ **License**: any_dpf_supported_increments

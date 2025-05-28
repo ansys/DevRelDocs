@@ -10,9 +10,6 @@ license: None
 
 Set the required data for the invariant terms computation (reduced matrices, lumped mass matrix, modes ...)
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -32,16 +29,16 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | rom_matrices |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | FieldsContainers containing the reduced matrices |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mode_shapes |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | FieldsContainers containing the mode shapes, which are CST and NOR for the cms method |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | lumped_mass |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | FieldsContainers containing the lumped mass |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | model_data |[`property_field`](../../getting-started/using-data-containers.md#property-field) | data describing the finite element model |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | center_of_mass |[`property_field`](../../getting-started/using-data-containers.md#property-field) |  |
-| <strong>Pin 5</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | inertia_relief |[`field`](../../getting-started/using-data-containers.md#field) | inertia matrix |
-| <strong>Pin 6</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | model_size |[`double`](../../getting-started/using-data-containers.md#double) | size of the model |
-| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_coordinates_and_euler_angles |[`double`](../../getting-started/using-data-containers.md#double) | coordinates and euler angles of all nodes |
-| <strong>Pin 8</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | nod |[`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>) | ids of master nodes |
-| <strong>Pin 9</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | meshed_region |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) | expanded meshed region. |
+|  **Pin 0**| rom_matrices |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | FieldsContainers containing the reduced matrices |
+|  **Pin 1**| mode_shapes |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | FieldsContainers containing the mode shapes, which are CST and NOR for the cms method |
+|  **Pin 2**| lumped_mass |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | FieldsContainers containing the lumped mass |
+|  **Pin 3**| model_data |[`property_field`](../../getting-started/using-data-containers.md#property-field) | data describing the finite element model |
+|  **Pin 4**| center_of_mass |[`property_field`](../../getting-started/using-data-containers.md#property-field) |  |
+|  **Pin 5**| inertia_relief |[`field`](../../getting-started/using-data-containers.md#field) | inertia matrix |
+|  **Pin 6**| model_size |[`double`](../../getting-started/using-data-containers.md#double) | size of the model |
+|  **Pin 7**| field_coordinates_and_euler_angles |[`double`](../../getting-started/using-data-containers.md#double) | coordinates and euler angles of all nodes |
+|  **Pin 8**| nod |[`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>) | ids of master nodes |
+|  **Pin 9**| meshed_region |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) | expanded meshed region. |
 
 ## Configurations
 
@@ -51,10 +48,14 @@ core
 
 ## Scripting
 
-- Category: result
-- Plugin: core
-- Scripting name: rom_data_provider
-- Full name: result.rom_data_provider
-- Internal name: rom_data_provider
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: core
+
+ **Scripting name**: rom_data_provider
+
+ **Full name**: result.rom_data_provider
+
+ **Internal name**: rom_data_provider
+
+ **License**: None

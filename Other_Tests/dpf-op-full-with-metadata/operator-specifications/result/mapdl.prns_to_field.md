@@ -10,9 +10,6 @@ license: None
 
 Read the presol of nodal field generated file from mapdl.
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -26,7 +23,7 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ mapdl
 
 ## Scripting
 
-- Category: result
-- Plugin: mapdl
-- Scripting name: mapdl.prns_to_field
-- Full name: result.mapdl.prns_to_field
-- Internal name: PRNS_Reader
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: mapdl.prns_to_field
+
+ **Full name**: result.mapdl.prns_to_field
+
+ **Internal name**: PRNS_Reader
+
+ **License**: None

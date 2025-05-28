@@ -10,9 +10,6 @@ license: None
 
 Generates an iterator that can be consumed by the for_each operator.The chain of Operators are split into a first part : the producers and a second part : the consumers.Asynchronous buffers are indeed to connect the producers and the consumers.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -35,7 +32,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | iterator | | to connect to producer_consumer_for_each |
+|  **Pin 0**| iterator | | to connect to producer_consumer_for_each |
 
 ## Configurations
 
@@ -45,10 +42,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: make_producer_consumer_for_each_iterator
-- Full name: utility.make_producer_consumer_for_each_iterator
-- Internal name: make_producer_consumer_for_each_iterator
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: make_producer_consumer_for_each_iterator
+
+ **Full name**: utility.make_producer_consumer_for_each_iterator
+
+ **Internal name**: make_producer_consumer_for_each_iterator
+
+ **License**: None

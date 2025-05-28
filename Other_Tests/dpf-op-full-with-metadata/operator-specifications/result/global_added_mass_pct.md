@@ -10,9 +10,6 @@ license: None
 
 Read Global Added Mass (percentage) (LSDyna) by calling the readers defined by the datasources.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: result
-- Plugin: core
-- Scripting name: global_added_mass_pct
-- Full name: result.global_added_mass_pct
-- Internal name: GLOB_AMP
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: core
+
+ **Scripting name**: global_added_mass_pct
+
+ **Full name**: result.global_added_mass_pct
+
+ **Internal name**: GLOB_AMP
+
+ **License**: None

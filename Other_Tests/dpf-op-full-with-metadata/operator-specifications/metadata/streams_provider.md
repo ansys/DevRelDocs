@@ -10,9 +10,6 @@ license: None
 
 Creates streams (files with cache) from the data sources.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | streams_container |[`streams_container`](../../getting-started/using-data-containers.md#streams-container) |  |
+|  **Pin 0**| streams_container |[`streams_container`](../../getting-started/using-data-containers.md#streams-container) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: metadata
-- Plugin: core
-- Scripting name: streams_provider
-- Full name: metadata.streams_provider
-- Internal name: stream_provider
-- License: None
-  
+ **Category**: metadata
+
+ **Plugin**: core
+
+ **Scripting name**: streams_provider
+
+ **Full name**: metadata.streams_provider
+
+ **Internal name**: stream_provider
+
+ **License**: None

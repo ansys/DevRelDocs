@@ -10,9 +10,6 @@ license: None
 
 Read required information from a subfile.
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -26,8 +23,8 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | int32 |[`int32`](../../getting-started/using-data-containers.md#int32) | returns integer values in the order : unit system used, stiffness matrix present key, damping matrix present key, mass matrix present key, number of master nodes, number of virtual nodes |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`property_field`](../../getting-started/using-data-containers.md#property-field) | returns integer values in the order : number of load vectors (nvects), number of nodes (nnod), number of virtual nodes (nvnodes), number of modes (nvmodes) |
+|  **Pin 0**| int32 |[`int32`](../../getting-started/using-data-containers.md#int32) | returns integer values in the order : unit system used, stiffness matrix present key, damping matrix present key, mass matrix present key, number of master nodes, number of virtual nodes |
+|  **Pin 1**| field |[`property_field`](../../getting-started/using-data-containers.md#property-field) | returns integer values in the order : number of load vectors (nvects), number of nodes (nnod), number of virtual nodes (nvnodes), number of modes (nvmodes) |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ mapdl
 
 ## Scripting
 
-- Category: result
-- Plugin: mapdl
-- Scripting name: cms_subfile_info_provider
-- Full name: result.cms_subfile_info_provider
-- Internal name: cms_subfile_info_provider
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: cms_subfile_info_provider
+
+ **Full name**: result.cms_subfile_info_provider
+
+ **Internal name**: cms_subfile_info_provider
+
+ **License**: None

@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Compute the fraction of the element measure attributed to each node of each element (fraction of the volume for 3D elements, fraction of the area for 2D elements or fraction of the length for 1D elements). It is computed by taking the integral of the shape function associated to each node within each element.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: geo
-- Plugin: core
-- Scripting name: element_nodal_contribution
-- Full name: geo.element_nodal_contribution
-- Internal name: element::nodal_contribution
-- License: any_dpf_supported_increments
-  
+ **Category**: geo
+
+ **Plugin**: core
+
+ **Scripting name**: element_nodal_contribution
+
+ **Full name**: geo.element_nodal_contribution
+
+ **Internal name**: element::nodal_contribution
+
+ **License**: any_dpf_supported_increments

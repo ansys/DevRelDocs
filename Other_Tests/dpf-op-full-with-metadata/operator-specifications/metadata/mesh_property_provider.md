@@ -10,9 +10,6 @@ license: None
 
 Reads a property related to the mesh, defined by its name, by calling the readers defined by the data sources. These properties can be used to fill in the mesh.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -29,7 +26,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | property |[`scoping`](../../getting-started/using-data-containers.md#scoping), [`property_field`](../../getting-started/using-data-containers.md#property-field), [`string_field`](../../getting-started/using-data-containers.md#string-field) | Returns a property field for properties: "mat", "apdl_element_type", "section", "elprops", "keyopt_1" to "keyopt_18" (or any mesh's property field), a scoping for properties:"named_selection", a string field for properties: "named_selection_names". |
+|  **Pin 0**| property |[`scoping`](../../getting-started/using-data-containers.md#scoping), [`property_field`](../../getting-started/using-data-containers.md#property-field), [`string_field`](../../getting-started/using-data-containers.md#string-field) | Returns a property field for properties: "mat", "apdl_element_type", "section", "elprops", "keyopt_1" to "keyopt_18" (or any mesh's property field), a scoping for properties:"named_selection", a string field for properties: "named_selection_names". |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: metadata
-- Plugin: core
-- Scripting name: mesh_property_provider
-- Full name: metadata.mesh_property_provider
-- Internal name: mesh_property_provider
-- License: None
-  
+ **Category**: metadata
+
+ **Plugin**: core
+
+ **Scripting name**: mesh_property_provider
+
+ **Full name**: metadata.mesh_property_provider
+
+ **Internal name**: mesh_property_provider
+
+ **License**: None

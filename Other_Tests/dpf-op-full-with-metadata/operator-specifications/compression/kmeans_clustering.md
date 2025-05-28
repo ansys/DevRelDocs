@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Apply kMeans clustering to group data depending on the data's non-linearity.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,7 +25,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | scoping_clusters |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | Scopings container with the space scoping (entities' ids) corresponding to each of k-clusters |
+|  **Pin 0**| scoping_clusters |[`scopings_container`](../../getting-started/using-data-containers.md#scopings-container) | Scopings container with the space scoping (entities' ids) corresponding to each of k-clusters |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: compression
-- Plugin: core
-- Scripting name: kmeans_clustering
-- Full name: compression.kmeans_clustering
-- Internal name: kmeans_operator
-- License: any_dpf_supported_increments
-  
+ **Category**: compression
+
+ **Plugin**: core
+
+ **Scripting name**: kmeans_clustering
+
+ **Full name**: compression.kmeans_clustering
+
+ **Internal name**: kmeans_operator
+
+ **License**: any_dpf_supported_increments

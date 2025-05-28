@@ -10,9 +10,6 @@ license: None
 
 Creates a filtering workflow that will filter results based on a threshold of a selected invariant.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,7 +25,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | workflow |[`workflow`](../../getting-started/using-data-containers.md#workflow) |  |
+|  **Pin 0**| workflow |[`workflow`](../../getting-started/using-data-containers.md#workflow) |  |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: filter
-- Plugin: core
-- Scripting name: None
-- Full name: None
-- Internal name: filtering_max_over_time
-- License: None
-  
+ **Category**: filter
+
+ **Plugin**: core
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: filtering_max_over_time
+
+ **License**: None

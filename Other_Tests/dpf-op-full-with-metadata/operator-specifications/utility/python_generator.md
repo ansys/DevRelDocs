@@ -10,9 +10,6 @@ license: None
 
 Generates .py file with specifications for loaded plugin(s).
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: None
-- Full name: None
-- Internal name: python_generator
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: python_generator
+
+ **License**: None

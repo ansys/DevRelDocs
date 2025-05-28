@@ -10,9 +10,6 @@ license: None
 
 Extracts a skin of the mesh in triangles in a new meshed region.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -29,7 +26,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mesh |[`meshed_region`](../../getting-started/using-data-containers.md#meshed-region) |  |
+|  **Pin 2**| mesh |[`meshed_region`](../../getting-started/using-data-containers.md#meshed-region) |  |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: mesh
-- Plugin: core
-- Scripting name: mesh_cut
-- Full name: mesh.mesh_cut
-- Internal name: mesh_cut
-- License: None
-  
+ **Category**: mesh
+
+ **Plugin**: core
+
+ **Scripting name**: mesh_cut
+
+ **Full name**: mesh.mesh_cut
+
+ **Internal name**: mesh_cut
+
+ **License**: None

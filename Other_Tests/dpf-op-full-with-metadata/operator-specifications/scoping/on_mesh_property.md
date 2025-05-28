@@ -10,9 +10,6 @@ license: None
 
 Provides a scoping on a given property name and a property number.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -29,7 +26,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mesh_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) | Scoping |
+|  **Pin 0**| mesh_scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) | Scoping |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: scoping
-- Plugin: core
-- Scripting name: on_mesh_property
-- Full name: scoping.on_mesh_property
-- Internal name: meshscoping_provider_by_prop
-- License: None
-  
+ **Category**: scoping
+
+ **Plugin**: core
+
+ **Scripting name**: on_mesh_property
+
+ **Full name**: scoping.on_mesh_property
+
+ **Internal name**: meshscoping_provider_by_prop
+
+ **License**: None

@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Computes the element-wise Segalman Von-Mises criteria on a tensor field.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: invariant
-- Plugin: core
-- Scripting name: segalman_von_mises_eqv
-- Full name: invariant.segalman_von_mises_eqv
-- Internal name: segalmaneqv
-- License: any_dpf_supported_increments
-  
+ **Category**: invariant
+
+ **Plugin**: core
+
+ **Scripting name**: segalman_von_mises_eqv
+
+ **Full name**: invariant.segalman_von_mises_eqv
+
+ **Internal name**: segalmaneqv
+
+ **License**: any_dpf_supported_increments

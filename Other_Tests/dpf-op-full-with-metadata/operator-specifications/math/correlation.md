@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Takes two fields and a weighting and computes their correlation: aMb/(||aMa||.||bMb||). If several b fields are provided (via a fields container), correlation is computed for each of them.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,8 +24,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) | Correlation factor for each input field b. |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | index |[`int32`](../../getting-started/using-data-containers.md#int32) | If several b are provided, this output contains the index of the highest correlation factor. |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) | Correlation factor for each input field b. |
+|  **Pin 1**| index |[`int32`](../../getting-started/using-data-containers.md#int32) | If several b are provided, this output contains the index of the highest correlation factor. |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: correlation
-- Full name: math.correlation
-- Internal name: correlation
-- License: any_dpf_supported_increments
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: correlation
+
+ **Full name**: math.correlation
+
+ **Internal name**: correlation
+
+ **License**: any_dpf_supported_increments

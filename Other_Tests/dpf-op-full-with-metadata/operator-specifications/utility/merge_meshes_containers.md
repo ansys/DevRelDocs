@@ -10,9 +10,6 @@ license: None
 
 Assembles a set of meshes containers into a unique one.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_meshes_container |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
+|  **Pin 0**| merged_meshes_container |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: merge_meshes_containers
-- Full name: utility.merge_meshes_containers
-- Internal name: merge::meshes_container
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: merge_meshes_containers
+
+ **Full name**: utility.merge_meshes_containers
+
+ **Internal name**: merge::meshes_container
+
+ **License**: None

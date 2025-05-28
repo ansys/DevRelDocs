@@ -10,9 +10,6 @@ license: None
 
 Take an input data sources or streams and convert as much data as possible to vtk.
 
-### Plugin
-
-vtk
 
 ## Inputs
 
@@ -27,7 +24,7 @@ vtk
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | Generated output vtk file |
+|  **Pin 0**| data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | Generated output vtk file |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ vtk
 
 ## Scripting
 
-- Category: serialization
-- Plugin: vtk
-- Scripting name: migrate_file_to_vtk
-- Full name: serialization.migrate_file_to_vtk
-- Internal name: vtk::migrate_file
-- License: None
-  
+ **Category**: serialization
+
+ **Plugin**: vtk
+
+ **Scripting name**: migrate_file_to_vtk
+
+ **Full name**: serialization.migrate_file_to_vtk
+
+ **Internal name**: vtk::migrate_file
+
+ **License**: None

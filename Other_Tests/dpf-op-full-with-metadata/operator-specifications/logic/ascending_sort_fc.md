@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Sort a field (in 0) in ascending order with an optional component priority table, or a boolean, to enable sort by scoping (in 1). This operator does not support multiple elementary data per entity.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: logic
-- Plugin: core
-- Scripting name: ascending_sort_fc
-- Full name: logic.ascending_sort_fc
-- Internal name: ascending_sort_fc
-- License: any_dpf_supported_increments
-  
+ **Category**: logic
+
+ **Plugin**: core
+
+ **Scripting name**: ascending_sort_fc
+
+ **Full name**: logic.ascending_sort_fc
+
+ **Internal name**: ascending_sort_fc
+
+ **License**: any_dpf_supported_increments

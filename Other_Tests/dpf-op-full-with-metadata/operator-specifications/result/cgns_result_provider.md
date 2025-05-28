@@ -10,9 +10,6 @@ license: None
 
 Read/compute names result from result streams.
 
-### Plugin
-
-cgns
 
 ## Inputs
 
@@ -30,7 +27,7 @@ cgns
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | Results |
+|  **Pin 0**| fields |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | Results |
 
 ## Configurations
 
@@ -40,10 +37,14 @@ cgns
 
 ## Scripting
 
-- Category: result
-- Plugin: cgns
-- Scripting name: cgns_result_provider
-- Full name: result.cgns_result_provider
-- Internal name: cgns::cgns::result_provider
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: cgns
+
+ **Scripting name**: cgns_result_provider
+
+ **Full name**: result.cgns_result_provider
+
+ **Internal name**: cgns::cgns::result_provider
+
+ **License**: None

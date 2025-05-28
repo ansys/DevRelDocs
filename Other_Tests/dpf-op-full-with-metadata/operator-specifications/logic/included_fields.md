@@ -10,9 +10,6 @@ license: None
 
 Checks if one field belongs to another.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,8 +25,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | included |[`bool`](../../getting-started/using-data-containers.md#bool) | bool (true if belongs...) |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | message |[`string`](../../getting-started/using-data-containers.md#string) |  |
+|  **Pin 0**| included |[`bool`](../../getting-started/using-data-containers.md#bool) | bool (true if belongs...) |
+|  **Pin 1**| message |[`string`](../../getting-started/using-data-containers.md#string) |  |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: logic
-- Plugin: core
-- Scripting name: included_fields
-- Full name: logic.included_fields
-- Internal name: Are_fields_included
-- License: None
-  
+ **Category**: logic
+
+ **Plugin**: core
+
+ **Scripting name**: included_fields
+
+ **Full name**: logic.included_fields
+
+ **Internal name**: Are_fields_included
+
+ **License**: None

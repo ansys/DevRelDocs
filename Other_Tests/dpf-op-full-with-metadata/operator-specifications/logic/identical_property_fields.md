@@ -10,9 +10,6 @@ license: None
 
 Takes two property fields and compares them.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,8 +23,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | are_identical |[`bool`](../../getting-started/using-data-containers.md#bool) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | information |[`string`](../../getting-started/using-data-containers.md#string) |  |
+|  **Pin 0**| are_identical |[`bool`](../../getting-started/using-data-containers.md#bool) |  |
+|  **Pin 1**| information |[`string`](../../getting-started/using-data-containers.md#string) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: logic
-- Plugin: core
-- Scripting name: identical_property_fields
-- Full name: logic.identical_property_fields
-- Internal name: compare::property_field
-- License: None
-  
+ **Category**: logic
+
+ **Plugin**: core
+
+ **Scripting name**: identical_property_fields
+
+ **Full name**: logic.identical_property_fields
+
+ **Internal name**: compare::property_field
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 Takes two meshes and compares them. Note: When comparing mesh properties, the current behaviour is to verify that the properties in the first mesh (pin 0) are included in the second mesh (pin 1).
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -29,7 +26,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | are_identical |[`bool`](../../getting-started/using-data-containers.md#bool) |  |
+|  **Pin 0**| are_identical |[`bool`](../../getting-started/using-data-containers.md#bool) |  |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: logic
-- Plugin: core
-- Scripting name: identical_meshes
-- Full name: logic.identical_meshes
-- Internal name: compare::mesh
-- License: None
-  
+ **Category**: logic
+
+ **Plugin**: core
+
+ **Scripting name**: identical_meshes
+
+ **Full name**: logic.identical_meshes
+
+ **Internal name**: compare::mesh
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 Generate a dpf result file from provided information.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -32,7 +29,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | data_sources filed with the H5 generated file path. |
+|  **Pin 0**| data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | data_sources filed with the H5 generated file path. |
 
 ## Configurations
 
@@ -42,10 +39,14 @@ core
 
 ## Scripting
 
-- Category: serialization
-- Plugin: core
-- Scripting name: hdf5dpf_generate_result_file
-- Full name: serialization.hdf5dpf_generate_result_file
-- Internal name: hdf5::h5dpf::make_result_file
-- License: None
-  
+ **Category**: serialization
+
+ **Plugin**: core
+
+ **Scripting name**: hdf5dpf_generate_result_file
+
+ **Full name**: serialization.hdf5dpf_generate_result_file
+
+ **Internal name**: hdf5::h5dpf::make_result_file
+
+ **License**: None

@@ -14,9 +14,6 @@ Computes the Lp-norm of a field or a field container.
 													The type of calculation performed is based on the specifications provided for pin 1, pin 2 defines the type of error norm (L1 vs L2), and
 													pin 3 which entity to use as a reference
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -39,10 +36,10 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | residuals |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | 0: normalized residuals (aka field 1 - field 2) as a field or field container, normalized depending on the normalization type |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | error |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | 1: error as a field or a field container depending on the entry's type. |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | residuals_normalization_factor |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | 2: factor used for residual normalization |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | error_normalization_factor |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | 3: factor used for error norm normalization |
+|  **Pin 0**| residuals |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | 0: normalized residuals (aka field 1 - field 2) as a field or field container, normalized depending on the normalization type |
+|  **Pin 1**| error |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | 1: error as a field or a field container depending on the entry's type. |
+|  **Pin 2**| residuals_normalization_factor |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | 2: factor used for residual normalization |
+|  **Pin 3**| error_normalization_factor |[`field`](../../getting-started/using-data-containers.md#field), [`fields_container`](../../getting-started/using-data-containers.md#fields-container) | 3: factor used for error norm normalization |
 
 ## Configurations
 
@@ -53,10 +50,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: compute_residual_and_error
-- Full name: math.compute_residual_and_error
-- Internal name: error_norm_calc
-- License: None
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: compute_residual_and_error
+
+ **Full name**: math.compute_residual_and_error
+
+ **Internal name**: error_norm_calc
+
+ **License**: None

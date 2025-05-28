@@ -10,9 +10,6 @@ license: None
 
 Allows to write a loop over a chunk of operators.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,8 +25,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | empty | |  |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | output | |  |
+|  **Pin 0**| empty | |  |
+|  **Pin 3**| output | |  |
 
 ## Configurations
 
@@ -40,10 +37,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: for_each
-- Full name: utility.for_each
-- Internal name: for_each
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: for_each
+
+ **Full name**: utility.for_each
+
+ **Internal name**: for_each
+
+ **License**: None

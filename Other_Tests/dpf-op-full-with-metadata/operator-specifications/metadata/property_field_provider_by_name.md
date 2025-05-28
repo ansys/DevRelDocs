@@ -10,9 +10,6 @@ license: None
 
 Provides the property values for a set of elements for a defined property name.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,7 +25,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | property_field |[`property_field`](../../getting-started/using-data-containers.md#property-field) | property field |
+|  **Pin 0**| property_field |[`property_field`](../../getting-started/using-data-containers.md#property-field) | property field |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: metadata
-- Plugin: core
-- Scripting name: property_field_provider_by_name
-- Full name: metadata.property_field_provider_by_name
-- Internal name: property_field_provider_by_name
-- License: None
-  
+ **Category**: metadata
+
+ **Plugin**: core
+
+ **Scripting name**: property_field_provider_by_name
+
+ **Full name**: metadata.property_field_provider_by_name
+
+ **Internal name**: property_field_provider_by_name
+
+ **License**: None

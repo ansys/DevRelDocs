@@ -10,9 +10,6 @@ license: None
 
 Solve in mapdl a dat/inp file and returns a datasources with the rst file.
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -29,9 +26,9 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | returns the data source if the server_mode pin is not set to yes |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | ip |[`string`](../../getting-started/using-data-containers.md#string) | returns the Ip if the server_mode pin is set to yes |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | port |[`string`](../../getting-started/using-data-containers.md#string) | returns a port when the server mode pin is set to yes |
+|  **Pin 0**| data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | returns the data source if the server_mode pin is not set to yes |
+|  **Pin 1**| ip |[`string`](../../getting-started/using-data-containers.md#string) | returns the Ip if the server_mode pin is set to yes |
+|  **Pin 2**| port |[`string`](../../getting-started/using-data-containers.md#string) | returns a port when the server mode pin is set to yes |
 
 ## Configurations
 
@@ -41,10 +38,14 @@ mapdl
 
 ## Scripting
 
-- Category: result
-- Plugin: mapdl
-- Scripting name: mapdl.run
-- Full name: result.mapdl.run
-- Internal name: mapdl::run
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: mapdl.run
+
+ **Full name**: result.mapdl.run
+
+ **Internal name**: mapdl::run
+
+ **License**: None

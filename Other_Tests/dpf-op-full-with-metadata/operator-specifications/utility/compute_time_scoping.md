@@ -10,9 +10,6 @@ license: None
 
 Computes the time frequency scoping (made of set IDs) necessary to interpolate on a list of time or frequencies.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,8 +25,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) | time_scoping |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) | time_freq_values |
+|  **Pin 0**| scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) | time_scoping |
+|  **Pin 1**| field |[`field`](../../getting-started/using-data-containers.md#field) | time_freq_values |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: None
-- Full name: None
-- Internal name: compute_time_scoping
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: compute_time_scoping
+
+ **License**: None

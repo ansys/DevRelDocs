@@ -10,9 +10,6 @@ license: None
 
 Merges shell and solid fields for each time step/frequency in the fields container.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -35,10 +32,14 @@ core
 
 ## Scripting
 
-- Category: logic
-- Plugin: core
-- Scripting name: merge::solid_shell_fields
-- Full name: logic.merge::solid_shell_fields
-- Internal name: merge::solid_shell_fields
-- License: None
-  
+ **Category**: logic
+
+ **Plugin**: core
+
+ **Scripting name**: merge::solid_shell_fields
+
+ **Full name**: logic.merge::solid_shell_fields
+
+ **Internal name**: merge::solid_shell_fields
+
+ **License**: None

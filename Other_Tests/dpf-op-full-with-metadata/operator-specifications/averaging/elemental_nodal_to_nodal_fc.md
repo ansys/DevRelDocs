@@ -10,9 +10,6 @@ license: None
 
 Transforms Elemental Nodal fields into Nodal fields using an averaging process. The result is computed on a given node's scoping. If the input fields are mixed shell/solid, then the fields are split by element shape and the output fields container has an elshape label.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -32,8 +29,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | weights |[`class dataProcessing::DpfTypeCollection<class dataProcessing::CPropertyField>`](../../getting-started/using-data-containers.md#class-dataprocessing::dpftypecollection<class-dataprocessing::cpropertyfield>) | Gives for each node, the number of times it was found in the Elemental Nodal field. Can be used to average later. |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 1**| weights |[`class dataProcessing::DpfTypeCollection<class dataProcessing::CPropertyField>`](../../getting-started/using-data-containers.md#class-dataprocessing::dpftypecollection<class-dataprocessing::cpropertyfield>) | Gives for each node, the number of times it was found in the Elemental Nodal field. Can be used to average later. |
 
 ## Configurations
 
@@ -45,10 +42,14 @@ core
 
 ## Scripting
 
-- Category: averaging
-- Plugin: core
-- Scripting name: elemental_nodal_to_nodal_fc
-- Full name: averaging.elemental_nodal_to_nodal_fc
-- Internal name: elemental_nodal_To_nodal_fc
-- License: None
-  
+ **Category**: averaging
+
+ **Plugin**: core
+
+ **Scripting name**: elemental_nodal_to_nodal_fc
+
+ **Full name**: averaging.elemental_nodal_to_nodal_fc
+
+ **Internal name**: elemental_nodal_To_nodal_fc
+
+ **License**: None

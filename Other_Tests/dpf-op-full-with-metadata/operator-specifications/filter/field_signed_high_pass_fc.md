@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 The high pass filter returns all the values above, or equal, in absolute value to the threshold value in input.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: filter
-- Plugin: core
-- Scripting name: field_signed_high_pass_fc
-- Full name: filter.field_signed_high_pass_fc
-- Internal name: core::field::signed_high_pass_fc
-- License: any_dpf_supported_increments
-  
+ **Category**: filter
+
+ **Plugin**: core
+
+ **Scripting name**: field_signed_high_pass_fc
+
+ **Full name**: filter.field_signed_high_pass_fc
+
+ **Internal name**: core::field::signed_high_pass_fc
+
+ **License**: any_dpf_supported_increments

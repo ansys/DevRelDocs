@@ -10,9 +10,6 @@ license: None
 
 Export a MeshedRegion in the pyVista format.
 
-### Plugin
-
-vtk
 
 ## Inputs
 
@@ -29,10 +26,10 @@ vtk
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | nodes |[`field`](../../getting-started/using-data-containers.md#field) | Node coordinates double vector |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | cells |[`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>) | Cell connectivity int vector |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | cell_types |[`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>) | Cell types property int vector |
-| <strong>Pin 3</strong> | offsets |[`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>) | If vtk_updated=false, offsets int vector |
+|  **Pin 0**| nodes |[`field`](../../getting-started/using-data-containers.md#field) | Node coordinates double vector |
+|  **Pin 1**| cells |[`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>) | Cell connectivity int vector |
+|  **Pin 2**| cell_types |[`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>) | Cell types property int vector |
+|  **Pin 3**| offsets |[`vector<int32>`](../../getting-started/using-data-containers.md#vector<int32>) | If vtk_updated=false, offsets int vector |
 
 ## Configurations
 
@@ -42,10 +39,14 @@ vtk
 
 ## Scripting
 
-- Category: mesh
-- Plugin: vtk
-- Scripting name: None
-- Full name: None
-- Internal name: mesh_to_pyvista
-- License: None
-  
+ **Category**: mesh
+
+ **Plugin**: vtk
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: mesh_to_pyvista
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 Adds a given rigid translation, center and rotation from a displacement field. The rotation is given in terms of rotations angles. Note that the displacement field has to be in the global coordinate system
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -29,7 +26,7 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ mapdl
 
 ## Scripting
 
-- Category: result
-- Plugin: mapdl
-- Scripting name: add_rigid_body_motion
-- Full name: result.add_rigid_body_motion
-- Internal name: RigidBodyAddition
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: add_rigid_body_motion
+
+ **Full name**: result.add_rigid_body_motion
+
+ **Internal name**: RigidBodyAddition
+
+ **License**: None

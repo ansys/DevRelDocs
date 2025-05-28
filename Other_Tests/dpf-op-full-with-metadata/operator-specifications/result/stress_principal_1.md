@@ -10,9 +10,6 @@ license: None
 
 Read/compute element nodal component stresses 1st principal component by calling the readers defined by the datasources and computing its eigen values.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -34,7 +31,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -46,10 +43,14 @@ core
 
 ## Scripting
 
-- Category: result
-- Plugin: core
-- Scripting name: stress_principal_1
-- Full name: result.stress_principal_1
-- Internal name: S1
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: core
+
+ **Scripting name**: stress_principal_1
+
+ **Full name**: result.stress_principal_1
+
+ **Internal name**: S1
+
+ **License**: None

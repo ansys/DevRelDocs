@@ -10,9 +10,6 @@ license: None
 
 Read/compute element nodal component elastic strains 2nd principal component by calling the readers defined by the datasources and computing its eigen values. The off-diagonal strains are first converted from Voigt notation to the standard strain values.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -34,7 +31,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -46,10 +43,14 @@ core
 
 ## Scripting
 
-- Category: result
-- Plugin: core
-- Scripting name: elastic_strain_principal_2
-- Full name: result.elastic_strain_principal_2
-- Internal name: EPEL2
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: core
+
+ **Scripting name**: elastic_strain_principal_2
+
+ **Full name**: result.elastic_strain_principal_2
+
+ **Internal name**: EPEL2
+
+ **License**: None

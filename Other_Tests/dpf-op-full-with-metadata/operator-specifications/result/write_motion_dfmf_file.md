@@ -10,9 +10,6 @@ license: None
 
 Write the invariant terms and the model data in a motion dfmf file
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -43,7 +40,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | dfmf_data_source |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | Data Source containing the dfmf file generated. |
+|  **Pin 0**| dfmf_data_source |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | Data Source containing the dfmf file generated. |
 
 ## Configurations
 
@@ -53,10 +50,14 @@ core
 
 ## Scripting
 
-- Category: result
-- Plugin: core
-- Scripting name: write_motion_dfmf_file
-- Full name: result.write_motion_dfmf_file
-- Internal name: write_motion_dfmf_file
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: core
+
+ **Scripting name**: write_motion_dfmf_file
+
+ **Full name**: result.write_motion_dfmf_file
+
+ **Internal name**: write_motion_dfmf_file
+
+ **License**: None

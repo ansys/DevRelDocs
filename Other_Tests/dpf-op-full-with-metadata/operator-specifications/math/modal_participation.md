@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Compute the modal participation factor for a given vector field V, defined as  sum_i ( V .dot. mode_shape_i * ponderation ).
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -29,7 +26,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | output |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| output |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: modal_participation
-- Full name: math.modal_participation
-- Internal name: harmonic::modal_participation
-- License: any_dpf_supported_increments
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: modal_participation
+
+ **Full name**: math.modal_participation
+
+ **Internal name**: harmonic::modal_participation
+
+ **License**: any_dpf_supported_increments

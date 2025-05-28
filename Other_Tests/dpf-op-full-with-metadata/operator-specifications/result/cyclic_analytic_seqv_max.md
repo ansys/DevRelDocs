@@ -10,9 +10,6 @@ license: None
 
 Compute the maximum of the Von Mises equivalent stress that can be expected on 360 degrees
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -29,7 +26,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | FieldsContainer filled in |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | FieldsContainer filled in |
 
 ## Configurations
 
@@ -42,10 +39,14 @@ core
 
 ## Scripting
 
-- Category: result
-- Plugin: core
-- Scripting name: cyclic_analytic_seqv_max
-- Full name: result.cyclic_analytic_seqv_max
-- Internal name: cyclic_analytic_stress_eqv_max
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: core
+
+ **Scripting name**: cyclic_analytic_seqv_max
+
+ **Full name**: result.cyclic_analytic_seqv_max
+
+ **Internal name**: cyclic_analytic_stress_eqv_max
+
+ **License**: None

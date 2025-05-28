@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Converts 3D field from cartesian coordinates to spherical coordinates.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: geo
-- Plugin: core
-- Scripting name: cartesian_to_spherical
-- Full name: geo.cartesian_to_spherical
-- Internal name: cartesian_to_spherical
-- License: any_dpf_supported_increments
-  
+ **Category**: geo
+
+ **Plugin**: core
+
+ **Scripting name**: cartesian_to_spherical
+
+ **Full name**: geo.cartesian_to_spherical
+
+ **Internal name**: cartesian_to_spherical
+
+ **License**: any_dpf_supported_increments

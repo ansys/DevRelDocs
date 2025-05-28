@@ -10,9 +10,6 @@ license: None
 
 Sends a local workflow to a remote process (and keep a local image of it) or create a local image of an existing remote workflow (identified by an id and an address) for a given protocol registered in the streams.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | remote_workflow |[`workflow`](../../getting-started/using-data-containers.md#workflow) | remote workflow containing an image of the remote workflow and the protocols streams |
+|  **Pin 0**| remote_workflow |[`workflow`](../../getting-started/using-data-containers.md#workflow) | remote workflow containing an image of the remote workflow and the protocols streams |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: remote_workflow_instantiate
-- Full name: utility.remote_workflow_instantiate
-- Internal name: remote_workflow_instantiate
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: remote_workflow_instantiate
+
+ **Full name**: utility.remote_workflow_instantiate
+
+ **Internal name**: remote_workflow_instantiate
+
+ **License**: None

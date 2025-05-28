@@ -10,9 +10,6 @@ license: None
 
 A DataSources in pin 0 and a property name (string) in pin 1 are expected in input. An index refering to the property can also be provided.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -29,7 +26,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | property |[`string`](../../getting-started/using-data-containers.md#string), [`int32`](../../getting-started/using-data-containers.md#int32) | Property value. |
+|  **Pin 0**| property |[`string`](../../getting-started/using-data-containers.md#string), [`int32`](../../getting-started/using-data-containers.md#int32) | Property value. |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: ds_get_attribute
-- Full name: utility.ds_get_attribute
-- Internal name: datasources::get_attribute
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: ds_get_attribute
+
+ **Full name**: utility.ds_get_attribute
+
+ **Internal name**: datasources::get_attribute
+
+ **License**: None

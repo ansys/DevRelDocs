@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Compute the component-wise minimum (out 0) and maximum (out 1) over coming fields.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,10 +23,10 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_min |[`field`](../../getting-started/using-data-containers.md#field) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field_max |[`field`](../../getting-started/using-data-containers.md#field) |  |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | domain_ids_min |[`scoping`](../../getting-started/using-data-containers.md#scoping) |  |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | domain_ids_max |[`scoping`](../../getting-started/using-data-containers.md#scoping) |  |
+|  **Pin 0**| field_min |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 1**| field_max |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 2**| domain_ids_min |[`scoping`](../../getting-started/using-data-containers.md#scoping) |  |
+|  **Pin 3**| domain_ids_max |[`scoping`](../../getting-started/using-data-containers.md#scoping) |  |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: min_max
-- Plugin: core
-- Scripting name: None
-- Full name: None
-- Internal name: min_max_inc
-- License: any_dpf_supported_increments
-  
+ **Category**: min_max
+
+ **Plugin**: core
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: min_max_inc
+
+ **License**: any_dpf_supported_increments

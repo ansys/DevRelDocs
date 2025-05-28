@@ -10,9 +10,6 @@ license: None
 
 Expand cyclic results from a fieldsContainer for given sets, sectors and scoping (optionals).
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -35,7 +32,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | FieldsContainer filled in |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | FieldsContainer filled in |
 
 ## Configurations
 
@@ -48,10 +45,14 @@ core
 
 ## Scripting
 
-- Category: result
-- Plugin: core
-- Scripting name: cyclic_expansion
-- Full name: result.cyclic_expansion
-- Internal name: cyclic_expansion
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: core
+
+ **Scripting name**: cyclic_expansion
+
+ **Full name**: result.cyclic_expansion
+
+ **Internal name**: cyclic_expansion
+
+ **License**: None

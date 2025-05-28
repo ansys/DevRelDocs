@@ -10,9 +10,6 @@ license: None
 
 Loads the appropriate operator based on the data sources and retrieves material properties.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | material_properties |[`field`](../../getting-started/using-data-containers.md#field) | material properties |
+|  **Pin 0**| material_properties |[`field`](../../getting-started/using-data-containers.md#field) | material properties |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: result
-- Plugin: core
-- Scripting name: material_property_of_element
-- Full name: result.material_property_of_element
-- Internal name: MaterialPropertyOfElement
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: core
+
+ **Scripting name**: material_property_of_element
+
+ **Full name**: result.material_property_of_element
+
+ **Internal name**: MaterialPropertyOfElement
+
+ **License**: None

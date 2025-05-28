@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Computes the sum of elemental forces contribution on a set of nodes in Global Coordinate System. Equivalent to MAPDL FSUM & NFORCE commands. Supports Static, Transient, Modal & Harmonic analysis for thermal and structural degrees of freedom.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -30,12 +27,12 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | force_accumulation |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | moment_accumulation |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | heat_accumulation |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 10</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | forces_on_nodes |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 11</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | moments_on_nodes |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 12</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | heats_on_nodes |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| force_accumulation |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 1**| moment_accumulation |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 2**| heat_accumulation |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 10**| forces_on_nodes |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 11**| moments_on_nodes |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 12**| heats_on_nodes |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -45,10 +42,14 @@ core
 
 ## Scripting
 
-- Category: averaging
-- Plugin: core
-- Scripting name: force_summation
-- Full name: averaging.force_summation
-- Internal name: force_summation
-- License: any_dpf_supported_increments
-  
+ **Category**: averaging
+
+ **Plugin**: core
+
+ **Scripting name**: force_summation
+
+ **Full name**: averaging.force_summation
+
+ **Internal name**: force_summation
+
+ **License**: any_dpf_supported_increments

@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Extends an Elemental Nodal or Nodal field defined on corner nodes to a field defined also on the mid nodes.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | field |[`field`](../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](../../getting-started/using-data-containers.md#field) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: averaging
-- Plugin: core
-- Scripting name: extend_to_mid_nodes
-- Full name: averaging.extend_to_mid_nodes
-- Internal name: extend_to_mid_nodes
-- License: any_dpf_supported_increments
-  
+ **Category**: averaging
+
+ **Plugin**: core
+
+ **Scripting name**: extend_to_mid_nodes
+
+ **Full name**: averaging.extend_to_mid_nodes
+
+ **Internal name**: extend_to_mid_nodes
+
+ **License**: any_dpf_supported_increments

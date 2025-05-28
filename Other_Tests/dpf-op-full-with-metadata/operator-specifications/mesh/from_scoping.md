@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Extracts a meshed region from another meshed region based on a scoping. Regarding the property fields of the meshed region: the 'Elemental', 'Face', and 'Nodal' property fields are scoped to the elements or nodes of the output mesh, the 'Global' property fields are transferred from the input mesh to the output mesh without changes, and the rest of the property fields are not present in the output mesh.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,7 +25,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | mesh |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
+|  **Pin 0**| mesh |[`abstract_meshed_region`](../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: mesh
-- Plugin: core
-- Scripting name: from_scoping
-- Full name: mesh.from_scoping
-- Internal name: mesh::by_scoping
-- License: any_dpf_supported_increments
-  
+ **Category**: mesh
+
+ **Plugin**: core
+
+ **Scripting name**: from_scoping
+
+ **Full name**: mesh.from_scoping
+
+ **Internal name**: mesh::by_scoping
+
+ **License**: any_dpf_supported_increments

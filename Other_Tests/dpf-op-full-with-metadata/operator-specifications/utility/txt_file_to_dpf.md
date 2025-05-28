@@ -10,9 +10,6 @@ license: None
 
 Take an input string and parse it into dataProcessing type.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | any_output | | any output |
+|  **Pin 0**| any_output | | any output |
 
 ## Configurations
 
@@ -35,10 +32,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: txt_file_to_dpf
-- Full name: utility.txt_file_to_dpf
-- Internal name: text_parser
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: txt_file_to_dpf
+
+ **Full name**: utility.txt_file_to_dpf
+
+ **Internal name**: text_parser
+
+ **License**: None

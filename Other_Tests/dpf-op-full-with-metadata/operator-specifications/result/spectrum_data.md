@@ -10,9 +10,6 @@ license: None
 
 Read participation factors from mode file.
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -25,7 +22,7 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | participation_factors |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | Fields container containing participation factors. |
+|  **Pin 0**| participation_factors |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | Fields container containing participation factors. |
 
 ## Configurations
 
@@ -35,10 +32,14 @@ mapdl
 
 ## Scripting
 
-- Category: result
-- Plugin: mapdl
-- Scripting name: None
-- Full name: None
-- Internal name: spectrum_data
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: None
+
+ **Full name**: None
+
+ **Internal name**: spectrum_data
+
+ **License**: None

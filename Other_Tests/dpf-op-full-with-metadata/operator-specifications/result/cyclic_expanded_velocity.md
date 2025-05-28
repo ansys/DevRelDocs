@@ -10,9 +10,6 @@ license: None
 
 Read velocity from an rst file and expand it with cyclic symmetry.
 
-### Plugin
-
-mapdl
 
 ## Inputs
 
@@ -38,8 +35,8 @@ mapdl
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | FieldsContainer filled in |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | expanded_meshes |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | FieldsContainer filled in |
+|  **Pin 1**| expanded_meshes |[`meshes_container`](../../getting-started/using-data-containers.md#meshes-container) |  |
 
 ## Configurations
 
@@ -52,10 +49,14 @@ mapdl
 
 ## Scripting
 
-- Category: result
-- Plugin: mapdl
-- Scripting name: cyclic_expanded_velocity
-- Full name: result.cyclic_expanded_velocity
-- Internal name: mapdl::rst::V_cyclic
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: mapdl
+
+ **Scripting name**: cyclic_expanded_velocity
+
+ **Full name**: result.cyclic_expanded_velocity
+
+ **Internal name**: mapdl::rst::V_cyclic
+
+ **License**: None

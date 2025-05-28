@@ -10,9 +10,6 @@ license: None
 
 Returns the platform-specific path to a folder in the Dpf server
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | path |[`string`](../../getting-started/using-data-containers.md#string) | Path to the requested folder in the Dpf server |
+|  **Pin 0**| path |[`string`](../../getting-started/using-data-containers.md#string) | Path to the requested folder in the Dpf server |
 
 ## Configurations
 
@@ -35,10 +32,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: server_path
-- Full name: utility.server_path
-- Internal name: server_path
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: server_path
+
+ **Full name**: utility.server_path
+
+ **Internal name**: server_path
+
+ **License**: None

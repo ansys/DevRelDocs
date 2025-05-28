@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 This operator calculates the sum and the percentage of total sum of the input fields container for each scoping of the scopings container.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,8 +25,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | accumulation_per_scoping |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | accumulation_per_scoping_percentage |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| accumulation_per_scoping |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 1**| accumulation_per_scoping_percentage |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) |  |
 
 ## Configurations
 
@@ -39,10 +36,14 @@ core
 
 ## Scripting
 
-- Category: math
-- Plugin: core
-- Scripting name: accumulation_per_scoping
-- Full name: math.accumulation_per_scoping
-- Internal name: accumulation_per_scoping
-- License: any_dpf_supported_increments
-  
+ **Category**: math
+
+ **Plugin**: core
+
+ **Scripting name**: accumulation_per_scoping
+
+ **Full name**: math.accumulation_per_scoping
+
+ **Internal name**: accumulation_per_scoping
+
+ **License**: any_dpf_supported_increments

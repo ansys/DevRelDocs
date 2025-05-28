@@ -10,9 +10,6 @@ license: None
 
 Merges a set of collections into a unique one.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -25,7 +22,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | merged_collections |[`any_collection`](../../getting-started/using-data-containers.md#any-collection) |  |
+|  **Pin 0**| merged_collections |[`any_collection`](../../getting-started/using-data-containers.md#any-collection) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: merge_collections
-- Full name: utility.merge_collections
-- Internal name: merge::any_collection
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: merge_collections
+
+ **Full name**: utility.merge_collections
+
+ **Internal name**: merge::any_collection
+
+ **License**: None

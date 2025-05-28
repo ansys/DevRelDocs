@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 The low pass filter returns all the values below (but not equal to) the threshold value in input.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) |  |
+|  **Pin 0**| scoping |[`scoping`](../../getting-started/using-data-containers.md#scoping) |  |
 
 ## Configurations
 
@@ -37,10 +34,14 @@ core
 
 ## Scripting
 
-- Category: filter
-- Plugin: core
-- Scripting name: scoping_low_pass
-- Full name: filter.scoping_low_pass
-- Internal name: core::scoping::low_pass
-- License: any_dpf_supported_increments
-  
+ **Category**: filter
+
+ **Plugin**: core
+
+ **Scripting name**: scoping_low_pass
+
+ **Full name**: filter.scoping_low_pass
+
+ **Internal name**: core::scoping::low_pass
+
+ **License**: any_dpf_supported_increments

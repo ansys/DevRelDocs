@@ -10,9 +10,6 @@ license: None
 
 Allows to write a loop over operators by connecting data to iterate and by requesting the incrementally output merged.The chain of Operators are split into a first part: the producers and a second part: the consumers. These 2 parts will run asynchronously on 2 threads.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,8 +23,8 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | empty | |  |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | output | |  |
+|  **Pin 0**| empty | |  |
+|  **Pin 3**| output | |  |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: utility
-- Plugin: core
-- Scripting name: producer_consumer_for_each
-- Full name: utility.producer_consumer_for_each
-- Internal name: producer_consumer_for_each
-- License: None
-  
+ **Category**: utility
+
+ **Plugin**: core
+
+ **Scripting name**: producer_consumer_for_each
+
+ **Full name**: utility.producer_consumer_for_each
+
+ **Internal name**: producer_consumer_for_each
+
+ **License**: None

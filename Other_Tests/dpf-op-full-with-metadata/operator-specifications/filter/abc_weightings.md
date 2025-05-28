@@ -10,9 +10,6 @@ license: any_dpf_supported_increments
 
 Computes ABC-weightings for the amplitude spectrum in dB units.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -27,7 +24,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | weightings |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | weighted data in dB units. |
+|  **Pin 0**| weightings |[`fields_container`](../../getting-started/using-data-containers.md#fields-container) | weighted data in dB units. |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: filter
-- Plugin: core
-- Scripting name: abc_weightings
-- Full name: filter.abc_weightings
-- Internal name: abc_weightings
-- License: any_dpf_supported_increments
-  
+ **Category**: filter
+
+ **Plugin**: core
+
+ **Scripting name**: abc_weightings
+
+ **Full name**: filter.abc_weightings
+
+ **Internal name**: abc_weightings
+
+ **License**: any_dpf_supported_increments

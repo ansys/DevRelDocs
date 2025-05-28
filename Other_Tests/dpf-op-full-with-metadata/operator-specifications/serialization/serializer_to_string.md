@@ -10,9 +10,6 @@ license: None
 
 Take any input and serialize them in a string.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -26,7 +23,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | serialized_string |[`string`](../../getting-started/using-data-containers.md#string) |  |
+|  **Pin 0**| serialized_string |[`string`](../../getting-started/using-data-containers.md#string) |  |
 
 ## Configurations
 
@@ -36,10 +33,14 @@ core
 
 ## Scripting
 
-- Category: serialization
-- Plugin: core
-- Scripting name: serializer_to_string
-- Full name: serialization.serializer_to_string
-- Internal name: serializer_to_string
-- License: None
-  
+ **Category**: serialization
+
+ **Plugin**: core
+
+ **Scripting name**: serializer_to_string
+
+ **Full name**: serialization.serializer_to_string
+
+ **Internal name**: serializer_to_string
+
+ **License**: None

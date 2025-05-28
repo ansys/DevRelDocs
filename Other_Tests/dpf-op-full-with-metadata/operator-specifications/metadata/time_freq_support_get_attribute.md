@@ -10,9 +10,6 @@ license: None
 
 Uses the TimeFreqSupport APIs to return a given attribute of the scoping in input.
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -28,7 +25,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | property |[`double`](../../getting-started/using-data-containers.md#double), [`field`](../../getting-started/using-data-containers.md#field), [`scoping`](../../getting-started/using-data-containers.md#scoping) | Returns a double for property: "frequency_tolerance", a single-value Scoping for properties for "set_id" and "cummulative_index", and a Field otherwise. |
+|  **Pin 0**| property |[`double`](../../getting-started/using-data-containers.md#double), [`field`](../../getting-started/using-data-containers.md#field), [`scoping`](../../getting-started/using-data-containers.md#scoping) | Returns a double for property: "frequency_tolerance", a single-value Scoping for properties for "set_id" and "cummulative_index", and a Field otherwise. |
 
 ## Configurations
 
@@ -38,10 +35,14 @@ core
 
 ## Scripting
 
-- Category: metadata
-- Plugin: core
-- Scripting name: time_freq_support_get_attribute
-- Full name: metadata.time_freq_support_get_attribute
-- Internal name: timefreqsupport::get_attribute
-- License: None
-  
+ **Category**: metadata
+
+ **Plugin**: core
+
+ **Scripting name**: time_freq_support_get_attribute
+
+ **Full name**: metadata.time_freq_support_get_attribute
+
+ **Internal name**: timefreqsupport::get_attribute
+
+ **License**: None

@@ -10,9 +10,6 @@ license: None
 
 Write the invariant terms and the model data in a cms_rbd file
 
-### Plugin
-
-core
 
 ## Inputs
 
@@ -48,7 +45,7 @@ core
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | Data Source containing the cms_rbd file generated. |
+|  **Pin 0**| data_sources |[`data_sources`](../../getting-started/using-data-containers.md#data-sources) | Data Source containing the cms_rbd file generated. |
 
 ## Configurations
 
@@ -58,10 +55,14 @@ core
 
 ## Scripting
 
-- Category: result
-- Plugin: core
-- Scripting name: write_cms_rbd_file
-- Full name: result.write_cms_rbd_file
-- Internal name: write_cms_rbd_file
-- License: None
-  
+ **Category**: result
+
+ **Plugin**: core
+
+ **Scripting name**: write_cms_rbd_file
+
+ **Full name**: result.write_cms_rbd_file
+
+ **Internal name**: write_cms_rbd_file
+
+ **License**: None
