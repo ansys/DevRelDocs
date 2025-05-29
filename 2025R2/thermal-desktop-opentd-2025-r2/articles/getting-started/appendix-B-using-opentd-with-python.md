@@ -44,7 +44,7 @@ While it is not feasible for us to maintain separate "Getting Started with OpenT
 import sys
 import clr
 
-# Need to add explicit GAC path to sys.path so clr.AddReference
+# Need to add explicit path to sys.path so clr.AddReference
 # can find OpenTD.dll. Note the use of forward slashes in the path:
 sys.path.append("C:/Windows/Microsoft.NET/assembly/GAC_MSIL/OpenTD/ReplaceMe")
 clr.AddReference("OpenTD")

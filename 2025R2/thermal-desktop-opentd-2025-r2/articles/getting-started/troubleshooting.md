@@ -4,7 +4,7 @@
 
 When you try to run your program, it throws an exception like the above, referring to a dll such as SinapsXNet, CRlog4net, or something else. This likely means you tried to create a .NET Core or Standard project instead of a .NET Framework project, or your Thermal Desktop installation is corrupt. If the former, start a new .NET Framework project. In Visual Studio the project template should look something like this:
 
-![A screenshot of a computer screen Description automatically generated with low confidence](media/d47e44c0a654c0607631af3cacc32f6a.png)
+![.NET Framework Console app description from Visual Studio](media/d47e44c0a654c0607631af3cacc32f6a.png)
 
 If that does not work, download and reinstall Thermal Desktop.
 
