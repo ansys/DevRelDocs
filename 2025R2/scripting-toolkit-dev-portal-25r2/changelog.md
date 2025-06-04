@@ -179,6 +179,13 @@ There are no changes required to upgrade from MI Scripting Toolkit Version 4.1.
 
 ### Upgrading from MI Scripting Toolkit Version 4.0
 
+<a id="attribute-values"></a>
+
+#### Attribute Values
+
+* Property [`AttributeDiscrete.value`](api/attribute-values.md#GRANTA_MIScriptingToolkit.granta.mi_attribute_value_classes.AttributeDiscrete.value) now validates the provided value against the attribute’s allowed
+  discrete values. Check [`AttributeDefinitionDiscrete.discrete_values`](api/attribute-definitions.md#GRANTA_MIScriptingToolkit.granta.mi_attribute_classes.AttributeDefinitionDiscrete.discrete_values) for available values. This validation is case-sensitive.
+
 <a id="parameters"></a>
 
 #### Parameters
