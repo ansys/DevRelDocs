@@ -456,6 +456,10 @@ Provides access to the list of strings that store the attribute’s data values,
 
 Discrete value(s) associated with this attribute.
 
+#### Versionchanged
+Changed in version 4.1: Property `value` now validates the provided value against the attribute’s allowed discrete values.
+Check [`AttributeDefinitionDiscrete.discrete_values`](attribute-definitions.md#GRANTA_MIScriptingToolkit.granta.mi_attribute_classes.AttributeDefinitionDiscrete.discrete_values) for available values. This validation is case-sensitive.
+
 * **Returns:**
   List[str] or str if not multivalued
 
