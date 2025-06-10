@@ -13,6 +13,7 @@ Provide a class for a System Coupling variable.
 
 * [addIntegerAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1ae6fed92c7d5f748b3e26898af932eb46)
 * [addRealAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1ab296b04988b750113600bcc4e302ae3c)
+* [addStringAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1a9ea91498c43af1c2f00d5009066179a0)
 * [getDataType](classsysc_1_1Variable.md#classsysc_1_1Variable_1aa65c2a0ffe7c327972721faf2bffc5b7)
 * [getDisplayName](classsysc_1_1Variable.md#classsysc_1_1Variable_1a37a842b3aa77535ddf81b3fb09c557e6)
 * [getIntegerAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1a7cbb6bced0257ebb7da8d709dbd05a30)
@@ -21,8 +22,10 @@ Provide a class for a System Coupling variable.
 * [getName](classsysc_1_1Variable.md#classsysc_1_1Variable_1ab138ad8ce29f89d62b7b5c1a4c496e19)
 * [getNumIntegerAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1a9a427e97dd6a88dae5e89ca7e640eba7)
 * [getNumRealAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1ae04462134077986b650ee9c6df9e5151)
+* [getNumStringAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1a4c25e6fa00d5fc8469516eb233c65910)
 * [getQuantityType](classsysc_1_1Variable.md#classsysc_1_1Variable_1a2fc80063d66ac8c7ed567e2e6ed3e568)
 * [getRealAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1adcebefb4b9e4c203ab09ee1114daad33)
+* [getStringAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1af48e1b411aad8440de1f391cc903b33c)
 * [getTensorType](classsysc_1_1Variable.md#classsysc_1_1Variable_1a3c019c1e2e4741e8ab87c8a8cd4f6d80)
 * [m\_dataType](classsysc_1_1Variable.md#classsysc_1_1Variable_1ac4eb02f9edaa4e49766aa9cb2e2774db)
 * [m\_displayName](classsysc_1_1Variable.md#classsysc_1_1Variable_1aae9c23878a85cd1118ab8dead6707585)
@@ -32,6 +35,7 @@ Provide a class for a System Coupling variable.
 * [m\_name](classsysc_1_1Variable.md#classsysc_1_1Variable_1ac20511c2d9ba3e31d7f31721ab5936ee)
 * [m\_quantityType](classsysc_1_1Variable.md#classsysc_1_1Variable_1a2bd0ba4f561b8d54176123bb0ef19f9c)
 * [m\_realAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1a47bf7c610985ee4030cfb10118777b7b)
+* [m\_stringAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1abbd1046562fdb2d30d2af493f6b37811)
 * [m\_tensorType](classsysc_1_1Variable.md#classsysc_1_1Variable_1af2dde3c98eebacd5b74e684877fe8782)
 * [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable_1a8c63f1c834c6dee8663b8917764af438)
 * [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable_1a297f20a1e01064edb71c7ba7581ef585)
@@ -47,7 +51,7 @@ Provide a class for a System Coupling variable.
 
 ![][private]
 
-**Definition**: `Variable.hpp` (line 227)
+**Definition**: `Variable.hpp` (line 236)
 
 ```cpp
 VariableName sysc::Variable::m_name
@@ -66,7 +70,7 @@ Unique name for this variable.
 
 ![][private]
 
-**Definition**: `Variable.hpp` (line 228)
+**Definition**: `Variable.hpp` (line 237)
 
 ```cpp
 QuantityType sysc::Variable::m_quantityType
@@ -85,7 +89,7 @@ Quantity type (e.g. temperature)
 
 ![][private]
 
-**Definition**: `Variable.hpp` (line 229)
+**Definition**: `Variable.hpp` (line 238)
 
 ```cpp
 Location sysc::Variable::m_location
@@ -104,7 +108,7 @@ Location (e.g element or node).
 
 ![][private]
 
-**Definition**: `Variable.hpp` (line 230)
+**Definition**: `Variable.hpp` (line 239)
 
 ```cpp
 DisplayName sysc::Variable::m_displayName
@@ -123,7 +127,7 @@ User-friendly name.
 
 ![][private]
 
-**Definition**: `Variable.hpp` (line 231)
+**Definition**: `Variable.hpp` (line 240)
 
 ```cpp
 TensorType sysc::Variable::m_tensorType
@@ -142,7 +146,7 @@ Tensor type (e.g. scalar, vector).
 
 ![][private]
 
-**Definition**: `Variable.hpp` (line 232)
+**Definition**: `Variable.hpp` (line 241)
 
 ```cpp
 bool sysc::Variable::m_isExtensive
@@ -161,7 +165,7 @@ Extensive property flag.
 
 ![][private]
 
-**Definition**: `Variable.hpp` (line 233)
+**Definition**: `Variable.hpp` (line 242)
 
 ```cpp
 DataType sysc::Variable::m_dataType
@@ -180,7 +184,7 @@ Data type (e.g. real, complex).
 
 ![][private]
 
-**Definition**: `Variable.hpp` (line 235)
+**Definition**: `Variable.hpp` (line 244)
 
 ```cpp
 std::vector<RealAttribute> sysc::Variable::m_realAttributes
@@ -199,7 +203,7 @@ std::vector<RealAttribute> sysc::Variable::m_realAttributes
 
 ![][private]
 
-**Definition**: `Variable.hpp` (line 236)
+**Definition**: `Variable.hpp` (line 245)
 
 ```cpp
 std::vector<IntegerAttribute> sysc::Variable::m_integerAttributes
@@ -212,6 +216,25 @@ std::vector<IntegerAttribute> sysc::Variable::m_integerAttributes
 
 
 **Type**: std::vector< [IntegerAttribute](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute) >
+
+<a id="classsysc_1_1Variable_1abbd1046562fdb2d30d2af493f6b37811"></a>
+### Variable m\_stringAttributes
+
+![][private]
+
+**Definition**: `Variable.hpp` (line 246)
+
+```cpp
+std::vector<StringAttribute> sysc::Variable::m_stringAttributes
+```
+
+
+
+
+
+
+
+**Type**: std::vector< [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute) >
 
 ## Public functions
 
@@ -662,6 +685,27 @@ Add an integer-valued attribute.
 
 **Return type**: void
 
+<a id="classsysc_1_1Variable_1a9ea91498c43af1c2f00d5009066179a0"></a>
+### Function addStringAttribute
+
+![][public]
+
+```cpp
+void sysc::Variable::addStringAttribute(const StringAttribute &attribute)
+```
+
+Add a string-valued attribute.
+
+
+
+
+
+**Parameters**:
+
+* const [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute) & **attribute**
+
+**Return type**: void
+
 <a id="classsysc_1_1Variable_1ae04462134077986b650ee9c6df9e5151"></a>
 ### Function getNumRealAttributes
 
@@ -691,6 +735,24 @@ std::size_t sysc::Variable::getNumIntegerAttributes() const noexcept
 ```
 
 Returns the number of integer-valued attributes.
+
+
+
+
+
+**Return type**: std::size_t
+
+<a id="classsysc_1_1Variable_1a4c25e6fa00d5fc8469516eb233c65910"></a>
+### Function getNumStringAttributes
+
+![][public]
+![][const]
+
+```cpp
+std::size_t sysc::Variable::getNumStringAttributes() const noexcept
+```
+
+Returns the number of string-valued attributes.
 
 
 
@@ -741,6 +803,28 @@ Return the integer-valued attribute at the given index.
 * std::size_t **index**
 
 **Return type**: const [IntegerAttribute](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute) &
+
+<a id="classsysc_1_1Variable_1af48e1b411aad8440de1f391cc903b33c"></a>
+### Function getStringAttribute
+
+![][public]
+![][const]
+
+```cpp
+const StringAttribute& sysc::Variable::getStringAttribute(std::size_t index) const
+```
+
+Return the string-valued attribute at the given index.
+
+
+
+
+
+**Parameters**:
+
+* std::size_t **index**
+
+**Return type**: const [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute) &
 
 [public]: https://img.shields.io/badge/-public-brightgreen (public)
 [C++]: https://img.shields.io/badge/language-C%2B%2B-blue (C++)

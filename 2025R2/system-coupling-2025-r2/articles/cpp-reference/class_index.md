@@ -20,6 +20,7 @@
 * [sysc::PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud): Provide a point cloud access class.
 * [sysc::RealAttribute](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute): Provide a class for a real-valued attribute.
 * [sysc::Region](classsysc_1_1Region.md#classsysc_1_1Region): Provide a class for a System Coupling region.
+* [sysc::StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute): Provide a class for a string-valued attribute.
 * [sysc::SurfaceMesh](classsysc_1_1SurfaceMesh.md#classsysc_1_1SurfaceMesh): Provide a surface mesh access class.
 * [sysc::SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling): Provide the main class for interacting with the System Coupling participant library.
 * [sysc::Variable](classsysc_1_1Variable.md#classsysc_1_1Variable): Provide a class for a System Coupling variable.

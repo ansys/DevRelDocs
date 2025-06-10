@@ -12,6 +12,7 @@
 
 * [sysc::RealAttribute](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute)
 * [sysc::IntegerAttribute](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute)
+* [sysc::StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute)
 * [sysc::Dimensionality](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality)
 * [sysc::TimeStep](structsysc_1_1TimeStep.md#structsysc_1_1TimeStep)
 * [sysc::SolutionControl](structsysc_1_1SolutionControl.md#structsysc_1_1SolutionControl)
@@ -1865,48 +1866,6 @@ Connection must be initialized (i.e. [sysc::SystemCoupling](classsysc_1_1SystemC
 
 **Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
 
-<a id="Datashipper_8hpp_1a536f7a434c2e5b36d033cdce99072b8a"></a>
-### Function rearrange
-
-![][public]
-
-```cpp
-void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(OutputScalarData source)
-```
-
-Same function as <code>rearrange(OutputScalarData source, InputScalarData target)</code>, but assumes empty target locally.
-
-
-
-
-
-**Parameters**:
-
-* [OutputScalarData](classsysc_1_1OutputScalarData.md#classsysc_1_1OutputScalarData) **source**
-
-**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
-
-<a id="Datashipper_8hpp_1ae9dbe384c0799aa4c0ee244c4fb3d3b2"></a>
-### Function rearrange
-
-![][public]
-
-```cpp
-void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(InputScalarData target)
-```
-
-Same function as <code>rearrange(OutputScalarData source, InputScalarData target)</code>, but assumes empty source locally.
-
-
-
-
-
-**Parameters**:
-
-* [InputScalarData](classsysc_1_1InputScalarData.md#classsysc_1_1InputScalarData) **target**
-
-**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
-
 <a id="Datashipper_8hpp_1a31beddf1436d2416b97f69fb1f09313a"></a>
 ### Function rearrange
 
@@ -1925,48 +1884,6 @@ Similar function as <code>rearrange(OutputScalarData source, InputScalarData tar
 **Parameters**:
 
 * [OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData) **source**
-* [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData) **target**
-
-**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
-
-<a id="Datashipper_8hpp_1a0c6152254e60d336cb0a64270f7ffbe0"></a>
-### Function rearrange
-
-![][public]
-
-```cpp
-void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(OutputVectorData source)
-```
-
-Same function as <code>rearrange(OutputVectorData source, InputVectorData target)</code>, but assumes empty target locally.
-
-
-
-
-
-**Parameters**:
-
-* [OutputVectorData](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData) **source**
-
-**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
-
-<a id="Datashipper_8hpp_1a9e13aa8466737e21a74730f8c570f1db"></a>
-### Function rearrange
-
-![][public]
-
-```cpp
-void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(InputVectorData target)
-```
-
-Same function as <code>rearrange(OutputVectorData source, InputVectorData target)</code>, but assumes empty source locally.
-
-
-
-
-
-**Parameters**:
-
 * [InputVectorData](classsysc_1_1InputVectorData.md#classsysc_1_1InputVectorData) **target**
 
 **Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
@@ -1993,48 +1910,6 @@ Similar function as <code>rearrange(OutputScalarData source, InputScalarData tar
 
 **Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
 
-<a id="Datashipper_8hpp_1a31154f2279492de6bdd155c638ab153a"></a>
-### Function rearrange
-
-![][public]
-
-```cpp
-void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(OutputIntegerData source)
-```
-
-Same function as <code>rearrange(OutputIntegerData source, InputIntegerData target)</code>, but assumes empty target locally.
-
-
-
-
-
-**Parameters**:
-
-* [OutputIntegerData](classsysc_1_1OutputIntegerData.md#classsysc_1_1OutputIntegerData) **source**
-
-**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
-
-<a id="Datashipper_8hpp_1a389f8dbbc03c72e04648df49bb759f86"></a>
-### Function rearrange
-
-![][public]
-
-```cpp
-void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(InputIntegerData target)
-```
-
-Same function as <code>rearrange(OutputIntegerData source, InputIntegerData target)</code>, but assumes empty source locally.
-
-
-
-
-
-**Parameters**:
-
-* [InputIntegerData](classsysc_1_1InputIntegerData.md#classsysc_1_1InputIntegerData) **target**
-
-**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
-
 <a id="Datashipper_8hpp_1a16a75516f9b72b42ba82ba9b390a938d"></a>
 ### Function rearrange
 
@@ -2053,48 +1928,6 @@ This function is analogous to <code>rearrange(OutputScalarData source, InputScal
 **Parameters**:
 
 * [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud) **source**
-* [InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud) **target**
-
-**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
-
-<a id="Datashipper_8hpp_1abe9be964c7ac120a06b43fb0e730d0a4"></a>
-### Function rearrange
-
-![][public]
-
-```cpp
-void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(PointCloud source)
-```
-
-Same function as <code>rearrange(PointCloud source, InputPointCloud target)</code>, but assumes empty target locally.
-
-
-
-
-
-**Parameters**:
-
-* [PointCloud](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud) **source**
-
-**Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
-
-<a id="Datashipper_8hpp_1a36112ccd3813e1b463ced1fc13f7c6cc"></a>
-### Function rearrange
-
-![][public]
-
-```cpp
-void SYSTEM_COUPLING_PARTICIPANT_DLL sysc::rearrange(InputPointCloud target)
-```
-
-Same function as <code>rearrange(PointCloud source, InputPointCloud target)</code>, but assumes empty source locally.
-
-
-
-
-
-**Parameters**:
-
 * [InputPointCloud](structsysc_1_1InputPointCloud.md#structsysc_1_1InputPointCloud) **target**
 
 **Return type**: void SYSTEM_COUPLING_PARTICIPANT_DLL
