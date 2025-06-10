@@ -16,6 +16,8 @@
 * [addRegion](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1afd8d4beebb3a46d80c9f9fcddc385db2) Function
 * [addSideOneRegion](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1ab7a385065f0fde034baa88a88f274946) Function
 * [addSideTwoRegion](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a5afdb8ffa5c06d66fe30e6f150230b67) Function
+* [addStringAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1afe7e2a632aed3933b59dae2d0fbf8cb1) Function
+* [addStringAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1a9ea91498c43af1c2f00d5009066179a0) Function
 * [AEDT](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gga027fa6f9b7d7164dc4428aa4151c0eada69167616d87e60c33061de51f7aed6d1) Enumerator
 * [amountOfSubstance](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1aa0de60275ce09315d344f2a96f397cca) Variable
 * [analysisType](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo_1a45906ec4c888b7d0fbd42066f318284b) Variable
@@ -253,6 +255,7 @@
 * [getName](classsysc_1_1Parameter.md#classsysc_1_1Parameter_1aeb9269ef83cd91e544362ae9a9e1eae3) Function
 * [getName](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute_1afa2d15feabc90d93113124609e76b765) Function
 * [getName](classsysc_1_1Region.md#classsysc_1_1Region_1a027b247f71dca6060a9d4f8fe029b690) Function
+* [getName](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1a33aeab216103cc03b94fc47a5b86a46d) Function
 * [getName](classsysc_1_1Variable.md#classsysc_1_1Variable_1ab138ad8ce29f89d62b7b5c1a4c496e19) Function
 * [getNodeCoords](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a7af3e505ed55ed9e9ad01ffc1dbf03c0) Function
 * [getNodeCoords](classsysc_1_1SurfaceMesh.md#classsysc_1_1SurfaceMesh_1a9e5add5718e83f6144004bacc2650d14) Function
@@ -281,6 +284,8 @@
 * [getNumRegions](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1af1cac0616352ad6998eefad0593c8ffb) Function
 * [getNumSideOneRegions](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a84873c1535d70a88096d44242c97a1b7) Function
 * [getNumSideTwoRegions](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1a03a32678f212092a83149ea2b0c54f20) Function
+* [getNumStringAttributes](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1af757a39bdfd82702d7879af71ed835db) Function
+* [getNumStringAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1a4c25e6fa00d5fc8469516eb233c65910) Function
 * [getOutputParameter](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1acd9357a14b747921037daa0c24c9bc1b) Function
 * [getOutputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1a7ebc9675c1f8e56560409233469e4932) Function
 * [getOutputVariable](classsysc_1_1Region.md#classsysc_1_1Region_1aabcde4869fae1d5f3bed4a4ee7277ef9) Function
@@ -301,6 +306,9 @@
 * [getSolutionControl](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ace4a88af60a1aa93a68fa4b071592413) Function
 * [getSourceSide](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1a7788b20c57fe5479500101f705d0aaf8) Function
 * [getSourceVariable](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1aceb91e53a56a9ef07b94c987296ffbcd) Function
+* [getStringAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a6aff5352468a4c1065e167faa3a02ae2) Function
+* [getStringAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1af48e1b411aad8440de1f391cc903b33c) Function
+* [getStringAttributeValue](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a5fc4695ae6b5bb6e7cd706cb976d3f40) Function
 * [getTargetSide](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1a737e25f50bae13a64f047a7b84d5e378) Function
 * [getTargetVariable](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1a7782efd24aafc93df895f2a10ad4fb60) Function
 * [getTensorType](classsysc_1_1Variable.md#classsysc_1_1Variable_1a3c019c1e2e4741e8ab87c8a8cd4f6d80) Function
@@ -308,6 +316,7 @@
 * [getUnits](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute_1a7a821f54d2cfc1427af46a5557fde959) Function
 * [getValue](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute_1a7988b7e0be9211f02cc9c2c27222bddd) Function
 * [getValue](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute_1ac9132b5406b7c93c4fe2cce45bb8d31c) Function
+* [getValue](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1adbe87236601b9b9a63feb0a875498d7e) Function
 
 ## H
 
@@ -437,6 +446,7 @@
 * [isInvalid](structsysc_1_1MeshValidityStatus.md#structsysc_1_1MeshValidityStatus_1a3ee3cb844b3594fb7c3be7fce89a4f62) Variable
 * [isModifiable](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute_1a3160540026ecf02ec23169089c9b1137) Function
 * [isModifiable](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute_1acaab66de9536925d8e187d7eeeeff3a8) Function
+* [isModifiable](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1afb8acdca0d571ae39e54091fd9d28f52) Function
 * [isRootServerCreated](namespacesysc.md#SyscComm_8hpp_1a406b211aa7cab59559ff1ea93d28e86f) Function
 * [isSplitComplex](classsysc_1_1InputComplexScalarData.md#classsysc_1_1InputComplexScalarData_1a77de5929a7ea7631649982e5fb3104da) Function
 * [isSplitComplex](classsysc_1_1InputComplexVectorData.md#classsysc_1_1InputComplexVectorData_1acb66a63b6228b76afd0e0c1e98167feb) Function
@@ -522,11 +532,13 @@
 * [m\_location](classsysc_1_1Variable.md#classsysc_1_1Variable_1a4a1d07595ae473531868f4f3fce6b875) Variable
 * [m\_modifiable](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute_1ace37e743b8d79b5e822d6dcf1c589c3c) Variable
 * [m\_modifiable](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute_1af5804153bc3fa286fd94195110af1c2a) Variable
+* [m\_modifiable](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1afea355b26d47d73a6a957afd1ac1deae) Variable
 * [m\_name](classsysc_1_1CouplingInterface.md#classsysc_1_1CouplingInterface_1aafbe3ef2afb0e2f496d4bb7d90998063) Variable
 * [m\_name](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute_1a67c2e22a922c2ee6fe4eb7f2861bbda1) Variable
 * [m\_name](classsysc_1_1Parameter.md#classsysc_1_1Parameter_1ae96949384d110b3787d58695a23faf02) Variable
 * [m\_name](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute_1a62e520d7d57c79bf373ba46d6e2c33fd) Variable
 * [m\_name](classsysc_1_1Region.md#classsysc_1_1Region_1ae8f94bc5f16adb5d4fba2475518de0e6) Variable
+* [m\_name](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1a53e3c4a6e018a1fdd9dac6f7331906c0) Variable
 * [m\_name](classsysc_1_1Variable.md#classsysc_1_1Variable_1ac20511c2d9ba3e31d7f31721ab5936ee) Variable
 * [m\_nodeCoords](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a99024220a781ee1500a1c6ca3dd9d608) Variable
 * [m\_nodeIds](classsysc_1_1PointCloud.md#classsysc_1_1PointCloud_1a29034e5e4d5516dd9fa3be286ecc98fe) Variable
@@ -557,12 +569,14 @@
 * [m\_size](classsysc_1_1OutputVectorData.md#classsysc_1_1OutputVectorData_1a1ef4bf17f73bd6ef1fb8c9c03dc10f67) Variable
 * [m\_sourceVariable](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1a6ee52e13f6f319cb2834615dd0a2769a) Variable
 * [m\_str](classsysc_1_1NonFatalError.md#classsysc_1_1NonFatalError_1aa34688645322b17d666940b619a0b8af) Variable
+* [m\_stringAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1abbd1046562fdb2d30d2af493f6b37811) Variable
 * [m\_targetSide](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1a37cef8a76bd2a277bdc0884160cc4b57) Variable
 * [m\_targetVariable](classsysc_1_1DataTransfer.md#classsysc_1_1DataTransfer_1a3e549fdfc54ed56822a7aec8252debcf) Variable
 * [m\_tensorType](classsysc_1_1Variable.md#classsysc_1_1Variable_1af2dde3c98eebacd5b74e684877fe8782) Variable
 * [m\_topology](classsysc_1_1Region.md#classsysc_1_1Region_1af75329d37083b141a9414d0b52947ddb) Variable
 * [m\_value](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute_1a4aec60e453ab5f3d27d35f736312bd45) Variable
 * [m\_value](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute_1a6457405f9c984cc0f8cf1dd7e74514af) Variable
+* [m\_value](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1a8a7b21a53592e456b6bfcc5a2cb04166) Variable
 * [MAPDL](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gga027fa6f9b7d7164dc4428aa4151c0eada6913fdfd6da5ea7a03738db6b7bc05dd) Enumerator
 * [mass](structsysc_1_1Dimensionality.md#structsysc_1_1Dimensionality_1a2c0c1f872bf38f54714f4d3c080a0722) Variable
 * [maximumIterations](structsysc_1_1SolutionControl.md#structsysc_1_1SolutionControl_1a0c973b27756ebeaf6fbe6d456c13b697) Variable
@@ -799,17 +813,9 @@
 * [RealAttribute](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute_1ad46b89c811a79901af549e50173ca5f8) Function
 * [RealAttribute](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute_1a5fc9075ddc9f02df2fba129abdddfe85) Function
 * [rearrange](namespacesysc.md#Datashipper_8hpp_1aec7b7f49f20e797297505a85e0dc410a) Function
-* [rearrange](namespacesysc.md#Datashipper_8hpp_1a536f7a434c2e5b36d033cdce99072b8a) Function
-* [rearrange](namespacesysc.md#Datashipper_8hpp_1ae9dbe384c0799aa4c0ee244c4fb3d3b2) Function
 * [rearrange](namespacesysc.md#Datashipper_8hpp_1a31beddf1436d2416b97f69fb1f09313a) Function
-* [rearrange](namespacesysc.md#Datashipper_8hpp_1a0c6152254e60d336cb0a64270f7ffbe0) Function
-* [rearrange](namespacesysc.md#Datashipper_8hpp_1a9e13aa8466737e21a74730f8c570f1db) Function
 * [rearrange](namespacesysc.md#Datashipper_8hpp_1a3e73aa9be927d6eb71c55d3c240a1ba8) Function
-* [rearrange](namespacesysc.md#Datashipper_8hpp_1a31154f2279492de6bdd155c638ab153a) Function
-* [rearrange](namespacesysc.md#Datashipper_8hpp_1a389f8dbbc03c72e04648df49bb759f86) Function
 * [rearrange](namespacesysc.md#Datashipper_8hpp_1a16a75516f9b72b42ba82ba9b390a938d) Function
-* [rearrange](namespacesysc.md#Datashipper_8hpp_1abe9be964c7ac120a06b43fb0e730d0a4) Function
-* [rearrange](namespacesysc.md#Datashipper_8hpp_1a36112ccd3813e1b463ced1fc13f7c6cc) Function
 * [reduceAnd](namespacesysc.md#SyscComm_8hpp_1a7dfc4e837c274f4101120cb95b0d6117) Function
 * [reduceMax](namespacesysc.md#SyscComm_8hpp_1ae23b912a93ea9234dd8ba913c9dcd943) Function
 * [reduceSum](namespacesysc.md#SyscComm_8hpp_1a3634907b260bd70e565d315659ad90c1) Function
@@ -899,6 +905,8 @@
 * [startTime](structsysc_1_1TimeStep.md#structsysc_1_1TimeStep_1a115810021ec63279be6a82d5deb853c2) Variable
 * [std](namespacestd.md#namespacestd) Namespace
 * [Steady](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ggaffd523474fbd708f481a712f1841a967aed2022bd80a52b241675f1bf5a1418f2) Enumerator
+* [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1a772d8bd459e5f582deac1a611767fe22) Function
+* [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1ae97a688e0fb2609aa44cef6e139ade08) Function
 * [Surface](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ggadbbc75f28fce0c9b5b31fa64bb8b1e39a6fc82413309f82daff44c6e85922b314) Enumerator
 * [SurfaceMesh](classsysc_1_1SurfaceMesh.md#classsysc_1_1SurfaceMesh_1ae8dbea460cf8d1076a09229dc8b84c8c) Function
 * [SurfaceMesh](classsysc_1_1SurfaceMesh.md#classsysc_1_1SurfaceMesh_1a7345e4cf4c0242275e9d2b2e31d565be) Function
@@ -951,6 +959,7 @@
 * [sysc::SetupFileInfo](structsysc_1_1SetupFileInfo.md#structsysc_1_1SetupFileInfo) Structure
 * [sysc::SetupInfo](structsysc_1_1SetupInfo.md#structsysc_1_1SetupInfo) Structure
 * [sysc::SolutionControl](structsysc_1_1SolutionControl.md#structsysc_1_1SolutionControl) Structure
+* [sysc::StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute) Class
 * [sysc::SurfaceMesh](classsysc_1_1SurfaceMesh.md#classsysc_1_1SurfaceMesh) Class
 * [sysc::SystemCoupling](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling) Class
 * [sysc::TimeStep](structsysc_1_1TimeStep.md#structsysc_1_1TimeStep) Structure

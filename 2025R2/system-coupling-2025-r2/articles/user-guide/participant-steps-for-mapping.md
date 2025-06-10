@@ -3,8 +3,7 @@
 ## Steps to perform mapping
 
 This section describes the mapping workflow. It also provides
-simple APIs implementation examples, so it can be used to familiarize
-with the basic participant library API concepts.
+simple APIs implementation examples.
 The details of the mapping algorithms can be found in the System Coupling User's Guide.
 
 The steps involved in setting up and executing mapping of data are shown in
@@ -36,23 +35,8 @@ See [Execution in a Parallel Environment](09_ParallelExecution.md) for more deta
 
 #### Mapping across multiple applications
 
-SCP library provides the ability to perform mapping between multiple
-(possibly distributed parallel) applications. If such functionality
-is required, additional steps should be performed first.
-
-The initial handshaking between the applications must be first established to allow for the
-exchange of data between multiple processes. This is done by designating
-one of the processes as the global root process. The global root process
-must create a remote server using `sysc::createRootServer()` function.
-The remaining processes would need to connect to the global root server
-using host and port information returned from that function. On non-root processes,
-this information is set in the `sysc::ParticipantInfo` structure (`scHost` and `scPort`
-members). On the root process, the total number of applications must be set
-in the `sysc::ParticipantInfo` structure (`numApps` member).
-Once the values in the ParticipantInfo structure are assigned, the
-structure should be passed into the constructor of the `sysc::SystemCoupling` class.
-The connections will be established automatically during the constructor.
-Once this is done, Step 1 is complete.
+See [Steps to perform data transfers](participant-steps-for-data-transfers.md) for details on
+how to establish communication between multiple applications using SCP library.
 
 ### Step 2: Set up mapping
 
