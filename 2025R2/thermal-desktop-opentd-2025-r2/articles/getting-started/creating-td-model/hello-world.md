@@ -1,8 +1,10 @@
 # Hello World (Start TD and create a node)
 
-Let’s create a simple OpenTD program. Start by creating a `C#` console application in Visual Studio. Look for the template called “Console App (.NET Framework)”, not “.NET Core” or “.NET Standard”. It should look something like this:
+Let’s create a simple OpenTD client program that will interact with Thermal Desktop. Currently this sort of program requires AutoCAD 2018 through 2024. It will not work with AutoCAD 2025 and above.
 
-![A screenshot of a computer screen Description automatically generated with low confidence](../media/d47e44c0a654c0607631af3cacc32f6a.png)
+Start by creating a `C#` console application in Visual Studio. Look for the template called “Console App (.NET Framework)”, not “.NET Core” or “.NET Standard”. It should look something like this:
+
+![.NET Framework Console app description from Visual Studio](../media/d47e44c0a654c0607631af3cacc32f6a.png)
 
 Next, add a reference to the `OpenTD.dll` assembly, which you can find in the GAC (Try looking under C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\OpenTD.) If there are multiple directories, use the one with the highest Assembly Version, which you will see in the directory name, for example “…_25.2.4.0__...”.
 
