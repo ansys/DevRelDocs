@@ -211,11 +211,15 @@ sysc::RealAttribute ra1("realAttribute1", 2.7182, attrDim);
 sysc::RealAttribute ra2("realAttribute2", 1.0, sysc::Dimensionality(), false);
 sysc::IntegerAttribute ia1("intAttribute1", 42);
 sysc::IntegerAttribute ia2("intAttribute2", -12, true);
+sysc::StringAttribute sa1("strAttribute1", "modifiable attribute");
+sysc::StringAttribute sa2("strAttribute2", "non-modifiable attribute");
 
 sc.addRealAttribute(ra1);
 sc.addRealAttribute(ra2);
-sc.addRealAttribute(ia1);
-sc.addRealAttribute(ia2);
+sc.addIntegerAttribute(ia1);
+sc.addIntegerAttribute(ia2);
+sc.addStringAttribute(sa1);
+sc.addStringAttribute(sa2);
 ```
 
 #### C
@@ -286,8 +290,8 @@ syscIntegerAttribute ia2 = syscGetIntegerAttributeVM("intAttribute2", -12, true)
 
 ret = syscAddRealAttribute(ra1);
 ret = syscAddRealAttribute(ra2);
-ret = syscAddRealAttribute(ia1);
-ret = syscAddRealAttribute(ia2);
+ret = syscAddIntegerAttribute(ia1);
+ret = syscAddIntegerAttribute(ia2);
 ```
 
 #### Fortran

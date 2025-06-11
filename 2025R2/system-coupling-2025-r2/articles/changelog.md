@@ -1,5 +1,39 @@
 # Changelog
 
+## Release notes for 2025 R2
+
+### ABI change for C++ API on linux
+
+The C++ version of the participant library is now compiled with ABI=1 on linux. The compiler flag  `-D_GLIBCXX_USE_CXX11_ABI=0` is no longer required. See the migration notes for more details.
+
+### Attributes
+
+Attributes, both at the variable and participant level, may now be string-valued. This is in addition to the existing real and integer attributes.
+
+### Debugging
+
+Improvements were made to debugging output of regions and variables when using the python APIs. More information is provided when printing the objects.
+
+### Explicit to/from Implicit participant data transfer behavior
+
+Handling of data transfers between implicit and explicit participants has been improved. Data from explicit participants are now available in an implicit participant prior to entering the iteration loop.
+
+### Mapping is now possible between two or more applications
+
+It is now possible to connect multiple independent applications and perform mapping between
+them using SCP library. These applications can be distributed parallel applications. This is
+currently only available via C++ or Python interfaces.
+
+See [Steps to perform mapping](user-guide/participant-steps-for-mapping.md) for more information.
+
+### Data transfer is now possible between two or more applications
+
+It is now possible to transfer some basic data structures (scalar, vector, and integer arrays)
+between multiple independent applications, even if they are distributed parallel applications.
+This is currently only available via C++ or Python interfaces.
+
+See [Steps to perform parallel data transfers](user-guide/participant-steps-for-data-transfers.md) for more information.
+
 ## Release notes for 2025 R1
 
 There are no API-breaking changes when updating from version 24.2 to version 25.1.

@@ -590,6 +590,15 @@
 * [sysc::SolutionControl](structsysc_1_1SolutionControl.md#structsysc_1_1SolutionControl) Structure
   * [minimumIterations](structsysc_1_1SolutionControl.md#structsysc_1_1SolutionControl_1a6c84cc77b261df44b0f7f339f77a526b) Variable
   * [maximumIterations](structsysc_1_1SolutionControl.md#structsysc_1_1SolutionControl_1a0c973b27756ebeaf6fbe6d456c13b697) Variable
+* [sysc::StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute) Class
+  * [m\_name](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1a53e3c4a6e018a1fdd9dac6f7331906c0) Variable
+  * [m\_value](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1a8a7b21a53592e456b6bfcc5a2cb04166) Variable
+  * [m\_modifiable](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1afea355b26d47d73a6a957afd1ac1deae) Variable
+  * [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1a772d8bd459e5f582deac1a611767fe22) Function
+  * [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1ae97a688e0fb2609aa44cef6e139ade08) Function
+  * [getName](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1a33aeab216103cc03b94fc47a5b86a46d) Function
+  * [getValue](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1adbe87236601b9b9a63feb0a875498d7e) Function
+  * [isModifiable](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute_1afb8acdca0d571ae39e54091fd9d28f52) Function
 * [sysc::SurfaceMesh](classsysc_1_1SurfaceMesh.md#classsysc_1_1SurfaceMesh) Class
   * [connectivityStamp](classsysc_1_1SurfaceMesh.md#classsysc_1_1SurfaceMesh_1aa0399097b006a460acab8136f5b546c8) Variable
   * [coordinatesStamp](classsysc_1_1SurfaceMesh.md#classsysc_1_1SurfaceMesh_1a26e8d40282423e06168eb558359e6b4f) Variable
@@ -650,12 +659,14 @@
   * [addOutputParameter](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aefc367f59f86420aaaa425d7d24b071c) Function
   * [addRealAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ab298f64d5d97a11f59650605c062d38a) Function
   * [addIntegerAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a85e574ea482ec764a16b7ee64beda3de) Function
+  * [addStringAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1afe7e2a632aed3933b59dae2d0fbf8cb1) Function
   * [addCouplingInterface](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ae4c93f4502c9df950fddddab3aab5eec) Function
   * [addCouplingInterface](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ae1f7fe88e678c07cde61acff8742b608) Function
   * [getParameterValue](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aefb34bf071d430de2dd4f1be1dc74e84) Function
   * [setParameterValue](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aca0700c21a60e92e3b67c0e50a575133) Function
   * [getRealAttributeValue](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a8ec3e49911120cd590ec285456de40ac) Function
   * [getIntegerAttributeValue](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a4c59f4d91ed51f811b9a8af91129250e) Function
+  * [getStringAttributeValue](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a5fc4695ae6b5bb6e7cd706cb976d3f40) Function
   * [registerInputScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a60439772708be217b06f07f8554d5abd) Function
   * [registerInputScalarDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a61c7be7c0e7ab939f27b49b015fbd8d0) Function
   * [registerInputVectorDataAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aac58f07f6eaa259959f39eefa3a48275) Function
@@ -705,8 +716,10 @@
   * [getNumOutputParameters](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a6b0bc9b6b4c6155f573c94376e37ba8d) Function
   * [getNumRealAttributes](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a7d91d3013cc5c826f91d42f6e8f5c6d8) Function
   * [getNumIntegerAttributes](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aeeb32be00caa7d33c4ddd9b28f80a3a0) Function
+  * [getNumStringAttributes](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1af757a39bdfd82702d7879af71ed835db) Function
   * [getRealAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1adac66a89bdba3cc298631045b659fba1) Function
   * [getIntegerAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a47057e45b7637d4709138c5f64d7e0d4) Function
+  * [getStringAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a6aff5352468a4c1065e167faa3a02ae2) Function
   * [completeCouplingSetup](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a6d389ee7e0740e0348919cd3b7d956f7) Function
   * [completeCouplingSetup](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ae07c136aa42d636df179cc7352065430) Function
   * [registerInputScalarVariableAccess](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a7f6ec98123d0c18a6fce5c51d9af5e28) Function
@@ -741,6 +754,7 @@
   * [m\_dataType](classsysc_1_1Variable.md#classsysc_1_1Variable_1ac4eb02f9edaa4e49766aa9cb2e2774db) Variable
   * [m\_realAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1a47bf7c610985ee4030cfb10118777b7b) Variable
   * [m\_integerAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1a126e3b60b46e345b821ffaa9cd9748f1) Variable
+  * [m\_stringAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1abbd1046562fdb2d30d2af493f6b37811) Variable
   * [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable_1a8c63f1c834c6dee8663b8917764af438) Function
   * [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable_1a297f20a1e01064edb71c7ba7581ef585) Function
   * [Variable](classsysc_1_1Variable.md#classsysc_1_1Variable_1a3146070b07403f263b1bed17cc129764) Function
@@ -756,10 +770,13 @@
   * [getDataType](classsysc_1_1Variable.md#classsysc_1_1Variable_1aa65c2a0ffe7c327972721faf2bffc5b7) Function
   * [addRealAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1ab296b04988b750113600bcc4e302ae3c) Function
   * [addIntegerAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1ae6fed92c7d5f748b3e26898af932eb46) Function
+  * [addStringAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1a9ea91498c43af1c2f00d5009066179a0) Function
   * [getNumRealAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1ae04462134077986b650ee9c6df9e5151) Function
   * [getNumIntegerAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1a9a427e97dd6a88dae5e89ca7e640eba7) Function
+  * [getNumStringAttributes](classsysc_1_1Variable.md#classsysc_1_1Variable_1a4c25e6fa00d5fc8469516eb233c65910) Function
   * [getRealAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1adcebefb4b9e4c203ab09ee1114daad33) Function
   * [getIntegerAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1a7cbb6bced0257ebb7da8d709dbd05a30) Function
+  * [getStringAttribute](classsysc_1_1Variable.md#classsysc_1_1Variable_1af48e1b411aad8440de1f391cc903b33c) Function
 * [sysc::VolumeMesh](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh) Class
   * [connectivityStamp](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1adbab9e5317965d98b0e6b02c6ccce7b5) Variable
   * [coordinatesStamp](classsysc_1_1VolumeMesh.md#classsysc_1_1VolumeMesh_1a6415bcc1a32f7374c51d4894d68e338e) Variable
@@ -930,17 +947,9 @@
   * [OutputScalarVariableAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga81e8c19ed24a2ea0433af309188710a6) Typedef
   * [OutputVectorVariableAccess](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga4684b116da21b415e4e63ae927ba12ae) Typedef
   * [rearrange](namespacesysc.md#Datashipper_8hpp_1aec7b7f49f20e797297505a85e0dc410a) Function
-  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a536f7a434c2e5b36d033cdce99072b8a) Function
-  * [rearrange](namespacesysc.md#Datashipper_8hpp_1ae9dbe384c0799aa4c0ee244c4fb3d3b2) Function
   * [rearrange](namespacesysc.md#Datashipper_8hpp_1a31beddf1436d2416b97f69fb1f09313a) Function
-  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a0c6152254e60d336cb0a64270f7ffbe0) Function
-  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a9e13aa8466737e21a74730f8c570f1db) Function
   * [rearrange](namespacesysc.md#Datashipper_8hpp_1a3e73aa9be927d6eb71c55d3c240a1ba8) Function
-  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a31154f2279492de6bdd155c638ab153a) Function
-  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a389f8dbbc03c72e04648df49bb759f86) Function
   * [rearrange](namespacesysc.md#Datashipper_8hpp_1a16a75516f9b72b42ba82ba9b390a938d) Function
-  * [rearrange](namespacesysc.md#Datashipper_8hpp_1abe9be964c7ac120a06b43fb0e730d0a4) Function
-  * [rearrange](namespacesysc.md#Datashipper_8hpp_1a36112ccd3813e1b463ced1fc13f7c6cc) Function
   * [throwNonFatalError](namespacesysc.md#group__SystemCouplingParticipantAPIs_1ga75cd680a61b7057bc3683398c645c1e8) Function
   * [createRootServer](namespacesysc.md#SyscComm_8hpp_1a0302b93f4ce01f1d4521b4e0d45b4a1e) Function
   * [isRootServerCreated](namespacesysc.md#SyscComm_8hpp_1a406b211aa7cab59559ff1ea93d28e86f) Function

@@ -16,11 +16,8 @@ System Coupling interfaces are provided for the following target languages:
 | Python        | 3.10*                                                    |
 
 \* Only some Python interpreters are supported.
-The CPython interpreter located in `<ANSYSInstallationPath>/commonfiles/CPython` is supported on Windows and on Linux.
-On Windows, the Python 3.10 interpreter from [www.python.org](../www.python.org) is supported.
-The Python interpreter that comes with Microsoft Visual Studio is also supported on Windows.
-The Python interpreter that comes with Intel Parallel Studio is currently not supported.
-Other Python interpreters have not been tested.
+The CPython interpreter located in `<ANSYSInstallationPath>/commonfiles/CPython` is supported on Windows and on Linux,
+and it is the recommended interpreter. Other Python interpreters have not been tested.
 
 ## System Coupling participant library resources
 
@@ -48,13 +45,36 @@ Only `syscPartLib.fi` header file should be included into the source code.
 
 #### Python
 
-`pyExt.SystemCouplingParticipant` module should be imported in Python.
-However, first the following directory must be included in `PYTHONPATH` environment variable:
-`<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/bin`
+There are two approaches to use the participant library in Python:
+by using the wheel file (recommended), or by manually importing the
+library with the required Python module.
 
-In addition, due to a change in the behavior of python 3.8 and above on windows
-platforms, the following code should be added to the python code prior to import
-of the system coupling participant module:
+##### Using the wheel file (recommended)
+
+The wheel file for SCP library is located in the following directory:
+`<ANSYSInstallationPath>/SystemCoupling/wheels/partlib/dist`
+
+It can be pip-installed and as any other Python package. For example:
+`pip install ansys_systemcoupling_partlib-25.2.0-cp310-abi3-win_amd64.whl`
+
+Once pip-installed, it can be imported and used inside the Python script. For example:
+
+```python
+import ansys.systemcoupling.partlib as scp
+sc = scp.SystemCoupling()
+```
+
+##### Manually importing the library with the Python module
+
+`pyExt.SystemCouplingParticipant` module should be imported in Python.
+However, first the following directoies must be included in `PYTHONPATH` environment variable:
+- `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/bin`
+- `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/bin/compiler`
+- `<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/<platform>/stub`
+
+In addition, due to a change in the behavior of python 3.8 and above on Windows
+platforms, appropriate DLL directories must be added via `os.add_dll_directory` call.
+For example:
 
 ```python
 import os
@@ -62,7 +82,10 @@ import sys
 if sys.platform == "win32":
     os.add_dll_directory("<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/bin")
     os.add_dll_directory("<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/bin/compiler"))
-    os.add_dll_directory("<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/<platform>/<mpi>")
+    os.add_dll_directory("<ANSYSInstallationPath>/SystemCoupling/runTime/<platform>/cnlauncher/fluent/fluent<MultiportVersion>/multiport/mpi_wrapper/<platform>/stub")
+
+import pyExt.SystemCouplingParticipant as scp
+sc = scp.SystemCoupling()
 ```
 
 ### Link-time dependencies
