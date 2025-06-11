@@ -6,8 +6,7 @@
         "version": "2025 R2",
         "product": "System Coupling",
         "programming language": "C,C++,Fortran,Python",
-        "product collection": "Shared components",
-        "physics": "Multiphysics"
+        "physics": "Shared components"
       }
     }
  }
