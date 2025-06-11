@@ -35,7 +35,7 @@ elements. The meshes with default settings are shown in _Figure 1_.
 _Figure 1: Default pipe meshes_
 
 On each side, we initialize the nodal
-solution data with a simple linear profile \f$f(x,y,z) = 1x + 2y + 3z + 4\f$. On the **quad** region, we initialize
+solution data with a simple linear profile $f(x,y,z) = 1x + 2y + 3z + 4$. On the **quad** region, we initialize
 **linear1** variable, and on the **tri** region, we initialize the **linear2** variable.
 
 We then use the mapping capabilities within the Participant Library to transfer
