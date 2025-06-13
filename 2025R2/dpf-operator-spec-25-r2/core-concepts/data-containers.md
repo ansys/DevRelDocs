@@ -35,3 +35,7 @@ The time freq support describes an analysis'temporal or frequential space. For a
 ## Model
 
 The model is a helper designed to give shortcuts to the user to access a model's metadata and to instanciate results provider for this model. A Model is able to open a DataSources or a Streams to read the metadata and expose it to the user. The metadata is made of all the entities describing a model: its MeshedRegion, its TimeFreqSupport and it's ResultInfo. With the model, the user can easily access information about the mesh, about the time/freq steps and substeps used in the analysis and the list of available results.
+
+## Basic types
+
+
