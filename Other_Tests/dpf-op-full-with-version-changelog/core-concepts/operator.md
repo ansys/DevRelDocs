@@ -2,7 +2,7 @@
 
 The Operator is the only object used to create and transform the data. It can be seen as an integrated circuit in electronics with a range of pins in input and in output. When the operator is evaluated, it will process the input information to compute its output with respect to its description. The operator is made of:
 
-**IMAGE**
+![Operator](../images/operator_drawing.svg)
 
 - Inputs: the input pins allow the user to pass on his data to the operator. Dpf data container types, standard types or operators' outputs can be connected on the input pins (connecting an operator output to another operator input doesn't evaluate this input operator). The inputs allow the user to choose the time/frequencies on which to evaluate a result, to specify the files where to find a result, to provide a field on which he wants an operation to be computed... Optional input pins to customize even more the operator outputs. Here is some of the most common pins:
 
@@ -82,4 +82,4 @@ Operators can be chained together to create workflows. To do so, the user only n
 
 The workflow is built by chaining operators. It will evaluate the data processing defined by the used operators. It needs input information, and it will compute the requested output information. The workflow is used to create a black box computing more or less basic transformation of the data. The different operators contained by a workflow can be internally connected together so that the end user doesn't need to be aware of its complexity. The workflow only needs to expose the necessary inputs pin and output pins. For example, a workflow could expose a "time scoping" input pin and a "data sources" input pin and expose a "result" output pin and have very complex routines inside it. See workflows' examples in the APIs tab.
 
-**IMAGE**
+![Workflow](../images/workflow_drawing.svg)
