@@ -2,8 +2,6 @@
   href: index.md
 - name: Core concepts
   items:
-  - name: Overview of DPF
-    href: core-concepts/dpf-overview.md
   - name: Available types
     href: core-concepts/data-containers.md
   - name: Operator fundamentals
