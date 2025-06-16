@@ -48,7 +48,7 @@ DPF is developed around two core entities:
 Each DPF capability is developed through operators that allow for componentization of the framework. Because DPF is plugin-based, new features or formats can be easily added.
 
 
-## Install DPF
+# Install DPF
 
 DPF is available with the **Ansys installer** in Ansys 2021 R1 and later, or as a pre-release **DPF Server** standalone package for DPF 2023 R2 and later.
 
@@ -63,3 +63,29 @@ DPF is available with the **Ansys installer** in Ansys 2021 R1 and later, or as 
 ## Operating system compatibility
 
 DPF supports Windows 10 and Rocky Linux 8 and later. To run DPF on CentOS 7, use DPF for 2024 R2 (8.2) or later. For more information, see [Ansys Platform Support](https://www.ansys.com/it-solutions/platform-support).
+
+# Use DPF
+
+You must use one of the DPF client APIs to write scripts and send commands to DPF.
+
+DPF client APIs are currently available in three languages: C++, CPython, and IronPython (for Mechanical scripting).
+
+The following are documentations dedicated to each:
+
+- HGP documentation (C++):
+
+  - [DPF C++ Client library](https://developer.ansys.com/docs/dpf-cpp-client-library-2025-r1/index.xhtml) in the Developer Portal documentation for DPF.
+
+- PyDPF documentation (CPython):
+
+  - [PyDPF-Core documentation](https://dpf.docs.pyansys.com/version/stable/)
+
+  - [PyDPF-Post documentation](https://post.docs.pyansys.com/version/stable/)
+
+- Mechanical scripting (IronPython):
+
+  - [Data Processing Framework](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/act_script/mech_apis_data_process_frame.html)
+    in the *Scripting in Mechanical Guide*.
+  
+  - [Python Result](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/wb_sim/ds_python_result_dpf.html)
+    in the *Mechanical User's Guide*.
