@@ -46,3 +46,15 @@ DPF is developed around two core entities:
 - An **operator** to act upon this data
 
 Each DPF capability is developed through operators that allow for componentization of the framework. Because DPF is plugin-based, new features or formats can be easily added.
+
+
+## Install DPF
+
+DPF is available with the **Ansys installer** in Ansys 2021 R1 and later, or as a pre-release **DPF Server** standalone package for DPF 2023 R2 and later.
+
+- To install DPF using the Ansys installer, download the standard Ansys installation using your preferred
+  distribution channel, and install Ansys following the installer instructions. For information
+  on getting a licensed copy of Ansys, visit the [Ansys website](https://www.ansys.com/).
+
+- The DPF Server package provides pre-releases of DPF and is independent of the Ansys installer.
+  It is available on the [DPF Pre-Release page](https://download.ansys.com/Others/DPF%20Pre-Release) of the Ansys Customer Portal.
