@@ -1,39 +1,26 @@
 # Changelog
 
-## Version 2025 R1
+## Version 2025 R2
 
 ### New APIs
 
-- `exportProject()`: Exports selected project data/files into a .zip file.
-- `updatePartsListValidationProps()`: Sets properties for the Part List Validation analysis.
-- `addModelingRegion()`: Adds a list of modeling regions for display in a specified CCA's Layer Viewer.
-- `createCCAFromModelingRegion()`: Creates a list of CCAs from already existing modeling regions
-- `updateModelingRegion()`: Updates a list of existing modeling regions in a specified CCA's Layer Viewer.
-- `updatePottingRegion()`: Updates the fields in pre-existing potting region(s).
-- `deletePottingRegion()`: Deletes pre-existing potting region(s).
-- `copyPottingRegion()`: Copies pre-existing potting region(s).
-- `deleteModelingRegion()`: Deletes a list of existing modeling regions.
-- `copyModelingRegion()`: Copies a list of existing modeling regions.
-- `getPartsListValidationProps()`: Obtains the Parts List Validation analysis properties for a CCA.
+- `listLayers()`: Lists all available layers as seen in the Layer Viewer for a project CCA.
+- `exportLayerImage()`: Exports one or more 2D Layer Viewer images from a project CCA.
+- `updateComponentFailureMechanismProps()`: Updates the Component Failure Mechanism analysis properties.
+- `getSolderInfo()`: Returns solder information including names, types, and modulus values.
+- `updateSemiconductorWearoutProps()`: Sets properties for Semiconductor Wearout analysis.
+- `updatePTHFatigueProps()`: Sets properties for Plated Through Hole fatigue analysis.
+- `updatePadProperties()`: Sets PCB pad properties for one or more parts.
+- `getPartsListProperties()`: Retrieves properties for parts in the Parts List.
+- `deletePartsFromPartsList()`: Removes parts from the Parts List.
+- `importGDSIIFile()`: Imports a GDSII file and any optional, associated configuration files.
+- `addOutlineFiles()`: Adds outline files in CSV/Excel, Gerber, or IPC-2581 format.
 
 ### Modified APIs
 
-- Error messages 'Missing cca name and Missing cca description' have been changed to 'Missing CCA name and Missing CCA description'.
-- When a Part Library does not exist when running the `updatePartsList()` API, the error message has been changed from:
-`Part library does not exist`
-  to
-`Part library does not exist: <part library name>`
-where `<part library name>` is the name of the Part Library used when invoking the API.
-- Moved `MatchingMode` enum {} definition from Parts Service to Common Service.
-- Added the ability to get the Sherlock version and default directory to a Sherlock API.
-- Updated `updateNaturalFrequencyProps()` API to reject `naturalFreqMin` and `naturalFreqMax` if integer values are not contained in both of these fields.
+- `addThermalMaps()` and `updateThermalMaps()`: Now include an optional "Add Temperature Offset" parameter.
 
 ### API bug fixes
 
-- Corrected an issue with `addPottingRegion()` API where the rotation was not being used during the drawing process.
-- When using an API to run a Thermal Mech Analysis, Sherlock was not clearing previously selected Events and, so, was using all previously selected Events when running the `runAnalysis()` API. Now, Sherlock runs only those Events specified in the `runAnalysis()` request.
-- When running the Update Laminate API, you can now enter a non-default value for the glass construction resin percentage. Previously, non-default values caused the API to fail.
-
-### Deprecated APIs
-
-- The nested PottingRegion message `AddPottingRegionRequest.PottingRegion` is being deprecated. It will be moved outside of the `AddPottingRegionRequest` message. It will then be referred to as `PottingRegion`, not `AddPottingRegionRequest.PottingRegion`.
+- Updated `addShockProfiles()` API to return proper error for invalid non-shock phase/event names.
+- Fixed `updateHarmonicVibeProps()` API accepting invalid harmonicVibeCount values.
