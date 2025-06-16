@@ -4,7 +4,7 @@
   items:
   - name: Overview of DPF
     href: core-concepts/dpf-overview.md
-  - name: Understanding data containers
+  - name: Available types
     href: core-concepts/data-containers.md
   - name: Operator fundamentals
     href: core-concepts/operator.md
