@@ -734,7 +734,7 @@ Represents Sherlock version and configuration data.
 
 | Field | Type | Label | Description |
 | ----- | ---- | ----- | ----------- |
-| releaseVersion | [string](#string) |  | The current version of Sherlock, formatted as: YYYY R# (Ex. "2025 R1") |
+| releaseVersion | [string](#string) |  | The current version of Sherlock, formatted as: YYYY R# (Ex. "2025 R2") |
 | defaultProjectDir | [string](#string) |  | The project directory currently used by Sherlock. |
 | isSingleProjectMode | [bool](#bool) |  | When true, indicates that Sherlock is in single-project mode. When false, indicates that Sherlock is in multi-project mode. |
 

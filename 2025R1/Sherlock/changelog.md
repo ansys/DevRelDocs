@@ -1,6 +1,6 @@
 # Changelog
 
-## Version 2025 R1
+## Version 2025 R2
 
 ### New APIs
 
