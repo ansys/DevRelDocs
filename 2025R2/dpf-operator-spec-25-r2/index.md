@@ -74,7 +74,7 @@ The following are documentations dedicated to each:
 
 - HGP documentation (C++):
 
-  - [DPF C++ Client library](https://developer.ansys.com/docs/dpf-cpp-client-library-2025-r1/index.xhtml) in the Developer Portal documentation for DPF.
+  - [DPF C++ Client library](https://developer.ansys.com/docs/dpf-cpp-client-library-2025-r2/index.xhtml) in the Developer Portal documentation for DPF.
 
 - PyDPF documentation (CPython):
 
