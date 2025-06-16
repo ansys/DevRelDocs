@@ -10,4 +10,6 @@
   - name: Sending Messages to ASDforEV
     href: SEV_API_sending.md    
   - name: Receiving Messages from ASDforEV
-    href: SEV_API_receiving.md    
+    href: SEV_API_receiving.md
+- name: Changelog
+  href: changelog.md   

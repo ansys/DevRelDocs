@@ -8,3 +8,5 @@
   href: VRS_communication_messages.md
 - name: Message List
   href: VRS_communication_messages_list.md
+- name: Changelog
+  href: changelog.md
