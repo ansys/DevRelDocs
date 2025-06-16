@@ -4,7 +4,7 @@ This documentation provides a comprehensive guide of the DPF framework as well a
 
 # Overview of DPF
 
-Ansys Data Processing Framework (DPF) provides numerical simulation users and engineers with a toolbox for accessing and transforming simulation data.
+The Ansys Data Processing Framework (DPF) provides numerical simulation users and engineers with a toolbox for accessing and transforming simulation data.
 With DPF, you can perform complex preprocessing or postprocessing of large amounts of simulation data within a simulation workflow.
 
 DPF is an independent, physics-agnostic tool that you can plug into many apps for both data input and data output, including visualization and result plots.
@@ -24,7 +24,7 @@ You can also chain operators together to create simple or complex data-processin
 The data in DPF is defined based on physics-agnostic mathematical quantities described in self-sufficient entities called **fields**.
 This allows DPF to be a modular and easy-to-use tool with a large range of capabilities.
 
-![dpf-flow](../images/dpf-flow.png)
+![dpf-flow](./images/dpf-flow.png)
 
 
 ## Advantages
