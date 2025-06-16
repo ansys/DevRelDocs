@@ -58,3 +58,8 @@ DPF is available with the **Ansys installer** in Ansys 2021 R1 and later, or as 
 
 - The DPF Server package provides pre-releases of DPF and is independent of the Ansys installer.
   It is available on the [DPF Pre-Release page](https://download.ansys.com/Others/DPF%20Pre-Release) of the Ansys Customer Portal.
+
+
+## Operating system compatibility
+
+DPF supports Windows 10 and Rocky Linux 8 and later. To run DPF on CentOS 7, use DPF for 2024 R2 (8.2) or later. For more information, see [Ansys Platform Support]([url](https://www.ansys.com/it-solutions/platform-support)).
