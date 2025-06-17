@@ -7,7 +7,7 @@
         "product": "ADR Websocket Server",
         "programming language": "",
         "physics": "Shared Components",
-        "access": "Private"
+        "access control": "Private"
       }
     }
  }
