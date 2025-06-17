@@ -15,6 +15,29 @@ Version: 0.0.0
 
 - Version 0.0.0: Initial release.
 
+**DPF framework compatibility:** `2025 R1`
+
+### Version X.Y.Z 
+
+**DPF framework compatibility:** `YYYY R`
+
+#### New features
+
+- ...
+
+#### Improvements
+
+- ...
+
+#### Bug fixes
+
+- ...
+
+#### Deprecated
+
+- ...
+
+
 ## Description
 
 The low pass filter returns all the values below (but not equal to) the threshold value in input.
