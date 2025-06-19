@@ -28,9 +28,9 @@ hard drive when you installed the Ansys software (version 211 and later). You
 will find the files in the following location (the file path may vary if you
 installed your Ansys software in a nondefault location):
 
-Windows: `C:/Program Files/ANSYS Inc/v251/sherlock/grpc`
+Windows: `C:/Program Files/ANSYS Inc/v252/sherlock/grpc`
 
-Linux: `/ansys_inc/v251/sherlock/grpc`
+Linux: `/ansys_inc/v252/sherlock/grpc`
 
 The instructions from [the gRPC website](https://grpc.io/docs/what-is-grpc/introduction/) explain how to implement the `.proto`
 files. Currently, the `.proto` files included with Sherlock are:
@@ -58,9 +58,9 @@ the following:
 
   For Windows users, open your computer's command-line interface and enter the command below (you can copy and paste the text) and press Enter. This will change the active directory to the location of your Sherlock installation. If you installed your Ansys software in a non-default location, modify the command-line accordingly.
 
-          cd "C:\Program Files\ANSYS Inc\251\sherlock"
+          cd "C:\Program Files\ANSYS Inc\252\sherlock"
 
-  For Linux users, make sure you have updated all users' login startup files as described in the [Post-Installation Procedures](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v251/en/installation/unix_post_mech.html#linux_postinst_sherlock_01) for Sherlock in Ansys' **Linux Installation Guide**, *5.1.7. Post-Installation Procedures for Ansys Sherlock.*
+  For Linux users, make sure you have updated all users' login startup files as described in the [Post-Installation Procedures](https://ansyshelp.ansys.com/public/account/secured?returnurl=/Views/Secured/corp/v252/en/installation/unix_post_mech.html#linux_postinst_sherlock_01) for Sherlock in Ansys' **Linux Installation Guide**, *5.1.7. Post-Installation Procedures for Ansys Sherlock.*
 
  Once you have changed directory (Windows), enter the command below. (In the examples shown, port 9090 is selected, but you may specify any of your computer's available communications ports.)
 
@@ -136,7 +136,7 @@ the following:
 
   2. In Windows Environment Variables, add the file path to the Python scripts to the Path System variable. If your Ansys software is installed in the default location, the path to the scripts looks like this:
 
-      `C:\Program Files\ANSYS Inc\v251\sherlock\grpc\python`
+      `C:\Program Files\ANSYS Inc\v252\sherlock\grpc\python`
 
 [The API Index](index-to-sherlock-api.md "Index to the Sherlock APIs") gives an
 overview of all the functions available to you. For each API, you can find an example of its implementation in the section [Examples](Examples.md). 
