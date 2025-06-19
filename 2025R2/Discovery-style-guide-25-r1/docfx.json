@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "Discovery style guide 2025 R1",
+      "summary": "",
+      "version": "2025 R1",
+      "product": "Discovery",
+      "programming language": "C#",
+      "product collection": "3D Design",
+      "physics": "3D Design"
+    }
+  }
+}
