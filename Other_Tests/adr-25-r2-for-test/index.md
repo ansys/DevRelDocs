@@ -1,3 +1,7 @@
+---
+access: private
+---
+
 # Introduction
 
 The ADR Websocket Server provides a cross-platform mechanism to route a raw
