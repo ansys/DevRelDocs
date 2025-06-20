@@ -1,3 +1,8 @@
+---
+access control: private
+---
+
+
 # REST API
 
 Websocketserver includes a REST API that allows an external application (ADR) to stop the

@@ -1,5 +1,5 @@
 ---
-access: private
+access control: private
 ---
 
 # External services
