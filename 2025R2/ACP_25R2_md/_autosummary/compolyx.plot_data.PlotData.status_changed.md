@@ -1,0 +1,7 @@
+# status_changed
+
+<a id="compolyx.plot_data.PlotData.status_changed"></a>
+
+#### *property* PlotData.status_changed
+
+Boolean flag which is set to true in C++ when up-to-date status of object changes.
