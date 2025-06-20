@@ -6,8 +6,7 @@
         "version": "2025 R2",
         "product": "ADR Websocket Server",
         "programming language": "",
-        "physics": "Shared Components",
-        "access control": "Private"
+        "physics": "Shared Components"
       }
     }
  }

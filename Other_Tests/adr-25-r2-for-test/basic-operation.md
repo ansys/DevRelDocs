@@ -1,3 +1,8 @@
+---
+access: private
+---
+
+
 # Basic operation
 
 Websocketserver will route a TCP/IP stream from a listening socket to a
