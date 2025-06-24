@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "Mechanical scripting interface",
+      "summary": "",
+      "version": "2025 R2",
+      "product": "Mechanical",
+      "programming language": "Python",
+      "product collection": "Structures",
+      "physics": "Structures"
+    }
+  }
+}

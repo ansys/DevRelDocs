@@ -17,15 +17,8 @@ The following notebooks also depend on additional PyGranta packages:
 * [RecordLists and MI Scripting Toolkit](../samples/streamlined/18_Record_Lists_Interoperability.md) requires `ansys-grantami-recordlists`.
 * [JobQueue and MI Scripting Toolkit](../samples/streamlined/19_Job_Queue_Interoperability.md)  requires `ansys-grantami-jobqueue`.
 
-Minor versions of these packages are typically compatible with a single version of Granta MI only,
-so they are not provided as part of the `[notebooks]` extra described above. To easily identify the
-correct package version for your version of Granta MI, the [PyGranta](https://pypi.org/project/pygranta/) meta-package can be used. For
-example, installing `pygranta` v2024.2 will also install versions of `ansys-grantami-recordlists`
-and `ansys-grantami-jobqueue` that are compatible with Granta MI 2024 R2.
-
-The [Package versions](https://grantami.docs.pyansys.com/version/dev/package_versions.html)
-section of the PyGranta documentation describes which versions of packages are installed with each version of the
-metapackage.
+PyGranta packages are not included in the `[notebooks]` extra. Use the [PyGranta and Granta MI compatibility](https://grantami.docs.pyansys.com/version/stable/package_versions.html) section of the PyGranta documentation to identify a version of a PyGranta package compatible with
+your version of Granta MI.
 
 <a id="database-compatibility"></a>
 

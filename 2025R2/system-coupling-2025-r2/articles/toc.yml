@@ -161,6 +161,8 @@
       href: cpp-reference/classsysc_1_1RealAttribute.md
     - name: sysc::Region
       href: cpp-reference/classsysc_1_1Region.md
+    - name: sysc::StringAttribute
+      href: cpp-reference/classsysc_1_1StringAttribute.md
     - name: sysc::SurfaceMesh
       href: cpp-reference/classsysc_1_1SurfaceMesh.md
     - name: sysc::SystemCoupling

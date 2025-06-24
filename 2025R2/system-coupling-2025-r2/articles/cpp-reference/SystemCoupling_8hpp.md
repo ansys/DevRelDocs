@@ -146,6 +146,8 @@ public:
 
   void addIntegerAttribute(const IntegerAttribute& integerAttribute);
 
+  void addStringAttribute(const StringAttribute& stringAttribute);
+
   void addCouplingInterface(const CouplingInterface& couplingInterface);
 
   void addCouplingInterface(
@@ -161,6 +163,8 @@ public:
   double getRealAttributeValue(const AttributeName& attributeName);
 
   int64_t getIntegerAttributeValue(const AttributeName& attributeName);
+
+  std::string getStringAttributeValue(const AttributeName& attributeName);
 
   void registerInputScalarDataAccess(InputScalarDataAccess* dataAccess);
 
@@ -306,9 +310,13 @@ public:
 
   std::size_t getNumIntegerAttributes() const;
 
+  std::size_t getNumStringAttributes() const;
+
   const RealAttribute& getRealAttribute(std::size_t index) const;
 
   const IntegerAttribute& getIntegerAttribute(std::size_t index) const;
+
+  const StringAttribute& getStringAttribute(std::size_t index) const;
 
   /* Deprecated functions */
 

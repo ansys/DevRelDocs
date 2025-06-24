@@ -12,6 +12,7 @@
 
 * [sysc::RealAttribute](classsysc_1_1RealAttribute.md#classsysc_1_1RealAttribute)
 * [sysc::IntegerAttribute](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute)
+* [sysc::StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute)
 
 ## Namespaces
 
@@ -106,6 +107,29 @@ public:
 private:
   AttributeName m_name;
   std::int64_t m_value{0};
+  bool m_modifiable{true};
+};
+
+class SYSTEM_COUPLING_PARTICIPANT_DLL StringAttribute {
+public:
+  StringAttribute(
+    AttributeName name,
+    std::string value);
+
+  StringAttribute(
+    AttributeName name,
+    std::string value,
+    bool modifiable);
+
+  const AttributeName& getName() const noexcept;
+
+  std::string getValue() const;
+
+  bool isModifiable() const noexcept;
+
+private:
+  AttributeName m_name;
+  std::string m_value{0};
   bool m_modifiable{true};
 };
 

@@ -33,13 +33,13 @@ setup and, in contrast to parameters, does not change during the coupled analysi
 or mapping. Attributes can be used to communicate some setup information about
 the participant or variable.
 
-To represent different attribute types, attributes may store either an integer value or real value.
+To represent different attribute types, attributes may store either an integer, real, or string value.
 
 The attributes have the following properties:
 
 - **Name**: a unique identifier for the attribute.
 
-- **Value**: scalar value of (signed) int (for an **IntegerAttribute**) or double (for a **RealAttribute**).
+- **Value**: scalar value of (signed) int (for an **IntegerAttribute**), double (for a **RealAttribute**), or string (for a **StringAttibute**).
 
 - **Dimensionality**: base quantities of an attribute (**RealAttribute** only).
 
@@ -80,7 +80,7 @@ The variables have the following properties:
   quantity types. If the variable does not fit into any quantity type on the list,
   its quantity type can be left unspecified.
 
-Variables can have any number of integer and real-valued attributes.
+Variables can have any number of integer, real, and string-valued attributes.
 
 ## Regions
 

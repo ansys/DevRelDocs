@@ -113,13 +113,19 @@ public:
 
   void addIntegerAttribute(const IntegerAttribute& attribute);
 
+  void addStringAttribute(const StringAttribute& attribute);
+
   std::size_t getNumRealAttributes() const noexcept;
 
   std::size_t getNumIntegerAttributes() const noexcept;
 
+  std::size_t getNumStringAttributes() const noexcept;
+
   const RealAttribute& getRealAttribute(std::size_t index) const;
 
   const IntegerAttribute& getIntegerAttribute(std::size_t index) const;
+
+  const StringAttribute& getStringAttribute(std::size_t index) const;
 
 private:
   VariableName m_name;         
@@ -131,6 +137,7 @@ private:
   DataType m_dataType;         
   std::vector<RealAttribute> m_realAttributes;
   std::vector<IntegerAttribute> m_integerAttributes;
+  std::vector<StringAttribute> m_stringAttributes;
 };
 
 }  // namespace sysc

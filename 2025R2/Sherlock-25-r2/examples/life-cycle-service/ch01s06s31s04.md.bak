@@ -1,0 +1,45 @@
+# Examples: Load Thermal Profile
+
+## Proto Request Example
+
+
+
+    {
+      "project": "Tutorial Project", 
+      "phaseName": "Environmental",
+      "eventName": "5 - Fire",
+      "filePath": "C:\\Users\\jdoe\\AppData\\Roaming\\Sherlock\\thermalProfiles\\Single Step.dat"
+    }
+
+## Proto Request Example (CSV)
+
+
+
+    {
+      "project": "Tutorial Project",
+      "phaseName": "Environmental",
+      "eventName": "1 - Temp Cycle",
+      "filePath": "C:\\Users\\aklara\\Desktop\\APIexamples\\SherlockLifeCycleService\\Thermal.csv",
+      "csvProps": {
+        "profileName": "Temperature Profile - Script Test",
+        "headerRowNumber": 0,
+        "columnDelim": "Comma",
+        "numericFormat": "English (United States)",
+        "stepColumn": "Step",
+        "typeColumn": "Type",
+        "timeColumn": "Time (min)",
+        "timeUnits": "min",
+        "tempColumn": "Temp (C)",
+        "tempUnits": "C"
+      }
+    }
+
+## Python Example
+
+For a Python example, refer to the online [PySherlock Reference](https://sherlock.docs.pyansys.com/version/stable/api/index.html).
+
+* * *
+
+| [Prev](../ch01s06s31s03.md) | [Up](../ch01s06s31.md) / [Contents](../index.md) / [Home](../../../index.htm) | [Next](../ch01s07.md) |
+| ------------------------ | -------------------------------------------------------------------- | ------------------ |
+
