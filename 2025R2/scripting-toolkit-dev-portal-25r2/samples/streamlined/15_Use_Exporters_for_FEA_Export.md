@@ -93,7 +93,7 @@ print(material_card)
 **Model Type: Linear, temperature-dependent, isotropic, thermal, plastic
 **Unit System: SI (Consistent)
 **Export User: ANSYS\mi-sw-admin
-**Export DateTime: 2025-04-24T18:55:54.3242472-04:00
+**Export DateTime: 2025-05-12T12:17:04.8602976-04:00
 **Database Name: MI Training
 **Table Name: Design Data
 **Material Record History Id: 20673

@@ -83,29 +83,13 @@ namespace sysc {
 void SYSTEM_COUPLING_PARTICIPANT_DLL rearrange(
   OutputScalarData source, InputScalarData target);
 
-void SYSTEM_COUPLING_PARTICIPANT_DLL rearrange(OutputScalarData source);
-
-void SYSTEM_COUPLING_PARTICIPANT_DLL rearrange(InputScalarData target);
-
 void SYSTEM_COUPLING_PARTICIPANT_DLL rearrange(
   OutputVectorData source, InputVectorData target);
-
-void SYSTEM_COUPLING_PARTICIPANT_DLL rearrange(OutputVectorData source);
-
-void SYSTEM_COUPLING_PARTICIPANT_DLL rearrange(InputVectorData target);
 
 void SYSTEM_COUPLING_PARTICIPANT_DLL rearrange(
   OutputIntegerData source, InputIntegerData target);
 
-void SYSTEM_COUPLING_PARTICIPANT_DLL rearrange(OutputIntegerData source);
-
-void SYSTEM_COUPLING_PARTICIPANT_DLL rearrange(InputIntegerData target);
-
 void SYSTEM_COUPLING_PARTICIPANT_DLL rearrange(PointCloud source, InputPointCloud target);
-
-void SYSTEM_COUPLING_PARTICIPANT_DLL rearrange(PointCloud source);
-
-void SYSTEM_COUPLING_PARTICIPANT_DLL rearrange(InputPointCloud target);
 
 }  // namespace sysc
 ```

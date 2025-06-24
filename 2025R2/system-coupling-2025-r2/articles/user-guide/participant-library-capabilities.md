@@ -2,8 +2,8 @@
 
 - Co-simulation with System Coupling
 - Standalone mapping within a single, possibly distributed parallel, application.
-- Standalone mapping across multiple, possibly distributed parallel, applications.
-- Mixed co-simulation and mapping
+- Standalone mapping across multiple, possibly distributed parallel, applications [1].
+- Data transfers across multiple, possibly distributed parallel, applications [1].
 - Co-simulation analysis type options
   - Steady coupled analysis
   - Transient coupled analysis
@@ -32,11 +32,11 @@
 - Support for intensive and extensive variables
 - Real-valued and complex-valued variables
 - Element-based and node-based variables
-- Integer-valued participant attributes [1]
-- Real-valued participant attributes with specified dimensionality [1]
+- Integer-valued participant attributes [2]
+- Real-valued participant attributes with specified dimensionality [2]
 - Integer-valued variable attributes
 - Real-valued variable attributes with specified dimensionality
-- Single-valued parameters [1]
+- Single-valued parameters [2]
 - N:M mapping (that is, mapping between different numbers of regions on source and on target)
 - Mapping of variables with different properties:
   - Mapping between element-based and node-based variables
@@ -45,22 +45,24 @@
   - Mesh validity checks
   - Code tracer and log output
   - Standalone mode for co-simulation
-- EnSight results writing [2]
-- Support for MPI parallel processing [3]
-- Languages supported [4]
+- EnSight results writing [3]
+- Support for MPI parallel processing [4]
+- Languages supported [5]
   - C++
   - C
   - Fortran
   - Python
-- Support for streaming transcript file to System Coupling GUI for co-simulation [1]
+- Support for streaming transcript file to System Coupling GUI for co-simulation [2]
 
-[1] Not currently supported in Fortran.
+[1] Currently only supported in C++ and Python.
 
-[2] EnSight results can be written by the participant library only if the mapping workflow is used.
+[2] Not currently supported in Fortran.
 
-[3] For details, see [Execution in a parallel environment](parallel-execution.md).
+[3] EnSight results can be written by the participant library only if the mapping workflow is used.
 
-[4] For details, see [Compiling, linking, and executing applications that use the Participant Library](compiling-linking-executing.md).
+[4] For details, see [Execution in a parallel environment](parallel-execution.md).
+
+[5] For details, see [Compiling, linking, and executing applications that use the Participant Library](compiling-linking-executing.md).
 
 Note the following limitations:
 

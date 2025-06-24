@@ -231,6 +231,12 @@ Initialize monitoring from given text file and text import settings.
 
 Initialize monitoring from given text file and text import settings file.
 
+<a id="py_monitoring_gui.MainWindow.is_visual_view_reduced_mode"></a>
+
+#### is_visual_view_reduced_mode() → bool
+
+Return True when visual view mode is set to ‘Base’.
+
 <a id="py_monitoring_gui.MainWindow.maximize"></a>
 
 #### maximize()

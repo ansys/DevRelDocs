@@ -1,9 +1,9 @@
 {
     "build": {
         "globalMetadata": {
-            "title": "optiSLang Python API 2025 R2 dev",
+            "title": "optiSLang Python API 2025 R2",
             "summary": "optiSLang Python API",
-            "version": "2025 R2 dev",
+            "version": "2025 R2",
             "product": "optiSLang",
             "programming language": "Python",
             "product collection": "Connect",

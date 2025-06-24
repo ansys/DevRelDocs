@@ -30,6 +30,7 @@ There should only be one instance of this System Coupling class.
 * [addOutputParameter](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aefc367f59f86420aaaa425d7d24b071c)
 * [addRealAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ab298f64d5d97a11f59650605c062d38a)
 * [addRegion](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1afd8d4beebb3a46d80c9f9fcddc385db2)
+* [addStringAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1afe7e2a632aed3933b59dae2d0fbf8cb1)
 * [checkMeshValidity](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a8c7d2613f81b8d9a5bd81db9dcbae8fd)
 * [checkMeshValidity](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ac6a85f6aae44d330b8042dc9296bd59b)
 * [completeCouplingSetup](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a6d389ee7e0740e0348919cd3b7d956f7)
@@ -51,6 +52,7 @@ There should only be one instance of this System Coupling class.
 * [getNumOutputParameters](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a6b0bc9b6b4c6155f573c94376e37ba8d)
 * [getNumRealAttributes](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a7d91d3013cc5c826f91d42f6e8f5c6d8)
 * [getNumRegions](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1af1cac0616352ad6998eefad0593c8ffb)
+* [getNumStringAttributes](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1af757a39bdfd82702d7879af71ed835db)
 * [getOutputParameter](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1acd9357a14b747921037daa0c24c9bc1b)
 * [getParameterValue](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1aefb34bf071d430de2dd4f1be1dc74e84)
 * [getRealAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1adac66a89bdba3cc298631045b659fba1)
@@ -58,6 +60,8 @@ There should only be one instance of this System Coupling class.
 * [getRegion](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ab70a16b544c86e9681e9946f2ce3ec53)
 * [getSetupInfo](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a43ac90ab5f0cfd64fec354519d4f5b43)
 * [getSolutionControl](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ace4a88af60a1aa93a68fa4b071592413)
+* [getStringAttribute](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a6aff5352468a4c1065e167faa3a02ae2)
+* [getStringAttributeValue](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a5fc4695ae6b5bb6e7cd706cb976d3f40)
 * [initializeAnalysis](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1ab47a6eaf83eae538e17290a5c2582b8e)
 * [operator=](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1af9e2480d475df72014f4b565f97d8c70)
 * [operator=](classsysc_1_1SystemCoupling.md#classsysc_1_1SystemCoupling_1a11c5ccef62c2719e4d0af87796311914)
@@ -741,6 +745,48 @@ If the integer attribute name contains invalid characters, a runtime error will 
 
 **Return type**: void
 
+<a id="classsysc_1_1SystemCoupling_1afe7e2a632aed3933b59dae2d0fbf8cb1"></a>
+### Function addStringAttribute
+
+![][public]
+
+```cpp
+void sysc::SystemCoupling::addStringAttribute(const StringAttribute &stringAttribute)
+```
+
+Provide a method to add a string attribute that could be used in a coupled analysis.
+
+If this attribute has already been added as an string attribute, then this call will have no effect.
+
+
+
+
+
+If a different string attribute with the same name has already been added as an string attribute, then a runtime error will be thrown.
+
+
+
+
+
+If the string attribute name contains invalid characters, a runtime error will be thrown.
+
+
+
+
+
+
+**Parameters**:
+
+* **stringAttribute**: string attribute whose values are provided by System Coupling and consumed by the participant.
+
+
+
+**Parameters**:
+
+* const [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute) & **stringAttribute**
+
+**Return type**: void
+
 <a id="classsysc_1_1SystemCoupling_1ae4c93f4502c9df950fddddab3aab5eec"></a>
 ### Function addCouplingInterface
 
@@ -934,6 +980,29 @@ Provide a function to get an [IntegerAttribute](classsysc_1_1IntegerAttribute.md
 * const [AttributeName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadb06eacf4ed0787d18e8ddbf0612c83c) & **attributeName**
 
 **Return type**: int64_t
+
+<a id="classsysc_1_1SystemCoupling_1a5fc4695ae6b5bb6e7cd706cb976d3f40"></a>
+### Function getStringAttributeValue
+
+![][public]
+
+```cpp
+std::string sysc::SystemCoupling::getStringAttributeValue(const AttributeName &attributeName)
+```
+
+Provide a function to get a [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute) value.
+
+**Parameters**:
+
+* **attributeName**: - name of the string attribute.
+
+
+
+**Parameters**:
+
+* const [AttributeName](namespacesysc.md#group__SystemCouplingParticipantAPIs_1gadb06eacf4ed0787d18e8ddbf0612c83c) & **attributeName**
+
+**Return type**: std::string
 
 <a id="classsysc_1_1SystemCoupling_1a60439772708be217b06f07f8554d5abd"></a>
 ### Function registerInputScalarDataAccess
@@ -2094,6 +2163,26 @@ Number of integer attributes.
 
 **Return type**: std::size_t
 
+<a id="classsysc_1_1SystemCoupling_1af757a39bdfd82702d7879af71ed835db"></a>
+### Function getNumStringAttributes
+
+![][public]
+![][const]
+
+```cpp
+std::size_t sysc::SystemCoupling::getNumStringAttributes() const
+```
+
+Provide a function to return the number of string attributes.
+
+**Returns**:
+
+Number of string attributes.
+
+
+
+**Return type**: std::size_t
+
 <a id="classsysc_1_1SystemCoupling_1adac66a89bdba3cc298631045b659fba1"></a>
 ### Function getRealAttribute
 
@@ -2151,6 +2240,35 @@ Reference to integer attribute information at specified index.
 * std::size_t **index**
 
 **Return type**: const [IntegerAttribute](classsysc_1_1IntegerAttribute.md#classsysc_1_1IntegerAttribute) &
+
+<a id="classsysc_1_1SystemCoupling_1a6aff5352468a4c1065e167faa3a02ae2"></a>
+### Function getStringAttribute
+
+![][public]
+![][const]
+
+```cpp
+const StringAttribute& sysc::SystemCoupling::getStringAttribute(std::size_t index) const
+```
+
+Provide a function to return string attribute information.
+
+**Parameters**:
+
+* **index**: - string attribute index
+
+
+**Returns**:
+
+Reference to string attribute information at specified index.
+
+
+
+**Parameters**:
+
+* std::size_t **index**
+
+**Return type**: const [StringAttribute](classsysc_1_1StringAttribute.md#classsysc_1_1StringAttribute) &
 
 <a id="classsysc_1_1SystemCoupling_1a6d389ee7e0740e0348919cd3b7d956f7"></a>
 ### Function completeCouplingSetup

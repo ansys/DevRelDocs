@@ -307,12 +307,12 @@ for orientation, specimens in test_records.items():
 ```
 *Previous cell output:*
 ```output
-Rollup completed for the specimen 'LBU15', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=85f8cea3-735d-4157-aea7-42aa5359108d'
-Rollup completed for the specimen 'LBU14', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=c928d243-c44f-45c0-ba73-312277c2c722'
-Rollup completed for the specimen 'LBJ83', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=f570eba1-7a0c-455e-b107-e7fda7f2c2f3'
-Rollup completed for the specimen 'LBJ62', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=04a7ee0e-392b-4d0e-a465-2f533422ee21'
-Rollup completed for the specimen 'LBJ53', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=1093c7f1-058e-4b69-ad6a-62d22d25210c'
-Rollup completed for the specimen 'LBJ42', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=8ce9868d-1e01-4877-b4ba-312e812a67c6'
-Rollup completed for the specimen 'LBJ14', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=4658930d-c9f9-4471-8baf-e6bf80b7d1e9'
-Rollup completed for the specimen 'LBJ13', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=778f3c0b-6842-4be9-92fe-3b3195fe1107'
+Rollup completed for the specimen 'LBU15', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=32d98e87-d538-4958-bf4d-93d4cf4bf61e'
+Rollup completed for the specimen 'LBU14', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=58b52053-d236-447d-b5fd-7fa0e66cd1c3'
+Rollup completed for the specimen 'LBJ83', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=021bf20b-d0a8-4be6-99f3-9ee57993b1a3'
+Rollup completed for the specimen 'LBJ62', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=baab458e-ebd3-486c-9e50-d6da39493e27'
+Rollup completed for the specimen 'LBJ53', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=dbab2acf-fdc2-4444-9e0a-a2551063f3e4'
+Rollup completed for the specimen 'LBJ42', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=7a59d226-e6bb-4f55-97cc-b68157ef9355'
+Rollup completed for the specimen 'LBJ14', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=ab4a3789-6adf-4302-b220-acd899a829ae'
+Rollup completed for the specimen 'LBJ13', view this record at 'http://my.server.name/mi/datasheet.aspx?dbKey=MI_Training&recordHistoryGuid=6266db70-d0b5-4acd-95aa-6864b9ed2da0'
 ```
