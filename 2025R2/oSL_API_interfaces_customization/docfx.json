@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "optiSLang",
+      "summary": "",
+      "version": "2025 R2",
+      "product": "optiSLang",
+      "programming language": "python",
+      "product collection": "Connect",
+      "physics": "Connect"
+    }
+  }
+}
