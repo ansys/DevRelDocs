@@ -65,7 +65,7 @@ _Figure 2: Surface mesh in the damping solver_
 
 ## Get the necessary files
 
-Download the [SCP library tutorial package](https://github.com/ansys/DevRelPublic/raw/main/Downloads/SystemCoupling/syc_ParticipantLibrary_r1_25.zip)
+Download the [SCP library tutorial package](https://github.com/ansys/DevRelPublic/raw/main/Downloads/SystemCoupling/syc_ParticipantLibrary_r2_25.zip)
 and extract it to a local directory. Inside the resulting directory, you will
 find a subdirectory called **OscillatingPlateDamping**. This will serve as the
 simulation working directory and contains all the files needed for this

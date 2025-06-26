@@ -70,7 +70,7 @@ _Figure 2: Mock solver geometry_
 ## Get the necessary files
 
 Download the [SCP library tutorial
-package](https://github.com/ansys/DevRelPublic/raw/main/Downloads/SystemCoupling/syc_ParticipantLibrary_r1_25.zip)
+package](https://github.com/ansys/DevRelPublic/raw/main/Downloads/SystemCoupling/syc_ParticipantLibrary_r2_25.zip)
 and extract it to a local directory. Inside the resulting directory, you will
 find a subdirectory called **HeatTransferSquareChannel**. This will serve as the
 simulation working directory and contains all the files needed for this
