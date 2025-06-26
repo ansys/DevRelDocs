@@ -4,4 +4,4 @@
 
 #### *property* CADGeometry.precision
 
-Precision of geometrical operations (intersection points, thickness sampling, …).
+Precision of geometrical operations (intersection points, thickness sampling, etc.).

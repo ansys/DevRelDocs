@@ -10,6 +10,6 @@ Copy an interface layer.
   - source: Source object to copy.
   - global_ply_nr: Global ply number to use. If 0, then the ply is added at the top.
   - sort: Whether to sort all plies of interface layer group after copy.
-    : If multiple plies are copied at once it can be useful to sort only once at the end of the copy operation.
+     If multiple plies are copied at once it can be useful to sort only once at the end of the copy operation.
 * **Returns:**
   New instance of interface layer.

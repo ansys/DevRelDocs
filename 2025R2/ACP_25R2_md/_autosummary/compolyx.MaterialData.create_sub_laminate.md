@@ -9,8 +9,8 @@ Create a new sublaminate.
 * **Parameters:**
   - name: Name for the sublaminate.
   - fabrics: Fabrics of the sublaminate.
-  - symmetry: Symmetry of the sublaminate. Valid options: ‘No Symmetry’, ‘Even Symmetry’, and ‘Odd Symmetry’.
-  - layup_sequence: Layup sequence of the sublaminate. Valid options: ‘Top-Down’ and ‘Bottom-Up’.
+  - symmetry: Symmetry of the sublaminate. Available options: `No Symmetry`, `Even Symmetry`, and `Odd Symmetry`.
+  - layup_sequence: Layup sequence of the sublaminate. Available options: `Top-Down` and `Bottom-Up`.
 * **Returns:**
   The created sublaminate.
 * **Examples:**

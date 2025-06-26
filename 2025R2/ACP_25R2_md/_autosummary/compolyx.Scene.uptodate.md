@@ -4,4 +4,4 @@
 
 #### *property* Scene.uptodate
 
-Apply a view to the scene. Write only
+Apply a view to the scene. Write only.
