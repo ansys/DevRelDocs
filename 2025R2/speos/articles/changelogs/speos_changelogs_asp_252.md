@@ -4,7 +4,7 @@
 
 ### Ambient Source Modtran
 
-As of version 2025 R2, you can create a Speos MODTRAN source using as input a radiance map file (.tp5, .json) generated out of the MODTRAN software. Therefore, you can simulate radiative transfer in the Earth's atmosphere by modeling the transmission of light through the atmosphere considering a complete spectrum from ultraviolet (UV) to far-infrared (FIR).
+**BETA feature**: As of version 2025 R2, you can create a Speos MODTRAN source using as input a radiance map file (.tp5, .json) generated out of the MODTRAN software. Therefore, you can simulate radiative transfer in the Earth's atmosphere by modeling the transmission of light through the atmosphere considering a complete spectrum from ultraviolet (UV) to far-infrared (FIR).
 
 - Added [SourceAmbientModtran](../sim/client-speos-sim.md#sourceambientmodtran) API
 - Added [SourceAmbientModtran](../sim/client-speos-sim.md#sensorradiance) method to the **SensorRadiance** API

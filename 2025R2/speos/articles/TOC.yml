@@ -147,7 +147,7 @@
       href: asm\asm-example\method_cadupdate_importing_geometry.md
     - name: CADUpdate - Updating a geometry
       href: asm\asm-example\method_cadupdate_updating_geometry.md
-- name: Changelogs
+- name: Changelog
   href: changelogs\speos_changelogs_asp.md
   items:
   - name: Speos Changelog 2025 R2
