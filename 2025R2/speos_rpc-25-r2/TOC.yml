@@ -1,0 +1,11 @@
+- name: Introduction
+  href: index.md
+- name: Unsupported features and limitations
+  href: unsupported-features-limitations.md
+- name: Reference documentation
+  href: api-reference.md
+- name: Changelog
+  href: changelogs\speos_changelogs_rpc.md
+  items:
+  - name: Speos RPC Changelog 2025 R2
+    href: changelogs\speos_changelogs_rpc_252.md
