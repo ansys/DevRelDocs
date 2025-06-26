@@ -1,3 +1,7 @@
+---
+access control: Minerva
+---
+
 # HTTP server 
 
 If --http_port is provided on the command line, websocketserver will start an HTTP server on that port that will serve up readonly copies of the file tree rooted at the directory pointed to by --http_directory.  It will allow the user to browse the files and can be used to deliver additional web content.  Two URL namespaces are reserved by the server. The /v1/ root pathname (and future /v{x}/ pathnames) are reserved for the [REST API](./rest-api.md).

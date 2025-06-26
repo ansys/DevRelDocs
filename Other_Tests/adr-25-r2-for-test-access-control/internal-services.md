@@ -1,3 +1,7 @@
+---
+access control: Minerva
+---
+
 # Internal services
 
 In addition to the external services specified in the JSON file specified by the --remote_session_config
