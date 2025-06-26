@@ -1,3 +1,7 @@
+---
+access control: Minerva
+---
+
 # Builtin service operation
 
 Websocketserver allows for some pre-configured services, including EnSight and EnVision

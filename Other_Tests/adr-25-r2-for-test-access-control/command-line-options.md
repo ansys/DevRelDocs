@@ -1,3 +1,7 @@
+---
+access control: Minerva
+---
+
 # Command line options
 
 Websocketserver is a PyQt application that can be run with the ADR supplied cpython interpreter.  The resulting command line looks like this:

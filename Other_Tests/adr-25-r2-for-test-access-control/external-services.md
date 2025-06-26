@@ -1,3 +1,7 @@
+---
+access control: Minerva
+---
+
 # External services
 
 Websocketserver provides a mechanism for to launch an application in response
