@@ -4,4 +4,4 @@
 
 #### *property* LayupMappingData.uptodate
 
-Whether the plot is uptodate.
+Whether the plot is up-to-date.

@@ -5,4 +5,4 @@
 #### *property* Model.unit_system
 
 Create a unit system and assign it to the model.
-Unit system types are: si,mks,cgs,umks,mpa,bft,bin,undefined
+Unit system types are: `si`, `mks`, `cgs`, `umks`, `mpa`, `bft`, `bin`, and `undefined`.

@@ -4,4 +4,4 @@
 
 #### *property* Scene.mode
 
-Current ACP mode (pre or post).
+Current ACP mode (pre).

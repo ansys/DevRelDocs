@@ -4,4 +4,4 @@
 
 #### *property* CutoffSelectionRule.edge_set
 
-Edge Set for cutoff_rule_type=\`taper\` or variable_taper
+Edge Set for cutoff_rule_type= `taper` or `variable_taper`

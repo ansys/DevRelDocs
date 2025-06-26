@@ -4,4 +4,4 @@
 
 #### *property* SectionCut.extrusion_type
 
-Section Cut Types can be: wire_frame,surface_normal,surface_sweep_based
+Available Section Cut types: `wire_frame`, `surface_normal`, and `surface_sweep_based`.

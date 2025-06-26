@@ -13,7 +13,7 @@ Create a new element set.
   - x: X-range to select.
   - y: Y-range to select.
   - z: Z-range to select.
-  - op: Select operation. Valid options: all, new (default), add, remove, intersect, inverse, and none.
+  - op: Select operation. Available options: all, new (default), add, remove, intersect, inverse, and none.
   - middle_offset: Boolean to enforce that the laminate mid-plane is moved onto the reference surface.
 * **Returns:**
   The created element set.

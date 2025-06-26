@@ -4,4 +4,4 @@
 
 #### *property* LayupMappingObject.minimum_void_material_thickness
 
-Minimum thickness of the void layer!
+Minimum thickness of the void layer.

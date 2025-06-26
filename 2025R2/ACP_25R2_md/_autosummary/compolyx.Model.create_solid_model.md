@@ -12,17 +12,17 @@ Create a new solid model.
   - active: Active status of the solid model.
   - element_sets: A list of element sets.
   - ex_type:
-    Extrusion method. Possible values are:
-    \* monolithic (1 element through the thickness)
-    \* analysis_ply_wise (1 element per layer)
-    \* modeling_ply_wise (1 element for each modeling ply)
-    \* production_ply_wise (1 element for each production ply)
-    \* specify_thickness (1 element per layer, layers thicker than max_thickness are split to several solids of at most max_thickness)
-    \* user_defined (groups plies by global ply numbers to groups)
-    \* material_wise (groups subsequent plies with equal material)
-  - drop_off_type: Valid options: inside ply (one element inside the ply boundary) and outside ply (one element outside the ply boundary).
-  - offset_type: Valid options: shell normal (offset to the shell normal), surface normal (update normal direction by normal of layered solids), and distortion controlled (surface normal with local corrections).
-  - max_thickness: Maximum thickness for one solid, splits the layer into more solids, if a single layer is thicker than this value (only for ex_type=\`specify thickness\`).
+    Extrusion method. Available options are:
+    * `monolithic` (1 element through the thickness)
+    * `analysis_ply_wise` (1 element per layer)
+    * `modeling_ply_wise` (1 element for each modeling ply)
+    * `production_ply_wise` (1 element for each production ply)
+    * `specify_thickness` (1 element per layer, layers thicker than max_thickness are split to several solids of at most max_thickness)
+    * `user_defined` (groups plies by global ply numbers to groups)
+    * `material_wise` (groups subsequent plies with equal material)
+  - drop_off_type: Available options: `inside ply` (one element inside the ply boundary) and `outside ply` (one element outside the ply boundary).
+  - offset_type: Available options: `shell normal` (offset to the shell normal), `surface normal` (update normal direction by normal of layered solids), and `distortion controlled` (surface normal with local corrections).
+  - max_thickness: Maximum thickness for one solid, splits the layer into more solids, if a single layer is thicker than this value (only for ex_type=`specify thickness`).
   - ply_group_pointers: Step used to make user-defined ply groups.
   - element_set: (deprecated, use element_sets instead) A single element set.
   - skip_elements_without_plies: Whether to remove elements without plies from the region of extrusion.
@@ -48,10 +48,10 @@ Create a new solid model.
   - delete_bad_elements: Boolean for whether to delete the erroneous elements.
   - disable_dropoffs_on_top: Boolean for whether to disalbe the drop-off elements on the top surface of the laminate.
   - disable_dropoffs_on_bottom: Boolean for whether to disalbe the drop-off elements on the bottom surface of the laminate.
-  - disable_dropoff_sets_on_top: List of element or oriented selection sets defining the region where the drop-offs are disabled on the top skin of the laminate. Default is ‘all’.
-  - disable_dropoff_sets_on_bottom: List of element or oriented selection sets defining the region where the drop-offs are disabled on the bottom skin of the laminate. Default is ‘all’.
+  - disable_dropoff_sets_on_top: List of element or oriented selection sets defining the region where the drop-offs are disabled on the top skin of the laminate. Default is `all`.
+  - disable_dropoff_sets_on_bottom: List of element or oriented selection sets defining the region where the drop-offs are disabled on the bottom skin of the laminate. Default is `all`.
   - warping_limit: Warping limit factor used to detect erroneous elements.
-  - minimum_volume: Minimum volume of solid elements. Default is ‘0’. Elements equal or smaller than this limit are removed from the solid model.
+  - minimum_volume: Minimum volume of solid elements. Default is `0`. Elements equal or smaller than this limit are removed from the solid model.
   - drop_hanging_nodes: Hanging nodes are dropped (not exported) if set to true. Hanging nodes are mid-side nodes that are not shared by adjacent elements.
 * **Returns:**
   The created solid model.

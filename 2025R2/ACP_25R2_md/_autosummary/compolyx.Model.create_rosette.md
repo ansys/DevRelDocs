@@ -12,7 +12,7 @@ Create a new rosette.
   - origin: The origin of the rosette.
   - dir1: Direction 1 of the rosette.
   - dir2: Direction 2 of the rosette.
-  - rosette_type: Type of the rosette (‘PARALLEL’, ‘RADIAL’, ‘CYLINDRICAL’, ‘SPHERICAL’, or ‘EDGE_WISE’).
+  - rosette_type: Type of the rosette (`PARALLEL`, `RADIAL`, `CYLINDRICAL`, `SPHERICAL`, or `EDGE_WISE`).
   - edge_set: Edge set to be used in rosette.
   - show: Whether the newly created rosette is shown in the scene or 3D window.
 * **Returns:**

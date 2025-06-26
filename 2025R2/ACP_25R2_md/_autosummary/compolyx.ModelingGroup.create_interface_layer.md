@@ -12,7 +12,7 @@ Create an iterface layer.
   - global_ply_nr: Ply number for stacking sequence.
   - oriented_selection_sets: Oriented selection set for the expansion of the iterface layer.
   - open_area_sets: Defines the initial crack of a VCCT layer (optional).
-  - active: Iterface layer active (default: ‘True’).
+  - active: Iterface layer active (default: `True`).
 * **Returns:**
   The created iterface layer.
 * **Example:**

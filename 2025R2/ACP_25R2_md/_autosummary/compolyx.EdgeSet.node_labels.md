@@ -4,4 +4,4 @@
 
 #### *property* EdgeSet.node_labels
 
-Node labels defining the NodeSet (only if type=’By Nodes’)
+Node labels defining the NodeSet (only if type = `By Nodes`)

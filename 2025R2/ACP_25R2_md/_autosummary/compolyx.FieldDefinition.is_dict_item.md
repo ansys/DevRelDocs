@@ -4,4 +4,4 @@
 
 #### *property* FieldDefinition.is_dict_item
 
-Specifies wether the object is an item of a dict
+Specifies whether the object is an item of a dict
