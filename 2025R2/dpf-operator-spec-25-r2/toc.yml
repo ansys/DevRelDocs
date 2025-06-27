@@ -3,7 +3,7 @@
 - name: Core concepts
   items:
   - name: Available types
-    href: core-concepts/data-containers.md
+    href: core-concepts/dpf-types.md
   - name: Operator fundamentals
     href: core-concepts/operator.md
 - name: Getting started

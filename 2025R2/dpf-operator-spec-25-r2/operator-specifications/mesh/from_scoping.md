@@ -24,23 +24,23 @@ Extracts a meshed region from another meshed region based on a scoping. Regardin
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  scoping |[`scoping`](./../../getting-started/using-data-containers.md#scoping) | if nodal scoping, then the scoping is transposed respecting the inclusive pin |
-| <strong>Pin 2</strong>|  inclusive |[`int32`](./../../getting-started/using-data-containers.md#int32) | if inclusive == 1 then all the elements/faces adjacent to the nodes ids in input are added, if inclusive == 0, only the elements/faces which have all their nodes in the scoping are included |
-| <strong>Pin 3</strong>|  nodes_only |[`bool`](./../../getting-started/using-data-containers.md#bool) | returns mesh with nodes only (without any elements or property fields). Default is false. |
-| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](./../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  scoping |[`scoping`](./../../core-concepts/dpf-types#scoping) | if nodal scoping, then the scoping is transposed respecting the inclusive pin |
+| <strong>Pin 2</strong>|  inclusive |[`int32`](./../../core-concepts/dpf-types#standard-types) | if inclusive == 1 then all the elements/faces adjacent to the nodes ids in input are added, if inclusive == 0, only the elements/faces which have all their nodes in the scoping are included |
+| <strong>Pin 3</strong>|  nodes_only |[`bool`](./../../core-concepts/dpf-types#standard-types) | returns mesh with nodes only (without any elements or property fields). Default is false. |
+| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](./../../core-concepts/dpf-types#abstract-meshed-region) |  |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| mesh |[`abstract_meshed_region`](./../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
+|  **Pin 0**| mesh |[`abstract_meshed_region`](./../../core-concepts/dpf-types#abstract-meshed-region) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../getting-started/using-data-containers.md#bool) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

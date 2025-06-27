@@ -24,22 +24,22 @@ Takes three scalar fields and assembles them as a 3D vector field.
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  x |[`field`](./../../getting-started/using-data-containers.md#field) |  |
-| <strong>Pin 1</strong>|  y |[`field`](./../../getting-started/using-data-containers.md#field) |  |
-| <strong>Pin 2</strong>|  z |[`field`](./../../getting-started/using-data-containers.md#field) |  |
+| <strong>Pin 0</strong>|  x |[`field`](./../../core-concepts/dpf-types#field) |  |
+| <strong>Pin 1</strong>|  y |[`field`](./../../core-concepts/dpf-types#field) |  |
+| <strong>Pin 2</strong>|  z |[`field`](./../../core-concepts/dpf-types#field) |  |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](./../../getting-started/using-data-containers.md#field) |  |
+|  **Pin 0**| field |[`field`](./../../core-concepts/dpf-types#field) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../getting-started/using-data-containers.md#bool) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

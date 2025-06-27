@@ -24,26 +24,26 @@ Create two fields (0 min 1 max) by looping over the fields container in input an
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](./../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  label |[`string`](./../../getting-started/using-data-containers.md#string) | label name from the fields container |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](./../../core-concepts/dpf-types#fields-container) |  |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  label |[`string`](./../../core-concepts/dpf-types#standard-types) | label name from the fields container |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field_min |[`field`](./../../getting-started/using-data-containers.md#field) |  |
-|  **Pin 1**| field_max |[`field`](./../../getting-started/using-data-containers.md#field) |  |
-|  **Pin 2**| domain_ids_min |[`scoping`](./../../getting-started/using-data-containers.md#scoping) |  |
-|  **Pin 3**| domain_ids_max |[`scoping`](./../../getting-started/using-data-containers.md#scoping) |  |
-|  **Pin 4**| scoping_ids_min |[`scoping`](./../../getting-started/using-data-containers.md#scoping) |  |
-|  **Pin 5**| scoping_ids_max |[`scoping`](./../../getting-started/using-data-containers.md#scoping) |  |
+|  **Pin 0**| field_min |[`field`](./../../core-concepts/dpf-types#field) |  |
+|  **Pin 1**| field_max |[`field`](./../../core-concepts/dpf-types#field) |  |
+|  **Pin 2**| domain_ids_min |[`scoping`](./../../core-concepts/dpf-types#scoping) |  |
+|  **Pin 3**| domain_ids_max |[`scoping`](./../../core-concepts/dpf-types#scoping) |  |
+|  **Pin 4**| scoping_ids_min |[`scoping`](./../../core-concepts/dpf-types#scoping) |  |
+|  **Pin 5**| scoping_ids_max |[`scoping`](./../../core-concepts/dpf-types#scoping) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../getting-started/using-data-containers.md#bool) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

@@ -24,22 +24,22 @@ Take a mesh and a scoping (elemental or nodal) and create a new mesh that contai
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](./../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh_scoping |[`scoping`](./../../getting-started/using-data-containers.md#scoping) |  |
-| <strong>Pin 2</strong>|  extension |[`int32`](./../../getting-started/using-data-containers.md#int32) | Number of extension layer |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](./../../core-concepts/dpf-types#abstract-meshed-region) |  |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh_scoping |[`scoping`](./../../core-concepts/dpf-types#scoping) |  |
+| <strong>Pin 2</strong>|  extension |[`int32`](./../../core-concepts/dpf-types#standard-types) | Number of extension layer |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| abstract_meshed_region |[`abstract_meshed_region`](./../../getting-started/using-data-containers.md#abstract-meshed-region) |  |
+|  **Pin 0**| abstract_meshed_region |[`abstract_meshed_region`](./../../core-concepts/dpf-types#abstract-meshed-region) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../getting-started/using-data-containers.md#bool) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 
