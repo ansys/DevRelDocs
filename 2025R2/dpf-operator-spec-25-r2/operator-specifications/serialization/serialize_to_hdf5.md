@@ -24,9 +24,9 @@ This operator is deprecated: use 'hdf5::h5dpf::make_result_file' instead. Serial
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  file_path |[`string`](./../../core-concepts/dpf-types#standard-types) | output file path with .h5 extension |
-| <strong>Pin 1</strong>|  export_floats |[`bool`](./../../core-concepts/dpf-types#standard-types) | converts double to float to reduce file size (default is true) |
-| <strong>Pin 2</strong>|  export_flat_vectors |[`bool`](./../../core-concepts/dpf-types#standard-types) | if true, vectors and matrices data are exported flat (x1,y1,z1,x2,y2,z2..) (default is false) |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  file_path |[`string`](../../core-concepts/dpf-types#standard-types) | output file path with .h5 extension |
+| <strong>Pin 1</strong>|  export_floats |[`bool`](../../core-concepts/dpf-types#standard-types) | converts double to float to reduce file size (default is true) |
+| <strong>Pin 2</strong>|  export_flat_vectors |[`bool`](../../core-concepts/dpf-types#standard-types) | if true, vectors and matrices data are exported flat (x1,y1,z1,x2,y2,z2..) (default is false) |
 | <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data | | only the data set explicitly to export is exported |
 
 
@@ -39,7 +39,7 @@ This operator is deprecated: use 'hdf5::h5dpf::make_result_file' instead. Serial
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

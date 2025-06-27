@@ -24,21 +24,21 @@ Reads a file or string holding a Symbolic Workflow and instantiate a WorkFlow wi
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  string_or_path |[`string`](./../../core-concepts/dpf-types#standard-types), [`data_sources`](./../../core-concepts/dpf-types#data-sources) |  |
-| <strong>Pin 2</strong>|  format |[`int32`](./../../core-concepts/dpf-types#standard-types) | -1 is auto-detection, 0 is ASCII format, 1 is binary, 2 is json, default is -1 (auto-detection). |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  string_or_path |[`string`](../../core-concepts/dpf-types#standard-types), [`data_sources`](../../core-concepts/dpf-types#data-sources) |  |
+| <strong>Pin 2</strong>|  format |[`int32`](../../core-concepts/dpf-types#standard-types) | -1 is auto-detection, 0 is ASCII format, 1 is binary, 2 is json, default is -1 (auto-detection). |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| workflow |[`workflow`](./../../core-concepts/dpf-types#workflow) |  |
+|  **Pin 0**| workflow |[`workflow`](../../core-concepts/dpf-types#workflow) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

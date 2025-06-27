@@ -24,23 +24,23 @@ Expand the mesh.
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 7</strong>|  sector_meshed_region |[`abstract_meshed_region`](./../../core-concepts/dpf-types#abstract-meshed-region), [`meshes_container`](./../../core-concepts/dpf-types#meshes-container) |  |
-| <strong>Pin 16</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  cyclic_support |[`cyclic_support`](./../../core-concepts/dpf-types#cyclic-support) |  |
-| <strong>Pin 18</strong>|  sectors_to_expand |[`vector<int32>`](./../../core-concepts/dpf-types#standard-types), [`scoping`](./../../core-concepts/dpf-types#scoping), [`scopings_container`](./../../core-concepts/dpf-types#scopings-container) | sectors to expand (start at 0), for multistage: use scopings container with 'stage' label. |
+| <strong>Pin 7</strong>|  sector_meshed_region |[`abstract_meshed_region`](../../core-concepts/dpf-types#abstract-meshed-region), [`meshes_container`](../../core-concepts/dpf-types#meshes-container) |  |
+| <strong>Pin 16</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  cyclic_support |[`cyclic_support`](../../core-concepts/dpf-types#cyclic-support) |  |
+| <strong>Pin 18</strong>|  sectors_to_expand |[`vector<int32>`](../../core-concepts/dpf-types#standard-types), [`scoping`](../../core-concepts/dpf-types#scoping), [`scopings_container`](../../core-concepts/dpf-types#scopings-container) | sectors to expand (start at 0), for multistage: use scopings container with 'stage' label. |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| meshed_region |[`abstract_meshed_region`](./../../core-concepts/dpf-types#abstract-meshed-region) | expanded meshed region. |
-|  **Pin 1**| cyclic_support |[`cyclic_support`](./../../core-concepts/dpf-types#cyclic-support) | input cyclic support modified in place containing the new expanded meshed regions. |
+|  **Pin 0**| meshed_region |[`abstract_meshed_region`](../../core-concepts/dpf-types#abstract-meshed-region) | expanded meshed region. |
+|  **Pin 1**| cyclic_support |[`cyclic_support`](../../core-concepts/dpf-types#cyclic-support) | input cyclic support modified in place containing the new expanded meshed regions. |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

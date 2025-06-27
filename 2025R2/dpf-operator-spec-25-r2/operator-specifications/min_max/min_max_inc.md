@@ -24,24 +24,24 @@ Compute the component-wise minimum (out 0) and maximum (out 1) over coming field
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field |[`field`](./../../core-concepts/dpf-types#field) |  |
-| <strong>Pin 17</strong>|  domain_id |[`int32`](./../../core-concepts/dpf-types#standard-types) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field |[`field`](../../core-concepts/dpf-types#field) |  |
+| <strong>Pin 17</strong>|  domain_id |[`int32`](../../core-concepts/dpf-types#standard-types) |  |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field_min |[`field`](./../../core-concepts/dpf-types#field) |  |
-|  **Pin 1**| field_max |[`field`](./../../core-concepts/dpf-types#field) |  |
-|  **Pin 2**| domain_ids_min |[`scoping`](./../../core-concepts/dpf-types#scoping) |  |
-|  **Pin 3**| domain_ids_max |[`scoping`](./../../core-concepts/dpf-types#scoping) |  |
+|  **Pin 0**| field_min |[`field`](../../core-concepts/dpf-types#field) |  |
+|  **Pin 1**| field_max |[`field`](../../core-concepts/dpf-types#field) |  |
+|  **Pin 2**| domain_ids_min |[`scoping`](../../core-concepts/dpf-types#scoping) |  |
+|  **Pin 3**| domain_ids_max |[`scoping`](../../core-concepts/dpf-types#scoping) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

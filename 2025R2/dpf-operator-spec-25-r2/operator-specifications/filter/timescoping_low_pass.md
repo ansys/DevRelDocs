@@ -24,22 +24,22 @@ The low pass filter returns all the values below (but not equal to) the threshol
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  time_freq_support |[`time_freq_support`](./../../core-concepts/dpf-types#time-freq-support) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  threshold |[`double`](./../../core-concepts/dpf-types#standard-types), [`field`](./../../core-concepts/dpf-types#field) | a threshold scalar or a field containing one value is expected |
-| <strong>Pin 2</strong>|  both |[`bool`](./../../core-concepts/dpf-types#standard-types) | The default is false. If set to true, the complement of the filtered fields container is returned on output pin 1. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  time_freq_support |[`time_freq_support`](../../core-concepts/dpf-types#time-freq-support) |  |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  threshold |[`double`](../../core-concepts/dpf-types#standard-types), [`field`](../../core-concepts/dpf-types#field) | a threshold scalar or a field containing one value is expected |
+| <strong>Pin 2</strong>|  both |[`bool`](../../core-concepts/dpf-types#standard-types) | The default is false. If set to true, the complement of the filtered fields container is returned on output pin 1. |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| scoping |[`scoping`](./../../core-concepts/dpf-types#scoping) |  |
+|  **Pin 0**| scoping |[`scoping`](../../core-concepts/dpf-types#scoping) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 
