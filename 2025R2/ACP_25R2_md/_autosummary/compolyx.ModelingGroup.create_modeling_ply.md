@@ -15,18 +15,18 @@ Create modeling ply.
   - global_ply_nr: Ply number for stacking sequence.
   - oriented_selection_sets: Oriented selection set for the expansion of the modeling ply.
   - selection_rules: Element selection rules for the modeling ply.
-  - draping: The type of draping to be used. Valid options:  “no_draping”, “evaluate_draping”, and “tabular_values”.
+  - draping: The type of draping to be used. Available options:  `no_draping`, `evaluate_draping`, and `tabular_values`.
   - draping_seed_point: Start/seed point for draping.
-  - auto_draping_direction: Automatically set draping direction (default: ‘True’).
-  - draping_direction: Direction to go in draping (default: ‘None’).
+  - auto_draping_direction: Automatically set draping direction (default: `True`).
+  - draping_direction: Direction to go in draping (default: `None`).
   - draping_mesh_size: Mesh size used for draping.
   - use_default_draping_mesh_size: Whether to use a default size for the draping mesh. Default is the average element size of the shell mesh.
-  - thickness_definition: Enum that describes the method used for thickness definition (default: ‘Nominal’).
+  - thickness_definition: Enum that describes the method used for thickness definition (default: `Nominal`).
   - core_geometry: The assigned core geometry.
   - active: Modeling ply active.
   - taper_edges: Taper Edges for the modeling ply.
   - thickness_field: Look-Up table column with scalar values for thickness sampling (optional).
-  - thickness_field_type: The type of thickness field. Valid options: ‘absolute’ or ‘relative’.
+  - thickness_field_type: The type of thickness field. Available options: `absolute` or `relative`.
   - angle_1_field: Look-Up table column with scalar values for angle 1.
   - angle_2_field: Look-Up table column with scalar values for angle 2.
 * **Returns:**

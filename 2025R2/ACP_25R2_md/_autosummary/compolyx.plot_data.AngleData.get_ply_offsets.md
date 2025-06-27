@@ -17,9 +17,9 @@ Get the offset between plies and reference surface.
   ]
 
   The scope of the data is evaluated as the intersection of
-  > - data_scope of plot
-  > - visible_scope defined by visible
-  > - selection_scope defined by selected
+   - data_scope of plot
+   - visible_scope defined by visible
+   - selection_scope defined by selected
 
 **Example:**
 : Get the ply-offsets for the current ply-wise plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:

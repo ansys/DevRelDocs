@@ -4,4 +4,4 @@
 
 #### *property* CutoffSelectionRule.extent
 
-extent of the rule
+Extent of the rule

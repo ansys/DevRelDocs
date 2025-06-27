@@ -4,4 +4,4 @@
 
 #### *property* SolidElementSet.locked
 
-Returns true if the object is locked (nor editable, neither deletable)
+Returns true if the object is locked (not editable, nor deletable)

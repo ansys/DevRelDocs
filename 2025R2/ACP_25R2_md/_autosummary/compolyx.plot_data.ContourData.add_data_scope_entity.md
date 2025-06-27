@@ -7,7 +7,7 @@
 Add 1 entity to the Data Scope of a plot.
 
 * **Parameters:**
-  - entity: Entity to be added. Applicable are Element Set, Oriented Selection Set, Modeling Ply, Production Ply, Analysis Ply, and Sampling Point
+  - entity: Entity to be added. Applicable are `Element Set`, `Oriented Selection Set`, `Modeling Ply`, `Production Ply`, `Analysis Ply`, and `Sampling Point`.
 
 **Example:**
 : Add the Element Set “My_ESet” to a my_plot:

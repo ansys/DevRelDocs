@@ -7,6 +7,6 @@
 Reloads the mesh (nodes, elements, and named selections).
 The following imported entities are ignored: materials and rosettes.
 
-Parameters:
-: - path: New mesh path. Default is the current model path.
+* **Parameters:**
+   - path: New mesh path. Default is the current model path.
   - format: New format. Default is the current format.

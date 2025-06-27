@@ -4,4 +4,4 @@
 
 #### *property* CutoffSelectionRule.distance_type
 
-Distance type for offset and angle interpolation for ‘variable_taper’
+Distance type for offset and angle interpolation for `variable_taper`

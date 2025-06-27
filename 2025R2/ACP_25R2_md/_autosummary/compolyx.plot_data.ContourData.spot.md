@@ -4,4 +4,4 @@
 
 #### *property* ContourData.spot
 
-Whether to plot data at bot, mid or top of the layer or laminate.
+Whether to plot data at bot, mid, or top of the layer or laminate.

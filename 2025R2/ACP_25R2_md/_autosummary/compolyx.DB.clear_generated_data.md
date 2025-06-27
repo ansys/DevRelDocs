@@ -8,4 +8,4 @@ Function clears the eventually stored update results and deletes the generated d
 Production and Analysis Plies, Solid Models, etc.
 
 * **Parameters:**
-  -model: The ACP model to be cleared.
+  - model: The ACP model to be cleared.

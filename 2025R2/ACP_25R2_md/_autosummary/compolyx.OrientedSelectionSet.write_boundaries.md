@@ -9,4 +9,4 @@ Write boundaries in .iges/.step format.
 * **Parameters:**
 
 - filename: Output file.
-- format: ‘iges’, ‘step’, or ‘None’ (automatic format recognition).
+- format: `iges`, `step`, or `None` (automatic format recognition).

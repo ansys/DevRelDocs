@@ -7,7 +7,7 @@
 General method to modify the elements in an element set.
 
 * **Parameters:**
-  - op: Selection method. Valid options: new, add, remove, intersect, and inverse.
+  - op: Selection method. Available options: `new`, `add`, `remove`, `intersect`, and `inverse`.
   - element_labels: List of element IDs.
   - element_sets: List of element sets.
   - x: Min and max of x location.
