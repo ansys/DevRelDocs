@@ -4,7 +4,7 @@
 
 ## Basic scripting
 
-Python, an object oriented programming language, is the scripting language of ACP. It is recommended that you have some
+The scripting language of ACP is Python, an object oriented programming language. It is recommended that you have some
 basic experience in object oriented programming for optimal use of the APIs, but a basic script can easily be written by modifying an existing one or using
 copy and paste from the History or Shell view.
 
@@ -32,7 +32,7 @@ stress limits, Puck, and Tsai-Wu constants for the UD and core materials. A list
 
 These examples are provided as a guide to more involved commands in the shell view. They all refer to the example model Kiteboard.
 
-**Maximum Layup Thickness**
+**Maximum layup thickness**
 
 ```python
 # get active model
@@ -48,7 +48,7 @@ index_of_max = thicknesses.index(max_thickness)
 element_label_with_max_thickness = labels[index_of_max]
 ```
 
-**Maximum Ply Thickness**
+**Maximum ply thickness**
 
 ```python
 # get active model
@@ -67,7 +67,7 @@ index_of_max = thicknesses.index(max_thickness)
 element_label_with_max_thickness = labels[index_of_max]
 ```
 
-**Maximum Inverse Reserve Factor and Failure Mode**
+**Maximum inverse reserve factor and failure mode**
 
 ```python
 # get active model

@@ -12,7 +12,7 @@ Get the scalar values defined at the supporting points.
 Values are returned independent of update status of plot.
 
 Examples:
-: Get scalar values for supporting points defining look-up table plot:
+ Get scalar values for supporting points defining look-up table plot:
   <br/>
   ```default
   >>> coords = my_plot._get_support_point_values()

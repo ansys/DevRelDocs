@@ -26,14 +26,14 @@ This class wraps GIL-functionality and adds Python-UI utilities to all material 
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-| [`PropertySet.independent_names`](compolyx.PropertySet.independent_names.md#compolyx.PropertySet.independent_names)   | List of the independent variable names.                          |
-| [`PropertySet.is_constant`](compolyx.PropertySet.is_constant.md#compolyx.PropertySet.is_constant)                     | True if the Engineering Constants of this material are constant. |
-| [`PropertySet.property_names`](compolyx.PropertySet.property_names.md#compolyx.PropertySet.property_names)            | Propety name list.                                               |
+| [`PropertySet.independent_names`](compolyx.PropertySet.independent_names.md#compolyx.PropertySet.independent_names)   | List of the independent variable names                          |
+| [`PropertySet.is_constant`](compolyx.PropertySet.is_constant.md#compolyx.PropertySet.is_constant)                     | True if the Engineering Constants of this material are constant |
+| [`PropertySet.property_names`](compolyx.PropertySet.property_names.md#compolyx.PropertySet.property_names)            | Propety name list                                               |
 
 ### Methods
 
 | Name | Description |
 |-----------------------------------------------------------------------------------------------------------------|------------------------------------------|
-| [`PropertySet.get`](compolyx.PropertySet.get.md#compolyx.PropertySet.get)([variables])                          | Get raw PropertySet data.                |
-| [`PropertySet.query`](compolyx.PropertySet.query.md#compolyx.PropertySet.query)([variables, environment_point]) | Query PropertySet data.                  |
-| [`PropertySet.set`](compolyx.PropertySet.set.md#compolyx.PropertySet.set)([props])                              | Set constant and variable material data. |
+| [`PropertySet.get`](compolyx.PropertySet.get.md#compolyx.PropertySet.get)([variables])                          | Get raw PropertySet data                |
+| [`PropertySet.query`](compolyx.PropertySet.query.md#compolyx.PropertySet.query)([variables, environment_point]) | Query PropertySet data                  |
+| [`PropertySet.set`](compolyx.PropertySet.set.md#compolyx.PropertySet.set)([props])                              | Set constant and variable material data |

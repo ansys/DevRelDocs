@@ -8,5 +8,5 @@ Create a new column.
 
 * **Parameters:**
   - name: Name of column.
-  - type: A string (‘scalar’, ‘direction’) specifying the column type (the values will be initialized to NaN).
+  - type: A string (`scalar`, `direction`) specifying the column type (the values will be initialized to NaN).
   - values: A numpy array with values (the type is determined from its shape).

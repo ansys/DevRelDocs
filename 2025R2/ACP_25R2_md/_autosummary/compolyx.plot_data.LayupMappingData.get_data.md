@@ -19,7 +19,7 @@ Get data of plot.
 Data is returned independent of update status of plot, but only if results for the current plot configuration are available, else an empty array is returned.
 
 Examples:
-: Get data for current ply-wise plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
+ Get data for current ply-wise plot with visible scope set to element set “All_Elements” and with ply1 and ply2 selected:
   <br/>
   ```default
   >>> data = my_plot.get_data(visible=db.active_model.element_sets['All_Elements'], selected=[ply1, ply2])

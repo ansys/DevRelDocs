@@ -10,13 +10,13 @@ Create a Material Plot object.
   - name: Name of the plot.
   - id: ID for the plot.
   - active: Whether the plot is active.
-  - scope_entire_model: If ‘True’, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
-  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: Element Set, Oriented Selection Set, Modeling Ply, Sampling Point.
-  - show_on_solids: ‘True’ or ‘False’ (default). Whether to show the results on the shell or solid model (if present).
-  - show_ply_offsets: ‘True’ or ‘False’ (default). Whether to display ply-wise visualizations with ply offsets.
-  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=True.
+  - scope_entire_model: If `True`, then the scope of this plot is the entire model. If not, then set to false and use the data_scope to specify a sub scope.
+  - data_scope: Object(s) defining the scope for which data is computed and returned. Applicable are: `Element Set`, `Oriented Selection Set`, `Modeling Ply`, `Sampling Point`.
+  - show_on_solids: `True` or `False` (default). Whether to show the results on the shell or solid model (if present).
+  - show_ply_offsets: `True` or `False` (default). Whether to display ply-wise visualizations with ply offsets.
+  - ply_offset_scale_factor: Scale factor for the offsets of the visualized plies if show_ply_offsets=`True`.
   - component: Specifies the component.
-  - use_all_available_fields: ‘True’ (default) or ‘False’. Whether to enable all available field variables in the evaluation.
+  - use_all_available_fields: `True` (default) or `False`. Whether to enable all available field variables in the evaluation.
 * **Returns:**
   The plot object.
 

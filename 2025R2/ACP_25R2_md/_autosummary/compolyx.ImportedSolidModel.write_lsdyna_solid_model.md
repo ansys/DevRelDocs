@@ -7,9 +7,9 @@
 Export solid model as FE model for LS Dyna
 
 * **Parameters:**
-  - path: Out file path (file extension must be .k)
-  - part_number: Ls Dyna part number (default is 1)
-  - mat_type: LS Dyna material card type (default is ‘MAT_ENHANCED_COMPOSITE_DAMAGE’)
+  - path: Out file path (file extension must be `.k`)
+  - part_number: Ls Dyna part number (default is `1`)
+  - mat_type: LS Dyna material card type (default is `MAT_ENHANCED_COMPOSITE_DAMAGE`)
 
 Supported mat_types:
 : - ‘MAT_ENHANCED_COMPOSITE_DAMAGE’

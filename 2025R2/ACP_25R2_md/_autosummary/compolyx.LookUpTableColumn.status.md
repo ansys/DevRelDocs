@@ -4,4 +4,4 @@
 
 #### *property* LookUpTableColumn.status
 
-column status (‘UPTODATE’,’NOTUPTODATE’, or ‘LOCKED’)
+column status (`UPTODATE`, `NOTUPTODATE`, or `LOCKED`)

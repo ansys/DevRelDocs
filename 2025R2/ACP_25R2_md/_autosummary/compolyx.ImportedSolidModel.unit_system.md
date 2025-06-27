@@ -4,4 +4,4 @@
 
 #### *property* ImportedSolidModel.unit_system
 
-Unit system type of the imported mesh. Allowed string values are undefined, si, mks, umks, cgs, mpa, bft, bin
+Unit system type of the imported mesh. Available string values: `undefined`, `si`, `mks`, `umks`, `cgs`, `mpa`, `bft`, `bin`.

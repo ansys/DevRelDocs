@@ -4,7 +4,7 @@
 
 #### Fabric.clt_query(query='laminate_properties')
 
-Returns the properties of the classical laminate theory:
+Returns the properties of the classical laminate theory.
 
 * **Parameters:**
   - query: Result type.

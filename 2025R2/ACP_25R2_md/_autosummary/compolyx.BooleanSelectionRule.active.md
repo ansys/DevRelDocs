@@ -4,4 +4,4 @@
 
 #### *property* BooleanSelectionRule.active
 
-active status of object
+Active status of object

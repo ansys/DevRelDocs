@@ -4,4 +4,4 @@
 
 #### *property* Material.ply_type
 
-Ply type. Allowed string values: regular, woven, orthotropic_homogeneous_core, isotropic_homogeneous_core, honeycomb_core, isotropic, adhesive, undefined
+Ply type. Available string values: `regular`, `woven`, `orthotropic_homogeneous_core`, `isotropic_homogeneous_core`, `honeycomb_core`, `isotropic`, `adhesive`, and `undefined`.

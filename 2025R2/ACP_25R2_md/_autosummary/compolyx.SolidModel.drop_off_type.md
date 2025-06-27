@@ -4,4 +4,4 @@
 
 #### *property* SolidModel.drop_off_type
 
-Drop-off type. Allowed string values: [‘inside_ply’, ‘outside_ply’]
+Drop-off type. Available string values: [‘inside_ply’, ‘outside_ply’]

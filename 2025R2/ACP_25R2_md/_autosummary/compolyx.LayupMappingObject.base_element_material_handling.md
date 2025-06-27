@@ -4,4 +4,4 @@
 
 #### *property* LayupMappingObject.base_element_material_handling
 
-Whether the base-element material is removed or kept. Allowed string values: [‘retain’, ‘remove’]
+Whether the base-element material is removed or kept. Available string values: [`retain`, `remove`].

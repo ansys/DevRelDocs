@@ -8,7 +8,7 @@ Create a constant material.
 
 * **Parameters:**
   - name: Name of the new material.
-  - ply_type: Type of ply for the material. Valid string values: regular, woven, orthotropic_homogeneous_core, isotropic_homogeneous_core, honeycomb_core, isotropic, adhesive, and undefined.
+  - ply_type: Type of ply for the material. Available string values: `regular`, `woven`, `orthotropic_homogeneous_core`, `isotropic_homogeneous_core`, `honeycomb_core`, `isotropic`, `adhesive`, and `undefined`.
   - E1 - rho: Material parameters.
 * **Returns:**
   New instance of material.
