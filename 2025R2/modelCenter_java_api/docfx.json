@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "ModelCenter",
+      "summary": "",
+      "version": "2025 R2",
+      "product": "ModelCenter",
+      "programming language": "java",
+      "product collection": "Connect",
+      "physics": "Connect"
+    }
+  }
+}
