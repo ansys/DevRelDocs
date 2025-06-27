@@ -6,9 +6,7 @@
 
 The Scoping is a set of entity ids defined on a location (the location is optional).
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -32,9 +30,7 @@ my_scoping.setIds(my_ids.data(), (int)my_ids.size());
 
 The Scoping's location and ids can be accessed with:
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -58,9 +54,7 @@ int index = my_scoping.indexById(1);
 
 The minimum requirement for a well defined Field is for it to have a dimensionality (scalar, 3 components vector, 6 components symmetrical matrix...), a location ("Nodal", "Elemental", "ElementalNodal", "Timefrq"...), a data vector and a scoping with ids. The user can also set the number of shell layers. If the field has one elementary data by entity (elementary data size = number of components for "Nodal" or "Elemental" field for example), then the data vector can be set directly. If a more complex field is required ("ElementalNodal" Field for example), the data can be set entity by entity.
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -97,9 +91,7 @@ my_field.setFieldDefinition(field_def);
 
 The Field's side information as well as the data in itself can be accessed with:
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -133,9 +125,7 @@ data_by_index = cursor.data();
 
 The Fields Container is a vector of Fields and all the Fields are ordered with labels and ids. Most commonly, the Fields Container is scoped on "time" label and the ids are the time or frequency sets. More generically, the Fields Container allows to split results on different criterions.
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -179,9 +169,7 @@ my_complex_fc.add({ { ansys::dpf::labels::time,1 },{ ansys::dpf::labels::complex
 
 The Fields Container is the main output of results providers:
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -210,9 +198,7 @@ my_field = my_fields_container[0]; //returns the first field
 
 Data Sources is the entity containing the different path to the result files of an analysis. An extension key ('rst' for example) is used to choose which files represent results files, the other one being accessory files. See more information for using Data Sources in mechanical in "How to use DPF's package / IPython" menu.
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -229,9 +215,7 @@ my_data_sources.addFile("c:/temp/ds.dat");
 
 The user can create his own data to manipulate it with dpf. THe Meshed Region can be created simply with:
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -290,9 +274,7 @@ el.numberOfNodes();
 
 A model is usually represented by a Meshed Region in DPF. The mesh provider operator allows to access an analysis' mesh. The user can then get different information in the mesh like the coordinates of all the nodes and the connectivity between elements and nodes.
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -342,9 +324,7 @@ bool issolid = element_des.solid;
 
 The time or frequency space of an analysis is described by the Time Freq Support entity in DPF. It gives access to real and imaginary sets. User can create a time freq support to manage data.
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -382,9 +362,7 @@ time_freq_support.setHarmonicIndices(harmonic_indices_2, 2); // set indices for 
 
 Time Freq Support of a specific file can be accessed using the following methods.
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -412,9 +390,7 @@ double* freqs = my_time_freq_field.entityDataById(1, size);
 
 The Model is built with DataSources that it will open (in a streams by default) to explore an analysis. Printing the model is a good tool to see the results that are available.
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"

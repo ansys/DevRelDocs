@@ -15,9 +15,7 @@ In DPF, the operator is used to import and modify the simulation data. We can co
 
 Those operators allow to read data from solver files or from standard file types. Different solver format are handled by DPF like rst/mode/rfrq/rdsp.. for MAPDL, d3plot for LsDyna, cas.h5/dat.h5/res/flprj for CFX and Fluent, odb for Abaqus... To read those, different readers have been implemented in plugins. Plugins can be loaded on demand in any dpf's scripting language with the "load library" methods. File readers can be used generically thanks to dpf's result providers, which means that the same operators can be used for any file types. For example, reading a displacement or a stress for any files will be done with:
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -46,9 +44,7 @@ ansys::dpf::FieldsContainer my_s = s_op.getOutputFieldsContainer(0);
 
 Result providers can be customized to read a specific time frequency or to provide results on a subset of the mesh:
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -100,9 +96,7 @@ ansys::dpf::FieldsContainer my_u = u_op.getOutputFieldsContainer(0);
 
 Standards file formats reader are also supported to import custom data. Fields can be imported from csv, vtk or hdf5 files:
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -123,9 +117,7 @@ csv file example
 
 The field being the main data container in DPF, most of the operator transforming the data take a field or fields container in input and return a transformed field or fields container in output. Analytic, averaging or filtering operations can be performed on the simulation data:
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -160,9 +152,7 @@ ansys::dpf::dp_double*const data2 = out.data(size);
 
 After transforming or reading simulation data with DPF, the user might want to export the results in a given format to use it in another environment or to save it for future use with dpf. Vtk, h5, csv and txt (serializer operator) are examples of supported exports. Export operators often match with import operators allowing user to reuse their data. The "serialization" operators menu lists the available import/export operators.
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -202,9 +192,7 @@ vtk file example
 
 To create more complex operations and customizable results, operators can be chained together to create workflows. This way a result can be read from a solver result file and directly transformed in a single workflow. Examples can be found in APIs/Workflow examples menu. 2 syntaxes can be used to create and connect operators together:
 
-Example of usage
 
-- Cpp
 
 ```c++
 #include "dpf_api.h"
@@ -227,9 +215,7 @@ ansys::dpf::FieldsContainer my_u_norm = norm_op.getOutputFieldsContainer(0);
 
 Advanced user might want to configurate an operator's behavior during its running phase. This can be done through the "config". This option allows to choose if an operator can directly modify the input data container instead of creating a new one with the "inplace" configuration, to choose if an operation between to fields should use their indices or mesh ids with the "work_by_index" configuration... Each operator's description explains which configuration are supported.
 
-Example of usage
 
-- Cpp
 
 ```c++
 //use config for add operator
