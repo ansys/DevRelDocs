@@ -24,23 +24,23 @@ Compute the measure of the Elements (volume for 3D elements, surface for 2D elem
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](./../../core-concepts/dpf-types#abstract-meshed-region) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh_scoping |[`scoping`](./../../core-concepts/dpf-types#scoping) | If not provided, the measure of all elements for the mesh is computed. If provided, the Scoping needs to have "Elemental" location. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types#abstract-meshed-region) |  |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh_scoping |[`scoping`](../../core-concepts/dpf-types#scoping) | If not provided, the measure of all elements for the mesh is computed. If provided, the Scoping needs to have "Elemental" location. |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](./../../core-concepts/dpf-types#field) |  |
+|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types#field) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **num_threads** |[`int32`](./../../core-concepts/dpf-types#standard-types) | 0 | Number of threads to use to run in parallel |
-| **run_in_parallel** |[`bool`](./../../core-concepts/dpf-types#standard-types) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **num_threads** |[`int32`](../../core-concepts/dpf-types#standard-types) | 0 | Number of threads to use to run in parallel |
+| **run_in_parallel** |[`bool`](../../core-concepts/dpf-types#standard-types) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
 
 ## Scripting
 

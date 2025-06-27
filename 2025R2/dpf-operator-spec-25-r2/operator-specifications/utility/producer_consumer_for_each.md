@@ -39,8 +39,8 @@ Allows to write a loop over operators by connecting data to iterate and by reque
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **evaluate_inputs_before_run** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, all input pins of the operator will be evaluated before entering the run method to maintain a correct Operator status. |
-| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **evaluate_inputs_before_run** |[`bool`](../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, all input pins of the operator will be evaluated before entering the run method to maintain a correct Operator status. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

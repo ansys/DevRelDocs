@@ -24,22 +24,22 @@ Converts 3D meshes of arbitrary 3D element types into a tetrahedral mesh, output
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](./../../core-concepts/dpf-types#abstract-meshed-region) | Mesh with arbitrary element types. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types#abstract-meshed-region) | Mesh with arbitrary element types. |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| mesh |[`meshed_region`](./../../core-concepts/dpf-types#meshed-region) | Tetrahedralized mesh. |
-|  **Pin 1**| node_mapping |[`scoping`](./../../core-concepts/dpf-types#scoping) | Node mapping. |
-|  **Pin 2**| element_mapping |[`scoping`](./../../core-concepts/dpf-types#scoping) | Element mapping. |
+|  **Pin 0**| mesh |[`meshed_region`](../../core-concepts/dpf-types#meshed-region) | Tetrahedralized mesh. |
+|  **Pin 1**| node_mapping |[`scoping`](../../core-concepts/dpf-types#scoping) | Node mapping. |
+|  **Pin 2**| element_mapping |[`scoping`](../../core-concepts/dpf-types#scoping) | Element mapping. |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 
