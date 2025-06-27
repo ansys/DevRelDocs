@@ -24,7 +24,7 @@ compute the normals at the given nodes or element scoping based on the given mes
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#abstract-meshed-region) |  |
+| <strong>Pin 0</strong>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |  |
 | <strong>Pin 1</strong>|  mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
 | <strong>Pin 3</strong>|  field |[`field`](../../core-concepts/dpf-types.md#field) |  |
 

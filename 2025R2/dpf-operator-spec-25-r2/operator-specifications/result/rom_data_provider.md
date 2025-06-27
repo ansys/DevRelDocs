@@ -47,7 +47,7 @@ Set the required data for the invariant terms computation (reduced matrices, lum
 |  **Pin 6**| model_size |[`double`](../../core-concepts/dpf-types.md#standard-types) | size of the model |
 |  **Pin 7**| field_coordinates_and_euler_angles |[`double`](../../core-concepts/dpf-types.md#standard-types) | coordinates and euler angles of all nodes |
 |  **Pin 8**| nod |[`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) | ids of master nodes |
-|  **Pin 9**| meshed_region |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#abstract-meshed-region) | expanded meshed region. |
+|  **Pin 9**| meshed_region |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | expanded meshed region. |
 
 ## Configurations
 

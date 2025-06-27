@@ -26,7 +26,7 @@ Export a MeshedRegion in the pyVista format.
 |-------|-------|------------------|-------------|
 | <strong>Pin 2</strong>|  coordinates |[`field`](../../core-concepts/dpf-types.md#field) | Node coordinates. If not set, the node coordinates of the mesh are employed. |
 | <strong>Pin 6</strong>|  as_linear |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Export a linear version of the mesh (quadratic surface elements do no include midside nodes). If not set, defaults to true. |
-| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#abstract-meshed-region) | mesh to export in pyVista format |
+| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | mesh to export in pyVista format |
 | <strong>Pin 60</strong>|  vtk_updated |[`bool`](../../core-concepts/dpf-types.md#standard-types) | True if the VTK version employed by pyVista is > VTK 9. Default true. |
 | <strong>Pin 200</strong>|  as_poly |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Export elements as polyhedrons (cell-face-node representation). Default false. |
 

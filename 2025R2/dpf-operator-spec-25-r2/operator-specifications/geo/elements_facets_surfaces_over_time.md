@@ -26,7 +26,7 @@ Calculates for a mesh, the surface of each element's facet over time for each sp
 |-------|-------|------------------|-------------|
 | <strong>Pin 1</strong>|  scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
 | <strong>Pin 2</strong>|  displacement |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Displacement field's container. |
-| <strong>Pin 7</strong>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#abstract-meshed-region) | Mesh must be defined if the displacement field's container does not contain it, or if there is no displacement. |
+| <strong>Pin 7</strong>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Mesh must be defined if the displacement field's container does not contain it, or if there is no displacement. |
 
 
 ## Outputs
@@ -34,7 +34,7 @@ Calculates for a mesh, the surface of each element's facet over time for each sp
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
 |  **Pin 0**| fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Surfaces field. |
-|  **Pin 1**| mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#abstract-meshed-region) | Mesh made of surface elements only. |
+|  **Pin 1**| mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Mesh made of surface elements only. |
 
 ## Configurations
 

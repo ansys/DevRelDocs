@@ -25,7 +25,7 @@ Take a set of mesh and assemble them in a unique one
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin -200</strong>|  should_merge_named_selections |[`bool`](../../core-concepts/dpf-types.md#standard-types) | For certain types of files (such as RST), scoping from names selection does not need to be merged.If this pin is true, the merge occurs. If this pin is false, the merge does not occur. Default is true. |
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  meshes |[`vector<shared_ptr<abstract_meshed_region>>`](../../core-concepts/dpf-types.md#vector<shared-ptr<abstract-meshed-region>>), [`abstract_meshed_region`](../../core-concepts/dpf-types.md#abstract-meshed-region) | A vector of meshed region to merge or meshed region from pin 0 to ... |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  meshes |[`vector<shared_ptr<abstract_meshed_region>>`](../../core-concepts/dpf-types.md#vector<shared-ptr<abstract-meshed-region>>), [`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | A vector of meshed region to merge or meshed region from pin 0 to ... |
 | <strong>Pin 101</strong>|  merge_method |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0: merge by distance, 1: merge by node id (default) |
 | <strong>Pin 102</strong>|  box_size |[`double`](../../core-concepts/dpf-types.md#standard-types) | Box size used when merging by distance. Default value is 1e-10. |
 | <strong>Pin 103</strong>|  remove_duplicate_elements |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0: keep duplicate elements (default), 1: remove duplicate elements |
@@ -35,7 +35,7 @@ Take a set of mesh and assemble them in a unique one
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| merges_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#abstract-meshed-region) |  |
+|  **Pin 0**| merges_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |  |
 
 ## Configurations
 

@@ -31,9 +31,9 @@ Computes mapdl::rst::ENG_KE from an rst file.
 | <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | data sources containing the result file. |
 | <strong>Pin 5</strong>|  bool_rotate_to_global |[`bool`](../../core-concepts/dpf-types.md#standard-types) | if true the field is rotated to global coordinate system (default true) |
 | <strong>Pin 6</strong>|  all_dofs |[`bool`](../../core-concepts/dpf-types.md#standard-types) | if this pin is set to true, all the dofs are retrieved. By default this pin is set to false and only the translational dofs are retrieved. |
-| <strong>Pin 7</strong>|  sector_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#abstract-meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) | mesh of the base sector (can be a skin). |
+| <strong>Pin 7</strong>|  sector_mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) | mesh of the base sector (can be a skin). |
 | <strong>Pin 14</strong>|  read_cyclic |[`enum dataProcessing::ECyclicReading`](../../core-concepts/dpf-types.md#enum-dataprocessing::ecyclicreading), [`int32`](../../core-concepts/dpf-types.md#standard-types) | if 0 cyclic symmetry is ignored, if 1 cyclic sector is read, if 2 cyclic expansion is done, if 3 cyclic expansion is done and stages are merged (default is 1) |
-| <strong>Pin 15</strong>|  expanded_meshed_region |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#abstract-meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) | mesh expanded. |
+| <strong>Pin 15</strong>|  expanded_meshed_region |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region), [`meshes_container`](../../core-concepts/dpf-types.md#meshes-container) | mesh expanded. |
 | <strong>Pin 16</strong>|  cyclic_support |[`cyclic_support`](../../core-concepts/dpf-types.md#cyclic-support) |  |
 
 

@@ -39,7 +39,7 @@ Reads a mesh from result files.
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#abstract-meshed-region) |  |
+|  **Pin 0**| mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |  |
 
 ## Configurations
 

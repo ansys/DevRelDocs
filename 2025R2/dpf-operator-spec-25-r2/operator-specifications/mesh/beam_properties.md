@@ -32,7 +32,7 @@ Reads the beam's properties from the result files contained in the streams or da
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| mesh_out |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#abstract-meshed-region) | This mesh updates a new map containing a field of the beam's properties if there is at least one beam in mesh. |
+|  **Pin 0**| mesh_out |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | This mesh updates a new map containing a field of the beam's properties if there is at least one beam in mesh. |
 |  **Pin 1**| field_type_section_id |[`field`](../../core-concepts/dpf-types.md#field) | This field contains the section ID of beams. 1:REC; 3:CSOLID, 4:CTUBE, 5:CHAN, 6:Z, 7:L, 8:I, 9:T, 11:HATS, 12:HREC. |
 |  **Pin 2**| field_area |[`field`](../../core-concepts/dpf-types.md#field) | This field contains the area of beams. |
 |  **Pin 3**| field_moment_inertia |[`field`](../../core-concepts/dpf-types.md#field) | This field contains the inertia moment of beams. Iyy, Iyz, Izz. |
