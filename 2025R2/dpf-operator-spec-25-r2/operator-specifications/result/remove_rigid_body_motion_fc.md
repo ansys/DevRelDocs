@@ -26,7 +26,7 @@ Removes rigid body mode from a total displacement field by minimization. Use a r
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | field or fields container with only one field is expected |
 | <strong>Pin 1</strong>|  reference_node_id |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Id of the reference entity (node). |
-| <strong>Pin 7</strong>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#abstract-meshed-region) | default is the mesh in the support |
+| <strong>Pin 7</strong>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | default is the mesh in the support |
 
 
 ## Outputs

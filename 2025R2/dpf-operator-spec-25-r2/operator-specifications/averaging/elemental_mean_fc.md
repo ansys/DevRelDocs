@@ -28,7 +28,7 @@ Computes the average of a multi-entity container of fields, (ElementalNodal -> E
 | <strong>Pin 1</strong>|  collapse_shell_layers |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If true, shell layers are averaged as well (default is false). |
 | <strong>Pin 2</strong>|  force_averaging |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If true you average, if false you just sum. |
 | <strong>Pin 3</strong>|  scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Average only on these elements. If it is a scoping container, the label must correspond to the one of the fields containers. |
-| <strong>Pin 4</strong>|  abstract_meshed_region |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#abstract-meshed-region) | The mesh region in this pin is used to perform the averaging. It is used if there is no fields support. |
+| <strong>Pin 4</strong>|  abstract_meshed_region |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | The mesh region in this pin is used to perform the averaging. It is used if there is no fields support. |
 
 
 ## Outputs

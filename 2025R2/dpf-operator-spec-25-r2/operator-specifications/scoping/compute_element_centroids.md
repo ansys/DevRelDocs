@@ -25,7 +25,7 @@ Computes the element centroids of the mesh. It also outputs the element measure.
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 1</strong>|  element_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | If provided, only the centroids of the elements in the scoping are computed. |
-| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#abstract-meshed-region) | Mesh to compute centroids |
+| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Mesh to compute centroids |
 
 
 ## Outputs
