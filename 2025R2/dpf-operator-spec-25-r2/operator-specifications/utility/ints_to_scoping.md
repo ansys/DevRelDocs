@@ -24,21 +24,21 @@ take a int or a vector of int and transform it in a one entity field of location
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  int_or_vector_int |[`int32`](./../../getting-started/using-data-containers.md#int32), [`vector<int32>`](./../../getting-started/using-data-containers.md#vector<int32>) | int or vector of int |
-| <strong>Pin 1</strong>|  location |[`string`](./../../getting-started/using-data-containers.md#string) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  int_or_vector_int |[`int32`](./../../core-concepts/dpf-types#standard-types), [`vector<int32>`](./../../core-concepts/dpf-types#standard-types) | int or vector of int |
+| <strong>Pin 1</strong>|  location |[`string`](./../../core-concepts/dpf-types#standard-types) |  |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| scoping |[`scoping`](./../../getting-started/using-data-containers.md#scoping) |  |
+|  **Pin 0**| scoping |[`scoping`](./../../core-concepts/dpf-types#scoping) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../getting-started/using-data-containers.md#bool) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

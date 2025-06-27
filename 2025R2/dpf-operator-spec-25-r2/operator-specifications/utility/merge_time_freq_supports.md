@@ -24,20 +24,20 @@ Assembles a set of time/frequency supports into a unique one.
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  time_freq_supports |[`vector<shared_ptr<time_freq_support>>`](./../../getting-started/using-data-containers.md#vector<shared-ptr<time-freq-support>>), [`time_freq_support`](./../../getting-started/using-data-containers.md#time-freq-support) | A vector of time/frequency supports to merge or time/frequency supports from pin 0 to ... |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  time_freq_supports |[`vector<shared_ptr<time_freq_support>>`](./../../core-concepts/dpf-types#vector<shared-ptr<time-freq-support>>), [`time_freq_support`](./../../core-concepts/dpf-types#time-freq-support) | A vector of time/frequency supports to merge or time/frequency supports from pin 0 to ... |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| merged_support |[`time_freq_support`](./../../getting-started/using-data-containers.md#time-freq-support) |  |
+|  **Pin 0**| merged_support |[`time_freq_support`](./../../core-concepts/dpf-types#time-freq-support) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../getting-started/using-data-containers.md#bool) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

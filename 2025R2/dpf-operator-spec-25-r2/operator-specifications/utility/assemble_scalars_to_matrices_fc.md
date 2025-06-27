@@ -24,29 +24,29 @@ Take nine scalar fields container and assemble them as a 3x3 matrix fields. If t
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  xx |[`fields_container`](./../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 1</strong>|  yy |[`fields_container`](./../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 2</strong>|  zz |[`fields_container`](./../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 3</strong>|  xy |[`fields_container`](./../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 4</strong>|  yz |[`fields_container`](./../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 5</strong>|  xz |[`fields_container`](./../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 6</strong>|  yx |[`fields_container`](./../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 7</strong>|  zy |[`fields_container`](./../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 8</strong>|  zx |[`fields_container`](./../../getting-started/using-data-containers.md#fields-container) |  |
-| <strong>Pin 60</strong>|  symmetrical |[`bool`](./../../getting-started/using-data-containers.md#bool) |  |
+| <strong>Pin 0</strong>|  xx |[`fields_container`](./../../core-concepts/dpf-types#fields-container) |  |
+| <strong>Pin 1</strong>|  yy |[`fields_container`](./../../core-concepts/dpf-types#fields-container) |  |
+| <strong>Pin 2</strong>|  zz |[`fields_container`](./../../core-concepts/dpf-types#fields-container) |  |
+| <strong>Pin 3</strong>|  xy |[`fields_container`](./../../core-concepts/dpf-types#fields-container) |  |
+| <strong>Pin 4</strong>|  yz |[`fields_container`](./../../core-concepts/dpf-types#fields-container) |  |
+| <strong>Pin 5</strong>|  xz |[`fields_container`](./../../core-concepts/dpf-types#fields-container) |  |
+| <strong>Pin 6</strong>|  yx |[`fields_container`](./../../core-concepts/dpf-types#fields-container) |  |
+| <strong>Pin 7</strong>|  zy |[`fields_container`](./../../core-concepts/dpf-types#fields-container) |  |
+| <strong>Pin 8</strong>|  zx |[`fields_container`](./../../core-concepts/dpf-types#fields-container) |  |
+| <strong>Pin 60</strong>|  symmetrical |[`bool`](./../../core-concepts/dpf-types#standard-types) |  |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| fields_container |[`fields_container`](./../../getting-started/using-data-containers.md#fields-container) |  |
+|  **Pin 0**| fields_container |[`fields_container`](./../../core-concepts/dpf-types#fields-container) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../getting-started/using-data-containers.md#bool) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

@@ -24,26 +24,26 @@ Read the values of the section properties for a given section property field (pr
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  properties_name |[`string`](./../../getting-started/using-data-containers.md#string), [`vector<string>`](./../../getting-started/using-data-containers.md#vector<string>) |  |
-| <strong>Pin 1</strong>|  section |[`property_field`](./../../getting-started/using-data-containers.md#property-field) | Property field that contains a section id per element.(optional) |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  streams_container |[`streams_container`](./../../getting-started/using-data-containers.md#streams-container) |  |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](./../../getting-started/using-data-containers.md#data-sources) |  |
-| <strong>Pin 5</strong>|  layer_property |[`bool`](./../../getting-started/using-data-containers.md#bool) | Property requested is layered. Default = False. |
-| <strong>Pin 6</strong>|  layers_requested |[`vector<int32>`](./../../getting-started/using-data-containers.md#vector<int32>) | Array with layers requested for the section. Default = AllLayers. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  properties_name |[`string`](./../../core-concepts/dpf-types#standard-types), [`vector<string>`](./../../core-concepts/dpf-types#standard-types) |  |
+| <strong>Pin 1</strong>|  section |[`property_field`](./../../core-concepts/dpf-types#property-field) | Property field that contains a section id per element.(optional) |
+| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  streams_container |[`streams_container`](./../../core-concepts/dpf-types#streams-container) |  |
+| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](./../../core-concepts/dpf-types#data-sources) |  |
+| <strong>Pin 5</strong>|  layer_property |[`bool`](./../../core-concepts/dpf-types#standard-types) | Property requested is layered. Default = False. |
+| <strong>Pin 6</strong>|  layers_requested |[`vector<int32>`](./../../core-concepts/dpf-types#standard-types) | Array with layers requested for the section. Default = AllLayers. |
 
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| properties_value |[`fields_container`](./../../getting-started/using-data-containers.md#fields-container) |  |
-|  **Pin 1**| layers_per_section |[`property_field`](./../../getting-started/using-data-containers.md#property-field) | Only available if layer_property option is set to True. |
+|  **Pin 0**| properties_value |[`fields_container`](./../../core-concepts/dpf-types#fields-container) |  |
+|  **Pin 1**| layers_per_section |[`property_field`](./../../core-concepts/dpf-types#property-field) | Only available if layer_property option is set to True. |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../getting-started/using-data-containers.md#bool) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](./../../core-concepts/dpf-types#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 
