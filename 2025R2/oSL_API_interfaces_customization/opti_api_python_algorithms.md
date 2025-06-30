@@ -44,6 +44,7 @@ Initializes the algorithm with the input values.
   - bool: Success value of the initialization
 
 ## `GetNextDesigns(args)`
+
 Returns the next designs that must be calculated by the solver.
 - **Inputs:**
   - `PyOSDesignPoint`: optiSLang variables:

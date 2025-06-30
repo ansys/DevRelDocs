@@ -1,4 +1,4 @@
-# Interfaces and Customizations
+# Introduction
 
 You can extend the basic functionality with the following interfaces:
 
