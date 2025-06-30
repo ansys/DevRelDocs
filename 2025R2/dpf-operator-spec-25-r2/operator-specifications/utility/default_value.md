@@ -22,23 +22,25 @@ Default return value from input pin 1 to output pin 0 if there is nothing on inp
 
 ## Inputs
 
+
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  forced_value | |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  default_value | |  |
-
+| <strong>Pin 0</strong> | forced_value | |  |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | default_value | |  |
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
+
+| Output | Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| output | |  |
+| **Pin 0** | output | |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
 | **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
 
 ## Scripting
 

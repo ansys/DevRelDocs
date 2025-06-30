@@ -22,18 +22,19 @@ Allows to write a loop over operators by connecting data to iterate and by reque
 
 ## Inputs
 
+
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  producer_consumer_iterableq | | The result of the make_producer_consumer_for_each_iterator operator. |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  forward | | output of the last operators of the workflow |
-
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | producer_consumer_iterableq | | The result of the make_producer_consumer_for_each_iterator operator. |
+| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | forward | | output of the last operators of the workflow |
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
+
+| Output | Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| empty | |  |
-|  **Pin 3**| output | |  |
+| **Pin 0** | empty | |  |
+| **Pin 3** | output | |  |
 
 ## Configurations
 
@@ -41,6 +42,7 @@ Allows to write a loop over operators by connecting data to iterate and by reque
 |-----|------|----------|-------------|
 | **evaluate_inputs_before_run** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, all input pins of the operator will be evaluated before entering the run method to maintain a correct Operator status. |
 | **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
 
 ## Scripting
 
