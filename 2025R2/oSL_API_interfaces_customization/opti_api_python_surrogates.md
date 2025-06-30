@@ -1,4 +1,5 @@
 # Surrogates
+
 optiSLang allows you to extend the surrogates by using common script interfaces.
 
 To use custom script surrogates, the scripts must fulfill the naming conventions `*_surr.py` or `*_surrogate.py` and must be placed in one of the following locations:

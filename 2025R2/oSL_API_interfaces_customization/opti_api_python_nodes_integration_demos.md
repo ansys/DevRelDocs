@@ -1,7 +1,8 @@
 #  Integration plugin demonstrators
+
 optiSLang allows you to create integration nodes tailored for the needs, workflows, and specific use cases in your company, institution, team, or user community. Python programmers can easily create these integration nodes using the optiSLang framework for customized integration (CI) plugins.
 
-![custom_toolchain.png](graphics/custom_toolchain.png)
+![Custom Toolchain](graphics/custom_toolchain.png)
 
 | Number | Description                                 |
 |--------|---------------------------------------------|
@@ -22,7 +23,7 @@ Extending optiSLang's module library by adding integration nodes can help make r
 
 |Generic Integration Nodes	| Custom Integration Nodes|
 |-----|-----|
-|![generic_nodes.png](graphics/generic_nodes.png)|![custom_nodes.png](graphics/custom_nodes.png)|
+|![Generic Integration Nodes](graphics/generic_nodes.png)|![Custom Integration Nodes](graphics/custom_nodes.png)|
 |- Marking many parameters<br>- Searching through many lines of text<br>- Working through several files<br>- Registering raw unscaled numbers|- Pick one file and multiple files can be scanned<br>- Drag and drop registration from a ready-made list<br>- Listing contains only relevant pre-selection<br>- You can add in further functions such as scaling, grouping, and relabelling|
 
 While the image above references input integration, you can address similar work minimization potentials using solver calls and output integration. Output data scanning can stretch over multiple files automatically, and involve custom postprocessing steps. User interface elements for determining integration options can be useful for all three basic functions. However, for spawning or controlling solver processes, thoughtfully designed user interface elements can be of huge benefit to a user group. For example, offering a choice of cluster queues in a simple drop-down menu while hiding most of the submission formalities in the Python code. One solver expert can devise intricate command line argument combinations, and the entire user group can use two or three mouse clicks in the tailor-made node edit dialog box.
@@ -36,6 +37,8 @@ For more information, see the following topics:
 - [File-based demos](#file-based-demos)
 - [Special demos](#special-demos)
 
+<a id="introduction-to-integration-plugin-demonstrators"></a>
+
 ##  Introduction to integration plugin demonstrators
 If you are interested in developing your own Python-based integration node plugin, the best place to start is here. You can browse through the descriptions and codes of a large suite of smaller and larger plugin demonstrators. Hands-on experience is only a few mouse-clicks away, just create the nodes in the scenery and drop them into a parametric system of your choice. They will run out of the box with few prerequisits. Hands-on experimentation is highly recommended as the quickest way to learn and understand what the various functional parts of the code are made for.
 
@@ -48,6 +51,8 @@ A series of minimalistic demos is highlighting one feature per demo. A second sh
 
 The demo nodes illustrate how to write code against the [Python-Based Plugin API](opti_api_python_based_plugins.md).
 
+<a id="setup"></a>
+
 ## Setup
 
 See the following topics:
@@ -56,6 +61,8 @@ See the following topics:
 - [Additional steps for using file-based demo nodes](#additional-steps-for-using-file-based-demo-nodes)
 - [How to derive your own plugin node](#how-to-derive-your-own-plugin-node)
 
+
+<a id="how-to-load-set-up-and-use-the-demo-node"></a>
 
 ### How to load, set up, and use the demo node
 [Download the demonstrator package.](https://ansyshelp.ansys.com/Views/Secured/Doc_Assets/Release/v251/optiSLang_integration_demos.zip)
@@ -77,6 +84,8 @@ Using a node for running only one single design is always a weaker test than run
 
 Once a demo node has proven to be able to produce successful designs, you're invited to conduct further experiments. Some ideas: unregistering parameters, reregistering them as slots, increasing the degree of parallelism (DoP) or the multi-design group size, packing more nodes into the parametric system, creative wire connections, conditional execution options, computing derived output quantities in a calculator tab of a node edit window, and so on.
 
+<a id="additional-steps-for-using-file-based-demo-nodes"></a>
+
 ### Additional steps for using file-based demo nodes
 The additional steps have to do with putting in place a useful work folder structure with contents representing a "solved reference project with output data" to which a file-based node can be linked.
 
@@ -89,6 +98,8 @@ The two files in the reference folder are representing a "solved project" with o
 ![demo_setup_fig6.png](graphics/demo_setup_fig6.png)
 
 Now you are ready to register parameters and responses (or also slot connections) and start experimenting with the demo nodes.
+
+<a id="how-to-derive-your-own-plugin-node"></a>
 
 ### How to derive your own plugin node
 Once you add the line p`rint('Hello!')` anywhere in the code of a demo node, you become an optiSLang plugin developer. Taking one of the demo nodes and starting with incremental modifications is indeed an easy way to start developing own integration plugins.

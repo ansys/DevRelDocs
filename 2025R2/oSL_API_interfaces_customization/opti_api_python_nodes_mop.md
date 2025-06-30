@@ -2,11 +2,6 @@
 
 The following topics describe the framework for creating a Python-based MOP node plugin.
 
-- [Basic Requirements](#basic-requirements)
-- [Functions to Implement](#functions-to-implement)
-- [Data Exchange](#data-exchange)
-- [Essential and Additional Files](#essential-and-additional-files)
-
 ## Basic Requirements
 The following requirements must be met for optiSLang to detect, load, and execute a plugin you provide.
 
@@ -152,6 +147,8 @@ The following types are essential for implementing the data exchange between opt
 
 The following tables describe the standardized data structures of important objects transferred to several of the plugin functions where they are received in a structure of arguments.
 
+<a id="table-15-common-incoming-key-word-arguments-kwargs"></a>
+
 **Table 15: Common Incoming Key Word Arguments (KWARGs)**
 
 | Name | Type | Description |
@@ -165,12 +162,16 @@ The following tables describe the standardized data structures of important obje
 | reference_file | String | Optional: Path to the reference file.<br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 | reference_file_is_relative_to_working_directory | Bool | Optional: Whether or not the path to reference file is relative to the working directory.<br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 
+<a id="table-16-additional-incoming-kwargs-for-the-execute-function"></a>
+
 **Table 16: Additional Incoming KWARGs for the Execute Function**
 
 | Name | Type | Description |
 |------|------|-------------|
 | input_container | List of HidSpecificInputData | Aggregate of arguments per HID. |
 | awaited_mdb_filename | String | The expected filename of the generated MOP `mdb` file. |
+
+<a id="table-17-optislang-variables-that-do-not-vary-per-hid"></a>
 
 **Table 17: optiSLang Variables That Do Not Vary Per HID**
 
@@ -182,6 +183,8 @@ The following tables describe the standardized data structures of important obje
 | OSL_RLS_REV | String | The revision number of optiSLang. |
 | OSL_RLS_FLG | String | A version suffix which is normally empty unless a specific build is set. |
 
+<a id="table-18-optislang-variables-that-vary-per-hid-in-execute-function"></a>
+
 **Table 18: optiSLang Variables that Vary Per HID in Execute Function**
 
 | Name | Type | Description |
@@ -189,6 +192,8 @@ The following tables describe the standardized data structures of important obje
 | OSL_DESIGN_NO | String | Design number. |
 | OSL_DESIGN_NAME | String | Design directory name (for example, Design_0001). |
 | OSL_DESIGN_DIR | String | Absolute path of the current design directory. |
+
+<a id="table-19-hidspecificinputdata-attributes"></a>
 
 **Table 19: HidSpecificInputData Attributes**
 
@@ -201,6 +206,8 @@ The following tables describe the standardized data structures of important obje
 | working_directory | String | The nodes working directory. |
 | reference_file | String | Optional: Path to the reference file.<br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 | reference_file_is_relative_to_working_directory | Bool | Optional: Whether or not the path to reference file is relative to the working directory.<br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
+
+<a id="table-20-hidspecificoutputdatamop-attributes"></a>
 
 **Table 20: HidSpecificOutputDataMop Attributes**
 

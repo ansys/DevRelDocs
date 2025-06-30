@@ -21,6 +21,8 @@ The minimalistic demos are made of very simple codes and represent integration n
 - [Mini demo 16 (comprehensive)](#mini-demo-16-comprehensive)
 - [Mini demo 17 (the FileBased flag)](#mini-demo-17-the-filebased-flag)
 
+<a id="mini-demo-zero-abstract_demo"></a>
+
 ## Mini demo zero (abstract_demo)
 This is a minimal version of the minimal barebone demo 1, stripped down to such a degree that all by itself it admittedly does not offer a lot of helpfulness in the sense of a regular tutorial. While it has no justification as a how-to guide for real-world cases, the motivation behind this abstract demo is to serve as illustration for communicating a possible abstract view that the formal requirements for providing an integration plugin in optiSLang are in principle extremely low. What is required is in many cases not more than providing implementations of the two functions `load` and `execute`.
 
@@ -33,8 +35,12 @@ To exploit this abstract point of view even more, we can formulate that providin
 
 While real-world experience tends to prove that providing a plugin becomes a nontrivial task when aiming at combining high flexibility and good usability while considering a set of features offered by a given solver program with long established particularities in project structure and user community habits, it can be helpful to keep the abstract view point represented by the abstract demo in the back of our minds because this may help as guiding line when designing and redesigning the layout of smaller or larger plugin libraries. The abstract view point helps to discern between adjunct or preipherical functionalities on the one hand (like namings, settings, GUI niceties, data cache time-savers, HPC job prepping, etc.) and the core functionality of **making parametrization possible** and **driving design evaluation** on the other hand. All the adjunct features are only to serve the usability of the core functionality. What plugin users are seeking primarily is the core functionality, and for plugin authors the provision of the core functionality is a conceptually simple task.
 
+<a id="mini-demo-1-most-simple--load-and-execute"></a>
+
 ## Mini demo 1 (most simple = load and execute)
 A minimal demo, it represents the barebone essentials needed in order to create an integration node plugin. With only the two callback functions `load` and `execute` implemented, you can provide a functioning integration node.
+
+<a id="mini-demo-2-tree-view-labels"></a>
 
 ## Mini demo 2 (tree view labels) 
 If you need to pick a small set of elements from a large set of existing items, a tree view with collapsable or expandable branches and subbranches can be very helpful and advantageous compared to non-collapsable tabular views. optiSLang supports a tree view mode for both input and output listings. The tree view becomes active based on two prerequisites: firstly, the treeview mode has to be enabled in global settings of optiSLang and secondly, the plugin author has to supply labels for a desired amount of branching layers. The picture below shows on the right hand side how optiSLang renders the tree view mode when both preconditions are met.
@@ -42,6 +48,8 @@ If you need to pick a small set of elements from a large set of existing items, 
 ![demo_mini_fig1.png](graphics/demo_mini_fig1.png)
 
 The tree structure is just a display mode, the underlying data structure remains the same flat list-like structure, in which in all cases the bare parameter name is the identifier that counts. The tree view labels are only of relevance at configuration time for the function `load`; they are irrelevant during evaluation time in the function `execute`.
+
+<a id="mini-demo-3-vectors-and-signals"></a>
 
 ## Mini demo 3 (vectors and signals) 
 Besides scalars, there are two more very important types of objects that an integration node can forward to optiSLang and that can be registered as parametric study response when users are setting up a node: vectors and signals. A vector is a list of scalars. A signal is a one-dimensional list of data points accompanied by abscissa coordinate info. Signals can generally have multiple data channels, but there exists a special simplified signal container type, called xydata, which can hold only one data channel. The table below indicates constructors and converters available in the [Python API](https://developer.ansys.com/docs/optislang) for making these container objects, and the demo showcases their usage.
@@ -60,8 +68,12 @@ The calculator tab of the node edit dialog features illustrative data type icons
 
 As plugin author you have to decide how your new plugin offers solver output data to users for drag-n-drop registration. The plugin can offer a given data series as vector or signal or both. Such a design decision should have the future user community and what they will want to do with the data in mind. The goals are to balance comprehensiveness agains clarity of the output detection listing on the one hand, and to minimize anticipated necessary work on further data object derivation in the calculator tab on the other hand.
 
+<a id="mini-demo-4-maturity-level"></a>
+
 ## Mini demo 4 (maturity level)
 This demo highlights the meaning of the maturity level flag in the config file. The flag controls plugin visibility, and the second effect is the addition of a suffix "(Beta)" or "(Deprecated)" to the display name. Plugins marked **beta** are only visible if users have chosen to display beta modules via the **View** entry in the main menu. Plugins marked *deprecated* are unconditionally invisible in the modules library. Display in the scenery and plugin execution are not affected.
+
+<a id="mini-demo-5-multi-designs"></a>
 
 ## Mini demo 5 (multi-designs) 
 Multi-design grouping is very easy to activate in the config file via the flag `EnableMultiDesignMode`. But if a solver truly supports multi-design batch processing, then some extra interfacing work has to be taken care of in the integration plugin code: on the one hand collecting parameter values into design variation tables of the format required by the solver and on the other hand back-distributing job result data structures to feed them back to optiSLang on a per-design basis. The little demo brings this to awareness.
@@ -82,8 +94,12 @@ What motivations are there? When would plugin authors decide to enable multi-des
 
 These points of consideration are all mentioned here in the text because the mini demo contains no hint of such real-world challenges. The mini demo tries to be crisp and clear by simply choosing NumPy arrays as design variation tables and doing the math with arrays in the place where normally the solver does the work. If there is interest in seeing a fleshed out demo of what driving a multi-design capable solver with quirky output data file formats can mean, the special demo 3 was written for exactly this purpose and includes a dummy solver
 
+<a id="mini-demo-6-extra-slots"></a>
+
 ## Mini demo 6 (extra slots)
 The ability of Python plugin nodes to have their own additional slots besides the standard set of slot connections is a new feature in optiSLang 23.2. How it is done can be seen in this demo. The configuration file is the place for declaring slots with their name and expected data type. At evaluation time the values of input slots have to be unpacked from and output slot values written or attached to the HID-specific design data containers.
+
+<a id="mini-demo-7-pre-run-check"></a>
 
 ## Mini demo 7 (pre-run check)
 Here you can learn how a pre-run check can be implemented and how it improves the user experience. Imagine a complex multi-step multi-algorithm optiSLang project planned to run over an entire weekend, and imagine it just stops on early Saturday morning because a prerequisite of a node is not met and that node throws an error only at the late moment it is triggered. Such a lost weekend is frustrating if the error cause (the not met prerequisite) was already knowable on Friday afternoon when the project was started. Checking for knowable errors in project setup is the purpose of the pre-run check. It should be considered good style and an essential habit to spend some effort on implementing useful pre-run checks for every plugin being created. The potential of frustration prevention for future users can be tremendous.
@@ -92,8 +108,12 @@ Here you can learn how a pre-run check can be implemented and how it improves th
 
 The snapshot shows the two effects of a halt by failed pre-run check: the node turns yellow, and there is an error message in the main message log. If you want to use a diff tool for getting the additional code highlighted at a glance, it is best to compare it against [Demo 1](#mini-demo-1-most-simple--load-and-execute).
 
+<a id="mini-demo-8-slots-and-pre-run-check"></a>
+
 ## Mini demo 8 (slots and pre-run check)
 This demo is planned, but not yet worked out.
+
+<a id="mini-demo-9-ready-made-parameter-definitions"></a>
 
 ## Mini demo 9 (ready-made parameter definitions)
 The demo illustrates how to prepare ready-made parameter definitions. Simply make a comparison with [Demo 1](#mini-demo-1-most-simple--load-and-execute) by dropping a new node into an empty and fresh parametric system and registering parameters from the listing. The ready-made deterministic and stochastic parameter value ranges and distributions take effect directly when registering parameters and become visible when you subsequently inspect the parameter manager tab of the parametric system.
@@ -102,10 +122,14 @@ The demo illustrates how to prepare ready-made parameter definitions. Simply mak
 
 For this to happen, the function `load` has to return more than just the name and value of a detected parameter. In the documentation on exchange data objects, the **InputValueDefinition** table ([Table 13](opti_api_python_nodes_integration.md)) lays out how distribution types and specs can be declared. The [Python API documentation](https://developer.ansys.com/docs/optislang) contains in the module `dynardo_py_algorithms` a list of distribution types available. However, please note that as of optiSLang 24.1.0 the integration plugin API does not yet support the declaration of many of them; more comprehensive coverage will come with future versions.
 
+<a id="mini-demo-10-initialize-and-shutdown"></a>
+
 ## Mini demo 10 (initialize and shutdown) 
 Sometimes there is redundant work repeated for every design which represents a performance drag. We would like to have to do the redundant work only once. One motivation example is the waiting time for loading a large solver program if it is in the same order of magnitude as the numerical computation time spent by the solver program per design. A different motivation case would be the initialization of a complex solver handler class. In such situations a drastic performance gain can be achieved by transitioning to a session-based approach, whereby one solver program session or one Python session can be maintained and used to send and collect many jobs during the session. For exactly this reason optiSLang is generally trying to economize with junking and spawning Python subprocesses. 
 
 The two API functions `initialize` and `shutdown` were introduced for plugin authors to easily make use of this fact. In this demo, a global variable is declared in the code and managed and exploited not only in the two functions `initialize` and `shutdown`, but is at our disposal also in all other functions, in particular in the `execute` function. The variable points to nothing more than an integer number. The crucial thought is that you can manage as many global variables in this way and that they may point to anything you like. They can be handles to complex objects. Such a complex object may be the handler of a solver session, you may call its constructor in the initialize function and it can be armed to pull up a solver session when encountered with the first ever demand in a call of the `execute` function.
+
+<a id="mini-demo-11-try-except"></a>
 
 ## Mini demo 11 (try-except)
 In real-world scenarios there is no guarantee that both the solver subprocess and the integration code will work flawlessly for every single design in large and broad parametric studies. In a simple integration plugin and if no multi-design groups are used, it can be okay to refrain from any exception catching and let designs become marked successful, incomplete, or failed simply based on whether the Python context is able to survive free of errors until the end of a design evaluation, and whether it is possible for optiSLang to gather all, some, or none of the registered outputs.
@@ -114,11 +138,17 @@ However, if an error in one design will regularly destroy other designs when mul
 
 This demonstrator contains an artificial error source in the solution computation step in the execute function which generates on average 20% of failed designs. A try-except structure at the top level of the multi-design evaluation loop is able to catch errors and mark corresponding designs as failed without affecting the execution of the evaluation routine for other designs in the multi-design loop.
 
+<a id="mini-demo-12-incomplete-designs"></a>
+
 ## Mini demo 12 (incomplete designs)
 The previous demo illustrated the use of the boolean success flag for controlling the dissection of successful versus failed designs. optiSLang generally offers an additional category for evaluated designs, namely **incomplete** designs. As an extension of the previous demo, this case illustrates how to induce optiSLang to store designs labeled incomplete in the result designs table by returning a positive success flag in combination with the value *None* or *float('nan')* for a subset of output quantities.
 
+<a id="mini-demo-13-abort-mode"></a>
+
 ## Mini demo 13 (abort mode) 
 This demo is planned, but not yet worked out.
+
+<a id="mini-demo-14-settings"></a>
 
 ## Mini demo 14 (settings)
 This demonstrator illustrates how to make an integration plugin more flexible by giving it settings. The minimal necessary effort consists in implementing the API callback function `default_settings`. If you instantiate demo 14 nodes in the scenery and open their edit dialog, you can see how optiSLang renders generic GUI elements with labels in a subordinate widget area depending on variable types returned in the `default_settings` function. For example, a boolean switch will be rendered as checkbox, whereas a string setting will be represented by a text field. The table shows the complete mapping from data type to available GUI element.
@@ -134,11 +164,17 @@ Note: There is a shortcoming in oSL 23.2.0 whereby a numeric setting declared wi
 
 ![demo_mini_fig5.png](graphics/demo_mini_fig5.png)
 
+<a id="mini-demo-15-qml-settings"></a>
+
 ## Mini demo 15 (QML settings) 
 The API for Python-based plugin nodes has an interface for QML code. QML stands for "Qt markup language". Leveraging Qt with its JavaScript and signal broadcasting technologies allows for designing advanced settings subwidgets containing many flexible and interconnected GUI elements while not imposing a lot of performance drag. As author of plugin nodes you will also notice the increased control of GUI elements, the comparison with demo 11 exemplifies this in several points, for example when one GUI element is en- or disabled based on values present in other elements, or when a spin box for integers has imposed value range limits which is not possible in the QML-less implementation. Tooltips are another component of high value. As plugin author you should think about it like this: Ideally, a good GUI with useful tooltips can make the life of users very easy and other documentation obsolete.
 
+<a id="mini-demo-16-comprehensive"></a>
+
 ## Mini demo 16 (comprehensive) 
 This is not really a minimalistic demo because it shows a combination of many of the features treated in the previous examples.
+
+<a id="mini-demo-17-the-filebased-flag"></a>
 
 ## Mini demo 17 (the FileBased flag)
 This demo is able to directly illustrate what happens once you switch from the file-less to the file-based paradigm in the configuration file. On the one hand, a reference file entry with browser functionality appears prominently at the top of the node edit dialog, and on the other hand a clone of the reference file appears in each design directory (by default, if not demanded otherwise in the config file). The node simply generates some additional diagnostic log output highlighting all kinds of differences visible in kwargs and design directory content at runtime.

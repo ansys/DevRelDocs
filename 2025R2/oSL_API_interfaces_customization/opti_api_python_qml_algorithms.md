@@ -1,9 +1,8 @@
 # Algorithms
+
 To provide a QML user interface for custom algorithms, create a `_ca.qml` file and place it in the same location as the `_ca.py` file. For file location details, see [Python-Based Plugins > Algorithms](opti_api_python_algorithms.md). optiSLang automatically loads the QML and embeds the user interface into the custom algorithm dialog widget.
 
-- [Setting Custom Algorithm Settings From the QML User Interface](#setting-custom-algorithm-settings-from-the-qml-user-interface)
-- [Calling Custom Python Functionality](#calling-custom-python-functionality)
-- [Sending Log Messages](#sending-log-messages)
+<a id="setting-custom-algorithm-settings-from-the-qml-user-interface"></a>
 
 ## Setting Custom Algorithm Settings From the QML User Interface
 optiSLang provides a context object to the QML scope named `backend` and resides in the QML root scope. It can be used to access custom algorithim settings.
@@ -50,6 +49,8 @@ Connections {
 	}
 ```
 
+<a id="calling-custom-python-functionality"></a>
+
 ## Calling Custom Python Functionality
 You may need to execute custom Python functionality from within the QML scope. To do this:
 
@@ -87,6 +88,8 @@ Button {
 	    }
 	}
 ```
+
+<a id="sending-log-messages"></a>
 
 ## Sending Log Messages
 Use the following functions to send log messages:
