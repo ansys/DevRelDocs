@@ -2,7 +2,7 @@
 
 This documentation provides a comprehensive guide of the DPF framework as well as all DPF operators available in ANSYS-made DPF plugins. It is organized into key sections, including core concepts, getting started tutorials, and detailed documentation of available operators. Whether you are new to DPF or looking for information on operators, this guide offers the necessary resources to understand and use DPF effectively in your workflows.
 
-# Overview of DPF
+## Overview of DPF
 
 The Ansys Data Processing Framework (DPF) provides numerical simulation users and engineers with a toolbox for accessing and transforming simulation data.
 With DPF, you can perform complex preprocessing or postprocessing of large amounts of simulation data within a simulation workflow.
@@ -27,7 +27,7 @@ This allows DPF to be a modular and easy-to-use tool with a large range of capab
 ![dpf-flow](./images/dpf-flow.png)
 
 
-## Advantages
+### Advantages
 
 **Computational efficiency**
 
@@ -48,7 +48,7 @@ DPF is developed around two core entities:
 Each DPF capability is developed through operators that allow for componentization of the framework. Because DPF is plugin-based, new features or formats can be easily added.
 
 
-# Install DPF
+## Install DPF
 
 DPF is available with the **Ansys installer** in Ansys 2021 R1 and later, or as a pre-release **DPF Server** standalone package for DPF 2023 R2 and later.
 
@@ -60,11 +60,11 @@ DPF is available with the **Ansys installer** in Ansys 2021 R1 and later, or as 
   It is available on the [DPF Pre-Release page](https://download.ansys.com/Others/DPF%20Pre-Release) of the Ansys Customer Portal.
 
 
-## Operating system compatibility
+### Operating system compatibility
 
 DPF supports Windows 10 and Rocky Linux 8 and later. To run DPF on CentOS 7, use DPF for 2024 R2 (8.2) or later. For more information, see [Ansys Platform Support](https://www.ansys.com/it-solutions/platform-support).
 
-# Use DPF
+## Use DPF
 
 You must use one of the DPF client APIs to write scripts and send commands to DPF.
 
