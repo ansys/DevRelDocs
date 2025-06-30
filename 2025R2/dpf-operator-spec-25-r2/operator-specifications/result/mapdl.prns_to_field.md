@@ -22,23 +22,25 @@ Read the presol of nodal field generated file from mapdl.
 
 ## Inputs
 
+
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  filepath |[`string`](../../core-concepts/dpf-types.md#standard-types) | filepath |
-| <strong>Pin 1</strong>|  columns_to_read |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) | columns_to_read |
-
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | filepath |[`string`](../../core-concepts/dpf-types.md#string) | filepath |
+| <strong>Pin 1</strong> | columns_to_read |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`vector<int32>`](../../core-concepts/dpf-types.md#standard-types) | columns_to_read |
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
+
+| Output | Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+| **Pin 0** | field |[`field`](../../core-concepts/dpf-types.md#field) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
 | **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
 
 ## Scripting
 
