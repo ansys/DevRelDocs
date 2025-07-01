@@ -15,19 +15,18 @@
   * Fix Rescope operator for input fields with no ids in the scoping
   * [Performance issue on readMeshProperties](#performance-issue-on-readmeshproperties)
   * [Fix append cyclic support on ENG_VOL_cyclic and NMISC_cyclic](#fix-append-cyclic-support-on-eng_vol_cyclic-and-nmisc_cyclic)
-  * [MAPDL Nodal Averaged Result operators return wrong values when setting a mesh scoping](#mapdl-nodal-averaged-result-operators-return-wrong-values-when-setting-a-mesh-scoping)
-  * [Nodal cyclic expansion creates duplicated scoping ids.](#bug---nodal-cyclic-expansion-creates-duplicated-scoping-ids)
-  * [Handle Gasket Degenerated Elements](#handle-gasket-degenerated-elements)
+  * [[REDACTED] MAPDL Nodal Averaged Result operators return wrong values when setting a mesh scoping](#mapdl-nodal-averaged-result-operators-return-wrong-values-when-setting-a-mesh-scoping)
+  * [BUG [REDACTED] - Nodal cyclic expansion creates duplicated scoping ids.](#bug---nodal-cyclic-expansion-creates-duplicated-scoping-ids)
+  * [[REDACTED] Handle Gasket Degenerated Elements](#handle-gasket-degenerated-elements)
   * Solve property field provider by name performance issues with distributed files
   * Fix case of unused enforced motion and residual vector for MSUP expansion
   * Fix corner node filtering/extrapolation
-  * [Finding the right id for dpfElementType](#bug---finding-the-right-id-for-dpfelementtype)
+  * [BUG [REDACTED] -  Finding the right id for dpfElementType](#bug---finding-the-right-id-for-dpfelementtype)
   * [Fix rotate ENF results](#fix-rotate-enf-results)
   * Fix bugs for MSUP harmonic analysis with MODE file scoping
   * Crash dpf vector commit
   * [Fix reading Von Mises/Principal stresses from rst files for non-PSD analyses.](#fix-reading-von-misesprincipal-stresses-from-rst-files-for-non-psd-analyses)
-  * Elemental mesh_scoping not working for cyclic energies
-  * Elemental_nodal to elemental averaging in cyclic stress results
+  * [BUG [REDACTED] BUG [REDACTED]](#bug-bug)
   * Json workflow deserializer
   * Data sources taken in wrong pin
   * Fix location of averaged empty fields
@@ -39,7 +38,7 @@
   * [New documentation operator supporting Markdown](#new-documentation-operator-supporting-markdown)
   * [load library collision key not reported when different library with same key](#load-library-collision-key-not-reported-when-different-library-with-same-key)
   * [Improve no output pin error message](#improve-no-output-pin-error-message)
-  * Mechanical DPF: Element Thickness operator  does not respect the scoping
+  * Mechanical DPF: Element Thickness operator  does not respect the scoping (bug [REDACTED]
   * [Document limitation in rotation of Elemental and ElementalNodal results](#document-limitation-in-rotation-of-elemental-and-elementalnodal-results)
   * [Repair mapdl::rst::mesh_property_provider](#repair-mapdlrstmesh_property_provider)
   * Restoring previous code for dataTree DPF API
@@ -51,9 +50,9 @@
   * [Changing DataTree's API for getting attributes](#changing-datatrees-api-for-getting-attributes)
   * [random failure on license checkout](#random-failure-on-license-checkout)
   * [Add missing support for nodal fields after solid-to-skin operator](#add-missing-support-for-nodal-fields-after-solid-to-skin-operator)
-  * "modal_damping_ratio operator is outputting NaN when Natural Frequency is exactly 0"
+  * ["modal_damping_ratio operator is outputting NaN when Natural Frequency is exactly 0"](#modal_damping_ratio-operator-is-outputting-nan-when-natural-frequency-is-exactly-0)
   * [Fixed issue when 2 remote operators are connected with local and remote inputs](#fixed-issue-when-2-remote-operators-are-connected-with-local-and-remote-inputs)
-  * "Infinite loop in function readENFResultBlock"
+  * ["Infinite loop in function readENFResultBlock"](#infinite-loop-in-function-readenfresultblock)
   * Issue with index in elemental rotation
   * [Close windows port correctly and server graceful shutdown](#close-windows-port-correctly-and-server-graceful-shutdown)
   * Add mesh to elemental energy results from MAPDL
@@ -92,28 +91,35 @@ The unfiltered ENFs should not be reordered
 ### <a id="print-custom-type-collections"></a> print custom type collections
 The string representation of DPF collections of custom types was always incorrectly reporting them as empty.
 
-### <a id="issue-with-node-averaged-results-with-scoping"></a> node averaged results with scoping
-Results obtained from a named selection when using averaged results with scoping were incorrect.
+### <a id="issue-with-node-averaged-results-with-scoping"></a> issue with node averaged results with scoping
+According to Federico's Tests, the results obtained from a named selection when using averaged results with scoping was not correct.
+See the comments [REDACTED] realized there was a mistake in the function GetNodesAveragedResultsForScoping in which one "i" should have been "indexRST".
+
+I corrected that here and added a unit test which compares the stress scoped with named selection with the whole stress rescoped.
 
 ### <a id="performance-issue-on-readmeshproperties"></a> Performance issue on readMeshProperties
-Fix performance issue when repeatedly reading mesh properties from an RST file.
+Fix performance issue when reading mesh properties from the RST repeatidly.
 
 ### <a id="fix-append-cyclic-support-on-eng_vol_cyclic-and-nmisc_cyclic"></a> Fix append cyclic support on ENG_VOL_cyclic and NMISC_cyclic
 Fix append cyclic support on ENG_VOL_cyclic and NMISC_cyclic.
 
-### <a id="mapdl-nodal-averaged-result-operators-return-wrong-values-when-setting-a-mesh-scoping"></a> MAPDL Nodal Averaged Result operators return wrong values when setting a mesh scoping
-EPEL Nodal Averaged Results were null when provided with a scoping
+### <a id="mapdl-nodal-averaged-result-operators-return-wrong-values-when-setting-a-mesh-scoping"></a> [REDACTED] MAPDL Nodal Averaged Result operators return wrong values when setting a mesh scoping
+- Bug: EPEL Nodal Averaged Results are null when provided with a scoping
+- Fixed in the function GetNodesAveragedResultsForScoping by using SetEntityData to fill the resultField.
+- Created new file "NodalAveragingReaderTests.cpp" for NAR Tests and added 2 unit tests.
 
-### <a id="bug---nodal-cyclic-expansion-creates-duplicated-scoping-ids"></a> BUG Nodal cyclic expansion creates duplicated scoping ids.
-Nodal fields cyclic expansion created duplicated scoping ids.
+### <a id="bug---nodal-cyclic-expansion-creates-duplicated-scoping-ids"></a> BUG [REDACTED] - Nodal cyclic expansion creates duplicated scoping ids.
+Nodal fields cyclic expansion created duplicated scoping ids, this has been fixed now.
 
-### <a id="handle-gasket-degenerated-elements"></a> Handle Gasket Degenerated Elements
-Fixed handling of INTER195 degenerated elements.  
-Fixed Handling of combinations from keyopt8 & keyopt2.  
-Fixed reading of unfiltered euler angles.  
+### <a id="handle-gasket-degenerated-elements"></a> [REDACTED] Handle Gasket Degenerated Elements
+Handling INTER195 degenerated elements.
+Make filterGasket be called from FilterElementResultsENS.
+Handle combinations from keyopt8 & keyopt2 and verify that results available are expected.
 
-### <a id="bug---finding-the-right-id-for-dpfelementtype"></a> Finding the right id for dpfElementType
-Fixed issue on centroid elements results reading.
+Read unfiltered euler angles in CRotateElementalFCByEulerAngles (was previously reading filtered but using them as if they were not filtered)
+
+### <a id="bug---finding-the-right-id-for-dpfelementtype"></a> BUG [REDACTED] -  Finding the right id for dpfElementType
+Fix issue on reading ElementCentroidResults from RST.
 
 ### <a id="fix-rotate-enf-results"></a> Fix rotate ENF results
 In the case of an Harmonic, MSUP or modal analysis, three are three sets of ENF: STATIC, DAMPING and INERTIA
@@ -133,6 +139,10 @@ The number of components is now always set to 1 if we are reading unfiltered dat
 
 ### <a id="fix-reading-von-misesprincipal-stresses-from-rst-files-for-non-psd-analyses"></a> Fix reading Von Mises/Principal stresses from rst files for non-PSD analyses.
 Fix reading Von Mises/Principal stresses from rst files  for non-PSD analyses when the values are found in the file.
+
+### <a id="bug-bug"></a> BUG [REDACTED] BUG [REDACTED]
+`RES_Cyclic` operators average to elemental from elemental_nodal.
+Elemental `mesh_scoping` not working for cyclic energies.
 
 ### <a id="allow-to-serialize-data-in-strings-for-more-than-2-gb"></a> Allow to serialize data in strings for more than 2 Gb
 "string_serializer" was limited to 2Gb strings output. A serialization mode "2" is created which allows to output several strings instead of one.
@@ -172,7 +182,7 @@ When loading a DPF plugin, the plugin can return an error code (int). This error
 Allow to read Hdf5 file that contains a workflow without license check
 
 ### <a id="hdf5-stream_provider-operator-doesnt-check-the-file-existence"></a> "hdf5 stream_provider operator doesn't check the file existence"
-The operator stream_provider didn't throw an error in the case of an invalid file path.
+The operator stream_provider doesn't throw an error in case of an invalid file path. This fix aims to address the following [REDACTED]
 
 ### <a id="fix-any-deep-copy-to-client"></a> Fix Any deep copy to client
 The HGP API `Any::deep_copy` wasn't copying on a client, neither returning an error. Copy on a client is now implemented for a local any.
@@ -183,13 +193,19 @@ Changing DataTree's API for getting attributes:
 * New methods `tryGet<type>Attribute` are now exposed, that return a boolean indicating if the attribute exist or not.
 
 ### <a id="random-failure-on-license-checkout"></a> random failure on license checkout
-Fixed random crash on license checkout.
+Fix random crash on license checkout.
 
 ### <a id="add-missing-support-for-nodal-fields-after-solid-to-skin-operator"></a> Add missing support for nodal fields after solid-to-skin operator
 Fixed: The `solid_to_skin` operator did not properly set the support for node-centered fields.
 
+### <a id="modal_damping_ratio-operator-is-outputting-nan-when-natural-frequency-is-exactly-0"></a> "modal_damping_ratio operator is outputting NaN when Natural Frequency is exactly 0"
+This fix addresses the [REDACTED]
+
 ### <a id="fixed-issue-when-2-remote-operators-are-connected-with-local-and-remote-inputs"></a> Fixed issue when 2 remote operators are connected with local and remote inputs
 2 remote operators could cause a deadlock if both connected with a mix of local and remote inputs.
+
+### <a id="infinite-loop-in-function-readenfresultblock"></a> "Infinite loop in function readENFResultBlock"
+The bug is produced for the test ENFTest - SHELL93. This fix addresses the [REDACTED]
 
 ### <a id="close-windows-port-correctly-and-server-graceful-shutdown"></a> Close windows port correctly and server graceful shutdown
 - Async gRPC server is now shutdown gracefully preventing random crashes
