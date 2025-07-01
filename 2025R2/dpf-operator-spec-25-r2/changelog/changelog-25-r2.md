@@ -1,13 +1,14 @@
-# Changelog summary
-## Features
+# Changelog
+
+## Summary
+### Features
   * [Source operator: allow to return all times/freq fields](#source-operator-allow-to-return-all-timesfreq-fields)
   * [rescope operator acknowledges only first duplicated value](#rescope-operator-acknowledges-only-first-duplicated-value)
   * [Minor version upgrade for intel MKL only for windows](#minor-version-upgrade-for-intel-mkl-only-for-windows)
   * [Allow DPF to operate without context](#allow-dpf-to-operate-without-context)
   * Added Any_NewFrom_FieldsContainer in gRPC
 
-
-## Fixes
+### Fixes
   * [Solve issue with reordering of unfiltered ENFs](#solve-issue-with-reordering-of-unfiltered-enfs)
   * [print custom type collections](#print-custom-type-collections)
   * [issue with node averaged results with scoping](#issue-with-node-averaged-results-with-scoping)
@@ -69,9 +70,6 @@
 ### Breaking Fixes
   * Upgrade Hdf5 test project for 1.14.5 version
 
-
-
-# Changelog details
 ## Features
 ### <a id="source-operator-allow-to-return-all-timesfreq-fields"></a> Source operator: allow to return all times/freq fields
 Add support of pin "time_scoping" with int value == -1 in source operators. When -1 is used, results for all times or frequencies will be returned.
