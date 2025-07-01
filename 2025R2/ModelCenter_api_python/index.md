@@ -1,3 +1,3 @@
 # ModelCenter Python API
 
-This document contains the ModelCenter Python API.
+This document contains the ModelCenter Remote Execution Python API.
