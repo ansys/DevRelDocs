@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classIRockyInteractionCalculationsData" kind="class" language="C++" prot="public">
+    <compoundname>IRockyInteractionCalculationsData</compoundname>
+    <derivedcompoundref refid="classIRockyAdhesiveDistanceData" prot="public" virt="non-virtual">IRockyAdhesiveDistanceData</derivedcompoundref>
+    <derivedcompoundref refid="classIRockyTimestepData" prot="public" virt="non-virtual">IRockyTimestepData</derivedcompoundref>
+    <includes refid="rocky__timestep__api_8h" local="no">rocky_timestep_api.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classIRockyInteractionCalculationsData_1ab5fb8e3d498bfc78f116eec7b53b22b8" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyInteractionCalculationsData::get_number_particle_groups</definition>
+        <argsstring>() const</argsstring>
+        <name>get_number_particle_groups</name>
+        <qualifiedname>IRockyInteractionCalculationsData::get_number_particle_groups</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The total number of particle groups defined in the project. A particle group is a category of particles with the same shape and material. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_timestep_api.h" line="42" column="9" bodyfile="source/c++/rocky20/api/rocky_timestep_api.cpp" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyInteractionCalculationsData_1a700a3993ce6c50786c1323e0b91a7c3a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyInteractionCalculationsData::get_particle_material_index</definition>
+        <argsstring>(int group_index) const</argsstring>
+        <name>get_particle_material_index</name>
+        <qualifiedname>IRockyInteractionCalculationsData::get_particle_material_index</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>group_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The index that uniquely identifies internally in Rocky the material associated with a particle group.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>group_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index that identifies internally a particle group in Rocky. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_timestep_api.h" line="51" column="9" bodyfile="source/c++/rocky20/api/rocky_timestep_api.cpp" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyInteractionCalculationsData_1a1ce09b00f677c903a2d25426f8447300" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double IRockyInteractionCalculationsData::get_particle_min_sieve_size</definition>
+        <argsstring>(int group_index) const</argsstring>
+        <name>get_particle_min_sieve_size</name>
+        <qualifiedname>IRockyInteractionCalculationsData::get_particle_min_sieve_size</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>group_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The sieve size of the smallest particle in a particle group. Zero is returned if no particles belonging to the particle group are actually injected into the simulation.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>group_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index that identifies internally a particle group in Rocky. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_timestep_api.h" line="61" column="12" bodyfile="source/c++/rocky20/api/rocky_timestep_api.cpp" bodystart="80" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyInteractionCalculationsData_1ac12016128279790932537b32c1c7410d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double IRockyInteractionCalculationsData::get_particle_max_sieve_size</definition>
+        <argsstring>(int group_index) const</argsstring>
+        <name>get_particle_max_sieve_size</name>
+        <qualifiedname>IRockyInteractionCalculationsData::get_particle_max_sieve_size</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>group_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The sieve size of the largest particle in a particle group. Zero is returned if no particles belonging to the particle group are actually injected into the simulation.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>group_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index that identifies internally a particle group in Rocky. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_timestep_api.h" line="71" column="12" bodyfile="source/c++/rocky20/api/rocky_timestep_api.cpp" bodystart="87" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyInteractionCalculationsData_1a641adbab81c6c430aa1b0eae6eff29f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double IRockyInteractionCalculationsData::get_particle_min_mass</definition>
+        <argsstring>(int group_index) const</argsstring>
+        <name>get_particle_min_mass</name>
+        <qualifiedname>IRockyInteractionCalculationsData::get_particle_min_mass</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>group_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The mass of the smallest particle in a particle group. Zero is returned if no particles belonging to the particle group are actually injected into the simulation.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>group_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index that identifies internally a particle group in Rocky. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_timestep_api.h" line="81" column="12" bodyfile="source/c++/rocky20/api/rocky_timestep_api.cpp" bodystart="94" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyInteractionCalculationsData_1a986da6321cca08d20d20dbd43962a74a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyInteractionCalculationsData::get_number_geometry_materials</definition>
+        <argsstring>() const</argsstring>
+        <name>get_number_geometry_materials</name>
+        <qualifiedname>IRockyInteractionCalculationsData::get_number_geometry_materials</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The total number of different materials associated to the geometries or boundaries in a project. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_timestep_api.h" line="89" column="9" bodyfile="source/c++/rocky20/api/rocky_timestep_api.cpp" bodystart="102" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyInteractionCalculationsData_1a05cb28a940233bc976b806a5893c639c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyInteractionCalculationsData::get_geometry_material_index</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>get_geometry_material_index</name>
+        <qualifiedname>IRockyInteractionCalculationsData::get_geometry_material_index</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The internal index in Rocky that identifies a material.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of a geometry material in a loop over all materials associated to geometries in a project. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_timestep_api.h" line="97" column="9" bodyfile="source/c++/rocky20/api/rocky_timestep_api.cpp" bodystart="107" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyInteractionCalculationsData_1a609eb08b9a568e07c35953bd616d9551" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structIRockyMaterial" kindref="compound">IRockyMaterial</ref></type>
+        <definition>IRockyMaterial IRockyInteractionCalculationsData::get_material</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>get_material</name>
+        <qualifiedname>IRockyInteractionCalculationsData::get_material</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="structIRockyMaterial" kindref="compound">IRockyMaterial</ref></computeroutput> object that gives access to the property values associated to a given material.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The internal index in Rocky that identifies a material. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_timestep_api.h" line="107" column="20" bodyfile="source/c++/rocky20/api/rocky_timestep_api.cpp" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyInteractionCalculationsData_1a1cf7ad2b906aa2f033494b390522bbb3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyInteractionCalculationsData::get_material_interaction_index</definition>
+        <argsstring>(int home_index, int near_index) const</argsstring>
+        <name>get_material_interaction_index</name>
+        <qualifiedname>IRockyInteractionCalculationsData::get_material_interaction_index</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>home_index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>near_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The internal index in Rocky that identifies a material interaction.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>home_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the first material.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>near_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the second material. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_timestep_api.h" line="116" column="9" bodyfile="source/c++/rocky20/api/rocky_timestep_api.cpp" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyInteractionCalculationsData_1aeb94fd8ed1f75bd0523634285ad94e4d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structIRockyMaterialInteraction" kindref="compound">IRockyMaterialInteraction</ref></type>
+        <definition>IRockyMaterialInteraction IRockyInteractionCalculationsData::get_material_interaction</definition>
+        <argsstring>(int home_index, int near_index) const</argsstring>
+        <name>get_material_interaction</name>
+        <qualifiedname>IRockyInteractionCalculationsData::get_material_interaction</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>home_index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>near_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="structIRockyMaterialInteraction" kindref="compound">IRockyMaterialInteraction</ref></computeroutput> object that gives access to the property values associated to a given material interaction.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>home_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the first material.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>near_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the second material. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_timestep_api.h" line="126" column="31" bodyfile="source/c++/rocky20/api/rocky_timestep_api.cpp" bodystart="123" bodyend="127"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput><ref refid="classIRockyInteractionCalculationsData" kindref="compound">IRockyInteractionCalculationsData</ref></computeroutput> gives access to data and methods needed for calculations related to materials, material interactions and particle groups, during the setup phase of a module. <computeroutput><ref refid="classIRockyInteractionCalculationsData" kindref="compound">IRockyInteractionCalculationsData</ref></computeroutput> is a non-instantiable class, only derived classes can be used through Rocky API. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IRockyAdhesiveDistanceData</label>
+        <link refid="classIRockyAdhesiveDistanceData"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>IRockyInteractionCalculationsData</label>
+        <link refid="classIRockyInteractionCalculationsData"/>
+      </node>
+      <node id="3">
+        <label>IRockyTimestepData</label>
+        <link refid="classIRockyTimestepData"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="source/c++/rocky20/api/rocky_timestep_api.h" line="31" column="1" bodyfile="source/c++/rocky20/api/rocky_timestep_api.h" bodystart="32" bodyend="139"/>
+    <listofallmembers>
+      <member refid="classIRockyInteractionCalculationsData_1a05cb28a940233bc976b806a5893c639c" prot="public" virt="non-virtual"><scope>IRockyInteractionCalculationsData</scope><name>get_geometry_material_index</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1a609eb08b9a568e07c35953bd616d9551" prot="public" virt="non-virtual"><scope>IRockyInteractionCalculationsData</scope><name>get_material</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1aeb94fd8ed1f75bd0523634285ad94e4d" prot="public" virt="non-virtual"><scope>IRockyInteractionCalculationsData</scope><name>get_material_interaction</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1a1cf7ad2b906aa2f033494b390522bbb3" prot="public" virt="non-virtual"><scope>IRockyInteractionCalculationsData</scope><name>get_material_interaction_index</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1a986da6321cca08d20d20dbd43962a74a" prot="public" virt="non-virtual"><scope>IRockyInteractionCalculationsData</scope><name>get_number_geometry_materials</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1ab5fb8e3d498bfc78f116eec7b53b22b8" prot="public" virt="non-virtual"><scope>IRockyInteractionCalculationsData</scope><name>get_number_particle_groups</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1a700a3993ce6c50786c1323e0b91a7c3a" prot="public" virt="non-virtual"><scope>IRockyInteractionCalculationsData</scope><name>get_particle_material_index</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1ac12016128279790932537b32c1c7410d" prot="public" virt="non-virtual"><scope>IRockyInteractionCalculationsData</scope><name>get_particle_max_sieve_size</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1a641adbab81c6c430aa1b0eae6eff29f4" prot="public" virt="non-virtual"><scope>IRockyInteractionCalculationsData</scope><name>get_particle_min_mass</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1a1ce09b00f677c903a2d25426f8447300" prot="public" virt="non-virtual"><scope>IRockyInteractionCalculationsData</scope><name>get_particle_min_sieve_size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

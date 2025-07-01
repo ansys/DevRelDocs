@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classIRockyPluginData" kind="class" language="C++" prot="public">
+    <compoundname>IRockyPluginData</compoundname>
+    <includes refid="rocky__plugin__data_8h" local="no">rocky_plugin_data.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classIRockyPluginData_1ab65c417ed40c1bab14987f959c095b7d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classIRockyPluginDataEntry" kindref="compound">IRockyPluginDataEntry</ref></type>
+        <definition>IRockyPluginDataEntry IRockyPluginData::get_model</definition>
+        <argsstring>() const</argsstring>
+        <name>get_model</name>
+        <qualifiedname>IRockyPluginData::get_model</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="classIRockyPluginDataEntry" kindref="compound">IRockyPluginDataEntry</ref></computeroutput> object that gives access to the values entered through the Rocky UI for all parameters in the <emphasis>model</emphasis> section of the module. These parameters are displayed in the [Data Editors] panel when the module is selected in the data tree. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_plugin_data.h" line="124" column="27" bodyfile="source/c++/rocky20/api/rocky_plugin_data.cpp" bodystart="48" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyPluginData_1aefed471c915106b82ca654eef4a03042" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRockyPluginData::has_material_interaction_data</definition>
+        <argsstring>() const</argsstring>
+        <name>has_material_interaction_data</name>
+        <qualifiedname>IRockyPluginData::has_material_interaction_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if there is custom material interaction data defined for the module, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_plugin_data.h" line="130" column="10" bodyfile="source/c++/rocky20/api/rocky_plugin_data.cpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyPluginData_1a90cc066bcc4f454a5c9d21d69bf57e9e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyPluginData::get_number_material_interactions</definition>
+        <argsstring>() const</argsstring>
+        <name>get_number_material_interactions</name>
+        <qualifiedname>IRockyPluginData::get_number_material_interactions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The total number of material interactions that it is possible to define with the current materials defined in the Rocky project. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_plugin_data.h" line="136" column="9" bodyfile="source/c++/rocky20/api/rocky_plugin_data.cpp" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyPluginData_1a78c76a74cd026948ee16f3b6b4718356" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classIRockyPluginDataEntry" kindref="compound">IRockyPluginDataEntry</ref></type>
+        <definition>IRockyPluginDataEntry IRockyPluginData::get_material_interaction_data</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>get_material_interaction_data</name>
+        <qualifiedname>IRockyPluginData::get_material_interaction_data</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="classIRockyPluginDataEntry" kindref="compound">IRockyPluginDataEntry</ref></computeroutput> object that gives access to the values entered through the Rocky UI, if they exist, for all parameters defined in the <emphasis>material interactions</emphasis> section of the module.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index that uniquely identifies the specific material interaction whose data must be retrieved. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_plugin_data.h" line="147" column="27" bodyfile="source/c++/rocky20/api/rocky_plugin_data.cpp" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyPluginData_1a46306bc4ec8fe3a85efc85c37b78fdfb" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRockyPluginData::has_geometry_data</definition>
+        <argsstring>() const</argsstring>
+        <name>has_geometry_data</name>
+        <qualifiedname>IRockyPluginData::has_geometry_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if there is geometry data defined for the module, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_plugin_data.h" line="153" column="10" bodyfile="source/c++/rocky20/api/rocky_plugin_data.cpp" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyPluginData_1a413adf0e206156e543c8dd170eee387e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyPluginData::get_number_geometries</definition>
+        <argsstring>() const</argsstring>
+        <name>get_number_geometries</name>
+        <qualifiedname>IRockyPluginData::get_number_geometries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The total number of geometries (boundaries) in the project. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_plugin_data.h" line="159" column="9" bodyfile="source/c++/rocky20/api/rocky_plugin_data.cpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyPluginData_1ae830fad6e94d455f0e4ad57df4b981de" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classIRockyPluginDataEntry" kindref="compound">IRockyPluginDataEntry</ref></type>
+        <definition>IRockyPluginDataEntry IRockyPluginData::get_geometry_data</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>get_geometry_data</name>
+        <qualifiedname>IRockyPluginData::get_geometry_data</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="classIRockyPluginDataEntry" kindref="compound">IRockyPluginDataEntry</ref></computeroutput> object that gives access to the values entered through the Rocky UI, if they exist, for all parameters associated specifically to the module defined in the <emphasis>geometry</emphasis> (boundaries) section.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index that uniquely identifies the specific geometry whose data must be retrieved. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_plugin_data.h" line="171" column="27" bodyfile="source/c++/rocky20/api/rocky_plugin_data.cpp" bodystart="82" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyPluginData_1af000e5f6b3f1d9f454233b01c8a43515" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRockyPluginData::has_particle_group_data</definition>
+        <argsstring>() const</argsstring>
+        <name>has_particle_group_data</name>
+        <qualifiedname>IRockyPluginData::has_particle_group_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if there is particle group data defined for the module, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_plugin_data.h" line="177" column="10" bodyfile="source/c++/rocky20/api/rocky_plugin_data.cpp" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyPluginData_1a7a39deb0a0b9b782ad0e74e82bc027ce" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyPluginData::get_number_particle_groups</definition>
+        <argsstring>() const</argsstring>
+        <name>get_number_particle_groups</name>
+        <qualifiedname>IRockyPluginData::get_number_particle_groups</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The total number of particle groups defined in the project. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_plugin_data.h" line="183" column="9" bodyfile="source/c++/rocky20/api/rocky_plugin_data.cpp" bodystart="94" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyPluginData_1a224e42565c6730227d5f85c8d0f0004f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classIRockyPluginDataEntry" kindref="compound">IRockyPluginDataEntry</ref></type>
+        <definition>IRockyPluginDataEntry IRockyPluginData::get_particle_group_data</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>get_particle_group_data</name>
+        <qualifiedname>IRockyPluginData::get_particle_group_data</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="classIRockyPluginDataEntry" kindref="compound">IRockyPluginDataEntry</ref></computeroutput> object that gives access to the values entered through the Rocky UI, if they exist, for all parameters associated specifically to the module defined in the <emphasis>particle group</emphasis> section.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index that uniquely identifies the specific particle group whose data must be retrieved. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_plugin_data.h" line="194" column="27" bodyfile="source/c++/rocky20/api/rocky_plugin_data.cpp" bodystart="99" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyPluginData_1af8d04f332d01ab25b7a375552072db2a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRockyPluginData::has_material_data</definition>
+        <argsstring>() const</argsstring>
+        <name>has_material_data</name>
+        <qualifiedname>IRockyPluginData::has_material_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if there is any material property data defined for the module, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_plugin_data.h" line="200" column="10" bodyfile="source/c++/rocky20/api/rocky_plugin_data.cpp" bodystart="106" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyPluginData_1ae0a075e183d876a183d37f2c7e818ca4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyPluginData::get_number_materials</definition>
+        <argsstring>() const</argsstring>
+        <name>get_number_materials</name>
+        <qualifiedname>IRockyPluginData::get_number_materials</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The total number of materials defined in the project. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_plugin_data.h" line="205" column="9" bodyfile="source/c++/rocky20/api/rocky_plugin_data.cpp" bodystart="111" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classIRockyPluginData_1a5c7b4ed26d1a6787279d2c531444666b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classIRockyPluginDataEntry" kindref="compound">IRockyPluginDataEntry</ref></type>
+        <definition>IRockyPluginDataEntry IRockyPluginData::get_material_data</definition>
+        <argsstring>(int index) const</argsstring>
+        <name>get_material_data</name>
+        <qualifiedname>IRockyPluginData::get_material_data</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="classIRockyPluginDataEntry" kindref="compound">IRockyPluginDataEntry</ref></computeroutput> object that gives access to the values entered through the Rocky UI, if they exist, for all parameters associated specifically to the module defined in the <emphasis>material</emphasis> section.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index that uniquely identifies the specific material whose data must be retrieved. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_plugin_data.h" line="216" column="27" bodyfile="source/c++/rocky20/api/rocky_plugin_data.cpp" bodystart="116" bodyend="121"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput><ref refid="classIRockyPluginData" kindref="compound">IRockyPluginData</ref></computeroutput> gathers custom module data entered manually through the Rocky UI. In order to appear on the Rocky UI, custom modules parameters must be specified in the Python file that defines the components of the module. An <computeroutput><ref refid="classIRockyPluginData" kindref="compound">IRockyPluginData</ref></computeroutput> object is only available during the configuration step in <computeroutput>ROCKY_PLUGIN_CONFIGURE</computeroutput>. </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_plugin_data.h" line="112" column="1" bodyfile="source/c++/rocky20/api/rocky_plugin_data.h" bodystart="113" bodyend="230"/>
+    <listofallmembers>
+      <member refid="classIRockyPluginData_1ae830fad6e94d455f0e4ad57df4b981de" prot="public" virt="non-virtual"><scope>IRockyPluginData</scope><name>get_geometry_data</name></member>
+      <member refid="classIRockyPluginData_1a5c7b4ed26d1a6787279d2c531444666b" prot="public" virt="non-virtual"><scope>IRockyPluginData</scope><name>get_material_data</name></member>
+      <member refid="classIRockyPluginData_1a78c76a74cd026948ee16f3b6b4718356" prot="public" virt="non-virtual"><scope>IRockyPluginData</scope><name>get_material_interaction_data</name></member>
+      <member refid="classIRockyPluginData_1ab65c417ed40c1bab14987f959c095b7d" prot="public" virt="non-virtual"><scope>IRockyPluginData</scope><name>get_model</name></member>
+      <member refid="classIRockyPluginData_1a413adf0e206156e543c8dd170eee387e" prot="public" virt="non-virtual"><scope>IRockyPluginData</scope><name>get_number_geometries</name></member>
+      <member refid="classIRockyPluginData_1a90cc066bcc4f454a5c9d21d69bf57e9e" prot="public" virt="non-virtual"><scope>IRockyPluginData</scope><name>get_number_material_interactions</name></member>
+      <member refid="classIRockyPluginData_1ae0a075e183d876a183d37f2c7e818ca4" prot="public" virt="non-virtual"><scope>IRockyPluginData</scope><name>get_number_materials</name></member>
+      <member refid="classIRockyPluginData_1a7a39deb0a0b9b782ad0e74e82bc027ce" prot="public" virt="non-virtual"><scope>IRockyPluginData</scope><name>get_number_particle_groups</name></member>
+      <member refid="classIRockyPluginData_1a224e42565c6730227d5f85c8d0f0004f" prot="public" virt="non-virtual"><scope>IRockyPluginData</scope><name>get_particle_group_data</name></member>
+      <member refid="classIRockyPluginData_1a46306bc4ec8fe3a85efc85c37b78fdfb" prot="public" virt="non-virtual"><scope>IRockyPluginData</scope><name>has_geometry_data</name></member>
+      <member refid="classIRockyPluginData_1af8d04f332d01ab25b7a375552072db2a" prot="public" virt="non-virtual"><scope>IRockyPluginData</scope><name>has_material_data</name></member>
+      <member refid="classIRockyPluginData_1aefed471c915106b82ca654eef4a03042" prot="public" virt="non-virtual"><scope>IRockyPluginData</scope><name>has_material_interaction_data</name></member>
+      <member refid="classIRockyPluginData_1af000e5f6b3f1d9f454233b01c8a43515" prot="public" virt="non-virtual"><scope>IRockyPluginData</scope><name>has_particle_group_data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="getting__started_8md" kind="file" language="Markdown">
+    <compoundname>getting_started.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">##<sp/>Getting<sp/>started<sp/>{#getting_started}</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>Rocky<sp/>Solver<sp/>SDK<sp/>is<sp/>supported<sp/>for<sp/>the<sp/>following<sp/>operating<sp/>systems:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Windows<sp/>10<sp/>64-bit</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>Rocky<sp/>Linux<sp/>8<sp/>Linux<sp/>64-bit</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>manual<sp/>assumes<sp/>that<sp/>your<sp/>system<sp/>is<sp/>one<sp/>of<sp/>the<sp/>above<sp/>and<sp/>Rocky<sp/>can</highlight></codeline>
+<codeline><highlight class="normal">perform<sp/>a<sp/>simulation<sp/>successfully<sp/>in<sp/>this<sp/>system.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Note:<sp/>Refer<sp/>to<sp/>the<sp/>[Rocky<sp/>User<sp/>Manual](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/prod_page.html?pn=Rocky&amp;pid=rockydem&amp;lang=en)<sp/>or<sp/>search<sp/>on<sp/>the<sp/>Rocky<sp/>support<sp/>channels<sp/>if<sp/>you<sp/>were<sp/>unable<sp/>to<sp/>run<sp/>Rocky.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>Rocky<sp/>Solver<sp/>SDK<sp/>package<sp/>for<sp/>both<sp/>supported<sp/>operating<sp/>systems<sp/>can<sp/>be</highlight></codeline>
+<codeline><highlight class="normal">downloaded<sp/>from<sp/>Ansys<sp/>Customer<sp/>Portal.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">It<sp/>is<sp/>assumed<sp/>that<sp/>users<sp/>of<sp/>the<sp/>Rocky<sp/>Solver<sp/>SDK<sp/>have<sp/>basic<sp/>knowledge<sp/>of<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">C++<sp/>and<sp/>Python<sp/>programming<sp/>languages.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Prerequisites<sp/>for<sp/>Linux</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Unzip<sp/>the<sp/>Rocky<sp/>Solver<sp/>SDK<sp/>for<sp/>Linux<sp/>in<sp/>a<sp/>folder<sp/>of<sp/>your<sp/>choice.<sp/>Set<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">environment<sp/>variable<sp/>`RockySDK_DIR`<sp/>with<sp/>the<sp/>location<sp/>of<sp/>the<sp/>unzipped</highlight></codeline>
+<codeline><highlight class="normal">`sdk`<sp/>subdirectory.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>version<sp/>of<sp/>the<sp/>Rocky<sp/>Solver<sp/>SDK<sp/>is<sp/>identified<sp/>in<sp/>the<sp/>name<sp/>of<sp/>its<sp/>zip<sp/>file.</highlight></codeline>
+<codeline><highlight class="normal">It<sp/>is<sp/>paramount<sp/>that<sp/>you<sp/>install<sp/>a<sp/>Rocky<sp/>Solver<sp/>SDK<sp/>of<sp/>the<sp/>same<sp/>version<sp/>as<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">Rocky<sp/>application<sp/>upon<sp/>which<sp/>your<sp/>module<sp/>is<sp/>designed<sp/>to<sp/>run.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Note:<sp/>The<sp/>version<sp/>of<sp/>Rocky<sp/>can<sp/>be<sp/>discovered<sp/>by<sp/>choosing<sp/>Help<sp/>→<sp/>About<sp/>in<sp/>the<sp/>application<sp/>menus.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Install<sp/>the<sp/>[CUDA](#cuda)<sp/>toolkit<sp/>12.8.0<sp/>for<sp/>x86\_64<sp/>Rocky<sp/>Linux<sp/>8.<sp/>Set</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>environment<sp/>variable<sp/>`CUDA_PATH_V12_8`<sp/>with<sp/>the<sp/>location<sp/>of<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">installed<sp/>CUDA<sp/>toolkit.<sp/>Example:<sp/>`CUDA_PATH_V12_8=/usr/local/cuda-12.8/`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Build<sp/>tools<sp/>-<sp/>Linux</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Install<sp/>Miniforge<sp/>3<sp/>for<sp/>Linux<sp/>64-bit,<sp/>then,<sp/>activate<sp/>a<sp/>conda</highlight></codeline>
+<codeline><highlight class="normal">prompt<sp/>and<sp/>install<sp/>the<sp/>following<sp/>packages:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/>make</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/>cmake</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>&quot;gxx_linux-64&gt;=13,&lt;14&quot;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>conda<sp/>prompt<sp/>now<sp/>contains<sp/>a<sp/>minimum<sp/>set<sp/>of<sp/>tools<sp/>required<sp/>to<sp/>build</highlight></codeline>
+<codeline><highlight class="normal">Rocky<sp/>modules.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Prerequisites<sp/>for<sp/>Windows<sp/>10</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Unzip<sp/>the<sp/>Rocky<sp/>SDK<sp/>for<sp/>Windows<sp/>in<sp/>a<sp/>folder<sp/>of<sp/>your<sp/>choice.<sp/>Set<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">environment<sp/>variable<sp/>`RockySDK_DIR`<sp/>with<sp/>the<sp/>location<sp/>of<sp/>the<sp/>unzipped</highlight></codeline>
+<codeline><highlight class="normal">`sdk`<sp/>subdirectory.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>version<sp/>of<sp/>the<sp/>Rocky<sp/>SDK<sp/>is<sp/>identified<sp/>in<sp/>the<sp/>name<sp/>of<sp/>its<sp/>zip<sp/>file.</highlight></codeline>
+<codeline><highlight class="normal">It<sp/>is<sp/>paramount<sp/>that<sp/>you<sp/>install<sp/>a<sp/>Rocky<sp/>SDK<sp/>of<sp/>the<sp/>same<sp/>version<sp/>as<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">Rocky<sp/>application<sp/>upon<sp/>which<sp/>your<sp/>module<sp/>is<sp/>designed<sp/>to<sp/>run.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Note:<sp/>The<sp/>version<sp/>of<sp/>Rocky<sp/>can<sp/>be<sp/>discovered<sp/>by<sp/>choosing<sp/>Help<sp/>→<sp/>About<sp/>in<sp/>the<sp/>application<sp/>menus.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Install<sp/>[CUDA](#cuda)<sp/>toolkit<sp/>12.8.0<sp/>for<sp/>Windows<sp/>10.<sp/>Set<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">environment<sp/>variable<sp/>`CUDA_PATH_V12_8`<sp/>with<sp/>the<sp/>location<sp/>of<sp/>the<sp/>CUDA</highlight></codeline>
+<codeline><highlight class="normal">toolkit.<sp/>Example:<sp/>`C:\Program<sp/>Files\NVIDIA<sp/>GPU<sp/>Computing<sp/>Toolkit\CUDA\v12.8`.<sp/>Ensure<sp/>that<sp/>the<sp/>Visual</highlight></codeline>
+<codeline><highlight class="normal">Studio<sp/>Integration<sp/>is<sp/>enabled<sp/>during<sp/>the<sp/>installation<sp/>of<sp/>the<sp/>CUDA<sp/>Toolkit.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">After<sp/>installing<sp/>the<sp/>CUDA<sp/>Toolkit,<sp/>copy<sp/>the<sp/>contents<sp/>of<sp/>the<sp/>`MSBuildExtensions`<sp/>directory<sp/>from<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">CUDA<sp/>Toolkit<sp/>installation<sp/>to<sp/>the<sp/>`BuildCustomizations`<sp/>directory<sp/>in<sp/>your<sp/>Microsoft<sp/>Visual<sp/>Studio</highlight></codeline>
+<codeline><highlight class="normal">installation.<sp/>This<sp/>can<sp/>be<sp/>done<sp/>by<sp/>opening<sp/>a<sp/>PowerShell<sp/>window<sp/>and<sp/>running<sp/>the<sp/>following<sp/>command:</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">cp<sp/>&quot;C:\Program<sp/>Files\NVIDIA<sp/>GPU<sp/>Computing<sp/>Toolkit\CUDA\v12.8\extras\visual_studio_integration\MSBuildExtensions\*&quot;<sp/>&quot;C:\Program<sp/>Files<sp/>(x86)\Microsoft<sp/>Visual<sp/>Studio\2022\BuildTools\MSBuild\Microsoft\VC\v170\BuildCustomizations&quot;<sp/>-r<sp/>-force</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Build<sp/>tools<sp/>-<sp/>Windows</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Install<sp/>Visual<sp/>Studio<sp/>Build<sp/>Tools<sp/>2022,<sp/>version<sp/>17.6.17.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">You<sp/>can<sp/>obtain<sp/>the<sp/>URL<sp/>for<sp/>this<sp/>specific<sp/>version<sp/>by<sp/>clicking<sp/>the<sp/>&quot;Build<sp/>Tools&quot;<sp/>link<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">corresponding<sp/>row<sp/>of<sp/>the<sp/>**Fixed<sp/>Version<sp/>Bootstrappers**<sp/>table<sp/>at<sp/>the<sp/>following<sp/>link:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history#fixed-version-bootstrappers</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Be<sp/>sure<sp/>to<sp/>install<sp/>the<sp/>`Desktop<sp/>development<sp/>with<sp/>C++`<sp/>workload<sp/>with<sp/>at<sp/>least<sp/>the<sp/>following</highlight></codeline>
+<codeline><highlight class="normal">components:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/>VC++<sp/>2022<sp/>version<sp/>latest<sp/>tools</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Windows<sp/>10<sp/>SDK</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>Visual<sp/>C++<sp/>tools<sp/>for<sp/>CMake</highlight></codeline>
+    </programlisting>
+    <location file="docs/sdk_manual/getting_started.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockyParticleTransferScalarsModel" kind="struct" language="C++" prot="public">
+    <compoundname>IRockyParticleTransferScalarsModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScalarsModel&lt; rocky20::ParticleTransferScalarsController &gt;</basecompoundref>
+    <includes refid="rocky__particle__scalars_8hpp" local="no">rocky_particle_scalars.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockyParticleTransferScalarsModel_1a6d1850250b4509904702af664aed3e26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyParticleTransferScalarsModel::find</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>find</name>
+        <qualifiedname>IRockyParticleTransferScalarsModel::find</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method searches for a scalar variable already created by other modules,</title><para>in order to allow access to its values, or store new values on it, during the execution of the simulation.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name given to the scalar at the moment of its creation.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The index that uniquely identifies the wanted scalar if it was actually found. It returns -1 otherwise.   </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_scalars.hpp" line="382" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleTransferScalarsModel_1acbfca5e53543c5617fe3197d57bcb011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyParticleTransferScalarsModel::add</definition>
+        <argsstring>(const char *name, const char *unit, bool output=true)</argsstring>
+        <name>add</name>
+        <qualifiedname>IRockyParticleTransferScalarsModel::add</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>unit</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>output</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a new scalar variable of type <computeroutput>double</computeroutput></title><para>for storing custom values during a simulation, preserving them between time iterations.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name given to the scalar variable. The purpose of this name is twofold. First, it enables to find this scalar variable from other module, in order to share their values. Second, if the scalar variable can be displayed in a 3D window as a property, this name will identify it in the Rocky UI.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string specifying the unit in S.I. associated to the scalar variable.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enables/disables the storage in disk at output times, for the visualization and post-processing of the scalar values.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The index that will uniquely identify the scalar variable during the execution of the simulation.   </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_scalars.hpp" line="385" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleTransferScalarsModel_1a631c82eba37e60df503645f60d8ddd24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyParticleTransferScalarsModel::reset</definition>
+        <argsstring>(int scalar_index)</argsstring>
+        <name>reset</name>
+        <qualifiedname>IRockyParticleTransferScalarsModel::reset</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method resets to zero all values stored in a scalar variable.</title><para></para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index attributed to the scalar variable at the moment of its creation.   </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_scalars.hpp" line="388" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleTransferScalarsModel_1a6d5cd79b547774f98c5c692afe75a87f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyParticleTransferScalarsModel::set_dimension</definition>
+        <argsstring>(int scalar_index, double dimension_factor)</argsstring>
+        <name>set_dimension</name>
+        <qualifiedname>IRockyParticleTransferScalarsModel::set_dimension</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension_factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>The purpose of this method is to associate a dimensional factor</title><para>to a scalar variable. This factor will be used to nondimensionalize their values. For instance, if the scalar represents a force, a force dimensional factor must be associated through this method. Dimensional factors for the fundamental magnitudes are provided by functions of a <computeroutput><ref refid="structIRockyModel" kindref="compound">IRockyModel</ref></computeroutput> object.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index attributed to the scalar variable at the moment of its creation.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dimension_factor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The appropriate dimensional factor for the scalar variable.   </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_scalars.hpp" line="391" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An <computeroutput><ref refid="structIRockyParticleTransferScalarsModel" kindref="compound">IRockyParticleTransferScalarsModel</ref></computeroutput> allows users to add new particle transfer scalars, find particle transfer scalars created in other modules or activate particle transfer scalars known to Rocky, during the setup stage of a module. Particle transfer scalars are special particle scalars whose values are reset automatically to zero at the beginning of a new time iteration. </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_particle_scalars.hpp" line="371" column="1" bodyfile="source/c++/rocky20/api/rocky_particle_scalars.hpp" bodystart="372" bodyend="395"/>
+    <listofallmembers>
+      <member refid="structIRockyParticleTransferScalarsModel_1acbfca5e53543c5617fe3197d57bcb011" prot="public" virt="non-virtual"><scope>IRockyParticleTransferScalarsModel</scope><name>add</name></member>
+      <member refid="structIRockyParticleTransferScalarsModel_1a6d1850250b4509904702af664aed3e26" prot="public" virt="non-virtual"><scope>IRockyParticleTransferScalarsModel</scope><name>find</name></member>
+      <member refid="structIRockyParticleTransferScalarsModel_1a631c82eba37e60df503645f60d8ddd24" prot="public" virt="non-virtual"><scope>IRockyParticleTransferScalarsModel</scope><name>reset</name></member>
+      <member refid="structIRockyParticleTransferScalarsModel_1a6d5cd79b547774f98c5c692afe75a87f" prot="public" virt="non-virtual"><scope>IRockyParticleTransferScalarsModel</scope><name>set_dimension</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

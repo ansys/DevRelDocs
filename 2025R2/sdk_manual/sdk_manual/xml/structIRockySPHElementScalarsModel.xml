@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockySPHElementScalarsModel" kind="struct" language="C++" prot="public">
+    <compoundname>IRockySPHElementScalarsModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScalarsModel&lt; rocky20::SPHParticleScalarsController &gt;</basecompoundref>
+    <includes refid="rocky__sph__element__scalars_8hpp" local="no">rocky_sph_element_scalars.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockySPHElementScalarsModel_1a16f0c80fcfcc46485a0cdb5523eba2bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockySPHElementScalarsModel::set_operation</definition>
+        <argsstring>(int scalar_index, ESPHOperationType operation, ESPHOperationPlace place)</argsstring>
+        <name>set_operation</name>
+        <qualifiedname>IRockySPHElementScalarsModel::set_operation</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <param>
+          <type>ESPHOperationType</type>
+          <declname>operation</declname>
+        </param>
+        <param>
+          <type>ESPHOperationPlace</type>
+          <declname>place</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>SPH element scalars have a unique feature between all scalars in Rocky, which is the</title><para>ability of configuring automatic operations that the Rocky solver can perform over them at specific points of the iterative cycle. This method is designed for a custom module to perform such configuration. An example of the usage of such feature would be in a SPH scalar created for accumulating the heat flow rate that goes to every SPH element from its neighbors at a given time. That scalar needs to be reset before doing that accumulation, for instance, within a <computeroutput>ROCKY_PLUGIN_PRE_MOVE_ON_SPH_PARTICLE_INTERACTIONS</computeroutput>. Moreover, after performing the accumulation of individual heat flow rates, for multi-GPU simulations it will be needed to sum the values stored in halo regions before using them for solving the thermal balance equation for the SPH elements, and then update back those values across devices. The operations currently available and the points at which they can be performed are listed below.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the SPH element scalar over which the operation will be made.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>operation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The operation that will be performed. There are defined currently the following operations:<linebreak/>
+ <computeroutput>sphotReset</computeroutput>: reset to zero all stored values. This operation takes place at the beginning of the SPH hooks iteration.<linebreak/>
+ <computeroutput>sphotSum</computeroutput>: sum values stored in halo regions, in a multi-GPU scenario. This operation takes place after SPH Interactions hooks.<linebreak/>
+ <computeroutput>sphotUpdate</computeroutput>: update the summed values back to the halo regions, in a multi-GPU scenario. This operation takes place after SPH Particles hooks.<linebreak/>
+</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>place</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The point within the iterative loop where the operation will be performed. Each possible place is associated to one of the SPH hooks described in previously in section \techref{s:sph_hooks}. The corresponding enumerate keys that can be used to define those places are the following:<linebreak/>
+ <computeroutput>sphopPreForce</computeroutput><linebreak/>
+ <computeroutput>sphopPreForce1</computeroutput><linebreak/>
+ <computeroutput>sphopPreForce2</computeroutput><linebreak/>
+ <computeroutput>sphopPreForce3</computeroutput><linebreak/>
+ <computeroutput>sphopPreForce4</computeroutput><linebreak/>
+ <computeroutput>sphopForce</computeroutput><linebreak/>
+ <computeroutput>sphopPostForce</computeroutput><linebreak/>
+ <computeroutput>sphopPostForce1</computeroutput><linebreak/>
+ <computeroutput>sphopPostForce2</computeroutput><linebreak/>
+ <computeroutput>sphopPostForce3</computeroutput><linebreak/>
+ <computeroutput>sphopPostForce4</computeroutput><linebreak/>
+ <computeroutput>sphopPreMove</computeroutput><linebreak/>
+ <computeroutput>sphopPreMove1</computeroutput><linebreak/>
+ <computeroutput>sphopPreMove2</computeroutput><linebreak/>
+ <computeroutput>sphopPreMove3</computeroutput><linebreak/>
+ <computeroutput>sphopPreMove4</computeroutput><linebreak/>
+ <computeroutput>sphopPostMove</computeroutput><linebreak/>
+ <computeroutput>sphopPostMove1</computeroutput><linebreak/>
+ <computeroutput>sphopPostMove2</computeroutput><linebreak/>
+ <computeroutput>sphopPostMove3</computeroutput><linebreak/>
+ <computeroutput>sphopPostMove4</computeroutput><linebreak/>
+ <computeroutput>sphopHeatTransfer</computeroutput><linebreak/>
+ </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_scalars.hpp" line="82" column="10" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_scalars.cpp" bodystart="12" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElementScalarsModel_1ac46511b18b436d5cec83047f8e1e331f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockySPHElementScalarsModel::enable_velocity_gradient</definition>
+        <argsstring>() const</argsstring>
+        <name>enable_velocity_gradient</name>
+        <qualifiedname>IRockySPHElementScalarsModel::enable_velocity_gradient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>Enables the automatic calculation of the components of the velocity gradient, which are</title><para>needed for the calculation of the strain-rate tensor. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_scalars.hpp" line="88" column="10" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_scalars.cpp" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElementScalarsModel_1a3fbb7ee252cf15717b7fbe4dfb148fa2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockySPHElementScalarsModel::enable_variable_molecular_viscosity</definition>
+        <argsstring>() const</argsstring>
+        <name>enable_variable_molecular_viscosity</name>
+        <qualifiedname>IRockySPHElementScalarsModel::enable_variable_molecular_viscosity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>Enables a known-scalar that defines the molecular viscosity as a variable property of</title><para>SPH Elements. When this scalar is enabled, a different value of molecular viscosity can be specified for each element in a simulation, and this value will be used everywhere in the Rocky solver instead of the constant value specified for the fluid&apos;s material in the Rocky UI. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_scalars.hpp" line="96" column="10" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_scalars.cpp" bodystart="37" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElementScalarsModel_1a08368398c992a677000337a1c6b87836" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockySPHElementScalarsModel::find</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>find</name>
+        <qualifiedname>IRockySPHElementScalarsModel::find</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method searches for a scalar variable already created by other modules,</title><para>in order to allow access to its values, or store new values on it, during the execution of the simulation.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name given to the scalar at the moment of its creation.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The index that uniquely identifies the wanted scalar if it was actually found. It returns -1 otherwise.   </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_scalars.hpp" line="101" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElementScalarsModel_1a9ee97eb19ead27e53c0e240f871d09b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockySPHElementScalarsModel::reset</definition>
+        <argsstring>(int scalar_index)</argsstring>
+        <name>reset</name>
+        <qualifiedname>IRockySPHElementScalarsModel::reset</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method resets to zero all values stored in a scalar variable.</title><para></para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index attributed to the scalar variable at the moment of its creation.   </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_scalars.hpp" line="104" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElementScalarsModel_1a0dd4ff3f064eea4b4d112155d20aadf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockySPHElementScalarsModel::set_dimension</definition>
+        <argsstring>(int scalar_index, double dimension_factor)</argsstring>
+        <name>set_dimension</name>
+        <qualifiedname>IRockySPHElementScalarsModel::set_dimension</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension_factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>The purpose of this method is to associate a dimensional factor</title><para>to a scalar variable. This factor will be used to nondimensionalize their values. For instance, if the scalar represents a force, a force dimensional factor must be associated through this method. Dimensional factors for the fundamental magnitudes are provided by functions of a <computeroutput><ref refid="structIRockyModel" kindref="compound">IRockyModel</ref></computeroutput> object.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index attributed to the scalar variable at the moment of its creation.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dimension_factor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The appropriate dimensional factor for the scalar variable.   </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_scalars.hpp" line="107" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElementScalarsModel_1ab522d175868cf8f58efc33f6df21eb07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class _data_type</type>
+            <defval>float</defval>
+          </param>
+        </templateparamlist>
+        <type>int</type>
+        <definition>int IRockySPHElementScalarsModel::add</definition>
+        <argsstring>(const char *name, const char *unit, bool output=true)</argsstring>
+        <name>add</name>
+        <qualifiedname>IRockySPHElementScalarsModel::add</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>unit</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>output</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a new scalar variable of type <computeroutput>double</computeroutput></title><para>for storing custom values during a simulation, preserving them between time iterations.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name given to the scalar variable. The purpose of this name is twofold. First, it enables to find this scalar variable from other module, in order to share their values. Second, if the scalar variable can be displayed in a 3D window as a property, this name will identify it in the Rocky UI.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string specifying the unit in S.I. associated to the scalar variable.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enables/disables the storage in disk at output times, for the visualization and post-processing of the scalar values.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The index that will uniquely identify the scalar variable during the execution of the simulation.   </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_scalars.hpp" line="113" column="9" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_scalars.hpp" bodystart="113" bodyend="120"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An <computeroutput><ref refid="structIRockySPHElementScalarsModel" kindref="compound">IRockySPHElementScalarsModel</ref></computeroutput> object allows users to add new SPH element scalars, find SPH element scalars created in other modules or activate SPH element scalars defined into the Rocky solver, during the setup stage of a module. SPH element scalars are special variables attached to SPH elements, which are able to store values per SPH element that are preserved between time iterations during a simulation. </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/sph/rocky_sph_element_scalars.hpp" line="29" column="1" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_scalars.hpp" bodystart="30" bodyend="127"/>
+    <listofallmembers>
+      <member refid="structIRockySPHElementScalarsModel_1ab522d175868cf8f58efc33f6df21eb07" prot="public" virt="non-virtual"><scope>IRockySPHElementScalarsModel</scope><name>add</name></member>
+      <member refid="structIRockySPHElementScalarsModel_1a3fbb7ee252cf15717b7fbe4dfb148fa2" prot="public" virt="non-virtual"><scope>IRockySPHElementScalarsModel</scope><name>enable_variable_molecular_viscosity</name></member>
+      <member refid="structIRockySPHElementScalarsModel_1ac46511b18b436d5cec83047f8e1e331f" prot="public" virt="non-virtual"><scope>IRockySPHElementScalarsModel</scope><name>enable_velocity_gradient</name></member>
+      <member refid="structIRockySPHElementScalarsModel_1a08368398c992a677000337a1c6b87836" prot="public" virt="non-virtual"><scope>IRockySPHElementScalarsModel</scope><name>find</name></member>
+      <member refid="structIRockySPHElementScalarsModel_1a9ee97eb19ead27e53c0e240f871d09b5" prot="public" virt="non-virtual"><scope>IRockySPHElementScalarsModel</scope><name>reset</name></member>
+      <member refid="structIRockySPHElementScalarsModel_1a0dd4ff3f064eea4b4d112155d20aadf1" prot="public" virt="non-virtual"><scope>IRockySPHElementScalarsModel</scope><name>set_dimension</name></member>
+      <member refid="structIRockySPHElementScalarsModel_1a16f0c80fcfcc46485a0cdb5523eba2bf" prot="public" virt="non-virtual"><scope>IRockySPHElementScalarsModel</scope><name>set_operation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

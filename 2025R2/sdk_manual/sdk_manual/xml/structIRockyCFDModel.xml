@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockyCFDModel" kind="struct" language="C++" prot="public">
+    <compoundname>IRockyCFDModel</compoundname>
+    <includes refid="rocky__cfd__model_8h" local="no">rocky_cfd_model.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockyCFDModel_1a001b18af80c99c01ce4baa357bac4977" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structIRockyFluidScalarsModel" kindref="compound">IRockyFluidScalarsModel</ref></type>
+        <definition>IRockyFluidScalarsModel IRockyCFDModel::get_fluid_scalars</definition>
+        <argsstring>() const</argsstring>
+        <name>get_fluid_scalars</name>
+        <qualifiedname>IRockyCFDModel::get_fluid_scalars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="structIRockyFluidScalarsModel" kindref="compound">IRockyFluidScalarsModel</ref></computeroutput> object, which allows users to add new fluid scalars during a setup of a module. Fluid scalars are special variables attached to CFD cell elements that are able to store values that are preserved between time iterations. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd_model.h" line="22" column="29" bodyfile="source/c++/rocky20/api/rocky_cfd_model.cpp" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDModel_1a121e67b3f5efdd1783a32a7fa642080c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ECFDCouplingMode</type>
+        <definition>ECFDCouplingMode IRockyCFDModel::get_coupling_mode</definition>
+        <argsstring>() const</argsstring>
+        <name>get_coupling_mode</name>
+        <qualifiedname>IRockyCFDModel::get_coupling_mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput>ECFDCouplingMode</computeroutput> enum which represents the CFD coupling mode. There are 5 coupling modes in Rocky:<linebreak/>
+ <computeroutput>cfdcNone = 0</computeroutput><linebreak/>
+ <computeroutput>cfdcOneWay = 1</computeroutput><linebreak/>
+ <computeroutput>cfdcTwoWay = 2</computeroutput><linebreak/>
+ <computeroutput>cfdcOneWayConstant = 3</computeroutput><linebreak/>
+ <computeroutput>cfdcTwoWaySemiResolved = 4</computeroutput> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd_model.h" line="33" column="22" bodyfile="source/c++/rocky20/api/rocky_cfd_model.cpp" bodystart="6" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDModel_1a733281fb5b40b3cfbf10c29869208343" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRockyCFDModel::is_cfd_coupling_iteration</definition>
+        <argsstring>() const</argsstring>
+        <name>is_cfd_coupling_iteration</name>
+        <qualifiedname>IRockyCFDModel::is_cfd_coupling_iteration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>On simulations with CFD 1-way or 2-way coupling, this methods returns true if, in the current solver iteration, Rocky will communicate with Fluent (2-way) or read Fluent transient data (1-way). Both operations happen at the end of the iteration, after all Rocky steps. It return false in all other scenarios. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd_model.h" line="41" column="10" bodyfile="source/c++/rocky20/api/rocky_cfd_model.cpp" bodystart="16" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDModel_1a0eaf07fa0aa63473b83a633dad1e8f25" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRockyCFDModel::is_single_phase</definition>
+        <argsstring>() const</argsstring>
+        <name>is_single_phase</name>
+        <qualifiedname>IRockyCFDModel::is_single_phase</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>This method returns true if Fluent case is single-phase. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd_model.h" line="46" column="10" bodyfile="source/c++/rocky20/api/rocky_cfd_model.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDModel_1a4ac3f8164add3366c5f08f4f819a79fd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRockyCFDModel::has_species</definition>
+        <argsstring>() const</argsstring>
+        <name>has_species</name>
+        <qualifiedname>IRockyCFDModel::has_species</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>This method returns true if Fluent case has species. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd_model.h" line="50" column="10" bodyfile="source/c++/rocky20/api/rocky_cfd_model.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDModel_1a6bc367fb97d56786d71d89351957a2a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; IRockyCFDModel::get_phase_names</definition>
+        <argsstring>()</argsstring>
+        <name>get_phase_names</name>
+        <qualifiedname>IRockyCFDModel::get_phase_names</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>This method returns a vector with phase names. It returns an empty vector for single-phase cases. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd_model.h" line="56" column="17" bodyfile="source/c++/rocky20/api/rocky_cfd_model.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDModel_1a83c9a597793b791d1e42e0756ddddb06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string IRockyCFDModel::get_primary_phase_name</definition>
+        <argsstring>()</argsstring>
+        <name>get_primary_phase_name</name>
+        <qualifiedname>IRockyCFDModel::get_primary_phase_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>This method returns the primary phase name defined in Fluent. It return a empty string for single-phase cases. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd_model.h" line="62" column="17" bodyfile="source/c++/rocky20/api/rocky_cfd_model.cpp" bodystart="52" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDModel_1aac7f217cdfc15f0dd301dfd99127a194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt; std::string &gt; IRockyCFDModel::get_species_names</definition>
+        <argsstring>()</argsstring>
+        <name>get_species_names</name>
+        <qualifiedname>IRockyCFDModel::get_species_names</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>This method returns a vector with species names. It returns an empty vector for cases without species. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd_model.h" line="68" column="17" bodyfile="source/c++/rocky20/api/rocky_cfd_model.cpp" bodystart="47" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput><ref refid="structIRockyCFDModel" kindref="compound">IRockyCFDModel</ref></computeroutput> includes methods that provide basic information about the CFD model. The data associated to an <computeroutput><ref refid="structIRockyCFDModel" kindref="compound">IRockyCFDModel</ref></computeroutput> object resides entirely on host memory, consequently, it can be accessed only within hooks executed on the host side. </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_cfd_model.h" line="15" column="1" bodyfile="source/c++/rocky20/api/rocky_cfd_model.h" bodystart="16" bodyend="74"/>
+    <listofallmembers>
+      <member refid="structIRockyCFDModel_1a121e67b3f5efdd1783a32a7fa642080c" prot="public" virt="non-virtual"><scope>IRockyCFDModel</scope><name>get_coupling_mode</name></member>
+      <member refid="structIRockyCFDModel_1a001b18af80c99c01ce4baa357bac4977" prot="public" virt="non-virtual"><scope>IRockyCFDModel</scope><name>get_fluid_scalars</name></member>
+      <member refid="structIRockyCFDModel_1a6bc367fb97d56786d71d89351957a2a1" prot="public" virt="non-virtual"><scope>IRockyCFDModel</scope><name>get_phase_names</name></member>
+      <member refid="structIRockyCFDModel_1a83c9a597793b791d1e42e0756ddddb06" prot="public" virt="non-virtual"><scope>IRockyCFDModel</scope><name>get_primary_phase_name</name></member>
+      <member refid="structIRockyCFDModel_1aac7f217cdfc15f0dd301dfd99127a194" prot="public" virt="non-virtual"><scope>IRockyCFDModel</scope><name>get_species_names</name></member>
+      <member refid="structIRockyCFDModel_1a4ac3f8164add3366c5f08f4f819a79fd" prot="public" virt="non-virtual"><scope>IRockyCFDModel</scope><name>has_species</name></member>
+      <member refid="structIRockyCFDModel_1a733281fb5b40b3cfbf10c29869208343" prot="public" virt="non-virtual"><scope>IRockyCFDModel</scope><name>is_cfd_coupling_iteration</name></member>
+      <member refid="structIRockyCFDModel_1a0eaf07fa0aa63473b83a633dad1e8f25" prot="public" virt="non-virtual"><scope>IRockyCFDModel</scope><name>is_single_phase</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

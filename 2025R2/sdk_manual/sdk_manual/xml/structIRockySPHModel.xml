@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockySPHModel" kind="struct" language="C++" prot="public">
+    <compoundname>IRockySPHModel</compoundname>
+    <includes refid="rocky__sph__model__api_8hpp" local="no">rocky_sph_model_api.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockySPHModel_1a60758ee9b344fcc7c76b500c0ac8f1cc" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="structIRockySPHElementScalarsModel" kindref="compound">IRockySPHElementScalarsModel</ref></type>
+        <definition>IRockySPHElementScalarsModel IRockySPHModel::get_sph_element_scalars</definition>
+        <argsstring>() const</argsstring>
+        <name>get_sph_element_scalars</name>
+        <qualifiedname>IRockySPHModel::get_sph_element_scalars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="structIRockySPHElementScalarsModel" kindref="compound">IRockySPHElementScalarsModel</ref></computeroutput> object, that allows users to add new SPH element scalars or activate SPH element scalars known to Rocky during the setup of a module. SPH element scalars are special variables attached to SPH elements that are able to store values per element that are preserved between time iterations. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="30" column="34" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1a5a3c1e8c7b54f79f6803fb25799cbd6d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockySPHModel::get_number_of_sph_elements</definition>
+        <argsstring>() const</argsstring>
+        <name>get_number_of_sph_elements</name>
+        <qualifiedname>IRockySPHModel::get_number_of_sph_elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The total number of SPH elements generated during the preprocessing phase of the simulation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="36" column="9" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1a53aabea7b2fb880bf83924a036badac7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockySPHModel::get_number_of_active_sph_elements</definition>
+        <argsstring>() const</argsstring>
+        <name>get_number_of_active_sph_elements</name>
+        <qualifiedname>IRockySPHModel::get_number_of_active_sph_elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The number of SPH elements that are currently active in the simulation. This number includes both free and DEM-coupled SPH elements. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="42" column="9" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1a5f6419ca48c0e300e03e6820934a1718" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockySPHModel::get_number_of_active_free_sph_elements</definition>
+        <argsstring>() const</argsstring>
+        <name>get_number_of_active_free_sph_elements</name>
+        <qualifiedname>IRockySPHModel::get_number_of_active_free_sph_elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The number of free SPH elements that are currently active in the simulation. Free SPH elements are the ones that represent the fluid in the simulation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="48" column="9" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1a832524def72a3d2da3bd449d5fb74368" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockySPHModel::get_number_of_active_linked_sph_elements</definition>
+        <argsstring>() const</argsstring>
+        <name>get_number_of_active_linked_sph_elements</name>
+        <qualifiedname>IRockySPHModel::get_number_of_active_linked_sph_elements</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The number of linked SPH elements that are currently active in the simulation. Linked or DEM-coupled SPH elements are the ones inside the DEM particles, used to model the interaction between fluid and DEM particles. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="55" column="9" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1a513d780295b0089e4d2814cc660f5c78" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ESPHKernelType</type>
+        <definition>ESPHKernelType IRockySPHModel::get_kernel_type</definition>
+        <argsstring>() const</argsstring>
+        <name>get_kernel_type</name>
+        <qualifiedname>IRockySPHModel::get_kernel_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput>ESPHKernelType</computeroutput> enum indicating the kernel type used in the SPH model. Currently there are 3 kernel types implemented in Rocky:<linebreak/>
+ <computeroutput>ktCubic = 0</computeroutput><linebreak/>
+ <computeroutput>ktQuintic = 1</computeroutput><linebreak/>
+ <computeroutput>ktWendland = 2</computeroutput><linebreak/>
+ </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="64" column="20" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1a212b6dd01fb2421258372058df86ccd6" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float IRockySPHModel::get_initial_element_spacing</definition>
+        <argsstring>() const</argsstring>
+        <name>get_initial_element_spacing</name>
+        <qualifiedname>IRockySPHModel::get_initial_element_spacing</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The spacing between SPH elements when they enter into the simulation. This is a characteristic length considered in several expressions in the SPH model. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="70" column="11" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1a245fc38b2db35e544f3b78642f11aff7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float IRockySPHModel::get_smoothing_length</definition>
+        <argsstring>() const</argsstring>
+        <name>get_smoothing_length</name>
+        <qualifiedname>IRockySPHModel::get_smoothing_length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the smoothing length considered in the SPH discretization. The radius of the support region of the kernel function is normally an integer multiple of the smoothing length. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="77" column="11" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1afafa8461838c8fa9ca237437c074facd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float IRockySPHModel::get_element_mass</definition>
+        <argsstring>() const</argsstring>
+        <name>get_element_mass</name>
+        <qualifiedname>IRockySPHModel::get_element_mass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The mass associated to each one of the SPH elements in the simulation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="82" column="11" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1aa34cbdb0bbe713f76a24718369445b90" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>float IRockySPHModel::get_fluid_viscosity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_fluid_viscosity</name>
+        <qualifiedname>IRockySPHModel::get_fluid_viscosity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The user-prescribed value of the fluid&apos;s dynamic viscosity. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="87" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1a053a3b3c9bd14e5051f38a0024ab4536" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>float IRockySPHModel::get_fluid_density</definition>
+        <argsstring>() const</argsstring>
+        <name>get_fluid_density</name>
+        <qualifiedname>IRockySPHModel::get_fluid_density</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The user-prescribed value of the fluid&apos;s density. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="92" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1ab09538e62b2731ab25ee664d6eb08319" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>float IRockySPHModel::get_fluid_thermal_conductivity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_fluid_thermal_conductivity</name>
+        <qualifiedname>IRockySPHModel::get_fluid_thermal_conductivity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The user-prescribed value of the fluid&apos;s thermal conductivity. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="97" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1acaf7cc9d7b268d36a2f739cfc3c3f7ca" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>float IRockySPHModel::get_fluid_specific_heat</definition>
+        <argsstring>() const</argsstring>
+        <name>get_fluid_specific_heat</name>
+        <qualifiedname>IRockySPHModel::get_fluid_specific_heat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The user-prescribed value of the fluid&apos;s specific heat. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="102" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1a223390925c0c7a8d4c0a8ceaef043fe4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>float IRockySPHModel::get_speed_of_sound</definition>
+        <argsstring>() const</argsstring>
+        <name>get_speed_of_sound</name>
+        <qualifiedname>IRockySPHModel::get_speed_of_sound</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The user-prescribed value of the speed of sound in the fluid. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="107" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1adae7b4a0340c884eb80e14d54a1b22f5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>float IRockySPHModel::get_surface_tension</definition>
+        <argsstring>() const</argsstring>
+        <name>get_surface_tension</name>
+        <qualifiedname>IRockySPHModel::get_surface_tension</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The user-prescribed value of the surface tension at a free surface. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="112" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1ab104c8f250896d3528cbe2eb045b4c69" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRockySPHModel::is_enabled</definition>
+        <argsstring>() const</argsstring>
+        <name>is_enabled</name>
+        <qualifiedname>IRockySPHModel::is_enabled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A boolean value indicating whether the SPH model is enabled on the simulation or not. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="117" column="10" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="83" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHModel_1a1627faf9bcd3eca660891efbf5d95981" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockySPHModel::set_htc_distance_factor</definition>
+        <argsstring>(float htc_distance_factor) const</argsstring>
+        <name>set_htc_distance_factor</name>
+        <qualifiedname>IRockySPHModel::set_htc_distance_factor</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>htc_distance_factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This function sets a factor that will be multiplied by the SPH element size that determines</title><para>the distance from the triangle the SPH average properties (e.g. velocity, viscosity) will be ca calculated.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>htc_distance_factor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>the factor that will be multiplied by the SPH element size. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="125" column="26" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.cpp" bodystart="88" bodyend="91"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput><ref refid="structIRockySPHModel" kindref="compound">IRockySPHModel</ref></computeroutput> includes some methods that provide basic information about the SPH model. The data associated to an <computeroutput><ref refid="structIRockySPHModel" kindref="compound">IRockySPHModel</ref></computeroutput> object resides entirely on host memory, consequently, it can be accessed only within hooks executed host-side. </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" line="21" column="1" bodyfile="source/c++/rocky20/api/sph/rocky_sph_model_api.hpp" bodystart="22" bodyend="135"/>
+    <listofallmembers>
+      <member refid="structIRockySPHModel_1afafa8461838c8fa9ca237437c074facd" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_element_mass</name></member>
+      <member refid="structIRockySPHModel_1a053a3b3c9bd14e5051f38a0024ab4536" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_fluid_density</name></member>
+      <member refid="structIRockySPHModel_1acaf7cc9d7b268d36a2f739cfc3c3f7ca" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_fluid_specific_heat</name></member>
+      <member refid="structIRockySPHModel_1ab09538e62b2731ab25ee664d6eb08319" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_fluid_thermal_conductivity</name></member>
+      <member refid="structIRockySPHModel_1aa34cbdb0bbe713f76a24718369445b90" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_fluid_viscosity</name></member>
+      <member refid="structIRockySPHModel_1a212b6dd01fb2421258372058df86ccd6" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_initial_element_spacing</name></member>
+      <member refid="structIRockySPHModel_1a513d780295b0089e4d2814cc660f5c78" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_kernel_type</name></member>
+      <member refid="structIRockySPHModel_1a5f6419ca48c0e300e03e6820934a1718" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_number_of_active_free_sph_elements</name></member>
+      <member refid="structIRockySPHModel_1a832524def72a3d2da3bd449d5fb74368" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_number_of_active_linked_sph_elements</name></member>
+      <member refid="structIRockySPHModel_1a53aabea7b2fb880bf83924a036badac7" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_number_of_active_sph_elements</name></member>
+      <member refid="structIRockySPHModel_1a5a3c1e8c7b54f79f6803fb25799cbd6d" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_number_of_sph_elements</name></member>
+      <member refid="structIRockySPHModel_1a245fc38b2db35e544f3b78642f11aff7" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_smoothing_length</name></member>
+      <member refid="structIRockySPHModel_1a223390925c0c7a8d4c0a8ceaef043fe4" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_speed_of_sound</name></member>
+      <member refid="structIRockySPHModel_1a60758ee9b344fcc7c76b500c0ac8f1cc" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_sph_element_scalars</name></member>
+      <member refid="structIRockySPHModel_1adae7b4a0340c884eb80e14d54a1b22f5" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>get_surface_tension</name></member>
+      <member refid="structIRockySPHModel_1ab104c8f250896d3528cbe2eb045b4c69" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>is_enabled</name></member>
+      <member refid="structIRockySPHModel_1a1627faf9bcd3eca660891efbf5d95981" prot="public" virt="non-virtual"><scope>IRockySPHModel</scope><name>set_htc_distance_factor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

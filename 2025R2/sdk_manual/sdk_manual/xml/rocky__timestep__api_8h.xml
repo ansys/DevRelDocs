@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="rocky__timestep__api_8h" kind="file" language="C++">
+    <compoundname>rocky_timestep_api.h</compoundname>
+    <includes local="no">memory</includes>
+    <includes local="no">vector</includes>
+    <includedby refid="rocky__api_8h" local="yes">source/c++/rocky20/api/rocky_api.h</includedby>
+    <includedby refid="rocky__timestep__api_8cpp" local="yes">source/c++/rocky20/api/rocky_timestep_api.cpp</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>source/c++/rocky20/api/rocky_timestep_api.h</label>
+        <link refid="rocky__timestep__api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>memory</label>
+      </node>
+      <node id="3">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>source/c++/rocky20/api/device/api_cuda.hpp</label>
+        <link refid="api__cuda_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>source/c++/rocky20/api/device/api_cuda_cfd_coupling.hpp</label>
+        <link refid="api__cuda__cfd__coupling_8hpp_source"/>
+      </node>
+      <node id="5">
+        <label>source/c++/rocky20/api/device/api_cuda_contacts.hpp</label>
+        <link refid="api__cuda__contacts_8hpp_source"/>
+      </node>
+      <node id="6">
+        <label>source/c++/rocky20/api/device/api_cuda_joints.hpp</label>
+        <link refid="api__cuda__joints_8hpp_source"/>
+      </node>
+      <node id="7">
+        <label>source/c++/rocky20/api/device/api_cuda_particles.hpp</label>
+        <link refid="api__cuda__particles_8hpp_source"/>
+      </node>
+      <node id="8">
+        <label>source/c++/rocky20/api/device/api_cuda_triangles.hpp</label>
+        <link refid="api__cuda__triangles_8hpp_source"/>
+      </node>
+      <node id="10">
+        <label>source/c++/rocky20/api/device/api_omp_contacts.hpp</label>
+        <link refid="api__omp__contacts_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>source/c++/rocky20/api/rocky_api.h</label>
+        <link refid="rocky__api_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>source/c++/rocky20/api/rocky_api_cfd.h</label>
+        <link refid="rocky__api__cfd_8h_source"/>
+      </node>
+      <node id="12">
+        <label>source/c++/rocky20/api/rocky_api_sph.h</label>
+        <link refid="rocky__api__sph_8h_source"/>
+      </node>
+      <node id="1">
+        <label>source/c++/rocky20/api/rocky_timestep_api.h</label>
+        <link refid="rocky__timestep__api_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>source/c++/rocky20/api/sph/api_cuda_sph.hpp</label>
+        <link refid="api__cuda__sph_8hpp_source"/>
+      </node>
+      <node id="13">
+        <label>source/c++/rocky20/api/sph/api_omp_sph.hpp</label>
+        <link refid="api__omp__sph_8hpp_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classIRockyInteractionCalculationsData" prot="public">IRockyInteractionCalculationsData</innerclass>
+    <innerclass refid="classIRockyTimestepData" prot="public">IRockyTimestepData</innerclass>
+    <innerclass refid="classIRockyAdhesiveDistanceData" prot="public">IRockyAdhesiveDistanceData</innerclass>
+    <innernamespace refid="namespacetimestep">timestep</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>(C)<sp/>2024<sp/>ANSYS,<sp/>Inc.<sp/>Unauthorized<sp/>use,<sp/>distribution,<sp/>or<sp/>duplication<sp/>is<sp/>prohibited.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Includes<sp/>=======================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;vector&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Forward<sp/>Declaration<sp/>============================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIRockyMaterial" kindref="compound">IRockyMaterial</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIRockyMaterialInteraction" kindref="compound">IRockyMaterialInteraction</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">cuda_host;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>cuda_host<sp/>RockyModel;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">timestep</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">ParticleGroupData;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IRockyInteractionCalculationsData</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classIRockyInteractionCalculationsData" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classIRockyInteractionCalculationsData" kindref="compound">IRockyInteractionCalculationsData</ref></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Particle<sp/>------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classIRockyInteractionCalculationsData_1ab5fb8e3d498bfc78f116eec7b53b22b8" kindref="member">get_number_particle_groups</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classIRockyInteractionCalculationsData_1a700a3993ce6c50786c1323e0b91a7c3a" kindref="member">get_particle_material_index</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>group_index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classIRockyInteractionCalculationsData_1a1ce09b00f677c903a2d25426f8447300" kindref="member">get_particle_min_sieve_size</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>group_index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classIRockyInteractionCalculationsData_1ac12016128279790932537b32c1c7410d" kindref="member">get_particle_max_sieve_size</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>group_index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="classIRockyInteractionCalculationsData_1a641adbab81c6c430aa1b0eae6eff29f4" kindref="member">get_particle_min_mass</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>group_index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Geometry<sp/>------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classIRockyInteractionCalculationsData_1a986da6321cca08d20d20dbd43962a74a" kindref="member">get_number_geometry_materials</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classIRockyInteractionCalculationsData_1a05cb28a940233bc976b806a5893c639c" kindref="member">get_geometry_material_index</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Material<sp/>------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structIRockyMaterial" kindref="compound">IRockyMaterial</ref><sp/><ref refid="classIRockyInteractionCalculationsData_1a609eb08b9a568e07c35953bd616d9551" kindref="member">get_material</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classIRockyInteractionCalculationsData_1a1cf7ad2b906aa2f033494b390522bbb3" kindref="member">get_material_interaction_index</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>home_index,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>near_index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structIRockyMaterialInteraction" kindref="compound">IRockyMaterialInteraction</ref><sp/><ref refid="classIRockyInteractionCalculationsData_1aeb94fd8ed1f75bd0523634285ad94e4d" kindref="member">get_material_interaction</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>home_index,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>near_index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classIRockyInteractionCalculationsData" kindref="compound">~IRockyInteractionCalculationsData</ref>();</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classIRockyInteractionCalculationsData" kindref="compound">IRockyInteractionCalculationsData</ref>(RockyModel<sp/>&amp;model,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;timestep::ParticleGroupData&gt;&amp;<sp/>group_data);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classIRockyInteractionCalculationsData" kindref="compound">IRockyInteractionCalculationsData</ref>(RockyModel<sp/>&amp;model);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">impl;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>std::unique_ptr&lt;impl&gt;<sp/>pImpl;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="comment">//<sp/>================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IRockyTimestepData</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight><highlight class="comment">//<sp/>================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="classIRockyTimestepData" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classIRockyTimestepData" kindref="compound">IRockyTimestepData</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classIRockyInteractionCalculationsData" kindref="compound">IRockyInteractionCalculationsData</ref></highlight></codeline>
+<codeline lineno="153"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classIRockyTimestepData_1a3a8aecd285747c87e9987fd439a14a3b" kindref="member">get_loading_n_steps</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classIRockyTimestepData" kindref="compound">IRockyTimestepData</ref>(RockyModel<sp/>&amp;model,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;timestep::ParticleGroupData&gt;&amp;<sp/>group_data);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="comment">//<sp/>================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IRockyAdhesiveDistanceData</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight><highlight class="comment">//<sp/>================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="classIRockyAdhesiveDistanceData" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classIRockyAdhesiveDistanceData" kindref="compound">IRockyAdhesiveDistanceData</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="classIRockyInteractionCalculationsData" kindref="compound">IRockyInteractionCalculationsData</ref></highlight></codeline>
+<codeline lineno="190"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classIRockyAdhesiveDistanceData" kindref="compound">IRockyAdhesiveDistanceData</ref>(RockyModel<sp/>&amp;model);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classIRockyAdhesiveDistanceData_1a7d103731c5133db24f461e91e24e2f7a" kindref="member">set_adhesive_distance</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>home_index,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>near_index,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>adhesive_distance);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="210"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="source/c++/rocky20/api/rocky_timestep_api.h"/>
+  </compounddef>
+</doxygen>

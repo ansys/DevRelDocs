@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_047b61a616e716ab12f61c3f25b94dad" kind="dir">
+    <compoundname>source/c++/rocky20/api/device</compoundname>
+    <innerfile refid="api__backend_8hpp">api_backend.hpp</innerfile>
+    <innerfile refid="api__cuda_8hpp">api_cuda.hpp</innerfile>
+    <innerfile refid="api__cuda__cfd__coupling_8hpp">api_cuda_cfd_coupling.hpp</innerfile>
+    <innerfile refid="api__cuda__contacts_8hpp">api_cuda_contacts.hpp</innerfile>
+    <innerfile refid="api__cuda__joints_8hpp">api_cuda_joints.hpp</innerfile>
+    <innerfile refid="api__cuda__particles_8hpp">api_cuda_particles.hpp</innerfile>
+    <innerfile refid="api__cuda__triangles_8hpp">api_cuda_triangles.hpp</innerfile>
+    <innerfile refid="api__device__cfd__coupling_8hpp">api_device_cfd_coupling.hpp</innerfile>
+    <innerfile refid="api__device__contacts_8hpp">api_device_contacts.hpp</innerfile>
+    <innerfile refid="api__device__grid__search_8hpp">api_device_grid_search.hpp</innerfile>
+    <innerfile refid="api__device__joints_8hpp">api_device_joints.hpp</innerfile>
+    <innerfile refid="api__device__particles_8hpp">api_device_particles.hpp</innerfile>
+    <innerfile refid="api__device__triangles_8hpp">api_device_triangles.hpp</innerfile>
+    <innerfile refid="api__device__vicinity_8hpp">api_device_vicinity.hpp</innerfile>
+    <innerfile refid="api__omp__cfd__coupling_8hpp">api_omp_cfd_coupling.hpp</innerfile>
+    <innerfile refid="api__omp__contacts_8cpp">api_omp_contacts.cpp</innerfile>
+    <innerfile refid="api__omp__contacts_8hpp">api_omp_contacts.hpp</innerfile>
+    <innerfile refid="api__omp__joints_8hpp">api_omp_joints.hpp</innerfile>
+    <innerfile refid="api__omp__particles_8hpp">api_omp_particles.hpp</innerfile>
+    <innerfile refid="api__omp__triangles_8hpp">api_omp_triangles.hpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/device/"/>
+  </compounddef>
+</doxygen>

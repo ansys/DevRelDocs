@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockyParticleHost" kind="struct" language="C++" prot="public">
+    <compoundname>IRockyParticleHost</compoundname>
+    <includes refid="rocky__particle__api_8hpp" local="no">rocky_particle_api.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockyParticleHost_1add7a3f8b7dba238add5ecfdee139acdb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double IRockyParticleHost::get_original_volume</definition>
+        <argsstring>() const</argsstring>
+        <name>get_original_volume</name>
+        <qualifiedname>IRockyParticleHost::get_original_volume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The original value of the particle&apos;s volume. If the particle is porous, this function will return the original total volume of the particle, that is, the sum of the volumes of the solid matrix and the porous space. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="772" column="12" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="890" bodyend="893"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1af76866e13dbf69fbfd426852a9e21c36" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double IRockyParticleHost::get_original_solid_volume</definition>
+        <argsstring>() const</argsstring>
+        <name>get_original_solid_volume</name>
+        <qualifiedname>IRockyParticleHost::get_original_solid_volume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The original value of the particle&apos;s solid volume, which is the volume of the solid matrix if the particle is porous. Otherwise, this function will return the same value that the <computeroutput>get_original_volume</computeroutput> function. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="779" column="12" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="895" bodyend="898"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1af4ec43778fa07b66072fbaa4aee18610" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyParticleHost::get_material_index</definition>
+        <argsstring>() const</argsstring>
+        <name>get_material_index</name>
+        <qualifiedname>IRockyParticleHost::get_material_index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The material index associated to the particle </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="784" column="9" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="905" bodyend="908"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1a5e52a50ea3dbc5b60da1c238141b5afb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double IRockyParticleHost::get_equivalent_diameter</definition>
+        <argsstring>() const</argsstring>
+        <name>get_equivalent_diameter</name>
+        <qualifiedname>IRockyParticleHost::get_equivalent_diameter</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The equivalent diameter of the particle, which is defined as the diameter of a sphere of volume equal to the particle&apos;s volume. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="790" column="12" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="910" bodyend="913"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1a6044e78b75c3721beeba25b84eacd71b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structIRockyMaterial" kindref="compound">IRockyMaterial</ref></type>
+        <definition>IRockyMaterial IRockyParticleHost::get_material</definition>
+        <argsstring>() const</argsstring>
+        <name>get_material</name>
+        <qualifiedname>IRockyParticleHost::get_material</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="structIRockyMaterial" kindref="compound">IRockyMaterial</ref></computeroutput> object that gives access to the values of physical properties associated to the material from which the particle is made. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="797" column="20" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="915" bodyend="918"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1abae259f977de47fccdca78f6bc2372bb" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double3</type>
+        <definition>double3 IRockyParticleHost::get_centroid_position</definition>
+        <argsstring>() const</argsstring>
+        <name>get_centroid_position</name>
+        <qualifiedname>IRockyParticleHost::get_centroid_position</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The Cartesian coordinates of the current position of the particle&apos;s centroid. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="803" column="13" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="920" bodyend="923"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1ad82707a32ee8ebe4027b058b826e2d32" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double IRockyParticleHost::get_original_mass</definition>
+        <argsstring>() const</argsstring>
+        <name>get_original_mass</name>
+        <qualifiedname>IRockyParticleHost::get_original_mass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The original value of the particle&apos;s mass. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="808" column="12" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="925" bodyend="928"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1ac34b4f3510097e7387b000838703b028" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double IRockyParticleHost::get_size</definition>
+        <argsstring>() const</argsstring>
+        <name>get_size</name>
+        <qualifiedname>IRockyParticleHost::get_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The current value of the particle&apos;s size. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="813" column="12" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="930" bodyend="933"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1ac3ba8bc7577f65c66c5be6e0e08c3c19" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double IRockyParticleHost::get_release_time</definition>
+        <argsstring>() const</argsstring>
+        <name>get_release_time</name>
+        <qualifiedname>IRockyParticleHost::get_release_time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The time particle was released. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="818" column="12" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="935" bodyend="938"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1a4c893d6e3f9e6782b321d1a83514c1f0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double IRockyParticleHost::get_cgm_scale_factor</definition>
+        <argsstring>() const</argsstring>
+        <name>get_cgm_scale_factor</name>
+        <qualifiedname>IRockyParticleHost::get_cgm_scale_factor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The particle&apos;s Coarse-grain Modeling (CGM) scale factor. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="823" column="12" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="940" bodyend="943"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1a3d0328eb18856e3120730d0151e6801d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyParticleHost::get_tag</definition>
+        <argsstring>() const</argsstring>
+        <name>get_tag</name>
+        <qualifiedname>IRockyParticleHost::get_tag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The tag value inherited from the tags assigned to the segments of a custom fiber, if the <computeroutput><ref refid="structIRockyParticleHost" kindref="compound">IRockyParticleHost</ref></computeroutput> object represents an element of a custom fiber. The values of those tags must be specified in the column labeled &quot;tag&quot; in the csv file that defines the geometry of a custom fiber. All elements that arise from the subdivision of a given segment inherit the tag value assigned to that segment. If tags are not defined for a custom fiber or if this function is used with particles which are not elements of a custom fiber, this function will return -1. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="834" column="9" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="970" bodyend="973"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1ad76a0dcd79d1d14afb7323220fe6b8cc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRockyParticleHost::is_released</definition>
+        <argsstring>() const</argsstring>
+        <name>is_released</name>
+        <qualifiedname>IRockyParticleHost::is_released</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A <computeroutput>true</computeroutput> value if the particle was released into the simulation domain, <computeroutput>false</computeroutput> otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="840" column="10" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="945" bodyend="948"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1afc51932894666b7743f6109cf46ca07a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRockyParticleHost::is_element</definition>
+        <argsstring>() const</argsstring>
+        <name>is_element</name>
+        <qualifiedname>IRockyParticleHost::is_element</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the given particle is an element within a flexible particle, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="845" column="10" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="955" bodyend="958"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1a6c3f1e0a3df5f1fffc124c982d6a793f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRockyParticleHost::is_assembly</definition>
+        <argsstring>() const</argsstring>
+        <name>is_assembly</name>
+        <qualifiedname>IRockyParticleHost::is_assembly</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the given particle is an assembly, false otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="850" column="10" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="950" bodyend="953"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1a25e3ed57098b86c2020628039d361cbe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t IRockyParticleHost::get_number_of_assembly_parts</definition>
+        <argsstring>() const</argsstring>
+        <name>get_number_of_assembly_parts</name>
+        <qualifiedname>IRockyParticleHost::get_number_of_assembly_parts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The number of parts that compose the assembly. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="855" column="12" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="960" bodyend="963"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1ab51842eff963f1aff610a41827fcfaf4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structIRockyMaterial" kindref="compound">IRockyMaterial</ref></type>
+        <definition>IRockyMaterial IRockyParticleHost::get_assembly_part_material</definition>
+        <argsstring>(size_t part_id) const</argsstring>
+        <name>get_assembly_part_material</name>
+        <qualifiedname>IRockyParticleHost::get_assembly_part_material</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>part_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>part_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of an assembly part. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An <computeroutput><ref refid="structIRockyMaterial" kindref="compound">IRockyMaterial</ref></computeroutput> object that gives access to the values of physical properties associated to the material from which the assembly part referent to <computeroutput>part_id</computeroutput> is made. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="863" column="20" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="965" bodyend="968"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1a589677fa645912fa42565f4a2fa25d46" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structIRockyParticleScalars" kindref="compound">IRockyParticleScalars</ref></type>
+        <definition>IRockyParticleScalars IRockyParticleHost::get_scalars</definition>
+        <argsstring>() const</argsstring>
+        <name>get_scalars</name>
+        <qualifiedname>IRockyParticleHost::get_scalars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="structIRockyParticleScalars" kindref="compound">IRockyParticleScalars</ref></computeroutput> object, that gives access to all particle scalars variables defined in the project. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="869" column="27" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="900" bodyend="903"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyParticleHost_1a2a4385212dafdcb7e825adff5b7785d7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyParticleHost::get_particle_group_index</definition>
+        <argsstring>() const</argsstring>
+        <name>get_particle_group_index</name>
+        <qualifiedname>IRockyParticleHost::get_particle_group_index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The index that uniquely identifies the particle group to which the particle belongs. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="875" column="9" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="974" bodyend="977"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput><ref refid="structIRockyParticleHost" kindref="compound">IRockyParticleHost</ref></computeroutput> is an interface for the internal particle object in Rocky. A particle object is the code representation of an individual particle in a Rocky simulation. It has several access methods to particle-related properties, as well as <emphasis>particle scalars</emphasis>, which are special variables that store values per particle that are preserved between time iterations. The main difference in relation to <computeroutput><ref refid="structIRockyParticle" kindref="compound">IRockyParticle</ref></computeroutput> is that all <computeroutput><ref refid="structIRockyParticleHost" kindref="compound">IRockyParticleHost</ref></computeroutput>&apos;s property and variable values have their original dimensions as defined within the project, and its data resides within host memory (DRAM). </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_particle_api.hpp" line="765" column="1" bodyfile="source/c++/rocky20/api/rocky_particle_api.hpp" bodystart="766" bodyend="883"/>
+    <listofallmembers>
+      <member refid="structIRockyParticleHost_1ab51842eff963f1aff610a41827fcfaf4" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_assembly_part_material</name></member>
+      <member refid="structIRockyParticleHost_1abae259f977de47fccdca78f6bc2372bb" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_centroid_position</name></member>
+      <member refid="structIRockyParticleHost_1a4c893d6e3f9e6782b321d1a83514c1f0" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_cgm_scale_factor</name></member>
+      <member refid="structIRockyParticleHost_1a5e52a50ea3dbc5b60da1c238141b5afb" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_equivalent_diameter</name></member>
+      <member refid="structIRockyParticleHost_1a6044e78b75c3721beeba25b84eacd71b" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_material</name></member>
+      <member refid="structIRockyParticleHost_1af4ec43778fa07b66072fbaa4aee18610" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_material_index</name></member>
+      <member refid="structIRockyParticleHost_1a25e3ed57098b86c2020628039d361cbe" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_number_of_assembly_parts</name></member>
+      <member refid="structIRockyParticleHost_1ad82707a32ee8ebe4027b058b826e2d32" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_original_mass</name></member>
+      <member refid="structIRockyParticleHost_1af76866e13dbf69fbfd426852a9e21c36" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_original_solid_volume</name></member>
+      <member refid="structIRockyParticleHost_1add7a3f8b7dba238add5ecfdee139acdb" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_original_volume</name></member>
+      <member refid="structIRockyParticleHost_1a2a4385212dafdcb7e825adff5b7785d7" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_particle_group_index</name></member>
+      <member refid="structIRockyParticleHost_1ac3ba8bc7577f65c66c5be6e0e08c3c19" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_release_time</name></member>
+      <member refid="structIRockyParticleHost_1a589677fa645912fa42565f4a2fa25d46" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_scalars</name></member>
+      <member refid="structIRockyParticleHost_1ac34b4f3510097e7387b000838703b028" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_size</name></member>
+      <member refid="structIRockyParticleHost_1a3d0328eb18856e3120730d0151e6801d" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>get_tag</name></member>
+      <member refid="structIRockyParticleHost_1a6c3f1e0a3df5f1fffc124c982d6a793f" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>is_assembly</name></member>
+      <member refid="structIRockyParticleHost_1afc51932894666b7743f6109cf46ca07a" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>is_element</name></member>
+      <member refid="structIRockyParticleHost_1ad76a0dcd79d1d14afb7323220fe6b8cc" prot="public" virt="non-virtual"><scope>IRockyParticleHost</scope><name>is_released</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

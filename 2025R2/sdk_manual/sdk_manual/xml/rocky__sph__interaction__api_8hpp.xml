@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="rocky__sph__interaction__api_8hpp" kind="file" language="C++">
+    <compoundname>rocky_sph_interaction_api.hpp</compoundname>
+    <includes refid="rocky__sph__element__api_8hpp" local="yes">rocky_sph_element_api.hpp</includes>
+    <includes refid="rocky__sph__interaction_8hpp" local="yes">rocky_sph_interaction.hpp</includes>
+    <includes refid="rocky__boundary__api_8hpp" local="no">rocky20/api/rocky_boundary_api.hpp</includes>
+    <includedby refid="api__device__sph_8hpp" local="no">source/c++/rocky20/api/sph/api_device_sph.hpp</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>rocky20/api/device/api_backend.hpp</label>
+        <link refid="api__backend_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>rocky_boundary.hpp</label>
+        <link refid="rocky__boundary_8hpp_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>rocky20/api/rocky_boundary_api.hpp</label>
+        <link refid="rocky__boundary__api_8hpp_source"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>rocky_material_api.hpp</label>
+        <link refid="rocky__material__api_8hpp_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>rocky20/api/rocky_particle.hpp</label>
+        <link refid="rocky__particle_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>rocky20/api/rocky_particle_api.hpp</label>
+        <link refid="rocky__particle__api_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>rocky20/api/rocky_particle_scalars.hpp</label>
+        <link refid="rocky__particle__scalars_8hpp_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>rocky_scalars.h</label>
+        <link refid="rocky__scalars_8h_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>rocky20/api/rocky_statistics_data.hpp</label>
+        <link refid="rocky__statistics__data_8hpp_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>rocky_triangle_scalars.hpp</label>
+        <link refid="rocky__triangle__scalars_8hpp_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>rocky_sph_element.hpp</label>
+        <link refid="rocky__sph__element_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>rocky_sph_element_api.hpp</label>
+        <link refid="rocky__sph__element__api_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>rocky_sph_element_scalars.hpp</label>
+        <link refid="rocky__sph__element__scalars_8hpp_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>rocky_sph_interaction.hpp</label>
+        <link refid="rocky__sph__interaction_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp</label>
+        <link refid="rocky__sph__interaction__api_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>rocky20/core/utils/rocky_math.hpp</label>
+      </node>
+      <node id="5">
+        <label>rocky20/cuda/cuda_basics.hpp</label>
+      </node>
+      <node id="13">
+        <label>rocky20/device/device_model.hpp</label>
+      </node>
+      <node id="21">
+        <label>rocky20/device/device_triangles.hpp</label>
+      </node>
+      <node id="14">
+        <label>rocky20/device/element_properties.hpp</label>
+      </node>
+      <node id="6">
+        <label>rocky20/device/omp_backend.hpp</label>
+      </node>
+      <node id="10">
+        <label>rocky20/model/rocky_model.h</label>
+      </node>
+      <node id="12">
+        <label>rocky20/model/statistics_data.hpp</label>
+      </node>
+      <node id="22">
+        <label>rocky20/sph/device_sph.hpp</label>
+      </node>
+      <node id="15">
+        <label>rocky20/sph/sph_model.h</label>
+      </node>
+      <node id="17">
+        <label>rocky20/sph/sph_particle_scalars.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>source/c++/rocky20/api/rocky_api_sph.h</label>
+        <link refid="rocky__api__sph_8h_source"/>
+      </node>
+      <node id="3">
+        <label>source/c++/rocky20/api/sph/api_cuda_sph.hpp</label>
+        <link refid="api__cuda__sph_8hpp_source"/>
+      </node>
+      <node id="2">
+        <label>source/c++/rocky20/api/sph/api_device_sph.hpp</label>
+        <link refid="api__device__sph_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>source/c++/rocky20/api/sph/api_omp_sph.hpp</label>
+        <link refid="api__omp__sph_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp</label>
+        <link refid="rocky__sph__interaction__api_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structIRockySPHElementInteraction" prot="public">IRockySPHElementInteraction</innerclass>
+    <innerclass refid="structIRockySPHTriangleInteraction" prot="public">IRockySPHTriangleInteraction</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>(C)<sp/>2024<sp/>ANSYS,<sp/>Inc.<sp/>Unauthorized<sp/>use,<sp/>distribution,<sp/>or<sp/>duplication<sp/>is<sp/>prohibited.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Includes<sp/>=======================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;rocky_sph_element_api.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;rocky_sph_interaction.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;rocky20/api/rocky_boundary_api.hpp&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IRockySPHElementInteraction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="structIRockySPHElementInteraction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIRockySPHElementInteraction" kindref="compound">IRockySPHElementInteraction</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHElementInteraction_1a72569f88c7d9a22615a3287ab7df33db" kindref="member">calculate_elements_distance</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHElementInteraction_1a14f9867d6104ce395f3a1d48a03fd9c8" kindref="member">calculate_elements_relative_velocity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHElementInteraction_1acec345cb590d324b9729b8842b777906" kindref="member">get_home_element_velocity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHElementInteraction_1aa71223f8afaf50df1e511041157ba890" kindref="member">get_near_element_velocity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockySPHElement" kindref="compound">IRockySPHElement</ref><sp/><ref refid="structIRockySPHElementInteraction_1a7eb0236ba9b25b58b0ca258b1e79976b" kindref="member">get_home_element</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockySPHElement" kindref="compound">IRockySPHElement</ref><sp/><ref refid="structIRockySPHElementInteraction_1a0e9d2687e1c8a66357730003f850fe26" kindref="member">get_near_element</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHElementInteraction_1a1ee1b8234e2660a09b7b1a7fe3ba0e07" kindref="member">add_force</ref>(float3<sp/>force);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHElementInteraction_1a713381036ee74bb8476435037c14124b" kindref="member">add_acceleration</ref>(float3<sp/>acceleration);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHElementInteraction" kindref="compound">IRockySPHElementInteraction</ref>(</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RockySPHElementInteraction*<sp/>interaction_impl);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>RockySPHElementInteraction*<sp/>_impl;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/>IRockySPHElementInteraction::IRockySPHElementInteraction(</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>RockySPHElementInteraction*<sp/>interaction_impl)</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>_impl(interaction_impl)</highlight></codeline>
+<codeline lineno="84"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="structIRockySPHElementInteraction_1a72569f88c7d9a22615a3287ab7df33db" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHElementInteraction_1a72569f88c7d9a22615a3287ab7df33db" kindref="member">IRockySPHElementInteraction::calculate_elements_distance</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="88"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;get_distance_vector();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/>float3</highlight></codeline>
+<codeline lineno="93" refid="structIRockySPHElementInteraction_1a14f9867d6104ce395f3a1d48a03fd9c8" refkind="member"><highlight class="normal"><ref refid="structIRockySPHElementInteraction_1a14f9867d6104ce395f3a1d48a03fd9c8" kindref="member">IRockySPHElementInteraction::calculate_elements_relative_velocity</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="94"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;calculate_elements_relative_velocity();</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="structIRockySPHElementInteraction_1acec345cb590d324b9729b8842b777906" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHElementInteraction_1acec345cb590d324b9729b8842b777906" kindref="member">IRockySPHElementInteraction::get_home_element_velocity</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="99"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;get_home_velocity();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="structIRockySPHElementInteraction_1aa71223f8afaf50df1e511041157ba890" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHElementInteraction_1aa71223f8afaf50df1e511041157ba890" kindref="member">IRockySPHElementInteraction::get_near_element_velocity</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="104"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;get_near_velocity();</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="structIRockySPHElementInteraction_1a7eb0236ba9b25b58b0ca258b1e79976b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockySPHElement" kindref="compound">IRockySPHElement</ref><sp/><ref refid="structIRockySPHElementInteraction_1a7eb0236ba9b25b58b0ca258b1e79976b" kindref="member">IRockySPHElementInteraction::get_home_element</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="109"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHElement" kindref="compound">IRockySPHElement</ref><sp/>{<sp/>this-&gt;_impl-&gt;get_home_element(),<sp/>this-&gt;_impl-&gt;current_time<sp/>};</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="structIRockySPHElementInteraction_1a0e9d2687e1c8a66357730003f850fe26" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockySPHElement" kindref="compound">IRockySPHElement</ref><sp/><ref refid="structIRockySPHElementInteraction_1a0e9d2687e1c8a66357730003f850fe26" kindref="member">IRockySPHElementInteraction::get_near_element</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="114"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHElement" kindref="compound">IRockySPHElement</ref><sp/>{<sp/>this-&gt;_impl-&gt;get_near_element(),<sp/>this-&gt;_impl-&gt;current_time<sp/>};</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="structIRockySPHElementInteraction_1a1ee1b8234e2660a09b7b1a7fe3ba0e07" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHElementInteraction_1a1ee1b8234e2660a09b7b1a7fe3ba0e07" kindref="member">IRockySPHElementInteraction::add_force</ref>(float3<sp/>force)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_impl-&gt;<ref refid="structIRockySPHElement_1a0d51cf017a85bd175db6d18538c9d2e0" kindref="member">add_force</ref>(force);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="structIRockySPHElementInteraction_1a713381036ee74bb8476435037c14124b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHElementInteraction_1a713381036ee74bb8476435037c14124b" kindref="member">IRockySPHElementInteraction::add_acceleration</ref>(float3<sp/>acceleration)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_impl-&gt;add_acceleration(acceleration);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight><highlight class="comment">//<sp/>================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IRockySPHTriangleInteraction</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight><highlight class="comment">//<sp/>================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="structIRockySPHTriangleInteraction" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIRockySPHTriangleInteraction" kindref="compound">IRockySPHTriangleInteraction</ref></highlight></codeline>
+<codeline lineno="138"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockySPHElement" kindref="compound">IRockySPHElement</ref><sp/><ref refid="structIRockySPHTriangleInteraction_1ae83d8750e222b2a46e6f901fd20b80d5" kindref="member">get_home_element</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockyGeometryTriangle" kindref="compound">IRockyGeometryTriangle</ref><sp/><ref refid="structIRockySPHTriangleInteraction_1a469b4ac53234c9e707fee62725b0470a" kindref="member">get_near_triangle</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHTriangleInteraction_1a6bfc347dab63cdbb89a8045f878ba16f" kindref="member">calculate_element_triangle_distance</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHTriangleInteraction_1a665a945d4045772b3a4759b76daf697b" kindref="member">get_orthogonal_projection</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHTriangleInteraction_1a23aa813897c50610e3989dc625f1993a" kindref="member">get_unit_vector</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHTriangleInteraction_1afc2786e2e46e3b025371c17290a88f45" kindref="member">get_home_element_velocity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHTriangleInteraction_1ab240320819db1ece083e25b69f305e12" kindref="member">get_boundary_velocity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/>real_sph<sp/><sp/><ref refid="structIRockySPHTriangleInteraction_1a9df83c2a83bd932798eba6a099398ce4" kindref="member">get_normal_relative_velocity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/>real_sph<sp/><sp/><ref refid="structIRockySPHTriangleInteraction_1a5ff11979743a9bd389afbc153b7124d9" kindref="member">get_tangential_relative_velocity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHTriangleInteraction_1aaae7a8fe9a92cdcd25f7f4d84a21a9f8" kindref="member">get_wall_turbulent_thermal_conductance</ref>(</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>&amp;v_tang,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>&amp;dst_wall)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHTriangleInteraction_1a749ae0224b1bd279d33404b3d0b84010" kindref="member">add_force</ref>(float3<sp/>force);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHTriangleInteraction_1a1578dfd6da083096eb169fe24913dd5b" kindref="member">add_acceleration</ref>(float3<sp/>acceleration);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">explicit</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHTriangleInteraction" kindref="compound">IRockySPHTriangleInteraction</ref>(</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RockySPHTriangleInteraction*<sp/>interaction_impl);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>RockySPHTriangleInteraction*<sp/>_impl;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated]]</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/>get_distance_to_home_vector()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated(</highlight><highlight class="stringliteral">&quot;Use<sp/>IRockySPHTriangleInteraction::get_orthogonal_projection()<sp/>instead.&quot;</highlight><highlight class="normal">)]]</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/>get_nearest_point_to_home()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated(</highlight><highlight class="stringliteral">&quot;Use<sp/>IRockySPHTriangleInteraction::calculate_element_triangle_distance()<sp/>instead.&quot;</highlight><highlight class="normal">)]]</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>get_distance_to_home()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/>IRockySPHTriangleInteraction::IRockySPHTriangleInteraction(</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>RockySPHTriangleInteraction*<sp/>interaction_impl)</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>_impl(interaction_impl)</highlight></codeline>
+<codeline lineno="248"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="249"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="structIRockySPHTriangleInteraction_1afc2786e2e46e3b025371c17290a88f45" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHTriangleInteraction_1afc2786e2e46e3b025371c17290a88f45" kindref="member">IRockySPHTriangleInteraction::get_home_element_velocity</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="252"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;get_home_velocity();</highlight></codeline>
+<codeline lineno="254"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="structIRockySPHTriangleInteraction_1ae83d8750e222b2a46e6f901fd20b80d5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockySPHElement" kindref="compound">IRockySPHElement</ref><sp/><ref refid="structIRockySPHTriangleInteraction_1ae83d8750e222b2a46e6f901fd20b80d5" kindref="member">IRockySPHTriangleInteraction::get_home_element</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="257"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHElement" kindref="compound">IRockySPHElement</ref><sp/>{<sp/>this-&gt;_impl-&gt;get_home_element(),<sp/>this-&gt;_impl-&gt;current_time<sp/>};</highlight></codeline>
+<codeline lineno="259"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="261" refid="structIRockySPHTriangleInteraction_1a749ae0224b1bd279d33404b3d0b84010" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHTriangleInteraction_1a749ae0224b1bd279d33404b3d0b84010" kindref="member">IRockySPHTriangleInteraction::add_force</ref>(float3<sp/>force)</highlight></codeline>
+<codeline lineno="262"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_impl-&gt;<ref refid="structIRockySPHElement_1a0d51cf017a85bd175db6d18538c9d2e0" kindref="member">add_force</ref>(force);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="266" refid="structIRockySPHTriangleInteraction_1a1578dfd6da083096eb169fe24913dd5b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHTriangleInteraction_1a1578dfd6da083096eb169fe24913dd5b" kindref="member">IRockySPHTriangleInteraction::add_acceleration</ref>(float3<sp/>acceleration)</highlight></codeline>
+<codeline lineno="267"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_impl-&gt;add_acceleration(acceleration);</highlight></codeline>
+<codeline lineno="269"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="structIRockySPHTriangleInteraction_1aaae7a8fe9a92cdcd25f7f4d84a21a9f8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHTriangleInteraction_1aaae7a8fe9a92cdcd25f7f4d84a21a9f8" kindref="member">IRockySPHTriangleInteraction::get_wall_turbulent_thermal_conductance</ref>(</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>&amp;tangential_velocity<sp/>,</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>&amp;wall_distance)</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="273"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;get_wall_turbulent_thermal_conductance(</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tangential_velocity,<sp/>wall_distance,<sp/>this-&gt;<ref refid="structIRockySPHTriangleInteraction_1ae83d8750e222b2a46e6f901fd20b80d5" kindref="member">get_home_element</ref>().get_molecular_viscosity());</highlight></codeline>
+<codeline lineno="276"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockyGeometryTriangle" kindref="compound">IRockyGeometryTriangle</ref></highlight></codeline>
+<codeline lineno="279" refid="structIRockySPHTriangleInteraction_1a469b4ac53234c9e707fee62725b0470a" refkind="member"><highlight class="normal"><ref refid="structIRockySPHTriangleInteraction_1a469b4ac53234c9e707fee62725b0470a" kindref="member">IRockySPHTriangleInteraction::get_near_triangle</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="280"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>this-&gt;_impl-&gt;near_index,<sp/>this-&gt;_impl-&gt;rocky_model<sp/>};</highlight></codeline>
+<codeline lineno="282"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="structIRockySPHTriangleInteraction_1a6bfc347dab63cdbb89a8045f878ba16f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structIRockySPHTriangleInteraction_1a6bfc347dab63cdbb89a8045f878ba16f" kindref="member">IRockySPHTriangleInteraction::calculate_element_triangle_distance</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="285"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;get_distance();</highlight></codeline>
+<codeline lineno="287"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="structIRockySPHTriangleInteraction_1a665a945d4045772b3a4759b76daf697b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHTriangleInteraction_1a665a945d4045772b3a4759b76daf697b" kindref="member">IRockySPHTriangleInteraction::get_orthogonal_projection</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="290"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;get_nearest_point_to_home();</highlight></codeline>
+<codeline lineno="292"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294" refid="structIRockySPHTriangleInteraction_1ab240320819db1ece083e25b69f305e12" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHTriangleInteraction_1ab240320819db1ece083e25b69f305e12" kindref="member">IRockySPHTriangleInteraction::get_boundary_velocity</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="295"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;get_near_velocity();</highlight></codeline>
+<codeline lineno="297"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299" refid="structIRockySPHTriangleInteraction_1a23aa813897c50610e3989dc625f1993a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/><ref refid="structIRockySPHTriangleInteraction_1a23aa813897c50610e3989dc625f1993a" kindref="member">IRockySPHTriangleInteraction::get_unit_vector</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="300"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;get_unit_vector();</highlight></codeline>
+<codeline lineno="302"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="structIRockySPHTriangleInteraction_1a9df83c2a83bd932798eba6a099398ce4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/>real_sph<sp/><ref refid="structIRockySPHTriangleInteraction_1a9df83c2a83bd932798eba6a099398ce4" kindref="member">IRockySPHTriangleInteraction::get_normal_relative_velocity</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="305"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;normal_velocity;</highlight></codeline>
+<codeline lineno="307"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="structIRockySPHTriangleInteraction_1a5ff11979743a9bd389afbc153b7124d9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/>real_sph<sp/><ref refid="structIRockySPHTriangleInteraction_1a5ff11979743a9bd389afbc153b7124d9" kindref="member">IRockySPHTriangleInteraction::get_tangential_relative_velocity</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="310"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;tangential_velocity;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight><highlight class="comment">//<sp/>deprecated</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/>IRockySPHTriangleInteraction::get_distance_to_home_vector()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="316"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;get_unit_vector()<sp/>*<sp/>this-&gt;_impl-&gt;get_distance();</highlight></codeline>
+<codeline lineno="318"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>IRockySPHTriangleInteraction::get_distance_to_home()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="321"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;get_distance();</highlight></codeline>
+<codeline lineno="323"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/>float3<sp/>IRockySPHTriangleInteraction::get_nearest_point_to_home()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="326"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl-&gt;get_nearest_point_to_home();</highlight></codeline>
+<codeline lineno="328"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp"/>
+  </compounddef>
+</doxygen>

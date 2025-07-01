@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="macros__and__specifiers_8md" kind="file" language="Markdown">
+    <compoundname>macros_and_specifiers.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">##<sp/>Macros<sp/>and<sp/>specifiers<sp/>{#macros_and_specifiers}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[CUDA](#cuda)<sp/>is<sp/>the<sp/>parallel<sp/>computing<sp/>platform<sp/>used<sp/>by<sp/>Rocky<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">enable<sp/>the<sp/>execution<sp/>of<sp/>simulations<sp/>on<sp/>CUDA-enabled<sp/>GPU<sp/>cards.<sp/>In<sp/>order</highlight></codeline>
+<codeline><highlight class="normal">to<sp/>work<sp/>properly<sp/>on<sp/>GPU<sp/>simulations,<sp/>custom<sp/>[modules](#module)</highlight></codeline>
+<codeline><highlight class="normal">must<sp/>perform<sp/>some<sp/>basic<sp/>operations<sp/>of<sp/>memory<sp/>management<sp/>on</highlight></codeline>
+<codeline><highlight class="normal">[devices](#device)<sp/>and<sp/>data<sp/>transfer<sp/>between<sp/>CPU<sp/>and<sp/>GPU.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Note:<sp/>Although<sp/>on<sp/>GPU<sp/>simulations<sp/>most<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>heavy<sp/>operations<sp/>are<sp/>processed<sp/>on</highlight></codeline>
+<codeline><highlight class="normal">GPU,<sp/>there<sp/>are<sp/>many<sp/>operations,<sp/>such</highlight></codeline>
+<codeline><highlight class="normal">as<sp/>setup,<sp/>initialization<sp/>and<sp/>output,<sp/>that</highlight></codeline>
+<codeline><highlight class="normal">are<sp/>always<sp/>performed<sp/>on<sp/>CPU*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>section<sp/>describes<sp/>a<sp/>set<sp/>of<sp/>available<sp/>CUDA-related<sp/>macros<sp/>that<sp/>may</highlight></codeline>
+<codeline><highlight class="normal">be<sp/>used<sp/>for<sp/>performing<sp/>basic<sp/>memory<sp/>operations<sp/>in<sp/>the<sp/>code<sp/>when<sp/>implementing</highlight></codeline>
+<codeline><highlight class="normal">custom<sp/>modules.<sp/>It<sp/>is<sp/>worth<sp/>noting<sp/>that<sp/>they<sp/>must<sp/>be<sp/>used<sp/>only<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">CUDA-related<sp/>[hooks](#hook)*,<sp/>and<sp/>only<sp/>when<sp/>modules<sp/>are<sp/>intended<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">be<sp/>used<sp/>on<sp/>simulations<sp/>running<sp/>on<sp/>GPU.<sp/>In<sp/>order<sp/>to<sp/>enable<sp/>CUDA-related</highlight></codeline>
+<codeline><highlight class="normal">macros<sp/>and<sp/>hooks,<sp/>the<sp/>`.cu`<sp/>file<sp/>implementing<sp/>the<sp/>module<sp/>functionalities</highlight></codeline>
+<codeline><highlight class="normal">must<sp/>define<sp/>the<sp/>preprocessor<sp/>macro<sp/>name<sp/>`ROCKY_CUDA_API`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Currently,<sp/>the<sp/>CUDA-related<sp/>hooks<sp/>are</highlight></codeline>
+<codeline><highlight class="normal">four:<sp/>`ROCKY_PLUGIN_INITIALIZE_CUDA`,</highlight></codeline>
+<codeline><highlight class="normal">`ROCKY_PLUGIN_BEGIN_ITERATION_CUDA`,</highlight></codeline>
+<codeline><highlight class="normal">`ROCKY_PLUGIN_PRE_OUTPUT_CUDA_SYNC_DATA`,</highlight></codeline>
+<codeline><highlight class="normal">and<sp/>`ROCKY_PLUGIN_TEAR_DOWN_CUDA`.*</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>CUDA_MALLOC</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>macro<sp/>must<sp/>be<sp/>used<sp/>to<sp/>allocate<sp/>a<sp/>block<sp/>of<sp/>memory<sp/>in<sp/>a<sp/>device<sp/>for</highlight></codeline>
+<codeline><highlight class="normal">storing<sp/>custom<sp/>data.<sp/>This<sp/>allocation<sp/>must<sp/>be<sp/>made<sp/>before<sp/>any<sp/>copy</highlight></codeline>
+<codeline><highlight class="normal">operation<sp/>of<sp/>custom<sp/>data<sp/>to<sp/>a<sp/>device.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Parameters:**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`device_ptr`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>A<sp/>pointer<sp/>that<sp/>after<sp/>successful<sp/>memory<sp/>allocation<sp/>will<sp/>point<sp/>to<sp/>the</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>memory<sp/>address<sp/>in<sp/>a<sp/>device<sp/>at<sp/>which<sp/>the<sp/>custom<sp/>data<sp/>will<sp/>be<sp/>stored.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Prior<sp/>to<sp/>its<sp/>utilization<sp/>in<sp/>the<sp/>macro,<sp/>this<sp/>pointer<sp/>must<sp/>be<sp/>a<sp/>null</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>pointer,<sp/>otherwise<sp/>a<sp/>runtime<sp/>error<sp/>will<sp/>be<sp/>thrown.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`size`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>An<sp/>integer<sp/>value<sp/>that<sp/>indicates<sp/>the<sp/>number<sp/>of<sp/>bytes<sp/>that<sp/>must<sp/>be</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>allocated<sp/>in<sp/>the<sp/>device.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>CUDA_MALLOC_TYPE</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">A<sp/>variant<sp/>of<sp/>`CUDA_MALLOC`<sp/>that,<sp/>instead<sp/>of<sp/>receiving<sp/>the<sp/>number<sp/>of<sp/>bytes<sp/>that<sp/>must</highlight></codeline>
+<codeline><highlight class="normal">be<sp/>allocated<sp/>in<sp/>the<sp/>device,<sp/>receives<sp/>the<sp/>type<sp/>of<sp/>data<sp/>that</highlight></codeline>
+<codeline><highlight class="normal">will<sp/>be<sp/>stored<sp/>and<sp/>the<sp/>number<sp/>of<sp/>elements<sp/>as<sp/>parameters,<sp/>if<sp/>it<sp/>happens<sp/>to<sp/>be<sp/>an<sp/>array.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Parameters:**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`device_ptr`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>A<sp/>pointer<sp/>that<sp/>after<sp/>successful<sp/>memory<sp/>allocation<sp/>will<sp/>point<sp/>to<sp/>the</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>memory<sp/>address<sp/>in<sp/>a<sp/>device<sp/>at<sp/>which<sp/>the<sp/>custom<sp/>data<sp/>will<sp/>be<sp/>stored.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Prior<sp/>to<sp/>its<sp/>utilization<sp/>in<sp/>the<sp/>macro,<sp/>this<sp/>pointer<sp/>must<sp/>be<sp/>a<sp/>null</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>pointer,<sp/>otherwise<sp/>a<sp/>runtime<sp/>error<sp/>will<sp/>be<sp/>thrown.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`count`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>An<sp/>integer<sp/>value<sp/>that<sp/>indicates<sp/>the<sp/>number<sp/>of<sp/>elements<sp/>of<sp/>the<sp/>same</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>type<sp/>that<sp/>will<sp/>be<sp/>stored<sp/>in<sp/>the<sp/>allocated<sp/>memory.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`type`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>The<sp/>type<sp/>of<sp/>variable<sp/>that<sp/>will<sp/>be<sp/>stored<sp/>in<sp/>the<sp/>device,<sp/>which<sp/>can<sp/>be</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>a<sp/>C++<sp/>built-in<sp/>type<sp/>or<sp/>a<sp/>custom<sp/>data<sp/>structure.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>CUDA_COPY_H2D</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>macro<sp/>must<sp/>be<sp/>used<sp/>to<sp/>copy<sp/>custom<sp/>data<sp/>from<sp/>the<sp/>[host](#host)</highlight></codeline>
+<codeline><highlight class="normal">to<sp/>a<sp/>device.<sp/>Prior<sp/>to<sp/>this<sp/>copy<sp/>operation,<sp/>the<sp/>right<sp/>amount<sp/>of<sp/>memory</highlight></codeline>
+<codeline><highlight class="normal">must<sp/>have<sp/>already<sp/>been<sp/>allocated<sp/>within<sp/>the<sp/>device,<sp/>otherwise<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">segmentation<sp/>fault<sp/>will<sp/>occur.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Note:<sp/>The<sp/>data<sp/>type<sp/>being<sp/>copied<sp/>must<sp/>be<sp/>trivially<sp/>copyable<sp/>otherwise<sp/>a<sp/>compilation<sp/>error<sp/>will<sp/>raise.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Parameters:**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`device_ptr`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Destination<sp/>memory<sp/>address<sp/>within<sp/>a<sp/>device.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`host_ptr`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Source<sp/>memory<sp/>address<sp/>within<sp/>the<sp/>host.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`count`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>An<sp/>integer<sp/>value<sp/>that<sp/>indicates<sp/>the<sp/>number<sp/>of<sp/>elements<sp/>of<sp/>the<sp/>same</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>type<sp/>that<sp/>will<sp/>be<sp/>copied.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>CUDA_COPY_D2H</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>macro<sp/>performs<sp/>the<sp/>inverse<sp/>operation<sp/>of<sp/>`CUDA_COPY_H2D`,<sp/>that<sp/>is,<sp/>it<sp/>copies<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">from<sp/>the<sp/>device<sp/>back<sp/>to<sp/>the<sp/>host.<sp/>This<sp/>operation<sp/>may<sp/>be<sp/>needed<sp/>when</highlight></codeline>
+<codeline><highlight class="normal">processed<sp/>data<sp/>must<sp/>be<sp/>made<sp/>available<sp/>to<sp/>the<sp/>host<sp/>in<sp/>order<sp/>to<sp/>be<sp/>saved</highlight></codeline>
+<codeline><highlight class="normal">or<sp/>delivered<sp/>to<sp/>the<sp/>Rocky<sp/>UI<sp/>for<sp/>visualization.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Note:<sp/>The<sp/>data<sp/>type<sp/>being<sp/>copied<sp/>must<sp/>be<sp/>trivially<sp/>copyable<sp/>otherwise<sp/>a<sp/>compilation<sp/>error<sp/>will<sp/>raise.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Parameters:**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`host_ptr`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Destination<sp/>memory<sp/>address<sp/>within<sp/>the<sp/>host.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`device_ptr`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Source<sp/>memory<sp/>address<sp/>within<sp/>a<sp/>device.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`count`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>An<sp/>integer<sp/>value<sp/>that<sp/>indicates<sp/>the<sp/>number<sp/>of<sp/>elements<sp/>of<sp/>the<sp/>same</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>type<sp/>that<sp/>will<sp/>be<sp/>copied.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>CUDA_MEMSET</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>macro<sp/>sets<sp/>a<sp/>memory<sp/>block<sp/>within<sp/>a<sp/>device<sp/>to<sp/>a<sp/>given<sp/>value.<sp/>It<sp/>is</highlight></codeline>
+<codeline><highlight class="normal">commonly<sp/>used<sp/>to<sp/>reset<sp/>a<sp/>block<sp/>of<sp/>memory<sp/>that<sp/>previously<sp/>contained<sp/>some<sp/>data<sp/>to<sp/>zero.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Parameters:**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`device_ptr`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Memory<sp/>address<sp/>within<sp/>the<sp/>device<sp/>where<sp/>the<sp/>block<sp/>begins.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`value`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>The<sp/>value<sp/>to<sp/>be<sp/>defined<sp/>for<sp/>each<sp/>byte<sp/>within<sp/>the<sp/>memory<sp/>block.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`count`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>An<sp/>integer<sp/>value<sp/>that<sp/>indicates<sp/>the<sp/>number<sp/>of<sp/>elements<sp/>of<sp/>the<sp/>same</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>type<sp/>that<sp/>currently<sp/>occupy<sp/>the<sp/>memory<sp/>block.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>CUDA_FREE</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>macro<sp/>must<sp/>be<sp/>used<sp/>to<sp/>free<sp/>the<sp/>memory<sp/>block<sp/>allocated<sp/>previously<sp/>by</highlight></codeline>
+<codeline><highlight class="normal">`CUDA_MALLOC`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**Parameters:**</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">-<sp/><sp/><sp/>`device_ptr`</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Device<sp/>pointer<sp/>that<sp/>points<sp/>to<sp/>the<sp/>memory<sp/>block<sp/>that<sp/>must<sp/>be<sp/>freed.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>ROCKY_FUNCTIONS</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>is<sp/>a<sp/>function<sp/>specifier<sp/>that<sp/>enables<sp/>a<sp/>function<sp/>to<sp/>be<sp/>executed<sp/>on<sp/>CPU</highlight></codeline>
+<codeline><highlight class="normal">or<sp/>on<sp/>GPU.<sp/>Its<sp/>use<sp/>is<sp/>mandatory<sp/>in<sp/>the<sp/>declaration<sp/>of<sp/>auxiliary<sp/>functions</highlight></codeline>
+<codeline><highlight class="normal">that<sp/>are<sp/>intended<sp/>to<sp/>be<sp/>called<sp/>from<sp/>hooks<sp/>executed<sp/>on<sp/>GPU.<sp/>This<sp/>is<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">case<sp/>for<sp/>almost<sp/>all<sp/>hooks<sp/>other<sp/>than<sp/>the<sp/>initialization<sp/>and<sp/>termination</highlight></codeline>
+<codeline><highlight class="normal">hooks.</highlight></codeline>
+    </programlisting>
+    <location file="docs/sdk_manual/macros_and_specifiers.md"/>
+  </compounddef>
+</doxygen>

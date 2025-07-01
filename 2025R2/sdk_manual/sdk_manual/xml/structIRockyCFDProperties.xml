@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockyCFDProperties" kind="struct" language="C++" prot="public">
+    <compoundname>IRockyCFDProperties</compoundname>
+    <includes refid="rocky__cfd_8hpp" local="no">rocky_cfd.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockyCFDProperties_1ad1b8eb5a0bb1345469d62bcd8429daf8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyCFDProperties::get_fluid_density</definition>
+        <argsstring>() const</argsstring>
+        <name>get_fluid_density</name>
+        <qualifiedname>IRockyCFDProperties::get_fluid_density</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the fluid density within the CFD cell in which the interacting particle is located. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="33" column="35" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1ace8fe3ed8b6755c7594c337ded2fbe58" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyCFDProperties::get_fluid_viscosity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_fluid_viscosity</name>
+        <qualifiedname>IRockyCFDProperties::get_fluid_viscosity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the fluid absolute viscosity within the CFD cell in which the interacting particle is located. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="44" column="35" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1a9efc8d5c0074cae18fcbcada620ae162" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyCFDProperties::get_fluid_temperature</definition>
+        <argsstring>() const</argsstring>
+        <name>get_fluid_temperature</name>
+        <qualifiedname>IRockyCFDProperties::get_fluid_temperature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the fluid temperature within the CFD cell in which the interacting particle is located. This temperature will be available only if the energy equation is solved in Fluent and/or thermal modeling is enabled in Rocky. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="55" column="35" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1a6f7d6f28278bd653921f6dd19b8972f1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyCFDProperties::get_fluid_specific_heat</definition>
+        <argsstring>() const</argsstring>
+        <name>get_fluid_specific_heat</name>
+        <qualifiedname>IRockyCFDProperties::get_fluid_specific_heat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the fluid specific heat within the CFD cell in which the interacting particle is located. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="65" column="35" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="65" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1a2bc489cf137e3010d27ee7165d62f8ef" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyCFDProperties::get_fluid_thermal_conductivity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_fluid_thermal_conductivity</name>
+        <qualifiedname>IRockyCFDProperties::get_fluid_thermal_conductivity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the fluid thermal conductivity within the CFD cell in which the interacting particle is located. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="75" column="35" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1a50a9b64cedef031bdf38377de0d0665a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double3</type>
+        <definition>ROCKY_FUNCTIONS double3 IRockyCFDProperties::get_fluid_pressure_gradient</definition>
+        <argsstring>() const</argsstring>
+        <name>get_fluid_pressure_gradient</name>
+        <qualifiedname>IRockyCFDProperties::get_fluid_pressure_gradient</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The pressure gradient in the fluid within the CFD cell in which the interacting particle is located, expressed in Cartesian coordinates. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="86" column="36" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="86" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1a9070705d5011bf627a5ca1e083b28bb7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double3</type>
+        <definition>ROCKY_FUNCTIONS double3 IRockyCFDProperties::compute_fluid_vorticity</definition>
+        <argsstring>() const</argsstring>
+        <name>compute_fluid_vorticity</name>
+        <qualifiedname>IRockyCFDProperties::compute_fluid_vorticity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The vorticity vector associated to the fluid flow within the CFD cell in which the interacting particle is located. The vorticity is defined as the curl of the fluid velocity. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="98" column="36" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="98" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1a891e79c0311177f586f49ead9b9a182f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double3</type>
+        <definition>ROCKY_FUNCTIONS double3 IRockyCFDProperties::get_relative_velocity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_relative_velocity</name>
+        <qualifiedname>IRockyCFDProperties::get_relative_velocity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The relative velocity vector in Cartesian coordinates. In this context, the relative velocity is defined as the difference between the fluid velocity and the particle velocity. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="113" column="36" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1a56a3b748ff0a15c3b4870b5fd240bd53" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyCFDProperties::get_reynolds_number</definition>
+        <argsstring>() const</argsstring>
+        <name>get_reynolds_number</name>
+        <qualifiedname>IRockyCFDProperties::get_reynolds_number</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The Reynolds number value, based on the relative velocity and the particle&apos;s equivalent diameter. For more details, please refer to the DEM-CFD Coupling Technical Manual regarding this topic. Drag coefficients in most of the drag laws found in the literature are expressed as functions of this Reynolds number. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="126" column="35" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="126" bodyend="133"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1a6fd3d1388c1b57c53e0d6a0966ecbd0b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyCFDProperties::compute_vorticity_reynolds_number</definition>
+        <argsstring>() const</argsstring>
+        <name>compute_vorticity_reynolds_number</name>
+        <qualifiedname>IRockyCFDProperties::compute_vorticity_reynolds_number</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The Reynolds number value, based on the flow vorticity and the particle&apos;s equivalent diameter. For more details, please refer to the DEM-CFD Coupling Technical Manual regarding this topic. Lift coefficients are usually expressed as functions of this Reynolds number. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="143" column="35" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="143" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1adc32c375f6f3d377b21cd019c336e8c5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyCFDProperties::compute_relative_angular_reynolds_number</definition>
+        <argsstring>(const double3 &amp;particle_angular_velocity) const</argsstring>
+        <name>compute_relative_angular_reynolds_number</name>
+        <qualifiedname>IRockyCFDProperties::compute_relative_angular_reynolds_number</qualifiedname>
+        <param>
+          <type>const double3 &amp;</type>
+          <declname>particle_angular_velocity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The Reynolds number value, based on the relative angular velocity and the particle&apos;s equivalent diameter. For more details, please refer to the DEM-CFD Coupling Technical Manual regarding this topic. Torque laws are commonly expressed using this Reynolds number. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="158" column="35" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="158" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1a345be7a5c45f89f292fb864311c36ad6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyCFDProperties::get_prandtl_number</definition>
+        <argsstring>() const</argsstring>
+        <name>get_prandtl_number</name>
+        <qualifiedname>IRockyCFDProperties::get_prandtl_number</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The Prandtl number value, defined as the ratio of the fluid&apos;s momentum diffusivity to its thermal diffusivity. For more details, please refer to the DEM-CFD Coupling Technical Manual regarding this topic. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="173" column="35" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="173" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1af868d4c581ae2e98db27b2785523b688" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyCFDProperties::get_solid_fraction</definition>
+        <argsstring>() const</argsstring>
+        <name>get_solid_fraction</name>
+        <qualifiedname>IRockyCFDProperties::get_solid_fraction</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The solid fraction at the CFD cell in which the interacting particle is located. This parameter is defined as the ratio between the volume of the particles within that cell to the volume of the cell itself. In Fluent Two Way cases, the value of the solid fraction may be altered by a Lagrangian-to-Eulerian mapping procedure. For more details, please refer to the DEM-CFD Coupling Technical Manual. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="195" column="35" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="195" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1a07a10f12cf5cb16540107a1272e3cea9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyCFDProperties::get_cell_volume</definition>
+        <argsstring>() const</argsstring>
+        <name>get_cell_volume</name>
+        <qualifiedname>IRockyCFDProperties::get_cell_volume</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The volume of the CFD cell in which the interacting particle is located. Before calling this method, one should enable it by calling the method <computeroutput><ref refid="structIRockyFluidScalarsModel_1a6f1e21645261447c930050eff3ecb35b" kindref="member">IRockyFluidScalarsModel::enable_storage_cell_volume()</ref></computeroutput> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="205" column="35" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="205" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1a995c4c9158aff6f72e0b1fdfe39dac9f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS <ref refid="structIRockyFluidScalars" kindref="compound">IRockyFluidScalars</ref></type>
+        <definition>ROCKY_FUNCTIONS IRockyFluidScalars IRockyCFDProperties::get_scalars</definition>
+        <argsstring>() const</argsstring>
+        <name>get_scalars</name>
+        <qualifiedname>IRockyCFDProperties::get_scalars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="structIRockyFluidScalars" kindref="compound">IRockyFluidScalars</ref></computeroutput> object that gives access to the values of all CFD fluid scalars defined in the project at the CFD cell in which the interacting particle is located. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="215" column="47" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="215" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCFDProperties_1a39fb9991d8c793491701fa07c269de2e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyCFDProperties::get_cfd_time_step</definition>
+        <argsstring>() const</argsstring>
+        <name>get_cfd_time_step</name>
+        <qualifiedname>IRockyCFDProperties::get_cfd_time_step</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The CFD time step </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="223" column="35" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="223" bodyend="226"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput><ref refid="structIRockyCFDProperties" kindref="compound">IRockyCFDProperties</ref></computeroutput> gives access to data and utility methods commonly needed for calculating interaction magnitudes between the fluid flow and a particle. The property values returned by those methods are referred either to a particle, or the CFD cell in which that particle is currently located, or both. In the special case of a 1-way constant coupling mode, as there is no CFD mesh associated, the fluid properties returned are the constant values prescribed through the Rocky UI. </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_cfd.hpp" line="26" column="1" bodyfile="source/c++/rocky20/api/rocky_cfd.hpp" bodystart="27" bodyend="342"/>
+    <listofallmembers>
+      <member refid="structIRockyCFDProperties_1a9070705d5011bf627a5ca1e083b28bb7" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>compute_fluid_vorticity</name></member>
+      <member refid="structIRockyCFDProperties_1adc32c375f6f3d377b21cd019c336e8c5" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>compute_relative_angular_reynolds_number</name></member>
+      <member refid="structIRockyCFDProperties_1a6fd3d1388c1b57c53e0d6a0966ecbd0b" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>compute_vorticity_reynolds_number</name></member>
+      <member refid="structIRockyCFDProperties_1a07a10f12cf5cb16540107a1272e3cea9" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>get_cell_volume</name></member>
+      <member refid="structIRockyCFDProperties_1a39fb9991d8c793491701fa07c269de2e" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>get_cfd_time_step</name></member>
+      <member refid="structIRockyCFDProperties_1ad1b8eb5a0bb1345469d62bcd8429daf8" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>get_fluid_density</name></member>
+      <member refid="structIRockyCFDProperties_1a50a9b64cedef031bdf38377de0d0665a" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>get_fluid_pressure_gradient</name></member>
+      <member refid="structIRockyCFDProperties_1a6f7d6f28278bd653921f6dd19b8972f1" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>get_fluid_specific_heat</name></member>
+      <member refid="structIRockyCFDProperties_1a9efc8d5c0074cae18fcbcada620ae162" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>get_fluid_temperature</name></member>
+      <member refid="structIRockyCFDProperties_1a2bc489cf137e3010d27ee7165d62f8ef" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>get_fluid_thermal_conductivity</name></member>
+      <member refid="structIRockyCFDProperties_1ace8fe3ed8b6755c7594c337ded2fbe58" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>get_fluid_viscosity</name></member>
+      <member refid="structIRockyCFDProperties_1a345be7a5c45f89f292fb864311c36ad6" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>get_prandtl_number</name></member>
+      <member refid="structIRockyCFDProperties_1a891e79c0311177f586f49ead9b9a182f" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>get_relative_velocity</name></member>
+      <member refid="structIRockyCFDProperties_1a56a3b748ff0a15c3b4870b5fd240bd53" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>get_reynolds_number</name></member>
+      <member refid="structIRockyCFDProperties_1a995c4c9158aff6f72e0b1fdfe39dac9f" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>get_scalars</name></member>
+      <member refid="structIRockyCFDProperties_1af868d4c581ae2e98db27b2785523b688" prot="public" virt="non-virtual"><scope>IRockyCFDProperties</scope><name>get_solid_fraction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

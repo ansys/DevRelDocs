@@ -1,0 +1,1593 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="usage__examples_8md" kind="file" language="Markdown">
+    <compoundname>usage_examples.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">##<sp/>Usage<sp/>examples<sp/>{#usage_examples}</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>first<sp/>section<sp/>of<sp/>this<sp/>chapter<sp/>provides<sp/>a<sp/>step-by-step<sp/>description<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>implementation<sp/>of<sp/>a<sp/>simple<sp/>but<sp/>fully<sp/>functional<sp/>module<sp/>using</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>Rocky<sp/>Solver<sp/>SDK.<sp/>The<sp/>whole<sp/>process<sp/>is<sp/>covered,<sp/>from<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">implementation<sp/>of<sp/>all<sp/>the<sp/>required<sp/>source<sp/>files,<sp/>until<sp/>the<sp/>execution<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>compiled<sp/>module.<sp/>The<sp/>second<sp/>section<sp/>describes<sp/>the<sp/>code<sp/>associated<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">a<sp/>custom<sp/>module<sp/>that<sp/>implements<sp/>a<sp/>contact<sp/>model.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>A<sp/>simple<sp/>custom<sp/>module</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>section<sp/>describes<sp/>the<sp/>implementation<sp/>of<sp/>the<sp/>code<sp/>of<sp/>a<sp/>simple<sp/>module</highlight></codeline>
+<codeline><highlight class="normal">in<sp/>order<sp/>to<sp/>illustrate<sp/>the<sp/>use<sp/>of<sp/>the<sp/>Rocky<sp/>Solver<sp/>SDK.<sp/>The</highlight></codeline>
+<codeline><highlight class="normal">example<sp/>module<sp/>is<sp/>called<sp/>`Spherical<sp/>Region`.<sp/>Its<sp/>only<sp/>purpose</highlight></codeline>
+<codeline><highlight class="normal">is<sp/>to<sp/>allow<sp/>users<sp/>to<sp/>define<sp/>a<sp/>region<sp/>of<sp/>spherical<sp/>shape<sp/>inside</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>simulation<sp/>domain,<sp/>and<sp/>mark<sp/>all<sp/>particles<sp/>located<sp/>inside<sp/>this<sp/>region</highlight></codeline>
+<codeline><highlight class="normal">at<sp/>any<sp/>given<sp/>time.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>source<sp/>files<sp/>detailed<sp/>below<sp/>should<sp/>be<sp/>saved<sp/>in<sp/>the<sp/>following</highlight></codeline>
+<codeline><highlight class="normal">directory<sp/>structure:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">spherical_region/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>CMakeLists.txt</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>spherical_region.cu</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>spherical_region.plugin</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>spherical_region.py</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>spherical_region.pdf</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>sections<sp/>reproduce<sp/>and<sp/>describe<sp/>the<sp/>content<sp/>of<sp/>each<sp/>one<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>four<sp/>source<sp/>files.<sp/>For<sp/>a<sp/>walk-through<sp/>example<sp/>of<sp/>setting<sp/>up<sp/>and</highlight></codeline>
+<codeline><highlight class="normal">using<sp/>this<sp/>simple<sp/>custom<sp/>module,<sp/>refer<sp/>to<sp/>*Tutorial<sp/>23:<sp/>Rocky<sp/>Solver<sp/>SDK*.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>File<sp/>spherical_region.plugin</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">[Core]</highlight></codeline>
+<codeline><highlight class="normal">Name<sp/>=<sp/>Spherical<sp/>Region</highlight></codeline>
+<codeline><highlight class="normal">Module<sp/>=<sp/>spherical_region</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[Documentation]</highlight></codeline>
+<codeline><highlight class="normal">Author<sp/>=<sp/>Rocky<sp/>user</highlight></codeline>
+<codeline><highlight class="normal">Version<sp/>=<sp/>1.0</highlight></codeline>
+<codeline><highlight class="normal">Website<sp/>=<sp/>user@domain.org</highlight></codeline>
+<codeline><highlight class="normal">Description<sp/>=<sp/>Marks<sp/>particles<sp/>inside<sp/>a<sp/>spherical<sp/>region</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>purpose<sp/>of<sp/>this<sp/>file<sp/>is<sp/>to<sp/>give<sp/>Rocky<sp/>general<sp/>information<sp/>about<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">module.<sp/>For<sp/>instance,<sp/>line<sp/>2<sp/>defines<sp/>the<sp/>name<sp/>of<sp/>the<sp/>module<sp/>as<sp/>it<sp/>must</highlight></codeline>
+<codeline><highlight class="normal">be<sp/>displayed<sp/>in<sp/>the<sp/>Rocky<sp/>UI.<sp/>Similarly,<sp/>line<sp/>3<sp/>gives<sp/>the<sp/>name<sp/>of<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">compiled<sp/>library<sp/>file<sp/>of<sp/>the<sp/>module<sp/>in<sp/>the<sp/>filesystem.<sp/>The<sp/>data<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">block<sp/>between<sp/>lines<sp/>5<sp/>and<sp/>9<sp/>is<sp/>displayed<sp/>within<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">**Info**<sp/>tab<sp/>associated<sp/>to<sp/>the<sp/>module<sp/>in<sp/>the<sp/>Rocky<sp/>UI.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>File<sp/>spherical_region.py</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>is<sp/>a<sp/>Python<sp/>file<sp/>that<sp/>specifies<sp/>which<sp/>are<sp/>the<sp/>module<sp/>parameters</highlight></codeline>
+<codeline><highlight class="normal">that<sp/>must<sp/>be<sp/>displayed<sp/>in<sp/>the<sp/>Rocky<sp/>UI*.<sp/>When<sp/>a<sp/>project<sp/>is<sp/>set<sp/>up<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">Rocky<sp/>and<sp/>the<sp/>module<sp/>is<sp/>enabled,<sp/>users<sp/>will<sp/>be<sp/>able<sp/>to<sp/>enter<sp/>values<sp/>for</highlight></codeline>
+<codeline><highlight class="normal">all<sp/>parameters<sp/>defined<sp/>in<sp/>this<sp/>file,<sp/>through<sp/>the<sp/>Rocky<sp/>UI.<sp/>Refer<sp/>to<sp/>chapter<sp/>[Module<sp/>specification](#module-specification)</highlight></codeline>
+<codeline><highlight class="normal">for<sp/>a<sp/>complete<sp/>description<sp/>of<sp/>how<sp/>different<sp/>types<sp/>of<sp/>data<sp/>can<sp/>be<sp/>specified<sp/>by<sp/>means<sp/>of<sp/>this<sp/>file.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">1<sp/><sp/><sp/>from<sp/>pathlib<sp/>import<sp/>Path</highlight></codeline>
+<codeline><highlight class="normal">2</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/>from<sp/>yapsy.IPlugin<sp/>import<sp/>IPlugin</highlight></codeline>
+<codeline><highlight class="normal">4</highlight></codeline>
+<codeline><highlight class="normal">5<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_models<sp/>import<sp/>container_model,<sp/>data_model</highlight></codeline>
+<codeline><highlight class="normal">6<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_specs<sp/>import<sp/>RockyAddinSpecs</highlight></codeline>
+<codeline><highlight class="normal">7<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_types<sp/>import<sp/>Quantity</highlight></codeline>
+<codeline><highlight class="normal">8</highlight></codeline>
+<codeline><highlight class="normal">9<sp/><sp/><sp/>NAME<sp/>=<sp/>&apos;Spherical<sp/>Region&apos;</highlight></codeline>
+<codeline><highlight class="normal">10</highlight></codeline>
+<codeline><highlight class="normal">11</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/>@data_model(icon=None,<sp/>caption=NAME)</highlight></codeline>
+<codeline><highlight class="normal">13<sp/><sp/>class<sp/>SphericalRegionModel:</highlight></codeline>
+<codeline><highlight class="normal">14<sp/><sp/> <sp/> <sp/>center_x<sp/>=<sp/>Quantity(value=0.0,<sp/>unit=&apos;m&apos;,<sp/>caption=&apos;Center<sp/>Coordinate<sp/>X&apos;)</highlight></codeline>
+<codeline><highlight class="normal">15<sp/><sp/> <sp/> <sp/>center_y<sp/>=<sp/>Quantity(value=0.0,<sp/>unit=&apos;m&apos;,<sp/>caption=&apos;Center<sp/>Coordinate<sp/>Y&apos;)</highlight></codeline>
+<codeline><highlight class="normal">16<sp/><sp/> <sp/> <sp/>center_z<sp/>=<sp/>Quantity(value=0.0,<sp/>unit=&apos;m&apos;,<sp/>caption=&apos;Center<sp/>Coordinate<sp/>Z&apos;)</highlight></codeline>
+<codeline><highlight class="normal">17<sp/><sp/> <sp/> <sp/>radius<sp/>=<sp/>Quantity(value=1.0,<sp/>unit=&apos;m&apos;,<sp/>caption=&apos;Sphere<sp/>Radius&apos;)</highlight></codeline>
+<codeline><highlight class="normal">18</highlight></codeline>
+<codeline><highlight class="normal">19</highlight></codeline>
+<codeline><highlight class="normal">20<sp/><sp/>class<sp/>SphericalRegionSpecs(RockyAddinSpecs):</highlight></codeline>
+<codeline><highlight class="normal">21</highlight></codeline>
+<codeline><highlight class="normal">22<sp/><sp/> <sp/> <sp/>name<sp/>=<sp/>NAME</highlight></codeline>
+<codeline><highlight class="normal">23</highlight></codeline>
+<codeline><highlight class="normal">24<sp/><sp/> <sp/> <sp/>model<sp/>=<sp/>SphericalRegionModel</highlight></codeline>
+<codeline><highlight class="normal">25</highlight></codeline>
+<codeline><highlight class="normal">26<sp/><sp/> <sp/> <sp/>@classmethod</highlight></codeline>
+<codeline><highlight class="normal">27<sp/><sp/> <sp/> <sp/>def<sp/>CreateAddin(cls):</highlight></codeline>
+<codeline><highlight class="normal">28<sp/><sp/> <sp/> <sp/> <sp/> <sp/>return<sp/>cls.CreateDynamicAddin(Path(__file__).parent,<sp/>&apos;spherical_region&apos;)</highlight></codeline>
+<codeline><highlight class="normal">29</highlight></codeline>
+<codeline><highlight class="normal">30</highlight></codeline>
+<codeline><highlight class="normal">31<sp/><sp/>class<sp/>SphericalRegionModule(IPlugin):</highlight></codeline>
+<codeline><highlight class="normal">32<sp/><sp/> <sp/> <sp/>def<sp/>get_addin_specs(self):</highlight></codeline>
+<codeline><highlight class="normal">33<sp/><sp/> <sp/> <sp/> <sp/> <sp/>return<sp/>SphericalRegionSpecs</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">SDK<sp/>utilities<sp/>necessary<sp/>for<sp/>specifying<sp/>the<sp/>module<sp/>data<sp/>are<sp/>imported<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>block<sp/>between<sp/>lines<sp/>1<sp/>and<sp/>5.<sp/>Line<sp/>7<sp/>defines<sp/>the<sp/>name<sp/>of<sp/>the<sp/>module</highlight></codeline>
+<codeline><highlight class="normal">that<sp/>Rocky<sp/>must<sp/>show<sp/>in<sp/>the<sp/>UI.<sp/>Beginning<sp/>at<sp/>line<sp/>10,<sp/>the<sp/>auxiliary</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>`SphericalRegionModel`<sp/>is<sp/>defined,<sp/>which<sp/>includes<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">specification<sp/>of<sp/>the<sp/>four<sp/>parameters<sp/>that<sp/>the<sp/>model<sp/>needs.</highlight></codeline>
+<codeline><highlight class="normal">They<sp/>are<sp/>the<sp/>three<sp/>Cartesian<sp/>coordinates<sp/>of<sp/>the<sp/>sphere<sp/>center<sp/>and<sp/>the<sp/>sphere<sp/>radius.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Between<sp/>lines<sp/>18<sp/>and<sp/>26,<sp/>the<sp/>`SphericalRegionSpecs`<sp/>class<sp/>is<sp/>defined,<sp/>which<sp/>in<sp/>this<sp/>case</highlight></codeline>
+<codeline><highlight class="normal">includes<sp/>only<sp/>the<sp/>definition<sp/>of<sp/>the<sp/>name<sp/>of<sp/>the<sp/>module<sp/>and<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">specification<sp/>of<sp/>the<sp/>parameters<sp/>previously<sp/>included<sp/>in<sp/>the<sp/>`SphericalRegionModel`<sp/>class.</highlight></codeline>
+<codeline><highlight class="normal">Additionally,<sp/>the<sp/>`CreateAddin`<sp/>method<sp/>is<sp/>defined,<sp/>which<sp/>handles<sp/>the<sp/>loading<sp/>of<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">compiled<sp/>library<sp/>file<sp/>for<sp/>the<sp/>module<sp/>when<sp/>the<sp/>simulation<sp/>starts.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Finally,<sp/>at<sp/>line<sp/>29,<sp/>the<sp/>definition<sp/>of<sp/>the<sp/>`SphericalRegionModule`<sp/>class<sp/>is<sp/>included.<sp/>Only</highlight></codeline>
+<codeline><highlight class="normal">one<sp/>method<sp/>is<sp/>implemented<sp/>in<sp/>this<sp/>class,<sp/>`get_addin_specs`,<sp/>which<sp/>makes<sp/>available<sp/>all</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>specifications<sp/>made<sp/>previously<sp/>in<sp/>the<sp/>file.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>File<sp/>spherical_region.pdf</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>is<sp/>an<sp/>optional<sp/>help<sp/>file<sp/>that<sp/>may<sp/>include<sp/>usage<sp/>instructions<sp/>and/or</highlight></codeline>
+<codeline><highlight class="normal">technical<sp/>details<sp/>about<sp/>the<sp/>implementation<sp/>of<sp/>the<sp/>module.<sp/>If<sp/>included,</highlight></codeline>
+<codeline><highlight class="normal">Rocky<sp/>will<sp/>automatically<sp/>link<sp/>it<sp/>to<sp/>a<sp/>special<sp/>icon<sp/>displayed<sp/>in<sp/>the<sp/>UI</highlight></codeline>
+<codeline><highlight class="normal">that<sp/>will<sp/>allow<sp/>users<sp/>of<sp/>the<sp/>module<sp/>to<sp/>open<sp/>the<sp/>file.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>File<sp/>CMakeLists.txt</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>file<sp/>includes<sp/>compilation,<sp/>linkage<sp/>and<sp/>install<sp/>instructions<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">CMake<sp/>language,<sp/>needed<sp/>to<sp/>build<sp/>the<sp/>module.<sp/>Several<sp/>commands<sp/>defined<sp/>by</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>Rocky<sp/>SDK<sp/>are<sp/>used<sp/>in<sp/>order<sp/>to<sp/>simplify<sp/>this<sp/>file.<sp/>The<sp/>content<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">this<sp/>file<sp/>must<sp/>be<sp/>practically<sp/>the<sp/>same<sp/>reproduced<sp/>below<sp/>for<sp/>any<sp/>custom</highlight></codeline>
+<codeline><highlight class="normal">module<sp/>implemented<sp/>using<sp/>the<sp/>Rocky<sp/>Solver<sp/>SDK.<sp/>Users<sp/>only<sp/>have<sp/>to<sp/>replace<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">actual<sp/>name<sp/>of<sp/>the<sp/>compiled<sp/>library<sp/>at<sp/>line<sp/>3<sp/>and<sp/>define<sp/>the<sp/>`ROCKY_PLUGINS_PATH`</highlight></codeline>
+<codeline><highlight class="normal">environment<sp/>variable<sp/>with<sp/>the<sp/>directory<sp/>in<sp/>which<sp/>the<sp/>compiled<sp/>modules</highlight></codeline>
+<codeline><highlight class="normal">must<sp/>be<sp/>installed,<sp/>if<sp/>this<sp/>definition<sp/>has<sp/>not<sp/>been<sp/>made<sp/>previously.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">find_package(RockySDK<sp/>REQUIRED)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">set(PKG_NAME<sp/>&quot;spherical_region&quot;)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">cuda_add_library(${PKG_NAME}<sp/>SHARED<sp/>${PKG_NAME}.cu)</highlight></codeline>
+<codeline><highlight class="normal">target_link_libraries(${PKG_NAME}<sp/>${RockySDK_LIBRARIES})</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">set(ASSETS_LIST<sp/>&quot;${PKG_NAME}.plugin&quot;<sp/>&quot;${PKG_NAME}.py&quot;)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">install_rocky_plugin(${PKG_NAME}<sp/>ASSETS_LIST)</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">If<sp/>the<sp/>module<sp/>includes<sp/>a<sp/>help<sp/>`pdf`<sp/>file,<sp/>the<sp/>line<sp/>8<sp/>must<sp/>include<sp/>this<sp/>file</highlight></codeline>
+<codeline><highlight class="normal">in<sp/>the<sp/>list<sp/>of<sp/>module<sp/>assets,<sp/>in<sp/>the<sp/>following<sp/>way:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">set(ASSETS_LIST<sp/>&quot;${PKG_NAME}.plugin&quot;<sp/>&quot;${PKG_NAME}.py&quot;<sp/>&quot;${PKG_NAME}.pdf&quot;)</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">On<sp/>the<sp/>other<sp/>hand,<sp/>if<sp/>for<sp/>some<sp/>reason<sp/>the<sp/>module<sp/>must<sp/>be<sp/>installed<sp/>in<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">directory<sp/>different<sp/>from<sp/>the<sp/>one<sp/>pointed<sp/>to<sp/>by<sp/>the<sp/>environment<sp/>variable</highlight></codeline>
+<codeline><highlight class="normal">`ROCKY_PLUGINS_PATH`,<sp/>the<sp/>following<sp/>additional<sp/>line<sp/>can<sp/>be<sp/>inserted<sp/>between<sp/>lines<sp/>3<sp/>and<sp/>5:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">set(ROCKY_PLUGIN_INSTALLATION_DIR<sp/>${CMAKE_CURRENT_SOURCE_DIR}/custom_path/)</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">where<sp/>`custom_path`<sp/>is<sp/>the<sp/>path<sp/>of<sp/>the<sp/>folder<sp/>where<sp/>the<sp/>module<sp/>must<sp/>be<sp/>installed,</highlight></codeline>
+<codeline><highlight class="normal">relative<sp/>to<sp/>the<sp/>source<sp/>directory<sp/>being<sp/>processed.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>File<sp/>spherical_region.cu</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>file<sp/>includes<sp/>the<sp/>C++<sp/>code<sp/>that<sp/>implements<sp/>the<sp/>intended</highlight></codeline>
+<codeline><highlight class="normal">functionality<sp/>of<sp/>the<sp/>module<sp/>during<sp/>the<sp/>execution<sp/>of<sp/>a<sp/>simulation.<sp/>Every</highlight></codeline>
+<codeline><highlight class="normal">function<sp/>defined<sp/>in<sp/>this<sp/>file<sp/>must<sp/>be<sp/>executed<sp/>at<sp/>strategic<sp/>points<sp/>when</highlight></codeline>
+<codeline><highlight class="normal">a<sp/>simulation<sp/>is<sp/>running<sp/>in<sp/>Rocky.<sp/>These<sp/>points<sp/>are<sp/>defined<sp/>via<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">simulation<sp/>[hooks](#hook)<sp/>described<sp/>in<sp/>the<sp/>chapter<sp/>[Solver<sp/>Hooks](#solver_hooks),<sp/>and<sp/>must<sp/>therefore<sp/>be<sp/>chosen<sp/>carefully<sp/>by</highlight></codeline>
+<codeline><highlight class="normal">taking<sp/>into<sp/>account<sp/>what<sp/>operations<sp/>the<sp/>module<sp/>must<sp/>perform<sp/>and<sp/>what</highlight></codeline>
+<codeline><highlight class="normal">information<sp/>provided<sp/>by<sp/>Rocky<sp/>will<sp/>be<sp/>necessary<sp/>for<sp/>their<sp/>execution.<sp/>In</highlight></codeline>
+<codeline><highlight class="normal">order<sp/>to<sp/>interact<sp/>with<sp/>Rocky,<sp/>the<sp/>Solver<sp/>SDK<sp/>classes<sp/>and<sp/>methods<sp/>described<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">chapter<sp/>[Class<sp/>Reference](annotated.xhtml)<sp/>must<sp/>be<sp/>used.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">1<sp/><sp/><sp/>#define<sp/>ROCKY_CUDA_API</highlight></codeline>
+<codeline><highlight class="normal">2</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/>#include<sp/>&lt;rocky20/api/rocky_api.h&gt;</highlight></codeline>
+<codeline><highlight class="normal">4</highlight></codeline>
+<codeline><highlight class="normal">5<sp/><sp/><sp/>struct<sp/>ModuleData</highlight></codeline>
+<codeline><highlight class="normal">6<sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">7<sp/><sp/><sp/><sp/><sp/><sp/><sp/>double3<sp/>sphere_center;</highlight></codeline>
+<codeline><highlight class="normal">8<sp/><sp/><sp/><sp/><sp/><sp/><sp/>double<sp/>sphere_radius;</highlight></codeline>
+<codeline><highlight class="normal">9<sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>scalar_index;</highlight></codeline>
+<codeline><highlight class="normal">10<sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal">11</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/>ROCKY_PLUGIN(&quot;Spherical<sp/>Region&quot;,<sp/>&quot;0.0.0&quot;)</highlight></codeline>
+<codeline><highlight class="normal">13</highlight></codeline>
+<codeline><highlight class="normal">14</highlight></codeline>
+<codeline><highlight class="normal">15<sp/><sp/>ROCKY_PLUGIN_CONFIGURE(input_data,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">16<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">17<sp/><sp/><sp/><sp/><sp/><sp/>ModuleData*<sp/>module_data<sp/>=<sp/>new<sp/>ModuleData();</highlight></codeline>
+<codeline><highlight class="normal">18<sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>model_properties<sp/>=<sp/>input_data.get_model();</highlight></codeline>
+<codeline><highlight class="normal">19<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_center.x<sp/>=<sp/>model_properties.get_double(&quot;center_x&quot;);</highlight></codeline>
+<codeline><highlight class="normal">20<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_center.y<sp/>=<sp/>model_properties.get_double(&quot;center_y&quot;);</highlight></codeline>
+<codeline><highlight class="normal">21<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_center.z<sp/>=<sp/>model_properties.get_double(&quot;center_z&quot;);</highlight></codeline>
+<codeline><highlight class="normal">22<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_radius<sp/>=<sp/>model_properties.get_double(&quot;radius&quot;);</highlight></codeline>
+<codeline><highlight class="normal">23<sp/><sp/><sp/><sp/><sp/><sp/>data<sp/>=<sp/>static_cast&lt;void*&gt;(module_data);</highlight></codeline>
+<codeline><highlight class="normal">24<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">25</highlight></codeline>
+<codeline><highlight class="normal">26<sp/><sp/>ROCKY_PLUGIN_SETUP(model,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">27<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">28<sp/><sp/><sp/><sp/><sp/><sp/>ModuleData*<sp/>module_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">29<sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>scalars<sp/>=<sp/>model.get_particle_scalars();</highlight></codeline>
+<codeline><highlight class="normal">30<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;scalar_index<sp/>=<sp/>scalars.add(&quot;Inside<sp/>Sphere<sp/>Flag&quot;,<sp/>&quot;-&quot;);</highlight></codeline>
+<codeline><highlight class="normal">31<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">32</highlight></codeline>
+<codeline><highlight class="normal">33<sp/><sp/>ROCKY_PLUGIN_NON_DIMENSIONALIZE(model,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">34<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">35<sp/><sp/><sp/><sp/><sp/><sp/>ModuleData*<sp/>module_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">36<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_center.x<sp/>/=<sp/>model.get_length_factor();</highlight></codeline>
+<codeline><highlight class="normal">37<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_center.y<sp/>/=<sp/>model.get_length_factor();</highlight></codeline>
+<codeline><highlight class="normal">38<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_center.z<sp/>/=<sp/>model.get_length_factor();</highlight></codeline>
+<codeline><highlight class="normal">39<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_radius<sp/>/=<sp/>model.get_length_factor();</highlight></codeline>
+<codeline><highlight class="normal">40<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">41</highlight></codeline>
+<codeline><highlight class="normal">42<sp/><sp/>ROCKY_PLUGIN_INITIALIZE_CUDA(model,<sp/>host_data,<sp/>device_id,<sp/>device_data)</highlight></codeline>
+<codeline><highlight class="normal">43<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">44<sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>h_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(host_data);</highlight></codeline>
+<codeline><highlight class="normal">45</highlight></codeline>
+<codeline><highlight class="normal">46<sp/><sp/><sp/><sp/><sp/><sp/>ModuleData*<sp/>d_data<sp/>=<sp/>nullptr;</highlight></codeline>
+<codeline><highlight class="normal">47<sp/><sp/><sp/><sp/><sp/><sp/>CUDA_MALLOC_TYPE(d_data,<sp/>1,<sp/>ModuleData);</highlight></codeline>
+<codeline><highlight class="normal">48<sp/><sp/><sp/><sp/><sp/><sp/>CUDA_COPY_H2D(d_data,<sp/>h_data,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal">49<sp/><sp/><sp/><sp/><sp/><sp/>device_data<sp/>=<sp/>static_cast&lt;void*&gt;(d_data);</highlight></codeline>
+<codeline><highlight class="normal">50<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">51</highlight></codeline>
+<codeline><highlight class="normal">52<sp/><sp/>ROCKY_PLUGIN_POST_MOVE_PARTICLES(device_model,<sp/>particle,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">53<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">54<sp/><sp/><sp/><sp/><sp/><sp/>ModuleData*<sp/>module_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">55<sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>scalars<sp/>=<sp/>particle.get_scalars();</highlight></codeline>
+<codeline><highlight class="normal">56<sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>scalar_index<sp/>=<sp/>module_data-&gt;scalar_index;</highlight></codeline>
+<codeline><highlight class="normal">57<sp/><sp/><sp/><sp/><sp/><sp/>double3<sp/>position<sp/>=<sp/>particle.get_centroid_position();</highlight></codeline>
+<codeline><highlight class="normal">58<sp/><sp/><sp/><sp/><sp/><sp/>double<sp/>distance<sp/>=<sp/>get_norm(position<sp/>-<sp/>module_data-&gt;sphere_center);</highlight></codeline>
+<codeline><highlight class="normal">59</highlight></codeline>
+<codeline><highlight class="normal">60<sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(distance<sp/>&lt;<sp/>module_data-&gt;sphere_radius)</highlight></codeline>
+<codeline><highlight class="normal">61<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scalars.set_scalar(scalar_index,<sp/>1.0);</highlight></codeline>
+<codeline><highlight class="normal">62<sp/><sp/><sp/><sp/><sp/><sp/>else</highlight></codeline>
+<codeline><highlight class="normal">63<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scalars.set_scalar(scalar_index,<sp/>0.0);</highlight></codeline>
+<codeline><highlight class="normal">64<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">65<sp/><sp/>ROCKY_PLUGIN_POST_MOVE_PARTICLES_END()</highlight></codeline>
+<codeline><highlight class="normal">66</highlight></codeline>
+<codeline><highlight class="normal">67<sp/><sp/>ROCKY_PLUGIN_TEAR_DOWN(model,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">68<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">69<sp/><sp/><sp/><sp/><sp/><sp/>delete<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">70<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">71</highlight></codeline>
+<codeline><highlight class="normal">72<sp/><sp/>ROCKY_PLUGIN_TEAR_DOWN_CUDA(model,<sp/>device_id,<sp/>device_data)</highlight></codeline>
+<codeline><highlight class="normal">73<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">74<sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>d_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(device_data);</highlight></codeline>
+<codeline><highlight class="normal">75<sp/><sp/><sp/><sp/><sp/><sp/>CUDA_FREE(d_data);</highlight></codeline>
+<codeline><highlight class="normal">76<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">77</highlight></codeline>
+<codeline><highlight class="normal">78<sp/><sp/>ROCKY_PLUGIN_END</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>directive<sp/>in<sp/>line<sp/>1<sp/>enables<sp/>the<sp/>execution<sp/>of<sp/>the<sp/>module<sp/>in<sp/>single<sp/>or</highlight></codeline>
+<codeline><highlight class="normal">multi-GPU<sp/>configurations.<sp/>When<sp/>this<sp/>line<sp/>is<sp/>included,<sp/>the<sp/>module<sp/>must</highlight></codeline>
+<codeline><highlight class="normal">define<sp/>a<sp/>`ROCKY_PLUGIN_INITIALIZE_CUDA`<sp/>function<sp/>in<sp/>order<sp/>to<sp/>allocate</highlight></codeline>
+<codeline><highlight class="normal">memory<sp/>in<sp/>the<sp/>GPU<sp/>and<sp/>to<sp/>copy<sp/>the<sp/>module<sp/>data<sp/>to<sp/>the<sp/>GPU,<sp/>as<sp/>described<sp/>below.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>line<sp/>5,<sp/>a<sp/>custom<sp/>data<sp/>structure<sp/>`ModuleData`<sp/>is<sp/>defined,<sp/>that<sp/>will<sp/>be<sp/>used<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">store<sp/>the<sp/>data<sp/>needed<sp/>by<sp/>the<sp/>module.<sp/>In<sp/>this<sp/>case,<sp/>the<sp/>structure</highlight></codeline>
+<codeline><highlight class="normal">includes<sp/>the<sp/>coordinates<sp/>of<sp/>the<sp/>center<sp/>point*,<sp/>the<sp/>radius<sp/>of<sp/>the<sp/>sphere</highlight></codeline>
+<codeline><highlight class="normal">and<sp/>an<sp/>index<sp/>to<sp/>identify<sp/>the<sp/>particle<sp/>[scalar](#scalar)<sp/>that<sp/>will</highlight></codeline>
+<codeline><highlight class="normal">be<sp/>used<sp/>to<sp/>identify<sp/>the<sp/>particles<sp/>inside<sp/>the<sp/>spherical<sp/>region.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**In<sp/>order<sp/>to<sp/>simplify<sp/>the<sp/>code,<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">Rocky<sp/>Solver<sp/>SDK<sp/>provides<sp/>the<sp/>struct</highlight></codeline>
+<codeline><highlight class="normal">double3<sp/>for<sp/>defining<sp/>3D<sp/>points<sp/>and<sp/>3D</highlight></codeline>
+<codeline><highlight class="normal">vectors.<sp/>It<sp/>includes<sp/>as<sp/>data<sp/>members</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>three<sp/>coordinates<sp/>x,<sp/>y<sp/>and<sp/>z.<sp/>Special<sp/>operators<sp/>for<sp/>this<sp/>struct<sp/>are<sp/>also</highlight></codeline>
+<codeline><highlight class="normal">defined,<sp/>for<sp/>addition,<sp/>subtraction,<sp/>and</highlight></codeline>
+<codeline><highlight class="normal">multiplication<sp/>by<sp/>a<sp/>scalar.<sp/>Moreover,</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>functions<sp/>dot,<sp/>cross,<sp/>and<sp/>get_norm</highlight></codeline>
+<codeline><highlight class="normal">are<sp/>also<sp/>provided,<sp/>for<sp/>obtaining<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">dot<sp/>product,<sp/>the<sp/>cross<sp/>product,<sp/>and<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">norm,<sp/>respectively.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>line<sp/>12,<sp/>the<sp/>name<sp/>and<sp/>the<sp/>version<sp/>of<sp/>the<sp/>module<sp/>implemented<sp/>by<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">code<sp/>in<sp/>the<sp/>file<sp/>are<sp/>defined.<sp/>Afterwards,<sp/>between<sp/>lines<sp/>14<sp/>and<sp/>23,<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">code<sp/>associated<sp/>to<sp/>the<sp/>hook<sp/>`ROCKY_PLUGIN_CONFIGURE`<sp/>is<sp/>defined.<sp/>Here,<sp/>an<sp/>instance<sp/>of<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">custom<sp/>`struct`<sp/>is<sp/>allocated<sp/>and<sp/>the<sp/>corresponding<sp/>pointer<sp/>is<sp/>named<sp/>`module_data`.<sp/>Next,</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>values<sp/>of<sp/>the<sp/>four<sp/>module<sp/>parameters<sp/>entered<sp/>through<sp/>the<sp/>Rocky<sp/>UI</highlight></codeline>
+<codeline><highlight class="normal">are<sp/>retrieved<sp/>from<sp/>the<sp/>function<sp/>argument<sp/>`input_data`,<sp/>and<sp/>assigned<sp/>to<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">corresponding<sp/>variables<sp/>in<sp/>the<sp/>object<sp/>pointed<sp/>by<sp/>`module_data`.<sp/>Finally,<sp/>in<sp/>line</highlight></codeline>
+<codeline><highlight class="normal">23,<sp/>this<sp/>pointer<sp/>is<sp/>converted<sp/>to<sp/>a<sp/>void<sp/>pointer<sp/>in<sp/>order<sp/>to<sp/>assign<sp/>it<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>function<sp/>argument<sp/>`data`,<sp/>which<sp/>Rocky<sp/>will<sp/>store<sp/>and<sp/>make<sp/>available<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">subsequent<sp/>stages<sp/>of<sp/>the<sp/>simulation.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Between<sp/>lines<sp/>26<sp/>and<sp/>31,<sp/>the<sp/>code<sp/>associated<sp/>to<sp/>the<sp/>hook<sp/>`ROCKY_PLUGIN_SETUP`<sp/>is<sp/>defined.</highlight></codeline>
+<codeline><highlight class="normal">As<sp/>in<sp/>other<sp/>preprocessing<sp/>hooks,<sp/>the<sp/>arguments<sp/>provided<sp/>are<sp/>an<sp/>`IRockyModel`</highlight></codeline>
+<codeline><highlight class="normal">object,<sp/>named<sp/>simply<sp/>`model`,<sp/>and<sp/>the<sp/>void<sp/>pointer<sp/>that<sp/>was<sp/>defined</highlight></codeline>
+<codeline><highlight class="normal">previously<sp/>in<sp/>`ROCKY_PLUGIN_CONFIGURE`.<sp/>In<sp/>order<sp/>to<sp/>have<sp/>access<sp/>to<sp/>the<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">stored<sp/>previously,<sp/>the<sp/>void<sp/>pointer<sp/>must<sp/>be<sp/>converted<sp/>back<sp/>into<sp/>a<sp/>ModuleData</highlight></codeline>
+<codeline><highlight class="normal">pointer,<sp/>as<sp/>it<sp/>is<sp/>done<sp/>in<sp/>line<sp/>28.<sp/>In<sp/>this<sp/>specific<sp/>case,<sp/>the<sp/>only<sp/>operation<sp/>performed<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">this<sp/>block<sp/>is<sp/>to<sp/>define<sp/>a<sp/>particle<sp/>scalar<sp/>variable<sp/>that<sp/>will<sp/>be<sp/>used<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">mark<sp/>particles<sp/>inside<sp/>the<sp/>spherical<sp/>region.<sp/>In<sp/>line<sp/>29,<sp/>the<sp/>object<sp/>that</highlight></codeline>
+<codeline><highlight class="normal">handles<sp/>operations<sp/>with<sp/>particle<sp/>scalars<sp/>is<sp/>defined.<sp/>Subsequently,<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">line<sp/>30<sp/>the<sp/>custom<sp/>particle<sp/>scalar<sp/>is<sp/>specified.<sp/>The<sp/>two<sp/>arguments<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>`add`<sp/>function<sp/>are<sp/>the<sp/>label<sp/>that<sp/>must<sp/>associated<sp/>to<sp/>the<sp/>particle</highlight></codeline>
+<codeline><highlight class="normal">scalar<sp/>in<sp/>the<sp/>Rocky<sp/>UI,<sp/>and<sp/>the<sp/>unit.<sp/>After<sp/>creating<sp/>the<sp/>particle</highlight></codeline>
+<codeline><highlight class="normal">scalar,<sp/>the<sp/>`add`<sp/>function<sp/>will<sp/>return<sp/>an<sp/>integer<sp/>index<sp/>that,<sp/>in<sp/>this<sp/>case,</highlight></codeline>
+<codeline><highlight class="normal">will<sp/>be<sp/>stored<sp/>in<sp/>`module_data-&gt;scalar_index`.<sp/>Any<sp/>subsequent<sp/>operation<sp/>involving<sp/>that<sp/>specific</highlight></codeline>
+<codeline><highlight class="normal">particle<sp/>scalar<sp/>will<sp/>require<sp/>the<sp/>use<sp/>of<sp/>that<sp/>index.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>order<sp/>to<sp/>avoid<sp/>precision<sp/>loss<sp/>because<sp/>of<sp/>roundoff<sp/>errors,<sp/>Rocky<sp/>works</highlight></codeline>
+<codeline><highlight class="normal">internally<sp/>with<sp/>dimensionless<sp/>variables.<sp/>Therefore,<sp/>the<sp/>module<sp/>has<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">nondimensionalize<sp/>all<sp/>custom<sp/>parameters<sp/>previously<sp/>defined,<sp/>in<sp/>order<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">use<sp/>them<sp/>in<sp/>operations<sp/>involving<sp/>data<sp/>coming<sp/>from<sp/>the<sp/>Rocky<sp/>solver.<sp/>This</highlight></codeline>
+<codeline><highlight class="normal">operation<sp/>is<sp/>made<sp/>in<sp/>the<sp/>block<sp/>beginning<sp/>at<sp/>line<sp/>33,<sp/>within<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">`ROCKY_PLUGIN_NON_DIMENSIONALIZE`<sp/>hook.<sp/>In<sp/>this<sp/>case<sp/>all<sp/>parameters<sp/>are<sp/>lengths,</highlight></codeline>
+<codeline><highlight class="normal">so<sp/>they<sp/>are<sp/>nondimensionalized<sp/>using<sp/>the<sp/>length<sp/>factor<sp/>provided<sp/>by<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">corresponding<sp/>method<sp/>of<sp/>the<sp/>`model`<sp/>object.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Between<sp/>lines<sp/>42<sp/>and<sp/>50,<sp/>the<sp/>module<sp/>data<sp/>is<sp/>copied<sp/>to<sp/>the<sp/>GPU</highlight></codeline>
+<codeline><highlight class="normal">[devices](#device).<sp/>This<sp/>kind<sp/>of<sp/>operation<sp/>is<sp/>mandatory<sp/>when<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">module<sp/>is<sp/>intended<sp/>for<sp/>execution<sp/>in<sp/>single<sp/>or<sp/>multi-GPU<sp/>configurations.</highlight></codeline>
+<codeline><highlight class="normal">The<sp/>hook<sp/>`ROCKY_PLUGIN_INITIALIZE_CUDA`<sp/>provides<sp/>two<sp/>generic<sp/>pointers<sp/>as</highlight></codeline>
+<codeline><highlight class="normal">arguments:<sp/>`host_data`<sp/>and<sp/>`device_data`.<sp/>The</highlight></codeline>
+<codeline><highlight class="normal">first<sp/>one<sp/>points<sp/>to<sp/>the<sp/>object<sp/>that<sp/>currently<sp/>stores<sp/>the<sp/>data<sp/>defined<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>previous<sp/>pre-processing<sp/>functions.<sp/>The<sp/>objective<sp/>of<sp/>this<sp/>function<sp/>is</highlight></codeline>
+<codeline><highlight class="normal">to<sp/>allocate<sp/>a<sp/>memory<sp/>block<sp/>of<sp/>the<sp/>right<sp/>size<sp/>in<sp/>the<sp/>GPU<sp/>devices,<sp/>copy</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>module<sp/>data<sp/>pointed<sp/>by<sp/>`host_data`<sp/>to<sp/>that<sp/>memory<sp/>block,<sp/>and<sp/>finally<sp/>assign</highlight></codeline>
+<codeline><highlight class="normal">to<sp/>`device_data`<sp/>the<sp/>pointer<sp/>that<sp/>points<sp/>to<sp/>the<sp/>beginning<sp/>of<sp/>that<sp/>block.<sp/>This<sp/>is</highlight></codeline>
+<codeline><highlight class="normal">done<sp/>in<sp/>lines<sp/>47<sp/>(memory<sp/>allocation),<sp/>48<sp/>(data<sp/>copy)<sp/>and<sp/>49<sp/>(conversion</highlight></codeline>
+<codeline><highlight class="normal">to<sp/>a<sp/>generic<sp/>pointer<sp/>and<sp/>assigment<sp/>`device_data`).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>only<sp/>operation<sp/>performed<sp/>by<sp/>the<sp/>module<sp/>during<sp/>the<sp/>time<sp/>iterative</highlight></codeline>
+<codeline><highlight class="normal">process<sp/>is<sp/>the<sp/>one<sp/>implemented<sp/>in<sp/>the<sp/>block<sp/>beginning<sp/>at<sp/>line<sp/>52.<sp/>This</highlight></codeline>
+<codeline><highlight class="normal">operation<sp/>is<sp/>associated<sp/>to<sp/>the<sp/>`ROCKY_PLUGIN_POST_MOVE_PARTICLES`</highlight></codeline>
+<codeline><highlight class="normal">hook,<sp/>which<sp/>is<sp/>executed<sp/>inside<sp/>a<sp/>loop<sp/>over<sp/>the<sp/>active<sp/>particles<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">simulation,<sp/>after<sp/>the<sp/>position<sp/>and</highlight></codeline>
+<codeline><highlight class="normal">velocities<sp/>of<sp/>the<sp/>particles<sp/>were<sp/>updated<sp/>in<sp/>Rocky.<sp/>In<sp/>line<sp/>58,<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">distance<sp/>between<sp/>the<sp/>centroid<sp/>of<sp/>the<sp/>current<sp/>particle<sp/>and<sp/>the<sp/>center<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>spherical<sp/>region<sp/>is<sp/>calculated.<sp/>If<sp/>that<sp/>distance<sp/>is<sp/>less<sp/>than<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">region<sp/>radius,<sp/>the<sp/>particle<sp/>is<sp/>considered<sp/>to<sp/>be<sp/>inside<sp/>the<sp/>region.<sp/>The</highlight></codeline>
+<codeline><highlight class="normal">scalar<sp/>value<sp/>associated<sp/>to<sp/>the<sp/>particle<sp/>is<sp/>set<sp/>be<sp/>equal<sp/>to<sp/>1<sp/>in<sp/>that</highlight></codeline>
+<codeline><highlight class="normal">case,<sp/>and<sp/>equal<sp/>to<sp/>0<sp/>otherwise.<sp/>The<sp/>block<sp/>is<sp/>closed<sp/>by<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">`ROCKY_PLUGIN_POST_MOVE_PARTICLES_END`<sp/>function</highlight></codeline>
+<codeline><highlight class="normal">call,<sp/>during<sp/>which<sp/>Rocky<sp/>takes<sp/>care<sp/>of<sp/>some<sp/>additional<sp/>operations<sp/>needed</highlight></codeline>
+<codeline><highlight class="normal">to<sp/>execute<sp/>the<sp/>module<sp/>code<sp/>correctly.<sp/>Note<sp/>that<sp/>any<sp/>of<sp/>the<sp/>functions<sp/>associated<sp/>to<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">hook<sp/>executed<sp/>during<sp/>the<sp/>time<sp/>iterative<sp/>loop<sp/>must<sp/>be<sp/>closed<sp/>by<sp/>a<sp/>similar<sp/>function.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Finally,<sp/>the<sp/>`ROCKY_PLUGIN_TEAR_DOWN`<sp/>hook<sp/>frees<sp/>the<sp/>memory<sp/>allocated<sp/>for<sp/>the<sp/>local<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">structure<sp/>in<sp/>the<sp/>CPU<sp/>memory<sp/>area.<sp/>The<sp/>equivalent<sp/>operation<sp/>on<sp/>the<sp/>GPU</highlight></codeline>
+<codeline><highlight class="normal">memory<sp/>area<sp/>is<sp/>made<sp/>in<sp/>the<sp/>`ROCKY_PLUGIN_TEAR_DOWN_CUDA`<sp/>hook.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Building<sp/>procedures</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>section<sp/>shows<sp/>a<sp/>way<sp/>to<sp/>compile<sp/>the<sp/>module<sp/>`spherical_region`<sp/>described<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">previous<sp/>section.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#####<sp/>Building<sp/>in<sp/>Centos<sp/>7</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>`conda`<sp/>command<sp/>prompt<sp/>that<sp/>was<sp/>activated<sp/>in<sp/>section</highlight></codeline>
+<codeline><highlight class="normal">[Build<sp/>Tools<sp/>-<sp/>Linux](#build-tools---linux),<sp/>navigate<sp/>to<sp/>the<sp/>`spherical_region`</highlight></codeline>
+<codeline><highlight class="normal">directory<sp/>and<sp/>execute<sp/>the<sp/>following<sp/>commands:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>source/plugins/spherical_region</highlight></codeline>
+<codeline><highlight class="normal">make<sp/>install</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">On<sp/>successful<sp/>execution<sp/>of<sp/>the<sp/>above<sp/>commands,<sp/>the<sp/>compiled<sp/>content<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>`spherical_region`<sp/>module<sp/>is<sp/>available<sp/>in<sp/>the<sp/>folder<sp/>pointed<sp/>by<sp/>the<sp/>`ROCKY_PLUGINS_PATH`</highlight></codeline>
+<codeline><highlight class="normal">environment<sp/>variable:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">24.2.0/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>spherical_region/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>libx_spherical_region.so</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spherical_region.plugin</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spherical_region.py</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">#####<sp/>Building<sp/>in<sp/>Windows<sp/>10</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Open<sp/>the<sp/>`e<sp/>x64<sp/>Native<sp/>Tools<sp/>Command<sp/>Prompt<sp/>for<sp/>VS<sp/>2022`,<sp/>navigate<sp/>to<sp/>the<sp/>`spherical_region`</highlight></codeline>
+<codeline><highlight class="normal">directory<sp/>and<sp/>execute<sp/>the<sp/>following<sp/>commands:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>-DCMAKE_GENERATOR_PLATFORM=x64<sp/>source/plugins/spherical_region</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>--build<sp/>.<sp/>--config<sp/>Release</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>-P<sp/>cmake_install.cmake</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">On<sp/>successful<sp/>execution<sp/>of<sp/>the<sp/>above<sp/>commands,<sp/>the<sp/>compiled<sp/>content<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>`spherical_region`<sp/>module<sp/>is<sp/>available<sp/>in<sp/>the<sp/>folder<sp/>pointed<sp/>to<sp/>by<sp/>the<sp/>`ROCKY_PLUGINS_PATH`</highlight></codeline>
+<codeline><highlight class="normal">environment<sp/>variable:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">24.2.0/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>spherical_region/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spherical_region.dll</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spherical_region.lib</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spherical_region.plugin</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spherical_region.py</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Running<sp/>the<sp/>module<sp/>in<sp/>Rocky</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">After<sp/>having<sp/>completed<sp/>successfully<sp/>all<sp/>the<sp/>steps<sp/>described<sp/>in<sp/>previous</highlight></codeline>
+<codeline><highlight class="normal">sections,<sp/>the<sp/>new<sp/>module<sp/>will<sp/>be<sp/>ready<sp/>to<sp/>be<sp/>executed<sp/>in<sp/>a<sp/>Rocky</highlight></codeline>
+<codeline><highlight class="normal">simulation.<sp/>Restart<sp/>the<sp/>Rocky<sp/>application<sp/>in<sp/>order<sp/>for<sp/>it<sp/>to<sp/>acknowledge</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>recently<sp/>created<sp/>module.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">When<sp/>selecting<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">**Modules**<sp/>item<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>**Data**<sp/>panel,</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>name<sp/>of<sp/>the<sp/>new<sp/>module<sp/>must<sp/>appear<sp/>in<sp/>the<sp/>list<sp/>of<sp/>modules<sp/>recognized</highlight></codeline>
+<codeline><highlight class="normal">by<sp/>Rocky,<sp/>displayed<sp/>in<sp/>the<sp/>**Data<sp/>Editors**<sp/>panel.<sp/>The</highlight></codeline>
+<codeline><highlight class="normal">activation<sp/>of<sp/>the<sp/>module<sp/>in<sp/>a<sp/>simulation<sp/>requires<sp/>that<sp/>the<sp/>corresponding</highlight></codeline>
+<codeline><highlight class="normal">checkbox<sp/>is<sp/>turned<sp/>on,<sp/>as<sp/>shown<sp/>in<sp/>Figure</highlight></codeline>
+<codeline><highlight class="normal">5.1.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![](images/sim_modules.png){html:<sp/>width=30%}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Figure<sp/>5.1:<sp/>The<sp/>new<sp/>module<sp/>displayed<sp/>in<sp/>the<sp/>Data<sp/>Editors<sp/>panel.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">After<sp/>the<sp/>module<sp/>is<sp/>activated,<sp/>a<sp/>new<sp/>item<sp/>with<sp/>the<sp/>module<sp/>name<sp/>will<sp/>be</highlight></codeline>
+<codeline><highlight class="normal">added<sp/>under<sp/>the<sp/>**Modules**<sp/>item<sp/>in<sp/>the<sp/>**Data**<sp/>panel,</highlight></codeline>
+<codeline><highlight class="normal">as<sp/>shown<sp/>in<sp/>Figure<sp/>5.2.<sp/>The<sp/>selection<sp/>of<sp/>this<sp/>item<sp/>gives<sp/>access<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>general<sp/>custom<sp/>parameters<sp/>defined<sp/>in<sp/>the<sp/>model<sp/>section<sp/>of<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">specifications<sp/>file<sp/>`spherical_region.py`.<sp/>The<sp/>default<sp/>values<sp/>displayed<sp/>are<sp/>those<sp/>defined</highlight></codeline>
+<codeline><highlight class="normal">in<sp/>that<sp/>file.<sp/>Users<sp/>of<sp/>the<sp/>module<sp/>can<sp/>alter<sp/>those<sp/>values<sp/>at<sp/>their</highlight></codeline>
+<codeline><highlight class="normal">convenience.<sp/>On<sp/>the<sp/>other<sp/>hand,<sp/>if<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">**Info**<sp/>tab<sp/>is<sp/>selected,<sp/>the<sp/>reference<sp/>data<sp/>included<sp/>in<sp/>the<sp/>`spherical_region.plugin`<sp/>is<sp/>displayed<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">panel.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![](images/sim_params.png){html:<sp/>width=30%}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Figure<sp/>5.2:<sp/>The<sp/>custom<sp/>parameters<sp/>for<sp/>the<sp/>module<sp/>displayed<sp/>in<sp/>the<sp/>Data<sp/>Editors<sp/>panel.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![](images/mod_info.png){html:<sp/>width=30%}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Figure<sp/>5.3:<sp/>The<sp/>module&apos;s<sp/>Info<sp/>tab<sp/>on<sp/>the<sp/>Data<sp/>Editors<sp/>panel*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>order<sp/>to<sp/>test<sp/>the<sp/>module,<sp/>any<sp/>new<sp/>project<sp/>can<sp/>be<sp/>set<sp/>up<sp/>in<sp/>Rocky<sp/>and</highlight></codeline>
+<codeline><highlight class="normal">then<sp/>the<sp/>**Spherical<sp/>Region**<sp/>module<sp/>must<sp/>be<sp/>enabled,<sp/>defining<sp/>the<sp/>proper</highlight></codeline>
+<codeline><highlight class="normal">values<sp/>for<sp/>the<sp/>module<sp/>parameters.<sp/>After</highlight></codeline>
+<codeline><highlight class="normal">processing<sp/>the<sp/>simulation,<sp/>the<sp/>**Inside<sp/>Sphere**<sp/>scalar<sp/>can<sp/>be</highlight></codeline>
+<codeline><highlight class="normal">selected<sp/>in<sp/>the<sp/>list<sp/>of<sp/>particle<sp/>properties<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">**Properties**<sp/>tab,<sp/>and<sp/>visualized<sp/>in<sp/>a<sp/>3D<sp/>view<sp/>window<sp/>at<sp/>any<sp/>output<sp/>time.<sp/>All<sp/>particles</highlight></codeline>
+<codeline><highlight class="normal">inside<sp/>the<sp/>specified<sp/>spherical<sp/>region<sp/>will<sp/>have<sp/>an<sp/>scalar<sp/>value<sp/>equal<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">1,<sp/>as<sp/>depicted<sp/>in<sp/>the<sp/>example<sp/>of<sp/>Figure<sp/>5.4,<sp/>while<sp/>particles<sp/>outside<sp/>it<sp/>will<sp/>have</highlight></codeline>
+<codeline><highlight class="normal">associated<sp/>a<sp/>zero<sp/>value.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![](images/sim_scalar.png){html:<sp/>width=30%}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Figure<sp/>5.4:<sp/>Example<sp/>of<sp/>a<sp/>simulation<sp/>processed<sp/>using<sp/>the<sp/>new<sp/>module.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>A<sp/>module<sp/>implementing<sp/>a<sp/>custom</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">As<sp/>an<sp/>example<sp/>of<sp/>the<sp/>implementation<sp/>of<sp/>a<sp/>custom<sp/>model<sp/>using<sp/>the<sp/>Rocky</highlight></codeline>
+<codeline><highlight class="normal">Solver<sp/>SDK,<sp/>this<sp/>section<sp/>describes<sp/>the<sp/>code<sp/>associated<sp/>to<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">custom<sp/>module<sp/>that<sp/>implements<sp/>a<sp/>contact<sp/>model,<sp/>including<sp/>the<sp/>calculation</highlight></codeline>
+<codeline><highlight class="normal">of<sp/>both<sp/>components<sp/>of<sp/>the<sp/>contact<sp/>force,<sp/>as<sp/>well<sp/>as<sp/>the<sp/>calculation<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>impact<sp/>energy.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">A<sp/>contact<sp/>model<sp/>may<sp/>include<sp/>in<sp/>the<sp/>most<sp/>general<sp/>case<sp/>the<sp/>calculation<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">both<sp/>components<sp/>of<sp/>the<sp/>contact<sp/>force,<sp/>and,<sp/>if<sp/>necessary,<sp/>the<sp/>calculation</highlight></codeline>
+<codeline><highlight class="normal">of<sp/>the<sp/>impact<sp/>energy<sp/>during<sp/>a<sp/>collision.<sp/>Usually<sp/>the<sp/>tangential</highlight></codeline>
+<codeline><highlight class="normal">component<sp/>of<sp/>the<sp/>contact<sp/>force<sp/>depends<sp/>on<sp/>the<sp/>normal<sp/>component,<sp/>and<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">impact<sp/>energy<sp/>on<sp/>both<sp/>of<sp/>them.<sp/>Because<sp/>of<sp/>that,<sp/>they<sp/>are<sp/>calculated<sp/>in<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">fixed<sp/>sequence,<sp/>as<sp/>shown<sp/>schematically<sp/>in<sp/>Figure<sp/>5.4.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![](images/contact_pipeline.png){html:<sp/>width=30%}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Figure<sp/>5.5:<sp/>Contact<sp/>model<sp/>pipeline<sp/>in<sp/>Rocky.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>Rocky<sp/>Solver<sp/>SDK<sp/>gives<sp/>some<sp/>flexibility<sp/>regarding<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">implementation<sp/>of<sp/>custom<sp/>contact<sp/>force<sp/>models.<sp/>For<sp/>instance,<sp/>users<sp/>can</highlight></codeline>
+<codeline><highlight class="normal">choose<sp/>to<sp/>implement<sp/>only<sp/>the<sp/>normal<sp/>contact<sp/>force,<sp/>combining<sp/>it<sp/>with<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">built-in<sp/>tangential<sp/>force<sp/>model<sp/>in<sp/>Rocky.<sp/>Or,<sp/>conversely,<sp/>users<sp/>may</highlight></codeline>
+<codeline><highlight class="normal">implement<sp/>only<sp/>the<sp/>tangential<sp/>contact<sp/>force,<sp/>using<sp/>as<sp/>input<sp/>the<sp/>normal</highlight></codeline>
+<codeline><highlight class="normal">contact<sp/>force<sp/>calculated<sp/>by<sp/>a<sp/>built-in<sp/>model<sp/>in<sp/>Rocky.<sp/>In<sp/>these<sp/>cases,</highlight></codeline>
+<codeline><highlight class="normal">users<sp/>only<sp/>need<sp/>to<sp/>implement<sp/>whichever<sp/>force<sp/>component<sp/>they<sp/>want<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">customize<sp/>in<sp/>their<sp/>module,<sp/>then<sp/>in<sp/>runtime,<sp/>Rocky<sp/>will<sp/>calculate<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">other<sp/>component<sp/>with<sp/>the<sp/>respective<sp/>model<sp/>selected<sp/>in<sp/>the<sp/>Rocky<sp/>UI.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">On<sp/>the<sp/>other<sp/>hand,<sp/>users<sp/>may<sp/>implement<sp/>the<sp/>calculation<sp/>of<sp/>both<sp/>contact</highlight></codeline>
+<codeline><highlight class="normal">force<sp/>components<sp/>within<sp/>a<sp/>custom<sp/>module,<sp/>including<sp/>the<sp/>calculation<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>impact<sp/>energy<sp/>as<sp/>well.<sp/>Impact<sp/>energy<sp/>is<sp/>used<sp/>in<sp/>Rocky<sp/>as<sp/>the<sp/>main</highlight></codeline>
+<codeline><highlight class="normal">input<sp/>parameter<sp/>for<sp/>the<sp/>built-in<sp/>instantaneous<sp/>breakage<sp/>models;</highlight></codeline>
+<codeline><highlight class="normal">therefore,<sp/>users<sp/>will<sp/>need<sp/>to<sp/>implement<sp/>a<sp/>custom<sp/>impact<sp/>energy</highlight></codeline>
+<codeline><highlight class="normal">calculation<sp/>only<sp/>if<sp/>they<sp/>intend<sp/>to<sp/>use<sp/>a<sp/>custom<sp/>contact<sp/>force<sp/>model</highlight></codeline>
+<codeline><highlight class="normal">along<sp/>with<sp/>such<sp/>breakage<sp/>models.<sp/>Even<sp/>in<sp/>that<sp/>case,<sp/>users<sp/>may<sp/>choose<sp/>not</highlight></codeline>
+<codeline><highlight class="normal">to<sp/>implement<sp/>the<sp/>calculation<sp/>of<sp/>the<sp/>impact<sp/>energy.<sp/>Rocky<sp/>will<sp/>use<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">such<sp/>situation<sp/>a<sp/>standard<sp/>calculation<sp/>based<sp/>on<sp/>the<sp/>impact<sp/>work,<sp/>as</highlight></codeline>
+<codeline><highlight class="normal">defined<sp/>in<sp/>equation<sp/>4.10<sp/>of<sp/>the<sp/>DEM<sp/>Technical<sp/>Manual.<sp/>Also,<sp/>when<sp/>a<sp/>module<sp/>implements<sp/>only<sp/>either<sp/>a<sp/>normal<sp/>or<sp/>a<sp/>tangential<sp/>force<sp/>model,<sp/>Rocky<sp/>uses<sp/>standard<sp/>calculations<sp/>for<sp/>the<sp/>other<sp/>one.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>remainder<sp/>of<sp/>this<sp/>chapter<sp/>will<sp/>describe<sp/>the<sp/>implementation<sp/>of<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">custom<sp/>module<sp/>including<sp/>the<sp/>calculation<sp/>of<sp/>both<sp/>components<sp/>of<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">contact<sp/>force<sp/>and<sp/>the<sp/>calculation<sp/>of<sp/>the<sp/>impact<sp/>energy<sp/>as<sp/>well.<sp/>The</highlight></codeline>
+<codeline><highlight class="normal">normal<sp/>and<sp/>tangential<sp/>force<sp/>models<sp/>included<sp/>in<sp/>the<sp/>module<sp/>are<sp/>simplified</highlight></codeline>
+<codeline><highlight class="normal">versions<sp/>of<sp/>two<sp/>built-in<sp/>models<sp/>in<sp/>Rocky,<sp/>the<sp/>Hysteretic<sp/>Linear<sp/>Spring</highlight></codeline>
+<codeline><highlight class="normal">and<sp/>the<sp/>Linear<sp/>Spring<sp/>Coulomb<sp/>Limit,<sp/>respectively.<sp/>Moreover,<sp/>the<sp/>impact</highlight></codeline>
+<codeline><highlight class="normal">energy<sp/>calculation<sp/>included<sp/>in<sp/>the<sp/>module<sp/>is<sp/>the<sp/>one<sp/>used<sp/>in<sp/>Rocky<sp/>when</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>Hysteretic<sp/>Linear<sp/>Spring<sp/>model<sp/>is<sp/>selected<sp/>as<sp/>normal<sp/>contact<sp/>force.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Module<sp/>specification<sp/>file</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>listing<sp/>reproduces<sp/>the<sp/>Python<sp/>file<sp/>that<sp/>includes<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">specifications<sp/>for<sp/>the<sp/>custom<sp/>module,<sp/>which<sp/>is<sp/>named<sp/>simply<sp/>as<sp/>`Contact<sp/>Model<sp/>Example`.</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">1<sp/><sp/><sp/>import<sp/>sys</highlight></codeline>
+<codeline><highlight class="normal">2<sp/><sp/><sp/>from<sp/>pathlib<sp/>import<sp/>Path</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/>from<sp/>yapsy.IPlugin<sp/>import<sp/>IPlugin</highlight></codeline>
+<codeline><highlight class="normal">4<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_models<sp/>import<sp/>container_model,<sp/>data_model</highlight></codeline>
+<codeline><highlight class="normal">5<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_specs<sp/>import<sp/>RockyAddinSpecs</highlight></codeline>
+<codeline><highlight class="normal">6<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_types<sp/>import<sp/>Quantity</highlight></codeline>
+<codeline><highlight class="normal">7</highlight></codeline>
+<codeline><highlight class="normal">8<sp/><sp/><sp/>NAME<sp/>=<sp/>&apos;Contact<sp/>Model<sp/>Example&apos;</highlight></codeline>
+<codeline><highlight class="normal">9</highlight></codeline>
+<codeline><highlight class="normal">10</highlight></codeline>
+<codeline><highlight class="normal">11<sp/><sp/>@data_model(icon=None,<sp/>caption=NAME)</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/>class<sp/>CustomGeneral:</highlight></codeline>
+<codeline><highlight class="normal">13<sp/><sp/><sp/><sp/><sp/><sp/>pass</highlight></codeline>
+<codeline><highlight class="normal">14</highlight></codeline>
+<codeline><highlight class="normal">15</highlight></codeline>
+<codeline><highlight class="normal">16<sp/><sp/>@container_model()</highlight></codeline>
+<codeline><highlight class="normal">17<sp/><sp/>class<sp/>CustomModel:</highlight></codeline>
+<codeline><highlight class="normal">18<sp/><sp/><sp/><sp/><sp/><sp/>pass</highlight></codeline>
+<codeline><highlight class="normal">19</highlight></codeline>
+<codeline><highlight class="normal">20</highlight></codeline>
+<codeline><highlight class="normal">21<sp/><sp/>@container_model()</highlight></codeline>
+<codeline><highlight class="normal">22<sp/><sp/>class<sp/>CustomMaterialInteraction:</highlight></codeline>
+<codeline><highlight class="normal">23<sp/><sp/><sp/><sp/><sp/><sp/>tangential_stiffness_ratio<sp/>=<sp/>Quantity(value=1.0,<sp/>unit=&apos;-&apos;,<sp/>caption=&apos;Tangential<sp/>To<sp/>Normal<sp/>Stiffness<sp/>Ratio&apos;)</highlight></codeline>
+<codeline><highlight class="normal">24<sp/><sp/><sp/><sp/><sp/><sp/>sliding_velocity_threshold<sp/>=<sp/>Quantity(value=0.001,<sp/>unit=&apos;m/s&apos;,<sp/>caption=&apos;Sliding<sp/>Velocity<sp/>Threshold&apos;)</highlight></codeline>
+<codeline><highlight class="normal">25</highlight></codeline>
+<codeline><highlight class="normal">26</highlight></codeline>
+<codeline><highlight class="normal">27<sp/><sp/><sp/>class<sp/>ContactModelExampleSpecs(RockyAddinSpecs):</highlight></codeline>
+<codeline><highlight class="normal">28</highlight></codeline>
+<codeline><highlight class="normal">29<sp/><sp/><sp/><sp/><sp/><sp/>name<sp/>=<sp/>NAME</highlight></codeline>
+<codeline><highlight class="normal">30</highlight></codeline>
+<codeline><highlight class="normal">31<sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>CustomGeneral</highlight></codeline>
+<codeline><highlight class="normal">32</highlight></codeline>
+<codeline><highlight class="normal">33<sp/><sp/><sp/><sp/><sp/><sp/>normal_force_model<sp/>=<sp/>CustomModel</highlight></codeline>
+<codeline><highlight class="normal">34</highlight></codeline>
+<codeline><highlight class="normal">35<sp/><sp/><sp/><sp/><sp/><sp/>tangential_force_model<sp/>=<sp/>CustomModel</highlight></codeline>
+<codeline><highlight class="normal">36</highlight></codeline>
+<codeline><highlight class="normal">37<sp/><sp/><sp/><sp/><sp/><sp/>impact_energy_model<sp/>=<sp/>CustomModel</highlight></codeline>
+<codeline><highlight class="normal">38</highlight></codeline>
+<codeline><highlight class="normal">39<sp/><sp/><sp/><sp/><sp/><sp/>material_interaction_properties<sp/>=<sp/>CustomMaterialInteraction</highlight></codeline>
+<codeline><highlight class="normal">40</highlight></codeline>
+<codeline><highlight class="normal">41<sp/><sp/><sp/><sp/><sp/><sp/>@classmethod</highlight></codeline>
+<codeline><highlight class="normal">42<sp/><sp/><sp/><sp/><sp/><sp/>def<sp/>CreateAddin(cls):</highlight></codeline>
+<codeline><highlight class="normal">43<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>cls.CreateDynamicAddin(Path(__file__).parent,<sp/>&apos;contact_model_example&apos;)</highlight></codeline>
+<codeline><highlight class="normal">44</highlight></codeline>
+<codeline><highlight class="normal">45</highlight></codeline>
+<codeline><highlight class="normal">46<sp/><sp/>class<sp/>ContactModelExamplePlugin(IPlugin):</highlight></codeline>
+<codeline><highlight class="normal">47<sp/><sp/><sp/><sp/><sp/><sp/>def<sp/>get_addin_specs(self):</highlight></codeline>
+<codeline><highlight class="normal">48<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>ContactModelExampleSpec</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>only<sp/>parameters<sp/>added<sp/>by<sp/>the<sp/>module<sp/>are<sp/>two<sp/>material<sp/>interaction</highlight></codeline>
+<codeline><highlight class="normal">properties<sp/>defined<sp/>between<sp/>lines<sp/>21<sp/>and<sp/>24.<sp/>Both<sp/>of<sp/>them<sp/>are<sp/>used<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">tangential<sp/>contact<sp/>force<sp/>calculation.<sp/>The<sp/>first<sp/>one<sp/>is<sp/>the<sp/>ratio<sp/>of<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">tangential<sp/>stiffness<sp/>to<sp/>the<sp/>normal<sp/>stiffness,<sp/>while<sp/>the<sp/>second<sp/>one<sp/>is</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>value<sp/>of<sp/>the<sp/>tangential<sp/>relative<sp/>velocity<sp/>that<sp/>marks<sp/>the<sp/>onset<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>sliding<sp/>between<sp/>the<sp/>colliding<sp/>entities.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Between<sp/>lines<sp/>33<sp/>and<sp/>37,<sp/>the<sp/>module<sp/>specifies<sp/>that<sp/>it<sp/>will<sp/>implement<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">custom<sp/>normal<sp/>force<sp/>model,<sp/>a<sp/>custom<sp/>tangential<sp/>force<sp/>model<sp/>and<sp/>a<sp/>custom</highlight></codeline>
+<codeline><highlight class="normal">impact<sp/>energy<sp/>calculation.<sp/>In<sp/>runtime,<sp/>Rocky<sp/>will<sp/>read<sp/>these</highlight></codeline>
+<codeline><highlight class="normal">specifications<sp/>and<sp/>will<sp/>override<sp/>those<sp/>model<sp/>categories,<sp/>using<sp/>instead</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>custom<sp/>models<sp/>implemented<sp/>by<sp/>the<sp/>module,<sp/>as<sp/>explained<sp/>in<sp/>section<sp/>[Specification<sp/>of<sp/>custom<sp/>models](#specification-of-custom-models).</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Implementation<sp/>of<sp/>the<sp/>contact<sp/>model</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>section<sp/>describes<sp/>the<sp/>different<sp/>parts<sp/>that<sp/>make<sp/>up<sp/>the<sp/>`custom_model_example.cu`<sp/>file<sp/>that</highlight></codeline>
+<codeline><highlight class="normal">includes<sp/>the<sp/>C++<sp/>code<sp/>that<sp/>implements<sp/>the<sp/>custom<sp/>models.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">1<sp/><sp/><sp/>#define<sp/>ROCKY_CUDA_API</highlight></codeline>
+<codeline><highlight class="normal">2</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/>#include<sp/>&lt;rocky20/api/rocky_api.h&gt;</highlight></codeline>
+<codeline><highlight class="normal">4</highlight></codeline>
+<codeline><highlight class="normal">5<sp/><sp/><sp/>struct<sp/>ModuleMaterialInteraction</highlight></codeline>
+<codeline><highlight class="normal">6<sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">7<sp/><sp/><sp/> <sp/> <sp/>double<sp/>tangential_stiffness_ratio;</highlight></codeline>
+<codeline><highlight class="normal">8<sp/><sp/><sp/> <sp/> <sp/>double<sp/>sliding_velocity_threshold;</highlight></codeline>
+<codeline><highlight class="normal">9<sp/><sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal">10</highlight></codeline>
+<codeline><highlight class="normal">11<sp/><sp/>struct<sp/>ModuleData</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">13<sp/><sp/> <sp/> <sp/>int<sp/>ppi_normal,<sp/>pti_normal;</highlight></codeline>
+<codeline><highlight class="normal">14<sp/><sp/> <sp/> <sp/>int<sp/>ppi_tangential_x,<sp/>pti_tangential_x;</highlight></codeline>
+<codeline><highlight class="normal">15<sp/><sp/> <sp/> <sp/>int<sp/>ppi_tangential_y,<sp/>pti_tangential_y;</highlight></codeline>
+<codeline><highlight class="normal">16<sp/><sp/> <sp/> <sp/>int<sp/>ppi_tangential_z,<sp/>pti_tangential_z;</highlight></codeline>
+<codeline><highlight class="normal">17</highlight></codeline>
+<codeline><highlight class="normal">18<sp/><sp/> <sp/> <sp/>ModuleMaterialInteraction*<sp/>material_interactions;</highlight></codeline>
+<codeline><highlight class="normal">19<sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>initial<sp/>part<sp/>of<sp/>the<sp/>file<sp/>reproduced<sp/>above<sp/>includes<sp/>the<sp/>definition<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>preprocessor<sp/>name<sp/>`ROCKY_CUDA_API`<sp/>that<sp/>enables<sp/>the<sp/>compilation<sp/>of<sp/>the<sp/>module<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">CUDA<sp/>and,<sp/>in<sp/>turn,<sp/>enables<sp/>the<sp/>possibility<sp/>of<sp/>the<sp/>module<sp/>being<sp/>used<sp/>in<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">simulation<sp/>processed<sp/>on<sp/>GPU.<sp/>Subsequently,<sp/>between<sp/>lines<sp/>5<sp/>and<sp/>9,<sp/>it<sp/>is</highlight></codeline>
+<codeline><highlight class="normal">defined<sp/>a<sp/>local<sp/>`struct`<sp/>that<sp/>will<sp/>hold<sp/>the<sp/>values<sp/>entered<sp/>through<sp/>the<sp/>Rocky</highlight></codeline>
+<codeline><highlight class="normal">UI<sp/>for<sp/>the<sp/>two<sp/>material<sp/>interaction<sp/>parameters<sp/>that<sp/>the<sp/>module<sp/>uses.</highlight></codeline>
+<codeline><highlight class="normal">Then,<sp/>between<sp/>lines<sp/>11<sp/>and<sp/>19,<sp/>another<sp/>local<sp/>`struct`<sp/>is<sp/>defined,<sp/>that<sp/>will</highlight></codeline>
+<codeline><highlight class="normal">store<sp/>the<sp/>indices<sp/>attributed<sp/>in<sp/>runtime<sp/>to<sp/>the<sp/>contact<sp/>scalars<sp/>that<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">module<sp/>will<sp/>create.<sp/><sp/>Additionally,</highlight></codeline>
+<codeline><highlight class="normal">that<sp/>`struct`<sp/>includes<sp/>an<sp/>array<sp/>to<sp/>store<sp/>the<sp/>values<sp/>of<sp/>the<sp/>custom<sp/>properties</highlight></codeline>
+<codeline><highlight class="normal">associated<sp/>to<sp/>all<sp/>material<sp/>interactions<sp/>in<sp/>the<sp/>project.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Note:<sp/>Here<sp/>ppi<sp/>stands<sp/>for<sp/>particle-particle<sp/>index,<sp/>while<sp/>pti<sp/>stands<sp/>for<sp/>particle-triangle<sp/>index.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">21<sp/><sp/>inline<sp/>ROCKY_FUNCTIONS<sp/>void<sp/>create_contact_scalars(</highlight></codeline>
+<codeline><highlight class="normal">22<sp/><sp/> <sp/> <sp/>IRockyModel&amp;<sp/>model,<sp/>const<sp/>char*<sp/>name,<sp/>const<sp/>char*<sp/>unit,</highlight></codeline>
+<codeline><highlight class="normal">23<sp/><sp/> <sp/> <sp/>int&amp;<sp/>pp_scalar_index,<sp/>int&amp;<sp/>pt_scalar_index)</highlight></codeline>
+<codeline><highlight class="normal">24<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">25<sp/><sp/> <sp/> <sp/>auto<sp/>pp_scalars<sp/>=<sp/>model.get_particle_contact_scalars();</highlight></codeline>
+<codeline><highlight class="normal">26<sp/><sp/> <sp/> <sp/>auto<sp/>pt_scalars<sp/>=<sp/>model.get_triangle_contact_scalars();</highlight></codeline>
+<codeline><highlight class="normal">27</highlight></codeline>
+<codeline><highlight class="normal">28<sp/><sp/> <sp/> <sp/>pp_scalar_index<sp/>=<sp/>pp_scalars.add(name,<sp/>unit,<sp/>false);</highlight></codeline>
+<codeline><highlight class="normal">29<sp/><sp/> <sp/> <sp/>pt_scalar_index<sp/>=<sp/>pt_scalars.add(name,<sp/>unit,<sp/>false);</highlight></codeline>
+<codeline><highlight class="normal">30<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">31</highlight></codeline>
+<codeline><highlight class="normal">32<sp/><sp/>inline<sp/>ROCKY_FUNCTIONS<sp/>double<sp/>get_contact_scalar_value(</highlight></codeline>
+<codeline><highlight class="normal">33<sp/><sp/> <sp/> <sp/>IRockyContact&amp;<sp/>contact,<sp/>int<sp/>pp_scalar_index,<sp/>int<sp/>pt_scalar_index)</highlight></codeline>
+<codeline><highlight class="normal">34<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">35<sp/><sp/> <sp/> <sp/>return<sp/>contact.is_particle_particle_contact()</highlight></codeline>
+<codeline><highlight class="normal">36<sp/><sp/> <sp/> <sp/> <sp/> <sp/>?<sp/>contact.get_particle_contact_scalars().get_scalar(pp_scalar_index)</highlight></codeline>
+<codeline><highlight class="normal">37<sp/><sp/> <sp/> <sp/> <sp/> <sp/>:<sp/>contact.get_triangle_contact_scalars().get_scalar(pt_scalar_index);</highlight></codeline>
+<codeline><highlight class="normal">38<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">39</highlight></codeline>
+<codeline><highlight class="normal">40<sp/><sp/>inline<sp/>ROCKY_FUNCTIONS<sp/>void<sp/>set_contact_scalar_value(</highlight></codeline>
+<codeline><highlight class="normal">41<sp/><sp/> <sp/> <sp/>IRockyContact&amp;<sp/>contact,<sp/>int<sp/>pp_scalar_index,<sp/>int<sp/>pt_scalar_index,<sp/>double<sp/>value)</highlight></codeline>
+<codeline><highlight class="normal">42<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">43<sp/><sp/> <sp/> <sp/>contact.is_particle_particle_contact()</highlight></codeline>
+<codeline><highlight class="normal">44<sp/><sp/> <sp/> <sp/> <sp/> <sp/>?<sp/>contact.get_particle_contact_scalars().set_scalar(pp_scalar_index,<sp/>value)</highlight></codeline>
+<codeline><highlight class="normal">45<sp/><sp/> <sp/> <sp/> <sp/> <sp/>:<sp/>contact.get_triangle_contact_scalars().set_scalar(pt_scalar_index,<sp/>value);</highlight></codeline>
+<codeline><highlight class="normal">46<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>code<sp/>block<sp/>above<sp/>implements<sp/>three<sp/>utility<sp/>functions<sp/>that<sp/>simplify</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>handling<sp/>of<sp/>contact<sp/>scalars.<sp/>They<sp/>allow<sp/>to<sp/>treat<sp/>in<sp/>a<sp/>unified<sp/>way,</highlight></codeline>
+<codeline><highlight class="normal">with<sp/>a<sp/>single<sp/>function,<sp/>both<sp/>types<sp/>of<sp/>contact<sp/>scalars,<sp/>namely</highlight></codeline>
+<codeline><highlight class="normal">particle-to-particle<sp/>and<sp/>particle-to-triangle<sp/>contact<sp/>scalars.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">48<sp/><sp/>ROCKY_PLUGIN(&quot;Contact<sp/>Model<sp/>Example&quot;,<sp/>&quot;1.0.0&quot;)</highlight></codeline>
+<codeline><highlight class="normal">49</highlight></codeline>
+<codeline><highlight class="normal">50<sp/><sp/>ROCKY_PLUGIN_CONFIGURE(input_data,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">51<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">52<sp/><sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>new<sp/>ModuleData();</highlight></codeline>
+<codeline><highlight class="normal">53</highlight></codeline>
+<codeline><highlight class="normal">54<sp/><sp/> <sp/> <sp/>int<sp/>n_material_interactions<sp/>=<sp/>input_data.get_number_material_interactions();</highlight></codeline>
+<codeline><highlight class="normal">55<sp/><sp/> <sp/> <sp/>data-&gt;material_interactions<sp/>=<sp/>new<sp/>ModuleMaterialInteraction[n_material_interactions];</highlight></codeline>
+<codeline><highlight class="normal">56</highlight></codeline>
+<codeline><highlight class="normal">57<sp/><sp/> <sp/> <sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>n_material_interactions;<sp/>++i)</highlight></codeline>
+<codeline><highlight class="normal">58<sp/><sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">59<sp/><sp/> <sp/> <sp/> <sp/> <sp/>auto&amp;<sp/>m_i<sp/>=<sp/>data-&gt;material_interactions[i];</highlight></codeline>
+<codeline><highlight class="normal">60<sp/><sp/> <sp/> <sp/> <sp/> <sp/>auto<sp/>input_mi<sp/>=<sp/>input_data.get_material_interaction(i);</highlight></codeline>
+<codeline><highlight class="normal">61</highlight></codeline>
+<codeline><highlight class="normal">62<sp/><sp/> <sp/> <sp/> <sp/> <sp/>m_i.tangential_stiffness_ratio<sp/>=<sp/>input_mi.get_double(&quot;tangential_stiffness_ratio&quot;);</highlight></codeline>
+<codeline><highlight class="normal">63<sp/><sp/> <sp/> <sp/> <sp/> <sp/>m_i.sliding_velocity_threshold<sp/>=<sp/>input_mi.get_double(&quot;sliding_velocity_threshold&quot;);</highlight></codeline>
+<codeline><highlight class="normal">64<sp/><sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">65</highlight></codeline>
+<codeline><highlight class="normal">66<sp/><sp/> <sp/> <sp/>_data<sp/>=<sp/>static_cast&lt;void*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">67<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">68</highlight></codeline>
+<codeline><highlight class="normal">69<sp/><sp/>ROCKY_PLUGIN_SETUP(model,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">70<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">71<sp/><sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;ModuleData<sp/>*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">72</highlight></codeline>
+<codeline><highlight class="normal">73<sp/><sp/> <sp/> <sp/>create_contact_scalars(model,<sp/>&quot;Previous<sp/>Normal<sp/>Force&quot;,<sp/>&quot;N&quot;,<sp/>data-&gt;ppi_normal,<sp/>data-&gt;pti_normal);</highlight></codeline>
+<codeline><highlight class="normal">74<sp/><sp/> <sp/> <sp/>create_contact_scalars(model,<sp/>&quot;Previous<sp/>Tangential<sp/>Force<sp/>X&quot;,<sp/>&quot;N&quot;,</highlight></codeline>
+<codeline><highlight class="normal">75<sp/><sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>data-&gt;ppi_tangential_x,<sp/>data-&gt;pti_tangential_x);</highlight></codeline>
+<codeline><highlight class="normal">76<sp/><sp/> <sp/> <sp/>create_contact_scalars(model,<sp/>&quot;Previous<sp/>Tangential<sp/>Force<sp/>Y&quot;,<sp/>&quot;N&quot;,</highlight></codeline>
+<codeline><highlight class="normal">77<sp/><sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>data-&gt;ppi_tangential_y,<sp/>data-&gt;pti_tangential_y);</highlight></codeline>
+<codeline><highlight class="normal">78<sp/><sp/> <sp/> <sp/>create_contact_scalars(model,<sp/>&quot;Previous<sp/>Tangential<sp/>Force<sp/>Z&quot;,<sp/>&quot;N&quot;,</highlight></codeline>
+<codeline><highlight class="normal">79<sp/><sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>data-&gt;ppi_tangential_z,<sp/>data-&gt;pti_tangential_z);</highlight></codeline>
+<codeline><highlight class="normal">80<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">81</highlight></codeline>
+<codeline><highlight class="normal">82<sp/><sp/>ROCKY_PLUGIN_INITIALIZE_CUDA(model,<sp/>host_data,<sp/>device_id,<sp/>_device_data)</highlight></codeline>
+<codeline><highlight class="normal">83<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">84<sp/><sp/> <sp/> <sp/>auto<sp/>h_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(host_data);</highlight></codeline>
+<codeline><highlight class="normal">85<sp/><sp/> <sp/> <sp/>auto<sp/>d_data<sp/>=<sp/>*h_data;</highlight></codeline>
+<codeline><highlight class="normal">86</highlight></codeline>
+<codeline><highlight class="normal">87<sp/><sp/> <sp/> <sp/>int<sp/>size<sp/>=<sp/>model.get_number_of_material_interactions();</highlight></codeline>
+<codeline><highlight class="normal">88<sp/><sp/> <sp/> <sp/>ModuleMaterialInteraction*<sp/>d_material_interactions<sp/>=<sp/>nullptr;</highlight></codeline>
+<codeline><highlight class="normal">89<sp/><sp/> <sp/> <sp/>CUDA_MALLOC_TYPE(d_material_interactions,<sp/>size,<sp/>ModuleMaterialInteraction);</highlight></codeline>
+<codeline><highlight class="normal">90<sp/><sp/> <sp/> <sp/>CUDA_COPY_H2D(d_material_interactions,<sp/>h_data-&gt;material_interactions,<sp/>size);</highlight></codeline>
+<codeline><highlight class="normal">91<sp/><sp/> <sp/> <sp/>d_data.material_interactions<sp/>=<sp/>d_material_interactions;</highlight></codeline>
+<codeline><highlight class="normal">92</highlight></codeline>
+<codeline><highlight class="normal">93<sp/><sp/> <sp/> <sp/>ModuleData*<sp/>device_data<sp/>=<sp/>nullptr;</highlight></codeline>
+<codeline><highlight class="normal">94<sp/><sp/> <sp/> <sp/>CUDA_MALLOC_TYPE(device_data,<sp/>1,<sp/>ModuleData);</highlight></codeline>
+<codeline><highlight class="normal">95<sp/><sp/> <sp/> <sp/>CUDA_COPY_H2D(device_data,<sp/>&amp;d_data,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal">96<sp/><sp/> <sp/> <sp/>_device_data<sp/>=<sp/>static_cast&lt;void*&gt;(device_data);</highlight></codeline>
+<codeline><highlight class="normal">97<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">98</highlight></codeline>
+<codeline><highlight class="normal">99<sp/><sp/>ROCKY_PLUGIN_TEAR_DOWN_CUDA(model,<sp/>device_id,<sp/>device_data)</highlight></codeline>
+<codeline><highlight class="normal">100<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">101<sp/> <sp/> <sp/>auto<sp/>d_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(device_data);</highlight></codeline>
+<codeline><highlight class="normal">102<sp/> <sp/> <sp/>ModuleData<sp/>data_ptr;</highlight></codeline>
+<codeline><highlight class="normal">103<sp/> <sp/> <sp/>CUDA_COPY_D2H(&amp;data_ptr,<sp/>d_data,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal">104<sp/> <sp/> <sp/>CUDA_FREE(data_ptr.material_interactions);</highlight></codeline>
+<codeline><highlight class="normal">105<sp/> <sp/> <sp/>CUDA_FREE(d_data);</highlight></codeline>
+<codeline><highlight class="normal">106<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">107</highlight></codeline>
+<codeline><highlight class="normal">108<sp/>ROCKY_PLUGIN_TEAR_DOWN(model,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">109<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">110<sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">111<sp/> <sp/> <sp/>delete[]<sp/>data-&gt;material_interactions;</highlight></codeline>
+<codeline><highlight class="normal">112<sp/> <sp/> <sp/>delete<sp/>data;</highlight></codeline>
+<codeline><highlight class="normal">113<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>block<sp/>above<sp/>includes<sp/>the<sp/>associated<sp/>code<sp/>to<sp/>the<sp/>initialization<sp/>and</highlight></codeline>
+<codeline><highlight class="normal">termination<sp/>hooks.<sp/>As<sp/>most<sp/>of<sp/>these<sp/>operations<sp/>were<sp/>covered<sp/>in<sp/>chapter</highlight></codeline>
+<codeline><highlight class="normal">[Rocky<sp/>module<sp/>examples](#rocky-module-examples),<sp/>they<sp/>will<sp/>be<sp/>described<sp/>here<sp/>very<sp/>briefly.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>`ROCKY_PLUGIN_CONFIGURE`<sp/>hook,<sp/>the<sp/>values<sp/>for<sp/>the<sp/>two<sp/>module<sp/>parameters<sp/>per<sp/>material</highlight></codeline>
+<codeline><highlight class="normal">interaction,<sp/>entered<sp/>through<sp/>the<sp/>Rocky<sp/>UI,<sp/>are<sp/>stored<sp/>in<sp/>the<sp/>array</highlight></codeline>
+<codeline><highlight class="normal">within<sp/>the<sp/>module<sp/>local<sp/>`struct`<sp/>defined<sp/>previously.<sp/>Subsequently,<sp/>in<sp/>the<sp/>`ROCKY_PLUGIN_SETUP`</highlight></codeline>
+<codeline><highlight class="normal">hook,<sp/>contact<sp/>scalars<sp/>are<sp/>created<sp/>for<sp/>storing<sp/>the<sp/>values<sp/>of<sp/>the<sp/>contact</highlight></codeline>
+<codeline><highlight class="normal">forces<sp/>calculated<sp/>in<sp/>the<sp/>module.<sp/>This<sp/>storage<sp/>is<sp/>necessary<sp/>because<sp/>both</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>normal<sp/>and<sp/>tangential<sp/>force<sp/>models<sp/>being<sp/>implemented<sp/>depend<sp/>upon<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">history;<sp/>therefore,<sp/>in<sp/>order<sp/>to<sp/>calculate<sp/>the<sp/>force<sp/>values<sp/>at<sp/>a<sp/>given</highlight></codeline>
+<codeline><highlight class="normal">timestep,<sp/>the<sp/>values<sp/>from<sp/>the<sp/>previous<sp/>timestep<sp/>are<sp/>required<sp/>to<sp/>be</highlight></codeline>
+<codeline><highlight class="normal">available.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>`ROCKY_PLUGIN_INITIALIZE_CUDA`<sp/>hook,<sp/>the<sp/>local<sp/>module<sp/>data<sp/>is<sp/>copied<sp/>to<sp/>GPU<sp/>devices<sp/>after</highlight></codeline>
+<codeline><highlight class="normal">being<sp/>allocated<sp/>the<sp/>required<sp/>memory<sp/>block<sp/>there.<sp/>On<sp/>the<sp/>other<sp/>hand,<sp/>that</highlight></codeline>
+<codeline><highlight class="normal">memory<sp/>block<sp/>is<sp/>freed<sp/>in<sp/>the<sp/>`ROCKY_PLUGIN_TEAR_DOWN_CUDA`<sp/>hook.<sp/>An<sp/>equivalent<sp/>operation<sp/>for<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">memory<sp/>allocated<sp/>in<sp/>CPU<sp/>is<sp/>made<sp/>in<sp/>the<sp/>`ROCKY_PLUGIN_TEAR_DOWN`<sp/>hook.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">115<sp/>ROCKY_PLUGIN_NORMAL_FORCE_ON_CONTACTS(contact,<sp/>intermediate_data,<sp/>output_data,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">116<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">117<sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;ModuleData<sp/>*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">118<sp/> <sp/> <sp/>const<sp/>auto<sp/>m_i<sp/>=<sp/>contact.get_material_interaction();</highlight></codeline>
+<codeline><highlight class="normal">119</highlight></codeline>
+<codeline><highlight class="normal">120<sp/> <sp/> <sp/>const<sp/>double<sp/>prev_normal_force<sp/>=<sp/>get_contact_scalar_value(contact,<sp/>data-&gt;ppi_normal,<sp/>data-&gt;pti_normal);</highlight></codeline>
+<codeline><highlight class="normal">121</highlight></codeline>
+<codeline><highlight class="normal">122<sp/> <sp/> <sp/>const<sp/>double<sp/>restitution_coeff<sp/>=<sp/>m_i.get_restitution_coefficient();</highlight></codeline>
+<codeline><highlight class="normal">123<sp/> <sp/> <sp/>const<sp/>double<sp/>loading_stiffness<sp/>=<sp/>contact.get_equivalent_stiffness()<sp/>*<sp/>m_i.get_stiffness_multiplier();</highlight></codeline>
+<codeline><highlight class="normal">124<sp/> <sp/> <sp/>const<sp/>double<sp/>unloading_stiffness<sp/>=<sp/>loading_stiffness<sp/>/<sp/>(restitution_coeff<sp/>*<sp/>restitution_coeff);</highlight></codeline>
+<codeline><highlight class="normal">125</highlight></codeline>
+<codeline><highlight class="normal">126<sp/> <sp/> <sp/>const<sp/>double<sp/>overlap<sp/>=<sp/>contact.get_overlap();</highlight></codeline>
+<codeline><highlight class="normal">127<sp/> <sp/> <sp/>const<sp/>double<sp/>delta_overlap<sp/>=<sp/>overlap<sp/>-<sp/>contact.get_previous_overlap();</highlight></codeline>
+<codeline><highlight class="normal">128</highlight></codeline>
+<codeline><highlight class="normal">129<sp/> <sp/> <sp/>const<sp/>double<sp/>elastic_force<sp/>=<sp/>overlap<sp/>*<sp/>loading_stiffness;</highlight></codeline>
+<codeline><highlight class="normal">130<sp/> <sp/> <sp/>const<sp/>double<sp/>plastic_force<sp/>=<sp/>prev_normal_force<sp/>+<sp/>delta_overlap<sp/>*<sp/>unloading_stiffness;</highlight></codeline>
+<codeline><highlight class="normal">131<sp/> <sp/> <sp/>const<sp/>double<sp/>new_normal_force<sp/>=<sp/>max(min(plastic_force,<sp/>elastic_force),<sp/>0.0);</highlight></codeline>
+<codeline><highlight class="normal">132</highlight></codeline>
+<codeline><highlight class="normal">133<sp/> <sp/> <sp/>output_data.set_normal_force(new_normal_force);</highlight></codeline>
+<codeline><highlight class="normal">134</highlight></codeline>
+<codeline><highlight class="normal">135<sp/> <sp/> <sp/>set_contact_scalar_value(contact,<sp/>data-&gt;ppi_normal,<sp/>data-&gt;pti_normal,<sp/>new_normal_force);</highlight></codeline>
+<codeline><highlight class="normal">136<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">137<sp/>ROCKY_PLUGIN_NORMAL_FORCE_ON_CONTACTS_END()</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>block<sp/>of<sp/>code<sp/>above<sp/>implements<sp/>a<sp/>simplified<sp/>but<sp/>functional<sp/>form<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>Hysteretic<sp/>Linear<sp/>Spring<sp/>normal<sp/>contact<sp/>force.<sp/>As<sp/>this<sp/>is<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">history-dependent<sp/>model,<sp/>the<sp/>needed<sp/>previous<sp/>value<sp/>of<sp/>the<sp/>normal<sp/>contact</highlight></codeline>
+<codeline><highlight class="normal">force<sp/>is<sp/>retrieved<sp/>from<sp/>the<sp/>corresponding<sp/>contact<sp/>scalar<sp/>in<sp/>line<sp/>120.</highlight></codeline>
+<codeline><highlight class="normal">Subsequently,<sp/>the<sp/>stiffnesses<sp/>corresponding<sp/>to<sp/>the<sp/>loading<sp/>and<sp/>unloading</highlight></codeline>
+<codeline><highlight class="normal">portions<sp/>of<sp/>the<sp/>collision<sp/>cycle<sp/>are<sp/>calculated<sp/>using<sp/>the<sp/>equations<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">section<sp/>2.1.1.1<sp/>of<sp/>the<sp/>DEM<sp/>Technical<sp/>Manual.<sp/>Both<sp/>stiffness<sp/>values<sp/>are</highlight></codeline>
+<codeline><highlight class="normal">multiplied<sp/>by<sp/>the<sp/>**Contact<sp/>Stiffness</highlight></codeline>
+<codeline><highlight class="normal">Multiplier**,<sp/>which</highlight></codeline>
+<codeline><highlight class="normal">is<sp/>an<sp/>advanced<sp/>material<sp/>interaction<sp/>parameter<sp/>that<sp/>might<sp/>be<sp/>used<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">prevent<sp/>large<sp/>overlaps<sp/>in<sp/>certain<sp/>specific<sp/>situations.<sp/>Also,<sp/><sp/>The<sp/>stiffness<sp/>value<sp/>returned<sp/>by<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">get_equivalent_stiffness<sp/>function<sp/>is</highlight></codeline>
+<codeline><highlight class="normal">already<sp/>multiplied<sp/>by<sp/>the<sp/>**Numerical<sp/>Softening<sp/>Factor**,<sp/>which<sp/>is<sp/>commonly<sp/>used</highlight></codeline>
+<codeline><highlight class="normal">for<sp/>increasing<sp/>the<sp/>simulation<sp/>timestep.</highlight></codeline>
+<codeline><highlight class="normal">For<sp/>more<sp/>details<sp/>about<sp/>this<sp/>factor,<sp/>please</highlight></codeline>
+<codeline><highlight class="normal">refer<sp/>to<sp/>section<sp/>5.3.4<sp/>of<sp/>the<sp/>DEM<sp/>Technical<sp/>Manual.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Using<sp/>the<sp/>current<sp/>overlap<sp/>value<sp/>and<sp/>its<sp/>variation<sp/>during<sp/>the<sp/>timestep,</highlight></codeline>
+<codeline><highlight class="normal">two<sp/>possible<sp/>values<sp/>of<sp/>the<sp/>normal<sp/>contact<sp/>force<sp/>are<sp/>calculated,<sp/>one</highlight></codeline>
+<codeline><highlight class="normal">located<sp/>on<sp/>a<sp/>loading<sp/>path<sp/>and<sp/>other<sp/>located<sp/>on<sp/>an<sp/>unloading<sp/>path.<sp/>The</highlight></codeline>
+<codeline><highlight class="normal">new<sp/>normal<sp/>contact<sp/>force<sp/>will<sp/>be<sp/>the<sp/>minimum<sp/>between<sp/>those<sp/>two<sp/>values,</highlight></codeline>
+<codeline><highlight class="normal">as<sp/>long<sp/>it<sp/>is<sp/>positive.<sp/>If<sp/>that<sp/>minimum<sp/>value<sp/>is<sp/>negative,<sp/>the<sp/>new</highlight></codeline>
+<codeline><highlight class="normal">normal<sp/>contact<sp/>force<sp/>will<sp/>be<sp/>set<sp/>to<sp/>zero.<sp/>In<sp/>line<sp/>133<sp/>that<sp/>new<sp/>value<sp/>is</highlight></codeline>
+<codeline><highlight class="normal">passed<sp/>as<sp/>argument<sp/>to<sp/>the<sp/>`set_normal_force`<sp/>method<sp/>of<sp/>the<sp/>`output_data`</highlight></codeline>
+<codeline><highlight class="normal">object.<sp/>This<sp/>operation<sp/>is<sp/>mandatory,<sp/>because<sp/>only<sp/>in<sp/>that<sp/>way<sp/>Rocky<sp/>will</highlight></codeline>
+<codeline><highlight class="normal">become<sp/>aware<sp/>of<sp/>the<sp/>new</highlight></codeline>
+<codeline><highlight class="normal">force<sp/>value<sp/>calculated<sp/>by<sp/>the<sp/>module.<sp/>From<sp/>that<sp/>point<sp/>on,<sp/>Rocky<sp/>will<sp/>use</highlight></codeline>
+<codeline><highlight class="normal">internally<sp/>that<sp/>force<sp/>for<sp/>solving<sp/>the<sp/>particles&apos;<sp/>motion<sp/>equations<sp/>and</highlight></codeline>
+<codeline><highlight class="normal">perform<sp/>all<sp/>the<sp/>other<sp/>operations<sp/>that<sp/>may<sp/>need<sp/>it.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">As<sp/>a<sp/>final<sp/>operation<sp/>of<sp/>the<sp/>normal<sp/>force<sp/>calculation,<sp/>the<sp/>new<sp/>normal</highlight></codeline>
+<codeline><highlight class="normal">contact<sp/>force<sp/>value<sp/>is<sp/>set<sp/>also<sp/>to<sp/>the<sp/>corresponding<sp/>contact<sp/>scalar<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">line<sp/>135,<sp/>in<sp/>order<sp/>to<sp/>preserve<sp/>it<sp/>and<sp/>make<sp/>it<sp/>available<sp/>during<sp/>the<sp/>next</highlight></codeline>
+<codeline><highlight class="normal">time<sp/>iteration.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">139<sp/>ROCKY_PLUGIN_TANGENTIAL_FORCE_ON_CONTACTS(contact,<sp/>intermediate_data,<sp/>output_data,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">140<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">141<sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">142<sp/> <sp/> <sp/>const<sp/>auto<sp/>m_i<sp/>=<sp/>contact.get_material_interaction();</highlight></codeline>
+<codeline><highlight class="normal">143<sp/> <sp/> <sp/>const<sp/>auto&amp;<sp/>module_m_i<sp/>=<sp/>data-&gt;material_interactions[contact.get_material_interaction_index()];</highlight></codeline>
+<codeline><highlight class="normal">144</highlight></codeline>
+<codeline><highlight class="normal">145<sp/> <sp/> <sp/>const<sp/>double3<sp/>prev_tangential_force<sp/>=<sp/>contact.just_started_frictional()<sp/>?</highlight></codeline>
+<codeline><highlight class="normal">146<sp/> <sp/> <sp/> <sp/> <sp/>make_double3(0.0,<sp/>0.0,<sp/>0.0)<sp/>:</highlight></codeline>
+<codeline><highlight class="normal">147<sp/> <sp/> <sp/> <sp/> <sp/>make_double3(get_contact_scalar_value(contact,<sp/>data-&gt;ppi_tangential_x,<sp/>data-&gt;pti_tangential_x),</highlight></codeline>
+<codeline><highlight class="normal">148<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> get_contact_scalar_value(contact,<sp/>data-&gt;ppi_tangential_y,<sp/>data-&gt;pti_tangential_y),</highlight></codeline>
+<codeline><highlight class="normal">149<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> get_contact_scalar_value(contact,<sp/>data-&gt;ppi_tangential_z,<sp/>data-&gt;pti_tangential_z));</highlight></codeline>
+<codeline><highlight class="normal">150</highlight></codeline>
+<codeline><highlight class="normal">151<sp/> <sp/> <sp/>const<sp/>double3<sp/>tangential_relative_velocity<sp/>=<sp/>output_data.get_tangential_relative_velocity();</highlight></codeline>
+<codeline><highlight class="normal">152<sp/> <sp/> <sp/>const<sp/>double3<sp/>tangential_displacement<sp/>=<sp/>tangential_relative_velocity<sp/>*<sp/>contact.get_timestep();</highlight></codeline>
+<codeline><highlight class="normal">153</highlight></codeline>
+<codeline><highlight class="normal">154<sp/> <sp/> <sp/>const<sp/>double<sp/>normal_stiffness<sp/>=<sp/>contact.get_equivalent_stiffness()<sp/>*<sp/>m_i.get_stiffness_multiplier();</highlight></codeline>
+<codeline><highlight class="normal">155<sp/> <sp/> <sp/>const<sp/>double<sp/>tangential_stiffness<sp/>=<sp/>normal_stiffness<sp/>*<sp/>module_m_i.tangential_stiffness_ratio;</highlight></codeline>
+<codeline><highlight class="normal">156</highlight></codeline>
+<codeline><highlight class="normal">157<sp/> <sp/> <sp/>double3<sp/>new_tangential_force<sp/>=<sp/>prev_tangential_force<sp/>-<sp/>tangential_stiffness<sp/>*<sp/>tangential_displacement;</highlight></codeline>
+<codeline><highlight class="normal">158<sp/> <sp/> <sp/>const<sp/>double<sp/>new_tangential_force_norm<sp/>=<sp/>get_norm(new_tangential_force);</highlight></codeline>
+<codeline><highlight class="normal">159<sp/> <sp/> <sp/>const<sp/>double<sp/>coulomb_limit<sp/>=<sp/>intermediate_data.get_friction_coefficient()<sp/>*<sp/>output_data.get_normal_force();</highlight></codeline>
+<codeline><highlight class="normal">160</highlight></codeline>
+<codeline><highlight class="normal">161<sp/> <sp/> <sp/>if<sp/>(new_tangential_force_norm<sp/>&gt;<sp/>coulomb_limit)</highlight></codeline>
+<codeline><highlight class="normal">162<sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">163<sp/> <sp/> <sp/> <sp/> <sp/>new_tangential_force<sp/>*=<sp/>coulomb_limit<sp/>/<sp/>(new_tangential_force_norm<sp/>+<sp/>SMALL_VALUE);</highlight></codeline>
+<codeline><highlight class="normal">164<sp/> <sp/> <sp/> <sp/> <sp/>bool<sp/>sliding<sp/>=<sp/>get_norm(tangential_relative_velocity)<sp/>&gt;<sp/>module_m_i.sliding_velocity_threshold;</highlight></codeline>
+<codeline><highlight class="normal">165<sp/> <sp/> <sp/> <sp/> <sp/>output_data.set_sliding(sliding);</highlight></codeline>
+<codeline><highlight class="normal">166<sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">167<sp/> <sp/> <sp/>else</highlight></codeline>
+<codeline><highlight class="normal">168<sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">169<sp/> <sp/> <sp/> <sp/> <sp/>output_data.set_sliding(false);</highlight></codeline>
+<codeline><highlight class="normal">170<sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">171</highlight></codeline>
+<codeline><highlight class="normal">172<sp/> <sp/> <sp/>output_data.set_tangential_force(new_tangential_force);</highlight></codeline>
+<codeline><highlight class="normal">173<sp/> <sp/> <sp/>set_contact_scalar_value(contact,<sp/>data-&gt;ppi_tangential_x,<sp/>data-&gt;pti_tangential_x,<sp/>new_tangential_force.x);</highlight></codeline>
+<codeline><highlight class="normal">174<sp/> <sp/> <sp/>set_contact_scalar_value(contact,<sp/>data-&gt;ppi_tangential_y,<sp/>data-&gt;pti_tangential_y,<sp/>new_tangential_force.y);</highlight></codeline>
+<codeline><highlight class="normal">175<sp/> <sp/> <sp/>set_contact_scalar_value(contact,<sp/>data-&gt;ppi_tangential_z,<sp/>data-&gt;pti_tangential_z,<sp/>new_tangential_force.z);</highlight></codeline>
+<codeline><highlight class="normal">176<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">177<sp/>ROCKY_PLUGIN_TANGENTIAL_FORCE_ON_CONTACTS_END()</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>implementation<sp/>of<sp/>the<sp/>Linear<sp/>Spring<sp/>Coulomb<sp/>Limit<sp/>tangential<sp/>force</highlight></codeline>
+<codeline><highlight class="normal">model<sp/>is<sp/>made<sp/>in<sp/>the<sp/>code<sp/>reproduced<sp/>above.<sp/>The<sp/>model<sp/>needs<sp/>material</highlight></codeline>
+<codeline><highlight class="normal">interaction<sp/>properties<sp/>defined<sp/>by<sp/>both<sp/>Rocky<sp/>and<sp/>the<sp/>module<sp/>itself.</highlight></codeline>
+<codeline><highlight class="normal">Because<sp/>of<sp/>that,<sp/>two<sp/>material<sp/>interaction<sp/>objects<sp/>are<sp/>defined<sp/>in<sp/>lines</highlight></codeline>
+<codeline><highlight class="normal">142<sp/>and<sp/>143<sp/>in<sp/>order<sp/>to<sp/>retrieve<sp/>those<sp/>property<sp/>values.<sp/>Next,<sp/>in<sp/>line</highlight></codeline>
+<codeline><highlight class="normal">145,<sp/>the<sp/>previous<sp/>tangential<sp/>force<sp/>vector<sp/>is<sp/>defined<sp/>as<sp/>zero<sp/>if<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">current<sp/>timestep<sp/>is<sp/>the<sp/>first<sp/>one<sp/>in<sp/>the<sp/>collision,<sp/>or,<sp/>otherwise,<sp/>its</highlight></codeline>
+<codeline><highlight class="normal">components<sp/>are<sp/>retrieved<sp/>from<sp/>custom<sp/>contact<sp/>scalars.<sp/>Subsequently,<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">tangential<sp/>component<sp/>of<sp/>the<sp/>relative<sp/>velocity<sp/>at<sp/>the<sp/>contact<sp/>point,</highlight></codeline>
+<codeline><highlight class="normal">pre-calculated<sp/>by<sp/>Rocky,<sp/>is<sp/>retrieved,<sp/>and<sp/>with<sp/>it<sp/>the<sp/>tangential</highlight></codeline>
+<codeline><highlight class="normal">relative<sp/>displacement<sp/>during<sp/>the<sp/>timestep<sp/>is<sp/>calculated.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Note:<sp/>This<sp/>is<sp/>a<sp/>simplified<sp/>version<sp/>of<sp/>the<sp/>model<sp/>implemented<sp/>in<sp/>Rocky.</highlight></codeline>
+<codeline><highlight class="normal">Some<sp/>additional<sp/>operations<sp/>are<sp/>ignored<sp/>for<sp/>the<sp/>sake<sp/>of<sp/>simplicity.</highlight></codeline>
+<codeline><highlight class="normal">For<sp/>instance,<sp/>Rocky<sp/>introduces<sp/>correction<sp/>terms<sp/>to<sp/>take<sp/>into<sp/>account</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>change<sp/>on<sp/>the<sp/>normal<sp/>direction<sp/>and<sp/>a<sp/>possible<sp/>viscous<sp/>dissipation,</highlight></codeline>
+<codeline><highlight class="normal">that<sp/>this<sp/>implementation<sp/>does<sp/>not<sp/>address*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>line<sp/>154,<sp/>the<sp/>normal<sp/>stiffness<sp/>value<sp/>is<sp/>retrieved,<sp/>and<sp/>with<sp/>it<sp/>and</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>tangential<sp/>stiffness<sp/>ratio,<sp/>the<sp/>tangential<sp/>stiffness<sp/>is<sp/>determined</highlight></codeline>
+<codeline><highlight class="normal">in<sp/>line<sp/>155.<sp/>Then,<sp/>in<sp/>line<sp/>157,<sp/>the<sp/>possible<sp/>new<sp/>value<sp/>of<sp/>the<sp/>tangential</highlight></codeline>
+<codeline><highlight class="normal">force<sp/>vector<sp/>is<sp/>calculated<sp/>using<sp/>equation<sp/>2.18<sp/>of<sp/>the<sp/>DEM<sp/>Technical</highlight></codeline>
+<codeline><highlight class="normal">Manual.<sp/>As<sp/>in<sp/>this<sp/>model<sp/>the<sp/>magnitude<sp/>of<sp/>the<sp/>tangential<sp/>contact<sp/>force</highlight></codeline>
+<codeline><highlight class="normal">cannot<sp/>exceed<sp/>the<sp/>so-called<sp/>Coulomb<sp/>limit,<sp/>calculated<sp/>in<sp/>line<sp/>159,<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">tangential<sp/>force<sp/>is<sp/>rescaled<sp/>if<sp/>that<sp/>condition<sp/>is<sp/>not<sp/>satisfied,<sp/>in<sp/>line</highlight></codeline>
+<codeline><highlight class="normal">163.<sp/>Additionally,<sp/>the<sp/>sliding<sp/>condition<sp/>is<sp/>verified<sp/>in<sp/>line<sp/>164,</highlight></codeline>
+<codeline><highlight class="normal">comparing<sp/>the<sp/>magnitude<sp/>of<sp/>the<sp/>relative<sp/>tangential<sp/>velocity<sp/>with<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">sliding<sp/>threshold<sp/>value<sp/>defined<sp/>as<sp/>a<sp/>material<sp/>interaction<sp/>property.<sp/>The</highlight></codeline>
+<codeline><highlight class="normal">boolean<sp/>value<sp/>indicating<sp/>if<sp/>the<sp/>sliding<sp/>condition<sp/>is<sp/>true<sp/>or<sp/>false<sp/>is</highlight></codeline>
+<codeline><highlight class="normal">passed<sp/>to<sp/>Rocky<sp/>using<sp/>the<sp/>`set_sliding`<sp/>method<sp/>of<sp/>the<sp/>`output_data`<sp/>object,<sp/>in<sp/>line<sp/>165.<sp/>In</highlight></codeline>
+<codeline><highlight class="normal">case<sp/>that<sp/>the<sp/>Coulomb<sp/>limit<sp/>is<sp/>not<sp/>exceeded,<sp/>the<sp/>sliding<sp/>condition<sp/>is</highlight></codeline>
+<codeline><highlight class="normal">always<sp/>false,<sp/>and<sp/>that<sp/>value<sp/>is<sp/>set<sp/>in<sp/>line<sp/>169.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>tangential<sp/>contact<sp/>force<sp/>just<sp/>calculated<sp/>is<sp/>passed<sp/>also<sp/>to<sp/>Rocky<sp/>by</highlight></codeline>
+<codeline><highlight class="normal">means<sp/>of<sp/>the<sp/>`set_tangential_force`<sp/>method<sp/>of<sp/>the<sp/>`output_data`<sp/>object,<sp/>in<sp/>line<sp/>172.<sp/>The<sp/>specification</highlight></codeline>
+<codeline><highlight class="normal">of<sp/>both<sp/>the<sp/>sliding<sp/>state<sp/>and<sp/>the<sp/>tangential<sp/>force<sp/>vector<sp/>is<sp/>mandatory</highlight></codeline>
+<codeline><highlight class="normal">for<sp/>a<sp/>module<sp/>implementing<sp/>a<sp/>tangential<sp/>contact<sp/>force<sp/>model.<sp/>As<sp/>a<sp/>final</highlight></codeline>
+<codeline><highlight class="normal">step,<sp/>the<sp/>components<sp/>of<sp/>the<sp/>tangential<sp/>force<sp/>are<sp/>stored<sp/>in<sp/>the<sp/>contact</highlight></codeline>
+<codeline><highlight class="normal">scalars<sp/>previously<sp/>created,<sp/>in<sp/>order<sp/>to<sp/>make<sp/>available<sp/>those<sp/>values<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>next<sp/>time<sp/>iteration.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">179<sp/>ROCKY_PLUGIN_IMPACT_ENERGY_ON_CONTACTS(contact,<sp/>intermediate_data,<sp/>output_data,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">180<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">181<sp/> <sp/> <sp/>const<sp/>double<sp/>home_stiffness<sp/>=<sp/>contact.get_home_stiffness();</highlight></codeline>
+<codeline><highlight class="normal">182<sp/> <sp/> <sp/>const<sp/>double<sp/>near_stiffness<sp/>=<sp/>contact.get_near_stiffness();</highlight></codeline>
+<codeline><highlight class="normal">183<sp/> <sp/> <sp/>const<sp/>double<sp/>stiffness_multiplier<sp/>=<sp/>contact.get_material_interaction().get_stiffness_multiplier();</highlight></codeline>
+<codeline><highlight class="normal">184</highlight></codeline>
+<codeline><highlight class="normal">185<sp/> <sp/> <sp/>const<sp/>double<sp/>normal_force<sp/>=<sp/>output_data.get_normal_force();</highlight></codeline>
+<codeline><highlight class="normal">186<sp/> <sp/> <sp/>const<sp/>double3<sp/>tangential_force<sp/>=<sp/>output_data.get_tangential_force();</highlight></codeline>
+<codeline><highlight class="normal">187<sp/> <sp/> <sp/>const<sp/>double<sp/>squared_force<sp/>=<sp/>normal_force<sp/>*<sp/>normal_force<sp/>+<sp/>dot(tangential_force);</highlight></codeline>
+<codeline><highlight class="normal">188</highlight></codeline>
+<codeline><highlight class="normal">189<sp/> <sp/> <sp/>output_data.set_home_impact_energy(0.5<sp/>*<sp/>squared_force<sp/>/<sp/>(stiffness_multiplier<sp/>*<sp/>home_stiffness));</highlight></codeline>
+<codeline><highlight class="normal">190<sp/> <sp/> <sp/>output_data.set_near_impact_energy(0.5<sp/>*<sp/>squared_force<sp/>/<sp/>(stiffness_multiplier<sp/>*<sp/>near_stiffness));</highlight></codeline>
+<codeline><highlight class="normal">191<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">192<sp/>ROCKY_PLUGIN_IMPACT_ENERGY_ON_CONTACTS_END()</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>module<sp/>example<sp/>presented<sp/>in<sp/>this<sp/>chapter<sp/>includes<sp/>also<sp/>the<sp/>code<sp/>for</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>calculation<sp/>of<sp/>the<sp/>impact<sp/>energy.<sp/>This<sp/>code<sp/>reproduces<sp/>the<sp/>one</highlight></codeline>
+<codeline><highlight class="normal">implemented<sp/>in<sp/>Rocky<sp/>and<sp/>used<sp/>when<sp/>the<sp/>Hysteretic<sp/>Linear<sp/>Spring<sp/>model<sp/>is</highlight></codeline>
+<codeline><highlight class="normal">active<sp/>in<sp/>a<sp/>simulation.<sp/>It<sp/>is<sp/>based<sp/>on<sp/>equation<sp/>4.11<sp/>of<sp/>the<sp/>DEM</highlight></codeline>
+<codeline><highlight class="normal">Technical<sp/>Manual.<sp/>Both<sp/>the<sp/>normal<sp/>and<sp/>the<sp/>tangential<sp/>contact<sp/>force</highlight></codeline>
+<codeline><highlight class="normal">values<sp/>calculated<sp/>in<sp/>previous<sp/>steps,<sp/>retrieved<sp/>in<sp/>lines<sp/>185<sp/>and<sp/>186,<sp/>are</highlight></codeline>
+<codeline><highlight class="normal">needed<sp/>in<sp/>that<sp/>expression.<sp/>It<sp/>actually<sp/>represents<sp/>the<sp/>impact<sp/>energy</highlight></codeline>
+<codeline><highlight class="normal">accumulated<sp/>in<sp/>the<sp/>contact<sp/>since<sp/>the<sp/>collision<sp/>started.<sp/>However,<sp/>Rocky</highlight></codeline>
+<codeline><highlight class="normal">expects<sp/>as<sp/>output<sp/>of<sp/>the<sp/>calculation<sp/>the<sp/>portions<sp/>of<sp/>that<sp/>impact<sp/>energy</highlight></codeline>
+<codeline><highlight class="normal">that<sp/>are<sp/>attributed<sp/>to<sp/>each<sp/>colliding<sp/>entity.<sp/>Because<sp/>of<sp/>that,<sp/>in<sp/>lines</highlight></codeline>
+<codeline><highlight class="normal">189<sp/>and<sp/>190,<sp/>two<sp/>values<sp/>of<sp/>impact<sp/>energy<sp/>are<sp/>set<sp/>using<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">`set_home_impact_energy`<sp/>and<sp/>`set_near_impact_energy`</highlight></codeline>
+<codeline><highlight class="normal">methods<sp/>of<sp/>the<sp/>`output_data`<sp/>object,<sp/>respectively.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">After<sp/>the<sp/>module<sp/>is<sp/>built<sp/>following<sp/>the<sp/>steps<sp/>given<sp/>in<sp/>section<sp/>5.1.6,</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>module<sp/>will<sp/>be<sp/>available<sp/>to<sp/>be<sp/>used<sp/>in<sp/>Rocky.<sp/>When<sp/>the<sp/>`Contact<sp/>Model<sp/>Example`</highlight></codeline>
+<codeline><highlight class="normal">is<sp/>enabled<sp/>in<sp/>a<sp/>Rocky<sp/>project,<sp/>the<sp/>models</highlight></codeline>
+<codeline><highlight class="normal">of<sp/>normal<sp/>and<sp/>tangential<sp/>forces,<sp/>besides<sp/>the<sp/>impact<sp/>energy<sp/>model</highlight></codeline>
+<codeline><highlight class="normal">implemented<sp/>on<sp/>it<sp/>will<sp/>override<sp/>built-in<sp/>models<sp/>in<sp/>those<sp/>categories.</highlight></codeline>
+<codeline><highlight class="normal">This<sp/>will<sp/>be<sp/>indicated<sp/>within<sp/>the<sp/>**Physics<sp/>|<sp/>Momentum**<sp/>tab,<sp/>which</highlight></codeline>
+<codeline><highlight class="normal">will<sp/>appear<sp/>as<sp/>shown<sp/>in<sp/>Figure<sp/>5.5.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![](images/mod_phys.png){html:<sp/>width=30%}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Figure<sp/>5.6:<sp/>The<sp/>normal<sp/>force,<sp/>tangential<sp/>force<sp/>and<sp/>impact<sp/>energy<sp/>categories<sp/>overriden<sp/>by<sp/>the<sp/>models<sp/>implemented<sp/>in<sp/>Contact<sp/>Model<sp/>Example.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>A<sp/>module<sp/>implementing<sp/>variable<sp/>properties<sp/>{#a-module-implementing-variable-properties}</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">As<sp/>an<sp/>example<sp/>of<sp/>the<sp/>implementation<sp/>of<sp/>modules<sp/>that<sp/>override<sp/>built-in</highlight></codeline>
+<codeline><highlight class="normal">constant<sp/>properties<sp/>in<sp/>Rocky,<sp/>this<sp/>section<sp/>describes<sp/>a<sp/>module<sp/>that</highlight></codeline>
+<codeline><highlight class="normal">converts<sp/>the<sp/>particle&apos;s<sp/>thermal<sp/>conductivity<sp/>into<sp/>a<sp/>function<sp/>of<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">temperature.<sp/>Additionally,<sp/>the<sp/>module<sp/>makes<sp/>possible<sp/>also<sp/>to<sp/>define<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">temperature<sp/>of<sp/>boundaries<sp/>as<sp/>a<sp/>function<sp/>of<sp/>the<sp/>position.<sp/>The<sp/>functional</highlight></codeline>
+<codeline><highlight class="normal">relation<sp/>for<sp/>the<sp/>thermal<sp/>conductivity<sp/>that<sp/>the<sp/>module<sp/>implements<sp/>is<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">following:</highlight></codeline>
+<codeline><highlight class="normal">$$</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>K_p<sp/>=<sp/>K_O<sp/>(<sp/>1<sp/>+<sp/>C_L<sp/>T_p<sp/>)</highlight></codeline>
+<codeline><highlight class="normal">$$</highlight></codeline>
+<codeline><highlight class="normal">where<sp/>\f(K_O\f)<sp/>and<sp/>\f(C_L\f)<sp/>are<sp/>two<sp/>module<sp/>parameters<sp/>and<sp/>\f(T_p\f)<sp/>is<sp/>the<sp/>particle<sp/>temperature.</highlight></codeline>
+<codeline><highlight class="normal">On<sp/>the<sp/>other<sp/>hand,<sp/>the<sp/>modules<sp/>allows<sp/>to<sp/>define<sp/>the<sp/>temperature<sp/>of<sp/>boundary<sp/>triangles<sp/>as<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">quadratic<sp/>function<sp/>of<sp/>the<sp/>\f(x\f)-coordinate:</highlight></codeline>
+<codeline><highlight class="normal">$$</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>T_t<sp/>=<sp/>T_O<sp/>(<sp/>1<sp/>+<sp/>C_Q<sp/>\,x_t^2<sp/>)</highlight></codeline>
+<codeline><highlight class="normal">$$</highlight></codeline>
+<codeline><highlight class="normal">where<sp/>\f(T_O\f)<sp/>and<sp/>\f(C_Q\f)<sp/>are<sp/>two<sp/>module<sp/>parameters<sp/>and<sp/>\f(x_t\f)<sp/>is<sp/>the<sp/>\f(x\f)-coordinate<sp/>of<sp/>the<sp/>triangle&apos;s<sp/>centroid.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Module<sp/>specification<sp/>file</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>listing<sp/>reproduces<sp/>the<sp/>Python<sp/>file<sp/>with<sp/>the<sp/>specifications</highlight></codeline>
+<codeline><highlight class="normal">of<sp/>the<sp/>module,<sp/>which<sp/>is<sp/>named<sp/>as<sp/>`Variable<sp/>Properties<sp/>Example`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">1<sp/><sp/><sp/> <sp/> <sp/>from<sp/>pathlib<sp/>import<sp/>Path</highlight></codeline>
+<codeline><highlight class="normal">2<sp/><sp/><sp/> <sp/> <sp/>from<sp/>rocky20.addins.addin_models<sp/>import<sp/>container_model,<sp/>data_model</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/> <sp/> <sp/>from<sp/>rocky20.addins.addin_specs<sp/>import<sp/>RockyAddinSpecs</highlight></codeline>
+<codeline><highlight class="normal">4<sp/><sp/><sp/> <sp/> <sp/>from<sp/>rocky20.addins.addin_types<sp/>import<sp/>Quantity,<sp/>Temperature,<sp/>ThermalConductivity</highlight></codeline>
+<codeline><highlight class="normal">5<sp/><sp/><sp/> <sp/> <sp/>from<sp/>yapsy.IPlugin<sp/>import<sp/>IPlugin</highlight></codeline>
+<codeline><highlight class="normal">6</highlight></codeline>
+<codeline><highlight class="normal">7</highlight></codeline>
+<codeline><highlight class="normal">8<sp/><sp/><sp/> <sp/> <sp/>NAME<sp/>=<sp/>&apos;Variable<sp/>Properties<sp/>Example&apos;</highlight></codeline>
+<codeline><highlight class="normal">9</highlight></codeline>
+<codeline><highlight class="normal">10</highlight></codeline>
+<codeline><highlight class="normal">11<sp/><sp/> <sp/> <sp/>@data_model(icon=None,<sp/>caption=NAME)</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/> <sp/> <sp/>class<sp/>GeneralProperties:<sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">13<sp/><sp/> <sp/> <sp/> <sp/> <sp/>pass</highlight></codeline>
+<codeline><highlight class="normal">14</highlight></codeline>
+<codeline><highlight class="normal">15</highlight></codeline>
+<codeline><highlight class="normal">16<sp/><sp/> <sp/> <sp/>@container_model()</highlight></codeline>
+<codeline><highlight class="normal">17<sp/><sp/> <sp/> <sp/>class<sp/>MaterialProperties:<sp/> <sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">18<sp/><sp/> <sp/> <sp/> <sp/> <sp/>k_base_value<sp/>=<sp/>Quantity(value=1.0,<sp/>unit=&apos;W/m.K&apos;,<sp/>caption=&apos;Thermal<sp/>Conductivity<sp/>Base<sp/>Value&apos;)</highlight></codeline>
+<codeline><highlight class="normal">19<sp/><sp/> <sp/> <sp/> <sp/> <sp/>k_linear_coefficient<sp/>=<sp/>Quantity(value=0.0,<sp/>unit=&apos;1/K&apos;,<sp/>caption=&apos;Linear<sp/>Coefficient&apos;)</highlight></codeline>
+<codeline><highlight class="normal">20<sp/><sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">21<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">22<sp/><sp/> <sp/> <sp/>@container_model()</highlight></codeline>
+<codeline><highlight class="normal">23<sp/><sp/> <sp/> <sp/>class<sp/>GeometryProperties:<sp/> <sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">24<sp/><sp/> <sp/> <sp/> <sp/> <sp/>t_base_value<sp/>=<sp/>Quantity(value=300.0,<sp/>unit=&apos;K&apos;,<sp/>caption=&apos;Temperature<sp/>Base<sp/>Value&apos;)</highlight></codeline>
+<codeline><highlight class="normal">25<sp/><sp/> <sp/> <sp/> <sp/> <sp/>t_quadratic_coefficient<sp/>=<sp/>Quantity(value=0.0,<sp/>unit=&apos;1/m2&apos;,<sp/>caption=&apos;Quadratic<sp/>Coefficient&apos;)</highlight></codeline>
+<codeline><highlight class="normal">26<sp/><sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">27<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">28<sp/><sp/> <sp/> <sp/>@container_model()</highlight></codeline>
+<codeline><highlight class="normal">29<sp/><sp/> <sp/> <sp/>class<sp/>ParticleMaterialVariableProperties:</highlight></codeline>
+<codeline><highlight class="normal">30<sp/><sp/> <sp/> <sp/> <sp/> <sp/>thermal_conductivity<sp/>=<sp/>ThermalConductivity</highlight></codeline>
+<codeline><highlight class="normal">31<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">32<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">33<sp/><sp/> <sp/> <sp/>@container_model()</highlight></codeline>
+<codeline><highlight class="normal">34<sp/><sp/> <sp/> <sp/>class<sp/>TriangleVariableProperties:</highlight></codeline>
+<codeline><highlight class="normal">35<sp/><sp/> <sp/> <sp/> <sp/> <sp/>temperature<sp/>=<sp/>Temperature</highlight></codeline>
+<codeline><highlight class="normal">36</highlight></codeline>
+<codeline><highlight class="normal">37</highlight></codeline>
+<codeline><highlight class="normal">38<sp/><sp/> <sp/> <sp/>class<sp/>ModuleSpecifications(RockyAddinSpecs):</highlight></codeline>
+<codeline><highlight class="normal">39</highlight></codeline>
+<codeline><highlight class="normal">40<sp/><sp/> <sp/> <sp/> <sp/> <sp/>name<sp/>=<sp/>NAME</highlight></codeline>
+<codeline><highlight class="normal">41</highlight></codeline>
+<codeline><highlight class="normal">42<sp/><sp/> <sp/> <sp/> <sp/> <sp/>model<sp/>=<sp/>GeneralProperties</highlight></codeline>
+<codeline><highlight class="normal">43<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">44<sp/><sp/> <sp/> <sp/> <sp/> <sp/>particle_material_properties<sp/>=<sp/>ParticleMaterialVariableProperties</highlight></codeline>
+<codeline><highlight class="normal">45<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">46<sp/><sp/> <sp/> <sp/> <sp/> <sp/>geometry_triangle_properties<sp/>=<sp/>TriangleVariableProperties</highlight></codeline>
+<codeline><highlight class="normal">47<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">48<sp/><sp/> <sp/> <sp/> <sp/> <sp/>material_properties<sp/>=<sp/>MaterialProperties</highlight></codeline>
+<codeline><highlight class="normal">49<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">50<sp/><sp/> <sp/> <sp/> <sp/> <sp/>geometry_properties<sp/>=<sp/>GeometryProperties</highlight></codeline>
+<codeline><highlight class="normal">51<sp/><sp/> <sp/> <sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">52<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">53<sp/><sp/> <sp/> <sp/> <sp/> <sp/>@classmethod</highlight></codeline>
+<codeline><highlight class="normal">54<sp/><sp/> <sp/> <sp/> <sp/> <sp/>def<sp/>CreateAddin(cls):</highlight></codeline>
+<codeline><highlight class="normal">55<sp/><sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>return<sp/>cls.CreateDynamicAddin(Path(__file__).parent,<sp/>&apos;variable_properties_example&apos;)</highlight></codeline>
+<codeline><highlight class="normal">56</highlight></codeline>
+<codeline><highlight class="normal">57</highlight></codeline>
+<codeline><highlight class="normal">58<sp/><sp/> <sp/> <sp/>class<sp/>VariablePropertiesExampleModule(IPlugin):</highlight></codeline>
+<codeline><highlight class="normal">59<sp/><sp/> <sp/> <sp/> <sp/> <sp/>def<sp/>get_addin_specs(self):</highlight></codeline>
+<codeline><highlight class="normal">60<sp/><sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>return<sp/>ModuleSpecifications</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Lines<sp/>18<sp/>and<sp/>19<sp/>of<sp/>this<sp/>file<sp/>define<sp/>the<sp/>two<sp/>parameters<sp/>used<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">thermal<sp/>conductivity<sp/>equation<sp/>as<sp/>material<sp/>properties.</highlight></codeline>
+<codeline><highlight class="normal">This<sp/>means<sp/>that<sp/>different<sp/>values<sp/>can<sp/>be<sp/>entered</highlight></codeline>
+<codeline><highlight class="normal">through<sp/>the<sp/>Rocky<sp/>UI<sp/>for<sp/>each<sp/>one<sp/>of<sp/>the<sp/>materials<sp/>defined<sp/>in<sp/>a<sp/>project.</highlight></codeline>
+<codeline><highlight class="normal">Similarly,<sp/>lines<sp/>24<sp/>and<sp/>25<sp/>define<sp/>the<sp/>two<sp/>parameters<sp/>included<sp/>in<sp/>the<sp/>boundary<sp/>temperature</highlight></codeline>
+<codeline><highlight class="normal">equation<sp/>as<sp/>geometry<sp/>properties.<sp/>Therefore,<sp/>different<sp/>values<sp/>of<sp/>these<sp/>parameters</highlight></codeline>
+<codeline><highlight class="normal">could<sp/>be<sp/>specified<sp/>for<sp/>each<sp/>geometry<sp/>in<sp/>a<sp/>project.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Note:<sp/>However,<sp/>since<sp/>the<sp/>module<sp/>will<sp/>define<sp/>the<sp/>thermal<sp/>conductivity<sp/>as<sp/>a<sp/>variable<sp/>property<sp/>for</highlight></codeline>
+<codeline><highlight class="normal">particles<sp/>exclusively,<sp/>only<sp/>parameter<sp/>values<sp/>from<sp/>materials<sp/>associated<sp/>to<sp/>particles<sp/>will<sp/>be</highlight></codeline>
+<codeline><highlight class="normal">effectively<sp/>used<sp/>by<sp/>the<sp/>module.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>class<sp/>defined<sp/>in<sp/>lines<sp/>28<sp/>to<sp/>30<sp/>specifies<sp/>which<sp/>material<sp/>properties</highlight></codeline>
+<codeline><highlight class="normal">associated<sp/>to<sp/>particles<sp/>will<sp/>be<sp/>overridden<sp/>by<sp/>the<sp/>module.<sp/>In<sp/>this<sp/>case,</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>thermal<sp/>conductivity<sp/>is<sp/>the<sp/>only<sp/>property<sp/>specified.<sp/>That<sp/>property</highlight></codeline>
+<codeline><highlight class="normal">is<sp/>associated<sp/>to<sp/>an<sp/>particle<sp/>scalar<sp/>variable<sp/>defined<sp/>internally<sp/>in<sp/>Rocky</highlight></codeline>
+<codeline><highlight class="normal">(`ThermalConductivity`)<sp/>which<sp/>the<sp/>solver<sp/>will<sp/>use<sp/>to<sp/>store<sp/>the<sp/>values<sp/>calculated<sp/>by<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">module.<sp/>A<sp/>similar<sp/>specification<sp/>is<sp/>made<sp/>between<sp/>lines<sp/>30<sp/>and<sp/>35<sp/>for<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">temperature<sp/>of<sp/>the<sp/>boundary<sp/>triangles.<sp/>For<sp/>more<sp/>details<sp/>about<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">specification<sp/>of<sp/>variable<sp/>properties,<sp/>please<sp/>refer<sp/>to<sp/>section</highlight></codeline>
+<codeline><highlight class="normal">2.9.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Since<sp/>the<sp/>module<sp/>will<sp/>define<sp/>the<sp/>thermal<sp/>conductivity<sp/>as<sp/>a<sp/>variable</highlight></codeline>
+<codeline><highlight class="normal">property<sp/>for<sp/>particles<sp/>exclusively,<sp/>only<sp/>parameter<sp/>values<sp/>from<sp/>materials<sp/>associated<sp/>to<sp/>particles</highlight></codeline>
+<codeline><highlight class="normal">will<sp/>be<sp/>effectively<sp/>used<sp/>by<sp/>the<sp/>module.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Module<sp/>implementation</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>section<sp/>describes<sp/>the<sp/>C++<sp/>code<sp/>of<sp/>the<sp/>main<sp/>parts<sp/>of<sp/>the<sp/>`variable_properties_example.cu`<sp/>file.</highlight></codeline>
+<codeline><highlight class="normal">The<sp/>code<sp/>from<sp/>initialization<sp/>and<sp/>termination<sp/>hooks<sp/>related<sp/>to<sp/>CUDA<sp/>operations<sp/>is<sp/>omitted,</highlight></codeline>
+<codeline><highlight class="normal">since<sp/>it<sp/>was<sp/>described<sp/>in<sp/>previous<sp/>examples.<sp/>This<sp/>code<sp/>implements<sp/>the<sp/>calculation<sp/>of<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">property<sp/>values<sp/>per<sp/>particle<sp/>and<sp/>per<sp/>boundary<sp/>triangle<sp/>that<sp/>the<sp/>module<sp/>must<sp/>deliver<sp/>to<sp/>the<sp/>Rocky</highlight></codeline>
+<codeline><highlight class="normal">solver.<sp/>In<sp/>turn,<sp/>the<sp/>Rocky<sp/>solver<sp/>will<sp/>use<sp/>these<sp/>values<sp/>internally<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>thermal<sp/>model<sp/>calculations.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">1<sp/><sp/><sp/>#define<sp/>ROCKY_CUDA_API</highlight></codeline>
+<codeline><highlight class="normal">2</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/>#include<sp/>&lt;rocky20/api/rocky_api.h&gt;</highlight></codeline>
+<codeline><highlight class="normal">4</highlight></codeline>
+<codeline><highlight class="normal">5</highlight></codeline>
+<codeline><highlight class="normal">6<sp/><sp/><sp/>struct<sp/>MaterialData</highlight></codeline>
+<codeline><highlight class="normal">7<sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">8<sp/><sp/><sp/> <sp/> <sp/>double<sp/>k_base_value;</highlight></codeline>
+<codeline><highlight class="normal">9<sp/><sp/><sp/> <sp/> <sp/>double<sp/>k_linear_coefficient;</highlight></codeline>
+<codeline><highlight class="normal">10<sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal">11</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/>struct<sp/>GeometryData</highlight></codeline>
+<codeline><highlight class="normal">13<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">14<sp/><sp/> <sp/> <sp/>double<sp/>t_base_value;</highlight></codeline>
+<codeline><highlight class="normal">15<sp/><sp/> <sp/> <sp/>double<sp/>t_quadratic_coefficient;</highlight></codeline>
+<codeline><highlight class="normal">16<sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal">17</highlight></codeline>
+<codeline><highlight class="normal">18<sp/><sp/>struct<sp/>ModuleData</highlight></codeline>
+<codeline><highlight class="normal">19<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">20<sp/><sp/> <sp/> <sp/>MaterialData*<sp/>m_data;</highlight></codeline>
+<codeline><highlight class="normal">21<sp/><sp/> <sp/> <sp/>GeometryData*<sp/>g_data;</highlight></codeline>
+<codeline><highlight class="normal">22<sp/><sp/> <sp/> <sp/>bool<sp/>enabled;</highlight></codeline>
+<codeline><highlight class="normal">23<sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>code<sp/>block<sp/>above<sp/>defines<sp/>data<sp/>structures<sp/>for<sp/>the<sp/>module<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">store<sp/>the<sp/>parameter<sp/>values<sp/>that<sp/>users<sp/>of<sp/>the<sp/>module<sp/>entered<sp/>via<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">Rocky<sp/>UI.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">26<sp/><sp/>ROCKY_PLUGIN_CONFIGURE(input_data,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">27<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">28<sp/><sp/> <sp/> <sp/>auto*<sp/>module_data<sp/>=<sp/>new<sp/>ModuleData();</highlight></codeline>
+<codeline><highlight class="normal">29</highlight></codeline>
+<codeline><highlight class="normal">30<sp/><sp/> <sp/> <sp/>int<sp/>n_materials<sp/>=<sp/>input_data.get_number_materials();</highlight></codeline>
+<codeline><highlight class="normal">31<sp/><sp/> <sp/> <sp/>module_data-&gt;m_data<sp/>=<sp/>new<sp/>MaterialData[n_materials];</highlight></codeline>
+<codeline><highlight class="normal">32</highlight></codeline>
+<codeline><highlight class="normal">33<sp/><sp/> <sp/> <sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>n_materials;<sp/>++i)</highlight></codeline>
+<codeline><highlight class="normal">34<sp/><sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">35<sp/><sp/> <sp/> <sp/> <sp/> <sp/>auto<sp/>input_m_data<sp/>=<sp/>input_data.get_material_data(i);</highlight></codeline>
+<codeline><highlight class="normal">36<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;m_data[i].k_base_value<sp/>=<sp/>input_m_data.get_double(&quot;k_base_value&quot;);</highlight></codeline>
+<codeline><highlight class="normal">37<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;m_data[i].k_linear_coefficient<sp/>=<sp/>input_m_data.get_double(&quot;k_linear_coefficient&quot;);</highlight></codeline>
+<codeline><highlight class="normal">38<sp/><sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">39</highlight></codeline>
+<codeline><highlight class="normal">40<sp/><sp/> <sp/> <sp/>int<sp/>n_geometries<sp/>=<sp/>input_data.get_number_geometries();</highlight></codeline>
+<codeline><highlight class="normal">41<sp/><sp/> <sp/> <sp/>module_data-&gt;g_data<sp/>=<sp/>new<sp/>GeometryData[n_geometries];</highlight></codeline>
+<codeline><highlight class="normal">42</highlight></codeline>
+<codeline><highlight class="normal">43<sp/><sp/> <sp/> <sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>n_geometries;<sp/>++i)</highlight></codeline>
+<codeline><highlight class="normal">44<sp/><sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">45<sp/><sp/> <sp/> <sp/> <sp/> <sp/>auto<sp/>input_g_data<sp/>=<sp/>input_data.get_geometry_data(i);</highlight></codeline>
+<codeline><highlight class="normal">46<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;g_data[i].t_base_value<sp/>=<sp/>input_g_data.get_double(&quot;t_base_value&quot;);</highlight></codeline>
+<codeline><highlight class="normal">47<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;g_data[i].t_quadratic_coefficient<sp/>=<sp/>input_g_data.get_double(&quot;t_quadratic_coefficient&quot;);</highlight></codeline>
+<codeline><highlight class="normal">48<sp/><sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">49</highlight></codeline>
+<codeline><highlight class="normal">50<sp/><sp/> <sp/> <sp/>data<sp/>=<sp/>static_cast&lt;void*&gt;(module_data);</highlight></codeline>
+<codeline><highlight class="normal">51<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">52</highlight></codeline>
+<codeline><highlight class="normal">53</highlight></codeline>
+<codeline><highlight class="normal">54<sp/><sp/>ROCKY_PLUGIN_SETUP(model,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">55<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">56<sp/><sp/> <sp/> <sp/>auto*<sp/>module_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">57</highlight></codeline>
+<codeline><highlight class="normal">58<sp/><sp/> <sp/> <sp/>module_data-&gt;enabled<sp/>=<sp/>model.is_thermal_simulation();</highlight></codeline>
+<codeline><highlight class="normal">59<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">60</highlight></codeline>
+<codeline><highlight class="normal">61</highlight></codeline>
+<codeline><highlight class="normal">62<sp/><sp/>ROCKY_PLUGIN_NON_DIMENSIONALIZE(model,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">63<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">64<sp/><sp/> <sp/> <sp/>auto*<sp/>module_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">65</highlight></codeline>
+<codeline><highlight class="normal">66<sp/><sp/> <sp/> <sp/>if<sp/>(!module_data-&gt;enabled)<sp/>return;</highlight></codeline>
+<codeline><highlight class="normal">67</highlight></codeline>
+<codeline><highlight class="normal">68<sp/><sp/> <sp/> <sp/>double<sp/>t_factor<sp/>=<sp/>model.get_temperature_factor();</highlight></codeline>
+<codeline><highlight class="normal">69<sp/><sp/> <sp/> <sp/>double<sp/>l_factor<sp/>=<sp/>model.get_length_factor();</highlight></codeline>
+<codeline><highlight class="normal">70<sp/><sp/> <sp/> <sp/>double<sp/>k_factor<sp/>=<sp/>model.get_energy_factor()<sp/>/<sp/>(model.get_time_factor()<sp/>*<sp/>l_factor<sp/>*<sp/>t_factor);</highlight></codeline>
+<codeline><highlight class="normal">71</highlight></codeline>
+<codeline><highlight class="normal">72<sp/><sp/> <sp/> <sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>model.get_number_of_materials();<sp/>i++)</highlight></codeline>
+<codeline><highlight class="normal">73<sp/><sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">74<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;m_data[i].k_base_value<sp/>/=<sp/>k_factor;</highlight></codeline>
+<codeline><highlight class="normal">75<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;m_data[i].k_linear_coefficient<sp/>*=<sp/>t_factor;</highlight></codeline>
+<codeline><highlight class="normal">76<sp/><sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">77</highlight></codeline>
+<codeline><highlight class="normal">78<sp/><sp/> <sp/> <sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>model.get_number_of_geometries();<sp/>i++)</highlight></codeline>
+<codeline><highlight class="normal">79<sp/><sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">80<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;g_data[i].t_base_value<sp/>/=<sp/>t_factor;</highlight></codeline>
+<codeline><highlight class="normal">81<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;g_data[i].t_quadratic_coefficient<sp/>*=<sp/>l_factor<sp/>*<sp/>l_factor;</highlight></codeline>
+<codeline><highlight class="normal">82<sp/><sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">83<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>code<sp/>associated<sp/>to<sp/>the<sp/>`ROCKY_PLUGIN_CONFIGURE`<sp/>hook<sp/>receives<sp/>the<sp/>parameter<sp/>values</highlight></codeline>
+<codeline><highlight class="normal">delivered<sp/>by<sp/>the<sp/>Rocky<sp/>UI,<sp/>and<sp/>then<sp/>stores<sp/>them<sp/>in<sp/>the<sp/>data<sp/>structures</highlight></codeline>
+<codeline><highlight class="normal">previously<sp/>defined.<sp/>On<sp/>the<sp/>other<sp/>hand,<sp/>the<sp/>`ROCKY_PLUGIN_SETUP`<sp/>hook<sp/>is<sp/>only<sp/>used<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">verify<sp/>if<sp/>the<sp/>project<sp/>has<sp/>the<sp/>thermal<sp/>model<sp/>enabled.<sp/>The<sp/>module<sp/>will</highlight></codeline>
+<codeline><highlight class="normal">perform<sp/>its<sp/>operations<sp/>only<sp/>if<sp/>that<sp/>is<sp/>the<sp/>case.<sp/>Then<sp/>the<sp/>module</highlight></codeline>
+<codeline><highlight class="normal">parameters<sp/>are<sp/>non-dimensionalized,<sp/>in<sp/>order<sp/>to<sp/>be<sp/>used<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">calculations<sp/>that<sp/>must<sp/>be<sp/>made<sp/>later<sp/>on,<sp/>during<sp/>the<sp/>simulation.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">Since<sp/>the<sp/>module<sp/>is<sp/>intended<sp/>to<sp/>be<sp/>used<sp/>with<sp/>static<sp/>boundaries<sp/>only,<sp/>it</highlight></codeline>
+<codeline><highlight class="normal">needs<sp/>to<sp/>prescribe<sp/>the<sp/>temperature<sp/>of<sp/>the<sp/>boundary<sp/>triangles<sp/>only<sp/>once,</highlight></codeline>
+<codeline><highlight class="normal">during<sp/>the<sp/>initialization.<sp/>In<sp/>order<sp/>to<sp/>do<sp/>that,<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">`ROCKY_PLUGIN_INITIALIZE_TRIANGLE`<sp/>hook<sp/>is<sp/>used<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>following<sp/>way:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">86<sp/><sp/>ROCKY_PLUGIN_INITIALIZE_TRIANGLE(model,<sp/>triangle,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">87<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">88<sp/><sp/> <sp/> <sp/>auto*<sp/>module_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">89<sp/><sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">90<sp/><sp/> <sp/> <sp/>if<sp/>(!module_data-&gt;enabled)<sp/>return;</highlight></codeline>
+<codeline><highlight class="normal">91</highlight></codeline>
+<codeline><highlight class="normal">92<sp/><sp/> <sp/> <sp/>int<sp/>geometry_index<sp/>=<sp/>triangle.get_geometry_index();</highlight></codeline>
+<codeline><highlight class="normal">93<sp/><sp/> <sp/> <sp/>auto<sp/>g_data<sp/>=<sp/>module_data-&gt;g_data[geometry_index];</highlight></codeline>
+<codeline><highlight class="normal">94</highlight></codeline>
+<codeline><highlight class="normal">95<sp/><sp/> <sp/> <sp/>double<sp/>x<sp/>=<sp/>triangle.get_centroid().x;</highlight></codeline>
+<codeline><highlight class="normal">96<sp/><sp/> <sp/> <sp/>double<sp/>temperature<sp/>=<sp/>g_data.t_base_value<sp/>*<sp/>(1.0<sp/>+<sp/>g_data.t_quadratic_coefficient<sp/>*<sp/>x<sp/>*<sp/>x<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">97<sp/><sp/> <sp/> <sp/>triangle.set_temperature(temperature);</highlight></codeline>
+<codeline><highlight class="normal">98<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![](images/ex_prop_temp.png){html:<sp/>width=30%}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Figure<sp/>5.7:<sp/>Example<sp/>of<sp/>the<sp/>temperature<sp/>distribution<sp/>on<sp/>a<sp/>boundary<sp/>specified<sp/>by<sp/>the<sp/>module.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>code<sp/>above<sp/>applies<sp/>boundary<sp/>temperature<sp/>equation<sp/>shown<sp/>above</highlight></codeline>
+<codeline><highlight class="normal">to<sp/>the<sp/>calculation<sp/>of<sp/>the<sp/>temperature<sp/>of<sp/>every<sp/>boundary<sp/>triangle<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">simulation.<sp/>If<sp/>the<sp/>temperature<sp/>distribution<sp/>should<sp/>be<sp/>applied<sp/>only<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">specific<sp/>boundaries,<sp/>the<sp/>code<sp/>above<sp/>must<sp/>be<sp/>modified<sp/>in<sp/>order<sp/>to<sp/>filter</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>triangles<sp/>belonging<sp/>to<sp/>those<sp/>boundaries.<sp/>Figure<sp/>5.7</highlight></codeline>
+<codeline><highlight class="normal">shows<sp/>an<sp/>example<sp/>of<sp/>the<sp/>resulting<sp/>temperature</highlight></codeline>
+<codeline><highlight class="normal">distribution<sp/>in<sp/>a<sp/>specific<sp/>case.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>thermal<sp/>conductivity<sp/>as<sp/>a<sp/>function<sp/>of<sp/>the<sp/>particle&apos;s</highlight></codeline>
+<codeline><highlight class="normal">temperature.<sp/>Since<sp/>this<sp/>temperature<sp/>is<sp/>updated<sp/>at<sp/>every<sp/>time<sp/>iteration</highlight></codeline>
+<codeline><highlight class="normal">during<sp/>the<sp/>simulation,<sp/>the<sp/>module<sp/>needs<sp/>to<sp/>update<sp/>the<sp/>conductivity</highlight></codeline>
+<codeline><highlight class="normal">values<sp/>at<sp/>every<sp/>iteration<sp/>as<sp/>well.<sp/>That<sp/>update<sp/>must<sp/>be<sp/>done<sp/>within<sp/>an</highlight></codeline>
+<codeline><highlight class="normal">iteration<sp/>hook<sp/>executed<sp/>before<sp/>the<sp/>heat<sp/>transfer<sp/>calculation,<sp/>which<sp/>are</highlight></codeline>
+<codeline><highlight class="normal">made<sp/>right<sp/>afterwards<sp/>the<sp/>contact<sp/>forces<sp/>calculation.<sp/>Therefore,</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>`ROCKY_PLUGIN_PRE_FORCE_ON_PARTICLES`<sp/>hook<sp/>is<sp/>the<sp/>most<sp/>adequate<sp/>for<sp/>that<sp/>task,</highlight></codeline>
+<codeline><highlight class="normal">as<sp/>shown<sp/>in<sp/>the<sp/>following<sp/>code<sp/>block:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">100<sp/>ROCKY_PLUGIN_PRE_FORCE_ON_PARTICLES(device_model,<sp/>particle,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">101<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">102<sp/> <sp/> <sp/>auto*<sp/>module_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">103</highlight></codeline>
+<codeline><highlight class="normal">104<sp/> <sp/> <sp/>if<sp/>(!module_data-&gt;enabled)<sp/>return;</highlight></codeline>
+<codeline><highlight class="normal">105</highlight></codeline>
+<codeline><highlight class="normal">106<sp/> <sp/> <sp/>int<sp/>material_index<sp/>=<sp/>particle.get_material_index();</highlight></codeline>
+<codeline><highlight class="normal">107<sp/> <sp/> <sp/>auto&amp;<sp/>m_data<sp/>=<sp/>module_data-&gt;m_data[material_index];</highlight></codeline>
+<codeline><highlight class="normal">108<sp/> <sp/> <sp/>double<sp/>temperature<sp/>=<sp/>particle.get_scalars().get_temperature();</highlight></codeline>
+<codeline><highlight class="normal">109</highlight></codeline>
+<codeline><highlight class="normal">110<sp/> <sp/> <sp/>double<sp/>conductivity<sp/>=<sp/>m_data.k_base_value<sp/>*<sp/>(1.0<sp/>+<sp/>m_data.k_linear_coefficient<sp/>*<sp/>temperature);</highlight></codeline>
+<codeline><highlight class="normal">111<sp/> <sp/> <sp/>particle.set_thermal_conductivity(conductivity);</highlight></codeline>
+<codeline><highlight class="normal">112<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">113<sp/>ROCKY_PLUGIN_PRE_FORCE_ON_PARTICLES_END()</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>code<sp/>calculates<sp/>the<sp/>thermal<sp/>conductivity<sp/>for<sp/>all<sp/>active<sp/>particles</highlight></codeline>
+<codeline><highlight class="normal">at<sp/>a<sp/>given<sp/>time,<sp/>according<sp/>to<sp/>thermal<sp/>conductivity<sp/>equation<sp/>mentioned<sp/>previously.</highlight></codeline>
+<codeline><highlight class="normal">The<sp/>conductivity<sp/>value<sp/>just<sp/>calculated<sp/>is<sp/>passed<sp/>to<sp/>the<sp/>Rocky<sp/>solver<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">line<sp/>111<sp/>using<sp/>the<sp/>`set_thermal_conductivity`<sp/>method.<sp/>The<sp/>Rocky<sp/>Solver<sp/>SDK<sp/>includes</highlight></codeline>
+<codeline><highlight class="normal">equivalent<sp/>methods<sp/>associated<sp/>to<sp/>particles,<sp/>triangles<sp/>and<sp/>contacts,<sp/>for</highlight></codeline>
+<codeline><highlight class="normal">every<sp/>property<sp/>that<sp/>can<sp/>be<sp/>overridden<sp/>by<sp/>a<sp/>custom<sp/>module.<sp/>Figure<sp/>5.8</highlight></codeline>
+<codeline><highlight class="normal">shows<sp/>an<sp/>example<sp/>of<sp/>a<sp/>particle<sp/>bed<sp/>in<sp/>which<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">particles&apos;<sp/>thermal<sp/>conductivity<sp/>has<sp/>been<sp/>calculated<sp/>by<sp/>the<sp/>module</highlight></codeline>
+<codeline><highlight class="normal">described<sp/>in<sp/>this<sp/>section.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">When<sp/>a<sp/>custom<sp/>module<sp/>that<sp/>implements<sp/>a<sp/>variable<sp/>property<sp/>is<sp/>active<sp/>in<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">simulation,<sp/>Rocky<sp/>will<sp/>issue<sp/>a<sp/>warning<sp/>message,<sp/>indicating<sp/>which</highlight></codeline>
+<codeline><highlight class="normal">properties<sp/>are<sp/>being<sp/>overridden<sp/>by<sp/>the<sp/>module.<sp/>Although<sp/>the<sp/>constant</highlight></codeline>
+<codeline><highlight class="normal">property<sp/>values<sp/>being<sp/>replaced<sp/>will<sp/>remain<sp/>editable<sp/>in<sp/>the<sp/>Rocky<sp/>UI,<sp/>it</highlight></codeline>
+<codeline><highlight class="normal">is<sp/>important<sp/>to<sp/>note<sp/>that<sp/>they<sp/>will<sp/>be<sp/>ignored<sp/>in<sp/>all<sp/>the<sp/>calculations</highlight></codeline>
+<codeline><highlight class="normal">done<sp/>by<sp/>the<sp/>Rocky<sp/>solver.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">![](images/ex_prop_cond.png){html:<sp/>width=30%}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">*Figure<sp/>5.8:<sp/>Example<sp/>of<sp/>the<sp/>variable<sp/>thermal<sp/>conductivity<sp/>on<sp/>particles<sp/>specified<sp/>by<sp/>the<sp/>module*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>A<sp/>module<sp/>implementing<sp/>a<sp/>custom<sp/>SPH<sp/>model</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">As<sp/>an<sp/>example<sp/>of<sp/>the<sp/>implementation<sp/>of<sp/>a<sp/>custom<sp/>SPH<sp/>model<sp/>using<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">Rocky<sp/>Solver<sp/>SDK,<sp/>this<sp/>section<sp/>describes<sp/>the<sp/>code<sp/>associated<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">a<sp/>custom<sp/>module<sp/>that<sp/>implements<sp/>simultaneously<sp/>the<sp/>Large<sp/>Eddy<sp/>Simulation</highlight></codeline>
+<codeline><highlight class="normal">(LES)<sp/>turbulence<sp/>model*,<sp/>the<sp/>Morris<sp/>viscosity<sp/>model<sp/>and<sp/>the<sp/>Free<sp/>Slip</highlight></codeline>
+<codeline><highlight class="normal">boundary<sp/>condition<sp/>type.<sp/>Be<sp/>aware<sp/>that<sp/>when<sp/>implementing<sp/>forces<sp/>or</highlight></codeline>
+<codeline><highlight class="normal">parameters<sp/>directly<sp/>related<sp/>to<sp/>forces,<sp/>a<sp/>custom<sp/>module<sp/>must<sp/>implement</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>calculation<sp/>of<sp/>all<sp/>relevant<sp/>forces,<sp/>as<sp/>it<sp/>is<sp/>being<sp/>done<sp/>in<sp/>this</highlight></codeline>
+<codeline><highlight class="normal">example.<sp/>Note<sp/>that<sp/>not<sp/>all<sp/>forces<sp/>or<sp/>options<sp/>present<sp/>in<sp/>Rocky<sp/>are</highlight></codeline>
+<codeline><highlight class="normal">replicated<sp/>in<sp/>this<sp/>module<sp/>example,<sp/>but<sp/>only<sp/>the<sp/>most<sp/>important<sp/>ones.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">**For<sp/>more<sp/>information<sp/>about<sp/>the<sp/>model<sp/>implemented<sp/>in<sp/>this<sp/>example,<sp/>refer<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">&quot;Numerical<sp/>modelling<sp/>of<sp/>complex<sp/>turbulent<sp/>free-surface<sp/>flows<sp/>with<sp/>the<sp/>SPH</highlight></codeline>
+<codeline><highlight class="normal">method:<sp/>an<sp/>overview&quot;,<sp/>Violeau<sp/>D.,<sp/>Issa,</highlight></codeline>
+<codeline><highlight class="normal">R.,<sp/>International<sp/>Journal<sp/>of<sp/>Numerical</highlight></codeline>
+<codeline><highlight class="normal">Methods<sp/>in<sp/>Fluids,<sp/>vol.<sp/>53,<sp/>pp.<sp/>277-304,</highlight></codeline>
+<codeline><highlight class="normal">2007.*</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Module<sp/>specification<sp/>file</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>following<sp/>listing<sp/>reproduces<sp/>the<sp/>Python<sp/>file<sp/>that<sp/>includes<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">specifications<sp/>for<sp/>the<sp/>custom<sp/>module,<sp/>which<sp/>is<sp/>named<sp/>simply<sp/>as<sp/>`LES<sp/>Turbulence<sp/>Model`.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">1<sp/><sp/><sp/>import<sp/>sys</highlight></codeline>
+<codeline><highlight class="normal">2<sp/><sp/><sp/>from<sp/>pathlib<sp/>import<sp/>Path</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/>from<sp/>yapsy.IPlugin<sp/>import<sp/>IPlugin</highlight></codeline>
+<codeline><highlight class="normal">4<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_models<sp/>import<sp/>container_model,<sp/>data_model</highlight></codeline>
+<codeline><highlight class="normal">5<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_specs<sp/>import<sp/>RockyAddinSpecs</highlight></codeline>
+<codeline><highlight class="normal">6<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_types<sp/>import<sp/>Quantity</highlight></codeline>
+<codeline><highlight class="normal">7</highlight></codeline>
+<codeline><highlight class="normal">8<sp/><sp/><sp/>NAME<sp/>=<sp/>&quot;SPH<sp/>LES<sp/>Turbulence<sp/>Model&quot;</highlight></codeline>
+<codeline><highlight class="normal">9</highlight></codeline>
+<codeline><highlight class="normal">10<sp/><sp/>@data_model(icon=None,<sp/>caption=NAME)</highlight></codeline>
+<codeline><highlight class="normal">11<sp/><sp/>class<sp/>SPHModelAPIModel:</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/> <sp/> <sp/>les_smagorinsky_constant<sp/>=<sp/>Quantity(value=0.2,<sp/>unit=&apos;-&apos;,<sp/>caption=&apos;Les<sp/>Smagorinsky<sp/>Constant&apos;)</highlight></codeline>
+<codeline><highlight class="normal">13<sp/><sp/> <sp/> <sp/>les_distance_factor<sp/>=<sp/>Quantity(value=2,<sp/>unit=&apos;-&apos;,<sp/>caption=&apos;LES<sp/>Distance<sp/>Factor&apos;)</highlight></codeline>
+<codeline><highlight class="normal">14</highlight></codeline>
+<codeline><highlight class="normal">15<sp/><sp/>@data_model(icon=None,<sp/>caption=NAME)</highlight></codeline>
+<codeline><highlight class="normal">16<sp/><sp/>class<sp/>SPHForceModel:</highlight></codeline>
+<codeline><highlight class="normal">17<sp/><sp/> <sp/> <sp/>pass</highlight></codeline>
+<codeline><highlight class="normal">18<sp/><sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">19<sp/><sp/>class<sp/>SPHModelAPISpecs(RockyAddinSpecs):</highlight></codeline>
+<codeline><highlight class="normal">20</highlight></codeline>
+<codeline><highlight class="normal">21<sp/><sp/> <sp/> <sp/>name<sp/>=<sp/>NAME</highlight></codeline>
+<codeline><highlight class="normal">22</highlight></codeline>
+<codeline><highlight class="normal">23<sp/><sp/> <sp/> <sp/>model<sp/>=<sp/>SPHModelAPIModel</highlight></codeline>
+<codeline><highlight class="normal">24<sp/><sp/> <sp/> <sp/>sph_force_model<sp/>=<sp/>SPHForceModel</highlight></codeline>
+<codeline><highlight class="normal">25</highlight></codeline>
+<codeline><highlight class="normal">26<sp/><sp/> <sp/> <sp/>@classmethod</highlight></codeline>
+<codeline><highlight class="normal">27<sp/><sp/> <sp/> <sp/>def<sp/>CreateAddin(cls):</highlight></codeline>
+<codeline><highlight class="normal">28<sp/><sp/> <sp/> <sp/> <sp/> <sp/>return<sp/>cls.CreateDynamicAddin(Path(__file__).parent,<sp/>&apos;sph_les_model&apos;)</highlight></codeline>
+<codeline><highlight class="normal">29</highlight></codeline>
+<codeline><highlight class="normal">30<sp/><sp/>class<sp/>SPHAPIPlugin(IPlugin):</highlight></codeline>
+<codeline><highlight class="normal">31</highlight></codeline>
+<codeline><highlight class="normal">32<sp/><sp/> <sp/> <sp/>def<sp/>get_addin_specs(self):</highlight></codeline>
+<codeline><highlight class="normal">33<sp/><sp/> <sp/> <sp/> <sp/> <sp/>return<sp/>SPHModelAPISpecs</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Implementation<sp/>of<sp/>the<sp/>SPH<sp/>LES<sp/>turbulence<sp/>model</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">This<sp/>section<sp/>describes<sp/>the<sp/>different<sp/>parts<sp/>that<sp/>make<sp/>up<sp/>the<sp/>`sph_les_model.cu`<sp/>file<sp/>that</highlight></codeline>
+<codeline><highlight class="normal">includes<sp/>the<sp/>C++<sp/>code<sp/>implementing<sp/>the<sp/>custom<sp/>models.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">1<sp/><sp/><sp/>#define<sp/>ROCKY_CUDA_API</highlight></codeline>
+<codeline><highlight class="normal">2</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/>#include<sp/>&lt;rocky20/api/rocky_api.h&gt;</highlight></codeline>
+<codeline><highlight class="normal">4<sp/><sp/><sp/>#include<sp/>&lt;rocky20/api/rocky_api_sph.h&gt;</highlight></codeline>
+<codeline><highlight class="normal">5<sp/><sp/><sp/>#include<sp/>&lt;rocky20/api/device/api_backend.hpp&gt;</highlight></codeline>
+<codeline><highlight class="normal">6<sp/><sp/><sp/>#include<sp/>&lt;rocky20/api/sph/api_cuda_sph.hpp&gt;</highlight></codeline>
+<codeline><highlight class="normal">7</highlight></codeline>
+<codeline><highlight class="normal">8<sp/><sp/><sp/>struct<sp/>Data</highlight></codeline>
+<codeline><highlight class="normal">9<sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">10<sp/><sp/> <sp/> <sp/>int<sp/>turbulent_viscosity_index<sp/>{<sp/>-1<sp/>};</highlight></codeline>
+<codeline><highlight class="normal">11<sp/><sp/> <sp/> <sp/>double<sp/>les_smagorinsky_constant;</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/> <sp/> <sp/>double<sp/>les_distance_factor;</highlight></codeline>
+<codeline><highlight class="normal">13<sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>initial<sp/>part<sp/>of<sp/>the<sp/>file<sp/>reproduced<sp/>above<sp/>includes<sp/>the<sp/>definition<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>preprocessor<sp/>name<sp/>`ROCKY_CUDA_API`<sp/>that<sp/>enables<sp/>the<sp/>compilation<sp/>of<sp/>the<sp/>module<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">CUDA<sp/>and,<sp/>in<sp/>turn,<sp/>enables<sp/>the<sp/>module<sp/>to<sp/>be<sp/>used<sp/>in<sp/>a<sp/>simulation</highlight></codeline>
+<codeline><highlight class="normal">processed<sp/>on<sp/>GPU.<sp/>Subsequently,<sp/>between<sp/>lines<sp/>8<sp/>and<sp/>13,<sp/>it<sp/>is<sp/>defined<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">local<sp/>`struct`<sp/>that<sp/>will<sp/>be<sp/>used<sp/>to<sp/>store<sp/>the<sp/>data<sp/>needed<sp/>by<sp/>the<sp/>module.<sp/>In</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>current<sp/>module,<sp/>a<sp/>parameter<sp/>needed<sp/>is<sp/>the<sp/>index<sp/>`turbulent_viscosity_index`<sp/>assigned<sp/>to<sp/>a</highlight></codeline>
+<codeline><highlight class="normal">scalar<sp/>that<sp/>stores<sp/>the<sp/>turbulent<sp/>viscosity<sp/>calculated<sp/>during<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">simulation.<sp/>The<sp/>other<sp/>two<sp/>parameters<sp/>are<sp/>needed<sp/>to<sp/>store<sp/>the<sp/>data</highlight></codeline>
+<codeline><highlight class="normal">entered<sp/>by<sp/>the<sp/>user<sp/>via<sp/>the<sp/>Rocky<sp/>UI.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">48<sp/><sp/>ROCKY_PLUGIN(&quot;SPH<sp/>LES<sp/>Turbulence<sp/>Model&quot;,<sp/>&quot;1.0.0&quot;)</highlight></codeline>
+<codeline><highlight class="normal">49<sp/><sp/>ROCKY_PLUGIN_SPH()</highlight></codeline>
+<codeline><highlight class="normal">50</highlight></codeline>
+<codeline><highlight class="normal">51<sp/><sp/>ROCKY_PLUGIN_CONFIGURE(input_data,<sp/>module_data)</highlight></codeline>
+<codeline><highlight class="normal">52<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">53<sp/><sp/> <sp/> <sp/>ROCKY_MESSAGE_LOG(&quot;SPHModelAPIAddin:<sp/>configure&quot;);</highlight></codeline>
+<codeline><highlight class="normal">54<sp/><sp/> <sp/> <sp/>Data*<sp/>data<sp/>=<sp/>new<sp/>Data();</highlight></codeline>
+<codeline><highlight class="normal">55<sp/><sp/> <sp/> <sp/>auto<sp/>model_properties<sp/>=<sp/>input_data.get_model();</highlight></codeline>
+<codeline><highlight class="normal">56<sp/><sp/> <sp/> <sp/>data-&gt;les_smagorinsky_constant<sp/>=<sp/>model_properties.get_double(&quot;les_smagorinsky_constant&quot;);</highlight></codeline>
+<codeline><highlight class="normal">57<sp/><sp/> <sp/> <sp/>data-&gt;les_distance_factor<sp/>=<sp/>model_properties.get_double(&quot;les_distance_factor&quot;);</highlight></codeline>
+<codeline><highlight class="normal">58<sp/><sp/> <sp/> <sp/>module_data<sp/>=<sp/>static_cast&lt;void*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">59<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">60</highlight></codeline>
+<codeline><highlight class="normal">61<sp/><sp/>ROCKY_PLUGIN_SETUP(model,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">62<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">63<sp/><sp/> <sp/> <sp/>ROCKY_MESSAGE_LOG(&quot;SPHModelAPIAddin:<sp/>setup&quot;);</highlight></codeline>
+<codeline><highlight class="normal">64<sp/><sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;Data*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">65</highlight></codeline>
+<codeline><highlight class="normal">66<sp/><sp/> <sp/> <sp/>auto<sp/>sph_model<sp/>=<sp/>get_sph_model(model);</highlight></codeline>
+<codeline><highlight class="normal">67<sp/><sp/> <sp/> <sp/>auto<sp/>sph_scalars<sp/>=<sp/>sph_model.get_sph_element_scalars();</highlight></codeline>
+<codeline><highlight class="normal">68<sp/><sp/> <sp/> <sp/>data-&gt;turbulent_viscosity_index<sp/>=<sp/>sph_scalars.add(&quot;Turbulent<sp/>Viscosity&quot;,<sp/>&quot;Pa.s&quot;);</highlight></codeline>
+<codeline><highlight class="normal">69<sp/><sp/> <sp/> <sp/>sph_scalars.set_operation(data-&gt;turbulent_viscosity_index,<sp/>sphotReset,<sp/>sphopPreForce);</highlight></codeline>
+<codeline><highlight class="normal">70<sp/><sp/> <sp/> <sp/>sph_scalars.set_operation(data-&gt;turbulent_viscosity_index,<sp/>sphotSum,<sp/>sphopPreForce);</highlight></codeline>
+<codeline><highlight class="normal">71<sp/><sp/> <sp/> <sp/>sph_scalars.set_operation(data-&gt;turbulent_viscosity_index,<sp/>sphotUpdate,<sp/>sphopPreForce);</highlight></codeline>
+<codeline><highlight class="normal">72<sp/><sp/> <sp/> <sp/>ROCKY_MESSAGE_LOG(</highlight></codeline>
+<codeline><highlight class="normal">73<sp/><sp/> <sp/> <sp/> <sp/> <sp/>&quot;Added<sp/>scalar<sp/>&quot;<sp/>&lt;&lt;<sp/>data-&gt;turbulent_viscosity_index<sp/>&lt;&lt;<sp/>&quot;<sp/>reset/sum/update<sp/>point<sp/>&quot;</highlight></codeline>
+<codeline><highlight class="normal">74<sp/><sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>&lt;&lt;<sp/>sphopPreForce);</highlight></codeline>
+<codeline><highlight class="normal">75<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">76</highlight></codeline>
+<codeline><highlight class="normal">77<sp/><sp/>ROCKY_PLUGIN_INITIALIZE_CUDA(model,<sp/>host_data,<sp/>device_id,<sp/>_device_data)</highlight></codeline>
+<codeline><highlight class="normal">78<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">79<sp/><sp/> <sp/> <sp/>ROCKY_INFO_LOG(&quot;SPHModelAPIAddin:<sp/>initialize_cuda&quot;);</highlight></codeline>
+<codeline><highlight class="normal">80<sp/><sp/> <sp/> <sp/>Data*<sp/>device_copy<sp/>=<sp/>nullptr;</highlight></codeline>
+<codeline><highlight class="normal">81<sp/><sp/> <sp/> <sp/>CUDA_MALLOC_TYPE(device_copy,<sp/>1,<sp/>Data);</highlight></codeline>
+<codeline><highlight class="normal">82<sp/><sp/> <sp/> <sp/>CUDA_COPY_H2D(device_copy,<sp/>static_cast&lt;Data*&gt;(host_data),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal">83<sp/><sp/> <sp/> <sp/>_device_data<sp/>=<sp/>static_cast&lt;void*&gt;(device_copy);</highlight></codeline>
+<codeline><highlight class="normal">84<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>block<sp/>above<sp/>includes<sp/>the<sp/>associated<sp/>code<sp/>to<sp/>the<sp/>initialization</highlight></codeline>
+<codeline><highlight class="normal">hooks.<sp/>As<sp/>most<sp/>of<sp/>these<sp/>operations<sp/>were<sp/>covered<sp/>in<sp/>chapter</highlight></codeline>
+<codeline><highlight class="normal">[Rocky<sp/>module<sp/>examples](#rocky-module-examples),<sp/>they<sp/>will<sp/>be<sp/>described<sp/>here<sp/>very<sp/>briefly.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>`ROCKY_PLUGIN_CONFIGURE`<sp/>hook,<sp/>the<sp/>values<sp/>for<sp/>the<sp/>module<sp/>parameter<sp/>are<sp/>stored<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">array<sp/>within<sp/>the<sp/>module<sp/>local<sp/>`struct`<sp/>defined<sp/>previously.<sp/>Subsequently,<sp/>in</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>`ROCKY_PLUGIN_SETUP`<sp/>hook,<sp/>a<sp/>scalar<sp/>is<sp/>created<sp/>for<sp/>storing<sp/>the<sp/>values<sp/>of<sp/>the<sp/>turbulent</highlight></codeline>
+<codeline><highlight class="normal">viscosity<sp/>calculated<sp/>in<sp/>the<sp/>module.<sp/>This<sp/>scalar<sp/>is<sp/>needed<sp/>as<sp/>the<sp/>values</highlight></codeline>
+<codeline><highlight class="normal">from<sp/>neighbor<sp/>elements<sp/>must<sp/>be<sp/>accumulated<sp/>in<sp/>order<sp/>to<sp/>approximate<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">tensor<sp/>of<sp/>strain<sp/>rate<sp/>as<sp/>a<sp/>previous<sp/>step<sp/>for<sp/>calculating<sp/>the<sp/>turbulent</highlight></codeline>
+<codeline><highlight class="normal">viscosity.<sp/>In<sp/>the<sp/>lines<sp/>68-70,<sp/>three<sp/>operations<sp/>made<sp/>on<sp/>the<sp/>scalar<sp/>that</highlight></codeline>
+<codeline><highlight class="normal">stores<sp/>turbulent<sp/>viscosity<sp/>are<sp/>made:<sp/>reset<sp/>values,<sp/>sum<sp/>of<sp/>values</highlight></codeline>
+<codeline><highlight class="normal">associated<sp/>to<sp/>elements<sp/>in<sp/>the<sp/>halo<sp/>regions<sp/>between<sp/>GPUs,<sp/>and<sp/>copy<sp/>of</highlight></codeline>
+<codeline><highlight class="normal">values<sp/>of<sp/>those<sp/>elements<sp/>between<sp/>GPUs.<sp/>The<sp/>last<sp/>two<sp/>operations<sp/>are<sp/>done</highlight></codeline>
+<codeline><highlight class="normal">only<sp/>when<sp/>the<sp/>module<sp/>is<sp/>being<sp/>employed<sp/>in<sp/>simulations<sp/>with<sp/>multi<sp/>GPU.</highlight></codeline>
+<codeline><highlight class="normal">According<sp/>to<sp/>the<sp/>specification<sp/>made,<sp/>the<sp/>order<sp/>of<sp/>operations<sp/>in<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">module<sp/>is<sp/>the<sp/>following:</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>1.<sp/><sp/>Reset<sp/>of<sp/>scalars</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>2.<sp/><sp/>Hook<sp/>PRE_FORCE_ON_ELEMENT_INTERACTIONS</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>3.<sp/><sp/>Hook<sp/>PRE_FORCE_ON_TRIANGLE_INTERACTIONS</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>4.<sp/><sp/>Sum<sp/>of<sp/>halo<sp/>values<sp/>between<sp/>GPUs</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>5.<sp/><sp/>Hook<sp/>PRE_FORCE_ON_ELEMENTS</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>6.<sp/><sp/>Copy<sp/>of<sp/>halo<sp/>values<sp/>between<sp/>GPUs</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>7.<sp/><sp/>Hook<sp/>FORCE_ON_ELEMENT_INTERACTIONS</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>8.<sp/><sp/>Hook<sp/>FORCE_ON_TRIANGLE_INTERACTIONS</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">In<sp/>the<sp/>`ROCKY_PLUGIN_INITIALIZE_CUDA`<sp/>hook,<sp/>the<sp/>local<sp/>module<sp/>data<sp/>is<sp/>copied<sp/>to<sp/>GPU<sp/>devices<sp/>after</highlight></codeline>
+<codeline><highlight class="normal">being<sp/>allocated<sp/>the<sp/>required<sp/>memory<sp/>block<sp/>there.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">115<sp/>//<sp/>Pre-post<sp/>force<sp/>calls<sp/>order:<sp/>on_interactions<sp/>-&gt;<sp/>on_elements</highlight></codeline>
+<codeline><highlight class="normal">116<sp/>ROCKY_PLUGIN_PRE_FORCE_ON_SPH_ELEMENT_INTERACTIONS(device_model,<sp/>sph_model,<sp/>sph_interaction,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">117<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">118<sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;Data*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">119</highlight></codeline>
+<codeline><highlight class="normal">120<sp/> <sp/> <sp/>//<sp/>Density<sp/>for<sp/>interacting<sp/>elements</highlight></codeline>
+<codeline><highlight class="normal">121<sp/> <sp/> <sp/>auto<sp/>home_element<sp/>=<sp/>sph_interaction.get_home_element();</highlight></codeline>
+<codeline><highlight class="normal">122<sp/> <sp/> <sp/>auto<sp/>near_element<sp/>=<sp/>sph_interaction.get_near_element();</highlight></codeline>
+<codeline><highlight class="normal">123<sp/> <sp/> <sp/>auto<sp/>home_scalars<sp/>=<sp/>home_element.get_scalars();</highlight></codeline>
+<codeline><highlight class="normal">124<sp/> <sp/> <sp/>auto<sp/>near_scalars<sp/>=<sp/>near_element.get_scalars();</highlight></codeline>
+<codeline><highlight class="normal">125<sp/> <sp/> <sp/>const<sp/>float<sp/>home_density<sp/>=<sp/>home_element.get_density();</highlight></codeline>
+<codeline><highlight class="normal">126<sp/> <sp/> <sp/>const<sp/>float<sp/>near_density<sp/>=<sp/>near_element.get_density();</highlight></codeline>
+<codeline><highlight class="normal">127</highlight></codeline>
+<codeline><highlight class="normal">128<sp/> <sp/> <sp/>//<sp/>Distance<sp/>&amp;<sp/>velocity<sp/>difference<sp/>between<sp/>elements</highlight></codeline>
+<codeline><highlight class="normal">129<sp/> <sp/> <sp/>const<sp/>float3<sp/>d_diff<sp/>=<sp/>sph_interaction.calculate_elements_distance();</highlight></codeline>
+<codeline><highlight class="normal">130<sp/> <sp/> <sp/>const<sp/>float3<sp/>v_diff<sp/>=<sp/>sph_interaction.calculate_elements_relative_velocity();</highlight></codeline>
+<codeline><highlight class="normal">131<sp/> <sp/> <sp/>float<sp/>dd<sp/>=<sp/>get_norm(d_diff);</highlight></codeline>
+<codeline><highlight class="normal">132</highlight></codeline>
+<codeline><highlight class="normal">133<sp/> <sp/> <sp/>//<sp/>Calculating<sp/>the<sp/>filtered<sp/>strain<sp/>rate<sp/>per<sp/>Violeau<sp/>&amp;<sp/>Issa<sp/>(2007)</highlight></codeline>
+<codeline><highlight class="normal">134<sp/> <sp/> <sp/>const<sp/>float<sp/>kernel_derivative<sp/>=<sp/>sph_model.get_kernel_derivative(dd);</highlight></codeline>
+<codeline><highlight class="normal">135<sp/> <sp/> <sp/>dd<sp/>=<sp/>max(dd,<sp/>sph_model.get_minimum_distance());</highlight></codeline>
+<codeline><highlight class="normal">136<sp/> <sp/> <sp/>const<sp/>float<sp/>d_strain_rate<sp/>=<sp/>-0.5f<sp/>*<sp/>sph_model.get_mass()<sp/>*<sp/>(home_density<sp/>+<sp/>near_density)</highlight></codeline>
+<codeline><highlight class="normal">137<sp/> <sp/> <sp/> <sp/> <sp/>/<sp/>(home_density<sp/>*<sp/>near_density)<sp/>*<sp/>dot(v_diff)<sp/>*<sp/>kernel_derivative<sp/>/<sp/>dd;</highlight></codeline>
+<codeline><highlight class="normal">138</highlight></codeline>
+<codeline><highlight class="normal">139<sp/> <sp/> <sp/>//<sp/>Accumulating<sp/>strain<sp/>rate<sp/>contributions<sp/>on<sp/>the<sp/>turbulent<sp/>viscosity<sp/>scalar</highlight></codeline>
+<codeline><highlight class="normal">140<sp/> <sp/> <sp/>home_scalars.add_scalar(data-&gt;turbulent_viscosity_index,<sp/>d_strain_rate);</highlight></codeline>
+<codeline><highlight class="normal">141<sp/> <sp/> <sp/>near_scalars.add_scalar(data-&gt;turbulent_viscosity_index,<sp/>d_strain_rate);</highlight></codeline>
+<codeline><highlight class="normal">142<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">143<sp/>ROCKY_PLUGIN_PRE_FORCE_ON_SPH_ELEMENT_INTERACTIONS_END()</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>block<sp/>of<sp/>code<sp/>above<sp/>implements<sp/>the<sp/>calculation<sp/>of<sp/>the<sp/>rate<sp/>of<sp/>strain</highlight></codeline>
+<codeline><highlight class="normal">tensor<sp/>for<sp/>the<sp/>SPH<sp/>elements<sp/>that<sp/>are<sp/>in<sp/>contact,<sp/>which<sp/>is<sp/>used<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">calculate<sp/>the<sp/>turbulent<sp/>viscosity<sp/>values<sp/>in<sp/>the<sp/>following<sp/>steps.<sp/>The</highlight></codeline>
+<codeline><highlight class="normal">rate<sp/>of<sp/>strain<sp/>tensor,<sp/>`d_shear`,<sp/>is<sp/>calculated<sp/>according<sp/>to<sp/>the<sp/>equation</highlight></codeline>
+<codeline><highlight class="normal">available<sp/>in<sp/>section<sp/>2.4<sp/>of<sp/>the<sp/>SPH<sp/>Technical<sp/>Manual.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">115<sp/>ROCKY_PLUGIN_PRE_FORCE_ON_SPH_ELEMENTS(device_model,<sp/>sph_model,<sp/>sph_element,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">116<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">117<sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;Data*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">118</highlight></codeline>
+<codeline><highlight class="normal">119<sp/>//<sp/>Calculating<sp/>turbulence<sp/>coefficient</highlight></codeline>
+<codeline><highlight class="normal">120<sp/>float<sp/>coeff<sp/>=<sp/>data-&gt;les_smagorinsky_constant<sp/>*<sp/>data-&gt;les_distance_factor</highlight></codeline>
+<codeline><highlight class="normal">121<sp/> <sp/> <sp/>*<sp/>sph_model.get_initial_element_spacing();</highlight></codeline>
+<codeline><highlight class="normal">122<sp/>coeff<sp/>*=<sp/>coeff;</highlight></codeline>
+<codeline><highlight class="normal">123<sp/>coeff<sp/>*=<sp/>sph_model.get_fluid_density();</highlight></codeline>
+<codeline><highlight class="normal">124</highlight></codeline>
+<codeline><highlight class="normal">125<sp/>//<sp/>Updating<sp/>element<sp/>turbulent<sp/>viscosity</highlight></codeline>
+<codeline><highlight class="normal">126<sp/>auto<sp/>element_scalars<sp/>=<sp/>sph_element.get_scalars();</highlight></codeline>
+<codeline><highlight class="normal">127<sp/>element_scalars.set_scalar(</highlight></codeline>
+<codeline><highlight class="normal">128<sp/> <sp/> <sp/>data-&gt;turbulent_viscosity_index,</highlight></codeline>
+<codeline><highlight class="normal">129<sp/> <sp/> <sp/>coeff<sp/>*<sp/>sqrt(2.0f<sp/>*<sp/>element_scalars.get_scalar(data-&gt;turbulent_viscosity_index)));</highlight></codeline>
+<codeline><highlight class="normal">130<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">131<sp/>ROCKY_PLUGIN_PRE_FORCE_ON_SPH_ELEMENTS_END()</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>block<sp/>of<sp/>code<sp/>above<sp/>implements<sp/>the<sp/>turbulence<sp/>viscosity<sp/>calculation,</highlight></codeline>
+<codeline><highlight class="normal">including<sp/>the<sp/>rate<sp/>of<sp/>strain<sp/>tensor<sp/>previously<sp/>calculated<sp/>and</highlight></codeline>
+<codeline><highlight class="normal">considering<sp/>the<sp/>Smagorinsky<sp/>constant,<sp/>the<sp/>LES<sp/>distance<sp/>factor<sp/>parameter</highlight></codeline>
+<codeline><highlight class="normal">and<sp/>the<sp/>initial<sp/>SPH<sp/>elements<sp/>spacing.<sp/>It<sp/>represents<sp/>exactly<sp/>the<sp/>same</highlight></codeline>
+<codeline><highlight class="normal">equation<sp/>for<sp/>the<sp/>turbulent<sp/>viscosty<sp/>term<sp/>calculation<sp/>used<sp/>in<sp/>the<sp/>LES</highlight></codeline>
+<codeline><highlight class="normal">model<sp/>and<sp/>available<sp/>in<sp/>section<sp/>2.3<sp/>of<sp/>the<sp/>SPH<sp/>Technical<sp/>Manual.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">115<sp/>ROCKY_PLUGIN_FORCE_ON_SPH_ELEMENT_INTERACTIONS(</highlight></codeline>
+<codeline><highlight class="normal">116<sp/> <sp/> <sp/>rocky_model,<sp/>sph_model,<sp/>sph_interaction,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">117<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">118<sp/> <sp/> <sp/>const<sp/>float<sp/>mass<sp/>=<sp/>sph_model.get_mass();</highlight></codeline>
+<codeline><highlight class="normal">119<sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;Data*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">120</highlight></codeline>
+<codeline><highlight class="normal">121<sp/> <sp/> <sp/>//<sp/>Interacting<sp/>elements</highlight></codeline>
+<codeline><highlight class="normal">122<sp/> <sp/> <sp/>auto<sp/>home_element<sp/>=<sp/>sph_interaction.get_home_element();</highlight></codeline>
+<codeline><highlight class="normal">123<sp/> <sp/> <sp/>auto<sp/>near_element<sp/>=<sp/>sph_interaction.get_near_element();</highlight></codeline>
+<codeline><highlight class="normal">124<sp/> <sp/> <sp/>auto<sp/>home_scalars<sp/>=<sp/>home_element.get_scalars();</highlight></codeline>
+<codeline><highlight class="normal">125<sp/> <sp/> <sp/>auto<sp/>near_scalars<sp/>=<sp/>near_element.get_scalars();</highlight></codeline>
+<codeline><highlight class="normal">126</highlight></codeline>
+<codeline><highlight class="normal">127<sp/> <sp/> <sp/>//<sp/>Distance<sp/>&amp;<sp/>relative<sp/>velocity<sp/>between<sp/>interacting<sp/>elements</highlight></codeline>
+<codeline><highlight class="normal">128<sp/> <sp/> <sp/>const<sp/>float3<sp/>d_diff<sp/>=<sp/>sph_interaction.calculate_elements_distance();</highlight></codeline>
+<codeline><highlight class="normal">129<sp/> <sp/> <sp/>const<sp/>float3<sp/>v_diff<sp/>=<sp/>sph_interaction.calculate_elements_relative_velocity();</highlight></codeline>
+<codeline><highlight class="normal">130<sp/> <sp/> <sp/>float<sp/>dd<sp/>=<sp/>get_norm(d_diff);</highlight></codeline>
+<codeline><highlight class="normal">131<sp/> <sp/> <sp/>const<sp/>float<sp/>kernel_derivative<sp/>=<sp/>sph_model.get_kernel_derivative(dd);</highlight></codeline>
+<codeline><highlight class="normal">132</highlight></codeline>
+<codeline><highlight class="normal">133<sp/> <sp/> <sp/>//<sp/>Pressures<sp/>to<sp/>density<sp/>ratio</highlight></codeline>
+<codeline><highlight class="normal">134<sp/> <sp/> <sp/>const<sp/>float<sp/>home_density<sp/>=<sp/>home_element.get_density();</highlight></codeline>
+<codeline><highlight class="normal">135<sp/> <sp/> <sp/>const<sp/>float<sp/>near_density<sp/>=<sp/>near_element.get_density();</highlight></codeline>
+<codeline><highlight class="normal">136<sp/> <sp/> <sp/>const<sp/>float<sp/>home_pres_dens<sp/>=<sp/>home_element.get_pressure()<sp/>/<sp/>(home_density<sp/>*<sp/>home_density);</highlight></codeline>
+<codeline><highlight class="normal">137<sp/> <sp/> <sp/>const<sp/>float<sp/>near_pres_dens<sp/>=<sp/>near_element.get_pressure()<sp/>/<sp/>(near_density<sp/>*<sp/>near_density);</highlight></codeline>
+<codeline><highlight class="normal">138</highlight></codeline>
+<codeline><highlight class="normal">139<sp/> <sp/> <sp/>//<sp/>Acceleration<sp/>due<sp/>to<sp/>pressure<sp/>forces</highlight></codeline>
+<codeline><highlight class="normal">140<sp/> <sp/> <sp/>float<sp/>acc<sp/>=<sp/>kernel_derivative<sp/>*<sp/>mass<sp/>*<sp/>(home_pres_dens<sp/>+<sp/>near_pres_dens);</highlight></codeline>
+<codeline><highlight class="normal">141</highlight></codeline>
+<codeline><highlight class="normal">142<sp/> <sp/> <sp/>dd<sp/>=<sp/>max(dd,<sp/>sph_model.get_minimum_distance());</highlight></codeline>
+<codeline><highlight class="normal">143<sp/> <sp/> <sp/>float3<sp/>acceleration<sp/>=<sp/>-acc<sp/>*<sp/>d_diff<sp/>/<sp/>dd;</highlight></codeline>
+<codeline><highlight class="normal">144</highlight></codeline>
+<codeline><highlight class="normal">145<sp/> <sp/> <sp/>//<sp/>Viscous<sp/>terms<sp/>+<sp/>LES<sp/>turbulent<sp/>model</highlight></codeline>
+<codeline><highlight class="normal">146<sp/> <sp/> <sp/>float<sp/>home_viscosity<sp/>=<sp/>sph_model.get_fluid_viscosity();</highlight></codeline>
+<codeline><highlight class="normal">147<sp/> <sp/> <sp/>float<sp/>near_viscosity<sp/>=<sp/>sph_model.get_fluid_viscosity();</highlight></codeline>
+<codeline><highlight class="normal">148<sp/> <sp/> <sp/>if<sp/>(!home_element.is_dem_coupled()<sp/>&amp;&amp;<sp/>!near_element.is_dem_coupled())</highlight></codeline>
+<codeline><highlight class="normal">149<sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">150<sp/> <sp/> <sp/> <sp/> <sp/>home_viscosity<sp/>+=<sp/>home_scalars.get_scalar(data-&gt;turbulent_viscosity_index);</highlight></codeline>
+<codeline><highlight class="normal">151<sp/> <sp/> <sp/> <sp/> <sp/>near_viscosity<sp/>+=<sp/>near_scalars.get_scalar(data-&gt;turbulent_viscosity_index);</highlight></codeline>
+<codeline><highlight class="normal">152<sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">153</highlight></codeline>
+<codeline><highlight class="normal">154<sp/> <sp/> <sp/>/*<sp/>Morris<sp/>et<sp/>al.<sp/>(1997)<sp/>approximation<sp/>for<sp/>the<sp/>viscous<sp/>term<sp/>*/</highlight></codeline>
+<codeline><highlight class="normal">155<sp/> <sp/> <sp/>float<sp/>viscosity_coefficient<sp/>=<sp/>mass<sp/>*<sp/>(home_viscosity<sp/>+<sp/>near_viscosity)<sp/>*<sp/>kernel_derivative</highlight></codeline>
+<codeline><highlight class="normal">156<sp/> <sp/> <sp/> <sp/> <sp/>/<sp/>(home_density<sp/>*<sp/>near_density)<sp/>/<sp/>dd;</highlight></codeline>
+<codeline><highlight class="normal">157<sp/> <sp/> <sp/>acceleration<sp/>+=<sp/>viscosity_coefficient<sp/>*<sp/>v_diff;</highlight></codeline>
+<codeline><highlight class="normal">158</highlight></codeline>
+<codeline><highlight class="normal">159<sp/> <sp/> <sp/>//<sp/>Setting<sp/>accelerations</highlight></codeline>
+<codeline><highlight class="normal">160<sp/> <sp/> <sp/>sph_interaction.add_acceleration(acceleration);</highlight></codeline>
+<codeline><highlight class="normal">161<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">162<sp/>ROCKY_PLUGIN_FORCE_ON_SPH_ELEMENT_INTERACTIONS_END()</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>block<sp/>of<sp/>code<sp/>above<sp/>implements<sp/>the<sp/>LES<sp/>turbulence<sp/>SPH<sp/>force<sp/>model.</highlight></codeline>
+<codeline><highlight class="normal">The<sp/>elements<sp/>accelerations<sp/>due<sp/>to<sp/>pressure<sp/>and<sp/>viscous<sp/>forces<sp/>are</highlight></codeline>
+<codeline><highlight class="normal">calculated,<sp/>regarding<sp/>Morris<sp/>formulation<sp/>for<sp/>the<sp/>laminar<sp/>viscosity</highlight></codeline>
+<codeline><highlight class="normal">available<sp/>in<sp/>section<sp/>2.3.3.1<sp/>of<sp/>the<sp/>SPH<sp/>Technical<sp/>Manual.<sp/>Bear<sp/>in<sp/>mind</highlight></codeline>
+<codeline><highlight class="normal">that<sp/>this<sp/>hook<sp/>overrides<sp/>all<sp/>internal<sp/>force<sp/>calculations.<sp/>Thus,<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">pressure<sp/>forces<sp/>are<sp/>calculated<sp/>besides<sp/>the<sp/>viscous<sp/>ones,<sp/>which<sp/>are<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">only<sp/>affected<sp/>by<sp/>the<sp/>turbulent<sp/>viscosity<sp/>previously<sp/>calculated.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">115<sp/>ROCKY_PLUGIN_FORCE_ON_SPH_TRIANGLE_INTERACTIONS(</highlight></codeline>
+<codeline><highlight class="normal">116<sp/> <sp/> <sp/>rocky_model,<sp/>sph_model,<sp/>sph_interaction,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">117<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">118<sp/> <sp/> <sp/>auto<sp/>home_element<sp/>=<sp/>sph_interaction.get_home_element();</highlight></codeline>
+<codeline><highlight class="normal">119<sp/> <sp/> <sp/>const<sp/>float<sp/>mass<sp/>=<sp/>sph_model.get_mass();</highlight></codeline>
+<codeline><highlight class="normal">120</highlight></codeline>
+<codeline><highlight class="normal">121<sp/> <sp/> <sp/>/*<sp/>Boundary<sp/>forces<sp/>on<sp/>free<sp/>SPH<sp/>elements<sp/>only</highlight></codeline>
+<codeline><highlight class="normal">122<sp/> <sp/> <sp/> <sp/> <sp/>Viscous<sp/>forces<sp/>are<sp/>not<sp/>considered<sp/>(Free<sp/>Slip<sp/>Boundary)<sp/>*/</highlight></codeline>
+<codeline><highlight class="normal">123</highlight></codeline>
+<codeline><highlight class="normal">124<sp/> <sp/> <sp/>if<sp/>(home_element.is_enabled()<sp/>&amp;&amp;<sp/>!home_element.is_dem_coupled())</highlight></codeline>
+<codeline><highlight class="normal">125<sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">126<sp/> <sp/> <sp/> <sp/> <sp/>//<sp/>Interaction<sp/>distance<sp/>and<sp/>velocity</highlight></codeline>
+<codeline><highlight class="normal">127<sp/> <sp/> <sp/> <sp/> <sp/>const<sp/>float<sp/>distance<sp/>=<sp/>sph_interaction.get_distance_to_home();</highlight></codeline>
+<codeline><highlight class="normal">128<sp/> <sp/> <sp/> <sp/> <sp/>const<sp/>float3<sp/>unit_vector<sp/>=<sp/>sph_interaction.get_unit_vector();</highlight></codeline>
+<codeline><highlight class="normal">129<sp/> <sp/> <sp/> <sp/> <sp/>const<sp/>auto<sp/>boundary_velocity<sp/>=<sp/>sph_interaction.get_boundary_velocity();</highlight></codeline>
+<codeline><highlight class="normal">130</highlight></codeline>
+<codeline><highlight class="normal">131<sp/> <sp/> <sp/> <sp/> <sp/>//<sp/>Normal<sp/>Acceleration</highlight></codeline>
+<codeline><highlight class="normal">132<sp/> <sp/> <sp/> <sp/> <sp/>float<sp/>force<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline><highlight class="normal">133<sp/> <sp/> <sp/> <sp/> <sp/>float<sp/>dd<sp/>=<sp/>sph_model.get_boundary_distance_normal_factor()</highlight></codeline>
+<codeline><highlight class="normal">134<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>*<sp/>sph_model.get_initial_element_spacing()<sp/>-<sp/>distance;</highlight></codeline>
+<codeline><highlight class="normal">135<sp/> <sp/> <sp/> <sp/> <sp/>float<sp/>vnorm<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline><highlight class="normal">136<sp/> <sp/> <sp/> <sp/> <sp/>const<sp/>float3<sp/>home_velocity<sp/>=<sp/>sph_interaction.get_home_element_velocity();</highlight></codeline>
+<codeline><highlight class="normal">137<sp/> <sp/> <sp/> <sp/> <sp/>if<sp/>(dd<sp/>&gt;<sp/>0.0f)</highlight></codeline>
+<codeline><highlight class="normal">138<sp/> <sp/> <sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">139<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>//<sp/>Elastic<sp/>part</highlight></codeline>
+<codeline><highlight class="normal">140<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>force<sp/>+=<sp/>sph_model.get_stiffness()<sp/>*<sp/>dd;</highlight></codeline>
+<codeline><highlight class="normal">141</highlight></codeline>
+<codeline><highlight class="normal">142<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>//<sp/>Dissipation</highlight></codeline>
+<codeline><highlight class="normal">143<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>vnorm<sp/>=<sp/>dot(unit_vector,<sp/>home_velocity<sp/>-<sp/>boundary_velocity);</highlight></codeline>
+<codeline><highlight class="normal">144<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>force<sp/>-=<sp/>sph_model.get_damping_coefficient()<sp/>*<sp/>vnorm;</highlight></codeline>
+<codeline><highlight class="normal">145<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>force<sp/>=<sp/>max(0.0f,<sp/>force);</highlight></codeline>
+<codeline><highlight class="normal">146<sp/> <sp/> <sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">147</highlight></codeline>
+<codeline><highlight class="normal">148<sp/> <sp/> <sp/> <sp/> <sp/>//<sp/>Setting<sp/>forces</highlight></codeline>
+<codeline><highlight class="normal">149<sp/> <sp/> <sp/> <sp/> <sp/>sph_interaction.add_force(force<sp/>*<sp/>unit_vector);</highlight></codeline>
+<codeline><highlight class="normal">150<sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">151<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">152<sp/>ROCKY_PLUGIN_FORCE_ON_SPH_TRIANGLE_INTERACTIONS_END()</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">The<sp/>block<sp/>of<sp/>code<sp/>above<sp/>implements<sp/>the<sp/>normal<sp/>boundary<sp/>forces</highlight></codeline>
+<codeline><highlight class="normal">calculation<sp/>regarding<sp/>the<sp/>free<sp/>slip<sp/>boundary<sp/>condition,<sp/>that<sp/>uses<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">DEM-style<sp/>interaction<sp/>between<sp/>the<sp/>elements<sp/>and<sp/>the<sp/>boundaries<sp/>triangles.</highlight></codeline>
+<codeline><highlight class="normal">The<sp/>normal<sp/>repulsive<sp/>forces<sp/>are<sp/>calculated<sp/>for<sp/>the<sp/>SPH<sp/>elements<sp/>using</highlight></codeline>
+<codeline><highlight class="normal">the<sp/>spring-dashpot<sp/>model,<sp/>with<sp/>an<sp/>elastic<sp/>and<sp/>a<sp/>viscous<sp/>terms,<sp/>using<sp/>the</highlight></codeline>
+<codeline><highlight class="normal">equations<sp/>in<sp/>section<sp/>[Specification<sp/>of<sp/>custom<sp/>models](#specification-of-custom-models)<sp/>of<sp/>the<sp/>SPH<sp/>Technical<sp/>Manual.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline><highlight class="normal">115<sp/>ROCKY_PLUGIN_SPH_END()</highlight></codeline>
+<codeline><highlight class="normal">116<sp/>ROCKY_PLUGIN_END</highlight></codeline>
+<codeline><highlight class="normal">```</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">After<sp/>the<sp/>module<sp/>is<sp/>built<sp/>following<sp/>the<sp/>steps<sp/>given<sp/>in<sp/>section</highlight></codeline>
+<codeline><highlight class="normal">[Building<sp/>Procedures](#building-procedures),<sp/>the<sp/>module<sp/>will<sp/>be<sp/>available<sp/>to</highlight></codeline>
+<codeline><highlight class="normal">be<sp/>used<sp/>in<sp/>Rocky.<sp/>When<sp/>the<sp/>`SPH</highlight></codeline>
+<codeline><highlight class="normal">LES<sp/>Turbulence<sp/>Model`<sp/>is<sp/>enabled<sp/>in<sp/>a<sp/>Rocky<sp/>project,<sp/>the<sp/>models</highlight></codeline>
+<codeline><highlight class="normal">of<sp/>turbulence,<sp/>viscosity<sp/>and<sp/>boundary<sp/>forces<sp/>implemented<sp/>on<sp/>it<sp/>will</highlight></codeline>
+<codeline><highlight class="normal">override<sp/>built-in<sp/>models<sp/>in<sp/>those<sp/>categories.</highlight></codeline>
+    </programlisting>
+    <location file="docs/sdk_manual/usage_examples.md"/>
+  </compounddef>
+</doxygen>

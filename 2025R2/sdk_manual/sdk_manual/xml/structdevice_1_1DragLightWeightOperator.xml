@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structdevice_1_1DragLightWeightOperator" kind="struct" language="C++" prot="public">
+    <compoundname>device::DragLightWeightOperator</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structdevice_1_1DragLightWeightOperator_1a43ba3fdc1cfc0c42c71b55839d3617ab" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool device::DragLightWeightOperator::valid</definition>
+        <argsstring>(const ECFDDragLaw drag_law)</argsstring>
+        <name>valid</name>
+        <qualifiedname>device::DragLightWeightOperator::valid</qualifiedname>
+        <param>
+          <type>const ECFDDragLaw</type>
+          <declname>drag_law</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="192" column="17" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="192" bodyend="212"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structdevice_1_1DragLightWeightOperator_1a6a2ff5a3af92ee132d916b801a3aeffd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::DragLightWeightOperator::operator()</definition>
+        <argsstring>(const IRockyParticle &amp;particle, const IRockyCFDProperties &amp;cfd, CFDCouplingOutput &amp;output, void *data)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>device::DragLightWeightOperator::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="structIRockyParticle" kindref="compound">IRockyParticle</ref> &amp;</type>
+          <declname>particle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structIRockyCFDProperties" kindref="compound">IRockyCFDProperties</ref> &amp;</type>
+          <declname>cfd</declname>
+        </param>
+        <param>
+          <type>CFDCouplingOutput &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="215" column="14" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="215" bodyend="232"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="190" column="1" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="191" bodyend="233"/>
+    <listofallmembers>
+      <member refid="structdevice_1_1DragLightWeightOperator_1a6a2ff5a3af92ee132d916b801a3aeffd" prot="public" virt="non-virtual"><scope>device::DragLightWeightOperator</scope><name>operator()</name></member>
+      <member refid="structdevice_1_1DragLightWeightOperator_1a43ba3fdc1cfc0c42c71b55839d3617ab" prot="public" virt="non-virtual"><scope>device::DragLightWeightOperator</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

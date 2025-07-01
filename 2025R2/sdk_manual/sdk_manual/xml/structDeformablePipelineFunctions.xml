@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structDeformablePipelineFunctions" kind="struct" language="C++" prot="public">
+    <compoundname>DeformablePipelineFunctions</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ForcePipelineFunctions</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structDeformablePipelineFunctions_1a31383a4a3289012f415bed912ed0fbe7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void DeformablePipelineFunctions::get_frictional_parameters</definition>
+        <argsstring>(RockyContact &amp;rocky_contact, contact_output_data &amp;output, cuda_contact_intermediate_data &amp;idata, const double current_time) const</argsstring>
+        <name>get_frictional_parameters</name>
+        <qualifiedname>DeformablePipelineFunctions::get_frictional_parameters</qualifiedname>
+        <param>
+          <type>RockyContact &amp;</type>
+          <declname>rocky_contact</declname>
+        </param>
+        <param>
+          <type>contact_output_data &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>cuda_contact_intermediate_data &amp;</type>
+          <declname>idata</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>current_time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_api_contact_functions.h" line="95" column="37" bodyfile="source/c++/rocky20/api/rocky_api_contact_functions.h" bodystart="95" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_api_contact_functions.h" line="93" column="1" bodyfile="source/c++/rocky20/api/rocky_api_contact_functions.h" bodystart="94" bodyend="104"/>
+    <listofallmembers>
+      <member refid="structDeformablePipelineFunctions_1a31383a4a3289012f415bed912ed0fbe7" prot="public" virt="non-virtual"><scope>DeformablePipelineFunctions</scope><name>get_frictional_parameters</name></member>
+      <member refid="structForcePipelineFunctions_1aa20fd8817f693e942fdc2c65039ec770" prot="public" virt="non-virtual"><scope>DeformablePipelineFunctions</scope><name>run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

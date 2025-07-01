@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structdevice_1_1ForceTriangleInteractionOperator" kind="struct" language="C++" prot="public">
+    <compoundname>device::ForceTriangleInteractionOperator</compoundname>
+    <templateparamlist>
+      <param>
+        <type>class Backend</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structdevice_1_1ForceTriangleInteractionOperator_1ac11f0e8f3ba42f7ba4aaf491a5a630e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Callable</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::ForceTriangleInteractionOperator&lt; Backend &gt;::operator()</definition>
+        <argsstring>(Callable function_ptr, IRockyDeviceModel &amp;device_model_api, IRockySPHDeviceModel &amp;sph_model, IRockySPHTriangleInteraction &amp;sph_interaction_api, void *udf_data)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>device::ForceTriangleInteractionOperator::operator()</qualifiedname>
+        <param>
+          <type>Callable</type>
+          <declname>function_ptr</declname>
+        </param>
+        <param>
+          <type><ref refid="structIRockyDeviceModel" kindref="compound">IRockyDeviceModel</ref> &amp;</type>
+          <declname>device_model_api</declname>
+        </param>
+        <param>
+          <type><ref refid="structIRockySPHDeviceModel" kindref="compound">IRockySPHDeviceModel</ref> &amp;</type>
+          <declname>sph_model</declname>
+        </param>
+        <param>
+          <type><ref refid="structIRockySPHTriangleInteraction" kindref="compound">IRockySPHTriangleInteraction</ref> &amp;</type>
+          <declname>sph_interaction_api</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/api_device_sph.hpp" line="159" column="30" bodyfile="source/c++/rocky20/api/sph/api_device_sph.hpp" bodystart="159" bodyend="171"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/sph/api_device_sph.hpp" line="156" column="1" bodyfile="source/c++/rocky20/api/sph/api_device_sph.hpp" bodystart="157" bodyend="172"/>
+    <listofallmembers>
+      <member refid="structdevice_1_1ForceTriangleInteractionOperator_1ac11f0e8f3ba42f7ba4aaf491a5a630e8" prot="public" virt="non-virtual"><scope>device::ForceTriangleInteractionOperator</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

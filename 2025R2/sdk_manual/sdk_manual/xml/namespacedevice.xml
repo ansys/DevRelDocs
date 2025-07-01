@@ -1,0 +1,1609 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacedevice" kind="namespace" language="C++">
+    <compoundname>device</compoundname>
+    <innerclass refid="structdevice_1_1CFDDataRecorderOperator" prot="public">device::CFDDataRecorderOperator</innerclass>
+    <innerclass refid="structdevice_1_1CouplingDispatchData" prot="public">device::CouplingDispatchData</innerclass>
+    <innerclass refid="structdevice_1_1DefaultElementsOperator" prot="public">device::DefaultElementsOperator</innerclass>
+    <innerclass refid="structdevice_1_1DefaultOperator" prot="public">device::DefaultOperator</innerclass>
+    <innerclass refid="structdevice_1_1DefaultTrianglesOperator" prot="public">device::DefaultTrianglesOperator</innerclass>
+    <innerclass refid="structdevice_1_1DragHeavyWeightOperator" prot="public">device::DragHeavyWeightOperator</innerclass>
+    <innerclass refid="structdevice_1_1DragLightWeightOperator" prot="public">device::DragLightWeightOperator</innerclass>
+    <innerclass refid="structdevice_1_1DragOperator" prot="public">device::DragOperator</innerclass>
+    <innerclass refid="structdevice_1_1DragParametricOperator" prot="public">device::DragParametricOperator</innerclass>
+    <innerclass refid="structdevice_1_1EmptyCustomCouplingPlugin" prot="public">device::EmptyCustomCouplingPlugin</innerclass>
+    <innerclass refid="structdevice_1_1ForceElementInteractionOperator" prot="public">device::ForceElementInteractionOperator</innerclass>
+    <innerclass refid="structdevice_1_1ForceElementOperator" prot="public">device::ForceElementOperator</innerclass>
+    <innerclass refid="structdevice_1_1ForceTriangleInteractionOperator" prot="public">device::ForceTriangleInteractionOperator</innerclass>
+    <innerclass refid="structdevice_1_1HeatConvectionOperator" prot="public">device::HeatConvectionOperator</innerclass>
+    <innerclass refid="structdevice_1_1HeatConvectionParametricOperator" prot="public">device::HeatConvectionParametricOperator</innerclass>
+    <innerclass refid="structdevice_1_1HeatTransferElementsOperator" prot="public">device::HeatTransferElementsOperator</innerclass>
+    <innerclass refid="structdevice_1_1HeatTransferTrianglesOperator" prot="public">device::HeatTransferTrianglesOperator</innerclass>
+    <innerclass refid="structdevice_1_1InvalidOperator" prot="public">device::InvalidOperator</innerclass>
+    <innerclass refid="structdevice_1_1LiftOperator" prot="public">device::LiftOperator</innerclass>
+    <innerclass refid="structdevice_1_1LiftParametricOperator" prot="public">device::LiftParametricOperator</innerclass>
+    <innerclass refid="structdevice_1_1MolecularViscosityElementOperator" prot="public">device::MolecularViscosityElementOperator</innerclass>
+    <innerclass refid="structdevice_1_1TorqueOperator" prot="public">device::TorqueOperator</innerclass>
+    <innerclass refid="structdevice_1_1TorqueParametricOperator" prot="public">device::TorqueParametricOperator</innerclass>
+    <innerclass refid="structdevice_1_1TurbulenceOperator" prot="public">device::TurbulenceOperator</innerclass>
+    <innerclass refid="structdevice_1_1TwoWayCouplingOperator" prot="public">device::TwoWayCouplingOperator</innerclass>
+    <innerclass refid="structdevice_1_1VirtualMassOperator" prot="public">device::VirtualMassOperator</innerclass>
+    <innerclass refid="structdevice_1_1VirtualMassParametricOperator" prot="public">device::VirtualMassParametricOperator</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1a51dc966e247882c6af00387706232cec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Op</declname>
+            <defname>Op</defname>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::execute_operators</definition>
+        <argsstring>(const IRockyParticle &amp;particle, const IRockyCFDProperties &amp;cfd, CFDCouplingOutput &amp;output, void *data, Op... ops)</argsstring>
+        <name>execute_operators</name>
+        <qualifiedname>device::execute_operators</qualifiedname>
+        <param>
+          <type>const <ref refid="structIRockyParticle" kindref="compound">IRockyParticle</ref> &amp;</type>
+          <declname>particle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structIRockyCFDProperties" kindref="compound">IRockyCFDProperties</ref> &amp;</type>
+          <declname>cfd</declname>
+        </param>
+        <param>
+          <type>CFDCouplingOutput &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Op...</type>
+          <declname>ops</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="14" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="14" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1a57b5b319e39a4b300400f1cd31029e7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Op</declname>
+            <defname>Op</defname>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::api_coupling_kernel</definition>
+        <argsstring>(CouplingDispatchData &amp;data, Op... operators)</argsstring>
+        <name>api_coupling_kernel</name>
+        <qualifiedname>device::api_coupling_kernel</qualifiedname>
+        <param>
+          <type>CouplingDispatchData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Op...</type>
+          <declname>operators</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="40" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="40" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1af81e42f02a9c78bbb47cd89d73361d09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Plugin</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto device::custom_drag_operator</definition>
+        <argsstring>()</argsstring>
+        <name>custom_drag_operator</name>
+        <qualifiedname>device::custom_drag_operator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="143" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1abd00a5f9787bda0ace95cbd4fdc449f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Plugin</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto device::custom_lift_operator</definition>
+        <argsstring>()</argsstring>
+        <name>custom_lift_operator</name>
+        <qualifiedname>device::custom_lift_operator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="146" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="146" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1ac308d22ae69752319d6ab9be88e60989" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Plugin</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto device::custom_virtual_mass_operator</definition>
+        <argsstring>(SDeviceModel *device_data)</argsstring>
+        <name>custom_virtual_mass_operator</name>
+        <qualifiedname>device::custom_virtual_mass_operator</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="149" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="149" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1a600cb8c0a64bc2a72d8ec664f178d446" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Plugin</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto device::custom_torque_operator</definition>
+        <argsstring>()</argsstring>
+        <name>custom_torque_operator</name>
+        <qualifiedname>device::custom_torque_operator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="152" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="152" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1a10c42e8276d907ed6aa305b074911314" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Plugin</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto device::custom_convection_operator</definition>
+        <argsstring>(SDeviceModel *device_data)</argsstring>
+        <name>custom_convection_operator</name>
+        <qualifiedname>device::custom_convection_operator</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="155" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="155" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1add9dacbf1397da2f07b860067e96d6ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Operators</declname>
+            <defname>Operators</defname>
+          </param>
+        </templateparamlist>
+        <type>__global__ void</type>
+        <definition>__global__ void device::cuda_coupling_kernel</definition>
+        <argsstring>(CouplingDispatchData data, Operators... operators)</argsstring>
+        <name>cuda_coupling_kernel</name>
+        <qualifiedname>device::cuda_coupling_kernel</qualifiedname>
+        <param>
+          <type>CouplingDispatchData</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Operators...</type>
+          <declname>operators</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="455" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="455" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1ae0e64bfda6baecb1e5f53e4303c8787f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Operators</declname>
+            <defname>Operators</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void device::omp_coupling_kernel</definition>
+        <argsstring>(CouplingDispatchData &amp;data, Operators... operators)</argsstring>
+        <name>omp_coupling_kernel</name>
+        <qualifiedname>device::omp_coupling_kernel</qualifiedname>
+        <param>
+          <type>CouplingDispatchData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Operators...</type>
+          <declname>operators</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="461" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="461" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1af0979fcd736452d0df741d0dbde4d6fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Operators</declname>
+            <defname>Operators</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void device::dispatch_coupling_kernel</definition>
+        <argsstring>(CouplingDispatchData &amp;data, Operators... operators)</argsstring>
+        <name>dispatch_coupling_kernel</name>
+        <qualifiedname>device::dispatch_coupling_kernel</qualifiedname>
+        <param>
+          <type>CouplingDispatchData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>Operators...</type>
+          <declname>operators</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="472" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="472" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1a51a356d9fa7f30b68fbf5ffc260e53eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Operators</declname>
+            <defname>Operators</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void device::select_turbulence_and</definition>
+        <argsstring>(CouplingDispatchData &amp;data, const cuda_general_cfd &amp;h_gen_cfd, Operators... operators)</argsstring>
+        <name>select_turbulence_and</name>
+        <qualifiedname>device::select_turbulence_and</qualifiedname>
+        <param>
+          <type>CouplingDispatchData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const cuda_general_cfd &amp;</type>
+          <declname>h_gen_cfd</declname>
+        </param>
+        <param>
+          <type>Operators...</type>
+          <declname>operators</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="490" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="490" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1ae2073c79e9ea16528e90286795177586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Operators</declname>
+            <defname>Operators</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void device::select_coupling_mode_and</definition>
+        <argsstring>(CouplingDispatchData &amp;data, const cuda_general_cfd &amp;h_gen_cfd, Operators... operators)</argsstring>
+        <name>select_coupling_mode_and</name>
+        <qualifiedname>device::select_coupling_mode_and</qualifiedname>
+        <param>
+          <type>CouplingDispatchData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const cuda_general_cfd &amp;</type>
+          <declname>h_gen_cfd</declname>
+        </param>
+        <param>
+          <type>Operators...</type>
+          <declname>operators</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="499" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="499" bodyend="506"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1ac48f240fa392d6f00a6ef762c9fcddfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename...</type>
+            <declname>Operators</declname>
+            <defname>Operators</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void device::select_cfd_data_recorder_and</definition>
+        <argsstring>(CouplingDispatchData &amp;data, const cuda_general_cfd &amp;h_gen_cfd, Operators... operators)</argsstring>
+        <name>select_cfd_data_recorder_and</name>
+        <qualifiedname>device::select_cfd_data_recorder_and</qualifiedname>
+        <param>
+          <type>CouplingDispatchData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const cuda_general_cfd &amp;</type>
+          <declname>h_gen_cfd</declname>
+        </param>
+        <param>
+          <type>Operators...</type>
+          <declname>operators</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="509" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="509" bodyend="527"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1ae5089b9f5c6efaea0c7c90aa83628fb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Plugin</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Operators</declname>
+            <defname>Operators</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void device::select_convection_and</definition>
+        <argsstring>(CouplingDispatchData &amp;data, const cuda_general_cfd &amp;h_gen_cfd, const CFDParticleGroup &amp;group, Operators... operators)</argsstring>
+        <name>select_convection_and</name>
+        <qualifiedname>device::select_convection_and</qualifiedname>
+        <param>
+          <type>CouplingDispatchData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const cuda_general_cfd &amp;</type>
+          <declname>h_gen_cfd</declname>
+        </param>
+        <param>
+          <type>const CFDParticleGroup &amp;</type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>Operators...</type>
+          <declname>operators</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="530" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="530" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1a766b703774b3db0f867ec24b254dd7f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Plugin</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Operators</declname>
+            <defname>Operators</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void device::select_torque_and</definition>
+        <argsstring>(CouplingDispatchData &amp;data, const cuda_general_cfd &amp;h_gen_cfd, const CFDParticleGroup &amp;group, Operators... operators)</argsstring>
+        <name>select_torque_and</name>
+        <qualifiedname>device::select_torque_and</qualifiedname>
+        <param>
+          <type>CouplingDispatchData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const cuda_general_cfd &amp;</type>
+          <declname>h_gen_cfd</declname>
+        </param>
+        <param>
+          <type>const CFDParticleGroup &amp;</type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>Operators...</type>
+          <declname>operators</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="548" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="548" bodyend="564"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1a79854d09a90d959206baa31ee95f9be4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Plugin</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Operators</declname>
+            <defname>Operators</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void device::select_virtual_mass_and</definition>
+        <argsstring>(CouplingDispatchData &amp;data, const cuda_general_cfd &amp;h_gen_cfd, const CFDParticleGroup &amp;group, Operators... operators)</argsstring>
+        <name>select_virtual_mass_and</name>
+        <qualifiedname>device::select_virtual_mass_and</qualifiedname>
+        <param>
+          <type>CouplingDispatchData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const cuda_general_cfd &amp;</type>
+          <declname>h_gen_cfd</declname>
+        </param>
+        <param>
+          <type>const CFDParticleGroup &amp;</type>
+          <declname>group</declname>
+        </param>
+        <param>
+          <type>Operators...</type>
+          <declname>operators</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="567" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="567" bodyend="582"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1ad2879bd191b11f5f0a98d8c4c3e77543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Plugin</type>
+          </param>
+          <param>
+            <type>typename...</type>
+            <declname>Operators</declname>
+            <defname>Operators</defname>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void device::select_lift_and</definition>
+        <argsstring>(CouplingDispatchData &amp;data, const cuda_general_cfd &amp;h_gen_cfd, const CFDParticleGroup &amp;h_group, Operators... operators)</argsstring>
+        <name>select_lift_and</name>
+        <qualifiedname>device::select_lift_and</qualifiedname>
+        <param>
+          <type>CouplingDispatchData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const cuda_general_cfd &amp;</type>
+          <declname>h_gen_cfd</declname>
+        </param>
+        <param>
+          <type>const CFDParticleGroup &amp;</type>
+          <declname>h_group</declname>
+        </param>
+        <param>
+          <type>Operators...</type>
+          <declname>operators</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="585" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="585" bodyend="606"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1ad07f81cb9a61e7cd27aa5444dbbb76e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Plugin</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void device::select_drag_and</definition>
+        <argsstring>(CouplingDispatchData &amp;data, const cuda_general_cfd &amp;h_gen_cfd, const CFDParticleGroup &amp;h_group)</argsstring>
+        <name>select_drag_and</name>
+        <qualifiedname>device::select_drag_and</qualifiedname>
+        <param>
+          <type>CouplingDispatchData &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>const cuda_general_cfd &amp;</type>
+          <declname>h_gen_cfd</declname>
+        </param>
+        <param>
+          <type>const CFDParticleGroup &amp;</type>
+          <declname>h_group</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="609" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="609" bodyend="629"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1a346ae05e7a32263797ea3afbce77c904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Plugin</type>
+          </param>
+        </templateparamlist>
+        <type>void</type>
+        <definition>void device::select_and_dispatch_coupling_kernel</definition>
+        <argsstring>(bool is_cuda, bool collect_cfd_data, SDeviceModel *device_data, unsigned int *particle_indexes, int n_particles, void *udf_data, const cuda_general_cfd &amp;h_gen_cfd, const CFDParticleGroup &amp;h_group)</argsstring>
+        <name>select_and_dispatch_coupling_kernel</name>
+        <qualifiedname>device::select_and_dispatch_coupling_kernel</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>is_cuda</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>collect_cfd_data</declname>
+        </param>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>unsigned int *</type>
+          <declname>particle_indexes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n_particles</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <param>
+          <type>const cuda_general_cfd &amp;</type>
+          <declname>h_gen_cfd</declname>
+        </param>
+        <param>
+          <type>const CFDParticleGroup &amp;</type>
+          <declname>h_group</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="634" column="6" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="634" bodyend="646"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__cfd__coupling_8hpp_1a586bda5241e6d7982ea231049fcd7b4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename _Op</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::api_compute_cfd_data_coupling</definition>
+        <argsstring>(SDeviceModel *device_data, double current_time, _Op op, void *udf_data)</argsstring>
+        <name>api_compute_cfd_data_coupling</name>
+        <qualifiedname>device::api_compute_cfd_data_coupling</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>_Op</type>
+          <declname>op</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="649" column="26" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="649" bodyend="678"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__contacts_8hpp_1a383e79a1719cfc06e94c14db4f49e108" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename Callable</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::execute_contacts_function</definition>
+        <argsstring>(SDeviceModel *device_data, cu_real current_time, unsigned int *contact_indexes, int total_number_contacts, bool is_particle_contacts, Callable process_contact_ptr, void *udf_data)</argsstring>
+        <name>execute_contacts_function</name>
+        <qualifiedname>device::execute_contacts_function</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>cu_real</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>unsigned int *</type>
+          <declname>contact_indexes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total_number_contacts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_particle_contacts</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>process_contact_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_contacts.hpp" line="132" column="26" bodyfile="source/c++/rocky20/api/device/api_device_contacts.hpp" bodystart="132" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__contacts_8hpp_1a3e194d0f643ca06bdaccb14363d198b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename Callable</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::execute_finished_contacts_function</definition>
+        <argsstring>(SDeviceModel *device_data, cu_real current_time, int total_number_contacts, bool is_particle_contacts, Callable process_contact_ptr, void *udf_data)</argsstring>
+        <name>execute_finished_contacts_function</name>
+        <qualifiedname>device::execute_finished_contacts_function</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>cu_real</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total_number_contacts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_particle_contacts</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>process_contact_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_contacts.hpp" line="161" column="26" bodyfile="source/c++/rocky20/api/device/api_device_contacts.hpp" bodystart="161" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__contacts_8hpp_1ad8f536ffbc12e9f32738f94011bcf138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename Callable</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::execute_active_contacts_function</definition>
+        <argsstring>(SDeviceModel *device_data, cu_real current_time, int total_number_contacts, bool is_particle_contacts, Callable process_contact_ptr, void *udf_data)</argsstring>
+        <name>execute_active_contacts_function</name>
+        <qualifiedname>device::execute_active_contacts_function</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>cu_real</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total_number_contacts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_particle_contacts</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>process_contact_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_contacts.hpp" line="188" column="26" bodyfile="source/c++/rocky20/api/device/api_device_contacts.hpp" bodystart="188" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__contacts_8hpp_1a63be2775bc9bc79cf7a62f8161c0f64c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename Callable</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::execute_all_contacts_function</definition>
+        <argsstring>(SDeviceModel *device_data, cu_real current_time, int total_number_contacts, bool is_particle_contacts, Callable process_contact_ptr, void *udf_data)</argsstring>
+        <name>execute_all_contacts_function</name>
+        <qualifiedname>device::execute_all_contacts_function</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>cu_real</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>total_number_contacts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_particle_contacts</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>process_contact_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_contacts.hpp" line="216" column="26" bodyfile="source/c++/rocky20/api/device/api_device_contacts.hpp" bodystart="216" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__contacts_8hpp_1a4a9e2a0ff94fde8eab56fe801d38908f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename ForcePipelineFunctions</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::api_compute_particle_contact_frictional_forces</definition>
+        <argsstring>(SDeviceModel *device_data, cu_real current_time, const ForcePipelineFunctions &amp;functions, void *udf_data)</argsstring>
+        <name>api_compute_particle_contact_frictional_forces</name>
+        <qualifiedname>device::api_compute_particle_contact_frictional_forces</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>cu_real</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>const ForcePipelineFunctions &amp;</type>
+          <declname>functions</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_contacts.hpp" line="246" column="26" bodyfile="source/c++/rocky20/api/device/api_device_contacts.hpp" bodystart="246" bodyend="275"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__contacts_8hpp_1a6fea1cd0117eb702dd8f96760a9837ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename ForcePipelineFunctions</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::api_compute_triangle_contact_frictional_forces</definition>
+        <argsstring>(SDeviceModel *device_data, cu_real current_time, const ForcePipelineFunctions &amp;functions, void *udf_data)</argsstring>
+        <name>api_compute_triangle_contact_frictional_forces</name>
+        <qualifiedname>device::api_compute_triangle_contact_frictional_forces</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>cu_real</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>const ForcePipelineFunctions &amp;</type>
+          <declname>functions</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_contacts.hpp" line="278" column="26" bodyfile="source/c++/rocky20/api/device/api_device_contacts.hpp" bodystart="278" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__contacts_8hpp_1a114166dffb6d7e984c4d7281b8ff35d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename Callable</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::api_compute_particle_contact_adhesive_forces</definition>
+        <argsstring>(SDeviceModel *device_data, cu_real current_time, Callable process_contact_ptr, void *udf_data)</argsstring>
+        <name>api_compute_particle_contact_adhesive_forces</name>
+        <qualifiedname>device::api_compute_particle_contact_adhesive_forces</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>cu_real</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>process_contact_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_contacts.hpp" line="309" column="26" bodyfile="source/c++/rocky20/api/device/api_device_contacts.hpp" bodystart="309" bodyend="344"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__contacts_8hpp_1ad58a82ef3b21044977f6e0c93f71f6f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename Callable</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::api_compute_triangle_contact_adhesive_forces</definition>
+        <argsstring>(SDeviceModel *device_data, cu_real current_time, Callable process_contact_ptr, void *udf_data)</argsstring>
+        <name>api_compute_triangle_contact_adhesive_forces</name>
+        <qualifiedname>device::api_compute_triangle_contact_adhesive_forces</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>cu_real</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>process_contact_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_contacts.hpp" line="347" column="26" bodyfile="source/c++/rocky20/api/device/api_device_contacts.hpp" bodystart="347" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__contacts_8hpp_1a9fac0c39a6aa9225a0d1707f0bdfbff4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename Callable</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::api_compute_boundaries_wear</definition>
+        <argsstring>(SDeviceModel *device_data, const cu_real current_time, Callable process_triangle_wear_f_ptr, void *udf_data)</argsstring>
+        <name>api_compute_boundaries_wear</name>
+        <qualifiedname>device::api_compute_boundaries_wear</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>const cu_real</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>process_triangle_wear_f_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_contacts.hpp" line="385" column="26" bodyfile="source/c++/rocky20/api/device/api_device_contacts.hpp" bodystart="385" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__joints_8hpp_1a1614d6377f8887b24bddca70add7318f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename Callable</type>
+          </param>
+        </templateparamlist>
+        <type>__global__ void</type>
+        <definition>__global__ void device::execute_joints_function</definition>
+        <argsstring>(SDeviceModel *device_data, int device_id, cu_real current_time, Callable process_joint_ptr, void *udf_data)</argsstring>
+        <name>execute_joints_function</name>
+        <qualifiedname>device::execute_joints_function</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>device_id</declname>
+        </param>
+        <param>
+          <type>cu_real</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>process_joint_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_joints.hpp" line="10" column="17" bodyfile="source/c++/rocky20/api/device/api_device_joints.hpp" bodystart="10" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__joints_8hpp_1a26e6681750441a9d72c95a399fda5e24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename Callable</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::compute_joint_forces</definition>
+        <argsstring>(SDeviceModel *device_data, int device_id, Callable process_joint_ptr, void *udf_data)</argsstring>
+        <name>compute_joint_forces</name>
+        <qualifiedname>device::compute_joint_forces</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>device_id</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>process_joint_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_joints.hpp" line="37" column="26" bodyfile="source/c++/rocky20/api/device/api_device_joints.hpp" bodystart="37" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__joints_8hpp_1ad6da779d30efad779e9146fa212ed986" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename Callable</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::compute_joint_breakage</definition>
+        <argsstring>(SDeviceModel *device_data, int device_id, Callable process_joint_breakage_ptr, void *udf_data, typename backend::atomic_int_ptr nbreak_joints_a, cu_real time_curr)</argsstring>
+        <name>compute_joint_breakage</name>
+        <qualifiedname>device::compute_joint_breakage</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>device_id</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>process_joint_breakage_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <param>
+          <type>typename backend::atomic_int_ptr</type>
+          <declname>nbreak_joints_a</declname>
+        </param>
+        <param>
+          <type>cu_real</type>
+          <declname>time_curr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_joints.hpp" line="154" column="26" bodyfile="source/c++/rocky20/api/device/api_device_joints.hpp" bodystart="154" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__particles_8hpp_1a4de173c63b012749d15b26f4ef4d8378" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename Callable</type>
+          </param>
+        </templateparamlist>
+        <type>__global__ void</type>
+        <definition>__global__ void device::execute_particles_function</definition>
+        <argsstring>(SDeviceModel *device_data, double current_time, Callable particle_f_ptr, void *udf_data)</argsstring>
+        <name>execute_particles_function</name>
+        <qualifiedname>device::execute_particles_function</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>particle_f_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_particles.hpp" line="10" column="17" bodyfile="source/c++/rocky20/api/device/api_device_particles.hpp" bodystart="10" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__particles_8hpp_1ae0165f7ee58713d73aad758364770e76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename Callable</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::compute_instantaneous_breakage</definition>
+        <argsstring>(SDeviceModel *device_data, int device_id, Callable process_instantaneous_breakage_ptr, void *udf_data, cu_real time_curr)</argsstring>
+        <name>compute_instantaneous_breakage</name>
+        <qualifiedname>device::compute_instantaneous_breakage</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>device_id</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>process_instantaneous_breakage_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <param>
+          <type>cu_real</type>
+          <declname>time_curr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_particles.hpp" line="36" column="26" bodyfile="source/c++/rocky20/api/device/api_device_particles.hpp" bodystart="36" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__triangles_8hpp_1aa69688829e123ff3588d0b2ac7250783" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename Callable</type>
+          </param>
+        </templateparamlist>
+        <type>__global__ void</type>
+        <definition>__global__ void device::execute_triangles_function</definition>
+        <argsstring>(SDeviceModel *device_data, double current_time, Callable triangle_f_ptr, void *udf_data)</argsstring>
+        <name>execute_triangles_function</name>
+        <qualifiedname>device::execute_triangles_function</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>Callable</type>
+          <declname>triangle_f_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_triangles.hpp" line="10" column="17" bodyfile="source/c++/rocky20/api/device/api_device_triangles.hpp" bodystart="10" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="rocky__api__contact__functions_8h_1a7e64cbe235427ad6afdf926980d03d65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::builtin_contact_normal_forces</definition>
+        <argsstring>(FORCE_KERNEL_PARAMETERS)</argsstring>
+        <name>builtin_contact_normal_forces</name>
+        <qualifiedname>device::builtin_contact_normal_forces</qualifiedname>
+        <param>
+          <type>FORCE_KERNEL_PARAMETERS</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_api_contact_functions.h" line="28" column="26" declfile="source/c++/rocky20/api/rocky_api_contact_functions.h" declline="28" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="rocky__api__contact__functions_8h_1a7433414e2ccc68e45b534a774b86fa6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::builtin_contact_tangential_forces</definition>
+        <argsstring>(FORCE_KERNEL_PARAMETERS)</argsstring>
+        <name>builtin_contact_tangential_forces</name>
+        <qualifiedname>device::builtin_contact_tangential_forces</qualifiedname>
+        <param>
+          <type>FORCE_KERNEL_PARAMETERS</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_api_contact_functions.h" line="29" column="26" declfile="source/c++/rocky20/api/rocky_api_contact_functions.h" declline="29" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="rocky__api__contact__functions_8h_1a4f1b1a2bdc640eb3f60ae495075b1073" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::builtin_impact_energies</definition>
+        <argsstring>(FORCE_KERNEL_PARAMETERS)</argsstring>
+        <name>builtin_impact_energies</name>
+        <qualifiedname>device::builtin_impact_energies</qualifiedname>
+        <param>
+          <type>FORCE_KERNEL_PARAMETERS</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_api_contact_functions.h" line="30" column="26" declfile="source/c++/rocky20/api/rocky_api_contact_functions.h" declline="30" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="rocky__api__contact__functions_8h_1ac3a36f2578b861fde620462e6b320c05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::standard_compute_rolling_resistance</definition>
+        <argsstring>(FORCE_KERNEL_PARAMETERS)</argsstring>
+        <name>standard_compute_rolling_resistance</name>
+        <qualifiedname>device::standard_compute_rolling_resistance</qualifiedname>
+        <param>
+          <type>FORCE_KERNEL_PARAMETERS</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_api_contact_functions.h" line="31" column="26" declfile="source/c++/rocky20/api/rocky_api_contact_functions.h" declline="31" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="rocky__api__contact__functions_8h_1ab361df499ca67a04cc1b60fe778fcaac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>bool</type>
+            <declname>has_deformable</declname>
+            <defname>has_deformable</defname>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::get_frictional_contact_general_parameters</definition>
+        <argsstring>(RockyContact &amp;rocky_contact, contact_output_data &amp;output, cuda_contact_intermediate_data &amp;idata, const double current_time)</argsstring>
+        <name>get_frictional_contact_general_parameters</name>
+        <qualifiedname>device::get_frictional_contact_general_parameters</qualifiedname>
+        <param>
+          <type>RockyContact &amp;</type>
+          <declname>rocky_contact</declname>
+        </param>
+        <param>
+          <type>contact_output_data &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>cuda_contact_intermediate_data &amp;</type>
+          <declname>idata</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>current_time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_api_contact_functions.h" line="33" column="26" declfile="source/c++/rocky20/api/rocky_api_contact_functions.h" declline="33" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="rocky__boundary_8hpp_1a7e344e2c082e673da7e5c5f2fb868f5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__host__ __device__ cu_real3</type>
+        <definition>__host__ __device__ cu_real3 device::get_boundary_rotational_velocity</definition>
+        <argsstring>(const cuda_boundary &amp;boundary, const cuda_boundary_matrix &amp;bnd_matrix)</argsstring>
+        <name>get_boundary_rotational_velocity</name>
+        <qualifiedname>device::get_boundary_rotational_velocity</qualifiedname>
+        <param>
+          <type>const cuda_boundary &amp;</type>
+          <declname>boundary</declname>
+        </param>
+        <param>
+          <type>const cuda_boundary_matrix &amp;</type>
+          <declname>bnd_matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary.hpp" line="13" column="30" declfile="source/c++/rocky20/api/rocky_boundary.hpp" declline="13" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="rocky__boundary_8hpp_1a4b793b91efd96306a778241bcca3369a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__host__ __device__ double3</type>
+        <definition>__host__ __device__ double3 device::get_conveyor_triangle_translational_velocity</definition>
+        <argsstring>(const rocky20::TriangleScalars *triangle_scalars, const cuda_boundary &amp;boundary, int triangle_index, double time_curr)</argsstring>
+        <name>get_conveyor_triangle_translational_velocity</name>
+        <qualifiedname>device::get_conveyor_triangle_translational_velocity</qualifiedname>
+        <param>
+          <type>const rocky20::TriangleScalars *</type>
+          <declname>triangle_scalars</declname>
+        </param>
+        <param>
+          <type>const cuda_boundary &amp;</type>
+          <declname>boundary</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>triangle_index</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>time_curr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary.hpp" line="16" column="29" declfile="source/c++/rocky20/api/rocky_boundary.hpp" declline="16" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__sph_8hpp_1a21658f39bbfecc9fedcc431aaa0f7623" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class backend</type>
+          </param>
+          <param>
+            <type>typename Operator</type>
+          </param>
+          <param>
+            <type>typename Functor</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::launch_sph_particles_function</definition>
+        <argsstring>(SDeviceModel *device_data, SPHDeviceModel *sph_device, double current_time, Functor function_ptr, void *udf_data)</argsstring>
+        <name>launch_sph_particles_function</name>
+        <qualifiedname>device::launch_sph_particles_function</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>SPHDeviceModel *</type>
+          <declname>sph_device</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>Functor</type>
+          <declname>function_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/api_device_sph.hpp" line="213" column="26" bodyfile="source/c++/rocky20/api/sph/api_device_sph.hpp" bodystart="213" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__sph_8hpp_1a87e1de350c1c716429d39c3fe3ed9e81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Backend</type>
+          </param>
+          <param>
+            <type>typename Operator</type>
+          </param>
+          <param>
+            <type>typename Functor</type>
+          </param>
+          <param>
+            <type>class SPHNeighborsHandler</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::launch_sph_interactions_particles</definition>
+        <argsstring>(SDeviceModel *device_data, SPHDeviceModel *sph_device, double current_time, Functor function_ptr, void *udf_data, SPHNeighborsHandler &amp;handler)</argsstring>
+        <name>launch_sph_interactions_particles</name>
+        <qualifiedname>device::launch_sph_interactions_particles</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>SPHDeviceModel *</type>
+          <declname>sph_device</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>Functor</type>
+          <declname>function_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <param>
+          <type>SPHNeighborsHandler &amp;</type>
+          <declname>handler</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/api_device_sph.hpp" line="242" column="26" bodyfile="source/c++/rocky20/api/sph/api_device_sph.hpp" bodystart="242" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="api__device__sph_8hpp_1aa79b75daf033e365f4ef6175e0d67342" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class Backend</type>
+          </param>
+          <param>
+            <type>typename Operator</type>
+          </param>
+          <param>
+            <type>typename Functor</type>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::launch_sph_interactions_triangles</definition>
+        <argsstring>(SDeviceModel *device_data, SPHDeviceModel *sph_device, double current_time, Functor function_ptr, void *udf_data)</argsstring>
+        <name>launch_sph_interactions_triangles</name>
+        <qualifiedname>device::launch_sph_interactions_triangles</qualifiedname>
+        <param>
+          <type>SDeviceModel *</type>
+          <declname>device_data</declname>
+        </param>
+        <param>
+          <type>SPHDeviceModel *</type>
+          <declname>sph_device</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>current_time</declname>
+        </param>
+        <param>
+          <type>Functor</type>
+          <declname>function_ptr</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>udf_data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/api_device_sph.hpp" line="279" column="26" bodyfile="source/c++/rocky20/api/sph/api_device_sph.hpp" bodystart="279" bodyend="322"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="9" column="1"/>
+  </compounddef>
+</doxygen>

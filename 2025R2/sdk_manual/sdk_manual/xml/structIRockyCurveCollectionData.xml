@@ -1,0 +1,1438 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockyCurveCollectionData" kind="struct" language="C++" prot="public">
+    <compoundname>IRockyCurveCollectionData</compoundname>
+    <includes refid="rocky__output__collections__api_8hpp" local="no">rocky_output_collections_api.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1aa3ea8900da748813b0e1eba05372cb53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::create_particles_dataset</definition>
+        <argsstring>(const std::string &amp;name, const std::string &amp;unit)</argsstring>
+        <name>create_particles_dataset</name>
+        <qualifiedname>IRockyCurveCollectionData::create_particles_dataset</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a dataset related to particles by specifying its name </title><para>and the unit of the physical magnitude associated. Initially empty, the dataset must be updated with values by using <computeroutput><ref refid="structIRockyCurveCollectionData_1a7f24452610d153c6f8da6e25f7bb1185" kindref="member">IRockyCurveCollectionData::update_particles_dataset</ref></computeroutput> during the simulation.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unit of the related magnitude, which will be associated to an axis of the cross plot where the dataset will be displayed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="44" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="438" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a17782fefaebd1a1f368510eff05dc6b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::create_solver_dataset</definition>
+        <argsstring>(const std::string &amp;name, const std::string &amp;unit)</argsstring>
+        <name>create_solver_dataset</name>
+        <qualifiedname>IRockyCurveCollectionData::create_solver_dataset</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a dataset related to the solver by specifying its name</title><para>and the unit of the physical magnitude associated. Initially empty, the dataset must be updated with values by using <computeroutput><ref refid="structIRockyCurveCollectionData_1a6bc5b0a03bcb799edc02934e386e41ea" kindref="member">IRockyCurveCollectionData::update_solver_dataset</ref></computeroutput> during the simulation.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unit of the related magnitude, which will be associated to an axis of the cross plot where the dataset will be displayed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="58" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="447" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1aac6750ba6fce2ee80a5a1fe1edb356e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::create_geometry_dataset</definition>
+        <argsstring>(int geometry_id, const std::string &amp;name, const std::string &amp;unit)</argsstring>
+        <name>create_geometry_dataset</name>
+        <qualifiedname>IRockyCurveCollectionData::create_geometry_dataset</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>geometry_id</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a dataset related to a geometry by specifying </title><para>its name and the unit of the associated physical magnitude. Initially empty, the dataset must be updated with values by using <computeroutput><ref refid="structIRockyCurveCollectionData_1aee59308015e7f60c741a0296a1c17a25" kindref="member">IRockyCurveCollectionData::update_geometry_dataset</ref></computeroutput>.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geometry_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The geometry unique identifier (index) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unit of the related magnitude, which will be associated to an axis of the cross plot where the dataset will be displayed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="73" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="456" bodyend="463"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a9d540d1d87039559fe088e897504fd99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::create_dataset</definition>
+        <argsstring>(const std::string &amp;owner_name, const std::string &amp;name, const std::string &amp;unit)</argsstring>
+        <name>create_dataset</name>
+        <qualifiedname>IRockyCurveCollectionData::create_dataset</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>owner_name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a dataset by specifying its name and the unit of the</title><para>physical magnitude associated. Such dataset is related to a given named owner entity. Initially empty, the dataset must be updated with values during the simulation by using <computeroutput><ref refid="structIRockyCurveCollectionData_1a77d905fa54397c6f5b7fdc84795b01a6" kindref="member">IRockyCurveCollectionData::update_dataset</ref></computeroutput>.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The entity unique identifier (string) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unit of the related magnitude, which will be associated to an axis of the cross plot where the dataset will be displayed. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="88" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="465" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a88494c4828a9d06cea380ca4d21fdc73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::create_particles_curve</definition>
+        <argsstring>(const std::string &amp;domain_dataset, const std::string &amp;image_dataset)</argsstring>
+        <name>create_particles_curve</name>
+        <qualifiedname>IRockyCurveCollectionData::create_particles_curve</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>domain_dataset</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>image_dataset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a curve by specifying the names of domain and image datasets. Such</title><para>curve is related to particles. Shown within the Rocky UI as a curve.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>domain_dataset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the domain dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image_dataset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unit of the image dataset. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="98" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="474" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1aeda2a88bc1565623080026c55946b01e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::create_solver_curve</definition>
+        <argsstring>(const std::string &amp;domain_dataset, const std::string &amp;image_dataset)</argsstring>
+        <name>create_solver_curve</name>
+        <qualifiedname>IRockyCurveCollectionData::create_solver_curve</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>domain_dataset</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>image_dataset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a curve by specifying the names of domain and image datasets. Such</title><para>curve is related to the solver. Shown within the Rocky UI as a curve.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>domain_dataset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the domain dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image_dataset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unit of the image dataset. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="109" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="483" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1add0cf572f25fb257dd0f007b53593f21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::create_geometry_curve</definition>
+        <argsstring>(int geometry_id, const std::string &amp;domain_dataset, const std::string &amp;image_dataset)</argsstring>
+        <name>create_geometry_curve</name>
+        <qualifiedname>IRockyCurveCollectionData::create_geometry_curve</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>geometry_id</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>domain_dataset</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>image_dataset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a curve by specifying the names of domain and image datasets. Such</title><para>curve is related to a geometry. Shown within the Rocky UI as a curve.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geometry_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The geometry unique identifier (index) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>domain_dataset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the domain dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image_dataset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unit of the image dataset. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="122" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="492" bodyend="499"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a9ac4b935090edf6975d4f46cf74aa86e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::add_curve</definition>
+        <argsstring>(const std::string &amp;owner_name, const std::string &amp;domain_dataset, const std::string &amp;image_dataset)</argsstring>
+        <name>add_curve</name>
+        <qualifiedname>IRockyCurveCollectionData::add_curve</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>owner_name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>domain_dataset</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>image_dataset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a curve by specifying the names of domain and image datasets. Such</title><para>curve is related to a given named entity. Shown within the Rocky UI as a curve.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The entity unique identifier (string) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>domain_dataset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the domain dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>image_dataset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unit of the image dataset. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="135" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="501" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a7942a28df7cd10c70ed086b9d11ebf2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::setup_particles_dataset_dimension</definition>
+        <argsstring>(const std::string &amp;name, double dimension)</argsstring>
+        <name>setup_particles_dataset_dimension</name>
+        <qualifiedname>IRockyCurveCollectionData::setup_particles_dataset_dimension</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>The purpose of this method is to associate a dimensional factor to a dataset.</title><para>This factor will be used to nondimensionalize their values for the calculations. Dimensional factors for the fundamental magnitudes are provided by functions of a <computeroutput><ref refid="structIRockyModel" kindref="compound">IRockyModel</ref></computeroutput> object.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dimension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The appropriate dimensional factor for the dataset. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="148" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="544" bodyend="552"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1ab7b3c581d4cfc117c0c2b4e9c9be61af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::setup_solver_dataset_dimension</definition>
+        <argsstring>(const std::string &amp;name, double dimension)</argsstring>
+        <name>setup_solver_dataset_dimension</name>
+        <qualifiedname>IRockyCurveCollectionData::setup_solver_dataset_dimension</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>The purpose of this method is to associate a dimensional factor to a dataset.</title><para>This factor will be used to nondimensionalize their values for the calculations. Dimensional factors for the fundamental magnitudes are provided by functions of a <computeroutput><ref refid="structIRockyModel" kindref="compound">IRockyModel</ref></computeroutput> object.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dimension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The appropriate dimensional factor for the dataset. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="160" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="554" bodyend="562"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1ab5752c7598d6b2f21c090e470eb50d3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::setup_geometry_dataset_dimension</definition>
+        <argsstring>(int geometry_id, const std::string &amp;name, double dimension)</argsstring>
+        <name>setup_geometry_dataset_dimension</name>
+        <qualifiedname>IRockyCurveCollectionData::setup_geometry_dataset_dimension</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>geometry_id</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>The purpose of this method is to associate a dimensional factor to a dataset.</title><para>This factor will be used to nondimensionalize their values for the calculations. Dimensional factors for the fundamental magnitudes are provided by functions of a <computeroutput><ref refid="structIRockyModel" kindref="compound">IRockyModel</ref></computeroutput> object.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geometry_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The geometry unique identifier (index) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dimension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The appropriate dimensional factor for the dataset. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="174" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="564" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a4316fe7409b88eb683ed59d60d5b5fae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::setup_dataset_dimension</definition>
+        <argsstring>(const std::string &amp;owner_name, const std::string &amp;name, double dimension)</argsstring>
+        <name>setup_dataset_dimension</name>
+        <qualifiedname>IRockyCurveCollectionData::setup_dataset_dimension</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>owner_name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>The purpose of this method is to associate a dimensional factor to a dataset.</title><para>This factor will be used to nondimensionalize their values for calculations. Dimensional factors for the fundamental magnitudes are provided by functions of a <computeroutput><ref refid="structIRockyModel" kindref="compound">IRockyModel</ref></computeroutput> object.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The entity unique identifier (string) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dimension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The appropriate dimensional factor for the dataset. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="189" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="574" bodyend="581"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a7f24452610d153c6f8da6e25f7bb1185" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::update_particles_dataset</definition>
+        <argsstring>(const std::string &amp;name, const double *dataset, size_t size)</argsstring>
+        <name>update_particles_dataset</name>
+        <qualifiedname>IRockyCurveCollectionData::update_particles_dataset</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const double *</type>
+          <declname>dataset</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method updates a dataset by inserting new values.</title><para>Intended to be used only at output times. The dataset to be added should correspond to the output time at which this method is called. It only works with datasets previously created using <computeroutput><ref refid="structIRockyCurveCollectionData_1aa3ea8900da748813b0e1eba05372cb53" kindref="member">IRockyCurveCollectionData::create_particles_dataset</ref></computeroutput>, otherwise it throws an error.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A data pointer to the new dataset data to be copied into dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of elements of the given dataset </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="205" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="625" bodyend="633"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a6bc5b0a03bcb799edc02934e386e41ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::update_solver_dataset</definition>
+        <argsstring>(const std::string &amp;name, const double *dataset, size_t size)</argsstring>
+        <name>update_solver_dataset</name>
+        <qualifiedname>IRockyCurveCollectionData::update_solver_dataset</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const double *</type>
+          <declname>dataset</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method updates a dataset by inserting new values.</title><para>Intended to be used only at output times. The dataset to be added should correspond to the output time at which this method is called. It only works with datasets previously created using <computeroutput><ref refid="structIRockyCurveCollectionData_1a17782fefaebd1a1f368510eff05dc6b3" kindref="member">IRockyCurveCollectionData::create_solver_dataset</ref></computeroutput>, otherwise it throws an error.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A data pointer to the new dataset data to be copied into dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of elements of the given dataset </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="220" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="635" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1aee59308015e7f60c741a0296a1c17a25" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::update_geometry_dataset</definition>
+        <argsstring>(int geometry_id, const std::string &amp;name, const double *dataset, size_t size)</argsstring>
+        <name>update_geometry_dataset</name>
+        <qualifiedname>IRockyCurveCollectionData::update_geometry_dataset</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>geometry_id</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const double *</type>
+          <declname>dataset</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method updates a dataset by inserting new dataset values.</title><para>Intended to be used only at output times. The dataset to be added should correspond to the output time at which this method is called. It only works with datasets previously created using <computeroutput><ref refid="structIRockyCurveCollectionData_1aac6750ba6fce2ee80a5a1fe1edb356e4" kindref="member">IRockyCurveCollectionData::create_geometry_dataset</ref></computeroutput>, otherwise it throws an error.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geometry_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The geometry unique identifier (index) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A data pointer to the new dataset data to be copied into dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of elements of the given dataset </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="237" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="645" bodyend="653"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a77d905fa54397c6f5b7fdc84795b01a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::update_dataset</definition>
+        <argsstring>(const std::string &amp;owner_name, const std::string &amp;name, const double *dataset, size_t size)</argsstring>
+        <name>update_dataset</name>
+        <qualifiedname>IRockyCurveCollectionData::update_dataset</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>owner_name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const double *</type>
+          <declname>dataset</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method updates a dataset by inserting new dataset values.</title><para>Intended to be used only at output times. The dataset to be added should correspond to the output time at which this method is called. It only works with datasets previously created using <computeroutput><ref refid="structIRockyCurveCollectionData_1a9d540d1d87039559fe088e897504fd99" kindref="member">IRockyCurveCollectionData::create_dataset</ref></computeroutput>, otherwise it throws an error.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The entity unique identifier (string) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dataset</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A data pointer to the new dataset data to be copied into dataset. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The number of elements of the given dataset </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="255" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="655" bodyend="663"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1ae638f72f97d27b18d69ad0ded3b26d4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::create_particles_time_curve</definition>
+        <argsstring>(const std::string &amp;name, const std::string &amp;unit)</argsstring>
+        <name>create_particles_time_curve</name>
+        <qualifiedname>IRockyCurveCollectionData::create_particles_time_curve</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a time curve associated to particles by specifying its name and the</title><para>unit of the physical magnitude associated. Initially empty, the curve must be filled with data by using <computeroutput><ref refid="structIRockyCurveCollectionData_1a650d74b4c42f6d63489f98ee5835d942" kindref="member">IRockyCurveCollectionData::update_particles_time_curve</ref></computeroutput> during the simulation.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the time curve. Shown within the Rocky UI as the curve label. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unit of the magnitude displayed in the vertical axis of the time curve. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="269" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="510" bodyend="516"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a90860210505cb726accf7089cfec5ab2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::create_solver_time_curve</definition>
+        <argsstring>(const std::string &amp;name, const std::string &amp;unit)</argsstring>
+        <name>create_solver_time_curve</name>
+        <qualifiedname>IRockyCurveCollectionData::create_solver_time_curve</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a time curve associated to the solver by specifying its name and the</title><para>unit of the physical magnitude associated. Initially empty, the curve must be filled with data by using <computeroutput><ref refid="structIRockyCurveCollectionData_1a237fae8d13385fc04866ad4c4b24aa73" kindref="member">IRockyCurveCollectionData::update_solver_time_curve</ref></computeroutput> during the simulation.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the time curve. Shown within the Rocky UI as the curve label. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unit of the magnitude displayed in the vertical axis of the time curve. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="282" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="518" bodyend="524"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1aab6ad0a64db6e08afcc4c09643f2fbaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::create_geometry_time_curve</definition>
+        <argsstring>(int geometry_id, const std::string &amp;name, const std::string &amp;unit)</argsstring>
+        <name>create_geometry_time_curve</name>
+        <qualifiedname>IRockyCurveCollectionData::create_geometry_time_curve</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>geometry_id</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a time curve associated to a specific geometry, by specifying its</title><para>name and the unit of the physical magnitude associated. Initially empty, the time curve must be filled with data during a simulation by using <computeroutput><ref refid="structIRockyCurveCollectionData_1a3da24f758d62665100b5c43b8f1075d9" kindref="member">IRockyCurveCollectionData::update_geometry_time_curve</ref></computeroutput>.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geometry_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The geometry unique identifier (index) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the time curve. Shown within the Rocky UI as the curve label. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unit of the magnitude displayed in the vertical axis of the time curve. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="296" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="526" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a521adcdec892f96ea7b628c5aa1a3560" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::create_time_curve</definition>
+        <argsstring>(const std::string &amp;owner_name, const std::string &amp;name, const std::string &amp;unit)</argsstring>
+        <name>create_time_curve</name>
+        <qualifiedname>IRockyCurveCollectionData::create_time_curve</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>owner_name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>unit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a time curve associated to a given entity by specifying its</title><para>name and the unit of the physical magnitude associated. Initially empty, the time curve must be filled with data by using <computeroutput><ref refid="structIRockyCurveCollectionData_1a024664c7b45eb7a6728a3207eeb82ee3" kindref="member">IRockyCurveCollectionData::update_time_curve</ref></computeroutput> during the simulation.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The entity unique identifier (string) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the time curve. Shown within the Rocky UI as the curve label. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The unit of the magnitude displayed in the vertical axis of the time curve. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="310" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="534" bodyend="541"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a230f2f9be559dcb98d57a4e5c7218dd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::setup_particles_time_curve_dimension</definition>
+        <argsstring>(const std::string &amp;name, double dimension)</argsstring>
+        <name>setup_particles_time_curve_dimension</name>
+        <qualifiedname>IRockyCurveCollectionData::setup_particles_time_curve_dimension</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>The purpose of this method is to associate a dimensional factor to a time curve.</title><para>This factor will be used to nondimensionalize their values. Dimensional factors for the fundamental magnitudes are provided by functions of a <computeroutput><ref refid="structIRockyModel" kindref="compound">IRockyModel</ref></computeroutput> object.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the time curve. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dimension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The appropriate dimensional factor for the time curve. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="322" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="583" bodyend="591"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1aec18b36979a9d48a3a48016d1d9b5b06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::setup_solver_time_curve_dimension</definition>
+        <argsstring>(const std::string &amp;name, double dimension)</argsstring>
+        <name>setup_solver_time_curve_dimension</name>
+        <qualifiedname>IRockyCurveCollectionData::setup_solver_time_curve_dimension</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>The purpose of this method is to associate a dimensional factor to a time curve.</title><para>This factor will be used to nondimensionalize their values. Dimensional factors for the fundamental magnitudes are provided by functions of a <computeroutput><ref refid="structIRockyModel" kindref="compound">IRockyModel</ref></computeroutput> object.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the time curve. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dimension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The appropriate dimensional factor for the time curve. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="334" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="593" bodyend="601"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1aa445fbd38bfb1770a1c197f806890908" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::setup_geometry_time_curve_dimension</definition>
+        <argsstring>(int geometry_id, const std::string &amp;name, double dimension)</argsstring>
+        <name>setup_geometry_time_curve_dimension</name>
+        <qualifiedname>IRockyCurveCollectionData::setup_geometry_time_curve_dimension</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>geometry_id</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>The purpose of this method is to associate a dimensional factor to a time curve.</title><para>This factor will be used to nondimensionalize their values. Dimensional factors for the fundamental magnitudes are provided by functions of a <computeroutput><ref refid="structIRockyModel" kindref="compound">IRockyModel</ref></computeroutput> object.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geometry_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The geometry unique identifier (index) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the time curve. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dimension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The appropriate dimensional factor for the time curve. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="348" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="603" bodyend="611"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1ad43383c1fe177dc20d46ec205f8cb675" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::setup_time_curve_dimension</definition>
+        <argsstring>(const std::string &amp;owner_name, const std::string &amp;name, double dimension)</argsstring>
+        <name>setup_time_curve_dimension</name>
+        <qualifiedname>IRockyCurveCollectionData::setup_time_curve_dimension</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>owner_name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>The purpose of this method is to associate a dimensional factor to a time curve.</title><para>This factor will be used to nondimensionalize their values. Dimensional factors for the fundamental magnitudes are provided by functions of a <computeroutput><ref refid="structIRockyModel" kindref="compound">IRockyModel</ref></computeroutput> object.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The entity unique identifier (string) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the time curve. Shown within the Rocky UI as the curve label. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dimension</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The appropriate dimensional factor for the time curve. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="362" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="613" bodyend="621"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a650d74b4c42f6d63489f98ee5835d942" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::update_particles_time_curve</definition>
+        <argsstring>(const std::string &amp;name, double value)</argsstring>
+        <name>update_particles_time_curve</name>
+        <qualifiedname>IRockyCurveCollectionData::update_particles_time_curve</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method updates a time curve by inserting a new value.</title><para>Intended to be used only at output times. The value to be added should correspond to the output time at which this method is called. It only works with time curves previously created using <computeroutput><ref refid="structIRockyCurveCollectionData_1ae638f72f97d27b18d69ad0ded3b26d4b" kindref="member">IRockyCurveCollectionData::create_particles_time_curve</ref></computeroutput>, otherwise it throws an error.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the time curve. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be appended into the curve. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="375" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="665" bodyend="672"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a237fae8d13385fc04866ad4c4b24aa73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::update_solver_time_curve</definition>
+        <argsstring>(const std::string &amp;name, double value)</argsstring>
+        <name>update_solver_time_curve</name>
+        <qualifiedname>IRockyCurveCollectionData::update_solver_time_curve</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method updates a time curve by inserting a new value.</title><para>Intended to be used only at output times. The value to be added should correspond to the output time at which this method is called. It only works with time curves previously created using <computeroutput><ref refid="structIRockyCurveCollectionData_1a90860210505cb726accf7089cfec5ab2" kindref="member">IRockyCurveCollectionData::create_solver_time_curve</ref></computeroutput>, otherwise it throws an error.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the time curve. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be appended into the curve. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="388" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="674" bodyend="681"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a3da24f758d62665100b5c43b8f1075d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::update_geometry_time_curve</definition>
+        <argsstring>(int geometry_id, const std::string &amp;name, double value)</argsstring>
+        <name>update_geometry_time_curve</name>
+        <qualifiedname>IRockyCurveCollectionData::update_geometry_time_curve</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>geometry_id</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method updates a time curve by inserting a new value.</title><para>Intended to be used only at output times. The value to be added should correspond to the output time at which this method is called. It only works with time curves previously created using <computeroutput><ref refid="structIRockyCurveCollectionData_1aab6ad0a64db6e08afcc4c09643f2fbaa" kindref="member">IRockyCurveCollectionData::create_geometry_time_curve</ref></computeroutput>, otherwise it throws an error.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geometry_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The geometry unique identifier (index) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the time curve. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be appended into the curve. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="403" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="683" bodyend="690"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyCurveCollectionData_1a024664c7b45eb7a6728a3207eeb82ee3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyCurveCollectionData::update_time_curve</definition>
+        <argsstring>(const std::string &amp;owner_name, const std::string &amp;name, double value)</argsstring>
+        <name>update_time_curve</name>
+        <qualifiedname>IRockyCurveCollectionData::update_time_curve</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>owner_name</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method updates a time curve by inserting a new value.</title><para>Intended to be used only at output times. The value to be added should correspond to the output time at which this method is called. It only works with time curves previously created using <computeroutput><ref refid="structIRockyCurveCollectionData_1a521adcdec892f96ea7b628c5aa1a3560" kindref="member">IRockyCurveCollectionData::create_time_curve</ref></computeroutput>, otherwise it throws an error.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>owner_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The entity unique identifier (string) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name of the time curve. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value to be appended into the curve. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="418" column="10" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="692" bodyend="699"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput><ref refid="structIRockyCurveCollectionData" kindref="compound">IRockyCurveCollectionData</ref></computeroutput> is a data structure intended to hold data that will be used by Rocky to create a custom collection of cross plot curves and/or time curves for particles and geometries.</para>
+<para>A curve is composed of a pair of domain and image datasets. A dataset is a set of values that may change over time in values and size. When creating a dataset, one must provide its name and unit. During the simulation, such datasets must be updated with custom data, which will be written on disk by Rocky at output times. The most adequate hook to perform that data update is <computeroutput>ROCKY_PLUGIN_PRE_OUTPUT</computeroutput>, because it is executed immediately before the data output. However, depending on the particular needs of the module, that operation can be done in other hooks as well. After an output operation, all dataset values are automatically erased, and must be updated again for the next output. At any given output, a domain and an image datasets for a cross-plot curve must have the same size, otherwise an error will be thrown. </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_output_collections_api.hpp" line="30" column="1" bodyfile="source/c++/rocky20/api/rocky_output_collections_api.hpp" bodystart="31" bodyend="427"/>
+    <listofallmembers>
+      <member refid="structIRockyCurveCollectionData_1a9ac4b935090edf6975d4f46cf74aa86e" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>add_curve</name></member>
+      <member refid="structIRockyCurveCollectionData_1a9d540d1d87039559fe088e897504fd99" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>create_dataset</name></member>
+      <member refid="structIRockyCurveCollectionData_1add0cf572f25fb257dd0f007b53593f21" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>create_geometry_curve</name></member>
+      <member refid="structIRockyCurveCollectionData_1aac6750ba6fce2ee80a5a1fe1edb356e4" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>create_geometry_dataset</name></member>
+      <member refid="structIRockyCurveCollectionData_1aab6ad0a64db6e08afcc4c09643f2fbaa" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>create_geometry_time_curve</name></member>
+      <member refid="structIRockyCurveCollectionData_1a88494c4828a9d06cea380ca4d21fdc73" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>create_particles_curve</name></member>
+      <member refid="structIRockyCurveCollectionData_1aa3ea8900da748813b0e1eba05372cb53" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>create_particles_dataset</name></member>
+      <member refid="structIRockyCurveCollectionData_1ae638f72f97d27b18d69ad0ded3b26d4b" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>create_particles_time_curve</name></member>
+      <member refid="structIRockyCurveCollectionData_1aeda2a88bc1565623080026c55946b01e" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>create_solver_curve</name></member>
+      <member refid="structIRockyCurveCollectionData_1a17782fefaebd1a1f368510eff05dc6b3" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>create_solver_dataset</name></member>
+      <member refid="structIRockyCurveCollectionData_1a90860210505cb726accf7089cfec5ab2" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>create_solver_time_curve</name></member>
+      <member refid="structIRockyCurveCollectionData_1a521adcdec892f96ea7b628c5aa1a3560" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>create_time_curve</name></member>
+      <member refid="structIRockyCurveCollectionData_1a4316fe7409b88eb683ed59d60d5b5fae" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>setup_dataset_dimension</name></member>
+      <member refid="structIRockyCurveCollectionData_1ab5752c7598d6b2f21c090e470eb50d3b" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>setup_geometry_dataset_dimension</name></member>
+      <member refid="structIRockyCurveCollectionData_1aa445fbd38bfb1770a1c197f806890908" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>setup_geometry_time_curve_dimension</name></member>
+      <member refid="structIRockyCurveCollectionData_1a7942a28df7cd10c70ed086b9d11ebf2b" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>setup_particles_dataset_dimension</name></member>
+      <member refid="structIRockyCurveCollectionData_1a230f2f9be559dcb98d57a4e5c7218dd0" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>setup_particles_time_curve_dimension</name></member>
+      <member refid="structIRockyCurveCollectionData_1ab7b3c581d4cfc117c0c2b4e9c9be61af" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>setup_solver_dataset_dimension</name></member>
+      <member refid="structIRockyCurveCollectionData_1aec18b36979a9d48a3a48016d1d9b5b06" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>setup_solver_time_curve_dimension</name></member>
+      <member refid="structIRockyCurveCollectionData_1ad43383c1fe177dc20d46ec205f8cb675" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>setup_time_curve_dimension</name></member>
+      <member refid="structIRockyCurveCollectionData_1a77d905fa54397c6f5b7fdc84795b01a6" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>update_dataset</name></member>
+      <member refid="structIRockyCurveCollectionData_1aee59308015e7f60c741a0296a1c17a25" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>update_geometry_dataset</name></member>
+      <member refid="structIRockyCurveCollectionData_1a3da24f758d62665100b5c43b8f1075d9" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>update_geometry_time_curve</name></member>
+      <member refid="structIRockyCurveCollectionData_1a7f24452610d153c6f8da6e25f7bb1185" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>update_particles_dataset</name></member>
+      <member refid="structIRockyCurveCollectionData_1a650d74b4c42f6d63489f98ee5835d942" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>update_particles_time_curve</name></member>
+      <member refid="structIRockyCurveCollectionData_1a6bc5b0a03bcb799edc02934e386e41ea" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>update_solver_dataset</name></member>
+      <member refid="structIRockyCurveCollectionData_1a237fae8d13385fc04866ad4c4b24aa73" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>update_solver_time_curve</name></member>
+      <member refid="structIRockyCurveCollectionData_1a024664c7b45eb7a6728a3207eeb82ee3" prot="public" virt="non-virtual"><scope>IRockyCurveCollectionData</scope><name>update_time_curve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

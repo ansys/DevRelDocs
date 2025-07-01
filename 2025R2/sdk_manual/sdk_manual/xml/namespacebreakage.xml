@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacebreakage" kind="namespace" language="C++">
+    <compoundname>breakage</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="rocky__breakage__api_8cpp_1aae1d71607bb5a055b0a53129ddadeb6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; breakage::generate_fragment_sizes</definition>
+        <argsstring>(fragments_size_model *model, double parent_volume, double minimum_size, double t10, double minimum_t10)</argsstring>
+        <name>generate_fragment_sizes</name>
+        <qualifiedname>breakage::generate_fragment_sizes</qualifiedname>
+        <param>
+          <type>fragments_size_model *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>parent_volume</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>minimum_size</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>t10</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>minimum_t10</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_breakage_api.cpp" line="61" column="13" bodyfile="source/c++/rocky20/api/rocky_breakage_api.cpp" bodystart="61" bodyend="100" declfile="source/c++/rocky20/api/rocky_breakage_api.h" declline="9" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="rocky__breakage__api_8cpp_1a26ca088a174fb2502f0eb5f665eb251b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double breakage::calculate_minimum_t10_value</definition>
+        <argsstring>(fragments_size_model *model, double parent_volume, double minimum_volume, double maximum_t10)</argsstring>
+        <name>calculate_minimum_t10_value</name>
+        <qualifiedname>breakage::calculate_minimum_t10_value</qualifiedname>
+        <param>
+          <type>fragments_size_model *</type>
+          <declname>model</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>parent_volume</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>minimum_volume</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>maximum_t10</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_breakage_api.cpp" line="102" column="8" bodyfile="source/c++/rocky20/api/rocky_breakage_api.cpp" bodystart="102" bodyend="127" declfile="source/c++/rocky20/api/rocky_breakage_api.h" declline="12" declcolumn="8"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_breakage_api.cpp" line="58" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockyGeometryMotionData" kind="struct" language="C++" prot="public">
+    <compoundname>IRockyGeometryMotionData</compoundname>
+    <includes refid="rocky__boundary__api_8hpp" local="no">rocky_boundary_api.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1a21c87d2c5d4ad69dfd28651613888be7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyGeometryMotionData::get_id</definition>
+        <argsstring>() const</argsstring>
+        <name>get_id</name>
+        <qualifiedname>IRockyGeometryMotionData::get_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The ID of the geometry. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="401" column="9" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="517" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1ae4a43219e823a55f3ced79f234d7a6d9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string IRockyGeometryMotionData::get_name</definition>
+        <argsstring>() const</argsstring>
+        <name>get_name</name>
+        <qualifiedname>IRockyGeometryMotionData::get_name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The name of the geometry. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="406" column="17" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="522" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1a5be8af9c351470d287879e3d6f2a10e9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double3</type>
+        <definition>double3 IRockyGeometryMotionData::get_force</definition>
+        <argsstring>() const</argsstring>
+        <name>get_force</name>
+        <qualifiedname>IRockyGeometryMotionData::get_force</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The Cartesian components of the force applied by Rocky to the geometry. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="411" column="13" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="527" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1af213ddfd08829027f4c45d73cf566ff1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double3</type>
+        <definition>double3 IRockyGeometryMotionData::get_moment</definition>
+        <argsstring>() const</argsstring>
+        <name>get_moment</name>
+        <qualifiedname>IRockyGeometryMotionData::get_moment</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The Cartesian components of the moment applied by Rocky to the geometry. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="416" column="13" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="533" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1ac676748d6121c999c4d5097ab7246e08" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double3</type>
+        <definition>double3 IRockyGeometryMotionData::get_position</definition>
+        <argsstring>() const</argsstring>
+        <name>get_position</name>
+        <qualifiedname>IRockyGeometryMotionData::get_position</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The Cartesian coordinates of the reference position for the motion, which coincides with the geometry&apos;s gravity center. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="421" column="13" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="539" bodyend="543"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1a08d097c2e959733cb32c365c3fb2eef7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double3</type>
+        <definition>double3 IRockyGeometryMotionData::get_translational_velocity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_translational_velocity</name>
+        <qualifiedname>IRockyGeometryMotionData::get_translational_velocity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The Cartesian components of the geometry&apos;s translational velocity. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="426" column="13" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="545" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1a1a5cc239a4d3485280530fc6a46fe9d4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double4</type>
+        <definition>double4 IRockyGeometryMotionData::get_orientation_quaternion</definition>
+        <argsstring>() const</argsstring>
+        <name>get_orientation_quaternion</name>
+        <qualifiedname>IRockyGeometryMotionData::get_orientation_quaternion</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The orientation of the geometry expressed as a quaternion (w, x, y and z). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="431" column="13" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="551" bodyend="555"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1a0dbec31c54d9c33096a0841ac1379fc2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double3</type>
+        <definition>double3 IRockyGeometryMotionData::get_orientation_euler_angles</definition>
+        <argsstring>() const</argsstring>
+        <name>get_orientation_euler_angles</name>
+        <qualifiedname>IRockyGeometryMotionData::get_orientation_euler_angles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A vector whose components are the Euler angles that define the orientation of the geometry. In this vector, the x-component is the roll angle, the y-component is the pitch angle and the z-component is the yaw angle. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="438" column="13" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="557" bodyend="580"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1ad0aa494b8066b46a6d983031d1a53538" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>double3</type>
+        <definition>double3 IRockyGeometryMotionData::get_rotational_velocity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_rotational_velocity</name>
+        <qualifiedname>IRockyGeometryMotionData::get_rotational_velocity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The Cartesian components of the geometry&apos;s rotational velocity. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="443" column="13" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="582" bodyend="586"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1ab3fc0d338a140c8ca95b78bd2e8c4c94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyGeometryMotionData::set_position</definition>
+        <argsstring>(double3 position)</argsstring>
+        <name>set_position</name>
+        <qualifiedname>IRockyGeometryMotionData::set_position</qualifiedname>
+        <param>
+          <type>double3</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>Sets the new position for the geometry according to the motion that was applied.</title><para>Rocky uses the geometry&apos;s gravity center as the reference position for the geometry&apos;s motions. Thus, the geometry&apos;s gravity center will have a new position after each motion applied.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Cartesian components of the geometry&apos;s new position, which is equal to the new location of its gravity center.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Calling set_position in a geometry that is already linked to a motion frame is not allowed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="456" column="10" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="603" bodyend="611"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1a4f37dc923051f58381e6268199936eac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyGeometryMotionData::set_translational_velocity</definition>
+        <argsstring>(double3 v)</argsstring>
+        <name>set_translational_velocity</name>
+        <qualifiedname>IRockyGeometryMotionData::set_translational_velocity</qualifiedname>
+        <param>
+          <type>double3</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>Sets the geometry&apos;s new translational velocity according to the motion that was applied.</title><para></para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Cartesian components of the geometry&apos;s new translational velocity.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Calling set_translational_velocity in a geometry that is already linked to a motion frame is not allowed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="466" column="10" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="613" bodyend="621"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1a7169363d2fe6b5631ce18293cb31144b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyGeometryMotionData::set_orientation</definition>
+        <argsstring>(double4 quat)</argsstring>
+        <name>set_orientation</name>
+        <qualifiedname>IRockyGeometryMotionData::set_orientation</qualifiedname>
+        <param>
+          <type>double4</type>
+          <declname>quat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>Sets the geometry&apos;s new orientation (quaternion) according to the motion that was applied.</title><para></para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>quat</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The geometry&apos;s new orientation expressed as a quaternion (w, x, y and z).</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Calling set_orientation in a geometry that is already linked to a motion frame is not allowed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="476" column="10" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="623" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1a059a62e2d9453660725a0dc88313c73c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyGeometryMotionData::set_orientation_angles</definition>
+        <argsstring>(double3 angles)</argsstring>
+        <name>set_orientation_angles</name>
+        <qualifiedname>IRockyGeometryMotionData::set_orientation_angles</qualifiedname>
+        <param>
+          <type>double3</type>
+          <declname>angles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>Sets the geometry&apos;s new orientation in Euler angles according to the motion that was applied.</title><para></para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>angles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A vector whose components are the Euler angles that define the new orientation of the geometry. In this vector, the x-component is the roll angle, the y-component is the pitch angle and the z-component is the yaw angle.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Calling set_orientation_angles in a geometry that is already linked to a motion frame is not allowed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="488" column="10" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="637" bodyend="660"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1a90073262648b9550296f899fc4e85127" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyGeometryMotionData::set_rotational_velocity</definition>
+        <argsstring>(double3 w)</argsstring>
+        <name>set_rotational_velocity</name>
+        <qualifiedname>IRockyGeometryMotionData::set_rotational_velocity</qualifiedname>
+        <param>
+          <type>double3</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>Sets the geometry&apos;s new rotational velocity according to the motion that was applied.</title><para></para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Cartesian components of the geometry&apos;s new rotational velocity.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="attention"><para>Calling set_rotational_velocity in a geometry that is already linked to a motion frame is not allowed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="498" column="10" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="662" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryMotionData_1a03b51d01d3dcaaff8bfbd132e92370e7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRockyGeometryMotionData::has_linked_motion_frame</definition>
+        <argsstring>() const</argsstring>
+        <name>has_linked_motion_frame</name>
+        <qualifiedname>IRockyGeometryMotionData::has_linked_motion_frame</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the geometry has motion from the Rocky&apos;s internal motion kernel implementation. False otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="504" column="10" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="672" bodyend="675"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput><ref refid="structIRockyGeometryMotionData" kindref="compound">IRockyGeometryMotionData</ref></computeroutput> is an interface for a geometry motion in Rocky. A geometry motion represents the information from the motion applied to the geometry in Rocky&apos;s last simulation timestep. This information includes for Rocky&apos;s current simulation timestep, the forces and moments from the particles that are being applied to the geometry, and also the position, translational velocity, rotational velocity and orientation of the geometry from the previous timestep&apos;s motion. The information represented in a geometry motion are the forces and moments from the particles simulation, the position, translational velocity, rotational velocity and orientation of the geometry from the previous motion. To move the geometry within Rocky&apos;s current simulation timestep, the same motion information, i.e. (the new position, translational velocity, rotational velocity and orientation of the geometry) must be defined as within the previous timestep. If no motion is applied to the geometry, nothing is required to be set. If the geometry has no motion applied to it, the geometry&apos;s translational and rotational velocities are zero and its position and orientation are equal to the ones set at the end of the previous timestep. All property and variable values made available through <computeroutput><ref refid="structIRockyGeometryMotionData" kindref="compound">IRockyGeometryMotionData</ref></computeroutput> are dimensionless.</para>
+<para><simplesect kind="attention"><para>The geometry&apos;s gravity center is the reference position Rocky uses for the geometry&apos;s motions. Thus, the geometry&apos;s gravity center will have a new position after each motion applied. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="396" column="1" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="397" bodyend="515"/>
+    <listofallmembers>
+      <member refid="structIRockyGeometryMotionData_1a5be8af9c351470d287879e3d6f2a10e9" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>get_force</name></member>
+      <member refid="structIRockyGeometryMotionData_1a21c87d2c5d4ad69dfd28651613888be7" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>get_id</name></member>
+      <member refid="structIRockyGeometryMotionData_1af213ddfd08829027f4c45d73cf566ff1" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>get_moment</name></member>
+      <member refid="structIRockyGeometryMotionData_1ae4a43219e823a55f3ced79f234d7a6d9" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>get_name</name></member>
+      <member refid="structIRockyGeometryMotionData_1a0dbec31c54d9c33096a0841ac1379fc2" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>get_orientation_euler_angles</name></member>
+      <member refid="structIRockyGeometryMotionData_1a1a5cc239a4d3485280530fc6a46fe9d4" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>get_orientation_quaternion</name></member>
+      <member refid="structIRockyGeometryMotionData_1ac676748d6121c999c4d5097ab7246e08" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>get_position</name></member>
+      <member refid="structIRockyGeometryMotionData_1ad0aa494b8066b46a6d983031d1a53538" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>get_rotational_velocity</name></member>
+      <member refid="structIRockyGeometryMotionData_1a08d097c2e959733cb32c365c3fb2eef7" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>get_translational_velocity</name></member>
+      <member refid="structIRockyGeometryMotionData_1a03b51d01d3dcaaff8bfbd132e92370e7" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>has_linked_motion_frame</name></member>
+      <member refid="structIRockyGeometryMotionData_1a7169363d2fe6b5631ce18293cb31144b" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>set_orientation</name></member>
+      <member refid="structIRockyGeometryMotionData_1a059a62e2d9453660725a0dc88313c73c" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>set_orientation_angles</name></member>
+      <member refid="structIRockyGeometryMotionData_1ab3fc0d338a140c8ca95b78bd2e8c4c94" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>set_position</name></member>
+      <member refid="structIRockyGeometryMotionData_1a90073262648b9550296f899fc4e85127" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>set_rotational_velocity</name></member>
+      <member refid="structIRockyGeometryMotionData_1a4f37dc923051f58381e6268199936eac" prot="public" virt="non-virtual"><scope>IRockyGeometryMotionData</scope><name>set_translational_velocity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

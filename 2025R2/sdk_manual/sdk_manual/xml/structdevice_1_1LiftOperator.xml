@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structdevice_1_1LiftOperator" kind="struct" language="C++" prot="public">
+    <compoundname>device::LiftOperator</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structdevice_1_1LiftOperator_1acb19dbf8eb52f9123c05165a444ced08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::LiftOperator::operator()</definition>
+        <argsstring>(const IRockyParticle &amp;particle, const IRockyCFDProperties &amp;cfd, CFDCouplingOutput &amp;output, void *data)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>device::LiftOperator::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="structIRockyParticle" kindref="compound">IRockyParticle</ref> &amp;</type>
+          <declname>particle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structIRockyCFDProperties" kindref="compound">IRockyCFDProperties</ref> &amp;</type>
+          <declname>cfd</declname>
+        </param>
+        <param>
+          <type>CFDCouplingOutput &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="264" column="10" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="264" bodyend="267"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="261" column="1" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="262" bodyend="268"/>
+    <listofallmembers>
+      <member refid="structdevice_1_1LiftOperator_1acb19dbf8eb52f9123c05165a444ced08" prot="public" virt="non-virtual"><scope>device::LiftOperator</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

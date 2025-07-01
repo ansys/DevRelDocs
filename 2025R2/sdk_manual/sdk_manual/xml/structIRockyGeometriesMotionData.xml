@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockyGeometriesMotionData" kind="struct" language="C++" prot="public">
+    <compoundname>IRockyGeometriesMotionData</compoundname>
+    <includes refid="rocky__boundary__api_8hpp" local="no">rocky_boundary_api.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockyGeometriesMotionData_1a089856efc3afdea2fdf9c90652e411e8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int IRockyGeometriesMotionData::get_number_of_geometries</definition>
+        <argsstring>() const</argsstring>
+        <name>get_number_of_geometries</name>
+        <qualifiedname>IRockyGeometriesMotionData::get_number_of_geometries</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The number of geometries in the Rocky project. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="700" column="18" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="738" bodyend="741"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometriesMotionData_1a36a8aa9aa2bd497f7381980b78c83cb9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structIRockyGeometryMotionData" kindref="compound">IRockyGeometryMotionData</ref></type>
+        <definition>IRockyGeometryMotionData IRockyGeometriesMotionData::get_geometry</definition>
+        <argsstring>(unsigned int id) const</argsstring>
+        <name>get_geometry</name>
+        <qualifiedname>IRockyGeometriesMotionData::get_geometry</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>Gets a geometry&apos;s motion given the geometry&apos;s Rocky ID.</title><para>If the provided ID does not correspond to an existing geometry in Rocky, this method will raise an exception.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index assigned in Rocky to an existing geometry.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A geometry&apos;s motion. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="710" column="30" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="743" bodyend="752"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometriesMotionData_1a97350213657a5dfca98e787a4200ccc7" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structIRockyGeometryMotionData" kindref="compound">IRockyGeometryMotionData</ref></type>
+        <definition>IRockyGeometryMotionData IRockyGeometriesMotionData::get_geometry</definition>
+        <argsstring>(const std::string &amp;name) const</argsstring>
+        <name>get_geometry</name>
+        <qualifiedname>IRockyGeometriesMotionData::get_geometry</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>Gets a geometry&apos;s motion given the geometry&apos;s name.</title><para>If the provided name does not correspond to an existing geometry in Rocky, this method will raise an exception.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name assigned in Rocky to an existing geometry.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A geometry&apos;s motion. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="720" column="30" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="754" bodyend="768"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometriesMotionData_1a0a9f25ad715ac525854a83d7b591100f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool IRockyGeometriesMotionData::has_linked_motion_frame</definition>
+        <argsstring>(unsigned int id) const</argsstring>
+        <name>has_linked_motion_frame</name>
+        <qualifiedname>IRockyGeometriesMotionData::has_linked_motion_frame</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index assigned in Rocky to an existing geometry. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>True if the geometry with the passed id has motion from the Rocky&apos;s internal motion kernel implementation. False otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="727" column="10" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="770" bodyend="773"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput><ref refid="structIRockyGeometriesMotionData" kindref="compound">IRockyGeometriesMotionData</ref></computeroutput> is an interface for a list of geometries motions in Rocky. The list of geometries motions represented by this interface contains all geometries in Rocky, and they may or may not have a motion applied in Rocky&apos;s last simulation timestep. The geometries motions can be generated based upon the IDs of the geometries, which are numbered sequentially starting from zero, or from the names assigned to the geometries in the Rocky UI. </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_boundary_api.hpp" line="695" column="1" bodyfile="source/c++/rocky20/api/rocky_boundary_api.hpp" bodystart="696" bodyend="736"/>
+    <listofallmembers>
+      <member refid="structIRockyGeometriesMotionData_1a36a8aa9aa2bd497f7381980b78c83cb9" prot="public" virt="non-virtual"><scope>IRockyGeometriesMotionData</scope><name>get_geometry</name></member>
+      <member refid="structIRockyGeometriesMotionData_1a97350213657a5dfca98e787a4200ccc7" prot="public" virt="non-virtual"><scope>IRockyGeometriesMotionData</scope><name>get_geometry</name></member>
+      <member refid="structIRockyGeometriesMotionData_1a089856efc3afdea2fdf9c90652e411e8" prot="public" virt="non-virtual"><scope>IRockyGeometriesMotionData</scope><name>get_number_of_geometries</name></member>
+      <member refid="structIRockyGeometriesMotionData_1a0a9f25ad715ac525854a83d7b591100f" prot="public" virt="non-virtual"><scope>IRockyGeometriesMotionData</scope><name>has_linked_motion_frame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

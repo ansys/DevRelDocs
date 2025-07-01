@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="macros_and_specifiers" kind="page">
+    <compoundname>macros_and_specifiers</compoundname>
+    <title>Macros and specifiers</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="macros_and_specifiers_1md_docs_2sdk__manual_2macros__and__specifiers"/> <ref refid="glossary_1cuda" kindref="member">CUDA</ref> is the parallel computing platform used by Rocky to enable the execution of simulations on CUDA-enabled GPU cards. In order to work properly on GPU simulations, custom <ref refid="glossary_1module" kindref="member">modules</ref> must perform some basic operations of memory management on <ref refid="glossary_1device" kindref="member">devices</ref> and data transfer between CPU and GPU.</para>
+<para><emphasis>Note: Although on GPU simulations most of the heavy operations are processed on GPU, there are many operations, such as setup, initialization and output, that are always performed on CPU</emphasis></para>
+<para>This section describes a set of available CUDA-related macros that may be used for performing basic memory operations in the code when implementing custom modules. It is worth noting that they must be used only in the CUDA-related <ref refid="glossary_1hook" kindref="member">hooks</ref>*, and only when modules are intended to be used on simulations running on GPU. In order to enable CUDA-related macros and hooks, the <computeroutput>.cu</computeroutput> file implementing the module functionalities must define the preprocessor macro name <computeroutput>ROCKY_CUDA_API</computeroutput>.</para>
+<para>**Currently, the CUDA-related hooks are four: <computeroutput>ROCKY_PLUGIN_INITIALIZE_CUDA</computeroutput>, <computeroutput>ROCKY_PLUGIN_BEGIN_ITERATION_CUDA</computeroutput>, <computeroutput>ROCKY_PLUGIN_PRE_OUTPUT_CUDA_SYNC_DATA</computeroutput>, and <computeroutput>ROCKY_PLUGIN_TEAR_DOWN_CUDA</computeroutput>.*</para>
+<sect2 id="macros_and_specifiers_1autotoc_md11">
+<title>CUDA_MALLOC</title><para>This macro must be used to allocate a block of memory in a device for storing custom data. This allocation must be made before any copy operation of custom data to a device.</para>
+<para><bold>Parameters:</bold></para>
+<para><itemizedlist>
+<listitem><para><computeroutput>device_ptr</computeroutput></para>
+<para>A pointer that after successful memory allocation will point to the memory address in a device at which the custom data will be stored. Prior to its utilization in the macro, this pointer must be a null pointer, otherwise a runtime error will be thrown.</para>
+</listitem><listitem><para><computeroutput>size</computeroutput></para>
+<para>An integer value that indicates the number of bytes that must be allocated in the device.</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="macros_and_specifiers_1autotoc_md12">
+<title>CUDA_MALLOC_TYPE</title><para>A variant of <computeroutput>CUDA_MALLOC</computeroutput> that, instead of receiving the number of bytes that must be allocated in the device, receives the type of data that will be stored and the number of elements as parameters, if it happens to be an array.</para>
+<para><bold>Parameters:</bold></para>
+<para><itemizedlist>
+<listitem><para><computeroutput>device_ptr</computeroutput></para>
+<para>A pointer that after successful memory allocation will point to the memory address in a device at which the custom data will be stored. Prior to its utilization in the macro, this pointer must be a null pointer, otherwise a runtime error will be thrown.</para>
+</listitem><listitem><para><computeroutput>count</computeroutput></para>
+<para>An integer value that indicates the number of elements of the same type that will be stored in the allocated memory.</para>
+</listitem><listitem><para><computeroutput>type</computeroutput></para>
+<para>The type of variable that will be stored in the device, which can be a C++ built-in type or a custom data structure.</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="macros_and_specifiers_1autotoc_md13">
+<title>CUDA_COPY_H2D</title><para>This macro must be used to copy custom data from the <ref refid="glossary_1host" kindref="member">host</ref> to a device. Prior to this copy operation, the right amount of memory must have already been allocated within the device, otherwise a segmentation fault will occur.</para>
+<para><emphasis>Note: The data type being copied must be trivially copyable otherwise a compilation error will raise.</emphasis></para>
+<para><bold>Parameters:</bold></para>
+<para><itemizedlist>
+<listitem><para><computeroutput>device_ptr</computeroutput></para>
+<para>Destination memory address within a device.</para>
+</listitem><listitem><para><computeroutput>host_ptr</computeroutput></para>
+<para>Source memory address within the host.</para>
+</listitem><listitem><para><computeroutput>count</computeroutput></para>
+<para>An integer value that indicates the number of elements of the same type that will be copied.</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="macros_and_specifiers_1autotoc_md14">
+<title>CUDA_COPY_D2H</title><para>This macro performs the inverse operation of <computeroutput>CUDA_COPY_H2D</computeroutput>, that is, it copies data from the device back to the host. This operation may be needed when processed data must be made available to the host in order to be saved or delivered to the Rocky UI for visualization.</para>
+<para><emphasis>Note: The data type being copied must be trivially copyable otherwise a compilation error will raise.</emphasis></para>
+<para><bold>Parameters:</bold></para>
+<para><itemizedlist>
+<listitem><para><computeroutput>host_ptr</computeroutput></para>
+<para>Destination memory address within the host.</para>
+</listitem><listitem><para><computeroutput>device_ptr</computeroutput></para>
+<para>Source memory address within a device.</para>
+</listitem><listitem><para><computeroutput>count</computeroutput></para>
+<para>An integer value that indicates the number of elements of the same type that will be copied.</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="macros_and_specifiers_1autotoc_md15">
+<title>CUDA_MEMSET</title><para>This macro sets a memory block within a device to a given value. It is commonly used to reset a block of memory that previously contained some data to zero.</para>
+<para><bold>Parameters:</bold></para>
+<para><itemizedlist>
+<listitem><para><computeroutput>device_ptr</computeroutput></para>
+<para>Memory address within the device where the block begins.</para>
+</listitem><listitem><para><computeroutput>value</computeroutput></para>
+<para>The value to be defined for each byte within the memory block.</para>
+</listitem><listitem><para><computeroutput>count</computeroutput></para>
+<para>An integer value that indicates the number of elements of the same type that currently occupy the memory block.</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="macros_and_specifiers_1autotoc_md16">
+<title>CUDA_FREE</title><para>This macro must be used to free the memory block allocated previously by <computeroutput>CUDA_MALLOC</computeroutput>.</para>
+<para><bold>Parameters:</bold></para>
+<para><itemizedlist>
+<listitem><para><computeroutput>device_ptr</computeroutput></para>
+<para>Device pointer that points to the memory block that must be freed.</para>
+</listitem></itemizedlist>
+</para>
+</sect2>
+<sect2 id="macros_and_specifiers_1autotoc_md17">
+<title>ROCKY_FUNCTIONS</title><para>This is a function specifier that enables a function to be executed on CPU or on GPU. Its use is mandatory in the declaration of auxiliary functions that are intended to be called from hooks executed on GPU. This is the case for almost all hooks other than the initialization and termination hooks. </para>
+</sect2>
+    </detaileddescription>
+    <location file="docs/sdk_manual/macros_and_specifiers.md"/>
+  </compounddef>
+</doxygen>

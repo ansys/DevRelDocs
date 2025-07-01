@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structForcePipelineFunctions" kind="struct" language="C++" prot="public">
+    <compoundname>ForcePipelineFunctions</compoundname>
+    <derivedcompoundref refid="structDeformablePipelineFunctions" prot="public" virt="non-virtual">DeformablePipelineFunctions</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structForcePipelineFunctions_1aa20fd8817f693e942fdc2c65039ec770" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>EForcePipelineFunctions</type>
+            <declname>function</declname>
+            <defname>function</defname>
+          </param>
+        </templateparamlist>
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void ForcePipelineFunctions::run</definition>
+        <argsstring>(FORCE_KERNEL_PARAMETERS) const</argsstring>
+        <name>run</name>
+        <qualifiedname>ForcePipelineFunctions::run</qualifiedname>
+        <param>
+          <type>FORCE_KERNEL_PARAMETERS</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Invokes the contact function specified by function. If a custom function isn&apos;t defined, it invokes the standard function instead. Otherwise, it invokes the associated function pointer (CPU) or the specialization (GPU). <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>function</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>An enumerator indicating which function must be invoked </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>contact_api</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Contact API object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>contact_idata</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Contact Intermediate Data API object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>contact_output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The Contact Output Data API object </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>plugin_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Custom data from plugin </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_api_contact_functions.h" line="61" column="37" bodyfile="source/c++/rocky20/api/rocky_api_contact_functions.h" bodystart="61" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="structForcePipelineFunctions_1a0bfc03d680a9ca86f2ade11dea16e0a8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void ForcePipelineFunctions::get_frictional_parameters</definition>
+        <argsstring>(RockyContact &amp;rocky_contact, contact_output_data &amp;output, cuda_contact_intermediate_data &amp;idata, const double current_time) const</argsstring>
+        <name>get_frictional_parameters</name>
+        <qualifiedname>ForcePipelineFunctions::get_frictional_parameters</qualifiedname>
+        <param>
+          <type>RockyContact &amp;</type>
+          <declname>rocky_contact</declname>
+        </param>
+        <param>
+          <type>contact_output_data &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>cuda_contact_intermediate_data &amp;</type>
+          <declname>idata</declname>
+        </param>
+        <param>
+          <type>const double</type>
+          <declname>current_time</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_api_contact_functions.h" line="81" column="37" bodyfile="source/c++/rocky20/api/rocky_api_contact_functions.h" bodystart="81" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_api_contact_functions.h" line="48" column="1" bodyfile="source/c++/rocky20/api/rocky_api_contact_functions.h" bodystart="49" bodyend="90"/>
+    <listofallmembers>
+      <member refid="structForcePipelineFunctions_1a0bfc03d680a9ca86f2ade11dea16e0a8" prot="public" virt="non-virtual"><scope>ForcePipelineFunctions</scope><name>get_frictional_parameters</name></member>
+      <member refid="structForcePipelineFunctions_1aa20fd8817f693e942fdc2c65039ec770" prot="public" virt="non-virtual"><scope>ForcePipelineFunctions</scope><name>run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
