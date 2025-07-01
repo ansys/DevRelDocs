@@ -218,29 +218,47 @@ For example, if a ``collection`` has labels ``material`` and ``part``, each enti
 A ``label_space`` such as ``{"material": X, "part": Y}`` then targets a single entity in the collection, whereas one such as ``{"material": X}`` targets all entries of material "X".
 
 #### Base collection
+
 <a id="collection"></a>
-- collection
+
+The ``collection`` is the generic type for collections of DPF entities.
+
 #### Collection of any
+
 <a id="any-collection"></a>
-- any_collection
+
+The ``any_collection`` is a collection of ``Any`` objects. 
+
 #### Collection of fields of custom type
+
 <a id="custom-type-fields-container"></a>
-- custom_type_fields_container
+
+The ``custom_type_fields_container`` is a collection of ``custom_type_field`` instances.
+
 #### Collection of fields of doubles
+
 <a id="fields-container"></a>
-- fields_container
+
+The ``fields_container`` is a collection of ``field`` instances.
+
 #### Collection of fields of integers
+
 <a id="property-fields-container"></a>
-- property_fields_container
+
+The ``property_fields_container`` is a collection of ``property_field`` instances.
+
 #### Collection of meshes
+
 <a id="meshes-container"></a>
-- meshes_container
+
+The ``meshes_container`` is a collection of ``meshed_region`` instances.
+
 #### Collection of scopings
+
 <a id="scopings-container"></a>
-- scopings_container 
 
-
+The ``scopings_container`` is a collection of ``scoping`` instances.
 
 ### Unit systems
 
-- UnitSystem
+Some operators take in a unit system, defined using the ``UnitSystem`` type.
