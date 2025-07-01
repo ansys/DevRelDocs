@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="changelog_8md" kind="file" language="Markdown">
+    <compoundname>changelog.md</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline><highlight class="normal">###<sp/>Changelog<sp/>{#changelog}</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Release<sp/>notes<sp/>for<sp/>2025<sp/>R2</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Added</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`ROCKY_PLUGIN_MOLECULAR_VISCOSITY_ON_SPH_ELEMENTS`<sp/>hook.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`ROCKY_PLUGIN_HEAT_TRANSFER_COEFFICIENT_CORRELATION_ON_TRIANGLES`<sp/>hook.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockySPHElement::get_temperature()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockySPHElement::get_molecular_viscosity()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockySPHElement::set_molecular_viscosity()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockyModel::get_viscosity_factor()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockyFluidScalarsModel::find_species_scalar()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockyFluidScalarsModel::get_scalar_name()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockyFluidScalarsModel::get_scalar_unit()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockyCFDModel::is_single_phase()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockyCFDModel::has_species()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockyCFDModel::get_phase_names()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockyCFDModel::get_species_names()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockyCFDModel::get_primary_phase_name()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockyParticleHost::get_particle_group_index()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockySPHModel::set_htc_distance_factor()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockySPHModel::has_variable_molecular_viscosity()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockyModel::get_power_factor()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockyGeometryTriangle::get_triangle_center_velocity()`<sp/>method.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Deprecated</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockySPHDeviceModel::get_fluid_viscosity()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockySPHTriangleInteraction::get_wall_turbulent_thermal_conductance()`<sp/>method.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Removed</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`ROCKY_PLUGIN_FORCE_ON_SPH_ELEMENT_INTERACTIONS`<sp/>and<sp/>`ROCKY_PLUGIN_FORCE_ON_SPH_TRIANGLE_INTERACTIONS`<sp/>hooks<sp/>were<sp/>removed.<sp/>Consider<sp/>using<sp/>`ROCKY_PLUGIN_SURFACE_TENSION_ON_SPH_ELEMENT_INTERACTIONS`<sp/>or<sp/>`ROCKY_PLUGIN_VISCOUS_ACCELERATIONS_ON_SPH_ELEMENT_INTERACTIONS`<sp/>for<sp/>model<sp/>specific<sp/>implementations<sp/>or<sp/>pre/post<sp/>force<sp/>interactions<sp/>hooks.</highlight></codeline>
+<codeline></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">###<sp/>Release<sp/>notes<sp/>for<sp/>2025<sp/>R1</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Added</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockySPHElementScalarsModel::enable_velocity_gradient()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockySPHElement::get_strain_rate_tensor()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockySPHElementScalars::get_velocity_gradient_x()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockySPHElementScalars::get_velocity_gradient_y()`<sp/>method.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`IRockySPHElementScalars::get_velocity_gradient_z()`<sp/>method.</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">####<sp/>Deprecated</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`ROCKY_PLUGIN_COMPUTE_ADHESIVE_DISTANCES`<sp/>hook<sp/>was<sp/>deprecated.<sp/>Adhesive<sp/>distances<sp/>can<sp/>be<sp/>set<sp/>on<sp/>`ROCKY_PLUGIN_INITIALIZE`<sp/>or<sp/>`ROCKY_PLUGIN_BEGIN_ITERATION`.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`ROCKY_PLUGIN_FORCE_ON_SPH_ELEMENT_INTERACTIONS`<sp/>hook<sp/>was<sp/>deprecated.<sp/>Consider<sp/>using<sp/>`ROCKY_PLUGIN_SURFACE_TENSION_ON_SPH_ELEMENT_INTERACTIONS`<sp/>or<sp/>`ROCKY_PLUGIN_VISCOUS_ACCELERATIONS_ON_SPH_ELEMENT_INTERACTIONS`<sp/>for<sp/>model<sp/>specific<sp/>implementations.</highlight></codeline>
+<codeline><highlight class="normal">-<sp/>`ROCKY_PLUGIN_FORCE_ON_SPH_TRIANGLE_INTERACTIONS`<sp/>hook<sp/>was<sp/>deprecated.<sp/>Consider<sp/>using<sp/>`ROCKY_PLUGIN_SURFACE_TENSION_ON_SPH_TRIANGLE_INTERACTIONS`<sp/>or<sp/>`ROCKY_PLUGIN_VISCOUS_ACCELERATIONS_ON_SPH_TRIANGLE_INTERACTIONS`<sp/>specific<sp/>implementations.</highlight></codeline>
+    </programlisting>
+    <location file="docs/sdk_manual/changelog.md"/>
+  </compounddef>
+</doxygen>

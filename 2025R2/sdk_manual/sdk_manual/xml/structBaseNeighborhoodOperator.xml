@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structBaseNeighborhoodOperator" kind="struct" language="C++" prot="public">
+    <compoundname>BaseNeighborhoodOperator</compoundname>
+    <derivedcompoundref refid="structParticlesNeighborhoodOperator" prot="public" virt="non-virtual">ParticlesNeighborhoodOperator&lt; Callable &gt;</derivedcompoundref>
+    <derivedcompoundref refid="structTrianglesNeighborhoodOperator" prot="public" virt="non-virtual">TrianglesNeighborhoodOperator&lt; Callable &gt;</derivedcompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structBaseNeighborhoodOperator_1a3d956e1177ccdaebf755c2863e806768" prot="public" static="no" mutable="no">
+        <type>SDeviceModel *</type>
+        <definition>SDeviceModel* BaseNeighborhoodOperator::device_model</definition>
+        <argsstring></argsstring>
+        <name>device_model</name>
+        <qualifiedname>BaseNeighborhoodOperator::device_model</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_vicinity.hpp" line="10" column="18" bodyfile="source/c++/rocky20/api/device/api_device_vicinity.hpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBaseNeighborhoodOperator_1a9ffcc7773dd34e11297e87b27c6ec558" prot="public" static="no" mutable="no">
+        <type>const double</type>
+        <definition>const double BaseNeighborhoodOperator::current_time</definition>
+        <argsstring></argsstring>
+        <name>current_time</name>
+        <qualifiedname>BaseNeighborhoodOperator::current_time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_vicinity.hpp" line="11" column="18" bodyfile="source/c++/rocky20/api/device/api_device_vicinity.hpp" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBaseNeighborhoodOperator_1a06967583fa987fb3f70d4f4f8001b65f" prot="public" static="no" mutable="no">
+        <type>const size_t</type>
+        <definition>const size_t BaseNeighborhoodOperator::n_total_particles</definition>
+        <argsstring></argsstring>
+        <name>n_total_particles</name>
+        <qualifiedname>BaseNeighborhoodOperator::n_total_particles</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_vicinity.hpp" line="12" column="18" bodyfile="source/c++/rocky20/api/device/api_device_vicinity.hpp" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBaseNeighborhoodOperator_1a5cb40322d36423e2beb60e0a69914e0e" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int BaseNeighborhoodOperator::device_id</definition>
+        <argsstring></argsstring>
+        <name>device_id</name>
+        <qualifiedname>BaseNeighborhoodOperator::device_id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_vicinity.hpp" line="13" column="15" bodyfile="source/c++/rocky20/api/device/api_device_vicinity.hpp" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structBaseNeighborhoodOperator_1a21fa4a66d457168206bbb70a0ab67828" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* BaseNeighborhoodOperator::user_data</definition>
+        <argsstring></argsstring>
+        <name>user_data</name>
+        <qualifiedname>BaseNeighborhoodOperator::user_data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_vicinity.hpp" line="14" column="10" bodyfile="source/c++/rocky20/api/device/api_device_vicinity.hpp" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structBaseNeighborhoodOperator_1a60c9d08a39cecf9a037c835caa872a49" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS size_t</type>
+        <definition>ROCKY_FUNCTIONS size_t BaseNeighborhoodOperator::get_near_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_near_count</name>
+        <qualifiedname>BaseNeighborhoodOperator::get_near_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_vicinity.hpp" line="16" column="35" bodyfile="source/c++/rocky20/api/device/api_device_vicinity.hpp" bodystart="16" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="structBaseNeighborhoodOperator_1aafe0d7609dc541ed59ad3df4b79413a5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double3</type>
+        <definition>ROCKY_FUNCTIONS double3 BaseNeighborhoodOperator::get_near_centroid</definition>
+        <argsstring>(size_t id) const</argsstring>
+        <name>get_near_centroid</name>
+        <qualifiedname>BaseNeighborhoodOperator::get_near_centroid</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_vicinity.hpp" line="20" column="36" bodyfile="source/c++/rocky20/api/device/api_device_vicinity.hpp" bodystart="20" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/device/api_device_vicinity.hpp" line="8" column="1" bodyfile="source/c++/rocky20/api/device/api_device_vicinity.hpp" bodystart="9" bodyend="24"/>
+    <listofallmembers>
+      <member refid="structBaseNeighborhoodOperator_1a9ffcc7773dd34e11297e87b27c6ec558" prot="public" virt="non-virtual"><scope>BaseNeighborhoodOperator</scope><name>current_time</name></member>
+      <member refid="structBaseNeighborhoodOperator_1a5cb40322d36423e2beb60e0a69914e0e" prot="public" virt="non-virtual"><scope>BaseNeighborhoodOperator</scope><name>device_id</name></member>
+      <member refid="structBaseNeighborhoodOperator_1a3d956e1177ccdaebf755c2863e806768" prot="public" virt="non-virtual"><scope>BaseNeighborhoodOperator</scope><name>device_model</name></member>
+      <member refid="structBaseNeighborhoodOperator_1aafe0d7609dc541ed59ad3df4b79413a5" prot="public" virt="non-virtual"><scope>BaseNeighborhoodOperator</scope><name>get_near_centroid</name></member>
+      <member refid="structBaseNeighborhoodOperator_1a60c9d08a39cecf9a037c835caa872a49" prot="public" virt="non-virtual"><scope>BaseNeighborhoodOperator</scope><name>get_near_count</name></member>
+      <member refid="structBaseNeighborhoodOperator_1a06967583fa987fb3f70d4f4f8001b65f" prot="public" virt="non-virtual"><scope>BaseNeighborhoodOperator</scope><name>n_total_particles</name></member>
+      <member refid="structBaseNeighborhoodOperator_1a21fa4a66d457168206bbb70a0ab67828" prot="public" virt="non-virtual"><scope>BaseNeighborhoodOperator</scope><name>user_data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

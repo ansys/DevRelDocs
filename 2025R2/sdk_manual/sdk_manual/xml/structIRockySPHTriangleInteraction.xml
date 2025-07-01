@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockySPHTriangleInteraction" kind="struct" language="C++" prot="public">
+    <compoundname>IRockySPHTriangleInteraction</compoundname>
+    <includes refid="rocky__sph__interaction__api_8hpp" local="no">rocky_sph_interaction_api.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockySPHTriangleInteraction_1ae83d8750e222b2a46e6f901fd20b80d5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS <ref refid="structIRockySPHElement" kindref="compound">IRockySPHElement</ref></type>
+        <definition>ROCKY_FUNCTIONS IRockySPHElement IRockySPHTriangleInteraction::get_home_element</definition>
+        <argsstring>() const</argsstring>
+        <name>get_home_element</name>
+        <qualifiedname>IRockySPHTriangleInteraction::get_home_element</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="structIRockySPHElement" kindref="compound">IRockySPHElement</ref></computeroutput> object representing the SPH element labeled as <emphasis>home</emphasis> in the <emphasis>SPH interaction</emphasis>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" line="143" column="38" bodyfile="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" bodystart="256" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHTriangleInteraction_1a469b4ac53234c9e707fee62725b0470a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS <ref refid="structIRockyGeometryTriangle" kindref="compound">IRockyGeometryTriangle</ref></type>
+        <definition>ROCKY_FUNCTIONS IRockyGeometryTriangle IRockySPHTriangleInteraction::get_near_triangle</definition>
+        <argsstring>() const</argsstring>
+        <name>get_near_triangle</name>
+        <qualifiedname>IRockySPHTriangleInteraction::get_near_triangle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="structIRockyGeometryTriangle" kindref="compound">IRockyGeometryTriangle</ref></computeroutput> object representing the geometry triangle labeled as <emphasis>near</emphasis> in the <emphasis>SPH triangle interaction</emphasis>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" line="149" column="44" bodyfile="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" bodystart="279" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHTriangleInteraction_1a6bfc347dab63cdbb89a8045f878ba16f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>ROCKY_FUNCTIONS float IRockySPHTriangleInteraction::calculate_element_triangle_distance</definition>
+        <argsstring>() const</argsstring>
+        <name>calculate_element_triangle_distance</name>
+        <qualifiedname>IRockySPHTriangleInteraction::calculate_element_triangle_distance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The distance between the SPH element and the near geometry triangle, measured in the normal direction to the triangle&apos;s plane. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" line="155" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" bodystart="284" bodyend="287"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHTriangleInteraction_1a665a945d4045772b3a4759b76daf697b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float3</type>
+        <definition>ROCKY_FUNCTIONS float3 IRockySPHTriangleInteraction::get_orthogonal_projection</definition>
+        <argsstring>() const</argsstring>
+        <name>get_orthogonal_projection</name>
+        <qualifiedname>IRockySPHTriangleInteraction::get_orthogonal_projection</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The Cartesian coordinates of the orthogonal projection of the home SPH element position onto the near geometry triangle. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" line="161" column="28" bodyfile="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" bodystart="289" bodyend="292"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHTriangleInteraction_1a23aa813897c50610e3989dc625f1993a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float3</type>
+        <definition>ROCKY_FUNCTIONS float3 IRockySPHTriangleInteraction::get_unit_vector</definition>
+        <argsstring>() const</argsstring>
+        <name>get_unit_vector</name>
+        <qualifiedname>IRockySPHTriangleInteraction::get_unit_vector</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The unit vector normal to the near geometry triangle. This vector always points to the position of the home SPH element. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" line="167" column="28" bodyfile="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" bodystart="299" bodyend="302"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHTriangleInteraction_1afc2786e2e46e3b025371c17290a88f45" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float3</type>
+        <definition>ROCKY_FUNCTIONS float3 IRockySPHTriangleInteraction::get_home_element_velocity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_home_element_velocity</name>
+        <qualifiedname>IRockySPHTriangleInteraction::get_home_element_velocity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The velocity vector of the SPH element labeled as <emphasis>home</emphasis> in the SPH interaction. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" line="172" column="28" bodyfile="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" bodystart="251" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHTriangleInteraction_1ab240320819db1ece083e25b69f305e12" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float3</type>
+        <definition>ROCKY_FUNCTIONS float3 IRockySPHTriangleInteraction::get_boundary_velocity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_boundary_velocity</name>
+        <qualifiedname>IRockySPHTriangleInteraction::get_boundary_velocity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The instantaneous velocity of the point that coincides with the orthogonal projection of the SPH element position onto the near geometry triangle, expressed in Cartesian coordinates. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" line="178" column="28" bodyfile="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" bodystart="294" bodyend="297"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHTriangleInteraction_1a9df83c2a83bd932798eba6a099398ce4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS real_sph</type>
+        <definition>ROCKY_FUNCTIONS real_sph IRockySPHTriangleInteraction::get_normal_relative_velocity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_normal_relative_velocity</name>
+        <qualifiedname>IRockySPHTriangleInteraction::get_normal_relative_velocity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The normal component of the SPH element&apos;s velocity relative to the the velocity of the nearest point on that triangle. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" line="184" column="31" bodyfile="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" bodystart="304" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHTriangleInteraction_1a5ff11979743a9bd389afbc153b7124d9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS real_sph</type>
+        <definition>ROCKY_FUNCTIONS real_sph IRockySPHTriangleInteraction::get_tangential_relative_velocity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_tangential_relative_velocity</name>
+        <qualifiedname>IRockySPHTriangleInteraction::get_tangential_relative_velocity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The tangential component of the SPH element&apos;s velocity relative to the the velocity of the nearest point on that triangle. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" line="190" column="31" bodyfile="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" bodystart="309" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHTriangleInteraction_1aaae7a8fe9a92cdcd25f7f4d84a21a9f8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>ROCKY_FUNCTIONS float IRockySPHTriangleInteraction::get_wall_turbulent_thermal_conductance</definition>
+        <argsstring>(const float &amp;v_tang, const float &amp;dst_wall) const</argsstring>
+        <name>get_wall_turbulent_thermal_conductance</name>
+        <qualifiedname>IRockySPHTriangleInteraction::get_wall_turbulent_thermal_conductance</qualifiedname>
+        <param>
+          <type>const float &amp;</type>
+          <declname>v_tang</declname>
+        </param>
+        <param>
+          <type>const float &amp;</type>
+          <declname>dst_wall</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The thermal conductance between a SPH element and a geometry triangle, calculated using the thermal turbulent wall function. The corresponding heat transfer rate can be obtained by multiplying the thermal conductance by the temperature difference between the SPH element and the geometry triangle.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>velocity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tangential component of the velocity of the SPH element relative to the nearest point on the geometry triangle. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>distance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The distance of the SPH element to the nearest point on the geometry triangle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" line="203" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" bodystart="271" bodyend="276"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHTriangleInteraction_1a749ae0224b1bd279d33404b3d0b84010" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockySPHTriangleInteraction::add_force</definition>
+        <argsstring>(float3 force)</argsstring>
+        <name>add_force</name>
+        <qualifiedname>IRockySPHTriangleInteraction::add_force</qualifiedname>
+        <param>
+          <type>float3</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>By using this method, a SPH module can pass custom calculated forces to the Rocky solver,</title><para>so they are applied to the SPH element and the geometry triangle in the referred <emphasis>SPH triangle interaction</emphasis>.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>force</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The force to be applied to the SPH element in the <emphasis>SPH triangle interaction</emphasis>, and its triangle counterpart, expressed in Cartesian coordinates. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" line="214" column="26" bodyfile="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" bodystart="261" bodyend="264"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHTriangleInteraction_1a1578dfd6da083096eb169fe24913dd5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockySPHTriangleInteraction::add_acceleration</definition>
+        <argsstring>(float3 acceleration)</argsstring>
+        <name>add_acceleration</name>
+        <qualifiedname>IRockySPHTriangleInteraction::add_acceleration</qualifiedname>
+        <param>
+          <type>float3</type>
+          <declname>acceleration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>By using this method, a SPH module can pass custom calculated accelerations to the Rocky</title><para>solver, so they are added to the SPH element and the geometry triangle in the referred <emphasis>SPH triangle interaction</emphasis>.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>acceleration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The acceleration to be added to the SPH element in the <emphasis>SPH triangle interaction</emphasis>, and its triangle counterpart, expressed in Cartesian coordinates. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" line="224" column="26" bodyfile="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" bodystart="266" bodyend="269"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput><ref refid="structIRockySPHTriangleInteraction" kindref="compound">IRockySPHTriangleInteraction</ref></computeroutput> is a code representation of a pair of neighbor SPH element / geometry triangle with a force interaction. Within Rocky, this pair is usually called <emphasis>SPH triangle interaction</emphasis>. </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" line="137" column="1" bodyfile="source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp" bodystart="138" bodyend="243"/>
+    <listofallmembers>
+      <member refid="structIRockySPHTriangleInteraction_1a1578dfd6da083096eb169fe24913dd5b" prot="public" virt="non-virtual"><scope>IRockySPHTriangleInteraction</scope><name>add_acceleration</name></member>
+      <member refid="structIRockySPHTriangleInteraction_1a749ae0224b1bd279d33404b3d0b84010" prot="public" virt="non-virtual"><scope>IRockySPHTriangleInteraction</scope><name>add_force</name></member>
+      <member refid="structIRockySPHTriangleInteraction_1a6bfc347dab63cdbb89a8045f878ba16f" prot="public" virt="non-virtual"><scope>IRockySPHTriangleInteraction</scope><name>calculate_element_triangle_distance</name></member>
+      <member refid="structIRockySPHTriangleInteraction_1ab240320819db1ece083e25b69f305e12" prot="public" virt="non-virtual"><scope>IRockySPHTriangleInteraction</scope><name>get_boundary_velocity</name></member>
+      <member refid="structIRockySPHTriangleInteraction_1ae83d8750e222b2a46e6f901fd20b80d5" prot="public" virt="non-virtual"><scope>IRockySPHTriangleInteraction</scope><name>get_home_element</name></member>
+      <member refid="structIRockySPHTriangleInteraction_1afc2786e2e46e3b025371c17290a88f45" prot="public" virt="non-virtual"><scope>IRockySPHTriangleInteraction</scope><name>get_home_element_velocity</name></member>
+      <member refid="structIRockySPHTriangleInteraction_1a469b4ac53234c9e707fee62725b0470a" prot="public" virt="non-virtual"><scope>IRockySPHTriangleInteraction</scope><name>get_near_triangle</name></member>
+      <member refid="structIRockySPHTriangleInteraction_1a9df83c2a83bd932798eba6a099398ce4" prot="public" virt="non-virtual"><scope>IRockySPHTriangleInteraction</scope><name>get_normal_relative_velocity</name></member>
+      <member refid="structIRockySPHTriangleInteraction_1a665a945d4045772b3a4759b76daf697b" prot="public" virt="non-virtual"><scope>IRockySPHTriangleInteraction</scope><name>get_orthogonal_projection</name></member>
+      <member refid="structIRockySPHTriangleInteraction_1a5ff11979743a9bd389afbc153b7124d9" prot="public" virt="non-virtual"><scope>IRockySPHTriangleInteraction</scope><name>get_tangential_relative_velocity</name></member>
+      <member refid="structIRockySPHTriangleInteraction_1a23aa813897c50610e3989dc625f1993a" prot="public" virt="non-virtual"><scope>IRockySPHTriangleInteraction</scope><name>get_unit_vector</name></member>
+      <member refid="structIRockySPHTriangleInteraction_1aaae7a8fe9a92cdcd25f7f4d84a21a9f8" prot="public" virt="non-virtual"><scope>IRockySPHTriangleInteraction</scope><name>get_wall_turbulent_thermal_conductance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

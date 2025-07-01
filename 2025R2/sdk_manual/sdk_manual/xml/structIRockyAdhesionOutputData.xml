@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockyAdhesionOutputData" kind="struct" language="C++" prot="public">
+    <compoundname>IRockyAdhesionOutputData</compoundname>
+    <includes refid="rocky__contact__output__data__api_8hpp" local="no">rocky_contact_output_data_api.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockyAdhesionOutputData_1ad7c2fa5fb68f60dfa44d4f24efa06c01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockyAdhesionOutputData::set_normal_force</definition>
+        <argsstring>(double value)</argsstring>
+        <name>set_normal_force</name>
+        <qualifiedname>IRockyAdhesionOutputData::set_normal_force</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method sets the value of the normal component of the adhesion force calculated by a custom</title><para>adhesion model. Rocky will sum this force to both entities associated to the contact (two particles or a particle and a geometry triangle) using the appropriate signs. Please note that since an adhesion force is attractive, normally it must be defined with a negative sign (i.e. its orientation must be opposite to the normal component of the contact force).</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The normal component of the adhesive force just calculated using a custom adhesion model. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_contact_output_data_api.hpp" line="315" column="26" bodyfile="source/c++/rocky20/api/rocky_contact_output_data_api.hpp" bodystart="337" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyAdhesionOutputData_1a99e185831e9028fe03fde885059767d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockyAdhesionOutputData::set_tangential_force</definition>
+        <argsstring>(double3 value)</argsstring>
+        <name>set_tangential_force</name>
+        <qualifiedname>IRockyAdhesionOutputData::set_tangential_force</qualifiedname>
+        <param>
+          <type>double3</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method can be used to set the value of the tangential component of the adhesion force </title><para>calculated by a custom adhesion model. Rocky will sum this force to both entities associated to the contact (two particles or a particle and a geometry triangle) using the appropriate signs. The use of this function is optional, since only in specific cases (like in a liquid bridge model) an adhesion model will need to specify a tangential force component.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The tangential component of the adhesive force expressed in Cartesian coordinates. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_contact_output_data_api.hpp" line="327" column="26" bodyfile="source/c++/rocky20/api/rocky_contact_output_data_api.hpp" bodystart="342" bodyend="345"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput><ref refid="structIRockyAdhesionOutputData" kindref="compound">IRockyAdhesionOutputData</ref></computeroutput> is an interface to define some property values related to an adhesive contact in a custom adhesion model. The values defined through this interface include the normal and tangential components of the adhesion force. </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_contact_output_data_api.hpp" line="303" column="1" bodyfile="source/c++/rocky20/api/rocky_contact_output_data_api.hpp" bodystart="304" bodyend="335"/>
+    <listofallmembers>
+      <member refid="structIRockyAdhesionOutputData_1ad7c2fa5fb68f60dfa44d4f24efa06c01" prot="public" virt="non-virtual"><scope>IRockyAdhesionOutputData</scope><name>set_normal_force</name></member>
+      <member refid="structIRockyAdhesionOutputData_1a99e185831e9028fe03fde885059767d0" prot="public" virt="non-virtual"><scope>IRockyAdhesionOutputData</scope><name>set_tangential_force</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

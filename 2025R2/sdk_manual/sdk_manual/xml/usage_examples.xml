@@ -1,0 +1,1013 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="usage_examples" kind="page">
+    <compoundname>usage_examples</compoundname>
+    <title>Usage examples</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="usage_examples_1md_docs_2sdk__manual_2usage__examples"/></para>
+<para>The first section of this chapter provides a step-by-step description of the implementation of a simple but fully functional module using the Rocky Solver SDK. The whole process is covered, from the implementation of all the required source files, until the execution of the compiled module. The second section describes the code associated to a custom module that implements a contact model.</para>
+<sect2 id="usage_examples_1autotoc_md117">
+<title>A simple custom module</title><para>This section describes the implementation of the code of a simple module in order to illustrate the use of the Rocky Solver SDK. The example module is called <computeroutput>Spherical Region</computeroutput>. Its only purpose is to allow users to define a region of spherical shape inside the simulation domain, and mark all particles located inside this region at any given time.</para>
+<para>The source files detailed below should be saved in the following directory structure:</para>
+<para><programlisting><codeline><highlight class="normal">spherical_region/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>CMakeLists.txt</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>spherical_region.cu</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>spherical_region.plugin</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>spherical_region.py</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>spherical_region.pdf</highlight></codeline>
+</programlisting></para>
+<para>The following sections reproduce and describe the content of each one of the four source files. For a walk-through example of setting up and using this simple custom module, refer to <emphasis>Tutorial 23: Rocky Solver SDK</emphasis>.</para>
+<sect3 id="usage_examples_1autotoc_md118">
+<title>File spherical_region.plugin</title><para><programlisting><codeline><highlight class="normal">[Core]</highlight></codeline>
+<codeline><highlight class="normal">Name<sp/>=<sp/>Spherical<sp/>Region</highlight></codeline>
+<codeline><highlight class="normal">Module<sp/>=<sp/>spherical_region</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[Documentation]</highlight></codeline>
+<codeline><highlight class="normal">Author<sp/>=<sp/>Rocky<sp/>user</highlight></codeline>
+<codeline><highlight class="normal">Version<sp/>=<sp/>1.0</highlight></codeline>
+<codeline><highlight class="normal">Website<sp/>=<sp/>user@domain.org</highlight></codeline>
+<codeline><highlight class="normal">Description<sp/>=<sp/>Marks<sp/>particles<sp/>inside<sp/>a<sp/>spherical<sp/>region</highlight></codeline>
+</programlisting></para>
+<para>The purpose of this file is to give Rocky general information about the module. For instance, line 2 defines the name of the module as it must be displayed in the Rocky UI. Similarly, line 3 gives the name of the compiled library file of the module in the filesystem. The data in the block between lines 5 and 9 is displayed within the <bold>Info</bold> tab associated to the module in the Rocky UI.</para>
+</sect3>
+<sect3 id="usage_examples_1autotoc_md119">
+<title>File spherical_region.py</title><para>This is a Python file that specifies which are the module parameters that must be displayed in the Rocky UI*. When a project is set up in Rocky and the module is enabled, users will be able to enter values for all parameters defined in this file, through the Rocky UI. Refer to chapter Module specification for a complete description of how different types of data can be specified by means of this file.</para>
+<para><programlisting><codeline><highlight class="normal">1<sp/><sp/><sp/>from<sp/>pathlib<sp/>import<sp/>Path</highlight></codeline>
+<codeline><highlight class="normal">2</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/>from<sp/>yapsy.IPlugin<sp/>import<sp/>IPlugin</highlight></codeline>
+<codeline><highlight class="normal">4</highlight></codeline>
+<codeline><highlight class="normal">5<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_models<sp/>import<sp/>container_model,<sp/>data_model</highlight></codeline>
+<codeline><highlight class="normal">6<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_specs<sp/>import<sp/>RockyAddinSpecs</highlight></codeline>
+<codeline><highlight class="normal">7<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_types<sp/>import<sp/>Quantity</highlight></codeline>
+<codeline><highlight class="normal">8</highlight></codeline>
+<codeline><highlight class="normal">9<sp/><sp/><sp/>NAME<sp/>=<sp/>&apos;Spherical<sp/>Region&apos;</highlight></codeline>
+<codeline><highlight class="normal">10</highlight></codeline>
+<codeline><highlight class="normal">11</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/>@data_model(icon=None,<sp/>caption=NAME)</highlight></codeline>
+<codeline><highlight class="normal">13<sp/><sp/>class<sp/>SphericalRegionModel:</highlight></codeline>
+<codeline><highlight class="normal">14<sp/><sp/> <sp/> <sp/>center_x<sp/>=<sp/>Quantity(value=0.0,<sp/>unit=&apos;m&apos;,<sp/>caption=&apos;Center<sp/>Coordinate<sp/>X&apos;)</highlight></codeline>
+<codeline><highlight class="normal">15<sp/><sp/> <sp/> <sp/>center_y<sp/>=<sp/>Quantity(value=0.0,<sp/>unit=&apos;m&apos;,<sp/>caption=&apos;Center<sp/>Coordinate<sp/>Y&apos;)</highlight></codeline>
+<codeline><highlight class="normal">16<sp/><sp/> <sp/> <sp/>center_z<sp/>=<sp/>Quantity(value=0.0,<sp/>unit=&apos;m&apos;,<sp/>caption=&apos;Center<sp/>Coordinate<sp/>Z&apos;)</highlight></codeline>
+<codeline><highlight class="normal">17<sp/><sp/> <sp/> <sp/>radius<sp/>=<sp/>Quantity(value=1.0,<sp/>unit=&apos;m&apos;,<sp/>caption=&apos;Sphere<sp/>Radius&apos;)</highlight></codeline>
+<codeline><highlight class="normal">18</highlight></codeline>
+<codeline><highlight class="normal">19</highlight></codeline>
+<codeline><highlight class="normal">20<sp/><sp/>class<sp/>SphericalRegionSpecs(RockyAddinSpecs):</highlight></codeline>
+<codeline><highlight class="normal">21</highlight></codeline>
+<codeline><highlight class="normal">22<sp/><sp/> <sp/> <sp/>name<sp/>=<sp/>NAME</highlight></codeline>
+<codeline><highlight class="normal">23</highlight></codeline>
+<codeline><highlight class="normal">24<sp/><sp/> <sp/> <sp/>model<sp/>=<sp/>SphericalRegionModel</highlight></codeline>
+<codeline><highlight class="normal">25</highlight></codeline>
+<codeline><highlight class="normal">26<sp/><sp/> <sp/> <sp/>@classmethod</highlight></codeline>
+<codeline><highlight class="normal">27<sp/><sp/> <sp/> <sp/>def<sp/>CreateAddin(cls):</highlight></codeline>
+<codeline><highlight class="normal">28<sp/><sp/> <sp/> <sp/> <sp/> <sp/>return<sp/>cls.CreateDynamicAddin(Path(__file__).parent,<sp/>&apos;spherical_region&apos;)</highlight></codeline>
+<codeline><highlight class="normal">29</highlight></codeline>
+<codeline><highlight class="normal">30</highlight></codeline>
+<codeline><highlight class="normal">31<sp/><sp/>class<sp/>SphericalRegionModule(IPlugin):</highlight></codeline>
+<codeline><highlight class="normal">32<sp/><sp/> <sp/> <sp/>def<sp/>get_addin_specs(self):</highlight></codeline>
+<codeline><highlight class="normal">33<sp/><sp/> <sp/> <sp/> <sp/> <sp/>return<sp/>SphericalRegionSpecs</highlight></codeline>
+</programlisting></para>
+<para>SDK utilities necessary for specifying the module data are imported in the block between lines 1 and 5. Line 7 defines the name of the module that Rocky must show in the UI. Beginning at line 10, the auxiliary class <computeroutput>SphericalRegionModel</computeroutput> is defined, which includes the specification of the four parameters that the model needs. They are the three Cartesian coordinates of the sphere center and the sphere radius.</para>
+<para>Between lines 18 and 26, the <computeroutput>SphericalRegionSpecs</computeroutput> class is defined, which in this case includes only the definition of the name of the module and the specification of the parameters previously included in the <computeroutput>SphericalRegionModel</computeroutput> class. Additionally, the <computeroutput>CreateAddin</computeroutput> method is defined, which handles the loading of the compiled library file for the module when the simulation starts.</para>
+<para>Finally, at line 29, the definition of the <computeroutput>SphericalRegionModule</computeroutput> class is included. Only one method is implemented in this class, <computeroutput>get_addin_specs</computeroutput>, which makes available all the specifications made previously in the file.</para>
+</sect3>
+<sect3 id="usage_examples_1autotoc_md120">
+<title>File spherical_region.pdf</title><para>This is an optional help file that may include usage instructions and/or technical details about the implementation of the module. If included, Rocky will automatically link it to a special icon displayed in the UI that will allow users of the module to open the file.</para>
+</sect3>
+<sect3 id="usage_examples_1autotoc_md121">
+<title>File CMakeLists.txt</title><para>This file includes compilation, linkage and install instructions in the CMake language, needed to build the module. Several commands defined by the Rocky SDK are used in order to simplify this file. The content of this file must be practically the same reproduced below for any custom module implemented using the Rocky Solver SDK. Users only have to replace the actual name of the compiled library at line 3 and define the <computeroutput>ROCKY_PLUGINS_PATH</computeroutput> environment variable with the directory in which the compiled modules must be installed, if this definition has not been made previously.</para>
+<para><programlisting><codeline><highlight class="normal">find_package(RockySDK<sp/>REQUIRED)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">set(PKG_NAME<sp/>&quot;spherical_region&quot;)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">cuda_add_library(${PKG_NAME}<sp/>SHARED<sp/>${PKG_NAME}.cu)</highlight></codeline>
+<codeline><highlight class="normal">target_link_libraries(${PKG_NAME}<sp/>${RockySDK_LIBRARIES})</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">set(ASSETS_LIST<sp/>&quot;${PKG_NAME}.plugin&quot;<sp/>&quot;${PKG_NAME}.py&quot;)</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">install_rocky_plugin(${PKG_NAME}<sp/>ASSETS_LIST)</highlight></codeline>
+</programlisting></para>
+<para>If the module includes a help <computeroutput>pdf</computeroutput> file, the line 8 must include this file in the list of module assets, in the following way:</para>
+<para><programlisting><codeline><highlight class="normal">set(ASSETS_LIST<sp/>&quot;${PKG_NAME}.plugin&quot;<sp/>&quot;${PKG_NAME}.py&quot;<sp/>&quot;${PKG_NAME}.pdf&quot;)</highlight></codeline>
+</programlisting></para>
+<para>On the other hand, if for some reason the module must be installed in a directory different from the one pointed to by the environment variable <computeroutput>ROCKY_PLUGINS_PATH</computeroutput>, the following additional line can be inserted between lines 3 and 5:</para>
+<para><programlisting><codeline><highlight class="normal">set(ROCKY_PLUGIN_INSTALLATION_DIR<sp/>${CMAKE_CURRENT_SOURCE_DIR}/custom_path/)</highlight></codeline>
+</programlisting></para>
+<para>where <computeroutput>custom_path</computeroutput> is the path of the folder where the module must be installed, relative to the source directory being processed.</para>
+</sect3>
+<sect3 id="usage_examples_1autotoc_md122">
+<title>File spherical_region.cu</title><para>This file includes the C++ code that implements the intended functionality of the module during the execution of a simulation. Every function defined in this file must be executed at strategic points when a simulation is running in Rocky. These points are defined via the simulation <ref refid="glossary_1hook" kindref="member">hooks</ref> described in the chapter <ref refid="solver_hooks" kindref="compound">Solver Hooks</ref>, and must therefore be chosen carefully by taking into account what operations the module must perform and what information provided by Rocky will be necessary for their execution. In order to interact with Rocky, the Solver SDK classes and methods described in chapter <ulink url="annotated.xhtml">Class Reference</ulink> must be used.</para>
+<para><programlisting><codeline><highlight class="normal">1<sp/><sp/><sp/>#define<sp/>ROCKY_CUDA_API</highlight></codeline>
+<codeline><highlight class="normal">2</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/>#include<sp/>&lt;rocky20/api/rocky_api.h&gt;</highlight></codeline>
+<codeline><highlight class="normal">4</highlight></codeline>
+<codeline><highlight class="normal">5<sp/><sp/><sp/>struct<sp/>ModuleData</highlight></codeline>
+<codeline><highlight class="normal">6<sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">7<sp/><sp/><sp/><sp/><sp/><sp/><sp/>double3<sp/>sphere_center;</highlight></codeline>
+<codeline><highlight class="normal">8<sp/><sp/><sp/><sp/><sp/><sp/><sp/>double<sp/>sphere_radius;</highlight></codeline>
+<codeline><highlight class="normal">9<sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>scalar_index;</highlight></codeline>
+<codeline><highlight class="normal">10<sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal">11</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/>ROCKY_PLUGIN(&quot;Spherical<sp/>Region&quot;,<sp/>&quot;0.0.0&quot;)</highlight></codeline>
+<codeline><highlight class="normal">13</highlight></codeline>
+<codeline><highlight class="normal">14</highlight></codeline>
+<codeline><highlight class="normal">15<sp/><sp/>ROCKY_PLUGIN_CONFIGURE(input_data,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">16<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">17<sp/><sp/><sp/><sp/><sp/><sp/>ModuleData*<sp/>module_data<sp/>=<sp/>new<sp/>ModuleData();</highlight></codeline>
+<codeline><highlight class="normal">18<sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>model_properties<sp/>=<sp/>input_data.get_model();</highlight></codeline>
+<codeline><highlight class="normal">19<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_center.x<sp/>=<sp/>model_properties.get_double(&quot;center_x&quot;);</highlight></codeline>
+<codeline><highlight class="normal">20<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_center.y<sp/>=<sp/>model_properties.get_double(&quot;center_y&quot;);</highlight></codeline>
+<codeline><highlight class="normal">21<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_center.z<sp/>=<sp/>model_properties.get_double(&quot;center_z&quot;);</highlight></codeline>
+<codeline><highlight class="normal">22<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_radius<sp/>=<sp/>model_properties.get_double(&quot;radius&quot;);</highlight></codeline>
+<codeline><highlight class="normal">23<sp/><sp/><sp/><sp/><sp/><sp/>data<sp/>=<sp/>static_cast&lt;void*&gt;(module_data);</highlight></codeline>
+<codeline><highlight class="normal">24<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">25</highlight></codeline>
+<codeline><highlight class="normal">26<sp/><sp/>ROCKY_PLUGIN_SETUP(model,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">27<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">28<sp/><sp/><sp/><sp/><sp/><sp/>ModuleData*<sp/>module_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">29<sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>scalars<sp/>=<sp/>model.get_particle_scalars();</highlight></codeline>
+<codeline><highlight class="normal">30<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;scalar_index<sp/>=<sp/>scalars.add(&quot;Inside<sp/>Sphere<sp/>Flag&quot;,<sp/>&quot;-&quot;);</highlight></codeline>
+<codeline><highlight class="normal">31<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">32</highlight></codeline>
+<codeline><highlight class="normal">33<sp/><sp/>ROCKY_PLUGIN_NON_DIMENSIONALIZE(model,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">34<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">35<sp/><sp/><sp/><sp/><sp/><sp/>ModuleData*<sp/>module_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">36<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_center.x<sp/>/=<sp/>model.get_length_factor();</highlight></codeline>
+<codeline><highlight class="normal">37<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_center.y<sp/>/=<sp/>model.get_length_factor();</highlight></codeline>
+<codeline><highlight class="normal">38<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_center.z<sp/>/=<sp/>model.get_length_factor();</highlight></codeline>
+<codeline><highlight class="normal">39<sp/><sp/><sp/><sp/><sp/><sp/>module_data-&gt;sphere_radius<sp/>/=<sp/>model.get_length_factor();</highlight></codeline>
+<codeline><highlight class="normal">40<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">41</highlight></codeline>
+<codeline><highlight class="normal">42<sp/><sp/>ROCKY_PLUGIN_INITIALIZE_CUDA(model,<sp/>host_data,<sp/>device_id,<sp/>device_data)</highlight></codeline>
+<codeline><highlight class="normal">43<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">44<sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>h_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(host_data);</highlight></codeline>
+<codeline><highlight class="normal">45</highlight></codeline>
+<codeline><highlight class="normal">46<sp/><sp/><sp/><sp/><sp/><sp/>ModuleData*<sp/>d_data<sp/>=<sp/>nullptr;</highlight></codeline>
+<codeline><highlight class="normal">47<sp/><sp/><sp/><sp/><sp/><sp/>CUDA_MALLOC_TYPE(d_data,<sp/>1,<sp/>ModuleData);</highlight></codeline>
+<codeline><highlight class="normal">48<sp/><sp/><sp/><sp/><sp/><sp/>CUDA_COPY_H2D(d_data,<sp/>h_data,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal">49<sp/><sp/><sp/><sp/><sp/><sp/>device_data<sp/>=<sp/>static_cast&lt;void*&gt;(d_data);</highlight></codeline>
+<codeline><highlight class="normal">50<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">51</highlight></codeline>
+<codeline><highlight class="normal">52<sp/><sp/>ROCKY_PLUGIN_POST_MOVE_PARTICLES(device_model,<sp/>particle,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">53<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">54<sp/><sp/><sp/><sp/><sp/><sp/>ModuleData*<sp/>module_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">55<sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>scalars<sp/>=<sp/>particle.get_scalars();</highlight></codeline>
+<codeline><highlight class="normal">56<sp/><sp/><sp/><sp/><sp/><sp/>int<sp/>scalar_index<sp/>=<sp/>module_data-&gt;scalar_index;</highlight></codeline>
+<codeline><highlight class="normal">57<sp/><sp/><sp/><sp/><sp/><sp/>double3<sp/>position<sp/>=<sp/>particle.get_centroid_position();</highlight></codeline>
+<codeline><highlight class="normal">58<sp/><sp/><sp/><sp/><sp/><sp/>double<sp/>distance<sp/>=<sp/>get_norm(position<sp/>-<sp/>module_data-&gt;sphere_center);</highlight></codeline>
+<codeline><highlight class="normal">59</highlight></codeline>
+<codeline><highlight class="normal">60<sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>(distance<sp/>&lt;<sp/>module_data-&gt;sphere_radius)</highlight></codeline>
+<codeline><highlight class="normal">61<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scalars.set_scalar(scalar_index,<sp/>1.0);</highlight></codeline>
+<codeline><highlight class="normal">62<sp/><sp/><sp/><sp/><sp/><sp/>else</highlight></codeline>
+<codeline><highlight class="normal">63<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>scalars.set_scalar(scalar_index,<sp/>0.0);</highlight></codeline>
+<codeline><highlight class="normal">64<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">65<sp/><sp/>ROCKY_PLUGIN_POST_MOVE_PARTICLES_END()</highlight></codeline>
+<codeline><highlight class="normal">66</highlight></codeline>
+<codeline><highlight class="normal">67<sp/><sp/>ROCKY_PLUGIN_TEAR_DOWN(model,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">68<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">69<sp/><sp/><sp/><sp/><sp/><sp/>delete<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">70<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">71</highlight></codeline>
+<codeline><highlight class="normal">72<sp/><sp/>ROCKY_PLUGIN_TEAR_DOWN_CUDA(model,<sp/>device_id,<sp/>device_data)</highlight></codeline>
+<codeline><highlight class="normal">73<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">74<sp/><sp/><sp/><sp/><sp/><sp/>auto<sp/>d_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(device_data);</highlight></codeline>
+<codeline><highlight class="normal">75<sp/><sp/><sp/><sp/><sp/><sp/>CUDA_FREE(d_data);</highlight></codeline>
+<codeline><highlight class="normal">76<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">77</highlight></codeline>
+<codeline><highlight class="normal">78<sp/><sp/>ROCKY_PLUGIN_END</highlight></codeline>
+</programlisting></para>
+<para>The directive in line 1 enables the execution of the module in single or multi-GPU configurations. When this line is included, the module must define a <computeroutput>ROCKY_PLUGIN_INITIALIZE_CUDA</computeroutput> function in order to allocate memory in the GPU and to copy the module data to the GPU, as described below.</para>
+<para>In line 5, a custom data structure <computeroutput>ModuleData</computeroutput> is defined, that will be used to store the data needed by the module. In this case, the structure includes the coordinates of the center point*, the radius of the sphere and an index to identify the particle <ref refid="glossary_1scalar" kindref="member">scalar</ref> that will be used to identify the particles inside the spherical region.</para>
+<para>**In order to simplify the code, the Rocky Solver SDK provides the struct double3 for defining 3D points and 3D vectors. It includes as data members the three coordinates x, y and z. Special operators for this struct are also defined, for addition, subtraction, and multiplication by a scalar. Moreover, the functions dot, cross, and get_norm are also provided, for obtaining the dot product, the cross product, and the norm, respectively.*</para>
+<para>In line 12, the name and the version of the module implemented by the code in the file are defined. Afterwards, between lines 14 and 23, the code associated to the hook <computeroutput>ROCKY_PLUGIN_CONFIGURE</computeroutput> is defined. Here, an instance of the custom <computeroutput>struct</computeroutput> is allocated and the corresponding pointer is named <computeroutput>module_data</computeroutput>. Next, the values of the four module parameters entered through the Rocky UI are retrieved from the function argument <computeroutput>input_data</computeroutput>, and assigned to the corresponding variables in the object pointed by <computeroutput>module_data</computeroutput>. Finally, in line 23, this pointer is converted to a void pointer in order to assign it to the function argument <computeroutput>data</computeroutput>, which Rocky will store and make available in subsequent stages of the simulation.</para>
+<para>Between lines 26 and 31, the code associated to the hook <computeroutput>ROCKY_PLUGIN_SETUP</computeroutput> is defined. As in other preprocessing hooks, the arguments provided are an <computeroutput><ref refid="structIRockyModel" kindref="compound">IRockyModel</ref></computeroutput> object, named simply <computeroutput>model</computeroutput>, and the void pointer that was defined previously in <computeroutput>ROCKY_PLUGIN_CONFIGURE</computeroutput>. In order to have access to the data stored previously, the void pointer must be converted back into a ModuleData pointer, as it is done in line 28. In this specific case, the only operation performed in this block is to define a particle scalar variable that will be used to mark particles inside the spherical region. In line 29, the object that handles operations with particle scalars is defined. Subsequently, in line 30 the custom particle scalar is specified. The two arguments in the <computeroutput>add</computeroutput> function are the label that must associated to the particle scalar in the Rocky UI, and the unit. After creating the particle scalar, the <computeroutput>add</computeroutput> function will return an integer index that, in this case, will be stored in <computeroutput>module_data-&gt;scalar_index</computeroutput>. Any subsequent operation involving that specific particle scalar will require the use of that index.</para>
+<para>In order to avoid precision loss because of roundoff errors, Rocky works internally with dimensionless variables. Therefore, the module has to nondimensionalize all custom parameters previously defined, in order to use them in operations involving data coming from the Rocky solver. This operation is made in the block beginning at line 33, within the <computeroutput>ROCKY_PLUGIN_NON_DIMENSIONALIZE</computeroutput> hook. In this case all parameters are lengths, so they are nondimensionalized using the length factor provided by the corresponding method of the <computeroutput>model</computeroutput> object.</para>
+<para>Between lines 42 and 50, the module data is copied to the GPU <ref refid="glossary_1device" kindref="member">devices</ref>. This kind of operation is mandatory when a module is intended for execution in single or multi-GPU configurations. The hook <computeroutput>ROCKY_PLUGIN_INITIALIZE_CUDA</computeroutput> provides two generic pointers as arguments: <computeroutput>host_data</computeroutput> and <computeroutput>device_data</computeroutput>. The first one points to the object that currently stores the data defined in the previous pre-processing functions. The objective of this function is to allocate a memory block of the right size in the GPU devices, copy the module data pointed by <computeroutput>host_data</computeroutput> to that memory block, and finally assign to <computeroutput>device_data</computeroutput> the pointer that points to the beginning of that block. This is done in lines 47 (memory allocation), 48 (data copy) and 49 (conversion to a generic pointer and assigment <computeroutput>device_data</computeroutput>).</para>
+<para>The only operation performed by the module during the time iterative process is the one implemented in the block beginning at line 52. This operation is associated to the <computeroutput>ROCKY_PLUGIN_POST_MOVE_PARTICLES</computeroutput> hook, which is executed inside a loop over the active particles in the simulation, after the position and velocities of the particles were updated in Rocky. In line 58, the distance between the centroid of the current particle and the center of the spherical region is calculated. If that distance is less than the region radius, the particle is considered to be inside the region. The scalar value associated to the particle is set be equal to 1 in that case, and equal to 0 otherwise. The block is closed by the <computeroutput>ROCKY_PLUGIN_POST_MOVE_PARTICLES_END</computeroutput> function call, during which Rocky takes care of some additional operations needed to execute the module code correctly. Note that any of the functions associated to a hook executed during the time iterative loop must be closed by a similar function.</para>
+<para>Finally, the <computeroutput>ROCKY_PLUGIN_TEAR_DOWN</computeroutput> hook frees the memory allocated for the local data structure in the CPU memory area. The equivalent operation on the GPU memory area is made in the <computeroutput>ROCKY_PLUGIN_TEAR_DOWN_CUDA</computeroutput> hook.</para>
+</sect3>
+<sect3 id="usage_examples_1autotoc_md123">
+<title>Building procedures</title><para>This section shows a way to compile the module <computeroutput>spherical_region</computeroutput> described in the previous section.</para>
+<sect4 id="usage_examples_1autotoc_md124">
+<title>Building in Centos 7</title><para>In the <computeroutput>conda</computeroutput> command prompt that was activated in section Build Tools - Linux, navigate to the <computeroutput>spherical_region</computeroutput> directory and execute the following commands:</para>
+<para><programlisting><codeline><highlight class="normal">cmake<sp/>source/plugins/spherical_region</highlight></codeline>
+<codeline><highlight class="normal">make<sp/>install</highlight></codeline>
+</programlisting></para>
+<para>On successful execution of the above commands, the compiled content of the <computeroutput>spherical_region</computeroutput> module is available in the folder pointed by the <computeroutput>ROCKY_PLUGINS_PATH</computeroutput> environment variable:</para>
+<para><programlisting><codeline><highlight class="normal">24.2.0/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>spherical_region/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>libx_spherical_region.so</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spherical_region.plugin</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spherical_region.py</highlight></codeline>
+</programlisting></para>
+</sect4>
+<sect4 id="usage_examples_1autotoc_md125">
+<title>Building in Windows 10</title><para>Open the <computeroutput>e x64 Native Tools Command Prompt for VS 2022</computeroutput>, navigate to the <computeroutput>spherical_region</computeroutput> directory and execute the following commands:</para>
+<para><programlisting><codeline><highlight class="normal">cmake<sp/>-DCMAKE_GENERATOR_PLATFORM=x64<sp/>source/plugins/spherical_region</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>--build<sp/>.<sp/>--config<sp/>Release</highlight></codeline>
+<codeline><highlight class="normal">cmake<sp/>-P<sp/>cmake_install.cmake</highlight></codeline>
+</programlisting></para>
+<para>On successful execution of the above commands, the compiled content of the <computeroutput>spherical_region</computeroutput> module is available in the folder pointed to by the <computeroutput>ROCKY_PLUGINS_PATH</computeroutput> environment variable:</para>
+<para><programlisting><codeline><highlight class="normal">24.2.0/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>spherical_region/</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spherical_region.dll</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spherical_region.lib</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spherical_region.plugin</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>spherical_region.py</highlight></codeline>
+</programlisting></para>
+</sect4>
+</sect3>
+<sect3 id="usage_examples_1autotoc_md126">
+<title>Running the module in Rocky</title><para>After having completed successfully all the steps described in previous sections, the new module will be ready to be executed in a Rocky simulation. Restart the Rocky application in order for it to acknowledge the recently created module.</para>
+<para>When selecting the <bold>Modules</bold> item in the <bold>Data</bold> panel, the name of the new module must appear in the list of modules recognized by Rocky, displayed in the <bold>Data Editors</bold> panel. The activation of the module in a simulation requires that the corresponding checkbox is turned on, as shown in Figure 5.1.</para>
+<para><image type="html" name="sim_modules.png" width="30%"></image>
+ <image type="latex" name="sim_modules.png"></image>
+ <image type="rtf" name="sim_modules.png"></image>
+ <image type="docbook" name="sim_modules.png"></image>
+ <image type="xml" name="sim_modules.png"></image>
+</para>
+<para><emphasis>Figure 5.1: The new module displayed in the Data Editors panel.</emphasis></para>
+<para>After the module is activated, a new item with the module name will be added under the <bold>Modules</bold> item in the <bold>Data</bold> panel, as shown in Figure 5.2. The selection of this item gives access to the general custom parameters defined in the model section of the specifications file <computeroutput>spherical_region.py</computeroutput>. The default values displayed are those defined in that file. Users of the module can alter those values at their convenience. On the other hand, if the <bold>Info</bold> tab is selected, the reference data included in the <computeroutput>spherical_region.plugin</computeroutput> is displayed in the panel.</para>
+<para><image type="html" name="sim_params.png" width="30%"></image>
+ <image type="latex" name="sim_params.png"></image>
+ <image type="rtf" name="sim_params.png"></image>
+ <image type="docbook" name="sim_params.png"></image>
+ <image type="xml" name="sim_params.png"></image>
+</para>
+<para><emphasis>Figure 5.2: The custom parameters for the module displayed in the Data Editors panel.</emphasis></para>
+<para><image type="html" name="mod_info.png" width="30%"></image>
+ <image type="latex" name="mod_info.png"></image>
+ <image type="rtf" name="mod_info.png"></image>
+ <image type="docbook" name="mod_info.png"></image>
+ <image type="xml" name="mod_info.png"></image>
+</para>
+<para><emphasis>Figure 5.3: The module&apos;s Info tab on the Data Editors panel</emphasis></para>
+<para>In order to test the module, any new project can be set up in Rocky and then the <bold>Spherical Region</bold> module must be enabled, defining the proper values for the module parameters. After processing the simulation, the <bold>Inside Sphere</bold> scalar can be selected in the list of particle properties in the <bold>Properties</bold> tab, and visualized in a 3D view window at any output time. All particles inside the specified spherical region will have an scalar value equal to 1, as depicted in the example of Figure 5.4, while particles outside it will have associated a zero value.</para>
+<para><image type="html" name="sim_scalar.png" width="30%"></image>
+ <image type="latex" name="sim_scalar.png"></image>
+ <image type="rtf" name="sim_scalar.png"></image>
+ <image type="docbook" name="sim_scalar.png"></image>
+ <image type="xml" name="sim_scalar.png"></image>
+</para>
+<para><emphasis>Figure 5.4: Example of a simulation processed using the new module.</emphasis></para>
+</sect3>
+</sect2>
+<sect2 id="usage_examples_1autotoc_md127">
+<title>A module implementing a custom</title><para>As an example of the implementation of a custom model using the Rocky Solver SDK, this section describes the code associated to a custom module that implements a contact model, including the calculation of both components of the contact force, as well as the calculation of the impact energy.</para>
+<para>A contact model may include in the most general case the calculation of both components of the contact force, and, if necessary, the calculation of the impact energy during a collision. Usually the tangential component of the contact force depends on the normal component, and the impact energy on both of them. Because of that, they are calculated in a fixed sequence, as shown schematically in Figure 5.4.</para>
+<para><image type="html" name="contact_pipeline.png" width="30%"></image>
+ <image type="latex" name="contact_pipeline.png"></image>
+ <image type="rtf" name="contact_pipeline.png"></image>
+ <image type="docbook" name="contact_pipeline.png"></image>
+ <image type="xml" name="contact_pipeline.png"></image>
+</para>
+<para><emphasis>Figure 5.5: Contact model pipeline in Rocky.</emphasis></para>
+<para>The Rocky Solver SDK gives some flexibility regarding the implementation of custom contact force models. For instance, users can choose to implement only the normal contact force, combining it with a built-in tangential force model in Rocky. Or, conversely, users may implement only the tangential contact force, using as input the normal contact force calculated by a built-in model in Rocky. In these cases, users only need to implement whichever force component they want to customize in their module, then in runtime, Rocky will calculate the other component with the respective model selected in the Rocky UI.</para>
+<para>On the other hand, users may implement the calculation of both contact force components within a custom module, including the calculation of the impact energy as well. Impact energy is used in Rocky as the main input parameter for the built-in instantaneous breakage models; therefore, users will need to implement a custom impact energy calculation only if they intend to use a custom contact force model along with such breakage models. Even in that case, users may choose not to implement the calculation of the impact energy. Rocky will use in such situation a standard calculation based on the impact work, as defined in equation 4.10 of the DEM Technical Manual. Also, when a module implements only either a normal or a tangential force model, Rocky uses standard calculations for the other one.</para>
+<para>The remainder of this chapter will describe the implementation of a custom module including the calculation of both components of the contact force and the calculation of the impact energy as well. The normal and tangential force models included in the module are simplified versions of two built-in models in Rocky, the Hysteretic Linear Spring and the Linear Spring Coulomb Limit, respectively. Moreover, the impact energy calculation included in the module is the one used in Rocky when the Hysteretic Linear Spring model is selected as normal contact force.</para>
+<sect3 id="usage_examples_1autotoc_md128">
+<title>Module specification file</title><para>The following listing reproduces the Python file that includes the specifications for the custom module, which is named simply as <computeroutput>Contact Model Example</computeroutput>. <programlisting><codeline><highlight class="normal">1<sp/><sp/><sp/>import<sp/>sys</highlight></codeline>
+<codeline><highlight class="normal">2<sp/><sp/><sp/>from<sp/>pathlib<sp/>import<sp/>Path</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/>from<sp/>yapsy.IPlugin<sp/>import<sp/>IPlugin</highlight></codeline>
+<codeline><highlight class="normal">4<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_models<sp/>import<sp/>container_model,<sp/>data_model</highlight></codeline>
+<codeline><highlight class="normal">5<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_specs<sp/>import<sp/>RockyAddinSpecs</highlight></codeline>
+<codeline><highlight class="normal">6<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_types<sp/>import<sp/>Quantity</highlight></codeline>
+<codeline><highlight class="normal">7</highlight></codeline>
+<codeline><highlight class="normal">8<sp/><sp/><sp/>NAME<sp/>=<sp/>&apos;Contact<sp/>Model<sp/>Example&apos;</highlight></codeline>
+<codeline><highlight class="normal">9</highlight></codeline>
+<codeline><highlight class="normal">10</highlight></codeline>
+<codeline><highlight class="normal">11<sp/><sp/>@data_model(icon=None,<sp/>caption=NAME)</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/>class<sp/>CustomGeneral:</highlight></codeline>
+<codeline><highlight class="normal">13<sp/><sp/><sp/><sp/><sp/><sp/>pass</highlight></codeline>
+<codeline><highlight class="normal">14</highlight></codeline>
+<codeline><highlight class="normal">15</highlight></codeline>
+<codeline><highlight class="normal">16<sp/><sp/>@container_model()</highlight></codeline>
+<codeline><highlight class="normal">17<sp/><sp/>class<sp/>CustomModel:</highlight></codeline>
+<codeline><highlight class="normal">18<sp/><sp/><sp/><sp/><sp/><sp/>pass</highlight></codeline>
+<codeline><highlight class="normal">19</highlight></codeline>
+<codeline><highlight class="normal">20</highlight></codeline>
+<codeline><highlight class="normal">21<sp/><sp/>@container_model()</highlight></codeline>
+<codeline><highlight class="normal">22<sp/><sp/>class<sp/>CustomMaterialInteraction:</highlight></codeline>
+<codeline><highlight class="normal">23<sp/><sp/><sp/><sp/><sp/><sp/>tangential_stiffness_ratio<sp/>=<sp/>Quantity(value=1.0,<sp/>unit=&apos;-&apos;,<sp/>caption=&apos;Tangential<sp/>To<sp/>Normal<sp/>Stiffness<sp/>Ratio&apos;)</highlight></codeline>
+<codeline><highlight class="normal">24<sp/><sp/><sp/><sp/><sp/><sp/>sliding_velocity_threshold<sp/>=<sp/>Quantity(value=0.001,<sp/>unit=&apos;m/s&apos;,<sp/>caption=&apos;Sliding<sp/>Velocity<sp/>Threshold&apos;)</highlight></codeline>
+<codeline><highlight class="normal">25</highlight></codeline>
+<codeline><highlight class="normal">26</highlight></codeline>
+<codeline><highlight class="normal">27<sp/><sp/><sp/>class<sp/>ContactModelExampleSpecs(RockyAddinSpecs):</highlight></codeline>
+<codeline><highlight class="normal">28</highlight></codeline>
+<codeline><highlight class="normal">29<sp/><sp/><sp/><sp/><sp/><sp/>name<sp/>=<sp/>NAME</highlight></codeline>
+<codeline><highlight class="normal">30</highlight></codeline>
+<codeline><highlight class="normal">31<sp/><sp/><sp/><sp/><sp/><sp/>model<sp/>=<sp/>CustomGeneral</highlight></codeline>
+<codeline><highlight class="normal">32</highlight></codeline>
+<codeline><highlight class="normal">33<sp/><sp/><sp/><sp/><sp/><sp/>normal_force_model<sp/>=<sp/>CustomModel</highlight></codeline>
+<codeline><highlight class="normal">34</highlight></codeline>
+<codeline><highlight class="normal">35<sp/><sp/><sp/><sp/><sp/><sp/>tangential_force_model<sp/>=<sp/>CustomModel</highlight></codeline>
+<codeline><highlight class="normal">36</highlight></codeline>
+<codeline><highlight class="normal">37<sp/><sp/><sp/><sp/><sp/><sp/>impact_energy_model<sp/>=<sp/>CustomModel</highlight></codeline>
+<codeline><highlight class="normal">38</highlight></codeline>
+<codeline><highlight class="normal">39<sp/><sp/><sp/><sp/><sp/><sp/>material_interaction_properties<sp/>=<sp/>CustomMaterialInteraction</highlight></codeline>
+<codeline><highlight class="normal">40</highlight></codeline>
+<codeline><highlight class="normal">41<sp/><sp/><sp/><sp/><sp/><sp/>@classmethod</highlight></codeline>
+<codeline><highlight class="normal">42<sp/><sp/><sp/><sp/><sp/><sp/>def<sp/>CreateAddin(cls):</highlight></codeline>
+<codeline><highlight class="normal">43<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>cls.CreateDynamicAddin(Path(__file__).parent,<sp/>&apos;contact_model_example&apos;)</highlight></codeline>
+<codeline><highlight class="normal">44</highlight></codeline>
+<codeline><highlight class="normal">45</highlight></codeline>
+<codeline><highlight class="normal">46<sp/><sp/>class<sp/>ContactModelExamplePlugin(IPlugin):</highlight></codeline>
+<codeline><highlight class="normal">47<sp/><sp/><sp/><sp/><sp/><sp/>def<sp/>get_addin_specs(self):</highlight></codeline>
+<codeline><highlight class="normal">48<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>ContactModelExampleSpec</highlight></codeline>
+</programlisting></para>
+<para>The only parameters added by the module are two material interaction properties defined between lines 21 and 24. Both of them are used in the tangential contact force calculation. The first one is the ratio of the tangential stiffness to the normal stiffness, while the second one is the value of the tangential relative velocity that marks the onset of the sliding between the colliding entities.</para>
+<para>Between lines 33 and 37, the module specifies that it will implement a custom normal force model, a custom tangential force model and a custom impact energy calculation. In runtime, Rocky will read these specifications and will override those model categories, using instead the custom models implemented by the module, as explained in section Specification of custom models.</para>
+</sect3>
+<sect3 id="usage_examples_1autotoc_md129">
+<title>Implementation of the contact model</title><para>This section describes the different parts that make up the <computeroutput>custom_model_example.cu</computeroutput> file that includes the C++ code that implements the custom models.</para>
+<para><programlisting><codeline><highlight class="normal">1<sp/><sp/><sp/>#define<sp/>ROCKY_CUDA_API</highlight></codeline>
+<codeline><highlight class="normal">2</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/>#include<sp/>&lt;rocky20/api/rocky_api.h&gt;</highlight></codeline>
+<codeline><highlight class="normal">4</highlight></codeline>
+<codeline><highlight class="normal">5<sp/><sp/><sp/>struct<sp/>ModuleMaterialInteraction</highlight></codeline>
+<codeline><highlight class="normal">6<sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">7<sp/><sp/><sp/> <sp/> <sp/>double<sp/>tangential_stiffness_ratio;</highlight></codeline>
+<codeline><highlight class="normal">8<sp/><sp/><sp/> <sp/> <sp/>double<sp/>sliding_velocity_threshold;</highlight></codeline>
+<codeline><highlight class="normal">9<sp/><sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal">10</highlight></codeline>
+<codeline><highlight class="normal">11<sp/><sp/>struct<sp/>ModuleData</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">13<sp/><sp/> <sp/> <sp/>int<sp/>ppi_normal,<sp/>pti_normal;</highlight></codeline>
+<codeline><highlight class="normal">14<sp/><sp/> <sp/> <sp/>int<sp/>ppi_tangential_x,<sp/>pti_tangential_x;</highlight></codeline>
+<codeline><highlight class="normal">15<sp/><sp/> <sp/> <sp/>int<sp/>ppi_tangential_y,<sp/>pti_tangential_y;</highlight></codeline>
+<codeline><highlight class="normal">16<sp/><sp/> <sp/> <sp/>int<sp/>ppi_tangential_z,<sp/>pti_tangential_z;</highlight></codeline>
+<codeline><highlight class="normal">17</highlight></codeline>
+<codeline><highlight class="normal">18<sp/><sp/> <sp/> <sp/>ModuleMaterialInteraction*<sp/>material_interactions;</highlight></codeline>
+<codeline><highlight class="normal">19<sp/><sp/>};</highlight></codeline>
+</programlisting></para>
+<para>The initial part of the file reproduced above includes the definition of the preprocessor name <computeroutput>ROCKY_CUDA_API</computeroutput> that enables the compilation of the module in CUDA and, in turn, enables the possibility of the module being used in a simulation processed on GPU. Subsequently, between lines 5 and 9, it is defined a local <computeroutput>struct</computeroutput> that will hold the values entered through the Rocky UI for the two material interaction parameters that the module uses. Then, between lines 11 and 19, another local <computeroutput>struct</computeroutput> is defined, that will store the indices attributed in runtime to the contact scalars that the module will create. Additionally, that <computeroutput>struct</computeroutput> includes an array to store the values of the custom properties associated to all material interactions in the project.</para>
+<para><emphasis>Note: Here ppi stands for particle-particle index, while pti stands for particle-triangle index.</emphasis></para>
+<para><programlisting><codeline><highlight class="normal">21<sp/><sp/>inline<sp/>ROCKY_FUNCTIONS<sp/>void<sp/>create_contact_scalars(</highlight></codeline>
+<codeline><highlight class="normal">22<sp/><sp/> <sp/> <sp/>IRockyModel&amp;<sp/>model,<sp/>const<sp/>char*<sp/>name,<sp/>const<sp/>char*<sp/>unit,</highlight></codeline>
+<codeline><highlight class="normal">23<sp/><sp/> <sp/> <sp/>int&amp;<sp/>pp_scalar_index,<sp/>int&amp;<sp/>pt_scalar_index)</highlight></codeline>
+<codeline><highlight class="normal">24<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">25<sp/><sp/> <sp/> <sp/>auto<sp/>pp_scalars<sp/>=<sp/>model.get_particle_contact_scalars();</highlight></codeline>
+<codeline><highlight class="normal">26<sp/><sp/> <sp/> <sp/>auto<sp/>pt_scalars<sp/>=<sp/>model.get_triangle_contact_scalars();</highlight></codeline>
+<codeline><highlight class="normal">27</highlight></codeline>
+<codeline><highlight class="normal">28<sp/><sp/> <sp/> <sp/>pp_scalar_index<sp/>=<sp/>pp_scalars.add(name,<sp/>unit,<sp/>false);</highlight></codeline>
+<codeline><highlight class="normal">29<sp/><sp/> <sp/> <sp/>pt_scalar_index<sp/>=<sp/>pt_scalars.add(name,<sp/>unit,<sp/>false);</highlight></codeline>
+<codeline><highlight class="normal">30<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">31</highlight></codeline>
+<codeline><highlight class="normal">32<sp/><sp/>inline<sp/>ROCKY_FUNCTIONS<sp/>double<sp/>get_contact_scalar_value(</highlight></codeline>
+<codeline><highlight class="normal">33<sp/><sp/> <sp/> <sp/>IRockyContact&amp;<sp/>contact,<sp/>int<sp/>pp_scalar_index,<sp/>int<sp/>pt_scalar_index)</highlight></codeline>
+<codeline><highlight class="normal">34<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">35<sp/><sp/> <sp/> <sp/>return<sp/>contact.is_particle_particle_contact()</highlight></codeline>
+<codeline><highlight class="normal">36<sp/><sp/> <sp/> <sp/> <sp/> <sp/>?<sp/>contact.get_particle_contact_scalars().get_scalar(pp_scalar_index)</highlight></codeline>
+<codeline><highlight class="normal">37<sp/><sp/> <sp/> <sp/> <sp/> <sp/>:<sp/>contact.get_triangle_contact_scalars().get_scalar(pt_scalar_index);</highlight></codeline>
+<codeline><highlight class="normal">38<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">39</highlight></codeline>
+<codeline><highlight class="normal">40<sp/><sp/>inline<sp/>ROCKY_FUNCTIONS<sp/>void<sp/>set_contact_scalar_value(</highlight></codeline>
+<codeline><highlight class="normal">41<sp/><sp/> <sp/> <sp/>IRockyContact&amp;<sp/>contact,<sp/>int<sp/>pp_scalar_index,<sp/>int<sp/>pt_scalar_index,<sp/>double<sp/>value)</highlight></codeline>
+<codeline><highlight class="normal">42<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">43<sp/><sp/> <sp/> <sp/>contact.is_particle_particle_contact()</highlight></codeline>
+<codeline><highlight class="normal">44<sp/><sp/> <sp/> <sp/> <sp/> <sp/>?<sp/>contact.get_particle_contact_scalars().set_scalar(pp_scalar_index,<sp/>value)</highlight></codeline>
+<codeline><highlight class="normal">45<sp/><sp/> <sp/> <sp/> <sp/> <sp/>:<sp/>contact.get_triangle_contact_scalars().set_scalar(pt_scalar_index,<sp/>value);</highlight></codeline>
+<codeline><highlight class="normal">46<sp/><sp/>}</highlight></codeline>
+</programlisting></para>
+<para>The code block above implements three utility functions that simplify the handling of contact scalars. They allow to treat in a unified way, with a single function, both types of contact scalars, namely particle-to-particle and particle-to-triangle contact scalars.</para>
+<para><programlisting><codeline><highlight class="normal">48<sp/><sp/>ROCKY_PLUGIN(&quot;Contact<sp/>Model<sp/>Example&quot;,<sp/>&quot;1.0.0&quot;)</highlight></codeline>
+<codeline><highlight class="normal">49</highlight></codeline>
+<codeline><highlight class="normal">50<sp/><sp/>ROCKY_PLUGIN_CONFIGURE(input_data,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">51<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">52<sp/><sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>new<sp/>ModuleData();</highlight></codeline>
+<codeline><highlight class="normal">53</highlight></codeline>
+<codeline><highlight class="normal">54<sp/><sp/> <sp/> <sp/>int<sp/>n_material_interactions<sp/>=<sp/>input_data.get_number_material_interactions();</highlight></codeline>
+<codeline><highlight class="normal">55<sp/><sp/> <sp/> <sp/>data-&gt;material_interactions<sp/>=<sp/>new<sp/>ModuleMaterialInteraction[n_material_interactions];</highlight></codeline>
+<codeline><highlight class="normal">56</highlight></codeline>
+<codeline><highlight class="normal">57<sp/><sp/> <sp/> <sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>n_material_interactions;<sp/>++i)</highlight></codeline>
+<codeline><highlight class="normal">58<sp/><sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">59<sp/><sp/> <sp/> <sp/> <sp/> <sp/>auto&amp;<sp/>m_i<sp/>=<sp/>data-&gt;material_interactions[i];</highlight></codeline>
+<codeline><highlight class="normal">60<sp/><sp/> <sp/> <sp/> <sp/> <sp/>auto<sp/>input_mi<sp/>=<sp/>input_data.get_material_interaction(i);</highlight></codeline>
+<codeline><highlight class="normal">61</highlight></codeline>
+<codeline><highlight class="normal">62<sp/><sp/> <sp/> <sp/> <sp/> <sp/>m_i.tangential_stiffness_ratio<sp/>=<sp/>input_mi.get_double(&quot;tangential_stiffness_ratio&quot;);</highlight></codeline>
+<codeline><highlight class="normal">63<sp/><sp/> <sp/> <sp/> <sp/> <sp/>m_i.sliding_velocity_threshold<sp/>=<sp/>input_mi.get_double(&quot;sliding_velocity_threshold&quot;);</highlight></codeline>
+<codeline><highlight class="normal">64<sp/><sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">65</highlight></codeline>
+<codeline><highlight class="normal">66<sp/><sp/> <sp/> <sp/>_data<sp/>=<sp/>static_cast&lt;void*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">67<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">68</highlight></codeline>
+<codeline><highlight class="normal">69<sp/><sp/>ROCKY_PLUGIN_SETUP(model,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">70<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">71<sp/><sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;ModuleData<sp/>*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">72</highlight></codeline>
+<codeline><highlight class="normal">73<sp/><sp/> <sp/> <sp/>create_contact_scalars(model,<sp/>&quot;Previous<sp/>Normal<sp/>Force&quot;,<sp/>&quot;N&quot;,<sp/>data-&gt;ppi_normal,<sp/>data-&gt;pti_normal);</highlight></codeline>
+<codeline><highlight class="normal">74<sp/><sp/> <sp/> <sp/>create_contact_scalars(model,<sp/>&quot;Previous<sp/>Tangential<sp/>Force<sp/>X&quot;,<sp/>&quot;N&quot;,</highlight></codeline>
+<codeline><highlight class="normal">75<sp/><sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>data-&gt;ppi_tangential_x,<sp/>data-&gt;pti_tangential_x);</highlight></codeline>
+<codeline><highlight class="normal">76<sp/><sp/> <sp/> <sp/>create_contact_scalars(model,<sp/>&quot;Previous<sp/>Tangential<sp/>Force<sp/>Y&quot;,<sp/>&quot;N&quot;,</highlight></codeline>
+<codeline><highlight class="normal">77<sp/><sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>data-&gt;ppi_tangential_y,<sp/>data-&gt;pti_tangential_y);</highlight></codeline>
+<codeline><highlight class="normal">78<sp/><sp/> <sp/> <sp/>create_contact_scalars(model,<sp/>&quot;Previous<sp/>Tangential<sp/>Force<sp/>Z&quot;,<sp/>&quot;N&quot;,</highlight></codeline>
+<codeline><highlight class="normal">79<sp/><sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>data-&gt;ppi_tangential_z,<sp/>data-&gt;pti_tangential_z);</highlight></codeline>
+<codeline><highlight class="normal">80<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">81</highlight></codeline>
+<codeline><highlight class="normal">82<sp/><sp/>ROCKY_PLUGIN_INITIALIZE_CUDA(model,<sp/>host_data,<sp/>device_id,<sp/>_device_data)</highlight></codeline>
+<codeline><highlight class="normal">83<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">84<sp/><sp/> <sp/> <sp/>auto<sp/>h_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(host_data);</highlight></codeline>
+<codeline><highlight class="normal">85<sp/><sp/> <sp/> <sp/>auto<sp/>d_data<sp/>=<sp/>*h_data;</highlight></codeline>
+<codeline><highlight class="normal">86</highlight></codeline>
+<codeline><highlight class="normal">87<sp/><sp/> <sp/> <sp/>int<sp/>size<sp/>=<sp/>model.get_number_of_material_interactions();</highlight></codeline>
+<codeline><highlight class="normal">88<sp/><sp/> <sp/> <sp/>ModuleMaterialInteraction*<sp/>d_material_interactions<sp/>=<sp/>nullptr;</highlight></codeline>
+<codeline><highlight class="normal">89<sp/><sp/> <sp/> <sp/>CUDA_MALLOC_TYPE(d_material_interactions,<sp/>size,<sp/>ModuleMaterialInteraction);</highlight></codeline>
+<codeline><highlight class="normal">90<sp/><sp/> <sp/> <sp/>CUDA_COPY_H2D(d_material_interactions,<sp/>h_data-&gt;material_interactions,<sp/>size);</highlight></codeline>
+<codeline><highlight class="normal">91<sp/><sp/> <sp/> <sp/>d_data.material_interactions<sp/>=<sp/>d_material_interactions;</highlight></codeline>
+<codeline><highlight class="normal">92</highlight></codeline>
+<codeline><highlight class="normal">93<sp/><sp/> <sp/> <sp/>ModuleData*<sp/>device_data<sp/>=<sp/>nullptr;</highlight></codeline>
+<codeline><highlight class="normal">94<sp/><sp/> <sp/> <sp/>CUDA_MALLOC_TYPE(device_data,<sp/>1,<sp/>ModuleData);</highlight></codeline>
+<codeline><highlight class="normal">95<sp/><sp/> <sp/> <sp/>CUDA_COPY_H2D(device_data,<sp/>&amp;d_data,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal">96<sp/><sp/> <sp/> <sp/>_device_data<sp/>=<sp/>static_cast&lt;void*&gt;(device_data);</highlight></codeline>
+<codeline><highlight class="normal">97<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">98</highlight></codeline>
+<codeline><highlight class="normal">99<sp/><sp/>ROCKY_PLUGIN_TEAR_DOWN_CUDA(model,<sp/>device_id,<sp/>device_data)</highlight></codeline>
+<codeline><highlight class="normal">100<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">101<sp/> <sp/> <sp/>auto<sp/>d_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(device_data);</highlight></codeline>
+<codeline><highlight class="normal">102<sp/> <sp/> <sp/>ModuleData<sp/>data_ptr;</highlight></codeline>
+<codeline><highlight class="normal">103<sp/> <sp/> <sp/>CUDA_COPY_D2H(&amp;data_ptr,<sp/>d_data,<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal">104<sp/> <sp/> <sp/>CUDA_FREE(data_ptr.material_interactions);</highlight></codeline>
+<codeline><highlight class="normal">105<sp/> <sp/> <sp/>CUDA_FREE(d_data);</highlight></codeline>
+<codeline><highlight class="normal">106<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">107</highlight></codeline>
+<codeline><highlight class="normal">108<sp/>ROCKY_PLUGIN_TEAR_DOWN(model,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">109<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">110<sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">111<sp/> <sp/> <sp/>delete[]<sp/>data-&gt;material_interactions;</highlight></codeline>
+<codeline><highlight class="normal">112<sp/> <sp/> <sp/>delete<sp/>data;</highlight></codeline>
+<codeline><highlight class="normal">113<sp/>}</highlight></codeline>
+</programlisting></para>
+<para>The block above includes the associated code to the initialization and termination hooks. As most of these operations were covered in chapter Rocky module examples, they will be described here very briefly.</para>
+<para>In the <computeroutput>ROCKY_PLUGIN_CONFIGURE</computeroutput> hook, the values for the two module parameters per material interaction, entered through the Rocky UI, are stored in the array within the module local <computeroutput>struct</computeroutput> defined previously. Subsequently, in the <computeroutput>ROCKY_PLUGIN_SETUP</computeroutput> hook, contact scalars are created for storing the values of the contact forces calculated in the module. This storage is necessary because both the normal and tangential force models being implemented depend upon the history; therefore, in order to calculate the force values at a given timestep, the values from the previous timestep are required to be available.</para>
+<para>In the <computeroutput>ROCKY_PLUGIN_INITIALIZE_CUDA</computeroutput> hook, the local module data is copied to GPU devices after being allocated the required memory block there. On the other hand, that memory block is freed in the <computeroutput>ROCKY_PLUGIN_TEAR_DOWN_CUDA</computeroutput> hook. An equivalent operation for the memory allocated in CPU is made in the <computeroutput>ROCKY_PLUGIN_TEAR_DOWN</computeroutput> hook.</para>
+<para><programlisting><codeline><highlight class="normal">115<sp/>ROCKY_PLUGIN_NORMAL_FORCE_ON_CONTACTS(contact,<sp/>intermediate_data,<sp/>output_data,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">116<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">117<sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;ModuleData<sp/>*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">118<sp/> <sp/> <sp/>const<sp/>auto<sp/>m_i<sp/>=<sp/>contact.get_material_interaction();</highlight></codeline>
+<codeline><highlight class="normal">119</highlight></codeline>
+<codeline><highlight class="normal">120<sp/> <sp/> <sp/>const<sp/>double<sp/>prev_normal_force<sp/>=<sp/>get_contact_scalar_value(contact,<sp/>data-&gt;ppi_normal,<sp/>data-&gt;pti_normal);</highlight></codeline>
+<codeline><highlight class="normal">121</highlight></codeline>
+<codeline><highlight class="normal">122<sp/> <sp/> <sp/>const<sp/>double<sp/>restitution_coeff<sp/>=<sp/>m_i.get_restitution_coefficient();</highlight></codeline>
+<codeline><highlight class="normal">123<sp/> <sp/> <sp/>const<sp/>double<sp/>loading_stiffness<sp/>=<sp/>contact.get_equivalent_stiffness()<sp/>*<sp/>m_i.get_stiffness_multiplier();</highlight></codeline>
+<codeline><highlight class="normal">124<sp/> <sp/> <sp/>const<sp/>double<sp/>unloading_stiffness<sp/>=<sp/>loading_stiffness<sp/>/<sp/>(restitution_coeff<sp/>*<sp/>restitution_coeff);</highlight></codeline>
+<codeline><highlight class="normal">125</highlight></codeline>
+<codeline><highlight class="normal">126<sp/> <sp/> <sp/>const<sp/>double<sp/>overlap<sp/>=<sp/>contact.get_overlap();</highlight></codeline>
+<codeline><highlight class="normal">127<sp/> <sp/> <sp/>const<sp/>double<sp/>delta_overlap<sp/>=<sp/>overlap<sp/>-<sp/>contact.get_previous_overlap();</highlight></codeline>
+<codeline><highlight class="normal">128</highlight></codeline>
+<codeline><highlight class="normal">129<sp/> <sp/> <sp/>const<sp/>double<sp/>elastic_force<sp/>=<sp/>overlap<sp/>*<sp/>loading_stiffness;</highlight></codeline>
+<codeline><highlight class="normal">130<sp/> <sp/> <sp/>const<sp/>double<sp/>plastic_force<sp/>=<sp/>prev_normal_force<sp/>+<sp/>delta_overlap<sp/>*<sp/>unloading_stiffness;</highlight></codeline>
+<codeline><highlight class="normal">131<sp/> <sp/> <sp/>const<sp/>double<sp/>new_normal_force<sp/>=<sp/>max(min(plastic_force,<sp/>elastic_force),<sp/>0.0);</highlight></codeline>
+<codeline><highlight class="normal">132</highlight></codeline>
+<codeline><highlight class="normal">133<sp/> <sp/> <sp/>output_data.set_normal_force(new_normal_force);</highlight></codeline>
+<codeline><highlight class="normal">134</highlight></codeline>
+<codeline><highlight class="normal">135<sp/> <sp/> <sp/>set_contact_scalar_value(contact,<sp/>data-&gt;ppi_normal,<sp/>data-&gt;pti_normal,<sp/>new_normal_force);</highlight></codeline>
+<codeline><highlight class="normal">136<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">137<sp/>ROCKY_PLUGIN_NORMAL_FORCE_ON_CONTACTS_END()</highlight></codeline>
+</programlisting></para>
+<para>The block of code above implements a simplified but functional form of the Hysteretic Linear Spring normal contact force. As this is a history-dependent model, the needed previous value of the normal contact force is retrieved from the corresponding contact scalar in line 120. Subsequently, the stiffnesses corresponding to the loading and unloading portions of the collision cycle are calculated using the equations in section 2.1.1.1 of the DEM Technical Manual. Both stiffness values are multiplied by the <bold>Contact Stiffness Multiplier</bold>, which is an advanced material interaction parameter that might be used to prevent large overlaps in certain specific situations. Also, The stiffness value returned by the get_equivalent_stiffness function is already multiplied by the <bold>Numerical Softening Factor</bold>, which is commonly used for increasing the simulation timestep. For more details about this factor, please refer to section 5.3.4 of the DEM Technical Manual.</para>
+<para>Using the current overlap value and its variation during the timestep, two possible values of the normal contact force are calculated, one located on a loading path and other located on an unloading path. The new normal contact force will be the minimum between those two values, as long it is positive. If that minimum value is negative, the new normal contact force will be set to zero. In line 133 that new value is passed as argument to the <computeroutput>set_normal_force</computeroutput> method of the <computeroutput>output_data</computeroutput> object. This operation is mandatory, because only in that way Rocky will become aware of the new force value calculated by the module. From that point on, Rocky will use internally that force for solving the particles&apos; motion equations and perform all the other operations that may need it.</para>
+<para>As a final operation of the normal force calculation, the new normal contact force value is set also to the corresponding contact scalar in line 135, in order to preserve it and make it available during the next time iteration.</para>
+<para><programlisting><codeline><highlight class="normal">139<sp/>ROCKY_PLUGIN_TANGENTIAL_FORCE_ON_CONTACTS(contact,<sp/>intermediate_data,<sp/>output_data,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">140<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">141<sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">142<sp/> <sp/> <sp/>const<sp/>auto<sp/>m_i<sp/>=<sp/>contact.get_material_interaction();</highlight></codeline>
+<codeline><highlight class="normal">143<sp/> <sp/> <sp/>const<sp/>auto&amp;<sp/>module_m_i<sp/>=<sp/>data-&gt;material_interactions[contact.get_material_interaction_index()];</highlight></codeline>
+<codeline><highlight class="normal">144</highlight></codeline>
+<codeline><highlight class="normal">145<sp/> <sp/> <sp/>const<sp/>double3<sp/>prev_tangential_force<sp/>=<sp/>contact.just_started_frictional()<sp/>?</highlight></codeline>
+<codeline><highlight class="normal">146<sp/> <sp/> <sp/> <sp/> <sp/>make_double3(0.0,<sp/>0.0,<sp/>0.0)<sp/>:</highlight></codeline>
+<codeline><highlight class="normal">147<sp/> <sp/> <sp/> <sp/> <sp/>make_double3(get_contact_scalar_value(contact,<sp/>data-&gt;ppi_tangential_x,<sp/>data-&gt;pti_tangential_x),</highlight></codeline>
+<codeline><highlight class="normal">148<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> get_contact_scalar_value(contact,<sp/>data-&gt;ppi_tangential_y,<sp/>data-&gt;pti_tangential_y),</highlight></codeline>
+<codeline><highlight class="normal">149<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> get_contact_scalar_value(contact,<sp/>data-&gt;ppi_tangential_z,<sp/>data-&gt;pti_tangential_z));</highlight></codeline>
+<codeline><highlight class="normal">150</highlight></codeline>
+<codeline><highlight class="normal">151<sp/> <sp/> <sp/>const<sp/>double3<sp/>tangential_relative_velocity<sp/>=<sp/>output_data.get_tangential_relative_velocity();</highlight></codeline>
+<codeline><highlight class="normal">152<sp/> <sp/> <sp/>const<sp/>double3<sp/>tangential_displacement<sp/>=<sp/>tangential_relative_velocity<sp/>*<sp/>contact.get_timestep();</highlight></codeline>
+<codeline><highlight class="normal">153</highlight></codeline>
+<codeline><highlight class="normal">154<sp/> <sp/> <sp/>const<sp/>double<sp/>normal_stiffness<sp/>=<sp/>contact.get_equivalent_stiffness()<sp/>*<sp/>m_i.get_stiffness_multiplier();</highlight></codeline>
+<codeline><highlight class="normal">155<sp/> <sp/> <sp/>const<sp/>double<sp/>tangential_stiffness<sp/>=<sp/>normal_stiffness<sp/>*<sp/>module_m_i.tangential_stiffness_ratio;</highlight></codeline>
+<codeline><highlight class="normal">156</highlight></codeline>
+<codeline><highlight class="normal">157<sp/> <sp/> <sp/>double3<sp/>new_tangential_force<sp/>=<sp/>prev_tangential_force<sp/>-<sp/>tangential_stiffness<sp/>*<sp/>tangential_displacement;</highlight></codeline>
+<codeline><highlight class="normal">158<sp/> <sp/> <sp/>const<sp/>double<sp/>new_tangential_force_norm<sp/>=<sp/>get_norm(new_tangential_force);</highlight></codeline>
+<codeline><highlight class="normal">159<sp/> <sp/> <sp/>const<sp/>double<sp/>coulomb_limit<sp/>=<sp/>intermediate_data.get_friction_coefficient()<sp/>*<sp/>output_data.get_normal_force();</highlight></codeline>
+<codeline><highlight class="normal">160</highlight></codeline>
+<codeline><highlight class="normal">161<sp/> <sp/> <sp/>if<sp/>(new_tangential_force_norm<sp/>&gt;<sp/>coulomb_limit)</highlight></codeline>
+<codeline><highlight class="normal">162<sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">163<sp/> <sp/> <sp/> <sp/> <sp/>new_tangential_force<sp/>*=<sp/>coulomb_limit<sp/>/<sp/>(new_tangential_force_norm<sp/>+<sp/>SMALL_VALUE);</highlight></codeline>
+<codeline><highlight class="normal">164<sp/> <sp/> <sp/> <sp/> <sp/>bool<sp/>sliding<sp/>=<sp/>get_norm(tangential_relative_velocity)<sp/>&gt;<sp/>module_m_i.sliding_velocity_threshold;</highlight></codeline>
+<codeline><highlight class="normal">165<sp/> <sp/> <sp/> <sp/> <sp/>output_data.set_sliding(sliding);</highlight></codeline>
+<codeline><highlight class="normal">166<sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">167<sp/> <sp/> <sp/>else</highlight></codeline>
+<codeline><highlight class="normal">168<sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">169<sp/> <sp/> <sp/> <sp/> <sp/>output_data.set_sliding(false);</highlight></codeline>
+<codeline><highlight class="normal">170<sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">171</highlight></codeline>
+<codeline><highlight class="normal">172<sp/> <sp/> <sp/>output_data.set_tangential_force(new_tangential_force);</highlight></codeline>
+<codeline><highlight class="normal">173<sp/> <sp/> <sp/>set_contact_scalar_value(contact,<sp/>data-&gt;ppi_tangential_x,<sp/>data-&gt;pti_tangential_x,<sp/>new_tangential_force.x);</highlight></codeline>
+<codeline><highlight class="normal">174<sp/> <sp/> <sp/>set_contact_scalar_value(contact,<sp/>data-&gt;ppi_tangential_y,<sp/>data-&gt;pti_tangential_y,<sp/>new_tangential_force.y);</highlight></codeline>
+<codeline><highlight class="normal">175<sp/> <sp/> <sp/>set_contact_scalar_value(contact,<sp/>data-&gt;ppi_tangential_z,<sp/>data-&gt;pti_tangential_z,<sp/>new_tangential_force.z);</highlight></codeline>
+<codeline><highlight class="normal">176<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">177<sp/>ROCKY_PLUGIN_TANGENTIAL_FORCE_ON_CONTACTS_END()</highlight></codeline>
+</programlisting></para>
+<para>The implementation of the Linear Spring Coulomb Limit tangential force model is made in the code reproduced above. The model needs material interaction properties defined by both Rocky and the module itself. Because of that, two material interaction objects are defined in lines 142 and 143 in order to retrieve those property values. Next, in line 145, the previous tangential force vector is defined as zero if the current timestep is the first one in the collision, or, otherwise, its components are retrieved from custom contact scalars. Subsequently, the tangential component of the relative velocity at the contact point, pre-calculated by Rocky, is retrieved, and with it the tangential relative displacement during the timestep is calculated.</para>
+<para><emphasis>Note: This is a simplified version of the model implemented in Rocky. Some additional operations are ignored for the sake of simplicity. For instance, Rocky introduces correction terms to take into account the change on the normal direction and a possible viscous dissipation, that this implementation does not address</emphasis></para>
+<para>In line 154, the normal stiffness value is retrieved, and with it and the tangential stiffness ratio, the tangential stiffness is determined in line 155. Then, in line 157, the possible new value of the tangential force vector is calculated using equation 2.18 of the DEM Technical Manual. As in this model the magnitude of the tangential contact force cannot exceed the so-called Coulomb limit, calculated in line 159, the tangential force is rescaled if that condition is not satisfied, in line<orderedlist>
+<listitem><para>Additionally, the sliding condition is verified in line 164, comparing the magnitude of the relative tangential velocity with the sliding threshold value defined as a material interaction property. The boolean value indicating if the sliding condition is true or false is passed to Rocky using the <computeroutput>set_sliding</computeroutput> method of the <computeroutput>output_data</computeroutput> object, in line 165. In case that the Coulomb limit is not exceeded, the sliding condition is always false, and that value is set in line 169.</para>
+</listitem></orderedlist>
+</para>
+<para>The tangential contact force just calculated is passed also to Rocky by means of the <computeroutput>set_tangential_force</computeroutput> method of the <computeroutput>output_data</computeroutput> object, in line 172. The specification of both the sliding state and the tangential force vector is mandatory for a module implementing a tangential contact force model. As a final step, the components of the tangential force are stored in the contact scalars previously created, in order to make available those values in the next time iteration.</para>
+<para><programlisting><codeline><highlight class="normal">179<sp/>ROCKY_PLUGIN_IMPACT_ENERGY_ON_CONTACTS(contact,<sp/>intermediate_data,<sp/>output_data,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">180<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">181<sp/> <sp/> <sp/>const<sp/>double<sp/>home_stiffness<sp/>=<sp/>contact.get_home_stiffness();</highlight></codeline>
+<codeline><highlight class="normal">182<sp/> <sp/> <sp/>const<sp/>double<sp/>near_stiffness<sp/>=<sp/>contact.get_near_stiffness();</highlight></codeline>
+<codeline><highlight class="normal">183<sp/> <sp/> <sp/>const<sp/>double<sp/>stiffness_multiplier<sp/>=<sp/>contact.get_material_interaction().get_stiffness_multiplier();</highlight></codeline>
+<codeline><highlight class="normal">184</highlight></codeline>
+<codeline><highlight class="normal">185<sp/> <sp/> <sp/>const<sp/>double<sp/>normal_force<sp/>=<sp/>output_data.get_normal_force();</highlight></codeline>
+<codeline><highlight class="normal">186<sp/> <sp/> <sp/>const<sp/>double3<sp/>tangential_force<sp/>=<sp/>output_data.get_tangential_force();</highlight></codeline>
+<codeline><highlight class="normal">187<sp/> <sp/> <sp/>const<sp/>double<sp/>squared_force<sp/>=<sp/>normal_force<sp/>*<sp/>normal_force<sp/>+<sp/>dot(tangential_force);</highlight></codeline>
+<codeline><highlight class="normal">188</highlight></codeline>
+<codeline><highlight class="normal">189<sp/> <sp/> <sp/>output_data.set_home_impact_energy(0.5<sp/>*<sp/>squared_force<sp/>/<sp/>(stiffness_multiplier<sp/>*<sp/>home_stiffness));</highlight></codeline>
+<codeline><highlight class="normal">190<sp/> <sp/> <sp/>output_data.set_near_impact_energy(0.5<sp/>*<sp/>squared_force<sp/>/<sp/>(stiffness_multiplier<sp/>*<sp/>near_stiffness));</highlight></codeline>
+<codeline><highlight class="normal">191<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">192<sp/>ROCKY_PLUGIN_IMPACT_ENERGY_ON_CONTACTS_END()</highlight></codeline>
+</programlisting></para>
+<para>The module example presented in this chapter includes also the code for the calculation of the impact energy. This code reproduces the one implemented in Rocky and used when the Hysteretic Linear Spring model is active in a simulation. It is based on equation 4.11 of the DEM Technical Manual. Both the normal and the tangential contact force values calculated in previous steps, retrieved in lines 185 and 186, are needed in that expression. It actually represents the impact energy accumulated in the contact since the collision started. However, Rocky expects as output of the calculation the portions of that impact energy that are attributed to each colliding entity. Because of that, in lines 189 and 190, two values of impact energy are set using the <computeroutput>set_home_impact_energy</computeroutput> and <computeroutput>set_near_impact_energy</computeroutput> methods of the <computeroutput>output_data</computeroutput> object, respectively.</para>
+<para>After the module is built following the steps given in section 5.1.6, the module will be available to be used in Rocky. When the <computeroutput>Contact Model Example</computeroutput> is enabled in a Rocky project, the models of normal and tangential forces, besides the impact energy model implemented on it will override built-in models in those categories. This will be indicated within the <bold>Physics | Momentum</bold> tab, which will appear as shown in Figure 5.5.</para>
+<para><image type="html" name="mod_phys.png" width="30%"></image>
+ <image type="latex" name="mod_phys.png"></image>
+ <image type="rtf" name="mod_phys.png"></image>
+ <image type="docbook" name="mod_phys.png"></image>
+ <image type="xml" name="mod_phys.png"></image>
+</para>
+<para><emphasis>Figure 5.6: The normal force, tangential force and impact energy categories overriden by the models implemented in Contact Model Example.</emphasis></para>
+</sect3>
+</sect2>
+<sect2 id="usage_examples_1a-module-implementing-variable-properties">
+<title>A module implementing variable properties</title><para>As an example of the implementation of modules that override built-in constant properties in Rocky, this section describes a module that converts the particle&apos;s thermal conductivity into a function of the temperature. Additionally, the module makes possible also to define the temperature of boundaries as a function of the position. The functional relation for the thermal conductivity that the module implements is the following: $$ K_p = K_O ( 1 + C_L T_p ) $$ where <formula id="5">K_O</formula> and <formula id="6">C_L</formula> are two module parameters and <formula id="7">T_p</formula> is the particle temperature. On the other hand, the modules allows to define the temperature of boundary triangles as a quadratic function of the <formula id="8">x</formula>-coordinate: $$ T_t = T_O ( 1 + C_Q \,x_t^2 ) $$ where <formula id="9">T_O</formula> and <formula id="10">C_Q</formula> are two module parameters and <formula id="11">x_t</formula> is the <formula id="8">x</formula>-coordinate of the triangle&apos;s centroid.</para>
+<sect3 id="usage_examples_1autotoc_md130">
+<title>Module specification file</title><para>The following listing reproduces the Python file with the specifications of the module, which is named as <computeroutput>Variable Properties Example</computeroutput>.</para>
+<para><programlisting><codeline><highlight class="normal">1<sp/><sp/><sp/> <sp/> <sp/>from<sp/>pathlib<sp/>import<sp/>Path</highlight></codeline>
+<codeline><highlight class="normal">2<sp/><sp/><sp/> <sp/> <sp/>from<sp/>rocky20.addins.addin_models<sp/>import<sp/>container_model,<sp/>data_model</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/> <sp/> <sp/>from<sp/>rocky20.addins.addin_specs<sp/>import<sp/>RockyAddinSpecs</highlight></codeline>
+<codeline><highlight class="normal">4<sp/><sp/><sp/> <sp/> <sp/>from<sp/>rocky20.addins.addin_types<sp/>import<sp/>Quantity,<sp/>Temperature,<sp/>ThermalConductivity</highlight></codeline>
+<codeline><highlight class="normal">5<sp/><sp/><sp/> <sp/> <sp/>from<sp/>yapsy.IPlugin<sp/>import<sp/>IPlugin</highlight></codeline>
+<codeline><highlight class="normal">6</highlight></codeline>
+<codeline><highlight class="normal">7</highlight></codeline>
+<codeline><highlight class="normal">8<sp/><sp/><sp/> <sp/> <sp/>NAME<sp/>=<sp/>&apos;Variable<sp/>Properties<sp/>Example&apos;</highlight></codeline>
+<codeline><highlight class="normal">9</highlight></codeline>
+<codeline><highlight class="normal">10</highlight></codeline>
+<codeline><highlight class="normal">11<sp/><sp/> <sp/> <sp/>@data_model(icon=None,<sp/>caption=NAME)</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/> <sp/> <sp/>class<sp/>GeneralProperties:<sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">13<sp/><sp/> <sp/> <sp/> <sp/> <sp/>pass</highlight></codeline>
+<codeline><highlight class="normal">14</highlight></codeline>
+<codeline><highlight class="normal">15</highlight></codeline>
+<codeline><highlight class="normal">16<sp/><sp/> <sp/> <sp/>@container_model()</highlight></codeline>
+<codeline><highlight class="normal">17<sp/><sp/> <sp/> <sp/>class<sp/>MaterialProperties:<sp/> <sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">18<sp/><sp/> <sp/> <sp/> <sp/> <sp/>k_base_value<sp/>=<sp/>Quantity(value=1.0,<sp/>unit=&apos;W/m.K&apos;,<sp/>caption=&apos;Thermal<sp/>Conductivity<sp/>Base<sp/>Value&apos;)</highlight></codeline>
+<codeline><highlight class="normal">19<sp/><sp/> <sp/> <sp/> <sp/> <sp/>k_linear_coefficient<sp/>=<sp/>Quantity(value=0.0,<sp/>unit=&apos;1/K&apos;,<sp/>caption=&apos;Linear<sp/>Coefficient&apos;)</highlight></codeline>
+<codeline><highlight class="normal">20<sp/><sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">21<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">22<sp/><sp/> <sp/> <sp/>@container_model()</highlight></codeline>
+<codeline><highlight class="normal">23<sp/><sp/> <sp/> <sp/>class<sp/>GeometryProperties:<sp/> <sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">24<sp/><sp/> <sp/> <sp/> <sp/> <sp/>t_base_value<sp/>=<sp/>Quantity(value=300.0,<sp/>unit=&apos;K&apos;,<sp/>caption=&apos;Temperature<sp/>Base<sp/>Value&apos;)</highlight></codeline>
+<codeline><highlight class="normal">25<sp/><sp/> <sp/> <sp/> <sp/> <sp/>t_quadratic_coefficient<sp/>=<sp/>Quantity(value=0.0,<sp/>unit=&apos;1/m2&apos;,<sp/>caption=&apos;Quadratic<sp/>Coefficient&apos;)</highlight></codeline>
+<codeline><highlight class="normal">26<sp/><sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">27<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">28<sp/><sp/> <sp/> <sp/>@container_model()</highlight></codeline>
+<codeline><highlight class="normal">29<sp/><sp/> <sp/> <sp/>class<sp/>ParticleMaterialVariableProperties:</highlight></codeline>
+<codeline><highlight class="normal">30<sp/><sp/> <sp/> <sp/> <sp/> <sp/>thermal_conductivity<sp/>=<sp/>ThermalConductivity</highlight></codeline>
+<codeline><highlight class="normal">31<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">32<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">33<sp/><sp/> <sp/> <sp/>@container_model()</highlight></codeline>
+<codeline><highlight class="normal">34<sp/><sp/> <sp/> <sp/>class<sp/>TriangleVariableProperties:</highlight></codeline>
+<codeline><highlight class="normal">35<sp/><sp/> <sp/> <sp/> <sp/> <sp/>temperature<sp/>=<sp/>Temperature</highlight></codeline>
+<codeline><highlight class="normal">36</highlight></codeline>
+<codeline><highlight class="normal">37</highlight></codeline>
+<codeline><highlight class="normal">38<sp/><sp/> <sp/> <sp/>class<sp/>ModuleSpecifications(RockyAddinSpecs):</highlight></codeline>
+<codeline><highlight class="normal">39</highlight></codeline>
+<codeline><highlight class="normal">40<sp/><sp/> <sp/> <sp/> <sp/> <sp/>name<sp/>=<sp/>NAME</highlight></codeline>
+<codeline><highlight class="normal">41</highlight></codeline>
+<codeline><highlight class="normal">42<sp/><sp/> <sp/> <sp/> <sp/> <sp/>model<sp/>=<sp/>GeneralProperties</highlight></codeline>
+<codeline><highlight class="normal">43<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">44<sp/><sp/> <sp/> <sp/> <sp/> <sp/>particle_material_properties<sp/>=<sp/>ParticleMaterialVariableProperties</highlight></codeline>
+<codeline><highlight class="normal">45<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">46<sp/><sp/> <sp/> <sp/> <sp/> <sp/>geometry_triangle_properties<sp/>=<sp/>TriangleVariableProperties</highlight></codeline>
+<codeline><highlight class="normal">47<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">48<sp/><sp/> <sp/> <sp/> <sp/> <sp/>material_properties<sp/>=<sp/>MaterialProperties</highlight></codeline>
+<codeline><highlight class="normal">49<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">50<sp/><sp/> <sp/> <sp/> <sp/> <sp/>geometry_properties<sp/>=<sp/>GeometryProperties</highlight></codeline>
+<codeline><highlight class="normal">51<sp/><sp/> <sp/> <sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">52<sp/><sp/> <sp/> <sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">53<sp/><sp/> <sp/> <sp/> <sp/> <sp/>@classmethod</highlight></codeline>
+<codeline><highlight class="normal">54<sp/><sp/> <sp/> <sp/> <sp/> <sp/>def<sp/>CreateAddin(cls):</highlight></codeline>
+<codeline><highlight class="normal">55<sp/><sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>return<sp/>cls.CreateDynamicAddin(Path(__file__).parent,<sp/>&apos;variable_properties_example&apos;)</highlight></codeline>
+<codeline><highlight class="normal">56</highlight></codeline>
+<codeline><highlight class="normal">57</highlight></codeline>
+<codeline><highlight class="normal">58<sp/><sp/> <sp/> <sp/>class<sp/>VariablePropertiesExampleModule(IPlugin):</highlight></codeline>
+<codeline><highlight class="normal">59<sp/><sp/> <sp/> <sp/> <sp/> <sp/>def<sp/>get_addin_specs(self):</highlight></codeline>
+<codeline><highlight class="normal">60<sp/><sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>return<sp/>ModuleSpecifications</highlight></codeline>
+</programlisting></para>
+<para>Lines 18 and 19 of this file define the two parameters used in thermal conductivity equation as material properties. This means that different values can be entered through the Rocky UI for each one of the materials defined in a project. Similarly, lines 24 and 25 define the two parameters included in the boundary temperature equation as geometry properties. Therefore, different values of these parameters could be specified for each geometry in a project.</para>
+<para><emphasis>Note: However, since the module will define the thermal conductivity as a variable property for particles exclusively, only parameter values from materials associated to particles will be effectively used by the module.</emphasis></para>
+<para>The class defined in lines 28 to 30 specifies which material properties associated to particles will be overridden by the module. In this case, the thermal conductivity is the only property specified. That property is associated to an particle scalar variable defined internally in Rocky (<computeroutput>ThermalConductivity</computeroutput>) which the solver will use to store the values calculated by the module. A similar specification is made between lines 30 and 35 for the temperature of the boundary triangles. For more details about the specification of variable properties, please refer to section 2.9.</para>
+<para>Since the module will define the thermal conductivity as a variable property for particles exclusively, only parameter values from materials associated to particles will be effectively used by the module.</para>
+</sect3>
+<sect3 id="usage_examples_1autotoc_md131">
+<title>Module implementation</title><para>This section describes the C++ code of the main parts of the <computeroutput>variable_properties_example.cu</computeroutput> file. The code from initialization and termination hooks related to CUDA operations is omitted, since it was described in previous examples. This code implements the calculation of the property values per particle and per boundary triangle that the module must deliver to the Rocky solver. In turn, the Rocky solver will use these values internally in the thermal model calculations.</para>
+<para><programlisting><codeline><highlight class="normal">1<sp/><sp/><sp/>#define<sp/>ROCKY_CUDA_API</highlight></codeline>
+<codeline><highlight class="normal">2</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/>#include<sp/>&lt;rocky20/api/rocky_api.h&gt;</highlight></codeline>
+<codeline><highlight class="normal">4</highlight></codeline>
+<codeline><highlight class="normal">5</highlight></codeline>
+<codeline><highlight class="normal">6<sp/><sp/><sp/>struct<sp/>MaterialData</highlight></codeline>
+<codeline><highlight class="normal">7<sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">8<sp/><sp/><sp/> <sp/> <sp/>double<sp/>k_base_value;</highlight></codeline>
+<codeline><highlight class="normal">9<sp/><sp/><sp/> <sp/> <sp/>double<sp/>k_linear_coefficient;</highlight></codeline>
+<codeline><highlight class="normal">10<sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal">11</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/>struct<sp/>GeometryData</highlight></codeline>
+<codeline><highlight class="normal">13<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">14<sp/><sp/> <sp/> <sp/>double<sp/>t_base_value;</highlight></codeline>
+<codeline><highlight class="normal">15<sp/><sp/> <sp/> <sp/>double<sp/>t_quadratic_coefficient;</highlight></codeline>
+<codeline><highlight class="normal">16<sp/><sp/>};</highlight></codeline>
+<codeline><highlight class="normal">17</highlight></codeline>
+<codeline><highlight class="normal">18<sp/><sp/>struct<sp/>ModuleData</highlight></codeline>
+<codeline><highlight class="normal">19<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">20<sp/><sp/> <sp/> <sp/>MaterialData*<sp/>m_data;</highlight></codeline>
+<codeline><highlight class="normal">21<sp/><sp/> <sp/> <sp/>GeometryData*<sp/>g_data;</highlight></codeline>
+<codeline><highlight class="normal">22<sp/><sp/> <sp/> <sp/>bool<sp/>enabled;</highlight></codeline>
+<codeline><highlight class="normal">23<sp/><sp/>};</highlight></codeline>
+</programlisting></para>
+<para>The code block above defines data structures for the module to store the parameter values that users of the module entered via the Rocky UI.</para>
+<para><programlisting><codeline><highlight class="normal">26<sp/><sp/>ROCKY_PLUGIN_CONFIGURE(input_data,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">27<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">28<sp/><sp/> <sp/> <sp/>auto*<sp/>module_data<sp/>=<sp/>new<sp/>ModuleData();</highlight></codeline>
+<codeline><highlight class="normal">29</highlight></codeline>
+<codeline><highlight class="normal">30<sp/><sp/> <sp/> <sp/>int<sp/>n_materials<sp/>=<sp/>input_data.get_number_materials();</highlight></codeline>
+<codeline><highlight class="normal">31<sp/><sp/> <sp/> <sp/>module_data-&gt;m_data<sp/>=<sp/>new<sp/>MaterialData[n_materials];</highlight></codeline>
+<codeline><highlight class="normal">32</highlight></codeline>
+<codeline><highlight class="normal">33<sp/><sp/> <sp/> <sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>n_materials;<sp/>++i)</highlight></codeline>
+<codeline><highlight class="normal">34<sp/><sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">35<sp/><sp/> <sp/> <sp/> <sp/> <sp/>auto<sp/>input_m_data<sp/>=<sp/>input_data.get_material_data(i);</highlight></codeline>
+<codeline><highlight class="normal">36<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;m_data[i].k_base_value<sp/>=<sp/>input_m_data.get_double(&quot;k_base_value&quot;);</highlight></codeline>
+<codeline><highlight class="normal">37<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;m_data[i].k_linear_coefficient<sp/>=<sp/>input_m_data.get_double(&quot;k_linear_coefficient&quot;);</highlight></codeline>
+<codeline><highlight class="normal">38<sp/><sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">39</highlight></codeline>
+<codeline><highlight class="normal">40<sp/><sp/> <sp/> <sp/>int<sp/>n_geometries<sp/>=<sp/>input_data.get_number_geometries();</highlight></codeline>
+<codeline><highlight class="normal">41<sp/><sp/> <sp/> <sp/>module_data-&gt;g_data<sp/>=<sp/>new<sp/>GeometryData[n_geometries];</highlight></codeline>
+<codeline><highlight class="normal">42</highlight></codeline>
+<codeline><highlight class="normal">43<sp/><sp/> <sp/> <sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>n_geometries;<sp/>++i)</highlight></codeline>
+<codeline><highlight class="normal">44<sp/><sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">45<sp/><sp/> <sp/> <sp/> <sp/> <sp/>auto<sp/>input_g_data<sp/>=<sp/>input_data.get_geometry_data(i);</highlight></codeline>
+<codeline><highlight class="normal">46<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;g_data[i].t_base_value<sp/>=<sp/>input_g_data.get_double(&quot;t_base_value&quot;);</highlight></codeline>
+<codeline><highlight class="normal">47<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;g_data[i].t_quadratic_coefficient<sp/>=<sp/>input_g_data.get_double(&quot;t_quadratic_coefficient&quot;);</highlight></codeline>
+<codeline><highlight class="normal">48<sp/><sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">49</highlight></codeline>
+<codeline><highlight class="normal">50<sp/><sp/> <sp/> <sp/>data<sp/>=<sp/>static_cast&lt;void*&gt;(module_data);</highlight></codeline>
+<codeline><highlight class="normal">51<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">52</highlight></codeline>
+<codeline><highlight class="normal">53</highlight></codeline>
+<codeline><highlight class="normal">54<sp/><sp/>ROCKY_PLUGIN_SETUP(model,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">55<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">56<sp/><sp/> <sp/> <sp/>auto*<sp/>module_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">57</highlight></codeline>
+<codeline><highlight class="normal">58<sp/><sp/> <sp/> <sp/>module_data-&gt;enabled<sp/>=<sp/>model.is_thermal_simulation();</highlight></codeline>
+<codeline><highlight class="normal">59<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">60</highlight></codeline>
+<codeline><highlight class="normal">61</highlight></codeline>
+<codeline><highlight class="normal">62<sp/><sp/>ROCKY_PLUGIN_NON_DIMENSIONALIZE(model,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">63<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">64<sp/><sp/> <sp/> <sp/>auto*<sp/>module_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">65</highlight></codeline>
+<codeline><highlight class="normal">66<sp/><sp/> <sp/> <sp/>if<sp/>(!module_data-&gt;enabled)<sp/>return;</highlight></codeline>
+<codeline><highlight class="normal">67</highlight></codeline>
+<codeline><highlight class="normal">68<sp/><sp/> <sp/> <sp/>double<sp/>t_factor<sp/>=<sp/>model.get_temperature_factor();</highlight></codeline>
+<codeline><highlight class="normal">69<sp/><sp/> <sp/> <sp/>double<sp/>l_factor<sp/>=<sp/>model.get_length_factor();</highlight></codeline>
+<codeline><highlight class="normal">70<sp/><sp/> <sp/> <sp/>double<sp/>k_factor<sp/>=<sp/>model.get_energy_factor()<sp/>/<sp/>(model.get_time_factor()<sp/>*<sp/>l_factor<sp/>*<sp/>t_factor);</highlight></codeline>
+<codeline><highlight class="normal">71</highlight></codeline>
+<codeline><highlight class="normal">72<sp/><sp/> <sp/> <sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>model.get_number_of_materials();<sp/>i++)</highlight></codeline>
+<codeline><highlight class="normal">73<sp/><sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">74<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;m_data[i].k_base_value<sp/>/=<sp/>k_factor;</highlight></codeline>
+<codeline><highlight class="normal">75<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;m_data[i].k_linear_coefficient<sp/>*=<sp/>t_factor;</highlight></codeline>
+<codeline><highlight class="normal">76<sp/><sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">77</highlight></codeline>
+<codeline><highlight class="normal">78<sp/><sp/> <sp/> <sp/>for<sp/>(int<sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>model.get_number_of_geometries();<sp/>i++)</highlight></codeline>
+<codeline><highlight class="normal">79<sp/><sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">80<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;g_data[i].t_base_value<sp/>/=<sp/>t_factor;</highlight></codeline>
+<codeline><highlight class="normal">81<sp/><sp/> <sp/> <sp/> <sp/> <sp/>module_data-&gt;g_data[i].t_quadratic_coefficient<sp/>*=<sp/>l_factor<sp/>*<sp/>l_factor;</highlight></codeline>
+<codeline><highlight class="normal">82<sp/><sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">83<sp/><sp/>}</highlight></codeline>
+</programlisting></para>
+<para>The code associated to the <computeroutput>ROCKY_PLUGIN_CONFIGURE</computeroutput> hook receives the parameter values delivered by the Rocky UI, and then stores them in the data structures previously defined. On the other hand, the <computeroutput>ROCKY_PLUGIN_SETUP</computeroutput> hook is only used to verify if the project has the thermal model enabled. The module will perform its operations only if that is the case. Then the module parameters are non-dimensionalized, in order to be used in the calculations that must be made later on, during the simulation.</para>
+<para>Since the module is intended to be used with static boundaries only, it needs to prescribe the temperature of the boundary triangles only once, during the initialization. In order to do that, the <computeroutput>ROCKY_PLUGIN_INITIALIZE_TRIANGLE</computeroutput> hook is used in the following way:</para>
+<para><programlisting><codeline><highlight class="normal">86<sp/><sp/>ROCKY_PLUGIN_INITIALIZE_TRIANGLE(model,<sp/>triangle,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">87<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">88<sp/><sp/> <sp/> <sp/>auto*<sp/>module_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">89<sp/><sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">90<sp/><sp/> <sp/> <sp/>if<sp/>(!module_data-&gt;enabled)<sp/>return;</highlight></codeline>
+<codeline><highlight class="normal">91</highlight></codeline>
+<codeline><highlight class="normal">92<sp/><sp/> <sp/> <sp/>int<sp/>geometry_index<sp/>=<sp/>triangle.get_geometry_index();</highlight></codeline>
+<codeline><highlight class="normal">93<sp/><sp/> <sp/> <sp/>auto<sp/>g_data<sp/>=<sp/>module_data-&gt;g_data[geometry_index];</highlight></codeline>
+<codeline><highlight class="normal">94</highlight></codeline>
+<codeline><highlight class="normal">95<sp/><sp/> <sp/> <sp/>double<sp/>x<sp/>=<sp/>triangle.get_centroid().x;</highlight></codeline>
+<codeline><highlight class="normal">96<sp/><sp/> <sp/> <sp/>double<sp/>temperature<sp/>=<sp/>g_data.t_base_value<sp/>*<sp/>(1.0<sp/>+<sp/>g_data.t_quadratic_coefficient<sp/>*<sp/>x<sp/>*<sp/>x<sp/>);</highlight></codeline>
+<codeline><highlight class="normal">97<sp/><sp/> <sp/> <sp/>triangle.set_temperature(temperature);</highlight></codeline>
+<codeline><highlight class="normal">98<sp/><sp/>}</highlight></codeline>
+</programlisting></para>
+<para><image type="html" name="ex_prop_temp.png" width="30%"></image>
+ <image type="latex" name="ex_prop_temp.png"></image>
+ <image type="rtf" name="ex_prop_temp.png"></image>
+ <image type="docbook" name="ex_prop_temp.png"></image>
+ <image type="xml" name="ex_prop_temp.png"></image>
+</para>
+<para><emphasis>Figure 5.7: Example of the temperature distribution on a boundary specified by the module.</emphasis></para>
+<para>The code above applies boundary temperature equation shown above to the calculation of the temperature of every boundary triangle in the simulation. If the temperature distribution should be applied only to specific boundaries, the code above must be modified in order to filter the triangles belonging to those boundaries. Figure 5.7 shows an example of the resulting temperature distribution in a specific case.</para>
+<para>The thermal conductivity as a function of the particle&apos;s temperature. Since this temperature is updated at every time iteration during the simulation, the module needs to update the conductivity values at every iteration as well. That update must be done within an iteration hook executed before the heat transfer calculation, which are made right afterwards the contact forces calculation. Therefore, the <computeroutput>ROCKY_PLUGIN_PRE_FORCE_ON_PARTICLES</computeroutput> hook is the most adequate for that task, as shown in the following code block:</para>
+<para><programlisting><codeline><highlight class="normal">100<sp/>ROCKY_PLUGIN_PRE_FORCE_ON_PARTICLES(device_model,<sp/>particle,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">101<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">102<sp/> <sp/> <sp/>auto*<sp/>module_data<sp/>=<sp/>static_cast&lt;ModuleData*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">103</highlight></codeline>
+<codeline><highlight class="normal">104<sp/> <sp/> <sp/>if<sp/>(!module_data-&gt;enabled)<sp/>return;</highlight></codeline>
+<codeline><highlight class="normal">105</highlight></codeline>
+<codeline><highlight class="normal">106<sp/> <sp/> <sp/>int<sp/>material_index<sp/>=<sp/>particle.get_material_index();</highlight></codeline>
+<codeline><highlight class="normal">107<sp/> <sp/> <sp/>auto&amp;<sp/>m_data<sp/>=<sp/>module_data-&gt;m_data[material_index];</highlight></codeline>
+<codeline><highlight class="normal">108<sp/> <sp/> <sp/>double<sp/>temperature<sp/>=<sp/>particle.get_scalars().get_temperature();</highlight></codeline>
+<codeline><highlight class="normal">109</highlight></codeline>
+<codeline><highlight class="normal">110<sp/> <sp/> <sp/>double<sp/>conductivity<sp/>=<sp/>m_data.k_base_value<sp/>*<sp/>(1.0<sp/>+<sp/>m_data.k_linear_coefficient<sp/>*<sp/>temperature);</highlight></codeline>
+<codeline><highlight class="normal">111<sp/> <sp/> <sp/>particle.set_thermal_conductivity(conductivity);</highlight></codeline>
+<codeline><highlight class="normal">112<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">113<sp/>ROCKY_PLUGIN_PRE_FORCE_ON_PARTICLES_END()</highlight></codeline>
+</programlisting></para>
+<para>This code calculates the thermal conductivity for all active particles at a given time, according to thermal conductivity equation mentioned previously. The conductivity value just calculated is passed to the Rocky solver in the line 111 using the <computeroutput>set_thermal_conductivity</computeroutput> method. The Rocky Solver SDK includes equivalent methods associated to particles, triangles and contacts, for every property that can be overridden by a custom module. Figure 5.8 shows an example of a particle bed in which the particles&apos; thermal conductivity has been calculated by the module described in this section.</para>
+<para>When a custom module that implements a variable property is active in a simulation, Rocky will issue a warning message, indicating which properties are being overridden by the module. Although the constant property values being replaced will remain editable in the Rocky UI, it is important to note that they will be ignored in all the calculations done by the Rocky solver.</para>
+<para><image type="html" name="ex_prop_cond.png" width="30%"></image>
+ <image type="latex" name="ex_prop_cond.png"></image>
+ <image type="rtf" name="ex_prop_cond.png"></image>
+ <image type="docbook" name="ex_prop_cond.png"></image>
+ <image type="xml" name="ex_prop_cond.png"></image>
+</para>
+<para><emphasis>Figure 5.8: Example of the variable thermal conductivity on particles specified by the module</emphasis></para>
+</sect3>
+</sect2>
+<sect2 id="usage_examples_1autotoc_md132">
+<title>A module implementing a custom SPH model</title><para>As an example of the implementation of a custom SPH model using the Rocky Solver SDK, this section describes the code associated to a custom module that implements simultaneously the Large Eddy Simulation (LES) turbulence model*, the Morris viscosity model and the Free Slip boundary condition type. Be aware that when implementing forces or parameters directly related to forces, a custom module must implement the calculation of all relevant forces, as it is being done in this example. Note that not all forces or options present in Rocky are replicated in this module example, but only the most important ones.</para>
+<para>**For more information about the model implemented in this example, refer to &quot;Numerical modelling of complex turbulent free-surface flows with the SPH
+method: an overview&quot;, Violeau D., Issa, R., International Journal of Numerical Methods in Fluids, vol. 53, pp. 277-304, 2007.*</para>
+<sect3 id="usage_examples_1autotoc_md133">
+<title>Module specification file</title><para>The following listing reproduces the Python file that includes the specifications for the custom module, which is named simply as <computeroutput>LES Turbulence Model</computeroutput>.</para>
+<para><programlisting><codeline><highlight class="normal">1<sp/><sp/><sp/>import<sp/>sys</highlight></codeline>
+<codeline><highlight class="normal">2<sp/><sp/><sp/>from<sp/>pathlib<sp/>import<sp/>Path</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/>from<sp/>yapsy.IPlugin<sp/>import<sp/>IPlugin</highlight></codeline>
+<codeline><highlight class="normal">4<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_models<sp/>import<sp/>container_model,<sp/>data_model</highlight></codeline>
+<codeline><highlight class="normal">5<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_specs<sp/>import<sp/>RockyAddinSpecs</highlight></codeline>
+<codeline><highlight class="normal">6<sp/><sp/><sp/>from<sp/>rocky20.addins.addin_types<sp/>import<sp/>Quantity</highlight></codeline>
+<codeline><highlight class="normal">7</highlight></codeline>
+<codeline><highlight class="normal">8<sp/><sp/><sp/>NAME<sp/>=<sp/>&quot;SPH<sp/>LES<sp/>Turbulence<sp/>Model&quot;</highlight></codeline>
+<codeline><highlight class="normal">9</highlight></codeline>
+<codeline><highlight class="normal">10<sp/><sp/>@data_model(icon=None,<sp/>caption=NAME)</highlight></codeline>
+<codeline><highlight class="normal">11<sp/><sp/>class<sp/>SPHModelAPIModel:</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/> <sp/> <sp/>les_smagorinsky_constant<sp/>=<sp/>Quantity(value=0.2,<sp/>unit=&apos;-&apos;,<sp/>caption=&apos;Les<sp/>Smagorinsky<sp/>Constant&apos;)</highlight></codeline>
+<codeline><highlight class="normal">13<sp/><sp/> <sp/> <sp/>les_distance_factor<sp/>=<sp/>Quantity(value=2,<sp/>unit=&apos;-&apos;,<sp/>caption=&apos;LES<sp/>Distance<sp/>Factor&apos;)</highlight></codeline>
+<codeline><highlight class="normal">14</highlight></codeline>
+<codeline><highlight class="normal">15<sp/><sp/>@data_model(icon=None,<sp/>caption=NAME)</highlight></codeline>
+<codeline><highlight class="normal">16<sp/><sp/>class<sp/>SPHForceModel:</highlight></codeline>
+<codeline><highlight class="normal">17<sp/><sp/> <sp/> <sp/>pass</highlight></codeline>
+<codeline><highlight class="normal">18<sp/><sp/> <sp/> </highlight></codeline>
+<codeline><highlight class="normal">19<sp/><sp/>class<sp/>SPHModelAPISpecs(RockyAddinSpecs):</highlight></codeline>
+<codeline><highlight class="normal">20</highlight></codeline>
+<codeline><highlight class="normal">21<sp/><sp/> <sp/> <sp/>name<sp/>=<sp/>NAME</highlight></codeline>
+<codeline><highlight class="normal">22</highlight></codeline>
+<codeline><highlight class="normal">23<sp/><sp/> <sp/> <sp/>model<sp/>=<sp/>SPHModelAPIModel</highlight></codeline>
+<codeline><highlight class="normal">24<sp/><sp/> <sp/> <sp/>sph_force_model<sp/>=<sp/>SPHForceModel</highlight></codeline>
+<codeline><highlight class="normal">25</highlight></codeline>
+<codeline><highlight class="normal">26<sp/><sp/> <sp/> <sp/>@classmethod</highlight></codeline>
+<codeline><highlight class="normal">27<sp/><sp/> <sp/> <sp/>def<sp/>CreateAddin(cls):</highlight></codeline>
+<codeline><highlight class="normal">28<sp/><sp/> <sp/> <sp/> <sp/> <sp/>return<sp/>cls.CreateDynamicAddin(Path(__file__).parent,<sp/>&apos;sph_les_model&apos;)</highlight></codeline>
+<codeline><highlight class="normal">29</highlight></codeline>
+<codeline><highlight class="normal">30<sp/><sp/>class<sp/>SPHAPIPlugin(IPlugin):</highlight></codeline>
+<codeline><highlight class="normal">31</highlight></codeline>
+<codeline><highlight class="normal">32<sp/><sp/> <sp/> <sp/>def<sp/>get_addin_specs(self):</highlight></codeline>
+<codeline><highlight class="normal">33<sp/><sp/> <sp/> <sp/> <sp/> <sp/>return<sp/>SPHModelAPISpecs</highlight></codeline>
+</programlisting></para>
+</sect3>
+<sect3 id="usage_examples_1autotoc_md134">
+<title>Implementation of the SPH LES turbulence model</title><para>This section describes the different parts that make up the <computeroutput>sph_les_model.cu</computeroutput> file that includes the C++ code implementing the custom models.</para>
+<para><programlisting><codeline><highlight class="normal">1<sp/><sp/><sp/>#define<sp/>ROCKY_CUDA_API</highlight></codeline>
+<codeline><highlight class="normal">2</highlight></codeline>
+<codeline><highlight class="normal">3<sp/><sp/><sp/>#include<sp/>&lt;rocky20/api/rocky_api.h&gt;</highlight></codeline>
+<codeline><highlight class="normal">4<sp/><sp/><sp/>#include<sp/>&lt;rocky20/api/rocky_api_sph.h&gt;</highlight></codeline>
+<codeline><highlight class="normal">5<sp/><sp/><sp/>#include<sp/>&lt;rocky20/api/device/api_backend.hpp&gt;</highlight></codeline>
+<codeline><highlight class="normal">6<sp/><sp/><sp/>#include<sp/>&lt;rocky20/api/sph/api_cuda_sph.hpp&gt;</highlight></codeline>
+<codeline><highlight class="normal">7</highlight></codeline>
+<codeline><highlight class="normal">8<sp/><sp/><sp/>struct<sp/>Data</highlight></codeline>
+<codeline><highlight class="normal">9<sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">10<sp/><sp/> <sp/> <sp/>int<sp/>turbulent_viscosity_index<sp/>{<sp/>-1<sp/>};</highlight></codeline>
+<codeline><highlight class="normal">11<sp/><sp/> <sp/> <sp/>double<sp/>les_smagorinsky_constant;</highlight></codeline>
+<codeline><highlight class="normal">12<sp/><sp/> <sp/> <sp/>double<sp/>les_distance_factor;</highlight></codeline>
+<codeline><highlight class="normal">13<sp/><sp/>};</highlight></codeline>
+</programlisting></para>
+<para>The initial part of the file reproduced above includes the definition of the preprocessor name <computeroutput>ROCKY_CUDA_API</computeroutput> that enables the compilation of the module in CUDA and, in turn, enables the module to be used in a simulation processed on GPU. Subsequently, between lines 8 and 13, it is defined a local <computeroutput>struct</computeroutput> that will be used to store the data needed by the module. In the current module, a parameter needed is the index <computeroutput>turbulent_viscosity_index</computeroutput> assigned to a scalar that stores the turbulent viscosity calculated during the simulation. The other two parameters are needed to store the data entered by the user via the Rocky UI.</para>
+<para><programlisting><codeline><highlight class="normal">48<sp/><sp/>ROCKY_PLUGIN(&quot;SPH<sp/>LES<sp/>Turbulence<sp/>Model&quot;,<sp/>&quot;1.0.0&quot;)</highlight></codeline>
+<codeline><highlight class="normal">49<sp/><sp/>ROCKY_PLUGIN_SPH()</highlight></codeline>
+<codeline><highlight class="normal">50</highlight></codeline>
+<codeline><highlight class="normal">51<sp/><sp/>ROCKY_PLUGIN_CONFIGURE(input_data,<sp/>module_data)</highlight></codeline>
+<codeline><highlight class="normal">52<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">53<sp/><sp/> <sp/> <sp/>ROCKY_MESSAGE_LOG(&quot;SPHModelAPIAddin:<sp/>configure&quot;);</highlight></codeline>
+<codeline><highlight class="normal">54<sp/><sp/> <sp/> <sp/>Data*<sp/>data<sp/>=<sp/>new<sp/>Data();</highlight></codeline>
+<codeline><highlight class="normal">55<sp/><sp/> <sp/> <sp/>auto<sp/>model_properties<sp/>=<sp/>input_data.get_model();</highlight></codeline>
+<codeline><highlight class="normal">56<sp/><sp/> <sp/> <sp/>data-&gt;les_smagorinsky_constant<sp/>=<sp/>model_properties.get_double(&quot;les_smagorinsky_constant&quot;);</highlight></codeline>
+<codeline><highlight class="normal">57<sp/><sp/> <sp/> <sp/>data-&gt;les_distance_factor<sp/>=<sp/>model_properties.get_double(&quot;les_distance_factor&quot;);</highlight></codeline>
+<codeline><highlight class="normal">58<sp/><sp/> <sp/> <sp/>module_data<sp/>=<sp/>static_cast&lt;void*&gt;(data);</highlight></codeline>
+<codeline><highlight class="normal">59<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">60</highlight></codeline>
+<codeline><highlight class="normal">61<sp/><sp/>ROCKY_PLUGIN_SETUP(model,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">62<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">63<sp/><sp/> <sp/> <sp/>ROCKY_MESSAGE_LOG(&quot;SPHModelAPIAddin:<sp/>setup&quot;);</highlight></codeline>
+<codeline><highlight class="normal">64<sp/><sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;Data*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">65</highlight></codeline>
+<codeline><highlight class="normal">66<sp/><sp/> <sp/> <sp/>auto<sp/>sph_model<sp/>=<sp/>get_sph_model(model);</highlight></codeline>
+<codeline><highlight class="normal">67<sp/><sp/> <sp/> <sp/>auto<sp/>sph_scalars<sp/>=<sp/>sph_model.get_sph_element_scalars();</highlight></codeline>
+<codeline><highlight class="normal">68<sp/><sp/> <sp/> <sp/>data-&gt;turbulent_viscosity_index<sp/>=<sp/>sph_scalars.add(&quot;Turbulent<sp/>Viscosity&quot;,<sp/>&quot;Pa.s&quot;);</highlight></codeline>
+<codeline><highlight class="normal">69<sp/><sp/> <sp/> <sp/>sph_scalars.set_operation(data-&gt;turbulent_viscosity_index,<sp/>sphotReset,<sp/>sphopPreForce);</highlight></codeline>
+<codeline><highlight class="normal">70<sp/><sp/> <sp/> <sp/>sph_scalars.set_operation(data-&gt;turbulent_viscosity_index,<sp/>sphotSum,<sp/>sphopPreForce);</highlight></codeline>
+<codeline><highlight class="normal">71<sp/><sp/> <sp/> <sp/>sph_scalars.set_operation(data-&gt;turbulent_viscosity_index,<sp/>sphotUpdate,<sp/>sphopPreForce);</highlight></codeline>
+<codeline><highlight class="normal">72<sp/><sp/> <sp/> <sp/>ROCKY_MESSAGE_LOG(</highlight></codeline>
+<codeline><highlight class="normal">73<sp/><sp/> <sp/> <sp/> <sp/> <sp/>&quot;Added<sp/>scalar<sp/>&quot;<sp/>&lt;&lt;<sp/>data-&gt;turbulent_viscosity_index<sp/>&lt;&lt;<sp/>&quot;<sp/>reset/sum/update<sp/>point<sp/>&quot;</highlight></codeline>
+<codeline><highlight class="normal">74<sp/><sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>&lt;&lt;<sp/>sphopPreForce);</highlight></codeline>
+<codeline><highlight class="normal">75<sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">76</highlight></codeline>
+<codeline><highlight class="normal">77<sp/><sp/>ROCKY_PLUGIN_INITIALIZE_CUDA(model,<sp/>host_data,<sp/>device_id,<sp/>_device_data)</highlight></codeline>
+<codeline><highlight class="normal">78<sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal">79<sp/><sp/> <sp/> <sp/>ROCKY_INFO_LOG(&quot;SPHModelAPIAddin:<sp/>initialize_cuda&quot;);</highlight></codeline>
+<codeline><highlight class="normal">80<sp/><sp/> <sp/> <sp/>Data*<sp/>device_copy<sp/>=<sp/>nullptr;</highlight></codeline>
+<codeline><highlight class="normal">81<sp/><sp/> <sp/> <sp/>CUDA_MALLOC_TYPE(device_copy,<sp/>1,<sp/>Data);</highlight></codeline>
+<codeline><highlight class="normal">82<sp/><sp/> <sp/> <sp/>CUDA_COPY_H2D(device_copy,<sp/>static_cast&lt;Data*&gt;(host_data),<sp/>1);</highlight></codeline>
+<codeline><highlight class="normal">83<sp/><sp/> <sp/> <sp/>_device_data<sp/>=<sp/>static_cast&lt;void*&gt;(device_copy);</highlight></codeline>
+<codeline><highlight class="normal">84<sp/><sp/>}</highlight></codeline>
+</programlisting></para>
+<para>The block above includes the associated code to the initialization hooks. As most of these operations were covered in chapter Rocky module examples, they will be described here very briefly.</para>
+<para>In the <computeroutput>ROCKY_PLUGIN_CONFIGURE</computeroutput> hook, the values for the module parameter are stored in the array within the module local <computeroutput>struct</computeroutput> defined previously. Subsequently, in the <computeroutput>ROCKY_PLUGIN_SETUP</computeroutput> hook, a scalar is created for storing the values of the turbulent viscosity calculated in the module. This scalar is needed as the values from neighbor elements must be accumulated in order to approximate the tensor of strain rate as a previous step for calculating the turbulent viscosity. In the lines 68-70, three operations made on the scalar that stores turbulent viscosity are made: reset values, sum of values associated to elements in the halo regions between GPUs, and copy of values of those elements between GPUs. The last two operations are done only when the module is being employed in simulations with multi GPU. According to the specification made, the order of operations in the module is the following: <verbatim>1.  Reset of scalars
+
+2.  Hook PRE_FORCE_ON_ELEMENT_INTERACTIONS
+
+3.  Hook PRE_FORCE_ON_TRIANGLE_INTERACTIONS
+
+4.  Sum of halo values between GPUs
+
+5.  Hook PRE_FORCE_ON_ELEMENTS
+
+6.  Copy of halo values between GPUs
+
+7.  Hook FORCE_ON_ELEMENT_INTERACTIONS
+
+8.  Hook FORCE_ON_TRIANGLE_INTERACTIONS
+</verbatim> In the <computeroutput>ROCKY_PLUGIN_INITIALIZE_CUDA</computeroutput> hook, the local module data is copied to GPU devices after being allocated the required memory block there.</para>
+<para><programlisting><codeline><highlight class="normal">115<sp/>//<sp/>Pre-post<sp/>force<sp/>calls<sp/>order:<sp/>on_interactions<sp/>-&gt;<sp/>on_elements</highlight></codeline>
+<codeline><highlight class="normal">116<sp/>ROCKY_PLUGIN_PRE_FORCE_ON_SPH_ELEMENT_INTERACTIONS(device_model,<sp/>sph_model,<sp/>sph_interaction,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">117<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">118<sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;Data*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">119</highlight></codeline>
+<codeline><highlight class="normal">120<sp/> <sp/> <sp/>//<sp/>Density<sp/>for<sp/>interacting<sp/>elements</highlight></codeline>
+<codeline><highlight class="normal">121<sp/> <sp/> <sp/>auto<sp/>home_element<sp/>=<sp/>sph_interaction.get_home_element();</highlight></codeline>
+<codeline><highlight class="normal">122<sp/> <sp/> <sp/>auto<sp/>near_element<sp/>=<sp/>sph_interaction.get_near_element();</highlight></codeline>
+<codeline><highlight class="normal">123<sp/> <sp/> <sp/>auto<sp/>home_scalars<sp/>=<sp/>home_element.get_scalars();</highlight></codeline>
+<codeline><highlight class="normal">124<sp/> <sp/> <sp/>auto<sp/>near_scalars<sp/>=<sp/>near_element.get_scalars();</highlight></codeline>
+<codeline><highlight class="normal">125<sp/> <sp/> <sp/>const<sp/>float<sp/>home_density<sp/>=<sp/>home_element.get_density();</highlight></codeline>
+<codeline><highlight class="normal">126<sp/> <sp/> <sp/>const<sp/>float<sp/>near_density<sp/>=<sp/>near_element.get_density();</highlight></codeline>
+<codeline><highlight class="normal">127</highlight></codeline>
+<codeline><highlight class="normal">128<sp/> <sp/> <sp/>//<sp/>Distance<sp/>&amp;<sp/>velocity<sp/>difference<sp/>between<sp/>elements</highlight></codeline>
+<codeline><highlight class="normal">129<sp/> <sp/> <sp/>const<sp/>float3<sp/>d_diff<sp/>=<sp/>sph_interaction.calculate_elements_distance();</highlight></codeline>
+<codeline><highlight class="normal">130<sp/> <sp/> <sp/>const<sp/>float3<sp/>v_diff<sp/>=<sp/>sph_interaction.calculate_elements_relative_velocity();</highlight></codeline>
+<codeline><highlight class="normal">131<sp/> <sp/> <sp/>float<sp/>dd<sp/>=<sp/>get_norm(d_diff);</highlight></codeline>
+<codeline><highlight class="normal">132</highlight></codeline>
+<codeline><highlight class="normal">133<sp/> <sp/> <sp/>//<sp/>Calculating<sp/>the<sp/>filtered<sp/>strain<sp/>rate<sp/>per<sp/>Violeau<sp/>&amp;<sp/>Issa<sp/>(2007)</highlight></codeline>
+<codeline><highlight class="normal">134<sp/> <sp/> <sp/>const<sp/>float<sp/>kernel_derivative<sp/>=<sp/>sph_model.get_kernel_derivative(dd);</highlight></codeline>
+<codeline><highlight class="normal">135<sp/> <sp/> <sp/>dd<sp/>=<sp/>max(dd,<sp/>sph_model.get_minimum_distance());</highlight></codeline>
+<codeline><highlight class="normal">136<sp/> <sp/> <sp/>const<sp/>float<sp/>d_strain_rate<sp/>=<sp/>-0.5f<sp/>*<sp/>sph_model.get_mass()<sp/>*<sp/>(home_density<sp/>+<sp/>near_density)</highlight></codeline>
+<codeline><highlight class="normal">137<sp/> <sp/> <sp/> <sp/> <sp/>/<sp/>(home_density<sp/>*<sp/>near_density)<sp/>*<sp/>dot(v_diff)<sp/>*<sp/>kernel_derivative<sp/>/<sp/>dd;</highlight></codeline>
+<codeline><highlight class="normal">138</highlight></codeline>
+<codeline><highlight class="normal">139<sp/> <sp/> <sp/>//<sp/>Accumulating<sp/>strain<sp/>rate<sp/>contributions<sp/>on<sp/>the<sp/>turbulent<sp/>viscosity<sp/>scalar</highlight></codeline>
+<codeline><highlight class="normal">140<sp/> <sp/> <sp/>home_scalars.add_scalar(data-&gt;turbulent_viscosity_index,<sp/>d_strain_rate);</highlight></codeline>
+<codeline><highlight class="normal">141<sp/> <sp/> <sp/>near_scalars.add_scalar(data-&gt;turbulent_viscosity_index,<sp/>d_strain_rate);</highlight></codeline>
+<codeline><highlight class="normal">142<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">143<sp/>ROCKY_PLUGIN_PRE_FORCE_ON_SPH_ELEMENT_INTERACTIONS_END()</highlight></codeline>
+</programlisting></para>
+<para>The block of code above implements the calculation of the rate of strain tensor for the SPH elements that are in contact, which is used to calculate the turbulent viscosity values in the following steps. The rate of strain tensor, <computeroutput>d_shear</computeroutput>, is calculated according to the equation available in section 2.4 of the SPH Technical Manual.</para>
+<para><programlisting><codeline><highlight class="normal">115<sp/>ROCKY_PLUGIN_PRE_FORCE_ON_SPH_ELEMENTS(device_model,<sp/>sph_model,<sp/>sph_element,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">116<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">117<sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;Data*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">118</highlight></codeline>
+<codeline><highlight class="normal">119<sp/>//<sp/>Calculating<sp/>turbulence<sp/>coefficient</highlight></codeline>
+<codeline><highlight class="normal">120<sp/>float<sp/>coeff<sp/>=<sp/>data-&gt;les_smagorinsky_constant<sp/>*<sp/>data-&gt;les_distance_factor</highlight></codeline>
+<codeline><highlight class="normal">121<sp/> <sp/> <sp/>*<sp/>sph_model.get_initial_element_spacing();</highlight></codeline>
+<codeline><highlight class="normal">122<sp/>coeff<sp/>*=<sp/>coeff;</highlight></codeline>
+<codeline><highlight class="normal">123<sp/>coeff<sp/>*=<sp/>sph_model.get_fluid_density();</highlight></codeline>
+<codeline><highlight class="normal">124</highlight></codeline>
+<codeline><highlight class="normal">125<sp/>//<sp/>Updating<sp/>element<sp/>turbulent<sp/>viscosity</highlight></codeline>
+<codeline><highlight class="normal">126<sp/>auto<sp/>element_scalars<sp/>=<sp/>sph_element.get_scalars();</highlight></codeline>
+<codeline><highlight class="normal">127<sp/>element_scalars.set_scalar(</highlight></codeline>
+<codeline><highlight class="normal">128<sp/> <sp/> <sp/>data-&gt;turbulent_viscosity_index,</highlight></codeline>
+<codeline><highlight class="normal">129<sp/> <sp/> <sp/>coeff<sp/>*<sp/>sqrt(2.0f<sp/>*<sp/>element_scalars.get_scalar(data-&gt;turbulent_viscosity_index)));</highlight></codeline>
+<codeline><highlight class="normal">130<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">131<sp/>ROCKY_PLUGIN_PRE_FORCE_ON_SPH_ELEMENTS_END()</highlight></codeline>
+</programlisting></para>
+<para>The block of code above implements the turbulence viscosity calculation, including the rate of strain tensor previously calculated and considering the Smagorinsky constant, the LES distance factor parameter and the initial SPH elements spacing. It represents exactly the same equation for the turbulent viscosty term calculation used in the LES model and available in section 2.3 of the SPH Technical Manual.</para>
+<para><programlisting><codeline><highlight class="normal">115<sp/>ROCKY_PLUGIN_FORCE_ON_SPH_ELEMENT_INTERACTIONS(</highlight></codeline>
+<codeline><highlight class="normal">116<sp/> <sp/> <sp/>rocky_model,<sp/>sph_model,<sp/>sph_interaction,<sp/>_data)</highlight></codeline>
+<codeline><highlight class="normal">117<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">118<sp/> <sp/> <sp/>const<sp/>float<sp/>mass<sp/>=<sp/>sph_model.get_mass();</highlight></codeline>
+<codeline><highlight class="normal">119<sp/> <sp/> <sp/>auto<sp/>data<sp/>=<sp/>static_cast&lt;Data*&gt;(_data);</highlight></codeline>
+<codeline><highlight class="normal">120</highlight></codeline>
+<codeline><highlight class="normal">121<sp/> <sp/> <sp/>//<sp/>Interacting<sp/>elements</highlight></codeline>
+<codeline><highlight class="normal">122<sp/> <sp/> <sp/>auto<sp/>home_element<sp/>=<sp/>sph_interaction.get_home_element();</highlight></codeline>
+<codeline><highlight class="normal">123<sp/> <sp/> <sp/>auto<sp/>near_element<sp/>=<sp/>sph_interaction.get_near_element();</highlight></codeline>
+<codeline><highlight class="normal">124<sp/> <sp/> <sp/>auto<sp/>home_scalars<sp/>=<sp/>home_element.get_scalars();</highlight></codeline>
+<codeline><highlight class="normal">125<sp/> <sp/> <sp/>auto<sp/>near_scalars<sp/>=<sp/>near_element.get_scalars();</highlight></codeline>
+<codeline><highlight class="normal">126</highlight></codeline>
+<codeline><highlight class="normal">127<sp/> <sp/> <sp/>//<sp/>Distance<sp/>&amp;<sp/>relative<sp/>velocity<sp/>between<sp/>interacting<sp/>elements</highlight></codeline>
+<codeline><highlight class="normal">128<sp/> <sp/> <sp/>const<sp/>float3<sp/>d_diff<sp/>=<sp/>sph_interaction.calculate_elements_distance();</highlight></codeline>
+<codeline><highlight class="normal">129<sp/> <sp/> <sp/>const<sp/>float3<sp/>v_diff<sp/>=<sp/>sph_interaction.calculate_elements_relative_velocity();</highlight></codeline>
+<codeline><highlight class="normal">130<sp/> <sp/> <sp/>float<sp/>dd<sp/>=<sp/>get_norm(d_diff);</highlight></codeline>
+<codeline><highlight class="normal">131<sp/> <sp/> <sp/>const<sp/>float<sp/>kernel_derivative<sp/>=<sp/>sph_model.get_kernel_derivative(dd);</highlight></codeline>
+<codeline><highlight class="normal">132</highlight></codeline>
+<codeline><highlight class="normal">133<sp/> <sp/> <sp/>//<sp/>Pressures<sp/>to<sp/>density<sp/>ratio</highlight></codeline>
+<codeline><highlight class="normal">134<sp/> <sp/> <sp/>const<sp/>float<sp/>home_density<sp/>=<sp/>home_element.get_density();</highlight></codeline>
+<codeline><highlight class="normal">135<sp/> <sp/> <sp/>const<sp/>float<sp/>near_density<sp/>=<sp/>near_element.get_density();</highlight></codeline>
+<codeline><highlight class="normal">136<sp/> <sp/> <sp/>const<sp/>float<sp/>home_pres_dens<sp/>=<sp/>home_element.get_pressure()<sp/>/<sp/>(home_density<sp/>*<sp/>home_density);</highlight></codeline>
+<codeline><highlight class="normal">137<sp/> <sp/> <sp/>const<sp/>float<sp/>near_pres_dens<sp/>=<sp/>near_element.get_pressure()<sp/>/<sp/>(near_density<sp/>*<sp/>near_density);</highlight></codeline>
+<codeline><highlight class="normal">138</highlight></codeline>
+<codeline><highlight class="normal">139<sp/> <sp/> <sp/>//<sp/>Acceleration<sp/>due<sp/>to<sp/>pressure<sp/>forces</highlight></codeline>
+<codeline><highlight class="normal">140<sp/> <sp/> <sp/>float<sp/>acc<sp/>=<sp/>kernel_derivative<sp/>*<sp/>mass<sp/>*<sp/>(home_pres_dens<sp/>+<sp/>near_pres_dens);</highlight></codeline>
+<codeline><highlight class="normal">141</highlight></codeline>
+<codeline><highlight class="normal">142<sp/> <sp/> <sp/>dd<sp/>=<sp/>max(dd,<sp/>sph_model.get_minimum_distance());</highlight></codeline>
+<codeline><highlight class="normal">143<sp/> <sp/> <sp/>float3<sp/>acceleration<sp/>=<sp/>-acc<sp/>*<sp/>d_diff<sp/>/<sp/>dd;</highlight></codeline>
+<codeline><highlight class="normal">144</highlight></codeline>
+<codeline><highlight class="normal">145<sp/> <sp/> <sp/>//<sp/>Viscous<sp/>terms<sp/>+<sp/>LES<sp/>turbulent<sp/>model</highlight></codeline>
+<codeline><highlight class="normal">146<sp/> <sp/> <sp/>float<sp/>home_viscosity<sp/>=<sp/>sph_model.get_fluid_viscosity();</highlight></codeline>
+<codeline><highlight class="normal">147<sp/> <sp/> <sp/>float<sp/>near_viscosity<sp/>=<sp/>sph_model.get_fluid_viscosity();</highlight></codeline>
+<codeline><highlight class="normal">148<sp/> <sp/> <sp/>if<sp/>(!home_element.is_dem_coupled()<sp/>&amp;&amp;<sp/>!near_element.is_dem_coupled())</highlight></codeline>
+<codeline><highlight class="normal">149<sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">150<sp/> <sp/> <sp/> <sp/> <sp/>home_viscosity<sp/>+=<sp/>home_scalars.get_scalar(data-&gt;turbulent_viscosity_index);</highlight></codeline>
+<codeline><highlight class="normal">151<sp/> <sp/> <sp/> <sp/> <sp/>near_viscosity<sp/>+=<sp/>near_scalars.get_scalar(data-&gt;turbulent_viscosity_index);</highlight></codeline>
+<codeline><highlight class="normal">152<sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">153</highlight></codeline>
+<codeline><highlight class="normal">154<sp/> <sp/> <sp/>/*<sp/>Morris<sp/>et<sp/>al.<sp/>(1997)<sp/>approximation<sp/>for<sp/>the<sp/>viscous<sp/>term<sp/>*/</highlight></codeline>
+<codeline><highlight class="normal">155<sp/> <sp/> <sp/>float<sp/>viscosity_coefficient<sp/>=<sp/>mass<sp/>*<sp/>(home_viscosity<sp/>+<sp/>near_viscosity)<sp/>*<sp/>kernel_derivative</highlight></codeline>
+<codeline><highlight class="normal">156<sp/> <sp/> <sp/> <sp/> <sp/>/<sp/>(home_density<sp/>*<sp/>near_density)<sp/>/<sp/>dd;</highlight></codeline>
+<codeline><highlight class="normal">157<sp/> <sp/> <sp/>acceleration<sp/>+=<sp/>viscosity_coefficient<sp/>*<sp/>v_diff;</highlight></codeline>
+<codeline><highlight class="normal">158</highlight></codeline>
+<codeline><highlight class="normal">159<sp/> <sp/> <sp/>//<sp/>Setting<sp/>accelerations</highlight></codeline>
+<codeline><highlight class="normal">160<sp/> <sp/> <sp/>sph_interaction.add_acceleration(acceleration);</highlight></codeline>
+<codeline><highlight class="normal">161<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">162<sp/>ROCKY_PLUGIN_FORCE_ON_SPH_ELEMENT_INTERACTIONS_END()</highlight></codeline>
+</programlisting></para>
+<para>The block of code above implements the LES turbulence SPH force model. The elements accelerations due to pressure and viscous forces are calculated, regarding Morris formulation for the laminar viscosity available in section 2.3.3.1 of the SPH Technical Manual. Bear in mind that this hook overrides all internal force calculations. Thus, the pressure forces are calculated besides the viscous ones, which are the only affected by the turbulent viscosity previously calculated.</para>
+<para><programlisting><codeline><highlight class="normal">115<sp/>ROCKY_PLUGIN_FORCE_ON_SPH_TRIANGLE_INTERACTIONS(</highlight></codeline>
+<codeline><highlight class="normal">116<sp/> <sp/> <sp/>rocky_model,<sp/>sph_model,<sp/>sph_interaction,<sp/>data)</highlight></codeline>
+<codeline><highlight class="normal">117<sp/>{</highlight></codeline>
+<codeline><highlight class="normal">118<sp/> <sp/> <sp/>auto<sp/>home_element<sp/>=<sp/>sph_interaction.get_home_element();</highlight></codeline>
+<codeline><highlight class="normal">119<sp/> <sp/> <sp/>const<sp/>float<sp/>mass<sp/>=<sp/>sph_model.get_mass();</highlight></codeline>
+<codeline><highlight class="normal">120</highlight></codeline>
+<codeline><highlight class="normal">121<sp/> <sp/> <sp/>/*<sp/>Boundary<sp/>forces<sp/>on<sp/>free<sp/>SPH<sp/>elements<sp/>only</highlight></codeline>
+<codeline><highlight class="normal">122<sp/> <sp/> <sp/> <sp/> <sp/>Viscous<sp/>forces<sp/>are<sp/>not<sp/>considered<sp/>(Free<sp/>Slip<sp/>Boundary)<sp/>*/</highlight></codeline>
+<codeline><highlight class="normal">123</highlight></codeline>
+<codeline><highlight class="normal">124<sp/> <sp/> <sp/>if<sp/>(home_element.is_enabled()<sp/>&amp;&amp;<sp/>!home_element.is_dem_coupled())</highlight></codeline>
+<codeline><highlight class="normal">125<sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">126<sp/> <sp/> <sp/> <sp/> <sp/>//<sp/>Interaction<sp/>distance<sp/>and<sp/>velocity</highlight></codeline>
+<codeline><highlight class="normal">127<sp/> <sp/> <sp/> <sp/> <sp/>const<sp/>float<sp/>distance<sp/>=<sp/>sph_interaction.get_distance_to_home();</highlight></codeline>
+<codeline><highlight class="normal">128<sp/> <sp/> <sp/> <sp/> <sp/>const<sp/>float3<sp/>unit_vector<sp/>=<sp/>sph_interaction.get_unit_vector();</highlight></codeline>
+<codeline><highlight class="normal">129<sp/> <sp/> <sp/> <sp/> <sp/>const<sp/>auto<sp/>boundary_velocity<sp/>=<sp/>sph_interaction.get_boundary_velocity();</highlight></codeline>
+<codeline><highlight class="normal">130</highlight></codeline>
+<codeline><highlight class="normal">131<sp/> <sp/> <sp/> <sp/> <sp/>//<sp/>Normal<sp/>Acceleration</highlight></codeline>
+<codeline><highlight class="normal">132<sp/> <sp/> <sp/> <sp/> <sp/>float<sp/>force<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline><highlight class="normal">133<sp/> <sp/> <sp/> <sp/> <sp/>float<sp/>dd<sp/>=<sp/>sph_model.get_boundary_distance_normal_factor()</highlight></codeline>
+<codeline><highlight class="normal">134<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>*<sp/>sph_model.get_initial_element_spacing()<sp/>-<sp/>distance;</highlight></codeline>
+<codeline><highlight class="normal">135<sp/> <sp/> <sp/> <sp/> <sp/>float<sp/>vnorm<sp/>=<sp/>0.0f;</highlight></codeline>
+<codeline><highlight class="normal">136<sp/> <sp/> <sp/> <sp/> <sp/>const<sp/>float3<sp/>home_velocity<sp/>=<sp/>sph_interaction.get_home_element_velocity();</highlight></codeline>
+<codeline><highlight class="normal">137<sp/> <sp/> <sp/> <sp/> <sp/>if<sp/>(dd<sp/>&gt;<sp/>0.0f)</highlight></codeline>
+<codeline><highlight class="normal">138<sp/> <sp/> <sp/> <sp/> <sp/>{</highlight></codeline>
+<codeline><highlight class="normal">139<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>//<sp/>Elastic<sp/>part</highlight></codeline>
+<codeline><highlight class="normal">140<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>force<sp/>+=<sp/>sph_model.get_stiffness()<sp/>*<sp/>dd;</highlight></codeline>
+<codeline><highlight class="normal">141</highlight></codeline>
+<codeline><highlight class="normal">142<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>//<sp/>Dissipation</highlight></codeline>
+<codeline><highlight class="normal">143<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>vnorm<sp/>=<sp/>dot(unit_vector,<sp/>home_velocity<sp/>-<sp/>boundary_velocity);</highlight></codeline>
+<codeline><highlight class="normal">144<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>force<sp/>-=<sp/>sph_model.get_damping_coefficient()<sp/>*<sp/>vnorm;</highlight></codeline>
+<codeline><highlight class="normal">145<sp/> <sp/> <sp/> <sp/> <sp/> <sp/> <sp/>force<sp/>=<sp/>max(0.0f,<sp/>force);</highlight></codeline>
+<codeline><highlight class="normal">146<sp/> <sp/> <sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">147</highlight></codeline>
+<codeline><highlight class="normal">148<sp/> <sp/> <sp/> <sp/> <sp/>//<sp/>Setting<sp/>forces</highlight></codeline>
+<codeline><highlight class="normal">149<sp/> <sp/> <sp/> <sp/> <sp/>sph_interaction.add_force(force<sp/>*<sp/>unit_vector);</highlight></codeline>
+<codeline><highlight class="normal">150<sp/> <sp/> <sp/>}</highlight></codeline>
+<codeline><highlight class="normal">151<sp/>}</highlight></codeline>
+<codeline><highlight class="normal">152<sp/>ROCKY_PLUGIN_FORCE_ON_SPH_TRIANGLE_INTERACTIONS_END()</highlight></codeline>
+</programlisting></para>
+<para>The block of code above implements the normal boundary forces calculation regarding the free slip boundary condition, that uses the DEM-style interaction between the elements and the boundaries triangles. The normal repulsive forces are calculated for the SPH elements using the spring-dashpot model, with an elastic and a viscous terms, using the equations in section Specification of custom models of the SPH Technical Manual.</para>
+<para><programlisting><codeline><highlight class="normal">115<sp/>ROCKY_PLUGIN_SPH_END()</highlight></codeline>
+<codeline><highlight class="normal">116<sp/>ROCKY_PLUGIN_END</highlight></codeline>
+</programlisting></para>
+<para>After the module is built following the steps given in section Building Procedures, the module will be available to be used in Rocky. When the <computeroutput>SPH LES Turbulence Model</computeroutput> is enabled in a Rocky project, the models of turbulence, viscosity and boundary forces implemented on it will override built-in models in those categories. </para>
+</sect3>
+</sect2>
+    </detaileddescription>
+    <location file="docs/sdk_manual/usage_examples.md"/>
+  </compounddef>
+</doxygen>

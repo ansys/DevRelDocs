@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classIRockyAdhesiveDistanceData" kind="class" language="C++" prot="public">
+    <compoundname>IRockyAdhesiveDistanceData</compoundname>
+    <basecompoundref refid="classIRockyInteractionCalculationsData" prot="public" virt="non-virtual">IRockyInteractionCalculationsData</basecompoundref>
+    <includes refid="rocky__timestep__api_8h" local="no">rocky_timestep_api.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classIRockyAdhesiveDistanceData_1a7d103731c5133db24f461e91e24e2f7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyAdhesiveDistanceData::set_adhesive_distance</definition>
+        <argsstring>(int home_index, int near_index, double adhesive_distance)</argsstring>
+        <name>set_adhesive_distance</name>
+        <qualifiedname>IRockyAdhesiveDistanceData::set_adhesive_distance</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>home_index</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>near_index</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>adhesive_distance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method sets a value of the adhesive distance per material interaction,</title><para>for a custom adhesive force model.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>home_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the first material.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>near_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index of the second material.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>adhesive_distance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value of the adhesive distance just calculated. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_timestep_api.h" line="208" column="10" bodyfile="source/c++/rocky20/api/rocky_timestep_api.cpp" bodystart="168" bodyend="172"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An <computeroutput><ref refid="classIRockyAdhesiveDistanceData" kindref="compound">IRockyAdhesiveDistanceData</ref></computeroutput> object provides data and utility methods needed to estimate and set appropriate values of adhesive distance per material interaction. The adhesive distance defines the upper limit for the activation of an adhesive contact between two particles or between a particle and a geometry. An adhesive contact only can exist when the effective gap distance between two entities is below the adhesive distance value stipulated for the corresponding material interaction. Therefore, no adhesive forces will be computed if that effective gap distance is larger than the specified adhesive distance. If a custom module does not implement a special adhesive distance calculation, Rocky will set the adhesive distances of all material interactions to a fixed value equal to 1 mm.</para>
+<para>The class <computeroutput><ref refid="classIRockyAdhesiveDistanceData" kindref="compound">IRockyAdhesiveDistanceData</ref></computeroutput> inherits all public methods of the class <computeroutput><ref refid="classIRockyInteractionCalculationsData" kindref="compound">IRockyInteractionCalculationsData</ref></computeroutput>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IRockyAdhesiveDistanceData</label>
+        <link refid="classIRockyAdhesiveDistanceData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IRockyInteractionCalculationsData</label>
+        <link refid="classIRockyInteractionCalculationsData"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>IRockyAdhesiveDistanceData</label>
+        <link refid="classIRockyAdhesiveDistanceData"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IRockyInteractionCalculationsData</label>
+        <link refid="classIRockyInteractionCalculationsData"/>
+      </node>
+    </collaborationgraph>
+    <location file="source/c++/rocky20/api/rocky_timestep_api.h" line="189" column="1" bodyfile="source/c++/rocky20/api/rocky_timestep_api.h" bodystart="190" bodyend="210"/>
+    <listofallmembers>
+      <member refid="classIRockyInteractionCalculationsData_1a05cb28a940233bc976b806a5893c639c" prot="public" virt="non-virtual"><scope>IRockyAdhesiveDistanceData</scope><name>get_geometry_material_index</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1a609eb08b9a568e07c35953bd616d9551" prot="public" virt="non-virtual"><scope>IRockyAdhesiveDistanceData</scope><name>get_material</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1aeb94fd8ed1f75bd0523634285ad94e4d" prot="public" virt="non-virtual"><scope>IRockyAdhesiveDistanceData</scope><name>get_material_interaction</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1a1cf7ad2b906aa2f033494b390522bbb3" prot="public" virt="non-virtual"><scope>IRockyAdhesiveDistanceData</scope><name>get_material_interaction_index</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1a986da6321cca08d20d20dbd43962a74a" prot="public" virt="non-virtual"><scope>IRockyAdhesiveDistanceData</scope><name>get_number_geometry_materials</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1ab5fb8e3d498bfc78f116eec7b53b22b8" prot="public" virt="non-virtual"><scope>IRockyAdhesiveDistanceData</scope><name>get_number_particle_groups</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1a700a3993ce6c50786c1323e0b91a7c3a" prot="public" virt="non-virtual"><scope>IRockyAdhesiveDistanceData</scope><name>get_particle_material_index</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1ac12016128279790932537b32c1c7410d" prot="public" virt="non-virtual"><scope>IRockyAdhesiveDistanceData</scope><name>get_particle_max_sieve_size</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1a641adbab81c6c430aa1b0eae6eff29f4" prot="public" virt="non-virtual"><scope>IRockyAdhesiveDistanceData</scope><name>get_particle_min_mass</name></member>
+      <member refid="classIRockyInteractionCalculationsData_1a1ce09b00f677c903a2d25426f8447300" prot="public" virt="non-virtual"><scope>IRockyAdhesiveDistanceData</scope><name>get_particle_min_sieve_size</name></member>
+      <member refid="classIRockyAdhesiveDistanceData_1a7d103731c5133db24f461e91e24e2f7a" prot="public" virt="non-virtual"><scope>IRockyAdhesiveDistanceData</scope><name>set_adhesive_distance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

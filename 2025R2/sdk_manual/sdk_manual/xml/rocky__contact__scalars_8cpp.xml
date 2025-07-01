@@ -1,0 +1,530 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="rocky__contact__scalars_8cpp" kind="file" language="C++">
+    <compoundname>rocky_contact_scalars.cpp</compoundname>
+    <includes refid="rocky__api_8h" local="yes">rocky_api.h</includes>
+    <includes refid="rocky__contact__scalars_8hpp" local="yes">rocky_contact_scalars.hpp</includes>
+    <incdepgraph>
+      <node id="8">
+        <label>rocky20/api/device/api_backend.hpp</label>
+        <link refid="api__backend_8hpp_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>rocky20/api/device/api_device_contacts.hpp</label>
+        <link refid="api__device__contacts_8hpp_source"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>rocky20/api/device/api_omp_contacts.hpp</label>
+        <link refid="api__omp__contacts_8hpp_source"/>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>dll_export.h</label>
+        <link refid="dll__export_8h_source"/>
+      </node>
+      <node id="2">
+        <label>rocky_api.h</label>
+        <link refid="rocky__api_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>rocky_api_contact_functions.h</label>
+        <link refid="rocky__api__contact__functions_8h_source"/>
+      </node>
+      <node id="51">
+        <label>rocky_api_functions.h</label>
+        <link refid="rocky__api__functions_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>rocky20/api/rocky_boundary.hpp</label>
+        <link refid="rocky__boundary_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>rocky20/api/rocky_boundary_api.hpp</label>
+        <link refid="rocky__boundary__api_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>rocky20/api/rocky_boundary_scalars.hpp</label>
+        <link refid="rocky__boundary__scalars_8hpp_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>rocky20/api/rocky_contact.hpp</label>
+        <link refid="rocky__contact_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>rocky_contact_api.hpp</label>
+        <link refid="rocky__contact__api_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>rocky_contact_data_recorder_api.h</label>
+        <link refid="rocky__contact__data__recorder__api_8h_source"/>
+        <childnode refid="50" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>source/c++/rocky20/api/rocky_contact_scalars.cpp</label>
+        <link refid="rocky__contact__scalars_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>rocky20/api/rocky_contact_scalars.hpp</label>
+        <link refid="rocky__contact__scalars_8hpp_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>rocky_fluid_scalars.hpp</label>
+        <link refid="rocky__fluid__scalars_8hpp_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>rocky_joint_api.hpp</label>
+        <link refid="rocky__joint__api_8hpp_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>rocky_joint_scalars.hpp</label>
+        <link refid="rocky__joint__scalars_8hpp_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>rocky20/api/rocky_material_api.hpp</label>
+        <link refid="rocky__material__api_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>rocky_model.hpp</label>
+        <link refid="rocky__model_8hpp_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>rocky_model_api.hpp</label>
+        <link refid="rocky__model__api_8hpp_source"/>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>rocky_output_collections_api.hpp</label>
+        <link refid="rocky__output__collections__api_8hpp_source"/>
+        <childnode refid="41" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>rocky_output_properties.h</label>
+        <link refid="rocky__output__properties_8h_source"/>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>rocky20/api/rocky_pair_scalars.hpp</label>
+        <link refid="rocky__pair__scalars_8hpp_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>rocky_particle.hpp</label>
+        <link refid="rocky__particle_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>rocky20/api/rocky_particle_api.hpp</label>
+        <link refid="rocky__particle__api_8hpp_source"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>rocky20/api/rocky_particle_scalars.hpp</label>
+        <link refid="rocky__particle__scalars_8hpp_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>rocky_plugin_data.h</label>
+        <link refid="rocky__plugin__data_8h_source"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>rocky_point_cloud.h</label>
+        <link refid="rocky__point__cloud_8h_source"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>rocky20/api/rocky_point_cloud_api.hpp</label>
+        <link refid="rocky__point__cloud__api_8hpp_source"/>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>rocky_scalars.h</label>
+        <link refid="rocky__scalars_8h_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>rocky20/api/rocky_statistics_data.hpp</label>
+        <link refid="rocky__statistics__data_8hpp_source"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>rocky_time_curve_data.hpp</label>
+        <link refid="rocky__time__curve__data_8hpp_source"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>rocky_timestep_api.h</label>
+        <link refid="rocky__timestep__api_8h_source"/>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="44" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>rocky_triangle_scalars.hpp</label>
+        <link refid="rocky__triangle__scalars_8hpp_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>memory</label>
+      </node>
+      <node id="42">
+        <label>rocky20/addins/rocky_addin.h</label>
+      </node>
+      <node id="46">
+        <label>rocky20/core/utils/rocky_exception.hpp</label>
+      </node>
+      <node id="18">
+        <label>rocky20/core/utils/rocky_math.hpp</label>
+      </node>
+      <node id="9">
+        <label>rocky20/cuda/cuda_basics.hpp</label>
+      </node>
+      <node id="25">
+        <label>rocky20/device/device_contact.hpp</label>
+      </node>
+      <node id="55">
+        <label>rocky20/device/device_forces.hpp</label>
+      </node>
+      <node id="28">
+        <label>rocky20/device/device_joint_api.hpp</label>
+      </node>
+      <node id="6">
+        <label>rocky20/device/device_model.hpp</label>
+      </node>
+      <node id="19">
+        <label>rocky20/device/device_triangles.hpp</label>
+      </node>
+      <node id="24">
+        <label>rocky20/device/element_properties.hpp</label>
+      </node>
+      <node id="10">
+        <label>rocky20/device/omp_backend.hpp</label>
+      </node>
+      <node id="50">
+        <label>rocky20/model/data_recorders.h</label>
+      </node>
+      <node id="34">
+        <label>rocky20/model/point_cloud.h</label>
+      </node>
+      <node id="45">
+        <label>rocky20/model/rocky_enums.h</label>
+      </node>
+      <node id="14">
+        <label>rocky20/model/rocky_model.h</label>
+      </node>
+      <node id="47">
+        <label>rocky20/model/scalars.h</label>
+      </node>
+      <node id="16">
+        <label>rocky20/model/statistics_data.hpp</label>
+      </node>
+      <node id="39">
+        <label>string</label>
+      </node>
+      <node id="44">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>(C)<sp/>2024<sp/>ANSYS,<sp/>Inc.<sp/>Unauthorized<sp/>use,<sp/>distribution,<sp/>or<sp/>duplication<sp/>is<sp/>prohibited.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Includes<sp/>========================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;rocky_api.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;rocky_contact_scalars.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IRockyContactScalarsModel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">IRockyContactScalarsModel::IRockyContactScalarsModel(</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>RockyModel*<sp/>solver_model,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>is_particle_contact)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/>ScalarsModel&lt;rocky20::BaseContactScalarsController&gt;(</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>solver_model-&gt;contact_scalars_controller.get_current_base_controller(</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>is_particle_contact<sp/>?<sp/>rocky20::cstParticleParticle<sp/>:<sp/>rocky20::cstParticleTriangle),</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>solver_model-&gt;gpu_device_ids)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>_model(solver_model)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>,<sp/>_is_particle_contact(is_particle_contact)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structIRockyContactScalarsModel_1a00693cfaa879794cda713e943549644f" kindref="member">IRockyContactScalarsModel::add</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*_name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*_unit,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>_output)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>indexes<sp/>=<sp/>this-&gt;_model-&gt;contact_scalars_controller.add_scalars&lt;</highlight><highlight class="keywordtype">double</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_name,<sp/>_unit,<sp/>this-&gt;_is_particle_contact,<sp/>!this-&gt;_is_particle_contact,<sp/>_output);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(this-&gt;_is_particle_contact)<sp/>?<sp/>indexes.first<sp/>:<sp/>indexes.second;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyContactScalarsModel_1afd6b2a12584b9aca0884eef45b372e1c" kindref="member">IRockyContactScalarsModel::enable_variable_dynamic_friction_coefficient</ref>()</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_model-&gt;contact_scalars_controller.enable_scalars(</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rocky20::KnownContactScalars::DynamicFrictionCoefficient,</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;_is_particle_contact,</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>!this-&gt;_is_particle_contact);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyContactScalarsModel_1a3a8d067f500bb3b7d39f1cb96f993f78" kindref="member">IRockyContactScalarsModel::enable_variable_static_friction_coefficient</ref>()</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_model-&gt;contact_scalars_controller.enable_scalars(</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rocky20::KnownContactScalars::StaticFrictionCoefficient,</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;_is_particle_contact,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>!this-&gt;_is_particle_contact);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyContactScalarsModel_1a7c098d6a1bb42017f323521a267459bd" kindref="member">IRockyContactScalarsModel::enable_variable_restitution_coefficient</ref>()</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_model-&gt;contact_scalars_controller.enable_restitution_coefficient(</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;_is_particle_contact,<sp/>!this-&gt;_is_particle_contact);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyContactScalarsModel_1a8e8fb75a47341a734ee04707a58f658f" kindref="member">IRockyContactScalarsModel::enable_storage_sliding_distance</ref>()</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_model-&gt;contact_scalars_controller.enable_scalars(KnownContactScalars::SlidingDistance,<sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;_is_particle_contact,<sp/>!this-&gt;_is_particle_contact);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyContactScalarsModel_1a2a383fbe3de38c7aab855c0b775a293b" kindref="member">IRockyContactScalarsModel::enable_storage_is_sliding_marker</ref>()</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_model-&gt;contact_scalars_controller.enable_scalars(KnownContactScalars::IsSliding,</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;_is_particle_contact,<sp/>!this-&gt;_is_particle_contact);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyContactScalarsModel_1a5a65f842ce3bea36ee46b346a2741911" kindref="member">IRockyContactScalarsModel::enable_storage_tangential_contact_force</ref>()</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_model-&gt;contact_scalars_controller.enable_scalars(KnownContactScalars::TangentialForceVector,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;_is_particle_contact,<sp/>!this-&gt;_is_particle_contact);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyContactScalarsModel_1a30a72264168db13de798df7cdff440c5" kindref="member">IRockyContactScalarsModel::enable_storage_normal_relative_velocity</ref>()</highlight></codeline>
+<codeline lineno="70"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_model-&gt;contact_scalars_controller.enable_scalars(KnownContactScalars::NormalRelativeVelocity,</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;_is_particle_contact,<sp/>!this-&gt;_is_particle_contact);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyContactScalarsModel_1ad8ba6db25bce594fbb62b415b0634a95" kindref="member">IRockyContactScalarsModel::enable_storage_tangential_relative_velocity</ref>()</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_model-&gt;contact_scalars_controller.enable_scalars(KnownContactScalars::TangentialRelativeVelocity,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;_is_particle_contact,<sp/>!this-&gt;_is_particle_contact);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyContactScalarsModel_1a0b773628077520e21f189ab64b8b1e69" kindref="member">IRockyContactScalarsModel::enable_storage_normal_adhesion_force</ref>()</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_model-&gt;contact_scalars_controller.enable_scalars(KnownContactScalars::NormalAdhesionForce,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;_is_particle_contact,<sp/>!this-&gt;_is_particle_contact);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyContactScalarsModel_1ab390c75dee689878d04d1db89be3fb95" kindref="member">IRockyContactScalarsModel::enable_storage_tangential_adhesion_force</ref>()</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_model-&gt;contact_scalars_controller.enable_scalars(KnownContactScalars::TangentialAdhesionForce,</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;_is_particle_contact,<sp/>!this-&gt;_is_particle_contact);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyContactScalarsModel_1a36a468305e9a49ba36de61846260c1f1" kindref="member">IRockyContactScalarsModel::enable_storage_previous_normal_vector</ref>()</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_model-&gt;contact_scalars_controller.enable_scalars(</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rocky20::KnownContactScalars::PreviousNormalVector,</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;_is_particle_contact,</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>!this-&gt;_is_particle_contact</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyContactScalarsModel_1ab2927b1c13fc4325a5bd28ba97e15230" kindref="member">IRockyContactScalarsModel::enable_previous_moment_vector</ref>()</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_model-&gt;contact_scalars_controller.enable_scalars(</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rocky20::KnownContactScalars::PreviousMomentVector,</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;_is_particle_contact,</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>!this-&gt;_is_particle_contact</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyContactScalarsModel_1a29e181ff7eef3349c42038e6b7f9541a" kindref="member">IRockyContactScalarsModel::mark_scalar_as_history_dependent</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(this-&gt;_is_particle_contact)</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;_model-&gt;contact_scalars_controller.mark_scalar_as_invertible(scalar_index);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ROCKY_RUNTIME_ERROR(</highlight><highlight class="stringliteral">&quot;Only<sp/>particle-particle<sp/>contact<sp/>scalars<sp/>of<sp/>type<sp/>double3<sp/>can<sp/>be<sp/>marked<sp/>as<sp/>history-dependent&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="source/c++/rocky20/api/rocky_contact_scalars.cpp"/>
+  </compounddef>
+</doxygen>

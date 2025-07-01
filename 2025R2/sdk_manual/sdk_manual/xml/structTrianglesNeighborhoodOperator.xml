@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structTrianglesNeighborhoodOperator" kind="struct" language="C++" prot="public">
+    <compoundname>TrianglesNeighborhoodOperator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseNeighborhoodOperator</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename Callable</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structTrianglesNeighborhoodOperator_1a095dbbb0148bbba3046cae3165bb94c9" prot="public" static="no" mutable="no">
+        <type>Callable &amp;</type>
+        <definition>Callable&amp; TrianglesNeighborhoodOperator&lt; Callable &gt;::kernel</definition>
+        <argsstring></argsstring>
+        <name>kernel</name>
+        <qualifiedname>TrianglesNeighborhoodOperator::kernel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_vicinity.hpp" line="58" column="14" bodyfile="source/c++/rocky20/api/device/api_device_vicinity.hpp" bodystart="58" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structTrianglesNeighborhoodOperator_1a0ef318ed71b18708932a4e0dd1461b75" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS size_t</type>
+        <definition>ROCKY_FUNCTIONS size_t TrianglesNeighborhoodOperator&lt; Callable &gt;::get_home_count</definition>
+        <argsstring>() const</argsstring>
+        <name>get_home_count</name>
+        <qualifiedname>TrianglesNeighborhoodOperator::get_home_count</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_vicinity.hpp" line="60" column="35" bodyfile="source/c++/rocky20/api/device/api_device_vicinity.hpp" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="structTrianglesNeighborhoodOperator_1aa15bf493d7f4292ce603e0480fc0767a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double3</type>
+        <definition>ROCKY_FUNCTIONS double3 TrianglesNeighborhoodOperator&lt; Callable &gt;::get_home_centroid</definition>
+        <argsstring>(size_t id) const</argsstring>
+        <name>get_home_centroid</name>
+        <qualifiedname>TrianglesNeighborhoodOperator::get_home_centroid</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_vicinity.hpp" line="64" column="36" bodyfile="source/c++/rocky20/api/device/api_device_vicinity.hpp" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="structTrianglesNeighborhoodOperator_1a22467c1703841d2539cf657210bcd2d0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS bool</type>
+        <definition>ROCKY_FUNCTIONS bool TrianglesNeighborhoodOperator&lt; Callable &gt;::is_valid</definition>
+        <argsstring>(size_t home_id, size_t near_id, bool different_cells) const</argsstring>
+        <name>is_valid</name>
+        <qualifiedname>TrianglesNeighborhoodOperator::is_valid</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>home_id</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>near_id</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>different_cells</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_vicinity.hpp" line="68" column="33" bodyfile="source/c++/rocky20/api/device/api_device_vicinity.hpp" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="structTrianglesNeighborhoodOperator_1a5703c9107517e1681d96118da7192614" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void TrianglesNeighborhoodOperator&lt; Callable &gt;::operate</definition>
+        <argsstring>(size_t home_id, size_t near_id)</argsstring>
+        <name>operate</name>
+        <qualifiedname>TrianglesNeighborhoodOperator::operate</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>home_id</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>near_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_vicinity.hpp" line="72" column="33" bodyfile="source/c++/rocky20/api/device/api_device_vicinity.hpp" bodystart="72" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/device/api_device_vicinity.hpp" line="56" column="1" bodyfile="source/c++/rocky20/api/device/api_device_vicinity.hpp" bodystart="57" bodyend="78"/>
+    <listofallmembers>
+      <member refid="structBaseNeighborhoodOperator_1a9ffcc7773dd34e11297e87b27c6ec558" prot="public" virt="non-virtual"><scope>TrianglesNeighborhoodOperator</scope><name>current_time</name></member>
+      <member refid="structBaseNeighborhoodOperator_1a5cb40322d36423e2beb60e0a69914e0e" prot="public" virt="non-virtual"><scope>TrianglesNeighborhoodOperator</scope><name>device_id</name></member>
+      <member refid="structBaseNeighborhoodOperator_1a3d956e1177ccdaebf755c2863e806768" prot="public" virt="non-virtual"><scope>TrianglesNeighborhoodOperator</scope><name>device_model</name></member>
+      <member refid="structTrianglesNeighborhoodOperator_1aa15bf493d7f4292ce603e0480fc0767a" prot="public" virt="non-virtual"><scope>TrianglesNeighborhoodOperator</scope><name>get_home_centroid</name></member>
+      <member refid="structTrianglesNeighborhoodOperator_1a0ef318ed71b18708932a4e0dd1461b75" prot="public" virt="non-virtual"><scope>TrianglesNeighborhoodOperator</scope><name>get_home_count</name></member>
+      <member refid="structBaseNeighborhoodOperator_1aafe0d7609dc541ed59ad3df4b79413a5" prot="public" virt="non-virtual"><scope>TrianglesNeighborhoodOperator</scope><name>get_near_centroid</name></member>
+      <member refid="structBaseNeighborhoodOperator_1a60c9d08a39cecf9a037c835caa872a49" prot="public" virt="non-virtual"><scope>TrianglesNeighborhoodOperator</scope><name>get_near_count</name></member>
+      <member refid="structTrianglesNeighborhoodOperator_1a22467c1703841d2539cf657210bcd2d0" prot="public" virt="non-virtual"><scope>TrianglesNeighborhoodOperator</scope><name>is_valid</name></member>
+      <member refid="structTrianglesNeighborhoodOperator_1a095dbbb0148bbba3046cae3165bb94c9" prot="public" virt="non-virtual"><scope>TrianglesNeighborhoodOperator</scope><name>kernel</name></member>
+      <member refid="structBaseNeighborhoodOperator_1a06967583fa987fb3f70d4f4f8001b65f" prot="public" virt="non-virtual"><scope>TrianglesNeighborhoodOperator</scope><name>n_total_particles</name></member>
+      <member refid="structTrianglesNeighborhoodOperator_1a5703c9107517e1681d96118da7192614" prot="public" virt="non-virtual"><scope>TrianglesNeighborhoodOperator</scope><name>operate</name></member>
+      <member refid="structBaseNeighborhoodOperator_1a21fa4a66d457168206bbb70a0ab67828" prot="public" virt="non-virtual"><scope>TrianglesNeighborhoodOperator</scope><name>user_data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

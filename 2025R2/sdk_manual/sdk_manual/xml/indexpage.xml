@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>Introduction</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="index_1introduction"/> The Rocky Solver SDK enables the development of custom modules for Rocky. A Rocky <ref refid="glossary_1module" kindref="member">module</ref> is a compiled library that attaches to the Rocky solver at strategic points during the simulation, allowing execution of custom code. For example, Rocky modules enable users to:</para>
+<para><itemizedlist>
+<listitem><para>Apply custom models to some simulated entities.</para>
+</listitem><listitem><para>Collect custom statistics during the simulation.</para>
+</listitem><listitem><para>Create custom post-processing data.</para>
+</listitem></itemizedlist>
+</para>
+<para>The Rocky Solver SDK comprises:</para>
+<para><itemizedlist>
+<listitem><para>Runtime libraries for binding to Rocky simulations at strategic moments.</para>
+</listitem><listitem><para>C++ header files that export types and macros related to the simulation state.</para>
+</listitem><listitem><para>Mechanisms to ease compilation of Rocky modules. </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="docs/sdk_manual/introduction.md"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockyJointScalarsModel" kind="struct" language="C++" prot="public">
+    <compoundname>IRockyJointScalarsModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScalarsModel&lt; rocky20::JointScalarsController &gt;</basecompoundref>
+    <includes refid="rocky__joint__scalars_8hpp" local="no">rocky_joint_scalars.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockyJointScalarsModel_1ac684ddb11f55d3edbbb5606ea6ea633a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyJointScalarsModel::find</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>find</name>
+        <qualifiedname>IRockyJointScalarsModel::find</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method searches for a scalar variable already created by other modules,</title><para>in order to allow access to its values, or store new values on it, during the execution of the simulation.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name given to the scalar at the moment of its creation.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The index that uniquely identifies the wanted scalar if it was actually found. It returns -1 otherwise.   </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_joint_scalars.hpp" line="30" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyJointScalarsModel_1a31fa0b2b6d8243aa4bc8513edf3c6b0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyJointScalarsModel::add</definition>
+        <argsstring>(const char *name, const char *unit, bool output=true)</argsstring>
+        <name>add</name>
+        <qualifiedname>IRockyJointScalarsModel::add</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>unit</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>output</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a new scalar variable of type <computeroutput>double</computeroutput></title><para>for storing custom values during a simulation, preserving them between time iterations.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name given to the scalar variable. The purpose of this name is twofold. First, it enables to find this scalar variable from other module, in order to share their values. Second, if the scalar variable can be displayed in a 3D window as a property, this name will identify it in the Rocky UI.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string specifying the unit in S.I. associated to the scalar variable.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enables/disables the storage in disk at output times, for the visualization and post-processing of the scalar values.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The index that will uniquely identify the scalar variable during the execution of the simulation.   </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_joint_scalars.hpp" line="33" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyJointScalarsModel_1ad8c7b148adb48869b7d0d7b4ccea6280" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyJointScalarsModel::reset</definition>
+        <argsstring>(int scalar_index)</argsstring>
+        <name>reset</name>
+        <qualifiedname>IRockyJointScalarsModel::reset</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method resets to zero all values stored in a scalar variable.</title><para></para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index attributed to the scalar variable at the moment of its creation.   </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_joint_scalars.hpp" line="36" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyJointScalarsModel_1af5bcf3383dfd931122762e839dd0750b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyJointScalarsModel::set_dimension</definition>
+        <argsstring>(int scalar_index, double dimension_factor)</argsstring>
+        <name>set_dimension</name>
+        <qualifiedname>IRockyJointScalarsModel::set_dimension</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension_factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>The purpose of this method is to associate a dimensional factor</title><para>to a scalar variable. This factor will be used to nondimensionalize their values. For instance, if the scalar represents a force, a force dimensional factor must be associated through this method. Dimensional factors for the fundamental magnitudes are provided by functions of a <computeroutput><ref refid="structIRockyModel" kindref="compound">IRockyModel</ref></computeroutput> object.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index attributed to the scalar variable at the moment of its creation.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dimension_factor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The appropriate dimensional factor for the scalar variable.   </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_joint_scalars.hpp" line="39" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput><ref refid="structIRockyJointScalarsModel" kindref="compound">IRockyJointScalarsModel</ref></computeroutput> allows users to add new joint scalars, find joint scalars created in other modules or activate joint scalars known to Rocky, during the setup phase of a module. Joint scalars are special variables attached to the joints of flexible multi-element particles, which are able to store values per joint that are preserved between time iterations during a simulation. </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_joint_scalars.hpp" line="19" column="1" bodyfile="source/c++/rocky20/api/rocky_joint_scalars.hpp" bodystart="20" bodyend="42"/>
+    <listofallmembers>
+      <member refid="structIRockyJointScalarsModel_1a31fa0b2b6d8243aa4bc8513edf3c6b0c" prot="public" virt="non-virtual"><scope>IRockyJointScalarsModel</scope><name>add</name></member>
+      <member refid="structIRockyJointScalarsModel_1ac684ddb11f55d3edbbb5606ea6ea633a" prot="public" virt="non-virtual"><scope>IRockyJointScalarsModel</scope><name>find</name></member>
+      <member refid="structIRockyJointScalarsModel_1ad8c7b148adb48869b7d0d7b4ccea6280" prot="public" virt="non-virtual"><scope>IRockyJointScalarsModel</scope><name>reset</name></member>
+      <member refid="structIRockyJointScalarsModel_1af5bcf3383dfd931122762e839dd0750b" prot="public" virt="non-virtual"><scope>IRockyJointScalarsModel</scope><name>set_dimension</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structdevice_1_1InvalidOperator" kind="struct" language="C++" prot="public">
+    <compoundname>device::InvalidOperator</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structdevice_1_1InvalidOperator_1af86036df6e1000dbfd4d03f9411537f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>device::InvalidOperator::InvalidOperator</definition>
+        <argsstring>()</argsstring>
+        <name>InvalidOperator</name>
+        <qualifiedname>device::InvalidOperator::InvalidOperator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="129" column="5" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="129" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="structdevice_1_1InvalidOperator_1a4dec4769cea7311f32308a88b3cd4ca0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::InvalidOperator::operator()</definition>
+        <argsstring>(const IRockyParticle &amp;particle, const IRockyCFDProperties &amp;cfd, CFDCouplingOutput &amp;output, void *data)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>device::InvalidOperator::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="structIRockyParticle" kindref="compound">IRockyParticle</ref> &amp;</type>
+          <declname>particle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structIRockyCFDProperties" kindref="compound">IRockyCFDProperties</ref> &amp;</type>
+          <declname>cfd</declname>
+        </param>
+        <param>
+          <type>CFDCouplingOutput &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="137" column="10" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="137" bodyend="138"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="127" column="1" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="128" bodyend="139"/>
+    <listofallmembers>
+      <member refid="structdevice_1_1InvalidOperator_1af86036df6e1000dbfd4d03f9411537f7" prot="public" virt="non-virtual"><scope>device::InvalidOperator</scope><name>InvalidOperator</name></member>
+      <member refid="structdevice_1_1InvalidOperator_1a4dec4769cea7311f32308a88b3cd4ca0" prot="public" virt="non-virtual"><scope>device::InvalidOperator</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

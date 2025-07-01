@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockyTriangleScalars" kind="struct" language="C++" prot="public">
+    <compoundname>IRockyTriangleScalars</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">EntityScalars&lt; rocky20::TriangleScalars &gt;</basecompoundref>
+    <includes refid="rocky__triangle__scalars_8hpp" local="no">rocky_triangle_scalars.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockyTriangleScalars_1a05684b0ee2ad2ea56b3ed0d627d86cfe" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyTriangleScalars::get_thermal_conductivity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_thermal_conductivity</name>
+        <qualifiedname>IRockyTriangleScalars::get_thermal_conductivity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the thermal conductivity of the geometry triangle. The Rocky solver has a built-in triangle scalar that once enabled allow triangles to have associated a variable thermal conductivity, which overrides the constant value specified for the geometry&apos;s material. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_triangle_scalars.hpp" line="168" column="35" bodyfile="source/c++/rocky20/api/rocky_triangle_scalars.hpp" bodystart="168" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyTriangleScalars_1adfb451a883a51e0e52bbb4fb304bdbee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockyTriangleScalars::set_thermal_conductivity</definition>
+        <argsstring>(const double value)</argsstring>
+        <name>set_thermal_conductivity</name>
+        <qualifiedname>IRockyTriangleScalars::set_thermal_conductivity</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method sets the value of the thermal conductivity for the associated geometry</title><para>triangle, if the corresponding built-in triangle scalar was enabled. Otherwise, a segmentation fault will occur.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value of the triangle&apos;s thermal conductivity. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_triangle_scalars.hpp" line="180" column="33" bodyfile="source/c++/rocky20/api/rocky_triangle_scalars.hpp" bodystart="180" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyTriangleScalars_1ac72837182e4220fc58411bad8db38042" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyTriangleScalars::get_poisson_ratio</definition>
+        <argsstring>() const</argsstring>
+        <name>get_poisson_ratio</name>
+        <qualifiedname>IRockyTriangleScalars::get_poisson_ratio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the Poisson&apos;s ratio assigned to the geometry triangle. The Rocky solver has a built-in triangle scalar that once enabled allow triangles to have associated a variable thermal conductivity, which overrides the constant value specified for the geometry&apos;s material. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_triangle_scalars.hpp" line="191" column="35" bodyfile="source/c++/rocky20/api/rocky_triangle_scalars.hpp" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyTriangleScalars_1abc7a467e91fb2232868c27518c92c844" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockyTriangleScalars::set_poisson_ratio</definition>
+        <argsstring>(const double value)</argsstring>
+        <name>set_poisson_ratio</name>
+        <qualifiedname>IRockyTriangleScalars::set_poisson_ratio</qualifiedname>
+        <param>
+          <type>const double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method sets the value of the Poisson&apos;s ratio for the associated geometry</title><para>triangle, if the corresponding built-in triangle scalar was enabled. Otherwise, a segmentation fault will occur.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value of the Poisson&apos;s ratio for the geometry triangle. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_triangle_scalars.hpp" line="203" column="33" bodyfile="source/c++/rocky20/api/rocky_triangle_scalars.hpp" bodystart="203" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyTriangleScalars_1afaf1ed93d75a4a75ad38c31f675decc2" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyTriangleScalars::get_exchanged_heat</definition>
+        <argsstring>() const</argsstring>
+        <name>get_exchanged_heat</name>
+        <qualifiedname>IRockyTriangleScalars::get_exchanged_heat</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the total heat transferred to the triangle by surrounding particles and/or SPH fluid elements, since the last reset. That value is calculated internally by the solver before moving particles and SPH elements. Therefore, in order to get access to the heat value including those of the last time iteration, a custom module must use this function after that point, for instance, at a <computeroutput>ROCKY_PLUGINS_POST_MOVE</computeroutput> hook. Moreover, the heat values are stored only if the <computeroutput>IRockyTriangleScalarsModel::enable_storage_sph_exchanged_heat()</computeroutput> function is called during initialization. If that operation is not done, any call to this function during simulation will cause a segmentation fault. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_triangle_scalars.hpp" line="219" column="35" bodyfile="source/c++/rocky20/api/rocky_triangle_scalars.hpp" bodystart="219" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyTriangleScalars_1a27cf07c2dd9371c2b26106133266a327" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyTriangleScalars::get_scalar</definition>
+        <argsstring>(int scalar_index) const</argsstring>
+        <name>get_scalar</name>
+        <qualifiedname>IRockyTriangleScalars::get_scalar</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>If a custom scalar variable was defined during the setup of the module,</title><para>the value currently stored can be accessed with this method.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The integer index that was associated to the scalar variable during the setup of the module.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The value currently stored in the scalar variable.   </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_triangle_scalars.hpp" line="227" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyTriangleScalars_1a2882608ab8fdf75777d411400604e135" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockyTriangleScalars::set_scalar</definition>
+        <argsstring>(int scalar_index, double value) const</argsstring>
+        <name>set_scalar</name>
+        <qualifiedname>IRockyTriangleScalars::set_scalar</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>If a custom scalar variable was defined during the setup of the module,</title><para>this method can be used to store a value on it.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The integer index that was associated to the scalar variable during the setup of the module.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value that must be stored.   </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_triangle_scalars.hpp" line="230" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyTriangleScalars_1ab9721444212bd5fe4e3af03fe3a70294" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockyTriangleScalars::add_scalar</definition>
+        <argsstring>(int scalar_index, double value) const</argsstring>
+        <name>add_scalar</name>
+        <qualifiedname>IRockyTriangleScalars::add_scalar</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>If a custom scalar variable was defined during the setup of the module,</title><para>this method can be used to sum a value to the current one stored in it.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The integer index that was associated to the scalar variable during the setup of the module.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value that must be summed to the current stored value.<linebreak/>
+   </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_triangle_scalars.hpp" line="233" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyTriangleScalars_1a6d802b0828e406fd357377d8500625f5" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockyTriangleScalars::max_scalar</definition>
+        <argsstring>(int scalar_index, double value) const</argsstring>
+        <name>max_scalar</name>
+        <qualifiedname>IRockyTriangleScalars::max_scalar</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>If a custom scalar variable was defined during the setup of the module,</title><para>this method can be used to make the scalar store the maximum of a set of values. A common use of this method is, for instance, to find the maximum among a set of values associated to the contacts of a particle.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The integer index that was associated to the scalar variable during the setup of the module.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A value that must be checked if it is greater than the current stored value.   </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_triangle_scalars.hpp" line="236" column="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Triangle scalars are special variables within the Rocky solver that associate a value to each one of the geometry triangles that make up the geometries in the project. When running a simulation, an <computeroutput><ref refid="structIRockyTriangleScalars" kindref="compound">IRockyTriangleScalars</ref></computeroutput> object gives access to all triangle scalars defined in the project. These triangle scalars can be built-in scalars defined in the solver, or custom triangle scalars defined by the current module or other active modules. </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_triangle_scalars.hpp" line="160" column="1" bodyfile="source/c++/rocky20/api/rocky_triangle_scalars.hpp" bodystart="161" bodyend="248"/>
+    <listofallmembers>
+      <member refid="structIRockyTriangleScalars_1ab9721444212bd5fe4e3af03fe3a70294" prot="public" virt="non-virtual"><scope>IRockyTriangleScalars</scope><name>add_scalar</name></member>
+      <member refid="structIRockyTriangleScalars_1afaf1ed93d75a4a75ad38c31f675decc2" prot="public" virt="non-virtual"><scope>IRockyTriangleScalars</scope><name>get_exchanged_heat</name></member>
+      <member refid="structIRockyTriangleScalars_1ac72837182e4220fc58411bad8db38042" prot="public" virt="non-virtual"><scope>IRockyTriangleScalars</scope><name>get_poisson_ratio</name></member>
+      <member refid="structIRockyTriangleScalars_1a27cf07c2dd9371c2b26106133266a327" prot="public" virt="non-virtual"><scope>IRockyTriangleScalars</scope><name>get_scalar</name></member>
+      <member refid="structIRockyTriangleScalars_1a05684b0ee2ad2ea56b3ed0d627d86cfe" prot="public" virt="non-virtual"><scope>IRockyTriangleScalars</scope><name>get_thermal_conductivity</name></member>
+      <member refid="structIRockyTriangleScalars_1a6d802b0828e406fd357377d8500625f5" prot="public" virt="non-virtual"><scope>IRockyTriangleScalars</scope><name>max_scalar</name></member>
+      <member refid="structIRockyTriangleScalars_1abc7a467e91fb2232868c27518c92c844" prot="public" virt="non-virtual"><scope>IRockyTriangleScalars</scope><name>set_poisson_ratio</name></member>
+      <member refid="structIRockyTriangleScalars_1a2882608ab8fdf75777d411400604e135" prot="public" virt="non-virtual"><scope>IRockyTriangleScalars</scope><name>set_scalar</name></member>
+      <member refid="structIRockyTriangleScalars_1adfb451a883a51e0e52bbb4fb304bdbee" prot="public" virt="non-virtual"><scope>IRockyTriangleScalars</scope><name>set_thermal_conductivity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

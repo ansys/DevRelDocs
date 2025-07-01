@@ -1,0 +1,577 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockySPHElement" kind="struct" language="C++" prot="public">
+    <compoundname>IRockySPHElement</compoundname>
+    <derivedcompoundref refid="structIRockySPHElementHost" prot="public" virt="non-virtual">IRockySPHElementHost</derivedcompoundref>
+    <includes refid="rocky__sph__element__api_8hpp" local="no">rocky_sph_element_api.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockySPHElement_1a82b39eaf0e1f5b9f09367fcb994af3d9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS <ref refid="structIRockyParticle" kindref="compound">IRockyParticle</ref></type>
+        <definition>ROCKY_FUNCTIONS IRockyParticle IRockySPHElement::get_linked_dem_particle</definition>
+        <argsstring>(IRockyDeviceModel &amp;model) const</argsstring>
+        <name>get_linked_dem_particle</name>
+        <qualifiedname>IRockySPHElement::get_linked_dem_particle</qualifiedname>
+        <param>
+          <type><ref refid="structIRockyDeviceModel" kindref="compound">IRockyDeviceModel</ref> &amp;</type>
+          <declname>model</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="structIRockyParticle" kindref="compound">IRockyParticle</ref></computeroutput> object representing the DEM particle linked to the SPH particle, if the latter is actually a DEM-coupled SPH element. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="48" column="36" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a0d51cf017a85bd175db6d18538c9d2e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockySPHElement::add_force</definition>
+        <argsstring>(const float3 &amp;force)</argsstring>
+        <name>add_force</name>
+        <qualifiedname>IRockySPHElement::add_force</qualifiedname>
+        <param>
+          <type>const float3 &amp;</type>
+          <declname>force</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method adds a new force to the set of acting forces over the SPH element.</title><para></para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>force</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The added force vector, expressed in Cartesian coordinates. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="58" column="26" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="58" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a2f90b3a2980c2fa73cd53e72ea277f76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockySPHElement::add_acceleration</definition>
+        <argsstring>(const float3 &amp;acceleration)</argsstring>
+        <name>add_acceleration</name>
+        <qualifiedname>IRockySPHElement::add_acceleration</qualifiedname>
+        <param>
+          <type>const float3 &amp;</type>
+          <declname>acceleration</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method adds an acceleration component caused by an external force to the SPH element&apos;s</title><para>acceleration internally calculated by Rocky.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>acceleration</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The added acceleration vector, expressed in Cartesian coordinates. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="69" column="26" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="69" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1af514a8db990dff91c80abef70c29d604" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS bool</type>
+        <definition>ROCKY_FUNCTIONS bool IRockySPHElement::is_enabled</definition>
+        <argsstring>() const</argsstring>
+        <name>is_enabled</name>
+        <qualifiedname>IRockySPHElement::is_enabled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the SPH element is enabled. False, otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="77" column="26" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a258ae430ddd628d1b3375680774fd748" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockySPHElement::set_frozen</definition>
+        <argsstring>(bool frozen)</argsstring>
+        <name>set_frozen</name>
+        <qualifiedname>IRockySPHElement::set_frozen</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>frozen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method sets the frozen state of a SPH element. When the frozen state of an element</title><para>is set to <computeroutput>true</computeroutput>, the solution of the motion equations for it is skipped.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>frozen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>True if the particle should be frozen. False, otherwise. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="88" column="26" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="88" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a8a513f4cacbb94a272332beb8c8a371c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS bool</type>
+        <definition>ROCKY_FUNCTIONS bool IRockySPHElement::is_frozen</definition>
+        <argsstring>() const</argsstring>
+        <name>is_frozen</name>
+        <qualifiedname>IRockySPHElement::is_frozen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True if the SPH element is frozen. False, otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="96" column="26" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="96" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a3cd85ecace2e2784572a2e01397237f3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS bool</type>
+        <definition>ROCKY_FUNCTIONS bool IRockySPHElement::is_dem_coupled</definition>
+        <argsstring>() const</argsstring>
+        <name>is_dem_coupled</name>
+        <qualifiedname>IRockySPHElement::is_dem_coupled</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>True, if the SPH element is placed inside a DEM particle in order to model the interaction between the fluid flow and the DEM particles. False, otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="105" column="26" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="105" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a630d5e1aaea6b7c2f8f51c30089e07cd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>ROCKY_FUNCTIONS float IRockySPHElement::get_density</definition>
+        <argsstring>() const</argsstring>
+        <name>get_density</name>
+        <qualifiedname>IRockySPHElement::get_density</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The current value of density calculated for the SPH element. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="113" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="113" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a52f9c9ca275229c97e0fee6c2962e65f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>ROCKY_FUNCTIONS float IRockySPHElement::get_pressure</definition>
+        <argsstring>() const</argsstring>
+        <name>get_pressure</name>
+        <qualifiedname>IRockySPHElement::get_pressure</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The current value of the pressure at the location coincident with the SPH element. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="121" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="121" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1ae7191bebe8d701047d69b8bc9f590b16" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>ROCKY_FUNCTIONS float IRockySPHElement::get_temperature</definition>
+        <argsstring>() const</argsstring>
+        <name>get_temperature</name>
+        <qualifiedname>IRockySPHElement::get_temperature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The current value of the temperature of the SPH element. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="128" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="128" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a9be557e2ec8056dd05338a651f5da171" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>ROCKY_FUNCTIONS float IRockySPHElement::get_release_time</definition>
+        <argsstring>() const</argsstring>
+        <name>get_release_time</name>
+        <qualifiedname>IRockySPHElement::get_release_time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The time at which the SPH element entered into the simulation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="136" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="136" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a7bd5a61c05ac4a77a61d3a0fc09597c5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float3</type>
+        <definition>ROCKY_FUNCTIONS float3 IRockySPHElement::get_position</definition>
+        <argsstring>() const</argsstring>
+        <name>get_position</name>
+        <qualifiedname>IRockySPHElement::get_position</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The Cartesian coordinates of the point at which the SPH element is currently located. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="144" column="28" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="144" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1ab57e961ebc05e415bacc7c2236749428" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float3</type>
+        <definition>ROCKY_FUNCTIONS float3 IRockySPHElement::get_velocity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_velocity</name>
+        <qualifiedname>IRockySPHElement::get_velocity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The velocity vector at which the SPH element is currently moving, expressed in Cartesian coordinates. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="153" column="28" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="153" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1af2f5b34f666646f5d1f19207bac5cb2d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float3</type>
+        <definition>ROCKY_FUNCTIONS float3 IRockySPHElement::get_normal</definition>
+        <argsstring>() const</argsstring>
+        <name>get_normal</name>
+        <qualifiedname>IRockySPHElement::get_normal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An approximation of the normal vector to a free surface, if the SPH element is located near one, for use on the implementation of custom surface tension models. This vector is obtained by using the standard continuum approximation of interfaces, which is based on the gradient of the so called color function. In this approximation, an interface has a finite thickness over which the color function varies smoothly between zero and one. Because of this, a normal vector is calculated for every SPH element in the solution domain. However, only elements located near a free surface will have a normal vector with length significantly different from zero. It is worth noting that this vector is not normalized, therefore, its length will vary from one element to another. Moreover, these normal vectors are calculated internally only if a surface tension model is active in the simulation, therefore, a runtime error will be generated if this method is used otherwise. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="171" column="28" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1ab81b9afbefc503f46027274878703a3c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float3</type>
+        <definition>ROCKY_FUNCTIONS float3 IRockySPHElement::get_force</definition>
+        <argsstring>() const</argsstring>
+        <name>get_force</name>
+        <qualifiedname>IRockySPHElement::get_force</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The resultant of the forces currently acting over the SPH element, expressed in Cartesian coordinates. If this method is called before the stage of force calculation, a zero vector will be returned. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="181" column="28" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="181" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a9bbac7594cfc7a8dd14fee220a59cc0d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float3</type>
+        <definition>ROCKY_FUNCTIONS float3 IRockySPHElement::get_acceleration</definition>
+        <argsstring>() const</argsstring>
+        <name>get_acceleration</name>
+        <qualifiedname>IRockySPHElement::get_acceleration</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The current acceleration resultant vector of the SPH element, expressed in Cartesian coordinates. If this method is called before the stage of force calculation, a zero vector will be returned. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="191" column="28" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="191" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a0d1898e6d543bbe3af9cb951646491ee" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>ROCKY_FUNCTIONS float IRockySPHElement::get_kernel</definition>
+        <argsstring>(const float distance, const IRockySPHElement &amp;near_element) const</argsstring>
+        <name>get_kernel</name>
+        <qualifiedname>IRockySPHElement::get_kernel</qualifiedname>
+        <param>
+          <type>const float</type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structIRockySPHElement" kindref="compound">IRockySPHElement</ref> &amp;</type>
+          <declname>near_element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the kernel function evaluated at a point located at a given distance of the SPH element from which this method is called. The smoothing length considered is an average of the smoothing lengths of the pair formed by that element and a neighbor one.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>distance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The distance from the SPH element to the point at which the kernel function will be evaluated.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>near_element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The near element used to calculate the average smoothing length. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="206" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="207" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a480a6f0abe070040e11affa55f24c43f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>ROCKY_FUNCTIONS float IRockySPHElement::get_kernel_derivative</definition>
+        <argsstring>(const float distance, const IRockySPHElement &amp;near_element) const</argsstring>
+        <name>get_kernel_derivative</name>
+        <qualifiedname>IRockySPHElement::get_kernel_derivative</qualifiedname>
+        <param>
+          <type>const float</type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structIRockySPHElement" kindref="compound">IRockySPHElement</ref> &amp;</type>
+          <declname>near_element</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the derivative of the kernel function evaluated at a point located at a given distance of the SPH element from which this method is called. The smoothing length considered is an average of the smoothing lengths of the pair formed by that element and a neighbor one.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>distance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The distance from the SPH element to the point at which the kernel function will be evaluated.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>near_element</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The near element used to calculate the average smoothing length. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="223" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="224" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1ac3520dd9ddfb74c066ba7aef4737a455" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>ROCKY_FUNCTIONS float IRockySPHElement::get_mass</definition>
+        <argsstring>() const</argsstring>
+        <name>get_mass</name>
+        <qualifiedname>IRockySPHElement::get_mass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The mass associated to the given SPH element. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="232" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="232" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a040d1e15607c23a673614e3506a2e971" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>ROCKY_FUNCTIONS float IRockySPHElement::get_smoothing_length</definition>
+        <argsstring>() const</argsstring>
+        <name>get_smoothing_length</name>
+        <qualifiedname>IRockySPHElement::get_smoothing_length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the smoothing length based on the size of the given SPH element. The radius of the support region of the kernel function is normally an integer multiple of the smoothing length. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="242" column="34" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="242" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a38068aa228cc70686e89149e9aa4edb8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>ROCKY_FUNCTIONS float IRockySPHElement::get_size</definition>
+        <argsstring>() const</argsstring>
+        <name>get_size</name>
+        <qualifiedname>IRockySPHElement::get_size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The spacing between SPH elements when they enter into the simulation. This is a characteristic length considered in several expressions in the SPH model. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="251" column="34" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="251" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1a326bd60795936f9c4b77a9e000b1fa99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS <ref refid="structIRockySPHElementScalars" kindref="compound">IRockySPHElementScalars</ref></type>
+        <definition>ROCKY_FUNCTIONS IRockySPHElementScalars IRockySPHElement::get_scalars</definition>
+        <argsstring>()</argsstring>
+        <name>get_scalars</name>
+        <qualifiedname>IRockySPHElement::get_scalars</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="structIRockySPHElementScalars" kindref="compound">IRockySPHElementScalars</ref></computeroutput> object that gives access to all SPH element scalars variables defined in the project. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="260" column="45" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="260" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1ac28f2f31caf98235f3281c9c9f417474" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS SymmetricTensor&lt; float &gt;</type>
+        <definition>ROCKY_FUNCTIONS SymmetricTensor&lt; float &gt; IRockySPHElement::get_strain_rate_tensor</definition>
+        <argsstring>()</argsstring>
+        <name>get_strain_rate_tensor</name>
+        <qualifiedname>IRockySPHElement::get_strain_rate_tensor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>A <computeroutput>SymmetricTensor&lt;float&gt;</computeroutput> object that represents the strain rate tensor of the element. To get strain rate, please enable the Gradient Velocity Scalars by calling <computeroutput>IRockySPHElementScalarsModel::enable_gradient_velocity()</computeroutput> at setup hook. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="270" column="37" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="270" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1ac526f6d9758c69d4d7270317c327546a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS float</type>
+        <definition>ROCKY_FUNCTIONS float IRockySPHElement::get_molecular_viscosity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_molecular_viscosity</name>
+        <qualifiedname>IRockySPHElement::get_molecular_viscosity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the molecular viscosity attributed to a given SPH element. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="277" column="27" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="277" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockySPHElement_1abc6efc9b72adc7c3b487e760a2c53534" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockySPHElement::set_molecular_viscosity</definition>
+        <argsstring>(const float molecular_viscosity)</argsstring>
+        <name>set_molecular_viscosity</name>
+        <qualifiedname>IRockySPHElement::set_molecular_viscosity</qualifiedname>
+        <param>
+          <type>const float</type>
+          <declname>molecular_viscosity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method sets the value of the molecular viscosity attributed to a given SPH element.</title><para></para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="284" column="26" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="284" bodyend="287"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput><ref refid="structIRockySPHElement" kindref="compound">IRockySPHElement</ref></computeroutput> is the code representation of an individual SPH element, which is the basic unit for representing the fluid flow in a SPH model. It has several methods to access the values of physical properties carried by the SPH elements, as well as <emphasis> SPH element scalars</emphasis>, which are special variables that store custom property values per SPH element that are preserved between time iterations. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IRockySPHElement</label>
+        <link refid="structIRockySPHElement"/>
+      </node>
+      <node id="2">
+        <label>IRockySPHElementHost</label>
+        <link refid="structIRockySPHElementHost"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" line="20" column="1" bodyfile="source/c++/rocky20/api/sph/rocky_sph_element_api.hpp" bodystart="21" bodyend="288"/>
+    <listofallmembers>
+      <member refid="structIRockySPHElement_1a2f90b3a2980c2fa73cd53e72ea277f76" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>add_acceleration</name></member>
+      <member refid="structIRockySPHElement_1a0d51cf017a85bd175db6d18538c9d2e0" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>add_force</name></member>
+      <member refid="structIRockySPHElement_1a9bbac7594cfc7a8dd14fee220a59cc0d" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_acceleration</name></member>
+      <member refid="structIRockySPHElement_1a630d5e1aaea6b7c2f8f51c30089e07cd" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_density</name></member>
+      <member refid="structIRockySPHElement_1ab81b9afbefc503f46027274878703a3c" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_force</name></member>
+      <member refid="structIRockySPHElement_1a0d1898e6d543bbe3af9cb951646491ee" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_kernel</name></member>
+      <member refid="structIRockySPHElement_1a480a6f0abe070040e11affa55f24c43f" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_kernel_derivative</name></member>
+      <member refid="structIRockySPHElement_1a82b39eaf0e1f5b9f09367fcb994af3d9" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_linked_dem_particle</name></member>
+      <member refid="structIRockySPHElement_1ac3520dd9ddfb74c066ba7aef4737a455" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_mass</name></member>
+      <member refid="structIRockySPHElement_1ac526f6d9758c69d4d7270317c327546a" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_molecular_viscosity</name></member>
+      <member refid="structIRockySPHElement_1af2f5b34f666646f5d1f19207bac5cb2d" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_normal</name></member>
+      <member refid="structIRockySPHElement_1a7bd5a61c05ac4a77a61d3a0fc09597c5" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_position</name></member>
+      <member refid="structIRockySPHElement_1a52f9c9ca275229c97e0fee6c2962e65f" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_pressure</name></member>
+      <member refid="structIRockySPHElement_1a9be557e2ec8056dd05338a651f5da171" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_release_time</name></member>
+      <member refid="structIRockySPHElement_1a326bd60795936f9c4b77a9e000b1fa99" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_scalars</name></member>
+      <member refid="structIRockySPHElement_1a38068aa228cc70686e89149e9aa4edb8" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_size</name></member>
+      <member refid="structIRockySPHElement_1a040d1e15607c23a673614e3506a2e971" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_smoothing_length</name></member>
+      <member refid="structIRockySPHElement_1ac28f2f31caf98235f3281c9c9f417474" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_strain_rate_tensor</name></member>
+      <member refid="structIRockySPHElement_1ae7191bebe8d701047d69b8bc9f590b16" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_temperature</name></member>
+      <member refid="structIRockySPHElement_1ab57e961ebc05e415bacc7c2236749428" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>get_velocity</name></member>
+      <member refid="structIRockySPHElement_1a3cd85ecace2e2784572a2e01397237f3" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>is_dem_coupled</name></member>
+      <member refid="structIRockySPHElement_1af514a8db990dff91c80abef70c29d604" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>is_enabled</name></member>
+      <member refid="structIRockySPHElement_1a8a513f4cacbb94a272332beb8c8a371c" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>is_frozen</name></member>
+      <member refid="structIRockySPHElement_1a258ae430ddd628d1b3375680774fd748" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>set_frozen</name></member>
+      <member refid="structIRockySPHElement_1abc6efc9b72adc7c3b487e760a2c53534" prot="public" virt="non-virtual"><scope>IRockySPHElement</scope><name>set_molecular_viscosity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structdevice_1_1DragParametricOperator" kind="struct" language="C++" prot="public">
+    <compoundname>device::DragParametricOperator</compoundname>
+    <templateparamlist>
+      <param>
+        <type>typename _DragLawOperator</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structdevice_1_1DragParametricOperator_1ac5402db2f27bb0d927a133355ed64f72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>__host__ __device__ void</type>
+        <definition>__host__ __device__ void device::DragParametricOperator&lt; _DragLawOperator &gt;::operator()</definition>
+        <argsstring>(const IRockyParticle &amp;particle, const IRockyCFDProperties &amp;cfd, CFDCouplingOutput &amp;output, void *data)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>device::DragParametricOperator::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="structIRockyParticle" kindref="compound">IRockyParticle</ref> &amp;</type>
+          <declname>particle</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structIRockyCFDProperties" kindref="compound">IRockyCFDProperties</ref> &amp;</type>
+          <declname>cfd</declname>
+        </param>
+        <param>
+          <type>CFDCouplingOutput &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>void *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="183" column="14" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="183" bodyend="186"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" line="180" column="1" bodyfile="source/c++/rocky20/api/device/api_device_cfd_coupling.hpp" bodystart="181" bodyend="187"/>
+    <listofallmembers>
+      <member refid="structdevice_1_1DragParametricOperator_1ac5402db2f27bb0d927a133355ed64f72" prot="public" virt="non-virtual"><scope>device::DragParametricOperator</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

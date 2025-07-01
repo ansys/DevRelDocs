@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="changelog" kind="page">
+    <compoundname>changelog</compoundname>
+    <title>Changelog</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="changelog_1md_docs_2sdk__manual_2changelog"/> </para>
+<sect2 id="changelog_1autotoc_md0">
+<title>Release notes for 2025 R2</title><sect3 id="changelog_1autotoc_md1">
+<title>Added</title><para><itemizedlist>
+<listitem><para><computeroutput>ROCKY_PLUGIN_MOLECULAR_VISCOSITY_ON_SPH_ELEMENTS</computeroutput> hook.</para>
+</listitem><listitem><para><computeroutput>ROCKY_PLUGIN_HEAT_TRANSFER_COEFFICIENT_CORRELATION_ON_TRIANGLES</computeroutput> hook.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockySPHElement_1ae7191bebe8d701047d69b8bc9f590b16" kindref="member">IRockySPHElement::get_temperature()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockySPHElement_1ac526f6d9758c69d4d7270317c327546a" kindref="member">IRockySPHElement::get_molecular_viscosity()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockySPHElement_1abc6efc9b72adc7c3b487e760a2c53534" kindref="member">IRockySPHElement::set_molecular_viscosity()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockyModel_1aa12e90812c32e8092c0a67c28b5cc21b" kindref="member">IRockyModel::get_viscosity_factor()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockyFluidScalarsModel_1a427a7869774490548c1bf586eb982efd" kindref="member">IRockyFluidScalarsModel::find_species_scalar()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockyFluidScalarsModel_1a42b5926c5293c2e9b6e1ae0bf6f3db2c" kindref="member">IRockyFluidScalarsModel::get_scalar_name()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockyFluidScalarsModel_1a702ee4844ebadeb36f72564dd8b6a732" kindref="member">IRockyFluidScalarsModel::get_scalar_unit()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockyCFDModel_1a0eaf07fa0aa63473b83a633dad1e8f25" kindref="member">IRockyCFDModel::is_single_phase()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockyCFDModel_1a4ac3f8164add3366c5f08f4f819a79fd" kindref="member">IRockyCFDModel::has_species()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockyCFDModel_1a6bc367fb97d56786d71d89351957a2a1" kindref="member">IRockyCFDModel::get_phase_names()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockyCFDModel_1aac7f217cdfc15f0dd301dfd99127a194" kindref="member">IRockyCFDModel::get_species_names()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockyCFDModel_1a83c9a597793b791d1e42e0756ddddb06" kindref="member">IRockyCFDModel::get_primary_phase_name()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockyParticleHost_1a2a4385212dafdcb7e825adff5b7785d7" kindref="member">IRockyParticleHost::get_particle_group_index()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockySPHModel_1a1627faf9bcd3eca660891efbf5d95981" kindref="member">IRockySPHModel::set_htc_distance_factor()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput>IRockySPHModel::has_variable_molecular_viscosity()</computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockyModel_1a33a082f281ae2ca159cdb420d2fabbb8" kindref="member">IRockyModel::get_power_factor()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput>IRockyGeometryTriangle::get_triangle_center_velocity()</computeroutput> method.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="changelog_1autotoc_md2">
+<title>Deprecated</title><para><itemizedlist>
+<listitem><para><computeroutput><ref refid="structIRockySPHDeviceModel_1a0e7d219d00a03afa23f4340f966f274f" kindref="member">IRockySPHDeviceModel::get_fluid_viscosity()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockySPHTriangleInteraction_1aaae7a8fe9a92cdcd25f7f4d84a21a9f8" kindref="member">IRockySPHTriangleInteraction::get_wall_turbulent_thermal_conductance()</ref></computeroutput> method.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="changelog_1autotoc_md3">
+<title>Removed</title><para><itemizedlist>
+<listitem><para><computeroutput>ROCKY_PLUGIN_FORCE_ON_SPH_ELEMENT_INTERACTIONS</computeroutput> and <computeroutput>ROCKY_PLUGIN_FORCE_ON_SPH_TRIANGLE_INTERACTIONS</computeroutput> hooks were removed. Consider using <computeroutput>ROCKY_PLUGIN_SURFACE_TENSION_ON_SPH_ELEMENT_INTERACTIONS</computeroutput> or <computeroutput>ROCKY_PLUGIN_VISCOUS_ACCELERATIONS_ON_SPH_ELEMENT_INTERACTIONS</computeroutput> for model specific implementations or pre/post force interactions hooks.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+</sect2>
+<sect2 id="changelog_1autotoc_md4">
+<title>Release notes for 2025 R1</title><sect3 id="changelog_1autotoc_md5">
+<title>Added</title><para><itemizedlist>
+<listitem><para><computeroutput><ref refid="structIRockySPHElementScalarsModel_1ac46511b18b436d5cec83047f8e1e331f" kindref="member">IRockySPHElementScalarsModel::enable_velocity_gradient()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockySPHElement_1ac28f2f31caf98235f3281c9c9f417474" kindref="member">IRockySPHElement::get_strain_rate_tensor()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockySPHElementScalars_1a21d991fe945a35f8c7a1f4dffd7c5fe4" kindref="member">IRockySPHElementScalars::get_velocity_gradient_x()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockySPHElementScalars_1a0b6e39222f53c9977ed3cdcf74cb4a9f" kindref="member">IRockySPHElementScalars::get_velocity_gradient_y()</ref></computeroutput> method.</para>
+</listitem><listitem><para><computeroutput><ref refid="structIRockySPHElementScalars_1ace9533abcbc59ad7581a97d988d4c880" kindref="member">IRockySPHElementScalars::get_velocity_gradient_z()</ref></computeroutput> method.</para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+<sect3 id="changelog_1autotoc_md6">
+<title>Deprecated</title><para><itemizedlist>
+<listitem><para><computeroutput>ROCKY_PLUGIN_COMPUTE_ADHESIVE_DISTANCES</computeroutput> hook was deprecated. Adhesive distances can be set on <computeroutput>ROCKY_PLUGIN_INITIALIZE</computeroutput> or <computeroutput>ROCKY_PLUGIN_BEGIN_ITERATION</computeroutput>.</para>
+</listitem><listitem><para><computeroutput>ROCKY_PLUGIN_FORCE_ON_SPH_ELEMENT_INTERACTIONS</computeroutput> hook was deprecated. Consider using <computeroutput>ROCKY_PLUGIN_SURFACE_TENSION_ON_SPH_ELEMENT_INTERACTIONS</computeroutput> or <computeroutput>ROCKY_PLUGIN_VISCOUS_ACCELERATIONS_ON_SPH_ELEMENT_INTERACTIONS</computeroutput> for model specific implementations.</para>
+</listitem><listitem><para><computeroutput>ROCKY_PLUGIN_FORCE_ON_SPH_TRIANGLE_INTERACTIONS</computeroutput> hook was deprecated. Consider using <computeroutput>ROCKY_PLUGIN_SURFACE_TENSION_ON_SPH_TRIANGLE_INTERACTIONS</computeroutput> or <computeroutput>ROCKY_PLUGIN_VISCOUS_ACCELERATIONS_ON_SPH_TRIANGLE_INTERACTIONS</computeroutput> specific implementations. </para>
+</listitem></itemizedlist>
+</para>
+</sect3>
+</sect2>
+    </detaileddescription>
+    <location file="docs/sdk_manual/changelog.md"/>
+  </compounddef>
+</doxygen>

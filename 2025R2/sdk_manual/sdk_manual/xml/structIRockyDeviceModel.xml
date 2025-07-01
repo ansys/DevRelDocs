@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockyDeviceModel" kind="struct" language="C++" prot="public">
+    <compoundname>IRockyDeviceModel</compoundname>
+    <includes refid="rocky__model__api_8hpp" local="no">rocky_model_api.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockyDeviceModel_1ab03adbadfc1d2a7a8f3a1f849be73d1a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyDeviceModel::get_timestep</definition>
+        <argsstring>() const</argsstring>
+        <name>get_timestep</name>
+        <qualifiedname>IRockyDeviceModel::get_timestep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the simulation timestep. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_model_api.hpp" line="25" column="28" bodyfile="source/c++/rocky20/api/rocky_model_api.hpp" bodystart="104" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyDeviceModel_1a089a84ac233a433ac17ac46fbbb229b3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double</type>
+        <definition>ROCKY_FUNCTIONS double IRockyDeviceModel::get_current_time</definition>
+        <argsstring>() const</argsstring>
+        <name>get_current_time</name>
+        <qualifiedname>IRockyDeviceModel::get_current_time</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The value of the current time in the simulation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_model_api.hpp" line="30" column="28" bodyfile="source/c++/rocky20/api/rocky_model_api.hpp" bodystart="110" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyDeviceModel_1ac59cb9db0136afc98b82bfb07573101a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS double3</type>
+        <definition>ROCKY_FUNCTIONS double3 IRockyDeviceModel::get_gravity</definition>
+        <argsstring>() const</argsstring>
+        <name>get_gravity</name>
+        <qualifiedname>IRockyDeviceModel::get_gravity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This functions returns the current gravity acceleration</title><para>in the simulation.</para>
+</simplesect>
+<simplesect kind="return"><para>A <computeroutput>double3</computeroutput> value representing the current gravity acceleration vector in Cartesian Coordinates. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_model_api.hpp" line="39" column="29" bodyfile="source/c++/rocky20/api/rocky_model_api.hpp" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyDeviceModel_1a9980c5362764f3bf7a159ccd7865d947" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS void</type>
+        <definition>ROCKY_FUNCTIONS void IRockyDeviceModel::set_gravity</definition>
+        <argsstring>(const double3 &amp;gravity)</argsstring>
+        <name>set_gravity</name>
+        <qualifiedname>IRockyDeviceModel::set_gravity</qualifiedname>
+        <param>
+          <type>const double3 &amp;</type>
+          <declname>gravity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This function sets the gravity acceleration to be used</title><para>globally in the simulation from that time onward.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>gravity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <computeroutput>double3</computeroutput> value representing the gravity acceleration vector in Cartesian Coordinates. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_model_api.hpp" line="48" column="26" bodyfile="source/c++/rocky20/api/rocky_model_api.hpp" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyDeviceModel_1ac4d4eb7321ad6815176bda70de368c17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS <ref refid="structIRockyCloudPoint" kindref="compound">IRockyCloudPoint</ref></type>
+        <definition>ROCKY_FUNCTIONS IRockyCloudPoint IRockyDeviceModel::get_particle_cloud_point</definition>
+        <argsstring>(int point_cloud_index, const IRockyParticle &amp;particle)</argsstring>
+        <name>get_particle_cloud_point</name>
+        <qualifiedname>IRockyDeviceModel::get_particle_cloud_point</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>point_cloud_index</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structIRockyParticle" kindref="compound">IRockyParticle</ref> &amp;</type>
+          <declname>particle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This function gets an auxiliary object that gives access</title><para>to cloud point values of the nearest point to a given particle.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>point_cloud_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index that uniquely identifies a point cloud dataset.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>particle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <computeroutput><ref refid="structIRockyParticle" kindref="compound">IRockyParticle</ref></computeroutput> whose position is used to determine the nearest cloud point.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An <computeroutput>IRockyParticleCloudPoint</computeroutput> object, which can be used to get cloud point values of the nearest point to the particle passed as argument. For more information about point clouds, please refer to the Rocky User Manual. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_model_api.hpp" line="65" column="38" bodyfile="source/c++/rocky20/api/rocky_model_api.hpp" bodystart="128" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyDeviceModel_1a380db6692ee5fe3c15b52d62cef723cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS <ref refid="structIRockyPairScalars" kindref="compound">IRockyPairScalars</ref></type>
+        <definition>ROCKY_FUNCTIONS IRockyPairScalars IRockyDeviceModel::get_pair_scalars</definition>
+        <argsstring>(int pair_index)</argsstring>
+        <name>get_pair_scalars</name>
+        <qualifiedname>IRockyDeviceModel::get_pair_scalars</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>pair_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="structIRockyPairScalars" kindref="compound">IRockyPairScalars</ref></computeroutput> object, that gives access to all pair scalars defined in a project.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pair_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index that identifies a specific pair of particle groups or a pair formed by a particle group and a geometry. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_model_api.hpp" line="75" column="39" bodyfile="source/c++/rocky20/api/rocky_model_api.hpp" bodystart="136" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyDeviceModel_1a9bd2b236ca0c6f7859924b0ed588c584" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ROCKY_FUNCTIONS <ref refid="structIRockyGeometryScalars" kindref="compound">IRockyGeometryScalars</ref></type>
+        <definition>ROCKY_FUNCTIONS IRockyGeometryScalars IRockyDeviceModel::get_geometry_scalars</definition>
+        <argsstring>(int geometry_index)</argsstring>
+        <name>get_geometry_scalars</name>
+        <qualifiedname>IRockyDeviceModel::get_geometry_scalars</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>geometry_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>An <computeroutput><ref refid="structIRockyGeometryScalars" kindref="compound">IRockyGeometryScalars</ref></computeroutput> object, that gives access to all geometry scalars defined in a project.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>geometry_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index that identifies a specific geometry within a Rocky project. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_model_api.hpp" line="84" column="43" bodyfile="source/c++/rocky20/api/rocky_model_api.hpp" bodystart="141" bodyend="144"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><computeroutput><ref refid="structIRockyDeviceModel" kindref="compound">IRockyDeviceModel</ref></computeroutput> includes auxiliary functions that are available only during the execution of a simulation. Hooks such as <computeroutput>ROCKY_PLUGIN_PRE_FORCE...</computeroutput>, <computeroutput>ROCKY_PLUGIN_POST_FORCE...</computeroutput>, and <computeroutput>ROCKY_PLUGIN_PRE_MOVE...</computeroutput>, provide an <computeroutput><ref refid="structIRockyDeviceModel" kindref="compound">IRockyDeviceModel</ref></computeroutput> object as a parameter. </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_model_api.hpp" line="19" column="1" bodyfile="source/c++/rocky20/api/rocky_model_api.hpp" bodystart="20" bodyend="94"/>
+    <listofallmembers>
+      <member refid="structIRockyDeviceModel_1a089a84ac233a433ac17ac46fbbb229b3" prot="public" virt="non-virtual"><scope>IRockyDeviceModel</scope><name>get_current_time</name></member>
+      <member refid="structIRockyDeviceModel_1a9bd2b236ca0c6f7859924b0ed588c584" prot="public" virt="non-virtual"><scope>IRockyDeviceModel</scope><name>get_geometry_scalars</name></member>
+      <member refid="structIRockyDeviceModel_1ac59cb9db0136afc98b82bfb07573101a" prot="public" virt="non-virtual"><scope>IRockyDeviceModel</scope><name>get_gravity</name></member>
+      <member refid="structIRockyDeviceModel_1a380db6692ee5fe3c15b52d62cef723cd" prot="public" virt="non-virtual"><scope>IRockyDeviceModel</scope><name>get_pair_scalars</name></member>
+      <member refid="structIRockyDeviceModel_1ac4d4eb7321ad6815176bda70de368c17" prot="public" virt="non-virtual"><scope>IRockyDeviceModel</scope><name>get_particle_cloud_point</name></member>
+      <member refid="structIRockyDeviceModel_1ab03adbadfc1d2a7a8f3a1f849be73d1a" prot="public" virt="non-virtual"><scope>IRockyDeviceModel</scope><name>get_timestep</name></member>
+      <member refid="structIRockyDeviceModel_1a9980c5362764f3bf7a159ccd7865d947" prot="public" virt="non-virtual"><scope>IRockyDeviceModel</scope><name>set_gravity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

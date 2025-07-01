@@ -1,0 +1,245 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structIRockyGeometryScalarsModel" kind="struct" language="C++" prot="public">
+    <compoundname>IRockyGeometryScalarsModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ScalarsModel&lt; rocky20::BoundaryScalarsController &gt;</basecompoundref>
+    <includes refid="rocky__boundary__scalars_8hpp" local="no">rocky_boundary_scalars.hpp</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structIRockyGeometryScalarsModel_1a1cc2456dbf51f7f97c9cfd4c08fd890b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structIRockyStatisticsAdder" kindref="compound">IRockyStatisticsAdder</ref> *</type>
+        <definition>IRockyStatisticsAdder * IRockyGeometryScalarsModel::get_statistics_adder_array</definition>
+        <argsstring>(int scalar_index)</argsstring>
+        <name>get_statistics_adder_array</name>
+        <qualifiedname>IRockyGeometryScalarsModel::get_statistics_adder_array</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The array of all <computeroutput><ref refid="structIRockyStatisticsAdder" kindref="compound">IRockyStatisticsAdder</ref></computeroutput> objects currently stored in a given scalar. The size of this array will be equal to the number of geometries in the project, and the contained objects will be ordered according to the geometry indexes.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index that identifies the scalar, attributed when it was created. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_scalars.hpp" line="37" column="27" bodyfile="source/c++/rocky20/api/rocky_boundary_scalars.hpp" bodystart="72" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryScalarsModel_1af5e62356931688660f277719ca88ff2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structIRockyStatisticsAccumulator" kindref="compound">IRockyStatisticsAccumulator</ref> *</type>
+        <definition>IRockyStatisticsAccumulator * IRockyGeometryScalarsModel::get_statistics_accumulator_array</definition>
+        <argsstring>(int scalar_index)</argsstring>
+        <name>get_statistics_accumulator_array</name>
+        <qualifiedname>IRockyGeometryScalarsModel::get_statistics_accumulator_array</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The array of all <computeroutput><ref refid="structIRockyStatisticsAccumulator" kindref="compound">IRockyStatisticsAccumulator</ref></computeroutput> objects currently stored in a given scalar. The size of this array will be equal to the number of geometries in the project, and the contained objects will be ordered according to the geometry indexes.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index that identifies the scalar, attributed when it was created. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_scalars.hpp" line="53" column="33" bodyfile="source/c++/rocky20/api/rocky_boundary_scalars.hpp" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryScalarsModel_1a8605e8eb24231ebdcbd9087602aa64fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyGeometryScalarsModel::find</definition>
+        <argsstring>(const char *name)</argsstring>
+        <name>find</name>
+        <qualifiedname>IRockyGeometryScalarsModel::find</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method searches for a scalar variable already created by other modules,</title><para>in order to allow access to its values, or store new values on it, during the execution of the simulation.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name given to the scalar at the moment of its creation.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The index that uniquely identifies the wanted scalar if it was actually found. It returns -1 otherwise.   </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_scalars.hpp" line="58" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryScalarsModel_1ac5361e4dec1e3d63aa923b3576d8cb69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int IRockyGeometryScalarsModel::add</definition>
+        <argsstring>(const char *name, const char *unit, bool output=true)</argsstring>
+        <name>add</name>
+        <qualifiedname>IRockyGeometryScalarsModel::add</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>unit</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>output</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method creates a new scalar variable of type <computeroutput>double</computeroutput></title><para>for storing custom values during a simulation, preserving them between time iterations.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The name given to the scalar variable. The purpose of this name is twofold. First, it enables to find this scalar variable from other module, in order to share their values. Second, if the scalar variable can be displayed in a 3D window as a property, this name will identify it in the Rocky UI.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>unit</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A string specifying the unit in S.I. associated to the scalar variable.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>output</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Enables/disables the storage in disk at output times, for the visualization and post-processing of the scalar values.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The index that will uniquely identify the scalar variable during the execution of the simulation.   </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_scalars.hpp" line="61" column="9"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryScalarsModel_1a0c029b4e23f71891ed12a704f0f0cde4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyGeometryScalarsModel::reset</definition>
+        <argsstring>(int scalar_index)</argsstring>
+        <name>reset</name>
+        <qualifiedname>IRockyGeometryScalarsModel::reset</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>This method resets to zero all values stored in a scalar variable.</title><para></para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index attributed to the scalar variable at the moment of its creation.   </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_scalars.hpp" line="64" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structIRockyGeometryScalarsModel_1aa7148cfa90081ff19a8fda5e7e1cb379" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void IRockyGeometryScalarsModel::set_dimension</definition>
+        <argsstring>(int scalar_index, double dimension_factor)</argsstring>
+        <name>set_dimension</name>
+        <qualifiedname>IRockyGeometryScalarsModel::set_dimension</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>scalar_index</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension_factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="par"><title>The purpose of this method is to associate a dimensional factor</title><para>to a scalar variable. This factor will be used to nondimensionalize their values. For instance, if the scalar represents a force, a force dimensional factor must be associated through this method. Dimensional factors for the fundamental magnitudes are provided by functions of a <computeroutput><ref refid="structIRockyModel" kindref="compound">IRockyModel</ref></computeroutput> object.</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>scalar_index</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The index attributed to the scalar variable at the moment of its creation.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dimension_factor</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The appropriate dimensional factor for the scalar variable.   </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_boundary_scalars.hpp" line="67" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>An <computeroutput><ref refid="structIRockyGeometryScalarsModel" kindref="compound">IRockyGeometryScalarsModel</ref></computeroutput> object allows users to create and configure custom geometry scalars. Geometry scalars are special variables that can have a value associated to every geometry defined in the project. </para>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_boundary_scalars.hpp" line="17" column="1" bodyfile="source/c++/rocky20/api/rocky_boundary_scalars.hpp" bodystart="18" bodyend="70"/>
+    <listofallmembers>
+      <member refid="structIRockyGeometryScalarsModel_1ac5361e4dec1e3d63aa923b3576d8cb69" prot="public" virt="non-virtual"><scope>IRockyGeometryScalarsModel</scope><name>add</name></member>
+      <member refid="structIRockyGeometryScalarsModel_1a8605e8eb24231ebdcbd9087602aa64fa" prot="public" virt="non-virtual"><scope>IRockyGeometryScalarsModel</scope><name>find</name></member>
+      <member refid="structIRockyGeometryScalarsModel_1af5e62356931688660f277719ca88ff2c" prot="public" virt="non-virtual"><scope>IRockyGeometryScalarsModel</scope><name>get_statistics_accumulator_array</name></member>
+      <member refid="structIRockyGeometryScalarsModel_1a1cc2456dbf51f7f97c9cfd4c08fd890b" prot="public" virt="non-virtual"><scope>IRockyGeometryScalarsModel</scope><name>get_statistics_adder_array</name></member>
+      <member refid="structIRockyGeometryScalarsModel_1a0c029b4e23f71891ed12a704f0f0cde4" prot="public" virt="non-virtual"><scope>IRockyGeometryScalarsModel</scope><name>reset</name></member>
+      <member refid="structIRockyGeometryScalarsModel_1aa7148cfa90081ff19a8fda5e7e1cb379" prot="public" virt="non-virtual"><scope>IRockyGeometryScalarsModel</scope><name>set_dimension</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

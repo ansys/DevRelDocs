@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_b9a7f294d4514fb4b826afff087350ae" kind="dir">
+    <compoundname>source/c++/rocky20/api/tests</compoundname>
+    <innerfile refid="test__plugin__data_8cpp">test_plugin_data.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/tests/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="rocky__model__api_8hpp" kind="file" language="C++">
+    <compoundname>rocky_model_api.hpp</compoundname>
+    <includes refid="rocky__model_8hpp" local="yes">rocky_model.hpp</includes>
+    <includes refid="rocky__particle__api_8hpp" local="yes">rocky_particle_api.hpp</includes>
+    <includedby refid="api__device__contacts_8hpp" local="no">source/c++/rocky20/api/device/api_device_contacts.hpp</includedby>
+    <includedby refid="api__device__particles_8hpp" local="no">source/c++/rocky20/api/device/api_device_particles.hpp</includedby>
+    <includedby refid="api__device__triangles_8hpp" local="no">source/c++/rocky20/api/device/api_device_triangles.hpp</includedby>
+    <includedby refid="api__device__vicinity_8hpp" local="no">source/c++/rocky20/api/device/api_device_vicinity.hpp</includedby>
+    <includedby refid="rocky__api_8h" local="yes">source/c++/rocky20/api/rocky_api.h</includedby>
+    <includedby refid="api__device__sph_8hpp" local="no">source/c++/rocky20/api/sph/api_device_sph.hpp</includedby>
+    <incdepgraph>
+      <node id="10">
+        <label>rocky20/api/device/api_backend.hpp</label>
+        <link refid="api__backend_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>rocky20/api/rocky_boundary_scalars.hpp</label>
+        <link refid="rocky__boundary__scalars_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>rocky_material_api.hpp</label>
+        <link refid="rocky__material__api_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>rocky_model.hpp</label>
+        <link refid="rocky__model_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>source/c++/rocky20/api/rocky_model_api.hpp</label>
+        <link refid="rocky__model__api_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>rocky20/api/rocky_pair_scalars.hpp</label>
+        <link refid="rocky__pair__scalars_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>rocky_particle.hpp</label>
+        <link refid="rocky__particle_8hpp_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>rocky_particle_api.hpp</label>
+        <link refid="rocky__particle__api_8hpp_source"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>rocky20/api/rocky_particle_scalars.hpp</label>
+        <link refid="rocky__particle__scalars_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>rocky_point_cloud.h</label>
+        <link refid="rocky__point__cloud_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>rocky20/api/rocky_point_cloud_api.hpp</label>
+        <link refid="rocky__point__cloud__api_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>rocky_scalars.h</label>
+        <link refid="rocky__scalars_8h_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>rocky20/api/rocky_statistics_data.hpp</label>
+        <link refid="rocky__statistics__data_8hpp_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>rocky20/cuda/cuda_basics.hpp</label>
+      </node>
+      <node id="3">
+        <label>rocky20/device/device_model.hpp</label>
+      </node>
+      <node id="19">
+        <label>rocky20/device/element_properties.hpp</label>
+      </node>
+      <node id="12">
+        <label>rocky20/device/omp_backend.hpp</label>
+      </node>
+      <node id="6">
+        <label>rocky20/model/point_cloud.h</label>
+      </node>
+      <node id="9">
+        <label>rocky20/model/rocky_model.h</label>
+      </node>
+      <node id="14">
+        <label>rocky20/model/statistics_data.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6">
+        <label>source/c++/rocky20/api/device/api_cuda.hpp</label>
+        <link refid="api__cuda_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>source/c++/rocky20/api/device/api_cuda_cfd_coupling.hpp</label>
+        <link refid="api__cuda__cfd__coupling_8hpp_source"/>
+      </node>
+      <node id="3">
+        <label>source/c++/rocky20/api/device/api_cuda_contacts.hpp</label>
+        <link refid="api__cuda__contacts_8hpp_source"/>
+      </node>
+      <node id="8">
+        <label>source/c++/rocky20/api/device/api_cuda_joints.hpp</label>
+        <link refid="api__cuda__joints_8hpp_source"/>
+      </node>
+      <node id="9">
+        <label>source/c++/rocky20/api/device/api_cuda_particles.hpp</label>
+        <link refid="api__cuda__particles_8hpp_source"/>
+      </node>
+      <node id="10">
+        <label>source/c++/rocky20/api/device/api_cuda_triangles.hpp</label>
+        <link refid="api__cuda__triangles_8hpp_source"/>
+      </node>
+      <node id="2">
+        <label>source/c++/rocky20/api/device/api_device_contacts.hpp</label>
+        <link refid="api__device__contacts_8hpp_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>source/c++/rocky20/api/device/api_device_particles.hpp</label>
+        <link refid="api__device__particles_8hpp_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>source/c++/rocky20/api/device/api_device_triangles.hpp</label>
+        <link refid="api__device__triangles_8hpp_source"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>source/c++/rocky20/api/device/api_device_vicinity.hpp</label>
+        <link refid="api__device__vicinity_8hpp_source"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>source/c++/rocky20/api/device/api_omp_contacts.hpp</label>
+        <link refid="api__omp__contacts_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>source/c++/rocky20/api/device/api_omp_particles.hpp</label>
+        <link refid="api__omp__particles_8hpp_source"/>
+      </node>
+      <node id="18">
+        <label>source/c++/rocky20/api/device/api_omp_triangles.hpp</label>
+        <link refid="api__omp__triangles_8hpp_source"/>
+      </node>
+      <node id="5">
+        <label>source/c++/rocky20/api/rocky_api.h</label>
+        <link refid="rocky__api_8h_source"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>source/c++/rocky20/api/rocky_api_cfd.h</label>
+        <link refid="rocky__api__cfd_8h_source"/>
+      </node>
+      <node id="13">
+        <label>source/c++/rocky20/api/rocky_api_sph.h</label>
+        <link refid="rocky__api__sph_8h_source"/>
+      </node>
+      <node id="20">
+        <label>source/c++/rocky20/api/rocky_api_vicinity.h</label>
+        <link refid="rocky__api__vicinity_8h_source"/>
+      </node>
+      <node id="1">
+        <label>source/c++/rocky20/api/rocky_model_api.hpp</label>
+        <link refid="rocky__model__api_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>source/c++/rocky20/api/sph/api_cuda_sph.hpp</label>
+        <link refid="api__cuda__sph_8hpp_source"/>
+      </node>
+      <node id="21">
+        <label>source/c++/rocky20/api/sph/api_device_sph.hpp</label>
+        <link refid="api__device__sph_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>source/c++/rocky20/api/sph/api_omp_sph.hpp</label>
+        <link refid="api__omp__sph_8hpp_source"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structIRockyDeviceModel" prot="public">IRockyDeviceModel</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>(C)<sp/>2024<sp/>ANSYS,<sp/>Inc.<sp/>Unauthorized<sp/>use,<sp/>distribution,<sp/>or<sp/>duplication<sp/>is<sp/>prohibited.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Includes<sp/>=======================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;rocky_model.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;rocky_particle_api.hpp&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IRockyDeviceModel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="structIRockyDeviceModel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIRockyDeviceModel" kindref="compound">IRockyDeviceModel</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyDeviceModel_1ab03adbadfc1d2a7a8f3a1f849be73d1a" kindref="member">get_timestep</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyDeviceModel_1a089a84ac233a433ac17ac46fbbb229b3" kindref="member">get_current_time</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/>double3<sp/><ref refid="structIRockyDeviceModel_1ac59cb9db0136afc98b82bfb07573101a" kindref="member">get_gravity</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyDeviceModel_1a9980c5362764f3bf7a159ccd7865d947" kindref="member">set_gravity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>double3&amp;<sp/>gravity);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockyCloudPoint" kindref="compound">IRockyCloudPoint</ref><sp/><ref refid="structIRockyDeviceModel_1ac4d4eb7321ad6815176bda70de368c17" kindref="member">get_particle_cloud_point</ref>(</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>point_cloud_index,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticle" kindref="compound">IRockyParticle</ref><sp/>&amp;particle);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockyPairScalars" kindref="compound">IRockyPairScalars</ref><sp/><ref refid="structIRockyDeviceModel_1a380db6692ee5fe3c15b52d62cef723cd" kindref="member">get_pair_scalars</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pair_index);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockyGeometryScalars" kindref="compound">IRockyGeometryScalars</ref><sp/><ref refid="structIRockyDeviceModel_1a9bd2b236ca0c6f7859924b0ed588c584" kindref="member">get_geometry_scalars</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>geometry_index);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>[[deprecated(</highlight><highlight class="stringliteral">&quot;Use<sp/>get_timestep()<sp/>instead.&quot;</highlight><highlight class="normal">)]]</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>get_time_step()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>RockyDeviceModel<sp/>_impl;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//<sp/>deprecated</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>IRockyDeviceModel::get_time_step()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="99"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl.get_timestep();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="structIRockyDeviceModel_1ab03adbadfc1d2a7a8f3a1f849be73d1a" refkind="member"><highlight class="normal">ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyDeviceModel_1ab03adbadfc1d2a7a8f3a1f849be73d1a" kindref="member">IRockyDeviceModel::get_timestep</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="105"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl.get_timestep();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="structIRockyDeviceModel_1a089a84ac233a433ac17ac46fbbb229b3" refkind="member"><highlight class="normal">ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyDeviceModel_1a089a84ac233a433ac17ac46fbbb229b3" kindref="member">IRockyDeviceModel::get_current_time</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="111"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl.get_current_time();</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="structIRockyDeviceModel_1ac59cb9db0136afc98b82bfb07573101a" refkind="member"><highlight class="normal">ROCKY_FUNCTIONS<sp/>double3<sp/><ref refid="structIRockyDeviceModel_1ac59cb9db0136afc98b82bfb07573101a" kindref="member">IRockyDeviceModel::get_gravity</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="117"><highlight class="keyword"></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl.get_gravity();</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="structIRockyDeviceModel_1a9980c5362764f3bf7a159ccd7865d947" refkind="member"><highlight class="normal">ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyDeviceModel_1a9980c5362764f3bf7a159ccd7865d947" kindref="member">IRockyDeviceModel::set_gravity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>double3&amp;<sp/>gravity)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;_impl.set_gravity(gravity);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockyCloudPoint" kindref="compound">IRockyCloudPoint</ref></highlight></codeline>
+<codeline lineno="128" refid="structIRockyDeviceModel_1ac4d4eb7321ad6815176bda70de368c17" refkind="member"><highlight class="normal"><ref refid="structIRockyDeviceModel_1ac4d4eb7321ad6815176bda70de368c17" kindref="member">IRockyDeviceModel::get_particle_cloud_point</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>point_cloud_index,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticle" kindref="compound">IRockyParticle</ref>&amp;<sp/>particle)</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>point_cloud<sp/>=<sp/>this-&gt;_impl.model-&gt;point_clouds<sp/>+<sp/>point_cloud_index;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>point_index<sp/>=<sp/>this-&gt;_impl.model-&gt;particle_scalars-&gt;get_scalar&lt;</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">&gt;(</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>point_cloud-&gt;particle_scalars_index,<sp/>particle._impl.particle_index);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structIRockyCloudPoint" kindref="compound">IRockyCloudPoint</ref>(point_cloud,<sp/>point_index);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="structIRockyDeviceModel_1a380db6692ee5fe3c15b52d62cef723cd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockyPairScalars" kindref="compound">IRockyPairScalars</ref><sp/><ref refid="structIRockyDeviceModel_1a380db6692ee5fe3c15b52d62cef723cd" kindref="member">IRockyDeviceModel::get_pair_scalars</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pair_index)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structIRockyPairScalars" kindref="compound">IRockyPairScalars</ref>(*this-&gt;_impl.model-&gt;pair_scalars,<sp/>pair_index);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="structIRockyDeviceModel_1a9bd2b236ca0c6f7859924b0ed588c584" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockyGeometryScalars" kindref="compound">IRockyGeometryScalars</ref><sp/><ref refid="structIRockyDeviceModel_1a9bd2b236ca0c6f7859924b0ed588c584" kindref="member">IRockyDeviceModel::get_geometry_scalars</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>geometry_index)</highlight></codeline>
+<codeline lineno="142"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structIRockyGeometryScalars" kindref="compound">IRockyGeometryScalars</ref>(*this-&gt;_impl.model-&gt;boundary_scalars,<sp/>geometry_index);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="source/c++/rocky20/api/rocky_model_api.hpp"/>
+  </compounddef>
+</doxygen>

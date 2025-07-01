@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structOutputPropertiesSetup" kind="struct" language="C++" prot="public">
+    <compoundname>OutputPropertiesSetup</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structOutputPropertiesSetup_1af4b8c38692032e77f849fd8f97429077" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; OutputPropertyInfo &gt;</type>
+        <definition>std::vector&lt;OutputPropertyInfo&gt; OutputPropertiesSetup::particle_property_infos</definition>
+        <argsstring></argsstring>
+        <name>particle_property_infos</name>
+        <qualifiedname>OutputPropertiesSetup::particle_property_infos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_properties.h" line="42" column="17" bodyfile="source/c++/rocky20/api/rocky_output_properties.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structOutputPropertiesSetup_1a62d90d6a99adf2d233510d6e9e2448d2" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; OutputPropertyInfo &gt;</type>
+        <definition>std::vector&lt;OutputPropertyInfo&gt; OutputPropertiesSetup::boundary_property_infos</definition>
+        <argsstring></argsstring>
+        <name>boundary_property_infos</name>
+        <qualifiedname>OutputPropertiesSetup::boundary_property_infos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_properties.h" line="43" column="17" bodyfile="source/c++/rocky20/api/rocky_output_properties.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structOutputPropertiesSetup_1a4781dd52285c7159ea9cd60997c38765" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int OutputPropertiesSetup::create_particles_instantaneous_property</definition>
+        <argsstring>(std::string name, std::string unit, double dimension=1.0)</argsstring>
+        <name>create_particles_instantaneous_property</name>
+        <qualifiedname>OutputPropertiesSetup::create_particles_instantaneous_property</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>unit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_properties.h" line="33" column="9" bodyfile="source/c++/rocky20/api/rocky_output_properties.cpp" bodystart="29" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="structOutputPropertiesSetup_1af92d536e736474e531508a7dc7553fc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int OutputPropertiesSetup::create_particles_statistical_property</definition>
+        <argsstring>(std::string name, std::string unit, double dimension=1.0)</argsstring>
+        <name>create_particles_statistical_property</name>
+        <qualifiedname>OutputPropertiesSetup::create_particles_statistical_property</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>unit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_properties.h" line="34" column="9" bodyfile="source/c++/rocky20/api/rocky_output_properties.cpp" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="structOutputPropertiesSetup_1a63d74ed658135324d73f293470548711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int OutputPropertiesSetup::create_triangles_instantaneous_property</definition>
+        <argsstring>(std::string name, std::string unit, double dimension=1.0)</argsstring>
+        <name>create_triangles_instantaneous_property</name>
+        <qualifiedname>OutputPropertiesSetup::create_triangles_instantaneous_property</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>unit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_properties.h" line="36" column="9" bodyfile="source/c++/rocky20/api/rocky_output_properties.cpp" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="structOutputPropertiesSetup_1a12fd8d1f128ae104ebf4d5ceae4f69e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int OutputPropertiesSetup::create_triangles_statistical_property</definition>
+        <argsstring>(std::string name, std::string unit, double dimension=1.0)</argsstring>
+        <name>create_triangles_statistical_property</name>
+        <qualifiedname>OutputPropertiesSetup::create_triangles_statistical_property</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>unit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_properties.h" line="37" column="9" bodyfile="source/c++/rocky20/api/rocky_output_properties.cpp" bodystart="47" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="structOutputPropertiesSetup_1a12106fcad2265e2bc10f74922f4acbb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int OutputPropertiesSetup::create_vertex_triangles_instantaneous_property</definition>
+        <argsstring>(std::string name, std::string unit, double dimension=1.0)</argsstring>
+        <name>create_vertex_triangles_instantaneous_property</name>
+        <qualifiedname>OutputPropertiesSetup::create_vertex_triangles_instantaneous_property</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>unit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_properties.h" line="39" column="9" bodyfile="source/c++/rocky20/api/rocky_output_properties.cpp" bodystart="53" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="structOutputPropertiesSetup_1a8de6cd48e2d3f1309b88bd51b3786137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int OutputPropertiesSetup::create_vertex_triangles_statistical_property</definition>
+        <argsstring>(std::string name, std::string unit, double dimension=1.0)</argsstring>
+        <name>create_vertex_triangles_statistical_property</name>
+        <qualifiedname>OutputPropertiesSetup::create_vertex_triangles_statistical_property</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>unit</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dimension</declname>
+          <defval>1.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="source/c++/rocky20/api/rocky_output_properties.h" line="40" column="9" bodyfile="source/c++/rocky20/api/rocky_output_properties.cpp" bodystart="59" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="source/c++/rocky20/api/rocky_output_properties.h" line="31" column="1" bodyfile="source/c++/rocky20/api/rocky_output_properties.h" bodystart="32" bodyend="44"/>
+    <listofallmembers>
+      <member refid="structOutputPropertiesSetup_1a62d90d6a99adf2d233510d6e9e2448d2" prot="public" virt="non-virtual"><scope>OutputPropertiesSetup</scope><name>boundary_property_infos</name></member>
+      <member refid="structOutputPropertiesSetup_1a4781dd52285c7159ea9cd60997c38765" prot="public" virt="non-virtual"><scope>OutputPropertiesSetup</scope><name>create_particles_instantaneous_property</name></member>
+      <member refid="structOutputPropertiesSetup_1af92d536e736474e531508a7dc7553fc9" prot="public" virt="non-virtual"><scope>OutputPropertiesSetup</scope><name>create_particles_statistical_property</name></member>
+      <member refid="structOutputPropertiesSetup_1a63d74ed658135324d73f293470548711" prot="public" virt="non-virtual"><scope>OutputPropertiesSetup</scope><name>create_triangles_instantaneous_property</name></member>
+      <member refid="structOutputPropertiesSetup_1a12fd8d1f128ae104ebf4d5ceae4f69e4" prot="public" virt="non-virtual"><scope>OutputPropertiesSetup</scope><name>create_triangles_statistical_property</name></member>
+      <member refid="structOutputPropertiesSetup_1a12106fcad2265e2bc10f74922f4acbb4" prot="public" virt="non-virtual"><scope>OutputPropertiesSetup</scope><name>create_vertex_triangles_instantaneous_property</name></member>
+      <member refid="structOutputPropertiesSetup_1a8de6cd48e2d3f1309b88bd51b3786137" prot="public" virt="non-virtual"><scope>OutputPropertiesSetup</scope><name>create_vertex_triangles_statistical_property</name></member>
+      <member refid="structOutputPropertiesSetup_1af4b8c38692032e77f849fd8f97429077" prot="public" virt="non-virtual"><scope>OutputPropertiesSetup</scope><name>particle_property_infos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

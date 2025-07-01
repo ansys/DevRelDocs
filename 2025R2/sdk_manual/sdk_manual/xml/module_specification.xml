@@ -1,0 +1,566 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="module_specification" kind="page">
+    <compoundname>module_specification</compoundname>
+    <title>Module specification</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><anchor id="module_specification_1md_docs_2sdk__manual_2module__specification"/></para>
+<para>The way that a custom <ref refid="glossary_1module" kindref="member">module</ref> must interact with the Rocky UI is specified by means of a Python file. From this file, Rocky extracts two primary kinds of information:</para>
+<para><itemizedlist>
+<listitem><para>The definition of the custom parameters that must be displayed at specific places within the Rocky UI.</para>
+</listitem><listitem><para>Whether or not the module implements a custom model that will override a built-in model or will be added to the existing built-in models in Rocky.</para>
+</listitem></itemizedlist>
+</para>
+<para>The way in which these specifications must be coded is described throughout this chapter. It is assumed that users have a basic knowledge of the Python language.</para>
+<sect2 id="module_specification_1autotoc_md18">
+<title>Structure of the specification file</title><para>The first operation that must be made in the file is the importation of some utilities, most of them defined by the Rocky Solver SDK itself. The following block includes the most commonly needed utilities:</para>
+<para><programlisting><codeline><highlight class="normal">from<sp/>pathlib<sp/>import<sp/>Path</highlight></codeline>
+<codeline><highlight class="normal">from<sp/>rocky20.addins.addin_models<sp/>import<sp/>data_model,<sp/>container_model</highlight></codeline>
+<codeline><highlight class="normal">from<sp/>rocky20.addins.addin_specs<sp/>import<sp/>RockyAddinSpecs</highlight></codeline>
+<codeline><highlight class="normal">from<sp/>rocky20.addins.addin_types<sp/>import<sp/>(Boolean,<sp/>Quantity,<sp/>String,<sp/>List,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ScalarProperties)</highlight></codeline>
+<codeline><highlight class="normal">from<sp/>yapsy.IPlugin<sp/>import<sp/>IPlugin</highlight></codeline>
+</programlisting></para>
+<para>The most important class that must be defined in the file is the one derived from the <computeroutput>IPlugin</computeroutput> class because it implements the method <computeroutput>get_addin_specs</computeroutput>. It is through the <computeroutput>get_addin_specs</computeroutput> method that Rocky will receive in runtime all the specifications for the module.</para>
+<para><programlisting><codeline><highlight class="normal">class<sp/>CustomModule(IPlugin):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>def<sp/>get_addin_specs(self):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>CustomModuleSpecs</highlight></codeline>
+</programlisting></para>
+<para>In the example above, <computeroutput>CustomModuleSpecs</computeroutput> is a class that will contain all the specifications for the module. Its implementation can follow this general example:</para>
+<para><programlisting><codeline><highlight class="normal">class<sp/>CustomModuleSpecs(RockyAddinSpecs):</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/>NAME</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>model<sp/>=<sp/>CustomGeneralParameters</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>instantaneous_breakage_model<sp/>=<sp/>CustomModel</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>material_properties<sp/>=<sp/>CustomMaterialProperties</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>material_interaction_properties<sp/>=<sp/>CustomInteractionProperties</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>geometry_properties<sp/>=<sp/>CustomGeometryProperties</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>particle_group_properties<sp/>=<sp/>CustomParticleGroupProperties</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>particle_input_properties<sp/>=<sp/>CustomParticleInputProperties</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>def<sp/>CreateAddin(cls):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>cls.CreateDynamicAddin(Path(__file__).parent,<sp/>&apos;custom_module_name&apos;)</highlight></codeline>
+</programlisting></para>
+<para>The only items whose inclusion is mandatory in this code block are the definition of the variables <computeroutput>name</computeroutput> and <computeroutput>model</computeroutput>, besides the definition of the method <computeroutput>CreateAddin</computeroutput>. The meaning of each one of the members in this class is described as follows:</para>
+<para><itemizedlist>
+<listitem><para><computeroutput>name</computeroutput> is the string label that will identify the module in the Rocky UI.</para>
+</listitem><listitem><para><computeroutput>model</computeroutput> is the set of specifications for the module&apos;s general parameters. These parameters are not associated to specific entities of the Rocky UI.</para>
+</listitem><listitem><para><computeroutput>instantaneous_breakage_model</computeroutput> is an example specification of a new custom model for an existing category of models in Rocky. In this case, the module is indicating that it implements a custom model for <ref refid="glossary_1instantaneous-breakage" kindref="member">instantaneous breakage</ref>. All customizable models in the current version of Rocky are listed in Table 2.1</para>
+</listitem><listitem><para><computeroutput>material_properties</computeroutput> is the set of specifications of the module&apos;s parameters that Rocky must associate to <ref refid="glossary_1material" kindref="member">materials</ref>.</para>
+</listitem><listitem><para><computeroutput>material_interaction_properties</computeroutput> is the set of specifications of the module&apos;s parameters that Rocky must associate to <ref refid="glossary_1material-interaction" kindref="member">materials interactions</ref>.</para>
+</listitem><listitem><para><computeroutput>geometry_properties</computeroutput> is the set of specifications of the module&apos;s parameters that Rocky must associate to <ref refid="glossary_1boundary" kindref="member">boundaries</ref> (geometries).</para>
+</listitem><listitem><para><computeroutput>particle_group_properties</computeroutput> is the set of specifications of the module&apos;s parameters that Rocky must associate to <ref refid="glossary_1particle-group" kindref="member">particle groups</ref>.</para>
+</listitem><listitem><para><computeroutput>particle_input_properties</computeroutput> is the set of specifications of particle <ref refid="glossary_1scalar" kindref="member">scalar</ref> variables that need an initial value when particles enter into the solution domain.</para>
+</listitem><listitem><para><computeroutput>CreateAddin</computeroutput> is a method that handles the loading of the compiled library file for the module when the simulation starts.</para>
+</listitem></itemizedlist>
+</para>
+<para>For the specification of a module to be complete, each one of the variables in the block above must be properly defined. The simplest case is <computeroutput>NAME</computeroutput>, which is a simple string label, for instance:</para>
+<para><programlisting><codeline><highlight class="normal">NAME<sp/>=<sp/>&apos;Custom<sp/>Module&apos;</highlight></codeline>
+</programlisting></para>
+<para>The other variables are in fact classes that contain the specification of each individual parameter needed by the module. Examples of the implementation of such classes are given in the following sections.</para>
+</sect2>
+<sect2 id="module_specification_1autotoc_md19">
+<title>Module general properties</title><para>Module general properties are not associated to specific entities in a Rocky UI as are the other types of properties described in the following sections. Therefore, these properties are displayed in the <bold>Data Editors</bold> panel associated to the module itself, when it is selected in the <bold>Data</bold> panel, as shown in the example of Figure 2.1.</para>
+<para><image type="html" name="model_param_1.png" width="30%"></image>
+ <image type="latex" name="model_param_1.png"></image>
+ <image type="rtf" name="model_param_1.png"></image>
+ <image type="docbook" name="model_param_1.png"></image>
+ <image type="xml" name="model_param_1.png"></image>
+</para>
+<para><emphasis>Figure 2.1: General module parameters in the Data Editors panel of the Rocky UI</emphasis></para>
+<para>An example of the specification of general parameters for a fictitious module is shown below:</para>
+<para><programlisting><codeline><highlight class="normal">@data_model(icon=None,<sp/>caption=NAME)</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>CustomGeneralParameters:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>custom_boolean<sp/>=<sp/>Boolean(value=True,<sp/>caption=&apos;Custom<sp/>Boolean<sp/>Parameter&apos;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>custom_quantity<sp/>=<sp/>Quantity(value=0.0,<sp/>unit=&apos;m&apos;,<sp/>caption=&apos;Custom<sp/>Quantity&apos;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>custom_string<sp/>=<sp/>String(value=&apos;string&apos;,<sp/>caption=&apos;Custom<sp/>String&apos;)</highlight></codeline>
+</programlisting></para>
+<para>This class defines three parameters, each one of a different type. The first one is a boolean parameter, the second one is a numeric parameter, and the third one is a string. When the module is activated in the Rocky UI, these parameters are displayed in the <bold>Data</bold> panel, as shown in Figure 2.1. When setting up a project, users can define proper values for these parameters, and Rocky will deliver them to the module when the simulation starts. In the specification of the parameters, it must be indicated the default value (the first argument) and the caption that must displayed in the UI (the last argument). Additionally, the corresponding unit must be specified for numeric parameters (the second argument). Units must be specified as strings representing valid units. Although Rocky supports different unit systems, it is advisable that custom modules define parameters using only units from the SI system. Otherwise, all necessary unit conversions will have to be handled by the custom C++ code that implements the module&apos;s functionality.</para>
+<para>Another possibility of specifying parameters is through lists, which are useful when a module must allow users to create a number of similar parameters. These lists are displayed in the UI as tables, as shown in the example of Figure 2.2. Rows in these tables can be added or removed interactively using the tools provided by the UI. In order to specify a list as the one in the example, the following code must be included:</para>
+<para><programlisting><codeline><highlight class="normal">@data_model(icon=None,<sp/>caption=NAME)</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>CustomGeneralParameters:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>custom_list<sp/>=<sp/>List(item_class=CustomListSpecs,<sp/>caption=&apos;Custom<sp/>List&apos;)</highlight></codeline>
+</programlisting></para>
+<para><image type="html" name="model_param_2.png" width="30%"></image>
+ <image type="latex" name="model_param_2.png"></image>
+ <image type="rtf" name="model_param_2.png"></image>
+ <image type="docbook" name="model_param_2.png"></image>
+ <image type="xml" name="model_param_2.png"></image>
+</para>
+<para><emphasis>Figure 2.2: General list displayed as a table in the Rocky UI.</emphasis></para>
+<para>Here, <computeroutput>CustomListSpecs</computeroutput> is a class that includes the specification of the parameters in a row of the table. It is possible to specify any number of parameters per row, belonging to any of the three simple types mentioned above: numeric, boolean or string. The parameters in the Figure 2.2 example are specified as follows:</para>
+<para><programlisting><codeline><highlight class="normal">@data_model(caption=&apos;ListItem&apos;)</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>CustomListSpecs:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>custom_list__boolean<sp/>=<sp/>Boolean(value=True,<sp/>caption=&apos;Boolean&apos;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>custom_list_quantity_1<sp/>=<sp/>Quantity(value=0.1,<sp/>unit=&apos;s&apos;,<sp/>caption=&apos;Quantity<sp/>1&apos;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>custom_list_quantity_2<sp/>=<sp/>Quantity(value=0.2,<sp/>unit=&apos;m&apos;,<sp/>caption=&apos;Quantity<sp/>2&apos;)</highlight></codeline>
+</programlisting></para>
+</sect2>
+<sect2 id="module_specification_1autotoc_md20">
+<title>Module material properties</title><para>A module can add custom properties to <ref refid="glossary_1material" kindref="member">materials</ref> apart from the ones defined by default in Rocky. The specification of these new properties must follow the pattern described in the previous section for the general module parameters. The difference is that the custom material properties will be displayed in the <bold>Data Editors</bold> panel associated to each one of the materials defined in a project, as shown in the example of Figure 2.3.</para>
+<para><image type="html" name="mat_prop.png" width="30%"></image>
+ <image type="latex" name="mat_prop.png"></image>
+ <image type="rtf" name="mat_prop.png"></image>
+ <image type="docbook" name="mat_prop.png"></image>
+ <image type="xml" name="mat_prop.png"></image>
+</para>
+<para><emphasis>Figure 2.3: Module material properties displayed in the Rocky UI</emphasis></para>
+<para>The specification of the parameters shown in the example is defined as follows:</para>
+<para><programlisting><codeline><highlight class="normal">@container_model()</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>CustomMaterialProperties:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>mat_prop_1<sp/>=<sp/>Quantity(value=0.1,<sp/>unit=&apos;m&apos;,<sp/>caption=&apos;Custom<sp/>Material<sp/>Property<sp/>1&apos;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>mat_prop_2<sp/>=<sp/>Quantity(value=300.0,<sp/>unit=&apos;K&apos;,<sp/>caption=&apos;Custom<sp/>Material<sp/>Property<sp/>2&apos;)</highlight></codeline>
+</programlisting></para>
+</sect2>
+<sect2 id="module_specification_1autotoc_md21">
+<title>Module materials interactions properties</title><para>Rocky can associate module parameters to <ref refid="glossary_1material-interaction" kindref="member">materials interactions</ref> so that each pair of materials can have different values. The specification of these parameters is similar to the one described in section for the general parameters. In principle, it is possible to specify parameters of any of the types mentioned there.</para>
+<para>The materials interactions parameters of a module are displayed as shown in Figure 2.4, below the built-in materials interactions parameters in the <bold>Data Editors</bold> panel.</para>
+<para><image type="html" name="mat_inter.png" width="30%"></image>
+ <image type="latex" name="mat_inter.png"></image>
+ <image type="rtf" name="mat_inter.png"></image>
+ <image type="docbook" name="mat_inter.png"></image>
+ <image type="xml" name="mat_inter.png"></image>
+</para>
+<para><emphasis>Figure 2.4: Module materials interaction parameters displayed in the Rocky UI.</emphasis></para>
+<para>The specification of the parameters shown in the example is defined as follows:</para>
+<para><programlisting><codeline><highlight class="normal">@container_model()</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>CustomInteractionProperties:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>custom_mi_quantity_1<sp/>=<sp/>Quantity(value=0.0,<sp/>unit=&apos;Pa&apos;,<sp/>caption=&apos;Custom<sp/>Quantity<sp/>1&apos;)</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>custom_mi_quantity_2<sp/>=<sp/>Quantity(value=7.0,<sp/>unit=&apos;-&apos;,<sp/>caption=&apos;Custom<sp/>Quantity<sp/>2&apos;)</highlight></codeline>
+</programlisting></para>
+</sect2>
+<sect2 id="module_specification_1autotoc_md22">
+<title>Module geometry properties</title><para>When Rocky associates module parameters to each one of the individual boundaries in a project, those parameters are called geometry properties. In the Rocky UI, they are displayed in the <bold>Data Editors</bold> panel as shown in Figure 2.5, when an individual geometry is selected in the <bold>Data</bold> panel.</para>
+<para><image type="html" name="geom_prop.png" width="30%"></image>
+ <image type="latex" name="geom_prop.png"></image>
+ <image type="rtf" name="geom_prop.png"></image>
+ <image type="docbook" name="geom_prop.png"></image>
+ <image type="xml" name="geom_prop.png"></image>
+</para>
+<para><emphasis>Figure 2.5: Module geometry properties displayed in the Rocky UI.</emphasis></para>
+<para>Parameters of any of the types described in section Module General properties (numeric, boolean, string or list) can be defined. The corresponding specification of the parameter included in the example is defined as follows:</para>
+<para><programlisting><codeline><highlight class="normal">@container_model()</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>CustomGeometryProperties:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>custom_property<sp/>=<sp/>Quantity(value=0.0,<sp/>unit=&apos;N&apos;,<sp/>caption=&apos;Custom<sp/>Geometry<sp/>Property&apos;)</highlight></codeline>
+</programlisting></para>
+</sect2>
+<sect2 id="module_specification_1autotoc_md23">
+<title>Module particle group properties</title><para>When this type of property is defined in a module, different values can be associated to every <ref refid="glossary_1particle-group" kindref="member">particle group</ref> in a project. In the Rocky UI, when a specific particle group is selected in the <bold>Data</bold> panel, a new sub-tab <bold>Modules</bold> must appear in the <bold>Data Editors</bold> panel, including the custom particle group&apos;s properties defined for all active modules in the project. An example is shown in Figure 2.6. As with other cases, parameters of any of the basic types can be defined (numeric, string, boolean or list). The specification of the parameter in the example is defined as follows:</para>
+<para><programlisting><codeline><highlight class="normal">@container_model()</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>CustomParticleGroupProperties:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>custom_pg_property<sp/>=<sp/>Quantity(value=0.0,<sp/>unit=&apos;K&apos;,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>caption=&apos;Custom<sp/>Particle<sp/>Group<sp/>Property&apos;)</highlight></codeline>
+</programlisting></para>
+<para><image type="html" name="pg_prop.png" width="30%"></image>
+ <image type="latex" name="pg_prop.png"></image>
+ <image type="rtf" name="pg_prop.png"></image>
+ <image type="docbook" name="pg_prop.png"></image>
+ <image type="xml" name="pg_prop.png"></image>
+</para>
+<para><emphasis>Figure 2.6: Module particle group properties displayed in the Rocky UI</emphasis></para>
+</sect2>
+<sect2 id="module_specification_1autotoc_md24">
+<title>Module particle input properties</title><para>Rocky supports the ability to associate custom values to every particle in a simulation. In Rocky, these values are associated to special variables called particle scalars. They can be used to store particle-related data calculated by the module during the execution of a simulation. When it is necessary to assign a specific initial value to those particle scalars at the moment particles enter the simulation, a particle input property can be defined. In this way, Rocky will include in the <bold>Data Editors</bold> panel corresponding to a <bold>Input</bold> an additional sub-tab for defining module-specific particle input data, as shown in Figure 2.7 for a <bold>Continuous Injection</bold>. An identical sub-tab will be included also for a <bold>Volume Fill Input</bold>. On the other hand, for a <bold>Custom Input</bold>, this same information will appear at the bottom of the corresponding tab, in a section labeled with the name of the module. The values of the parameters defined in that section will be applied to all particles in the associated particle group, since it is not possible to associate individual values per particle as it is done with the built-in particle properties.</para>
+<para><image type="html" name="input_prop_sc.png" width="30%"></image>
+ <image type="latex" name="input_prop_sc.png"></image>
+ <image type="rtf" name="input_prop_sc.png"></image>
+ <image type="docbook" name="input_prop_sc.png"></image>
+ <image type="xml" name="input_prop_sc.png"></image>
+</para>
+<para><emphasis>Figure 2.7: Custom scalar displayed in the Rocky UI with the initial value set in the module’s particle-input properties sub-tab.</emphasis></para>
+<para>The corresponding specification of the particle input property for the example shown in Figure 2.7 is defined as follows:</para>
+<para><programlisting><codeline><highlight class="normal">@container_model()</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>CustomParticleInputProperties:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>custom_scalar<sp/>=<sp/>ScalarProperties(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>value=1.0,<sp/>unit=&apos;kg&apos;,<sp/>caption=&apos;Custom<sp/>Scalar&apos;,<sp/>output=True,<sp/>input=True</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+</programlisting></para>
+<para>A specification like the one shown above defines both a new particle scalar variable and a custom particle input property. As shown in Figure 2.7, in this way users will be able to enter the initial value of the new particle scalar variable through the Rocky UI. The last argument <computeroutput>input=True</computeroutput> in the scalar variable specification enables that option. The other additional argument, <computeroutput>output=True</computeroutput>, instructs Rocky that the values of the new particle scalar must be stored in disk throughout a simulation, and be able to be displayed in a 3D view window at output times, as shown in Figure 2.7.</para>
+</sect2>
+<sect2 id="module_specification_1autotoc_md25">
+<title>Specification of custom models</title><para>One of the main motivations for developing custom modules is to add new models and capabilities to Rocky. Currently, most of the categories of models are customizable using the Rocky Solver SDK. Table 2.1 summarizes all categories of models that can be implemented in the current version of Rocky through custom modules.</para>
+<para>As mentioned in section Structure of the specification file, the module specification file must inform Rocky which models the module is actually implementing. Based on this specification, Rocky will either override built-in models in some categories or add the implemented custom models to the list of available built-in models in other categories. In order to specify that a module will implement a custom model, the specification class must include an attribute member with a predefined name, which must correspond to a given model category. The second column of Table 2.1 lists all attribute names recognized by Rocky as model categories.</para>
+<para><table rows="23" cols="3"><row>
+<entry thead="yes"><para>Model category   </para>
+</entry><entry thead="yes"><para>Class attribute   </para>
+</entry><entry thead="yes"><para>Behavior    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Contact force, normal component   </para>
+</entry><entry thead="no"><para>normal_force_model   </para>
+</entry><entry thead="no"><para>override    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Contact force, tangential component   </para>
+</entry><entry thead="no"><para>tangential_force_model   </para>
+</entry><entry thead="no"><para>override    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Impact energy for instantaneous breakage   </para>
+</entry><entry thead="no"><para>impact_energy_model   </para>
+</entry><entry thead="no"><para>override    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Rolling resistance moments   </para>
+</entry><entry thead="no"><para>rolling_resistance_model   </para>
+</entry><entry thead="no"><para>override    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Adhesion force   </para>
+</entry><entry thead="no"><para>adhesion_model   </para>
+</entry><entry thead="no"><para>override    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Joint mechanics in flexible particles 2   </para>
+</entry><entry thead="no"><para>joint_model   </para>
+</entry><entry thead="no"><para>addition    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Discrete breakage of flexible particles   </para>
+</entry><entry thead="no"><para>joint_breakage_model   </para>
+</entry><entry thead="no"><para>addition    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Instantaneous breakage of rigid polyhedral particles   </para>
+</entry><entry thead="no"><para>instantaneous_breakage_model   </para>
+</entry><entry thead="no"><para>addition    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Distribution of fragment sizes for instantaneous breakage   </para>
+</entry><entry thead="no"><para>fragments_size_distribution_model   </para>
+</entry><entry thead="no"><para>addition    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Wear of surfaces due particle collisions   </para>
+</entry><entry thead="no"><para>geometries_wear_model   </para>
+</entry><entry thead="no"><para>addition    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Conduction heat transfer rate at contacts   </para>
+</entry><entry thead="no"><para>heat_conduction_model   </para>
+</entry><entry thead="no"><para>override    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Integration of the particle energy equation 2   </para>
+</entry><entry thead="no"><para>thermal_integration_model   </para>
+</entry><entry thead="no"><para>override    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Custom kernel motion for moving geometries   </para>
+</entry><entry thead="no"><para>geometries_motion   </para>
+</entry><entry thead="no"><para>–    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>CFD coupling, drag force   </para>
+</entry><entry thead="no"><para>cfd_drag_law_model   </para>
+</entry><entry thead="no"><para>addition    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>CFD coupling, lift force   </para>
+</entry><entry thead="no"><para>cfd_lift_law_model   </para>
+</entry><entry thead="no"><para>addition    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>CFD coupling, virtual mass force   </para>
+</entry><entry thead="no"><para>cfd_virtual_mass_law_model   </para>
+</entry><entry thead="no"><para>addition    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>CFD coupling, flow-induced torque   </para>
+</entry><entry thead="no"><para>cfd_torque_law_model   </para>
+</entry><entry thead="no"><para>addition    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>CFD coupling, convection heat transfer rate   </para>
+</entry><entry thead="no"><para>cfd_convection_law_model   </para>
+</entry><entry thead="no"><para>addition    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>SPH heat transfer between fluid elements and between fluid elements and geometries   </para>
+</entry><entry thead="no"><para>sph_heat_transfer_model   </para>
+</entry><entry thead="no"><para>override    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>All SPH forces between fluid elements and between fluid elements and geometries   </para>
+</entry><entry thead="no"><para>sph_force_model   </para>
+</entry><entry thead="no"><para>override    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Only SPH viscous forces between fluid elements and between fluid elements and geometries   </para>
+</entry><entry thead="no"><para>sph_viscous_force_model   </para>
+</entry><entry thead="no"><para>override    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>SPH forces due surface tension   </para>
+</entry><entry thead="no"><para>sph_surface_tension_model   </para>
+</entry><entry thead="no"><para>override   </para>
+</entry></row>
+</table>
+</para>
+<para><emphasis>Table 2.1: Class attributes associated to customizable model categories in Rocky</emphasis></para>
+<para>The support of custom SPH forces through the <computeroutput>sph_force_model</computeroutput> specification was an experimental feature in previous versions of Rocky. It overrides all force values calculated internally, including for instance, pressure, viscous and surface tension forces. Therefore, a custom module including that specification is supposed to implement the calculation of all those forces.</para>
+<para>The following is an example of the specification of a module that implements a custom contact model, including the normal and tangential components of the contact force:</para>
+<para><programlisting><codeline><highlight class="normal">class<sp/>CustomModuleSpecs(RockyAddinSpecs):</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/>&apos;Custom<sp/>Module<sp/>Example&apos;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>model<sp/>=<sp/>CustomGeneralParameters</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>normal_force_model<sp/>=<sp/>CustomModel</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>tangential_force_model<sp/>=<sp/>CustomModel</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>def<sp/>CreateAddin(cls):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>cls.CreateDynamicAddin(Path(__file__).parent,<sp/>&apos;custom_module_name&apos;)</highlight></codeline>
+</programlisting></para>
+<para>Currently it is not possible to associate properties to a custom model itself, therefore CustomModel in the example above can be an empty class, defined as:</para>
+<para><programlisting><codeline><highlight class="normal">@container_model()</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>CustomModel:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>pass</highlight></codeline>
+</programlisting></para>
+<para>As mentioned earlier, there are two possible ways in which the Rocky UI may treat a custom model:</para>
+<para><itemizedlist>
+<listitem><para>For model categories with global scope, like contact force models, Rocky will override any other model in the category if a module that implements a custom model in that category is enabled in a project. In that situation, all calculations related to the model category will be performed by the code in the custom module. As an illustration, Figure 2.8 shows how the contact force model categories are displayed in the <bold>Physics</bold> panel when the module specified by the previous code example is turned on in the project. When this situation occurs, it won&apos;t be possible to select any other model in those categories until the referred module is turned off. All model categories that behave in this way are marked with the word &quot;override&quot; in the third column of Table 2.1</para>
+</listitem></itemizedlist>
+</para>
+<para><image type="html" name="mod_override.png" width="30%"></image>
+ <image type="latex" name="mod_override.png"></image>
+ <image type="rtf" name="mod_override.png"></image>
+ <image type="docbook" name="mod_override.png"></image>
+ <image type="xml" name="mod_override.png"></image>
+</para>
+<para><emphasis>Figure 2.8: Example of custom models overriding other models in the Rocky UI.</emphasis></para>
+<para><itemizedlist>
+<listitem><para>For model categories with scope per particle group or geometry, Rocky will add the custom model implemented by a module to the list of available models in the category. This can be observed in the example shown in Figure 2.9, in which a custom <ref refid="glossary_1joint" kindref="member">joint</ref> model implemented by a module named <emphasis>Custom Module Example</emphasis> is listed along with the built-in joint models. All model categories that behave in this way are marked with the word &quot;addition&quot; in the third column of Table 2.1.</para>
+</listitem></itemizedlist>
+</para>
+<para><image type="html" name="mod_add.png" width="30%"></image>
+ <image type="latex" name="mod_add.png"></image>
+ <image type="rtf" name="mod_add.png"></image>
+ <image type="docbook" name="mod_add.png"></image>
+ <image type="xml" name="mod_add.png"></image>
+</para>
+<para><emphasis>Figure 2.9: Example of a custom model being added to the available models in a category.</emphasis></para>
+<para>Although any module could be, in principle, include the implementation of several custom models, it is advisable to restrict only one custom model per module. The exception to this rule would be those models that have strong interdependence or that may share data between them. The typical example of the former case is the trio formed by the normal contact force, the tangential force and the impact energy models, in which the second one depends on the first, and the third one may depend on the other two. An example of the latter case is the pair of models instantaneous breakage and fragment size distribution, in which the first one can calculate custom data needed by the second one.</para>
+</sect2>
+<sect2 id="module_specification_1autotoc_md26">
+<title>Specification of variable properties</title><para>Since Rocky 2022R1, the Rocky Solver SDK gives developers the ability of setting values of selected physical properties during a simulation. In that way, properties that normally would have constant values during a whole simulation become variable properties that may depend on time, position or other simulation variables.</para>
+<para>A module that will calculate and set values of such variable properties must indicate in the specification file which properties it will override. An example of how that specification must be done is shown in the following code snippet:</para>
+<para><programlisting><codeline><highlight class="normal">class<sp/>CustomModuleSpecs(RockyAddinSpecs):</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>name<sp/>=<sp/>&apos;Custom<sp/>Properties<sp/>Example&apos;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>model<sp/>=<sp/>CustomGeneralParameters</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>particle_material_properties<sp/>=<sp/>ParticleVariableProperties</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>triangle_material_properties<sp/>=<sp/>TriangleVariableProperties</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>def<sp/>CreateAddin(cls):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>cls.CreateDynamicAddin(Path(__file__).parent,<sp/>&apos;custom_module_name&apos;)</highlight></codeline>
+</programlisting></para>
+<para>The two specification keys <computeroutput>particle_material_properties</computeroutput> and <computeroutput>triangle_material_properties</computeroutput> indicate that the module will override material properties affecting particles and boundary triangles. The Table 2.2 lists the four categories of properties whose values can be overridden by custom modules, indicating the corresponding specification keys that must be used.</para>
+<para><table rows="6" cols="2"><row>
+<entry thead="yes"><para>Category of properties   </para>
+</entry><entry thead="yes"><para>Specification key    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Material properties used by particles   </para>
+</entry><entry thead="no"><para>particle_material_properties    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Material properties used by boundaries   </para>
+</entry><entry thead="no"><para>triangle_material_properties    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Material interaction properties used in particle-to-particle contacts   </para>
+</entry><entry thead="no"><para>particle_material_interaction_properties    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Material interaction properties used in particle-to-boundary contacts   </para>
+</entry><entry thead="no"><para>triangle_material_interaction_properties    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Geometry properties   </para>
+</entry><entry thead="no"><para>geometry_triangle_properties   </para>
+</entry></row>
+</table>
+</para>
+<para><emphasis>Table 2.2: Specification keys for different categories of properties.</emphasis></para>
+<para>Besides indicating the categories of properties, the module must specify which individual properties on each category will be overridden. This must be done by defining additional classes, as indicated in the following code snippets:</para>
+<para><programlisting><codeline><highlight class="normal">@container_model()</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>ParticleVariableProperties:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>thermal_conductivity<sp/>=<sp/>ThermalConductivity</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>specific_heat<sp/>=<sp/>SpecificHeat</highlight></codeline>
+</programlisting></para>
+<para><linebreak/>
+</para>
+<para><programlisting><codeline><highlight class="normal">@container_model()</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>TriangleVariableProperties:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>thermal_conductivity<sp/>=<sp/>ThermalConductivity</highlight></codeline>
+</programlisting></para>
+<para>Regarding the properties for particles, the first snippet code above indicates that the thermal conductivity and the specific heat will be overridden by values stored in particle scalars that Rocky will define internally. By specifying that, the module is taking responsibility for setting values of those properties for every particle in a simulation. That implies that values specified through the Rocky UI for those properties will be ignored by the Rocky solver. Table 2.3 lists all the material properties associated to particles that can be overridden by custom modules in the current version of Rocky.</para>
+<para><table rows="4" cols="3"><row>
+<entry thead="yes"><para>Type of property   </para>
+</entry><entry thead="yes"><para>Specification key   </para>
+</entry><entry thead="yes"><para>Rocky&apos;s internal scalar    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Thermal conductivity   </para>
+</entry><entry thead="no"><para>thermal_conductivity   </para>
+</entry><entry thead="no"><para>ThermalConductivity    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Specific heat   </para>
+</entry><entry thead="no"><para>specific_heat   </para>
+</entry><entry thead="no"><para>SpecificHeat    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Poisson’s ratio   </para>
+</entry><entry thead="no"><para>poisson_ratio   </para>
+</entry><entry thead="no"><para>PoissonRatio   </para>
+</entry></row>
+</table>
+</para>
+<para><emphasis>Table 2.3: Particle material properties whose values may be overridden by custom modules</emphasis></para>
+<para>Similarly, the second code snippet shown above indicates that the module will replace also the thermal conductivity values specified for materials associated to boundaries. In that way, the constant value specified normally for a whole boundary will be effectively replaced by a set of values, one for each triangle making up a boundary, that the module will have to specify within the C++ code associated to it. Rocky will use internally a triangle scalar for storing the values of each one of the properties that the module will override. Table 2.4 lists the boundary properties that a custom module can redefine as variable properties in the current version of Rocky.</para>
+<para><table rows="3" cols="3"><row>
+<entry thead="yes"><para>Type of property   </para>
+</entry><entry thead="yes"><para>Specification key   </para>
+</entry><entry thead="yes"><para>Rocky&apos;s internal scalar    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Thermal conductivity   </para>
+</entry><entry thead="no"><para>thermal_conductivity   </para>
+</entry><entry thead="no"><para>ThermalConductivity    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Poisson’s ratio   </para>
+</entry><entry thead="no"><para>poisson_ratio   </para>
+</entry><entry thead="no"><para>PoissonRatio   </para>
+</entry></row>
+</table>
+</para>
+<para><emphasis>Table 2.4: Boundary material properties that may be overridden by custom modules, setting values per boundary triangle</emphasis></para>
+<para>The Rocky Solver SDK also supports the substitution of the material interaction properties indicated in Table 2.5. In that case, the constant values originally specified for those properties are replaced by a set of values, each one for a particle-to-particle contact or a particle-to-boundary contact, which Rocky will store internally in contact scalars. The specification of the overriding of material interaction properties is equivalent to the one shown previously for material properties. The main difference is that it uses <computeroutput>particle_material_interaction_properties</computeroutput> or <computeroutput>triangle_material_interaction_properties</computeroutput> as specification key, as indicated in Table 2.2.</para>
+<para><table rows="4" cols="3"><row>
+<entry thead="yes"><para>Type of property   </para>
+</entry><entry thead="yes"><para>Specification key   </para>
+</entry><entry thead="yes"><para>Rocky&apos;s internal scalar    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Coefficient of restitution   </para>
+</entry><entry thead="no"><para>restitution_coefficient   </para>
+</entry><entry thead="no"><para>RestitutionCoefficient    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Coefficient of static friction   </para>
+</entry><entry thead="no"><para>static_friction   </para>
+</entry><entry thead="no"><para>StaticFriction    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Coefficient of dynamic friction   </para>
+</entry><entry thead="no"><para>dynamic_friction   </para>
+</entry><entry thead="no"><para>DynamicFriction   </para>
+</entry></row>
+</table>
+</para>
+<para><emphasis>Table 2.5: Material interaction properties whose values may be overridden by custom modules, for both particle-to-particle and particle-to-boundary contacts.</emphasis></para>
+<para>The Rocky Solver SDK also allows developers to override the temperature prescribed per geometry, replacing it by a set of temperature values per triangle. As shown in Table 2.6, currently this is the only geometry property that is enabled to be replaced by a custom module. An example is presented later on in section <ref refid="usage_examples_1a-module-implementing-variable-properties" kindref="member">A module implementing variable properties</ref> that shows how a module can perform that replacement.</para>
+<para><table rows="2" cols="3"><row>
+<entry thead="yes"><para>Type of property   </para>
+</entry><entry thead="yes"><para>Specification key   </para>
+</entry><entry thead="yes"><para>Rocky&apos;s internal scalar    </para>
+</entry></row>
+<row>
+<entry thead="no"><para>Temperature   </para>
+</entry><entry thead="no"><para>temperature   </para>
+</entry><entry thead="no"><para>Temperature   </para>
+</entry></row>
+</table>
+</para>
+</sect2>
+<sect2 id="module_specification_1autotoc_md27">
+<title>The .plugin file</title><para>In addition to the Python file containing an <computeroutput>IPlugin</computeroutput> subclass, every module needs a <computeroutput>.plugin</computeroutput> file that contains metadata about the module itself. Most of this metadata is not used by Rocky and serves informational purposes for module users only. However, the file itself is necessary because it is how the application discovers the module at runtime.</para>
+<para>The file is written in a configuration language similar to the INI format used in Microsoft Windows configuration files. Here&apos;s a sample of its contents and a description of the fields:</para>
+<para><programlisting><codeline><highlight class="normal">[Core]</highlight></codeline>
+<codeline><highlight class="normal">Name<sp/>=<sp/>Sample<sp/>Module</highlight></codeline>
+<codeline><highlight class="normal">Module<sp/>=<sp/>sample_module</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">[Documentation]</highlight></codeline>
+<codeline><highlight class="normal">Author<sp/>=<sp/>Module<sp/>Author</highlight></codeline>
+<codeline><highlight class="normal">Version<sp/>=<sp/>1.0</highlight></codeline>
+<codeline><highlight class="normal">Website<sp/>=<sp/>www.example.com</highlight></codeline>
+<codeline><highlight class="normal">Description<sp/>=<sp/>A<sp/>short<sp/>description<sp/>of<sp/>the<sp/>module&apos;s<sp/>functionalities.</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>You<sp/>can<sp/>span<sp/>multiple<sp/>lines<sp/>by<sp/>indenting<sp/>after<sp/>the<sp/>first<sp/>one,<sp/>like<sp/>this.</highlight></codeline>
+</programlisting></para>
+<para>where:</para>
+<para><itemizedlist>
+<listitem><para><computeroutput>Name</computeroutput> is the human-readable name of the Module, and should match the value provided in the specification class (section Structure of the specification file).</para>
+</listitem><listitem><para><computeroutput>Module</computeroutput> is the name of the Python file that contains the <computeroutput>IPlugin</computeroutput> subclass, without the <computeroutput>.py</computeroutput> extension.</para>
+</listitem><listitem><para><computeroutput>Author</computeroutput> is the name of the module&apos;s author.</para>
+</listitem><listitem><para><computeroutput>Version</computeroutput> is the version of the module itself, which is used when updating the module with new features and bug fixes (see section <ref refid="module_specification_1module-version" kindref="member">Module version</ref>).</para>
+</listitem><listitem><para><computeroutput>Website</computeroutput> is the website or email, used as contact information.</para>
+</listitem><listitem><para><computeroutput>Description</computeroutput> is a free-form short description of the module&apos;s purpose and features.</para>
+</listitem></itemizedlist>
+</para>
+<para>See Section <ulink url="annotated.xhtml">Reference</ulink> for an example plugin file.</para>
+</sect2>
+<sect2 id="module_specification_1module-version">
+<title>Module version</title><para>Every module has two versions: one &quot;explicit&quot; version, defined by the module author in its <computeroutput>.plugin</computeroutput> file (section Plugin File), and the version of the Solver SDK for which the module was built. While Rocky doesn&apos;t impose any kind of semantics on the author-defined version, it can be used to convey to module users the expected stability and completeness of modules.</para>
+<para>One suggestion is to use <ulink url="https://semver.org/">semantic versioning</ulink> when defining a module&apos;s version. Briefly, the module can follow a &quot;X.Y.Z&quot; format, where:</para>
+<para><itemizedlist>
+<listitem><para>Increment the major version <emphasis>X</emphasis> when your module changes in a way that is incompatible with previous versions;</para>
+</listitem><listitem><para>Increment the minor version <emphasis>Y</emphasis> when your module gains new features in a backwards-compatible way;</para>
+</listitem><listitem><para>Increment the patch version <emphasis>Z</emphasis> when your make backwards-compatible bug fixes only.</para>
+</listitem></itemizedlist>
+</para>
+<sect3 id="module_specification_1autotoc_md28">
+<title>Migrating between module versions</title><para>When a module is changed in a way that makes the new specification incompatible with the old one, the author can write a function to <emphasis>migrate</emphasis> module properties defined in the old format to the new one. This can happen, for example, when a Rocky project containing data saved in the old specification is opened when the new specification is available.</para>
+<para>The module author can indicate that the specification handles these migrations by implementing the following function in their specification subclass:</para>
+<para><programlisting><codeline><highlight class="normal">@container_model()</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>CustomModuleSpecs(RockyAddinSpecs):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>@classmethod</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>def<sp/>MigrateProperties(self,<sp/>previous,<sp/>current):</highlight></codeline>
+</programlisting></para>
+<para>where <computeroutput>previous</computeroutput> and <computeroutput>current</computeroutput> contain data related to the previous and current versions of the module, respectively. Each object contains the following attributes:</para>
+<para><itemizedlist>
+<listitem><para><computeroutput>addin_version</computeroutput> is the version of the module;</para>
+</listitem><listitem><para><computeroutput>sdk_version</computeroutput> is the version of the SDK;</para>
+</listitem><listitem><para><computeroutput>snapshot</computeroutput> is a Python dictionary containing the user-provided values for the properties described by the module&apos;s specification.</para>
+</listitem></itemizedlist>
+</para>
+<para>As an example: suppose that the author of <computeroutput>CustomModuleSpecs</computeroutput>&apos;s module renamed a material property from <computeroutput>old_name</computeroutput> to <computeroutput>new_name</computeroutput> and updated the module&apos;s version from &quot;1.0.0&quot; to &quot;2.0.0&quot;. When opening an existing project that was originally saved using version &quot;1.0.0&quot; of the module, the following code would copy the value of the property called <computeroutput>old_name</computeroutput> in the previous snapshot to the property called <computeroutput>new_name</computeroutput> in the current snapshot, for every material defined in the project that is being loaded:</para>
+<para><programlisting><codeline><highlight class="normal">@container_model()</highlight></codeline>
+<codeline><highlight class="normal">class<sp/>CustomModuleSpecs(RockyAddinSpecs):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>...</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>classmethod</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>def<sp/>MigrateProperties(self,<sp/>previous,<sp/>current):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>if<sp/>previous.addin_version<sp/>==<sp/>&apos;1.0.0&apos;<sp/>and<sp/>current.addin_version<sp/>==<sp/>&apos;2.0.0&apos;:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>previous_materials<sp/>=<sp/>previous.snapshot[&apos;material_properties&apos;]</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>current_materials<sp/>=<sp/>current.snapshot[&apos;material_properties&apos;]</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>for<sp/>previous_material,<sp/>current_material<sp/>in<sp/>zip(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>previous_materials.values(),<sp/>current_materials.values()</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>):</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>current_material[&apos;new_name&apos;]<sp/>=<sp/>previous_material[&apos;old_name&apos;]</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>True</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>return<sp/>False</highlight></codeline>
+</programlisting> </para>
+</sect3>
+</sect2>
+    </detaileddescription>
+    <location file="docs/sdk_manual/module_specification.md"/>
+  </compounddef>
+</doxygen>

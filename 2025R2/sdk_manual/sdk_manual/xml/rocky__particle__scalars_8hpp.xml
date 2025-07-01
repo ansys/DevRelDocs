@@ -1,0 +1,647 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="rocky__particle__scalars_8hpp" kind="file" language="C++">
+    <compoundname>rocky_particle_scalars.hpp</compoundname>
+    <includes refid="rocky__scalars_8h" local="yes">rocky_scalars.h</includes>
+    <includedby refid="rocky__api_8h" local="yes">source/c++/rocky20/api/rocky_api.h</includedby>
+    <includedby refid="rocky__cfd_8hpp" local="yes">source/c++/rocky20/api/rocky_cfd.hpp</includedby>
+    <includedby refid="rocky__particle_8hpp" local="no">source/c++/rocky20/api/rocky_particle.hpp</includedby>
+    <includedby refid="rocky__particle__api_8hpp" local="yes">source/c++/rocky20/api/rocky_particle_api.hpp</includedby>
+    <includedby refid="rocky__particle__scalars_8cpp" local="yes">source/c++/rocky20/api/rocky_particle_scalars.cpp</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>rocky20/api/device/api_backend.hpp</label>
+        <link refid="api__backend_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>source/c++/rocky20/api/rocky_particle_scalars.hpp</label>
+        <link refid="rocky__particle__scalars_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>rocky_scalars.h</label>
+        <link refid="rocky__scalars_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>rocky20/api/rocky_statistics_data.hpp</label>
+        <link refid="rocky__statistics__data_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>rocky20/cuda/cuda_basics.hpp</label>
+      </node>
+      <node id="6">
+        <label>rocky20/device/omp_backend.hpp</label>
+      </node>
+      <node id="3">
+        <label>rocky20/model/rocky_model.h</label>
+      </node>
+      <node id="8">
+        <label>rocky20/model/statistics_data.hpp</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>source/c++/rocky20/api/device/api_cuda.hpp</label>
+        <link refid="api__cuda_8hpp_source"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>source/c++/rocky20/api/device/api_cuda_cfd_coupling.hpp</label>
+        <link refid="api__cuda__cfd__coupling_8hpp_source"/>
+      </node>
+      <node id="5">
+        <label>source/c++/rocky20/api/device/api_cuda_contacts.hpp</label>
+        <link refid="api__cuda__contacts_8hpp_source"/>
+      </node>
+      <node id="6">
+        <label>source/c++/rocky20/api/device/api_cuda_joints.hpp</label>
+        <link refid="api__cuda__joints_8hpp_source"/>
+      </node>
+      <node id="7">
+        <label>source/c++/rocky20/api/device/api_cuda_particles.hpp</label>
+        <link refid="api__cuda__particles_8hpp_source"/>
+      </node>
+      <node id="8">
+        <label>source/c++/rocky20/api/device/api_cuda_triangles.hpp</label>
+        <link refid="api__cuda__triangles_8hpp_source"/>
+      </node>
+      <node id="21">
+        <label>source/c++/rocky20/api/device/api_device_contacts.hpp</label>
+        <link refid="api__device__contacts_8hpp_source"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>source/c++/rocky20/api/device/api_device_particles.hpp</label>
+        <link refid="api__device__particles_8hpp_source"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>source/c++/rocky20/api/device/api_device_triangles.hpp</label>
+        <link refid="api__device__triangles_8hpp_source"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>source/c++/rocky20/api/device/api_device_vicinity.hpp</label>
+        <link refid="api__device__vicinity_8hpp_source"/>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>source/c++/rocky20/api/device/api_omp_contacts.hpp</label>
+        <link refid="api__omp__contacts_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>source/c++/rocky20/api/device/api_omp_particles.hpp</label>
+        <link refid="api__omp__particles_8hpp_source"/>
+      </node>
+      <node id="25">
+        <label>source/c++/rocky20/api/device/api_omp_triangles.hpp</label>
+        <link refid="api__omp__triangles_8hpp_source"/>
+      </node>
+      <node id="2">
+        <label>source/c++/rocky20/api/rocky_api.h</label>
+        <link refid="rocky__api_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>source/c++/rocky20/api/rocky_api_cfd.h</label>
+        <link refid="rocky__api__cfd_8h_source"/>
+      </node>
+      <node id="12">
+        <label>source/c++/rocky20/api/rocky_api_sph.h</label>
+        <link refid="rocky__api__sph_8h_source"/>
+      </node>
+      <node id="27">
+        <label>source/c++/rocky20/api/rocky_api_vicinity.h</label>
+        <link refid="rocky__api__vicinity_8h_source"/>
+      </node>
+      <node id="14">
+        <label>source/c++/rocky20/api/rocky_cfd.hpp</label>
+        <link refid="rocky__cfd_8hpp_source"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>source/c++/rocky20/api/rocky_contact.hpp</label>
+        <link refid="rocky__contact_8hpp_source"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>source/c++/rocky20/api/rocky_contact_api.hpp</label>
+        <link refid="rocky__contact__api_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>source/c++/rocky20/api/rocky_joint_api.hpp</label>
+        <link refid="rocky__joint__api_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>source/c++/rocky20/api/rocky_model_api.hpp</label>
+        <link refid="rocky__model__api_8hpp_source"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>source/c++/rocky20/api/rocky_particle.hpp</label>
+        <link refid="rocky__particle_8hpp_source"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>source/c++/rocky20/api/rocky_particle_api.hpp</label>
+        <link refid="rocky__particle__api_8hpp_source"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>source/c++/rocky20/api/rocky_particle_scalars.hpp</label>
+        <link refid="rocky__particle__scalars_8hpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>source/c++/rocky20/api/rocky_vicinity_pair_api.hpp</label>
+        <link refid="rocky__vicinity__pair__api_8hpp_source"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>source/c++/rocky20/api/sph/api_cuda_sph.hpp</label>
+        <link refid="api__cuda__sph_8hpp_source"/>
+      </node>
+      <node id="28">
+        <label>source/c++/rocky20/api/sph/api_device_sph.hpp</label>
+        <link refid="api__device__sph_8hpp_source"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>source/c++/rocky20/api/sph/api_omp_sph.hpp</label>
+        <link refid="api__omp__sph_8hpp_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>source/c++/rocky20/api/sph/rocky_sph.hpp</label>
+        <link refid="rocky__sph_8hpp_source"/>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>source/c++/rocky20/api/sph/rocky_sph_element.hpp</label>
+        <link refid="rocky__sph__element_8hpp_source"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>source/c++/rocky20/api/sph/rocky_sph_element_api.hpp</label>
+        <link refid="rocky__sph__element__api_8hpp_source"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>source/c++/rocky20/api/sph/rocky_sph_interaction.hpp</label>
+        <link refid="rocky__sph__interaction_8hpp_source"/>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>source/c++/rocky20/api/sph/rocky_sph_interaction_api.hpp</label>
+        <link refid="rocky__sph__interaction__api_8hpp_source"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>source/c++/rocky20/api/sph/rocky_sph_model_api.hpp</label>
+        <link refid="rocky__sph__model__api_8hpp_source"/>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structIRockyParticleScalarsModel" prot="public">IRockyParticleScalarsModel</innerclass>
+    <innerclass refid="structIRockyParticleScalars" prot="public">IRockyParticleScalars</innerclass>
+    <innerclass refid="structIRockyParticleTransferScalarsModel" prot="public">IRockyParticleTransferScalarsModel</innerclass>
+    <innerclass refid="structIRockyParticleTransferScalars" prot="public">IRockyParticleTransferScalars</innerclass>
+    <innerclass refid="structIRockyParticleBreakageScalarsModel" prot="public">IRockyParticleBreakageScalarsModel</innerclass>
+    <innerclass refid="structIRockyParticleBreakageScalars" prot="public">IRockyParticleBreakageScalars</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>(C)<sp/>2024<sp/>ANSYS,<sp/>Inc.<sp/>Unauthorized<sp/>use,<sp/>distribution,<sp/>or<sp/>duplication<sp/>is<sp/>prohibited.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Includes<sp/>========================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;rocky_scalars.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">rocky20::KnownParticleScalars;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">rocky20::KnownParticleTransferScalars;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal">rocky20::KnownParticleBreakageScalars;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Forward<sp/>declarations<sp/>===========================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">cuda_host;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>cuda_host<sp/>RockyModel;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IRockyParticleScalarsModel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="structIRockyParticleScalarsModel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIRockyParticleScalarsModel" kindref="compound">IRockyParticleScalarsModel</ref><sp/>:<sp/>ScalarsModel&lt;rocky20::ParticleScalarsController&gt;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>enable<sp/>methods<sp/>---------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalarsModel_1a82310007a102c845cbb5e6163a8863b0" kindref="member">enable_mass_increment</ref>();</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalarsModel_1ab60645cee4e4e0dc368f0f11bc9b75d9" kindref="member">enable_volume_increment</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalarsModel_1aa415607030884508e190c512b1218856" kindref="member">enable_variable_thermal_conductivity</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalarsModel_1acd067b0a46a10fd2c931702257974e2b" kindref="member">enable_variable_poisson_ratio</ref>();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalarsModel_1a7527c9be8d999b23208f43917f13a5a0" kindref="member">enable_variable_specific_heat</ref>();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>ONLY_FOR_DOXYGEN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="structIRockyParticleScalarsModel_1a2fe0d14a5fc4f803eb04374ec6d2a40f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalarsModel_1a2fe0d14a5fc4f803eb04374ec6d2a40f" kindref="member">find</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="structIRockyParticleScalarsModel_1a6c5d694427108fb05dbe32f418394f71" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalarsModel_1a6c5d694427108fb05dbe32f418394f71" kindref="member">add</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>unit,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>output<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="structIRockyParticleScalarsModel_1a4884be92519fd1d4d274d7558864b85f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalarsModel_1a4884be92519fd1d4d274d7558864b85f" kindref="member">reset</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="structIRockyParticleScalarsModel_1a40b74ee0226b8f635092a200a7be71b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalarsModel_1a40b74ee0226b8f635092a200a7be71b1" kindref="member">set_dimension</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dimension_factor);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>enable_minimum_t10();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>enable_round_quaternion();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structIRockyParticleScalarsModel" kindref="compound">IRockyParticleScalarsModel</ref>(RockyModel*<sp/>solver_model);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IRockyParticleScalars</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="structIRockyParticleScalars" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIRockyParticleScalars" kindref="compound">IRockyParticleScalars</ref><sp/>:<sp/>EntityScalars&lt;rocky20::ParticleScalars&gt;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>get<sp/>-----------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="113" refid="structIRockyParticleScalars_1a4a64868ea5dae08ca841701423268d24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a4a64868ea5dae08ca841701423268d24" kindref="member">get_temperature</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="114"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;get_known_scalar(KnownParticleScalars::Temperature);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="structIRockyParticleScalars_1a228debc629b2c74943a35a6411e85e34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a228debc629b2c74943a35a6411e85e34" kindref="member">get_mass_increment</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="124"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;get_known_scalar(KnownParticleScalars::MassIncrement);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="structIRockyParticleScalars_1a07d6c5c74fe0291617efe4f1c5c0b530" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a07d6c5c74fe0291617efe4f1c5c0b530" kindref="member">get_volume_increment</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="134"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;get_known_scalar(KnownParticleScalars::VolumeIncrement);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>set<sp/>-----------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="structIRockyParticleScalars_1a52baa075b4469ce9c99fb3598b1e3495" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a52baa075b4469ce9c99fb3598b1e3495" kindref="member">set_temperature</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;get_known_scalar(KnownParticleScalars::Temperature)<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="structIRockyParticleScalars_1add3b52baa679fb29168078afd6f414c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1add3b52baa679fb29168078afd6f414c4" kindref="member">set_mass_increment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;get_known_scalar(KnownParticleScalars::MassIncrement)<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="structIRockyParticleScalars_1a1cf60c38b7d56949f4bd938a71139b3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a1cf60c38b7d56949f4bd938a71139b3a" kindref="member">set_volume_increment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;get_known_scalar(KnownParticleScalars::VolumeIncrement)<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>add<sp/>-----------------------------------------------------------------------------------------</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="structIRockyParticleScalars_1aae018069db36996a8d86fd9f6c18a0cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1aae018069db36996a8d86fd9f6c18a0cf" kindref="member">add_temperature</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;add_known_scalar(KnownParticleScalars::Temperature,<sp/>value);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="structIRockyParticleScalars_1ad8f1693fb8d2e2f901791f0d55ffafd9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1ad8f1693fb8d2e2f901791f0d55ffafd9" kindref="member">add_explicit_fluid_momentum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>double3<sp/>value)</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;add_known_scalar&lt;double3&gt;(KnownParticleScalars::FluidExplicitForce,<sp/>value);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="structIRockyParticleScalars_1a4ec6b9153716ae4de2399ce1cb148a35" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a4ec6b9153716ae4de2399ce1cb148a35" kindref="member">add_implicit_fluid_momentum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;add_known_scalar&lt;double&gt;(KnownParticleScalars::FluidImplicitForce,<sp/>value);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="structIRockyParticleScalars_1a879d37039a8dac11578b008f69510232" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a879d37039a8dac11578b008f69510232" kindref="member">add_explicit_fluid_heat_transfer_rate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;add_known_scalar&lt;double&gt;(KnownParticleScalars::FluidExplicitHeatTransferRate,<sp/>value);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="structIRockyParticleScalars_1afc8afe09fcf6cbbc037884a382f40386" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1afc8afe09fcf6cbbc037884a382f40386" kindref="member">add_implicit_fluid_heat_transfer_rate</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;add_known_scalar&lt;double&gt;(KnownParticleScalars::FluidImplicitHeatTransferRate,<sp/>value);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="structIRockyParticleScalars_1ae7c53f46ae9e8420e3546939841cb267" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1ae7c53f46ae9e8420e3546939841cb267" kindref="member">add_mass_increment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;add_known_scalar(KnownParticleScalars::MassIncrement,<sp/>value);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="structIRockyParticleScalars_1a76d6d6d09083736d7e40bb09710bfa37" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a76d6d6d09083736d7e40bb09710bfa37" kindref="member">add_volume_increment</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;add_known_scalar(KnownParticleScalars::VolumeIncrement,<sp/>value);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="structIRockyParticleScalars_1a3c656901b88bf6938e16f0559e1f8554" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a3c656901b88bf6938e16f0559e1f8554" kindref="member">get_thermal_conductivity</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="263"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;get_known_scalar(KnownParticleScalars::ThermalConductivity);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274" refid="structIRockyParticleScalars_1a2e9ff5092bd888f58d2441f26503717b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a2e9ff5092bd888f58d2441f26503717b" kindref="member">set_thermal_conductivity</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;get_known_scalar(KnownParticleScalars::ThermalConductivity)<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285" refid="structIRockyParticleScalars_1a2e527a39101f66c5b8107634655f7ac0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a2e527a39101f66c5b8107634655f7ac0" kindref="member">get_specific_heat</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="286"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;get_known_scalar(KnownParticleScalars::SpecificHeat);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="structIRockyParticleScalars_1a161b925c5cb9660521995eae19230b98" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a161b925c5cb9660521995eae19230b98" kindref="member">set_specific_heat</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;get_known_scalar(KnownParticleScalars::SpecificHeat)<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="308" refid="structIRockyParticleScalars_1aa2e33b5ad44cf4487e8c28f69bab1bbc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1aa2e33b5ad44cf4487e8c28f69bab1bbc" kindref="member">get_poisson_ratio</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="309"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;get_known_scalar(KnownParticleScalars::PoissonRatio);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320" refid="structIRockyParticleScalars_1a575c4ba7f23f9b8b0344964a5ddf4e01" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a575c4ba7f23f9b8b0344964a5ddf4e01" kindref="member">set_poisson_ratio</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;get_known_scalar(KnownParticleScalars::PoissonRatio)<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>ONLY_FOR_DOXYGEN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="326"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="structIRockyParticleScalars_1a22cb79d50006e74ccc257c1b7b7c65ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a22cb79d50006e74ccc257c1b7b7c65ce" kindref="member">get_scalar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331" refid="structIRockyParticleScalars_1a18a2bdf028e0356b59e5c7bfa7d35a05" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a18a2bdf028e0356b59e5c7bfa7d35a05" kindref="member">set_scalar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="structIRockyParticleScalars_1a7583200a98dabab00cb51f19e90356a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a7583200a98dabab00cb51f19e90356a4" kindref="member">add_scalar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337" refid="structIRockyParticleScalars_1a83a4b26c94d203d6b02708fa7ec52c65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleScalars_1a83a4b26c94d203d6b02708fa7ec52c65" kindref="member">max_scalar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>set_minimum_t10(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;get_known_scalar(KnownParticleScalars::MinimumT10)<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>get_minimum_t10()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="349"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;get_known_scalar(KnownParticleScalars::MinimumT10);</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockyParticleScalars" kindref="compound">IRockyParticleScalars</ref>(rocky20::ParticleScalars<sp/>&amp;_scalars,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_particle_index)<sp/></highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>EntityScalars&lt;rocky20::ParticleScalars&gt;(_scalars,<sp/>_particle_index)</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IRockyParticleTransferScalarsModel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="371" refid="structIRockyParticleTransferScalarsModel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIRockyParticleTransferScalarsModel" kindref="compound">IRockyParticleTransferScalarsModel</ref><sp/>:<sp/>ScalarsModel&lt;rocky20::ParticleTransferScalarsController&gt;</highlight></codeline>
+<codeline lineno="372"><highlight class="normal">{<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structIRockyParticleTransferScalarsModel" kindref="compound">IRockyParticleTransferScalarsModel</ref>(RockyModel*<sp/>solver_model);</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>ONLY_FOR_DOXYGEN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382" refid="structIRockyParticleTransferScalarsModel_1a6d1850250b4509904702af664aed3e26" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleTransferScalarsModel_1a6d1850250b4509904702af664aed3e26" kindref="member">find</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight></codeline>
+<codeline lineno="385" refid="structIRockyParticleTransferScalarsModel_1acbfca5e53543c5617fe3197d57bcb011" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleTransferScalarsModel_1acbfca5e53543c5617fe3197d57bcb011" kindref="member">add</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>unit,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>output<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"></highlight></codeline>
+<codeline lineno="388" refid="structIRockyParticleTransferScalarsModel_1a631c82eba37e60df503645f60d8ddd24" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleTransferScalarsModel_1a631c82eba37e60df503645f60d8ddd24" kindref="member">reset</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index);</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="391" refid="structIRockyParticleTransferScalarsModel_1a6d5cd79b547774f98c5c692afe75a87f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleTransferScalarsModel_1a6d5cd79b547774f98c5c692afe75a87f" kindref="member">set_dimension</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dimension_factor);</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"></highlight></codeline>
+<codeline lineno="393"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight></codeline>
+<codeline lineno="395"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="396"><highlight class="normal"></highlight></codeline>
+<codeline lineno="397"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="398"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IRockyParticleTransferScalars</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="399"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="400"><highlight class="normal"></highlight></codeline>
+<codeline lineno="406" refid="structIRockyParticleTransferScalars" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIRockyParticleTransferScalars" kindref="compound">IRockyParticleTransferScalars</ref><sp/>:<sp/>EntityScalars&lt;rocky20::ParticleTransferScalars&gt;</highlight></codeline>
+<codeline lineno="407"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="413" refid="structIRockyParticleTransferScalars_1adb482691a11732335076edd8113087cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleTransferScalars_1adb482691a11732335076edd8113087cd" kindref="member">get_heat_transfer</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="414"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;_impl.get_heat_transfer(this-&gt;element_index);</highlight></codeline>
+<codeline lineno="416"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="417"><highlight class="normal"></highlight></codeline>
+<codeline lineno="425" refid="structIRockyParticleTransferScalars_1a3990cc0e8e9d91d57cb4dd5edfebc8c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleTransferScalars_1a3990cc0e8e9d91d57cb4dd5edfebc8c1" kindref="member">set_heat_transfer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="426"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;_impl.get_heat_transfer(this-&gt;element_index)<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="428"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="429"><highlight class="normal"></highlight></codeline>
+<codeline lineno="435" refid="structIRockyParticleTransferScalars_1a698d33f0f3ed82cf1a62ff21c881fb74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleTransferScalars_1a698d33f0f3ed82cf1a62ff21c881fb74" kindref="member">add_heat_transfer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>backend::atomic_add(&amp;this-&gt;_impl.get_heat_transfer(this-&gt;element_index),<sp/>value);</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"></highlight></codeline>
+<codeline lineno="448" refid="structIRockyParticleTransferScalars_1a8f0eeb9e7c46b0a82b746c80f7bcc3c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleTransferScalars_1a8f0eeb9e7c46b0a82b746c80f7bcc3c2" kindref="member">add_heat_source</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="450"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;<ref refid="structIRockyParticleTransferScalars_1a698d33f0f3ed82cf1a62ff21c881fb74" kindref="member">add_heat_transfer</ref>(value);</highlight></codeline>
+<codeline lineno="451"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"></highlight></codeline>
+<codeline lineno="453"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>ONLY_FOR_DOXYGEN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="454"><highlight class="normal"></highlight></codeline>
+<codeline lineno="456" refid="structIRockyParticleTransferScalars_1aa840c5918e86e974c13e7d630251c5b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleTransferScalars_1aa840c5918e86e974c13e7d630251c5b4" kindref="member">get_scalar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="457"><highlight class="normal"></highlight></codeline>
+<codeline lineno="459" refid="structIRockyParticleTransferScalars_1a32a00ee4ca40287266b284214e8a2c9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleTransferScalars_1a32a00ee4ca40287266b284214e8a2c9c" kindref="member">set_scalar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="460"><highlight class="normal"></highlight></codeline>
+<codeline lineno="462" refid="structIRockyParticleTransferScalars_1a20599ee8283e5adcb2af659ca7b60985" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleTransferScalars_1a20599ee8283e5adcb2af659ca7b60985" kindref="member">add_scalar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="463"><highlight class="normal"></highlight></codeline>
+<codeline lineno="465" refid="structIRockyParticleTransferScalars_1a9cef39b6f42cca4284f2bd733ee4d173" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleTransferScalars_1a9cef39b6f42cca4284f2bd733ee4d173" kindref="member">max_scalar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="466"><highlight class="normal"></highlight></codeline>
+<codeline lineno="467"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="468"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="471"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockyParticleTransferScalars" kindref="compound">IRockyParticleTransferScalars</ref>(rocky20::ParticleTransferScalars&amp;<sp/>_scalars,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_particle_index)</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>:<sp/>EntityScalars&lt;rocky20::ParticleTransferScalars&gt;(_scalars,<sp/>_particle_index)</highlight></codeline>
+<codeline lineno="473"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="474"><highlight class="normal"></highlight></codeline>
+<codeline lineno="476"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="477"><highlight class="normal"></highlight></codeline>
+<codeline lineno="478"><highlight class="normal"></highlight></codeline>
+<codeline lineno="479"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="480"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IRockyParticleBreakageScalarsModel</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="481"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="482"><highlight class="normal"></highlight></codeline>
+<codeline lineno="483"><highlight class="normal"></highlight></codeline>
+<codeline lineno="498" refid="structIRockyParticleBreakageScalarsModel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIRockyParticleBreakageScalarsModel" kindref="compound">IRockyParticleBreakageScalarsModel</ref><sp/>:<sp/>ScalarsModel&lt;rocky20::ParticleBreakageScalarsController&gt;</highlight></codeline>
+<codeline lineno="499"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="505"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleBreakageScalarsModel_1a360827c2e0c1a676e3a8c6be6ed26362" kindref="member">enable_t10</ref>();</highlight></codeline>
+<codeline lineno="506"><highlight class="normal"></highlight></codeline>
+<codeline lineno="507"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>ONLY_FOR_DOXYGEN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="508"><highlight class="normal"></highlight></codeline>
+<codeline lineno="510" refid="structIRockyParticleBreakageScalarsModel_1a00666ca9d343b8d3284975687ce4d087" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleBreakageScalarsModel_1a00666ca9d343b8d3284975687ce4d087" kindref="member">find</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name);</highlight></codeline>
+<codeline lineno="511"><highlight class="normal"></highlight></codeline>
+<codeline lineno="513" refid="structIRockyParticleBreakageScalarsModel_1a7dbaee843fb6e694d1b9a4940c9eeaa2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleBreakageScalarsModel_1a7dbaee843fb6e694d1b9a4940c9eeaa2" kindref="member">add</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>unit,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>output<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="514"><highlight class="normal"></highlight></codeline>
+<codeline lineno="516" refid="structIRockyParticleBreakageScalarsModel_1aed6f4019176f0d14ff941493d3e4dcb0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleBreakageScalarsModel_1aed6f4019176f0d14ff941493d3e4dcb0" kindref="member">reset</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index);</highlight></codeline>
+<codeline lineno="517"><highlight class="normal"></highlight></codeline>
+<codeline lineno="519" refid="structIRockyParticleBreakageScalarsModel_1aa084abe67dcb26bd2e050a39061ce0e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleBreakageScalarsModel_1aa084abe67dcb26bd2e050a39061ce0e0" kindref="member">set_dimension</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dimension_factor);</highlight></codeline>
+<codeline lineno="520"><highlight class="normal"></highlight></codeline>
+<codeline lineno="521"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="522"><highlight class="normal"></highlight></codeline>
+<codeline lineno="525"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structIRockyParticleBreakageScalarsModel" kindref="compound">IRockyParticleBreakageScalarsModel</ref>(RockyModel*<sp/>solver_model);</highlight></codeline>
+<codeline lineno="526"><highlight class="normal"></highlight></codeline>
+<codeline lineno="528"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="529"><highlight class="normal"></highlight></codeline>
+<codeline lineno="530"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="531"><highlight class="normal"></highlight><highlight class="comment">//<sp/>IRockyParticleBreakageScalars</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="532"><highlight class="normal"></highlight><highlight class="comment">//<sp/>=================================================================================================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="533"><highlight class="normal"></highlight></codeline>
+<codeline lineno="543" refid="structIRockyParticleBreakageScalars" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structIRockyParticleBreakageScalars" kindref="compound">IRockyParticleBreakageScalars</ref><sp/>:<sp/>EntityScalars&lt;rocky20::ParticleBreakageScalars&gt;</highlight></codeline>
+<codeline lineno="544"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="550" refid="structIRockyParticleBreakageScalars_1af47b2e930c6a25249584df9d3600945b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleBreakageScalars_1af47b2e930c6a25249584df9d3600945b" kindref="member">get_t10</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="551"><highlight class="keyword"><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="552"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;get_known_scalar(KnownParticleBreakageScalars::T10Parameter);</highlight></codeline>
+<codeline lineno="553"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="554"><highlight class="normal"></highlight></codeline>
+<codeline lineno="562" refid="structIRockyParticleBreakageScalars_1afde7cd6ccf288b6e0834357e74344578" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleBreakageScalars_1afde7cd6ccf288b6e0834357e74344578" kindref="member">set_t10</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)</highlight></codeline>
+<codeline lineno="563"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="564"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this-&gt;get_known_scalar(KnownParticleBreakageScalars::T10Parameter)<sp/>=<sp/>value;</highlight></codeline>
+<codeline lineno="565"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="566"><highlight class="normal"></highlight></codeline>
+<codeline lineno="567"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>ONLY_FOR_DOXYGEN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="568"><highlight class="normal"></highlight></codeline>
+<codeline lineno="570" refid="structIRockyParticleBreakageScalars_1af101f19299a5a1d5d3da3fe1d2a0f74b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleBreakageScalars_1af101f19299a5a1d5d3da3fe1d2a0f74b" kindref="member">get_scalar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="571"><highlight class="normal"></highlight></codeline>
+<codeline lineno="573" refid="structIRockyParticleBreakageScalars_1a71109dbd97b7c53d5a001f6d8c66d66f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleBreakageScalars_1a71109dbd97b7c53d5a001f6d8c66d66f" kindref="member">set_scalar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="574"><highlight class="normal"></highlight></codeline>
+<codeline lineno="576" refid="structIRockyParticleBreakageScalars_1a8c8fe58709bc4dcc7becc23e716483d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleBreakageScalars_1a8c8fe58709bc4dcc7becc23e716483d6" kindref="member">add_scalar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="577"><highlight class="normal"></highlight></codeline>
+<codeline lineno="579" refid="structIRockyParticleBreakageScalars_1ad5d957f09f3fc73349741c296f66b7d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structIRockyParticleBreakageScalars_1ad5d957f09f3fc73349741c296f66b7d1" kindref="member">max_scalar</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>scalar_index,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="580"><highlight class="normal"></highlight></codeline>
+<codeline lineno="581"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="582"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="585"><highlight class="normal"><sp/><sp/><sp/><sp/>ROCKY_FUNCTIONS<sp/><ref refid="structIRockyParticleBreakageScalars" kindref="compound">IRockyParticleBreakageScalars</ref>(</highlight></codeline>
+<codeline lineno="586"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rocky20::ParticleBreakageScalars&amp;<sp/>_scalars,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>_particle_index</highlight></codeline>
+<codeline lineno="587"><highlight class="normal"><sp/><sp/><sp/><sp/>)<sp/>:</highlight></codeline>
+<codeline lineno="588"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>EntityScalars&lt;rocky20::ParticleBreakageScalars&gt;(_scalars,<sp/>_particle_index)</highlight></codeline>
+<codeline lineno="589"><highlight class="normal"><sp/><sp/><sp/><sp/>{}</highlight></codeline>
+<codeline lineno="590"><highlight class="normal"></highlight></codeline>
+<codeline lineno="592"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="source/c++/rocky20/api/rocky_particle_scalars.hpp"/>
+  </compounddef>
+</doxygen>
