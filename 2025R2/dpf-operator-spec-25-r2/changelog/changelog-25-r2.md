@@ -1,14 +1,14 @@
 # Changelog
 
 ## Summary
-### Features
+### Features summary
   * [Source operator: allow to return all times/freq fields](#source-operator-allow-to-return-all-timesfreq-fields)
   * [rescope operator acknowledges only first duplicated value](#rescope-operator-acknowledges-only-first-duplicated-value)
   * [Minor version upgrade for intel MKL only for windows](#minor-version-upgrade-for-intel-mkl-only-for-windows)
   * [Allow DPF to operate without context](#allow-dpf-to-operate-without-context)
   * Added Any_NewFrom_FieldsContainer in gRPC
 
-### Fixes
+### Fixes summary
   * [Solve issue with reordering of unfiltered ENFs](#solve-issue-with-reordering-of-unfiltered-enfs)
   * [print custom type collections](#print-custom-type-collections)
   * [issue with node averaged results with scoping](#issue-with-node-averaged-results-with-scoping)
