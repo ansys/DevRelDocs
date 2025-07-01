@@ -192,7 +192,7 @@ The ``property_field`` represents an array of integer values.
 
 <a id="string-field"></a>
 
-The ``string_field`` represented an array of string values.
+The ``string_field`` represents an array of string values.
 
 ##### Custom
 
