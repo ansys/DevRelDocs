@@ -17,12 +17,12 @@
 
 **Deprecated.**
 
-IRuntimeVariables are now using the canonical PHX type identifiers which are literal strings (see `com.phoenix_int.pacz.api.v2`)
+`IRuntimeVariables` are now using the canonical PHX type identifiers which are literal strings (see [`com.phoenix_int.pacz.api.v2.IRuntimeVariables`](v2/IRuntimeVariable.md))
 
 ```java
 @Deprecated
 public enum VariableDataType
-    extends java.lang.Enum<VariableDataType>
+extends java.lang.Enum<VariableDataType>
 ```
 
 Supported variable data types

@@ -9,7 +9,8 @@
 ```
 
 **All Known Implementing Classes:**
-[PHXCAERange](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/PHXCAERange.html), [PHXRowFieldRange](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.html)
+
+[`PHXCAERange`](PHXCAERange.md), [`PHXRowFieldRange`](PHXRowFieldRange.md)
 
 --- 
 **Declaration**
@@ -17,6 +18,15 @@
 ```java
 public interface IPHXRange
 ```
+
+Interface for defining ranges in script wrapper files.
+
+**See Also:**
+
+- [`PHXCAERange`](PHXCAERange.md) - CAE-specific range implementation
+- [`PHXRowFieldRange`](PHXRowFieldRange.md) - Row field range implementation  
+- [`IPHXRangeChangeListener`](IPHXRangeChangeListener.md) - Listener for range change events
+- [`PHXRowFieldFile`](PHXRowFieldFile.md) - File class that uses ranges
 
 ## Method Summary
 

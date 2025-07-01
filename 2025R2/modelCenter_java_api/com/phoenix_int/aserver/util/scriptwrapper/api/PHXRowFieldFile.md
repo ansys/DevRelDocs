@@ -13,10 +13,10 @@
 
 **Implemented Interfaces**
 
-- [InputFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/InputFile.html)
-- [OutputFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/OutputFile.html)
-- [OutputFile2](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/OutputFile2.html)
-- [ParseableFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.html)
+- [InputFile](InputFile.md)
+- [OutputFile](OutputFile.md)
+- [OutputFile2](OutputFile2.md)
+- [ParseableFile](ParseableFile.md)
 - java.io.Closeable
 - java.lang.AutoCloseable
 
@@ -69,9 +69,9 @@ Example usage from a java scriptwrapper (Comments show fileWrapper equivalents):
 
 | Modifier and Type | Field and Description |
 |-------------------|----------------------|
-| `static int` | `GENERATE`<br>Deprecated. in favor of [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE) |
-| `static int` | `PARSE`<br>Deprecated. in favor of [ParseableFile.Mode.PARSE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#PARSE) |
-| `static int` | `READ_TEMPLATE`<br>Deprecated. in favor of [ParseableFile.Mode.READ_TEMPLATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#READ_TEMPLATE) |
+| `static int` | `GENERATE`<br>Deprecated. in favor of [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) |
+| `static int` | `PARSE`<br>Deprecated. in favor of [ParseableFile.Mode.PARSE](ParseableFile.Mode.md) |
+| `static int` | `READ_TEMPLATE`<br>Deprecated. in favor of [ParseableFile.Mode.READ_TEMPLATE](ParseableFile.Mode.md) |
 
 ### Fields inherited from class com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile
 
@@ -81,8 +81,8 @@ Example usage from a java scriptwrapper (Comments show fileWrapper equivalents):
 
 | Constructor and Description |
 |----------------------------|
-| `PHXRowFieldFile(PHXScriptWrapperObject wrapper)`<br>Defaults to [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE) |
-| `PHXRowFieldFile(PHXScriptWrapperObject wrapper, int mode)`<br>Deprecated. in favor of [PHXRowFieldFile(PHXScriptWrapperObject, ParseableFile.Mode)](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.html#PHXRowFieldFile-com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject-com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile.Mode-) |
+| `PHXRowFieldFile(PHXScriptWrapperObject wrapper)`<br>Defaults to [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) |
+| `PHXRowFieldFile(PHXScriptWrapperObject wrapper, int mode)`<br>Deprecated. in favor of [PHXRowFieldFile(PHXScriptWrapperObject, ParseableFile.Mode)](PHXRowFieldFile.md) |
 | `PHXRowFieldFile(PHXScriptWrapperObject wrapper, ParseableFile.Mode mode)` |
 | `PHXRowFieldFile(java.lang.String baseDirectory, int mode)`<br>Legacy (pre-QW) constructor. |
 
@@ -90,7 +90,7 @@ Example usage from a java scriptwrapper (Comments show fileWrapper equivalents):
 
 | Modifier and Type | Method and Description |
 |-------------------|----------------------|
-| `void` | `clearMarks()`<br>Removes effects of any previous markAsBeginning() or markAsEnd() calls |
+| `void` | `clearMarks()`<br>Removes effects of any previous `markAsBeginning()` or `markAsEnd()` calls |
 | `void` | `defineBookmark(java.lang.String name, java.lang.String parent, java.lang.String start)` |
 | `void` | `defineSection(java.lang.String name, java.lang.String start, java.lang.String end, java.lang.String delimiters)` |
 | `void` | `defineVar(java.lang.String name, java.lang.String type, boolean isInput, java.lang.String rangeStr)` |
@@ -146,7 +146,7 @@ Example usage from a java scriptwrapper (Comments show fileWrapper equivalents):
 @Deprecated
 public static final int GENERATE
 ```
-Deprecated. in favor of [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE)
+Deprecated. in favor of [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md)
 
 This mode makes the row field file prepare to generate the output file by reading the template file, then replacing the specified values passed to `transferVar()`.
 
@@ -156,7 +156,7 @@ This mode makes the row field file prepare to generate the output file by readin
 @Deprecated
 public static final int PARSE
 ```
-Deprecated. in favor of [ParseableFile.Mode.PARSE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#PARSE)
+Deprecated. in favor of [ParseableFile.Mode.PARSE](ParseableFile.Mode.md)
 This mode makes the row field file read in values from the `fileToParse` when `transferVar()` is called.
 
 ### READ_TEMPLATE
@@ -165,7 +165,7 @@ This mode makes the row field file read in values from the `fileToParse` when `t
 @Deprecated
 public static final int READ_TEMPLATE
 ```
-Deprecated. in favor of [ParseableFile.Mode.READ_TEMPLATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#READ_TEMPLATE)
+Deprecated. in favor of [ParseableFile.Mode.READ_TEMPLATE](ParseableFile.Mode.md)
 
 This mode makes the row field file read in values from the template file when `transferVar()` is called.
 
@@ -176,7 +176,7 @@ This mode makes the row field file read in values from the template file when `t
 ```java
 public PHXRowFieldFile(PHXScriptWrapperObject wrapper)
 ```
-Defaults to [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE)
+Defaults to [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md)
 
 **Parameters:**
 - `wrapper` - script-wrapper object
@@ -193,7 +193,7 @@ public PHXRowFieldFile(PHXScriptWrapperObject wrapper, ParseableFile.Mode mode)
 @Deprecated
 public PHXRowFieldFile(PHXScriptWrapperObject wrapper, int mode)
 ```
-Deprecated. in favor of [PHXRowFieldFile(PHXScriptWrapperObject, ParseableFile.Mode)](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.html#PHXRowFieldFile-com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject-com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile.Mode-)
+Deprecated. in favor of [PHXRowFieldFile(PHXScriptWrapperObject, ParseableFile.Mode)](PHXRowFieldFile.md)
 
 **Parameters:**
 - `wrapper` - The row field file will find files relative to the run directory specified in this wrapper object.
@@ -206,7 +206,7 @@ public PHXRowFieldFile(java.lang.String baseDirectory, int mode)
 ```
 Legacy (pre-QW) constructor.
 
-Note: Using this constructor will make the resultant object incompatible with certain methods. This was necessary for compatibility with QuickWrap. The new constructors accept [PHXScriptWrapperObject](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.html). This constructor passes `null` instead.
+Note: Using this constructor will make the resultant object incompatible with certain methods. This was necessary for compatibility with QuickWrap. The new constructors accept [PHXScriptWrapperObject](PHXScriptWrapperObject.md). This constructor passes `null` instead.
 
 **Parameters:**
 - `baseDirectory` - All files will be relative to this directory
@@ -441,9 +441,9 @@ protected void transferVars(ParseableFile.Mode mode)
 ```
 Note that if wrapper is null, variable collection should be empty, and there should be no harm in calling this method.
 
-Transfer values for variables that have been defined using methods from the concrete implementation, i.e. [defineVar(String, String, boolean, String)](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.html#defineVar-java.lang.String-java.lang.String-boolean-java.lang.String-)
+Transfer values for variables that have been defined using methods from the concrete implementation, i.e. [defineVar(String, String, boolean, String)](PHXRowFieldFile.md)
 
-Variables defined using [PHXScriptWrapperObject.addVariable(String, String, boolean)](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.html#addVariable-java.lang.String-java.lang.String-boolean-) must be explicitly transferred using methods of the concrete implementation class.
+Variables defined using [PHXScriptWrapperObject.addVariable(String, String, boolean)](PHXScriptWrapperObject.md) must be explicitly transferred using methods of the concrete implementation class.
 
 **Specified by:**
 - `transferVars` in class `AbstractFile`
@@ -472,7 +472,7 @@ public void transferVar(PHXSimpleType var,
                         PHXSectionNotFoundException,
                         com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
-Transfers the data for a particular variable.  If mode is [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular variable.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The variable to read or write
@@ -525,7 +525,7 @@ public void transferVar(PHXSimpleType var,
                         PHXSectionNotFoundException,
                         com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
-Transfers the data for a particular variable.  If mode is [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular variable.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The variable to read or write
@@ -584,7 +584,7 @@ public void transferArray(PHXSimpleArray var,
                           java.lang.InstantiationException,
                           PHXNumberFormatException
 ```
-Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The array to read or write
@@ -617,7 +617,7 @@ public void transferArray(PHXSimpleArray var,
                           java.lang.InstantiationException,
                           PHXNumberFormatException
 ```
-Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The array to read or write
@@ -652,7 +652,7 @@ public void transferArray(PHXSimpleArray var,
                           java.lang.InstantiationException,
                           PHXNumberFormatException
 ```
-Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The array to read or write
@@ -660,7 +660,7 @@ Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENER
 - `rowend` - The ending row in the file to read/write from/to
 - `fieldstart` - The starting field within the row to read/write from/to
 - `fieldend` - The ending field within the row to read/write from/to
-- `resizable` - Whether or not the array is resizable when using [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE).
+- `resizable` - Whether or not the array is resizable when using [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md).
 - `fformat` - The fortran style format string to apply.  Pass null for standard formatting.
 
 **Throws:**
@@ -689,7 +689,7 @@ public void transferArray(PHXSimpleArray var,
                           java.lang.InstantiationException,
                           PHXNumberFormatException
 ```
-Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The array to read or write
@@ -697,7 +697,7 @@ Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENER
 - `rowend` - The ending row in the file to read/write from/to
 - `fieldstart` - The starting field within the row to read/write from/to
 - `fieldend` - The ending field within the row to read/write from/to
-- `resizable` - Whether or not the array is resizable when using [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE).
+- `resizable` - Whether or not the array is resizable when using [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md).
 - `fformat` - The fortran style format string to apply. Pass null for standard formatting.
 - `numDimensions` - The number of dimensions to read the array as.  Must be 1 or 2.
 
@@ -719,7 +719,7 @@ public void transferKeyVar(PHXSimpleType var,
                            PHXNoSuchTokenException,
                            PHXNumberFormatException
 ```
-Transfers the data for a particular variable.  If mode is [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular variable.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The variable to read or write
@@ -745,7 +745,7 @@ public void transferKeyVar(PHXSimpleType var,
                            PHXNoSuchTokenException,
                            PHXNumberFormatException
 ```
-Transfers the data for a particular variable.  If mode is [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular variable.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The variable to read or write
@@ -773,7 +773,7 @@ public java.lang.String readValue(int row,
                                   PHXSectionNotFoundException,
                                   com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
-Reads a value out of the input file.  If mode is [ParseableFile.Mode.PARSE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#PARSE), the input file is the fileToParse, otherwise it is the template file.
+Reads a value out of the input file.  If mode is [ParseableFile.Mode.PARSE](ParseableFile.Mode.md), the input file is the fileToParse, otherwise it is the template file.
 
 **Parameters:**
 - `row` - The row of the file to read from
@@ -801,7 +801,7 @@ public long readLong(int row,
                      PHXSectionNotFoundException,
                      com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
-Reads a value out of the input file.  If mode is [ParseableFile.Mode.PARSE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#PARSE), the input file is the fileToParse, otherwise it is the template file.  Returns it as a long value.
+Reads a value out of the input file.  If mode is [ParseableFile.Mode.PARSE](ParseableFile.Mode.md), the input file is the fileToParse, otherwise it is the template file.  Returns it as a long value.
 
 **Parameters:**
 - `row` - The row of the file to read from
@@ -830,7 +830,7 @@ public double readDouble(int row,
                          PHXSectionNotFoundException,
                          com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
-Reads a value out of the input file.  If mode is [ParseableFile.Mode.PARSE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#PARSE), the input file is the fileToParse, otherwise it is the template file.  Returns it as a double value.
+Reads a value out of the input file.  If mode is [ParseableFile.Mode.PARSE](ParseableFile.Mode.md), the input file is the fileToParse, otherwise it is the template file.  Returns it as a double value.
 
 **Parameters:**
 - `row` - The row of the file to read from
@@ -855,7 +855,7 @@ public void writeValue(int row,
                 throws java.io.IOException,
                        PHXNoSuchTokenException
 ```
-Writes a token out to the output file.  This is only useful if mode is [ParseableFile.Mode.GENERATE](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.html#GENERATE).
+Writes a token out to the output file.  This is only useful if mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md).
 
 **Parameters:**
 - `row` - The row of the file to read from

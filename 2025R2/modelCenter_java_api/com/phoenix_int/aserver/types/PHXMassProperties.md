@@ -1,33 +1,29 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.types
-## Class PHXMassProperties
-- java.lang.Object
-- - com.phoenix_int.aserver.types.PHXMassProperties
-- ---
+# Class PHXMassProperties
+
+**Packages:** `com.phoenix_int.aserver.types`
+```
+↳ java.lang.Object
+  ↳ com.phoenix_int.aserver.types.PHXMassProperties
+```
+---
 
 ```java
 public class PHXMassProperties
 extends java.lang.Object
 ```
-This is a utility class for holding mass property information. The
- class is used by the PHXGeomInfo class
-**Author:**
-: Woyak, 10/98- ======== CONSTRUCTOR SUMMARY ========
-- ### Constructor Summary
+
+This is a utility class for holding mass property information. The class is used by the PHXGeomInfo class.
+
+## Constructor Summary
 
 | Constructor and Description |
 | --- |
-| Constructor and Description |
-| `PHXMassProperties(boolean hasCG,
-                 boolean hasVolume,
-                 boolean hasSurfaceArea,
-                 boolean hasMass)` |
-========== METHOD SUMMARY ===========
-- ### Method Summary
+| `PHXMassProperties(boolean hasCG, boolean hasVolume, boolean hasSurfaceArea, boolean hasMass)` |
+
+## Method Summary
 
 | Modifier and Type | Method and Description |
 | --- | --- |
-| Modifier and Type | Method and Description |
 | `java.lang.String` | `getCG()` |
 | `double` | `getcgX()` |
 | `double` | `getcgY()` |
@@ -39,9 +35,7 @@ This is a utility class for holding mass property information. The
 | `double` | `getMass()` |
 | `double` | `getSurfaceArea()` |
 | `double` | `getVolume()` |
-| `void` | `setCG(double x,
-     double y,
-     double z)` |
+| `void` | `setCG(double x, double y, double z)` |
 | `void` | `setcgX(double v)` |
 | `void` | `setcgY(double v)` |
 | `void` | `setcgZ(double v)` |
@@ -49,11 +43,12 @@ This is a utility class for holding mass property information. The
 | `void` | `setSurfaceArea(double v)` |
 | `void` | `setVolume(double v)` |
 
-- ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`- ========= CONSTRUCTOR DETAIL ========
-- ### Constructor Detail
+### Methods inherited from class java.lang.Object
+`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-- #### PHXMassProperties
+## Constructor Detail
+
+### PHXMassProperties
 
 ```java
 public PHXMassProperties(boolean hasCG,
@@ -61,106 +56,106 @@ public PHXMassProperties(boolean hasCG,
                          boolean hasSurfaceArea,
                          boolean hasMass)
 ```
-============ METHOD DETAIL ==========
-- ### Method Detail
 
-- #### getcgX
+## Method Detail
+
+### getcgX
 
 ```java
 public double getcgX()
 ```
 
-- #### getcgY
+### getcgY
 
 ```java
 public double getcgY()
 ```
 
-- #### getcgZ
+### getcgZ
 
 ```java
 public double getcgZ()
 ```
 
-- #### getVolume
+### getVolume
 
 ```java
 public double getVolume()
 ```
 
-- #### getSurfaceArea
+### getSurfaceArea
 
 ```java
 public double getSurfaceArea()
 ```
 
-- #### getMass
+### getMass
 
 ```java
 public double getMass()
 ```
 
-- #### getHasCG
+### getHasCG
 
 ```java
 public boolean getHasCG()
 ```
 
-- #### getHasVolume
+### getHasVolume
 
 ```java
 public boolean getHasVolume()
 ```
 
-- #### getHasSurfaceArea
+### getHasSurfaceArea
 
 ```java
 public boolean getHasSurfaceArea()
 ```
 
-- #### getHasMass
+### getHasMass
 
 ```java
 public boolean getHasMass()
 ```
 
-- #### setcgX
+### setcgX
 
 ```java
 public void setcgX(double v)
 ```
 
-- #### setcgY
+### setcgY
 
 ```java
 public void setcgY(double v)
 ```
 
-- #### setcgZ
+### setcgZ
 
 ```java
 public void setcgZ(double v)
 ```
 
-- #### setVolume
+### setVolume
 
 ```java
 public void setVolume(double v)
 ```
 
-- #### setSurfaceArea
+### setSurfaceArea
 
 ```java
 public void setSurfaceArea(double v)
 ```
 
-- #### setMass
+### setMass
 
 ```java
 public void setMass(double v)
 ```
 
-- #### setCG
+### setCG
 
 ```java
 public void setCG(double x,
@@ -168,9 +163,8 @@ public void setCG(double x,
                   double z)
 ```
 
-- #### getCG
+### getCG
 
 ```java
 public java.lang.String getCG()
 ```
-========= END OF CLASS DATA =========

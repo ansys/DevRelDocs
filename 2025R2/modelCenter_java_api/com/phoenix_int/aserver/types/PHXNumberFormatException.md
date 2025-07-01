@@ -1,44 +1,47 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.types
-## Class PHXNumberFormatException
-- java.lang.Object
-- - java.lang.Throwable
-- - java.lang.Exception
-- - com.phoenix_int.aserver.types.PHXNumberFormatException
-- **All Implemented Interfaces:**
-: java.io.Serializable
+# Class PHXNumberFormatException
+
+**Packages:** com.phoenix_int.aserver.types
+```
+↳ java.lang.Object
+  ↳ java.lang.Throwable
+    ↳ java.lang.Exception
+      ↳ com.phoenix_int.aserver.types.PHXNumberFormatException
+```
+
+**All Implemented Interfaces:**
+- java.io.Serializable
 
 ---
-
+**Declaration:**
 ```java
 public class PHXNumberFormatException
 extends java.lang.Exception
 ```
-Like a NumberFormatException except that it isn't a runtime exception
- and must be caught
-**Author:**
-: Scott Woyak, 10-09
+
+Like a `NumberFormatException` except that it isn't a runtime exception and must be caught
+
 **See Also:**
-: [Serialized Form](../../../../serialized-form.html#com.phoenix_int.aserver.types.PHXNumberFormatException)- ======== CONSTRUCTOR SUMMARY ========
-- ### Constructor Summary
+
+- [Serialized Form](../../../../serialized-form.md)
+
+### Constructor Summary
 
 | Constructor and Description |
 | --- |
-| Constructor and Description |
 | `PHXNumberFormatException(java.lang.String msg)` |
-========== METHOD SUMMARY ===========
-- ### Method Summary
 
-- ### Methods inherited from class java.lang.Throwable
-`addSuppressed, fillInStackTrace, getCause, getLocalizedMessage, getMessage, getStackTrace, getSuppressed, initCause, printStackTrace, printStackTrace, printStackTrace, setStackTrace, toString`
+## Method Summary
 
-- ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`- ========= CONSTRUCTOR DETAIL ========
-- ### Constructor Detail
+### Methods inherited from class java.lang.Throwable
+`addSuppressed`, `fillInStackTrace`, `getCause`, `getLocalizedMessage`, `getMessage`, `getStackTrace`, `getSuppressed`, `initCause`, `printStackTrace`, `printStackTrace`, `printStackTrace`, `setStackTrace`, `toString`
 
-- #### PHXNumberFormatException
+### Methods inherited from class java.lang.Object
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `wait`, `wait`, `wait`
+
+## Constructor Detail
+
+### PHXNumberFormatException
 
 ```java
 public PHXNumberFormatException(java.lang.String msg)
 ```
-========= END OF CLASS DATA =========

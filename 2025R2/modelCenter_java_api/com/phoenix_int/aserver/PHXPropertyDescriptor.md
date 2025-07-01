@@ -14,7 +14,7 @@ public class PHXPropertyDescriptor
 extends java.lang.Object
 ```
 
-A utility class used by PHXSelfManager to indicate which properties it manages.
+A utility class used by [PHXSimpleSelfManager](PHXSimpleSelfManager.md), [PHXSimpleSelfManager2](PHXSimpleSelfManager2.md), and [PHXSimpleSelfManager3](PHXSimpleSelfManager3.md) to indicate which properties it manages.
 
 
 ## Constructor Summary
@@ -34,8 +34,8 @@ A utility class used by PHXSelfManager to indicate which properties it manages.
 | `static void` | `asPropertyDescriptor(java.lang.StringBuffer out, java.lang.String name, java.lang.String type, boolean canSet, boolean canGet)`<br>Stringify the property descriptor data. |
 | `java.lang.String` | `asValueDescriptor()`<br>Converts the property to a machine-readable format. |
 | `static void` | `asValueDescriptor(java.lang.StringBuffer out, java.lang.String name, java.lang.String type, boolean canSet, boolean canGet, java.lang.String value)`<br>Stringify the value descriptor data. |
-| `void` | `asValueDescriptor2(PHXStringBuffer out)`<br>Converts the property to a readable format. |
-| `void` | `asValueDescriptor3(PHXStringBuffer out)`<br>Converts the property to a readable format. |
+| `void` | `asValueDescriptor2([util/PHXStringBuffer](util/PHXStringBuffer.md) out)`<br>Converts the property to a readable format. |
+| `void` | `asValueDescriptor3([util/PHXStringBuffer](util/PHXStringBuffer.md) out)`<br>Converts the property to a readable format. |
 | `boolean` | `getCanGet()`<br>Determines if the property can be retrieved. |
 | `boolean` | `getCanSet()`<br>Determines if the property can be modified. |
 | `java.lang.String` | `getName()`<br>Retrieves the property name. |
@@ -43,8 +43,8 @@ A utility class used by PHXSelfManager to indicate which properties it manages.
 | `java.lang.String` | `getType()`<br>Retrieves the type of the property as a string. |
 | `java.lang.Class` | `getTypeClass()`<br>Retrieves the type of the property as a Class object. |
 | `java.lang.String` | `getValue()` |
-| `PHXStringBuffer` | `getValue2()` |
-| `PHXStringBuffer` | `getValue3()` |
+| `[util/PHXStringBuffer](util/PHXStringBuffer.md)` | `getValue2()` |
+| `[util/PHXStringBuffer](util/PHXStringBuffer.md)` | `getValue3()` |
 | `void` | `setCanGet(boolean flag)`<br>Sets whether the property can be retrieved. |
 | `void` | `setCanSet(boolean flag)`<br>Sets whether the property can be modified. |
 | `java.lang.String` | `toString()`<br>Converts the property to a readable format. |
@@ -69,7 +69,10 @@ public PHXPropertyDescriptor(java.beans.PropertyDescriptor prop)
 
 ### PHXPropertyDescriptor
 ```java
-public PHXPropertyDescriptor(java.lang.String name, java.lang.String type, boolean canSet, boolean canGet)
+public PHXPropertyDescriptor(java.lang.String name, 
+                             java.lang.String type, 
+                             boolean canSet, 
+                             boolean canGet)
 ```
 **Parameters:**
 - `name` - the name of the property
@@ -79,7 +82,10 @@ public PHXPropertyDescriptor(java.lang.String name, java.lang.String type, boole
 
 ### PHXPropertyDescriptor
 ```java
-public PHXPropertyDescriptor(java.lang.String name, java.lang.Object object, boolean canSet, boolean canGet)
+public PHXPropertyDescriptor(java.lang.String name, 
+                             java.lang.Object object, 
+                             boolean canSet, 
+                             boolean canGet)
 ```
 **Parameters:**
 - `name` - the name of the property
@@ -89,8 +95,9 @@ public PHXPropertyDescriptor(java.lang.String name, java.lang.Object object, boo
 
 ### PHXPropertyDescriptor
 ```java
-public PHXPropertyDescriptor(java.beans.PropertyDescriptor prop, java.lang.Object parent)
-    throws java.lang.IllegalArgumentException
+public PHXPropertyDescriptor(java.beans.PropertyDescriptor prop, 
+                             java.lang.Object parent)
+                      throws java.lang.IllegalArgumentException
 ```
 **Parameters:**
 - `prop` - the PropertyDescriptor
@@ -216,9 +223,9 @@ Converts the property to a machine-readable format.
 ### asValueDescriptor2
 ```java
 public void asValueDescriptor2(PHXStringBuffer out)
-    throws java.io.IOException
+                        throws java.io.IOException
 ```
-Converts the property to a readable format. Returns a PHXStringBuffer for performance.
+Converts the property to a readable format. Returns a [util/PHXStringBuffer](util/PHXStringBuffer.md) for performance.
 
 **Parameters:**
 - `out` - a buffer for the method to use to store the property in String format
@@ -229,9 +236,9 @@ Converts the property to a readable format. Returns a PHXStringBuffer for perfor
 ### asValueDescriptor3
 ```java
 public void asValueDescriptor3(PHXStringBuffer out)
-    throws java.io.IOException
+                        throws java.io.IOException
 ```
-Converts the property to a readable format. Returns a PHXStringBuffer for performance.
+Converts the property to a readable format. Returns a [util/PHXStringBuffer](util/PHXStringBuffer.md) for performance.
 
 **Parameters:**
 - `out` - a buffer for the method to use to store the property in String format
@@ -241,7 +248,11 @@ Converts the property to a readable format. Returns a PHXStringBuffer for perfor
 
 ### asPropertyDescriptor
 ```java
-public static void asPropertyDescriptor(java.lang.StringBuffer out, java.lang.String name, java.lang.String type, boolean canSet, boolean canGet)
+public static void asPropertyDescriptor(java.lang.StringBuffer out, 
+                                        java.lang.String name, 
+                                        java.lang.String type, 
+                                        boolean canSet, 
+                                        boolean canGet)
 ```
 Stringify the property descriptor data.
 
@@ -254,7 +265,12 @@ Stringify the property descriptor data.
 
 ### asValueDescriptor
 ```java
-public static void asValueDescriptor(java.lang.StringBuffer out, java.lang.String name, java.lang.String type, boolean canSet, boolean canGet, java.lang.String value)
+public static void asValueDescriptor(java.lang.StringBuffer out, 
+                                     java.lang.String name, 
+                                     java.lang.String type, 
+                                     boolean canSet, 
+                                     boolean canGet, 
+                                     java.lang.String value)
 ```
 Stringify the value descriptor data.
 

@@ -11,7 +11,7 @@
 
 **Implemented Interfaces**
 
-- `ParseableFile`, `java.io.Closeable`, `java.lang.AutoCloseable`
+- [`ParseableFile`](ParseableFile.md), `java.io.Closeable`, `java.lang.AutoCloseable`
 
 **Direct Known Subclasses**
 
@@ -31,7 +31,7 @@ Common implementation for files (not file variables) used in script wrappers.
 
 ## Nested Class Summary
 
-### Nested classes/interfaces inherited from interface com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile 
+### Nested classes/interfaces inherited from interface com.phoenix_int.aserver.util.scriptwrapper.api.[ParseableFile](ParseableFile.md) 
 `ParseableFile.Mode`
 
 ## Field Summary
@@ -265,12 +265,12 @@ Perform an action consistent with `ParseableFile.Mode`
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
 - `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 
 ### readTemplate
 
@@ -293,12 +293,12 @@ Read the template. In MCRE 7.1, this method was changed to never throw any excep
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
 - `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 
 ### setFileToGenerateOrParse
 
@@ -373,9 +373,9 @@ Transfer values for variables that have been defined using methods from the conc
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
 - `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)

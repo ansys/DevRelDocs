@@ -3,10 +3,10 @@
 **Package:** `com.phoenix_int.aserver`
 
 **Known Subinterfaces**
-- `IPHXSelfManager2`, `IPHXSelfManager3`
+- [`IPHXSelfManager2`](IPHXSelfManager2.md), [`IPHXSelfManager3`](IPHXSelfManager3.md)
 
 **Known Implementing Classes**
-- `PHXSimpleSelfManager`, `PHXSimpleSelfManager2`, `PHXSimpleSelfManager3`
+- [`PHXSimpleSelfManager`](PHXSimpleSelfManager.md), [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md), [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md)
 
 **Declaration**
 ```java
@@ -16,7 +16,7 @@ public interface IPHXSelfManager
 This interface is for components that determine their properties at runtime. These types of components do not know what variables they have until they are started. Examples include wrappers that communicate with external programs—once the wrapper starts up, it loads a file into the external program. The external program then can be queried for its variables, which are then relayed through the analysis object. To handle this type of situation, a component should implement the functions provided by this interface. When present, the ModelCenter Remote Execution will call these functions. If an object does not implement this interface, the MCRE will use the default Bean mechanisms for interacting with the object.
 
 **See Also:**
-- `IPHXComponent`, `IPHXAnalysis`, `IPHXDriver`
+- [`IPHXComponent`](IPHXComponent.md), [`IPHXAnalysis`](IPHXAnalysis.md), [`IPHXDriver`](IPHXDriver.md)
 
 ## Method Summary
 

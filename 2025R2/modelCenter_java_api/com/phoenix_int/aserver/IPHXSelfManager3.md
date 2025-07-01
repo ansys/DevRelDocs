@@ -3,10 +3,10 @@
 **Package:** `com.phoenix_int.aserver`
 
 **Superinterfaces**
-- `IPHXSelfManager`, `IPHXSelfManager2`
+- [`IPHXSelfManager`](IPHXSelfManager.md), [`IPHXSelfManager2`](IPHXSelfManager2.md)
 
 **Known Implementing Classes**
-- `PHXSimpleSelfManager3`
+- [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md)
 
 **Declaration**
 ```java
@@ -14,10 +14,10 @@ public interface IPHXSelfManager3
     extends IPHXSelfManager2
 ```
 
-This interface extends IPHXSelfManager2 and provides a new invoke that enables getting more information back from invoked methods.
+This interface extends [`IPHXSelfManager2`](IPHXSelfManager2.md) and provides a new invoke that enables getting more information back from invoked methods.
 
 **See Also:**
-- `IPHXSelfManager`
+- [`IPHXSelfManager`](IPHXSelfManager.md)
 
 ## Method Summary
 

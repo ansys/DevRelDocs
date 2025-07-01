@@ -1,82 +1,108 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.types
-## Interface IPHXType2
-- **All Superinterfaces:**
-: [IPHXType](../../../../com/phoenix_int/aserver/types/IPHXType.html)
+# Interface: IPHXType2
+
+**Package:** `com.phoenix_int.aserver.types`
+
+**All Superinterfaces:**
+- [IPHXType](IPHXType.md)
 
 **All Known Subinterfaces:**
-: [IRuntimeVariable](../../../../com/phoenix_int/pacz/api/v2/IRuntimeVariable.html)
+- [IRuntimeVariable](../../pacz/api/v2/IRuntimeVariable.md)
 
 **All Known Implementing Classes:**
-: [PHXBoolean](../../../../com/phoenix_int/aserver/types/PHXBoolean.html),[PHXBooleanArray](../../../../com/phoenix_int/aserver/types/PHXBooleanArray.html),[PHXDouble](../../../../com/phoenix_int/aserver/types/PHXDouble.html),[PHXDoubleArray](../../../../com/phoenix_int/aserver/types/PHXDoubleArray.html),[PHXFile](../../../../com/phoenix_int/aserver/types/PHXFile.html),[PHXGeometry](../../../../com/phoenix_int/aserver/types/PHXGeometry.html),[PHXInteger](../../../../com/phoenix_int/aserver/types/PHXInteger.html),[PHXLong](../../../../com/phoenix_int/aserver/types/PHXLong.html),[PHXLongArray](../../../../com/phoenix_int/aserver/types/PHXLongArray.html),[PHXObjectArray](../../../../com/phoenix_int/aserver/types/PHXObjectArray.html),[PHXRawFile](../../../../com/phoenix_int/aserver/types/PHXRawFile.html),[PHXRawFileArray](../../../../com/phoenix_int/aserver/types/PHXRawFileArray.html),[PHXReference](../../../../com/phoenix_int/aserver/types/PHXReference.html),[PHXScriptObject](../../../../com/phoenix_int/aserver/types/PHXScriptObject.html),[PHXSimpleArray](../../../../com/phoenix_int/aserver/types/PHXSimpleArray.html),[PHXSimpleType](../../../../com/phoenix_int/aserver/types/PHXSimpleType.html),[PHXString](../../../../com/phoenix_int/aserver/types/PHXString.html),[PHXStringArray](../../../../com/phoenix_int/aserver/types/PHXStringArray.html)
+- [PHXBoolean](PHXBoolean.md)
+- [PHXBooleanArray](PHXBooleanArray.md)
+- [PHXDouble](PHXDouble.md)
+- [PHXDoubleArray](PHXDoubleArray.md)
+- [PHXFile](PHXFile.md)
+- [PHXGeometry](PHXGeometry.md)
+- [PHXInteger](PHXInteger.md)
+- [PHXLong](PHXLong.md)
+- [PHXLongArray](PHXLongArray.md)
+- [PHXObjectArray](PHXObjectArray.md)
+- [PHXRawFile](PHXRawFile.md)
+- [PHXRawFileArray](PHXRawFileArray.md)
+- [PHXReference](PHXReference.md)
+- [PHXScriptObject](PHXScriptObject.md)
+- [PHXSimpleArray](PHXSimpleArray.md)
+- [PHXSimpleType](PHXSimpleType.md)
+- [PHXString](PHXString.md)
+- [PHXStringArray](PHXStringArray.md)
 
 ---
+
+**Declaration**
 
 ```java
 public interface IPHXType2
 extends IPHXType
 ```
-The interface for Phoenix types which use PHXStringBuffer instead of String for performance.
-**Author:**
-: nsharp
+
+The interface for Phoenix types which use [PHXStringBuffer](../util/PHXStringBuffer.md) instead of String for performance.
+
 **See Also:**
-: [IPHXType](../../../../com/phoenix_int/aserver/types/IPHXType.html)- ======== NESTED CLASS SUMMARY ========
-- ### Nested Class Summary
+- [IPHXType](IPHXType.md)
+
+## Nested Class Summary
 
 | Modifier and Type | Interface and Description |
-| --- | --- |
-| Modifier and Type | Interface and Description |
-| `static interface` | `IPHXType2.IVisitor<T>`The interface of a visitor into an IPHXType2. |
-========== METHOD SUMMARY ===========
-- ### Method Summary
+|-------------------|-------------------------|
+| `static interface` | IPHXType2.IVisitor<T> The interface of a visitor into an IPHXType2. |
+
+## Method Summary
 
 | Modifier and Type | Method and Description |
-| --- | --- |
-| Modifier and Type | Method and Description |
-| `<T> T` | `Accept(IPHXType2.IVisitor<T> visitor)`Accept a Visitor. |
-| `void` | `fromString2(PHXStringBuffersb)`Configures the type based on a PHXStringBuffer representation of the type |
-| `PHXStringBuffer` | `toString2()`Gets a PHXStringBuffer representation of the type |
+|-------------------|----------------------|
+| `<T> T` | `Accept(IPHXType2.IVisitor<T> visitor)` Accept a Visitor. |
+| `void` | `fromString2(PHXStringBuffer sb)` Configures the type based on a PHXStringBuffer representation of the type |
+| `PHXStringBuffer` | `toString2()` Gets a PHXStringBuffer representation of the type |
 
-- ### Methods inherited from interface com.phoenix_int.aserver.types.IPHXType
-`fromString,toString`- ============ METHOD DETAIL ==========
-- ### Method Detail
+### Methods inherited from interface com.phoenix_int.aserver.types.IPHXType
+- `fromString`
+- `toString`
 
-- #### toString2
+## Method Detail
+
+### toString2
 
 ```java
-PHXStringBuffer toString2()
-                   throws java.io.IOException
+PHXStringBuffer toString2()
+    throws java.io.IOException
 ```
-Gets a PHXStringBuffer representation of the type
+Gets a [PHXStringBuffer](../util/PHXStringBuffer.md) representation of the type
+
 **Returns:**
-: PHXStringBuffer representation of the type
-**Throws:**
-: `java.io.IOException`
+- PHXStringBuffer representation of the type
 
-- #### fromString2
+**Throws:**
+- `java.io.IOException`
+
+### fromString2
 
 ```java
-void fromString2(PHXStringBuffer sb)
-          throws java.io.IOException,
-                 PHXGetByUrlException
+void fromString2(PHXStringBuffer sb)
+    throws java.io.IOException, PHXGetByUrlException
 ```
-Configures the type based on a PHXStringBuffer representation of the type
-**Parameters:**
-: `sb`- representation of the type to use
-**Throws:**
-: `java.io.IOException`
-: `PHXGetByUrlException`
+Configures the type based on a [PHXStringBuffer](../util/PHXStringBuffer.md) representation of the type
 
-- #### Accept
+**Parameters:**
+- `sb` - representation of the type to use
+
+**Throws:**
+- `java.io.IOException`
+- [`PHXGetByUrlException`](../util/PHXGetByUrlException.md)
+
+### Accept
 
 ```java
-<T> T Accept(IPHXType2.IVisitor<T> visitor)
+<T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
 Accept a Visitor.
+
 **Type Parameters:**
-: `T`- Type of the result of the visit.
+- `T` - Type of the result of the visit.
+
 **Parameters:**
-: `visitor`- The visitor to accept.
+- `visitor` - The visitor to accept.
+
 **Returns:**
-: The results of the visit.
-========= END OF CLASS DATA =========
+- The results of the visit.

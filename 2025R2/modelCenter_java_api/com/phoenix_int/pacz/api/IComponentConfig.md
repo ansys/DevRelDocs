@@ -3,7 +3,7 @@
 **Package:** `com.phoenix_int.pacz.api`
 
 ---
-**Deprecated:** see `com.phoenix_int.pacz.api.v2.IComponentConfig`
+**Deprecated:** see [`com.phoenix_int.pacz.api.v2.IComponentConfig`](v2/IComponentConfig.md)
 
 ```java
 @Deprecated
@@ -50,7 +50,7 @@ Environment getEnvironment()
 - component environment
 
 **See Also:**
-- [Environment](../../../../com/phoenix_int/pacz/api/Environment.html)
+- [Environment](Environment.md)
 
 ### getRunFolderPreference
 
@@ -63,7 +63,7 @@ RunFolderPreference getRunFolderPreference()
 - component run folder preference
 
 **See Also:**
-- [RunFolderPreference](../../../../com/phoenix_int/pacz/api/RunFolderPreference.html)
+- [RunFolderPreference](RunFolderPreference.md)
 
 ### getVersion
 
@@ -156,7 +156,7 @@ java.util.List<IRuntimeVariable> getInputs()
 - list of component inputs
 
 **See Also:**
-- [IRuntimeVariable](../../../../com/phoenix_int/pacz/api/IRuntimeVariable.html)
+- [IRuntimeVariable](IRuntimeVariable.md)
 
 ### getOutputs
 
@@ -169,7 +169,7 @@ java.util.List<IRuntimeVariable> getOutputs()
 - list of component outputs
 
 **See Also:**
-- [IRuntimeVariable](../../../../com/phoenix_int/pacz/api/IRuntimeVariable.html)
+- [IRuntimeVariable](IRuntimeVariable.md)
 
 ### getInstanceFiles
 
@@ -182,7 +182,7 @@ java.util.List<IInstanceFile> getInstanceFiles()
 - list of component instance files
 
 **See Also:**
-- [IInstanceFile](../../../../com/phoenix_int/pacz/api/IInstanceFile.html)
+- [IInstanceFile](IInstanceFile.md)
 
 ### getProperties
 

@@ -1,50 +1,69 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.types
-## Interface IPHXType
-- **All Known Subinterfaces:**
-: [IPHXType2](../../../../com/phoenix_int/aserver/types/IPHXType2.html),[IRuntimeVariable](../../../../com/phoenix_int/pacz/api/v2/IRuntimeVariable.html)
+# Interface: IPHXType
+
+**Package:** `com.phoenix_int.aserver.types`
+
+**All Known Subinterfaces:**
+- [IPHXType2](IPHXType2.md)
+- [IRuntimeVariable](../../pacz/api/v2/IRuntimeVariable.md)
 
 **All Known Implementing Classes:**
-: [PHXBoolean](../../../../com/phoenix_int/aserver/types/PHXBoolean.html),[PHXBooleanArray](../../../../com/phoenix_int/aserver/types/PHXBooleanArray.html),[PHXDouble](../../../../com/phoenix_int/aserver/types/PHXDouble.html),[PHXDoubleArray](../../../../com/phoenix_int/aserver/types/PHXDoubleArray.html),[PHXFile](../../../../com/phoenix_int/aserver/types/PHXFile.html),[PHXGeometry](../../../../com/phoenix_int/aserver/types/PHXGeometry.html),[PHXInteger](../../../../com/phoenix_int/aserver/types/PHXInteger.html),[PHXLong](../../../../com/phoenix_int/aserver/types/PHXLong.html),[PHXLongArray](../../../../com/phoenix_int/aserver/types/PHXLongArray.html),[PHXObjectArray](../../../../com/phoenix_int/aserver/types/PHXObjectArray.html),[PHXRawFile](../../../../com/phoenix_int/aserver/types/PHXRawFile.html),[PHXRawFileArray](../../../../com/phoenix_int/aserver/types/PHXRawFileArray.html),[PHXReference](../../../../com/phoenix_int/aserver/types/PHXReference.html),[PHXScriptObject](../../../../com/phoenix_int/aserver/types/PHXScriptObject.html),[PHXSimpleArray](../../../../com/phoenix_int/aserver/types/PHXSimpleArray.html),[PHXSimpleType](../../../../com/phoenix_int/aserver/types/PHXSimpleType.html),[PHXString](../../../../com/phoenix_int/aserver/types/PHXString.html),[PHXStringArray](../../../../com/phoenix_int/aserver/types/PHXStringArray.html)
+- [PHXBoolean](PHXBoolean.md)
+- [PHXBooleanArray](PHXBooleanArray.md)
+- [PHXDouble](PHXDouble.md)
+- [PHXDoubleArray](PHXDoubleArray.md)
+- [PHXFile](PHXFile.md)
+- [PHXGeometry](PHXGeometry.md)
+- [PHXInteger](PHXInteger.md)
+- [PHXLong](PHXLong.md)
+- [PHXLongArray](PHXLongArray.md)
+- [PHXObjectArray](PHXObjectArray.md)
+- [PHXRawFile](PHXRawFile.md)
+- [PHXRawFileArray](PHXRawFileArray.md)
+- [PHXReference](PHXReference.md)
+- [PHXScriptObject](PHXScriptObject.md)
+- [PHXSimpleArray](PHXSimpleArray.md)
+- [PHXSimpleType](PHXSimpleType.md)
+- [PHXString](PHXString.md)
+- [PHXStringArray](PHXStringArray.md)
 
 ---
+
+**Declaration**
 
 ```java
 public interface IPHXType
 ```
-The interface for all Phoenix types. Phoenix types are
- usually composite classes that provide subproperties for things
- like descriptions, units, etc. Implementing this interface permits
- the ModelCenter Remote Execution to set and get values directly from the object 
- even though the value may actually be stored as a sub-property.
-**Author:**
-: Woyak- ========== METHOD SUMMARY ===========
-- ### Method Summary
 
-| Modifier and Type | Method and Description |
-| --- | --- |
-| Modifier and Type | Method and Description |
-| `void` | `fromString(java.lang.String value)`Set the value for the variable using a string |
-| `java.lang.String` | `toString()`Gets the value for the variable |- ============ METHOD DETAIL ==========
-- ### Method Detail
+The interface for all ModelCenter types. ModelCenter types are usually composite classes that provide subproperties for things like descriptions, units, etc. Implementing this interface permits ModelCenter Remote Execution to set and get values directly from the object even though the value may actually be stored as a sub-property.
 
-- #### fromString
+## Method Summary
+
+| Modifier and Type    | Method and Description|
+|---------------------|------------------------------|
+| `void`| `fromString(java.lang.String value)`<br>Set the value for the variable using a string |
+| `java.lang.String`  | `toString()` <br>Gets the value for the variable           |
+
+## Method Detail
+
+### fromString
 
 ```java
-void fromString(java.lang.String value)
+void fromString(java.lang.String value)
 ```
 Set the value for the variable using a string
-**Parameters:**
-: `value`- the value of the variable
 
-- #### toString
+**Parameters:**
+- `value` - the value of the variable
+
+### toString
 
 ```java
-java.lang.String toString()
+java.lang.String toString()
 ```
 Gets the value for the variable
+
 **Overrides:**
-: `toString`in class`java.lang.Object`
+- `toString` in class `java.lang.Object`
+
 **Returns:**
-: the value as a String
-========= END OF CLASS DATA =========
+- the value as a String

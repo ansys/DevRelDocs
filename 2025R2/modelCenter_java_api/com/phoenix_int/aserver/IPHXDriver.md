@@ -3,7 +3,10 @@
 **Package:** `com.phoenix_int.aserver`
 
 **Superinterfaces**
-- `IPHXComponent`
+- [`IPHXComponent`](IPHXComponent.md)
+
+**Related Classes**
+- [`IPHXAnalysis`](IPHXAnalysis.md), [`PHXSimpleSelfManager`](PHXSimpleSelfManager.md), [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md), [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md), [`PHXComponentBranch`](PHXComponentBranch.md), [`PHXComponentDescription`](PHXComponentDescription.md), [`PHXComponentVersion`](PHXComponentVersion.md), [`PHXGroup`](PHXGroup.md), [`PHXMethodDescriptor`](PHXMethodDescriptor.md), [`PHXPropertyDescriptor`](PHXPropertyDescriptor.md), [`PHXVariableInfo`](PHXVariableInfo.md), [`PHXDFTException`](PHXDFTException.md), [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md), [`PHXNoSuchWriteableObjectException`](PHXNoSuchWriteableObjectException.md), [`PHXInvokeReturn`](PHXInvokeReturn.md), [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md), [`PHXInvalidNameException`](PHXInvalidNameException.md)
 
 **Declaration**
 ```java
@@ -21,7 +24,7 @@ This is the interface that drivers managed by ModelCenter Remote Execution must 
 | `void` | `initializeIterations()`<br>Initializes the driver to a starting state. |
 | `void` | `startIteration()`<br>Performs the first step for an iteration of a driver. |
 
-### Methods inherited from interface `com.phoenix_int.aserver.IPHXComponent`
+### Methods inherited from interface [`com.phoenix_int.aserver.IPHXComponent`](IPHXComponent.md)
 `end`
 
 ## Method Detail

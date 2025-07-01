@@ -14,7 +14,7 @@
 - `java.io.Serializable`
 
 **Direct Known Subclasses:**
-- [`PHXNoSuchWriteableObjectException`](../../../com/phoenix_int/aserver/PHXNoSuchWriteableObjectException.html)
+- [PHXNoSuchWriteableObjectException](PHXNoSuchWriteableObjectException.md)
 
 **Declaration**
 ```java

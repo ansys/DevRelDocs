@@ -14,7 +14,7 @@ public interface IPHXAnalysisClientListener
     extends java.util.EventListener
 ```
 
-This interface is used by the `PHXAnalysisClient` class. The `onResponse()` method is called each time a new response is received from the server.
+This interface is used by the [`PHXAnalysisClient`](PHXAnalysisClient.md) class. The `onResponse()` method is called each time a new response is received from the server.
 
 ## Method Summary
 
@@ -29,7 +29,7 @@ This interface is used by the `PHXAnalysisClient` class. The `onResponse()` meth
 ```java
 void onResponse(PHXAnalysisClientEvent e)
 ```
-Called each time a new response is received from the ModelCenter Remote Execution.
+Called each time a new response is received from ModelCenter Remote Execution.
 
 **Parameters:**
 - `e` - The event structure holding the response object and event id.
@@ -38,7 +38,7 @@ Called each time a new response is received from the ModelCenter Remote Executio
 ```java
 void onException(PHXAnalysisClientExceptionEvent e)
 ```
-Called each time an exception occurs while reading from the connection to the ModelCenter Remote Execution.
+Called each time an exception occurs while reading from the connection to ModelCenter Remote Execution.
 
 **Parameters:**
 - `e` - The event structure holding the Exception object and event id.

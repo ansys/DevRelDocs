@@ -1,31 +1,32 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.types
-## Class PHXOrientation
-- java.lang.Object
-- - com.phoenix_int.aserver.types.PHXOrientation
-- ---
+# Class PHXOrientation
+
+**Packages:** `com.phoenix_int.aserver.types`
+
+```
+↳ java.lang.Object
+  ↳ com.phoenix_int.aserver.types.PHXOrientation
+``` 
+---
+
+**Declaration:**
 
 ```java
 public class PHXOrientation
 extends java.lang.Object
 ```
-This is a utility class for holding orientation information. The
- class is used as one of the parts of the PHXGeomInfo class
-**Author:**
-: Woyak, 10/98- ======== CONSTRUCTOR SUMMARY ========
-- ### Constructor Summary
+
+This is a utility class for holding orientation information. The class is used as one of the parts of the [PHXGeomInfo](PHXGeomInfo.md) class
+
+## Constructor Summary
 
 | Constructor and Description |
 | --- |
-| Constructor and Description |
-| `PHXOrientation(boolean hasRotation,
-              boolean hasTranslation)` |
-========== METHOD SUMMARY ===========
-- ### Method Summary
+| `PHXOrientation(boolean hasRotation, boolean hasTranslation)` |
+
+## Method Summary
 
 | Modifier and Type | Method and Description |
 | --- | --- |
-| Modifier and Type | Method and Description |
 | `boolean` | `getHasRotation()` |
 | `boolean` | `getHasTranslation()` |
 | `double` | `getRotX()` |
@@ -41,11 +42,12 @@ This is a utility class for holding orientation information. The
 | `void` | `setTransY(double v)` |
 | `void` | `setTransZ(double v)` |
 
-- ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`- ========= CONSTRUCTOR DETAIL ========
-- ### Constructor Detail
+### Methods inherited from class java.lang.Object
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `toString`, `wait`, `wait`, `wait`
 
-- #### PHXOrientation
+## Constructor Detail
+
+### PHXOrientation
 
 ```java
 public PHXOrientation(boolean hasRotation,
@@ -53,92 +55,91 @@ public PHXOrientation(boolean hasRotation,
 ```
 
 **Parameters:**
-: `hasRotation`- true if the object uses the rotation variables
-: `hasTranslation`- true if the object uses the translation variables
-============ METHOD DETAIL ==========
-- ### Method Detail
+- `hasRotation`- true if the object uses the rotation variables
+- `hasTranslation`- true if the object uses the translation variables
 
-- #### getRotX
+## Method Detail
+
+### getRotX
 
 ```java
 public double getRotX()
 ```
 
-- #### getRotY
+### getRotY
 
 ```java
 public double getRotY()
 ```
 
-- #### getRotZ
+### getRotZ
 
 ```java
 public double getRotZ()
 ```
 
-- #### getHasRotation
+### getHasRotation
 
 ```java
 public boolean getHasRotation()
 ```
 
-- #### getTransX
+### getTransX
 
 ```java
 public double getTransX()
 ```
 
-- #### getTransY
+### getTransY
 
 ```java
 public double getTransY()
 ```
 
-- #### getTransZ
+### getTransZ
 
 ```java
 public double getTransZ()
 ```
 
-- #### getHasTranslation
+### getHasTranslation
 
 ```java
 public boolean getHasTranslation()
 ```
 
-- #### setRotX
+### setRotX
 
 ```java
 public void setRotX(double v)
 ```
 
-- #### setRotY
+### setRotY
 
 ```java
 public void setRotY(double v)
 ```
 
-- #### setRotZ
+### setRotZ
 
 ```java
 public void setRotZ(double v)
 ```
 
-- #### setTransX
+### setTransX
 
 ```java
 public void setTransX(double v)
 ```
 
-- #### setTransY
+### setTransY
 
 ```java
 public void setTransY(double v)
 ```
 
-- #### setTransZ
+### setTransZ
 
 ```java
 public void setTransZ(double v)
 ```
-========= END OF CLASS DATA =========

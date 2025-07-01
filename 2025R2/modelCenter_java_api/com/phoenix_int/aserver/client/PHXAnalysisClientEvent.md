@@ -21,7 +21,7 @@ public class PHXAnalysisClientEvent
 extends java.util.EventObject
 ```
 
-This class is an event for the `PHXAnalysisClient` class. The event is generated each time a new response is received from the server.
+This class is an event for the [`PHXAnalysisClient`](PHXAnalysisClient.md) class. The event is generated each time a new response is received from the server.
 
 
 **See Also:**

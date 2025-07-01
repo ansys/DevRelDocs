@@ -99,7 +99,7 @@ Get the type of response.
 ```java
 public java.lang.String getStringData()
 ```
-Get the string data; only valid if format is Normal or Extended.
+Get the string data; only valid if format is `Normal` or `Extended`.
 
 
 ### getErrorMessage
@@ -107,7 +107,7 @@ Get the string data; only valid if format is Normal or Extended.
 ```java
 public java.lang.String getErrorMessage()
 ```
-Get the server error; only valid if response type is ServerError or ConnectionError.
+Get the server error; only valid if response type is `ServerError` or `ConnectionError`.
 
 
 ### getBinaryData
@@ -115,7 +115,7 @@ Get the server error; only valid if response type is ServerError or ConnectionEr
 ```java
 public byte[] getBinaryData()
 ```
-Get the binary data; only valid if format is Extended or Icon.
+Get the binary data; only valid if format is `Extended` or `Icon`.
 
 
 ### isText
@@ -243,8 +243,8 @@ Parse this response as a sequence of property descriptors.
 
 ```java
 public java.util.List<PHXPropertyDescriptor> asPropertyDescriptors(java.lang.String baseObjectName)
-                                                 throws java.lang.IllegalStateException,
-                                                        AnalysisServerException
+                                                            throws java.lang.IllegalStateException,
+                                                                   AnalysisServerException
 ```
 Parse this response as a sequence of property descriptors.
 
@@ -263,8 +263,8 @@ Parse this response as a sequence of property descriptors.
 
 ```java
 public com.phoenix_int.aserver.client.v2.ChunkDescriptor asChunkDescriptor()
-                                                 throws java.lang.IllegalStateException,
-                                                        AnalysisServerException
+                                                                    throws java.lang.IllegalStateException, 
+                                                                           AnalysisServerException
 ```
 Parse the response as a chunk descriptor.
 
@@ -280,8 +280,8 @@ Parse the response as a chunk descriptor.
 
 ```java
 public java.util.List<PHXPropertyValue> asValueDescriptors()
-                                                 throws java.lang.IllegalStateException,
-                                                        AnalysisServerException
+                                                    throws java.lang.IllegalStateException,
+                                                           AnalysisServerException
 ```
 Parse the response as a list of value descriptors.
 
@@ -314,8 +314,8 @@ Parse the response as a version history.
 
 ```java
 public java.util.Map<java.lang.String,AnalysisVariableValue> asHierarchy()
-                                                 throws java.lang.IllegalStateException,
-                                                        AnalysisServerException
+                                                                  throws java.lang.IllegalStateException,
+                                                                         AnalysisServerException
 ```
 Parse the response as a variable hierarchy.
 
@@ -326,4 +326,3 @@ Parse the response as a variable hierarchy.
 - `java.lang.IllegalStateException` - if this is not a text response
 - `AnalysisServerException` - if the data is not valid
 
----

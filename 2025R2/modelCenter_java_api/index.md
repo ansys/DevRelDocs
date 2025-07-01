@@ -1,4 +1,4 @@
-This document contains the ModelCenter Java API.
+This document contains the ModelCenter Remote Execution Java API.
 
 ## How This API Document Is Organized
 This API (Application Programming Interface) document has pages corresponding to the items in the navigation bar, described as follows.

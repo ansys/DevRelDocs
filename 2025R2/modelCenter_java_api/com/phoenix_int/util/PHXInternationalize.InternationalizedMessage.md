@@ -1,7 +1,7 @@
 # Interface: PHXInternationalize.InternationalizedMessage
 
 **Enclosing class:**
-[PHXInternationalize](../../../com/phoenix_int/util/PHXInternationalize.html)
+[PHXInternationalize](PHXInternationalize.md)
 
 **Functional Interface:**
 This is a functional interface and can therefore be used as the assignment target for a lambda expression or method reference.

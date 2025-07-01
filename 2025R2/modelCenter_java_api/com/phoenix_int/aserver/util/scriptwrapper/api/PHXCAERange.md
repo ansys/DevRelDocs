@@ -12,7 +12,7 @@
 
 **Implemented Interfaces**
 
-- [IPHXRange](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/IPHXRange.html)
+- [IPHXRange](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/IPHXRange.md)
 
 ----
 
@@ -62,7 +62,8 @@ public static final java.lang.String NAME_SEPARATOR
 ```
 
 **See Also:**
-- [Constant Field Values](../../../../../../constant-values.html#com.phoenix_int.aserver.util.scriptwrapper.api.PHXCAERange.NAME_SEPARATOR)
+
+- [Constant Field Values](../../../../../constant-values.md)
 
 ## Constructor Detail
 
@@ -94,7 +95,8 @@ public void fromString(java.lang.String str)
 ```
 
 **Specified by:**
-- `fromString` in interface `IPHXRange`
+
+- `fromString` in interface [`IPHXRange`](IPHXRange.md)
 
 ### toString
 
@@ -103,9 +105,11 @@ public java.lang.String toString()
 ```
 
 **Specified by:**
-- `toString` in interface `IPHXRange`
+
+- `toString` in interface [`IPHXRange`](IPHXRange.md)
 
 **Overrides:**
+
 - `toString` in class `java.lang.Object`
 
 ### toString
@@ -115,7 +119,8 @@ public java.lang.String toString(boolean fullName)
 ```
 
 **Specified by:**
-- `toString` in interface `IPHXRange`
+
+- `toString` in interface [`IPHXRange`](IPHXRange.md)
 
 ### assertEquals
 
@@ -125,7 +130,8 @@ public void assertEquals(IPHXRange other)
 ```
 
 **Specified by:**
-- `assertEquals` in interface `IPHXRange`
+
+- `assertEquals` in interface [`IPHXRange`](IPHXRange.md)
 
 **Throws:**
 - `java.lang.Exception`
@@ -143,4 +149,5 @@ public java.lang.String getPageName()
 ```
 
 **Specified by:**
-- `getPageName` in interface `IPHXRange`
+
+- `getPageName` in interface [`IPHXRange`](IPHXRange.md)

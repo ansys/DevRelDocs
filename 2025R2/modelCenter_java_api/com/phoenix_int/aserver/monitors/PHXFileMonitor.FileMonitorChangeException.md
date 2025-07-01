@@ -1,18 +1,28 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.monitors
-## Class PHXFileMonitor.FileMonitorChangeException
-- java.lang.Object
-- - java.lang.Throwable
-- - java.lang.Exception
-- - java.io.IOException
-- - com.phoenix_int.aserver.monitors.PHXFileMonitor.FileMonitorChangeException
-- **All Implemented Interfaces:**
-: java.io.Serializable
+# Class: PHXFileMonitor.FileMonitorChangeException
+
+**Package:** `com.phoenix_int.aserver.monitors`
+
+**Class Hierarchy**
+
+```
+↳ java.lang.Object
+  ↳ java.lang.Throwable
+    ↳ java.lang.Exception
+      ↳ java.io.IOException
+        ↳ com.phoenix_int.aserver.monitors.PHXFileMonitor.FileMonitorChangeException
+```
+
+**All Implemented Interfaces**
+
+- `java.io.Serializable`
 
 **Enclosing class:**
-: [PHXFileMonitor](../../../../com/phoenix_int/aserver/monitors/PHXFileMonitor.html)
+
+- [PHXFileMonitor](PHXFileMonitor.md)
 
 ---
+
+**Declaration**
 
 ```java
 public class PHXFileMonitor.FileMonitorChangeException
@@ -20,33 +30,33 @@ extends java.io.IOException
 ```
 
 **See Also:**
-: [Serialized Form](../../../../serialized-form.html#com.phoenix_int.aserver.monitors.PHXFileMonitor.FileMonitorChangeException)- ======== CONSTRUCTOR SUMMARY ========
-- ### Constructor Summary
+- [Serialized Form](../../../../serialized-form.md)
+
+## Constructor Summary
 
 | Constructor and Description |
 | --- |
-| Constructor and Description |
 | `FileMonitorChangeException()` |
-| `FileMonitorChangeException(java.lang.String msg)` |
-========== METHOD SUMMARY ===========
-- ### Method Summary
+| `FileMonitorChangeException(java.lang.String msg)` |
 
-- ### Methods inherited from class java.lang.Throwable
+## Method Summary
+
+### Methods inherited from class java.lang.Throwable
 `addSuppressed, fillInStackTrace, getCause, getLocalizedMessage, getMessage, getStackTrace, getSuppressed, initCause, printStackTrace, printStackTrace, printStackTrace, setStackTrace, toString`
 
-- ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`- ========= CONSTRUCTOR DETAIL ========
-- ### Constructor Detail
+### Methods inherited from class java.lang.Object
+`clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`
 
-- #### FileMonitorChangeException
+## Constructor Detail
 
-```java
-public FileMonitorChangeException()
-```
-
-- #### FileMonitorChangeException
+### FileMonitorChangeException
 
 ```java
-public FileMonitorChangeException(java.lang.String msg)
+public FileMonitorChangeException()
 ```
-========= END OF CLASS DATA =========
+
+### FileMonitorChangeException
+
+```java
+public FileMonitorChangeException(java.lang.String msg)
+```

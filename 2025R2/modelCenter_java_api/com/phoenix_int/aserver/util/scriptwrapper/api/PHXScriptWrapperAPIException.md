@@ -26,7 +26,7 @@ Represents a problem with transferring data in a `PHXRowFieldFile` object.
 
 **See Also:**
 
-- [Serialized Form](../../../../../../serialized-form.html#com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperAPIException)
+- [Serialized Form](../../../../../../serialized-form.md)
 
 ## Constructor Summary
 

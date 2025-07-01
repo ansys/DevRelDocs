@@ -1,51 +1,65 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.types
-## Class PHXGeometry
-- java.lang.Object
-- - [com.phoenix_int.aserver.types.PHXSimpleType](../../../../com/phoenix_int/aserver/types/PHXSimpleType.html)
-- - com.phoenix_int.aserver.types.PHXGeometry
-- **All Implemented Interfaces:**
-: [IPHXType](../../../../com/phoenix_int/aserver/types/IPHXType.html),[IPHXType2](../../../../com/phoenix_int/aserver/types/IPHXType2.html),[IPHXUnits](../../../../com/phoenix_int/aserver/types/IPHXUnits.html)
+# Class: PHXGeometry
 
----
+**Package:[`PHXSimpleType`](../../| `| `void` | `fromObject(java.lang.Object toRead)`<br>Load the value of this object from the specified object. |T> T` | `Accept(IPHXType2.IVisitor<T> visitor)`<br>Accept a Visitor. |./../com/phoenix_int/aserver/types/PHXSimpleType.html)
+
+## Nested Class Summary
+
+### Nested classes/interfaces inherited from interface com.phoenix_int.aserver.types.IPHXType2
+`IPHXType2.IVisitor<T>`
+
+## Constructor Summary.phoenix_int.aserver.types`
+
+**Class Hierarchy**
+
+```
+↳ java.lang.Object
+  ↳ com.phoenix_int.aserver.types.PHXSimpleType
+    ↳ com.phoenix_int.aserver.types.PHXGeometry
+```
+
+**Implemented Interfaces**
+
+- `IPHXType`, `IPHXType2`, `IPHXUnits`
+
+--- 
+**Declaration**
 
 ```java
 public class PHXGeometry
 extends PHXSimpleType
 ```
-The Phoenix type for geometry. This class has the following
- properties:
+
+The ModelCenter type for geometry. This class has the following properties:
+
 - **data**: String - a String representation of the data
 - **format**: String - the type of data
 - **description**: String
-If the variable has an upper or lower bound and an attempt
- is made to store an invalid value, then an exception will
- be thrown.
-**Author:**
-: Woyak
+
+If the variable has an upper or lower bound and an attempt is made to store an invalid value, then an exception will be thrown.
+
 **See Also:**
-: [PHXSimpleType](../../../../com/phoenix_int/aserver/types/PHXSimpleType.html)- ======== NESTED CLASS SUMMARY ========
-- ### Nested Class Summary
 
-- ### Nested classes/interfaces inherited from interface com.phoenix_int.aserver.types.IPHXType2
+[`PHXSimpleType`](../../../../com/phoenix_int/aserver/types/PHXSimpleType.html)- 
+
+## Nested Class Summary
+
+### Nested classes/interfaces inherited from interface com.phoenix_int.aserver.types.IPHXType2
 `IPHXType2.IVisitor<T>`
-======== CONSTRUCTOR SUMMARY ========
-- ### Constructor Summary
+
+## Constructor Summary
 
 | Constructor and Description |
-| --- |
-| Constructor and Description |
+|---------------------|
 | `PHXGeometry()` |
-| `PHXGeometry(PHXGeometryother)`Clone another PHXGeometry's value and metadata. |
-========== METHOD SUMMARY ===========
-- ### Method Summary
+| `PHXGeometry(PHXGeometry other)`<br>Clone another PHXGeometry's value and metadata. |
+
+## Method Summary
 
 | Modifier and Type | Method and Description |
-| --- | --- |
-| Modifier and Type | Method and Description |
+|-------------------|----------------------|
 | `<T> T` | `Accept(IPHXType2.IVisitor<T> visitor)`Accept a Visitor. |
-| `PHXGeometry` | `createCopy()`Create a copy of this instance, including the value and metadata. |
-| `boolean` | `equalsNatural(PHXSimpleTypetoCompare)`Compare this PHXSimpleType to another PHXSimpleType. |
+| `PHXGeometry` | `createCopy()`<br>Create a copy of this instance, including the value and metadata. |
+| `boolean` | `equalsNatural(PHXSimpleType toCompare)`<br>Compare this PHXSimpleType to another PHXSimpleType. |
 | `void` | `fromObject(java.lang.Object toRead)`Load the value of this object from the specified object. |
 | `void` | `fromString(java.lang.String value)`converts a String representation to the internal value |
 | `void` | `fromString2(PHXStringBuffervalue)`converts a PHXStringBuffer representation to the internal value |
@@ -58,192 +72,218 @@ If the variable has an upper or lower bound and an attempt
 | `java.lang.String` | `toString()`converts the variable to a string |
 | `PHXStringBuffer` | `toString2()`converts the variable to a PHXStringBuffer |
 
-- ### Methods inherited from class com.phoenix_int.aserver.types.PHXSimpleType
-`_copyMetadataFromOther,addPropertyChangeListener,getEnumTokens,getHasChanged,getUnits,removePropertyChangeListener,setHasChanged,setUnits`
+### Methods inherited from class com.phoenix_int.aserver.types.[PHXSimpleType](PHXSimpleType.md)
+`_copyMetadataFromOther`, `addPropertyChangeListener`, `getEnumTokens`, `getHasChanged`, `getUnits`,`removePropertyChangeListener`, `setHasChanged`, `setUnits`
 
-- ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`- ========= CONSTRUCTOR DETAIL ========
-- ### Constructor Detail
+### Methods inherited from class java.lang.Object
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `wait`, `wait`, `wait`
 
-- #### PHXGeometry
+
+## Constructor Detail
+
+### PHXGeometry
 
 ```java
 public PHXGeometry()
 ```
 
-- #### PHXGeometry
+### PHXGeometry
 
 ```java
 public PHXGeometry(PHXGeometry other)
 ```
 Clone another PHXGeometry's value and metadata.
-**Parameters:**
-: `other`- the other PHXGeometry to clone.
-============ METHOD DETAIL ==========
-- ### Method Detail
 
-- #### getData
+**Parameters:**
+- `other`- the other PHXGeometry to clone.
+
+
+## Method Detail
+
+### getData
 
 ```java
 public java.lang.String getData()
 ```
 retrieves the current value for the geometry data
-**Returns:**
-: the geometry data
 
-- #### setData
+**Returns:**
+- the geometry data
+
+### setData
 
 ```java
 public void setData(java.lang.String d)
 ```
 sets the value for the variable
-**Parameters:**
-: `d`- the value
 
-- #### getFormat
+**Parameters:**
+- `d`- the value
+
+### getFormat
 
 ```java
 public java.lang.String getFormat()
 ```
 retrieves the format for the geometry data
-**Returns:**
-: the format of the geometry data
 
-- #### setFormat
+**Returns:**
+- the format of the geometry data
+
+### setFormat
 
 ```java
 public void setFormat(java.lang.String d)
                throws PHXInvalidTypeException
 ```
-sets the format for the variable. The format is a String description of the representation of the data -
- specifying a new format only stores a new value for the format
-**Parameters:**
-: `d`- the value
-**Throws:**
-: `PHXInvalidTypeException`
+sets the format for the variable. The format is a String description of the representation of the data - specifying a new format only stores a new value for the format
 
-- #### getDescription
+**Parameters:**
+- `d`- the value
+
+**Throws:**
+- [`PHXInvalidTypeException`](PHXInvalidTypeException.md)
+
+### getDescription
 
 ```java
 public java.lang.String getDescription()
 ```
 retrieves the description of the variable
-**Overrides:**
-: `getDescription`in class`PHXSimpleType`
-**Returns:**
-: a description geometry data
 
-- #### setDescription
+**Overrides:**
+: `getDescription` in class [`PHXSimpleType`](PHXSimpleType.md)
+
+**Returns:**
+- a description geometry data
+
+### setDescription
 
 ```java
 public void setDescription(java.lang.String d)
 ```
-sets the description for the variable. This should be a short,
- one-line description.
-**Overrides:**
-: `setDescription`in class`PHXSimpleType`
-**Parameters:**
-: `d`- the description
+sets the description for the variable. This should be a short, one-line description.
 
-- #### toString2
+**Overrides:**
+: `setDescription` in class [`PHXSimpleType`](PHXSimpleType.md)
+
+**Parameters:**
+- `d`- the description
+
+### toString2
 
 ```java
 public PHXStringBuffer toString2()
 ```
 converts the variable to a PHXStringBuffer
-**Returns:**
-: a PHXStringBuffer representation of the variable
 
-- #### toString
+**Returns:**
+- a PHXStringBuffer representation of the variable
+
+### toString
 
 ```java
 public java.lang.String toString()
 ```
 converts the variable to a string
-**Specified by:**
-: `toString`in interface`IPHXType`
-**Overrides:**
-: `toString`in class`java.lang.Object`
-**Returns:**
-: a String representation of the variable
 
-- #### fromString2
+**Specified by:**
+- 
+: `toString` in interface [`IPHXType`](IPHXType.md)
+
+**Overrides:**
+: `toString` in class `java.lang.Object`
+
+**Returns:**
+- a String representation of the variable
+
+### fromString2
 
 ```java
 public void fromString2(PHXStringBuffer value)
 ```
 converts a PHXStringBuffer representation to the internal value
-**Parameters:**
-: `value`- the value to convert
 
-- #### fromString
+**Parameters:**
+- `value`- the value to convert
+
+### fromString
 
 ```java
 public void fromString(java.lang.String value)
 ```
 converts a String representation to the internal value
-**Parameters:**
-: `value`- the value to convert
 
-- #### equalsNatural
+**Parameters:**
+- `value`- the value to convert
+
+### equalsNatural
 
 ```java
 public boolean equalsNatural(PHXSimpleType toCompare)
                       throws PHXTypeMismatchException
 ```
-Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is different than`Comparable`in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets,
- and may behave oddly if put in those circumstances.
-**Specified by:**
-: `equalsNatural`in class`PHXSimpleType`
-**Parameters:**
-: `toCompare`-
-**Returns:**
-: a negative number if this object is less than toCompare, a positive number if this object is greater than
- to compare, and zero if these two objects are equal.
-**Throws:**
-: `PHXTypeMismatchException`- if the given PHXSimpleType cannot be compared with this object.
+Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is different than `Comparable` in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets, and may behave oddly if put in those circumstances.
 
-- #### fromObject
+**Specified by:**
+- 
+: `equalsNatural` in class [`PHXSimpleType`](PHXSimpleType.md)
+
+**Parameters:**
+- `toCompare`-
+
+**Returns:**
+- a negative number if this object is less than `toCompare`, a positive number if this object is greater than `toCompare`, and zero if these two objects are equal.
+
+**Throws:**
+- `PHXTypeMismatchException`- if the given PHXSimpleType cannot be compared with this object.
+
+### fromObject
 
 ```java
 public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
-Load the value of this object from the specified object. This will read the object and attempt to convert it if it
- is a known type. If the type isn't recognized, it will throw a PHXInvalidTypeException. If there is an error in
- conversion, it will also throw a PHXInvalidTypeException
+Load the value of this object from the specified object. This will read the object and attempt to convert it if it is a known type. If the type isn't recognized, it will throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md). If there is an error in conversion, it will also throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md)
 
- NOTE: while it might be logical to think you can create a PHX(Type)Array from, say, an
- array of java.lang.(Type), that is not currently supported. You MUST use the PHX string
- array formatting style.
+NOTE: while it might be logical to think you can create a `PHX(Type)Array` from, say, an array of `java.lang.(Type)`, that is not currently supported. You MUST use the PHX string array formatting style.
+
 **Specified by:**
-: `fromObject`in class`PHXSimpleType`
-**Parameters:**
-: `toRead`- to object from which to load this objects value.
-**Throws:**
-: `PHXInvalidTypeException`- if the specified object is of an invalid type or there is an error in conversion.
+- 
+: `fromObject` in class [`PHXSimpleType`](PHXSimpleType.md)
 
-- #### Accept
+**Parameters:**
+- `toRead`- to object from which to load this objects value.
+
+**Throws:**
+- [`PHXInvalidTypeException`](PHXInvalidTypeException.md)- if the specified object is of an invalid type or there is an error in conversion.
+
+### Accept
 
 ```java
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
 Accept a Visitor.
+
 **Type Parameters:**
 : `T`- Type of the result of the visit.
-**Parameters:**
-: `visitor`- The visitor to accept.
-**Returns:**
-: The results of the visit.
 
-- #### createCopy
+**Parameters:**
+- `visitor`- The visitor to accept.
+
+**Returns:**
+- The results of the visit.
+
+### createCopy
 
 ```java
 public PHXGeometry createCopy()
 ```
 Create a copy of this instance, including the value and metadata.
+
 **Specified by:**
-: `createCopy`in class`PHXSimpleType`
+- 
+: `createCopy` in class [`PHXSimpleType`](PHXSimpleType.md)
+
 **Returns:**
-: a newly constructed copy of this instance.
-========= END OF CLASS DATA =========
+- a newly constructed copy of this instance.

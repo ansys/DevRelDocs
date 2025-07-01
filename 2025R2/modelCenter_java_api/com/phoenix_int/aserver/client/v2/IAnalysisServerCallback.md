@@ -3,7 +3,7 @@
 **Package:** `com.phoenix_int.aserver.client.v2`
 
 **All Known Implementing Classes:**
-- [AnalysisServerWaitCallback](../../../../../com/phoenix_int/aserver/client/v2/AnalysisServerWaitCallback.html)
+- [AnalysisServerWaitCallback](AnalysisServerWaitCallback.md)
 
 --- 
 

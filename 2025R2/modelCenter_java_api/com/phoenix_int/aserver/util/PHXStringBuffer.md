@@ -25,7 +25,7 @@ Class that behaves like a `java.lang.StringBuffer` but has logic for caching out
 
 **See Also:**
 
-[Serialized Form](../../../../serialized-form.html#com.phoenix_int.aserver.util.PHXStringBuffer)
+[Serialized Form](../../../../serialized-form.md)
 
 ## Field Summary
 
@@ -96,7 +96,7 @@ public static final long SIZECUTOFF
 
 **See Also:**
 
-[Constant Field Values](../../../../constant-values.html#com.phoenix_int.aserver.util.PHXStringBuffer.SIZECUTOFF)
+[Constant Field Values](../../../../constant-values.md)
 
 ## Constructor Detail
 
@@ -300,7 +300,7 @@ NOTE: This is very bad performance for large files. Avoid this if possible if yo
 
 **See Also:**
 
-[getReader()](../../../../com/phoenix_int/aserver/util/PHXStringBuffer.html#getReader--), [getInputStream()](../../../../com/phoenix_int/aserver/util/PHXStringBuffer.html#getInputStream--)
+[getReader()](PHXStringBuffer.md), [getInputStream()](PHXStringBuffer.md)
 
 ### getReader
 

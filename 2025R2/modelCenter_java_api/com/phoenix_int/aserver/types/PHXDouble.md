@@ -1,519 +1,589 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.types
-## Class PHXDouble
-- java.lang.Object
-- - [com.phoenix_int.aserver.types.PHXSimpleType](../../../../com/phoenix_int/aserver/types/PHXSimpleType.html)
-- - com.phoenix_int.aserver.types.PHXDouble
-- **All Implemented Interfaces:**
-: [IPHXFormat](../../../../com/phoenix_int/aserver/types/IPHXFormat.html),[IPHXType](../../../../com/phoenix_int/aserver/types/IPHXType.html),[IPHXType2](../../../../com/phoenix_int/aserver/types/IPHXType2.html),[IPHXUnits](../../../../com/phoenix_int/aserver/types/IPHXUnits.html)
+# Class: PHXDouble
 
----
+**Package:** `com.phoenix_int.aserver.types`
+
+**Class Hierarchy**
+
+```
+↳ java.lang.Object
+  ↳ com.phoenix_int.aserver.types.PHXSimpleType
+    ↳ com.phoenix_int.aserver.types.PHXDouble
+```
+
+**Implemented Interfaces**
+
+- [IPHXFormat](IPHXFormat.md), [IPHXType](IPHXType.md), [IPHXType2](IPHXType2.md), [IPHXUnits](IPHXUnits.md)
+
+--- 
+
+**Declaration**
 
 ```java
 public class PHXDouble
 extends PHXSimpleType
 implements IPHXFormat
 ```
-The Phoenix type for doubles. This class adds the following
- features to the PHXSimpleType:
+
+The Phoenix type for doubles. This class adds the following features to the [PHXSimpleType](PHXSimpleType.md):
+
 - **value**: double
-- **valueStr**: the source string for the value,
-     useful for error checking when the value is NaN
+- **valueStr**: the source string for the value, useful for error checking when the value is NaN
 - **hasUpperValue**: boolean
 - **upperValue**: double
 - **hasLowerValue**: boolean
 - **lowerValue**: double
 - **enumValues**: double[]
 - **enumValues**: string[]
-If the variable has an upper or lower bound and an attempt
- is made to store an invalid value, then an exception will
- be thrown.
-**Author:**
-: Woyak
-**See Also:**
-: [PHXSimpleType](../../../../com/phoenix_int/aserver/types/PHXSimpleType.html)- ======== NESTED CLASS SUMMARY ========
-- ### Nested Class Summary
 
-- ### Nested classes/interfaces inherited from interface com.phoenix_int.aserver.types.IPHXType2
+If the variable has an upper or lower bound and an attempt is made to store an invalid value, then an exception will be thrown.
+
+## Nested Class Summary
+
+### Nested classes/interfaces inherited from interface [IPHXType2](IPHXType2.md)
 `IPHXType2.IVisitor<T>`
-======== CONSTRUCTOR SUMMARY ========
-- ### Constructor Summary
+
+## Constructor Summary
 
 | Constructor and Description |
-| --- |
-| Constructor and Description |
-| `PHXDouble()`initializes value to zero without upper or lower bounds |
-| `PHXDouble(double value)`Initializes value to specified value without upper or lower bounds. |
-| `PHXDouble(PHXDoubleother)`Clone another PHXDouble's value and metadata. |
-========== METHOD SUMMARY ===========
-- ### Method Summary
+|---------------------------|
+| `PHXDouble()`<br>Initializes value to zero without upper or lower bounds |
+| `PHXDouble(double value)`<br>Initializes value to specified value without upper or lower bounds. |
+| `PHXDouble(PHXDouble other)`<br>Clone another PHXDouble's value and metadata. |
+
+## Method Summary
 
 | Modifier and Type | Method and Description |
-| --- | --- |
-| Modifier and Type | Method and Description |
-| `protected void` | `_copyMetadataFromOther(PHXDoubleother)`Clone another PHXDouble's metadata. |
-| `<T> T` | `Accept(IPHXType2.IVisitor<T> visitor)`Accept a Visitor. |
-| `static java.lang.String` | `arrayToString(double[] sa)` |
-| `PHXDouble` | `createCopy()`Create a copy of this instance, including the value and metadata. |
-| `boolean` | `equalsNatural(PHXSimpleTypetoCompare)`Compare this PHXSimpleType to another PHXSimpleType. |
-| `void` | `fromObject(java.lang.Object toRead)`Load the value of this object from the specified object. |
-| `void` | `fromString(java.lang.String value)`converts a String representation to the internal value |
-| `void` | `fromString2(PHXStringBuffervalue)`converts a PHXStringBuffer representation to the internal value |
-| `void` | `fromString3(java.lang.String value,
-           java.util.function.ToDoubleFunction<java.lang.String> converter)`converts a String representation to the internal value using specified converter |
-| `java.lang.String[]` | `getEnumAliases()`An interface function for the enumeration array |
-| `java.lang.String` | `getEnumAliasesStr()`An interface function for the enumeration array |
-| `double[]` | `getEnumValues()`An interface function for the enumeration array |
-| `java.lang.String` | `getEnumValuesStr()`Interface function to pass out the enumeration array as a
- comma separated string |
-| `java.lang.String` | `getFormat()`Get the format string for the variable |
-| `boolean` | `getHasLowerBound()`retrieves the hasLowerBound flag |
-| `boolean` | `getHasUpperBound()`retrieves the hasUpperBound flag |
-| `double` | `getLowerBound()`retrieves the current lower bound value |
-| `double` | `getUpperBound()`retrieves the current upper bound value |
-| `double` | `getValue()`retrieves the current value of the variable |
-| `java.lang.String` | `getValueStr()`retrieves the string value of this variable as passed into the
- last call to fromString(). |
-| `boolean` | `hasFormat()`Whether or not the variable has a format |
-| `void` | `setEnumAliases(java.lang.String values)`takes a comma seperated string of values and fills the
- enumeration aliases list with values. |
-| `void` | `setEnumAliases(java.lang.String[] values)`Sets the enumeration aliases list |
-| `void` | `setEnumValues(double[] values)`Sets the enumeration list of valid values. |
-| `void` | `setEnumValues(java.lang.String values)`takes a comma seperated string of values and fills the
- enumeration List with values. |
-| `void` | `setFormat(java.lang.String format)`Set the format string for the variable |
-| `void` | `setHasLowerBound(boolean value)`sets the hasLowerBound flag |
-| `void` | `setHasUpperBound(boolean value)`sets the hasUpperBound flag |
-| `void` | `setIgnoreConversionErrors(boolean ignoreConversionErrors)`indicates whether the object should accept bad values in the
- fromString() method without throwning an exception. |
-| `void` | `setLowerBound(double value)`sets the lower bound. |
-| `void` | `setLowerBound(java.lang.String value)` |
-| `void` | `setUpperBound(double value)`sets the upper bound. |
-| `void` | `setUpperBound(java.lang.String value)` |
-| `void` | `setValue(double v)`sets the value for the variable |
-| `java.lang.String` | `toString()`converts the variable to a string |
-| `java.lang.String` | `toString(int width)`Converts the value to a string with the best possible formatting, e.g. |
-| `PHXStringBuffer` | `toString2()`converts the variable to a PHXStringBuffer |
+|-------------------|----------------------|
+| `protected void` | `_copyMetadataFromOther(PHXDouble other)`<br>Clone another PHXDouble's metadata. |
+| `<T> T` | `Accept(IPHXType2.IVisitor<T> visitor)`<br>Accept a Visitor. |
+| `static java.lang.String` | `arrayToString(double[] sa)` |
+| `PHXDouble` | `createCopy()`<br>Create a copy of this instance, including the value and metadata. |
+| `boolean` | `equalsNatural(PHXSimpleType toCompare)`<br>Compare this PHXSimpleType to another PHXSimpleType. |
+| `void` | `fromObject(java.lang.Object toRead)`<br>Load the value of this object from the specified object. |
+| `void` | `fromString(java.lang.String value)`<br>Converts a String representation to the internal value. |
+| `void` | `fromString2(PHXStringBuffer value)`<br>Converts a PHXStringBuffer representation to the internal value. |
+| `void` | `fromString3(java.lang.String value, java.util.function.ToDoubleFunction<java.lang.String> converter)`<br>Converts a String representation to the internal value using specified converter. |
+| `java.lang.String[]` | `getEnumAliases()`<br>An interface function for the enumeration array. |
+| `java.lang.String` | `getEnumAliasesStr()`<br>An interface function for the enumeration array. |
+| `double[]` | `getEnumValues()`<br>An interface function for the enumeration array. |
+| `java.lang.String` | `getEnumValuesStr()`<br>Interface function to pass out the enumeration array as a comma separated string. |
+| `java.lang.String` | `getFormat()`<br>Get the format string for the variable. |
+| `boolean` | `getHasLowerBound()`<br>Retrieves the `hasLowerBound` flag. |
+| `boolean` | `getHasUpperBound()`<br>Retrieves the `hasUpperBound` flag. |
+| `double` | `getLowerBound()`<br>Retrieves the current lower bound value. |
+| `double` | `getUpperBound()`<br>Retrieves the current upper bound value. |
+| `double` | `getValue()`<br>Retrieves the current value of the variable. |
+| `java.lang.String` | `getValueStr()`<br>Retrieves the string value of this variable as passed into the last call to `fromString()`. |
+| `boolean` | `hasFormat()`<br>Whether or not the variable has a format. |
+| `void` | `setEnumAliases(java.lang.String values)`<br>Takes a comma separated string of values and fills the enumeration aliases list with values. |
+| `void` | `setEnumAliases(java.lang.String[] values)`<br>Sets the enumeration aliases list. |
+| `void` | `setEnumValues(double[] values)`<br>Sets the enumeration list of valid values. |
+| `void` | `setEnumValues(java.lang.String values)`<br>Takes a comma separated string of values and fills the enumeration List with values. |
+| `void` | `setFormat(java.lang.String format)`<br>Set the format string for the variable. |
+| `void` | `setHasLowerBound(boolean value)`<br>Sets the `hasLowerBound` flag. |
+| `void` | `setHasUpperBound(boolean value)`<br>Sets the `hasUpperBound` flag. |
+| `void` | `setIgnoreConversionErrors(boolean ignoreConversionErrors)`<br>Indicates whether the object should accept bad values in the `fromString()` method without throwing an exception. |
+| `void` | `setLowerBound(double value)`<br>Sets the lower bound. |
+| `void` | `setLowerBound(java.lang.String value)` |
+| `void` | `setUpperBound(double value)`<br>Sets the upper bound. |
+| `void` | `setUpperBound(java.lang.String value)` |
+| `void` | `setValue(double v)`<br>Sets the value for the variable. |
+| `java.lang.String` | `toString()`<br>Converts the variable to a string. |
+| `java.lang.String` | `toString(int width)`<br>Converts the value to a string with the best possible formatting, e.g. scientific or absolute values based on the width available. |
+| `PHXStringBuffer` | `toString2()`<br>Converts the variable to a PHXStringBuffer. |
 
-- ### Methods inherited from class com.phoenix_int.aserver.types.PHXSimpleType
-`_copyMetadataFromOther,addPropertyChangeListener,getDescription,getEnumTokens,getHasChanged,getUnits,removePropertyChangeListener,setDescription,setHasChanged,setUnits`
+### Methods inherited from class [PHXSimpleType](PHXSimpleType.md)
+`_copyMetadataFromOther`, `addPropertyChangeListener`, `getDescription`, `getEnumTokens`, `getHasChanged`, `getUnits`, `removePropertyChangeListener`, `setDescription`, `setHasChanged`, `setUnits`
 
-- ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`- ========= CONSTRUCTOR DETAIL ========
-- ### Constructor Detail
+### Methods inherited from class java.lang.Object
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `wait`, `wait`, `wait`
 
-- #### PHXDouble
+## Constructor Detail
+
+### PHXDouble
 
 ```java
-public PHXDouble()
+public PHXDouble()
 ```
-initializes value to zero without upper or lower bounds
+Initializes value to zero without upper or lower bounds.
 
-- #### PHXDouble
+### PHXDouble
 
 ```java
-public PHXDouble(double value)
+public PHXDouble(double value)
 ```
+
+**Parameters:**
+- `value` -
+
 Initializes value to specified value without upper or lower bounds.
-**Parameters:**
-: `value`-
 
-- #### PHXDouble
+### PHXDouble
 
 ```java
-public PHXDouble(PHXDouble other)
+public PHXDouble(PHXDouble other)
 ```
+
+**Parameters:**
+- `other` - the other PHXDouble to clone.
+
 Clone another PHXDouble's value and metadata.
-**Parameters:**
-: `other`- the other PHXDouble to clone.
-============ METHOD DETAIL ==========
-- ### Method Detail
 
-- #### _copyMetadataFromOther
+## Method Detail
+
+### _copyMetadataFromOther
 
 ```java
-protected final void _copyMetadataFromOther(PHXDouble other)
+protected final void _copyMetadataFromOther(PHXDouble other)
 ```
+
+**Parameters:**
+- `other` - the other PHXDouble
+
 Clone another PHXDouble's metadata.
-**Parameters:**
-: `other`- the other PHXDouble
 
-- #### getValue
+### getValue
 
 ```java
-public double getValue()
+public double getValue()
 ```
-retrieves the current value of the variable
+
+Retrieves the current value of the variable.
+
 **Returns:**
-: the value of the variable
+- the value of the variable
 
-- #### getValueStr
+### getValueStr
 
 ```java
-public java.lang.String getValueStr()
+public java.lang.String getValueStr()
 ```
-retrieves the string value of this variable as passed into the
- last call to fromString().  This may not be equivalent to the current
- value of the variable.
+
+Retrieves the string value of this variable as passed into the last call to `fromString()`. This may not be equivalent to the current value of the variable.
+
 **Returns:**
-: the string last used to set the variable
+- the string last used to set the variable
 
-- #### setValue
+### setValue
 
 ```java
-public void setValue(double v)
+public void setValue(double v)
 ```
-sets the value for the variable
+
 **Parameters:**
-: `v`- the value
+- `v` - the value
 
-- #### setUpperBound
+Sets the value for the variable.
+
+### setUpperBound
 
 ```java
-public void setUpperBound(double value)
+public void setUpperBound(double value)
 ```
-sets the upper bound. The hasUpperBound value is set to true
+
 **Parameters:**
-: `value`- the upper bound
+- `value` - the upper bound
 
-- #### setUpperBound
+Sets the upper bound. The hasUpperBound value is set to true.
 
-```java
-public void setUpperBound(java.lang.String value)
-```
-
-- #### getUpperBound
+### setUpperBound
 
 ```java
-public double getUpperBound()
+public void setUpperBound(java.lang.String value)
 ```
-retrieves the current upper bound value
+
+### getUpperBound
+
+```java
+public double getUpperBound()
+```
+
+Retrieves the current upper bound value.
+
 **Returns:**
-: the upper bound
+- the upper bound
 
-- #### setLowerBound
+### setLowerBound
 
 ```java
-public void setLowerBound(double value)
+public void setLowerBound(double value)
 ```
-sets the lower bound. The hasLowerBound value is set to true
+
 **Parameters:**
-: `value`- the lower bound
+- `value` - the lower bound
 
-- #### setLowerBound
+Sets the lower bound. The `hasLowerBound` value is set to true.
 
-```java
-public void setLowerBound(java.lang.String value)
-```
-
-- #### getLowerBound
+### setLowerBound
 
 ```java
-public double getLowerBound()
+public void setLowerBound(java.lang.String value)
 ```
-retrieves the current lower bound value
+
+### getLowerBound
+
+```java
+public double getLowerBound()
+```
+
+Retrieves the current lower bound value.
+
 **Returns:**
-: the lower bound
+- the lower bound
 
-- #### setHasUpperBound
+### setHasUpperBound
 
 ```java
-public void setHasUpperBound(boolean value)
+public void setHasUpperBound(boolean value)
 ```
-sets the hasUpperBound flag
+
 **Parameters:**
-: `value`- true or false
+- `value` - true or false
 
-- #### getHasUpperBound
+Sets the `hasUpperBound` flag.
+
+### getHasUpperBound
 
 ```java
-public boolean getHasUpperBound()
+public boolean getHasUpperBound()
 ```
-retrieves the hasUpperBound flag
+
+Retrieves the `hasUpperBound` flag.
+
 **Returns:**
-: true or false
+- true or false
 
-- #### setHasLowerBound
+### setHasLowerBound
 
 ```java
-public void setHasLowerBound(boolean value)
+public void setHasLowerBound(boolean value)
 ```
-sets the hasLowerBound flag
+
 **Parameters:**
-: `value`- true or false
+- `value` - true or false
 
-- #### getHasLowerBound
+Sets the `hasLowerBound` flag.
+
+### getHasLowerBound
 
 ```java
-public boolean getHasLowerBound()
+public boolean getHasLowerBound()
 ```
-retrieves the hasLowerBound flag
+
+Retrieves the `hasLowerBound` flag.
+
 **Returns:**
-: true or false
+- true or false
 
-- #### toString2
+### toString2
 
 ```java
-public PHXStringBuffer toString2()
+public PHXStringBuffer toString2()
 ```
-converts the variable to a PHXStringBuffer
+
+Converts the variable to a PHXStringBuffer.
+
 **Specified by:**
-: `toString2`in interface`IPHXType2`
-**Returns:**
-: the PHXStringBuffer representation of the variable
+- `toString2` in interface [IPHXType2](IPHXType2.md)
 
-- #### toString
+**Returns:**
+- the PHXStringBuffer representation of the variable
+
+### toString
 
 ```java
-public java.lang.String toString()
+public java.lang.String toString()
 ```
-converts the variable to a string
+
+Converts the variable to a string.
+
 **Specified by:**
-: `toString`in interface`IPHXType`
+- `toString` in interface [IPHXType](IPHXType.md)
+
 **Overrides:**
-: `toString`in class`java.lang.Object`
+- `toString` in class `java.lang.Object`
+
 **Returns:**
-: a String representation of the variable
+- a String representation of the variable
 
-- #### fromString2
+### fromString2
 
 ```java
-public void fromString2(PHXStringBuffer value)
+public void fromString2(PHXStringBuffer value)
 ```
-converts a PHXStringBuffer representation to the internal value
+
+Converts a PHXStringBuffer representation to the internal value.
+
 **Specified by:**
-: `fromString2`in interface`IPHXType2`
-**Parameters:**
-: `value`- the value to convert
+- `fromString2` in interface [IPHXType2](IPHXType2.md)
 
-- #### fromString3
+**Parameters:**
+- `value` - the value to convert
+
+### fromString3
 
 ```java
-public void fromString3(java.lang.String value,
-                        java.util.function.ToDoubleFunction<java.lang.String> converter)
+public void fromString3(java.lang.String value, java.util.function.ToDoubleFunction<java.lang.String> converter)
 ```
-converts a String representation to the internal value using specified converter
-**Parameters:**
-: `value`- the value to convert
-: `converter`- functional interface used to convert String value to a double
 
-- #### fromString
+Converts a String representation to the internal value using specified converter.
+
+**Parameters:**
+- `value` - the value to convert
+- `converter` - functional interface used to convert String value to a double
+
+### fromString
 
 ```java
-public void fromString(java.lang.String value)
+public void fromString(java.lang.String value)
 ```
-converts a String representation to the internal value
+
+Converts a String representation to the internal value.
+
 **Specified by:**
-: `fromString`in interface`IPHXType`
-**Parameters:**
-: `value`- the value to convert
+- `fromString` in interface [IPHXType](IPHXType.md)
 
-- #### toString
+**Parameters:**
+- `value` - the value to convert
+
+### toString
 
 ```java
-public java.lang.String toString(int width)
-                          throws PHXNumberFormatException
+public java.lang.String toString(int width)
+  throws PHXNumberFormatException
 ```
-Converts the value to a string with the best possible formatting, e.g.
- scientific or absolute values based on the width available.
+
+Converts the value to a string with the best possible formatting, e.g. scientific or absolute values based on the width available.
+
 **Parameters:**
-: `width`- the number of characters print to
+- `width` - the number of characters print to
+
 **Returns:**
-: the formatted string value
+- the formatted string value
+
 **Throws:**
-: `PHXNumberFormatException`
+- [PHXNumberFormatException](PHXNumberFormatException.md)
 
-- #### setIgnoreConversionErrors
+### setIgnoreConversionErrors
 
 ```java
-public void setIgnoreConversionErrors(boolean ignoreConversionErrors)
+public void setIgnoreConversionErrors(boolean ignoreConversionErrors)
 ```
-indicates whether the object should accept bad values in the
- fromString() method without throwning an exception. The raw
- values is stored in property valueStr regardless.
+
+Indicates whether the object should accept bad values in the `fromString()` method without throwing an exception. The raw value is stored in property valueStr regardless.
+
 **Parameters:**
-: `ignoreConversionErrors`- true if errors should be ignored
+- `ignoreConversionErrors` - true if errors should be ignored
 
-- #### setEnumValues
+### setEnumValues
 
 ```java
-public void setEnumValues(java.lang.String values)
+public void setEnumValues(java.lang.String values)
 ```
-takes a comma seperated string of values and fills the
- enumeration List with values.
+
+Takes a comma separated string of values and fills the enumeration List with values.
+
 **Parameters:**
-: `values`- A comma seperrated string of enumeration values
+- `values` - A comma separated string of enumeration values
 
-- #### setEnumValues
+### setEnumValues
 
 ```java
-public void setEnumValues(double[] values)
+public void setEnumValues(double[] values)
 ```
+
 Sets the enumeration list of valid values.
+
 **Parameters:**
-: `values`- An array of double values
+- `values` - An array of double values
 
-- #### getEnumValues
+### getEnumValues
 
 ```java
-public double[] getEnumValues()
+public double[] getEnumValues()
 ```
-An interface function for the enumeration array
+
+An interface function for the enumeration array.
+
 **Returns:**
-: an array of the possible values of the list
+- an array of the possible values of the list
 
-- #### getEnumValuesStr
+### getEnumValuesStr
 
 ```java
-public java.lang.String getEnumValuesStr()
+public java.lang.String getEnumValuesStr()
 ```
-Interface function to pass out the enumeration array as a
- comma separated string
+
+Interface function to pass out the enumeration array as a comma separated string.
+
 **Returns:**
-: comma separated string of the possible values of the list
+- comma separated string of the possible values of the list
 
-- #### setEnumAliases
+### setEnumAliases
 
 ```java
-public void setEnumAliases(java.lang.String values)
+public void setEnumAliases(java.lang.String values)
 ```
-takes a comma seperated string of values and fills the
- enumeration aliases list with values.
+
+Takes a comma separated string of values and fills the enumeration aliases list with values.
+
 **Parameters:**
-: `values`- A comma seperated string of enumeration aliases
+- `values` - A comma separated string of enumeration aliases
 
-- #### setEnumAliases
+### setEnumAliases
 
 ```java
-public void setEnumAliases(java.lang.String[] values)
+public void setEnumAliases(java.lang.String[] values)
 ```
-Sets the enumeration aliases list
+
+Sets the enumeration aliases list.
+
 **Parameters:**
-: `values`- An array of strings
+- `values` - An array of strings
 
-- #### getEnumAliases
+### getEnumAliases
 
 ```java
-public java.lang.String[] getEnumAliases()
+public java.lang.String[] getEnumAliases()
 ```
-An interface function for the enumeration array
+
+An interface function for the enumeration array.
+
 **Returns:**
-: an array of the possible values of the list
+- an array of the possible values of the list
 
-- #### getEnumAliasesStr
+### getEnumAliasesStr
 
 ```java
-public java.lang.String getEnumAliasesStr()
+public java.lang.String getEnumAliasesStr()
 ```
-An interface function for the enumeration array
+
+An interface function for the enumeration array.
+
 **Returns:**
-: an comma separated string of the possible values of the list
+- a comma separated string of the possible values of the list
 
-- #### setFormat
+### setFormat
 
 ```java
-public void setFormat(java.lang.String format)
+public void setFormat(java.lang.String format)
 ```
-Set the format string for the variable
+
+Set the format string for the variable.
+
 **Specified by:**
-: `setFormat`in interface`IPHXFormat`
+- `setFormat` in interface [IPHXFormat](IPHXFormat.md)
+
 **Parameters:**
-: `format`- format string
+- `format` - format string
 
-- #### getFormat
+### getFormat
 
 ```java
-public java.lang.String getFormat()
+public java.lang.String getFormat()
 ```
-Get the format string for the variable
+
+Get the format string for the variable.
+
 **Specified by:**
-: `getFormat`in interface`IPHXFormat`
+- `getFormat` in interface [IPHXFormat](IPHXFormat.md)
+
 **Returns:**
-: format string
+- format string
 
-- #### hasFormat
+### hasFormat
 
 ```java
-public boolean hasFormat()
+public boolean hasFormat()
 ```
-Whether or not the variable has a format
+
+Whether or not the variable has a format.
+
 **Specified by:**
-: `hasFormat`in interface`IPHXFormat`
+- `hasFormat` in interface [IPHXFormat](IPHXFormat.md)
+
 **Returns:**
-: true if variable has a format
+- true if variable has a format
 
-- #### arrayToString
-
-```java
-public static java.lang.String arrayToString(double[] sa)
-```
-
-- #### equalsNatural
+### arrayToString
 
 ```java
-public boolean equalsNatural(PHXSimpleType toCompare)
-                      throws PHXTypeMismatchException
+public static java.lang.String arrayToString(double[] sa)
 ```
-Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is different than`Comparable`in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets,
- and may behave oddly if put in those circumstances.
 
- NOTE: two PHXDoubles are considered naturally equal if they are the same to within 5 significant figures. The
- equals natural algorithm uses a relative error or epsilon comparison for equality. This should NOT be confused
- with a true double equality comparison and should not be used as such! It is only intended to verify that values
- specified in PACJ configurations are roughly equal to instantiated component values.
+### equalsNatural
+
+```java
+public boolean equalsNatural(PHXSimpleType toCompare)
+  throws PHXTypeMismatchException
+```
+
+Compare this [PHXSimpleType](PHXSimpleType.md) to another [PHXSimpleType](PHXSimpleType.md). This type of comparison is different than `Comparable` in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets, and may behave oddly if put in those circumstances.
+
+NOTE: two PHXDoubles are considered naturally equal if they are the same to within 5 significant figures. The equals natural algorithm uses a relative error or epsilon comparison for equality. This should NOT be confused with a true double equality comparison and should not be used as such! It is only intended to verify that values specified in PACJ configurations are roughly equal to instantiated component values.
+
 **Specified by:**
-: `equalsNatural`in class`PHXSimpleType`
+- `equalsNatural` in class [PHXSimpleType](PHXSimpleType.md)
+
 **Parameters:**
-: `toCompare`-
+- `toCompare` -
+
 **Returns:**
-: a negative number if this object is less than toCompare, a positive number if this object is greater than
- to compare, and zero if these two objects are equal.
+- a negative number if this object is less than toCompare, a positive number if this object is greater than to compare, and zero if these two objects are equal.
+
 **Throws:**
-: `PHXTypeMismatchException`- if the given PHXSimpleType cannot be compared with this object.
+- [PHXTypeMismatchException](PHXTypeMismatchException.md) - if the given [PHXSimpleType](PHXSimpleType.md) cannot be compared with this object.
 
-- #### fromObject
+### fromObject
 
 ```java
-public void fromObject(java.lang.Object toRead)
-                throws PHXInvalidTypeException
+public void fromObject(java.lang.Object toRead)
+  throws PHXInvalidTypeException
 ```
-Load the value of this object from the specified object. This will read the object and attempt to convert it if it
- is a known type. If the type isn't recognized, it will throw a PHXInvalidTypeException. If there is an error in
- conversion, it will also throw a PHXInvalidTypeException
 
- NOTE: while it might be logical to think you can create a PHX(Type)Array from, say, an
- array of java.lang.(Type), that is not currently supported. You MUST use the PHX string
- array formatting style.
+Load the value of this object from the specified object. This will read the object and attempt to convert it if it is a known type. If the type isn't recognized, it will throw a [PHXInvalidTypeException](PHXInvalidTypeException.md). If there is an error in conversion, it will also throw a [PHXInvalidTypeException](PHXInvalidTypeException.md).
+
+NOTE: while it might be logical to think you can create a PHX(Type)Array from, say, an array of java.lang.(Type), that is not currently supported. You MUST use the PHX string array formatting style.
+
 **Specified by:**
-: `fromObject`in class`PHXSimpleType`
-**Parameters:**
-: `toRead`- to object from which to load this objects value.
-**Throws:**
-: `PHXInvalidTypeException`- if the specified object is of an invalid type or there is an error in conversion.
+- `fromObject` in class [PHXSimpleType](PHXSimpleType.md)
 
-- #### Accept
+**Parameters:**
+- `toRead` - to object from which to load this objects value.
+
+**Throws:**
+- [PHXInvalidTypeException](PHXInvalidTypeException.md) - if the specified object is of an invalid type or there is an error in conversion.
+
+### Accept
 
 ```java
-public <T> T Accept(IPHXType2.IVisitor<T> visitor)
+public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
+
 Accept a Visitor.
-**Specified by:**
-: `Accept`in interface`IPHXType2`
-**Type Parameters:**
-: `T`- Type of the result of the visit.
-**Parameters:**
-: `visitor`- The visitor to accept.
-**Returns:**
-: The results of the visit.
 
-- #### createCopy
+**Specified by:**
+- `Accept` in interface [IPHXType2](IPHXType2.md)
+
+**Type Parameters:**
+- `T` - Type of the result of the visit.
+
+**Parameters:**
+- `visitor` - The visitor to accept.
+
+**Returns:**
+- The results of the visit.
+
+### createCopy
 
 ```java
-public PHXDouble createCopy()
+public PHXDouble createCopy()
 ```
+
 Create a copy of this instance, including the value and metadata.
+
 **Specified by:**
-: `createCopy`in class`PHXSimpleType`
+- `createCopy` in class [PHXSimpleType](PHXSimpleType.md)
+
 **Returns:**
-: a newly constructed copy of this instance.
-========= END OF CLASS DATA =========
+- a newly constructed copy of this instance.

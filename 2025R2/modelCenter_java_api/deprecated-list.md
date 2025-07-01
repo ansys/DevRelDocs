@@ -1,14 +1,6 @@
 # Deprecated API
 
-## Contents
-
-- [Deprecated Interfaces](#deprecated-interfaces)
-- [Deprecated Classes](#deprecated-classes)
-- [Deprecated Enums](#deprecated-enums)
-- [Deprecated Fields](#deprecated-fields)
-- [Deprecated Methods](#deprecated-methods)
-- [Deprecated Constructors](#deprecated-constructors)
-
+<a id="deprecated-interfaces"></a>
 
 ## Deprecated Interfaces
 | Interface and Description |
@@ -22,6 +14,8 @@
 | [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.html)<br>see [com.phoenix_int.pacz.api.v2.IRuntimeVariable](com/phoenix_int/pacz/api/v2/IRuntimeVariable.md) |
 | [com.phoenix_int.aserver.util.scriptwrapper.api.OutputFile](com/phoenix_int/aserver/util/scriptwrapper/api/OutputFile.html)<br>in favor of [OutputFile2](com/phoenix_int/aserver/util/scriptwrapper/api/OutputFile2.md) |
 
+<a id="deprecated-classes"></a>
+
 ## Deprecated Classes
 | Class and Description |
 | --- |
@@ -30,11 +24,15 @@
 | [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.html) |
 | [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.html) |
 
+<a id="deprecated-enums"></a>
+
 ## Deprecated Enums
 | Enum and Description |
 | --- |
 | [com.phoenix_int.pacz.api.RunFolderPreference](com/phoenix_int/pacz/api/RunFolderPreference.html)<br>see [`com.phoenix_int.pacz.api.v2.RunFolderPreference`](com/phoenix_int/pacz/api/v2/RunFolderPreference.md) |
 | [com.phoenix_int.pacz.api.VariableDataType](com/phoenix_int/pacz/api/VariableDataType.html) IRuntimeVariables are now using the canonical PHX type identifiers which are literal strings (see [`com.phoenix_int.pacz.api.v2`](com/phoenix_int/pacz/api/v2/package-summary.md)) |
+
+<a id="deprecated-fields"></a>
 
 ## Deprecated Fields
 | Field and Description |
@@ -46,6 +44,8 @@
 | [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile.PARSE](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.html#PARSE)<br>in favor of [ParseableFile.Mode.PARSE](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md#PARSE) |
 | [com.phoenix_int.aserver.util.PHXFileParser.RANDOM_ACCESS](com/phoenix_int/aserver/util/PHXFileParser.html#RANDOM_ACCESS)<br>in favor of [Parser.Mode.RANDOM](com/phoenix_int/aserver/util/Parser.Mode.md#RANDOM) |
 | [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile.READ_TEMPLATE](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.html#READ_TEMPLATE)<br>in favor of [ParseableFile.Mode.READ_TEMPLATE](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md#READ_TEMPLATE) |
+
+<a id="deprecated-methods"></a>
 
 ## Deprecated Methods
 | Method and Description |
@@ -59,6 +59,8 @@
 | [com.phoenix_int.aserver.library.IPHXFactory.instantiate(File, String, String)](com/phoenix_int/aserver/library/IPHXFactory.html#instantiate-java.io.File-java.lang.String-java.lang.String-)<br>It is preferred to use [`IPHXFactory2.instantiateManaged(java.io.File, java.lang.String, java.lang.String)`](com/phoenix_int/aserver/library/IPHXFactory2.md#instantiateManaged-java.io.File-java.lang.String-java.lang.String-) as this method can lead to resource leaks. |
 | [com.phoenix_int.aserver.library.IPHXLibrarian.instantiate(String, String)](com/phoenix_int/aserver/library/IPHXLibrarian.html#instantiate-java.lang.String-java.lang.String-) |
 | [com.phoenix_int.aserver.library.IPHXLibrarian.instantiate(String, String, String, String)](com/phoenix_int/aserver/library/IPHXLibrarian.html#instantiate-java.lang.String-java.lang.String-java.lang.String-java.lang.String-) |
+
+<a id="deprecated-constructors"></a>
 
 ## Deprecated Construtors
 | Constructor and Description |

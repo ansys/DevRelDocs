@@ -16,7 +16,7 @@ public class PHXProcessInfo
 extends java.lang.Object
 ```
 
-This class represents information about a running process on the system. It includes static members for listing all processes. This is done in a semi-platform independent way by using an external program which is platform dependent (although fairly consistent on UNIX systems, ps). See `PHXRuntime` and `PHXProcess` for other convenient ways to use this information. Note that not all platforms will have all information available.
+This class represents information about a running process on the system. It includes static members for listing all processes. This is done in a semi-platform independent way by using an external program which is platform dependent (although fairly consistent on UNIX systems, ps). See [`PHXRuntime`](PHXRuntime.md) and [`PHXProcess`](PHXProcess.md) for other convenient ways to use this information. Note that not all platforms will have all information available.
 
 ## Constructor Summary
 

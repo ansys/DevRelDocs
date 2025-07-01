@@ -26,7 +26,7 @@ extends java.lang.Exception
 
 **See Also:**
 
-- [Serialized Form](../../../../../../serialized-form.html#com.phoenix_int.aserver.util.scriptwrapper.api.PHXVersionException)
+- [Serialized Form](../../../../../../serialized-form.md)
 
 ## Constructor Summary
 

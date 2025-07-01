@@ -52,7 +52,7 @@ public static final java.lang.String DEFAULT_SHELL
 
 **See Also:**
 
-[Constant Field Values](../../../../constant-values.html#com.phoenix_int.aserver.util.PHXRuntime.DEFAULT_SHELL)
+[Constant Field Values](../../../../constant-values.md)
 
 ## Constructor Detail
 

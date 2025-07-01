@@ -1,83 +1,79 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.types
-## Class PHXGeomInfo
-- java.lang.Object
-- - com.phoenix_int.aserver.types.PHXGeomInfo
-- ---
+# Class: PHXGeomInfo
+
+**Package:** `com.phoenix_int.aserver.types`
+
+**Class Hierarchy**
+
+```
+↳ java.lang.Object
+  ↳ com.phoenix_int.aserver.types.PHXGeomInfo
+```
+
+--- 
+**Declaration**
 
 ```java
 public class PHXGeomInfo
 extends java.lang.Object
 ```
-this is a utility class that mirrors the structures in ModelCenter. If you
- want to calculate values for certain geometry information such as CGs, 
- instantiate this class and set the values for the desired parameters. 
- ModelCenter will then use these parameters instead of letting the user
- specify values or calculating them itself.
-**Author:**
-: Woyak 10/98- ======== CONSTRUCTOR SUMMARY ========
-- ### Constructor Summary
+
+this is a utility class that mirrors the structures in ModelCenter. If you want to calculate values for certain geometry information such as CGs, instantiate this class and set the values for the desired parameters. ModelCenter will then use these parameters instead of letting the user specify values or calculating them itself.
+
+## Constructor Summary
 
 | Constructor and Description |
-| --- |
-| Constructor and Description |
+|---------------------|
 | `PHXGeomInfo()` |
-| `PHXGeomInfo(boolean hasRotation,
-           boolean hasTranslation,
-           boolean hasColor,
-           boolean hasCentroid,
-           boolean hasVolume,
-           boolean hasSurfaceArea,
-           boolean hasMass)` |
-========== METHOD SUMMARY ===========
-- ### Method Summary
+| `PHXGeomInfo(boolean hasRotation, boolean hasTranslation, boolean hasColor, boolean hasCentroid, boolean hasVolume, boolean hasSurfaceArea, boolean hasMass)` |
+
+## Method Summary
 
 | Modifier and Type | Method and Description |
-| --- | --- |
-| Modifier and Type | Method and Description |
+|-------------------|----------------------|
 | `PHXAppearance` | `getAppearance()` |
 | `PHXMassProperties` | `getMassProperties()` |
 | `PHXOrientation` | `getOrientation()` |
 
-- ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`- ========= CONSTRUCTOR DETAIL ========
-- ### Constructor Detail
+### Methods inherited from class java.lang.Object
 
-- #### PHXGeomInfo
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `toString`, `wait`, `wait`, `wait`
 
-```java
-public PHXGeomInfo()
-```
+## Constructor Detail
 
-- #### PHXGeomInfo
+### PHXGeomInfo
 
 ```java
-public PHXGeomInfo(boolean hasRotation,
-                   boolean hasTranslation,
-                   boolean hasColor,
-                   boolean hasCentroid,
-                   boolean hasVolume,
-                   boolean hasSurfaceArea,
-                   boolean hasMass)
+public PHXGeomInfo()
 ```
-============ METHOD DETAIL ==========
-- ### Method Detail
 
-- #### getOrientation
+### PHXGeomInfo
 
 ```java
-public PHXOrientation getOrientation()
+public PHXGeomInfo(boolean hasRotation,
+                   boolean hasTranslation,
+                   boolean hasColor,
+                   boolean hasCentroid,
+                   boolean hasVolume,
+                   boolean hasSurfaceArea,
+                   boolean hasMass)
 ```
 
-- #### getAppearance
+## Method Detail
+
+### getOrientation
 
 ```java
-public PHXAppearance getAppearance()
+public PHXOrientation getOrientation()
 ```
 
-- #### getMassProperties
+### getAppearance
 
 ```java
-public PHXMassProperties getMassProperties()
+public PHXAppearance getAppearance()
 ```
-========= END OF CLASS DATA =========
+
+### getMassProperties
+
+```java
+public PHXMassProperties getMassProperties()
+```

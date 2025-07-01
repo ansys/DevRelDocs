@@ -3,10 +3,12 @@
 **Package:** `com.phoenix_int.aserver.util.scriptwrapper.api`
 
 **All Known Subinterfaces:**
-: [InputFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/InputFile.html), [OutputFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/OutputFile.html)
+
+[`InputFile`](InputFile.md), [`OutputFile`](OutputFile.md)
 
 **All Known Implementing Classes:**
-: [AbstractFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.html), [CAEOutputFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/CAEOutputFile.html), [PHXRowFieldFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.html), [XPathFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.html)
+
+[`AbstractFile`](AbstractFile.md), [`CAEOutputFile`](CAEOutputFile.md), [`PHXRowFieldFile`](PHXRowFieldFile.md), [`XPathFile`](XPathFile.md)
 
 --- 
 **Declaration:**
@@ -20,7 +22,7 @@ Interface for files (not file variables) used in script wrappers
 
 | Modifier and Type | Interface and Description |
 |-------------------|-------------------------|
-| `static class`    | `ParseableFile.Mode`<br>File mode. Moved to type-safe enum from legacy integer constants |
+| `static class`    | [`ParseableFile.Mode`](ParseableFile.Mode.md)<br>File mode. Moved to type-safe enum from legacy integer constants |
 
 ## Method Summary
 
@@ -74,14 +76,15 @@ void readTemplate()
 Read the template. In MCRE 7.1, this method was changed to never throw any exceptions. Reading the templates allows you to fill in default values if you can, but is not mandatory.
 
 **Throws:**
+
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 
 ### setFileToGenerateOrParse
 
@@ -105,7 +108,7 @@ This method applies only to ModelCenter and has no function in ModelCenter Remot
 ```java
 void setTemplateFile(java.lang.String templateFileName)
 ```
-Set the template file to read. If the template file is not specified, it defaults to the file that is parsed or generated, for `Mode.PARSE` or `Mode.GENERATE`, respectively.
+Set the template file to read. If the template file is not specified, it defaults to the file that is parsed or generated, for [`Mode.PARSE`](ParseableFile.Mode.md) or [`Mode.GENERATE`](ParseableFile.Mode.md), respectively.
 
 **Parameters:**
 - `templateFileName` - file name
@@ -124,4 +127,5 @@ Sets the value of a variable
 - `value` - variable value as a string
 
 **Throws:**
-- `PHXNoSuchObjectException`
+
+- [`PHXNoSuchObjectException`](../../../PHXNoSuchObjectException.md)

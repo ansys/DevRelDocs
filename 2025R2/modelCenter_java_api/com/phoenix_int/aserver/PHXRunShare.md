@@ -9,7 +9,7 @@
 ```
 
 **Implemented Interfaces**
-- `IPHXMonitorable`, `com.phoenix_int.aserver.trace.IPHXTraceGenerator`
+- [`IPHXMonitorable`](IPHXMonitorable.md), `com.phoenix_int.aserver.trace.IPHXTraceGenerator`
 
 **Declaration**
 ```java
@@ -26,7 +26,7 @@ This class can only handle one single process running at a time. If you need to 
 
 | Modifier and Type | Class and Description |
 |------------------|----------------------|
-| class            | `PHXRunShare.RunInfo`<br>Data structure used to hold info about a currently running command |
+| class            | [`PHXRunShare.RunInfo`](PHXRunShare.RunInfo.md)<br>Data structure used to hold info about a currently running command |
 
 ## Field Summary
 
@@ -375,14 +375,14 @@ Runs a command. Command may be relative to the run directory, see getDirectory()
 
 This function will not return until the sub-process has finished. It will collect stdout and stderr and provide progress monitors.
 
-If the command is halted (via [`halt()`](../../../com/phoenix_int/aserver/PHXRunShare.html#halt--) or [`timeout()`](../../../com/phoenix_int/aserver/PHXRunShare.html#timeout--)) and `ignoreError` is `false`, this method will throw a [`ProcessHaltedException`](../../../com/phoenix_int/aserver/ProcessHaltedException.html "class in com.phoenix_int.aserver").
+If the command is halted (via [`halt()`](#halt) or [`timeout()`](#timeout)) and `ignoreError` is `false`, this method will throw a [`ProcessHaltedException`](ProcessHaltedException.md).
 
 **Parameters:**
 - `cmd` - The command to run.
 
 **Throws:**
 - `java.io.IOException` - Either the command cannot be executed, or an I/O error occurred while reading standard error or standard out from the command
-- [`ProcessHaltedException`](../../../com/phoenix_int/aserver/ProcessHaltedException.html "class in com.phoenix_int.aserver") - The running script was halted via the [`halt()`](../../../com/phoenix_int/aserver/PHXRunShare.html#halt--) or [`timeout()`](../../../com/phoenix_int/aserver/PHXRunShare.html#timeout--).
+- [`ProcessHaltedException`](ProcessHaltedException.md) - The running script was halted via the [`halt()`](#halt) or [`timeout()`](#timeout).
 - `java.lang.Exception`
 
 ### run
@@ -486,13 +486,13 @@ public java.lang.Object getMonitor(java.lang.String m)
 Returns any available monitors by name.
 
 **Specified by:**
-- `getMonitor` in interface `IPHXMonitorable`
+- `getMonitor` in interface [`IPHXMonitorable`](IPHXMonitorable.md)
 
 **Returns:**
-- either a `PHXRawFile` or a `PHXMonitorableStream` object
+- either a PHXRawFile or a PHXMonitorableStream object
 
 **Throws:**
-- `PHXNoSuchObjectException`
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md)
 
 ### addTraceListener
 ```

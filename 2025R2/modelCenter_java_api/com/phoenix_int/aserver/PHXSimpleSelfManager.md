@@ -9,19 +9,19 @@
 ```
 
 **Implemented Interfaces**
-- `IPHXSelfManager`, `IPHXComponent`
+- [`IPHXSelfManager`](IPHXSelfManager.md), [`IPHXComponent`](IPHXComponent.md)
 
 **Direct Known Subclasses:**
-- [PHXSimpleSelfManager2](../../../com/phoenix_int/aserver/PHXSimpleSelfManager2.html)
+- [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md)
 
 **Declaration**
 ```java
 public class PHXSimpleSelfManager
-    extends java.lang.Object
-    implements IPHXSelfManager, IPHXComponent
+extends java.lang.Object
+implements IPHXSelfManager, IPHXComponent
 ```
 
-This is a class that implements most of the functionality of a self-managing component. The class provides utility functions for storing variables. These variables are then served to the ModelCenter Remote Execution automatically through the listProperties, getValue, and setValue functions.
+This is a class that implements most of the functionality of a self-managing component. The class provides utility functions for storing variables. These variables are then served to ModelCenter Remote Execution automatically through the `listProperties`, `getValue`, and `setValue` functions.
 
 
 ## Constructor Summary
@@ -91,14 +91,14 @@ protected void addVariable(java.lang.String groupName,
 adds a variable object to the manager
 
 **Parameters:**
-- `groupName`- the group to store the variable in. May be a dot-separated list of groups
-- `varName`- the name of the variable
-- `isInput`- true if the variable is an input
-- `var`- the variable information to add
+- `groupName` - the group to store the variable in. May be a dot-separated list of groups
+- `varName` - the name of the variable
+- `isInput` - true if the variable is an input
+- `var` - the variable information to add
 
 **Throws:**
-- `PHXNameAlreadyInUseException`- thrown if the name is already in use
-- `PHXInvalidNameException`- thrown if the name has invalid characters
+- [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md) - thrown if the name is already in use
+- [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### addVariable
 ```java
@@ -111,13 +111,13 @@ protected void addVariable(java.lang.String varName,
 adds a variable object to the manager
 
 **Parameters:**
-- `varName`- the name of the variable
-- `isInput`- true if the variable is an input
-- `var`- the variable information to add
+- `varName` - the name of the variable
+- `isInput` - true if the variable is an input
+- `var` - the variable information to add
 
 **Throws:**
-- `PHXNameAlreadyInUseException`- thrown if the name is already in use
-- `PHXInvalidNameException`- thrown if the name has invalid characters
+- [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md) - thrown if the name is already in use
+- [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### addVariable
 ```java
@@ -128,11 +128,11 @@ protected void addVariable(PHXVariableInfo varInfo)
 adds a variable information object to the manager
 
 **Parameters:**
-- `varInfo`- the variable information object
+- `varInfo` - the variable information object
 
 **Throws:**
-- `PHXNameAlreadyInUseException`- thrown if the name is already in use
-- `PHXInvalidNameException`- thrown if the name has invalid characters
+- [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md) - thrown if the name is already in use
+- [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### addVariable
 ```java
@@ -144,12 +144,12 @@ protected void addVariable(java.lang.String groupName,
 adds a variable information object to the manager
 
 **Parameters:**
-- `groupName`- the group to store the variable in. May be a dot-separated list of groups
-- `varInfo`- the variable information object
+- `groupName` - the group to store the variable in. May be a dot-separated list of groups
+- `varInfo` - the variable information object
 
 **Throws:**
-- `PHXNameAlreadyInUseException`- thrown if the name is already in use
-- `PHXInvalidNameException`- thrown if the name has invalid characters
+- [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md) - thrown if the name is already in use
+- [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### removeVariable
 ```java
@@ -158,10 +158,10 @@ protected boolean removeVariable(PHXVariableInfo varInfo)
 removes a variable. The groups will be searched for the matching variable.
 
 **Parameters:**
-- `varInfo`- the variable structure to remove
+- `varInfo` - the variable structure to remove
 
 **Returns:**
-- false if the variable was not found
+- `false` if the variable was not found
 
 ### addMethod
 ```java
@@ -175,14 +175,14 @@ protected void addMethod(java.lang.String name,
 adds a method name to the object
 
 **Parameters:**
-- `name`- the name of the method
-- `fullName`- the human readable name
-- `isVisible`- if true, the method is displayed using the listMethods command. Invoking is handled by the derived class, so it is up to it whether invisible methods may be invoked.
-- `downloadInputs`- if true, signal calling application that input variable values need to be reread
+- `name` - the name of the method
+- `fullName` - the human readable name
+- `isVisible` - if `true`, the method is displayed using the `listMethods` command. Invoking is handled by the derived class, so it is up to it whether invisible methods may be invoked.
+- `downloadInputs` - if `true`, signal calling application that input variable values need to be reread
 
 **Throws:**
-- `PHXNameAlreadyInUseException`- thrown if the name is already in use
-- `PHXInvalidNameException`- thrown if the name has invalid characters
+- [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md) - thrown if the name is already in use
+- [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### getMethodDescriptor
 ```java
@@ -191,7 +191,7 @@ protected PHXMethodDescriptor getMethodDescriptor(java.lang.String name)
 find the Method Descriptor associated with a given name
 
 **Returns:**
-- The PHXMethodDescriptor, or null if not found.
+- The [`PHXMethodDescriptor`](PHXMethodDescriptor.md), or null if not found.
 
 ### addMethod
 ```java
@@ -201,16 +201,16 @@ protected void addMethod(java.lang.String name,
                   throws PHXNameAlreadyInUseException,
                          PHXInvalidNameException
 ```
-relay function for addMethod( String name, String fullName, boolean isVisible, boolean downloadInputs = false )
+relay function for `addMethod( String name, String fullName, boolean isVisible, boolean downloadInputs = false )`
 
 **Parameters:**
-- `name`- the name of the method
-- `fullName`- the human readable name
-- `isVisible`- if true, the method is displayed using the listMethods command. Invoking is handled by the derived class, so it is up to it whether invisible methods may be invoked.
+- `name` - the name of the method
+- `fullName` - the human readable name
+- `isVisible` - if `true`, the method is displayed using the `listMethods` command. Invoking is handled by the derived class, so it is up to it whether invisible methods may be invoked.
 
 **Throws:**
-- `PHXNameAlreadyInUseException`- thrown if the name is already in use
-- `PHXInvalidNameException`- thrown if the name has invalid characters
+- [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md) - thrown if the name is already in use
+- [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### addMethod
 ```java
@@ -219,14 +219,14 @@ protected void addMethod(java.lang.String name,
                   throws PHXNameAlreadyInUseException,
                          PHXInvalidNameException
 ```
-relay function for addMethod( String name, String fullName = name, boolean isVisible )
+relay function for `addMethod( String name, String fullName = name, boolean isVisible )`
 
 **Parameters:**
-- `name`- the name of the method
+- `name` - the name of the method
 
 **Throws:**
-- `PHXNameAlreadyInUseException`- thrown if the name is already in use
-- `PHXInvalidNameException`- thrown if the name has invalid characters
+- [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md) - thrown if the name is already in use
+- [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### addMethod
 ```java
@@ -235,14 +235,14 @@ protected void addMethod(java.lang.String name,
                   throws PHXNameAlreadyInUseException,
                          PHXInvalidNameException
 ```
-relay function for addMethod( String name, String fullName, boolean isVisible=true )
+relay function for `addMethod( String name, String fullName, boolean isVisible=true )`
 
 **Parameters:**
-- `name`- the name of the method
+- `name` - the name of the method
 
 **Throws:**
-- `PHXNameAlreadyInUseException`- thrown if the name is already in use
-- `PHXInvalidNameException`- thrown if the name has invalid characters
+- [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md) - thrown if the name is already in use
+- [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### addMethod
 ```java
@@ -250,14 +250,14 @@ protected void addMethod(java.lang.String name)
                   throws PHXNameAlreadyInUseException,
                          PHXInvalidNameException
 ```
-relay function for addMethod( String name, boolean isVisible=true )
+relay function for `addMethod( String name, boolean isVisible=true )`
 
 **Parameters:**
-- `name`- the name of the method
+- `name` - the name of the method
 
 **Throws:**
-- `PHXNameAlreadyInUseException`- thrown if the name is already in use
-- `PHXInvalidNameException`- thrown if the name has invalid characters
+- [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md) - thrown if the name is already in use
+- [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### makeGroup
 ```java
@@ -268,11 +268,11 @@ protected PHXGroup makeGroup(java.lang.String group)
 creates a group. If the group already exists, it is just returned
 
 **Parameters:**
-- `group`- the name of the group. This name follows the dot-syntax format for the parent-child relationship
+- `group` - the name of the group. This name follows the dot-syntax format for the parent-child relationship
 
 **Throws:**
-- `PHXNameAlreadyInUseException`- thrown if the name is already in use
-- `PHXInvalidNameException`- thrown if the name has invalid characters
+- [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md) - thrown if the name is already in use
+- [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### getVariableFullName
 ```java
@@ -282,13 +282,13 @@ public java.lang.String getVariableFullName(java.lang.Object var)
 gets the name of a variable
 
 **Parameters:**
-- `var`- the variable object
+- `var` - the variable object
 
 **Returns:**
 - the name of the variable or null if not found
 
 **Throws:**
-- `PHXNoSuchObjectException`
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md)
 
 ### getVariableInfo
 ```java
@@ -298,13 +298,13 @@ public PHXVariableInfo getVariableInfo(java.lang.Object var)
 gets the information about a variable
 
 **Parameters:**
-- `var`- the variable object
+- `var` - the variable object
 
 **Returns:**
-- the PHXVariableInfo object associated with the variable
+- the [`PHXVariableInfo`](PHXVariableInfo.md) object associated with the variable
 
 **Throws:**
-- `PHXNoSuchObjectException`- thrown if the specified variable is not found
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified variable is not found
 
 ### getVariableInfo
 ```java
@@ -314,13 +314,13 @@ protected PHXVariableInfo getVariableInfo(java.lang.String fullVarName)
 retrieves a variable information object from the manager
 
 **Parameters:**
-- `fullVarName`- The var name in format "group.group.name"
+- `fullVarName` - The var name in format "group.group.name"
 
 **Returns:**
-- the associated variableInfo object
+- the associated `variableInfo` object
 
 **Throws:**
-- `PHXNoSuchObjectException`- thrown if the specified variable is not found
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified variable is not found
 
 ### getVariableInfo2
 ```java
@@ -329,10 +329,10 @@ protected PHXVariableInfo getVariableInfo2(java.lang.String fullVarName)
 retrieves a variable information object from the manager
 
 **Parameters:**
-- `fullVarName`- The var name in format "group.group.name"
+- `fullVarName` - The var name in format "group.group.name"
 
 **Returns:**
-- the associated variableInfo object or null if it doesn't exist.
+- the associated `variableInfo` object or null if it doesn't exist.
 
 ### getVariableInfo
 ```java
@@ -343,14 +343,14 @@ protected PHXVariableInfo getVariableInfo(java.lang.String groupName,
 retrieves a variable information object from the manager
 
 **Parameters:**
-- `groupName`- the group to store the variable in. May be a dot-separated list of groups
-- `varName`- the name of the variable information object
+- `groupName` - the group to store the variable in. May be a dot-separated list of groups
+- `varName` - the name of the variable information object
 
 **Returns:**
-- the associated variableInfo object
+- the associated `variableInfo` object
 
 **Throws:**
-- `PHXNoSuchObjectException`- thrown if the specified variable is not found
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified variable is not found
 
 ### getVariableInfo2
 ```java
@@ -360,11 +360,11 @@ protected PHXVariableInfo getVariableInfo2(java.lang.String groupName,
 retrieves a variable information object from the manager
 
 **Parameters:**
-- `groupName`- the group to store the variable in. May be a dot-separated list of groups
-- `varName`- the name of the variable information object
+- `groupName` - the group to store the variable in. May be a dot-separated list of groups
+- `varName` - the name of the variable information object
 
 **Returns:**
-- the associated variableInfo object or null if not found
+- the associated `variableInfo` object or null if not found
 
 ### getGroup
 ```java
@@ -374,10 +374,10 @@ protected PHXGroup getGroup(java.lang.String group)
 retrieves a group.
 
 **Parameters:**
-- `group`- the name of the group. This name follows the dot-syntax format for the parent-child relationship
+- `group` - the name of the group. This name follows the dot-syntax format for the parent-child relationship
 
 **Throws:**
-- `PHXNoSuchObjectException`- thrown if the specified group is not found
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified group is not found
 
 ### getGroup2
 ```java
@@ -386,10 +386,10 @@ protected PHXGroup getGroup2(java.lang.String group)
 retrieves a group.
 
 **Parameters:**
-- `group`- the name of the group. This name follows the dot-syntax format for the parent-child relationship
+- `group` - the name of the group. This name follows the dot-syntax format for the parent-child relationship
 
 **Returns:**
-- The PHXGroup object, or null if not found.
+- The [`PHXGroup`](PHXGroup.md) object, or null if not found.
 
 ### getRootGroup
 ```java
@@ -411,17 +411,16 @@ public void setValue(java.lang.String name,
 stores a value into the appropriate variable
 
 **Specified by:**
-- `setValue`in interface`IPHXSelfManager`
+- `setValue` in interface [`IPHXSelfManager`](IPHXSelfManager.md)
 
 **Parameters:**
-- `name`- the name of the variable
-- `value`- the value to store
+- `name` - the name of the variable
+- `value` - the value to store
 
 **Throws:**
-- `PHXNoSuchObjectException`- thrown if the specified object does not exist
-- `PHXNoSuchWriteableObjectException`- thrown if the specified object cannot be
- written to
-- `java.lang.Exception`- thrown if the value cannot be set
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified object does not exist
+- [`PHXNoSuchWriteableObjectException`](PHXNoSuchWriteableObjectException.md) - thrown if the specified object cannot be written to
+- `java.lang.Exception` - thrown if the value cannot be set
 
 ### setValue2
 ```java
@@ -434,14 +433,13 @@ public void setValue2(java.lang.String name,
 stores a value into the appropriate variable
 
 **Parameters:**
-- `name`- the name of the variable
-- `value`- the value to store
+- `name` - the name of the variable
+- `value` - the value to store
 
 **Throws:**
-- `PHXNoSuchObjectException`- thrown if the specified object does not exist
-- `PHXNoSuchWriteableObjectException`- thrown if the specified object cannot be
- written to
-- `java.lang.Exception`- thrown if the value cannot be set
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified object does not exist
+- [`PHXNoSuchWriteableObjectException`](PHXNoSuchWriteableObjectException.md) - thrown if the specified object cannot be written to
+- `java.lang.Exception` - thrown if the value cannot be set
 
 ### forceSetValue
 ```java
@@ -453,12 +451,12 @@ public void forceSetValue(java.lang.String name,
 sets the value for a variable regardless of whether it's an input or an output
 
 **Parameters:**
-- `name`- the name of the variable
-- `value`- the value to store
+- `name` - the name of the variable
+- `value` - the value to store
 
 **Throws:**
-- `PHXNoSuchObjectException`- thrown if the specified object does not exist
-- `java.lang.Exception`- thrown if the value cannot be set
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified object does not exist
+- `java.lang.Exception` - thrown if the value cannot be set
 
 ### setValueActual
 ```java
@@ -471,8 +469,8 @@ public void setValueActual(java.lang.String name,
 ```
 
 **Throws:**
-- `PHXNoSuchObjectException`
-- `PHXNoSuchWriteableObjectException`
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md)
+- [`PHXNoSuchWriteableObjectException`](PHXNoSuchWriteableObjectException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.reflect.InvocationTargetException`
 
@@ -485,17 +483,17 @@ public java.lang.String getValue(java.lang.String name)
 retrieves the value for the appropriate variable
 
 **Specified by:**
-- `getValue`in interface`IPHXSelfManager`
+- `getValue` in interface [`IPHXSelfManager`](IPHXSelfManager.md)
 
 **Parameters:**
-- `name`- the name of the variable
+- `name` - the name of the variable
 
 **Returns:**
 - a String reprentation of the value
 
 **Throws:**
-- `PHXNoSuchObjectException`- thrown if the specified object does not exist
-- `java.lang.Exception`- thrown if the value cannot be retrieved
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified object does not exist
+- `java.lang.Exception` - thrown if the value cannot be retrieved
 
 ### getValue2
 ```java
@@ -506,11 +504,11 @@ public java.lang.Object getValue2(java.lang.String name)
 retrieves the value for the appropriate variable
 
 **Parameters:**
-- `name`- the name of the variable
+- `name` - the name of the variable
 
 **Throws:**
-- `PHXNoSuchObjectException`- thrown if the specified object does not exist
-- `java.lang.Exception`- thrown if the value cannot be retrieved
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified object does not exist
+- `java.lang.Exception` - thrown if the value cannot be retrieved
 
 ### getPropertyDescriptors
 ```java
@@ -518,21 +516,20 @@ public PHXPropertyDescriptor[] getPropertyDescriptors(java.lang.String name)
                                                throws PHXNoSuchObjectException,
                                                       java.lang.Exception
 ```
-retrieves a set of property descriptors for the variables managed by this object or one of it's subobjects
+retrieves a set of property descriptors for the variables managed by this object or one of its subobjects
 
 **Specified by:**
-- `getPropertyDescriptors`in interface`IPHXSelfManager`
+- `getPropertyDescriptors` in interface [`IPHXSelfManager`](IPHXSelfManager.md)
 
 **Parameters:**
-- `name`- the name of the object to retrieve the property descriptors. If the value is null, then the top level
- is searched.
+- `name` - the name of the object to retrieve the property descriptors. If the value is null, then the top level is searched.
 
 **Returns:**
-- an array of PHXPropertyDescriptors
+- an array of [`PHXPropertyDescriptors`](PHXPropertyDescriptors.md)
 
 **Throws:**
-- `PHXNoSuchObjectException`- thrown if the specified object does not exist
-- `java.lang.Exception`- thrown if the properties cannot be retrieved
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified object does not exist
+- `java.lang.Exception` - thrown if the properties cannot be retrieved
 
 ### getMethodDescriptors
 ```java
@@ -542,13 +539,13 @@ public PHXMethodDescriptor[] getMethodDescriptors()
 retrieves a set of method descriptors for this object
 
 **Specified by:**
-- `getMethodDescriptors`in interface`IPHXSelfManager`
+- `getMethodDescriptors` in interface [`IPHXSelfManager`](IPHXSelfManager.md)
 
 **Returns:**
-- an array of MethodDescriptors
+- an array of `MethodDescriptors`
 
 **Throws:**
-- `java.lang.Exception`- thrown if the properties cannot be retrieved
+- `java.lang.Exception` - thrown if the properties cannot be retrieved
 
 ### invoke
 ```java
@@ -558,16 +555,16 @@ public java.lang.String invoke(java.lang.String methodName)
 Invokes a named method.
 
 **Specified by:**
-- `invoke`in interface`IPHXSelfManager`
+- `invoke` in interface [`IPHXSelfManager`](IPHXSelfManager.md)
 
 **Parameters:**
-- `methodName`- the name of the method to invoke on obj
+- `methodName` - the name of the method to invoke on obj
 
 **Returns:**
 - the return value from the invocation
 
 **Throws:**
-- `java.lang.Exception`- thrown if a problem occurs invoking the method
+- `java.lang.Exception` - thrown if a problem occurs invoking the method
 
 ### invoke2
 ```java
@@ -577,23 +574,27 @@ public PHXInvokeReturn invoke2(java.lang.String methodName)
 Invokes a named method.
 
 **Parameters:**
-- `methodName`- the name of the method to invoke on obj
+- `methodName` - the name of the method to invoke on obj
 
 **Returns:**
 - the return value from the invocation
 
 **Throws:**
-- `java.lang.Exception`- thrown if a problem occurs invoking the method
+- `java.lang.Exception` - thrown if a problem occurs invoking the method
 
 ### end
 ```java
 public void end()
          throws java.lang.Exception
 ```
-Description copied from interface:`IPHXComponent`notifies the driver that it has ended. The driver should perform any necesary shutdown functions.
+Description copied from interface: [`IPHXComponent`](IPHXComponent.md)
+
+Notifies the driver that it has ended. The driver should perform any necesary shutdown functions.
 
 **Specified by:**
-- `end`in interface`IPHXComponent`
+- `end` in interface [`IPHXComponent`](IPHXComponent.md)
 
 **Throws:**
-- `java.lang.Exception`- thrown if the function does not complete succesfully
+- `java.lang.Exception` - thrown if the function does not complete succesfully
+
+**See also:** [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md), [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md), [`PHXRunShare`](PHXRunShare.md), [`PHXRunShare.RunInfo`](PHXRunShare.RunInfo.md), [`PHXDFTException`](PHXDFTException.md), [`PHXComponentDescription`](PHXComponentDescription.md), [`PHXComponentVersion`](PHXComponentVersion.md), [`PHXComponentBranch`](PHXComponentBranch.md)

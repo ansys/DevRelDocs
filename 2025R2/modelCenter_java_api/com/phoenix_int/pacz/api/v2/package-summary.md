@@ -4,20 +4,20 @@ PACZ (extension .pacz) is a universal component/workflow format for use in the P
 ## Interface Summary
 | Interface | Description |
 | --- | --- |
-| [IComponentConfig](../../../../../com/phoenix_int/pacz/api/v2/IComponentConfig.html) | Configuration for PACZ file |
-| [IInstanceFile](../../../../../com/phoenix_int/pacz/api/v2/IInstanceFile.html) | Instance file within a component |
-| [IRuntimeVariable](../../../../../com/phoenix_int/pacz/api/v2/IRuntimeVariable.html) | Component variable interface |
+| [IComponentConfig](IComponentConfig.md) | Configuration for PACZ file |
+| [IInstanceFile](IInstanceFile.md) | Instance file within a component |
+| [IRuntimeVariable](IRuntimeVariable.md) | Component variable interface |
 
 
 ## Class Summary
 | Class | Description |
 | --- | --- |
-| [Environment](../../../../../com/phoenix_int/pacz/api/v2/Environment.html) | Environment variables for component configuration |
+| [Environment](Environment.md) | Environment variables for component configuration |
 
 ## Enum Summary
 | Enum | Description |
 | --- | --- |
-| [RunFolderPreference](../../../../../com/phoenix_int/pacz/api/v2/RunFolderPreference.html) | Preference for how files within the .pacz should be handled when running a component. |
+| [RunFolderPreference](RunFolderPreference.md) | Preference for how files within the .pacz should be handled when running a component. |
 
 ## Package com.phoenix_int.pacz.api.v2 Description
 PACZ (extension .pacz) is a universal component/workflow format for use in the Phoenix Integration products ModelCeter Remote Execution and ModelCenter Server. A PACZ is a zip archive with component files and a file containing metadata (extension ".pacj"; see below for details) that specifies its usage. 
@@ -34,23 +34,23 @@ Each PACJ file is broken into three sections: component-specific metadata, infor
 
 Component-specific metadata contains information about the component from a high level. This information includes a description of the component, what version it is, who authored it, and what icon to present to the user.
 
-See [IComponentConfig](../../../../../com/phoenix_int/pacz/api/v2/IComponentConfig.html) for the interface representing the component configuration metadata
+See [IComponentConfig](IComponentConfig.md) for the interface representing the component configuration metadata
 
 All fields listed below should be used in the component-specific configuration, unless otherwise specified:
 
 | Field name | Description | Corresponding method |
 | --- | --- | --- |
-| `version` | A human-readable string of the version info | [IComponentConfig.getVersion()](../../../../../com/phoenix_int/pacz/api/v2/IComponentConfig.html#getVersion--) |
-| `author` | The author of this component | [IComponentConfig.getAuthor()](../../../../../com/phoenix_int/pacz/api/v2/IComponentConfig.html#getAuthor--) |
-| `description` | A description of this component | [IComponentConfig.getDescription()](../../../../../com/phoenix_int/pacz/api/v2/IComponentConfig.html#getDescription--) |
-| `ASComponent` | The MCRE name of the underlying component | [IComponentConfig.getASComponent()](../../../../../com/phoenix_int/pacz/api/v2/IComponentConfig.html#getASComponent--) |
-| `icon` | The file relative to the ".pacj" file (usually stored in the ".pacz" file) to be used as an icon (optional) | [IComponentConfig.getIconUri()](../../../../../com/phoenix_int/pacz/api/v2/IComponentConfig.html#getIconUri--) |
-| `commandArgs` | Reserved for future use. Do not specify. | [IComponentConfig.getCommandLineArguments()](../../../../../com/phoenix_int/pacz/api/v2/IComponentConfig.html#getCommandLineArguments--) |
-| `requires` | Reserved for future use. Must currently be specified as ["analysisserver"] | [IComponentConfig.getRequiredFeatures()](../../../../../com/phoenix_int/pacz/api/v2/IComponentConfig.html#getRequiredFeatures--) |
-| `properties` | An arbitrary dictionary of values that allows a plug-in writer to store data about the instance without needing to create additional files in the pacz. See the **Properties** section for more details. | [IComponentConfig.getProperties()](../../../../../com/phoenix_int/pacz/api/v2/IComponentConfig.html#getProperties--) |
-| `inputs` | A list of all input variables.See below for variable definitions. | [IComponentConfig.getInputs()](../../../../../com/phoenix_int/pacz/api/v2/IComponentConfig.html#getInputs--) |
-| `outputs` | A list of all output variables.See below for variable definitions. | [IComponentConfig.getOutputs()](../../../../../com/phoenix_int/pacz/api/v2/IComponentConfig.html#getOutputs--) |
-| `instanceFiles` | Reserved for future use. Any specified values will be ignored. | [IComponentConfig.getInstanceFiles()](../../../../../com/phoenix_int/pacz/api/v2/IComponentConfig.html#getInstanceFiles--) |
+| `version` | A human-readable string of the version info | [IComponentConfig.getVersion()](IComponentConfig.md) |
+| `author` | The author of this component | [IComponentConfig.getAuthor()](IComponentConfig.md) |
+| `description` | A description of this component | [IComponentConfig.getDescription()](IComponentConfig.md) |
+| `ASComponent` | The MCRE name of the underlying component | [IComponentConfig.getASComponent()](IComponentConfig.md) |
+| `icon` | The file relative to the ".pacj" file (usually stored in the ".pacz" file) to be used as an icon (optional) | [IComponentConfig.getIconUri()](IComponentConfig.md) |
+| `commandArgs` | Reserved for future use. Do not specify. | [IComponentConfig.getCommandLineArguments()](IComponentConfig.md) |
+| `requires` | Reserved for future use. Must currently be specified as ["analysisserver"] | [IComponentConfig.getRequiredFeatures()](IComponentConfig.md) |
+| `properties` | An arbitrary dictionary of values that allows a plug-in writer to store data about the instance without needing to create additional files in the pacz. See the **Properties** section for more details. | [IComponentConfig.getProperties()](IComponentConfig.md) |
+| `inputs` | A list of all input variables.See below for variable definitions. | [IComponentConfig.getInputs()](IComponentConfig.md) |
+| `outputs` | A list of all output variables.See below for variable definitions. | [IComponentConfig.getOutputs()](IComponentConfig.md) |
+| `instanceFiles` | Reserved for future use. Any specified values will be ignored. | [IComponentConfig.getInstanceFiles()](IComponentConfig.md) |
 
 ### Variables section
 
@@ -58,21 +58,21 @@ The Variables section is specified by the `inputs` and `outputs` properties and 
 
 Input variables should be specified in an array in the field `inputs` and output variables should be specified in an array in the field `outputs`.
 
-See [IRuntimeVariable](../../../../../com/phoenix_int/pacz/api/v2/IRuntimeVariable.html) for the interface describing variables.
+See [IRuntimeVariable](IRuntimeVariable.md) for the interface describing variables.
 
 All fields listed below should be used for each variable, unless otherwise specified:
 
 | Field name | Description | Corresponding method |
 | --- | --- | --- |
-| `name` | The name of the variable. (in dotted notation) | [IRuntimeVariable.getVariableName()](../../../../../com/phoenix_int/pacz/api/v2/IRuntimeVariable.html#getVariableName--) |
-| `type` | The type of the variable. (See`String`) | [IRuntimeVariable.getType()](../../../../../com/phoenix_int/pacz/api/v2/IRuntimeVariable.html#getType--) |
+| `name` | The name of the variable. (in dotted notation) | [IRuntimeVariable.getVariableName()](IRuntimeVariable.md) |
+| `type` | The type of the variable. (See`String`) | [IRuntimeVariable.getType()](IRuntimeVariable.md) |
 | `enumAliases` | An array containing names for enumerated lists. If this property is specified,`enumValues`must also be specified. (optional) | `IRuntimeVariableMetadata.getOptionalEnumAliases()` |
 | `enumValues` | An array containing values for enumerated lists. If this property is specified,`enumAliases`must also be specified. (optional) | `IRuntimeVariableMetadata.getOptionalEnumValues()` |
 | `upperBound` | The upper bound for this variable. (optional) | `IRuntimeVariableMetadata.getOptionalUpperBound()` |
 | `lowerBound` | The lower bound for this variable. (optional) | `IRuntimeVariableMetadata.getOptionalLowerBound()` |
-| `units` | The units for this variable. (optional) | [IPHXUnits.getUnits()](../../../../../com/phoenix_int/aserver/types/IPHXUnits.html#getUnits--) |
-| `description` | The description for this variable. (optional) | [IRuntimeVariable.getDescription()](../../../../../com/phoenix_int/pacz/api/v2/IRuntimeVariable.html#getDescription--) |
-| `defaultValue` | A default value to present to the user. | [IPHXType2.Accept(IVisitor)](../../../../../com/phoenix_int/aserver/types/IPHXType2.html#Accept-com.phoenix_int.aserver.types.IPHXType2.IVisitor-) |
+| `units` | The units for this variable. (optional) | [IPHXUnits.getUnits()](../../../aserver/types/IPHXUnits.md) |
+| `description` | The description for this variable. (optional) | [IRuntimeVariable.getDescription()](IRuntimeVariable.md) |
+| `defaultValue` | A default value to present to the user. | [IPHXType2.Accept(IVisitor)](../../../aserver/types/IPHXType2.md) |
 
 Variable type may be specified using one of the following types. Types are case-sensitive and must be written exactly as listed.
 
@@ -92,7 +92,7 @@ Variable type may be specified using one of the following types. Types are case-
 **Notes:**
 
 - Default values are not currently supported for variables of type`File`or`FileArray`and should be omitted.
-- Array default values should be specified by a string that contains the bounding dimensions of the array enclosed in square brackets, followed by a comma-separated list of values enclosed in curly braces. For more information, see how to [specify array values.](../../../../../QuickWrap/specifyArrayValues.html)
+- Array default values should be specified by a string that contains the bounding dimensions of the array enclosed in square brackets, followed by a comma-separated list of values enclosed in curly braces. 
 - Enumerated values should be specified in standard JSON format, using square brackets and a list of comma-separated values, with special characters such as quotes escaped by a backslash, for example, "Hi! I\'m a PACJ enum value". Note that this format is different from the format used in components and wrappers.
 - PACJ files must be encoded in UTF-8.
 
@@ -100,14 +100,14 @@ Variable type may be specified using one of the following types. Types are case-
 
 The Instance Files section specifies exactly which files inside of the PACZ archive are important to running the component. This feature is currently unimplemented and will be entirely ignored. However, this feature may be implemented at any time and therefore should be used to help document the internal component.
 
-See [IRuntimeVariable](../../../../../com/phoenix_int/pacz/api/v2/IRuntimeVariable.html) for the interface describing instance files.
+See [IRuntimeVariable](IRuntimeVariable.md) for the interface describing instance files.
 
 Instance files should be located in a field called `instanceFiles` and should be an array of objects, each containing the following values:
 
 | Field name | Description | Corresponding method |
 | --- | --- | --- |
-| `name` | The name of the instance file | [IInstanceFile.getName()](../../../../../com/phoenix_int/pacz/api/v2/IInstanceFile.html#getName--) |
-| `path` | The path to the instance file. The environment variable `COMPONENT_DIR` (which can be substituted in strings using the syntax `${COMPONENT_DIR}`) should be used to point to the file relative to the root of the PACZ. | [IInstanceFile.getPath()](../../../../../com/phoenix_int/pacz/api/v2/IInstanceFile.html#getPath--) |
+| `name` | The name of the instance file | [IInstanceFile.getName()](IInstanceFile.md) |
+| `path` | The path to the instance file. The environment variable `COMPONENT_DIR` (which can be substituted in strings using the syntax `${COMPONENT_DIR}`) should be used to point to the file relative to the root of the PACZ. | [IInstanceFile.getPath()](IInstanceFile.md) |
 
 ### Properties section
 

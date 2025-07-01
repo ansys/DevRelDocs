@@ -15,7 +15,7 @@ public class PHXAnalysisClient
     extends java.lang.Object
 ```
 
-This class automates communications with the ModelCenter Remote Execution. Communication can be performed asynchronously or synchronously. Synchronous communication is performed by calling any of the direct access functions, e.g. `start()` or `listProperties()`. Asynchronous communication is performed by calling a `sendXXXRequest()` function and then calling the matching `getXXXResponse()` when the response is ready. Listener methods are provided for notification of responses.
+This class automates communications with ModelCenter Remote Execution. Communication can be performed asynchronously or synchronously. Synchronous communication is performed by calling any of the direct access functions, e.g. `start()` or `listProperties()`. Asynchronous communication is performed by calling a `sendXXXRequest()` function and then calling the matching `getXXXResponse()` when the response is ready. Listener methods are provided for notification of responses.
 
 Sample Usage:
 
@@ -878,9 +878,9 @@ sends a request to start an analysis
 ```
 public java.lang.String getStartResponse(java.lang.String id, 
                                          boolean wait)
-                            throws PHXResponseTypeMismatchException, 
-                                   PHXNoSuchResponseException, 
-                                   PHXServerSideException
+                                  throws PHXResponseTypeMismatchException, 
+                                         PHXNoSuchResponseException, 
+                                         PHXServerSideException
 ```
 Deprecated.
 
@@ -894,9 +894,9 @@ retrieves a response from the server
 - the response from the server
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### start
 ```
@@ -916,7 +916,7 @@ starts an analysis
 - the response from the server
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendEndRequest
 ```
@@ -952,9 +952,9 @@ retrieves a response from the server
 - the response from the server
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### end
 ```
@@ -972,7 +972,7 @@ ends an analysis
 - the response from the server
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendListClassesRequest
 ```
@@ -992,9 +992,9 @@ sends a request to list the classes
 ```
 public java.lang.String[] getListClassesResponse(java.lang.String id, 
                                                  boolean wait)
-                                   throws PHXResponseTypeMismatchException, 
-                                          PHXNoSuchResponseException, 
-                                          PHXServerSideException
+                                          throws PHXResponseTypeMismatchException, 
+                                                 PHXNoSuchResponseException, 
+                                                 PHXServerSideException
 ```
 Deprecated.
 
@@ -1008,9 +1008,9 @@ retrieves a response from the server
 - an array of classes
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### listClasses
 ```
@@ -1028,7 +1028,7 @@ lists the classes within a category
 - an array of classes
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendExecuteRequest
 ```
@@ -1064,9 +1064,9 @@ retrieves a response from the server
 - the response from the server
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### execute
 ```
@@ -1084,7 +1084,7 @@ exectutes an analysis
 - the response from the server
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendAddProxyClientsRequest
 ```
@@ -1120,9 +1120,9 @@ retrieves a response from the server
 - the response from the server
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### addProxyClients
 ```
@@ -1140,7 +1140,7 @@ Tells the server to add other hosts as part of the proxy chain
 - the response from the server
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendGetRequest
 ```
@@ -1176,9 +1176,9 @@ retrieves a response from the server
 - the value of the property
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### getGetResponse2
 ```
@@ -1200,9 +1200,9 @@ retrieves a response from the server
 - the value of the property
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### get
 ```
@@ -1220,8 +1220,8 @@ get the value of a property
 - the value of the property
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### get2
 ```
@@ -1239,8 +1239,8 @@ get the value of a property
 - the value of the property
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### sendGetByUrlRequest
 ```
@@ -1277,9 +1277,9 @@ retrieves a response from the server
 - the value of the property
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### getByUrl
 ```
@@ -1298,8 +1298,8 @@ get the value of a property
 - the contents of the file
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### sendSetByUrlRequest
 ```
@@ -1336,9 +1336,9 @@ retrieves a response from the server
 - the value of the property
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### setByUrl
 ```
@@ -1355,7 +1355,7 @@ set the value of a variable
 - url - the url to set the variable at
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendSetRequest
 ```
@@ -1392,9 +1392,9 @@ retrieves a response from the server
 - the response from the server
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### set
 ```
@@ -1414,8 +1414,8 @@ set the value of a property
 - the response from the server
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### sendGetComponentHistoryRequest
 ```
@@ -1435,9 +1435,9 @@ sends a request to get the version history of a component
 ```
 public PHXComponentBranch getGetComponentHistoryResponse(java.lang.String id, 
                                                          boolean wait)
-                                   throws PHXResponseTypeMismatchException, 
-                                          PHXNoSuchResponseException, 
-                                          PHXServerSideException
+                                                  throws PHXResponseTypeMismatchException, 
+                                                         PHXNoSuchResponseException, 
+                                                         PHXServerSideException
 ```
 Deprecated.
 
@@ -1451,9 +1451,9 @@ retrieves a response from the server
 - a description object for the analysis
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### getComponentHistory
 ```
@@ -1471,7 +1471,7 @@ Gets the component history for a particular component.
 - The top level branch object which represents the main development branch.
 
 **Throws:**
-- `PHXServerSideException` - thrown if the server reports any problems.
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the server reports any problems.
 
 ### sendDescribeRequest
 ```
@@ -1507,9 +1507,9 @@ retrieves a response from the server
 - a description object for the analysis
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### describe
 ```
@@ -1527,7 +1527,7 @@ describes an analysis
 - a description object
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendListPropertiesRequest
 ```
@@ -1563,9 +1563,9 @@ retrieves a response from the server
 - a property descriptor object for the analysis
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### listProperties
 ```
@@ -1583,7 +1583,7 @@ lists the properties of an analysis
 - a property descriptor for the object
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendListMethodsRequest
 ```
@@ -1619,9 +1619,9 @@ retrieves a response from the server
 - a property descriptor object for the analysis
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### listMethods
 ```
@@ -1639,7 +1639,7 @@ lists the methods of an analysis
 - an array of method descriptors for the object
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendInvokeRequest
 ```
@@ -1675,9 +1675,9 @@ retrieves a response from the server
 - the value of the property
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### invoke
 ```
@@ -1695,7 +1695,7 @@ invokes a method
 - the results of the invocation
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendListValuesRequest
 ```
@@ -1713,11 +1713,11 @@ Deprecated.
 ```
 public PHXPropertyValue[] getListValuesResponse(java.lang.String id, 
                                                 boolean wait)
-                                   throws PHXResponseTypeMismatchException, 
-                                          PHXNoSuchResponseException, 
-                                          PHXServerSideException, 
-                                          java.io.IOException, 
-                                          java.lang.NumberFormatException
+                                         throws PHXResponseTypeMismatchException, 
+                                                PHXNoSuchResponseException, 
+                                                PHXServerSideException, 
+                                                java.io.IOException, 
+                                                java.lang.NumberFormatException
 ```
 Deprecated.
 
@@ -1748,8 +1748,10 @@ Deprecated.
 
 ### getListArrayValuesResponse
 ```
-public java.lang.String[] getListArrayValuesResponse(java.lang.String id, boolean wait)
-    throws PHXResponseTypeMismatchException, PHXNoSuchResponseException
+public java.lang.String[] getListArrayValuesResponse(java.lang.String id, 
+                                                     boolean wait)
+                                              throws PHXResponseTypeMismatchException, 
+                                                     PHXNoSuchResponseException
 ```
 Deprecated.
 
@@ -1766,7 +1768,7 @@ public java.lang.String[] listArrayValues(java.lang.String analysis)
 Deprecated.
 
 **Throws:**
-- PHXServerSideException
+- []`PHXServerSideException`](PHXServerSideException.md)
 - `java.io.IOException`
 
 ### sendListCategoriesRequest
@@ -1803,14 +1805,14 @@ retrieves a response from the server
 - an array of categories
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### listCategories
 ```
 public java.lang.String[] listCategories(java.lang.String category)
-    throws PHXServerSideException
+                                  throws PHXServerSideException
 ```
 Deprecated.
 
@@ -1823,7 +1825,7 @@ lists the categories within a category
 - an array of categories
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendListRequest
 ```
@@ -1856,9 +1858,9 @@ retrieves a response from the server
 - an array of objects
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### list
 ```
@@ -1873,7 +1875,7 @@ lists the running objects
 - an array of objects
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendGetHierarchyRequest
 ```
@@ -1907,8 +1909,11 @@ sends a request to retrieve a hierarchy for a component
 
 ### getGetHierarchyResponse
 ```
-public PHXStringBuffer getGetHierarchyResponse(java.lang.String id, boolean wait)
-    throws PHXResponseTypeMismatchException, PHXNoSuchResponseException, PHXServerSideException
+public PHXStringBuffer getGetHierarchyResponse(java.lang.String id, 
+                                               boolean wait)
+                                        throws PHXResponseTypeMismatchException, 
+                                               PHXNoSuchResponseException, 
+                                               PHXServerSideException
 ```
 Deprecated.
 
@@ -1922,9 +1927,9 @@ retrieves a response from the server
 - an icon Image
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### getHierarchy
 ```
@@ -1942,7 +1947,7 @@ retrievethe hierarchy for the component
 - the string buffer containing the hierarchy
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendSetHierarchyRequest
 ```
@@ -1980,9 +1985,9 @@ retrieves a response from the server
 - the result from the server
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### setHierarchy
 ```
@@ -2002,7 +2007,7 @@ Sends a request to set a hierarchy for a component
 - the result from the server
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendDeleteRunShareRequest
 ```
@@ -2022,9 +2027,9 @@ Sends a request to delete a runShare
 ```
 public java.lang.String getDeleteRunShareResponse(java.lang.String id, 
                                                  boolean wait)
-                                   throws PHXResponseTypeMismatchException, 
-                                          PHXNoSuchResponseException, 
-                                          PHXServerSideException
+                                          throws PHXResponseTypeMismatchException, 
+                                                 PHXNoSuchResponseException, 
+                                                 PHXServerSideException
 ```
 Deprecated.
 
@@ -2038,9 +2043,9 @@ retrieves a response from the server
 - the result from the server
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### deleteRunShare
 ```
@@ -2088,9 +2093,9 @@ retrieves a response from the server
 - an icon Image
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### getIcon
 ```
@@ -2108,7 +2113,7 @@ retrieves an icon for an analysis
 - an icon Image
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendSetDictionaryRequest
 ```
@@ -2128,9 +2133,9 @@ sends a request to set a dictionary
 ```
 public java.lang.String getSetDictionaryResponse(java.lang.String id, 
                                                  boolean wait)
-                                   throws PHXResponseTypeMismatchException, 
-                                          PHXNoSuchResponseException, 
-                                          PHXServerSideException
+                                          throws PHXResponseTypeMismatchException, 
+                                                 PHXNoSuchResponseException, 
+                                                 PHXServerSideException
 ```
 Deprecated.
 
@@ -2144,9 +2149,9 @@ retrieves a response from the server
 - an icon Image
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### setDictionary
 ```
@@ -2164,7 +2169,7 @@ Tries to set the dictionary by sending a set dictionary request.
 - the response from the server, or a blank string for invalid responses
 
 **Throws:**
-- `PHXServerSideException` - thrown if something goes wrong. The exception message will contain the response from the server
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendArbitraryRequest
 ```
@@ -2216,18 +2221,18 @@ retrieves a low-level response from the server in String format.
 - the value of the property
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### getResponseAsPHXStringBuffer
 ```
 public PHXStringBuffer getResponseAsPHXStringBuffer(java.lang.String id, 
                                                     int type, 
                                                     boolean wait)
-                                   throws PHXResponseTypeMismatchException, 
-                                          PHXNoSuchResponseException, 
-                                          PHXServerSideException
+                                             throws PHXResponseTypeMismatchException, 
+                                                    PHXNoSuchResponseException, 
+                                                    PHXServerSideException
 ```
 Deprecated.
 
@@ -2242,9 +2247,9 @@ retrieves a low-level response from the server in String format.
 - the value of the property
 
 **Throws:**
-- `PHXResponseTypeMismatchException` - thrown if the response type is not what was expected for this function.
-- `PHXNoSuchResponseException` - thrown if the response does not exist (may not have been returned from server yet).
-- `PHXServerSideException` - thrown if the the server returned an error
+- [`PHXResponseTypeMismatchException`](PHXResponseTypeMismatchException.md) - thrown if the response type is not what was expected for this function.
+- [`PHXNoSuchResponseException`](PHXNoSuchResponseException.md) - thrown if the response does not exist (may not have been returned from server yet).
+- [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### main
 ```

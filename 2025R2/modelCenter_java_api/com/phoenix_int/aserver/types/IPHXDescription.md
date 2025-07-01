@@ -1,56 +1,58 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.types
-## Interface IPHXDescription
-- **All Known Subinterfaces:**
-: [IPHXRefPropInfo](../../../../com/phoenix_int/aserver/types/IPHXRefPropInfo.html)
+# Interface: IPHXDescription
+
+**Package:** `com.phoenix_int.aserver.types`
+
+**All Known Subinterfaces:**
+- [IPHXRefPropInfo](IPHXRefPropInfo.md)
 
 **All Known Implementing Classes:**
-: [PHXRefArrayProperty](../../../../com/phoenix_int/aserver/types/PHXRefArrayProperty.html),[PHXRefProperty](../../../../com/phoenix_int/aserver/types/PHXRefProperty.html)
+- [PHXRefArrayProperty](PHXRefArrayProperty.md), [PHXRefProperty](PHXRefProperty.md)
 
----
+--- 
+
+**Declaration**
 
 ```java
 public interface IPHXDescription
 ```
+
 Interface for types with descriptions
+
 Example usage:
 
 ```java
-
  IPHXType var = wrapper.getVariable("myVar");
  if (var instanceof IPHXDescription)
  {
     ((IPHXDescription)var).setDescription("my variable");
  }
- 
 ```
-**Author:**
-: bdurham- ========== METHOD SUMMARY ===========
-- ### Method Summary
+
+## Method Summary
 
 | Modifier and Type | Method and Description |
 | --- | --- |
-| Modifier and Type | Method and Description |
-| `java.lang.String` | `getDescription()`Get the variable description |
-| `void` | `setDescription(java.lang.String desc)`Set the variable description. |- ============ METHOD DETAIL ==========
-- ### Method Detail
+| `java.lang.String` | `getDescription()`<br>Get the variable description |
+| `void` | `setDescription(java.lang.String desc)`<br>Set the variable description. |
 
-- #### getDescription
+## Method Detail
+
+### getDescription
 
 ```java
-java.lang.String getDescription()
+java.lang.String getDescription()
 ```
 Get the variable description
-**Returns:**
-: description
 
-- #### setDescription
+**Returns:**
+- description
+
+### setDescription
 
 ```java
-void setDescription(java.lang.String desc)
+void setDescription(java.lang.String desc)
 ```
-Set the variable description.
- This should be a short, one-line description.
+Set the variable description. This should be a short, one-line description.
+
 **Parameters:**
-: `desc`- the description
-========= END OF CLASS DATA =========
+- `desc` - the description
