@@ -6,4 +6,4 @@ Access to the actually loaded object tree is always provided through the root ob
 
 For better legibility of the image below, right-click and open it in a new tab.
 
-![Python object tree](./acp-tree.jpg)
+![Python object tree](./acp-tree.png)
