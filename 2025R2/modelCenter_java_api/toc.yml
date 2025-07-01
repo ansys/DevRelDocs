@@ -400,5 +400,5 @@
             href: com/phoenix_int/pacz/api/v2/package-summary.md
           - name: package-tree
             href: com/phoenix_int/pacz/api/v2/package-tree.md
-  - name: change_log.md
-    href: change_log.md
+  - name: Changelog.md
+    href: Changelog.md
