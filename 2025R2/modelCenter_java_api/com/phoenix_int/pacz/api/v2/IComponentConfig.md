@@ -57,7 +57,7 @@ Get component environment
 - component environment
 
 **See Also:**
-- [Environment](../../../../../com/phoenix_int/pacz/api/v2/Environment.html)
+- [Environment](Environment.md)
 
 ### getRunFolderPreference
 
@@ -70,7 +70,7 @@ Get run folder preference for component
 - component run folder preference
 
 **See Also:**
-- [RunFolderPreference](../../../../../com/phoenix_int/pacz/api/v2/RunFolderPreference.html)
+- [RunFolderPreference](RunFolderPreference.md)
 
 ### getVersion
 
@@ -163,7 +163,7 @@ Get component inputs
 - list of component inputs
 
 **See Also:**
-- [IRuntimeVariable](../../../../../com/phoenix_int/pacz/api/v2/IRuntimeVariable.html)
+- [IRuntimeVariable](IRuntimeVariable.md)
 
 ### setInputs
 
@@ -176,7 +176,7 @@ Set component inputs
 - `inputs` - list of component inputs to use
 
 **See Also:**
-- [IRuntimeVariable](../../../../../com/phoenix_int/pacz/api/v2/IRuntimeVariable.html)
+- [IRuntimeVariable](IRuntimeVariable.md)
 
 ### getOutputs
 
@@ -189,7 +189,7 @@ Get component outputs
 - list of component outputs
 
 **See Also:**
-- [IRuntimeVariable](../../../../../com/phoenix_int/pacz/api/v2/IRuntimeVariable.html)
+- [IRuntimeVariable](IRuntimeVariable.md)
 
 ### setOutputs
 
@@ -202,7 +202,7 @@ Set component outputs
 - `outputs` - list of component outputs to use
 
 **See Also:**
-- [IRuntimeVariable](../../../../../com/phoenix_int/pacz/api/v2/IRuntimeVariable.html)
+- [IRuntimeVariable](IRuntimeVariable.md)
 
 ### getInstanceFiles
 
@@ -215,7 +215,7 @@ Get component instance files
 - list of component instance files
 
 **See Also:**
-- [IInstanceFile](../../../../../com/phoenix_int/pacz/api/v2/IInstanceFile.html)
+- [IInstanceFile](IInstanceFile.md)
 
 ### setInstanceFiles
 
@@ -228,7 +228,7 @@ Set component instance files
 - `instanceFiles` - list of component instance files to use
 
 **See Also:**
-- [IInstanceFile](../../../../../com/phoenix_int/pacz/api/v2/IInstanceFile.html)
+- [IInstanceFile](IInstanceFile.md)
 
 ### getProperties
 

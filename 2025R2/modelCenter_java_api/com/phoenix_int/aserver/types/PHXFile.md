@@ -1,289 +1,321 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.types
-## Class PHXFile
-- java.lang.Object
-- - [com.phoenix_int.aserver.types.PHXSimpleType](../../../../com/phoenix_int/aserver/types/PHXSimpleType.html)
-- - com.phoenix_int.aserver.types.PHXFile
-- **All Implemented Interfaces:**
-: [IPHXType](../../../../com/phoenix_int/aserver/types/IPHXType.html),[IPHXType2](../../../../com/phoenix_int/aserver/types/IPHXType2.html),[IPHXUnits](../../../../com/phoenix_int/aserver/types/IPHXUnits.html)
+# Class: PHXFile
+
+**Package:** `com.phoenix_int.aserver.types`
+
+**Class Hierarchy**
+
+```
+↳ java.lang.Object
+  ↳ [PHXSimpleType](PHXSimpleType.md)
+    ↳ PHXFile
+```
+
+**Implemented Interfaces**
+
+- [IPHXType](IPHXType.md), [IPHXType2](IPHXType2.md), [IPHXUnits](IPHXUnits.md)
 
 ---
-Deprecated.
+
+**Declaration**
 
 ```java
 @Deprecated
 public class PHXFile
 extends PHXSimpleType
 ```
-Internal data type used for certain types of files.  End
- users should use PHXRawFile to implement file variables
- in their custom components.
+
+Deprecated.
+
+Internal data type used for certain types of files. End users should use [PHXRawFile](PHXRawFile.md) to implement file variables in their custom components.
+
 - **name**: String
 - **contents**: String
-**Author:**
-: Woyak, 6/98
-**See Also:**
-: [PHXSimpleType](../../../../com/phoenix_int/aserver/types/PHXSimpleType.html),[PHXRawFile](../../../../com/phoenix_int/aserver/types/PHXRawFile.html)- ======== NESTED CLASS SUMMARY ========
-- ### Nested Class Summary
 
-- ### Nested classes/interfaces inherited from interface com.phoenix_int.aserver.types.IPHXType2
+## Nested Class Summary
+
+### Nested classes/interfaces inherited from interface [IPHXType2](IPHXType2.md)
 `IPHXType2.IVisitor<T>`
-======== CONSTRUCTOR SUMMARY ========
-- ### Constructor Summary
+
+## Constructor Summary
 
 | Constructor and Description |
-| --- |
-| Constructor and Description |
-| `PHXFile()`Deprecated. |
-| `PHXFile(PHXFileother)`Deprecated.Clone another PHXFile's value and metadata. |
-| `PHXFile(java.lang.String fileName)`Deprecated. |
-| `PHXFile(java.lang.String baseName,
-       java.lang.String name)`Deprecated. |
-========== METHOD SUMMARY ===========
-- ### Method Summary
+|---------------------------|
+| `PHXFile()`<br>Deprecated. |
+| `PHXFile(PHXFile other)`<br>Deprecated. Clone another PHXFile's value and metadata. |
+| `PHXFile(java.lang.String fileName)`<br>Deprecated. |
+| `PHXFile(java.lang.String baseName, java.lang.String name)`<br>Deprecated. |
+
+## Method Summary
 
 | Modifier and Type | Method and Description |
-| --- | --- |
-| Modifier and Type | Method and Description |
-| `<T> T` | `Accept(IPHXType2.IVisitor<T> visitor)`Deprecated.Accept a Visitor. |
-| `PHXFile` | `createCopy()`Deprecated.Create a copy of this instance, including the value and metadata. |
-| `boolean` | `equalsNatural(PHXSimpleTypetoCompare)`Deprecated.Compare this PHXSimpleType to another PHXSimpleType. |
-| `void` | `fromObject(java.lang.Object toRead)`Deprecated.Load the value of this object from the specified object. |
-| `void` | `fromString(java.lang.String value)`Deprecated.converts a String representation to the internal value |
-| `void` | `fromString2(PHXStringBuffervalue)`Deprecated.converts a PHXStringBuffer representation to the internal value |
-| `java.lang.String` | `getContents()`Deprecated.retrieves the contents of the file |
-| `java.lang.String` | `getName()`Deprecated.retrieves the name of the file |
-| `java.lang.String` | `getNameCoded()`Deprecated.retrieves the name of the file in coded form (without $variables
- replaced) |
-| `boolean` | `hasChanged()`Deprecated.checks to see if the file has changed since the last time
- getContents() was called |
-| `void` | `markAsRead()`Deprecated.call this function after you manually get the contents of the
- file. |
-| `void` | `setBaseName(java.lang.String v)`Deprecated.sets the base name of the file |
-| `void` | `setName(java.lang.String v)`Deprecated.sets the name of the file |
-| `void` | `setStringReplacer(PHXStringReplacerr)`Deprecated.specifies a PHXStringReplacer object for use in forming the
- full file name. |
-| `java.lang.String` | `toString()`Deprecated.converts the variable to a string |
-| `PHXStringBuffer` | `toString2()`Deprecated.converts the variable to a string |
+|-------------------|----------------------|
+| `<T> T` | `Accept([IPHXType2](IPHXType2.md).IVisitor<T> visitor)`<br>Deprecated. Accept a Visitor. |
+| `PHXFile` | `createCopy()`<br>Deprecated. Create a copy of this instance, including the value and metadata. |
+| `boolean` | `equalsNatural([PHXSimpleType](PHXSimpleType.md) toCompare)`<br>Deprecated. Compare this [PHXSimpleType](PHXSimpleType.md) to another [PHXSimpleType](PHXSimpleType.md). |
+| `void` | `fromObject(java.lang.Object toRead)`<br>Deprecated. Load the value of this object from the specified object. |
+| `void` | `fromString(java.lang.String value)`<br>Deprecated. Converts a String representation to the internal value. |
+| `void` | `fromString2(PHXStringBuffer value)`<br>Deprecated. Converts a PHXStringBuffer representation to the internal value. |
+| `java.lang.String` | `getContents()`<br>Deprecated. Retrieves the contents of the file. |
+| `java.lang.String` | `getName()`<br>Deprecated. Retrieves the name of the file. |
+| `java.lang.String` | `getNameCoded()`<br>Deprecated. Retrieves the name of the file in coded form (without $variables replaced). |
+| `boolean` | `hasChanged()`<br>Deprecated. Checks to see if the file has changed since the last time getContents() was called. |
+| `void` | `markAsRead()`<br>Deprecated. Call this function after you manually get the contents of the file. |
+| `void` | `setBaseName(java.lang.String v)`<br>Deprecated. Sets the base name of the file. |
+| `void` | `setName(java.lang.String v)`<br>Deprecated. Sets the name of the file. |
+| `void` | `setStringReplacer(PHXStringReplacer r)`<br>Deprecated. Specifies a PHXStringReplacer object for use in forming the full file name. |
+| `java.lang.String` | `toString()`<br>Deprecated. Converts the variable to a string. |
+| `PHXStringBuffer` | `toString2()`<br>Deprecated. Converts the variable to a string. |
 
-- ### Methods inherited from class com.phoenix_int.aserver.types.PHXSimpleType
-`_copyMetadataFromOther,addPropertyChangeListener,getDescription,getEnumTokens,getHasChanged,getUnits,removePropertyChangeListener,setDescription,setHasChanged,setUnits`
+### Methods inherited from class [PHXSimpleType](PHXSimpleType.md)
+`_copyMetadataFromOther`, `addPropertyChangeListener`, `getDescription`, `getEnumTokens`, `getHasChanged`, `getUnits`, `removePropertyChangeListener`, `setDescription`, `setHasChanged`, `setUnits`
 
-- ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`- ========= CONSTRUCTOR DETAIL ========
-- ### Constructor Detail
+### Methods inherited from class java.lang.Object
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `wait`, `wait`, `wait`
 
-- #### PHXFile
+## Constructor Detail
+
+### PHXFile
 
 ```java
-public PHXFile()
+public PHXFile()
 ```
 Deprecated.
 
-- #### PHXFile
+### PHXFile
 
 ```java
-public PHXFile(java.lang.String fileName)
+public PHXFile(java.lang.String fileName)
 ```
 Deprecated.
 
-- #### PHXFile
+### PHXFile
 
 ```java
-public PHXFile(java.lang.String baseName,
-               java.lang.String name)
+public PHXFile(java.lang.String baseName,
+               java.lang.String name)
 ```
 Deprecated.
 
-- #### PHXFile
+### PHXFile
 
 ```java
-public PHXFile(PHXFile other)
+public PHXFile(PHXFile other)
 ```
-Deprecated.Clone another PHXFile's value and metadata.
+
 **Parameters:**
-: `other`- the other PHXFile to clone.
-============ METHOD DETAIL ==========
-- ### Method Detail
+- `other` - the other PHXFile to clone.
 
-- #### getName
+Deprecated. Clone another PHXFile's value and metadata.
+
+## Method Detail
+
+### getName
 
 ```java
-public java.lang.String getName()
+public java.lang.String getName()
 ```
-Deprecated.retrieves the name of the file
+
+Deprecated. Retrieves the name of the file.
+
 **Returns:**
-: the name of the file
+- the name of the file
 
-- #### getNameCoded
+### getNameCoded
 
 ```java
-public java.lang.String getNameCoded()
+public java.lang.String getNameCoded()
 ```
-Deprecated.retrieves the name of the file in coded form (without $variables
- replaced)
+
+Deprecated. Retrieves the name of the file in coded form (without `$variables` replaced).
+
 **Returns:**
-: the name of the file in coded form
+- the name of the file in coded form
 
-- #### setName
+### setName
 
 ```java
-public void setName(java.lang.String v)
+public void setName(java.lang.String v)
 ```
-Deprecated.sets the name of the file
-**Parameters:**
-: `v`- the name
 
-- #### setBaseName
+**Parameters:**
+- `v` - the name
+
+Deprecated. Sets the name of the file.
+
+### setBaseName
 
 ```java
-public void setBaseName(java.lang.String v)
+public void setBaseName(java.lang.String v)
 ```
-Deprecated.sets the base name of the file
-**Parameters:**
-: `v`- the name
 
-- #### setStringReplacer
+**Parameters:**
+- `v` - the name
+
+Deprecated. Sets the base name of the file.
+
+### setStringReplacer
 
 ```java
-public void setStringReplacer(PHXStringReplacer r)
+public void setStringReplacer(PHXStringReplacer r)
 ```
-Deprecated.specifies a PHXStringReplacer object for use in forming the
- full file name.
-**Parameters:**
-: `r`- the string replacer object
 
-- #### getContents
+**Parameters:**
+- `r` - the string replacer object
+
+Deprecated. Specifies a `PHXStringReplacer` object for use in forming the full file name.
+
+### getContents
 
 ```java
-public java.lang.String getContents()
+public java.lang.String getContents()
                              throws java.io.IOException
 ```
-Deprecated.retrieves the contents of the file
+
+Deprecated. Retrieves the contents of the file.
+
 **Returns:**
-: the contents of the file
+- the contents of the file
+
 **Throws:**
-: `java.io.IOException`
+- `java.io.IOException`
 
-- #### markAsRead
-
-```java
-public void markAsRead()
-```
-Deprecated.call this function after you manually get the contents of the
- file. The function records it's name and timestamp for use with
- the hasChanged() function
-
-- #### hasChanged
+### markAsRead
 
 ```java
-public boolean hasChanged()
+public void markAsRead()
 ```
-Deprecated.checks to see if the file has changed since the last time
- getContents() was called
+
+Deprecated. Call this function after you manually get the contents of the file. The function records its name and timestamp for use with the `hasChanged()` function.
+
+### hasChanged
+
+```java
+public boolean hasChanged()
+```
+
+Deprecated. Checks to see if the file has changed since the last time `getContents()` was called.
+
 **Returns:**
-: true if the timestamp of the file is new, or if the
-          file name has changed
+- `true` if the timestamp of the file is new, or if the file name has changed
 
-- #### toString2
+### toString2
 
 ```java
-public PHXStringBuffer toString2()
+public PHXStringBuffer toString2()
 ```
-Deprecated.converts the variable to a string
+
+Deprecated. Converts the variable to a string.
+
 **Returns:**
-: a PHXStringBuffer representation of the variable
+- a PHXStringBuffer representation of the variable
 
-- #### toString
+### toString
 
 ```java
-public java.lang.String toString()
+public java.lang.String toString()
 ```
-Deprecated.converts the variable to a string
+
+Deprecated. Converts the variable to a string.
+
 **Specified by:**
-: `toString`in interface`IPHXType`
+- `toString` in interface [IPHXType](IPHXType.md)
+
 **Overrides:**
-: `toString`in class`java.lang.Object`
+- `toString` in class java.lang.Object
+
 **Returns:**
-: a String representation of the variable
+- a String representation of the variable
 
-- #### fromString2
+### fromString2
 
 ```java
-public void fromString2(PHXStringBuffer value)
+public void fromString2(PHXStringBuffer value)
 ```
-Deprecated.converts a PHXStringBuffer representation to the internal value
-**Parameters:**
-: `value`- the value to convert
 
-- #### fromString
+**Parameters:**
+- `value` - the value to convert
+
+Deprecated. Converts a PHXStringBuffer representation to the internal value.
+
+### fromString
 
 ```java
-public void fromString(java.lang.String value)
+public void fromString(java.lang.String value)
 ```
-Deprecated.converts a String representation to the internal value
-**Parameters:**
-: `value`- the value to convert
 
-- #### equalsNatural
+**Parameters:**
+- `value` - the value to convert
+
+Deprecated. Converts a String representation to the internal value.
+
+### equalsNatural
 
 ```java
-public boolean equalsNatural(PHXSimpleType toCompare)
+public boolean equalsNatural(PHXSimpleType toCompare)
                       throws PHXTypeMismatchException
 ```
-Deprecated.Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is different than`Comparable`in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets,
- and may behave oddly if put in those circumstances.
-**Specified by:**
-: `equalsNatural`in class`PHXSimpleType`
-**Parameters:**
-: `toCompare`-
-**Returns:**
-: a negative number if this object is less than toCompare, a positive number if this object is greater than
- to compare, and zero if these two objects are equal.
-**Throws:**
-: `PHXTypeMismatchException`- if the given PHXSimpleType cannot be compared with this object.
 
-- #### fromObject
+Deprecated. Compare this [PHXSimpleType](PHXSimpleType.md) to another [PHXSimpleType](PHXSimpleType.md). This type of comparison is different than `Comparable` in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets, and may behave oddly if put in those circumstances.
+
+**Specified by:**
+- `equalsNatural` in class [PHXSimpleType](PHXSimpleType.md)
+
+**Parameters:**
+- `toCompare` -
+
+**Returns:**
+- a negative number if this object is less than toCompare, a positive number if this object is greater than to compare, and zero if these two objects are equal.
+
+**Throws:**
+- [PHXTypeMismatchException](PHXTypeMismatchException.md) - if the given [PHXSimpleType](PHXSimpleType.md) cannot be compared with this object.
+
+### fromObject
 
 ```java
-public void fromObject(java.lang.Object toRead)
+public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
-Deprecated.Load the value of this object from the specified object. This will read the object and attempt to convert it if it
- is a known type. If the type isn't recognized, it will throw a PHXInvalidTypeException. If there is an error in
- conversion, it will also throw a PHXInvalidTypeException
 
- NOTE: while it might be logical to think you can create a PHX(Type)Array from, say, an
- array of java.lang.(Type), that is not currently supported. You MUST use the PHX string
- array formatting style.
+Deprecated. Load the value of this object from the specified object. This will read the object and attempt to convert it if it is a known type. If the type isn't recognized, it will throw a [PHXInvalidTypeException](PHXInvalidTypeException.md). If there is an error in conversion, it will also throw a [PHXInvalidTypeException](PHXInvalidTypeException.md).
+
+NOTE: while it might be logical to think you can create a `PHX(Type)Array` from, say, an array of `java.lang.(Type)`, that is not currently supported. You MUST use the PHX string array formatting style.
+
 **Specified by:**
-: `fromObject`in class`PHXSimpleType`
+- `fromObject` in class [PHXSimpleType](PHXSimpleType.md)
+
 **Parameters:**
-: `toRead`- to object from which to load this objects value.
+- `toRead` - to object from which to load this objects value.
+
 **Throws:**
-: `PHXInvalidTypeException`- if the specified object is of an invalid type or there is an error in conversion.
+- [PHXInvalidTypeException](PHXInvalidTypeException.md) - if the specified object is of an invalid type or there is an error in conversion.
 
-- #### Accept
+### Accept
 
 ```java
-public <T> T Accept(IPHXType2.IVisitor<T> visitor)
+public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
-Deprecated.Accept a Visitor.
+
+Deprecated. Accept a Visitor.
+
 **Type Parameters:**
-: `T`- Type of the result of the visit.
-**Parameters:**
-: `visitor`- The visitor to accept.
-**Returns:**
-: The results of the visit.
+- `T` - Type of the result of the visit.
 
-- #### createCopy
+**Parameters:**
+- `visitor` - The visitor to accept.
+
+**Returns:**
+- The results of the visit.
+
+### createCopy
 
 ```java
-public PHXFile createCopy()
+public PHXFile createCopy()
 ```
-Deprecated.Description copied from class:`PHXSimpleType`Create a copy of this instance, including the value and metadata.
+
+Deprecated. Description copied from class: [PHXSimpleType](PHXSimpleType.md). Create a copy of this instance, including the value and metadata.
+
 **Specified by:**
-: `createCopy`in class`PHXSimpleType`
+- `createCopy` in class [PHXSimpleType](PHXSimpleType.md)
+
 **Returns:**
-: a newly constructed copy of this instance.
-========= END OF CLASS DATA =========
+- a newly constructed copy of this instance.

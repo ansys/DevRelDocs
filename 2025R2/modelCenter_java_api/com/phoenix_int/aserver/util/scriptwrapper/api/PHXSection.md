@@ -134,8 +134,7 @@ public void setDelimiters(java.lang.String delimiters)
 public void assertEquals(PHXSection other)
                   throws java.lang.Exception
 ```
-Test comparison function. If the two objects are not equal, an 
- exception is thrown
+Test comparison function. If the two objects are not equal, an exception is thrown
 
 **Parameters:**
 - `other`- the data model to compare this to

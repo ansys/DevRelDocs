@@ -11,7 +11,7 @@
 
 **Implemented Interfaces**
 
-- `IAnalysisServerCallback`
+- [`IAnalysisServerCallback`](IAnalysisServerCallback.md)
 
 --- 
 
@@ -34,10 +34,10 @@ Callback object which uses a monitor to allow the caller to block until a respon
 
 | Modifier and Type | Method and Description |
 | --- | --- |
-| `AnalysisServerResponse` | `getResponse()`<br>Get the response, or null if it has not been received. |
+| [`AnalysisServerResponse`](AnalysisServerResponse.md) | `getResponse()`<br>Get the response, or null if it has not been received. |
 | `boolean` | `responseReceived(AnalysisServerResponse response)`<br>Callback when a response is received. |
-| `AnalysisServerResponse` | `waitForResponse()`<br>Wait until the response has been received, if it has not already. |
-| `AnalysisServerResponse` | `waitForResponse(int timeout)`<br>Wait until the response has been received, if it has not already. |
+| [`AnalysisServerResponse`](AnalysisServerResponse.md) | `waitForResponse()`<br>Wait until the response has been received, if it has not already. |
+| [`AnalysisServerResponse`](AnalysisServerResponse.md) | `waitForResponse(int timeout)`<br>Wait until the response has been received, if it has not already. |
 
 ### Methods inherited from class java.lang.Object
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
@@ -104,4 +104,4 @@ Callback when a response is received.
 - true if this callback should be removed
 
 **Specified by:**
-- `responseReceived` in interface `IAnalysisServerCallback`
+- `responseReceived` in interface [`IAnalysisServerCallback`](IAnalysisServerCallback.md)

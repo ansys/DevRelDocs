@@ -3,7 +3,7 @@
 **Package:** `com.phoenix_int.pacz.api`
 
 ---
-**Deprecated:** see `com.phoenix_int.pacz.api.v2.IInstanceFile`
+**Deprecated:** see [`com.phoenix_int.pacz.api.v2.IInstanceFile`](v2/IInstanceFile.md`)
 
 ```java
 @Deprecated

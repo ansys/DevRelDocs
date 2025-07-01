@@ -3,17 +3,19 @@
 **Package:** `com.phoenix_int.aserver`
 
 **Superinterfaces**
-- `IPHXComponent`
+- [`IPHXComponent`](IPHXComponent.md)
 
 **Declaration**
 ```java
 public interface IPHXAnalysis
-    extends IPHXComponent
+extends IPHXComponent
 ```
 
-This is the interface that analyses managed by the ModelCenter Remote Execution must implement.
+This is the interface that analyses managed by ModelCenter Remote Execution must implement.
 
+<!--
 If you also want to support Athena, you should extend `IPHXAthenaAnalysis` instead.
+-->
 
 ## Method Summary
 
@@ -21,7 +23,7 @@ If you also want to support Athena, you should extend `IPHXAthenaAnalysis` inste
 |-------------------|----------------------|
 | `void` | `execute()`<br>Executes the analysis. |
 
-### Methods inherited from interface `com.phoenix_int.aserver.IPHXComponent`
+### Methods inherited from interface [`com.phoenix_int.aserver.IPHXComponent`](IPHXComponent.md)
 `end`
 
 ## Method Detail

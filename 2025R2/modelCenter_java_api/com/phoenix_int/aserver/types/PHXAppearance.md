@@ -1,100 +1,119 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.types
-## Class PHXAppearance
-- java.lang.Object
-- - com.phoenix_int.aserver.types.PHXAppearance
-- ---
+# Class: PHXAppearance
+
+**Package:** `com.phoenix_int.aserver.types`
+
+**Class Hierarchy**
+
+```
+↳ java.lang.Object
+  ↳ com.phoenix_int.aserver.types.PHXAppearance
+```
+
+--- 
+
+**Declaration**
 
 ```java
 public class PHXAppearance
 extends java.lang.Object
 ```
-This is a utility class for holding appearance properties. The class
- is used by the PHXGeomInfo class
-**Author:**
-: Woyak, 10/98- ======== CONSTRUCTOR SUMMARY ========
-- ### Constructor Summary
+
+This is a utility class for holding appearance properties. The class is used by the [PHXGeomInfo](PHXGeomInfo.md) class.
+
+## Constructor Summary
 
 | Constructor and Description |
 | --- |
-| Constructor and Description |
-| `PHXAppearance(boolean hasColor)` |
-========== METHOD SUMMARY ===========
-- ### Method Summary
+| `PHXAppearance(boolean hasColor)` |
+
+## Method Summary
 
 | Modifier and Type | Method and Description |
-| --- | --- |
-| Modifier and Type | Method and Description |
+|-------------------|----------------------|
 | `double` | `getBlue()` |
 | `double` | `getGreen()` |
 | `boolean` | `getHasColor()` |
 | `double` | `getRed()` |
-| `void` | `setBlue(double v)` |
-| `void` | `setColor(double r,
-        double g,
-        double b)` |
-| `void` | `setGreen(double v)` |
-| `void` | `setRed(double v)` |
+| `void` | `setBlue(double v)` |
+| `void` | `setColor(double r, double g, double b)` |
+| `void` | `setGreen(double v)` |
+| `void` | `setRed(double v)` |
 
-- ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`- ========= CONSTRUCTOR DETAIL ========
-- ### Constructor Detail
+### Methods inherited from class java.lang.Object
 
-- #### PHXAppearance
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `toString`, `wait`, `wait`, `wait`
 
-```java
-public PHXAppearance(boolean hasColor)
-```
-============ METHOD DETAIL ==========
-- ### Method Detail
+## Constructor Detail
 
-- #### getRed
+### PHXAppearance
 
 ```java
-public double getRed()
+public PHXAppearance(boolean hasColor)
 ```
 
-- #### getGreen
+**Parameters:**
+- `hasColor` - whether the appearance has color
+
+## Method Detail
+
+### getRed
 
 ```java
-public double getGreen()
+public double getRed()
 ```
 
-- #### getBlue
+### getGreen
 
 ```java
-public double getBlue()
+public double getGreen()
 ```
 
-- #### getHasColor
+### getBlue
 
 ```java
-public boolean getHasColor()
+public double getBlue()
 ```
 
-- #### setRed
+### getHasColor
 
 ```java
-public void setRed(double v)
+public boolean getHasColor()
 ```
 
-- #### setGreen
+### setRed
 
 ```java
-public void setGreen(double v)
+public void setRed(double v)
 ```
 
-- #### setBlue
+**Parameters:**
+- `v` - the red value
+
+### setGreen
 
 ```java
-public void setBlue(double v)
+public void setGreen(double v)
 ```
 
-- #### setColor
+**Parameters:**
+- `v` - the green value
+
+### setBlue
 
 ```java
-public void setColor(double r,
-                     double g,
-                     double b)
+public void setBlue(double v)
 ```
-========= END OF CLASS DATA =========
+
+**Parameters:**
+- `v` - the blue value
+
+### setColor
+
+```java
+public void setColor(double r, double g, double b)
+```
+
+**Parameters:**
+- `r` - the red value
+- `g` - the green value
+- `b` - the blue value

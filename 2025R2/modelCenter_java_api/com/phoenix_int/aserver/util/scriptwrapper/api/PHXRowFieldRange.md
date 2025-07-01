@@ -12,7 +12,7 @@
 
 **Implemented Interfaces**
 
-- [IPHXRange](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/IPHXRange.html)
+- [IPHXRange](IPHXRange.md)
 
 --- 
 **Declaration**
@@ -49,9 +49,9 @@ implements IPHXRange
 
 | Modifier and Type | Method and Description |
 |-------------------|----------------------|
-| `int` | `absoluteEndRow(IPHXLineStore lines, java.util.Vector bookmarks, java.util.Vector sections)` |
-| `int` | `absoluteStartRow(IPHXLineStore lines, java.util.Vector bookmarks, java.util.Vector sections)`<br>Returns the actual starting row number |
-| `void` | `assertEquals(IPHXRange other)`<br>Test comparison function. |
+| `int` | `absoluteEndRow(`[`IPHXLineStore`](../IPHXLineStore.md)` lines, java.util.Vector bookmarks, java.util.Vector sections)` |
+| `int` | `absoluteStartRow(`[`IPHXLineStore`](../IPHXLineStore.md)` lines, java.util.Vector bookmarks, java.util.Vector sections)`<br>Returns the actual starting row number |
+| `void` | `assertEquals(`[`IPHXRange`](IPHXRange.md)` other)`<br>Test comparison function. |
 | `void` | `clearEndingMark()` |
 | `void` | `clearStartingMark()` |
 | `void` | `fromString(java.lang.String str)` |
@@ -108,7 +108,7 @@ public static final java.lang.String RANGE_SEPARATOR
 ```
 
 **See Also:**
-- [Constant Field Values](../../../../../../constant-values.html#com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange.RANGE_SEPARATOR)
+- [Constant Field Values](../../../../../../constant-values.md)
 
 ### NAME_SEPARATOR
 
@@ -117,7 +117,7 @@ public static final java.lang.String NAME_SEPARATOR
 ```
 
 **See Also:**
-- [Constant Field Values](../../../../../../constant-values.html#com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange.NAME_SEPARATOR)
+- [Constant Field Values](../../../../../../constant-values.md)
 
 ## Constructor Detail
 
@@ -218,17 +218,17 @@ public void generate()
 Generate the input file
 
 **Specified by:**
-- `generate` in interface `InputFile`
+- `generate` in interface [`InputFile`](InputFile.md)
 
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXNumberFormatException`](../../types/PHXNumberFormatException.md)
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 - `com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException`
 
 ### setFileToGenerate
@@ -239,7 +239,7 @@ public void setFileToGenerate(java.lang.String fileName)
 Set the file to be generated
 
 **Specified by:**
-- `setFileToGenerate` in interface `InputFile`
+- `setFileToGenerate` in interface [`InputFile`](InputFile.md)
 
 **Parameters:**
 - `fileName` - file name
@@ -261,18 +261,18 @@ public void parse()
 Parse the output file
 
 **Specified by:**
-- `parse` in interface `OutputFile`
-- `parse` in interface `OutputFile2`
+- `parse` in interface [`OutputFile`](OutputFile.md)
+- `parse` in interface [`OutputFile2`](OutputFile2.md)
 
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXNumberFormatException`](../../types/PHXNumberFormatException.md)
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 - `com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException`
 
 ### setFileToParse
@@ -283,8 +283,8 @@ public void setFileToParse(java.lang.String fileName)
 Set the file to be parsed
 
 **Specified by:**
-- `setFileToParse` in interface `OutputFile`
-- `setFileToParse` in interface `OutputFile2`
+- `setFileToParse` in interface [`OutputFile`](OutputFile.md)
+- `setFileToParse` in interface [`OutputFile2`](OutputFile2.md)
 
 **Parameters:**
 - `fileName` - file name
@@ -292,14 +292,14 @@ Set the file to be parsed
 ### newParser
 
 ```java
-protected Parser newParser(java.io.File rFile, 
-                           Parser.Mode pmode)
+protected [`Parser`](../Parser.md) newParser(java.io.File rFile, 
+                           [`Parser.Mode`](../Parser.Mode.md) pmode)
                     throws java.io.IOException
 ```
 Generate a new parser for the given file and mode
 
 **Specified by:**
-- `newParser` in class `AbstractFile`
+- `newParser` in class [`AbstractFile`](AbstractFile.md)
 
 **Parameters:**
 - `rFile` - The file to open
@@ -317,7 +317,7 @@ protected void ensureFileParser(ParseableFile.Mode mode)
 Ensure there is a valid parser
 
 **Overrides:**
-- `ensureFileParser` in class `AbstractFile`
+- `ensureFileParser` in class [`AbstractFile`](AbstractFile.md)
 
 **Parameters:**
 - `mode` - parser mode in current context
@@ -359,9 +359,9 @@ public void defineVar(java.lang.String name,
 ```
 
 **Throws:**
-- `PHXNameAlreadyInUseException`
-- `PHXInvalidNameException`
-- `PHXInvalidTypeException`
+- [`PHXNameAlreadyInUseException`](../../PHXNameAlreadyInUseException.md)
+- [`PHXInvalidNameException`](../../PHXInvalidNameException.md)
+- [`PHXInvalidTypeException`](../../types/PHXInvalidTypeException.md)
 
 ### defineVar
 
@@ -383,9 +383,9 @@ public void defineVar(java.lang.String name,
 ```
 
 **Throws:**
-- `PHXNameAlreadyInUseException`
-- `PHXInvalidNameException`
-- `PHXInvalidTypeException`
+- [`PHXNameAlreadyInUseException`](../../PHXNameAlreadyInUseException.md)
+- [`PHXInvalidNameException`](../../PHXInvalidNameException.md)
+- [`PHXInvalidTypeException`](../../types/PHXInvalidTypeException.md)
 
 ### defineVar
 
@@ -408,9 +408,9 @@ public void defineVar(java.lang.String name,
 ```
 
 **Throws:**
-- `PHXNameAlreadyInUseException`
-- `PHXInvalidNameException`
-- `PHXInvalidTypeException`
+- [`PHXNameAlreadyInUseException`](../../PHXNameAlreadyInUseException.md)
+- [`PHXInvalidNameException`](../../PHXInvalidNameException.md)
+- [`PHXInvalidTypeException`](../../types/PHXInvalidTypeException.md)
 
 ### transferVars
 
@@ -428,20 +428,20 @@ protected void transferVars(ParseableFile.Mode mode)
 ```
 Note that if wrapper is null, variable collection should be empty, and there should be no harm in calling this method
 
-Transfer values for variables that have been defined using methods from the concrete implementation, i.e. [defineVar(String, String, boolean, String)](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.html#defineVar-java.lang.String-java.lang.String-boolean-java.lang.String-)
+Transfer values for variables that have been defined using methods from the concrete implementation, i.e. [`defineVar(String, String, boolean, String)`](PHXRowFieldFile.md)
 
-Variables defined using [PHXScriptWrapperObject.addVariable(String, String, boolean)](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.html#addVariable-java.lang.String-java.lang.String-boolean-) must be explicitly transferred using methods of the concrete implementation class
+Variables defined using [`PHXScriptWrapperObject.addVariable(String, String, boolean)`](PHXScriptWrapperObject.md) must be explicitly transferred using methods of the concrete implementation class
 
 **Specified by:**
-- `transferVars` in class `AbstractFile`
+- `transferVars` in class [`AbstractFile`](AbstractFile.md)
 
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXNumberFormatException`](../../types/PHXNumberFormatException.md)
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 - `com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException`

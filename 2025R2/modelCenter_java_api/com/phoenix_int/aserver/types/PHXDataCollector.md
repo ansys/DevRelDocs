@@ -1,62 +1,66 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.types
-## Class PHXDataCollector
-- java.lang.Object
-- - com.phoenix_int.aserver.types.PHXDataCollector
-- ---
+# Class: PHXDataCollector
+
+**Package:** `com.phoenix_int.aserver.types`
+
+**Class Hierarchy**
+
+```
+↳ java.lang.Object
+  ↳ com.phoenix_int.aserver.types.PHXDataCollector
+```
+
+---
+**Declaration**
 
 ```java
 public class PHXDataCollector
 extends java.lang.Object
 ```
-A class for Driver Components to tell ModelCenter what to do with the
- DataCollector while the component is running.
-**Author:**
-: Woyak, 2/00- =========== FIELD SUMMARY ===========
-- ### Field Summary
+
+A class for Driver Components to tell ModelCenter what to do with the DataCollector while the component is running.
+
+## Field Summary
 
 | Modifier and Type | Field and Description |
-| --- | --- |
-| Modifier and Type | Field and Description |
+|-------------------|----------------------|
 | `boolean` | `collect` |
-======== CONSTRUCTOR SUMMARY ========
-- ### Constructor Summary
+
+## Constructor Summary
 
 | Constructor and Description |
-| --- |
-| Constructor and Description |
+|---------------------------|
 | `PHXDataCollector()` |
-========== METHOD SUMMARY ===========
-- ### Method Summary
+
+## Method Summary
 
 | Modifier and Type | Method and Description |
-| --- | --- |
-| Modifier and Type | Method and Description |
+|-------------------|----------------------|
 | `boolean` | `getCollect()` |
 
-- ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`- ============ FIELD DETAIL ===========
-- ### Field Detail
+### Methods inherited from class java.lang.Object
 
-- #### collect
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `toString`, `wait`, `wait`, `wait`
 
-```java
-public boolean collect
-```
-========= CONSTRUCTOR DETAIL ========
-- ### Constructor Detail
+## Field Detail
 
-- #### PHXDataCollector
+### collect
 
 ```java
-public PHXDataCollector()
+public boolean collect
 ```
-============ METHOD DETAIL ==========
-- ### Method Detail
 
-- #### getCollect
+## Constructor Detail
+
+### PHXDataCollector
 
 ```java
-public boolean getCollect()
+public PHXDataCollector()
 ```
-========= END OF CLASS DATA =========
+
+## Method Detail
+
+### getCollect
+
+```java
+public boolean getCollect()
+```

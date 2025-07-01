@@ -12,10 +12,10 @@
 ```
 
 **All Implemented Interfaces:**
-- java.io.Serializable, java.lang.Comparable<Parser.Mode>
+- `java.io.Serializable`, `java.lang.Comparable<Parser.Mode>`
 
 **Enclosing interface:**
-- [Parser](../../../../com/phoenix_int/aserver/util/Parser.html)
+- [Parser](Parser.md)
 
 --- 
 **Declaration**
@@ -55,11 +55,11 @@ File-access mode. Moved to type-safe enum from legacy integer constants.
 
 ### Methods inherited from class java.lang.Enum
 
-`clone, compareTo, equals, finalize, getDeclaringClass, hashCode, name, ordinal, toString, valueOf`
+`clone`, `compareTo`, `equals`, `finalize`, `getDeclaringClass`, `hashCode`, `name`, `ordinal`, `toString`, `valueOf`
 
 ### Methods inherited from class java.lang.Object
 
-`getClass, notify, notifyAll, wait, wait, wait`
+`getClass`, `notify`, `notifyAll`, `wait`, `wait`, `wait`
 
 ## Enum Constant Detail
 
@@ -90,7 +90,7 @@ public static final long FILE_SIZE_LIMIT
 ```
 
 **See Also:**
-- [Constant Field Values](../../../../constant-values.html#com.phoenix_int.aserver.util.Parser.Mode.FILE_SIZE_LIMIT)
+- [Constant Field Values](../../../../constant-values.md)
 
 ## Method Detail
 

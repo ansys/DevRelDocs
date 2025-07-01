@@ -12,7 +12,7 @@
 
 **Implemented Interfaces**
 
-- `InputFile`, `OutputFile`, `OutputFile2`, `ParseableFile`, `java.io.Closeable`, `java.lang.AutoCloseable`
+- [`InputFile`](InputFile.md), [`OutputFile`](OutputFile.md), [`OutputFile2`](OutputFile2.md), [`ParseableFile`](ParseableFile.md), `java.io.Closeable`, `java.lang.AutoCloseable`
 
 --- 
 **Declaration**
@@ -27,12 +27,12 @@ Represents an XML file (not a file variable) used in a script wrapper, with acce
 
 ## Nested Class Summary
 
-### Nested classes/interfaces inherited from interface com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile 
+### Nested classes/interfaces inherited from interface com.phoenix_int.aserver.util.scriptwrapper.api.[ParseableFile](ParseableFile.md) 
  `ParseableFile.Mode` 
 
 ## Field Summary
 
-### Fields inherited from class com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile
+### Fields inherited from class com.phoenix_int.aserver.util.scriptwrapper.api.[AbstractFile](AbstractFile.md)
 `encoding`, `fileName`, `mode`, `parser`, `templateFileName`, `wrapper` 
 
 ## Constructor Summary
@@ -108,9 +108,9 @@ Add a variable to the wrapper. The transfer of variable values will be handled a
 
 **Throws:**
 
-- `PHXNameAlreadyInUseException`
-- `PHXInvalidNameException`
-- `PHXInvalidTypeException`
+- [`PHXNameAlreadyInUseException`](../../PHXNameAlreadyInUseException.md)
+- [`PHXInvalidNameException`](../../PHXInvalidNameException.md)
+- [`PHXInvalidTypeException`](../../../types/PHXInvalidTypeException.md)
 
 ### newParser
 
@@ -193,10 +193,10 @@ Variables defined using[PHXScriptWrapperObject.addVariable(String, String, boole
 
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
 
 ### transferArray
 
@@ -216,7 +216,7 @@ Transfer an array of values, either from the file to the variable, or vice-versa
 
 **Throws:**
 
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.io.IOException`
 - `javax.xml.xpath.XPathExpressionException`
 
@@ -239,7 +239,7 @@ Transfer a value, either from the file to the variable, or vice-versa, depending
 **Throws:**
 
 - `javax.xml.xpath.XPathExpressionException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.io.IOException`
 
 ### parse
@@ -264,10 +264,10 @@ Parse the output file
 
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
 
 ### setFileToParse
 
@@ -306,10 +306,10 @@ Generate the input file
 
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
 
 ### setFileToGenerate
 

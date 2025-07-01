@@ -55,7 +55,7 @@ public PHXVariableInfo(java.lang.String name, boolean input, java.lang.Object va
 - `input` - true if the variable is an input, false if an output
 - `var` - the actual variable
 **Throws:**
-- `PHXInvalidNameException` - thrown if the name contains invalid characters
+- [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name contains invalid characters
 
 ## Method Detail
 
@@ -71,7 +71,7 @@ Initializes the variable
 - `var` - the actual variable
 
 **Throws:**
-- `PHXInvalidNameException` - thrown if the name contains invalid characters
+- [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name contains invalid characters
 
 ### getName
 ```java

@@ -10,12 +10,14 @@
 ```
 
 **All Superinterfaces:**
-[ParseableFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.html)
+
+[`ParseableFile`](ParseableFile.md)
 
 **All Known Implementing Classes:**
-[PHXRowFieldFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.html), [XPathFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.html)
 
-@Deprecated in favor of [OutputFile2](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/OutputFile2.html)
+[`PHXRowFieldFile`](PHXRowFieldFile.md), [`XPathFile`](XPathFile.md)
+
+@Deprecated in favor of [`OutputFile2`](OutputFile2.md)
 
 --- 
 **Declaration**
@@ -31,7 +33,8 @@ Interface for output files (not file variables) used in script-wrappers
 ## Nested Class Summary
 
 ### Nested classes/interfaces inherited from interface com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile 
-`ParseableFile.Mode` 
+
+[`ParseableFile.Mode`](ParseableFile.Mode.md) 
 
 ## Method Summary
 
@@ -41,6 +44,7 @@ Interface for output files (not file variables) used in script-wrappers
 | `void` | `setFileToParse(java.lang.String fileName)`<br>@Deprecated. Set the file to be parsed |
 
 ### Methods inherited from interface com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile
+
 `backup`, `close`, `delete`, `readTemplate`, `setFileToGenerateOrParse`, `setTempEmbedded`, `setTemplateFile`, `setVariable`
 
 ## Method Detail
@@ -61,14 +65,15 @@ void parse()
 @Deprecated. Parse the output file
 
 **Throws:**
+
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 
 ### setFileToParse
 

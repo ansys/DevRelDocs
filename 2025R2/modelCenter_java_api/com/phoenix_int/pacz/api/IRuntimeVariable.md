@@ -3,7 +3,7 @@
 **Package:** `com.phoenix_int.pacz.api`
 
 ---
-**Deprecated:** see `com.phoenix_int.pacz.api.v2.IRuntimeVariable`
+**Deprecated:** see [`com.phoenix_int.pacz.api.v2.IRuntimeVariable`](v2/IRuntimeVariable.md)
 
 ```java
 @Deprecated

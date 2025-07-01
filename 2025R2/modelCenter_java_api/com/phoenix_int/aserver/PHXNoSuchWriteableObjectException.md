@@ -30,7 +30,7 @@ An exception that the PHXObjectManager throws when it can't find an object.
 
 ## Method Summary
 
-### Methods inherited from class com.phoenix_int.aserver.PHXNoSuchObjectException
+### Methods inherited from class com.phoenix_int.aserver.[PHXNoSuchObjectException](PHXNoSuchObjectException.md)
 `getInvalidObject`
 
 ### Methods inherited from class java.lang.Throwable

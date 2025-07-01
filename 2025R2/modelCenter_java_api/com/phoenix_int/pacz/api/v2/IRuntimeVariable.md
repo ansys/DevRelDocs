@@ -4,9 +4,9 @@
 
 **All Superinterfaces**
 
-- [IPHXType](../../../../../com/phoenix_int/aserver/types/IPHXType.html)
-- [IPHXType2](../../../../../com/phoenix_int/aserver/types/IPHXType2.html)
-- [IPHXUnits](../../../../../com/phoenix_int/aserver/types/IPHXUnits.html)
+- [IPHXType](../../../aserver/types/IPHXType.md)
+- [IPHXType2](../../../aserver/types/IPHXType2.md)
+- [IPHXUnits](../../../aserver/types/IPHXUnits.md)
 - com.phoenix_int.pacz.api.v2.IRuntimeVariableMetadata
 
 ---
@@ -20,7 +20,7 @@ Component variable interface
 
 ## Nested Class Summary
 
-### Nested classes/interfaces inherited from interface com.phoenix_int.aserver.types.IPHXType2
+### Nested classes/interfaces inherited from interface com.phoenix_int.aserver.types.[IPHXType2](../../../aserver/types/IPHXType2.md)
 `IPHXType2.IVisitor<T>`
 
 ## Method Summary
@@ -40,13 +40,13 @@ Component variable interface
 | `void` | `setVariableName(java.lang.String name)`<br>Set variable name |
 | `PHXSimpleType` | `toPHXSimpleType()`<br>Get the PHXSimpleType version of variable |
 
-#### Methods inherited from interface com.phoenix_int.aserver.types.IPHXType2
+#### Methods inherited from interface com.phoenix_int.aserver.types.[IPHXType2](../../../aserver/types/IPHXType2.md)
 `Accept`, `fromString2`, `toString2`
 
-#### Methods inherited from interface com.phoenix_int.aserver.types.IPHXType
+#### Methods inherited from interface com.phoenix_int.aserver.types.[IPHXType](../../../aserver/types/IPHXType.md)
 `fromString`, `toString`
 
-#### Methods inherited from interface com.phoenix_int.aserver.types.IPHXUnits
+#### Methods inherited from interface com.phoenix_int.aserver.types.[IPHXUnits](../../../aserver/types/IPHXUnits.md)
 `getUnits`, `setUnits`
 
 #### Methods inherited from interface com.phoenix_int.pacz.api.v2.IRuntimeVariableMetadata
@@ -105,7 +105,7 @@ Get variable data type
 - variable data type
 
 **See Also:**
-- [PHXTypeFactory.getVarType(java.lang.String)](../../../../../com/phoenix_int/aserver/types/PHXTypeFactory.html#getVarType-java.lang.String-)
+- [PHXTypeFactory.getVarType(java.lang.String)](../../../aserver/types/PHXTypeFactory.md)
 
 ### getMetaData
 

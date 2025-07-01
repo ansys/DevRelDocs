@@ -14,6 +14,9 @@ public interface IPHXSetupFromFile
 
 This interface defines the contract for components that can be set up or initialized from a file. Implementing classes provide mechanisms to configure themselves using external file-based data.
 
+**Known Implementing Classes**
+- [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md)
+
 ## Method Summary
 
 | Modifier and Type | Method and Description |
@@ -25,7 +28,7 @@ This interface defines the contract for components that can be set up or initial
 ### setupFromFile
 ```
 public void setupFromFile(java.lang.String fileName)
-        throws java.io.IOException
+                   throws java.io.IOException
 ```
 Sets up the component using the specified file. The file should contain the necessary configuration or data required for initialization.
 

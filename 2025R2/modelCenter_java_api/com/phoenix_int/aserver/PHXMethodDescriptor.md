@@ -14,7 +14,7 @@ public class PHXMethodDescriptor
 extends java.lang.Object
 ```
 
-A utility class used by PHXSelfManager to indicate which methods it can invoke.
+A utility class used by [`PHXSelfManager`](PHXSelfManager.md) to indicate which methods it can invoke. Also used by [`PHXSimpleSelfManager`](PHXSimpleSelfManager.md), [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md), and [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md).
 
 ## Constructor Summary
 
@@ -118,3 +118,11 @@ public java.lang.String toString()
 ```java
 public static PHXMethodDescriptor fromString(java.lang.String str)
 ```
+
+### See Also
+- [`PHXSelfManager`](PHXSelfManager.md)
+- [`PHXSimpleSelfManager`](PHXSimpleSelfManager.md)
+- [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md)
+- [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md)
+- [`PHXInvokeReturn`](PHXInvokeReturn.md)
+- [`PHXGroup`](PHXGroup.md)

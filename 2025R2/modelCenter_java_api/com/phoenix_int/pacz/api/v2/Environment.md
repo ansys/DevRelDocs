@@ -20,13 +20,13 @@
 
 ```java
 public class Environment
-    extends java.util.HashMap<java.lang.String,java.lang.String>
+extends java.util.HashMap<java.lang.String,java.lang.String>
 ```
 
 Environment variables for component configuration
 
 **See Also:**
-- [Serialized Form](../../../../../serialized-form.html#com.phoenix_int.pacz.api.v2.Environment)
+- [Serialized Form](../../../../../serialized-form.html)
 
 ## Nested Class Summary
 
@@ -78,7 +78,7 @@ public static final java.lang.String COMPONENT_DIR
 Pre-defined component directory environment variable
 
 **See Also:**
-- [Constant Field Values](../../../../../constant-values.html#com.phoenix_int.pacz.api.v2.Environment.COMPONENT_DIR)
+- [Constant Field Values](../../../../../constant-values.html)
 
 ## Constructor Detail
 

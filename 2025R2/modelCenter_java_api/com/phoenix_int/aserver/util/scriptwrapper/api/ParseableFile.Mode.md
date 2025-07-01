@@ -3,7 +3,8 @@
 **Package:** `com.phoenix_int.aserver.util.scriptwrapper.api`
 
 **Enclosing interface:**
-- [ParseableFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.html)
+
+- [`ParseableFile`](ParseableFile.md)
 
 **Class Hierarchy**
 

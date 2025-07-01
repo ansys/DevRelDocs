@@ -35,4 +35,4 @@ replaces the specified string with some other value. If the string does not matc
 - the replacement
 
 **Throws:**
-- `PHXNoSuchReplacementException` - thrown if no replacement exists
+- [`PHXNoSuchReplacementException`](PHXNoSuchReplacementException.md) - thrown if no replacement exists

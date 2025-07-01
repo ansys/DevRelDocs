@@ -9,7 +9,7 @@
 ```
 
 **Enclosing class:**
-[PHXRunShare](../../../com/phoenix_int/aserver/PHXRunShare.html)
+[PHXRunShare](PHXRunShare.md)
 
 **Declaration**
 ```java
@@ -55,4 +55,6 @@ public java.io.File runFolder
 ```java
 public RunInfo(java.lang.String cmd, java.lang.String runFolder)
 ```
+
+See also: [PHXRunShare](PHXRunShare.md)
 

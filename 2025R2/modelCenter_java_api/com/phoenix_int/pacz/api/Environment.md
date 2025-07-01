@@ -16,7 +16,7 @@
 - `java.io.Serializable`, `java.lang.Cloneable`, `java.util.Map<java.lang.String,java.lang.String>`
 
 ---
-**Deprecated:** see `com.phoenix_int.pacz.api.v2.Environment`
+**Deprecated:** see [`com.phoenix_int.pacz.api.v2.Environment`](v2/Environment.md)
 
 ```java
 @Deprecated
@@ -76,7 +76,7 @@ public static final java.lang.String COMPONENT_DIR
 **Deprecated.** Pre-defined component directory environment variable
 
 **See Also:**
-- [Constant Field Values](../../../../constant-values.html#com.phoenix_int.pacz.api.Environment.COMPONENT_DIR)
+- [Constant Field Values](../../../../constant-values.md)
 
 ## Constructor Detail
 

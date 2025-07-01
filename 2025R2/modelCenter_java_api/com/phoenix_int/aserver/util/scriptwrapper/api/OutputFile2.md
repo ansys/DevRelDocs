@@ -9,7 +9,8 @@
 ```
 
 **All Known Implementing Classes:**
-[CAEOutputFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/CAEOutputFile.html), [PHXRowFieldFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.html), [XPathFile](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.html)
+
+[`CAEOutputFile`](CAEOutputFile.md), [`PHXRowFieldFile`](PHXRowFieldFile.md), [`XPathFile`](XPathFile.md)
 ---
 **Declaration**
 
@@ -44,7 +45,7 @@ Parse the output file
 ```java
 void setFileToParse(java.lang.String fileName)
 ```
-Sets the file that will be parsed. Usually this is synonymous with [ParseableFile.setFileToGenerateOrParse(String)](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.html#setFileToGenerateOrParse-java.lang.String-)
+Sets the file that will be parsed. Usually this is synonymous with [`ParseableFile.setFileToGenerateOrParse(String)`](ParseableFile.md)
 
 **Parameters:**
 - `fileName` - The file to parse

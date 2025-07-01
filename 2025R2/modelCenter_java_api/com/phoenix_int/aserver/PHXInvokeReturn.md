@@ -16,9 +16,13 @@ extends java.lang.Object
 
 A utility class for holding return information from an invoked function. It's used to capture additional return information such as whether all variable values should be retrieved after invocation, and can easily be extended for future needs in this vein.
 
-To use this class, simply return it from a method defined on a Simple Self Manager.
+To use this class, simply return it from a method defined on a [`PHXSimpleSelfManager`](PHXSimpleSelfManager.md).
 
-**See Also:** [`PHXSimpleSelfManager`](../../../com/phoenix_int/aserver/PHXSimpleSelfManager.html)
+**See Also:**
+- [`PHXSimpleSelfManager`](PHXSimpleSelfManager.md)
+- [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md)
+- [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md)
+- [`PHXGroup`](PHXGroup.md)
 
 ## Constructor Summary
 

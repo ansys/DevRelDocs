@@ -3,7 +3,7 @@
 **Package:** `com.phoenix_int.aserver.util`
 
 **All Known Implementing Classes:**
-- [PHXFileParser](../../../../com/phoenix_int/aserver/util/PHXFileParser.html)
+- [PHXFileParser](PHXFileParser.md)
 
 -- 
 

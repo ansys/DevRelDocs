@@ -1,18 +1,23 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.types
-## Interface IPHXRefPropInfo
-- **All Superinterfaces:**
-: [IPHXDescription](../../../../com/phoenix_int/aserver/types/IPHXDescription.html)
+# Interface: IPHXRefPropInfo
+
+**Package:** `com.phoenix_int.aserver.types`
+
+**All Superinterfaces:**
+- [IPHXDescription](IPHXDescription.md)
 
 **All Known Implementing Classes:**
-: [PHXRefArrayProperty](../../../../com/phoenix_int/aserver/types/PHXRefArrayProperty.html),[PHXRefProperty](../../../../com/phoenix_int/aserver/types/PHXRefProperty.html)
+- [PHXRefArrayProperty](PHXRefArrayProperty.md)
+- [PHXRefProperty](PHXRefProperty.md)
 
----
+--- 
+
+**Declaration**
 
 ```java
 public interface IPHXRefPropInfo
 extends IPHXDescription
 ```
+
 This interface provides information about a reference property:
 - **name**: String
 - **type**: String
@@ -20,111 +25,115 @@ This interface provides information about a reference property:
 - **description**: String
 - **title**: String
 - **input**: boolean
+
 where type may be any of the following:
 - "long"
 - "double"
 - "boolean"
 - "string"
-**Author:**
-: Woyak- ========== METHOD SUMMARY ===========
-- ### Method Summary
 
-| Modifier and Type | Method and Description |
-| --- | --- |
-| Modifier and Type | Method and Description |
-| `void` | `enumValuesFromString(java.lang.String enumValues)` |
-| `java.lang.String[]` | `getEnumValues()`lists enum values |
-| `boolean` | `getInput()`retrieves an indicator of whether the ref prop is an input
- or an output. |
-| `java.lang.String` | `getName()`retrieves the name of the variable |
-| `java.lang.String` | `getTitle()`retrieves a title of the ref prop. |
-| `java.lang.String` | `getType()`retrieves the current type of the variable |
-| `void` | `setEnumValues(java.lang.String[] enumValues)`sets the enum values |
-| `void` | `setInput(boolean value)`sets an indicator for the ref prop |
-| `void` | `setTitle(java.lang.String value)`sets a title of the ref prop |
+## Method Summary
 
-- ### Methods inherited from interface com.phoenix_int.aserver.types.IPHXDescription
-`getDescription,setDescription`- ============ METHOD DETAIL ==========
-- ### Method Detail
+| Modifier and Type      | Method and Description                                                        |
+|-----------------------|-------------------------------|
+| `void`                | `enumValuesFromString(java.lang.String enumValues)`|
+| `java.lang.String[]`  | `getEnumValues()` <br>lists enum values |
+| `boolean`             | `getInput()` <br>retrieves an indicator of whether the ref prop is an input or an output. |
+| `java.lang.String`    | `getName()` <br>retrieves the name of the variable|
+| `java.lang.String`    | `getTitle()` <br>retrieves a title of the ref prop.|
+| `java.lang.String`    | `getType()` <br>retrieves the current type of the variable|
+| `void`                | `setEnumValues(java.lang.String[] enumValues)` <br>sets the enum values|
+| `void`                | `setInput(boolean value)` <br>sets an indicator for the ref prop|
+| `void`                | `setTitle(java.lang.String value)` <br>sets a title of the ref prop|
 
-- #### getName
+### Methods inherited from interface com.phoenix_int.aserver.types.IPHXDescription
+- `getDescription`
+- `setDescription`
+
+## Method Detail
+
+### getName
 
 ```java
-java.lang.String getName()
+java.lang.String getName()
 ```
 retrieves the name of the variable
-**Returns:**
-: the name of the variable
 
-- #### getType
+**Returns:**
+- the name of the variable
+
+### getType
 
 ```java
-java.lang.String getType()
+java.lang.String getType()
 ```
 retrieves the current type of the variable
-**Returns:**
-: the value of the variable
 
-- #### getTitle
+**Returns:**
+- the value of the variable
+
+### getTitle
 
 ```java
-java.lang.String getTitle()
+java.lang.String getTitle()
 ```
-retrieves a title of the ref prop. Used by ModelCenter when
- displaying the variable in certain dialogs
-**Returns:**
-: a title for the ref prop
+retrieves a title of the ref prop. Used by ModelCenter when displaying the variable in certain dialogs
 
-- #### setTitle
+**Returns:**
+- a title for the ref prop
+
+### setTitle
 
 ```java
-void setTitle(java.lang.String value)
+void setTitle(java.lang.String value)
 ```
 sets a title of the ref prop
+
 **Parameters:**
-: `value`- a title for the ref prop
+- `value` - a title for the ref prop
 
-- #### getInput
+### getInput
 
 ```java
-boolean getInput()
+boolean getInput()
 ```
-retrieves an indicator of whether the ref prop is an input
- or an output. If it's an output, the driver component
- will calculate a value for it.
-**Returns:**
-: an indicator if the ref prop is an input
+retrieves an indicator of whether the ref prop is an input or an output. If it's an output, the driver component will calculate a value for it.
 
-- #### setInput
+**Returns:**
+- an indicator if the ref prop is an input
+
+### setInput
 
 ```java
-void setInput(boolean value)
+void setInput(boolean value)
 ```
 sets an indicator for the ref prop
-**Parameters:**
-: `value`- an indicator for the ref prop
 
-- #### getEnumValues
+**Parameters:**
+- `value` - an indicator for the ref prop
+
+### getEnumValues
 
 ```java
-java.lang.String[] getEnumValues()
+java.lang.String[] getEnumValues()
 ```
 lists enum values
-**Returns:**
-: an array of enum values
 
-- #### setEnumValues
+**Returns:**
+- an array of enum values
+
+### setEnumValues
 
 ```java
-void setEnumValues(java.lang.String[] enumValues)
+void setEnumValues(java.lang.String[] enumValues)
 ```
 sets the enum values
-**Parameters:**
-: `enumValues`- an array of enum values
 
-- #### enumValuesFromString
+**Parameters:**
+- `enumValues` - an array of enum values
+
+### enumValuesFromString
 
 ```java
-void enumValuesFromString(java.lang.String enumValues)
+void enumValuesFromString(java.lang.String enumValues)
 ```
-========= END OF CLASS DATA =========

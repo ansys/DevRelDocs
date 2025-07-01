@@ -12,7 +12,7 @@
 
 **Implemented Interfaces**
 
-- `OutputFile2`, `ParseableFile`, `java.io.Closeable`, `java.lang.AutoCloseable`
+- [`OutputFile2`](OutputFile2.md), [`ParseableFile`](ParseableFile.md), `java.io.Closeable`, `java.lang.AutoCloseable`
 
 --- 
 ## Declaration
@@ -28,19 +28,26 @@ This represents a binary output file from a CAE program such as NASTRAN or LSDyn
 ## Nested Class Summary
 
 ### Nested classes/interfaces inherited from interface com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile
- `ParseableFile.Mode`
+
+[`ParseableFile.Mode`](ParseableFile.Mode.md)
 
 ## Field Summary
 
 ### Fields inherited from class com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile
-`encoding`, `fileName`, `mode`, `parser`, `templateFileName`, `wrapper` 
+
+`encoding`, `fileName`, `mode`, `parser`, `templateFileName`, `wrapper`
+
+**Related Files:**
+
+- [`PHXRowFieldFile`](PHXRowFieldFile.md) - Row field file implementation
+- [`XPathFile`](XPathFile.md) - XPath file implementation 
 
 ## Constructor Summary
 
 | Constructor and Description |
 |----------------------------|
-| `CAEOutputFile(PHXScriptWrapperObject wrapper, java.io.File file)` |
-| `CAEOutputFile(PHXScriptWrapperObject wrapper, java.io.File file, FileType type)` |
+| `CAEOutputFile(`[`PHXScriptWrapperObject`](PHXScriptWrapperObject.md)` wrapper, java.io.File file)` |
+| `CAEOutputFile(`[`PHXScriptWrapperObject`](PHXScriptWrapperObject.md)` wrapper, java.io.File file, FileType type)` |
 
 ## Method Summary
 
@@ -48,10 +55,10 @@ This represents a binary output file from a CAE program such as NASTRAN or LSDyn
 |-------------------|----------------------|
 | `void` | `defineArrayVar(java.lang.String name, java.lang.String specifier)` |
 | `void` | `defineVar(java.lang.String name, java.lang.String specifier)` |
-| `protected Parser` | `newParser(java.io.File rFile, Parser.Mode pmode)`<br>Generate a new parser for the given file and mode |
+| `protected` [`Parser`](../../Parser.md) | `newParser(java.io.File rFile,` [`Parser.Mode`](../../Parser.Mode.md) `pmode)`<br>Generate a new parser for the given file and mode |
 | `void` | `parse()`<br>Parse the output file |
 | `void` | `setFileToParse(java.lang.String fileName)`<br>Set the file to parse |
-| `protected void` | `transferVars(ParseableFile.Mode mode)`<br>Transfer values for variables that have been defined using methods from the concrete implementation |
+| `protected void` | `transferVars(`[`ParseableFile.Mode`](ParseableFile.Mode.md)` mode)`<br>Transfer values for variables that have been defined using methods from the concrete implementation |
 
 ### Methods inherited from class AbstractFile
 
@@ -99,9 +106,10 @@ public void defineArrayVar(java.lang.String name,
 ```
 
 **Throws:**
-- `PHXNameAlreadyInUseException`
-- `PHXInvalidNameException`
-- `PHXInvalidTypeException`
+
+- [`PHXNameAlreadyInUseException`](../../../PHXNameAlreadyInUseException.md)
+- [`PHXInvalidNameException`](../../../PHXInvalidNameException.md)
+- [`PHXInvalidTypeException`](../../../types/PHXInvalidTypeException.md)
 
 ### defineVar
 
@@ -114,9 +122,10 @@ public void defineVar(java.lang.String name,
 ```
 
 **Throws:**
-- `PHXNameAlreadyInUseException`
-- `PHXInvalidNameException`
-- `PHXInvalidTypeException`
+
+- [`PHXNameAlreadyInUseException`](../../../PHXNameAlreadyInUseException.md)
+- [`PHXInvalidNameException`](../../../PHXInvalidNameException.md)
+- [`PHXInvalidTypeException`](../../../types/PHXInvalidTypeException.md)
 
 ### parse
 
@@ -126,7 +135,7 @@ public void parse() throws java.lang.Exception
 Parse the output file
 
 **Specified by:**
-- `parse` in interface `OutputFile2`
+- `parse` in interface [`OutputFile2`](OutputFile2.md)
 
 **Throws:**
 - `java.lang.Exception`
@@ -141,7 +150,8 @@ protected Parser newParser(java.io.File rFile,
 Generate a new parser for the given file and mode
 
 **Specified by:**
-- `newParser` in class `AbstractFile`
+
+- `newParser` in class [`AbstractFile`](AbstractFile.md)
 
 **Parameters:**
 - `rFile` - The file to open
@@ -161,18 +171,20 @@ protected void transferVars(ParseableFile.Mode mode)
                             java.lang.InstantiationException, 
                             PHXNumberFormatException
 ```
-Transfer values for variables that have been defined using methods from the concrete implementation, i.e. `PHXRowFieldFile.defineVar(String, String, boolean, String)`. Variables defined using `PHXScriptWrapperObject.addVariable(String, String, boolean)` must be explicitly transferred using methods of the concrete implementation class
+Transfer values for variables that have been defined using methods from the concrete implementation, i.e. [`PHXRowFieldFile.defineVar(String, String, boolean, String)`](PHXRowFieldFile.md). Variables defined using [`PHXScriptWrapperObject.addVariable(String, String, boolean)`](PHXScriptWrapperObject.md) must be explicitly transferred using methods of the concrete implementation class
 
 **Specified by:**
-- `transferVars` in class `AbstractFile`
+
+- `transferVars` in class [`AbstractFile`](AbstractFile.md)
 
 **Throws:**
+
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
 
 ### setFileToParse
 
@@ -182,7 +194,7 @@ public void setFileToParse(java.lang.String fileName)
 Set the file to parse
 
 **Specified by:**
-- `setFileToParse` in interface `OutputFile2`
+- `setFileToParse` in interface [`OutputFile2`](OutputFile2.md)
 
 **Parameters:**
 - `fileName` -

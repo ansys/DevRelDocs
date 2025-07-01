@@ -1,39 +1,44 @@
-======== START OF CLASS DATA ========
-com.phoenix_int.aserver.monitors
-## Interface IPHXFileCallback
-- ---
+# Interface: IPHXFileCallback
+
+**Package:** `com.phoenix_int.aserver.monitors`
+
+---
+**Declaration**
 
 ```java
 public interface IPHXFileCallback
 ```
-Callback interface to signal data available on a file being
- monitored.- ========== METHOD SUMMARY ===========
-- ### Method Summary
+
+Callback interface to signal data available on a file being monitored.
+
+## Method Summary
 
 | Modifier and Type | Method and Description |
-| --- | --- |
-| Modifier and Type | Method and Description |
-| `boolean` | `dataReady(java.lang.String data)`Called when data is ready |
-| `boolean` | `fileTruncated()`Indicates that the file was truncated back to 0 bytes. |- ============ METHOD DETAIL ==========
-- ### Method Detail
+|-------------------|----------------------|
+| `boolean` | `dataReady(java.lang.String data)`<br>Called when data is ready |
+| `boolean` | `fileTruncated()`<br>Indicates that the file was truncated back to 0 bytes. |
 
-- #### dataReady
+## Method Detail
+
+### dataReady
 
 ```java
-boolean dataReady(java.lang.String data)
+boolean dataReady(java.lang.String data)
 ```
-Called when data is ready
-**Parameters:**
-: `data`- The available data
-**Returns:**
-: true to continue monitoring, false to abort monitoring
+Called when data is ready.
 
-- #### fileTruncated
+**Parameters:**
+- `data` - The available data
+
+**Returns:**
+- `true` to continue monitoring, `false` to abort monitoring
+
+### fileTruncated
 
 ```java
-boolean fileTruncated()
+boolean fileTruncated()
 ```
 Indicates that the file was truncated back to 0 bytes.
+
 **Returns:**
-: true to continue monitoring, false to abort monitoring
-========= END OF CLASS DATA =========
+- `true` to continue monitoring, `false` to abort monitoring

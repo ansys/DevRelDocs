@@ -746,7 +746,7 @@ public void getByUrl(java.io.File destFile,
                      AnalysisServerException, 
                      java.lang.InterruptedException
 ```
-Convenience overload of `getByUrl(File, String, String, boolean)`. Calls that getByUrl with a blank fullPropertyName parameter. Get a file by URL.
+Convenience overload of `getByUrl(File, String, String, boolean)`. Calls that `getByUrl` with a blank `fullPropertyName` parameter. Get a file by URL.
 
 **Parameters:**
 - `destFile` – the file to write with the results
@@ -965,7 +965,7 @@ Set the value of a property.
 
 **Parameters:**
 - `fullPropertyName` – the full property name
-- `value` – the value to set (if this is a`File`or (`@link PHXTempFile`), [set(java.lang.String, java.io.File)](../../../../../com/phoenix_int/aserver/client/v2/AnalysisServerClient.html#set-java.lang.String-java.io.File-) will be called automatically
+- `value` – the value to set (if this is a`File`or (`@link PHXTempFile`), set(java.lang.String, java.io.File) will be called automatically)
 
 **Throws:**
 - `java.lang.IllegalStateException` – if the server is not connected
@@ -994,9 +994,6 @@ Set a file variable on the server.
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - if there is an error talking to the server or reading from the file
 - `java.lang.UnsupportedOperationException` - if the server does not support file transfer
-
-
-
 ### setAsync
 
 ```java
@@ -1020,9 +1017,6 @@ Set a file variable on the server.
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - if there is an error talking to the server or reading from the file
 - `java.lang.UnsupportedOperationException` - if the server does not support file transfer
-
-
-
 ### set
 
 ```java
@@ -1046,9 +1040,6 @@ Set a file variable on the server.
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 - `java.lang.UnsupportedOperationException` - if the server does not support binary transfer
-
-
-
 ### set
 
 ```java
@@ -1074,9 +1065,6 @@ Set a file variable on the server.
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 - `java.lang.UnsupportedOperationException` - if the server does not support binary transfer
-
-
-
 ### getVersionHistoryAsync
 
 ```java
@@ -1094,9 +1082,6 @@ Get the version history of an analysis.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### getVersionHistory
 
 ```java
@@ -1119,9 +1104,6 @@ Get the version history of an analysis.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### describeAsync
 
 ```java
@@ -1139,9 +1121,6 @@ Get the description history of an analysis.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### describe
 
 ```java
@@ -1164,9 +1143,6 @@ Get the description of an analysis.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### listPropertiesAsync
 
 ```java
@@ -1184,9 +1160,6 @@ List the properties of an analysis.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### listProperties
 
 ```java
@@ -1209,9 +1182,6 @@ List the properties of an analysis.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### listMethodsAsync
 
 ```java
@@ -1229,9 +1199,6 @@ List the methods of an analysis.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### listMethods
 
 ```java
@@ -1254,9 +1221,6 @@ List the methods of an analysis.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### invokeAsync
 
 ```java
@@ -1276,9 +1240,6 @@ Invoke a method on a component instance.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### invoke
 
 ```java
@@ -1303,9 +1264,6 @@ Invoke a method on a component instance.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### listValuesAsync
 
 ```java
@@ -1323,9 +1281,6 @@ List the values of an analysis.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### listValues
 
 ```java
@@ -1348,9 +1303,6 @@ List the values of an analysis.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### listFoldersAsync
 
 ```java
@@ -1368,9 +1320,6 @@ List the sub-folders of a folder on the server.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### listFolders
 
 ```java
@@ -1393,9 +1342,6 @@ List the sub-folders of a folder on the server.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### listInstancesAsync
 
 ```java
@@ -1411,9 +1357,6 @@ List running instances on the server.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### listInstances
 
 ```java
@@ -1433,9 +1376,6 @@ List running instances on the server.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### getHierarchyAsync
 
 ```java
@@ -1455,9 +1395,6 @@ Get the variable hierarchy of a running instance.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### getHierarchy
 
 ```java
@@ -1482,9 +1419,6 @@ Get the variable hierarchy of a running instance.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### setHierarchyAsync
 
 ```java
@@ -1503,9 +1437,6 @@ Set the variable hierarchy of a running instance.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### setHierarchy
 
 ```java
@@ -1527,9 +1458,6 @@ Set the variable hierarchy of a running instance.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### setHierarchyAsync
 
 ```java
@@ -1552,9 +1480,6 @@ Set the variable hierarchy of a running instance.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### setHierarchy
 
 ```java
@@ -1580,9 +1505,6 @@ Set the variable hierarchy of a running instance.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### deleteRunShareAsync
 
 ```java
@@ -1599,9 +1521,6 @@ Delete a run share.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### deleteRunShare
 
 ```java
@@ -1621,9 +1540,6 @@ Delete a run share.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### getIconAsync
 
 ```java
@@ -1640,9 +1556,6 @@ Retrieve an icon.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### getIcon
 
 ```java
@@ -1665,9 +1578,6 @@ Retrieve an icon.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### setServerPropertiesAsync
 
 ```java
@@ -1684,9 +1594,6 @@ Set server properties.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### setServerProperties
 
 ```java
@@ -1706,9 +1613,6 @@ Set server properties.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### getSystemPropertyAsync
 
 ```java
@@ -1726,9 +1630,6 @@ Request for the server's system property.
 **Throws:**
 - `java.lang.IllegalStateException` - if the server is not connected
 - `java.io.IOException` - on communications error
-
-
-
 ### getSystemProperty
 
 ```java
@@ -1751,9 +1652,6 @@ Request for the server's system property.
 - `java.io.IOException` - if there is an error talking to the server
 - `AnalysisServerException` - if the request fails
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
-
-
-
 ### getScratchDirectoryAsync
 
 ```java

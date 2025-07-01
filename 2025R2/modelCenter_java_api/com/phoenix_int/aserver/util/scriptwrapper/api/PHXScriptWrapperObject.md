@@ -86,8 +86,8 @@ Publicizes a method to our clients. There must be a method defined in the script
 
 **Throws:**
 
-- `PHXNameAlreadyInUseException`
-- `PHXInvalidNameException`
+- [`PHXNameAlreadyInUseException`](../../PHXNameAlreadyInUseException.md)
+- [`PHXInvalidNameException`](../../PHXInvalidNameException.md)
 
 ### addMethod
 
@@ -106,8 +106,8 @@ Publicizes a method to our clients. There must be a method defined in the script
 
 **Throws:**
 
-- `PHXNameAlreadyInUseException`
-- `PHXInvalidNameException`
+- [`PHXNameAlreadyInUseException`](../../PHXNameAlreadyInUseException.md)
+- [`PHXInvalidNameException`](../../PHXInvalidNameException.md)
 
 ### addMethod
 
@@ -126,8 +126,8 @@ Publicizes a method to our clients. There must be a method defined in the script
 
 **Throws:**
 
-- `PHXNameAlreadyInUseException`
-- `PHXInvalidNameException`
+- [`PHXNameAlreadyInUseException`](../../PHXNameAlreadyInUseException.md)
+- [`PHXInvalidNameException`](../../PHXInvalidNameException.md)
 
 ### addMethod
 
@@ -148,8 +148,8 @@ Publicizes a method to our clients. There must be a method defined in the script
 
 **Throws:**
 
-- `PHXNameAlreadyInUseException`
-- `PHXInvalidNameException`
+- [`PHXNameAlreadyInUseException`](../../PHXNameAlreadyInUseException.md)
+- [`PHXInvalidNameException`](../../PHXInvalidNameException.md)
 
 ### addVariable
 
@@ -172,7 +172,7 @@ Adds a variable to this component. Returns a reference to the new variable. Vali
 | geometry | geom | PHXGeometry |
 | file |  | PHXRawFile |
 
-All types except `PHXGeometry` and `PHXRawFile` may be made into arrays by adding [] at the end of the type string. In that case, the associated `PHX<type>Array` class is used to represent a resizable, multi-dimensional array.
+All types except `PHXGeometry` and `PHXRawFile` may be made into arrays by adding `[]` at the end of the type string. In that case, the associated `PHX<type>Array` class is used to represent a resizable, multi-dimensional array.
 
 **Parameters:**
 
@@ -182,9 +182,9 @@ All types except `PHXGeometry` and `PHXRawFile` may be made into arrays by addin
 
 **Throws:**
 
-- `PHXNameAlreadyInUseException` - Thrown if there is already a variable by that name.
-- `PHXInvalidNameException` - Thrown if the name uses invalid characters like space.
-- `PHXInvalidTypeException` - Thrown if the type string is not understood
+- [`PHXNameAlreadyInUseException`](../../PHXNameAlreadyInUseException.md) - Thrown if there is already a variable by that name.
+- [`PHXInvalidNameException`](../../PHXInvalidNameException.md) - Thrown if the name uses invalid characters like space.
+- [`PHXInvalidTypeException`](../../../types/PHXInvalidTypeException.md) - Thrown if the type string is not understood
 
 ### getVariable
 
@@ -196,7 +196,7 @@ Returns a reference to the named variable.
 
 **Throws:**
 
-- `PHXNoSuchObjectException`
+- [`PHXNoSuchObjectException`](../../PHXNoSuchObjectException.md)
 
 ### removeVariable
 
@@ -208,7 +208,7 @@ Dynamically removes a variable from this component
 
 **Throws:**
 
-- `PHXNoSuchObjectException`
+- [`PHXNoSuchObjectException`](../../PHXNoSuchObjectException.md)
 
 ### addConsoleVariables
 
@@ -221,9 +221,9 @@ public void addConsoleVariables()
 
 **Throws:**
 
-- `PHXNameAlreadyInUseException`
-- `PHXInvalidNameException`
-- `PHXInvalidTypeException`
+- [`PHXNameAlreadyInUseException`](../../PHXNameAlreadyInUseException.md)
+- [`PHXInvalidNameException`](../../PHXInvalidNameException.md)
+- [`PHXInvalidTypeException`](../../../types/PHXInvalidTypeException.md)
 
 ### updateConsoleVariables
 
@@ -234,7 +234,7 @@ public void updateConsoleVariables()
 
 **Throws:**
 
-- `PHXNoSuchObjectException`
+- [`PHXNoSuchObjectException`](../../PHXNoSuchObjectException.md)
 
 ### getDirectory
 
@@ -248,7 +248,7 @@ Returns the directory where this component was loaded from
 ```java
 public PHXRunShareContext getRunShare()
 ```
-Returns the PHXRunShareContext object used for process control and monitoring with this component
+Returns the [`PHXRunShareContext`](PHXRunShareContext.md) object used for process control and monitoring with this component
 
 ### getRunDirectory
 
@@ -308,8 +308,8 @@ Make a given file variable binary
 
 **Throws:**
 
-- `PHXInvalidTypeException`
-- `PHXNoSuchObjectException`
+- [`PHXInvalidTypeException`](../../../types/PHXInvalidTypeException.md)
+- [`PHXNoSuchObjectException`](../../PHXNoSuchObjectException.md)
 
 ### writeFile
 
@@ -329,8 +329,8 @@ Write the given file variable out to the specified file
 
 **Throws:**
 
-- `PHXInvalidTypeException`
-- `PHXNoSuchObjectException`
+- [`PHXInvalidTypeException`](../../../types/PHXInvalidTypeException.md)
+- [`PHXNoSuchObjectException`](../../PHXNoSuchObjectException.md)
 - `java.io.IOException`
 
 ### parseFile
@@ -352,8 +352,8 @@ Read the given file variable from the specified file
 
 **Throws:**
 
-- `PHXInvalidTypeException`
-- `PHXNoSuchObjectException`
+- [`PHXInvalidTypeException`](../../../types/PHXInvalidTypeException.md)
+- [`PHXNoSuchObjectException`](../../PHXNoSuchObjectException.md)
 - `java.io.IOException`
 
 ### deleteFile
@@ -374,8 +374,8 @@ Deletes the given file variable's file
 
 **Throws:**
 
-- `PHXInvalidTypeException`
-- `PHXNoSuchObjectException`
+- [`PHXInvalidTypeException`](../../../types/PHXInvalidTypeException.md)
+- [`PHXNoSuchObjectException`](../../PHXNoSuchObjectException.md)
 - `java.io.IOException`
 
 ### backupFile
@@ -396,8 +396,8 @@ Backup the file on disk. File is at the same location with ".bac" appended to th
 
 **Throws:**
 
-- `PHXInvalidTypeException`
-- `PHXNoSuchObjectException`
+- [`PHXInvalidTypeException`](../../../types/PHXInvalidTypeException.md)
+- [`PHXNoSuchObjectException`](../../PHXNoSuchObjectException.md)
 - `java.io.IOException`
 
 ### defaultExecutableMapping
@@ -434,7 +434,7 @@ Verifies we're running a compatible version of ModelCenter Remote Execution
 
 **Throws:**
 
-- `PHXVersionException`
+- [`PHXVersionException`](PHXVersionException.md)
 
 ### addAutoClose
 

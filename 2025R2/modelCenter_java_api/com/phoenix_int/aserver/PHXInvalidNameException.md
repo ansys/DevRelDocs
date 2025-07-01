@@ -58,21 +58,7 @@ public static void checkName(java.lang.String name)
 ```
 Checks a name to see if it's valid.
 
-**Parameters:**
-- `name` - the name to check
-
-**Throws:**
-- `PHXInvalidNameException` - thrown if the name is invalid, i.e. has invalid characters.
-
-### checkGroup
-```java
-public static void checkGroup(java.lang.String name)
-    throws PHXInvalidNameException
-```
-Checks a name to see if it's valid. The name should be in the form "xxx.xxxxx.xxxx".
-
-**Parameters:**
-- `name` - the name to check
-
-**Throws:**
-- `PHXInvalidNameException` - thrown if the name is invalid, i.e. has invalid characters.
+### See Also
+- [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md)
+- [`PHXGroup`](PHXGroup.md)
+- [`PHXSimpleSelfManager`](PHXSimpleSelfManager.md)

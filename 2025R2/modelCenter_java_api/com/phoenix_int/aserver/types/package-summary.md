@@ -1,90 +1,59 @@
 # Package com.phoenix_int.aserver.types
+
 Provides a collection of basic data types that contain meta-information
 like description and units.
-See:Description
-- | Interface | Description |
+
+## Interface Summary
+
+| Interface | Description |
 | --- | --- |
-| [IPHXDescription](../../../../com/phoenix_int/aserver/types/IPHXDescription.html) | Interface for types with descriptions |
-| [IPHXFormat](../../../../com/phoenix_int/aserver/types/IPHXFormat.html) | Interface for variables that support formats |
-| [IPHXRefPropInfo](../../../../com/phoenix_int/aserver/types/IPHXRefPropInfo.html) | This interface provides information about a reference property:**name**: String**type**: String**enumValues**: String[]**description**: String**title**: String**input**: boolean
- 
+| [IPHXDescription](IPHXDescription.md) | Interface for types with descriptions |
+| [IPHXFormat](IPHXFormat.md) | Interface for variables that support formats |
+| [IPHXRefPropInfo](IPHXRefPropInfo.md) | This interface provides information about a reference property: **name**: String **type**: String **enumValues**: String[] **description**: String **title**: String **input**: boolean, where `type` may be any of the following: "long", "double", "boolean", "string" |
+| [IPHXType](IPHXType.md) | The interface for all Phoenix types. |
+| [IPHXType2](IPHXType2.md) | The interface for Phoenix types which use PHXStringBuffer instead of String for performance. |
+| [IPHXType2.IVisitor](IPHXType2.IVisitor.md)<T> | The interface of a visitor into an IPHXType2. |
+| [IPHXUnits](IPHXUnits.md) | Interface for PHX variables that support units |
 
- where type may be any of the following:
+## Class Summary
 
- 
- "long"
- "double"
- "boolean"
- "string" |
-| [IPHXType](../../../../com/phoenix_int/aserver/types/IPHXType.html) | The interface for all Phoenix types. |
-| [IPHXType2](../../../../com/phoenix_int/aserver/types/IPHXType2.html) | The interface for Phoenix types which use PHXStringBuffer instead of String for performance. |
-| [IPHXType2.IVisitor](../../../../com/phoenix_int/aserver/types/IPHXType2.IVisitor.html)<T> | The interface of a visitor into an IPHXType2. |
-| [IPHXUnits](../../../../com/phoenix_int/aserver/types/IPHXUnits.html) | Interface for PHX variables that support units |
-- | Class | Description |
+| Class | Description |
 | --- | --- |
-| [PHXAppearance](../../../../com/phoenix_int/aserver/types/PHXAppearance.html) | This is a utility class for holding appearance properties. |
-| [PHXBoolean](../../../../com/phoenix_int/aserver/types/PHXBoolean.html) | The Phoenix type for booleans. |
-| [PHXBooleanArray](../../../../com/phoenix_int/aserver/types/PHXBooleanArray.html) | Class wraps an array of PHXBoolean variables
- for the ScriptWrapper utility. |
-| [PHXDataCollector](../../../../com/phoenix_int/aserver/types/PHXDataCollector.html) | A class for Driver Components to tell ModelCenter what to do with the
- DataCollector while the component is running. |
-| [PHXDouble](../../../../com/phoenix_int/aserver/types/PHXDouble.html) | The Phoenix type for doubles. |
-| [PHXDoubleArray](../../../../com/phoenix_int/aserver/types/PHXDoubleArray.html) | Class wraps an array of PHXDouble variables
- for the ScriptWrapper utility. |
-| [PHXFile](../../../../com/phoenix_int/aserver/types/PHXFile.html) | Deprecated |
-| [PHXGeometry](../../../../com/phoenix_int/aserver/types/PHXGeometry.html) | The Phoenix type for geometry. |
-| [PHXGeomInfo](../../../../com/phoenix_int/aserver/types/PHXGeomInfo.html) | this is a utility class that mirrors the structures in ModelCenter. |
-| [PHXInteger](../../../../com/phoenix_int/aserver/types/PHXInteger.html) | Deprecated |
-| [PHXLong](../../../../com/phoenix_int/aserver/types/PHXLong.html) | The Phoenix type for longs. |
-| [PHXLongArray](../../../../com/phoenix_int/aserver/types/PHXLongArray.html) | Class wraps an array of PHXLong variables
- for the ScriptWrapper utility. |
-| [PHXMassProperties](../../../../com/phoenix_int/aserver/types/PHXMassProperties.html) | This is a utility class for holding mass property information. |
-| [PHXObjectArray](../../../../com/phoenix_int/aserver/types/PHXObjectArray.html) | Placeholder for an array of any random Java Object. |
-| [PHXOrientation](../../../../com/phoenix_int/aserver/types/PHXOrientation.html) | This is a utility class for holding orientation information. |
-| [PHXRawFile](../../../../com/phoenix_int/aserver/types/PHXRawFile.html) | The Phoenix type for Files. |
-| [PHXRawFileArray](../../../../com/phoenix_int/aserver/types/PHXRawFileArray.html) | Wraps an array of PHXRawFile variables
- for the ScriptWrapper utility. |
-| [PHXRefArrayProperty](../../../../com/phoenix_int/aserver/types/PHXRefArrayProperty.html) | This is a class for holding properties of a reference
- object**type**: String**enumValues**: String[]**description**: String**title**: String**input**: boolean
- 
+| [PHXAppearance](PHXAppearance.md) | This is a utility class for holding appearance properties. |
+| [PHXBoolean](PHXBoolean.md) | The ModelCenter type for booleans. |
+| [PHXBooleanArray](PHXBooleanArray.md) | Class wraps an array of PHXBoolean variables for the ScriptWrapper utility. |
+| [PHXDataCollector](PHXDataCollector.md) | A class for Driver Components to tell ModelCenter what to do with the DataCollector while the component is running. |
+| [PHXDouble](PHXDouble.md) | The ModelCenter type for doubles. |
+| [PHXDoubleArray](PHXDoubleArray.md) | Class wraps an array of PHXDouble variables for the ScriptWrapper utility. |
+| [PHXFile](PHXFile.md) | Deprecated |
+| [PHXGeometry](PHXGeometry.md) | The ModelCenter type for geometry. |
+| [PHXGeomInfo](PHXGeomInfo.md) | this is a utility class that mirrors the structures in ModelCenter. |
+| [PHXInteger](PHXInteger.md) | Deprecated |
+| [PHXLong](PHXLong.md) | The ModelCenter type for longs. |
+| [PHXLongArray](PHXLongArray.md) | Class wraps an array of PHXLong variables for the ScriptWrapper utility. |
+| [PHXMassProperties](PHXMassProperties.md) | This is a utility class for holding mass property information. |
+| [PHXObjectArray](PHXObjectArray.md) | Placeholder for an array of any random Java Object. |
+| [PHXOrientation](PHXOrientation.md) | This is a utility class for holding orientation information. |
+| [PHXRawFile](PHXRawFile.md) | The ModelCenter type for Files. |
+| [PHXRawFileArray](PHXRawFileArray.md) | Wraps an array of PHXRawFile variables for the ScriptWrapper utility. |
+| [PHXRefArrayProperty](PHXRefArrayProperty.md) | This is a class for holding properties of a reference object **type**: String **enumValues**: String[] **description**: String **title**: String **input**: boolean, where `type` may be any of the following: "long", "double", "boolean", "string" |
+| [PHXReference](PHXReference.md) | The ModelCenter type for references. |
+| [PHXReferenceArray](PHXReferenceArray.md) | The ModelCenter type for references. |
+| [PHXRefProperty](PHXRefProperty.md) | This is a class for holding properties of a reference object **type**: String  **enumValues**: String[]**description**: String **title**: String **input**: boolean, where `type` may be any of the following: "long", "double", "boolean", "string" |
+| [PHXScriptObject](PHXScriptObject.md) | The PHX type for object variables. |
+| [PHXSimpleArray](PHXSimpleArray.md)<T extends [PHXSimpleType](PHXSimpleType.md)> | This class enables components to create resizeable arrays where the number of dimensions is variable as well as the size of each dimension. |
+| [PHXSimpleType](PHXSimpleType.md) | A base class for most Phoenix data types. |
+| [PHXString](PHXString.md) | The ModelCenter type for Strings. |
+| [PHXStringArray](PHXStringArray.md) | Class wraps an array of PHXString variables for the ScriptWrapper utility. |
+| [PHXTypeFactory](PHXTypeFactory.md) | A class for creating variables |
 
- where type may be any of the following:
+## Exception Description
 
- 
- "long"
- "double"
- "boolean"
- "string" |
-| [PHXReference](../../../../com/phoenix_int/aserver/types/PHXReference.html) | The Phoenix type for references. |
-| [PHXReferenceArray](../../../../com/phoenix_int/aserver/types/PHXReferenceArray.html) | The Phoenix type for references. |
-| [PHXRefProperty](../../../../com/phoenix_int/aserver/types/PHXRefProperty.html) | This is a class for holding properties of a reference
- object**type**: String**enumValues**: String[]**description**: String**title**: String**input**: boolean
- 
-
- where type may be any of the following:
-
- 
- "long"
- "double"
- "boolean"
- "string" |
-| [PHXScriptObject](../../../../com/phoenix_int/aserver/types/PHXScriptObject.html) | The PHX type for object variables. |
-| [PHXSimpleArray](../../../../com/phoenix_int/aserver/types/PHXSimpleArray.html)<T extends[PHXSimpleType](../../../../com/phoenix_int/aserver/types/PHXSimpleType.html)> | This class enables components to create resizeable
- arrays where the number of dimensions is variable
- as well as the size of each dimension. |
-| [PHXSimpleType](../../../../com/phoenix_int/aserver/types/PHXSimpleType.html) | A base class for most Phoenix data types. |
-| [PHXString](../../../../com/phoenix_int/aserver/types/PHXString.html) | The Phoenix type for Strings. |
-| [PHXStringArray](../../../../com/phoenix_int/aserver/types/PHXStringArray.html) | Class wraps an array of PHXString variables
- for the ScriptWrapper utility. |
-| [PHXTypeFactory](../../../../com/phoenix_int/aserver/types/PHXTypeFactory.html) | A class for creating variables |
-- | Exception | Description |
+| Exception | Description |
 | --- | --- |
-| [PHXInvalidTypeException](../../../../com/phoenix_int/aserver/types/PHXInvalidTypeException.html) | An exception that is thrown when trying to use a bad type |
-| [PHXNumberFormatException](../../../../com/phoenix_int/aserver/types/PHXNumberFormatException.html) | Like a NumberFormatException except that it isn't a runtime exception
- and must be caught |
-| [PHXTypeMismatchException](../../../../com/phoenix_int/aserver/types/PHXTypeMismatchException.html) | An exception thrown when trying to set a value using an incompatible type, or when trying to 
- compare two values of incompatible types |
+| [PHXInvalidTypeException](PHXInvalidTypeException.md) | An exception that is thrown when trying to use a bad type |
+| [PHXNumberFormatException](PHXNumberFormatException.md) | Like a NumberFormatException except that it isn't a runtime exception and must be caught |
+| [PHXTypeMismatchException](PHXTypeMismatchException.md) | An exception thrown when trying to set a value using an incompatible type, or when trying to  compare two values of incompatible types |
 
 ## Package com.phoenix_int.aserver.types Description
-Provides a collection of basic data types that contain meta-information
-like description and units.Put @see and @since tags down here.
+Provides a collection of basic data types that contain meta-information like description and units.

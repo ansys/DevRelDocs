@@ -3,13 +3,13 @@
 **Package:** `com.phoenix_int.aserver`
 
 **Superinterfaces**
-- `IPHXSelfManager`
+- [`IPHXSelfManager`](IPHXSelfManager.md)
 
 **Known Subinterfaces**
-- `IPHXSelfManager3`
+- [`IPHXSelfManager3`](IPHXSelfManager3.md)
 
 **Known Implementing Classes**
-- `PHXSimpleSelfManager2`, `PHXSimpleSelfManager3`
+- [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md), [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md)
 
 **Declaration**
 ```java
@@ -17,7 +17,7 @@ public interface IPHXSelfManager2
     extends IPHXSelfManager
 ```
 
-This interface extends IPHXSelfManager and provides new get and set functions which provide better performance than the original.
+This interface extends [`IPHXSelfManager`](IPHXSelfManager.md) and provides new get and set functions which provide better performance than the original.
 
 **See Also:**
 - `IPHXSelfManager`

@@ -27,7 +27,7 @@ extends java.lang.Exception
 An exception that is thrown when an object cannot be found.
 
 **See Also:**
-- [Serialized Form](../../../../serialized-form.html#com.phoenix_int.aserver.util.PHXNoSuchTokenException)
+- [Serialized Form](../../../../serialized-form.md)
 
 ## Constructor Summary
 

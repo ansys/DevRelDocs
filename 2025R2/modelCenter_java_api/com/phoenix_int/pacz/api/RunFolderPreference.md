@@ -17,7 +17,7 @@
 
 **Deprecated.**
 
-See `com.phoenix_int.pacz.api.v2.RunFolderPreferece`
+See [`com.phoenix_int.pacz.api.v2.RunFolderPreferece`](v2/RunFolderPreference.md)
 
 ```java
 @Deprecated
