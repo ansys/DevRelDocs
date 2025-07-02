@@ -29,7 +29,7 @@ public class PHXGeometry
 extends PHXSimpleType
 ```
 
-The ModelCenter type for geometry. This class has the following properties:
+The type for geometry. This class has the following properties:
 
 - **data**: String - a String representation of the data
 - **format**: String - the type of data
@@ -39,7 +39,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
 
 **See Also:**
 
-[`PHXSimpleType`](../../../../com/phoenix_int/aserver/types/PHXSimpleType.html)- 
+[`PHXSimpleType`](PHXSimpleType.md) 
 
 ## Nested Class Summary
 

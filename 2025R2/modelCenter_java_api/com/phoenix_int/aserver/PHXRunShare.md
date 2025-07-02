@@ -102,7 +102,7 @@ This option performs no run sharing. This means that when two users attempt to r
 
 **See Also:**
 
-[`Constant Field Values`](../../../constant-values.html#com.phoenix_int.aserver.PHXRunShare.MODE_NONE)
+[`Constant Field Values`](../../../constant-values.md)
 
 ### MODE_ERROR
 ```
@@ -112,7 +112,7 @@ When a user tries to run a component that is already running, this option genera
 
 **See Also:**
 
-[`Constant Field Values`](../../../constant-values.html#com.phoenix_int.aserver.PHXRunShare.MODE_ERROR)
+[`Constant Field Values`](../../../constant-values.md#com.phoenix_int.aserver.PHXRunShare.MODE_ERROR)
 
 ### MODE_WAIT
 ```
@@ -122,7 +122,7 @@ When the component is running, this option ensures that no one else will be able
 
 **See Also:**
 
-[`Constant Field Values`](../../../constant-values.html#com.phoenix_int.aserver.PHXRunShare.MODE_WAIT)
+[`Constant Field Values`](../../../constant-values.md#com.phoenix_int.aserver.PHXRunShare.MODE_WAIT)
 
 ### MODE_SHARE
 ```
@@ -132,7 +132,7 @@ When two or more users attempt to run a component simultaneously, the FileWrappe
 
 **See Also:**
 
-[`Constant Field Values`](../../../constant-values.html#com.phoenix_int.aserver.PHXRunShare.MODE_SHARE)
+[`Constant Field Values`](../../../constant-values.md#com.phoenix_int.aserver.PHXRunShare.MODE_SHARE)
 
 ### DEL_AUTO
 ```
@@ -142,7 +142,7 @@ delete the directory only if an error did not occur while running the wrapper. I
 
 **See Also:**
 
-[`Constant Field Values`](../../../constant-values.html#com.phoenix_int.aserver.PHXRunShare.DEL_AUTO)
+[`Constant Field Values`](../../../constant-values.md#com.phoenix_int.aserver.PHXRunShare.DEL_AUTO)
 
 ### DEL_FALSE
 ```
@@ -152,7 +152,7 @@ do not delete the directory.
 
 **See Also:**
 
-[`Constant Field Values`](../../../constant-values.html#com.phoenix_int.aserver.PHXRunShare.DEL_FALSE)
+[`Constant Field Values`](../../../constant-values.md#com.phoenix_int.aserver.PHXRunShare.DEL_FALSE)
 
 ### DEL_TRUE
 ```
@@ -162,7 +162,7 @@ delete the directory.
 
 **See Also:**
 
-[`Constant Field Values`](../../../constant-values.html#com.phoenix_int.aserver.PHXRunShare.DEL_TRUE)
+[`Constant Field Values`](../../../constant-values.md#com.phoenix_int.aserver.PHXRunShare.DEL_TRUE)
 
 ## Constructor Detail
 
@@ -397,14 +397,14 @@ Runs a command. Command may be relative to the run directory, see getDirectory()
 
 This function will not return until the sub-process has finished. It will collect stdout and stderr and provide progress monitors.
 
-If the command is halted (via [`halt()`](../../../com/phoenix_int/aserver/PHXRunShare.html#halt--) or [`timeout()`](../../../com/phoenix_int/aserver/PHXRunShare.html#timeout--)) and `ignoreError` is `false`, this method will throw a [`ProcessHaltedException`](../../../com/phoenix_int/aserver/ProcessHaltedException.html "class in com.phoenix_int.aserver").
+If the command is halted (via [`halt()`](../../../com/phoenix_int/aserver/PHXRunShare.md#halt--) or [`timeout()`](../../../com/phoenix_int/aserver/PHXRunShare.md#timeout--)) and `ignoreError` is `false`, this method will throw a [`ProcessHaltedException`](../../../com/phoenix_int/aserver/ProcessHaltedException.md "class in com.phoenix_int.aserver").
 
 **Parameters:**
 - `cmd` - The command to run.
 
 **Throws:**
 - `java.io.IOException` - Either the command cannot be executed, or an I/O error occurred while reading standard error or standard out from the command
-- [`ProcessHaltedException`](../../../com/phoenix_int/aserver/ProcessHaltedException.html "class in com.phoenix_int.aserver") - The running script was halted via the [`halt()`](../../../com/phoenix_int/aserver/PHXRunShare.html#halt--) or [`timeout()`](../../../com/phoenix_int/aserver/PHXRunShare.html#timeout--).
+- [`ProcessHaltedException`](../../../com/phoenix_int/aserver/ProcessHaltedException.md "class in com.phoenix_int.aserver") - The running script was halted via the [`halt()`](../../../com/phoenix_int/aserver/PHXRunShare.md#halt--) or [`timeout()`](../../../com/phoenix_int/aserver/PHXRunShare.md#timeout--).
 - `java.lang.Exception`
 
 ### run

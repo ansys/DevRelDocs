@@ -3,26 +3,26 @@
 **Package:** `com.phoenix_int.aserver.types`
 
 **All Known Subinterfaces:**
-- [IRuntimeVariable](../../../../com/phoenix_int/pacz/api/v2/IRuntimeVariable.html)
+- [IRuntimeVariable](../../pacz/api/v2/IRuntimeVariable.md)
 
 **All Known Implementing Classes:**
-- [PHXBoolean](../../../../com/phoenix_int/aserver/types/PHXBoolean.html)
-- [PHXBooleanArray](../../../../com/phoenix_int/aserver/types/PHXBooleanArray.html)
-- [PHXDouble](../../../../com/phoenix_int/aserver/types/PHXDouble.html)
-- [PHXDoubleArray](../../../../com/phoenix_int/aserver/types/PHXDoubleArray.html)
-- [PHXFile](../../../../com/phoenix_int/aserver/types/PHXFile.html)
-- [PHXGeometry](../../../../com/phoenix_int/aserver/types/PHXGeometry.html)
-- [PHXInteger](../../../../com/phoenix_int/aserver/types/PHXInteger.html)
-- [PHXLong](../../../../com/phoenix_int/aserver/types/PHXLong.html)
-- [PHXLongArray](../../../../com/phoenix_int/aserver/types/PHXLongArray.html)
-- [PHXObjectArray](../../../../com/phoenix_int/aserver/types/PHXObjectArray.html)
-- [PHXRawFile](../../../../com/phoenix_int/aserver/types/PHXRawFile.html)
-- [PHXRawFileArray](../../../../com/phoenix_int/aserver/types/PHXRawFileArray.html)
-- [PHXScriptObject](../../../../com/phoenix_int/aserver/types/PHXScriptObject.html)
-- [PHXSimpleArray](../../../../com/phoenix_int/aserver/types/PHXSimpleArray.html)
-- [PHXSimpleType](../../../../com/phoenix_int/aserver/types/PHXSimpleType.html)
-- [PHXString](../../../../com/phoenix_int/aserver/types/PHXString.html)
-- [PHXStringArray](../../../../com/phoenix_int/aserver/types/PHXStringArray.html)
+- [PHXBoolean](PHXBoolean.md)
+- [PHXBooleanArray](PHXBooleanArray.md)
+- [PHXDouble](PHXDouble.md)
+- [PHXDoubleArray](PHXDoubleArray.md)
+- [PHXFile](PHXFile.md)
+- [PHXGeometry](PHXGeometry.md)
+- [PHXInteger](PHXInteger.md)
+- [PHXLong](PHXLong.md)
+- [PHXLongArray](PHXLongArray.md)
+- [PHXObjectArray](PHXObjectArray.md)
+- [PHXRawFile](PHXRawFile.md)
+- [PHXRawFileArray](PHXRawFileArray.md)
+- [PHXScriptObject](PHXScriptObject.md)
+- [PHXSimpleArray](PHXSimpleArray.md)
+- [PHXSimpleType](PHXSimpleType.md)
+- [PHXString](PHXString.md)
+- [PHXStringArray](PHXStringArray.md)
 
 ---
 
