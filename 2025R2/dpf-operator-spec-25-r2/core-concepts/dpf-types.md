@@ -144,9 +144,9 @@ In the DPF ecosystem this is called ``scoping`` the data, and is managed with ``
 
 A ``scoping`` describes a typed list of IDs. 
 
-It enables selection/filtering of data when given as input to operators, or data description when produced as output.
+It allows you to select and filter data when given as input to operators, or data description when produced as output.
 
-Each ``field`` data storage type has a ``scoping`` associated to it, describing the subset of its ``support`` that the data applies to. The data in a ``field`` is ordered the same way as the IDs in the ``scoping``. It thus also allows for reordering of the data.
+Each ``field`` data storage type has a ``scoping`` associated to it, describing the subset of its ``support`` that the data applies to. The data in a ``field`` is ordered the same way as the IDs in the ``scoping``, allowing you to reorder the data.
 
 It has a ``location``, which defines the type of entity the IDs apply to (nodes, elements, time-steps, parts...), and a list of ``ids``.
 
@@ -154,19 +154,19 @@ It has a ``location``, which defines the type of entity the IDs apply to (nodes,
 
 <a id="data storage"></a>
 
-The following DPF types allow to store and describe data.
+The following DPF types allow you to store and describe data.
 
 #### Data map
 
 <a id="generic-data-container"></a>
 
-The ``generic_data_container`` allows to store any type known to DPF as a property with a given name.
+The ``generic_data_container`` allows you to store any type known to DPF as a property with a given name.
 
 #### Data tree
 
 <a id="data-tree"></a>
 
-The ``data_tree`` allows to store DPF known types as named attributes of a data tree with sub-trees.
+The ``data_tree`` allows you to store DPF known types as named attributes of a data tree with sub-trees.
 
 #### Data arrays
 
@@ -204,9 +204,9 @@ The ``custom_type_field`` represents an array of values of a custom type as defi
 
 <a id="collections"></a>
 
-DPF allows to group DPF types in labeled collections.
+DPF allows you to group DPF types in labeled collections.
 
-A DPF ``collection`` has a set of associated labels, for which each entry has a value, allowing to distinguish between entries and retrieve them. 
+A DPF ``collection`` has a set of associated labels, for which each entry has a value. This allows you to distinguish between entries and retrieve them. 
 
 #### Label space
 <a id="label-space"></a>
