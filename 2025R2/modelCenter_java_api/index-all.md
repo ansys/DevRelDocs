@@ -1,0 +1,2175 @@
+# A
+- **absoluteEndRow(IPHXLineStore, Vector, Vector)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **absoluteStartRow(IPHXLineStore, Vector, Vector)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)<br> Returns the actual starting row number
+- **AbstractFile** - Class in [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> Common implementation for files (not file variables) used in script wrappers.
+- **AbstractFile(File, ParseableFile.Mode)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> Pre-QuickWrap [PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md) constructor did not have a [PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md) argument.
+- **AbstractFile(PHXScriptWrapperObject, ParseableFile.Mode)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> 
+- **AbstractFile(PHXScriptWrapperObject, File, ParseableFile.Mode)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> 
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in interface [com.phoenix_int.aserver.types.IPHXType2](com/phoenix_int/aserver/types/IPHXType2.md)<br> Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md)<br> Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXBooleanArray](com/phoenix_int/aserver/types/PHXBooleanArray.md)<br> Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br>Deprecated.<br>Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXObjectArray](com/phoenix_int/aserver/types/PHXObjectArray.md)<br> Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)<br> Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> Accept a Visitor.
+- **Accept(IPHXType2.IVisitor`<T>`)** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)<br> Accept a Visitor.
+- **actionByMode(ParseableFile.Mode)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> Perform an action consistent with [ParseableFile.Mode](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md)
+- **ADD_PROXY_CLIENTS_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>
+- **addAutoClose(Closeable)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Add the opened file to the file Handlers list
+- **addBranch(PHXComponentBranch)** - Method in class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Adds a sub-branch to this version.
+- **addConsoleVariables()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> 
+- **addEscapes(String)** - Static method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Convenience static for adding escapes to plain strings
+- **addEscapes(String, String)** - Static method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> 
+- **addEscapes()** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> 
+- **addEscapesExtra(String)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> 
+- **addException(Exception)** - Method in exception [com.phoenix_int.aserver.util.PHXClassNotFoundException](com/phoenix_int/aserver/util/PHXClassNotFoundException.md)<br> 
+- **addFileInfo(PHXRowFieldFile, String, ParseableFile.Mode)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> 
+- **addFileToCopy(String)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> 
+- **addGroup(PHXGroup)** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> adds a child group to the group
+- **addLibrarian(IPHXLibrarian)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianCombiner](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)<br> Adds a librarian to our list
+- **addLibrarian(String, IPHXLibrarian)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianMounter](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)<br> Creates a librarian mount.
+- **addLines(int, int, String)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> 
+- **addLines(int, String[])** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> 
+- **addListener(IPHXAnalysisClientListener)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>adds a listener
+- **addMethod(String, String, boolean, boolean)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> adds a method name to the object
+- **addMethod(String, String, boolean)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> relay function for `addMethod( String name, String fullName, boolean isVisible, boolean downloadInputs = false )`
+- **addMethod(String, boolean)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> relay function for `addMethod( String name, String fullName = name, boolean isVisible )`
+- **addMethod(String, String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> relay function for addMethod( String name, String fullName, boolean isVisible=true )
+- **addMethod(String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> relay function for addMethod( String name, boolean isVisible=true )
+- **addMethod(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Publicizes a method to our clients.
+- **addMethod(String, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Publicizes a method to our clients.
+- **addMethod(String, boolean)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Publicizes a method to our clients.
+- **addMethod(String, String, boolean)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Publicizes a method to our clients.
+- **addMonitor(PHXFileMonitor)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> PHXFileMonitor is used to monitor changes to a file as it is being created as in the UNIX 'tail -f' command.
+- **addMonitorListener(IPHXFileCallback)** - Method in class [com.phoenix_int.aserver.monitors.PHXMonitorableStream](com/phoenix_int/aserver/monitors/PHXMonitorableStream.md)<br> Adds a listener which gets events based on changes to this monitor
+- **addPropertyChangeListener(PropertyChangeListener)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleType](com/phoenix_int/aserver/types/PHXSimpleType.md)<br> 
+- **addProxyClients(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>Tells the server to add other hosts as part of the proxy chain
+- **addProxyClients(Iterable`<String>`)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Add a list of allowed proxy client hosts.
+- **addProxyClientsAsync(Iterable`<String>`, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Add a list of allowed proxy client hosts.
+- **addRunDirChangedListener(IPHXRunDirChangedListener)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Adds a listener which will receive events when the run directory is changed.
+- **addTraceListener(IPHXTraceListener)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Adds a listener to trace events
+- **addVariable(PHXVariableInfo)** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> stores a variable in the group.
+- **addVariable(String, String, boolean, Object)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> adds a variable object to the manager
+- **addVariable(String, boolean, Object)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> adds a variable object to the manager
+- **addVariable(PHXVariableInfo)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> adds a variable information object to the manager
+- **addVariable(String, PHXVariableInfo)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> adds a variable information object to the manager
+- **addVariable(String, String, boolean)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Adds a variable to this component.
+- **addVariable(String, String, boolean, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.XPathFile](com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.md)<br> Add a variable to the wrapper.
+- **addVersion(PHXComponentVersion)** - Method in class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Adds a version to this branch
+- **allocateArray(String)** - Static method in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br>Deprecated.<br>Prefer [PHXTypeFactory.allocateVariable2(java.lang.String)](com/phoenix_int/aserver/types/PHXTypeFactory.md#allocateVariable2-java.lang.String-) which can properly differentiate between arrays and non-array types.
+- **allocateElement(Class)** - Method in class [com.phoenix_int.aserver.types.PHXBooleanArray](com/phoenix_int/aserver/types/PHXBooleanArray.md)<br> 
+- **allocateElement(Class)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> 
+- **allocateElement(Class)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> 
+- **allocateElement(Class)** - Method in class [com.phoenix_int.aserver.types.PHXObjectArray](com/phoenix_int/aserver/types/PHXObjectArray.md)<br> 
+- **allocateElement(Class)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Allocates a single element in a default state.
+- **allocateElement(Class)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Allocates a single element in a default state.
+- **allocateVariable(String)** - Static method in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br>Deprecated.<br>Prefer [PHXTypeFactory.allocateVariable2(java.lang.String)](com/phoenix_int/aserver/types/PHXTypeFactory.md#allocateVariable2-java.lang.String-) which can properly differentiate between arrays and non-array types.
+- **allocateVariable2(String)** - Static method in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Allocate a given variable for the given type string
+- **AnalysisServerClient** - Class in [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> ModelCenter Remote Execution client object.
+- **AnalysisServerClient()** - Constructor for class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> 
+- **AnalysisServerException** - Exception in [com.phoenix_int.aserver.client.v2.AnalysisServerException](com/phoenix_int/aserver/client/v2/AnalysisServerException.md)<br> Exception thrown when a request fails on the server.
+- **AnalysisServerException(String)** - Constructor for exception [com.phoenix_int.aserver.client.v2.AnalysisServerException](com/phoenix_int/aserver/client/v2/AnalysisServerException.md)<br> Constructor.
+- **AnalysisServerException(String, Throwable)** - Constructor for exception [com.phoenix_int.aserver.client.v2.AnalysisServerException](com/phoenix_int/aserver/client/v2/AnalysisServerException.md)<br> Constructor.
+- **AnalysisServerResponse** - Class in [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Implementation of PHXResponse along lines of PHXResponse in C++ code.
+- **AnalysisServerResponse()** - Constructor for class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> 
+- **AnalysisServerResponseType** - Enum in [com.phoenix_int.aserver.client.v2.AnalysisServerResponseType](com/phoenix_int/aserver/client/v2/AnalysisServerResponseType.md)<br> Enumeration representing response type.
+- **AnalysisServerVersion** - Class in [com.phoenix_int.aserver.client.v2.AnalysisServerVersion](com/phoenix_int/aserver/client/v2/AnalysisServerVersion.md)<br> Server protocol version.
+- **AnalysisServerVersion(int, int, int)** - Constructor for class [com.phoenix_int.aserver.client.v2.AnalysisServerVersion](com/phoenix_int/aserver/client/v2/AnalysisServerVersion.md)<br> Constructor.
+- **AnalysisServerWaitCallback** - Class in [com.phoenix_int.aserver.client.v2.AnalysisServerWaitCallback](com/phoenix_int/aserver/client/v2/AnalysisServerWaitCallback.md)<br> Callback object which uses a monitor to allow the caller to block until a response is received.
+- **AnalysisServerWaitCallback()** - Constructor for class [com.phoenix_int.aserver.client.v2.AnalysisServerWaitCallback](com/phoenix_int/aserver/client/v2/AnalysisServerWaitCallback.md)<br> 
+- **AnalysisVariableValue** - Class in [com.phoenix_int.aserver.client.v2.AnalysisVariableValue](com/phoenix_int/aserver/client/v2/AnalysisVariableValue.md)<br> Class representing a variable value.
+- **AnalysisVariableValue(String, boolean, String, Object, boolean)** - Constructor for class [com.phoenix_int.aserver.client.v2.AnalysisVariableValue](com/phoenix_int/aserver/client/v2/AnalysisVariableValue.md)<br> Constructor.
+- **append(String)** - Method in class [com.phoenix_int.aserver.monitors.PHXMonitorableStream](com/phoenix_int/aserver/monitors/PHXMonitorableStream.md)<br> Appends a string to this monitor
+- **append(String)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Appends a string to this buffer
+- **append(char[])** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Appends a char array to this buffer
+- **append(char[], int, int)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Appends a char array to this buffer
+- **append(byte[])** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Appends a byte array using the default encoding
+- **append(byte[], int, int)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Appends a byte array using the default encoding
+- **append(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Appends a PHXStringBuffer to this buffer.
+- **append(InputStream)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Fully reads the contents of InputStream into this buffer using UTF-8 encoding.
+- **append(Reader)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> 
+- **append(int)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Appends an integer to this buffer
+- **append(long)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Appends a long to this buffer
+- **append(float)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Appends a float to this buffer
+- **append(char)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Appends a single char to this buffer
+- **ARBITRARY_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>
+- **arrayToString(double[])** - Static method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> 
+- **arrayToString(int[])** - Static method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>
+- **arrayToString(long[])** - Static method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> 
+- **arrayToString(String[])** - Static method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br>Deprecated.<br>
+- **arrayToStringEscaped(String[])** - Static method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> Quotes each element of the array using c-style escape sequences, then
+ builds a comma separated list of the elements with quotes around each element.
+- **asChunkDescriptor()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Parse the response as a chunk descriptor.
+- **asComponentDescription(boolean)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Parse a component description.
+- **asHierarchy()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Parse the response as a variable hierarchy.
+- **asList()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Convert the string data to a list of properties.
+- **asMethodDescriptors()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Convert the string data to a list of method descriptors.
+- **asPropertyDescriptor(StringBuffer, String, String, boolean, boolean)** - Static method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> Stringify the property descriptor data.
+- **asPropertyDescriptors()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Parse this response as a sequence of property descriptors.
+- **asPropertyDescriptors(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Parse this response as a sequence of property descriptors.
+- **assertEquals(IPHXRange)** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.IPHXRange](com/phoenix_int/aserver/util/scriptwrapper/api/IPHXRange.md)<br> 
+- **assertEquals(PHXBookmark)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXBookmark](com/phoenix_int/aserver/util/scriptwrapper/api/PHXBookmark.md)<br> Test comparison function.
+- **assertEquals(IPHXRange)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXCAERange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXCAERange.md)<br> 
+- **assertEquals(IPHXRange)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)<br> Test comparison function.
+- **assertEquals(PHXSection)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)<br> Test comparison function.
+- **asValueDescriptor()** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> converts the property to a machine-readable format
+- **asValueDescriptor(StringBuffer, String, String, boolean, boolean, String)** - Static method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> Stringify the value descriptor data.
+- **asValueDescriptor2(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> converts the property to a readable format.
+- **asValueDescriptor3(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> converts the property to a readable format.
+- **asValueDescriptors()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Parse the response as a list of value descriptors.
+- **asVersion()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Get the response as a server version.
+- **asVersionHistory()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Parse the response as a version history.
+- **AUTOMATIC** - Static variable in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> Deprecated in favor of [Parser.Mode.AUTOMATIC](com/phoenix_int/aserver/util/Parser.Mode.md#AUTOMATIC)
+
+# B
+
+- **backup()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> Backup the file on disk.
+- **backup()** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.md)<br> Backup the file on disk.
+- **backupFile(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Backup the actual file on disk.
+- **backupFile()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Backup the actual file on disk.
+- **backupFile(String, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Backup the file on disk.
+- **block(long)** - Method in class [com.phoenix_int.util.PHXBlocker](com/phoenix_int/util/PHXBlocker.md)<br> Blocks until unblock is invoked or timeout has been reached
+- **block()** - Method in class [com.phoenix_int.util.PHXBlocker](com/phoenix_int/util/PHXBlocker.md)<br> Blocks until unblock() is invoked.
+- **BOOLEAN** - Static variable in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Type identifier for a boolean type
+- **BOOLEAN_ARRAY** - Static variable in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Type identifier for a boolean array type
+- **BUFFERED** - Static variable in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> Deprecated in favor of [Parser.Mode.BUFFERED](com/phoenix_int/aserver/util/Parser.Mode.md#BUFFERED)
+- **BufferedRandomAccessFile** - Class in [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)<br> Replacement for RandomAccessFile to use buffered I/O as much as possible.
+- **BufferedRandomAccessFile(File, String, int)** - Constructor for class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)<br> Constructs a BufferedRandomAccessFile
+
+# C
+
+- **CAEOutputFile** - Class in [com.phoenix_int.aserver.util.scriptwrapper.api.CAEOutputFile](com/phoenix_int/aserver/util/scriptwrapper/api/CAEOutputFile.md)<br> This represents a binary output file from a CAE program such as NASTRAN or LSDyna.
+- **CAEOutputFile(PHXScriptWrapperObject, File, FileType)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.CAEOutputFile](com/phoenix_int/aserver/util/scriptwrapper/api/CAEOutputFile.md) 
+- **CAEOutputFile(PHXScriptWrapperObject, File)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.CAEOutputFile](com/phoenix_int/aserver/util/scriptwrapper/api/CAEOutputFile.md) 
+- **callMethod(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> call a method
+- **charAt(long)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Get the character at the specified index
+- **checkGroup(String)** - Static method in exception [com.phoenix_int.aserver.PHXInvalidNameException](com/phoenix_int/aserver/PHXInvalidNameException.md)<br> checks a name to see if it's valid.
+- **checkName(String)** - Static method in exception [com.phoenix_int.aserver.PHXInvalidNameException](com/phoenix_int/aserver/PHXInvalidNameException.md)<br> checks a name to see if it's valid
+- **checkRectangular(Object)** - Static method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Check if the array is rectangular
+- **cleanTempDir()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> cleans up the temporary run directory if one has been created.
+- **cleanUp()** - Method in interface [com.phoenix_int.aserver.library.IPHXLibrarian](com/phoenix_int/aserver/library/IPHXLibrarian.md)<br>Deprecated.<br>Tells this librarian to clean up any resources used.
+- **cleanUp()** - Method in class [com.phoenix_int.aserver.library.PHXCVSLibrarian](com/phoenix_int/aserver/library/PHXCVSLibrarian.md)<br> Delete all the temp directories
+- **cleanUp()** - Method in class [com.phoenix_int.aserver.library.PHXDirectoryLibrarian](com/phoenix_int/aserver/library/PHXDirectoryLibrarian.md)<br> This class has no cleaning up to do
+- **cleanUp()** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianCombiner](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)<br> Recursively tells kids to clean themselves up
+- **cleanUp()** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianMounter](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)<br> Recursively calls cleanUp on all our mount points
+- **cleanUp()** - Method in class [com.phoenix_int.aserver.library.PHXUserDirLibrarian](com/phoenix_int/aserver/library/PHXUserDirLibrarian.md) 
+- **clear()** - Method in class [com.phoenix_int.aserver.monitors.PHXMonitorableStream](com/phoenix_int/aserver/monitors/PHXMonitorableStream.md)<br> Clears the contents of this monitor
+- **clear()** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> This is for performance only, it allows large temp files and memory to be freed.
+- **clearEndingMark()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.[PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md) 
+- **clearMarks()** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> resets the file to it's whole size by removing the starting and ending marks if they existed
+- **clearMarks()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Removes effects of any previous `markAsBeginning()` or `markAsEnd()` calls
+- **clearStartingMark()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.[PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md) 
+- **close()** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>closes the connection to the server
+- **close()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Close the connection to the server.
+- **close()** - Method in class [com.phoenix_int.aserver.monitors.PHXMonitorableStream.MonitorWriter](com/phoenix_int/aserver/monitors/PHXMonitorableStream$MonitorWriter.md) 
+- **close()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md) 
+- **close()** - Method in interface [com.phoenix_int.aserver.util.IPHXLineStore](com/phoenix_int/aserver/util/IPHXLineStore.md)<br> close any resources associated with this line store
+- **close()** - Method in interface [com.phoenix_int.aserver.util.Parser](com/phoenix_int/aserver/util/Parser.md)<br> Close the parser
+- **close()** - Method in class [com.phoenix_int.aserver.util.PHXFileLoader](com/phoenix_int/aserver/util/PHXFileLoader.md)<br> closes the file
+- **close()** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md) 
+- **close()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> Close the file and free up resources
+- **close()** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.md)<br> Close the file and free up resources
+- **close()** - Method in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md) 
+- **close()** - Method in class [com.phoenix_int.util.PHXNewLineAddFilter](com/phoenix_int/util/PHXNewLineAddFilter.md) 
+- **close()** - Method in class [com.phoenix_int.util.PHXNewLineFilter](com/phoenix_int/util/PHXNewLineFilter.md) 
+- **closeFile()** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> close the PHXRandomAccessFileLineStore
+- **cmd** - Variable in class [com.phoenix_int.aserver.PHXRunShare.RunInfo](com/phoenix_int/aserver/PHXRunShare$RunInfo.md) 
+- **collect** - Variable in class [com.phoenix_int.aserver.types.PHXDataCollector](com/phoenix_int/aserver/types/PHXDataCollector.md) 
+- **com.phoenix_int.aserver** - package [com.phoenix_int.aserver](com/phoenix_int/aserver/package-summary.md) 
+- **com.phoenix_int.aserver.client** - package [com.phoenix_int.aserver.client](com/phoenix_int/aserver/client/package-summary.md)<br> Provides a client package for programmatically invoking ModelCenter Remote Execution remotely from the Java language.
+- **com.phoenix_int.aserver.client.v2** - package [com.phoenix_int.aserver.client.v2](com/phoenix_int/aserver/client/v2/package-summary.md) 
+- **com.phoenix_int.aserver.library** - package [com.phoenix_int.aserver.library](com/phoenix_int/aserver/library/package-summary.md)<br> Provides a library of available components and catgories (directories) andfactories for instantiating components.
+- **com.phoenix_int.aserver.monitors** - package [com.phoenix_int.aserver.monitors](com/phoenix_int/aserver/monitors/package-summary.md)<br> Provides interfaces and classes for adding process and output monitoring of components.
+- **com.phoenix_int.aserver.types** - package [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/package-summary.md)<br> Provides a collection of basic data types that contain meta-information like description and units.
+- **com.phoenix_int.aserver.util** - package [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/package-summary.md)<br> Provides general purpose utility functions.
+- **com.phoenix_int.aserver.util.scriptwrapper.api** - package [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/package-summary.md)<br> Provides utilities which are designed to make writing ScriptWrappers with FileWrapper-like capabilities.
+- **com.phoenix_int.pacz.api** - package [com.phoenix_int.pacz.api](com/phoenix_int/pacz/api/package-summary.md)<br> PACZ (extension .pacz) is a universal component/workflow format for use in  ModelCenter Remote Execution and ModelCenter Server.
+- **com.phoenix_int.pacz.api.v2** - package [com.phoenix_int.pacz.api.v2](com/phoenix_int/pacz/api/v2/package-summary.md)<br> PACZ (extension .pacz) is a universal component/workflow format for use in  ModelCenter Remote Execution and ModelCenter Server.
+- **com.phoenix_int.util** - package [com.phoenix_int.util](com/phoenix_int/util/package-summary.md) 
+- **compareTo(AnalysisServerVersion)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerVersion](com/phoenix_int/aserver/client/v2/AnalysisServerVersion.md)** 
+- **COMPONENT_DIR** - Static variable in class [com.phoenix_int.pacz.api.Environment](com/phoenix_int/pacz/api/Environment.md)<br>Deprecated.<br>Pre-defined component directory environment variable
+- **COMPONENT_DIR** - Static variable in class [com.phoenix_int.pacz.api.v2.Environment](com/phoenix_int/pacz/api/v2/Environment.md)<br> Pre-defined component directory environment variable
+- **computeMessage()** - Method in interface [com.phoenix_int.util.PHXInternationalize.InternationalizedMessage](com/phoenix_int/util/PHXInternationalize$InternationalizedMessage.md)<br> Compute the translation and return the message
+- **connect(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>connects to the MCRE on the specified host
+- **connect(String, int)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>connects to the MCRE on the specified host
+- **connect(String, int, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>connects to the MCRE on the specified host
+- **connect(String, int, boolean, int)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>connects to the MCRE on the specified host
+- **connect(String, int, boolean, int, String, String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>connects to the MCRE on the specified host
+- **connect(URI)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Connect to a ModelCenter Remote Execution at a specified URI with no timeout.
+- **connect(URI, int)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Connect to a ModelCenter Remote Execution at a specified URI.
+- **connect(URI, String, String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Connect to a ModelCenter Remote Execution with optional authentication and no timeout.
+- **connect(URI, String, String, int)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Connect to a ModelCenter Remote Execution with optional authentication.
+- **connectEmbedded()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Connect to the in-process (embedded) ModelCenter Remote Execution instance.
+- **connectEmbedded(String, String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Connect to the in-process (embedded) ModelCenter Remote Execution instance.
+- **connectEmbedded(Map`<String, Object>`)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Connect to the in-process (embedded) ModelCenter Remote Execution instance.
+- **connectEmbedded(Map`<String, Object>`, String, String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Connect to the in-process (embedded) ModelCenter Remote Execution instance.
+- **connectExternal(String, int, String, String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>connects to the MCRE via external tool
+- **connectLocal(String, String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>Makes a virtual connection to the ModelCenter Remote Execution inside of this process.
+- **connectLocal(String, String, Map`<String, Object>`)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>Makes a virtual connection to the MCRE inside of this process.
+- **connectProcess(String, String, String, String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>Makes a virtual connection to the MCRE by calling a new java process.
+- **connectSsh(String, InputStream, OutputStream, InputStream)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Connect to ModelCenter Remote Execution via arbitrary input and output streams.
+- **connectURL(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>connects to the MCRE using the specified URL, such as `mcre://hostname`.
+- **connectURL(String, int, String, String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>connects to the ModelCenter Remote Execution using the specified URL, such as `mcre://hostname`.
+- **contains(PHXVariableInfo)** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> checks to see if a variable exists in this group
+- **contains(String)** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> Checks to see if a variable exists in this group.
+- **copy(PHXSimpleArray)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Clone another PHXSimpleArray's value and metadata.
+- **copy()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md) 
+- **correctName(String)** - Static method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXBookmark](com/phoenix_int/aserver/util/scriptwrapper/api/PHXBookmark.md) 
+- **countTokens(int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> counts the number of tokens on a specified row
+- **countTokens()** - Method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Calculates the number of times that this tokenizer's`nextToken`method can be called before it generates an exception.
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md) 
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXBooleanArray](com/phoenix_int/aserver/types/PHXBooleanArray.md)<br> Create a copy of this instance, including the value and metadata.
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> Create a copy of this instance, including the value and metadata.
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> Create a copy of this instance, including the value and metadata.
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br>Deprecated.<br>
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> Create a copy of this instance, including the value and metadata.
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>Create a copy of this instance, including the value and metadata.
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Create a copy of this instance, including the value and metadata.
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> Create a copy of this instance, including the value and metadata.
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXObjectArray](com/phoenix_int/aserver/types/PHXObjectArray.md)<br> Create a copy of this instance, including the value and metadata.
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Create a copy of this instance, including the value and metadata.
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Create a copy of this instance, including the value and metadata.
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> Create a copy of this instance, including the value and metadata.
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleType](com/phoenix_int/aserver/types/PHXSimpleType.md)<br> Create a copy of this instance, including the value and metadata.
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> Create a copy of this instance, including the value and metadata.
+- **createCopy()** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md) 
+- **createCopy()** - Method in interface [com.phoenix_int.pacz.api.v2.IRuntimeVariable](com/phoenix_int/pacz/api/v2/IRuntimeVariable.md)<br> Get a clone of this variable, including its metadata and value.
+- **createRefProp(String, String)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)<br> adds a property to the variable
+- **createRefProp(String, String)** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)<br> adds a ref prop to the variable.
+
+# D
+
+- **dataReady(String)** - Method in interface [com.phoenix_int.aserver.monitors.IPHXFileCallback](com/phoenix_int/aserver/monitors/IPHXFileCallback.md)<br> Called when data is ready
+- **dataTypeOK(Class)** - Method in class [com.phoenix_int.aserver.types.PHXBooleanArray](com/phoenix_int/aserver/types/PHXBooleanArray.md)
+- **dataTypeOK(Class)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)
+- **dataTypeOK(Class)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)
+- **dataTypeOK(Class)** - Method in class [com.phoenix_int.aserver.types.PHXObjectArray](com/phoenix_int/aserver/types/PHXObjectArray.md)
+- **dataTypeOK(Class)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)
+- **dataTypeOK(Class)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Must override this function and return true if the specified class is acceptable as an array element component type.
+- **dataTypeOK(Class)** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)
+- **DEFAULT_SHELL** - Static variable in class [com.phoenix_int.aserver.util.PHXRuntime](com/phoenix_int/aserver/util/PHXRuntime.md)
+- **defaultExecutableMapping(String, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)
+- **defineArrayVar(String, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.CAEOutputFile](com/phoenix_int/aserver/util/scriptwrapper/api/CAEOutputFile.md)
+- **defineBookmark(String, String, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)
+- **defineSection(String, String, String, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)
+- **defineVar(String, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.CAEOutputFile](com/phoenix_int/aserver/util/scriptwrapper/api/CAEOutputFile.md)
+- **defineVar(String, String, boolean, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)
+- **defineVar(String, String, boolean, String, String, String, String, String, String, String, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)
+- **defineVar(String, String, boolean, String, String, String, String, String, String, String, String, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)
+- **DEL_AUTO** - Static variable in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> delete the directory only if an error did not occur while running the wrapper.
+- **DEL_FALSE** - Static variable in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> do not delete the directory.
+- **DEL_TRUE** - Static variable in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> delete the directory.
+- **delete()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> Delete the file from disk.
+- **delete()** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.md)<br> Delete the file from disk.
+- **DELETE_RUN_SHARE_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>
+- **deleteAllMembers()** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> delete all members for non-strict type object.
+- **deleteContents()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Releases the handle to the temporary file.
+- **deleteFile(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Deletes the actual file from disk.
+- **deleteFile()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Deletes the actual file from disk.
+- **deleteFile(String, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Deletes the given file variable's file
+- **deleteMember(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> delete a member for non-strict type object.
+- **deleteRunShare(Long)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>Handle cleaning up a runShare in a local client
+- **deleteRunShare(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Delete a run share.
+- **deleteRunShareAsync(String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Delete a run share.
+- **describe(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>describes an analysis
+- **describe(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Get the description of an analysis.
+- **describe(File, String, String)** - Method in interface [com.phoenix_int.aserver.library.IPHXFactory](com/phoenix_int/aserver/library/IPHXFactory.md)<br>Deprecated.<br>Describes the specified component.
+- **describe(String, String)** - Method in interface [com.phoenix_int.aserver.library.IPHXLibrarian](com/phoenix_int/aserver/library/IPHXLibrarian.md)<br>Deprecated.<br>describes the specified component
+- **describe(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXCVSLibrarian](com/phoenix_int/aserver/library/PHXCVSLibrarian.md)<br> describes the specified component.
+- **describe(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXDirectoryLibrarian](com/phoenix_int/aserver/library/PHXDirectoryLibrarian.md)<br> describes the specified component.
+- **describe(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianCombiner](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)<br> describes the specified component.
+- **describe(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianMounter](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)<br> describes the specified component.
+- **describe(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXUserDirLibrarian](com/phoenix_int/aserver/library/PHXUserDirLibrarian.md)<br> describes the specified component.
+- **DESCRIBE_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>
+- **describeAsync(String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Get the description history of an analysis.
+- **destroy()** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)
+- **doMonitor()** - Method in class [com.phoenix_int.aserver.monitors.PHXFileMonitor](com/phoenix_int/aserver/monitors/PHXFileMonitor.md)<br> Begin monitoring.
+- **DOUBLE** - Static variable in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Type identifier for a double type
+- **DOUBLE_ARRAY** - Static variable in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Type identifier for a double array type
+
+# E
+
+- **elementFromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXBooleanArray](com/phoenix_int/aserver/types/PHXBooleanArray.md)
+- **elementFromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)
+- **elementFromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)
+- **elementFromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXObjectArray](com/phoenix_int/aserver/types/PHXObjectArray.md)
+- **elementFromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)
+- **elementFromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Sub-classes must provide an implementation of this function which converts a string form of a single element to Object form.
+- **elementFromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)
+- **encoding** - Variable in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)
+- **end(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>ends an analysis
+- **end(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> End an analysis.
+- **end()** - Method in interface [com.phoenix_int.aserver.IPHXComponent](com/phoenix_int/aserver/IPHXComponent.md)<br> notifies the driver that it has ended.
+- **end()** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)
+- **END_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>
+- **endAsync(String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> End an analysis.
+- **endIteration()** - Method in interface [com.phoenix_int.aserver.IPHXDriver](com/phoenix_int/aserver/IPHXDriver.md)<br> performs the second step for an iteration of a driver.
+- **endMonitor()** - Method in class [com.phoenix_int.aserver.monitors.PHXFileMonitor](com/phoenix_int/aserver/monitors/PHXFileMonitor.md)<br> Signals this monitor to stop monitoring and return as soon as possible.
+- **ensureFileParser(ParseableFile.Mode)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> Ensure there is a valid parser
+- **ensureFileParser(ParseableFile.Mode)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Ensure there is a valid parser
+- **enumValuesFromString(String)** - Method in interface [com.phoenix_int.aserver.types.IPHXRefPropInfo](com/phoenix_int/aserver/types/IPHXRefPropInfo.md)
+- **enumValuesFromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXRefArrayProperty](com/phoenix_int/aserver/types/PHXRefArrayProperty.md)<br> sets the enum values from a comma-separated list of values
+- **enumValuesFromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXRefProperty](com/phoenix_int/aserver/types/PHXRefProperty.md)<br> sets the enum values from a comma-separated list of values
+- **Environment** - Class in [com.phoenix_int.pacz.api](com/phoenix_int/pacz/api.md)<br>Deprecated.<br>see com.phoenix_int.pacz.api.v2.Environment
+- **Environment()** - Constructor for class [com.phoenix_int.pacz.api.Environment](com/phoenix_int/pacz/api/Environment.md)<br>Deprecated.<br>Constructor
+- **Environment(Map`<String, String>`)** - Constructor for class [com.phoenix_int.pacz.api.Environment](com/phoenix_int/pacz/api/Environment.md)<br>Deprecated.<br>Copy constructor
+- **Environment** - Class in [com.phoenix_int.pacz.api.v2](com/phoenix_int/pacz/api/v2.md)<br> Environment variables for component configuration
+- **Environment()** - Constructor for class [com.phoenix_int.pacz.api.v2.Environment](com/phoenix_int/pacz/api/v2/Environment.md)<br> Constructor
+- **Environment(Map`<String, String>`)** - Constructor for class [com.phoenix_int.pacz.api.v2.Environment](com/phoenix_int/pacz/api/v2/Environment.md)<br> Copy constructor
+- **equals(Object)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerVersion**](com/phoenix_int/aserver/client/v2/AnalysisServerVersion.md)
+- **equals(Object)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Compares this to another String or `PHXStringBuffer`.
+- **equalsIgnoreCase(Object)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Compares this to another String or `PHXStringBuffer`.
+- **equalsNatural(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md)<br> Compare this `PHXSimpleType` to another `PHXSimpleType`.
+- **equalsNatural(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> Compare this `PHXSimpleType` to another `PHXSimpleType`.
+- **equalsNatural(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br>Deprecated.<br>Compare this `PHXSimpleType` to another `PHXSimpleType`.
+- **equalsNatural(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> Compare this `PHXSimpleType` to another `PHXSimpleType`.
+- **equalsNatural(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>Compare this `PHXSimpleType` to another `PHXSimpleType`.
+- **equalsNatural(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Compare this `PHXSimpleType` to another `PHXSimpleType`.
+- **equalsNatural(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXObjectArray](com/phoenix_int/aserver/types/PHXObjectArray.md)<br> Compare this `PHXSimpleType` to another `PHXSimpleType`.
+- **equalsNatural(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Compare this `PHXSimpleType` to another `PHXSimpleType`.
+- **equalsNatural(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Compare this `PHXSimpleType` to another `PHXSimpleType`.
+- **equalsNatural(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> Compare this `PHXSimpleType` to another `PHXSimpleType`.
+- **equalsNatural(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Compare this `PHXSimpleType` to another `PHXSimpleType`.
+- **equalsNatural(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleType](com/phoenix_int/aserver/types/PHXSimpleType.md)<br> Compare this `PHXSimpleType` to another `PHXSimpleType`.
+- **equalsNatural(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> Compare this `PHXSimpleType` to another `PHXSimpleType`.
+- **evaluateKey(String)** - Method in class [com.phoenix_int.pacz.api.Environment](com/phoenix_int/pacz/api/Environment.md)<br>Deprecated.<br>Get the value for the specified environment variable
+- **evaluateKey(String)** - Method in class [com.phoenix_int.pacz.api.v2.Environment](com/phoenix_int/pacz/api/v2/Environment.md)<br> Get the value for the specified environment variable
+- **evaluateString(String)** - Method in class [com.phoenix_int.pacz.api.Environment](com/phoenix_int/pacz/api/Environment.md)<br>Deprecated.<br>Substitute environment variables in specified string with corresponding environment values
+- **evaluateString(String)** - Method in class [com.phoenix_int.pacz.api.v2.Environment](com/phoenix_int/pacz/api/v2/Environment.md)<br> Substitute environment variables in specified string with corresponding environment values
+- **exec(String, String)** - Method in class [com.phoenix_int.aserver.util.PHXRuntime](com/phoenix_int/aserver/util/PHXRuntime.md)<br> runs the specified command.
+- **exec2(String, String, boolean)** - Method in class [com.phoenix_int.aserver.util.PHXRuntime](com/phoenix_int/aserver/util/PHXRuntime.md)<br> runs the specified command.
+- **execute(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>exectutes an analysis
+- **execute(String, boolean)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Execute an analysis.
+- **execute()** - Method in interface [com.phoenix_int.aserver.IPHXAnalysis](com/phoenix_int/aserver/IPHXAnalysis.md)<br> executes the analysis.
+- **EXECUTE_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>
+- **executeAsync(String, boolean, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Execute an analysis.
+- **exitValue()** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)<br> 
+
+# F
+
+- **FILE** - Static variable in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Type identifier for a file type
+- **FILE_ARRAY** - Static variable in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Type identifier for a file array type
+- **FILE_SIZE_LIMIT** - Static variable in enum [com.phoenix_int.aserver.util.Parser.Mode](com/phoenix_int/aserver/util/Parser.Mode.md#FILE_SIZE_LIMIT)
+- **FILE_SIZE_LIMIT** - Static variable in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> Deprecated in favor of [Parser.Mode.FILE_SIZE_LIMIT](com/phoenix_int/aserver/util/Parser.Mode.md#FILE_SIZE_LIMIT)
+- **FileMonitorChangeException()** - Constructor for exception [com.phoenix_int.aserver.monitors.PHXFileMonitor.FileMonitorChangeException](com/phoenix_int/aserver/monitors/PHXFileMonitor.md#FileMonitorChangeException)
+- **FileMonitorChangeException(String)** - Constructor for exception [com.phoenix_int.aserver.monitors.PHXFileMonitor.FileMonitorChangeException](com/phoenix_int/aserver/monitors/PHXFileMonitor.md#FileMonitorChangeException)
+- **fileName** - Variable in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)
+- **fileTruncated()** - Method in interface [com.phoenix_int.aserver.monitors.IPHXFileCallback](com/phoenix_int/aserver/monitors/IPHXFileCallback.md)<br> Indicates that the file was truncated back to 0 bytes.
+- **finalize()** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>
+- **finalize()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Clean up during finalization.
+- **finalize()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)
+- **finalize()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Although close should be called manually before garbage collection, do so here as a backup.
+- **finalize()** - Method in class [com.phoenix_int.aserver.util.PHXFileLoader](com/phoenix_int/aserver/util/PHXFileLoader.md)
+- **findBranch(String)** - Method in class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Finds any sub-branch that is part of any version in this branch by name
+- **findVersion(String)** - Method in class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Finds a sub-version by the specified name
+- **FIRST** - Static variable in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)
+- **firstWord()** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Returns the first word of this string, whitespace delimited.
+- **flush()** - Method in class [com.phoenix_int.aserver.monitors.PHXMonitorableStream.MonitorWriter](com/phoenix_int/aserver/monitors/PHXMonitorableStream.md#MonitorWriter)
+- **flush()** - Method in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)
+- **forceSetValue(String, String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> sets the value for a variable regardless of whether it's an input or an output
+- **fromAPIObject(Map`<String, String>`, FunctionThrows`<String, ManagedFileHandle, EX>`)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Populate this instance from a string-string map.
+- **fromCode(int)** - Static method in enum [com.phoenix_int.aserver.util.Parser.Mode](com/phoenix_int/aserver/util/Parser.Mode.md)
+- **fromCode(int)** - Static method in enum [com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile.Mode](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md)<br> Utility function for determining the enum from the legacy integer code
+- **fromFile(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Sets the filename and then loads the contents of the actual file on disk into the temporary file.
+- **fromFile()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Loads the contents of the actual file on disk into the temporary file.
+- **fromFile(int)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> loads the file from disk for an element of an 1D array.
+- **fromFile(int[])** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> loads the file from disk for an element of an array.
+- **fromFile(int, String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Sets the filename and then reads from disk for an element of an 1D array.
+- **fromFile(int[], String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Sets the filename and then reads from disk for an element of an array.
+- **fromFile(String, String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> load a file into a file member
+- **fromFile(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> load a file into a file member.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md)<br> Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXBooleanArray](com/phoenix_int/aserver/types/PHXBooleanArray.md)<br> Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br>Deprecated.<br>Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXObjectArray](com/phoenix_int/aserver/types/PHXObjectArray.md)<br> Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleType](com/phoenix_int/aserver/types/PHXSimpleType.md)<br> Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> Load the value of this object from the specified object.
+- **fromObject(Object)** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)<br> Load the value of this object from the specified object.
+- **fromString(String)** - Static method in class [com.phoenix_int.aserver.PHXMethodDescriptor](com/phoenix_int/aserver/PHXMethodDescriptor.md)
+- **fromString(String)** - Method in interface [com.phoenix_int.aserver.types.IPHXType](com/phoenix_int/aserver/types/IPHXType.md)<br> Set the value for the variable using a string
+- **fromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md)<br> converts a String representation to the internal value
+- **fromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> converts a String representation to the internal value
+- **fromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br>Deprecated.<br>converts a String representation to the internal value
+- **fromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> converts a String representation to the internal value
+- **fromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>converts a String representation to the internal value
+- **fromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> converts a String representation to the internal value
+- **fromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Sets the file temporary file contents to the value of the string.
+- **fromString(int, String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> converts a String representation to the internal value for an element of an 1D array
+- **fromString(int[], String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> converts a String representation to the internal value for an element of an array
+- **fromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)<br> converts from a string
+- **fromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> update object using the XML value
+- **fromString(int, String)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Sets the value of a single element based on string input for 1-d arrays.
+- **fromString(int[], PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Sets the value of a single element based on string input.
+- **fromString(int[], String)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Sets the value of a single element based on string input.
+- **fromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> reads in the entire array in string form.
+- **fromString(String)** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> converts a String representation to the internal value
+- **fromString(String)** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.IPHXRange](com/phoenix_int/aserver/util/scriptwrapper/api/IPHXRange.md)
+- **fromString(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXCAERange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXCAERange.md)
+- **fromString(String)** - Method in class com.phoenix_int.aserver.util.scriptwrapper.api.[PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **fromString2(PHXStringBuffer)** - Method in interface [com.phoenix_int.aserver.types.IPHXType2](com/phoenix_int/aserver/types/IPHXType2.md)<br> Configures the type based on a PHXStringBuffer representation of the type
+- **fromString2(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md)<br> converts a PHXStringBuffer representation to the internal value
+- **fromString2(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> converts a PHXStringBuffer representation to the internal value
+- **fromString2(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br>Deprecated.<br>converts a PHXStringBuffer representation to the internal value
+- **fromString2(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> converts a PHXStringBuffer representation to the internal value
+- **fromString2(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>converts a String representation to the internal value
+- **fromString2(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> converts a PHXStringBuffer representation to the internal value
+- **fromString2(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Sets the file temporary file contents to the value of the PHXStringBuffer.
+- **fromString2(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)<br> converts from a PHXStringBuffer
+- **fromString2(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> update object using the XML value
+- **fromString2(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> reads in the entire array in string form.
+- **fromString2(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> converts a PHXStringBuffer representation to the internal value
+- **fromString3(String, ToDoubleFunction`<String>`)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> converts a String representation to the internal value using specified converter
+- **fromXML(String)** - Method in class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Reads in an XML description of a branch into this object
+- **fromXML(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> update the object from an XML string
+
+# G
+
+- **generate()** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.InputFile](com/phoenix_int/aserver/util/scriptwrapper/api/InputFile.md)<br> Generate the input file
+- **GENERATE** - Static variable in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Deprecated in favor of [ParseableFile.Mode.GENERATE](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md#GENERATE)
+- **generate()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Generate the input file
+- **generate()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.XPathFile](com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.md)<br> Generate the input file
+- **generateFor(Object)** - Static method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Static method to generate a new instance of one of the sub-classes of `PHXSimpleArray` as appropriate for the type of variable passed in.
+- **generateFor(Object, Class)** - Static method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Static method to generate a new instance of one of the sub-classes of `PHXSimpleArray` as appropriate for the type of variable passed in.
+- **GEOMETRY** - Static variable in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Type identifier for a geometry type
+- **get(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>get the value of a property
+- **get(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Request the value of a property.
+- **get2(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>get the value of a property
+- **GET_BY_URL_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>
+- **GET_HIERARCHY_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>
+- **GET_ICON_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>
+- **GET_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>
+- **getAbsoluteStartRow()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)<br> Returns the stored starting row number, assuming it has been stored.
+- **getAdditionalConfigValue(String)** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get additional configuration value based on specified value name.
+- **getAdditionalConfigValue(String)** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get additional configuration value based on specified value name.
+- **getAdditionalConfigValues()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get additional configuration values as key-value pair map
+- **getAdditionalConfigValues()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get additional configuration values as key-value pair map
+- **getAddProxyClientsResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getAppearance()** - Method in class [com.phoenix_int.aserver.types.PHXGeomInfo](com/phoenix_int/aserver/types/PHXGeomInfo.md)
+- **getArray()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Gets the entire contents of the array
+- **getArrayElement(int)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Gets a particular element from a 1-d array
+- **getArrayElement(int[])** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Gets a particular element from the array
+- **getASComponent()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get ModelCenter Remote Execution component name
+- **getASComponent()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get ModelCenter Remote Execution component name
+- **getAsync(String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Request the value of a property.
+- **getAuthor()** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **getAuthor()** - Method in class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Gets the version author
+- **getAuthor()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get the author of this component.
+- **getAutoChangeDir()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Gets the "AutoChangeDir" flag
+- **getAutoDelete()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Gets the auto-delete mode
+- **getAutoGrow()** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)<br> retrieves the autoGrow value
+- **getAvg()** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)
+- **getAvg()** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)
+- **getBaseDirectory()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Gets the base dir which was passed in to the constructor.
+- **getBaseName()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> gets the base name of the file
+- **getBaseName()** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> gets the base name of the files stored in the array
+- **getBaseName()** - Method in class [com.phoenix_int.aserver.util.PHXFileName](com/phoenix_int/aserver/util/PHXFileName.md)
+- **getBinaryData()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Get the binary data; only valid if format is Extended or Icon.
+- **getBlock()** - Method in class [com.phoenix_int.util.PHXBlocker](com/phoenix_int/util/PHXBlocker.md)
+- **getBlue()** - Method in class [com.phoenix_int.aserver.types.PHXAppearance](com/phoenix_int/aserver/types/PHXAppearance.md)
+- **getBooleanArrayMemberValue(String, int)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get the value of an 1D boolean array element
+- **getBooleanArrayMemberValue(String, int[])** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get the value of a boolean array element
+- **getBooleanMemberValue(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> gets the value of boolean member
+- **getBooleanValue(int)** - Method in class [com.phoenix_int.aserver.types.PHXBooleanArray](com/phoenix_int/aserver/types/PHXBooleanArray.md)<br> Gets the value of an element as a boolean
+- **getBooleanValue(int[])** - Method in class [com.phoenix_int.aserver.types.PHXBooleanArray](com/phoenix_int/aserver/types/PHXBooleanArray.md)<br> Gets the value of an element as a boolean
+- **getBranch(int)** - Method in class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Returns the i'th sub-branch
+- **getBranches()** - Method in class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Returns an Iterator over the sub-branches
+- **getBranchesAndTags()** - Method in interface [com.phoenix_int.aserver.library.IPHXVersionedLibrarian2](com/phoenix_int/aserver/library/IPHXVersionedLibrarian2.md)<br>Deprecated.<br>Fetches a list of all branches and tags
+- **getBranchesAndTags()** - Method in class [com.phoenix_int.aserver.library.PHXCVSLibrarian](com/phoenix_int/aserver/library/PHXCVSLibrarian.md)<br> Does not support branching and tagging
+- **getBranchesAndTags()** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianCombiner](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)
+- **getBranchesAndTags()** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianMounter](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)
+- **getBuild()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerVersion](com/phoenix_int/aserver/client/v2/AnalysisServerVersion.md)<br> Get the build.
+- **getByUrl(String, String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>get the value of a property
+- **getByUrl(File, String, String, boolean)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Get a file by URL.
+- **getByUrl(File, String, boolean)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Convenience overload of getByUrl(File, String, String, boolean).
+- **getByUrlAsync(File, String, String, boolean, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Fetch the contents of a file by URL.
+- **getCanGet()** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> determines if the property can be retrieved
+- **getCanSet()** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> determines if the property can be modified
+- **getCG()** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **getcgX()** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **getcgY()** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **getcgZ()** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **getChecksum()** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **getChildren(Vector<PHXBookmark>, boolean)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXBookmark](com/phoenix_int/aserver/util/scriptwrapper/api/PHXBookmark.md)
+- **getClass(String)** - Static method in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> returns the class for the specified type.
+- **getClassURL()** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get the class type.
+- **getCode()** - Method in enum [com.phoenix_int.aserver.util.Parser.Mode](com/phoenix_int/aserver/util/Parser.Mode.md)<br> Retrieve the legacy integer code assigned to this access mode
+- **getCode()** - Method in enum [com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile.Mode](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md)<br> Retrieve the legacy integer code assigned to this mode
+- **getCollect()** - Method in class [com.phoenix_int.aserver.types.PHXDataCollector](com/phoenix_int/aserver/types/PHXDataCollector.md)
+- **getColumnArray(int, int, int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> gets an array of tokens for the specified range.
+- **getCommand()** - Method in class [com.phoenix_int.aserver.util.PHXProcessInfo](com/phoenix_int/aserver/util/PHXProcessInfo.md)<br> Returns the command name of this process
+- **getCommandLineArguments()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get command line arguments to be passed to component executable
+- **getCommandLineArguments()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get command line arguments to be passed to component executable
+- **getComment()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get the comment associated with this component.
+- **getComponentHistory(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>Gets the component history for a particular component.
+- **getComponentHistory(String, String)** - Method in interface [com.phoenix_int.aserver.library.IPHXVersionedLibrarian](com/phoenix_int/aserver/library/IPHXVersionedLibrarian.md)<br>Deprecated.<br>Gets all version information about a particular component
+- **getComponentHistory(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXCVSLibrarian](com/phoenix_int/aserver/library/PHXCVSLibrarian.md)
+- **getComponentHistory(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianCombiner](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)
+- **getComponentHistory(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianMounter](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)
+- **getComponentType(Object)** - Static method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Gets the component type of an array, even for n-d arrays.
+- **getComponentType()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Returns the component type of the array wrapped with this class
+- **getConnection()** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager3](com/phoenix_int/aserver/PHXSimpleSelfManager3.md)<br> Gets the connection object
+- **getConnection()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> gets the connection object
+- **getContents()** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br>Deprecated.<br>retrieves the contents of the file
+- **getContents()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Retrieves the contents of the temporary file.
+- **getContents(int)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> retrieves the contents of the file for an element of an 1D array
+- **getContents(int[])** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> retrieves the contents of the file for an element of an array
+- **getCurrentPosition()** - Method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)
+- **getData()** - Method in class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> retrieves the current value for the geometry data
+- **getData()** - Method in class [com.phoenix_int.aserver.util.PHXIcon](com/phoenix_int/aserver/util/PHXIcon.md)<br> retrieves the data for the image
+- **getDate()** - Method in class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Gets the version date
+- **getDecimalSeparator()** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> gets decimal separator character for floating point literals
+- **getDefaultValue()** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br>Deprecated.<br>Get default value of variable
+- **getDelayLoadSetupAllowed()** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **getDeleteRunShareResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getDelimiters()** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)
+- **getDelimiters()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **getDescribeResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getDescription()** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **getDescription()** - Method in class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Gets the version description
+- **getDescription()** - Method in interface [com.phoenix_int.aserver.types.IPHXDescription](com/phoenix_int/aserver/types/IPHXDescription.md)<br> Get the variable description
+- **getDescription()** - Method in class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> retrieves the description of the variable
+- **getDescription()** - Method in class [com.phoenix_int.aserver.types.PHXRefArrayProperty](com/phoenix_int/aserver/types/PHXRefArrayProperty.md)<br> retrieves a description of the ref prop
+- **getDescription()** - Method in class [com.phoenix_int.aserver.types.PHXReference**](com/phoenix_int/aserver/types/PHXReference.md)<br> retrieves a description of the ref prop
+- **getDescription()** - Method in class [com.phoenix_int.aserver.types.PHXRefProperty](com/phoenix_int/aserver/types/PHXRefProperty.md)<br> retrieves a description of the ref prop
+- **getDescription()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleType**](com/phoenix_int/aserver/types/PHXSimpleType.md)<br>Deprecated.<br>Get component description
+- **getDescription()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get component description
+- **getDescription()** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br>Deprecated.<br>Get variable description
+- **getDescription()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get component description
+- **getDescription()** - Method in interface [com.phoenix_int.pacz.api.v2.IRuntimeVariable](com/phoenix_int/pacz/api/v2/IRuntimeVariable.md)<br> Get variable description
+- **getDictionary()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)
+- **getDictionary()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Gets context information for the incoming connection that is running this wrapper.
+- **getDimensions(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set the dimensions of an array.
+- **getDimensions(Object)** - Static method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Gets the array of dimensions of the array
+- **getDimensions()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)
+- **getDimensionsAsync(String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set the dimensions of an array.
+- **getDirectory()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Returns the current directory being used by the runshare system.
+- **getDirectory()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Returns the directory where this component was loaded from
+- **getDoubleArrayMemberValue(String, int)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get the value of an 1D double array element
+- **getDoubleArrayMemberValue(String, int[])** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get the value of a double array element
+- **getDoubleMemberValue(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> gets the value of a double member
+- **getDoubleValue(int)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> Gets an element as a double
+- **getDoubleValue(int[])** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> Gets an element as a double
+- **getDownloadInputs()** - Method in class [com.phoenix_int.aserver.PHXInvokeReturn](com/phoenix_int/aserver/PHXInvokeReturn.md)<br> retrieves whether the invocation should trigger a redownloading of input values
+- **getDownloadInputs()** - Method in class [com.phoenix_int.aserver.PHXMethodDescriptor](com/phoenix_int/aserver/PHXMethodDescriptor.md)
+- **getDriver()** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **getElapsedTime()** - Method in class [com.phoenix_int.aserver.util.PHXProcessInfo](com/phoenix_int/aserver/util/PHXProcessInfo.md)<br> returns the wall clock time for this process, if available
+- **getEncoding()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Get the encoding of the contents.
+- **getEncoding()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)
+- **getEnd()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **getEndCol()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **getEndMark()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **getEndOccurrence()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **getEndOffset()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **getEndParent()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **getEndResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getEndRow()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **getEnumAliases()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> An interface function for the enumeration array
+- **getEnumAliases()** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> An interface function for the enumeration array
+- **getEnumAliases()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>An interface function for the enumeration array
+- **getEnumAliases()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> An interface function for the enumeration array
+- **getEnumAliases()** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> An interface function for the enumeration array
+- **getEnumAliases()** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> An interface function for the enumeration array
+- **getEnumAliases()** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)<br> An interface function for the enumeration array
+- **getEnumAliases()** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br>Deprecated.<br>Get names/aliases for the enumerated type
+- **getEnumAliasesStr()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> An interface function for the enumeration array
+- **getEnumAliasesStr()** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> An interface function for the enumeration array
+- **getEnumAliasesStr()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>An interface function for the enumeration array
+- **getEnumAliasesStr()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> An interface function for the enumeration array
+- **getEnumAliasesStr()** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> An interface function for the enumeration array
+- **getEnumAliasesStr()** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> An interface function for the enumeration array
+- **getEnumAliasesStr()** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)<br> An interface function for the enumeration array
+- **getEnumTokens(String)** - Static method in class [com.phoenix_int.aserver.types.PHXSimpleType](com/phoenix_int/aserver/types/PHXSimpleType.md)
+- **getEnumValues()** - Method in interface [com.phoenix_int.aserver.types.IPHXRefPropInfo](com/phoenix_int/aserver/types/IPHXRefPropInfo.md)<br> lists enum values
+- **getEnumValues()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> An interface function for the enumeration array
+- **getEnumValues()** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> An interface function for the enumeration array
+- **getEnumValues()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>Interface function to pass out the enumeration array
+- **getEnumValues()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Interface function to pass out the enumeration array
+- **getEnumValues()** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> An interface function for the enumeration array
+- **getEnumValues()** - Method in class [com.phoenix_int.aserver.types.PHXRefArrayProperty](com/phoenix_int/aserver/types/PHXRefArrayProperty.md)<br> lists enum values
+- **getEnumValues()** - Method in class [com.phoenix_int.aserver.types.PHXRefProperty](com/phoenix_int/aserver/types/PHXRefProperty.md)<br> lists enum values
+- **getEnumValues()** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> lists enum values
+- **getEnumValues()** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)<br> An interface function for the enumeration array
+- **getEnumValues()** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br>Deprecated.<br>Get values for the enumerated type
+- **getEnumValuesStr()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> Interface function to pass out the enumeration array as a comma separated string
+- **getEnumValuesStr()** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> Interface function to pass out the enumeration array as a comma separated string
+- **getEnumValuesStr()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>Interface function to pass out the enumeration array as a comma separated string
+- **getEnumValuesStr()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Interface function to pass out the enumeration array as a comma separated string
+- **getEnumValuesStr()** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> Interface function to pass out the enumeration array as a comma separated string
+- **getEnumValuesStr()** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> Interface function to pass out the enumeration array as a comma separated string
+- **getEnumValuesStr()** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)<br> Interface function to pass out the enumeration array as a comma separated string
+- **getEnvironment()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get component environment
+- **getEnvironment()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get component environment
+- **getErrorMessage()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Get the server error; only valid if response type is ServerError or ConnectionError.
+- **getErrorStream()** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)
+- **getEventType()** - Method in enum [com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile.Mode](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md)
+- **getException()** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClientExceptionEvent](com/phoenix_int/aserver/client/PHXAnalysisClientExceptionEvent.md)<br> retrieves the Exception object
+- **getExceptions()** - Method in exception [com.phoenix_int.aserver.util.PHXClassNotFoundException](com/phoenix_int/aserver/util/PHXClassNotFoundException.md)
+- **getExecutable()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get name of component executable
+- **getExecutable()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get name of component executable
+- **getExecuteResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getFile(File, String, boolean)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Get a file by property name.
+- **getFileAsync(File, String, boolean, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Fetch the contents of a file by property name.
+- **getFileExtension()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Returns the extension of the file that this object represents
+- **getFileExtension(int)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Returns the extension of the file for an element of an 1D array
+- **getFileExtension(int[])** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Returns the extension of the file for an element of an array
+- **getFileFor(File, String, String)** - Method in interface [com.phoenix_int.aserver.library.IPHXFactory](com/phoenix_int/aserver/library/IPHXFactory.md)<br>Deprecated.<br>Returns a File object which points to the file on disk which contains the implementation of this component
+- **getFileName(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> return name of the data source file
+- **getFileName()** - Method in class [com.phoenix_int.aserver.util.PHXFileLoader](com/phoenix_int/aserver/util/PHXFileLoader.md)<br> retrieves the file name
+- **getFileName()** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> retrieves the name of the file that is being parsed
+- **getFirst()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Returns the first element of the array, or throws ArrayIndexOutOfBounds
+ if there are no elements.
+- **getFormat()** - Method in interface [com.phoenix_int.aserver.types.IPHXFormat](com/phoenix_int/aserver/types/IPHXFormat.md)<br> Get the format string for the variable
+- **getFormat()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> Get the format string for the variable
+- **getFormat()** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> Get the format string for the variable
+- **getFormat()** - Method in class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> retrieves the format for the geometry data
+- **getFormat()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>Get the format string for the variable
+- **getFormat()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Get the format string for the variable
+- **getFormat()** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> Get the format string for the variable
+- **getFormat()** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br>Deprecated.<br>Get variable format string
+- **getFullName()** - Method in class [com.phoenix_int.aserver.PHXMethodDescriptor](com/phoenix_int/aserver/PHXMethodDescriptor.md)
+- **getFullName()** - Method in class [com.phoenix_int.aserver.util.PHXFileName](com/phoenix_int/aserver/util/PHXFileName.md)<br> returns the full file name.
+- **getFullNameCoded()** - Method in class [com.phoenix_int.aserver.util.PHXFileName](com/phoenix_int/aserver/util/PHXFileName.md)<br> returns the full file name in coded form, i.e.
+- **getGetByUrlResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getGetComponentHistoryResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getGetHierarchyResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getGetIconResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getGetResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getGetResponse2(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getGreen()** - Method in class [com.phoenix_int.aserver.types.PHXAppearance](com/phoenix_int/aserver/types/PHXAppearance.md)
+- **getGroup(String)** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> retrieves a child group.
+- **getGroup(String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> retrieves a group.
+- **getGroup2(String)** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> retrieves a child group.
+- **getGroup2(String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> retrieves a group.
+- **getGroups()** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> retrieves the Enumeration of subgroups in the group.
+- **getGroups2()** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> retrieves all the subgroups in the group
+- **getHasCG()** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **getHasChanged()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleType](com/phoenix_int/aserver/types/PHXSimpleType.md)<br> retrieves the hasChanged flag
+- **getHasColor()** - Method in class [com.phoenix_int.aserver.types.PHXAppearance](com/phoenix_int/aserver/types/PHXAppearance.md)
+- **getHasFormat()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated in favor of [PHXInteger.hasFormat()](com/phoenix_int/aserver/types/PHXInteger.md#hasFormat--)
+- **getHasFormat()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Deprecated in favor of [PHXLong.hasFormat()](com/phoenix_int/aserver/types/PHXLong.md#hasFormat--)
+- **getHasIcon()** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **getHasLowerBound()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> retrieves the hasLowerBound flag
+- **getHasLowerBound()** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> retrieves the hasLowerBound flag
+- **getHasLowerBound()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>retrieves the hasLowerBound flag
+- **getHasLowerBound()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> retrieves the hasLowerBound flag
+- **getHasLowerBound()** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> retrieves the hasLowerBound flag
+- **getHasMass()** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **getHasRotation()** - Method in class [com.phoenix_int.aserver.types.PHXOrientation](com/phoenix_int/aserver/types/PHXOrientation.md)
+- **getHasSurfaceArea()** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **getHasTranslation()** - Method in class [com.phoenix_int.aserver.types.PHXOrientation](com/phoenix_int/aserver/types/PHXOrientation.md)
+- **getHasUpperBound()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> retrieves the hasUpperBound flag
+- **getHasUpperBound()** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> retrieves the hasUpperBound flag
+- **getHasUpperBound()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>retrieves the hasUpperBound flag
+- **getHasUpperBound()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> retrieves the hasUpperBound flag
+- **getHasUpperBound()** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> retrieves the hasUpperBound flag
+- **getHasVersionInfo()** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **getHasVolume()** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **getHelpUri()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get URI of help to use for component
+- **getHelpUri()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get URI of help to use for component
+- **getHelpURL()** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **getHierarchy(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrievethe hierarchy for the component
+- **getHierarchy(String, PHXHierarchyFileMode)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Get the variable hierarchy of a running instance.
+- **getHierarchyAsync(String, PHXHierarchyFileMode, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Get the variable hierarchy of a running instance.
+- **getHost()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Get the host which sent the message.
+- **getHostName()** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves the host name of the server
+- **getHostname()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Returns the currently-connected host, or null if none.
+- **getIcon(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves an icon for an analysis
+- **getIcon(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Retrieve an icon.
+- **getIcon()** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **getIconAsync(String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Retrieve an icon.
+- **getIconFileName()** - Method in class [com.phoenix_int.aserver.util.PHXIcon](com/phoenix_int/aserver/util/PHXIcon.md)<br> Gets the file name of the icon.
+- **getIconURI()** - Method in class [com.phoenix_int.aserver.util.PHXIcon](com/phoenix_int/aserver/util/PHXIcon.md)<br> Gets the URI of the icon.
+- **getIconUri()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get URI of icon to use for component
+- **getIconUri()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get URI of icon to use for component
+- **getID()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Get the unique identifier of the message.
+- **getID()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Get the ID set on this file when the contents were set.
+- **getIgnoreErrors()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Gets the "IgnoreErrors" flag
+- **getInput()** - Method in interface [com.phoenix_int.aserver.types.IPHXRefPropInfo](com/phoenix_int/aserver/types/IPHXRefPropInfo.md)<br> retrieves an indicator of whether the ref prop is an input or an output.
+- **getInput()** - Method in class [com.phoenix_int.aserver.types.PHXRefArrayProperty](com/phoenix_int/aserver/types/PHXRefArrayProperty.md)<br> retrieves an indicator of whether the ref prop is an input or an output.
+- **getInput()** - Method in class [com.phoenix_int.aserver.types.PHXRefProperty](com/phoenix_int/aserver/types/PHXRefProperty.md)<br> retrieves an indicator of whether the ref prop is an input or an output.
+- **getInputs()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get component inputs
+- **getInputs()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get component inputs
+- **getInputStream()** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)
+- **getInputStream()** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Returns an InputStream which can be read sequentially and contains the contents of the string.
+- **getInstanceFiles()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get component instance files
+- **getInstanceFiles()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get component instance files
+- **getIntArrayMemberValue(String, int)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get the value of an 1D integer array element
+- **getIntArrayMemberValue(String, int[])** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get the value of an integer array element
+- **getInternalObject()** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get internal Java object that represent the data
+- **getIntMemberValue(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> gets the value of an integer member
+- **getInvalidAssociation()** - Method in exception [com.phoenix_int.aserver.library.PHXNoSuchAssociationException](com/phoenix_int/aserver/library/PHXNoSuchAssociationException.md)<br> retrieves the name that was invalid
+- **getInvalidCategory()** - Method in exception [com.phoenix_int.aserver.library.PHXNoSuchCategoryException](com/phoenix_int/aserver/library/PHXNoSuchCategoryException.md)<br> retrieves the category name that was invalid
+- **getInvalidIcon()** - Method in exception [com.phoenix_int.aserver.library.PHXNoSuchIconException](com/phoenix_int/aserver/library/PHXNoSuchIconException.md)<br> retrieves the name that was invalid
+- **getInvalidID()** - Method in exception [com.phoenix_int.aserver.client.PHXNoSuchResponseException](com/phoenix_int/aserver/client/PHXNoSuchResponseException.md)<br> retrieves the id that didn't have a response
+- **getInvalidID()** - Method in exception [com.phoenix_int.aserver.client.PHXResponseTypeMismatchException](com/phoenix_int/aserver/client/PHXResponseTypeMismatchException.md)<br> retrieves the id that didn't have a response
+- **getInvalidObject()** - Method in exception [com.phoenix_int.aserver.PHXNoSuchObjectException](com/phoenix_int/aserver/PHXNoSuchObjectException.md)<br> retrieves the object name that was invalid
+- **getInvokeResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getIsBinary()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Tells whether or not the the file is binary.
+- **getIsBinary()** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Tells whether or not the array contains binary files or not.
+- **getIsBinary(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> return true if the file member contains a binary file
+- **getJobID()** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)
+- **getJobListener()** - Method in class [com.phoenix_int.aserver.util.PHXRuntime](com/phoenix_int/aserver/util/PHXRuntime.md)
+- **getJobNode()** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)
+- **getKeywords()** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **getLength()** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)<br> retrieves the number of references in the array
+- **getLength()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Gets the length of the first dimension of the array
+- **getLength(int)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Gets the length of a dimension of the array
+- **getLine(int)** - Method in interface [com.phoenix_int.aserver.util.IPHXLineStore](com/phoenix_int/aserver/util/IPHXLineStore.md)<br> retrieves the specified line
+- **getLineNumber()** - Method in class [com.phoenix_int.aserver.util.PHXFileLoader](com/phoenix_int/aserver/util/PHXFileLoader.md)<br> returns the line number of the last line read.
+- **getLineStore()** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> Gets the underlying line store object for this parser
+- **getListArrayValuesResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>
+- **getListCategoriesResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getListClassesResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getListMethodsResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getListPropertiesResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getListResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getListValuesResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>
+- **getLockResize()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)
+- **getLongValue(int)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> Gets the value of an element as a long
+- **getLongValue(int[])** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> Gets the value of an element as a long
+- **getLowerBound()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> retrieves the current lower bound value
+- **getLowerBound()** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> retrieves the current lower bound value
+- **getLowerBound()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>retrieves the current lower bound value
+- **getLowerBound()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> retrieves the current lower bound value
+- **getLowerBound()** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> retrieves the current lower bound value
+- **getLowerBound()** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br>Deprecated.<br>Get lower bound of variable; may be null
+- **getMajor()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerVersion](com/phoenix_int/aserver/client/v2/AnalysisServerVersion.md)<br> Get the major version.
+- **getMass()** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **getMassProperties()** - Method in class [com.phoenix_int.aserver.types.PHXGeomInfo](com/phoenix_int/aserver/types/PHXGeomInfo.md)
+- **getMatrixArray(int, int, int, int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> gets an array of tokens for the specified range.
+- **getMatrixArray(int, int, int, int, int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> gets an array of tokens for the specified range.
+- **getMatrixArray2d(int, int, int, int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> gets an array of tokens for the specified range.
+- **getMax()** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)
+- **getMax()** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)
+- **getMemberDescription(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get description of the member
+- **getMemberDimensions(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get dimensions and size of an array member
+- **getMemberEnumAliases(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get enum aliases of the member
+- **getMemberEnumValues(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> return enum values of the member
+- **getMemberLength(String, int)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get length of an array member
+- **getMemberLength(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get length of an 1D array member
+- **getMemberList(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get a list of child members.
+- **getMemberLowerBound(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get lowerBound of a member
+- **getMemberNumDimensions(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get number of dimensions of an array member
+- **getMemberProperty(String, String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get value of a property of the member
+- **getMemberType(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> return type of the member
+- **getMemberUnits(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get units of the member
+- **getMemberUpperBound(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> return upperBound of the member
+- **getMemberValueAsString(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> gets the value of a member as a string
+- **getMemUsage()** - Method in class [com.phoenix_int.aserver.util.PHXProcessInfo](com/phoenix_int/aserver/util/PHXProcessInfo.md)<br> Gets the memory usage of this process, if available
+- **getMetaData()** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br>Deprecated.<br>Get additional variable meta data
+- **getMetaData()** - Method in interface [com.phoenix_int.pacz.api.v2.IRuntimeVariable](com/phoenix_int/pacz/api/v2/IRuntimeVariable.md)<br> Get additional variable meta data
+- **getMethodDescriptor(String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> find the Method Descriptor associated with a given name
+- **getMethodDescriptors()** - Method in interface [com.phoenix_int.aserver.IPHXSelfManager](com/phoenix_int/aserver/IPHXSelfManager.md)<br> function for retrieving the methods of an object
+- **getMethodDescriptors()** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> retrieves a set of method descriptors for this object
+- **getMethodList()** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get a list of methods
+- **getMimeType()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)
+- **getMimeType()** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> get mime type of the files in the array.<br>Currently all elements of an array should have the same mime type.
+- **getMin()** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)
+- **getMin()** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)
+- **getMinor()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerVersion](com/phoenix_int/aserver/client/v2/AnalysisServerVersion.md)<br> Get the minor version.
+- **getMode()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Gets the runshare mode
+- **getMonitor(String)** - Method in interface [com.phoenix_int.aserver.IPHXMonitorable](com/phoenix_int/aserver/IPHXMonitorable.md)<br> Gets a specified monitor.
+- **getMonitor(String)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Returns any available monitors by name.
+- **getName()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisVariableValue](com/phoenix_int/aserver/client/v2/AnalysisVariableValue.md)<br> Get the variable name.
+- **getName()** - Method in class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Gets the name of this branch
+- **getName()** - Method in class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Gets the version name
+- **getName()** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> retrieves the name of the group
+- **getName()** - Method in class [com.phoenix_int.aserver.PHXMethodDescriptor](com/phoenix_int/aserver/PHXMethodDescriptor.md)
+- **getName()** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> retrieves the property name
+- **getName()** - Method in class [com.phoenix_int.aserver.PHXVariableInfo](com/phoenix_int/aserver/PHXVariableInfo.md)
+- **getName()** - Method in interface [com.phoenix_int.aserver.types.IPHXRefPropInfo](com/phoenix_int/aserver/types/IPHXRefPropInfo.md)<br> retrieves the name of the variable
+- **getName()** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br>Deprecated.<br>retrieves the name of the file
+- **getName()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> retrieves the name of the file
+- **getName(int)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> retrieves the name of the file for an element of an 1D array
+- **getName(int[])** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> retrieves the name of the file for an element of an array
+- **getName()** - Method in class [com.phoenix_int.aserver.types.PHXRefArrayProperty](com/phoenix_int/aserver/types/PHXRefArrayProperty.md)<br> retrieves the name of the variable
+- **getName()** - Method in class [com.phoenix_int.aserver.types.PHXRefProperty](com/phoenix_int/aserver/types/PHXRefProperty.md)<br> retrieves the name of the variable
+- **getName()** - Method in class [com.phoenix_int.aserver.util.PHXFileName](com/phoenix_int/aserver/util/PHXFileName.md)
+- **getName()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXBookmark](com/phoenix_int/aserver/util/scriptwrapper/api/PHXBookmark.md)
+- **getName()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **getName()** - Method in interface [com.phoenix_int.pacz.api.IInstanceFile](com/phoenix_int/pacz/api/IInstanceFile.md)<br>Deprecated.<br>Get name of instance file
+- **getName()** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br>Deprecated.<br>Get variable name
+- **getName()** - Method in interface [com.phoenix_int.pacz.api.v2.IInstanceFile](com/phoenix_int/pacz/api/v2/IInstanceFile.md)<br> Get name of instance file
+- **getNameCoded()** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br>Deprecated.<br>retrieves the name of the file in coded form (without `$variables` replaced)
+- **getNameCoded()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> retrieves the name of the file in coded form (without `$variables` replaced)
+- **getNameCoded(int)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> retrieves the name of the file in coded form (without `$variables` replaced) for an element of an 1D array
+- **getNameCoded(int[])** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> retrieves the name of the file in coded form (without `$variables` replaced) for an element of an array
+- **getNamePart(String)** - Static method in class [com.phoenix_int.aserver.util.PHXNameDivider](com/phoenix_int/aserver/util/PHXNameDivider.md)<br> retrieves the name part from a full name
+- **getNames()** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> get file names of the elements as an array
+- **getNamesCoded()** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> get coded file names of the elements as an array
+- **getNamesCodedString()** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> get coded file names of the elements as a comma separated string
+- **getNamesString()** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> get file names as a comma separated list
+- **getnDIndex(long, int[])** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)
+- **getNumBranches()** - Method in class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Gets the number of sub-branches
+- **getNumDimensions(Object)** - Static method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)
+- **getNumDimensions()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Gets the number of dimensions of the array
+- **getNumDimensions(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **getNumDimensions()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **getNumGroups()** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> retrieves the number of subgroups in the group.
+- **getNumLines()** - Method in interface [com.phoenix_int.aserver.util.IPHXLineStore](com/phoenix_int/aserver/util/IPHXLineStore.md)<br> gets the total number of lines
+- **getNumVariables()** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> retrieves the number of variables in the group.
+- **getNumVersions()** - Method in class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Returns how many versions there are in this branch
+- **getOrientation()** - Method in class [com.phoenix_int.aserver.types.PHXGeomInfo](com/phoenix_int/aserver/types/PHXGeomInfo.md)
+- **getOutputs()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get component outputs
+- **getOutputs()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get component outputs
+- **getOutputStream()** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)
+- **getPageName()** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.IPHXRange](com/phoenix_int/aserver/util/scriptwrapper/api/IPHXRange.md)
+- **getPageName()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXCAERange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXCAERange.md)
+- **getPageName()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **getParent()** - Method in class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Retrieves the parent version
+- **getParent()** - Method in class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Gets our parent branch
+- **getParent()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **getParentProcessID()** - Method in class [com.phoenix_int.aserver.util.PHXProcessInfo](com/phoenix_int/aserver/util/PHXProcessInfo.md)<br> Gets the parent process ID of this process
+- **getParser()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.XPathFile](com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.md)<br> Get the XPath parser
+- **getPath()** - Method in interface [com.phoenix_int.pacz.api.IInstanceFile](com/phoenix_int/pacz/api/IInstanceFile.md)<br>Deprecated.<br>Get path of instance file
+- **getPath()** - Method in interface [com.phoenix_int.pacz.api.v2.IInstanceFile](com/phoenix_int/pacz/api/v2/IInstanceFile.md)<br> Get path of instance file
+- **getPathPart(String)** - Static method in class [com.phoenix_int.aserver.util.PHXNameDivider](com/phoenix_int/aserver/util/PHXNameDivider.md)<br> retrieves the path part from a full name
+- **getPercentCPU()** - Method in class [com.phoenix_int.aserver.util.PHXProcessInfo](com/phoenix_int/aserver/util/PHXProcessInfo.md)<br> Gets the percentage of the CPU usage, if available
+- **getPollDelay()** - Method in class [com.phoenix_int.aserver.monitors.PHXFileMonitor](com/phoenix_int/aserver/monitors/PHXFileMonitor.md)
+- **getProcess()** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)<br> Returns the java Process instance for this PHXProcess
+- **getProcesses(int)** - Static method in class [com.phoenix_int.aserver.util.PHXProcessInfo](com/phoenix_int/aserver/util/PHXProcessInfo.md)<br> Lists the specified process' children.
+- **getProcesses()** - Static method in class [com.phoenix_int.aserver.util.PHXProcessInfo](com/phoenix_int/aserver/util/PHXProcessInfo.md)<br> lists all processes on the system
+- **getProcessID()** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)<br> Returns the platform dependent process ID associated with this process.
+- **getProcessID()** - Method in class [com.phoenix_int.aserver.util.PHXProcessInfo](com/phoenix_int/aserver/util/PHXProcessInfo.md)<br> Gets the platform dependeng process ID number
+- **getProperties()** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)<br> retrieves the properties of the variable
+- **getProperties()** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)<br> get-set function for AServer
+- **getProperties()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get additional component properties
+- **getProperties()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get additional component properties
+- **getPropertyDescriptors(String)** - Method in interface [com.phoenix_int.aserver.IPHXSelfManager](com/phoenix_int/aserver/IPHXSelfManager.md)<br> function for retrieving the properties of an object
+- **getPropertyDescriptors(String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> retrieves a set of property descriptors for the variables managed by this object or one of its subobjects
+- **getQueues(String, String)** - Method in interface [com.phoenix_int.aserver.library.IPHXLibrarian](com/phoenix_int/aserver/library/IPHXlibrarian.md)<br>Deprecated.<br>gets the available run queues
+- **getQueues(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXCVSLibrarian](com/phoenix_int/aserver/library/PHXCVSLibrarian.md)<br> method for getting Queues from CenterLink, MCRE just returns blank string
+- **getQueues(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXDirectoryLibrarian](com/phoenix_int/aserver/library/PHXDirectoryLibrarian.md)<br> method for getting Queues from CenterLink, MCRE just returns blank string
+- **getQueues(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianCombiner](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)<br> get the queues for the specified component.
+- **getQueues(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianMounter](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)<br> gets queues for the specified component.
+- **getQueues(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXUserDirLibrarian](com/phoenix_int/aserver/library/PHXUserDirLibrarian.md)<br> method for getting Queues from CenterLink, MCRE just returns blank string
+- **getRange()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXBookmark](com/phoenix_int/aserver/util/scriptwrapper/api/PHXBookmark.md)
+- **getReader()** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Returns a Reader which can be read sequentially and contains the contents of the string.
+- **getRealFile(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> Get the file on disk, possibly relative to the current run-share directory
+- **getRed()** - Method in class [com.phoenix_int.aserver.types.PHXAppearance](com/phoenix_int/aserver/types/PHXAppearance.md)
+- **getRedirectURL()** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **getReference()** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)<br> retrieves the current reference string.
+- **getReference()** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)<br> retrieves the current reference string.
+- **getReference(int)** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)
+- **getRefPropValueBoolean(String)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)
+- **getRefPropValueBoolean(String, int)** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)
+- **getRefPropValueDouble(String)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)<br> gets a value for a ref prop
+- **getRefPropValueDouble(String, int)** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)<br> gets a value for a ref prop
+- **getRefPropValueLong(String)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)
+- **getRefPropValueLong(String, int)** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)
+- **getRefPropValueString(String)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)
+- **getRefPropValueString(String, int)** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)
+- **getRemainder()** - Method in class [com.phoenix_int.aserver.util.PHXFileLoader](com/phoenix_int/aserver/util/PHXFileLoader.md)<br> returns the rest of the file as a string
+- **getRemainder()** - Method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Returns the remainder of the string (stuff not yet returned via `nextToken()`)
+- **getRemainder2()** - Method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Returns the remainder of the string (stuff not yet returned via `nextToken()`)
+- **getReplacement(String)** - Method in interface [com.phoenix_int.aserver.util.IPHXStringReplacer](com/phoenix_int/aserver/util/IPHXStringReplacer.md)<br> replaces the specified string with some other value.
+- **getRequiredFeatures()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get list of features required for component to execute
+- **getRequiredFeatures()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get list of features required for component to execute
+- **getRequirements()** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)<br> Get the comma separated list of unquoted requirements.
+- **getResponse()** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClientEvent](com/phoenix_int/aserver/client/PHXAnalysisClientEvent.md)<br> retrieves the response
+- **getResponse()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerWaitCallback](com/phoenix_int/aserver/client/v2/AnalysisServerWaitCallback.md)<br> Get the response, or null if it has not been received.
+- **getResponseAsPHXStringBuffer(String, int, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a low-level response from the server in String format.
+- **getResponseAsText(String, int, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a low-level response from the server in String format.
+- **getResponseType()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Get the type of response.
+- **getReturnString()** - Method in class [com.phoenix_int.aserver.PHXInvokeReturn](com/phoenix_int/aserver/PHXInvokeReturn.md)<br> retrieves the return string for the custom method
+- **getRootGroup()** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> retrieves the root group
+- **getRotX()** - Method in class [com.phoenix_int.aserver.types.PHXOrientation](com/phoenix_int/aserver/types/PHXOrientation.md)
+- **getRotY()** - Method in class [com.phoenix_int.aserver.types.PHXOrientation](com/phoenix_int/aserver/types/PHXOrientation.md)
+- **getRotZ()** - Method in class [com.phoenix_int.aserver.types.PHXOrientation](com/phoenix_int/aserver/types/PHXOrientation.md)
+- **getRowArray(int, int, int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> gets an array of tokens for the specified range.
+- **getRowColString()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **getRunDirectory()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Returns the current "run" directory, which is the same as getDirectory() unless run sharing is being used.
+- **getRunFolderPreference()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get run folder preference for component
+- **getRunFolderPreference()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get run folder preference for component
+- **getRunShare()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Returns the PHXRunShareContext object used for process control and monitoring with this component
+- **getRunShare2()** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager3](com/phoenix_int/aserver/PHXSimpleSelfManager3.md)<br> Return the run share object
+- **getScratchDirectory()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Request for the server's scratch directory.
+- **getScratchDirectoryAsync(IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Request for the server's scratch directory.
+- **getSelf()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)
+- **getSetByUrlResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getSetDictionaryResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getSetHierarchyResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getSetResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getShell()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Gets the shell used to execute commands.
+- **getShell()** - Method in class [com.phoenix_int.aserver.util.PHXRuntime](com/phoenix_int/aserver/util/PHXRuntime.md)<br> returns the shell used to run programs
+- **getSource()** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)
+- **getStart()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **getStart(boolean)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **getStart()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **getStartCol()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **getStartMark()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **getStartOccurrence()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **getStartOffset()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **getStartResponse(String, boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated.<br>retrieves a response from the server
+- **getStartRow()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **getString()** - Method in class [com.phoenix_int.aserver.monitors.PHXMonitorableStream](com/phoenix_int/aserver/monitors/PHXMonitorableStream.md)<br> Gets the current contents of the stream
+- **getStringArrayMemberValue(String, int)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get the value of an 1D String array element
+- **getStringArrayMemberValue(String, int[])** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get the value of a string array element
+- **getStringData()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Get the string data; only valid if format is Normal or Extended.
+- **getStringMemberValue(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> gets the value of string member
+- **getStringValue(int)** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)<br> Gets a particular element as a String
+- **getStringValue(int[])** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)<br> Gets a particular element as a String
+- **getSurfaceArea()** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **getSystemProperty(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Request for the server's system property.
+- **getSystemPropertyAsync(String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Request for the server's system property.
+- **getTemporaryFile()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Get the current temporary file; if _needRead is true this will load the contents from the actual file into the temporary.
+- **getTemporaryFileHandle()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Get an additional reference to the temporary file containing the current value, or null if there is no temp file currently.
+- **getTempScriptFileName()** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)
+- **getTime()** - Method in class [com.phoenix_int.aserver.util.PHXProcessInfo](com/phoenix_int/aserver/util/PHXProcessInfo.md)<br> Returns the amount of CPU time this process has used, in ???, if available.
+- **getTimeStamp()** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **getTitle()** - Method in interface [com.phoenix_int.aserver.types.IPHXRefPropInfo](com/phoenix_int/aserver/types/IPHXRefPropInfo.md)<br> retrieves a title of the ref prop.
+- **getTitle()** - Method in class [com.phoenix_int.aserver.types.PHXRefArrayProperty](com/phoenix_int/aserver/types/PHXRefArrayProperty.md)<br> retrieves a title of the ref prop.
+- **getTitle()** - Method in class [com.phoenix_int.aserver.types.PHXRefProperty](com/phoenix_int/aserver/types/PHXRefProperty.md)<br> retrieves a title of the ref prop.
+- **getToken(String, int, int, int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> gets the token relative to a search string.
+- **getToken(String, int, int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> gets the token relative to a search string.
+- **getToken(int, int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> gets the token at the specified row and field.
+- **getToken(int, int, int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> gets the token at the specified row and column.
+- **getToken(int, int, int, String)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> gets an array of tokens at the specified row and between start and end fields (all inclusive). Indexing starts at 1.
+- **getTransX()** - Method in class [com.phoenix_int.aserver.types.PHXOrientation](com/phoenix_int/aserver/types/PHXOrientation.md)
+- **getTransY()** - Method in class [com.phoenix_int.aserver.types.PHXOrientation](com/phoenix_int/aserver/types/PHXOrientation.md)
+- **getTransZ()** - Method in class [com.phoenix_int.aserver.types.PHXOrientation](com/phoenix_int/aserver/types/PHXOrientation.md)
+- **getType()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisVariableValue](com/phoenix_int/aserver/client/v2/AnalysisVariableValue.md)<br> Get the type of the variable.
+- **getType()** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> retrieves the type of the property as a string
+- **getType()** - Method in class [com.phoenix_int.aserver.PHXVariableInfo](com/phoenix_int/aserver/PHXVariableInfo.md)
+- **getType()** - Method in interface [com.phoenix_int.aserver.types.IPHXRefPropInfo](com/phoenix_int/aserver/types/IPHXRefPropInfo.md)<br> retrieves the current type of the variable
+- **getType()** - Method in class [com.phoenix_int.aserver.types.PHXRefArrayProperty](com/phoenix_int/aserver/types/PHXRefArrayProperty.md)<br> retrieves the current type of the variable
+- **getType()** - Method in class [com.phoenix_int.aserver.types.PHXRefProperty](com/phoenix_int/aserver/types/PHXRefProperty.md)<br> retrieves the current type of the variable
+- **getType()** - Method in class [com.phoenix_int.aserver.util.PHXIcon](com/phoenix_int/aserver/util/PHXIcon.md)<br> retrieves the type for the image
+- **getType()** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br>Deprecated.<br>Get variable data type
+- **getType()** - Method in interface [com.phoenix_int.pacz.api.v2.IRuntimeVariable](com/phoenix_int/pacz/api/v2/IRuntimeVariable.md)<br> Get variable data type
+- **getTypeClass()** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> retrieves the type of the property as a Class object.
+- **getUnits()** - Method in interface [com.phoenix_int.aserver.types.IPHXUnits](com/phoenix_int/aserver/types/IPHXUnits.md)<br> Get the units string for the variable
+- **getUnits()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleType](com/phoenix_int/aserver/types/PHXSimpleType.md)<br> Get the units string for the variable
+- **getUnits()** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br>Deprecated.<br>Get variable units
+- **getUpperBound()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> retrieves the current upper bound value
+- **getUpperBound()** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> retrieves the current upper bound value
+- **getUpperBound()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>retrieves the current upper bound value
+- **getUpperBound()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> retrieves the current upper bound value
+- **getUpperBound()** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> retrieves the current upper bound value
+- **getUpperBound()** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br>Deprecated.<br>Get upper bound of variable; may be null
+- **getUri()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Get the currently-connected URI, or null if none.
+- **getUrl()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisVariableValue](com/phoenix_int/aserver/client/v2/AnalysisVariableValue.md)<br> Get the URL of the variable, or null if none.
+- **getURL()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Tells whether the file is meant to be transferred by proxy
+- **getURLs()** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> get URLs of the elements as an array
+- **getURLsString()** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> get URLs of the elements as a comma separated string
+- **getValue()** - Method in class [com.phoenix_int.aserver.client.PHXPropertyValue](com/phoenix_int/aserver/client/PHXPropertyValue.md)
+- **getValue()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisVariableValue](com/phoenix_int/aserver/client/v2/AnalysisVariableValue.md)<br> Get the value of the variable (null if URL).
+- **getValue(String)** - Method in interface [com.phoenix_int.aserver.IPHXSelfManager](com/phoenix_int/aserver/IPHXSelfManager.md)<br> function for retrieving a specified value
+- **getValue()** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)
+- **getValue(String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> retrieves the value for the appropriate variable
+- **getValue()** - Method in class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md)<br> retrieves the current value of the variable
+- **getValue(int[])** - Method in class [com.phoenix_int.aserver.types.PHXBooleanArray](com/phoenix_int/aserver/types/PHXBooleanArray.md)<br> Gets the value of an element as a PHXBoolean object
+- **getValue()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> retrieves the current value of the variable
+- **getValue(int[])** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> gets an element as a PHXDouble object
+- **getValue()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>retrieves the current value of the variable
+- **getValue()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> retrieves the current value of the variable
+- **getValue(int)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> Gets the value of an element as a PHXLong object
+- **getValue(int[])** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> Gets the value of an element as a PHXLong object
+- **getValue(int[])** - Method in class [com.phoenix_int.aserver.types.PHXObjectArray](com/phoenix_int/aserver/types/PHXObjectArray.md)<br> Gets the value of an element as an object of the appropriate subtype.<br>Must be overridden in subclasses
+- **getValue(int)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> a utility function to return the internal `PHXRawFile` that represents the array element for the 1D array.
+- **getValue(int[])** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> a utility function to return the internal `PHXRawFile` that represents the array element for the array.
+- **getValue()** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)<br> retrieves the current value of the variable
+- **getValue()** - Method in class [com.phoenix_int.aserver.types.PHXRefProperty](com/phoenix_int/aserver/types/PHXRefProperty.md)<br> retrieves the current value of the variable
+- **getValue(int)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Gets an element as PHXSimpleType object of the appropriate subtype
+- **getValue(int[])** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Gets the value of an element as an object of the appropriate subtype Must be overridden in subclasses
+- **getValue()** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> retrieves the current value of the variable
+- **getValue(int[])** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)<br> Gets a particular element as a PHXString
+- **getValue2(String)** - Method in interface [com.phoenix_int.aserver.IPHXSelfManager2](com/phoenix_int/aserver/IPHXSelfManager2.md)<br> function for retrieving a specified value
+- **getValue2()** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)
+- **getValue2(String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> retrieves the value for the appropriate variable
+- **getValue3()** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)
+- **getValues(int)** - Method in class [com.phoenix_int.aserver.types.PHXRefArrayProperty](com/phoenix_int/aserver/types/PHXRefArrayProperty.md)<br> gets the value at an index
+- **getValues()** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)<br> retrieves the current value of the variable
+- **getValueStr()** - Method in class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md)<br> retrieves the string value of this variable as passed into the last call to `fromString()`.
+- **getValueStr()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> retrieves the string value of this variable as passed into the last call to `fromString()`.
+- **getValueStr()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated.<br>retrieves the string value of this variable as passed into the last call to `fromString()`.
+- **getValueStr()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> retrieves the string value of this variable as passed into the last call to `fromString()`.
+- **getValueStream()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br>Deprecated.<br>using toString2().getInputStream() is prefered.
+- **getValueStreamLen()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Gets the length of a stream to the temporary file contents.
+- **getVariable()** - Method in class [com.phoenix_int.aserver.PHXVariableInfo](com/phoenix_int/aserver/PHXVariableInfo.md)
+- **getVariable(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Returns a reference to the named variable.
+- **getVariableClass(String)** - Static method in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Returns the class associated with the type string.
+- **getVariableFullName(Object)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> gets the name of a variable
+- **getVariableInfo(String)** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> retrieves a variable from the group.
+- **getVariableInfo(Object)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> gets the information about a variable
+- **getVariableInfo(String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> retrieves a variable information object from the manager
+- **getVariableInfo(String, String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> retrieves a variable information object from the manager
+- **getVariableInfo2(String)** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> retrieves a variable from the group.
+- **getVariableInfo2(String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> retrieves a variable information object from the manager
+- **getVariableInfo2(String, String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> retrieves a variable information object from the manager
+- **getVariableName()** - Method in interface [com.phoenix_int.pacz.api.v2.IRuntimeVariable](com/phoenix_int/pacz/api/v2/IRuntimeVariable.md)<br> Get variable name
+- **getVariables()** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> retrieves the Enumeration of variables in the group.
+- **getVariables2()** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> retrieves all of the variables in the group.
+- **getVarType(String)** - Static method in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Given the class name, determine the corresponding type.
+- **getVersion()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Get the MCRE version.
+- **getVersion(int)** - Method in class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Gets the i'th version
+- **getVersion()** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **getVersion()** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br>Deprecated.<br>Get component version
+- **getVersion()** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Get component version
+- **getVersionHistory(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Get the version history of an analysis.
+- **getVersionHistoryAsync(String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Get the version history of an analysis.
+- **getVersions()** - Method in class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Returns an Iterator over the sub-versions
+- **getVolume()** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **getWrapperID()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Returns the wrapper ID being used for locking.
+- **getWriter()** - Method in class [com.phoenix_int.aserver.monitors.PHXMonitorableStream](com/phoenix_int/aserver/monitors/PHXMonitorableStream.md)<br> Gets a java.io.Writer which when written to appends onto this monitor
+
+# H
+
+- **halt()** - Method in interface [com.phoenix_int.aserver.IPHXHaltableComponent](com/phoenix_int/aserver/IPHXHaltableComponent.md)<br> notifies the component to stop doing whatever it is currently doing.
+- **halt()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> halts any running process
+- **handleLogin(InputStream, OutputStream, String, String)** - Static method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated. 
+- **hasChanged()** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br>Deprecated. checks to see if the file has changed since the last time `getContents()` was called
+- **hasChanged()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Checks to see if the actual file has changed since the last time `getContents()` was called.
+- **hasChanged(int)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> checks to see if the file has changed since the last time `getContents()` was called for an element of an 1D array
+- **hasChanged(int[])** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> checks to see if the file has changed since the last time `getContents()` was called for an element of an array
+- **hasFormat()** - Method in interface [com.phoenix_int.aserver.types.IPHXFormat](com/phoenix_int/aserver/types/IPHXFormat.md)<br> Whether or not the variable has a format
+- **hasFormat()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> Whether or not the variable has a format
+- **hasFormat()** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> Whether or not the variable has a format
+- **hasFormat()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated. Whether or not the variable has a format
+- **hasFormat()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Whether or not the variable has a format
+- **hasFormat()** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> 
+- **hashCode()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerVersion](com/phoenix_int/aserver/client/v2/AnalysisServerVersion.md)
+- **hasMember(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> check if a member exists
+- **hasMemberLowerBound(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> check if a member has lower bound defined
+- **hasMemberUpperBound(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> check if a member has lower bound defined
+- **hasMoreElements()** - Method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Returns the same value as the`hasMoreTokens`method.
+- **hasMoreTokens()** - Method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Tests if there are more tokens available from this tokenizer's string.
+- **hasText()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Does this response have actual string data (i.e.
+- **HISTORY_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br>Deprecated. 
+
+# I
+
+- **IAnalysisServerCallback** - Interface in [com.phoenix_int.aserver.client.v2](com/phoenix_int/aserver/client/v2/IAnalysisServerCallback.md)<br> Callback for ModelCenter Remote Execution events.
+- **IComponentConfig** - Interface in [com.phoenix_int.pacz.api](com/phoenix_int/pacz/api/IComponentConfig.md)<br> Deprecated.<br>see [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)
+- **IComponentConfig** - Interface in [com.phoenix_int.pacz.api.v2](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Configuration for PACZ file
+- **IInstanceFile** - Interface in [com.phoenix_int.pacz.api](com/phoenix_int/pacz/api/IInstanceFile.md)<br> Deprecated.<br>see [com.phoenix_int.pacz.api.v2.IInstanceFile](com/phoenix_int/pacz/api/v2/IInstanceFile.md)
+- **IInstanceFile** - Interface in [com.phoenix_int.pacz.api.v2](com/phoenix_int/pacz/api/v2/IInstanceFile.md)<br> Instance file within a component
+- **incrementIndex(int[], int[])** - Static method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Utility function for incrementing an nD index on the array
+- **indexOf(char)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Searches for a given character and returns the index to that character, or -1 if not found
+- **indexOf(char, int)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)
+- **indexOf(char, long)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Searches for a given character and returns the index to that character, or -1 if not found
+- **indexOf(String, int)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)
+- **indexOf(String, long)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)
+- **initialize(PHXConnection, IPHXFactory, PHXAServerArgs, Node)** - Method in interface [com.phoenix_int.aserver.library.IPHXLibrarian](com/phoenix_int/aserver/library/IPHXLibrarian.md)<br> Deprecated.<br>Tells this librarian to configure itself based on the XML node passed in.
+- **initialize(PHXConnection, IPHXFactory, PHXAServerArgs, Node)** - Method in class [com.phoenix_int.aserver.library.PHXCVSLibrarian](com/phoenix_int/aserver/library/PHXCVSLibrarian.md)<br> There are 2 options for this class.
+- **initialize(PHXConnection, IPHXFactory, PHXAServerArgs, Node)** - Method in class [com.phoenix_int.aserver.library.PHXDirectoryLibrarian](com/phoenix_int/aserver/library/PHXDirectoryLibrarian.md)<br> There is only 1 option for this class, "analysesPath" which must be a single directory that exists on the local system.
+- **initialize(PHXConnection, IPHXFactory, PHXAServerArgs, Node)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianCombiner](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)<br> The XML initialization information for this class is simply a list of `<librarian>` tags which contain `<librarianClass>` and `<librarianOptions>` tags inside.
+- **initialize(PHXConnection, IPHXFactory, PHXAServerArgs, Node)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianMounter](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)<br> The XML initialization information for this class is simply a list of `<librarian>` tags which contain `<className>`, `<mountPoint>`, and `<librarianOptions>` tags inside.
+- **initialize(PHXConnection, IPHXFactory, PHXAServerArgs, Node)** - Method in class [com.phoenix_int.aserver.library.PHXUserDirLibrarian](com/phoenix_int/aserver/library/PHXUserDirLibrarian.md)<br> There are 2 options for this class.
+- **initialize(String, boolean, Object)** - Method in class [com.phoenix_int.aserver.PHXVariableInfo](com/phoenix_int/aserver/PHXVariableInfo.md)<br> initializes the variable
+- **initialize(PHXDataObjectClass)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> initialize object variable with the specified class
+- **initializeIterations()** - Method in interface [com.phoenix_int.aserver.IPHXDriver](com/phoenix_int/aserver/IPHXDriver.md)<br> initializes the driver to a starting state.
+- **InputFile** - Interface in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/InputFile.md)<br> Interface for input files (not file variables) used in script-wrappers
+- **insertVersion(PHXComponentVersion, int)** - Method in class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Inserts a version to this branch at a particular location
+- **instantiate(File, String, String)** - Method in interface [com.phoenix_int.aserver.library.IPHXFactory](com/phoenix_int/aserver/library/IPHXFactory.md)<br> Deprecated.<br>It is preferred to use`IPHXFactory2.instantiateManaged(java.io.File, java.lang.String, java.lang.String)`as this method can lead to resource leaks.
+- **instantiate(String, String)** - Method in interface [com.phoenix_int.aserver.library.IPHXLibrarian](com/phoenix_int/aserver/library/IPHXLibrarian.md)<br> Deprecated.
+- **instantiate(String, String, String, String)** - Method in interface [com.phoenix_int.aserver.library.IPHXLibrarian](com/phoenix_int/aserver/library/IPHXLibrarian.md)<br> Deprecated.
+- **instantiate(String, String, String, String)** - Method in class [com.phoenix_int.aserver.library.PHXCVSLibrarian](com/phoenix_int/aserver/library/PHXCVSLibrarian.md)<br> creates an instance of the specified component.
+- **instantiate(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXCVSLibrarian](com/phoenix_int/aserver/library/PHXCVSLibrarian.md)<br> creates an instance of the specified component.
+- **instantiate(String, String, String, String)** - Method in class [com.phoenix_int.aserver.library.PHXDirectoryLibrarian](com/phoenix_int/aserver/library/PHXDirectoryLibrarian.md)<br> creates an instance of the specified component.
+- **instantiate(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXDirectoryLibrarian](com/phoenix_int/aserver/library/PHXDirectoryLibrarian.md)<br> creates an instance of the specified component.
+- **instantiate(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianCombiner](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)<br> creates an instance of the specified component.
+- **instantiate(String, String, String, String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianCombiner](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)**
+- **instantiate(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianMounter](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)<br> creates an instance of the specified component.
+- **instantiate(String, String, String, String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianMounter](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)**
+- **instantiate(String, String, String, String)** - Method in class [com.phoenix_int.aserver.library.PHXUserDirLibrarian](com/phoenix_int/aserver/library/PHXUserDirLibrarian.md)<br> creates an instance of the specified component.
+- **instantiate(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXUserDirLibrarian](com/phoenix_int/aserver/library/PHXUserDirLibrarian.md)<br> creates an instance of the specified component.
+- **instantiateManaged(String, String, String, String)** - Method in class [com.phoenix_int.aserver.library.PHXCVSLibrarian](com/phoenix_int/aserver/library/PHXCVSLibrarian.md)<br> Creates an instance of the specified component.
+- **instantiateManaged(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXCVSLibrarian](com/phoenix_int/aserver/library/PHXCVSLibrarian.md)<br> Creates an instance of the specified component.
+- **instantiateManaged(String, String, String, String)** - Method in class [com.phoenix_int.aserver.library.PHXDirectoryLibrarian](com/phoenix_int/aserver/library/PHXDirectoryLibrarian.md)<br> Creates an instance of the specified component.
+- **instantiateManaged(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXDirectoryLibrarian](com/phoenix_int/aserver/library/PHXDirectoryLibrarian.md)<br> Creates an instance of the specified component.
+- **instantiateManaged(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianCombiner](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)<br> Creates an instance of the specified component.
+- **instantiateManaged(String, String, String, String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianCombiner](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)<br> Creates an instance of the specified component.
+- **instantiateManaged(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianMounter](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)<br> Creates an instance of the specified component.
+- **instantiateManaged(String, String, String, String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianMounter](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)<br> Creates an instance of the specified component.
+- **instantiateManaged(String, String, String, String)** - Method in class [com.phoenix_int.aserver.library.PHXUserDirLibrarian](com/phoenix_int/aserver/library/PHXUserDirLibrarian.md)<br> Creates an instance of the specified component.
+- **instantiateManaged(String, String)** - Method in class [com.phoenix_int.aserver.library.PHXUserDirLibrarian](com/phoenix_int/aserver/library/PHXUserDirLibrarian.md)<br> Creates an instance of the specified component.
+- **invoke(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>invokes a method
+- **invoke(String, String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Invoke a method on a component instance.
+- **invoke(String)** - Method in interface [com.phoenix_int.aserver.IPHXSelfManager](com/phoenix_int/aserver/IPHXSelfManager.md)<br> invokes the named method
+- **invoke(String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> Invokes a named method.
+- **invoke2(String)** - Method in interface [com.phoenix_int.aserver.IPHXSelfManager3](com/phoenix_int/aserver/IPHXSelfManager3.md)<br> invokes the named method
+- **invoke2(String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> Invokes a named method.
+- **INVOKE_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.
+- **invokeAsync(String, String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Invoke a method on a component instance.
+- **IPHXAlwaysWriteable** - Interface in [com.phoenix_int.aserver](com/phoenix_int/aserver/IPHXAlwaysWriteable.md)<br> This is a specialized interface for ModelCenter Remote Execution.
+- **IPHXAnalysis** - Interface in [com.phoenix_int.aserver](com/phoenix_int/aserver/IPHXAnalysis.md)<br> This is the interface that analyses managed by ModelCenter Remote Execution must implement.
+- **IPHXAnalysisClientListener** - Interface in [com.phoenix_int.aserver.client](com/phoenix_int/aserver/client/IPHXAnalysisClientListener.md)<br> This interface is used by the PHXAnalysisClient class.
+- **IPHXComponent** - Interface in [com.phoenix_int.aserver](com/phoenix_int/aserver/IPHXComponent.md)<br> This is a common base interface for things served on ModelCenter Remote Execution.
+- **IPHXDescription** - Interface in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/IPHXDescription.md)<br> Interface for types with descriptions
+- **IPHXDriver** - Interface in [com.phoenix_int.aserver](com/phoenix_int/aserver/IPHXDriver.md)<br> this is the interface that drivers managed by ModelCenter Remote Execution must implement.
+- **IPHXFactory** - Interface in [com.phoenix_int.aserver.library](com/phoenix_int/aserver/library/IPHXFactory.md)<br> Deprecated.<br>It is preferred to use`IPHXFactory2`, as this class has methods that can leak resources
+- **IPHXFileCallback** - Interface in [com.phoenix_int.aserver.monitors](com/phoenix_int/aserver/monitors/IPHXFileCallback.md)<br> Callback interface to signal data available on a file being monitored.
+- **IPHXFormat** - Interface in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/IPHXFormat.md)<br> Interface for variables that support formats
+- **IPHXHaltableComponent** - Interface in [com.phoenix_int.aserver](com/phoenix_int/aserver/IPHXHaltableComponent.md)<br> This is a specialized interface for ModelCenter Remote Execution.
+- **IPHXLibrarian** - Interface in [com.phoenix_int.aserver.library](com/phoenix_int/aserver/library/IPHXLibrarian.md)<br> Deprecated.<br>It is preferred to use`IPHXLibrarian2`as this class uses methods that can leak resources.
+- **IPHXLineStore** - Interface in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/IPHXLineStore.md)<br> This is the interface for holding a set of lines.
+- **IPHXMonitorable** - Interface in [com.phoenix_int.aserver](com/phoenix_int/aserver/IPHXMonitorable.md)<br> this is the interface that analyses which provide information about running processes should implement
+- **IPHXRange** - Interface in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/IPHXRange.md)
+- **IPHXRangeChangeListener** - Interface in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/IPHXRangeChangeListener.md)
+- **IPHXRefPropInfo** - Interface in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/IPHXRefPropInfo.md)<br> This interface provides information about a reference property:**name**: String**type**: String**enumValues**: String[]**description**: String**title**: String**input**: boolean where `type` may be any of the following: "long", "double", "boolean", "string"
+- **IPHXRunQueue** - Interface in [com.phoenix_int.aserver](com/phoenix_int/aserver/IPHXRunQueue.md)
+- **IPHXSelfManager** - Interface in [com.phoenix_int.aserver](com/phoenix_int/aserver/IPHXSelfManager.md)<br> This interface is for components that determine their properties at runtime.
+- **IPHXSelfManager2** - Interface in [com.phoenix_int.aserver](com/phoenix_int/aserver/IPHXSelfManager2.md)<br> This interface extends IPHXSelfManager and provides new get and set functions which provide better performance than
+ the original.
+- **IPHXSelfManager3** - Interface in [com.phoenix_int.aserver](com/phoenix_int/aserver/IPHXSelfManager3.md)<br> This interface extends IPHXSelfManager2 and provides new invoke that enables getting more information back from invoked methods.
+- **IPHXSetupFromFile** - Interface in [com.phoenix_int.aserver](com/phoenix_int/aserver/IPHXSetupFromFile.md)<br> This interface is used by association-based analysis objects.
+- **IPHXStringReplacer** - Interface in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/IPHXStringReplacer.md)<br> This is the interface for a replacing strings, used by the `PHXStringReplacer` class
+- **IPHXType** - Interface in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/IPHXType.md)<br> The interface for all Phoenix types.
+- **IPHXType2** - Interface in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/IPHXType2.md)<br> The interface for Phoenix types which use `PHXStringBuffer` instead of String for performance.
+- **IPHXType2.IVisitor`<T>`** - Interface in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/IPHXType2.md)<br> The interface of a visitor into an IPHXType2.
+- **IPHXUnits** - Interface in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/IPHXUnits.md)<br> Interface for PHX variables that support units
+- **IPHXVersionedLibrarian** - Interface in [com.phoenix_int.aserver.library](com/phoenix_int/aserver/library/IPHXVersionedLibrarian.md)<br> Deprecated.<br>It is preferred to use `IPHXVersionedLibrarian3` as this class has methods that can leak resources
+- **IPHXVersionedLibrarian2** - Interface in [com.phoenix_int.aserver.library](com/phoenix_int/aserver/library/IPHXVersionedLibrarian2.md)<br> Deprecated.<br>It is preferred to use `IPHXVersionedLibrarian3` as this class supports methods that can cause file leaks.
+- **IRuntimeVariable** - Interface in [com.phoenix_int.pacz.api](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br> Deprecated.<br>see [com.phoenix_int.pacz.api.v2.IRuntimeVariable](com/phoenix_int/pacz/api/v2/IRuntimeVariable.md)
+- **IRuntimeVariable** - Interface in [com.phoenix_int.pacz.api.v2](com/phoenix_int/pacz/api/v2/IRuntimeVariable.md)<br> Component variable interface
+- **isArray()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **isArray()** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br> Deprecated.<br>Whether or not variable is an array type
+- **isArray()** - Method in interface [com.phoenix_int.pacz.api.v2.IRuntimeVariable](com/phoenix_int/pacz/api/v2/IRuntimeVariable.md)<br> Whether or not variable is an array type
+- **isBinary()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Is this a response with binary data?
+- **isBinary()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisVariableValue](com/phoenix_int/aserver/client/v2/AnalysisVariableValue.md)<br> Get whether this is binary data.
+- **isColArray()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **isConnected()** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>determines if the client is currently connected to a server
+- **isConnected()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Is the server connected?
+- **isEnum()** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br> Deprecated.<br>Whether or not variable is an enumerated type
+- **isEnum()** - Method in interface [com.phoenix_int.pacz.api.v2.IRuntimeVariable](com/phoenix_int/pacz/api/v2/IRuntimeVariable.md)<br> Whether or not variable is an enumerated type
+- **isError()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Does the response represent an error?
+- **isHorizontallyResizable()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **isInput()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisVariableValue](com/phoenix_int/aserver/client/v2/AnalysisVariableValue.md)<br> Get whether this is an input.
+- **isInput()** - Method in class [com.phoenix_int.aserver.PHXVariableInfo](com/phoenix_int/aserver/PHXVariableInfo.md)
+- **isNonStrictType()** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> check whether a class is a non-strict type
+- **isNumeric()** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br> Deprecated.<br>Whether or not variable is a numeric type
+- **isNumeric()** - Method in interface [com.phoenix_int.pacz.api.v2.IRuntimeVariable](com/phoenix_int/pacz/api/v2/IRuntimeVariable.md)<br> Whether or not variable is a numeric type
+- **isResponseReady(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>indicates whether a response is ready
+- **isRowArray()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **isSuccess()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Is the response a successful response?
+- **isText()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerResponse](com/phoenix_int/aserver/client/v2/AnalysisServerResponse.md)<br> Does the response have text content?
+- **iterator()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Returns an iterator that loops over the array in the standard PHX order, rightmost index varies fastest.
+
+# L
+
+- **LAST** - Static variable in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)
+- **length()** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Returns the actual length of the string held by this buffer object.
+- **length()** - Method in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)
+- **list()** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>lists the running objects
+- **LIST_ARRAY_VALUES_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>
+- **LIST_CATEGORIES_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>
+- **LIST_CLASSES_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>
+- **LIST_METHODS_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>
+- **LIST_PROPERTIES_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>
+- **LIST_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>
+- **LIST_VALUES_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>
+- **LIST_VALUES_URL_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>
+- **listAnalyses(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> List the analyses on the server.
+- **listAnalysesAsync(String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> List the analyses on the server.
+- **listArrayValues(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>
+- **listCategories(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>lists the categories within a category
+- **listClasses(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>lists the classes within a category
+- **listComponents(File, String)** - Method in interface [com.phoenix_int.aserver.library.IPHXFactory](com/phoenix_int/aserver/library/IPHXFactory.md)<br> Deprecated.<br>List out all of the identifiers (historically "class" names) for a given directory as a collection of strings.
+- **listComponents(String)** - Method in interface [com.phoenix_int.aserver.library.IPHXLibrarian](com/phoenix_int/aserver/library/IPHXLibrarian.md)<br> Deprecated.<br>lists components within a specified directory
+- **listComponents(String)** - Method in class [com.phoenix_int.aserver.library.PHXCVSLibrarian](com/phoenix_int/aserver/library/PHXCVSLibrarian.md)<br> returns the components in a specific directory
+- **listComponents(String)** - Method in class [com.phoenix_int.aserver.library.PHXDirectoryLibrarian](com/phoenix_int/aserver/library/PHXDirectoryLibrarian.md)<br> returns the components in a specific directory
+- **listComponents(String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianCombiner](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)<br> returns the components in a specific directory
+- **listComponents(String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianMounter](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)<br> returns the components in a specific directory
+- **listComponents(String)** - Method in class [com.phoenix_int.aserver.library.PHXUserDirLibrarian](com/phoenix_int/aserver/library/PHXUserDirLibrarian.md)<br> returns the components in a specific directory
+- **listDirectories(String)** - Method in interface [com.phoenix_int.aserver.library.IPHXLibrarian](com/phoenix_int/aserver/library/IPHXLibrarian.md)<br> Deprecated.<br>lists any available sub-directories from a particular directory
+- **listDirectories(String)** - Method in class [com.phoenix_int.aserver.library.PHXCVSLibrarian](com/phoenix_int/aserver/library/PHXCVSLibrarian.md)<br> Lists available sub-directories for the specified path
+- **listDirectories(String)** - Method in class [com.phoenix_int.aserver.library.PHXDirectoryLibrarian](com/phoenix_int/aserver/library/PHXDirectoryLibrarian.md)<br> Lists available sub-directories for the specified path
+- **listDirectories(String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianCombiner](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)<br> Returns sub-directories from a specified directory
+- **listDirectories(String)** - Method in class [com.phoenix_int.aserver.library.PHXLibrarianMounter](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)
+- **listDirectories(String)** - Method in class [com.phoenix_int.aserver.library.PHXUserDirLibrarian](com/phoenix_int/aserver/library/PHXUserDirLibrarian.md)
+- **listFolders(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> List the sub-folders of a folder on the server.
+- **listFoldersAsync(String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> List the sub-folders of a folder on the server.
+- **listInstances()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> List running instances on the server.
+- **listInstancesAsync(IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> List running instances on the server.
+- **listMethods(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>lists the methods of an analysis
+- **listMethods(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> List the methods of an analysis.
+- **listMethodsAsync(String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> List the methods of an analysis.
+- **listMonitorableFiles()** - Method in interface [com.phoenix_int.aserver.IPHXMonitorable](com/phoenix_int/aserver/IPHXMonitorable.md)<br> Lists all items that may be monitored for output as a component is running.
+- **listMonitorableFiles()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Lists available "monitors".
+- **listProcesses()** - Method in interface [com.phoenix_int.aserver.IPHXMonitorable](com/phoenix_int/aserver/IPHXMonitorable.md)<br> Lists all the running processes associated with a component
+- **listProcesses()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Lists any running processes
+- **listProcesses()** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)<br> This function lists all the processes and sub-processes of this PHXProcess.
+- **listProperties(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>lists the properties of an analysis
+- **listProperties(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> List the properties of an analysis.
+- **listPropertiesAsync(String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> List the properties of an analysis.
+- **listValues(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>
+- **listValues(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> List the values of an analysis.
+- **listValuesAsync(String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> List the values of an analysis.
+- **loadSetup(String)** - Method in interface [com.phoenix_int.aserver.IPHXSetupFromFile](com/phoenix_int/aserver/IPHXSetupFromFile.md)<br> sets up the object from a file
+- **lock()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Causes the run-share mode to be implemented.
+- **lockDimensions()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Tells this array that the number of dimensions cannot be changed from what they are right now.
+- **LONG** - Static variable in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Type identifier for a long type
+- **LONG_ARRAY** - Static variable in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Type identifier for a long array type
+
+# M
+
+- **main(String[])** - Static method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>
+- **main(String[])** - Static method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)
+- **main(String[])** - Static method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)
+- **main(String[])** - Static method in class [com.phoenix_int.aserver.util.PHXNameDivider](com/phoenix_int/aserver/util/PHXNameDivider.md)
+- **main(String[])** - Static method in class [com.phoenix_int.aserver.util.PHXProcessInfo](com/phoenix_int/aserver/util/PHXProcessInfo.md)
+- **main(String[])** - Static method in class [com.phoenix_int.aserver.util.PHXRuntime](com/phoenix_int/aserver/util/PHXRuntime.md)
+- **main(String[])** - Static method in class [com.phoenix_int.aserver.util.PHXStringReplacer](com/phoenix_int/aserver/util/PHXStringReplacer.md)
+- **main(String[])** - Static method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)
+- **makeGroup(String)** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> creates a child group.
+- **makeGroup(String)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> creates a group.
+- **markAsBeginning(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Searches for the specified string and makes the row where the string was found act as row 1 for all subsequent calls until another `markAsBeginning` or `clearMarks` call.
+- **markAsBeginning(String, int, int, boolean)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Searches for the specified string and makes the row where the string was found act as row 1 for all subsequent calls until another `markAsBeginning` or `clearMarks` call.
+- **markAsBeginning(int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Makes the specified row act as row 1 for all subsequent calls until another `markAsBeginning` or `clearMarks` call.
+- **markAsEnd(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Searches for the specified string, starting from the end of the file and working towards the beginning, and makes the row where the string was found act as row -1 (end of file) for all subsequent calls until another `markAsEnd` or `clearMarks` call.
+- **markAsEnd(String, int, int, boolean)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Searches for the specified string and makes the row where the string was found act as row -1 (end of file) for all subsequent calls until another `markAsEnd` or `clearMarks` call.
+- **markAsEnd(int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Makes the specified row act as row -1 (end of file) for all subsequent calls until another `markAsBeginning` or `clearMarks` call.
+- **markAsRead()** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br> Deprecated.<br>call this function after you manually get the contents of the file.
+- **markAsRead()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Call this function after you manually get the contents of the actual file.
+- **markAsRead(int)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> set markAsRead flag for an element for an 1D array call this function after you manually get the contents of the file.
+- **markAsRead(int[])** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> set markAsRead flag for an element for an array call this function after you manually get the contents of the file.
+- **markBeginning(int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> marks the starting point from which to start counting rows and fields.
+- **markBeginning(String, boolean)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> same as markBeginning with an occurrence value of 1
+- **markBeginning(String)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> same as markBeginning where the pattern is a regex and ocurence value is 1
+- **markBeginning(String, boolean, int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> marks the starting point from which to start counting rows and fields.
+- **markBeginning(String, int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> marks the starting point from which to start counting rows and fields.
+- **markBeginningFromEnd(String, boolean)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> marks the starting point from which to start counting rows.
+- **markBeginningOffset(int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> marks the starting point from which to start counting rows and fields.
+- **markEnd(int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> marks the ending point of the file.
+- **markEnd(String, boolean)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> same as markEnd with an occurrence value of 1
+- **markEnd(String, boolean, int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> marks the ending point from which to start counting rows and fields.
+- **markEnd(String, int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> marks the ending point from which to start counting rows and fields.
+- **markEndFromEnd(String, boolean)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> marks the starting point from which to start counting rows and fields.
+- **markEndOffset(int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> marks the ending point from which to start counting rows and fields.
+- **matchFound(int, Pattern, String, MatchResult)** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)
+- **mode** - Variable in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)
+- **MODE_ERROR** - Static variable in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> When a user tries to run a component that is already running, this option generates an error message and instructs the user to try again later.
+- **MODE_NONE** - Static variable in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> This option performs no run sharing.
+- **MODE_SHARE** - Static variable in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> When two or more users attempt to run a component simultaneously, the FileWrapper creates separate directories that hold unique input and output files for every user.
+- **MODE_WAIT** - Static variable in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> When the component is running, this option ensures that no one else will be able to run it.
+
+# N
+
+- **NAME_SEPARATOR** - Static variable in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXCAERange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXCAERange.md)
+- **NAME_SEPARATOR** - Static variable in class com.phoenix_int.aserver.util.scriptwrapper.api.[PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **newIndex()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Produces a new index based zeroed out, but with the proper dimensions
+- **newLineStore(File)** - Method in enum [com.phoenix_int.aserver.util.Parser.Mode](com/phoenix_int/aserver/util/Parser/Mode.md)
+- **newLineStore(File, PHXFileUtils.Encoding)** - Method in enum [com.phoenix_int.aserver.util.Parser.Mode](com/phoenix_int/aserver/util/Parser/Mode.md)
+- **newLineStore(File, PHXFileUtils.Encoding, IProgressListener)** - Method in enum [com.phoenix_int.aserver.util.Parser.Mode](com/phoenix_int/aserver/util/Parser/Mode.md)<br> Create a new line store consistent with the file-access mode
+- **newParser(File, Parser.Mode)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> Generate a new parser for the given file and mode
+- **newParser(File, Parser.Mode)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.CAEOutputFile](com/phoenix_int/aserver/util/scriptwrapper/api/CAEOutputFile.md)
+- **newParser(File, Parser.Mode)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Generate a new parser for the given file and mode
+- **newParser(File, Parser.Mode)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.XPathFile](com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.md)<br> Generate a new parser for the given file and mode
+- **newParser(File)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.XPathFile](com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.md)<br> Allow a sub-class to form a parser using custom options/features, such as handling DTD and entities
+- **nextElement()** - Method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Returns the same value as the `nextToken` method, except that its declared return value is `Object` rather than `String`.
+- **nextLine()** - Method in class [com.phoenix_int.aserver.util.PHXFileLoader](com/phoenix_int/aserver/util/PHXFileLoader.md)<br> extracts the next non-comment line from the data file
+- **nextToken()** - Method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Returns the next token from this string tokenizer.
+- **nextToken(String)** - Method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Returns the next token in this string tokenizer's string.
+- **nextToken2()** - Method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Returns the next token from this string tokenizer.
+- **nextToken2(boolean)** - Method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Returns the next token from this string tokenizer.
+- **nextToken2(String)** - Method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Returns the next token in this string tokenizer's string.
+
+# O
+
+- **OBJECT** - Static variable in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Type identifier for an object type
+- **onException(PHXAnalysisClientExceptionEvent)** - Method in interface [com.phoenix_int.aserver.client.IPHXAnalysisClientListener](com/phoenix_int/aserver/client/IPHXAnalysisClientListener.md)<br> called each time an exception occurs while reading from the connection to ModelCenter Remote Execution.
+- **onRangesChanged(Object, Vector`<IPHXRange>`, Vector`<IPHXRange>`)** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.IPHXRangeChangeListener](com/phoenix_int/aserver/util/scriptwrapper/api/IPHXRangeChangeListener.md)
+- **onResponse(PHXAnalysisClientEvent)** - Method in interface [com.phoenix_int.aserver.client.IPHXAnalysisClientListener](com/phoenix_int/aserver/client/IPHXAnalysisClientListener.md)<br> called each time a new response is received from ModelCenter Remote Execution.
+- **OutputFile** - Interface in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api.md)<br> Deprecated in favor of [OutputFile2](com/phoenix_int/aserver/util/scriptwrapper/api/OutputFile2.md)
+- **OutputFile2** - Interface in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api.md)<br> Interface for output files (not file variables) used in script-wrappers
+- **owner** - Variable in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXBookmark](com/phoenix_int/aserver/util/scriptwrapper/api/PHXBookmark.md)
+- **owner** - Variable in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)<br>
+
+
+# P
+
+- **parse(Object)** - Static method in class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md)<br> a utility function to convert a string to a boolean value
+- **parse()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.CAEOutputFile](com/phoenix_int/aserver/util/scriptwrapper/api/CAEOutputFile.md)
+- **parse()** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.OutputFile](com/phoenix_int/aserver/util/scriptwrapper/api/OutputFile.md)<br> Deprecated.<br>Parse the output file
+- **parse()** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.OutputFile2](com/phoenix_int/aserver/util/scriptwrapper/api/OutputFile2.md)<br> Parse the output file
+- **PARSE** - Static variable in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Deprecated in favor of [ParseableFile.Mode.PARSE](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md#PARSE)
+- **parse()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Parse the output file
+- **parse()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.XPathFile](com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.md)<br> Parse the output file
+- **ParseableFile** - Interface in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.md)<br> Interface for files (not file variables) used in script wrappers
+- **ParseableFile.Mode** - Enum in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md)<br> File mode. Moved to type-safe enum from legacy integer constants
+- **parseFile(String, String, boolean)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Read the given file variable from the specified file
+- **parseIndex(String)** - Static method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Takes a string of the form "anything[n, n2, n3]" or "n, n2, n3" and returns an int[] of the index values.
+- **Parser** - Interface in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/Parser.md)<br> Interface to define the methods of a parser.
+- **parser** - Variable in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)
+- **Parser.Mode** - Enum in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/Parser.Mode.md)<br> File-access mode. Moved to type-safe enum from legacy integer constants
+- **PHXAnalysisClient** - Class in [com.phoenix_int.aserver.client](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>Use[AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md) instead.
+- **PHXAnalysisClient()** - Constructor for class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.
+- **PHXAnalysisClient(String)** - Constructor for class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>creates a client to the ModelCenter Remote Execution and connects
+ it to the specified host
+- **PHXAnalysisClient(String, int)** - Constructor for class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>creates a client to the MCRE and connects
+ it to the specified host
+- **PHXAnalysisClient(String, int, int)** - Constructor for class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>creates a client to the MCRE and connects
+ it to the specified host
+- **PHXAnalysisClient(String, int, String, String)** - Constructor for class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>creates a client to the MCRE and connects
+ it to the specified host
+- **PHXAnalysisClientEvent** - Class in [com.phoenix_int.aserver.client](com/phoenix_int/aserver/client/PHXAnalysisClientEvent.md)<br> this class is an event for the PHXAnalysisClient class.
+- **PHXAnalysisClientExceptionEvent** - Class in [com.phoenix_int.aserver.client](com/phoenix_int/aserver/client/PHXAnalysisClientExceptionEvent.md)<br> this class is an event for the PHXAnalysisClient class.
+- **PHXAppearance** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXAppearance.md)<br> This is a utility class for holding appearance properties.
+- **PHXAppearance(boolean)** - Constructor for class [com.phoenix_int.aserver.types.PHXAppearance](com/phoenix_int/aserver/types/PHXAppearance.md)
+- **PHXBlocker** - Class in [com.phoenix_int.util](com/phoenix_int/util/PHXBlocker.md)<br> Class to simplify wait and notify calls.
+- **PHXBlocker()** - Constructor for class [com.phoenix_int.util.PHXBlocker](com/phoenix_int/util/PHXBlocker.md)
+- **PHXBookmark** - Class in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/PHXBookmark.md)
+- **PHXBookmark(String, PHXRowFieldRange)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXBookmark](com/phoenix_int/aserver/util/scriptwrapper/api/PHXBookmark.md)<br> Constructor
+- **PHXBookmarkNotFoundException** - Exception in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/PHXBookmarkNotFoundException.md)
+- **PHXBookmarkNotFoundException(String)** - Constructor for exception [com.phoenix_int.aserver.util.scriptwrapper.api.PHXBookmarkNotFoundException](com/phoenix_int/aserver/util/scriptwrapper/api/PHXBookmarkNotFoundException.md)
+- **PHXBoolean** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXBoolean.md)<br> The Phoenix type for booleans.
+- **PHXBoolean()** - Constructor for class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md)<br> initializes value to false
+- **PHXBoolean(boolean)** - Constructor for class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md)<br> Initializes the value to the specified value.
+- **PHXBoolean(PHXBoolean)** - Constructor for class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md)<br> Clone another PHXBoolean's value and metadata.
+- **PHXBooleanArray** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXBooleanArray.md)<br> Class wraps an array of PHXBoolean variables
+ for the ScriptWrapper utility.
+- **PHXBooleanArray()** - Constructor for class [com.phoenix_int.aserver.types.PHXBooleanArray](com/phoenix_int/aserver/types/PHXBooleanArray.md)
+- **PHXBooleanArray(Object)** - Constructor for class [com.phoenix_int.aserver.types.PHXBooleanArray](com/phoenix_int/aserver/types/PHXBooleanArray.md)
+- **PHXBooleanArray(PHXBooleanArray)** - Constructor for class [com.phoenix_int.aserver.types.PHXBooleanArray](com/phoenix_int/aserver/types/PHXBooleanArray.md)<br> Clone another PHXBooleanArray's value and metadata.
+- **PHXCAERange** - Class in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/PHXCAERange.md)
+- **PHXCAERange()** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXCAERange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXCAERange.md)
+- **PHXCAERange(String)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXCAERange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXCAERange.md)
+- **PHXCAERange(String, String)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXCAERange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXCAERange.md)
+- **PHXClassNotFoundException** - Exception in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXClassNotFoundException.md)<br> Simple wrapper for ClassNotFoundException which can contain additional
+ logging info.
+- **PHXClassNotFoundException()** - Constructor for exception [com.phoenix_int.aserver.util.PHXClassNotFoundException](com/phoenix_int/aserver/util/PHXClassNotFoundException.md)<br> Creates a new instance of PHXClassNotFoundException
+- **PHXClassNotFoundException(String)** - Constructor for exception [com.phoenix_int.aserver.util.PHXClassNotFoundException](com/phoenix_int/aserver/util/PHXClassNotFoundException.md)
+- **PHXComponentBranch** - Class in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXComponentBranch.md)<br> This class represents a branch on a revision history tree for a version controlled component.
+- **PHXComponentBranch()** - Constructor for class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Constructs an empty branch
+- **PHXComponentBranch(String)** - Constructor for class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Constructs an empty named branch
+- **PHXComponentBranch(Element)** - Constructor for class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Constructs a branch based on an XML branch node
+- **PHXComponentDescription** - Class in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXComponentDescription.md)<br> A class for holding description information about an component class.
+- **PHXComponentDescription()** - Constructor for class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **PHXComponentVersion** - Class in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXComponentVersion.md)<br> This class represents a version on a revision history tree for a version controlled component.
+- **PHXComponentVersion(String)** - Constructor for class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Constructs a version with a given name
+- **PHXComponentVersion(String, String, String, Date)** - Constructor for class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Constructs a version with the specified meta data
+- **PHXComponentVersion(Element)** - Constructor for class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Constructs a version based on information In an XML Element
+- **PHXCVSLibrarian** - Class in [com.phoenix_int.aserver.library](com/phoenix_int/aserver/library/PHXCVSLibrarian.md)<br> Implementation of IPHXLibrarian which loads files out of CVS.
+- **PHXCVSLibrarian()** - Constructor for class [com.phoenix_int.aserver.library.PHXCVSLibrarian](com/phoenix_int/aserver/library/PHXCVSLibrarian.md)
+- **PHXDataCollector** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXDataCollector.md)<br> A class for Driver Components to tell ModelCenter what to do with the
+ DataCollector while the component is running.
+- **PHXDataCollector()** - Constructor for class [com.phoenix_int.aserver.types.PHXDataCollector](com/phoenix_int/aserver/types/PHXDataCollector.md)
+- **PHXDFTException** - Exception in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXDFTException.md)
+- **PHXDFTException(String)** - Constructor for exception [com.phoenix_int.aserver.PHXDFTException](com/phoenix_int/aserver/PHXDFTException.md)
+- **PHXDirectoryLibrarian** - Class in [com.phoenix_int.aserver.library](com/phoenix_int/aserver/library/PHXDirectoryLibrarian.md)<br> This librarian provides a window into a directory on disk that contains wrapper and component files.
+- **PHXDirectoryLibrarian()** - Constructor for class [com.phoenix_int.aserver.library.PHXDirectoryLibrarian](com/phoenix_int/aserver/library/PHXDirectoryLibrarian.md)
+- **PHXDouble** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXDouble.md)<br> The Phoenix type for doubles.
+- **PHXDouble()** - Constructor for class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> initializes value to zero without upper or lower bounds
+- **PHXDouble(double)** - Constructor for class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> Initializes value to specified value without upper or lower bounds.
+- **PHXDouble(PHXDouble)** - Constructor for class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> Clone another PHXDouble's value and metadata.
+- **PHXDoubleArray** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> Class wraps an array of PHXDouble variables
+ for the ScriptWrapper utility.
+- **PHXDoubleArray()** - Constructor for class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)
+- **PHXDoubleArray(Object)** - Constructor for class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)
+- **PHXDoubleArray(PHXDoubleArray)** - Constructor for class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> Clone another PHXDoubleArray's value and metadata.
+- **PHXFile** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXFile.md)<br> Deprecated.
+- **PHXFile()** - Constructor for class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br> Deprecated.
+- **PHXFile(String)** - Constructor for class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br> Deprecated.
+- **PHXFile(String, String)** - Constructor for class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br> Deprecated.
+- **PHXFile(PHXFile)** - Constructor for class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br> Deprecated.<br>Clone another PHXFile's value and metadata.
+- **PHXFileLoader** - Class in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXFileLoader.md)<br> This is a utility class for loading data files.
+- **PHXFileLoader(String)** - Constructor for class [com.phoenix_int.aserver.util.PHXFileLoader](com/phoenix_int/aserver/util/PHXFileLoader.md)
+- **PHXFileLoader(File)** - Constructor for class [com.phoenix_int.aserver.util.PHXFileLoader](com/phoenix_int/aserver/util/PHXFileLoader.md)
+- **PHXFileLoader(StringReader)** - Constructor for class [com.phoenix_int.aserver.util.PHXFileLoader](com/phoenix_int/aserver/util/PHXFileLoader.md)
+- **PHXFileLoader(InputStream)** - Constructor for class [com.phoenix_int.aserver.util.PHXFileLoader](com/phoenix_int/aserver/util/PHXFileLoader.md)
+- **PHXFileMonitor** - Class in [com.phoenix_int.aserver.monitors](com/phoenix_int/aserver/monitors/PHXFileMonitor.md)<br> This class monitors a File for data by polling.
+- **PHXFileMonitor(String, IPHXFileCallback)** - Constructor for class [com.phoenix_int.aserver.monitors.PHXFileMonitor](com/phoenix_int/aserver/monitors/PHXFileMonitor.md)<br> Create a monitor
+- **PHXFileMonitor(PHXRawFile, IPHXFileCallback)** - Constructor for class [com.phoenix_int.aserver.monitors.PHXFileMonitor](com/phoenix_int/aserver/monitors/PHXFileMonitor.md)
+- **PHXFileMonitor.FileMonitorChangeException** - Exception in [com.phoenix_int.aserver.monitors](com/phoenix_int/aserver/monitors/PHXFileMonitor.FileMonitorChangeException.md)
+- **PHXFileName** - Class in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXFileName.md)<br> this is a utility class for easily managing file names.
+- **PHXFileName()** - Constructor for class [com.phoenix_int.aserver.util.PHXFileName](com/phoenix_int/aserver/util/PHXFileName.md)
+- **PHXFileName(String, String)** - Constructor for class [com.phoenix_int.aserver.util.PHXFileName](com/phoenix_int/aserver/util/PHXFileName.md)
+- **PHXFileParser** - Class in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXFileParser.md)<br> This is a utility class for loading data files and extracting data.
+- **PHXFileParser(String)** - Constructor for class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)
+- **PHXFileParser(String, PHXFileUtils.Encoding)** - Constructor for class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)
+- **PHXFileParser(File, Parser.Mode)** - Constructor for class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)
+- **PHXFileParser(File, Parser.Mode, PHXFileUtils.Encoding)** - Constructor for class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)
+- **PHXFileParser(String, Parser.Mode)** - Constructor for class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)
+- **PHXFileParser(String, Parser.Mode, PHXFileUtils.Encoding)** - Constructor for class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)
+- **PHXFileParser(String, int)** - Constructor for class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> Deprecated in favor of [PHXFileParser.PHXFileParser(String, Parser.Mode)](com/phoenix_int/aserver/util/PHXFileParser.md#PHXFileParser-java.lang.String-com.phoenix_int.aserver.util.Parser.Mode-)
+- **PHXFileParser(IPHXLineStore, String)** - Constructor for class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)
+- **PHXGeometry** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXGeometry.md)<br> The Phoenix type for geometry.
+- **PHXGeometry()** - Constructor for class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)
+- **PHXGeometry(PHXGeometry)** - Constructor for class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> Clone another PHXGeometry's value and metadata.
+- **PHXGeomInfo** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXGeomInfo.md)<br> this is a utility class that mirrors the structures in ModelCenter.
+- **PHXGeomInfo()** - Constructor for class [com.phoenix_int.aserver.types.PHXGeomInfo](com/phoenix_int/aserver/types/PHXGeomInfo.md)
+- **PHXGeomInfo(boolean, boolean, boolean, boolean, boolean, boolean, boolean)** - Constructor for class [com.phoenix_int.aserver.types.PHXGeomInfo](com/phoenix_int/aserver/types/PHXGeomInfo.md)
+- **PHXGetByUrlException** - Exception in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXGetByUrlException.md)<br> An exception that is thrown when encountering an error getting a file's contents via url
+- **PHXGetByUrlException(String)** - Constructor for exception [com.phoenix_int.aserver.util.PHXGetByUrlException](com/phoenix_int/aserver/util/PHXGetByUrlException.md)<br> Constructor.
+- **PHXGetByUrlException(String, Throwable)** - Constructor for exception [com.phoenix_int.aserver.util.PHXGetByUrlException](com/phoenix_int/aserver/util/PHXGetByUrlException.md)<br> Constructor.
+- **PHXGroup** - Class in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXGroup.md)<br> A utility class for holding sub-variables.
+- **PHXGroup(String)** - Constructor for class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)
+- **PHXIcon** - Class in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXIcon.md)<br> This class provides utility functions for loading and creating an icon file
+- **PHXIcon()** - Constructor for class [com.phoenix_int.aserver.util.PHXIcon](com/phoenix_int/aserver/util/PHXIcon.md)<br> creates an icon with values set to "unknown"
+- **PHXIcon(String)** - Constructor for class [com.phoenix_int.aserver.util.PHXIcon](com/phoenix_int/aserver/util/PHXIcon.md)
+- **PHXIcon(byte[], String)** - Constructor for class [com.phoenix_int.aserver.util.PHXIcon](com/phoenix_int/aserver/util/PHXIcon.md)
+- **PHXInteger** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.
+- **PHXInteger()** - Constructor for class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.
+- **PHXInteger(PHXInteger)** - Constructor for class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.<br>Clone another PHXInteger's value and metadata.
+- **PHXInternationalize** - Class in [com.phoenix_int.util](com/phoenix_int/util/PHXInternationalize.md)<br> Helper class to do internationalization.
+- **PHXInternationalize(Class)** - Constructor for class [com.phoenix_int.util.PHXInternationalize](com/phoenix_int/util/PHXInternationalize.md)
+- **PHXInternationalize(Object)** - Constructor for class [com.phoenix_int.util.PHXInternationalize](com/phoenix_int/util/PHXInternationalize.md)<br> Creates a new instance of PHXInternationalize
+- **PHXInternationalize.InternationalizedMessage** - Interface in [com.phoenix_int.util](com/phoenix_int/util/PHXInternationalize.InternationalizedMessage.md)<br> Interface for a lazily computed translation message.
+- **PHXInvalidNameException** - Exception in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXInvalidNameException.md)<br> An exception that is thrown when trying to create a new object using an invalid name
+- **PHXInvalidNameException(String)** - Constructor for exception [com.phoenix_int.aserver.PHXInvalidNameException](com/phoenix_int/aserver/PHXInvalidNameException.md)
+- **PHXInvalidTypeException** - Exception in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXInvalidTypeException.md)<br> An exception that is thrown when trying to use a bad type
+- **PHXInvalidTypeException(String)** - Constructor for exception [com.phoenix_int.aserver.types.PHXInvalidTypeException](com/phoenix_int/aserver/types/PHXInvalidTypeException.md)<br> Create an invalid type exception
+- **PHXInvalidTypeException(String, Throwable)** - Constructor for exception [com.phoenix_int.aserver.types.PHXInvalidTypeException](com/phoenix_int/aserver/types/PHXInvalidTypeException.md)<br> Create an invalid type exception with a cause
+- **PHXInvokeReturn** - Class in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXInvokeReturn.md)<br> A utility class for holding reutrn information from an invoked function.
+- **PHXInvokeReturn()** - Constructor for class [com.phoenix_int.aserver.PHXInvokeReturn](com/phoenix_int/aserver/PHXInvokeReturn.md)
+- **PHXLibrarianCombiner** - Class in [com.phoenix_int.aserver.library](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)<br> This class combines several sub-librarians, adding dir lists and component lists together.
+- **PHXLibrarianCombiner()** - Constructor for class [com.phoenix_int.aserver.library.PHXLibrarianCombiner](com/phoenix_int/aserver/library/PHXLibrarianCombiner.md)
+- **PHXLibrarianMounter** - Class in [com.phoenix_int.aserver.library](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)<br> This class has the functionality of providing a "virtual" directory tree where different sub-librarians can be "mounted" very similarly to the UNIX concept of mounting filesystems.
+- **PHXLibrarianMounter()** - Constructor for class [com.phoenix_int.aserver.library.PHXLibrarianMounter](com/phoenix_int/aserver/library/PHXLibrarianMounter.md)
+- **PHXLong** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXLong.md)<br> The Phoenix type for longs.
+- **PHXLong()** - Constructor for class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Initializes value to 0.
+- **PHXLong(long)** - Constructor for class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Initializes value to the specified value
+- **PHXLong(PHXLong)** - Constructor for class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Clone another PHXLong's value and metadata.
+- **PHXLongArray** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXLongArray.md)<br> Class wraps an array of PHXLong variables for the ScriptWrapper utility.
+- **PHXLongArray()** - Constructor for class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)
+- **PHXLongArray(Object)** - Constructor for class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)
+- **PHXLongArray(PHXLongArray)** - Constructor for class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> Clone another PHXLongArray's value and metadata.
+- **PHXMassProperties** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXMassProperties.md)<br> This is a utility class for holding mass property information.
+- **PHXMassProperties(boolean, boolean, boolean, boolean)** - Constructor for class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **PHXMethodDescriptor** - Class in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXMethodDescriptor.md)<br> A utility class used by PHXSelfManager to indicate which methods it can invoke.
+- **PHXMethodDescriptor()** - Constructor for class [com.phoenix_int.aserver.PHXMethodDescriptor](com/phoenix_int/aserver/PHXMethodDescriptor.md)
+- **PHXMethodDescriptor(String)** - Constructor for class [com.phoenix_int.aserver.PHXMethodDescriptor](com/phoenix_int/aserver/PHXMethodDescriptor.md)
+- **PHXMethodDescriptor(String, String)** - Constructor for class [com.phoenix_int.aserver.PHXMethodDescriptor](com/phoenix_int/aserver/PHXMethodDescriptor.md)
+- **PHXMethodDescriptor(String, String, boolean)** - Constructor for class [com.phoenix_int.aserver.PHXMethodDescriptor](com/phoenix_int/aserver/PHXMethodDescriptor.md)
+- **PHXMonitorableStream** - Class in [com.phoenix_int.aserver.monitors](com/phoenix_int/aserver/monitors/PHXMonitorableStream.md)<br> This class represents a stream of data which may be monitored by a client which supports progress monitors.
+- **PHXMonitorableStream()** - Constructor for class [com.phoenix_int.aserver.monitors.PHXMonitorableStream](com/phoenix_int/aserver/monitors/PHXMonitorableStream.md)<br> Default Constructor
+- **PHXMonitorableStream.MonitorWriter** - Class in [com.phoenix_int.aserver.monitors](com/phoenix_int/aserver/monitors/PHXMonitorableStream.MonitorWriter.md)
+- **PHXNameAlreadyInUseException** - Exception in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXNameAlreadyInUseException.md)<br> An exception that is thrown when trying to create a new object with a name that already exists.
+- **PHXNameAlreadyInUseException(String)** - Constructor for exception [com.phoenix_int.aserver.PHXNameAlreadyInUseException](com/phoenix_int/aserver/PHXNameAlreadyInUseException.md)
+- **PHXNameDivider** - Class in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXNameDivider.md)<br> this is a utility class for breaking down names into smaller parts.
+- **PHXNameDivider()** - Constructor for class [com.phoenix_int.aserver.util.PHXNameDivider](com/phoenix_int/aserver/util/PHXNameDivider.md)
+- **PHXNewLineAddFilter** - Class in [com.phoenix_int.util](com/phoenix_int/util/PHXNewLineAddFilter.md)<br> Implementation of a FilterReader that basically does the opposite of the `PHXNewLineFilter`, adding in the platform dependent newlines from java style newlines '\n'.
+- **PHXNewLineAddFilter(Reader)** - Constructor for class [com.phoenix_int.util.PHXNewLineAddFilter](com/phoenix_int/util/PHXNewLineAddFilter.md)<br> Creates a new instance of PHXNewLineFilter
+- **PHXNewLineFilter** - Class in [com.phoenix_int.util](com/phoenix_int/util/PHXNewLineFilter.md)<br> Implementation of a FilterReader that processes out newlines into Java style newlines '\n' with the same logic as `BufferedReader.readLine()`
+- **PHXNewLineFilter(Reader)** - Constructor for class [com.phoenix_int.util.PHXNewLineFilter](com/phoenix_int/util/PHXNewLineFilter.md)<br> Creates a new instance of PHXNewLineFilter
+- **PHXNoSuchAssociationException** - Exception in [com.phoenix_int.aserver.library](com/phoenix_int/aserver/library/PHXNoSuchAssociationException.md)<br> An exception that is thrown when an invalid association is specified.
+- **PHXNoSuchAssociationException(String)** - Constructor for exception [com.phoenix_int.aserver.library.PHXNoSuchAssociationException](com/phoenix_int/aserver/library/PHXNoSuchAssociationException.md)
+- **PHXNoSuchCategoryException** - Exception in [com.phoenix_int.aserver.library](com/phoenix_int/aserver/library/PHXNoSuchCategoryException.md)<br> An exception that is thrown when an invalid class category is specified.
+- **PHXNoSuchCategoryException(String)** - Constructor for exception [com.phoenix_int.aserver.library.PHXNoSuchCategoryException](com/phoenix_int/aserver/library/PHXNoSuchCategoryException.md)
+- **PHXNoSuchCategoryException(String, String)** - Constructor for exception [com.phoenix_int.aserver.library.PHXNoSuchCategoryException](com/phoenix_int/aserver/library/PHXNoSuchCategoryException.md)<br> Constructor for this exception containing both a specific message and the category which could not be found.
+- **PHXNoSuchCategoryException(String, String, Exception)** - Constructor for exception [com.phoenix_int.aserver.library.PHXNoSuchCategoryException](com/phoenix_int/aserver/library/PHXNoSuchCategoryException.md)<br> Constructor which takes a message, a category, and an inner exception.
+- **PHXNoSuchIconException** - Exception in [com.phoenix_int.aserver.library](com/phoenix_int/aserver/library/PHXNoSuchIconException.md)<br> An exception that is thrown when an invalid icon is specified.
+- **PHXNoSuchIconException(String)** - Constructor for exception [com.phoenix_int.aserver.library.PHXNoSuchIconException](com/phoenix_int/aserver/library/PHXNoSuchIconException.md)
+- **PHXNoSuchObjectException** - Exception in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXNoSuchObjectException.md)<br> An exception that is thrown when an object cannot be found
+- **PHXNoSuchObjectException(int, String)** - Constructor for exception [com.phoenix_int.aserver.PHXNoSuchObjectException](com/phoenix_int/aserver/PHXNoSuchObjectException.md)
+- **PHXNoSuchObjectException(String)** - Constructor for exception [com.phoenix_int.aserver.PHXNoSuchObjectException](com/phoenix_int/aserver/PHXNoSuchObjectException.md)
+- **PHXNoSuchReplacementException** - Exception in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXNoSuchReplacementException.md)<br> An exception that is thrown when a replacement string cannot be found
+- **PHXNoSuchReplacementException()** - Constructor for exception [com.phoenix_int.aserver.util.PHXNoSuchReplacementException](com/phoenix_int/aserver/util/PHXNoSuchReplacementException.md)
+- **PHXNoSuchResponseException** - Exception in [com.phoenix_int.aserver.client](com/phoenix_int/aserver/client/PHXNoSuchResponseException.md)<br> An exception that is thrown when an invalid response is specified.
+- **PHXNoSuchTokenException** - Exception in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXNoSuchTokenException.md)<br> An exception that is thrown when an object cannot be found
+- **PHXNoSuchTokenException()** - Constructor for exception [com.phoenix_int.aserver.util.PHXNoSuchTokenException](com/phoenix_int/aserver/util/PHXNoSuchTokenException.md)
+- **PHXNoSuchTokenException(String)** - Constructor for exception [com.phoenix_int.aserver.util.PHXNoSuchTokenException](com/phoenix_int/aserver/util/PHXNoSuchTokenException.md)
+- **PHXNoSuchTokenException(String, Throwable)** - Constructor for exception [com.phoenix_int.aserver.util.PHXNoSuchTokenException](com/phoenix_int/aserver/util/PHXNoSuchTokenException.md)
+- **PHXNoSuchTokenException(Throwable)** - Constructor for exception [com.phoenix_int.aserver.util.PHXNoSuchTokenException](com/phoenix_int/aserver/util/PHXNoSuchTokenException.md)
+- **PHXNoSuchWriteableObjectException** - Exception in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXNoSuchWriteableObjectException.md)<br> An exception that the `PHXObjectManager` throws when it can't find an object.
+- **PHXNoSuchWriteableObjectException(String)** - Constructor for exception [com.phoenix_int.aserver.PHXNoSuchWriteableObjectException](com/phoenix_int/aserver/PHXNoSuchWriteableObjectException.md)
+- **PHXNumberFormatException** - Exception in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXNumberFormatException.md)<br> Like a `NumberFormatException` except that it isn't a runtime exception and must be caught
+- **PHXNumberFormatException(String)** - Constructor for exception [com.phoenix_int.aserver.types.PHXNumberFormatException](com/phoenix_int/aserver/types/PHXNumberFormatException.md)
+- **PHXObjectArray** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXObjectArray.md)<br> Placeholder for an array of any random Java Object.
+- **PHXObjectArray()** - Constructor for class [com.phoenix_int.aserver.types.PHXObjectArray](com/phoenix_int/aserver/types/PHXObjectArray.md)
+- **PHXObjectArray(Object)** - Constructor for class [com.phoenix_int.aserver.types.PHXObjectArray](com/phoenix_int/aserver/types/PHXObjectArray.md)
+- **PHXObjectArray(PHXObjectArray)** - Constructor for class [com.phoenix_int.aserver.types.PHXObjectArray](com/phoenix_int/aserver/types/PHXObjectArray.md)<br> Clone another `PHXObjectArray`'s value and metadata.
+- **PHXOrientation** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXOrientation.md)<br> This is a utility class for holding orientation information.
+- **PHXOrientation(boolean, boolean)** - Constructor for class [com.phoenix_int.aserver.types.PHXOrientation](com/phoenix_int/aserver/types/PHXOrientation.md)
+- **PHXProcess** - Class in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXProcess.md)<br> This is a utility class that extends `java.lang.Process` with a system dependent process ID.
+- **PHXProcess(Process, boolean, String, String, IPHXProcessJobInfoListener, String)** - Constructor for class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)<br> Constructs a `PHXProcess` out of a process and optionally reads the PID of the sub-process.
+- **PHXProcess(Process, boolean, String, String, IPHXProcessJobInfoListener)** - Constructor for class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)
+- **PHXProcess(Process)** - Constructor for class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)<br> Constructs a PHXProcess out of a regular process but does not provide extended functionality because the process ID will not be known.
+- **PHXProcessInfo** - Class in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXProcessInfo.md)<br> This class represents information about a running process on the system.
+- **PHXProcessInfo()** - Constructor for class [com.phoenix_int.aserver.util.PHXProcessInfo](com/phoenix_int/aserver/util/PHXProcessInfo.md)<br> Constructs an empty process
+- **PHXPropertyDescriptor** - Class in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> A utility class used by PHXSelfManager to indicate which properties it manages.
+- **PHXPropertyDescriptor()** - Constructor for class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> creates a property descriptor with all values set to "unknown"
+- **PHXPropertyDescriptor(PropertyDescriptor)** - Constructor for class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)
+- **PHXPropertyDescriptor(String, String, boolean, boolean)** - Constructor for class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)
+- **PHXPropertyDescriptor(String, Object, boolean, boolean)** - Constructor for class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)
+- **PHXPropertyDescriptor(PropertyDescriptor, Object)** - Constructor for class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)
+- **PHXPropertyValue** - Class in [com.phoenix_int.aserver.client](com/phoenix_int/aserver/client/PHXPropertyValue.md)
+- **PHXPropertyValue()** - Constructor for class [com.phoenix_int.aserver.client.PHXPropertyValue](com/phoenix_int/aserver/client/PHXPropertyValue.md)
+- **PHXPropertyValue(PHXPropertyValue)** - Constructor for class [com.phoenix_int.aserver.client.PHXPropertyValue](com/phoenix_int/aserver/client/PHXPropertyValue.md)
+- **PHXPropertyValue(PHXPropertyDescriptor, String)** - Constructor for class [com.phoenix_int.aserver.client.PHXPropertyValue](com/phoenix_int/aserver/client/PHXPropertyValue.md)
+- **PHXRawFile** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXRawFile.md)<br> The Phoenix type for Files.
+- **PHXRawFile()** - Constructor for class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)
+- **PHXRawFile(String)** - Constructor for class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)
+- **PHXRawFile(String, String)** - Constructor for class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)
+- **PHXRawFile(PHXRawFile)** - Constructor for class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Clone another `PHXRawFile`'s value and metadata.
+- **PHXRawFileArray** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Wraps an array of `PHXRawFile` variables for the ScriptWrapper utility.
+- **PHXRawFileArray()** - Constructor for class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)
+- **PHXRawFileArray(Object)** - Constructor for class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)
+- **PHXRawFileArray(PHXRawFileArray)** - Constructor for class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Clone another PHXRawFileArray's value and metadata.
+- **PHXRefArrayProperty** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXRefArrayProperty.md)<br> This is a class for holding properties of a reference object **type**: String **enumValues**: String[] **description**: String **title**: String **input**: boolean<br>where type may be any of the following: "long", "double", "boolean", "string"
+- **PHXReference** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXReference.md)<br> The Phoenix type for references.
+- **PHXReference()** - Constructor for class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)<br> constructor
+- **PHXReferenceArray** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXReferenceArray.md)<br> The Phoenix type for references.
+- **PHXReferenceArray()** - Constructor for class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)<br> constructor
+- **PHXRefProperty** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXRefProperty.md)<br> This is a class for holding properties of a reference object **type**: String **enumValues**: String[] **description**: String **title**: String **input**: boolean<br>where type may be any of the following: "long", "double", "boolean", "string"
+- **PHXRefProperty(String, String)** - Constructor for class [com.phoenix_int.aserver.types.PHXRefProperty](com/phoenix_int/aserver/types/PHXRefProperty.md)<br> constructor
+- **PHXResponseTypeMismatchException** - Exception in [com.phoenix_int.aserver.client](com/phoenix_int/aserver/client/PHXResponseTypeMismatchException.md)<br> An exception that is thrown when an invalid response is specified.
+- **PHXRowFieldFile** - Class in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Class implements the parsing capabilities of the `RowField` type files from the fileWrapper facility.
+- **PHXRowFieldFile(PHXScriptWrapperObject)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Defaults to [ParseableFile.Mode.GENERATE](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md#GENERATE)
+- **PHXRowFieldFile(PHXScriptWrapperObject, ParseableFile.Mode)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)
+- **PHXRowFieldFile(PHXScriptWrapperObject, int)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Deprecated in favor of [PHXRowFieldFile.PHXRowFieldFile(PHXScriptWrapperObject, ParseableFile.Mode)](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md#PHXRowFieldFile-com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject-com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile.Mode-)
+- **PHXRowFieldFile(String, int)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Legacy (pre-QW) constructor.
+- **PHXRowFieldRange** - Class in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **PHXRowFieldRange()** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **PHXRowFieldRange(String)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **PHXRowFieldRange(String, String)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **PHXRowFieldRange(String, String, String, String)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **PHXRowFieldRange(String, int)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **PHXRowFieldRange(String, int, int)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **PHXRowFieldRange(String, String, int)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **PHXRowFieldRange(String, String, String, int)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **PHXRowFieldRange(String, String, String)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **PHXRowFieldRange(String, String, String, String, String)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **PHXRunShare** - Class in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXRunShare.md)<br> This class handles runshare capabilities for any component which needs it.
+- **PHXRunShare(String, String)** - Constructor for class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)
+- **PHXRunShare.RunInfo** - Class in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXRunShare.RunInfo.md)<br> Data structure used to hold info about a currently running command
+- **PHXRunShareContext** - Class in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRunShareContext.md)<br> This class handles runshare capabilities for any component which needs it.
+- **PHXRunShareContext(String, String)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRunShareContext](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRunShareContext.md)
+- **PHXRuntime** - Class in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXRuntime.md)<br> This is a utility class for running processes.
+- **PHXRuntime()** - Constructor for class [com.phoenix_int.aserver.util.PHXRuntime](com/phoenix_int/aserver/util/PHXRuntime.md)
+- **PHXScriptObject** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> The PHX type for object variables.
+- **PHXScriptObject()** - Constructor for class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> Creates a new instance of `PHXScriptObject`
+- **PHXScriptWrapperAPIException** - Exception in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperAPIException.md)<br> Represents a problem with transferring data in a `PHXRowFieldFile` object.
+- **PHXScriptWrapperAPIException(String)** - Constructor for exception [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperAPIException](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperAPIException.md)<br> Creates a new instance of `PHXScriptWrapperAPIException`
+- **PHXScriptWrapperObject** - Class in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> This object is passed to Script Wrapper scripts and provides the "wrapper" global object which provides runtime services for the wrapper.
+- **PHXScriptWrapperObject(PHXScriptWrapper)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Constructs a wrapper object from a ScriptWrapper instance.
+- **PHXSection** - Class in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **PHXSection(String, PHXBookmark, PHXBookmark, String)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)<br> Creates a new instance of `PHXSection`
+- **PHXSectionNotFoundException** - Exception in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSectionNotFoundException.md)
+- **PHXSectionNotFoundException(String)** - Constructor for exception [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSectionNotFoundException](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSectionNotFoundException.md)
+- **PHXServerSideException** - Exception in [com.phoenix_int.aserver.client](com/phoenix_int/aserver/client/PHXServerSideException.md)<br> An exception that is thrown when an error is returned from the server.
+- **PHXServerSideException(String)** - Constructor for exception [com.phoenix_int.aserver.client.PHXServerSideException](com/phoenix_int/aserver/client/PHXServerSideException.md)<br> Constructor
+- **PHXSimpleArray<TextendsPHXSimpleType>** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> This class enables components to create resizeable arrays where the number of dimensions is variable as well as the size of each dimension.
+- **PHXSimpleArray(Object)** - Constructor for class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Constructs a PHXSimpleArray that wraps a particular ModelCenter Remote Execution style variable.
+- **PHXSimpleArray()** - Constructor for class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Default Constructor
+- **PHXSimpleSelfManager** - Class in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> This is a class that implements most of the functionality of a self-managing components.
+- **PHXSimpleSelfManager()** - Constructor for class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)
+- **PHXSimpleSelfManager2** - Class in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXSimpleSelfManager2.md)<br> This is a class that implements most of the functionality of a self-managing components.
+- **PHXSimpleSelfManager2()** - Constructor for class [com.phoenix_int.aserver.PHXSimpleSelfManager2](com/phoenix_int/aserver/PHXSimpleSelfManager2.md)
+- **PHXSimpleSelfManager3** - Class in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXSimpleSelfManager3.md)<br> This is a class that implements most of the functionality of a self-managing components.
+- **PHXSimpleSelfManager3()** - Constructor for class [com.phoenix_int.aserver.PHXSimpleSelfManager3](com/phoenix_int/aserver/PHXSimpleSelfManager3.md)
+- **PHXSimpleType** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXSimpleType.md)<br> A base class for most Phoenix data types.
+- **PHXSimpleType()** - Constructor for class [com.phoenix_int.aserver.types.PHXSimpleType](com/phoenix_int/aserver/types/PHXSimpleType.md)
+- **PHXString** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXString.md)<br> The Phoenix type for Strings.
+- **PHXString()** - Constructor for class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)
+- **PHXString(String)** - Constructor for class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)
+- **PHXString(PHXString)** - Constructor for class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> Clone another PHXString's value and metadata.
+- **PHXStringArray** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXStringArray.md)<br> Class wraps an array of PHXString variables for the ScriptWrapper utility.
+- **PHXStringArray()** - Constructor for class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)
+- **PHXStringArray(Object)** - Constructor for class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)
+- **PHXStringArray(PHXStringArray)** - Constructor for class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)
+- **PHXStringBuffer** - Class in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Class that behaves like a `java.lang.StringBuffer` but has logic for cacheing out to disk if the size grows over a limit (currently 512K).
+- **PHXStringBuffer()** - Constructor for class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Creates a new, empty string buffer
+- **PHXStringBuffer(long)** - Constructor for class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Creates a new, empty string buffer which has an internal buffer of the size specified.
+- **PHXStringBuffer(String)** - Constructor for class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Creates a new string buffer which contains the specified string.
+- **PHXStringReplacer** - Class in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXStringReplacer.md)<br> This is a utility class for replacing fields within a string.
+- **PHXStringReplacer(IPHXStringReplacer)** - Constructor for class [com.phoenix_int.aserver.util.PHXStringReplacer](com/phoenix_int/aserver/util/PHXStringReplacer.md)
+- **PHXStringTokenizer** - Class in [com.phoenix_int.aserver.util](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> This is a more sophisticated version of the Java `StringTokenizer`.
+- **PHXStringTokenizer(String, String)** - Constructor for class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Constructs a string tokenizer for the specified string.
+- **PHXStringTokenizer(String, String, boolean)** - Constructor for class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Constructs a string tokenizer for the specified string.
+- **PHXStringTokenizer(PHXStringBuffer, String)** - Constructor for class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Constructs a string tokenizer for the specified string.
+- **PHXStringTokenizer(PHXStringBuffer, String, boolean)** - Constructor for class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Constructs a string tokenizer for the specified string.
+- **PHXStringTokenizer(String)** - Constructor for class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Constructs a string tokenizer for the specified string.
+- **PHXStringTokenizer(String, boolean)** - Constructor for class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Constructs a string tokenizer for the specified string.
+- **PHXStringTokenizer(PHXStringBuffer)** - Constructor for class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Constructs a string tokenizer for the specified string.
+- **PHXStringTokenizer(PHXStringBuffer, boolean)** - Constructor for class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Constructs a string tokenizer for the specified string.
+- **PHXTypeFactory** - Class in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> A class for creating variables
+- **PHXTypeFactory()** - Constructor for class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)
+- **PHXTypeMismatchException** - Exception in [com.phoenix_int.aserver.types](com/phoenix_int/aserver/types/PHXTypeMismatchException.md)<br> An exception thrown when trying to set a value using an incompatible type, or when trying to compare two values of incompatible types
+- **PHXTypeMismatchException(String, String, String)** - Constructor for exception [com.phoenix_int.aserver.types.PHXTypeMismatchException](com/phoenix_int/aserver/types/PHXTypeMismatchException.md)<br> Create an exception for attempting to set a value using an incompatible type
+- **PHXTypeMismatchException(String, String)** - Constructor for exception [com.phoenix_int.aserver.types.PHXTypeMismatchException](com/phoenix_int/aserver/types/PHXTypeMismatchException.md)<br> Create an exception for attempting to compare two values of incompatible types
+- **PHXTypeMismatchException(String, String, Throwable)** - Constructor for exception [com.phoenix_int.aserver.types.PHXTypeMismatchException](com/phoenix_int/aserver/types/PHXTypeMismatchException.md)<br> Create an exception for attempting to compare two values of incompatible types
+- **PHXUserDirLibrarian** - Class in [com.phoenix_int.aserver.library](com/phoenix_int/aserver/library/PHXUserDirLibrarian.md)<br> This librarian provides "user" directories by looking in a user path or by reading `/etc/passwd`.
+- **PHXUserDirLibrarian()** - Constructor for class [com.phoenix_int.aserver.library.PHXUserDirLibrarian](com/phoenix_int/aserver/library/PHXUserDirLibrarian.md)
+- **PHXVariableInfo** - Class in [com.phoenix_int.aserver](com/phoenix_int/aserver/PHXVariableInfo.md)<br> this is a utility class for holding parsing information about a variable
+- **PHXVariableInfo()** - Constructor for class [com.phoenix_int.aserver.PHXVariableInfo](com/phoenix_int/aserver/PHXVariableInfo.md)<br> creates an unitialized object.
+- **PHXVariableInfo(String, boolean, Object)** - Constructor for class [com.phoenix_int.aserver.PHXVariableInfo](com/phoenix_int/aserver/PHXVariableInfo.md)
+- **PHXVersionException** - Exception in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/PHXVersionException.md)
+- **PHXVersionException(int, int, int, int)** - Constructor for exception [com.phoenix_int.aserver.util.scriptwrapper.api.PHXVersionException](com/phoenix_int/aserver/util/scriptwrapper/api/PHXVersionException.md)<br> Creates a new instance of `PHXVersionException`
+- **ProcessHaltedException** - Exception in [com.phoenix_int.aserver](com/phoenix_int/aserver/ProcessHaltedException.md)<br> Exception indicating that the request cannot be handled because the associated process was halted.
+
+# Q
+
+- **quit(boolean)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Force quit current analysis, and shut down ModelCenter Remote Execution.
+
+# R
+
+- **RANDOM_ACCESS** - Static variable in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> Deprecated in favor of [Parser.Mode.RANDOM](com/phoenix_int/aserver/util/Parser.Mode.md#RANDOM)
+- **RANGE_SEPARATOR** - Static variable in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)<br>
+- **rcsid** - Static variable in class [com.phoenix_int.util.PHXBlocker](com/phoenix_int/util/PHXBlocker.md)<br>
+- **read()** - Method in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)<br>
+- **read(byte[])** - Method in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)<br>
+- **read(byte[], int, int)** - Method in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)<br>
+- **read(char[], int, int)** - Method in class [com.phoenix_int.util.PHXNewLineAddFilter](com/phoenix_int/util/PHXNewLineAddFilter.md)<br>
+- **read(char[], int, int)** - Method in class [com.phoenix_int.util.PHXNewLineFilter](com/phoenix_int/util/PHXNewLineFilter.md)<br>
+- **READ_TEMPLATE** - Static variable in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Deprecated in favor of [ParseableFile.Mode.READ_TEMPLATE](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md#READ_TEMPLATE)
+- **readDouble(int, int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Reads a value out of the input file.
+- **readFile(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Sets the filename and then loads the contents of the actual file on disk into the temporary file.
+- **readFile(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Loads the contents of the actual file on disk into the temporary file.
+- **readFile()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Loads the contents of the actual file on disk into the temporary file.
+- **readFile(int)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> loads the file from disk for an element of an 1D array.
+- **readFile(int[])** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> loads the file from disk for an element of an array.
+- **readLong(int, int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Reads a value out of the input file.
+- **readNextLine()** - Method in class [com.phoenix_int.aserver.util.PHXFileLoader](com/phoenix_int/aserver/util/PHXFileLoader.md)<br> extracts the next line from the data file
+- **readTemplate()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> Read the template.
+- **readTemplate()** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.md)<br> Read the template.
+- **readValue(int, int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Reads a value out of the input file.
+- **REFERENCE** - Static variable in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Type identifier for a reference type
+- **REFERENCE_ARRAY** - Static variable in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Type identifier for a reference array type
+- **removeAllGroups()** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> remove all groups from the group
+- **removeAllVariables()** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> removes all variables from the group
+- **removeAutoClose(Closeable)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Remove the file from the file Handlers list
+- **removeEscapes(String)** - Static method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br>
+- **removeEscapes()** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br>
+- **removeGroup(String)** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> remove a child group.
+- **removeLines(int, int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br>
+- **removeListener(IPHXAnalysisClientListener)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.removes a listener
+- **removeMonitor(PHXFileMonitor)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Removes a file monitor from our list
+- **removeMonitorListener(IPHXFileCallback)** - Method in class [com.phoenix_int.aserver.monitors.PHXMonitorableStream](com/phoenix_int/aserver/monitors/PHXMonitorableStream.md)<br> Removes a listener from this monitor
+- **removePropertyChangeListener(PropertyChangeListener)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleType](com/phoenix_int/aserver/types/PHXSimpleType.md)<br>
+- **removeRunDirChangedListener(IPHXRunDirChangedListener)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Removes a listener for run directory changed events.
+- **removeTraceListener(IPHXTraceListener)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Removes a listener from trace events
+- **removeVariable(PHXVariableInfo)** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> removes a variable
+- **removeVariable(PHXVariableInfo)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager](com/phoenix_int/aserver/PHXSimpleSelfManager.md)<br> removes a variable.
+- **removeVariable(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Dynamically removes a variable from this component
+- **replace(String)** - Method in class [com.phoenix_int.aserver.util.PHXStringReplacer](com/phoenix_int/aserver/util/PHXStringReplacer.md)<br> replaces all names starting with "$" with values looked up from the replacer object.
+- **requireAnalysisServerVersion(int, int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Verifies we're running a compatible version of ModelCenter Remote Execution
+- **reset()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Reset the`ProcessStruct`back to initial state for possible use in another run request.
+- **resetDelimiters()** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> resets the delimiters to whitespace
+- **resize(int[])** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Resize the nD array to the new size specified.
+- **RESIZE_DISALLOW** - Static variable in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> Don't allow the length of an array to change
+- **RESIZE_ROWS** - Static variable in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> Allow a square matrix to change sizes by adding or deleting rows.
+- **responseReceived(AnalysisServerResponse)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerWaitCallback](com/phoenix_int/aserver/client/v2/AnalysisServerWaitCallback.md)<br> Callback when a response is received.
+- **responseReceived(AnalysisServerResponse)** - Method in interface [com.phoenix_int.aserver.client.v2.IAnalysisServerCallback](com/phoenix_int/aserver/client/v2/IAnalysisServerCallback.md)<br> Callback when a response is received.
+- **run(String)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Runs a command.
+- **run(String, boolean, boolean, String)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Runs a command.
+- **run(String, boolean, String, String)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Runs a command.
+- **run2(String, boolean, String, String)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Runs a command.
+
+# S
+
+- **seek(long)** - Method in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)
+- **sendAddProxyClientsRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>Tells the server to add other hosts as part of the proxy chain
+- **sendArbitraryRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends an arbitrary request to the server
+- **sendArbitraryRequest(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends an arbitrary request to the server
+- **sendDeleteRunShareRequest(Long)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>Sends a request to delete a runShare
+- **sendDescribeRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to describe an analysis
+- **sendEndRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to end an analysis
+- **sendExecuteRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to execute an analysis
+- **sendGetByUrlRequest(String, String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to get the value of a property
+- **sendGetComponentHistoryRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to get the version history of a component
+- **sendGetHierarchyRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to retrieve a hierarchy for a component
+- **sendGetHierarchyRequest(String, PHXHierarchyFileMode)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to retrieve a hierarchy for a component
+- **sendGetIconRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to retrieve an icon
+- **sendGetRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to get the value of a property
+- **sendInvokeRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to invoke a method
+- **sendListArrayValuesRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.
+- **sendListCategoriesRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to list the categories
+- **sendListClassesRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to list the classes
+- **sendListMethodsRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to list the methods of an analysis
+- **sendListPropertiesRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to list the properties of an analysis
+- **sendListRequest()** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to list the running objects
+- **sendListValuesRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.
+- **sendListValuesURLRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.
+- **sendSetByUrlRequest(String, String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to get the value of a property
+- **sendSetDictionaryRequest(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to set a dictionary
+- **sendSetHierarchyRequest(String, PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>Sends a request to set a hierarchy for a component
+- **sendSetRequest(String, Object)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to set the value of a property
+- **sendStartRequest(String, String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>sends a request to start an analysis
+- **set(String, Object)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>set the value of a property
+- **set(String, Object)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set the value of a property.
+- **set(String, File)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set a file variable on the server.
+- **set(String, File, String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set a file variable on the server.
+- **SET_BY_URL_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.
+- **SET_DICTIONARY_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.
+- **SET_HIERARCHY_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.
+- **SET_REQUEST** - Static variable in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.
+- **setAbsoluteStartRow(int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)<br> Sets the stored starting row number.
+- **setAdditionalConfigValue(String, Object)** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br> Deprecated.<br>Set additional configuration value key-value pair in map.
+- **setAdditionalConfigValue(String, Object)** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Set additional configuration value key-value pair in map.
+- **setArray(Object)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Sets the entire array.
+- **setArrayElement(int, Object)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Sets a particular element of a 1-d array
+- **setArrayElement(int[], Object)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Sets a particular element of the array
+- **setAsync(String, Object, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set the value of a property.
+- **setAsync(String, File, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set a file variable on the server.
+- **setAsync(String, File, String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set a file variable on the server.
+- **setAuthor(String)** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **setAuthor(String)** - Method in class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Sets the version author
+- **setAuthor(String)** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Set the author of this component.
+- **setAutoChangeDir(boolean)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Sets the "AutoChangeDir" flag.
+- **setAutoDelete(int)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Sets the auto-delete mode for runshare mode MODE_SHARE.
+- **setAutoGrow(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)<br> sets the autoGrow value.
+- **setBaseName(String)** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br> Deprecated.<br>sets the base name of the file
+- **setBaseName(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> sets the base name of the file
+- **setBaseName(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> sets the base name of files for this array
+- **setBaseName(String, String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> set base name for the data source file
+- **setBaseName(String)** - Method in class [com.phoenix_int.aserver.util.PHXFileName](com/phoenix_int/aserver/util/PHXFileName.md)<br> sets the base name for the file.
+- **setBinary(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Make a given file variable binary
+- **setBlock(boolean)** - Method in class [com.phoenix_int.util.PHXBlocker](com/phoenix_int/util/PHXBlocker.md)<br> Call `setBlock()` before `block()` and before there is any remote chance that any other thread will call `unblock()`.
+- **setBlue(double)** - Method in class [com.phoenix_int.aserver.types.PHXAppearance](com/phoenix_int/aserver/types/PHXAppearance.md)
+- **setBooleanArrayMemberValue(String, int, boolean)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> sets the value of an 1D boolean array member
+- **setBooleanArrayMemberValue(String, int[], boolean)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> sets the value of a boolean array member
+- **setBooleanMemberValue(String, boolean)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> sets the value of a boolean member
+- **setByUrl(String, String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>set the value of a variable
+- **setByUrl(String, String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set the URL of a file property.
+- **setByUrlAsync(String, String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set the URL associated with a property
+- **setCanGet(boolean)** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> sets whether the property can be retrieved
+- **setCanSet(boolean)** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> sets whether the property can be modified
+- **setCG(double, double, double)** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **setcgX(double)** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **setcgY(double)** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **setcgZ(double)** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **setChecksum(long)** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **setColor(double, double, double)** - Method in class [com.phoenix_int.aserver.types.PHXAppearance](com/phoenix_int/aserver/types/PHXAppearance.md)
+- **setComment(String)** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Set a comment to be associated with this component.
+- **setConnection(PHXConnection)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager3](com/phoenix_int/aserver/PHXSimpleSelfManager3.md)<br> Sets the connection object
+- **setConnection(PHXConnection)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> sets the connection object
+- **setContents(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Sets the contents of the temporary file.
+- **setContents(PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Sets the contents of the temporary file.
+- **setContents(File)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Sets the contents of the temporary file to an existing file.
+- **setContents(File, UUID, String, Charset)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Sets the contents of the temporary file to an existing file.
+- **setContents(ManagedFileHandle, UUID, String, Charset)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Sets the contents of the temporary file to an existing ManagedFileHandle.
+- **setContents(int, String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> sets the contents of the file for an array element for an 1D array.
+- **setContents(int[], String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> sets the contents of the file for an array element for an array.
+- **setData(String)** - Method in class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> sets the value for the variable
+- **setDate(Date)** - Method in class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Sets the version date
+- **setDecimalSeparator(char)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> sets decimal separator character for floating point literals
+- **setDecimalSeparator(char)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Set decimal separator for floating point value literals.
+- **setDefaultValue(Object)** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br> Deprecated.<br>Set default value of variable
+- **setDelayLoadSetupAllowed(boolean)** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **setDeleteDFT(boolean)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>Set whether the analysis client should auto-delete Direct File Transfer run shares or not
+- **setDelimiters(String)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> sets the current delimiter set
+- **setDelimiters(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Sets the delimiters which should be used for parsing lines into fields.
+- **setDelimiters(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **setDelimiters(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **setDescription(String)** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **setDescription(String)** - Method in class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Sets the version description
+- **setDescription(String)** - Method in class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> sets the description for the variable.
+- **setDescription(String)** - Method in class [com.phoenix_int.aserver.types.PHXRefArrayProperty](com/phoenix_int/aserver/types/PHXRefArrayProperty.md)<br> sets a description of the ref prop
+- **setDescription(String)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)
+- **setDescription(String)** - Method in class [com.phoenix_int.aserver.types.PHXRefProperty](com/phoenix_int/aserver/types/PHXRefProperty.md)<br> sets a description of the ref prop
+- **setDescription(String)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleType](com/phoenix_int/aserver/types/PHXSimpleType.md)
+- **setDescription(String)** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br> Deprecated.<br>Set component description
+- **setDescription(String)** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br> Deprecated.<br>Set variable description
+- **setDescription(String)** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Set component description
+- **setDescription(String)** - Method in interface [com.phoenix_int.pacz.api.v2.IRuntimeVariable](com/phoenix_int/pacz/api/v2/IRuntimeVariable.md)<br> Set variable description
+- **setDictionary(String)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>Tries to set the dictionary by sending a set dictionary request.
+- **setDictionary(String)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set dictionary on Server.
+- **setDictionary(Map)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)
+- **setDictionaryAsync(String, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set dictionary on Server.
+- **setDimensions(String, int[])** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set the dimensions of an array.
+- **setDimensions(int[])** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Sets the dimensions of the array.
+- **setDimensionsAsync(String, int[], IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set the dimensions of an array.
+- **setDirectTransfer(boolean)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Set whether or not this runShare is involved in direct transfer of files
+- **setDoubleArrayMemberValue(String, int, double)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> sets the value of a 1D double array member
+- **setDoubleArrayMemberValue(String, int[], double)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> sets the value of a double array member
+- **setDoubleMemberValue(String, double)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> sets the value of a double member
+- **setDownloadInputs(boolean)** - Method in class [com.phoenix_int.aserver.PHXInvokeReturn](com/phoenix_int/aserver/PHXInvokeReturn.md)<br> set whether input values should be redownloaded after the invocation
+- **setDriver(boolean)** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **setEncoding(PHXFileUtils.Encoding)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)
+- **setEncoding(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)
+- **setEnd(PHXBookmark)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **setEndingCol(int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **setEndingMark(String, int, int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **setEndingRow(int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **setEndParent(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **setEnumAliases(String)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> takes a comma seperated string of values and fills the enumeration aliases list with values.
+- **setEnumAliases(String[])** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> Sets the enumeration aliases list
+- **setEnumAliases(String)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> takes a comma seperated string of values and fills the enumeration aliases list with values.
+- **setEnumAliases(String[])** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> Sets the enumeration aliases list
+- **setEnumAliases(String)** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.takes a comma seperated string of values and fills the enumeration aliases list with values.
+- **setEnumAliases(String[])** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.Sets the enumeration aliases list
+- **setEnumAliases(String)** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> takes a comma seperated string of values and fills the enumeration aliases list with values.
+- **setEnumAliases(String[])** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Sets the enumeration aliases list
+- **setEnumAliases(String)** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> takes a comma seperated string of values and fills the enumeration aliases list with values.
+- **setEnumAliases(String[])** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> Takes an array of values and fills the enumeration aliases list with values.
+- **setEnums(String[], Object[])** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br> Deprecated.<br>Set the names/aliases and corresponding values for the enumerated type
+- **setEnumValues(String[])** - Method in interface [com.phoenix_int.aserver.types.IPHXRefPropInfo](com/phoenix_int/aserver/types/IPHXRefPropInfo.md)<br> sets the enum values
+- **setEnumValues(String)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> takes a comma seperated string of values and fills the enumeration List with values.
+- **setEnumValues(double[])** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> Sets the enumeration list of valid values.
+- **setEnumValues(String)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> takes a comma seperated string of values and fills the enumeration List with values.
+- **setEnumValues(double[])** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> Sets the enumeration list of valid values.
+- **setEnumValues(String)** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.sets the possible values a variable may be
+- **setEnumValues(int[])** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.Sets the enumeration list of valid values.
+- **setEnumValues(String)** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> sets the possible values a variable may be
+- **setEnumValues(long[])** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> sets the possible values a variable may be
+- **setEnumValues(String)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> takes a comma seperated string of values and fills the enumeration List with values.
+- **setEnumValues(long[])** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> sets the possible values a variable may be
+- **setEnumValues(String[])** - Method in class [com.phoenix_int.aserver.types.PHXRefArrayProperty](com/phoenix_int/aserver/types/PHXRefArrayProperty.md)<br> sets the enum values
+- **setEnumValues(String[])** - Method in class [com.phoenix_int.aserver.types.PHXRefProperty](com/phoenix_int/aserver/types/PHXRefProperty.md)<br> sets the enum values
+- **setEnumValues(String)** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> sets the enum values
+- **setEnumValues(String[])** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> sets the enum values
+- **setEnumValues(String)** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)<br> takes a comma seperated string of values and fills the enumeration List with values.
+- **setEnumValues(String[])** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)<br> sets the enum values
+- **setFileExtension(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Sets the extension of the file that this object represents.
+- **setFileExtension(int, String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Sets the extension of the file for an element of an 1D array
+- **setFileExtension(int[], String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Sets the extension of the file for an element of an array
+- **setFileExtension(String, String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> set file extesion of the data source file
+- **setFileName(String, String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> set name of the data source file
+- **setFilesToCopy(String)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Sets the files which need to be copied when runshare mode is MODE_SHARE.
+- **setFileToGenerate(String)** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.InputFile](com/phoenix_int/aserver/util/scriptwrapper/api/InputFile.md)<br> Set the file to be generated
+- **setFileToGenerate(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Set the file to be generated
+- **setFileToGenerate(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.XPathFile](com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.md)<br> Set the file to be generated
+- **setFileToGenerateOrParse(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> Set the file to generate or to parse, depending on the mode
+- **setFileToGenerateOrParse(String)** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.md)<br> Set the file to generate or to parse, depending on the mode
+- **setFileToParse(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.CAEOutputFile](com/phoenix_int/aserver/util/scriptwrapper/api/CAEOutputFile.md)<br> Set the file to parse
+- **setFileToParse(String)** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.OutputFile](com/phoenix_int/aserver/util/scriptwrapper/api/OutputFile.md)<br> Deprecated.Set the file to be parsed
+- **setFileToParse(String)** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.OutputFile2](com/phoenix_int/aserver/util/scriptwrapper/api/OutputFile2.md)<br> Sets the file that will be parsed.
+- **setFileToParse(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Set the file to be parsed
+- **setFileToParse(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.XPathFile](com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.md)<br> Set the file to be parsed
+- **setFirst(Object)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Sets the first element of the array, or throws `ArrayIndexOutOfBounds` if there are no elements.
+- **setFormat(String)** - Method in interface [com.phoenix_int.aserver.types.IPHXFormat](com/phoenix_int/aserver/types/IPHXFormat.md)<br> Set the format string for the variable
+- **setFormat(String)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> Set the format string for the variable
+- **setFormat(String)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> Set the format string for the variable
+- **setFormat(String)** - Method in class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> sets the format for the variable.
+- **setFormat(String)** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.<br>Set the format string for the variable
+- **setFormat(String)** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Set the format string for the variable
+- **setFormat(String)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> Set the format string for the variable
+- **setFormat(String)** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br> Deprecated.Set variable format string
+- **setFullName(String)** - Method in class [com.phoenix_int.aserver.PHXMethodDescriptor](com/phoenix_int/aserver/PHXMethodDescriptor.md)
+- **setGreen(double)** - Method in class [com.phoenix_int.aserver.types.PHXAppearance](com/phoenix_int/aserver/types/PHXAppearance.md)
+- **setHasChanged(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleType](com/phoenix_int/aserver/types/PHXSimpleType.md)<br> sets the hasChanged flag
+- **setHasIcon(boolean)** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **setHasLowerBound(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> sets the `hasLowerBound` flag
+- **setHasLowerBound(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> sets the `hasLowerBound` flag
+- **setHasLowerBound(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.sets the `hasLowerBound` flag
+- **setHasLowerBound(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> sets the `hasLowerBound` flag
+- **setHasLowerBound(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> sets the `hasLowerBound` flag
+- **setHasUpperBound(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> sets the `hasUpperBound` flag
+- **setHasUpperBound(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> sets the `hasUpperBound` flag
+- **setHasUpperBound(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.sets the `hasUpperBound` flag
+- **setHasUpperBound(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> sets the `hasUpperBound` flag
+- **setHasUpperBound(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> sets the `hasUpperBound` flag
+- **setHasVersionInfo(int)** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **setHelpURL(String)** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **setHierarchy(String, PHXStringBuffer)** - Method in class [com.phoenix_int.aserver.client.PHXAnalysisClient](com/phoenix_int/aserver/client/PHXAnalysisClient.md)<br> Deprecated.<br>Sends a request to set a hierarchy for a component
+- **setHierarchy(String, Iterable`<AnalysisVariableValue>`)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set the variable hierarchy of a running instance.
+- **setHierarchy(String, File, String, boolean)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set the variable hierarchy of a running instance.
+- **setHierarchyAsync(String, Iterable`<AnalysisVariableValue>`, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set the variable hierarchy of a running instance.
+- **setHierarchyAsync(String, File, String, boolean, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set the variable hierarchy of a running instance.
+- **setIcon(PHXIcon)** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **setIconFile(String)** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **setIconUri(URI)** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Set component icon URI
+- **setIgnoreConversionErrors(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md)<br> indicates whether the object should accept bad values in the `fromString()` method without throwning an exception.
+- **setIgnoreConversionErrors(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> indicates whether the object should accept bad values in the `fromString()` method without throwning an exception.
+- **setIgnoreConversionErrors(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.<br>indicates whether the object should accept bad values in the` fromString()` method without throwning an exception.
+- **setIgnoreConversionErrors(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> indicates whether the object should accept bad values in the `fromString()` method without throwning an exception.
+- **setIgnoreErrors(boolean)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Sets the
+- **setInput(boolean)** - Method in interface [com.phoenix_int.aserver.types.IPHXRefPropInfo](com/phoenix_int/aserver/types/IPHXRefPropInfo.md)<br> sets an indicator for the ref prop
+- **setInput(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXRefArrayProperty](com/phoenix_int/aserver/types/PHXRefArrayProperty.md)<br> sets an indicator for the ref prop
+- **setInput(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXRefProperty](com/phoenix_int/aserver/types/PHXRefProperty.md)<br> sets an indicator for the ref prop
+- **setInputs(List`<IRuntimeVariable>`)** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Set component inputs
+- **setInstanceFiles(List`<IInstanceFile>`)** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Set component instance files
+- **setIntArrayMemberValue(String, int, int)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> sets the value of an 1D integer array member
+- **setIntArrayMemberValue(String, int[], int)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> sets the value of an integer array member
+- **setIntMemberValue(String, int)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> sets the value of an integer member
+- **setIsBinary(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Forces this file to be binary or not.
+- **setIsBinary(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Forces elements of this array to be binary or not.
+- **setIsBinary(String, boolean)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> set binary flag for a file member
+- **setJobListener(IPHXProcessJobInfoListener)** - Method in class [com.phoenix_int.aserver.util.PHXRuntime](com/phoenix_int/aserver/util/PHXRuntime.md)
+- **setKeywords(String)** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **setLength(int)** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)<br> sets the number of references
+- **setLength(int)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Sets the length of the first dimension of the array.
+- **setLength(int, int)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Sets the length of a dimensions of the array.
+- **setLockResize(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Tells this array that it cannot be resized.
+- **setLowerBound(double)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> sets the lower bound.
+- **setLowerBound(String)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)
+- **setLowerBound(double)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)<br> sets the lower bound.
+- **setLowerBound(int)** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.<br>sets the lower bound.
+- **setLowerBound(String)** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.
+- **setLowerBound(long)** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> sets the lower bound.
+- **setLowerBound(String)** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)
+- **setLowerBound(long)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)<br> sets the lower bound.
+- **setLowerBound(Number)** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br> Deprecated.<br>Set lower bound of variable; may be null
+- **setMass(double)** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **setMatrixArray(int, int, int, int, String[])** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> sets an array of tokens for the specified range.
+- **setMatrixArray(int, int, int, int, String[], int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> sets an array of tokens for the specified range.
+- **setMatrixArray(int, int, int, int, int, String[])** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> sets an array of tokens for the specified range.
+- **setMatrixArray(int, int, int, int, int, String[], int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> sets an array of tokens for the specified range.
+- **setMatrixArray2d(int, int, int, int, String[][], int)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> sets an array of tokens for the specified range.
+- **setMetaData(PHXRawFile)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)
+- **setMetaData(String, String)** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br> Deprecated.<br>Set meta data property; will create a new entry it does not exist
+- **setMetaData(String, String)** - Method in interface [com.phoenix_int.pacz.api.v2.IRuntimeVariable](com/phoenix_int/pacz/api/v2/IRuntimeVariable.md)<br> Set meta data property; will create a new entry it does not exist
+- **setMimeType(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)
+- **setMimeType(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> Set mime type for the array. Currently all elements of an array should have the same mime type.
+- **setMode(int)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Sets the runshare mode.
+- **setName(String)** - Method in class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Changes the branch name
+- **setName(String)** - Method in class [com.phoenix_int.aserver.PHXComponentVersion](com/phoenix_int/aserver/PHXComponentVersion.md)<br> Sets the version name
+- **setName(String)** - Method in class [com.phoenix_int.aserver.PHXMethodDescriptor](com/phoenix_int/aserver/PHXMethodDescriptor.md)
+- **setName(String)** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br> Deprecated.<br>sets the name of the file
+- **setName(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> sets the name of the file
+- **setName(int, String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> sets the name of the file for an element of an 1D array
+- **setName(int[], String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> sets the name of the file for an element of an array
+- **setName(String)** - Method in class [com.phoenix_int.aserver.util.PHXFileName](com/phoenix_int/aserver/util/PHXFileName.md)<br> sets the name for the file
+- **setName(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXBookmark](com/phoenix_int/aserver/util/scriptwrapper/api/PHXBookmark.md)
+- **setName(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **setName(String)** - Method in interface [com.phoenix_int.pacz.api.IRuntimeVariable](com/phoenix_int/pacz/api/IRuntimeVariable.md)<br> Deprecated.<br>Set variable name
+- **setNeedWrite(boolean)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)
+- **setOutputs(List`<IRuntimeVariable>`)** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Set component outputs
+- **setPageName(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXCAERange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXCAERange.md)
+- **setPageName(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **setParent(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **setPollDelay(long)** - Method in class [com.phoenix_int.aserver.monitors.PHXFileMonitor](com/phoenix_int/aserver/monitors/PHXFileMonitor.md)<br> Poll Delay is how long to sleep in milliseconds between polling the file for more data.
+- **setProperties(PHXRefProperty[])** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)
+- **setProperties(PHXRefArrayProperty[])** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)
+- **setQuoteChar(char)** - Method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> Sets the character to be used to indicate the start and end of strings.
+- **setRange(PHXRowFieldRange)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXBookmark](com/phoenix_int/aserver/util/scriptwrapper/api/PHXBookmark.md)
+- **setRed(double)** - Method in class [com.phoenix_int.aserver.types.PHXAppearance](com/phoenix_int/aserver/types/PHXAppearance.md)
+- **setRedirectURL(String)** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **setReference(String)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)<br> sets the value for the reference string.
+- **setReference(String[])** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)<br> sets the value for the reference string.
+- **setReference(int, String)** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)
+- **setRefPropValue(String, double)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)<br> sets a value for a ref prop
+- **setRefPropValue(String, long)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)
+- **setRefPropValue(String, boolean)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)
+- **setRefPropValue(String, String)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)
+- **setRefPropValue(String, int, double)** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)<br> sets a value for a ref prop
+- **setRefPropValue(String, int, long)** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)
+- **setRefPropValue(String, int, boolean)** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)
+- **setRefPropValue(String, int, String)** - Method in class [com.phoenix_int.aserver.types.PHXReferenceArray](com/phoenix_int/aserver/types/PHXReferenceArray.md)
+- **setRequiredFeatures(List`<String>`)** - Method in interface [com.phoenix_int.pacz.api.IComponentConfig](com/phoenix_int/pacz/api/IComponentConfig.md)<br> Deprecated.<br>Set list features required for component to execute
+- **setRequiredFeatures(List`<String>`)** - Method in interface [com.phoenix_int.pacz.api.v2.IComponentConfig](com/phoenix_int/pacz/api/v2/IComponentConfig.md)<br> Set list features required for component to execute
+- **setRequirements(String)** - Method in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)<br> Set the requirements via comma separated list.
+- **setReturnString(String)** - Method in class [com.phoenix_int.aserver.PHXInvokeReturn](com/phoenix_int/aserver/PHXInvokeReturn.md)<br> sets the return string for the custom method
+- **setRotX(double)** - Method in class [com.phoenix_int.aserver.types.PHXOrientation](com/phoenix_int/aserver/types/PHXOrientation.md)
+- **setRotY(double)** - Method in class [com.phoenix_int.aserver.types.PHXOrientation](com/phoenix_int/aserver/types/PHXOrientation.md)
+- **setRotZ(double)** - Method in class [com.phoenix_int.aserver.types.PHXOrientation](com/phoenix_int/aserver/types/PHXOrientation.md)
+- **setRunDirectory(String)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)
+- **setRunQueue(String, String)** - Method in interface [com.phoenix_int.aserver.IPHXRunQueue](com/phoenix_int/aserver/IPHXRunQueue.md)<br> sets the run queue for a component
+- **setRunReplacer(PHXRunReplacer)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Sets the run replacer object which is used to transform $VAR type specifications before running commands
+- **setRunShare2(PHXRunShare)** - Method in class [com.phoenix_int.aserver.PHXSimpleSelfManager3](com/phoenix_int/aserver/PHXSimpleSelfManager3.md)<br> Sets the run share object
+- **setServerProperties(Map`<String, ?>`)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set server properties.
+- **setServerPropertiesAsync(Map`<String, ?>`, IAnalysisServerCallback)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerClient](com/phoenix_int/aserver/client/v2/AnalysisServerClient.md)<br> Set server properties.
+- **setShell(String)** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Sets the shell used to execute commands.
+- **setShell(String)** - Method in class [com.phoenix_int.aserver.util.PHXRuntime](com/phoenix_int/aserver/util/PHXRuntime.md)<br> sets the shell to use when running commands (applies to UNIX only)
+- **setStart(PHXBookmark)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXSection](com/phoenix_int/aserver/util/scriptwrapper/api/PHXSection.md)
+- **setStartingCol(int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **setStartingMark(String, int, int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **setStartingRow(int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)
+- **setStringArrayMemberValue(String, int, String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> sets the value of a 1D string array member
+- **setStringArrayMemberValue(String, int[], String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> sets the value of a string array member
+- **setStringMemberValue(String, String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> sets the value of a string member
+- **setStringReplacer(PHXStringReplacer)** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br> Deprecated.<br>specifies a `PHXStringReplacer` object for use in forming the full file name.
+- **setStringReplacer(PHXStringReplacer)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> specifies a `PHXStringReplacer` object for use in forming the full file name.
+- **setStringReplacer(PHXStringReplacer)** - Method in class [com.phoenix_int.aserver.util.PHXFileName](com/phoenix_int/aserver/util/PHXFileName.md)<br> sets the string replacer for the forming the real file name
+- **setSurfaceArea(double)** - Method in class [com.phoenix_int.aserver.types.PHXMassProperties](com/phoenix_int/aserver/types/PHXMassProperties.md)
+- **setTempEmbedded(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> This method applies only to ModelCenter and has no function in ModelCenter Remote Execution
+- **setTempEmbedded(String)** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.md)<br> This method applies only to ModelCenter and has no function in ModelCenter Remote Execution
+
+# T
+
+- **templateFileName** - Variable in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br>
+- **timeout()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Cleans up a run that has timed out
+- **toAPIObject(FunctionThrows`<PHXRawFile, String, EX<IRuntimeVariable>`** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Convert this instance to a string-string map appropriate for serialization.
+- **toFile(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Sets the filename and then writes from the temp file to the actual file.
+- **toFile()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Writes from the temp file to the actual file.
+- **toFile(int, String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> sets the filename and then writes the file to disk for an element of an 1D array.
+- **toFile(int[], String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> sets the filename and then writes the file to disk for an element of an array.
+- **toFile(int)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> writes the file to disk for an element of an 1D array
+- **toFile(int[])** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> writes the file to disk for an element of an array
+- **toFile(String, String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> write a file member to a file
+- **toFile(String)** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> write a file member to a file file name must have been specified
+- **toImage()** - Method in class [com.phoenix_int.aserver.util.PHXIcon](com/phoenix_int/aserver/util/PHXIcon.md)<br> converts the icon to an Image
+- **toPHXSimpleType(Object, Class<?`<IRuntimeVariable>`** - Static method in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Converts the given type to the associated PHXSimpleType.
+- **toPHXSimpleType()** - Method in interface [com.phoenix_int.pacz.api.v2.IRuntimeVariable](com/phoenix_int/pacz/api/v2/IRuntimeVariable.md)<br> Get the PHXSimpleType version of variable
+- **toString()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerVersion](com/phoenix_int/aserver/client/v2/AnalysisServerVersion.md)<br>
+- **toString()** - Method in class [com.phoenix_int.aserver.PHXGroup](com/phoenix_int/aserver/PHXGroup.md)<br> Converts this to a string
+- **toString()** - Method in class [com.phoenix_int.aserver.PHXInvokeReturn](com/phoenix_int/aserver/PHXInvokeReturn.md)<br> handle converting this class to a string in XML format
+- **toString()** - Method in class [com.phoenix_int.aserver.PHXMethodDescriptor](com/phoenix_int/aserver/PHXMethodDescriptor.md)<br>
+- **toString()** - Method in class [com.phoenix_int.aserver.PHXPropertyDescriptor](com/phoenix_int/aserver/PHXPropertyDescriptor.md)<br> converts the property to a readable format
+- **toString()** - Method in interface [com.phoenix_int.aserver.types.IPHXType](com/phoenix_int/aserver/types/IPHXType.md)<br> Gets the value for the variable
+- **toString()** - Method in class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md)<br> converts the variable to a string
+- **toString()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> converts the variable to a string
+- **toString(int)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> Converts the value to a string with the best possible formatting, e.g.
+- **toString()** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br> Deprecated.converts the variable to a string
+- **toString()** - Method in class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> converts the variable to a string
+- **toString()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.converts the variable to a string
+- **toString()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> converts the variable to a string
+- **toString()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> converts the variable to a string
+- **toString(int)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> converts an element of the 1D array to a string
+- **toString(int[])** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)<br> converts an element of the array to a string
+- **toString()** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)<br> converts to a string
+- **toString()** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get XML representation of the object variable
+- **toString(int)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Converts a single element of a 1-d array to a string
+- **toString(String)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Converts a single element to a string
+- **toString(int[])** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Converts a single element to a string
+- **toString()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Returns the string form of this array.
+- **toString()** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> converts the variable to a string
+- **toString()** - Method in class [com.phoenix_int.aserver.util.PHXProcessInfo](com/phoenix_int/aserver/util/PHXProcessInfo.md)<br> Converts this process infor into a one-line readable string
+- **toString()** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Returns a string representation of this object.
+- **toString()** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.IPHXRange](com/phoenix_int/aserver/util/scriptwrapper/api/IPHXRange.md)<br>
+- **toString(boolean)** - Method in interface [com.phoenix_int.aserver.util.scriptwrapper.api.IPHXRange](com/phoenix_int/aserver/util/scriptwrapper/api/IPHXRange.md)<br>
+- **toString()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXCAERange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXCAERange.md)<br>
+- **toString(boolean)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXCAERange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXCAERange.md)<br>
+- **toString()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)<br>
+- **toString(boolean)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldRange](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldRange.md)<br>
+- **toString()** - Method in enum [com.phoenix_int.pacz.api.RunFolderPreference](com/phoenix_int/pacz/api/RunFolderPreference.md)<br> Deprecated.Get value of enumeration
+- **toString()** - Method in enum [com.phoenix_int.pacz.api.v2.RunFolderPreference](com/phoenix_int/pacz/api/v2/RunFolderPreference.md)<br> Get value of enumeration
+- **toString()** - Method in enum [com.phoenix_int.pacz.api.VariableDataType](com/phoenix_int/pacz/api/VariableDataType.md)<br> Deprecated.Get value of enumeration
+- **toString2()** - Method in class [com.phoenix_int.aserver.PHXMethodDescriptor](com/phoenix_int/aserver/PHXMethodDescriptor.md)<br>
+- **toString2()** - Method in interface [com.phoenix_int.aserver.types.IPHXType2](com/phoenix_int/aserver/types/IPHXType2.md)<br> Gets a PHXStringBuffer representation of the type
+- **toString2()** - Method in class [com.phoenix_int.aserver.types.PHXBoolean](com/phoenix_int/aserver/types/PHXBoolean.md)<br> converts the variable to a PHXStringBuffer
+- **toString2()** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> converts the variable to a PHXStringBuffer
+- **toString2()** - Method in class [com.phoenix_int.aserver.types.PHXFile](com/phoenix_int/aserver/types/PHXFile.md)<br> Deprecated.converts the variable to a string
+- **toString2()** - Method in class [com.phoenix_int.aserver.types.PHXGeometry](com/phoenix_int/aserver/types/PHXGeometry.md)<br> converts the variable to a PHXStringBuffer
+- **toString2()** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br> Deprecated.converts the variable to a PHXStringBuffer
+- **toString2()** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> converts the variable to a PHXStringBuffer
+- **toString2()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Gets a PHXStringBuffer representation of the contents of the temporary file.
+- **toString2()** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)<br> converts to a PHXStringBuffer
+- **toString2()** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> converts the variable to a PHXStringBuffer
+- **toString2(String)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Converts a single element to a string
+- **toString2(int[])** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Converts a single element to a string
+- **toString2()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Returns the string form of this array.
+- **toString2()** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> converts the variable to a PHXStringBuffer
+- **toString3()** - Method in class [com.phoenix_int.aserver.PHXMethodDescriptor](com/phoenix_int/aserver/PHXMethodDescriptor.md)<br>
+- **toXML()** - Method in class [com.phoenix_int.aserver.PHXComponentBranch](com/phoenix_int/aserver/PHXComponentBranch.md)<br> Converts this branch into an XML String
+- **toXML()** - Method in class [com.phoenix_int.aserver.types.PHXScriptObject](com/phoenix_int/aserver/types/PHXScriptObject.md)<br> get XML representation of the object
+- **toXML()** - Method in class [com.phoenix_int.aserver.util.PHXProcessInfo](com/phoenix_int/aserver/util/PHXProcessInfo.md)<br> Converts this process information into a usable XML description
+- **tr(String)** - Method in class [com.phoenix_int.util.PHXInternationalize](com/phoenix_int/util/PHXInternationalize.md)<br>
+- **tr(String, Object...)** - Method in class [com.phoenix_int.util.PHXInternationalize](com/phoenix_int/util/PHXInternationalize.md)<br>
+- **trace(String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Prints a string to the trace window
+- **transferArray(PHXSimpleArray, int, int, int, int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Transfers the data for a particular array.
+- **transferArray(PHXSimpleArray, int, int, int, int, int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Transfers the data for a particular array.
+- **transferArray(PHXSimpleArray, int, int, int, int, boolean, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Transfers the data for a particular array.
+- **transferArray(PHXSimpleArray, int, int, int, int, boolean, String, int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Transfers the data for a particular array.
+- **transferArray(PHXSimpleArray, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.XPathFile](com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.md)<br> Transfer an array of values, either from the file to the variable, or vice-versa, depending on [ParseableFile.Mode](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md)
+- **transferKeyVar(PHXSimpleType, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Transfers the data for a particular variable.
+- **transferKeyVar(PHXSimpleType, String, int, int, int, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Transfers the data for a particular variable.
+- **transferVar(PHXSimpleType, int, int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Transfers the data for a particular variable.
+- **transferVar(String, PHXSimpleType, int, int)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br>
+- **transferVar(PHXSimpleType, int, int, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Transfers the data for a particular variable.
+- **transferVar(String, PHXSimpleType, int, int, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br>
+- **transferVar(IPHXType, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.XPathFile](com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.md)<br> Transfer a value, either from the file to the variable, or vice-versa, depending on [ParseableFile.Mode](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md)
+- **transferVars(ParseableFile.Mode)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)<br> Transfer values for variables that have been defined using methods from the concrete implementation, i.e.
+- **transferVars(ParseableFile.Mode)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.CAEOutputFile](com/phoenix_int/aserver/util/scriptwrapper/api/CAEOutputFile.md)<br>
+- **transferVars(ParseableFile.Mode)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Note that if wrapper is null, variable collection should be empty, and there should be no harm in calling this method
+- **transferVars(ParseableFile.Mode)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.XPathFile](com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.md)<br> Transfer values for variables that have been defined using methods from the concrete implementation, i.e.
+- **trLazy(String)** - Method in class [com.phoenix_int.util.PHXInternationalize](com/phoenix_int/util/PHXInternationalize.md)<br> Return a lazily instantiated translation message that can be computed only if needed.
+- **trLazy(String, Object...)** - Method in class [com.phoenix_int.util.PHXInternationalize](com/phoenix_int/util/PHXInternationalize.md)<br> Return a lazily instantiated translation message that can be computed only if needed.
+
+# U
+
+- **unblock()** - Method in class [com.phoenix_int.util.PHXBlocker](com/phoenix_int/util/PHXBlocker.md)
+- **unblockAll()** - Method in class [com.phoenix_int.util.PHXBlocker](com/phoenix_int/util/PHXBlocker.md)<br> Same as unblock except designed for multiple waiters.
+- **UNKNOWN** - Static variable in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Type identifier for an unknown type
+- **UNKNOWN_ARRAY** - Static variable in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> Type identifier for an unknown array type
+- **unlock()** - Method in class [com.phoenix_int.aserver.PHXRunShare](com/phoenix_int/aserver/PHXRunShare.md)<br> Unlocks the runshare mechanisms.
+- **unmanageTempFile()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Ensure that the file containing the current contents is not deleted when the last handle to it is released.
+- **updateConsoleVariables()** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)
+
+# V
+
+- **validElement(int[], int[])** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Is the given index valid?
+- **valueOf(String)** - Static method in enum [com.phoenix_int.aserver.client.v2.AnalysisServerResponseType](com/phoenix_int/aserver/client/v2/AnalysisServerResponseType.md)<br> Returns the enum constant of this type with the specified name.
+- **valueOf(String)** - Static method in enum [com.phoenix_int.aserver.util.Parser.Mode](com/phoenix_int/aserver/util/Parser.Mode.md)<br> Returns the enum constant of this type with the specified name.
+- **valueOf(String)** - Static method in enum [com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile.Mode](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md)<br> Returns the enum constant of this type with the specified name.
+- **valueOf(String)** - Static method in enum [com.phoenix_int.pacz.api.RunFolderPreference](com/phoenix_int/pacz/api/RunFolderPreference.md)<br>Deprecated. Returns the enum constant of this type with the specified name.
+- **valueOf(String)** - Static method in enum [com.phoenix_int.pacz.api.v2.RunFolderPreference](com/phoenix_int/pacz/api/v2/RunFolderPreference.md)<br> Returns the enum constant of this type with the specified name.
+- **valueOf(String)** - Static method in enum [com.phoenix_int.pacz.api.VariableDataType](com/phoenix_int/pacz/api/VariableDataType.md)<br>Deprecated. Returns the enum constant of this type with the specified name.
+- **values()** - Static method in enum [com.phoenix_int.aserver.client.v2.AnalysisServerResponseType](com/phoenix_int/aserver/client/v2/AnalysisServerResponseType.md)<br> Returns an array containing the constants of this enum type, in the order they are declared.
+- **values()** - Static method in enum [com.phoenix_int.aserver.util.Parser.Mode](com/phoenix_int/aserver/util/Parser.Mode.md)<br> Returns an array containing the constants of this enum type, in the order they are declared.
+- **values()** - Static method in enum [com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile.Mode](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.Mode.md)<br> Returns an array containing the constants of this enum type, in the order they are declared.
+- **values()** - Static method in enum [com.phoenix_int.pacz.api.RunFolderPreference](com/phoenix_int/pacz/api/RunFolderPreference.md)<br>Deprecated. Returns an array containing the constants of this enum type, in the order they are declared.
+- **values()** - Static method in enum [com.phoenix_int.pacz.api.v2.RunFolderPreference](com/phoenix_int/pacz/api/v2/RunFolderPreference.md)<br> Returns an array containing the constants of this enum type, in the order they are declared.
+- **values()** - Static method in enum [com.phoenix_int.pacz.api.VariableDataType](com/phoenix_int/pacz/api/VariableDataType.md)<br>Deprecated. Returns an array containing the constants of this enum type, in the order they are declared.
+- **VariableDataType** - Enum in [com.phoenix_int.pacz.api](com/phoenix_int/pacz/api/VariableDataType.md)<br>Deprecated. IRuntimeVariables are now using the canonical PHX type identifiers which are literal strings (see com.phoenix_int.pacz.api.v2)
+- **VI_AVAILABLE** - Static variable in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **VI_UNAVAILABLE** - Static variable in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **VI_UNKNOWN** - Static variable in class [com.phoenix_int.aserver.PHXComponentDescription](com/phoenix_int/aserver/PHXComponentDescription.md)
+- **visit(PHXBoolean)** - Method in interface [com.phoenix_int.aserver.types.IPHXType2.IVisitor](com/phoenix_int/aserver/types/IPHXType2.IVisitor.md)<br> Visit a PHXBoolean.
+- **visit(PHXLong)** - Method in interface [com.phoenix_int.aserver.types.IPHXType2.IVisitor](com/phoenix_int/aserver/types/IPHXType2.IVisitor.md)<br> Visit a PHXLong.
+- **visit(PHXDouble)** - Method in interface [com.phoenix_int.aserver.types.IPHXType2.IVisitor](com/phoenix_int/aserver/types/IPHXType2.IVisitor.md)<br> Visit a PHXDouble.
+- **visit(PHXString)** - Method in interface [com.phoenix_int.aserver.types.IPHXType2.IVisitor](com/phoenix_int/aserver/types/IPHXType2.IVisitor.md)<br> Visit a PHXString.
+- **visit(PHXRawFile)** - Method in interface [com.phoenix_int.aserver.types.IPHXType2.IVisitor](com/phoenix_int/aserver/types/IPHXType2.IVisitor.md)<br> Visit a PHXRawFile.
+- **visit(PHXGeometry)** - Method in interface [com.phoenix_int.aserver.types.IPHXType2.IVisitor](com/phoenix_int/aserver/types/IPHXType2.IVisitor.md)<br> Visit a PHXGeometry.
+- **visit(PHXBooleanArray)** - Method in interface [com.phoenix_int.aserver.types.IPHXType2.IVisitor](com/phoenix_int/aserver/types/IPHXType2.IVisitor.md)<br> Visit a PHXBooleanArray.
+- **visit(PHXLongArray)** - Method in interface [com.phoenix_int.aserver.types.IPHXType2.IVisitor](com/phoenix_int/aserver/types/IPHXType2.IVisitor.md)<br> Visit a PHXLongArray.
+- **visit(PHXDoubleArray)** - Method in interface [com.phoenix_int.aserver.types.IPHXType2.IVisitor](com/phoenix_int/aserver/types/IPHXType2.IVisitor.md)<br> Visit a PHXDoubleArray.
+- **visit(PHXStringArray)** - Method in interface [com.phoenix_int.aserver.types.IPHXType2.IVisitor](com/phoenix_int/aserver/types/IPHXType2.IVisitor.md)<br> Visit a PHXStringArray.
+- **visit(PHXRawFileArray)** - Method in interface [com.phoenix_int.aserver.types.IPHXType2.IVisitor](com/phoenix_int/aserver/types/IPHXType2.IVisitor.md)<br> Visit a PHXRawFileArray.
+
+# W
+
+- **waitFor()** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)
+- **waitForMonitorDeath()** - Method in class [com.phoenix_int.aserver.monitors.PHXFileMonitor](com/phoenix_int/aserver/monitors/PHXFileMonitor.md)
+- **waitForResponse()** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerWaitCallback](com/phoenix_int/aserver/client/v2/AnalysisServerWaitCallback.md)<br> Wait until the response has been received, if it has not already.
+- **waitForResponse(int)** - Method in class [com.phoenix_int.aserver.client.v2.AnalysisServerWaitCallback](com/phoenix_int/aserver/client/v2/AnalysisServerWaitCallback.md)<br> Wait until the response has been received, if it has not already.
+- **wasLastTokenQuoted()** - Method in class [com.phoenix_int.aserver.util.PHXStringTokenizer](com/phoenix_int/aserver/util/PHXStringTokenizer.md)<br> indicates whether the last token retrieved was a quoted string
+- **wrapErrorStream(IPHXStreamRegExListener)** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)
+- **wrapInputStream(IPHXStreamRegExListener)** - Method in class [com.phoenix_int.aserver.util.PHXProcess](com/phoenix_int/aserver/util/PHXProcess.md)
+- **wrapper** - Variable in class [com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md)
+- **write(char[], int, int)** - Method in class [com.phoenix_int.aserver.monitors.PHXMonitorableStream.MonitorWriter](com/phoenix_int/aserver/monitors/PHXMonitorableStream.MonitorWriter.md)
+- **write(byte[])** - Method in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)
+- **write(byte[], int, int)** - Method in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)
+- **writeFile(String)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Sets the filename and then writes from the temp file to the actual file.
+- **writeFile()** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)<br> Writes from the temp file to the actual file.
+- **writeFile(String, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject](com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.md)<br> Write the given file variable out to the specified file
+- **writeTo(OutputStreamWriter)** - Method in interface [com.phoenix_int.aserver.util.Parser](com/phoenix_int/aserver/util/Parser.md)<br> Write any changes to the output stream
+- **writeTo(String)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)
+- **writeTo(String, PHXFileUtils.Encoding)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)
+- **writeTo(OutputStream)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)
+- **writeTo(OutputStreamWriter)** - Method in class [com.phoenix_int.aserver.util.PHXFileParser](com/phoenix_int/aserver/util/PHXFileParser.md)<br> writes out the data to a file
+- **writeTo(OutputStream)** - Method in class [com.phoenix_int.aserver.util.PHXStringBuffer](com/phoenix_int/aserver/util/PHXStringBuffer.md)<br> Writes this string buffer out to an output stream efficiently does utf-8 conversion before writing
+- **writeValue(int, int, String)** - Method in class [com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldFile](com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.md)<br> Writes a token out to the output file.
+
+# X
+
+- **XPathFile** - Class in [com.phoenix_int.aserver.util.scriptwrapper.api](com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.md)<br> Represents an XML file (not a file variable) used in a script wrapper, with access to the XML node values via XPath statements
+- **XPathFile(PHXScriptWrapperObject, ParseableFile.Mode)** - Constructor for class [com.phoenix_int.aserver.util.scriptwrapper.api.XPathFile](com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.md)<br> Construct a new XPathFile
+
+# _
+
+- **_actualPos** - Variable in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)
+- **_buffer** - Variable in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)
+- **_bufStart** - Variable in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)
+- **_copyMetadataFromOther(PHXDouble)** - Method in class [com.phoenix_int.aserver.types.PHXDouble](com/phoenix_int/aserver/types/PHXDouble.md)<br> Clone another PHXDouble's metadata.
+- **_copyMetadataFromOther(PHXInteger)** - Method in class [com.phoenix_int.aserver.types.PHXInteger](com/phoenix_int/aserver/types/PHXInteger.md)<br>Deprecated. Clone another PHXInteger's metadata.
+- **_copyMetadataFromOther(PHXLong)** - Method in class [com.phoenix_int.aserver.types.PHXLong](com/phoenix_int/aserver/types/PHXLong.md)<br> Clone another PHXLong's metadata.
+- **_copyMetadataFromOther(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleType](com/phoenix_int/aserver/types/PHXSimpleType.md)<br> Copy common metadata on PHXSimpleType from another object to this one.
+- **_copyMetadataFromOther(PHXString)** - Method in class [com.phoenix_int.aserver.types.PHXString](com/phoenix_int/aserver/types/PHXString.md)<br> Clone another PHXString's metadata.
+- **_data** - Variable in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)
+- **_fileLen** - Variable in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)
+- **_filePos** - Variable in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)
+- **_getMetaData(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)
+- **_getMetaData(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)
+- **_getMetaData(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)
+- **_getMetaData()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Gets the meta data off of the first element of the array and sets it into our meta data info.
+- **_getMetaData(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Worker which takes the meta data from an instance of PHXSimpleType and sets it into our meta data.
+- **_getMetaData(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)
+- **_getProperty(String)** - Method in class [com.phoenix_int.aserver.types.PHXReference](com/phoenix_int/aserver/types/PHXReference.md)<br> retrieves a named property
+- **_lockDims** - Variable in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)
+- **_lockResize** - Variable in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)
+- **_prop** - Variable in class [com.phoenix_int.aserver.client.PHXPropertyValue](com/phoenix_int/aserver/client/PHXPropertyValue.md)
+- **_readBuf()** - Method in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)
+- **_readOffset** - Variable in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)
+- **_setContentFromOther(PHXRawFile)** - Method in class [com.phoenix_int.aserver.types.PHXRawFile](com/phoenix_int/aserver/types/PHXRawFile.md)
+- **_setMetaData(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)
+- **_setMetaData(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)
+- **_setMetaData(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXRawFileArray](com/phoenix_int/aserver/types/PHXRawFileArray.md)
+- **_setMetaData(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Sets a simple type's meta data based on the meta data in this object.
+- **_setMetaData()** - Method in class [com.phoenix_int.aserver.types.PHXSimpleArray](com/phoenix_int/aserver/types/PHXSimpleArray.md)<br> Call this function to set the meta data from this object into every element of the array.
+- **_setMetaData(PHXSimpleType)** - Method in class [com.phoenix_int.aserver.types.PHXStringArray](com/phoenix_int/aserver/types/PHXStringArray.md)
+- **_sort(PHXDoubleArray, boolean)** - Method in class [com.phoenix_int.aserver.types.PHXDoubleArray](com/phoenix_int/aserver/types/PHXDoubleArray.md)
+- **_sort(PHXLongArray, boolean)** - Method in class [com.phoenix_int.aserver.types.PHXLongArray](com/phoenix_int/aserver/types/PHXLongArray.md)
+- **_verifyIsArrayType(String)** - Static method in class [com.phoenix_int.aserver.types.PHXTypeFactory](com/phoenix_int/aserver/types/PHXTypeFactory.md)<br> utility function for verifying that a type string is an array type - it is in the form "XXXX[#]"
+- **_wrapped** - Variable in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)
+- **_writeOffset** - Variable in class [com.phoenix_int.util.BufferedRandomAccessFile](com/phoenix_int/util/BufferedRandomAccessFile.md)<br>
