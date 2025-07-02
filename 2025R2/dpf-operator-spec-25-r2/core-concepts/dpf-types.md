@@ -8,6 +8,7 @@ Inputs or outputs of DPF operators and workflows are limited to the following ty
 
 DPF understands most standard types out-of-the-box.
 The following are standard types found in the current standard installation:
+
 - bool
 - char
 - uint32

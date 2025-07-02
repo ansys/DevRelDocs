@@ -1,6 +1,8 @@
-This document contains ModelCenter Remote Execution Java API.
+# Introduction
 
-## How This API Document Is Organized
+This document contains the ModelCenter Remote Execution Java API.
+
+## How this API document is organized
 This API (Application Programming Interface) document has pages corresponding to the items in the navigation bar, described as follows.
 
 ### Overview
@@ -18,7 +20,7 @@ Each package has a page that contains a list of its classes and interfaces, with
 - Errors
 - Annotation Types
 
-### Class/Interface
+### Class/interface
 
 Each class, interface, nested class, and nested interface has its own separate page. Each of these pages has three sections consisting of a class/interface description, summary tables, and detailed member descriptions:
 
@@ -41,7 +43,7 @@ Each class, interface, nested class, and nested interface has its own separate p
 
 Each summary entry contains the first sentence from the detailed description for that item. The summary entries are alphabetical, while the detailed descriptions are in the order they appear in the source code. This preserves the logical groupings established by the programmer.
 
-### Annotation Type
+### Annotation type
 
 Each annotation type has its own separate page with the following sections:
 
@@ -60,7 +62,7 @@ Each enum has its own separate page with the following sections:
 - Enum Constant Summary
 - Enum Constant Detail
 
-### Tree (Class Hierarchy)
+### Tree (class hierarchy)
 
 There is a [Class Hierarchy](overview-tree.md) page for all packages, plus a hierarchy for each package. Each hierarchy page contains a list of classes and a list of interfaces. The classes are organized by inheritance structure starting with `java.lang.Object`. The interfaces do not inherit from `java.lang.Object`.
 
@@ -72,11 +74,11 @@ The [Deprecated API](deprecated-list.md) page lists all of the API that have bee
 
 The [Index](index-all.md) contains an alphabetic list of all classes, interfaces, constructors, methods, and fields.
 
-### Serialized Form
+### Serialized form
 
 Each serializable or externalizable class has a description of its serialization fields and methods on the [Serialized Form](serialized-form.md) page. This information is of interest to re-implementors, not to developers using the API. While there is no link in the navigation bar, you can get to this information by going to any serialized class and clicking "Serialized Form" in the "See also" section of the class description.
 
-### Constant Field Values
+### Constant field values
 
 The [Constant Field Values](constant-values.md) page lists the static final fields and their values.
 

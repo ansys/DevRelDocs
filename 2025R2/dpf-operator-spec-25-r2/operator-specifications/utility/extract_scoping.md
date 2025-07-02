@@ -22,22 +22,24 @@ Takes a field or a fields container and extracts its scoping or scopings contain
 
 ## Inputs
 
+
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  field_or_fields_container |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-
+| <strong>Pin 0</strong> | field_or_fields_container |[`field`](../../core-concepts/dpf-types.md#field), [`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
+
+| Output | Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |  |
+| **Pin 0** | mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
 | **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
 
 ## Scripting
 

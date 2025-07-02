@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "optiSLang interfactes and customizations 2025 R2",
+      "summary": "",
+      "version": "2025 R2",
+      "product": "optiSLang",
+      "programming language": "python",
+      "product collection": "Connect",
+      "physics": "Connect"
+    }
+  }
+}

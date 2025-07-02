@@ -22,24 +22,26 @@ compute the normals at the given nodes or element scoping based on the given mes
 
 ## Inputs
 
+
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |  |
-| <strong>Pin 1</strong>|  mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
-| <strong>Pin 3</strong>|  field |[`field`](../../core-concepts/dpf-types.md#field) |  |
-
+| <strong>Pin 0</strong> | mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |  |
+| <strong>Pin 1</strong> | mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
+| <strong>Pin 3</strong> | field |[`field`](../../core-concepts/dpf-types.md#field) |  |
 
 ## Outputs
 
-| Output |  Name | Expected type(s) | Description |
+
+| Output | Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| field |[`field`](../../core-concepts/dpf-types.md#field) |  |
+| **Pin 0** | field |[`field`](../../core-concepts/dpf-types.md#field) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
 | **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+
 
 ## Scripting
 
