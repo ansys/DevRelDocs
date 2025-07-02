@@ -24,8 +24,9 @@ material_3 = material_collection[2]
 
 **Methods:**
 
-| [`GetDensity`](#generated.RAFluidMaterial.GetDensity)([unit])                                                    | Get the value of "Density".                                                     |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [`GetDensity`](#generated.RAFluidMaterial.GetDensity)([unit])                                                    | Get the value of "Density".                                                     |
 | [`GetModuleProperties`](#generated.RAFluidMaterial.GetModuleProperties)()                                        | Get the names of the module properties.                                         |
 | [`GetModuleProperty`](#generated.RAFluidMaterial.GetModuleProperty)(property_name[, unit])                       | Get the value of a module property.                                             |
 | [`GetSoundSpeed`](#generated.RAFluidMaterial.GetSoundSpeed)([unit])                                              | Deprecated: Use this method from RASPHSettings instead                          |

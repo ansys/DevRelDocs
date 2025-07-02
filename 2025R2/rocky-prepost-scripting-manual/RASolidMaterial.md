@@ -23,8 +23,9 @@ material_3 = material_collection[2]
 
 **Methods:**
 
-| [`GetBulkDensity`](#generated.RASolidMaterial.GetBulkDensity)([unit])                                            | Get the value of "Bulk Density".                                                |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [`GetBulkDensity`](#generated.RASolidMaterial.GetBulkDensity)([unit])                                            | Get the value of "Bulk Density".                                                |
 | [`GetBulkSolidFraction`](#generated.RASolidMaterial.GetBulkSolidFraction)()                                      | Get the value of "Bulk Solid Fraction".                                         |
 | [`GetCurrentDensity`](#generated.RASolidMaterial.GetCurrentDensity)([unit])                                      | Get the value of "Current Density".                                             |
 | [`GetDensity`](#generated.RASolidMaterial.GetDensity)([unit])                                                    | Get the value of "Density".                                                     |

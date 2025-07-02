@@ -25,8 +25,9 @@ free_body_translation = motion_1.GetTypeObject()
 
 **Methods:**
 
-| [`GetFreeMotionDirection`](#generated.RAFreeBodyTranslation.GetFreeMotionDirection)()                       | Get "Free Motion Direction" as a string.                       |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`GetFreeMotionDirection`](#generated.RAFreeBodyTranslation.GetFreeMotionDirection)()                       | Get "Free Motion Direction" as a string.                       |
 | [`GetValidFreeMotionDirectionValues`](#generated.RAFreeBodyTranslation.GetValidFreeMotionDirectionValues)() | Get a list of all possible values for "Free Motion Direction". |
 | [`SetFreeMotionDirection`](#generated.RAFreeBodyTranslation.SetFreeMotionDirection)(value)                  | Set the value of "Free Motion Direction".                      |
 

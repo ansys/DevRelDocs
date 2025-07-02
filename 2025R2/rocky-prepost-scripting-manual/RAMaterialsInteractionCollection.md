@@ -37,8 +37,9 @@ Items in this list are of type [`RAMaterialsInteraction`](RAMaterialsInteraction
 
 **Methods:**
 
-| [`Clear`](#generated.RAMaterialsInteractionCollection.Clear)()                                                           | Unused: Materials Interactions are automatically deleted when Materials are created.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| [`Clear`](#generated.RAMaterialsInteractionCollection.Clear)()                                                           | Unused: Materials Interactions are automatically deleted when Materials are created.   |
 | [`GetMaterialsInteraction`](#generated.RAMaterialsInteractionCollection.GetMaterialsInteraction)(material_1, material_2) | Get the materials interaction for the given pair of materials.                         |
 | [`New`](#generated.RAMaterialsInteractionCollection.New)()                                                               | Unused: Materials Interactions are automatically created when Materials are created.   |
 | [`Remove`](#generated.RAMaterialsInteractionCollection.Remove)(item)                                                     | Unused: Materials Interactions are automatically deleted when Materials are created.   |

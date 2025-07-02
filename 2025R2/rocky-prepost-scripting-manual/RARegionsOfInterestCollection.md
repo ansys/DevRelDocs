@@ -23,8 +23,9 @@ can be iterated on, accessed via index, etc:
 
 **Methods:**
 
-| [`AddCube`](#generated.RARegionsOfInterestCollection.AddCube)([name])         | Add a new Cube.                 |
+| Name | Description |
 |-------------------------------------------------------------------------------|---------------------------------|
+| [`AddCube`](#generated.RARegionsOfInterestCollection.AddCube)([name])         | Add a new Cube.                 |
 | [`AddCylinder`](#generated.RARegionsOfInterestCollection.AddCylinder)([name]) | Add a new Cylinder.             |
 | [`Clear`](#generated.RARegionsOfInterestCollection.Clear)()                   | Remove all items from the list. |
 | [`New`](#generated.RARegionsOfInterestCollection.New)()                       | Add a new item.                 |

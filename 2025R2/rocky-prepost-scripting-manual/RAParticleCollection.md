@@ -35,8 +35,9 @@ Items in this list are of type [`RAParticle`](RAParticle.md#generated.RAParticle
 
 **Methods:**
 
-| [`Clear`](#generated.RAParticleCollection.Clear)()                          | Remove all items from the list.                                  |
+| Name | Description |
 |-----------------------------------------------------------------------------|------------------------------------------------------------------|
+| [`Clear`](#generated.RAParticleCollection.Clear)()                          | Remove all items from the list.                                  |
 | [`GetParticle`](#generated.RAParticleCollection.GetParticle)(particle_name) | Get a particle given its name.                                   |
 | [`GetParticleNames`](#generated.RAParticleCollection.GetParticleNames)()    | Get a list of the names of all the particles in this collection. |
 | [`New`](#generated.RAParticleCollection.New)()                              | Add a new item.                                                  |

@@ -24,8 +24,9 @@ module_item = module_list.New()
 
 **Methods:**
 
-| [`GetModuleProperties`](#generated.RAModulePropertyListItem.GetModuleProperties)()                                        | Get the names of the module properties.                                         |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [`GetModuleProperties`](#generated.RAModulePropertyListItem.GetModuleProperties)()                                        | Get the names of the module properties.                                         |
 | [`GetModuleProperty`](#generated.RAModulePropertyListItem.GetModuleProperty)(property_name[, unit])                       | Get the value of a module property.                                             |
 | [`GetValidOptionsForModuleProperty`](#generated.RAModulePropertyListItem.GetValidOptionsForModuleProperty)(property_name) | Get all valid options only for properties that have a list of possible options. |
 | [`SetModuleProperty`](#generated.RAModulePropertyListItem.SetModuleProperty)(property_name, value[, unit])                | Set the value of a module property.                                             |

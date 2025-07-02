@@ -28,8 +28,9 @@ The RAModulePropertyList supports iteration like regular lists and item manipula
 
 **Methods:**
 
-| [`Clear`](#generated.RAModulePropertyList.Clear)()       | Remove all items from the list.   |
+| Name | Description |
 |----------------------------------------------------------|-----------------------------------|
+| [`Clear`](#generated.RAModulePropertyList.Clear)()       | Remove all items from the list.   |
 | [`New`](#generated.RAModulePropertyList.New)()           | Add a new item.                   |
 | [`Remove`](#generated.RAModulePropertyList.Remove)(item) | Remove an item from the list.     |
 

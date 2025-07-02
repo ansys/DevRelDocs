@@ -22,8 +22,9 @@ domain_settings = study.GetDomainSettings()
 
 **Methods:**
 
-| [`DisablePeriodicAtGeometryLimits`](#generated.RADomainSettings.DisablePeriodicAtGeometryLimits)()                         | Set the value of "Periodic At Geometry Limits" to False.                 |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
+| [`DisablePeriodicAtGeometryLimits`](#generated.RADomainSettings.DisablePeriodicAtGeometryLimits)()                         | Set the value of "Periodic At Geometry Limits" to False.                 |
 | [`DisableUseBoundaryLimits`](#generated.RADomainSettings.DisableUseBoundaryLimits)()                                       | Set the value of "Use Boundary Limits" to False.                         |
 | [`EnablePeriodicAtGeometryLimits`](#generated.RADomainSettings.EnablePeriodicAtGeometryLimits)()                           | Set the value of "Periodic At Geometry Limits" to True.                  |
 | [`EnableUseBoundaryLimits`](#generated.RADomainSettings.EnableUseBoundaryLimits)()                                         | Set the value of "Use Boundary Limits" to True.                          |

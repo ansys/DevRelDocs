@@ -25,8 +25,9 @@ additional_moment = motion_1.GetTypeObject()
 
 **Methods:**
 
-| [`GetMomentValue`](#generated.RAPrescribedMoment.GetMomentValue)([unit])         | Get the value of "Moment Value".   |
+| Name | Description |
 |----------------------------------------------------------------------------------|------------------------------------|
+| [`GetMomentValue`](#generated.RAPrescribedMoment.GetMomentValue)([unit])         | Get the value of "Moment Value".   |
 | [`SetMomentValue`](#generated.RAPrescribedMoment.SetMomentValue)(values[, unit]) | Set the values of "Moment Value".  |
 
 <a id="generated.RAPrescribedMoment.GetMomentValue"></a>

@@ -28,8 +28,9 @@ contain the information for each desired particle to be generated, such as, posi
 
 **Methods:**
 
-| [`GetAvailableMotionFrames`](#generated.RACustomInput.GetAvailableMotionFrames)()                              | Get all available Motion Frames.                                                                           |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| [`GetAvailableMotionFrames`](#generated.RACustomInput.GetAvailableMotionFrames)()                              | Get all available Motion Frames.                                                                           |
 | [`GetAvailableParticles`](#generated.RACustomInput.GetAvailableParticles)()                                    | Get all available Particles.                                                                               |
 | [`GetDefaultTemperature`](#generated.RACustomInput.GetDefaultTemperature)([unit])                              | Get the value of "Default Temperature".                                                                    |
 | [`GetFilePath`](#generated.RACustomInput.GetFilePath)()                                                        | Get the value of "File Path".                                                                              |

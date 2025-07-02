@@ -29,8 +29,9 @@ be set.
 
 **Methods:**
 
-| [`GetAdhesiveDistance`](#generated.RAMaterialsInteraction.GetAdhesiveDistance)([unit])                                  | Get the value of "Adhesive Distance".                                           |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
+| [`GetAdhesiveDistance`](#generated.RAMaterialsInteraction.GetAdhesiveDistance)([unit])                                  | Get the value of "Adhesive Distance".                                           |
 | [`GetAdhesiveFraction`](#generated.RAMaterialsInteraction.GetAdhesiveFraction)([unit])                                  | Get the value of "Adhesive Fraction".                                           |
 | [`GetContactStiffnessMultiplier`](#generated.RAMaterialsInteraction.GetContactStiffnessMultiplier)([unit])              | Get the value of "Contact Stiffness Multiplier".                                |
 | [`GetDynamicFriction`](#generated.RAMaterialsInteraction.GetDynamicFriction)([unit])                                    | Get the value of "Dynamic Friction".                                            |

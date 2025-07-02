@@ -25,8 +25,9 @@ tagging = particles_calculations.CreateTagging(selection_process)
 
 **Methods:**
 
-| [`GetGridFunctionName`](#generated.RATagging.GetGridFunctionName)()   | Get the tagging grid function name.                           |
+| Name | Description |
 |-----------------------------------------------------------------------|---------------------------------------------------------------|
+| [`GetGridFunctionName`](#generated.RATagging.GetGridFunctionName)()   | Get the tagging grid function name.                           |
 | [`GetNameMask`](#generated.RATagging.GetNameMask)()                   | Get the value of "Name Mask".                                 |
 | [`GetTagValue`](#generated.RATagging.GetTagValue)()                   | Get the value of "Tag Value".                                 |
 | [`GetTimeRangeFilter`](#generated.RATagging.GetTimeRangeFilter)()     | Get the API object that wraps the specific Time Range Filter. |

@@ -13,8 +13,9 @@ generally aren't instantiated by the user). -->
 
 **Methods:**
 
-| [`GetAvailableGridFunctions`](#generated.RAContactsDataMeshColoring.GetAvailableGridFunctions)()           | Get a list of all possible values for "GridFunctions".       |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [`GetAvailableGridFunctions`](#generated.RAContactsDataMeshColoring.GetAvailableGridFunctions)()           | Get a list of all possible values for "GridFunctions".       |
 | [`GetAvailableGridFunctionsNames`](#generated.RAContactsDataMeshColoring.GetAvailableGridFunctionsNames)() | Get a list of all possible values for "GridFunctions" names. |
 | [`GetContactsColor`](#generated.RAContactsDataMeshColoring.GetContactsColor)()                             | Get the value of "Node Color".                               |
 | [`GetContactsNetworkColor`](#generated.RAContactsDataMeshColoring.GetContactsNetworkColor)()               | Get the value of "Contacts Network Color".                   |

@@ -34,8 +34,9 @@ particles_coloring.SetNodeGridFunction('Absolute Rotational Velocity')  # for pr
 
 **Methods:**
 
-| [`GetAvailableGridFunctions`](#generated.RAMeshColoring.GetAvailableGridFunctions)()                           | Get a list of all possible values for "GridFunctions".                     |
+| Name | Description |
 |----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| [`GetAvailableGridFunctions`](#generated.RAMeshColoring.GetAvailableGridFunctions)()                           | Get a list of all possible values for "GridFunctions".                     |
 | [`GetAvailableGridFunctionsNames`](#generated.RAMeshColoring.GetAvailableGridFunctionsNames)()                 | Get a list of all possible values for "GridFunctions" names.               |
 | [`GetAvailableVectorGridFunctions`](#generated.RAMeshColoring.GetAvailableVectorGridFunctions)()               | Get a list of all possible values for Vector "GridFunctions".              |
 | [`GetAvailableVectorGridFunctionsNames`](#generated.RAMeshColoring.GetAvailableVectorGridFunctionsNames)()     | Get a list of all possible values for Vector "GridFunctions" names.        |

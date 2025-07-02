@@ -13,8 +13,9 @@ generally aren't instantiated by the user). -->
 
 **Methods:**
 
-| [`AddCurve`](#generated.RACubeGroup.AddCurve)(curve_name, timesteps, values, unit)                           | Add a curve to the element with a time-steps domain                                                        |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
+| [`AddCurve`](#generated.RACubeGroup.AddCurve)(curve_name, timesteps, values, unit)                           | Add a curve to the element with a time-steps domain                                                        |
 | [`GetCenter`](#generated.RACubeGroup.GetCenter)([unit])                                                      |                                                                                                            |
 | [`GetCenterAfterMovement`](#generated.RACubeGroup.GetCenterAfterMovement)(timestep)                          | Get the Process center position considering the assigned motion.                                           |
 | [`GetCurve`](#generated.RACubeGroup.GetCurve)(curve_name[, simulation_name, ...])                            | Return the curves for the given element and name.                                                          |

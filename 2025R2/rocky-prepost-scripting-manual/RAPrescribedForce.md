@@ -25,8 +25,9 @@ additional_force = motion_1.GetTypeObject()
 
 **Methods:**
 
-| [`GetForceValue`](#generated.RAPrescribedForce.GetForceValue)([unit])         | Get the value of "Force Value".   |
+| Name | Description |
 |-------------------------------------------------------------------------------|-----------------------------------|
+| [`GetForceValue`](#generated.RAPrescribedForce.GetForceValue)([unit])         | Get the value of "Force Value".   |
 | [`SetForceValue`](#generated.RAPrescribedForce.SetForceValue)(values[, unit]) | Set the values of "Force Value".  |
 
 <a id="generated.RAPrescribedForce.GetForceValue"></a>
