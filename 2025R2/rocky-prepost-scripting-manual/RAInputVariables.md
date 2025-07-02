@@ -38,8 +38,9 @@ b.SetValue(4)
 
 **Methods:**
 
-| [`CreateVariable`](#generated.RAInputVariables.CreateVariable)(name[, value])   | Create a new input variable.                 |
+| Name | Description |
 |---------------------------------------------------------------------------------|----------------------------------------------|
+| [`CreateVariable`](#generated.RAInputVariables.CreateVariable)(name[, value])   | Create a new input variable.                 |
 | [`GetVariableByName`](#generated.RAInputVariables.GetVariableByName)(name)      | Get an existing input variable via its name. |
 | [`RemoveVariable`](#generated.RAInputVariables.RemoveVariable)(variable)        | Remove an input variable.                    |
 

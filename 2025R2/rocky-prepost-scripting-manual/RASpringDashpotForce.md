@@ -25,8 +25,9 @@ spring_force = motion_1.GetTypeObject()
 
 **Methods:**
 
-| [`GetDashpotCoefficient`](#generated.RASpringDashpotForce.GetDashpotCoefficient)([unit])        | Get the value of "Dashpot Coefficient".            |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------|----------------------------------------------------|
+| [`GetDashpotCoefficient`](#generated.RASpringDashpotForce.GetDashpotCoefficient)([unit])        | Get the value of "Dashpot Coefficient".            |
 | [`GetDirection`](#generated.RASpringDashpotForce.GetDirection)()                                | Get "Direction" as a string.                       |
 | [`GetSpringCoefficient`](#generated.RASpringDashpotForce.GetSpringCoefficient)([unit])          | Get the value of "Spring Coefficient".             |
 | [`GetValidDirectionValues`](#generated.RASpringDashpotForce.GetValidDirectionValues)()          | Get a list of all possible values for "Direction". |

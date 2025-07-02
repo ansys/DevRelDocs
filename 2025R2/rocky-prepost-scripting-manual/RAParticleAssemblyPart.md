@@ -24,8 +24,9 @@ assembly_part_1.SetPositionX(0.75, 'm')
 
 **Methods:**
 
-| [`GetAngle`](#generated.RAParticleAssemblyPart.GetAngle)([unit])                     | Get the value of "Angle".      |
+| Name | Description |
 |--------------------------------------------------------------------------------------|--------------------------------|
+| [`GetAngle`](#generated.RAParticleAssemblyPart.GetAngle)([unit])                     | Get the value of "Angle".      |
 | [`GetAvailableParticles`](#generated.RAParticleAssemblyPart.GetAvailableParticles)() | Get all available Particles.   |
 | [`GetParticle`](#generated.RAParticleAssemblyPart.GetParticle)()                     | Get the "Particle".            |
 | [`GetPositionX`](#generated.RAParticleAssemblyPart.GetPositionX)([unit])             | Get the value of "Position X". |

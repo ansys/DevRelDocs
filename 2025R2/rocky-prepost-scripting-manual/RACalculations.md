@@ -15,8 +15,9 @@ Rocky api for particles calculations
 
 **Methods:**
 
-| [`CreateDivisionsTagging`](#generated.RACalculations.CreateDivisionsTagging)(selection)             | Create a Divisions Tagging calculator for the given particle-based selection process.   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| [`CreateDivisionsTagging`](#generated.RACalculations.CreateDivisionsTagging)(selection)             | Create a Divisions Tagging calculator for the given particle-based selection process.   |
 | [`CreateSelectionFlipCount`](#generated.RACalculations.CreateSelectionFlipCount)(selection)         | Create a flip count grid function for the given selection process                       |
 | [`CreateSelectionResidenceTime`](#generated.RACalculations.CreateSelectionResidenceTime)(selection) | Create a residence time grid function for the given selection process                   |
 | [`CreateSelectionTagging`](#generated.RACalculations.CreateSelectionTagging)(selection)             | Deprecated: Use [`CreateTagging()`](#generated.RACalculations.CreateTagging) instead.   |

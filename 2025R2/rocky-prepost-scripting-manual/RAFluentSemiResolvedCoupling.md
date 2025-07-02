@@ -15,8 +15,9 @@ PrePost Scripting wrapper class for the Fluent Two-Way Semi Resolved coupling mo
 
 **Methods:**
 
-| [`GetCouplingFilesKept`](#generated.RAFluentSemiResolvedCoupling.GetCouplingFilesKept)()                                  | Get the value of "Coupling Files Kept".                               |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| [`GetCouplingFilesKept`](#generated.RAFluentSemiResolvedCoupling.GetCouplingFilesKept)()                                  | Get the value of "Coupling Files Kept".                               |
 | [`GetFluentAdditionalArgs`](#generated.RAFluentSemiResolvedCoupling.GetFluentAdditionalArgs)()                            | Get the value of "Fluent Additional Args".                            |
 | [`GetFluentExecutionMode`](#generated.RAFluentSemiResolvedCoupling.GetFluentExecutionMode)()                              | Get "Fluent Execution Mode" as a string.                              |
 | [`GetFluentOutputFrequencyMultiplier`](#generated.RAFluentSemiResolvedCoupling.GetFluentOutputFrequencyMultiplier)()      | Get the value of "Fluent Output Frequency Multiplier".                |

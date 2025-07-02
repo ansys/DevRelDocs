@@ -15,8 +15,9 @@ Rocky API for a One Roll Belt Profile model.
 
 **Methods:**
 
-| [`GetAvailableMaterials`](#generated.RAOneRollBeltProfile.GetAvailableMaterials)()   | Get all available Materials.   |
+| Name | Description |
 |--------------------------------------------------------------------------------------|--------------------------------|
+| [`GetAvailableMaterials`](#generated.RAOneRollBeltProfile.GetAvailableMaterials)()   | Get all available Materials.   |
 | [`GetMaterial`](#generated.RAOneRollBeltProfile.GetMaterial)()                       | Get the "Material".            |
 | [`SetMaterial`](#generated.RAOneRollBeltProfile.SetMaterial)(value)                  | Set the "Material".            |
 

@@ -25,8 +25,9 @@ additional_force = motion_1.GetTypeObject()
 
 **Methods:**
 
-| [`GetInitialForceValue`](#generated.RALinearTimeVariableForce.GetInitialForceValue)([unit])         | Get the value of "Initial Force Value".   |
+| Name | Description |
 |-----------------------------------------------------------------------------------------------------|-------------------------------------------|
+| [`GetInitialForceValue`](#generated.RALinearTimeVariableForce.GetInitialForceValue)([unit])         | Get the value of "Initial Force Value".   |
 | [`GetTimeCoefficients`](#generated.RALinearTimeVariableForce.GetTimeCoefficients)([unit])           | Get the value of "Time Coefficients".     |
 | [`SetInitialForceValue`](#generated.RALinearTimeVariableForce.SetInitialForceValue)(values[, unit]) | Set the values of "Initial Force Value".  |
 | [`SetTimeCoefficients`](#generated.RALinearTimeVariableForce.SetTimeCoefficients)(values[, unit])   | Set the values of "Time Coefficients".    |
