@@ -1,16 +1,16 @@
-  - name: ModelCenter Java API
+  - name: Introduction
     href: index.md
-  - name: Overview Summary
+  - name: Overview summary
     href: overview-summary.md
-  - name: Overview Tree
+  - name: Overview tree
     href: overview-tree.md
-  - name: Deprecated List
+  - name: Deprecated list
     href: deprecated-list.md
   - name: Index
     href: index-all.md
-  - name: Serialized Form
+  - name: Serialized form
     href: serialized-form.md
-  - name: Constant Values
+  - name: Constant values
     href: constant-values.md
   - name: com/phoenix_int/aserver
     items:
