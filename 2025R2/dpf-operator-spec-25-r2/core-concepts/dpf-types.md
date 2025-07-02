@@ -134,7 +134,7 @@ For cyclic simulation models, the ``cyclic_support`` holds information about the
 
 <a id="filtering"></a>
 
-It is useful when handling large amounts of simulation data to select a subset of the data and filter it down to the data of interest to the analysis.
+When handling large amounts of simulation data, you can select a subset of the data and filter it down to the data of interest to the analysis.
 
 In the DPF ecosystem this is called ``scoping`` the data, and is managed with ``scoping`` entities.
 
