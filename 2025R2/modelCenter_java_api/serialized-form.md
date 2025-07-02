@@ -1,4 +1,4 @@
-# Serialized Form
+# Serialized form
 
 ## Package com.phoenix_int.aserver
 
@@ -8,7 +8,7 @@
 ### Class com.phoenix_int.aserver.PHXLockException extends java.io.IOException implements Serializable
 ### Class com.phoenix_int.aserver.PHXNameAlreadyInUseExceptionextends java.lang.Exception implements Serializable
 ### Class com.phoenix_int.aserver.PHXNoSuchObjectExceptionextends java.lang.Exception implements Serializable
-#### Serialized Fields
+#### Serialized fields
 #####  _invalidObject
 ```java
 java.lang.String _invalidObject
@@ -19,7 +19,7 @@ java.lang.String _invalidObject
 
 ### Class com.phoenix_int.aserver.client.PHXAnalysisClientEventextends java.util.EventObject implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _response
 
@@ -28,7 +28,7 @@ com.phoenix_int.aserver.client.PHXResponse _response
 ```
 ### Class com.phoenix_int.aserver.client.PHXAnalysisClientExceptionEventextends java.util.EventObject implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _exception
 
@@ -37,7 +37,7 @@ java.lang.Exception _exception
 ```
 ### Class com.phoenix_int.aserver.client.PHXNoSuchResponseExceptionextends java.lang.Exception implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _invalidID
 
@@ -46,7 +46,7 @@ java.lang.String _invalidID
 ```
 ### Class com.phoenix_int.aserver.client.PHXResponseTypeMismatchExceptionextends java.lang.RuntimeException implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _invalidID
 
@@ -62,7 +62,7 @@ java.lang.String _invalidID
 
 ### Class com.phoenix_int.aserver.library.PHXNoSuchAssociationExceptionextends java.lang.Exception implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _invalidAssociation
 
@@ -71,7 +71,7 @@ java.lang.String _invalidAssociation
 ```
 ### Class com.phoenix_int.aserver.library.PHXNoSuchCategoryExceptionextends java.lang.Exception implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _invalidCategory
 
@@ -80,7 +80,7 @@ java.lang.String _invalidCategory
 ```
 ### Class com.phoenix_int.aserver.library.PHXNoSuchIconExceptionextends java.lang.Exception implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _invalidIcon
 
@@ -100,7 +100,7 @@ java.lang.String _invalidIcon
 
 ### Class com.phoenix_int.aserver.util.PHXClassNotFoundExceptionextends java.lang.ClassNotFoundException implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### innerException
 
@@ -110,7 +110,7 @@ java.util.ArrayList<E> innerException
 ### Class com.phoenix_int.aserver.util.PHXExecutableKeywords extends java.util.Properties implements Serializable
 ### Class com.phoenix_int.aserver.util.PHXFileFormatException extends java.io.IOException implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _line
 
@@ -136,7 +136,7 @@ java.lang.Exception _wrapped
 ### Class com.phoenix_int.aserver.util.PHXGetByUrlExceptionextends java.lang.Exception implements Serializable
 ### Class com.phoenix_int.aserver.util.PHXInternalException extends java.lang.RuntimeException implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _location
 
@@ -151,7 +151,7 @@ java.lang.String _location
 ### Class com.phoenix_int.aserver.util.PHXNumberExpectedException extends com.phoenix_int.aserver.util.PHXFileFormatException implements Serializable
 ### Class com.phoenix_int.aserver.util.PHXPrompt extends com.phoenix_int.aserver.util.PHXFrame implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _loop
 
@@ -160,7 +160,7 @@ boolean _loop
 ```
 ### Class com.phoenix_int.aserver.util.PHXStringBufferextends java.lang.Object implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _data
 
@@ -193,7 +193,7 @@ char[] _cha
 ### Class com.phoenix_int.util.ConnectTimeoutException extends java.net.ConnectException implements Serializable
 ### Class com.phoenix_int.util.PHXAlarmEvent extends java.util.EventObject implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _eventTime
 
@@ -207,7 +207,7 @@ double _actualTime
 ```
 ### Class com.phoenix_int.util.PHXDate extends java.lang.Object implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _cal
 
@@ -216,7 +216,7 @@ java.util.GregorianCalendar _cal
 ```
 ### Class com.phoenix_int.util.PHXException extends java.lang.Exception implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _originalException
 
@@ -226,7 +226,7 @@ java.lang.Throwable _originalException
 ### Class com.phoenix_int.util.PHXNull extends java.lang.Object implements Serializable
 ### Class com.phoenix_int.util.PHXReaderEvent extends java.util.EventObject implements Serializable
 
-#### Serialized Fields
+#### Serialized fields
 
 ##### _line
 
@@ -266,7 +266,7 @@ private void writeObject(java.io.ObjectOutputStream out)
 
 **Throws:**
 : `java.io.IOException`
-#### Serialized Fields
+#### Serialized fields
 
 ##### _success
 
