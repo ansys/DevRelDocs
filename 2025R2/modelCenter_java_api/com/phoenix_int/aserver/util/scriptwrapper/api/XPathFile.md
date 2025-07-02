@@ -181,9 +181,9 @@ protected void transferVars(ParseableFile.Mode mode)
                             java.lang.InstantiationException,
                             PHXNumberFormatException
 ```
-Transfer values for variables that have been defined using methods from the concrete implementation, i.e.[PHXRowFieldFile.defineVar(String, String, boolean, String)](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/PHXRowFieldFile.html#defineVar-java.lang.String-java.lang.String-boolean-java.lang.String-)
+Transfer values for variables that have been defined using methods from the concrete implementation, i.e.[PHXRowFieldFile.defineVar(String, String, boolean, String)](PHXRowFieldFile.md)
 
-Variables defined using[PHXScriptWrapperObject.addVariable(String, String, boolean)](../../../../../../com/phoenix_int/aserver/util/scriptwrapper/api/PHXScriptWrapperObject.html#addVariable-java.lang.String-java.lang.String-boolean-)must be explicitly transferred using methods of the concrete implementation class
+Variables defined using [PHXScriptWrapperObject.addVariable(String, String, boolean)](PHXScriptWrapperObject.md) must be explicitly transferred using methods of the concrete implementation class
 
 **Specified by:**
 

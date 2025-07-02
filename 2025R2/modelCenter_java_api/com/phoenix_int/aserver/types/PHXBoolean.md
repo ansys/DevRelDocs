@@ -23,7 +23,7 @@ public class PHXBoolean
 extends PHXSimpleType
 ```
 
-The ModelCenter type for booleans. This class adds the following features to [`PHXSimpleType`](PHXSimpleType.md):
+The type for booleans. This class adds the following features to [`PHXSimpleType`](PHXSimpleType.md):
 
 - **value**: boolean
 - **valueStr**: the source string for the value, useful for error checking when the value is NaN

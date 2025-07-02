@@ -24,7 +24,7 @@ extends java.util.EventObject
 This class is an event for the [`PHXAnalysisClient`](PHXAnalysisClient.md) class. The event is generated when an exception occurs on the read thread.
 
 **See Also:**
-- [Serialized Form](../../../../serialized-form.html#com.phoenix_int.aserver.client.PHXAnalysisClientExceptionEvent)
+- [Serialized Form](../../../../serialized-form.md)
 
 ## Field Summary
 

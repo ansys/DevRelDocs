@@ -20,7 +20,7 @@ This class automates communications with ModelCenter Remote Execution. Communica
 Sample Usage:
 
 ```java
- // this code connects to the ModelCenter Remote Execution and performs serveral
+ // this code connects to ModelCenter Remote Execution and performs serveral
  // functions
  String host = "phoenix-int.com";
  try
@@ -114,7 +114,7 @@ Sample Usage:
 | Constructor and Description |
 |---------------------------|
 | `PHXAnalysisClient()`<br>Deprecated. |
-| `PHXAnalysisClient(java.lang.String host)`<br>Deprecated. Creates a client to the ModelCenter Remote Execution and connects it to the specified host. |
+| `PHXAnalysisClient(java.lang.String host)`<br>Deprecated. Creates a client to ModelCenter Remote Execution and connects it to the specified host. |
 | `PHXAnalysisClient(java.lang.String host, int port)`<br>Deprecated. Creates a client to the MCRE and connects it to the specified host. |
 | `PHXAnalysisClient(java.lang.String host, int port, int timeout)`<br>Deprecated. Creates a client to the MCRE and connects it to the specified host. |
 | `PHXAnalysisClient(java.lang.String host, int timeout, java.lang.String username, java.lang.String password)`<br>Deprecated. Creates a client to the MCRE and connects it to the specified host. |
@@ -132,11 +132,11 @@ Sample Usage:
 | `void` | `connect(java.lang.String host, int port, boolean useSSL, int timeout)`<br>Deprecated. Connects to the MCRE on the specified host. |
 | `void` | `connect(java.lang.String host, int port, boolean useSSL, int timeout, java.lang.String username, java.lang.String password)`<br>Deprecated. Connects to the MCRE on the specified host. |
 | `void` | `connectExternal(java.lang.String host, int timeout, java.lang.String username, java.lang.String password)`<br>Deprecated. Connects to the MCRE via external tool. |
-| `void` | `connectLocal(java.lang.String userName, java.lang.String password)`<br>Deprecated. Makes a virtual connection to the ModelCenter Remote Execution inside of this process. |
+| `void` | `connectLocal(java.lang.String userName, java.lang.String password)`<br>Deprecated. Makes a virtual connection to ModelCenter Remote Execution inside of this process. |
 | `void` | `connectLocal(java.lang.String userName, java.lang.String password, java.util.Map<java.lang.String,java.lang.Object> initialProps)`<br>Deprecated. Makes a virtual connection to the MCRE inside of this process. |
 | `void` | `connectProcess(java.lang.String userName, java.lang.String password, java.lang.String asRoot, java.lang.String asConfig)`<br>Deprecated. Makes a virtual connection to the MCRE by calling a new java process. |
 | `void` | `connectURL(java.lang.String url)`<br>Deprecated. Connects to the MCRE using the specified URL, such as mcre://hostname. |
-| `void` | `connectURL(java.lang.String url, int timeout, java.lang.String user, java.lang.String password)`<br>Deprecated. Connects to the ModelCenter Remote Execution using the specified URL, such as mcre://hostname. |
+| `void` | `connectURL(java.lang.String url, int timeout, java.lang.String user, java.lang.String password)`<br>Deprecated. Connects to ModelCenter Remote Execution using the specified URL, such as mcre://hostname. |
 | `java.lang.String` | `deleteRunShare(java.lang.Long key)`<br>Deprecated. Handle cleaning up a runShare in a local client. |
 | `PHXComponentDescription` | `describe(java.lang.String analysis)`<br>Deprecated. Describes an analysis. |
 | `java.lang.String` | `end(java.lang.String analysis)`<br>Deprecated. Ends an analysis. |
@@ -179,7 +179,7 @@ Sample Usage:
 | `java.lang.String` | `invoke(java.lang.String method)`<br>Deprecated. Invokes a method. |
 | `boolean` | `isConnected()`<br>Deprecated. Determines if the client is currently connected to a server. |
 | `boolean` | `isResponseReady(java.lang.String id)`<br>Deprecated. Indicates whether a response is ready. |
-| `java.lang.String[]` | `list()`<br>Deprecated. Lists the running objects. |
+| `java.lang.String[]` | `list()`<br>Deprecated. |
 | `java.lang.String[]` | `listArrayValues(java.lang.String analysis)`<br>Deprecated. |
 | `java.lang.String[]` | `listCategories(java.lang.String category)`<br>Deprecated. Lists the categories within a category. |
 | `java.lang.String[]` | `listClasses(java.lang.String category)`<br>Deprecated. Lists the classes within a category. |
@@ -619,7 +619,7 @@ public void connectLocal(java.lang.String userName,
 ```
 Deprecated.
 
-Makes a virtual connection to MCRE inside of this process. MCRE must have been previously instantiated using this method:
+Makes a virtual connection to the MCRE inside of this process. MCRE must have been previously instantiated using this method:
 ```
   PHXAnalysisServer.doInitialization(
     new String[] {"-aee", "-noSManager",

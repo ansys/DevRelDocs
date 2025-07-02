@@ -25,7 +25,7 @@ extends java.lang.Exception
 An exception that is thrown when an invalid response is specified.
 
 **See Also:**
-- [Serialized Form](../../../../serialized-form.html#com.phoenix_int.aserver.client.PHXNoSuchResponseException)
+- [Serialized Form](../../../../serialized-form.md)
 
 ## Method Summary
 
