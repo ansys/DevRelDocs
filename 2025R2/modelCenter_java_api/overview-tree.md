@@ -1,4 +1,4 @@
-# Hierarchy For All Packages
+# Hierarchy for all packages
 
 ## Package Hierarchies
 - [com.phoenix_int.aserver](com/phoenix_int/aserver/package-tree.md)
@@ -13,7 +13,7 @@
 - [com.phoenix_int.pacz.api.v2](com/phoenix_int/pacz/api/v2/package-tree.md)
 - [com.phoenix_int.util](com/phoenix_int/util/package-tree.md)
 
-## Class Hierarchy
+## Class hierarchy
 
 - java.lang.Object
 - com.phoenix_int.aserver.util.scriptwrapper.api.[AbstractFile](com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md) (implements java.io.Closeable, com.phoenix_int.aserver.util.scriptwrapper.api.[ParseableFile](com/phoenix_int/aserver/util/scriptwrapper/api/ParseableFile.md))
@@ -139,7 +139,7 @@
 - java.io.Writer (implements java.lang.Appendable, java.io.Closeable, java.io.Flushable)
 - com.phoenix_int.aserver.monitors.[PHXMonitorableStream.MonitorWriter](com/phoenix_int/aserver/monitors/PHXMonitorableStream.MonitorWriter.md)
 
-## Interface Hierarchy
+## Interface hierarchy
 
 - java.util.EventListener
 - com.phoenix_int.aserver.client.[IPHXAnalysisClientListener](com/phoenix_int/aserver/client/IPHXAnalysisClientListener.md)
@@ -190,7 +190,7 @@
 - com.phoenix_int.aserver.util.[Parser](com/phoenix_int/aserver/util/Parser.md)
 - com.phoenix_int.util.[PHXInternationalize.InternationalizedMessage](com/phoenix_int/util/PHXInternationalize.InternationalizedMessage.md)
 
-## Enum Hierarchy
+## Enum hierarchy
 
 - java.lang.Object
 - java.lang.Enum`<E>` (implements java.lang.Comparable`<T>`, java.io.Serializable)
