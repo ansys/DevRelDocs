@@ -1,0 +1,4 @@
+# DataHistoryVariableStruct
+
+
+constructor()
