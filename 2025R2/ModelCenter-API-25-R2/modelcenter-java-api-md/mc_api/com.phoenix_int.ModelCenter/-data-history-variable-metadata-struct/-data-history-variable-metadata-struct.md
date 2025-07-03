@@ -1,0 +1,4 @@
+# DataHistoryVariableMetadataStruct
+
+
+constructor()
