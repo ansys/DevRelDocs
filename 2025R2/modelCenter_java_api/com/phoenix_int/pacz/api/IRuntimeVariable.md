@@ -73,7 +73,7 @@ VariableDataType getType()
 - variable data type
 
 **See Also:**
-- [VariableDataType](../../../../com/phoenix_int/pacz/api/VariableDataType.html)
+- [VariableDataType](/VariableDataType.md)
 
 ### getFormat
 

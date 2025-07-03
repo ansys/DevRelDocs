@@ -72,7 +72,7 @@ public static final int VI_UNKNOWN
 ```
 
 **See Also:**
-[Constant Field Values](../../../constant-values.html#com.phoenix_int.aserver.PHXComponentDescription.VI_UNKNOWN)
+[Constant Field Values](../../../constant-values.md)
 
 ### VI_AVAILABLE
 ```
@@ -80,7 +80,7 @@ public static final int VI_AVAILABLE
 ```
 
 **See Also:**
-[Constant Field Values](../../../constant-values.html#com.phoenix_int.aserver.PHXComponentDescription.VI_AVAILABLE)
+[Constant Field Values](../../../constant-values.md)
 
 ### VI_UNAVAILABLE
 ```
@@ -88,7 +88,7 @@ public static final int VI_UNAVAILABLE
 ```
 
 **See Also:**
-[Constant Field Values](../../../constant-values.html#com.phoenix_int.aserver.PHXComponentDescription.VI_UNAVAILABLE)
+[Constant Field Values](../../../constant-values.md)
 
 ## Constructor Detail
 

@@ -1,7 +1,7 @@
 # Hierarchy For Package com.phoenix_int.aserver.types
 
 **Package Hierarchies:**
-- [All Packages](../../../../overview-tree.html)
+- [All Packages](../../../../overview-tree.md)
 
 ## Class Hierarchy
 

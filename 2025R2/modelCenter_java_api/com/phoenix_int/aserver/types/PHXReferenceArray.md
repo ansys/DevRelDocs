@@ -8,7 +8,7 @@
 ```
 
 **All Implemented Interfaces:**
-- [IPHXAlwaysWriteable](../../../../com/phoenix_int/aserver/IPHXAlwaysWriteable.html)
+- [IPHXAlwaysWriteable](../IPHXAlwaysWriteable.md)
 
 ---
 **Declaration:**
