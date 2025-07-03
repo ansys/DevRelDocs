@@ -176,6 +176,10 @@ The following types represent arrays of data.
 
 The data of a ``field`` is always associated to a ``scoping`` (entities associated to each value) and ``support`` (subset of the model where the data is), making the ``field`` a self-describing piece of data.
 
+Example 1: a ``field`` that describes the evolution in time of the static pressure at a given face of a fluid model has a scoping comprised of the time step ids where the pressure is defined and a ``time-frequency`` support that stores the relationship between time ids and time values. 
+
+Example 2: a ``field`` that describes the evolution in space of the stress at a given body of a structural model has a scoping comprised of the element ids where the stress is defined and a ``meshed_region`` support that contextualizes these element ids. 
+
 ##### Doubles
 
 <a id="field"></a>
