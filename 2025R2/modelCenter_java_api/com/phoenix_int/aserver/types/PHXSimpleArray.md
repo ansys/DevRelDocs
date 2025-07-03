@@ -150,7 +150,7 @@ protected PHXSimpleArray(java.lang.Object data)
 Constructs a PHXSimpleArray that wraps a particular ModelCenter Remote Execution style variable.
 
 **Parameters:**
-- `data`- The ModelCenter Remote Execution variable to wrap, which must
+- `data`- ModelCenter Remote Execution variable to wrap, which must
  be an array.
 
 ### PHXSimpleArray
