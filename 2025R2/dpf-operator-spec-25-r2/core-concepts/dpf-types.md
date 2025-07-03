@@ -144,11 +144,11 @@ In the DPF ecosystem this is called ``scoping`` the data, and is managed with ``
 
 A ``scoping`` describes a typed list of IDs. 
 
+It has a ``location``, which defines the type of entity the IDs apply to (nodes, elements, time-steps, parts...), and a list of ``ids``.
+
 It allows you to select and filter data when given as input to operators, or data description when produced as output.
 
 Each ``field`` data storage type has a ``scoping`` associated to it, describing the subset of its ``support`` that the data applies to. The data in a ``field`` is ordered the same way as the IDs in the ``scoping``.
-
-It has a ``location``, which defines the type of entity the IDs apply to (nodes, elements, time-steps, parts...), and a list of ``ids``.
 
 ### Data storage
 
