@@ -76,7 +76,7 @@ When initializing DPF, you can use a Context using `userDefinedContext` and an e
 
 #### <a id="add_readcyclic_pin_to_equivalent_mass_operator_specification"></a> Add read_cyclic pin to equivalent mass operator specification
 
-#### <a id="create_comparison_operators_for_types_property__meshes_containers__gdc"></a> Create comparison operators for types, property & meshes containers & GDC.
+#### <a id="create_comparison_operators_for_types_property__meshes_containers__generic_data_containers"></a> Create comparison operators for types, property & meshes containers & generic data containers.
 
 #### <a id="display_an_explicit_error_message_when_the_ansysdpfacceptla_is_not_set_to_y_in_the_standalone"></a> Display an explicit error message when the ANSYS_DPF_ACCEPT_LA is not set to Y in the standalone.
 
