@@ -12,5 +12,4 @@ Euclidean norm of a vector.
 |a|I|float^N|Input vector|
 |n|O|float|Norm|
 
-**Parent topic:**[Math::Vector](../../../techdoc_en-US/libraries/vector/math_vector.md)
-
+**Parent topic:**[Vector](./vector.md)

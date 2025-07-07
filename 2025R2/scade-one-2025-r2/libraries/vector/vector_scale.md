@@ -13,5 +13,5 @@ Multiplication of all elements of a vector by a scalar.
 |x|I|numeric|Scalar|
 |c|O|numeric^N|Output vector|
 
-**Parent topic:**[Math::Vector](../../../techdoc_en-US/libraries/vector/math_vector.md)
+**Parent topic:**[Vector](./vector.md)
 

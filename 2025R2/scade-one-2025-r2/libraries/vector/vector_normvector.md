@@ -14,5 +14,5 @@ Returns a vector of length 1 with the same direction. If the vector has length z
 |a|I|float^N|Input vector|
 |b|O|float^N|Normalized vector|
 
-**Parent topic:**[Math::Vector](../../../techdoc_en-US/libraries/vector/math_vector.md)
+**Parent topic:**[Vector](./vector.md)
 

@@ -13,5 +13,4 @@ Multiplication of two vectors, element-wise.
 |b|I|numeric^N|Second input vector|
 |c|O|numeric^N|Output vector|
 
-**Parent topic:**[Math::Vector](../../../techdoc_en-US/libraries/vector/math_vector.md)
-
+**Parent topic:**[Vector](./vector.md)
