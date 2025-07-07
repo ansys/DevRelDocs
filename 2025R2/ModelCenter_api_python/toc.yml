@@ -1,4 +1,4 @@
-- name: ModelCenter Remote Execution Python API Home
+- name: Introduction
   href: index.md
 - name: Python API
   href: modelcenter-python-api.md
