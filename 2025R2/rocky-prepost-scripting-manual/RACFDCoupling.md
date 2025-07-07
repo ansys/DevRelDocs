@@ -23,8 +23,9 @@ two_way_process = cfd_coupling.GetCouplingProcess()
 
 **Methods:**
 
-| [`GetAirFlow`](#generated.RACFDCoupling.GetAirFlow)()                                                       | Deprecated: Use GetOneWayLBM instead.                       |
+| Name | Description |
 |-------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [`GetAirFlow`](#generated.RACFDCoupling.GetAirFlow)()                                                       | Deprecated: Use GetOneWayLBM instead.                       |
 | [`GetCouplingMode`](#generated.RACFDCoupling.GetCouplingMode)()                                             |                                                             |
 | [`GetCouplingProcess`](#generated.RACFDCoupling.GetCouplingProcess)()                                       |                                                             |
 | [`GetOneWayLBM`](#generated.RACFDCoupling.GetOneWayLBM)()                                                   | Get the PrePost Scripting wrapper for 1-Way LBM properties. |

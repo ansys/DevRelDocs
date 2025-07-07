@@ -15,8 +15,9 @@ Rocky API for a Five Rolls Belt Profile model.
 
 **Methods:**
 
-| [`DisableUse0223RatioForRollLengths`](#generated.RAFiveRollsBeltProfile.DisableUse0223RatioForRollLengths)()     | Set the value of "Use 0223 Ratio For Roll Lengths" to False.   |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| [`DisableUse0223RatioForRollLengths`](#generated.RAFiveRollsBeltProfile.DisableUse0223RatioForRollLengths)()     | Set the value of "Use 0223 Ratio For Roll Lengths" to False.   |
 | [`EnableUse0223RatioForRollLengths`](#generated.RAFiveRollsBeltProfile.EnableUse0223RatioForRollLengths)()       | Set the value of "Use 0223 Ratio For Roll Lengths" to True.    |
 | [`GetAvailableMaterials`](#generated.RAFiveRollsBeltProfile.GetAvailableMaterials)()                             | Get all available Materials.                                   |
 | [`GetCenterRollLength`](#generated.RAFiveRollsBeltProfile.GetCenterRollLength)([unit])                           | Get the value of "Center Roll Length".                         |
