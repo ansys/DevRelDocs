@@ -9,7 +9,7 @@ If the GET pathname starts with /ansys/, then the directory content served up wi
 
 ## EnSight REST API Service
 
-Starting with 2024 R1, EnSight now supports a [REST API](https://ensight.docs.pyansys.com/dev/rest_api/rest_api.html).
+Starting with 2024 R1, EnSight now supports a [REST API](https://ensight.docs.pyansys.com/version/stable/rest_api/rest_api.html).
 Websocketserver can be configured to serve up this API as well.  To do this, websocketserver needs to be able to create a gRPC connection to the EnSight instance.  The --grpc_port command line option is used for this.  It is assumed the host is the same as --client_hostname.  Note that one must provide a security key in this case.  That key will be used as the sessionid for the REST API.
 
 
