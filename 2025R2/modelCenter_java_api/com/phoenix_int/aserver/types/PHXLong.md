@@ -70,7 +70,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
 | `long[]` | `getEnumValues()`<br>Interface function to pass out the enumeration array |
 | `java.lang.String` | `getEnumValuesStr()`<br>Interface function to pass out the enumeration array as a comma separated string |
 | `java.lang.String` | `getFormat()`<br>Get the format string for the variable |
-| `boolean` | `getHasFormat()`<br>Deprecated.in favor of [`hasFormat()`](../../../../com/phoenix_int/aserver/types/PHXLong.html#hasFormat--) |
+| `boolean` | `getHasFormat()`<br>Deprecated in favor of `hasFormat()` |
 | `boolean` | `getHasLowerBound()`<br>retrieves the `hasLowerBound` flag |
 | `boolean` | `getHasUpperBound()`<br>retrieves the `hasUpperBound` flag |
 | `long` | `getLowerBound()`<br>retrieves the current lower bound value |
@@ -415,7 +415,7 @@ An interface function for the enumeration array
 @Deprecated
 public boolean getHasFormat()
 ```
-Deprecated.in favor of[hasFormat()](../../../../com/phoenix_int/aserver/types/PHXLong.html#hasFormat--)
+Deprecated in favor of `hasFormat()`
 
 ### hasFormat
 

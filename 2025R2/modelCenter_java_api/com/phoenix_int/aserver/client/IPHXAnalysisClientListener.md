@@ -20,8 +20,8 @@ This interface is used by the [`PHXAnalysisClient`](PHXAnalysisClient.md) class.
 
 | Modifier and Type | Method and Description |
 |-------------------|----------------------|
-| `void` | `onException(PHXAnalysisClientExceptionEvent e)`<br>Called each time an exception occurs while reading from the connection to the ModelCenter Remote Execution. |
-| `void` | `onResponse(PHXAnalysisClientEvent e)`<br>Called each time a new response is received from the ModelCenter Remote Execution. |
+| `void` | `onException(PHXAnalysisClientExceptionEvent e)`<br>Called each time an exception occurs while reading from the connection to ModelCenter Remote Execution. |
+| `void` | `onResponse(PHXAnalysisClientEvent e)`<br>Called each time a new response is received from ModelCenter Remote Execution. |
 
 ## Method Detail
 

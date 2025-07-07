@@ -26,7 +26,7 @@ extends java.util.HashMap<java.lang.String,java.lang.String>
 Environment variables for component configuration
 
 **See Also:**
-- [Serialized Form](../../../../../serialized-form.html)
+- [Serialized Form](../../../../../serialized-form.md)
 
 ## Nested Class Summary
 
@@ -78,7 +78,7 @@ public static final java.lang.String COMPONENT_DIR
 Pre-defined component directory environment variable
 
 **See Also:**
-- [Constant Field Values](../../../../../constant-values.html)
+- [Constant Field Values](../../../../../constant-values.md)
 
 ## Constructor Detail
 

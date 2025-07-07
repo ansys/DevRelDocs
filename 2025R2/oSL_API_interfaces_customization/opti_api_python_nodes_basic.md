@@ -1,12 +1,9 @@
 
 # Basic Node
-The following topics describe the framework for creating a Python-based node plugin.
-## Table of Contents
 
-- [Basic Requirements](#basic-requirements)
-- [Functions to Implement](#functions-to-implement)
-- [Data Exchange](#data-exchange)
-- [Essential and Additional Files](#essential-and-additional-files)
+The following topics describe the framework for creating a Python-based node plugin.
+
+<a id="basic-requirements"></a>
 
 ## Basic Requirements
 The following requirements must be met for optiSLang to detect, load, and execute a plugin you provide.
@@ -18,6 +15,7 @@ The following requirements must be met for optiSLang to detect, load, and execut
     - An alternative customized integrations directory specified in the `SC_AlternativeCIDirectories` entry of the optiSLang configuration file.
     - An alternative customized integrations directory specified by the environment variable `OSL_ALT_CN_SEARCH_DIRS`
 
+<a id="functions-to-implement"></a>
 ## Functions to Implement
 You can add a plugin for extending optiSLang by providing a Python file following a special naming convention and by implementing a set of functions within it following special naming and signature conventions.
 
@@ -40,15 +38,19 @@ You do not need to declare anywhere explicitly the set of functions you are impl
 
 The following functions are available:
 
+<a id="execute"></a>
+
 ### execute
 This function is used to call your solver.
 
 **Incoming Arguments**
-- [Common Incoming Key Word Arguments (KWARGs)](#table-1-common-incoming-key-word-arguments-kwargs)
-- [Additional Incoming KWARGs for the Execute Function](#table-2-additional-incoming-kwargs-for-the-execute-function)
+- [Common Incoming Key Word Arguments (KWARGs)](#table-1-kwargs)
+- [Additional Incoming KWARGs for the Execute Function](#table-2-additional--kwargs)
 
 **Return Values**
-- A list of [HidSpecificOutputData](#table-6-hidspecificoutputdata-attributes).
+- A list of [HidSpecificOutputData](#table-6-hidspecific-output).
+
+<a id="default_settings"></a>
 
 ### default_settings
 This function defines the set of default settings associated with each new node instance. In a dictionary, you supply name-value pairs. The value type is important, for example, by forwarding a boolean value this setting is determined to be a boolean switch. Your code should then not set any other value type later. Without supplying any QML code for drawing user interface elements, optiSLang will add generic user interface elements, and these are determined by the value type given here. For instance, a boolean value induces optiSLang to display a check box in the node edit dialog box, whereas for string values a text entry field is created. The value types supported are boolean, integer, float, and string.
@@ -58,10 +60,12 @@ This function returns a list of zero to two elements, where each element can be 
 Note: In `default_settings`, you define the sequence of setting names and value types for your new node type. In all other functions, the settings container stored with the node is input using arguments. Wherever settings are consumed, you assume the same dictionary/list structure (the same sequence of names and value types).
 
 **Incoming Arguments**
-- [Common Incoming Key Word Arguments (KWARGs)](#table-1-common-incoming-key-word-arguments-kwargs)
+- [Common Incoming Key Word Arguments (KWARGs)](#table-1-kwargs)
 
 **Return Values**
 - List with zero to two elements containing `modifying_settings` and/or `non_modifying_settings` as Python objects or lists of tuples.
+
+<a id="execute_custom"></a>
 
 ### execute_custom
 This function serves as flexible, general-purpose, signal and information channel between the QML layer and the Python layer. When you access tabs, entries, and buttons in the QML-based settings user interface, the QML layer is running the process. If you need logic evaluation or other small computations, the QML layer allows for lines of JavaScript. However, if you cannot solve all settings-related work steps in the QML layer, then the `execute_custom` function allows you to trigger work in the Python layer and collect work results from there.
@@ -77,40 +81,48 @@ Information exchange between the QML and Python layers using `execute_custom` oc
 The function can be used for as many types of tasks as needed, and as often as needed. Various different QML user interface elements created by you can trigger `execute_custom`, and in the QML code you can put together any kind of cargo-containing JSON to pass over to the Python layer. At the same time, in the Python layer, inside `execute_custom` you can trigger any kind of work on the Python side. When a task is resolve, you can send the result of the Python work back to the QML layer in the same way. A dictionary is used for the communication back to the QML layer.
 
 **Incoming Arguments**
-- [Common Incoming Key Word Arguments (KWARGs)](#table-1-common-incoming-key-word-arguments-kwargs)
+- [Common Incoming Key Word Arguments (KWARGs)](#table-1-kwargs)
 - `custom_execution_arguments`: Dictionary of settings currently stored with the QML backend.
 
 **Return Values**
 - Return cargo, can represent a JSON dictionary.
 
+<a id="check"></a>
+
 ### check
 This function is called at the start of execution. You can use it to check if there are any issues preventing successful execution, and if there are, provide an early stop to prevent a potential time-consuming run.
 
 **Incoming Arguments**
-- [Common Incoming Key Word Arguments (KWARGs)](#table-1-common-incoming-key-word-arguments-kwargs)
+- [Common Incoming Key Word Arguments (KWARGs)](#table-1-kwargs)
 
 **Return Values**
 - `RunStatus`: An object for documenting success and logging.
+
+<a id="reset"></a>
 
 ### reset
 This function is called when the node is reset.
 
 **Incoming Arguments**
-- [Common Incoming Key Word Arguments (KWARGs)](#table-1-common-incoming-key-word-arguments-kwargs)
+- [Common Incoming Key Word Arguments (KWARGs)](#table-1-kwargs)
 - `working_directories`: Working directories (as string) per HID.
 
 **Return Values**
 - `RunStatus`: An object for documenting success and logging.
 
+<a id="reset_hid"></a>
+
 ### reset_hid
 This function is called when the node is reset for a single HID.
 
 **Incoming Arguments**
-- [Common Incoming Key Word Arguments (KWARGs)](#table-1-common-incoming-key-word-arguments-kwargs)
+- [Common Incoming Key Word Arguments (KWARGs)](#table-1-kwargs)
 - `hid`: Hierarchical ID of a design variation, for example, `[0.99.4]`.
 
 **Return Values**
 - `RunStatus`: An object for documenting success and logging.
+
+<a id="initialize"></a>
 
 ### initialize
 You can use the initialize and shutdown functions to create and close a Python work environment. In some use cases, it can be difficult to use separate, atomic, agnostic functions, so it may be easier to work in a session-based manner. Initialize and shutdown allow you to, for example, avoid loading a heavy solver program multiple times during the lifecycle for one design and repeatedly for many designs by keeping a session/connection with one solver program instance alive all the time.
@@ -120,37 +132,46 @@ In the initialize function, you can generate a set of global variables which you
 You can find a simple demo exploiting the initialize-shutdown mechanism in the [integration examples package](opti_api_python_nodes_integration_demos.md).
 
 **Incoming Arguments**
-- [Common Incoming Key Word Arguments (KWARGs)](#table-1-common-incoming-key-word-arguments-kwargs)
+- [Common Incoming Key Word Arguments (KWARGs)](#table-1-kwargs)
 
 **Return Values**
 - Returns nothing or None.
+
+<a id="shutdown"></a>
 
 ### shutdown
 You can use the initialize and shutdown functions to create and close a Python work environment. In some use cases, it can be difficult to use separate, atomic, agnostic functions, so it may be easier to work in a session-based manner. The shutdown function allows you to close logs, any other open files, terminate sub-processes, close client program sessions, remote connections, and so on. In short, close down and tidy up the session workspace you have created with INI and which has evolved over many cycles of calling the other elementary integration functions.
 
 **Incoming Arguments**
-- [Common Incoming Key Word Arguments (KWARGs)](#table-1-common-incoming-key-word-arguments-kwargs)
+- [Common Incoming Key Word Arguments (KWARGs)](#table-1-kwargs)
 
 **Return Values**
 - Returns nothing or None.
+
+<a id="get_required_license_caps"></a>
 
 ### get_required_license_caps
 This function provides the license capabilities of the node plugin.
 
 **Incoming Arguments**
-- [Common Incoming Key Word Arguments (KWARGs)](#table-1-common-incoming-key-word-arguments-kwargs)
+- [Common Incoming Key Word Arguments (KWARGs)](#table-1-kwargs)
 
 **Return Values**
 - List of license capabilities as strings.
 
+<a id="basic-data-exchange"></a>
+
 ## Data Exchange
+
 Data exchange is done using exported optiSLang built-in types, lists, and dictionaries.
 
-- [HidSpecificInputData](#table-5-hidspecificinputdata-attributes): An aggregate of various input data which may differ for each Hierarchical ID (HID). See .
-- [HidSpecificOutputData](#table-6-hidspecificoutputdata-attributes): An aggregate of various output data which may differ for each HID.
+- [HidSpecificInputData](#table-5-hidspecific-input): An aggregate of various input data which may differ for each Hierarchical ID (HID). See .
+- [HidSpecificOutputData](#table-6-hidspecific-output): An aggregate of various output data which may differ for each HID.
 - `RunStatus`: An object for documenting success and logging.
 
 The following tables describe the standardized data structures of important objects transferred to several of the plugin functions where they are received in a structure of arguments.
+
+<a id="table-1-kwargs"></a>
 
 **Table 1: Common Incoming Key Word Arguments (KWARGs)**
 
@@ -165,11 +186,15 @@ The following tables describe the standardized data structures of important obje
 | reference_file | String | Optional: Path to the reference file.<br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 | reference_file_is_relative_to_working_directory | Bool | Optional: Whether or not the path to reference file is relative to the working directory.<br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 
+<a id="table-2-additional-kwargs"></a>
+
 **Table 2: Additional Incoming KWARGs for the Execute Function**
 
 | Name | Type | Description |
 |------|------|-------------|
 | input_container | List of HidSpecificInputData | Aggregate of arguments per HID. |
+
+<a id="table-3-osl-var-not-hid"></a>
 
 **Table 3: optiSLang Variables That Do Not Vary Per HID**
 
@@ -182,6 +207,8 @@ The following tables describe the standardized data structures of important obje
 | OSL_RLS_REV | String | The revision number of optiSLang. |
 | OSL_RLS_FLG | String | A version suffix which is normally empty unless a specific build is set. |
 
+<a id="table-4-osl-var-vary-hid"></a>
+
 **Table 4: optiSLang Variables that Vary Per HID in Execute Function**
 
 | Name | Type | Description |
@@ -189,6 +216,8 @@ The following tables describe the standardized data structures of important obje
 | OSL_DESIGN_NO | String | Design number. |
 | OSL_DESIGN_NAME | String | Design directory name (for example, Design_0001). |
 | OSL_DESIGN_DIR | String | Absolute path of the current design directory. |
+
+<a id="table-5-hidspecific-input"></a>
 
 **Table 5: HidSpecificInputData Attributes**
 
@@ -202,6 +231,8 @@ The following tables describe the standardized data structures of important obje
 | reference_file | String | Optional: Path to the reference file.<br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 | reference_file_is_relative_to_working_directory | Bool | Optional: Whether or not the path to reference file is relative to the working directory.<br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 
+<a id="table-6-hidspecific-output"></a>
+
 **Table 6: HidSpecificOutputData Attributes**
 
 | Name | Type | Description |
@@ -210,10 +241,12 @@ The following tables describe the standardized data structures of important obje
 | output_slot_values | Dictionary | A dictionary of name-value pairs that should be written to the output slots specified in the configuration file. |
 | status | RunStatus | An object for documenting success and logging. |
 
+<a id="essential-and-additional-files"></a>
+
 ## Essential and Additional Files
 The following image shows a standard set of files for creating a Python-based integration node.
 
-![files_overviewplugin.png](graphics/files_overviewplugin.png)
+![Files Overview](graphics/files_overviewplugin.png)
 
 In the Python code inside the `*_cn.py` file, you can import other libraries, allowing you to add a larger package of files to a complex integration plugin. With each additional `*_cn.py` file, you provide an additional node in optiSLang’s module library. For the sake of organizational clarity, modularity, reusability, and testability, it can be beneficial to keep only small portions of code in the `*_cn.py` files and concentrate the function and class definitions in a library of one or several files to import from. This way, you can create multiple nodes which build on a common modular library.
 

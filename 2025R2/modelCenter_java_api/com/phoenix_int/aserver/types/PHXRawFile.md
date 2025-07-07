@@ -18,7 +18,7 @@ public class PHXRawFile
 extends PHXSimpleType
 implements IPHXType2, java.lang.AutoCloseable
 ```
-The ModelCenter type for Files. The working contents of the file are kept in a temporary file on disk, where changes are made before they are manually synced to the actual file. Read the documentation for each method to make sure it is doing what you expect it to.
+The type for Files. The working contents of the file are kept in a temporary file on disk, where changes are made before they are manually synced to the actual file. Read the documentation for each method to make sure it is doing what you expect it to.
  
 The temporary file containing the contents can optionally be maintained by calling `unmanageTempFile()`.
  

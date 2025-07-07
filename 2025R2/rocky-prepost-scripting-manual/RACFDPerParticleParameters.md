@@ -22,8 +22,9 @@ parameters = parameters_list.GetParametersFor('Particle <01>')
 
 **Methods:**
 
-| [`GetConvectiveHeatTransferLaw`](#generated.RACFDPerParticleParameters.GetConvectiveHeatTransferLaw)()                       | Get "Convective Heat Transfer Law" as a string.                       |
+| Name | Description |
 |------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| [`GetConvectiveHeatTransferLaw`](#generated.RACFDPerParticleParameters.GetConvectiveHeatTransferLaw)()                       | Get "Convective Heat Transfer Law" as a string.                       |
 | [`GetDragLaw`](#generated.RACFDPerParticleParameters.GetDragLaw)()                                                           | Get "Drag Law" as a string.                                           |
 | [`GetLiftLaw`](#generated.RACFDPerParticleParameters.GetLiftLaw)()                                                           | Get "Lift Law" as a string.                                           |
 | [`GetMorsiAndAlexanderK1`](#generated.RACFDPerParticleParameters.GetMorsiAndAlexanderK1)()                                   | Get the value of "Morsi And Alexander K1".                            |

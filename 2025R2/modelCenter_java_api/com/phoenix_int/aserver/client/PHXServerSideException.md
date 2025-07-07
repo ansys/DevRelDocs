@@ -25,7 +25,7 @@ extends java.lang.Exception
 An exception that is thrown when an error is returned from the server.
 
 **See Also:**
-- [Serialized Form](../../../../serialized-form.html#com.phoenix_int.aserver.client.PHXServerSideException)
+- [Serialized Form](../../../../serialized-form.md)
 
 ## Constructor Summary
 
