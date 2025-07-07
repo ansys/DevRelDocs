@@ -16,6 +16,7 @@ The following requirements must be met for optiSLang to detect, load, and execut
     - An alternative customized integrations directory specified by the environment variable `OSL_ALT_CN_SEARCH_DIRS`
 
 <a id="functions-to-implement"></a>
+
 ## Functions to Implement
 You can add a plugin for extending optiSLang by providing a Python file following a special naming convention and by implementing a set of functions within it following special naming and signature conventions.
 
