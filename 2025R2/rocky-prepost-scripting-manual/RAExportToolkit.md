@@ -22,8 +22,9 @@ export_toolkit = study.GetExportToolkit()
 
 **Methods:**
 
-| [`ExportFEMForces`](#generated.RAExportToolkit.ExportFEMForces)(csv_filename, entities_to_export)            | See [`ExportGeometryLoads()`](#generated.RAExportToolkit.ExportGeometryLoads).   |
+| Name | Description |
 |--------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| [`ExportFEMForces`](#generated.RAExportToolkit.ExportFEMForces)(csv_filename, entities_to_export)            | See [`ExportGeometryLoads()`](#generated.RAExportToolkit.ExportGeometryLoads).   |
 | [`ExportGeometryLoads`](#generated.RAExportToolkit.ExportGeometryLoads)(csv_filename, ...[, ...])            | Export the FEM forces of one or more entities to a CSV file.                     |
 | [`ExportGeometryLoadsMultiTime`](#generated.RAExportToolkit.ExportGeometryLoadsMultiTime)(csv_filename, ...) | Export the FEM forces of one or more entities to one or multiple CSV files.      |
 | [`ExportHTC`](#generated.RAExportToolkit.ExportHTC)(csv_filename, entities_to_export, ...)                   | Export the HTC of one or more entities to a CSV file.                            |

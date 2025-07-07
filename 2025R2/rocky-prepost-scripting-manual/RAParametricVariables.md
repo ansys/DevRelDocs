@@ -17,8 +17,9 @@ Currently the wrapper only provides a project’s input variables via [`GetInput
 
 **Methods:**
 
-| [`GetInputVariables`](#generated.RAParametricVariables.GetInputVariables)()   | Get the PrePost Scripting wrapper that handles the Input Variables in the project.   |
+| Name | Description |
 |-------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
+| [`GetInputVariables`](#generated.RAParametricVariables.GetInputVariables)()   | Get the PrePost Scripting wrapper that handles the Input Variables in the project.   |
 
 <a id="generated.RAParametricVariables.GetInputVariables"></a>
 

@@ -22,8 +22,9 @@ physics = study.GetPhysics()
 
 **Methods:**
 
-| [`GetAdhesionModel`](#generated.RAPhysics.GetAdhesionModel)()                                           | Get "Adhesion Model" as a string.                                   |
+| Name | Description |
 |---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
+| [`GetAdhesionModel`](#generated.RAPhysics.GetAdhesionModel)()                                           | Get "Adhesion Model" as a string.                                   |
 | [`GetClosePackingVolumeFraction`](#generated.RAPhysics.GetClosePackingVolumeFraction)()                 | Get the value of "Close Packing Volume Fraction".                   |
 | [`GetEnableCoarseGrainModeling`](#generated.RAPhysics.GetEnableCoarseGrainModeling)()                   | Get the value of "Enable Coarse Grain Modeling".                    |
 | [`GetEnableThermalModel`](#generated.RAPhysics.GetEnableThermalModel)()                                 | Get the value of "Enable Thermal Model".                            |
