@@ -187,4 +187,4 @@ Decides if the algorithm uses stochastic parameters.
 
 The basic relationship between functions and the algorithm is shown in the following workflow:
 
-![CustomAlgorithm.png](graphics/CustomAlgorithm.png)
+![Relationship between functions and algorithm](graphics/CustomAlgorithm.png)

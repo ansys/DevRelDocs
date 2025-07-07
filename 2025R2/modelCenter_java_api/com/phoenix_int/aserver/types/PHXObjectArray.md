@@ -25,7 +25,7 @@ Placeholder for an array of any random Java Object. This class is useful to keep
 
 
 **See Also:**
-- [PHXSimpleArray](../../../../com/phoenix_int/aserver/types/PHXSimpleArray.html)
+- [PHXSimpleArray](PHXSimpleArray.md)
 
 ## Nested Class Summary
 

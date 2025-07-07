@@ -25,7 +25,7 @@ This class is an event for the [`PHXAnalysisClient`](PHXAnalysisClient.md) class
 
 
 **See Also:**
-- [Serialized Form](../../../../serialized-form.html#com.phoenix_int.aserver.client.PHXAnalysisClientEvent)
+- [Serialized Form](../../../../serialized-form.md)
 
 ## Field Summary
 

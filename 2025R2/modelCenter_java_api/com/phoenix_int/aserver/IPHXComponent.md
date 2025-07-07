@@ -16,7 +16,7 @@
 public interface IPHXComponent
 ```
 
-This is a common base interface for things served on the ModelCenter Remote Execution.
+This is a common base interface for things served on ModelCenter Remote Execution.
 
 In addition to the functions specified by this interface, the following static functions may also be defined to provide additional information about a component:
 

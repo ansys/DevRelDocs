@@ -1,11 +1,7 @@
 # Integration Node
 The following topics describe the framework for creating a Python-based integration node.
 
-- [Basic Requirements](#basic-requirements)
-- [Functions to Implement](#functions-to-implement)
-- [Data Exchange](#data-exchange)
-- [Essential and Additional Files](#essential-and-additional-files)
-- [Integration plugin demonstrators](#integration-plugin-demonstrators)
+<a id="basic-requirements"></a>
 
 ## Basic Requirements
 The following requirements must be met for optiSLang to detect, load, and execute a plugin you provide.
@@ -16,6 +12,8 @@ The following requirements must be met for optiSLang to detect, load, and execut
     - The default custom plugin folder belonging to the installation: `[installation path]/scripting/integrations`
     - An alternative customized integrations directory specified in the `SC_AlternativeCIDirectories` entry of the optiSLang configuration file.
     - An alternative customized integrations directory specified by the environment variable `OSL_ALT_CI_SEARCH_DIRS`
+
+<a id="functions-to-implement"></a>
 
 ## Functions to Implement
 You can add a plugin for extending optiSLang by providing a Python file following a special naming convention and by implementing a set of functions within it following special naming and signature conventions.
@@ -42,6 +40,8 @@ You do not need to declare anywhere explicitly the set of functions you are impl
 
 The following functions are available:
 
+<a id="load"></a>
+
 ### load
 This function is called when opening the node’s edit dialog box. In this function, define inputs (`InputValueDefinition`) and outputs (`OutputValueDefinition`) which are used in the node’s edit dialog box to register parameters and responses.
 
@@ -53,6 +53,8 @@ This function is called when opening the node’s edit dialog box. In this funct
     - [InputValueDefinition](#table-13-contents-of-inputvaluedefinition)
     - [OutputValueDefinition](#table-14-contents-of-outputvaluedefinition)
 
+<a id="execute"></a>
+
 ### execute
 This function is used to call your solver.
 
@@ -62,6 +64,8 @@ This function is used to call your solver.
 
 **Return Values**
 - List of [HidSpecificOutputDataIntegrations](#table-12-hidspecificoutputdataintegrations-attributes)
+
+<a id="default_settings"></a>
 
 ### default_settings
 This function defines the set of default settings associated with each new node instance. In a dictionary, you supply name-value pairs. The value type is important, for example, by forwarding a boolean value this setting is determined to be a boolean switch. Your code should then not set any other value type later. Without supplying any QML code for drawing user interface elements, optiSLang will add generic user interface elements, and these are determined by the value type given here. For instance, a boolean value induces optiSLang to display a check box in the node edit dialog box, whereas for string values a text entry field is created. The value types supported are boolean, integer, float, and string.
@@ -75,6 +79,8 @@ Note: In `default_settings`, you define the sequence of setting names and value 
 
 **Return Values**
 - List with zero to two elements containing `modifying_settings` and/or `non_modifying_settings` as Python objects or lists of tuples.
+
+<a id="execute_custom"></a>
 
 ### execute_custom
 This function serves as flexible, general-purpose, signal and information channel between the QML layer and the Python layer. When you access tabs, entries, and buttons in the QML-based settings user interface, the QML layer is running the process. If you need logic evaluation or other small computations, the QML layer allows for lines of JavaScript. However, if you cannot solve all settings-related work steps in the QML layer, then the `execute_custom` function allows you to trigger work in the Python layer and collect work results from there.
@@ -96,6 +102,8 @@ The function can be used for as many types of tasks as needed, and as often as n
 **Return Values**
 - Return cargo, can represent a JSON dictionary.
 
+<a id="check"></a>
+
 ### check
 This function is called at the start of execution. You can use it to check if there are any issues preventing successful execution, and if there are, provide an early stop to prevent a potential time-consuming run.
 
@@ -104,6 +112,8 @@ This function is called at the start of execution. You can use it to check if th
 
 **Return Values**
 - `RunStatus`: An object for documenting success and logging.
+
+<a id="reset"></a>
 
 ### reset
 This function is called when the node is reset.
@@ -115,6 +125,8 @@ This function is called when the node is reset.
 **Return Values**
 - `RunStatus`: An object for documenting success and logging.
 
+<a id="reset_hid"></a>
+
 ### reset_hid
 This function is called when the node is reset for a single HID.
 
@@ -124,6 +136,8 @@ This function is called when the node is reset for a single HID.
 
 **Return Values**
 - `RunStatus`: An object for documenting success and logging.
+
+<a id="initialize"></a>
 
 ### initialize
 You can use the initialize and shutdown functions to create and close a Python work environment. In some use cases, it can be difficult to use separate, atomic, agnostic functions, so it may be easier to work in a session-based manner. Initialize and shutdown allow you to, for example, avoid loading a heavy solver program multiple times during the lifecycle for one design and repeatedly for many designs by keeping a session/connection with one solver program instance alive all the time.
@@ -138,6 +152,8 @@ You can find a simple demo exploiting the initialize-shutdown mechanism in the [
 **Return Values**
 - Returns nothing or None.
 
+<a id="shutdown"></a>
+
 ### shutdown
 You can use the initialize and shutdown functions to create and close a Python work environment. In some use cases, it can be difficult to use separate, atomic, agnostic functions, so it may be easier to work in a session-based manner. The shutdown function allows you to close logs, any other open files, terminate sub-processes, close client program sessions, remote connections, and so on. In short, close down and tidy up the session workspace you have created with INI and which has evolved over many cycles of calling the other elementary integration functions.
 
@@ -146,6 +162,8 @@ You can use the initialize and shutdown functions to create and close a Python w
 
 **Return Values**
 - Returns nothing or None.
+
+<a id="get_required_license_caps"></a>
 
 ### get_required_license_caps
 This function provides the license capabilities of the integration node plugin.
@@ -156,6 +174,8 @@ This function provides the license capabilities of the integration node plugin.
 **Return Values**
 - List of license capabilities as strings.
 
+<a id="migrate_settings"></a>
+
 ### migrate_settings
 This function can be used to update the settings of a node that was saved with an older version of the integration with different settings.
 
@@ -164,6 +184,8 @@ This function can be used to update the settings of a node that was saved with a
 
 **Return Values**
 - List with zero to two elements containing modifying_settings and/or non_modifying_settings as Python objects or lists of tuples.
+
+<a id="node_renamed"></a>
 
 ### node_renamed
 This function can be used to react on a change of the node's name.
@@ -176,6 +198,8 @@ This function can be used to react on a change of the node's name.
 **Return Values**
 - RunStatus: An object for documenting success and logging.
 
+<a id="data-exchange"></a>
+
 ## Data Exchange
 Data exchange is done using exported optiSLang built-in types, lists, and dictionaries.
 
@@ -187,6 +211,8 @@ The following types are essential for implementing the data exchange between opt
 - [OutputValueDefinition](#table-14-contents-of-outputvaluedefinition): An object for defining outputs.
 
 The following tables describe the standardized data structures of important objects transferred to several of the plugin functions where they are received in a structure of arguments.
+
+<a id="table-7-common-incoming-key-word-arguments-kwargs"></a>
 
 **Table 7: Common Incoming Key Word Arguments (KWARGs)**
 
@@ -201,6 +227,8 @@ The following tables describe the standardized data structures of important obje
 | reference_file | String | Optional: Path to the reference file. <br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 | reference_file_is_relative_to_working_directory | Bool | Optional: Whether or not the path to reference file is relative to the working directory. <br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 
+<a id="table-8-additional-incoming-kwargs-for-the-execute-function"></a>
+
 **Table 8: Additional Incoming KWARGs for the Execute Function**
 
 | Name | Type | Description |
@@ -208,6 +236,8 @@ The following tables describe the standardized data structures of important obje
 | input_container | List of HidSpecificInputDataIntegrations | Aggregate of arguments per HID. |
 | registered_inputs | Dictionary | Dictionary of inputs that are registered in optiSLang. |
 | registered_outputs | Dictionary | Dictionary of outputs that are registered in optiSLang. |
+
+<a id="table-9-optislang-variables-that-do-not-vary-per-hid"></a>
 
 **Table 9: optiSLang Variables That Do Not Vary Per HID**
 
@@ -219,6 +249,8 @@ The following tables describe the standardized data structures of important obje
 | OSL_RLS_REV | String | The revision number of optiSLang. |
 | OSL_RLS_FLG | String | A version suffix which is normally empty unless a specific build is set. |
 
+<a id="table-10-optislang-variables-that-vary-per-hid-in-execute-function"></a>
+
 **Table 10: optiSLang Variables that Vary Per HID in Execute Function**
 
 | Name | Type | Description |
@@ -226,6 +258,8 @@ The following tables describe the standardized data structures of important obje
 | OSL_DESIGN_NO | String | Design number. |
 | OSL_DESIGN_NAME | String | Design directory name (for example, Design_0001). |
 | OSL_DESIGN_DIR | String | Absolute path of the current design directory. |
+
+<a id="table-11-hidspecificinputdataintegrations-attributes"></a>
 
 **Table 11: HidSpecificInputDataIntegrations Attributes**
 
@@ -240,6 +274,8 @@ The following tables describe the standardized data structures of important obje
 | reference_file_is_relative_to_working_directory | Bool | Optional: Whether or not the path to reference file is relative to the working directory. <br>Only available if `FileBased` is not set to `false` in the [configuration file](opti_api_python_nodes_config_files.md). |
 | parameter_values | PyOsDesignPoint | Parameter values for a specific HID. |
 
+<a id="table-12-hidspecificoutputdataintegrations-attributes"></a>
+
 **Table 12: HidSpecificOutputDataIntegrations Attributes**
 
 | Name | Type | Description |
@@ -249,6 +285,8 @@ The following tables describe the standardized data structures of important obje
 | status | RunStatus | An object for documenting success and logging. |
 | responses | PyOsDesignPoint | The responses and their values. |
 | adapted_parameter_values | PyOsDesignPoint | Optional: The parameter values used by the solver.<br>Normally these are equal to `parameter_values` of `HidSpecificInputDataIntegrations` but if the solver requires adaptation (formatting, precision) of the parameters, the integration author can communicate theses parameters and their values to optiSLang. They are then shown in the design table. |
+
+<a id="table-13-contents-of-inputvaluedefinition"></a>
 
 **Table 13: Contents of InputValueDefinition**
 
@@ -264,6 +302,8 @@ The following tables describe the standardized data structures of important obje
 | mean | Float | Optional: Mean of the data. |
 | std_dev_ | Float | Optional: Spread of the data. |
 
+<a id="table-14-contents-of-outputvaluedefinition"></a>
+
 **Table 14: Contents of OutputValueDefinition**
 
 | Name | Type | Description |
@@ -271,6 +311,8 @@ The following tables describe the standardized data structures of important obje
 | name | String | Name of the output. |
 | reference_value | PyOsDesignEntry | The input's reference value. |
 | additional_data | Dictionary | Specifies additional data (for example, unit). It is then used to create an additional column in the parameter registration in the node edit dialog box.<br>Tree view: When providing *entry_n* with *n* from 1-9 as `key` and a leaf name as `value`, a tree structure for grouping purposes can be created in the parameter registration. |
+
+<a id="essential-and-additional-files"></a>
 
 ## Essential and Additional Files
 The following image shows a standard set of files for creating a Python-based integration node.
