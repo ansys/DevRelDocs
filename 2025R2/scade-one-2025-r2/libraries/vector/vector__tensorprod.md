@@ -14,5 +14,5 @@ Tensor product \(or outer product\) of two vectors.
 |b|I|numeric^M|Second input vector|
 |C|O|numeric^M^N|Tensor product of the two vectors|
 
-**Parent topic:**[Math::Vector](../../../techdoc_en-US/libraries/vector/math_vector.md)
+**Parent topic:**[Vector](./vector.md)
 
