@@ -1,4 +1,4 @@
-# Vector {#math_vector .sone-topic}
+# Vector 
 
 The Vector library provides common operations for vectors.
 
@@ -16,28 +16,7 @@ The Vector library provides common operations for vectors.
 |[Sub](vector_sub.md)|Subtraction of two vectors, element-wise.|
 |[TensorProd](vector__tensorprod.md)|Tensor product \(or outer product\) of two vectors.|
 
--   **[Add](../../libraries/vector/vector_add.md)**  
- Addition of two vectors, element-wise.
--   **[CrossProd](../../libraries/vector/vector_crossprod.md)**  
- Cross product of two vectors of size 3.
--   **[Div](../../libraries/vector/vector_div.md)**  
- Division of two vectors, element-wise.
--   **[DotProd](../../libraries/vector/vector_dotprod.md)**  
- Dot product \(or scalar product\) of two vectors.
--   **[Incr](../../libraries/vector/vector_incr.md)**  
- Addition of a scalar to all elements of a vector.
--   **[Mult](../../libraries/vector/vector_mult.md)**  
- Multiplication of two vectors, element-wise.
--   **[Norm](../../libraries/vector/vector_norm.md)**  
- Euclidean norm of a vector.
--   **[NormVector](../../libraries/vector/vector_normvector.md)**  
- Normalization of a vector.
--   **[Scale](../../libraries/vector/vector_scale.md)**  
- Multiplication of all elements of a vector by a scalar.
--   **[Sub](../../libraries/vector/vector_sub.md)**  
- Subtraction of two vectors, element-wise.
--   **[TensorProd](../../libraries/vector/vector__tensorprod.md)**  
- Tensor product \(or outer product\) of two vectors.
 
-**Parent topic:**[Libraries](../../libraries/libraries.md)
+
+**Parent topic:**[Libraries](../../index.md)
 

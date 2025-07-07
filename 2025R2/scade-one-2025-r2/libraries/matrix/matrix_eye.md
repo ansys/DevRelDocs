@@ -1,10 +1,10 @@
-# Eye {#matrix__eye .sone-topic}
+# Eye 
 
 Creation of an identity matrix, of size N by N, with 1 on the diagonal and 0 elsewhere.
 
 ![](../images/matrix__eye_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -12,5 +12,5 @@ Creation of an identity matrix, of size N by N, with 1 on the diagonal and 0 els
 |dummy|I|numeric|A dummy value of the matrix base type \(unused\)|
 |A|O|numeric^N^N|Identity matrix|
 
-**Parent topic:**[Matrix](../../libraries/matrix/matrix.md)
+**Parent topic:**[Matrix](./matrix.md)
 

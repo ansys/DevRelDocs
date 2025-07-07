@@ -1,13 +1,13 @@
-# Im {#complex__im .sone-topic}
+# Im
 
 Returns the imaginary part of a complex number.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
 |a|I|Complex|Operand|
 |v|O|Real|Imaginary part|
 
-**Parent topic:**[Math::Complex](../../libraries/complex/math_complex.md)
+**Parent topic:**[Math::Complex](./math_complex.md)
 

@@ -1,10 +1,10 @@
-# CrossProd {#vector__crossprod .sone-topic}
+# CrossProd 
 
 Cross product of two vectors of size 3.
 
 ![](../images/vector__crossprod_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -12,5 +12,5 @@ Cross product of two vectors of size 3.
 |b|I|numeric^3|Second input vector|
 |c|O|numeric^3|Cross product of the two vectors|
 
-**Parent topic:**[Vector](../../libraries/vector/vector.md)
+**Parent topic:**[Math::Vector](../../../techdoc_en-US/libraries/vector/math_vector.md)
 

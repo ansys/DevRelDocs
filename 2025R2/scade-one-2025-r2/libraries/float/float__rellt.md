@@ -1,19 +1,15 @@
-# RelLT {#rellt .sone-topic}
+# RelLT
 
 Determines whether a value is less than another value, with respect to a relative precision.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
 |a|I|float|First operand|
 |b|I|float|Second operand|
-|e|I|float|Relative precision of the comparison
-
-Range: Positive
-
-|
+|e|I|float|Relative precision of the comparison<br>Range: Positive|
 |comp|O|bool|Result of the comparison|
 
-**Parent topic:**[Float](../../libraries/float/float.md)
+**Parent topic:**[Float](./float.md)
 

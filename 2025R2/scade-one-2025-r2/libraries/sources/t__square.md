@@ -1,4 +1,4 @@
-# Square {#t__square .sone-topic}
+# Square
 
 The flow is 0 the first half of the interval and 1 the second half for every period.
 
@@ -11,20 +11,12 @@ The figure shows the output flow for a square waveform with the following inputs
 
 ![](../images/t__square_00.svg)
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
-|period|I|float|Value of the period
-
-Range: \>0
-
-|
-|ts|I|float|Time sample during the period
-
-Range: \>0
-
-|
+|period|I|float|Value of the period<br>Range: \>0|
+|ts|I|float|Time sample during the period<br>Range: \>0|
 |amplitude|I|float|Gain to be applied to the output flow \(default 1\)|
 |offset|I|float|Offset to be added to the output flow \(default 0\)|
 |flow|O|float|Output flow|

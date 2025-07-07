@@ -1,10 +1,10 @@
-# DotProd {#vector__dotprod .sone-topic}
+# DotProd 
 
 Dot product \(or scalar product\) of two vectors.
 
 ![](../images/vector__dotprod_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -13,5 +13,5 @@ Dot product \(or scalar product\) of two vectors.
 |b|I|numeric^N|Second input vector|
 |c|O|numeric|Dot product of the two vectors|
 
-**Parent topic:**[Vector](../../libraries/vector/vector.md)
+**Parent topic:**[Math::Vector](../../../techdoc_en-US/libraries/vector/math_vector.md)
 

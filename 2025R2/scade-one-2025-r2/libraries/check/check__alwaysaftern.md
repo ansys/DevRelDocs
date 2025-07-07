@@ -1,4 +1,4 @@
-# AlwaysAfterN {#alwaysaftern .sone-topic}
+# AlwaysAfterN
 
 Returns true while the input property has never been false after a given number of cycles.
 
@@ -6,7 +6,7 @@ The following figure shows the output prop for the input p and 3 cycles:
 
 ![Always After N Cycles](../images/check__alwaysaftern_00.svg)
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -16,5 +16,4 @@ The following figure shows the output prop for the input p and 3 cycles:
 
 **Constraint**: The ratio period / timeSample must be greater than 2.
 
-**Parent topic:**[Check](../../libraries/check/check.md)
-
+**Parent topic:**[Check](./check.md)

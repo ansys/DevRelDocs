@@ -1,10 +1,10 @@
-# Diagonal {#matrix__diagonal .sone-topic}
+# Diagonal 
 
 Creation of a matrix, of size N by N, with the input vector on the diagonal and 0 elsewhere.
 
 ![](../images/matrix__diagonal_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -12,5 +12,5 @@ Creation of a matrix, of size N by N, with the input vector on the diagonal and 
 |v|I|numeric^N|Input vector|
 |A|O|numeric^N^N|Output matrix|
 
-**Parent topic:**[Matrix](../../libraries/matrix/matrix.md)
+**Parent topic:**[Matrix](./matrix.md)
 

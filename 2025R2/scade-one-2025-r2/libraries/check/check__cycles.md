@@ -1,4 +1,4 @@
-# Cycles {#cycles .sone-topic}
+# Cycles
 
 Returns true after a given number of cycles.
 
@@ -6,7 +6,7 @@ The following figure shows the output prop for 3 cycles.
 
 ![Cycles](../images/check__cycles_00.svg)
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -15,5 +15,5 @@ The following figure shows the output prop for 3 cycles.
 
 **Constraint**: The ratio period / timeSample must be greater than 2.
 
-**Parent topic:**[Check](../../libraries/check/check.md)
+**Parent topic:**[Check](./check.md)
 

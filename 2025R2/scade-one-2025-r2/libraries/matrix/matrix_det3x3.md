@@ -1,13 +1,13 @@
-# Det3x3 {#matrix__det3x3 .sone-topic}
+# Det3x3 
 
 Determinant of a 3 by 3 matrix.
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
 |A|I|numeric^3^3|Input matrix|
 |d|O|numeric|Determinant|
 
-**Parent topic:**[Matrix](../../libraries/matrix/matrix.md)
+**Parent topic:**[Matrix](./matrix.md)
 

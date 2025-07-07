@@ -1,23 +1,15 @@
-# BitsMask {#bitsmask .sone-topic}
+# BitsMask
 
 Returns a mask of a number of bits at the given position.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
 |N|P|N/A|Size of the bit-field|
-|p|I|integer|Start bit position
+|p|I|integer|Start bit position<br>Range: \[0, N\[|
+|l|I|integer|Number of bits to set<br>Range: \[0, N-p\[|
+|mask|O|unsigned<\<N\>\>|Resulting mask|
 
-Range: \[0, N\[
-
-|
-|l|I|integer|Number of bits to set
-
-Range: \[0, N-p\[
-
-|
-|mask|O|unsigned<<N\>\>|Resulting mask|
-
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](bitfield.md)
 

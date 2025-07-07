@@ -1,14 +1,14 @@
-# FromByte {#frombyte .sone-topic}
+# FromByte
 
 Returns a bit-field from an array of bytes.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
 |N|P|N/A|Size of the bit-field|
 |b|I|uint8 ^ N/8|Array of bytes|
-|v|O|unsigned<<N\>\>|Result of the operation|
+|v|O|unsigned<\<N\>\>|Result of the operation|
 
-**Parent topic:**[Bitfield](../../libraries/bitfield/bitfield.md)
+**Parent topic:**[Bitfield](./bitfield.md)
 

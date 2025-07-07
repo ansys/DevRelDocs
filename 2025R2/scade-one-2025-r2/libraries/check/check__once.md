@@ -1,4 +1,4 @@
-# Once {#once .sone-topic}
+# Once
 
 Returns true once the input property has been true.
 
@@ -6,7 +6,7 @@ The following figure shows the output prop for the input p:
 
 ![Once](../images/check__once_00.svg)
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -15,5 +15,5 @@ The following figure shows the output prop for the input p:
 
 **Constraint**: The ratio period / timeSample must be greater than 2.
 
-**Parent topic:**[Check](../../libraries/check/check.md)
+**Parent topic:**[Check](./check.md)
 

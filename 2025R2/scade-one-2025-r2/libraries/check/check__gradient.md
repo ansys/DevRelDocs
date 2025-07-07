@@ -1,8 +1,8 @@
-# Gradient {#check__gradient .sone-topic}
+# Gradient
 
 Checks if the absolute value of the input signal gradient is less than a maximum value.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -12,5 +12,5 @@ Checks if the absolute value of the input signal gradient is less than a maximum
 
 **Constraint**: The ratio period / timeSample must be greater than 2.
 
-**Parent topic:**[Check](../../libraries/check/check.md)
+**Parent topic:**[Check](./check.md)
 

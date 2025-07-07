@@ -1,19 +1,15 @@
-# EQ {#eq .sone-topic}
+# EQ
 
 Determines whether two values are identical with respect to an absolute precision.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
 |a|I|float|First operand|
 |b|I|float|Second operand|
-|e|I|float|Absolute precision of the comparison
-
-Range: Positive
-
-|
+|e|I|float|Absolute precision of the comparison<br>Range: Positive|
 |comp|O|bool|Result of the comparison|
 
-**Parent topic:**[Float](../../libraries/float/float.md)
+**Parent topic:**[Float](./float.md)
 

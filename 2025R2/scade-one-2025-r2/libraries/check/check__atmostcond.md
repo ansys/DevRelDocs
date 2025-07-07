@@ -1,4 +1,4 @@
-# AtMostCond {#atmostcond .sone-topic}
+# AtMostCond
 
 Returns true if the input property is always false after the first occurrence of the condition.
 
@@ -6,7 +6,7 @@ The following figure shows the output prop for the inputs p and c:
 
 ![At Most Until Condition](../images/check__atmostcond_00.svg)
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -16,5 +16,4 @@ The following figure shows the output prop for the inputs p and c:
 
 **Constraint**: The ratio period / timeSample must be greater than 2.
 
-**Parent topic:**[Check](../../libraries/check/check.md)
-
+**Parent topic:**[Check](./check.md)

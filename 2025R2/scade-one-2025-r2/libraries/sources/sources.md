@@ -1,4 +1,4 @@
-# Sources {#sources .sone-topic}
+# Sources
 
 The Sources library provides a set of flow generators, mostly numeric, for usage in test harnesses.
 
@@ -10,10 +10,10 @@ The periodicity is either expressed in number of cycles \(module `Sources::N`\) 
 
 The periodic generators take as input an amplitude \(1.0 by default\) and an offset to zero \(0.0 by default\). The amplitude applies a gain on the original flow and the offset applies an offset.
 
--   **[Sources::N](../../libraries/sources/sources_n.md)**  
+-   **[Sources::N](./sources_n.md)**  
 Flow generators whose periodicity is expressed in number of cycles \(module `Sources::N`\).
 -   **[Sources::T](../../libraries/sources/sources_t.md)**  
 Flow generators whose periodicity is expressed with a period and a sample time \(module `Sources::T`\).
 
-**Parent topic:**[Libraries](../../libraries/libraries.md)
+**Parent topic:**[Libraries](../../index.md)
 

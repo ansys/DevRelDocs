@@ -1,19 +1,13 @@
-# Tan {#trigo__tan .sone-topic}
+# Tan
 
 Returns the tangent of an angle.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
-|x|I|float|Angular coordinate
-
-Unit: radian
-
-|
-|v|O|float|Output
-
-|
+|x|I|float|Angular coordinate<br>Unit: radian|
+|v|O|float|Output|
 
 **Parent topic:**[Math::Trigo](../../libraries/trigo/math_trigo.md)
 

@@ -1,21 +1,13 @@
-# Cosine {#trigo__cosine .sone-topic}
+# Cosine
 
 Return the cosine of an angle.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
-|x|I|real|Angular coordinate
-
-Unit: radian
-
-|
-|v|O|real|Output
-
-Unit: N/A
-
-|
+|x|I|real|Angular coordinate<br>Unit: radian|
+|v|O|real|Output<br>Unit: N/A|
 
 **Parent topic:**[Math::Trigo](../../libraries/trigo/math_trigo.md)
 

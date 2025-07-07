@@ -1,4 +1,4 @@
-# BeforeN {#beforen .sone-topic}
+# BeforeN
 
 Returns true if the input property is true at least once before the first given number of cycles.
 
@@ -6,7 +6,7 @@ The following figure shows the output prop for the input p and 3 cycles:
 
 ![Before N Cycles](../images/check__beforen_00.svg)
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -16,5 +16,5 @@ The following figure shows the output prop for the input p and 3 cycles:
 
 **Constraint**: The ratio period / timeSample must be greater than 2.
 
-**Parent topic:**[Check](../../libraries/check/check.md)
+**Parent topic:**[Check](./check.md)
 

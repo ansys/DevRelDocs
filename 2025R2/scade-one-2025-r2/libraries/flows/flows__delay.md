@@ -1,10 +1,10 @@
-# Delay {#delay .sone-topic}
+# Delay
 
 Delays the input flow by the specified number of cycles.
 
 At first iteration, the output is set to the initialization value.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -13,5 +13,5 @@ At first iteration, the output is set to the initialization value.
 |in|I|polymorphic|Observed flow|
 |out|O|polymorphic|Delayed flow|
 
-**Parent topic:**[Flows](../../libraries/flows/flows.md)
+**Parent topic:**[Flows](./flows.md)
 

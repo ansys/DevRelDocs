@@ -1,10 +1,10 @@
-# MatVecMult {#matrix__matvecmult .sone-topic}
+# MatVecMult 
 
 Multiplication of a matrix and a vector.
 
 ![](../images/matrix__matvecmult_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -14,5 +14,5 @@ Multiplication of a matrix and a vector.
 |v|I|numeric^N|Input vector|
 |w|O|numeric^M|Output vector|
 
-**Parent topic:**[Matrix](../../libraries/matrix/matrix.md)
+**Parent topic:**[Matrix](./matrix.md)
 

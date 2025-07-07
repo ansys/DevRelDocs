@@ -1,10 +1,10 @@
-# Times {#times .sone-topic}
+# Times
 
 Counts down the repeated occurrence if the condition input is true before rising a flag.
 
 This flag is only active in the cycle in which this number of times was counted. False otherwise.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -12,5 +12,5 @@ This flag is only active in the cycle in which this number of times was counted.
 |limit|I|integer|Occurrence limit|
 |out|O|bool|Detection flag|
 
-**Parent topic:**[Flows](../../libraries/flows/flows.md)
+**Parent topic:**[Flows](./flows.md)
 

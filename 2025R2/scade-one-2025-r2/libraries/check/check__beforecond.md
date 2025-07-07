@@ -1,4 +1,4 @@
-# BeforeCond {#beforecond .sone-topic}
+# BeforeCond
 
 Returns true if the input property is true at least once before the condition is true.
 
@@ -6,7 +6,7 @@ The following figure shows the output prop for the inputs p and c:
 
 ![Before Condition](../images/check__beforecond_00.svg)
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -16,5 +16,5 @@ The following figure shows the output prop for the inputs p and c:
 
 **Constraint**: The ratio period / timeSample must be greater than 2.
 
-**Parent topic:**[Check](../../libraries/check/check.md)
+**Parent topic:**[Check](./check.md)
 

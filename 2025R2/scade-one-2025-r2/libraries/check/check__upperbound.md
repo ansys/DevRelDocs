@@ -1,8 +1,8 @@
-# UpperBound {#upperbound .sone-topic}
+# UpperBound
 
 Checks if the input signal is less than the upper bound.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -13,5 +13,5 @@ Checks if the input signal is less than the upper bound.
 
 **Constraint**: The ratio period / timeSample must be greater than 2.
 
-**Parent topic:**[Check](../../libraries/check/check.md)
+**Parent topic:**[Check](./check.md)
 

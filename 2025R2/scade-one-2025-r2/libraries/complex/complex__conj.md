@@ -1,13 +1,13 @@
-# Conj {#complex__conj .sone-topic}
+# Conj
 
 Returns the conjugate complex of the operand.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
 |a|I|Complex|Operand|
 |v|O|Complex|Result of the operation|
 
-**Parent topic:**[Math::Complex](../../libraries/complex/math_complex.md)
+**Parent topic:**[Math::Complex](./math_complex.md)
 

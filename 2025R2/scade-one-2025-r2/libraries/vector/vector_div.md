@@ -1,10 +1,10 @@
-# Div {#vector__div .sone-topic}
+# Div 
 
 Division of two vectors, element-wise.
 
 ![](../images/vector__div_01.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -13,5 +13,5 @@ Division of two vectors, element-wise.
 |b|I|numeric^N|Second input vector|
 |c|O|numeric^N|Output vector|
 
-**Parent topic:**[Vector](../../libraries/vector/vector.md)
+**Parent topic:**[Math::Vector](../../../techdoc_en-US/libraries/vector/math_vector.md)
 

@@ -1,4 +1,4 @@
-# Sequence {#n__sequence .sone-topic}
+# Sequence
 
 The flow is a sequence of ramps. Each ramp is defined by a number of cycles, a start and end value. The end value of a ramp is the start value for the next one.
 
@@ -9,7 +9,7 @@ The figure shows the output flow for a sequence of 3 ramps with the following in
 
 ![](../images/n__sequence_00.svg)
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -18,5 +18,5 @@ The figure shows the output flow for a sequence of 3 ramps with the following in
 |values|I|float ^ \(SIZE+1\)|Input array of values defining the bounds of the ramps|
 |flow|O|float|Output flow|
 
-**Parent topic:**[Sources::N](../../libraries/sources/sources_n.md)
+**Parent topic:**[Sources::N](./sources_n.md)
 

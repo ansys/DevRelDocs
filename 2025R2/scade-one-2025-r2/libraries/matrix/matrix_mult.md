@@ -1,10 +1,10 @@
-# Mult {#matrix__mult .sone-topic}
+# Mult 
 
 Multiplication of two matrices, element-wise.
 
 ![](../images/matrix__mult_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -14,5 +14,5 @@ Multiplication of two matrices, element-wise.
 |B|I|numeric^N^M|Second input matrix|
 |C|O|numeric^N^M|Output matrix|
 
-**Parent topic:**[Matrix](../../libraries/matrix/matrix.md)
+**Parent topic:**[Matrix](./matrix.md)
 

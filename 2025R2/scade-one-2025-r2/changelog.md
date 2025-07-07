@@ -12,7 +12,7 @@
 This version includes minor structure corrections in the library.<br/>
 
 
-**Updated:** 
+**Updated:**
 
-* [Matrix](libraries/matrix/math_matrix.md)
-* [Vector](libraries/vector/math_vector.md)
+* [Matrix](libraries/matrix/matrix.md)
+* [Vector](libraries/vector/vector.md)

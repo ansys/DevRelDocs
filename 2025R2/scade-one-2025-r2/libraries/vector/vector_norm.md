@@ -1,10 +1,10 @@
-# Norm {#vector__norm .sone-topic}
+# Norm 
 
 Euclidean norm of a vector.
 
 ![](../images/vector__norm_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -12,5 +12,5 @@ Euclidean norm of a vector.
 |a|I|float^N|Input vector|
 |n|O|float|Norm|
 
-**Parent topic:**[Vector](../../libraries/vector/vector.md)
+**Parent topic:**[Math::Vector](../../../techdoc_en-US/libraries/vector/math_vector.md)
 
