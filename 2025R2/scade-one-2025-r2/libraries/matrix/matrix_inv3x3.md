@@ -1,10 +1,10 @@
-# Inv3x3 {#matrix__inv3x3 .sone-topic}
+# Inv3x3 
 
 Inverse of a 3 by 3 matrix.
 
 Returns an error flag and a matrix filled with zeros if the determinant is equal to zero.
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -13,5 +13,5 @@ Returns an error flag and a matrix filled with zeros if the determinant is equal
 |invA|O|numeric^3^3|Inverse matrix|
 |error|O|bool|True if determinant is equal to zero|
 
-**Parent topic:**[Matrix](../../libraries/matrix/matrix.md)
+**Parent topic:**[Matrix](./matrix.md)
 

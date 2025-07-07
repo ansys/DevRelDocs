@@ -1,4 +1,4 @@
-# ImpliesN {#impliesn .sone-topic}
+# ImpliesN
 
 Returns the value of q during n cycles starting when p is true, otherwise true.
 
@@ -6,7 +6,7 @@ The following figure shows the output prop for the input p, q and 3 cycles:
 
 ![Implies N Cycles](../images/check__impliesn_00.svg)
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -17,5 +17,5 @@ The following figure shows the output prop for the input p, q and 3 cycles:
 
 **Constraint**: The ratio period / timeSample must be greater than 2.
 
-**Parent topic:**[Check](../../libraries/check/check.md)
+**Parent topic:**[Check](./check.md)
 

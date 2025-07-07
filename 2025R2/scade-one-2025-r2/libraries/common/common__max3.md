@@ -1,8 +1,8 @@
-# Max3 {#common__max3 .sone-topic}
+# Max3
 
 Returns the maximum value of three operands.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -11,5 +11,5 @@ Returns the maximum value of three operands.
 |z|I|Numeric|Third operand|
 |v|O|Numeric|Result of the comparison|
 
-**Parent topic:**[Math::Common](../../libraries/common/math_common.md)
+**Parent topic:**[Math::Common](./math_common.md)
 

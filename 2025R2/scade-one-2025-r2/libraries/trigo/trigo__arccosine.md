@@ -1,23 +1,13 @@
-# ArcCosine {#trigo__arccosine .sone-topic}
+# ArcCosine
 
 Return the arccosine of a value.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
-|x|I|real|Input
-
-Unit: N/A
-
-Range: \[-1, 1\]
-
-|
-|v|O|real|Angular coordinate
-
-Unit: radian
-
-|
+|x|I|real|Input<br>Unit: N/A<br>Range: \[-1, 1\]|
+|v|O|real|Angular coordinate<br>Unit: radian|
 
 **Parent topic:**[Math::Trigo](../../libraries/trigo/math_trigo.md)
 

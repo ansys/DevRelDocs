@@ -1,15 +1,15 @@
-# FallingEdge {#fallingedge .sone-topic}
+# FallingEdge
 
 Detects a falling edge \(true to false transition\).
 
 The output is true during the transition clock cycle. The output is initialized to false.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
 |in|I|bool|Observed flow|
 |out|O|bool|Detection flag|
 
-**Parent topic:**[Digital](../../libraries/digital/digital.md)
+**Parent topic:**[Digital](./digital.md)
 

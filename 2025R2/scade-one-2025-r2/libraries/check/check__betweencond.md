@@ -1,4 +1,4 @@
-# BetweenCond {#betweencond .sone-topic}
+# BetweenCond
 
 Returns false if p has not been true after the start condition is true and before the end condition is true.
 
@@ -6,7 +6,7 @@ The following figure shows the output prop for the inputs p, s and e:
 
 ![Between Conditions](../images/check__betweencond_00.svg)
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -17,5 +17,5 @@ The following figure shows the output prop for the inputs p, s and e:
 
 **Constraint**: The ratio period / timeSample must be greater than 2.
 
-**Parent topic:**[Check](../../libraries/check/check.md)
+**Parent topic:**[Check](./check.md)
 

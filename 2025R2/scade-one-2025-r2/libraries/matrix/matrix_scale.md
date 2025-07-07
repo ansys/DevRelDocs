@@ -1,10 +1,10 @@
-# Scale {#matrix__scale .sone-topic}
+# Scale 
 
 Multiplication of all elements of a vector by a matrix.
 
 ![](../images/matrix__scale_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -14,5 +14,5 @@ Multiplication of all elements of a vector by a matrix.
 |x|I|numeric|Scalar|
 |B|O|numeric^N^M|Output matrix|
 
-**Parent topic:**[Matrix](../../libraries/matrix/matrix.md)
+**Parent topic:**[Matrix](./matrix.md)
 

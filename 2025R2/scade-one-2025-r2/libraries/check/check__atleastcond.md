@@ -1,4 +1,4 @@
-# AtLeastCond {#atleastcond .sone-topic}
+# AtLeastCond
 
 Returns true if the input property has always been true before the first occurrence of the condition.
 
@@ -6,7 +6,7 @@ The following figure shows the output prop for the inputs p and c:
 
 ![At Least Until Condition](../images/check__atleastcond_00.svg)
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -16,5 +16,4 @@ The following figure shows the output prop for the inputs p and c:
 
 **Constraint**: The ratio period / timeSample must be greater than 2.
 
-**Parent topic:**[Check](../../libraries/check/check.md)
-
+**Parent topic:**[Check](./check.md)

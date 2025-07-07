@@ -1,4 +1,4 @@
-# Sine {#t__sine .sone-topic}
+# Sine
 
 The flow is a sinusoidal waveform with an optional delay, with a sample time.
 
@@ -12,27 +12,13 @@ The figure shows the output flow for a sine with the following inputs:
 
 ![](../images/t__sine_00.svg)
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
-|period|I|float|Value of the period
-
-Range: \>0
-
-|
-|ts|I|float|Time sample during the period
-
-Range: \>0
-
-|
-|delay|I|float|Delay of the signal
-
-Unit: time
-
-Range: \>=0
-
-|
+|period|I|float|Value of the period<br>Range: \>0|
+|ts|I|float|Time sample during the period<br>Range: \>0|
+|delay|I|float|Delay of the signal<br>Unit: time<br>Range: \>=0|
 |amplitude|I|float|Gain to be applied to the output flow \(default 1\)|
 |offset|I|float|Offset to be added to the output flow \(default 0\)|
 |flow|O|float|Output flow|

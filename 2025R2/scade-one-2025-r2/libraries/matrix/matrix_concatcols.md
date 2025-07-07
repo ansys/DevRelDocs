@@ -1,10 +1,10 @@
-# ConcatCols {#matrix__concatcols .sone-topic}
+# ConcatCols 
 
 Concatenation of two matrices' columns.
 
 ![](../images/matrix__concatcols_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -15,5 +15,5 @@ Concatenation of two matrices' columns.
 |A2|I|numeric^N2^M|Second input matrix|
 |B|O|numeric^\(N1+N2\)^M|Output matrix|
 
-**Parent topic:**[Matrix](../../libraries/matrix/matrix.md)
+**Parent topic:**[Matrix](./matrix.md)
 

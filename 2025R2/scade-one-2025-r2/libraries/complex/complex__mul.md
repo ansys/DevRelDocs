@@ -1,8 +1,8 @@
-# Mul {#complex__mul .sone-topic}
+# Mul
 
 Multiplies two complex numbers.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -10,5 +10,5 @@ Multiplies two complex numbers.
 |b|I|Complex|Second operand|
 |v|O|Complex|Result of the operation|
 
-**Parent topic:**[Math::Complex](../../libraries/complex/math_complex.md)
+**Parent topic:**[Math::Complex](./math_complex.md)
 

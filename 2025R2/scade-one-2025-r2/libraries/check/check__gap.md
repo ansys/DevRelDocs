@@ -1,8 +1,8 @@
-# Gap {#gap .sone-topic}
+# Gap
 
 Checks if the input signal is out of an interval.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -15,5 +15,5 @@ Checks if the input signal is out of an interval.
 
 **Constraint**: The ratio period / timeSample must be greater than 2.
 
-**Parent topic:**[Check](../../libraries/check/check.md)
+**Parent topic:**[Check](./check.md)
 

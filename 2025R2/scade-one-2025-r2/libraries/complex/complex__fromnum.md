@@ -1,8 +1,8 @@
-# FromNum {#complex__fromnum .sone-topic}
+# FromNum
 
 Returns a complex number from real and imaginary values.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -10,5 +10,5 @@ Returns a complex number from real and imaginary values.
 |i|I|Real|Imaginary part|
 |v|O|Complex|Complex number|
 
-**Parent topic:**[Math::Complex](../../libraries/complex/math_complex.md)
+**Parent topic:**[Math::Complex](./math_complex.md)
 

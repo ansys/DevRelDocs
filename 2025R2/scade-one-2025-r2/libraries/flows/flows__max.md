@@ -1,13 +1,13 @@
-# Max {#max .sone-topic}
+# Max
 
 Computes the maximum value observed on the input flow over time.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
 |in|I|numeric|Observed flow|
 |max|O|numeric|Maximum value|
 
-**Parent topic:**[Flows](../../libraries/flows/flows.md)
+**Parent topic:**[Flows](./flows.md)
 

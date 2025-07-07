@@ -1,10 +1,10 @@
-# ConcatRows {#matrix__concatrows .sone-topic}
+# ConcatRows 
 
 Concatenation of two matrices' rows.
 
 ![](../images/matrix__concatrows_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -15,5 +15,5 @@ Concatenation of two matrices' rows.
 |A2|I|numeric^N^M2|Second input matrix|
 |B|O|numeric^N^\(M1+M2\)|Output matrix|
 
-**Parent topic:**[Matrix](../../libraries/matrix/matrix.md)
+**Parent topic:**[Matrix](./matrix.md)
 

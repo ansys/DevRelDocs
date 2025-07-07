@@ -1,4 +1,4 @@
-# AtMostN {#atmostn .sone-topic}
+# AtMostN
 
 Returns true if the input property is always false after the first given number of cycles.
 
@@ -6,7 +6,7 @@ The following figure shows the output prop for the input p and 3 cycles:
 
 ![At Most N Cycles](../images/check__atmostn_00.svg)
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -16,5 +16,5 @@ The following figure shows the output prop for the input p and 3 cycles:
 
 **Constraint**: The ratio period / timeSample must be greater than 2.
 
-**Parent topic:**[Check](../../libraries/check/check.md)
+**Parent topic:**[Check](./check.md)
 

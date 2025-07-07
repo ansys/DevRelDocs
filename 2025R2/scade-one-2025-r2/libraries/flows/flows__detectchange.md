@@ -1,13 +1,13 @@
-# DetectChange {#detectchange .sone-topic}
+# DetectChange
 
 Determines if the current value of the flow does not equal its value at the last cycle.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
 |in|I|polymorphic|Observed flow|
 |out|O|bool|Detection flag|
 
-**Parent topic:**[Flows](../../libraries/flows/flows.md)
+**Parent topic:**[Flows](./flows.md)
 

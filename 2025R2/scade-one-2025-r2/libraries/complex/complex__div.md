@@ -1,8 +1,8 @@
-# Div {#complex__div .sone-topic}
+# Div
 
 Divides two complex numbers.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -10,5 +10,5 @@ Divides two complex numbers.
 |b|I|Complex|Second operand|
 |v|O|Complex|Result of the operation|
 
-**Parent topic:**[Math::Complex](../../libraries/complex/math_complex.md)
+**Parent topic:**[Math::Complex](./math_complex.md)
 

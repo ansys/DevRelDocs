@@ -1,10 +1,10 @@
-# Sub {#vector__sub .sone-topic}
+# Sub 
 
 Subtraction of two vectors, element-wise.
 
 ![](../images/vector__sub_01.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -13,5 +13,5 @@ Subtraction of two vectors, element-wise.
 |b|I|numeric^N|Second input vector|
 |c|O|numeric^N|Output vector|
 
-**Parent topic:**[Vector](../../libraries/vector/vector.md)
+**Parent topic:**[Math::Vector](../../../techdoc_en-US/libraries/vector/math_vector.md)
 

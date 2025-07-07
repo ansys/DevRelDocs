@@ -1,26 +1,14 @@
-# ArcTan2 {#trigo__arctan2 .sone-topic}
+# ArcTan2
 
 Return the arctangent of y/x in the range \]-PI, PI\[.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
-|y|I|real|Input, Y axis
-
-Unit: N/A
-
-|
-|x|I|real|Input, X axis
-
-Unit: N/A
-
-|
-|v|O|real|Angular coordinate
-
-Unit: radian
-
-|
+|y|I|real|Input, Y axis<br>Unit: N/A|
+|x|I|real|Input, X axis<br>Unit: N/A|
+|v|O|real|Angular coordinate<br>Unit: radian|
 
 **Parent topic:**[Math::Trigo](../../libraries/trigo/math_trigo.md)
 

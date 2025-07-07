@@ -1,4 +1,4 @@
-# Math::Common {#math_common .sone-topic}
+# Math::Common
 
 Common mathematical operations.
 
@@ -26,48 +26,5 @@ Common mathematical operations.
 |[Sqrt](common__sqrt.md)|Returns the square root of the operand.|
 |[Trunc](common__trunc.md)|Returns the largest integer less than or equal to the operand.|
 
--   **[Abs](../../libraries/common/common__abs.md)**  
- Returns the absolute value of the operand.
--   **[Cbrt](../../libraries/common/common__cbrt.md)**  
- Returns the cube root of the operand.
--   **[Ceil](../../libraries/common/common__ceil.md)**  
- Returns the smallest integer greater than or equal to the operand.
--   **[Exp](../../libraries/common/common__exp.md)**  
- Returns the exponential of the operand.
--   **[Floor](../../libraries/common/common__floor.md)**  
- Returns the largest integer less than or equal to the operand.
--   **[Fmod](../../libraries/common/common__fmod.md)**  
- Returns the floating-point remainder of the first operand divided by the second one.
--   **[Log](../../libraries/common/common__log.md)**  
- Returns the natural logarithm \(in base e\) of the operand.
--   **[Log2](../../libraries/common/common__log2.md)**  
- Returns the common logarithm \(in base 2\) of the operand.
--   **[Log10](../../libraries/common/common__log10.md)**  
- Returns the common logarithm \(in base 10\) of the operand.
--   **[Max](../../libraries/common/common__max.md)**  
- Returns the maximum value of two operands.
--   **[Max3](../../libraries/common/common__max3.md)**  
- Returns the maximum value of three operands.
--   **[MaxN](../../libraries/common/common__maxn.md)**  
- Returns the maximum value of the elements of the array operand.
--   **[Min](../../libraries/common/common__min.md)**  
- Returns the minimum value of two operands.
--   **[Min3](../../libraries/common/common__min3.md)**  
- Returns the minimum value of three operands.
--   **[MinN](../../libraries/common/common__minn.md)**  
- Returns the minimum value of the elements of the array operand.
--   **[Polynomial](../../libraries/common/common__polynomial.md)**  
- Evaluates polynomial coefficients on the operand.
--   **[Pow](../../libraries/common/common__pow.md)**  
- Returns the first operand raised to the power of the second one.
--   **[Sign](../../libraries/common/common__sign.md)**  
- Returns 1 if the operand is positive, -1 if the operand is negative otherwise 0.
--   **[Sqr](../../libraries/common/common__sqr.md)**  
- Returns the square value of the operand.
--   **[Sqrt](../../libraries/common/common__sqrt.md)**  
- Returns the square root of the operand.
--   **[Trunc](../../libraries/common/common__trunc.md)**  
- Returns the largest integer less than or equal to the operand.
-
-**Parent topic:**[Libraries](../../libraries/libraries.md)
+**Parent topic:**[Libraries](../../index.md)
 

@@ -1,15 +1,15 @@
-# Sqrt {#common__sqrt .sone-topic}
+# Sqrt
 
 Returns the square root of the operand.
 
 The implementation uses the C runtime library functions sqrt and sqrtf.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
 |x|I|Float|Operand|
 |v|O|Float|Result of the operation|
 
-**Parent topic:**[Math::Common](../../libraries/common/math_common.md)
+**Parent topic:**[Math::Common](./math_common.md)
 

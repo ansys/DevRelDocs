@@ -1,4 +1,4 @@
-# Sequence {#t__sequence .sone-topic}
+# Sequence
 
 The flow is a sequence of ramps. Each ramp is defined by a duration, a start and end value. The end value of a ramp is the start value for the next one.
 
@@ -10,18 +10,14 @@ The figure shows the output flow for a sequence of 3 ramps with the following in
 
 ![](../images/t__sequence_00.svg)
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
 |SIZE|P|n/a|Number of ramps|
 |durations|I|float ^SIZE|Durations for each ramp|
 |values|I|float ^\(SIZE+1\)|Input array of values defining the bounds of the ramps|
-|ts|I|float|Time sample during the period
-
-Range: \>0
-
-|
+|ts|I|float|Time sample during the period<br>Range: \>0|
 |flow|O|float|Output flow|
 
 **Parent topic:**[Sources::T](../../libraries/sources/sources_t.md)

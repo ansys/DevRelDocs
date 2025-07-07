@@ -1,8 +1,8 @@
-# ToPolar {#complex__topolar .sone-topic}
+# ToPolar
 
 Return the modulus and argument of a complex number.
 
-## Interface { .section}
+## Interface
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -10,5 +10,5 @@ Return the modulus and argument of a complex number.
 |r|O|Real|Modulus of the input|
 |t|O|Real|Argument of the input|
 
-**Parent topic:**[Math::Complex](../../libraries/complex/math_complex.md)
+**Parent topic:**[Math::Complex](./math_complex.md)
 

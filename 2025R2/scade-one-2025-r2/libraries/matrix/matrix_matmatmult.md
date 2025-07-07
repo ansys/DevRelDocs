@@ -1,10 +1,10 @@
-# MatMatMult {#matrix__matmatmult .sone-topic}
+# MatMatMult 
 
 Multiplication of two matrices.
 
 ![](../images/matrix__matmatmult_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -15,5 +15,5 @@ Multiplication of two matrices.
 |B|I|numeric^P^N|Second input matrix|
 |C|O|numeric^P^M|Output matrix|
 
-**Parent topic:**[Matrix](../../libraries/matrix/matrix.md)
+**Parent topic:**[Matrix](./matrix.md)
 

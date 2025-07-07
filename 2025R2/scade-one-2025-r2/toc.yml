@@ -295,7 +295,7 @@
     - name: Tan
       href: libraries/trigo/trigo__tangent.md
   - name: Matrix
-    href: libraries/matrix/math_matrix.md
+    href: libraries/matrix/matrix.md
     items:
     - name: Add
       href: libraries/matrix/matrix_add.md
@@ -387,7 +387,7 @@
       - name: Triangular
         href: libraries/sources/t__triangular.md
   - name: Vector
-    href: libraries/vector/math_vector.md
+    href: libraries/vector/vector.md
     items:
     - name: Add
       href: libraries/vector/vector_add.md

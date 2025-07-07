@@ -1,8 +1,8 @@
-# GetSubMatrix {#matrix__getsubmatrix .sone-topic}
+# GetSubMatrix 
 
 Returns the sub matrix of size Ms by Ns, starting at row Midx and column Nidx.
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -15,5 +15,5 @@ Returns the sub matrix of size Ms by Ns, starting at row Midx and column Nidx.
 |A|I|numeric^N^M|Input matrix|
 |S|O|numeric^Ns^Ms|Output sub matrix|
 
-**Parent topic:**[Matrix](../../libraries/matrix/matrix.md)
+**Parent topic:**[Matrix](./matrix.md)
 

@@ -1,10 +1,10 @@
-# Scale {#vector__scale .sone-topic}
+# Scale 
 
 Multiplication of all elements of a vector by a scalar.
 
 ![](../images/vector__scale_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -13,5 +13,5 @@ Multiplication of all elements of a vector by a scalar.
 |x|I|numeric|Scalar|
 |c|O|numeric^N|Output vector|
 
-**Parent topic:**[Vector](../../libraries/vector/vector.md)
+**Parent topic:**[Math::Vector](../../../techdoc_en-US/libraries/vector/math_vector.md)
 

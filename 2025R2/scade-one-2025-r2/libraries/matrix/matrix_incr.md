@@ -1,10 +1,10 @@
-# Incr {#matrix__incr .sone-topic}
+# Incr 
 
 Addition of a scalar to all elements of a matrix.
 
 ![](../images/matrix__incr_00.svg)
 
-## Interface { .section}
+## Interface 
 
 |Name|Kind|Type|Comment|
 |----|:--:|----|-------|
@@ -14,5 +14,5 @@ Addition of a scalar to all elements of a matrix.
 |x|I|numeric|Scalar|
 |B|O|numeric^N^M|Output matrix|
 
-**Parent topic:**[Matrix](../../libraries/matrix/matrix.md)
+**Parent topic:**[Matrix](./matrix.md)
 
