@@ -1,0 +1,146 @@
+#%Validation Profile 1.0
+
+profile: OpenAPI Best Practices
+
+description: |
+  This ruleset contains 12 best practices based on recommendations from the [OpenAPI 3.0 Specification](https://spec.openapis.org/oas/v3.0.3). This ruleset is backward compatible with [OpenAPI 2.0](https://spec.openapis.org/oas/v2.0).
+
+  Links:
+    - [OpenAPI Specification v3.0.3](https://spec.openapis.org/oas/v3.0.3)
+    - [OpenAPI Specification v2.0](https://spec.openapis.org/oas/v2.0)
+    - [GitHub OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification/)
+
+tags:
+  - best-practices
+
+violation:
+  - operation-default-response
+  - operation-operationId
+
+warning:
+  - operation-singular-tag
+  - tag-description
+  - info-contact
+  - info-description
+  - info-license
+  - license-url
+  - openapi-tags
+  - operation-description
+  - operation-tags
+  - operation-tag-defined
+
+validations:
+
+  info-contact:
+    message: |
+      Include contact information of the person responsible for maintaining this API, so they
+      can answer any questions. 
+    targetClass: apiContract.WebAPI
+    propertyConstraints:
+      core.provider:
+        minCount: 1
+
+  info-description:
+    message: |
+      A description is required and can contain Markdown. 
+      For example, you can include getting started information like where to find authentication keys and how to use them.
+    targetClass: apiContract.WebAPI
+    propertyConstraints:
+      core.description:
+        minCount: 1
+
+  info-license:
+    message: |
+      You should include a license key.
+    targetClass: apiContract.WebAPI
+    propertyConstraints:
+      core.license:
+        minCount: 1
+
+  license-url:
+    message: |
+      Include a link to the license information if available online to inform people who may not be familiar with it.
+    targetClass: core.License
+    propertyConstraints:
+      core.url:
+        minCount: 1
+
+  openapi-tags:
+    message: |
+      Defining tags allows you to add more information like a description.
+    targetClass: apiContract.WebAPI
+    propertyConstraints:
+      apiContract.tag:
+        minCount: 1
+
+  operation-default-response:
+    message: Don't use default responses. Provide a valid status code.
+    targetClass: apiContract.Response
+    not:
+      propertyConstraints:
+        apiContract.statusCode:
+          pattern: "default"
+
+  operation-description:
+    message: Operation must have a description explaining the operation functionality.
+    targetClass: apiContract.Operation
+    propertyConstraints:
+      core.description:
+        minCount: 1
+
+  operation-operationId:
+    message: |
+      This operation ID is a reference for the operation that can be used to visually suggest a connection
+      to other operations. It's also used for the URL in some documentation systems.
+      Make the value lower-hyphen-case and use a name for the action that does not relate to the HTTP
+      message but instead the actual action being performed. For example, create-polygon, search-by-polygon, or filter-companies.
+    targetClass: apiContract.Operation
+    propertyConstraints:
+      apiContract.operationId:
+        minCount: 1
+        pattern: '^[a-z0-9\-]+$'
+
+  operation-singular-tag:
+    message: |
+      Use only one tag for an operation to avoid duplicate content.
+    targetClass: apiContract.Operation
+    propertyConstraints:
+      apiContract.tag:
+        maxCount: 1
+
+  operation-tags:
+    message: Operation tags is required.
+    targetClass: apiContract.Operation
+    propertyConstraints:
+      apiContract.tag:
+        minCount: 1
+
+  operation-tag-defined:
+    message: Operation tags should be defined in global tags.
+    targetClass: apiContract.WebAPI
+    rego: |
+      o1 = collect with data.nodes as [$node] with data.property as "http://a.ml/vocabularies/apiContract#tag"
+      top_level_tag_names = collect_values with data.nodes as o1 with data.property as "http://a.ml/vocabularies/core#name"
+
+      p1 = collect with data.nodes as [$node] with data.property as "http://a.ml/vocabularies/apiContract#endpoint"
+      p2 = collect with data.nodes as p1 with data.property as  "http://a.ml/vocabularies/apiContract#supportedOperation"
+      op_tags = collect with data.nodes as p2 with data.property as "http://a.ml/vocabularies/apiContract#tag"
+      operation_tag_names = collect_values with data.nodes as op_tags with data.property as "http://a.ml/vocabularies/core#name"
+
+      invalid_tag_names = operation_tag_names - top_level_tag_names
+
+      invalid_tag_name = invalid_tag_names[_]
+      invalid_tag = [op_tag | op_tag := op_tags[_]; object.get(op_tag,"http://a.ml/vocabularies/core#name","") == invalid_tag_name][_]
+      $result = false      
+
+  tag-description:
+    message: |
+      Tags alone are not very descriptive, so use descriptions to explain them.
+      For example, an 'Account' could be a user account, company information, bank account, or potential sales lead.
+    targetClass: apiContract.WebAPI
+    propertyConstraints:
+      apiContract.tag:
+        nested:
+          propertyConstraints:
+            core.description:
+              minCount: 1
