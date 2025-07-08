@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # utility:assemble scalars to matrix fc
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:joint relative acceleration
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

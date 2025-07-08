@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # geo:normals provider nl (nodes, faces, or elements)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:interface contact area (LSDyna)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

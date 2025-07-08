@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # scoping:reduce sampling scoping
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

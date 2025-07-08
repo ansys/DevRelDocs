@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # metadata:time freq provider
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

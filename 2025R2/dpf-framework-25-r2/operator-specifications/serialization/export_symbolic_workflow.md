@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # serialization:export symbolic workflow
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

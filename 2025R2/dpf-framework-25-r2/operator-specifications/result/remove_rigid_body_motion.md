@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:remove rigid body motion (field)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

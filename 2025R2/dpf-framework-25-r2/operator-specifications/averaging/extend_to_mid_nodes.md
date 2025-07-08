@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # averaging:extend to mid nodes (field)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

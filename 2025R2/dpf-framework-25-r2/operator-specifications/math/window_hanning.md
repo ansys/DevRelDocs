@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # math:window hanning
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

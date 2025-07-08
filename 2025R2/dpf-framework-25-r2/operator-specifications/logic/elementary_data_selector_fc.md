@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # logic:elementary data selector (fields container)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

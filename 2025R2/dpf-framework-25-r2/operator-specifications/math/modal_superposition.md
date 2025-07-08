@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # math:modal superposition
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

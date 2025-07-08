@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # scoping:compute element centroids
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

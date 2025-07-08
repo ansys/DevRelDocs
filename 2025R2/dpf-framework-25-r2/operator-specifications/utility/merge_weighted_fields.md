@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # utility:merge weighted fields
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # averaging:gauss to node (fields container)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:stress solution to global cs
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

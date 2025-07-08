@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # math:fft multi harmonic solution minmax
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # math:entity extractor
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

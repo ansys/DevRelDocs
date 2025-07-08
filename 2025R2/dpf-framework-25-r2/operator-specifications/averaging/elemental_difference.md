@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # averaging:elemental difference (field)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # min_max:min max by entity over time
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

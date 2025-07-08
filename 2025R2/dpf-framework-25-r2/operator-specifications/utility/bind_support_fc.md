@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # utility:bind support (fields container)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

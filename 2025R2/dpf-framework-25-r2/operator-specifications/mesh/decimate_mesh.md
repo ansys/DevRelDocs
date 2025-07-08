@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # mesh:decimate mesh
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:global rigid body stopper energy (LSDyna)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

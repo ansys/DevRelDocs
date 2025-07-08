@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # logic:component selector (field)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

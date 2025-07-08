@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:recombine cyclic harmonic indices
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

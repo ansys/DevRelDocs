@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # mesh:beam properties
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

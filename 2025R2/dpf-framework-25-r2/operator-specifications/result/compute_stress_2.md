@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:compute stress 2
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

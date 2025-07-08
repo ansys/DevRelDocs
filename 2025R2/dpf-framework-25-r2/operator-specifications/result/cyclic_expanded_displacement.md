@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:cyclic expanded displacement
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description
