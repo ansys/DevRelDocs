@@ -14,7 +14,7 @@
     href: core-concepts/dpf-types.md
   - name: Operator fundamentals
     href: core-concepts/operator.md
-me: Operator specifications
+- name: Operator specifications
   items:
   - name: averaging
     items:
