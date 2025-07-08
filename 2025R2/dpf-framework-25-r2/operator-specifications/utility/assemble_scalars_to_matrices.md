@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # utility:assemble scalars to matrix
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

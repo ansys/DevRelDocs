@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:workflow energy per component
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

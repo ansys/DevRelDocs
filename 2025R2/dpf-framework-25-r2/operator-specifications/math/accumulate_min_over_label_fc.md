@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # math:accumulate min over label
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # math:linear combination
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

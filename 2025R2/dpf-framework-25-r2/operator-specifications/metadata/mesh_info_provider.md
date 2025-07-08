@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # metadata:mesh info provider
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

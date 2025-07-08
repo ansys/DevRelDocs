@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:workflow energy per harmonic
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

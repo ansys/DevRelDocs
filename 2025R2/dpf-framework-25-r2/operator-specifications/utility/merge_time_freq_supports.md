@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # utility:merge time freq supports
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # scoping:split on property type
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

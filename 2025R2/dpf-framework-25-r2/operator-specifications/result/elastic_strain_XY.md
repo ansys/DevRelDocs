@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:elastic strain XY
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

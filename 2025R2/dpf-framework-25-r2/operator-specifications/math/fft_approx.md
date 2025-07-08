@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # math:fft filtering and cubic fitting
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

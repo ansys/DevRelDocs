@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # invariant:segalman von mises eqv (field)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

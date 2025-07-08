@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # mesh:skin (tri mesh)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

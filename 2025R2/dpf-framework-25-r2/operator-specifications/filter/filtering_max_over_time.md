@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # filter:filtering max over time workflow
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

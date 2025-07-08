@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:von mises strains as mechanical
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

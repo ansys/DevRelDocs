@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # min_max:max by component
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # math:compute residual and error
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

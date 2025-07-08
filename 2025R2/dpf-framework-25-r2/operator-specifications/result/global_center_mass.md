@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:global center of mass (LSDyna)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

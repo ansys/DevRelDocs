@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # math:accumulation per scoping
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

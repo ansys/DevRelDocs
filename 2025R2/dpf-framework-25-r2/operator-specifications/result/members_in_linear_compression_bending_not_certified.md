@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:members in linear compression bending not certified
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

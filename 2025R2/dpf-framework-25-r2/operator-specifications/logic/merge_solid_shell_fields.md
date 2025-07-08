@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # logic:merge solid and shell fields
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

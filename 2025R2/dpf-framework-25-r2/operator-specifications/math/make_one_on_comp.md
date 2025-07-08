@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # math:make one on component
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # mapping:scoping on coordinates
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

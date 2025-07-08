@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # math:modal damping ratio
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

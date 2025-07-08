@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # result:global eroded internal energy (LSDyna)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

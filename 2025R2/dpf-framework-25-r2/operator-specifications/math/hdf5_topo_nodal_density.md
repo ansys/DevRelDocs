@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # math:dot (by scalar field)
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description

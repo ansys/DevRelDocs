@@ -7,7 +7,7 @@ Version: 0.0.0
 
 # math:min/max over time
 
-Version: 0.0.0
+**Version: 0.0.0**
 
 
 ## Description
