@@ -63,12 +63,12 @@ public PHXPropertyValue()
 ```
 
 ### PHXPropertyValue
-```
+```java
 public PHXPropertyValue(PHXPropertyValue val)
 ```
 
 ### PHXPropertyValue
-```
+```java
 public PHXPropertyValue(PHXPropertyDescriptor prop, 
                         java.lang.String val)
 ```
@@ -76,6 +76,6 @@ public PHXPropertyValue(PHXPropertyDescriptor prop,
 ## Method Detail
 
 ### getValue
-```
+```java
 public java.lang.String getValue()
 ```

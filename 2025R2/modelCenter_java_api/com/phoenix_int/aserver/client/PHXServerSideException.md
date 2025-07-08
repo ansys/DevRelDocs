@@ -44,7 +44,7 @@ An exception that is thrown when an error is returned from the server.
 ## Constructor Detail
 
 ### PHXServerSideException
-```
+```java
 public PHXServerSideException(java.lang.String msg)
 ```
 Constructor

@@ -81,7 +81,9 @@ public void close()
 ### read
 
 ```java
-public int read(char[] cbuf, int off, int len)
+public int read(char[] cbuf, 
+                int off, 
+                int len)
          throws java.io.IOException
 ```
 

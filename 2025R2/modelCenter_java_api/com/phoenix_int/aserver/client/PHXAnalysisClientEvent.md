@@ -47,7 +47,7 @@ This class is an event for the [`PHXAnalysisClient`](PHXAnalysisClient.md) class
 ## Method Detail
 
 ### getResponse
-```
+```java
 public com.phoenix_int.aserver.client.PHXResponse getResponse()
 ```
 retrieves the response

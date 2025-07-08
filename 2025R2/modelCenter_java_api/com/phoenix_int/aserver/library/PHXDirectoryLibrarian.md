@@ -55,14 +55,14 @@ This class implements a librarian that uses a directory on disk to store and ret
 
 ### directory
 
-```
+```java
 private java.io.File directory
 ```
 The directory used by this librarian.
 
 ### categories
 
-```
+```java
 private java.util.Map categories
 ```
 Map of categories managed by this librarian.
@@ -71,7 +71,7 @@ Map of categories managed by this librarian.
 
 ### PHXDirectoryLibrarian
 
-```
+```java
 public PHXDirectoryLibrarian(java.io.File directory)
 ```
 
@@ -82,7 +82,7 @@ public PHXDirectoryLibrarian(java.io.File directory)
 
 ### addFile
 
-```
+```java
 public void addFile(java.io.File file)
 ```
 Adds a file to the directory.
@@ -92,7 +92,7 @@ Adds a file to the directory.
 
 ### removeFile
 
-```
+```java
 public void removeFile(java.io.File file)
 ```
 Removes a file from the directory.
@@ -102,7 +102,7 @@ Removes a file from the directory.
 
 ### findFile
 
-```
+```java
 public java.io.File findFile(java.lang.String name)
 ```
 Finds a file by name.
@@ -115,7 +115,7 @@ Finds a file by name.
 
 ### addCategory
 
-```
+```java
 public void addCategory(java.lang.String category)
 ```
 Adds a category.
@@ -125,7 +125,7 @@ Adds a category.
 
 ### removeCategory
 
-```
+```java
 public void removeCategory(java.lang.String category)
 ```
 Removes a category.
@@ -135,7 +135,7 @@ Removes a category.
 
 ### listCategories
 
-```
+```java
 public java.util.List listCategories()
 ```
 Lists all categories.
@@ -145,8 +145,9 @@ Lists all categories.
 
 ### addAssociation
 
-```
-public void addAssociation(java.lang.String key, java.lang.String value)
+```java
+public void addAssociation(java.lang.String key, 
+                           java.lang.String value)
 ```
 Adds an association.
 
@@ -156,7 +157,7 @@ Adds an association.
 
 ### removeAssociation
 
-```
+```java
 public void removeAssociation(java.lang.String key)
 ```
 Removes an association.
@@ -166,7 +167,7 @@ Removes an association.
 
 ### findAssociation
 
-```
+```java
 public java.lang.String findAssociation(java.lang.String key)
 ```
 Finds an association by key.
@@ -177,7 +178,3 @@ Finds an association by key.
 **Returns:**
 - The value associated with the key, or null if not found.
 
-## See Also
-
-- [`IPHXLibrarian`](./IPHXLibrarian.md)
-- [`PHXCVSLibrarian`](./PHXCVSLibrarian.md)

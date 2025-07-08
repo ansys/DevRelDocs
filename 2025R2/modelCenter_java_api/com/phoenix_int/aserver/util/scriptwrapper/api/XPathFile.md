@@ -138,9 +138,9 @@ Generate a new parser for the given file and mode
 
 ```java
 protected com.phoenix_int.aserver.util.XPathParser newParser(java.io.File file)
-                            throws java.io.IOException,
-                                   org.xml.sax.SAXException,
-                                   javax.xml.parsers.ParserConfigurationException
+                                                      throws java.io.IOException,
+                                                             org.xml.sax.SAXException,
+                                                             javax.xml.parsers.ParserConfigurationException
 ```
 Allow a sub-class to form a parser using custom options/features, such as handling DTD and entities
 
@@ -160,7 +160,7 @@ Allow a sub-class to form a parser using custom options/features, such as handli
 
 ```java
 public com.phoenix_int.aserver.util.XPathParser getParser()
-                            throws java.io.IOException
+                                                   throws java.io.IOException
 ```
 Get the XPath parser
 
