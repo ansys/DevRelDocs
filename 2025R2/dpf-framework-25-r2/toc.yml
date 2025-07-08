@@ -14,6 +14,8 @@
     href: getting-started/using-operators.md
   - name: Workflow examples for beginners
     href: getting-started/workflow-examples.md
+- name: Changelog
+  href: changelog/changelog-25-r2.md
 - name: Operator specifications
   items:
   - name: averaging
