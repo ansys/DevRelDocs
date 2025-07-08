@@ -1,11 +1,5 @@
 - name: Introduction
   href: index.md
-- name: Core concepts
-  items:
-  - name: Available types
-    href: core-concepts/dpf-types.md
-  - name: Operator fundamentals
-    href: core-concepts/operator.md
 - name: Getting started
   items:
   - name: How to use data containers
@@ -14,9 +8,13 @@
     href: getting-started/using-operators.md
   - name: Workflow examples for beginners
     href: getting-started/workflow-examples.md
-- name: Changelog
-  href: changelog/changelog-25-r2.md
-- name: Operator specifications
+- name: Core concepts
+  items:
+  - name: Available types
+    href: core-concepts/dpf-types.md
+  - name: Operator fundamentals
+    href: core-concepts/operator.md
+me: Operator specifications
   items:
   - name: averaging
     items:
@@ -1478,4 +1476,5 @@
       href: operator-specifications/utility/unitary_field.md
     - name: weighted merge fields by label
       href: operator-specifications/utility/weighted_merge_fields_by_label.md
-  
+- name: Changelog
+  href: changelog/changelog-25-r2.md
