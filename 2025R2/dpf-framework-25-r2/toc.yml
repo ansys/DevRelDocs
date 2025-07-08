@@ -1,0 +1,303 @@
+- name: Introduction
+  href: index.md
+- name: Getting started
+  items:
+  - name: Quick start
+    href: getting-started/quick-start.md
+  - name: File system
+    href: getting-started/file-system.md
+  - name: Cookbook
+    href: getting-started/cookbook.md
+  - name: HTTP API
+    href: getting-started/http-api.md
+- name: Ansys.Minerva.Sdk
+  href: reference/Ansys.Minerva.Sdk.md
+  items:
+  - name: Classes
+    items:
+    - name: ActivityTask
+      href: reference/Ansys.Minerva.Sdk.ActivityTask.md
+    - name: ActivityVariable
+      href: reference/Ansys.Minerva.Sdk.ActivityVariable.md
+    - name: AmlCommand
+      href: reference/Ansys.Minerva.Sdk.AmlCommand.md
+    - name: AmlString
+      href: reference/Ansys.Minerva.Sdk.AmlString.md
+    - name: ArchiveItem
+      href: reference/Ansys.Minerva.Sdk.ArchiveItem.md
+    - name: AuthorizationCodeLogin
+      href: reference/Ansys.Minerva.Sdk.AuthorizationCodeLogin.md
+    - name: BrowserLogin
+      href: reference/Ansys.Minerva.Sdk.BrowserLogin.md
+    - name: CertificateConfig
+      href: reference/Ansys.Minerva.Sdk.CertificateConfig.md
+    - name: DcgCredentials
+      href: reference/Ansys.Minerva.Sdk.DcgCredentials.md
+    - name: EvaluateActivity
+      href: reference/Ansys.Minerva.Sdk.EvaluateActivity.md
+    - name: ExplicitCredentials
+      href: reference/Ansys.Minerva.Sdk.ExplicitCredentials.md
+    - name: FileItem
+      href: reference/Ansys.Minerva.Sdk.FileItem.md
+    - name: FileSystemFilter
+      href: reference/Ansys.Minerva.Sdk.FileSystemFilter.md
+    - name: FileSystemItem
+      href: reference/Ansys.Minerva.Sdk.FileSystemItem.md
+    - name: FileSystemResolver
+      href: reference/Ansys.Minerva.Sdk.FileSystemResolver.md
+    - name: FolderItem
+      href: reference/Ansys.Minerva.Sdk.FolderItem.md
+    - name: FolderPath
+      href: reference/Ansys.Minerva.Sdk.FolderPath.md
+    - name: FolderViewModel
+      href: reference/Ansys.Minerva.Sdk.FolderViewModel.md
+    - name: HashCredentials
+      href: reference/Ansys.Minerva.Sdk.HashCredentials.md
+    - name: HttpConnection
+      href: reference/Ansys.Minerva.Sdk.HttpConnection.md
+    - name: ImpersonateCredentials
+      href: reference/Ansys.Minerva.Sdk.ImpersonateCredentials.md
+    - name: IomConnection
+      href: reference/Ansys.Minerva.Sdk.IomConnection.md
+    - name: Item
+      href: reference/Ansys.Minerva.Sdk.Item.md
+    - name: Logging
+      href: reference/Ansys.Minerva.Sdk.Logging.md
+    - name: MetadataCommand
+      href: reference/Ansys.Minerva.Sdk.MetadataCommand.md
+    - name: MinervaExtensions
+      href: reference/Ansys.Minerva.Sdk.MinervaExtensions.md
+    - name: NamedValue
+      href: reference/Ansys.Minerva.Sdk.NamedValue.md
+    - name: OAuthConnection
+      href: reference/Ansys.Minerva.Sdk.OAuthConnection.md
+    - name: OAuthTokenCommand
+      href: reference/Ansys.Minerva.Sdk.OAuthTokenCommand.md
+    - name: ODataCommand
+      href: reference/Ansys.Minerva.Sdk.ODataCommand.md
+    - name: ParameterDocumentFile
+      href: reference/Ansys.Minerva.Sdk.ParameterDocumentFile.md
+    - name: ParameterFileReference
+      href: reference/Ansys.Minerva.Sdk.ParameterFileReference.md
+    - name: PathPattern
+      href: reference/Ansys.Minerva.Sdk.PathPattern.md
+    - name: PathPatternList
+      href: reference/Ansys.Minerva.Sdk.PathPatternList.md
+    - name: PropertyValue
+      href: reference/Ansys.Minerva.Sdk.PropertyValue.md
+    - name: Query
+      href: reference/Ansys.Minerva.Sdk.Query.md
+    - name: RefreshTokenCredentials
+      href: reference/Ansys.Minerva.Sdk.RefreshTokenCredentials.md
+    - name: RetryPolicy
+      href: reference/Ansys.Minerva.Sdk.RetryPolicy.md
+    - name: SecureToken
+      href: reference/Ansys.Minerva.Sdk.SecureToken.md
+    - name: ServerException
+      href: reference/Ansys.Minerva.Sdk.ServerException.md
+    - name: Session
+      href: reference/Ansys.Minerva.Sdk.Session.md
+    - name: ShortcutItem
+      href: reference/Ansys.Minerva.Sdk.ShortcutItem.md
+    - name: SoapCommand
+      href: reference/Ansys.Minerva.Sdk.SoapCommand.md
+    - name: SqlString
+      href: reference/Ansys.Minerva.Sdk.SqlString.md
+    - name: SubmitJob
+      href: reference/Ansys.Minerva.Sdk.SubmitJob.md
+    - name: TokenCredentials
+      href: reference/Ansys.Minerva.Sdk.TokenCredentials.md
+    - name: TransferSettings
+      href: reference/Ansys.Minerva.Sdk.TransferSettings.md
+    - name: TransferStatus
+      href: reference/Ansys.Minerva.Sdk.TransferStatus.md
+    - name: ValueList<T>
+      href: reference/Ansys.Minerva.Sdk.ValueList-1.md
+    - name: Vault
+      href: reference/Ansys.Minerva.Sdk.Vault.md
+    - name: VaultConnection
+      href: reference/Ansys.Minerva.Sdk.VaultConnection.md
+    - name: VaultUpload
+      href: reference/Ansys.Minerva.Sdk.VaultUpload.md
+    - name: VoteContext
+      href: reference/Ansys.Minerva.Sdk.VoteContext.md
+    - name: WebServer
+      href: reference/Ansys.Minerva.Sdk.WebServer.md
+    - name: WindowCredentials
+      href: reference/Ansys.Minerva.Sdk.WindowCredentials.md
+    - name: WorkflowProcessPath
+      href: reference/Ansys.Minerva.Sdk.WorkflowProcessPath.md
+    - name: XmlRefreshTokenStore
+      href: reference/Ansys.Minerva.Sdk.XmlRefreshTokenStore.md
+  - name: Structs
+    items:
+    - name: ContainerLocator
+      href: reference/Ansys.Minerva.Sdk.ContainerLocator.md
+    - name: ZonedDateTime
+      href: reference/Ansys.Minerva.Sdk.ZonedDateTime.md
+    - name: Interfaces
+    - name: IAmlCommand<T>
+      href: reference/Ansys.Minerva.Sdk.IAmlCommand-1.md
+    - name: IAmlConnection
+      href: reference/Ansys.Minerva.Sdk.IAmlConnection.md
+    - name: ICredentials
+      href: reference/Ansys.Minerva.Sdk.ICredentials.md
+    - name: IFileItem
+      href: reference/Ansys.Minerva.Sdk.IFileItem.md
+    - name: IFileSystemItem
+      href: reference/Ansys.Minerva.Sdk.IFileSystemItem.md
+    - name: IHttpCommand<T>
+      href: reference/Ansys.Minerva.Sdk.IHttpCommand-1.md
+    - name: IItemId
+      href: reference/Ansys.Minerva.Sdk.IItemId.md
+    - name: IItemProvider
+      href: reference/Ansys.Minerva.Sdk.IItemProvider.md
+    - name: IItemWriter
+      href: reference/Ansys.Minerva.Sdk.IItemWriter.md
+    - name: IOAuthCommand<T>
+      href: reference/Ansys.Minerva.Sdk.IOAuthCommand-1.md
+    - name: IPathPattern
+      href: reference/Ansys.Minerva.Sdk.IPathPattern.md
+    - name: IPathResolver
+      href: reference/Ansys.Minerva.Sdk.IPathResolver.md
+    - name: IRefreshTokenStore
+      href: reference/Ansys.Minerva.Sdk.IRefreshTokenStore.md
+    - name: ISerializable
+      href: reference/Ansys.Minerva.Sdk.ISerializable.md
+    - name: IVaultStrategy
+      href: reference/Ansys.Minerva.Sdk.IVaultStrategy.md
+    - name: IVaultUpload
+      href: reference/Ansys.Minerva.Sdk.IVaultUpload.md
+  - name: Enums
+    items:
+    - name: ClaimType
+      href: reference/Ansys.Minerva.Sdk.ClaimType.md
+    - name: FilterType
+      href: reference/Ansys.Minerva.Sdk.FilterType.md
+    - name: OverwriteMode
+      href: reference/Ansys.Minerva.Sdk.OverwriteMode.md
+    - name: ParameterFileReferenceType
+      href: reference/Ansys.Minerva.Sdk.ParameterFileReferenceType.md
+    - name: ReleaseWarningMode
+      href: reference/Ansys.Minerva.Sdk.ReleaseWarningMode.md
+    - name: ReleasedParentsMode
+      href: reference/Ansys.Minerva.Sdk.ReleasedParentsMode.md
+    - name: ShortcutTransferMode
+      href: reference/Ansys.Minerva.Sdk.ShortcutTransferMode.md
+    - name: SoapAction
+      href: reference/Ansys.Minerva.Sdk.SoapAction.md
+    - name: VersionBehavior
+      href: reference/Ansys.Minerva.Sdk.VersionBehavior.md
+  - name: Delegates
+    items:
+    - name: RetryPolicy.OnRetry
+      href: reference/Ansys.Minerva.Sdk.RetryPolicy.OnRetry.md
+- name: Ansys.Minerva.Sdk.Reflection
+  href: reference/Ansys.Minerva.Sdk.Reflection.md
+  items:
+  - name: Classes
+    items:
+    - name: BooleanType
+      href: reference/Ansys.Minerva.Sdk.Reflection.BooleanType.md
+    - name: DateTimeType
+      href: reference/Ansys.Minerva.Sdk.Reflection.DateTimeType.md
+    - name: DecimalType
+      href: reference/Ansys.Minerva.Sdk.Reflection.DecimalType.md
+    - name: FloatType
+      href: reference/Ansys.Minerva.Sdk.Reflection.FloatType.md
+    - name: ImageType
+      href: reference/Ansys.Minerva.Sdk.Reflection.ImageType.md
+    - name: IntegerType
+      href: reference/Ansys.Minerva.Sdk.Reflection.IntegerType.md
+    - name: ItemPropertyType
+      href: reference/Ansys.Minerva.Sdk.Reflection.ItemPropertyType.md
+    - name: ListType
+      href: reference/Ansys.Minerva.Sdk.Reflection.ListType.md
+    - name: MetadataService
+      href: reference/Ansys.Minerva.Sdk.Reflection.MetadataService.md
+    - name: MultiValueListType
+      href: reference/Ansys.Minerva.Sdk.Reflection.MultiValueListType.md
+    - name: ObjectType
+      href: reference/Ansys.Minerva.Sdk.Reflection.ObjectType.md
+    - name: PropertyInfo
+      href: reference/Ansys.Minerva.Sdk.Reflection.PropertyInfo.md
+    - name: StringType
+      href: reference/Ansys.Minerva.Sdk.Reflection.StringType.md
+    - name: ValidationResult
+      href: reference/Ansys.Minerva.Sdk.Reflection.ValidationResult.md
+  - name: Interfaces
+    items:
+    - name: IMetadataService
+      href: reference/Ansys.Minerva.Sdk.Reflection.IMetadataService.md
+    - name: IPropertyType
+      href: reference/Ansys.Minerva.Sdk.Reflection.IPropertyType.md
+  - name: Enums
+    items:
+    - name: DateTimeFormat
+      href: reference/Ansys.Minerva.Sdk.Reflection.DateTimeFormat.md
+    - name: GridVisibility
+      href: reference/Ansys.Minerva.Sdk.Reflection.GridVisibility.md
+    - name: TextAlignment
+      href: reference/Ansys.Minerva.Sdk.Reflection.TextAlignment.md
+- name: Ansys.Minerva.Sdk.Search
+  href: reference/Ansys.Minerva.Sdk.Search.md
+  items:
+  - name: Classes
+    items:
+    - name: AndOperator
+      href: reference/Ansys.Minerva.Sdk.Search.AndOperator.md
+    - name: BaseOperandVisitor
+      href: reference/Ansys.Minerva.Sdk.Search.BaseOperandVisitor.md
+    - name: BetweenComparison
+      href: reference/Ansys.Minerva.Sdk.Search.BetweenComparison.md
+    - name: BinaryComparison
+      href: reference/Ansys.Minerva.Sdk.Search.BinaryComparison.md
+    - name: ConstantList
+      href: reference/Ansys.Minerva.Sdk.Search.ConstantList.md
+    - name: ExistsOperator
+      href: reference/Ansys.Minerva.Sdk.Search.ExistsOperator.md
+    - name: ExpressionTreeVisitor
+      href: reference/Ansys.Minerva.Sdk.Search.ExpressionTreeVisitor.md
+    - name: InComparison
+      href: reference/Ansys.Minerva.Sdk.Search.InComparison.md
+    - name: NotOperator
+      href: reference/Ansys.Minerva.Sdk.Search.NotOperator.md
+    - name: OrOperator
+      href: reference/Ansys.Minerva.Sdk.Search.OrOperator.md
+    - name: SelectClause
+      href: reference/Ansys.Minerva.Sdk.Search.SelectClause.md
+    - name: SelectQuery
+      href: reference/Ansys.Minerva.Sdk.Search.SelectQuery.md
+    - name: SqlSearchRenderer
+      href: reference/Ansys.Minerva.Sdk.Search.SqlSearchRenderer.md
+    - name: TableName
+      href: reference/Ansys.Minerva.Sdk.Search.TableName.md
+    - name: UnaryComparison
+      href: reference/Ansys.Minerva.Sdk.Search.UnaryComparison.md
+    - name: Interfaces
+      items:
+      - name: IComparison
+        href: reference/Ansys.Minerva.Sdk.Search.IComparison.md
+      - name: IInClauseList
+        href: reference/Ansys.Minerva.Sdk.Search.IInClauseList.md
+      - name: ILogical
+        href: reference/Ansys.Minerva.Sdk.Search.ILogical.md
+      - name: IOperand
+        href: reference/Ansys.Minerva.Sdk.Search.IOperand.md
+      - name: IOperandVisitor
+        href: reference/Ansys.Minerva.Sdk.Search.IOperandVisitor.md
+    - name: Enums
+      items:
+    - name: BinaryCondition
+      href: reference/Ansys.Minerva.Sdk.Search.BinaryCondition.md
+    - name: SearchVersion
+      href: reference/Ansys.Minerva.Sdk.Search.SearchVersion.md
+    - name: UnaryCondition
+      href: reference/Ansys.Minerva.Sdk.Search.UnaryCondition.md
+- name: Ansys.Minerva.Sdk.Utilities
+  href: reference/Ansys.Minerva.Sdk.Utilities.md
+  items:
+  - name: Classes
+    items:
+    - name: MinervaFeatures
+      href: reference/Ansys.Minerva.Sdk.Utilities.MinervaFeatures.md
