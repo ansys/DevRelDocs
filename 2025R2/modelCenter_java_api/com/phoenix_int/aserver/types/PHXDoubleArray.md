@@ -145,7 +145,8 @@ Must override this function and return true if the specified class is acceptable
 
 ```java
 protected java.lang.Object allocateElement(java.lang.Class elementClass)
-                                    throws java.lang.IllegalAccessException, java.lang.InstantiationException
+                                    throws java.lang.IllegalAccessException, 
+                                           java.lang.InstantiationException
 ```
 
 Description copied from class: [PHXSimpleArray](PHXSimpleArray.md)

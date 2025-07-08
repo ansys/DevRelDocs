@@ -24,7 +24,7 @@ extends PHXSimpleType
 implements IPHXFormat
 ```
 
-The Phoenix type for doubles. This class adds the following features to the [PHXSimpleType](PHXSimpleType.md):
+The type for doubles. This class adds the following features to the [PHXSimpleType](PHXSimpleType.md):
 
 - **value**: double
 - **valueStr**: the source string for the value, useful for error checking when the value is NaN
@@ -323,7 +323,8 @@ Converts a PHXStringBuffer representation to the internal value.
 ### fromString3
 
 ```java
-public void fromString3(java.lang.String value, java.util.function.ToDoubleFunction<java.lang.String> converter)
+public void fromString3(java.lang.String value, 
+                        java.util.function.ToDoubleFunction<java.lang.String> converter)
 ```
 
 Converts a String representation to the internal value using specified converter.
@@ -350,7 +351,7 @@ Converts a String representation to the internal value.
 
 ```java
 public java.lang.String toString(int width)
-  throws PHXNumberFormatException
+                          throws PHXNumberFormatException
 ```
 
 Converts the value to a string with the best possible formatting, e.g. scientific or absolute values based on the width available.
@@ -515,7 +516,7 @@ public static java.lang.String arrayToString(double[] sa)
 
 ```java
 public boolean equalsNatural(PHXSimpleType toCompare)
-  throws PHXTypeMismatchException
+                      throws PHXTypeMismatchException
 ```
 
 Compare this [PHXSimpleType](PHXSimpleType.md) to another [PHXSimpleType](PHXSimpleType.md). This type of comparison is different than `Comparable` in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets, and may behave oddly if put in those circumstances.
@@ -538,7 +539,7 @@ NOTE: two PHXDoubles are considered naturally equal if they are the same to with
 
 ```java
 public void fromObject(java.lang.Object toRead)
-  throws PHXInvalidTypeException
+                throws PHXInvalidTypeException
 ```
 
 Load the value of this object from the specified object. This will read the object and attempt to convert it if it is a known type. If the type isn't recognized, it will throw a [PHXInvalidTypeException](PHXInvalidTypeException.md). If there is an error in conversion, it will also throw a [PHXInvalidTypeException](PHXInvalidTypeException.md).

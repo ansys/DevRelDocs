@@ -57,12 +57,15 @@ public PHXMethodDescriptor(java.lang.String name)
 
 ### PHXMethodDescriptor
 ```java
-public PHXMethodDescriptor(java.lang.String name, java.lang.String fullName)
+public PHXMethodDescriptor(java.lang.String name, 
+                           java.lang.String fullName)
 ```
 
 ### PHXMethodDescriptor
 ```java
-public PHXMethodDescriptor(java.lang.String name, java.lang.String fullName, boolean downloadInputs)
+public PHXMethodDescriptor(java.lang.String name, 
+                           java.lang.String fullName, 
+                           boolean downloadInputs)
 ```
 
 ## Method Detail
@@ -118,11 +121,3 @@ public java.lang.String toString()
 ```java
 public static PHXMethodDescriptor fromString(java.lang.String str)
 ```
-
-### See Also
-- [`PHXSelfManager`](PHXSelfManager.md)
-- [`PHXSimpleSelfManager`](PHXSimpleSelfManager.md)
-- [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md)
-- [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md)
-- [`PHXInvokeReturn`](PHXInvokeReturn.md)
-- [`PHXGroup`](PHXGroup.md)

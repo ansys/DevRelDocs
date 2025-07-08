@@ -204,7 +204,7 @@ public com.phoenix_int.aserver.PHXComponentResourcePair instantiateManaged(java.
                                                                            java.lang.String virtualDir,
                                                                            java.lang.String connector,
                                                                            java.lang.String queue)
-    throws java.lang.Exception
+                                                                    throws java.lang.Exception
 ```
 Creates an instance of the specified component. Typically a librarian will find the appropriate files and pass the request off to the [`IPHXFactory`](IPHXFactory.md).
 

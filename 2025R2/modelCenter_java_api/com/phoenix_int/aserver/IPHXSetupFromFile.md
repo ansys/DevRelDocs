@@ -26,7 +26,7 @@ This interface defines the contract for components that can be set up or initial
 ## Method Detail
 
 ### setupFromFile
-```
+```java
 public void setupFromFile(java.lang.String fileName)
                    throws java.io.IOException
 ```

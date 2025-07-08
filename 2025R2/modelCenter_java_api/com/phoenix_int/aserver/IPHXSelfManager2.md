@@ -37,7 +37,8 @@ This interface extends [`IPHXSelfManager`](IPHXSelfManager.md) and provides new 
 ### getValue2
 ```java
 java.lang.Object getValue2(java.lang.String name)
-    throws PHXNoSuchObjectException, java.lang.Exception
+                    throws PHXNoSuchObjectException, 
+                           java.lang.Exception
 ```
 Function for retrieving a specified value.
 
@@ -48,13 +49,16 @@ Function for retrieving a specified value.
 - The value to be returned as any type of java Object.
 
 **Throws:**
-- `PHXNoSuchObjectException` - thrown if the specified name does not exist
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified name does not exist
 - `java.lang.Exception` - an exception that may occur
 
 ### setValue2
 ```java
-void setValue2(java.lang.String name, PHXStringBuffer value)
-    throws PHXNoSuchObjectException, PHXNoSuchWriteableObjectException, java.lang.Exception
+void setValue2(java.lang.String name, 
+               PHXStringBuffer value)
+        throws PHXNoSuchObjectException, 
+               PHXNoSuchWriteableObjectException, 
+               java.lang.Exception
 ```
 Function for setting a specified value.
 
@@ -63,6 +67,6 @@ Function for setting a specified value.
 - `value` - the String representation of the value to set
 
 **Throws:**
-- `PHXNoSuchObjectException` - thrown if the specified name does not exist
-- `PHXNoSuchWriteableObjectException` - thrown if the specified name cannot be modified
+- [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified name does not exist
+- [`PHXNoSuchWriteableObjectException`](PHXNoSuchWriteableObjectException.md) - thrown if the specified name cannot be modified
 - `java.lang.Exception` - an exception that may occur

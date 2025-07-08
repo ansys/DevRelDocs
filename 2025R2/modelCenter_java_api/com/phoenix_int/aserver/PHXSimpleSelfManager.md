@@ -596,5 +596,3 @@ Notifies the driver that it has ended. The driver should perform any necesary sh
 
 **Throws:**
 - `java.lang.Exception` - thrown if the function does not complete succesfully
-
-**See also:** [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md), [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md), [`PHXRunShare`](PHXRunShare.md), [`PHXRunShare.RunInfo`](PHXRunShare.RunInfo.md), [`PHXDFTException`](PHXDFTException.md), [`PHXComponentDescription`](PHXComponentDescription.md), [`PHXComponentVersion`](PHXComponentVersion.md), [`PHXComponentBranch`](PHXComponentBranch.md)
