@@ -1,9 +1,10 @@
 # Changelog
-## Table of Content
+## Table of Contents
 ### Features categories
   * [Framework](#features_framework)
   * [HGP](#features_hgp)
   * [MAPDL](#features_mapdl)
+  * [LSDYNA](#features_lsdyna)
   * [Math](#features_math)
   * [HDF5](#features_hdf5)
   * [Compression](#features_compression)
@@ -16,6 +17,7 @@
   * [HGP](#changes_hgp)
   * [MAPDL](#changes_mapdl)
   * [CFF](#changes_cff)
+  * [LSDYNA](#changes_lsdyna)
   * [HDF5](#changes_hdf5)
   * [Math](#changes_math)
   * [Engineering Data](#changes_engineering_data)
@@ -25,6 +27,7 @@
   * [HGP](#fixes_hgp)
   * [MAPDL](#fixes_mapdl)
   * [CFF](#fixes_cff)
+  * [LSDYNA](#fixes_lsdyna)
   * [Math](#fixes_math)
   * [HDF5](#fixes_hdf5)
   * [VTK](#fixes_vtk)
@@ -122,6 +125,12 @@ When initializing DPF, you can use a Context using `userDefinedContext` and an e
 
 #### <a id="make_spectrumdata_a_source_operator_and_expose_prs_reader"></a> Make spectrum_data a source operator and expose .prs reader
 
+### <a id="features_lsdyna"></a> LSDYNA
+
+#### <a id="support_get_shell_ipts_on_all_layers"></a> Support extraction of results on all integration points of shells with more than 3 through-thickness integration points
+
+#### <a id="support_viscosity_and_temperature_in_icfd"></a> Support viscosity and temperature in ICFD
+
 ### <a id="features_math"></a> Math
 
 #### <a id="psd_1_sigma_operator"></a> PSD 1 sigma operator
@@ -198,6 +207,19 @@ Changing DataTree's API for getting attributes:
 
 The XML file for the CFF plugin now targets the Prime plugin as a dependency.
 
+
+### <a id="changes_lsdyna"></a> LSDYNA
+
+#### <a id="shell_layers_ordering"></a> Fix inconsistent shell layers ordering between LS-Dyna and DPF
+
+LSDYNA results on shells with three integration points through the layer were ordered in an unexpected way, resulting in wrong behavior when changing the shell layer using `change_shell_layers`.
+They now follow the DPF convention `[top, bottom, mid]`.
+If more than three integration points are present in the shell, the regular LSDYNA ordering is kept (from bottom to top).
+
+#### <a id="fix_bug_of_getting_erosion_mesh"></a> Erosion of the mesh is now tracked with an element status field
+
+Erosion in the mesh was previously handled by storing the mesh connectivity at each step.
+To imrpove performance and allow for bigger meshes with erosion, only the initial mesh is now stored, with a varying field of erosion element status.
 
 ### <a id="changes_hdf5"></a> HDF5
 
@@ -468,6 +490,24 @@ Mark CFF unsupported elements as Polyhedrons. These elements are marked in the C
 Some results were wrong or missing in the CFF result info.
 Using the CFFSDK reader, we now expose available results as consistently as possible.
 
+
+### <a id="fixes_lsdyna"></a> LSDYNA
+
+#### <a id="fix_issue_for_lsda_on_linux"></a> Fix a crash on Linux with gcc 8 for LSDA operators
+
+#### <a id="pr_lsda_normalvel"></a> Fix LSDA imports and exports for 1D frequency data
+
+#### <a id="fix_problem_of_extracting_binout_nodfor_group_data"></a> Fix an issue when extracting BINOUT NODFOR data
+
+#### <a id="fix_bug_of_extracting_strain_data"></a> Fix a crash when reading total_strain from d3plot for shells with more than 3 IP in the thickness
+
+#### <a id="fix_bug_of_extracting_displacements_from_d3plots_that_contain_em_data"></a> Fix extraction of displacements from d3plot files with electro-magnetic data
+
+#### <a id="pr_tshell"></a> Fix reading the mesh connectivity for TSHELL
+
+#### <a id="fix_bug_for_getting_erosion_data"></a> Fix a bug when reading erosion data by part
+
+#### <a id="support_writing_lsda_file_larger_than_2gb"></a> Support writing LSDA files larger than 2GB
 
 ### <a id="fixes_math"></a> Math
 
