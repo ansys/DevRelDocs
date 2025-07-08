@@ -1,6 +1,6 @@
 # Wizards
 
-optiSLang allows you to extend the [solver wizard](https://ansysproducthelpqa.win.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/opti_ug/opti_ug_solver_wizard.html) by using common script interfaces or by enabling automatic support of Python-based integration nodes in the configuration.
+optiSLang allows you to extend the [solver wizard](https://ansyshelp.ansys.com/account/secured?returnurl=/Views/Secured/corp/v252/en/opti_ug/opti_ug_solver_wizard.html) by using common script interfaces or by enabling automatic support of Python-based integration nodes in the configuration.
 
 To use custom script wizards, the scripts must fulfill the naming conventions `*_cw.py` or `*_solverwizard.py` and must be placed in one of the following locations:
 
