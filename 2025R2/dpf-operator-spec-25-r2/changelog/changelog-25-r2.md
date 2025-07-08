@@ -15,6 +15,7 @@
   * [Framework](#changes_framework)
   * [HGP](#changes_hgp)
   * [MAPDL](#changes_mapdl)
+  * [CFF](#changes_cff)
   * [HDF5](#changes_hdf5)
   * [Math](#changes_math)
   * [Engineering Data](#changes_engineering_data)
@@ -23,6 +24,7 @@
   * [Framework](#fixes_framework)
   * [HGP](#fixes_hgp)
   * [MAPDL](#fixes_mapdl)
+  * [CFF](#fixes_cff)
   * [Math](#fixes_math)
   * [HDF5](#fixes_hdf5)
   * [VTK](#fixes_vtk)
@@ -188,6 +190,14 @@ Changing DataTree's API for getting attributes:
 #### <a id="require_label_panel_in_the_modal_basis_for_expansion"></a> Require label "panel" in the modal basis for expansion
 
 #### <a id="make_cyclic_operators_private"></a> Make cyclic operators private
+
+### <a id="changes_cff"></a> CFF
+
+#### <a id="add_prime_to_path_and_ldlibrarypath_in_cff_xml"></a> Add the Prime plugin as a dependency
+
+
+The XML file for the CFF plugin now targets the Prime plugin as a dependency.
+
 
 ### <a id="changes_hdf5"></a> HDF5
 
@@ -443,6 +453,21 @@ Two issues were observed:
 #### <a id="fix_a_dmp_crash_for_mode_file_scoping"></a> Fix a dmp crash for mode file scoping
 
 #### <a id="fix_mapdl_run_cmd_issue_input_missing"></a> Fix mapdl run cmd issue "input missing"
+
+### <a id="fixes_cff"></a> CFF
+
+#### <a id="mark_cff_unsupported_elements_as_polyhedrons"></a> Mark CFF unsupported elements as Polyhedrons
+
+
+Mark CFF unsupported elements as Polyhedrons. These elements are marked in the CFF file with cell types outside of the CffCellType enum.
+
+
+#### <a id="missing_data_for_cff_resultinfo"></a> Missing data for CFF ResultInfo
+
+
+Some results were wrong or missing in the CFF result info.
+Using the CFFSDK reader, we now expose available results as consistently as possible.
+
 
 ### <a id="fixes_math"></a> Math
 
