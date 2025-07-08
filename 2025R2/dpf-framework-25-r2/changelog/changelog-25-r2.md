@@ -1,5 +1,5 @@
 # Changelog
-## Table of Content
+## Table of Contents
 ### Features categories
   * [Framework](#features_framework)
   * [HGP](#features_hgp)
