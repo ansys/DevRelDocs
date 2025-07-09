@@ -184,14 +184,16 @@ Defaults to [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md)
 ### PHXRowFieldFile
 
 ```java
-public PHXRowFieldFile(PHXScriptWrapperObject wrapper, ParseableFile.Mode mode)
+public PHXRowFieldFile(PHXScriptWrapperObject wrapper, 
+                       ParseableFile.Mode mode)
 ```
 
 ### PHXRowFieldFile
 
 ```java
 @Deprecated
-public PHXRowFieldFile(PHXScriptWrapperObject wrapper, int mode)
+public PHXRowFieldFile(PHXScriptWrapperObject wrapper, 
+                       int mode)
 ```
 Deprecated. in favor of [PHXRowFieldFile(PHXScriptWrapperObject, ParseableFile.Mode)](PHXRowFieldFile.md)
 
@@ -202,7 +204,8 @@ Deprecated. in favor of [PHXRowFieldFile(PHXScriptWrapperObject, ParseableFile.M
 ### PHXRowFieldFile
 
 ```java
-public PHXRowFieldFile(java.lang.String baseDirectory, int mode)
+public PHXRowFieldFile(java.lang.String baseDirectory, 
+                       int mode)
 ```
 Legacy (pre-QW) constructor.
 
@@ -472,7 +475,7 @@ public void transferVar(PHXSimpleType var,
                         PHXSectionNotFoundException,
                         com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
-Transfers the data for a particular variable.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The variable to read or write
@@ -525,13 +528,13 @@ public void transferVar(PHXSimpleType var,
                         PHXSectionNotFoundException,
                         com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
-Transfers the data for a particular variable.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The variable to read or write
 - `row` - The row in the file to read/write from/to.
 - `field` - The field within the row to read/write from/to.
-- `fformat` - The fortran style format string to apply.  Pass null
+- `fformat` - The fortran style format string to apply. Pass null
   for standard formatting.
 
 **Throws:**
@@ -584,7 +587,7 @@ public void transferArray(PHXSimpleArray var,
                           java.lang.InstantiationException,
                           PHXNumberFormatException
 ```
-Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The array to read or write
@@ -617,7 +620,7 @@ public void transferArray(PHXSimpleArray var,
                           java.lang.InstantiationException,
                           PHXNumberFormatException
 ```
-Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The array to read or write
@@ -652,7 +655,7 @@ public void transferArray(PHXSimpleArray var,
                           java.lang.InstantiationException,
                           PHXNumberFormatException
 ```
-Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The array to read or write
@@ -661,7 +664,7 @@ Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENER
 - `fieldstart` - The starting field within the row to read/write from/to
 - `fieldend` - The ending field within the row to read/write from/to
 - `resizable` - Whether or not the array is resizable when using [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md).
-- `fformat` - The fortran style format string to apply.  Pass null for standard formatting.
+- `fformat` - The fortran style format string to apply. Pass null for standard formatting.
 
 **Throws:**
 - `java.io.IOException`
@@ -689,7 +692,7 @@ public void transferArray(PHXSimpleArray var,
                           java.lang.InstantiationException,
                           PHXNumberFormatException
 ```
-Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The array to read or write
@@ -699,7 +702,7 @@ Transfers the data for a particular array.  If mode is [ParseableFile.Mode.GENER
 - `fieldend` - The ending field within the row to read/write from/to
 - `resizable` - Whether or not the array is resizable when using [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md).
 - `fformat` - The fortran style format string to apply. Pass null for standard formatting.
-- `numDimensions` - The number of dimensions to read the array as.  Must be 1 or 2.
+- `numDimensions` - The number of dimensions to read the array as. Must be 1 or 2.
 
 **Throws:**
 - `java.io.IOException`
@@ -719,7 +722,7 @@ public void transferKeyVar(PHXSimpleType var,
                            PHXNoSuchTokenException,
                            PHXNumberFormatException
 ```
-Transfers the data for a particular variable.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The variable to read or write
@@ -745,14 +748,14 @@ public void transferKeyVar(PHXSimpleType var,
                            PHXNoSuchTokenException,
                            PHXNumberFormatException
 ```
-Transfers the data for a particular variable.  If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The variable to read or write
 - `key` - The string to search for that identifies the variable in the file.
-- `occurrence` - (default 1).  Which occurrence of string to find.
-- `rowOffset` - (default 0).  Once the string is found, offset by this many rows
-- `field` - (default 1). Once the string is found, offset by this many fields.  If a negative number is used, it will count from the end of the row backwards, but will not count past the key variable.
+- `occurrence` - (default 1). Which occurrence of string to find.
+- `rowOffset` - (default 0). Once the string is found, offset by this many rows
+- `field` - (default 1). Once the string is found, offset by this many fields. If a negative number is used, it will count from the end of the row backwards, but will not count past the key variable.
 - `fformat` - The fortran style format string to apply. Pass null for standard formatting.
 
 **Throws:**
@@ -773,7 +776,7 @@ public java.lang.String readValue(int row,
                                   PHXSectionNotFoundException,
                                   com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
-Reads a value out of the input file.  If mode is [ParseableFile.Mode.PARSE](ParseableFile.Mode.md), the input file is the fileToParse, otherwise it is the template file.
+Reads a value out of the input file. If mode is [ParseableFile.Mode.PARSE](ParseableFile.Mode.md), the input file is the fileToParse, otherwise it is the template file.
 
 **Parameters:**
 - `row` - The row of the file to read from
@@ -801,7 +804,7 @@ public long readLong(int row,
                      PHXSectionNotFoundException,
                      com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
-Reads a value out of the input file.  If mode is [ParseableFile.Mode.PARSE](ParseableFile.Mode.md), the input file is the fileToParse, otherwise it is the template file.  Returns it as a long value.
+Reads a value out of the input file. If mode is [ParseableFile.Mode.PARSE](ParseableFile.Mode.md), the input file is the fileToParse, otherwise it is the template file. Returns it as a long value.
 
 **Parameters:**
 - `row` - The row of the file to read from
@@ -830,7 +833,7 @@ public double readDouble(int row,
                          PHXSectionNotFoundException,
                          com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
-Reads a value out of the input file.  If mode is [ParseableFile.Mode.PARSE](ParseableFile.Mode.md), the input file is the fileToParse, otherwise it is the template file.  Returns it as a double value.
+Reads a value out of the input file. If mode is [ParseableFile.Mode.PARSE](ParseableFile.Mode.md), the input file is the fileToParse, otherwise it is the template file. Returns it as a double value.
 
 **Parameters:**
 - `row` - The row of the file to read from
@@ -855,7 +858,7 @@ public void writeValue(int row,
                 throws java.io.IOException,
                        PHXNoSuchTokenException
 ```
-Writes a token out to the output file.  This is only useful if mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md).
+Writes a token out to the output file. This is only useful if mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md).
 
 **Parameters:**
 - `row` - The row of the file to read from
@@ -936,7 +939,7 @@ Searches for the specified string and makes the row where the string was found a
 **Parameters:**
 - `find` - The string to search for.
 - `occurrence` - Search for the Nth occurrence of string (default 1)
-- `offset` - After finding string, move down offset rows.  May  be negative to move up. (default 0)
+- `offset` - After finding string, move down offset rows. May  be negative to move up. (default 0)
 - `regex` - If `true`, the find parameter is a regular expression. (default `false`)
 
 **Throws:**
@@ -990,7 +993,7 @@ Searches for the specified string and makes the row where the string was found a
 **Parameters:**
 - `find` - The string to search for.
 - `occurrence` - Search for the Nth occurrence of string (default 1)
-- `offset` - After finding string, move down offset rows.  May be negative to move up. (default 0)
+- `offset` - After finding string, move down offset rows. May be negative to move up. (default 0)
 - `regex` - If `true`, the find parameter is a regular expression. (default `false`)
 
 **Throws:**

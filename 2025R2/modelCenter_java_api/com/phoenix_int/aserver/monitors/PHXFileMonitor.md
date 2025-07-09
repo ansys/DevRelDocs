@@ -118,7 +118,7 @@ This class WAITS for the monitor to stop monitoring on the sub-thread before it 
 
 ```java
 public void doMonitor()
-    throws java.io.IOException
+               throws java.io.IOException
 ```
 Begin monitoring. Does not return until the monitor is halted.
 

@@ -17,7 +17,7 @@
 **Declaration**
 ```java
 public class ProcessHaltedException
-    extends java.io.IOException
+extends java.io.IOException
 ```
 
 Exception indicating that the request cannot be handled because the associated process was halted.

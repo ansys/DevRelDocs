@@ -11,7 +11,7 @@
 **Declaration**
 ```java
 public class PHXVariableInfo
-    extends java.lang.Object
+extends java.lang.Object
 ```
 
 This is a utility class for holding parsing information about a variable.

@@ -43,7 +43,7 @@ This extends the [`IPHXLibrarian`](IPHXLibrarian.md) interface to include versio
 
 ```java
 java.lang.String getBranchesAndTags()
-    throws java.lang.Exception
+                             throws java.lang.Exception
 ```
 
 **Deprecated.** Fetches a list of all branches and tags.

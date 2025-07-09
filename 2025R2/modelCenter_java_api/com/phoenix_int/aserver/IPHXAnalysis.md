@@ -31,7 +31,7 @@ If you also want to support Athena, you should extend `IPHXAthenaAnalysis` inste
 ### execute
 ```java
 void execute()
-    throws java.lang.Exception
+      throws java.lang.Exception
 ```
 Executes the analysis. If the analysis does not run successfully, e.g. the solution does not converge, then an exception should be thrown.
 

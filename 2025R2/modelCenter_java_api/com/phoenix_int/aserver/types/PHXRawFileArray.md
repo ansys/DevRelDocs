@@ -20,7 +20,7 @@
 public class PHXRawFileArray
 extends PHXSimpleArray
 ```
-Wraps an array of PHXRawFile variables for the ScriptWrapper utility.
+Wraps an array of [PHXRawFile](PHXRawFile.md) variables for the ScriptWrapper utility.
 
 
 **See Also:**

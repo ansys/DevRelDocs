@@ -159,7 +159,7 @@ Constructs a PHXSimpleArray that wraps a particular ModelCenter Remote Execution
 protected PHXSimpleArray()
 ```
 Default Constructor
-============ METHOD DETAIL ==========
+
 ### Method Detail
 
 ### copy
