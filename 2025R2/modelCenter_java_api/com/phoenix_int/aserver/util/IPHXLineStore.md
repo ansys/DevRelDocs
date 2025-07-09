@@ -16,18 +16,6 @@ This is the interface for holding a set of lines. It is used by the [`PHXFilePar
 |-------------------|----------------------|
 | `void` | `close()`<br>Closes any resources associated with this line store |
 
-## Related Classes
-
-- [`PHXFileParser`](PHXFileParser.md) - File parser that uses this interface
-- [`Parser`](Parser.md) - Base parser class
-- [`package-tree`](package-tree.md) - Class hierarchy for this package
-
-**See Also:**
-
-- [Package Summary](package-summary.md) - Overview of all classes in this package
-- [All Classes Index](../../../index-all.md) - Complete class index
-| `java.lang.String` | `getLine(int index)`<br>Retrieves the specified line |
-| `int` | `getNumLines()`<br>Gets the total number of lines |
 
 ## Method Detail
 

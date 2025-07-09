@@ -88,7 +88,7 @@ Function for retrieving the properties of an object.
 ### getMethodDescriptors
 ```java
 PHXMethodDescriptor[] getMethodDescriptors()
-    throws java.lang.Exception
+                                    throws java.lang.Exception
 ```
 Function for retrieving the methods of an object.
 
