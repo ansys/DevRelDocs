@@ -12,7 +12,7 @@
 --- 
 **Declaration**
 
-```java
+```
 public class PHXInternationalize
 extends java.lang.Object
 ```
@@ -50,13 +50,13 @@ Helper class to do internationalization.
 
 ### PHXInternationalize
 
-```java
+```
 public PHXInternationalize(java.lang.Class relC)
 ```
 
 ### PHXInternationalize
 
-```java
+```
 public PHXInternationalize(java.lang.Object rel)
 ```
 Creates a new instance of PHXInternationalize
@@ -65,27 +65,27 @@ Creates a new instance of PHXInternationalize
 
 ### setTestMode
 
-```java
+```
 public static void setTestMode()
 ```
 In test mode it automatically prefixes all translations with some consistent garbage so that we can test that translating doesn't break anything.
 
 ### tr
 
-```java
+```
 public java.lang.String tr(java.lang.String id)
 ```
 
 ### tr
 
-```java
+```
 public java.lang.String tr(java.lang.String id, 
                            java.lang.Object... args)
 ```
 
 ### trLazy
 
-```java
+```
 public PHXInternationalize.InternationalizedMessage trLazy(java.lang.String id)
 ```
 Return a lazily instantiated translation message that can be computed only if needed.
@@ -98,7 +98,7 @@ Return a lazily instantiated translation message that can be computed only if ne
 
 ### trLazy
 
-```java
+```
 public PHXInternationalize.InternationalizedMessage trLazy(java.lang.String id, 
                                                            java.lang.Object... args)
 ```

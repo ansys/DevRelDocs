@@ -12,7 +12,7 @@
 ---
 **Declaration**
 
-```java
+```
 public class PHXDataCollector
 extends java.lang.Object
 ```
@@ -45,7 +45,7 @@ A class for Driver Components to tell ModelCenter what to do with the DataCollec
 
 ### collect
 
-```java
+```
 public boolean collect
 ```
 
@@ -53,7 +53,7 @@ public boolean collect
 
 ### PHXDataCollector
 
-```java
+```
 public PHXDataCollector()
 ```
 
@@ -61,6 +61,6 @@ public PHXDataCollector()
 
 ### getCollect
 
-```java
+```
 public boolean getCollect()
 ```

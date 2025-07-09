@@ -18,7 +18,7 @@
 
 **Declaration**
 
-```java
+```
 @Deprecated
 public class PHXFile
 extends PHXSimpleType
@@ -76,21 +76,21 @@ Internal data type used for certain types of files. End users should use [PHXRaw
 
 ### PHXFile
 
-```java
+```
 public PHXFile()
 ```
 Deprecated.
 
 ### PHXFile
 
-```java
+```
 public PHXFile(java.lang.String fileName)
 ```
 Deprecated.
 
 ### PHXFile
 
-```java
+```
 public PHXFile(java.lang.String baseName,
                java.lang.String name)
 ```
@@ -98,7 +98,7 @@ Deprecated.
 
 ### PHXFile
 
-```java
+```
 public PHXFile(PHXFile other)
 ```
 
@@ -111,7 +111,7 @@ Deprecated. Clone another PHXFile's value and metadata.
 
 ### getName
 
-```java
+```
 public java.lang.String getName()
 ```
 
@@ -122,7 +122,7 @@ Deprecated. Retrieves the name of the file.
 
 ### getNameCoded
 
-```java
+```
 public java.lang.String getNameCoded()
 ```
 
@@ -133,7 +133,7 @@ Deprecated. Retrieves the name of the file in coded form (without `$variables` r
 
 ### setName
 
-```java
+```
 public void setName(java.lang.String v)
 ```
 
@@ -144,7 +144,7 @@ Deprecated. Sets the name of the file.
 
 ### setBaseName
 
-```java
+```
 public void setBaseName(java.lang.String v)
 ```
 
@@ -155,7 +155,7 @@ Deprecated. Sets the base name of the file.
 
 ### setStringReplacer
 
-```java
+```
 public void setStringReplacer(PHXStringReplacer r)
 ```
 
@@ -166,7 +166,7 @@ Deprecated. Specifies a `PHXStringReplacer` object for use in forming the full f
 
 ### getContents
 
-```java
+```
 public java.lang.String getContents()
                              throws java.io.IOException
 ```
@@ -181,7 +181,7 @@ Deprecated. Retrieves the contents of the file.
 
 ### markAsRead
 
-```java
+```
 public void markAsRead()
 ```
 
@@ -189,7 +189,7 @@ Deprecated. Call this function after you manually get the contents of the file. 
 
 ### hasChanged
 
-```java
+```
 public boolean hasChanged()
 ```
 
@@ -200,7 +200,7 @@ Deprecated. Checks to see if the file has changed since the last time `getConten
 
 ### toString2
 
-```java
+```
 public PHXStringBuffer toString2()
 ```
 
@@ -211,7 +211,7 @@ Deprecated. Converts the variable to a string.
 
 ### toString
 
-```java
+```
 public java.lang.String toString()
 ```
 
@@ -228,7 +228,7 @@ Deprecated. Converts the variable to a string.
 
 ### fromString2
 
-```java
+```
 public void fromString2(PHXStringBuffer value)
 ```
 
@@ -239,7 +239,7 @@ Deprecated. Converts a PHXStringBuffer representation to the internal value.
 
 ### fromString
 
-```java
+```
 public void fromString(java.lang.String value)
 ```
 
@@ -250,7 +250,7 @@ Deprecated. Converts a String representation to the internal value.
 
 ### equalsNatural
 
-```java
+```
 public boolean equalsNatural(PHXSimpleType toCompare)
                       throws PHXTypeMismatchException
 ```
@@ -271,7 +271,7 @@ Deprecated. Compare this [PHXSimpleType](PHXSimpleType.md) to another [PHXSimple
 
 ### fromObject
 
-```java
+```
 public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
@@ -291,7 +291,7 @@ NOTE: while it might be logical to think you can create a `PHX(Type)Array` from,
 
 ### Accept
 
-```java
+```
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
 
@@ -308,7 +308,7 @@ Deprecated. Accept a Visitor.
 
 ### createCopy
 
-```java
+```
 public PHXFile createCopy()
 ```
 

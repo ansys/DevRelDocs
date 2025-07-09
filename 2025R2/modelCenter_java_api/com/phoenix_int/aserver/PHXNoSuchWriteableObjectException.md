@@ -15,7 +15,7 @@
 - `java.io.Serializable`
 
 **Declaration**
-```java
+```
 public class PHXNoSuchWriteableObjectException
 extends PHXNoSuchObjectException
 ```
@@ -42,7 +42,7 @@ An exception that the PHXObjectManager throws when it can't find an object.
 ## Constructor Detail
 
 ### PHXNoSuchWriteableObjectException
-```java
+```
 public PHXNoSuchWriteableObjectException(java.lang.String object)
 ```
 **Parameters:**

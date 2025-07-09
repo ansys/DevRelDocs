@@ -6,7 +6,7 @@
 
 **Declaration**
 
-```java
+```
 public interface IPHXStringReplacer
 ```
 
@@ -22,7 +22,7 @@ This is the interface for replacing strings, used by the PHXStringReplacer class
 
 ### getReplacement
 
-```java
+```
 java.lang.String getReplacement(java.lang.String s)
                          throws PHXNoSuchReplacementException
 ```

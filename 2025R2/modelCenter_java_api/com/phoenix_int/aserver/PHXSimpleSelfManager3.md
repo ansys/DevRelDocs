@@ -14,7 +14,7 @@
 - [`IPHXComponent`](IPHXComponent.md), com.phoenix_int.aserver.IPHXConnector, [`IPHXSelfManager`](IPHXSelfManager.md), [`IPHXSelfManager2`](IPHXSelfManager2.md), [`IPHXSelfManager3`](IPHXSelfManager3.md)
 
 **Declaration**
-```java
+```
 public class PHXSimpleSelfManager3
 extends PHXSimpleSelfManager2
 implements IPHXSelfManager3, com.phoenix_int.aserver.IPHXConnector
@@ -67,26 +67,26 @@ When extending this class, it may be worth investigating other interfaces to see
 ## Constructor Detail
 
 ### PHXSimpleSelfManager3
-```java
+```
 public PHXSimpleSelfManager3()
 ```
 
 ## Method Detail
 
 ### getRunShare2
-```java
+```
 public PHXRunShare getRunShare2()
 ```
 Return the run share object
 
 ### setRunShare2
-```java
+```
 public void setRunShare2(PHXRunShare rs)
 ```
 Sets the run share object
 
 ### setConnection
-```java
+```
 public void setConnection(com.phoenix_int.aserver.ascore.PHXConnection c)
 ```
 Sets the connection object
@@ -95,7 +95,7 @@ Sets the connection object
 - `setConnection` in interface `com.phoenix_int.aserver.IPHXConnector`
 
 ### getConnection
-```java
+```
 public com.phoenix_int.aserver.ascore.PHXConnection getConnection()
 ```
 Gets the connection object

@@ -19,7 +19,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXNoSuchAssociationException
 extends java.lang.Exception
 ```
@@ -54,7 +54,7 @@ An exception that is thrown when an invalid association is specified.
 
 ### PHXNoSuchAssociationException
 
-```java
+```
 public PHXNoSuchAssociationException(java.lang.String name)
 ```
 
@@ -65,7 +65,7 @@ public PHXNoSuchAssociationException(java.lang.String name)
 
 ### getInvalidAssociation
 
-```java
+```
 public java.lang.String getInvalidAssociation()
 ```
 Retrieves the name that was invalid

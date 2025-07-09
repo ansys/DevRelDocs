@@ -17,7 +17,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXBooleanArray
 extends PHXSimpleArray<PHXBoolean>
 ```
@@ -75,19 +75,19 @@ Class wraps an array of [PHXBoolean](PHXBoolean.md) variables for the ScriptWrap
 
 ### PHXBooleanArray
 
-```java
+```
 public PHXBooleanArray()
 ```
 
 ### PHXBooleanArray
 
-```java
+```
 public PHXBooleanArray(java.lang.Object data)
 ```
 
 ### PHXBooleanArray
 
-```java
+```
 public PHXBooleanArray(PHXBooleanArray other)
 ```
 
@@ -98,7 +98,7 @@ public PHXBooleanArray(PHXBooleanArray other)
 
 ### dataTypeOK
 
-```java
+```
 protected boolean dataTypeOK(java.lang.Class c)
 ```
 
@@ -109,7 +109,7 @@ Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md). Must overr
 
 ### allocateElement
 
-```java
+```
 protected java.lang.Object allocateElement(java.lang.Class elementClass)
                                     throws java.lang.IllegalAccessException, 
                                            java.lang.InstantiationException
@@ -126,7 +126,7 @@ Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md). Allocates 
 
 ### getValue
 
-```java
+```
 public PHXBoolean getValue(int[] index)
 ```
 
@@ -143,7 +143,7 @@ Gets the value of an element as a PHXBoolean object.
 
 ### getBooleanValue
 
-```java
+```
 public boolean getBooleanValue(int index)
 ```
 
@@ -160,7 +160,7 @@ Gets the value of an element as a boolean.
 
 ### getBooleanValue
 
-```java
+```
 public boolean getBooleanValue(int[] index)
 ```
 
@@ -174,7 +174,7 @@ Gets the value of an element as a boolean.
 
 ### setValue
 
-```java
+```
 public void setValue(int[] index, 
                      PHXBoolean val)
 ```
@@ -190,7 +190,7 @@ Sets the value of an element as a PHXBoolean object.
 
 ### setValue
 
-```java
+```
 public void setValue(int index, 
                      boolean val)
 ```
@@ -206,7 +206,7 @@ Sets the value of an element as a boolean.
 
 ### setValue
 
-```java
+```
 public void setValue(int[] index, 
                      boolean val)
 ```
@@ -219,7 +219,7 @@ Sets the value of an element as a boolean.
 
 ### elementFromString
 
-```java
+```
 protected java.lang.Object elementFromString(java.lang.String val)
 ```
 
@@ -230,7 +230,7 @@ Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md). Sub-classe
 
 ### fromObject
 
-```java
+```
 public void fromObject(java.lang.Object toRead)
   throws PHXInvalidTypeException
 ```
@@ -250,7 +250,7 @@ NOTE: while it might be logical to think you can create a `PHX(Type)Array` from,
 
 ### Accept
 
-```java
+```
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
 
@@ -267,7 +267,7 @@ Accept a Visitor.
 
 ### createCopy
 
-```java
+```
 public PHXBooleanArray createCopy()
 ```
 

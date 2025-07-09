@@ -11,7 +11,7 @@
 ---
 **Declaration**
 
-```java
+```
 public class PHXFileLoader
 extends java.lang.Object
 ```
@@ -20,7 +20,7 @@ This is a utility class for loading data files. The class makes it easy to load 
 
 Sample Usage:
 
-```java
+```
 PHXFileLoader fl;
 
 try {
@@ -68,7 +68,7 @@ fl.close();
 
 ### PHXFileLoader
 
-```java
+```
 public PHXFileLoader(java.lang.String fileName)
               throws java.io.IOException
 ```
@@ -79,18 +79,19 @@ public PHXFileLoader(java.lang.String fileName)
 
 ### PHXFileLoader
 
-```java
+```
 public PHXFileLoader(java.io.File file)
               throws java.io.IOException
 ```
 **Parameters:**
 - `file` - the file to load
+
 **Throws:**
 - `java.io.IOException` - if there is a problem opening the file
 
 ### PHXFileLoader
 
-```java
+```
 public PHXFileLoader(java.io.StringReader inStream)
               throws java.io.IOException
 ```
@@ -99,7 +100,7 @@ public PHXFileLoader(java.io.StringReader inStream)
 
 ### PHXFileLoader
 
-```java
+```
 public PHXFileLoader(java.io.InputStream inStream)
               throws java.io.IOException
 ```
@@ -110,7 +111,7 @@ public PHXFileLoader(java.io.InputStream inStream)
 
 ### finalize
 
-```java
+```
 public void finalize()
 ```
 
@@ -119,14 +120,14 @@ public void finalize()
 
 ### close
 
-```java
+```
 public void close()
 ```
 closes the file
 
 ### getFileName
 
-```java
+```
 public java.lang.String getFileName()
 ```
 retrieves the file name
@@ -136,7 +137,7 @@ retrieves the file name
 
 ### getLineNumber
 
-```java
+```
 public int getLineNumber()
 ```
 returns the line number of the last line read. Indexing starts at 1
@@ -146,7 +147,7 @@ returns the line number of the last line read. Indexing starts at 1
 
 ### nextLine
 
-```java
+```
 public java.lang.String nextLine()
 ```
 extracts the next non-comment line from the data file
@@ -156,7 +157,7 @@ extracts the next non-comment line from the data file
 
 ### readNextLine
 
-```java
+```
 public java.lang.String readNextLine()
 ```
 extracts the next line from the data file
@@ -166,7 +167,7 @@ extracts the next line from the data file
 
 ### getRemainder
 
-```java
+```
 public java.lang.String getRemainder()
 ```
 returns the rest of the file as a string

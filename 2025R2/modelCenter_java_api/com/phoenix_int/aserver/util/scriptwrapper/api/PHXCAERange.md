@@ -18,7 +18,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXCAERange
 extends java.lang.Object
 implements IPHXRange
@@ -57,7 +57,7 @@ implements IPHXRange
 
 ### NAME_SEPARATOR
 
-```java
+```
 public static final java.lang.String NAME_SEPARATOR
 ```
 
@@ -69,19 +69,19 @@ public static final java.lang.String NAME_SEPARATOR
 
 ### PHXCAERange
 
-```java
+```
 public PHXCAERange()
 ```
 
 ### PHXCAERange
 
-```java
+```
 public PHXCAERange(java.lang.String str)
 ```
 
 ### PHXCAERange
 
-```java
+```
 public PHXCAERange(java.lang.String pageName, 
                    java.lang.String str)
 ```
@@ -90,7 +90,7 @@ public PHXCAERange(java.lang.String pageName,
 
 ### fromString
 
-```java
+```
 public void fromString(java.lang.String str)
 ```
 
@@ -100,7 +100,7 @@ public void fromString(java.lang.String str)
 
 ### toString
 
-```java
+```
 public java.lang.String toString()
 ```
 
@@ -114,7 +114,7 @@ public java.lang.String toString()
 
 ### toString
 
-```java
+```
 public java.lang.String toString(boolean fullName)
 ```
 
@@ -124,7 +124,7 @@ public java.lang.String toString(boolean fullName)
 
 ### assertEquals
 
-```java
+```
 public void assertEquals(IPHXRange other)
                   throws java.lang.Exception
 ```
@@ -138,13 +138,13 @@ public void assertEquals(IPHXRange other)
 
 ### setPageName
 
-```java
+```
 public void setPageName(java.lang.String pageName)
 ```
 
 ### getPageName
 
-```java
+```
 public java.lang.String getPageName()
 ```
 

@@ -12,7 +12,7 @@
 ---
 ## Declaration
 
-```java
+```
 public interface InputFile
 extends ParseableFile
 ```
@@ -46,7 +46,7 @@ Interface for input files (not file variables) used in script-wrappers
 
 ### generate
 
-```java
+```
 void generate() 
        throws java.io.IOException, 
               com.phoenix_int.aserver.util.PHXInvalidFormatException, 
@@ -79,7 +79,7 @@ Generate the input file
 
 ### setFileToGenerate
 
-```java
+```
 void setFileToGenerate(java.lang.String fileName)
 ```
 Set the file to be generated

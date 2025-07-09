@@ -15,7 +15,7 @@
 ---
 **Declaration**
 
-```java
+```
 public class PHXSection
 extends java.lang.Object
 implements java.lang.Cloneable
@@ -56,7 +56,7 @@ implements java.lang.Cloneable
 
 ### owner
 
-```java
+```
 public java.lang.Object owner
 ```
 
@@ -64,7 +64,7 @@ public java.lang.Object owner
 
 ### PHXSection
 
-```java
+```
 public PHXSection(java.lang.String name,
                   PHXBookmark start,
                   PHXBookmark end,
@@ -76,61 +76,61 @@ Creates a new instance of `PHXSection`
 
 ### copy
 
-```java
+```
 public PHXSection copy()
 ```
 
 ### getName
 
-```java
+```
 public java.lang.String getName()
 ```
 
 ### setName
 
-```java
+```
 public void setName(java.lang.String name)
 ```
 
 ### getStart
 
-```java
+```
 public PHXBookmark getStart()
 ```
 
 ### setStart
 
-```java
+```
 public void setStart(PHXBookmark start)
 ```
 
 ### getEnd
 
-```java
+```
 public PHXBookmark getEnd()
 ```
 
 ### setEnd
 
-```java
+```
 public void setEnd(PHXBookmark end)
 ```
 
 ### getDelimiters
 
-```java
+```
 public java.lang.String getDelimiters()
 ```
 
 ### setDelimiters
 
-```java
+```
 public void setDelimiters(java.lang.String delimiters)
 ```
 
 ### assertEquals
 
-```java
+```
 public void assertEquals(PHXSection other)
                   throws java.lang.Exception
 ```

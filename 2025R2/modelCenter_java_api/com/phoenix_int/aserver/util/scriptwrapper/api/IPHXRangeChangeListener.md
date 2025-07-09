@@ -10,7 +10,7 @@
 ---
 **Declaration**
 
-```java
+```
 public interface IPHXRangeChangeListener
 ```
 
@@ -24,7 +24,7 @@ public interface IPHXRangeChangeListener
 
 ### onRangesChanged
 
-```java
+```
 void onRangesChanged(java.lang.Object var,
                      java.util.Vector<IPHXRange> rangesAdded,
                      java.util.Vector<IPHXRange> rangesRemoved)

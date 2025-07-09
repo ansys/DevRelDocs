@@ -23,7 +23,7 @@
 --- 
 **Declaration**
 
-```java
+```
 public class PHXRowFieldFile
 extends AbstractFile
 implements InputFile, OutputFile, OutputFile2
@@ -34,7 +34,7 @@ You will want to read the documentation on the fileWrapper utility for more spec
 
 Example usage from a java scriptwrapper (Comments show fileWrapper equivalents):
 
-```java
+```
   //RowFieldInputFile freqIN
   void rowFieldFreqIN(int mode)
       throws Exception
@@ -69,9 +69,9 @@ Example usage from a java scriptwrapper (Comments show fileWrapper equivalents):
 
 | Modifier and Type | Field and Description |
 |-------------------|----------------------|
-| `static int` | `GENERATE`<br>Deprecated. in favor of [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) |
-| `static int` | `PARSE`<br>Deprecated. in favor of [ParseableFile.Mode.PARSE](ParseableFile.Mode.md) |
-| `static int` | `READ_TEMPLATE`<br>Deprecated. in favor of [ParseableFile.Mode.READ_TEMPLATE](ParseableFile.Mode.md) |
+| `static int` | `GENERATE`<br>Deprecated in favor of [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) |
+| `static int` | `PARSE`<br>Deprecated in favor of [ParseableFile.Mode.PARSE](ParseableFile.Mode.md) |
+| `static int` | `READ_TEMPLATE`<br>Deprecated in favor of [ParseableFile.Mode.READ_TEMPLATE](ParseableFile.Mode.md) |
 
 ### Fields inherited from class com.phoenix_int.aserver.util.scriptwrapper.api.AbstractFile
 
@@ -82,7 +82,7 @@ Example usage from a java scriptwrapper (Comments show fileWrapper equivalents):
 | Constructor and Description |
 |----------------------------|
 | `PHXRowFieldFile(PHXScriptWrapperObject wrapper)`<br>Defaults to [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) |
-| `PHXRowFieldFile(PHXScriptWrapperObject wrapper, int mode)`<br>Deprecated. in favor of [PHXRowFieldFile(PHXScriptWrapperObject, ParseableFile.Mode)](PHXRowFieldFile.md) |
+| `PHXRowFieldFile(PHXScriptWrapperObject wrapper, int mode)`<br>Deprecated in favor of [PHXRowFieldFile(PHXScriptWrapperObject, ParseableFile.Mode)](PHXRowFieldFile.md) |
 | `PHXRowFieldFile(PHXScriptWrapperObject wrapper, ParseableFile.Mode mode)` |
 | `PHXRowFieldFile(java.lang.String baseDirectory, int mode)`<br>Legacy (pre-QW) constructor. |
 
@@ -142,30 +142,31 @@ Example usage from a java scriptwrapper (Comments show fileWrapper equivalents):
 
 ### GENERATE
 
-```java
+```
 @Deprecated
 public static final int GENERATE
 ```
-Deprecated. in favor of [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md)
+Deprecated in favor of [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md)
 
 This mode makes the row field file prepare to generate the output file by reading the template file, then replacing the specified values passed to `transferVar()`.
 
 ### PARSE
 
-```java
+```
 @Deprecated
 public static final int PARSE
 ```
-Deprecated. in favor of [ParseableFile.Mode.PARSE](ParseableFile.Mode.md)
+Deprecated in favor of [ParseableFile.Mode.PARSE](ParseableFile.Mode.md)
+
 This mode makes the row field file read in values from the `fileToParse` when `transferVar()` is called.
 
 ### READ_TEMPLATE
 
-```java
+```
 @Deprecated
 public static final int READ_TEMPLATE
 ```
-Deprecated. in favor of [ParseableFile.Mode.READ_TEMPLATE](ParseableFile.Mode.md)
+Deprecated in favor of [ParseableFile.Mode.READ_TEMPLATE](ParseableFile.Mode.md)
 
 This mode makes the row field file read in values from the template file when `transferVar()` is called.
 
@@ -173,7 +174,7 @@ This mode makes the row field file read in values from the template file when `t
 
 ### PHXRowFieldFile
 
-```java
+```
 public PHXRowFieldFile(PHXScriptWrapperObject wrapper)
 ```
 Defaults to [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md)
@@ -183,19 +184,19 @@ Defaults to [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md)
 
 ### PHXRowFieldFile
 
-```java
+```
 public PHXRowFieldFile(PHXScriptWrapperObject wrapper, 
                        ParseableFile.Mode mode)
 ```
 
 ### PHXRowFieldFile
 
-```java
+```
 @Deprecated
 public PHXRowFieldFile(PHXScriptWrapperObject wrapper, 
                        int mode)
 ```
-Deprecated. in favor of [PHXRowFieldFile(PHXScriptWrapperObject, ParseableFile.Mode)](PHXRowFieldFile.md)
+Deprecated in favor of [PHXRowFieldFile(PHXScriptWrapperObject, ParseableFile.Mode)](PHXRowFieldFile.md)
 
 **Parameters:**
 - `wrapper` - The row field file will find files relative to the run directory specified in this wrapper object.
@@ -203,7 +204,7 @@ Deprecated. in favor of [PHXRowFieldFile(PHXScriptWrapperObject, ParseableFile.M
 
 ### PHXRowFieldFile
 
-```java
+```
 public PHXRowFieldFile(java.lang.String baseDirectory, 
                        int mode)
 ```
@@ -219,7 +220,7 @@ Note: Using this constructor will make the resultant object incompatible with ce
 
 ### generate
 
-```java
+```
 public void generate()
               throws java.io.IOException,
                      com.phoenix_int.aserver.util.PHXInvalidFormatException,
@@ -239,17 +240,17 @@ Generate the input file
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 - `com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException`
 
 ### setFileToGenerate
 
-```java
+```
 public void setFileToGenerate(java.lang.String fileName)
 ```
 Set the file to be generated
@@ -262,7 +263,7 @@ Set the file to be generated
 
 ### parse
 
-```java
+```
 public void parse()
            throws java.io.IOException,
                   com.phoenix_int.aserver.util.PHXInvalidFormatException,
@@ -283,17 +284,17 @@ Parse the output file
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 - `com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException`
 
 ### setFileToParse
 
-```java
+```
 public void setFileToParse(java.lang.String fileName)
 ```
 Set the file to be parsed
@@ -307,7 +308,7 @@ Set the file to be parsed
 
 ### newParser
 
-```java
+```
 protected Parser newParser(java.io.File rFile, 
                            Parser.Mode pmode)
                     throws java.io.IOException
@@ -326,7 +327,7 @@ Generate a new parser for the given file and mode
 
 ### ensureFileParser
 
-```java
+```
 protected void ensureFileParser(ParseableFile.Mode mode)
                          throws java.io.IOException
 ```
@@ -343,7 +344,7 @@ Ensure there is a valid parser
 
 ### defineSection
 
-```java
+```
 public void defineSection(java.lang.String name, 
                           java.lang.String start, 
                           java.lang.String end, 
@@ -356,7 +357,7 @@ public void defineSection(java.lang.String name,
 
 ### defineBookmark
 
-```java
+```
 public void defineBookmark(java.lang.String name, 
                            java.lang.String parent, 
                            java.lang.String start)
@@ -364,7 +365,7 @@ public void defineBookmark(java.lang.String name,
 
 ### defineVar
 
-```java
+```
 public void defineVar(java.lang.String name, 
                       java.lang.String type, 
                       boolean isInput, 
@@ -375,13 +376,13 @@ public void defineVar(java.lang.String name,
 ```
 
 **Throws:**
-- `PHXNameAlreadyInUseException`
-- `PHXInvalidNameException`
-- `PHXInvalidTypeException`
+- [`PHXNameAlreadyInUseException`](../../../PHXNameAlreadyInUseException.md)
+- [`PHXInvalidNameException`](../../../PHXInvalidNameException.md)
+- [`PHXInvalidTypeException`](../../../types/PHXInvalidTypeException.md)
 
 ### defineVar
 
-```java
+```
 public void defineVar(java.lang.String name, 
                       java.lang.String type, 
                       boolean isInput, 
@@ -399,13 +400,13 @@ public void defineVar(java.lang.String name,
 ```
 
 **Throws:**
-- `PHXNameAlreadyInUseException`
-- `PHXInvalidNameException`
-- `PHXInvalidTypeException`
+- [`PHXNameAlreadyInUseException`](../../../PHXNameAlreadyInUseException.md)
+- [`PHXInvalidNameException`](../../../PHXInvalidNameException.md)
+- [`PHXInvalidTypeException`](../../../types/PHXInvalidTypeException.md)
 
 ### defineVar
 
-```java
+```
 public void defineVar(java.lang.String name, 
                       java.lang.String type, 
                       boolean isInput, 
@@ -424,13 +425,13 @@ public void defineVar(java.lang.String name,
 ```
 
 **Throws:**
-- `PHXNameAlreadyInUseException`
-- `PHXInvalidNameException`
-- `PHXInvalidTypeException`
+- [`PHXNameAlreadyInUseException`](../../../PHXNameAlreadyInUseException.md)
+- [`PHXInvalidNameException`](../../../PHXInvalidNameException.md)
+- [`PHXInvalidTypeException`](../../../types/PHXInvalidTypeException.md)
 
 ### transferVars
 
-```java
+```
 protected void transferVars(ParseableFile.Mode mode)
                      throws java.io.IOException,
                             com.phoenix_int.aserver.util.PHXInvalidFormatException,
@@ -454,17 +455,17 @@ Variables defined using [PHXScriptWrapperObject.addVariable(String, String, bool
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 - `com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException`
 
 ### transferVar
 
-```java
+```
 public void transferVar(PHXSimpleType var, 
                         int row, 
                         int field)
@@ -475,7 +476,7 @@ public void transferVar(PHXSimpleType var,
                         PHXSectionNotFoundException,
                         com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
-Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md), data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The variable to read or write
@@ -484,15 +485,15 @@ Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GEN
 
 **Throws:**
 - `java.io.IOException`
-- `PHXNoSuchTokenException`
-- `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 - `com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException`
 
 ### transferVar
 
-```java
+```
 public void transferVar(java.lang.String name, 
                         PHXSimpleType var, 
                         int row, 
@@ -507,15 +508,15 @@ public void transferVar(java.lang.String name,
 
 **Throws:**
 - `java.io.IOException`
-- `PHXNoSuchTokenException`
-- `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 - `com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException`
 
 ### transferVar
 
-```java
+```
 public void transferVar(PHXSimpleType var, 
                         int row, 
                         int field, 
@@ -528,7 +529,7 @@ public void transferVar(PHXSimpleType var,
                         PHXSectionNotFoundException,
                         com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
-Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md), data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The variable to read or write
@@ -539,16 +540,16 @@ Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GEN
 
 **Throws:**
 - `java.io.IOException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 - `com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException`
 
 ### transferVar
 
-```java
+```
 public void transferVar(java.lang.String name, 
                         PHXSimpleType var, 
                         int row, 
@@ -565,16 +566,16 @@ public void transferVar(java.lang.String name,
 
 **Throws:**
 - `java.io.IOException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNumberFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 - `com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException`
 
 ### transferArray
 
-```java
+```
 public void transferArray(PHXSimpleArray var, 
                           int rowstart, 
                           int rowend, 
@@ -587,7 +588,7 @@ public void transferArray(PHXSimpleArray var,
                           java.lang.InstantiationException,
                           PHXNumberFormatException
 ```
-Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md), data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The array to read or write
@@ -599,14 +600,14 @@ Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERA
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
 
 ### transferArray
 
-```java
+```
 public void transferArray(PHXSimpleArray var, 
                           int rowstart, 
                           int rowend, 
@@ -620,7 +621,7 @@ public void transferArray(PHXSimpleArray var,
                           java.lang.InstantiationException,
                           PHXNumberFormatException
 ```
-Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md), data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The array to read or write
@@ -633,14 +634,14 @@ Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERA
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
 
 ### transferArray
 
-```java
+```
 public void transferArray(PHXSimpleArray var, 
                           int rowstart, 
                           int rowend, 
@@ -649,13 +650,13 @@ public void transferArray(PHXSimpleArray var,
                           boolean resizable, 
                           java.lang.String fformat)
                    throws java.io.IOException,
-                        com.phoenix_int.aserver.util.PHXInvalidFormatException,
+                          com.phoenix_int.aserver.util.PHXInvalidFormatException,
                           PHXNoSuchTokenException,
                           java.lang.IllegalAccessException,
                           java.lang.InstantiationException,
                           PHXNumberFormatException
 ```
-Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md), data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The array to read or write
@@ -669,14 +670,14 @@ Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERA
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
 
 ### transferArray
 
-```java
+```
 public void transferArray(PHXSimpleArray var, 
                           int rowstart, 
                           int rowend, 
@@ -692,7 +693,7 @@ public void transferArray(PHXSimpleArray var,
                           java.lang.InstantiationException,
                           PHXNumberFormatException
 ```
-Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md), data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The array to read or write
@@ -707,14 +708,14 @@ Transfers the data for a particular array. If mode is [ParseableFile.Mode.GENERA
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
-- `PHXNumberFormatException`
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
 
 ### transferKeyVar
 
-```java
+```
 public void transferKeyVar(PHXSimpleType var, 
                            java.lang.String key)
                     throws java.io.IOException,
@@ -722,7 +723,7 @@ public void transferKeyVar(PHXSimpleType var,
                            PHXNoSuchTokenException,
                            PHXNumberFormatException
 ```
-Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md), data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The variable to read or write
@@ -731,12 +732,12 @@ Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GEN
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
-- `PHXNumberFormatException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
 
 ### transferKeyVar
 
-```java
+```
 public void transferKeyVar(PHXSimpleType var, 
                            java.lang.String key, 
                            int occurrence, 
@@ -748,7 +749,7 @@ public void transferKeyVar(PHXSimpleType var,
                            PHXNoSuchTokenException,
                            PHXNumberFormatException
 ```
-Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md) data is read from the var and put into the file, otherwise data is read from the file into the variable.
+Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GENERATE](ParseableFile.Mode.md), data is read from the var and put into the file, otherwise data is read from the file into the variable.
 
 **Parameters:**
 - `var` - The variable to read or write
@@ -761,12 +762,12 @@ Transfers the data for a particular variable. If mode is [ParseableFile.Mode.GEN
 **Throws:**
 - `java.io.IOException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXNoSuchTokenException`
-- `PHXNumberFormatException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
+- [`PHXNumberFormatException`](../../../types/PHXNumberFormatException.md)
 
 ### readValue
 
-```java
+```
 public java.lang.String readValue(int row, 
                                   int field)
                            throws java.io.IOException,
@@ -785,15 +786,15 @@ Reads a value out of the input file. If mode is [ParseableFile.Mode.PARSE](Parse
 **Throws:**
 - `java.lang.IllegalArgumentException`- This function does not work if `setDelimiters("columns")` has been specified.
 - `java.io.IOException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 - `com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException`
 
 ### readLong
 
-```java
+```
 public long readLong(int row, 
                      int field)
               throws java.io.IOException,
@@ -813,16 +814,16 @@ Reads a value out of the input file. If mode is [ParseableFile.Mode.PARSE](Parse
 **Throws:**
 - `java.lang.IllegalArgumentException`- This function does not work if `setDelimiters("columns")` has been specified.
 - `java.io.IOException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.NumberFormatException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 - `com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException`
 
 ### readDouble
 
-```java
+```
 public double readDouble(int row, 
                          int field)
                   throws java.io.IOException,
@@ -842,16 +843,16 @@ Reads a value out of the input file. If mode is [ParseableFile.Mode.PARSE](Parse
 **Throws:**
 - `java.lang.IllegalArgumentException`- This function does not work if `setDelimiters("columns") `has been specified.
 - `java.io.IOException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 - `java.lang.NumberFormatException`
 - `com.phoenix_int.aserver.util.PHXInvalidFormatException`
-- `PHXBookmarkNotFoundException`
-- `PHXSectionNotFoundException`
+- [`PHXBookmarkNotFoundException`](PHXBookmarkNotFoundException.md)
+- [`PHXSectionNotFoundException`](PHXSectionNotFoundException.md)
 - `com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException`
 
 ### writeValue
 
-```java
+```
 public void writeValue(int row, 
                        int field, 
                        java.lang.String val)
@@ -868,11 +869,11 @@ Writes a token out to the output file. This is only useful if mode is [Parseable
 **Throws:**
 - `java.lang.IllegalArgumentException`- This function does not work if `setDelimiters("columns")` has been specified.
 - `java.io.IOException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 
 ### setDelimiters
 
-```java
+```
 public void setDelimiters(java.lang.String delimiters)
                    throws java.io.IOException
 ```
@@ -892,7 +893,7 @@ Acceptable values:
 
 ### setDecimalSeparator
 
-```java
+```
 public void setDecimalSeparator(char separator)
 ```
 Set decimal separator for floating point value literals.
@@ -902,7 +903,7 @@ Set decimal separator for floating point value literals.
 
 ### clearMarks
 
-```java
+```
 public void clearMarks()
                 throws java.io.IOException
 ```
@@ -913,7 +914,7 @@ Removes effects of any previous `markAsBeginning()` or `markAsEnd()` calls
 
 ### markAsBeginning
 
-```java
+```
 public void markAsBeginning(java.lang.String find)
                      throws java.io.IOException,
                             PHXNoSuchTokenException
@@ -922,11 +923,11 @@ Searches for the specified string and makes the row where the string was found a
 
 **Throws:**
 - `java.io.IOException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 
 ### markAsBeginning
 
-```java
+```
 public void markAsBeginning(java.lang.String find, 
                             int occurrence, 
                             int offset, 
@@ -944,11 +945,11 @@ Searches for the specified string and makes the row where the string was found a
 
 **Throws:**
 - `java.io.IOException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 
 ### markAsBeginning
 
-```java
+```
 public void markAsBeginning(int row)
                      throws java.io.IOException,
                             PHXNoSuchTokenException
@@ -960,11 +961,11 @@ Makes the specified row act as row 1 for all subsequent calls until another `mar
 
 **Throws:**
 - `java.io.IOException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 
 ### markAsEnd
 
-```java
+```
 public void markAsEnd(java.lang.String find)
                throws java.io.IOException,
                       PHXNoSuchTokenException
@@ -976,11 +977,11 @@ Searches for the specified string, starting from the end of the file and working
 
 **Throws:**
 - `java.io.IOException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 
 ### markAsEnd
 
-```java
+```
 public void markAsEnd(java.lang.String find, 
                       int occurrence, 
                       int offset, 
@@ -998,11 +999,11 @@ Searches for the specified string and makes the row where the string was found a
 
 **Throws:**
 - `java.io.IOException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)
 
 ### markAsEnd
 
-```java
+```
 public void markAsEnd(int row)
                throws java.io.IOException,
                       PHXNoSuchTokenException
@@ -1014,4 +1015,4 @@ Makes the specified row act as row -1 (end of file) for all subsequent calls unt
 
 **Throws:**
 - `java.io.IOException`
-- `PHXNoSuchTokenException`
+- [`PHXNoSuchTokenException`](../../PHXNoSuchTokenException.md)

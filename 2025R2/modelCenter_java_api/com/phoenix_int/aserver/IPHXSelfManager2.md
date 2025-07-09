@@ -12,7 +12,7 @@
 - [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md), [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md)
 
 **Declaration**
-```java
+```
 public interface IPHXSelfManager2
     extends IPHXSelfManager
 ```
@@ -35,7 +35,7 @@ This interface extends [`IPHXSelfManager`](IPHXSelfManager.md) and provides new 
 ## Method Detail
 
 ### getValue2
-```java
+```
 java.lang.Object getValue2(java.lang.String name)
                     throws PHXNoSuchObjectException, 
                            java.lang.Exception
@@ -53,7 +53,7 @@ Function for retrieving a specified value.
 - `java.lang.Exception` - an exception that may occur
 
 ### setValue2
-```java
+```
 void setValue2(java.lang.String name, 
                PHXStringBuffer value)
         throws PHXNoSuchObjectException, 

@@ -20,7 +20,7 @@
 --- 
 **Declaration**
 
-```java
+```
 public static enum Parser.Mode
 extends java.lang.Enum<Parser.Mode>
 ```
@@ -65,19 +65,19 @@ File-access mode. Moved to type-safe enum from legacy integer constants.
 
 ### RANDOM
 
-```java
+```
 public static final Parser.Mode RANDOM
 ```
 
 ### BUFFERED
 
-```java
+```
 public static final Parser.Mode BUFFERED
 ```
 
 ### AUTOMATIC
 
-```java
+```
 public static final Parser.Mode AUTOMATIC
 ```
 
@@ -85,7 +85,7 @@ public static final Parser.Mode AUTOMATIC
 
 ### FILE_SIZE_LIMIT
 
-```java
+```
 public static final long FILE_SIZE_LIMIT
 ```
 
@@ -96,12 +96,12 @@ public static final long FILE_SIZE_LIMIT
 
 ### values
 
-```java
+```
 public static Parser.Mode[] values()
 ```
 Returns an array containing the constants of this enum type, in the order they are declared.  This method may be used to iterate over the constants as follows:
 
-```java
+```
 for (Parser.Mode c : Parser.Mode.values())
      System.out.println(c);
 ```
@@ -111,7 +111,7 @@ for (Parser.Mode c : Parser.Mode.values())
 
 ### valueOf
 
-```java
+```
 public static Parser.Mode valueOf(java.lang.String name)
 ```
 Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)
@@ -128,7 +128,7 @@ Returns the enum constant of this type with the specified name. The string must 
 
 ### getCode
 
-```java
+```
 public int getCode()
 ```
 Retrieve the legacy integer code assigned to this access mode
@@ -138,7 +138,7 @@ Retrieve the legacy integer code assigned to this access mode
 
 ### newLineStore
 
-```java
+```
 public IPHXLineStore newLineStore(java.io.File file)
                            throws java.io.IOException
 ```
@@ -148,7 +148,7 @@ public IPHXLineStore newLineStore(java.io.File file)
 
 ### newLineStore
 
-```java
+```
 public IPHXLineStore newLineStore(java.io.File file, 
                                   com.phoenix_int.util.PHXFileUtils.Encoding encoding)
                            throws java.io.IOException
@@ -159,7 +159,7 @@ public IPHXLineStore newLineStore(java.io.File file,
 
 ### newLineStore
 
-```java
+```
 public abstract IPHXLineStore newLineStore(java.io.File file, 
                                            com.phoenix_int.util.PHXFileUtils.Encoding encoding, 
                                            com.phoenix_int.util.IProgressListener progress)
@@ -178,6 +178,6 @@ Create a new line store consistent with the file-access mode
 
 ### fromCode
 
-```java
+```
 public static Parser.Mode fromCode(int code)
 ```

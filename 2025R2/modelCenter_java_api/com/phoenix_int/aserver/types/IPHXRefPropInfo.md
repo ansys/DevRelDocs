@@ -13,7 +13,7 @@
 
 **Declaration**
 
-```java
+```
 public interface IPHXRefPropInfo
 extends IPHXDescription
 ```
@@ -47,14 +47,13 @@ where type may be any of the following:
 | `void`                | `setTitle(java.lang.String value)` <br>sets a title of the ref prop|
 
 ### Methods inherited from interface com.phoenix_int.aserver.types.IPHXDescription
-- `getDescription`
-- `setDescription`
+`getDescription`, `setDescription`
 
 ## Method Detail
 
 ### getName
 
-```java
+```
 java.lang.String getName()
 ```
 retrieves the name of the variable
@@ -64,7 +63,7 @@ retrieves the name of the variable
 
 ### getType
 
-```java
+```
 java.lang.String getType()
 ```
 retrieves the current type of the variable
@@ -74,7 +73,7 @@ retrieves the current type of the variable
 
 ### getTitle
 
-```java
+```
 java.lang.String getTitle()
 ```
 retrieves a title of the ref prop. Used by ModelCenter when displaying the variable in certain dialogs
@@ -84,7 +83,7 @@ retrieves a title of the ref prop. Used by ModelCenter when displaying the varia
 
 ### setTitle
 
-```java
+```
 void setTitle(java.lang.String value)
 ```
 sets a title of the ref prop
@@ -94,7 +93,7 @@ sets a title of the ref prop
 
 ### getInput
 
-```java
+```
 boolean getInput()
 ```
 retrieves an indicator of whether the ref prop is an input or an output. If it's an output, the driver component will calculate a value for it.
@@ -104,7 +103,7 @@ retrieves an indicator of whether the ref prop is an input or an output. If it's
 
 ### setInput
 
-```java
+```
 void setInput(boolean value)
 ```
 sets an indicator for the ref prop
@@ -114,7 +113,7 @@ sets an indicator for the ref prop
 
 ### getEnumValues
 
-```java
+```
 java.lang.String[] getEnumValues()
 ```
 lists enum values
@@ -124,7 +123,7 @@ lists enum values
 
 ### setEnumValues
 
-```java
+```
 void setEnumValues(java.lang.String[] enumValues)
 ```
 sets the enum values
@@ -134,6 +133,6 @@ sets the enum values
 
 ### enumValuesFromString
 
-```java
+```
 void enumValuesFromString(java.lang.String enumValues)
 ```

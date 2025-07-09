@@ -14,7 +14,7 @@
 - `java.io.Serializable`
 
 **Declaration**
-```java
+```
 public class PHXDFTException
 extends java.lang.Exception
 ```
@@ -35,6 +35,6 @@ This exception is thrown for errors related to Direct File Transfer (DFT) operat
 ## Constructor Detail
 
 ### PHXDFTException
-```java
+```
 public PHXDFTException(java.lang.String msg)
 ```

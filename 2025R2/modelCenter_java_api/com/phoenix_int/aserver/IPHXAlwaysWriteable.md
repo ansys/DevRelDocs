@@ -9,7 +9,7 @@
 - [`PHXPropertyDescriptor`](PHXPropertyDescriptor.md)
 
 **Declaration**
-```java
+```
 public interface IPHXAlwaysWriteable
 ```
 

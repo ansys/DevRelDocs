@@ -17,7 +17,7 @@
 --- 
 ## Declaration
 
-```java
+```
 public class CAEOutputFile
 extends AbstractFile
 implements OutputFile2
@@ -72,7 +72,7 @@ This represents a binary output file from a CAE program such as NASTRAN or LSDyn
 
 ### CAEOutputFile
 
-```java
+```
 public CAEOutputFile(PHXScriptWrapperObject wrapper, 
                      java.io.File file, 
                      FileType type) 
@@ -84,7 +84,7 @@ public CAEOutputFile(PHXScriptWrapperObject wrapper,
 
 ### CAEOutputFile
 
-```java
+```
 public CAEOutputFile(PHXScriptWrapperObject wrapper, 
                      java.io.File file) 
               throws PHXLicenseException
@@ -97,12 +97,12 @@ public CAEOutputFile(PHXScriptWrapperObject wrapper,
 
 ### defineArrayVar
 
-```java
+```
 public void defineArrayVar(java.lang.String name, 
                            java.lang.String specifier) 
                     throws PHXNameAlreadyInUseException, 
-                    PHXInvalidNameException, 
-                    PHXInvalidTypeException
+                           PHXInvalidNameException, 
+                           PHXInvalidTypeException
 ```
 
 **Throws:**
@@ -113,7 +113,7 @@ public void defineArrayVar(java.lang.String name,
 
 ### defineVar
 
-```java
+```
 public void defineVar(java.lang.String name, 
                       java.lang.String specifier) 
                throws PHXNameAlreadyInUseException, 
@@ -129,7 +129,7 @@ public void defineVar(java.lang.String name,
 
 ### parse
 
-```java
+```
 public void parse() throws java.lang.Exception
 ```
 Parse the output file
@@ -142,7 +142,7 @@ Parse the output file
 
 ### newParser
 
-```java
+```
 protected Parser newParser(java.io.File rFile, 
                            Parser.Mode pmode) 
                     throws java.io.IOException
@@ -162,7 +162,7 @@ Generate a new parser for the given file and mode
 
 ### transferVars
 
-```java
+```
 protected void transferVars(ParseableFile.Mode mode) 
                      throws java.io.IOException, 
                             com.phoenix_int.aserver.util.PHXInvalidFormatException, 
@@ -188,7 +188,7 @@ Transfer values for variables that have been defined using methods from the conc
 
 ### setFileToParse
 
-```java
+```
 public void setFileToParse(java.lang.String fileName)
 ```
 Set the file to parse

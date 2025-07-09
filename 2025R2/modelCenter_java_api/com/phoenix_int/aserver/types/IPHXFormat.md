@@ -13,7 +13,7 @@
 
 **Declaration**
 
-```java
+```
 public interface IPHXFormat
 ```
 
@@ -21,7 +21,7 @@ Interface for variables that support formats.
 
 Example usage:
 
-```java
+```
 IPHXType var = wrapper.getVariable("myVar");
 if (var instanceof IPHXFormat)
 {
@@ -41,7 +41,7 @@ if (var instanceof IPHXFormat)
 
 ### getFormat
 
-```java
+```
 java.lang.String getFormat()
 ```
 Get the format string for the variable
@@ -51,7 +51,7 @@ Get the format string for the variable
 
 ### hasFormat
 
-```java
+```
 boolean hasFormat()
 ```
 Whether or not the variable has a format
@@ -61,7 +61,7 @@ Whether or not the variable has a format
 
 ### setFormat
 
-```java
+```
 void setFormat(java.lang.String format)
 ```
 Set the format string for the variable

@@ -19,7 +19,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXSectionNotFoundException
 extends java.lang.Exception
 ```
@@ -47,6 +47,6 @@ extends java.lang.Exception
 
 ### PHXSectionNotFoundException
 
-```java
+```
 public PHXSectionNotFoundException(java.lang.String sectionName)
 ```

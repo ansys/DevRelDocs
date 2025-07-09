@@ -18,7 +18,7 @@
 --- 
 **Declaration**
 
-```java
+```
 public class PHXInvalidTypeException
 extends java.lang.Exception
 ```
@@ -50,7 +50,7 @@ An exception that is thrown when trying to use a bad type
 
 ### PHXInvalidTypeException
 
-```java
+```
 public PHXInvalidTypeException(java.lang.String type)
 ```
 Create an invalid type exception
@@ -60,7 +60,7 @@ Create an invalid type exception
 
 ### PHXInvalidTypeException
 
-```java
+```
 public PHXInvalidTypeException(java.lang.String type,
                                java.lang.Throwable cause)
 ```

@@ -22,7 +22,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXMonitorableStream.MonitorWriter
 extends java.io.Writer
 ```
@@ -50,7 +50,7 @@ extends java.io.Writer
 
 ### flush
 
-```java
+```
 public void flush()
 ```
 
@@ -60,7 +60,7 @@ public void flush()
 
 ### close
 
-```java
+```
 public void close()
 ```
 
@@ -71,7 +71,7 @@ public void close()
 
 ### write
 
-```java
+```
 public void write(char[] buf, 
                   int pos, 
                   int len)

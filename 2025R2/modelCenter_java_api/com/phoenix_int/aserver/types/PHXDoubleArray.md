@@ -19,7 +19,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXDoubleArray
 extends PHXSimpleArray<PHXDouble>
 implements IPHXFormat
@@ -105,19 +105,19 @@ Class wraps an array of [PHXDouble](PHXDouble.md) variables for the ScriptWrappe
 
 ### PHXDoubleArray
 
-```java
+```
 public PHXDoubleArray()
 ```
 
 ### PHXDoubleArray
 
-```java
+```
 public PHXDoubleArray(java.lang.Object data)
 ```
 
 ### PHXDoubleArray
 
-```java
+```
 public PHXDoubleArray(PHXDoubleArray other)
 ```
 
@@ -130,7 +130,7 @@ Clone another PHXDoubleArray's value and metadata.
 
 ### dataTypeOK
 
-```java
+```
 protected boolean dataTypeOK(java.lang.Class c)
 ```
 
@@ -143,7 +143,7 @@ Must override this function and return true if the specified class is acceptable
 
 ### allocateElement
 
-```java
+```
 protected java.lang.Object allocateElement(java.lang.Class elementClass)
                                     throws java.lang.IllegalAccessException, 
                                            java.lang.InstantiationException
@@ -162,7 +162,7 @@ Allocates a single element in a default state. If the class type in question has
 
 ### setUpperBound
 
-```java
+```
 public void setUpperBound(double value)
 ```
 
@@ -173,7 +173,7 @@ Sets the upper bound. The `hasUpperBound` value is set to true.
 
 ### getUpperBound
 
-```java
+```
 public double getUpperBound()
 ```
 
@@ -187,7 +187,7 @@ Retrieves the current upper bound value.
 
 ### setLowerBound
 
-```java
+```
 public void setLowerBound(double value)
 ```
 
@@ -198,7 +198,7 @@ Sets the lower bound. The `hasLowerBound` value is set to true.
 
 ### getLowerBound
 
-```java
+```
 public double getLowerBound()
 ```
 
@@ -209,7 +209,7 @@ Retrieves the current lower bound value.
 
 ### setHasUpperBound
 
-```java
+```
 public void setHasUpperBound(boolean value)
 ```
 
@@ -220,7 +220,7 @@ Sets the `hasUpperBound` flag.
 
 ### getHasUpperBound
 
-```java
+```
 public boolean getHasUpperBound()
 ```
 
@@ -231,7 +231,7 @@ Retrieves the `hasUpperBound` flag.
 
 ### setHasLowerBound
 
-```java
+```
 public void setHasLowerBound(boolean value)
 ```
 
@@ -242,7 +242,7 @@ Sets the `hasLowerBound` flag.
 
 ### getHasLowerBound
 
-```java
+```
 public boolean getHasLowerBound()
 ```
 
@@ -253,7 +253,7 @@ Retrieves the `hasLowerBound` flag.
 
 ### setEnumValues
 
-```java
+```
 public void setEnumValues(java.lang.String values)
 ```
 
@@ -264,7 +264,7 @@ Takes a comma separated string of values and fills the enumeration List with val
 
 ### setEnumValues
 
-```java
+```
 public void setEnumValues(double[] values)
 ```
 
@@ -275,7 +275,7 @@ Sets the enumeration list of valid values.
 
 ### getEnumValues
 
-```java
+```
 public double[] getEnumValues()
 ```
 
@@ -286,7 +286,7 @@ An interface function for the enumeration array.
 
 ### getEnumValuesStr
 
-```java
+```
 public java.lang.String getEnumValuesStr()
 ```
 
@@ -297,7 +297,7 @@ Interface function to pass out the enumeration array as a comma separated string
 
 ### setEnumAliases
 
-```java
+```
 public void setEnumAliases(java.lang.String values)
 ```
 
@@ -308,7 +308,7 @@ Takes a comma separated string of values and fills the enumeration aliases list 
 
 ### setEnumAliases
 
-```java
+```
 public void setEnumAliases(java.lang.String[] values)
 ```
 
@@ -319,7 +319,7 @@ Sets the enumeration aliases list.
 
 ### getEnumAliases
 
-```java
+```
 public java.lang.String[] getEnumAliases()
 ```
 
@@ -330,7 +330,7 @@ An interface function for the enumeration array.
 
 ### getEnumAliasesStr
 
-```java
+```
 public java.lang.String getEnumAliasesStr()
 ```
 
@@ -341,7 +341,7 @@ An interface function for the enumeration array.
 
 ### setFormat
 
-```java
+```
 public void setFormat(java.lang.String format)
 ```
 
@@ -355,7 +355,7 @@ Set the format string for the variable.
 
 ### getFormat
 
-```java
+```
 public java.lang.String getFormat()
 ```
 
@@ -369,7 +369,7 @@ Get the format string for the variable.
 
 ### hasFormat
 
-```java
+```
 public boolean hasFormat()
 ```
 
@@ -383,7 +383,7 @@ Whether or not the variable has a format.
 
 ### _setMetaData
 
-```java
+```
 protected void _setMetaData(PHXSimpleType v2)
 ```
 
@@ -396,7 +396,7 @@ Sets a simple type's meta data based on the meta data in this object. Override t
 
 ### _getMetaData
 
-```java
+```
 protected void _getMetaData([PHXSimpleType](PHXSimpleType.md) v2)
 ```
 
@@ -409,7 +409,7 @@ Worker which takes the meta data from an instance of [PHXSimpleType](PHXSimpleTy
 
 ### getValue
 
-```java
+```
 public PHXDouble getValue(int[] index)
 ```
 
@@ -426,7 +426,7 @@ Gets an element as a [PHXDouble](PHXDouble.md) object.
 
 ### getDoubleValue
 
-```java
+```
 public double getDoubleValue(int index)
 ```
 
@@ -443,7 +443,7 @@ Gets an element as a double.
 
 ### getDoubleValue
 
-```java
+```
 public double getDoubleValue(int[] index)
 ```
 
@@ -457,7 +457,7 @@ Gets an element as a double.
 
 ### setValue
 
-```java
+```
 public void setValue(int[] index, 
                      PHXDouble val)
 ```
@@ -473,7 +473,7 @@ Sets an element as a [PHXDouble](PHXDouble.md) object.
 
 ### setValue
 
-```java
+```
 public void setValue(int index, 
                      double val)
 ```
@@ -486,7 +486,7 @@ Sets an element as a double.
 
 ### setValue
 
-```java
+```
 public void setValue(int[] index, 
                      double val)
 ```
@@ -499,7 +499,7 @@ Sets an element as a double.
 
 ### elementFromString
 
-```java
+```
 protected java.lang.Object elementFromString(java.lang.String val)
 ```
 
@@ -512,44 +512,44 @@ Sub-classes must provide an implementation of this function which converts a str
 
 ### getMax
 
-```java
+```
 public double getMax()
 ```
 
 ### getMin
 
-```java
+```
 public double getMin()
 ```
 
 ### getAvg
 
-```java
+```
 public double getAvg()
 ```
 
 ### sortReverse
 
-```java
+```
 public void sortReverse()
 ```
 
 ### sort
 
-```java
+```
 public void sort()
 ```
 
 ### _sort
 
-```java
+```
 public void _sort(PHXDoubleArray array, 
                   boolean ascend)
 ```
 
 ### fromObject
 
-```java
+```
 public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
@@ -569,7 +569,7 @@ NOTE: while it might be logical to think you can create a `PHX(Type)Array` from,
 
 ### Accept
 
-```java
+```
 public <T> T Accept([IPHXType2](IPHXType2.md).IVisitor<T> visitor)
 ```
 
@@ -589,7 +589,7 @@ Accept a Visitor.
 
 ### createCopy
 
-```java
+```
 public PHXDoubleArray createCopy()
 ```
 

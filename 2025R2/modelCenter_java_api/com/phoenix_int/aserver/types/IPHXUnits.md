@@ -27,7 +27,7 @@
 ---
 
 **Declaration**
-```java
+```
 public interface IPHXUnits
 ```
 
@@ -35,7 +35,7 @@ Interface for PHX variables that support units.
 
 #### Example usage:
 
-```java
+```
 IPHXType var = wrapper.getVariable("myVar");
 if (var instanceof IPHXUnits)
 {
@@ -54,7 +54,7 @@ if (var instanceof IPHXUnits)
 
 ### getUnits
 
-```java
+```
 java.lang.String getUnits()
 ```
 Get the units string for the variable.
@@ -64,7 +64,7 @@ Get the units string for the variable.
 
 ### setUnits
 
-```java
+```
 void setUnits(java.lang.String units)
 ```
 Set the units string for the variable.

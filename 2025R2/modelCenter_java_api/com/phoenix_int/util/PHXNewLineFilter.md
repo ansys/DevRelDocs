@@ -18,7 +18,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXNewLineFilter
 extends java.io.Reader
 ```
@@ -56,7 +56,7 @@ Implementation of a FilterReader that processes out newlines into Java style new
 
 ### PHXNewLineFilter
 
-```java
+```
 public PHXNewLineFilter(java.io.Reader in)
 ```
 Creates a new instance of PHXNewLineFilter
@@ -65,7 +65,7 @@ Creates a new instance of PHXNewLineFilter
 
 ### close
 
-```java
+```
 public void close()
            throws java.io.IOException
 ```
@@ -80,7 +80,7 @@ public void close()
 
 ### read
 
-```java
+```
 public int read(char[] cbuf, 
                 int off, 
                 int len)

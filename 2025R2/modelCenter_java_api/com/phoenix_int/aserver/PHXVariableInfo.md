@@ -9,7 +9,7 @@
 ```
 
 **Declaration**
-```java
+```
 public class PHXVariableInfo
 extends java.lang.Object
 ```
@@ -40,13 +40,13 @@ This is a utility class for holding parsing information about a variable.
 ## Constructor Detail
 
 ### PHXVariableInfo
-```java
+```
 public PHXVariableInfo()
 ```
 Creates an uninitialized object. Initialize must be called before any of the methods will work properly.
 
 ### PHXVariableInfo
-```java
+```
 public PHXVariableInfo(java.lang.String name, boolean input, java.lang.Object var)
     throws PHXInvalidNameException
 ```
@@ -60,7 +60,7 @@ public PHXVariableInfo(java.lang.String name, boolean input, java.lang.Object va
 ## Method Detail
 
 ### initialize
-```java
+```
 public void initialize(java.lang.String name, boolean input, java.lang.Object var)
     throws PHXInvalidNameException
 ```
@@ -74,26 +74,26 @@ Initializes the variable
 - [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name contains invalid characters
 
 ### getName
-```java
+```
 public java.lang.String getName()
 ```
 
 ### isInput
-```java
+```
 public boolean isInput()
 ```
 
 ### getVariable
-```java
+```
 public java.lang.Object getVariable()
 ```
 
 ### setVariable
-```java
+```
 public void setVariable(java.lang.Object var)
 ```
 
 ### getType
-```java
+```
 public java.lang.String getType()
 ```

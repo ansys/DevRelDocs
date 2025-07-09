@@ -13,7 +13,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXNameDivider
 extends java.lang.Object
 ```
@@ -21,7 +21,7 @@ extends java.lang.Object
 This is a utility class for breaking down names into smaller parts.
 
 Usage:
-```java
+```
 String fullName = "phoenix/NAVY/IBHVG2";
 String category = PHXNameDivider.getPathPart(fullName);
 String name = PHXNameDivider.getNamePart(fullName);
@@ -49,7 +49,7 @@ String name = PHXNameDivider.getNamePart(fullName);
 
 ### PHXNameDivider
 
-```java
+```
 public PHXNameDivider()
 ```
 
@@ -57,7 +57,7 @@ public PHXNameDivider()
 
 ### getPathPart
 
-```java
+```
 public static java.lang.String getPathPart(java.lang.String fullName)
 ```
 Retrieves the path part from a full name.
@@ -70,7 +70,7 @@ Retrieves the path part from a full name.
 
 ### getNamePart
 
-```java
+```
 public static java.lang.String getNamePart(java.lang.String fullName)
 ```
 Retrieves the name part from a full name.
@@ -83,6 +83,6 @@ Retrieves the name part from a full name.
 
 ### main
 
-```java
+```
 public static void main(java.lang.String[] args)
 ```

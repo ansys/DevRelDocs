@@ -18,7 +18,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXDouble
 extends PHXSimpleType
 implements IPHXFormat
@@ -102,14 +102,14 @@ If the variable has an upper or lower bound and an attempt is made to store an i
 
 ### PHXDouble
 
-```java
+```
 public PHXDouble()
 ```
 Initializes value to zero without upper or lower bounds.
 
 ### PHXDouble
 
-```java
+```
 public PHXDouble(double value)
 ```
 
@@ -120,7 +120,7 @@ Initializes value to specified value without upper or lower bounds.
 
 ### PHXDouble
 
-```java
+```
 public PHXDouble(PHXDouble other)
 ```
 
@@ -133,7 +133,7 @@ Clone another PHXDouble's value and metadata.
 
 ### _copyMetadataFromOther
 
-```java
+```
 protected final void _copyMetadataFromOther(PHXDouble other)
 ```
 
@@ -144,7 +144,7 @@ Clone another PHXDouble's metadata.
 
 ### getValue
 
-```java
+```
 public double getValue()
 ```
 
@@ -155,7 +155,7 @@ Retrieves the current value of the variable.
 
 ### getValueStr
 
-```java
+```
 public java.lang.String getValueStr()
 ```
 
@@ -166,7 +166,7 @@ Retrieves the string value of this variable as passed into the last call to `fro
 
 ### setValue
 
-```java
+```
 public void setValue(double v)
 ```
 
@@ -177,7 +177,7 @@ Sets the value for the variable.
 
 ### setUpperBound
 
-```java
+```
 public void setUpperBound(double value)
 ```
 
@@ -188,13 +188,13 @@ Sets the upper bound. The hasUpperBound value is set to true.
 
 ### setUpperBound
 
-```java
+```
 public void setUpperBound(java.lang.String value)
 ```
 
 ### getUpperBound
 
-```java
+```
 public double getUpperBound()
 ```
 
@@ -205,7 +205,7 @@ Retrieves the current upper bound value.
 
 ### setLowerBound
 
-```java
+```
 public void setLowerBound(double value)
 ```
 
@@ -216,13 +216,13 @@ Sets the lower bound. The `hasLowerBound` value is set to true.
 
 ### setLowerBound
 
-```java
+```
 public void setLowerBound(java.lang.String value)
 ```
 
 ### getLowerBound
 
-```java
+```
 public double getLowerBound()
 ```
 
@@ -233,7 +233,7 @@ Retrieves the current lower bound value.
 
 ### setHasUpperBound
 
-```java
+```
 public void setHasUpperBound(boolean value)
 ```
 
@@ -244,7 +244,7 @@ Sets the `hasUpperBound` flag.
 
 ### getHasUpperBound
 
-```java
+```
 public boolean getHasUpperBound()
 ```
 
@@ -255,7 +255,7 @@ Retrieves the `hasUpperBound` flag.
 
 ### setHasLowerBound
 
-```java
+```
 public void setHasLowerBound(boolean value)
 ```
 
@@ -266,7 +266,7 @@ Sets the `hasLowerBound` flag.
 
 ### getHasLowerBound
 
-```java
+```
 public boolean getHasLowerBound()
 ```
 
@@ -277,7 +277,7 @@ Retrieves the `hasLowerBound` flag.
 
 ### toString2
 
-```java
+```
 public PHXStringBuffer toString2()
 ```
 
@@ -291,7 +291,7 @@ Converts the variable to a PHXStringBuffer.
 
 ### toString
 
-```java
+```
 public java.lang.String toString()
 ```
 
@@ -308,7 +308,7 @@ Converts the variable to a string.
 
 ### fromString2
 
-```java
+```
 public void fromString2(PHXStringBuffer value)
 ```
 
@@ -322,7 +322,7 @@ Converts a PHXStringBuffer representation to the internal value.
 
 ### fromString3
 
-```java
+```
 public void fromString3(java.lang.String value, 
                         java.util.function.ToDoubleFunction<java.lang.String> converter)
 ```
@@ -335,7 +335,7 @@ Converts a String representation to the internal value using specified converter
 
 ### fromString
 
-```java
+```
 public void fromString(java.lang.String value)
 ```
 
@@ -349,7 +349,7 @@ Converts a String representation to the internal value.
 
 ### toString
 
-```java
+```
 public java.lang.String toString(int width)
                           throws PHXNumberFormatException
 ```
@@ -367,7 +367,7 @@ Converts the value to a string with the best possible formatting, e.g. scientifi
 
 ### setIgnoreConversionErrors
 
-```java
+```
 public void setIgnoreConversionErrors(boolean ignoreConversionErrors)
 ```
 
@@ -378,7 +378,7 @@ Indicates whether the object should accept bad values in the `fromString()` meth
 
 ### setEnumValues
 
-```java
+```
 public void setEnumValues(java.lang.String values)
 ```
 
@@ -389,7 +389,7 @@ Takes a comma separated string of values and fills the enumeration List with val
 
 ### setEnumValues
 
-```java
+```
 public void setEnumValues(double[] values)
 ```
 
@@ -400,7 +400,7 @@ Sets the enumeration list of valid values.
 
 ### getEnumValues
 
-```java
+```
 public double[] getEnumValues()
 ```
 
@@ -411,7 +411,7 @@ An interface function for the enumeration array.
 
 ### getEnumValuesStr
 
-```java
+```
 public java.lang.String getEnumValuesStr()
 ```
 
@@ -422,7 +422,7 @@ Interface function to pass out the enumeration array as a comma separated string
 
 ### setEnumAliases
 
-```java
+```
 public void setEnumAliases(java.lang.String values)
 ```
 
@@ -433,7 +433,7 @@ Takes a comma separated string of values and fills the enumeration aliases list 
 
 ### setEnumAliases
 
-```java
+```
 public void setEnumAliases(java.lang.String[] values)
 ```
 
@@ -444,7 +444,7 @@ Sets the enumeration aliases list.
 
 ### getEnumAliases
 
-```java
+```
 public java.lang.String[] getEnumAliases()
 ```
 
@@ -455,7 +455,7 @@ An interface function for the enumeration array.
 
 ### getEnumAliasesStr
 
-```java
+```
 public java.lang.String getEnumAliasesStr()
 ```
 
@@ -466,7 +466,7 @@ An interface function for the enumeration array.
 
 ### setFormat
 
-```java
+```
 public void setFormat(java.lang.String format)
 ```
 
@@ -480,7 +480,7 @@ Set the format string for the variable.
 
 ### getFormat
 
-```java
+```
 public java.lang.String getFormat()
 ```
 
@@ -494,7 +494,7 @@ Get the format string for the variable.
 
 ### hasFormat
 
-```java
+```
 public boolean hasFormat()
 ```
 
@@ -508,13 +508,13 @@ Whether or not the variable has a format.
 
 ### arrayToString
 
-```java
+```
 public static java.lang.String arrayToString(double[] sa)
 ```
 
 ### equalsNatural
 
-```java
+```
 public boolean equalsNatural(PHXSimpleType toCompare)
                       throws PHXTypeMismatchException
 ```
@@ -537,7 +537,7 @@ NOTE: two PHXDoubles are considered naturally equal if they are the same to with
 
 ### fromObject
 
-```java
+```
 public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
@@ -557,7 +557,7 @@ NOTE: while it might be logical to think you can create a PHX(Type)Array from, s
 
 ### Accept
 
-```java
+```
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
 
@@ -577,7 +577,7 @@ Accept a Visitor.
 
 ### createCopy
 
-```java
+```
 public PHXDouble createCopy()
 ```
 

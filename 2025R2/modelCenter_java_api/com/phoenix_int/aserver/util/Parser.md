@@ -5,11 +5,11 @@
 **All Known Implementing Classes:**
 - [PHXFileParser](PHXFileParser.md)
 
--- 
+--- 
 
 **Declaration**
 
-```java
+```
 public interface Parser
 ```
 
@@ -32,7 +32,7 @@ Interface to define the methods of a parser. Defined after-the-fact from the exi
 
 ### writeTo
 
-```java
+```
 void writeTo(java.io.OutputStreamWriter fw)
       throws java.io.IOException
 ```
@@ -43,7 +43,7 @@ Write any changes to the output stream
 
 ### close
 
-```java
+```
 void close()
 ```
 Close the parser

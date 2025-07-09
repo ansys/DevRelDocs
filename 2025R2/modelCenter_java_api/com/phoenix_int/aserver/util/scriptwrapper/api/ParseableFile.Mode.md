@@ -22,7 +22,7 @@
 --- 
 **Declaration**
 
-```java
+```
 public static enum ParseableFile.Mode
 extends java.lang.Enum<ParseableFile.Mode>
 ```
@@ -75,12 +75,12 @@ public static final ParseableFile.Mode READ_TEMPLATE
 
 ### values
 
-```java
+```
 public static ParseableFile.Mode[] values()
 ```
 Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows:
 
-```java
+```
 for (ParseableFile.Mode c : ParseableFile.Mode.values())
     System.out.println(c);
 ```
@@ -90,7 +90,7 @@ for (ParseableFile.Mode c : ParseableFile.Mode.values())
 
 ### valueOf
 
-```java
+```
 public static ParseableFile.Mode valueOf(java.lang.String name)
 ```
 Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)
@@ -107,13 +107,13 @@ Returns the enum constant of this type with the specified name. The string must 
 
 ### getEventType
 
-```java
+```
 public com.phoenix_int.aserver.trace.PHXTraceFileEvent.Type getEventType()
 ```
 
 ### getCode
 
-```java
+```
 public int getCode()
 ```
 Retrieve the legacy integer code assigned to this mode
@@ -123,7 +123,7 @@ Retrieve the legacy integer code assigned to this mode
 
 ### fromCode
 
-```java
+```
 public static ParseableFile.Mode fromCode(int code)
 ```
 Utility function for determining the enum from the legacy integer code

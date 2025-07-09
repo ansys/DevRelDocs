@@ -12,7 +12,7 @@
 
 **Declaration**
 
-```java
+```
 public static interface IPHXType2.IVisitor<T>
 ```
 
@@ -40,7 +40,7 @@ The interface of a visitor into an [IPHXType2](IPHXType2.md). A part of the visi
 
 ### visit (PHXBoolean)
 
-```java
+```
 T visit(PHXBoolean host)
 ```
 Visit a PHXBoolean.
@@ -53,7 +53,7 @@ Visit a PHXBoolean.
 
 ### visit (PHXLong)
 
-```java
+```
 T visit(PHXLong host)
 ```
 Visit a PHXLong.
@@ -66,7 +66,7 @@ Visit a PHXLong.
 
 ### visit (PHXDouble)
 
-```java
+```
 T visit(PHXDouble host)
 ```
 Visit a PHXDouble.
@@ -79,7 +79,7 @@ Visit a PHXDouble.
 
 ### visit (PHXString)
 
-```java
+```
 T visit(PHXString host)
 ```
 Visit a PHXString.
@@ -92,7 +92,7 @@ Visit a PHXString.
 
 ### visit (PHXRawFile)
 
-```java
+```
 T visit(PHXRawFile host)
 ```
 Visit a PHXRawFile.
@@ -105,7 +105,7 @@ Visit a PHXRawFile.
 
 ### visit (PHXGeometry)
 
-```java
+```
 T visit(PHXGeometry host)
 ```
 Visit a PHXGeometry.
@@ -118,7 +118,7 @@ Visit a PHXGeometry.
 
 ### visit (PHXBooleanArray)
 
-```java
+```
 T visit(PHXBooleanArray host)
 ```
 Visit a PHXBooleanArray.
@@ -131,7 +131,7 @@ Visit a PHXBooleanArray.
 
 ### visit (PHXLongArray)
 
-```java
+```
 T visit(PHXLongArray host)
 ```
 Visit a PHXLongArray.
@@ -144,7 +144,7 @@ Visit a PHXLongArray.
 
 ### visit (PHXDoubleArray)
 
-```java
+```
 T visit(PHXDoubleArray host)
 ```
 Visit a PHXDoubleArray.
@@ -157,7 +157,7 @@ Visit a PHXDoubleArray.
 
 ### visit (PHXStringArray)
 
-```java
+```
 T visit(PHXStringArray host)
 ```
 Visit a PHXStringArray.
@@ -170,7 +170,7 @@ Visit a PHXStringArray.
 
 ### visit (PHXRawFileArray)
 
-```java
+```
 T visit(PHXRawFileArray host)
 ```
 Visit a PHXRawFileArray.

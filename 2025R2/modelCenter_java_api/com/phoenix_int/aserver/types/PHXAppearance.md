@@ -13,7 +13,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXAppearance
 extends java.lang.Object
 ```
@@ -47,7 +47,7 @@ This is a utility class for holding appearance properties. The class is used by 
 
 ### PHXAppearance
 
-```java
+```
 public PHXAppearance(boolean hasColor)
 ```
 
@@ -58,31 +58,31 @@ public PHXAppearance(boolean hasColor)
 
 ### getRed
 
-```java
+```
 public double getRed()
 ```
 
 ### getGreen
 
-```java
+```
 public double getGreen()
 ```
 
 ### getBlue
 
-```java
+```
 public double getBlue()
 ```
 
 ### getHasColor
 
-```java
+```
 public boolean getHasColor()
 ```
 
 ### setRed
 
-```java
+```
 public void setRed(double v)
 ```
 
@@ -91,7 +91,7 @@ public void setRed(double v)
 
 ### setGreen
 
-```java
+```
 public void setGreen(double v)
 ```
 
@@ -100,7 +100,7 @@ public void setGreen(double v)
 
 ### setBlue
 
-```java
+```
 public void setBlue(double v)
 ```
 
@@ -109,7 +109,7 @@ public void setBlue(double v)
 
 ### setColor
 
-```java
+```
 public void setColor(double r, 
                      double g, 
                      double b)

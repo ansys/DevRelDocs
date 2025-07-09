@@ -14,7 +14,7 @@
 
 ---
 
-```java
+```
 public class PHXLongArray
 extends PHXSimpleArray<PHXLong>
 implements IPHXFormat
@@ -104,31 +104,31 @@ Class wraps an array of [`PHXLong`](PHXLong.md) variables for the ScriptWrapper 
 
 ### PHXLongArray
 
-```java
+```
 public PHXLongArray()
 ```
 
 ### PHXLongArray
 
-```java
+```
 public PHXLongArray(java.lang.Object data)
 ```
 
 ### PHXLongArray
 
-```java
+```
 public PHXLongArray(PHXLongArray other)
 ```
 Clone another [`PHXLongArray`](PHXLongArray.md)'s value and metadata.
 
 **Parameters:**
-- `other`- the other [`PHXLongArray`](PHXLongArray.md) to clone.
+- `other` - the other [`PHXLongArray`](PHXLongArray.md) to clone.
 
 ## Method Detail
 
 ### dataTypeOK
 
-```java
+```
 protected boolean dataTypeOK(java.lang.Class c)
 ```
 Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
@@ -140,7 +140,7 @@ Must override this function and return true if the specified class is acceptable
 
 ### allocateElement
 
-```java
+```
 protected java.lang.Object allocateElement(java.lang.Class elementClass)
                                     throws java.lang.IllegalAccessException,
                                            java.lang.InstantiationException
@@ -158,17 +158,17 @@ Allocates a single element in a default state. If the class type in question has
 
 ### setUpperBound
 
-```java
+```
 public void setUpperBound(long value)
 ```
 sets the upper bound. The `hasUpperBound` value is set to `true`
 
 **Parameters:**
-- `value`- the upper bound
+- `value` - the upper bound
 
 ### getUpperBound
 
-```java
+```
 public long getUpperBound()
 ```
 retrieves the current upper bound value
@@ -177,21 +177,21 @@ retrieves the current upper bound value
 - the upper bound
 
 **Throws:**
-- `java.lang.IllegalStateException`- Thrown if there is no upper bound defined.
+- `java.lang.IllegalStateException` - Thrown if there is no upper bound defined.
 
 ### setLowerBound
 
-```java
+```
 public void setLowerBound(long value)
 ```
 sets the lower bound. The `hasLowerBound` value is set to `true`
 
 **Parameters:**
-- `value`- the lower bound
+- `value` - the lower bound
 
 ### getLowerBound
 
-```java
+```
 public long getLowerBound()
 ```
 retrieves the current lower bound value
@@ -201,17 +201,17 @@ retrieves the current lower bound value
 
 ### setHasUpperBound
 
-```java
+```
 public void setHasUpperBound(boolean value)
 ```
 sets the `hasUpperBound` flag
 
 **Parameters:**
-- `value`- true or false
+- `value` - true or false
 
 ### getHasUpperBound
 
-```java
+```
 public boolean getHasUpperBound()
 ```
 retrieves the `hasUpperBound` flag
@@ -221,17 +221,17 @@ retrieves the `hasUpperBound` flag
 
 ### setHasLowerBound
 
-```java
+```
 public void setHasLowerBound(boolean value)
 ```
 sets the `hasLowerBound` flag
 
 **Parameters:**
-- `value`- true or false
+- `value` - true or false
 
 ### getHasLowerBound
 
-```java
+```
 public boolean getHasLowerBound()
 ```
 retrieves the `hasLowerBound` flag
@@ -241,27 +241,27 @@ retrieves the `hasLowerBound` flag
 
 ### setEnumValues
 
-```java
+```
 public void setEnumValues(java.lang.String values)
 ```
 takes a comma seperated string of values and fills the enumeration List with values.
 
 **Parameters:**
-- `values`- A comma seperated string of enumeration values
+- `values` - A comma seperated string of enumeration values
 
 ### setEnumValues
 
-```java
+```
 public void setEnumValues(long[] values)
 ```
 sets the possible values a variable may be
 
 **Parameters:**
-- `values`- Array of longs which represents valid values
+- `values` - Array of longs which represents valid values
 
 ### getEnumValues
 
-```java
+```
 public long[] getEnumValues()
 ```
 An interface function for the enumeration array
@@ -271,7 +271,7 @@ An interface function for the enumeration array
 
 ### getEnumValuesStr
 
-```java
+```
 public java.lang.String getEnumValuesStr()
 ```
 Interface function to pass out the enumeration array as a comma separated string
@@ -281,27 +281,27 @@ Interface function to pass out the enumeration array as a comma separated string
 
 ### setEnumAliases
 
-```java
+```
 public void setEnumAliases(java.lang.String values)
 ```
 takes a comma seperated string of values and fills the enumeration aliases list with values.
 
 **Parameters:**
-- `values`- A comma seperated string of enumeration aliases
+- `values` - A comma seperated string of enumeration aliases
 
 ### setEnumAliases
 
-```java
+```
 public void setEnumAliases(java.lang.String[] values)
 ```
 Sets the enumeration aliases list
 
 **Parameters:**
-- `values`- An array of strings
+- `values` - An array of strings
 
 ### getEnumAliases
 
-```java
+```
 public java.lang.String[] getEnumAliases()
 ```
 An interface function for the enumeration array
@@ -311,7 +311,7 @@ An interface function for the enumeration array
 
 ### getEnumAliasesStr
 
-```java
+```
 public java.lang.String getEnumAliasesStr()
 ```
 An interface function for the enumeration array
@@ -321,7 +321,7 @@ An interface function for the enumeration array
 
 ### setFormat
 
-```java
+```
 public void setFormat(java.lang.String format)
 ```
 Set the format string for the variable
@@ -330,11 +330,11 @@ Set the format string for the variable
 - `setFormat` in interface [`IPHXFormat`](IPHXFormat.md)
 
 **Parameters:**
-- `format`- format string
+- `format` - format string
 
 ### getFormat
 
-```java
+```
 public java.lang.String getFormat()
 ```
 Get the format string for the variable
@@ -347,7 +347,7 @@ Get the format string for the variable
 
 ### hasFormat
 
-```java
+```
 public boolean hasFormat()
 ```
 Description copied from interface: [`IPHXFormat`](IPHXFormat.md)
@@ -362,7 +362,7 @@ Whether or not the variable has a format
 
 ### _setMetaData
 
-```java
+```
 protected void _setMetaData(PHXSimpleType v2)
 ```
 Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
@@ -374,7 +374,7 @@ Sets a simple type's meta data based on the meta data in this object.  Override 
 
 ### _getMetaData
 
-```java
+```
 protected void _getMetaData(PHXSimpleType v2)
 ```
 Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
@@ -386,7 +386,7 @@ Worker which takes the meta data from an instance of PHXSimpleType and sets it i
 
 ### getValue
 
-```java
+```
 public PHXLong getValue(int index)
 ```
 Gets the value of an element as a [`PHXLong`](PHXLong.md) object
@@ -395,17 +395,17 @@ Gets the value of an element as a [`PHXLong`](PHXLong.md) object
 - `getValue` in class [`PHXSimpleArray`](PHXSimpleArray.md)`<`[`PHXLong`](PHXLong.md)`>`
 
 **Parameters:**
-- `index`- 1D array index
+- `index` - 1D array index
 
 **Returns:**
 - referenced array value
 
 **Throws:**
-- `java.lang.IllegalArgumentException`- thrown if called on non-1D array
+- `java.lang.IllegalArgumentException` - thrown if called on non-1D array
 
 ### getValue
 
-```java
+```
 public PHXLong getValue(int[] index)
 ```
 Gets the value of an element as a [`PHXLong`](PHXLong.md) object
@@ -414,46 +414,46 @@ Gets the value of an element as a [`PHXLong`](PHXLong.md) object
 - `getValue` in class [`PHXSimpleArray`](PHXSimpleArray.md)`<`[`PHXLong`](PHXLong.md)`>`
 
 **Parameters:**
-- `index`- nD array index
+- `index` - nD array index
 
 **Returns:**
 - referenced array value
 
 ### getLongValue
 
-```java
+```
 public long getLongValue(int index)
 ```
 Gets the value of an element as a long
 
 **Parameters:**
-- `index`- 1D array index
+- `index` - 1D array index
 
 **Returns:**
 - referenced array value
 
 **Throws:**
-- `java.lang.IllegalArgumentException`- thrown if called on non-1D array
+- `java.lang.IllegalArgumentException` - thrown if called on non-1D array
 
 ### getLongValue
 
-```java
+```
 public long getLongValue(int[] index)
 ```
 Gets the value of an element as a long
 
 **Parameters:**
-- `index`- 1D array index
+- `index` - 1D array index
 
 **Returns:**
 - referenced array value
 
 **Throws:**
-- `java.lang.IllegalArgumentException`- thrown if called on non-1D array
+- `java.lang.IllegalArgumentException` - thrown if called on non-1D array
 
 ### setValue
 
-```java
+```
 public void setValue(int[] index,
                      PHXLong val)
 ```
@@ -463,45 +463,45 @@ Sets the value of an element as a [`PHXLong`](PHXLong.md) object
 - `setValue` in class [`PHXSimpleArray`](PHXSimpleArray.md)`<`[`PHXLong`](PHXLong.md)`>`
 
 **Parameters:**
-- `index`- 1D array index
-- `val`- value to set
+- `index` - 1D array index
+- `val` - value to set
 
 **Throws:**
-- `java.lang.IllegalArgumentException`- thrown if called on non-1D array
+- `java.lang.IllegalArgumentException` - thrown if called on non-1D array
 
 ### setValue
 
-```java
+```
 public void setValue(int index,
                      long val)
 ```
 Sets the value of an element as a PHXLong object
 
 **Parameters:**
-- `index`- 1D array index
-- `val`- value to set
+- `index` - 1D array index
+- `val` - value to set
 
 **Throws:**
-- `java.lang.IllegalArgumentException`- thrown if called on non-1D array
+- `java.lang.IllegalArgumentException` - thrown if called on non-1D array
 
 ### setValue
 
-```java
+```
 public void setValue(int[] index,
                      long val)
 ```
 Sets the value of an element as a PHXLong object
 
 **Parameters:**
-- `index`- 1D array index
-- `val`- value to set
+- `index` - 1D array index
+- `val` - value to set
 
 **Throws:**
-- `java.lang.IllegalArgumentException`- thrown if called on non-1D array
+- `java.lang.IllegalArgumentException` - thrown if called on non-1D array
 
 ### elementFromString
 
-```java
+```
 protected java.lang.Object elementFromString(java.lang.String val)
 ```
 Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
@@ -513,44 +513,44 @@ Sub-classes must provide an implementation of this function which converts a str
 
 ### getMax
 
-```java
+```
 public long getMax()
 ```
 
 ### getMin
 
-```java
+```
 public long getMin()
 ```
 
 ### getAvg
 
-```java
+```
 public double getAvg()
 ```
 
 ### sortReverse
 
-```java
+```
 public void sortReverse()
 ```
 
 ### sort
 
-```java
+```
 public void sort()
 ```
 
 ### _sort
 
-```java
+```
 public void _sort(PHXLongArray array,
                   boolean ascend)
 ```
 
 ### fromObject
 
-```java
+```
 public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
@@ -562,14 +562,14 @@ NOTE: while it might be logical to think you can create a `PHX(Type)Array` from,
 - `fromObject` in class [`PHXSimpleType`](PHXSimpleType.md)
 
 **Parameters:**
-- `toRead`- to object from which to load this objects value.
+- `toRead` - to object from which to load this objects value.
 
 **Throws:**
 - [`PHXInvalidTypeException`](PHXInvalidTypeException.md)- if the specified object is of an invalid type or there is an error in conversion.
 
 ### Accept
 
-```java
+```
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
 Accept a Visitor.
@@ -578,17 +578,17 @@ Accept a Visitor.
 - `Accept` in interface [`IPHXType2`](IPHXType2.md)
 
 **Type Parameters:**
-- `T`- Type of the result of the visit.
+- `T` - Type of the result of the visit.
 
 **Parameters:**
-- `visitor`- The visitor to accept.
+- `visitor` - The visitor to accept.
 
 **Returns:**
 - The results of the visit.
 
 ### createCopy
 
-```java
+```
 public PHXLongArray createCopy()
 ```
 Create a copy of this instance, including the value and metadata.

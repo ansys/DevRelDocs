@@ -14,7 +14,7 @@
 
 ---
 
-```java
+```
 public class PHXStringArray
 extends PHXSimpleArray<PHXString>
 ```
@@ -51,8 +51,7 @@ Class wraps an array of [PHXString](PHXString.md) variables for the ScriptWrappe
 | `<T> T` | `Accept(IPHXType2.IVisitor<T> visitor)`<br>Accept a Visitor. |
 | `PHXStringArray` | `createCopy()`<br>Create a copy of this instance, including the value and metadata. |
 | `protected boolean` | `dataTypeOK(java.lang.Class c)`<br>Must override this function and return `true` if the specified class is acceptable as an array element component type. |
-| `protected java.lang.Object` | `elementFromString(java.lang.String val)`<br>Sub-classes must provide an implementation of this function which converts a string form of a single element to Object
- form. |
+| `protected java.lang.Object` | `elementFromString(java.lang.String val)`<br>Sub-classes must provide an implementation of this function which converts a string form of a single element to Object form. |
 | `void` | `fromObject(java.lang.Object toRead)`<br>Load the value of this object from the specified object. |
 | `java.lang.String[]` | `getEnumAliases()`<br>An interface function for the enumeration array |
 | `java.lang.String` | `getEnumAliasesStr()`<br>An interface function for the enumeration array |
@@ -61,9 +60,9 @@ Class wraps an array of [PHXString](PHXString.md) variables for the ScriptWrappe
 | `java.lang.String` | `getStringValue(int index)`<br>Gets a particular element as a String |
 | `java.lang.String` | `getStringValue(int[] index)`<br>Gets a particular element as a String |
 | `PHXString` | `getValue(int[] index)<br>`Gets a particular element as a PHXString |
-| `void` | `setEnumAliases(java.lang.String values)`<br>takes a comma seperated string of values and fills the enumeration aliases list with values. |
+| `void` | `setEnumAliases(java.lang.String values)`<br>takes a comma separated string of values and fills the enumeration aliases list with values. |
 | `void` | `setEnumAliases(java.lang.String[] values)`<br>Sets the enumeration aliases list |
-| `void` | `setEnumValues(java.lang.String values)`<br>takes a comma seperated string of values and fills the enumeration List with values. |
+| `void` | `setEnumValues(java.lang.String values)`<br>takes a comma separated string of values and fills the enumeration List with values. |
 | `void` | `setEnumValues(java.lang.String[] values)`<br>sets enum values |
 | `void` | `setValue(int[] index,PHXStringval)`<br>Sets a particular element as a PHXString |
 | `void` | `setValue(int[] index, java.lang.String val)`<br>Sets a particular element as a String |
@@ -85,19 +84,19 @@ Class wraps an array of [PHXString](PHXString.md) variables for the ScriptWrappe
 
 ### PHXStringArray
 
-```java
+```
 public PHXStringArray()
 ```
 
 ### PHXStringArray
 
-```java
+```
 public PHXStringArray(java.lang.Object data)
 ```
 
 ### PHXStringArray
 
-```java
+```
 public PHXStringArray(PHXStringArray other)
 ```
 
@@ -105,7 +104,7 @@ public PHXStringArray(PHXStringArray other)
 
 ### dataTypeOK
 
-```java
+```
 protected boolean dataTypeOK(java.lang.Class c)
 ```
 Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
@@ -117,27 +116,27 @@ Must override this function and return `true` if the specified class is acceptab
 
 ### setEnumValues
 
-```java
+```
 public void setEnumValues(java.lang.String values)
 ```
-takes a comma seperated string of values and fills the enumeration List with values.
+takes a comma separated string of values and fills the enumeration List with values.
 
 **Parameters:**
-- `values`- A comma seperrated string of enumeration values
+- `values` - A comma separated string of enumeration values
 
 ### setEnumValues
 
-```java
+```
 public void setEnumValues(java.lang.String[] values)
 ```
 sets enum values
 
 **Parameters:**
-- `values:`- list of enum values
+- `values:` - list of enum values
 
 ### getEnumValues
 
-```java
+```
 public java.lang.String[] getEnumValues()
 ```
 An interface function for the enumeration array
@@ -147,7 +146,7 @@ An interface function for the enumeration array
 
 ### getEnumValuesStr
 
-```java
+```
 public java.lang.String getEnumValuesStr()
 ```
 Interface function to pass out the enumeration array as a comma separated string
@@ -157,27 +156,27 @@ Interface function to pass out the enumeration array as a comma separated string
 
 ### setEnumAliases
 
-```java
+```
 public void setEnumAliases(java.lang.String values)
 ```
-takes a comma seperated string of values and fills the enumeration aliases list with values.
+takes a comma separated string of values and fills the enumeration aliases list with values.
 
 **Parameters:**
-- `values`- A comma seperated string of enumeration aliases
+- `values` - A comma separated string of enumeration aliases
 
 ### setEnumAliases
 
-```java
+```
 public void setEnumAliases(java.lang.String[] values)
 ```
 Sets the enumeration aliases list
 
 **Parameters:**
-- `values`- An array of strings
+- `values` - An array of strings
 
 ### getEnumAliases
 
-```java
+```
 public java.lang.String[] getEnumAliases()
 ```
 An interface function for the enumeration array
@@ -187,7 +186,7 @@ An interface function for the enumeration array
 
 ### getEnumAliasesStr
 
-```java
+```
 public java.lang.String getEnumAliasesStr()
 ```
 An interface function for the enumeration array
@@ -197,7 +196,7 @@ An interface function for the enumeration array
 
 ### _setMetaData
 
-```java
+```
 protected void _setMetaData(PHXSimpleType v2)
 ```
 Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
@@ -209,7 +208,7 @@ Sets a simple type's meta data based on the meta data in this object.  Override 
 
 ### _getMetaData
 
-```java
+```
 protected void _getMetaData(PHXSimpleType v2)
 ```
 Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
@@ -221,7 +220,7 @@ Worker which takes the meta data from an instance of PHXSimpleType and sets it i
 
 ### getValue
 
-```java
+```
 public PHXString getValue(int[] index)
 ```
 Gets a particular element as a PHXString
@@ -230,43 +229,43 @@ Gets a particular element as a PHXString
 - `getValue` in class `PHXSimpleArray<PHXString>`
 
 **Parameters:**
-- `index`- 1D array index
+- `index` - 1D array index
 
 **Returns:**
 - referenced array value
 
 ### getStringValue
 
-```java
+```
 public java.lang.String getStringValue(int index)
 ```
 Gets a particular element as a String
 
 **Parameters:**
-- `index`- nD array index
+- `index` - nD array index
 
 **Returns:**
 - referenced array value
 
 **Throws:**
-- `java.lang.IllegalArgumentException`- thrown if called on non-1D array
+- `java.lang.IllegalArgumentException` - thrown if called on non-1D array
 
 ### getStringValue
 
-```java
+```
 public java.lang.String getStringValue(int[] index)
 ```
 Gets a particular element as a String
 
 **Parameters:**
-- `index`- nD array index
+- `index` - nD array index
 
 **Returns:**
 - referenced array value
 
 ### setValue
 
-```java
+```
 public void setValue(int[] index,
                      PHXString val)
 ```
@@ -276,39 +275,39 @@ Sets a particular element as a PHXString
 - `setValue` in class `PHXSimpleArray<PHXString>`
 
 **Parameters:**
-- `index`- 1D array index
-: `val`- value to set
+- `index` - 1D array index
+: `val` - value to set
 
 ### setValue
 
-```java
+```
 public void setValue(int index,
                      java.lang.String val)
 ```
 Sets a particular element as a String
 
 **Parameters:**
-- `index`- 1D array index
-: `val`- value to set
+- `index` - 1D array index
+: `val` - value to set
 
 **Throws:**
-- `java.lang.IllegalArgumentException`- thrown if called on non-1D array
+- `java.lang.IllegalArgumentException` - thrown if called on non-1D array
 
 ### setValue
 
-```java
+```
 public void setValue(int[] index,
                      java.lang.String val)
 ```
 Sets a particular element as a String
 
 **Parameters:**
-- `index`- 1D array index
-: `val`- value to set
+- `index` - 1D array index
+: `val` - value to set
 
 ### elementFromString
 
-```java
+```
 protected java.lang.Object elementFromString(java.lang.String val)
 ```
 Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
@@ -320,7 +319,7 @@ Sub-classes must provide an implementation of this function which converts a str
 
 ### fromObject
 
-```java
+```
 public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
@@ -332,30 +331,30 @@ NOTE: while it might be logical to think you can create a `PHX(Type)Array` from,
 - `fromObject` in class [`PHXSimpleType`](PHXSimpleType.md)
 
 **Parameters:**
-- `toRead`- to object from which to load this objects value.
+- `toRead` - to object from which to load this objects value.
 
 **Throws:**
 - [`PHXInvalidTypeException`](PHXInvalidTypeException.md) - if the specified object is of an invalid type or there is an error in conversion.
 
 ### Accept
 
-```java
+```
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
 Accept a Visitor.
 
 **Type Parameters:**
-- `T`- Type of the result of the visit.
+- `T` - Type of the result of the visit.
 
 **Parameters:**
-- `visitor`- The visitor to accept.
+- `visitor` - The visitor to accept.
 
 **Returns:**
 - The results of the visit.
 
 ### createCopy
 
-```java
+```
 public PHXStringArray createCopy()
 ```
 Description copied from class: [`PHXSimpleType`](PHXSimpleType.md)

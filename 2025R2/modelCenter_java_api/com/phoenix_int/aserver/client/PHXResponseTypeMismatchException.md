@@ -18,7 +18,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXResponseTypeMismatchException
 extends java.lang.RuntimeException
 ```
@@ -35,15 +35,15 @@ An exception that is thrown when an invalid response is specified.
 | `java.lang.String` | `getInvalidID()`<br>retrieves the id that didn't have a response |
 
 ### Methods inherited from class java.lang.Throwable
-`addSuppressed, fillInStackTrace, getCause, getLocalizedMessage, getMessage, getStackTrace, getSuppressed, initCause, printStackTrace, printStackTrace, printStackTrace, setStackTrace, toString`
+`addSuppressed`, `fillInStackTrace`, `getCause`, `getLocalizedMessage`, `getMessage`, `getStackTrace`, `getSuppressed`, `initCause`, `printStackTrace`, `printStackTrace`, `printStackTrace`, `setStackTrace`, `toString`
 
 ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `wait`, `wait`, `wait`
 
 ## Method Detail
 
 ### getInvalidID
-```java
+```
 public java.lang.String getInvalidID()
 ```
 retrieves the id that didn't have a response

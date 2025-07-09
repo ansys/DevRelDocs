@@ -12,7 +12,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXBookmark
 extends java.lang.Object
 ```
@@ -49,7 +49,7 @@ extends java.lang.Object
 
 ### owner
 
-```java
+```
 public java.lang.Object owner
 ```
 
@@ -57,7 +57,7 @@ public java.lang.Object owner
 
 ### PHXBookmark
 
-```java
+```
 public PHXBookmark(java.lang.String name,
                    PHXRowFieldRange range)
 ```
@@ -70,38 +70,38 @@ public PHXBookmark(java.lang.String name,
 
 ### getName
 
-```java
+```
 public java.lang.String getName()
 ```
 
 ### setName
 
-```java
+```
 public void setName(java.lang.String name)
 ```
 
 ### getRange
 
-```java
+```
 public PHXRowFieldRange getRange()
 ```
 
 ### setRange
 
-```java
+```
 public void setRange(PHXRowFieldRange range)
 ```
 
 ### getChildren
 
-```java
+```
 public java.util.Vector<PHXBookmark> getChildren(java.util.Vector<PHXBookmark> bookmarks,
                                                  boolean immOnly)
 ```
 
 ### assertEquals
 
-```java
+```
 public void assertEquals(PHXBookmark other)
                   throws java.lang.Exception
 ```
@@ -115,6 +115,6 @@ Test comparison function. If the two objects are not equal, an exception is thro
 
 ### correctName
 
-```java
+```
 public static java.lang.String correctName(java.lang.String tempName)
 ```

@@ -21,7 +21,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXClassNotFoundException
 extends java.lang.ClassNotFoundException
 ```
@@ -55,14 +55,14 @@ Simple wrapper for ClassNotFoundException which can contain additional logging i
 
 ### PHXClassNotFoundException
 
-```java
+```
 public PHXClassNotFoundException()
 ```
 Creates a new instance of PHXClassNotFoundException
 
 ### PHXClassNotFoundException
 
-```java
+```
 public PHXClassNotFoundException(java.lang.String message)
 ```
 
@@ -70,12 +70,12 @@ public PHXClassNotFoundException(java.lang.String message)
 
 ### addException
 
-```java
+```
 public void addException(java.lang.Exception e)
 ```
 
 ### getExceptions
 
-```java
+```
 public java.util.Iterator getExceptions()
 ```

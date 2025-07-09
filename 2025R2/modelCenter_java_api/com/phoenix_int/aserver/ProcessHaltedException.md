@@ -15,7 +15,7 @@
 - `java.io.Serializable`
 
 **Declaration**
-```java
+```
 public class ProcessHaltedException
 extends java.io.IOException
 ```

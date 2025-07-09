@@ -18,7 +18,7 @@
 
 **Declaration**
 
-```java
+```
 @Deprecated
 public interface IPHXVersionedLibrarian
 extends IPHXLibrarian
@@ -41,7 +41,7 @@ This extends the [`IPHXLibrarian`](IPHXLibrarian.md) interface to include versio
 
 ### getComponentHistory
 
-```java
+```
 PHXComponentBranch getComponentHistory(java.lang.String compClass,
                                        java.lang.String virtualDir)
                                 throws java.lang.Exception

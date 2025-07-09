@@ -19,7 +19,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXGetByUrlException
 extends java.lang.Exception
 ```
@@ -45,7 +45,7 @@ An exception that is thrown when encountering an error getting a file's contents
 
 ### PHXGetByUrlException
 
-```java
+```
 public PHXGetByUrlException(java.lang.String reason)
 ```
 Constructor. Builds a combined string for the message about get by url failing with an inner reason.
@@ -55,7 +55,7 @@ Constructor. Builds a combined string for the message about get by url failing w
 
 ### PHXGetByUrlException
 
-```java
+```
 public PHXGetByUrlException(java.lang.String reason, 
                             java.lang.Throwable inner)
 ```

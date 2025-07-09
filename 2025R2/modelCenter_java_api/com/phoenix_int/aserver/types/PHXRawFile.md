@@ -13,7 +13,7 @@
 
 ---
 
-```java
+```
 public class PHXRawFile
 extends PHXSimpleType
 implements IPHXType2, java.lang.AutoCloseable
@@ -114,26 +114,26 @@ In that case, calling code becomes responsible for deleting the contents of the 
 
 ### PHXRawFile
 
-```java
+```
 public PHXRawFile()
 ```
 
 ### PHXRawFile
 
-```java
+```
 public PHXRawFile(java.lang.String fileName)
 ```
 
 ### PHXRawFile
 
-```java
+```
 public PHXRawFile(java.lang.String baseName,
                   java.lang.String name)
 ```
 
 ### PHXRawFile
 
-```java
+```
 public PHXRawFile(PHXRawFile other)
 ```
 Clone another PHXRawFile's value and metadata.
@@ -145,7 +145,7 @@ Clone another PHXRawFile's value and metadata.
 
 ### getName
 
-```java
+```
 public java.lang.String getName()
 ```
 retrieves the name of the file
@@ -155,7 +155,7 @@ retrieves the name of the file
 
 ### getID
 
-```java
+```
 public java.util.UUID getID()
 ```
 Get the ID set on this file when the contents were set. Reading the same contents does not guarantee that the ID will be the same.
@@ -165,34 +165,34 @@ Get the ID set on this file when the contents were set. Reading the same content
 
 ### addMonitor
 
-```java
+```
 public void addMonitor(PHXFileMonitor fm)
 ```
 PHXFileMonitor is used to monitor changes to a file as it is being created as in the UNIX `tail -f` command. Unfortunately in Windows, this creates a file lock which prevents deleting the file. Therefore, we keep a list of all the monitors currently monitoring us, and we signal them anytime that our filename or base name changes so they can stop monitoring.
 
 ### removeMonitor
 
-```java
+```
 public void removeMonitor(PHXFileMonitor fm)
 ```
 Removes a file monitor from our list
 
 ### synched
 
-```java
+```
 public boolean synched()
 ```
 Is this file variable's value consistent with the actual file on disk?
 
 ### setNeedWrite
 
-```java
+```
 public void setNeedWrite(boolean needWrite)
 ```
 
 ### setURL
 
-```java
+```
 public void setURL(java.lang.String url)
 ```
 sets whether the file is meant to be transferred by proxy or not
@@ -202,7 +202,7 @@ sets whether the file is meant to be transferred by proxy or not
 
 ### getNameCoded
 
-```java
+```
 public java.lang.String getNameCoded()
 ```
 retrieves the name of the file in coded form (without `$variables` replaced)
@@ -212,21 +212,21 @@ retrieves the name of the file in coded form (without `$variables` replaced)
 
 ### getFileExtension
 
-```java
+```
 public java.lang.String getFileExtension()
 ```
 Returns the extension of the file that this object represents
 
 ### unmanageTempFile
 
-```java
+```
 public void unmanageTempFile()
 ```
 Ensure that the file containing the current contents is not deleted when the last handle to it is released. Note that the contents can be reset by `setContents(java.lang.String)`, `setName(java.lang.String)` and `readFile(java.lang.String)` = overloads. This function affects only the current contents. Once the contents are changed, they are stored in a different temp file. That file will receive separate tracking and may be deleted unless this function is called again.
 
 ### setFileExtension
 
-```java
+```
 public void setFileExtension(java.lang.String extension)
                       throws java.io.IOException
 ```
@@ -237,7 +237,7 @@ Sets the extension of the file that this object represents. It is preferred that
 
 ### setName
 
-```java
+```
 public void setName(java.lang.String v)
              throws java.io.IOException
 ```
@@ -251,7 +251,7 @@ sets the name of the file
 
 ### setBaseName
 
-```java
+```
 public void setBaseName(java.lang.String v)
                  throws java.io.IOException
 ```
@@ -265,7 +265,7 @@ sets the base name of the file
 
 ### getBaseName
 
-```java
+```
 public java.lang.String getBaseName()
 ```
 gets the base name of the file
@@ -275,7 +275,7 @@ gets the base name of the file
 
 ### setStringReplacer
 
-```java
+```
 public void setStringReplacer(PHXStringReplacer r)
 ```
 specifies a PHXStringReplacer object for use in forming the full file name.
@@ -285,21 +285,21 @@ specifies a PHXStringReplacer object for use in forming the full file name.
 
 ### getIsBinary
 
-```java
+```
 public boolean getIsBinary()
 ```
 Tells whether or not the the file is binary. Simply switches on whether or not the mime type starts with text.
 
 ### getURL
 
-```java
+```
 public java.lang.String getURL()
 ```
 Tells whether the file is meant to be transferred by proxy
 
 ### setIsBinary
 
-```java
+```
 public void setIsBinary(boolean m)
 ```
 Forces this file to be binary or not. If this causes the mode to change, will set the mime type to `text/plain` or `application/octet-stream`
@@ -307,19 +307,19 @@ Forces this file to be binary or not. If this causes the mode to change, will se
 
 ### getMimeType
 
-```java
+```
 public java.lang.String getMimeType()
 ```
 
 ### setMimeType
 
-```java
+```
 public void setMimeType(java.lang.String m)
 ```
 
 ### setContents
 
-```java
+```
 public void setContents(java.lang.String contents)
                  throws java.io.IOException
 ```
@@ -335,7 +335,7 @@ The handle to the previous contents is released, potentially deleting it if no o
 
 ### setContents
 
-```java
+```
 public void setContents(PHXStringBuffer contents)
                  throws java.io.IOException
 ```
@@ -351,7 +351,7 @@ Sets the contents of the temporary file. The actual file is not modified until t
 
 ### setContents
 
-```java
+```
 public void setContents(java.io.File tempFile)
 ```
 Sets the contents of the temporary file to an existing file. The actual file is not modified until the `writeFile()` method is issued.
@@ -365,7 +365,7 @@ The handle to the previous contents is released, potentially deleting it if no o
 
 ### setContents
 
-```java
+```
 public void setContents(java.io.File tempFile,
                         java.util.UUID newId,
                         java.lang.String mimeType,
@@ -385,7 +385,7 @@ The handle to the previous contents is released, potentially deleting it if no o
 
 ### setContents
 
-```java
+```
 public void setContents(com.phoenix_int.util.ManagedFileHandle tempFile,
                         java.util.UUID newId,
                         java.lang.String mimeType,
@@ -403,7 +403,7 @@ A new reference to the specified `ManagedFileHandle` is created. The reference i
 
 ### getEncoding
 
-```java
+```
 public java.nio.charset.Charset getEncoding()
 ```
 Get the encoding of the contents. This function may return null if the encoding of the contents is unknown, or if the contents are binary and not text-based.
@@ -413,7 +413,7 @@ Get the encoding of the contents. This function may return null if the encoding 
 
 ### getContents
 
-```java
+```
 public java.lang.String getContents()
                              throws java.io.IOException
 ```
@@ -427,7 +427,7 @@ Retrieves the contents of the temporary file. If `_needRead` is `true`, this wil
 
 ### getTemporaryFile
 
-```java
+```
 public java.io.File getTemporaryFile()
                               throws java.io.IOException
 ```
@@ -441,7 +441,7 @@ Get the current temporary file; if `_needRead` is `true` this will load the cont
 
 ### getTemporaryFileHandle
 
-```java
+```
 public com.phoenix_int.util.ManagedFileHandle getTemporaryFileHandle()
 ```
 Get an additional reference to the temporary file containing the current value, or null if there is no temp file currently. Note that, according to the convention for `ManagedFileHandle`, the caller receives the results of `ManagedFileHandle.createNewReference()`, and is responsible for calling `ManagedFileHandle.close()`.
@@ -451,7 +451,7 @@ Get an additional reference to the temporary file containing the current value, 
 
 ### fromFile
 
-```java
+```
 public void fromFile(java.lang.String filename)
               throws java.io.IOException
 ```
@@ -464,7 +464,7 @@ The handle to the previous contents is released, potentially deleting it if no o
 
 ### readFile
 
-```java
+```
 public void readFile(java.lang.String filename)
               throws java.io.IOException
 ```
@@ -477,7 +477,7 @@ The handle to the previous contents is released, potentially deleting it if no o
 
 ### fromFile
 
-```java
+```
 public void fromFile()
               throws java.io.IOException
 ```
@@ -490,7 +490,7 @@ The handle to the previous contents is released, potentially deleting it if no o
 
 ### readFile
 
-```java
+```
 public void readFile(boolean useDFT)
               throws java.io.IOException
 ```
@@ -506,7 +506,7 @@ If the file is read, the handle to the previous contents is released, potentiall
 
 ### deleteFile
 
-```java
+```
 public void deleteFile(java.lang.String fileName)
                 throws java.io.IOException
 ```
@@ -520,21 +520,21 @@ Deletes the actual file from disk. Does not affect the temporary file.
 
 ### deleteFile
 
-```java
+```
 public void deleteFile()
 ```
 Deletes the actual file from disk. Does not affect the temporary file.
 
 ### deleteContents
 
-```java
+```
 public void deleteContents()
 ```
 Releases the handle to the temporary file. This may delete the file if nobody else is holding a `ManagedFileHandle`.
 
 ### backupFile
 
-```java
+```
 public void backupFile(java.lang.String fileName)
                 throws java.io.IOException
 ```
@@ -548,14 +548,14 @@ Backup the actual file on disk.  File is at the same location with ".bac" append
 
 ### backupFile
 
-```java
+```
 public void backupFile()
 ```
 Backup the actual file on disk.  File is at the same location with ".bac" appended to the end.  If a file by that name already exists, it is deleted prior to moving.
 
 ### readFile
 
-```java
+```
 public void readFile()
               throws java.io.IOException
 ```
@@ -568,14 +568,14 @@ If the file is read, the handle to the previous contents is released, potentiall
 
 ### markAsRead
 
-```java
+```
 public void markAsRead()
 ```
 Call this function after you manually get the contents of the actual file. The function records its name and timestamp for use with the `hasChanged()` function.
 
 ### hasChanged
 
-```java
+```
 public boolean hasChanged()
 ```
 Checks to see if the actual file has changed since the last time `getContents()` was called.
@@ -585,7 +585,7 @@ Checks to see if the actual file has changed since the last time `getContents()`
 
 ### toFile
 
-```java
+```
 public void toFile(java.lang.String fileName)
             throws java.io.IOException
 ```
@@ -596,7 +596,7 @@ Sets the filename and then writes from the temp file to the actual file. It is p
 
 ### writeFile
 
-```java
+```
 public void writeFile(java.lang.String fileName)
                throws java.io.IOException
 ```
@@ -607,7 +607,7 @@ Sets the filename and then writes from the temp file to the actual file.  It is 
 
 ### toFile
 
-```java
+```
 public void toFile()
             throws java.io.IOException
 ```
@@ -618,7 +618,7 @@ Writes from the temp file to the actual file.
 
 ### writeFile
 
-```java
+```
 public void writeFile()
                throws java.io.IOException
 ```
@@ -629,7 +629,7 @@ Writes from the temp file to the actual file.
 
 ### getValueStreamLen
 
-```java
+```
 public long getValueStreamLen()
                        throws java.io.IOException
 ```
@@ -643,10 +643,10 @@ Gets the length of a stream to the temporary file contents.
 
 ### getValueStream
 
-```java
+```
 @Deprecated
 public java.io.InputStream getValueStream()
-                                                throws java.io.IOException
+                                   throws java.io.IOException
 ```
 **Deprecated.** using `toString2().getInputStream()` is prefered. 
 
@@ -660,7 +660,7 @@ Gets an `InputStream` to the working contents of the file. Reads the contents fr
 
 ### toString2
 
-```java
+```
 public PHXStringBuffer toString2()
                           throws java.io.IOException
 ```
@@ -677,7 +677,7 @@ Gets a PHXStringBuffer representation of the contents of the temporary file.
 
 ### fromString2
 
-```java
+```
 public void fromString2(PHXStringBuffer newContents)
                  throws java.io.IOException,
                         PHXGetByUrlException
@@ -696,10 +696,10 @@ Sets the file temporary file contents to the value of the PHXStringBuffer.
 
 ### toAPIObject
 
-```java
+```
 public <EX extends java.lang.Throwable> java.util.Map<java.lang.String,java.lang.String> toAPIObject(com.phoenix_int.functional.FunctionThrows<PHXRawFile,java.lang.String,EX> fileStore)
-                                                                                              throws EX extends java.lang.Throwable,
-                                                                                                     java.io.IOException
+                            throws EX extends java.lang.Throwable,
+                                   java.io.IOException
 ```
 Convert this instance to a string-string map appropriate for serialization.
 
@@ -719,7 +719,7 @@ Convert this instance to a string-string map appropriate for serialization.
 
 ### fromAPIObject
 
-```java
+```
 public <EX extends java.lang.Throwable> void fromAPIObject(java.util.Map<java.lang.String,java.lang.String> object,
                                                            com.phoenix_int.functional.FunctionThrows<java.lang.String,com.phoenix_int.util.ManagedFileHandle,EX> fileStore)
                                                     throws EX extends java.lang.Throwable
@@ -739,7 +739,7 @@ Populate this instance from a string-string map.
 
 ### toString
 
-```java
+```
 public java.lang.String toString()
 ```
 converts the variable to a string
@@ -755,7 +755,7 @@ converts the variable to a string
 
 ### fromString
 
-```java
+```
 public void fromString(java.lang.String value)
 ```
 Sets the file temporary file contents to the value of the string.
@@ -768,13 +768,13 @@ Sets the file temporary file contents to the value of the string.
 
 ### setMetaData
 
-```java
+```
 public void setMetaData(PHXRawFile metaData)
 ```
 
 ### finalize
 
-```java
+```
 protected void finalize()
                  throws java.lang.Throwable
 ```
@@ -788,7 +788,7 @@ Although close should be called manually before garbage collection, do so here a
 
 ### equalsNatural
 
-```java
+```
 public boolean equalsNatural(PHXSimpleType toCompare)
 ```
 Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is different than `Comparable` in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets, and may behave oddly if put in those circumstances.
@@ -804,7 +804,7 @@ Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is 
 
 ### fromObject
 
-```java
+```
 public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
@@ -823,13 +823,13 @@ NOTE: while it might be logical to think you can create a `PHX(Type)Array` from,
 
 ### _setContentFromOther
 
-```java
+```
 protected final void _setContentFromOther(PHXRawFile variable)
 ```
 
 ### Accept
 
-```java
+```
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
 Accept a Visitor.
@@ -848,7 +848,7 @@ Accept a Visitor.
 
 ### close
 
-```java
+```
 public void close()
 ```
 
@@ -858,7 +858,7 @@ public void close()
 
 ### createCopy
 
-```java
+```
 public PHXRawFile createCopy()
 ```
 Create a copy of this instance, including the value and metadata.

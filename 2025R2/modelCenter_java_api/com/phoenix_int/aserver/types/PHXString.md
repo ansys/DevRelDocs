@@ -13,7 +13,7 @@
 
 ---
 
-```java
+```
 public class PHXString
 extends PHXSimpleType
 ```
@@ -60,7 +60,7 @@ The type for Strings. This class adds the following features to the [PHXSimpleTy
 | `java.lang.String` | `getEnumValuesStr()`<br>Interface function to pass out the enumeration array as a comma separated string |
 | `java.lang.String` | `getValue()`<br>retrieves the current value of the variable |
 | `static void` | `main(java.lang.String[] args)` |
-| `void` | `setEnumAliases(java.lang.String values)`<br>takes a comma seperated string of values and fills the enumeration aliases list with values. |
+| `void` | `setEnumAliases(java.lang.String values)`<br>takes a comma separated string of values and fills the enumeration aliases list with values. |
 | `void` | `setEnumAliases(java.lang.String[] values)`<br>Takes an array of values and fills the enumeration aliases list with values. |
 | `void` | `setEnumValues(java.lang.String input)`<br>sets enum values |
 | `void` | `setEnumValues(java.lang.String[] values)`<br>sets enum values |
@@ -80,31 +80,31 @@ The type for Strings. This class adds the following features to the [PHXSimpleTy
 
 ### PHXString
 
-```java
+```
 public PHXString()
 ```
 
 ### PHXString
 
-```java
+```
 public PHXString(java.lang.String value)
 ```
 
 ### PHXString
 
-```java
+```
 public PHXString(PHXString other)
 ```
 Clone another PHXString's value and metadata.
 
 **Parameters:**
-- `other`- the other PHXString to clone.
+- `other` - the other PHXString to clone.
 
 ## Method Detail
 
 ### getValue
 
-```java
+```
 public java.lang.String getValue()
 ```
 retrieves the current value of the variable
@@ -114,35 +114,35 @@ retrieves the current value of the variable
 
 ### setValue
 
-```java
+```
 public void setValue(java.lang.String v)
               throws java.lang.IllegalArgumentException
 ```
 sets the value for the variable
 
 **Parameters:**
-- `v`- the value
+- `v` - the value
 
 **Throws:**
 - `java.lang.IllegalArgumentException`
 
 ### setValue
 
-```java
+```
 public void setValue(PHXStringBuffer v)
               throws java.lang.IllegalArgumentException
 ```
 sets the value for the variable
 
 **Parameters:**
-- `v`- the value
+- `v` - the value
 
 **Throws:**
 - `java.lang.IllegalArgumentException`
 
 ### toString2
 
-```java
+```
 public PHXStringBuffer toString2()
 ```
 converts the variable to a PHXStringBuffer
@@ -152,7 +152,7 @@ converts the variable to a PHXStringBuffer
 
 ### toString
 
-```java
+```
 public java.lang.String toString()
 ```
 converts the variable to a string
@@ -168,27 +168,27 @@ converts the variable to a string
 
 ### fromString2
 
-```java
+```
 public void fromString2(PHXStringBuffer value)
 ```
 converts a PHXStringBuffer representation to the internal value
 
 **Parameters:**
-- `value`- the value to convert
+- `value` - the value to convert
 
 ### fromString
 
-```java
+```
 public void fromString(java.lang.String value)
 ```
 converts a String representation to the internal value
 
 **Parameters:**
-- `value`- the value to convert
+- `value` - the value to convert
 
 ### getEnumValues
 
-```java
+```
 public java.lang.String[] getEnumValues()
 ```
 lists enum values
@@ -198,7 +198,7 @@ lists enum values
 
 ### getEnumValuesStr
 
-```java
+```
 public java.lang.String getEnumValuesStr()
 ```
 Interface function to pass out the enumeration array as a comma separated string
@@ -208,47 +208,47 @@ Interface function to pass out the enumeration array as a comma separated string
 
 ### setEnumValues
 
-```java
+```
 public void setEnumValues(java.lang.String input)
 ```
 sets enum values
 
 **Parameters:**
-- `input:`- list of enum values
+- `input:` - list of enum values
 
 ### setEnumValues
 
-```java
+```
 public void setEnumValues(java.lang.String[] values)
 ```
 sets enum values
 
 **Parameters:**
-- `values:`- list of enum values
+- `values:` - list of enum values
 
 ### setEnumAliases
 
-```java
+```
 public void setEnumAliases(java.lang.String values)
 ```
-takes a comma seperated string of values and fills the enumeration aliases list with values.
+takes a comma separated string of values and fills the enumeration aliases list with values.
 
 **Parameters:**
-- `values`- A comma seperated string of enumeration aliases
+- `values` - A comma separated string of enumeration aliases
 
 ### setEnumAliases
 
-```java
+```
 public void setEnumAliases(java.lang.String[] values)
 ```
 Takes an array of values and fills the enumeration aliases list with values. If null, aliases will be set to an empty list.
 
 **Parameters:**
-- `values`- string array of enumeration aliases
+- `values` - string array of enumeration aliases
 
 ### getEnumAliases
 
-```java
+```
 public java.lang.String[] getEnumAliases()
 ```
 An interface function for the enumeration array
@@ -258,7 +258,7 @@ An interface function for the enumeration array
 
 ### getEnumAliasesStr
 
-```java
+```
 public java.lang.String getEnumAliasesStr()
 ```
 An interface function for the enumeration array
@@ -268,55 +268,55 @@ An interface function for the enumeration array
 
 ### _copyMetadataFromOther
 
-```java
+```
 protected final void _copyMetadataFromOther(PHXString other)
 ```
 Clone another PHXString's metadata.
 
 **Parameters:**
-- `other`- the other PHXString
+- `other` - the other PHXString
 
 ### arrayToString
 
-```java
+```
 @Deprecated
 public static java.lang.String arrayToString(java.lang.String[] sa)
 ```
 **Deprecated.** Do not use, does not generate correct strings.
 
 **Parameters:**
-- `sa`-
+- `sa` -
 
 **Returns:**
 
 ### stringToArray
 
-```java
+```
 public static java.lang.String[] stringToArray(java.lang.String s)
 ```
 
 ### arrayToStringEscaped
 
-```java
+```
 public static java.lang.String arrayToStringEscaped(java.lang.String[] sa)
 ```
 Quotes each element of the array using c-style escape sequences, then builds a comma separated list of the elements with quotes around each element.
 
 **Parameters:**
-- `sa`- The array to read
+- `sa` - The array to read
 
 **Returns:**
 - The generated string.
 
 ### main
 
-```java
+```
 public static void main(java.lang.String[] args)
 ```
 
 ### equalsNatural
 
-```java
+```
 public boolean equalsNatural(PHXSimpleType toCompare)
                       throws PHXTypeMismatchException
 ```
@@ -326,17 +326,17 @@ Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is 
 - `equalsNatural` in class [`PHXSimpleType`](PHXSimpleType.md)
 
 **Parameters:**
-- `toCompare`-
+- `toCompare` -
 
 **Returns:**
 - a negative number if this object is less than `toCompare`, a positive number if this object is greater than `toCompare`, and zero if these two objects are equal.
 
 **Throws:**
-- `PHXTypeMismatchException`- if the given PHXSimpleType cannot be compared with this object.
+- `PHXTypeMismatchException` - if the given PHXSimpleType cannot be compared with this object.
 
 ### fromObject
 
-```java
+```
 public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
@@ -349,30 +349,30 @@ Load the value of this object from the specified object. This will read the obje
 - `fromObject` in class [`PHXSimpleType`](PHXSimpleType.md)
 
 **Parameters:**
-- `toRead`- to object from which to load this objects value.
+- `toRead` - to object from which to load this objects value.
 
 **Throws:**
 - [`PHXInvalidTypeException`](PHXInvalidTypeException.md)- if the specified object is of an invalid type or there is an error in conversion.
 
 ### Accept
 
-```java
+```
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
 Accept a Visitor.
 
 **Type Parameters:**
-- `T`- Type of the result of the visit.
+- `T` - Type of the result of the visit.
 
 **Parameters:**
-- `visitor`- The visitor to accept.
+- `visitor` - The visitor to accept.
 
 **Returns:**
 - The results of the visit.
 
 ### createCopy
 
-```java
+```
 public PHXString createCopy()
 ```
 Create a copy of this instance, including the value and metadata.

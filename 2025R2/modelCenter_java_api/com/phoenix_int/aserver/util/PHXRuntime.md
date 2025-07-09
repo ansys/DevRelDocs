@@ -11,7 +11,7 @@
 --- 
 **Declaration**
 
-```java
+```
 public class PHXRuntime
 extends java.lang.Object
 ```
@@ -46,7 +46,7 @@ This is a utility class for running processes. The class wraps the user's desire
 
 ### DEFAULT_SHELL
 
-```java
+```
 public static final java.lang.String DEFAULT_SHELL
 ```
 
@@ -58,7 +58,7 @@ public static final java.lang.String DEFAULT_SHELL
 
 ### PHXRuntime
 
-```java
+```
 public PHXRuntime()
 ```
 
@@ -66,7 +66,7 @@ public PHXRuntime()
 
 ### setShell
 
-```java
+```
 public void setShell(java.lang.String shell)
 ```
 
@@ -78,7 +78,7 @@ Sets the shell to use when running commands (applies to UNIX only)
 
 ### getShell
 
-```java
+```
 public java.lang.String getShell()
 ```
 
@@ -86,19 +86,19 @@ Returns the shell used to run programs
 
 ### setJobListener
 
-```java
+```
 public PHXRuntime setJobListener(com.phoenix_int.aserver.util.IPHXProcessJobInfoListener jobListener)
 ```
 
 ### getJobListener
 
-```java
+```
 public com.phoenix_int.aserver.util.IPHXProcessJobInfoListener getJobListener()
 ```
 
 ### exec
 
-```java
+```
 public java.lang.Process exec(java.lang.String cmd,
                               java.lang.String baseDir)
                        throws java.io.IOException
@@ -117,7 +117,7 @@ Runs the specified command. The function first switches to the proper directory.
 
 ### exec2
 
-```java
+```
 public PHXProcess exec2(java.lang.String cmd,
                         java.lang.String baseDir,
                         boolean addErrorChecks)
@@ -138,6 +138,6 @@ Runs the specified command. The function first switches to the proper directory.
 
 ### main
 
-```java
+```
 public static void main(java.lang.String[] args)
 ```

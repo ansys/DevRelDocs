@@ -17,7 +17,7 @@
 --- 
 **Declaration**
 
-```java
+```
 public class PHXScriptWrapperAPIException
 extends java.lang.Exception
 ```
@@ -47,7 +47,7 @@ Represents a problem with transferring data in a `PHXRowFieldFile` object.
 
 ### PHXScriptWrapperAPIException
 
-```java
+```
 public PHXScriptWrapperAPIException(java.lang.String message)
 ```
 Creates a new instance of `PHXScriptWrapperAPIException`

@@ -9,7 +9,7 @@
 ```
 
 **Declaration**
-```java
+```
 public class PHXInvokeReturn
 extends java.lang.Object
 ```
@@ -46,14 +46,14 @@ To use this class, simply return it from a method defined on a [`PHXSimpleSelfMa
 ## Constructor Detail
 
 ### PHXInvokeReturn
-```java
+```
 public PHXInvokeReturn()
 ```
 
 ## Method Detail
 
 ### getReturnString
-```java
+```
 public java.lang.String getReturnString()
 ```
 Retrieves the return string for the custom method.
@@ -62,7 +62,7 @@ Retrieves the return string for the custom method.
 - the return string
 
 ### setReturnString
-```java
+```
 public void setReturnString(java.lang.String returnStr)
 ```
 Sets the return string for the custom method.
@@ -71,7 +71,7 @@ Sets the return string for the custom method.
 - `returnStr` - the return string
 
 ### getDownloadInputs
-```java
+```
 public boolean getDownloadInputs()
 ```
 Retrieves whether the invocation should trigger a redownloading of input values.
@@ -80,7 +80,7 @@ Retrieves whether the invocation should trigger a redownloading of input values.
 - should the input values be redownloaded after the invocation?
 
 ### setDownloadInputs
-```java
+```
 public void setDownloadInputs(boolean downloadInputs)
 ```
 Set whether input values should be redownloaded after the invocation.
@@ -89,7 +89,7 @@ Set whether input values should be redownloaded after the invocation.
 - `downloadInputs` - Sends a hint to the client as to whether input values should be re-downloaded after the invocation.
 
 ### toString
-```java
+```
 public java.lang.String toString()
 ```
 Handle converting this class to a string in XML format.

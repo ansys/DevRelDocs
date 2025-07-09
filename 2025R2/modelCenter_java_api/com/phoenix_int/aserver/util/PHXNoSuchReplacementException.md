@@ -19,7 +19,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXNoSuchReplacementException
 extends java.lang.Exception
 ```
@@ -49,6 +49,6 @@ An exception that is thrown when a replacement string cannot be found.
 
 ### PHXNoSuchReplacementException
 
-```java
+```
 public PHXNoSuchReplacementException()
 ```

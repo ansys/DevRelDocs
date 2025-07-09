@@ -17,7 +17,7 @@
 - [PHXNoSuchWriteableObjectException](PHXNoSuchWriteableObjectException.md)
 
 **Declaration**
-```java
+```
 public class PHXNoSuchObjectException
 extends java.lang.Exception
 ```
@@ -46,12 +46,12 @@ An exception that is thrown when an object cannot be found.
 ## Constructor Detail
 
 ### PHXNoSuchObjectException
-```java
+```
 protected PHXNoSuchObjectException(int i, java.lang.String msg)
 ```
 
 ### PHXNoSuchObjectException
-```java
+```
 public PHXNoSuchObjectException(java.lang.String object)
 ```
 **Parameters:**
@@ -60,7 +60,7 @@ public PHXNoSuchObjectException(java.lang.String object)
 ## Method Detail
 
 ### getInvalidObject
-```java
+```
 public java.lang.String getInvalidObject()
 ```
 Retrieves the object name that was invalid.

@@ -19,7 +19,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXNoSuchTokenException
 extends java.lang.Exception
 ```
@@ -53,13 +53,13 @@ An exception that is thrown when an object cannot be found.
 
 ### PHXNoSuchTokenException
 
-```java
+```
 public PHXNoSuchTokenException()
 ```
 
 ### PHXNoSuchTokenException
 
-```java
+```
 public PHXNoSuchTokenException(java.lang.String msg)
 ```
 
@@ -68,7 +68,7 @@ public PHXNoSuchTokenException(java.lang.String msg)
 
 ### PHXNoSuchTokenException
 
-```java
+```
 public PHXNoSuchTokenException(java.lang.String msg, 
                                java.lang.Throwable cause)
 ```
@@ -79,7 +79,7 @@ public PHXNoSuchTokenException(java.lang.String msg,
 
 ### PHXNoSuchTokenException
 
-```java
+```
 public PHXNoSuchTokenException(java.lang.Throwable cause)
 ```
 

@@ -22,7 +22,7 @@
 --- 
 **Declaration**
 
-```java
+```
 @Deprecated
 public interface OutputFile
 extends ParseableFile
@@ -51,7 +51,7 @@ Interface for output files (not file variables) used in script-wrappers
 
 ### parse
 
-```java
+```
 void parse()
     throws java.io.IOException,
            com.phoenix_int.aserver.util.PHXInvalidFormatException,
@@ -77,7 +77,7 @@ void parse()
 
 ### setFileToParse
 
-```java
+```
 void setFileToParse(java.lang.String fileName)
 ```
 @Deprecated. Set the file to be parsed

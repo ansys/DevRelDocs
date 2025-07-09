@@ -11,7 +11,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXFileMonitor
 extends java.lang.Object
 ```
@@ -56,7 +56,7 @@ This class is not designed to be re-used after ending the current monitor.
 
 ### PHXFileMonitor
 
-```java
+```
 public PHXFileMonitor(java.lang.String monitor, 
                       IPHXFileCallback callback)
 ```
@@ -68,7 +68,7 @@ Create a monitor
 
 ### PHXFileMonitor
 
-```java
+```
 public PHXFileMonitor(PHXRawFile monitor, 
                       IPHXFileCallback callback)
 ```
@@ -77,7 +77,7 @@ public PHXFileMonitor(PHXRawFile monitor,
 
 ### setPollDelay
 
-```java
+```
 public void setPollDelay(long pd)
                   throws java.lang.IllegalArgumentException
 ```
@@ -88,26 +88,26 @@ Poll Delay is how long to sleep in milliseconds between polling the file for mor
 
 ### getPollDelay
 
-```java
+```
 public long getPollDelay()
 ```
 
 ### endMonitor
 
-```java
+```
 public void endMonitor()
 ```
 Signals this monitor to stop monitoring and return as soon as possible.
 
 ### waitForMonitorDeath
 
-```java
+```
 public void waitForMonitorDeath()
 ```
 
 ### signalFileChange
 
-```java
+```
 public void signalFileChange()
 ```
 Tells the thread to stop monitoring but to send an error to the client saying that the file has been changed.
@@ -116,7 +116,7 @@ This class WAITS for the monitor to stop monitoring on the sub-thread before it 
 
 ### doMonitor
 
-```java
+```
 public void doMonitor()
                throws java.io.IOException
 ```

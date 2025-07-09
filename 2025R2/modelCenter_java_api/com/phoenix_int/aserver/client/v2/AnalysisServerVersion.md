@@ -16,7 +16,7 @@
 --- 
 **Declaration**
 
-```java
+```
 public class AnalysisServerVersion
 extends java.lang.Object
 implements java.lang.Comparable<AnalysisServerVersion>
@@ -42,13 +42,13 @@ Server protocol version. Useful for determining if a server supports specific fe
 | `java.lang.String` | `toString()` |
 
 ### Methods inherited from class java.lang.Object
-`clone, finalize, getClass, notify, notifyAll, wait, wait, wait`
+`clone`, `finalize`, `getClass`, `notify`, `notifyAll`, `wait`, `wait`, `wait`
 
 ## Constructor Detail
 
 ### AnalysisServerVersion
 
-```java
+```
 public AnalysisServerVersion(int major,
                              int minor,
                              int build)
@@ -64,28 +64,28 @@ Constructor.
 
 ### getMajor
 
-```java
+```
 public int getMajor()
 ```
 Get the major version.
 
 ### getMinor
 
-```java
+```
 public int getMinor()
 ```
 Get the minor version.
 
 ### getBuild
 
-```java
+```
 public int getBuild()
 ```
 Get the build.
 
 ### hashCode
 
-```java
+```
 public int hashCode()
 ```
 **Overrides:**
@@ -93,7 +93,7 @@ public int hashCode()
 
 ### equals
 
-```java
+```
 public boolean equals(java.lang.Object obj)
 ```
 **Overrides:**
@@ -101,7 +101,7 @@ public boolean equals(java.lang.Object obj)
 
 ### compareTo
 
-```java
+```
 public int compareTo(AnalysisServerVersion o)
 ```
 **Specified by:**
@@ -109,7 +109,7 @@ public int compareTo(AnalysisServerVersion o)
 
 ### toString
 
-```java
+```
 public java.lang.String toString()
 ```
 **Overrides:**

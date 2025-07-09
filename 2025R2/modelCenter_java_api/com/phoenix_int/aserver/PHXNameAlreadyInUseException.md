@@ -14,7 +14,7 @@
 - `java.io.Serializable`
 
 **Declaration**
-```java
+```
 public class PHXNameAlreadyInUseException
 extends java.lang.Exception
 ```
@@ -38,7 +38,7 @@ An exception that is thrown when trying to create a new object with a name that 
 ## Constructor Detail
 
 ### PHXNameAlreadyInUseException
-```java
+```
 public PHXNameAlreadyInUseException(java.lang.String name)
 ```
 **Parameters:**

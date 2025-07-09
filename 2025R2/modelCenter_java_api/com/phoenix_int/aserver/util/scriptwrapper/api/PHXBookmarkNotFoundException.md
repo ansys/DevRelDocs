@@ -19,7 +19,7 @@
 ---
 
 **Declaration**
-```java
+```
 public class PHXBookmarkNotFoundException
 extends java.lang.Exception
 ```
@@ -47,6 +47,6 @@ extends java.lang.Exception
 
 ### PHXBookmarkNotFoundException
 
-```java
+```
 public PHXBookmarkNotFoundException(java.lang.String bookmarkName)
 ```

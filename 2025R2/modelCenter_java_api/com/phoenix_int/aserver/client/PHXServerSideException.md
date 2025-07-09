@@ -17,7 +17,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXServerSideException
 extends java.lang.Exception
 ```
@@ -36,15 +36,15 @@ An exception that is thrown when an error is returned from the server.
 ## Method Summary
 
 ### Methods inherited from class java.lang.Throwable
-`addSuppressed, fillInStackTrace, getCause, getLocalizedMessage, getMessage, getStackTrace, getSuppressed, initCause, printStackTrace, printStackTrace, printStackTrace, setStackTrace, toString`
+`addSuppressed`, `fillInStackTrace`, `getCause`, `getLocalizedMessage`, `getMessage`, `getStackTrace`, `getSuppressed`, `initCause`, `printStackTrace`, `printStackTrace`, `printStackTrace`, `setStackTrace`, `toString``
 
 ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `wait`, `wait`, `wait`
 
 ## Constructor Detail
 
 ### PHXServerSideException
-```java
+```
 public PHXServerSideException(java.lang.String msg)
 ```
 Constructor

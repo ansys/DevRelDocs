@@ -30,11 +30,11 @@
 
 **Declaration**
 
-```java
+```
 public interface IPHXType
 ```
 
-The interface for all ModelCenter types. ModelCenter types are usually composite classes that provide subproperties for things like descriptions, units, etc. Implementing this interface permits ModelCenter Remote Execution to set and get values directly from the object even though the value may actually be stored as a sub-property.
+The interface for all MCRE types. MCRE types are usually composite classes that provide subproperties for things like descriptions, units, etc. Implementing this interface permits ModelCenter Remote Execution to set and get values directly from the object even though the value may actually be stored as a sub-property.
 
 ## Method Summary
 
@@ -47,7 +47,7 @@ The interface for all ModelCenter types. ModelCenter types are usually composite
 
 ### fromString
 
-```java
+```
 void fromString(java.lang.String value)
 ```
 Set the value for the variable using a string
@@ -57,7 +57,7 @@ Set the value for the variable using a string
 
 ### toString
 
-```java
+```
 java.lang.String toString()
 ```
 Gets the value for the variable

@@ -12,7 +12,7 @@
 --- 
 **Declaration**
 
-```java
+```
 public class PHXGeomInfo
 extends java.lang.Object
 ```
@@ -42,13 +42,13 @@ This is a utility class that mirrors the structures in ModelCenter. If you want 
 
 ### PHXGeomInfo
 
-```java
+```
 public PHXGeomInfo()
 ```
 
 ### PHXGeomInfo
 
-```java
+```
 public PHXGeomInfo(boolean hasRotation,
                    boolean hasTranslation,
                    boolean hasColor,
@@ -62,18 +62,18 @@ public PHXGeomInfo(boolean hasRotation,
 
 ### getOrientation
 
-```java
+```
 public PHXOrientation getOrientation()
 ```
 
 ### getAppearance
 
-```java
+```
 public PHXAppearance getAppearance()
 ```
 
 ### getMassProperties
 
-```java
+```
 public PHXMassProperties getMassProperties()
 ```

@@ -6,7 +6,7 @@
 - [`IPHXComponent`](IPHXComponent.md)
 
 **Declaration**
-```java
+```
 public interface IPHXAnalysis
 extends IPHXComponent
 ```
@@ -29,7 +29,7 @@ If you also want to support Athena, you should extend `IPHXAthenaAnalysis` inste
 ## Method Detail
 
 ### execute
-```java
+```
 void execute()
       throws java.lang.Exception
 ```

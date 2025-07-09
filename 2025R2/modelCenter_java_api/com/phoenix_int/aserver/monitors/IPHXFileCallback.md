@@ -5,7 +5,7 @@
 ---
 **Declaration**
 
-```java
+```
 public interface IPHXFileCallback
 ```
 
@@ -22,7 +22,7 @@ Callback interface to signal data available on a file being monitored.
 
 ### dataReady
 
-```java
+```
 boolean dataReady(java.lang.String data)
 ```
 Called when data is ready.
@@ -35,7 +35,7 @@ Called when data is ready.
 
 ### fileTruncated
 
-```java
+```
 boolean fileTruncated()
 ```
 Indicates that the file was truncated back to 0 bytes.

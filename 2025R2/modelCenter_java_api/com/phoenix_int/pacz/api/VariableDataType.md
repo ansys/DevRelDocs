@@ -19,7 +19,7 @@
 
 `IRuntimeVariables` are now using the canonical PHX type identifiers which are literal strings (see [`com.phoenix_int.pacz.api.v2.IRuntimeVariables`](v2/IRuntimeVariable.md))
 
-```java
+```
 @Deprecated
 public enum VariableDataType
 extends java.lang.Enum<VariableDataType>
@@ -61,7 +61,7 @@ Supported variable data types
 
 ### UNSPECIFIED
 
-```java
+```
 public static final VariableDataType UNSPECIFIED
 ```
 
@@ -71,7 +71,7 @@ Variable type is unspecified
 
 ### BOOLEAN
 
-```java
+```
 public static final VariableDataType BOOLEAN
 ```
 
@@ -81,7 +81,7 @@ Variable is of boolean type
 
 ### STRING
 
-```java
+```
 public static final VariableDataType STRING
 ```
 
@@ -91,7 +91,7 @@ Variable is of string type
 
 ### DOUBLE
 
-```java
+```
 public static final VariableDataType DOUBLE
 ```
 
@@ -101,7 +101,7 @@ Variable is of double type
 
 ### INTEGER
 
-```java
+```
 public static final VariableDataType INTEGER
 ```
 
@@ -111,7 +111,7 @@ Variable is of integer type
 
 ### FILE
 
-```java
+```
 public static final VariableDataType FILE
 ```
 
@@ -121,7 +121,7 @@ Variable is of file type
 
 ### BOOLEAN_ARRAY
 
-```java
+```
 public static final VariableDataType BOOLEAN_ARRAY
 ```
 
@@ -131,7 +131,7 @@ Variable is of boolean array type
 
 ### STRING_ARRAY
 
-```java
+```
 public static final VariableDataType STRING_ARRAY
 ```
 
@@ -141,7 +141,7 @@ Variable is of string array type
 
 ### DOUBLE_ARRAY
 
-```java
+```
 public static final VariableDataType DOUBLE_ARRAY
 ```
 
@@ -151,7 +151,7 @@ Variable is of double array type
 
 ### INTEGER_ARRAY
 
-```java
+```
 public static final VariableDataType INTEGER_ARRAY
 ```
 
@@ -161,7 +161,7 @@ Variable is of integer array type
 
 ### FILE_ARRAY
 
-```java
+```
 public static final VariableDataType FILE_ARRAY
 ```
 
@@ -173,7 +173,7 @@ Variable is of file array type
 
 ### values
 
-```java
+```
 public static VariableDataType[] values()
 ```
 
@@ -181,7 +181,7 @@ public static VariableDataType[] values()
 
 Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows:
 
-```java
+```
 for (VariableDataType c : VariableDataType.values())
     System.out.println(c);
 ```
@@ -191,7 +191,7 @@ for (VariableDataType c : VariableDataType.values())
 
 ### valueOf
 
-```java
+```
 public static VariableDataType valueOf(java.lang.String name)
 ```
 
@@ -211,7 +211,7 @@ Returns the enum constant of this type with the specified name. The string must 
 
 ### toString
 
-```java
+```
 public java.lang.String toString()
 ```
 

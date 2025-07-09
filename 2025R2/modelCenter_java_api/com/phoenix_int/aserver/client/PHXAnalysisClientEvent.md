@@ -16,7 +16,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXAnalysisClientEvent
 extends java.util.EventObject
 ```
@@ -39,15 +39,15 @@ This class is an event for the [`PHXAnalysisClient`](PHXAnalysisClient.md) class
 | `com.phoenix_int.aserver.client.PHXResponse` | `getResponse()`<br>retrieves the response |
 
 ### Methods inherited from class java.util.EventObject
-`getSource, toString`
+`getSource`, `toString`
 
 ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `wait`, `wait`, `wait`
 
 ## Method Detail
 
 ### getResponse
-```java
+```
 public com.phoenix_int.aserver.client.PHXResponse getResponse()
 ```
 retrieves the response

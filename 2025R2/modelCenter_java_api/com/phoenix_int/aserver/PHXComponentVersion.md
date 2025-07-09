@@ -9,7 +9,7 @@
 ```
 
 **Declaration**
-```java
+```
 public class PHXComponentVersion
 extends java.lang.Object
 ```
@@ -46,13 +46,13 @@ This class represents a version on a revision history tree for a version control
 ## Constructor Detail
 
 ### PHXComponentVersion
-```java
+```
 public PHXComponentVersion(java.lang.String name)
 ```
 Constructs a version with a given name
 
 ### PHXComponentVersion
-```java
+```
 public PHXComponentVersion(java.lang.String name, 
                           java.lang.String author, 
                           java.lang.String description, 
@@ -67,7 +67,7 @@ Constructs a version with the specified meta data
 - `date` - The date of the version
 
 ### PHXComponentVersion
-```java
+```
 public PHXComponentVersion(org.w3c.dom.Element versionNode)
                     throws java.io.IOException
 ```

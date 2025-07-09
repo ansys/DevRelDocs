@@ -15,7 +15,7 @@
 
 **Declaration**
 
-```java
+```
 @Deprecated
 public interface IPHXVersionedLibrarian2
 extends IPHXVersionedLibrarian
@@ -41,7 +41,7 @@ This extends the [`IPHXLibrarian`](IPHXLibrarian.md) interface to include versio
 
 ### getBranchesAndTags
 
-```java
+```
 java.lang.String getBranchesAndTags()
                              throws java.lang.Exception
 ```

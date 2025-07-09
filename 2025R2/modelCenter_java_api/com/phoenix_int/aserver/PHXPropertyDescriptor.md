@@ -9,7 +9,7 @@
 ```
 
 **Declaration**
-```java
+```
 public class PHXPropertyDescriptor
 extends java.lang.Object
 ```
@@ -55,20 +55,20 @@ A utility class used by [PHXSimpleSelfManager](PHXSimpleSelfManager.md), [PHXSim
 ## Constructor Detail
 
 ### PHXPropertyDescriptor
-```java
+```
 public PHXPropertyDescriptor()
 ```
 Creates a property descriptor with all values set to "unknown".
 
 ### PHXPropertyDescriptor
-```java
+```
 public PHXPropertyDescriptor(java.beans.PropertyDescriptor prop)
 ```
 **Parameters:**
 - `prop` - the PropertyDescriptor
 
 ### PHXPropertyDescriptor
-```java
+```
 public PHXPropertyDescriptor(java.lang.String name, 
                              java.lang.String type, 
                              boolean canSet, 
@@ -81,7 +81,7 @@ public PHXPropertyDescriptor(java.lang.String name,
 - `canSet` - true if the property is writeable
 
 ### PHXPropertyDescriptor
-```java
+```
 public PHXPropertyDescriptor(java.lang.String name, 
                              java.lang.Object object, 
                              boolean canSet, 
@@ -94,7 +94,7 @@ public PHXPropertyDescriptor(java.lang.String name,
 - `canSet` - true if the property is writeable
 
 ### PHXPropertyDescriptor
-```java
+```
 public PHXPropertyDescriptor(java.beans.PropertyDescriptor prop, 
                              java.lang.Object parent)
                       throws java.lang.IllegalArgumentException
@@ -109,7 +109,7 @@ public PHXPropertyDescriptor(java.beans.PropertyDescriptor prop,
 ## Method Detail
 
 ### getCanGet
-```java
+```
 public boolean getCanGet()
 ```
 Determines if the property can be retrieved.
@@ -118,7 +118,7 @@ Determines if the property can be retrieved.
 - true if the property can be retrieved
 
 ### setCanGet
-```java
+```
 public void setCanGet(boolean flag)
 ```
 Sets whether the property can be retrieved.
@@ -127,7 +127,7 @@ Sets whether the property can be retrieved.
 - `flag` - true if the property can be retrieved
 
 ### getCanSet
-```java
+```
 public boolean getCanSet()
 ```
 Determines if the property can be modified.
@@ -136,7 +136,7 @@ Determines if the property can be modified.
 - true if the property can be modified
 
 ### setCanSet
-```java
+```
 public void setCanSet(boolean flag)
 ```
 Sets whether the property can be modified.
@@ -145,7 +145,7 @@ Sets whether the property can be modified.
 - `flag` - true if the property can be modified
 
 ### getName
-```java
+```
 public java.lang.String getName()
 ```
 Retrieves the property name.
@@ -154,7 +154,7 @@ Retrieves the property name.
 - the name of the property
 
 ### getType
-```java
+```
 public java.lang.String getType()
 ```
 Retrieves the type of the property as a string.
@@ -163,7 +163,7 @@ Retrieves the type of the property as a string.
 - the type of the property as a String
 
 ### getTypeClass
-```java
+```
 public java.lang.Class getTypeClass()
 ```
 Retrieves the type of the property as a Class object.
@@ -172,12 +172,12 @@ Retrieves the type of the property as a Class object.
 - the type of the property as a Class object
 
 ### getValue
-```java
+```
 public java.lang.String getValue()
 ```
 
 ### getValue2
-```java
+```
 public PHXStringBuffer getValue2()
     throws java.io.IOException
 ```
@@ -186,7 +186,7 @@ public PHXStringBuffer getValue2()
 - `java.io.IOException`
 
 ### getValue3
-```java
+```
 public PHXStringBuffer getValue3()
     throws java.io.IOException
 ```
@@ -195,12 +195,12 @@ public PHXStringBuffer getValue3()
 - `java.io.IOException`
 
 ### getSource
-```java
+```
 public java.lang.Object getSource()
 ```
 
 ### toString
-```java
+```
 public java.lang.String toString()
 ```
 Converts the property to a readable format.
@@ -212,7 +212,7 @@ Converts the property to a readable format.
 - the property in String format
 
 ### asValueDescriptor
-```java
+```
 public java.lang.String asValueDescriptor()
 ```
 Converts the property to a machine-readable format.
@@ -221,7 +221,7 @@ Converts the property to a machine-readable format.
 - the property in String format
 
 ### asValueDescriptor2
-```java
+```
 public void asValueDescriptor2(PHXStringBuffer out)
                         throws java.io.IOException
 ```
@@ -234,7 +234,7 @@ Converts the property to a readable format. Returns a [util/PHXStringBuffer](uti
 - `java.io.IOException`
 
 ### asValueDescriptor3
-```java
+```
 public void asValueDescriptor3(PHXStringBuffer out)
                         throws java.io.IOException
 ```
@@ -247,7 +247,7 @@ Converts the property to a readable format. Returns a [util/PHXStringBuffer](uti
 - `java.io.IOException`
 
 ### asPropertyDescriptor
-```java
+```
 public static void asPropertyDescriptor(java.lang.StringBuffer out, 
                                         java.lang.String name, 
                                         java.lang.String type, 
@@ -264,7 +264,7 @@ Stringify the property descriptor data.
 - `canGet` - whether the property can be read
 
 ### asValueDescriptor
-```java
+```
 public static void asValueDescriptor(java.lang.StringBuffer out, 
                                      java.lang.String name, 
                                      java.lang.String type, 

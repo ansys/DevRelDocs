@@ -10,7 +10,7 @@
 
 **Declaration:**
 
-```java
+```
 public class PHXOrientation
 extends java.lang.Object
 ```
@@ -49,7 +49,7 @@ This is a utility class for holding orientation information. The class is used a
 
 ### PHXOrientation
 
-```java
+```
 public PHXOrientation(boolean hasRotation,
                       boolean hasTranslation)
 ```
@@ -62,84 +62,84 @@ public PHXOrientation(boolean hasRotation,
 
 ### getRotX
 
-```java
+```
 public double getRotX()
 ```
 
 ### getRotY
 
-```java
+```
 public double getRotY()
 ```
 
 ### getRotZ
 
-```java
+```
 public double getRotZ()
 ```
 
 ### getHasRotation
 
-```java
+```
 public boolean getHasRotation()
 ```
 
 ### getTransX
 
-```java
+```
 public double getTransX()
 ```
 
 ### getTransY
 
-```java
+```
 public double getTransY()
 ```
 
 ### getTransZ
 
-```java
+```
 public double getTransZ()
 ```
 
 ### getHasTranslation
 
-```java
+```
 public boolean getHasTranslation()
 ```
 
 ### setRotX
 
-```java
+```
 public void setRotX(double v)
 ```
 
 ### setRotY
 
-```java
+```
 public void setRotY(double v)
 ```
 
 ### setRotZ
 
-```java
+```
 public void setRotZ(double v)
 ```
 
 ### setTransX
 
-```java
+```
 public void setTransX(double v)
 ```
 
 ### setTransY
 
-```java
+```
 public void setTransY(double v)
 ```
 
 ### setTransZ
 
-```java
+```
 public void setTransZ(double v)
 ```

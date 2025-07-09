@@ -12,7 +12,7 @@ This is a functional interface and can therefore be used as the assignment targe
 --- 
 **Declaration**
 
-```java
+```
 @FunctionalInterface
 public static interface PHXInternationalize.InternationalizedMessage
 ```
@@ -29,7 +29,7 @@ Interface for a lazily computed translation message. Can be used for example to 
 
 ### computeMessage
 
-```java
+```
 java.lang.String computeMessage()
 ```
 Compute the translation and return the message

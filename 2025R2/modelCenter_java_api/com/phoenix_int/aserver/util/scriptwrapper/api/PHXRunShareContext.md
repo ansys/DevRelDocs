@@ -17,7 +17,7 @@
 --- 
 **Declaration**
 
-```java
+```
 public class PHXRunShareContext
 extends PHXRunShare
 ```
@@ -55,7 +55,7 @@ This class can only handle one single process running at a time. If you need to 
 
 ### PHXRunShareContext
 
-```java
+```
 public PHXRunShareContext(java.lang.String baseDir,
                           java.lang.String wrapperID)
 ```

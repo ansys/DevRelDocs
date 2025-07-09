@@ -13,14 +13,14 @@
 
 **Declaration**
 
-```java
+```
 public class PHXMonitorableStream
 extends java.lang.Object
 ```
 
 This class represents a stream of data which may be monitored by a client which supports progress monitors. To use this class, implement the `IPHXMonitorable` interface and return instances of this class.
 
-```java
+```
  public class monitorableComp implements IPHXAnalysis, IPHXMonitorable
  {
    private PHXMonitorableStream mon1 = new PHXMonitorableStream();
@@ -91,7 +91,7 @@ This class represents a stream of data which may be monitored by a client which 
 
 ### PHXMonitorableStream
 
-```java
+```
 public PHXMonitorableStream()
 ```
 Default Constructor
@@ -100,42 +100,42 @@ Default Constructor
 
 ### addMonitorListener
 
-```java
+```
 public void addMonitorListener(IPHXFileCallback cb)
 ```
 Adds a listener which gets events based on changes to this monitor
 
 ### removeMonitorListener
 
-```java
+```
 public void removeMonitorListener(IPHXFileCallback cb)
 ```
 Removes a listener from this monitor
 
 ### getWriter
 
-```java
+```
 public java.io.Writer getWriter()
 ```
 Gets a java.io.Writer which when written to appends onto this monitor
 
 ### clear
 
-```java
+```
 public void clear()
 ```
 Clears the contents of this monitor
 
 ### getString
 
-```java
+```
 public java.lang.String getString()
 ```
 Gets the current contents of the stream
 
 ### append
 
-```java
+```
 public void append(java.lang.String text)
 ```
 Appends a string to this monitor

@@ -12,7 +12,7 @@
 - [`PHXComponentBranch`](PHXComponentBranch.md), [`PHXComponentDescription`](PHXComponentDescription.md), [`PHXComponentVersion`](PHXComponentVersion.md), [`PHXGroup`](PHXGroup.md), [`PHXMethodDescriptor`](PHXMethodDescriptor.md), [`PHXPropertyDescriptor`](PHXPropertyDescriptor.md), [`PHXVariableInfo`](PHXVariableInfo.md), [`PHXDFTException`](PHXDFTException.md), [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md), [`PHXNoSuchWriteableObjectException`](PHXNoSuchWriteableObjectException.md), [`PHXInvokeReturn`](PHXInvokeReturn.md), [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md), [`PHXInvalidNameException`](PHXInvalidNameException.md)
 
 **Declaration**
-```java
+```
 public interface IPHXComponent
 ```
 
@@ -38,7 +38,7 @@ The above functions are used by the "describe" command in ModelCenter Remote Exe
 ## Method Detail
 
 ### end
-```java
+```
 void end()
          throws java.lang.Exception
 ```

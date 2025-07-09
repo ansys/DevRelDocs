@@ -12,7 +12,7 @@
 
 **Declaration**
 
-```java
+```
 public interface IPHXDescription
 ```
 
@@ -20,7 +20,7 @@ Interface for types with descriptions
 
 Example usage:
 
-```java
+```
  IPHXType var = wrapper.getVariable("myVar");
  if (var instanceof IPHXDescription)
  {
@@ -39,7 +39,7 @@ Example usage:
 
 ### getDescription
 
-```java
+```
 java.lang.String getDescription()
 ```
 Get the variable description
@@ -49,7 +49,7 @@ Get the variable description
 
 ### setDescription
 
-```java
+```
 void setDescription(java.lang.String desc)
 ```
 Set the variable description. This should be a short, one-line description.

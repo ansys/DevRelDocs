@@ -11,7 +11,7 @@
 ---
 **Declaration**
 
-```java
+```
 public class PHXIcon
 extends java.lang.Object
 ```
@@ -44,14 +44,14 @@ This class provides utility functions for loading and creating an icon file.
 
 ### PHXIcon
 
-```java
+```
 public PHXIcon()
 ```
 Creates an icon with values set to "unknown".
 
 ### PHXIcon
 
-```java
+```
 public PHXIcon(java.lang.String iconFileName)
         throws java.io.IOException
 ```
@@ -64,7 +64,7 @@ public PHXIcon(java.lang.String iconFileName)
 
 ### PHXIcon
 
-```java
+```
 public PHXIcon(byte[] iconData, 
                java.lang.String iconType)
 ```
@@ -77,7 +77,7 @@ public PHXIcon(byte[] iconData,
 
 ### getData
 
-```java
+```
 public byte[] getData()
 ```
 Retrieves the data for the image.
@@ -87,7 +87,7 @@ Retrieves the data for the image.
 
 ### getType
 
-```java
+```
 public java.lang.String getType()
 ```
 Retrieves the type for the image.
@@ -97,7 +97,7 @@ Retrieves the type for the image.
 
 ### toImage
 
-```java
+```
 public java.awt.Image toImage()
 ```
 Converts the icon to an Image.
@@ -107,7 +107,7 @@ Converts the icon to an Image.
 
 ### getIconFileName
 
-```java
+```
 public java.lang.String getIconFileName()
 ```
 Gets the file name of the icon. This will return an empty String if the file name is not available.
@@ -117,7 +117,7 @@ Gets the file name of the icon. This will return an empty String if the file nam
 
 ### getIconURI
 
-```java
+```
 public java.net.URI getIconURI()
 ```
 Gets the URI of the icon. If the URI is not available, this will return null.

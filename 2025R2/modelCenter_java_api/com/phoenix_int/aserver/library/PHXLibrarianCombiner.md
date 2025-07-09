@@ -17,7 +17,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXLibrarianCombiner
 extends java.lang.Object
 implements com.phoenix_int.aserver.library.IPHXVersionedLibrarian3
@@ -57,7 +57,7 @@ This class combines several sub-librarians, adding dir lists and component lists
 
 ### PHXLibrarianCombiner
 
-```java
+```
 public PHXLibrarianCombiner()
 ```
 
@@ -65,14 +65,14 @@ public PHXLibrarianCombiner()
 
 ### addLibrarian
 
-```java
+```
 public void addLibrarian(IPHXLibrarian l)
 ```
 Adds a librarian to our list
 
 ### initialize
 
-```java
+```
 public void initialize(com.phoenix_int.aserver.ascore.PHXConnection connection,
                        IPHXFactory factories,
                        com.phoenix_int.aserver.ascore.PHXAServerArgs args,
@@ -83,7 +83,7 @@ The XML initialization information for this class is simply a list of `<libraria
 
 Example:
 
-```java
+```
  <librarianOptions>
   <librarian>
    <librarianClass>com.phoenix_int.aserver.library.PHXDirectoryLibrarian</librarianClass>
@@ -103,7 +103,7 @@ Example:
 
 ### cleanUp
 
-```java
+```
 public void cleanUp()
 ```
 Recursively tells kids to clean themselves up
@@ -113,7 +113,7 @@ Recursively tells kids to clean themselves up
 
 ### listComponents
 
-```java
+```
 public java.util.Collection listComponents(java.lang.String virtualDir)
                                     throws PHXNoSuchCategoryException,
                                            com.phoenix_int.aserver.security.PHXAccessDeniedException
@@ -135,7 +135,7 @@ Returns the components in a specific directory
 
 ### listDirectories
 
-```java
+```
 public java.util.Collection listDirectories(java.lang.String virtualDir)
                                      throws PHXNoSuchCategoryException,
                                             com.phoenix_int.aserver.security.PHXAccessDeniedException
@@ -157,7 +157,7 @@ Returns sub-directories from a specified directory
 
 ### instantiate
 
-```java
+```
 public IPHXComponent instantiate(java.lang.String compClass,
                                  java.lang.String virtualDir)
                           throws java.lang.Exception
@@ -184,7 +184,7 @@ Creates an instance of the specified component.
 
 ### instantiate (overload)
 
-```java
+```
 public IPHXComponent instantiate(java.lang.String compClass,
                                  java.lang.String virtualDir,
                                  java.lang.String connector,
@@ -200,7 +200,7 @@ public IPHXComponent instantiate(java.lang.String compClass,
 
 ### instantiateManaged
 
-```java
+```
 public com.phoenix_int.aserver.PHXComponentResourcePair instantiateManaged(java.lang.String compClass,
                                                                            java.lang.String virtualDir)
                                                                     throws java.lang.Exception
@@ -226,7 +226,7 @@ It is important that this class throws [`PHXNoSuchCategoryException`](PHXNoSuchC
 
 ### instantiateManaged (overload)
 
-```java
+```
 public com.phoenix_int.aserver.PHXComponentResourcePair instantiateManaged(java.lang.String compClass,
                                                                            java.lang.String virtualDir,
                                                                            java.lang.String connector,
@@ -256,7 +256,7 @@ It is important that this class throws [`PHXNoSuchCategoryException`](PHXNoSuchC
 
 ### describe
 
-```java
+```
 public PHXComponentDescription describe(java.lang.String compClass,
                                         java.lang.String virtualDir)
                                  throws java.lang.Exception
@@ -280,7 +280,7 @@ Describes the specified component.
 
 ### getQueues
 
-```java
+```
 public java.lang.String getQueues(java.lang.String compClass,
                                   java.lang.String virtualDir)
                            throws java.lang.Exception
@@ -304,7 +304,7 @@ Get the queues for the specified component.
 
 ### getComponentHistory
 
-```java
+```
 public PHXComponentBranch getComponentHistory(java.lang.String compClass,
                                               java.lang.String virtualDir)
                                        throws java.lang.Exception
@@ -328,7 +328,7 @@ Gets all version information about a particular component.
 
 ### getBranchesAndTags
 
-```java
+```
 public java.lang.String getBranchesAndTags()
                                     throws java.lang.Exception
 ```

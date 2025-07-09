@@ -12,7 +12,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXStringReplacer
 extends java.lang.Object
 ```
@@ -21,7 +21,7 @@ This is a utility class for replacing fields within a string.
 
 Sample Usage:
 
-```java
+```
    PHXVariableReplacer vr = new PHXVariableReplacer( _wrapper );
    PHXStringReplacer r = new PHXStringReplacer( vr );
 
@@ -50,7 +50,7 @@ Sample Usage:
 
 ### PHXStringReplacer
 
-```java
+```
 public PHXStringReplacer(IPHXStringReplacer r)
 ```
 
@@ -58,7 +58,7 @@ public PHXStringReplacer(IPHXStringReplacer r)
 
 ### replace
 
-```java
+```
 public java.lang.String replace(java.lang.String s)
 ```
 Replaces all names starting with "$" with values looked up from the replacer object. If no match is found, the original value is retained.
@@ -73,6 +73,6 @@ Replaces all names starting with "$" with values looked up from the replacer obj
 
 ### main
 
-```java
+```
 public static void main(java.lang.String[] args)
 ```

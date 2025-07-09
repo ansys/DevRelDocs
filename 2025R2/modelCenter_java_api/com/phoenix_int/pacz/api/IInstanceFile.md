@@ -5,7 +5,7 @@
 ---
 **Deprecated:** see [`com.phoenix_int.pacz.api.v2.IInstanceFile`](v2/IInstanceFile.md`)
 
-```java
+```
 @Deprecated
 public interface IInstanceFile
 ```
@@ -23,7 +23,7 @@ Instance file within a component
 
 ### getName
 
-```java
+```
 java.lang.String getName()
 ```
 **Deprecated.** Get name of instance file
@@ -33,7 +33,7 @@ java.lang.String getName()
 
 ### getPath
 
-```java
+```
 java.lang.String getPath()
 ```
 **Deprecated.** Get path of instance file

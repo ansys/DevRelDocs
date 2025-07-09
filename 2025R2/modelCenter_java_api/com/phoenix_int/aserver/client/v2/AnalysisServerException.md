@@ -17,7 +17,7 @@
 
 **Declaration**
 
-```java
+```
 public class AnalysisServerException
 extends java.lang.Exception
 ```
@@ -38,10 +38,10 @@ Exception thrown when a request fails on the server.
 ## Method Summary
 
 ### Methods inherited from class java.lang.Throwable
-`addSuppressed, fillInStackTrace, getCause, getLocalizedMessage, getMessage, getStackTrace, getSuppressed, initCause, printStackTrace, printStackTrace, printStackTrace, setStackTrace, toString`
+`addSuppressed`, `fillInStackTrace`, `getCause`, `getLocalizedMessage`, `getMessage`, `getStackTrace`, `getSuppressed`, `initCause`, `printStackTrace`, `printStackTrace`, `printStackTrace`, `setStackTrace`, `toString`
 
 ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `wait`, `wait`, `wait`
 
 
 
@@ -51,7 +51,7 @@ Exception thrown when a request fails on the server.
 
 **Constructor:** AnalysisServerException
 
-```java
+```
 public AnalysisServerException(java.lang.String message)
 ```
 Constructor.
@@ -63,7 +63,7 @@ Constructor.
 
 **Constructor:** AnalysisServerException
 
-```java
+```
 public AnalysisServerException(java.lang.String message,
                                java.lang.Throwable cause)
 ```

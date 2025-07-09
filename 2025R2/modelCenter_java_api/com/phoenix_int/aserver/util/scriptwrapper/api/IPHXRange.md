@@ -15,7 +15,7 @@
 --- 
 **Declaration**
 
-```java
+```
 public interface IPHXRange
 ```
 
@@ -42,13 +42,13 @@ Interface for defining ranges in script wrapper files.
 
 ### fromString
 
-```java
+```
 void fromString(java.lang.String str)
 ```
 
 ### toString
 
-```java
+```
 java.lang.String toString()
 ```
 
@@ -57,13 +57,13 @@ java.lang.String toString()
 
 ### toString
 
-```java
+```
 java.lang.String toString(boolean fullName)
 ```
 
 ### assertEquals
 
-```java
+```
 void assertEquals(IPHXRange other)
            throws java.lang.Exception
 ```
@@ -73,6 +73,6 @@ void assertEquals(IPHXRange other)
 
 ### getPageName
 
-```java
+```
 java.lang.String getPageName()
 ```

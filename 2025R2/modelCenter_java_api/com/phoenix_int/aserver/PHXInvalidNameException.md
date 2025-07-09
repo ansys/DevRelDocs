@@ -14,7 +14,7 @@
 - `java.io.Serializable`
 
 **Declaration**
-```java
+```
 public class PHXInvalidNameException
 extends java.lang.Exception
 ```
@@ -43,7 +43,7 @@ An exception that is thrown when trying to create a new object using an invalid 
 ## Constructor Detail
 
 ### PHXInvalidNameException
-```java
+```
 public PHXInvalidNameException(java.lang.String name)
 ```
 **Parameters:**
@@ -52,7 +52,7 @@ public PHXInvalidNameException(java.lang.String name)
 ## Method Detail
 
 ### checkName
-```java
+```
 public static void checkName(java.lang.String name)
                       throws PHXInvalidNameException
 ```

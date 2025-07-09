@@ -5,7 +5,7 @@
 ---
 **Deprecated:** see [`com.phoenix_int.pacz.api.v2.IComponentConfig`](v2/IComponentConfig.md)
 
-```java
+```
 @Deprecated
 public interface IComponentConfig
 ```
@@ -41,7 +41,7 @@ Configuration for PACZ file
 
 ### getEnvironment
 
-```java
+```
 Environment getEnvironment()
 ```
 **Deprecated.** Get component environment
@@ -54,7 +54,7 @@ Environment getEnvironment()
 
 ### getRunFolderPreference
 
-```java
+```
 RunFolderPreference getRunFolderPreference()
 ```
 **Deprecated.** Get run folder preference for component
@@ -67,7 +67,7 @@ RunFolderPreference getRunFolderPreference()
 
 ### getVersion
 
-```java
+```
 java.lang.String getVersion()
 ```
 **Deprecated.** Get component version
@@ -77,7 +77,7 @@ java.lang.String getVersion()
 
 ### setVersion
 
-```java
+```
 void setVersion(java.lang.String version)
 ```
 **Deprecated.** Set component version
@@ -87,7 +87,7 @@ void setVersion(java.lang.String version)
 
 ### getDescription
 
-```java
+```
 java.lang.String getDescription()
 ```
 **Deprecated.** Get component description
@@ -97,7 +97,7 @@ java.lang.String getDescription()
 
 ### setDescription
 
-```java
+```
 void setDescription(java.lang.String description)
 ```
 **Deprecated.** Set component description
@@ -107,7 +107,7 @@ void setDescription(java.lang.String description)
 
 ### getRequiredFeatures
 
-```java
+```
 java.util.List<java.lang.String> getRequiredFeatures()
 ```
 **Deprecated.** Get list of features required for component to execute
@@ -117,7 +117,7 @@ java.util.List<java.lang.String> getRequiredFeatures()
 
 ### setRequiredFeatures
 
-```java
+```
 void setRequiredFeatures(java.util.List<java.lang.String> requiredFeatures)
 ```
 **Deprecated.** Set list features required for component to execute
@@ -127,7 +127,7 @@ void setRequiredFeatures(java.util.List<java.lang.String> requiredFeatures)
 
 ### getExecutable
 
-```java
+```
 java.lang.String getExecutable()
 ```
 **Deprecated.** Get name of component executable
@@ -137,7 +137,7 @@ java.lang.String getExecutable()
 
 ### getCommandLineArguments
 
-```java
+```
 java.util.List<java.lang.String> getCommandLineArguments()
 ```
 **Deprecated.** Get command line arguments to be passed to component executable
@@ -147,7 +147,7 @@ java.util.List<java.lang.String> getCommandLineArguments()
 
 ### getInputs
 
-```java
+```
 java.util.List<IRuntimeVariable> getInputs()
 ```
 **Deprecated.** Get component inputs
@@ -160,7 +160,7 @@ java.util.List<IRuntimeVariable> getInputs()
 
 ### getOutputs
 
-```java
+```
 java.util.List<IRuntimeVariable> getOutputs()
 ```
 **Deprecated.** Get component outputs
@@ -173,7 +173,7 @@ java.util.List<IRuntimeVariable> getOutputs()
 
 ### getInstanceFiles
 
-```java
+```
 java.util.List<IInstanceFile> getInstanceFiles()
 ```
 **Deprecated.** Get component instance files
@@ -186,7 +186,7 @@ java.util.List<IInstanceFile> getInstanceFiles()
 
 ### getProperties
 
-```java
+```
 java.util.Map<java.lang.String,java.lang.String> getProperties()
 ```
 **Deprecated.** Get additional component properties
@@ -196,7 +196,7 @@ java.util.Map<java.lang.String,java.lang.String> getProperties()
 
 ### getASComponent
 
-```java
+```
 java.lang.String getASComponent()
 ```
 **Deprecated.** Get ModelCenter Remote Execution component name
@@ -206,7 +206,7 @@ java.lang.String getASComponent()
 
 ### getHelpUri
 
-```java
+```
 java.net.URI getHelpUri()
 ```
 **Deprecated.** Get URI of help to use for component
@@ -216,7 +216,7 @@ java.net.URI getHelpUri()
 
 ### getIconUri
 
-```java
+```
 java.net.URI getIconUri()
 ```
 **Deprecated.** Get URI of icon to use for component
@@ -226,7 +226,7 @@ java.net.URI getIconUri()
 
 ### setAdditionalConfigValue
 
-```java
+```
 void setAdditionalConfigValue(java.lang.String valueName, 
                               java.lang.Object value)
 ```
@@ -238,7 +238,7 @@ void setAdditionalConfigValue(java.lang.String valueName,
 
 ### getAdditionalConfigValues
 
-```java
+```
 java.util.Map<java.lang.String,java.lang.Object> getAdditionalConfigValues()
 ```
 **Deprecated.** Get additional configuration values as key-value pair map
@@ -248,7 +248,7 @@ java.util.Map<java.lang.String,java.lang.Object> getAdditionalConfigValues()
 
 ### getAdditionalConfigValue
 
-```java
+```
 java.lang.Object getAdditionalConfigValue(java.lang.String valueName)
 ```
 **Deprecated.** Get additional configuration value based on specified value name.

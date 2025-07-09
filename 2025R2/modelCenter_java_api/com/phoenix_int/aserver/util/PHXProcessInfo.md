@@ -11,7 +11,7 @@
 ---
 **Declaration**
 
-```java
+```
 public class PHXProcessInfo
 extends java.lang.Object
 ```
@@ -48,7 +48,7 @@ This class represents information about a running process on the system. It incl
 
 ### PHXProcessInfo
 
-```java
+```
 protected PHXProcessInfo()
 ```
 Constructs an empty process
@@ -57,7 +57,7 @@ Constructs an empty process
 
 ### getProcesses
 
-```java
+```
 public static PHXProcessInfo[] getProcesses(int parent) 
                                      throws java.io.IOException
 ```
@@ -68,7 +68,7 @@ Lists the specified process' children.
 
 ### getProcesses
 
-```java
+```
 public static PHXProcessInfo[] getProcesses() 
                                      throws java.io.IOException
 ```
@@ -79,63 +79,63 @@ Lists all processes on the system
 
 ### getCommand
 
-```java
+```
 public java.lang.String getCommand()
 ```
 Returns the command name of this process
 
 ### getProcessID
 
-```java
+```
 public int getProcessID()
 ```
 Gets the platform dependent process ID number
 
 ### getParentProcessID
 
-```java
+```
 public int getParentProcessID()
 ```
 Gets the parent process ID of this process
 
 ### getPercentCPU
 
-```java
+```
 public float getPercentCPU()
 ```
 Gets the percentage of the CPU usage, if available
 
 ### getMemUsage
 
-```java
+```
 public long getMemUsage()
 ```
 Gets the memory usage of this process, if available
 
 ### getTime
 
-```java
+```
 public long getTime()
 ```
 Returns the amount of CPU time this process has used, if available.
 
 ### getElapsedTime
 
-```java
+```
 public long getElapsedTime()
 ```
 Returns the wall clock time for this process, if available
 
 ### toXML
 
-```java
+```
 public java.lang.String toXML()
 ```
 Converts this process information into a usable XML description
 
 ### toString
 
-```java
+```
 public java.lang.String toString()
 ```
 Converts this process info into a one-line readable string
@@ -145,7 +145,7 @@ Converts this process info into a one-line readable string
 
 ### main
 
-```java
+```
 public static void main(java.lang.String[] args) 
                  throws java.io.IOException
 ```

@@ -19,7 +19,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXNoSuchIconException
 extends java.lang.Exception
 ```
@@ -54,7 +54,7 @@ An exception that is thrown when an invalid icon is specified.
 
 ### PHXNoSuchIconException
 
-```java
+```
 public PHXNoSuchIconException(java.lang.String name)
 ```
 
@@ -65,7 +65,7 @@ public PHXNoSuchIconException(java.lang.String name)
 
 ### getInvalidIcon
 
-```java
+```
 public java.lang.String getInvalidIcon()
 ```
 Retrieves the name that was invalid

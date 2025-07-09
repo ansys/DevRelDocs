@@ -18,7 +18,7 @@
 
 **Declaration**
 
-```java
+```
 public class Environment
 extends java.util.HashMap<java.lang.String,java.lang.String>
 ```
@@ -72,7 +72,7 @@ Environment variables for component configuration
 
 ### COMPONENT_DIR
 
-```java
+```
 public static final java.lang.String COMPONENT_DIR
 ```
 Pre-defined component directory environment variable
@@ -84,14 +84,14 @@ Pre-defined component directory environment variable
 
 ### Environment
 
-```java
+```
 public Environment()
 ```
 Constructor
 
 ### Environment
 
-```java
+```
 public Environment(java.util.Map<java.lang.String,java.lang.String> dictionary)
 ```
 Copy constructor
@@ -103,7 +103,7 @@ Copy constructor
 
 ### evaluateString
 
-```java
+```
 public java.lang.String evaluateString(java.lang.String str)
 ```
 Substitute environment variables in specified string with corresponding environment values
@@ -116,7 +116,7 @@ Substitute environment variables in specified string with corresponding environm
 
 ### evaluateKey
 
-```java
+```
 public java.lang.String evaluateKey(java.lang.String key)
 ```
 Get the value for the specified environment variable

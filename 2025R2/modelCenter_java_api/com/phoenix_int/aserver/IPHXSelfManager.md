@@ -9,7 +9,7 @@
 - [`PHXSimpleSelfManager`](PHXSimpleSelfManager.md), [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md), [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md)
 
 **Declaration**
-```java
+```
 public interface IPHXSelfManager
 ```
 
@@ -31,7 +31,7 @@ This interface is for components that determine their properties at runtime. The
 ## Method Detail
 
 ### getValue
-```java
+```
 java.lang.String getValue(java.lang.String name)
                    throws PHXNoSuchObjectException, 
                           java.lang.Exception
@@ -49,7 +49,7 @@ Function for retrieving a specified value.
 - `java.lang.Exception` - an exception that may occur
 
 ### setValue
-```java
+```
 void setValue(java.lang.String name, 
               java.lang.String value)
        throws PHXNoSuchObjectException, 
@@ -68,7 +68,7 @@ Function for setting a specified value.
 - `java.lang.Exception` - an exception that may occur
 
 ### getPropertyDescriptors
-```java
+```
 PHXPropertyDescriptor[] getPropertyDescriptors(java.lang.String name)
                                         throws PHXNoSuchObjectException, 
                                                java.lang.Exception
@@ -86,7 +86,7 @@ Function for retrieving the properties of an object.
 - `java.lang.Exception` - an exception that may occur
 
 ### getMethodDescriptors
-```java
+```
 PHXMethodDescriptor[] getMethodDescriptors()
                                     throws java.lang.Exception
 ```
@@ -99,7 +99,7 @@ Function for retrieving the methods of an object.
 - `java.lang.Exception` - an exception that may occur
 
 ### invoke
-```java
+```
 java.lang.String invoke(java.lang.String methodName)
                  throws java.lang.Exception
 ```

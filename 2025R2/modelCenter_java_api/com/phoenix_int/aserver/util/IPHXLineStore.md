@@ -4,7 +4,7 @@
 
 **Declaration**
 
-```java
+```
 public interface IPHXLineStore
 ```
 
@@ -21,14 +21,14 @@ This is the interface for holding a set of lines. It is used by the [`PHXFilePar
 
 ### getNumLines
 
-```java
+```
 int getNumLines()
 ```
 Gets the total number of lines
 
 ### getLine
 
-```java
+```
 java.lang.String getLine(int index) 
                   throws java.io.IOException
 ```
@@ -48,7 +48,7 @@ Retrieves the specified line
 
 ### close
 
-```java
+```
 void close()
 ```
 Closes any resources associated with this line store

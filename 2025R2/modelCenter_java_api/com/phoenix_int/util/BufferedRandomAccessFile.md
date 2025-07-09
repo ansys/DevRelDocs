@@ -12,7 +12,7 @@
 ---
 **Declaration**
 
-```java
+```
 public class BufferedRandomAccessFile
 extends java.lang.Object
 ```
@@ -63,49 +63,49 @@ Replacement for RandomAccessFile to use buffered I/O as much as possible. Mostly
 
 ### _wrapped
 
-```java
+```
 protected java.io.RandomAccessFile _wrapped
 ```
 
 ### _filePos
 
-```java
+```
 protected long _filePos
 ```
 
 ### _fileLen
 
-```java
+```
 protected long _fileLen
 ```
 
 ### _actualPos
 
-```java
+```
 protected long _actualPos
 ```
 
 ### _bufStart
 
-```java
+```
 protected long _bufStart
 ```
 
 ### _buffer
 
-```java
+```
 protected byte[] _buffer
 ```
 
 ### _writeOffset
 
-```java
+```
 protected int _writeOffset
 ```
 
 ### _readOffset
 
-```java
+```
 protected int _readOffset
 ```
 
@@ -113,7 +113,7 @@ protected int _readOffset
 
 ### BufferedRandomAccessFile
 
-```java
+```
 public BufferedRandomAccessFile(java.io.File file,
                                 java.lang.String mode,
                                 int bufSize)
@@ -132,7 +132,7 @@ public BufferedRandomAccessFile(java.io.File file,
 
 ### length
 
-```java
+```
 public long length()
             throws java.io.IOException
 ```
@@ -142,13 +142,13 @@ public long length()
 
 ### seek
 
-```java
+```
 public void seek(long position)
 ```
 
 ### close
 
-```java
+```
 public void close()
            throws java.io.IOException
 ```
@@ -158,7 +158,7 @@ public void close()
 
 ### write
 
-```java
+```
 public void write(byte[] buf)
            throws java.io.IOException
 ```
@@ -168,7 +168,7 @@ public void write(byte[] buf)
 
 ### write
 
-```java
+```
 public void write(byte[] buf,
                   int offset,
                   int len)
@@ -180,7 +180,7 @@ public void write(byte[] buf,
 
 ### flush
 
-```java
+```
 public void flush()
            throws java.io.IOException
 ```
@@ -190,7 +190,7 @@ public void flush()
 
 ### read
 
-```java
+```
 public int read()
          throws java.io.IOException
 ```
@@ -200,7 +200,7 @@ public int read()
 
 ### read
 
-```java
+```
 public int read(byte[] buf)
          throws java.io.IOException
 ```
@@ -210,7 +210,7 @@ public int read(byte[] buf)
 
 ### read
 
-```java
+```
 public int read(byte[] buf,
                 int offset,
                 int len)
@@ -222,7 +222,7 @@ public int read(byte[] buf,
 
 ### _readBuf
 
-```java
+```
 public boolean _readBuf()
                  throws java.io.IOException
 ```

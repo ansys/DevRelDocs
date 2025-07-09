@@ -12,7 +12,7 @@
 
 **Declaration**
 
-```java
+```
 public class AnalysisServerResponse
 extends java.lang.Object
 ```
@@ -54,7 +54,7 @@ Implementation of `PHXResponse` along lines of `PHXResponse` in C++ code.
 | `boolean` | `isText()`<br>Does the response have text content? |
 
 ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `toString`, `wait`, `wait`, `wait`
 
 
 ## Constructor Detail
@@ -62,7 +62,7 @@ Implementation of `PHXResponse` along lines of `PHXResponse` in C++ code.
 
 **Constructor:** AnalysisServerResponse
 
-```java
+```
 public AnalysisServerResponse()
 ```
 
@@ -72,7 +72,7 @@ public AnalysisServerResponse()
 
 ### getID
 
-```java
+```
 public java.lang.String getID()
 ```
 Get the unique identifier of the message.
@@ -80,7 +80,7 @@ Get the unique identifier of the message.
 
 ### getHost
 
-```java
+```
 public java.lang.String getHost()
 ```
 Get the host which sent the message.
@@ -88,7 +88,7 @@ Get the host which sent the message.
 
 ### getResponseType
 
-```java
+```
 public AnalysisServerResponseType getResponseType()
 ```
 Get the type of response.
@@ -96,7 +96,7 @@ Get the type of response.
 
 ### getStringData
 
-```java
+```
 public java.lang.String getStringData()
 ```
 Get the string data; only valid if format is `Normal` or `Extended`.
@@ -104,7 +104,7 @@ Get the string data; only valid if format is `Normal` or `Extended`.
 
 ### getErrorMessage
 
-```java
+```
 public java.lang.String getErrorMessage()
 ```
 Get the server error; only valid if response type is `ServerError` or `ConnectionError`.
@@ -112,7 +112,7 @@ Get the server error; only valid if response type is `ServerError` or `Connectio
 
 ### getBinaryData
 
-```java
+```
 public byte[] getBinaryData()
 ```
 Get the binary data; only valid if format is `Extended` or `Icon`.
@@ -120,7 +120,7 @@ Get the binary data; only valid if format is `Extended` or `Icon`.
 
 ### isText
 
-```java
+```
 public boolean isText()
 ```
 Does the response have text content?
@@ -128,7 +128,7 @@ Does the response have text content?
 
 ### hasText
 
-```java
+```
 public boolean hasText()
 ```
 Does this response have actual string data (i.e. string data is not empty)?
@@ -136,7 +136,7 @@ Does this response have actual string data (i.e. string data is not empty)?
 
 ### isBinary
 
-```java
+```
 public boolean isBinary()
 ```
 Is this a response with binary data?
@@ -144,7 +144,7 @@ Is this a response with binary data?
 
 ### isSuccess
 
-```java
+```
 public boolean isSuccess()
 ```
 Is the response a successful response?
@@ -152,7 +152,7 @@ Is the response a successful response?
 
 ### isError
 
-```java
+```
 public boolean isError()
 ```
 Does the response represent an error?
@@ -160,7 +160,7 @@ Does the response represent an error?
 
 ### asVersion
 
-```java
+```
 public AnalysisServerVersion asVersion()
                                 throws java.lang.IllegalStateException,
                                        AnalysisServerException
@@ -174,7 +174,7 @@ Get the response as a server version.
 
 ### asComponentDescription
 
-```java
+```
 public PHXComponentDescription asComponentDescription(boolean asXml)
                                                throws java.lang.IllegalStateException,
                                                       AnalysisServerException
@@ -194,7 +194,7 @@ Parse a component description.
 
 ### asList
 
-```java
+```
 public java.util.List<java.lang.String> asList()
                                         throws java.lang.IllegalStateException
 ```
@@ -209,7 +209,7 @@ Convert the string data to a list of properties.
 
 ### asMethodDescriptors
 
-```java
+```
 public java.util.List<PHXMethodDescriptor> asMethodDescriptors()
                                                         throws java.lang.IllegalStateException
 ```
@@ -224,7 +224,7 @@ Convert the string data to a list of method descriptors.
 
 ### asPropertyDescriptors
 
-```java
+```
 public java.util.List<PHXPropertyDescriptor> asPropertyDescriptors()
                                                             throws java.lang.IllegalStateException,
                                                                    AnalysisServerException
@@ -241,7 +241,7 @@ Parse this response as a sequence of property descriptors.
 
 ### asPropertyDescriptors
 
-```java
+```
 public java.util.List<PHXPropertyDescriptor> asPropertyDescriptors(java.lang.String baseObjectName)
                                                             throws java.lang.IllegalStateException,
                                                                    AnalysisServerException
@@ -261,7 +261,7 @@ Parse this response as a sequence of property descriptors.
 
 ### asChunkDescriptor
 
-```java
+```
 public com.phoenix_int.aserver.client.v2.ChunkDescriptor asChunkDescriptor()
                                                                     throws java.lang.IllegalStateException, 
                                                                            AnalysisServerException
@@ -278,7 +278,7 @@ Parse the response as a chunk descriptor.
 
 ### asValueDescriptors
 
-```java
+```
 public java.util.List<PHXPropertyValue> asValueDescriptors()
                                                     throws java.lang.IllegalStateException,
                                                            AnalysisServerException
@@ -295,7 +295,7 @@ Parse the response as a list of value descriptors.
 
 ### asVersionHistory
 
-```java
+```
 public PHXComponentBranch asVersionHistory()
                                     throws java.lang.IllegalStateException,
                                            AnalysisServerException
@@ -312,7 +312,7 @@ Parse the response as a version history.
 
 ### asHierarchy
 
-```java
+```
 public java.util.Map<java.lang.String,AnalysisVariableValue> asHierarchy()
                                                                   throws java.lang.IllegalStateException,
                                                                          AnalysisServerException

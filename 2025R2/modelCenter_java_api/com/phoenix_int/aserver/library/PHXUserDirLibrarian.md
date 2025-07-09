@@ -17,7 +17,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXUserDirLibrarian
 extends java.lang.Object
 implements com.phoenix_int.aserver.library.IPHXLibrarian2
@@ -54,7 +54,7 @@ This librarian provides "user" directories by looking in a user path or by readi
 
 ### PHXUserDirLibrarian
 
-```java
+```
 public PHXUserDirLibrarian()
 ```
 
@@ -62,7 +62,7 @@ public PHXUserDirLibrarian()
 
 ### initialize
 
-```java
+```
 public void initialize(com.phoenix_int.aserver.ascore.PHXConnection connection,
                        IPHXFactory factories,
                        com.phoenix_int.aserver.ascore.PHXAServerArgs args,
@@ -73,7 +73,7 @@ There are 2 options for this class. The first is `userPath`, which is a semi-col
 
 The XML format is:
 
-```java
+```
  <librarianOptions>
   <userPath>path1/here;path2</userPath>
   <smartUserScan/>
@@ -89,7 +89,7 @@ Note: the mere existence of the `smartUserScan` tag turns the option on.
 
 ### cleanUp
 
-```java
+```
 public void cleanUp()
 ```
 Tells this librarian to clean up any resources used.
@@ -99,7 +99,7 @@ Tells this librarian to clean up any resources used.
 
 ### listComponents
 
-```java
+```
 public java.util.Collection listComponents(java.lang.String virtualDir)
                                     throws PHXNoSuchCategoryException,
                                            com.phoenix_int.aserver.security.PHXAccessDeniedException
@@ -121,7 +121,7 @@ Returns the components in a specific directory
 
 ### listDirectories
 
-```java
+```
 public java.util.Collection listDirectories(java.lang.String virtualDir)
                                      throws PHXNoSuchCategoryException,
                                             com.phoenix_int.aserver.security.PHXAccessDeniedException
@@ -143,7 +143,7 @@ Lists any available sub-directories from a particular directory
 
 ### instantiate
 
-```java
+```
 public IPHXComponent instantiate(java.lang.String compClass,
                                  java.lang.String virtualDir,
                                  java.lang.String connector,
@@ -173,7 +173,7 @@ Creates an instance of the specified component.
 
 ### instantiate (overload)
 
-```java
+```
 public IPHXComponent instantiate(java.lang.String compClass,
                                  java.lang.String virtualDir)
                           throws java.lang.Exception
@@ -199,7 +199,7 @@ It is important that this class throws [`PHXNoSuchCategoryException`](PHXNoSuchC
 
 ### instantiateManaged
 
-```java
+```
 public com.phoenix_int.aserver.PHXComponentResourcePair instantiateManaged(java.lang.String compClass,
                                                                            java.lang.String virtualDir,
                                                                            java.lang.String connector,
@@ -229,7 +229,7 @@ It is important that this class throws [`PHXNoSuchCategoryException`](PHXNoSuchC
 
 ### instantiateManaged (overload)
 
-```java
+```
 public com.phoenix_int.aserver.PHXComponentResourcePair instantiateManaged(java.lang.String compClass,
                                                                            java.lang.String virtualDir)
                                                                     throws java.lang.Exception
@@ -255,7 +255,7 @@ It is important that this class throws [`PHXNoSuchCategoryException`](PHXNoSuchC
 
 ### describe
 
-```java
+```
 public PHXComponentDescription describe(java.lang.String compClass,
                                         java.lang.String virtualDir)
                                  throws java.lang.Exception
@@ -279,7 +279,7 @@ Describes the specified component.
 
 ### getQueues
 
-```java
+```
 public java.lang.String getQueues(java.lang.String compClass,
                                   java.lang.String virtualDir)
                            throws java.lang.Exception

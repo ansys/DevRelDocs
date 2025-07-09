@@ -9,7 +9,7 @@
 ```
 
 **Declaration**
-```java
+```
 public class PHXGroup
 extends java.lang.Object
 ```
@@ -55,7 +55,7 @@ A utility class for holding sub-variables. Internally used to manage groups of v
 ## Constructor Detail
 
 ### PHXGroup
-```java
+```
 public PHXGroup(java.lang.String name)
          throws PHXInvalidNameException
 ```
@@ -69,7 +69,7 @@ public PHXGroup(java.lang.String name)
 ## Method Detail
 
 ### getName
-```java
+```
 public java.lang.String getName()
 ```
 retrieves the name of the group
@@ -78,7 +78,7 @@ retrieves the name of the group
 - the name of the group
 
 ### addGroup
-```java
+```
 public void addGroup(PHXGroup group)
               throws PHXNameAlreadyInUseException,
                      PHXInvalidNameException
@@ -93,7 +93,7 @@ adds a child group to the group
 - PHXInvalidNameException
 
 ### getGroup
-```java
+```
 public PHXGroup getGroup(java.lang.String childName)
                   throws PHXNoSuchObjectException
 ```
@@ -109,7 +109,7 @@ retrieves a child group.
 - `PHXNoSuchObjectException` - thrown if the child group is not found
 
 ### getGroup2
-```java
+```
 public PHXGroup getGroup2(java.lang.String childName)
 ```
 retrieves a child group. Does not throw an exception on failure.
@@ -121,7 +121,7 @@ retrieves a child group. Does not throw an exception on failure.
 - the child group. Returns null on failure
 
 ### makeGroup
-```java
+```
 public PHXGroup makeGroup(java.lang.String childName)
                    throws PHXNameAlreadyInUseException,
                           PHXInvalidNameException
@@ -139,7 +139,7 @@ creates a child group. If the group already exists, it is retrieved
 - `PHXInvalidNameException`
 
 ### removeGroup
-```java
+```
 public void removeGroup(java.lang.String childName)
                  throws java.lang.Exception
 ```
@@ -152,7 +152,7 @@ remove a child group. If the group doesn't exist, it just returns
 - `java.lang.Exception`
 
 ### getNumGroups
-```java
+```
 public int getNumGroups()
 ```
 retrieves the number of subgroups in the group.
@@ -161,7 +161,7 @@ retrieves the number of subgroups in the group.
 - the number of subgroups
 
 ### getGroups
-```java
+```
 public java.util.Enumeration getGroups()
 ```
 retrieves the Enumeration of subgroups in the group.
@@ -170,7 +170,7 @@ retrieves the Enumeration of subgroups in the group.
 - an Enumeration of [`PHXGroup`](PHXGroup.md) objects
 
 ### getGroups2
-```java
+```
 public java.util.Iterator<PHXGroup> getGroups2()
 ```
 retrieves all the subgroups in the group
@@ -179,7 +179,7 @@ retrieves all the subgroups in the group
 - an Iterator of all the [`PHXGroup`](PHXGroup.md) objects.
 
 ### addVariable
-```java
+```
 public void addVariable(PHXVariableInfo varInfo)
                  throws PHXNameAlreadyInUseException,
                         PHXInvalidNameException
@@ -194,7 +194,7 @@ stores a variable in the group.
 - [`PHXInvalidNameException`](PHXInvalidNameException.md)
 
 ### getVariableInfo
-```java
+```
 public PHXVariableInfo getVariableInfo(java.lang.String varName)
                                 throws PHXNoSuchObjectException
 ```
@@ -210,7 +210,7 @@ retrieves a variable from the group.
 - [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified variable is not found
 
 ### getVariableInfo2
-```java
+```
 public PHXVariableInfo getVariableInfo2(java.lang.String varName)
 ```
 retrieves a variable from the group. Does not throw an Exception on failure.
@@ -222,7 +222,7 @@ retrieves a variable from the group. Does not throw an Exception on failure.
 - the variable info structure, or null if not found
 
 ### contains
-```java
+```
 public boolean contains(PHXVariableInfo varInfo)
 ```
 checks to see if a variable exists in this group
@@ -234,7 +234,7 @@ checks to see if a variable exists in this group
 - true if the variable is in this group
 
 ### contains
-```java
+```
 public boolean contains(java.lang.String varName)
 ```
 Checks to see if a variable exists in this group.
@@ -246,7 +246,7 @@ Checks to see if a variable exists in this group.
 - true if the variable is in this group.
 
 ### getNumVariables
-```java
+```
 public int getNumVariables()
 ```
 retrieves the number of variables in the group.
@@ -255,7 +255,7 @@ retrieves the number of variables in the group.
 - the number of variables
 
 ### getVariables
-```java
+```
 public java.util.Enumeration getVariables()
 ```
 retrieves the Enumeration of variables in the group.
@@ -264,7 +264,7 @@ retrieves the Enumeration of variables in the group.
 - an Enumeration of [`PHXVariableInfo`](PHXVariableInfo.md) objects
 
 ### getVariables2
-```java
+```
 public java.util.Iterator<PHXVariableInfo> getVariables2()
 ```
 retrieves all of the variables in the group.
@@ -273,19 +273,19 @@ retrieves all of the variables in the group.
 - an Iterator of all the [`PHXVariableInfo`](PHXVariableInfo.md) objects
 
 ### removeAllVariables
-```java
+```
 public void removeAllVariables()
 ```
 removes all variables from the group
 
 ### removeAllGroups
-```java
+```
 public void removeAllGroups()
 ```
 remove all groups from the group
 
 ### removeVariable
-```java
+```
 public void removeVariable(PHXVariableInfo varInfo)
 ```
 removes a variable
@@ -294,7 +294,7 @@ removes a variable
 - `varInfo`- the variable structure to remove
 
 ### toString
-```java
+```
 public java.lang.String toString()
 ```
 Converts this to a string

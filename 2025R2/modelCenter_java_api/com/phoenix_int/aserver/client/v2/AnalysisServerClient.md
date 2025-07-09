@@ -15,7 +15,7 @@
 
 **Declaration**
 
-```java
+```
 public class AnalysisServerClient 
 extends java.lang.Object 
 implements java.lang.AutoCloseable
@@ -122,35 +122,35 @@ ModelCenter Remote Execution client object.
 
 ### AnalysisServerClient
 
-```java
+```
 public AnalysisServerClient()
 ```
 ## Method Detail
 
 ### isConnected
 
-```java
+```
 public boolean isConnected()
 ```
 Is the server connected?
 
 ### getUri
 
-```java
+```
 public java.net.URI getUri()
 ```
 Get the currently-connected URI, or null if none.
 
 ### getHostname
 
-```java
+```
 public java.lang.String getHostname()
 ```
 Returns the currently-connected host, or null if none.
 
 ### supportsBinaryTransfer
 
-```java
+```
 public boolean supportsBinaryTransfer() 
                                throws java.lang.IllegalStateException
 ```
@@ -161,7 +161,7 @@ Does this server support binary transfer?
 
 ### connect
 
-```java
+```
 public void connect(java.net.URI uri) 
              throws javax.security.auth.login.FailedLoginException, 
                     java.io.IOException, 
@@ -179,7 +179,7 @@ Connect to ModelCenter Remote Execution at a specified URI with no timeout. The 
 
 ### connect
 
-```java
+```
 public void connect(java.net.URI uri, 
                     int timeout) 
              throws javax.security.auth.login.FailedLoginException, 
@@ -198,7 +198,7 @@ Connect to ModelCenter Remote Execution at a specified URI. The server must not 
 
 ### connect
 
-```java
+```
 public void connect(java.net.URI uri, 
                     java.lang.String username, 
                     java.lang.String password) 
@@ -220,7 +220,7 @@ Connect to ModelCenter Remote Execution with optional authentication and no time
 
 ### connect
 
-```java
+```
 public void connect(java.net.URI uri, 
                     java.lang.String username, 
                     java.lang.String password, 
@@ -246,7 +246,7 @@ Connect to ModelCenter Remote Execution with optional authentication.
 
 ### connectEmbedded
 
-```java
+```
 public void connectEmbedded() 
                      throws javax.security.auth.login.FailedLoginException, 
                             java.io.IOException
@@ -259,7 +259,7 @@ Connect to the in-process (embedded) ModelCenter Remote Execution instance.
 
 ### connectEmbedded
 
-```java
+```
 public void connectEmbedded(java.lang.String username, 
                             java.lang.String password) 
                      throws javax.security.auth.login.FailedLoginException, 
@@ -277,7 +277,7 @@ Connect to the in-process (embedded) ModelCenter Remote Execution instance.
 
 ### connectEmbedded
 
-```java
+```
 public void connectEmbedded(java.util.Map<java.lang.String,java.lang.Object> initialProperties) 
                      throws javax.security.auth.login.FailedLoginException, java.io.IOException
 ```
@@ -292,7 +292,7 @@ Connect to the in-process (embedded) ModelCenter Remote Execution instance.
 
 ### connectEmbedded
 
-```java
+```
 public void connectEmbedded(java.util.Map<java.lang.String,java.lang.Object> initialProperties, 
                             java.lang.String username, 
                             java.lang.String password) 
@@ -312,7 +312,7 @@ Connect to the in-process (embedded) ModelCenter Remote Execution instance.
 
 ### connectSsh
 
-```java
+```
 public void connectSsh(java.lang.String host, 
                        java.io.InputStream inputStream, 
                        java.io.OutputStream outputStream, 
@@ -336,7 +336,7 @@ Connect to ModelCenter Remote Execution via arbitrary input and output streams. 
 
 ### close
 
-```java
+```
 public void close()
 ```
 Close the connection to the server.
@@ -346,7 +346,7 @@ Close the connection to the server.
 
 ### quit
 
-```java
+```
 public void quit(boolean background) 
           throws java.lang.IllegalStateException, 
                  java.io.IOException, 
@@ -366,7 +366,7 @@ Force quit current analysis, and shut down ModelCenter Remote Execution.
 
 ### finalize
 
-```java
+```
 protected void finalize() 
                  throws java.lang.Throwable
 ```
@@ -380,7 +380,7 @@ Clean up during finalization.
 
 ### getVersion
 
-```java
+```
 public AnalysisServerVersion getVersion() 
                                  throws java.lang.IllegalStateException, 
                                         java.io.IOException, 
@@ -400,7 +400,7 @@ Get the MCRE version.
 
 ### startAsync
 
-```java
+```
 public void startAsync(java.lang.String analysis, 
                        java.lang.String instanceName, 
                        IAnalysisServerCallback callback) 
@@ -420,7 +420,7 @@ Start an analysis.
 
 ### start
 
-```java
+```
 public void start(java.lang.String analysis, 
                   java.lang.String instanceName) 
            throws java.lang.IllegalStateException, 
@@ -442,7 +442,7 @@ Start an analysis.
 
 ### endAsync
 
-```java
+```
 public void endAsync(java.lang.String instanceName, 
                      IAnalysisServerCallback callback) 
               throws java.io.IOException, 
@@ -460,7 +460,7 @@ End an analysis.
 
 ### end
 
-```java
+```
 public void end(java.lang.String instanceName) 
          throws java.lang.IllegalStateException, 
                 java.io.IOException, 
@@ -480,7 +480,7 @@ End an analysis.
 
 ### listAnalysesAsync
 
-```java
+```
 public void listAnalysesAsync(java.lang.String folderPath, 
                               IAnalysisServerCallback callback) 
                        throws java.io.IOException, 
@@ -498,7 +498,7 @@ List the analyses on the server.
 
 ### listAnalyses
 
-```java
+```
 public java.util.List<java.lang.String> listAnalyses(java.lang.String folderPath) 
                                    throws java.lang.IllegalStateException, 
                                           java.io.IOException, 
@@ -521,7 +521,7 @@ List the analyses on the server.
 
 ### executeAsync
 
-```java
+```
 public void executeAsync(java.lang.String instanceName, 
                          boolean background, 
                          IAnalysisServerCallback callback) 
@@ -541,7 +541,7 @@ Execute an analysis.
 
 ### execute
 
-```java
+```
 public void execute(java.lang.String instanceName, 
                     boolean background) 
              throws java.lang.IllegalStateException, 
@@ -563,7 +563,7 @@ Execute an analysis.
 
 ### addProxyClientsAsync
 
-```java
+```
 public void addProxyClientsAsync(java.lang.Iterable<java.lang.String> clientHosts, 
                                  IAnalysisServerCallback callback) 
                           throws java.io.IOException, 
@@ -581,7 +581,7 @@ Add a list of allowed proxy client hosts.
 
 ### addProxyClients
 
-```java
+```
 public void addProxyClients(java.lang.Iterable<java.lang.String> clientHosts) 
                      throws java.lang.IllegalStateException, 
                             java.io.IOException, 
@@ -601,7 +601,7 @@ Add a list of allowed proxy client hosts.
 
 ### getAsync
 
-```java
+```
 public void getAsync(java.lang.String fullPropertyName, 
                      IAnalysisServerCallback callback) 
               throws java.io.IOException, 
@@ -619,7 +619,7 @@ Request the value of a property.
 
 ### get
 
-```java
+```
 public java.lang.String get(java.lang.String fullPropertyName) 
                      throws java.lang.IllegalStateException, 
                             java.io.IOException, 
@@ -642,7 +642,7 @@ Request the value of a property.
 
 ### getFileAsync
 
-```java
+```
 public void getFileAsync(java.io.File destFile, 
                          java.lang.String fullPropertyName, 
                          boolean isBinaryFile, 
@@ -663,7 +663,7 @@ Fetch the contents of a file by property name.
 
 ### getFile
 
-```java
+```
 public void getFile(java.io.File destFile, 
                     java.lang.String fullPropertyName, 
                     boolean isBinaryFile) 
@@ -687,7 +687,7 @@ Get a file by property name.
 
 ### getByUrlAsync
 
-```java
+```
 public void getByUrlAsync(java.io.File destFile, 
                           java.lang.String fullPropertyName, 
                           java.lang.String url, 
@@ -711,7 +711,7 @@ Fetch the contents of a file by URL.
 
 ### getByUrl
 
-```java
+```
 public void getByUrl(java.io.File destFile, 
                      java.lang.String fullPropertyName, 
                      java.lang.String url, 
@@ -737,7 +737,7 @@ Get a file by URL.
 
 ### getByUrl
 
-```java
+```
 public void getByUrl(java.io.File destFile, 
                      java.lang.String url, 
                      boolean isBinaryFile) 
@@ -761,7 +761,7 @@ Convenience overload of `getByUrl(File, String, String, boolean)`. Calls that `g
 
 ### getDimensionsAsync
 
-```java
+```
 public void getDimensionsAsync(java.lang.String fullPropertyName, 
                                IAnalysisServerCallback callback) 
                         throws java.io.IOException, 
@@ -779,7 +779,7 @@ Set the dimensions of an array.
 
 ### getDimensions
 
-```java
+```
 public int[] getDimensions(java.lang.String fullPropertyName) 
                     throws java.lang.IllegalStateException, 
                            java.io.IOException, 
@@ -802,7 +802,7 @@ Set the dimensions of an array.
 
 ### setDimensionsAsync
 
-```java
+```
 public void setDimensionsAsync(java.lang.String fullPropertyName, 
                                int[] dimensions, 
                                IAnalysisServerCallback callback) 
@@ -826,7 +826,7 @@ Set the dimensions of an array.
 
 ### setDimensions
 
-```java
+```
 public void setDimensions(java.lang.String fullPropertyName, 
                           int[] dimensions) 
                    throws java.lang.IllegalStateException, 
@@ -852,7 +852,7 @@ Set the dimensions of an array.
 
 ### setByUrlAsync
 
-```java
+```
 public void setByUrlAsync(java.lang.String fullPropertyName, 
                           java.lang.String url, 
                           IAnalysisServerCallback callback) 
@@ -872,7 +872,7 @@ Set the URL associated with a property
 
 ### setByUrl
 
-```java
+```
 public void setByUrl(java.lang.String fullPropertyName, 
                      java.lang.String url) 
               throws java.lang.IllegalStateException, 
@@ -894,7 +894,7 @@ Set the URL of a file property.
 
 ### setDictionary
 
-```java
+```
 public void setDictionary(java.lang.String xml) 
                    throws java.lang.IllegalStateException, 
                           java.io.IOException,
@@ -914,7 +914,7 @@ Set dictionary on Server.
 
 ### setDictionaryAsync
 
-```java
+```
 public void setDictionaryAsync(java.lang.String xml, 
                                IAnalysisServerCallback callback) 
                         throws java.lang.IllegalStateException, 
@@ -933,7 +933,7 @@ Set dictionary on Server.
 
 ### setAsync
 
-```java
+```
 public void setAsync(java.lang.String fullPropertyName, 
                      java.lang.Object value, 
                      IAnalysisServerCallback callback) 
@@ -953,7 +953,7 @@ Set the value of a property.
 
 ### set
 
-```java
+```
 public void set(java.lang.String fullPropertyName, 
                 java.lang.Object value) 
          throws java.lang.IllegalStateException, 
@@ -975,7 +975,7 @@ Set the value of a property.
 
 ### setAsync
 
-```java
+```
 public void setAsync(java.lang.String fullPropertyName,
                      java.io.File contents,
                      IAnalysisServerCallback callback)
@@ -996,7 +996,7 @@ Set a file variable on the server.
 - `java.lang.UnsupportedOperationException` - if the server does not support file transfer
 ### setAsync
 
-```java
+```
 public void setAsync(java.lang.String fullPropertyName,
                      java.io.File contents,
                      java.lang.String encoding,
@@ -1019,7 +1019,7 @@ Set a file variable on the server.
 - `java.lang.UnsupportedOperationException` - if the server does not support file transfer
 ### set
 
-```java
+```
 public void set(java.lang.String fullPropertyName,
                 java.io.File contents)
          throws java.lang.IllegalStateException,
@@ -1042,7 +1042,7 @@ Set a file variable on the server.
 - `java.lang.UnsupportedOperationException` - if the server does not support binary transfer
 ### set
 
-```java
+```
 public void set(java.lang.String fullPropertyName,
                 java.io.File contents,
                 java.lang.String encoding)
@@ -1067,7 +1067,7 @@ Set a file variable on the server.
 - `java.lang.UnsupportedOperationException` - if the server does not support binary transfer
 ### getVersionHistoryAsync
 
-```java
+```
 public void getVersionHistoryAsync(java.lang.String analysis,
                                    IAnalysisServerCallback callback)
                             throws java.io.IOException,
@@ -1084,7 +1084,7 @@ Get the version history of an analysis.
 - `java.io.IOException` - on communications error
 ### getVersionHistory
 
-```java
+```
 public PHXComponentBranch getVersionHistory(java.lang.String analysis)
                                      throws java.lang.IllegalStateException,
                                             java.io.IOException,
@@ -1106,7 +1106,7 @@ Get the version history of an analysis.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### describeAsync
 
-```java
+```
 public void describeAsync(java.lang.String analysis,
                           IAnalysisServerCallback callback)
                    throws java.io.IOException,
@@ -1123,7 +1123,7 @@ Get the description history of an analysis.
 - `java.io.IOException` - on communications error
 ### describe
 
-```java
+```
 public PHXComponentDescription describe(java.lang.String analysis)
                                  throws java.lang.IllegalStateException,
                                         java.io.IOException,
@@ -1145,7 +1145,7 @@ Get the description of an analysis.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### listPropertiesAsync
 
-```java
+```
 public void listPropertiesAsync(java.lang.String analysis,
                                 IAnalysisServerCallback callback)
                          throws java.io.IOException,
@@ -1162,7 +1162,7 @@ List the properties of an analysis.
 - `java.io.IOException` - on communications error
 ### listProperties
 
-```java
+```
 public java.util.List<PHXPropertyDescriptor> listProperties(java.lang.String analysis)
                                                 throws java.lang.IllegalStateException,
                                                        java.io.IOException,
@@ -1184,7 +1184,7 @@ List the properties of an analysis.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### listMethodsAsync
 
-```java
+```
 public void listMethodsAsync(java.lang.String analysis,
                              IAnalysisServerCallback callback)
                       throws java.io.IOException,
@@ -1201,7 +1201,7 @@ List the methods of an analysis.
 - `java.io.IOException` - on communications error
 ### listMethods
 
-```java
+```
 public java.util.List<PHXMethodDescriptor> listMethods(java.lang.String analysis)
                                                 throws java.lang.IllegalStateException,
                                                        java.io.IOException,
@@ -1223,7 +1223,7 @@ List the methods of an analysis.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### invokeAsync
 
-```java
+```
 public void invokeAsync(java.lang.String instanceName,
                         java.lang.String methodName,
                         IAnalysisServerCallback callback)
@@ -1242,7 +1242,7 @@ Invoke a method on a component instance.
 - `java.io.IOException` - on communications error
 ### invoke
 
-```java
+```
 public java.lang.String invoke(java.lang.String instanceName,
                                java.lang.String methodName)
                         throws java.lang.IllegalStateException,
@@ -1266,7 +1266,7 @@ Invoke a method on a component instance.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### listValuesAsync
 
-```java
+```
 public void listValuesAsync(java.lang.String analysis,
                             IAnalysisServerCallback callback)
                      throws java.io.IOException,
@@ -1283,7 +1283,7 @@ List the values of an analysis.
 - `java.io.IOException` - on communications error
 ### listValues
 
-```java
+```
 public java.util.List<PHXPropertyValue> listValues(java.lang.String analysis)
                                             throws java.lang.IllegalStateException,
                                                    java.io.IOException,
@@ -1305,7 +1305,7 @@ List the values of an analysis.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### listFoldersAsync
 
-```java
+```
 public void listFoldersAsync(java.lang.String folderPath,
                              IAnalysisServerCallback callback)
                       throws java.io.IOException,
@@ -1322,7 +1322,7 @@ List the sub-folders of a folder on the server.
 - `java.io.IOException` - on communications error
 ### listFolders
 
-```java
+```
 public java.util.List<java.lang.String> listFolders(java.lang.String folderPath)
                                              throws java.lang.IllegalStateException,
                                                     java.io.IOException,
@@ -1344,7 +1344,7 @@ List the sub-folders of a folder on the server.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### listInstancesAsync
 
-```java
+```
 public void listInstancesAsync(IAnalysisServerCallback callback)
                         throws java.io.IOException,
                                java.lang.IllegalStateException
@@ -1359,7 +1359,7 @@ List running instances on the server.
 - `java.io.IOException` - on communications error
 ### listInstances
 
-```java
+```
 public java.util.List<java.lang.String> listInstances()
                                                throws java.lang.IllegalStateException,
                                                       java.io.IOException,
@@ -1378,7 +1378,7 @@ List running instances on the server.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### getHierarchyAsync
 
-```java
+```
 public void getHierarchyAsync(java.lang.String instanceName,
                               com.phoenix_int.aserver.client.PHXHierarchyFileMode fileMode,
                               IAnalysisServerCallback callback)
@@ -1397,7 +1397,7 @@ Get the variable hierarchy of a running instance.
 - `java.io.IOException` - on communications error
 ### getHierarchy
 
-```java
+```
 public java.util.Map<java.lang.String,AnalysisVariableValue> getHierarchy(java.lang.String instanceName,
                                                                           com.phoenix_int.aserver.client.PHXHierarchyFileMode fileMode)
                                                                    throws java.lang.IllegalStateException,
@@ -1421,7 +1421,7 @@ Get the variable hierarchy of a running instance.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### setHierarchyAsync
 
-```java
+```
 public void setHierarchyAsync(java.lang.String instanceName,
                               java.lang.Iterable<AnalysisVariableValue> variables,
                               IAnalysisServerCallback callback)
@@ -1439,7 +1439,7 @@ Set the variable hierarchy of a running instance.
 - `java.io.IOException` - on communications error
 ### setHierarchy
 
-```java
+```
 public void setHierarchy(java.lang.String instanceName,
                          java.lang.Iterable<AnalysisVariableValue> variables)
                   throws java.lang.IllegalStateException,
@@ -1460,7 +1460,7 @@ Set the variable hierarchy of a running instance.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### setHierarchyAsync
 
-```java
+```
 public void setHierarchyAsync(java.lang.String instanceName,
                               java.io.File xmlData,
                               java.lang.String xmlEncoding,
@@ -1482,7 +1482,7 @@ Set the variable hierarchy of a running instance.
 - `java.io.IOException` - on communications error
 ### setHierarchy
 
-```java
+```
 public void setHierarchy(java.lang.String instanceName,
                          java.io.File xmlData,
                          java.lang.String xmlEncoding,
@@ -1507,7 +1507,7 @@ Set the variable hierarchy of a running instance.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### deleteRunShareAsync
 
-```java
+```
 public void deleteRunShareAsync(java.lang.String key,
                                 IAnalysisServerCallback callback)
                          throws java.io.IOException,
@@ -1523,7 +1523,7 @@ Delete a run share.
 - `java.io.IOException` - on communications error
 ### deleteRunShare
 
-```java
+```
 public void deleteRunShare(java.lang.String key)
                     throws java.lang.IllegalStateException,
                            java.io.IOException,
@@ -1542,7 +1542,7 @@ Delete a run share.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### getIconAsync
 
-```java
+```
 public void getIconAsync(java.lang.String analysis,
                          IAnalysisServerCallback callback)
                   throws java.io.IOException,
@@ -1558,7 +1558,7 @@ Retrieve an icon.
 - `java.io.IOException` - on communications error
 ### getIcon
 
-```java
+```
 public PHXIcon getIcon(java.lang.String analysis)
                 throws java.lang.IllegalStateException,
                        java.io.IOException,
@@ -1580,7 +1580,7 @@ Retrieve an icon.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### setServerPropertiesAsync
 
-```java
+```
 public void setServerPropertiesAsync(java.util.Map<java.lang.String,?> propertyMap,
                                      IAnalysisServerCallback callback)
                               throws java.io.IOException,
@@ -1596,7 +1596,7 @@ Set server properties.
 - `java.io.IOException` - on communications error
 ### setServerProperties
 
-```java
+```
 public void setServerProperties(java.util.Map<java.lang.String,?> propertyMap)
                          throws java.lang.IllegalStateException,
                                 java.io.IOException,
@@ -1615,7 +1615,7 @@ Set server properties.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### getSystemPropertyAsync
 
-```java
+```
 public void getSystemPropertyAsync(java.lang.String key,
                                    IAnalysisServerCallback callback)
                             throws java.io.IOException,
@@ -1632,7 +1632,7 @@ Request for the server's system property.
 - `java.io.IOException` - on communications error
 ### getSystemProperty
 
-```java
+```
 public java.lang.String getSystemProperty(java.lang.String key)
                                    throws java.lang.IllegalStateException,
                                           java.io.IOException,
@@ -1654,7 +1654,7 @@ Request for the server's system property.
 - `java.lang.InterruptedException` - if the current thread is interrupted waiting for the response
 ### getScratchDirectoryAsync
 
-```java
+```
 public void getScratchDirectoryAsync(IAnalysisServerCallback callback)
                               throws java.io.IOException,
                                      java.lang.IllegalStateException
@@ -1670,7 +1670,7 @@ Request for the server's scratch directory.
 
 ### getScratchDirectory
 
-```java
+```
 public java.lang.String getScratchDirectory()
                                      throws java.lang.IllegalStateException,
                                             java.io.IOException,

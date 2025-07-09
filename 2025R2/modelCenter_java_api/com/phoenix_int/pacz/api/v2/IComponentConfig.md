@@ -5,7 +5,7 @@
 --- 
 **Declaration**
 
-```java
+```
 public interface IComponentConfig
 ```
 
@@ -48,7 +48,7 @@ Configuration for PACZ file
 
 ### getEnvironment
 
-```java
+```
 Environment getEnvironment()
 ```
 Get component environment
@@ -61,7 +61,7 @@ Get component environment
 
 ### getRunFolderPreference
 
-```java
+```
 RunFolderPreference getRunFolderPreference()
 ```
 Get run folder preference for component
@@ -74,7 +74,7 @@ Get run folder preference for component
 
 ### getVersion
 
-```java
+```
 java.lang.String getVersion()
 ```
 Get component version
@@ -84,7 +84,7 @@ Get component version
 
 ### setVersion
 
-```java
+```
 void setVersion(java.lang.String version)
 ```
 Set component version
@@ -94,7 +94,7 @@ Set component version
 
 ### getDescription
 
-```java
+```
 java.lang.String getDescription()
 ```
 Get component description
@@ -104,7 +104,7 @@ Get component description
 
 ### setDescription
 
-```java
+```
 void setDescription(java.lang.String description)
 ```
 Set component description
@@ -114,7 +114,7 @@ Set component description
 
 ### getRequiredFeatures
 
-```java
+```
 java.util.List<java.lang.String> getRequiredFeatures()
 ```
 Get list of features required for component to execute
@@ -124,7 +124,7 @@ Get list of features required for component to execute
 
 ### setRequiredFeatures
 
-```java
+```
 void setRequiredFeatures(java.util.List<java.lang.String> requiredFeatures)
 ```
 Set list features required for component to execute
@@ -134,7 +134,7 @@ Set list features required for component to execute
 
 ### getExecutable
 
-```java
+```
 java.lang.String getExecutable()
 ```
 Get name of component executable
@@ -144,7 +144,7 @@ Get name of component executable
 
 ### getCommandLineArguments
 
-```java
+```
 java.util.List<java.lang.String> getCommandLineArguments()
 ```
 Get command line arguments to be passed to component executable
@@ -154,7 +154,7 @@ Get command line arguments to be passed to component executable
 
 ### getInputs
 
-```java
+```
 java.util.List<IRuntimeVariable> getInputs()
 ```
 Get component inputs
@@ -167,7 +167,7 @@ Get component inputs
 
 ### setInputs
 
-```java
+```
 void setInputs(java.util.List<IRuntimeVariable> inputs)
 ```
 Set component inputs
@@ -180,7 +180,7 @@ Set component inputs
 
 ### getOutputs
 
-```java
+```
 java.util.List<IRuntimeVariable> getOutputs()
 ```
 Get component outputs
@@ -193,7 +193,7 @@ Get component outputs
 
 ### setOutputs
 
-```java
+```
 void setOutputs(java.util.List<IRuntimeVariable> outputs)
 ```
 Set component outputs
@@ -206,7 +206,7 @@ Set component outputs
 
 ### getInstanceFiles
 
-```java
+```
 java.util.List<IInstanceFile> getInstanceFiles()
 ```
 Get component instance files
@@ -219,7 +219,7 @@ Get component instance files
 
 ### setInstanceFiles
 
-```java
+```
 void setInstanceFiles(java.util.List<IInstanceFile> instanceFiles)
 ```
 Set component instance files
@@ -232,7 +232,7 @@ Set component instance files
 
 ### getProperties
 
-```java
+```
 java.util.Map<java.lang.String,java.lang.String> getProperties()
 ```
 Get additional component properties
@@ -242,7 +242,7 @@ Get additional component properties
 
 ### getASComponent
 
-```java
+```
 java.lang.String getASComponent()
 ```
 Get ModelCenter Remote Execution component name
@@ -252,7 +252,7 @@ Get ModelCenter Remote Execution component name
 
 ### getHelpUri
 
-```java
+```
 java.net.URI getHelpUri()
 ```
 Get URI of help to use for component
@@ -262,7 +262,7 @@ Get URI of help to use for component
 
 ### getIconUri
 
-```java
+```
 java.net.URI getIconUri()
 ```
 Get URI of icon to use for component
@@ -272,7 +272,7 @@ Get URI of icon to use for component
 
 ### setIconUri
 
-```java
+```
 void setIconUri(java.net.URI iconUri)
 ```
 Set component icon URI
@@ -282,7 +282,7 @@ Set component icon URI
 
 ### setAdditionalConfigValue
 
-```java
+```
 void setAdditionalConfigValue(java.lang.String valueName, 
                               java.lang.Object value)
 ```
@@ -294,7 +294,7 @@ Set additional configuration value key-value pair in map. If key exists, the exi
 
 ### getAdditionalConfigValues
 
-```java
+```
 java.util.Map<java.lang.String,java.lang.Object> getAdditionalConfigValues()
 ```
 Get additional configuration values as key-value pair map
@@ -304,7 +304,7 @@ Get additional configuration values as key-value pair map
 
 ### getAdditionalConfigValue
 
-```java
+```
 java.lang.Object getAdditionalConfigValue(java.lang.String valueName)
 ```
 Get additional configuration value based on specified value name.
@@ -317,7 +317,7 @@ Get additional configuration value based on specified value name.
 
 ### getAuthor
 
-```java
+```
 java.lang.String getAuthor()
 ```
 Get the author of this component.
@@ -327,7 +327,7 @@ Get the author of this component.
 
 ### setAuthor
 
-```java
+```
 void setAuthor(java.lang.String author)
 ```
 Set the author of this component.
@@ -337,7 +337,7 @@ Set the author of this component.
 
 ### getComment
 
-```java
+```
 java.lang.String getComment()
 ```
 Get the comment associated with this component.
@@ -347,7 +347,7 @@ Get the comment associated with this component.
 
 ### setComment
 
-```java
+```
 void setComment(java.lang.String comment)
 ```
 Set a comment to be associated with this component.

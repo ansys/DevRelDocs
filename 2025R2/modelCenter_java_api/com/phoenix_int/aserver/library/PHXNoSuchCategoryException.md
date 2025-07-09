@@ -19,7 +19,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXNoSuchCategoryException
 extends java.lang.Exception
 ```
@@ -56,7 +56,7 @@ An exception that is thrown when an invalid class category is specified.
 
 ### PHXNoSuchCategoryException
 
-```java
+```
 public PHXNoSuchCategoryException(java.lang.String category)
 ```
 
@@ -65,7 +65,7 @@ public PHXNoSuchCategoryException(java.lang.String category)
 
 ### PHXNoSuchCategoryException
 
-```java
+```
 public PHXNoSuchCategoryException(java.lang.String msg, 
                                   java.lang.String category)
 ```
@@ -77,7 +77,7 @@ Constructor for this exception containing both a specific message and the catego
 
 ### PHXNoSuchCategoryException
 
-```java
+```
 public PHXNoSuchCategoryException(java.lang.String msg, 
                                   java.lang.String category, 
                                   java.lang.Exception ex)
@@ -93,7 +93,7 @@ Constructor which takes a message, a category, and an inner exception.
 
 ### getInvalidCategory
 
-```java
+```
 public java.lang.String getInvalidCategory()
 ```
 Retrieves the category name that was invalid

@@ -16,7 +16,7 @@
 - [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md)
 
 **Declaration**
-```java
+```
 public class PHXSimpleSelfManager2
 extends PHXSimpleSelfManager
 implements IPHXSelfManager2
@@ -47,6 +47,6 @@ This class implements most of the functionality of a self-managing component. It
 ## Constructor Detail
 
 ### PHXSimpleSelfManager2
-```java
+```
 public PHXSimpleSelfManager2()
 ```

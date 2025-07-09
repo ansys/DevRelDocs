@@ -17,7 +17,7 @@
 --- 
 **Declaration**
 
-```java
+```
 public class XPathFile
 extends AbstractFile
 implements OutputFile, OutputFile2, InputFile
@@ -73,7 +73,7 @@ Represents an XML file (not a file variable) used in a script wrapper, with acce
 
 ### XPathFile
 
-```java
+```
 public XPathFile(PHXScriptWrapperObject wrapper,
                  ParseableFile.Mode mode)
 ```
@@ -88,7 +88,7 @@ Construct a new XPathFile
 
 ### addVariable
 
-```java
+```
 public void addVariable(java.lang.String name,
                         java.lang.String type,
                         boolean isInput,
@@ -114,7 +114,7 @@ Add a variable to the wrapper. The transfer of variable values will be handled a
 
 ### newParser
 
-```java
+```
 protected Parser newParser(java.io.File rFile,
                            Parser.Mode pmode)
                     throws java.io.IOException
@@ -136,7 +136,7 @@ Generate a new parser for the given file and mode
 
 ### newParser
 
-```java
+```
 protected com.phoenix_int.aserver.util.XPathParser newParser(java.io.File file)
                                                       throws java.io.IOException,
                                                              org.xml.sax.SAXException,
@@ -158,7 +158,7 @@ Allow a sub-class to form a parser using custom options/features, such as handli
 
 ### getParser
 
-```java
+```
 public com.phoenix_int.aserver.util.XPathParser getParser()
                                                    throws java.io.IOException
 ```
@@ -172,7 +172,7 @@ Get the XPath parser
 
 ### transferVars
 
-```java
+```
 protected void transferVars(ParseableFile.Mode mode)
                      throws java.io.IOException,
                             com.phoenix_int.aserver.util.PHXInvalidFormatException,
@@ -200,7 +200,7 @@ Variables defined using [PHXScriptWrapperObject.addVariable(String, String, bool
 
 ### transferArray
 
-```java
+```
 public void transferArray(PHXSimpleArray var,
                           java.lang.String exp)
                    throws PHXNoSuchTokenException,
@@ -222,7 +222,7 @@ Transfer an array of values, either from the file to the variable, or vice-versa
 
 ### transferVar
 
-```java
+```
 public void transferVar(IPHXType var,
                         java.lang.String exp)
                  throws javax.xml.xpath.XPathExpressionException,
@@ -244,7 +244,7 @@ Transfer a value, either from the file to the variable, or vice-versa, depending
 
 ### parse
 
-```java
+```
 public void parse()
            throws java.io.IOException,
                   com.phoenix_int.aserver.util.PHXInvalidFormatException,
@@ -271,7 +271,7 @@ Parse the output file
 
 ### setFileToParse
 
-```java
+```
 public void setFileToParse(java.lang.String fileName)
 ```
 Set the file to be parsed
@@ -287,7 +287,7 @@ Set the file to be parsed
 
 ### generate
 
-```java
+```
 public void generate()
               throws java.io.IOException,
                      com.phoenix_int.aserver.util.PHXInvalidFormatException,
@@ -313,7 +313,7 @@ Generate the input file
 
 ### setFileToGenerate
 
-```java
+```
 public void setFileToGenerate(java.lang.String fileName)
 ```
 Set the file to be generated

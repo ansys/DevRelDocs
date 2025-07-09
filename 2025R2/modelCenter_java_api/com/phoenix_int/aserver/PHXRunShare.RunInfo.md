@@ -12,7 +12,7 @@
 [PHXRunShare](PHXRunShare.md)
 
 **Declaration**
-```java
+```
 public class PHXRunShare.RunInfo 
 extends java.lang.Object
 ```
@@ -40,19 +40,19 @@ Data structure used to hold info about a currently running command.
 ## Field Detail
 
 ### cmd
-```java
+```
 public java.lang.String cmd
 ```
 
 ### runFolder
-```java
+```
 public java.io.File runFolder
 ```
 
 ## Constructor Detail
 
 ### RunInfo
-```java
+```
 public RunInfo(java.lang.String cmd, java.lang.String runFolder)
 ```
 

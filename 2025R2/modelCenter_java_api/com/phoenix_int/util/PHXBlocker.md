@@ -13,7 +13,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXBlocker
 extends java.lang.Object
 ```
@@ -22,7 +22,7 @@ Class to simplify wait and notify calls. Can be used to block one thread until s
 
 **Sample usage:**
 
-```java
+```
 import com.phoenix_int.util.PHXBlocker;
 //
 public class PHXThingie
@@ -92,7 +92,7 @@ public class PHXThingie
 
 ### rcsid
 
-```java
+```
 public static final java.lang.String rcsid
 ```
 
@@ -103,7 +103,7 @@ public static final java.lang.String rcsid
 
 ### PHXBlocker
 
-```java
+```
 public PHXBlocker()
 ```
 
@@ -111,20 +111,20 @@ public PHXBlocker()
 
 ### setBlock
 
-```java
+```
 public void setBlock(boolean block)
 ```
 Call `setBlock()` before `block()` and before there is any remote chance that any other thread will call `unblock()`.
 
 ### getBlock
 
-```java
+```
 public boolean getBlock()
 ```
 
 ### block
 
-```java
+```
 public boolean block(long timeout)
 ```
 Blocks until unblock is invoked or timeout has been reached
@@ -137,20 +137,20 @@ Blocks until unblock is invoked or timeout has been reached
 
 ### block
 
-```java
+```
 public void block()
 ```
 Blocks until `unblock()` is invoked.
 
 ### unblock
 
-```java
+```
 public void unblock()
 ```
 
 ### unblockAll
 
-```java
+```
 public void unblockAll()
 ```
 Same as unblock except designed for multiple waiters. If there is any chance of multiple people having called `block()`, then use `unblockAll()`.

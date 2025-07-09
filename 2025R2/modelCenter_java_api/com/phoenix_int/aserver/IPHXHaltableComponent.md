@@ -6,7 +6,7 @@
 - [`IPHXComponent`](IPHXComponent.md), [`IPHXAnalysis`](IPHXAnalysis.md), [`IPHXDriver`](IPHXDriver.md), [`PHXSimpleSelfManager`](PHXSimpleSelfManager.md), [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md), [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md), [`PHXComponentBranch`](PHXComponentBranch.md), [`PHXComponentDescription`](PHXComponentDescription.md), [`PHXComponentVersion`](PHXComponentVersion.md), [`PHXGroup`](PHXGroup.md), [`PHXMethodDescriptor`](PHXMethodDescriptor.md), [`PHXPropertyDescriptor`](PHXPropertyDescriptor.md), [`PHXVariableInfo`](PHXVariableInfo.md), [`PHXDFTException`](PHXDFTException.md), [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md), [`PHXNoSuchWriteableObjectException`](PHXNoSuchWriteableObjectException.md), [`PHXInvokeReturn`](PHXInvokeReturn.md), [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md), [`PHXInvalidNameException`](PHXInvalidNameException.md)
 
 **Declaration**
-```java
+```
 public interface IPHXHaltableComponent
 ```
 
@@ -21,7 +21,7 @@ This is a specialized interface for ModelCenter Remote Execution. If a component
 ## Method Detail
 
 ### halt
-```java
+```
 void halt()
    throws java.lang.Exception
 ```

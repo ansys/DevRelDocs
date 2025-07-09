@@ -13,7 +13,7 @@
 
 ---
 **Declaration:**
-```java
+```
 public class PHXNumberFormatException
 extends java.lang.Exception
 ```
@@ -42,6 +42,6 @@ Like a `NumberFormatException` except that it isn't a runtime exception and must
 
 ### PHXNumberFormatException
 
-```java
+```
 public PHXNumberFormatException(java.lang.String msg)
 ```

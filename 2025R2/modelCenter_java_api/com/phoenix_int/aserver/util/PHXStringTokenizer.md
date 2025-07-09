@@ -15,7 +15,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXStringTokenizer
 extends java.lang.Object
 implements java.util.Enumeration
@@ -25,7 +25,7 @@ This is a more sophisticated version of the Java `StringTokenizer`. Using the `S
 
 The following is one example of the use of the tokenizer. The code:
 
-```java
+```
 PHXStringTokenizer st = new PHXStringTokenizer( "this \"is a\" test" );
 while ( st.hasMoreTokens() )
 {
@@ -35,7 +35,7 @@ while ( st.hasMoreTokens() )
 
 prints the following output:
 
-```java
+```
 this
 is a
 test
@@ -62,8 +62,8 @@ The "doUnslash" option is true by default and makes it unslash special backslash
 |-------------------|----------------------|
 | `int` | `countTokens()`<br>Calculates the number of times that this tokenizer's `nextToken` method can be called before it generates an exception. |
 | `long` | `getCurrentPosition()` |
-| `java.lang.String` | `getRemainder()`<br>Returns the remainder of the string (stuff not yet returned via nextToken()) |
-| `PHXStringBuffer` | `getRemainder2()`<br>Returns the remainder of the string (stuff not yet returned via nextToken()) |
+| `java.lang.String` | `getRemainder()`<br>Returns the remainder of the string (stuff not yet returned via `nextToken()`) |
+| `PHXStringBuffer` | `getRemainder2()`<br>Returns the remainder of the string (stuff not yet returned via `nextToken()`) |
 | `boolean` | `hasMoreElements()`<br>Returns the same value as the `hasMoreTokens` method. |
 | `boolean` | `hasMoreTokens()`<br>Tests if there are more tokens available from this tokenizer's string. |
 | `static void` | `main(java.lang.String[] args)` |
@@ -85,27 +85,27 @@ The "doUnslash" option is true by default and makes it unslash special backslash
 
 ### PHXStringTokenizer
 
-```java
+```
 public PHXStringTokenizer(java.lang.String str, 
                           java.lang.String delim)
 ```
-Constructs a string tokenizer for the specified string. The characters in the `delim` argument are the delimiters for separating tokens. If the `returnTokens` flag is `true`, then the delimiter characters are also returned as tokens. Each delimiter is returned as a string of length one. If the flag is `false`, the delimiter characters are skipped and only serve as separators between tokens.
+Constructs a string tokenizer for the specified string. The characters in the `delim` argument are the delimiters for separating tokens. If the `returnTokens` flag is `true`, then the delimiter characters are also returned as tokens. Each delimiter is returned as a string of length 1. If the flag is `false`, the delimiter characters are skipped and only serve as separators between tokens.
 
 **Parameters:**
 - `str` - a string to be parsed.
 - `delim` - the delimiters.
 
 **Throws:**
-- `java.lang.IllegalArgumentException` - thrown if " is specified as a delimiter
+- `java.lang.IllegalArgumentException` - thrown if `"` is specified as a delimiter
 
 ### PHXStringTokenizer
 
-```java
+```
 public PHXStringTokenizer(java.lang.String str, 
                           java.lang.String delim, 
                           boolean doUnslash)
 ```
-Constructs a string tokenizer for the specified string. The characters in the `delim` argument are the delimiters for separating tokens. If the `returnTokens` flag is `true`, then the delimiter characters are also returned as tokens. Each delimiter is returned as a string of length one. If the flag is `false`, the delimiter characters are skipped and only serve as separators between tokens.
+Constructs a string tokenizer for the specified string. The characters in the `delim` argument are the delimiters for separating tokens. If the `returnTokens` flag is `true`, then the delimiter characters are also returned as tokens. Each delimiter is returned as a string of length 1. If the flag is `false`, the delimiter characters are skipped and only serve as separators between tokens.
 
 **Parameters:**
 - `str` - a string to be parsed.
@@ -113,31 +113,31 @@ Constructs a string tokenizer for the specified string. The characters in the `d
 - `doUnslash` - Whether to unslash slashed characters (\n)
 
 **Throws:**
-- `java.lang.IllegalArgumentException` - thrown if " is specified as a delimiter
+- `java.lang.IllegalArgumentException` - thrown if `"` is specified as a delimiter
 
 ### PHXStringTokenizer
 
-```java
+```
 public PHXStringTokenizer(PHXStringBuffer str, 
                           java.lang.String delim)
 ```
-Constructs a string tokenizer for the specified string. The characters in the `delim` argument are the delimiters for separating tokens. If the `returnTokens` flag is `true`, then the delimiter characters are also returned as tokens. Each delimiter is returned as a string of length one. If the flag is `false`, the delimiter characters are skipped and only serve as separators between tokens.
+Constructs a string tokenizer for the specified string. The characters in the `delim` argument are the delimiters for separating tokens. If the `returnTokens` flag is `true`, then the delimiter characters are also returned as tokens. Each delimiter is returned as a string of length 1. If the flag is `false`, the delimiter characters are skipped and only serve as separators between tokens.
 
 **Parameters:**
 - `str` - a string to be parsed.
 - `delim` - the delimiters.
 
 **Throws:**
-- `java.lang.IllegalArgumentException` - thrown if " is specified as a delimiter
+- `java.lang.IllegalArgumentException` - thrown if `"` is specified as a delimiter
 
 ### PHXStringTokenizer
 
-```java
+```
 public PHXStringTokenizer(PHXStringBuffer str, 
                           java.lang.String delim, 
                           boolean doUnslash)
 ```
-Constructs a string tokenizer for the specified string. The characters in the `delim` argument are the delimiters for separating tokens. If the `returnTokens` flag is `true`, then the delimiter characters are also returned as tokens. Each delimiter is returned as a string of length one. If the flag is `false`, the delimiter characters are skipped and only serve as separators between tokens.
+Constructs a string tokenizer for the specified string. The characters in the `delim` argument are the delimiters for separating tokens. If the `returnTokens` flag is `true`, then the delimiter characters are also returned as tokens. Each delimiter is returned as a string of length 1. If the flag is `false`, the delimiter characters are skipped and only serve as separators between tokens.
 
 **Parameters:**
 - `str` - a string to be parsed.
@@ -145,11 +145,11 @@ Constructs a string tokenizer for the specified string. The characters in the `d
 - `doUnslash` - Whether to unslash slashed characters (\n)
 
 **Throws:**
-- `java.lang.IllegalArgumentException` - thrown if " is specified as a delimiter
+- `java.lang.IllegalArgumentException` - thrown if `"` is specified as a delimiter
 
 ### PHXStringTokenizer
 
-```java
+```
 public PHXStringTokenizer(java.lang.String str)
 ```
 Constructs a string tokenizer for the specified string. The tokenizer uses the default delimiter set, which is `"\t\n\r"`: the space character, the tab character, the newline character, and the carriage-return character.
@@ -159,7 +159,7 @@ Constructs a string tokenizer for the specified string. The tokenizer uses the d
 
 ### PHXStringTokenizer
 
-```java
+```
 public PHXStringTokenizer(java.lang.String str, 
                           boolean doUnslash)
 ```
@@ -171,7 +171,7 @@ Constructs a string tokenizer for the specified string. The tokenizer uses the d
 
 ### PHXStringTokenizer
 
-```java
+```
 public PHXStringTokenizer(PHXStringBuffer str)
 ```
 Constructs a string tokenizer for the specified string. The tokenizer uses the default delimiter set, which is `"\t\n\r"`: the space character, the tab character, the newline character, and the carriage-return character.
@@ -181,7 +181,7 @@ Constructs a string tokenizer for the specified string. The tokenizer uses the d
 
 ### PHXStringTokenizer
 
-```java
+```
 public PHXStringTokenizer(PHXStringBuffer str, 
                           boolean doUnslash)
 ```
@@ -196,7 +196,7 @@ Constructs a string tokenizer for the specified string. The tokenizer uses the d
 
 ### setQuoteChar
 
-```java
+```
 public void setQuoteChar(char c)
 ```
 Sets the character to be used to indicate the start and end of strings. By default it is double quotes: '"'. Use this function to set it to a single quote instead.
@@ -206,30 +206,30 @@ Sets the character to be used to indicate the start and end of strings. By defau
 
 ### getCurrentPosition
 
-```java
+```
 public long getCurrentPosition()
 ```
 
 ### skipDelimiters
 
-```java
+```
 public void skipDelimiters()
 ```
 Skips delimiters.
 
 ### wasLastTokenQuoted
 
-```java
+```
 public boolean wasLastTokenQuoted()
 ```
 Indicates whether the last token retrieved was a quoted string
 
 **Returns:**
-- true or false
+- `true` or `false`
 
 ### hasMoreTokens
 
-```java
+```
 public boolean hasMoreTokens()
 ```
 Tests if there are more tokens available from this tokenizer's string.
@@ -239,27 +239,27 @@ Tests if there are more tokens available from this tokenizer's string.
 
 ### getRemainder
 
-```java
+```
 public java.lang.String getRemainder()
 ```
-Returns the remainder of the string (stuff not yet returned via nextToken())
+Returns the remainder of the string (stuff not yet returned via `nextToken()`)
 
 **Returns:**
 - the remainder of the untokenized string
 
 ### getRemainder2
 
-```java
+```
 public PHXStringBuffer getRemainder2()
 ```
-Returns the remainder of the string (stuff not yet returned via nextToken())
+Returns the remainder of the string (stuff not yet returned via `nextToken()`)
 
 **Returns:**
 - the remainder of the untokenized string
 
 ### nextToken
 
-```java
+```
 public java.lang.String nextToken()
 ```
 Returns the next token from this string tokenizer.
@@ -272,7 +272,7 @@ Returns the next token from this string tokenizer.
 
 ### nextToken2
 
-```java
+```
 public PHXStringBuffer nextToken2()
 ```
 Returns the next token from this string tokenizer.
@@ -285,7 +285,7 @@ Returns the next token from this string tokenizer.
 
 ### nextToken2
 
-```java
+```
 public PHXStringBuffer nextToken2(boolean returnValue)
 ```
 Returns the next token from this string tokenizer.
@@ -301,7 +301,7 @@ Returns the next token from this string tokenizer.
 
 ### nextToken
 
-```java
+```
 public java.lang.String nextToken(java.lang.String delim)
 ```
 Returns the next token in this string tokenizer's string. The new delimiter set remains the default after this call.
@@ -314,11 +314,11 @@ Returns the next token in this string tokenizer's string. The new delimiter set 
 
 **Throws:**
 - `java.util.NoSuchElementException` - if there are no more tokens in this tokenizer's string.
-- `java.lang.IllegalArgumentException` - thrown if " is specified as a delimeter
+- `java.lang.IllegalArgumentException` - thrown if `"` is specified as a delimeter
 
 ### nextToken2
 
-```java
+```
 public PHXStringBuffer nextToken2(java.lang.String delim)
 ```
 Returns the next token in this string tokenizer's string. The new delimiter set remains the default after this call.
@@ -331,11 +331,11 @@ Returns the next token in this string tokenizer's string. The new delimiter set 
 
 **Throws:**
 - `java.util.NoSuchElementException` - if there are no more tokens in this tokenizer's string.
-- `java.lang.IllegalArgumentException` - thrown if " is specified as a delimeter
+- `java.lang.IllegalArgumentException` - thrown if `"` is specified as a delimeter
 
 ### hasMoreElements
 
-```java
+```
 public boolean hasMoreElements()
 ```
 Returns the same value as the `hasMoreTokens` method. It exists so that this class can implement the `Enumeration` interface.
@@ -348,7 +348,7 @@ Returns the same value as the `hasMoreTokens` method. It exists so that this cla
 
 ### nextElement
 
-```java
+```
 public java.lang.Object nextElement()
 ```
 Returns the same value as the `nextToken` method, except that its declared return value is `Object` rather than `String`. It exists so that this class can implement the `Enumeration` interface.
@@ -364,7 +364,7 @@ Returns the same value as the `nextToken` method, except that its declared retur
 
 ### countTokens
 
-```java
+```
 public int countTokens()
 ```
 Calculates the number of times that this tokenizer's `nextToken` method can be called before it generates an exception.
@@ -374,6 +374,6 @@ Calculates the number of times that this tokenizer's `nextToken` method can be c
 
 ### main
 
-```java
+```
 public static void main(java.lang.String[] args)
 ```

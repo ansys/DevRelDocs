@@ -19,7 +19,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXVersionException
 extends java.lang.Exception
 ```
@@ -47,7 +47,7 @@ extends java.lang.Exception
 
 ### PHXVersionException
 
-```java
+```
 public PHXVersionException(int requiredMajorVersion,
                            int requiredMinorVersion,
                            int foundMajorVersion,

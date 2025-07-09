@@ -17,7 +17,7 @@
 
 **Declaration**
 
-```java
+```
 @Deprecated
 public interface IPHXLibrarian
 ```
@@ -43,12 +43,12 @@ This is an interface for classes that manage a directory hierarchy of available 
 
 ### initialize
 
-```java
+```
 void initialize(com.phoenix_int.aserver.ascore.PHXConnection connection,
                 IPHXFactory factories,
                 com.phoenix_int.aserver.ascore.PHXAServerArgs args,
                 org.w3c.dom.Node xmlOptions)
-    throws java.lang.Exception
+         throws java.lang.Exception
 ```
 
 **Deprecated.** Tells this librarian to configure itself based on the XML node passed in. The XML node should be a `<librarianOptions>` node whose format is specific to the particular type of librarian.
@@ -58,7 +58,7 @@ void initialize(com.phoenix_int.aserver.ascore.PHXConnection connection,
 
 ### cleanUp
 
-```java
+```
 void cleanUp()
 ```
 
@@ -66,7 +66,7 @@ void cleanUp()
 
 ### listComponents
 
-```java
+```
 java.util.Collection listComponents(java.lang.String virtualDirName)
                              throws PHXNoSuchCategoryException, 
                                     com.phoenix_int.aserver.security.PHXAccessDeniedException
@@ -86,7 +86,7 @@ java.util.Collection listComponents(java.lang.String virtualDirName)
 
 ### listDirectories
 
-```java
+```
 java.util.Collection listDirectories(java.lang.String virtualDir)
                               throws PHXNoSuchCategoryException, 
                                      com.phoenix_int.aserver.security.PHXAccessDeniedException
@@ -106,7 +106,7 @@ java.util.Collection listDirectories(java.lang.String virtualDir)
 
 ### instantiate
 
-```java
+```
 @Deprecated
 IPHXComponent instantiate(java.lang.String compClass,
                           java.lang.String virtualDirName)
@@ -130,7 +130,7 @@ It is important that this class throws [`PHXNoSuchCategoryException`](PHXNoSuchC
 
 ### instantiate
 
-```java
+```
 @Deprecated
 IPHXComponent instantiate(java.lang.String compClass,
                           java.lang.String virtualDirName,
@@ -146,7 +146,7 @@ IPHXComponent instantiate(java.lang.String compClass,
 
 ### describe
 
-```java
+```
 PHXComponentDescription describe(java.lang.String compClass,
                                  java.lang.String virtualDirName)
                           throws java.lang.Exception
@@ -168,7 +168,7 @@ PHXComponentDescription describe(java.lang.String compClass,
 
 ### getQueues
 
-```java
+```
 java.lang.String getQueues(java.lang.String compClass,
                            java.lang.String virtualDirName)
                     throws java.lang.Exception

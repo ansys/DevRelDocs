@@ -11,7 +11,7 @@
 
 ---
 **Declaration:**
-```java
+```
 public interface IRuntimeVariable
 extends IPHXType2, IPHXUnits, com.phoenix_int.pacz.api.v2.IRuntimeVariableMetadata
 ```
@@ -56,7 +56,7 @@ Component variable interface
 
 ### getVariableName
 
-```java
+```
 java.lang.String getVariableName()
 ```
 Get variable name
@@ -66,7 +66,7 @@ Get variable name
 
 ### setVariableName
 
-```java
+```
 void setVariableName(java.lang.String name)
 ```
 Set variable name
@@ -76,7 +76,7 @@ Set variable name
 
 ### getDescription
 
-```java
+```
 java.lang.String getDescription()
 ```
 Get variable description
@@ -86,7 +86,7 @@ Get variable description
 
 ### setDescription
 
-```java
+```
 void setDescription(java.lang.String description)
 ```
 Set variable description
@@ -96,7 +96,7 @@ Set variable description
 
 ### getType
 
-```java
+```
 java.lang.String getType()
 ```
 Get variable data type
@@ -109,7 +109,7 @@ Get variable data type
 
 ### getMetaData
 
-```java
+```
 java.util.Map<java.lang.String,java.lang.String> getMetaData()
 ```
 Get additional variable meta data
@@ -119,7 +119,7 @@ Get additional variable meta data
 
 ### setMetaData
 
-```java
+```
 void setMetaData(java.lang.String key, 
                  java.lang.String value)
           throws java.lang.IllegalArgumentException
@@ -135,7 +135,7 @@ Set meta data property; will create a new entry if it does not exist
 
 ### isNumeric
 
-```java
+```
 boolean isNumeric()
 ```
 Whether or not variable is a numeric type
@@ -145,7 +145,7 @@ Whether or not variable is a numeric type
 
 ### isArray
 
-```java
+```
 boolean isArray()
 ```
 Whether or not variable is an array type
@@ -155,7 +155,7 @@ Whether or not variable is an array type
 
 ### isEnum
 
-```java
+```
 boolean isEnum()
 ```
 Whether or not variable is an enumerated type
@@ -165,7 +165,7 @@ Whether or not variable is an enumerated type
 
 ### toPHXSimpleType
 
-```java
+```
 PHXSimpleType toPHXSimpleType()
 ```
 Get the PHXSimpleType version of variable
@@ -175,7 +175,7 @@ Get the PHXSimpleType version of variable
 
 ### createCopy
 
-```java
+```
 IRuntimeVariable createCopy()
 ```
 Get a clone of this variable, including its metadata and value.

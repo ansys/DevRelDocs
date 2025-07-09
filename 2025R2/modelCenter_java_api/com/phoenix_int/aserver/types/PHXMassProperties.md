@@ -7,7 +7,7 @@
 ```
 ---
 
-```java
+```
 public class PHXMassProperties
 extends java.lang.Object
 ```
@@ -44,13 +44,13 @@ This is a utility class for holding mass property information. The class is used
 | `void` | `setVolume(double v)` |
 
 ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `toString`, `wait`, `wait`, `wait`
 
 ## Constructor Detail
 
 ### PHXMassProperties
 
-```java
+```
 public PHXMassProperties(boolean hasCG,
                          boolean hasVolume,
                          boolean hasSurfaceArea,
@@ -61,103 +61,103 @@ public PHXMassProperties(boolean hasCG,
 
 ### getcgX
 
-```java
+```
 public double getcgX()
 ```
 
 ### getcgY
 
-```java
+```
 public double getcgY()
 ```
 
 ### getcgZ
 
-```java
+```
 public double getcgZ()
 ```
 
 ### getVolume
 
-```java
+```
 public double getVolume()
 ```
 
 ### getSurfaceArea
 
-```java
+```
 public double getSurfaceArea()
 ```
 
 ### getMass
 
-```java
+```
 public double getMass()
 ```
 
 ### getHasCG
 
-```java
+```
 public boolean getHasCG()
 ```
 
 ### getHasVolume
 
-```java
+```
 public boolean getHasVolume()
 ```
 
 ### getHasSurfaceArea
 
-```java
+```
 public boolean getHasSurfaceArea()
 ```
 
 ### getHasMass
 
-```java
+```
 public boolean getHasMass()
 ```
 
 ### setcgX
 
-```java
+```
 public void setcgX(double v)
 ```
 
 ### setcgY
 
-```java
+```
 public void setcgY(double v)
 ```
 
 ### setcgZ
 
-```java
+```
 public void setcgZ(double v)
 ```
 
 ### setVolume
 
-```java
+```
 public void setVolume(double v)
 ```
 
 ### setSurfaceArea
 
-```java
+```
 public void setSurfaceArea(double v)
 ```
 
 ### setMass
 
-```java
+```
 public void setMass(double v)
 ```
 
 ### setCG
 
-```java
+```
 public void setCG(double x,
                   double y,
                   double z)
@@ -165,6 +165,6 @@ public void setCG(double x,
 
 ### getCG
 
-```java
+```
 public java.lang.String getCG()
 ```

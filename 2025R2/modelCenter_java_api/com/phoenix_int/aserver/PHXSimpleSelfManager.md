@@ -15,7 +15,7 @@
 - [`PHXSimpleSelfManager2`](PHXSimpleSelfManager2.md)
 
 **Declaration**
-```java
+```
 public class PHXSimpleSelfManager
 extends java.lang.Object
 implements IPHXSelfManager, IPHXComponent
@@ -73,14 +73,14 @@ This is a class that implements most of the functionality of a self-managing com
 ## Constructor Detail
 
 ### PHXSimpleSelfManager
-```java
+```
 public PHXSimpleSelfManager()
 ```
 
 ## Method Detail
 
 ### addVariable
-```java
+```
 protected void addVariable(java.lang.String groupName,
                            java.lang.String varName,
                            boolean isInput,
@@ -101,7 +101,7 @@ adds a variable object to the manager
 - [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### addVariable
-```java
+```
 protected void addVariable(java.lang.String varName,
                            boolean isInput,
                            java.lang.Object var)
@@ -120,7 +120,7 @@ adds a variable object to the manager
 - [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### addVariable
-```java
+```
 protected void addVariable(PHXVariableInfo varInfo)
                     throws PHXNameAlreadyInUseException,
                            PHXInvalidNameException
@@ -135,7 +135,7 @@ adds a variable information object to the manager
 - [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### addVariable
-```java
+```
 protected void addVariable(java.lang.String groupName,
                            PHXVariableInfo varInfo)
                     throws PHXNameAlreadyInUseException,
@@ -152,7 +152,7 @@ adds a variable information object to the manager
 - [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### removeVariable
-```java
+```
 protected boolean removeVariable(PHXVariableInfo varInfo)
 ```
 removes a variable. The groups will be searched for the matching variable.
@@ -164,7 +164,7 @@ removes a variable. The groups will be searched for the matching variable.
 - `false` if the variable was not found
 
 ### addMethod
-```java
+```
 protected void addMethod(java.lang.String name,
                          java.lang.String fullName,
                          boolean isVisible,
@@ -185,7 +185,7 @@ adds a method name to the object
 - [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### getMethodDescriptor
-```java
+```
 protected PHXMethodDescriptor getMethodDescriptor(java.lang.String name)
 ```
 find the Method Descriptor associated with a given name
@@ -194,7 +194,7 @@ find the Method Descriptor associated with a given name
 - The [`PHXMethodDescriptor`](PHXMethodDescriptor.md), or null if not found.
 
 ### addMethod
-```java
+```
 protected void addMethod(java.lang.String name,
                          java.lang.String fullName,
                          boolean isVisible)
@@ -213,7 +213,7 @@ relay function for `addMethod( String name, String fullName, boolean isVisible, 
 - [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### addMethod
-```java
+```
 protected void addMethod(java.lang.String name,
                          boolean isVisible)
                   throws PHXNameAlreadyInUseException,
@@ -229,7 +229,7 @@ relay function for `addMethod( String name, String fullName = name, boolean isVi
 - [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### addMethod
-```java
+```
 protected void addMethod(java.lang.String name,
                          java.lang.String fullName)
                   throws PHXNameAlreadyInUseException,
@@ -245,7 +245,7 @@ relay function for `addMethod( String name, String fullName, boolean isVisible=t
 - [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### addMethod
-```java
+```
 protected void addMethod(java.lang.String name)
                   throws PHXNameAlreadyInUseException,
                          PHXInvalidNameException
@@ -260,7 +260,7 @@ relay function for `addMethod( String name, boolean isVisible=true )`
 - [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### makeGroup
-```java
+```
 protected PHXGroup makeGroup(java.lang.String group)
                       throws PHXNameAlreadyInUseException,
                              PHXInvalidNameException
@@ -275,7 +275,7 @@ creates a group. If the group already exists, it is just returned
 - [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name has invalid characters
 
 ### getVariableFullName
-```java
+```
 public java.lang.String getVariableFullName(java.lang.Object var)
                                      throws PHXNoSuchObjectException
 ```
@@ -291,7 +291,7 @@ gets the name of a variable
 - [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md)
 
 ### getVariableInfo
-```java
+```
 public PHXVariableInfo getVariableInfo(java.lang.Object var)
                                 throws PHXNoSuchObjectException
 ```
@@ -307,7 +307,7 @@ gets the information about a variable
 - [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified variable is not found
 
 ### getVariableInfo
-```java
+```
 protected PHXVariableInfo getVariableInfo(java.lang.String fullVarName)
                                    throws PHXNoSuchObjectException
 ```
@@ -323,7 +323,7 @@ retrieves a variable information object from the manager
 - [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified variable is not found
 
 ### getVariableInfo2
-```java
+```
 protected PHXVariableInfo getVariableInfo2(java.lang.String fullVarName)
 ```
 retrieves a variable information object from the manager
@@ -335,7 +335,7 @@ retrieves a variable information object from the manager
 - the associated `variableInfo` object or null if it doesn't exist.
 
 ### getVariableInfo
-```java
+```
 protected PHXVariableInfo getVariableInfo(java.lang.String groupName,
                                           java.lang.String varName)
                                    throws PHXNoSuchObjectException
@@ -353,7 +353,7 @@ retrieves a variable information object from the manager
 - [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified variable is not found
 
 ### getVariableInfo2
-```java
+```
 protected PHXVariableInfo getVariableInfo2(java.lang.String groupName,
                                            java.lang.String varName)
 ```
@@ -367,7 +367,7 @@ retrieves a variable information object from the manager
 - the associated `variableInfo` object or null if not found
 
 ### getGroup
-```java
+```
 protected PHXGroup getGroup(java.lang.String group)
                      throws PHXNoSuchObjectException
 ```
@@ -380,7 +380,7 @@ retrieves a group.
 - [`PHXNoSuchObjectException`](PHXNoSuchObjectException.md) - thrown if the specified group is not found
 
 ### getGroup2
-```java
+```
 protected PHXGroup getGroup2(java.lang.String group)
 ```
 retrieves a group.
@@ -392,7 +392,7 @@ retrieves a group.
 - The [`PHXGroup`](PHXGroup.md) object, or null if not found.
 
 ### getRootGroup
-```java
+```
 public PHXGroup getRootGroup()
 ```
 retrieves the root group
@@ -401,7 +401,7 @@ retrieves the root group
 - the root group
 
 ### setValue
-```java
+```
 public void setValue(java.lang.String name,
                      java.lang.String value)
               throws PHXNoSuchObjectException,
@@ -423,7 +423,7 @@ stores a value into the appropriate variable
 - `java.lang.Exception` - thrown if the value cannot be set
 
 ### setValue2
-```java
+```
 public void setValue2(java.lang.String name,
                       PHXStringBuffer value)
                throws PHXNoSuchObjectException,
@@ -442,7 +442,7 @@ stores a value into the appropriate variable
 - `java.lang.Exception` - thrown if the value cannot be set
 
 ### forceSetValue
-```java
+```
 public void forceSetValue(java.lang.String name,
                           java.lang.String value)
                    throws PHXNoSuchObjectException,
@@ -459,7 +459,7 @@ sets the value for a variable regardless of whether it's an input or an output
 - `java.lang.Exception` - thrown if the value cannot be set
 
 ### setValueActual
-```java
+```
 public void setValueActual(java.lang.String name,
                            java.lang.Object value)
                     throws PHXNoSuchObjectException,
@@ -475,7 +475,7 @@ public void setValueActual(java.lang.String name,
 - `java.lang.reflect.InvocationTargetException`
 
 ### getValue
-```java
+```
 public java.lang.String getValue(java.lang.String name)
                           throws PHXNoSuchObjectException,
                                  java.lang.Exception
@@ -496,7 +496,7 @@ retrieves the value for the appropriate variable
 - `java.lang.Exception` - thrown if the value cannot be retrieved
 
 ### getValue2
-```java
+```
 public java.lang.Object getValue2(java.lang.String name)
                            throws PHXNoSuchObjectException,
                                   java.lang.Exception
@@ -511,7 +511,7 @@ retrieves the value for the appropriate variable
 - `java.lang.Exception` - thrown if the value cannot be retrieved
 
 ### getPropertyDescriptors
-```java
+```
 public PHXPropertyDescriptor[] getPropertyDescriptors(java.lang.String name)
                                                throws PHXNoSuchObjectException,
                                                       java.lang.Exception
@@ -532,7 +532,7 @@ retrieves a set of property descriptors for the variables managed by this object
 - `java.lang.Exception` - thrown if the properties cannot be retrieved
 
 ### getMethodDescriptors
-```java
+```
 public PHXMethodDescriptor[] getMethodDescriptors()
                                            throws java.lang.Exception
 ```
@@ -548,7 +548,7 @@ retrieves a set of method descriptors for this object
 - `java.lang.Exception` - thrown if the properties cannot be retrieved
 
 ### invoke
-```java
+```
 public java.lang.String invoke(java.lang.String methodName)
                         throws java.lang.Exception
 ```
@@ -567,7 +567,7 @@ Invokes a named method.
 - `java.lang.Exception` - thrown if a problem occurs invoking the method
 
 ### invoke2
-```java
+```
 public PHXInvokeReturn invoke2(java.lang.String methodName)
                         throws java.lang.Exception
 ```
@@ -583,7 +583,7 @@ Invokes a named method.
 - `java.lang.Exception` - thrown if a problem occurs invoking the method
 
 ### end
-```java
+```
 public void end()
          throws java.lang.Exception
 ```

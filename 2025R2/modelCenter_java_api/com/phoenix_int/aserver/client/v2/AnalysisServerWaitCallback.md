@@ -17,7 +17,7 @@
 
 **Declaration**
 
-```java
+```
 public class AnalysisServerWaitCallback
 extends java.lang.Object
 implements IAnalysisServerCallback
@@ -40,13 +40,13 @@ Callback object which uses a monitor to allow the caller to block until a respon
 | [`AnalysisServerResponse`](AnalysisServerResponse.md) | `waitForResponse(int timeout)`<br>Wait until the response has been received, if it has not already. |
 
 ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `toString`, `wait`, `wait`, `wait`
 
 ## Constructor Detail
 
 ### AnalysisServerWaitCallback
 
-```java
+```
 public AnalysisServerWaitCallback()
 ```
 
@@ -54,14 +54,14 @@ public AnalysisServerWaitCallback()
 
 ### getResponse
 
-```java
+```
 public AnalysisServerResponse getResponse()
 ```
 Get the response, or null if it has not been received.
 
 ### waitForResponse
 
-```java
+```
 public AnalysisServerResponse waitForResponse()
     throws java.lang.InterruptedException
 ```
@@ -75,7 +75,7 @@ Wait until the response has been received, if it has not already.
 
 ### waitForResponse
 
-```java
+```
 public AnalysisServerResponse waitForResponse(int timeout)
     throws java.lang.InterruptedException
 ```
@@ -92,7 +92,7 @@ Wait until the response has been received, if it has not already.
 
 ### responseReceived
 
-```java
+```
 public boolean responseReceived(AnalysisServerResponse response)
 ```
 Callback when a response is received.

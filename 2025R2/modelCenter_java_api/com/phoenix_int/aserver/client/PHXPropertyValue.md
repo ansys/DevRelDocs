@@ -11,7 +11,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXPropertyValue
 extends java.lang.Object
 ```
@@ -24,7 +24,7 @@ extends java.lang.Object
 | `PHXPropertyValue[]` | `subProps` |
 
 ### Fields inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `toString`, `wait`, `wait`, `wait`
 
 ## Constructor Summary
 
@@ -41,7 +41,7 @@ extends java.lang.Object
 | `java.lang.String` | `getValue()` |
 
 ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `toString`, `wait`, `wait`, `wait`
 
 ## Field Detail
 
@@ -63,12 +63,12 @@ public PHXPropertyValue()
 ```
 
 ### PHXPropertyValue
-```java
+```
 public PHXPropertyValue(PHXPropertyValue val)
 ```
 
 ### PHXPropertyValue
-```java
+```
 public PHXPropertyValue(PHXPropertyDescriptor prop, 
                         java.lang.String val)
 ```
@@ -76,6 +76,6 @@ public PHXPropertyValue(PHXPropertyDescriptor prop,
 ## Method Detail
 
 ### getValue
-```java
+```
 public java.lang.String getValue()
 ```

@@ -19,10 +19,10 @@
 
 See [`com.phoenix_int.pacz.api.v2.RunFolderPreferece`](v2/RunFolderPreference.md)
 
-```java
+```
 @Deprecated
 public enum RunFolderPreference
-    extends java.lang.Enum<RunFolderPreference>
+extends java.lang.Enum<RunFolderPreference>
 ```
 
 Preference for how files within the .pacz should be handled when running a component.
@@ -54,7 +54,7 @@ New run directory should be created for each run of a component. |
 
 ### PER_RUN
 
-```java
+```
 public static final RunFolderPreference PER_RUN
 ```
 
@@ -64,7 +64,7 @@ New run directory should be created for each run of a component. If one process 
 
 ### PER_PROCESS
 
-```java
+```
 public static final RunFolderPreference PER_PROCESS
 ```
 
@@ -76,7 +76,7 @@ New run directory should be created for each process of a component. If one proc
 
 ### values
 
-```java
+```
 public static RunFolderPreference[] values()
 ```
 
@@ -84,7 +84,7 @@ public static RunFolderPreference[] values()
 
 Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows:
 
-```java
+```
 for (RunFolderPreference c : RunFolderPreference.values())
     System.out.println(c);
 ```
@@ -94,7 +94,7 @@ for (RunFolderPreference c : RunFolderPreference.values())
 
 ### valueOf
 
-```java
+```
 public static RunFolderPreference valueOf(java.lang.String name)
 ```
 
@@ -114,7 +114,7 @@ Returns the enum constant of this type with the specified name. The string must 
 
 ### toString
 
-```java
+```
 public java.lang.String toString()
 ```
 

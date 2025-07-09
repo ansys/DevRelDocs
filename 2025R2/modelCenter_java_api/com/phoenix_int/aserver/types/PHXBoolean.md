@@ -18,7 +18,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXBoolean
 extends PHXSimpleType
 ```
@@ -71,7 +71,7 @@ The type for booleans. This class adds the following features to [`PHXSimpleType
 
 ### PHXBoolean
 
-```java
+```
 public PHXBoolean()
 ```
 
@@ -79,7 +79,7 @@ Initializes value to false.
 
 ### PHXBoolean
 
-```java
+```
 public PHXBoolean(boolean value)
 ```
 
@@ -88,7 +88,7 @@ public PHXBoolean(boolean value)
 
 ### PHXBoolean
 
-```java
+```
 public PHXBoolean(PHXBoolean other)
 ```
 
@@ -99,7 +99,7 @@ public PHXBoolean(PHXBoolean other)
 
 ### getValue
 
-```java
+```
 public boolean getValue()
 ```
 
@@ -110,7 +110,7 @@ Retrieves the current value of the variable.
 
 ### getValueStr
 
-```java
+```
 public java.lang.String getValueStr()
 ```
 
@@ -121,7 +121,7 @@ Retrieves the string value of this variable as passed into the last call to `fro
 
 ### setValue
 
-```java
+```
 public void setValue(boolean v)
 ```
 
@@ -130,7 +130,7 @@ public void setValue(boolean v)
 
 ### toString2
 
-```java
+```
 public PHXStringBuffer toString2()
 ```
 
@@ -141,7 +141,7 @@ Converts the variable to a PHXStringBuffer.
 
 ### toString
 
-```java
+```
 public java.lang.String toString()
 ```
 
@@ -158,7 +158,7 @@ Converts the variable to a string.
 
 ### fromString2
 
-```java
+```
 public void fromString2(PHXStringBuffer value)
 ```
 
@@ -169,7 +169,7 @@ Converts a PHXStringBuffer representation to the internal value.
 
 ### fromString
 
-```java
+```
 public void fromString(java.lang.String value)
 ```
 
@@ -180,7 +180,7 @@ Converts a String representation to the internal value.
 
 ### parse
 
-```java
+```
 public static boolean parse(java.lang.Object value)
 ```
 
@@ -194,7 +194,7 @@ A utility function to convert a string to a boolean value.
 
 ### setIgnoreConversionErrors
 
-```java
+```
 public void setIgnoreConversionErrors(boolean ignoreConversionErrors)
 ```
 
@@ -205,7 +205,7 @@ Indicates whether the object should accept bad values in the `fromString()` meth
 
 ### equalsNatural
 
-```java
+```
 public boolean equalsNatural(PHXSimpleType toCompare)
                       throws PHXTypeMismatchException
 ```
@@ -226,7 +226,7 @@ Compare this [`PHXSimpleType`](PHXSimpleType.md) to another [`PHXSimpleType`](PH
 
 ### fromObject
 
-```java
+```
 public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
@@ -246,7 +246,7 @@ NOTE: while it might be logical to think you can create a `PHX(Type)Array` from,
 
 ### Accept
 
-```java
+```
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
 
@@ -263,7 +263,7 @@ Accept a Visitor.
 
 ### createCopy
 
-```java
+```
 public PHXBoolean createCopy()
 ```
 

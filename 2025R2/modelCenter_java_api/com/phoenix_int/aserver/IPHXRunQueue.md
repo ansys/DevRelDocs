@@ -3,7 +3,7 @@
 **Package:** `com.phoenix_int.aserver`
 
 **Declaration**
-```java
+```
 public interface IPHXRunQueue
 ```
 
@@ -16,7 +16,7 @@ public interface IPHXRunQueue
 ## Method Detail
 
 ### setRunQueue
-```java
+```
 void setRunQueue(java.lang.String connector, 
                  java.lang.String queue)
           throws java.lang.Exception

@@ -18,7 +18,7 @@
 
 **Declaration**
 
-```java
+```
 public enum AnalysisServerResponseType
 extends java.lang.Enum<AnalysisServerResponseType>
 ```
@@ -43,51 +43,51 @@ Enumeration representing response type.
 | `static AnalysisServerResponseType[]` | `values()`<br>Returns an array containing the constants of this enum type, in the order they are declared. |
 
 ### Methods inherited from class java.lang.Enum
-`clone, compareTo, equals, finalize, getDeclaringClass, hashCode, name, ordinal, toString, valueOf`
+`clone`, `compareTo`, `equals`, `finalize`, `getDeclaringClass`, `hashCode`, `name`, `ordinal`, `toString`, `valueOf`
 
 ### Methods inherited from class java.lang.Object
-`getClass, notify, notifyAll, wait, wait, wait`
+`getClass`, `notify`, `notifyAll`, `wait`, `wait`, `wait`
 
 ## Enum Constant Detail
 
 ### Normal
 
-```java
+```
 public static final AnalysisServerResponseType Normal
 ```
 A normal, string-based response.
 
 ### Extended
 
-```java
+```
 public static final AnalysisServerResponseType Extended
 ```
 An extended, hybrid string+binary response.
 
 ### ServerError
 
-```java
+```
 public static final AnalysisServerResponseType ServerError
 ```
 A server error.
 
 ### Icon
 
-```java
+```
 public static final AnalysisServerResponseType Icon
 ```
 An icon.
 
 ### ConnectionError
 
-```java
+```
 public static final AnalysisServerResponseType ConnectionError
 ```
 A connection error.
 
 ### Unknown
 
-```java
+```
 public static final AnalysisServerResponseType Unknown
 ```
 An unknown response type (default for new response objects).
@@ -96,12 +96,12 @@ An unknown response type (default for new response objects).
 
 ### values
 
-```java
+```
 public static AnalysisServerResponseType[] values()
 ```
 Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows:
 
-```java
+```
 for (AnalysisServerResponseType c : AnalysisServerResponseType.values())
     System.out.println(c);
 ```
@@ -111,7 +111,7 @@ for (AnalysisServerResponseType c : AnalysisServerResponseType.values())
 
 ### valueOf
 
-```java
+```
 public static AnalysisServerResponseType valueOf(java.lang.String name)
 ```
 Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)

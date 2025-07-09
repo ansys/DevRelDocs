@@ -9,7 +9,7 @@
 
 **Declaration**
 
-```java
+```
 public interface IAnalysisServerCallback
 ```
 
@@ -25,7 +25,7 @@ Callback for ModelCenter Remote Execution events.
 
 ### responseReceived
 
-```java
+```
 boolean responseReceived(AnalysisServerResponse response)
 ```
 Callback when a response is received.

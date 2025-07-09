@@ -18,7 +18,7 @@
 
 **Declaration**
 
-```java
+```
 public class PHXProcess
 extends java.lang.Process
 implements com.phoenix_int.aserver.util.IPHXStreamRegExListener
@@ -64,7 +64,7 @@ This is a utility class that extends `java.lang.Process` with a system dependent
 
 ### PHXProcess
 
-```java
+```
 public PHXProcess(java.lang.Process p, 
                   boolean readPID, 
                   java.lang.String jobIdRegex, 
@@ -79,7 +79,7 @@ Constructs a `PHXProcess` out of a process and optionally reads the PID of the s
 
 ### PHXProcess
 
-```java
+```
 public PHXProcess(java.lang.Process p, 
                   boolean readPID, 
                   java.lang.String jobIdRegex, 
@@ -89,7 +89,7 @@ public PHXProcess(java.lang.Process p,
 
 ### PHXProcess
 
-```java
+```
 public PHXProcess(java.lang.Process p)
 ```
 Constructs a PHXProcess out of a regular process but does not provide extended functionality because the process ID will not be known. Use PHXRuntime to execute processes and automatically generate correct `PHXProcess` instances.
@@ -98,7 +98,7 @@ Constructs a PHXProcess out of a regular process but does not provide extended f
 
 ### matchFound
 
-```java
+```
 public boolean matchFound(int patNum, 
                           Pattern pat, 
                           java.lang.String line, 
@@ -122,26 +122,26 @@ Description copied from interface: `com.phoenix_int.aserver.util.IPHXStreamRegEx
 
 ### getJobID
 
-```java
+```
 public java.lang.String getJobID()
 ```
 
 ### getJobNode
 
-```java
+```
 public java.lang.String getJobNode()
 ```
 
 ### getProcess
 
-```java
+```
 public java.lang.Process getProcess()
 ```
 Returns the java Process instance for this PHXProcess
 
 ### getProcessID
 
-```java
+```
 public int getProcessID() throws java.io.IOException
 ```
 Returns the platform dependent process ID associated with this process. If there was any error reading the process ID, or there is no process ID, an exception explaining the problem will be thrown (every time you call this function).
@@ -151,7 +151,7 @@ Returns the platform dependent process ID associated with this process. If there
 
 ### listProcesses
 
-```java
+```
 public PHXProcessInfo[] listProcesses() throws java.io.IOException
 ```
 This function lists all the processes and sub-processes of this PHXProcess. This is a suitable list to return from `IPHXMonitorable.listProcesses()`.
@@ -161,7 +161,7 @@ This function lists all the processes and sub-processes of this PHXProcess. This
 
 ### destroy
 
-```java
+```
 public void destroy()
 ```
 
@@ -170,7 +170,7 @@ public void destroy()
 
 ### exitValue
 
-```java
+```
 public int exitValue()
 ```
 
@@ -179,7 +179,7 @@ public int exitValue()
 
 ### waitFor
 
-```java
+```
 public int waitFor() throws java.lang.InterruptedException
 ```
 
@@ -191,19 +191,19 @@ public int waitFor() throws java.lang.InterruptedException
 
 ### wrapInputStream
 
-```java
+```
 public com.phoenix_int.aserver.util.PHXStreamRegExMonitor wrapInputStream(com.phoenix_int.aserver.util.IPHXStreamRegExListener l)
 ```
 
 ### wrapErrorStream
 
-```java
+```
 public com.phoenix_int.aserver.util.PHXStreamRegExMonitor wrapErrorStream(com.phoenix_int.aserver.util.IPHXStreamRegExListener l)
 ```
 
 ### getInputStream
 
-```java
+```
 public java.io.InputStream getInputStream()
 ```
 
@@ -212,7 +212,7 @@ public java.io.InputStream getInputStream()
 
 ### getErrorStream
 
-```java
+```
 public java.io.InputStream getErrorStream()
 ```
 
@@ -221,7 +221,7 @@ public java.io.InputStream getErrorStream()
 
 ### getOutputStream
 
-```java
+```
 public java.io.OutputStream getOutputStream()
 ```
 
@@ -230,6 +230,6 @@ public java.io.OutputStream getOutputStream()
 
 ### getTempScriptFileName
 
-```java
+```
 public java.lang.String getTempScriptFileName()
 ```

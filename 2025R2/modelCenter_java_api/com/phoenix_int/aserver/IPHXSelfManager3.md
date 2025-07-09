@@ -9,7 +9,7 @@
 - [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md)
 
 **Declaration**
-```java
+```
 public interface IPHXSelfManager3
     extends IPHXSelfManager2
 ```
@@ -34,7 +34,7 @@ This interface extends [`IPHXSelfManager2`](IPHXSelfManager2.md) and provides a 
 ## Method Detail
 
 ### invoke2
-```java
+```
 PHXInvokeReturn invoke2(java.lang.String methodName)
                  throws java.lang.Exception
 ```

@@ -6,7 +6,7 @@
 
 **Declaration**
 
-```java
+```
 public interface IPHXFactory
 ```
 
@@ -27,7 +27,7 @@ A factory is a class that has the logic for turning a file on disk into a real c
 
 ### listComponents
 
-```java
+```
 java.util.Collection listComponents(java.io.File dir,
                                     java.lang.String virtualDir)
 ```
@@ -45,7 +45,7 @@ Much of the documentation was added to this class retroactively and may make ass
 
 ### instantiate
 
-```java
+```
 @Deprecated
 IPHXComponent instantiate(java.io.File dir,
                           java.lang.String compClass,
@@ -82,7 +82,7 @@ IPHXComponent instantiate(java.io.File dir,
 
 ### describe
 
-```java
+```
 PHXComponentDescription describe(java.io.File dir,
                                  java.lang.String compClass,
                                  java.lang.String virtualDir)
@@ -112,7 +112,7 @@ Much of the documentation was added to this class retroactively and may make ass
 
 ### getFileFor
 
-```java
+```
 java.io.File getFileFor(java.io.File dir,
                         java.lang.String compClass,
                         java.lang.String virtualDir)

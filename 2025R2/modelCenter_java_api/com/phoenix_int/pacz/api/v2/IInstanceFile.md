@@ -6,7 +6,7 @@
 
 **Declaration**
 
-```java
+```
 public interface IInstanceFile
 ```
 
@@ -23,7 +23,7 @@ Instance file within a component
 
 ### getName
 
-```java
+```
 java.lang.String getName()
 ```
 Get name of instance file
@@ -33,7 +33,7 @@ Get name of instance file
 
 ### getPath
 
-```java
+```
 java.lang.String getPath()
 ```
 Get path of instance file

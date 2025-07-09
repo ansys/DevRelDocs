@@ -32,7 +32,7 @@
 
 **Declaration**
 
-```java
+```
 public interface IPHXType2
 extends IPHXType
 ```
@@ -64,7 +64,7 @@ The interface for Phoenix types which use [PHXStringBuffer](../util/PHXStringBuf
 
 ### toString2
 
-```java
+```
 PHXStringBuffer toString2()
                    throws java.io.IOException
 ```
@@ -78,7 +78,7 @@ Gets a [PHXStringBuffer](../util/PHXStringBuffer.md) representation of the type
 
 ### fromString2
 
-```java
+```
 void fromString2(PHXStringBuffer sb)
           throws java.io.IOException, PHXGetByUrlException
 ```
@@ -93,7 +93,7 @@ Configures the type based on a [PHXStringBuffer](../util/PHXStringBuffer.md) rep
 
 ### Accept
 
-```java
+```
 <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
 Accept a Visitor.

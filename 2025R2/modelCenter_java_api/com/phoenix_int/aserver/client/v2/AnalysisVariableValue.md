@@ -13,7 +13,7 @@
 
 **Declaration**
 
-```java
+```
 public class AnalysisVariableValue
 extends java.lang.Object
 ```
@@ -39,13 +39,13 @@ Class representing a variable value.
 
 ### Methods inherited from class java.lang.Object
 
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `toString`, `wait`, `wait`, `wait`
 
 ## Constructor Detail
 
 ### AnalysisVariableValue
 
-```java
+```
 public AnalysisVariableValue(java.lang.String name,
                              boolean isInput,
                              java.lang.String type,
@@ -70,42 +70,42 @@ Constructor.
 
 ### getName
 
-```java
+```
 public java.lang.String getName()
 ```
 Get the variable name.
 
 ### isInput
 
-```java
+```
 public boolean isInput()
 ```
 Get whether this is an input.
 
 ### isBinary
 
-```java
+```
 public boolean isBinary()
 ```
 Get whether this is binary data.
 
 ### getUrl
 
-```java
+```
 public java.lang.String getUrl()
 ```
 Get the URL of the variable, or null if none.
 
 ### getType
 
-```java
+```
 public java.lang.String getType()
 ```
 Get the type of the variable.
 
 ### getValue
 
-```java
+```
 public java.lang.Object getValue()
 ```
 Get the value of the variable (null if URL). Typically a `String` for text values or a `byte[]` for binary.
