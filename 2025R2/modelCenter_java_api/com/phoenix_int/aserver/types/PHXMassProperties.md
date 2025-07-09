@@ -12,7 +12,7 @@ public class PHXMassProperties
 extends java.lang.Object
 ```
 
-This is a utility class for holding mass property information. The class is used by the PHXGeomInfo class.
+This is a utility class for holding mass property information. The class is used by the [PHXGeomInfo](PHXGeomInfo.md) class.
 
 ## Constructor Summary
 

@@ -22,7 +22,7 @@ public class PHXBooleanArray
 extends PHXSimpleArray<PHXBoolean>
 ```
 
-Class wraps an array of PHXBoolean variables for the ScriptWrapper utility.
+Class wraps an array of [PHXBoolean](PHXBoolean.md) variables for the ScriptWrapper utility.
 
 ## Nested Class Summary
 
@@ -111,7 +111,8 @@ Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md). Must overr
 
 ```java
 protected java.lang.Object allocateElement(java.lang.Class elementClass)
-                                    throws java.lang.IllegalAccessException, java.lang.InstantiationException
+                                    throws java.lang.IllegalAccessException, 
+                                           java.lang.InstantiationException
 ```
 
 Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md). Allocates a single element in a default state. If the class type in question has a default constructor, there is no need to override this.
@@ -174,7 +175,8 @@ Gets the value of an element as a boolean.
 ### setValue
 
 ```java
-public void setValue(int[] index, PHXBoolean val)
+public void setValue(int[] index, 
+                     PHXBoolean val)
 ```
 
 Sets the value of an element as a PHXBoolean object.
@@ -189,7 +191,8 @@ Sets the value of an element as a PHXBoolean object.
 ### setValue
 
 ```java
-public void setValue(int index, boolean val)
+public void setValue(int index, 
+                     boolean val)
 ```
 
 Sets the value of an element as a boolean.
@@ -204,7 +207,8 @@ Sets the value of an element as a boolean.
 ### setValue
 
 ```java
-public void setValue(int[] index, boolean val)
+public void setValue(int[] index, 
+                     boolean val)
 ```
 
 Sets the value of an element as a boolean.
@@ -231,7 +235,7 @@ public void fromObject(java.lang.Object toRead)
   throws PHXInvalidTypeException
 ```
 
-Load the value of this object from the specified object. This will read the object and attempt to convert it if it is a known type. If the type isn't recognized, it will throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md). If there is an error in conversion, it will also throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md.
+Load the value of this object from the specified object. This will read the object and attempt to convert it if it is a known type. If the type isn't recognized, it will throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md). If there is an error in conversion, it will also throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md).
 
 NOTE: while it might be logical to think you can create a `PHX(Type)Array` from, say, an array of `java.lang.(Type)`, that is not currently supported. You MUST use the PHX string array formatting style.
 

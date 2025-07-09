@@ -24,7 +24,7 @@ public class PHXFile
 extends PHXSimpleType
 ```
 
-Deprecated.
+**Deprecated.**
 
 Internal data type used for certain types of files. End users should use [PHXRawFile](PHXRawFile.md) to implement file variables in their custom components.
 

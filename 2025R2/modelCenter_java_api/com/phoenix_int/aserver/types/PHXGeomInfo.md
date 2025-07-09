@@ -17,7 +17,7 @@ public class PHXGeomInfo
 extends java.lang.Object
 ```
 
-this is a utility class that mirrors the structures in ModelCenter. If you want to calculate values for certain geometry information such as CGs, instantiate this class and set the values for the desired parameters. ModelCenter will then use these parameters instead of letting the user specify values or calculating them itself.
+This is a utility class that mirrors the structures in ModelCenter. If you want to calculate values for certain geometry information such as CGs, instantiate this class and set the values for the desired parameters. ModelCenter will then use these parameters instead of letting the user specify values or calculating them itself.
 
 ## Constructor Summary
 

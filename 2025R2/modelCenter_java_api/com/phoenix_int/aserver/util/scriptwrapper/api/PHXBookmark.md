@@ -14,7 +14,7 @@
 
 ```java
 public class PHXBookmark
-    extends java.lang.Object
+extends java.lang.Object
 ```
 
 ## Field Summary
