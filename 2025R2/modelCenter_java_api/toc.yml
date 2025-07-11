@@ -7,7 +7,7 @@
 - name: Deprecated list
   href: deprecated-list.md
 - name: Index
-  href: index-all.md
+  href: reference-all.md
 - name: Serialized form
   href: serialized-form.md
 - name: Constant values
