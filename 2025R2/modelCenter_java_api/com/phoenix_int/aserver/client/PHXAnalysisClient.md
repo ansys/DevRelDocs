@@ -228,7 +228,7 @@ Sample Usage:
 ## Field Detail
 
 ### START_REQUEST
-```
+```java
 public static final int START_REQUEST
 ```
 Deprecated. 
@@ -237,7 +237,7 @@ Deprecated.
 - Constant Field Values
 
 ### END_REQUEST
-```
+```java
 public static final int END_REQUEST
 ```
 Deprecated. 
@@ -246,7 +246,7 @@ Deprecated.
 - Constant Field Values
 
 ### GET_REQUEST
-```
+```java
 public static final int GET_REQUEST
 ```
 Deprecated. 
@@ -255,7 +255,7 @@ Deprecated.
 - Constant Field Values
 
 ### SET_REQUEST
-```
+```java
 public static final int SET_REQUEST
 ```
 Deprecated. 
@@ -264,7 +264,7 @@ Deprecated.
 - Constant Field Values
 
 ### LIST_REQUEST
-```
+```java
 public static final int LIST_REQUEST
 ```
 Deprecated. 
@@ -273,7 +273,7 @@ Deprecated.
 - Constant Field Values
 
 ### LIST_CLASSES_REQUEST
-```
+```java
 public static final int LIST_CLASSES_REQUEST
 ```
 Deprecated. 
@@ -282,7 +282,7 @@ Deprecated.
 - Constant Field Values
 
 ### LIST_PROPERTIES_REQUEST
-```
+```java
 public static final int LIST_PROPERTIES_REQUEST
 ```
 Deprecated. 
@@ -291,7 +291,7 @@ Deprecated.
 - Constant Field Values
 
 ### LIST_CATEGORIES_REQUEST
-```
+```java
 public static final int LIST_CATEGORIES_REQUEST
 ```
 Deprecated. 
@@ -300,7 +300,7 @@ Deprecated.
 - Constant Field Values
 
 ### EXECUTE_REQUEST
-```
+```java
 public static final int EXECUTE_REQUEST
 ```
 Deprecated. 
@@ -309,7 +309,7 @@ Deprecated.
 - Constant Field Values
 
 ### DESCRIBE_REQUEST
-```
+```java
 public static final int DESCRIBE_REQUEST
 ```
 Deprecated. 
@@ -318,7 +318,7 @@ Deprecated.
 - Constant Field Values
 
 ### GET_ICON_REQUEST
-```
+```java
 public static final int GET_ICON_REQUEST
 ```
 Deprecated. 
@@ -327,7 +327,7 @@ Deprecated.
 - Constant Field Values
 
 ### LIST_VALUES_REQUEST
-```
+```java
 public static final int LIST_VALUES_REQUEST
 ```
 Deprecated. 
@@ -336,7 +336,7 @@ Deprecated.
 - Constant Field Values
 
 ### LIST_ARRAY_VALUES_REQUEST
-```
+```java
 public static final int LIST_ARRAY_VALUES_REQUEST
 ```
 Deprecated. 
@@ -345,7 +345,7 @@ Deprecated.
 - Constant Field Values
 
 ### LIST_METHODS_REQUEST
-```
+```java
 public static final int LIST_METHODS_REQUEST
 ```
 Deprecated. 
@@ -354,7 +354,7 @@ Deprecated.
 - Constant Field Values
 
 ### INVOKE_REQUEST
-```
+```java
 public static final int INVOKE_REQUEST
 ```
 Deprecated. 
@@ -363,7 +363,7 @@ Deprecated.
 - Constant Field Values
 
 ### ADD_PROXY_CLIENTS_REQUEST
-```
+```java
 public static final int ADD_PROXY_CLIENTS_REQUEST
 ```
 Deprecated. 
@@ -372,7 +372,7 @@ Deprecated.
 - Constant Field Values
 
 ### HISTORY_REQUEST
-```
+```java
 public static final int HISTORY_REQUEST
 ```
 Deprecated. 
@@ -381,7 +381,7 @@ Deprecated.
 - Constant Field Values
 
 ### GET_BY_URL_REQUEST
-```
+```java
 public static final int GET_BY_URL_REQUEST
 ```
 Deprecated. 
@@ -390,7 +390,7 @@ Deprecated.
 - Constant Field Values
 
 ### GET_HIERARCHY_REQUEST
-```
+```java
 public static final int GET_HIERARCHY_REQUEST
 ```
 Deprecated. 
@@ -399,7 +399,7 @@ Deprecated.
 - Constant Field Values
 
 ### SET_HIERARCHY_REQUEST
-```
+```java
 public static final int SET_HIERARCHY_REQUEST
 ```
 Deprecated. 
@@ -408,7 +408,7 @@ Deprecated.
 - Constant Field Values
 
 ### DELETE_RUN_SHARE_REQUEST
-```
+```java
 public static final int DELETE_RUN_SHARE_REQUEST
 ```
 Deprecated. 
@@ -417,7 +417,7 @@ Deprecated.
 - Constant Field Values
 
 ### SET_DICTIONARY_REQUEST
-```
+```java
 public static final int SET_DICTIONARY_REQUEST
 ```
 Deprecated. 
@@ -426,7 +426,7 @@ Deprecated.
 - Constant Field Values
 
 ### SET_BY_URL_REQUEST
-```
+```java
 public static final int SET_BY_URL_REQUEST
 ```
 Deprecated. 
@@ -435,7 +435,7 @@ Deprecated.
 - Constant Field Values
 
 ### ARBITRARY_REQUEST
-```
+```java
 public static final int ARBITRARY_REQUEST
 ```
 Deprecated. 
@@ -444,7 +444,7 @@ Deprecated.
 - Constant Field Values
 
 ### LIST_VALUES_URL_REQUEST
-```
+```java
 public static final int LIST_VALUES_URL_REQUEST
 ```
 Deprecated. 
@@ -455,13 +455,13 @@ Deprecated.
 ## Constructor Detail
 
 ### PHXAnalysisClient
-```
+```java
 public PHXAnalysisClient()
 ```
 Deprecated.
 
 ### PHXAnalysisClient
-```
+```java
 public PHXAnalysisClient(java.lang.String host)
                   throws java.io.IOException, 
                          java.net.UnknownHostException
@@ -476,7 +476,7 @@ Deprecated.
 - `java.net.UnknownHostException` - thrown if the host does not match a valid host
 
 ### PHXAnalysisClient
-```
+```java
 public PHXAnalysisClient(java.lang.String host, 
                          int port)
                   throws java.io.IOException, 
@@ -493,7 +493,7 @@ Deprecated.
 - `java.net.UnknownHostException` - thrown if the host does not match a valid host
 
 ### PHXAnalysisClient
-```
+```java
 public PHXAnalysisClient(java.lang.String host, 
                          int port, 
                          int timeout)
@@ -512,7 +512,7 @@ Deprecated.
 - `java.net.UnknownHostException` - thrown if the host does not match a valid host
 
 ### PHXAnalysisClient
-```
+```java
 public PHXAnalysisClient(java.lang.String host, 
                          int timeout, 
                          java.lang.String username, 
@@ -535,10 +535,10 @@ Deprecated.
 ## Method Detail
 
 ### connect
-```
+```java
 public void connect(java.lang.String host)
-             throws java.io.IOException, 
-                    java.net.UnknownHostException
+            throws java.io.IOException, 
+                   java.net.UnknownHostException
 ```
 Deprecated.
 
@@ -552,11 +552,11 @@ connects to MCRE on the specified host
 - `java.net.UnknownHostException` - thrown if the host does not match a valid host
 
 ### connectURL
-```
+```java
 public void connectURL(java.lang.String url)
-                throws java.io.IOException, 
-                       java.net.UnknownHostException, 
-                       java.net.URISyntaxException
+               throws java.io.IOException, 
+                      java.net.UnknownHostException, 
+                      java.net.URISyntaxException
 ```
 Deprecated.
 
@@ -571,14 +571,14 @@ connects to MCRE using the specified URL, such as `mcre://hostname`.
 - `java.net.URISyntaxException`
 
 ### connectURL
-```
+```java
 public void connectURL(java.lang.String url, 
-                       int timeout, 
-                       java.lang.String user, 
-                       java.lang.String password)
-                throws java.io.IOException, 
-                       java.net.UnknownHostException, 
-                       java.net.URISyntaxException
+                      int timeout, 
+                      java.lang.String user, 
+                      java.lang.String password)
+               throws java.io.IOException, 
+                      java.net.UnknownHostException, 
+                      java.net.URISyntaxException
 ```
 Deprecated.
 
@@ -593,10 +593,10 @@ connects to ModelCenter Remote Execution using the specified URL, such as `mcre:
 - `java.net.URISyntaxException`
 
 ### connectLocal
-```
+```java
 public void connectLocal(java.lang.String userName, 
-                         java.lang.String password)
-                  throws java.io.IOException
+                        java.lang.String password)
+                 throws java.io.IOException
 ```
 Deprecated.
 
@@ -610,12 +610,12 @@ Makes a virtual connection to ModelCenter Remote Execution inside of this proces
 - `java.io.IOException` - thrown if a connection cannot be established
 
 ### connectLocal
-```
+```java
 public void connectLocal(java.lang.String userName, 
-                         java.lang.String password, 
-                         java.util.Map<java.lang.String,
-                         java.lang.Object> initialProps)
-                  throws java.io.IOException
+                        java.lang.String password, 
+                        java.util.Map<java.lang.String,
+                        java.lang.Object> initialProps)
+                 throws java.io.IOException
 ```
 Deprecated.
 
@@ -629,12 +629,12 @@ Makes a virtual connection to the MCRE inside of this process. MCRE must have be
 - `java.io.IOException` - thrown if a connection cannot be established
 
 ### connectProcess
-```
+```java
 public void connectProcess(java.lang.String userName, 
-                           java.lang.String password, 
-                           java.lang.String asRoot, 
-                           java.lang.String asConfig)
-                    throws java.io.IOException
+                          java.lang.String password, 
+                          java.lang.String asRoot, 
+                          java.lang.String asConfig)
+                   throws java.io.IOException
 ```
 Deprecated.
 
@@ -648,11 +648,11 @@ Makes a virtual connection to MCRE by calling a new java process. MCRE must have
 - `java.io.IOException` - thrown if a connection cannot be established
 
 ### connect
-```
+```java
 public void connect(java.lang.String host, 
-                    int port)
-             throws java.io.IOException, 
-                    java.net.UnknownHostException
+                   int port)
+            throws java.io.IOException, 
+                   java.net.UnknownHostException
 ```
 Deprecated.
 
@@ -667,11 +667,12 @@ connects to MCRE on the specified host
 - `java.net.UnknownHostException` - thrown if the host does not match a valid host
 
 ### connect
-```
+```java
 public void connect(java.lang.String host, 
-                    int port, 
-                    boolean useSSL)
-             throws java.io.IOException, java.net.UnknownHostException
+                   int port, 
+                   boolean useSSL)
+            throws java.io.IOException, 
+                   java.net.UnknownHostException
 ```
 Deprecated.
 
@@ -687,12 +688,12 @@ connects to MCRE on the specified host
 - `java.net.UnknownHostException` - thrown if the host does not match a valid host
 
 ### connectExternal
-```
+```java
 public void connectExternal(java.lang.String host, 
-                            int timeout, 
-                            java.lang.String username, 
-                            java.lang.String password)
-                     throws java.io.IOException
+                           int timeout, 
+                           java.lang.String username, 
+                           java.lang.String password)
+                    throws java.io.IOException
 ```
 Deprecated.
 
@@ -709,13 +710,13 @@ connects to MCRE via external tool
 - `java.net.UnknownHostException` - thrown if the host does not match a valid host
 
 ### connect
-```
+```java
 public void connect(java.lang.String host, 
-                    int port, 
-                    boolean useSSL, 
-                    int timeout)
-             throws java.io.IOException, 
-                    java.net.UnknownHostException
+                   int port, 
+                   boolean useSSL, 
+                   int timeout)
+            throws java.io.IOException, 
+                   java.net.UnknownHostException
 ```
 Deprecated.
 
@@ -732,15 +733,15 @@ connects to MCRE on the specified host
 - `java.net.UnknownHostException` - thrown if the host does not match a valid host
 
 ### connect
-```
+```java
 public void connect(java.lang.String host, 
-                    int port, 
-                    boolean useSSL, 
-                    int timeout, 
-                    java.lang.String username, 
-                    java.lang.String password)
-             throws java.io.IOException, 
-                    java.net.UnknownHostException
+                   int port, 
+                   boolean useSSL, 
+                   int timeout, 
+                   java.lang.String username, 
+                   java.lang.String password)
+            throws java.io.IOException, 
+                   java.net.UnknownHostException
 ```
 Deprecated.
 
@@ -759,12 +760,12 @@ connects to MCRE on the specified host
 - `java.net.UnknownHostException` - thrown if the host does not match a valid host
 
 ### handleLogin
-```
+```java
 public static void handleLogin(java.io.InputStream in, 
-                               java.io.OutputStream out, 
-                               java.lang.String username, 
-                               java.lang.String password)
-                        throws java.io.IOException
+                              java.io.OutputStream out, 
+                              java.lang.String username, 
+                              java.lang.String password)
+                       throws java.io.IOException
 ```
 Deprecated.
 
@@ -772,7 +773,7 @@ Deprecated.
 - `java.io.IOException`
 
 ### isConnected
-```
+```java
 public boolean isConnected()
 ```
 Deprecated.
@@ -783,7 +784,7 @@ determines if the client is currently connected to a server
 - true if currently connected
 
 ### setDeleteDFT
-```
+```java
 public void setDeleteDFT(boolean delete)
 ```
 Deprecated.
@@ -791,7 +792,7 @@ Deprecated.
 Set whether the analysis client should auto-delete Direct File Transfer run shares or not
 
 ### getHostName
-```
+```java
 public java.lang.String getHostName()
 ```
 Deprecated.
@@ -802,7 +803,7 @@ retrieves the host name of the server
 - the host name, or "not connected" if not currently connected to the server
 
 ### close
-```
+```java
 public void close()
 ```
 Deprecated.
@@ -810,7 +811,7 @@ Deprecated.
 closes the connection to the server
 
 ### finalize
-```
+```java
 protected void finalize()
                  throws java.lang.Throwable
 ```
@@ -823,7 +824,7 @@ Overrides:
 - `java.lang.Throwable`
 
 ### addListener
-```
+```java
 public void addListener(IPHXAnalysisClientListener l)
 ```
 Deprecated.
@@ -834,7 +835,7 @@ adds a listener
 - l - the listener
 
 ### removeListener
-```
+```java
 public void removeListener(IPHXAnalysisClientListener l)
 ```
 Deprecated.
@@ -845,7 +846,7 @@ removes a listener
 - l - the listener
 
 ### isResponseReady
-```
+```java
 public boolean isResponseReady(java.lang.String id)
 ```
 Deprecated.
@@ -859,7 +860,7 @@ indicates whether a response is ready
 - true if the response is ready
 
 ### sendStartRequest
-```
+```java
 public java.lang.String sendStartRequest(java.lang.String analysis, 
                                          java.lang.String instanceName)
 ```
@@ -875,7 +876,7 @@ sends a request to start an analysis
 - the id for the response
 
 ### getStartResponse
-```
+```java
 public java.lang.String getStartResponse(java.lang.String id, 
                                          boolean wait)
                                   throws PHXResponseTypeMismatchException, 
@@ -899,7 +900,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### start
-```
+```java
 public java.lang.String start(java.lang.String analysis, 
                               java.lang.String instanceName)
                        throws PHXServerSideException
@@ -919,7 +920,7 @@ starts an analysis
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendEndRequest
-```
+```java
 public java.lang.String sendEndRequest(java.lang.String analysis)
 ```
 Deprecated.
@@ -933,12 +934,12 @@ sends a request to end an analysis
 - the id for the response
 
 ### getEndResponse
-```
+```java
 public java.lang.String getEndResponse(java.lang.String id, 
                                        boolean wait)
-                            throws PHXResponseTypeMismatchException, 
-                                   PHXNoSuchResponseException, 
-                                   PHXServerSideException
+                                throws PHXResponseTypeMismatchException, 
+                                       PHXNoSuchResponseException, 
+                                       PHXServerSideException
 ```
 Deprecated.
 
@@ -957,7 +958,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### end
-```
+```java
 public java.lang.String end(java.lang.String analysis)
                      throws PHXServerSideException
 ```
@@ -975,7 +976,7 @@ ends an analysis
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendListClassesRequest
-```
+```java
 public java.lang.String sendListClassesRequest(java.lang.String category)
 ```
 Deprecated.
@@ -989,7 +990,7 @@ sends a request to list the classes
 - the id for the response
 
 ### getListClassesResponse
-```
+```java
 public java.lang.String[] getListClassesResponse(java.lang.String id, 
                                                  boolean wait)
                                           throws PHXResponseTypeMismatchException, 
@@ -1013,7 +1014,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### listClasses
-```
+```java
 public java.lang.String[] listClasses(java.lang.String category)
                                throws PHXServerSideException
 ```
@@ -1031,7 +1032,7 @@ lists the classes within a category
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendExecuteRequest
-```
+```java
 public java.lang.String sendExecuteRequest(java.lang.String analysis)
 ```
 Deprecated.
@@ -1045,7 +1046,7 @@ sends a request to execute an analysis
 - the id for the response
 
 ### getExecuteResponse
-```
+```java
 public java.lang.String getExecuteResponse(java.lang.String id, 
                                            boolean wait)
                                     throws PHXResponseTypeMismatchException, 
@@ -1069,7 +1070,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### execute
-```
+```java
 public java.lang.String execute(java.lang.String analysis)
                          throws PHXServerSideException
 ```
@@ -1087,7 +1088,7 @@ exectutes an analysis
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendAddProxyClientsRequest
-```
+```java
 public java.lang.String sendAddProxyClientsRequest(java.lang.String clients)
 ```
 Deprecated.
@@ -1101,12 +1102,12 @@ Tells the server to add other hosts as part of the proxy chain
 - the id for the response
 
 ### getAddProxyClientsResponse
-```
+```java
 public java.lang.String getAddProxyClientsResponse(java.lang.String id, 
                                                    boolean wait)
-                                   throws PHXResponseTypeMismatchException, 
-                                          PHXNoSuchResponseException, 
-                                          PHXServerSideException
+                                            throws PHXResponseTypeMismatchException, 
+                                                   PHXNoSuchResponseException, 
+                                                   PHXServerSideException
 ```
 Deprecated.
 
@@ -1125,7 +1126,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### addProxyClients
-```
+```java
 public java.lang.String addProxyClients(java.lang.String clients)
                                  throws PHXServerSideException
 ```
@@ -1143,7 +1144,7 @@ Tells the server to add other hosts as part of the proxy chain
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendGetRequest
-```
+```java
 public java.lang.String sendGetRequest(java.lang.String property)
 ```
 Deprecated.
@@ -1157,7 +1158,7 @@ sends a request to get the value of a property
 - the id for the response
 
 ### getGetResponse
-```
+```java
 public java.lang.String getGetResponse(java.lang.String id, 
                                        boolean wait)
                                 throws PHXResponseTypeMismatchException, 
@@ -1181,7 +1182,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### getGetResponse2
-```
+```java
 public PHXStringBuffer getGetResponse2(java.lang.String id, 
                                        boolean wait)
                                 throws PHXResponseTypeMismatchException, 
@@ -1205,7 +1206,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### get
-```
+```java
 public java.lang.String get(java.lang.String property)
                      throws PHXServerSideException
 ```
@@ -1224,7 +1225,7 @@ get the value of a property
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### get2
-```
+```java
 public PHXStringBuffer get2(java.lang.String property)
                      throws PHXServerSideException
 ```
@@ -1243,7 +1244,7 @@ get the value of a property
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### sendGetByUrlRequest
-```
+```java
 public java.lang.String sendGetByUrlRequest(java.lang.String propertyName, 
                                             java.lang.String url)
 ```
@@ -1258,7 +1259,7 @@ sends a request to get the value of a property
 - the id for the response
 
 ### getGetByUrlResponse
-```
+```java
 public PHXStringBuffer getGetByUrlResponse(java.lang.String id, 
                                            boolean wait)
                                     throws PHXResponseTypeMismatchException, 
@@ -1282,7 +1283,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### getByUrl
-```
+```java
 public PHXStringBuffer getByUrl(java.lang.String propertyName, 
                                 java.lang.String url)
                          throws PHXServerSideException
@@ -1302,7 +1303,7 @@ get the value of a property
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### sendSetByUrlRequest
-```
+```java
 public java.lang.String sendSetByUrlRequest(java.lang.String varName, 
                                             java.lang.String url)
 ```
@@ -1317,7 +1318,7 @@ sends a request to get the value of a property
 - the id for the response
 
 ### getSetByUrlResponse
-```
+```java
 public PHXStringBuffer getSetByUrlResponse(java.lang.String id, 
                                            boolean wait)
                                     throws PHXResponseTypeMismatchException, 
@@ -1341,7 +1342,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### setByUrl
-```
+```java
 public void setByUrl(java.lang.String varName, 
                      java.lang.String url)
               throws PHXServerSideException
@@ -1358,7 +1359,7 @@ set the value of a variable
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendSetRequest
-```
+```java
 public java.lang.String sendSetRequest(java.lang.String property, 
                                        java.lang.Object value)
 ```
@@ -1373,7 +1374,7 @@ sends a request to set the value of a property
 - the id for the response
 
 ### getSetResponse
-```
+```java
 public java.lang.String getSetResponse(java.lang.String id, 
                                        boolean wait)
                                 throws PHXResponseTypeMismatchException, 
@@ -1397,7 +1398,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### set
-```
+```java
 public java.lang.String set(java.lang.String property, 
                             java.lang.Object value)
                      throws PHXServerSideException
@@ -1418,7 +1419,7 @@ set the value of a property
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### sendGetComponentHistoryRequest
-```
+```java
 public java.lang.String sendGetComponentHistoryRequest(java.lang.String analysis)
 ```
 Deprecated.
@@ -1432,7 +1433,7 @@ sends a request to get the version history of a component
 - the id for the response
 
 ### getGetComponentHistoryResponse
-```
+```java
 public PHXComponentBranch getGetComponentHistoryResponse(java.lang.String id, 
                                                          boolean wait)
                                                   throws PHXResponseTypeMismatchException, 
@@ -1456,7 +1457,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### getComponentHistory
-```
+```java
 public PHXComponentBranch getComponentHistory(java.lang.String analysis)
                                        throws PHXServerSideException
 ```
@@ -1474,7 +1475,7 @@ Gets the component history for a particular component.
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the server reports any problems.
 
 ### sendDescribeRequest
-```
+```java
 public java.lang.String sendDescribeRequest(java.lang.String analysis)
 ```
 Deprecated.
@@ -1488,12 +1489,12 @@ sends a request to describe an analysis
 - the id for the response
 
 ### getDescribeResponse
-```
+```java
 public PHXComponentDescription getDescribeResponse(java.lang.String id, 
                                                    boolean wait)
-                                   throws PHXResponseTypeMismatchException, 
-                                          PHXNoSuchResponseException, 
-                                          PHXServerSideException
+                                            throws PHXResponseTypeMismatchException, 
+                                                   PHXNoSuchResponseException, 
+                                                   PHXServerSideException
 ```
 Deprecated.
 
@@ -1512,7 +1513,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### describe
-```
+```java
 public PHXComponentDescription describe(java.lang.String analysis)
                                  throws PHXServerSideException
 ```
@@ -1530,7 +1531,7 @@ describes an analysis
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendListPropertiesRequest
-```
+```java
 public java.lang.String sendListPropertiesRequest(java.lang.String analysis)
 ```
 Deprecated.
@@ -1544,12 +1545,12 @@ sends a request to list the properties of an analysis
 - the id for the response
 
 ### getListPropertiesResponse
-```
+```java
 public PHXPropertyDescriptor[] getListPropertiesResponse(java.lang.String id, 
                                                          boolean wait)
-                                   throws PHXResponseTypeMismatchException, 
-                                          PHXNoSuchResponseException, 
-                                          PHXServerSideException
+                                                  throws PHXResponseTypeMismatchException, 
+                                                         PHXNoSuchResponseException, 
+                                                         PHXServerSideException
 ```
 Deprecated.
 
@@ -1568,7 +1569,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### listProperties
-```
+```java
 public PHXPropertyDescriptor[] listProperties(java.lang.String analysis)
                                        throws PHXServerSideException
 ```
@@ -1586,7 +1587,7 @@ lists the properties of an analysis
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendListMethodsRequest
-```
+```java
 public java.lang.String sendListMethodsRequest(java.lang.String analysis)
 ```
 Deprecated.
@@ -1600,12 +1601,12 @@ sends a request to list the methods of an analysis
 - the id for the response
 
 ### getListMethodsResponse
-```
+```java
 public PHXMethodDescriptor[] getListMethodsResponse(java.lang.String id, 
                                                     boolean wait)
-                                   throws PHXResponseTypeMismatchException, 
-                                          PHXNoSuchResponseException, 
-                                          PHXServerSideException
+                                             throws PHXResponseTypeMismatchException, 
+                                                    PHXNoSuchResponseException, 
+                                                    PHXServerSideException
 ```
 Deprecated.
 
@@ -1624,7 +1625,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### listMethods
-```
+```java
 public PHXMethodDescriptor[] listMethods(java.lang.String analysis)
                                   throws PHXServerSideException
 ```
@@ -1642,7 +1643,7 @@ lists the methods of an analysis
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendInvokeRequest
-```
+```java
 public java.lang.String sendInvokeRequest(java.lang.String method)
 ```
 Deprecated.
@@ -1656,7 +1657,7 @@ sends a request to invoke a method
 - the id for the response
 
 ### getInvokeResponse
-```
+```java
 public java.lang.String getInvokeResponse(java.lang.String id, 
                                           boolean wait)
                                    throws PHXResponseTypeMismatchException, 
@@ -1680,7 +1681,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### invoke
-```
+```java
 public java.lang.String invoke(java.lang.String method)
                         throws PHXServerSideException
 ```
@@ -1698,19 +1699,19 @@ invokes a method
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendListValuesRequest
-```
+```java
 public java.lang.String sendListValuesRequest(java.lang.String analysis)
 ```
 Deprecated.
 
 ### sendListValuesURLRequest
-```
+```java
 public java.lang.String sendListValuesURLRequest(java.lang.String analysis)
 ```
 Deprecated.
 
 ### getListValuesResponse
-```
+```java
 public PHXPropertyValue[] getListValuesResponse(java.lang.String id, 
                                                 boolean wait)
                                          throws PHXResponseTypeMismatchException, 
@@ -1729,7 +1730,7 @@ Deprecated.
 - `java.lang.NumberFormatException`
 
 ### listValues
-```
+```java
 public PHXPropertyValue[] listValues(java.lang.String analysis)
                               throws PHXServerSideException, 
                                      java.io.IOException
@@ -1741,13 +1742,13 @@ Deprecated.
 - `java.io.IOException`
 
 ### sendListArrayValuesRequest
-```
+```java
 public java.lang.String sendListArrayValuesRequest(java.lang.String analysis)
 ```
 Deprecated.
 
 ### getListArrayValuesResponse
-```
+```java
 public java.lang.String[] getListArrayValuesResponse(java.lang.String id, 
                                                      boolean wait)
                                               throws PHXResponseTypeMismatchException, 
@@ -1760,7 +1761,7 @@ Deprecated.
 - `PHXNoSuchResponseException`
 
 ### listArrayValues
-```
+```java
 public java.lang.String[] listArrayValues(java.lang.String analysis)
                                    throws PHXServerSideException, 
                                           java.io.IOException
@@ -1772,7 +1773,7 @@ Deprecated.
 - `java.io.IOException`
 
 ### sendListCategoriesRequest
-```
+```java
 public java.lang.String sendListCategoriesRequest(java.lang.String category)
 ```
 Deprecated.
@@ -1786,12 +1787,12 @@ sends a request to list the categories
 - the id for the response
 
 ### getListCategoriesResponse
-```
+```java
 public java.lang.String[] getListCategoriesResponse(java.lang.String id, 
                                                     boolean wait)
-                                   throws PHXResponseTypeMismatchException, 
-                                          PHXNoSuchResponseException, 
-                                          PHXServerSideException
+                                             throws PHXResponseTypeMismatchException, 
+                                                    PHXNoSuchResponseException, 
+                                                    PHXServerSideException
 ```
 Deprecated.
 
@@ -1810,7 +1811,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### listCategories
-```
+```java
 public java.lang.String[] listCategories(java.lang.String category)
                                   throws PHXServerSideException
 ```
@@ -1828,7 +1829,7 @@ lists the categories within a category
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendListRequest
-```
+```java
 public java.lang.String sendListRequest()
 ```
 Deprecated.
@@ -1839,7 +1840,7 @@ sends a request to list the running objects
 - the id for the response
 
 ### getListResponse
-```
+```java
 public java.lang.String[] getListResponse(java.lang.String id, 
                                           boolean wait)
                                    throws PHXResponseTypeMismatchException, 
@@ -1863,7 +1864,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### list
-```
+```java
 public java.lang.String[] list()
                         throws PHXServerSideException
 ```
@@ -1878,7 +1879,7 @@ lists the running objects
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendGetHierarchyRequest
-```
+```java
 public java.lang.String sendGetHierarchyRequest(java.lang.String analysis)
 ```
 Deprecated.
@@ -1892,7 +1893,7 @@ sends a request to retrieve a hierarchy for a component
 - the id for the response
 
 ### sendGetHierarchyRequest
-```
+```java
 public java.lang.String sendGetHierarchyRequest(java.lang.String analysis, 
                                                 com.phoenix_int.aserver.client.PHXHierarchyFileMode fileMode)
 ```
@@ -1908,7 +1909,7 @@ sends a request to retrieve a hierarchy for a component
 - the id for the response
 
 ### getGetHierarchyResponse
-```
+```java
 public PHXStringBuffer getGetHierarchyResponse(java.lang.String id, 
                                                boolean wait)
                                         throws PHXResponseTypeMismatchException, 
@@ -1932,9 +1933,9 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### getHierarchy
-```
+```java
 public PHXStringBuffer getHierarchy(java.lang.String analysis)
-                            throws PHXServerSideException
+                             throws PHXServerSideException
 ```
 Deprecated.
 
@@ -1950,7 +1951,7 @@ retrievethe hierarchy for the component
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendSetHierarchyRequest
-```
+```java
 public java.lang.String sendSetHierarchyRequest(java.lang.String analysis, 
                                                 PHXStringBuffer xml)
 ```
@@ -1966,12 +1967,12 @@ Sends a request to set a hierarchy for a component
 - the id for the response
 
 ### getSetHierarchyResponse
-```
+```java
 public java.lang.String getSetHierarchyResponse(java.lang.String id, 
                                                 boolean wait)
-                                   throws PHXResponseTypeMismatchException, 
-                                          PHXNoSuchResponseException, 
-                                          PHXServerSideException
+                                         throws PHXResponseTypeMismatchException, 
+                                                PHXNoSuchResponseException, 
+                                                PHXServerSideException
 ```
 Deprecated.
 
@@ -1990,7 +1991,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### setHierarchy
-```
+```java
 public java.lang.String setHierarchy(java.lang.String analysis, 
                                      PHXStringBuffer xml)
                               throws PHXServerSideException
@@ -2010,7 +2011,7 @@ Sends a request to set a hierarchy for a component
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendDeleteRunShareRequest
-```
+```java
 public java.lang.String sendDeleteRunShareRequest(java.lang.Long key)
 ```
 Deprecated.
@@ -2024,7 +2025,7 @@ Sends a request to delete a runShare
 - the id for the response
 
 ### getDeleteRunShareResponse
-```
+```java
 public java.lang.String getDeleteRunShareResponse(java.lang.String id, 
                                                  boolean wait)
                                           throws PHXResponseTypeMismatchException, 
@@ -2048,7 +2049,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### deleteRunShare
-```
+```java
 public java.lang.String deleteRunShare(java.lang.Long key)
                                 throws PHXServerSideException
 ```
@@ -2060,7 +2061,7 @@ Handle cleaning up a runShare in a local client
 - PHXServerSideException
 
 ### sendGetIconRequest
-```
+```java
 public java.lang.String sendGetIconRequest(java.lang.String analysis)
 ```
 Deprecated.
@@ -2074,7 +2075,7 @@ sends a request to retrieve an icon
 - the id for the response
 
 ### getGetIconResponse
-```
+```java
 public PHXIcon getGetIconResponse(java.lang.String id, 
                                   boolean wait)
                            throws PHXResponseTypeMismatchException, 
@@ -2098,7 +2099,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### getIcon
-```
+```java
 public PHXIcon getIcon(java.lang.String analysis)
                 throws PHXServerSideException
 ```
@@ -2116,7 +2117,7 @@ retrieves an icon for an analysis
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendSetDictionaryRequest
-```
+```java
 public java.lang.String sendSetDictionaryRequest(java.lang.String dictionary)
 ```
 Deprecated.
@@ -2130,7 +2131,7 @@ sends a request to set a dictionary
 - the id for the response
 
 ### getSetDictionaryResponse
-```
+```java
 public java.lang.String getSetDictionaryResponse(java.lang.String id, 
                                                  boolean wait)
                                           throws PHXResponseTypeMismatchException, 
@@ -2154,7 +2155,7 @@ retrieves a response from the server
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### setDictionary
-```
+```java
 public java.lang.String setDictionary(java.lang.String dictionary)
                                throws PHXServerSideException
 ```
@@ -2172,7 +2173,7 @@ Tries to set the dictionary by sending a set dictionary request.
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if something goes wrong. The exception message will contain the response from the server
 
 ### sendArbitraryRequest
-```
+```java
 public java.lang.String sendArbitraryRequest(java.lang.String request)
 ```
 Deprecated.
@@ -2186,7 +2187,7 @@ sends an arbitrary request to the server
 - the id for the response
 
 ### sendArbitraryRequest
-```
+```java
 public java.lang.String sendArbitraryRequest(PHXStringBuffer request)
 ```
 Deprecated.
@@ -2200,7 +2201,7 @@ sends an arbitrary request to the server
 - the id for the response
 
 ### getResponseAsText
-```
+```java
 public java.lang.String getResponseAsText(java.lang.String id, 
                                           int type, 
                                           boolean wait)
@@ -2226,7 +2227,7 @@ retrieves a low-level response from the server in String format.
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### getResponseAsPHXStringBuffer
-```
+```java
 public PHXStringBuffer getResponseAsPHXStringBuffer(java.lang.String id, 
                                                     int type, 
                                                     boolean wait)
@@ -2252,7 +2253,7 @@ retrieves a low-level response from the server in String format.
 - [`PHXServerSideException`](PHXServerSideException.md) - thrown if the the server returned an error
 
 ### main
-```
+```java
 public static void main(java.lang.String[] args)
 ```
 Deprecated.

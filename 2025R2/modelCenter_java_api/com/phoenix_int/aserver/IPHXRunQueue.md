@@ -17,8 +17,9 @@ public interface IPHXRunQueue
 
 ### setRunQueue
 ```java
-void setRunQueue(java.lang.String connector, java.lang.String queue)
-    throws java.lang.Exception
+void setRunQueue(java.lang.String connector, 
+                 java.lang.String queue)
+          throws java.lang.Exception
 ```
 Sets the run queue for a component. It is important that this class throws [PHXNoSuchCategoryException](library/PHXNoSuchCategoryException.md) and [ClassNotFoundException](../util/PHXClassNotFoundException.md) in the appropriate cases as they are handled in special ways by the [PHXLibrarianMounter](library/PHXLibrarianMounter.md) and [PHXLibrarianCombiner](library/PHXLibrarianCombiner.md).
 

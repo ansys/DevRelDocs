@@ -23,7 +23,7 @@ extends PHXSimpleType
 implements IPHXFormat
 ```
 
-The Phoenix type for longs. This class adds the following features to the [`PHXSimpleType`](PHXSimpleType.md):
+The type for longs. This class adds the following features to the [`PHXSimpleType`](PHXSimpleType.md):
 
 - **value**: long
 - **valueStr**: the source string for the value, useful for error checking when the value is NaN

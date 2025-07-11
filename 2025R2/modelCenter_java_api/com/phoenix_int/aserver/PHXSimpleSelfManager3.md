@@ -16,8 +16,8 @@
 **Declaration**
 ```java
 public class PHXSimpleSelfManager3
-    extends PHXSimpleSelfManager2
-    implements IPHXSelfManager3, com.phoenix_int.aserver.IPHXConnector
+extends PHXSimpleSelfManager2
+implements IPHXSelfManager3, com.phoenix_int.aserver.IPHXConnector
 ```
 
 This class implements most of the functionality of a self-managing component. It provides utility functions for storing variables, which are then served to ModelCenter Remote Execution automatically through the listProperties, getValue, and setValue functions. This iteration provides new functions for setValue and getValue capable of streaming large files and strings without loading them into memory via the [`PHXStringBuffer`](util/PHXStringBuffer.md) and [`PHXRawFile`](types/PHXRawFile.md) classes. The third iteration adds a function for getting info from the user on invoked methods to determine things like whether input values should be read in again.

@@ -12,7 +12,7 @@ public interface IPHXFactory
 
 A factory is a class that has the logic for turning a file on disk into a real component instance and for retrieving component meta data.
 
-> **Deprecated**: It is preferred to use `IPHXFactory2`, as this class has methods that can leak resources.
+**Deprecated**: It is preferred to use `IPHXFactory2`, as this class has methods that can leak resources.
 
 ## Method Summary
 
@@ -32,7 +32,7 @@ java.util.Collection listComponents(java.io.File dir,
                                     java.lang.String virtualDir)
 ```
 
-> **Deprecated.** List out all of the identifiers (historically "class" names) for a given directory as a collection of strings.
+**Deprecated.** List out all of the identifiers (historically "class" names) for a given directory as a collection of strings.
 
 Much of the documentation was added to this class retroactively and may make assumptions or have other unknown limitations.
 
@@ -60,7 +60,7 @@ IPHXComponent instantiate(java.io.File dir,
                           com.phoenix_int.aserver.util.proxywrapper.PHXProxyNotAllowedException
 ```
 
-> **Deprecated.** It is preferred to use `IPHXFactory2.instantiateManaged(java.io.File, java.lang.String, java.lang.String)` as this method can lead to resource leaks. Creates an instance of the specified component.
+**Deprecated.** It is preferred to use `IPHXFactory2.instantiateManaged(java.io.File, java.lang.String, java.lang.String)` as this method can lead to resource leaks. Creates an instance of the specified component.
 
 **Parameters:**
 - `dir` - a directory to search for components
@@ -92,7 +92,7 @@ PHXComponentDescription describe(java.io.File dir,
                                  java.net.MalformedURLException
 ```
 
-> **Deprecated.** Describes the specified component. Should throw `ClassNotFoundException` if unable to handle/parse the given file.
+**Deprecated.** Describes the specified component. Should throw `ClassNotFoundException` if unable to handle/parse the given file.
 
 Much of the documentation was added to this class retroactively and may make assumptions or have other unknown limitations.
 
@@ -120,7 +120,7 @@ java.io.File getFileFor(java.io.File dir,
                         java.io.IOException
 ```
 
-> **Deprecated.** Returns a File object which points to the file on disk which contains the implementation of this component.
+**Deprecated.** Returns a File object which points to the file on disk which contains the implementation of this component.
 
 **Parameters:**
 - `dir` - the directory containing the component

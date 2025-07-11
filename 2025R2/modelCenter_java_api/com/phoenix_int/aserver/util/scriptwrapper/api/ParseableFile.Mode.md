@@ -24,7 +24,7 @@
 
 ```java
 public static enum ParseableFile.Mode
-    extends java.lang.Enum<ParseableFile.Mode>
+extends java.lang.Enum<ParseableFile.Mode>
 ```
 
 File mode. Moved to type-safe enum from legacy integer constants.
