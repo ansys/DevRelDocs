@@ -226,7 +226,8 @@ java.lang.String[] getEnumAliases()
 ### setEnums
 
 ```java
-void setEnums(java.lang.String[] enumAliases, java.lang.Object[] enumValues)
+void setEnums(java.lang.String[] enumAliases, 
+              java.lang.Object[] enumValues)
 ```
 **Deprecated.** Set the names/aliases and corresponding values for the enumerated type
 

@@ -79,7 +79,8 @@ public java.lang.String tr(java.lang.String id)
 ### tr
 
 ```java
-public java.lang.String tr(java.lang.String id, java.lang.Object... args)
+public java.lang.String tr(java.lang.String id, 
+                           java.lang.Object... args)
 ```
 
 ### trLazy
@@ -98,7 +99,8 @@ Return a lazily instantiated translation message that can be computed only if ne
 ### trLazy
 
 ```java
-public PHXInternationalize.InternationalizedMessage trLazy(java.lang.String id, java.lang.Object... args)
+public PHXInternationalize.InternationalizedMessage trLazy(java.lang.String id, 
+                                                           java.lang.Object... args)
 ```
 Return a lazily instantiated translation message that can be computed only if needed.
 

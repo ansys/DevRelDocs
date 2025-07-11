@@ -1,7 +1,7 @@
 {
   "build": {
     "globalMetadata": {
-      "title": "ModelCenter Remote Execution Python API 2025 R2",
+      "title": "ModelCenter Remote Execution Python ScriptWrapper API 2025 R2",
       "summary": "",
       "version": "2025 R2",
       "product": "ModelCenter",

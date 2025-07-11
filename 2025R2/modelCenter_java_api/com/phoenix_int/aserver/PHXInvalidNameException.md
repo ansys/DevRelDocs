@@ -54,11 +54,6 @@ public PHXInvalidNameException(java.lang.String name)
 ### checkName
 ```java
 public static void checkName(java.lang.String name)
-    throws PHXInvalidNameException
+                      throws PHXInvalidNameException
 ```
 Checks a name to see if it's valid.
-
-### See Also
-- [`PHXNameAlreadyInUseException`](PHXNameAlreadyInUseException.md)
-- [`PHXGroup`](PHXGroup.md)
-- [`PHXSimpleSelfManager`](PHXSimpleSelfManager.md)

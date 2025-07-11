@@ -105,8 +105,8 @@ Delete all the temp directories
 
 ```java
 public java.util.Collection listComponents(java.lang.String virtualDir)
-    throws PHXNoSuchCategoryException,
-           com.phoenix_int.aserver.security.PHXAccessDeniedException
+                                    throws PHXNoSuchCategoryException,
+                                           com.phoenix_int.aserver.security.PHXAccessDeniedException
 ```
 Returns the components in a specific directory
 
@@ -127,8 +127,8 @@ Returns the components in a specific directory
 
 ```java
 public java.util.Collection listDirectories(java.lang.String virtualDir)
-    throws PHXNoSuchCategoryException,
-           com.phoenix_int.aserver.security.PHXAccessDeniedException
+                                     throws PHXNoSuchCategoryException,
+                                            com.phoenix_int.aserver.security.PHXAccessDeniedException
 ```
 Lists available sub-directories for the specified path
 
@@ -152,15 +152,15 @@ public IPHXComponent instantiate(java.lang.String compClass,
                                  java.lang.String virtualDir,
                                  java.lang.String connector,
                                  java.lang.String queue)
-    throws java.lang.ClassNotFoundException,
-           java.lang.IllegalAccessException,
-           java.lang.InstantiationException,
-           java.lang.reflect.InvocationTargetException,
-           java.io.IOException,
-           PHXServerSideException,
-           java.net.MalformedURLException,
-           com.phoenix_int.aserver.util.proxywrapper.PHXProxyNotAllowedException,
-           PHXNoSuchCategoryException
+                          throws java.lang.ClassNotFoundException,
+                                 java.lang.IllegalAccessException,
+                                 java.lang.InstantiationException,
+                                 java.lang.reflect.InvocationTargetException,
+                                 java.io.IOException,
+                                 PHXServerSideException,
+                                 java.net.MalformedURLException,
+                                 com.phoenix_int.aserver.util.proxywrapper.PHXProxyNotAllowedException,
+                                 PHXNoSuchCategoryException
 ```
 Creates an instance of the specified component.
 
@@ -190,15 +190,15 @@ Creates an instance of the specified component.
 ```java
 public IPHXComponent instantiate(java.lang.String compClass,
                                  java.lang.String virtualDir)
-    throws java.lang.ClassNotFoundException,
-           java.lang.IllegalAccessException,
-           java.lang.InstantiationException,
-           java.lang.reflect.InvocationTargetException,
-           java.io.IOException,
-           PHXServerSideException,
-           java.net.MalformedURLException,
-           com.phoenix_int.aserver.util.proxywrapper.PHXProxyNotAllowedException,
-           PHXNoSuchCategoryException
+                          throws java.lang.ClassNotFoundException,
+                                 java.lang.IllegalAccessException,
+                                 java.lang.InstantiationException,
+                                 java.lang.reflect.InvocationTargetException,
+                                 java.io.IOException,
+                                 PHXServerSideException,
+                                 java.net.MalformedURLException,
+                                 com.phoenix_int.aserver.util.proxywrapper.PHXProxyNotAllowedException,
+                                 PHXNoSuchCategoryException
 ```
 Creates an instance of the specified component. Typically a librarian will find the appropriate files and pass the request off to the [`IPHXFactory`](IPHXFactory.md). It is important that this class throws [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) and ClassNotFoundException in the appropriate cases as they are handled in special ways by the librarian mounter and librarian combiner.
 
@@ -213,8 +213,8 @@ Creates an instance of the specified component. Typically a librarian will find 
 - an instance of the specified component class
 
 **Throws:**
-- `java.lang.ClassNotFoundException` - If compClass doesn't indicate a valid class for the specified directory
-- [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) - If the virtualDirName passed in is invalid
+- `java.lang.ClassNotFoundException` - If `compClass` doesn't indicate a valid class for the specified directory
+- [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) - If the `virtualDirName` passed in is invalid
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
 - `java.lang.reflect.InvocationTargetException`
@@ -230,15 +230,15 @@ public com.phoenix_int.aserver.PHXComponentResourcePair instantiateManaged(java.
                                                                            java.lang.String virtualDir,
                                                                            java.lang.String connector,
                                                                            java.lang.String queue)
-    throws java.lang.ClassNotFoundException,
-           java.lang.IllegalAccessException,
-           java.lang.InstantiationException,
-           java.lang.reflect.InvocationTargetException,
-           java.io.IOException,
-           PHXServerSideException,
-           java.net.MalformedURLException,
-           com.phoenix_int.aserver.util.proxywrapper.PHXProxyNotAllowedException,
-           PHXNoSuchCategoryException
+                                                                    throws java.lang.ClassNotFoundException,
+                                                                           java.lang.IllegalAccessException,
+                                                                           java.lang.InstantiationException,
+                                                                           java.lang.reflect.InvocationTargetException,
+                                                                           java.io.IOException,
+                                                                           PHXServerSideException,
+                                                                           java.net.MalformedURLException,
+                                                                           com.phoenix_int.aserver.util.proxywrapper.PHXProxyNotAllowedException,
+                                                                           PHXNoSuchCategoryException
 ```
 Creates an instance of the specified component. Typically a librarian will find the appropriate files and pass the request off to the [`IPHXFactory`](IPHXFactory.md). It is important that this class throws [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) and ClassNotFoundException in the appropriate cases as they are handled in special ways by the librarian mounter and librarian combiner.
 
@@ -255,8 +255,8 @@ Creates an instance of the specified component. Typically a librarian will find 
 - an instance of the specified component class and its managed resources
 
 **Throws:**
-- `java.lang.ClassNotFoundException` - If compClass doesn't indicate a valid class for the specified directory
-- [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) - If the virtualDirName passed in is invalid
+- `java.lang.ClassNotFoundException` - If `compClass` doesn't indicate a valid class for the specified directory
+- [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) - If the `virtualDirName` passed in is invalid
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
 - `java.lang.reflect.InvocationTargetException`
@@ -270,15 +270,15 @@ Creates an instance of the specified component. Typically a librarian will find 
 ```java
 public com.phoenix_int.aserver.PHXComponentResourcePair instantiateManaged(java.lang.String compClass,
                                                                            java.lang.String virtualDir)
-    throws java.lang.ClassNotFoundException,
-           java.lang.IllegalAccessException,
-           java.lang.InstantiationException,
-           java.lang.reflect.InvocationTargetException,
-           java.io.IOException,
-           PHXServerSideException,
-           java.net.MalformedURLException,
-           com.phoenix_int.aserver.util.proxywrapper.PHXProxyNotAllowedException,
-           PHXNoSuchCategoryException
+                                                                    throws java.lang.ClassNotFoundException,
+                                                                           java.lang.IllegalAccessException,
+                                                                           java.lang.InstantiationException,
+                                                                           java.lang.reflect.InvocationTargetException,
+                                                                           java.io.IOException,
+                                                                           PHXServerSideException,
+                                                                           java.net.MalformedURLException,
+                                                                           com.phoenix_int.aserver.util.proxywrapper.PHXProxyNotAllowedException,
+                                                                           PHXNoSuchCategoryException
 ```
 Creates an instance of the specified component. Typically a librarian will find the appropriate files and pass the request off to the [`IPHXFactory`](IPHXFactory.md). It is important that this class throws [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) and ClassNotFoundException in the appropriate cases as they are handled in special ways by the librarian mounter and librarian combiner.
 
@@ -293,8 +293,8 @@ Creates an instance of the specified component. Typically a librarian will find 
 - an instance of the specified component class and its managed resources
 
 **Throws:**
-- `java.lang.ClassNotFoundException` - If compClass doesn't indicate a valid class for the specified directory
-- [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) - If the virtualDirName passed in is invalid
+- `java.lang.ClassNotFoundException` - If `compClass` doesn't indicate a valid class for the specified directory
+- [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) - If the `virtualDirName` passed in is invalid
 - `java.lang.IllegalAccessException`
 - `java.lang.InstantiationException`
 - `java.lang.reflect.InvocationTargetException`
@@ -308,11 +308,11 @@ Creates an instance of the specified component. Typically a librarian will find 
 ```java
 public PHXComponentBranch getComponentHistory(java.lang.String compClass,
                                               java.lang.String virtualDir)
-    throws java.lang.ClassNotFoundException,
-           PHXNoSuchCategoryException,
-           java.io.IOException
+                                       throws java.lang.ClassNotFoundException,
+                                              PHXNoSuchCategoryException,
+                                              java.io.IOException
 ```
-Gets all version information about a particular component. It is important that this class throws [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) and ClassNotFoundException in the appropriate cases as they are handled in special ways by the librarian mounter and librarian combiner.
+Gets all version information about a particular component. It is important that this class throws [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) and `ClassNotFoundException` in the appropriate cases as they are handled in special ways by the librarian mounter and librarian combiner.
 
 **Specified by:**
 - `getComponentHistory` in interface [`IPHXVersionedLibrarian`](IPHXVersionedLibrarian.md)
@@ -325,8 +325,8 @@ Gets all version information about a particular component. It is important that 
 - An instance of [`PHXComponentBranch`](../PHXComponentBranch.md) which contains all the versions and sub-branches available
 
 **Throws:**
-- `java.lang.ClassNotFoundException` - If compClass doesn't indicate a valid class for the specified directory
-- [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) - If the virtualDirName passed in is invalid
+- `java.lang.ClassNotFoundException` - If `compClass` doesn't indicate a valid class for the specified directory
+- [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) - If the `virtualDirName` passed in is invalid
 - `java.io.IOException`
 
 ### describe
@@ -334,13 +334,13 @@ Gets all version information about a particular component. It is important that 
 ```java
 public PHXComponentDescription describe(java.lang.String compClass,
                                         java.lang.String virtualDir)
-    throws java.lang.ClassNotFoundException,
-           java.io.IOException,
-           PHXServerSideException,
-           java.net.MalformedURLException,
-           PHXNoSuchCategoryException
+                                 throws java.lang.ClassNotFoundException,
+                                        java.io.IOException,
+                                        PHXServerSideException,
+                                        java.net.MalformedURLException,
+                                        PHXNoSuchCategoryException
 ```
-Describes the specified component. TODO: Currently all descriptions come from the head.
+Describes the specified component. 
 
 **Specified by:**
 - `describe` in interface [`IPHXLibrarian`](IPHXLibrarian.md)
@@ -354,7 +354,7 @@ Describes the specified component. TODO: Currently all descriptions come from th
 
 **Throws:**
 - `java.lang.ClassNotFoundException` - if the class is not found
-- [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) - If the virtualDirName passed in is invalid
+- [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) - If the `virtualDirName` passed in is invalid
 - `java.io.IOException`
 - [`PHXServerSideException`](../PHXServerSideException.md)
 - `java.net.MalformedURLException`
@@ -364,7 +364,7 @@ Describes the specified component. TODO: Currently all descriptions come from th
 ```java
 public java.lang.String getQueues(java.lang.String compClass,
                                   java.lang.String virtualDir)
-    throws java.lang.Exception
+                           throws java.lang.Exception
 ```
 Method for getting Queues from CenterLink, MCRE just returns blank string
 
@@ -379,8 +379,8 @@ Method for getting Queues from CenterLink, MCRE just returns blank string
 - a list of queues for the specified component class
 
 **Throws:**
-- [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) - If the virtualDirName passed in is invalid
-- `java.lang.ClassNotFoundException` - If compClass doesn't indicate a valid class for the specified directory
+- [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) - If the `virtualDirName` passed in is invalid
+- `java.lang.ClassNotFoundException` - If `compClass` doesn't indicate a valid class for the specified directory
 - `java.lang.Exception` - If anything goes wrong
 
 ### getBranchesAndTags

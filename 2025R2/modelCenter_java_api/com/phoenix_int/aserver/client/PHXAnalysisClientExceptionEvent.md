@@ -46,7 +46,7 @@ This class is an event for the [`PHXAnalysisClient`](PHXAnalysisClient.md) class
 ## Method Detail
 
 ### getException
-```
+```java
 public java.lang.Exception getException()
 ```
 retrieves the Exception object

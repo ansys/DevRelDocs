@@ -24,9 +24,9 @@ extends PHXSimpleType
 implements IPHXFormat
 ```
 
-**THIS CLASS IS DEPRECATED IN FAVOR OF PHXLong**
+**THIS CLASS IS DEPRECATED IN FAVOR OF [PHXLong](PHXLong.md)**
 
-The Phoenix type for integers. This class adds the following features to the PHXSimpleType:
+The type for integers. This class adds the following features to the [`PHXSimpleType`](PHXSimpleType.md):
 
 - **value**: int
 - **valueStr**: the source string for the value, useful for error checking when the value is NaN
