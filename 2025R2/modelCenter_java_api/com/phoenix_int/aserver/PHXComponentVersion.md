@@ -53,7 +53,10 @@ Constructs a version with a given name
 
 ### PHXComponentVersion
 ```java
-public PHXComponentVersion(java.lang.String name, java.lang.String author, java.lang.String description, java.util.Date date)
+public PHXComponentVersion(java.lang.String name, 
+                          java.lang.String author, 
+                          java.lang.String description, 
+                          java.util.Date date)
 ```
 Constructs a version with the specified meta data
 
@@ -66,7 +69,7 @@ Constructs a version with the specified meta data
 ### PHXComponentVersion
 ```java
 public PHXComponentVersion(org.w3c.dom.Element versionNode)
-        throws java.io.IOException
+                    throws java.io.IOException
 ```
 Constructs a version based on information in an XML Element
 

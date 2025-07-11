@@ -20,14 +20,9 @@ implements IPHXAlwaysWriteable, IPHXType2
 ```
 The type for references. This class matches up to references in ModelCenter. Users may define their own properties in addition to the value property.
 
-
-**value**: double
-
-
-**properties**: PHXRefProperty[]
-
-
-**reference**: String
+- **value**: double
+- **properties**: PHXRefProperty[]
+- **reference**: String
 
 ## Nested Class Summary
 

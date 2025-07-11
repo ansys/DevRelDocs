@@ -18,7 +18,7 @@ A class for creating variables
 
 
 **See Also:**
-- [PHXSimpleType](PHXSimpleType.md)-
+- [PHXSimpleType](PHXSimpleType.md)
 
 ## Field Summary
 
@@ -262,7 +262,7 @@ Allocate a given variable for the given type string
 ```java
 @Deprecated
 public static IPHXType2 allocateVariable(java.lang.String type)
-                                               throws PHXInvalidTypeException
+                                  throws PHXInvalidTypeException
 ```
 **Deprecated.** Prefer `allocateVariable2(java.lang.String)` which can properly differentiate between arrays and non-array types. 
 
@@ -282,7 +282,7 @@ Creates a variable from a type string
 ```java
 @Deprecated
 public static PHXSimpleArray allocateArray(java.lang.String arrayType)
-                                                 throws PHXInvalidTypeException
+                                    throws PHXInvalidTypeException
 ```
 **Deprecated.** Prefer `allocateVariable2(java.lang.String)` which can properly differentiate between arrays and non-array types.
 

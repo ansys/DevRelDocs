@@ -33,7 +33,8 @@ This interface is for components that determine their properties at runtime. The
 ### getValue
 ```java
 java.lang.String getValue(java.lang.String name)
-    throws PHXNoSuchObjectException, java.lang.Exception
+                   throws PHXNoSuchObjectException, 
+                          java.lang.Exception
 ```
 Function for retrieving a specified value.
 
@@ -49,8 +50,11 @@ Function for retrieving a specified value.
 
 ### setValue
 ```java
-void setValue(java.lang.String name, java.lang.String value)
-    throws PHXNoSuchObjectException, PHXNoSuchWriteableObjectException, java.lang.Exception
+void setValue(java.lang.String name, 
+              java.lang.String value)
+       throws PHXNoSuchObjectException, 
+              PHXNoSuchWriteableObjectException, 
+              java.lang.Exception
 ```
 Function for setting a specified value.
 
@@ -66,7 +70,8 @@ Function for setting a specified value.
 ### getPropertyDescriptors
 ```java
 PHXPropertyDescriptor[] getPropertyDescriptors(java.lang.String name)
-    throws PHXNoSuchObjectException, java.lang.Exception
+                                        throws PHXNoSuchObjectException, 
+                                               java.lang.Exception
 ```
 Function for retrieving the properties of an object.
 
@@ -96,7 +101,7 @@ Function for retrieving the methods of an object.
 ### invoke
 ```java
 java.lang.String invoke(java.lang.String methodName)
-    throws java.lang.Exception
+                 throws java.lang.Exception
 ```
 Invokes the named method.
 
