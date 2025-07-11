@@ -57,7 +57,7 @@ A utility class for holding sub-variables. Internally used to manage groups of v
 ### PHXGroup
 ```java
 public PHXGroup(java.lang.String name)
-        throws PHXInvalidNameException
+         throws PHXInvalidNameException
 ```
 
 **Parameters:**
@@ -80,8 +80,8 @@ retrieves the name of the group
 ### addGroup
 ```java
 public void addGroup(PHXGroup group)
-          throws PHXNameAlreadyInUseException,
-                 PHXInvalidNameException
+              throws PHXNameAlreadyInUseException,
+                     PHXInvalidNameException
 ```
 adds a child group to the group
 
@@ -95,7 +95,7 @@ adds a child group to the group
 ### getGroup
 ```java
 public PHXGroup getGroup(java.lang.String childName)
-              throws PHXNoSuchObjectException
+                  throws PHXNoSuchObjectException
 ```
 retrieves a child group.
 
@@ -123,8 +123,8 @@ retrieves a child group. Does not throw an exception on failure.
 ### makeGroup
 ```java
 public PHXGroup makeGroup(java.lang.String childName)
-                 throws PHXNameAlreadyInUseException,
-                        PHXInvalidNameException
+                   throws PHXNameAlreadyInUseException,
+                          PHXInvalidNameException
 ```
 creates a child group. If the group already exists, it is retrieved
 
@@ -141,7 +141,7 @@ creates a child group. If the group already exists, it is retrieved
 ### removeGroup
 ```java
 public void removeGroup(java.lang.String childName)
-               throws java.lang.Exception
+                 throws java.lang.Exception
 ```
 remove a child group. If the group doesn't exist, it just returns
 
@@ -181,8 +181,8 @@ retrieves all the subgroups in the group
 ### addVariable
 ```java
 public void addVariable(PHXVariableInfo varInfo)
-               throws PHXNameAlreadyInUseException,
-                      PHXInvalidNameException
+                 throws PHXNameAlreadyInUseException,
+                        PHXInvalidNameException
 ```
 stores a variable in the group.
 
@@ -196,7 +196,7 @@ stores a variable in the group.
 ### getVariableInfo
 ```java
 public PHXVariableInfo getVariableInfo(java.lang.String varName)
-                            throws PHXNoSuchObjectException
+                                throws PHXNoSuchObjectException
 ```
 retrieves a variable from the group.
 

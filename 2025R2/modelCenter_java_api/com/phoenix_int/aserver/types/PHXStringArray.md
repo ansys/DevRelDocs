@@ -18,7 +18,7 @@
 public class PHXStringArray
 extends PHXSimpleArray<PHXString>
 ```
-Class wraps an array of PHXString variables for the ScriptWrapper utility.
+Class wraps an array of [PHXString](PHXString.md) variables for the ScriptWrapper utility.
 
 
 **See Also:**

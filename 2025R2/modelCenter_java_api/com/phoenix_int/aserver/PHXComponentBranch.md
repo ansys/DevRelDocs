@@ -59,7 +59,7 @@ Constructs an empty named branch
 ### PHXComponentBranch
 ```java
 public PHXComponentBranch(org.w3c.dom.Element branchElement)
-        throws java.io.IOException
+                   throws java.io.IOException
 ```
 Constructs a branch based on an XML branch node
 

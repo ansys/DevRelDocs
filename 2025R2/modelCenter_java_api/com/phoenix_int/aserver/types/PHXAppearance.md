@@ -110,7 +110,9 @@ public void setBlue(double v)
 ### setColor
 
 ```java
-public void setColor(double r, double g, double b)
+public void setColor(double r, 
+                     double g, 
+                     double b)
 ```
 
 **Parameters:**

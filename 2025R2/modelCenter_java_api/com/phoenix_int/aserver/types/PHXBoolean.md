@@ -207,7 +207,7 @@ Indicates whether the object should accept bad values in the `fromString()` meth
 
 ```java
 public boolean equalsNatural(PHXSimpleType toCompare)
-  throws PHXTypeMismatchException
+                      throws PHXTypeMismatchException
 ```
 
 Compare this [`PHXSimpleType`](PHXSimpleType.md) to another [`PHXSimpleType`](PHXSimpleType.md). This type of comparison is different than `Comparable` in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets, and may behave oddly if put in those circumstances.
