@@ -1,5 +1,5 @@
 # Changelog
-## Table of Contents
+## Table of contents
 ### Features categories
   * [Framework](#features_framework)
   * [HGP](#features_hgp)
@@ -32,7 +32,7 @@
   * [HDF5](#fixes_hdf5)
   * [VTK](#fixes_vtk)
 
-### Performance Improvements categories
+### Performance improvements categories
   * [Framework](#performance_framework)
   * [HGP](#performance_hgp)
   * [MAPDL](#performance_mapdl)
@@ -554,7 +554,7 @@ The operator `stream_provider` now throws an error in case of an invalid file pa
 - "vtu_export" operator exports 2 files when one field, one property field and one fields container with a single time are exported. It should only export one
 
 
-## Performance Improvements
+## Performance improvements
 
 ### <a id="performance_framework"></a> Framework
 
