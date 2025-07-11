@@ -2,43 +2,47 @@
 category: metadata
 plugin: core
 license: None
-Version: 0.0.0
 ---
 
 # metadata:result info provider
 
 **Version: 0.0.0**
 
-
 ## Description
 
 Reads the result information, such as available results or unit systems from the results files contained in the streams or data sources.
 
+## Supported file types
+
+This operator supports the following file types (result keys), listed by namespace:
+- <strong>cff</strong>: cas, flprj
+- <strong>cgns</strong>: cgns
+- <strong>hdf5</strong>: h5dpf
+- <strong>lsdyna</strong>: binout, d3acp, d3acs, d3atv, d3plot, d3psd, d3ssd, lsda, moddynout
+- <strong>mapdl</strong>: cms, dsub, mode, rdsp, rfrq, rst, rth
+- <strong>vtk</strong>: vtk
 
 ## Inputs
 
-
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 3</strong> | streams_container |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | streams (result file container) (optional) |
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span> | data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | If the stream is null, retrieves the file path from the data sources. |
+| <strong>Pin 3</strong>|  streams_container |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | streams (result file container) (optional) |
+| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | If the stream is null, retrieves the file path from the data sources. |
 
 ## Outputs
 
-
-| Output | Name | Expected type(s) | Description |
+| Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-| **Pin 0** | result_info |[`result_info`](../../core-concepts/dpf-types.md#result-info) |  |
+|  **Pin 0**| result_info |[`result_info`](../../core-concepts/dpf-types.md#result-info) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **num_threads** |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 | Number of threads to use to run in parallel |
-| **permissive** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, warning checks (like unit or data sizes) won't be done. |
-| **run_in_parallel** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
-
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **num_threads** |[`int32`](../../core-concepts/dpf-types.md#standard-types}}) | 0 | Number of threads to use to run in parallel |
+| **permissive** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, warning checks (like unit or data sizes) won't be done. |
+| **run_in_parallel** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
 
 ## Scripting
 
@@ -53,7 +57,7 @@ Reads the result information, such as available results or unit systems from the
  **Internal name**: result_info_provider
 
  **License**: None
- 
+
 
 ## Changelog
 
