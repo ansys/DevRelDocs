@@ -83,19 +83,21 @@ public PHXSimpleType()
 ```java
 public void setUnits(java.lang.String u)
 ```
+
 Set the units string for the variable
 
 **Specified by:**
 - `setUnits` in interface [`IPHXUnits`](IPHXUnits.md)
 
 **Parameters:**
-- `u`- units for the variable
+- `u` - units for the variable
 
 ### getUnits
 
 ```java
 public java.lang.String getUnits()
 ```
+
 Get the units string for the variable
 
 **Specified by:**
@@ -121,17 +123,19 @@ public java.lang.String getDescription()
 ```java
 public void setHasChanged(boolean v)
 ```
-sets the hasChanged flag
+
+sets the `hasChanged` flag
 
 **Parameters:**
-- `v`- the new value for the flag
+- `v` - the new value for the flag
 
 ### getHasChanged
 
 ```java
 public boolean getHasChanged()
 ```
-retrieves the hasChanged flag
+
+retrieves the `hasChanged` flag
 
 **Returns:**
 - `true` if the variable has changed since the last time the `hasChanged` flag was set to `false`
@@ -160,16 +164,17 @@ public static java.lang.String[] getEnumTokens(java.lang.String enums)
 public abstract boolean equalsNatural(PHXSimpleType toCompare)
                                throws PHXTypeMismatchException
 ```
+
 Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is different than `Comparable` in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets, and may behave oddly if put in those circumstances.
 
 **Parameters:**
-- `toCompare`-
+- `toCompare` -
 
 **Returns:**
 - a negative number if this object is less than `toCompare`, a positive number if this object is greater than `toCompare`, and zero if these two objects are equal.
 
 **Throws:**
-- `PHXTypeMismatchException`- if the given PHXSimpleType cannot be compared with this object.
+- `PHXTypeMismatchException` - if the given PHXSimpleType cannot be compared with this object.
 
 ### fromObject
 
@@ -177,12 +182,13 @@ Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is 
 public abstract void fromObject(java.lang.Object toRead)
                          throws PHXInvalidTypeException
 ```
+
 Load the value of this object from the specified object. This will read the object and attempt to convert it if it is a known type. If the type isn't recognized, it will throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md). If there is an error in conversion, it will also throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md)
 
 NOTE: while it might be logical to think you can create a `PHX(Type)Array` from, say, an array of `java.lang.(Type)`, that is not currently supported. You MUST use the PHX string array formatting style.
 
 **Parameters:**
-- `toRead`- to object from which to load this objects value.
+- `toRead` - to object from which to load this objects value.
 
 **Throws:**
 - [`PHXInvalidTypeException`](PHXInvalidTypeException.md) if the specified object is of an invalid type or there is an error in conversion.
@@ -192,16 +198,18 @@ NOTE: while it might be logical to think you can create a `PHX(Type)Array` from,
 ```java
 protected final void _copyMetadataFromOther(PHXSimpleType other)
 ```
+
 Copy common metadata on PHXSimpleType from another object to this one. Designed to assist in implementing `createCopy()`.
 
 **Parameters:**
-- `other`- the other object from which metadata will be copied
+- `other` - the other object from which metadata will be copied
 
 ### createCopy
 
 ```java
 public abstract PHXSimpleType createCopy()
 ```
+
 Create a copy of this instance, including the value and metadata.
 
 **Returns:**

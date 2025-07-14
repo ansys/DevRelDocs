@@ -69,6 +69,7 @@ public void initialize(com.phoenix_int.aserver.ascore.PHXConnection connection,
                        org.w3c.dom.Node xmlOptions)
                 throws java.lang.Exception
 ```
+
 There are 2 options for this class. The first is `userPath`, which is a semi-colon separated list of paths to search. Each path will be searched for public_mcre directories ONE LEVEL DEEP from the specified directory. The other option is `smartUserScan`, which tells this class to try and read the user's home directories from `/etc/passwd`.
 
 The XML format is:
@@ -79,6 +80,7 @@ The XML format is:
   <smartUserScan/>
  </librarianOption>
 ```
+
 Note: the mere existence of the `smartUserScan` tag turns the option on.
 
 **Specified By:**
@@ -92,6 +94,7 @@ Note: the mere existence of the `smartUserScan` tag turns the option on.
 ```java
 public void cleanUp()
 ```
+
 Tells this librarian to clean up any resources used.
 
 **Specified By:**
@@ -104,6 +107,7 @@ public java.util.Collection listComponents(java.lang.String virtualDir)
                                     throws PHXNoSuchCategoryException,
                                            com.phoenix_int.aserver.security.PHXAccessDeniedException
 ```
+
 Returns the components in a specific directory
 
 **Specified By:**
@@ -126,6 +130,7 @@ public java.util.Collection listDirectories(java.lang.String virtualDir)
                                      throws PHXNoSuchCategoryException,
                                             com.phoenix_int.aserver.security.PHXAccessDeniedException
 ```
+
 Lists any available sub-directories from a particular directory
 
 **Specified By:**
@@ -150,6 +155,7 @@ public IPHXComponent instantiate(java.lang.String compClass,
                                  java.lang.String queue)
                           throws java.lang.Exception
 ```
+
 Creates an instance of the specified component.
 
 **Specified By:**
@@ -178,6 +184,7 @@ public IPHXComponent instantiate(java.lang.String compClass,
                                  java.lang.String virtualDir)
                           throws java.lang.Exception
 ```
+
 Creates an instance of the specified component. Typically a librarian will find the appropriate files and pass the request off to the [`IPHXFactory`](IPHXFactory.md).
 
 It is important that this class throws [`PHXNoSuchCategoryException`](PHXNoSuchCategoryException.md) and `ClassNotFoundException` in the appropriate cases as they are handled in special ways by the librarian mounter and librarian combiner.
@@ -206,6 +213,7 @@ public com.phoenix_int.aserver.PHXComponentResourcePair instantiateManaged(java.
                                                                            java.lang.String queue)
                                                                     throws java.lang.Exception
 ```
+
 Creates an instance of the specified component. Typically a librarian will find the appropriate files and pass the request off to the [`IPHXFactory`](IPHXFactory.md).
 
 It is important that this class throws [`PHXNoSuchCategoryException`](PHXNoSuchCategoryException.md) and `ClassNotFoundException` in the appropriate cases as they are handled in special ways by the librarian mounter and librarian combiner.
@@ -234,6 +242,7 @@ public com.phoenix_int.aserver.PHXComponentResourcePair instantiateManaged(java.
                                                                            java.lang.String virtualDir)
                                                                     throws java.lang.Exception
 ```
+
 Creates an instance of the specified component. Typically a librarian will find the appropriate files and pass the request off to the [`IPHXFactory`](IPHXFactory.md).
 
 It is important that this class throws [`PHXNoSuchCategoryException`](PHXNoSuchCategoryException.md) and `ClassNotFoundException` in the appropriate cases as they are handled in special ways by the librarian mounter and librarian combiner.
@@ -260,6 +269,7 @@ public PHXComponentDescription describe(java.lang.String compClass,
                                         java.lang.String virtualDir)
                                  throws java.lang.Exception
 ```
+
 Describes the specified component.
 
 **Specified By:**
@@ -284,6 +294,7 @@ public java.lang.String getQueues(java.lang.String compClass,
                                   java.lang.String virtualDir)
                            throws java.lang.Exception
 ```
+
 Method for getting Queues from CenterLink, MCRE just returns blank string
 
 **Specified By:**

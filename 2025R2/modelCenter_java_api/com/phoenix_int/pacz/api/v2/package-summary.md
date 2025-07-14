@@ -130,7 +130,7 @@ When ModelCenter Remote Execution or ModelCenter Server attempts to load a PACZ 
 - The default values of variables specified in the PACJ configuration must match the default (or initial) values of variables in the component.
 
 ## Example PACJ Configuration File
-```java
+```
 
  {
    "version": "1.0",

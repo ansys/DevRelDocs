@@ -26,6 +26,7 @@ This is the interface for replacing strings, used by the PHXStringReplacer class
 java.lang.String getReplacement(java.lang.String s)
                          throws PHXNoSuchReplacementException
 ```
+
 replaces the specified string with some other value. If the string does not match a known entity, just return it.
 
 **Parameters:**

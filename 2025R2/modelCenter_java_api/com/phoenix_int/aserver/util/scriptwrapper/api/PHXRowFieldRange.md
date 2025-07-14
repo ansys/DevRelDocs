@@ -215,6 +215,7 @@ public void generate()
                      PHXSectionNotFoundException,
                      com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
+
 Generate the input file
 
 **Specified by:**
@@ -236,6 +237,7 @@ Generate the input file
 ```java
 public void setFileToGenerate(java.lang.String fileName)
 ```
+
 Set the file to be generated
 
 **Specified by:**
@@ -258,6 +260,7 @@ public void parse()
                   PHXSectionNotFoundException,
                   com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
+
 Parse the output file
 
 **Specified by:**
@@ -280,6 +283,7 @@ Parse the output file
 ```java
 public void setFileToParse(java.lang.String fileName)
 ```
+
 Set the file to be parsed
 
 **Specified by:**
@@ -292,10 +296,11 @@ Set the file to be parsed
 ### newParser
 
 ```java
-protected [`Parser`](../Parser.md) newParser(java.io.File rFile, 
-                           [`Parser.Mode`](../Parser.Mode.md) pmode)
+protected Parser newParser(java.io.File rFile, 
+                           Parser.Mode pmode)
                     throws java.io.IOException
 ```
+
 Generate a new parser for the given file and mode
 
 **Specified by:**
@@ -314,6 +319,7 @@ Generate a new parser for the given file and mode
 protected void ensureFileParser(ParseableFile.Mode mode)
     throws java.io.IOException
 ```
+
 Ensure there is a valid parser
 
 **Overrides:**
@@ -426,6 +432,7 @@ protected void transferVars(ParseableFile.Mode mode)
                             PHXSectionNotFoundException,
                             com.phoenix_int.aserver.util.scriptwrapper.api.PHXRowFieldOutOfFileException
 ```
+
 Note that if wrapper is null, variable collection should be empty, and there should be no harm in calling this method
 
 Transfer values for variables that have been defined using methods from the concrete implementation, i.e. [`defineVar(String, String, boolean, String)`](PHXRowFieldFile.md)

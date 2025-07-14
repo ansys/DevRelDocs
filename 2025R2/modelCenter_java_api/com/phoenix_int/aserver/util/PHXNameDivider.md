@@ -60,6 +60,7 @@ public PHXNameDivider()
 ```java
 public static java.lang.String getPathPart(java.lang.String fullName)
 ```
+
 Retrieves the path part from a full name.
 
 **Parameters:**
@@ -73,6 +74,7 @@ Retrieves the path part from a full name.
 ```java
 public static java.lang.String getNamePart(java.lang.String fullName)
 ```
+
 Retrieves the name part from a full name.
 
 **Parameters:**

@@ -51,6 +51,7 @@ Configuration for PACZ file
 ```java
 Environment getEnvironment()
 ```
+
 Get component environment
 
 **Returns:**
@@ -64,6 +65,7 @@ Get component environment
 ```java
 RunFolderPreference getRunFolderPreference()
 ```
+
 Get run folder preference for component
 
 **Returns:**
@@ -77,6 +79,7 @@ Get run folder preference for component
 ```java
 java.lang.String getVersion()
 ```
+
 Get component version
 
 **Returns:**
@@ -87,6 +90,7 @@ Get component version
 ```java
 void setVersion(java.lang.String version)
 ```
+
 Set component version
 
 **Parameters:**
@@ -97,6 +101,7 @@ Set component version
 ```java
 java.lang.String getDescription()
 ```
+
 Get component description
 
 **Returns:**
@@ -107,6 +112,7 @@ Get component description
 ```java
 void setDescription(java.lang.String description)
 ```
+
 Set component description
 
 **Parameters:**
@@ -117,6 +123,7 @@ Set component description
 ```java
 java.util.List<java.lang.String> getRequiredFeatures()
 ```
+
 Get list of features required for component to execute
 
 **Returns:**
@@ -127,6 +134,7 @@ Get list of features required for component to execute
 ```java
 void setRequiredFeatures(java.util.List<java.lang.String> requiredFeatures)
 ```
+
 Set list features required for component to execute
 
 **Parameters:**
@@ -137,6 +145,7 @@ Set list features required for component to execute
 ```java
 java.lang.String getExecutable()
 ```
+
 Get name of component executable
 
 **Returns:**
@@ -147,6 +156,7 @@ Get name of component executable
 ```java
 java.util.List<java.lang.String> getCommandLineArguments()
 ```
+
 Get command line arguments to be passed to component executable
 
 **Returns:**
@@ -157,6 +167,7 @@ Get command line arguments to be passed to component executable
 ```java
 java.util.List<IRuntimeVariable> getInputs()
 ```
+
 Get component inputs
 
 **Returns:**
@@ -170,6 +181,7 @@ Get component inputs
 ```java
 void setInputs(java.util.List<IRuntimeVariable> inputs)
 ```
+
 Set component inputs
 
 **Parameters:**
@@ -183,6 +195,7 @@ Set component inputs
 ```java
 java.util.List<IRuntimeVariable> getOutputs()
 ```
+
 Get component outputs
 
 **Returns:**
@@ -196,6 +209,7 @@ Get component outputs
 ```java
 void setOutputs(java.util.List<IRuntimeVariable> outputs)
 ```
+
 Set component outputs
 
 **Parameters:**
@@ -209,6 +223,7 @@ Set component outputs
 ```java
 java.util.List<IInstanceFile> getInstanceFiles()
 ```
+
 Get component instance files
 
 **Returns:**
@@ -222,6 +237,7 @@ Get component instance files
 ```java
 void setInstanceFiles(java.util.List<IInstanceFile> instanceFiles)
 ```
+
 Set component instance files
 
 **Parameters:**
@@ -235,6 +251,7 @@ Set component instance files
 ```java
 java.util.Map<java.lang.String,java.lang.String> getProperties()
 ```
+
 Get additional component properties
 
 **Returns:**
@@ -245,6 +262,7 @@ Get additional component properties
 ```java
 java.lang.String getASComponent()
 ```
+
 Get ModelCenter Remote Execution component name
 
 **Returns:**
@@ -255,6 +273,7 @@ Get ModelCenter Remote Execution component name
 ```java
 java.net.URI getHelpUri()
 ```
+
 Get URI of help to use for component
 
 **Returns:**
@@ -265,6 +284,7 @@ Get URI of help to use for component
 ```java
 java.net.URI getIconUri()
 ```
+
 Get URI of icon to use for component
 
 **Returns:**
@@ -275,6 +295,7 @@ Get URI of icon to use for component
 ```java
 void setIconUri(java.net.URI iconUri)
 ```
+
 Set component icon URI
 
 **Parameters:**
@@ -286,6 +307,7 @@ Set component icon URI
 void setAdditionalConfigValue(java.lang.String valueName, 
                               java.lang.Object value)
 ```
+
 Set additional configuration value key-value pair in map. If key exists, the existing value will be overwritten with the new value. If key does not exist, the new key-value pair will be inserted into the map.
 
 **Parameters:**
@@ -297,6 +319,7 @@ Set additional configuration value key-value pair in map. If key exists, the exi
 ```java
 java.util.Map<java.lang.String,java.lang.Object> getAdditionalConfigValues()
 ```
+
 Get additional configuration values as key-value pair map
 
 **Returns:**
@@ -307,6 +330,7 @@ Get additional configuration values as key-value pair map
 ```java
 java.lang.Object getAdditionalConfigValue(java.lang.String valueName)
 ```
+
 Get additional configuration value based on specified value name.
 
 **Parameters:**
@@ -320,6 +344,7 @@ Get additional configuration value based on specified value name.
 ```java
 java.lang.String getAuthor()
 ```
+
 Get the author of this component.
 
 **Returns:**
@@ -330,6 +355,7 @@ Get the author of this component.
 ```java
 void setAuthor(java.lang.String author)
 ```
+
 Set the author of this component.
 
 **Parameters:**
@@ -340,6 +366,7 @@ Set the author of this component.
 ```java
 java.lang.String getComment()
 ```
+
 Get the comment associated with this component.
 
 **Returns:**
@@ -350,6 +377,7 @@ Get the comment associated with this component.
 ```java
 void setComment(java.lang.String comment)
 ```
+
 Set a comment to be associated with this component.
 
 **Parameters:**

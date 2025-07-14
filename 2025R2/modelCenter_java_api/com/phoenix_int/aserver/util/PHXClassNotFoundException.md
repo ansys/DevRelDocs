@@ -58,6 +58,7 @@ Simple wrapper for ClassNotFoundException which can contain additional logging i
 ```java
 public PHXClassNotFoundException()
 ```
+
 Creates a new instance of PHXClassNotFoundException
 
 ### PHXClassNotFoundException

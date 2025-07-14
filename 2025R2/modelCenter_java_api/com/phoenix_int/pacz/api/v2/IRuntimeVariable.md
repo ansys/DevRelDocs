@@ -59,6 +59,7 @@ Component variable interface
 ```java
 java.lang.String getVariableName()
 ```
+
 Get variable name
 
 **Returns:**
@@ -69,6 +70,7 @@ Get variable name
 ```java
 void setVariableName(java.lang.String name)
 ```
+
 Set variable name
 
 **Parameters:**
@@ -79,6 +81,7 @@ Set variable name
 ```java
 java.lang.String getDescription()
 ```
+
 Get variable description
 
 **Returns:**
@@ -89,6 +92,7 @@ Get variable description
 ```java
 void setDescription(java.lang.String description)
 ```
+
 Set variable description
 
 **Parameters:**
@@ -99,6 +103,7 @@ Set variable description
 ```java
 java.lang.String getType()
 ```
+
 Get variable data type
 
 **Returns:**
@@ -112,6 +117,7 @@ Get variable data type
 ```java
 java.util.Map<java.lang.String,java.lang.String> getMetaData()
 ```
+
 Get additional variable meta data
 
 **Returns:**
@@ -124,6 +130,7 @@ void setMetaData(java.lang.String key,
                  java.lang.String value)
           throws java.lang.IllegalArgumentException
 ```
+
 Set meta data property; will create a new entry if it does not exist
 
 **Parameters:**
@@ -138,36 +145,40 @@ Set meta data property; will create a new entry if it does not exist
 ```java
 boolean isNumeric()
 ```
+
 Whether or not variable is a numeric type
 
 **Returns:**
-- true if numeric type, false otherwise
+- `true` if numeric type, `false` otherwise
 
 ### isArray
 
 ```java
 boolean isArray()
 ```
+
 Whether or not variable is an array type
 
 **Returns:**
-- true if array type, false otherwise
+- `true` if array type, `false` otherwise
 
 ### isEnum
 
 ```java
 boolean isEnum()
 ```
+
 Whether or not variable is an enumerated type
 
 **Returns:**
-- true if enumerated type, false otherwise
+- `true` if enumerated type, `false` otherwise
 
 ### toPHXSimpleType
 
 ```java
 PHXSimpleType toPHXSimpleType()
 ```
+
 Get the PHXSimpleType version of variable
 
 **Returns:**
@@ -178,6 +189,7 @@ Get the PHXSimpleType version of variable
 ```java
 IRuntimeVariable createCopy()
 ```
+
 Get a clone of this variable, including its metadata and value.
 
 **Returns:**

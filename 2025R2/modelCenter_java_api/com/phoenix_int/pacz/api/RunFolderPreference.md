@@ -22,7 +22,7 @@ See [`com.phoenix_int.pacz.api.v2.RunFolderPreferece`](v2/RunFolderPreference.md
 ```java
 @Deprecated
 public enum RunFolderPreference
-    extends java.lang.Enum<RunFolderPreference>
+extends java.lang.Enum<RunFolderPreference>
 ```
 
 Preference for how files within the .pacz should be handled when running a component.

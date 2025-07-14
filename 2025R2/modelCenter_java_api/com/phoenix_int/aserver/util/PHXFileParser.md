@@ -59,12 +59,12 @@ NOTES:
 
 | Modifier and Type | Field and Description |
 |-------------------|----------------------|
-| `static int` | `AUTOMATIC`<br>Deprecated. in favor of `Parser.Mode.AUTOMATIC` |
-| `static int` | `BUFFERED`<br>Deprecated. in favor of `Parser.Mode.BUFFERED` |
-| `static long` | `FILE_SIZE_LIMIT`<br>Deprecated. in favor of `Parser.Mode.FILE_SIZE_LIMIT` |
+| `static int` | `AUTOMATIC`<br>Deprecated in favor of `Parser.Mode.AUTOMATIC` |
+| `static int` | `BUFFERED`<br>Deprecated in favor of `Parser.Mode.BUFFERED` |
+| `static long` | `FILE_SIZE_LIMIT`<br>Deprecated in favor of `Parser.Mode.FILE_SIZE_LIMIT` |
 | `static int` | `FIRST` |
 | `static int` | `LAST` |
-| `static int` | `RANDOM_ACCESS`<br>Deprecated. in favor of `Parser.Mode.RANDOM` |
+| `static int` | `RANDOM_ACCESS`<br>Deprecated in favor of `Parser.Mode.RANDOM` |
 | `static int` | `RESIZE_DISALLOW`<br>Don't allow the length of an array to change |
 | `static int` | `RESIZE_ROWS`<br>Allow a square matrix to change sizes by adding or deleting rows. |
 
@@ -76,7 +76,7 @@ NOTES:
 | `PHXFileParser(java.io.File file, Parser.Mode mode, com.phoenix_int.util.PHXFileUtils.Encoding encoding)` |
 | `PHXFileParser(IPHXLineStore store, java.lang.String fileName)` |
 | `PHXFileParser(java.lang.String fileName)` |
-| `PHXFileParser(java.lang.String fileName, int method)`<br>Deprecated. in favor of `PHXFileParser(String, Parser.Mode)` |
+| `PHXFileParser(java.lang.String fileName, int method)`<br>Deprecated in favor of `PHXFileParser(String, Parser.Mode)` |
 | `PHXFileParser(java.lang.String fileName, Parser.Mode mode)` |
 | `PHXFileParser(java.lang.String fileName, Parser.Mode mode, com.phoenix_int.util.PHXFileUtils.Encoding encoding)` |
 | `PHXFileParser(java.lang.String fileName, com.phoenix_int.util.PHXFileUtils.Encoding encoding)` |
@@ -87,63 +87,53 @@ NOTES:
 |-------------------|----------------------|
 | `void` | `addLines(int actualIndex, int count, java.lang.String line)` |
 | `void` | `addLines(int actualIndex, java.lang.String[] lines)` |
-| `void` | `clearMarks()`resets the file to it's whole size by removing the starting and ending marks if they existed |
-| `void` | `close()`Close the parser |
-| `void` | `closeFile()`close the PHXRandomAccessFileLineStore |
-| `int` | `countTokens(int row)`counts the number of tokens on a specified row |
-| `java.lang.String[]` | `getColumnArray(int startRow, int endRow, int field)`gets an array of tokens for the specified range. |
-| `char` | `getDecimalSeparator()`gets decimal separator character for floating point literals |
+| `void` | `clearMarks()`<br>resets the file to it's whole size by removing the starting and ending marks if they existed |
+| `void` | `close()`<br>Close the parser |
+| `void` | `closeFile()`<br>close the `PHXRandomAccessFileLineStore` |
+| `int` | `countTokens(int row)`<br>counts the number of tokens on a specified row |
+| `java.lang.String[]` | `getColumnArray(int startRow, int endRow, int field)`<br>gets an array of tokens for the specified range. |
+| `char` | `getDecimalSeparator()`<br>gets decimal separator character for floating point literals |
 | `java.lang.String` | `getDelimiters()` |
-| `java.lang.String` | `getFileName()`retrieves the name of the file that is being parsed |
-| `IPHXLineStore` | `getLineStore()`Gets the underlying line store object for this parser |
-| `java.lang.String[]` | `getMatrixArray(int startRow, int startField, int endRow, int endField)`gets an array of tokens for the specified range. |
-| `java.lang.String[]` | `getMatrixArray(int startRow, int startCol, int endRow, int endCol, int fieldWidth)`gets an array of tokens for the specified range. |
-| `java.lang.String[][]` | `getMatrixArray2d(int startRow, int startField, int endRow, int endField)`gets an array of tokens for the specified range. |
-| `java.lang.String[]` | `getRowArray(int startCol, int endCol, int row)`gets an array of tokens for the specified range. |
-| `java.lang.String` | `getToken(int row, int field)`gets the token at the specified row and field. |
-| `java.lang.String` | `getToken(int row, int startCol, int endCol)`gets the token at the specified row and column. |
-| `java.util.Vector` | `getToken(int row, int startField, int endField, java.lang.String delimiter)`gets an array of tokens at the specified row and between start and end fields (all inclusive)
- Indexing starts at 1. |
-| `java.lang.String` | `getToken(java.lang.String string, int rowOffset, int field)`gets the token relative to a search string. |
-| `java.lang.String` | `getToken(java.lang.String string, int occurrence, int rowOffset, int field)`gets the token relative to a search string. |
+| `java.lang.String` | `getFileName()`<br>retrieves the name of the file that is being parsed |
+| `IPHXLineStore` | `getLineStore()`<br>gets the underlying line store object for this parser |
+| `java.lang.String[]` | `getMatrixArray(int startRow, int startField, int endRow, int endField)`<br>gets an array of tokens for the specified range. |
+| `java.lang.String[]` | `getMatrixArray(int startRow, int startCol, int endRow, int endCol, int fieldWidth)`<br>gets an array of tokens for the specified range. |
+| `java.lang.String[][]` | `getMatrixArray2d(int startRow, int startField, int endRow, int endField)`<br>gets an array of tokens for the specified range. |
+| `java.lang.String[]` | `getRowArray(int startCol, int endCol, int row)`<br>gets an array of tokens for the specified range. |
+| `java.lang.String` | `getToken(int row, int field)`<br>gets the token at the specified row and field. |
+| `java.lang.String` | `getToken(int row, int startCol, int endCol)`<br>gets the token at the specified row and column. |
+| `java.util.Vector` | `getToken(int row, int startField, int endField, java.lang.String delimiter)`<br>gets an array of tokens at the specified row and between start and end fields (all inclusive)<br>Indexing starts at 1. |
+| `java.lang.String` | `getToken(java.lang.String string, int rowOffset, int field)`<br>gets the token relative to a search string. |
+| `java.lang.String` | `getToken(java.lang.String string, int occurrence, int rowOffset, int field)`<br>gets the token relative to a search string. |
 | `static void` | `main(java.lang.String[] args)` |
-| `void` | `markBeginning(int row)`marks the starting point from which to start counting rows
- and fields. |
-| `void` | `markBeginning(java.lang.String string)`same as markBeginning where the pattern is a regex and
- ocurence value is 1 |
-| `void` | `markBeginning(java.lang.String string, boolean isRegex)`same as markBeginning with an occurrence value of 1 |
-| `void` | `markBeginning(java.lang.String string, boolean isRegex, int occurrence)`marks the starting point from which to start counting rows
- and fields. |
-| `void` | `markBeginning(java.lang.String string, int occurrence)`marks the starting point from which to start counting rows
- and fields. |
-| `void` | `markBeginningFromEnd(java.lang.String string, boolean isRegex)`marks the starting point from which to start counting rows. |
-| `void` | `markBeginningOffset(int offset)`marks the starting point from which to start counting rows
- and fields. |
-| `void` | `markEnd(int row)`marks the ending point of the file. |
-| `void` | `markEnd(java.lang.String string, boolean isRegex)`same as markEnd with an occurrence value of 1 |
-| `void` | `markEnd(java.lang.String string, boolean isRegex, int occurrence)`marks the ending point from which to start counting rows
- and fields. |
-| `void` | `markEnd(java.lang.String string, int occurrence)`marks the ending point from which to start counting rows
- and fields. |
-| `void` | `markEndFromEnd(java.lang.String string, boolean isRegex)`marks the starting point from which to start counting rows
- and fields. |
-| `void` | `markEndOffset(int offset)`marks the ending point from which to start counting rows
- and fields. |
+| `void` | `markBeginning(int row)`<br>marks the starting point from which to start counting rows and fields. |
+| `void` | `markBeginning(java.lang.String string)`<br>same as `markBeginning` where the pattern is a regex and occurence value is 1 |
+| `void` | `markBeginning(java.lang.String string, boolean isRegex)`<br>same as `markBeginning` with an occurrence value of 1 |
+| `void` | `markBeginning(java.lang.String string, boolean isRegex, int occurrence)`<br>marks the starting point from which to start counting rows and fields. |
+| `void` | `markBeginning(java.lang.String string, int occurrence)`<br>marks the starting point from which to start counting rows and fields. |
+| `void` | `markBeginningFromEnd(java.lang.String string, boolean isRegex)`<br>marks the starting point from which to start counting rows. |
+| `void` | `markBeginningOffset(int offset)`<br>marks the starting point from which to start counting rows and fields. |
+| `void` | `markEnd(int row)`<br>marks the ending point of the file. |
+| `void` | `markEnd(java.lang.String string, boolean isRegex)`<br>same as `markEnd` with an occurrence value of 1 |
+| `void` | `markEnd(java.lang.String string, boolean isRegex, int occurrence)`<br>marks the ending point from which to start counting rows and fields. |
+| `void` | `markEnd(java.lang.String string, int occurrence)`<br>marks the ending point from which to start counting rows and fields. |
+| `void` | `markEndFromEnd(java.lang.String string, boolean isRegex)`<br>marks the starting point from which to start counting rows and fields. |
+| `void` | `markEndOffset(int offset)`<br>marks the ending point from which to start counting rows and fields. |
 | `void` | `removeLines(int actualIndex, int count)` |
-| `void` | `resetDelimiters()`resets the delimiters to whitespace |
-| `void` | `setDecimalSeparator(char separator)`sets decimal separator character for floating point literals |
-| `void` | `setDelimiters(java.lang.String delimiters)`sets the current delimiter set |
-| `void` | `setMatrixArray(int startRow, int startCol, int endRow, int endCol, int fieldWidth, java.lang.String[] array)`sets an array of tokens for the specified range. |
-| `void` | `setMatrixArray(int startRow, int startCol, int endRow, int endCol, int fieldWidth, java.lang.String[] array, int resizeStyle)`sets an array of tokens for the specified range. |
-| `void` | `setMatrixArray(int startRow, int startCol, int endRow, int endCol, java.lang.String[] array)`sets an array of tokens for the specified range. |
-| `void` | `setMatrixArray(int startRow, int startCol, int endRow, int endCol, java.lang.String[] array, int resizeStyle)`sets an array of tokens for the specified range. |
-| `void` | `setMatrixArray2d(int startRow, int startCol, int endRow, int endCol, java.lang.String[][] array, int resizeStyle)`sets an array of tokens for the specified range. |
-| `void` | `setToken(int row, int startCol, int endCol, java.lang.String replacement)`replaces the token at the specified row and column. |
-| `void` | `setToken(int row, int field, java.lang.String replacement)`replaces the token at the specified row and field. |
-| `void` | `setToken(java.lang.String string, int occurrence, int rowOffset, int field, java.lang.String replacement)`gets the token relative to a search string. |
-| `void` | `setToken(java.lang.String string, int rowOffset, int field, java.lang.String replacement)`gets the token relative to a search string. |
+| `void` | `resetDelimiters()`<br>resets the delimiters to whitespace |
+| `void` | `setDecimalSeparator(char separator)`<br>sets decimal separator character for floating point literals |
+| `void` | `setDelimiters(java.lang.String delimiters)`<br>sets the current delimiter set |
+| `void` | `setMatrixArray(int startRow, int startCol, int endRow, int endCol, int fieldWidth, java.lang.String[] array)`<br>sets an array of tokens for the specified range. |
+| `void` | `setMatrixArray(int startRow, int startCol, int endRow, int endCol, int fieldWidth, java.lang.String[] array, int resizeStyle)`<br>sets an array of tokens for the specified range. |
+| `void` | `setMatrixArray(int startRow, int startCol, int endRow, int endCol, java.lang.String[] array)`<br>sets an array of tokens for the specified range. |
+| `void` | `setMatrixArray(int startRow, int startCol, int endRow, int endCol, java.lang.String[] array, int resizeStyle)`<br>sets an array of tokens for the specified range. |
+| `void` | `setMatrixArray2d(int startRow, int startCol, int endRow, int endCol, java.lang.String[][] array, int resizeStyle)`<br>sets an array of tokens for the specified range. |
+| `void` | `setToken(int row, int startCol, int endCol, java.lang.String replacement)`<br>replaces the token at the specified row and column. |
+| `void` | `setToken(int row, int field, java.lang.String replacement)`<br>replaces the token at the specified row and field. |
+| `void` | `setToken(java.lang.String string, int occurrence, int rowOffset, int field, java.lang.String replacement)`<br>gets the token relative to a search string. |
+| `void` | `setToken(java.lang.String string, int rowOffset, int field, java.lang.String replacement)`<br>gets the token relative to a search string. |
 | `void` | `writeTo(java.io.OutputStream os)` |
-| `void` | `writeTo(java.io.OutputStreamWriter fw)`writes out the data to a file |
+| `void` | `writeTo(java.io.OutputStreamWriter fw)`<br>writes out the data to a file |
 | `void` | `writeTo(java.lang.String fileName)` |
 | `void` | `writeTo(java.lang.String fileName, com.phoenix_int.util.PHXFileUtils.Encoding encoding)` |
 
@@ -157,6 +147,7 @@ NOTES:
 ```java
 public static final int RESIZE_DISALLOW
 ```
+
 Don't allow the length of an array to change
 
 **See Also:**
@@ -166,7 +157,7 @@ Don't allow the length of an array to change
 
 ```java
 public static final int RESIZE_ROWS
-```
+```java
 Allow a square matrix to change sizes by adding or deleting rows.
 
 **See Also:**
@@ -196,7 +187,8 @@ public static final int LAST
 @Deprecated
 public static final int RANDOM_ACCESS
 ```
-Deprecated. in favor of `Parser.Mode.RANDOM`
+
+Deprecated in favor of `Parser.Mode.RANDOM`
 
 ### BUFFERED
 
@@ -204,7 +196,8 @@ Deprecated. in favor of `Parser.Mode.RANDOM`
 @Deprecated
 public static final int BUFFERED
 ```
-Deprecated. in favor of `Parser.Mode.BUFFERED`
+
+Deprecated in favor of `Parser.Mode.BUFFERED`
 
 ### AUTOMATIC
 
@@ -212,7 +205,8 @@ Deprecated. in favor of `Parser.Mode.BUFFERED`
 @Deprecated
 public static final int AUTOMATIC
 ```
-Deprecated. in favor of `Parser.Mode.AUTOMATIC`
+
+Deprecated in favor of `Parser.Mode.AUTOMATIC`
 
 ### FILE_SIZE_LIMIT
 
@@ -220,7 +214,8 @@ Deprecated. in favor of `Parser.Mode.AUTOMATIC`
 @Deprecated
 public static final long FILE_SIZE_LIMIT
 ```
-Deprecated. in favor of `Parser.Mode.FILE_SIZE_LIMIT` cut-off limit of file size to use buffers for row files
+
+Deprecated in favor of `Parser.Mode.FILE_SIZE_LIMIT` cut-off limit of file size to use buffers for row files
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
@@ -305,7 +300,8 @@ public PHXFileParser(java.lang.String fileName,
                      int method)
               throws java.io.IOException
 ```
-Deprecated. in favor of `PHXFileParser(String, Parser.Mode)`
+
+Deprecated in favor of `PHXFileParser(String, Parser.Mode)`
 
 **Parameters:**
 - `fileName` - the file to load
@@ -332,6 +328,7 @@ public PHXFileParser(IPHXLineStore store,
 ```java
 public IPHXLineStore getLineStore()
 ```
+
 Gets the underlying line store object for this parser
 
 **Returns:**
@@ -342,7 +339,8 @@ Gets the underlying line store object for this parser
 ```java
 public java.lang.String getFileName()
 ```
-retrieves the name of the file that is being parsed
+
+Retrieves the name of the file that is being parsed
 
 **Returns:**
 - the name of the file
@@ -384,7 +382,8 @@ public void writeTo(java.io.OutputStream os)
 public void writeTo(java.io.OutputStreamWriter fw)
              throws java.io.IOException
 ```
-writes out the data to a file
+
+Writes out the data to a file
 
 **Specified by:**
 - `writeTo` in interface `Parser`
@@ -400,6 +399,7 @@ writes out the data to a file
 ```java
 public void close()
 ```
+
 Description copied from interface: `Parser`
 
 Close the parser
@@ -412,14 +412,16 @@ Close the parser
 ```java
 public void closeFile()
 ```
-close the `PHXRandomAccessFileLineStore`
+
+Close the `PHXRandomAccessFileLineStore`
 
 ### resetDelimiters
 
 ```java
 public void resetDelimiters()
 ```
-resets the delimiters to whitespace
+
+Resets the delimiters to whitespace
 
 ### getDelimiters
 
@@ -432,7 +434,8 @@ public java.lang.String getDelimiters()
 ```java
 public void setDelimiters(java.lang.String delimiters)
 ```
-sets the current delimiter set
+
+Sets the current delimiter set
 
 **Parameters:**
 - `delimiters` - the delimiters to use for parsing
@@ -442,7 +445,8 @@ sets the current delimiter set
 ```java
 public char getDecimalSeparator()
 ```
-gets decimal separator character for floating point literals
+
+Gets decimal separator character for floating point literals
 
 **Returns:**
 - decimal separator character
@@ -452,7 +456,8 @@ gets decimal separator character for floating point literals
 ```java
 public void setDecimalSeparator(char separator)
 ```
-sets decimal separator character for floating point literals
+
+Sets decimal separator character for floating point literals
 
 **Parameters:**
 - `separator` - decimal separator to use when parsing floating point literals
@@ -463,7 +468,8 @@ sets decimal separator character for floating point literals
 public void markBeginning(int row)
                    throws PHXNoSuchTokenException
 ```
-marks the starting point from which to start counting rows and fields. Position is marked relative to the last marked position.
+
+Marks the starting point from which to start counting rows and fields. Position is marked relative to the last marked position.
 
 **Parameters:**
 - `row` - the row where the new beginning will occur. This row becomes row 1.
@@ -477,7 +483,8 @@ marks the starting point from which to start counting rows and fields. Position 
 public void markEnd(int row)
              throws PHXNoSuchTokenException
 ```
-marks the ending point of the file. Position is marked relative to the last marked position.
+
+Marks the ending point of the file. Position is marked relative to the last marked position.
 
 **Parameters:**
 - `row` - the row where the new ending will occur. This row becomes the last row.
@@ -490,7 +497,8 @@ marks the ending point of the file. Position is marked relative to the last mark
 ```java
 public void markBeginningOffset(int offset)
 ```
-marks the starting point from which to start counting rows and fields. Position is marked relative to the last marked position.
+
+Marks the starting point from which to start counting rows and fields. Position is marked relative to the last marked position.
 
 **Parameters:**
 - `offset` - the offset from the current starting line
@@ -505,11 +513,12 @@ public void markBeginning(java.lang.String string,
                           boolean isRegex)
                    throws PHXNoSuchTokenException
 ```
-same as markBeginning with an occurrence value of 1
+
+Same as `markBeginning` with an occurrence value of 1
 
 **Parameters:**
 - `string` - the pattern that marks the new first line
-- `isRegex` - if true, the pattern is a regular expression
+- `isRegex` - if `true`, the pattern is a regular expression
 
 **Throws:**
 - [`PHXNoSuchTokenException`](PHXNoSuchTokenException.md) - thrown if the token is not found
@@ -520,7 +529,8 @@ same as markBeginning with an occurrence value of 1
 public void markBeginning(java.lang.String string)
                    throws PHXNoSuchTokenException
 ```
-same as markBeginning where the pattern is a regex and occurrence value is 1
+
+Same as `markBeginning` where the pattern is a regex and occurrence value is 1
 
 **Parameters:**
 - `string` - the pattern that marks the new first line
@@ -536,12 +546,13 @@ public void markBeginning(java.lang.String string,
                           int occurrence)
                    throws PHXNoSuchTokenException
 ```
-marks the starting point from which to start counting rows and fields. Position is marked relative to the last marked position.
+
+Marks the starting point from which to start counting rows and fields. Position is marked relative to the last marked position.
 
 **Parameters:**
 - `string` - the search pattern
 - `occurrence` - the number of times to search for the pattern. may be negative to search from end
-- `isRegex` - if true, the string is a regular expression.
+- `isRegex` - if `true`, the string is a regular expression.
 
 **Throws:**
 - [`PHXNoSuchTokenException`](PHXNoSuchTokenException.md) - thrown if the token is not found
@@ -553,7 +564,8 @@ public void markBeginning(java.lang.String string,
                           int occurrence)
                    throws PHXNoSuchTokenException
 ```
-marks the starting point from which to start counting rows and fields. Position is marked relative to the last marked position.
+
+Marks the starting point from which to start counting rows and fields. Position is marked relative to the last marked position.
 
 **Parameters:**
 - `string` - the search pattern
@@ -567,7 +579,8 @@ marks the starting point from which to start counting rows and fields. Position 
 ```java
 public void markEndOffset(int offset)
 ```
-marks the ending point from which to start counting rows and fields. Position is marked relative to the previously marked position.
+
+Marks the ending point from which to start counting rows and fields. Position is marked relative to the previously marked position.
 
 **Parameters:**
 - `offset` - the offset from the current starting line
@@ -582,11 +595,12 @@ public void markEnd(java.lang.String string,
                     boolean isRegex)
              throws PHXNoSuchTokenException
 ```
-same as `markEnd` with an occurrence value of 1
+
+Same as `markEnd` with an occurrence value of 1
 
 **Parameters:**
 - `string` - the pattern that marks the new first line
-- `isRegex` - if true, the pattern is a regular expression
+- `isRegex` - if `true`, the pattern is a regular expression
 
 **Throws:**
 - [`PHXNoSuchTokenException`](PHXNoSuchTokenException.md) - thrown if the token is not found
@@ -599,11 +613,12 @@ public void markEnd(java.lang.String string,
                     int occurrence)
              throws PHXNoSuchTokenException
 ```
-marks the ending point from which to start counting rows and fields. Position is marked relative to the last marked position.
+
+Marks the ending point from which to start counting rows and fields. Position is marked relative to the last marked position.
 
 **Parameters:**
 - `string` - the pattern that marks the new last line
-- `isRegex` - if true, the pattern is a regular expression
+- `isRegex` - if `true`, the pattern is a regular expression
 - `occurrence` - the number of times to search for regex value may be negative to search from beginning
 
 **Throws:**
@@ -616,7 +631,8 @@ public void markEnd(java.lang.String string,
                     int occurrence)
              throws PHXNoSuchTokenException
 ```
-marks the ending point from which to start counting rows and fields. Position is marked relative to the last marked position. Search string is a regex.
+
+Marks the ending point from which to start counting rows and fields. Position is marked relative to the last marked position. Search string is a regex.
 
 **Parameters:**
 - `string` - the pattern that marks the new last line
@@ -632,11 +648,12 @@ public void markBeginningFromEnd(java.lang.String string,
                                  boolean isRegex)
                           throws PHXNoSuchTokenException
 ```
-marks the starting point from which to start counting rows. Position is marked relative to the previously marked position.
+
+Marks the starting point from which to start counting rows. Position is marked relative to the previously marked position.
 
 **Parameters:**
 - `string` - the pattern that marks the new first line
-- `isRegex` - if true, the pattern is a regular expression
+- `isRegex` - if `true`, the pattern is a regular expression
 
 **Throws:**
 - [`PHXNoSuchTokenException`](PHXNoSuchTokenException.md) - thrown if the token is not found
@@ -648,11 +665,12 @@ public void markEndFromEnd(java.lang.String string,
                            boolean isRegex)
                     throws PHXNoSuchTokenException
 ```
-marks the starting point from which to start counting rows and fields. Position is marked relative to the previously marked position.
+
+Marks the starting point from which to start counting rows and fields. Position is marked relative to the previously marked position.
 
 **Parameters:**
 - `string` - the pattern that marks the new first line
-- `isRegex` - if true, the pattern is a regular expression
+- `isRegex` - if `true`, the pattern is a regular expression
 
 **Throws:**
 - [`PHXNoSuchTokenException`](PHXNoSuchTokenException.md) - thrown if the token is not found
@@ -662,7 +680,8 @@ marks the starting point from which to start counting rows and fields. Position 
 ```java
 public void clearMarks()
 ```
-resets the file to its whole size by removing the starting and ending marks if they existed
+
+Resets the file to its whole size by removing the starting and ending marks if they existed
 
 ### getToken
 
@@ -673,7 +692,8 @@ public java.lang.String getToken(java.lang.String string,
                                  int field)
                           throws PHXNoSuchTokenException
 ```
-gets the token relative to a search string. Indexing starts at 1.
+
+Gets the token relative to a search string. Indexing starts at 1.
 
 **Parameters:**
 - `string` - the value to search for
@@ -695,7 +715,8 @@ public java.lang.String getToken(java.lang.String string,
                                  int field)
                           throws PHXNoSuchTokenException
 ```
-gets the token relative to a search string. Indexing starts at 1.
+
+Gets the token relative to a search string. Indexing starts at 1.
 
 **Parameters:**
 - `string` - the value to search for
@@ -715,14 +736,15 @@ public java.lang.String getToken(int row,
                                  int field)
                           throws PHXNoSuchTokenException
 ```
-gets the token at the specified row and field. Indexing starts at 1.
+
+Gets the token at the specified row and field. Indexing starts at 1.
 
 **Parameters:**
 - `row` - the row that the token is on
 - `field` - the field in the specified row for the token
 
 **Returns:**
-- the token found at row, field
+- the token found at `row, field`
 
 **Throws:**
 - [`PHXNoSuchTokenException`](PHXNoSuchTokenException.md) - thrown if the token is not found
@@ -735,7 +757,8 @@ public java.lang.String getToken(int row,
                                  int endCol)
                           throws PHXNoSuchTokenException
 ```
-gets the token at the specified row and column. Indexing starts at 1.
+
+Gets the token at the specified row and column. Indexing starts at 1.
 
 **Parameters:**
 - `row` - the row that the token is on
@@ -743,7 +766,7 @@ gets the token at the specified row and column. Indexing starts at 1.
 - `endCol` - the end column
 
 **Returns:**
-- the token between startCol and endCol on row row
+- the token between `startCol` and `endCol` on row row
 
 **Throws:**
 - [`PHXNoSuchTokenException`](PHXNoSuchTokenException.md) - thrown if the token is not found
@@ -757,7 +780,8 @@ public java.util.Vector getToken(int row,
                                  java.lang.String delimiter)
                           throws PHXNoSuchTokenException
 ```
-gets an array of tokens at the specified row and between start and end fields (all inclusive). Indexing starts at 1. Eg: if line = "IP = 1.5, 2.5, 3.5, 4.5", then `getToken(row, 2, 4, " \t,=")` would return `[1.5,2.5,3.5]`.
+
+Gets an array of tokens at the specified row and between start and end fields (all inclusive). Indexing starts at 1. Eg: if line = "IP = 1.5, 2.5, 3.5, 4.5", then `getToken(row, 2, 4, " \t,=")` would return `[1.5,2.5,3.5]`.
 
 **Parameters:**
 - `row` - the row that the tokens are on
@@ -766,7 +790,7 @@ gets an array of tokens at the specified row and between start and end fields (a
 - `delimiter` - the delimiters
 
 **Returns:**
-- the token between startField and endField (all inclusive) on row row
+- the token between `startField` and `endField` (all inclusive) on row `row`
 
 **Throws:**
 - [`PHXNoSuchTokenException`](PHXNoSuchTokenException.md) - thrown if the token is not found
@@ -781,7 +805,8 @@ public void setToken(java.lang.String string,
                      java.lang.String replacement)
               throws PHXNoSuchTokenException
 ```
-gets the token relative to a search string. Indexing starts at 1.
+
+Gets the token relative to a search string. Indexing starts at 1.
 
 **Parameters:**
 - `string` - the value to search for
@@ -802,7 +827,8 @@ public void setToken(java.lang.String string,
                      java.lang.String replacement)
               throws PHXNoSuchTokenException
 ```
-gets the token relative to a search string. Indexing starts at 1.
+
+Gets the token relative to a search string. Indexing starts at 1.
 
 **Parameters:**
 - `string` - the value to search for
@@ -821,7 +847,8 @@ public void setToken(int row,
                      java.lang.String replacement)
               throws PHXNoSuchTokenException
 ```
-replaces the token at the specified row and field. Indexing starts at 1.
+
+Replaces the token at the specified row and field. Indexing starts at 1.
 
 **Parameters:**
 - `row` - the row that the token is on
@@ -840,7 +867,8 @@ public void setToken(int row,
                      java.lang.String replacement)
               throws PHXNoSuchTokenException
 ```
-replaces the token at the specified row and column. Indexing starts at 1.
+
+Replaces the token at the specified row and column. Indexing starts at 1.
 
 **Parameters:**
 - `row` - the row that the token is on
@@ -879,7 +907,8 @@ public void removeLines(int actualIndex,
 public int countTokens(int row)
                 throws PHXNoSuchTokenException
 ```
-counts the number of tokens on a specified row
+
+Counts the number of tokens on a specified row
 
 **Parameters:**
 - `row` - the row to count tokens
@@ -898,7 +927,8 @@ public java.lang.String[] getColumnArray(int startRow,
                                          int field)
                                   throws PHXNoSuchTokenException
 ```
-gets an array of tokens for the specified range. Indexing starts at 1.
+
+Gets an array of tokens for the specified range. Indexing starts at 1.
 
 **Parameters:**
 - `startRow` - the row for the first element in the array
@@ -919,7 +949,8 @@ public java.lang.String[] getRowArray(int startCol,
                                       int row)
                                throws PHXNoSuchTokenException
 ```
-gets an array of tokens for the specified range. Indexing starts at 1.
+
+Gets an array of tokens for the specified range. Indexing starts at 1.
 
 **Parameters:**
 - `startCol` - the field for the first element in the array
@@ -941,7 +972,8 @@ public java.lang.String[] getMatrixArray(int startRow,
                                          int endField)
                                   throws PHXNoSuchTokenException
 ```
-gets an array of tokens for the specified range. Indexing starts at 1.
+
+Gets an array of tokens for the specified range. Indexing starts at 1.
 
 **Parameters:**
 - `startRow` - the row for the first element in the array
@@ -964,7 +996,8 @@ public java.lang.String[][] getMatrixArray2d(int startRow,
                                              int endField)
                                       throws PHXNoSuchTokenException
 ```
-gets an array of tokens for the specified range. Indexing starts at 1.
+
+Gets an array of tokens for the specified range. Indexing starts at 1.
 
 **Parameters:**
 - `startRow` - the row for the first element in the array
@@ -988,7 +1021,8 @@ public java.lang.String[] getMatrixArray(int startRow,
                                          int fieldWidth)
                                   throws PHXNoSuchTokenException
 ```
-gets an array of tokens for the specified range. Indexing starts at 1. Columns are actual columns and not field indexes.
+
+Gets an array of tokens for the specified range. Indexing starts at 1. Columns are actual columns and not field indexes.
 
 **Parameters:**
 - `startRow` - the row for the first element in the array
@@ -1013,7 +1047,8 @@ public void setMatrixArray(int startRow,
                            java.lang.String[] array)
                     throws PHXNoSuchTokenException
 ```
-sets an array of tokens for the specified range. Indexing starts at 1.
+
+Sets an array of tokens for the specified range. Indexing starts at 1.
 
 **Parameters:**
 - `startRow` - the row for the first element in the array
@@ -1036,7 +1071,8 @@ public void setMatrixArray(int startRow,
                            int resizeStyle)
                     throws PHXNoSuchTokenException
 ```
-sets an array of tokens for the specified range. Indexing starts at 1.
+
+Sets an array of tokens for the specified range. Indexing starts at 1.
 
 **Parameters:**
 - `startRow` - the row for the first element in the array
@@ -1044,7 +1080,7 @@ sets an array of tokens for the specified range. Indexing starts at 1.
 - `endRow` - the row for the last element in the array
 - `endCol` - the field for the last element in the array
 - `array` - the values
-- `resizeStyle` - How to resize (RESIZE_DISALLOW, RESIZE_ROWS)
+- `resizeStyle` - How to resize (`RESIZE_DISALLOW`, `RESIZE_ROWS`)
 
 **Throws:**
 - [`PHXNoSuchTokenException`](PHXNoSuchTokenException.md) - thrown if a token is not found
@@ -1060,7 +1096,8 @@ public void setMatrixArray2d(int startRow,
                              int resizeStyle)
                       throws PHXNoSuchTokenException
 ```
-sets an array of tokens for the specified range. Indexing starts at 1.
+
+Sets an array of tokens for the specified range. Indexing starts at 1.
 
 **Parameters:**
 - `startRow` - the row for the first element in the array
@@ -1068,7 +1105,7 @@ sets an array of tokens for the specified range. Indexing starts at 1.
 - `endRow` - the row for the last element in the array
 - `endCol` - the field for the last element in the array
 - `array` - the values
-- `resizeStyle` - How to resize (RESIZE_DISALLOW, RESIZE_ROWS)
+- `resizeStyle` - How to resize (`RESIZE_DISALLOW`, `RESIZE_ROWS`)
 
 **Throws:**
 - [`PHXNoSuchTokenException`](PHXNoSuchTokenException.md) - thrown if a token is not found
@@ -1084,7 +1121,8 @@ public void setMatrixArray(int startRow,
                            java.lang.String[] array)
                     throws PHXNoSuchTokenException
 ```
-sets an array of tokens for the specified range. Indexing starts at 1. Columns are specified instead of fields.
+
+Sets an array of tokens for the specified range. Indexing starts at 1. Columns are specified instead of fields.
 
 **Parameters:**
 - `startRow` - the row for the first element in the array
@@ -1109,7 +1147,8 @@ public void setMatrixArray(int startRow,
                            int resizeStyle)
                     throws PHXNoSuchTokenException
 ```
-sets an array of tokens for the specified range. Indexing starts at 1. Columns are specified instead of fields.
+
+Sets an array of tokens for the specified range. Indexing starts at 1. Columns are specified instead of fields.
 
 **Parameters:**
 - `startRow` - the row for the first element in the array
@@ -1118,7 +1157,7 @@ sets an array of tokens for the specified range. Indexing starts at 1. Columns a
 - `endCol` - the field for the last element in the array
 - `fieldWidth` - UNUSED. How wide one field is.
 - `array` - the values
-- `resizeStyle` - How to resize (RESIZE_DISALLOW, RESIZE_ROWS)
+- `resizeStyle` - How to resize (`RESIZE_DISALLOW`, `RESIZE_ROWS`)
 
 **Throws:**
 - [`PHXNoSuchTokenException`](PHXNoSuchTokenException.md) - thrown if a token is not found

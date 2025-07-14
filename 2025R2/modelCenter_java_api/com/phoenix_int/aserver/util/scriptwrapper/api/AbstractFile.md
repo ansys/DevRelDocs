@@ -124,6 +124,7 @@ protected com.phoenix_int.util.PHXFileUtils.Encoding encoding
 protected AbstractFile(java.io.File baseDir, 
                        ParseableFile.Mode mode)
 ```
+
 Pre-QuickWrap `PHXRowFieldFile` constructor did not have a `PHXScriptWrapperObject` argument. This constructor handles the legacy case, which, in all likelihood, will continue to be used.
 
 **Parameters:**
@@ -157,6 +158,7 @@ protected AbstractFile(PHXScriptWrapperObject wrapper,
 ```java
 public void backup()
 ```
+
 Backup the file on disk. File is at the same location with ".bac" appended to the end. If a file by that name already exists, it is deleted prior to moving.
 
 **Specified by:**
@@ -167,6 +169,7 @@ Backup the file on disk. File is at the same location with ".bac" appended to th
 ```java
 public void close()
 ```
+
 Close the file and free up resources
 
 **Specified by:**
@@ -179,6 +182,7 @@ Close the file and free up resources
 ```java
 public void delete()
 ```
+
 Delete the file from disk.
 
 **Specified by:**
@@ -191,6 +195,7 @@ protected abstract Parser newParser(java.io.File rFile,
                                     Parser.Mode pmode) 
                              throws java.io.IOException
 ```
+
 Generate a new parser for the given file and mode
 
 **Parameters:**
@@ -206,6 +211,7 @@ Generate a new parser for the given file and mode
 protected void ensureFileParser(ParseableFile.Mode mode) 
                          throws java.io.IOException
 ```
+
 Ensure there is a valid parser
 
 **Parameters:**
@@ -237,6 +243,7 @@ public void setEncoding(java.lang.String enc)
 ```java
 protected java.io.File getRealFile(java.lang.String fileName)
 ```
+
 Get the file on disk, possibly relative to the current run-share directory
 
 **Parameters:**
@@ -257,6 +264,7 @@ protected void actionByMode(ParseableFile.Mode mode)
                             PHXBookmarkNotFoundException, 
                             PHXSectionNotFoundException
 ```
+
 Perform an action consistent with `ParseableFile.Mode`
 
 **Parameters:**
@@ -285,6 +293,7 @@ public void readTemplate()
                          PHXBookmarkNotFoundException, 
                          PHXSectionNotFoundException
 ```
+
 Read the template. In MCRE 7.1, this method was changed to never throw any exceptions. Reading the templates allows you to fill in default values if you can, but is not mandatory.
 
 **Specified by:**
@@ -305,6 +314,7 @@ Read the template. In MCRE 7.1, this method was changed to never throw any excep
 ```java
 public void setFileToGenerateOrParse(java.lang.String fileName)
 ```
+
 Set the file to generate or to parse, depending on the mode
 
 **Specified by:**
@@ -315,6 +325,7 @@ Set the file to generate or to parse, depending on the mode
 ```java
 public void setTempEmbedded(java.lang.String option)
 ```
+
 This method applies only to ModelCenter and has no function in ModelCenter Remote Execution
 
 **Specified by:**
@@ -325,6 +336,7 @@ This method applies only to ModelCenter and has no function in ModelCenter Remot
 ```java
 public void setTemplateFile(java.lang.String templateFileName)
 ```
+
 Set the template file to read. If the template file is not specified, it defaults to the file that is parsed or generated, for `Mode.PARSE` or `Mode.GENERATE`, respectively.
 
 **Specified by:**
@@ -340,6 +352,7 @@ public void setVariable(java.lang.String name,
                         java.lang.String value) 
                  throws PHXNoSuchObjectException
 ```
+
 Sets the value of a variable
 
 **Specified by:**
@@ -365,6 +378,7 @@ protected abstract void transferVars(ParseableFile.Mode mode)
                                      PHXBookmarkNotFoundException, 
                                      PHXSectionNotFoundException
 ```
+
 Transfer values for variables that have been defined using methods from the concrete implementation, i.e. `PHXRowFieldFile.defineVar(String, String, boolean, String)`. Variables defined using `PHXScriptWrapperObject.addVariable(String, String, boolean)` must be explicitly transferred using methods of the concrete implementation class
 
 **Parameters:**

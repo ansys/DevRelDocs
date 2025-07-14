@@ -30,6 +30,7 @@ This is the interface that analyses which provide information about running proc
 PHXProcessInfo[] listProcesses()
                         throws java.io.IOException
 ```
+
 Lists all the running processes associated with a component.
 
 **Throws:**
@@ -40,6 +41,7 @@ Lists all the running processes associated with a component.
 java.lang.String[] listMonitorableFiles()
                                  throws java.io.IOException
 ```
+
 Lists all items that may be monitored for output as a component is running. Note that this is normally in addition to any PHXRawFile output variables that your component exposes. Because of this, these names must not conflict with any variable names.
 
 **Throws:**
@@ -50,6 +52,7 @@ Lists all items that may be monitored for output as a component is running. Note
 java.lang.Object getMonitor(java.lang.String monitorName)
                      throws PHXNoSuchObjectException
 ```
+
 Gets a specified monitor. This method can return PHXRawFile objects to publish files for monitoring that don't appear as a regular variable, or PHXMonitorableStream objects to publish random streams of monitor data.
 
 **Returns:**

@@ -18,6 +18,7 @@ public class PHXReference
 extends java.lang.Object
 implements IPHXAlwaysWriteable, IPHXType2
 ```
+
 The type for references. This class matches up to references in ModelCenter. Users may define their own properties in addition to the value property.
 
 - **value**: double
@@ -73,7 +74,8 @@ The type for references. This class matches up to references in ModelCenter. Use
 ```java
 public PHXReference()
 ```
-constructor
+
+Constructor
 
 ## Method Detail
 
@@ -82,7 +84,8 @@ constructor
 ```java
 public double getValue()
 ```
-retrieves the current value of the variable
+
+Retrieves the current value of the variable
 
 **Returns:**
 - the value of the variable
@@ -92,17 +95,19 @@ retrieves the current value of the variable
 ```java
 public void setValue(double v)
 ```
-sets the value for the variable
+
+Sets the value for the variable
 
 **Parameters:**
-- `v`- the value
+- `v` - the value
 
 ### getReference
 
 ```java
 public java.lang.String getReference()
 ```
-retrieves the current reference string. This is a client-supplied value describing what the reference value points to.
+
+Retrieves the current reference string. This is a client-supplied value describing what the reference value points to.
 
 **Returns:**
 - the reference string
@@ -112,17 +117,19 @@ retrieves the current reference string. This is a client-supplied value describi
 ```java
 public void setReference(java.lang.String ref)
 ```
-sets the value for the reference string. This should only be called by the client application, e.g. ModelCenter.
+
+Sets the value for the reference string. This should only be called by the client application, e.g. ModelCenter.
 
 **Parameters:**
-- `ref`- the reference string
+- `ref` - the reference string
 
 ### getProperties
 
 ```java
 public PHXRefProperty[] getProperties()
 ```
-retrieves the properties of the variable
+
+Retrieves the properties of the variable
 
 **Returns:**
 - the properties of the variable
@@ -139,11 +146,12 @@ public void setProperties(PHXRefProperty[] v)
 public IPHXRefPropInfo createRefProp(java.lang.String name,
                                      java.lang.String type)
 ```
-adds a property to the variable
+
+Adds a property to the variable
 
 **Parameters:**
-- `name`- the name of the property
-- `type`- property type: "long", "double", "boolean", or "string"
+- `name` - the name of the property
+- `type` - property type: "long", "double", "boolean", or "string"
 
 ### getRefPropValueDouble
 
@@ -151,16 +159,17 @@ adds a property to the variable
 public double getRefPropValueDouble(java.lang.String name)
                              throws PHXTypeMismatchException
 ```
-gets a value for a ref prop
+
+Gets a value for a ref prop
 
 **Parameters:**
-- `name`- the name of the property
+- `name` - the name of the property
 
 **Returns:**
 - the value of the property
 
 **Throws:**
-- `PHXTypeMismatchException`
+- [`PHXTypeMismatchException`](PHXTypeMismatchException.md)
 
 ### getRefPropValueLong
 
@@ -171,7 +180,7 @@ public long getRefPropValueLong(java.lang.String name)
 
 
 **Throws:**
-- `PHXTypeMismatchException`
+- [`PHXTypeMismatchException`](PHXTypeMismatchException.md)
 
 ### getRefPropValueBoolean
 
@@ -182,7 +191,7 @@ public boolean getRefPropValueBoolean(java.lang.String name)
 
 
 **Throws:**
-- `PHXTypeMismatchException`
+- [`PHXTypeMismatchException`](PHXTypeMismatchException.md)
 
 ### getRefPropValueString
 
@@ -193,7 +202,7 @@ public java.lang.String getRefPropValueString(java.lang.String name)
 
 
 **Throws:**
-- `PHXTypeMismatchException`
+- [`PHXTypeMismatchException`](PHXTypeMismatchException.md)
 
 ### setRefPropValue
 
@@ -202,14 +211,15 @@ public void setRefPropValue(java.lang.String name,
                             double value)
                      throws PHXTypeMismatchException
 ```
-sets a value for a ref prop
+
+Sets a value for a ref prop
 
 **Parameters:**
-- `name`- the name of the property
-- `value`- the value of the property
+- `name` - the name of the property
+- `value` - the value of the property
 
 **Throws:**
-- `PHXTypeMismatchException`
+- [`PHXTypeMismatchException`](PHXTypeMismatchException.md)
 
 ### setRefPropValue
 
@@ -221,7 +231,7 @@ public void setRefPropValue(java.lang.String name,
 
 
 **Throws:**
-- `PHXTypeMismatchException`
+- [`PHXTypeMismatchException`](PHXTypeMismatchException.md)
 
 ### setRefPropValue
 
@@ -233,7 +243,7 @@ public void setRefPropValue(java.lang.String name,
 
 
 **Throws:**
-- `PHXTypeMismatchException`
+- [`PHXTypeMismatchException`](PHXTypeMismatchException.md)
 
 ### setRefPropValue
 
@@ -245,17 +255,18 @@ public void setRefPropValue(java.lang.String name,
 
 
 **Throws:**
-- `PHXTypeMismatchException`
+- [`PHXTypeMismatchException`](PHXTypeMismatchException.md)
 
 ### _getProperty
 
 ```java
 public PHXRefProperty _getProperty(java.lang.String name)
 ```
-retrieves a named property
+
+Retrieves a named property
 
 **Parameters:**
-- `name`- the name of the property
+- `name` - the name of the property
 
 **Returns:**
 - the property matching the specified name
@@ -265,7 +276,8 @@ retrieves a named property
 ```java
 public PHXStringBuffer toString2()
 ```
-converts to a PHXStringBuffer
+
+Converts to a PHXStringBuffer
 
 **Specified by:**
 - `toString2` in interface [`IPHXType2`](IPHXType2.md)
@@ -278,13 +290,14 @@ converts to a PHXStringBuffer
 ```java
 public java.lang.String toString()
 ```
+
 converts to a string
 
 **Specified by:**
 - `toString` in interface [`IPHXType`](IPHXType.md)
 
 **Overrides:**
-- `toString`in class`java.lang.Object`
+- `toString` in class `java.lang.Object`
 
 **Returns:**
 - a string
@@ -294,26 +307,28 @@ converts to a string
 ```java
 public void fromString2(PHXStringBuffer s)
 ```
-converts from a PHXStringBuffer
+
+Converts from a PHXStringBuffer
 
 **Specified by:**
 - `fromString2` in interface [`IPHXType2`](IPHXType2.md)
 
 **Parameters:**
-- `s`- the PHXStringBuffer value
+- `s` - the PHXStringBuffer value
 
 ### fromString
 
 ```java
 public void fromString(java.lang.String s)
 ```
-converts from a string
+
+Converts from a string
 
 **Specified by:**
 - `fromString` in interface [`IPHXType`](IPHXType.md)
 
 **Parameters:**
-- `s`- the string value
+- `s` - the string value
 
 ### getDescription
 
@@ -332,16 +347,17 @@ public void setDescription(java.lang.String desc)
 ```java
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
+
 Accept a Visitor.
 
 **Specified by:**
 - `Accept` in interface [`IPHXType2`](IPHXType2.md)
 
 **Type Parameters:**
-- `T`- Type of the result of the visit.
+- `T` - Type of the result of the visit.
 
 **Parameters:**
-- `visitor`- The visitor to accept.
+- `visitor` - The visitor to accept.
 
 **Returns:**
 - The results of the visit.

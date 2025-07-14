@@ -69,7 +69,8 @@ The type for references. This class matches up to references in ModelCenter. Use
 ```java
 public PHXReferenceArray()
 ```
-constructor
+
+Constructor
 
 ## Method Detail
 
@@ -78,7 +79,8 @@ constructor
 ```java
 public PHXRefArrayProperty[] getProperties()
 ```
-get-set function for MCRE
+
+Get-set function for MCRE
 
 ### setProperties
 
@@ -91,7 +93,8 @@ public void setProperties(PHXRefArrayProperty[] p)
 ```java
 public double[] getValues()
 ```
-retrieves the current value of the variable
+
+Retrieves the current value of the variable
 
 **Returns:**
 - the value of the variable
@@ -101,17 +104,19 @@ retrieves the current value of the variable
 ```java
 public void setValues(double[] v)
 ```
-sets the value for the variable
+
+Sets the value for the variable
 
 **Parameters:**
-- `v`- the value
+- `v` - the value
 
 ### getReference
 
 ```java
 public java.lang.String[] getReference()
 ```
-retrieves the current reference string. This is a client-supplied value describing what the reference value points to.
+
+Retrieves the current reference string. This is a client-supplied value describing what the reference value points to.
 
 **Returns:**
 - the reference string
@@ -127,10 +132,11 @@ public java.lang.String getReference(int i)
 ```java
 public void setReference(java.lang.String[] ref)
 ```
-sets the value for the reference string. This should only be called by the client application, e.g. ModelCenter.
+
+Sets the value for the reference string. This should only be called by the client application, e.g. ModelCenter.
 
 **Parameters:**
-- `ref`- the reference string
+- `ref` - the reference string
 
 ### setReference
 
@@ -144,7 +150,8 @@ public void setReference(int i,
 ```java
 public int getLength()
 ```
-retrieves the number of references in the array
+
+Retrieves the number of references in the array
 
 **Returns:**
 - the number of references
@@ -154,30 +161,33 @@ retrieves the number of references in the array
 ```java
 public void setLength(int v)
 ```
-sets the number of references
+
+Sets the number of references
 
 **Parameters:**
-- `v`- the number of references
+- `v` - the number of references
 
 ### getAutoGrow
 
 ```java
 public boolean getAutoGrow()
 ```
-retrieves the autoGrow value
+
+Retrieves the `autoGrow` value
 
 **Returns:**
-- true or false
+- `true` or `false`
 
 ### setAutoGrow
 
 ```java
 public void setAutoGrow(boolean flag)
 ```
-sets the autoGrow value. If true, the client application is allowed to resize the array as needed.
+
+Sets the `autoGrow` value. If `true`, the client application is allowed to resize the array as needed.
 
 **Parameters:**
-- `flag`- true or false
+- `flag` - `true` or `false`
 
 ### createRefProp
 
@@ -185,11 +195,12 @@ sets the autoGrow value. If true, the client application is allowed to resize th
 public IPHXRefPropInfo createRefProp(java.lang.String name,
                                      java.lang.String type)
 ```
-adds a ref prop to the variable.
+
+Adds a ref prop to the variable.
 
 **Parameters:**
-- `name`- the name of the property
-- `type`- property type: "long", "double", "boolean", or "string"
+- `name` - the name of the property
+- `type` - property type: "long", "double", "boolean", or "string"
 
 ### getRefPropValueDouble
 
@@ -198,11 +209,12 @@ public double getRefPropValueDouble(java.lang.String name,
                                     int index)
                              throws PHXTypeMismatchException
 ```
-gets a value for a ref prop
+
+Gets a value for a ref prop
 
 **Parameters:**
-- `name`- the name of the property
-- `index`- the array element
+- `name` - the name of the property
+- `index` - the array element
 
 **Returns:**
 - the value of the property
@@ -254,12 +266,13 @@ public void setRefPropValue(java.lang.String name,
                             double value)
                      throws PHXTypeMismatchException
 ```
-sets a value for a ref prop
+
+Sets a value for a ref prop
 
 **Parameters:**
-- `name`- the name of the property
-- `index`- the array element
-- `value`- the value of the property
+- `name` - the name of the property
+- `index` - the array element
+- `value` - the value of the property
 
 **Throws:**
 - [`PHXTypeMismatchException`](PHXTypeMismatchException.md)

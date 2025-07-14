@@ -57,6 +57,7 @@ void generate()
               PHXBookmarkNotFoundException, 
               PHXSectionNotFoundException
 ```
+
 Generate the input file
 
 **Throws:**
@@ -82,6 +83,7 @@ Generate the input file
 ```java
 void setFileToGenerate(java.lang.String fileName)
 ```
+
 Set the file to be generated
 
 **Parameters:**

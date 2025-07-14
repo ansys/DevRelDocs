@@ -66,6 +66,7 @@ where type may be any of the following:
 ```java
 public java.lang.String getName()
 ```
+
 retrieves the name of the variable
 
 **Specified by:**
@@ -79,6 +80,7 @@ retrieves the name of the variable
 ```java
 public java.lang.String getDescription()
 ```
+
 retrieves a description of the ref prop
 
 **Specified by:**
@@ -92,19 +94,21 @@ retrieves a description of the ref prop
 ```java
 public void setDescription(java.lang.String value)
 ```
+
 sets a description of the ref prop
 
 **Specified by:**
 - `setDescription` in interface `IPHXDescription`
 
 **Parameters:**
-- `value`- a description of the ref prop
+- `value` - a description of the ref prop
 
 ### getTitle
 
 ```java
 public java.lang.String getTitle()
 ```
+
 retrieves a title of the ref prop. Used by ModelCenter when displaying the variable in certain dialogs
 
 **Specified by:**
@@ -118,19 +122,21 @@ retrieves a title of the ref prop. Used by ModelCenter when displaying the varia
 ```java
 public void setTitle(java.lang.String value)
 ```
+
 sets a title of the ref prop
 
 **Specified by:**
 - `setTitle` in interface `IPHXRefPropInfo`
 
 **Parameters:**
-- `value`- a title for the ref prop
+- `value` - a title for the ref prop
 
 ### getInput
 
 ```java
 public boolean getInput()
 ```
+
 retrieves an indicator of whether the ref prop is an input or an output. If it's an output, the driver component will calculate a value for it.
 
 **Specified by:**
@@ -144,23 +150,25 @@ retrieves an indicator of whether the ref prop is an input or an output. If it's
 ```java
 public void setInput(boolean value)
 ```
+
 sets an indicator for the ref prop
 
 **Specified by:**
 - `setInput` in interface `IPHXRefPropInfo`
 
 **Parameters:**
-- `value`- an indicator for the ref prop
+- `value` - an indicator for the ref prop
 
 ### getValues
 
 ```java
 public java.lang.String getValues(int index)
 ```
+
 gets the value at an index
 
 **Parameters:**
-- `index`- the desired index
+- `index` - the desired index
 
 ### setValues
 
@@ -168,16 +176,18 @@ gets the value at an index
 public void setValues(int index,
                       java.lang.String v)
 ```
+
 sets the value for the variable
 
 **Parameters:**
-- `v`- the value
+- `v` - the value
 
 ### getType
 
 ```java
 public java.lang.String getType()
 ```
+
 retrieves the current type of the variable
 
 **Specified by:**
@@ -191,6 +201,7 @@ retrieves the current type of the variable
 ```java
 public java.lang.String[] getEnumValues()
 ```
+
 lists enum values
 
 **Specified by:**
@@ -204,23 +215,25 @@ lists enum values
 ```java
 public void setEnumValues(java.lang.String[] enumValues)
 ```
+
 sets the enum values
 
 **Specified by:**
 - `setEnumValues` in interface `IPHXRefPropInfo`
 
 **Parameters:**
-- `enumValues`- an array enum values
+- `enumValues` - an array enum values
 
 ### enumValuesFromString
 
 ```java
 public void enumValuesFromString(java.lang.String enumValues)
 ```
+
 sets the enum values from a comma-separated list of values
 
 **Specified by:**
 - `enumValuesFromString` in interface `IPHXRefPropInfo`
 
 **Parameters:**
-- `enumValues`- a comma-separated list of values
+- `enumValues` - a comma-separated list of values

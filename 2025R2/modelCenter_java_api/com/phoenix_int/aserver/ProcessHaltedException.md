@@ -14,6 +14,8 @@
 **Implemented Interfaces**
 - `java.io.Serializable`
 
+--- 
+
 **Declaration**
 ```java
 public class ProcessHaltedException

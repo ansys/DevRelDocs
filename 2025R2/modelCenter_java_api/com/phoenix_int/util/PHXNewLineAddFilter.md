@@ -4,7 +4,7 @@
 
 **Class Hierarchy**
 
-```
+```java
 ↳ java.lang.Object
   ↳ java.io.Reader
     ↳ com.phoenix_int.util.PHXNewLineAddFilter
@@ -59,6 +59,7 @@ Implementation of a FilterReader that basically does the opposite of the `PHXNew
 ```java
 public PHXNewLineAddFilter(java.io.Reader in)
 ```
+
 Creates a new instance of PHXNewLineFilter
 
 ## Method Detail

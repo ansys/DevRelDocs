@@ -40,6 +40,7 @@ java.lang.Object getValue2(java.lang.String name)
                     throws PHXNoSuchObjectException, 
                            java.lang.Exception
 ```
+
 Function for retrieving a specified value.
 
 **Parameters:**
@@ -60,6 +61,7 @@ void setValue2(java.lang.String name,
                PHXNoSuchWriteableObjectException, 
                java.lang.Exception
 ```
+
 Function for setting a specified value.
 
 **Parameters:**

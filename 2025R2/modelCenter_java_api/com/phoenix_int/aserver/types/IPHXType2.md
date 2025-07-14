@@ -68,6 +68,7 @@ The interface for Phoenix types which use [PHXStringBuffer](../util/PHXStringBuf
 PHXStringBuffer toString2()
                    throws java.io.IOException
 ```
+
 Gets a [PHXStringBuffer](../util/PHXStringBuffer.md) representation of the type
 
 **Returns:**
@@ -82,6 +83,7 @@ Gets a [PHXStringBuffer](../util/PHXStringBuffer.md) representation of the type
 void fromString2(PHXStringBuffer sb)
           throws java.io.IOException, PHXGetByUrlException
 ```
+
 Configures the type based on a [PHXStringBuffer](../util/PHXStringBuffer.md) representation of the type
 
 **Parameters:**
@@ -93,9 +95,10 @@ Configures the type based on a [PHXStringBuffer](../util/PHXStringBuffer.md) rep
 
 ### Accept
 
-```java
+```
 <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
+
 Accept a Visitor.
 
 **Type Parameters:**

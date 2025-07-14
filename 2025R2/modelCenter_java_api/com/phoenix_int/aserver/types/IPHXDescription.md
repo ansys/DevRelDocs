@@ -42,6 +42,7 @@ Example usage:
 ```java
 java.lang.String getDescription()
 ```
+
 Get the variable description
 
 **Returns:**
@@ -52,6 +53,7 @@ Get the variable description
 ```java
 void setDescription(java.lang.String desc)
 ```
+
 Set the variable description. This should be a short, one-line description.
 
 **Parameters:**

@@ -69,6 +69,7 @@ public PHXNoSuchCategoryException(java.lang.String category)
 public PHXNoSuchCategoryException(java.lang.String msg, 
                                   java.lang.String category)
 ```
+
 Constructor for this exception containing both a specific message and the category which could not be found.
 
 **Parameters:**
@@ -82,6 +83,7 @@ public PHXNoSuchCategoryException(java.lang.String msg,
                                   java.lang.String category, 
                                   java.lang.Exception ex)
 ```
+
 Constructor which takes a message, a category, and an inner exception.
 
 **Parameters:**
@@ -96,6 +98,7 @@ Constructor which takes a message, a category, and an inner exception.
 ```java
 public java.lang.String getInvalidCategory()
 ```
+
 Retrieves the category name that was invalid
 
 **Returns:**

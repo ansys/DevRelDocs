@@ -8,7 +8,7 @@
 
 **Class Hierarchy**
 
-```
+```java
 ↳ java.lang.Object
   ↳ java.lang.Enum<ParseableFile.Mode>
     ↳ com.phoenix_int.aserver.util.scriptwrapper.api.ParseableFile.Mode
@@ -58,17 +58,17 @@ File mode. Moved to type-safe enum from legacy integer constants.
 ## Enum Constant Detail
 
 ### GENERATE
-```
+```java
 public static final ParseableFile.Mode GENERATE
 ```
 
 ### PARSE
-```
+```java
 public static final ParseableFile.Mode PARSE
 ```
 
 ### READ_TEMPLATE
-```
+```java
 public static final ParseableFile.Mode READ_TEMPLATE
 ```
 ## Method Detail
@@ -78,6 +78,7 @@ public static final ParseableFile.Mode READ_TEMPLATE
 ```java
 public static ParseableFile.Mode[] values()
 ```
+
 Returns an array containing the constants of this enum type, in the order they are declared. This method may be used to iterate over the constants as follows:
 
 ```java
@@ -93,6 +94,7 @@ for (ParseableFile.Mode c : ParseableFile.Mode.values())
 ```java
 public static ParseableFile.Mode valueOf(java.lang.String name)
 ```
+
 Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)
 
 **Parameters:**
@@ -116,6 +118,7 @@ public com.phoenix_int.aserver.trace.PHXTraceFileEvent.Type getEventType()
 ```java
 public int getCode()
 ```
+
 Retrieve the legacy integer code assigned to this mode
 
 **Returns:**
@@ -126,6 +129,7 @@ Retrieve the legacy integer code assigned to this mode
 ```java
 public static ParseableFile.Mode fromCode(int code)
 ```
+
 Utility function for determining the enum from the legacy integer code
 
 **Parameters:**

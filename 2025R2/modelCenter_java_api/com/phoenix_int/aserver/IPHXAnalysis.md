@@ -5,6 +5,9 @@
 **Superinterfaces**
 - [`IPHXComponent`](IPHXComponent.md)
 
+
+--- 
+
 **Declaration**
 ```java
 public interface IPHXAnalysis
@@ -33,6 +36,7 @@ If you also want to support Athena, you should extend `IPHXAthenaAnalysis` inste
 void execute()
       throws java.lang.Exception
 ```
+
 Executes the analysis. If the analysis does not run successfully, e.g. the solution does not converge, then an exception should be thrown.
 
 **Throws:**

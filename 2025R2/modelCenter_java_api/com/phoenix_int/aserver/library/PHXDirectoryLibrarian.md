@@ -58,6 +58,7 @@ This class implements a librarian that uses a directory on disk to store and ret
 ```java
 private java.io.File directory
 ```
+
 The directory used by this librarian.
 
 ### categories
@@ -65,6 +66,7 @@ The directory used by this librarian.
 ```java
 private java.util.Map categories
 ```
+
 Map of categories managed by this librarian.
 
 ## Constructor Detail
@@ -85,6 +87,7 @@ public PHXDirectoryLibrarian(java.io.File directory)
 ```java
 public void addFile(java.io.File file)
 ```
+
 Adds a file to the directory.
 
 **Parameters:**
@@ -95,6 +98,7 @@ Adds a file to the directory.
 ```java
 public void removeFile(java.io.File file)
 ```
+
 Removes a file from the directory.
 
 **Parameters:**
@@ -105,6 +109,7 @@ Removes a file from the directory.
 ```java
 public java.io.File findFile(java.lang.String name)
 ```
+
 Finds a file by name.
 
 **Parameters:**
@@ -118,6 +123,7 @@ Finds a file by name.
 ```java
 public void addCategory(java.lang.String category)
 ```
+
 Adds a category.
 
 **Parameters:**
@@ -128,6 +134,7 @@ Adds a category.
 ```java
 public void removeCategory(java.lang.String category)
 ```
+
 Removes a category.
 
 **Parameters:**
@@ -138,6 +145,7 @@ Removes a category.
 ```java
 public java.util.List listCategories()
 ```
+
 Lists all categories.
 
 **Returns:**
@@ -149,6 +157,7 @@ Lists all categories.
 public void addAssociation(java.lang.String key, 
                            java.lang.String value)
 ```
+
 Adds an association.
 
 **Parameters:**
@@ -160,6 +169,7 @@ Adds an association.
 ```java
 public void removeAssociation(java.lang.String key)
 ```
+
 Removes an association.
 
 **Parameters:**
@@ -170,6 +180,7 @@ Removes an association.
 ```java
 public java.lang.String findAssociation(java.lang.String key)
 ```
+
 Finds an association by key.
 
 **Parameters:**

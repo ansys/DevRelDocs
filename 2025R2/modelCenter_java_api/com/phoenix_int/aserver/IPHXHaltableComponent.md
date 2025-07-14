@@ -25,6 +25,7 @@ This is a specialized interface for ModelCenter Remote Execution. If a component
 void halt()
    throws java.lang.Exception
 ```
+
 Notifies the component to stop doing whatever it is currently doing.
 
 **Throws:**

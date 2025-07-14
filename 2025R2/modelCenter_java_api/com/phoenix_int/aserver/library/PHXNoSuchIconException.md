@@ -68,6 +68,7 @@ public PHXNoSuchIconException(java.lang.String name)
 ```java
 public java.lang.String getInvalidIcon()
 ```
+
 Retrieves the name that was invalid
 
 **Returns:**
