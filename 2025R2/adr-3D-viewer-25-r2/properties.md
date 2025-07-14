@@ -23,7 +23,7 @@ the nature of the geometry source may change organically.
 
 <a name="renderer-options"></a>
 
-## Renderer Options
+## Renderer options
 
 Each renderer may support a collection of renderer specific options.  These generally
 allow for the customization of the renderer behavior and display.   The supported
@@ -39,7 +39,7 @@ value 'hello' as:
 Generally, renderers will ignore renderer_options they do not recognize and the
 options cannot be changed once the element has been realized.
 
-### "webgl" Specific Options
+### "webgl" Specific options
 
 There are a number of "webgl" features that can be disabled using __renderer_options__.  By
 default (no __renderer_options__ specified) the following are enabled: __showFit__,
