@@ -101,8 +101,8 @@ public CAEOutputFile(PHXScriptWrapperObject wrapper,
 public void defineArrayVar(java.lang.String name, 
                            java.lang.String specifier) 
                     throws PHXNameAlreadyInUseException, 
-                    PHXInvalidNameException, 
-                    PHXInvalidTypeException
+                           PHXInvalidNameException, 
+                           PHXInvalidTypeException
 ```
 
 **Throws:**
@@ -132,6 +132,7 @@ public void defineVar(java.lang.String name,
 ```java
 public void parse() throws java.lang.Exception
 ```
+
 Parse the output file
 
 **Specified by:**
@@ -147,6 +148,7 @@ protected Parser newParser(java.io.File rFile,
                            Parser.Mode pmode) 
                     throws java.io.IOException
 ```
+
 Generate a new parser for the given file and mode
 
 **Specified by:**
@@ -171,6 +173,7 @@ protected void transferVars(ParseableFile.Mode mode)
                             java.lang.InstantiationException, 
                             PHXNumberFormatException
 ```
+
 Transfer values for variables that have been defined using methods from the concrete implementation, i.e. [`PHXRowFieldFile.defineVar(String, String, boolean, String)`](PHXRowFieldFile.md). Variables defined using [`PHXScriptWrapperObject.addVariable(String, String, boolean)`](PHXScriptWrapperObject.md) must be explicitly transferred using methods of the concrete implementation class
 
 **Specified by:**
@@ -191,6 +194,7 @@ Transfer values for variables that have been defined using methods from the conc
 ```java
 public void setFileToParse(java.lang.String fileName)
 ```
+
 Set the file to parse
 
 **Specified by:**

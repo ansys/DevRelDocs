@@ -71,11 +71,12 @@ where type may be any of the following:
 public PHXRefProperty(java.lang.String name,
                       java.lang.String type)
 ```
-constructor
+
+Constructor
 
 **Parameters:**
-- `name`- the name of the property
-- `type`- the type of the property
+- `name` - the name of the property
+- `type` - the type of the property
 
 ### Method Detail
 
@@ -84,7 +85,8 @@ constructor
 ```java
 public java.lang.String getName()
 ```
-retrieves the name of the variable
+
+Retrieves the name of the variable
 
 **Specified by:**
 - `getName` in interface [`IPHXRefPropInfo`](IPHXRefPropInfo.md)
@@ -97,7 +99,8 @@ retrieves the name of the variable
 ```java
 public java.lang.String getDescription()
 ```
-retrieves a description of the ref prop
+
+Retrieves a description of the ref prop
 
 **Specified by:**
 - `getDescription` in interface [`IPHXDescription`](IPHXDescription.md)
@@ -110,20 +113,22 @@ retrieves a description of the ref prop
 ```java
 public void setDescription(java.lang.String value)
 ```
-sets a description of the ref prop
+
+Sets a description of the ref prop
 
 **Specified by:**
 - `setDescription` in interface [`IPHXDescription`](IPHXDescription.md)
 
 **Parameters:**
-- `value`- a description of the ref prop
+- `value` - a description of the ref prop
 
 ### getTitle
 
 ```java
 public java.lang.String getTitle()
 ```
-retrieves a title of the ref prop. Used by ModelCenter when displaying the variable in certain dialogs
+
+Retrieves a title of the ref prop. Used by ModelCenter when displaying the variable in certain dialogs
 
 **Specified by:**
 - `getTitle` in interface [`IPHXRefPropInfo`](IPHXRefPropInfo.md)
@@ -136,20 +141,22 @@ retrieves a title of the ref prop. Used by ModelCenter when displaying the varia
 ```java
 public void setTitle(java.lang.String value)
 ```
-sets a title of the ref prop
+
+Sets a title of the ref prop
 
 **Specified by:**
 - `setTitle` in interface [`IPHXRefPropInfo`](IPHXRefPropInfo.md)
 
 **Parameters:**
-- `value`- a title for the ref prop
+- `value` - a title for the ref prop
 
 ### getInput
 
 ```java
 public boolean getInput()
 ```
-retrieves an indicator of whether the ref prop is an input or an output. If it's an output, the driver component will calculate a value for it.
+
+Retrieves an indicator of whether the ref prop is an input or an output. If it's an output, the driver component will calculate a value for it.
 
 **Specified by:**
 - `getInput` in interface [`IPHXRefPropInfo`](IPHXRefPropInfo.md)
@@ -162,13 +169,14 @@ retrieves an indicator of whether the ref prop is an input or an output. If it's
 ```java
 public void setInput(boolean value)
 ```
-sets an indicator for the ref prop
+
+Sets an indicator for the ref prop
 
 **Specified by:**
 - `setInput` in interface [`IPHXRefPropInfo`](IPHXRefPropInfo.md)
 
 **Parameters:**
-- `value`- an indicator for the ref prop
+- `value` - an indicator for the ref prop
 
 ### getValue
 
@@ -176,7 +184,8 @@ sets an indicator for the ref prop
 public java.lang.String getValue()
                           throws PHXTypeMismatchException
 ```
-retrieves the current value of the variable
+
+Retrieves the current value of the variable
 
 **Returns:**
 - the value of the variable
@@ -189,17 +198,19 @@ retrieves the current value of the variable
 ```java
 public void setValue(java.lang.String v)
 ```
-sets the value for the variable
+
+Sets the value for the variable
 
 **Parameters:**
-- `v`- the value
+- `v` - the value
 
 ### getType
 
 ```java
 public java.lang.String getType()
 ```
-retrieves the current type of the variable
+
+Retrieves the current type of the variable
 
 **Specified by:**
 - `getType` in interface [`IPHXRefPropInfo`](IPHXRefPropInfo.md)
@@ -212,7 +223,8 @@ retrieves the current type of the variable
 ```java
 public java.lang.String[] getEnumValues()
 ```
-lists enum values
+
+Lists enum values
 
 **Specified by:**
 - `getEnumValues` in interface [`IPHXRefPropInfo`](IPHXRefPropInfo.md)
@@ -225,23 +237,25 @@ lists enum values
 ```java
 public void setEnumValues(java.lang.String[] enumValues)
 ```
-sets the enum values
+
+Sets the enum values
 
 **Specified by:**
 - `setEnumValues` in interface [`IPHXRefPropInfo`](IPHXRefPropInfo.md)
 
 **Parameters:**
-- `enumValues`- an array enum values
+- `enumValues` - an array enum values
 
 ### enumValuesFromString
 
 ```java
 public void enumValuesFromString(java.lang.String enumValues)
 ```
-sets the enum values from a comma-separated list of values
+
+Sets the enum values from a comma-separated list of values
 
 **Specified by:**
 - `enumValuesFromString` in interface [`IPHXRefPropInfo`](IPHXRefPropInfo.md)
 
 **Parameters:**
-- `enumValues`- a comma-separated list of values
+- `enumValues` - a comma-separated list of values

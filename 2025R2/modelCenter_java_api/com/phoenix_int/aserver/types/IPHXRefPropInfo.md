@@ -47,8 +47,7 @@ where type may be any of the following:
 | `void`                | `setTitle(java.lang.String value)` <br>sets a title of the ref prop|
 
 ### Methods inherited from interface com.phoenix_int.aserver.types.IPHXDescription
-- `getDescription`
-- `setDescription`
+`getDescription`, `setDescription`
 
 ## Method Detail
 
@@ -57,6 +56,7 @@ where type may be any of the following:
 ```java
 java.lang.String getName()
 ```
+
 retrieves the name of the variable
 
 **Returns:**
@@ -67,6 +67,7 @@ retrieves the name of the variable
 ```java
 java.lang.String getType()
 ```
+
 retrieves the current type of the variable
 
 **Returns:**
@@ -77,6 +78,7 @@ retrieves the current type of the variable
 ```java
 java.lang.String getTitle()
 ```
+
 retrieves a title of the ref prop. Used by ModelCenter when displaying the variable in certain dialogs
 
 **Returns:**
@@ -87,6 +89,7 @@ retrieves a title of the ref prop. Used by ModelCenter when displaying the varia
 ```java
 void setTitle(java.lang.String value)
 ```
+
 sets a title of the ref prop
 
 **Parameters:**
@@ -97,6 +100,7 @@ sets a title of the ref prop
 ```java
 boolean getInput()
 ```
+
 retrieves an indicator of whether the ref prop is an input or an output. If it's an output, the driver component will calculate a value for it.
 
 **Returns:**
@@ -107,6 +111,7 @@ retrieves an indicator of whether the ref prop is an input or an output. If it's
 ```java
 void setInput(boolean value)
 ```
+
 sets an indicator for the ref prop
 
 **Parameters:**
@@ -117,6 +122,7 @@ sets an indicator for the ref prop
 ```java
 java.lang.String[] getEnumValues()
 ```
+
 lists enum values
 
 **Returns:**
@@ -127,6 +133,7 @@ lists enum values
 ```java
 void setEnumValues(java.lang.String[] enumValues)
 ```
+
 sets the enum values
 
 **Parameters:**

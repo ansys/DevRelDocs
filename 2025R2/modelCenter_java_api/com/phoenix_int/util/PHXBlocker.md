@@ -4,7 +4,7 @@
 
 **Class Hierarchy**
 
-```
+```java
 ↳ java.lang.Object
   ↳ com.phoenix_int.util.PHXBlocker
 ```
@@ -114,6 +114,7 @@ public PHXBlocker()
 ```java
 public void setBlock(boolean block)
 ```
+
 Call `setBlock()` before `block()` and before there is any remote chance that any other thread will call `unblock()`.
 
 ### getBlock
@@ -127,6 +128,7 @@ public boolean getBlock()
 ```java
 public boolean block(long timeout)
 ```
+
 Blocks until unblock is invoked or timeout has been reached
 
 **Parameters:**
@@ -140,6 +142,7 @@ Blocks until unblock is invoked or timeout has been reached
 ```java
 public void block()
 ```
+
 Blocks until `unblock()` is invoked.
 
 ### unblock
@@ -153,4 +156,5 @@ public void unblock()
 ```java
 public void unblockAll()
 ```
+
 Same as unblock except designed for multiple waiters. If there is any chance of multiple people having called `block()`, then use `unblockAll()`.

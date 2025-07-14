@@ -24,7 +24,7 @@ extends java.lang.Object
 | `PHXPropertyValue[]` | `subProps` |
 
 ### Fields inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `toString`, `wait`, `wait`, `wait`
 
 ## Constructor Summary
 
@@ -41,24 +41,24 @@ extends java.lang.Object
 | `java.lang.String` | `getValue()` |
 
 ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `toString`, `wait`, `wait`, `wait`
 
 ## Field Detail
 
 ### _prop
-```
+```java
 public PHXPropertyDescriptor _prop
 ```
 
 ### subProps
-```
+```java
 public PHXPropertyValue[] subProps
 ```
 
 ## Constructor Detail
 
 ### PHXPropertyValue
-```
+```java
 public PHXPropertyValue()
 ```
 

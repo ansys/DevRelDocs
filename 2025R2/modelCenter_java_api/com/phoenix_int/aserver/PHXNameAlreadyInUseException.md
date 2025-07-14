@@ -41,5 +41,6 @@ An exception that is thrown when trying to create a new object with a name that 
 ```java
 public PHXNameAlreadyInUseException(java.lang.String name)
 ```
+
 **Parameters:**
 - `name` - the name that was already in use

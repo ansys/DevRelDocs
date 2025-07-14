@@ -18,6 +18,7 @@
 public class PHXScriptObject
 extends PHXSimpleType
 ```
+
 The type for object variables. 
  
 This class holds an instance of `PHXObjectHost` that wraps around a Java or Python object, and uses introspection to get and set values of the internal object.
@@ -125,37 +126,41 @@ This class holds an instance of `PHXObjectHost` that wraps around a Java or Pyth
 
 ### Methods inherited from class java.lang.Object
 `clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `wait`, `wait`, `wait`
-### Constructor Detail
 
-#### PHXScriptObject
+## Constructor Detail
+
+### PHXScriptObject
 
 ```java
 public PHXScriptObject()
 ```
+
 Creates a new instance of PHXScriptObject
 
-### Method Detail
+## Method Detail
 
-#### initialize
+### initialize
 
 ```java
 public void initialize(com.phoenix_int.object.PHXDataObjectClass pClass)
                 throws java.io.IOException
 ```
-initialize object variable with the specified class
+
+Initialize object variable with the specified class
 
 **Parameters:**
-- `pClass`- class information
+- `pClass` - class information
 
 **Throws:**
 - `java.io.IOException`
 
-#### toString
+### toString
 
 ```java
 public java.lang.String toString()
 ```
-get XML representation of the object variable
+
+Get XML representation of the object variable
 
 **Specified by:**
 - `toString` in interface [`IPHXType`](IPHXType.md)
@@ -166,958 +171,1035 @@ get XML representation of the object variable
 **Returns:**
 - XML string
 
-#### fromString
+### fromString
 
 ```java
 public void fromString(java.lang.String value)
 ```
-update object using the XML value
+
+Update object using the XML value
 
 **Parameters:**
-- `value`- XML string for the object
+- `value` - XML string for the object
 
-#### toString2
+### toString2
 
 ```java
 public PHXStringBuffer toString2()
 ```
-converts the variable to a PHXStringBuffer
+
+Converts the variable to a PHXStringBuffer
 
 **Returns:**
 - the PHXStringBuffer representation of the variable
 
-#### fromString2
+### fromString2
 
 ```java
 public void fromString2(PHXStringBuffer value)
 ```
-update object using the XML value
+
+Update object using the XML value
 
 **Parameters:**
-- `value`- the value to convert
+- `value` - the value to convert
 
-#### getClassURL
+### getClassURL
 
 ```java
 public java.lang.String getClassURL()
 ```
-get the class type. The class type is defined in a URL format
+
+Get the class type. The class type is defined in a URL format
 
 **Returns:**
 - class type
 
-#### getMemberValueAsString
+### getMemberValueAsString
 
 ```java
 public java.lang.String getMemberValueAsString(java.lang.String mIndex)
 ```
-gets the value of a member as a string
+
+Gets the value of a member as a string
 
 **Parameters:**
-- `mIndex`- member index (e.g., `member1, grp1.member1, member1[1], member1[1,2]`)
+- `mIndex` - member index (e.g., `member1, grp1.member1, member1[1], member1[1,2]`)
 
 **Returns:**
 - the value of the variable
 
-#### getDoubleMemberValue
+### getDoubleMemberValue
 
 ```java
 public double getDoubleMemberValue(java.lang.String mIndex)
 ```
-gets the value of a double member
+
+Gets the value of a double member
 
 **Parameters:**
-- `mIndex`- member index
+- `mIndex` - member index
 
 **Returns:**
 - the value of the variable
 
-#### getIntMemberValue
+### getIntMemberValue
 
 ```java
 public int getIntMemberValue(java.lang.String mIndex)
 ```
-gets the value of an integer member
+
+Gets the value of an integer member
 
 **Parameters:**
-- `mIndex`- member index
+- `mIndex` - member index
 
 **Returns:**
 - the value of the variable
 
-#### getBooleanMemberValue
+### getBooleanMemberValue
 
 ```java
 public boolean getBooleanMemberValue(java.lang.String mIndex)
 ```
-gets the value of boolean member
+
+Gets the value of boolean member
 
 **Parameters:**
-- `mIndex`- member index
+- `mIndex` - member index
 
 **Returns:**
 - the value of the variable
 
-#### getStringMemberValue
+### getStringMemberValue
 
 ```java
 public java.lang.String getStringMemberValue(java.lang.String mIndex)
 ```
-gets the value of string member
+
+Gets the value of string member
 
 **Parameters:**
-- `mIndex`- member index
+- `mIndex` - member index
 
 **Returns:**
 - the value of the variable
 
-#### getDoubleArrayMemberValue
+### getDoubleArrayMemberValue
 
 ```java
 public double getDoubleArrayMemberValue(java.lang.String mIndex,
                                         int index)
 ```
-get the value of an 1D double array element
+
+Get the value of an 1D double array element
 
 **Parameters:**
-- `mIndex`- member index
+- `mIndex` - member index
 
 **Returns:**
 - the value of the variable
 
-#### getDoubleArrayMemberValue
+### getDoubleArrayMemberValue
 
 ```java
 public double getDoubleArrayMemberValue(java.lang.String mIndex,
                                         int[] index)
 ```
-get the value of a double array element
+
+Get the value of a double array element
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
+- `mIndex` - member index
+- `index` - array index
 
 **Returns:**
 - the value of the variable
 
-#### getIntArrayMemberValue
+### getIntArrayMemberValue
 
 ```java
 public int getIntArrayMemberValue(java.lang.String mIndex,
                                   int index)
 ```
-get the value of an 1D integer array element
+
+Get the value of an 1D integer array element
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
+- `mIndex` - member index
+- `index` - array index
 
 **Returns:**
 - the value of the variable
 
-#### getIntArrayMemberValue
+### getIntArrayMemberValue
 
 ```java
 public int getIntArrayMemberValue(java.lang.String mIndex,
                                   int[] index)
 ```
-get the value of an integer array element
+
+Get the value of an integer array element
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
+- `mIndex` - member index
+- `index` - array index
 
 **Returns:**
 - the value of the variable
 
-#### getBooleanArrayMemberValue
+### getBooleanArrayMemberValue
 
 ```java
 public boolean getBooleanArrayMemberValue(java.lang.String mIndex,
                                           int index)
 ```
-get the value of an 1D boolean array element
+
+Get the value of an 1D boolean array element
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
+- `mIndex` - member index
+- `index` - array index
 
 **Returns:**
 - the value of the variable
 
-#### getBooleanArrayMemberValue
+### getBooleanArrayMemberValue
 
 ```java
 public boolean getBooleanArrayMemberValue(java.lang.String mIndex,
                                           int[] index)
 ```
-get the value of a boolean array element
+
+Get the value of a boolean array element
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
+- `mIndex` - member index
+- `index` - array index
 
 **Returns:**
 - the value of the variable
 
-#### getStringArrayMemberValue
+### getStringArrayMemberValue
 
 ```java
 public java.lang.String getStringArrayMemberValue(java.lang.String mIndex,
                                                   int index)
 ```
-get the value of an 1D String array element
+
+Get the value of an 1D String array element
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
+- `mIndex` - member index
+- `index` - array index
 
 **Returns:**
 - the value of the variable
 
-#### getStringArrayMemberValue
+### getStringArrayMemberValue
 
 ```java
 public java.lang.String getStringArrayMemberValue(java.lang.String mIndex,
                                                   int[] index)
 ```
-get the value of a string array element
+
+Get the value of a string array element
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
+- `mIndex` - member index
+- `index` - array index
 
 **Returns:**
 - the value of the variable
 
-#### setMemberValueFromString
+### setMemberValueFromString
 
 ```java
 public void setMemberValueFromString(java.lang.String mIndex,
                                      java.lang.String value)
 ```
-sets the value of a member from string
+
+Sets the value of a member from string
 
 **Parameters:**
-- `mIndex`- member index
-- `value`- the value of the member
+- `mIndex` - member index
+- `value` - the value of the member
 
-#### setDoubleMemberValue
+### setDoubleMemberValue
 
 ```java
 public void setDoubleMemberValue(java.lang.String mIndex,
                                  double value)
 ```
-sets the value of a double member
+
+Sets the value of a double member
 
 **Parameters:**
-- `mIndex`- member index
-- `value`- value of the member
+- `mIndex` - member index
+- `value` - value of the member
 
-#### setIntMemberValue
+### setIntMemberValue
 
 ```java
 public void setIntMemberValue(java.lang.String mIndex,
                               int value)
 ```
-sets the value of an integer member
+
+Sets the value of an integer member
 
 **Parameters:**
-- `mIndex`- member index
-- `value`- value of the member
+- `mIndex` - member index
+- `value` - value of the member
 
-#### setBooleanMemberValue
+### setBooleanMemberValue
 
 ```java
 public void setBooleanMemberValue(java.lang.String mIndex,
                                   boolean value)
 ```
-sets the value of a boolean member
+
+Sets the value of a boolean member
 
 **Parameters:**
-- `mIndex`- member index
-- `value`- value of the member
+- `mIndex` - member index
+- `value` - value of the member
 
-#### setStringMemberValue
+### setStringMemberValue
 
 ```java
 public void setStringMemberValue(java.lang.String mIndex,
                                  java.lang.String value)
 ```
-sets the value of a string member
+
+Sets the value of a string member
 
 **Parameters:**
-- `mIndex`- member index
-- `value`- value of the member
+- `mIndex` - member index
+- `value` - value of the member
 
-#### setDoubleArrayMemberValue
+### setDoubleArrayMemberValue
 
 ```java
 public void setDoubleArrayMemberValue(java.lang.String mIndex,
                                       int index,
                                       double value)
 ```
-sets the value of a 1D double array member
+
+Sets the value of a 1D double array member
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
-- `value`- value of the member
+- `mIndex` - member index
+- `index` - array index
+- `value` - value of the member
 
-#### setDoubleArrayMemberValue
+### setDoubleArrayMemberValue
 
 ```java
 public void setDoubleArrayMemberValue(java.lang.String mIndex,
                                       int[] index,
                                       double value)
 ```
-sets the value of a double array member
+
+Sets the value of a double array member
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
-- `value`- value of the member
+- `mIndex` - member index
+- `index` - array index
+- `value` - value of the member
 
-#### setIntArrayMemberValue
+### setIntArrayMemberValue
 
 ```java
 public void setIntArrayMemberValue(java.lang.String mIndex,
                                    int index,
                                    int value)
 ```
-sets the value of an 1D integer array member
+
+Sets the value of an 1D integer array member
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
-- `value`- value of the member
+- `mIndex` - member index
+- `index` - array index
+- `value` - value of the member
 
-#### setIntArrayMemberValue
+### setIntArrayMemberValue
 
 ```java
 public void setIntArrayMemberValue(java.lang.String mIndex,
                                    int[] index,
                                    int value)
 ```
-sets the value of an integer array member
+
+Sets the value of an integer array member
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
-- `value`- value of the member
+- `mIndex` - member index
+- `index` - array index
+- `value` - value of the member
 
-#### setBooleanArrayMemberValue
+### setBooleanArrayMemberValue
 
 ```java
 public void setBooleanArrayMemberValue(java.lang.String mIndex,
                                        int index,
                                        boolean value)
 ```
-sets the value of an 1D boolean array member
+
+Sets the value of an 1D boolean array member
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
-- `value`- value of the member
+- `mIndex` - member index
+- `index` - array index
+- `value` - value of the member
 
-#### setBooleanArrayMemberValue
+### setBooleanArrayMemberValue
 
 ```java
 public void setBooleanArrayMemberValue(java.lang.String mIndex,
                                        int[] index,
                                        boolean value)
 ```
-sets the value of a boolean array member
+
+Sets the value of a boolean array member
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
-- `value`- value of the member
+- `mIndex` - member index
+- `index` - array index
+- `value` - value of the member
 
-#### setStringArrayMemberValue
+### setStringArrayMemberValue
 
 ```java
 public void setStringArrayMemberValue(java.lang.String mIndex,
                                       int index,
                                       java.lang.String value)
 ```
-sets the value of a 1D string array member
+
+Sets the value of a 1D string array member
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
-- `value`- value of the member
+- `mIndex` - member index
+- `index` - array index
+- `value` - value of the member
 
-#### setStringArrayMemberValue
+### setStringArrayMemberValue
 
 ```java
 public void setStringArrayMemberValue(java.lang.String mIndex,
                                       int[] index,
                                       java.lang.String value)
 ```
-sets the value of a string array member
+
+Sets the value of a string array member
 
 **Parameters:**
-- `mIndex`- member index
-- `index`- array index
-- `value`- value of the member
+- `mIndex` - member index
+- `index` - array index
+- `value` - value of the member
 
-#### setMember
+### setMember
 
 ```java
 public void setMember(java.lang.String mIndex,
                       java.lang.String value,
                       java.lang.String type)
 ```
-sets the value of a member. A new member will be create if the member does not exist or the current type is not the same as the type specified.
+
+Sets the value of a member. A new member will be create if the member does not exist or the current type is not the same as the type specified.
 
 **Parameters:**
-- `mIndex`- member index
-- `value`- the value of the member
-- `type`- type of the member
+- `mIndex` - member index
+- `value` - the value of the member
+- `type` - type of the member
 
-#### deleteMember
+### deleteMember
 
 ```java
 public void deleteMember(java.lang.String mIndex)
 ```
-delete a member for non-strict type object. An exception will be thrown for strict types
+
+Delete a member for non-strict type object. An exception will be thrown for strict types
 
 **Parameters:**
-- `mIndex`- member index
+- `mIndex` - member index
 
-#### deleteAllMembers
+### deleteAllMembers
 
 ```java
 public void deleteAllMembers()
 ```
-delete all members for non-strict type object. An exception will be thrown for strict types
 
-#### callMethod
+Delete all members for non-strict type object. An exception will be thrown for strict types
+
+### callMethod
 
 ```java
 public java.lang.Object callMethod(java.lang.String method)
 ```
-call a method
+
+Call a method
 
 **Parameters:**
-- `method`- name of the method
+- `method` - name of the method
 
 **Returns:**
 - primitives object (e.g., `java.lang.Double`) or array of primitives (e.g., `double[]`)
 
-#### isNonStrictType
+### isNonStrictType
 
 ```java
 public boolean isNonStrictType()
 ```
-check whether a class is a non-strict type
+
+Check whether a class is a non-strict type
 
 **Returns:**
 - true if the class is a non-strict type
 
-#### toXML
+### toXML
 
 ```java
 public java.lang.String toXML()
 ```
-get XML representation of the object
+
+Get XML representation of the object
 
 **Returns:**
 - XML representation of the object
 
-#### fromXML
+### fromXML
 
 ```java
 public void fromXML(java.lang.String xmlStr)
 ```
-update the object from an XML string
+
+Update the object from an XML string
 
 **Parameters:**
-- `xmlStr`- content of an object in XML format
+- `xmlStr` - content of an object in XML format
 
-#### hasMember
+### hasMember
 
 ```java
 public boolean hasMember(java.lang.String mIndex)
 ```
-check if a member exists
+
+Check if a member exists
 
 **Parameters:**
-- `mIndex`- member name
+- `mIndex` - member name
 
 **Returns:**
 - `true` if the member exists
 
-#### getMemberLength
+### getMemberLength
 
 ```java
 public int getMemberLength(java.lang.String mIndex,
                            int dimension)
 ```
-get length of an array member
+
+Get length of an array member
 
 **Parameters:**
-- `mIndex`- name of the member
-- `dimension`- dimension id of the array member
+- `mIndex` - name of the member
+- `dimension` - dimension id of the array member
 
 **Returns:**
 - length of the array member
 
-#### getMemberLength
+### getMemberLength
 
 ```java
 public int getMemberLength(java.lang.String mIndex)
 ```
-get length of an 1D array member
+
+Get length of an 1D array member
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
 **Returns:**
 - length of the array member
 
-#### setMemberLength
+### setMemberLength
 
 ```java
 public void setMemberLength(java.lang.String mIndex,
                             int length,
                             int dimension)
 ```
-set length of an array member
+
+Set length of an array member
 
 **Parameters:**
-- `mIndex`- name of the member
-- `length`- of the array
-- `dimension`- dimension id of the array member
+- `mIndex` - name of the member
+- `length` - of the array
+- `dimension` - dimension id of the array member
 
-#### setMemberLength
+### setMemberLength
 
 ```java
 public void setMemberLength(java.lang.String mIndex,
                             int length)
 ```
-set length of an 1D array member
+
+Set length of an 1D array member
 
 **Parameters:**
-- `mIndex`- name of the member
-- `length`- of the array
+- `mIndex` - name of the member
+- `length` - of the array
 
-#### setMemberDimensions
+### setMemberDimensions
 
 ```java
 public void setMemberDimensions(java.lang.String mIndex,
                                 int[] dims)
 ```
-set dimensions of an array member
+
+Set dimensions of an array member
 
 **Parameters:**
-- `mIndex`- name of the member
-- `dims`- length of the array
+- `mIndex` - name of the member
+- `dims` - length of the array
 
-#### getMemberNumDimensions
+### getMemberNumDimensions
 
 ```java
 public int getMemberNumDimensions(java.lang.String mIndex)
 ```
-get number of dimensions of an array member
+
+Get number of dimensions of an array member
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
-#### getMemberDimensions
+### getMemberDimensions
 
 ```java
 public int[] getMemberDimensions(java.lang.String mIndex)
 ```
-get dimensions and size of an array member
+
+Get dimensions and size of an array member
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
-#### getMemberList
+### getMemberList
 
 ```java
 public java.lang.String[] getMemberList(java.lang.String mIndex)
 ```
-get a list of child members.
+
+Get a list of child members.
 
 **Parameters:**
-- `mIndex`- name of the parent member
+- `mIndex` - name of the parent member
 
 **Returns:**
 - String array of child names
 
-#### getMemberType
+### getMemberType
 
 ```java
 public java.lang.String getMemberType(java.lang.String mIndex)
 ```
-return type of the member
+
+Return type of the member
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
-#### getMethodList
+### getMethodList
 
 ```java
 public java.lang.String[] getMethodList()
 ```
-get a list of methods
+
+Get a list of methods
 
 **Returns:**
 - String array of methods
 
-#### hasMemberLowerBound
+### hasMemberLowerBound
 
 ```java
 public boolean hasMemberLowerBound(java.lang.String mIndex)
 ```
-check if a member has lower bound defined
+
+Check if a member has lower bound defined
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
 **Returns:**
 - `true` if the member has lower bound defined
 
-#### hasMemberUpperBound
+### hasMemberUpperBound
 
 ```java
 public boolean hasMemberUpperBound(java.lang.String mIndex)
 ```
-check if a member has lower bound defined
+
+Check if a member has upper bound defined
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
 **Returns:**
 - `true` if the member has upper bound defined
 
-#### getMemberLowerBound
+### getMemberLowerBound
 
 ```java
 public java.lang.String getMemberLowerBound(java.lang.String mIndex)
 ```
-get lowerBound of a member
+
+Get `lowerBound` of a member
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
 **Returns:**
 - lowerBound of the member
 
-#### setMemberLowerBound
+### setMemberLowerBound
 
 ```java
 public void setMemberLowerBound(java.lang.String mIndex,
                                 java.lang.String lowerBound)
 ```
-set lowerBound of the member
+
+Set `lowerBound` of the member
 
 **Parameters:**
-- `mIndex`- name of the member
-- `lowerBound`- lower bound
+- `mIndex` - name of the member
+- `lowerBound` - lower bound
 
-#### getMemberUpperBound
+### getMemberUpperBound
 
 ```java
 public java.lang.String getMemberUpperBound(java.lang.String mIndex)
 ```
-return upperBound of the member
+
+Return `upperBound` of the member
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
-#### setMemberUpperBound
+### setMemberUpperBound
 
 ```java
 public void setMemberUpperBound(java.lang.String mIndex,
                                 java.lang.String upperBound)
 ```
-set upperBound of the member
+
+Set `upperBound` of the member
 
 **Parameters:**
-- `mIndex`- name of the member
-- `upperBound`- upper bound
+- `mIndex` - name of the member
+- `upperBound` - upper bound
 
-#### getMemberEnumValues
+### getMemberEnumValues
 
 ```java
 public java.lang.String getMemberEnumValues(java.lang.String mIndex)
 ```
-return enum values of the member
+
+Return enum values of the member
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
 **Returns:**
 - enum values of the member as a comma separated string
 
-#### setMemberEnumValues
+### setMemberEnumValues
 
 ```java
 public void setMemberEnumValues(java.lang.String mIndex,
                                 java.lang.String enumValues)
 ```
-set enum values of the member
+
+Set enum values of the member
 
 **Parameters:**
-- `mIndex`- name of the member
-- `enumValues`- enumerated values as a comma separated string
+- `mIndex` - name of the member
+- `enumValues` - enumerated values as a comma separated string
 
-#### getMemberEnumAliases
+### getMemberEnumAliases
 
 ```java
 public java.lang.String getMemberEnumAliases(java.lang.String mIndex)
 ```
-get enum aliases of the member
+
+Get enum aliases of the member
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
 **Returns:**
 - enum aliases of the member as a comma separated string
 
-#### setMemberEnumAliases
+### setMemberEnumAliases
 
 ```java
 public void setMemberEnumAliases(java.lang.String mIndex,
                                  java.lang.String enumAliases)
 ```
-set enum aliases of the member
+
+Set enum aliases of the member
 
 **Parameters:**
-- `mIndex`- name of the member
-- `enumAliases`- enumerated aliases as a comma separated string
+- `mIndex` - name of the member
+- `enumAliases` - enumerated aliases as a comma separated string
 
-#### getMemberDescription
+### getMemberDescription
 
 ```java
 public java.lang.String getMemberDescription(java.lang.String mIndex)
 ```
-get description of the member
+
+Get description of the member
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
 **Returns:**
 - description of the member
 
-#### setMemberDescription
+### setMemberDescription
 
 ```java
 public void setMemberDescription(java.lang.String mIndex,
                                  java.lang.String description)
 ```
-set description of the member
+
+Set description of the member
 
 **Parameters:**
-- `mIndex`- name of the member
-- `description`-
+- `mIndex` - name of the member
+- `description` -
 
-#### getMemberUnits
+### getMemberUnits
 
 ```java
 public java.lang.String getMemberUnits(java.lang.String mIndex)
 ```
-get units of the member
+
+Get units of the member
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
 **Returns:**
 - units of the member
 
-#### setMemberUnits
+### setMemberUnits
 
 ```java
 public void setMemberUnits(java.lang.String mIndex,
                            java.lang.String units)
 ```
-set units of the member
+
+Set units of the member
 
 **Parameters:**
-- `mIndex`- name of the member
-- `units`-
+- `mIndex` - name of the member
+- `units` -
 
-#### getMemberProperty
+### getMemberProperty
 
 ```java
 public java.lang.String getMemberProperty(java.lang.String mIndex,
                                           java.lang.String propertyName)
 ```
-get value of a property of the member
+
+Get value of a property of the member
 
 **Parameters:**
-- `mIndex`- name of the member
-- `propertyName`- name of the property
+- `mIndex` - name of the member
+- `propertyName` - name of the property
 
 **Returns:**
 - value of a property of the member
 
-#### setMemberProperty
+### setMemberProperty
 
 ```java
 public void setMemberProperty(java.lang.String mIndex,
                               java.lang.String propertyName,
                               java.lang.String propertyValue)
 ```
-set value of a property of the member
+
+Set value of a property of the member
 
 **Parameters:**
-- `mIndex`- name of the member
-- `propertyName`- name of the property
-- `propertyValue`- value of the property
+- `mIndex` - name of the member
+- `propertyName` - name of the property
+- `propertyValue` - value of the property
 
-#### fromFile
+### fromFile
 
 ```java
 public void fromFile(java.lang.String mIndex,
                      java.lang.String fileName)
 ```
-load a file into a file member
+
+Load a file into a file member
 
 **Parameters:**
-- `mIndex`- name of the member
-- `fileName`- source file name
+- `mIndex` - name of the member
+- `fileName` - source file name
 
-#### fromFile
+### fromFile
 
 ```java
 public void fromFile(java.lang.String mIndex)
 ```
-load a file into a file member. The file name must have been specified by `setFileName`.
+
+Load a file into a file member. The file name must have been specified by `setFileName`.
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
-#### toFile
+### toFile
 
 ```java
 public void toFile(java.lang.String mIndex,
                    java.lang.String fileName)
 ```
-write a file member to a file
+
+Write a file member to a file
 
 **Parameters:**
-- `mIndex`- name of the member
-- `fileName`- destination file name
+- `mIndex` - name of the member
+- `fileName` - destination file name
 
-#### toFile
+### toFile
 
 ```java
 public void toFile(java.lang.String mIndex)
 ```
-write a file member to a file file name must have been specified
+
+Write a file member to a file. File name must have been specified
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
-#### getIsBinary
+### getIsBinary
 
 ```java
 public boolean getIsBinary(java.lang.String mIndex)
 ```
-return true if the file member contains a binary file
+
+Return true if the file member contains a binary file
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
-#### setIsBinary
+### setIsBinary
 
 ```java
 public void setIsBinary(java.lang.String mIndex,
                         boolean isBinary)
 ```
-set binary flag for a file member
+
+Set binary flag for a file member
 
 **Parameters:**
-- `mIndex`- name of the member
-- `isBinary`- binary flag
+- `mIndex` - name of the member
+- `isBinary` - binary flag
 
-#### getFileName
+### getFileName
 
 ```java
 public java.lang.String getFileName(java.lang.String mIndex)
 ```
-return name of the data source file
+
+Return name of the data source file
 
 **Parameters:**
-- `mIndex`- name of the member
+- `mIndex` - name of the member
 
-#### setFileName
+### setFileName
 
 ```java
 public void setFileName(java.lang.String mIndex,
                         java.lang.String fileName)
 ```
-set name of the data source file
+
+Set name of the data source file
 
 **Parameters:**
-- `mIndex`- name of the member
-- `fileName`- file name
+- `mIndex` - name of the member
+- `fileName` - file name
 
-#### setFileExtension
+### setFileExtension
 
 ```java
 public void setFileExtension(java.lang.String mIndex,
                              java.lang.String fileExtension)
 ```
-set file extesion of the data source file
+
+Set file extesion of the data source file
 
 **Parameters:**
-- `mIndex`- name of the member
-- `fileExtension`- file extension
+- `mIndex` - name of the member
+- `fileExtension` - file extension
 
-#### setBaseName
+### setBaseName
 
 ```java
 public void setBaseName(java.lang.String mIndex,
                         java.lang.String baseName)
 ```
-set base name for the data source file
+
+Set base name for the data source file
 
 **Parameters:**
-- `mIndex`- name of the member
-- `baseName`- the new base name
+- `mIndex` - name of the member
+- `baseName` - the new base name
 
-#### getInternalObject
+### getInternalObject
 
 ```java
 public java.lang.Object getInternalObject()
 ```
-get internal Java object that represent the data
+
+Get internal Java object that represent the data
 
 **Returns:**
 - internal Java object that represent the actual data
 
-#### equalsNatural
+### equalsNatural
 
 ```java
 public boolean equalsNatural(PHXSimpleType toCompare)
                       throws PHXTypeMismatchException
 ```
+
 Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is different than `Comparable` in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets, and may behave oddly if put in those circumstances.
 
 **Specified by:**
 - `equalsNatural` in class [`PHXSimpleType`](PHXSimpleType.md)
 
 **Parameters:**
-- `toCompare`-
+- `toCompare` -
 
 **Returns:**
 - a negative number if this object is less than `toCompare`, a positive number if this object is greater than `toCompare`, and zero if these two objects are equal.
 
 **Throws:**
-- `PHXTypeMismatchException`- if the given PHXSimpleType cannot be compared with this object.
+- `PHXTypeMismatchException` - if the given PHXSimpleType cannot be compared with this object.
 
-#### fromObject
+### fromObject
 
 ```java
 public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
+
 Load the value of this object from the specified object. This will read the object and attempt to convert it if it is a known type. If the type isn't recognized, it will throw a [PHXInvalidTypeException](PHXInvalidTypeException.md). If there is an error in conversion, it will also throw a [PHXInvalidTypeException](PHXInvalidTypeException.md)
 
  NOTE: while it might be logical to think you can create a `PHX(Type)Array` from, say, an array of `java.lang.(Type)`, that is not currently supported. You MUST use the PHX string array formatting style.
@@ -1126,32 +1208,34 @@ Load the value of this object from the specified object. This will read the obje
 - `fromObject` in class [`PHXSimpleType`](PHXSimpleType.md)
 
 **Parameters:**
-- `toRead`- to object from which to load this objects value.
+- `toRead` - to object from which to load this objects value.
 
 **Throws:**
 - [`PHXInvalidTypeException`](PHXInvalidTypeException.md)- if the specified object is of an invalid type or there is an error in conversion.
 
-#### Accept
+### Accept
 
 ```java
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
+
 Accept a Visitor.
 
 **Type Parameters:**
-- `T`- Type of the result of the visit.
+- `T` - Type of the result of the visit.
 
 **Parameters:**
-- `visitor`- The visitor to accept.
+- `visitor` - The visitor to accept.
 
 **Returns:**
 - The results of the visit.
 
-#### createCopy
+### createCopy
 
 ```java
 public PHXSimpleType createCopy()
 ```
+
 Create a copy of this instance, including the value and metadata.
 
 **Specified by:**

@@ -105,6 +105,7 @@ public static final long SIZECUTOFF
 ```java
 public PHXStringBuffer()
 ```
+
 Creates a new, empty string buffer
 
 ### PHXStringBuffer
@@ -112,6 +113,7 @@ Creates a new, empty string buffer
 ```java
 public PHXStringBuffer(long initialSize)
 ```
+
 Creates a new, empty string buffer which has an internal buffer of the size specified. This is more efficient if you know the approximate size that the string will eventually be as it doesn't have to guess small and grow. In particular, if the size is over the cutoff limit, it immediately caches to disk.
 
 ### PHXStringBuffer
@@ -119,6 +121,7 @@ Creates a new, empty string buffer which has an internal buffer of the size spec
 ```java
 public PHXStringBuffer(java.lang.String initial)
 ```
+
 Creates a new string buffer which contains the specified string. Will cache to disk immediately if the length of the string is over the cutoff.
 
 ## Method Detail
@@ -128,6 +131,7 @@ Creates a new string buffer which contains the specified string. Will cache to d
 ```java
 public void clear()
 ```
+
 This is for performance only, it allows large temp files and memory to be freed. This will happen when the garbage collector runs, but sometimes this is not good enough when you are dealing with large files.
 
 ### append
@@ -135,6 +139,7 @@ This is for performance only, it allows large temp files and memory to be freed.
 ```java
 public PHXStringBuffer append(java.lang.String app)
 ```
+
 Appends a string to this buffer
 
 ### append
@@ -142,6 +147,7 @@ Appends a string to this buffer
 ```java
 public PHXStringBuffer append(char[] buf)
 ```
+
 Appends a char array to this buffer
 
 ### append
@@ -151,6 +157,7 @@ public PHXStringBuffer append(char[] buf,
                               int offset, 
                               int len)
 ```
+
 Appends a char array to this buffer
 
 **Parameters:**
@@ -163,6 +170,7 @@ Appends a char array to this buffer
 ```java
 public PHXStringBuffer append(byte[] buf)
 ```
+
 Appends a byte array using the default encoding
 
 ### append
@@ -172,6 +180,7 @@ public PHXStringBuffer append(byte[] buf,
                               int offset, 
                               int len)
 ```
+
 Appends a byte array using the default encoding
 
 ### append
@@ -179,6 +188,7 @@ Appends a byte array using the default encoding
 ```java
 public PHXStringBuffer append(PHXStringBuffer app)
 ```
+
 Appends a `PHXStringBuffer` to this buffer. In particular this is more efficient than using `append(String)` when one or both of the buffers are currently cached out to disk.
 
 ### append
@@ -187,6 +197,7 @@ Appends a `PHXStringBuffer` to this buffer. In particular this is more efficient
 public PHXStringBuffer append(java.io.InputStream in) 
                        throws java.io.IOException
 ```
+
 Fully reads the contents of `InputStream` into this buffer using UTF-8 encoding. Will not close the `InputStream` when done.
 
 **Parameters:**
@@ -217,6 +228,7 @@ public PHXStringBuffer append(java.io.Reader in)
 ```java
 public PHXStringBuffer append(int num)
 ```
+
 Appends an integer to this buffer
 
 ### append
@@ -224,6 +236,7 @@ Appends an integer to this buffer
 ```java
 public PHXStringBuffer append(long num)
 ```
+
 Appends a long to this buffer
 
 ### append
@@ -231,6 +244,7 @@ Appends a long to this buffer
 ```java
 public PHXStringBuffer append(float num)
 ```
+
 Appends a float to this buffer
 
 ### append
@@ -238,6 +252,7 @@ Appends a float to this buffer
 ```java
 public PHXStringBuffer append(char ch)
 ```
+
 Appends a single char to this buffer
 
 ### addEscapes
@@ -245,6 +260,7 @@ Appends a single char to this buffer
 ```java
 public static java.lang.String addEscapes(java.lang.String input)
 ```
+
 Convenience static for adding escapes to plain strings
 
 ### addEscapes
@@ -283,6 +299,7 @@ public PHXStringBuffer removeEscapes()
 ```java
 public long length()
 ```
+
 Returns the actual length of the string held by this buffer object.
 
 ### toString
@@ -290,6 +307,7 @@ Returns the actual length of the string held by this buffer object.
 ```java
 public java.lang.String toString()
 ```
+
 Returns a string representation of this object.
 
 NOTE: This is very bad performance for large files. Avoid this if possible if you know you will be handling large strings.
@@ -307,6 +325,7 @@ NOTE: This is very bad performance for large files. Avoid this if possible if yo
 ```java
 public java.io.Reader getReader()
 ```
+
 Returns a `Reader` which can be read sequentially and contains the contents of the string. This is an efficient way to read the whole string.
 
 ### getInputStream
@@ -314,6 +333,7 @@ Returns a `Reader` which can be read sequentially and contains the contents of t
 ```java
 public java.io.InputStream getInputStream()
 ```
+
 Returns an `InputStream` which can be read sequentially and contains the contents of the string. This is an efficient way to read the whole string. The stream will be UTF-8 encoded.
 
 ### charAt
@@ -321,6 +341,7 @@ Returns an `InputStream` which can be read sequentially and contains the content
 ```java
 public char charAt(long index)
 ```
+
 Get the character at the specified index
 
 ### indexOf
@@ -328,6 +349,7 @@ Get the character at the specified index
 ```java
 public long indexOf(char ch)
 ```
+
 Searches for a given character and returns the index to that character, or -1 if not found
 
 ### indexOf
@@ -343,6 +365,7 @@ public long indexOf(char ch,
 public long indexOf(char ch, 
                     long startAt)
 ```
+
 Searches for a given character and returns the index to that character, or -1 if not found
 
 ### indexOf
@@ -364,6 +387,7 @@ public long indexOf(java.lang.String str,
 ```java
 public boolean startsWith(java.lang.String test)
 ```
+
 Returns true if this string starts with the specified string
 
 ### equals
@@ -371,6 +395,7 @@ Returns true if this string starts with the specified string
 ```java
 public boolean equals(java.lang.Object test)
 ```
+
 Compares this to another `String` or `PHXStringBuffer`. Returns `false` if you pass in null.
 
 **Overrides:**
@@ -382,6 +407,7 @@ Compares this to another `String` or `PHXStringBuffer`. Returns `false` if you p
 ```java
 public boolean equalsIgnoreCase(java.lang.Object test)
 ```
+
 Compares this to another `String` or `PHXStringBuffer`. Returns `false` if you pass in null. Is insensitive to case.
 
 ### firstWord
@@ -389,6 +415,7 @@ Compares this to another `String` or `PHXStringBuffer`. Returns `false` if you p
 ```java
 public java.lang.String firstWord()
 ```
+
 Returns the first word of this string, whitespace delimited.
 
 ### substring
@@ -396,6 +423,7 @@ Returns the first word of this string, whitespace delimited.
 ```java
 public PHXStringBuffer substring(long start)
 ```
+
 Creates a `PHXStringBuffer` with the contents of this string starting at a specified point and going to the end of the string.
 
 ### substring
@@ -404,6 +432,7 @@ Creates a `PHXStringBuffer` with the contents of this string starting at a speci
 public PHXStringBuffer substring(long start, 
                                  long end)
 ```
+
 Creates a `PHXStringBuffer` with the contents of this string starting at a specified point and including up to the character before the specified end point.
 
 ### writeTo
@@ -412,6 +441,7 @@ Creates a `PHXStringBuffer` with the contents of this string starting at a speci
 public void writeTo(java.io.OutputStream os) 
              throws java.io.IOException
 ```
+
 Writes this string buffer out to an output stream efficiently does utf-8 conversion before writing
 
 **Throws:**

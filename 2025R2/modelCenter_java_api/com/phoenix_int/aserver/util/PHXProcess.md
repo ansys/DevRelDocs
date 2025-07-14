@@ -72,6 +72,7 @@ public PHXProcess(java.lang.Process p,
                   com.phoenix_int.aserver.util.IPHXProcessJobInfoListener listener, 
                   java.lang.String fname)
 ```
+
 Constructs a `PHXProcess` out of a process and optionally reads the PID of the sub-process. Typically you do not create instances of this class yourself, but use `PHXRuntime.exec2()` to generate instances.
 
 **Parameters:**
@@ -92,6 +93,7 @@ public PHXProcess(java.lang.Process p,
 ```java
 public PHXProcess(java.lang.Process p)
 ```
+
 Constructs a PHXProcess out of a regular process but does not provide extended functionality because the process ID will not be known. Use PHXRuntime to execute processes and automatically generate correct `PHXProcess` instances.
 
 ## Method Detail 
@@ -104,6 +106,7 @@ public boolean matchFound(int patNum,
                           java.lang.String line, 
                           MatchResult match)
 ```
+
 Description copied from interface: `com.phoenix_int.aserver.util.IPHXStreamRegExListener`.
 
  Signals that a match was found.
@@ -137,6 +140,7 @@ public java.lang.String getJobNode()
 ```java
 public java.lang.Process getProcess()
 ```
+
 Returns the java Process instance for this PHXProcess
 
 ### getProcessID
@@ -144,6 +148,7 @@ Returns the java Process instance for this PHXProcess
 ```java
 public int getProcessID() throws java.io.IOException
 ```
+
 Returns the platform dependent process ID associated with this process. If there was any error reading the process ID, or there is no process ID, an exception explaining the problem will be thrown (every time you call this function).
 
 **Throws:**
@@ -154,6 +159,7 @@ Returns the platform dependent process ID associated with this process. If there
 ```java
 public PHXProcessInfo[] listProcesses() throws java.io.IOException
 ```
+
 This function lists all the processes and sub-processes of this PHXProcess. This is a suitable list to return from `IPHXMonitorable.listProcesses()`.
 
 **Throws:**

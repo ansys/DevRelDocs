@@ -58,12 +58,14 @@ A utility class used by [PHXSimpleSelfManager](PHXSimpleSelfManager.md), [PHXSim
 ```java
 public PHXPropertyDescriptor()
 ```
+
 Creates a property descriptor with all values set to "unknown".
 
 ### PHXPropertyDescriptor
 ```java
 public PHXPropertyDescriptor(java.beans.PropertyDescriptor prop)
 ```
+
 **Parameters:**
 - `prop` - the PropertyDescriptor
 
@@ -74,6 +76,7 @@ public PHXPropertyDescriptor(java.lang.String name,
                              boolean canSet, 
                              boolean canGet)
 ```
+
 **Parameters:**
 - `name` - the name of the property
 - `type` - the property type
@@ -87,6 +90,7 @@ public PHXPropertyDescriptor(java.lang.String name,
                              boolean canSet, 
                              boolean canGet)
 ```
+
 **Parameters:**
 - `name` - the name of the property
 - `object` - the property
@@ -99,6 +103,7 @@ public PHXPropertyDescriptor(java.beans.PropertyDescriptor prop,
                              java.lang.Object parent)
                       throws java.lang.IllegalArgumentException
 ```
+
 **Parameters:**
 - `prop` - the PropertyDescriptor
 - `parent` - the parent object - used to retrieve the actual object for prop if prop is an array (so that the array length can be determined). May be null.
@@ -112,6 +117,7 @@ public PHXPropertyDescriptor(java.beans.PropertyDescriptor prop,
 ```java
 public boolean getCanGet()
 ```
+
 Determines if the property can be retrieved.
 
 **Returns:**
@@ -121,6 +127,7 @@ Determines if the property can be retrieved.
 ```java
 public void setCanGet(boolean flag)
 ```
+
 Sets whether the property can be retrieved.
 
 **Parameters:**
@@ -130,6 +137,7 @@ Sets whether the property can be retrieved.
 ```java
 public boolean getCanSet()
 ```
+
 Determines if the property can be modified.
 
 **Returns:**
@@ -139,6 +147,7 @@ Determines if the property can be modified.
 ```java
 public void setCanSet(boolean flag)
 ```
+
 Sets whether the property can be modified.
 
 **Parameters:**
@@ -148,6 +157,7 @@ Sets whether the property can be modified.
 ```java
 public java.lang.String getName()
 ```
+
 Retrieves the property name.
 
 **Returns:**
@@ -157,6 +167,7 @@ Retrieves the property name.
 ```java
 public java.lang.String getType()
 ```
+
 Retrieves the type of the property as a string.
 
 **Returns:**
@@ -166,6 +177,7 @@ Retrieves the type of the property as a string.
 ```java
 public java.lang.Class getTypeClass()
 ```
+
 Retrieves the type of the property as a Class object.
 
 **Returns:**
@@ -203,6 +215,7 @@ public java.lang.Object getSource()
 ```java
 public java.lang.String toString()
 ```
+
 Converts the property to a readable format.
 
 **Overrides:**
@@ -215,6 +228,7 @@ Converts the property to a readable format.
 ```java
 public java.lang.String asValueDescriptor()
 ```
+
 Converts the property to a machine-readable format.
 
 **Returns:**
@@ -225,6 +239,7 @@ Converts the property to a machine-readable format.
 public void asValueDescriptor2(PHXStringBuffer out)
                         throws java.io.IOException
 ```
+
 Converts the property to a readable format. Returns a [util/PHXStringBuffer](util/PHXStringBuffer.md) for performance.
 
 **Parameters:**
@@ -238,6 +253,7 @@ Converts the property to a readable format. Returns a [util/PHXStringBuffer](uti
 public void asValueDescriptor3(PHXStringBuffer out)
                         throws java.io.IOException
 ```
+
 Converts the property to a readable format. Returns a [util/PHXStringBuffer](util/PHXStringBuffer.md) for performance.
 
 **Parameters:**
@@ -254,6 +270,7 @@ public static void asPropertyDescriptor(java.lang.StringBuffer out,
                                         boolean canSet, 
                                         boolean canGet)
 ```
+
 Stringify the property descriptor data.
 
 **Parameters:**
@@ -272,6 +289,7 @@ public static void asValueDescriptor(java.lang.StringBuffer out,
                                      boolean canGet, 
                                      java.lang.String value)
 ```
+
 Stringify the value descriptor data.
 
 **Parameters:**

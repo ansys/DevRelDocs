@@ -62,6 +62,7 @@ void parse()
            PHXBookmarkNotFoundException,
            PHXSectionNotFoundException
 ```
+
 @Deprecated. Parse the output file
 
 **Throws:**
@@ -80,6 +81,7 @@ void parse()
 ```java
 void setFileToParse(java.lang.String fileName)
 ```
+
 @Deprecated. Set the file to be parsed
 
 **Parameters:**

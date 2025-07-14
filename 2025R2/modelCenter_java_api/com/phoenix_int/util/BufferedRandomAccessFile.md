@@ -4,7 +4,7 @@
 
 **Class Hierarchy**
 
-```
+```java
 ↳ java.lang.Object
   ↳ com.phoenix_int.util.BufferedRandomAccessFile
 ```

@@ -43,6 +43,7 @@ The interface of a visitor into an [IPHXType2](IPHXType2.md). A part of the visi
 ```java
 T visit(PHXBoolean host)
 ```
+
 Visit a PHXBoolean.
 
 **Parameters:**
@@ -56,6 +57,7 @@ Visit a PHXBoolean.
 ```java
 T visit(PHXLong host)
 ```
+
 Visit a PHXLong.
 
 **Parameters:**
@@ -69,6 +71,7 @@ Visit a PHXLong.
 ```java
 T visit(PHXDouble host)
 ```
+
 Visit a PHXDouble.
 
 **Parameters:**
@@ -82,6 +85,7 @@ Visit a PHXDouble.
 ```java
 T visit(PHXString host)
 ```
+
 Visit a PHXString.
 
 **Parameters:**
@@ -95,6 +99,7 @@ Visit a PHXString.
 ```java
 T visit(PHXRawFile host)
 ```
+
 Visit a PHXRawFile.
 
 **Parameters:**
@@ -108,6 +113,7 @@ Visit a PHXRawFile.
 ```java
 T visit(PHXGeometry host)
 ```
+
 Visit a PHXGeometry.
 
 **Parameters:**
@@ -121,6 +127,7 @@ Visit a PHXGeometry.
 ```java
 T visit(PHXBooleanArray host)
 ```
+
 Visit a PHXBooleanArray.
 
 **Parameters:**
@@ -134,6 +141,7 @@ Visit a PHXBooleanArray.
 ```java
 T visit(PHXLongArray host)
 ```
+
 Visit a PHXLongArray.
 
 **Parameters:**
@@ -147,6 +155,7 @@ Visit a PHXLongArray.
 ```java
 T visit(PHXDoubleArray host)
 ```
+
 Visit a PHXDoubleArray.
 
 **Parameters:**
@@ -160,6 +169,7 @@ Visit a PHXDoubleArray.
 ```java
 T visit(PHXStringArray host)
 ```
+
 Visit a PHXStringArray.
 
 **Parameters:**
@@ -173,6 +183,7 @@ Visit a PHXStringArray.
 ```java
 T visit(PHXRawFileArray host)
 ```
+
 Visit a PHXRawFileArray.
 
 **Parameters:**

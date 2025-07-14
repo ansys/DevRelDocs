@@ -4,7 +4,7 @@
 
 **Class Hierarchy**
 
-```
+```java
 ↳ java.lang.Object
   ↳ com.phoenix_int.aserver.client.v2.AnalysisServerVersion
 ```
@@ -14,6 +14,7 @@
 - `java.lang.Comparable<AnalysisServerVersion>`
 
 --- 
+
 **Declaration**
 
 ```java
@@ -21,6 +22,7 @@ public class AnalysisServerVersion
 extends java.lang.Object
 implements java.lang.Comparable<AnalysisServerVersion>
 ```
+
 Server protocol version. Useful for determining if a server supports specific features.
 
 ## Constructor Summary
@@ -42,7 +44,7 @@ Server protocol version. Useful for determining if a server supports specific fe
 | `java.lang.String` | `toString()` |
 
 ### Methods inherited from class java.lang.Object
-`clone, finalize, getClass, notify, notifyAll, wait, wait, wait`
+`clone`, `finalize`, `getClass`, `notify`, `notifyAll`, `wait`, `wait`, `wait`
 
 ## Constructor Detail
 
@@ -53,6 +55,7 @@ public AnalysisServerVersion(int major,
                              int minor,
                              int build)
 ```
+
 Constructor.
 
 **Parameters:**
@@ -67,6 +70,7 @@ Constructor.
 ```java
 public int getMajor()
 ```
+
 Get the major version.
 
 ### getMinor
@@ -74,6 +78,7 @@ Get the major version.
 ```java
 public int getMinor()
 ```
+
 Get the minor version.
 
 ### getBuild
@@ -81,6 +86,7 @@ Get the minor version.
 ```java
 public int getBuild()
 ```
+
 Get the build.
 
 ### hashCode
@@ -88,6 +94,7 @@ Get the build.
 ```java
 public int hashCode()
 ```
+
 **Overrides:**
 - `hashCode` in class `java.lang.Object`
 
@@ -96,6 +103,7 @@ public int hashCode()
 ```java
 public boolean equals(java.lang.Object obj)
 ```
+
 **Overrides:**
 - `equals` in class `java.lang.Object`
 
@@ -104,6 +112,7 @@ public boolean equals(java.lang.Object obj)
 ```java
 public int compareTo(AnalysisServerVersion o)
 ```
+
 **Specified by:**
 - `compareTo` in interface `java.lang.Comparable<AnalysisServerVersion>`
 
@@ -112,5 +121,6 @@ public int compareTo(AnalysisServerVersion o)
 ```java
 public java.lang.String toString()
 ```
+
 **Overrides:**
 - `toString` in class `java.lang.Object`

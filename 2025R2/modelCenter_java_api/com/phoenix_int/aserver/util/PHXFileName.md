@@ -22,7 +22,7 @@ This is a utility class for easily managing file names. The class lets you speci
 
 e.g.:
 
-```java
+```
     name                  set base name to       resulting fullName
     -----------           ------------------     --------------------
     /usr/bin              /users/woyak           /usr/bin
@@ -76,6 +76,7 @@ public PHXFileName(java.lang.String baseName,
 ```java
 public void setStringReplacer(PHXStringReplacer r)
 ```
+
 sets the string replacer for the forming the real file name
 
 ### setName
@@ -83,6 +84,7 @@ sets the string replacer for the forming the real file name
 ```java
 public void setName(java.lang.String name)
 ```
+
 sets the name for the file
 
 ### getName
@@ -96,6 +98,7 @@ public java.lang.String getName()
 ```java
 public void setBaseName(java.lang.String baseName)
 ```
+
 sets the base name for the file. If the file was fully specified, then this function does nothing
 
 **Parameters:**
@@ -112,6 +115,7 @@ public java.lang.String getBaseName()
 ```java
 public java.lang.String getFullName()
 ```
+
 returns the full file name. This is the combination of the base name and name parts, unless the name part is fully specified. In that case it is just the name part.
 
 ### getFullNameCoded
@@ -119,4 +123,5 @@ returns the full file name. This is the combination of the base name and name pa
 ```java
 public java.lang.String getFullNameCoded()
 ```
+
 returns the full file name in coded form, i.e. variables have not been substituted into it.

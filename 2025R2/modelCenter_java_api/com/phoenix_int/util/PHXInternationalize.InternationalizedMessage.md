@@ -32,6 +32,7 @@ Interface for a lazily computed translation message. Can be used for example to 
 ```java
 java.lang.String computeMessage()
 ```
+
 Compute the translation and return the message
 
 **Returns:**

@@ -72,6 +72,7 @@ fl.close();
 public PHXFileLoader(java.lang.String fileName)
               throws java.io.IOException
 ```
+
 **Parameters:**
 - `fileName` - the file to load
 **Throws:**
@@ -83,8 +84,10 @@ public PHXFileLoader(java.lang.String fileName)
 public PHXFileLoader(java.io.File file)
               throws java.io.IOException
 ```
+
 **Parameters:**
 - `file` - the file to load
+
 **Throws:**
 - `java.io.IOException` - if there is a problem opening the file
 
@@ -94,6 +97,7 @@ public PHXFileLoader(java.io.File file)
 public PHXFileLoader(java.io.StringReader inStream)
               throws java.io.IOException
 ```
+
 **Throws:**
 - `java.io.IOException`
 
@@ -103,6 +107,7 @@ public PHXFileLoader(java.io.StringReader inStream)
 public PHXFileLoader(java.io.InputStream inStream)
               throws java.io.IOException
 ```
+
 **Throws:**
 - `java.io.IOException`
 
@@ -122,6 +127,7 @@ public void finalize()
 ```java
 public void close()
 ```
+
 closes the file
 
 ### getFileName
@@ -129,6 +135,7 @@ closes the file
 ```java
 public java.lang.String getFileName()
 ```
+
 retrieves the file name
 
 **Returns:**
@@ -139,6 +146,7 @@ retrieves the file name
 ```java
 public int getLineNumber()
 ```
+
 returns the line number of the last line read. Indexing starts at 1
 
 **Returns:**
@@ -149,6 +157,7 @@ returns the line number of the last line read. Indexing starts at 1
 ```java
 public java.lang.String nextLine()
 ```
+
 extracts the next non-comment line from the data file
 
 **Returns:**
@@ -159,6 +168,7 @@ extracts the next non-comment line from the data file
 ```java
 public java.lang.String readNextLine()
 ```
+
 extracts the next line from the data file
 
 **Returns:**
@@ -169,6 +179,7 @@ extracts the next line from the data file
 ```java
 public java.lang.String getRemainder()
 ```
+
 returns the rest of the file as a string
 
 **Returns:**

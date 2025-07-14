@@ -68,6 +68,7 @@ public PHXNoSuchAssociationException(java.lang.String name)
 ```java
 public java.lang.String getInvalidAssociation()
 ```
+
 Retrieves the name that was invalid
 
 **Returns:**

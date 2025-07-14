@@ -47,6 +47,7 @@ Component variable interface
 ```java
 java.lang.String getName()
 ```
+
 **Deprecated.** Get variable name
 
 **Returns:**
@@ -57,6 +58,7 @@ java.lang.String getName()
 ```java
 void setName(java.lang.String name)
 ```
+
 **Deprecated.** Set variable name
 
 **Parameters:**
@@ -67,6 +69,7 @@ void setName(java.lang.String name)
 ```java
 VariableDataType getType()
 ```
+
 **Deprecated.** Get variable data type
 
 **Returns:**
@@ -80,6 +83,7 @@ VariableDataType getType()
 ```java
 java.lang.String getFormat()
 ```
+
 **Deprecated.** Get variable format string
 
 **Returns:**
@@ -90,6 +94,7 @@ java.lang.String getFormat()
 ```java
 void setFormat(java.lang.String format)
 ```
+
 **Deprecated.** Set variable format string
 
 **Parameters:**
@@ -100,6 +105,7 @@ void setFormat(java.lang.String format)
 ```java
 java.lang.String getUnits()
 ```
+
 **Deprecated.** Get variable units
 
 **Returns:**
@@ -110,6 +116,7 @@ java.lang.String getUnits()
 ```java
 void setUnits(java.lang.String units)
 ```
+
 **Deprecated.** Set variable units
 
 **Parameters:**
@@ -120,6 +127,7 @@ void setUnits(java.lang.String units)
 ```java
 java.lang.String getDescription()
 ```
+
 **Deprecated.** Get variable description
 
 **Returns:**
@@ -130,6 +138,7 @@ java.lang.String getDescription()
 ```java
 void setDescription(java.lang.String description)
 ```
+
 **Deprecated.** Set variable description
 
 **Parameters:**
@@ -140,6 +149,7 @@ void setDescription(java.lang.String description)
 ```java
 java.lang.Object getDefaultValue()
 ```
+
 **Deprecated.** Get default value of variable
 
 **Returns:**
@@ -150,6 +160,7 @@ java.lang.Object getDefaultValue()
 ```java
 void setDefaultValue(java.lang.Object defaultValue)
 ```
+
 **Deprecated.** Set default value of variable
 
 **Parameters:**
@@ -160,6 +171,7 @@ void setDefaultValue(java.lang.Object defaultValue)
 ```java
 java.lang.Number getUpperBound()
 ```
+
 **Deprecated.** Get upper bound of variable; may be null
 
 Only applicable to variables of numeric type
@@ -172,6 +184,7 @@ Only applicable to variables of numeric type
 ```java
 void setUpperBound(java.lang.Number upperBound)
 ```
+
 **Deprecated.** Set upper bound of variable; may be null
 
 Only applicable to variables of numeric type
@@ -184,6 +197,7 @@ Only applicable to variables of numeric type
 ```java
 java.lang.Number getLowerBound()
 ```
+
 **Deprecated.** Get lower bound of variable; may be null
 
 Only applicable to variables of numeric type
@@ -196,6 +210,7 @@ Only applicable to variables of numeric type
 ```java
 void setLowerBound(java.lang.Number lowerBound)
 ```
+
 **Deprecated.** Set lower bound of variable; may be null
 
 Only applicable to variables of numeric type
@@ -208,6 +223,7 @@ Only applicable to variables of numeric type
 ```java
 java.lang.Object[] getEnumValues()
 ```
+
 **Deprecated.** Get values for the enumerated type
 
 **Returns:**
@@ -218,6 +234,7 @@ java.lang.Object[] getEnumValues()
 ```java
 java.lang.String[] getEnumAliases()
 ```
+
 **Deprecated.** Get names/aliases for the enumerated type
 
 **Returns:**
@@ -229,6 +246,7 @@ java.lang.String[] getEnumAliases()
 void setEnums(java.lang.String[] enumAliases, 
               java.lang.Object[] enumValues)
 ```
+
 **Deprecated.** Set the names/aliases and corresponding values for the enumerated type
 
 **Parameters:**
@@ -243,6 +261,7 @@ void setEnums(java.lang.String[] enumAliases,
 ```java
 java.util.Map<java.lang.String,java.lang.String> getMetaData()
 ```
+
 **Deprecated.** Get additional variable meta data
 
 **Returns:**
@@ -255,6 +274,7 @@ void setMetaData(java.lang.String key,
                  java.lang.String value) 
           throws java.lang.IllegalArgumentException
 ```
+
 **Deprecated.** Set meta data property; will create a new entry it does not exist
 
 **Parameters:**
@@ -269,6 +289,7 @@ void setMetaData(java.lang.String key,
 ```java
 boolean isNumeric()
 ```
+
 **Deprecated.** Whether or not variable is a numeric type
 
 **Returns:**
@@ -279,6 +300,7 @@ boolean isNumeric()
 ```java
 boolean isArray()
 ```
+
 **Deprecated.** Whether or not variable is an array type
 
 **Returns:**
@@ -289,6 +311,7 @@ boolean isArray()
 ```java
 boolean isEnum()
 ```
+
 **Deprecated.** Whether or not variable is an enumerated type
 
 **Returns:**

@@ -77,18 +77,21 @@ public PHXSimpleSelfManager3()
 ```java
 public PHXRunShare getRunShare2()
 ```
+
 Return the run share object
 
 ### setRunShare2
 ```java
 public void setRunShare2(PHXRunShare rs)
 ```
+
 Sets the run share object
 
 ### setConnection
 ```java
 public void setConnection(com.phoenix_int.aserver.ascore.PHXConnection c)
 ```
+
 Sets the connection object
 
 **Specified by:**
@@ -98,6 +101,7 @@ Sets the connection object
 ```java
 public com.phoenix_int.aserver.ascore.PHXConnection getConnection()
 ```
+
 Gets the connection object
 
 **Specified by:**

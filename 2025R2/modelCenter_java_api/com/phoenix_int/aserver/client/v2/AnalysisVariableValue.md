@@ -39,7 +39,7 @@ Class representing a variable value.
 
 ### Methods inherited from class java.lang.Object
 
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `toString`, `wait`, `wait`, `wait`
 
 ## Constructor Detail
 
@@ -53,6 +53,7 @@ public AnalysisVariableValue(java.lang.String name,
                              boolean isUrl)
                       throws java.lang.NullPointerException
 ```
+
 Constructor.
 
 **Parameters:**
@@ -73,6 +74,7 @@ Constructor.
 ```java
 public java.lang.String getName()
 ```
+
 Get the variable name.
 
 ### isInput
@@ -80,6 +82,7 @@ Get the variable name.
 ```java
 public boolean isInput()
 ```
+
 Get whether this is an input.
 
 ### isBinary
@@ -87,6 +90,7 @@ Get whether this is an input.
 ```java
 public boolean isBinary()
 ```
+
 Get whether this is binary data.
 
 ### getUrl
@@ -94,6 +98,7 @@ Get whether this is binary data.
 ```java
 public java.lang.String getUrl()
 ```
+
 Get the URL of the variable, or null if none.
 
 ### getType
@@ -101,6 +106,7 @@ Get the URL of the variable, or null if none.
 ```java
 public java.lang.String getType()
 ```
+
 Get the type of the variable.
 
 ### getValue
@@ -108,4 +114,5 @@ Get the type of the variable.
 ```java
 public java.lang.Object getValue()
 ```
+
 Get the value of the variable (null if URL). Typically a `String` for text values or a `byte[]` for binary.

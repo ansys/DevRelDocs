@@ -53,6 +53,7 @@ An exception that is thrown when trying to use a bad type
 ```java
 public PHXInvalidTypeException(java.lang.String type)
 ```
+
 Create an invalid type exception
 
 **Parameters:**
@@ -64,6 +65,7 @@ Create an invalid type exception
 public PHXInvalidTypeException(java.lang.String type,
                                java.lang.Throwable cause)
 ```
+
 Create an invalid type exception with a cause
 
 **Parameters:**

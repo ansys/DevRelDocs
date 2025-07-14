@@ -30,6 +30,7 @@ This interface defines the contract for components that can be set up or initial
 public void setupFromFile(java.lang.String fileName)
                    throws java.io.IOException
 ```
+
 Sets up the component using the specified file. The file should contain the necessary configuration or data required for initialization.
 
 **Parameters:**

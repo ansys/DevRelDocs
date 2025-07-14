@@ -9,6 +9,8 @@
   ↳ com.phoenix_int.aserver.util.scriptwrapper.api.PHXScriptWrapperObject
 ```
 
+---
+
 **Declaration**
 
 ```java
@@ -67,6 +69,7 @@ This object is passed to Script Wrapper scripts and provides the "wrapper" globa
 ```java
 public PHXScriptWrapperObject(com.phoenix_int.aserver.util.scriptwrapper.PHXScriptWrapper wrapper)
 ```
+
 Constructs a wrapper object from a ScriptWrapper instance.
 
 ## Method Detail
@@ -78,6 +81,7 @@ public void addMethod(java.lang.String methodName)
                throws PHXNameAlreadyInUseException,
                       PHXInvalidNameException
 ```
+
 Publicizes a method to our clients. There must be a method defined in the script by this name. Clients of MCRE will be able to call this method
 
 **Parameters:**
@@ -97,6 +101,7 @@ public void addMethod(java.lang.String methodName,
                throws PHXNameAlreadyInUseException,
                       PHXInvalidNameException
 ```
+
 Publicizes a method to our clients. There must be a method defined in the script by this name. Clients of MCRE will be able to call this method
 
 **Parameters:**
@@ -117,6 +122,7 @@ public void addMethod(java.lang.String methodName,
                throws PHXNameAlreadyInUseException,
                       PHXInvalidNameException
 ```
+
 Publicizes a method to our clients. There must be a method defined in the script by this name. Clients of MCRE will be able to call this method
 
 **Parameters:**
@@ -138,6 +144,7 @@ public void addMethod(java.lang.String methodName,
                throws PHXNameAlreadyInUseException,
                       PHXInvalidNameException
 ```
+
 Publicizes a method to our clients. There must be a method defined in the script by this name. Clients of MCRE will be able to call this method
 
 **Parameters:**
@@ -161,6 +168,7 @@ public IPHXType addVariable(java.lang.String name,
                             PHXInvalidNameException,
                             PHXInvalidTypeException
 ```
+
 Adds a variable to this component. Returns a reference to the new variable. Valid types are:
 
 | Type | Aliases | Associated PHXType |
@@ -192,6 +200,7 @@ All types except `PHXGeometry` and `PHXRawFile` may be made into arrays by addin
 public IPHXType getVariable(java.lang.String name)
                      throws PHXNoSuchObjectException
 ```
+
 Returns a reference to the named variable.
 
 **Throws:**
@@ -204,6 +213,7 @@ Returns a reference to the named variable.
 public void removeVariable(java.lang.String name)
                     throws PHXNoSuchObjectException
 ```
+
 Dynamically removes a variable from this component
 
 **Throws:**
@@ -241,6 +251,7 @@ public void updateConsoleVariables()
 ```java
 public java.lang.String getDirectory()
 ```
+
 Returns the directory where this component was loaded from
 
 ### getRunShare
@@ -248,6 +259,7 @@ Returns the directory where this component was loaded from
 ```java
 public PHXRunShareContext getRunShare()
 ```
+
 Returns the [`PHXRunShareContext`](PHXRunShareContext.md) object used for process control and monitoring with this component
 
 ### getRunDirectory
@@ -255,6 +267,7 @@ Returns the [`PHXRunShareContext`](PHXRunShareContext.md) object used for proces
 ```java
 public java.lang.String getRunDirectory()
 ```
+
 Returns the current "run" directory, which is the same as `getDirectory()` unless run sharing is being used.
 
 ### sleep
@@ -262,7 +275,8 @@ Returns the current "run" directory, which is the same as `getDirectory()` unles
 ```java
 public void sleep(long millisecs)
 ```
-sleeps for a period of time
+
+Sleeps for a period of time
 
 **Parameters:**
 
@@ -273,20 +287,23 @@ sleeps for a period of time
 ```java
 public com.phoenix_int.aserver.ascore.PHXConnection getConnection()
 ```
-gets the connection object
+
+Gets the connection object
 
 ### setConnection
 
 ```java
 public void setConnection(com.phoenix_int.aserver.ascore.PHXConnection c)
 ```
-sets the connection object
+
+Sets the connection object
 
 ### getDictionary
 
 ```java
 public java.util.Map<java.lang.String,java.lang.String> getDictionary()
 ```
+
 Gets context information for the incoming connection that is running this wrapper. Currently only for internal use.
 
 **Returns:**
@@ -300,6 +317,7 @@ public void setBinary(java.lang.String varName)
                throws PHXInvalidTypeException,
                       PHXNoSuchObjectException
 ```
+
 Make a given file variable binary
 
 **Parameters:**
@@ -320,6 +338,7 @@ public void writeFile(java.lang.String varName,
                       PHXNoSuchObjectException,
                       java.io.IOException
 ```
+
 Write the given file variable out to the specified file
 
 **Parameters:**
@@ -343,6 +362,7 @@ public void parseFile(java.lang.String varName,
                       PHXNoSuchObjectException,
                       java.io.IOException
 ```
+
 Read the given file variable from the specified file
 
 **Parameters:**
@@ -365,6 +385,7 @@ public void deleteFile(java.lang.String varName,
                        PHXNoSuchObjectException,
                        java.io.IOException
 ```
+
 Deletes the given file variable's file
 
 **Parameters:**
@@ -387,6 +408,7 @@ public void backupFile(java.lang.String varName,
                        PHXNoSuchObjectException,
                        java.io.IOException
 ```
+
 Backup the file on disk. File is at the same location with ".bac" appended to the end. If a file by that name already exists, it is deleted prior to moving.
 
 **Parameters:**
@@ -412,6 +434,7 @@ public void defaultExecutableMapping(java.lang.String name,
 ```java
 public void trace(java.lang.String msg)
 ```
+
 Prints a string to the trace window
 
 **Parameters:**
@@ -425,6 +448,7 @@ public void requireAnalysisServerVersion(int majorVersion,
                                          int minorVersion)
                                   throws PHXVersionException
 ```
+
 Verifies we're running a compatible version of ModelCenter Remote Execution
 
 **Parameters:**
@@ -441,6 +465,7 @@ Verifies we're running a compatible version of ModelCenter Remote Execution
 ```java
 public void addAutoClose(java.io.Closeable file)
 ```
+
 Add the opened file to the file Handlers list
 
 **Parameters:**
@@ -452,6 +477,7 @@ Add the opened file to the file Handlers list
 ```java
 public void removeAutoClose(java.io.Closeable file)
 ```
+
 Remove the file from the file Handlers list
 
 **Parameters:**

@@ -56,4 +56,5 @@ public PHXInvalidNameException(java.lang.String name)
 public static void checkName(java.lang.String name)
                       throws PHXInvalidNameException
 ```
+
 Checks a name to see if it's valid.

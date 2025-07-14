@@ -15,6 +15,8 @@
 **Direct Known Subclasses:**
 - [`PHXSimpleSelfManager3`](PHXSimpleSelfManager3.md)
 
+--- 
+
 **Declaration**
 ```java
 public class PHXSimpleSelfManager2

@@ -4,7 +4,7 @@
 
 **Class Hierarchy**
 
-```
+```java
 ↳ java.lang.Object
   ↳ java.io.Reader
     ↳ com.phoenix_int.util.PHXNewLineFilter
@@ -59,6 +59,7 @@ Implementation of a FilterReader that processes out newlines into Java style new
 ```java
 public PHXNewLineFilter(java.io.Reader in)
 ```
+
 Creates a new instance of PHXNewLineFilter
 
 ## Method Detail

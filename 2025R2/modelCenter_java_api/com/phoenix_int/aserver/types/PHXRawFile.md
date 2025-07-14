@@ -2,7 +2,7 @@
 
 
 **Packages:** `com.phoenix_int.aserver.types`
-```
+```java
 - java.lang.Object
 - - com.phoenix_int.aserver.types.PHXSimpleType
 - - com.phoenix_int.aserver.types.PHXRawFile
@@ -18,6 +18,7 @@ public class PHXRawFile
 extends PHXSimpleType
 implements IPHXType2, java.lang.AutoCloseable
 ```
+
 The type for Files. The working contents of the file are kept in a temporary file on disk, where changes are made before they are manually synced to the actual file. Read the documentation for each method to make sure it is doing what you expect it to.
  
 The temporary file containing the contents can optionally be maintained by calling `unmanageTempFile()`.
@@ -136,6 +137,7 @@ public PHXRawFile(java.lang.String baseName,
 ```java
 public PHXRawFile(PHXRawFile other)
 ```
+
 Clone another PHXRawFile's value and metadata.
 
 **Parameters:**
@@ -148,6 +150,7 @@ Clone another PHXRawFile's value and metadata.
 ```java
 public java.lang.String getName()
 ```
+
 retrieves the name of the file
 
 **Returns:**
@@ -158,6 +161,7 @@ retrieves the name of the file
 ```java
 public java.util.UUID getID()
 ```
+
 Get the ID set on this file when the contents were set. Reading the same contents does not guarantee that the ID will be the same.
 
 **Returns:**
@@ -168,13 +172,15 @@ Get the ID set on this file when the contents were set. Reading the same content
 ```java
 public void addMonitor(PHXFileMonitor fm)
 ```
-PHXFileMonitor is used to monitor changes to a file as it is being created as in the UNIX `tail -f` command. Unfortunately in Windows, this creates a file lock which prevents deleting the file. Therefore, we keep a list of all the monitors currently monitoring us, and we signal them anytime that our filename or base name changes so they can stop monitoring.
+
+`PHXFileMonitor` is used to monitor changes to a file as it is being created as in the UNIX `tail -f` command. Unfortunately in Windows, this creates a file lock which prevents deleting the file. Therefore, we keep a list of all the monitors currently monitoring us, and we signal them anytime that our filename or base name changes so they can stop monitoring.
 
 ### removeMonitor
 
 ```java
 public void removeMonitor(PHXFileMonitor fm)
 ```
+
 Removes a file monitor from our list
 
 ### synched
@@ -182,6 +188,7 @@ Removes a file monitor from our list
 ```java
 public boolean synched()
 ```
+
 Is this file variable's value consistent with the actual file on disk?
 
 ### setNeedWrite
@@ -195,6 +202,7 @@ public void setNeedWrite(boolean needWrite)
 ```java
 public void setURL(java.lang.String url)
 ```
+
 sets whether the file is meant to be transferred by proxy or not
 
 **Parameters:**
@@ -205,6 +213,7 @@ sets whether the file is meant to be transferred by proxy or not
 ```java
 public java.lang.String getNameCoded()
 ```
+
 retrieves the name of the file in coded form (without `$variables` replaced)
 
 **Returns:**
@@ -215,6 +224,7 @@ retrieves the name of the file in coded form (without `$variables` replaced)
 ```java
 public java.lang.String getFileExtension()
 ```
+
 Returns the extension of the file that this object represents
 
 ### unmanageTempFile
@@ -222,6 +232,7 @@ Returns the extension of the file that this object represents
 ```java
 public void unmanageTempFile()
 ```
+
 Ensure that the file containing the current contents is not deleted when the last handle to it is released. Note that the contents can be reset by `setContents(java.lang.String)`, `setName(java.lang.String)` and `readFile(java.lang.String)` = overloads. This function affects only the current contents. Once the contents are changed, they are stored in a different temp file. That file will receive separate tracking and may be deleted unless this function is called again.
 
 ### setFileExtension
@@ -230,6 +241,7 @@ Ensure that the file containing the current contents is not deleted when the las
 public void setFileExtension(java.lang.String extension)
                       throws java.io.IOException
 ```
+
 Sets the extension of the file that this object represents. It is preferred that you use `setName()` and let the system automatically figure out the extension based on what you pass in. Then, you can use `readFile()` and `writeFile()` without passing filenames to those calls. This allows for progress monitoring to work correctly in all cases.
 
 **Throws:**
@@ -241,6 +253,7 @@ Sets the extension of the file that this object represents. It is preferred that
 public void setName(java.lang.String v)
              throws java.io.IOException
 ```
+
 sets the name of the file
 
 **Parameters:**
@@ -255,6 +268,7 @@ sets the name of the file
 public void setBaseName(java.lang.String v)
                  throws java.io.IOException
 ```
+
 sets the base name of the file
 
 **Parameters:**
@@ -268,6 +282,7 @@ sets the base name of the file
 ```java
 public java.lang.String getBaseName()
 ```
+
 gets the base name of the file
 
 **Returns:**
@@ -278,6 +293,7 @@ gets the base name of the file
 ```java
 public void setStringReplacer(PHXStringReplacer r)
 ```
+
 specifies a PHXStringReplacer object for use in forming the full file name.
 
 **Parameters:**
@@ -288,6 +304,7 @@ specifies a PHXStringReplacer object for use in forming the full file name.
 ```java
 public boolean getIsBinary()
 ```
+
 Tells whether or not the the file is binary. Simply switches on whether or not the mime type starts with text.
 
 ### getURL
@@ -295,6 +312,7 @@ Tells whether or not the the file is binary. Simply switches on whether or not t
 ```java
 public java.lang.String getURL()
 ```
+
 Tells whether the file is meant to be transferred by proxy
 
 ### setIsBinary
@@ -302,6 +320,7 @@ Tells whether the file is meant to be transferred by proxy
 ```java
 public void setIsBinary(boolean m)
 ```
+
 Forces this file to be binary or not. If this causes the mode to change, will set the mime type to `text/plain` or `application/octet-stream`
  as appropriate.
 
@@ -323,6 +342,7 @@ public void setMimeType(java.lang.String m)
 public void setContents(java.lang.String contents)
                  throws java.io.IOException
 ```
+
 Sets the contents of the temporary file. The actual file is not modified until the `writeFile()` method is issued. Remember that when dealing with text files, `setContents` handles Java style strings, which must be in bare LF, or Unix style newline format. In binary format, `setContents` should be the base64 encoded data.
  
 The handle to the previous contents is released, potentially deleting it if no other references are being held. Because the contents are reset, you may need to call `unmanageTempFile()` again.
@@ -339,6 +359,7 @@ The handle to the previous contents is released, potentially deleting it if no o
 public void setContents(PHXStringBuffer contents)
                  throws java.io.IOException
 ```
+
 Sets the contents of the temporary file. The actual file is not modified until the `writeFile()` method is issued. Remember that when dealing with text files, `setContents` handles Java style strings, which must be in bare LF, or Unix style newline format. In binary format, `setContents` should be the base64 encoded data.
     
  The handle to the previous contents is released, potentially deleting it if no other references are being held. Because the contents are reset, you may need to call `unmanageTempFile()` again.
@@ -354,6 +375,7 @@ Sets the contents of the temporary file. The actual file is not modified until t
 ```java
 public void setContents(java.io.File tempFile)
 ```
+
 Sets the contents of the temporary file to an existing file. The actual file is not modified until the `writeFile()` method is issued.
  
 The specified file is placed into a new `ManagedFileHandle`.
@@ -371,6 +393,7 @@ public void setContents(java.io.File tempFile,
                         java.lang.String mimeType,
                         java.nio.charset.Charset encoding)
 ```
+
 Sets the contents of the temporary file to an existing file. The actual file is not modified until the `writeFile()` method is issued.
  
 The specified file is placed into a new`ManagedFileHandle`.
@@ -391,6 +414,7 @@ public void setContents(com.phoenix_int.util.ManagedFileHandle tempFile,
                         java.lang.String mimeType,
                         java.nio.charset.Charset encoding)
 ```
+
 Sets the contents of the temporary file to an existing ManagedFileHandle. The actual file is not modified until the `writeFile()` method is issued.
  
 A new reference to the specified `ManagedFileHandle` is created. The reference is released when the instance is closed, `deleteContents()` is called, or the contents are replaced by another `setContents(java.lang.String)` overload.
@@ -406,6 +430,7 @@ A new reference to the specified `ManagedFileHandle` is created. The reference i
 ```java
 public java.nio.charset.Charset getEncoding()
 ```
+
 Get the encoding of the contents. This function may return null if the encoding of the contents is unknown, or if the contents are binary and not text-based.
 
 **Returns:**
@@ -417,6 +442,7 @@ Get the encoding of the contents. This function may return null if the encoding 
 public java.lang.String getContents()
                              throws java.io.IOException
 ```
+
 Retrieves the contents of the temporary file. If `_needRead` is `true`, this will load the contents from the actual file into the temporary file.
 
 **Returns:**
@@ -431,6 +457,7 @@ Retrieves the contents of the temporary file. If `_needRead` is `true`, this wil
 public java.io.File getTemporaryFile()
                               throws java.io.IOException
 ```
+
 Get the current temporary file; if `_needRead` is `true` this will load the contents from the actual file into the temporary.
 
 **Returns:**
@@ -444,6 +471,7 @@ Get the current temporary file; if `_needRead` is `true` this will load the cont
 ```java
 public com.phoenix_int.util.ManagedFileHandle getTemporaryFileHandle()
 ```
+
 Get an additional reference to the temporary file containing the current value, or null if there is no temp file currently. Note that, according to the convention for `ManagedFileHandle`, the caller receives the results of `ManagedFileHandle.createNewReference()`, and is responsible for calling `ManagedFileHandle.close()`.
 
 **Returns:**
@@ -455,6 +483,7 @@ Get an additional reference to the temporary file containing the current value, 
 public void fromFile(java.lang.String filename)
               throws java.io.IOException
 ```
+
 Sets the filename and then loads the contents of the actual file on disk into the temporary file.  It is preferred that you use `setName()` when you create a PHXRawFile and then use `readFile()` without passing a filename to it.  This allows progress monitoring to work correctly in all cases.
 
 The handle to the previous contents is released, potentially deleting it if no other references are being held. Because the contents are reset, you may need to call `unmanageTempFile()` again.
@@ -468,6 +497,7 @@ The handle to the previous contents is released, potentially deleting it if no o
 public void readFile(java.lang.String filename)
               throws java.io.IOException
 ```
+
 Sets the filename and then loads the contents of the actual file on disk into the temporary file. It is preferred that you use `setName()` when you create a PHXRawFile and then use `readFile()` without passing a filename to it. This allows progress monitoring to work correctly in all cases.
 
 The handle to the previous contents is released, potentially deleting it if no other references are being held. Because the contents are reset, you may need to call `unmanageTempFile()` again.
@@ -481,6 +511,7 @@ The handle to the previous contents is released, potentially deleting it if no o
 public void fromFile()
               throws java.io.IOException
 ```
+
 Loads the contents of the actual file on disk into the temporary file. Functionally equivalent to `readFile()`.
  
 The handle to the previous contents is released, potentially deleting it if no other references are being held. Because the contents are reset, you may need to call `unmanageTempFile()` again.
@@ -494,6 +525,7 @@ The handle to the previous contents is released, potentially deleting it if no o
 public void readFile(boolean useDFT)
               throws java.io.IOException
 ```
+
 Loads the contents of the actual file on disk into the temporary file.
 
 **Parameters:**
@@ -510,6 +542,7 @@ If the file is read, the handle to the previous contents is released, potentiall
 public void deleteFile(java.lang.String fileName)
                 throws java.io.IOException
 ```
+
 Deletes the actual file from disk. Does not affect the temporary file.
 
 **Parameters:**
@@ -523,6 +556,7 @@ Deletes the actual file from disk. Does not affect the temporary file.
 ```java
 public void deleteFile()
 ```
+
 Deletes the actual file from disk. Does not affect the temporary file.
 
 ### deleteContents
@@ -530,6 +564,7 @@ Deletes the actual file from disk. Does not affect the temporary file.
 ```java
 public void deleteContents()
 ```
+
 Releases the handle to the temporary file. This may delete the file if nobody else is holding a `ManagedFileHandle`.
 
 ### backupFile
@@ -538,6 +573,7 @@ Releases the handle to the temporary file. This may delete the file if nobody el
 public void backupFile(java.lang.String fileName)
                 throws java.io.IOException
 ```
+
 Backup the actual file on disk.  File is at the same location with ".bac" appended to the end.  If a file by that name already exists, it is deleted prior to moving.
 
 **Parameters:**
@@ -551,6 +587,7 @@ Backup the actual file on disk.  File is at the same location with ".bac" append
 ```java
 public void backupFile()
 ```
+
 Backup the actual file on disk.  File is at the same location with ".bac" appended to the end.  If a file by that name already exists, it is deleted prior to moving.
 
 ### readFile
@@ -559,6 +596,7 @@ Backup the actual file on disk.  File is at the same location with ".bac" append
 public void readFile()
               throws java.io.IOException
 ```
+
 Loads the contents of the actual file on disk into the temporary file.
  
 If the file is read, the handle to the previous contents is released, potentially deleting it if no other references are being held. Because the contents are reset, you may need to call `unmanageTempFile()` again.
@@ -571,6 +609,7 @@ If the file is read, the handle to the previous contents is released, potentiall
 ```java
 public void markAsRead()
 ```
+
 Call this function after you manually get the contents of the actual file. The function records its name and timestamp for use with the `hasChanged()` function.
 
 ### hasChanged
@@ -578,6 +617,7 @@ Call this function after you manually get the contents of the actual file. The f
 ```java
 public boolean hasChanged()
 ```
+
 Checks to see if the actual file has changed since the last time `getContents()` was called.
 
 **Returns:**
@@ -589,6 +629,7 @@ Checks to see if the actual file has changed since the last time `getContents()`
 public void toFile(java.lang.String fileName)
             throws java.io.IOException
 ```
+
 Sets the filename and then writes from the temp file to the actual file. It is preferred that you use `setName()` when you create a PHXRawFile and then use `writeFile()` without passing a filename to it. This allows progress monitoring to work correctly in all cases.
 
 **Throws:**
@@ -600,6 +641,7 @@ Sets the filename and then writes from the temp file to the actual file. It is p
 public void writeFile(java.lang.String fileName)
                throws java.io.IOException
 ```
+
 Sets the filename and then writes from the temp file to the actual file.  It is preferred that you use `setName()` when you create a PHXRawFile and then use `writeFile()` without passing a filename to it.  This allows progress monitoring to work correctly in all cases.
 
 **Throws:**
@@ -611,6 +653,7 @@ Sets the filename and then writes from the temp file to the actual file.  It is 
 public void toFile()
             throws java.io.IOException
 ```
+
 Writes from the temp file to the actual file.
 
 **Throws:**
@@ -622,6 +665,7 @@ Writes from the temp file to the actual file.
 public void writeFile()
                throws java.io.IOException
 ```
+
 Writes from the temp file to the actual file.
 
 **Throws:**
@@ -633,6 +677,7 @@ Writes from the temp file to the actual file.
 public long getValueStreamLen()
                        throws java.io.IOException
 ```
+
 Gets the length of a stream to the temporary file contents.
 
 **Returns:**
@@ -646,8 +691,9 @@ Gets the length of a stream to the temporary file contents.
 ```java
 @Deprecated
 public java.io.InputStream getValueStream()
-                                                throws java.io.IOException
+                                   throws java.io.IOException
 ```
+
 **Deprecated.** using `toString2().getInputStream()` is prefered. 
 
 Gets an `InputStream` to the working contents of the file. Reads the contents from the actual file into the temp file if necessary.
@@ -664,13 +710,14 @@ Gets an `InputStream` to the working contents of the file. Reads the contents fr
 public PHXStringBuffer toString2()
                           throws java.io.IOException
 ```
-Gets a PHXStringBuffer representation of the contents of the temporary file.
+
+Gets a `PHXStringBuffer` representation of the contents of the temporary file.
 
 **Specified by:**
 - `toString2` in interface `IPHXType2`
 
 **Returns:**
-- PHXStringBuffer representation of the type
+- `PHXStringBuffer` representation of the type
 
 **Throws:**
 - `java.io.IOException`
@@ -682,6 +729,7 @@ public void fromString2(PHXStringBuffer newContents)
                  throws java.io.IOException,
                         PHXGetByUrlException
 ```
+
 Sets the file temporary file contents to the value of the PHXStringBuffer.
 
 **Specified by:**
@@ -698,9 +746,10 @@ Sets the file temporary file contents to the value of the PHXStringBuffer.
 
 ```java
 public <EX extends java.lang.Throwable> java.util.Map<java.lang.String,java.lang.String> toAPIObject(com.phoenix_int.functional.FunctionThrows<PHXRawFile,java.lang.String,EX> fileStore)
-                                                                                              throws EX extends java.lang.Throwable,
-                                                                                                     java.io.IOException
+                            throws EX extends java.lang.Throwable,
+                                   java.io.IOException
 ```
+
 Convert this instance to a string-string map appropriate for serialization.
 
 **Type Parameters:**
@@ -724,6 +773,7 @@ public <EX extends java.lang.Throwable> void fromAPIObject(java.util.Map<java
                                                            com.phoenix_int.functional.FunctionThrows<java.lang.String,com.phoenix_int.util.ManagedFileHandle,EX> fileStore)
                                                     throws EX extends java.lang.Throwable
 ```
+
 Populate this instance from a string-string map.
 
 **Type Parameters:**
@@ -742,6 +792,7 @@ Populate this instance from a string-string map.
 ```java
 public java.lang.String toString()
 ```
+
 converts the variable to a string
 
 **Specified by:**
@@ -758,6 +809,7 @@ converts the variable to a string
 ```java
 public void fromString(java.lang.String value)
 ```
+
 Sets the file temporary file contents to the value of the string.
 
 **Specified by:**
@@ -778,7 +830,8 @@ public void setMetaData(PHXRawFile metaData)
 protected void finalize()
                  throws java.lang.Throwable
 ```
-Although close should be called manually before garbage collection, do so here as a backup. Note that Java makes no guarantee that any object is ever actually garbage collected; if the JVM exits without running GC and picking up this object, the finalizer will never be called. We cannot rely on Java GC as a defense against leaking PHXRawFile objects.
+
+Although `close` should be called manually before garbage collection, do so here as a backup. Note that Java makes no guarantee that any object is ever actually garbage collected; if the JVM exits without running GC and picking up this object, the finalizer will never be called. We cannot rely on Java GC as a defense against leaking PHXRawFile objects.
 
 **Overrides:**
 - `finalize` in class `java.lang.Object`
@@ -791,6 +844,7 @@ Although close should be called manually before garbage collection, do so here a
 ```java
 public boolean equalsNatural(PHXSimpleType toCompare)
 ```
+
 Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is different than `Comparable` in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets, and may behave oddly if put in those circumstances.
 
 **Specified by:**
@@ -808,6 +862,7 @@ Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is 
 public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
+
 Load the value of this object from the specified object. This will read the object and attempt to convert it if it is a known type. If the type isn't recognized, it will throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md). If there is an error in conversion, it will also throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md)
 
 NOTE: while it might be logical to think you can create a `PHX(Type)Array` from, say, an array of `java.lang.(Type)`, that is not currently supported. You MUST use the PHX string array formatting style.
@@ -832,6 +887,7 @@ protected final void _setContentFromOther(PHXRawFile variable)
 ```java
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
+
 Accept a Visitor.
 
 **Specified by:**
@@ -861,6 +917,7 @@ public void close()
 ```java
 public PHXRawFile createCopy()
 ```
+
 Create a copy of this instance, including the value and metadata.
 
 **Specified by:**

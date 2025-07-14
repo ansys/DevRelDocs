@@ -90,10 +90,11 @@ public PHXObjectArray(java.lang.Object data)
 ```java
 public PHXObjectArray(PHXObjectArray other)
 ```
+
 Clone another PHXObjectArray's value and metadata.
 
 **Parameters:**
-- `other`- the other PHXObjectArray to clone.
+- `other` - the other PHXObjectArray to clone.
 
 ## Method Detail
 
@@ -102,6 +103,7 @@ Clone another PHXObjectArray's value and metadata.
 ```java
 protected boolean dataTypeOK(java.lang.Class c)
 ```
+
 Description copied from class: `PHXSimpleArray`. Must override this function and return true if the specified class is acceptable as an array element component type.
 
 **Specified by:**
@@ -114,6 +116,7 @@ protected java.lang.Object allocateElement(java.lang.Class elementClass)
                                     throws java.lang.IllegalAccessException,
                                            java.lang.InstantiationException
 ```
+
 Description copied from class: `PHXSimpleArray`. Allocates a single element in a default state. If the class type in question has a default constructor, there is no need to override this.
 
 **Overrides:**
@@ -128,6 +131,7 @@ Description copied from class: `PHXSimpleArray`. Allocates a single element in a
 ```java
 protected java.lang.Object elementFromString(java.lang.String val)
 ```
+
 Description copied from class: `PHXSimpleArray`. Sub-classes must provide an implementation of this function which converts a string form of a single element to Object form. This is only used when the element type does not implement [IPHXType](IPHXType.md) or [IPHXType2](IPHXType2).  For primitives, return the wrapper objects.
 
 **Specified by:**
@@ -139,6 +143,7 @@ Description copied from class: `PHXSimpleArray`. Sub-classes must provide an imp
 public boolean equalsNatural(PHXSimpleType toCompare)
                       throws PHXTypeMismatchException
 ```
+
 Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is different than `Comparable` in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets, and may behave oddly if put in those circumstances.
  
  Array comparison is handled as follows: 
@@ -153,13 +158,13 @@ Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is 
 - `equalsNatural` in class `PHXSimpleArray`
 
 **Parameters:**
-- `toCompare`-
+- `toCompare` -
 
 **Returns:**
 - a negative number if this object is less than toCompare, a positive number if this object is greater than to compare, and zero if these two objects are equal.
 
 **Throws:**
-- `PHXTypeMismatchException`- if the given PHXSimpleType cannot be compared with this object.
+- `PHXTypeMismatchException` - if the given PHXSimpleType cannot be compared with this object.
 
 ### fromObject
 
@@ -167,6 +172,7 @@ Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is 
 public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
+
 Load the value of this object from the specified object. This will read the object and attempt to convert it if it is a known type. If the type isn't recognized, it will throw a [PHXInvalidTypeException](PHXInvalidTypeException.md). If there is an error in conversion, it will also throw a [PHXInvalidTypeException](PHXInvalidTypeException.md)
 
 NOTE: while it might be logical to think you can create a `PHX(Type)Array` from, say, an array of `java.lang.(Type)`, that is not currently supported. You MUST use the PHX string array formatting style.
@@ -175,7 +181,7 @@ NOTE: while it might be logical to think you can create a `PHX(Type)Array` from,
 - `fromObject` in class `PHXSimpleType`
 
 **Parameters:**
-- `toRead`- to object from which to load this objects value.
+- `toRead` - to object from which to load this objects value.
 
 **Throws:**
 - [`PHXInvalidTypeException`](PHXInvalidTypeException.md)- if the specified object is of an invalid type or there is an error in conversion.
@@ -185,13 +191,14 @@ NOTE: while it might be logical to think you can create a `PHX(Type)Array` from,
 ```java
 public PHXSimpleType getValue(int[] index)
 ```
+
 Gets the value of an element as an object of the appropriate subtype. Must be overridden in subclasses
 
 **Specified by:**
 - `getValue` in class `PHXSimpleArray`
 
 **Parameters:**
-- `index`- nD array index
+- `index` - nD array index
 
 **Returns:**
 - referenced array value
@@ -202,27 +209,29 @@ Gets the value of an element as an object of the appropriate subtype. Must be ov
 public void setValue(int[] index,
                      PHXSimpleType val)
 ```
+
 Sets an element as an object of the appropriate [PHXSimpleType](PHXSimpleType.md). Must be overridden in subclasses
 
 **Specified by:**
 - `setValue` in class `PHXSimpleArray`
 
 **Parameters:**
-- `index`- nD array index
-: `val`- value to set
+- `index` - nD array index
+: `val` - value to set
 
 ### Accept
 
 ```java
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
+
 Accept a Visitor.
 
 **Type Parameters:**
-- `T`- Type of the result of the visit.
+- `T` - Type of the result of the visit.
 
 **Parameters:**
-- `visitor`- The visitor to accept.
+- `visitor` - The visitor to accept.
 
 **Returns:**
 - The results of the visit.
@@ -232,6 +241,7 @@ Accept a Visitor.
 ```java
 public PHXObjectArray createCopy()
 ```
+
 Create a copy of this instance, including the value and metadata.
 
 **Specified by:**

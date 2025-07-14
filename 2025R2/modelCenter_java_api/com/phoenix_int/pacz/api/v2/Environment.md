@@ -4,7 +4,7 @@
 
 **Class Hierarchy**
 
-```
+```java
 ↳ java.lang.Object
   ↳ java.util.AbstractMap<K,V>
     ↳ java.util.HashMap<java.lang.String,java.lang.String>
@@ -31,10 +31,10 @@ Environment variables for component configuration
 ## Nested Class Summary
 
 ### Nested classes/interfaces inherited from class java.util.AbstractMap
-`java.util.AbstractMap.SimpleEntry<K,V>`, `java.util.AbstractMap.SimpleImmutableEntry<K,V>`
+```java.util.AbstractMap.SimpleEntry<K,V>`, `java.util.AbstractMap.SimpleImmutableEntry<K,V>`
 
 ### Nested classes/interfaces inherited from interface java.util.Map
-`java.util.Map.Entry<K,V>`
+```java.util.Map.Entry<K,V>`
 
 ## Field Summary
 
@@ -75,6 +75,7 @@ Environment variables for component configuration
 ```java
 public static final java.lang.String COMPONENT_DIR
 ```
+
 Pre-defined component directory environment variable
 
 **See Also:**
@@ -87,6 +88,7 @@ Pre-defined component directory environment variable
 ```java
 public Environment()
 ```
+
 Constructor
 
 ### Environment
@@ -94,6 +96,7 @@ Constructor
 ```java
 public Environment(java.util.Map<java.lang.String,java.lang.String> dictionary)
 ```
+
 Copy constructor
 
 **Parameters:**
@@ -106,6 +109,7 @@ Copy constructor
 ```java
 public java.lang.String evaluateString(java.lang.String str)
 ```
+
 Substitute environment variables in specified string with corresponding environment values
 
 **Parameters:**
@@ -119,6 +123,7 @@ Substitute environment variables in specified string with corresponding environm
 ```java
 public java.lang.String evaluateKey(java.lang.String key)
 ```
+
 Get the value for the specified environment variable
 
 **Parameters:**

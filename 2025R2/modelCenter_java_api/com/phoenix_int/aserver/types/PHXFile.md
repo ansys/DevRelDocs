@@ -79,14 +79,16 @@ Internal data type used for certain types of files. End users should use [PHXRaw
 ```java
 public PHXFile()
 ```
-Deprecated.
+
+**Deprecated.**
 
 ### PHXFile
 
 ```java
 public PHXFile(java.lang.String fileName)
 ```
-Deprecated.
+
+**Deprecated.**
 
 ### PHXFile
 
@@ -94,7 +96,8 @@ Deprecated.
 public PHXFile(java.lang.String baseName,
                java.lang.String name)
 ```
-Deprecated.
+
+**Deprecated.**
 
 ### PHXFile
 
@@ -105,7 +108,7 @@ public PHXFile(PHXFile other)
 **Parameters:**
 - `other` - the other PHXFile to clone.
 
-Deprecated. Clone another PHXFile's value and metadata.
+**Deprecated.** Clone another PHXFile's value and metadata.
 
 ## Method Detail
 
@@ -115,7 +118,7 @@ Deprecated. Clone another PHXFile's value and metadata.
 public java.lang.String getName()
 ```
 
-Deprecated. Retrieves the name of the file.
+**Deprecated.** Retrieves the name of the file.
 
 **Returns:**
 - the name of the file
@@ -126,7 +129,7 @@ Deprecated. Retrieves the name of the file.
 public java.lang.String getNameCoded()
 ```
 
-Deprecated. Retrieves the name of the file in coded form (without `$variables` replaced).
+**Deprecated.** Retrieves the name of the file in coded form (without `$variables` replaced).
 
 **Returns:**
 - the name of the file in coded form
@@ -140,7 +143,7 @@ public void setName(java.lang.String v)
 **Parameters:**
 - `v` - the name
 
-Deprecated. Sets the name of the file.
+**Deprecated.** Sets the name of the file.
 
 ### setBaseName
 
@@ -151,7 +154,7 @@ public void setBaseName(java.lang.String v)
 **Parameters:**
 - `v` - the name
 
-Deprecated. Sets the base name of the file.
+**Deprecated.** Sets the base name of the file.
 
 ### setStringReplacer
 
@@ -162,7 +165,7 @@ public void setStringReplacer(PHXStringReplacer r)
 **Parameters:**
 - `r` - the string replacer object
 
-Deprecated. Specifies a `PHXStringReplacer` object for use in forming the full file name.
+**Deprecated.** Specifies a `PHXStringReplacer` object for use in forming the full file name.
 
 ### getContents
 
@@ -171,7 +174,7 @@ public java.lang.String getContents()
                              throws java.io.IOException
 ```
 
-Deprecated. Retrieves the contents of the file.
+**Deprecated.** Retrieves the contents of the file.
 
 **Returns:**
 - the contents of the file
@@ -185,7 +188,7 @@ Deprecated. Retrieves the contents of the file.
 public void markAsRead()
 ```
 
-Deprecated. Call this function after you manually get the contents of the file. The function records its name and timestamp for use with the `hasChanged()` function.
+**Deprecated.** Call this function after you manually get the contents of the file. The function records its name and timestamp for use with the `hasChanged()` function.
 
 ### hasChanged
 
@@ -193,7 +196,7 @@ Deprecated. Call this function after you manually get the contents of the file. 
 public boolean hasChanged()
 ```
 
-Deprecated. Checks to see if the file has changed since the last time `getContents()` was called.
+**Deprecated.** Checks to see if the file has changed since the last time `getContents()` was called.
 
 **Returns:**
 - `true` if the timestamp of the file is new, or if the file name has changed
@@ -204,7 +207,7 @@ Deprecated. Checks to see if the file has changed since the last time `getConten
 public PHXStringBuffer toString2()
 ```
 
-Deprecated. Converts the variable to a string.
+**Deprecated.** Converts the variable to a string.
 
 **Returns:**
 - a PHXStringBuffer representation of the variable
@@ -215,7 +218,7 @@ Deprecated. Converts the variable to a string.
 public java.lang.String toString()
 ```
 
-Deprecated. Converts the variable to a string.
+**Deprecated.** Converts the variable to a string.
 
 **Specified by:**
 - `toString` in interface [IPHXType](IPHXType.md)
@@ -235,7 +238,7 @@ public void fromString2(PHXStringBuffer value)
 **Parameters:**
 - `value` - the value to convert
 
-Deprecated. Converts a PHXStringBuffer representation to the internal value.
+**Deprecated.** Converts a PHXStringBuffer representation to the internal value.
 
 ### fromString
 
@@ -246,7 +249,7 @@ public void fromString(java.lang.String value)
 **Parameters:**
 - `value` - the value to convert
 
-Deprecated. Converts a String representation to the internal value.
+**Deprecated.** Converts a String representation to the internal value.
 
 ### equalsNatural
 
@@ -255,7 +258,7 @@ public boolean equalsNatural(PHXSimpleType toCompare)
                       throws PHXTypeMismatchException
 ```
 
-Deprecated. Compare this [PHXSimpleType](PHXSimpleType.md) to another [PHXSimpleType](PHXSimpleType.md). This type of comparison is different than `Comparable` in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets, and may behave oddly if put in those circumstances.
+**Deprecated.** Compare this [PHXSimpleType](PHXSimpleType.md) to another [PHXSimpleType](PHXSimpleType.md). This type of comparison is different than `Comparable` in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets, and may behave oddly if put in those circumstances.
 
 **Specified by:**
 - `equalsNatural` in class [PHXSimpleType](PHXSimpleType.md)
@@ -276,7 +279,7 @@ public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
 
-Deprecated. Load the value of this object from the specified object. This will read the object and attempt to convert it if it is a known type. If the type isn't recognized, it will throw a [PHXInvalidTypeException](PHXInvalidTypeException.md). If there is an error in conversion, it will also throw a [PHXInvalidTypeException](PHXInvalidTypeException.md).
+**Deprecated.** Load the value of this object from the specified object. This will read the object and attempt to convert it if it is a known type. If the type isn't recognized, it will throw a [PHXInvalidTypeException](PHXInvalidTypeException.md). If there is an error in conversion, it will also throw a [PHXInvalidTypeException](PHXInvalidTypeException.md).
 
 NOTE: while it might be logical to think you can create a `PHX(Type)Array` from, say, an array of `java.lang.(Type)`, that is not currently supported. You MUST use the PHX string array formatting style.
 
@@ -295,7 +298,7 @@ NOTE: while it might be logical to think you can create a `PHX(Type)Array` from,
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
 
-Deprecated. Accept a Visitor.
+**Deprecated.** Accept a Visitor.
 
 **Type Parameters:**
 - `T` - Type of the result of the visit.
@@ -312,7 +315,7 @@ Deprecated. Accept a Visitor.
 public PHXFile createCopy()
 ```
 
-Deprecated. Description copied from class: [PHXSimpleType](PHXSimpleType.md). Create a copy of this instance, including the value and metadata.
+**Deprecated.** Description copied from class: [PHXSimpleType](PHXSimpleType.md). Create a copy of this instance, including the value and metadata.
 
 **Specified by:**
 - `createCopy` in class [PHXSimpleType](PHXSimpleType.md)

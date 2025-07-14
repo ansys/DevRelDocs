@@ -38,6 +38,7 @@ This interface extends [`IPHXSelfManager2`](IPHXSelfManager2.md) and provides a 
 PHXInvokeReturn invoke2(java.lang.String methodName)
                  throws java.lang.Exception
 ```
+
 Invokes the named method.
 
 **Parameters:**

@@ -60,6 +60,7 @@ This class is not designed to be re-used after ending the current monitor.
 public PHXFileMonitor(java.lang.String monitor, 
                       IPHXFileCallback callback)
 ```
+
 Create a monitor
 
 **Parameters:**
@@ -81,6 +82,7 @@ public PHXFileMonitor(PHXRawFile monitor,
 public void setPollDelay(long pd)
                   throws java.lang.IllegalArgumentException
 ```
+
 Poll Delay is how long to sleep in milliseconds between polling the file for more data. 1 second by default and cannot be set to under 0.5 seconds.
 
 **Throws:**
@@ -97,6 +99,7 @@ public long getPollDelay()
 ```java
 public void endMonitor()
 ```
+
 Signals this monitor to stop monitoring and return as soon as possible.
 
 ### waitForMonitorDeath
@@ -110,6 +113,7 @@ public void waitForMonitorDeath()
 ```java
 public void signalFileChange()
 ```
+
 Tells the thread to stop monitoring but to send an error to the client saying that the file has been changed.
 
 This class WAITS for the monitor to stop monitoring on the sub-thread before it returns.
@@ -120,6 +124,7 @@ This class WAITS for the monitor to stop monitoring on the sub-thread before it 
 public void doMonitor()
                throws java.io.IOException
 ```
+
 Begin monitoring. Does not return until the monitor is halted.
 
 **Throws:**

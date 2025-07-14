@@ -36,6 +36,7 @@ java.lang.String getValue(java.lang.String name)
                    throws PHXNoSuchObjectException, 
                           java.lang.Exception
 ```
+
 Function for retrieving a specified value.
 
 **Parameters:**
@@ -56,6 +57,7 @@ void setValue(java.lang.String name,
               PHXNoSuchWriteableObjectException, 
               java.lang.Exception
 ```
+
 Function for setting a specified value.
 
 **Parameters:**
@@ -73,6 +75,7 @@ PHXPropertyDescriptor[] getPropertyDescriptors(java.lang.String name)
                                         throws PHXNoSuchObjectException, 
                                                java.lang.Exception
 ```
+
 Function for retrieving the properties of an object.
 
 **Parameters:**
@@ -88,8 +91,9 @@ Function for retrieving the properties of an object.
 ### getMethodDescriptors
 ```java
 PHXMethodDescriptor[] getMethodDescriptors()
-    throws java.lang.Exception
+                                    throws java.lang.Exception
 ```
+
 Function for retrieving the methods of an object.
 
 **Returns:**
@@ -103,6 +107,7 @@ Function for retrieving the methods of an object.
 java.lang.String invoke(java.lang.String methodName)
                  throws java.lang.Exception
 ```
+
 Invokes the named method.
 
 **Parameters:**

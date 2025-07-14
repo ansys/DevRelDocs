@@ -20,6 +20,7 @@
 public class PHXRawFileArray
 extends PHXSimpleArray
 ```
+
 Wraps an array of [PHXRawFile](PHXRawFile.md) variables for the ScriptWrapper utility.
 
 
@@ -94,8 +95,7 @@ Wraps an array of [PHXRawFile](PHXRawFile.md) variables for the ScriptWrapper ut
 | `void` | `setFileExtension(int[] index, java.lang.String extension)`<br>Sets the extension of the file for an element of an array |
 | `void` | `setFileExtension(int index, java.lang.String extension)`<br>Sets the extension of the file for an element of an 1D array |
 | `void` | `setIsBinary(boolean value)`<br>Forces elements of this array to be binary or not. |
-| `void` | `setMimeType(java.lang.String value)`<br>Set mime type the array. Currently all elements of an array should have
- the same mime type. |
+| `void` | `setMimeType(java.lang.String value)`<br>Set mime type the array. Currently all elements of an array should have the same mime type. |
 | `void` | `setName(int[] index, java.lang.String name)`<br>sets the name of the file for an element of an array |
 | `void` | `setName(int index, java.lang.String name)`<br>sets the name of the file for an element of an 1D array |
 | `void` | `setValue(int[] index,PHXRawFileval)`<br>a utility function to set the internal PHXRawFile that represents the array element for the array. |
@@ -141,11 +141,12 @@ public PHXRawFileArray(java.lang.Object data)
 ```java
 public PHXRawFileArray(PHXRawFileArray other)
 ```
+
 Clone another PHXRawFileArray's value and metadata.
 
 **Parameters:**
-- `other`- the other PHXRawFileArray to clone.
-============ METHOD DETAIL ==========
+- `other` - the other PHXRawFileArray to clone.
+
 ### Method Detail
 
 ### getName
@@ -153,10 +154,11 @@ Clone another PHXRawFileArray's value and metadata.
 ```java
 public java.lang.String getName(int index)
 ```
-retrieves the name of the file for an element of an 1D array
+
+Retrieves the name of the file for an element of an 1D array
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Returns:**
 - the name of the file
@@ -166,10 +168,11 @@ retrieves the name of the file for an element of an 1D array
 ```java
 public java.lang.String getName(int[] index)
 ```
-retrieves the name of the file for an element of an array
+
+Retrieves the name of the file for an element of an array
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Returns:**
 - the name of the file
@@ -179,10 +182,11 @@ retrieves the name of the file for an element of an array
 ```java
 public java.lang.String getNameCoded(int index)
 ```
-retrieves the name of the file in coded form (without `$variables` replaced) for an element of an 1D array
+
+Retrieves the name of the file in coded form (without `$variables` replaced) for an element of an 1D array
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Returns:**
 - the name of the file in coded form
@@ -192,10 +196,11 @@ retrieves the name of the file in coded form (without `$variables` replaced) for
 ```java
 public java.lang.String getNameCoded(int[] index)
 ```
-retrieves the name of the file in coded form (without `$variables` replaced) for an element of an array
+
+Retrieves the name of the file in coded form (without `$variables` replaced) for an element of an array
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Returns:**
 - the name of the file in coded form
@@ -205,10 +210,11 @@ retrieves the name of the file in coded form (without `$variables` replaced) for
 ```java
 public java.lang.String getFileExtension(int index)
 ```
+
 Returns the extension of the file for an element of an 1D array
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Returns:**
 - extension
@@ -218,10 +224,11 @@ Returns the extension of the file for an element of an 1D array
 ```java
 public java.lang.String getFileExtension(int[] index)
 ```
+
 Returns the extension of the file for an element of an array
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Returns:**
 - extension
@@ -233,13 +240,14 @@ public void setFileExtension(int index,
                              java.lang.String extension)
                       throws java.io.IOException
 ```
+
 Sets the extension of the file for an element of an 1D array. 
 
 It is preferred that you use `setName()` and let the system automatically figure out the extension based on what you pass in.  Then, you can use `readFile()` and `writeFile()` without passing filenames to those calls.  This allows for progress monitoring to work correctly in all cases.
 
 **Parameters:**
-- `index`- array index
-- `extension`- file extension
+- `index` - array index
+- `extension` - file extension
 
 **Throws:**
 - `java.io.IOException`
@@ -251,13 +259,14 @@ public void setFileExtension(int[] index,
                              java.lang.String extension)
                       throws java.io.IOException
 ```
+
 Sets the extension of the file for an element of an array
 
 It is preferred that you use `setName()` and let the system automatically figure out the extension based on what you pass in.  Then, you can use `readFile()` and `writeFile()` without passing filenames to those calls.  This allows for progress monitoring to work correctly in all cases.
 
 **Parameters:**
-- `index`- array index
-- `extension`- file extension
+- `index` - array index
+- `extension` - file extension
 
 **Throws:**
 - `java.io.IOException`
@@ -269,11 +278,12 @@ public void setName(int index,
                     java.lang.String name)
              throws java.io.IOException
 ```
-sets the name of the file for an element of an 1D array
+
+Sets the name of the file for an element of an 1D array
 
 **Parameters:**
-- `index`- array index
-- `name`- file name
+- `index` - array index
+- `name` - file name
 
 **Throws:**
 - `java.io.IOException`
@@ -285,11 +295,12 @@ public void setName(int[] index,
                     java.lang.String name)
              throws java.io.IOException
 ```
-sets the name of the file for an element of an array
+
+Sets the name of the file for an element of an array
 
 **Parameters:**
-- `index`- array index
-- `name`- file name
+- `index` - array index
+- `name` - file name
 
 **Throws:**
 - `java.io.IOException`
@@ -300,10 +311,11 @@ sets the name of the file for an element of an array
 public void setBaseName(java.lang.String name)
                  throws java.io.IOException
 ```
-sets the base name of files for this array
+
+Sets the base name of files for this array
 
 **Parameters:**
-- `name`- base name
+- `name` - base name
 
 **Throws:**
 - `java.io.IOException`
@@ -313,7 +325,8 @@ sets the base name of files for this array
 ```java
 public java.lang.String getBaseName()
 ```
-gets the base name of the files stored in the array
+
+Gets the base name of the files stored in the array
 
 **Returns:**
 - the name
@@ -323,6 +336,7 @@ gets the base name of the files stored in the array
 ```java
 public boolean getIsBinary()
 ```
+
 Tells whether or not the array contains binary files or not.
 
 Simply switches on whether or not the mime type starts with text. Currently all elements of an array should have the same binaryness.
@@ -335,19 +349,21 @@ Simply switches on whether or not the mime type starts with text. Currently all 
 ```java
 public void setIsBinary(boolean value)
 ```
+
 Forces elements of this array to be binary or not.
 
 If this causes the mode to change, will set the mime type to `text/plain` or `application/octet-stream` as appropriate. Currently all elements of an array should have the same binaryness.
 
 **Parameters:**
-- `value`- the value to set
+- `value` - the value to set
 
 ### getMimeType
 
 ```java
 public java.lang.String getMimeType()
 ```
-get mime type of the files in the array
+
+Get mime type of the files in the array
  
 Currently all elements of an array should have the same mime type.
 
@@ -359,19 +375,21 @@ Currently all elements of an array should have the same mime type.
 ```java
 public void setMimeType(java.lang.String value)
 ```
+
 Set mime type the array
  
 Currently all elements of an array should have the same mime type.
 
 **Parameters:**
-- `value`- the mimeType mime type
+- `value` - the mimeType mime type
 
 ### getNames
 
 ```java
 public java.lang.String[] getNames()
 ```
-get file names of the elements as an array
+
+Get file names of the elements as an array
 
 **Returns:**
 - list of file names
@@ -381,7 +399,8 @@ get file names of the elements as an array
 ```java
 public java.lang.String getNamesString()
 ```
-get file names as a comma separated list
+
+Get file names as a comma separated list
 
 **Returns:**
 - list of file names
@@ -391,7 +410,8 @@ get file names as a comma separated list
 ```java
 public java.lang.String[] getNamesCoded()
 ```
-get coded file names of the elements as an array
+
+Get coded file names of the elements as an array
 
 **Returns:**
 - list of coded file names
@@ -401,7 +421,8 @@ get coded file names of the elements as an array
 ```java
 public java.lang.String getNamesCodedString()
 ```
-get coded file names of the elements as a comma separated string
+
+Get coded file names of the elements as a comma separated string
 
 **Returns:**
 - list of coded file names
@@ -411,7 +432,8 @@ get coded file names of the elements as a comma separated string
 ```java
 public java.lang.String[] getURLs()
 ```
-get URLs of the elements as an array
+
+Get URLs of the elements as an array
 
 **Returns:**
 - list of file URLs
@@ -421,7 +443,8 @@ get URLs of the elements as an array
 ```java
 public java.lang.String getURLsString()
 ```
-get URLs of the elements as a comma separated string
+
+Get URLs of the elements as a comma separated string
 
 **Returns:**
 - list of file URLs
@@ -433,15 +456,16 @@ public void setContents(int index,
                         java.lang.String contents)
                  throws java.io.IOException
 ```
-sets the contents of the file for an array element for an 1D array.
+
+Sets the contents of the file for an array element for an 1D array.
  
 The actual file is not modified until the `writeFile()` method is issued.
  
 Remember that when dealing with text files, `setContents` handles Java style strings, which must be in bare LF, or Unix style newline format. In binary format, `setContents` should be the base64 encoded data.
 
 **Parameters:**
-- `index`- array index
-- `contents`- the contents of the file
+- `index` - array index
+- `contents` - the contents of the file
 
 **Throws:**
 - `java.io.IOException`
@@ -453,15 +477,16 @@ public void setContents(int[] index,
                         java.lang.String contents)
                  throws java.io.IOException
 ```
-sets the contents of the file for an array element for an array.
+
+Sets the contents of the file for an array element for an array.
  
 The actual file is not modified until the `writeFile()` method is issued.
  
 Remember that when dealing with text files, `setContents` handles Java style strings, which must be in bare LF, or Unix style newline format. In binary format, `setContents` should be the base64 encoded data.
 
 **Parameters:**
-- `index`- array index
-- `contents`- the contents of the file
+- `index` - array index
+- `contents` - the contents of the file
 
 **Throws:**
 - `java.io.IOException`
@@ -472,10 +497,11 @@ Remember that when dealing with text files, `setContents` handles Java style str
 public java.lang.String getContents(int index)
                              throws java.lang.Exception
 ```
-retrieves the contents of the file for an element of an 1D array
+
+Retrieves the contents of the file for an element of an 1D array
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Returns:**
 - the contents of the file
@@ -489,10 +515,11 @@ retrieves the contents of the file for an element of an 1D array
 public java.lang.String getContents(int[] index)
                              throws java.io.IOException
 ```
-retrieves the contents of the file for an element of an array
+
+Retrieves the contents of the file for an element of an array
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Returns:**
 - the contents of the file
@@ -506,13 +533,14 @@ retrieves the contents of the file for an element of an array
 public void fromFile(int index)
               throws java.io.IOException
 ```
-loads the file from disk for an element of an 1D array.
+
+Loads the file from disk for an element of an 1D array.
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Throws:**
-- `java.io.IOException`- thrown if the file can't be loaded.
+- `java.io.IOException` - thrown if the file can't be loaded.
 
 ### fromFile
 
@@ -520,13 +548,14 @@ loads the file from disk for an element of an 1D array.
 public void fromFile(int[] index)
               throws java.io.IOException
 ```
-loads the file from disk for an element of an array.
+
+Loads the file from disk for an element of an array.
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Throws:**
-- `java.io.IOException`- thrown if the file can't be loaded.
+- `java.io.IOException` - thrown if the file can't be loaded.
 
 ### readFile
 
@@ -534,13 +563,14 @@ loads the file from disk for an element of an array.
 public void readFile(int index)
               throws java.io.IOException
 ```
-loads the file from disk for an element of an 1D array.
+
+Loads the file from disk for an element of an 1D array.
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Throws:**
-- `java.io.IOException`- thrown if the file can't be loaded.
+- `java.io.IOException` - thrown if the file can't be loaded.
 
 ### readFile
 
@@ -548,13 +578,14 @@ loads the file from disk for an element of an 1D array.
 public void readFile(int[] index)
               throws java.io.IOException
 ```
-loads the file from disk for an element of an array.
+
+Loads the file from disk for an element of an array.
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Throws:**
-- `java.io.IOException`- thrown if the file can't be loaded.
+- `java.io.IOException` - thrown if the file can't be loaded.
 
 ### fromFile
 
@@ -563,16 +594,17 @@ public void fromFile(int index,
                      java.lang.String fileName)
               throws java.io.IOException
 ```
+
 Sets the filename and then reads from disk for an element of an 1D array.
  
 It is preferred that you use `setName()` when you create a PHXRawFile and then use `readFile()` without passing a filename to it.  This allows progress monitoring to work correctly in all cases.
 
 **Parameters:**
-- `index`- array index
-- `fileName`- file name
+- `index` - array index
+- `fileName` - file name
 
 **Throws:**
-- `java.io.IOException`- thrown if the file can't be loaded.
+- `java.io.IOException` - thrown if the file can't be loaded.
 
 ### fromFile
 
@@ -581,50 +613,54 @@ public void fromFile(int[] index,
                      java.lang.String fileName)
               throws java.io.IOException
 ```
+
 Sets the filename and then reads from disk for an element of an array.
  
 It is preferred that you use `setName()` when you create a PHXRawFile and then use `readFile()` without passing a filename to it. This allows progress monitoring to work correctly in all cases.
 
 **Parameters:**
-- `index`- array index
-- `fileName`- file name
+- `index` - array index
+- `fileName` - file name
 
 **Throws:**
-- `java.io.IOException`- thrown if the file can't be loaded.
+- `java.io.IOException` - thrown if the file can't be loaded.
 
 ### markAsRead
 
 ```java
 public void markAsRead(int index)
 ```
-set `markAsRead` flag for an element for an 1D array
+
+Set `markAsRead` flag for an element for an 1D array
 
 call this function after you manually get the contents of the file. The function records its name and timestamp for use with the `hasChanged()` function
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 ### markAsRead
 
 ```java
 public void markAsRead(int[] index)
 ```
-set `markAsRead` flag for an element for an array
+
+Set `markAsRead` flag for an element for an array
  
 call this function after you manually get the contents of the file. The function records it's name and timestamp for use with the `hasChanged()` function
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 ### hasChanged
 
 ```java
 public boolean hasChanged(int index)
 ```
-checks to see if the file has changed since the last time `getContents()` was called for an element of an 1D array
+
+Checks to see if the file has changed since the last time `getContents()` was called for an element of an 1D array
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Returns:**
 - `true` if the timestamp of the file is new, or if the file name has changed
@@ -634,10 +670,11 @@ checks to see if the file has changed since the last time `getContents()` was ca
 ```java
 public boolean hasChanged(int[] index)
 ```
-checks to see if the file has changed since the last time `getContents()` was called for an element of an array
+
+Checks to see if the file has changed since the last time `getContents()` was called for an element of an array
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Returns:**
 - `true` if the timestamp of the file is new, or if the file name has changed
@@ -649,16 +686,17 @@ public void toFile(int index,
                    java.lang.String fileName)
             throws java.io.IOException
 ```
-sets the filename and then writes the file to disk for an element of an 1D array.  
+
+Sets the filename and then writes the file to disk for an element of an 1D array.  
 
 It is preferred that you use `setName()` when you create a PHXRawFile and then use `writeFile()` without passing a filename to it.  This allows progress monitoring to work correctly in all cases.
 
 **Parameters:**
-- `index`- array index
-- `fileName`- name of the file to write
+- `index` - array index
+- `fileName` - name of the file to write
 
 **Throws:**
-- `java.io.IOException`- thrown if the file can't be written.
+- `java.io.IOException` - thrown if the file can't be written.
 
 ### toFile
 
@@ -667,16 +705,17 @@ public void toFile(int[] index,
                    java.lang.String fileName)
             throws java.io.IOException
 ```
-sets the filename and then writes the file to disk for an element of an array.  
+
+Sets the filename and then writes the file to disk for an element of an array.  
 
 It is preferred that you use `setName()` when you create a PHXRawFile and then use `writeFile()` without passing a filename to it.  This allows progress monitoring to work correctly in all cases.
 
 **Parameters:**
-- `index`- array index
-- `fileName`- name of the file to write
+- `index` - array index
+- `fileName` - name of the file to write
 
 **Throws:**
-- `java.io.IOException`- thrown if the file can't be written.
+- `java.io.IOException` - thrown if the file can't be written.
 
 ### toFile
 
@@ -684,13 +723,14 @@ It is preferred that you use `setName()` when you create a PHXRawFile and then u
 public void toFile(int index)
             throws java.io.IOException
 ```
-writes the file to disk for an element of an 1D array
+
+Writes the file to disk for an element of an 1D array
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Throws:**
-- `java.io.IOException`- thrown if the file can't be written.
+- `java.io.IOException` - thrown if the file can't be written.
 
 ### toFile
 
@@ -698,26 +738,28 @@ writes the file to disk for an element of an 1D array
 public void toFile(int[] index)
             throws java.io.IOException
 ```
-writes the file to disk for an element of an array
+
+Writes the file to disk for an element of an array
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Throws:**
-- `java.io.IOException`- thrown if the file can't be written.
+- `java.io.IOException` - thrown if the file can't be written.
 
 ### toString
 
 ```java
 public java.lang.String toString(int index)
 ```
-converts an element of the 1D array to a string
+
+Converts an element of the 1D array to a string
 
 **Overrides:**
 - `toString` in class [`PHXSimpleArray`](PHXSimpleArray.md)
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Returns:**
 - a String representation of the variable
@@ -727,13 +769,14 @@ converts an element of the 1D array to a string
 ```java
 public java.lang.String toString(int[] index)
 ```
-converts an element of the array to a string
+
+Converts an element of the array to a string
 
 **Overrides:**
 - `toString` in class [`PHXSimpleArray`](PHXSimpleArray.md)
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Returns:**
 - a String representation of the variable
@@ -744,15 +787,16 @@ converts an element of the array to a string
 public void fromString(int index,
                        java.lang.String value)
 ```
-converts a String representation to the internal value
+
+Converts a String representation to the internal value
  for an element of an 1D array
 
 **Overrides:**
 - `fromString` in class [`PHXSimpleArray`](PHXSimpleArray.md)
 
 **Parameters:**
-- `index`- array index
-- `value`- the value to convert
+- `index` - array index
+- `value` - the value to convert
 
 ### fromString
 
@@ -760,27 +804,29 @@ converts a String representation to the internal value
 public void fromString(int[] index,
                        java.lang.String value)
 ```
-converts a String representation to the internal value for an element of an array
+
+Converts a String representation to the internal value for an element of an array
 
 **Overrides:**
 - `fromString` in class [`PHXSimpleArray`](PHXSimpleArray.md)
 
 **Parameters:**
-- `index`- array index
-- `value`- the value to convert
+- `index` - array index
+- `value` - the value to convert
 
 ### getValue
 
 ```java
 public PHXRawFile getValue(int index)
 ```
-a utility function to return the internal PHXRawFile that represents the array element for the 1D array.
+
+A utility function to return the internal PHXRawFile that represents the array element for the 1D array.
 
 **Overrides:**
 - `getValue` in class [`PHXSimpleArray`](PHXSimpleArray.md)
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Returns:**
 - array element
@@ -790,13 +836,14 @@ a utility function to return the internal PHXRawFile that represents the array e
 ```java
 public PHXRawFile getValue(int[] index)
 ```
-a utility function to return the internal PHXRawFile that represents the array element for the array.
+
+A utility function to return the internal PHXRawFile that represents the array element for the array.
 
 **Specified by:**
 - `getValue` in class [`PHXSimpleArray`](PHXSimpleArray.md)
 
 **Parameters:**
-- `index`- array index
+- `index` - array index
 
 **Returns:**
 - array element
@@ -807,11 +854,12 @@ a utility function to return the internal PHXRawFile that represents the array e
 public void setValue(int index,
                      PHXRawFile val)
 ```
-a utility function to set the internal PHXRawFile that represents the array element for the 1D array.
+
+A utility function to set the internal PHXRawFile that represents the array element for the 1D array.
 
 **Parameters:**
-- `index`- array index
-- `val`- array element to set
+- `index` - array index
+- `val` - array element to set
 
 ### setValue
 
@@ -819,11 +867,12 @@ a utility function to set the internal PHXRawFile that represents the array elem
 public void setValue(int[] index,
                      PHXRawFile val)
 ```
-a utility function to set the internal PHXRawFile that represents the array element for the array.
+
+A utility function to set the internal PHXRawFile that represents the array element for the array.
 
 **Parameters:**
-- `index`- array index
-- `val`- array element to set
+- `index` - array index
+- `val` - array element to set
 
 ### setValue
 
@@ -832,11 +881,12 @@ public void setValue(int index,
                      java.lang.String val)
               throws java.io.IOException
 ```
-a utility function to set the value of an array element for the 1D array. This is a synomym of `setContent()`.
+
+A utility function to set the value of an array element for the 1D array. This is a synomym of `setContent()`.
 
 **Parameters:**
-- `index`- array index
-- `val`- value to set
+- `index` - array index
+- `val` - value to set
 
 **Throws:**
 - `java.io.IOException`
@@ -848,11 +898,12 @@ public void setValue(int[] index,
                      java.lang.String val)
               throws java.io.IOException
 ```
-a utility function to set the value of an array element for the 1D array. This is a synomym of `setContent()`.
+
+A utility function to set the value of an array element for the 1D array. This is a synomym of `setContent()`.
 
 **Parameters:**
-- `index`- array index
-- `val`- value to set
+- `index` - array index
+- `val` - value to set
 
 **Throws:**
 - `java.io.IOException`
@@ -862,6 +913,7 @@ a utility function to set the value of an array element for the 1D array. This i
 ```java
 protected boolean dataTypeOK(java.lang.Class c)
 ```
+
 Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
 
 Must override this function and return true if the specified class is acceptable as an array element component type.
@@ -874,6 +926,7 @@ Must override this function and return true if the specified class is acceptable
 ```java
 protected java.lang.Object elementFromString(java.lang.String val)
 ```
+
 Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
 
 Sub-classes must provide an implementation of this function which converts a string form of a single element to Object form.  This is only used when the element type does not implement [`IPHXType`](IPHXType.md) or [`IPHXType2`](IPHXType2.md).  For primitives, return the wrapper objects.
@@ -886,6 +939,7 @@ Sub-classes must provide an implementation of this function which converts a str
 ```java
 protected void _getMetaData(PHXSimpleType v2)
 ```
+
 Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
 
 Worker which takes the meta data from an instance of [PHXSimpleType](PHXSimpleType.md) and sets it into our meta data.  Override this in order to add more custom meta data in sub-classes.  Be sure to call `super._getMetaData(PHXSimpleType)`, though!
@@ -898,6 +952,7 @@ Worker which takes the meta data from an instance of [PHXSimpleType](PHXSimpleTy
 ```java
 protected void _setMetaData(PHXSimpleType v2)
 ```
+
 Description copied from class: [`PHXSimpleArray`](PHXSimpleArray.md)
 
 Sets a simple type's meta data based on the meta data in this object.  Override this to set additional information in sub-classes.  Be sure to call `super._setMetaData(PHXSimpleType)`.
@@ -912,6 +967,7 @@ protected java.lang.Object allocateElement(java.lang.Class elementClass)
                                     throws java.lang.IllegalAccessException,
                                            java.lang.InstantiationException
 ```
+
 Allocates a single element in a default state.
  
 This overrides `allocateElement` to set the common metadata for the newly created element
@@ -929,6 +985,7 @@ This overrides `allocateElement` to set the common metadata for the newly create
 public boolean equalsNatural(PHXSimpleType toCompare)
                       throws PHXTypeMismatchException
 ```
+
 Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is different than `Comparable` in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets, and may behave oddly if put in those circumstances.
  
  Array comparison is handled as follows: 
@@ -943,7 +1000,7 @@ Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is 
 - `equalsNatural` in class [`PHXSimpleArray`](PHXSimpleArray.md)
 
 **Parameters:**
-- `toCompare`-
+- `toCompare` -
 
 **Returns:**
 - a negative number if this object is less than `toCompare`, a positive number if this object is greater than `toCompare`, and zero if these two objects are equal.
@@ -957,6 +1014,7 @@ Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is 
 public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
+
 Load the value of this object from the specified object. This will read the object and attempt to convert it if it is a known type. If the type isn't recognized, it will throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md). If there is an error in conversion, it will also throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md)
 
 NOTE: while it might be logical to think you can create a `PHX(Type)Array` from, say, an array of `java.lang.(Type)`, that is not currently supported. You MUST use the PHX string array formatting style.
@@ -965,10 +1023,10 @@ NOTE: while it might be logical to think you can create a `PHX(Type)Array` from,
 - `fromObject` in class `PHXSimpleType`
 
 **Parameters:**
-- `toRead`- to object from which to load this objects value.
+- `toRead` - to object from which to load this objects value.
 
 **Throws:**
-- `PHXInvalidTypeException`- if the specified object is of an invalid type or there is an error in conversion.
+- [`PHXInvalidTypeException`](PHXInvalidTypeException.md) - if the specified object is of an invalid type or there is an error in conversion.
 
 ### setValue
 
@@ -976,6 +1034,7 @@ NOTE: while it might be logical to think you can create a `PHX(Type)Array` from,
 public void setValue(int[] index,
                      PHXSimpleType val)
 ```
+
 Sets an element as an object of the appropriate [`PHXSimpleType `](PHXSimpleType.md)
 
 Must be overridden in subclasses
@@ -984,21 +1043,22 @@ Must be overridden in subclasses
 - `setValue` in class [`PHXSimpleArray`](PHXSimpleArray.md)
 
 **Parameters:**
-- `index`- nD array index
-- `val`- value to set
+- `index` - nD array index
+- `val` - value to set
 
 ### Accept
 
 ```java
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
+
 Accept a Visitor.
 
 **Type Parameters:**
-- `T`- Type of the result of the visit.
+- `T` - Type of the result of the visit.
 
 **Parameters:**
-- `visitor`- The visitor to accept.
+- `visitor` - The visitor to accept.
 
 **Returns:**
 - The results of the visit.
@@ -1008,6 +1068,7 @@ Accept a Visitor.
 ```java
 public PHXRawFileArray createCopy()
 ```
+
 Create a copy of this instance, including the value and metadata.
 
 **Specified by:**
