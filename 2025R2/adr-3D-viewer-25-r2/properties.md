@@ -2,14 +2,14 @@
 
 The web component element supports several properties:
 
-* __active__: If this is true, the 3D view will be active.  If false, the proxy image is displayed (if no proxy image is specified, a "blank" launch image will be presented). Note: The `active` property can be altered via the built-in getter/setter or via the native web API `.setAttribute('active', [true/false])`.
-* __aspect-ratio__: the viewer does not support explicit width/height specification and will be sized to fill the parent element with one exception.  If 'aspect-ratio' is set, the height will be the (dynamic) width divided by the aspect-ratio value.  If 'aspect-ratio' is set to the string 'proxy', the aspect ratio of the proxy image will be used. Note: The `aspect_ratio` property can be altered via the built-in getter/setter or via the native web API `.setAttribute('aspect_ratio', [aspect ratio number])`.
+* __active__: If this is true, the 3D view will be active.  If false, the proxy image is displayed (if no proxy image is specified, a "blank" launch image will be presented). <br> Note: The `active` property can be altered via the built-in getter/setter or via the native web API `.setAttribute('active', [true/false])`.
+* __aspect-ratio__: the viewer does not support explicit width/height specification and will be sized to fill the parent element with one exception.  If 'aspect-ratio' is set, the height will be the (dynamic) width divided by the aspect-ratio value.  If 'aspect-ratio' is set to the string 'proxy', the aspect ratio of the proxy image will be used. <br> Note: The `aspect_ratio` property can be altered via the built-in getter/setter or via the native web API `.setAttribute('aspect_ratio', [aspect ratio number])`.
 * __guid__: a string property that is a unique identifier for the component instance. This defaults to a pseudo-guid that is unique only vs other ansys-nexus-viewer components in the same web page. This property may be set when the element is instantiated but cannot be changed afterward.
 * __src__: A read/write property. URL to the source 3D geometry. Validity varies by renderer type.
   * a. The 'webgl' renderer supports: '.avz', '.dsco', '.scdoc', and '.scdocx' files.
   * b. The 'three' renderer supports '.glb' ,  '.obj' files.
   * c. The 'envnc' renderer supports '.evsn'.
-Note: The 'src' property can be altered via the built in getter/setter or via the native web API`.setAttribute('src', [src_path])`. The renderer would get changed dynamically based on the new file type.
+<br> Note: The 'src' property can be altered via the built in getter/setter or via the native web API`.setAttribute('src', [src_path])`. The renderer would get changed dynamically based on the new file type.
 * __src_ext__: In some situations, __src__ may be a data URI. In this situation, the component cannot determine the actual file format.  Setting this property to the 
   natural filename extension allows a data URI to be used with __src__.  For example: setting __src_ext='avz'__ will allow an AVZ data URI to be passed to __src__.
 * __proxy-img__: URL to a PNG image that should be used as the proxy image when the 3D component is not active.
