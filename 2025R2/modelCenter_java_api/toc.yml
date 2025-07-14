@@ -394,5 +394,5 @@
           href: com/phoenix_int/pacz/api/v2/IRuntimeVariable.md
         - name: RunFolderPreference
           href: com/phoenix_int/pacz/api/v2/RunFolderPreference.md
-- name: Changelog.md
+- name: Changelog
   href: Changelog.md
