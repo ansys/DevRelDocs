@@ -17,8 +17,8 @@ The web component element supports several properties:
 * __renderer_options__: a read-only property specified as a json string containing renderer specific options. Options are generally specific to a given renderer. Details may be found here [Renderer Options](#renderer-options).
 * __parts__: a read-only property that returns a list of the part names present in the instance.  This property will change when the __src__ changes and, depending on
 the nature of the geometry source may change organically.
-* __sceneNodeVisibilityMap__: A read property for "webgl" renderer, showing a map of all the available nodes in the current scene, their initial visibility and the latest visibility (1: show / 0: hide). The visibility would get changed via the view panel where users can check and uncheck the individual node's visibility.
-* __lastClickedSceneNode__: A read property for "webgl" renderer, showing the latest node interacted by the users in the current scene. It provides a map of relevant information such as displayedValue (1:show / 0:hide), lastClickedID (The node's id), lastClickedName (The node name).
+* ___sceneNodeVisibilityMap__: A read property for "webgl" renderer, showing a map of all the available nodes in the current scene, their initial visibility and the latest visibility (1: show / 0: hide). The visibility would get changed via the view panel where users can check and uncheck the individual node's visibility.
+* ___lastClickedSceneNode__: A read property for "webgl" renderer, showing the latest node interacted by the users in the current scene. It provides a map of relevant information such as displayedValue (1:show / 0:hide), lastClickedID (The node's id), lastClickedName (The node name).
 
 
 <a name="renderer-options"></a>
