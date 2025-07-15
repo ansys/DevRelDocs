@@ -28,13 +28,13 @@ And we assume that you are using AVx Autonomy Toolchain version **25R2.1**
 
 Step 1: Create virtual environment
 
-```
+```bash
 $ python -m venv .venv 
 ``` 
 
 Step 2: Activate the virtual environment
 
-```
+```bash
 $ source .venv/bin/activate  
 ```
 
@@ -43,13 +43,14 @@ Step 3: Install python packages:
 - ansys-api-avxcelerate-autonomy
 - ansys-avxcelerate-autonomy
 
-```
+```bash
 $ pip install ansys-api-avxcelerate-autonomy ansys-avxcelerate-autonomy --extra-index-url [https://explore-service.traefik.me:9081/pypi](https://explore-service.traefik.me:9081/v1/pypi)
+```
 
 Step 4: Use ansys-api-avxcelerate-autonomy and ansys-avxcelerate-autonomy in your python code
-```
 
-```
+
+```python
 import asyncio
 
 from ansys.api.avxcelerate.autonomy.explore_service.v1.api.jobs_api import JobsApi
