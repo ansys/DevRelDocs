@@ -5,7 +5,7 @@
 **All Known Implementing Classes:**
 - [PHXFileParser](PHXFileParser.md)
 
--- 
+--- 
 
 **Declaration**
 
@@ -36,6 +36,7 @@ Interface to define the methods of a parser. Defined after-the-fact from the exi
 void writeTo(java.io.OutputStreamWriter fw)
       throws java.io.IOException
 ```
+
 Write any changes to the output stream
 
 **Throws:**
@@ -46,4 +47,5 @@ Write any changes to the output stream
 ```java
 void close()
 ```
+
 Close the parser

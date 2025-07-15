@@ -10,8 +10,10 @@
 
 **All Known Implementing Classes:**
 
-[`CAEOutputFile`](CAEOutputFile.md), [`PHXRowFieldFile`](PHXRowFieldFile.md), [`XPathFile`](XPathFile.md)
+- [`CAEOutputFile`](CAEOutputFile.md), [`PHXRowFieldFile`](PHXRowFieldFile.md), [`XPathFile`](XPathFile.md)
+
 ---
+
 **Declaration**
 
 ```java
@@ -35,6 +37,7 @@ Interface for output files (not file variables) used in script-wrappers
 void parse()
     throws java.lang.Exception
 ```
+
 Parse the output file
 
 **Throws:**
@@ -45,6 +48,7 @@ Parse the output file
 ```java
 void setFileToParse(java.lang.String fileName)
 ```
+
 Sets the file that will be parsed. Usually this is synonymous with [`ParseableFile.setFileToGenerateOrParse(String)`](ParseableFile.md)
 
 **Parameters:**

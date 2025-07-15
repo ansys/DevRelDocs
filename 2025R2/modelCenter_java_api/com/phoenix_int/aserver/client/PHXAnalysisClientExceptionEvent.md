@@ -38,10 +38,10 @@ This class is an event for the [`PHXAnalysisClient`](PHXAnalysisClient.md) class
 | `java.lang.Exception` | `getException()`<br>retrieves the Exception object |
 
 ### Methods inherited from class java.util.EventObject
-`getSource, toString`
+`getSource`, `toString`
 
 ### Methods inherited from class java.lang.Object
-`clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`
+`clone`, `equals`, `finalize`, `getClass`, `hashCode`, `notify`, `notifyAll`, `wait`, `wait`, `wait`
 
 ## Method Detail
 
@@ -49,6 +49,7 @@ This class is an event for the [`PHXAnalysisClient`](PHXAnalysisClient.md) class
 ```java
 public java.lang.Exception getException()
 ```
+
 retrieves the Exception object
 
 **Returns:**

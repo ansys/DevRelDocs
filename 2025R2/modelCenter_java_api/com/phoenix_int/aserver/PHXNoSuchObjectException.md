@@ -54,6 +54,7 @@ protected PHXNoSuchObjectException(int i, java.lang.String msg)
 ```java
 public PHXNoSuchObjectException(java.lang.String object)
 ```
+
 **Parameters:**
 - `object` - the object name that caused the exception.
 
@@ -63,6 +64,7 @@ public PHXNoSuchObjectException(java.lang.String object)
 ```java
 public java.lang.String getInvalidObject()
 ```
+
 Retrieves the object name that was invalid.
 
 **Returns:**

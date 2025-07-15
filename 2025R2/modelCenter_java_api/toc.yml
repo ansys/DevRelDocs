@@ -6,7 +6,7 @@
   href: overview-tree.md
 - name: Deprecated list
   href: deprecated-list.md
-- name: Index
+- name: Reference
   href: reference-all.md
 - name: Serialized form
   href: serialized-form.md
@@ -14,9 +14,9 @@
   href: constant-values.md
 - name: com/phoenix_int/aserver
   items:
-  - name: package-summary
+  - name: Package Summary
     href: com/phoenix_int/aserver/package-summary.md
-  - name: package-tree
+  - name: Package Tree
     href: com/phoenix_int/aserver/package-tree.md
   - name: IPHXAlwaysWriteable
     href: com/phoenix_int/aserver/IPHXAlwaysWriteable.md
@@ -80,9 +80,9 @@
     href: com/phoenix_int/aserver/ProcessHaltedException.md
   - name: client
     items:
-    - name: package-summary
+    - name: Package Summary
       href: com/phoenix_int/aserver/client/package-summary.md
-    - name: package-tree
+    - name: Package Tree
       href: com/phoenix_int/aserver/client/package-tree.md
     - name: IPHXAnalysisClientListener
       href: com/phoenix_int/aserver/client/IPHXAnalysisClientListener.md
@@ -102,9 +102,9 @@
       href: com/phoenix_int/aserver/client/PHXServerSideException.md
     - name: v2
       items:
-      - name: package-summary
+      - name: Package Summary
         href: com/phoenix_int/aserver/client/v2/package-summary.md
-      - name: package-tree
+      - name: Package Tree
         href: com/phoenix_int/aserver/client/v2/package-tree.md
       - name: AnalysisServerClient
         href: com/phoenix_int/aserver/client/v2/AnalysisServerClient.md
@@ -124,9 +124,9 @@
         href: com/phoenix_int/aserver/client/v2/IAnalysisServerCallback.md
     - name: library
       items:
-      - name: package-summary
+      - name: Package Summary
         href: com/phoenix_int/aserver/library/package-summary.md
-      - name: package-tree
+      - name: Package Tree
         href: com/phoenix_int/aserver/library/package-tree.md
       - name: IPHXFactory
         href: com/phoenix_int/aserver/library/IPHXFactory.md
@@ -154,9 +154,9 @@
         href: com/phoenix_int/aserver/library/PHXUserDirLibrarian.md
     - name: monitors
       items:
-      - name: package-summary
+      - name: Package Summary
         href: com/phoenix_int/aserver/monitors/package-summary.md
-      - name: package-tree
+      - name: Package Tree
         href: com/phoenix_int/aserver/monitors/package-tree.md
       - name: IPHXFileCallback
         href: com/phoenix_int/aserver/monitors/IPHXFileCallback.md
@@ -170,9 +170,9 @@
         href: com/phoenix_int/aserver/monitors/PHXMonitorableStream.MonitorWriter.md
     - name: types
       items:
-      - name: package-summary
+      - name: Package Summary
         href: com/phoenix_int/aserver/types/package-summary.md
-      - name: package-tree
+      - name: Package Tree
         href: com/phoenix_int/aserver/types/package-tree.md
       - name: IPHXDescription
         href: com/phoenix_int/aserver/types/IPHXDescription.md
@@ -250,9 +250,9 @@
         href: com/phoenix_int/aserver/types/PHXTypeMismatchException.md
     - name: util
       items:
-      - name: package-summary
+      - name: Package Summary
         href: com/phoenix_int/aserver/util/package-summary.md
-      - name: package-tree
+      - name: Package Tree
         href: com/phoenix_int/aserver/util/package-tree.md
       - name: IPHXLineStore
         href: com/phoenix_int/aserver/util/IPHXLineStore.md
@@ -296,9 +296,9 @@
         items:
         - name: api
           items:
-          - name: package-summary
+          - name: Package Summary
             href: com/phoenix_int/aserver/util/scriptwrapper/api/package-summary.md
-          - name: package-tree
+          - name: Package Tree
             href: com/phoenix_int/aserver/util/scriptwrapper/api/package-tree.md
           - name: AbstractFile
             href: com/phoenix_int/aserver/util/scriptwrapper/api/AbstractFile.md
@@ -344,9 +344,9 @@
             href: com/phoenix_int/aserver/util/scriptwrapper/api/XPathFile.md
 - name: com/phoenix_int/util
   items:
-    - name: package-summary
+    - name: Package Summary
       href: com/phoenix_int/util/package-summary.md
-    - name: package-tree
+    - name: Package Tree
       href: com/phoenix_int/util/package-tree.md
     - name: BufferedRandomAccessFile
       href: com/phoenix_int/util/BufferedRandomAccessFile.md
@@ -362,9 +362,9 @@
       href: com/phoenix_int/util/PHXNewLineFilter.md
 - name: com/phoenix_int/pacz/api
   items:
-    - name: package-summary
+    - name: Package Summary
       href: com/phoenix_int/pacz/api/package-summary.md
-    - name: package-tree
+    - name: Package Tree
       href: com/phoenix_int/pacz/api/package-tree.md
     - name: Environment
       href: com/phoenix_int/pacz/api/Environment.md
@@ -380,9 +380,9 @@
       href: com/phoenix_int/pacz/api/VariableDataType.md
     - name: v2
       items:
-        - name: package-summary
+        - name: Package Summary
           href: com/phoenix_int/pacz/api/v2/package-summary.md
-        - name: package-tree
+        - name: Package Tree
           href: com/phoenix_int/pacz/api/v2/package-tree.md
         - name: Environment
           href: com/phoenix_int/pacz/api/v2/Environment.md
@@ -394,7 +394,5 @@
           href: com/phoenix_int/pacz/api/v2/IRuntimeVariable.md
         - name: RunFolderPreference
           href: com/phoenix_int/pacz/api/v2/RunFolderPreference.md
-        - name: VariableDataType
-          href: com/phoenix_int/pacz/api/v2/VariableDataType.md
-- name: Changelog.md
+- name: Changelog
   href: Changelog.md

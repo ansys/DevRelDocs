@@ -98,6 +98,7 @@ This class can only handle one single process running at a time. If you need to 
 ```java
 public static final int MODE_NONE
 ```
+
 This option performs no run sharing. This means that when two users attempt to run the same component simultaneously, ModelCenter Remote Execution will take no action to ensure that input and output files are not overwritten.
 
 **See Also:**
@@ -108,6 +109,7 @@ This option performs no run sharing. This means that when two users attempt to r
 ```java
 public static final int MODE_ERROR
 ```
+
 When a user tries to run a component that is already running, this option generates an error message and instructs the user to try again later.
 
 **See Also:**
@@ -118,6 +120,7 @@ When a user tries to run a component that is already running, this option genera
 ```java
 public static final int MODE_WAIT
 ```
+
 When the component is running, this option ensures that no one else will be able to run it. A second user will not be able to read or write files until the first user is done with them. When the first user's object has retrieved all of the output information it needs from the component's files, the second user's object can now run; it overwrites the current input and output files in doing so. This is the default run sharing mechanism of FileWrapper components.
 
 **See Also:**
@@ -128,6 +131,7 @@ When the component is running, this option ensures that no one else will be able
 ```java
 public static final int MODE_SHARE
 ```
+
 When two or more users attempt to run a component simultaneously, the FileWrapper creates separate directories that hold unique input and output files for every user. Thus, all users can run the component simultaneously without file conflicts.
 
 **See Also:**
@@ -138,6 +142,7 @@ When two or more users attempt to run a component simultaneously, the FileWrappe
 ```java
 public static final int DEL_AUTO
 ```
+
 delete the directory only if an error did not occur while running the wrapper. If an error did occur, then the directory is preserved and a file named exception.log is created in the directory to record the error. If no error occurs, the directory is deleted when the component is ended or when it's run again. This the default setting.
 
 **See Also:**
@@ -148,6 +153,7 @@ delete the directory only if an error did not occur while running the wrapper. I
 ```java
 public static final int DEL_FALSE
 ```
+
 do not delete the directory.
 
 **See Also:**
@@ -158,7 +164,8 @@ do not delete the directory.
 ```java
 public static final int DEL_TRUE
 ```
-delete the directory.
+
+Delete the directory.
 
 **See Also:**
 
@@ -171,6 +178,7 @@ delete the directory.
 public PHXRunShare(java.lang.String baseDir,
                    java.lang.String wrapperID)
 ```
+
 **Parameters:**
 - `baseDir` - The directory on disk where the files associated w/ this component are located.
 - `wrapperID` - A unique ID which identifies this component. This is used to synchronize runshare access across multiple instances of the same component. Typically the full path on disk to the component's main file is used for this ID.
@@ -181,6 +189,7 @@ public PHXRunShare(java.lang.String baseDir,
 ```java
 public void finalize()
 ```
+
 **Overrides::**
 - `finalize` in class `java.lang.Object`
 
@@ -188,6 +197,7 @@ public void finalize()
 ```java
 public java.lang.String getWrapperID()
 ```
+
 Returns the wrapper ID being used for locking. This ID should be the full path to the main file on disk for the associated wrapper.
 
 ### setDictionary
@@ -204,30 +214,35 @@ public java.util.Map getDictionary()
 ```java
 public void setRunReplacer(com.phoenix_int.aserver.util.PHXRunReplacer replacer)
 ```
+
 Sets the run replacer object which is used to transform $VAR type specifications before running commands
 
 ### addRunDirChangedListener
 ```java
 public void addRunDirChangedListener(com.phoenix_int.aserver.IPHXRunDirChangedListener rdl)
 ```
+
 Adds a listener which will receive events when the run directory is changed.
 
 ### removeRunDirChangedListener
 ```java
 public void removeRunDirChangedListener(com.phoenix_int.aserver.IPHXRunDirChangedListener rdl)
 ```
+
 Removes a listener for run directory changed events.
 
 ### getBaseDirectory
 ```java
 public java.lang.String getBaseDirectory()
 ```
+
 Gets the base dir which was passed in to the constructor.
 
 ### getDirectory
 ```java
 public java.lang.String getDirectory()
 ```
+
 Returns the current directory being used by the runshare system. This may be the base directory, or it may be a temp directory created underneath there to implement run sharing.
 
 ### lock
@@ -235,6 +250,7 @@ Returns the current directory being used by the runshare system. This may be the
 public void lock()
     throws java.io.IOException
 ```
+
 Causes the run-share mode to be implemented. This creates sub-dirs, waits or errors as appropriate.
 
 Once in "locked" mode, calling `lock()` again has no effect.
@@ -246,6 +262,7 @@ Once in "locked" mode, calling `lock()` again has no effect.
 ```java
 public void unlock()
 ```
+
 Unlocks the runshare mechanisms. This will unblock other components which are waiting for us to finish.
 
 Calling `unlock()` when not in "locked" mode has no effect.
@@ -254,6 +271,7 @@ Calling `unlock()` when not in "locked" mode has no effect.
 ```java
 public void setDirectTransfer(boolean flag)
 ```
+
 Set whether or not this runShare is involved in direct transfer of files
 
 **Parameters:**
@@ -264,7 +282,8 @@ Set whether or not this runShare is involved in direct transfer of files
 public void cleanTempDir()
     throws java.io.IOException
 ```
-cleans up the temporary run directory if one has been created. In general, wrappers and end users should **not** use this function unless you have manually created your own runshare object. Doing so will prevent proper delayed transfer of direct file transfer (DFT) files.
+
+Cleans up the temporary run directory if one has been created. In general, wrappers and end users should **not** use this function unless you have manually created your own runshare object. Doing so will prevent proper delayed transfer of direct file transfer (DFT) files.
 
 **Throws:**
 - `java.io.IOException`
@@ -274,6 +293,7 @@ cleans up the temporary run directory if one has been created. In general, wrapp
 public void setRunDirectory(java.lang.String runDirectory)
                      throws com.phoenix_int.aserver.PHXCannotSetRunDirectoryException
 ```
+
 **Throws:**
 - `com.phoenix_int.aserver.PHXCannotSetRunDirectoryException`
 
@@ -281,12 +301,14 @@ public void setRunDirectory(java.lang.String runDirectory)
 ```java
 public void setMode(int mode)
 ```
+
 Sets the runshare mode.
 
 ### getMode
 ```java
 public int getMode()
 ```
+
 Gets the runshare mode
 
 ### addFileToCopy
@@ -298,24 +320,28 @@ public void addFileToCopy(java.lang.String file)
 ```java
 public void setFilesToCopy(java.lang.String files)
 ```
+
 Sets the files which need to be copied when runshare mode is MODE_SHARE.
 
 ### setAutoDelete
 ```java
 public void setAutoDelete(int autoDelete)
 ```
+
 Sets the auto-delete mode for runshare mode MODE_SHARE. If DEL_TRUE, the created sub-dir is always deleted. If DEL_FALSE, it is never deleted. If DEL_AUTO, it is only deleted when no errors occur during the run. Deletion occurs when the component is ended or when the component is run again.
 
 ### getAutoDelete
 ```java
 public int getAutoDelete()
 ```
+
 Gets the auto-delete mode
 
 ### setIgnoreErrors
 ```java
 public void setIgnoreErrors(boolean flag)
 ```
+
 Sets the `IgnoreErrors` flag. By default this code will throw an exception if the spawned process returns a non-zero errorlevel. Occasionally a program will return an errorlevel even if it succeeds. This option allows you to igore the errorlevel.
 
 **Parameters:**
@@ -325,6 +351,7 @@ Sets the `IgnoreErrors` flag. By default this code will throw an exception if th
 ```java
 public boolean getIgnoreErrors()
 ```
+
 Gets the `IgnoreErrors` flag
 
 **Returns:**
@@ -334,6 +361,7 @@ Gets the `IgnoreErrors` flag
 ```java
 public void setAutoChangeDir(boolean flag)
 ```
+
 Sets the `AutoChangeDir` flag. This flag indicates whether to change the current working directory to the run directory (see `getDirectory`) before running the code. Changing directories occasionally causes problems with other command line programs. True by default.
 
 **Parameters:**
@@ -343,6 +371,7 @@ Sets the `AutoChangeDir` flag. This flag indicates whether to change the current
 ```java
 public boolean getAutoChangeDir()
 ```
+
 Gets the `AutoChangeDir` flag
 
 **Returns:**
@@ -352,6 +381,7 @@ Gets the `AutoChangeDir` flag
 ```java
 public void setShell(java.lang.String shell)
 ```
+
 Sets the shell used to execute commands. This only applies to UNIX hosts. By default "sh" is used.
 
 **Parameters:**
@@ -361,6 +391,7 @@ Sets the shell used to execute commands. This only applies to UNIX hosts. By def
 ```java
 public java.lang.String getShell()
 ```
+
 Gets the shell used to execute commands.
 
 **Returns:**
@@ -371,6 +402,7 @@ Gets the shell used to execute commands.
 public void run(java.lang.String cmd)
          throws java.lang.Exception
 ```
+
 Runs a command. Command may be relative to the run directory, see getDirectory().
 
 This function will not return until the sub-process has finished. It will collect stdout and stderr and provide progress monitors.
@@ -393,6 +425,7 @@ public void run(java.lang.String cmd,
                 java.lang.String shell)
          throws java.lang.Exception
 ```
+
 Runs a command. Command may be relative to the run directory, see getDirectory().
 
 This function will not return until the sub-process has finished. It will collect stdout and stderr and provide progress monitors.
@@ -415,6 +448,7 @@ public void run(java.lang.String cmd,
                 java.lang.String shell)
          throws java.lang.Exception
 ```
+
 Runs a command. Command may be relative to the run directory, see `getDirectory()`.
 
 This function will not return until the sub-process has finished. It will collect stdout and stderr and provide progress monitors.
@@ -439,24 +473,28 @@ If the command is halted (via `halt()` or `timeout()`) and `ignoreError` is fals
 ```java
 public void halt()
 ```
-halts any running process
+
+Halts any running process
 
 ### timeout
 ```java
 public void timeout()
 ```
+
 Cleans up a run that has timed out
 
 ### reset
 ```java
 public void reset()
 ```
+
 Reset the `ProcessStruct` back to initial state for possible use in another run request.
 
 ### listProcesses
 ```java
 public PHXProcessInfo[] listProcesses() throws java.io.IOException
 ```
+
 Lists any running processes
 
 **Specified by:**
@@ -470,6 +508,7 @@ Lists any running processes
 public java.lang.String[] listMonitorableFiles() 
                                         throws java.io.IOException
 ```
+
 Lists available "monitors". This will be "stdout" and "stderr".
 
 **Specified by:**
@@ -483,6 +522,7 @@ Lists available "monitors". This will be "stdout" and "stderr".
 public java.lang.Object getMonitor(java.lang.String m) 
                             throws PHXNoSuchObjectException
 ```
+
 Returns any available monitors by name.
 
 **Specified by:**
@@ -498,6 +538,7 @@ Returns any available monitors by name.
 ```java
 public void addTraceListener(com.phoenix_int.aserver.trace.IPHXTraceListener listener)
 ```
+
 Adds a listener to trace events
 
 **Specified by:**
@@ -510,6 +551,7 @@ Adds a listener to trace events
 ```java
 public void removeTraceListener(com.phoenix_int.aserver.trace.IPHXTraceListener listener)
 ```
+
 Removes a listener from trace events
 
 **Specified by:**

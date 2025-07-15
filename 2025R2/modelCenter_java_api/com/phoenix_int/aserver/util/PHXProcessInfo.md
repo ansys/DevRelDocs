@@ -51,6 +51,7 @@ This class represents information about a running process on the system. It incl
 ```java
 protected PHXProcessInfo()
 ```
+
 Constructs an empty process
 
 ## Method Detail
@@ -61,6 +62,7 @@ Constructs an empty process
 public static PHXProcessInfo[] getProcesses(int parent) 
                                      throws java.io.IOException
 ```
+
 Lists the specified process' children.
 
 **Throws:**
@@ -72,6 +74,7 @@ Lists the specified process' children.
 public static PHXProcessInfo[] getProcesses() 
                                      throws java.io.IOException
 ```
+
 Lists all processes on the system
 
 **Throws:**
@@ -82,6 +85,7 @@ Lists all processes on the system
 ```java
 public java.lang.String getCommand()
 ```
+
 Returns the command name of this process
 
 ### getProcessID
@@ -89,6 +93,7 @@ Returns the command name of this process
 ```java
 public int getProcessID()
 ```
+
 Gets the platform dependent process ID number
 
 ### getParentProcessID
@@ -96,6 +101,7 @@ Gets the platform dependent process ID number
 ```java
 public int getParentProcessID()
 ```
+
 Gets the parent process ID of this process
 
 ### getPercentCPU
@@ -103,6 +109,7 @@ Gets the parent process ID of this process
 ```java
 public float getPercentCPU()
 ```
+
 Gets the percentage of the CPU usage, if available
 
 ### getMemUsage
@@ -110,6 +117,7 @@ Gets the percentage of the CPU usage, if available
 ```java
 public long getMemUsage()
 ```
+
 Gets the memory usage of this process, if available
 
 ### getTime
@@ -117,6 +125,7 @@ Gets the memory usage of this process, if available
 ```java
 public long getTime()
 ```
+
 Returns the amount of CPU time this process has used, if available.
 
 ### getElapsedTime
@@ -124,6 +133,7 @@ Returns the amount of CPU time this process has used, if available.
 ```java
 public long getElapsedTime()
 ```
+
 Returns the wall clock time for this process, if available
 
 ### toXML
@@ -131,6 +141,7 @@ Returns the wall clock time for this process, if available
 ```java
 public java.lang.String toXML()
 ```
+
 Converts this process information into a usable XML description
 
 ### toString
@@ -138,6 +149,7 @@ Converts this process information into a usable XML description
 ```java
 public java.lang.String toString()
 ```
+
 Converts this process info into a one-line readable string
 
 **Overrides:**

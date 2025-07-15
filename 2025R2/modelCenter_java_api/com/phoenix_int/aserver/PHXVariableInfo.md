@@ -43,6 +43,7 @@ This is a utility class for holding parsing information about a variable.
 ```java
 public PHXVariableInfo()
 ```
+
 Creates an uninitialized object. Initialize must be called before any of the methods will work properly.
 
 ### PHXVariableInfo
@@ -50,10 +51,12 @@ Creates an uninitialized object. Initialize must be called before any of the met
 public PHXVariableInfo(java.lang.String name, boolean input, java.lang.Object var)
     throws PHXInvalidNameException
 ```
+
 **Parameters:**
 - `name` - the name of the variable
 - `input` - true if the variable is an input, false if an output
 - `var` - the actual variable
+
 **Throws:**
 - [`PHXInvalidNameException`](PHXInvalidNameException.md) - thrown if the name contains invalid characters
 
@@ -64,7 +67,9 @@ public PHXVariableInfo(java.lang.String name, boolean input, java.lang.Object va
 public void initialize(java.lang.String name, boolean input, java.lang.Object var)
     throws PHXInvalidNameException
 ```
+
 Initializes the variable
+
 **Parameters:**
 - `name` - the name of the variable
 - `input` - true if the variable is an input, false if an output

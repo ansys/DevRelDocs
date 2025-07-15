@@ -44,6 +44,7 @@ Interface for files (not file variables) used in script wrappers
 ```java
 void backup()
 ```
+
 Backup the file on disk. File is at the same location with ".bac" appended to the end. If a file by that name already exists, it is deleted prior to moving.
 
 ### close
@@ -51,6 +52,7 @@ Backup the file on disk. File is at the same location with ".bac" appended to th
 ```java
 void close()
 ```
+
 Close the file and free up resources
 
 ### delete
@@ -58,6 +60,7 @@ Close the file and free up resources
 ```java
 void delete()
 ```
+
 Delete the file from disk.
 
 ### readTemplate
@@ -73,6 +76,7 @@ void readTemplate()
                   PHXBookmarkNotFoundException,
                   PHXSectionNotFoundException
 ```
+
 Read the template. In MCRE 7.1, this method was changed to never throw any exceptions. Reading the templates allows you to fill in default values if you can, but is not mandatory.
 
 **Throws:**
@@ -91,6 +95,7 @@ Read the template. In MCRE 7.1, this method was changed to never throw any excep
 ```java
 void setFileToGenerateOrParse(java.lang.String fileName)
 ```
+
 Set the file to generate or to parse, depending on the mode
 
 **Parameters:**
@@ -101,6 +106,7 @@ Set the file to generate or to parse, depending on the mode
 ```java
 void setTempEmbedded(java.lang.String option)
 ```
+
 This method applies only to ModelCenter and has no function in ModelCenter Remote Execution
 
 ### setTemplateFile
@@ -108,6 +114,7 @@ This method applies only to ModelCenter and has no function in ModelCenter Remot
 ```java
 void setTemplateFile(java.lang.String templateFileName)
 ```
+
 Set the template file to read. If the template file is not specified, it defaults to the file that is parsed or generated, for [`Mode.PARSE`](ParseableFile.Mode.md) or [`Mode.GENERATE`](ParseableFile.Mode.md), respectively.
 
 **Parameters:**
@@ -120,6 +127,7 @@ void setVariable(java.lang.String name,
                  java.lang.String value)
           throws PHXNoSuchObjectException
 ```
+
 Sets the value of a variable
 
 **Parameters:**

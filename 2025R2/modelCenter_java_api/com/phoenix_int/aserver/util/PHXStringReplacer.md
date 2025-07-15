@@ -61,6 +61,7 @@ public PHXStringReplacer(IPHXStringReplacer r)
 ```java
 public java.lang.String replace(java.lang.String s)
 ```
+
 Replaces all names starting with "$" with values looked up from the replacer object. If no match is found, the original value is retained.
 
 **Parameters:**

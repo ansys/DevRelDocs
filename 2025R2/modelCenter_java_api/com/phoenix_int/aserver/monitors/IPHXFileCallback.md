@@ -25,6 +25,7 @@ Callback interface to signal data available on a file being monitored.
 ```java
 boolean dataReady(java.lang.String data)
 ```
+
 Called when data is ready.
 
 **Parameters:**
@@ -38,6 +39,7 @@ Called when data is ready.
 ```java
 boolean fileTruncated()
 ```
+
 Indicates that the file was truncated back to 0 bytes.
 
 **Returns:**

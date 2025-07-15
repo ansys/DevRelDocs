@@ -44,6 +44,7 @@ if (var instanceof IPHXFormat)
 ```java
 java.lang.String getFormat()
 ```
+
 Get the format string for the variable
 
 **Returns:**
@@ -54,6 +55,7 @@ Get the format string for the variable
 ```java
 boolean hasFormat()
 ```
+
 Whether or not the variable has a format
 
 **Returns:**
@@ -64,6 +66,7 @@ Whether or not the variable has a format
 ```java
 void setFormat(java.lang.String format)
 ```
+
 Set the format string for the variable
 
 **Parameters:**

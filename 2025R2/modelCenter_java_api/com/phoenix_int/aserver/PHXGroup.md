@@ -72,6 +72,7 @@ public PHXGroup(java.lang.String name)
 ```java
 public java.lang.String getName()
 ```
+
 retrieves the name of the group
 
 **Returns:**
@@ -83,6 +84,7 @@ public void addGroup(PHXGroup group)
               throws PHXNameAlreadyInUseException,
                      PHXInvalidNameException
 ```
+
 adds a child group to the group
 
 **Parameters:**
@@ -97,6 +99,7 @@ adds a child group to the group
 public PHXGroup getGroup(java.lang.String childName)
                   throws PHXNoSuchObjectException
 ```
+
 retrieves a child group.
 
 **Parameters:**
@@ -112,6 +115,7 @@ retrieves a child group.
 ```java
 public PHXGroup getGroup2(java.lang.String childName)
 ```
+
 retrieves a child group. Does not throw an exception on failure.
 
 **Parameters:**
@@ -126,6 +130,7 @@ public PHXGroup makeGroup(java.lang.String childName)
                    throws PHXNameAlreadyInUseException,
                           PHXInvalidNameException
 ```
+
 creates a child group. If the group already exists, it is retrieved
 
 **Parameters:**
@@ -143,6 +148,7 @@ creates a child group. If the group already exists, it is retrieved
 public void removeGroup(java.lang.String childName)
                  throws java.lang.Exception
 ```
+
 remove a child group. If the group doesn't exist, it just returns
 
 **Parameters:**
@@ -155,6 +161,7 @@ remove a child group. If the group doesn't exist, it just returns
 ```java
 public int getNumGroups()
 ```
+
 retrieves the number of subgroups in the group.
 
 **Returns:**
@@ -164,6 +171,7 @@ retrieves the number of subgroups in the group.
 ```java
 public java.util.Enumeration getGroups()
 ```
+
 retrieves the Enumeration of subgroups in the group.
 
 **Returns:**
@@ -173,6 +181,7 @@ retrieves the Enumeration of subgroups in the group.
 ```java
 public java.util.Iterator<PHXGroup> getGroups2()
 ```
+
 retrieves all the subgroups in the group
 
 **Returns:**
@@ -184,6 +193,7 @@ public void addVariable(PHXVariableInfo varInfo)
                  throws PHXNameAlreadyInUseException,
                         PHXInvalidNameException
 ```
+
 stores a variable in the group.
 
 **Parameters:**
@@ -198,6 +208,7 @@ stores a variable in the group.
 public PHXVariableInfo getVariableInfo(java.lang.String varName)
                                 throws PHXNoSuchObjectException
 ```
+
 retrieves a variable from the group.
 
 **Parameters:**
@@ -213,6 +224,7 @@ retrieves a variable from the group.
 ```java
 public PHXVariableInfo getVariableInfo2(java.lang.String varName)
 ```
+
 retrieves a variable from the group. Does not throw an Exception on failure.
 
 **Parameters:**
@@ -225,6 +237,7 @@ retrieves a variable from the group. Does not throw an Exception on failure.
 ```java
 public boolean contains(PHXVariableInfo varInfo)
 ```
+
 checks to see if a variable exists in this group
 
 **Parameters:**
@@ -237,6 +250,7 @@ checks to see if a variable exists in this group
 ```java
 public boolean contains(java.lang.String varName)
 ```
+
 Checks to see if a variable exists in this group.
 
 **Parameters:**
@@ -249,6 +263,7 @@ Checks to see if a variable exists in this group.
 ```java
 public int getNumVariables()
 ```
+
 retrieves the number of variables in the group.
 
 **Returns:**
@@ -258,6 +273,7 @@ retrieves the number of variables in the group.
 ```java
 public java.util.Enumeration getVariables()
 ```
+
 retrieves the Enumeration of variables in the group.
 
 **Returns:**
@@ -267,6 +283,7 @@ retrieves the Enumeration of variables in the group.
 ```java
 public java.util.Iterator<PHXVariableInfo> getVariables2()
 ```
+
 retrieves all of the variables in the group.
 
 **Returns:**
@@ -276,18 +293,21 @@ retrieves all of the variables in the group.
 ```java
 public void removeAllVariables()
 ```
+
 removes all variables from the group
 
 ### removeAllGroups
 ```java
 public void removeAllGroups()
 ```
+
 remove all groups from the group
 
 ### removeVariable
 ```java
 public void removeVariable(PHXVariableInfo varInfo)
 ```
+
 removes a variable
 
 **Parameters:**
@@ -297,6 +317,7 @@ removes a variable
 ```java
 public java.lang.String toString()
 ```
+
 Converts this to a string
 
 **Overrides:**

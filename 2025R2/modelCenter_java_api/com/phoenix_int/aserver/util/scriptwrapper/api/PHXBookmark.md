@@ -105,6 +105,7 @@ public java.util.Vector<PHXBookmark> getChildren(java.util.Vector<PHXBookmark> b
 public void assertEquals(PHXBookmark other)
                   throws java.lang.Exception
 ```
+
 Test comparison function. If the two objects are not equal, an exception is thrown
 
 **Parameters:**

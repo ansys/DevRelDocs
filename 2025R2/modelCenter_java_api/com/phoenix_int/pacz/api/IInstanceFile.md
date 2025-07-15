@@ -26,6 +26,7 @@ Instance file within a component
 ```java
 java.lang.String getName()
 ```
+
 **Deprecated.** Get name of instance file
 
 **Returns:**
@@ -36,6 +37,7 @@ java.lang.String getName()
 ```java
 java.lang.String getPath()
 ```
+
 **Deprecated.** Get path of instance file
 
 **Returns:**

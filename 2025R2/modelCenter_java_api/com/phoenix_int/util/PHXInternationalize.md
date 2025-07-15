@@ -4,7 +4,7 @@
 
 **Class Hierarchy**
 
-```
+```java
 ↳ java.lang.Object
   ↳ com.phoenix_int.util.PHXInternationalize
 ```
@@ -59,6 +59,7 @@ public PHXInternationalize(java.lang.Class relC)
 ```java
 public PHXInternationalize(java.lang.Object rel)
 ```
+
 Creates a new instance of PHXInternationalize
 
 ## Method Detail
@@ -68,6 +69,7 @@ Creates a new instance of PHXInternationalize
 ```java
 public static void setTestMode()
 ```
+
 In test mode it automatically prefixes all translations with some consistent garbage so that we can test that translating doesn't break anything.
 
 ### tr
@@ -88,6 +90,7 @@ public java.lang.String tr(java.lang.String id,
 ```java
 public PHXInternationalize.InternationalizedMessage trLazy(java.lang.String id)
 ```
+
 Return a lazily instantiated translation message that can be computed only if needed.
 
 **Parameters:**
@@ -102,6 +105,7 @@ Return a lazily instantiated translation message that can be computed only if ne
 public PHXInternationalize.InternationalizedMessage trLazy(java.lang.String id, 
                                                            java.lang.Object... args)
 ```
+
 Return a lazily instantiated translation message that can be computed only if needed.
 
 **Parameters:**

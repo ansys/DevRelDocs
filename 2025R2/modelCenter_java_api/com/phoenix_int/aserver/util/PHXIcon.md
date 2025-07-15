@@ -47,6 +47,7 @@ This class provides utility functions for loading and creating an icon file.
 ```java
 public PHXIcon()
 ```
+
 Creates an icon with values set to "unknown".
 
 ### PHXIcon
@@ -80,6 +81,7 @@ public PHXIcon(byte[] iconData,
 ```java
 public byte[] getData()
 ```
+
 Retrieves the data for the image.
 
 **Returns:**
@@ -90,6 +92,7 @@ Retrieves the data for the image.
 ```java
 public java.lang.String getType()
 ```
+
 Retrieves the type for the image.
 
 **Returns:**
@@ -100,6 +103,7 @@ Retrieves the type for the image.
 ```java
 public java.awt.Image toImage()
 ```
+
 Converts the icon to an Image.
 
 **Returns:**
@@ -110,6 +114,7 @@ Converts the icon to an Image.
 ```java
 public java.lang.String getIconFileName()
 ```
+
 Gets the file name of the icon. This will return an empty String if the file name is not available.
 
 **Returns:**
@@ -120,6 +125,7 @@ Gets the file name of the icon. This will return an empty String if the file nam
 ```java
 public java.net.URI getIconURI()
 ```
+
 Gets the URI of the icon. If the URI is not available, this will return null.
 
 **Returns:**

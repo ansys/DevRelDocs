@@ -56,6 +56,7 @@ public PHXInvokeReturn()
 ```java
 public java.lang.String getReturnString()
 ```
+
 Retrieves the return string for the custom method.
 
 **Returns:**
@@ -65,6 +66,7 @@ Retrieves the return string for the custom method.
 ```java
 public void setReturnString(java.lang.String returnStr)
 ```
+
 Sets the return string for the custom method.
 
 **Parameters:**
@@ -74,6 +76,7 @@ Sets the return string for the custom method.
 ```java
 public boolean getDownloadInputs()
 ```
+
 Retrieves whether the invocation should trigger a redownloading of input values.
 
 **Returns:**
@@ -83,6 +86,7 @@ Retrieves whether the invocation should trigger a redownloading of input values.
 ```java
 public void setDownloadInputs(boolean downloadInputs)
 ```
+
 Set whether input values should be redownloaded after the invocation.
 
 **Parameters:**
@@ -92,6 +96,7 @@ Set whether input values should be redownloaded after the invocation.
 ```java
 public java.lang.String toString()
 ```
+
 Handle converting this class to a string in XML format.
 
 **Overrides:**

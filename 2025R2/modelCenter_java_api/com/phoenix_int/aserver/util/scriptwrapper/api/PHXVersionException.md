@@ -53,4 +53,5 @@ public PHXVersionException(int requiredMajorVersion,
                            int foundMajorVersion,
                            int foundMinorVersion)
 ```
+
 Creates a new instance of `PHXVersionException`

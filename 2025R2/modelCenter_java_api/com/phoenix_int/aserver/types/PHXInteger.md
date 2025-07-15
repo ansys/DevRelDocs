@@ -4,7 +4,7 @@
 
 **Class Hierarchy**
 
-```
+```java
 ↳ java.lang.Object
   ↳ com.phoenix_int.aserver.types.PHXSimpleType
     ↳ com.phoenix_int.aserver.types.PHXInteger
@@ -111,6 +111,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
 ```java
 public PHXInteger()
 ```
+
 **Deprecated.**
 
 ### PHXInteger
@@ -118,6 +119,7 @@ public PHXInteger()
 ```java
 public PHXInteger(PHXInteger other)
 ```
+
 **Deprecated.** Clone another PHXInteger's value and metadata.
 
 **Parameters:**
@@ -130,6 +132,7 @@ public PHXInteger(PHXInteger other)
 ```java
 protected final void _copyMetadataFromOther(PHXInteger other)
 ```
+
 **Deprecated.** Clone another PHXInteger's metadata.
 
 **Parameters:**
@@ -140,6 +143,7 @@ protected final void _copyMetadataFromOther(PHXInteger other)
 ```java
 public int getValue()
 ```
+
 **Deprecated.** retrieves the current value of the variable
 
 **Returns:**
@@ -150,6 +154,7 @@ public int getValue()
 ```java
 public java.lang.String getValueStr()
 ```
+
 **Deprecated.** retrieves the string value of this variable as passed into the last call to `fromString()`. This may not be equivalent to the current value of the variable.
 
 **Returns:**
@@ -160,6 +165,7 @@ public java.lang.String getValueStr()
 ```java
 public void setValue(int v)
 ```
+
 **Deprecated.** sets the value for the variable
 
 **Parameters:**
@@ -170,6 +176,7 @@ public void setValue(int v)
 ```java
 public void setUpperBound(int value)
 ```
+
 **Deprecated.** sets the upper bound. The `hasUpperBound` value is set to `true`
 
 **Parameters:**
@@ -180,6 +187,7 @@ public void setUpperBound(int value)
 ```java
 public void setUpperBound(java.lang.String value)
 ```
+
 **Deprecated.**
 
 ### getUpperBound
@@ -187,6 +195,7 @@ public void setUpperBound(java.lang.String value)
 ```java
 public int getUpperBound()
 ```
+
 **Deprecated.** retrieves the current upper bound value
 
 **Returns:**
@@ -197,6 +206,7 @@ public int getUpperBound()
 ```java
 public void setLowerBound(int value)
 ```
+
 **Deprecated.** sets the lower bound. The `hasLowerBound` value is set to true
 
 **Parameters:**
@@ -207,6 +217,7 @@ public void setLowerBound(int value)
 ```java
 public void setLowerBound(java.lang.String value)
 ```
+
 **Deprecated.**
 
 ### getLowerBound
@@ -214,6 +225,7 @@ public void setLowerBound(java.lang.String value)
 ```java
 public int getLowerBound()
 ```
+
 **Deprecated.** retrieves the current lower bound value
 
 **Returns:**
@@ -224,6 +236,7 @@ public int getLowerBound()
 ```java
 public void setHasUpperBound(boolean value)
 ```
+
 **Deprecated.** sets the `hasUpperBound` flag
 
 **Parameters:**
@@ -234,6 +247,7 @@ public void setHasUpperBound(boolean value)
 ```java
 public boolean getHasUpperBound()
 ```
+
 **Deprecated.** retrieves the `hasUpperBound` flag
 
 **Returns:**
@@ -244,6 +258,7 @@ public boolean getHasUpperBound()
 ```java
 public void setHasLowerBound(boolean value)
 ```
+
 **Deprecated.** sets the `hasLowerBound` flag
 
 **Parameters:**
@@ -254,6 +269,7 @@ public void setHasLowerBound(boolean value)
 ```java
 public boolean getHasLowerBound()
 ```
+
 **Deprecated.** retrieves the `hasLowerBound` flag
 
 **Returns:**
@@ -264,6 +280,7 @@ public boolean getHasLowerBound()
 ```java
 public PHXStringBuffer toString2()
 ```
+
 **Deprecated.** converts the variable to a [PHXStringBuffer](../util/PHXStringBuffer.md)
 
 **Specified by:**
@@ -277,6 +294,7 @@ public PHXStringBuffer toString2()
 ```java
 public java.lang.String toString()
 ```
+
 **Deprecated.** converts the variable to a string
 
 **Specified by:**
@@ -293,7 +311,8 @@ public java.lang.String toString()
 ```java
 public void fromString2(PHXStringBuffer value)
 ```
-**Deprecated.**converts a String representation to the internal value
+
+**Deprecated.** converts a String representation to the internal value
 
 **Specified by:**
 - `fromString2` in interface [`IPHXType2`](IPHXType2.md)
@@ -306,6 +325,7 @@ public void fromString2(PHXStringBuffer value)
 ```java
 public void fromString(java.lang.String value)
 ```
+
 **Deprecated.** converts a String representation to the internal value
 
 **Specified by:**
@@ -319,6 +339,7 @@ public void fromString(java.lang.String value)
 ```java
 public void setIgnoreConversionErrors(boolean ignoreConversionErrors)
 ```
+
 **Deprecated.** indicates whether the object should accept bad values in the `fromString()` method without throwning an exception. The raw values is stored in property `valueStr` regardless.
 
 **Parameters:**
@@ -329,6 +350,7 @@ public void setIgnoreConversionErrors(boolean ignoreConversionErrors)
 ```java
 public void setEnumValues(java.lang.String strEnumList)
 ```
+
 **Deprecated.** sets the possible values a variable may be
 
 **Parameters:**
@@ -339,6 +361,7 @@ public void setEnumValues(java.lang.String strEnumList)
 ```java
 public void setEnumValues(int[] values)
 ```
+
 **Deprecated.** Sets the enumeration list of valid values.
 
 **Parameters:**
@@ -349,6 +372,7 @@ public void setEnumValues(int[] values)
 ```java
 public int[] getEnumValues()
 ```
+
 **Deprecated.** Interface function to pass out the enumeration array
 
 **Returns:**
@@ -359,6 +383,7 @@ public int[] getEnumValues()
 ```java
 public java.lang.String getEnumValuesStr()
 ```
+
 **Deprecated.** Interface function to pass out the enumeration array as a comma separated string
 
 **Returns:**
@@ -369,6 +394,7 @@ public java.lang.String getEnumValuesStr()
 ```java
 public void setEnumAliases(java.lang.String values)
 ```
+
 **Deprecated.** takes a comma seperated string of values and fills the enumeration aliases list with values.
 
 **Parameters:**
@@ -379,6 +405,7 @@ public void setEnumAliases(java.lang.String values)
 ```java
 public void setEnumAliases(java.lang.String[] values)
 ```
+
 **Deprecated.** Sets the enumeration aliases list
 
 **Parameters:**
@@ -389,6 +416,7 @@ public void setEnumAliases(java.lang.String[] values)
 ```java
 public java.lang.String[] getEnumAliases()
 ```
+
 **Deprecated.** An interface function for the enumeration array
 
 **Returns:**
@@ -399,6 +427,7 @@ public java.lang.String[] getEnumAliases()
 ```java
 public java.lang.String getEnumAliasesStr()
 ```
+
 **Deprecated.** An interface function for the enumeration array
 
 **Returns:**
@@ -410,6 +439,7 @@ public java.lang.String getEnumAliasesStr()
 @Deprecated
 public boolean getHasFormat()
 ```
+
 **Deprecated.** in favor of `hasFormat()`
 
 ### hasFormat
@@ -417,6 +447,7 @@ public boolean getHasFormat()
 ```java
 public boolean hasFormat()
 ```
+
 **Deprecated.** Whether or not the variable has a format
 
 **Specified by:**
@@ -430,6 +461,7 @@ public boolean hasFormat()
 ```java
 public void setFormat(java.lang.String format)
 ```
+
 **Deprecated.** Set the format string for the variable
 
 **Specified by:**
@@ -443,6 +475,7 @@ public void setFormat(java.lang.String format)
 ```java
 public java.lang.String getFormat()
 ```
+
 **Deprecated.** Get the format string for the variable
 
 **Specified by:**
@@ -456,6 +489,7 @@ public java.lang.String getFormat()
 ```java
 public static java.lang.String arrayToString(int[] sa)
 ```
+
 **Deprecated.**
 
 ### equalsNatural
@@ -464,6 +498,7 @@ public static java.lang.String arrayToString(int[] sa)
 public boolean equalsNatural(PHXSimpleType toCompare)
                       throws PHXTypeMismatchException
 ```
+
 **Deprecated.** Compare this PHXSimpleType to another PHXSimpleType. This type of comparison is different than `Comparable` in that it does a natural comparison between numbers. It is not designed, nor suited, for use in things such as sets, and may behave oddly if put in those circumstances.
 
 **Specified by:**
@@ -481,6 +516,7 @@ public boolean equalsNatural(PHXSimpleType toCompare)
 public void fromObject(java.lang.Object toRead)
                 throws PHXInvalidTypeException
 ```
+
 **Deprecated.** Load the value of this object from the specified object. This will read the object and attempt to convert it if it is a known type. If the type isn't recognized, it will throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md). If there is an error in conversion, it will also throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md).
 
 NOTE: while it might be logical to think you can create a `PHX(Type)Array` from, say, an array of `java.lang.(Type)`, that is not currently supported. You MUST use the PHX string array formatting style.
@@ -499,6 +535,7 @@ NOTE: while it might be logical to think you can create a `PHX(Type)Array` from,
 ```java
 public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```
+
 **Deprecated.** Accept a Visitor.
 
 **Specified by:**
@@ -518,6 +555,7 @@ public <T> T Accept(IPHXType2.IVisitor<T> visitor)
 ```java
 public PHXInteger createCopy()
 ```
+
 **Deprecated.** Create a copy of this instance, including the value and metadata.
 
 **Specified by:**

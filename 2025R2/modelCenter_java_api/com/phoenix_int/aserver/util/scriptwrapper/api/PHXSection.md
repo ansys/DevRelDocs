@@ -70,6 +70,7 @@ public PHXSection(java.lang.String name,
                   PHXBookmark end,
                   java.lang.String delimiters)
 ```
+
 Creates a new instance of `PHXSection`
 
 ## Method Detail
@@ -134,6 +135,7 @@ public void setDelimiters(java.lang.String delimiters)
 public void assertEquals(PHXSection other)
                   throws java.lang.Exception
 ```
+
 Test comparison function. If the two objects are not equal, an exception is thrown
 
 **Parameters:**

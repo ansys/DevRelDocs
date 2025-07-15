@@ -69,7 +69,7 @@ void assertEquals(IPHXRange other)
 ```
 
 **Throws:**
-`java.lang.Exception`
+```java.lang.Exception`
 
 ### getPageName
 

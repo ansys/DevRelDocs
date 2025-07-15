@@ -67,7 +67,7 @@ A class for holding description information about a component class.
 ## Field Detail
 
 ### VI_UNKNOWN
-```
+```java
 public static final int VI_UNKNOWN
 ```
 
@@ -75,7 +75,7 @@ public static final int VI_UNKNOWN
 [Constant Field Values](../../../constant-values.md)
 
 ### VI_AVAILABLE
-```
+```java
 public static final int VI_AVAILABLE
 ```
 
@@ -83,7 +83,7 @@ public static final int VI_AVAILABLE
 [Constant Field Values](../../../constant-values.md)
 
 ### VI_UNAVAILABLE
-```
+```java
 public static final int VI_UNAVAILABLE
 ```
 
@@ -163,6 +163,7 @@ public java.lang.String getKeywords()
 ```java
 public void setRequirements(java.lang.String v)
 ```
+
 Set the requirements via comma separated list.
 
 **Parameters:**
@@ -172,6 +173,7 @@ Set the requirements via comma separated list.
 ```java
 public java.lang.String getRequirements()
 ```
+
 Get the comma separated list of unquoted requirements.
 
 **Returns:**

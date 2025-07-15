@@ -44,6 +44,7 @@ Configuration for PACZ file
 ```java
 Environment getEnvironment()
 ```
+
 **Deprecated.** Get component environment
 
 **Returns:**
@@ -57,6 +58,7 @@ Environment getEnvironment()
 ```java
 RunFolderPreference getRunFolderPreference()
 ```
+
 **Deprecated.** Get run folder preference for component
 
 **Returns:**
@@ -70,6 +72,7 @@ RunFolderPreference getRunFolderPreference()
 ```java
 java.lang.String getVersion()
 ```
+
 **Deprecated.** Get component version
 
 **Returns:**
@@ -80,6 +83,7 @@ java.lang.String getVersion()
 ```java
 void setVersion(java.lang.String version)
 ```
+
 **Deprecated.** Set component version
 
 **Parameters:**
@@ -90,6 +94,7 @@ void setVersion(java.lang.String version)
 ```java
 java.lang.String getDescription()
 ```
+
 **Deprecated.** Get component description
 
 **Returns:**
@@ -100,6 +105,7 @@ java.lang.String getDescription()
 ```java
 void setDescription(java.lang.String description)
 ```
+
 **Deprecated.** Set component description
 
 **Parameters:**
@@ -110,6 +116,7 @@ void setDescription(java.lang.String description)
 ```java
 java.util.List<java.lang.String> getRequiredFeatures()
 ```
+
 **Deprecated.** Get list of features required for component to execute
 
 **Returns:**
@@ -120,6 +127,7 @@ java.util.List<java.lang.String> getRequiredFeatures()
 ```java
 void setRequiredFeatures(java.util.List<java.lang.String> requiredFeatures)
 ```
+
 **Deprecated.** Set list features required for component to execute
 
 **Parameters:**
@@ -130,6 +138,7 @@ void setRequiredFeatures(java.util.List<java.lang.String> requiredFeatures)
 ```java
 java.lang.String getExecutable()
 ```
+
 **Deprecated.** Get name of component executable
 
 **Returns:**
@@ -140,6 +149,7 @@ java.lang.String getExecutable()
 ```java
 java.util.List<java.lang.String> getCommandLineArguments()
 ```
+
 **Deprecated.** Get command line arguments to be passed to component executable
 
 **Returns:**
@@ -150,6 +160,7 @@ java.util.List<java.lang.String> getCommandLineArguments()
 ```java
 java.util.List<IRuntimeVariable> getInputs()
 ```
+
 **Deprecated.** Get component inputs
 
 **Returns:**
@@ -163,6 +174,7 @@ java.util.List<IRuntimeVariable> getInputs()
 ```java
 java.util.List<IRuntimeVariable> getOutputs()
 ```
+
 **Deprecated.** Get component outputs
 
 **Returns:**
@@ -176,6 +188,7 @@ java.util.List<IRuntimeVariable> getOutputs()
 ```java
 java.util.List<IInstanceFile> getInstanceFiles()
 ```
+
 **Deprecated.** Get component instance files
 
 **Returns:**
@@ -189,6 +202,7 @@ java.util.List<IInstanceFile> getInstanceFiles()
 ```java
 java.util.Map<java.lang.String,java.lang.String> getProperties()
 ```
+
 **Deprecated.** Get additional component properties
 
 **Returns:**
@@ -199,6 +213,7 @@ java.util.Map<java.lang.String,java.lang.String> getProperties()
 ```java
 java.lang.String getASComponent()
 ```
+
 **Deprecated.** Get ModelCenter Remote Execution component name
 
 **Returns:**
@@ -209,6 +224,7 @@ java.lang.String getASComponent()
 ```java
 java.net.URI getHelpUri()
 ```
+
 **Deprecated.** Get URI of help to use for component
 
 **Returns:**
@@ -219,6 +235,7 @@ java.net.URI getHelpUri()
 ```java
 java.net.URI getIconUri()
 ```
+
 **Deprecated.** Get URI of icon to use for component
 
 **Returns:**
@@ -230,6 +247,7 @@ java.net.URI getIconUri()
 void setAdditionalConfigValue(java.lang.String valueName, 
                               java.lang.Object value)
 ```
+
 **Deprecated.** Set additional configuration value key-value pair in map. If key exists, the existing value will be overwritten with the new value. If key does not exist, the new key-value pair will be inserted into the map.
 
 **Parameters:**
@@ -241,6 +259,7 @@ void setAdditionalConfigValue(java.lang.String valueName,
 ```java
 java.util.Map<java.lang.String,java.lang.Object> getAdditionalConfigValues()
 ```
+
 **Deprecated.** Get additional configuration values as key-value pair map
 
 **Returns:**
@@ -251,6 +270,7 @@ java.util.Map<java.lang.String,java.lang.Object> getAdditionalConfigValues()
 ```java
 java.lang.Object getAdditionalConfigValue(java.lang.String valueName)
 ```
+
 **Deprecated.** Get additional configuration value based on specified value name.
 
 **Parameters:**

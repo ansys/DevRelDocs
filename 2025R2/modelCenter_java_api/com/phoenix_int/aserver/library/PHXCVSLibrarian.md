@@ -74,6 +74,7 @@ public void initialize(com.phoenix_int.aserver.ascore.PHXConnection connection,
                        org.w3c.dom.Node xmlOptions)
                 throws java.lang.Exception
 ```
+
 There are 2 options for this class. The CVSROOT which should be set as if you were using the command line tools and the module in CVS which is the base for all the published components. The startModule cannot be blank.
 
 The XML format is:
@@ -96,6 +97,7 @@ The XML format is:
 ```java
 public void cleanUp()
 ```
+
 Delete all the temp directories
 
 **Specified by:**
@@ -108,6 +110,7 @@ public java.util.Collection listComponents(java.lang.String virtualDir)
                                     throws PHXNoSuchCategoryException,
                                            com.phoenix_int.aserver.security.PHXAccessDeniedException
 ```
+
 Returns the components in a specific directory
 
 **Specified by:**
@@ -130,6 +133,7 @@ public java.util.Collection listDirectories(java.lang.String virtualDir)
                                      throws PHXNoSuchCategoryException,
                                             com.phoenix_int.aserver.security.PHXAccessDeniedException
 ```
+
 Lists available sub-directories for the specified path
 
 **Specified by:**
@@ -162,6 +166,7 @@ public IPHXComponent instantiate(java.lang.String compClass,
                                  com.phoenix_int.aserver.util.proxywrapper.PHXProxyNotAllowedException,
                                  PHXNoSuchCategoryException
 ```
+
 Creates an instance of the specified component.
 
 **Specified by:**
@@ -200,6 +205,7 @@ public IPHXComponent instantiate(java.lang.String compClass,
                                  com.phoenix_int.aserver.util.proxywrapper.PHXProxyNotAllowedException,
                                  PHXNoSuchCategoryException
 ```
+
 Creates an instance of the specified component. Typically a librarian will find the appropriate files and pass the request off to the [`IPHXFactory`](IPHXFactory.md). It is important that this class throws [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) and ClassNotFoundException in the appropriate cases as they are handled in special ways by the librarian mounter and librarian combiner.
 
 **Specified by:**
@@ -240,6 +246,7 @@ public com.phoenix_int.aserver.PHXComponentResourcePair instantiateManaged(java.
                                                                            com.phoenix_int.aserver.util.proxywrapper.PHXProxyNotAllowedException,
                                                                            PHXNoSuchCategoryException
 ```
+
 Creates an instance of the specified component. Typically a librarian will find the appropriate files and pass the request off to the [`IPHXFactory`](IPHXFactory.md). It is important that this class throws [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) and ClassNotFoundException in the appropriate cases as they are handled in special ways by the librarian mounter and librarian combiner.
 
 **Specified by:**
@@ -280,6 +287,7 @@ public com.phoenix_int.aserver.PHXComponentResourcePair instantiateManaged(java.
                                                                            com.phoenix_int.aserver.util.proxywrapper.PHXProxyNotAllowedException,
                                                                            PHXNoSuchCategoryException
 ```
+
 Creates an instance of the specified component. Typically a librarian will find the appropriate files and pass the request off to the [`IPHXFactory`](IPHXFactory.md). It is important that this class throws [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) and ClassNotFoundException in the appropriate cases as they are handled in special ways by the librarian mounter and librarian combiner.
 
 **Specified by:**
@@ -312,6 +320,7 @@ public PHXComponentBranch getComponentHistory(java.lang.String compClass,
                                               PHXNoSuchCategoryException,
                                               java.io.IOException
 ```
+
 Gets all version information about a particular component. It is important that this class throws [`PHXNoSuchCategoryException`](../PHXNoSuchCategoryException.md) and `ClassNotFoundException` in the appropriate cases as they are handled in special ways by the librarian mounter and librarian combiner.
 
 **Specified by:**
@@ -340,6 +349,7 @@ public PHXComponentDescription describe(java.lang.String compClass,
                                         java.net.MalformedURLException,
                                         PHXNoSuchCategoryException
 ```
+
 Describes the specified component. 
 
 **Specified by:**
@@ -366,6 +376,7 @@ public java.lang.String getQueues(java.lang.String compClass,
                                   java.lang.String virtualDir)
                            throws java.lang.Exception
 ```
+
 Method for getting Queues from CenterLink, MCRE just returns blank string
 
 **Specified by:**
@@ -388,6 +399,7 @@ Method for getting Queues from CenterLink, MCRE just returns blank string
 ```java
 public java.lang.String getBranchesAndTags()
 ```
+
 Does not support branching and tagging
 
 **Specified by:**

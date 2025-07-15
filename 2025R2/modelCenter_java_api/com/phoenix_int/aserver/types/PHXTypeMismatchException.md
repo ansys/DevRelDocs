@@ -19,6 +19,7 @@
 public class PHXTypeMismatchException
 extends java.lang.Exception
 ```
+
 An exception thrown when trying to set a value using an incompatible type, or when trying to compare two values of incompatible types
 
 **See Also:**
@@ -49,12 +50,13 @@ public PHXTypeMismatchException(java.lang.String name,
                                 java.lang.String type,
                                 java.lang.String expectedType)
 ```
+
 Create an exception for attempting to set a value using an incompatible type
 
 **Parameters:**
-- `name`- the name of the variable where the error occurred
-- `type`- the bad type
-- `expectedType`- the type that should have been used
+- `name` - the name of the variable where the error occurred
+- `type` - the bad type
+- `expectedType` - the type that should have been used
 
 ### PHXTypeMismatchException
 
@@ -62,11 +64,12 @@ Create an exception for attempting to set a value using an incompatible type
 public PHXTypeMismatchException(java.lang.String givenType,
                                 java.lang.String expectedType)
 ```
+
 Create an exception for attempting to compare two values of incompatible types
 
 **Parameters:**
-- `givenType`- the bad type that was passed to the comparator
-- `expectedType`- the type expected by the comparator
+- `givenType` - the bad type that was passed to the comparator
+- `expectedType` - the type expected by the comparator
 
 ### PHXTypeMismatchException
 
@@ -75,9 +78,10 @@ public PHXTypeMismatchException(java.lang.String givenType,
                                 java.lang.String expectedType,
                                 java.lang.Throwable cause)
 ```
+
 Create an exception for attempting to compare two values of incompatible types
 
 **Parameters:**
-- `givenType`- the bad type that was passed to the comparator
-- `expectedType`- the type expected by the comparator
-- `cause`- exception which caused this exception to be thrown
+- `givenType` - the bad type that was passed to the comparator
+- `expectedType` - the type expected by the comparator
+- `cause` - exception which caused this exception to be thrown

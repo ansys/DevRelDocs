@@ -105,6 +105,7 @@ If the variable has an upper or lower bound and an attempt is made to store an i
 ```java
 public PHXDouble()
 ```
+
 Initializes value to zero without upper or lower bounds.
 
 ### PHXDouble

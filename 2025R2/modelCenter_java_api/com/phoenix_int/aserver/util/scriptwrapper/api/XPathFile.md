@@ -77,6 +77,7 @@ Represents an XML file (not a file variable) used in a script wrapper, with acce
 public XPathFile(PHXScriptWrapperObject wrapper,
                  ParseableFile.Mode mode)
 ```
+
 Construct a new XPathFile
 
 **Parameters:**
@@ -97,6 +98,7 @@ public void addVariable(java.lang.String name,
                         PHXInvalidNameException,
                         PHXInvalidTypeException
 ```
+
 Add a variable to the wrapper. The transfer of variable values will be handled automatically during any call to `generate()`, `parse()`, or `AbstractFile.readTemplate()`.
 
 **Parameters:**
@@ -119,6 +121,7 @@ protected Parser newParser(java.io.File rFile,
                            Parser.Mode pmode)
                     throws java.io.IOException
 ```
+
 Generate a new parser for the given file and mode
 
 **Specified by:**
@@ -142,13 +145,12 @@ protected com.phoenix_int.aserver.util.XPathParser newParser(java.io.File file)
                                                              org.xml.sax.SAXException,
                                                              javax.xml.parsers.ParserConfigurationException
 ```
+
 Allow a sub-class to form a parser using custom options/features, such as handling DTD and entities
 
 **Parameters:**
 
 - `file` -
-
-**Returns:**
 
 **Throws:**
 
@@ -162,9 +164,8 @@ Allow a sub-class to form a parser using custom options/features, such as handli
 public com.phoenix_int.aserver.util.XPathParser getParser()
                                                    throws java.io.IOException
 ```
-Get the XPath parser
 
-**Returns:**
+Get the XPath parser
 
 **Throws:**
 
@@ -181,6 +182,7 @@ protected void transferVars(ParseableFile.Mode mode)
                             java.lang.InstantiationException,
                             PHXNumberFormatException
 ```
+
 Transfer values for variables that have been defined using methods from the concrete implementation, i.e.[PHXRowFieldFile.defineVar(String, String, boolean, String)](PHXRowFieldFile.md)
 
 Variables defined using [PHXScriptWrapperObject.addVariable(String, String, boolean)](PHXScriptWrapperObject.md) must be explicitly transferred using methods of the concrete implementation class
@@ -207,6 +209,7 @@ public void transferArray(PHXSimpleArray var,
                           java.io.IOException,
                           javax.xml.xpath.XPathExpressionException
 ```
+
 Transfer an array of values, either from the file to the variable, or vice-versa, depending on `ParseableFile.Mode`
 
 **Parameters:**
@@ -229,6 +232,7 @@ public void transferVar(IPHXType var,
                         PHXNoSuchTokenException,
                         java.io.IOException
 ```
+
 Transfer a value, either from the file to the variable, or vice-versa, depending on `ParseableFile.Mode`
 
 **Parameters:**
@@ -253,6 +257,7 @@ public void parse()
                   java.lang.InstantiationException,
                   PHXNumberFormatException
 ```
+
 Parse the output file
 
 **Specified by:**
@@ -274,6 +279,7 @@ Parse the output file
 ```java
 public void setFileToParse(java.lang.String fileName)
 ```
+
 Set the file to be parsed
 
 **Specified by:**
@@ -296,6 +302,7 @@ public void generate()
                      java.lang.InstantiationException,
                      PHXNumberFormatException
 ```
+
 Generate the input file
 
 **Specified by:**
@@ -316,6 +323,7 @@ Generate the input file
 ```java
 public void setFileToGenerate(java.lang.String fileName)
 ```
+
 Set the file to be generated
 
 **Specified by:**

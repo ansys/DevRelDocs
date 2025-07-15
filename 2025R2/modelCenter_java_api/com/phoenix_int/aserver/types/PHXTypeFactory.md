@@ -2,6 +2,8 @@
 
 
 **Package:** `com.phoenix_int.aserver.types`
+
+**Hierarchy:**
 ```
 ↳ java.lang.Object
   ↳ com.phoenix_int.aserver.types.PHXTypeFactory
@@ -15,7 +17,6 @@ extends java.lang.Object
 ```
 
 A class for creating variables
-
 
 **See Also:**
 - [PHXSimpleType](PHXSimpleType.md)
@@ -53,8 +54,7 @@ A class for creating variables
 
 | Modifier and Type | Method and Description |
 | --- | --- |
-| `static void` | `_verifyIsArrayType(java.lang.String type)`<br>utility function for verifying that a type string is an
- array type - it is in the form `"XXXX[#]"` |
+| `static void` | `_verifyIsArrayType(java.lang.String type)`<br>utility function for verifying that a type string is an array type - it is in the form `"XXXX[#]"` |
 | `staticPHXSimpleArray` | `allocateArray(java.lang.String arrayType)`<br>**Deprecated.** Prefer `allocateVariable2(java.lang.String)` which can properly differentiate between arrays and non-array types. |
 | `staticIPHXType2` | `allocateVariable(java.lang.String type)`<br>**Deprecated.** Prefer `allocateVariable2(java.lang.String)` which can properly differentiate between arrays  and non-array types. |
 | `staticIPHXType2` | `allocateVariable2(java.lang.String type)`<br>Allocate a given variable for the given type string |
@@ -70,160 +70,160 @@ A class for creating variables
 ## Field Detail
 
 ### UNKNOWN
-
 ```java
 public static final java.lang.String UNKNOWN
 ```
+
 Type identifier for an unknown type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### UNKNOWN_ARRAY
-
 ```java
 public static final java.lang.String UNKNOWN_ARRAY
 ```
+
 Type identifier for an unknown array type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### BOOLEAN
-
 ```java
 public static final java.lang.String BOOLEAN
 ```
+
 Type identifier for a boolean type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### BOOLEAN_ARRAY
-
 ```java
 public static final java.lang.String BOOLEAN_ARRAY
 ```
+
 Type identifier for a boolean array type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### DOUBLE
-
 ```java
 public static final java.lang.String DOUBLE
 ```
+
 Type identifier for a double type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### DOUBLE_ARRAY
-
 ```java
 public static final java.lang.String DOUBLE_ARRAY
 ```
+
 Type identifier for a double array type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### LONG
-
 ```java
 public static final java.lang.String LONG
 ```
+
 Type identifier for a long type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### LONG_ARRAY
-
 ```java
 public static final java.lang.String LONG_ARRAY
 ```
+
 Type identifier for a long array type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### FILE
-
 ```java
 public static final java.lang.String FILE
 ```
+
 Type identifier for a file type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### FILE_ARRAY
-
 ```java
 public static final java.lang.String FILE_ARRAY
 ```
+
 Type identifier for a file array type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### STRING
-
 ```java
 public static final java.lang.String STRING
 ```
+
 Type identifier for a string type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### STRING_ARRAY
-
 ```java
 public static final java.lang.String STRING_ARRAY
 ```
+
 Type identifier for a string array type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### GEOMETRY
-
 ```java
 public static final java.lang.String GEOMETRY
 ```
+
 Type identifier for a geometry type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### OBJECT
-
 ```java
 public static final java.lang.String OBJECT
 ```
+
 Type identifier for an object type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### REFERENCE
-
 ```java
 public static final java.lang.String REFERENCE
 ```
+
 Type identifier for a reference type
 
 **See Also:**
 - [Constant Field Values](../../../../constant-values.md)
 
 ### REFERENCE_ARRAY
-
 ```java
 public static final java.lang.String REFERENCE_ARRAY
 ```
+
 Type identifier for a reference array type
 
 **See Also:**
@@ -237,7 +237,7 @@ Type identifier for a reference array type
 ```java
 public PHXTypeFactory()
 ```
-============ METHOD DETAIL ==========
+
 ### Method Detail
 
 ### allocateVariable2
@@ -246,10 +246,11 @@ public PHXTypeFactory()
 public static IPHXType2 allocateVariable2(java.lang.String type)
                                    throws PHXInvalidTypeException
 ```
+                                   
 Allocate a given variable for the given type string
 
 **Parameters:**
-- `<br>Type` - the type of the variable to instantiate
+- `Type` - the type of the variable to instantiate
 
 **Returns:**
 - the instantiated variable
@@ -264,18 +265,19 @@ Allocate a given variable for the given type string
 public static IPHXType2 allocateVariable(java.lang.String type)
                                   throws PHXInvalidTypeException
 ```
+
 **Deprecated.** Prefer `allocateVariable2(java.lang.String)` which can properly differentiate between arrays and non-array types. 
 
 Creates a variable from a type string
 
 **Parameters:**
-- `<br>Type` - the type string, e.g. "double"
+- `Type` - the type string, e.g. "double"
 
 **Returns:**
 - the allocated variable
 
 **Throws:**
-- `PHXInvalidTypeException`
+- [`PHXInvalidTypeException`](PHXInvalidTypeException.md)
 
 ### allocateArray
 
@@ -284,11 +286,12 @@ Creates a variable from a type string
 public static PHXSimpleArray allocateArray(java.lang.String arrayType)
                                     throws PHXInvalidTypeException
 ```
+
 **Deprecated.** Prefer `allocateVariable2(java.lang.String)` which can properly differentiate between arrays and non-array types.
 
 creates an array from a type string.
 
-Creates the PHXSimpleArray type, although it overrides the default behaviour of having the PHXSimpleArray store primitives internally in favor of having it store the PHX type.
+Creates the PHXSimpleArray type, although it overrides the default behaviour of having the `PHXSimpleArray` store primitives internally in favor of having it store the PHX type.
 
 **Parameters:**
 - `arrayType` - the type string, e.g. `"double[5]"`, `"string[3][3]"`, etc.
@@ -297,7 +300,7 @@ Creates the PHXSimpleArray type, although it overrides the default behaviour of 
 - the allocated variable
 
 **Throws:**
-- `PHXInvalidTypeException`
+- [`PHXInvalidTypeException`](PHXInvalidTypeException.md)
 
 ### _verifyIsArrayType
 
@@ -305,13 +308,14 @@ Creates the PHXSimpleArray type, although it overrides the default behaviour of 
 public static void _verifyIsArrayType(java.lang.String type)
                                throws PHXInvalidTypeException
 ```
+
 utility function for verifying that a type string is an array type - it is in the form `"XXXX[#]"`
 
 **Parameters:**
-- `<br>Type` - the type string
+- `Type` - the type string
 
 **Throws:**
-- `PHXInvalidTypeException`
+- [`PHXInvalidTypeException`](PHXInvalidTypeException.md)
 
 ### getClass
 
@@ -319,10 +323,11 @@ utility function for verifying that a type string is an array type - it is in th
 public static java.lang.Class getClass(java.lang.String type)
                                 throws PHXInvalidTypeException
 ```
+
 returns the class for the specified type. If the specified type is an array, the class of one of its members is returned
 
 **Parameters:**
-- `<br>Type` - the type string in format "double" or "double[5]"
+- `Type` - the type string in format "double" or "double[5]"
 
 **Returns:**
 - the class of the specified type
@@ -336,10 +341,11 @@ returns the class for the specified type. If the specified type is an array, the
 public static java.lang.Class getVariableClass(java.lang.String type)
                                         throws PHXInvalidTypeException
 ```
+
 Returns the class associated with the type string. This includes array classes if the type ends with "[]" or "Array"
 
 **Parameters:**
-- `<br>Type` - the string representing the type, such as "string", "double[]", or "IntegerArray"
+- `Type` - the string representing the type, such as "string", "double[]", or "IntegerArray"
 
 **Returns:**
 - the class of the variable type
@@ -352,6 +358,7 @@ Returns the class associated with the type string. This includes array classes i
 ```java
 public static java.lang.String getVarType(java.lang.String className)
 ```
+
 Given the class name, determine the corresponding type.
 
 **Parameters:**
@@ -361,20 +368,20 @@ Given the class name, determine the corresponding type.
 - variable name type, i.e. "double", "double[]", etc.
 
 ### toPHXSimpleType
-
 ```java
 public static PHXSimpleType toPHXSimpleType(java.lang.Object input,
                                             java.lang.Class<?> simpleTypeClass)
                                      throws PHXTypeMismatchException
 ```
+
 Converts the given type to the associated PHXSimpleType. This will always create a new object, regardless of whether or not the given type is a PHXSimpleType. If there is an error converting, or the class does not have an associated [PHXSimpleType](PHXSimpleType.md), this will throw a [`PHXInvalidTypeException`](PHXInvalidTypeException.md)
 
 **Parameters:**
 - `input` - the object to convert to a [PHXSimpleType](PHXSimpleType.md)
-: `simpleTypeClass` - the class of [PHXSimpleType](PHXSimpleType.md) to convert to
+- `simpleTypeClass` - the class of [PHXSimpleType](PHXSimpleType.md) to convert to
 
 **Returns:**
-- a new object containing the value of the input; in the case of PHXRawFile and PHXRawFileArray, only a new instance is returned, the value is not copied
+- a new object containing the value of the input; in the case of [`PHXRawFile`](PHXRawFile.md) and [`PHXRawFileArray`](PHXRawFileArray.md), only a new instance is returned, the value is not copied
 
 **Throws:**
 - [`PHXTypeMismatchException`](PHXTypeMismatchException.md) - if there is an error creating the [PHXSimpleType](PHXSimpleType.md) object, or if the given type cannot be converted to a [PHXSimpleType](PHXSimpleType.md)

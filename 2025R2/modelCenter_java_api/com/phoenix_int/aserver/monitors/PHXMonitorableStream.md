@@ -94,6 +94,7 @@ This class represents a stream of data which may be monitored by a client which 
 ```java
 public PHXMonitorableStream()
 ```
+
 Default Constructor
 
 ## Method Detail
@@ -103,6 +104,7 @@ Default Constructor
 ```java
 public void addMonitorListener(IPHXFileCallback cb)
 ```
+
 Adds a listener which gets events based on changes to this monitor
 
 ### removeMonitorListener
@@ -110,6 +112,7 @@ Adds a listener which gets events based on changes to this monitor
 ```java
 public void removeMonitorListener(IPHXFileCallback cb)
 ```
+
 Removes a listener from this monitor
 
 ### getWriter
@@ -117,6 +120,7 @@ Removes a listener from this monitor
 ```java
 public java.io.Writer getWriter()
 ```
+
 Gets a java.io.Writer which when written to appends onto this monitor
 
 ### clear
@@ -124,6 +128,7 @@ Gets a java.io.Writer which when written to appends onto this monitor
 ```java
 public void clear()
 ```
+
 Clears the contents of this monitor
 
 ### getString
@@ -131,6 +136,7 @@ Clears the contents of this monitor
 ```java
 public java.lang.String getString()
 ```
+
 Gets the current contents of the stream
 
 ### append
@@ -138,4 +144,5 @@ Gets the current contents of the stream
 ```java
 public void append(java.lang.String text)
 ```
+
 Appends a string to this monitor

@@ -48,7 +48,7 @@ void initialize(com.phoenix_int.aserver.ascore.PHXConnection connection,
                 IPHXFactory factories,
                 com.phoenix_int.aserver.ascore.PHXAServerArgs args,
                 org.w3c.dom.Node xmlOptions)
-    throws java.lang.Exception
+         throws java.lang.Exception
 ```
 
 **Deprecated.** Tells this librarian to configure itself based on the XML node passed in. The XML node should be a `<librarianOptions>` node whose format is specific to the particular type of librarian.
@@ -114,6 +114,7 @@ IPHXComponent instantiate(java.lang.String compClass,
 ```
 
 **Deprecated.** Creates an instance of the specified component. Typically a librarian will find the appropriate files and pass the request off to the [`IPHXFactory`](IPHXFactory.md).
+
 It is important that this class throws [`PHXNoSuchCategoryException`](PHXNoSuchCategoryException.md) and ClassNotFoundException in the appropriate cases as they are handled in special ways by the librarian mounter and librarian combiner.
 
 **Parameters:**

@@ -5,7 +5,7 @@
 
 **Class Hierarchy**
 
-```
+```java
 ↳ java.lang.Object
   ↳ java.lang.Enum<Parser.Mode>
     ↳ com.phoenix_int.aserver.util.Parser.Mode
@@ -99,6 +99,7 @@ public static final long FILE_SIZE_LIMIT
 ```java
 public static Parser.Mode[] values()
 ```
+
 Returns an array containing the constants of this enum type, in the order they are declared.  This method may be used to iterate over the constants as follows:
 
 ```java
@@ -114,6 +115,7 @@ for (Parser.Mode c : Parser.Mode.values())
 ```java
 public static Parser.Mode valueOf(java.lang.String name)
 ```
+
 Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)
 
 **Parameters:**
@@ -131,6 +133,7 @@ Returns the enum constant of this type with the specified name. The string must 
 ```java
 public int getCode()
 ```
+
 Retrieve the legacy integer code assigned to this access mode
 
 **Returns:**
@@ -165,6 +168,7 @@ public abstract IPHXLineStore newLineStore(java.io.File file,
                                            com.phoenix_int.util.IProgressListener progress)
                                     throws java.io.IOException
 ```
+
 Create a new line store consistent with the file-access mode
 
 **Parameters:**

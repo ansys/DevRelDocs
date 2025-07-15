@@ -3,7 +3,7 @@
 **Package:** `com.phoenix_int.aserver.client`
 
 **Class Hierarchy**
-```
+```java
 ↳ java.lang.Object
   ↳ com.phoenix_int.aserver.client.PHXAnalysisClient
 ```
@@ -12,7 +12,7 @@
 ```java
 @Deprecated
 public class PHXAnalysisClient
-    extends java.lang.Object
+extends java.lang.Object
 ```
 
 This class automates communications with ModelCenter Remote Execution. Communication can be performed asynchronously or synchronously. Synchronous communication is performed by calling any of the direct access functions, e.g. `start()` or `listProperties()`. Asynchronous communication is performed by calling a `sendXXXRequest()` function and then calling the matching `getXXXResponse()` when the response is ready. Listener methods are provided for notification of responses.
@@ -231,226 +231,251 @@ Sample Usage:
 ```java
 public static final int START_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### END_REQUEST
 ```java
 public static final int END_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### GET_REQUEST
 ```java
 public static final int GET_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### SET_REQUEST
 ```java
 public static final int SET_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### LIST_REQUEST
 ```java
 public static final int LIST_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### LIST_CLASSES_REQUEST
 ```java
 public static final int LIST_CLASSES_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### LIST_PROPERTIES_REQUEST
 ```java
 public static final int LIST_PROPERTIES_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### LIST_CATEGORIES_REQUEST
 ```java
 public static final int LIST_CATEGORIES_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### EXECUTE_REQUEST
 ```java
 public static final int EXECUTE_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### DESCRIBE_REQUEST
 ```java
 public static final int DESCRIBE_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### GET_ICON_REQUEST
 ```java
 public static final int GET_ICON_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### LIST_VALUES_REQUEST
 ```java
 public static final int LIST_VALUES_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### LIST_ARRAY_VALUES_REQUEST
 ```java
 public static final int LIST_ARRAY_VALUES_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### LIST_METHODS_REQUEST
 ```java
 public static final int LIST_METHODS_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### INVOKE_REQUEST
 ```java
 public static final int INVOKE_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### ADD_PROXY_CLIENTS_REQUEST
 ```java
 public static final int ADD_PROXY_CLIENTS_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### HISTORY_REQUEST
 ```java
 public static final int HISTORY_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### GET_BY_URL_REQUEST
 ```java
 public static final int GET_BY_URL_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### GET_HIERARCHY_REQUEST
 ```java
 public static final int GET_HIERARCHY_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### SET_HIERARCHY_REQUEST
 ```java
 public static final int SET_HIERARCHY_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### DELETE_RUN_SHARE_REQUEST
 ```java
 public static final int DELETE_RUN_SHARE_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### SET_DICTIONARY_REQUEST
 ```java
 public static final int SET_DICTIONARY_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### SET_BY_URL_REQUEST
 ```java
 public static final int SET_BY_URL_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### ARBITRARY_REQUEST
 ```java
 public static final int ARBITRARY_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ### LIST_VALUES_URL_REQUEST
 ```java
 public static final int LIST_VALUES_URL_REQUEST
 ```
-Deprecated. 
+
+**Deprecated.**  
 
 **See Also:**
-- Constant Field Values
+- [Constant Field Values](../../../../constant-values.md)
 
 ## Constructor Detail
 
@@ -458,7 +483,8 @@ Deprecated.
 ```java
 public PHXAnalysisClient()
 ```
-Deprecated.
+
+**Deprecated.** 
 
 ### PHXAnalysisClient
 ```java
@@ -466,7 +492,8 @@ public PHXAnalysisClient(java.lang.String host)
                   throws java.io.IOException, 
                          java.net.UnknownHostException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 **Parameters:**
 - host - the MCRE host to connect to, or the full URL style host specification (`mcre://hostname:port`)
@@ -482,7 +509,8 @@ public PHXAnalysisClient(java.lang.String host,
                   throws java.io.IOException, 
                          java.net.UnknownHostException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 **Parameters:**
 - host - the MCRE host to connect to
@@ -500,7 +528,8 @@ public PHXAnalysisClient(java.lang.String host,
                   throws java.io.IOException, 
                          java.net.UnknownHostException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 **Parameters:**
 - host - the MCRE host to connect to
@@ -520,7 +549,8 @@ public PHXAnalysisClient(java.lang.String host,
                   throws java.io.IOException, 
                          java.net.UnknownHostException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 **Parameters:**
 - host - the MCRE host to connect to
@@ -540,7 +570,8 @@ public void connect(java.lang.String host)
             throws java.io.IOException, 
                    java.net.UnknownHostException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 connects to MCRE on the specified host
 
@@ -558,7 +589,8 @@ public void connectURL(java.lang.String url)
                       java.net.UnknownHostException, 
                       java.net.URISyntaxException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 connects to MCRE using the specified URL, such as `mcre://hostname`.
 
@@ -580,7 +612,8 @@ public void connectURL(java.lang.String url,
                       java.net.UnknownHostException, 
                       java.net.URISyntaxException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 connects to ModelCenter Remote Execution using the specified URL, such as `mcre://hostname`. Note that if you are using mcre+local style connections, you must have previously instantiated MCRE Engine as described in `connectLocal()`.
 
@@ -598,7 +631,8 @@ public void connectLocal(java.lang.String userName,
                         java.lang.String password)
                  throws java.io.IOException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 Makes a virtual connection to ModelCenter Remote Execution inside of this process. MCRE must have been previously instantiated using this method:
 ```
@@ -617,10 +651,12 @@ public void connectLocal(java.lang.String userName,
                         java.lang.Object> initialProps)
                  throws java.io.IOException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 Makes a virtual connection to the MCRE inside of this process. MCRE must have been previously instantiated using this method:
-```
+
+```java
   PHXAnalysisServer.doInitialization(
     new String[] {"-aee", "-noSManager",
                   "-base", "c:\\users\\nsharp\\vers\\MCAS\\ASERVER\\install"});
@@ -636,10 +672,12 @@ public void connectProcess(java.lang.String userName,
                           java.lang.String asConfig)
                    throws java.io.IOException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 Makes a virtual connection to MCRE by calling a new java process. MCRE must have been previously instantiated using this method:
-```
+
+```java
   PHXAnalysisServer.doInitialization(
     new String[] {"-aee", "-noSManager",
                   "-base", "c:\\users\\nsharp\\vers\\MCAS\\ASERVER\\install"});
@@ -654,7 +692,8 @@ public void connect(java.lang.String host,
             throws java.io.IOException, 
                    java.net.UnknownHostException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 connects to MCRE on the specified host
 
@@ -674,7 +713,8 @@ public void connect(java.lang.String host,
             throws java.io.IOException, 
                    java.net.UnknownHostException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 connects to MCRE on the specified host
 
@@ -695,7 +735,8 @@ public void connectExternal(java.lang.String host,
                            java.lang.String password)
                     throws java.io.IOException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 connects to MCRE via external tool
 
@@ -718,7 +759,8 @@ public void connect(java.lang.String host,
             throws java.io.IOException, 
                    java.net.UnknownHostException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 connects to MCRE on the specified host
 
@@ -743,7 +785,8 @@ public void connect(java.lang.String host,
             throws java.io.IOException, 
                    java.net.UnknownHostException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 connects to MCRE on the specified host
 
@@ -767,7 +810,8 @@ public static void handleLogin(java.io.InputStream in,
                               java.lang.String password)
                        throws java.io.IOException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 **Throws:**
 - `java.io.IOException`
@@ -776,7 +820,8 @@ Deprecated.
 ```java
 public boolean isConnected()
 ```
-Deprecated.
+
+**Deprecated.** 
 
 determines if the client is currently connected to a server
 
@@ -787,7 +832,8 @@ determines if the client is currently connected to a server
 ```java
 public void setDeleteDFT(boolean delete)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 Set whether the analysis client should auto-delete Direct File Transfer run shares or not
 
@@ -795,7 +841,8 @@ Set whether the analysis client should auto-delete Direct File Transfer run shar
 ```java
 public java.lang.String getHostName()
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves the host name of the server
 
@@ -806,7 +853,8 @@ retrieves the host name of the server
 ```java
 public void close()
 ```
-Deprecated.
+
+**Deprecated.** 
 
 closes the connection to the server
 
@@ -815,9 +863,10 @@ closes the connection to the server
 protected void finalize()
                  throws java.lang.Throwable
 ```
-Deprecated.
 
-Overrides:
+**Deprecated.** 
+
+**Overrides:**
 - finalize in class `java.lang.Object`
 
 **Throws:**
@@ -827,7 +876,8 @@ Overrides:
 ```java
 public void addListener(IPHXAnalysisClientListener l)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 adds a listener
 
@@ -838,7 +888,8 @@ adds a listener
 ```java
 public void removeListener(IPHXAnalysisClientListener l)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 removes a listener
 
@@ -849,7 +900,8 @@ removes a listener
 ```java
 public boolean isResponseReady(java.lang.String id)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 indicates whether a response is ready
 
@@ -864,7 +916,8 @@ indicates whether a response is ready
 public java.lang.String sendStartRequest(java.lang.String analysis, 
                                          java.lang.String instanceName)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to start an analysis
 
@@ -883,7 +936,8 @@ public java.lang.String getStartResponse(java.lang.String id,
                                          PHXNoSuchResponseException, 
                                          PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -905,7 +959,8 @@ public java.lang.String start(java.lang.String analysis,
                               java.lang.String instanceName)
                        throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 starts an analysis
 
@@ -923,7 +978,8 @@ starts an analysis
 ```java
 public java.lang.String sendEndRequest(java.lang.String analysis)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to end an analysis
 
@@ -941,7 +997,8 @@ public java.lang.String getEndResponse(java.lang.String id,
                                        PHXNoSuchResponseException, 
                                        PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -962,7 +1019,8 @@ retrieves a response from the server
 public java.lang.String end(java.lang.String analysis)
                      throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 ends an analysis
 
@@ -979,7 +1037,8 @@ ends an analysis
 ```java
 public java.lang.String sendListClassesRequest(java.lang.String category)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to list the classes
 
@@ -997,7 +1056,8 @@ public java.lang.String[] getListClassesResponse(java.lang.String id,
                                                  PHXNoSuchResponseException, 
                                                  PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1018,7 +1078,8 @@ retrieves a response from the server
 public java.lang.String[] listClasses(java.lang.String category)
                                throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 lists the classes within a category
 
@@ -1035,7 +1096,8 @@ lists the classes within a category
 ```java
 public java.lang.String sendExecuteRequest(java.lang.String analysis)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to execute an analysis
 
@@ -1053,7 +1115,8 @@ public java.lang.String getExecuteResponse(java.lang.String id,
                                            PHXNoSuchResponseException, 
                                            PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1074,7 +1137,8 @@ retrieves a response from the server
 public java.lang.String execute(java.lang.String analysis)
                          throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 exectutes an analysis
 
@@ -1091,7 +1155,8 @@ exectutes an analysis
 ```java
 public java.lang.String sendAddProxyClientsRequest(java.lang.String clients)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 Tells the server to add other hosts as part of the proxy chain
 
@@ -1109,7 +1174,8 @@ public java.lang.String getAddProxyClientsResponse(java.lang.String id,
                                                    PHXNoSuchResponseException, 
                                                    PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1130,7 +1196,8 @@ retrieves a response from the server
 public java.lang.String addProxyClients(java.lang.String clients)
                                  throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 Tells the server to add other hosts as part of the proxy chain
 
@@ -1147,7 +1214,8 @@ Tells the server to add other hosts as part of the proxy chain
 ```java
 public java.lang.String sendGetRequest(java.lang.String property)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to get the value of a property
 
@@ -1165,7 +1233,8 @@ public java.lang.String getGetResponse(java.lang.String id,
                                        PHXNoSuchResponseException, 
                                        PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1189,7 +1258,8 @@ public PHXStringBuffer getGetResponse2(java.lang.String id,
                                        PHXNoSuchResponseException, 
                                        PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1210,7 +1280,8 @@ retrieves a response from the server
 public java.lang.String get(java.lang.String property)
                      throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 get the value of a property
 
@@ -1229,7 +1300,8 @@ get the value of a property
 public PHXStringBuffer get2(java.lang.String property)
                      throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 get the value of a property
 
@@ -1248,7 +1320,8 @@ get the value of a property
 public java.lang.String sendGetByUrlRequest(java.lang.String propertyName, 
                                             java.lang.String url)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to get the value of a property
 
@@ -1266,7 +1339,8 @@ public PHXStringBuffer getGetByUrlResponse(java.lang.String id,
                                            PHXNoSuchResponseException, 
                                            PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1288,7 +1362,8 @@ public PHXStringBuffer getByUrl(java.lang.String propertyName,
                                 java.lang.String url)
                          throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 get the value of a property
 
@@ -1307,7 +1382,8 @@ get the value of a property
 public java.lang.String sendSetByUrlRequest(java.lang.String varName, 
                                             java.lang.String url)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to get the value of a property
 
@@ -1325,7 +1401,8 @@ public PHXStringBuffer getSetByUrlResponse(java.lang.String id,
                                            PHXNoSuchResponseException, 
                                            PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1347,7 +1424,8 @@ public void setByUrl(java.lang.String varName,
                      java.lang.String url)
               throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 set the value of a variable
 
@@ -1363,7 +1441,8 @@ set the value of a variable
 public java.lang.String sendSetRequest(java.lang.String property, 
                                        java.lang.Object value)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to set the value of a property
 
@@ -1381,7 +1460,8 @@ public java.lang.String getSetResponse(java.lang.String id,
                                        PHXNoSuchResponseException, 
                                        PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1403,7 +1483,8 @@ public java.lang.String set(java.lang.String property,
                             java.lang.Object value)
                      throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 set the value of a property
 
@@ -1422,7 +1503,8 @@ set the value of a property
 ```java
 public java.lang.String sendGetComponentHistoryRequest(java.lang.String analysis)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to get the version history of a component
 
@@ -1440,7 +1522,8 @@ public PHXComponentBranch getGetComponentHistoryResponse(java.lang.String id,
                                                          PHXNoSuchResponseException, 
                                                          PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1461,7 +1544,8 @@ retrieves a response from the server
 public PHXComponentBranch getComponentHistory(java.lang.String analysis)
                                        throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 Gets the component history for a particular component.
 
@@ -1478,7 +1562,8 @@ Gets the component history for a particular component.
 ```java
 public java.lang.String sendDescribeRequest(java.lang.String analysis)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to describe an analysis
 
@@ -1496,7 +1581,8 @@ public PHXComponentDescription getDescribeResponse(java.lang.String id,
                                                    PHXNoSuchResponseException, 
                                                    PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1517,7 +1603,8 @@ retrieves a response from the server
 public PHXComponentDescription describe(java.lang.String analysis)
                                  throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 describes an analysis
 
@@ -1534,7 +1621,8 @@ describes an analysis
 ```java
 public java.lang.String sendListPropertiesRequest(java.lang.String analysis)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to list the properties of an analysis
 
@@ -1552,7 +1640,8 @@ public PHXPropertyDescriptor[] getListPropertiesResponse(java.lang.String id,
                                                          PHXNoSuchResponseException, 
                                                          PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1573,7 +1662,8 @@ retrieves a response from the server
 public PHXPropertyDescriptor[] listProperties(java.lang.String analysis)
                                        throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 lists the properties of an analysis
 
@@ -1590,7 +1680,8 @@ lists the properties of an analysis
 ```java
 public java.lang.String sendListMethodsRequest(java.lang.String analysis)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to list the methods of an analysis
 
@@ -1608,7 +1699,8 @@ public PHXMethodDescriptor[] getListMethodsResponse(java.lang.String id,
                                                     PHXNoSuchResponseException, 
                                                     PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1629,7 +1721,8 @@ retrieves a response from the server
 public PHXMethodDescriptor[] listMethods(java.lang.String analysis)
                                   throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 lists the methods of an analysis
 
@@ -1646,7 +1739,8 @@ lists the methods of an analysis
 ```java
 public java.lang.String sendInvokeRequest(java.lang.String method)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to invoke a method
 
@@ -1664,7 +1758,8 @@ public java.lang.String getInvokeResponse(java.lang.String id,
                                           PHXNoSuchResponseException, 
                                           PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1685,7 +1780,8 @@ retrieves a response from the server
 public java.lang.String invoke(java.lang.String method)
                         throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 invokes a method
 
@@ -1702,13 +1798,15 @@ invokes a method
 ```java
 public java.lang.String sendListValuesRequest(java.lang.String analysis)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 ### sendListValuesURLRequest
 ```java
 public java.lang.String sendListValuesURLRequest(java.lang.String analysis)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 ### getListValuesResponse
 ```java
@@ -1720,7 +1818,8 @@ public PHXPropertyValue[] getListValuesResponse(java.lang.String id,
                                                 java.io.IOException, 
                                                 java.lang.NumberFormatException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 **Throws:**
 - `PHXResponseTypeMismatchException`
@@ -1735,7 +1834,8 @@ public PHXPropertyValue[] listValues(java.lang.String analysis)
                               throws PHXServerSideException, 
                                      java.io.IOException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 **Throws:**
 - `PHXServerSideException`
@@ -1745,7 +1845,8 @@ Deprecated.
 ```java
 public java.lang.String sendListArrayValuesRequest(java.lang.String analysis)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 ### getListArrayValuesResponse
 ```java
@@ -1754,7 +1855,8 @@ public java.lang.String[] getListArrayValuesResponse(java.lang.String id,
                                               throws PHXResponseTypeMismatchException, 
                                                      PHXNoSuchResponseException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 **Throws:**
 - `PHXResponseTypeMismatchException`
@@ -1766,17 +1868,19 @@ public java.lang.String[] listArrayValues(java.lang.String analysis)
                                    throws PHXServerSideException, 
                                           java.io.IOException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 **Throws:**
-- []`PHXServerSideException`](PHXServerSideException.md)
+- [`PHXServerSideException`](PHXServerSideException.md)
 - `java.io.IOException`
 
 ### sendListCategoriesRequest
 ```java
 public java.lang.String sendListCategoriesRequest(java.lang.String category)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to list the categories
 
@@ -1794,7 +1898,8 @@ public java.lang.String[] getListCategoriesResponse(java.lang.String id,
                                                     PHXNoSuchResponseException, 
                                                     PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1815,7 +1920,8 @@ retrieves a response from the server
 public java.lang.String[] listCategories(java.lang.String category)
                                   throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 lists the categories within a category
 
@@ -1832,7 +1938,8 @@ lists the categories within a category
 ```java
 public java.lang.String sendListRequest()
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to list the running objects
 
@@ -1847,7 +1954,8 @@ public java.lang.String[] getListResponse(java.lang.String id,
                                           PHXNoSuchResponseException, 
                                           PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1868,7 +1976,8 @@ retrieves a response from the server
 public java.lang.String[] list()
                         throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 lists the running objects
 
@@ -1882,7 +1991,8 @@ lists the running objects
 ```java
 public java.lang.String sendGetHierarchyRequest(java.lang.String analysis)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to retrieve a hierarchy for a component
 
@@ -1897,7 +2007,8 @@ sends a request to retrieve a hierarchy for a component
 public java.lang.String sendGetHierarchyRequest(java.lang.String analysis, 
                                                 com.phoenix_int.aserver.client.PHXHierarchyFileMode fileMode)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to retrieve a hierarchy for a component
 
@@ -1916,7 +2027,8 @@ public PHXStringBuffer getGetHierarchyResponse(java.lang.String id,
                                                PHXNoSuchResponseException, 
                                                PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1937,7 +2049,8 @@ retrieves a response from the server
 public PHXStringBuffer getHierarchy(java.lang.String analysis)
                              throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrievethe hierarchy for the component
 
@@ -1955,7 +2068,8 @@ retrievethe hierarchy for the component
 public java.lang.String sendSetHierarchyRequest(java.lang.String analysis, 
                                                 PHXStringBuffer xml)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 Sends a request to set a hierarchy for a component
 
@@ -1974,7 +2088,8 @@ public java.lang.String getSetHierarchyResponse(java.lang.String id,
                                                 PHXNoSuchResponseException, 
                                                 PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -1996,7 +2111,8 @@ public java.lang.String setHierarchy(java.lang.String analysis,
                                      PHXStringBuffer xml)
                               throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 Sends a request to set a hierarchy for a component
 
@@ -2014,7 +2130,8 @@ Sends a request to set a hierarchy for a component
 ```java
 public java.lang.String sendDeleteRunShareRequest(java.lang.Long key)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 Sends a request to delete a runShare
 
@@ -2032,7 +2149,8 @@ public java.lang.String getDeleteRunShareResponse(java.lang.String id,
                                                  PHXNoSuchResponseException, 
                                                  PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -2053,7 +2171,8 @@ retrieves a response from the server
 public java.lang.String deleteRunShare(java.lang.Long key)
                                 throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 Handle cleaning up a runShare in a local client
 
@@ -2064,7 +2183,8 @@ Handle cleaning up a runShare in a local client
 ```java
 public java.lang.String sendGetIconRequest(java.lang.String analysis)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to retrieve an icon
 
@@ -2082,7 +2202,8 @@ public PHXIcon getGetIconResponse(java.lang.String id,
                                   PHXNoSuchResponseException, 
                                   PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -2103,7 +2224,8 @@ retrieves a response from the server
 public PHXIcon getIcon(java.lang.String analysis)
                 throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves an icon for an analysis
 
@@ -2120,7 +2242,8 @@ retrieves an icon for an analysis
 ```java
 public java.lang.String sendSetDictionaryRequest(java.lang.String dictionary)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends a request to set a dictionary
 
@@ -2138,7 +2261,8 @@ public java.lang.String getSetDictionaryResponse(java.lang.String id,
                                                  PHXNoSuchResponseException, 
                                                  PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a response from the server
 
@@ -2159,7 +2283,8 @@ retrieves a response from the server
 public java.lang.String setDictionary(java.lang.String dictionary)
                                throws PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 Tries to set the dictionary by sending a set dictionary request.
 
@@ -2176,7 +2301,8 @@ Tries to set the dictionary by sending a set dictionary request.
 ```java
 public java.lang.String sendArbitraryRequest(java.lang.String request)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends an arbitrary request to the server
 
@@ -2190,7 +2316,8 @@ sends an arbitrary request to the server
 ```java
 public java.lang.String sendArbitraryRequest(PHXStringBuffer request)
 ```
-Deprecated.
+
+**Deprecated.** 
 
 sends an arbitrary request to the server
 
@@ -2209,7 +2336,8 @@ public java.lang.String getResponseAsText(java.lang.String id,
                                           PHXNoSuchResponseException, 
                                           PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a low-level response from the server in String format.
 
@@ -2235,7 +2363,8 @@ public PHXStringBuffer getResponseAsPHXStringBuffer(java.lang.String id,
                                                     PHXNoSuchResponseException, 
                                                     PHXServerSideException
 ```
-Deprecated.
+
+**Deprecated.** 
 
 retrieves a low-level response from the server in String format.
 
@@ -2256,4 +2385,5 @@ retrieves a low-level response from the server in String format.
 ```java
 public static void main(java.lang.String[] args)
 ```
-Deprecated.
+
+**Deprecated.** 

@@ -2,6 +2,8 @@
 
 **Package:** `com.phoenix_int.aserver.util`
 
+---
+
 **Declaration**
 
 ```java
@@ -16,18 +18,6 @@ This is the interface for holding a set of lines. It is used by the [`PHXFilePar
 |-------------------|----------------------|
 | `void` | `close()`<br>Closes any resources associated with this line store |
 
-## Related Classes
-
-- [`PHXFileParser`](PHXFileParser.md) - File parser that uses this interface
-- [`Parser`](Parser.md) - Base parser class
-- [`package-tree`](package-tree.md) - Class hierarchy for this package
-
-**See Also:**
-
-- [Package Summary](package-summary.md) - Overview of all classes in this package
-- [All Classes Index](../../../index-all.md) - Complete class index
-| `java.lang.String` | `getLine(int index)`<br>Retrieves the specified line |
-| `int` | `getNumLines()`<br>Gets the total number of lines |
 
 ## Method Detail
 
@@ -36,6 +26,7 @@ This is the interface for holding a set of lines. It is used by the [`PHXFilePar
 ```java
 int getNumLines()
 ```
+
 Gets the total number of lines
 
 ### getLine
@@ -44,6 +35,7 @@ Gets the total number of lines
 java.lang.String getLine(int index) 
                   throws java.io.IOException
 ```
+
 Retrieves the specified line
 
 **Parameters:**
@@ -63,4 +55,5 @@ Retrieves the specified line
 ```java
 void close()
 ```
+
 Closes any resources associated with this line store

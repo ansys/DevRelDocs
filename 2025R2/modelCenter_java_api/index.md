@@ -70,9 +70,9 @@ There is a [Class Hierarchy](overview-tree.md) page for all packages, plus a hie
 
 The [Deprecated API](deprecated-list.md) page lists all of the API that have been deprecated. A deprecated API is not recommended for use, generally due to improvements, and a replacement API is usually given. Deprecated APIs may be removed in future implementations.
 
-### Index
+### Reference
 
-The [Index](index-all.md) contains an alphabetic list of all classes, interfaces, constructors, methods, and fields.
+The [Reference](reference-all.md) contains an alphabetic list of all classes, interfaces, constructors, methods, and fields.
 
 ### Serialized form
 

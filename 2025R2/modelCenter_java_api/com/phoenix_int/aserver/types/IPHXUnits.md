@@ -57,6 +57,7 @@ if (var instanceof IPHXUnits)
 ```java
 java.lang.String getUnits()
 ```
+
 Get the units string for the variable.
 
 **Returns:**
@@ -67,6 +68,7 @@ Get the units string for the variable.
 ```java
 void setUnits(java.lang.String units)
 ```
+
 Set the units string for the variable.
 
 **Parameters:**
