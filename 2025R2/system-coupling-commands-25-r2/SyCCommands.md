@@ -1,4 +1,4 @@
-# Documentation: System Coupling Commands
+# System Coupling Commands
 
 This document provides detailed information on the commands you can use to interact with System Coupling from the command line, whether from System Coupling's command-line interface (CLI) or from the **Command Console** tab of its graphical user interface (GUI).
 
