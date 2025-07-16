@@ -6,7 +6,8 @@
         "version": "2025 R2",
         "product": "System Coupling",
         "programming language": "C,C++,Fortran,Python",
-        "physics": "Multiphysics"
+        "product collection": "Multiphysics, Structures, Fluids",
+        "physics": "Multiphysics, Structures, Fluids"
       }
     }
  }
