@@ -63,9 +63,9 @@ The ``data_sources`` holds information on files of interest such as:
 - their associated namespace
 - their associated key (usually the file extension)
 
-#### Streaming
-
 <a id="streams-container"></a>
+
+#### Streaming
 
 The ``streams_container`` is the result of opening a stream to files in a ``data_sources``.
 It enables streaming to and from the files and handles caching of data requests to the files.
@@ -76,29 +76,29 @@ The use of a ``streams_container`` is highly recommended whenever possible to be
 
 The following DPF objects hold light-weight data (metadata) relative to other DPF types.
 
-#### Field metadata
-
 <a id="field-definition"></a>
+
+#### Field metadata
 
 The ``field_definition`` holds metadata relative to a ``field``.
 
-#### Mesh metadata
-
 <a id="mesh-info"></a>
+
+#### Mesh metadata
 
 The ``mesh_info`` holds metadata relative to a ``meshed_region``.
 
 Only available for CFF and LSDYNA.
 
-#### Result file metadata
-
 <a id="result-info"></a>
+
+#### Result file metadata
 
 The ``result_info`` holds metadata relative to available results in files from a ``data_sources``.
 
-### Data supports
-
 <a id="support"></a>
+
+### Data supports
 
 Supports are entities dedicated to holding information about the model itself.
 
@@ -106,9 +106,10 @@ Every ``field`` requires a ``support`` for DPF to understand what its data is re
 
 This concept allows DPF to manage simulation data efficiently.
 
-#### Mesh
 
 <a id="meshed-region"></a>
+
+#### Mesh
 
 The ``meshed_region`` holds information relative to the mesh of the simulation model.
 
@@ -117,16 +118,16 @@ It gives access to several fields of data such as:
 - the node coordinates
 - the element types
 
-#### Time and frequency
-
 <a id="time-freq-support"></a>
+
+#### Time and frequency
 
 For time and pseudo time based simulations or for frequency based simulations, the ``time_freq_support`` holds information about the 
 simulation steps and sub-steps, time-steps, or mode/harmonic frequencies.
 
-#### Cyclic
-
 <a id="cyclic-support"></a>
+
+#### Cyclic
 
 For cyclic simulation models, the ``cyclic_support`` holds information about the number of sectors and the number of stages.
 
@@ -156,9 +157,9 @@ Each ``field`` data storage type has a ``scoping`` associated to it, describing 
 
 The following DPF types allow you to store and describe data.
 
-#### Data map
-
 <a id="generic-data-container"></a>
+
+#### Data map
 
 The ``generic_data_container`` allows you to store any type known to DPF as a property with a given name.
 
@@ -168,9 +169,9 @@ The ``generic_data_container`` allows you to store any type known to DPF as a pr
 
 The ``data_tree`` allows you to store DPF known types as named attributes of a data tree with sub-trees.
 
-#### Data arrays
-
 <a id="arrays"></a>
+
+#### Data arrays
 
 The following types represent arrays of data.
 
@@ -180,27 +181,27 @@ Example 1: a ``field`` that describes the evolution in time of the static pressu
 
 Example 2: a ``field`` that describes the evolution in space of the stress at a given body of a structural model has a scoping comprised of the element ids where the stress is defined and a ``meshed_region`` support that contextualizes these element ids. 
 
-##### Doubles
-
 <a id="field"></a>
+
+##### Doubles
 
 The ``field`` represents an array of double values.
 
-##### Integers
-
 <a id="property-field"></a>
+
+##### Integers
 
 The ``property_field`` represents an array of integer values.
 
-##### Strings
-
 <a id="string-field"></a>
+
+##### Strings
 
 The ``string_field`` represents an array of string values.
 
-##### Custom
-
 <a id="custom-type-field"></a>
+
+##### Custom
 
 The ``custom_type_field`` represents an array of values of a custom type as defined by the unitary type of the field.
 
@@ -213,6 +214,7 @@ DPF allows you to group DPF types in labeled collections.
 A DPF ``collection`` has a set of associated labels, for which each entry has a value. This allows you to distinguish between entries and retrieve them. 
 
 #### Label space
+
 <a id="label-space"></a>
 
 The ``label_space`` is a map of ("label": integer value) couples used to target a subset of entries in a collection.
@@ -221,45 +223,45 @@ For example, if a ``collection`` has labels ``material`` and ``part``, each enti
 
 A ``label_space`` such as ``{"material": X, "part": Y}`` then targets a single entity in the collection, whereas one such as ``{"material": X}`` targets all entries of material "X".
 
-#### Base collection
-
 <a id="collection"></a>
+
+#### Base collection
 
 The ``collection`` is the generic type for collections of DPF entities.
 
-#### Collection of any
-
 <a id="any-collection"></a>
+
+#### Collection of any
 
 The ``any_collection`` is a collection of ``Any`` objects. 
 
-#### Collection of fields of custom type
-
 <a id="custom-type-fields-container"></a>
+
+#### Collection of fields of custom type
 
 The ``custom_type_fields_container`` is a collection of ``custom_type_field`` instances.
 
-#### Collection of fields of doubles
-
 <a id="fields-container"></a>
+
+#### Collection of fields of doubles
 
 The ``fields_container`` is a collection of ``field`` instances.
 
-#### Collection of fields of integers
-
 <a id="property-fields-container"></a>
+
+#### Collection of fields of integers
 
 The ``property_fields_container`` is a collection of ``property_field`` instances.
 
-#### Collection of meshes
-
 <a id="meshes-container"></a>
+
+#### Collection of meshes
 
 The ``meshes_container`` is a collection of ``meshed_region`` instances.
 
-#### Collection of scopings
-
 <a id="scopings-container"></a>
+
+#### Collection of scopings
 
 The ``scopings_container`` is a collection of ``scoping`` instances.
 

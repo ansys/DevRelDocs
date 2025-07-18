@@ -17,7 +17,7 @@ Read reduced matrices for cms elements. Extract stiffness, damping, mass matrice
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | Data_sources (must contain at list one subfile). |
-| <strong>Pin 200</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  matrix_form |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | If this pin i set to true, data are return as matrix form. |
+| <strong>Pin 200</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  matrix_form |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If this pin i set to true, data are return as matrix form. |
 
 ## Outputs
 
@@ -29,7 +29,7 @@ Read reduced matrices for cms elements. Extract stiffness, damping, mass matrice
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

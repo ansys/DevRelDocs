@@ -23,14 +23,14 @@ Checks if two property_fields_container are identical.
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| boolean |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | bool (true if identical...) |
-|  **Pin 1**| message |[`string`](../../core-concepts/dpf-types.md#standard-types}}) |  |
+|  **Pin 0**| boolean |[`bool`](../../core-concepts/dpf-types.md#standard-types) | bool (true if identical...) |
+|  **Pin 1**| message |[`string`](../../core-concepts/dpf-types.md#standard-types) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

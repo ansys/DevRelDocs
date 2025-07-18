@@ -16,7 +16,7 @@ Sends a local workflow to a remote process (and keep a local image of it) or cre
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  workflow_to_send |[`workflow`](../../core-concepts/dpf-types.md#workflow), [`int32`](../../core-concepts/dpf-types.md#standard-types}}) | local workflow to push to a remote or id of a remote workflow |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  workflow_to_send |[`workflow`](../../core-concepts/dpf-types.md#workflow), [`int32`](../../core-concepts/dpf-types.md#standard-types) | local workflow to push to a remote or id of a remote workflow |
 | <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  streams_to_remote |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) |  |
 | <strong>Pin 4</strong>|  data_sources_to_remote |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) |  |
 
@@ -30,9 +30,9 @@ Sends a local workflow to a remote process (and keep a local image of it) or cre
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **num_threads** |[`int32`](../../core-concepts/dpf-types.md#standard-types}}) | 0 | Number of threads to use to run in parallel |
-| **run_in_parallel** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **num_threads** |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 | Number of threads to use to run in parallel |
+| **run_in_parallel** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
 
 ## Scripting
 

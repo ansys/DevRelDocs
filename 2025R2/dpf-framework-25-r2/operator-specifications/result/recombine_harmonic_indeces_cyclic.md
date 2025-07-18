@@ -28,11 +28,11 @@ Add the fields corresponding to different load steps with the same frequencies t
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **num_threads** |[`int32`](../../core-concepts/dpf-types.md#standard-types}}) | 0 | Number of threads to use to run in parallel |
-| **run_in_parallel** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
-| **use_cache** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | true | Some intermediate data is put in cache if this config is set to true. This option can reduce computation time after the first run. |
-| **work_by_index** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, loops and comparisons by entity will be done by index instead of ids. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **num_threads** |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 | Number of threads to use to run in parallel |
+| **run_in_parallel** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | true | Loops are allowed to run in parallel if the value of this config is set to true. |
+| **use_cache** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | true | Some intermediate data is put in cache if this config is set to true. This option can reduce computation time after the first run. |
+| **work_by_index** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, loops and comparisons by entity will be done by index instead of ids. |
 
 ## Scripting
 

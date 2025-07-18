@@ -17,11 +17,11 @@ Compute the tonal audibility and tonal adjustment over time of a signal, where t
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_signal |[`field`](../../core-concepts/dpf-types.md#field) | Input signal in Pa on which to compute the ISO 1996-2:2007 tonality over time. |
-| <strong>Pin 1</strong>|  window_length |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Analysis window length in ms. Default: 1000 ms. |
-| <strong>Pin 2</strong>|  overlap |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Percentage in % of each analysis window that overlaps with the next. Default: 75 %. |
-| <strong>Pin 3</strong>|  noise_threshold |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Noise pause detection threshold (also referred to as level excess) in dB. Must be positive. Default: 1 dB. |
-| <strong>Pin 4</strong>|  effective_analysis_bw |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Effective analysis bandwidth in Hz. Must be in the range ]0, 5]. Default: 5 Hz. |
-| <strong>Pin 5</strong>|  noise_bandwidth |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Noise bandwidth, in proportion to the critical bandwidth, that is taken into account for the calculation of the masking noise level (the default value 0.75 means that the masking noise level is estimated in a band delimited by 75 % of the critical bandwidth on each side of the tone). Must be in the range [0.75, 2]. Default: 0.75. |
+| <strong>Pin 1</strong>|  window_length |[`double`](../../core-concepts/dpf-types.md#standard-types) | Analysis window length in ms. Default: 1000 ms. |
+| <strong>Pin 2</strong>|  overlap |[`double`](../../core-concepts/dpf-types.md#standard-types) | Percentage in % of each analysis window that overlaps with the next. Default: 75 %. |
+| <strong>Pin 3</strong>|  noise_threshold |[`double`](../../core-concepts/dpf-types.md#standard-types) | Noise pause detection threshold (also referred to as level excess) in dB. Must be positive. Default: 1 dB. |
+| <strong>Pin 4</strong>|  effective_analysis_bw |[`double`](../../core-concepts/dpf-types.md#standard-types) | Effective analysis bandwidth in Hz. Must be in the range ]0, 5]. Default: 5 Hz. |
+| <strong>Pin 5</strong>|  noise_bandwidth |[`double`](../../core-concepts/dpf-types.md#standard-types) | Noise bandwidth, in proportion to the critical bandwidth, that is taken into account for the calculation of the masking noise level (the default value 0.75 means that the masking noise level is estimated in a band delimited by 75 % of the critical bandwidth on each side of the tone). Must be in the range [0.75, 2]. Default: 0.75. |
 
 ## Outputs
 
@@ -35,7 +35,7 @@ Compute the tonal audibility and tonal adjustment over time of a signal, where t
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

@@ -17,16 +17,16 @@ Compute the tonality of a signal, according to the DIN 45681 standard.
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_signal |[`field`](../../core-concepts/dpf-types.md#field) | Input signal in Pa on which to compute the DIN 45681 tonality. |
-| <strong>Pin 1</strong>|  window_length |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Analysis window length in seconds. Default: 3 s. |
-| <strong>Pin 2</strong>|  overlap |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Percentage of each analysis window that overlaps with the next, in %. Default: 0 %. |
+| <strong>Pin 1</strong>|  window_length |[`double`](../../core-concepts/dpf-types.md#standard-types) | Analysis window length in seconds. Default: 3 s. |
+| <strong>Pin 2</strong>|  overlap |[`double`](../../core-concepts/dpf-types.md#standard-types) | Percentage of each analysis window that overlaps with the next, in %. Default: 0 %. |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| output_mean_difference_dl |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Tonality (mean difference DL) in dB. |
-|  **Pin 1**| output_mean_difference_uncertainty |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Tonality's uncertainty in dB. |
-|  **Pin 2**| output_tonal_adjustment_kt |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Tonal adjustment (Kt) in dB. |
+|  **Pin 0**| output_mean_difference_dl |[`double`](../../core-concepts/dpf-types.md#standard-types) | Tonality (mean difference DL) in dB. |
+|  **Pin 1**| output_mean_difference_uncertainty |[`double`](../../core-concepts/dpf-types.md#standard-types) | Tonality's uncertainty in dB. |
+|  **Pin 2**| output_tonal_adjustment_kt |[`double`](../../core-concepts/dpf-types.md#standard-types) | Tonal adjustment (Kt) in dB. |
 |  **Pin 3**| output_decisive_difference_over_time |[`field`](../../core-concepts/dpf-types.md#field) | Tonality over time (decisive difference over time DLj) in dB. |
 |  **Pin 4**| output_decisive_difference_uncertainty_over_time |[`field`](../../core-concepts/dpf-types.md#field) | Tonality's uncertainty over time in dB. |
 |  **Pin 5**| output_decisive_frequency_over_time |[`field`](../../core-concepts/dpf-types.md#field) | Decisive frequency over time in Hz. |
@@ -37,7 +37,7 @@ Compute the tonality of a signal, according to the DIN 45681 standard.
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

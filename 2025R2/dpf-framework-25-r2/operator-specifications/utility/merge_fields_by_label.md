@@ -17,9 +17,9 @@ Merges the fields of a fields container that share the same label value.
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  label |[`string`](../../core-concepts/dpf-types.md#standard-types}}) | Label identifier that should be merged. |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  label |[`string`](../../core-concepts/dpf-types.md#standard-types) | Label identifier that should be merged. |
 | <strong>Pin 2</strong>|  merged_field_support |[`abstract_field_support`](../../core-concepts/dpf-types.md#field-support) | The FieldsContainer's support that has already been merged. |
-| <strong>Pin 3</strong>|  sum_merge |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | Default is false. If true, redundant quantities are summed instead of being ignored. |
+| <strong>Pin 3</strong>|  sum_merge |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Default is false. If true, redundant quantities are summed instead of being ignored. |
 
 ## Outputs
 
@@ -32,7 +32,7 @@ Merges the fields of a fields container that share the same label value.
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

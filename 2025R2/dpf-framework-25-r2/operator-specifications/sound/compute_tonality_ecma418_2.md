@@ -22,7 +22,7 @@ Compute the psychoacoustic tonality of a signal according to the ECMA 418-2 stan
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| tonality |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Psychoacoustic tonality in tuHMS. |
+|  **Pin 0**| tonality |[`double`](../../core-concepts/dpf-types.md#standard-types) | Psychoacoustic tonality in tuHMS. |
 |  **Pin 1**| tonality_over_time |[`field`](../../core-concepts/dpf-types.md#field) | Psychoacoustic tonality over time in tuHMS. |
 |  **Pin 2**| tone_frequency_over_time |[`field`](../../core-concepts/dpf-types.md#field) | Frequency of the most prominent tone over time, in Hz. |
 
@@ -30,7 +30,7 @@ Compute the psychoacoustic tonality of a signal according to the ECMA 418-2 stan
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

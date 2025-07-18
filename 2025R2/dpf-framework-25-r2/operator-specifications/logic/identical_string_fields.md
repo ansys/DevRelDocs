@@ -23,14 +23,14 @@ Takes two string fields and compares them.
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| are_identical |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) |  |
-|  **Pin 1**| information |[`string`](../../core-concepts/dpf-types.md#standard-types}}) |  |
+|  **Pin 0**| are_identical |[`bool`](../../core-concepts/dpf-types.md#standard-types) |  |
+|  **Pin 1**| information |[`string`](../../core-concepts/dpf-types.md#standard-types) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 
