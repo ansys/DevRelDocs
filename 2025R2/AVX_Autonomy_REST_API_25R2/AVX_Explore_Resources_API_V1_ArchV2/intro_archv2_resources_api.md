@@ -1,12 +1,27 @@
-# AVx Python APIs Documentation
 
-## Background
+## Features 
 
-The AVx python APIs are hosted as a python package on cluster as part of the Explore service deployment. The developers can install the package using pip and use it to call AVx autonomy APIs without the need to make raw REST calls.
+This API allows to perform CRUD (Create, Read, Update, and Delete) operations on resources such as queues, deployments, applications, app-runtime-configs.
+
+### Queues:
+User can create queues with the required storages, resource limits and environment variables
+Allowing to manage queues helps user to configure different applications within resource limits and group the applications requiring same storages together.
+
+### Plugins:
+User can register a plugin with definition of container runtime.
+Example, Docker Engine / Kubernetes
+
+### Jobs:
+User can submit a resource-manager job by providing application details (name, version, image, environment variables, etc.) & track it to its completion.
+User can also check the status of the job and clean the resources job has acquired.
+
+## Introduction
+
+The AVxcelerate python APIs are hosted as a python package on a cluster as part of the Explore service deployment. The developers can install the package using pip and use it to call AVx autonomy APIs without needing to make raw REST calls.
 
 PyPi Regsitry URL:
 
-The python package is hosted as PyPi compliant registry on each deployed cluster. The registry URL looks like this:
+The python package is hosted as PyPi compliant registry on each deployed cluster. The registry URL is like this:
 
 https://BASE_URL/pypi
 
@@ -18,7 +33,7 @@ For example, for AFT deployment:
 
 Pre-requisites:
 
-We are assuming that on the system is running **Ubuntu 22.04**, there are following already installed:
+We assume that on the system is running with the **Ubuntu 22.04** version, and that the following tools are already installed:
 
 - python 3.10
 - pip 25.1
@@ -107,3 +122,4 @@ print("Couldn't get job against this job id")
 
 asyncio.run(main())
 ```
+

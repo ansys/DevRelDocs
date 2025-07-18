@@ -1,12 +1,12 @@
-# AVx Python APIs Documentation
 
-## Background
 
-The AVx python APIs are hosted as a python package on cluster as part of the Explore service deployment. The developers can install the package using pip and use it to call AVx autonomy APIs without the need to make raw REST calls.
+## Introduction
+
+The AVx python APIs are hosted as a python package on a cluster as part of the Explore service deployment. The developers can install the package using pip and use it to call AVx autonomy APIs without the need to make raw REST calls.
 
 PyPi Regsitry URL:
 
-The python package is hosted as PyPi compliant registry on each deployed cluster. The registry URL looks like this:
+The python package is hosted as PyPi compliant registry on each deployed cluster. The registry URL is as written below:
 
 https://BASE_URL/pypi
 
@@ -18,7 +18,7 @@ For example, for AFT deployment:
 
 Pre-requisites:
 
-We are assuming that on the system is running **Ubuntu 22.04**, there are following already installed:
+We assume that on the system is running on the **Ubuntu 22.04** version, and that the following tools are already installed:
 
 - python 3.10
 - pip 25.1
