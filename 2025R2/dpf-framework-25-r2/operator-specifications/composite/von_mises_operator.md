@@ -18,9 +18,9 @@ Computes VonMises for ElementalNodal data
 |-------|-------|------------------|-------------|
 | <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |  |
 | <strong>Pin 23</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  materials_container |[`materials_container`](../../core-concepts/dpf-types.md#materials-container) | Materials container |
-| <strong>Pin 100</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  criterion_configuration |[`string`](../../core-concepts/dpf-types.md#standard-types}}) | Criterion specification (json dict as string): For instance "{"active": true, "vme" : true, "vms" : true, "wf_vme" : 1.0, "wf_vms" : 1.0}"  |
-| <strong>Pin 101</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  activate_ply_type_filter |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | If true, only computes failure criteria for ply type 'isotropic' |
-| <strong>Pin 102</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  check_mesh_regions |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) |  |
+| <strong>Pin 100</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  criterion_configuration |[`string`](../../core-concepts/dpf-types.md#standard-types) | Criterion specification (json dict as string): For instance "{"active": true, "vme" : true, "vms" : true, "wf_vme" : 1.0, "wf_vms" : 1.0}"  |
+| <strong>Pin 101</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  activate_ply_type_filter |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If true, only computes failure criteria for ply type 'isotropic' |
+| <strong>Pin 102</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  check_mesh_regions |[`bool`](../../core-concepts/dpf-types.md#standard-types) |  |
 | <strong>Pin 400</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  strains_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
 | <strong>Pin 401</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  stresses_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
 
@@ -34,7 +34,7 @@ Computes VonMises for ElementalNodal data
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

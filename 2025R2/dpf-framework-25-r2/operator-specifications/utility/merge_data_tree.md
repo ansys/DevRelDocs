@@ -28,8 +28,8 @@ Merges a list of data trees. Attributes names shouldn't be shared accross data t
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
-| **permissive** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, warning checks (like unit or data sizes) won't be done. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **permissive** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, warning checks (like unit or data sizes) won't be done. |
 
 ## Scripting
 

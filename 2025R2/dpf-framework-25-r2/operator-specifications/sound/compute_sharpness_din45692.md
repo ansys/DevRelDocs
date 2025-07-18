@@ -17,21 +17,21 @@ Compute the overall sharpness and sharpness over time of a signal, where sharpne
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_signal |[`field`](../../core-concepts/dpf-types.md#field) | Input in Pa on which to compute the DIN 45692 sharpness. |
-| <strong>Pin 1</strong>|  field_type |[`string`](../../core-concepts/dpf-types.md#standard-types}}) | Field type associated with the recording conditions (supported values: 'Free', 'Diffuse'). Default: 'Free'. |
+| <strong>Pin 1</strong>|  field_type |[`string`](../../core-concepts/dpf-types.md#standard-types) | Field type associated with the recording conditions (supported values: 'Free', 'Diffuse'). Default: 'Free'. |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| sharpness |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Overall sharpness in acum (based on ISO 532-1 stationary specific loudness). |
-|  **Pin 1**| max_sharpness |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Maximum sharpness over time in acum (based on ISO 532-1 time-varying specific loudness). |
+|  **Pin 0**| sharpness |[`double`](../../core-concepts/dpf-types.md#standard-types) | Overall sharpness in acum (based on ISO 532-1 stationary specific loudness). |
+|  **Pin 1**| max_sharpness |[`double`](../../core-concepts/dpf-types.md#standard-types) | Maximum sharpness over time in acum (based on ISO 532-1 time-varying specific loudness). |
 |  **Pin 2**| sharpness_over_time |[`field`](../../core-concepts/dpf-types.md#field) | Sharpness over time in acum (based on ISO 532-1 time-varying specific loudness). |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

@@ -22,14 +22,14 @@ Compute the fluctuation strength of a signal based on the master thesis of A. So
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| output_fluctuation_strength |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Fluctuation strength in vacil. |
+|  **Pin 0**| output_fluctuation_strength |[`double`](../../core-concepts/dpf-types.md#standard-types) | Fluctuation strength in vacil. |
 |  **Pin 1**| output_specific_fluctuation_strength |[`field`](../../core-concepts/dpf-types.md#field) | Specific fluctuation strength in vacil, that is, the fluctuation strength values over Bark band indexes. |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

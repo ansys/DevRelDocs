@@ -18,7 +18,7 @@ Compute the Tone-to-Noise Ratio (TNR) over time of a signal, for specific order(
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_signal |[`field`](../../core-concepts/dpf-types.md#field) | Input signal in Pa on which to compute the TNR over time for the specified orders. |
 | <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  rpm_profile |[`field`](../../core-concepts/dpf-types.md#field) | Profile of RPM over time associated with the input signal. Must have the same length and same sampling frequency as the input signal. |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  orders_numbers |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types}}) | List of the order numbers for which to compute TNR. |
+| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  orders_numbers |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) | List of the order numbers for which to compute TNR. |
 
 ## Outputs
 
@@ -31,7 +31,7 @@ Compute the Tone-to-Noise Ratio (TNR) over time of a signal, for specific order(
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

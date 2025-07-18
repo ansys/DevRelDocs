@@ -25,7 +25,7 @@ Take nine scalar fields and assemble them as a 3x3 matrix field. If the 'symmetr
 | <strong>Pin 6</strong>|  yx |[`field`](../../core-concepts/dpf-types.md#field) |  |
 | <strong>Pin 7</strong>|  zy |[`field`](../../core-concepts/dpf-types.md#field) |  |
 | <strong>Pin 8</strong>|  zx |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 60</strong>|  symmetrical |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) |  |
+| <strong>Pin 60</strong>|  symmetrical |[`bool`](../../core-concepts/dpf-types.md#standard-types) |  |
 
 ## Outputs
 
@@ -37,7 +37,7 @@ Take nine scalar fields and assemble them as a 3x3 matrix field. If the 'symmetr
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 
