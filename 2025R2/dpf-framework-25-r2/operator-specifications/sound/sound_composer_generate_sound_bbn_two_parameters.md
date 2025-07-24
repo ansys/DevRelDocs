@@ -19,7 +19,7 @@ Generate a sound from a broadband noise model (2 parameters), according to a giv
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  source_bbn_two_parameters |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Broadband noise model (2 parameters), as a fields container. This fields container is obtained as the output of the operator 'sound_composer_load_source_bbn_two_parameters'. |
 | <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  control_1 |[`field`](../../core-concepts/dpf-types.md#field) | First control parameter value vs time, as a field. |
 | <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  control_2 |[`field`](../../core-concepts/dpf-types.md#field) | Second control parameter value vs time, as a field. |
-| <strong>Pin 3</strong>|  sampling_frequency |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | (Optional) Sampling frequency of the generated sound, in Hz. Default: 44100 Hz. |
+| <strong>Pin 3</strong>|  sampling_frequency |[`double`](../../core-concepts/dpf-types.md#standard-types) | (Optional) Sampling frequency of the generated sound, in Hz. Default: 44100 Hz. |
 
 ## Outputs
 
@@ -31,7 +31,7 @@ Generate a sound from a broadband noise model (2 parameters), according to a giv
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

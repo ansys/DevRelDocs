@@ -17,14 +17,14 @@ Computes tonality according to the ISO/TS 20065:2022 standard
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_signal |[`field`](../../core-concepts/dpf-types.md#field) | Input signal in Pa on which to compute the tonality ISO/TS 20065:2022. |
-| <strong>Pin 1</strong>|  window_length |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Analysis window length in s. Default: 3. |
-| <strong>Pin 2</strong>|  overlap |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Percentage in % of each analysis window that overlaps with the next. Default: 0 %. |
+| <strong>Pin 1</strong>|  window_length |[`double`](../../core-concepts/dpf-types.md#standard-types) | Analysis window length in s. Default: 3. |
+| <strong>Pin 2</strong>|  overlap |[`double`](../../core-concepts/dpf-types.md#standard-types) | Percentage in % of each analysis window that overlaps with the next. Default: 0 %. |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| output_mean_audibility_dl |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Tonality (mean audibility DL) in dB. |
+|  **Pin 0**| output_mean_audibility_dl |[`double`](../../core-concepts/dpf-types.md#standard-types) | Tonality (mean audibility DL) in dB. |
 |  **Pin 1**| output_mean_audibility_uncertainty |[`field`](../../core-concepts/dpf-types.md#field) | Tonality's uncertainty in dB. |
 |  **Pin 2**| output_decisive_audibility_over_time |[`field`](../../core-concepts/dpf-types.md#field) | Tonality over time (decisive audibility over time DLj) in dB. |
 |  **Pin 3**| output_decisive_audibility_uncertainty_over_time |[`field`](../../core-concepts/dpf-types.md#field) | Tonality's uncertainty over time in dB. |
@@ -35,7 +35,7 @@ Computes tonality according to the ISO/TS 20065:2022 standard
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

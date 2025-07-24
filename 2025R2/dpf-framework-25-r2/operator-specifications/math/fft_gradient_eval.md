@@ -18,7 +18,7 @@ Evaluate min max based on the fast fourier transform at a given field, using gra
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
 | <strong>Pin 1</strong>|  time_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | if specified only the results at these set ids are used |
-| <strong>Pin 2</strong>|  fs_ratio |[`int32`](../../core-concepts/dpf-types.md#standard-types}}) | default value = 20 |
+| <strong>Pin 2</strong>|  fs_ratio |[`int32`](../../core-concepts/dpf-types.md#standard-types) | default value = 20 |
 
 ## Outputs
 
@@ -30,7 +30,7 @@ Evaluate min max based on the fast fourier transform at a given field, using gra
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

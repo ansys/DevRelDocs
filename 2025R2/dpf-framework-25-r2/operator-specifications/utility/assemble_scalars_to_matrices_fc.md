@@ -25,7 +25,7 @@ Take nine scalar fields container and assemble them as a 3x3 matrix fields. If t
 | <strong>Pin 6</strong>|  yx |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
 | <strong>Pin 7</strong>|  zy |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
 | <strong>Pin 8</strong>|  zx |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) |  |
-| <strong>Pin 60</strong>|  symmetrical |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) |  |
+| <strong>Pin 60</strong>|  symmetrical |[`bool`](../../core-concepts/dpf-types.md#standard-types) |  |
 
 ## Outputs
 
@@ -37,7 +37,7 @@ Take nine scalar fields container and assemble them as a 3x3 matrix fields. If t
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

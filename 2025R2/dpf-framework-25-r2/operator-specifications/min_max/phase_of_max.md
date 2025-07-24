@@ -18,8 +18,8 @@ Evaluates phase of maximum.
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  real_field |[`field`](../../core-concepts/dpf-types.md#field) |  |
 | <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  imaginary_field |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 2</strong>|  abs_value |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | Should use absolute value. |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  phase_increment |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Phase increment. |
+| <strong>Pin 2</strong>|  abs_value |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Should use absolute value. |
+| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  phase_increment |[`double`](../../core-concepts/dpf-types.md#standard-types) | Phase increment. |
 
 ## Outputs
 
@@ -31,7 +31,7 @@ Evaluates phase of maximum.
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

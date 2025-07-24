@@ -17,20 +17,20 @@ Design a minimum-phase Finite Impulse Response (FIR) filter from a Frequency Res
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  frequency_response_function |[`field`](../../core-concepts/dpf-types.md#field) | Frequency response function (FRF) from which to design the minimum-phase filter.  The FRF is expected as a field which contains the gain in dB for each frequency. The frequencies are specified as the time support of the field. |
-| <strong>Pin 1</strong>|  sampling_frequency |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | (Optional) Sampling frequency of the coefficients of the returned minimum-phase filter. If no value is specified, the sampling frequency is set to 2 * maximum frequency of the input FRF. |
+| <strong>Pin 1</strong>|  sampling_frequency |[`double`](../../core-concepts/dpf-types.md#standard-types) | (Optional) Sampling frequency of the coefficients of the returned minimum-phase filter. If no value is specified, the sampling frequency is set to 2 * maximum frequency of the input FRF. |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| filter_b_coefficients |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types}}) | Coefficients B of the minimum-phase FIR filter designed from the input FRF. |
-|  **Pin 1**| filter_a_coefficients |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types}}) | (Optional) Coefficient A of the minimum-phase FIR filter designed from the input FRF. Note: as it is a FIR filter, A is always filled with the single value 1.0. |
+|  **Pin 0**| filter_b_coefficients |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) | Coefficients B of the minimum-phase FIR filter designed from the input FRF. |
+|  **Pin 1**| filter_a_coefficients |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) | (Optional) Coefficient A of the minimum-phase FIR filter designed from the input FRF. Note: as it is a FIR filter, A is always filled with the single value 1.0. |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

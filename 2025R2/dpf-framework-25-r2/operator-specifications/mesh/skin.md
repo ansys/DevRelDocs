@@ -18,8 +18,8 @@ Extracts a skin of the mesh in a new meshed region. The material ID of initial e
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |  |
 | <strong>Pin 1</strong>|  mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Nodal scoping to restrict the skin extraction to a set of nodes. If provided, a skin element is added to the skin mesh if all its nodes are in the scoping. |
-| <strong>Pin 2</strong>|  duplicate_shell |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | If input mesh contains shell elements, output mesh shell elements (boolean = 1) are duplicated, one per each orientation, or (boolean = 0) remain unchanged. |
-| <strong>Pin 3</strong>|  add_beam_point |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | If input mesh contains beam or point elements, output mesh beam point elements (boolean = 1) are added or (boolean = 0) are ignored. Default: False |
+| <strong>Pin 2</strong>|  duplicate_shell |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If input mesh contains shell elements, output mesh shell elements (boolean = 1) are duplicated, one per each orientation, or (boolean = 0) remain unchanged. |
+| <strong>Pin 3</strong>|  add_beam_point |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If input mesh contains beam or point elements, output mesh beam point elements (boolean = 1) are added or (boolean = 0) are ignored. Default: False |
 
 ## Outputs
 
@@ -35,7 +35,7 @@ Extracts a skin of the mesh in a new meshed region. The material ID of initial e
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

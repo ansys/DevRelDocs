@@ -17,7 +17,7 @@ Derives a field of time varying quantities with respect to time
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field |[`field`](../../core-concepts/dpf-types.md#field) | field |
-| <strong>Pin 1</strong>|  spline_fitting |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | Uses spline fitting on the input field to compute smooth derivatives |
+| <strong>Pin 1</strong>|  spline_fitting |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Uses spline fitting on the input field to compute smooth derivatives |
 
 ## Outputs
 
@@ -29,7 +29,7 @@ Derives a field of time varying quantities with respect to time
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

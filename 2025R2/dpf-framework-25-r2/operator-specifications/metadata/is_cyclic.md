@@ -29,13 +29,13 @@ This operator supports the following file types (result keys), listed by namespa
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| file_path |[`string`](../../core-concepts/dpf-types.md#standard-types}}) | returns 'single_stage' or 'multi_stage' or an empty string for non cyclic model |
+|  **Pin 0**| file_path |[`string`](../../core-concepts/dpf-types.md#standard-types) | returns 'single_stage' or 'multi_stage' or an empty string for non cyclic model |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

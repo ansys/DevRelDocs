@@ -17,9 +17,9 @@ Compute Short-Time Fourier Transform (STFT) from a temporal signal.
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_signal |[`field`](../../core-concepts/dpf-types.md#field) | The input signal as a field on which to compute the STFT.<br> |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fft_size |[`int32`](../../core-concepts/dpf-types.md#standard-types}}) | Size (as an integer) of the FFT to compute the STFT. Use a power of 2 for better performance.<br> |
-| <strong>Pin 2</strong>|  window_type |[`string`](../../core-concepts/dpf-types.md#standard-types}}) | The window used for the FFT computation, as a string. Allowed input strings are: 'BLACKMAN', 'FLATTOP', 'GAUSS','HAMMING', 'HANN', 'RECTANGULAR', 'TRIANGULAR'. If no parameter is specified, the default value is 'HANN'. |
-| <strong>Pin 3</strong>|  window_overlap |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | The overlap value between two successive FFT computations (value between 0 and 1). 0 means no overlap, 0.5 means 50 % overlap. If no parameter is specified, default value is 0.5. |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fft_size |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Size (as an integer) of the FFT to compute the STFT. Use a power of 2 for better performance.<br> |
+| <strong>Pin 2</strong>|  window_type |[`string`](../../core-concepts/dpf-types.md#standard-types) | The window used for the FFT computation, as a string. Allowed input strings are: 'BLACKMAN', 'FLATTOP', 'GAUSS','HAMMING', 'HANN', 'RECTANGULAR', 'TRIANGULAR'. If no parameter is specified, the default value is 'HANN'. |
+| <strong>Pin 3</strong>|  window_overlap |[`double`](../../core-concepts/dpf-types.md#standard-types) | The overlap value between two successive FFT computations (value between 0 and 1). 0 means no overlap, 0.5 means 50 % overlap. If no parameter is specified, default value is 0.5. |
 
 ## Outputs
 
@@ -31,7 +31,7 @@ Compute Short-Time Fourier Transform (STFT) from a temporal signal.
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

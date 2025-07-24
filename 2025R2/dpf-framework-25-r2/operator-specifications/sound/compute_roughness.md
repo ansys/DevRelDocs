@@ -22,7 +22,7 @@ Compute the roughness of a signal, based on the reference paper from Daniel and 
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| overall_roughness |[`double`](../../core-concepts/dpf-types.md#standard-types}}) | Overall roughness in asper. |
+|  **Pin 0**| overall_roughness |[`double`](../../core-concepts/dpf-types.md#standard-types) | Overall roughness in asper. |
 |  **Pin 1**| specific_roughness |[`field`](../../core-concepts/dpf-types.md#field) | Specific roughness in asper/Bark, that is, the roughness values over Bark band indexes. |
 |  **Pin 2**| roughness_over_time |[`field`](../../core-concepts/dpf-types.md#field) | Roughness over time in asper. |
 
@@ -30,7 +30,7 @@ Compute the roughness of a signal, based on the reference paper from Daniel and 
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

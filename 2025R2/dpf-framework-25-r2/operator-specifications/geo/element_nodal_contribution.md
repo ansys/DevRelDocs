@@ -18,7 +18,7 @@ Compute the fraction of the element measure attributed to each node of each elem
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) |  |
 | <strong>Pin 1</strong>|  scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Integrate the input field over a specific scoping. |
-| <strong>Pin 2</strong>|  volume_fraction |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | If true, returns influence volume, area or length. If false, the values are normalized with the element volume, area or length. Default: true. |
+| <strong>Pin 2</strong>|  volume_fraction |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If true, returns influence volume, area or length. If false, the values are normalized with the element volume, area or length. Default: true. |
 
 ## Outputs
 
@@ -30,7 +30,7 @@ Compute the fraction of the element measure attributed to each node of each elem
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types}}) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 
