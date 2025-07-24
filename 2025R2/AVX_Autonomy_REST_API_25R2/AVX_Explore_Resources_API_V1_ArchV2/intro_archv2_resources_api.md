@@ -5,7 +5,8 @@ This API allows to perform CRUD (Create, Read, Update, and Delete) operations on
 
 ### Queues:
 * You can create queues with the required storages, resource limits and environment variables
-* Allowing to manage queues helps user to configure different applications within resource limits and group the applications requiring same storages together.
+* Allowing to manage queues helps will help you configure different applications within resource limits and group the applications requiring same storage together.
+* You can adjust the maximum number of workers that can concurrently run on a queue using the parameter 'maximum_allowed_worker_instances'
 
 ### Plugins:
 * You can register a plugin with definition of container runtime.
