@@ -18,6 +18,7 @@ For example, for AFT deployment:
 
 Pre-requisites:
 
+
 We assume that on the system is running on the **Ubuntu 22.04** version, and that the following tools are already installed:
 
 - python 3.10
