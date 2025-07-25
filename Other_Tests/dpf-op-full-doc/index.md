@@ -1,4 +1,0 @@
-# Introduction
-
-
-DPF operator specifications

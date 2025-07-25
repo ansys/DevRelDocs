@@ -1,1 +1,0 @@
-Objects in GraphQL represent complex data structures. They define the fields and their types that can be queried in a GraphQL API. Objects can have nested fields and relationships with other objects.

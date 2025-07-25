@@ -1,1 +1,0 @@
-Directives in GraphQL provide a way to control the execution behavior of queries and mutations. They allow you to modify the result, change the execution order, skip or include fields conditionally, and apply custom logic to the resolution process.

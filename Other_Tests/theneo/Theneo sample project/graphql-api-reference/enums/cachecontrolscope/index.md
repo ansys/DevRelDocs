@@ -1,1 +1,0 @@
-This section defines the scope of cache control for specific resources within the API. Users can modify caching behavior for different types of data to enhance performance and optimize resource delivery. Understanding and setting the cache control scope can help users manage the caching strategy effectively.

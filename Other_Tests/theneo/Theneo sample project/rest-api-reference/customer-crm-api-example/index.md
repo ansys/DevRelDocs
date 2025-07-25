@@ -1,1 +1,0 @@
-**Note:** All of the stated endpoints and sections are for demonstration purposes only. Theneo does not manage payments API, get sales data, itemize payments, push orders to POS, and more.

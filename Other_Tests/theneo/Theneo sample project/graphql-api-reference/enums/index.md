@@ -1,1 +1,0 @@
-Enums in GraphQL define a set of possible values for a field. They represent a discrete set of options or states that a field can have. Enums help ensure type safety and provide a clear list of valid values for a field.

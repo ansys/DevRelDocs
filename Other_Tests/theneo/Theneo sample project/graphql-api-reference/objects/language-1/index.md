@@ -1,1 +1,0 @@
-The Language section of the Blank API allows users to manage and manipulate linguistic data associated with their projects. Users can access language-related functionalities to enhance text processing and analysis within their applications.

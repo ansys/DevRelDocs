@@ -1,1 +1,0 @@
-Create customer allows users to add a new customer to the system, providing essential details such as name, email, address, and phone number. By utilizing this functionality, users can easily store and manage customer information for seamless transactions and interactions within the application.
