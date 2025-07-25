@@ -1,9 +1,9 @@
 {
     "openapi": "3.1.0",
     "info": {
-      "title": "AVxcelerate Explore Service API",
+      "title": "AVxcelerate Explore Service",
       "summary": "Service to manage jobs",
-      "description": "\n## API allows to perform operations related to jobs and create post job sessions.\n### Features\n- **Jobs**:\n    The API allows users to perform the following operations related to jobs:\n    - Create a new job as per provided parameters\n    - Get a single or multiple jobs by their IDs\n    - Kill a running job\n    - Restart a completed or killed job\n    - Clone a job\n- **Post Job Sessions**:\n    This API allows the user to create a post job session for a job and returns the relative URL to access the session.\n    The session can then be used to perform various post-processing operations like viewing results, analyzing data etc.\n",
+      "description": "",
       "contact": {
         "name": "Ansys AVxcelerate Autonomy",
         "url": "https://developer.ansys.com/docs/avxcelerate",
