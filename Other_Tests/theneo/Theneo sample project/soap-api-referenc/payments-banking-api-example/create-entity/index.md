@@ -1,1 +1,0 @@
-How to create a new Customer or Supplier.

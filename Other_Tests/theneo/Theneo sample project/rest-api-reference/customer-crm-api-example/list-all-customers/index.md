@@ -1,1 +1,0 @@
-This section allows users to retrieve a list of all customers associated with the project. By accessing this data, users can gain insights into their customer base, track customer interactions, and manage customer information effectively within the project.

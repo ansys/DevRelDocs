@@ -1,1 +1,0 @@
-Returns the latest invoice ID for an invoice prefix and invoice number pair.

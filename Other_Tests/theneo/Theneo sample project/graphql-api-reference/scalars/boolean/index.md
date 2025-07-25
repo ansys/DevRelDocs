@@ -1,1 +1,0 @@
-Represents a boolean value that can be either true or false.

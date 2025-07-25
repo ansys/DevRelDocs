@@ -1,1 +1,0 @@
-The "Delete a schedule" section allows users to remove a scheduled event or task from the system. By utilizing this functionality, users can effectively manage their schedules and ensure accurate records without unnecessary clutter. This feature provides a straightforward way to declutter and streamline the scheduling process.

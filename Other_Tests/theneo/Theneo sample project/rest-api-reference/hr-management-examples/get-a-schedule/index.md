@@ -1,1 +1,0 @@
-This section allows users to retrieve schedule information, including details such as hours of the day, days of the week, and months. By accessing this endpoint, users can access essential scheduling data for efficient planning and management within their projects.

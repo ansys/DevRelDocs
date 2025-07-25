@@ -1,1 +1,0 @@
-Delete an existing Customer or Supplier.

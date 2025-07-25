@@ -1,1 +1,0 @@
-The Continent section of the Blank API allows users to retrieve information related to continents. By utilizing this section, users can access data such as continent names, populations, and geographical features. This functionality enables developers to incorporate continent-specific information into their applications with ease.

@@ -1,1 +1,0 @@
-Lists the existing bank accounts on the account.
