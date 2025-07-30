@@ -1,6 +1,15 @@
 # Introduction
 
-This documentation provides a comprehensive guide of the DPF framework as well as all DPF operators available in ANSYS-made DPF plugins. It is organized into key sections, including core concepts, getting started tutorials, and detailed documentation of available operators. Whether you are new to DPF or looking for information on operators, this guide offers the necessary resources to understand and use DPF effectively in your workflows.
+This documentation provides a comprehensive guide of the DPF framework as well as all DPF operators available in Ansys-made DPF plugins.
+
+The content is organized into the following sections:
+
+- Getting started: Learn how to install, license, and configure DPF.
+- User guide: Understand the server context, work with data containers and operators, and explore workflow examples.
+- Core concepts: Review essential DPF concepts and available data types.
+- Operator specifications: Access detailed reference documentation for all available operators.
+
+Whether you are setting up DPF for the first time or looking for in-depth operator details, this guide provides the resources needed to use DPF effectively in your workflows.
 
 ## Overview of DPF
 
@@ -59,6 +68,7 @@ DPF is available with the **Ansys installer** in Ansys 2021 R1 and later, or as 
 - The DPF Server package provides pre-releases of DPF and is independent of the Ansys installer.
   It is available on the [DPF Pre-Release page](https://download.ansys.com/Others/DPF%20Pre-Release) of the Ansys Customer Portal.
 
+See [`Installation`](getting-started/installation.md) in the Getting started for more information.
 
 ### Operating system compatibility
 

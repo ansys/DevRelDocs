@@ -2,12 +2,23 @@
   href: index.md
 - name: Getting started
   items:
+  - name: Installation
+    href: getting-started/installation.md
+  - name: Licensing
+    href: getting-started/licensing.md
+  - name: Configuration
+    href: getting-started/configuration.md
+  items:
+- name: User guide
+  items:
+  - name: The server context
+    href: user-guide/server-context.md
   - name: How to use data containers
-    href: getting-started/using-data-containers.md
+    href: user-guide/using-data-containers.md
   - name: How to use operators
-    href: getting-started/using-operators.md
+    href: user-guide/using-operators.md
   - name: Workflow examples for beginners
-    href: getting-started/workflow-examples.md
+    href: user-guide/workflow-examples.md
 - name: Core concepts
   items:
   - name: Available types
@@ -16,6 +27,8 @@
     href: core-concepts/operator.md
 - name: Operator specifications
   items:
+  - name: Operator specifications
+    href: operator-specifications/operator-specifications.md
   - name: averaging
     items:
     - name: elemental difference
