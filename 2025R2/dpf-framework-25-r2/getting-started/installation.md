@@ -52,7 +52,7 @@ pip install -e .
 
 ### License agreement
 
-As detailed in [Licensing](licensing.md), a standalone DPF Server is protected using the license terms specified in the
+As detailed in [Licensing](licensing.md#license-terms), a standalone DPF Server is protected using the license terms specified in the
 **DPFPreviewLicenseAgreement** file, which is available on the [DPF Pre-Release page](https://download.ansys.com/Others/DPF%20Pre-Release)
 of the Ansys Customer Portal.
 
@@ -64,6 +64,6 @@ ANSYS_DPF_ACCEPT_LA=Y
 
 ## Licensing
 
-To use [licensed DPF capabilities](licensing.md#licensed_operators) you must set the
+To use [licensed DPF capabilities](licensing.md#licensing-strategy) you must set the
 **ANSYSLMD_LICENSE_FILE** environment variable to point to a valid local or remote license
-following indications in [configure_licensing](licensing.md#configure_licensing).
+following indications in [Configure licensing](licensing.md#configure-licensing).
