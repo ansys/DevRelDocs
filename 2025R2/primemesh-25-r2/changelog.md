@@ -5,18 +5,12 @@
 2025 R2 release is enhanced to include the following APIs:
 
 
-
- * **ComponentChildrenResults**
+* **ComponentChildrenResults**
         
     * [body_ids](api/_autosummary/ansys.meshing.prime.ComponentChildrenResults.body_ids.md)
     * [body_names](api/_autosummary/ansys.meshing.prime.ComponentChildrenResults.body_names.md)
     * [component_ids](api/_autosummary/ansys.meshing.prime.ComponentChildrenResults.component_ids.md)
     * [component_names](api/_autosummary/ansys.meshing.prime.ComponentChildrenResults.component_names.md)
-
-* **ControlData**
-
-    * [create_shell_bl_control](api/_autosummary/ansys.meshing.prime.ControlData.create_shell_bl_control.md)
-    * [multi_zone_controls](api/_autosummary/ansys.meshing.prime.ControlData.multi_zone_controls.md)
 
 * **ExportFluentMeshingMeshParams**
 
