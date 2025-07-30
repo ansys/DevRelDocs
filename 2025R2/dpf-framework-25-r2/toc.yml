@@ -2,12 +2,17 @@
   href: index.md
 - name: Getting started
   items:
+  - name: Install DPF
+    href: getting-started/installation.md
+  items:
+- name: User guide
+  items:
   - name: How to use data containers
-    href: getting-started/using-data-containers.md
+    href: user-guide/using-data-containers.md
   - name: How to use operators
-    href: getting-started/using-operators.md
+    href: user-guide/using-operators.md
   - name: Workflow examples for beginners
-    href: getting-started/workflow-examples.md
+    href: user-guide/workflow-examples.md
 - name: Core concepts
   items:
   - name: Available types
