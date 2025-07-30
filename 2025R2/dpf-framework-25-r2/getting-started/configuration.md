@@ -1,10 +1,10 @@
 # Configuration
 
-This page describes how to configure your DPF installation and manage the list of plugins loaded by default.
+This page covers the main configuration requirements for your DPF installation:
+- Managing plugins: Configure your installation and control the list of plugins loaded by default.
+- Setting plugin environments: Define the loading environment for each plugin individually.
 
-It also describes how to configure the loading environment of each plugin.
-
-Both are managed with XML files present in the DPF installation.
+Both configurations are handled through XML files included in the DPF installation.
 
 Each XML file contains the configuration content for both operating systems.
 
@@ -20,7 +20,7 @@ They are located alongside the **.dll** file on Windows or **.so** file on Linux
 
 ## Configure your DPF installation
 
-The **DataProcessingCore.xml** file contains the configuration related to the plugins loaded by default, plugin search, and environement setup.
+The **DataProcessingCore.xml** file contains the configuration related to the plugins loaded by default, plugin search, and environment setup.
 
 In this XML file, some of the elements are optional, and many of the
 elements have Linux-specific versus Windows-specific child elements.

@@ -1,4 +1,4 @@
-# Install DPF
+# Installation
 
 DPF is available with the **Ansys installer** in Ansys 2021 R1 and later, or as a pre-release **DPF Server** standalone package for DPF 2023 R2 and later.
 
