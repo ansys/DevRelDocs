@@ -2,8 +2,10 @@
   href: index.md
 - name: Getting started
   items:
-  - name: Install DPF
+  - name: Installation
     href: getting-started/installation.md
+  - name: Licensing
+    href: getting-started/licensing.md
   items:
 - name: User guide
   items:
@@ -13,6 +15,8 @@
     href: user-guide/using-operators.md
   - name: Workflow examples for beginners
     href: user-guide/workflow-examples.md
+  - name: The server context
+    href: user-guide/server-context.md
 - name: Core concepts
   items:
   - name: Available types
@@ -21,6 +25,8 @@
     href: core-concepts/operator.md
 - name: Operator specifications
   items:
+  - name: Operator specifications
+    href: operator-specifications/operator-specifications.md
   - name: averaging
     items:
     - name: elemental difference
