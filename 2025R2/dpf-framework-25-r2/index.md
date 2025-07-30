@@ -59,7 +59,7 @@ DPF is available with the **Ansys installer** in Ansys 2021 R1 and later, or as 
 - The DPF Server package provides pre-releases of DPF and is independent of the Ansys installer.
   It is available on the [DPF Pre-Release page](https://download.ansys.com/Others/DPF%20Pre-Release) of the Ansys Customer Portal.
 
-See [`Installation`](getting-started/installation.md) in the Getting Started for more information.
+See [`Installation`](getting-started/installation.md) in the Getting started for more information.
 
 ### Operating system compatibility
 
