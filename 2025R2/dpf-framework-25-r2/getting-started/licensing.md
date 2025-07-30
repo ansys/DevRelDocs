@@ -33,6 +33,8 @@ The **ANSYS_DPF_ACCEPT_LA** environment variable confirms your acceptance of the
 By passing the value **Y** to this environment variable, you are indicating that you have a valid and
 existing license for the edition and version of **DPF Server** that you intend to use.
 
+You can also [configure a DPF installation](configuration.md#environment-configuration) to mark explicit acceptance for every session.
+
 <a id="configure-licensing"></a>
 
 ## Configure licensing
