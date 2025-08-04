@@ -4988,6 +4988,92 @@
     href: api/_autosummary/ansys.meshing.prime.lucid.VolumeScope.md
   - name: ansys.meshing.prime.lucid.VolumeScope.get_scope_definition
     href: api/_autosummary/ansys.meshing.prime.lucid.VolumeScope.get_scope_definition.md
+  - name: ansys.meshing.prime.examples
+    href: api/_autosummary/ansys.meshing.prime.examples.md
+  - name: ansys.meshing.prime.examples.download_block_model_fmd
+    href: api/_autosummary/ansys.meshing.prime.examples.download_block_model_fmd.md
+  - name: ansys.meshing.prime.examples.download_block_model_pmdat
+    href: api/_autosummary/ansys.meshing.prime.examples.download_block_model_pmdat.md
+  - name: ansys.meshing.prime.examples.download_block_model_scdoc
+    href: api/_autosummary/ansys.meshing.prime.examples.download_block_model_scdoc.md
+  - name: ansys.meshing.prime.examples.download_bracket_dsco
+    href: api/_autosummary/ansys.meshing.prime.examples.download_bracket_dsco.md
+  - name: ansys.meshing.prime.examples.download_bracket_fmd
+    href: api/_autosummary/ansys.meshing.prime.examples.download_bracket_fmd.md
+  - name: ansys.meshing.prime.examples.download_bracket_scdoc
+    href: api/_autosummary/ansys.meshing.prime.examples.download_bracket_scdoc.md
+  - name: ansys.meshing.prime.examples.download_deformed_blade_dsco
+    href: api/_autosummary/ansys.meshing.prime.examples.download_deformed_blade_dsco.md
+  - name: ansys.meshing.prime.examples.download_deformed_blade_fmd
+    href: api/_autosummary/ansys.meshing.prime.examples.download_deformed_blade_fmd.md
+  - name: ansys.meshing.prime.examples.download_deformed_blade_scdoc
+    href: api/_autosummary/ansys.meshing.prime.examples.download_deformed_blade_scdoc.md
+  - name: ansys.meshing.prime.examples.download_elbow_dsco
+    href: api/_autosummary/ansys.meshing.prime.examples.download_elbow_dsco.md
+  - name: ansys.meshing.prime.examples.download_elbow_fmd
+    href: api/_autosummary/ansys.meshing.prime.examples.download_elbow_fmd.md
+  - name: ansys.meshing.prime.examples.download_elbow_pmdat
+    href: api/_autosummary/ansys.meshing.prime.examples.download_elbow_pmdat.md
+  - name: ansys.meshing.prime.examples.download_elbow_scdoc
+    href: api/_autosummary/ansys.meshing.prime.examples.download_elbow_scdoc.md
+  - name: ansys.meshing.prime.examples.download_f1_rw_drs_st
+    href: api/_autosummary/ansys.meshing.prime.examples.download_f1_rw_drs_st.md
+  - name: ansys.meshing.prime.examples.download_f1_rw_enclosure_stl
+    href: api/_autosummary/ansys.meshing.prime.examples.download_f1_rw_enclosure_stl.md
+  - name: ansys.meshing.prime.examples.download_f1_rw_end_plates_stl
+    href: api/_autosummary/ansys.meshing.prime.examples.download_f1_rw_end_plates_stl.md
+  - name: ansys.meshing.prime.examples.download_f1_rw_main_plane_stl
+    href: api/_autosummary/ansys.meshing.prime.examples.download_f1_rw_main_plane_stl.md
+  - name: ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_dsco
+    href: api/_autosummary/ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_dsco.md
+  - name: ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_fmd
+    href: api/_autosummary/ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_fmd.md
+  - name: ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_pmdat
+    href: api/_autosummary/ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_pmdat.md
+  - name: ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_pmdb
+    href: api/_autosummary/ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_pmdb.md
+  - name: ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_scdoc
+    href: api/_autosummary/ansys.meshing.prime.examples.download_multi_layer_quad_mesh_pcb_scdoc.md
+  - name: ansys.meshing.prime.examples.download_pcb_pmdat
+    href: api/_autosummary/ansys.meshing.prime.examples.download_pcb_pmdat.md
+  - name: ansys.meshing.prime.examples.download_pcb_scdoc
+    href: api/_autosummary/ansys.meshing.prime.examples.download_pcb_scdoc.md
+  - name: ansys.meshing.prime.examples.download_pipe_tee_dsco
+    href: api/_autosummary/ansys.meshing.prime.examples.download_pipe_tee_dsco.md
+  - name: ansys.meshing.prime.examples.download_pipe_tee_fmd
+    href: api/_autosummary/ansys.meshing.prime.examples.download_pipe_tee_fmd.md
+  - name: ansys.meshing.prime.examples.download_pipe_tee_pmdat
+    href: api/_autosummary/ansys.meshing.prime.examples.download_pipe_tee_pmdat.md
+  - name: ansys.meshing.prime.examples.download_pipe_tee_scdoc
+    href: api/_autosummary/ansys.meshing.prime.examples.download_pipe_tee_scdoc.md
+  - name: ansys.meshing.prime.examples.download_saddle_bracket_dsco
+    href: api/_autosummary/ansys.meshing.prime.examples.download_saddle_bracket_dsco.md
+  - name: ansys.meshing.prime.examples.download_saddle_bracket_fmd
+    href: api/_autosummary/ansys.meshing.prime.examples.download_saddle_bracket_fmd.md
+  - name: ansys.meshing.prime.examples.download_saddle_bracket_scdoc
+    href: api/_autosummary/ansys.meshing.prime.examples.download_saddle_bracket_scdoc.md
+  - name: ansys.meshing.prime.examples.download_solder_ball_fmd
+    href: api/_autosummary/ansys.meshing.prime.examples.download_solder_ball_fmd.md
+  - name: ansys.meshing.prime.examples.download_solder_ball_target_fmd
+    href: api/_autosummary/ansys.meshing.prime.examples.download_solder_ball_target_fmd.md
+  - name: ansys.meshing.prime.examples.download_test_examples
+    href: api/_autosummary/ansys.meshing.prime.examples.download_test_examples.md
+  - name: ansys.meshing.prime.examples.download_toy_car_dsco
+    href: api/_autosummary/ansys.meshing.prime.examples.download_toy_car_dsco.md
+  - name: ansys.meshing.prime.examples.download_toy_car_fmd
+    href: api/_autosummary/ansys.meshing.prime.examples.download_toy_car_fmd.md
+  - name: ansys.meshing.prime.examples.download_toy_car_pmdat
+    href: api/_autosummary/ansys.meshing.prime.examples.download_toy_car_pmdat.md
+  - name: ansys.meshing.prime.examples.download_toy_car_scdoc
+    href: api/_autosummary/ansys.meshing.prime.examples.download_toy_car_scdoc.md
+  - name: ansys.meshing.prime.examples.download_turbine_blade_cdb
+    href: api/_autosummary/ansys.meshing.prime.examples.download_turbine_blade_cdb.md
+  - name: ansys.meshing.prime.examples.download_wheel_ground_dsco
+    href: api/_autosummary/ansys.meshing.prime.examples.download_wheel_ground_dsco.md
+  - name: ansys.meshing.prime.examples.download_wheel_ground_fmd
+    href: api/_autosummary/ansys.meshing.prime.examples.download_wheel_ground_fmd.md
+  - name: ansys.meshing.prime.examples.download_wheel_ground_scdoc
+    href: api/_autosummary/ansys.meshing.prime.examples.download_wheel_ground_scdoc.md
 - name: Changelog
   href: changelog.md
 
