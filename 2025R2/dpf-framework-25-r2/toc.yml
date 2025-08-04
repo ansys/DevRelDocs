@@ -26,9 +26,8 @@
   - name: Operator fundamentals
     href: core-concepts/operator.md
 - name: Operator specifications
+  href: operator-specifications/operator-specifications.md
   items:
-  - name: Operator specifications
-    href: operator-specifications/operator-specifications.md
   - name: averaging
     items:
     - name: elemental difference
