@@ -113,8 +113,8 @@ Each plugin must have the following child elements:
 - **<Path>** stores the location of the plugin to load.
   The normal mechanism that the operating system uses to find a **.dll** or **.so** file is used.
   The **.dll** file could be in the Windows path, or the **.so** file could be in the Linux **LD_LIBRARY_PATH** system environment variable.
-- **<Loader>** defines the entry-point for how the plugin is loaded. 
-  Only **LoadOperators** is supported, which loads all operators within the plugin.
+- **<Loader>** defines the entrypoint procedure name to call upon loading the plugin. 
+  In practice this procedure is used to record operators, thus **LoadOperators** is the recommended name.
 - **<UsePluginXml>** defines whether to use the **<PLUGIN>.xml** file located next to it to configure the plugin.
   This element is optional. The default value is **true**.
 
@@ -153,7 +153,7 @@ The structure of the file is as follows:
 </Environment>
 ```
 
-It only contains an **<Environment>** element wwhich is defined as [described previously](configuration.md#environment-configuration).
+It only contains an **<Environment>** element which is defined as [described previously](configuration.md#environment-configuration).
 
 The value of an environment variable is updated each time it is redefined, which means you can modify it in one go or in several elements:
 
