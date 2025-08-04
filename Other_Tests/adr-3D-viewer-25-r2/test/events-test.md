@@ -56,3 +56,105 @@ Additional fields if type==SELECTION_BODY:
 
 - min: [xmin, ymin, zmin]
 - max: [xmax, ymax, zmax]
+
+
+### test heading 3
+
+
+The component is designed to communicate intrinsic status changes via custom JavaScript events.  
+Events are scoped to the <ansys-adr-viewer> element and handlers should be attached
+to the viewer element itself.  An example of connecting to the partlist changed event assuming
+instantiation via the previous example code:
+
+```html
+<script> 
+  function partlistChangedFunc(e) { 
+     var obj = document.getElementById("Viewer"); 
+     const new_list = obj.parts; 
+     // Event handler code goes here...
+  } 
+
+  var viewer = document.getElementById("Viewer"); 
+  viewer.addEventListener("parts-changed", partlistChangedFunc); 
+</script> 
+```
+
+In general, events do not contain significant data payloads, relying on
+properties to contain the changed state values.
+
+
+
+#### test heading 4
+
+The component is designed to communicate intrinsic status changes via custom JavaScript events.  
+Events are scoped to the <ansys-adr-viewer> element and handlers should be attached
+to the viewer element itself.  An example of connecting to the partlist changed event assuming
+instantiation via the previous example code:
+
+```html
+<script> 
+  function partlistChangedFunc(e) { 
+     var obj = document.getElementById("Viewer"); 
+     const new_list = obj.parts; 
+     // Event handler code goes here...
+  } 
+
+  var viewer = document.getElementById("Viewer"); 
+  viewer.addEventListener("parts-changed", partlistChangedFunc); 
+</script> 
+```
+
+In general, events do not contain significant data payloads, relying on
+properties to contain the changed state values.
+
+
+
+##### test heading 5
+
+The component is designed to communicate intrinsic status changes via custom JavaScript events.  
+Events are scoped to the <ansys-adr-viewer> element and handlers should be attached
+to the viewer element itself.  An example of connecting to the partlist changed event assuming
+instantiation via the previous example code:
+
+```html
+<script> 
+  function partlistChangedFunc(e) { 
+     var obj = document.getElementById("Viewer"); 
+     const new_list = obj.parts; 
+     // Event handler code goes here...
+  } 
+
+  var viewer = document.getElementById("Viewer"); 
+  viewer.addEventListener("parts-changed", partlistChangedFunc); 
+</script> 
+```
+
+In general, events do not contain significant data payloads, relying on
+properties to contain the changed state values.
+
+
+
+###### test heading 6
+
+
+The component is designed to communicate intrinsic status changes via custom JavaScript events.  
+Events are scoped to the <ansys-adr-viewer> element and handlers should be attached
+to the viewer element itself.  An example of connecting to the partlist changed event assuming
+instantiation via the previous example code:
+
+```html
+<script> 
+  function partlistChangedFunc(e) { 
+     var obj = document.getElementById("Viewer"); 
+     const new_list = obj.parts; 
+     // Event handler code goes here...
+  } 
+
+  var viewer = document.getElementById("Viewer"); 
+  viewer.addEventListener("parts-changed", partlistChangedFunc); 
+</script> 
+```
+
+In general, events do not contain significant data payloads, relying on
+properties to contain the changed state values.
+
