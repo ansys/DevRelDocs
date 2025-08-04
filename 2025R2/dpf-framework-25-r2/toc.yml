@@ -8,7 +8,6 @@
     href: getting-started/licensing.md
   - name: Configuration
     href: getting-started/configuration.md
-  items:
 - name: User guide
   items:
   - name: The server context
@@ -26,8 +25,9 @@
   - name: Operator fundamentals
     href: core-concepts/operator.md
 - name: Operator specifications
-  href: operator-specifications/operator-specifications.md
   items:
+  - name: Operator specifications
+    href: operator-specifications/operator-specifications.md
   - name: averaging
     items:
     - name: elemental difference
