@@ -76,15 +76,3 @@ There are no developer tools available at this time.
 ## PolyUMod
 
 There are no developer tools available at this time.
-
-## Sherlock
-
-Ansys Sherlock has an open-source Python interface named PySherlock.
-
-* [Sherlock for developers (Developer Portal documentation)](https://developer.ansys.com/docs/sherlock)
-* [PySherlock documentation (PyAnsys)](https://sherlock.docs.pyansys.com/)
-
-### Ansys Sherlock training material
-
-* [PySherlock Installation and Usage Demo | Step-by-Step for Beginners](https://www.youtube.com/watch?v=ugiueYuNEKk)
-* [PySherlock Installation and Usage Demo | Advanced Setup Guide](https://www.youtube.com/watch?v=06s_tNvlOTM)
