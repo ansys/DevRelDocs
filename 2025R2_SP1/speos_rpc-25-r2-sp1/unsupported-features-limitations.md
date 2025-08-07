@@ -2,6 +2,10 @@
 
 ## Unsupported features
 
+### Scene
+
+- SaveFile method for Scene -> SceneActions V1 and V2
+
 ### Import
 
 - glTF import
