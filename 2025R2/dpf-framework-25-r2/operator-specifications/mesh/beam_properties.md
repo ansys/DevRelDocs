@@ -12,11 +12,6 @@ license: None
 
 Reads the beam's properties from the result files contained in the streams or data sources.
 
-## Supported file types
-
-This operator supports the following file types (result keys), listed by namespace:
-- <strong>mapdl</strong>: rst
-
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

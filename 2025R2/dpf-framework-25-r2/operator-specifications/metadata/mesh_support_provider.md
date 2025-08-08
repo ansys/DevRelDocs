@@ -23,7 +23,7 @@ Reads the mesh support.
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| abstract_field_support |[`abstract_field_support`](../../core-concepts/dpf-types.md#field-support) |  |
+|  **Pin 0**| abstract_field_support |abstract_field_support |  |
 
 ## Configurations
 

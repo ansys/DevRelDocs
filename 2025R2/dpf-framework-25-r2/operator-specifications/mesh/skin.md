@@ -27,7 +27,7 @@ Extracts a skin of the mesh in a new meshed region. The material ID of initial e
 |-------|------|------------------|-------------|
 |  **Pin 0**| mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Skin meshed region with facets and facets_to_ele property fields. |
 |  **Pin 1**| nodes_mesh_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) |  |
-|  **Pin 2**| map_new_elements_to_old |[`umap<int32,int32>`](../../core-concepts/dpf-types.md#umap<int32,int32>) |  |
+|  **Pin 2**| map_new_elements_to_old |umap<int32,int32> |  |
 |  **Pin 3**| property_field_new_elements_to_old |[`property_field`](../../core-concepts/dpf-types.md#property-field) | This property field provides, for each new face element ID (in the scoping), the corresponding 3D volume element index (in the data) it has been extracted from. The 3D volume element ID can be found with the element scoping of the input mesh. |
 |  **Pin 4**| facet_indices |[`property_field`](../../core-concepts/dpf-types.md#property-field) | This property field gives, for each new face element ID (in the scoping), the corresponding face index on the source 3D volume element. The 3D volume element can be extracted from the previous output. |
 
