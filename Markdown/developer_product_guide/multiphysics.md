@@ -1,6 +1,6 @@
 # Multiphysics
 
-Whilst not a "True" product collection multiphysics products are sufficiently useful that they warrant a separate distinction on this page.
+While not an actual Ansys product collection, multiphysics products warrant their own page because of their usefulness.
 
 ## Sherlock
 
