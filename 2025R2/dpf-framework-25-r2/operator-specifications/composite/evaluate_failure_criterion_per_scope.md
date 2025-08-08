@@ -19,8 +19,8 @@ Evaluates failure criteria for a specified scope.
 | <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  element_scoping |[`scoping`](../../core-concepts/dpf-types.md#scoping) | Element scoping on which failure criteria are evaluated |
 | <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  stream_provider |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | Stream with result file. |
 | <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Mesh (including layup information if available) |
-| <strong>Pin 22</strong>|  material_fields |umap<string,struct dataProcessing::composite::ImportedMaterialField> | Material fields: Only needed if has_layup_provider is true |
-| <strong>Pin 23</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  materials_container |materials_container | Materials container |
+| <strong>Pin 22</strong>|  material_fields |`umap<string,struct dataProcessing::composite::ImportedMaterialField>` | Material fields: Only needed if has_layup_provider is true |
+| <strong>Pin 23</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  materials_container |`materials_container` | Materials container |
 | <strong>Pin 24</strong>|  section_data_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Section Data Container: Only needed if has_layup_provider is true |
 | <strong>Pin 25</strong>|  mesh_properties_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Mesh Properties Container Container: Only needed if has_layup_provider is true |
 | <strong>Pin 100</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  criterion_configuration |[`string`](../../core-concepts/dpf-types.md#standard-types) | Failure criteria configuration |
@@ -28,7 +28,7 @@ Evaluates failure criteria for a specified scope.
 | <strong>Pin 218</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  layup_model_context_type |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Define the source of section data. Values are: 0=not available, 1=ACP, 2=RST,                                3=MIXED (ACP+RST). |
 | <strong>Pin 302</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  request_sandwich_results |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Request results for sandwich failure criteria. |
 | <strong>Pin 303</strong>|  use_live_evaluation |[`bool`](../../core-concepts/dpf-types.md#standard-types) | Use live evaluation. Default: False |
-| <strong>Pin 307</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  scope_configuration |struct dataProcessing::composite::CompositeScopeConfig | Scope configuration |
+| <strong>Pin 307</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  scope_configuration |`struct dataProcessing::composite::CompositeScopeConfig` | Scope configuration |
 
 ## Outputs
 

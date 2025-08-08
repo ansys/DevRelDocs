@@ -21,7 +21,7 @@ Expand cyclic results from a fieldsContainer for given sets, sectors and scoping
 | <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | field container with the base and duplicate sectors |
 | <strong>Pin 3</strong>|  harmonic_index |[`int32`](../../core-concepts/dpf-types.md#standard-types) |  |
 | <strong>Pin 5</strong>|  bool_rotate_to_global |[`bool`](../../core-concepts/dpf-types.md#standard-types) | default is true |
-| <strong>Pin 6</strong>|  map_size_scoping_out |umap<int32,int32> | map provider by scoping adapter |
+| <strong>Pin 6</strong>|  map_size_scoping_out |`umap<int32,int32>` | map provider by scoping adapter |
 | <strong>Pin 7</strong>|  normalization_factor |[`double`](../../core-concepts/dpf-types.md#standard-types) |  |
 | <strong>Pin 14</strong>|  merge_stages |[`bool`](../../core-concepts/dpf-types.md#standard-types) |  |
 | <strong>Pin 16</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  cyclic_support |[`cyclic_support`](../../core-concepts/dpf-types.md#cyclic-support) |  |
