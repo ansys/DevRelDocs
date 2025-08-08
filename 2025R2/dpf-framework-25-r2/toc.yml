@@ -28,7 +28,6 @@
   items:
   - name: Operator specifications
     href: operator-specifications/operator-specifications.md
-  items:
   - name: averaging
     items:
     - name: elemental difference
