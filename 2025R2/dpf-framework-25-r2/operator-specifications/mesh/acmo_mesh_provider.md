@@ -16,7 +16,7 @@ Converts an Assembly Mesh into a DPF Meshes container
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  assembly_mesh |ans_dispatch_holder, struct IAnsDispatch |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  assembly_mesh |`ans_dispatch_holder`, `struct IAnsDispatch` |  |
 | <strong>Pin 1</strong>|  unit |[`string`](../../core-concepts/dpf-types.md#standard-types) |  |
 
 ## Outputs

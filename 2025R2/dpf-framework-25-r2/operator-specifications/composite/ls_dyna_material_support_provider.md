@@ -22,7 +22,7 @@ Extracts the material IDs and VUUIDs from a k file and provides a material suppo
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| abstract_field_support |abstract_field_support | Material support (CFieldSupportBase). |
+|  **Pin 0**| abstract_field_support |`abstract_field_support` | Material support (CFieldSupportBase). |
 
 ## Configurations
 

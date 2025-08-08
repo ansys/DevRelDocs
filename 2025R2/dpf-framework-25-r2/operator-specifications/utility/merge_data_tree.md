@@ -16,7 +16,7 @@ Merges a list of data trees. Attributes names shouldn't be shared accross data t
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_tree |[`data_tree`](../../core-concepts/dpf-types.md#data-tree), vector<shared_ptr<data_tree>> | Either a vector of data trees or data trees from pin 0 to ... to merge. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_tree |[`data_tree`](../../core-concepts/dpf-types.md#data-tree), `vector<shared_ptr<data_tree>>` | Either a vector of data trees or data trees from pin 0 to ... to merge. |
 
 ## Outputs
 

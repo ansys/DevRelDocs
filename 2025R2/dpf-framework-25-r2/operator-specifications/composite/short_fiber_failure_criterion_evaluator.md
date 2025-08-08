@@ -27,7 +27,7 @@ Evaluates failure criteria for short fiber composites.
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
 |  **Pin 0**| fields_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | A CFieldsContainer of CFields with the failure value results under the label is_failure_value = 1 						and failure modes under the label is_failure_value = 0 						from a specific failure criterion operator. |
-|  **Pin 1**| materials_container |materials_container | Materials container enriched with field variables and temperature. |
+|  **Pin 1**| materials_container |`materials_container` | Materials container enriched with field variables and temperature. |
 
 ## Configurations
 

@@ -23,7 +23,7 @@ Reads the material support.
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| abstract_field_support |abstract_field_support |  |
+|  **Pin 0**| abstract_field_support |`abstract_field_support` |  |
 
 ## Configurations
 

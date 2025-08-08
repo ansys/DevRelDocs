@@ -17,13 +17,13 @@ Returns the in the rst stream if specified, otherwise return the default unit sy
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  streams |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | Stream with result file |
-| <strong>Pin 50</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  default_unit_system |class boost::optional<class dataProcessing::unit::CUnitSystem> | default_unit_system |
+| <strong>Pin 50</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  default_unit_system |`class boost::optional<class dataProcessing::unit::CUnitSystem>` | default_unit_system |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| unit_system |class dataProcessing::unit::CUnitSystem | unit_system |
+|  **Pin 0**| unit_system |`class dataProcessing::unit::CUnitSystem` | unit_system |
 
 ## Configurations
 
