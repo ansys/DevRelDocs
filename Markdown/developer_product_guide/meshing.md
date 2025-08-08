@@ -1,6 +1,6 @@
 # Meshing
 
-Whilst not a "True" product collection meshing products are sufficiently useful that they warrant a separate distinction on this page. This page covers all of Ansys' meshing tools.
+While not an actual Ansys product collection, meshing products warrant their own page because of their usefulness. This page covers all of Ansys' meshing tools.
 
 ## Prime Mesh
 
