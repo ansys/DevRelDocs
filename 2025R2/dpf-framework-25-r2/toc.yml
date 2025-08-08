@@ -28,6 +28,7 @@
   items:
   - name: Operator specifications
     href: operator-specifications/operator-specifications.md
+  items:
   - name: averaging
     items:
     - name: elemental difference
@@ -362,6 +363,18 @@
       href: operator-specifications/logic/split_streams.md
   - name: mapping
     items:
+    - name: apply mechanical native mapping
+      href: operator-specifications/mapping/apply_mechanical_native_mapping.md
+    - name: create mech kriging workflow
+      href: operator-specifications/mapping/create_mech_kriging_workflow.md
+    - name: create mech point cloud workflow
+      href: operator-specifications/mapping/create_mech_point_cloud_workflow.md
+    - name: create mech shape func surf workflow
+      href: operator-specifications/mapping/create_mech_shape_func_surf_workflow.md
+    - name: create mech shape func vol workflow
+      href: operator-specifications/mapping/create_mech_shape_func_vol_workflow.md
+    - name: create sc mapping workflow
+      href: operator-specifications/mapping/create_sc_mapping_workflow.md
     - name: fft
       href: operator-specifications/mapping/fft.md
     - name: find reduced coordinates
@@ -372,14 +385,30 @@
       href: operator-specifications/mapping/on_reduced_coordinates.md
     - name: prepare mapping workflow
       href: operator-specifications/mapping/prepare_mapping_workflow.md
+    - name: prepare mechanical native mapping
+      href: operator-specifications/mapping/prepare_mechanical_native_mapping.md
+    - name: prepare mechanical native mapping kriging
+      href: operator-specifications/mapping/prepare_mechanical_native_mapping_kriging.md
+    - name: prepare mechanical native mapping point cloud
+      href: operator-specifications/mapping/prepare_mechanical_native_mapping_point_cloud.md
+    - name: prepare mechanical native mapping shape functions for surfaces
+      href: operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_surfaces.md
+    - name: prepare mechanical native mapping shape functions for volume
+      href: operator-specifications/mapping/prepare_mechanical_native_mapping_shape_functions_for_volume.md
     - name: prep sampling fft
       href: operator-specifications/mapping/prep_sampling_fft.md
     - name: scoping on coordinates
       href: operator-specifications/mapping/scoping_on_coordinates.md
+    - name: sc mapping
+      href: operator-specifications/mapping/sc_mapping.md
     - name: solid to skin
       href: operator-specifications/mapping/solid_to_skin.md
     - name: solid to skin fc
       href: operator-specifications/mapping/solid_to_skin_fc.md
+    - name: sysc point cloud wf
+      href: operator-specifications/mapping/sysc_point_cloud_wf.md
+    - name: sysc shape function wf
+      href: operator-specifications/mapping/sysc_shape_function_wf.md
   - name: math
     items:
     - name: absolute value by component
@@ -642,10 +671,16 @@
       href: operator-specifications/mesh/mesh_to_pyvista.md
     - name: mesh to tetra
       href: operator-specifications/mesh/mesh_to_tetra.md
+    - name: morphed field
+      href: operator-specifications/mesh/morphed_field.md
+    - name: morphing
+      href: operator-specifications/mesh/morphing.md
     - name: node coordinates
       href: operator-specifications/mesh/node_coordinates.md
     - name: points from coordinates
       href: operator-specifications/mesh/points_from_coordinates.md
+    - name: prepare morphing
+      href: operator-specifications/mesh/prepare_morphing.md
     - name: skin
       href: operator-specifications/mesh/skin.md
     - name: split fields
@@ -1438,6 +1473,8 @@
       href: operator-specifications/serialization/data_tree_to_txt.md
     - name: deserializer
       href: operator-specifications/serialization/deserializer.md
+    - name: export mesh with prime
+      href: operator-specifications/serialization/export_mesh_with_prime.md
     - name: export symbolic workflow
       href: operator-specifications/serialization/export_symbolic_workflow.md
     - name: field to csv
@@ -1770,5 +1807,3 @@
       href: operator-specifications/utility/unitary_field.md
     - name: weighted merge fields by label
       href: operator-specifications/utility/weighted_merge_fields_by_label.md
-- name: Changelog
-  href: changelog/changelog-25-r2.md
