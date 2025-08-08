@@ -23,7 +23,7 @@ Reads mesh properties from the results files contained in the streams or data so
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| mesh_selection_manager |mesh_selection_manager |  |
+|  **Pin 0**| mesh_selection_manager |`mesh_selection_manager` |  |
 
 ## Configurations
 
