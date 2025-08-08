@@ -75,24 +75,6 @@ The PyAnsys workflow repository contains multi-physics examples.
 
 [PyAnsys workflows documentation (PyAnsys)](https://workflows.docs.pyansys.com/)
 
-## Prime Mesh
-
-Ansys Prime Mesh provides core Ansys meshing technology for building meshes of different types for various physics simulations.
-
-* [Ansys Prime Mesh for developers (Developer Portal documentation)](https://developer.ansys.com/docs/primemesh)
-* [PyPrimeMesh documentation (PyAnsys)](https://prime.docs.pyansys.com/version/stable/)
-
-Developers can interface with Prime Mesh through two options using the Ansys Prime Server:
-
-* The open-source Ansys PyPrimeMesh Python client to access the meshing APIs
-* The Ansys Prime Mesh Python client library available in the Ansys installation  
-
-These two options have feature parity.
-
-### Ansys Prime Mesh training material
-
-* [PyAnsys Training: Overview of PyPrimeMesh](https://www.youtube.com/watch?v=uBQkw8JoO-A)
-
 ## Ansys Notebook
 
 Ansys Notebook is a Jupyter-like environment that provides access to Ansys solvers over the web using PyAnsys.
@@ -117,23 +99,6 @@ This open-source PyAnsys library provides a collection of components shared acro
 
 [PyAnsys Shared Components documentation (PyAnsys)](https://shared.docs.pyansys.com/)
 
-## SimAI
-
-SimAI has an associated PyAnsys library named PySimAI.
-
-* [SimAI for developers (Developer Portal documentation)](https://developer.ansys.com/docs/simai)
-* [PySimAI documentation (PyAnsys)](https://simai.docs.pyansys.com/)
-
-### Ansys SimAI Training
-
-* [PyAnsys Training: Overview of PySimAI](https://www.youtube.com/watch?v=AeTL76GyMRI)
-
-## System coupling
-
-Ansys System Coupling provides two main developer tools: participant libraries and PySystemCoupling. The participant libraries are closed-source and available in multiple languages. PySystemCoupling is an open-source PyAnsys library.
-
-* [System coupling for developers (Developer portal documentation)](https://developer.ansys.com/docs/system-coupling)
-* [PySystemCoupling documentation (PyAnsys)](https://systemcoupling.docs.pyansys.com/)
 
 ## Workbench
 

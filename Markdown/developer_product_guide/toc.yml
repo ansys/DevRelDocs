@@ -4,6 +4,8 @@
   href: glossary.md
 - name: 3D Design
   href: 3d_design.md
+- name: AI
+  href: AI.md
 - name: Acoustics Analysis
   href: Acoustics_Analysis.md
 - name: Ansys Additive Solutions
@@ -26,8 +28,12 @@
   href: fluids.md
 - name: Materials
   href: materials.md
+- name: Meshing
+  href: meshing.md
 - name: Miscellaneous
   href: misc.md
+- name: Multiphysics
+  href: multiphysics.md
 - name: Optics
   href: optics.md
 - name: Safety Analysis
