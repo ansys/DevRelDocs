@@ -16,7 +16,7 @@ Extracts rigid body transformation from dsub file.
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 3</strong>|  streams |stream | streams (result file container) (optional) |
+| <strong>Pin 3</strong>|  streams |`stream` | streams (result file container) (optional) |
 | <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | data source of dsub file. |
 
 ## Outputs
