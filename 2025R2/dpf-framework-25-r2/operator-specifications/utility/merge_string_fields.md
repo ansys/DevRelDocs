@@ -16,7 +16,7 @@ Assembles a set of string fields into a unique one.
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  string_fields |[`vector<shared_ptr<string_field>>`](../../core-concepts/dpf-types.md#vector<shared-ptr<string-field>>), [`string_field`](../../core-concepts/dpf-types.md#string-field) | Either a a vector of string fields to merge or string fields from pin 0 to ... |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  string_fields |vector<shared_ptr<string_field>>, [`string_field`](../../core-concepts/dpf-types.md#string-field) | Either a a vector of string fields to merge or string fields from pin 0 to ... |
 
 ## Outputs
 

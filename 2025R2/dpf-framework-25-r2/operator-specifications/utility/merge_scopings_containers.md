@@ -16,7 +16,7 @@ Assembles a set of scopings containers into a unique one.
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  scopings_containers |[`vector<shared_ptr<scopings_container>>`](../../core-concepts/dpf-types.md#vector<shared-ptr<scopings-container>>), [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) | A vector of scopings containers to merge or scopings containers from pin 0 to ... |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  scopings_containers |vector<shared_ptr<scopings_container>>, [`scopings_container`](../../core-concepts/dpf-types.md#scopings-container) | A vector of scopings containers to merge or scopings containers from pin 0 to ... |
 
 ## Outputs
 

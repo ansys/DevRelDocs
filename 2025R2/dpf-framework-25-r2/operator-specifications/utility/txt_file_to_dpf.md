@@ -10,7 +10,7 @@ license: None
 
 ## Description
 
-Take an input string and parse it into dataProcessing type
+Take an input string and parse it into dataProcessing type.
 
 ## Inputs
 

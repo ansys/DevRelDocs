@@ -12,12 +12,6 @@ license: None
 
 Read Global Kinetic Energy (LSDyna) by calling the readers defined by the datasources.
 
-## Supported file types
-
-This operator supports the following file types (result keys), listed by namespace:
-- <strong>hdf5</strong>: h5dpf
-- <strong>lsdyna</strong>: binout, d3plot
-
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

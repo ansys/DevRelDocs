@@ -12,11 +12,6 @@ license: None
 
 Extracts the Rotation Matrix and Origin of a specific coordinate system.
 
-## Supported file types
-
-This operator supports the following file types (result keys), listed by namespace:
-- <strong>mapdl</strong>: rst
-
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

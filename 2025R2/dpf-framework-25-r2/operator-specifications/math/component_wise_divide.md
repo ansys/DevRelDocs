@@ -29,7 +29,7 @@ Computes component-wise fraction between two fields of same dimensionality. If o
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **binary_operation** |[`binary_operation_enum`](../../core-concepts/dpf-types.md#binary-operation-enum), [`int32`](../../core-concepts/dpf-types.md#standard-types) | 1 | This option allows to choose how two inputs will be treated together. eOnlyIntersection (0) means that the output will only contain the entities shared by all the inputs. eUnion (1) means that the output will contain all the entities contained in at least one of the inputs. |
+| **binary_operation** |binary_operation_enum, [`int32`](../../core-concepts/dpf-types.md#standard-types) | 1 | This option allows to choose how two inputs will be treated together. eOnlyIntersection (0) means that the output will only contain the entities shared by all the inputs. eUnion (1) means that the output will contain all the entities contained in at least one of the inputs. |
 | **inplace** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | The output is written over the input to save memory if this config is set to true. |
 | **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 | **num_threads** |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 | Number of threads to use to run in parallel |

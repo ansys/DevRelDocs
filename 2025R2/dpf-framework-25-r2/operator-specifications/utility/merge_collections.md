@@ -16,7 +16,7 @@ Merges a set of collections into a unique one.
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  collections |[`vector<shared_ptr<any_collection>>`](../../core-concepts/dpf-types.md#vector<shared-ptr<any-collection>>), [`any_collection`](../../core-concepts/dpf-types.md#any-collection) | a vector of collections to merge or collections from pin 0 to ... |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  collections |vector<shared_ptr<any_collection>>, [`any_collection`](../../core-concepts/dpf-types.md#any-collection) | a vector of collections to merge or collections from pin 0 to ... |
 
 ## Outputs
 
