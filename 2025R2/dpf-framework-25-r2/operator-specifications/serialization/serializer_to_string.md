@@ -16,14 +16,13 @@ Take any input and serialize them in a string.
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin -1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  stream_type |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 for string (default), 1 for binary, 2 for binary with chunked output (the output string will be returned in several chunks to prevent string memory overflows). |
+| <strong>Pin -1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  stream_type |[`int32`](../../core-concepts/dpf-types.md#standard-types) | 0 for string (default), and 1 for binary |
 | <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  any_input |[`any`](../../core-concepts/dpf-types.md#any) | any input |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin -1**| nof_chunks |[`int32`](../../core-concepts/dpf-types.md#standard-types) | Number of chunks when mode passed to input pin(-1) = 2. |
 |  **Pin 0**| serialized_string |[`string`](../../core-concepts/dpf-types.md#standard-types) |  |
 
 ## Configurations

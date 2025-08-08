@@ -12,11 +12,6 @@ license: None
 
 Reads mesh properties from the results files contained in the streams or data sources, and makes those properties available through a mesh selection manager in output.
 
-## Supported file types
-
-This operator supports the following file types (result keys), listed by namespace:
-- <strong>mapdl</strong>: dsub, rdsp, rfrq, rst, rth
-
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |
@@ -28,7 +23,7 @@ This operator supports the following file types (result keys), listed by namespa
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| mesh_selection_manager |[`mesh_selection_manager`](../../core-concepts/dpf-types.md#mesh-selection-manager) |  |
+|  **Pin 0**| mesh_selection_manager |mesh_selection_manager |  |
 
 ## Configurations
 

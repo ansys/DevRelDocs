@@ -12,11 +12,6 @@ license: None
 
 Loads the appropriate operator based on the data sources and retrieves material properties.
 
-## Supported file types
-
-This operator supports the following file types (result keys), listed by namespace:
-- <strong>mapdl</strong>: rst, rth
-
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

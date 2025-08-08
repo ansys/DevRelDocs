@@ -12,11 +12,6 @@ license: None
 
 Extracts rigid body motions from a displacement in input.
 
-## Supported file types
-
-This operator supports the following file types (result keys), listed by namespace:
-- <strong>mapdl</strong>: dsub
-
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

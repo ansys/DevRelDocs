@@ -12,11 +12,6 @@ license: None
 
 Reads boundary conditions from the results files contained in the streams or data sources.
 
-## Supported file types
-
-This operator supports the following file types (result keys), listed by namespace:
-- <strong>mapdl</strong>: cms, mode, rfrq, rst, rth
-
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |
