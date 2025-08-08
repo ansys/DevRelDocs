@@ -12,11 +12,6 @@ license: None
 
 Reads the material support.
 
-## Supported file types
-
-This operator supports the following file types (result keys), listed by namespace:
-- <strong>mapdl</strong>: rst
-
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |
@@ -28,7 +23,7 @@ This operator supports the following file types (result keys), listed by namespa
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| abstract_field_support |[`abstract_field_support`](../../core-concepts/dpf-types.md#field-support) |  |
+|  **Pin 0**| abstract_field_support |abstract_field_support |  |
 
 ## Configurations
 

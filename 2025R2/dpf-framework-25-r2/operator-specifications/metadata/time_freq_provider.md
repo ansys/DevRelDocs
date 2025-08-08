@@ -12,15 +12,6 @@ license: None
 
 Reads the time/frequency support from the results files contained in the streams or data sources.
 
-## Supported file types
-
-This operator supports the following file types (result keys), listed by namespace:
-- <strong>cff</strong>: cas, flprj
-- <strong>cgns</strong>: cgns
-- <strong>hdf5</strong>: h5dpf
-- <strong>lsdyna</strong>: binout, d3acp, d3acs, d3atv, d3plot, d3psd, d3ssd, lsda, moddynout
-- <strong>mapdl</strong>: cms, dsub, mode, rdsp, rfrq, rst, rth
-
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

@@ -12,15 +12,6 @@ license: None
 
 Reads a property related to the mesh, defined by its name, by calling the readers defined by the data sources. These properties can be used to fill in the mesh.
 
-## Supported file types
-
-This operator supports the following file types (result keys), listed by namespace:
-- <strong>cff</strong>: cas, flprj
-- <strong>cgns</strong>: cgns
-- <strong>hdf5</strong>: h5dpf
-- <strong>lsdyna</strong>: d3plot
-- <strong>mapdl</strong>: cms, dsub, mode, rdsp, rfrq, rst, rth
-
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

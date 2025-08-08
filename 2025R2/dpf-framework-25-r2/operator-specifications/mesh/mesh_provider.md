@@ -12,15 +12,6 @@ license: None
 
 Reads a mesh from result files.
 
-## Supported file types
-
-This operator supports the following file types (result keys), listed by namespace:
-- <strong>cff</strong>: cas, flprj
-- <strong>cgns</strong>: cgns
-- <strong>hdf5</strong>: h5dpf
-- <strong>mapdl</strong>: cms, dsub, mode, rdsp, rfrq, rst, rth
-- <strong>vtk</strong>: vtk
-
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

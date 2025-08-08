@@ -12,12 +12,6 @@ license: None
 
 Reads if the model is cyclic from the result file.
 
-## Supported file types
-
-This operator supports the following file types (result keys), listed by namespace:
-- <strong>hdf5</strong>: h5dpf
-- <strong>mapdl</strong>: rdsp, rfrq, rst, rth
-
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |

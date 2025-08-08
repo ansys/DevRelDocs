@@ -12,13 +12,6 @@ license: None
 
 Reads the mesh information, such as number of elements (common property), number of faces (Cff plugins) or scoping of parts (LSDYNA plugins) on files contained in the streams or data sources.
 
-## Supported file types
-
-This operator supports the following file types (result keys), listed by namespace:
-- <strong>cff</strong>: cas, flprj
-- <strong>cgns</strong>: cgns
-- <strong>lsdyna</strong>: d3plot
-
 ## Inputs
 
 | Input | Name | Expected type(s) | Description |
