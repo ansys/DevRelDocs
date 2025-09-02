@@ -1,0 +1,12 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "ADR 3D Viewer Web Component 2025 R2",
+        "summary": "",
+        "version": "2025 R2",
+        "product": "ADR 3D Viewer Web Component",
+        "programming language": "",
+        "physics": "Shared Components"
+      }
+    }
+ }
