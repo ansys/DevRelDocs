@@ -1,0 +1,12 @@
+{
+    "build": {
+      "globalMetadata": {
+        "title": "ADR Websocket Server 2026 R1",
+        "summary": "",
+        "version": "2026 R1",
+        "product": "ADR Websocket Server",
+        "programming language": "",
+        "physics": "Shared Components"
+      }
+    }
+ }

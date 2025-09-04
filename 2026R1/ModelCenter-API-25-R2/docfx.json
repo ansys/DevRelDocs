@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "ModelCenter APIs 2026 R1",
+      "summary": "",
+      "version": "2026 R1",
+      "product": "ModelCenter",
+      "programming language": "",
+      "product collection": "Connect",
+      "physics": "Connect"
+    }
+  }
+}

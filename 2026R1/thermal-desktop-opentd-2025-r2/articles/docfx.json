@@ -1,0 +1,13 @@
+{
+    "build": {
+        "globalMetadata": {
+            "title": "OpenTD 2026 R1",
+            "summary": "",
+            "version": "2026 R1",
+            "product": "Thermal Desktop",
+            "programming language": "C#",
+            "product collection": "Fluids",
+            "physics": "Fluids"
+        }
+    }
+}

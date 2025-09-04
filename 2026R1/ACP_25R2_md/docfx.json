@@ -1,0 +1,12 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "ACP scripting interface 2026 R1",
+      "summary": "The ACP scripting interface provides programmable control of the ACP application.",
+      "version": "2026 R1",
+      "product": "ACP",
+      "programming language": "Python",
+      "physics": "Structures"
+    }
+  }
+}

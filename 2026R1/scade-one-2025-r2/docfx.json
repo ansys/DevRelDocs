@@ -1,0 +1,13 @@
+{
+  "build": {
+    "globalMetadata": {
+      "title": "Scade One standard libraries 2026 R1",
+      "summary": "",
+      "version": "2026 R1",
+      "product": "Scade One",
+      "programming language": "Swan",
+      "product collection": "Embedded Software",
+      "physics": "Embedded Software"
+    }
+  }
+}
