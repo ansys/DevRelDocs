@@ -1,0 +1,16 @@
+- name: ModelCenter Component Plugin SDK Getting Started Guide
+  href: index.md
+- name: Getting Started
+  href: started.md
+- name: New Project Overview (.NET)
+  href: new_project.md
+- name: Testing the Plugin
+  href: testing.md
+- name: Customizing the Plugin
+  href: customizing.md
+- name: Common Issues & Solutions
+  href: common_issues.md
+- name: Frequently Asked Questions
+  href: faq.md
+- name: Change Log
+  href: change_log.md
