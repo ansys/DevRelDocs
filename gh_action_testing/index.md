@@ -1,1 +1,2 @@
-Simple File to test index.md presence
+# Placeholder
+TODO: Add .NET projects to the *src* folder and run `docfx` to generate **REAL** *API Documentation*!

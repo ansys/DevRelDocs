@@ -89,6 +89,11 @@ jobs:
           vale sync
           fails=0
           for file in ${{ steps.changed.outputs.all_changed_files }}; do
+            # Skip any files under .github/
+            if [[ $file == *toc.yml || $file == *docfx.json || $file == .github/* || $file == .spectral.yaml ]]; then
+              echo "⏭️ Skipping non documentation file: $file"
+              continue
+            fi
             if [[ "$file" == *.md || "$file" == *.yml || "$file" == *.yaml || "$file" == *.json ]]; then
               echo "🔍 Checking $file with Vale"
               if ! vale "$file"; then
