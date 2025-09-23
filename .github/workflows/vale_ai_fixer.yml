@@ -1,11 +1,7 @@
 name: Vale + AI Fixer
 
 on:
-    pull_request:
-      types: [opened, synchronize, reopened]
-    push:
-      branches:
-        - main
+  workflow_dispatch:
 
 jobs:
   vale_ai_fixer:
@@ -38,11 +34,11 @@ jobs:
 
     - name: Run Vale
       run: |
-        vale testing-ai/ --output=JSON > vale_report.json || true
+        vale gh_action_testing/ --output=JSON > vale_report.json || true
 
     - name: Run AI fixer
       run: |
-        python ai_fixer_azureopenai.py vale_report.json testing-ai
+        python ai_fixer_azureopenai.py vale_report.json gh_action_testing
 
     - name: Diff changes  and create patch (do NOT push)
       run: |
