@@ -1,0 +1,247 @@
+name: PR Validation
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  push:
+    branches:
+      - main
+env:
+  DOCS_FOLDERS: "gh_action_testing" # space-separated list of folders to check
+  ## DOCS_FOLDERS: "zips/Sound-24R2-md markdown"
+
+
+jobs:
+  validate-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout PR files
+        uses: actions/checkout@v4
+
+      - name: Get changed files
+        id: changed
+        uses: tj-actions/changed-files@v45
+        with:
+          files: |
+            **/*.zip
+            **/*.md
+            **/*.yaml
+            **/*.yml
+            **/*.json
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y unzip
+          npm install -g swagger-cli
+          npm install -g @stoplight/spectral-cli
+          curl -sL https://github.com/errata-ai/vale/releases/download/v3.12.0/vale_3.12.0_Linux_64-bit.tar.gz | tar -xz
+          sudo mv vale /usr/local/bin/
+          vale --version
+          spectral --version
+
+      # --- Check links in DOCS_FOLDER ---
+      - name: Run lychee link checker
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: ${{ env.DOCS_FOLDERS }}
+        continue-on-error: true
+      - name: Save lychee result
+        if: always() # run even if lychee failed
+        run: |
+          if [[ ${{ steps.lychee.outputs.exit_code }} != 0 ]]; then
+            echo "lychee_fails=1" >> $GITHUB_ENV
+          else
+            echo "lychee_fails=0" >> $GITHUB_ENV
+          fi 
+      # --- Check ZIP files ---
+      - name: Validate ZIP files
+        if: steps.changed.outputs.any_changed == 'true'
+        run: |
+          fails=0
+          for file in ${{ steps.changed.outputs.all_changed_files }}; do
+            if [[ "$file" == *.zip ]]; then
+              echo "🔍 Checking $file"
+              if ! unzip -t "$file" > /dev/null; then
+                echo "❌ $file is corrupted"
+                fails=1
+              else
+                while read entry; do
+                  if [[ "$entry" == */* ]]; then
+                    echo "❌ $file contains files inside folders: $entry"
+                    fails=1
+                  fi
+                done < <(unzip -l "$file" | awk '{print $4}' | grep -v '/$')
+              fi
+              if [[ $fails -eq 0 ]]; then
+                echo "✅ $file passed"
+              fi
+            fi
+          done
+          echo "zip_fails=$fails" >> $GITHUB_ENV
+
+      # --- Check Markdown files with Vale ---
+      - name: Run Vale on Markdown files
+        if: steps.changed.outputs.any_changed == 'true'
+        run: |
+          vale sync
+          fails=0
+          for file in ${{ steps.changed.outputs.all_changed_files }}; do
+            if [[ "$file" == *.md || "$file" == *.yml || "$file" == *.yaml || "$file" == *.json ]]; then
+              echo "🔍 Checking $file with Vale"
+              if ! vale "$file"; then
+                echo "❌ Vale failed for $file"
+                fails=1
+              else
+                echo "✅ $file passed"
+              fi
+            fi
+          done
+          echo "vale_fails=$fails" >> $GITHUB_ENV
+
+      # --- Check Swagger compatibility for YAML/JSON ---
+      - name: Validate YAML/JSON with Swagger and Spectral
+        if: steps.changed.outputs.any_changed == 'true'
+        run: |
+          fails=0
+          for file in ${{ steps.changed.outputs.all_changed_files }}; do
+            # Skip any files under .github/
+            if [[ $file == *toc.yml || $file == *docfx.json || $file == .github/* || $file == .spectral.yaml ]]; then
+              echo "⏭️ Skipping non-swagger file: $file"
+              continue
+            fi
+            if [[ "$file" == *.yaml || "$file" == *.yml || "$file" == *.json ]]; then
+              echo "🔍 Checking $file with swagger-cli"
+              if ! swagger-cli validate "$file"; then
+                echo "❌ Invalid OpenAPI spec: $file"
+                fails=1
+              else
+                echo "✅ $file passed swagger-cli validation"
+              fi
+              echo "🔍 Linting $file with Spectral"
+              if ! spectral lint "$file"; then
+                echo "❌ Spectral found issues in $file"
+                fails=1
+              else
+                echo "✅ $file passed Spectral linting"
+              fi
+            fi
+          done
+          echo "swagger_fails=$fails" >> $GITHUB_ENV
+      
+      # --- Check for required markdown files ---
+      - name: Check for required markdown files
+        run: |
+          has_index=false
+          has_changelog=false
+          toc_has_introduction=true
+          toc_has_changelog=true
+          echo "checking changed files ${{ steps.changed.outputs.all_changed_files }}"
+          for file in ${{ steps.changed.outputs.all_changed_files }}; do
+            echo "Checking $file"
+            if [[ $file == *index.md ]]; then
+              echo "inside index check"
+              has_index=true
+            fi
+            if [[ $file == *changelog.md ]]; then
+              echo "inside changelog check"
+              has_changelog=true
+            fi
+            if [[ $file == *toc.yml ]]; then
+              echo "Found toc.yml, validating..."
+              first_two=$(head -n 2 "$file")
+              last_two=$(tail -n 2 "$file")
+
+              expected_first=$'- name: Introduction\n  href: index.md'
+              expected_last=$'- name: Changelog\n  href: changelog.md'
+
+              if [[ "$first_two" != "$expected_first" ]]; then
+                echo "First two lines do not match expected Introduction entry"
+                toc_has_introduction=false
+              fi
+            
+              if [[ "$last_two" != "$expected_last" ]]; then
+                echo "Last two lines do not match expected Changelog entry"
+                toc_has_changelog=false
+              fi
+            fi
+          done
+          echo "has_index=$has_index" >> $GITHUB_ENV
+          echo "has_changelog=$has_changelog" >> $GITHUB_ENV
+          echo "toc_has_introduction=$toc_has_introduction" >> $GITHUB_ENV
+          echo "toc_has_changelog=$toc_has_changelog" >> $GITHUB_ENV
+
+      # --- Final summary & exit ---
+      - name: Report summary
+        run: |
+          echo "==== Validation Summary ===="
+          if [[ $zip_fails -ne 0 ]]; then
+            echo "❌ ZIP file validation failed"
+          else
+            echo "✅ ZIP file validation passed"
+          fi
+
+          if [[ $vale_fails -ne 0 ]]; then
+            echo "❌ Vale checks failed"
+          else
+            echo "✅ Vale checks passed"
+          fi
+
+          if [[ $swagger_fails -ne 0 ]]; then
+            echo "❌ Swagger validation failed"
+          else
+            echo "✅ Swagger validation passed"
+          fi
+          if [[ $lychee_fails -ne 0 ]]; then
+            echo "❌ Link check failed"
+          else
+            echo "✅ Link check passed"
+          fi
+          if [[ "$has_index" == "false" ]]; then
+            echo "❌ index.md is missing"
+          else
+            echo "✅ index.md is present"
+          fi 
+          if [[ $has_changelog == false ]]; then
+            echo "❌ changelog.md is missing"
+          else
+            echo "✅ changelog.md is present"
+          fi
+          if [[ $toc_has_introduction == false ]]; then
+            echo "❌ toc.yml is missing Introduction entry"
+          else
+            echo "✅ toc.yml has Introduction entry"
+          fi
+          if [[ $toc_has_changelog == false ]]; then
+            echo "❌ toc.yml is missing Changelog entry"
+          else
+            echo "✅ toc.yml has Changelog entry"
+          fi
+
+          # fail job if any failed
+          if [[ $zip_fails -ne 0 || $vale_fails -ne 0 || $swagger_fails -ne 0 || $lychee_fails -ne 0 || $has_index == 'false' || $has_changelog == 'false' || $toc_has_introduction == 'false' || $toc_has_changelog == 'false' ]]; then
+            exit 1
+          fi
+
+      # --- Add PR validation summary as comment ---
+      - name: Post summary as PR comment
+        if: always()
+        uses: marocchino/sticky-pull-request-comment@v2
+        with:
+          header: validation-summary
+          message: |
+            ## ✅ PR Validation Summary
+      
+            - ZIP validation: ${{ env.zip_fails == 0 && '✅ Passed' || '❌ Failed' }}
+            - Vale markdown checks: ${{ env.vale_fails == 0 && '✅ Passed' || '❌ Failed' }}
+            - Swagger checks: ${{ env.swagger_fails == 0 && '✅ Passed' || '❌ Failed' }}
+            - Link checking: ${{ env.lychee_fails == 0 && '✅ Passed' || '❌ Failed' }}
+            - index.md present: ${{ env.has_index == 'true' && '✅ Yes' || '❌ No' }}
+            - changelog.md present: ${{ env.has_changelog == 'true' && '✅ Yes' || '❌ No' }}
+            - toc.yml has Introduction entry: ${{ env.toc_has_introduction == 'true' && '✅ Yes' || '❌ No' }}
+            - toc.yml has Changelog entry: ${{ env.toc_has_changelog == 'true' && '✅ Yes' || '❌ No' }}
+      
+            _See full logs in [Actions run](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})_
+        
