@@ -15,7 +15,6 @@ hrefs
 css
 usergroup
 metatag
-[Dd]ocfx
 [Nn]amespace
 Pandoc
 bookmap
