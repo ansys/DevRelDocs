@@ -97,7 +97,7 @@ jobs:
             fi
             if [[ "$file" == *.md || "$file" == *.yml || "$file" == *.yaml || "$file" == *.json ]]; then
               echo "🔍 Checking $file with Vale"
-              if ! vale --vocab=${{ env.VALE_DICTIONARY }} "$file"; then
+              if ! vale "$file"; then
                 echo "❌ Vale failed for $file"
                 fails=1
               else
