@@ -1,51 +1,78 @@
 # DPF documentation: Generation and local preview
 
+If you are using a standard DPF installation, you can access the documentation on the [Ansys Developer Portal](https://developer.ansys.com/docs/dpf).
+However, if you have developed custom operators, are working with plugins that lack published documentation, or need to view documentation for a development version, you can generate comprehensive local documentation that includes detailed operator specifications for these custom components.
+
 This section details how to:
 
 - Generate the DPF Framework documentation including operator specifications, as Markdown files using command-line tools.
-- Build and serve a local HTML website to view the generated documentation using a static site generator such as Docfx.
+- Build and serve a local HTML website to view the generated documentation using a static site generator such as DocFX.
 
 ## Generating Documentation
 
 Follow the steps below to generate the DPF operator documentation in Markdown format.
 
-### 1. Set up the environment
+### Set up the environment
 
-1. Clone the `pydpf-core` repository:
+1. Clone the `pydpf-core` repository. Open a terminal and run:
 
    ```bash
    git clone <repo-url>
    ```
 
-2. Create and activate a virtual environment:
+2. Create and activate a virtual environment by running:
 
    ```bash
    python -m venv .venv
    .venv\Scripts\activate.ps1
    ```
 
-3. Set the required environment variables:
+3. Set the required environment variables  by running:
 
    ```powershell
    $env:ANSYS_DPF_ACCEPT_LA = "Y"
    $env:ANSYSLMD_LICENSE_FILE = "1055@lyolmserv1.win.ansys.com"
    ```
 
-### 2. Install the DPF server
+### Install the DPF server
 
-Navigate to the `ansys_dpf_server_win_v2025.1.pre0` folder and install the package in editable mode:
+You can install DPF in standalone or from the Ansys installer. See the [Introduction](../index.md#install-dpf) for more details. The following section details the two different ways to install DPF server.
+
+#### Install DPF server standalone
+
+Navigate to the `ansys_dpf_server_win_v2025.1.pre0` folder (downloaded at the same level as the PyDPF Core folder) and install the package in editable mode by running:
 
 ```bash
 pip install -e .
 ```
 
-Then return to the `pydpf-core` folder:
+#### Install DPF server from the Ansys installer
+
+???
+
+
+
+### Install PyDPF core and jinja2
+
+Return to the `pydpf-core` folder by running:
 
 ```bash
 cd ..
 ```
 
-### 3. Generating Documentation
+Install the package in editable mode by running:
+
+```bash
+pip install -e .
+```
+
+Install Jinja2 by running:
+
+```bash
+ pip install Jinja2 
+```
+
+### Generating documentation
 
 Follow these steps to generate DPF operator documentation in Markdown format.
 
