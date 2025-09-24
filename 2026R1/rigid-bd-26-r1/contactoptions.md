@@ -12,7 +12,7 @@ None
 
 `TimeOut`
 
-Time in second (=30.0 by default)
+Time in seconds (=30.0 by default)
 
 `Verbose`
 

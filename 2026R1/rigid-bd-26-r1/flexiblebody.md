@@ -85,7 +85,7 @@ scale factor equal to 1.0.
 
 `GetLoadVectorScaleFactor(iLV, variable)`
 
-Retrieve the variable associated to the factor specified by `iLV` (index
+Retrieve the variable associated with the factor specified by `iLV` (index
 starts at 0).
 
 ### Derived classes

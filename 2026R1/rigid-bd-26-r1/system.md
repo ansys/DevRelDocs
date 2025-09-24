@@ -24,7 +24,7 @@ Adds a joint to the system.
 
 `PrintTopology()`
 
-Prints the topology of the systems (parent/child relation).
+Prints the topology of the system (parent/child relation).
 
 `AddMeasure(measure)`
 
@@ -34,10 +34,10 @@ time can be retrieved.
 
 `(istat,found,measure)=FindOrCreateInternalMeasure( MeasureType)`
 
-Extracts an existing global measure on the system. Supported measure types
+Extracts an existing global measure from the system. Supported measure types
 are: E_Energy, E_PotentialEnergy, E_ElasticEnergy, E_KineticEnergy, and
 E_Time.
 
-### Derived Cclasses
+### Derived Classes
 
 None

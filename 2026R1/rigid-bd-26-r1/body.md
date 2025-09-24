@@ -27,7 +27,7 @@ Name of the body.
 
 Origin Coordinate System of the body. This Coordinate System is the moving
 coordinate system of one of the joints connected to the body. The choice of
-this joint, called parent joint, is the result of an optimization that
+this joint, known as the parent joint, is the result of an optimization that
 minimizes the number of degrees of freedom of the system.
 
 `InertiaBodyCoordinateSystem`
@@ -60,13 +60,13 @@ CS_Variable Iyy, CS_Variable Izz)`
 
 Overwrites the constant mass and principal inertia properties by variable
 properties. During the solution process, the mass and inertia variation rate
-needs to be evaluated. Therefore, only Point Table, Polynomial and Function
+must be evaluated. Therefore, only Point Table, Polynomial and Function
 can be used to define the variation. Python user tables cannot be used to
-define kinetic properties variations. You can make some of the properties
+define kinetic property variations. You can make some of the properties
 (mass, Ixx, Iyy and Izz) constants by using constant variables.
 
 **Note**
-The principal axis needs to be defined when the principal inertia is being
+The principal axis must be defined when the principal inertia is being
 assigned. If the body is created by a command,
 `SetCenterOfMassAndOrientationAngles` or `SetCenterOfMassAndOrientationMatrix`
 must be called before calling `SetVariableMassAndPrincipalInertia`.  
@@ -75,11 +75,11 @@ This function only applies to rigid bodies.
 
 **Note**
 All quantities used in the solver must use a consistent unit system, which
-sometimes differs from the user interface unit system. For example if the user
-interface unit system is "mm,kg,N,s", the solver unit system will be
+sometimes differs from the user interface unit system. For example, if the
+user interface unit system is "mm,kg,N,s", the solver unit system will be
 "mm,t,N,s". When using `SetMassAndInertia` or
-`SetVariableMassAndPrincipalInertia`, the values of mass and inertia have to
-be entered using the solver unit system.  
+`SetVariableMassAndPrincipalInertia`, the values of mass and inertia must
+be entered using the solver unit system.
   
 ### Derived classes
 

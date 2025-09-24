@@ -15,4 +15,4 @@ ID table: `CS_Basis`
 
 double [,]`Matrix`
 
-Sets or gets function of the transformation matrix
+Sets or gets function of the transformation matrix.
