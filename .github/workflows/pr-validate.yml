@@ -8,7 +8,7 @@ on:
       - main
 env:
   DOCS_FOLDERS: "gh_action_testing" # space-separated list of folders to check
-  VALE_STYLES_PATH: "${{ github.workspace }}/.github/_styles_speos"
+  VALE_CONFIG_PATH: "vale.config/.vale.ini.default"
   ## DOCS_FOLDERS: "zips/Sound-24R2-md markdown"
 
 
@@ -87,7 +87,6 @@ jobs:
       - name: Run Vale on Markdown files
         if: steps.changed.outputs.any_changed == 'true'
         run: |
-          vale ls-vars
           vale sync
           fails=0
           for file in ${{ steps.changed.outputs.all_changed_files }}; do
