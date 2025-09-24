@@ -13,13 +13,13 @@ None
 
 `Evaluate(In, Out)`
 
-Allows evaluating a table in Python. In and Out are arrays of float, with
+Allows evaluation of a table in Python. In and Out are float arrays, with
 sizes corresponding to the table input and output sizes. This function can be
-called from a user table for example.
+called from a user table, for example.
 
 `Dispose()`
 
 Explicit destruction of the table. This explicit destructor should be used
 only when the table hasn't been assigned to an actuator. When the table is
-assigned to an actuator, the actuator is calling this destructor. Omitting to
+assigned to an actuator, the actuator calls this destructor. Omitting to
 call this destructor can cause the evaluation of the results to fail.

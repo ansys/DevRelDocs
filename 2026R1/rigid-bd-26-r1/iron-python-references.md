@@ -1,7 +1,7 @@
 # IronPython references
 
 Rigid Dynamics uses an object-based approach, so it is useful to have
-experience with object oriented programming and the Python language when
+experience with object-oriented programming and the Python language when
 writing commands for the solver. Ansys Workbench scripting is based on
 IronPython, which is well integrated with the rest of the .NET Framework (on
 Windows) and Mono CLR (on Linux). This makes all related libraries easily

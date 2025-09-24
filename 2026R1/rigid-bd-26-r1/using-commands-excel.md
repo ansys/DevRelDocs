@@ -2,7 +2,7 @@
 
 It is possible to call Microsoft Office Excel from an RBD command to read and
 write data to and from Excel. If Excel is available, RBD will automatically
-detect and load the Excel interopt. If Excel is detected, the solver output
+detect and load the Excel interop. If Excel is detected, the solver output
 will contain the following lines at the beginning.
 
         Processing Python commands
@@ -38,7 +38,7 @@ to real values:
 
 Similarly, it is possible to write values to the current worksheet. The
 following sequence of commands shows how to create a new worksheet and write
-the joint force in the new worksheet:
+the joint force to it:
 
     # retrieve joint force measure
     force=joint.GetForce()

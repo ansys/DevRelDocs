@@ -21,10 +21,10 @@ ID table: `CS_BodyCoordinateSystem`
 `RotateArrayThroughTimeToLocal(MeasureValues)`
 
 Rotates the transient values of a measure to a coordinate system.
-`MeasureValues` is a python two-dimensional array, such as that coming out of
+`MeasureValues` is a python two-dimensional array, such as that returned by
 `FillValuesThroughTime` or `FillDerivativesThroughTime`. This function works
 for 3D vectors such as relative translation between two coordinate systems or
-6-D vectors such as forces/moments.
+6D vectors such as forces/moments.
 
 `RotateArrayThroughTimeToGlobal(MeasureValues)`
 

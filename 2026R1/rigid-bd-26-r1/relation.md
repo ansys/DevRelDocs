@@ -5,7 +5,7 @@ of freedom of the model. For example, two independent lines of shaft can be
 coupled using a relation between their rotational velocities.
 
 If you have a gear coupling between two shafts where the second shaft rotates
-twice as fast as the first one, you can write the following equation:
+twice as fast as the first, you can write the following equation:
 
 2.0 X Ω1 + Ω2 = 0
 
@@ -19,7 +19,7 @@ The first term (2 X Ω1) can be described using the following information:
 
 * A joint degree of freedom selection 
 
-* The nature of motion that is used in the equation (joint velocities, which is the most common case). For convenience, the nature of motion upon which the constraint equation is formulated is considered as being shared by all the terms in the relation. 
+* The nature of motion that is used in the equation (joint velocities is the most common case). For convenience, the nature of motion upon which the constraint equation is formulated is considered as being shared by all the terms in the relation. 
 
 This information defines Ω1
 
@@ -27,7 +27,7 @@ This information defines Ω1
 
 ID table: `CS_Actuator`
 
-The coefficients of the relation can be constant or variable; however, the use
+The coefficients of the relation can be constant or variable but the use
 of non-constant coefficients is limited to relations between velocities and
 relations between accelerations. If non-constant coefficients are used for
 relations between positions, the solution will not proceed.
@@ -52,19 +52,19 @@ Adds a term to the equation.
 
 `joint`
 
-A joint object
+A joint object.
 
 `dof`
 
 An integer that defines the joint degree of freedom to be included in the
 term. The ordering of the degrees of freedom sets the translation degrees of
-freedom first, and that the degrees of freedom numbering is zero based. For
-example the translational degrees of freedom in a slot joint is `0`, while the
+freedom first, and the degrees of freedom numbering is zero based. For
+example, the translational degrees of freedom in a slot joint is `0`, while the
 third rotational degree of freedom is `3`.
 
 `variable`
 
-A variable object
+A variable object.
 
 `SetVariable(variable)`
 

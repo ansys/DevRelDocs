@@ -39,8 +39,8 @@ shown below. A description of these commands follows.
     spring.SetTable(stiffness)
     ```
 
-    In this command, `7` represents the number of rows and `2` for the number of
-    columns. The first column gives elongation and the second, the corresponding
+    In this command, `7` represents the number of rows and `2` the number of
+    columns. The first column gives elongation and the second the corresponding
     force value. This command generates a [PointsTable](pointstable.md)  assigned to the spring, as
     shown below.
 

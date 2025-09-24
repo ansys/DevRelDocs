@@ -1,9 +1,8 @@
 # ContactDebugMask
 
 The ContactDebugMask object allows you to activate and customize the output of
-contact points. It can also be used to modify the default behaviour of
-contact. ContactDebugMask uses a set of switches that can be toggled on or
-off.
+contact points. It can also be used to modify the default contact behaviour.
+ContactDebugMask uses a set of switches that can be toggled on or off.
 
 ID table: `CS_ContactDebugMask`
 

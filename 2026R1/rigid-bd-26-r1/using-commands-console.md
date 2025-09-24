@@ -24,7 +24,7 @@ The following code snippets load the RBD command module into IronPython:
     
     from Ans.MotionSolver.MSolverLib.CSMotion import *
 
-You can read an already-solved rigid body dynamics model using the following
+You can read a previously-solved rigid body dynamics model using the following
 code:
 
     dbIn=CS_MSolverDB()
@@ -45,7 +45,7 @@ could modify the end time and restart from 0.5 s:
     environment.RestartTime=0.5
     environment.Solve()
 
-Once you have made your changes, make use the following code snippet to save
+Once you have made your changes, use the following code snippet to save
 the modified database:
 
     dbOut=CS_MSolverDB()
