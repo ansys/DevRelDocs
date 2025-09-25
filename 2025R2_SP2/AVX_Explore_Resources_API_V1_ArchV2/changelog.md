@@ -9,5 +9,3 @@ The AVxcelerate Resource Manager REST API v0.1.0 is compatible with the AVX Arch
 New Features:
 
 * The "maximum_allowed_worker_instances" parameter has been added and it allows you to configure the maximum number of parallel running workers per queue. 
-
-* It is now possible to download concrete scenario files for specific simulations. 

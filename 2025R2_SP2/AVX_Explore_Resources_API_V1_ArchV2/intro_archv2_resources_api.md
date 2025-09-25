@@ -168,19 +168,20 @@ In the example below, only 3 workers are available, so the job that requires 4 w
 
 ## Download concrete scenario files
 
-It is possible to download the concrete scenario files from the REST API. 
+It is possible to download the concrete scenario files of simulation jobs through the REST API. 
 
-User provides list of sample_ids to generate concrete scenario files for those samples. If 'samples' is empty or not provided, no concrete file is included. But, if samples is specified, include all the concrete files (i.e., those files that are generated for each sample) for these samples in the zip.
+To do this, you need to provides a list of *sample_ids* to generate concrete scenario files for those samples. 
 
-
-User can also specify what kind of documents Example: scenario files or asset files, he/she wants to download. If param "filter_by_asset_declaration" is empty or not provided, all the "common" asset data will be provided.
-
-
+* If 'samples' is empty or not provided, no concrete file is included. 
+* If 'samples' is specified, than all the concrete files will be included for these samples in the zip.
 
 
-Added filtering based on types listed in asset_declaration.
+You can also specify what kind of documents you want to download:
 
-If param "filter_by_asset_declaration" is empty or not provided, all the "common" asset data will be provided.
+* Scenario files
+* Asset files
 
-If 'samples' is empty or not provided, no concrete file is included. But, if samples is specified, include all the concrete files (i.e., those files that are generated for each sample) for these samples in the zip.
+ If the parameter: *"filter_by_asset_declaration"* is empty or not provided, all the "common" asset data will be provided.
+ * 
+
 
