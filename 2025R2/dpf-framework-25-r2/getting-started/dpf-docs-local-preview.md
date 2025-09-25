@@ -8,33 +8,33 @@ This guide shows you how to create your own local copy of DPF documentation that
 
 **Use this guide if you need to:**
 
-- Document custom operators you've developed
-- Work with plugins that don't have published documentation  
-- View documentation for development versions of DPF
+- Document custom operators you've developed.
+- Work with plugins that don't have published documentation. 
+- View documentation for development versions of DPF.
 
 ## What you'll learn
 
 This step-by-step guide will walk you through:
 
-- How to generate DPF Framework documentation files on your computer
-- How to create a local website to view your documentation
-- How to use basic command-line tools (don't worry - we'll explain everything!)
+- How to generate DPF Framework documentation files on your computer.
+- How to create a local website to view your documentation.
+- How to use basic command-line tools.
 
 ## About the command line
 
-This guide uses the **command line** (also called terminal or PowerShell on Windows). Don't worry if you've never used it before - we'll show you exactly what to type.
+This guide uses the **command line** (also called terminal or PowerShell on Windows). 
 
 **How to open the command line on Windows:**
 
 1. Press `Windows key + R` to open the Run dialog
 2. Type `powershell` and press Enter
-3. A black or blue window will open - this is your command line
+3. A black or blue window will open, this is your command line
 
 **Important tips:**
 
-- Type commands exactly as shown (including spaces and punctuation)
-- Press Enter after typing each command
-- If you see an error, double-check your typing and try again
+- Type commands exactly as shown (including spaces and punctuation).
+- Press **Enter** after typing each command.
+- If you see an error, double-check your typing and try again.
 
 ## Generate documentation
 
@@ -44,27 +44,25 @@ Follow these steps to create your DPF documentation files.
 
 This step prepares your computer with the necessary software and files.
 
-#### Download the PyDPF code
+#### Download the pydpf-core
 
 1. **Open your command line** (see instructions above if you need help)
 
-1. **Navigate to a folder where you want to work**. For example, to work in your Documents folder, type:
+2. **Navigate to a folder where you want to work**. For example, to work in your Documents folder, type:
 
    ```powershell
    cd C:\Users\$env:USERNAME\Documents
    ```
    
-   **What this does:** Changes your current location to your Documents folder
+   **What this does:** Changes your current location to your Documents folder.
 
-1. **Download the PyDPF code** by typing:
+3. **Download the pydpf-core** by typing:
 
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/ansys/pydpf-core.git
    ```
    
-   **What this does:** Downloads all the PyDPF source code to your computer
-   
-   **Note:** Replace `<repo-url>` with the actual repository URL provided by your team
+   **What this does:** Downloads all the pydpf-core source code to your computer.
 
 #### Create a Python environment
 
@@ -78,7 +76,7 @@ Python environments keep your project separate from other Python installations o
    
    **What this does:** Creates a folder called `.venv` with a clean Python environment
 
-1. **Activate your Python environment** by typing:
+2. **Activate your Python environment** by typing:
 
    ```powershell
    .venv\Scripts\activate.ps1
@@ -99,10 +97,10 @@ Python environments keep your project separate from other Python installations o
 1. **Set your license server** by typing:
 
    ```powershell
-   $env:ANSYSLMD_LICENSE_FILE = "1055@lyolmserv1.win.ansys.com"
+   $env:ANSYSLMD_LICENSE_FILE = "1055@lyolmserv1.win.ansys.com" CHANGED HERE!!
    ```
    
-   **What these do:** Configure DPF to work with your license and permissions
+   **What these do:** Configure DPF to work with your license and permissions.
 
 ### Step 2: Install DPF server
 
@@ -118,9 +116,9 @@ Use this option if you have a standalone DPF server installation.
    cd ansys_dpf_server_win_v2025.1.pre0
    ```
    
-   **What this does:** Changes to the DPF server folder
+   **What this does:** Changes to the DPF server folder.
    
-   **Note:** Make sure this folder is at the same level as your PyDPF Core folder
+   **Note:** Make sure this folder is at the same level as your pydpf-core folder.
 
 1. **Install the DPF server** by typing:
 
@@ -136,13 +134,13 @@ Use this option if you have a standalone DPF server installation.
 
 Use this option if you installed DPF through the standard Ansys installer.
 
-If you used the Ansys installer, the DPF server is already installed and ready to use. You can skip to Step 3.
+If you used the Ansys installer, ... ADD THE STEPS HERE!!
 
-### Step 3: Install PyDPF Core and required tools
+### Step 3: Install pydpf-core and required tools
 
-Now you'll install the main PyDPF software and a tool needed for documentation generation.
+Now you'll install the main pydpf-core software and a tool needed for documentation generation.
 
-1. **Go back to your PyDPF folder** by typing:
+1. **Go back to your pydpf-core folder** by typing:
 
    ```bash
    cd ..
@@ -150,25 +148,25 @@ Now you'll install the main PyDPF software and a tool needed for documentation g
    
    **What this does:** Moves up one folder level to return to the `pydpf-core` folder
 
-1. **Install PyDPF Core** by typing:
+2. **Install pydpf-core** by typing:
 
    ```bash
    pip install -e .
    ```
    
-   **What this does:** Installs PyDPF in development mode so you can generate documentation
+   **What this does:** Installs pydpf-core in development mode so you can generate documentation.
    
-   **What you'll see:** Text showing installation progress, which may take a few minutes
+   **What you'll see:** Text showing installation progress, which may take a few minutes.
 
-1. **Install the documentation tool** by typing:
+3. **Install the documentation tool** by typing:
 
    ```bash
    pip install Jinja2
    ```
    
-   **What this does:** Installs Jinja2, which is needed to create the documentation files
+   **What this does:** Installs Jinja2, which is needed to create the documentation files.
    
-   **What you'll see:** Confirmation that Jinja2 was installed successfully
+   **What you'll see:** Confirmation that Jinja2 was installed successfully.
 
 ### Step 4: Generate your documentation
 
@@ -184,7 +182,7 @@ This creates documentation for all DPF operators (recommended for most users).
 python .\.ci\generate_operators_doc.py
 ```
 
-**What this does:** Creates documentation files for all available DPF operators
+**What this does:** Creates documentation files for all available DPF operators.
 
 **What you'll see:** Text showing progress as each operator is processed. This may take several minutes.
 
@@ -216,13 +214,13 @@ For the Mesh plugin:
 python .\.ci\generate_operators_doc.py --plugin "mesh"
 ```
 
-**What this does:** Creates documentation only for the specified plugin
+**What this does:** Creates documentation only for the specified plugin.
 
-**What you'll see:** Progress text, but much faster than generating all operators
+**What you'll see:** Progress text, but much faster than generating all operators.
 
 ### Step 5: Find your generated documentation
 
-Your new documentation files have been created! Here's where to find them.
+Your new documentation files have been created. Here's where to find them.
 
 **Your documentation is located in:**
 
@@ -232,15 +230,15 @@ doc/source/operators-doc
 
 **What's in this folder:**
 
-- Multiple `.md` files (these contain your documentation)
-- A `toc.yml` file (this creates the table of contents for your website)
+- Multiple `.md` files (these contain your documentation).
+- A `toc.yml` file (this creates the table of contents for your website).
 
 **To see these files:**
 
-1. Open File Explorer (Windows key + E)
-2. Navigate to your PyDPF folder
-3. Open the folders: `doc` → `source` → `operators-doc`
-4. You should see many `.md` files with names like operator names
+1. Open File Explorer (Windows key + E).
+2. Navigate to your pydpf-core folder.
+3. Open the folders: `doc` → `source` → `operators-doc`.
+4. You should see many `.md` files with names like operator names.
 
 **What's next:** You'll now create a website to view these files in a user-friendly format.
 
@@ -274,9 +272,9 @@ dotnet --version
 dotnet tool update -g docfx
 ```
 
-**What this does:** Downloads and installs DocFX on your computer
+**What this does:** Downloads and installs DocFX on your computer.
 
-**What you'll see:** Progress text showing the installation
+**What you'll see:** Progress text showing the installation.
 
 **Verify it worked** by typing:
 
@@ -284,7 +282,7 @@ dotnet tool update -g docfx
 docfx --version
 ```
 
-**What you should see:** A version number like `2.78.3` or higher
+**What you should see:** A version number like `2.78.3` or higher.
 
 **If you see an error:** Try the installation command again, or ask your IT support for help.
 
@@ -301,7 +299,7 @@ Now you'll create a new project that will turn your documentation files into a w
    mkdir MyDPFDocs
    ```
    
-   **What this does:** Creates a new folder called `MyDPFDocs`
+   **What this does:** Creates a new folder called `MyDPFDocs`.
 
 1. **Enter your new folder** by typing:
 
@@ -309,7 +307,7 @@ Now you'll create a new project that will turn your documentation files into a w
    cd MyDPFDocs
    ```
    
-   **What this does:** Moves into your new folder so all the next steps happen there
+   **What this does:** Moves into your new folder so all the next steps happen there.
 
 #### Set up the website structure
 
@@ -319,9 +317,9 @@ Now you'll create a new project that will turn your documentation files into a w
    docfx init
    ```
    
-   **What this does:** Asks you questions to set up your website
+   **What this does:** Asks you questions to set up your website.
 
-1. **Answer the questions** that appear. Here's what to type for each:
+2. **Answer the questions** that appear. Here's what to type for each:
 
    - **What's the name of your site?** Type something like `My DPF Documentation` and press Enter
    - **Generate .NET API documentation? (y/n)** Type `n` and press Enter
@@ -330,13 +328,13 @@ Now you'll create a new project that will turn your documentation files into a w
    - **Enable PDF? (y/n)** Type `n` and press Enter (this keeps things simple)
    - **Is this OK? (y/n)** Type `y` and press Enter
 
-**What you'll see:** DocFX creates several files and folders for your website
+**What you'll see:** DocFX creates several files and folders for your website.
 
 **Files created:**
 
-- `docfx.json` - Website configuration
-- `docs` folder - Where your documentation will go
-- `toc.yml` - Website navigation menu
+- `docfx.json` - Website configuration.
+- `docs` folder - Where your documentation will go.
+- `toc.yml` - Website navigation menu.
 
 #### Test your website setup
 
@@ -348,22 +346,22 @@ Let's make sure everything is working before adding your documentation.
    docfx docfx.json --serve
    ```
    
-   **What this does:** Creates your website and starts a local web server
+   **What this does:** Creates your website and starts a local web server.
    
-   **What you'll see:** Text ending with something like "Serving at <http://localhost:8080>"
+   **What you'll see:** Text ending with something like "Serving at <http://localhost:8080>".
 
-1. **View your test website:**
-   - Open your web browser (Chrome, Firefox, Edge, etc.)
-   - Go to: `http://localhost:8080`
-   - You should see a sample website with navigation
+2. **View your test website:**
+   - Open your web browser (Chrome, Firefox, Edge, etc.).
+   - Go to: `http://localhost:8080`.
+   - You should see a sample website with navigation.
 
-1. **Test the documentation section:**
-   - Click **Docs** in the top navigation
-   - You should see some sample documentation pages
+3. **Test the documentation section:**
+   - Click **docs** in the top navigation.
+   - You should see some sample documentation pages.
 
-1. **Stop the website** when you're done testing:
-   - Go back to your command line
-   - Press `Ctrl + C` to stop the web server
+4. **Stop the website** when you're done testing:
+   - Go back to your command line.
+   - Press `Ctrl + C` to stop the web server.
 
 ### Step 3: Add your DPF documentation
 
@@ -374,14 +372,11 @@ Now you'll replace the sample content with your actual DPF documentation.
 You need to copy the files you generated earlier into your website project.
 
 1. **Open two File Explorer windows:**
-   - Window 1: Go to your PyDPF folder, then `doc/source/operators-doc`
+   - Window 1: Go to your pydpf-core folder, then `doc/source/operators-doc`
    - Window 2: Go to your website folder, then open the `docs` folder
 
-1. **Copy all files:**
-   - In Window 1, select all files (Ctrl + A)
-   - Copy them (Ctrl + C)
-   - In Window 2, paste them (Ctrl + V)
-   - Replace any existing files when prompted
+2. **Copy all files:**
+   - In Window 1, select all files, copy them, then paste into Window 2 and replace if prompted.
 
 #### Build your documentation website
 
@@ -391,13 +386,13 @@ You need to copy the files you generated earlier into your website project.
    docfx docfx.json --serve
    ```
    
-   **What you'll see:** Progress text as DocFX processes your documentation files
+   **What you'll see:** Progress text as DocFX processes your documentation files.
 
-1. **View your documentation website:**
-   - Open your web browser
-   - Go to: `http://localhost:8080`
-   - Click **Docs** to see your DPF documentation
-   - Use the search box to find specific operators
+2. **View your documentation website:**
+   - Open your web browser.
+   - Go to: `http://localhost:8080`.
+   - Click **docs** in the top navigation to see your DPF documentation.
+   - Use the search box to find specific operators.
 
 ### Step 4: Add complete DPF documentation (Optional)
 
@@ -414,40 +409,40 @@ If you want the complete DPF documentation (not just operator specifications), f
    cd DevRelDocs
    ```
    
-   **What this does:** Prepares to download just the DPF documentation from the full repository
+   **What this does:** Prepares to download just the DPF documentation from the full repository.
 
-1. **Set up to download only what you need** by typing:
+2. **Set up to download only what you need** by typing:
 
    ```bash
    git sparse-checkout init --cone
    ```
 
-1. **Choose which documentation to download** by typing:
+3. **Choose which documentation to download** by typing:
 
    ```bash
    git sparse-checkout set 2025R2/dpf-framework-25-r2
    ```
    
-   **What this does:** Tells Git to only download the DPF documentation folder
+   **What this does:** Tells Git to only download the DPF documentation folder.
 
-1. **Download the files** by typing:
+4. **Download the files** by typing:
 
    ```bash
    git checkout
    ```
    
-   **What this does:** Actually downloads the documentation files
+   **What this does:** Actually downloads the documentation files.
 
 #### Combine with your generated documentation
 
 1. **Open File Explorer and navigate to:**
-   - Your `DevRelDocs/2025R2/dpf-framework-25-r2` folder (source)
-   - Your website project's `docs` folder (destination)
+   - Your `DevRelDocs/2025R2/dpf-framework-25-r2` folder (source).
+   - Your website project's `docs` folder (destination).
 
-1. **Copy the documentation:**
-   - Copy all files from the source folder
-   - Paste them into your website's `docs` folder
-   - **Important:** Don't copy files from the `operator-specifications` folder (your generated files are better)
+2. **Copy the documentation:**
+   - Copy all files from the source folder.
+   - Paste them into your website's `docs` folder.
+   - **Important:** Don't copy files from the `operator-specifications` folder.
 
 **Result:** You now have complete DPF documentation plus your custom operator specifications.
 
@@ -461,47 +456,47 @@ Now you're ready to create and view your complete documentation website.
    cd MyDPFDocs
    ```
    
-   (Replace `MyDPFDocs` with your actual folder name if different)
+   (Replace `MyDPFDocs` with your actual folder name if different).
 
-1. **Build and start your documentation website** by typing:
+2. **Build and start your documentation website** by typing:
 
    ```bash
    docfx docfx.json --serve
    ```
    
    **What this does:**
-   - Converts all your documentation files into a website
-   - Starts a web server so you can view it
-   - Creates search functionality
+   - Converts all your documentation files into a website.
+   - Starts a web server so you can view it.
+   - Creates search functionality.
 
-1. **View your documentation:**
-   - Open your web browser
-   - Go to: <http://localhost:8080>
-   - Click **Docs** to browse your documentation
-   - Use the search box to find specific operators or topics
+2. **View your documentation:**
+   - Open your web browser.
+   - Go to: <http://localhost:8080>.
+   - Click **docs** to browse your documentation.
+   - Use the search box to find specific operators or topics.
 
-1. **When you're done viewing:**
-   - Press `Ctrl + C` in the command line to stop the web server
+3. **When you're done viewing:**
+   - Press `Ctrl + C` in the command line to stop the web server.
 
 ## Troubleshooting
 
-**Problem:** Command not found errors
-**Solution:** Make sure you typed the command exactly as shown, including spaces and punctuation
+**Problem:** Command not found errors.
+**Solution:** Make sure you typed the command exactly as shown, including spaces and punctuation.
 
-**Problem:** Permission errors
-**Solution:** Try running your command line as Administrator (right-click PowerShell and select "Run as Administrator")
+**Problem:** Permission errors.
+**Solution:** Try running your command line as Administrator (right-click PowerShell and select "Run as Administrator").
 
-**Problem:** Website shows errors or missing content
-**Solution:** Make sure you copied all files correctly and that your documentation generation completed successfully
+**Problem:** Website shows errors or missing content.
+**Solution:** Make sure you copied all files correctly and that your documentation generation completed successfully.
 
-**Problem:** Can't access the website
-**Solution:** Make sure the `docfx serve` command is still running and check that you're using <http://localhost:8080>
+**Problem:** Can't access the website.
+**Solution:** Make sure the `docfx serve` command is still running and check that you're using <http://localhost:8080>.
 
 ## What's next
 
 Now that you have a working documentation website:
 
-- **Bookmark <http://localhost:8080>** for easy access (when the server is running)
-- **Re-run the generation steps** whenever you update your operators or plugins
-- **Share the documentation files** with your team by copying the entire website folder
-- **Explore customization options** in the [DocFX documentation](https://dotnet.github.io/docfx/) if you want to change the appearance
+- **Bookmark <http://localhost:8080>** for easy access (when the server is running).
+- **Re-run the generation steps** whenever you update your operators or plugins.
+- **Share the documentation files** with your team by copying the entire website folder.
+- **Explore customization options** in the [DocFX documentation](https://dotnet.github.io/docfx/) if you want to change the appearance.
