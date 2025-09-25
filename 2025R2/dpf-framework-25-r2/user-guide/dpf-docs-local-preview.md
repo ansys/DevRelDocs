@@ -1,6 +1,6 @@
-# Generate and preview DPF documentation locally
+# Generate and preview DPF Framework documentation locally
 
-This guide shows you how to create your own local copy of DPF documentation that includes specifications for custom operators and development versions.
+This guide shows you how to create your own local copy of DPF Framework documentation that includes specifications for custom operators and development versions.
 
 ## Before you begin
 
@@ -26,9 +26,9 @@ This guide uses the **command line** (also called terminal or PowerShell on Wind
 
 **How to open the command line on Windows:**
 
-1. Press `Windows key + R` to open the Run dialog
-2. Type `powershell` and press Enter
-3. A black or blue window will open, this is your command line
+1. Press `Windows key + R` to open the Run dialog.
+2. Type `powershell` and press Enter.
+3. A black or blue window will open, this is your command line.
 
 **Important tips:**
 
@@ -36,9 +36,9 @@ This guide uses the **command line** (also called terminal or PowerShell on Wind
 - Press **Enter** after typing each command.
 - If you see an error, double-check your typing and try again.
 
-## Generate documentation
+## Generate DPF operators documentation
 
-Follow these steps to create your DPF documentation files.
+Follow these steps to create DPF operators documentation files.
 
 ### Step 1: Set up your working environment
 
@@ -48,13 +48,13 @@ This step prepares your computer with the necessary software and files.
 
 1. **Open your command line** (see instructions above if you need help)
 
-2. **Navigate to a folder where you want to work**. For example, to work in your Documents folder, type:
+2. **Navigate to a folder where you want to work**. For example, to work in your tmp folder, type:
 
    ```powershell
-   cd C:\Users\$env:USERNAME\Documents
+   cd C:\Users\$env:USERNAME\tmp
    ```
    
-   **What this does:** Changes your current location to your Documents folder.
+   **What this does:** Changes your current location to your tmp folder.
 
 3. **Download the pydpf-core** by typing:
 
@@ -82,9 +82,9 @@ Python environments keep your project separate from other Python installations o
    .venv\Scripts\activate.ps1
    ```
    
-   **What this does:** Switches to using your new Python environment
+   **What this does:** Switches to using your new Python environment.
    
-   **What you'll see:** Your command prompt will now show `(.venv)` at the beginning
+   **What you'll see:** Your command prompt will now show `(.venv)` at the beginning.
 
 #### Set up DPF permissions
 
@@ -97,44 +97,14 @@ Python environments keep your project separate from other Python installations o
 1. **Set your license server** by typing:
 
    ```powershell
-   $env:ANSYSLMD_LICENSE_FILE = "1055@lyolmserv1.win.ansys.com" CHANGED HERE!!
+   $env:ANSYSLMD_LICENSE_FILE = "1055@your-license-address" 
    ```
    
-   **What these do:** Configure DPF to work with your license and permissions.
+   **What these do:** Configure DPF to work with your license and permissions. See [Licensing](../getting-started/licensing.md) section for more information.
 
 ### Step 2: Install DPF server
 
-You need to install the DPF server software. Choose the method that matches your situation.
-
-#### Option A: Install DPF server standalone
-
-Use this option if you have a standalone DPF server installation.
-
-1. **Navigate to your DPF server folder**. The folder name will be something like `ansys_dpf_server_win_v2025.1.pre0`. Type:
-
-   ```powershell
-   cd ansys_dpf_server_win_v2025.1.pre0
-   ```
-   
-   **What this does:** Changes to the DPF server folder.
-   
-   **Note:** Make sure this folder is at the same level as your pydpf-core folder.
-
-1. **Install the DPF server** by typing:
-
-   ```bash
-   pip install -e .
-   ```
-   
-   **What this does:** Installs the DPF server in development mode
-   
-   **What you'll see:** Text showing the installation progress
-
-#### Option B: Install DPF server from Ansys
-
-Use this option if you installed DPF through the standard Ansys installer.
-
-If you used the Ansys installer, ... ADD THE STEPS HERE!!
+You need to install the DPF server software. Select the installation method that best fits your setup. For detailed instructions, see [Installation](../getting-started/installation.md).
 
 ### Step 3: Install pydpf-core and required tools
 
@@ -161,16 +131,16 @@ Now you'll install the main pydpf-core software and a tool needed for documentat
 3. **Install the documentation tool** by typing:
 
    ```bash
-   pip install Jinja2
+   pip install jinja2
    ```
    
    **What this does:** Installs Jinja2, which is needed to create the documentation files.
    
    **What you'll see:** Confirmation that Jinja2 was installed successfully.
 
-### Step 4: Generate your documentation
+### Step 4: Generate DPF operators documentation
 
-Now you'll create the actual documentation files. Choose the option that fits your needs.
+Now you'll create the actual DPF operators documentation files. Choose the option that fits your needs.
 
 #### Option A: Generate documentation for everything
 
@@ -218,11 +188,11 @@ python .\.ci\generate_operators_doc.py --plugin "mesh"
 
 **What you'll see:** Progress text, but much faster than generating all operators.
 
-### Step 5: Find your generated documentation
+### Step 5: Find the DPF operators generated documentation
 
-Your new documentation files have been created. Here's where to find them.
+DPF operators new documentation files have been created. Here's where to find them.
 
-**Your documentation is located in:**
+**DPF operators documentation is located in:**
 
 ```text
 doc/source/operators-doc
@@ -242,9 +212,9 @@ doc/source/operators-doc
 
 **What's next:** You'll now create a website to view these files in a user-friendly format.
 
-## Create your documentation website
+## Create DPF Framework HTML documentation
 
-Now you'll create a local website to view your documentation in a user-friendly format (like a regular website with navigation and search).
+Now you'll create a local website to view DPF Framework documentation in a user-friendly format (like a regular website with navigation and search). The DPF Framework documentation includes both general reference material and the operators documentation you generated.
 
 ### Step 1: Install the website builder (DocFX)
 
@@ -260,7 +230,7 @@ First, check if your computer has the required software.
 dotnet --version
 ```
 
-**What you should see:** A version number like `8.0.100` or higher
+**What you should see:** A version number like `8.0` or higher
 
 **If you see an error:** You need to install .NET SDK 8.0 or later from [Microsoft's website](https://dotnet.microsoft.com/download). Download and install it, then try the command again.
 
@@ -338,7 +308,7 @@ Now you'll create a new project that will turn your documentation files into a w
 
 #### Test your website setup
 
-Let's make sure everything is working before adding your documentation.
+Let's make sure everything is working before adding DPF Framework documentation.
 
 1. **Build and start your website** by typing:
 
@@ -363,9 +333,9 @@ Let's make sure everything is working before adding your documentation.
    - Go back to your command line.
    - Press `Ctrl + C` to stop the web server.
 
-### Step 3: Add your DPF documentation
+### Step 3: Add DPF operators documentation
 
-Now you'll replace the sample content with your actual DPF documentation.
+Now you'll replace the sample content with your actual DPF operators documentation.
 
 #### Copy your documentation files
 
@@ -378,31 +348,13 @@ You need to copy the files you generated earlier into your website project.
 2. **Copy all files:**
    - In Window 1, select all files, copy them, then paste into Window 2 and replace if prompted.
 
-#### Build your documentation website
+### Step 4: Add complete DPF Framework documentation
 
-1. **Create your website with your documentation** by typing:
+To include the complete DPF Framework documentation (beyond just the operator specifications), follow these steps.
 
-   ```bash
-   docfx docfx.json --serve
-   ```
-   
-   **What you'll see:** Progress text as DocFX processes your documentation files.
+#### Download the complete DPF Framework documentation
 
-2. **View your documentation website:**
-   - Open your web browser.
-   - Go to: `http://localhost:8080`.
-   - Click **docs** in the top navigation to see your DPF documentation.
-   - Use the search box to find specific operators.
-
-### Step 4: Add complete DPF documentation (Optional)
-
-If you want the complete DPF documentation (not just operator specifications), follow these steps.
-
-**Skip this step if:** You only need the operator documentation you generated earlier.
-
-#### Download the complete documentation
-
-1. **Download the full DPF documentation** by typing:
+1. **Download the full DPF Framework documentation** by typing:
 
    ```bash
    git clone --no-checkout https://github.com/ansys/DevRelDocs.git
@@ -433,7 +385,7 @@ If you want the complete DPF documentation (not just operator specifications), f
    
    **What this does:** Actually downloads the documentation files.
 
-#### Combine with your generated documentation
+#### Combine with your DPF operators documentation
 
 1. **Open File Explorer and navigate to:**
    - Your `DevRelDocs/2025R2/dpf-framework-25-r2` folder (source).
@@ -444,7 +396,7 @@ If you want the complete DPF documentation (not just operator specifications), f
    - Paste them into your website's `docs` folder.
    - **Important:** Don't copy files from the `operator-specifications` folder.
 
-**Result:** You now have complete DPF documentation plus your custom operator specifications.
+**Result:** You now have complete DPF Framework documentation plus your custom operator specifications.
 
 ### Step 5: Build and view your final documentation
 
