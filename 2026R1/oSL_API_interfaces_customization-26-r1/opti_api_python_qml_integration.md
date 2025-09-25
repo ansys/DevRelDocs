@@ -1,8 +1,10 @@
 # Integration Node
-
 To provide a QML user interface for custom integrations, create a `_ci.qml` file and place it in the same location as the `_ci.py` file. For file location details, see Integration plugin demonstrators. optiSLang automatically loads the QML and embeds the user interface into the custom integration dialog widget.
 
-<a id="setting-custom-integration-settings-from-the-qml-user-interface"></a>
+- [Setting Custom Integration Settings From the QML User Interface](#setting-custom-integration-settings-from-the-qml-user-interface)
+- [Calling Custom Python Functionality](#calling-custom-python-functionality)
+- [Sending Log Messages](#sending-log-messages)
+- [Using Developer Mode](#using-developer-mode)
 
 ## Setting Custom Integration Settings From the QML User Interface
 optiSLang provides a context object to the QML scope named `backend` and resides in the QML root scope. It can be used to access custom integration settings.
@@ -54,8 +56,6 @@ Connections {
 
 You many need to trigger a reference location reload from within the QML scope. To do this, call `backend.requestReReadReferenceLocations()`.
 
-<a id="calling-custom-python-functionality"></a>
-
 ## Calling Custom Python Functionality
 You may need to execute custom Python functionality from within the QML scope. To do this:
 
@@ -95,16 +95,12 @@ Button {
 	}
 ```
 
-<a id="sending-log-messages"></a>
-
 ## Sending Log Messages
 Use the following functions to send log messages:
 
 - Info message: `backend.emitInfoLogMessage(message)`
 - Warning message: `backend.emitWarningLogMessage(message)`
 - Error message: `backend.emitErrorLogMessage(message)`
-
-<a id="using-developer-mode"></a>
 
 ## Using Developer Mode
 Custom integrations can be set to developer mode by setting the `EnableDeveloperMode` attribute in the `_ci.cfg` file to *true*. When developer mode is activated, you can reload the QML user interface when the optiSLang application is running using the **Settings** tab corner button.
