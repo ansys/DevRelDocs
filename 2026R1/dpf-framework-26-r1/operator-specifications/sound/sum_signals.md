@@ -16,19 +16,19 @@ Sample-by-sample sum of all the signals (fields) of an input fields_container, i
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_signal |[`fields_container`](./../../core-concepts/dpf-types.md#fields-container) | Input signals to sum: each signal is a field of input_signal. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_signal |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Input signals to sum: each signal is a field of input_signal. |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| output_signal |[`field`](./../../core-concepts/dpf-types.md#field) | Output signal: sample-by-sample sum ot the input signals. |
+|  **Pin 0**| output_signal |[`field`](../../core-concepts/dpf-types.md#field) | Output signal: sample-by-sample sum ot the input signals. |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 
