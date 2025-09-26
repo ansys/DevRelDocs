@@ -16,24 +16,24 @@ Maps values from a min and max field container, according to a mapping defined i
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mapping_field |[`property_field`](./../../core-concepts/dpf-types.md#property-field) | Mapping property field. Contains a list of ids for every entity. |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  min_container |[`fields_container`](./../../core-concepts/dpf-types.md#fields-container) | Min fields container. Container that contains value, mode and layer index field with the minimum values. |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  max_container |[`fields_container`](./../../core-concepts/dpf-types.md#fields-container) | Max fields container. Container that contains value, mode and layer index field with the maximum values. |
-| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  layers_per_element |[`property_field`](./../../core-concepts/dpf-types.md#property-field) | Property field that contains the number of layers for each element. |
-| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](./../../core-concepts/dpf-types.md#meshed-region) | Meshed region of reference surface. Used as the support for the output fields. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mapping_field |[`property_field`](../../core-concepts/dpf-types.md#property-field) | Mapping property field. Contains a list of ids for every entity. |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  min_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Min fields container. Container that contains value, mode and layer index field with the minimum values. |
+| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  max_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Max fields container. Container that contains value, mode and layer index field with the maximum values. |
+| <strong>Pin 3</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  layers_per_element |[`property_field`](../../core-concepts/dpf-types.md#property-field) | Property field that contains the number of layers for each element. |
+| <strong>Pin 7</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  mesh |[`abstract_meshed_region`](../../core-concepts/dpf-types.md#meshed-region) | Meshed region of reference surface. Used as the support for the output fields. |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| min_container |[`fields_container`](./../../core-concepts/dpf-types.md#fields-container) | Min Container. Contains five fields with the values, modes, global_layer_in_stack, local_layer_in_element and solid_element_id |
-|  **Pin 1**| max_container |[`fields_container`](./../../core-concepts/dpf-types.md#fields-container) | Max Container. Contains five fields with the values, modes, global_layer_in_stack, local_layer_in_element and solid_element_id |
+|  **Pin 0**| min_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Min Container. Contains five fields with the values, modes, global_layer_in_stack, local_layer_in_element and solid_element_id |
+|  **Pin 1**| max_container |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | Max Container. Contains five fields with the values, modes, global_layer_in_stack, local_layer_in_element and solid_element_id |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

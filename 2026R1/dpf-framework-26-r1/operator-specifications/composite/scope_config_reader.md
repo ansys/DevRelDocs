@@ -16,20 +16,20 @@ Reads scope configuration from inputs and outputs a CompositeScopeConfig object.
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 108</strong>|  ply_ids |[`vector<string>`](./../../core-concepts/dpf-types.md#standard-types) | Vector of selected plies. |
-| <strong>Pin 307</strong>|  scope_configuration |[`abstract_data_tree`](./../../core-concepts/dpf-types.md#data-tree) | DataTree with scope configuration: These properties are available: requested_times: optional[double]. Default: Last time step/ load step selected. |
+| <strong>Pin 108</strong>|  ply_ids |[`vector<string>`](../../core-concepts/dpf-types.md#standard-types) | Vector of selected plies. |
+| <strong>Pin 307</strong>|  scope_configuration |[`abstract_data_tree`](../../core-concepts/dpf-types.md#data-tree) | DataTree with scope configuration: These properties are available: requested_times: optional[double]. Default: Last time step/ load step selected. |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| scope_configuration |`struct dataProcessing::composite::CompositeScopeConfig` | Scope configuration |
+|  **Pin 0**| scope_configuration |struct dataProcessing::composite::CompositeScopeConfig | Scope configuration |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

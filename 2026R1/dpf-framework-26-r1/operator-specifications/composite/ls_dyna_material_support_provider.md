@@ -16,19 +16,19 @@ Extracts the material IDs and VUUIDs from a k file and provides a material suppo
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](./../../core-concepts/dpf-types.md#data-sources) | LS Dyna input file (*.k) as data source. Use LsDynaInputFile as key to add a k-file to the DataSources object. |
+| <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | LS Dyna input file (*.k) as data source. Use LsDynaInputFile as key to add a k-file to the DataSources object. |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| abstract_field_support |`abstract_field_support` | Material support (CFieldSupportBase). |
+|  **Pin 0**| abstract_field_support |abstract_field_support | Material support (CFieldSupportBase). |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 
