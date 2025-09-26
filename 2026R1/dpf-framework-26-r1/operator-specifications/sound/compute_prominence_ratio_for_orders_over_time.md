@@ -16,22 +16,22 @@ Compute the Prominence Ratio (PR) over time of a signal, for specific order(s), 
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_signal |[`field`](./../../core-concepts/dpf-types.md#field) | Input signal in Pa on which to compute the PR over time for the specified orders. |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  rpm_profile |[`field`](./../../core-concepts/dpf-types.md#field) | Profile of RPM over time associated with the input signal. Must have the same length and same sampling frequency as the input signal. |
-| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  orders_numbers |[`vector<double>`](./../../core-concepts/dpf-types.md#standard-types) | List of the order numbers for which to compute PR. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  input_signal |[`field`](../../core-concepts/dpf-types.md#field) | Input signal in Pa on which to compute the PR over time for the specified orders. |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  rpm_profile |[`field`](../../core-concepts/dpf-types.md#field) | Profile of RPM over time associated with the input signal. Must have the same length and same sampling frequency as the input signal. |
+| <strong>Pin 2</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  orders_numbers |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) | List of the order numbers for which to compute PR. |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| orders_pr_over_time |[`fields_container`](./../../core-concepts/dpf-types.md#fields-container) | PR over time, in dB, for each order number specified in input orders_numbers. |
-|  **Pin 1**| rpm_profile_resampled |[`field`](./../../core-concepts/dpf-types.md#field) | RPM over time, resampled to match the PR computation time steps. |
+|  **Pin 0**| orders_pr_over_time |[`fields_container`](../../core-concepts/dpf-types.md#fields-container) | PR over time, in dB, for each order number specified in input orders_numbers. |
+|  **Pin 1**| rpm_profile_resampled |[`field`](../../core-concepts/dpf-types.md#field) | RPM over time, resampled to match the PR computation time steps. |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 
