@@ -2,32 +2,20 @@
   href: index.md
 - name: Getting started
   items:
-  - name: Installation
-    href: getting-started/installation.md
-  - name: Licensing
-    href: getting-started/licensing.md
-  - name: Configuration
-    href: getting-started/configuration.md
-- name: User guide
-  items:
-  - name: The server context
-    href: user-guide/server-context.md
-  - name: How to use data containers
-    href: user-guide/using-data-containers.md
-  - name: How to use operators
-    href: user-guide/using-operators.md
-  - name: Workflow examples for beginners
-    href: user-guide/workflow-examples.md
+  - name: Using data containers
+    href: getting-started/using-data-containers.md
+  - name: Using operators
+    href: getting-started/using-operators.md
+  - name: Workflow examples
+    href: getting-started/workflow-examples.md
 - name: Core concepts
   items:
   - name: Available types
     href: core-concepts/dpf-types.md
-  - name: Operator fundamentals
+  - name: Operator
     href: core-concepts/operator.md
 - name: Operator specifications
   items:
-  - name: Operator specifications
-    href: operator-specifications/operator-specifications.md
   - name: averaging
     items:
     - name: elemental difference
@@ -188,6 +176,10 @@
       href: operator-specifications/compression/apply_zfp.md
     - name: kmeans clustering
       href: operator-specifications/compression/kmeans_clustering.md
+    - name: quantization
+      href: operator-specifications/compression/quantization.md
+    - name: quantization fc
+      href: operator-specifications/compression/quantization_fc.md
     - name: zfp decompress
       href: operator-specifications/compression/zfp_decompress.md
   - name: filter
@@ -356,6 +348,8 @@
       href: operator-specifications/logic/included_fields.md
     - name: merge solid shell fields
       href: operator-specifications/logic/merge_solid_shell_fields.md
+    - name: solid shell fields
+      href: operator-specifications/logic/solid_shell_fields.md
     - name: split data sources
       href: operator-specifications/logic/split_data_sources.md
     - name: split streams
@@ -886,8 +880,34 @@
       href: operator-specifications/result/coordinate_system.md
     - name: co energy
       href: operator-specifications/result/co_energy.md
+    - name: creep strain
+      href: operator-specifications/result/creep_strain.md
     - name: creep strain energy density
       href: operator-specifications/result/creep_strain_energy_density.md
+    - name: creep strain eqv
+      href: operator-specifications/result/creep_strain_eqv.md
+    - name: creep strain intensity
+      href: operator-specifications/result/creep_strain_intensity.md
+    - name: creep strain max shear
+      href: operator-specifications/result/creep_strain_max_shear.md
+    - name: creep strain principal 1
+      href: operator-specifications/result/creep_strain_principal_1.md
+    - name: creep strain principal 2
+      href: operator-specifications/result/creep_strain_principal_2.md
+    - name: creep strain principal 3
+      href: operator-specifications/result/creep_strain_principal_3.md
+    - name: creep strain X
+      href: operator-specifications/result/creep_strain_X.md
+    - name: creep strain XY
+      href: operator-specifications/result/creep_strain_XY.md
+    - name: creep strain XZ
+      href: operator-specifications/result/creep_strain_XZ.md
+    - name: creep strain Y
+      href: operator-specifications/result/creep_strain_Y.md
+    - name: creep strain YZ
+      href: operator-specifications/result/creep_strain_YZ.md
+    - name: creep strain Z
+      href: operator-specifications/result/creep_strain_Z.md
     - name: current density
       href: operator-specifications/result/current_density.md
     - name: cyclic analytic seqv max
@@ -996,6 +1016,8 @@
       href: operator-specifications/result/euler_load_buckling.md
     - name: euler nodes
       href: operator-specifications/result/euler_nodes.md
+    - name: fluid velocity
+      href: operator-specifications/result/fluid_velocity.md
     - name: gasket deformation
       href: operator-specifications/result/gasket_deformation.md
     - name: gasket deformation X
@@ -1028,6 +1050,14 @@
       href: operator-specifications/result/gasket_thermal_closure_XY.md
     - name: gasket thermal closure XZ
       href: operator-specifications/result/gasket_thermal_closure_XZ.md
+    - name: gasket total closure
+      href: operator-specifications/result/gasket_total_closure.md
+    - name: gasket total closure X
+      href: operator-specifications/result/gasket_total_closure_X.md
+    - name: gasket total closure XY
+      href: operator-specifications/result/gasket_total_closure_XY.md
+    - name: gasket total closure XZ
+      href: operator-specifications/result/gasket_total_closure_XZ.md
     - name: global added mass
       href: operator-specifications/result/global_added_mass.md
     - name: global added mass pct
@@ -1170,14 +1200,44 @@
       href: operator-specifications/result/members_in_linear_compression_bending_not_certified.md
     - name: migrate to h5dpf
       href: operator-specifications/result/migrate_to_h5dpf.md
+    - name: modal acceleration
+      href: operator-specifications/result/modal_acceleration.md
     - name: modal basis
       href: operator-specifications/result/modal_basis.md
+    - name: modal coordinate
+      href: operator-specifications/result/modal_coordinate.md
+    - name: modal velocity
+      href: operator-specifications/result/modal_velocity.md
     - name: nmisc
       href: operator-specifications/result/nmisc.md
     - name: nodal force
       href: operator-specifications/result/nodal_force.md
     - name: nodal moment
       href: operator-specifications/result/nodal_moment.md
+    - name: nodal rotation
+      href: operator-specifications/result/nodal_rotation.md
+    - name: nodal rotational acceleration
+      href: operator-specifications/result/nodal_rotational_acceleration.md
+    - name: nodal rotational acceleration X
+      href: operator-specifications/result/nodal_rotational_acceleration_X.md
+    - name: nodal rotational acceleration Y
+      href: operator-specifications/result/nodal_rotational_acceleration_Y.md
+    - name: nodal rotational acceleration Z
+      href: operator-specifications/result/nodal_rotational_acceleration_Z.md
+    - name: nodal rotational velocity
+      href: operator-specifications/result/nodal_rotational_velocity.md
+    - name: nodal rotational velocity X
+      href: operator-specifications/result/nodal_rotational_velocity_X.md
+    - name: nodal rotational velocity Y
+      href: operator-specifications/result/nodal_rotational_velocity_Y.md
+    - name: nodal rotational velocity Z
+      href: operator-specifications/result/nodal_rotational_velocity_Z.md
+    - name: nodal rotation X
+      href: operator-specifications/result/nodal_rotation_X.md
+    - name: nodal rotation Y
+      href: operator-specifications/result/nodal_rotation_Y.md
+    - name: nodal rotation Z
+      href: operator-specifications/result/nodal_rotation_Z.md
     - name: nodal to global
       href: operator-specifications/result/nodal_to_global.md
     - name: normal contact force
@@ -1540,6 +1600,18 @@
       href: operator-specifications/sound/compute_loudness_iso532_1_vs_time.md
     - name: compute loudness iso532 2
       href: operator-specifications/sound/compute_loudness_iso532_2.md
+    - name: compute octave levels from psd
+      href: operator-specifications/sound/compute_octave_levels_from_psd.md
+    - name: compute octave levels from psd ansi s1 11 1986
+      href: operator-specifications/sound/compute_octave_levels_from_psd_ansi_s1_11_1986.md
+    - name: compute octave levels from signal
+      href: operator-specifications/sound/compute_octave_levels_from_signal.md
+    - name: compute one third octave levels from psd
+      href: operator-specifications/sound/compute_one_third_octave_levels_from_psd.md
+    - name: compute one third octave levels from psd ansi s1 11 1986
+      href: operator-specifications/sound/compute_one_third_octave_levels_from_psd_ansi_s1_11_1986.md
+    - name: compute one third octave levels from signal
+      href: operator-specifications/sound/compute_one_third_octave_levels_from_signal.md
     - name: compute overall level
       href: operator-specifications/sound/compute_overall_level.md
     - name: compute power spectral density
@@ -1594,6 +1666,8 @@
       href: operator-specifications/sound/filter_signal.md
     - name: get cropped signal
       href: operator-specifications/sound/get_cropped_signal.md
+    - name: get frequency weighting
+      href: operator-specifications/sound/get_frequency_weighting.md
     - name: isolate orders
       href: operator-specifications/sound/isolate_orders.md
     - name: load FRF from txt
@@ -1662,6 +1736,8 @@
       href: operator-specifications/utility/change_shell_layers.md
     - name: compute time scoping
       href: operator-specifications/utility/compute_time_scoping.md
+    - name: customtypefield get attribute
+      href: operator-specifications/utility/customtypefield_get_attribute.md
     - name: default value
       href: operator-specifications/utility/default_value.md
     - name: delegate to operator
@@ -1682,6 +1758,10 @@
       href: operator-specifications/utility/extract_time_freq.md
     - name: fc get attribute
       href: operator-specifications/utility/fc_get_attribute.md
+    - name: field
+      href: operator-specifications/utility/field.md
+    - name: fields container
+      href: operator-specifications/utility/fields_container.md
     - name: field clone to shell layer
       href: operator-specifications/utility/field_clone_to_shell_layer.md
     - name: field get attribute
@@ -1770,14 +1850,24 @@
       href: operator-specifications/utility/merge_weighted_fields.md
     - name: merge weighted fields containers
       href: operator-specifications/utility/merge_weighted_fields_containers.md
+    - name: mesh
+      href: operator-specifications/utility/mesh.md
+    - name: meshes container
+      href: operator-specifications/utility/meshes_container.md
     - name: mesh to mc
       href: operator-specifications/utility/mesh_to_mc.md
+    - name: operator changelog
+      href: operator-specifications/utility/operator_changelog.md
     - name: operator id
       href: operator-specifications/utility/operator_id.md
     - name: overlap fields
       href: operator-specifications/utility/overlap_fields.md
     - name: producer consumer for each
       href: operator-specifications/utility/producer_consumer_for_each.md
+    - name: propertyfield get attribute
+      href: operator-specifications/utility/propertyfield_get_attribute.md
+    - name: property field
+      href: operator-specifications/utility/property_field.md
     - name: python generator
       href: operator-specifications/utility/python_generator.md
     - name: remote operator instantiate
@@ -1806,5 +1896,4 @@
       href: operator-specifications/utility/unitary_field.md
     - name: weighted merge fields by label
       href: operator-specifications/utility/weighted_merge_fields_by_label.md
-- name: Changelog
-  href: changelog/changelog-25-r2.md
+  
