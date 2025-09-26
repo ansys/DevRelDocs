@@ -4,10 +4,10 @@ This documentation provides a comprehensive guide of the DPF framework as well a
 
 The content is organized into the following sections:
 
-- Getting started: Learn how to install, license, and configure DPF.
-- User guide: Understand the server context, work with data containers and operators, and explore workflow examples.
-- Core concepts: Review essential DPF concepts and available data types.
-- Operator specifications: Access detailed reference documentation for all available operators.
+- Getting started: Instructions for installing, licensing, and configuring DPF.
+- User guide: Learn how to work with the server context, manage data containers and operators, explore workflow examples, and build local documentation when needed.
+- Core concepts: An overview of key DPF concepts and supported data types.
+- Operator specifications: Detailed reference documentation for all available operators.
 
 Whether you are setting up DPF for the first time or looking for in-depth operator details, this guide provides the resources needed to use DPF effectively in your workflows.
 
