@@ -88,7 +88,7 @@ Python environments keep your project separate from other Python installations o
 
 #### Set up DPF permissions
 
-1. **Tell DPF you accept the license** by typing:
+1. **Tell DPF you accept the licensing terms** by typing:
 
    ```powershell
    $env:ANSYS_DPF_ACCEPT_LA = "Y"
