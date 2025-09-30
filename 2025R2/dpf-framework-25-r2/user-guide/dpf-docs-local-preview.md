@@ -44,7 +44,7 @@ Follow these steps to create DPF operators documentation files.
 
 This step prepares your computer with the necessary software and files.
 
-#### Download the pydpf-core
+#### Download the pydpf-core project
 
 1. **Open your command line** (see instructions above if you need help).
 
