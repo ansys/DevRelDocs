@@ -116,7 +116,7 @@ Next, install the main pydpf-core software and a tool needed for documentation g
    cd pydpf-core
    ```
 
-   **What this does:** Moves down one folder level to return to the `pydpf-core` folder
+   **What this does:** Moves down one level to the `pydpf-core` folder
 
 2. **Install pydpf-core** by typing:
 
