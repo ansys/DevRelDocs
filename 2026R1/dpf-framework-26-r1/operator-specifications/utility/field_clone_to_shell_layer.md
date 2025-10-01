@@ -17,7 +17,7 @@ Generates a Field from the Field in input 0 that has the same FieldDefinition wi
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
 | <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  field |[`field`](../../core-concepts/dpf-types.md#field) |  |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  shell_layer |[`int32`](../../core-concepts/dpf-types.md#standard-types), enum dataProcessing::EShellLayers | 0: Top, 1: Bottom, 2: TopBottom, 3: Mid, 4: TopBottomMid. |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  shell_layer |[`int32`](../../core-concepts/dpf-types.md#standard-types), `enum dataProcessing::EShellLayers` | 0: Top, 1: Bottom, 2: TopBottom, 3: Mid, 4: TopBottomMid. |
 | <strong>Pin 2</strong>|  duplicate_scoping |[`bool`](../../core-concepts/dpf-types.md#standard-types) | If true, a new scoping is computed for the output Field. If false, the input Field scoping is used. Default is false. |
 
 ## Outputs

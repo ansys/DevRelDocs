@@ -23,7 +23,7 @@ Reads scope configuration from inputs and outputs a CompositeScopeConfig object.
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| scope_configuration |struct dataProcessing::composite::CompositeScopeConfig | Scope configuration |
+|  **Pin 0**| scope_configuration |`struct dataProcessing::composite::CompositeScopeConfig` | Scope configuration |
 
 ## Configurations
 

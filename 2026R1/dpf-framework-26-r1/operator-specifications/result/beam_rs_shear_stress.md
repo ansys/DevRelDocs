@@ -21,7 +21,7 @@ Read Beam RS Shear Stress (LSDyna) by calling the readers defined by the datasou
 | <strong>Pin 3</strong>|  streams_container |[`streams_container`](../../core-concepts/dpf-types.md#streams-container) | result file container allowed to be kept open to cache data |
 | <strong>Pin 4</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  data_sources |[`data_sources`](../../core-concepts/dpf-types.md#data-sources) | result file path container, used if no streams are set |
 | <strong>Pin 6</strong>|  integration_point |[`int32`](../../core-concepts/dpf-types.md#standard-types) | integration point where the result will be read from. Default value: 0 (first integration point). |
-| <strong>Pin 50</strong>|  unit_system |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`string`](../../core-concepts/dpf-types.md#standard-types), class dataProcessing::unit::CUnitSystem | (LSDyna) Unit System ID (int), semicolon-separated list of base unit strings (str) or UnitSystem instance |
+| <strong>Pin 50</strong>|  unit_system |[`int32`](../../core-concepts/dpf-types.md#standard-types), [`string`](../../core-concepts/dpf-types.md#standard-types), `class dataProcessing::unit::CUnitSystem` | (LSDyna) Unit System ID (int), semicolon-separated list of base unit strings (str) or UnitSystem instance |
 
 ## Outputs
 

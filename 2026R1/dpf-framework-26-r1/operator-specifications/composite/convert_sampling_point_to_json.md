@@ -16,7 +16,7 @@ Converts a sampling point object into a sampling point json string.
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  sampling_point |struct dataProcessing::composite::sampling_point::SamplingPoint | Sampling Point |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  sampling_point |`struct dataProcessing::composite::sampling_point::SamplingPoint` | Sampling Point |
 
 ## Outputs
 
