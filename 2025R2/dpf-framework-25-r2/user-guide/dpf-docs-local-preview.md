@@ -38,7 +38,7 @@ This guide uses the **command line** (also called terminal or PowerShell on Wind
 
 ## Generate DPF operators documentation
 
-Follow these steps to create DPF operators documentation files.
+Follow these steps to create DPF operators documentation files. These are the Markdown source files for the DPF operators section of the documentation.
 
 ### Step 1: Set up your working environment
 
