@@ -140,7 +140,7 @@ Next, install the main pydpf-core software and a tool needed for documentation g
 
 ### Step 4: Generate DPF operators documentation
 
-Next, create the actual DPF operators documentation files. Choose the option that fits your needs.
+Next, generate the DPF operators Markdown documentation files. Choose the option that fits your needs.
 
 #### Option A: Generate DPF operators documentation for everything
 
