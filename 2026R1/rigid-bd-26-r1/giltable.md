@@ -17,7 +17,7 @@ Creates a GIL table from a text file; `filename` is the name of the file
 containing the points (typically a `.CSV` file). This file must be in ASCII
 format, with one data point per row. Each row must contain `sizeIn` \+
 `sizeOut` columns. The columns must be separated by a character specified by
-the argument `separator`. The default value of `separator` is `,`. `scale` is
+the `separator` argument. The default value of `separator` is `,`. `scale` is
 an optional argument that scales all the output values. The default value,
 used if the optional argument is not specified, is 1.0. `noHeader` is a
 boolean, optional argument that should be `true` if there is no first row with
@@ -33,8 +33,8 @@ Example file:
 `AddInterpolationPoint(values)`
 
 Adds an interpolation point to the General Interpolation Table. `values` is a
-one dimensional array of size `sizeIn`+`sizeOut`. The first `sizeIn` values in
-array `values` corresponds to the values of the input variables. The following
+one-dimensional array of size `sizeIn`+`sizeOut`. The first `sizeIn` values in
+array `values` correspond to the values of the input variables. The following
 `sizeOut` values in array `values` correspond to the output values.
 
 Example 1. Creation of a Nonlinear Stiffness Value That Depends on Spin
@@ -73,9 +73,9 @@ Velocity (Omega) and on Deflection (dY)
 
 `AddInterpolationPointArray(values)`
 
-Adds a set of points to the General Interpolation Table. `values` is a two
-dimensional array of size (`numberOfPoints`, `sizeIn`+`sizeOut`). On each row
-of the array, first `sizeIn` values in array `values` corresponds to the
+Adds a set of points to the General Interpolation Table. `values` is a two-dimensional
+array of size (`numberOfPoints`, `sizeIn`+`sizeOut`). On each row
+of the array, the first `sizeIn` values in array `values` correspond to the
 values of the input variables. The following `sizeOut` values in array
 `values` correspond to the output values. Each row contains a single
 interpolation point in the cloud of points.

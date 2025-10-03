@@ -7,8 +7,8 @@ using the following function:
 
 ![polynomial function](./images/eqfeb08486-03aa-461f-b350-a745935a6dab.png)
 
-Where i denotes the index of input and goes from 1 to n (`sizeIn`), j denotes
-the index of output (from 1 to `sizeOut`).
+Where i denotes the index of the input from 1 to n (`sizeIn`) and j denotes
+the index of the output (from 1 to `sizeOut`).
 
 ### Member functions
 
@@ -18,7 +18,7 @@ Creates an empty polynomial table.
 
 `Initialize(constant)`
 
-Specialized for 1x1 table. Initializes the table to be a 1 input, 1 output
+Specialized for a 1x1 table. Initializes the table to be a 1 input, 1 output
 table, and sets the constant term (constant is a float value).
 
 `Initialize(sizeIn,sizeOut,constantValues)`
@@ -29,7 +29,7 @@ values, and `constantValues` is an array of `sizeOut` float values.
 
 `AddTerm(coefficient,order)`
 
-Specialized for 1x1 table. Adds one monomial term to the table. The
+Specialized for a 1x1 table. Adds one monomial term to the table. The
 coefficient is a float value and order is an integer value giving the power of
 the input.
 

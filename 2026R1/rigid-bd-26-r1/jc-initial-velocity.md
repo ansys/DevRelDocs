@@ -1,6 +1,6 @@
 # Joint condition: initial velocity
 
-This example shows how to impose an initial velocity to a joint. A velocity
+This example shows how to impose an initial velocity on a joint. A velocity
 driver (joint condition) is created using commands and added to the list of
 initial conditions. During the transient solve, initial conditions are applied
 only at t=0.
@@ -30,9 +30,9 @@ The complete list of commands and their explanation follows.
 
     The driver constructor takes the joint instance as the first argument. The
     second argument is an array of integers that defines which DOFs are active. The
-    physical meaning of these integers is dependent of the joint. For instance, if
-    the underlying joint is a translation joint, 0 is the translation along the x-axis. But
-    if the joint is revolute, 0 is now the rotation about the z-axis. Similarly, for a
+    physical meaning of these integers is dependent on the joint. For instance, if
+    the underlying joint is a translational joint, 0 is the translation along the x-axis.
+    If the joint is revolute, 0 is now the rotation about the z-axis. Similarly, for a
     cylindrical joint, 0 is is the translation along the z-axis, and 1 is the rotation. The
     last argument gives the type of driver (here velocity). Drivers can be one of
     three types: position, velocity, or acceleration.
