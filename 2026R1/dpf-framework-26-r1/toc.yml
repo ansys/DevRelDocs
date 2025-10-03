@@ -1807,4 +1807,4 @@
     - name: weighted merge fields by label
       href: operator-specifications/utility/weighted_merge_fields_by_label.md
 - name: Changelog
-  href: changelog/changelog-25-r2.md
+  href: changelog/changelog.md
