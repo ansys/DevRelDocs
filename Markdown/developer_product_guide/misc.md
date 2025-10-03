@@ -99,7 +99,6 @@ This open-source PyAnsys library provides a collection of components shared acro
 
 [PyAnsys Shared Components documentation (PyAnsys)](https://shared.docs.pyansys.com/)
 
-
 ## Workbench
 
 Ansys Workbench provides Python journaling capabilities. The Python interpreter enables Python scripting within the application. It also includes an interpreter that interacts with the application and PyWorkbench, an open-source PyAnsys library.

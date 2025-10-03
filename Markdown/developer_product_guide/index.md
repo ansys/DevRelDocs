@@ -18,6 +18,14 @@ This page provides links to general information useful for all Ansys developers.
 * [Ansys Learning Hub (ALH)](https://learninghub.ansys.com/pages/17/home-page)
 * [EMEA PyAnsys Training Q4|24](https://developer.ansys.com/knowledge-base/pyansys-training-q4-24)
 
+## Ansys Python Manager
+
+If you are interested in getting started with PyAnsys or any of Ansys' Python tools, Ansys provides the open-source Ansys Python Manager for assistance with installing Python and creating virtual environments.
+
+* Read more about the tool in this article, [Ansys Python Manager](https://developer.ansys.com/ansys-python-manager).
+* Access the docs, [Ansys Python Manager documentation](https://installer.docs.pyansys.com/).
+* Download the latest release, [Ansys Python Manager releases](https://github.com/ansys/python-installer-qt-gui/releases).
+
 ## All Products
 
 * [AEDT](<https://developer.ansys.com/docs/ansys-developer-product-guide/electronics_and_semiconductors.md#ip-aedt>)
