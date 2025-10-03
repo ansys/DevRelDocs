@@ -17,20 +17,20 @@ The script is returned as a string, and can optionally be saved to a specified p
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  workflow |[`workflow`](./../../core-concepts/dpf-types.md#workflow) |  |
-| <strong>Pin 1</strong>|  output_path |[`string`](./../../core-concepts/dpf-types.md#standard-types) |  |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  workflow |[`workflow`](../../core-concepts/dpf-types.md#workflow) |  |
+| <strong>Pin 1</strong>|  output_path |[`string`](../../core-concepts/dpf-types.md#standard-types) |  |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| pydpf_code |[`string`](./../../core-concepts/dpf-types.md#standard-types) |  |
+|  **Pin 0**| pydpf_code |[`string`](../../core-concepts/dpf-types.md#standard-types) |  |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 

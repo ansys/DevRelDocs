@@ -16,21 +16,21 @@ Filters a 1D signal, using a linear, time-invariant digital filter. The filter i
 
 | Input | Name | Expected type(s) | Description |
 |-------|-------|------------------|-------------|
-| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  signal_to_filter |[`field`](./../../core-concepts/dpf-types.md#field) | Signal to filter. |
-| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  filter_b_coefficients |[`vector<double>`](./../../core-concepts/dpf-types.md#standard-types) | Coefficients B of the filter. |
-| <strong>Pin 2</strong>|  filter_a_coefficients |[`vector<double>`](./../../core-concepts/dpf-types.md#standard-types) | (Optional) Coefficients A of the filter. |
+| <strong>Pin 0</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  signal_to_filter |[`field`](../../core-concepts/dpf-types.md#field) | Signal to filter. |
+| <strong>Pin 1</strong> <br><span style="background-color:#d93025; color:white; padding:2px 6px; border-radius:3px; font-size:0.75em;">Required</span>|  filter_b_coefficients |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) | Coefficients B of the filter. |
+| <strong>Pin 2</strong>|  filter_a_coefficients |[`vector<double>`](../../core-concepts/dpf-types.md#standard-types) | (Optional) Coefficients A of the filter. |
 
 ## Outputs
 
 | Output |  Name | Expected type(s) | Description |
 |-------|------|------------------|-------------|
-|  **Pin 0**| filtered_signal |[`field`](./../../core-concepts/dpf-types.md#field) | Filtered signal, as a field. |
+|  **Pin 0**| filtered_signal |[`field`](../../core-concepts/dpf-types.md#field) | Filtered signal, as a field. |
 
 ## Configurations
 
 | Name| Expected type(s) | Default value | Description |
 |-----|------|----------|-------------|
-| **mutex** |[`bool`](./../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
+| **mutex** |[`bool`](../../core-concepts/dpf-types.md#standard-types) | false | If this option is set to true, the shared memory is prevented from being simultaneously accessed by multiple threads. |
 
 ## Scripting
 
