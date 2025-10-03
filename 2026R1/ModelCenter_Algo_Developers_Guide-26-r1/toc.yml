@@ -243,5 +243,5 @@
         href: api/Namespaces/Classes/ClassList.md
       - name: Class Index
         href: api/Namespaces/Classes/ClassIndex.md
-- name: Change Log
-  href: change_log.md
+- name: Changelog
+  href: changelog.md
